@@ -1,0 +1,85 @@
+{
+  "main": {
+    "id": "39f7e10c4972f561",
+    "type": "split",
+    "children": [
+      {
+        "id": "59d1fa6028db4a0c",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6d4d1d01c38a9811",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ddaf86ab0ccac36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7158d8012b603a98",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9002cdb2933e2996",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fdba60f75a17940b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef87d19d67045db0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58afd861381b8805",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "README.md",
+    "Mitarbeit.md",
+    "Referenzsystem.md",
+    "Odoo Handbuch.md",
+    "Untitled.md"
+  ]
+}
