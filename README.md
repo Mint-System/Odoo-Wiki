@@ -4,6 +4,8 @@ Das Odoo Handbuch ist eine Referenzdokumentation der Odoo-Prozesse und bietet ei
 
 ## Referenzsystem
 
+[Referenzsystem](Referenzsystem.md)
+
 ## Mitarbeit
 
-Möchten sie eine Kopie vom Odoo Handbuch erstellen und ihre Änderungen mit der Ursprungsversion zusammenführen? Mehr Details dazu gibt es unter [Mitarbeit](Mitarbeit).
+Möchten sie eine Kopie vom Odoo Handbuch erstellen und ihre Änderungen mit der Ursprungsversion zusammenführen? Mehr Details dazu gibt es unter Mitarbeit.
