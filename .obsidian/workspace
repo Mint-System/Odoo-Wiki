@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Referenzsystem.md",
             "mode": "source"
           }
         }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md"
+                "file": "Referenzsystem.md"
               }
             }
           }
@@ -72,14 +72,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 263.0086364746094,
     "collapsed": true
   },
   "lastOpenFiles": [
-    "README.md",
-    "Mitarbeit.md",
     "Referenzsystem.md",
-    "Odoo Handbuch.md",
-    "Untitled.md"
+    "README.md",
+    "Update.md",
+    "Dashboards.md",
+    "Abwesenheitszeiten.md",
+    "Untitled.md",
+    "Finanzen.md",
+    "Projekt.md",
+    "PLM.md",
+    "Fertigung.md"
   ]
 }
