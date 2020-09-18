@@ -1,5 +1,5 @@
 # Datenmanagement
-![[icons_odoo_website_sale_options.png]]
+![icons_odoo_website_sale_options](icons_odoo_website_sale_options.png)
 
 ## Daten exportieren
 

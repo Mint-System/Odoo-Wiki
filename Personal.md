@@ -1,5 +1,5 @@
 # Personal
-![[icons_odoo_hr.png]]
+![icons_odoo_hr](icons_odoo_hr.png)
 
 Odoo unterscheidet zwischen Benutzer und Mitarbeiter. Mitarbeiter müssen nicht zwingend einen Odoo-Account besitzen. Zur Verwendung von Apps wie die Zeiterfassung muss den Benutzer ein Mitarbeiter hinterlegt werden.
 

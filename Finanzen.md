@@ -1,5 +1,5 @@
 # Finanzen
-![[icons_odoo_account_accountant.png]]
+![icons_odoo_account_accountant](icons_odoo_account_accountant.png)
 
 ## Finanzen Dashboard
 

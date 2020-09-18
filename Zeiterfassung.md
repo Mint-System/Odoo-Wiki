@@ -1,5 +1,5 @@
 # Zeiterfassung
-![[icons_odoo_hr_timesheet.png]]
+![icons_odoo_hr_timesheet](icons_odoo_hr_timesheet.png)
 
 ## Zeiterfassung Dashboard
 
@@ -20,7 +20,7 @@ Um die mobile App *Awesome Timesheet* in ihrem Browser oder auf dem Smartphone z
 #### **Schritt 1**
 Öffnen sie das Menu und wählen *Synchronize*.
 
-![[Awesome Timesheet Login 1.png]]
+![Awesome Timesheet Login 1](Awesome%20Timesheet%20Login%201.png)
 
 #### **Schritt 2**
 Klick auf *Sign In*.
@@ -30,17 +30,17 @@ Klick auf *Sign In*.
 #### **Schritt 3**
 *Https://* auswählen und die Odoo Domain eingeben.
 
-![[Awesome Timesheet Login 5.png]]
+![Awesome Timesheet Login 5](Awesome%20Timesheet%20Login%205.png)
 
 #### **Schritt 4**
 Im Feld *Login* die Email und Feld *Password* das Passwort eingeben. Einloggen mit klick auf *Login*.
 
-![[Awesome Timesheet Login 4.png]]
+![Awesome Timesheet Login 4](Awesome%20Timesheet%20Login%204.png)
 
 #### **Schritt 5**
 Erscheint ein Dialog, wählen sie *Discard Data*.
 
-![[Awesome Timesheet Login 3.png]]
+![Awesome Timesheet Login 3](Awesome%20Timesheet%20Login%203.png)
 <!-- tabs:end -->
 
 Nun ist die App bereit zur mobilen Zeiterfassung.

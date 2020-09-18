@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "59d1fa6028db4a0c",
+        "id": "e273c806eed54357",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Referenzsystem.md",
+            "file": "Link Tracker.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ""
+                "query": "entwicklermodus"
               }
             }
           }
@@ -48,7 +48,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 620
   },
   "right": {
     "id": "fdba60f75a17940b",
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Referenzsystem.md"
+                "file": "Link Tracker.md"
               }
             }
           }
@@ -72,19 +72,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.0086364746094,
-    "collapsed": true
+    "width": 263.0086364746094
   },
   "lastOpenFiles": [
-    "Referenzsystem.md",
-    "README.md",
+    "Link Tracker.md",
+    "Einstellungen.md",
+    "assets/Odoo Übersetzung bearbeiten.png",
+    "assets/Odoo Handbuch Benutzerrechte.png",
+    "Zeiterfassung.md",
+    "Website.md",
+    "Verkäufe.md",
     "Update.md",
-    "Dashboards.md",
-    "Abwesenheitszeiten.md",
-    "Untitled.md",
-    "Finanzen.md",
-    "Projekt.md",
-    "PLM.md",
-    "Fertigung.md"
+    "Studio.md",
+    "Referenzsystem.md"
   ]
 }

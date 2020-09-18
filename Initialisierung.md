@@ -1,5 +1,5 @@
 # Initialisierung
-![[icons_odoo_survey.png]]
+![icons_odoo_survey](icons_odoo_survey.png)
 
 Richten sie ihre Odoo-Umgebung ein.
 

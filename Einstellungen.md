@@ -1,5 +1,5 @@
 # Einstellungen
-![[icons_odoo_settings.png]]
+![icons_odoo_settings](icons_odoo_settings.png)
 
 ## Entwicklermodus aktivieren
 
@@ -11,7 +11,7 @@ Auf *Entwicklermodus aktivieren* klicken. Nun erscheinen neue Optionen in versch
 
 **Generierung**
 
-Damit Begriffe überesetzt werden können, muss als erstes die Liste, der zu übersetzenden Begriffe aktualisiert werden.  Im [[#Entwicklermodus aktivieren|Entwickler-Modus]] folgende Aktionen ausführen:
+Damit Begriffe überesetzt werden können, muss als erstes die Liste, der zu übersetzenden Begriffe aktualisiert werden.  Im [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) folgende Aktionen ausführen:
 
 *Einstellungen > Übersetzungen > Fehlende Begriffe generieren*.
 
@@ -25,15 +25,15 @@ Findet man einen Begriff oder Satz, der nicht korrekt übersetzt ist, kann man d
 
 Der folgende Ausschnitt ist aus einem Odoo-Dialog. Die Labels und Buttons sind nicht übersetzt.
 
-![[Odoo Übersetzung vorher.png]]
+![Odoo Übersetzung vorher](Odoo%20%C3%9Cbersetzung%20vorher.png)
 
 Als erstes muss man  die [[#Übersetzungen aktualisieren]]. Anschliessend kann man in der Liste *Einstellungen > Übersetzungen > Übersetzte Begriffe* den englischen Begriff suchen und anpassen.
 
-![[Odoo Übersetzung bearbeiten.png]]
+![Odoo Übersetzung bearbeiten](Odoo%20%C3%9Cbersetzung%20bearbeiten.png)
 
 Nun ist der Odoo-Dialog übersetzt.
 
-![[Odoo Übersetzung nachher.png]]
+![Odoo Übersetzung nachher](Odoo%20%C3%9Cbersetzung%20nachher.png)
 
 ## Übersetzungen exportieren
 
@@ -50,7 +50,7 @@ Laden sie die Datei mit Übersetzungen hoch und klicken auf *Import*.
 
 ## Tour deaktivieren
 
-Aktivieren Sie den [[#Entwicklermodus aktivieren|Entwicklermodus]].
+Aktivieren Sie den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren).
 
 Klicken sie auf das Käfer-Symbol in der Menu-Leiste oben rechts. Wählen sie *Tour deaktivieren*.
 
@@ -58,7 +58,7 @@ Klicken sie auf das Käfer-Symbol in der Menu-Leiste oben rechts. Wählen sie *T
 
 Navigieren sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen sie den Benutzer, dessen Zugriffsrechte sie verändern möchten. Drücken sie auf *Bearbeiten* und wählen sie nun über die Dropdown oder Checkboxen die Rollen und Zugriffe aus.
 
-![[Odoo Handbuch Benutzerrechte.png]]
+![Odoo Handbuch Benutzerrechte](Odoo%20Handbuch%20Benutzerrechte.png)
 
 Klicken Sie auf speichern um den Vorgang abzuschliessen.
 

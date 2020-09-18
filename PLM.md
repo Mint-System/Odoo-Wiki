@@ -1,5 +1,5 @@
 # PLM
-![[icons_odoo_mrp_plm.png]]
+![icons_odoo_mrp_plm](icons_odoo_mrp_plm.png)
 
 ## Begriffe
 
