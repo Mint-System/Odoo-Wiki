@@ -8,13 +8,17 @@ Das Odoo Handbuch ist eine Referenzdokumentation der Odoo-Prozesse und bietet ei
 
 # Apps
 
-[Initialisierung](Initialisierung.md)
+[![icons_odoo_survey](icons_odoo_survey.png) Initialisierung](Initialisierung.md)
+
 [Persönliche Einstellungen](Pers%C3%B6nliche%20Einstellungen.md)
 [Apps](Apps.md)
 [Einstellungen](Einstellungen.md)
 [Diskussion](Diskussion.md)
 [Kalender](Kalender.md)
-[Kontakte](Kontakte.md)
+
+[![icons_odoo_contacts](icons_odoo_contacts.png)](Kontakte.md)
+Kontakte
+
 [Notizen](Notizen.md)
 [Dashboards](Dashboards.md)
 [Kundenverwaltung](Kundenverwaltung.md)

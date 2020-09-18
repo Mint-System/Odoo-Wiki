@@ -6,11 +6,22 @@
       {
         "id": "e273c806eed54357",
         "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Initialisierung.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "83329c9c1efcfa74",
+        "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Link Tracker.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -48,7 +59,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 620
+    "width": 382
   },
   "right": {
     "id": "fdba60f75a17940b",
@@ -64,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Link Tracker.md"
+                "file": "README.md"
               }
             }
           }
@@ -72,18 +83,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.0086364746094
+    "width": 263.0086364746094,
+    "collapsed": true
   },
   "lastOpenFiles": [
+    "README.md",
+    "Initialisierung.md",
+    "Abwesenheitszeiten.md",
+    "Kontakte.md",
+    "Personal.md",
+    "Personalabrechnung.md",
+    "assets/Pasted image.png",
+    "Fleet.md",
     "Link Tracker.md",
-    "Einstellungen.md",
-    "assets/Odoo Übersetzung bearbeiten.png",
-    "assets/Odoo Handbuch Benutzerrechte.png",
-    "Zeiterfassung.md",
-    "Website.md",
-    "Verkäufe.md",
-    "Update.md",
-    "Studio.md",
-    "Referenzsystem.md"
+    "Einstellungen.md"
   ]
 }
