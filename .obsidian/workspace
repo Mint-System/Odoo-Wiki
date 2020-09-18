@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Kalender.md",
             "mode": "source"
           }
         }
@@ -75,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md"
+                "file": "Kalender.md"
               }
             }
           }
@@ -87,15 +87,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "README.md",
+    "Kalender.md",
+    "Fertigung.md",
+    "Entwicklung.md",
     "Initialisierung.md",
+    "README.md",
+    "Untitled 1.md",
+    "Untitled.md",
     "Abwesenheitszeiten.md",
     "Kontakte.md",
-    "Personal.md",
-    "Personalabrechnung.md",
-    "assets/Pasted image.png",
-    "Fleet.md",
-    "Link Tracker.md",
-    "Einstellungen.md"
+    "Personal.md"
   ]
 }

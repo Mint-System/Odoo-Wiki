@@ -1,0 +1,2 @@
+- [Home](/)
+- [Knowledge Mint System](https://knowledge.mint-system.ch)
