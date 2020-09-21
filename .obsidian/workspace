@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Referenzsystem.md",
+            "file": "Notizen.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Referenzsystem.md"
+                "file": "Notizen.md"
               }
             }
           }
@@ -87,6 +87,8 @@
     "width": 228
   },
   "lastOpenFiles": [
+    "Notizen.md",
+    "assets/Pasted image.png",
     "Referenzsystem.md",
     "Zeiterfassung.md",
     "Website.md",
@@ -94,8 +96,6 @@
     "Update.md",
     "Studio.md",
     "README.md",
-    "Prozesslandkarte.md",
-    "Prozess Produktion.md",
-    "Prozess Entwicklung.md"
+    "Prozesslandkarte.md"
   ]
 }
