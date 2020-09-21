@@ -1,5 +1,5 @@
 # Einstellungen
-![icons_odoo_settings](icons_odoo_settings.png)
+![icons_odoo_settings](assets/icons_odoo_settings.png)
 
 ## Entwicklermodus aktivieren
 
@@ -27,7 +27,7 @@ Der folgende Ausschnitt ist aus einem Odoo-Dialog. Die Labels und Buttons sind n
 
 ![Odoo Übersetzung vorher](Odoo%20%C3%9Cbersetzung%20vorher.png)
 
-Als erstes muss man  die [[#Übersetzungen aktualisieren]]. Anschliessend kann man in der Liste *Einstellungen > Übersetzungen > Übersetzte Begriffe* den englischen Begriff suchen und anpassen.
+Als erstes muss man  die [Übersetzungen aktualisieren](#%C3%9Cbersetzungen%20aktualisieren). Anschliessend kann man in der Liste *Einstellungen > Übersetzungen > Übersetzte Begriffe* den englischen Begriff suchen und anpassen.
 
 ![Odoo Übersetzung bearbeiten](Odoo%20%C3%9Cbersetzung%20bearbeiten.png)
 

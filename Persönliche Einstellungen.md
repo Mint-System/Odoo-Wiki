@@ -1,5 +1,5 @@
 # Persönliche Einstellungen
-![icons_odoo_membership](icons_odoo_membership.png)
+![icons_odoo_membership](assets/icons_odoo_membership.png)
 
 Einstellungen für ihren persönlichen Odoo-Benutzer.
 

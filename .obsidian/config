@@ -12,5 +12,7 @@
   },
   "useMarkdownLinks": true,
   "strictLineBreaks": true,
-  "attachmentFolderPath": "assets"
+  "attachmentFolderPath": "assets",
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative"
 }

@@ -1,2 +1,2 @@
 # Notizen
-![icons_odoo_note](icons_odoo_note.png)
+![icons_odoo_note](assets/icons_odoo_note.png)

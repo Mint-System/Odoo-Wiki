@@ -1,2 +1,2 @@
 # Website
-![icons_odoo_website](icons_odoo_website.png)
+![icons_odoo_website](assets/icons_odoo_website.png)

@@ -1,5 +1,5 @@
 # Projekt
-![icons_odoo_project](icons_odoo_project.png)
+![icons_odoo_project](assets/icons_odoo_project.png)
 
 ## Projektplanung erstellen
 

@@ -4,24 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "e273c806eed54357",
+        "id": "86c8f216ba620fe2",
         "type": "leaf",
+        "dimension": 23.446658851113718,
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Initialisierung.md",
-            "mode": "source"
+            "file": "assets/icons_odoo_calendar.png"
           }
         }
       },
       {
-        "id": "83329c9c1efcfa74",
+        "id": "869c4c0710c9b849",
         "type": "leaf",
+        "dimension": 76.55334114888629,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kalender.md",
+            "file": "Referenzsystem.md",
             "mode": "source"
           }
         }
@@ -51,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "entwicklermodus"
+                "query": "[["
               }
             }
           }
@@ -59,7 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382
+    "width": 299
   },
   "right": {
     "id": "fdba60f75a17940b",
@@ -75,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kalender.md"
+                "file": "Referenzsystem.md"
               }
             }
           }
@@ -83,19 +84,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.0086364746094,
-    "collapsed": true
+    "width": 228
   },
   "lastOpenFiles": [
-    "Kalender.md",
-    "Fertigung.md",
-    "Entwicklung.md",
-    "Initialisierung.md",
+    "Referenzsystem.md",
+    "Zeiterfassung.md",
+    "Website.md",
+    "Verkäufe.md",
+    "Update.md",
+    "Studio.md",
     "README.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "Abwesenheitszeiten.md",
-    "Kontakte.md",
-    "Personal.md"
+    "Prozesslandkarte.md",
+    "Prozess Produktion.md",
+    "Prozess Entwicklung.md"
   ]
 }

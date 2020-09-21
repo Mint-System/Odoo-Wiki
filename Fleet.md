@@ -1,5 +1,5 @@
 # Fleet
-![icons_odoo_fleet](icons_odoo_fleet.png)
+![icons_odoo_fleet](assets/icons_odoo_fleet.png)
 
 Das App dient zur Verwaltung von Fahrzeugen. Es können Fahrzeugdaten, Leasing-Verträge, Servicekosten oder Treibstoffkosten erfasst werden.
 

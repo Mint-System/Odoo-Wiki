@@ -1,2 +1,2 @@
 # Diskussion
-![icons_odoo_mail](icons_odoo_mail.png)
+![icons_odoo_mail](assets/icons_odoo_mail.png)

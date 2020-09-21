@@ -1,2 +1,2 @@
 # Kalender
-![icons_odoo_calendar](icons_odoo_calendar.png)
+![icons_odoo_calendar](assets/icons_odoo_calendar.png)
