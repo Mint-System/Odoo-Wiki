@@ -2,6 +2,10 @@
 
 Das Odoo Handbuch ist eine Referenzdokumentation der Odoo-Prozesse und bietet eine umfangreiche Benutzeranleitung.
 
+## Mitarbeit
+
+Sie können eine Kopie des Handbuchs erstellen und für eigene Zwecke nutzen. Ebenfalls können sie Änderungen mitteilen und mit dem offizielen Handbuch zusammenführen. Mehr dazu unter [Mitarbeit](Mitarbeit.md).
+
 ## Referenzsystem
 
 [Referenzsystem](Referenzsystem.md)
@@ -91,3 +95,6 @@ Update](Update.md)
 
 [![icons_odoo_website_version](assets/icons_odoo_website_version.png)  
 Datenbankmanager](Datenbankmanager.md)
+
+[![icons_odoo_website_forum](assets/icons_odoo_website_forum.png)  
+Troubleshooting](Troubleshooting.md)
