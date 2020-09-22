@@ -15,6 +15,9 @@ Sie können eine Kopie des Handbuchs erstellen und für eigene Zwecke nutzen. Eb
 [![icons_odoo_survey](assets/icons_odoo_survey.png)  
 Initialisierung](Initialisierung.md)
 
+[![icons_odoo_website_crm_score](assets/icons_odoo_website_crm_score.png)  
+Navigation](Navigation.md)
+
 [![icons_odoo_membership](assets/icons_odoo_membership.png)  
 Persönliche Einstellungen](Pers%C3%B6nliche-Einstellungen.md)
 
