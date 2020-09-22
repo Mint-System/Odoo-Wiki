@@ -16,7 +16,7 @@ Sie können eine Kopie des Handbuchs erstellen und für eigene Zwecke nutzen. Eb
 Initialisierung](Initialisierung.md)
 
 [![icons_odoo_membership](assets/icons_odoo_membership.png)  
-Persönliche Einstellungen](Pers%C3%B6nliche%20Einstellungen.md)
+Persönliche Einstellungen](Pers%C3%B6nliche-Einstellungen.md)
 
 [![icons_odoo_modules](assets/icons_odoo_modules.png)  
 Apps](Apps.md)
@@ -72,8 +72,8 @@ Abwesenheitszeiten](Abwesenheitszeiten.md)
 [![icons_odoo_website_partner](assets/icons_odoo_website_partner.png)  
 Link Tracker](Link%20Tracker.md)
 
-[![](assets/icons_odoo_app.png)  
-Odoo App](Odoo%20App.md)
+[![icons_odoo_app](assets/icons_odoo_app.png)  
+Odoo App](Odoo-App.md)
 
 [![icons_odoo_fleet](assets/icons_odoo_fleet.png)  
 Fleet](Fleet.md)
