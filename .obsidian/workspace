@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Navigation.md",
-            "mode": "preview"
+            "file": "Mitarbeit.md",
+            "mode": "source"
           }
         }
       }
@@ -48,7 +48,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299
+    "width": 568
   },
   "right": {
     "id": "fdba60f75a17940b",
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Navigation.md"
+                "file": "Mitarbeit.md"
               }
             }
           }
@@ -75,15 +75,15 @@
     "width": 228
   },
   "lastOpenFiles": [
+    "Mitarbeit.md",
+    "PLM.md",
+    "Finanzen.md",
+    "Zeiterfassung.md",
     "Navigation.md",
     "assets/Pasted image.png",
     "README.md",
     "Untitled.md",
     "Kundenverwaltung.md",
-    "Kontakte.md",
-    "Odoo-App.md",
-    "Odoo App.md",
-    "Mitarbeit.md",
-    "Persönliche-Einstellungen.md"
+    "Kontakte.md"
   ]
 }
