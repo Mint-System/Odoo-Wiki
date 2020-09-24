@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Mitarbeit.md",
+            "file": "Referenzsystem.md",
             "mode": "source"
           }
         }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mitarbeit.md"
+                "file": "Referenzsystem.md"
               }
             }
           }
@@ -75,6 +75,7 @@
     "width": 228
   },
   "lastOpenFiles": [
+    "Referenzsystem.md",
     "Mitarbeit.md",
     "PLM.md",
     "Finanzen.md",
@@ -83,7 +84,6 @@
     "assets/Pasted image.png",
     "README.md",
     "Untitled.md",
-    "Kundenverwaltung.md",
-    "Kontakte.md"
+    "Kundenverwaltung.md"
   ]
 }
