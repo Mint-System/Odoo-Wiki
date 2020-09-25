@@ -8,7 +8,8 @@
     "backlink": true,
     "command-palette": true,
     "markdown-importer": true,
-    "word-count": true
+    "word-count": true,
+    "custom-css": true
   },
   "useMarkdownLinks": true,
   "strictLineBreaks": true,

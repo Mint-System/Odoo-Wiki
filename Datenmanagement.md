@@ -3,6 +3,12 @@
 
 ## Daten exportieren
 
+
+
 ## Daten importieren
 
-!> Odoo lässt nicht zu, dass Daten überschrieben werden.
+## Daten aktualisieren
+
+Den Entwicklermodus aktivieren.
+Einen Datenexport starten.
+Die Checkbox *I want to update data (import-compatible export)* markieren.

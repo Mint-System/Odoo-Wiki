@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Referenzsystem.md",
+            "file": "Datenmanagement.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[["
+                "query": "Import"
               }
             }
           }
@@ -48,7 +48,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 568
+    "width": 356
   },
   "right": {
     "id": "fdba60f75a17940b",
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Referenzsystem.md"
+                "file": "Datenmanagement.md"
               }
             }
           }
@@ -72,18 +72,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228
+    "width": 228,
+    "collapsed": true
   },
   "lastOpenFiles": [
+    "Datenmanagement.md",
+    "PLM.md",
+    "Notizen.md",
+    "Odoo-App.md",
+    "Einstellungen.md",
     "Referenzsystem.md",
     "Mitarbeit.md",
-    "PLM.md",
     "Finanzen.md",
     "Zeiterfassung.md",
-    "Navigation.md",
-    "assets/Pasted image.png",
-    "README.md",
-    "Untitled.md",
-    "Kundenverwaltung.md"
+    "Navigation.md"
   ]
 }
