@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "863b2d863747f111",
+        "id": "e03c06e230963671",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Datenmanagement.md",
-            "mode": "source"
+            "file": "Fertigung-Stammdaten.md",
+            "mode": "preview"
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Import"
+                "query": "Referen"
               }
             }
           }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Datenmanagement.md"
+                "file": "Fertigung-Stammdaten.md"
               }
             }
           }
@@ -72,19 +72,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228,
-    "collapsed": true
+    "width": 228
   },
   "lastOpenFiles": [
-    "Datenmanagement.md",
-    "PLM.md",
-    "Notizen.md",
-    "Odoo-App.md",
-    "Einstellungen.md",
-    "Referenzsystem.md",
+    "Fertigung-Stammdaten.md",
+    "Fertigung.md",
+    "README.md",
     "Mitarbeit.md",
-    "Finanzen.md",
-    "Zeiterfassung.md",
-    "Navigation.md"
+    "Untitled.md",
+    "Persönliche-Einstellungen.md",
+    "Notes Kurt Gisler/Produktionsdaten definieren.md",
+    "Notes Kurt Gisler/Arbeitsplan anlegen.md",
+    "Notes Kurt Gisler/Arbeitsplatz anlegen.md",
+    "Notes Kurt Gisler/Arbeitsplätze anlegen.png"
   ]
 }

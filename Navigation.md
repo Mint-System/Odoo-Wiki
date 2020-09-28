@@ -21,6 +21,6 @@ Klicken sie auf *Zeiterfassung* werden alle Zeiterfassungs-Einträge des Projekt
 
 Odoo-Verknüpft die Geschäftsobjekte über diverse Links. Dies erlaubt eine flexible Navigation. Beispielsweise kann man über die Kontakte-App in die Verkäufe-App gelangen ohne dass sich der Navigations-Titell ändert.
 
-![](assets/Odoo%20Navigation%20Pfad.png)
+![](assets/Navigation%20Pfad.png)
 
 !> Beachten sie immer in welchem Kontext sie sich in der Navigation befinden.

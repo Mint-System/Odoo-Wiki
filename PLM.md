@@ -23,6 +23,6 @@ Wählen sie den Typen aus und legen die Optionen fest.
 
 Klicken sie auf *PLM > Änderungen > + Anlegen*.
 
-![](assets/Odoo%20PLM%20%C3%84nderungsauftrag%20erfassen.gif)
+![](assets/PLM%20%C3%84nderungsauftrag%20erfassen.gif)
 
 Wählen Sie *Neue Revision starten*.

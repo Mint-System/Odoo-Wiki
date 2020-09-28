@@ -12,3 +12,9 @@ Navigieren nach *Finanzen > Konfiguration > Einstellungen > Währungen* und dort
 Euro -> CHF 1.1061
 
 ### Währungskurse synchronisieren
+
+## Rechnungen digitalisieren
+
+Mit Odoo können PDF-Rechnung einfach gescannt und verarbeitet werden. Die Rechnungsdigitalisierung liest die Zahlungsinformationen aus dem PDF und erstellt eine Lieferantenrechnung.
+
+Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits können unter [Odoo IAP](https://iap.odoo.com/iap/in-app-services/259) erworben werden.

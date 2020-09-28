@@ -1,0 +1,3 @@
+# Feld Strichcode
+
+Typ: Text

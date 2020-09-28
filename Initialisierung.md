@@ -1,6 +1,8 @@
 # Initialisierung
 ![icons_odoo_survey](assets/icons_odoo_survey.png)
 
+[Datenbank erstellen](Notes%20Kurt%20Gisler/Datenbank%20erstellen)
+
 Richten sie ihre Odoo-Umgebung ein.
 
 ## Unternehmensdaten
@@ -20,7 +22,7 @@ Benötigte Informationen:
 
 Beim ersten Login erscheint die Meldung, dass die Odoo-Installation nicht aktiviert ist. 
 
-![](Odoo%20Enterprise%20aktivieren.png)
+![](assets/Intialisierung%20Odoo%20Enterprise%20aktivieren.png)
 
 ## Mehrwertsteuer
 

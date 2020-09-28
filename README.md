@@ -73,10 +73,16 @@ Personalabrechnung](Personalabrechnung.md)
 Abwesenheitszeiten](Abwesenheitszeiten.md)
 
 [![icons_odoo_website_partner](assets/icons_odoo_website_partner.png)  
-Link Tracker](Link%20Tracker.md)
+Link Tracker](Link-Tracker.md)
 
 [![icons_odoo_app](assets/icons_odoo_app.png)  
 Odoo App](Odoo-App.md)
+
+[![icons_odoo_stock](assets/icons_odoo_stock.png)  
+Lager](Lager.md)
+
+[![icons_odoo_stock_barcode](assets/icons_odoo_stock_barcode.png)  
+Strichode](Strichcode.md)
 
 [![icons_odoo_fleet](assets/icons_odoo_fleet.png)  
 Fleet](Fleet.md)
