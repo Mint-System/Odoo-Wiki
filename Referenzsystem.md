@@ -19,6 +19,10 @@ Sie zeigt in einer grafischen Übersicht alle Prozesse und deren Zusammenhänge.
 - Lieferantenbeurteilung
 - Administration
 
+## Rollen
+
+[Rollen](Rollen.md)
+
 ## Tabellarische Übersicht Benutzeranleitungen
 Prozess |Aufgabe|Anleitung
 :- |:- |:-

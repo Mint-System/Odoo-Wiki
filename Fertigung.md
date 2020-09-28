@@ -4,3 +4,5 @@
 ## Bereiche
 
 * [Fertigung-Stammdaten](Fertigung-Stammdaten.md)
+
+## Arbeitsplätze einrichten

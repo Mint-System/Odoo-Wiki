@@ -14,6 +14,23 @@ Pfade und Bezeichnungen werden kursiv geschrieben.
 🚫 Drücken sie auf "+ Anlegen"  
 ✅ Drücken sie auf *+ Anlegen*
 
+## Markierungen
+
+Um Inhalte speziell zu markieren gibt es zwei Optionen.
+
+Markup:
+```
+?> Info
+
+!> Warnung
+```
+
+Output:
+
+?> Info
+
+!> Warnung
+
 ## Konventionen
 
 **Keine Leerschläge**
@@ -45,7 +62,8 @@ Für jede Odoo-App existiert eine Seite. Beispielsweise für die Notiz-App gibt 
 
 Information about the App
 
-## Action
+## Task
+Role: ![](Role#Rolename)
 
 Describe an interaction with the App.
 
@@ -59,3 +77,8 @@ Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist di
 * [Fertigung Stammdaten](Fertigung-Stammdaten.md)
 
 Die Bereiche bzw. Unterseite werden in der Hauptseite aufgelistet.
+
+## Links
+
+GitHub: /Notizen.md#notizen-teilen  
+Docsify: /#/Notizen?id=notizen-teilen

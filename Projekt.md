@@ -4,6 +4,8 @@
 ## Projektplanung erstellen
 
 ## Projekt anlegen
+Aufgabenträger: [Projektleiter](Rollen.md#Projektleiter)
+
 Feld |Inhalt|Beispiel
 :- |: -|:-
 Projektbezeichnung| *Name des Projektes*|Mountainbike Krönten

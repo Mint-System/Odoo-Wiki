@@ -4,14 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "e03c06e230963671",
+        "id": "32c6588344427ca3",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Fertigung-Stammdaten.md",
-            "mode": "preview"
+            "file": "assets/Einstellungen Übersetzung nachher.png"
           }
         }
       }
@@ -40,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Referen"
+                "query": "?>"
               }
             }
           }
@@ -64,7 +63,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fertigung-Stammdaten.md"
+                "file": "assets/Einstellungen Übersetzung nachher.png"
               }
             }
           }
@@ -75,15 +74,15 @@
     "width": 228
   },
   "lastOpenFiles": [
-    "Fertigung-Stammdaten.md",
-    "Fertigung.md",
-    "README.md",
-    "Mitarbeit.md",
-    "Untitled.md",
-    "Persönliche-Einstellungen.md",
-    "Notes Kurt Gisler/Produktionsdaten definieren.md",
-    "Notes Kurt Gisler/Arbeitsplan anlegen.md",
-    "Notes Kurt Gisler/Arbeitsplatz anlegen.md",
-    "Notes Kurt Gisler/Arbeitsplätze anlegen.png"
+    "assets/Odoo Übersetzung nachher.png",
+    "assets/Odoo Übersetzung bearbeiten.png",
+    "assets/Odoo Notizen Abonnenten hinzufügen.png",
+    "assets/Odoo Navigation Suche.png",
+    "assets/Odoo Navigation Smart-Links.png",
+    "assets/Odoo Handbuch Benutzerrechte.png",
+    "assets/Odoo Übersetzung vorher.png",
+    "Lager.md",
+    "Notes Kurt Gisler/Datenbank erstellen 500.png",
+    "Mitarbeit.md"
   ]
 }

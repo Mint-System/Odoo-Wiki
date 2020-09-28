@@ -7,13 +7,13 @@ Alles zur Navigation in Odoo.
 
 Die Startseite von Odoo listet alle verfügbaren Apps auf. Die Apps und deren Ansichten können gefiltert werden. Geben sie auf der Übersicht einfach den gewünschten Begriff ein und Odoo filter die Ansichten für sie.
 
-![](assets/Odoo%20Navigation%20Suche.png)
+![](assets/Navigation%20Suche.png)
 
 ## Smart-Links
 
 Die Smart-Links erlauben einen direkten Wechsel in verküpfte Geschäftsobjekte und Apps. Dazu ein Beispiel der Smart-Links in der Projekt-Übersicht:
 
-![](assets/Odoo%20Navigation%20Smart-Links.png)
+![](assets/Navigation%20Smart-Links.png)
 
 Klicken sie auf *Zeiterfassung* werden alle Zeiterfassungs-Einträge des Projekts dargestellt.
 
