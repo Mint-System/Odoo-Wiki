@@ -10,7 +10,7 @@ function convert(content,file) {
         '\n\n',
         '[📝 Edit on GitHub](' + 'https://github.com/Mint-System/Knowledge/blob/master/' + file + ')',
         '\n\n',
-        '[📂 Open in Obsidan](' + 'obsidian://open?vault=Knowledge%20Mint%20System&file=' + file + " ':target=_self')",
+        '[📂 Open in Obsidan](' + 'obsidian://open?vault=Odoo%20Handbuch&file=' + file + " ':target=_self')",
         '\n\n',
         '<footer>',
         'Copyright © <a href="https://www.mint-system.ch/">Mint System GmbH</a>',
