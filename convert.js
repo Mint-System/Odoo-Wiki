@@ -8,7 +8,7 @@ function convert(content,file) {
         '\n\n',
         '<hr>',
         '\n\n',
-        '[📝 Edit Document on GitHub](' + 'https://github.com/Mint-System/Knowledge/blob/master/' + file + ')',
+        '[📝 Edit on GitHub](' + 'https://github.com/Mint-System/Knowledge/blob/master/' + file + ')',
         '\n\n',
         '[📂 Open in Obsidan](' + 'obsidian://open?vault=Knowledge%20Mint%20System&file=' + file + " ':target=_self')",
         '\n\n',

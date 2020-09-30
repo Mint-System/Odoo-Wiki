@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "32c6588344427ca3",
+        "id": "9a2e23204181e945",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "assets/Einstellungen Übersetzung nachher.png"
+            "file": "Notes Kurt Gisler/Produkt anlegen.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,11 +40,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "?>"
+                "query": "produkt an"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -63,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/Einstellungen Übersetzung nachher.png"
+                "file": "Notes Kurt Gisler/Produkt anlegen.md"
               }
             }
           }
@@ -71,18 +73,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228
+    "width": 228,
+    "collapsed": true
   },
   "lastOpenFiles": [
+    "Notes Kurt Gisler/Produkt anlegen.md",
+    "Odoo-App.md",
+    "Fertigung.md",
+    "Fleet.md",
+    "Notes Kurt Gisler/Arbeitsplan anlegen 500.png",
+    "Notes Kurt Gisler/Arbeitsplan anlegen.png",
+    "Mitarbeit.md",
+    "assets/Einstellungen Übersetzung nachher.png",
     "assets/Odoo Übersetzung nachher.png",
-    "assets/Odoo Übersetzung bearbeiten.png",
-    "assets/Odoo Notizen Abonnenten hinzufügen.png",
-    "assets/Odoo Navigation Suche.png",
-    "assets/Odoo Navigation Smart-Links.png",
-    "assets/Odoo Handbuch Benutzerrechte.png",
-    "assets/Odoo Übersetzung vorher.png",
-    "Lager.md",
-    "Notes Kurt Gisler/Datenbank erstellen 500.png",
-    "Mitarbeit.md"
+    "assets/Odoo Übersetzung bearbeiten.png"
   ]
 }
