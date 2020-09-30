@@ -6,8 +6,12 @@ function convert(content,file) {
     // add footer
     content = content + [
         '\n\n',
-        '[📝 Edit Document](' + 'https://github.com/Mint-System/Knowledge/blob/master/' + file + ')\n',
         '<hr>',
+        '\n\n',
+        '[📝 Edit Document on GitHub](' + 'https://github.com/Mint-System/Knowledge/blob/master/' + file + ')',
+        '\n\n',
+        '[📂 Open in Obsidan](' + 'obsidian://open?vault=Knowledge%20Mint%20System&file=' + file + " ':target=_self')",
+        '\n\n',
         '<footer>',
         'Copyright © <a href="https://www.mint-system.ch/">Mint System GmbH</a>',
         '</footer>'
