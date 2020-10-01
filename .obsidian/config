@@ -8,13 +8,6 @@
     "backlink": true,
     "command-palette": true,
     "markdown-importer": true,
-    "word-count": true,
-    "custom-css": true,
-    "daily-notes": false
-  },
-  "useMarkdownLinks": true,
-  "strictLineBreaks": true,
-  "attachmentFolderPath": "assets",
-  "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative"
+    "word-count": true
+  }
 }

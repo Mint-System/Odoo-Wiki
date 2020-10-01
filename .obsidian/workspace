@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PLM.md",
-            "mode": "preview"
+            "file": "Anwesenheitszeiten.md",
+            "mode": "source"
           }
         }
       }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PLM.md"
+                "file": "Anwesenheitszeiten.md"
               }
             }
           }
@@ -76,15 +76,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Anwesenheitszeiten.md",
+    "Abwesenheitszeiten.md",
+    "README.md",
+    "Untitled.md",
     "PLM.md",
     "Notes Kurt Gisler/Produkt anlegen.md",
     "Odoo-App.md",
     "Fertigung.md",
     "Fleet.md",
-    "Notes Kurt Gisler/Arbeitsplan anlegen 500.png",
-    "Notes Kurt Gisler/Arbeitsplan anlegen.png",
-    "Mitarbeit.md",
-    "assets/Einstellungen Übersetzung nachher.png",
-    "assets/Odoo Übersetzung nachher.png"
+    "Notes Kurt Gisler/Arbeitsplan anlegen 500.png"
   ]
 }

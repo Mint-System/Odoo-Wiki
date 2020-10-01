@@ -31,7 +31,7 @@ Einstellungen](Einstellungen.md)
 Diskussion](Diskussion.md)
 
 [![icons_odoo_calendar](assets/icons_odoo_calendar.png)  
-Kalender](assets/Kalender.md)
+Kalender](Kalender.md)
 
 [![icons_odoo_contacts](assets/icons_odoo_contacts.png)  
 Kontakte](Kontakte.md)
@@ -71,6 +71,9 @@ Personalabrechnung](Personalabrechnung.md)
 
 [![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)  
 Abwesenheitszeiten](Abwesenheitszeiten.md)
+
+[![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)  
+Anwesenheitszeiten](Anwesenheitszeiten.md)
 
 [![icons_odoo_website_partner](assets/icons_odoo_website_partner.png)  
 Link Tracker](Link-Tracker.md)
