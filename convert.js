@@ -8,7 +8,7 @@ function convert(content,file) {
         '\n\n',
         '<hr>',
         '\n\n',
-        '[📝 Edit on GitHub](' + 'https://github.com/Mint-System/Knowledge/blob/master/' + file + ')',
+        '[📝 Edit on GitHub](' + 'https://github.com/Mint-System/Odoo-Handbuch/blob/master/' + file + ')',
         '\n\n',
         '[📂 Open in Obsidan](' + 'obsidian://open?vault=Odoo%20Handbuch&file=' + file + " ':target=_self')",
         '\n\n',

@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes Kurt Gisler/Produkt anlegen.md",
+            "file": "PLM.md",
             "mode": "preview"
           }
         }
@@ -44,8 +44,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -65,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes Kurt Gisler/Produkt anlegen.md"
+                "file": "PLM.md"
               }
             }
           }
@@ -77,6 +76,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "PLM.md",
     "Notes Kurt Gisler/Produkt anlegen.md",
     "Odoo-App.md",
     "Fertigung.md",
@@ -85,7 +85,6 @@
     "Notes Kurt Gisler/Arbeitsplan anlegen.png",
     "Mitarbeit.md",
     "assets/Einstellungen Übersetzung nachher.png",
-    "assets/Odoo Übersetzung nachher.png",
-    "assets/Odoo Übersetzung bearbeiten.png"
+    "assets/Odoo Übersetzung nachher.png"
   ]
 }
