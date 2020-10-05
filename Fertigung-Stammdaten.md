@@ -55,8 +55,7 @@ Zur Auswahl stehen
 #### Kosten
 Mit der Funktion *Kosten aktualisieren* kann der Wert manuell geändert werden. Die History wird gespeichert.
 
-Für Fertigungsprodukte kann mit der Funktion *Berechnung des Preises aus Stückliste*
-die Kosten aus Produkten und Vorgängen berechnet werden.
+Für Fertigungsprodukte können mit der Funktion *Berechnung des Preises aus Stückliste* die Kosten aus Produkten und Vorgängen (Stücklisten und Arbeitspläne) berechnet werden.
 
 
 ## Stückliste anlegen

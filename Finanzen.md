@@ -17,7 +17,7 @@ Euro -> CHF 1.1061
 
 Damit Zahlungen aus Odoo exportiert und im eBanking importiert werden könne, müssen sie die SEPA-Zahlmethode für das entsprechende Bank-Journal aktiveren.
 
-![[Finanzen SEPA Zahlung aktivieren.gif]]
+![Finanzen SEPA Zahlung aktivieren](assets/Finanzen%20SEPA%20Zahlung%20aktivieren.gif)
 
 Navigieren sie nach *Finanzen > Optionen Journal > Einstellungen > Tab Erweiterte Einstellungen* und aktiveren sie *SEPA Kreditübertragung*.
 
@@ -25,7 +25,7 @@ Navigieren sie nach *Finanzen > Optionen Journal > Einstellungen > Tab Erweitert
 
 Öffnen sie eine Rechung drücken sie auf *Einzahlung erfassen*. Wählen sie *SEPA Kreditübertragung als Zahlungsmethode*.
 
-![[Finanzen SEPA-Zahlung erfassen.gif]]
+![Finanzen SEPA-Zahlung erfassen](assets/Finanzen%20SEPA-Zahlung%20erfassen.gif)
 
 ## SEPA-Zahlung exportieren
 
