@@ -1,17 +1,17 @@
 {
   "main": {
-    "id": "39f7e10c4972f561",
+    "id": "2972a8b43d406407",
     "type": "split",
     "children": [
       {
-        "id": "9a2e23204181e945",
+        "id": "f7bf169fd4b5975e",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Anwesenheitszeiten.md",
-            "mode": "source"
+            "file": "Finanzen.md",
+            "mode": "preview"
           }
         }
       }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6d4d1d01c38a9811",
+    "id": "083a8f2a060b8a2a",
     "type": "split",
     "children": [
       {
-        "id": "8ddaf86ab0ccac36",
+        "id": "b7363798e5b8b8b7",
         "type": "tabs",
         "children": [
           {
-            "id": "7158d8012b603a98",
+            "id": "1ddc8d9b0b7410b4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,12 +35,12 @@
             }
           },
           {
-            "id": "9002cdb2933e2996",
+            "id": "dd22e286429df307",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "produkt an"
+                "query": ""
               }
             }
           }
@@ -48,23 +48,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356
+    "width": 300
   },
   "right": {
-    "id": "fdba60f75a17940b",
+    "id": "d0b83a8fad7f0e4f",
     "type": "split",
     "children": [
       {
-        "id": "ef87d19d67045db0",
+        "id": "a13add78c4243ff4",
         "type": "tabs",
         "children": [
           {
-            "id": "58afd861381b8805",
+            "id": "0ac00b17ca39a1da",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Anwesenheitszeiten.md"
+                "file": "Finanzen.md"
               }
             }
           }
@@ -72,19 +72,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228,
+    "width": 300,
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Anwesenheitszeiten.md",
-    "Abwesenheitszeiten.md",
-    "README.md",
-    "Untitled.md",
-    "PLM.md",
-    "Notes Kurt Gisler/Produkt anlegen.md",
-    "Odoo-App.md",
-    "Fertigung.md",
-    "Fleet.md",
-    "Notes Kurt Gisler/Arbeitsplan anlegen 500.png"
+    "Finanzen.md",
+    "Anwesenheitszeiten.md"
   ]
 }

@@ -1,7 +1,7 @@
 # Initialisierung
 ![icons_odoo_survey](assets/icons_odoo_survey.png)
 
-[Datenbank erstellen](Notes%20Kurt%20Gisler/Datenbank%20erstellen)
+[Datenbank erstellen](Datenbank%20erstellen)
 
 Richten sie ihre Odoo-Umgebung ein.
 

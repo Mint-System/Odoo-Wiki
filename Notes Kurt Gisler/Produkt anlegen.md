@@ -3,6 +3,8 @@ Fertigung/Stammdaten/Produkte
 ![Produkt anlegen 500](assets/Produkt%20anlegen%20500.png)
 
 
+
+
 Feld |Beispiel|Erklärung
 :- |:- |:-
 Produktname|---|---

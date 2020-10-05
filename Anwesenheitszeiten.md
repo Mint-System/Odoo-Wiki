@@ -1,7 +1,7 @@
 # Anwesenheitszeiten
 ![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)
 
-?> Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheit, für Projektzeit mit der App Zeiterfassung. Die Gegenüberstellung von Anwesenheit und Projektzeit zeigt die Liste gemäss [Anwesenheitszeiten anzeigen](Anwesenheitszeiten.md#Anwesenheitszeiten%20anzeigen)
+?> Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheit. Für das Erfassen der Projektzeit nutzt man die App Zeiterfassung.
 
 ## Anwesenheit anmelden
 Navigieren sie nach *Anwesenheitszeiten* und klicken sie auf den Knopf *Anmelden*.
@@ -22,7 +22,19 @@ Es erscheint eine Verabschiedung mit Angabe der geleisteten Arbeitszeit.
 ![Anwesenheitszeiten Bestätigung Abmeldung](assets/Anwesenheitszeiten%20Best%C3%A4tigung%20Abmeldung.png)
 
 ## Anwesenheitszeiten anzeigen
-Navigieren sie nach *Zeiterfassung > Berichtswesen* und wählen Sie das Menü *Zeiterfassung / Anwesenheit*.
+Der kürzeste Weg zur Anzeige der rapprtierten Arbeitszeit führt über *My Profile*.
+Navigieren Sie zum Knopf mit ihrem Namen auf dem Bildschirm oben rechts.
+Dort wählen Sie *Vorname Nachname > My Profile*. Es erscheint die folgende Maske:
+
+![Anwesenheitszeiten Zeitrapport](assets/Anwesenheitszeiten%20Zeitrapport.png)
+
+Ein Klick auf den Smart-Button *n Stunden* zeigt eine Tabelle mit den Details.
+
+![Anwesenheitszeiten Zeitrapport Detail](assets/Anwesenheitszeiten%20Zeitrapport%20Detail.png)
+
+
+Ausführlichere Informationen bietet das Berichtswesen in der App Zeiterfassung.
+Navigieren Sie nach *Zeiterfassung > Berichtswesen* und wählen Sie das Menü *Zeiterfassung / Anwesenheit*.
 
 ![Zeiterfassung Anwesenheitsbericht](assets/Zeiterfassung%20Anwesenheitsbericht.png)
 
