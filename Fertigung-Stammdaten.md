@@ -5,7 +5,7 @@
 ## Produkt anlegen
 Fertigung > Stammdaten > Produkte
 
-![Produkt anlegen](assets/produkt_anlegen.png)
+![Fertigung Produkt anlegen](assets/Fertigung%20Produkt%20anlegen.png)
 
 ### Smart Buttons
 
@@ -55,7 +55,7 @@ Zur Auswahl stehen
 #### Kosten
 Mit der Funktion *Kosten aktualisieren* kann der Wert manuell geändert werden. Die History wird gespeichert.
 
-Für Fertigungsprodukte können mit der Funktion *Berechnung des Preises aus Stückliste* die Kosten aus Produkten und Vorgängen (Stücklisten und Arbeitspläne) berechnet werden.
+Für Fertigungsprodukte können mit der Funktion *Berechnung des Preises aus Stückliste* die Kosten aus Produkten und Vorgängen (Stücklisten und Arbeitsplänen) berechnet werden.
 
 
 ## Stückliste anlegen

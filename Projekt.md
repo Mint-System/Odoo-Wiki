@@ -4,7 +4,7 @@
 ## Projektplanung erstellen
 
 ## Projekt anlegen
-Aufgabenträger: [Projektleiter](Rollen.md#Projektleiter)
+Aufgabenträger: [Projektleiter](Notes%20Kurt%20Gisler/Rollen#Projektleiter)
 
 Feld |Inhalt|Beispiel
 :- |: -|:-

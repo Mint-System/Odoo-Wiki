@@ -36,7 +36,7 @@ Damit SEPA-Zahlungen exportiert werden können, müssen unter *Einstellungen > F
 * Veranlasser: Name des Buchhalters
 * SEPA PAIN Version: Schweizer Version
 
-Um eine Zahlung zu exportieren, klicken sie auf *Finanzen > X Über SEPA zu sendende Zahlungen*, markieren die offenen Zahlungen und wählen *Aktion > Stapelzahlung anlegen*. Um neuen Dialog wählen sie *Bestätigen* und erhalten so die generierte Zahlungsdatei.
+Um eine Zahlung zu exportieren, klicken sie auf *Finanzen > X Über SEPA zu sendende Zahlungen*, markieren die offenen Zahlungen und wählen *Aktion > Stapelzahlung anlegen*. Im neuen Dialog wählen sie *Bestätigen* und erhalten so die generierte Zahlungsdatei.
 
 ## Rechnungen digitalisieren
 

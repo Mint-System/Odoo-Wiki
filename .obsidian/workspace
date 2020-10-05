@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Finanzen.md",
+            "file": "Initialisierung.md",
             "mode": "source"
           }
         }
@@ -48,7 +48,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 335
   },
   "right": {
     "id": "d0b83a8fad7f0e4f",
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Finanzen.md"
+                "file": "Initialisierung.md"
               }
             }
           }
@@ -76,8 +76,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Finanzen.md",
-    "assets/Finanzen SEPA Zahlung aktivieren.gif",
-    "Anwesenheitszeiten.md"
+    "Initialisierung.md",
+    "README.md",
+    "Fertigung.md",
+    "Fertigung-Stammdaten.md",
+    "assets/Odoo Projekt.png",
+    "Zeiterfassung.md",
+    "Website.md",
+    "Verkäufe.md",
+    "Update.md",
+    "Mitarbeit.md"
   ]
 }
