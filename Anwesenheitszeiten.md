@@ -3,6 +3,8 @@
 
 ?> Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheit. Für das Erfassen der Projektzeit nutzt man die App Zeiterfassung.
 
+![Anwesenheitszeiten An- und Abmelden](assets/Anwesenheitszeiten%20An-%20und%20Abmelden.png)
+
 ## Anwesenheit anmelden
 Navigieren sie nach *Anwesenheitszeiten* und klicken sie auf den Knopf *Anmelden*.
 

@@ -10,5 +10,9 @@
     "markdown-importer": true,
     "word-count": true
   },
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "assets",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
 }
