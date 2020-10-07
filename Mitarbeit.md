@@ -4,7 +4,7 @@
 
 Zur Erläuterung der Instruktionen darf man ein fiktives Unternehmen mit folgenden Informationen verwenden:
 
-Name: MeinUnternehmen  
+Name: Velo Manufaktur AG  
 Website: https://www.example.com  
 Odoo: https://erp.example.com  
 Standort: Schweiz  

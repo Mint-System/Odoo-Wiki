@@ -1,7 +1,11 @@
 function convert(content,file) {
+    
     // convert wiki image links
     // const wikiImage = /\!.*\]\(([^\]]*)(.jpg|.png|.gif)\)/g
     // content = content.replace(wikiImage, '<img src="/assets/$1$2" \/>')
+
+    // convert headings links
+    // ()[#link to heading] -> ()[#link-to-heading]
 
     // add footer
     content = content + [
