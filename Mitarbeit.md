@@ -1,5 +1,15 @@
 # Mitarbeit
 
+## Beispiele
+
+Zur Erläuterung der Instruktionen darf man ein fiktives Unternehmen mit folgenden Informationen verwenden:
+
+Name: MeinUnternehmen  
+Website: https://www.example.com  
+Odoo: https://erp.example.com  
+Standort: Schweiz  
+Mitarbeiter: Kurt Gisler, Janik von Rotz, Marco Roeleven  
+
 ## Sprache
 
 Die Artikel sind in der Sprache Deutsch und in der [Höflichkeitsform](https://de.wikipedia.org/wiki/H%C3%B6flichkeitsform). Das Subjektiv bleibt jedoch klein geschrieben.
