@@ -1,5 +1,0 @@
-# Rollen
-
-## Projektleiter
-
-Rollenbeschrieb

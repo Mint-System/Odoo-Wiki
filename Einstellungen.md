@@ -54,7 +54,8 @@ Aktivieren Sie den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivier
 
 Klicken sie auf das Käfer-Symbol in der Menu-Leiste oben rechts. Wählen sie *Tour deaktivieren*.
 
-## Benutzerrechte vergeben.
+## Benutzerrechte vergeben
+Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
 Navigieren sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen sie den Benutzer, dessen Zugriffsrechte sie verändern möchten. Drücken sie auf *Bearbeiten* und wählen sie nun über die Dropdown oder Checkboxen die Rollen und Zugriffe aus.
 
@@ -65,6 +66,7 @@ Klicken Sie auf speichern um den Vorgang abzuschliessen.
 !> Damit die neuen Rechte für den Benutzer sichtbar sind, muss dieser den Browser aktualisieren.
 
 ## Passwort zurücksetzen
+Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
 Navigieren sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen sie den Benutzer, dessen Passwort sie zurücksetzen möchten.
  
