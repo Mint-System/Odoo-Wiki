@@ -18,9 +18,18 @@ Navigieren sie in die Kanban-Ansicht eines Projekts *Projekt > Projekt auswähle
 !> Die erstellte Projektstufe ist nur für dieses Projekt sichtbar.
 
 ## Globale Stufen zuordnen
+Aufgabenträger: [Projektleiter](Rollen#Projektleiter)
 
 ?> Projeektstufen können mit mehreren Projektgeteilt werden.
 
 Wechseln sie in den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) und navigieren nach *Projekt > Konfiguration > Stufen*. Wählen sie eine bestehende Stufe aus und klicken sie auf *Bearbeiten*.
 
 Im Auswahl-Feld *Projekt* können sie ein bestehendes Projekt hinzufügen. Mit *Speichern* schliessen sie den Vorgang ab. Wenn sie das hinzugefügte Projekt öffnen wird nun die gewählte Stufe dargestellt.
+
+## Projekt duplizeren
+
+?> Beim der Duplizierung eines Projekts werden deren Aufgaben und Stufen mitkopiert.
+
+Um ein Projekt zu duplizieren führen sie folgende Aktion aus *Projekt > Projekt wählen > Übersicht > Smart-Link Projekt > Aktion > Duplizieren*.
+
+![Projekt duplizieren](assets/Projekt%20duplizieren.gif)
