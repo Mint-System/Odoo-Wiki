@@ -4,6 +4,7 @@
 ## Anpassungen dokumentieren
 Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
+
 Jede Änderung mit Odoo Studio an einer Odoo-Instanz muss dokumentiert werden. Die Entwickler von Odoo haben dafür die Menu-Option *Notizen* hinzugefügt.
 
 ![Studio Anpassungen dokumentieren](assets/Studio%20Anpassungen%20dokumentieren.gif)
