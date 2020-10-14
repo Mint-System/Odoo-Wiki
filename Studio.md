@@ -2,12 +2,14 @@
 ![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)
 
 ## Anpassungen dokumentieren
+Aufgabenträger: ![Administrator](Rollen.md#Administrator)
 
 Jede Änderung mit Odoo Studio an einer Odoo-Instanz muss dokumentiert werden. Die Entwickler von Odoo haben dafür die Menu-Option *Notizen* hinzugefügt.
 
 ![Studio Anpassungen dokumentieren](assets/Studio%20Anpassungen%20dokumentieren.gif)
 
 ## Dateianhang in Bericht anzeigen
+Aufgabenträger: ![Administrator](Rollen.md#Administrator)
 
 ?> An jedem Odoo-Objekt kann ein Anhang vom Typ Datei oder URL hinzugefügt werden. Dieser Anhang kann im Portal oder Bericht angzeigt werden.
 
