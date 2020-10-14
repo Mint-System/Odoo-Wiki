@@ -4,6 +4,7 @@
 ## Feld als Unique definieren
 
 ## In Portal-Ansicht neue Felder anzeigen
+Aufgabenträger: [Entwickler](Rollen.md#Entwickler)
 
 Die Anpassung [Dateianhang in Bericht anzeigen](Studio.md#Dateianhang%20in%20Bericht%20anzeigen) ist auch für das Kundenportal möglich.
 
