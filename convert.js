@@ -1,11 +1,22 @@
+function sanitizeHeading(heading) {
+    return heading.toLocaleLowerCase().replace(/%20/g, '-').replace('---','-')
+}
+
 function convert(content,file) {
     
-    // convert wiki image links
-    // const wikiImage = /\!.*\]\(([^\]]*)(.jpg|.png|.gif)\)/g
-    // content = content.replace(wikiImage, '<img src="/assets/$1$2" \/>')
+    // convert links    
+    const link = /\]\(([^\)]*)/g
+    matches = content.match(link) || []
+    for (i = 0; i < matches.length; i++) {
+        let match = matches[i]
 
-    // convert headings links
-    // ()[#link to heading] -> ()[#link-to-heading]
+        // ()[#link to heading] -> ()[#link-to-heading]
+        let href = match.match(/#(.*)/)
+        if (href) {
+            let newHref = sanitizeHeading(href[0])
+            content = content.replace(href[0],newHref)
+        }
+    }
 
     // add footer
     content = content + [
