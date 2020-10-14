@@ -20,20 +20,20 @@ Für diese Art von Anpassung muss das XML der Ansicht bearbeit werden, dazu der 
 ```xml
 <data>
   <xpath expr="/t/t/div/table/tbody/t[2]/tr/t[1]/td[1]/span" position="after">
-    <br/>
     <t t-if="line.product_id.x_studio_zeichnung">
+		<br/>
         <span>Zeichnung: </span>
-    </t>
-    <a t-attf-href="{{line.product_id.x_studio_zeichnung.url}}">
+		<a t-attf-href="{{line.product_id.x_studio_zeichnung.url}}">
       <span t-field="line.product_id.x_studio_zeichnung.display_name"/>
-    </a>
-    <br/>
-    <t t-if="line.product_id.x_studio_step_datei_1">
-        <span>STEP-Datei: </span>
+    	</a>
     </t>
-    <a t-attf-href="{{line.product_id.x_studio_step_datei_1.url}}">
+    <t t-if="line.product_id.x_studio_step_datei_1">
+		<br/>
+        <span>STEP-Datei: </span>
+		<a t-attf-href="{{line.product_id.x_studio_step_datei_1.url}}">
       <span t-field="line.product_id.x_studio_step_datei_1.display_name"/>
-    </a>
+    	</a>
+    </t>
   </xpath>
 </data>
 ```
