@@ -1,5 +1,7 @@
 # Mitarbeit
 
+In diesem Dokument werden die Vorgaben zur Mitarbeit am Odoo Handbuch erläutert.
+
 ## Beispiele
 
 Zur Erläuterung der Instruktionen darf man ein fiktives Unternehmen mit folgenden Informationen verwenden:
@@ -60,6 +62,10 @@ Der Name eines Bildes beginnt mit dem Namen der Odoo App.
 Bilder sind im optimal im PNG-Format und mit Auflösung 800x500 gespeichert.  
 Für Animationen kann das GIF-Format verwendet werden.
 
+Bilder sollen Ausschnitte und Fragmente aus der Odoo Oberfläche zeigen. Nicht erlaubt sind Screenshots des gesamten Bildschirms.
+
+Informationen eines Kunden dürfen auf den Bilder nicht sichtbar sein.
+
 ## Struktur
 
 Für jede Odoo-App existiert eine Seite. Beispielsweise für die Notiz-App gibt es die Seite [Notizen](Notizen.md). Auf dieser Seite werden Abläufe aus Kundensicht beschrieben. Dazu die folgende Vorlage:
@@ -70,12 +76,12 @@ Für jede Odoo-App existiert eine Seite. Beispielsweise für die Notiz-App gibt 
 # Appname
 ![](/assets/icon.png)
 
-Information about the App
+Informationen zur App
 
-## Task
-Role: ![](Role#Rolename)
+## Aufgabe
+Aufgabenträger: ![](Role#Rollenname)
 
-Describe an interaction with the App.
+Describe an interaction with the app.
 
 ```
 
