@@ -16,7 +16,7 @@ Diese Sequenz füllen wir in das entsprechende Produktfeld.
 
 ![](assets/Strichcode%20f%C3%BCr%20Produkte%20generieren.png)
 
-!> Wichtig ist ist das der Produktstrichcode immer eindeutig und so kurz wie möglich ist.
+!> Wichtig ist, dass der Produktstrichcode immer eindeutig und so kurz wie möglich ist.
 
 Hier zwei Strichcodes im Vergleich:
 
