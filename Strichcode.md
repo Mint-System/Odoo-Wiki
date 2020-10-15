@@ -10,7 +10,7 @@ Stricodes müssen in erster Linie eindeutig sein. Deshalb empfehlen wir die Gene
 Schema ausgeführt: Jahrzent + Monat + Tag + Stunde + Minute + Sekunde  
 Datumsformat: `YYMMDDHHMMSS`
 
-Angenommen zur Zeit der Erfassung des Produktbarcodes ist es der 15 Oktober 2020 um 16:48 Uhr und 15 Sekunden, ergibt das den folgenden Code: `201015164815`
+Angenommen zur Zeit der Erfassung des Produktbarcodes ist es der 15. Oktober 2020 um 16:48 Uhr und 15 Sekunden, ergibt das den Code `201015164815`.
 
 Diese Sequenz füllen wir in das entsprechende Produktfeld.
 
