@@ -7,7 +7,7 @@
 
 Stricodes müssen in erster Linie eindeutig sein. Deshalb empfehlen wir die Generierung des Strichcodes nach folgenden Schema:
 
-Schema ausgeführt: Jahrzent + Monat + Tag + Stunde + Minute + Sekunde
+Schema ausgeführt: Jahrzent + Monat + Tag + Stunde + Minute + Sekunde  
 Datumsformat: `YYMMDDHHMMSS`
 
 Angenommen zur Zeit der Erfassung des Produktbarcodes ist es der 15 Oktober 2020 um 16:48 Uhr und 15 Sekunden, ergibt das den folgenden Code: `201015164815`
