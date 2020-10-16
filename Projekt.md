@@ -5,9 +5,10 @@
 Aufgabenträger: [Projektleiter](Rollen#Projektleiter)
 
 Öffnen sie die App *Projekt* und klicken auf *Anlegen.* Im Dialog geben sie eine Projektbezeichnung ein. Abhängig von der Odoo-Installation stehen diese Optionen zur Wahl:
-* Zeiterfassung: Zeit auf Projekaufgaben rapportieren
+* Zeiterfassung: Zeit auf Projekaufgaben rapportieren.
 * Bill from Tasks: Anhand einer Projektaufgabe eine Rechnung erstellen
 Wählen sie die Option entsprechend der Projektkonfiguration.
+* Timesheet Timer: Zeiterfassung kann direkt auf der Aufgabe gestartet werden.
 
 ## Stufen erstellen
 

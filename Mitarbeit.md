@@ -78,10 +78,10 @@ Für jede Odoo-App existiert eine Seite. Beispielsweise für die Notiz-App gibt 
 
 Informationen zur App
 
-## Aufgabe
-Aufgabenträger: ![](Role#Rollenname)
+## Aufgabenbeschreibung
+Aufgabenträger: ![](Rollen#Rollenname)
 
-Describe an interaction with the app.
+Beschreibung zur Interaktion mit der App
 
 ```
 

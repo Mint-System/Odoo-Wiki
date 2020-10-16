@@ -9,6 +9,12 @@ Der Administrator ist verantwortlich für die Odoo-Installation. Er vergibt Benu
 
 Der Entwickler hat fundamentales Wissen über die Funktionsweise von Odoo und kann Anpassungen in Ansichten und im Datenmodell vornehmen. Er kennt die Konsequenzen von Anpassungen im Fall eines Upgrades.
 
+
 ## Projektleiter
+
+Rollenbeschrieb
+
+
+## Verkäufer
 
 Rollenbeschrieb

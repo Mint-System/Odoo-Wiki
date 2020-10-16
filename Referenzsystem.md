@@ -9,7 +9,7 @@ Sie zeigt in einer grafischen Übersicht alle Prozesse und deren Zusammenhänge.
 
 ## Prozesse
 - [Entwicklung](Prozess-Entwicklung)
-- Kundenanfrage
+- [Kundenanfrage](Prozess-Kundenanfrage)
 - Produktion
 - Fertigungsplanung
 - Fertigung
