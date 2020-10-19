@@ -48,7 +48,7 @@ Kundenverwaltung](Kundenverwaltung.md)
 [![icons_odoo_sale](assets/icons_odoo_sale.png)  
 Verkäufe](Verk%C3%A4ufe.md)
 
-[![icons_odoo_purchase](assets/icons_odoo_purchase.png)
+[![icons_odoo_purchase](assets/icons_odoo_purchase.png)  
 Einkauf](Einkauf.md)
 
 [![icons_odoo_mrp](assets/icons_odoo_mrp.png)  
