@@ -15,15 +15,11 @@ Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
 In diesem Beispiel wurde mit Odoo Studio dem Modell *product.product* zwei Felder hinzugefügt:
 * Name: x_studio_drawing
-	* Typ: Many2One Dateianhang
+	* Typ: Many2One Produktionsdokument
 	* Bezeichnung: Zeichnung
-	* Kontext: `"{'type': 'URL'}"`
-	* Domain: `[]`
-
-'default_res_model': 'product.product'
 
 * Name: x_studio_step_file
-	* Typ: Man2One Dateianhang
+	* Typ: Man2One Produktionsdokument
 	* Bezeichnung: STEP-Datei
 
 ![](assets/Studio%20Produkt%20Variante%20zus%C3%A4tzliche%20Felder.png)
