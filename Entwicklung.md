@@ -10,23 +10,25 @@ Die Anpassung [Dateianhang in Bericht anzeigen](Studio.md#Dateianhang%20in%20Ber
 
 ![](assets/Entwicklung%20Portal%20neues%20Feld%20hinzuf%C3%BCgen.png)
 
-Dazu ergänzt man die Ansicht `purchase.portal_my_purchase_order` mit folgender XML-Struktur.
+Dazu ergänzt man die Ansicht `purchase.portal_my_purchase_order` mit folgender Erweiterung:
+
+**Portal: My Purchase Order with File Links**
 
 ```xml
-<div id="product_name" class="col-lg-5">
-	<span t-esc="ol.name"/>
-		<t t-if="ol.product_id.x_studio_zeichnung">
-			<br/>
-			<span>Zeichnung: </span>
-		  	<a t-attf-href="{{ol.product_id.x_studio_zeichnung.url}}">
-			  <span t-field="ol.product_id.x_studio_zeichnung.display_name"/>
-		 	</a>
-	  	</t>
-	  	<t t-if="ol.product_id.x_studio_step_datei_1">
-			<br/>
-			<span>STEP-Datei: </span>
-			<a t-attf-href="{{ol.product_id.x_studio_step_datei_1.url}}">
-		  		<span t-field="ol.product_id.x_studio_step_datei_1.display_name"/>
-			</a>
-	  	</t>
+<xpath expr="//span[@t-esc='ol.name']" position="after">
+	<t t-if="ol.product_id.x_studio_drawing">
+		<br/>
+		<span>Zeichnung: </span>
+		<a t-attf-href="{{ol.product_id.x_studio_drawing.url}}">
+		  <span t-field="ol.product_id.x_studio_drawing.display_name"/>
+		</a>
+	</t>
+	<t t-if="ol.product_id.x_studio_step_file">
+		<br/>
+		<span>STEP-Datei: </span>
+		<a t-attf-href="{{ol.product_id.x_studio_step_file.url}}">
+			<span t-field="ol.product_id.x_studio_step_file.display_name"/>
+		</a>
+	</t>
+</xpath>
 ```
