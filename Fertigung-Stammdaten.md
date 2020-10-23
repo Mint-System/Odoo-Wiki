@@ -15,8 +15,8 @@ Fertigung > Stammdaten > Produkte
 Feld |Beispiel|Kommentar
 :- |:- |:-
 Produktname|Lenkerbügel|Bezeichnet einen Teil des Anzeigenamens in Form von *[Interne Referenz] Produktname*
-Kann verkauft werden|*aktiviert*|Der Artikel wird als Verkaufsprodukt angeboten. Damit erscheint er in der Auswahl um ein Angebot zu formulieren.
-Kann eingekauft werden|*deaktiviert*|Der Artikel kann von extern bezogen werden. Er erscheint in der Auswahl um eine Angebotsanfrage zu formulieren.
+Kann verkauft werden|*aktiviert*|Der Artikel wird als Verkaufsprodukt angeboten. Damit erscheint er in der Auswahl um ein Angebot zu erstellen.
+Kann eingekauft werden|*deaktiviert*|Der Artikel kann von extern bezogen werden. Er erscheint in der Auswahl um eine Angebotsanfrage zu erstellen.
 
 #### Register Allgemeine Informationen
 
