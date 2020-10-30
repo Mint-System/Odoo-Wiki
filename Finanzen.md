@@ -7,12 +7,6 @@
 
 Navigieren nach *Finanzen > Konfiguration > Einstellungen > Währungen* und dort die Option *Mehrere Währungen* akvieren. Nach Bedarf muss ein Journal gemäss [Journal-Vorlage](Initialisierung#Journale) erstellt werden. Die verfügbaren Währungen können über die Option *Andere Währungen aktivieren* verwaltet werden.
 
-### Währungskursmanuell festlegen
-
-Euro -> CHF 1.1061
-
-### Währungskurse synchronisieren
-
 ## SEPA-Zahlmethode aktiveren
 
 Damit Zahlungen aus Odoo exportiert und im eBanking importiert werden könne, müssen sie die SEPA-Zahlmethode für das entsprechende Bank-Journal aktiveren.
@@ -43,3 +37,42 @@ Um eine Zahlung zu exportieren, klicken sie auf *Finanzen > X Über SEPA zu send
 Mit Odoo können PDF-Rechnung einfach gescannt und verarbeitet werden. Die Rechnungsdigitalisierung liest die Zahlungsinformationen aus dem PDF und erstellt eine Lieferantenrechnung.
 
 Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits können unter [Odoo IAP](https://iap.odoo.com/iap/in-app-services/259) erworben werden.
+
+## Rechnungsvorlage anpassen
+
+#FIXME
+
+`${object.company_id.name} Rechnung (Ref ${object.name or 'n/a'})`
+
+```
+<div style="margin:0px;padding: 0px;">
+    <p style="padding: 0px; font-size: 13px;">
+        Guten Tag
+        % if object.partner_id.parent_id:
+            ${object.partner_id.name} (${object.partner_id.parent_id.name})
+        % else:
+            ${object.partner_id.name}
+        % endif
+        <br><br>
+        Anbei die Rechnung
+        % if object.name:
+            Rechnung <strong>${object.name}</strong>
+        % else:
+            Rechnung
+        %endif
+        % if object.invoice_origin:
+            (mit Referenz: ${object.invoice_origin})
+        % endif
+        im Betrag <strong>${format_amount(object.amount_total, object.currency_id)}</strong>
+        von der ${object.company_id.name}.
+        % if object.invoice_payment_state == 'paid':
+            Diese Rechnung wurde bereits bezahlt.
+        % else:
+            Wir danken für eine fristgerechte Bezahlung.
+        % endif
+        <br><br>
+        Zögern Sie nicht uns bei Fragen zu kontaktieren.
+    </p>
+</div>
+            
+```

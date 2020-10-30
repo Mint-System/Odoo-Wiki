@@ -8,13 +8,13 @@ Sie zeigt in einer grafischen Übersicht alle Prozesse und deren Zusammenhänge.
 - [Prozesslandkarte](Prozesslandkarte.md)
 
 ## Prozesse
-- [Entwicklung](Prozess-Entwicklung)
-- [Kundenanfrage](Prozess-Kundenanfrage)
+- [Prozess-Entwicklung](Prozess-Entwicklung.md)
+- [Prozess-Kundenanfrage](Prozess-Kundenanfrage.md)
 - Produktion
-- Fertigungsplanung
+- [Prozess-Fertigungsplanung](Prozess-Fertigungsplanung.md)
 - Fertigung
 - Versand
-- [Beschaffung](Prozess-Beschaffung)
+- [Prozess-Beschaffung](Prozess-Beschaffung.md)
 - Lieferantenauswahl
 - Lieferantenbeurteilung
 - Administration
