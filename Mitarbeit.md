@@ -11,6 +11,9 @@ Website: https://www.example.com
 Odoo: https://erp.example.com  
 Standort: Schweiz  
 Mitarbeiter: Kurt Gisler, Janik von Rotz, Marco Roeleven  
+IBAN: CH5604835012345678009  
+Bank: Credit Suisse  
+BIC: CRESCHZZ  
 
 ## Sprache
 

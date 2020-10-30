@@ -148,6 +148,8 @@ Standard-Habenkonto: 5000 Lohnaufwand
 
 ## Kontenplan
 
+Öffnen sie die Finanz-App und richten Sie den Standard-Kontenplan ein. Navigieren sie nach *Finanzen > Konfiguration > Finanzen > Kontenplan*.
 
+Konten für welche sie keine Verwendung haben, können sie anwählen und die Checkbox *Nicht mehr verwenden* markieren.
 
 ## Eröffnungsbuchung
