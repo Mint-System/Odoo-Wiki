@@ -1,14 +1,14 @@
 # Referenzsystem
 Das Mint System Referenzsystem ist die Beschreibung der Odoo-Funktionalität anhand einer prozessorientierten Beispiel-Organisation.
-Diese Organisation ist als Prozesssystem (Prozesslandkarte/Prozesse) definiert.
+Diese Organisation ist als Prozesssystem ([Prozesslandkarte](#Prozesslandkarte)/[Prozesse](#Prozesse)) definiert.
 
 ## Prozesslandkarte
 Die Prozesslandkarte ist die oberste Ebene des Prozesssystems.
 Sie zeigt in einer grafischen Übersicht alle Prozesse und deren Zusammenhänge.
-- [Prozesslandkarte](Prozesslandkarte.md)
+- [Prozesslandkarte](Prozess-Landkarte)
 
 ## Prozesse
-- [Prozess-Entwicklung](Prozess-Entwicklung.md)
+- [Entwicklung](Prozess-Entwicklung.md)
 - [Prozess-Kundenanfrage](Prozess-Kundenanfrage.md)
 - Produktion
 - [Prozess-Fertigungsplanung](Prozess-Fertigungsplanung.md)

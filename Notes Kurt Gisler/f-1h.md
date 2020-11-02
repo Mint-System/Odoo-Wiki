@@ -1,2 +1,2 @@
 ## Prozesslandkarte
-![Prozesslandkarte](Prozesslandkarte.svg)
+![Prozesslandkarte](../assets/Prozesslandkarte.svg)

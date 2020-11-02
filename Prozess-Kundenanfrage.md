@@ -1,5 +1,5 @@
 # Prozess Kundenanfrage
-![Grafik Prozess Kundenanfrage](Prozess%20Kundenanfrage.svg)
+![Grafik Prozess Kundenanfrage](assets/Prozess%20Kundenanfrage.svg)
 
 - [Angebot erstellen](Verk%C3%A4ufe#Angebot%20erstellen)
 - [Angebot senden](Verk%C3%A4ufe#Angebot%20senden)

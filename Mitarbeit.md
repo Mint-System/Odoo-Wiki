@@ -2,7 +2,7 @@
 
 In diesem Dokument werden die Vorgaben zur Mitarbeit am Odoo Handbuch erläutert.
 
-## Beispiele
+## Theorie
 
 Zur Erläuterung der Instruktionen darf man ein fiktives Unternehmen mit folgenden Informationen verwenden:
 
@@ -96,6 +96,13 @@ Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist di
 * [Fertigung Stammdaten](Fertigung-Stammdaten.md)
 
 Die Bereiche bzw. Unterseite werden in der Hauptseite aufgelistet.
+
+### Namensbereiche
+
+Die foglenden Namensbereiche sind reserviert:
+
+* Prozess
+* Theorie
 
 ## Links
 

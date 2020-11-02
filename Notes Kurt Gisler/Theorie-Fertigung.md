@@ -7,31 +7,33 @@ Ein Produkt (Item) besteht aus 0-n Unterprodukten. Jedes kann produziert (Make I
 
 Beispiel:
 
-![Item Structure](Notes%20Kurt%20Gisler/Item%20Structure.svg)
+![Item Structure](Item%20Structure.svg)
 
 ## Beispiel Produkt Fahrrad
 
-![Beispiel Produkt Fahrrad](Notes%20Kurt%20Gisler/Beispiel%20Produkt%20Fahrrad.svg)
+![Beispiel Produkt Fahrrad](Beispiel%20Produkt%20Fahrrad.svg)
 
 # Best Practice Fertigungsplanung
 
 ## Beispiel Fertigungsauftrag Rahmen unbeschichtet
 ### Item Structure
 
-![Beispiel Fertigungsauftrag Rahmen unbeschichtet Item Structure](Notes%20Kurt%20Gisler/Beispiel%20Fertigungsauftrag%20Rahmen%20unbeschichtet%20Item%20Structure.svg)
+![Beispiel Fertigungsauftrag Rahmen unbeschichtet Item Structure](Beispiel%20Fertigungsauftrag%20Rahmen%20unbeschichtet%20Item%20Structure.svg)
 
 ### Lagerbestand/Arbeitspläne
 
-![Beispiel Fertigungsauftrag Rahmen unbeschichtet Lagerbestand Arbeitspläne](Notes%20Kurt%20Gisler/Beispiel%20Fertigungsauftrag%20Rahmen%20unbeschichtet%20Lagerbestand%20Arbeitspl%C3%A4ne.svg)
+![Beispiel Fertigungsauftrag Rahmen unbeschichtet Lagerbestand Arbeitspläne](Beispiel%20Fertigungsauftrag%20Rahmen%20unbeschichtet%20Lagerbestand%20Arbeitspl%C3%A4ne.svg)
 
 ### Fertigungsauftrag
 Zu fertigende Menge: 10 Einheiten. 
 
+![Beispiel Fertigungsauftrag Rahmen unbeschichtet Berechnung](Beispiel%20Fertigungsauftrag%20Rahmen%20unbeschichtet%20Berechnung.svg)
+
 Nach VERFÜGBARKEIT PRÜFEN erscheint folgende Übersicht:
 
-![Beispiel Fertigungsaufträge Materialverfügbarkeit](Notes%20Kurt%20Gisler/Beispiel%20Fertigungsauftr%C3%A4ge%20Materialverf%C3%BCgbarkeit.png)
+![Beispiel Fertigungsaufträge Materialverfügbarkeit](Beispiel%20Fertigungsauftr%C3%A4ge%20Materialverf%C3%BCgbarkeit.png)
 
-![Beispiel Gannt MH00001](Notes%20Kurt%20Gisler/Beispiel%20Gannt%20MH00001.png)
+![Beispiel Gannt MH00001](Beispiel%20Gannt%20MH00001.png)
 
 
 Rahmen schweissen|---|Kommentar
