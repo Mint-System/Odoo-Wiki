@@ -106,5 +106,5 @@ Die foglenden Namensbereiche sind reserviert:
 
 ## Links
 
-GitHub: /Notizen.md#notizen-teilen  
-Docsify: /#/Notizen?id=notizen-teilen
+GitHub: `/Notizen.md#notizen-teilen`  
+Docsify: `/#/Notizen?id=notizen-teilen`
