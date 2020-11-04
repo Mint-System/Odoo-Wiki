@@ -10,6 +10,9 @@ fs.readdirSync(__dirname).filter(file => (file.slice(-3) === '.md') && (ignoreFi
     // push filename
     paths.push('/' + encodeURI(file.replace('.md', '')))
 
+    // get markdown content
+    var content = fs.readFileSync(file, 'utf8')
+
     // add footer
     content = content + [
         '\n\n',
