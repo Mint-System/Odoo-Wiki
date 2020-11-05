@@ -9,4 +9,8 @@ Navigieren sie nach *Personal* und wählen *+ Anlegen*. Geben sie den Vor- und N
 
 Schliessen Sie den Vorgang mit *Speichern* ab.
 
-## Arbeitsvertrag hinzufügen
+## Arbeitspensum festlegen
+
+Um das Arbeitspensum für einen Mitarbeiter zu ändern, öffnen sie das App *Personal* und wählen den Mitarbieter aus. Wählen sie *Bearbeiten* und legen sie im Tab *Arbeitsinformation* unter *Ausführungsplan* die *Arbeitsstunden* fest.
+
+![](assets/Personal%20Arbeitsstunden.png)
