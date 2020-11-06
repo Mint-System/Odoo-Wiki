@@ -14,3 +14,13 @@ Schliessen Sie den Vorgang mit *Speichern* ab.
 Um das Arbeitspensum für einen Mitarbeiter zu ändern, öffnen sie das App *Personal* und wählen den Mitarbieter aus. Wählen sie *Bearbeiten* und legen sie im Tab *Arbeitsinformation* unter *Ausführungsplan* die *Arbeitsstunden* fest.
 
 ![](assets/Personal%20Arbeitsstunden.png)
+
+## Arbeitspensum wechseln
+
+?> Heute ist es die Norm, dass Mitarbeiter unterhalb des Jahres ein Arbeitspensum reduzieren oder erhöhen können. Es muss sichergestellt werden, dass die Entlohnung, Feriensaldos und Überstunden entsprechend angepasst werden.
+
+Um das Pensum eines Mitarbeits zu wechseln, muss ein Endatum für die bestehenden Arbeitszeiten eingetragen werden und die neuen Arbeitszeiten werden im Arbeitspensum erfasst.
+
+Erstellen sie eine neues Pensum *Personal > Mitarbeiter auswählen > Tab Arbeitsinformation > Ausführungsplan > Anlegen und Bearbeiten*. Einen passenden Titel festlegen und bei den bestehenden Arbeitszeiten das Endatum festlegen.
+
+![](assets/Personal%20Arbeitszeiten%20mit%20Enddatum.png)
