@@ -62,22 +62,5 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <script async defer data-domain="odoo-erp.ch" src="https://plausible.io/js/plausible.hash.js"></script>
-  <script>
-    // #BUGFIX: https://github.com/docsifyjs/docsify/issues/624
-    function scrollIntoView(path, id) {
-      if (!id) {
-        return
-      }
-      setTimeout(()=>{
-        var section = find('#' + id);
-        section && section.scrollIntoView();
-        var li = nav[getNavKey(path, id)];
-        var sidebar = getNode('.sidebar');
-        var active = find(sidebar, 'li.active');
-        active && active.classList.remove('active');
-        li && li.classList.add('active');
-      }, 1000)
-    }
-  </script>
 </body>
 </html>

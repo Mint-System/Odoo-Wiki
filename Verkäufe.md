@@ -25,8 +25,8 @@ Mit Odoo [Studio](Studio.md) können sie einfach die Proforma-Rechnung mit neuen
   <xpath expr="/t/t/div/p[2]" position="after">
     <t t-if="is_pro_forma">
         <span>
-          <p>Der Unterzeichner erklärt, dass die in diesemDokument aufgeführten Waren und Ursprungserzeugnisse der Schweiz der Schweiz sind und den Ursprungsregeln im Präferenzverkehr mit der EU entsprechen.<br/><br/></p>
-          <p>Unterschrift: ______________________    Datum: ______________________<br/>                        Aersolution Interior AG<br/></p>
+          <p>Der Unterzeichner erklärt, dass die in diesem Dokument aufgeführten Waren und Ursprungserzeugnisse der Schweiz sind und den Ursprungsregeln im Präferenzverkehr mit der EU entsprechen.<br/><br/></p>
+          <p>Unterschrift: _______________________    Datum: _______________________<br/>                        Aersolution Interior AG<br/></p>
         </span>
     </t>
   </xpath>
