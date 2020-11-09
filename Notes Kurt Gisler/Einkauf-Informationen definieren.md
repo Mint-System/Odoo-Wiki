@@ -1,1 +1,0 @@
-# Einkauf-Informationen definieren

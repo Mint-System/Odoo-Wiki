@@ -1,6 +1,6 @@
 # Odoo Handbuch
 
-Das Odoo Handbuch ist eine Referenzdokumentation der Odoo-Prozesse und bietet eine umfangreiche Benutzeranleitung.
+Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten Apps, Referenzsystem und Best Practice.
 
 ![Odoo Handbuch Struktur](assets/Odoo%20Handbuch%20Struktur.svg)
 
