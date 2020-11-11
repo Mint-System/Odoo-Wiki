@@ -56,3 +56,19 @@ Für diese Art von Anpassung muss das XML der Ansicht bearbeit werden, dazu der 
 Möchten sie ein Feld aus einer Ansicht entfernen, öffnen sie zuerst die Ansicht in Odoo Studion. Anschliessend wählen sie das Feld aus und klicken in der linken Menu-Leiste auf *Aus Ansicht entfernen*
 
 !> Benutzerdefinierte Felder sowie Basisfelder werden nicht aus der Datenbank entfernt. Sie bestehen weiterhin und können der Ansicht wieder hinzugefügt werden.
+
+## Berechtigung auf verstecktem Feld festlegen
+
+Bestimmte Felder und Buttons werden nur im Entwicklermodus also mit den erweiterten Berechtigungen angezeigt. Damit diese Felder und Buttons standardmässig angezeigt werden können, können sie mit Odoo Studion ganz einfach die Berechtigung festlegen.
+
+Dazu ein Beispiel: Ein Arbeitsauftrag ist in Arbeit und bereits Bestände produziert, die man verbuchen kann.
+
+![](assets/Studio%20Feld%20nicht%20angezeigt.png)
+
+Nur im Entwicklermodus wird die entsprechende Aktion angezeigt:
+
+![](assets/Studio%20Feld%20angzeigt.png)
+
+Damit dieser Button standardmässig angzeigt wird, geht man wie folgt vor:
+
+![Studio Berechtigungen auf verstecktem Feld festlegen](assets/Studio%20Berechtigungen%20auf%20verstecktem%20Feld%20festlegen.gif)

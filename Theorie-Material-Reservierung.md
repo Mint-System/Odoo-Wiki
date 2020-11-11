@@ -1,6 +1,6 @@
 # Material-Reservierung
 
-Das Beispiel der Fertigung von [Rahmen unbeschichtet](Theorie-Fertigungsplanung.md#Beispiel%20Fertigungsauftrag%20Rahmen%20unbeschichtet) zeigt eine dreistufige Produktionsplanung.
+Das Beispiel der Fertigung von [Rahmen unbeschichtet](Best-Practice-Fertigungsplanung#Beispiel%20Fertigungsauftrag%20Rahmen%20unbeschichtet) zeigt eine dreistufige Produktionsplanung.
 
 ![Theorie Material Reservierung](assets/Theorie%20Material%20Reservierung.svg)
 

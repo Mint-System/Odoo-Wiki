@@ -1,6 +1,6 @@
 # Definition Beispiel Fahrrad
 
-![Theorie Definition Beispiel Fahrrad](assets/Theorie%20Definition%20Beispiel%20Fahrrad.svg)
+![[bestpr]]
 
 ## Rahmen unbeschichtet
 
