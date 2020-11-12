@@ -5,3 +5,4 @@
 - [Fertigungsplanung](Best-Practice-Fertigungsplanung)
 - [Material-Reservierung](Theorie-Material-Reservierung.md)
 - [Fertigungsauftrag](Best-Practice-Fertigungsauftrag.md)
+- [Projekte](Best-Practice-Projekte.md)
