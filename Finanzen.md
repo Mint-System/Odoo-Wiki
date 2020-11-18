@@ -3,9 +3,13 @@
 
 ## Finanzen Dashboard
 
-## Mehrere Währungen
+## Mehrere Währungen aktivieren
 
 Navigieren nach *Finanzen > Konfiguration > Einstellungen > Währungen* und dort die Option *Mehrere Währungen* akvieren. Nach Bedarf muss ein Journal gemäss [Journal-Vorlage](Initialisierung#Journale) erstellt werden. Die verfügbaren Währungen können über die Option *Andere Währungen aktivieren* verwaltet werden.
+
+## Automatische Währungssätze aktiveren
+
+Werden mehre Währungen verwendet, können die Wechselkurse automatisch von Odoo aktualisiert werden. Navigieren sie nach *Einstellungen > Finanzen > Währung* und klicken sie auf *Automatische Währungssätze*. Stellen sie ob die Währung automatisch oder manuel aktualisiert werden soll.
 
 ## SEPA-Zahlmethode aktiveren
 

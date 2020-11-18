@@ -21,7 +21,7 @@ Navigieren sie in die Kanban-Ansicht eines Projekts *Projekt > Projekt auswähle
 ## Globale Stufen zuordnen
 Aufgabenträger: [Projektleiter](Rollen#Projektleiter)
 
-?> Projeektstufen können mit mehreren Projektgeteilt werden.
+?> Projektstufen können mit mehreren Projekten geteilt werden.
 
 Wechseln sie in den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) und navigieren nach *Projekt > Konfiguration > Stufen*. Wählen sie eine bestehende Stufe aus und klicken sie auf *Bearbeiten*.
 
