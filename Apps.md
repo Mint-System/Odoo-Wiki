@@ -3,6 +3,12 @@
 
 Odoo-Apps konfigurieren und korrekt verwenden.
 
+## Liste der Apps aktualisieren
+
+Um die Liste der verfügbaren Apps zu aktualisieren, wechseln sie in den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) und öffnen *Apps*. Im oberen Menu klicken sie auf *Update der Apps*. Wenn der Vorgang abgeschlossen ist, können sie die neuen Apps in der Liste suchen.
+
+![](assets/Apps%20Liste%20aktualisieren.png)
+
 ## FAQ
 
 **Was ist der unterschied zwischen Aktualisieren und Installieren?**
