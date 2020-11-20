@@ -1,3 +1,4 @@
 .DS_Store
 default.vim
 .obsidian/workspace
+node_modules
