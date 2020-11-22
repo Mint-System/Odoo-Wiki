@@ -11,7 +11,9 @@ Jede Änderung mit Odoo Studio an einer Odoo-Instanz muss dokumentiert werden. D
 ## Dateianhang in Bericht anzeigen
 Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
-?> An jedem Odoo-Objekt kann ein Anhang vom Typ Datei oder URL hinzugefügt werden. Dieser Anhang kann im Portal oder Bericht angzeigt werden.
+::: tip
+An jedem Odoo-Objekt kann ein Anhang vom Typ Datei oder URL hinzugefügt werden. Dieser Anhang kann im Portal oder Bericht angzeigt werden.
+:::
 
 In diesem Beispiel wurde mit Odoo Studio dem Modell *product.product* zwei Felder hinzugefügt:
 * Name: x_studio_drawing
@@ -55,7 +57,9 @@ Für diese Art von Anpassung muss das XML der Ansicht bearbeit werden, dazu der 
 
 Möchten sie ein Feld aus einer Ansicht entfernen, öffnen sie zuerst die Ansicht in Odoo Studion. Anschliessend wählen sie das Feld aus und klicken in der linken Menu-Leiste auf *Aus Ansicht entfernen*
 
-!> Benutzerdefinierte Felder sowie Basisfelder werden nicht aus der Datenbank entfernt. Sie bestehen weiterhin und können der Ansicht wieder hinzugefügt werden.
+::: warning
+Benutzerdefinierte Felder sowie Basisfelder werden nicht aus der Datenbank entfernt. Sie bestehen weiterhin und können der Ansicht wieder hinzugefügt werden.
+:::
 
 ## Berechtigung auf verstecktem Feld festlegen
 
