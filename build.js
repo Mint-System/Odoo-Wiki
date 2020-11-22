@@ -7,67 +7,36 @@ const basePath = '/'
 const basePathAssets = './'
 const uriSuffix = '.html'
 const anchorPrefix = '#'
-const gitUrl = 'https://github.com/Mint-System/Odoo-Handbuch/blob/master'
+const assetsFolder = 'assets'
+const gitUrl = 'https://github.com/Mint-System/Odoo-Handbuch/blob/master/'
 
 function sanitizeName(name) {
-    return name.toLocaleLowerCase().replace(/\s+/g, '-').replace('---','-').replace(/%20/g,'-')
+    return name.toLocaleLowerCase()
+        .replace(/\s+/g, '-')
+        .replace('---','-')
+        .replace(/%20/g,'-')
+        .replace('%c3%84','ä')
+        .replace('%c3%bc','ü')
+        .replace('%c3%a4','ä')
+        .replace('ö','o')
+        .replace('ü','u')
+        .replace('ä','a')
 }
 
 function sanitizeAssetname(name) {
-    return name.toLocaleLowerCase().replace(/\s+/g, '-').replace('---','-').replace('%c3%84','ae').replace('%c3%bc','ue').replace('%c3%a4','ae').replace('%c3%9c','ue').replace('ö','oe').replace('ü','ue').replace('ä','ae').replace(/%20/g,'-')
+    return name.toLocaleLowerCase()
+        .replace(/\s+/g, '-')
+        .replace('---','-')
+        .replace(/%20/g,'-')
+        .replace('%c3%84','ä')
+        .replace('%c3%bc','ü')
+        .replace('%c3%a4','ä')
+        .replace('ö','o')
+        .replace('ü','u')
+        .replace('ä','a')
 }
 
 function convert(content,file) {
-
-    // convert wiki image links
-    // ![[Image.png]] -> ![](./assets/image.png)
-    const wikiImage = /!\[\[([^\]]*\.png|jpg|jpeg|svg|gif)\]\]/g
-    let matches = content.match(wikiImage) || []
-    for (i = 0; i < matches.length; i++) {
-        let match = matches[i]
-        let image = sanitizeAssetname(match.match(/!\[\[([^\]]*)/)[1])
-        content = content.replace(match, `![](${basePathAssets}${image})`)
-    }
-
-    // convert embeded content links
-    // ![[Content]] -> [Content](Content.md ':include')
-    const embededContent = /!\[\[([^\]]*)\]\]/g
-    matches = content.match(embededContent) || []
-    for (i = 0; i < matches.length; i++) {
-        let match = matches[i]
-        let title = encodeURI(match.match(/\[\[([^\]|#]*)/)[1])
-        content = content.replace(embededContent, `[$1](${title}.md ':include')`)
-    }
-
-    // convert wiki links
-    // [[href#anchor|title] -> [title](href#anchor)
-    const wikiLink = /\[\[([^\]]*)\]\]/g
-    matches = content.match(wikiLink) || []
-    for (i = 0; i < matches.length; i++) {
-        let match = matches[i]
-
-        let href = match.match(/\[\[([^\]|#]*)/)[1]
-        let title = match.match(/\[\[([^\]|#]*)/)[1]
-        let anchor = null
-
-        // set anchor
-        if (match.indexOf('#') > 0) {
-            anchor = match.match(/#([^\||\]]*)/)[1]
-            // sanitize anchor link
-            anchor = sanitizeName(anchor)
-        }
-
-        // set title and href
-        if (match.indexOf('|') > 0) {
-            href = match.match(/\[\[([^\||#]*)/)[1]
-            title = match.match(/\|(.*)\]\]/)[1]
-        }
-
-        // sanitize href
-        href = sanitizeName(href ? href : file.replace('\.md', ''))
-
-        content = content.replace(match, `[${title}](${basePath}${href}${uriSuffix}${anchor ? (anchorPrefix + anchor) : ''})`)
-    }
 
     // convert markdown image links
     // ![title](Image.png) -> ![](./assets/image.png)
@@ -77,15 +46,14 @@ function convert(content,file) {
         let match = matches[i]
         
         let image = match.match(/!\[.*\]\((.*\..*)\)/)[1]
-        image = sanitizeAssetname(image.replace('assets/',''))
+        image = sanitizeAssetname(image.replace(`${assetsFolder}/`,''))
                 
         content = content.replace(match, `![](${basePathAssets}${image})`)
     }
 
     // convert markdown links
     // ()[Content#link to heading] -> ()[content#link-to-heading]
-    // FIXME does not get link
-    const mdLink = /[^!](\[.*\(*\))/g
+    const mdLink = /(?<!!)(\[[^\]]*\]\([^\)]*\))/g
     matches = content.match(mdLink) || []
     for (i = 0; i < matches.length; i++) {
         let match = matches[i]
@@ -96,7 +64,7 @@ function convert(content,file) {
 
         // set anchor
         if (match.indexOf('#') > 0) {
-            anchor = match.match(/#(.*)/)[1]
+            anchor = match.match(/#([^\)]*)/)[1]
             // sanitize anchor link
             anchor = sanitizeName(anchor)
         }
@@ -104,7 +72,8 @@ function convert(content,file) {
         // sanitize href
         href = sanitizeName(href.replace('\.md', ''))
 
-        content = content.replace(match, `[${title}](${basePath}${href}${uriSuffix}${anchor ? (anchorPrefix + anchor) : ''})`)
+        let mdLink = `[${title}](${basePath}${href}${uriSuffix}${anchor ? (anchorPrefix + anchor) : ''})`
+        content = content.replace(match, mdLink)
     }
 
     return content
@@ -142,11 +111,11 @@ fs.readdirSync(__dirname).filter(file => (file.slice(-3) === '.md') && (ignoreFi
 })
 
 // Loop all asset files
-fs.readdirSync(__dirname + '/assets').forEach((file) => {
+fs.readdirSync(path.join(__dirname, assetsFolder)).forEach((file) => {
     
     // set new file name
     newfile = sanitizeAssetname(file)
 
     // move asset file
-    fs.renameSync(__dirname + '/assets/' + file, __dirname + '/' + newfile)
+    fs.renameSync(path.join(__dirname, assetsFolder,file), path.join(__dirname, newfile))
 })
