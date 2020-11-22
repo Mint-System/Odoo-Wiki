@@ -4,13 +4,13 @@
 
 Dokumentation von Problemen und Lösungen.
 
-## Fehlermeldung - Something went wrong !
+## Fehlermeldung - Something went wrong
 
 ### Problem
 
 Beim öffnen der Eisntellung erscheint der folgende Fehler:
 
-![Berechtigungsfehler - Something went wrong !](assets/Troubleshooting%20Berechtigungsfehler%20-%20Something%20went%20wrong%20!.png)
+![Berechtigungsfehler - Something went wrong](assets/Troubleshooting%20Berechtigungsfehler%20-%20Something%20went%20wrong.png)
 
 Ein Zugriff auf die Benutzerliste ist nicht mehr möglich.
 
