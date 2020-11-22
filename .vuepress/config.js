@@ -6,6 +6,7 @@ module.exports = {
         sidebar: 'auto'
     },
     plugins: [
+        '@vuepress/active-header-links',
         '@vuepress/medium-zoom',
         'vuepress-plugin-mermaidjs',
         'plausible-analytics',

@@ -4,6 +4,7 @@
     "build": "node build.js && vuepress build ."
   },
   "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.7.1",
     "@vuepress/plugin-back-to-top": "^1.7.1",
     "@vuepress/plugin-medium-zoom": "^1.7.1",
     "vuepress": "^1.7.1",
