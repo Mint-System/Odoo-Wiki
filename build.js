@@ -18,7 +18,19 @@ function sanitizeName(name) {
         .replace('%c3%84','ä')
         .replace('%c3%bc','ü')
         .replace('%c3%a4','ä')
-        .replace('%c3%9c','u')
+        .replace('%c3%9c','ü')
+}
+
+
+function sanitizeAnchor(name) {
+    return name.toLocaleLowerCase()
+        .replace(/\s+/g, '-')
+        .replace(/%20/g,'-')
+        .replace('---','-')
+        .replace('%c3%84','ä')
+        .replace('%c3%bc','ü')
+        .replace('%c3%a4','ä')
+        .replace('%c3%9c','ü')
         .replace('ö','o')
         .replace('ü','u')
         .replace('ä','a')
@@ -32,7 +44,7 @@ function sanitizeAssetname(name) {
         .replace('%c3%84','ä')
         .replace('%c3%bc','ü')
         .replace('%c3%a4','ä')
-        .replace('%c3%9c','u')
+        .replace('%c3%9c','ü')
         .replace('ö','o')
         .replace('ü','u')
         .replace('ä','a')
@@ -68,7 +80,7 @@ function convert(content,file) {
         if (match.indexOf('#') > 0) {
             anchor = match.match(/#([^\)]*)/)[1]
             // sanitize anchor link
-            anchor = sanitizeName(anchor)
+            anchor = sanitizeAnchor(anchor)
         }
 
         // sanitize href
