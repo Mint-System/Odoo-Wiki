@@ -94,3 +94,17 @@ Wenn für die Lieferungsschritte die Variante *3 Schritte* (siehe oben) gewählt
 4. Pack
 5. Lieferaufträge
 6. Manufacturing
+
+## Inventur
+### Inventur vorbereiten
+Navigieren sie zum Menu Vorgänge > Inventur. Mit dem Knopf ANLEGEN erstellen sie einen Inventurauftrag. Befüllen sie die Felder gemäss untenstehender Tabelle.
+
+![Lager Felder](assets/Lager%20Felder.svg)
+
+### Inventur durchführen
+
+Starten sie die vorbereitete Inventur mit INVENTUR STARTEN.
+
+Falls ein nicht gelistetes Produkt gezählt wird, kann über ANLEGEN eine neue Position eingefügt werden.
+
+Befüllen sie nun die Spalte *Gezählt* entsprechend der gezählten Quantität pro Produkt. Nach der abgeschlossenen Zählung wird mit BESTANDSBUCHUNG DURCHFÜHREN der korrigierte Bestand gebucht. Das Protokoll kann über PRINT COUNT SHEET erstellt werden.

@@ -9,15 +9,16 @@ Sie zeigt in einer grafischen Übersicht alle Prozesse und deren Zusammenhänge.
 
 ## Prozesse
 - [Entwicklung](Prozess-Entwicklung.md)
-- [Prozess-Kundenanfrage](Prozess-Kundenanfrage.md)
+- [Kundenanfrage](Prozess-Kundenanfrage.md)
 - Produktion
-- [Prozess-Fertigungsplanung](Prozess-Fertigungsplanung.md)
+- [Fertigungsplanung](Prozess-Fertigungsplanung.md)
 - Fertigung
 - Versand
-- [Prozess-Beschaffung](Prozess-Beschaffung.md)
+- [Beschaffung](Prozess-Beschaffung.md)
 - Lieferantenauswahl
 - Lieferantenbeurteilung
 - Administration
+- [Betriebsdaten](Prozess-Betriebsdaten.md)
 
 ## Rollen
 
