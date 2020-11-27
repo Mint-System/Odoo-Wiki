@@ -27,11 +27,11 @@ Steuern (Verkauf)|---|---
 Kosten|26.15 CHF|Siehe Abschnitt Definition/Kosten
 
 #### Register Lager
-##### Vorgänge
+##### Logisitk
 
-Feld |Beispiel|Kommentar
-:- |:- |:-
-Routen|---|---
+![Fertigung Felder Produkte Lager Logistik](assets/Fertigung%20Felder%20Produkte%20Lager%20Logistik.svg)
+
+In den Einstellungen kann eine Sicherheitsvorlaufzeit eingestellt werden.
 
 ### Definitionen
 #### Produktart

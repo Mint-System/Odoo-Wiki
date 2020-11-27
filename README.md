@@ -9,6 +9,9 @@ Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten App
 
 # Apps
 
+![icons_odoo_website_version](assets/icons_odoo_website_version.png)  
+[Installation](Installation.md)
+
 ![icons_odoo_survey](assets/icons_odoo_survey.png)  
 [Initialisierung](Initialisierung.md)
 
