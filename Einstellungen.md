@@ -9,7 +9,9 @@ Auf *Entwicklermodus aktivieren* klicken. Nun erscheinen neue Optionen in versch
 
 ## Übersetzungen aktualisieren
 
-**Generierung**
+Mit jeder Odoo Version und den dazugehörigen Modulen werden neue Übersetzungen hinzugefügt. Um die aktuellsten Übersetzungen zu erhalten müssen sie folgende Aktion ausführen: Öffnen sie *Einstellungen > Sprachen > Sprachen verwalten > Sprache auswählen* und klicken auf *Aktivieren und Übersetzen*. Bestätigen sie den Dialog.
+
+## Fehlende Begriffe generieren
 
 Damit Begriffe überesetzt werden können, muss als erstes die Liste, der zu übersetzenden Begriffe aktualisiert werden.  Im [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) folgende Aktionen ausführen:
 
