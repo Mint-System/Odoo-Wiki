@@ -33,6 +33,8 @@ Kosten|26.15 CHF|Siehe Abschnitt Definition/Kosten
 
 In den Einstellungen kann eine Sicherheitsvorlaufzeit eingestellt werden.
 
+Falls eine *Security Lead Time for Sales* definiert ist (siehe Lager > Konfigruation) dann beeinflusst dies den geplanten Lieferzeitpunkt. D.h. der Warentransfer wird diese Anzahl Tage früher beauftragt. Der im Verkaufsauftrag definierte und für den Kunden sichtbare Termin wird aber durch die *Security Lead Time for Sales* nicht beeinflusst.
+
 ### Definitionen
 #### Produktart
 Zur Auswahl stehen 

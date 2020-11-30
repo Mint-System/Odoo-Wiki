@@ -48,13 +48,26 @@ Zur Auswahl stehen:
 
 ![Lager Lieferungsschritte](assets/Lager%20Lieferungsschritte.svg)
 
+### Strategien
 
+Mit Odoo 14 wurde die Funktionalität "Replenishment" ausgebaut. *Replenish on Order (MTO)* soll damit an Bedeutung verlieren.
+
+![Lager Strategien](assets/Lager%20Strategien.svg)
 
 ### Regeln
 
 Es besteht folgender Zusammenhang zwischen Lager, Routen und Regeln:
 
 ![Lager Zusammenhänge Routen](assets/Lager%20Zusammenh%C3%A4nge%20Routen.svg)
+
+#### Propagation
+
+![Lager Regeln](assets/Lager%20Regeln.svg)
+
+::: tip
+Über die Einstellung *Weitergabe Beschaffungsgruppe* wird programmiert ob Bestellvorschläge kummuliert werden oder ob separate Angebotsanfragen erstellt werden.
+:::
+
 
 ## Lagerorte
 
@@ -108,3 +121,21 @@ Starten sie die vorbereitete Inventur mit INVENTUR STARTEN.
 Falls ein nicht gelistetes Produkt gezählt wird, kann über ANLEGEN eine neue Position eingefügt werden.
 
 Befüllen sie nun die Spalte *Gezählt* entsprechend der gezählten Quantität pro Produkt. Nach der abgeschlossenen Zählung wird mit BESTANDSBUCHUNG DURCHFÜHREN der korrigierte Bestand gebucht. Das Protokoll kann über PRINT COUNT SHEET erstellt werden.
+
+## Scheduler
+Der Scheduler ist die Rechenmaschine welche die Produktion und den Einkauf plant und priorisiert. Er tut dies automatisch basierend auf den Regeln die pro Produkt definiert sind. Standardmässig läuft der scheduler jede Nacht um 24:00 Uhr.
+
+Der Scheduler prüft nur Beschaffungen die bestätigt, aber noch nicht begonnen wurden.
+
+Diese vorbereiteten Beschaffungen werden je nach Konfiguration des betroffenen Produkts die Produktion, Aufgaben oder Einkäufe selbst starten.
+
+Der Scheduler berücksichtigt beim Starten von Reservierungen und Beschaffungen die Priorität der Vorgänge. Dringende Anfragen werden zuerst gestartet.
+
+::: tip
+Falls nicht genügend Produkte auf Lager sind um alle Anfragen zu erfüllen, werden die dringendsten zuerst produziert.
+:::
+
+## Priorisierung
+::: tip
+Durch Aktivierung des Sterns im Objekt der Auslieferung wird der Auftrag priorisiert.
+:::
