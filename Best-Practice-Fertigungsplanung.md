@@ -14,7 +14,7 @@ Für die Details des Produktes siehe [Rahmen unbeschichtet](Theorie-Definition-B
 ### Automatische Fertigungsaufträge
 Es wird ein Fertigungsauftrag für 8 Stk. *Rahmen unbeschichtet* erstellt. Die Materialverfügbarkeit zeigt sich wie folgt:
 
-![Theorie Fertigungsauftrag Rahmen unbeschichtet Berechnung](assets/Theorie%20Fertigungsauftrag%20Rahmen%20unbeschichtet%20Berechnung.svg)
+![Best Practice Fertigungsauftrag Rahmen unbeschichtet Berechnung](assets/Best%20Practice%20Fertigungsauftrag%20Rahmen%20unbeschichtet%20Berechnung.svg)
 
 ### Odoo 14
 Der erste Auftrag erscheint wie folgt:

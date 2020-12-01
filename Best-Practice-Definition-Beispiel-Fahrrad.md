@@ -14,4 +14,10 @@
 
 Rahmen unbeschichtet
 
-![Theorie Fahrrad BoM](assets/Theorie%20Fahrrad%20BoM.svg)
+![Best Practice Definition Beispiel Fahrrad BoM](assets/Best%20Practice%20Definition%20Beispiel%20Fahrrad%20BoM.svg)
+
+### Lead Times
+
+Rahmen unbeschichtet
+
+![Best Practice Definition Beispiel Fahrrad Lead Times](assets/Best%20Practice%20Definition%20Beispiel%20Fahrrad%20Lead%20Times.svg)
