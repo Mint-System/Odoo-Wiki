@@ -14,4 +14,3 @@
 
 Rahmen unbeschichtet
 
-![Theorie Fahrrad BoM](assets/Theorie%20Fahrrad%20BoM.svg)
