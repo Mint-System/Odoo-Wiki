@@ -1,13 +1,16 @@
 # Replenishment
 
-Am 30.11. werden an den Kunden *Fahrrad-Traum AG* 10 Stk *Rahmen unbeschichtet* verkauft.
+## Beispiel 1
+Am 30.11.yyyy werden an den Kunden *Fahrrad-Traum AG* 10 Stk *Rahmen unbeschichtet* verkauft.
 
-## Definition der Lieferung
+### Definition der Lieferung
 Auslieferungsbedingungen: Wenn alle Produkte bereit sind
 
 Liefertermin: 14.12.yyyy hh:mm:ss
 
 (Als Expected wird der 02.12. angezeigt, weil die *Auslieferungszeit* auf 1 Tag gesetzt ist. Details zur Produktdefinition siehe [Definition Beispiel Fahrrad](Best-Practice-Definition-Beispiel-Fahrrad.md))
+
+### Ablauf
 
 Nach der Bestätigung des Auftrags erscheint der Vorschlag 8 Stk zu produzieren in der Liste *Replenish*.
 (Falls der Liefertermin auf den 15.12.yyyy gesetzt worden wäre, würde der Vorschlag erst ein Tag später erscheinen.)
@@ -39,5 +42,23 @@ Anschliessend ist die Liste leer.
 Die beiden Bestellvorschläge P00001 und P00002 werden nun bestätigt.
 
 Jetzt ist sämtliches Material bestellt. Der zeitliche Ablauf bedarf noch einer Feinplanung.
+
+## Beispiel 2
+In diesem Beispiel wird eine Lieferung von 20 Kettenstreben vom Lieferant *Eisenwaren Huber AG* in 6 Tagen erwartet. Es werden ebenfalls am 30.11.yyyy 10 Stk *Rahmen unbeschichtet* an den Kunden *Fahrrad-Traum AG* verkauft.
+
+Das System schlägt mir auch diesmal vor 8 Stk einzukaufen (Prognose: -8). Die Sicht auf die detaillierte Prognose-Übersicht zeigt, dass aber dem 10.12. überzählige 12 Stk Kettenstreben an Lager sind.
+
+Für den *Forecasted Stock* berechnet das System den Bestand zum Datum *Heute + Durchlaufzeit der Fertigung*. D.h. die Route *Fertigung* hat Priorität. (Das ängert auch nicht, wenn bei *Meldebestände* die *Peferred Route* auf *Einkaufen* gesetzt ist).
+Die *Preferred Route* wird auf *Einkaufen* gesetzt.
+
+Es ist folgende Entscheidung zu treffen.
+- Es werden die empfohlenen 8 Stk sofort bestellt damit der Auftrag WH/MO/00001 baldmöglichst gestartet werden kann
+- Der Start des Fertigungsauftrags WH/MO/00001 wird
+
+Hinweis: Wenn der der Start des Fertigungsauftrages um 10 Tage nach hinten verschoben und der Scheduler gestartet wird, dann ist auf der Liste *Replenishment* nur noch die Beschaffung der Kettenstrebe vorgeschlagen.
+
+Zu bestellen wird auf 0 gesetzt. Damit verschwinden die Knöpfe *Order Once* und *Automate Orders*. (Nach dem erneuten *Replenish* verschwindet der Eintrag ganz.)
+
+Erst mit *VERFÜGBARKEIT PRÜFEN* im Fertigungsauftrag wird ...
 
 
