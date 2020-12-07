@@ -96,6 +96,9 @@ Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten App
 ![icons_odoo_website](assets/icons_odoo_website.png)  
 [Website](Website.md)
 
+![icons_odoo_iot](assets/icons_odoo_iot.png)  
+[ioT](IoT)
+
 ![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)  
 [Studio](Studio.md)
 
