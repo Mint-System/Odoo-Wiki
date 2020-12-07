@@ -93,14 +93,16 @@ E-Mail Alias: ausgangsrechnungen@example.com
 
 Name: **Eingangsrechnungen**  
 Kurzzeichen: KFA  
-Sequenz: Prefix "Nr. " und nächste Nummer 300  
-Rückerstattungs-Sequenz: Prefix "Nr. " und nächste Nummer 300  
 Typ: Einkauf  
 Währung: CHF  
-Standard-Sollkonto: 4400 Handelswarenaufwand  
-Standard-Habenkonto: 4400 Handelswarenaufwand  
 E-Mail Alias: eingangsrechnungen@example.com  
 
+#Odoo13  
+Sequenz: Prefix "Nr. " und nächste Nummer 300  
+Rückerstattungs-Sequenz: Prefix "Nr. " und nächste Nummer 300  
+Standard-Sollkonto: 4400 Handelswarenaufwand  
+Standard-Habenkonto: 4400 Handelswarenaufwand  
+k
 ### Finanzen
 
 Name: **Sonstige Operationen**  
@@ -111,9 +113,11 @@ Währung: CHF
 
 Name: **Bank**  
 Kurzzeichen: BNK1  
-Sequenz: Prefix "BNK1/%(range_year)s/"  
 Typ: Bank  
 Währung: CHF  
+
+#Odoo13  
+Sequenz: Prefix "BNK1/%(range_year)s/"  
 Standard-Sollkonto: 1021 Bank  
 Standard-Habenkonto: 1021 Bank  
 
@@ -121,9 +125,11 @@ Standard-Habenkonto: 1021 Bank
 
 Name: **Kasse/Bank**  
 Kurzzeichen: CSH1  
-Sequenz: Prefix "CSH1/%(range_year)s/"  
 Typ: Kasse/Bank  
 Währung: CHF  
+
+#Odoo13  
+Sequenz: Prefix "CSH1/%(range_year)s/"  
 Standard-Sollkonto: 1001 Kasse/Bank  
 Standard-Habenkonto: 1001 Kasse/Bank  
 
@@ -131,8 +137,10 @@ Standard-Habenkonto: 1001 Kasse/Bank
 
 Name: **Wechselkursdifferenzen (CHF)**  
 Kurzzeichen: EXCH  
+Typ: Sonstiges  
+
+#Odoo13  
 Sequenz: Prefix "EXCH/%(range_year)s/"  
-Type: Sonstiges  
 Standard-Sollkonto: 4906 Währungsdifferenzen  
 Standard-Habenkonto: 3806 Währungsdifferenzen  
 
@@ -140,9 +148,11 @@ Standard-Habenkonto: 3806 Währungsdifferenzen
 
 Name: **Lohn**  
 Kurzzeichen: LHN  
-Sequenz: Prefix "LHN/%(range_year)s/"  
 Typ: Sonstiges  
 Währung: CHF  
+
+#Odoo13  
+Sequenz: Prefix "LHN/%(range_year)s/"  
 Standard-Sollkonto: 5000 Lohnaufwand  
 Standard-Habenkonto: 5000 Lohnaufwand  
 
@@ -153,3 +163,5 @@ Standard-Habenkonto: 5000 Lohnaufwand
 Konten für welche sie keine Verwendung haben, können sie anwählen und die Checkbox *Nicht mehr verwenden* markieren.
 
 ## Eröffnungsbuchung
+
+#FIXME 

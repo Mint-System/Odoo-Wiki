@@ -6,11 +6,15 @@ In diesem Dokument werden die Vorgaben zur Mitarbeit am Odoo Handbuch erläutert
 
 Zur Erläuterung der Instruktionen darf man ein fiktives Unternehmen mit folgenden Informationen verwenden:
 
+![logo-velo-manufaktur-ag](assets/logo-velo-manufaktur-ag.svg)
+
 Name: Velo Manufaktur AG  
 Website: https://www.example.com  
+Mail: info@example.com
 Odoo: https://erp.example.com  
-Standort: Schweiz  
+Standort: Fahrradstrasse 64, Altdorf 6460, Schweiz  
 Mitarbeiter: Kurt Gisler, Janik von Rotz, Marco Roeleven  
+MWST: CHE-103.800.167  
 IBAN: CH5604835012345678009  
 Bank: Credit Suisse  
 BIC: CRESCHZZ  
@@ -103,8 +107,15 @@ Die foglenden Namensbereiche sind reserviert:
 
 * Prozess
 * Theorie
+* Best-Practice
 
-## Links
+## Tags
 
-GitHub: `/Notizen.md#notizen-teilen`  
-Docsify: `/#/Notizen?id=notizen-teilen`
+Mit Obsidian können Artikel getagged `#tagname` werden. Tags werden jedoch von Vuepress nicht unterstützt. Daher werden die Tags nur zur Verwaltung der Artikel verwendet. Folgende Tags stehen zur verfügung:
+
+* #FIXME: An dieser Stelle ist eine Änderungen offen.
+* #REPLACEME: An der Stelle des Tags mit gemäss Kommentar Inhalt ergänzt werden.
+* #DELETEME: Dieser Artikel und Assets kann gelöscht werden.
+* #PATCH: Applied patch to fix bug.
+* #Odoo13: Dieses Feature ist nur für Odoo 13 verfügbar.
+* #Odoo13-14: Dieses Feature ist für Odoo 13 bis 14 verfügbar.
