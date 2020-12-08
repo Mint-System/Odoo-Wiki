@@ -75,7 +75,7 @@ Bezeichnung auf Rechnungen | Steuerbezeichnung | Steuergültigkeit | Steuerkonto
 
 ## Journale
 
-Für die Finanzbuchhaltung müssen vor der ersten Buchung Journale definiert werden. Navigieren sie nach *Finanzen > Konfiguration > Abrechnung > Journale*. Passen sie die bestehenden Journale an.
+Für die Finanzbuchhaltung müssen vor der ersten Buchung Journale definiert werden. Navigieren Sie nach *Finanzen > Konfiguration > Abrechnung > Journale*. Passen sie die bestehenden Journale an.
 
 ### Verkauf
 
@@ -102,7 +102,7 @@ Sequenz: Prefix "Nr. " und nächste Nummer 300
 Rückerstattungs-Sequenz: Prefix "Nr. " und nächste Nummer 300  
 Standard-Sollkonto: 4400 Handelswarenaufwand  
 Standard-Habenkonto: 4400 Handelswarenaufwand  
-k
+
 ### Finanzen
 
 Name: **Sonstige Operationen**  
