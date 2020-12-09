@@ -19,7 +19,7 @@ Shop-Seite aufrufen und *Anpassen* wählen und die Option *eCommerce Categories*
 
 ## Seite hinzufügen
 
-Mit dem Odoo Website-Editor können sie ganz einfach neue Seiten hinzuüfgen.
+Mit dem Odoo Website-Editor können sie ganz einfach neue Seiten hinzufügen.
 
 ![](assets/Website%20Neue%20Seite%20hinzuf%C3%BCgen.gif)
 
