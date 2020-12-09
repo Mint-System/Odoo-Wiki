@@ -33,15 +33,21 @@ Geben sie einen Namen mit Jahresdatum ein und legen sie die Fix- und Prozentwert
 
 ## Lohnarten definieren
 
-:::
+:::info
 Das sind die Regeln, die Informationen über die Gehaltsberechnung liefern. Diese Regeln werden von odoo gemäss der Reihenfolge ihrer Sequenznummer interpretiert. Die Regeln können verwendet werden, um Buchungen zu erzeugen, ohne dass diese in der Gehaltsliste sichtbar sind.
 :::
 
+Die Lohnregel sind unter *Personalabrechnung > Konfiguration > Regeln* definiert. Überprüfen sie alle Regeln und legen sie fest welche auf dem Lohnzettel erscheinen sollen.
+
+
+
 ## Finanzkonten den Lohnarten zuweisen
 
-:::danger
+Damit  die Lohnabrechnung auch in der Finanzbuchhaltung ersichtlich ist, müssen sie für alle Lohnregeln die entsprechenden Soll- und Habenkonten hinterlegen. Eine Übersicht dazu finden sie unter [Best-Practice Lohnbuchhaltung](Best-Practice-Lohnbuchhaltung.md).
 
-:::
+Navigieren sie nach *Personalabrechnung > Konfiguration > Regeln > Regel auswählen > Beareiten > Tab Finanzen* und weisen sie dort die Konten zu.
+
+![](assets/Personalbrechnung%20Finanzkonten.png)
 
 ## Lohnabrechnung erstellen
 
@@ -51,4 +57,4 @@ Das sind die Regeln, die Informationen über die Gehaltsberechnung liefern. Dies
 
 ## Gehaltsinformationen eingeben
 
-Die Gehaltsinformationen der Mitarbeiter legen sie via *Pesonal > Mitarbeiter auswählen > Link Verträge > Arbeitsvertrag auswählen > Bearbeiten > Tab Gehalsinformationen* fest.
+Die Gehaltsinformationen der Mitarbeiter legen sie via *Pesonal > Mitarbeiter auswählen > Link Verträge > Arbeitsvertrag auswählen > Bearbeiten > Tab Gehaltsinformationen* fest.
