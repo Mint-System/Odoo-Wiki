@@ -10,7 +10,7 @@ Die Allgemeine Preisliste für CHF ist in den Standardeinstellungen bereits vorh
 - Allgemeine Preisliste, Währung USD
 
 ### Journale
-Vorbereitend muss noch pro Währung ein [Journal](Initialisierung.md#Journale) erstellt werden. Zum Beispiel:
+Vorbereitend muss noch pro Währung ein Journal erstellt werden. Zum Beispiel:
 - Ausgangsrechnungen, Währung EUR
 - Ausgangsrechnungen, Währung USD
 

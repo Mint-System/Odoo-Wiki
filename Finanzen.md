@@ -1,11 +1,15 @@
 # Finanzen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
-## Finanzen Dashboard
+## Kontenplan einrichten
+
+Öffnen sie die Finanz-App und richten Sie den Standard-Kontenplan ein. Navigieren sie nach *Finanzen > Konfiguration > Finanzen > Kontenplan*.
+
+Konten für welche sie keine Verwendung haben, können sie anwählen und die Checkbox *Nicht mehr verwenden* markieren.
 
 ## Mehrere Währungen aktivieren
 
-Navigieren nach *Finanzen > Konfiguration > Einstellungen > Währungen* und dort die Option *Mehrere Währungen* akvieren. Nach Bedarf muss ein Journal gemäss [Journal-Vorlage](Initialisierung#Journale) erstellt werden. Die verfügbaren Währungen können über die Option *Andere Währungen aktivieren* verwaltet werden.
+Navigieren nach *Finanzen > Konfiguration > Einstellungen > Währungen* und dort die Option *Mehrere Währungen* akvieren. Nach Bedarf muss ein Journal gemäss Vorlage erstellt werden. Die verfügbaren Währungen können über die Option *Andere Währungen aktivieren* verwaltet werden.
 
 ## Automatische Währungssätze aktiveren
 
@@ -80,3 +84,9 @@ Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits könn
 </div>
             
 ```
+
+## Import Kontoauszug
+Arbeitsschritte:
+* Kontoauszug als XML-Datei ISO-20022 camt.053 exportieren
+* Die Datei in Odoo importieren
+* Für jede Zahlung  eine offene Rechnung auswählen

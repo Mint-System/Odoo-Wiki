@@ -12,3 +12,5 @@
 - [Verschiedene Produktarten einkaufen](Best-Practice-Verschiedene-Produktarten-einkaufen.md)
 - [Änderung der Route während dem Einkaufsprozess](Best-Practice-%C3%84nderung-der-Route-w%C3%A4hrend-dem-Einkaufsprozess.md)
 - [Replenishment](Best-Practice-Replenishment.md)
+- [Mehrwertsteuer](Best-Practice-Mehrwertsteuer.md)
+- [Finanzen - Journale](Best-Practice-Finanzen-Journale.md)
