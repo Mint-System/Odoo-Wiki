@@ -13,9 +13,15 @@ Wählen sie *Publish*  in der oberen Menü-Leiste.
 
 ![](assets/Website%20Publish%20toggle.png)
 
-### Mehrwertsteuer im Webshop inklusive anzeigen.
-Soll im Webshop der Artikelpreis inklussive der Mehrwertsteur angezeigt werden, so setzen Sie beim Artikel in *Produkte* den Wert Mehrwertsteuersatz "zu zahlende Mwst 7.7% inkl NRZ". Die zu zahlende Mehrwertsteuer wird im Warenkorb anschliessend als sepraten Betrag ausgewiesen.
-
 ## Kategorien aktivieren
 
 Shop-Seite aufrufen und *Anpassen* wählen und die Option *eCommerce Categories* aktivieren.
+
+## Seite hinzufügen
+
+Mit dem Odoo Website-Editor können sie ganz einfach neue Seiten hinzuüfgen.
+
+![](assets/Website%20Neue%20Seite%20hinzuf%C3%BCgen.gif)
+
+## Mehrwertsteuer im Shop inklusive anzeigen.
+Soll im Webshop der Artikelpreis inklussive der Mehrwertsteur angezeigt werden, so setzen sie beim Artikel in *Produkte* den Wert Mehrwertsteuersatz *zu zahlende Mwst 7.7% inkl NRZ*. Die zu zahlende Mehrwertsteuer wird im Warenkorb anschliessend als sepraten Betrag ausgewiesen.
