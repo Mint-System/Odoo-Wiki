@@ -1,6 +1,26 @@
 # Personalabrechnung
 ![icons_odoo_hr_payroll](assets/icons_odoo_hr_payroll.png)
 
+## Pesonalabrechnung initialisieren
+
+Damit sie die Personalabrechnung für ihre Mitarbeiter erstellen können, müssen einige vorbereitungen getroffen werden.
+
+Dazu eine Übersicht:
+* [Mitarbeiter erfassen](Personal.md#Personal#Mitarbeiter%20erfassen)
+* [Private Adresse hinterlegen](Personal.md#Private%20Adresse%20hinterlegen)
+* [Arbeitsvertrag hinzufügen](Personal.md#Arbeitsvertrag%20hinzuf%C3%BCgen)
+* [Bankverbindung hinterlegen](#Bankverbindung%20hinterlegen)
+* [Anteile Arbeitgeber / Arbeitnehmer konfigurieren](#Anteile%20Arbeitgeber%20Arbeitnehmer%20konfigurieren)
+* [Lohnarten definieren](#Lohnarten%20definieren)
+* [Finanzkonten den Lohnarten zuweisen](#Finanzkonten%20den%20Lohnarten%20zuweisen)
+* [Gehaltsinformationen eingeben](#Gehaltsinformationen%20eingeben)
+
+Konfigurieren sie diese Punkte, erst dann können sie die [Lohnabrechnung erstellen](#Lohnabrechnung%20erstellen).
+
+## Bankverbindung hinterlegen
+
+Zur Auszahlung des Lohns über SEPA müssen sie den Mitarbeiter ein Bankkonto hinterlegen. Navigieren sie nach *Pesonal > Mitarbeiter auswählen > Bearbeiten > Tab Private Information* und erfassen sie ein Bankkonto unter *Bankverbindung*.
+
 ## Anteile Arbeitgeber / Arbeitnehmer konfigurieren
 
 Die Anteile des Arbeitgebener und Arbeitnehmer können als Vorlage erfasst werden. Die Anteile werde werden dem Arbeitsvertrag zugewiesen.
@@ -16,3 +36,19 @@ Geben sie einen Namen mit Jahresdatum ein und legen sie die Fix- und Prozentwert
 :::
 Das sind die Regeln, die Informationen über die Gehaltsberechnung liefern. Diese Regeln werden von odoo gemäss der Reihenfolge ihrer Sequenznummer interpretiert. Die Regeln können verwendet werden, um Buchungen zu erzeugen, ohne dass diese in der Gehaltsliste sichtbar sind.
 :::
+
+## Finanzkonten den Lohnarten zuweisen
+
+:::danger
+
+:::
+
+## Lohnabrechnung erstellen
+
+**Einzeln**
+
+**Batch**
+
+## Gehaltsinformationen eingeben
+
+Die Gehaltsinformationen der Mitarbeiter legen sie via *Pesonal > Mitarbeiter auswählen > Link Verträge > Arbeitsvertrag auswählen > Bearbeiten > Tab Gehalsinformationen* fest.

@@ -9,6 +9,12 @@ Navigieren sie nach *Personal* und wählen *+ Anlegen*. Geben sie den Vor- und N
 
 Schliessen Sie den Vorgang mit *Speichern* ab.
 
+## Private Adresse hinterlegen
+
+Bestimmte Unterlagen wie die Lohnabrechnung werden an die private Adresse des Mitarbeiters versandt. Dafür gibt es ein entsprechendes Feld in der Mitarbeiter-Ansicht.
+
+Erstellen sie eine private Adresse folgendermassen: *Personal > Mitarbeiter auswählen > Tab Private Information > Bearbeiten* und legen sie private Adresse im Feld *Adresse* fest.
+
 ## Arbeitspensum festlegen
 
 Um das Arbeitspensum für einen Mitarbeiter zu ändern, öffnen sie das App *Personal* und wählen den Mitarbieter aus. Wählen sie *Bearbeiten* und legen sie im Tab *Arbeitsinformation* unter *Ausführungsplan* die *Arbeitsstunden* fest.
@@ -24,3 +30,7 @@ Um das Pensum eines Mitarbeits zu wechseln, muss ein Endatum für die bestehende
 Erstellen sie eine neues Pensum *Personal > Mitarbeiter auswählen > Tab Arbeitsinformation > Ausführungsplan > Anlegen und Bearbeiten*. Einen passenden Titel festlegen und bei den bestehenden Arbeitszeiten das Endatum festlegen.
 
 ![](assets/Personal%20Arbeitszeiten%20mit%20Enddatum.png)
+
+## Arbeitsvertrag hinzufügen
+
+Die Entlohnung und Arbeitszeiten sind im Arbeitsvertrag festgehalten. Fügen sie den Mitarbeiter über *Personal > Mitarbeiter auswählen > Link Verträge* mit *Anlegen* einen Vertrag hinzu. Damit der Vertrag aktiv ist, müssen sie in den Status *Laufend* verschieben.
