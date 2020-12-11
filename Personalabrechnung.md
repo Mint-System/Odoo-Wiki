@@ -33,13 +33,11 @@ Geben sie einen Namen mit Jahresdatum ein und legen sie die Fix- und Prozentwert
 
 ## Lohnarten definieren
 
-:::info
+:::info  
 Das sind die Regeln, die Informationen über die Gehaltsberechnung liefern. Diese Regeln werden von odoo gemäss der Reihenfolge ihrer Sequenznummer interpretiert. Die Regeln können verwendet werden, um Buchungen zu erzeugen, ohne dass diese in der Gehaltsliste sichtbar sind.
 :::
 
 Die Lohnregel sind unter *Personalabrechnung > Konfiguration > Regeln* definiert. Überprüfen sie alle Regeln und legen sie fest welche auf dem Lohnzettel erscheinen sollen.
-
-
 
 ## Finanzkonten den Lohnarten zuweisen
 
@@ -51,9 +49,27 @@ Navigieren sie nach *Personalabrechnung > Konfiguration > Regeln > Regel auswäh
 
 ## Lohnabrechnung erstellen
 
+Lohnabrechnung können für mehre oder einzelne Mitarbeiter ausgeführt werden.
+
 **Einzeln**
 
+Um eine einzelne Lohnabrechnung zu erzeugen wählen sie den Mitarbeiter aus *Personal > Mitarbeiter auswählen* und klicken auf den Link *Abrechnungen Mitarbeiterverfügung* und wählen *Anlegen*. Legen sie die Zeitperiode fest, speichern sie den Eintrag und drücken *Berechnen*. Nun wird die Lohnabrechnung erstellt und ist bereit zur Verbuchung.
+
 **Batch**
+
+Navigieren sie nach *Personalabrechnung > Work Entries > Work Entries* und wählen den aktuellen Monat. Starten sie den Batch-Vorgang mit *Lohnabrechnung erzeugen*. Für jeden Mitarbeiter wird nun eine Lohnabrechnung erzeugt und steht bereit zur Prüfung.
+
+![](assets/Personalbrechung%20Lohnabrechnung%20%C3%BCberpr%C3%BCfen.png)
+
+Mit *Create draft entry* werden die einzelnen Lohnabrechnungen berechnet und eine Buchung vorbereitet.
+
+## Lohnabrechnung verbuchen
+
+Wählen sie eine aktuelle Lohnabrechnung, die im Status *Erledigt* ist: *Personalabrechnung > Abrechnung Mitarbeitervergütung > All Payslips > Payslip auswählen*. Öffnen sie den Tab *Finanzen* und klicken auf den Link unter *Buchung*.
+
+![](assets/Personalbrechnung%20Buchung.png)
+
+Hier werden alle Buchungen der Lohnabrechnung aufgeführt.
 
 ## Gehaltsinformationen eingeben
 
