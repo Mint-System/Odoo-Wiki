@@ -33,7 +33,7 @@ Geben sie einen Namen mit Jahresdatum ein und legen sie die Fix- und Prozentwert
 
 ## Lohnarten definieren
 
-:::info  
+::: info
 Das sind die Regeln, die Informationen über die Gehaltsberechnung liefern. Diese Regeln werden von odoo gemäss der Reihenfolge ihrer Sequenznummer interpretiert. Die Regeln können verwendet werden, um Buchungen zu erzeugen, ohne dass diese in der Gehaltsliste sichtbar sind.
 :::
 

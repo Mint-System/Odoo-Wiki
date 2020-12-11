@@ -22,7 +22,7 @@ Die MwSt-Abrechnung nach vereinnahmten Entgelten (Art. 39 Abs. 2 MWSTG) muss
 schriftlich bei der eidg. Steuerverwaltung beantragt werden. So ist die MwSt erst fällig,
 nachdem sie die Zahlung des Kunden erhalten haben.
 
-:::info
+::: info
 Beispiel: Wie im Beispiel oben stellen sie dem Kunden eine Rechnung über CHF 1’080 aus (Rechnungsbetrag plus 8% MwSt). Die MwSt im Wert von CHF 80 bezahlen sie der Steuerverwaltung erst in dem Quartal, in dem der Kunde die Rechnung bezahlt hat. Zahlt der Kunde die Rechnung erst im Juli, müssen sie die MwSt erst nach Ablauf dieses Quartals abliefern, d.h. Anfang Oktober.
 :::
 
