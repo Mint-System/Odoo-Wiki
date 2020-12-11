@@ -72,7 +72,7 @@ function convert(content,file) {
     for (i = 0; i < matches.length; i++) {
         let match = matches[i]
 
-        let href = match.match(/\]\(([^\)|#]*)/)[1]
+        let href = match.match(/\]\(([^\)|#]*)/)[1] || file
         let title = match.match(/\[([^\]]*)\]\(/)[1]
         let anchor = null
 
