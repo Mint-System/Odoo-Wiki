@@ -15,10 +15,10 @@ function sanitizeName(name) {
         .replace(/\s+/g, '-')
         .replace(/%20/g,'-')
         .replace('---','-')
-        .replace('%c3%84','ä')
-        .replace('%c3%bc','ü')
-        .replace('%c3%a4','ä')
-        .replace('%c3%9c','ü')
+        .replace(/%c3%84/g,'ä')
+        .replace(/%c3%bc/g,'ü')
+        .replace(/%c3%a4/g,'ä')
+        .replace(/%c3%9c/g,'ü')
 }
 
 
@@ -27,13 +27,13 @@ function sanitizeAnchor(name) {
         .replace(/\s+/g, '-')
         .replace(/%20/g,'-')
         .replace('---','-')
-        .replace('%c3%84','ä')
-        .replace('%c3%bc','ü')
-        .replace('%c3%a4','ä')
-        .replace('%c3%9c','ü')
-        .replace('ö','o')
-        .replace('ü','u')
-        .replace('ä','a')
+        .replace(/%c3%84/g,'ä')
+        .replace(/%c3%bc/g,'ü')
+        .replace(/%c3%a4/g,'ä')
+        .replace(/%c3%9c/g,'ü')
+        .replace(/ö/g,'o')
+        .replace(/ü/g, 'u')
+        .replace(/ä/g,'a')
 }
 
 function sanitizeAssetname(name) {
@@ -41,13 +41,13 @@ function sanitizeAssetname(name) {
         .replace(/\s+/g, '-')
         .replace(/%20/g,'-')
         .replace('---','-')
-        .replace('%c3%84','ä')
-        .replace('%c3%bc','ü')
-        .replace('%c3%a4','ä')
-        .replace('%c3%9c','ü')
-        .replace('ö','o')
-        .replace('ü','u')
-        .replace('ä','a')
+        .replace(/%c3%84/g,'ä')
+        .replace(/%c3%bc/g,'ü')
+        .replace(/%c3%a4/g,'ä')
+        .replace(/%c3%9c/g,'ü')
+        .replace(/ö/g,'o')
+        .replace(/ü/g, 'u')
+        .replace(/ä/g,'a')
 }
 
 function convert(content,file) {
