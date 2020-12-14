@@ -13,8 +13,10 @@ DIe Abrechnung nach vereinbarten Entgelten (Art. 39 Abs. 1 MWSTG) ist das Standa
 
 DIe Abrechnung nach vereinbarten Entgelten (Art. 39 Abs. 1 MWSTG) ist das Standardverfahren der eidgenössischen Steuerverwaltung. Bei dieser Methode wird die MwSt fällig, sobald die Rechnung dem Kunden gestellt ist. Bezahlt dieser die Rechnung erst in einem späteren Quartal, finanzieren sie als Unternehmer die MwSt vor.
 
-?> Beispiel: sie haben eine Physiotherapie Praxis und haben Arbeiten im Wert von CHF 1’000 ausgeführt. Am 25. Juni stellen sie dem Kunden eine Rechnung über CHF 1’080 aus
+::: tip
+Beispiel: sie haben eine Physiotherapie Praxis und haben Arbeiten im Wert von CHF 1’000 ausgeführt. Am 25. Juni stellen sie dem Kunden eine Rechnung über CHF 1’080 aus
 (Rechnungsbetrag plus 8% MwSt). Der Kunde bezahlt die Rechnung erst später. Als Unternehmer müssen sie die MwSt von CHF 80 vorfinanzieren und nach Abschluss des laufenden Quartals, also Anfang Juli, der Steuerverwaltung abliefern.
+:::
 
 ### Abrechnung nach vereinahmten Entgelten
 
