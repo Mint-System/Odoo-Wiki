@@ -8,11 +8,11 @@ In den verschiedenen Apps besteht immer die Möglichkeit Daten zu exportieren. F
 
 ![Datenmanagement Daten exportieren Aktion](assets/Datenmanagement%20Daten%20exportieren%20Aktion.png)
 
-Wählen sie die Aktion *Export*. Anschliessend erscheint die Maske zur Definition der zu exportierenden Felder.
+Wählen Sie die Aktion *Export*. Anschliessend erscheint die Maske zur Definition der zu exportierenden Felder.
 
 ![Datenmanagement Daten exportieren Felder](assets/Datenmanagement%20Daten%20exportieren%20Felder.png)
 
-?> Die zu exportierenden Felder müssen für jeden Zweck sorgfältig ausgewählt werden. Beachten sie hierzu die Angaben im Abschnitt Datenstruktur Export.
+?> Die zu exportierenden Felder müssen für jeden Zweck sorgfältig ausgewählt werden. Beachten Sie hierzu die Angaben im Abschnitt Datenstruktur Export.
 
 ## Daten importieren
 In den verschiedenen Apps besteht immer die Möglichkeit Daten zu importieren. Folgende Abbildung zeigt das Beispiel in der Maske Fertigung > Stammdaten > Produkte.
