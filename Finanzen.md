@@ -46,11 +46,19 @@ Mit Odoo können PDF-Rechnung einfach gescannt und verarbeitet werden. Die Rechn
 
 Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits können unter [Odoo IAP](https://iap.odoo.com/iap/in-app-services/259) erworben werden.
 
+Zur Digitalisierung einer Rechnung laden sie als erstes die PDF-Datei via *Finanzen > Lieferanten > Rechnungen > Hochladen* hoch. Starten sie dann die Aktion *Send for digitalization*. Nach wenigen Sekunden sollte die Rechnungsangaben aus dem PDF ausgelesen und abgefüllt werden.
+
 ## Rechnungsvorlage anpassen
 
-#FIXME
+Für den automatischen Versand von Rechnungen können E-Mail-Vorlagen erstellt werden.
 
-`${object.company_id.name} Rechnung (Ref ${object.name or 'n/a'})`
+Unter *Einstellungen > Technisch > E-Mail > Vorlagen* können die E-Mail-Vorlagen verwaltet werden. Erstellen sie ein Duplikat der Vorlage *Invoice: Send by email*.
+
+Als Betreff geben sie folgendes ein: `${object.company_id.name} Rechnung (Ref ${object.name or 'n/a'})`. Wechseln sie für die Nachricht in die Code-Ansicht.
+
+![](assets/Odoo%20Code-Ansicht.png)
+
+Kopieren sie den folgenden Inhalt:
 
 ```
 <div style="margin:0px;padding: 0px;">
@@ -85,8 +93,8 @@ Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits könn
             
 ```
 
-## Import Kontoauszug
-Arbeitsschritte:
-* Kontoauszug als XML-Datei ISO-20022 camt.053 exportieren
-* Die Datei in Odoo importieren
-* Für jede Zahlung  eine offene Rechnung auswählen
+## Rechnung stornieren
+Wurde die erstellte Rechnung bereits auf Status *Verbucht* gesetzt, so kann diese Rechnung nicht mehr korrigiert oder gelöscht werden. Reklamiert der Kunde zum Beispiel und die Rechnung muss neu erstellt erden, so kann über die Funktion *Stornieren* die Rechnung rückgängig gemacht werden und sämtliche Buchungen erhalten eine Gegenbuchung. Somit ist zum Beispiel das Konto *2200   
+Geschuldete MwSt. (Umsatzsteuer)** mit den Gegenbuchungen wieder ausgeglichen und die MWST wird in Auflistung der Abrechnung nicht erscheinen.
+
+In Modul *Finanzen* die Rechnung in der Liste anwählen und unter Aktionen den Befehl *Stornieren* auswählen.

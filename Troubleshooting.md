@@ -21,3 +21,5 @@ Dem Benutzer wurde mit wiedersprüchlichen Berechtigungen ausgestattet.
 ### Lösung
 
 Den Entwickler-Modus aktivieren und in den Superuser wechseln. Nun ist es möglich über die Einstellungen zur Benutzerliste zu navigieren. Dort den eigenen Benutzer mit Berechtigungen ausstatten.
+
+
