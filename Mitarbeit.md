@@ -56,7 +56,7 @@ Info
 
 ::: warning
 Warnung
-::: tip
+:::
 
 ## Konventionen
 
