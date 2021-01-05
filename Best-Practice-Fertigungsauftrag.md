@@ -13,12 +13,16 @@ Daraus entstehen vier Arbeitsaufträge:
 
 ![Best Practice Arbeitsaufträge 1](assets/Best%20Practice%20Arbeitsauftr%C3%A4ge%201.svg)
 
-Die Arbeitsaufträge werden der Reihe nach bearbeitet  (*PROZESS*) und mit der Teilmenge B abgeschlossen. Sie bleiben damit im Status *In Arbeit* und es zeigt sich folgende Situation:
+Die Arbeitsaufträge werden der Reihe nach bearbeitet  (*Prozess*) und mit der Teilmenge B abgeschlossen. Sie bleiben damit im Status *In Arbeit* und es zeigt sich folgende Situation:
 
 ![Best Practice Arbeitsaufträge 2](assets/Best%20Practice%20Arbeitsauftr%C3%A4ge%202.svg)
 
-?> Das sequenzielle Abarbeiten von nicht abgeschlossenen Arbeitsaufträgen funktioniert nur, wenn im entsprechenden Arbeitsplan folgende Option eingeschaltet ist: *Start Next Operation: Sobald einige Produkte verarbeitet sind*
+::: tip
+Das sequenzielle Abarbeiten von nicht abgeschlossenen Arbeitsaufträgen funktioniert nur, wenn im entsprechenden Arbeitsplan folgende Option eingeschaltet ist: *Start Next Operation: Sobald einige Produkte verarbeitet sind*
+:::
 
-Im Fertigungsauftrag WH/MO/00001 erscheinen die abgeschlossenen Produkte der Menge B im Register Fertigprodukte. Mit der Funktion *BESTANDSÄNDERUNG BUCHEN* werden die fertiggestellten Produkte ans Lager gebucht. Die noch offenen Arbeitsaufträge können mit der Menge A-B weiter bearbeitet und der Auftrag dann vollständig abgeschlossen werden.
+Im Fertigungsauftrag WH/MO/00001 erscheinen die abgeschlossenen Produkte der Menge B im Register Fertigprodukte. Mit der Funktion *Bestandänderung Buchen* werden die fertiggestellten Produkte ans Lager gebucht. Die noch offenen Arbeitsaufträge können mit der Menge A-B weiter bearbeitet und der Auftrag dann vollständig abgeschlossen werden.
 
-?> Die Funktion *BESTANDSÄNDERUNG BUCHEN* erscheint nur, wenn der Entwicklermodus eingeschaltet ist.
+::: tip
+Die Funktion *Bestandänderung Buchen* erscheint nur, wenn der Entwicklermodus eingeschaltet ist.
+:::

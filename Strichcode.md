@@ -3,7 +3,9 @@
 
 ## Produktstrichcode generieren
 
-?> Für jedes Produkt verwaltet Odoo einen Strichcode. Ähnlich der internen Referenz kann für jede Produkt-Variante ein Strichcode festgelegt werden.
+::: tip
+Für jedes Produkt verwaltet Odoo einen Strichcode. Ähnlich der internen Referenz kann für jede Produkt-Variante ein Strichcode festgelegt werden.
+:::
 
 Stricodes müssen in erster Linie eindeutig sein. Deshalb empfehlen wir die Generierung des Strichcodes nach folgenden Schema:
 
@@ -16,7 +18,9 @@ Diese Sequenz füllen wir in das entsprechende Produktfeld.
 
 ![](assets/Strichcode%20f%C3%BCr%20Produkte%20generieren.png)
 
-!> Wichtig ist, dass der Produktstrichcode immer eindeutig und so kurz wie möglich ist.
+::: warning
+Wichtig ist, dass der Produktstrichcode immer eindeutig und so kurz wie möglich ist.
+:::
 
 Hier zwei Strichcodes im Vergleich:
 

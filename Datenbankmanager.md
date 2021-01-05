@@ -20,7 +20,9 @@ https://www.example.com -> `example`  Das *www* wird ignoriert
 * Country: `Switzerland`
 * Demo data: `deaktiviert` Achtung: Bei aktivierter Checkbox wird die Datenbank unwiderruflich mit Demo-Daten gefüllt
 
-?> Der Eintrag im Feld Email wird automatisch zum Login des Standard-Benutzers *Administrator*.
+::: tip
+Der Eintrag im Feld Email wird automatisch zum Login des Standard-Benutzers *Administrator*.
+:::
 
 ![Einstellungen Benutzer Administrator](assets/Einstellungen%20Benutzer%20Administrator.png)
 
@@ -66,9 +68,13 @@ Wählen sie die Funktion *restore a Database*. Anschliessend erscheint die folge
 
 ![Datenbankmanager Restore Auswahl](assets/Datenbankmanager%20Restore%20Auswahl.png)
 
-?> Im Feld *Database* muss zwingend der Name der gelöschten Datenbank eingetragen werden.
+::: tip
+Im Feld *Database* muss zwingend der Name der gelöschten Datenbank eingetragen werden.
+:::
 
-?> Wählen sie *This database is a copy*. Ansonsten verliert die Installation den Lizenzschlüssel.
+::: tip
+Wählen sie *This database is a copy*. Ansonsten verliert die Installation den Lizenzschlüssel.
+:::
 
 Mit *Continue* wird der Datenimport durchgeführt. Nach Abschluss des Vorgangs zeigt der Browser die folgende Auswahl:
 

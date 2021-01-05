@@ -4,7 +4,9 @@
 ## Daten exportieren
 In den verschiedenen Apps besteht immer die Möglichkeit Daten zu exportieren. Folgende Abbildung zeigt das Beispiel in der Maske Fertigung > Stammdaten > Produkte.
 
-?> Damit die Auswahl *Aktion* erscheint, müssen die Daten in der Listenansicht angezeigt werden.
+::: tip
+Damit die Auswahl *Aktion* erscheint, müssen die Daten in der Listenansicht angezeigt werden.
+:::
 
 ![Datenmanagement Daten exportieren Aktion](assets/Datenmanagement%20Daten%20exportieren%20Aktion.png)
 
@@ -12,7 +14,9 @@ Wählen Sie die Aktion *Export*. Anschliessend erscheint die Maske zur Definitio
 
 ![Datenmanagement Daten exportieren Felder](assets/Datenmanagement%20Daten%20exportieren%20Felder.png)
 
-?> Die zu exportierenden Felder müssen für jeden Zweck sorgfältig ausgewählt werden. Beachten Sie hierzu die Angaben im Abschnitt Datenstruktur Export.
+::: tip
+Die zu exportierenden Felder müssen für jeden Zweck sorgfältig ausgewählt werden. Beachten Sie hierzu die Angaben im Abschnitt Datenstruktur Export.
+:::
 
 ## Daten importieren
 In den verschiedenen Apps besteht immer die Möglichkeit Daten zu importieren. Folgende Abbildung zeigt das Beispiel in der Maske Fertigung > Stammdaten > Produkte.
@@ -23,7 +27,9 @@ Drücken sie den Knopf *Import*. Anschliessend erscheint folgende Maske mit der 
 
 ![Datenmanagement Daten importieren Datei](assets/Datenmanagement%20Daten%20importieren%20Datei.png)
 
-?> Die Struktur der zu importierenden Datei muss für jeden Zweck bestimmte Vorgaben erfüllen.
+::: tip
+Die Struktur der zu importierenden Datei muss für jeden Zweck bestimmte Vorgaben erfüllen.
+:::
 
 ![Datenmanagement Daten importieren Datei Liste](assets/Datenmanagement%20Daten%20importieren%20Datei%20Liste.png)
 
@@ -39,5 +45,6 @@ Den Entwicklermodus aktivieren.
 Einen Datenexport starten.  
 Die Checkbox *I want to update data (import-compatible export)* markieren.
 
-?> Mit der Funktion *I want to update data* wird erreicht, dass die in der Datenbank vorhandenen Einträge überschrieben werden.
-
+::: tip
+Mit der Funktion *I want to update data* wird erreicht, dass die in der Datenbank vorhandenen Einträge überschrieben werden.
+:::

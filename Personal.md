@@ -23,7 +23,9 @@ Um das Arbeitspensum für einen Mitarbeiter zu ändern, öffnen sie das App *Per
 
 ## Arbeitspensum wechseln
 
-?> Heute ist es die Norm, dass Mitarbeiter unterhalb des Jahres ein Arbeitspensum reduzieren oder erhöhen können. Es muss sichergestellt werden, dass die Entlohnung, Feriensaldos und Überstunden entsprechend angepasst werden.
+::: tip
+Heute ist es die Norm, dass Mitarbeiter unterhalb des Jahres ein Arbeitspensum reduzieren oder erhöhen können. Es muss sichergestellt werden, dass die Entlohnung, Feriensaldos und Überstunden entsprechend angepasst werden.
+:::
 
 Um das Pensum eines Mitarbeits zu wechseln, muss ein Endatum für die bestehenden Arbeitszeiten eingetragen werden und die neuen Arbeitszeiten werden im Arbeitspensum erfasst.
 

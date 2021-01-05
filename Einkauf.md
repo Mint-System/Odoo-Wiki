@@ -3,12 +3,11 @@
 
 ## Angebotsanfrage erstellen
 
-### Anlegen
-Über ANLEGEN wird eine Angebotsanfrage eröffnet. Die Felder der Eingabemaske sind gemäss folgender Tabelle zu editieren:
+Über *Anlegen* wird eine Angebotsanfrage eröffnet. Die Felder der Eingabemaske sind gemäss folgender Tabelle zu editieren:
 
 ![Einkauf Felder](assets/Einkauf%20Felder.svg)
 
-### Produkte einfügen
+**Produkte einfügen**
 
 Im Register Produkte werden die gewünschten Artikel gelistet. Folgende Felder stehen zur Verfügung:
 
@@ -16,10 +15,7 @@ Im Register Produkte werden die gewünschten Artikel gelistet. Folgende Felder s
 
 ## Angebotsanfrage senden
 
-Mit dem Knopf PER E-MAIL VERSENDEN wird eine PDF-Datei generiert und per eMail an den Lieferanten gesendet.
-
-## Bestellung bestätigen
-
+Mit dem Knopf *Per E-Mail Versenden* wird eine PDF-Datei generiert und per eMail an den Lieferanten gesendet.
 
 ## Portal-Ansicht Bestellung anzeigen
 
@@ -29,4 +25,6 @@ Die Portal-Ansicht einer Bestellung können sie wie folgt anzeigen:
 * Neues privates Browser-Fenster öffnen
 * Link in Adressleiste einfügen
 
-?> In einem privaten Browser werden die Cookies nicht geladen und somit wird man nicht automatisch bei Odoo angemeldet.
+::: tip
+In einem privaten Browser werden die Cookies nicht geladen und somit wird man nicht automatisch bei Odoo angemeldet.
+:::

@@ -1,7 +1,9 @@
 # Anwesenheitszeiten
 ![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)
 
-?> Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheit. Für das Erfassen der Projektzeit nutzt man die App Zeiterfassung.
+::: tip
+Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheit. Für das Erfassen der Projektzeit nutzt man die App Zeiterfassung.
+:::
 
 ![Anwesenheitszeiten An- und Abmelden](assets/Anwesenheitszeiten%20An-%20und%20Abmelden.png)
 
@@ -42,7 +44,9 @@ Navigieren Sie nach *Zeiterfassung > Berichtswesen* und wählen Sie das Menü *Z
 
 Mit dem Knopf *Werte* können Spalten ein- und ausgeblendet werden.
 
-?> Das detaillierte Protokoll der An- und Abmeldungen zeigt die Übersicht *Anwesenheitszeiten > Manager > Anwesenheitszeiten*. (Die Berechtigung Personalsachbearbeiter ist notwendig.)
+::: tip
+Das detaillierte Protokoll der An- und Abmeldungen zeigt die Übersicht *Anwesenheitszeiten > Manager > Anwesenheitszeiten*. (Die Berechtigung Personalsachbearbeiter ist notwendig.)
+:::
 
 ## Theoretische und tatsächliche Anwesenheitszeiten vergleichen
 

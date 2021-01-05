@@ -35,20 +35,28 @@ Pfade und Bezeichnungen werden kursiv geschrieben.
 
 ## Markierungen
 
-Um Inhalte speziell zu markieren gibt es zwei Optionen.
+Um Inhalte speziell zu markieren gibt es diese Optionen.
 
 Markup:
 ```
-?> Info
+::: tip
+Info
+:::
 
-!> Warnung
+::: warning
+Warnung
+::: tip
 ```
 
 Output:
 
-?> Info
+::: tip
+Info
+:::
 
-!> Warnung
+::: warning
+Warnung
+::: tip
 
 ## Konventionen
 

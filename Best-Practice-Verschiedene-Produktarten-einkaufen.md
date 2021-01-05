@@ -8,4 +8,6 @@ Dies führt zu einem geplanten Wareneingang für die 15 Stk Rundrohre Typ 1 mit 
 - WH/Input --> WH/Quality Control
 - WH/Quality Control --> WH/Stock
 
-?> Für das Produkt *Engineering* wird kein Wareneingang erwartet.
+::: tip
+Für das Produkt *Engineering* wird kein Wareneingang erwartet.
+:::
