@@ -37,3 +37,7 @@ Wählen Sie *Aktion* und *Passwort ändern*. Geben sie im Feld *Neues Passwort* 
 ## Kundenregistration erlauben
 
 Damit Besucher der Website sich im Odoo-Portal registrieren könne muss die Option *Einstellungen > Allgemeine Einstellungen > Berechtigungen > Kundenkontro > Kostenlose Anmeldung* aktiviert sein.
+
+## Dokumentlayout konfigurieren
+
+Die Darstellung der generierten Dokumente kann einfach angepasst werden. Navigieren sie nach *Einstellungen > Allgemeine Einstellungen > Geschäftsunterlagen* und wählen sie *Dokumentlayout konfigurieren* aus. Die hier ausgewählte Dokumentvorlage wird für alle Berichte übernommen.
