@@ -12,6 +12,8 @@
 - [Änderung der Route während dem Einkaufsprozess](Best-Practice-%C3%84nderung-der-Route-w%C3%A4hrend-dem-Einkaufsprozess.md)
 - [Replenishment](Best-Practice-Replenishment.md)
 - [Finanzen - Journale](Best-Practice-Finanzen-Journale.md)
+- [Warenbedarf](Best-Practice-Warenbedarf.md)
+- [Liefertermin verschieben](Best-Practice-Liefertermin-verschieben.md)
 
 ## Theorie
 

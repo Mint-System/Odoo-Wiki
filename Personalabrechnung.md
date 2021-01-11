@@ -21,6 +21,8 @@ Konfigurieren sie diese Punkte, erst dann können sie die [Lohnabrechnung erstel
 
 Zur Auszahlung des Lohns über SEPA müssen sie den Mitarbeiter ein Bankkonto hinterlegen. Navigieren sie nach *Pesonal > Mitarbeiter auswählen > Bearbeiten > Tab Private Information* und erfassen sie ein Bankkonto unter *Bankverbindung*.
 
+
+
 ## Anteile Arbeitgeber / Arbeitnehmer konfigurieren
 
 Die Anteile des Arbeitgebener und Arbeitnehmer können als Vorlage erfasst werden. Die Anteile werde werden dem Arbeitsvertrag zugewiesen.

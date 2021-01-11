@@ -105,3 +105,35 @@ Beim Aufruf einer App oder eines Menu ruft Odoo die dazugehörige Standardansich
 
 Wählen sie die neue Standardansicht an und klicken auf das Menu und auf *Als Standard setzen*. Schliessen sie den Vorgang ab.
 
+## IBAN und Bank auf Rechnung anzeigen
+
+Standardmässig werden die Zahlungsinformationen nur bei konfigurierten ISR- und QR-Code-Einstellungen angzeigt. Falls sie die der Rechnung hinterlegten Kontoinformationen anzeigen möchten können sie das mit Studio einrichten.
+
+Bearbeiten sie den Rechnungsbericht und fügen sie folgenden Code ein:
+
+```xml
+<data>
+  <xpath expr="/t/t/div/p[2]" position="after">
+    <div class="row">
+      <div class="col">
+        <span>IBAN: </span>
+        <span t-field="o.invoice_partner_bank_id.acc_number"/>
+      </div>
+    </div>
+  </xpath>
+  <xpath expr="/t/t/div/div[3]" position="after">
+    <div class="row">
+      <div class="col">
+		<span>Bank/BIC: </span>
+		<span t-field="o.invoice_partner_bank_id.bank_id.display_name"/>
+		<br/>
+		<br/>
+      </div>
+    </div>
+  </xpath>
+</data>
+```
+
+Das Ergebnis sieht so aus:
+
+![](assets/Odoo%20Studio%20IBAN%20und%20Bank%20auf%20Rechnung.png)
