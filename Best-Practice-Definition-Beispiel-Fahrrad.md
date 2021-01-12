@@ -6,7 +6,7 @@
 
 ### Produkt-Struktur
 
-(Siehe auch [Item Structure](Theorie-Item-Structure.md))
+(Siehe auch [Item Structure](Best-Practice-Item-Structure.md))
 
 ![Theorie Item Structure Rahmen unbeschichtet](assets/Theorie%20Item%20Structure%20Rahmen%20unbeschichtet.svg)
 
