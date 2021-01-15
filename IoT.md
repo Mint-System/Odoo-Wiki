@@ -9,9 +9,9 @@ Die Datei *iotbox-latest.zip* auf die SD-Karte übertragen. (Zum Beispiel mit de
  
 ## Verbindung einrichten und konfigurieren
 
-Den *Raspberry Pi* starten und mit seinem Wireless-Netz verbinden. Man wird auf eine Startseite geführt und konfiguriert das System nach den unten stehenden Dialogen.
+Den *Raspberry Pi* mit der vorbereiteten SD-Karte starten und mit seinem Wireless-Netz verbinden. Man wird auf eine Startseite geführt und konfiguriert das System nach den unten stehenden Dialogen.
 
-::: details
+::: tip
 Der zur Verfügung gestellte Token wird für die Identifikation benötigt
 :::
 
