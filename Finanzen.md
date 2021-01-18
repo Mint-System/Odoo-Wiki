@@ -98,3 +98,21 @@ Wurde die erstellte Rechnung bereits auf Status *Verbucht* gesetzt, so kann dies
 Geschuldete MwSt. (Umsatzsteuer)** mit den Gegenbuchungen wieder ausgeglichen und die MWST wird in Auflistung der Abrechnung nicht erscheinen.
 
 In Modul *Finanzen* die Rechnung in der Liste anwählen und anzeigen lassen. Danach den Befehl *Stornieren* ausführen. Beachten Sie, dass Sie das als Storno-Datum das Rechnungsdatum wählen. Sodass die Storno am gleichen Tag erfolgt.
+
+## Einzahlungsschein drucken
+
+Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generierung von Einzahlungsscheinen enthalten. Damit Einzahlungsscheine erstellt werden können müssen die folgenden Bedingungen erfüllt sein:
+
+* Auf dem Bankkonto des Unternehmens müssen die Felder `ISR Client Identification Number` und `CHF ISR Subscription Number` ausgefüllt sein.
+
+![](assets/Odoo%20Finanzen%20ESR-Nummern.png)
+
+* Das auf der Rechnung hinterlegte Konto muss mit diesem Unternehmenskonto übereinstimmen.
+* Die Rechnung ist im Status *Gebucht*.
+* Die Einstellung *Einstellungen > Finanzen > Ausgangsrechnungen > Print bank on ISR* ist aktiviert, jedoch nicht dessen Unteroption *Preprinted account*.
+
+Sind diese Bedingungen erfüllt erschein beim Aufruf einer Rechnugn die Aktion *Print ISR*.
+
+::: warning
+Damit Einzahlungsscheine für bereits erstellte Rechnungen generiert werden können, muss das erstellte ISR-PDF im Anhang entfernt werden.
+:::
