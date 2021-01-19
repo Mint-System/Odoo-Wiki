@@ -21,8 +21,6 @@ Konfigurieren sie diese Punkte, erst dann können sie die [Lohnabrechnung erstel
 
 Zur Auszahlung des Lohns über SEPA müssen sie den Mitarbeiter ein Bankkonto hinterlegen. Navigieren sie nach *Pesonal > Mitarbeiter auswählen > Bearbeiten > Tab Private Information* und erfassen sie ein Bankkonto unter *Bankverbindung*.
 
-
-
 ## Anteile Arbeitgeber / Arbeitnehmer konfigurieren
 
 Die Anteile des Arbeitgebener und Arbeitnehmer können als Vorlage erfasst werden. Die Anteile werde werden dem Arbeitsvertrag zugewiesen.
@@ -40,6 +38,8 @@ Das sind die Regeln, die Informationen über die Gehaltsberechnung liefern. Dies
 :::
 
 Die Lohnregel sind unter *Personalabrechnung > Konfiguration > Regeln* definiert. Überprüfen sie alle Regeln und legen sie fest welche auf dem Lohnzettel erscheinen sollen.
+
+Regeln für die sie keine Verwendung haben, können sie archivieren.
 
 ## Finanzkonten den Lohnarten zuweisen
 
@@ -72,6 +72,10 @@ Wählen sie eine aktuelle Lohnabrechnung, die im Status *Erledigt* ist: *Persona
 ![](assets/Personalbrechnung%20Buchung.png)
 
 Hier werden alle Buchungen der Lohnabrechnung aufgeführt.
+
+::: warning
+Werden die Lohnzahlung als Batch verarbeitet, müssen alle Lohnabrechnungen bestätigt sein, damit eine Zahlung ausgelöst werden kann.
+:::
 
 ## Gehaltsinformationen eingeben
 

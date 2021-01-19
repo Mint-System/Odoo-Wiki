@@ -101,7 +101,7 @@ In Modul *Finanzen* die Rechnung in der Liste anwählen und anzeigen lassen. Dan
 
 ## Einzahlungsschein drucken
 
-Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generierung von Einzahlungsscheinen enthalten. Damit Einzahlungsscheine erstellt werden können müssen die folgenden Bedingungen erfüllt sein:
+Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generierung von Einzahlungsscheinen enthalten. Damit Einzahlungsscheine erstellt werden können, müssen die folgenden Bedingungen erfüllt sein:
 
 * Auf dem Bankkonto des Unternehmens müssen die Felder `ISR Client Identification Number` und `CHF ISR Subscription Number` ausgefüllt sein.
 
@@ -111,7 +111,7 @@ Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generie
 * Die Rechnung ist im Status *Gebucht*.
 * Die Einstellung *Einstellungen > Finanzen > Ausgangsrechnungen > Print bank on ISR* ist aktiviert, jedoch nicht dessen Unteroption *Preprinted account*.
 
-Sind diese Bedingungen erfüllt erschein beim Aufruf einer Rechnugn die Aktion *Print ISR*.
+Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die Aktion *Print ISR*.
 
 ::: warning
 Damit Einzahlungsscheine für bereits erstellte Rechnungen generiert werden können, muss das erstellte ISR-PDF im Anhang entfernt werden.
