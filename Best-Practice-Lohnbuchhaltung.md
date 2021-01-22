@@ -1,6 +1,6 @@
-# Best Practive Lohnbuchhaltung
+# Best Practice Lohnbuchhaltung
 
-In der Tabelle unten sind die Lohnarten und die Finanzkonten für eine Buchaltung hinterlegt.
+In der Tabelle unten sind die Lohnarten und die Finanzkonten für eine Buchhaltung hinterlegt.
 
 | Kategorie | Name | Sollkonto | Habenkonto |
 |-|-|-|-|

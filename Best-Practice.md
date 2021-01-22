@@ -15,7 +15,7 @@
 - [Replenishment](Best-Practice-Replenishment.md)
 - [Warenbedarf](Best-Practice-Warenbedarf.md)
 - [Liefertermin verschieben](Best-Practice-Liefertermin-verschieben.md)
-- [Berücksichtigung lange Lead-Time](Best-Practice-Ber%C3%BCcksichtigung-lange-Lead-Time.md)
+- [Berücksichtigung Lead-Time](Best-Practice-Ber%C3%BCcksichtigung-Lead-Time.md)
 
 ## Theorie
 
