@@ -41,3 +41,17 @@ Damit Besucher der Website sich im Odoo-Portal registrieren könne muss die Opti
 ## Dokumentlayout konfigurieren
 
 Die Darstellung der generierten Dokumente kann einfach angepasst werden. Navigieren sie nach *Einstellungen > Allgemeine Einstellungen > Geschäftsunterlagen* und wählen sie *Dokumentlayout konfigurieren* aus. Die hier ausgewählte Dokumentvorlage wird für alle Berichte übernommen.
+
+## Rollen erstellen
+
+::: warning
+Diese Anleitung erfordert das Modul `base_user_role`.
+:::
+
+Die Gruppenrechte können mit Benutzerrollen zusammengefasst werden. Mit der entsprechenden Erweiterung kann man Rollen erstellen, Gruppen hinzufügen und diese für einen Benutzer aktivieren.
+
+Navigieren sie nach *Einstellungen > Benutzer und Unternehmen > Roles* und wählen sie *Anlegen*. Erstellen zur Initieirung eine Administratoren-Rolle mit diesen Angaben:
+
+![](assets/Odoo%20Einstellungen%20Benutzerrolle%20Administrator.png)
+
+Weisen sie im Tab *Benutzer* die Rolle einem Benutzer zu. Ist die Rolle aktiv, überschreibt sie die existierenden Berechtigungen.
