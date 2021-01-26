@@ -22,7 +22,7 @@ Architektur:
 Diese Aufgabe erfordert, dass sie das [Domainfilter-Widget deaktivieren](#Domainfilter-Widget%20deaktivieren).
 :::
 
-Um einen Filter zu erstellen, der beispielsweise alle Aufgaben mit Frist heute, anzeigt, öffnen sie als erstes die Aufgaben-Übersicht *Projekt > Alle Aufgaben*.
+Um einen Filter zu erstellen, der beispielsweise alle Aufgaben mit Frist Heute anzeigt, öffnen sie als erstes die Aufgaben-Übersicht *Projekt > Alle Aufgaben*.
 
 Erstellen sie einen Filter für das Feld Frist mit dem heutigen Datum.
 
@@ -38,7 +38,7 @@ Speichern sie den Dialog. Beim Anzeigen des Filters werden nun alle Aufgaben mit
 
 Weitere Filter-Beispiele:
 
-Frist erreich und an eigenem Benutzer zugewiesen:
+Frist erreicht und an eigenem Benutzer zugewiesen:
 
 ```py
 ["&", ("user_id", "=", uid), 

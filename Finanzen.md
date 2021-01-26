@@ -107,12 +107,24 @@ Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generie
 
 ![](assets/Odoo%20Finanzen%20ESR-Nummern.png)
 
-* Das auf der Rechnung hinterlegte Konto muss mit diesem Unternehmenskonto übereinstimmen.
-* Die Rechnung ist im Status *Gebucht*.
-* Die Einstellung *Einstellungen > Finanzen > Ausgangsrechnungen > Print bank on ISR* ist aktiviert, jedoch nicht dessen Unteroption *Preprinted account*.
+* Das auf der Rechnung hinterlegte Konto muss mit diesem Unternehmenskonto übereinstimmen
+* Die Rechnung ist im Status *Gebucht*
+* Die Einstellung *Einstellungen > Finanzen > Ausgangsrechnungen > Print bank on ISR* ist aktiviert, jedoch nicht dessen Unteroption *Preprinted account*
 
 Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die Aktion *Print ISR*.
 
 ::: warning
 Damit Einzahlungsscheine für bereits erstellte Rechnungen generiert werden können, muss das erstellte ISR-PDF im Anhang entfernt werden.
 :::
+
+## QR-Rechnung drucken
+
+Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generierung von QR-Rechnung enthalten. Damit Einzahlungsscheine erstellt werden können, müssen die folgenden Bedingungen erfüllt sein:
+
+* Der Rechnungsempfänger und Absender müssen eine Schweizer-Adresse haben
+* Das QR-Konto ist auf dem Rechnungskonto eingetragen
+* Die Zahlungsrefernz muss QRR-kompatibel sein (Referenz gemäss ISR)
+* Die Rechnung ist im Status *Gebucht*
+* * Die Einstellung *Einstellungen > Finanzen > Ausgangsrechnungen > Print Swiss QR Code* ist aktiviert
+
+Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die Aktion *Print QR-Bill*.
