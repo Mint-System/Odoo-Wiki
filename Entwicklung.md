@@ -1,7 +1,26 @@
 # Entwicklung
 ![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)
 
+## Domainfilter-Widget deaktivieren
+
+Damit man für Filter dynamische Funktionen verwenden kann, muss die Ansicht zur Darstellung der Filter angepasst werden.
+
+Liste mit Ansichten öffnen *Einstellungen > Technisch > Benutzer-Interface > Ansichten*. Anschliessend suchen sie nach der Ansicht mit Bezeichung *ir.filters form* und öffnen diese. Im Tab *Vererbte Ansichten* erstellen sie einen neuen Eintrag:
+
+Ansichtsbezeichnung: `ir.filters form custom`  
+Architektur:
+
+```xml
+<xpath expr="//field[@name='domain']" position="replace">
+    <field name="domain"/>
+</xpath>
+```
+
 ## Filter mit dynamischen Datum erstellen
+
+::: warning
+Diese Aufgabe erfordert, dass sie das [Domainfilter-Widget deaktivieren](#Domainfilter-Widget%20deaktivieren).
+:::
 
 Um einen Filter zu erstellen, der beispielsweise alle Aufgaben mit Frist heute, anzeigt, öffnen sie als erstes die Aufgaben-Übersicht *Projekt > Alle Aufgaben*.
 
@@ -16,6 +35,13 @@ Speichern sie den Filter als Favorit und wählen *Entwicklertools > Filter verwa
 ```
 
 Speichern sie den Dialog. Beim Anzeigen des Filters werden nun alle Aufgaben mit einer Frist bis heute aufgerufen.
+
+Hier noch ein Beispiel eines Filters mit UND-Verknüpfung.
+
+```
+["&", ("user_id", "=", uid), 
+("date_deadline", "<=", time.strftime('%Y-%m-%d'))]
+```
 
 ## Feld als Unique definieren
 
