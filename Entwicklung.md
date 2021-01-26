@@ -30,18 +30,30 @@ Erstellen sie einen Filter für das Feld Frist mit dem heutigen Datum.
 
 Speichern sie den Filter als Favorit und wählen *Entwicklertools > Filter verwalten*. Kopieren sie den folgenden Ausdruck in das Feld *Code-Editor*:
 
-```
+```py
 [('date_deadline','<=',time.strftime('%Y-%m-%d'))]
 ```
 
-Speichern sie den Dialog. Beim Anzeigen des Filters werden nun alle Aufgaben mit einer Frist bis heute aufgerufen.
+Speichern sie den Dialog. Beim Anzeigen des Filters werden nun alle Aufgaben mit einer Frist bis Heute aufgerufen.
 
-Hier noch ein Beispiel eines Filters mit UND-Verknüpfung.
+Weitere Filter-Beispiele:
 
-```
+Frist erreich und an eigenem Benutzer zugewiesen:
+
+```py
 ["&", ("user_id", "=", uid), 
 ("date_deadline", "<=", time.strftime('%Y-%m-%d'))]
 ```
+
+Frist bis in 5 Tagen erreicht und an eigenem Benutzer zugewiesen:
+
+```py
+[
+"&",
+("user_id", "=", uid), 
+("date_deadline", "<=", (datetime.datetime.now() + datetime.timedelta(days=3)).strftime('%Y-%m-%d'))
+]
+`````
 
 ## Feld als Unique definieren
 
