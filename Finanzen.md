@@ -125,6 +125,12 @@ Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generie
 * Das QR-Konto ist auf dem Rechnungskonto eingetragen
 * Die Zahlungsrefernz muss QRR-kompatibel sein (Referenz gemäss ISR)
 * Die Rechnung ist im Status *Gebucht*
-* * Die Einstellung *Einstellungen > Finanzen > Ausgangsrechnungen > Print Swiss QR Code* ist aktiviert
+* Die Einstellung *Einstellungen > Finanzen > Ausgangsrechnungen > Print Swiss QR Code* ist aktiviert
 
 Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die Aktion *Print QR-Bill*.
+
+## Beträge runden
+
+#FIXME 
+
+![](assets/Pasted%20image%2020210126145912.png)

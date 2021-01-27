@@ -55,3 +55,15 @@ Navigieren sie nach *Einstellungen > Benutzer und Unternehmen > Roles* und wähl
 ![](assets/Odoo%20Einstellungen%20Benutzerrolle%20Administrator.png)
 
 Weisen sie im Tab *Benutzer* die Rolle einem Benutzer zu. Ist die Rolle aktiv, überschreibt sie die existierenden Berechtigungen.
+
+## Papieformat für Bericht anpassen
+
+#FIXME
+  
+Angenommen
+
+Papierformat "European A4 without borders" duplizieren und als "A4 for isr report".  
+
+Paierformat anpassen -> Linker Rand (mm)5.00  
+
+Im Entwicklermodus nach Berichte suchen -> ISR auswählen und Papieformat festlegen.

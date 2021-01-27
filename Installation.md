@@ -26,4 +26,4 @@ erp.example.com ALIAS server1.example.org
 erp-dev.example.com ALIAS server1.example.org
 ```
 
-Alternativ können auch Einträge vom Typ CNAME statt ALIAS erstellt werden. 
+Alternativ können auch Einträge vom Typ CNAME statt ALIAS erstellt werden.

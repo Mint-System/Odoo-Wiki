@@ -48,3 +48,7 @@ Die Checkbox *I want to update data (import-compatible export)* markieren.
 ::: tip
 Mit der Funktion *I want to update data* wird erreicht, dass die in der Datenbank vorhandenen Einträge überschrieben werden.
 :::
+
+## Demodaten anzeigen
+
+Auf GitHub veröffentlicht die Mint System [Odoo-Demodaten](https://github.com/Mint-System/Odoo-Demodaten). Hier finden sie Importbereite Datensätze für die Odoo-Module.

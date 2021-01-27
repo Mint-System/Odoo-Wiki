@@ -1,6 +1,16 @@
 # Abwesenheitszeiten
 ![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)
 
+## Feiertage einrichten
+
+::: tip
+Die Aktion erfordert die Installation des Moduls *HR Holidays Public*.
+:::
+
+Feiertage können für alle Mitarbeiter zentral festgelegt werden. Navigieren sie nach *Abwesenheitszeiten > Feiertage > Feiertage*. Hier erstellen sie die einzelnen Feiertage für das aktuelle Kalenderjahr.
+
+In den [Demodaten](Datenmanagement.md#Demodaten%20anzeigen) der Mint System sind Feiertage zum Import bereitgestellt.
+
 ## Abwesenheitstyp in theoretischen Stunden einbeziehen
 
 ::: tip
