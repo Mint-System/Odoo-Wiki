@@ -133,4 +133,4 @@ Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die A
 
 #FIXME 
 
-![](assets/Pasted%20image%2020210126145912.png)
+![](assets/Odoo%20Finanzen%20Runden.png)
