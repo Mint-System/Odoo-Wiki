@@ -14,7 +14,7 @@ module.exports = {
         [
             'vuepress-plugin-sitemap',
             {
-                hostname: 'https://open-erp.ch'
+                hostname: 'https://odoo-erp.ch'
             }
         ]
     ],
