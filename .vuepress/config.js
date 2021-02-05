@@ -10,6 +10,12 @@ module.exports = {
         '@vuepress/medium-zoom',
         'vuepress-plugin-mermaidjs',
         'plausible-analytics',
-        '@vuepress/back-to-top'
-    ]
+        '@vuepress/back-to-top',
+        [
+            'vuepress-plugin-sitemap',
+            {
+                hostname: 'https://open-erp.ch'
+            }
+        ]
+    ],
 }
