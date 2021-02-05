@@ -11,8 +11,11 @@ module.exports = {
         'vuepress-plugin-mermaidjs',
         'plausible-analytics',
         '@vuepress/back-to-top',
-        'sitemap': {
-            hostname: 'https://odoo-erp.ch/'
-        },
-    ]
+        [
+            'vuepress-plugin-sitemap',
+            {
+                hostname: 'https://open-erp.ch'
+            }
+        ]
+    ],
 }
