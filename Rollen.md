@@ -1,9 +1,8 @@
 # Rollen
 
-## Administrator
+## Administrator/In
 
 Der Administrator ist verantwortlich für die Odoo-Installation. Er vergibt Benutzerrechte und verwaltet die technische Installation. Er ist in engem Austausch mit dem Odoo Partner und koordiniert technische Änderungen.
-
 
 ## Entwickler
 
@@ -12,9 +11,8 @@ Der Entwickler hat fundamentales Wissen über die Funktionsweise von Odoo und ka
 
 ## Projektleiter
 
-Rollenbeschrieb
-
-
 ## Verkäufer
 
-Rollenbeschrieb
+## Produktionsleiter
+
+## Personalverantwortlicher

@@ -117,6 +117,8 @@ Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten App
 ![icons_odoo_website_forum](assets/icons_odoo_website_forum.png)  
 [Troubleshooting](Troubleshooting.md)
 
+[Certificate-Planner](Certificate-Planner.md)
+
 ## Mitarbeit
 
 Sie können eine Kopie des Handbuchs erstellen und für eigene Zwecke nutzen. Ebenfalls können sie Änderungen mitteilen und mit dem offizielen Handbuch zusammenführen. Mehr dazu unter [Mitarbeit](Mitarbeit.md).

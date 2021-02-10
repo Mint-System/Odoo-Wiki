@@ -22,4 +22,4 @@
 - [Material-Reservierung](Theorie-Material-Reservierung.md)
 - [Mehrwertsteuer](Theorie-Mehrwertsteuer.md)
 - [Kontakte](Theorie-Kontakte.md)
-- []
+- [Theorie-Verkaufsgruppen-und-Baugruppen](Theorie-Verkaufsgruppen-und-Baugruppen.md)
