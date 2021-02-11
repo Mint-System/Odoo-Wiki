@@ -16,6 +16,7 @@
 - [Warenbedarf](Best-Practice-Warenbedarf.md)
 - [Liefertermin verschieben](Best-Practice-Liefertermin-verschieben.md)
 - [Berücksichtigung Lead-Time](Best-Practice-Ber%C3%BCcksichtigung-Lead-Time.md)
+- [Best-Practice-Beschaffung](Best-Practice-Beschaffung.md)
 
 ## Theorie
 
@@ -23,3 +24,4 @@
 - [Mehrwertsteuer](Theorie-Mehrwertsteuer.md)
 - [Kontakte](Theorie-Kontakte.md)
 - [Theorie-Verkaufsgruppen-und-Baugruppen](Theorie-Verkaufsgruppen-und-Baugruppen.md)
+- [Theorie-Definition-Beispiel-Fahrrad](Theorie-Definition-Beispiel-Fahrrad.md)

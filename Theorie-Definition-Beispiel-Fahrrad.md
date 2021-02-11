@@ -1,6 +1,6 @@
 # Definition Beispiel Fahrrad
 
-![[bestpr]]
+#FIXME 
 
 ## Rahmen unbeschichtet
 
