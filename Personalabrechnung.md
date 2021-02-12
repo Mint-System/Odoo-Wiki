@@ -80,3 +80,17 @@ Werden die Lohnzahlung als Batch verarbeitet, müssen alle Lohnabrechnungen best
 ## Gehaltsinformationen eingeben
 
 Die Gehaltsinformationen der Mitarbeiter legen sie via *Pesonal > Mitarbeiter auswählen > Link Verträge > Arbeitsvertrag auswählen > Bearbeiten > Tab Gehaltsinformationen* fest.
+
+## Variable Eingaben mit Lohnart verbuchen
+
+Um variable Eingaben in der Lohnzahlungen abzurechnen, müssen sie diese Eingaben definieren und einer Lohnart hinterlegen. Bei der Abrechnung wird die Lohnart mitgerechnet.
+
+Als erstes müssen sie für eine bestehende Lohnstruktur eine Eingabe definieren. Navigieren sie nach *Personalabrechnung > Konfiguration > Structure* und wählen sie die Lohnstruktur aus. Erstellen sie im Tab *Ohter Input* eine Eingabe. Hierzu ein Beispiel für einen zusätzlichen Quellensteuerabzug:
+
+![](assets/Personalabrechnung%20Eingabe%20Quellensteuer.png)
+
+Damit der Betrag in der Lohnabrechnung berücksichtigt wird, muss dieser als Lohnart definiert werden. Erstellen sie eine neue Lohnart in der bestehenden Lohnstruktur. Dazu ein Beispiel wie man diese für den Quellensteuerabzug definiert:
+
+![](assets/Personalabrechnung%20Lohnart%20von%20Inputs.png)
+
+Beim Berechnen werden variable Eingaben in der Lohnabrechnung miteinbezogen.
