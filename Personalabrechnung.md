@@ -94,3 +94,13 @@ Damit der Betrag in der Lohnabrechnung berücksichtigt wird, muss dieser als Loh
 ![](assets/Personalabrechnung%20Lohnart%20von%20Inputs.png)
 
 Beim Berechnen werden variable Eingaben in der Lohnabrechnung miteinbezogen.
+
+## Lohnabrechnung entfernen
+
+Eine verbuche Lohnabrechnung lässt sich nicht mehr löschen oder abbrechen. Zumindest ist das im Status nicht möglich. Wurde eine Lohnzahlung als bezahlt markiert, kann sie wieder entfernt werden.
+
+Öffnen sie die zu löschende Lohnabrechung *Personalabrechung > Abrechnungen Mitarbeitervergütung > All Paylips*. Ist die Abrechnung im Status *Erledigt*, wählen sie *Erfasse Zahlung*. Odoo erstellt eine Zahlungsdatei, die sie ignorieren können. Wählen sie *Aktion > Abbrechen*. Nun ist ist die Abrechnung im Status *Abgelehnt*. Nun können sie den Eintrag mit *Aktion > Löschen* entfernen.
+
+::: warning
+Falls es auf dem Eintrag eine verknüpfte Buchung gibt, wird diese ebenfalls gelöscht.
+:::
