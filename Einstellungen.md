@@ -3,6 +3,7 @@
 
 ## Bereiche
 - [Einstellungen-Übersetzung](Einstellungen-%C3%9Cbersetzung.md)
+- [Einstellungen-Login](Einstellungen-Login.md)
 
 ## Entwicklermodus aktivieren
 
