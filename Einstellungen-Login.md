@@ -14,3 +14,11 @@ Falls ihr Benutzer in Odoo noch nicht existiert hat, erscheint die folgende Meld
 ![Einstellungen Login Fehler](assets/Einstellungen%20Login%20Fehler.png)
 
 Kontaktieren sie den/die [AdministratorIn](Rollen.md#Administrator%20In) und bitten sie um eine Freigabe. Wurde die Freigabe erstellt, loggen sie sich erneut ein.
+
+## Portal-Benutzer in internen Benutzer umwandeln
+
+Wenn Benutzer sich über das Portal bzw. Login-Fenster registrieren wird ein Portal-Benutzer erstellt. Dieser Benutzer hat Zugriff auf die externen Dienste von Odoo. Wenn sie diesem Benutzer interne Zugriffsrechte geben möchten, gehen sie wie folgt vor.
+
+Öffnen sie die Benutzerliste via *Einstellungen > Allgemeine Einstellungen > Benutzer verwalten*. Entfernen sie den Filter damit Portal-Benuzter sichtbar werden. Wählen sie den Portal-Benutzer aus und Bearbeiten sie diesen. Wechseln sie den Benutzertyp und vergeben sie die benötigten Benutzerrechte.
+
+![](assets/Einstellungen%20Login%20Benutzertyp.png)
