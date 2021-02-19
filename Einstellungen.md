@@ -26,7 +26,9 @@ Navigieren sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und kl
 
 Klicken Sie auf speichern um den Vorgang abzuschliessen.
 
-!> Damit die neuen Rechte für den Benutzer sichtbar sind, muss dieser den Browser aktualisieren.
+::: warning
+Damit die neuen Rechte für den Benutzer sichtbar sind, muss dieser den Browser aktualisieren.
+:::
 
 ## Passwort zurücksetzen
 Aufgabenträger: [Administrator](Rollen.md#Administrator)

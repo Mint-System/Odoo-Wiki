@@ -18,7 +18,9 @@ Vorbereitend muss noch pro Währung ein Journal erstellt werden. Zum Beispiel:
 
 Die Bezeichnung der Rechnungen mit dem gewünschten Kürzel kann über das Feld *Kurzzeichen" definiert werden.
 
-!> Die Nummerierung der Rechnungen folgt einem Nummernkreis pro Journal. Es ist deshalb wichtig, unterschiedliche Kürzel zu verwenden. Ansonsten können gleichnamige Rechnungen entstehen.
+::: warning
+Die Nummerierung der Rechnungen folgt einem Nummernkreis pro Journal. Es ist deshalb wichtig, unterschiedliche Kürzel zu verwenden. Ansonsten können gleichnamige Rechnungen entstehen.
+:::
 
 ### Konti
 Die benötigten Konti *Standard-Sollkonto* und *Standard-Habenkonto* müssen ebenfalls ergänzt werden. Zum Beispiel:
@@ -31,5 +33,7 @@ Jetzt kann in einem Angebot im Feld *Preisliste* die gewünschte Währung über 
 ### Rechnung erstellen
 Beim Erstellen der Rechnung wird die eingestellte Währung berücksichtigt. Sie erscheint im Feld *Währung* automatisch.
 
-!> Das korrekte Journal muss manuell ausgewählt werden.
+::: warning
+Das korrekte Journal muss manuell ausgewählt werden.
+:::
 

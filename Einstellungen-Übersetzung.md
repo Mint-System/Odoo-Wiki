@@ -35,7 +35,9 @@ Nun ist der Odoo-Dialog übersetzt.
 
 Im Entwicklermodus öffnen sie den Export-Dialog via *Einstellungen > Übersetzungen > Import / Export > Übersetzung exportieren*. Wählen sie die zu exportierende Sprache, Datei-Format CSV und eine App deren Übersetzungen sie exportieren möchten. Drücken sie auf *Export* und laden die CSV-Datei herunter.
 
-!> Organisieren sie die Übersetzung nach Apps
+::: warning
+Organisieren sie die Übersetzung nach Apps
+:::
 
 ## Übersetzungen importieren
 

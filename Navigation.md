@@ -23,4 +23,6 @@ Odoo-Verknüpft die Geschäftsobjekte über diverse Links. Dies erlaubt eine fle
 
 ![](assets/Navigation%20Pfad.png)
 
-!> Beachten sie immer in welchem Kontext sie sich in der Navigation befinden.
+::: warning
+Beachten sie immer in welchem Kontext sie sich in der Navigation befinden.
+:::
