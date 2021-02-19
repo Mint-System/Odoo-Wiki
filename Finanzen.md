@@ -131,6 +131,10 @@ Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die A
 
 ## Beträge runden
 
-#FIXME 
+Damit Frankenbeträge in Rechnungen auf 0.05 gerundet werden, müssen sie die Bargeldrundung aktivieren.
+
+Navigieren sie nach *Finanzen > Konfiguration > Verwaltung > Bargeld-Runden* und erstellen sie einen neuen Eintrag wie folgt.
 
 ![](assets/Odoo%20Finanzen%20Runden.png)
+
+Wenn sie eine neue Rechnung schreiben, werden die Beiträge gerundet.
