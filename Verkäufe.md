@@ -8,9 +8,6 @@
 ## Verkäufe Dashboard anzeigen
 Öffnen sie die App *Verkäufe*. Hier sehen Sie alle offenen Angebote und Verkaufsaufträge.
 
-## Angebot erstellen
-[Verkäufer](Rollen.md#Verk%C3%A4ufer)
-
 ## Proforma-Rechnung anpassen
 
 Mit Odoo [Studio](Studio.md) können sie einfach die Proforma-Rechnung mit neuen Felder ergänzen oder den Bedürfnisse anpassen. Für komplizierte Fälle wie eine bedingungsbasierte Anzeige eines Feldes muss der Bericht im Entwicklermodus direkt bearbeitet werden. Dazu ein Bespiel einer Anpassung: 
