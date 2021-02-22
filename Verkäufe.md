@@ -1,6 +1,10 @@
 # Verkäufe
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
+## Bereiche
+
+* [Verkäufe-Rahmenbestellungen](Verk%C3%A4ufe-Rahmenbestellungen.md)
+
 ## Verkäufe Dashboard anzeigen
 Öffnen sie die App *Verkäufe*. Hier sehen Sie alle offenen Angebote und Verkaufsaufträge.
 
