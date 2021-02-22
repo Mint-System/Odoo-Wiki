@@ -19,6 +19,7 @@ function sanitizeName(name) {
         .replace(/%c3%bc/g,'ü')
         .replace(/%c3%a4/g,'ä')
         .replace(/%c3%9c/g,'ü')
+        .replace(/%c3%b6/g,'ö')
 }
 
 
@@ -31,6 +32,7 @@ function sanitizeAnchor(name) {
         .replace(/%c3%bc/g,'ü')
         .replace(/%c3%a4/g,'ä')
         .replace(/%c3%9c/g,'ü')
+        .replace(/%c3%b6/g,'ö')
         .replace(/ö/g,'o')
         .replace(/ü/g, 'u')
         .replace(/ä/g,'a')
@@ -45,6 +47,7 @@ function sanitizeAssetname(name) {
         .replace(/%c3%bc/g,'ü')
         .replace(/%c3%a4/g,'ä')
         .replace(/%c3%9c/g,'ü')
+        .replace(/%c3%b6/g,'ö')
         .replace(/ö/g,'o')
         .replace(/ü/g, 'u')
         .replace(/ä/g,'a')
