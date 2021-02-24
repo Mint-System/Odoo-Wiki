@@ -5,12 +5,45 @@
 
 * [Verkäufe-Rahmenbestellungen](Verk%C3%A4ufe-Rahmenbestellungen.md)
 
+## Aufgaben
+### Angebot erstellen
+Erstellen sie mit dem Knopf ANLEGEN ein neues Angebot.
+
+#### Kopfdaten
+Befüllen sie die Kopfdaten gemäss folgender Tabelle:
+![Verkäufe Felder Kopfdaten](assets/Verkäufe%20Felder%20Kopfdaten.svg)
+
+#### Auftragszeilen
+Wählen sie die Line-Items aus den Produkt-Stammdaten gemäss folgender Tabelle:
+![Verkäufe Felder Auftragszeilen](assets/Verkäufe%20Felder%20Auftragszeilen.svg)
+
+#### Verfügbarkeit
+Für jedes Produkt zeigt der Bericht *Forecasted Report* eine detaillierte Übersicht bezüglich Verfügbarkeit. Zu- und Abgänge sowie potentielle Verkäufe werden berücksichtigt.
+
+### Angebot senden
+Mit dem Knopf PER E-MAIL VERSENDEN erstellt das System automatisch einen e-Mail Entwurf mit dem Angebot als PDF Attachment. Die Textnachricht ist als Template hinterlegt, kann aber editiert werden.
+Mit SENDEN wird die e-Mail gesendet und der Status ändert auf ANGEBOT GESENDET.
+
+### Auftrag bestätigen
+Das Angebot wird über folgende alternativen Aktionen zum Verkaufsauftrag:
+- Der Kunde bestätigt im Kunden-Portal
+- Der Verkäufer bestätigt mit dem Knopf BESTÄTIGEN
+Damit wechselt das Angebot in den Status VERKAUFSAUFTRAG.
+Mit der Aktion PER E-MAIL VERSENDEN wird automatisch ein e-Mail Entwurf für das Versenden der Auftragsbestätigung generiert.
+
+## Warenbedarf
+Durch einen Verkaufsauftrag entsteht Warenbedarf der (falls nicht im Lager vorhanden) automatisch zu Einkaufs- oder Fertigungsvorschlägen führt. Folgende Beschreibung zeigt die Systematik:
+[Best-Practice-Warenbedarf](Best-Practice-Warenbedarf.md)
+
+## Lieferung
+Durch einen Verkaufsauftrag entsteht automatisch ein Lieferauftrag. Die Verbindung wird über einen entsprechenden *Smart Button* oben rechts sichtbar.
+
 ## Verkäufe Dashboard anzeigen
 Öffnen sie die App *Verkäufe*. Hier sehen Sie alle offenen Angebote und Verkaufsaufträge.
 
 ## Proforma-Rechnung anpassen
 
-Mit Odoo [Studio](Studio.md) können sie einfach die Proforma-Rechnung mit neuen Felder ergänzen oder den Bedürfnisse anpassen. Für komplizierte Fälle wie eine bedingungsbasierte Anzeige eines Feldes muss der Bericht im Entwicklermodus direkt bearbeitet werden. Dazu ein Bespiel einer Anpassung: 
+Mit Odoo [Studio](Studio.md) können sie einfach die Proforma-Rechnung mit neuen Feldern ergänzen oder spezifischen Bedürfnissen anpassen. Für komplizierte Fälle wie eine bedingungsbasierte Anzeige eines Feldes muss der Bericht im Entwicklermodus direkt bearbeitet werden. Dazu folgendes Bespiel einer Anpassung: 
 
 ```xml
 <data>
