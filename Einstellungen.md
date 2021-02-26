@@ -1,9 +1,8 @@
 # Einstellungen
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
-## Bereiche
-- [Einstellungen-Übersetzung](Einstellungen-%C3%9Cbersetzung.md)
-- [Einstellungen-Login](Einstellungen-Login.md)
+* [Einstellungen-Übersetzung](Einstellungen-%C3%9Cbersetzung.md)
+* [Einstellungen-Login](Einstellungen-Login.md)
 
 ## Entwicklermodus aktivieren
 

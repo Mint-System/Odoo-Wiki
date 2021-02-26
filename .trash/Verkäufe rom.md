@@ -1,45 +1,44 @@
 # Verkäufe
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
+## Bereiche
+
 * [Verkäufe-Rahmenbestellungen](Verk%C3%A4ufe-Rahmenbestellungen.md)
 
-## Verkäufe Dashboard anzeigen
-
-Öffnen sie die App *Verkäufe*. Hier sehen Sie alle offenen Angebote und Verkaufsaufträge.
-
 ## Angebot erstellen
+Erstellen sie mit dem Knopf ANLEGEN ein neues Angebot.
 
-Erstellen sie mit dem Knopf *Anlegen* ein neues Angebot.
-
+#### Kopfdaten
 Befüllen sie die Kopfdaten gemäss folgender Tabelle:
 ![Verkäufe Felder Kopfdaten](assets/Verkäufe%20Felder%20Kopfdaten.svg)
 
+#### Auftragszeilen
 Wählen sie die Line-Items aus den Produkt-Stammdaten gemäss folgender Tabelle:
 ![Verkäufe Felder Auftragszeilen](assets/Verkäufe%20Felder%20Auftragszeilen.svg)
 
+#### Verfügbarkeit
 Für jedes Produkt zeigt der Bericht *Forecasted Report* eine detaillierte Übersicht bezüglich Verfügbarkeit. Zu- und Abgänge sowie potentielle Verkäufe werden berücksichtigt.
 
-## Angebot senden
-
-Mit dem Knopf *Per E-Mail Versenden* erstellt das System automatisch einen e-Mail Entwurf mit dem Angebot als PDF-Attachment. Die Textnachricht ist als Template hinterlegt, kann aber editiert werden.
-Mit *Senden* wird die e-Mail gesendet und der Status ändert auf *Angebot Gesendet*.
+### Angebot senden
+Mit dem Knopf PER E-MAIL VERSENDEN erstellt das System automatisch einen e-Mail Entwurf mit dem Angebot als PDF Attachment. Die Textnachricht ist als Template hinterlegt, kann aber editiert werden.
+Mit SENDEN wird die e-Mail gesendet und der Status ändert auf ANGEBOT GESENDET.
 
 ## Auftrag bestätigen
-
 Das Angebot wird über folgende alternativen Aktionen zum Verkaufsauftrag:
-* Der Kunde bestätigt im Kunden-Portal
-* Der Verkäufer bestätigt mit dem Knopf *Bestätigen*
-Damit wechselt das Angebot in den Status *Verkaufsauftrag*.
-Mit der Aktion *Per E-Mail Versenden* wird automatisch ein e-Mail Entwurf für das Versenden der Auftragsbestätigung generiert.
+- Der Kunde bestätigt im Kunden-Portal
+- Der Verkäufer bestätigt mit dem Knopf BESTÄTIGEN
+Damit wechselt das Angebot in den Status VERKAUFSAUFTRAG.
+Mit der Aktion PER E-MAIL VERSENDEN wird automatisch ein e-Mail Entwurf für das Versenden der Auftragsbestätigung generiert.
 
 ## Warenbedarf anzeigen
-
 Durch einen Verkaufsauftrag entsteht Warenbedarf der (falls nicht im Lager vorhanden) automatisch zu Einkaufs- oder Fertigungsvorschlägen führt. Folgende Beschreibung zeigt die Systematik:
 [Best-Practice-Warenbedarf](Best-Practice-Warenbedarf.md)
 
 ## Lieferung anzeigen
-
 Durch einen Verkaufsauftrag entsteht automatisch ein Lieferauftrag. Die Verbindung wird über einen entsprechenden *Smart Button* oben rechts sichtbar.
+
+## Verkäufe Dashboard anzeigen
+Öffnen sie die App *Verkäufe*. Hier sehen Sie alle offenen Angebote und Verkaufsaufträge.
 
 ## Proforma-Rechnung anpassen
 
@@ -67,12 +66,3 @@ Mit Odoo [Studio](Studio.md) können sie einfach die Proforma-Rechnung mit neuen
 </data>
 ```
 
-## Rabatte hinzufügen
-
-Soll bei ein Produkt in der Rechnung mit einem Rabatt verkauft werden, so kann je Auftragszeile einen indivduellen Rabatt manuell eingefügt werden.
-
-![](assets/Verk%C3%A4ufe%20Auftragszeilen%20mit%20Rabatt.png)
-
-![](assets/Verk%C3%A4ufe%20Ansicht%20Rabatt%20in%20der%20Rechnung.png)
-
-#FIXME 
