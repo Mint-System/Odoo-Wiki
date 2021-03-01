@@ -12,6 +12,7 @@
     "vuepress-plugin-plausible-analytics": "^0.2.1"
   },
   "dependencies": {
+    "vuepress-plugin-img-lazy": "^1.0.4",
     "vuepress-plugin-sitemap": "^2.3.1"
   }
 }

@@ -6,6 +6,7 @@ module.exports = {
         sidebar: 'auto'
     },
     plugins: [
+        'img-lazy',
         '@vuepress/active-header-links',
         '@vuepress/medium-zoom',
         'vuepress-plugin-mermaidjs',
