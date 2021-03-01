@@ -6,6 +6,11 @@
 
 ![Fertigung Produkt anlegen](assets/Fertigung%20Produkt%20anlegen.png)
 
+### Allgemein
+
+#### Verkaufsartikel/Einkaufsartikel
+Die Produkte erscheinen entsprechend zur Auswahl wenn z.B ein Angebot (kann verkauft werden) oder eine Angebotsanfrage (kann eingekauft werden) erstellt werden.
+
 ### Beschreibung der Felder
 #### Titel
 Feld |Beispiel|Kommentar
