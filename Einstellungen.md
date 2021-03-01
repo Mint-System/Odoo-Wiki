@@ -69,3 +69,11 @@ Papierformat "European A4 without borders" duplizieren und als "A4 for isr repor
 Paierformat anpassen -> Linker Rand (mm)5.00  
 
 Im Entwicklermodus nach Berichte suchen -> ISR auswählen und Papieformat festlegen.
+
+## Bezeichnung Umsatzsteuer festlegen
+
+Wenn keine Bezeichnung für die Umsatzsteuer festgelegt ist, verwendet Odoo *Tax ID*. Das ist beispielsweise im Footer eines Dokuments ersichtlich.
+
+Wenn sie die Bezeichnung ändern wollen, gehen sie folgt vor. Öffnen sie die Ansicht *Kontakte > Konfiguration > Lokalisierung > Länder* und wählen sie ihr Land aus. Nun können sie die Bezeichnung im Feld *USt.-Bezeichnung* festlegen.
+
+![](assets/Einstellung%20Bezeichnung%20Umsatzsteuer.png)
