@@ -16,3 +16,20 @@ Ein neuer Eintrag im Adressbuch können sie über *Kontakte > Anliegen* erstelle
 
 Odoo verwendet Kontakte als zentrales Adressbuch. Verschiedene Module wie Verkäufe, CRM oder Finanzen greifen auf das Adressbuch zu.
 
+## Bezeichnung Umsatzsteuer festlegen
+
+Wenn keine Bezeichnung für die Umsatzsteuer festgelegt ist, verwendet Odoo *Tax ID*. Das ist beispielsweise im Footer eines Dokuments ersichtlich.
+
+Wenn sie die Bezeichnung ändern wollen, gehen sie folgt vor. Öffnen sie die Ansicht *Kontakte > Konfiguration > Lokalisierung > Länder* und wählen sie ihr Land aus. Nun können sie die Bezeichnung im Feld *USt.-Bezeichnung* festlegen.
+
+![](assets/Kontakte%20Bezeichnung%20Umsatzsteuer.png)
+
+## Adressformat ändern
+
+Standardmässig druckt Odoo die Adresse mit dem jeweiligen Land des Kontakts ab.
+
+![](assets/Einstellungen%20Adressformat.png)
+
+Damit das Land nicht abgedruckt wird, öffnen sie die Ansicht *Kontakte > Konfiguration > Lokalisierung > Länder* und wählen ihr Land aus. Nun können sie das *Layout in Berichten* festlegen.
+
+![](assets/Kontakte%20Layout%20in%20Berichten.png)

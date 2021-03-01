@@ -60,20 +60,10 @@ Weisen sie im Tab *Benutzer* die Rolle einem Benutzer zu. Ist die Rolle aktiv, �
 
 ## Papieformat für Bericht anpassen
 
-#FIXME
-  
-Angenommen
+Angenommen sie möchten das Papieformat für den ISR-Einzahlungsschein ändern, öffnen sie im Entwicklermodus *Einstellungen > Technisch > Berichtswesen > Papierformat.*
 
-Papierformat "European A4 without borders" duplizieren und als "A4 for isr report".  
+Duplizieren sie das Papierformat *European A4 without borders* als *European A4 for ISR Report*.
 
-Paierformat anpassen -> Linker Rand (mm)5.00  
+Passen sie das Papierformat an, beispielsweise mit *Linker Rand (mm)* `5.00`.
 
-Im Entwicklermodus nach Berichte suchen -> ISR auswählen und Papieformat festlegen.
-
-## Bezeichnung Umsatzsteuer festlegen
-
-Wenn keine Bezeichnung für die Umsatzsteuer festgelegt ist, verwendet Odoo *Tax ID*. Das ist beispielsweise im Footer eines Dokuments ersichtlich.
-
-Wenn sie die Bezeichnung ändern wollen, gehen sie folgt vor. Öffnen sie die Ansicht *Kontakte > Konfiguration > Lokalisierung > Länder* und wählen sie ihr Land aus. Nun können sie die Bezeichnung im Feld *USt.-Bezeichnung* festlegen.
-
-![](assets/Einstellung%20Bezeichnung%20Umsatzsteuer.png)
+Im Entwicklermodus öffnen sie *Einstellungen > Technisch > Berichtswesen > Berichte*, wählen den Bericht *ISR* und legen sie das neue Papieformat fest.
