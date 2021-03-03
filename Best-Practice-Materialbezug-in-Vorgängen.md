@@ -24,7 +24,7 @@ Das Verfahren kann abgekürzt werden indem der Fertigungsauftrag direkt mit *Als
 
 Falls z.B. 3 statt 2 Stk Sattelüberzüge bezogen werden, erscheint dies farblich markiert im Fertigungsauftrag.
 
-![Fertigung Materialbezug reservierte Produkte](assets/Best%20Practice%20Materialbezug%20in%20Vorg%C3%A4ngen%20%20reservierte%20Produkte.png)
+![Fertigung Materialbezug reservierte Produkte](assets/Best%20Practice%20Materialbezug%20in%20Vorg%C3%A4ngen%20reservierte%20Produkte.png)
 
 ## Allowed with warning
 
@@ -34,7 +34,7 @@ Nach dem Ausführen von *Als Erledigt Markieren* erscheint die folgende Warnmeld
 
 Mit dem Knopf *Review Consumption* verlässt man den Dialog ohne dass eine Buchung durchgeführt wird. Mit *Bestätigen* wird das Material gebucht. Der zusätzliche Bezug erscheint als weitere Zeile in der Liste der Komponenten.
 
-![Fertigung Materialbezug gebuchte Produkte](assets/Best%20Practice%20Materialbezug%20in%20Vorg%C3%A4ngen%20%20gebuchte%20Produkte.png)
+![Fertigung Materialbezug gebuchte Produkte](assets/Best%20Practice%20Materialbezug%20in%20Vorg%C3%A4ngen%20gebuchte%20Produkte.png)
 
 ## Erlaubt
 
