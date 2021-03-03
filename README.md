@@ -18,12 +18,8 @@ Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten App
 ### [Apps](Apps.md)
 ![icons_odoo_modules](assets/icons_odoo_modules.png)  
 
-
 ### [Certificate-Planner](Certificate-Planner.md)
 ![icon_odoo_certificate_planner](assets/icon_odoo_certificate_planner.png)
-
-### [Einstellungen](Einstellungen.md)
-![icons_odoo_settings](assets/icons_odoo_settings.png)  
 
 ### [Dashboards](Dashboards.md)
 ![icons_odoo_board](assets/icons_odoo_board.png)  
@@ -39,6 +35,9 @@ Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten App
 
 ### [Einkauf](Einkauf.md)
 ![icons_odoo_purchase](assets/icons_odoo_purchase.png)  
+
+### [Einstellungen](Einstellungen.md)
+![icons_odoo_settings](assets/icons_odoo_settings.png)  
 
 ### [Entwicklung](Entwicklung.md)
 ![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)  
