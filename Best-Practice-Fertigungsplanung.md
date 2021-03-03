@@ -1,9 +1,11 @@
 # Fertigungsplanung
 
 ## Beispiel Fertigungsauftrag Rahmen unbeschichtet
+
 Für die Details des Produktes siehe [Rahmen unbeschichtet](Best-Practice-Definition-Beispiel-Fahrrad.md#Rahmen%20unbeschichtet).
 
 ### Automatische Fertigungsaufträge
+
 Es wird ein Fertigungsauftrag für 8 Stk *Rahmen unbeschichtet* erstellt. Die Materialverfügbarkeit zeigt sich wie folgt:
 
 ![Best Practice Fertigungsauftrag Rahmen unbeschichtet Berechnung](assets/Best%20Practice%20Fertigungsauftrag%20Rahmen%20unbeschichtet%20Berechnung.svg)

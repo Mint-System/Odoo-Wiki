@@ -1,6 +1,7 @@
 # Änderung der Route während dem Einkaufsprozess
 
 ## Beispiel
+
 Das Lager WH hat für den Empfang von Produkten die Einstellung *1 Schritt*. Jetzt werden beim Lieferanten Eisenwahren Huber AG 5 Stk des Produktes Rundrohr Typ 1 bestellt.
 
 Daraus resultiert der Wareneingang WH/IN/00001 mit der folgenden vorbereiteten Lagerbewegung:

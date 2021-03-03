@@ -1,10 +1,13 @@
 # Fertigungsauftrag
 
 ## Spezialfall Teilmenge einlagern
+
 ### Anforderung
+
 Ein Fertigungsauftrag für eine bestimmte Menge N eines Produktes wird ausgelöst. Bevor der Auftrag abgeschlossen ist, soll eine Teilmenge B des fertiggestellten Produkts eingelagert werden. Der Auftrag soll offen bleiben, bis die restliche Menge A-B ebenfalls fertiggestellt ist.
 
 ### Beispiel
+
 Der Fertigungsauftrag WH/MO/00001 für 16 Stk des Artikels *Speiche* wird auf folgender Basis geplant:
 
 ![Best Practice Speichen Lagerbestand Arbeitspläne](assets/Best%20Practice%20Speichen%20Lagerbestand%20Arbeitspl%C3%A4ne.svg)

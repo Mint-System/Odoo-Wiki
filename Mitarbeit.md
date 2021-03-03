@@ -33,6 +33,11 @@ Pfade und Bezeichnungen werden kursiv geschrieben.
 🚫 Drücken sie auf "+ Anlegen"  
 ✅ Drücken sie auf *+ Anlegen*
 
+Bezeichnungen die gross geschrieben sind, werden nur mit Anfangsbuchstanden gross geschrieben.
+
+🚫 Drücken sie auf *ALS ERLEDIGT MARKIEREN*
+✅ Drücken sie auf *Als Erledigt Markieren*
+
 ## Markierungen
 
 Um Inhalte speziell zu markieren gibt es diese Optionen.

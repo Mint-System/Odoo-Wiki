@@ -16,7 +16,8 @@
 - [Warenbedarf](Best-Practice-Warenbedarf.md)
 - [Liefertermin verschieben](Best-Practice-Liefertermin-verschieben.md)
 - [Berücksichtigung Lead-Time](Best-Practice-Ber%C3%BCcksichtigung-Lead-Time.md)
-- [Best-Practice-Beschaffung](Best-Practice-Beschaffung.md)
+- [Beschaffung](Best-Practice-Beschaffung.md)
+- [Materialbezug in Vorgängen](Best-Practice-Materialbezug-in-Vorgängen.md)
 
 ## Theorie
 
