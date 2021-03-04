@@ -1,6 +1,10 @@
 # Einstellungen Übersetzungen
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
+## Neue Sprache aktivieren
+
+Damit Odoo in mehreren Sprachen verfügbar ist, müssen sie die entsprechenden Sprachpakete installieren. Navigieren sie nach *Einstellungen > Sprachen* und wählen sie *Sprachen verwalten*. Suchen sie die zu installierende Sprache, öffnen sie diese und wählen *Aktivieren und Übersetzen*.
+
 ## Übersetzungen aktualisieren
 
 Mit jeder Odoo Version und den dazugehörigen Modulen werden neue Übersetzungen hinzugefügt. Um die aktuellsten Übersetzungen zu erhalten müssen sie folgende Aktion ausführen: Öffnen sie *Einstellungen > Sprachen > Sprachen verwalten > Sprache auswählen* und klicken auf *Aktivieren und Übersetzen*. Bestätigen sie den Dialog.
@@ -55,3 +59,11 @@ Ist man mit einer bestimmte Übersetzung nicht zufrieden, können sie diese selb
 Suchen sie nach dem Übersetzungswert *Zwischensumme*. Es erscheinen mehrere Resultate. Für einen Begriff kann es mehrere gleiche Übersetzung geben, weil es mehrere unabhängige Odoo Apps gibt, die den gleichen Begriff verwenden.
 
 In unserem Fall wollen wir die Einträge mit `<strong>...</strong>` anpassen. Wählen sie die entsprechenden Einträge aus und ersetzen sie *Zwischensumme* mit *Nettobetrag*.
+
+## Produktnamen übersetzen
+
+Haben sie mehrere Sprachpakete auf der Odoo-Umgebung installiert und möchten Produktnamen übersetzen, gehen sie wie folgt vor. Öffnen sie das Produkt in der Einzelansicht und klicken sie auf *Bearbeiten*. Am oberen rechten Eck des Eingabefelds zum Produktnamen finden sie ein Link.
+
+![](assets/Einstellungen%20%C3%9Cbersetung%20Produktnamen%20%C3%BCbersetzen.png)
+
+Klicken sie auf diesen und geben sie den übersetzten Produktnamen ein.
