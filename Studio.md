@@ -1,57 +1,14 @@
 # Studio
 ![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)
 
+[[Studio-Beispiele|Studio Beispiele]]
+
 ## Anpassungen dokumentieren
 Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
 Jede Änderung mit Odoo Studio an einer Odoo-Instanz muss dokumentiert werden. Die Entwickler von Odoo haben dafür die Menu-Option *Notizen* hinzugefügt.
 
 ![Studio Anpassungen dokumentieren](assets/Studio%20Anpassungen%20dokumentieren.gif)
-
-## Dateianhang in Bericht anzeigen
-Aufgabenträger: [Administrator](Rollen.md#Administrator)
-
-::: tip
-An jedem Odoo-Objekt kann ein Anhang vom Typ Datei oder URL hinzugefügt werden. Dieser Anhang kann im Portal oder Bericht angzeigt werden.
-:::
-
-In diesem Beispiel wurde mit Odoo Studio dem Modell *product.product* zwei Felder hinzugefügt:
-* Name: x_studio_drawing
-	* Typ: Many2One Produktionsdokument
-	* Bezeichnung: Zeichnung
-
-* Name: x_studio_step_file
-	* Typ: Man2One Produktionsdokument
-	* Bezeichnung: STEP-Datei
-
-![](assets/Studio%20Produkt%20Variante%20zus%C3%A4tzliche%20Felder.png)
-
-Diese Felder können im Beschaffungsauftrag angzeigt werden.
-
-![](assets/Studio%20Beschaffungsauftrag%20XML%20Customization.png)
-
-Für diese Art von Anpassung muss das XML der Ansicht bearbeit werden, dazu der X-Path-Edit:
-
-```xml
-<data>
-  <xpath expr="/t/t/div/table/tbody/t[2]/tr/t[1]/td[1]/span" position="after">
-    <t t-if="line.product_id.x_studio_drawing">
-		<br/>
-        <span>Zeichnung: </span>
-		<a t-attf-href="{{line.product_id.x_studio_drawing.url}}">
-      <span t-field="line.product_id.x_studio_drawing.display_name"/>
-    	</a>
-    </t>
-    <t t-if="line.product_id.x_studio_step_file">
-		<br/>
-        <span>STEP-Datei: </span>
-		<a t-attf-href="{{line.product_id.x_studio_step_file.url}}">
-      <span t-field="line.product_id.x_studio_step_file.display_name"/>
-    	</a>
-    </t>
-  </xpath>
-</data>
-```
 
 ## Feld entfernen
 
@@ -104,36 +61,3 @@ Beim Aufruf einer App oder eines Menu ruft Odoo die dazugehörige Standardansich
 ![](assets/Studio%20Standardansicht%20festlegen.png)
 
 Wählen sie die neue Standardansicht an und klicken auf das Menu und auf *Als Standard setzen*. Schliessen sie den Vorgang ab.
-
-## IBAN und Bank auf Rechnung anzeigen
-
-Standardmässig werden die Zahlungsinformationen nur bei konfigurierten ISR- und QR-Code-Einstellungen angzeigt. Falls sie die der Rechnung hinterlegten Kontoinformationen anzeigen möchten können sie das mit Studio einrichten.
-
-Bearbeiten sie den Rechnungsbericht und fügen sie folgenden Code ein:
-
-```xml
-<data>
-  <xpath expr="/t/t/div/p[2]" position="after">
-    <div class="row">
-      <div class="col">
-        <span>IBAN: </span>
-        <span t-field="o.invoice_partner_bank_id.acc_number"/>
-      </div>
-    </div>
-  </xpath>
-  <xpath expr="/t/t/div/div[3]" position="after">
-    <div class="row">
-      <div class="col">
-		<span>Bank/BIC: </span>
-		<span t-field="o.invoice_partner_bank_id.bank_id.display_name"/>
-		<br/>
-		<br/>
-      </div>
-    </div>
-  </xpath>
-</data>
-```
-
-Das Ergebnis sieht so aus:
-
-![](assets/Odoo%20Studio%20IBAN%20und%20Bank%20auf%20Rechnung.png)
