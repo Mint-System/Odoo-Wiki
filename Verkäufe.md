@@ -11,10 +11,29 @@
 
 Erstellen sie mit dem Knopf *Anlegen* ein neues Angebot.
 
+| Bezeichnung       | Beschreibung                                                  |
+| ----------------- | ------------------------------------------------------------- |
+| Kunde             | Es erscheinen alle Einträge der Liste "Kontakte" zur Auswahl. |
+| Ablauf            | Frist wie lange das Angebot gültig ist.                       |
+| Preisliste        | Auswahl der relevanten Preisliste                             |
+| Zahlungsbediungen | -                                                             |
+
 Befüllen sie die Kopfdaten gemäss folgender Tabelle:
 ![Verkäufe Felder Kopfdaten](assets/Verkäufe%20Felder%20Kopfdaten.svg)
 
 Wählen sie die Line-Items aus den Produkt-Stammdaten gemäss folgender Tabelle:
+
+| Beziechnung  | Beschreibung                                                                  |
+| ------------ | ----------------------------------------------------------------------------- |
+| Produkt      | Auswahl eines beliebigen Produktes mit dem Attribut "Kann verkauft werden".   |
+| Beschreibung | Text aus dem Feld "Verkaufs Beschreibung" der Produkt-Stammdaten              |
+| Route        | Der erwartete Lieferzeitpunkt. Dieses Datum wird für die Prognosen verwedent. |
+| Menge        | -                                                                             |
+| UoM          | -                                                                             |
+| Preis pro ME | -                                                                             |
+| Vorlaufzeit  | -                                                                             |
+| Steuern      | -                                                                              |
+
 ![Verkäufe Felder Auftragszeilen](assets/Verkäufe%20Felder%20Auftragszeilen.svg)
 
 Für jedes Produkt zeigt der Bericht *Forecasted Report* eine detaillierte Übersicht bezüglich Verfügbarkeit. Zu- und Abgänge sowie potentielle Verkäufe werden berücksichtigt.

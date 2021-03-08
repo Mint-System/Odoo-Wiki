@@ -6,6 +6,7 @@ Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten App
 
 ## [Referenzsystem](Referenzsystem.md)  
 ## [Best-Practice](Best-Practice.md)
+## [Theorie](Theorie.md)
 
 ## Apps
 

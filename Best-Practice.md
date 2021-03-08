@@ -1,5 +1,7 @@
 # Best Practice
 
+Implementation Geschäftsprozesse in Odoo.
+
 ## Beispiel-Daten
 
 - [Item-Structure](Best-Practice-Item-Structure.md)
@@ -7,7 +9,7 @@
 - [Finanzen Journale](Best-Practice-Finanzen-Journale.md)
 - [Personalabrechnung Lohnbuchhaltung](Best-Practice-Lohnbuchhaltung.md)
 
-## Abläufe
+## Anwendungsfälle
 
 - [Fertigungsplanung](Best-Practice-Fertigungsplanung)
 - [Fertigungsauftrag](Best-Practice-Fertigungsauftrag.md)
@@ -21,11 +23,3 @@
 - [Berücksichtigung Lead-Time](Best-Practice-Ber%C3%BCcksichtigung-Lead-Time.md)
 - [Beschaffung](Best-Practice-Beschaffung.md)
 - [Materialbezug in Vorgängen](Best-Practice-Materialbezug-in-Vorgängen.md)
-
-## Theorie
-
-- [Material-Reservierung](Theorie-Material-Reservierung.md)
-- [Mehrwertsteuer](Theorie-Mehrwertsteuer.md)
-- [Kontakte](Theorie-Kontakte.md)
-- [Theorie-Verkaufsgruppen-und-Baugruppen](Theorie-Verkaufsgruppen-und-Baugruppen.md)
-- [Theorie-Definition-Beispiel-Fahrrad](Theorie-Definition-Beispiel-Fahrrad.md)

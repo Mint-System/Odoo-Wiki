@@ -2,7 +2,11 @@
 
 In diesem Dokument werden die Vorgaben zur Mitarbeit am Odoo Handbuch erläutert.
 
-## Theorie
+## Philosophie
+
+Mit dem Odoo-Handbuch streben wir an eine einfache und kompakte Hilfestellung den Kunden anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best-Practice](Best-Practice.md) oder [Theorie](Theorie.md) ausgeführt.
+
+## Beispielunternehmen
 
 Zur Erläuterung der Instruktionen darf man ein fiktives Unternehmen mit folgenden Informationen verwenden:
 
@@ -24,6 +28,10 @@ BIC: CRESCHZZ
 Die Artikel sind in der Sprache Deutsch und in der [Höflichkeitsform](https://de.wikipedia.org/wiki/H%C3%B6flichkeitsform). Das Subjektiv bleibt jedoch klein geschrieben.
 
 Die Beschreibungen und Anleitungen sind ausführlich und kommen ohne Abkürzungen aus.
+
+## Formvorschriften
+
+Die Navigations-Anweisungen müssen genauso erstellt werden:
 
 🚫"Fertigung/Stammdaten/Stückliste"  
 ✅ "Navigieren sie nach *Fertigung > Stammdaten > Stückliste* und klicken sie auf *+ Anliegen*."

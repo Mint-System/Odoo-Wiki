@@ -39,7 +39,13 @@ Zum Beispiel als Beschreibung auf einem Angebot.
 
 **Register Lager**
 
-![Fertigung Felder Produkte Lager Logistik](assets/Fertigung%20Felder%20Produkte%20Lager%20Logistik.svg)
+| Bezeichnung                 | Beschreibung                                                                                                                                                                 |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Verantwortlich              |                                                                                                                                                                              |
+| Gewicht                     |                                                                                                                                                                              |
+| Volumenen                   |                                                                                                                                                                              |
+| Durchlaufzeit der Fertigung |                                                                                                                                                                              |
+| Auslieferungszeit           | Die Zeitdauer von der Bestellung bis zum Eintreffen des Produkts beim Kunden. Diese Anzahl Tage definiert das "Expected Date" im Verkaufsauftrag (Heute + Auslieferungszeit) |
 
 In den Einstellungen kann eine Sicherheitsvorlaufzeit eingestellt werden.
 
