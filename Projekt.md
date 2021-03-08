@@ -2,6 +2,7 @@
 ![icons_odoo_project](assets/icons_odoo_project.png)
 
 ## Projekt anlegen
+
 Aufgabenträger: [Projektleiter](Rollen#Projektleiter)
 
 Öffnen sie die App *Projekt* und klicken auf *Anlegen.* Im Dialog geben sie eine Projektbezeichnung ein. Abhängig von der Odoo-Installation stehen diese Optionen zur Wahl:
@@ -23,6 +24,7 @@ Die erstellte Projektstufe ist nur für dieses Projekt sichtbar.
 :::
 
 ## Globale Stufen zuordnen
+
 Aufgabenträger: [Projektleiter](Rollen#Projektleiter)
 
 ::: tip

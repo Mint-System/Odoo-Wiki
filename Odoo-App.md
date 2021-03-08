@@ -4,7 +4,7 @@
 
 Alle Odoo-Funktionen sind als mobile App verfügbar.
 
-## Login
+## In App einloggen
 
 Die Verwendung der App erfordert einen Odoo Account. Setze nach Bedarf das [Passwort zurücksetzen](Einstellungen.md#Passwort%20zur%C3%BCcksetzen) zurück.
 

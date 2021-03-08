@@ -8,6 +8,7 @@ Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenhe
 ![Anwesenheitszeiten An- und Abmelden](assets/Anwesenheitszeiten%20An-%20und%20Abmelden.png)
 
 ## Anwesenheit anmelden
+
 Navigieren sie nach *Anwesenheitszeiten* und klicken sie auf den Knopf *Anmelden*.
 
 ![Anwesenheitszeiten Anmeldung](assets/Anwesenheitszeiten%20Anmeldung.png)
@@ -17,6 +18,7 @@ Es erscheint ein Willkommensgruss mit Angabe der Uhrzeit.
 ![Anwesenheitszeiten Bestätigung Anmeldung](assets/Anwesenheitszeiten%20Best%C3%A4tigung%20Anmeldung.png)
 
 ## Anwesenheit abmelden
+
 Navigieren sie nach *Anwesenheitszeiten* und klicken sie auf den Knopf *Abmelden*.
 
 ![Anwesenheitszeiten Abmeldung](assets/Anwesenheitszeiten%20Abmeldung.png)
@@ -26,6 +28,7 @@ Es erscheint eine Verabschiedung mit Angabe der geleisteten Arbeitszeit.
 ![Anwesenheitszeiten Bestätigung Abmeldung](assets/Anwesenheitszeiten%20Best%C3%A4tigung%20Abmeldung.png)
 
 ## Anwesenheitszeiten anzeigen
+
 Der kürzeste Weg zur Anzeige der rapprtierten Arbeitszeit führt über *My Profile*.
 Navigieren Sie zum Knopf mit ihrem Namen auf dem Bildschirm oben rechts.
 Dort wählen Sie *Vorname Nachname > My Profile*. Es erscheint die folgende Maske:

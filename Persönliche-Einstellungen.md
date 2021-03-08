@@ -3,7 +3,7 @@
 
 Einstellungen für ihren persönlichen Odoo-Benutzer.
 
-## Lokalisierung
+## Lokalisierung festlegen
 
 Nach dem Login klicken sie oben rechts auf ihren Benutzer und wählen *My Profile*. Legen sie die folgenden Einstellungen fest.
 

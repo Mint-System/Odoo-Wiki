@@ -103,11 +103,15 @@ Aufgabenträger: ![](Rollen#Rollenname)
 
 Beschreibung zur Interaktion mit der App
 
+### Abschnitt
+
+Weitere Erläuterungen.
+
 ```
 
 ### Unterseiten
 
-Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist die App Fertigung umfassen. Deshalb können die Bereiche in Unterseiten platziert werden.
+Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist die App Fertigung sehr umfangreich. Deshalb können die Bereiche in Unterseiten aufgeteilt werden.
 
 * [Fertigung](Fertigung.md)
 * [Fertigung Stammdaten](Fertigung-Stammdaten.md)
@@ -132,3 +136,4 @@ Mit Obsidian können Artikel getagged `#tagname` werden. Tags werden jedoch von 
 * #PATCH: Applied patch to fix bug.
 * #Odoo13: Dieses Feature ist nur für Odoo 13 verfügbar.
 * #Odoo13-14: Dieses Feature ist für Odoo 13 bis 14 verfügbar.
+

@@ -1,4 +1,5 @@
-# Prozess Kundenanfrage
+# Prozess Verkauf
+
 ![Grafik Prozess Kundenanfrage](assets/Prozess%20Kundenanfrage.svg)
 
 - [Angebot erstellen](Verkäufe.md#Angebot%20erstellen)

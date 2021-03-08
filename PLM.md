@@ -1,7 +1,7 @@
 # PLM
 ![icons_odoo_mrp_plm](assets/icons_odoo_mrp_plm.png)
 
-## Begriffe
+**Begriffe**
 
 ECO: Engineering Change Order
 

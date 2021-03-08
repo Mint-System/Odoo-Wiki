@@ -16,6 +16,20 @@ Ein neuer Eintrag im Adressbuch können sie über *Kontakte > Anliegen* erstelle
 
 Odoo verwendet Kontakte als zentrales Adressbuch. Verschiedene Module wie Verkäufe, CRM oder Finanzen greifen auf das Adressbuch zu.
 
+### Details Felder
+
+**Kopfdaten**
+
+![Kontakte Felder Kopfdaten](assets/Kontakte%20Felder%20Kopfdaten.svg)
+
+**Kontakte & Adressen**
+
+Individuen die als Einzelperson erfasst und einem Unternehmen zugeordnet sind erscheinen in diesem Abschnitt.
+
+**Verkauf**
+
+![Kontakte Felder Verkauf](assets/Kontakte%20Felder%20Verkauf.svg)
+
 ## Bezeichnung Umsatzsteuer festlegen
 
 Wenn keine Bezeichnung für die Umsatzsteuer festgelegt ist, verwendet Odoo *Tax ID*. Das ist beispielsweise im Footer eines Dokuments ersichtlich.

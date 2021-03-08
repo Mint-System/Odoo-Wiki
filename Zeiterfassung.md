@@ -17,7 +17,7 @@ Wenn sie den Abrechnungstyp von bestehenden Eintägen ändern möchten, müssen 
 
 ![](assets/Zeiterfassung%20Verrechnungstyp%20%C3%A4ndern.gif)
 
-## Awesome Timesheet
+## Awesome Timesheet installieren
 
 Um die mobile App *Awesome Timesheet* in ihrem Browser oder auf dem Smartphone zu verwenden, müssen sie es zuerst über den jeweiligen App-Store installieren.
 

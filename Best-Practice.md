@@ -1,11 +1,14 @@
 # Best Practice
+
 ## Beispiel-Daten
+
 - [Item-Structure](Best-Practice-Item-Structure.md)
 - [Definition Beispiel Fahrrad](Best-Practice-Definition-Beispiel-Fahrrad.md)
 - [Finanzen Journale](Best-Practice-Finanzen-Journale.md)
 - [Personalabrechnung Lohnbuchhaltung](Best-Practice-Lohnbuchhaltung.md)
 
 ## Abläufe
+
 - [Fertigungsplanung](Best-Practice-Fertigungsplanung)
 - [Fertigungsauftrag](Best-Practice-Fertigungsauftrag.md)
 - [Projekte](Best-Practice-Projekte.md)

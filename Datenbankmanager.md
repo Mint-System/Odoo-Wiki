@@ -4,6 +4,7 @@
 Zur Verwaltung der Odoo-Instanzen gibt es den Datenbankmanager. Dieses Tool erlaubt ein Backup von der Instanz zu erstellen und nach Bedarf wiederherzustellen.
 
 ## Datenbank erstellen
+
 Möchten sie eine Datenbank für ihre Odoo-Installation erstellen, öffnen sie den Datenbankmanager unter https://erp.example.com/web/database/manager und geben die folgenden Daten ein.
 
 * Master Password: Dieses Passwort ist vordefiniert
@@ -48,6 +49,7 @@ Im unten dargestellten Dialog ist das *Odoo Master Password* notwendig.
 Nach der Bestätigung mit dem Knopf *Backup* wird der Inhalt der Datenbank lokal auf dem Computer in eine zip-Datei gespeichert.
 
 ## Restore Database
+
 Falls eine Datenbank mit einem Backup überschrieben werden soll, muss im nächsten Schritt die bestehende Datenbank gelöscht werden.
 
 Wählen sie gemäss der folgenden Darstellung die Funktion *Delete*.

@@ -1,4 +1,5 @@
 # Prozess Beschaffung
+
 ![Prozess Beschaffung](assets/Prozess%20Beschaffung.svg)
 
 - [Warenbedarf](Best-Practice-Warenbedarf.md)

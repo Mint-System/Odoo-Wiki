@@ -2,6 +2,7 @@
 ![icons_odoo_website_sale_options](assets/icons_odoo_website_sale_options.png)
 
 ## Daten exportieren
+
 In den verschiedenen Apps besteht immer die Möglichkeit Daten zu exportieren. Folgende Abbildung zeigt das Beispiel in der Maske Fertigung > Stammdaten > Produkte.
 
 ::: tip
@@ -19,6 +20,7 @@ Die zu exportierenden Felder müssen für jeden Zweck sorgfältig ausgewählt we
 :::
 
 ## Daten importieren
+
 In den verschiedenen Apps besteht immer die Möglichkeit Daten zu importieren. Folgende Abbildung zeigt das Beispiel in der Maske Fertigung > Stammdaten > Produkte.
 
 ![Datenmanagement Daten importieren](assets/Datenmanagement%20Daten%20importieren.png)

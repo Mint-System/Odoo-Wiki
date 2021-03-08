@@ -1,6 +1,7 @@
 # Replenishment
 
 ## Beispiel
+
 An den Kunden *Fahrrad-Traum AG* werden 10 Stk *Rahmen unbeschichtet* verkauft.
 
 Als Liefertermin wird das als *Expected* vorgeschlagene Datum *Heute + 1 Tag* gesetzt. (Das gründet auf der Definition *Auslieferungszeit* = 1 Tag. Details zur Produktdefinition siehe [Definition Beispiel Fahrrad](Best-Practice-Definition-Beispiel-Fahrrad.md))

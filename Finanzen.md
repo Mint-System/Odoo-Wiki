@@ -94,6 +94,7 @@ Kopieren sie den folgenden Inhalt:
 ```
 
 ## Rechnung stornieren
+
 Wurde die erstellte Rechnung bereits auf Status *Verbucht* gesetzt, so kann diese Rechnung nicht mehr korrigiert oder gelöscht werden. Reklamiert der Kunde zum Beispiel und die Rechnung muss neu erstellt erden, so kann über die Funktion *Stornieren* die Rechnung rückgängig gemacht werden und sämtliche Buchungen erhalten eine Gegenbuchung. Somit ist zum Beispiel das Konto *2200   
 Geschuldete MwSt. (Umsatzsteuer)** mit den Gegenbuchungen wieder ausgeglichen und die MWST wird in Auflistung der Abrechnung nicht erscheinen.
 
