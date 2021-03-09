@@ -40,6 +40,9 @@ Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten App
 ### [Einstellungen](Einstellungen.md)
 ![icons_odoo_settings](assets/icons_odoo_settings.png)  
 
+### [E-Mail-Marketing](E-Mail-Marketing.md)
+![icons_odoo_mass_mailing](assets/icons_odoo_mass_mailing.png)
+
 ### [Entwicklung](Entwicklung.md)
 ![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)  
 
