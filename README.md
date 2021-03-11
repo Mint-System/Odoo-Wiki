@@ -124,6 +124,9 @@ Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten App
 ### [Zeiterfassung](Zeiterfassung.md)
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)  
 
+### [Odoo.sh](Odoo.sh.md)
+![icons_odoo_app](assets/icons_odoo_app.png)  
+
 ## Mitarbeit
 
 Sie können eine Kopie des Handbuchs erstellen und für eigene Zwecke nutzen. Ebenfalls können sie Änderungen mitteilen und mit dem offizielen Handbuch zusammenführen. Mehr dazu unter [Mitarbeit](Mitarbeit.md)
