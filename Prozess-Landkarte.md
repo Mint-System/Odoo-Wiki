@@ -2,9 +2,8 @@
 
 ![Prozesslandkarte](assets/Prozesslandkarte.svg)
 
-- [Entwicklung](Prozess-Entwicklung.md)
-- [Kundenanfrage](Prozess-Verkauf.md)
-- Produktion
+- [Produktentwicklung](Prozess-Produktentwicklung.md)
+- [Verkauf](Prozess-Verkauf.md)
 - [Fertigungsplanung](Prozess-Fertigungsplanung.md)
 - Fertigung
 - Versand
