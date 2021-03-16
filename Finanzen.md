@@ -44,9 +44,11 @@ Um eine Zahlung zu exportieren, klicken sie auf *Finanzen > X Über SEPA zu send
 
 Mit Odoo können PDF-Rechnung einfach gescannt und verarbeitet werden. Die Rechnungsdigitalisierung liest die Zahlungsinformationen aus dem PDF und erstellt eine Lieferantenrechnung.
 
-Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits können unter [Odoo IAP](https://iap.odoo.com/iap/in-app-services/259) erworben werden.
+Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits können als In-App-Purchase (IAP) erworben werden. Klicken sie auf *Einstellungen > Finanzen > Eingangsrechnungen > Guthaben kaufen*. Loggen sie sich mit dem Odoo-Account ein und erwerben sie ein IAP-Paket. Die Credits werden an ihrer Datenbank gut geschrieben und fortan steht der Digitalisierungsprozess zur Verfügung.
 
-Zur Digitalisierung einer Rechnung laden sie als erstes die PDF-Datei via *Finanzen > Lieferanten > Rechnungen > Hochladen* hoch. Starten sie dann die Aktion *Send for digitalization*. Nach wenigen Sekunden sollte die Rechnungsangaben aus dem PDF ausgelesen und abgefüllt werden.
+Zur Digitalisierung einer Rechnung laden sie als erstes die PDF-Datei via *Finanzen > Lieferanten > Rechnungen > Hochladen* hoch. Öffnen sie die Rechnung und starten sie dann die Aktion *Send for digitalization*. Nach wenigen Sekunden sollte die Rechnungsangaben aus dem PDF ausgelesen und abgefüllt werden.
+
+![](assets/Finanzen%20Rechnung%20digitalisieren.png)
 
 ## Rechnungsvorlage anpassen
 
