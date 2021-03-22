@@ -62,7 +62,7 @@ Als Betreff geben sie folgendes ein: `${object.company_id.name} Rechnung (Ref ${
 
 Kopieren sie den folgenden Inhalt:
 
-```
+```html
 <div style="margin:0px;padding: 0px;">
     <p style="padding: 0px; font-size: 13px;">
         Guten Tag
@@ -91,8 +91,7 @@ Kopieren sie den folgenden Inhalt:
         <br><br>
         Zögern Sie nicht uns bei Fragen zu kontaktieren.
     </p>
-</div>
-            
+</div>         
 ```
 
 ## Rechnung stornieren
@@ -141,3 +140,11 @@ Navigieren sie nach *Finanzen > Konfiguration > Verwaltung > Bargeld-Runden* und
 ![](assets/Odoo%20Finanzen%20Runden.png)
 
 Wenn sie eine neue Rechnung schreiben, werden die Beiträge gerundet.
+
+## Bankauszug importieren
+
+Als Teil können Sie den [Zahlungsabgleich](Best-Pratice-Zahlungsabgleich.md) in beiden Richtungen vornehmen
+
+![](assets/Finanzen%20Ansicht%20Eingangsrechnungen.png)
+
+#FIXME 
