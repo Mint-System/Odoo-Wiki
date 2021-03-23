@@ -1,8 +1,8 @@
 # Odoo App: Product Name Sequence
 
-## Generate product name with sequence
+## Generate product name
 
-Product will have the default name `New`. If nothing else is set and the product form is save or updated, then the product template sequence will be called.
+Product will have the default name `New`. If nothing else is set and the product form is saved or updated, then the product template sequence will be called and set as name.
 
 ![Odoo App Product Name Sequence Generate](assets/Odoo%20App%20Product%20Name%20Sequence%20Generate.gif)
 
