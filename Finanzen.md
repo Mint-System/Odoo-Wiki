@@ -143,7 +143,7 @@ Wenn sie eine neue Rechnung schreiben, werden die Beiträge gerundet.
 
 ## Bankauszug importieren
 
-Als Teil können Sie den [Zahlungsabgleich](Best-Pratice-Zahlungsabgleich.md) in beiden Richtungen vornehmen
+Als Teil können Sie den [Zahlungsabgleich](Best-Pratice-Zahlungsabgleich.md) in beiden Richtungen vornehmen. Siehe auch unter camt
 
 ![](assets/Finanzen%20Ansicht%20Eingangsrechnungen.png)
 
