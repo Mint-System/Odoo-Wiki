@@ -25,3 +25,9 @@ Haben sie eine Rückmeldung zur App, können sie diese als Notiz dem Entwickler 
 Zur Rücksprache und Besprechung können sie bei Dokumente einen Kommentar hinterlassen.
 
 ![](assets/Certificate%20Planner%20Kommentar%20bei%20Dokument%20hinterlassen.gif)
+
+## Mehrere Dokumentrevisionen bearbeiten
+
+Für bestimmte Listenansichten steht die Massenbearbeitung zur Verfügung.
+
+![Certificate Planner Massenbearbeitung](assets/Certificate%20Planner%20Massenbearbeitung.gif)
