@@ -85,7 +85,7 @@ Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten App
 ### [Notizen](Notizen.md)
 ![icons_odoo_note](assets/icons_odoo_note.png)  
 
-### [Odoo App](Odoo-App.md)
+### [Odoo Mobile App](Odoo-Mobile-App.md)
 ![icons_odoo_app](assets/icons_odoo_app.png)  
 
 ### [Odoo.sh](Odoo.sh.md)

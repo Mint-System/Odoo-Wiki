@@ -3,6 +3,12 @@
 
 Odoo-Apps konfigurieren und korrekt verwenden.
 
+
+* [Odoo App: Product Name Sequence](Odoo-App-Product-Name-Sequence.md)
+* [Odoo App: Product Barcode Generator](Odoo-App-Product-Barcode-Generator.md)
+* [Odoo App: Fertigung Fertigungsauftrag Abbrechen](Odoo-App-Fertigung-Fertigungsauftrag-Abbrechen.md)
+* [Odoo App: Verkäufe Rahmenbestellungen](Odoo-App-Verk%C3%A4ufe-Rahmenbestellungen.md)
+
 ## Liste der Apps aktualisieren
 
 Um die Liste der verfügbaren Apps zu aktualisieren, wechseln sie in den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) und öffnen *Apps*. Im oberen Menu klicken sie auf *Update der Apps*. Wenn der Vorgang abgeschlossen ist, können sie die neuen Apps in der Liste suchen.

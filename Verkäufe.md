@@ -1,7 +1,7 @@
 # Verkäufe
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
-* [Verkäufe Rahmenbestellungen](Verk%C3%A4ufe-Rahmenbestellungen.md)
+* [Odoo App: Verkäufe Rahmenbestellungen](Odoo-App-Verk%C3%A4ufe-Rahmenbestellungen.md)
 
 ## Verkäufe Dashboard anzeigen
 
