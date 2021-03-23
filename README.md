@@ -1,14 +1,13 @@
 # Odoo Handbuch
 
-Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten Apps, Referenzsystem und Best Practice.
+Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten # HowTos, Referenzsystem und Best Practice.
 
 ![Odoo Handbuch Struktur](assets/Odoo%20Handbuch%20Struktur.svg)
 
 ## [Referenzsystem](Referenzsystem.md)  
-## [Best-Practice](Best-Practice.md)
-## [Theorie](Theorie.md)
+## [Best Practice](Best-Practice.md)
 
-## Apps
+## HowTos
 
 ### [Abwesenheitszeiten](Abwesenheitszeiten.md)
 ![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)  
@@ -19,7 +18,7 @@ Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten App
 ### [Apps](Apps.md)
 ![icons_odoo_modules](assets/icons_odoo_modules.png)  
 
-### [Certificate-Planner](Certificate-Planner.md)
+### [Certificate Planner](Certificate-Planner.md)
 ![icon_odoo_certificate_planner](assets/icon_odoo_certificate_planner.png)
 
 ### [Dashboards](Dashboards.md)

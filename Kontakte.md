@@ -1,7 +1,7 @@
 # Kontakte
 ![icons_odoo_contacts](assets/icons_odoo_contacts.png)
 
-[Theorie-Kontakte](Theorie-Kontakte.md)
+[Best-Practice-Kontakte](Best-Practice-Kontakte.md)
 
 
 ## Portal-Zugriff gewähren

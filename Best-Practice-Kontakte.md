@@ -1,4 +1,4 @@
-# Theorie Kontakte
+# Kontakte
 
 Odoo unterscheidet *Einzelperson* und *Unternehmen*. Eine Person kann einem Unternehmen zugeordnet werden. Einem Unternehmen können mehrere Personen zugeordnet werden.
 
@@ -6,7 +6,7 @@ Odoo unterscheidet *Einzelperson* und *Unternehmen*. Eine Person kann einem Unte
 
 Eine Übersicht zu den Felder eines Kontakts:
 
-![Kontakte Felder](assets/Theorie%20Kontakte%20Felder.svg)
+![Kontakte Felder](assets/Best%20Practice%20Kontakte%20Felder.svg)
 
 ## Anzeigenamen
 
@@ -14,11 +14,11 @@ In einigen Darstellungen erscheinen Einzelpersonen ergänzt mit dem zugeordneten
 
 Beispiel Ausschnitt *Liste aller Kontakte*:
 
-![Kontakte Anzeigename](assets/Theorie%20Kontakte%20Anzeigename.png)
+![Kontakte Anzeigename](assets/Best%20Practice%20Kontakte%20Anzeigename.png)
 
 ## Adressart
 
-![Kontakte Adressart](assets/Theorie%20Kontakte%20Adressart.png)
+![Kontakte Adressart](assets/Best%20Practice%20Kontakte%20Adressart.png)
 
 Die Adressart kann wie folgt eingestellt werden:
 - Kontakt
@@ -31,4 +31,4 @@ Die Adressart kann wie folgt eingestellt werden:
 
 Das System warnt falls die Gefahr besteht, dass zweimal dieselbe Steuer-ID angelegt wird.
 
-![Kontakte Warnung doppelte Steuer-ID](assets/Theorie%20Kontakte%20Warnung%20doppelte%20Steuer-ID.png)
+![Kontakte Warnung doppelte Steuer-ID](assets/Best%20Practice%20Kontakte%20Warnung%20doppelte%20Steuer-ID.png)

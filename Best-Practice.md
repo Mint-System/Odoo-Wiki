@@ -23,3 +23,7 @@ Implementation Geschäftsprozesse in Odoo.
 - [Berücksichtigung Lead-Time](Best-Practice-Ber%C3%BCcksichtigung-Lead-Time.md)
 - [Beschaffung](Best-Practice-Beschaffung.md)
 - [Materialbezug in Vorgängen](Best-Practice-Materialbezug-in-Vorgängen.md)
+- [Mehrwertsteuer](Best-Practice-Mehrwertsteuer.md)
+- [Verkaufsgruppen und Baugruppen](Best-Practice-Verkaufsgruppen-und-Baugruppen.md)
+- [Material-Reservierung](Best-Practice-Material-Reservierung.md)
+- [Kontakte](Best-Practice-Kontakte.md)

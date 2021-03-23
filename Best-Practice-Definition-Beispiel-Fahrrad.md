@@ -8,7 +8,7 @@
 
 (Siehe auch [Item Structure](Best-Practice-Item-Structure.md))
 
-![Theorie Item Structure Rahmen unbeschichtet](assets/Theorie%20Item%20Structure%20Rahmen%20unbeschichtet.svg)
+![Theorie Item Structure Rahmen unbeschichtet](assets/Best%20Practice%20Item%20Structure%20Rahmen%20unbeschichtet.svg)
 
 ### Stückliste
 
@@ -18,11 +18,11 @@ Rahmen unbeschichtet
 
 ### Lagerbestand/Arbeitspläne
 
-![Theorie Rahmen unbeschichtet Lagerbestand Arbeitspläne](assets/Theorie%20Rahmen%20unbeschichtet%20Lagerbestand%20Arbeitspl%C3%A4ne.svg)
+![Theorie Rahmen unbeschichtet Lagerbestand Arbeitspläne](assets/Best%20Practice%20Rahmen%20unbeschichtet%20Lagerbestand%20Arbeitspl%C3%A4ne.svg)
 
 ### Stammdaten/Einkaufsinformationen
 
-![Theorie Stammdaten Einkaufsinformationen](assets/Theorie%20Stammdaten%20Einkaufsinformationen.svg)
+![Theorie Stammdaten Einkaufsinformationen](assets/Best%20Practice%20Stammdaten%20Einkaufsinformationen.svg)
 
 ### Lead Times
 
