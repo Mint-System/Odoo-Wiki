@@ -1,5 +1,14 @@
 # Best Practice Lohnbuchhaltung
 
+## Lohnstrukturen
+
+Lohnstrukturen sind eine Sammlung von Lohnarten. Grundsätzlich sollte man mindestens zwei Lohnstrukturen anlegen:
+
+* Lohnabrechnung: Normale monatliche Lohnabrechnung
+* 13. Monatslohn: 13er Monatslohn
+
+## Lohnarten
+
 In der Tabelle unten sind die Lohnarten und die Finanzkonten für eine Buchhaltung hinterlegt.
 
 | Kategorie                  | Name                                  | Sollkonto                          | Habenkonto                              |
