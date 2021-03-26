@@ -1,12 +1,11 @@
 # Odoo Handbuch
 
-Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten # HowTos, Referenzsystem und Best Practice.
+Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten HowTos, Referenzsystem und Best Practice.
 
 ![Odoo Handbuch Struktur](assets/Odoo%20Handbuch%20Struktur.svg)
 
 ## [Referenzsystem](Referenzsystem.md)  
 ## [Best Practice](Best-Practice.md)
-
 ## HowTos
 
 ### [Abwesenheitszeiten](Abwesenheitszeiten.md)
