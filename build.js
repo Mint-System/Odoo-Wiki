@@ -22,22 +22,6 @@ function sanitizeName(name) {
         .replace(/%c3%b6/g,'ö')
 }
 
-
-function sanitizeAnchor(name) {
-    return name.toLocaleLowerCase()
-        .replace(/\s+/g, '-')
-        .replace(/%20/g,'-')
-        .replace('---','-')
-        .replace(/%c3%84/g,'ä')
-        .replace(/%c3%bc/g,'ü')
-        .replace(/%c3%a4/g,'ä')
-        .replace(/%c3%9c/g,'ü')
-        .replace(/%c3%b6/g,'ö')
-        .replace(/ö/g,'o')
-        .replace(/ü/g, 'u')
-        .replace(/ä/g,'a')
-}
-
 function sanitizeAssetname(name) {
     return name.toLocaleLowerCase()
         .replace(/\s+/g, '-')
@@ -83,7 +67,7 @@ function convert(content,file) {
         if (match.indexOf('#') > 0) {
             anchor = match.match(/#([^\)]*)/)[1]
             // sanitize anchor link
-            anchor = sanitizeAnchor(anchor)
+            anchor = sanitizeAssetname(anchor)
         }
 
         // sanitize href
