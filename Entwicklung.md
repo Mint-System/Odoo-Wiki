@@ -53,11 +53,7 @@ Frist bis in 5 Tagen erreicht und an eigenem Benutzer zugewiesen:
 ("user_id", "=", uid), 
 ("date_deadline", "<=", (datetime.datetime.now() + datetime.timedelta(days=3)).strftime('%Y-%m-%d'))
 ]
-`````
-
-## Feld als Unique definieren
-
-#FIXME
+```
 
 ## In Portal-Ansicht neue Felder anzeigen
 Aufgabenträger: [Entwickler](Rollen.md#Entwickler)
@@ -88,3 +84,9 @@ Dazu ergänzt man die Ansicht `purchase.portal_my_purchase_order` mit folgender 
 	</t>
 </xpath>
 ```
+
+## Developer API Key generieren
+
+Damit Software von Dritten Zugriff auf die Daten von Odoo hat, ohne dass dabei das Passwort eines Benutzers geteilt werden muss, kann man einen Zugriffsschlüssel bereitstellen.
+
+Öffenen sie die Sicherheitseinstellungen des eingeloggten Benutzers *Menu > Mein Profil > Tab Acccount Security* und klicken auf *New API Key*.
