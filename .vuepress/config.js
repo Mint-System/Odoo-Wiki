@@ -3,7 +3,10 @@ module.exports = {
     title: 'Odoo Handbuch',
     description: 'Odoo Handbuch',
     themeConfig: {
-        sidebar: 'auto'
+        sidebar: 'auto',
+        nav: [
+            { text: 'Home', link: '/' }
+        ]
     },
     plugins: [
         '@vuepress/active-header-links',
