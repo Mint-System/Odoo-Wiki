@@ -10,6 +10,7 @@ module.exports = {
         ]
     },
     plugins: [
+        'fulltext-search',
         '@vuepress/active-header-links',
         '@vuepress/medium-zoom',
         'vuepress-plugin-mermaidjs',
