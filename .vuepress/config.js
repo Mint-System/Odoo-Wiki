@@ -5,7 +5,8 @@ module.exports = {
     themeConfig: {
         sidebar: 'auto',
         nav: [
-            { text: 'Home', link: '/' }
+            { text: 'Home', link: '/' },
+            { text: 'Glossary', link: '/glossary' }
         ]
     },
     plugins: [
