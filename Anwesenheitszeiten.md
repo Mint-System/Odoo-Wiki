@@ -29,13 +29,13 @@ Es erscheint eine Verabschiedung mit Angabe der geleisteten Arbeitszeit.
 
 ## Anwesenheitszeiten anzeigen
 
-Der kürzeste Weg zur Anzeige der rapprtierten Arbeitszeit führt über *My Profile*.
+Der kürzeste Weg zur Anzeige der rapprtierten Arbeitszeit führt über *Mein Profil*.
 Navigieren Sie zum Knopf mit ihrem Namen auf dem Bildschirm oben rechts.
-Dort wählen Sie *Vorname Nachname > My Profile*. Es erscheint die folgende Maske:
+Dort wählen Sie *Vorname Nachname > Mein Profil*. Es erscheint die folgende Maske:
 
 ![Anwesenheitszeiten Zeitrapport](assets/Anwesenheitszeiten%20Zeitrapport.png)
 
-Ein Klick auf den Smart-Button *n Stunden* zeigt eine Tabelle mit den Details.
+Ein Klick auf den Smart-Link *XX.XX Stunden* zeigt eine Tabelle mit den Details.
 
 ![Anwesenheitszeiten Zeitrapport Detail](assets/Anwesenheitszeiten%20Zeitrapport%20Detail.png)
 
@@ -49,6 +49,14 @@ Mit dem Knopf *Werte* können Spalten ein- und ausgeblendet werden.
 ::: tip
 Das detaillierte Protokoll der An- und Abmeldungen zeigt die Übersicht *Anwesenheitszeiten > Manager > Anwesenheitszeiten*. (Die Berechtigung Personalsachbearbeiter ist notwendig.)
 :::
+
+## Anwesenheitszeiten bearbeiten
+
+Mitarbeiter können standardmässig ihre Anwesenheitszeiten nachbessern. Dazu navigieren sie über das Menu oben-rechts nach *Vorname Nachname > Mein Profil > Smart-Link XX.XX Stunden*. Hier werden die Checkins und Checkouts aufgelistet.
+
+Um einen Eintrag zu bearbeiten, klick man entweder auf *Einchecken* oder *Abmeldung*.
+
+![](assets/Anwesenheitszeiten%20bearbeiten.png)
 
 ## Theoretische und tatsächliche Anwesenheitszeiten vergleichen
 
