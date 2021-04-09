@@ -67,3 +67,19 @@ Duplizieren sie das Papierformat *European A4 without borders* als *European A4 
 Passen sie das Papierformat an, beispielsweise mit *Linker Rand (mm)* `5.00`.
 
 Im Entwicklermodus öffnen sie *Einstellungen > Technisch > Berichtswesen > Berichte*, wählen den Bericht *ISR* und legen sie das neue Papieformat fest.
+
+## Berechtigungen zurücksetzen
+
+Bei einem Modul- oder Odoo-Upgrade können sich die Berechtigungsstrukturen ändern. Falls sich diese nicht korrekt verhalten, kann man die Berechtigungen zurücksetzen. Als Anwendungsfall nehmen wir die Berechtigungen für [Anwesenheitszeiten](Anwesenheitszeiten.md).
+
+Eine Fehlerhafte Struktur wird in der Ansicht Benutzerberechtiung beispielsweise so darsgestellt:
+
+![](assets/Einstellungen%20fehlerhafte%20Berechtigungsstruktur.png)
+
+Zur Bereinigung öffnen sie als erstes *Einstellungen > Technisch > Sicherheit > Zugriffsrechte*. Suchen sie hier nach Einträgen mit Modul `hr_attendance` und löschen sie diese.
+
+Als nächstes öffnen sie *Einstellungen > Benutzer und Unternehmen > Gruppen* und  suchen nach *Anwesenheit*. Öffnen sie jede Gruppe  entfernen sie im Tab *Benutzer* und *Reche für Daten* alle Einträge.
+
+Zuletzt installiere sie die App `hr_attendance` neu. Nun sollten die Ursprünglichen Berechtigungsstrukturen wiederhergestellt sein.
+
+![](assets/Einstellungen%20Berechtigungen%20korrigiert.png)
