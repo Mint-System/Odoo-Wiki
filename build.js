@@ -1,6 +1,13 @@
 const fs = require('fs')
 var path = require('path')
 
+/* arguments:
+all
+index
+convert
+assets
+*/
+
 // settings
 const ignoreFiles = ['_navbar.md', '_sidbar.md']
 const basePath = '/'
@@ -36,6 +43,13 @@ function sanitizeAssetname(name) {
         .replace(/ü/g, 'u')
         .replace(/ä/g,'a')
 }
+
+const groupBy = key => array =>
+    array.reduce((objectsByKeyValue, obj) => {
+        const value = obj[key];
+        objectsByKeyValue[value] = (objectsByKeyValue[value] || []).concat(obj);
+        return objectsByKeyValue;
+    }, {});
 
 function convert(content,file) {
 
@@ -80,43 +94,84 @@ function convert(content,file) {
     return content
 }
 
-// loop all markdown files of the current folder
-fs.readdirSync(__dirname).filter(file => (file.slice(-3) === '.md') && (ignoreFiles.indexOf(file) != 0)).forEach((file) => {
+// Build vars
+var files = []
+var args = process.argv.slice(2);
+var firstArg = args[0]
 
-    // get markdown content
-    var content = fs.readFileSync(file, 'utf8')
+if (!firstArg || ['all', 'index'].indexOf(firstArg) >= 0) {
+    // loop all markdown files
+    fs.readdirSync(__dirname).filter(file => (file.slice(-3) === '.md') && (ignoreFiles.indexOf(file) != 0)).forEach((file) => {
 
-    // set new file name
-    newfile = sanitizeName(file)
+        // create file link list
+        files.push({ source: file.replace('\.md', ''), target: file, firstLetter: file[0].toUpperCase() })
+    })
+}
+ 
+if (!firstArg || ['all', 'convert'].indexOf(firstArg) >= 0) {
+    // loop all markdown files of the current folder
+    fs.readdirSync(__dirname).filter(file => (file.slice(-3) === '.md') && (ignoreFiles.indexOf(file) != 0)).forEach((file) => {
 
-    // convert content
-    content = convert(content, file)
+        // get markdown content
+        var content = fs.readFileSync(file, 'utf8')
 
-    // add footer
-    content = content + [
-        '\n\n',
-        '<hr>',
-        '\n\n',
-        '[📝 Edit on GitHub](' + gitUrl + file.replace(/\s+/g, '%20') + ')',
-        '\n\n',
-        '<footer>',
-        'Copyright © <a href="https://www.mint-system.ch/">Mint System GmbH</a>',
-        '</footer>'
-    ].join('')
+        // set new file name
+        newfile = sanitizeName(file)
 
-    // Delete existing file
-    fs.unlinkSync(file)
+        // convert content
+        content = convert(content, file)
 
-    // write content to new file
-    fs.writeFileSync(newfile, content, 'utf8')
-})
+        // add footer
+        content = content + [
+            '\n\n',
+            '<hr>',
+            '\n\n',
+            '[📝 Edit on GitHub](' + gitUrl + file.replace(/\s+/g, '%20') + ')',
+            '\n\n',
+            '<footer>',
+            'Copyright © <a href="https://www.mint-system.ch/">Mint System GmbH</a>',
+            '</footer>'
+        ].join('')
 
-// Loop all asset files
-fs.readdirSync(path.join(__dirname, assetsFolder)).forEach((file) => {
+        // Delete existing file
+        fs.unlinkSync(file)
+
+        // write content to new file
+        fs.writeFileSync(newfile, content, 'utf8')
+    })
+}
+
+if (!firstArg || ['all', 'index'].indexOf(firstArg) > 0) {
     
-    // set new file name
-    newfile = sanitizeAssetname(file)
+    // Group files by first letter
+    groupedFiles = groupBy('firstLetter')(files)
+    content = [
+        '# Glossary',
+        '\n'
+    ]
 
-    // move asset file
-    fs.renameSync(path.join(__dirname, assetsFolder,file), path.join(__dirname, newfile))
-})
+    Object.keys(groupedFiles).forEach(function(key) {
+        content.push(`## ${key}`)
+        content.push('\n','\n')
+        groupedFiles[key].forEach((link) => {
+            content.push(`[${link.source}](${sanitizeName(link.target)})  `)
+            content.push('\n')
+        })
+        content.push('\n')
+    })
+    
+    // write content to index file
+    fs.writeFileSync('glossary.md', content.join(''), 'utf8')
+}
+
+if (!firstArg || ['all', 'assets'].indexOf(firstArg) > 0) {
+    // Loop all asset files
+    fs.readdirSync(path.join(__dirname, assetsFolder)).forEach((file) => {
+        
+        // set new file name
+        newfile = sanitizeAssetname(file)
+
+        // move asset file
+        fs.renameSync(path.join(__dirname, assetsFolder,file), path.join(__dirname, newfile))
+    })
+}
