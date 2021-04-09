@@ -5,10 +5,12 @@ module.exports = {
     themeConfig: {
         sidebar: 'auto',
         nav: [
-            { text: 'Home', link: '/' }
+            { text: 'Home', link: '/' },
+            { text: 'Glossary', link: '/glossary' }
         ]
     },
     plugins: [
+        'fulltext-search',
         '@vuepress/active-header-links',
         '@vuepress/medium-zoom',
         'vuepress-plugin-mermaidjs',
