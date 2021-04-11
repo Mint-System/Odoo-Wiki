@@ -1,6 +1,8 @@
 # Zeiterfassung
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
 
+* [Zeiterfassung Terminal](Zeiterfassung-Terminal.md)
+
 ## Eintrag manuell erstellen
 
 Damit ein Odoo Benutzer ein Zeiterfassungs-Eintrag machen kann, müssen die foglenden Bedingungen erfüllt sein:
