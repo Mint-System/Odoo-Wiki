@@ -21,6 +21,7 @@ function sanitizeName(name) {
     return name.toLocaleLowerCase()
         .replace(/\s+/g, '-')
         .replace(/%20/g,'-')
+        .replace('--','-')
         .replace('---','-')
         .replace(/%c3%84/g,'ä')
         .replace(/%c3%bc/g,'ü')
@@ -33,6 +34,7 @@ function sanitizeAssetname(name) {
     return name.toLocaleLowerCase()
         .replace(/\s+/g, '-')
         .replace(/%20/g,'-')
+        .replace('--','-')
         .replace('---','-')
         .replace(/%c3%84/g,'ä')
         .replace(/%c3%bc/g,'ü')
@@ -52,6 +54,19 @@ const groupBy = key => array =>
     }, {});
 
 function convert(content,file) {
+
+    // convert markdown video links
+    // ![](Video.webm) -> <video width="560" height="240" controls><source src="./assets/video.webm"></video> 
+    const mdVideo = /(!\[.*\]\(.*\.(webm|mp4)\))/g
+    matches = content.match(mdVideo) || []
+    for (i = 0; i < matches.length; i++) {
+        let match = matches[i]
+        
+        let video = match.match(/!\[.*\]\((.*\..*)\)/)[1]
+        video = sanitizeAssetname(video.replace(`${assetsFolder}/`,''))
+
+        content = content.replace(match, `<video width="560" height="240" controls><source src="${basePathAssets}${video}"></video>`)
+    }
 
     // convert markdown image links
     // ![title](Image.png) -> ![](./assets/image.png)
