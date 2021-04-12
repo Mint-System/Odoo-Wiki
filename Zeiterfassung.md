@@ -1,7 +1,7 @@
 # Zeiterfassung
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
 
-* [Zeiterfassung Terminal](Terminal-Zeiterfassung.md)
+* [Terminal Zeiterfassung](Terminal-Zeiterfassung.md)
 * [Awesome Timesheet](Awesome-Timesheet.md)
 
 ## Eintrag manuell erstellen

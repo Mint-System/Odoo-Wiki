@@ -1,10 +1,13 @@
 # Incoterms
+
 ## Definition
+
 Incoterms (Lieferbedingungen) definieren unter anderem wie Ware vom Lieferanten zum Kunden transferiert wird. <br>
 [Wikipedia](https://https://de.wikipedia.org/wiki/Incoterms) <br>
 Zum Beispiel bezeichnet die Angabe *EXW (AB WERK)*, dass der Verkäufer keine Pflichten im Zusammenhang mit dem Transport hat. Der Kunde organisiert das Abholen, übernimmt alle Kosten und trägt die Risiken. <br>
 
 ## Verwendung
+
 Die Deklaration des anwendbaren Incoterm ist eine Vertragsklausel und wird in den folgenden zwei Dokumenten zugeordnet:
 - Angebot/Verkaufsauftrag (> Weitere Informationen > Lieferbedingung)
 - Angebotsanfrage/Beschaffungsauftrag (> Weitere Informationen > Lieferbedingung)
@@ -15,6 +18,7 @@ Falls eine Zuordnung mit einer Logik *Pro Lieferant/Kunde* gewünscht ist, empfe
 
 
 ## Funktion einschalten
+
 Die Verwendung von Incoterms wird über die Einstellungen in *Finanzen* freigeschaltet.
 Wählen sie ihre Standard-Lieferbedingung hier:
 - Einstellungen > Finanzen > Ausgangsrechnungen > Standard-Incoterm
@@ -24,4 +28,8 @@ Damit die Auswahl in den Dokumenten *Angebot/Verkaufsauftrag* und *Angebotsanfra
 
 ::: tip
 Die Auswahl *Standard-Incoterm* (Einstellung in der App *Finance*) wird in den Dokumenten *Angebot/Verkaufsauftrag* und *Angebotsanfrage/Beschaffungsauftrag* nicht als Default-Wert eingetragen
+:::
+
+::: tip
+Der Default-Wert für die *Lieferbedingung* in den Dokumenten *Angebot/Verkaufsauftrag* und *Angebotsanfrage/Beschaffungsauftrag* kann auch über die Funktion *Standardwert setzen* im Entwicklermodus eingestellt werden.
 :::

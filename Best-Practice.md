@@ -27,6 +27,6 @@ Implementation Geschäftsprozesse in Odoo.
 - [Verkaufsgruppen und Baugruppen](Best-Practice-Verkaufsgruppen-und-Baugruppen.md)
 - [Material-Reservierung](Best-Practice-Material-Reservierung.md)
 - [Kontakte](Best-Practice-Kontakte.md)
-- [Mengeneinheiten](Mengeneinheiten.md)
+- [Mengeneinheiten](Best-Practice-Mengeneinheiten.md)
 - [Lager einrichten](Lager%20einrichten.md)
 - [Incoterms](Best-Practice-Incoterms.md)

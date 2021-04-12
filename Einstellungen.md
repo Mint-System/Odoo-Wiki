@@ -83,3 +83,9 @@ Als nächstes öffnen sie *Einstellungen > Benutzer und Unternehmen > Gruppen* u
 Zuletzt installiere sie die App `hr_attendance` neu. Nun sollten die Ursprünglichen Berechtigungsstrukturen wiederhergestellt sein.
 
 ![](assets/Einstellungen%20Berechtigungen%20korrigiert.png)
+
+## Standardwerte setzen
+
+Für jedes Geschäftsobjekt können sie Standardwerte mit Bedingungen festlegen. Öffnen sie im Entwicklermodus ein Objekt, beispielsweise ein Angbot und legen sie für ein Feld einen neuen Wert fest. Bevor sie das Angebot speichern, navigieren sie zum Entwicklermenu und wählen *Standardwert setzen*. Im Dialog wählen sie das Feld und den Wert sowie die passende Bedingung. Wenn sie den Standardwert gespeichert haben, wir dieser bei der Erstellung eines neuen Geschäftsobjekts angwendet.
+
+![Einstellungen Standardwerte festlegen](assets/Einstellungen%20Standardwerte%20festlegen.gif)
