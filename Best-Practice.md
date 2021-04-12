@@ -29,3 +29,4 @@ Implementation Geschäftsprozesse in Odoo.
 - [Kontakte](Best-Practice-Kontakte.md)
 - [Mengeneinheiten](Mengeneinheiten.md)
 - [Lager einrichten](Lager%20einrichten.md)
+- [Incoterms](Best-Practice-Incoterms.md)

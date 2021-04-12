@@ -59,3 +59,11 @@ Damit ein Projekt und eine Aufgabe in der Awesome Timesheet für die Zeiterfassu
 
 * Das Projekt muss als Favorit markiert sein
 * Die Projektaufgabe ist dem Benutzer zugewiesen oder der Benutzer wurde als Abonement der Aufgabe hinzugefügt.
+
+## Stundenzettel validieren
+
+Ist die Fakturierungsregel *Nur bestätigte Stundenzettel* aktiviert, müssen zur Verrechnung die Stundenzetter der Mitarbieter explizit validiert werden.
+
+Der Stundenzettel-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Validieren* und wählt den entsprechenden Zeitraum aus. Mit *Bestätigen* wird ein Validierungsdatum festgelegt. Alle Zeitnachweise vor dem Validierungsdatum gelten als validiert.
+
+![](assets/Zeiterfassung%20Validierungsdatum.png)
