@@ -99,6 +99,83 @@ Damit der Betrag in der Lohnabrechnung berücksichtigt wird, muss dieser als Loh
 
 Beim Berechnen werden variable Eingaben in der Lohnabrechnung miteinbezogen.
 
+### Lohnabzug Kurzarbeit
+
+Im Falle von Kurzarbeit kann man die variablen Abzüge mit einer neuen Eingabe und Lohnart geltend machen.
+
+Navigieren sie nach *Personalabrechnung > Konfiguration > Other Input Types*. Erstellen sie dort einen Eintrag mit *Beschreibung* `Lohnabzug Kurzarbeit` und *Code* `KURZ`.
+
+Navigieren sie nach *Personalabrechnung > Konfiguration > Regeln* und wählen sie *Anlegen*. Erstellen sie eine Lohnart mit folgenden Definitionen:
+
+Name: `Lohnabzug Kurzarbeit`\
+Kategorie: ` `\
+Code: `2500`\
+Reihenfolge: `15`\
+Vergütungsstruktur: `Lohnabrechnung`\
+Bedinung basiert auf: `Python Ausdruck`
+Python Bedinung: `result = inputs.KURZ.amount > 0.0 if inputs.KURZ else False`\
+Berechnungsart: `Python Code`\
+Python Code: `result = -inputs.KURZ.amount if inputs.KURZ else 0`
+
+Im Tab *Finanzen* wählen sie:
+
+Sollkonto: `1098 Durchlaufkonto Löhne`\
+Habenkonto: `5000 Löhne`
+
+Speichern sie die Lohnart,  fügen sie einer ausgewählte Lohnabrechnung mit der zugehörigen Lohnstruktur eine Spesen-Eingabe hinzu und berechnen die Abrechnung neu.
+
+### Spesen als Zuwendung 
+
+Spesen können als variable Eingabe in der Lohnabrechnung hinzugefügt werden. Navigieren sie nach *Personalabrechnung > Konfiguration > Other Input Types*. Erstellen sie dort einen Eintrag mit *Beschreibung* `Spesen` und *Code* `SPESEN`.
+
+Damit die Eingabe in der Lohnabrechnung berücksichtigt wird, muss eine neue Lohnart definiert werden. Navigieren sie nach *Personalabrechnung > Konfiguration > Regeln* und wählen sie *Anlegen*. Erstellen sie eine Lohnart mit folgenden Definitionen:
+
+Name: `Spesen`\
+Kategorie: `Freie Zuwendung`\
+Code: `2000`\
+Reihenfolge: `10`\
+Vergütungsstruktur: `Lohnabrechnung`\
+Bedinung basiert auf: `Python Ausdruck`
+Python Bedinung: `result = inputs.SPESEN.amount > 0.0 if inputs.SPESEN else False`\
+Berechnungsart: `Python Code`\
+Python Code: `result = inputs.SPESEN.amount if inputs.SPESEN else 0`
+
+Im Tab *Finanzen* wählen sie:
+
+Sollkonto: `1098 Durchlaufkonto Löhne`\
+Habenkonto: `5082 Spesen`
+
+Speichern sie die Lohnart,  fügen sie einer ausgewählte Lohnabrechnung mit der zugehörigen Lohnstruktur eine Spesen-Eingabe hinzu und berechnen die Abrechnung neu.
+
+### Lohnakonto mit Nachberechnung
+
+Machen sie Lohnabzüge nach Berechnung des Nettolohn, muss die Lohnabrechnung etwas umstrukturiert werden. Einerseits muss wieder ein variabler Lohntyp konfiguriert werden und anderer
+
+Navigieren sie nach *Personalabrechnung > Konfiguration > Other Input Types*. Erstellen sie dort einen Eintrag mit *Beschreibung* `Lohnakonto` und *Code* `LNKT`.
+
+Name: `Lohnakonto`\
+Kategorie: `Nachberechnung`\
+Code: `5800`\
+Reihenfolge: `205`\
+Vergütungsstruktur: `Lohnabrechnung`\
+Berechnungsart: `Python Code`\
+Bedinung basiert auf: `Python Ausdruck`
+Python Bedinung: `result = inputs.LNKT.amount > 0.0 if inputs.LNKT else False`\
+Berechnungsart: `Python Code`\
+Python Code: `result = inputs.LNKT.amount if inputs.LNKT else 0`
+
+Damit der Auszahlungsbetrag überschrieben werden kann, müssen sie eine neue Lohnart anlegen:
+
+Name: `Auszahlung`\
+Kategorie: `Auszahlung`\
+Code: `NET`\
+Reihenfolge: `999`\
+Vergütungsstruktur: `Lohnabrechnung`\
+Berechnungsart: `Python Code`\
+Python Code: `result=categories.NET + categories.NBR`
+
+Und bei der Lohnart *Nettolohn* den Code auf `SUM` setzen (Code muss immer eindeutig sein).
+
 ## Lohnabrechnung entfernen
 
 Eine verbuche Lohnabrechnung lässt sich nicht mehr löschen oder abbrechen. Zumindest ist das im Status *Erledigt* nicht möglich. Wurde eine Lohnzahlung als bezahlt markiert, kann sie jedoch wieder entfernt werden.
