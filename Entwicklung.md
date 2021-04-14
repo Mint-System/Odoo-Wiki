@@ -90,3 +90,15 @@ Dazu ergänzt man die Ansicht `purchase.portal_my_purchase_order` mit folgender 
 Damit Software von Dritten Zugriff auf die Daten von Odoo hat, ohne dass dabei das Passwort eines Benutzers geteilt werden muss, kann man einen Zugriffsschlüssel bereitstellen.
 
 Öffenen sie die Sicherheitseinstellungen des eingeloggten Benutzers *Menu > Mein Profil > Tab Acccount Security* und klicken auf *New API Key*.
+
+## Menüeinträge umbennen
+
+Im Entwicklermodus können sie ganz einfach Menüeinträge umbennen. Angenommen sie möchten diesen Punkt umbennen:
+
+![](assets/Entwicklung%20Men%C3%BCeintr%C3%A4ge%20umbennen.png)
+
+Gehen sie wie folgt vor. Navigieren sie nach *Einstellungen > Technisch >  Benutzer-Interface > Menüeinträge* und suchen sie nach *Alle Angestellte*. Bearbeiten sie den Eintrag und setzen sie für das Feld *Menü* einen neuen Wert.
+
+![](assets/Einstellungen%20Men%C3%BCeintrag%20bearbeiten.png)
+
+Nachdem sie den Browser-Tab aktualisiert haben, ist der Menüeintrag umbenannt.
