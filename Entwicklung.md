@@ -102,3 +102,9 @@ Gehen sie wie folgt vor. Navigieren sie nach *Einstellungen > Technisch >  Benut
 ![](assets/Einstellungen%20Men%C3%BCeintrag%20bearbeiten.png)
 
 Nachdem sie den Browser-Tab aktualisiert haben, ist der Menüeintrag umbenannt.
+
+## Fenster umbennen
+
+Um den angezeigten Namen eines Fenster anzuspassen, navigieren sie nach *Eisntellungen > Technisch > Aktionen > Fesnter öffnen/schliessen ...*. Suchen sie im Feld *Name der Aktion* nach dem Fensternamen und passen sie den Namen an.
+
+![Einstellungen Fenster umbennen](assets/Einstellungen%20Fenster%20umbennen.gif)
