@@ -133,6 +133,7 @@ Die foglenden Namensbereiche sind reserviert:
 * Prozess
 * Best-Practice
 * Odoo-App
+* OCA-App
 
 ## Tags
 

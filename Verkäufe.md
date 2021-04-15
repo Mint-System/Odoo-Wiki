@@ -2,6 +2,7 @@
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
 * [Odoo App: Verkäufe Rahmenbestellungen](Odoo-App-Verk%C3%A4ufe-Rahmenbestellungen.md)
+* [OCA App: Standard Verkaufs-Lieferbedienungen pro Partner](OCA-App-Standard-Verkaufs-Lieferbedienungen-pro-Partner.md)
 
 ## Verkäufe Dashboard anzeigen
 

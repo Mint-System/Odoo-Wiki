@@ -1,4 +1,8 @@
 # Odoo App: Verkäufe Rahmenbestellungen
+![icons_odoo_modules](assets/icons_odoo_modules.png)
+
+Technischer Name: `dev_blanket_sale_order`\
+Repository: `https://gitlab.com/mint-system/odoo-app-blanket-sale-order`
 
 ## Rahmenbestellungen anzeigen
 

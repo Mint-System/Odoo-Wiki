@@ -1,4 +1,8 @@
 # Odoo App: Fertigung Fertigungsauftrag Abbrechen
+![icons_odoo_modules](assets/icons_odoo_modules.png)
+
+Technischer Name: `eq_cancel_mrp_orders`\
+Repository: <https://gitlab.com/mint-system/odoo-app-cancel-manufacturing-order>
 
 ## Berechtigung festlegen
 
