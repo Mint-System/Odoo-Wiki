@@ -1,4 +1,4 @@
-# Material-Reservierung
+# Material Reservierung
 
 Das Beispiel der Fertigung von [Rahmen unbeschichtet](Best-Practice-Fertigungsplanung#Beispiel%20Fertigungsauftrag%20Rahmen%20unbeschichtet) zeigt eine dreistufige Produktionsplanung.
 

@@ -2,9 +2,8 @@
 
 ## Definition
 
-Incoterms (Lieferbedingungen) definieren unter anderem wie Ware vom Lieferanten zum Kunden transferiert wird. <br>
-[Wikipedia](https://https://de.wikipedia.org/wiki/Incoterms) <br>
-Zum Beispiel bezeichnet die Angabe *EXW (AB WERK)*, dass der Verkäufer keine Pflichten im Zusammenhang mit dem Transport hat. Der Kunde organisiert das Abholen, übernimmt alle Kosten und trägt die Risiken. <br>
+Incoterms (Lieferbedingungen) definieren unter anderem wie Ware vom Lieferanten zum Kunden transferiert wird. [Wikipedia](https://https://de.wikipedia.org/wiki/Incoterms)\
+Zum Beispiel bezeichnet die Angabe *EXW (AB WERK)*, dass der Verkäufer keine Pflichten im Zusammenhang mit dem Transport hat. Der Kunde organisiert das Abholen, übernimmt alle Kosten und trägt die Risiken.
 
 ## Verwendung
 
@@ -13,9 +12,8 @@ Die Deklaration des anwendbaren Incoterm ist eine Vertragsklausel und wird in de
 - Angebotsanfrage/Beschaffungsauftrag (> Weitere Informationen > Lieferbedingung)
 
 ::: tip
-Falls eine Zuordnung mit einer Logik *Pro Lieferant/Kunde* gewünscht ist, empfehlen wie die Installation der App [Default sales incoterm per partner](https://apps.odoo.com/apps/modules/10.0/sale\_partner\_incoterm) der OCA.
+Falls eine Zuordnung mit einer Logik *Pro Lieferant/Kunde* gewünscht ist, empfehlen wie die Installation der [OCA App: Standard Verkaufs-Lieferbedienungen pro Partner](OCA-App-Standard-Verkaufs-Lieferbedienungen-pro-Partner.md).
 :::
-
 
 ## Funktion einschalten
 

@@ -1,4 +1,4 @@
-## Mehrwertsteuer
+# Mehrwertsteuer
 
 Bevor sie im System die erste Rechnung erstellen sollten sie die Abklärungen machen ob sie überhaupt MwSt. pflichtig sind oder nicht. Es gilt die Regel:
 
@@ -9,7 +9,7 @@ Steuerverrechnung und vereinbarten Entgelten. So ist auch die Buchhaltung einges
 
 DIe Abrechnung nach vereinbarten Entgelten (Art. 39 Abs. 1 MWSTG) ist das Standardverfahren der eidgenössischen Steuerverwaltung.
 
-### Abrechnung nach vereinbarten Entelten
+## Abrechnung nach vereinbarten Entelten
 
 DIe Abrechnung nach vereinbarten Entgelten (Art. 39 Abs. 1 MWSTG) ist das Standardverfahren der eidgenössischen Steuerverwaltung. Bei dieser Methode wird die MwSt fällig, sobald die Rechnung dem Kunden gestellt ist. Bezahlt dieser die Rechnung erst in einem späteren Quartal, finanzieren sie als Unternehmer die MwSt vor.
 
@@ -18,7 +18,7 @@ Beispiel: sie haben eine Physiotherapie Praxis und haben Arbeiten im Wert von CH
 (Rechnungsbetrag plus 8% MwSt). Der Kunde bezahlt die Rechnung erst später. Als Unternehmer müssen sie die MwSt von CHF 80 vorfinanzieren und nach Abschluss des laufenden Quartals, also Anfang Juli, der Steuerverwaltung abliefern.
 :::
 
-### Abrechnung nach vereinahmten Entgelten
+## Abrechnung nach vereinahmten Entgelten
 
 Die MwSt-Abrechnung nach vereinnahmten Entgelten (Art. 39 Abs. 2 MWSTG) muss
 schriftlich bei der eidg. Steuerverwaltung beantragt werden. So ist die MwSt erst fällig,
@@ -28,7 +28,7 @@ nachdem sie die Zahlung des Kunden erhalten haben.
 Beispiel: Wie im Beispiel oben stellen sie dem Kunden eine Rechnung über CHF 1’080 aus (Rechnungsbetrag plus 8% MwSt). Die MwSt im Wert von CHF 80 bezahlen sie der Steuerverwaltung erst in dem Quartal, in dem der Kunde die Rechnung bezahlt hat. Zahlt der Kunde die Rechnung erst im Juli, müssen sie die MwSt erst nach Ablauf dieses Quartals abliefern, d.h. Anfang Oktober.
 :::
 
-### Steuersätze
+## Steuersätze
 
 Im System sind die wichtigsten Steuersätze bereits erfasst. Sind sie in der Schweiz MwSt. pflichtig, arbeiten sie mit 7.7%, wenn nicht dann lassen sie die Steuer leer.
 

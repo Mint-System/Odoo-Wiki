@@ -1,8 +1,8 @@
-## Journale
+# Journale
 
 Für die Finanzbuchhaltung müssen vor der ersten Buchung Journale definiert werden. Navigieren Sie nach *Finanzen > Konfiguration > Abrechnung > Journale*. Passen sie die bestehenden Journale an.
 
-### Verkauf
+## Verkauf
 
 Name: **Ausgangsrechnungen**  
 Kurzzeichen: DFA  
@@ -14,7 +14,7 @@ Standard-Sollkonto: 3400 Dienstleistungserlöse
 Standard-Habenkonto: 3400 Dienstleistungserlöse  
 E-Mail Alias: ausgangsrechnungen@example.com  
 
-### Einkauf
+## Einkauf
 
 Name: **Eingangsrechnungen**  
 Kurzzeichen: KFA  
@@ -28,7 +28,7 @@ Rückerstattungs-Sequenz: Prefix "Nr. " und nächste Nummer 300
 Standard-Sollkonto: 4400 Handelswarenaufwand  
 Standard-Habenkonto: 4400 Handelswarenaufwand  
 
-### Finanzen
+## Finanzen
 
 Name: **Sonstige Operationen**  
 Kurzzeichen: DIV  
@@ -46,7 +46,7 @@ Sequenz: Prefix "BNK1/%(range_year)s/"
 Standard-Sollkonto: 1021 Bank  
 Standard-Habenkonto: 1021 Bank  
 
-### SPOS
+## SPOS
 
 Name: **Kasse/Bank**  
 Kurzzeichen: CSH1  
@@ -58,7 +58,7 @@ Sequenz: Prefix "CSH1/%(range_year)s/"
 Standard-Sollkonto: 1001 Kasse/Bank  
 Standard-Habenkonto: 1001 Kasse/Bank  
 
-### Mehrere Währungen
+## Mehrere Währungen
 
 Name: **Wechselkursdifferenzen (CHF)**  
 Kurzzeichen: EXCH  
@@ -69,7 +69,7 @@ Sequenz: Prefix "EXCH/%(range_year)s/"
 Standard-Sollkonto: 4906 Währungsdifferenzen  
 Standard-Habenkonto: 3806 Währungsdifferenzen  
 
-### Personalabrechnung
+## Personalabrechnung
 
 Name: **Lohn**  
 Kurzzeichen: LHN  
