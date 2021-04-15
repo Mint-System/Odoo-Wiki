@@ -118,8 +118,19 @@ if (!firstArg || ['all', 'index'].indexOf(firstArg) >= 0) {
     // loop all markdown files
     fs.readdirSync(__dirname).filter(file => (file.slice(-3) === '.md') && (ignoreFiles.indexOf(file) != 0)).forEach((file) => {
 
+        // Read file and split into lines
+        let lines = fs.readFileSync(file, 'utf8').split(/\r?\n/);
+
+        // Throw error if first line does not contain title
+        if (!lines[0].startsWith('# ')) {
+            throw new Error(`File '${file}' does not have title on first line.`); 
+        }
+
+        // Get tile
+        let title = lines[0].replace('# ','')
+
         // create file link list
-        files.push({ source: file.replace('\.md', ''), target: file, firstLetter: file[0].toUpperCase() })
+        files.push({ source: title, target: file, firstLetter: title[0].toUpperCase() })
     })
 }
  
@@ -128,7 +139,7 @@ if (!firstArg || ['all', 'convert'].indexOf(firstArg) >= 0) {
     fs.readdirSync(__dirname).filter(file => (file.slice(-3) === '.md') && (ignoreFiles.indexOf(file) != 0)).forEach((file) => {
 
         // get markdown content
-        var content = fs.readFileSync(file, 'utf8')
+        let content = fs.readFileSync(file, 'utf8')
 
         // set new file name
         newfile = sanitizeName(file)
