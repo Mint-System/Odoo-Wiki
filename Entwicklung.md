@@ -1,6 +1,8 @@
 # Entwicklung
 ![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)
 
+* [Aktionen](Aktionen.md)
+
 ## Domainfilter-Widget deaktivieren
 
 Damit man für Filter dynamische Funktionen verwenden kann, muss die Ansicht zur Darstellung der Filter angepasst werden.
