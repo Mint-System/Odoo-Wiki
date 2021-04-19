@@ -46,6 +46,8 @@ Zum Beispiel als Beschreibung auf einem Angebot.
 | Volumenen                   |                                                                                                                                                                              |
 | Durchlaufzeit der Fertigung |                                                                                                                                                                              |
 | Auslieferungszeit           | Die Zeitdauer von der Bestellung bis zum Eintreffen des Produkts beim Kunden. Diese Anzahl Tage definiert das "Expected Date" im Verkaufsauftrag (Heute + Auslieferungszeit) |
+| Mengeneinheit | Einheit, in welcher das Produkt verkauft wird und die für alle Lagervorgänge verwendet wird.
+| Einkauf ME  | Einheit, in welcher das Produkt eingekauft wird. Sie muss in der selben Kategorie sein wie die Standard-Mengeneinheit.
 
 In den Einstellungen kann eine Sicherheitsvorlaufzeit eingestellt werden.
 

@@ -51,6 +51,12 @@ Die Checkbox *I want to update data (import-compatible export)* markieren.
 Mit der Funktion *I want to update data* wird erreicht, dass die in der Datenbank vorhandenen Einträge überschrieben werden.
 :::
 
+## Sammelmuation
+
+In der Listenansicht können Datensätze ausgewählt und als Sammelmutation geändert werden. Das folgende Beispiel zeigt die Änderung des Feldes *Verantwortlich*.
+
+![Datenmanagement Sammelmutation](assets/Datenmanagement%20Sammelmutation.gif)
+
 ## Demodaten anzeigen
 
 Auf GitHub veröffentlicht die Mint System [Odoo-Demodaten](https://github.com/Mint-System/Odoo-Demodaten). Hier finden sie Importbereite Datensätze für die Odoo-Module.
