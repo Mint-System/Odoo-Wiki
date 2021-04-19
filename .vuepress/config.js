@@ -6,6 +6,7 @@ module.exports = {
         sidebar: 'auto',
         nav: [
             { text: 'Home', link: '/' },
+            { text: 'Topics', link: '/topics' },
             { text: 'Glossary', link: '/glossary' }
         ]
     },
