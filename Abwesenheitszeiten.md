@@ -19,7 +19,7 @@ Damit der Abwesenheitstyp in der Auswertung [Theoretische und tatsächliche Anwe
 
 Öffnen Sie den Abwesenheitstyp mit *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Bearbeiten sie den Typ und wählen sie die Checkbox *in theoretische Stunden einbeziehen* unter *Optionen*. Schliessen sie den Vorgang ab. Nun wird der Abwesenheitstyp in der theoretischen Stunden berücksichtigt.
 
-## Abweseneitstype Überstunden kompensieren anlegen
+## Abweseneitstyp Überstunden kompensieren anlegen
 
 Damit Mitarbeiter ihre Überstunden kompensieren können, braucht es einen entsprechenden Abwesenheitstyp.
 
