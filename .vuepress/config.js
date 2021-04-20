@@ -2,6 +2,9 @@
 module.exports = {
     title: 'Odoo Handbuch',
     description: 'Odoo Handbuch',
+    head: [
+        ['link', { rel: "icon", type: "image/png", href: "icon.png"}],
+    ]
     themeConfig: {
         sidebar: 'auto',
         nav: [
