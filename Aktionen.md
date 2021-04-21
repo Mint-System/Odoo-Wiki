@@ -18,3 +18,23 @@ if record.stage_id.sequence in [0,1,2]:
 ```
 
 ![Aktionen Stufe nicht erlaubt](assets/Aktionen%20Stufe%20nicht%20erlaubt.gif)
+
+## Neue Ansicht mit Aktion hinzufügen
+
+Fehlen bestimmte Ansichten, können diese ganz einfach mit einer Aktion und einem Menüeintrag erstellt werden. In diesem Bespiel wollen wir die die Komponenten aller Stücklisten in einer Tabelle darstellen.
+
+Navigieren sie nach *Einstellungen > Technisch > Aktionen > Fenster öffnen/schliessen ...* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `BoM Komponenenten`\
+Objekt: `mrp.bom.line`
+
+Navigieren sie nach *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und erstellen sie einen neuen Eintrag:
+
+Menü: `BoM Komponenenten`\
+Obermenü: `Fertigung/Produkte`\
+Aktion: `ir.actions.act_window` `BoM Komponenenten`
+Nummernfolge: `3`
+
+Nachdem der Browser aktualisiert haben sie Zugriff auf das neue Menü und Ansicht.
+
+![](assets/Aktionen%20neue%20Ansicht.png)
