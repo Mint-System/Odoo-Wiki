@@ -1,4 +1,4 @@
-# Odoo App: Product Barcode Generator
+# Product Barcode Generator
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 
 Technischer Name: `product_barcode`\

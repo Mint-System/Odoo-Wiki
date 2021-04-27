@@ -1,11 +1,15 @@
 # Anwesenheitszeiten
 ![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)
 
+* [Überzeitenmanagement](Anwesenheitszeiten-Überzeitenmanagement.md)
+* [Theoretical vs Attended Time Analysis](Anwesenheitszeiten-Theoretical-vs-Attended-Time-Analysis.md)
+
 ::: tip
 Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheit. Für das Erfassen der Projektzeit nutzt man die App Zeiterfassung.
 :::
 
 ![Anwesenheitszeiten An- und Abmelden](assets/Anwesenheitszeiten%20An-%20und%20Abmelden.png)
+
 
 ## Anwesenheit anmelden
 
@@ -57,15 +61,3 @@ Mitarbeiter können standardmässig ihre Anwesenheitszeiten nachbessern. Dazu na
 Um einen Eintrag zu bearbeiten, klick man entweder auf *Einchecken* oder *Abmeldung*.
 
 ![](assets/Anwesenheitszeiten%20bearbeiten.png)
-
-## Theoretische und tatsächliche Anwesenheitszeiten vergleichen
-
-::: warning
-Diese Aktion erfordert die Installation der Erweiterung *Theoretical vs Attended Time Analysis*.
-:::
-
-Navigieren sie nach *Anwesenheitszeiten > Berichtswesen > Theoretische vs. tatsächliche Anwesenheitszeiten > Angestellt wählen*. Fügen sie die Mitarbeiter deren Zeiten sie auswerten wollen der Liste *Angestellte* hinzu. Zeigen sie den Bericht mit *Bericht ansehen* an.
-
-Falls sie direkt den eigenen Vergleich sehen möchten wählen sie direkt *Alle Angestellte*. Standardmässig wird die Ansicht nach dem eigenen Benutzer gefiltert.
-
-![](assets/Odoo%20Anwesenheitszeiten%20Vergleich.png)

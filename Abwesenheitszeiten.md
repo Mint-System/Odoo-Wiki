@@ -1,20 +1,12 @@
 # Abwesenheitszeiten
 ![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)
 
-## Feiertage einrichten
-
-::: tip
-Die Aktion erfordert die Installation des Moduls *HR Holidays Public*.
-:::
-
-Feiertage können für alle Mitarbeiter zentral festgelegt werden. Navigieren sie nach *Abwesenheitszeiten > Feiertage > Feiertage*. Hier erstellen sie die einzelnen Feiertage für das aktuelle Kalenderjahr.
-
-In den [Demodaten](Datenmanagement.md#Demodaten%20anzeigen) der Mint System sind Feiertage zum Import bereitgestellt.
+* [HR Holidays Public](Abwesenheitszeiten-HR-Holidays-Public)
 
 ## Abwesenheitstyp in theoretischen Stunden einbeziehen
 
 ::: tip
-Damit der Abwesenheitstyp in der Auswertung [Theoretische und tatsächliche Anwesenheitszeiten vergleichen](Anwesenheitszeiten.md#Theoretische%20und%20tats%C3%A4chliche%20Anwesenheitszeiten%20vergleichen) berücksichtigt wird muss dies explizit festgelegt werden.
+Damit der Abwesenheitstyp in der Auswertung [Anwesenheitszeiten-Theoretical-vs-Attended-Time-Analysis](Anwesenheitszeiten-Theoretical-vs-Attended-Time-Analysis.md) berücksichtigt wird muss dies explizit festgelegt werden.
 :::
 
 Öffnen Sie den Abwesenheitstyp mit *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Bearbeiten sie den Typ und wählen sie die Checkbox *in theoretische Stunden einbeziehen* unter *Optionen*. Schliessen sie den Vorgang ab. Nun wird der Abwesenheitstyp in der theoretischen Stunden berücksichtigt.

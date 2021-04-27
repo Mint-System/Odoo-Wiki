@@ -1,4 +1,4 @@
-# OCA App: Standard Verkaufs-Lieferbedienungen pro Partner
+# Standard Verkaufs-Lieferbedienungen pro Partner
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Technischer Name: `sale_partner_incoterm`\

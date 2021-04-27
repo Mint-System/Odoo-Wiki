@@ -3,11 +3,10 @@
 
 Odoo-Apps konfigurieren und korrekt verwenden.
 
-
-* [Odoo App: Product Name Sequence](Odoo-App-Product-Name-Sequence.md)
-* [Odoo App: Product Barcode Generator](Odoo-App-Product-Barcode-Generator.md)
-* [Odoo App: Fertigung Fertigungsauftrag Abbrechen](Odoo-App-Fertigung-Fertigungsauftrag-Abbrechen.md)
-* [Odoo App: Verkäufe Rahmenbestellungen](Odoo-App-Verk%C3%A4ufe-Rahmenbestellungen.md)
+* [Product Name Sequence](Fertigung-Product-Name-Sequence.md)
+* [Product Barcode Generator](Fertigung-Product-Barcode-Generator.md)
+* [Fertigung Fertigungsauftrag Abbrechen](Fertigung-Fertigungsauftrag-Abbrechen.md)
+* [Verkäufe Rahmenbestellungen](Verk%C3%A4ufe-Rahmenbestellungen.md)
 
 ## Liste der Apps aktualisieren
 

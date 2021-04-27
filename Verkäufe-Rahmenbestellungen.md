@@ -1,4 +1,4 @@
-# Odoo App: Verkäufe Rahmenbestellungen
+# Verkäufe Rahmenbestellungen
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 
 Technischer Name: `dev_blanket_sale_order`\

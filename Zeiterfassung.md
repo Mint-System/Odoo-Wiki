@@ -2,7 +2,7 @@
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
 
 * [Terminal Zeiterfassung](Terminal-Zeiterfassung.md)
-* [Awesome Timesheet](Awesome-Timesheet.md)
+* [Awesome Timesheet](Zeiterfassung-Awesome-Timesheet.md)
 
 ## Eintrag manuell erstellen
 

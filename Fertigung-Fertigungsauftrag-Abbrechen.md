@@ -1,4 +1,4 @@
-# Odoo App: Fertigung Fertigungsauftrag Abbrechen
+# Fertigung Fertigungsauftrag Abbrechen
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 
 Technischer Name: `eq_cancel_mrp_orders`\
