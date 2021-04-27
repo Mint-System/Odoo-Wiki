@@ -1,6 +1,8 @@
 # E-Mail-Marketing
 ![icons_odoo_mass_mailing](assets/icons_odoo_mass_mailing.png)
 
+E-Mail-Marketing leicht gemacht.
+
 ## Wöchentliche Statistik abmelden
 
 Odoo versendet jede Woche Übersicht zum Unternehmen. Wenn sie diesen Newsletter deaktiveren möchten gehen sie wie folgt vor: Navigieren im Entwicklermodus nach *Einstellunen > Technisch > E-Mail > Übersicht E-Mails*.

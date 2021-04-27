@@ -1,6 +1,6 @@
 # Certificate Planner
 
-Dokumentation zur Odoo-App Certificate Planner.
+Anleitung zur Odoo-App Certificate Planner.
 
 ## Certificate Planner aufrufen
 

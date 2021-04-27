@@ -2,7 +2,7 @@
 
 ![icons_odoo_website_forum](assets/icons_odoo_website_forum.png)
 
-Dokumentation von Problemen und Lösungen.
+Probleme und Lösungen rund um Odoo.
 
 ## Fehlermeldung - Something went wrong
 

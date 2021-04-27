@@ -1,6 +1,8 @@
 # Einkauf
 ![icons_odoo_purchase](assets/icons_odoo_purchase.png)
 
+Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
+
 ## Angebotsanfrage erstellen
 
 Über *Anlegen* wird eine Angebotsanfrage eröffnet. Die Felder der Eingabemaske sind gemäss folgender Tabelle zu editieren:

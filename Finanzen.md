@@ -1,6 +1,8 @@
 # Finanzen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
+Ihre Buchhaltung einfach und korrekt.
+
 ## Kontenplan einrichten
 
 Öffnen sie die Finanz-App und richten Sie den Standard-Kontenplan ein. Navigieren sie nach *Finanzen > Konfiguration > Finanzen > Kontenplan*.

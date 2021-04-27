@@ -1,6 +1,10 @@
 # Datenbankmanager
 ![icons_odoo_website_version](assets/icons_odoo_website_version.png)
 
+Odoo-Instanzen mit dem Datenbankmanager verwalten.
+
+## Allgemein
+
 Zur Verwaltung der Odoo-Instanzen gibt es den Datenbankmanager. Dieses Tool erlaubt ein Backup von der Instanz zu erstellen und nach Bedarf wiederherzustellen.
 
 ## Datenbank erstellen

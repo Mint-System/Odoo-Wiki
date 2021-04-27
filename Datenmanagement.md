@@ -1,6 +1,8 @@
 # Datenmanagement
 ![icons_odoo_website_sale_options](assets/icons_odoo_website_sale_options.png)
 
+Importieren und Exportieren sie alle Odoo Daten.
+
 ## Daten exportieren
 
 In den verschiedenen Apps besteht immer die Möglichkeit Daten zu exportieren. Folgende Abbildung zeigt das Beispiel in der Maske Fertigung > Stammdaten > Produkte.

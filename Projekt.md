@@ -1,6 +1,8 @@
 # Projekt
 ![icons_odoo_project](assets/icons_odoo_project.png)
 
+Agiles Projektmanagement. Schön. Einfach. Open Source.
+
 ## Projekt anlegen
 
 Aufgabenträger: [Projektleiter](Rollen#Projektleiter)

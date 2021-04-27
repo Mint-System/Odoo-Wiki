@@ -1,6 +1,8 @@
 # Personalabrechnung
 ![icons_odoo_hr_payroll](assets/icons_odoo_hr_payroll.png)
 
+Personalbrechnungen schnell und einfach erstellen.
+
 ## Pesonalabrechnung initialisieren
 
 Damit sie die Personalabrechnung für ihre Mitarbeiter erstellen können, müssen einige vorbereitungen getroffen werden.

@@ -1,6 +1,8 @@
 # Abwesenheitszeiten
 ![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)
 
+Verwaltung von Mitarbeiterurlauben & Abwesenheit
+
 * [HR Holidays Public](Abwesenheitszeiten-HR-Holidays-Public)
 
 ## Abwesenheitstyp in theoretischen Stunden einbeziehen

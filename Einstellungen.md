@@ -1,6 +1,8 @@
 # Einstellungen
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
+Odoo-Einstellungen aktivieren und konfigurieren.
+
 * [Einstellungen-Übersetzung](Einstellungen-%C3%9Cbersetzung.md)
 * [Einstellungen-Login](Einstellungen-Login.md)
 

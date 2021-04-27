@@ -1,6 +1,8 @@
 # Verkäufe
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
+Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung. 
+
 * [Verkäufe Rahmenbestellungen](Verk%C3%A4ufe-Rahmenbestellungen.md)
 * [Standard Verkaufs-Lieferbedienungen pro Partner](Verk%C3%A4ufe-Standard-Verkaufs-Lieferbedienungen-pro-Partner.md)
 

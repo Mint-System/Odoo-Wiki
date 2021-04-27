@@ -1,6 +1,8 @@
 # Lager
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
+Maximieren sie die Effizienz Ihres Lagers.
+
 ## Lager konfigurieren
 
 In den Grundeinstellungen ist ein Lager mit dem Namen der Firma, dem Kürzel *WH* und der Adresse der Firma angelegt.

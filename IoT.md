@@ -1,6 +1,8 @@
 # IoT
 ![icons_odoo_iot](assets/icons_odoo_iot.png)
 
+Alles, was das "Internet der Dinge (IoT)" bietet.
+
 ## Raspberry Pi installieren
 
 [Image für Raspberry Pi](https://nightly.odoo.com/master/iotbox).

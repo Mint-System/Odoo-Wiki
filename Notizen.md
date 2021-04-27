@@ -1,6 +1,8 @@
 # Notizen
 ![icons_odoo_note](assets/icons_odoo_note.png)
 
+Notizen zentral verwwalten.
+
 ## Notizen teilen
 
 Um eine Notiz mit einem internen Odoo-Benutzer zu teilen, kann man dieses als Abonnent der Notiz hinzufügen.

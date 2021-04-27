@@ -1,6 +1,8 @@
 # Website
 ![icons_odoo_website](assets/icons_odoo_website.png)
 
+Website Builder für Unternehmen. Einfach. Mobil. Open Source.
+
 ## Produkt veröffentlichen
 
 Nach dem erstellen eines Produkts wird dieses standardmässig nicht auf der Webiste veröffentlicht und muss explizit publiziert werden.

@@ -1,6 +1,8 @@
 # PLM
 ![icons_odoo_mrp_plm](assets/icons_odoo_mrp_plm.png)
 
+Management des Produktlebenszyklus für moderne Firmen.
+
 **Begriffe**
 
 ECO: Engineering Change Order

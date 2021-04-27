@@ -1,7 +1,9 @@
 # Studio
 ![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)
 
-[[Studio-Beispiele|Studio Beispiele]]
+Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.
+
+* [[Studio-Beispiele|Studio Beispiele]]
 
 ## Anpassungen dokumentieren
 Aufgabenträger: [Administrator](Rollen.md#Administrator)

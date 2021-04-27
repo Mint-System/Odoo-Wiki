@@ -1,8 +1,9 @@
 # Kontakte
 ![icons_odoo_contacts](assets/icons_odoo_contacts.png)
 
-[Best-Practice-Kontakte](Best-Practice-Kontakte.md)
+Alle Kontaktdaten an einem Ort.
 
+* [Best-Practice-Kontakte](Best-Practice-Kontakte.md)
 
 ## Portal-Zugriff gewähren
 

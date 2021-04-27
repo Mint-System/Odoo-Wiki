@@ -1,6 +1,8 @@
 # Installation
 ![icons_odoo_website_version](assets/icons_odoo_website_version.png)
 
+Odoo installieren und konfigurieren.
+
 ## Mail-Account bereitstellen
 
 Odoo benötigt zum Empfang und Versand von E-Mails einen exklusiven Mail-Account. Im  Normalfall lautet die Mail Adresse `odoo@example.com`, wobei `example.com` mit der Domain des Kunden zu ersetzen ist.

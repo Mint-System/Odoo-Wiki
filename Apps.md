@@ -1,7 +1,7 @@
 # Apps
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 
-Odoo-Apps konfigurieren und korrekt verwenden.
+Neue Apps installieren und aktualisieren.
 
 * [Product Name Sequence](Fertigung-Product-Name-Sequence.md)
 * [Product Barcode Generator](Fertigung-Product-Barcode-Generator.md)

@@ -1,6 +1,8 @@
 # Strichcode
 ![icons_odoo_stock_barcode](assets/icons_odoo_stock_barcode.png)
 
+Verfolgen sie Aufträge, Produkte und Lieferungen mit Barcodes.
+
 ## Produktstrichcode generieren
 
 ::: tip

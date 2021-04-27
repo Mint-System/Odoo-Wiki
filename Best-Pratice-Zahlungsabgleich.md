@@ -50,7 +50,7 @@ Der Status wechselt zu *In Zahlung* und unten beim Betrag steht das Valutadatum.
     
 ### Automatisierter Zahlungsausgleich
 
-Link zu ## SEPA-Zahlung erstellen
+Link zu SEPA-Zahlung erstellen
 
 #FIXME 
 

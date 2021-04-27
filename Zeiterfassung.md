@@ -1,6 +1,8 @@
 # Zeiterfassung
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
 
+Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
+
 * [Terminal Zeiterfassung](Terminal-Zeiterfassung.md)
 * [Awesome Timesheet](Zeiterfassung-Awesome-Timesheet.md)
 

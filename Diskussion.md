@@ -1,6 +1,8 @@
 # Diskussion
 ![icons_odoo_mail](assets/icons_odoo_mail.png)
 
+In alle Module integrierter privater Chat und Gruppen-Chat.
+
 ## Ausgehender Mail-Server konfigurieren
 
 Damit Odoo Mail verschicken kann, muss ein ausgehender Mail-Server konfiguriert werden.
