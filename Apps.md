@@ -14,6 +14,14 @@ Um die Liste der verfügbaren Apps zu aktualisieren, wechseln sie in den [Entwic
 
 ![](assets/Apps%20Liste%20aktualisieren.png)
 
+### Themes in Liste anzeigen
+
+Website Themes sind auch Odoo-Apps, werden aber standardmässig nicht angezeigt. Verwantwortlich für die Filterung ist die Aktion, welche beim Anlicken von *Apps* aufgerufen wird.
+
+Damit auch Apps in der Theme-Liste angezeigt werden, klicken sie erstmals auf *Apps*. Wählen sie dann *Entwickler-Tools > Aktion bearbeiten*. Im Dialog entfernen sie den Eintrag unter *Filter > Wertebereich* und speichern. Nun werden beim Aufruf von *Apps* auch Themes angezeigt.
+
+![Apps Themes anzeigen](assets/Apps%20Themes%20anzeigen.gif)
+
 ## FAQ
 
 **Was ist der unterschied zwischen Aktualisieren und Installieren?**
