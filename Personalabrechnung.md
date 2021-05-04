@@ -31,6 +31,10 @@ Möchten sie eine neue Vorlage erstellen, öffnen sie *Personalabrechnung > Konf
 
 Geben sie einen Namen mit Jahresdatum ein und legen sie die Fix- und Prozentwerte fest.
 
+::: warning
+Legen sie unbedingt die Monatslohngrenze fest. Nur dann werden ALV und NBU korrekt berechnet.
+:::
+
 ![](assets/Pesonalabrechnung%20Anteile%20Arbeitnehmer%20Arbeitgebener.png)
 
 ## Lohnarten definieren
@@ -97,6 +101,16 @@ Als erstes müssen sie für eine bestehende Lohnstruktur eine Eingabe definieren
 
 Damit der Betrag in der Lohnabrechnung berücksichtigt wird, muss dieser als Lohnart definiert werden. Erstellen sie eine neue Lohnart in der bestehenden Lohnstruktur. Dazu ein Beispiel wie man diese für den Quellensteuerabzug definiert:
 
+Name: `Quellensteuer Nachbelastung`\
+Kategorie: `Abzüge`\
+Code: `2280`\
+Reihenfolge: `190`\
+Vergütungsstruktur: `Lohnabrechnung`\
+Bedinung basiert auf: `Python Ausdruck`
+Python Bedinung: `result = inputs.QUELLEN.amount > 0.0 if inputs.QUELLEN else False`\
+Berechnungsart: `Python Code`\
+Python Code: `result = inputs.QUELLEN.amount if inputs.QUELLEN else 0`
+
 ![](assets/Personalabrechnung%20Lohnart%20von%20Inputs.png)
 
 Beim Berechnen werden variable Eingaben in der Lohnabrechnung miteinbezogen.
@@ -110,8 +124,8 @@ Navigieren sie nach *Personalabrechnung > Konfiguration > Other Input Types*. Er
 Navigieren sie nach *Personalabrechnung > Konfiguration > Regeln* und wählen sie *Anlegen*. Erstellen sie eine Lohnart mit folgenden Definitionen:
 
 Name: `Lohnabzug Kurzarbeit`\
-Kategorie: ` `\
-Code: `2500`\
+Kategorie: `Freie Zuwendung`\
+Code: `KURZ`\
 Reihenfolge: `15`\
 Vergütungsstruktur: `Lohnabrechnung`\
 Bedinung basiert auf: `Python Ausdruck`
@@ -155,6 +169,8 @@ Machen sie Lohnabzüge nach Berechnung des Nettolohn, muss die Lohnabrechnung et
 
 Navigieren sie nach *Personalabrechnung > Konfiguration > Other Input Types*. Erstellen sie dort einen Eintrag mit *Beschreibung* `Lohnakonto` und *Code* `LNKT`.
 
+Damit die Eingabe in der Lohnabrechnung berücksichtigt wird, muss eine neue Lohnart definiert werden. Navigieren sie nach *Personalabrechnung > Konfiguration > Regeln* und wählen sie *Anlegen*. Erstellen sie eine Lohnart mit folgenden Definitionen:
+
 Name: `Lohnakonto`\
 Kategorie: `Nachberechnung`\
 Code: `5800`\
@@ -162,19 +178,19 @@ Reihenfolge: `205`\
 Vergütungsstruktur: `Lohnabrechnung`\
 Berechnungsart: `Python Code`\
 Bedinung basiert auf: `Python Ausdruck`
-Python Bedinung: `result = inputs.LNKT.amount > 0.0 if inputs.LNKT else False`\
+Python Bedinung: `result = inputs.LNKT.amount != 0.0 if inputs.LNKT else False`\
 Berechnungsart: `Python Code`\
 Python Code: `result = inputs.LNKT.amount if inputs.LNKT else 0`
 
 Damit der Auszahlungsbetrag überschrieben werden kann, müssen sie eine neue Lohnart anlegen:
 
 Name: `Auszahlung`\
-Kategorie: `Auszahlung`\
+Kategorie: `Auszahlung` (Anlegen mit Code `ASZ`)\
 Code: `NET`\
 Reihenfolge: `999`\
 Vergütungsstruktur: `Lohnabrechnung`\
 Berechnungsart: `Python Code`\
-Python Code: `result=categories.NET + categories.NBR`
+Python Code: `result = categories.NET + categories.NBR`
 
 Und bei der Lohnart *Nettolohn* den Code auf `SUM` setzen (Code muss immer eindeutig sein).
 
