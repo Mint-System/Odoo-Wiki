@@ -13,6 +13,14 @@ Navigieren sie nach *Personal* und wählen *+ Anlegen*. Geben sie den Vor- und N
 
 Schliessen Sie den Vorgang mit *Speichern* ab.
 
+Alternativ können sie nach *Einstellungen > Benutzer > Benutzer verwalten* und hier den Odoo-Benutzer auswählen. Über den Knopf *Mitarbeiter anlegen*, können sie den Mitarbeiter erfassen. Dieser wird über den Smart-Link verknüpft.
+
+![](assets/Peresonal%20Smart-Link%20Mitarbeiter.png)
+
+## Vorgesetze hinterlegen
+
+Damit Prozesse korrekt Ablaufen, muss die Organisations-Charte konfiguriert werden. Öffnen sie den Mitarbeitenden via *Personal* und wählen im Feld *Manager* den Vorgesetzten aus. Die Visualisierung der Organisationsstruktur wird aktualisiert, sobal die Anpassung gespeichert ist.
+
 ## Private Adresse hinterlegen
 
 Bestimmte Unterlagen wie die Lohnabrechnung werden an die private Adresse des Mitarbeiters versandt. Dafür gibt es ein entsprechendes Feld in der Mitarbeiter-Ansicht.

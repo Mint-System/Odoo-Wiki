@@ -12,3 +12,4 @@
 - Lieferantenbeurteilung
 - Administration
 - [Betriebsdaten](Prozess-Betriebsdaten.md)
+- [Abwesenheit](Prozess-Abwesenheit.md)

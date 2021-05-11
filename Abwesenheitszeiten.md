@@ -5,6 +5,58 @@ Verwaltung von Mitarbeiterurlauben & Abwesenheit
 
 * [HR Holidays Public](Abwesenheitszeiten-HR-Holidays-Public)
 
+## Abwesenheitsanspruch melden
+
+Damit sie Anspruch auf Abwesenheit haben, müssen sie diesen Anspruch geltend machen. Öffnen sie die App *Abwesenheitszeiten* und wählen sie *Neuer Abwesenheitsanspruch*. Wählen sie den Typ, die Anzahl Tage und fügen sie eine Beschreibung hinzu.
+
+![](assets/Abwesenheitszeiten%20Anspruch%20melden.png)
+
+Schliessen sie den Dialog nach *Speichern*.
+
+## Abwesenheitsanspruch validieren
+
+Wenn sie eine Mail zur Validierung eines Abwesenheitsanspruches erhalten, können direkt auf den Link klicken.
+
+![](assets/Abwesenheitszeiten%20Anspruch%20Mail.png)
+
+Abwesenheitsansprüche zur Validierung werden auch über Odoo-Aktivitäten angezeigt.
+
+![](assets/Abwesenheitszeiten%20Aktivit%C3%A4t.png)
+
+Klicken sie auf *Genehmigen* oder *Ablehnen* um den Abwesenheitsanspruch zu validieren.
+
+Mitarbeitende erhalten nach der Validierung eine entsprechende Mail.
+
+![](assets/Abwesenheitszeiten%20Mail%20Validierung.png)
+
+## Abwesenheit melden
+
+Öffnen sie die App *Abwesenheitszeiten* und wählen sie *Neuer Abwesneheitseintrag*. Geben sie den Typ und die Dauer ein.
+
+![](assets/Abwesenheitszeiten%20Abwesenheit%20melden.png)
+
+Bestätigen sie den Vorgang mit *Speichern*.
+
+Wurde die Abwesenheit genehmigt, sehen die verleibenden Tage des Abwesenheitsyp in der Übersicht *Abwesenheitszeiten*.
+
+![](assets/Abwesenheitszeiten%20Verleibend.png)
+
+## Abwesenheit validieren
+
+Nach demselben Verfahren wie [Abwesenheitsanspruch validieren](#Abwesenheitsanspruch%20validieren) können sie Abwesenheiten validieren. Sie erhalten entweder eine Mail oder sehen die zugewiesen Odoo-Aktivität.
+
+![](assets/Anwesenheitszeiten%20Mail%20Abwesenheit.png)
+
+Klicken sie auf den Link und validieren sie die Abwesenheit.
+
+## Abwesenheitstyp konfigurieren
+
+Navigieren sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Wählen sie hier den Abwesenheitstyp aus und bearbeiten sie diesen gemäss den Anforderungen.
+
+## Verantwortliche festlegen
+
+Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen sie den Tab *Arbeitsinformationen* und wählen sie *Bearbeiten*. Tragen sie den Vorgesetzen im Feld *Abwesenheitszeiten* ein.
+
 ## Abwesenheitstyp in theoretischen Stunden einbeziehen
 
 ::: tip

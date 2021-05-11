@@ -30,3 +30,4 @@ Implementation Geschäftsprozesse in Odoo.
 - [Mengeneinheiten](Best-Practice-Mengeneinheiten.md)
 - [Incoterms](Best-Practice-Incoterms.md)
 - [Lagerorte einrichten](Best-Practice-Lager-Lagerorte-einrichten.md)
+- [Abwesenheit](Best-Practice-Abwesenheit.md)
