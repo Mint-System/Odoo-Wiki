@@ -4,6 +4,7 @@
 Verwaltung von Mitarbeiterurlauben & Abwesenheit
 
 * [HR Holidays Public](Abwesenheitszeiten-HR-Holidays-Public)
+* [Theoretical vs Attended Time Analysis](Anwesenheitszeiten-Theoretical-vs-Attended-Time-Analysis.md)
 
 ## Abwesenheitsanspruch melden
 
@@ -56,14 +57,6 @@ Navigieren sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. W�
 ## Verantwortliche festlegen
 
 Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen sie den Tab *Arbeitsinformationen* und wählen sie *Bearbeiten*. Tragen sie den Vorgesetzen im Feld *Abwesenheitszeiten* ein.
-
-## Abwesenheitstyp in theoretischen Stunden einbeziehen
-
-::: tip
-Damit der Abwesenheitstyp in der Auswertung [Anwesenheitszeiten-Theoretical-vs-Attended-Time-Analysis](Anwesenheitszeiten-Theoretical-vs-Attended-Time-Analysis.md) berücksichtigt wird muss dies explizit festgelegt werden.
-:::
-
-Öffnen Sie den Abwesenheitstyp mit *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Bearbeiten sie den Typ und wählen sie die Checkbox *in theoretische Stunden einbeziehen* unter *Optionen*. Schliessen sie den Vorgang ab. Nun wird der Abwesenheitstyp in der theoretischen Stunden berücksichtigt.
 
 ## Abweseneitstyp Überstunden kompensieren anlegen
 
