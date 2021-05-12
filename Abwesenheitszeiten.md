@@ -16,7 +16,7 @@ Schliessen sie den Dialog nach *Speichern*.
 
 ## Abwesenheitsanspruch validieren
 
-Wenn sie eine Mail zur Validierung eines Abwesenheitsanspruches erhalten, können direkt auf den Link klicken.
+Wenn sie eine Mail zur Validierung eines Abwesenheitsanspruches erhalten, können sie direkt auf den Link klicken.
 
 ![](assets/Abwesenheitszeiten%20Anspruch%20Mail.png)
 
@@ -32,19 +32,19 @@ Mitarbeitende erhalten nach der Validierung eine entsprechende Mail.
 
 ## Abwesenheit melden
 
-Öffnen sie die App *Abwesenheitszeiten* und wählen sie *Neuer Abwesneheitseintrag*. Geben sie den Typ und die Dauer ein.
+Öffnen sie die App *Abwesenheitszeiten* und wählen sie *Neuer Abwesenheitsantrag*. Geben sie den Typ und die Dauer ein.
 
 ![](assets/Abwesenheitszeiten%20Abwesenheit%20melden.png)
 
 Bestätigen sie den Vorgang mit *Speichern*.
 
-Wurde die Abwesenheit genehmigt, sehen die verleibenden Tage des Abwesenheitsyp in der Übersicht *Abwesenheitszeiten*.
+Wurde die Abwesenheit genehmigt, sehen sie die verleibenden Tage des Abwesenheitstyps in der Übersicht *Abwesenheitszeiten*.
 
 ![](assets/Abwesenheitszeiten%20Verleibend.png)
 
 ## Abwesenheit validieren
 
-Nach demselben Verfahren wie [Abwesenheitsanspruch validieren](#Abwesenheitsanspruch%20validieren) können sie Abwesenheiten validieren. Sie erhalten entweder eine Mail oder sehen die zugewiesen Odoo-Aktivität.
+Nach demselben Verfahren wie [Abwesenheitsanspruch validieren](#Abwesenheitsanspruch%20validieren) können sie Abwesenheiten validieren. Sie erhalten entweder eine Mail oder sehen die zugewiesene Odoo-Aktivität.
 
 ![](assets/Anwesenheitszeiten%20Mail%20Abwesenheit.png)
 
@@ -58,7 +58,7 @@ Navigieren sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. W�
 
 Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen sie den Tab *Arbeitsinformationen* und wählen sie *Bearbeiten*. Tragen sie den Vorgesetzen im Feld *Abwesenheitszeiten* ein.
 
-## Abweseneitstyp Überstunden kompensieren anlegen
+## Abwesenheitstyp Überstunden kompensieren anlegen
 
 Damit Mitarbeiter ihre Überstunden kompensieren können, braucht es einen entsprechenden Abwesenheitstyp.
 

@@ -5,21 +5,21 @@ Personalmanagement für moderne Unternehmen.
 
 ## Allgemein
 
-Odoo unterscheidet zwischen Benutzer und Mitarbeiter. Mitarbeiter müssen nicht zwingend einen Odoo-Account besitzen. Zur Verwendung von Apps wie die Zeiterfassung muss den Benutzer ein Mitarbeiter hinterlegt werden.
+Odoo unterscheidet zwischen Benutzer und Mitarbeiter. Mitarbeiter müssen nicht zwingend einen Odoo-Account besitzen. Zur Verwendung von Apps wie die Zeiterfassung muss den Benutzern ein Mitarbeiter hinterlegt werden.
 
 ## Mitarbeiter erfassen
 
-Navigieren sie nach *Personal* und wählen *+ Anlegen*. Geben sie den Vor- und Nachnamen des Mitarbeiter ein und öffnen den Tab *HR Einstelungen*. Wählen sie unter *Verknüpfter Benutzer* einen bestehenden Benutzer aus, falls der Mitarbeiter Zugriff auf Odoo haben soll.
+Navigieren sie nach *Personal* und wählen sie *+ Anlegen*. Geben sie den Vor- und Nachnamen des Mitarbeiters ein und öffnen sie den Tab *HR Einstelungen*. Wählen sie unter *Verknüpfter Benutzer* einen bestehenden Benutzer aus, falls der Mitarbeiter Zugriff auf Odoo haben soll.
 
 Schliessen Sie den Vorgang mit *Speichern* ab.
 
-Alternativ können sie nach *Einstellungen > Benutzer > Benutzer verwalten* und hier den Odoo-Benutzer auswählen. Über den Knopf *Mitarbeiter anlegen*, können sie den Mitarbeiter erfassen. Dieser wird über den Smart-Link verknüpft.
+Alternativ können sie nach *Einstellungen > Benutzer > Benutzer verwalten* navigieren und hier den Odoo-Benutzer auswählen. Über den Knopf *Mitarbeiter anlegen* können sie den Mitarbeiter erfassen. Dieser wird über den Smart-Link verknüpft.
 
 ![](assets/Peresonal%20Smart-Link%20Mitarbeiter.png)
 
-## Vorgesetze hinterlegen
+## Vorgesetzte hinterlegen
 
-Damit Prozesse korrekt Ablaufen, muss die Organisations-Charte konfiguriert werden. Öffnen sie den Mitarbeitenden via *Personal* und wählen im Feld *Manager* den Vorgesetzten aus. Die Visualisierung der Organisationsstruktur wird aktualisiert, sobal die Anpassung gespeichert ist.
+Damit Prozesse korrekt Ablaufen, muss die *Organisations-Charta* konfiguriert werden. Öffnen sie den Mitarbeitenden via *Personal* und wählen im Feld *Manager* den Vorgesetzten aus. Die Visualisierung der Organisationsstruktur wird aktualisiert, sobald die Anpassung gespeichert ist.
 
 ## Private Adresse hinterlegen
 
@@ -41,10 +41,10 @@ Heute ist es die Norm, dass Mitarbeiter unterhalb des Jahres ein Arbeitspensum r
 
 Um das Pensum eines Mitarbeits zu wechseln, muss ein Endatum für die bestehenden Arbeitszeiten eingetragen werden und die neuen Arbeitszeiten werden im Arbeitspensum erfasst.
 
-Erstellen sie eine neues Pensum *Personal > Mitarbeiter auswählen > Tab Arbeitsinformation > Ausführungsplan > Anlegen und Bearbeiten*. Einen passenden Titel festlegen und bei den bestehenden Arbeitszeiten das Endatum festlegen.
+Erstellen sie eine neues Pensum *Personal > Mitarbeiter auswählen > Tab Arbeitsinformation > Ausführungsplan > Anlegen und Bearbeiten*. Definieren sie einen passenden Titel und legen sie bei den bestehenden Arbeitszeiten das Enddatum fest.
 
 ![](assets/Personal%20Arbeitszeiten%20mit%20Enddatum.png)
 
 ## Arbeitsvertrag hinzufügen
 
-Die Entlohnung und Arbeitszeiten sind im Arbeitsvertrag festgehalten. Fügen sie den Mitarbeiter über *Personal > Mitarbeiter auswählen > Link Verträge* mit *Anlegen* einen Vertrag hinzu. Damit der Vertrag aktiv ist, müssen sie in den Status *Laufend* verschieben.
+Die Entlohnung und Arbeitszeiten sind im Arbeitsvertrag festgehalten. Fügen sie den Mitarbeiter über *Personal > Mitarbeiter auswählen > Link Verträge* mit *Anlegen* einen Vertrag hinzu. Damit der Vertrag aktiv ist, müssen sie ihn in den Status *Laufend* verschieben.
