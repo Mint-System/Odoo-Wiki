@@ -30,6 +30,10 @@ Mitarbeitende erhalten nach der Validierung eine entsprechende Mail.
 
 ![](assets/Abwesenheitszeiten%20Mail%20Validierung.png)
 
+::: tip
+Odoo versendet keine Nachrichten, wenn die Genehmigung alls Massenbearbeitung erfolgt.
+:::
+
 ## Abwesenheit melden
 
 Öffnen sie die App *Abwesenheitszeiten* und wählen sie *Neuer Abwesenheitsantrag*. Geben sie den Typ und die Dauer ein.
@@ -56,7 +60,7 @@ Navigieren sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. W�
 
 ## Verantwortliche festlegen
 
-Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen sie den Tab *Arbeitsinformationen* und wählen sie *Bearbeiten*. Tragen sie den Vorgesetzen im Feld *Abwesenheitszeiten* ein.
+Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen sie den Tab *Arbeitsinformationen* und wählen sie *Bearbeiten*. Tragen sie den Vorgesetzen im Feld *Abwesenheitszeiten* ein. Standardmässig wird der *Manager* übernommen.
 
 ## Abwesenheitstyp Überstunden kompensieren anlegen
 
