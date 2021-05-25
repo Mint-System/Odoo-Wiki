@@ -5,7 +5,7 @@ Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 
 ## Zugriff Menu beschränken
 
-Der Zugriff auf die verfügbaren Seite in der Menu-Struktur kann ganz einfach angepasst werden. Navigieren sie nach *Website > Konfiguration > *
+Der Zugriff auf die verfügbaren Seite in der Menu-Struktur kann ganz einfach angepasst werden. Navigieren sie nach *Website > Konfiguration > Menüs*. In der Spalte *Visible Groups* können die Benutzer-Gruppen hinterlegt werden für welche das Menu angezeigt werden soll.
 
 ## Produkt veröffentlichen
 
