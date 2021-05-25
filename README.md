@@ -68,6 +68,12 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 
 ![icons_odoo_settings](assets/icons_odoo_settings.png)  
 
+### [eLearning](eLearning.md)
+
+Teilen Sie ihr Wissen mit der eLearning-Plattform.
+
+![icons_odoo_website_slides](assets/icons_odoo_website_slides.png)
+
 ### [E-Mail-Marketing](E-Mail-Marketing.md)
 
 E-Mail-Marketing leicht gemacht.

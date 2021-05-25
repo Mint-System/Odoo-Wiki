@@ -3,6 +3,10 @@
 
 Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 
+## Zugriff Menu beschränken
+
+Der Zugriff auf die verfügbaren Seite in der Menu-Struktur kann ganz einfach angepasst werden. Navigieren sie nach *Website > Konfiguration > *
+
 ## Produkt veröffentlichen
 
 Nach dem erstellen eines Produkts wird dieses standardmässig nicht auf der Webiste veröffentlicht und muss explizit publiziert werden.
