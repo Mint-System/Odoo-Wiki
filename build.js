@@ -121,13 +121,20 @@ if (!firstArg || ['all', 'index'].indexOf(firstArg) >= 0) {
         // Read file and split into lines
         let lines = fs.readFileSync(file, 'utf8').split(/\r?\n/);
 
-        // Throw error if first line does not contain title
-        if (!lines[0].startsWith('# ')) {
-            throw new Error(`File '${file}' does not have title on first line.`); 
+        // Find title
+        let title = null
+        for (let line of lines) {
+            if (line.startsWith('# ')) {
+                // Get title
+                title = line.replace('# ','')
+            }
         }
 
-        // Get tile
-        let title = lines[0].replace('# ','')
+
+        // Throw error if title not found
+        if (!title) {
+            throw new Error(`Could not find title for  '${file}'.`)
+        }
 
         // create file link list
         files.push({ source: title, target: file, firstLetter: title[0].toUpperCase() })
