@@ -1,4 +1,8 @@
-# Zahlungsabgleich
+---
+tags:
+- Best-Practice
+---
+# Best Practice: Zahlungsabgleich
 
 ## Begriffe
 

@@ -1,4 +1,8 @@
-# Änderung der Route während dem Einkaufsprozess
+---
+tags:
+- Best-Practice
+---
+# Best Practice: Änderung der Route während dem Einkaufsprozess
 
 ## Beispiel
 

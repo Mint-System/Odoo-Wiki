@@ -1,3 +1,7 @@
+---
+tags:
+- Prozess
+---
 # Prozess Verkauf
 
 ![Grafik Prozess Kundenanfrage](assets/Prozess%20Kundenanfrage.svg)

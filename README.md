@@ -1,8 +1,18 @@
 # Odoo Handbuch
 
-Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten HowTos, Referenzsystem und Best Practice.
+Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten:
 
-![Odoo Handbuch Struktur](assets/Odoo%20Handbuch%20Struktur.svg)
+1. **Referenzsystem**: Eine umfassende Dokumentation der Odoo-Prozesse
+2. **Best Practice**: Beschreibung von Anwendungsfällen im Detail
+3. **HowTos**: Detailliert beschriebene Arbeitsschritte
+
+Diese Perspektiven werden in diesem Handbuch miteinander verlinkt.
+
+## Maintainer
+
+[![logo](assets/logo.svg)](https://www.mint-system.ch/)
+
+Dieses Handbuch wird von der Mint System GmbH unterhalten.
 
 ## [Referenzsystem](Referenzsystem.md)  
 ## [Best Practice](Best-Practice.md)

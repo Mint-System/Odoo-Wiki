@@ -1,3 +1,7 @@
+---
+tags:
+- HowTo
+---
 # eLearning
 ![icons_odoo_website_slides](assets/icons_odoo_website_slides.png)
 

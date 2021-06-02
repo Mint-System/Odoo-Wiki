@@ -1,3 +1,7 @@
+---
+tags:
+- HowTo
+---
 # Product Barcode Generator
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 

@@ -1,3 +1,8 @@
+---
+tags:
+- Howto
+---
+
 # Verkäufe
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 

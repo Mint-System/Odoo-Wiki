@@ -1,3 +1,7 @@
+---
+tags:
+- Howto
+---
 # Studio Beispiele
 
 ## IBAN und Bank auf Rechnung anzeigen

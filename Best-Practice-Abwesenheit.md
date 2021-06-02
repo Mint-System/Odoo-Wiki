@@ -1,4 +1,8 @@
-# Abwesenheit
+---
+tags:
+- Best-Practice
+---
+# Best Practice: Abwesenheit
 
 Mit der App Abwesenheit können Mitarbeitende ihre Abwesenheit registrieren. Damit der Workflow einwandfrei funktioniert, müssen bestimmte Vorbereitungen getroffen werden.
 

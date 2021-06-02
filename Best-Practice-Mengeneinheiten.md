@@ -1,4 +1,8 @@
-# Mengeneinheiten
+---
+tags:
+- Best-Practice
+---
+# Best Practice: Mengeneinheiten
 
 ## Bedingung für Transfer der Mengenheit
 Mengenheiten können zwischeneinander umgerechnet werden solange sie in der selben "Mengeneinheit-Kategorie" sind.

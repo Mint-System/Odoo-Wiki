@@ -1,4 +1,8 @@
-# Verkaufsgruppen und Baugruppen
+---
+tags:
+- Best-Practice
+---
+# Best Practice: Verkaufsgruppen und Baugruppen
 
 Odoo bildet die Produkte zur Fertigung in folgenden Schema ab:
 

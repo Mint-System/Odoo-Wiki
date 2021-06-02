@@ -1,3 +1,8 @@
+---
+tags:
+- Howto
+---
+
 # Standard Verkaufs-Lieferbedienungen pro Partner
 ![icon_oca_app](assets/icon_oca_app.png)
 

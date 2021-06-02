@@ -1,4 +1,8 @@
-# Warenbedarf
+---
+tags:
+- Best-Practice
+---
+# Best Practice: Warenbedarf
 ![Best Practice Materialbedarf](assets/Best%20Practice%20Materialbedarf.svg)
 
 1. Ein Angebot wird durch die Bestätigung (durch den Kunden) zum Verkaufsauftrag.

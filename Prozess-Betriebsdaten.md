@@ -1,3 +1,7 @@
+---
+tags:
+- Prozess
+---
 # Prozess Betriebsdaten
 
 ![Prozess Betriebsdaten](assets/Prozess%20Betriebsdaten.svg)

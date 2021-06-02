@@ -1,3 +1,8 @@
+---
+tags:
+- Howto
+---
+
 # Awesome Timesheet
 ![](assets/icon_awesome_timesheet.png)
 

@@ -1,4 +1,8 @@
-# Incoterms
+---
+tags:
+- Best-Practice
+---
+# Best Practice: Incoterms
 
 ## Definition
 

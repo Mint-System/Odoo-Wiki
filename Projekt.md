@@ -1,3 +1,7 @@
+---
+tags:
+- HowTo
+---
 # Projekt
 ![icons_odoo_project](assets/icons_odoo_project.png)
 

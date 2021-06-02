@@ -1,4 +1,8 @@
-# Fertigungsplanung
+---
+tags:
+- Best-Practice
+---
+# Best Practice: Fertigungsplanung
 
 ## Beispiel Fertigungsauftrag Rahmen unbeschichtet
 

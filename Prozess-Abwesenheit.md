@@ -1,3 +1,7 @@
+---
+tags:
+- Prozess
+---
 # Prozess Abwesenheit
 
 ![Prozess Abwesenheit](assets/Prozess%20Abwesenheit.svg)

@@ -1,4 +1,8 @@
-# Best Practice Lohnbuchhaltung
+---
+tags:
+- Best-Practice
+---
+# Best Practice: Lohnbuchhaltung
 
 ## Lohnstrukturen
 

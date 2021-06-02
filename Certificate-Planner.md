@@ -1,3 +1,7 @@
+---
+tags:
+- HowTo
+---
 # Certificate Planner
 
 Anleitung zur Odoo-App Certificate Planner.

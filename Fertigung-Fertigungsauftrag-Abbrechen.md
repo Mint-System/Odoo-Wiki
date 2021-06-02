@@ -1,3 +1,7 @@
+---
+tags:
+- HowTo
+---
 # Fertigung Fertigungsauftrag Abbrechen
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 

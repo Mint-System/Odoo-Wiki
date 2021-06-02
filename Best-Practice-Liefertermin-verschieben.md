@@ -1,4 +1,8 @@
-# Liefertermin verschieben
+---
+tags:
+- Best-Practice
+---
+# Best Practice: Liefertermin verschieben
 
 ## Beispiel (Liefertermin A)
 

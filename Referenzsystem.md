@@ -1,3 +1,7 @@
+---
+tags:
+- Referenzsystem
+---
 # Referenzsystem
 
 Das Mint System Referenzsystem ist die Beschreibung der Odoo-Funktionalität anhand einer prozessorientierten Beispiel-Organisation.

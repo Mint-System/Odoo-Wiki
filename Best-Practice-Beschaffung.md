@@ -1,4 +1,8 @@
-# Beschaffung
+---
+tags:
+- Best-Practice
+---
+# Best Practice: Beschaffung
 
 ## Ausgangslage
 

@@ -1,4 +1,8 @@
-# Definition Beispiel Fahrrad
+---
+tags:
+- Best-Practice
+---
+# Best Practice: Definition Beispiel Fahrrad
 
 ![Best Practice Definition Beispiel Fahrrad](assets/Best%20Practice%20Definition%20Beispiel%20Fahrrad.svg)
 

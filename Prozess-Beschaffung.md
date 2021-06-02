@@ -1,3 +1,7 @@
+---
+tags:
+- Prozess
+---
 # Prozess Beschaffung
 
 ![Prozess Beschaffung](assets/Prozess%20Beschaffung.svg)

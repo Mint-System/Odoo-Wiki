@@ -1,3 +1,7 @@
+---
+tags:
+- HowTo
+---
 # Product Name Sequence
 ![](assets/icon_product_name_sequence.png)
 

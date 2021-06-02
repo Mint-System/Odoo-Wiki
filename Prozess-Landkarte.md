@@ -1,3 +1,7 @@
+---
+tags:
+- Prozess
+---
 # Prozesslandkarte
 
 ![Prozesslandkarte](assets/Prozesslandkarte.svg)

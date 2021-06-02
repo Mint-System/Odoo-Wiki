@@ -1,3 +1,7 @@
+---
+tags:
+- Best-Practice
+---
 # Best Practice
 
 Implementation Geschäftsprozesse in Odoo.
@@ -29,5 +33,10 @@ Implementation Geschäftsprozesse in Odoo.
 - [Kontakte](Best-Practice-Kontakte.md)
 - [Mengeneinheiten](Best-Practice-Mengeneinheiten.md)
 - [Incoterms](Best-Practice-Incoterms.md)
-- [Lagerorte einrichten](Best-Practice-Lager-Lagerorte-einrichten.md)
+- [Lagerorte einrichten](Best-Practice-Lager-konfigurieren.md)
 - [Abwesenheit](Best-Practice-Abwesenheit.md)
+- [Verpackungen](Best-Practice-Verpackungen.md)
+- [Scheduler](Best-Practice-Scheduler.md)
+- [Lagerorte](Best-Practice-Lagerorte.md)
+- [Lager Vorgangstypen](Best-Practice-Lager-Vorgangstypen.md)
+- [Berechtigungen für Zeiterfassung](Best-Practice-Berechtigungen-für-Zeiterfassung.md)

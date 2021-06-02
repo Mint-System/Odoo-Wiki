@@ -1,4 +1,8 @@
-# Berücksichtigung Lead-Time
+---
+tags:
+- Best-Practice
+---
+# Best Practice: Berücksichtigung Lead-Time
 
 ## Beispiel 1
 

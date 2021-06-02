@@ -1,4 +1,8 @@
-# Replenishment
+---
+tags:
+- Best-Practice
+---
+# Best Practice: Replenishment
 
 ## Beispiel
 
