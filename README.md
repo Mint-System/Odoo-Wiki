@@ -10,9 +10,9 @@ Diese Perspektiven werden in diesem Handbuch miteinander verlinkt.
 
 ## Maintainer
 
-[![logo](assets/logo.svg)](https://www.mint-system.ch/)
+![logo](assets/logo.svg)
 
-Dieses Handbuch wird von der Mint System GmbH unterhalten.
+Dieses Handbuch wird von der [Mint System GmbH](https://www.mint-system.ch/) unterhalten.
 
 ## [Referenzsystem](Referenzsystem.md)  
 ## [Best Practice](Best-Practice.md)

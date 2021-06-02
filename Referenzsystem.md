@@ -9,11 +9,10 @@ Diese Organisation ist als Prozesssystem mit Prozesslandkarte und Prozessen defi
 
 ## Prozesslandkarte
 
-Die Prozesslandkarte ist die oberste Ebene des Prozesssystems.
-Sie zeigt in einer grafischen Übersicht alle Prozesse und deren Zusammenhänge.
+Die Prozesslandkarte ist die oberste Ebene des Prozesssystems. Sie zeigt in einer grafischen Übersicht alle Prozesse und deren Zusammenhänge.
 
 [Prozesslandkarte](Prozess-Landkarte)
 
 ## Rollen
 
-[Rollen](Rollen)
+Die Prozessträger und Verwantwortliche werden anhand [Rollen](Rollen) identifiziert. Das Rollenkonzept zieht sich durch die gesamte Dokumentation.
