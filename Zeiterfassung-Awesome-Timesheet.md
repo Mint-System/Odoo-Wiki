@@ -1,6 +1,6 @@
 ---
 tags:
-- Howto
+- HowTo
 ---
 
 # Awesome Timesheet

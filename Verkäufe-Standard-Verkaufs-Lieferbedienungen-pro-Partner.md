@@ -1,6 +1,6 @@
 ---
 tags:
-- Howto
+- HowTo
 ---
 
 # Standard Verkaufs-Lieferbedienungen pro Partner
