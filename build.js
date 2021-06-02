@@ -70,7 +70,7 @@ function convert(content,file) {
 
     // convert markdown image links
     // ![title](Image.png) -> ![](./assets/image.png)
-    const mdImage = /(!\[.*\]\(.*\..*\))/g
+    const mdImage = /(!\[.*?\]\(.*?\..*?\))/g
     matches = content.match(mdImage) || []
     for (i = 0; i < matches.length; i++) {
         let match = matches[i]
@@ -82,19 +82,23 @@ function convert(content,file) {
     }
 
     // convert markdown links
-    // ()[Content#link to heading] -> ()[content#link-to-heading]
-    const mdLink = /(?<!!)(\[[^\]]*\]\([^\)]*\))/g
+    // [Title](Content.md#link to heading) -> [Title](Content.html#link-to-heading)
+    const mdLink = /(?<!!)(\[.*\]\([^\)]*\.md.*\))/g
+    const mdHref = /.+\]\(([^\)|#]*)/
+    const mdTitle = /\[([^\]]*)\]\(/
+    const mdAnchor = /#(.*)\)/
     matches = content.match(mdLink) || []
     for (i = 0; i < matches.length; i++) {
         let match = matches[i]
 
-        let href = match.match(/\]\(([^\)|#]*)/)[1] || file
-        let title = match.match(/\[([^\]]*)\]\(/)[1]
+        let href = match.match(mdHref)[1] || file
+        let title = match.match(mdTitle)[1]
         let anchor = null
 
         // set anchor
         if (match.indexOf('#') > 0) {
-            anchor = match.match(/#([^\)]*)/)[1]
+            anchor = match.match(mdAnchor)[1]
+
             // sanitize anchor link
             anchor = sanitizeAssetname(anchor)
         }
@@ -129,7 +133,6 @@ if (!firstArg || ['all', 'index'].indexOf(firstArg) >= 0) {
                 title = line.replace('# ','')
             }
         }
-
 
         // Throw error if title not found
         if (!title) {

@@ -10,7 +10,7 @@ Diese Perspektiven werden in diesem Handbuch miteinander verlinkt.
 
 ## Maintainer
 
-![logo](assets/logo.svg)
+[![logo](assets/logo.svg)](https://www.mint-system.ch/)
 
 Dieses Handbuch wird von der [Mint System GmbH](https://www.mint-system.ch/) unterhalten.
 
