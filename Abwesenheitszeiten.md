@@ -50,6 +50,11 @@ Wurde die Abwesenheit genehmigt, sehen sie die verleibenden Tage des Abwesenheit
 
 ![](assets/Abwesenheitszeiten%20Verleibend.png)
 
+::: tip
+Abwesenheitseinträge, die im Zustand *Zur Genehmigung* sind, können nicht mehr gelöscht werden.
+:::
+
+
 ## Abwesenheit validieren
 
 Nach demselben Verfahren wie [Abwesenheitsanspruch validieren](#Abwesenheitsanspruch%20validieren) können sie Abwesenheiten validieren. Sie erhalten entweder eine Mail oder sehen die zugewiesene Odoo-Aktivität.
