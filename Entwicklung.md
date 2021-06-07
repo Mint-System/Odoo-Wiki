@@ -8,6 +8,7 @@ tags:
 Odoo mühelos anpassen und erweitern.
 
 * [Aktionen](Aktionen.md)
+* [Web Timeline](Web-Timeline.md)
 
 ## Domainfilter-Widget deaktivieren
 
