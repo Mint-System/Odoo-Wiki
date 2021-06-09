@@ -234,6 +234,12 @@ Probleme und Lösungen rund um Odoo.
 
 ![icons_odoo_website_forum](assets/icons_odoo_website_forum.png)  
 
+### [Umfragen](Umfragen.md)
+
+Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
+
+![icons_odoo_survey](assets/icons_odoo_survey.png)
+
 ### [Update](Update.md)
 
 Aktualisieren sie ihre Odoo Enterprise Installation ohne Mehrkosten.

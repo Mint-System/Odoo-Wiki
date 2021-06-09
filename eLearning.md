@@ -45,6 +45,7 @@ Navigieren sie im Backend nach *eLearning > Kurse > Wählen den Kurs > Tab Inhal
 * **Dokument**: Der Kursinhalt ist eine Dokument
 * **Video**: Der Kursinhalt ist verlinktes Video
 * **Quiz**: Sie erfassen ein Quiz im entsprechenden Tab
+* **Zertifizierung**: Kopplung mit der App [[Umfragen]]
 
 ## Kurs Inhalt freigeben
 
@@ -77,3 +78,10 @@ Jeder Teilnehmer erhählt eine Einladung via E-Mail.
 ## Quiz hinzufügen
 
 Im Tab *Quiz* eines Inhalts können sie eine Frage mit mehreren Antworten erstellen. 
+
+## Zertifizierung erfassen
+
+Beim Abschluss einer Umfrage können den Teilnehmer Zertifikate vergeben werden. Navigieren sie nach *eLearning > Kurse > Zertifizierungen*. Hier können sie eine [Umfrage erstellen](Umfragen.md#Umfrage%20erstellen), die als Zertifizierung verfügbar ist.
+
+Die Zertifizierung kann als Inhaltstyp *Zertifizierung* mit einem Kursinhalt verknüpft werden.
+
