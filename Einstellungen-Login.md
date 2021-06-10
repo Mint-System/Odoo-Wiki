@@ -26,3 +26,11 @@ Wenn Benutzer sich über das Portal bzw. Login-Fenster registrieren wird ein Por
 Öffnen sie die Benutzerliste via *Einstellungen > Allgemeine Einstellungen > Benutzer verwalten*. Entfernen sie den Filter damit Portal-Benuzter sichtbar werden. Wählen sie den Portal-Benutzer aus und Bearbeiten sie diesen. Wechseln sie den Benutzertyp und vergeben sie die benötigten Benutzerrechte.
 
 ![](assets/Einstellungen%20Login%20Benutzertyp.png)
+
+## Portalzugriff gewähren
+
+Damit mehrere Konakte Zugriff auf Odoo haben, brauchen sie einen Portal-Zugriff. Navigieren sie nach *Kontakte* und wählen sie in der Listen-Ansicht die Kontake aus. Wählen sie *Aktion > Portalzugriff gewähren* und klicken für jeden Kontakt auf die *Im Portal*-Checkbox. Bestätigen sie den Vorgang und jeder Benutzer erhält eine Einladung.
+
+Die Einladung sie wie folgt aus:
+
+![](assets/Einstellungen%20Login%20Portal-Zugriff%20erhalten.png)

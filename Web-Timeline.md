@@ -14,7 +14,7 @@ Damit der Ansichtstyp *Timeline* für die App *Abwesenheitszeiten* angezeigt wer
 
 Die Timeline-Ansicht für *hr.leave* erfassen:
 
-```
+```xml
 <?xml version='1.0' encoding='UTF-8' ?>
 <odoo>
     <record id="mint_system.hr_holidays.hr_leave_view_timeline" model="ir.ui.view">
@@ -35,7 +35,7 @@ Die Timeline-Ansicht für *hr.leave* erfassen:
 
 Für den Bericht *Alle Benutzer* diese Timeline-Ansicht erfassen:
 
-```
+```xml
 <?xml version='1.0' encoding='UTF-8' ?>
 <odoo>
     <record id="mint_system.hr_holidays_calendar.hr_leave_report_calendar_timeline" model="ir.ui.view">
@@ -54,11 +54,12 @@ Für den Bericht *Alle Benutzer* diese Timeline-Ansicht erfassen:
 </odoo>
 ```
 
-Den `view_mode` mit `timeline` bei diesen `ir.actions.act_window` ergänzen:
+Den `view_mode` mit `timeline` bei diesen Fenster-Aktionen `ir.actions.act_window` ergänzen:
 
-* `hr_holidays.hr_leave_action_my`
-* `hr_holidays.hr_leave_action_new_request`
-* `hr_holidays.action_hr_holidays_dashboard`
+* Abwesenheitsanträge `hr_holidays.hr_leave_action_my`
+* Dashboard `hr_holidays.hr_leave_action_new_request`
+* Alle Abwesenheiten `hr_holidays.action_hr_holidays_dashboard`
+* Abwesenheitszeiten `hr_holidays.hr_leave_action_all`
 
 Das Resultat sieht etwa so aus:
 
@@ -68,7 +69,7 @@ Das Resultat sieht etwa so aus:
 
 Die Timeline-Ansicht für *calendar.event* erfassen:
 
-```
+```xml
 <?xml version='1.0' encoding='UTF-8' ?>
 <odoo>
     <record id="mint_system.calendar.view_calendar_event_calendar_timeline" model="ir.ui.view">
@@ -87,6 +88,6 @@ Die Timeline-Ansicht für *calendar.event* erfassen:
 </odoo>
 ```
 
-Den `view_mode` mit `timeline` bei diesen `ir.actions.act_window` ergänzen:
+Den `view_mode` mit `timeline` bei diesen Fenster-Aktionen `ir.actions.act_window` ergänzen:
 
-* `calendar.action_calendar_event`
+* Meetings `calendar.action_calendar_event`

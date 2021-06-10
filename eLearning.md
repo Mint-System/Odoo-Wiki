@@ -29,6 +29,13 @@ Dokumentation:
 
 ![](assets/eLearning%20Dokumentation.png)
 
+Im gleichen Tab eine Option für *Einschreiberichtlinien* wählen:
+
+* **Öffentlich**: Der Kursinhalt kann auf der Website aufgerufen werden
+* **Auf Einladung**: Teilnehmer brauchen einen Portal-Benutzer
+
+Damit Teilnehmer einen Portal-Benutzer erhalten, muss dieser erstellt werden.
+
 ## Stichwörter anlegen
 
 Navigieren sie im Backend nach *eLearning > Konfiguration > Kurs-Stichwörter* und wählen sie den ersten Eintrag und bearbeiten sie diesen.
@@ -62,7 +69,7 @@ Die Absolventen eines Kurses sehen sie unter *eLearning > Kurs auswählen* und a
 Jeder Kurs hat eine individuelle Teilnehmerliste. Wenn sie unter *eLearning > Kurs auswählen* den Link *Teilnehmer* anklicken, erscheint eine Liste mit *Name* und *E-Mail*. Hier können sie Tabellendatei mit den Teilnehmer importieren.
 
 ::: warning
-Jeder Teilnehmer erhählt eine Einladung via E-Mail.
+Jeder Teilnehmer braucht einen Portal-Benutzer.
 :::
 
 ## Automatisch eingeschriebene Gruppen festlegen
