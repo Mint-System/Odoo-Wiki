@@ -17,7 +17,7 @@ Im Tab *Optionen*  unter *Access Mode* haben sie diese Optionen:
 * **Öffentlicher Link**: Die Umfrage wird mit einem Link geteilt, jeder mit diesem Link kann teilenehmen.
 * **Nur eingeladene Personen**: Die Teilnahme ist nur für Kontakte möglich, die über [Umfrage teilen](#Umfrage%20teilen) eingeladen wurden und einen Portal-Zugriff haben.
 
-::: info
+::: tip
 Teilnehmer müssen als Kontakt erfasst sein und müssen einen Portalzugriff haben: [Portalzugriff gewähren](Einstellungen-Login.md#Portalzugriff%20gewähren).
 :::
 
