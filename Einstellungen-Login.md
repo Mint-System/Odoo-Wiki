@@ -5,6 +5,15 @@ tags:
 # Einstellungen Login
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
+## Kundenkonto Einladungsverfahren festlegen
+
+für Kunden, Teilnehmer und Partner kann ein Odoo-Zugang eingerichtet werden. Unter *Einstellungen > Benutzer > Kundenkonto* hat man zwei Optionen:
+
+* **Auf Einladung**: Benutzer werden explizit mit einer E-Mail eingeladen.
+* **Kostenlose Anmeldung**: Benutzer können sich über die Odoo-Website selber anmelden und erhalten standardmässig einen Portal-Benutzer.
+
+
+
 ## Automatisches Anmelden mit OAuth
 
 Wenn sie OAuth mit Google, Odoo.com oder einem anderen Anbieter verwenden, begegnen sie der Problematik, dass wenn sich ein Benutzer anmeldet, ein Odoo-Account mit den falschen Berechtigungen erstellt wird. Bestimmte OAuth-Anbieter erlauben, dass der Benutzer vorgängig in Odoo angelegt wird. Fall das nicht möglich ist und der OAuth-Provider nur für interne Benutzer verfügbar ist, können sie die Standardzugriffsrechte für zu Portal-Benutzer festlegen.
@@ -34,3 +43,7 @@ Damit mehrere Konakte Zugriff auf Odoo haben, brauchen sie einen Portal-Zugriff.
 Die Einladung sie wie folgt aus:
 
 ![](assets/Einstellungen%20Login%20Portal-Zugriff%20erhalten.png)
+
+Hat sich der Benutzer mit der Mail registriert, muss er seinen Account verifizieren.
+
+![](assets/Einstellungen%20Login%20Profilverifizierung.png)

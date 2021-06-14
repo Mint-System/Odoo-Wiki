@@ -10,3 +10,57 @@ Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
 ## Umfrage erstellen
 
 Navigieren sie nach *Umfragen* und wählen sie *+ Anlegen*. Vergeben sie eine passende Bezeichnung. Im Tab *Optionen* können sie die Umfrage gemäss ihren Anforderungen anpassen.
+
+
+Im Tab *Optionen*  unter *Access Mode* haben sie diese Optionen:
+
+* **Öffentlicher Link**: Die Umfrage wird mit einem Link geteilt, jeder mit diesem Link kann teilenehmen.
+* **Nur eingeladene Personen**: Die Teilnahme ist nur für Kontakte möglich, die über [Umfrage teilen](#Umfrage%20teilen) eingeladen wurden und einen Portal-Zugriff haben.
+
+::: info
+Teilnehmer müssen als Kontakt erfasst sein und müssen einen Portalzugriff haben: [Portalzugriff gewähren](Einstellungen-Login.md#Portalzugriff%20gewähren).
+:::
+
+## Umfrage teilen
+
+Umfrage-Teilnehmer können sie mit der Aktion *Teilen* einladen. Navigieren sie zu ihrer Umfrage und wählen sie die Aktion. 
+
+Erstellen sie eine neue Mail-Vorlage mit diesen Angaben:
+
+Name: `Umfrage: Einladung`
+
+Gilt für: `Benutzereingaben`
+
+Betreff: `Einladung zur Umfrage ${object.survey_id.title}`
+
+Nachricht:
+
+```html
+<div style="margin:0px;padding:0px; ">
+
+    <p style="padding:0px; ">
+        Guten Tag ${object.partner_id.name or 'participant'}<br><br>
+        % if object.survey_id.certificate:
+            Sie wurden eingeladen eine Zertifizierung durchzuführen.
+        % else:
+            Wir machen eine Umfrage und ihre Teilnahme ist Willkommen.
+        % endif
+	</p>
+	
+	<div style="margin:16px 0px 16px 0px">
+		<a href="${('%s?answer_token=%s' % (object.survey_id.public_url, object.token)) | safe}" style="background-color:#875A7B;padding:8px 16px 8px 16px; text-decoration:none; color:#fff; border-radius:5px; font-size:13px">
+			% if object.survey_id.certificate:
+				Zertifizierung starten
+			% else:
+				Umfrage starten
+			% endif
+		</a>
+	</div>
+	
+	% if object.deadline:
+		Beantworten sie die Umfrage bis ${format_date(object.deadline)}.<br><br>
+	% endif
+	Vielen Danke für ihre Teilnahme.
+    
+</div>
+```
