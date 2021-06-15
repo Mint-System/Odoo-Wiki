@@ -7,6 +7,8 @@ tags:
 
 Personalbrechnungen schnell und einfach erstellen.
 
+* [Lohnmeldung](Lohnmeldung.md)
+
 ## Pesonalabrechnung initialisieren
 
 Damit sie die Personalabrechnung für ihre Mitarbeiter erstellen können, müssen einige vorbereitungen getroffen werden.

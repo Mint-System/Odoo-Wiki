@@ -47,7 +47,7 @@ Als erstes gilt es eine Tabelle mit folgenden Aufbau azulegen:
 | __export__.certificate_planer_document_9999999 | 001-9999999 | Seat Adapter Assy. | ADWG    |             | __export__.certificate_planer_part_9999999_1,__export__.certificate_planer_part_9999999_2 | __export__.certificate_planer_part_9999999_1 | 001-9999999-501 | Seat Adapter Assy. |
 |                                                |             |                    |         |             |                                                                                           | __export__.certificate_planer_part_9999999_2 | 001-9999999-502 | Seat Adapter Assy. |
 
-Auf der linken Seite der Tabelle von `id` bis `description` sind die Dokumente. Auf der rechten Seite von `id` bis `designation` sind die Parts. Anhand des Feldes `id` kann man beziehungen erstellen. Im Feld `part_ids/id` gilt es mit der Formel `=TEXTJOIN(",",1,G2:G3)` die Part IDs als kommagetrennter Text darzustellen.
+Auf der linken Seite der Tabelle von `id` bis `description` sind die Dokumente. Auf der rechten Seite von `id` bis `designation` sind die Parts. Anhand des Feldes `id` kann man Beziehungen erstellen. Im Feld `part_ids/id` gilt es mit der Formel `=TEXTJOIN(",",1,G2:G3)` die Part IDs als kommagetrennter Text darzustellen.
 
 Im ersten Schritt importiert man die Parts:
 
