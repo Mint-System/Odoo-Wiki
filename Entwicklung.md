@@ -9,6 +9,7 @@ Odoo mühelos anpassen und erweitern.
 
 * [Aktionen](Aktionen.md)
 * [Web Timeline](Web-Timeline.md)
+* [Massenverarbeitung](Massenverarbeitung.md)
 
 ## Domainfilter-Widget deaktivieren
 
@@ -117,3 +118,60 @@ Nachdem sie den Browser-Tab aktualisiert haben, ist der Menüeintrag umbenannt.
 Um den angezeigten Namen eines Fenster anzuspassen, navigieren sie nach *Eisntellungen > Technisch > Aktionen > Fesnter öffnen/schliessen ...*. Suchen sie im Feld *Name der Aktion* nach dem Fensternamen und passen sie den Namen an.
 
 ![Einstellungen Fenster umbennen](assets/Einstellungen%20Fenster%20umbennen.gif)
+
+## Neues Feld hinzufügen
+
+An jedem Objekt kann an einfach ein Feld hinzugefügt werden. Öffnen sie eine Ansicht im Entwicklermodus und wählen sie *Entwicklertools > Felder anzeigen*. Wählen sie *+ Anlegen* und geben sie folgende Informationen ein:
+
+* Feldname: Beginnt mit `x_` und darf keine Leerschläge enthalten und sollte kleingeschrieben und auf Englisch sein.
+* Feldbezeichnung: Passender Name in der angezeigten Sprache.
+* Typfeld-Text: Auswahls den Felddatentyps.
+
+Dazu ein Beispiel mit [Abwesenheitszeiten](Abwesenheitszeiten.md):
+
+![](assets/Entwicklung%20Neues%20Feld%20auf%20Abwesenheitszeiten.png)
+
+## Feld in Ansicht anzeigen
+
+Damit ein neues Feld ersichtlich ist, muss es auf der entsprechenden Ansicht hingefügt werden. Rufen sie im Entwicklermodus die Ansicht auf und wählen sie *Entwicklertools > Ansicht bearbeiten: Liste. Suchen sie hier den Feldnamen unter dem das neue Feld angezeigt werden soll.
+
+In unserem Beispiel nehmen wir `state`.
+
+![](assets/Entwicklung%20Feld%20hinzufügen.png)
+
+Navigieren sie nun in den Tab *Vererbte Ansichten* und fügen sie hier einen neuen Eintrag hinzu:
+
+Ansichtsbezeichnung: Beginnt mit Prefix `mint_system.` anschlissend folgt die externe ID der Hauptansicht und anschliessend folgt `.BESCHREIBUNG`
+
+Beispiel: `mint_system.hr_holidays.hr_leave_view_tree.add_synced_field`
+
+Im Tab *Architektur* geben sie die Anweisung zum Hinzufügen des Feldes ein:
+
+```xml
+<?xml version="1.0"?>
+<data inherit_id="hr_holidays.hr_leave_view_tree">
+
+  <xpath expr="//field[@name='state']" position="after">
+    <field name="x_synced" widget="toggle_button"/>
+  </xpath>
+
+</data>
+```
+
+Speichern sie die Ansicht und laden sie die aktuelle Ansicht neu.
+
+## Feld in Ansicht ausblenden
+
+Wiederholen sie den Vorgang [Neues Feld hinzufügen](#Neues%20Feld%20hinzufügen), jedoch wird das ausgesuchte Feld mit diesem Snippet ausgeblendet:
+
+Ansichtsbezeichnung: `mint_system.hr_holidays.hr_leave_view_tree.remove_payslip`
+
+```xml
+<?xml version="1.0"?>
+<data inherit_id="hr_holidays.hr_leave_view_tree">
+
+  <xpath expr="//field[@name='payslip_status']" position="replace">
+  </xpath>
+
+</data>
+```
