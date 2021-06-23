@@ -7,6 +7,8 @@ tags:
 
 Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
 
+- [Einkauf-Kaufverträge](Einkauf-Kaufverträge.md)
+
 ## Angebotsanfrage erstellen
 
 Über *Anlegen* wird eine Angebotsanfrage eröffnet. Die Felder der Eingabemaske sind gemäss folgender Tabelle zu editieren:

@@ -12,8 +12,6 @@ für Kunden, Teilnehmer und Partner kann ein Odoo-Zugang eingerichtet werden. Un
 * **Auf Einladung**: Benutzer werden explizit mit einer E-Mail eingeladen.
 * **Kostenlose Anmeldung**: Benutzer können sich über die Odoo-Website selber anmelden und erhalten standardmässig einen Portal-Benutzer.
 
-
-
 ## Automatisches Anmelden mit OAuth
 
 Wenn sie OAuth mit Google, Odoo.com oder einem anderen Anbieter verwenden, begegnen sie der Problematik, dass wenn sich ein Benutzer anmeldet, ein Odoo-Account mit den falschen Berechtigungen erstellt wird. Bestimmte OAuth-Anbieter erlauben, dass der Benutzer vorgängig in Odoo angelegt wird. Fall das nicht möglich ist und der OAuth-Provider nur für interne Benutzer verfügbar ist, können sie die Standardzugriffsrechte für zu Portal-Benutzer festlegen.
