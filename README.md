@@ -22,13 +22,13 @@ Dieses Handbuch wird von der [Mint System GmbH](https://www.mint-system.ch/) unt
 
 Verwaltung von Mitarbeiterurlauben & Abwesenheit
 
-![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)  
+[![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)  ](Abwesenheitszeiten.md)
 
 ### [Anwesenheitszeiten](Anwesenheitszeiten.md)
 
 Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 
-![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)  
+[![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)](Anwesenheitszeiten.md)
 
 ### [Apps](Apps.md)
 
