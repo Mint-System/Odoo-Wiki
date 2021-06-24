@@ -7,6 +7,8 @@ tags:
 
 Personalmanagement für moderne Unternehmen.
 
+* [HR Birthday Calender](HR Birthday Calender.md)
+
 ## Allgemein
 
 Odoo unterscheidet zwischen Benutzer und Mitarbeiter. Mitarbeiter müssen nicht zwingend einen Odoo-Account besitzen. Zur Verwendung von Apps wie die Zeiterfassung muss den Benutzern ein Mitarbeiter hinterlegt werden.
