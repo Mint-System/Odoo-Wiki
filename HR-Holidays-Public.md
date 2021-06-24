@@ -22,7 +22,11 @@ Feiertage können für alle Mitarbeiter zentral festgelegt werden. Navigieren si
 
 In den [Demodaten](Datenmanagement.md#Demodaten%20anzeigen) der Mint System sind Feiertage zum Import bereitgestellt.
 
-Geben Mitarbeitende ihren Abwesenheit ein, wird der Feiertag von der berechneten Anzahl Tage abgezogen.
+Erstellte Feiertage werden im Kalender von OdooBot eingetragen:
+
+![](assets/HR-Holidays-Public%20OdooBot.png)
+
+Geben Mitarbeitende ihren Abwesenheit ein, wird der Feiertag von der berechneten Anzahl Tage abgezogen:
 
 ![HR Holidays Public Abzug](assets/HR%20Holidays%20Public%20Abzug.gif)
 
