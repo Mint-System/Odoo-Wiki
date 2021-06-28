@@ -5,6 +5,8 @@ tags:
 # Web Timeline
 ![icon_oca_app](assets/icon_oca_app.png)
 
+Die Gantt-Ansicht für alle Ressourcen.
+
 Technischer Name: `web_timeline`\
 Repository: <https://github.com/OCA/web/tree/13.0/web_timeline>
 

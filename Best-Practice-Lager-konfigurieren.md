@@ -10,7 +10,7 @@ Beispiel:
 
 ![Lager Lager anlegen](assets/Lager%20Lager%20anlegen.png)
 
-(Der Name *San Francisco* hat damit zu tun, dass der Name des Lagers mit einem geografischen Ort zusammenhängen soll. Das Beispiel-Lager liegt also in den USA im Norden Kaliforniens.)
+(Der Name *San Francisco* hat damit zu tun, dass der Name des Lagers mit einem geografischen Ort zusammenhängen soll.)
 
 ### Standard Lagerorte für Lieferungen
 
@@ -32,6 +32,9 @@ Um das Einrichten der kundenspezifischen Warentransfers im Lager zu vereinfachen
 Um Ware zwischen den Lagerorten zu bewegen sind *Routen* und *Regeln* vorbereitet. Für die oben dargestellte Konfiguration *1 Schritt* sind die folgenden zwei Routen im Menu *Konfiguration > Lager & Logistik > Routen* vorgesehen:
 
 ![Lager Routen Standard 1 step](assets/Lager%20Routen%20Standard%201%20step.png)
+
+Die folgenden zwei Routen sind vorhanden, aber archiviert:
+![Lager Routen Standard 1 archivert](assets/Lager%20Routen%20Standard%201%20archivert.png)
 
 Die entsprechenden Regeln finden sich im Menu *Konfiguration > Lager & Logistik > Regeln*.  (Damit in der Liste der Name sichtbar ist, wurde im Entwicklermodus die Spalte `<field name="name"/>` eingefügt.)
 
@@ -73,7 +76,7 @@ Mit der Installation der App *Fertigung* werden die Funktionen im Lager mit den 
 
 ![Lager Konfiguration Standard Beschaffung](assets/Lager%20Konfiguration%20Standard%20Beschaffung.png)
 
-Falls auch die App *Einkauf* installiert ist, wird die Auswahl mit der folgenden Option ergänzt:
+Falls auch die App *Einkauf* und *Fertigung* installiert sind, wird die Auswahl mit der folgenden Option ergänzt:
 
 ![Lager Konfiguration Standard Beschaffung Einkauf](assets/Lager%20Konfiguration%20Standard%20Beschaffung%20Einkauf.png)
 
@@ -103,6 +106,8 @@ Die entsprechende Darstellung im Tab *Lager* in der Produktansicht zeigt sich wi
 
 ![Lager Routen Reihenfolge Produkt](assets/Lager%20Routen%20Reihenfolge%20Produkt.png)
 
+**Sichtbarkeit**
+
 Die Sichtbarkeit der Routen in den verschiedenen Darstellungen wird über die Option *Auswahlmöglichkeit* für jede Route eingestellt.
 
 ![Lager Routen](assets/Lager%20Routen.svg)
@@ -111,40 +116,39 @@ Die Sichtbarkeit der Routen in den verschiedenen Darstellungen wird über die Op
 
 Für den Empfang und die Lieferung von Produkten sind Routen für die Varianten 1, 2 oder 3 Schritte vordefiniert. Über die Auswahl in der Ansicht Lager > Lager Konfiguration werden die Routen automatisch eingerichtet.
 
-**Empfangsschritte**
+**Lagerort / Lagerbewegung / Vorgangstyp**
 
-Zur Auswahl stehen folgende drei Varianten:
-1.  Produkte direkt anliefern (1 Schritt)
-2. Receive goods in input and then stock (2 steps)
-3. Receive goods in input, then quality and then stock (3 steps)
+Empfangsschritte:
 
 ![Lager Empfangsschritte](assets/Lager%20Empfangsschritte.svg)
 
-**Lieferungsschritte**
 
-Zur Auswahl stehen:
-1. Güter direkt anliefern (1 Schritt)
-2. Send goods in output and then deliver (2 steps)
-3. Ware verpacken, Ware in die Ausgabe schicken und dann ausliefern (3 Schritte)
+Lieferungsschritte:
 
 ![Lager Lieferungsschritte](assets/Lager%20Lieferungsschritte.svg)
 
-### Strategien
+### Spezifische Route für die Wareneingangsprüfung
 
-Mit Odoo 14 wurde die Funktionalität "Replenishment" ausgebaut. *Replenish on Order (MTO)* soll damit an Bedeutung verlieren.
+Wenn die Lager-Konfiguration für Lieferungen von *1 Schritt* auf *3 Schritte* geändert wird, überschreibt Odoo die entsprechende Route. D.h. die Route *In 1 Schritt erhalten (Lager)* wird ersetzt durch *In 3 Schritten erhalten (input + quality + Lager)*. Das führt auch dazu, dass die Änderung in allen Produkten nachgeführt wird.
 
-![Lager Strategien](assets/Lager%20Strategien.svg)
+Falls nun für jedes Produkt einzeln die Wareneingangsprüfung ein- oder ausgeschaltet werden soll, empfiehlt es sich die Route *In 3 Schritten erhalten (input + quality + Lager)* zu duplizieren.
 
-### Regeln
+Zusätzlich muss der Lagerot *WH/Input* aus dem Archiv zurückgeholt werden.
 
-Es besteht folgender Zusammenhang zwischen Lager, Routen und Regeln:
+Achtung: Die Regel *In 1 Schritt erhalten (Lager)* macht gar nichts! (Sie ist nur ein Platzhalter.)
 
-![Lager Zusammenhänge Routen](assets/Lager%20Zusammenh%C3%A4nge%20Routen.svg)
+Mit der Umstellung wird die Regel auf der Route *Einkauf* geändert.
 
-**Propagation**
+Regel für 1 Schritt:
 
-![Lager Regeln](assets/Lager%20Regeln.svg)
+![Lager Routen Standard Buy](assets/Lager%20Routen%20Standard%20Buy.png)
 
-::: tip
-Über die Einstellung *Weitergabe Beschaffungsgruppe* wird programmiert ob Bestellvorschläge kummuliert werden oder ob separate Angebotsanfragen erstellt werden.
-:::
+Regel für 3 Schritt:
+
+![Lager Routen Standard Input](assets/Lager%20Routen%20Standard%20Input.png)
+
+![Lager Vorgangstypen Standard Anlieferungen](assets/Lager%20Vorgangstypen%20Standard%20Anlieferungen.png)
+
+
+![Lager Vorgangstypen Standard Anlieferungen direkt](assets/Lager%20Vorgangstypen%20Standard%20Anlieferungen%20direkt.png)
+

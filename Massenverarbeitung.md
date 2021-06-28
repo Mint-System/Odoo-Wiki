@@ -5,6 +5,8 @@ tags:
 # Massenverarbeitung
 ![icon_oca_app](assets/icon_oca_app.png)
 
+Mühelos mehere Einträge auf einmal bearbeiten.
+
 Technischer Name: `mass_editing`\
 Repository: <https://github.com/OCA/server-ux/tree/13.0/mass_editing>
 

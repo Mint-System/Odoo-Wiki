@@ -33,7 +33,7 @@ Implementation Geschäftsprozesse in Odoo.
 - [Kontakte](Best-Practice-Kontakte.md)
 - [Mengeneinheiten](Best-Practice-Mengeneinheiten.md)
 - [Incoterms](Best-Practice-Incoterms.md)
-- [Lagerorte einrichten](Best-Practice-Lager-konfigurieren.md)
+- [Lager konfigurieren](Best-Practice-Lager-konfigurieren.md)
 - [Abwesenheit](Best-Practice-Abwesenheit.md)
 - [Verpackungen](Best-Practice-Verpackungen.md)
 - [Scheduler](Best-Practice-Scheduler.md)

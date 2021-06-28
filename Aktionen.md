@@ -5,6 +5,8 @@ tags:
 # Aktionen
 ![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)
 
+Validierungen und Ansicht können mit Odoo Aktionen einfach erstellt werden.
+
 ## Beim Aktualisieren eine Validierung ausführen
 
 Mit *Automatischen Aktionen* kann ein Datensatz, der aktualisiert wurde, zusätzlich validiert werden. In unserem Beispiel wollen wir unterbinden, dass Qualitätsalarme auf bestimmte Stufen gesetzt werden.
