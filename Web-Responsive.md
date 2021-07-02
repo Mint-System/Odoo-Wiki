@@ -5,6 +5,8 @@ tags:
 # Web Responsive
 ![icon_oca_app](assets/icon_oca_app.png)
 
+Responsive Anzeige der Odoo-Oberfläche.
+
 Technischer Name: `web_responsive`\
 Repository: <https://github.com/OCA/web/tree/13.0/web_responsive>
 

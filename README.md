@@ -126,7 +126,7 @@ Odoo installieren und konfigurieren.
 
 ![icons_odoo_website_version](assets/icons_odoo_website_version.png)  
 
-### [IoT](IoT)
+### [IoT](IoT.md)
 
 Alles, was das "Internet der Dinge (IoT)" bietet.
 

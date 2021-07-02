@@ -5,6 +5,8 @@ tags:
 # Einstellungen Login
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
+Odoo-Einstellungen zum Benutzer und Anmeldeverfahren.
+
 ## Kundenkonto Einladungsverfahren festlegen
 
 für Kunden, Teilnehmer und Partner kann ein Odoo-Zugang eingerichtet werden. Unter *Einstellungen > Benutzer > Kundenkonto* hat man zwei Optionen:

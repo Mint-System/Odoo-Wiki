@@ -5,6 +5,8 @@ tags:
 # Einstellungen Übersetzungen
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
+Einstellungen zu Sprachpakete und Übersetzungen.
+
 ## Neue Sprache aktivieren
 
 Damit Odoo in mehreren Sprachen verfügbar ist, müssen sie die entsprechenden Sprachpakete installieren. Navigieren sie nach *Einstellungen > Sprachen* und wählen sie *Sprachen verwalten*. Suchen sie die zu installierende Sprache, öffnen sie diese und wählen *Aktivieren und Übersetzen*.
