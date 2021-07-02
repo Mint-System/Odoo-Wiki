@@ -7,9 +7,9 @@ tags:
 
 Neue Apps installieren und aktualisieren.
 
-* [Product Name Sequence](Fertigung-Product-Name-Sequence.md)
-* [Product Barcode Generator](Fertigung-Product-Barcode-Generator.md)
-* [Fertigung Fertigungsauftrag Abbrechen](Fertigung-Fertigungsauftrag-Abbrechen.md)
+* [Product Name Sequence](Product-Name-Sequence.md)
+* [Product Barcode Generator](Product-Barcode-Generator.md)
+* [Fertigung Fertigungsauftrag Abbrechen](Fertigungsauftrag-Abbrechen.md)
 * [Verkäufe Rahmenbestellungen](Verk%C3%A4ufe-Rahmenbestellungen.md)
 
 ## Liste der Apps aktualisieren

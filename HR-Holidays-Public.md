@@ -5,6 +5,8 @@ tags:
 # HR Holidays Public
 ![icon_oca_app](assets/icon_oca_app.png)
 
+Erstellen sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.
+
 Technischer Name: `hr_holidays_public`\
 Repository: <https://github.com/OCA/hr-holidays/tree/13.0/hr_holidays_public>
 

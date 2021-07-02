@@ -5,13 +5,15 @@ tags:
 # Theoretical vs Attended Time Analysis
 ![icon_oca_app](assets/icon_oca_app.png)
 
+Erstellen sie Bericht zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement.
+
 Technischer Name: `hr_attendance_report_theoretical_time`\
 Repository: <https://github.com/OCA/hr-attendance/tree/13.0/hr_attendance_report_theoretical_time>
 
 ## Abwesenheitstyp in theoretischen Stunden einbeziehen
 
 ::: tip
-Damit der Abwesenheitstyp in der Auswertung [Anwesenheitszeiten-Theoretical-vs-Attended-Time-Analysis](Anwesenheitszeiten-Theoretical-vs-Attended-Time-Analysis.md) berücksichtigt wird muss dies explizit festgelegt werden.
+Damit der Abwesenheitstyp in der Auswertung [Theoretical-vs-Attended-Time-Analysis](Theoretical-vs-Attended-Time-Analysis.md) berücksichtigt wird muss dies explizit festgelegt werden.
 :::
 
 Öffnen Sie den Abwesenheitstyp mit *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Bearbeiten sie den Typ und wählen sie die Checkbox *in theoretische Stunden einbeziehen* unter *Optionen*. Schliessen sie den Vorgang ab. Nun wird der Abwesenheitstyp in der theoretischen Stunden berücksichtigt.

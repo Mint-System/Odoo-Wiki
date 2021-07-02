@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-# Fertigung Fertigungsauftrag Abbrechen
+# Fertigungsauftrag Abbrechen
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 
 Technischer Name: `eq_cancel_mrp_orders`\

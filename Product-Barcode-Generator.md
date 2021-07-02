@@ -3,7 +3,7 @@ tags:
 - HowTo
 ---
 # Product Barcode Generator
-![icons_odoo_modules](assets/icons_odoo_modules.png)
+![](assets/icon_odoo_product_barcode.png)
 
 Technischer Name: `product_barcode`\
 Repository: <https://github.com/CybroOdoo/CybroAddons/tree/14.0/product_barcode>

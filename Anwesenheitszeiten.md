@@ -7,8 +7,8 @@ tags:
 
 Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 
-* [Überzeitenmanagement](Anwesenheitszeiten-Überzeitenmanagement.md)
-* [Theoretical vs Attended Time Analysis](Anwesenheitszeiten-Theoretical-vs-Attended-Time-Analysis.md)
+* [Überzeitenmanagement](Überzeitenmanagement.md)
+* [Theoretical vs Attended Time Analysis](Theoretical-vs-Attended-Time-Analysis.md)
 * [Attendance-and-Overtime-Management](Attendance-and-Overtime-Management.md)
 
 ## Allgemein

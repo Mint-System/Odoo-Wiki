@@ -8,7 +8,7 @@ tags:
 Verwaltung von Mitarbeiterurlauben & Abwesenheit
 
 * [HR Holidays Public](HR-Holidays-Public.md)
-* [Theoretical vs Attended Time Analysis](Anwesenheitszeiten-Theoretical-vs-Attended-Time-Analysis.md)
+* [Theoretical vs Attended Time Analysis](Theoretical-vs-Attended-Time-Analysis.md)
 
 ## Abwesenheitsanspruch melden
 
