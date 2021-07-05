@@ -5,10 +5,12 @@ tags:
 # Theoretical vs Attended Time Analysis
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Erstellen sie Bericht zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement.
+Erstellen sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement.
 
 Technischer Name: `hr_attendance_report_theoretical_time`\
 Repository: <https://github.com/OCA/hr-attendance/tree/13.0/hr_attendance_report_theoretical_time>
+
+* [HR Holidays Public](HR-Holidays-Public.md)
 
 ## Abwesenheitstyp in theoretischen Stunden einbeziehen
 
