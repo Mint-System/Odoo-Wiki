@@ -7,7 +7,8 @@ tags:
 
 Personalmanagement für moderne Unternehmen.
 
-* [HR Birthday Calender](HR Birthday Calender.md)
+* [HR Birthday Calender](HR-Birthday-Calender.md)
+* [HR Shortname](HR-Shortname.md)
 
 ## Allgemein
 
