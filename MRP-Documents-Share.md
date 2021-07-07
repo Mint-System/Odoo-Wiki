@@ -24,9 +24,15 @@ Im Feld *Url* fügen sie den öffentliche Link hinzu.
 
 ![](assets/MRP%20Documents%20Share%20Url%20hinzufügen.png)
 
-Wenn sie eine Bestellung auslösen, erscheint der Link auf dem PDF und der Portal-Ansicht.
+Wenn sie eine Bestellung auslösen, erscheint der Link auf dem Bericht und der Portal-Ansicht.
+
+Bericht:
 
 ![](assets/MRP%20Documents%20Share%20Bestellung.png)
+
+Portal-Ansicht:
+
+![](assets/MRP%20Documents%20Share%20Portal%20Ansicht.png)
 
 Falls das Produkt produziert wird, sehen sie in der Workcenter-Tablet-Ansicht den Link auf die Zeichnung.
 
