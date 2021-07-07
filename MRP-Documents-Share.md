@@ -28,6 +28,10 @@ Wenn sie eine Bestellung auslösen, erscheint der Link auf dem PDF und der Porta
 
 ![](assets/MRP%20Documents%20Share%20Bestellung.png)
 
+Falls das Produkt produziert wird, sehen sie in der Workcenter-Tablet-Ansicht den Link auf die Zeichnung.
+
+![](assets/MRP%20Documents%20Share%20Operation%20Drawing%20Link.png)
+
 ## Alle Produktionsdokumente anzeigen
 
 Die hinterlegten Zeichnung und Step-Dateien können sie auf einer Listenanischt anzeigen lassen. Navigieren sie nach *Fertigung > Produkte > Produktionsdokumente*.
