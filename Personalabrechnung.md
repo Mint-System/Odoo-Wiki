@@ -209,3 +209,7 @@ Eine verbuche Lohnabrechnung lässt sich nicht mehr löschen oder abbrechen. Zum
 ::: warning
 Falls es auf dem Eintrag eine verknüpfte Buchung gibt, wird diese ebenfalls gelöscht.
 :::
+
+### Lohnbuchungen abgleichen
+
+Standardmässig werden die auszuzahlenden Löhne auf dem Lohndurchlaufkonto verbuch. Erfasst man für einen Lohnlauf eine Zahlung, importiert diese ins eBanking und gleicht den Beleg später wieder ab, muss der Beleg mit dem Lohndurchlaufkonto abgeglichen werden. 
