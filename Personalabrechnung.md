@@ -212,4 +212,4 @@ Falls es auf dem Eintrag eine verknüpfte Buchung gibt, wird diese ebenfalls gel
 
 ## Lohnbuchungen abgleichen
 
-Standardmässig werden die auszuzahlenden Löhne auf dem Lohndurchlaufkonto verbuch. Erfasst man für einen Lohnlauf eine Zahlung, importiert diese ins eBanking und gleicht den Beleg später wieder ab, muss der Beleg mit dem Lohndurchlaufkonto abgeglichen werden. 
+Standardmässig werden die auszuzahlenden Löhne auf dem Lohndurchlaufkonto verbucht. Erfasst man für einen Lohnlauf eine Zahlung, importiert diese ins eBanking und gleicht den Beleg später wieder ab, müssen sie den Beleg mit dem Lohndurchlaufkonto manuell abgleichen. 
