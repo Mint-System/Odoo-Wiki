@@ -3,7 +3,7 @@ tags:
 - HowTo
 ---
 # Bank Account Camt54 Import
-![](assets/icon_odoo_product_barcode.png)
+![icon_oca_app](assets/icon_oca_app.png)
 
 Technischer Name: `account_statement_import_camt54`\
 Repository: <https://github.com/OCA/bank-statement-import/tree/14.0/account_statement_import_camt54>
