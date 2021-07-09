@@ -40,3 +40,4 @@ Implementation Geschäftsprozesse in Odoo.
 - [Lagerorte](Best-Practice-Lagerorte.md)
 - [Lager Vorgangstypen](Best-Practice-Lager-Vorgangstypen.md)
 - [Berechtigungen für Zeiterfassung](Best-Practice-Berechtigungen-für-Zeiterfassung.md)
+- [Einkauf Bestellmenge ändern](Best-Practice-Einkauf-Bestellmenge-ändern.md)
