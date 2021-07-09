@@ -7,6 +7,8 @@ tags:
 
 Ihre Buchhaltung einfach und korrekt.
 
+* [Bank Account Camt54 Import](Bank-Account-Camt54-Import.md)
+
 ## Kontenplan einrichten
 
 Öffnen sie die Finanz-App und richten Sie den Standard-Kontenplan ein. Navigieren sie nach *Finanzen > Konfiguration > Finanzen > Kontenplan*.
