@@ -1,0 +1,9 @@
+{
+  "strictLineBreaks": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "assets",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "trashOption": "local",
+  "promptDelete": false
+}
