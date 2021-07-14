@@ -68,38 +68,17 @@ Durch einen Verkaufsauftrag entsteht Warenbedarf der (falls nicht im Lager vorha
 
 Durch einen Verkaufsauftrag entsteht automatisch ein Lieferauftrag. Die Verbindung wird über einen entsprechenden *Smart Button* oben rechts sichtbar.
 
-## Proforma-Rechnung anpassen
-
-Mit Odoo [Studio](Studio.md) können sie einfach die Proforma-Rechnung mit neuen Feldern ergänzen oder spezifischen Bedürfnissen anpassen. Für komplizierte Fälle wie eine bedingungsbasierte Anzeige eines Feldes muss der Bericht im Entwicklermodus direkt bearbeitet werden. Dazu folgendes Bespiel einer Anpassung: 
-
-```xml
-<data>
-  <xpath expr="/t/t/div/table/tbody/t[2]/tr/t[1]/td[1]/span" position="after">
-    <t t-if="is_pro_forma">
-      <t t-if="line.product_id.hs_code">
-        <br/>
-        <span>Zolltarifnummer: </span>
-        <span t-field="line.product_id.hs_code"/>
-      </t>
-    </t>
-  </xpath>
-  <xpath expr="/t/t/div/p[2]" position="after">
-    <t t-if="is_pro_forma">
-        <span>
-          <p>Der Unterzeichner erklärt, dass die in diesem Dokument aufgeführten Waren und Ursprungserzeugnisse der Schweiz sind und den Ursprungsregeln im Präferenzverkehr mit der EU entsprechen.<br/><br/></p>
-          <p>Unterschrift: _______________________    Datum: _______________________<br/>                        Velo Manufaktur AG<br/></p>
-        </span>
-    </t>
-  </xpath>
-</data>
-```
-
 ## Rabatte hinzufügen
 
 Soll bei ein Produkt in der Rechnung mit einem Rabatt verkauft werden, so kann je Auftragszeile einen indivduellen Rabatt manuell eingefügt werden.
 
 ![](assets/Verk%C3%A4ufe%20Auftragszeilen%20mit%20Rabatt.png)
 
+Entsprechend wird der Rabatt auf der Rechnung augeweisen.
+
 ![](assets/Verk%C3%A4ufe%20Ansicht%20Rabatt%20in%20der%20Rechnung.png)
 
-#FIXME 
+## Upselling auflösen
+
+Ist ein Verkaufsauftrag im Status *Zusatzverkaufschance* wurde bei der Erstellung der Rechnung neue Positionen hinzugefügt oder bei einer bestehenden eine zusätzliche Menge in Rechnung gestellt. Damit der Verkaufsauftrag als *Abgrechnet* angezeigt wird, geht man wie folgt vor. Öffnen sie den Verkaufsauftrag und wählen sie *Abbrechen*. Anschliessend klicken sie auf *Setze auf Angebot*  und *Bestätigen*. Nun wurde die zusätzliche Position im Verkaufsauftrag registriert.
+
