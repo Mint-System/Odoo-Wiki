@@ -76,5 +76,3 @@ Beispiel Produkt für internen Transfer verpacken:
 ## Verpackung verpacken
 
 #FIXME 
-
-#

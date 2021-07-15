@@ -67,6 +67,10 @@ Klicken sie auf den Link und validieren sie die Abwesenheit.
 
 Navigieren sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Wählen sie hier den Abwesenheitstyp aus und bearbeiten sie diesen gemäss den Anforderungen.
 
+## Abwesenheit entfernen
+
+Wurde eine Abwesenheit einmal erfasst, kann sie nicht mehr gelöscht werden (asser vom Administator). Möchte man dennoch eine Abwesenheit entfernen, muss der Vorgesetzte diese ablehnen. Im Status *Verworfen* wird der Kalendereintrag des Mitarbeiters entfernt..
+
 ## Verantwortliche festlegen
 
 Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen sie den Tab *Arbeitsinformationen* und wählen sie *Bearbeiten*. Tragen sie den Vorgesetzen im Feld *Abwesenheitszeiten* ein. Standardmässig wird der *Manager* übernommen.
@@ -75,9 +79,9 @@ Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen sie den Tab *Arbei
 
 Damit Mitarbeiter ihre Überstunden kompensieren können, braucht es einen entsprechenden Abwesenheitstyp.
 
-Navigieren sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und erstellen einen neuen Eintrag. Wählen sie als *Work Entry Type* *Anwesend* und *Einheit der Abwesenheit* *Stunden*.
+Navigieren sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und erstellen einen neuen Eintrag. Wählen sie als *Work Entry Type*: *Anwesend* und für *Einheit der Abwesenheit*: *Stunden*.
 
-#FIXME
+Über den normalen Genemigungsprozess können so Mitarbeiter ihre Überstunden als Anwesenheit registrieren lassen.
 
 ## Überstunden beziehen
 
