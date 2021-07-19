@@ -9,7 +9,14 @@ tags:
 ### camt
 
 camt steht für cash management. Die Informationsdateien werden durch die elektronischen Bankingsysteme der Banken dem Geschäftskunden automatisch oder auf Abruf zur Verfügung gestellt. 
-Diese Dateien kann durch Odoo im App Finanzen eingelesen und verarbeitet werden. 
+
+Man unterscheidet folgende camt-Nachrichten:
+- camt.052 für untertägige Kontoauszüge, Vormerkposten (vorher MT942-Datei)
+- camt.053 für gebuchte Kontoauszüge (vorher MT940 und MT950-Datei)
+- camt.054 für Details zu Sammelbuchungen (vorher DTI)
+- camt.056 für Recall im Überweisungssystem bei Fehlern und irregulären Vorgängen
+ 
+Die Dateien camt053 und camt054 kann durch Odoo im App Finanzen eingelesen und verarbeitet werden. 
 
 Durch die Angabe von Detailinformationen wie Bankdaten der Buchungs-Gegenseite, Mandat-ID und EndToEndId ist die Zuordnung von Zahlungen zu "Offene Posten" einfacher als mit den alten Formaten.
 

@@ -50,3 +50,9 @@ Beim der Duplizierung eines Projekts werden deren Aufgaben und Stufen mitkopiert
 Um ein Projekt zu duplizieren führen sie folgende Aktion aus *Projekt > Projekt wählen > Übersicht > Smart-Link Projekt > Aktion > Duplizieren*.
 
 ![Projekt duplizieren](assets/Projekt%20duplizieren.gif)
+
+## Gantt-Ansicht anzeigen
+
+Die Gantt-Ansicht kann via *Projekt > Alle Aufgaben* angezeigt werden.
+
+![](assets/Projekt%20Gantt-Ansicht%20aktiviert.png)

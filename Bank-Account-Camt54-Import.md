@@ -5,7 +5,7 @@ tags:
 # Bank Account Camt54 Import
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Camt54 Bankauszug importieren.
+Camt54 Bankauszug mit den Details zu Sammelbuchungen (vorher DTI) importieren.
 
 Technischer Name: `account_statement_import_camt54`\
 Repository: <https://github.com/OCA/bank-statement-import/tree/14.0/account_statement_import_camt54>
