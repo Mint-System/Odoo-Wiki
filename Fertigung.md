@@ -6,7 +6,7 @@ tags:
 ![icons_odoo_mrp](assets/icons_odoo_mrp.png)
 
 * [Fertigung Stammdaten](Fertigung-Stammdaten.md)
-* [Fertigung Fertigungsauftrag Abbrechen](Fertigungsauftrag-Abbrechen.md)
+* [Cancel Manufacturing Order](Cancel-Manufacturing-Order.md)
 * [Product Barcode Generator](Product-Barcode-Generator.md)
 * [Product Name Sequence](Product-Name-Sequence.md)
 * [Product Sequence](Product-Sequence.md)

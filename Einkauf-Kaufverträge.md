@@ -5,6 +5,8 @@ tags:
 # Einkauf Kaufverträge
 ![icons_odoo_purchase](assets/icons_odoo_purchase.png)
 
+Kaufvertäge für Rahmenbestellungen erstellen.
+
 ## Kaufvertrag anlegen
 
 Navigieren sie nach *Einkauf > Aufträge > Kaufverträge*.

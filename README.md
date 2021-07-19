@@ -40,7 +40,7 @@ Neue Apps installieren und aktualisieren.
 
 Anleitung zur Odoo-App Certificate Planner.
 
-![icon_odoo_certificate_planner](assets/icon_odoo_certificate_planner.png)
+![icon_odoo_certificate_planner](assets/icon_odoo_certificate_planer.png)
 
 ### [Dashboards](Dashboards.md)
 

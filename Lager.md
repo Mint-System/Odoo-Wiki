@@ -7,8 +7,6 @@ tags:
 
 Maximieren sie die Effizienz Ihres Lagers.
 
-## Lagerorte erfassen
-
 ## Erweiterte Vorgangstypen einrichten
 
 Wenn in den Einstellungen für das Lager die Option *Mehrstufige Routen* eingeschaltet wird, erweitert sich die Liste der Vorgangstypen mit *Interne Transfers*. Die neue Liste zeigt sich wie folgt:
@@ -53,14 +51,6 @@ Falls ein nicht gelistetes Produkt gezählt wird, kann über *Anlegen* eine neue
 
 Befüllen sie nun die Spalte *Gezählt* entsprechend der gezählten Quantität pro Produkt. Nach der abgeschlossenen Zählung wird mit *Bestandsbuchung Durchführen* der korrigierte Bestand gebucht. Das Protokoll kann über *Print Count Sheet* erstellt werden.
 
-## Auslieferung priorisieren
-
-#FIXME
-
-::: tip
-Durch Aktivierung des Sterns im Objekt der Auslieferung wird der Auftrag priorisiert.
-:::
-
 ## Produktverpackung erfassen
 
 Um die verschiedenen Produktverpackungen zu erfassen navigieren sie zu folgender Einstellung: *Lager > Konfiguration > Produkte > Produktverpackungen*.
@@ -72,7 +62,3 @@ Um die verschiedenen Produktverpackungen zu erfassen navigieren sie zu folgender
 Beispiel Produkt für internen Transfer verpacken:
 
 ![Lager Verpackungen Beispiel](assets/Lager%20Verpackungen%20Beispiel.gif)
-
-## Verpackung verpacken
-
-#FIXME 

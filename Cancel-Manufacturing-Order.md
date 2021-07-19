@@ -1,9 +1,12 @@
 ---
 tags:
 - HowTo
+- Drittanbieter
 ---
-# Fertigungsauftrag Abbrechen
+# Cancel Manufacturing Order
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
+
+Fertigungsauftrag rückgängig machen.
 
 Technischer Name: `eq_cancel_mrp_orders`\
 Repository: <https://gitlab.com/mint-system/odoo-app-cancel-manufacturing-order>

@@ -1,4 +1,10 @@
 # Lohnmeldung
+![](assets/odoo_icon_gioardano.png)
+
+Lohnmeldungen ganz einfach generieren.
+
+Technischer Name: `gio_generic_excel_addon`\
+Repository: <https://gitlab.com/mint-system/odoo-app-generic-excel-addon>
 
 ## Excel-Konfiguration einrichten
 

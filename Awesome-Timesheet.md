@@ -6,6 +6,8 @@ tags:
 # Awesome Timesheet
 ![](assets/icon_awesome_timesheet.png)
 
+Mobile Zeiterfassung.
+
 ## Awesome Timesheet installieren
 
 Um die mobile App *Awesome Timesheet* in ihrem Browser oder auf dem Smartphone zu verwenden, müssen sie es zuerst über den jeweiligen App-Store installieren.

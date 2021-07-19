@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+- OCA
 ---
 # BI SQL Editor
 ![icon_oca_app](assets/icon_oca_app.png)

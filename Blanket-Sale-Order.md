@@ -1,13 +1,16 @@
 ---
 tags:
 - HowTo
+- Drittanbieter
 ---
 
-# Verkäufe Rahmenbestellungen
+# Blanket Sale Order
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 
+Rahmenverträge für Verkäufe erstellen.
+
 Technischer Name: `dev_blanket_sale_order`\
-Repository: `https://gitlab.com/mint-system/odoo-app-blanket-sale-order`
+Repository: <https://gitlab.com/mint-system/odoo-app-blanket-sale-order>
 
 ## Rahmenbestellungen anzeigen
 

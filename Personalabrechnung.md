@@ -7,6 +7,9 @@ tags:
 
 Personalbrechnungen schnell und einfach erstellen.
 
+Technischer Name: `gio_payroll_custom`\
+Repository: <https://gitlab.com/mint-system/odoo-app-hr-payroll-share>
+
 * [Lohnmeldung](Lohnmeldung.md)
 
 ## Pesonalabrechnung initialisieren

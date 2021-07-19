@@ -130,6 +130,14 @@ Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist di
 
 Die Bereiche bzw. Unterseite werden in der Hauptseite aufgelistet.
 
+### OCA-Apps
+
+Dokumentation zu den OCA-Apps müssen diese Vorgaben erfüllen:
+* Stanard OCA-icon
+* Titel ist gleich dem Titel im Repository
+* Repository-Link zeigt auf aktuelle Odoo-Version
+
+
 ### Namensbereiche
 
 Die foglenden Namensbereiche sind reserviert:

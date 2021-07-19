@@ -1,9 +1,12 @@
 ---
 tags:
 - HowTo
+- Drittanbieter
 ---
 # Product Name Sequence
 ![](assets/icon_product_name_sequence.png)
+
+Generate product names based on a sequence.
 
 Technischer Name: `product_name_sequence`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/14.0/product_name_sequence>

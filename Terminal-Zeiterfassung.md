@@ -5,6 +5,8 @@ tags:
 # Terminal Zeiterfassung
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
 
+Ein- und auschecken mit dem Terminal Zeiterfassung.
+
 ## RFID-Karte registrieren
 
 Damit Mitarbeiter sich mit einer RFID-Chip anmelden können, muss die Chip-Nummer hinterlegt werden.

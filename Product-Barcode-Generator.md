@@ -1,9 +1,12 @@
 ---
 tags:
 - HowTo
+- Drittanbieter
 ---
 # Product Barcode Generator
 ![](assets/icon_odoo_product_barcode.png)
+
+Autogenerate EAN13 product barcodes.
 
 Technischer Name: `product_barcode`\
 Repository: <https://github.com/CybroOdoo/CybroAddons/tree/14.0/product_barcode>

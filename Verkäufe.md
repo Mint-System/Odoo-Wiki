@@ -8,8 +8,9 @@ tags:
 
 Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung. 
 
-* [Verkäufe Rahmenbestellungen](Verk%C3%A4ufe-Rahmenbestellungen.md)
-* [Standard Verkaufs-Lieferbedienungen pro Partner](Verk%C3%A4ufe-Standard-Verkaufs-Lieferbedienungen-pro-Partner.md)
+* [Blanket Sale Order](Blanket-Sale-Order.md)
+* [Standard Verkaufs-Lieferbedienungen pro Partner](Default-sales-incoterm-per-partner.md)
+* [Sale-Order-Line-Date](Sale-Order-Line-Date.md)
 
 ## Verkäufe Dashboard anzeigen
 

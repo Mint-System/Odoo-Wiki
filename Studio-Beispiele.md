@@ -3,6 +3,10 @@ tags:
 - HowTo
 ---
 # Studio Beispiele
+![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)
+
+
+Beispiele für Anpassungen mit Odoo Studio.
 
 ## IBAN und Bank auf Rechnung anzeigen
 

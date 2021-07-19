@@ -6,7 +6,7 @@ tags:
 # eCommerce
 ![](assets/icons_odoo_website_sale.png)
 
-Websiteshop ohne Integrationsaufwand.
+Webshop ohne Integrationsaufwand.
 
 ## Produkt veröffentlichen
 

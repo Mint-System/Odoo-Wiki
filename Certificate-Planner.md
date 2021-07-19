@@ -1,10 +1,15 @@
 ---
 tags:
 - HowTo
+- Drittanbieter
 ---
 # Certificate Planner
+![](assets/icon_odoo_certificate_planer.png)
 
 Anleitung zur Odoo-App Certificate Planner.
+
+Technisch: `certificate_planer`\
+Repository: <https://github.com/Mint-System/Certificate-Planner>
 
 ## Certificate Planner aufrufen
 

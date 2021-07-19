@@ -10,22 +10,20 @@ Bevor sie im System die erste Rechnung erstellen sollten sie die Abklärungen ma
 
 Sind sie noch nicht Steuerpflichtig, können sie direkt mit dem Verbuchen von Rechnungen beginnen und tragen bei der Steuer nichts ein. Sind sie Steuerpflichtig, dann arbeiten sie am besten nach der Methode Effektive
 Steuerverrechnung und vereinbarten Entgelten. So ist auch die Buchhaltung eingestellt.
-
-DIe Abrechnung nach vereinbarten Entgelten (Art. 39 Abs. 1 MWSTG) ist das Standardverfahren der eidgenössischen Steuerverwaltung.
+Weiterführende Informationen finden sie unter https://fedlex.data.admin.ch/eli/cc/2009/615
 
 ## Abrechnung nach vereinbarten Entelten
 
-DIe Abrechnung nach vereinbarten Entgelten (Art. 39 Abs. 1 MWSTG) ist das Standardverfahren der eidgenössischen Steuerverwaltung. Bei dieser Methode wird die MwSt fällig, sobald die Rechnung dem Kunden gestellt ist. Bezahlt dieser die Rechnung erst in einem späteren Quartal, finanzieren sie als Unternehmer die MwSt vor.
+DIe Abrechnung nach vereinbarten Entgelten ist das Standardverfahren der eidgenössischen Steuerverwaltung. Bei dieser Methode wird die MwSt fällig, sobald die Rechnung dem Kunden gestellt ist. Bezahlt dieser die Rechnung erst in einem späteren Quartal, finanzieren sie als Unternehmer die MwSt vor.
 
 ::: tip
-Beispiel: sie haben eine Physiotherapie Praxis und haben Arbeiten im Wert von CHF 1’000 ausgeführt. Am 25. Juni stellen sie dem Kunden eine Rechnung über CHF 1’077 aus
-(Rechnungsbetrag plus 7.7% MwSt). Der Kunde bezahlt die Rechnung erst später. Als Unternehmer müssen sie die MwSt von CHF 77 vorfinanzieren und nach Abschluss des laufenden Quartals, also Anfang Juli, der Steuerverwaltung abliefern.
+Beispiel: sie haben ein Architekturbüro und haben Arbeiten im Wert von CHF 1’000 ausgeführt. Am 28. Juni stellen sie dem Kunden eine Rechnung über CHF 1’077 aus (Rechnungsbetrag plus 7.7% MwSt). 
+Der Kunde bezahlt die Rechnung in 30 Tagen nach Rechnungserhalt. Als Unternehmer müssen sie die MwSt von CHF 77 vorfinanzieren und nach Abschluss des laufenden Quartals, also Anfang Juli, der Steuerverwaltung abliefern.
 :::
 
 ## Abrechnung nach vereinahmten Entgelten
 
-Die MwSt-Abrechnung nach vereinnahmten Entgelten (Art. 39 Abs. 2 MWSTG) muss
-schriftlich bei der eidg. Steuerverwaltung beantragt werden. So ist die MwSt erst fällig, nachdem sie die Zahlung des Kunden erhalten haben.
+Die MwSt-Abrechnung nach vereinnahmten Entgelten muss schriftlich bei der eidg. Steuerverwaltung beantragt werden. So ist die MwSt erst fällig, nachdem sie die Zahlung des Kunden erhalten haben.
 
 ::: tip
 Beispiel: Wie im Beispiel oben stellen sie dem Kunden eine Rechnung über CHF 1’077 aus (Rechnungsbetrag plus 7.7% MwSt). Die MwSt im Wert von CHF 77 bezahlen sie der Steuerverwaltung erst in dem Quartal, in dem der Kunde die Rechnung bezahlt hat. Zahlt der Kunde die Rechnung erst im Juli, müssen sie die MwSt erst nach Ablauf dieses Quartals abliefern, d.h. Anfang Oktober.
@@ -57,3 +55,9 @@ Bezeichnung auf Rechnungen | Steuerbezeichnung | Steuergültigkeit | Steuerkonto
 2.5% MwSt. exkl. VK | 2,5 % MwSt. exklusiv auf Verkäufe | Verkauf | 2200 |  2200
 
 ## Abrechnung erstellen
+Die MWST-Abrechnung wird je nach Vorgabe der Eidgenössischer Steuerverwaltung quartalsweise oder halbjährlich abgerechnet.
+
+Für das Erstellen der Aberechung gehen sie im App Finanzen im Menü Berichtswesen und rufen das Menü Berichtswesen auf. Hier wählen sie die Aberechungsperiode ab. Zum Beispiel von 01.01 bis 31.03.
+Lassen sie sich nur die gebuchten Posten anzeigen und wählen bei 'Tax report' die Option 'Global Summary'. Die mehrwertsteuerrelevante Umsätze werden angeziegt und können als PDF-Datei oder Export XLSX exportiert werden.
+
+Die einzelenen Mehrwertsteuersätze können mittels "Prüfung" einzeln kontrolliert werden. Beachten sie, das in dieser ansicht alle Rechnungen inkl. Gutschriften angezeigt werden. Die Summe kan somit zum effektiven MWST-Betrag differieren.
