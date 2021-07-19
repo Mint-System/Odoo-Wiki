@@ -141,15 +141,15 @@ if (!firstArg || ['all', 'index'].indexOf(firstArg) >= 0) {
         // Find title
         let title = null
         for (let line of lines) {
-            if (line.startsWith('# ')) {
+            if (line.startsWith('# ') || line.startsWith('## ')) {
                 // Get title
-                title = line.replace('# ','')
+                title = line.replace('## ','').replace('# ','')
             }
         }
 
         // Throw error if title not found
         if (!title) {
-            throw new Error(`Could not find title for  '${file}'.`)
+            throw new Error(`Could not find title for '${file}'.`)
         }
 
         // create file link list
