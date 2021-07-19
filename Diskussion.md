@@ -30,3 +30,17 @@ Aufgabenträger: [Administrator](Rollen.md#Administrator)
 Um sicherzustellen, dass Odoo Nachrichten am richtigen Ort platziert, kann man als Administrator des Systems Testnachrichten erstellen und verschicken.
 
 Öffnen sie *Einstellungen > Diskussion > Externe E-Mail-Server > Eintrag auswählen > Aktion > Nachrichten*. Mit *Anlegen* könne sie nun ein Nachricht erfassen und verschicken.
+
+## Versendete Nachrichten betrachten
+
+Nachrichten, die von Odoo versendet werden, werden zentral gespeichert. Im Entwicklermodus sehen sie diese unter *Einstellungen > Technisch > E-Mail > Nachrichten*. Hier sehen sie alle versendeten Nachrichten aufgelistet. In der Detailansicht sieht man den *Nachrichtentext* und die Metadaten.
+
+![](assets/Diskussion%20Detailansicht.png)
+
+Jede versendete Nachricht erhält eine eindeutige *Nachrichten-ID*.
+
+![](assets/Diskussion%20Nachrichten-ID.png)
+
+Wurde die Nachricht als Mail versendet, können sie im Tab *Empfänger* die Kontakte sehen.
+
+![](assets/Diskussion%20Empfänger.png)
