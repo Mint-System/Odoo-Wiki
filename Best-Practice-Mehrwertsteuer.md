@@ -18,18 +18,17 @@ DIe Abrechnung nach vereinbarten Entgelten (Art. 39 Abs. 1 MWSTG) ist das Standa
 DIe Abrechnung nach vereinbarten Entgelten (Art. 39 Abs. 1 MWSTG) ist das Standardverfahren der eidgenössischen Steuerverwaltung. Bei dieser Methode wird die MwSt fällig, sobald die Rechnung dem Kunden gestellt ist. Bezahlt dieser die Rechnung erst in einem späteren Quartal, finanzieren sie als Unternehmer die MwSt vor.
 
 ::: tip
-Beispiel: sie haben eine Physiotherapie Praxis und haben Arbeiten im Wert von CHF 1’000 ausgeführt. Am 25. Juni stellen sie dem Kunden eine Rechnung über CHF 1’080 aus
-(Rechnungsbetrag plus 8% MwSt). Der Kunde bezahlt die Rechnung erst später. Als Unternehmer müssen sie die MwSt von CHF 80 vorfinanzieren und nach Abschluss des laufenden Quartals, also Anfang Juli, der Steuerverwaltung abliefern.
+Beispiel: sie haben eine Physiotherapie Praxis und haben Arbeiten im Wert von CHF 1’000 ausgeführt. Am 25. Juni stellen sie dem Kunden eine Rechnung über CHF 1’077 aus
+(Rechnungsbetrag plus 7.7% MwSt). Der Kunde bezahlt die Rechnung erst später. Als Unternehmer müssen sie die MwSt von CHF 77 vorfinanzieren und nach Abschluss des laufenden Quartals, also Anfang Juli, der Steuerverwaltung abliefern.
 :::
 
 ## Abrechnung nach vereinahmten Entgelten
 
 Die MwSt-Abrechnung nach vereinnahmten Entgelten (Art. 39 Abs. 2 MWSTG) muss
-schriftlich bei der eidg. Steuerverwaltung beantragt werden. So ist die MwSt erst fällig,
-nachdem sie die Zahlung des Kunden erhalten haben.
+schriftlich bei der eidg. Steuerverwaltung beantragt werden. So ist die MwSt erst fällig, nachdem sie die Zahlung des Kunden erhalten haben.
 
 ::: tip
-Beispiel: Wie im Beispiel oben stellen sie dem Kunden eine Rechnung über CHF 1’080 aus (Rechnungsbetrag plus 8% MwSt). Die MwSt im Wert von CHF 80 bezahlen sie der Steuerverwaltung erst in dem Quartal, in dem der Kunde die Rechnung bezahlt hat. Zahlt der Kunde die Rechnung erst im Juli, müssen sie die MwSt erst nach Ablauf dieses Quartals abliefern, d.h. Anfang Oktober.
+Beispiel: Wie im Beispiel oben stellen sie dem Kunden eine Rechnung über CHF 1’077 aus (Rechnungsbetrag plus 7.7% MwSt). Die MwSt im Wert von CHF 77 bezahlen sie der Steuerverwaltung erst in dem Quartal, in dem der Kunde die Rechnung bezahlt hat. Zahlt der Kunde die Rechnung erst im Juli, müssen sie die MwSt erst nach Ablauf dieses Quartals abliefern, d.h. Anfang Oktober.
 :::
 
 ## Steuersätze
@@ -56,3 +55,5 @@ Bezeichnung auf Rechnungen | Steuerbezeichnung | Steuergültigkeit | Steuerkonto
 2.5% MwSt. inkl. EK | 2,5 % MwSt. inklusive Einkauf | Einkauf | 1170 | 1170
 2.5% MwSt. inkl. VK | 2,5 % MwSt. inklusive auf Verkauf | Verkauf | 2200 | 2200
 2.5% MwSt. exkl. VK | 2,5 % MwSt. exklusiv auf Verkäufe | Verkauf | 2200 |  2200
+
+## Abrechnung erstellen
