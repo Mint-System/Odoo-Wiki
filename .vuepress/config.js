@@ -27,4 +27,7 @@ module.exports = {
             }
         ]
     ],
+    extendsMarkdown: (md) => {
+        md.use(require('markdown-it-include'))
+    }
 }

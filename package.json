@@ -13,6 +13,7 @@
     "vuepress-plugin-plausible-analytics": "^0.2.1"
   },
   "dependencies": {
+    "markdown-it-include": "^2.0.0",
     "vuepress-plugin-sitemap": "^2.3.1"
   }
 }
