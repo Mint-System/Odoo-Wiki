@@ -41,6 +41,8 @@ Nun ist der Odoo-Dialog übersetzt.
 
 ::: warning
 Speichern sie alle übersetzten Begriffe in einer separaten Notiz. Bei Upgrades können eigene Übersetzungen vom System überschrieben werden.
+
+![](assets/Einstellungen%20Übersetungen%20Noitz.png)
 :::
 
 ## Übersetzungen exportieren
