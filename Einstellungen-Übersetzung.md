@@ -25,9 +25,7 @@ Dann kann man die Übersetzungen über die Einstellungen anzeigen.
 
 ## Übersetzungen erstellen
 
-Odoo wird in viele Sprachen übersetzt, daher kann es sein, dass die Lokalisierung in der eingestellte Sprache unvollständig ist.
-
-Findet man einen Begriff oder Satz, der nicht korrekt übersetzt ist, kann man diesen selbst anpassen. Dazu ein Beispiel.
+Odoo wird in viele Sprachen übersetzt, daher kann es sein, dass die Lokalisierung in der eingestellte Sprache unvollständig ist. Findet man einen Begriff oder Satz, der nicht korrekt übersetzt ist, kann man diesen selbst anpassen. Dazu ein Beispiel.
 
 Der folgende Ausschnitt ist aus einem Odoo-Dialog. Die Labels und Buttons sind nicht übersetzt.
 
@@ -40,6 +38,10 @@ Als erstes muss man  die [Übersetzungen aktualisieren](Einstellungen-%C3%9Cbers
 Nun ist der Odoo-Dialog übersetzt.
 
 ![Odoo Übersetzung nachher](assets/Einstellungen%20%C3%9Cbersetzung%20nachher.png)
+
+::: warning
+Speichern sie alle übersetzten Begriffe in einer separaten Notiz. Bei Upgrades können eigene Übersetzungen vom System überschrieben werden.
+:::
 
 ## Übersetzungen exportieren
 
