@@ -62,3 +62,9 @@ Um die verschiedenen Produktverpackungen zu erfassen navigieren sie zu folgender
 Beispiel Produkt für internen Transfer verpacken:
 
 ![Lager Verpackungen Beispiel](assets/Lager%20Verpackungen%20Beispiel.gif)
+
+## Ablaufdatum aktivieren
+
+Für Produkte in Lots oder Produkte mit Seriennummer könne sie ein Ablaufdatum festlegen. Öffnen sie das Produkt via *Lager > Produkte > Produkte* und zeigen sie den Tab *Lager* an. Unter Lieferfolgung müssen sie eine Option für *Nachverfolung* auswählen. Nun erscheint die Checkbox *Ablaudatum*. Aktivieren sie diese und konfigurieren sie die Ablaufzeiten.
+
+![](assets/Lager%20Ablaufdatum%20konfiguriert.png)
