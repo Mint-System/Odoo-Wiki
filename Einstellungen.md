@@ -52,6 +52,8 @@ Damit Besucher der Website sich im Odoo-Portal registrieren könne muss die Opti
 
 Die Darstellung der generierten Dokumente kann einfach angepasst werden. Navigieren sie nach *Einstellungen > Allgemeine Einstellungen > Geschäftsunterlagen* und wählen sie *Dokumentlayout konfigurieren* aus. Die hier ausgewählte Dokumentvorlage wird für alle Berichte übernommen.
 
+![](assets/Einstellungen%20Dokumentlayout.png)
+
 ## Rollen erstellen
 
 ::: warning
