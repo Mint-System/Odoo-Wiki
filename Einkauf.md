@@ -7,19 +7,22 @@ tags:
 
 Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
 
-- [Einkauf-Kaufverträge](Einkauf-Kaufverträge.md)
+* [Einkauf-Kaufverträge](Einkauf-Kaufverträge.md)
 
 ## Angebotsanfrage erstellen
 
 Über *Anlegen* wird eine Angebotsanfrage eröffnet. Die Felder der Eingabemaske sind gemäss folgender Tabelle zu editieren:
 
-![Einkauf Felder](assets/Einkauf%20Felder.svg)
+| Bezeichnung         | Beschreibung                                                                                                                             |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Lieferant           | Es erscheinen alle Einträge der Liste "Kontakte" zur Auswahl.                                                                            |
+| Lieferantenreferenz | Referenz zur Bezeichnung seitens Lieferanten (ist zum Beispiel nützlich um beim Wareneingang einen Zusammenhang zu schaffen).            |
+| Währung             | Die gemäss Optionen eingeschaltenen Währung erscheinen zur Auswahl.                                                                      |
+| Order Deadline      | Der geplante Zeitpunkt, wann die Bestellung zum Auftrag werden soll.                                                                     |
+| Lieferdatum         | Der erwartete Lieferzeitpunkt. Dieses Datum wird für die Prognosen verwedent.                                                            |
+| Ask confirmation    | Wenn die Option eingeschaltet ist, erhält der Lieferant automatisch eine eMail-Erinnerung in der er den Lieferzeitpunkt bestätigen muss. |
 
-**Produkte einfügen**
-
-Im Register Produkte werden die gewünschten Artikel gelistet. Folgende Felder stehen zur Verfügung:
-
-![Einkauf Felder Produkte](assets/Einkauf%20Felder%20Produkte.svg)
+Im Register Produkte werden die gewünschten Artikel gelistet. 
 
 ## Angebotsanfrage senden
 
