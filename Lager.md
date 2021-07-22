@@ -16,22 +16,13 @@ Wenn in den Einstellungen für das Lager die Option *Mehrstufige Routen* eingesc
 3. Lieferaufträge
 4. Manufacturing
 
-Die Option "Mehrere Lagerorte" wird automatisch eingeschaltet und es erscheinen im Menu die neuen Funktion *Lagerorte* und *Regeln*.
+Die Option *Mehrere Lagerorte* wird automatisch eingeschaltet und es erscheinen im Menu die neuen Funktion *Lagerorte* und *Regeln*.
 
-**Variante 3**
-
-Wenn für die Lieferungsschritte die Variante *3 Schritte* (siehe oben) gewählt wird, werden die Vorgangstypen mit *Pick* und *Pack* erweitert. Die neue Liste zeigt sich wie folgt:
-
-1. Anlieferungen
-2. Interne Transfers
-3. Pick
-4. Pack
-5. Lieferaufträge
-6. Manufacturing
+![](assets/Lager%20Erweitertes%20Menu.png)
 
 ## Inventur vorbereiten
 
-Navigieren sie zum Menu *Vorgänge > Inventur*. Mit dem Knopf *Anlegen* erstellen sie einen Inventurauftrag. Befüllen sie die Felder gemäss untenstehender Tabelle.
+Navigieren sie zum Menu *Lager > Vorgänge > Inventur*. Mit dem Knopf *Anlegen* erstellen sie einen Inventurauftrag. Befüllen sie die Felder gemäss untenstehender Tabelle.
 
 | Bezeichnung                       | Beschreibung                                                                                    |
 | --------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -45,9 +36,7 @@ Navigieren sie zum Menu *Vorgänge > Inventur*. Mit dem Knopf *Anlegen* erstelle
 
 ## Inventur durchführen
 
-Starten sie die vorbereitete Inventur mit *Inventur Starten*.
-
-Falls ein nicht gelistetes Produkt gezählt wird, kann über *Anlegen* eine neue Position eingefügt werden.
+Starten sie die vorbereitete Inventur mit *Inventur Starten*. Falls ein nicht gelistetes Produkt gezählt wird, kann über *Anlegen* eine neue Position eingefügt werden.
 
 Befüllen sie nun die Spalte *Gezählt* entsprechend der gezählten Quantität pro Produkt. Nach der abgeschlossenen Zählung wird mit *Bestandsbuchung Durchführen* der korrigierte Bestand gebucht. Das Protokoll kann über *Print Count Sheet* erstellt werden.
 
@@ -59,7 +48,7 @@ Um die verschiedenen Produktverpackungen zu erfassen navigieren sie zu folgender
 
 ## Produkt verpacken
 
-Beispiel Produkt für internen Transfer verpacken:
+Für einen internen Transfer verpacken sie ein Produkt wie folgt:
 
 ![Lager Verpackungen Beispiel](assets/Lager%20Verpackungen%20Beispiel.gif)
 
@@ -68,3 +57,7 @@ Beispiel Produkt für internen Transfer verpacken:
 Für Produkte in Lots oder Produkte mit Seriennummer könne sie ein Ablaufdatum festlegen. Öffnen sie das Produkt via *Lager > Produkte > Produkte* und zeigen sie den Tab *Lager* an. Unter Lieferfolgung müssen sie eine Option für *Nachverfolung* auswählen. Nun erscheint die Checkbox *Ablaudatum*. Aktivieren sie diese und konfigurieren sie die Ablaufzeiten.
 
 ![](assets/Lager%20Ablaufdatum%20konfiguriert.png)
+
+## Sicherheitsvorlaufzeiten definieren
+
+Die Sicherheitsvorlaufzeiten können sie zentral unter *Einstellungen > Lager > Erweiterte Planung* festlegen. Aktivieren sie für jeweilige Vorlaufzeit die Checkbox und tragen sie die gewünschten Zeiten ein.
