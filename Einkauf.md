@@ -7,7 +7,9 @@ tags:
 
 Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
 
-* [Einkauf-Kaufverträge](Einkauf-Kaufverträge.md)
+* [Einkauf Kaufverträge](Einkauf-Kaufverträge.md)
+* [Purchase Order Line Date](Purchase-Order-Line-Date.md)
+* [Purchase Partner Incoterm](Purchase-Partner-Incoterm.md)
 
 ## Angebotsanfrage erstellen
 
