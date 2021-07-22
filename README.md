@@ -18,9 +18,15 @@ Dieses Handbuch wird von der [Mint System GmbH](https://www.mint-system.ch/) unt
 ## [Best Practice](Best-Practice.md)
 ## HowTos
 
+### [Abrechnung](Abrechnung.md)
+
+Online Rechnungsstellung leicht gemacht.
+
+![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)
+
 ### [Abwesenheitszeiten](Abwesenheitszeiten.md)
 
-Verwaltung von Mitarbeiterurlauben & Abwesenheit
+Verwaltung von Mitarbeiterurlauben & Abwesenheit.
 
 ![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)
 
