@@ -34,6 +34,10 @@ Für Bestellungen via Webshop können sie festlegen, ob die Abrechnung nach Best
 
 ![](assets/eCommerce%20Fakturierungsregel.png)
 
+Diese Einstellungen kann vom einzelnen Produkt übersteuert werden. Sehen sie *Website > Produkte > Produkt auswählen > Tab Verkauf*.
+
+![](assets/eCommerce%20Fakturierungsregel%20auf%20Produkt.png)
+
 ::: warning
 Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzurechendende Menge des Verkaufsauftrag aktualisiert werden. Nur dann wird das zusätzliche Produkt auf die Rechnung übertragen.
 :::

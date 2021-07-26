@@ -26,3 +26,5 @@ Benötigte Informationen:
 Beim ersten Login erscheint die Meldung, dass die Odoo-Installation nicht aktiviert ist. 
 
 ![](assets/Intialisierung%20Odoo%20Enterprise%20aktivieren.png)
+
+
