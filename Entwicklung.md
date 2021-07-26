@@ -176,3 +176,21 @@ Ansichtsbezeichnung: `mint_system.hr_holidays.hr_leave_view_tree.remove_payslip`
 
 </data>
 ```
+
+## Berichte als HTML anzeigen
+
+Alle von Odoo generierten Berichte können unter einer bestimmten URL als HTML angezeigt werden. Diese URL besteht aus dem technischen Berichtsnamen und der ID des anzuzeigenden Geschäftsobjekt. Dazu ein Beispiel anhand des Lieferscheins.
+
+Öffnen sie einen Lieferschein via *Lager > Vorgänge > Transfers* und merken sie sich die folgenden Elemente der angezeigeigten URL: /web#**id=3**&action=348&**model=stock.picking**&view_type=form&cids=1&menu_id=208
+
+Navigieren sie nun zu **Einstellungen > Technisch > Aktionen > Berichte**. Filtern sie die Liste nach dem *Name* des Berichts oder dem *Modellname*.
+
+![](assets/Entwicklung%20Berichte%20filtern.png)
+
+Wählen sie den Bericht aus und notieren sie den *Vorlagenname* des Berichts.
+
+![](assets/Entwicklung%20Bericht%20Vorlagenname.png)
+
+Nun haben sie alle Elemente um den Bericht als HTML anzuzeigen. Geben sie die folgende URL ein: /report/html/**stock.report_deliveryslip**/**3**
+
+![](assets/Entwicklung%20Bericht%20angezeigt.png)
