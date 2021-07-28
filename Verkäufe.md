@@ -9,8 +9,9 @@ tags:
 Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung. 
 
 * [Blanket Sale Order](Blanket-Sale-Order.md)
-* [Standard Verkaufs-Lieferbedienungen pro Partner](Default-sales-incoterm-per-partner.md)
+* [Default sales incoterm per partner](Default-sales-incoterm-per-partner.md)
 * [Sale-Order-Line-Date](Sale-Order-Line-Date.md)
+* [Sale Blanket Order](Sale-Blanket-Order.md)
 
 ## Verkäufe Dashboard anzeigen
 
@@ -18,7 +19,7 @@ Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung.
 
 ## Angebot erstellen
 
-Erstellen sie mit dem Knopf *Anlegen* ein neues Angebot.
+Erstellen sie mit dem Knopf *Anlegen* ein neues Angebot. Befüllen sie die Kopfdaten gemäss folgender Tabelle:
 
 | Bezeichnung       | Beschreibung                                                  |
 | ----------------- | ------------------------------------------------------------- |
@@ -26,9 +27,6 @@ Erstellen sie mit dem Knopf *Anlegen* ein neues Angebot.
 | Ablauf            | Frist wie lange das Angebot gültig ist.                       |
 | Preisliste        | Auswahl der relevanten Preisliste                             |
 | Zahlungsbediungen | -                                                             |
-
-Befüllen sie die Kopfdaten gemäss folgender Tabelle:
-![Verkäufe Felder Kopfdaten](assets/Verkäufe%20Felder%20Kopfdaten.svg)
 
 Wählen sie die Line-Items aus den Produkt-Stammdaten gemäss folgender Tabelle:
 
@@ -42,8 +40,6 @@ Wählen sie die Line-Items aus den Produkt-Stammdaten gemäss folgender Tabelle:
 | Preis pro ME | -                                                                             |
 | Vorlaufzeit  | -                                                                             |
 | Steuern      | -                                                                              |
-
-![Verkäufe Felder Auftragszeilen](assets/Verkäufe%20Felder%20Auftragszeilen.svg)
 
 Für jedes Produkt zeigt der Bericht *Forecasted Report* eine detaillierte Übersicht bezüglich Verfügbarkeit. Zu- und Abgänge sowie potentielle Verkäufe werden berücksichtigt.
 

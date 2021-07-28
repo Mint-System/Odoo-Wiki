@@ -12,7 +12,7 @@ Produkte *Engineering* und *Marketing-Beratung*
 
 Damit für diese Arbeiten mit dem Verkauf direkt Projektaufgaben angelegt werden, ist im Register *Verkäufe* im Abschnitt *Dienstverfolgung* folgendes einzustellen:
 
-Create a task in sales order's project
+*Create a task in sales order's project*
 
 Project Template: Entwicklungsprojekt
 

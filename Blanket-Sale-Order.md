@@ -42,7 +42,7 @@ Die bestellte Menge wird im Rahmenvertrag abegzogen.
 
 ![](assets/Odoo%20App%20Verk%C3%A4ufe%20Rahmenbestellungen%20Menge%20aktualisiert.png)
 
-## Verknüpfte Angebot anzeigen
+## Verknüpfte Angebote anzeigen
 
 Zu jedem Rahmenvertrag werden die verknüpften Verkaufsaufträge über die Smart-Links anzezeigt.
 
