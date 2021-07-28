@@ -10,7 +10,7 @@ Bevor sie im System die erste Rechnung erstellen sollten sie die Abklärungen ma
 
 Sind sie noch nicht Steuerpflichtig, können sie direkt mit dem Verbuchen von Rechnungen beginnen und tragen bei der Steuer nichts ein. Sind sie Steuerpflichtig, dann arbeiten sie am besten nach der Methode Effektive
 Steuerverrechnung und vereinbarten Entgelten. So ist auch die Buchhaltung eingestellt.
-Weiterführende Informationen finden sie unter https://fedlex.data.admin.ch/eli/cc/2009/615
+Weiterführende Informationen finden sie unter <https://fedlex.data.admin.ch/eli/cc/2009/615>
 
 ## Abrechnung nach vereinbarten Entelten
 
@@ -42,17 +42,17 @@ Eingangsrechnungen von Lieferanten haben in der Regel MwSt. drauf. Auf diesen Re
 nicht MwST pflichtig: leer  
 MwSt. pflichtig:  7.7% MwSt. exkl. EK / 7.7% MwSt. inkl. EK
 
-Bezeichnung auf Rechnungen | Steuerbezeichnung | Steuergültigkeit | Steuerkonto | Steuerkonto für Erstattungen / Gutschriften
--|-|-|-|-
-0% MwSt. VK | 0% MwSt. Verkauf von Gütern und Dienstleistungen | Verkauf | 2200 | 2200
-7.7% MwSt. inkl. EK | 7.7% MwSt. inklusive auf Einkäufe | Einkauf | 1170 | 1170
-7.7% MwSt. inkl. VK | 7.7% MwSt. inklusive auf Verkäufe | Verkauf 2200 2200
-7.7% MwSt. exkl. VK | 7.7% MwSt. exklusive auf Verkäufe | Verkauf 2200 2200
-7.7% MwSt. exkl. EK | 7.7% MwSt. exklusive auf Einkäufe | Einkauf 1170 1170
-2.5% MwSt. exkl. EK | 2,5 % MwSt. exklusiv auf Einkäufe | Einkauf | 1170 | 1170
-2.5% MwSt. inkl. EK | 2,5 % MwSt. inklusive Einkauf | Einkauf | 1170 | 1170
-2.5% MwSt. inkl. VK | 2,5 % MwSt. inklusive auf Verkauf | Verkauf | 2200 | 2200
-2.5% MwSt. exkl. VK | 2,5 % MwSt. exklusiv auf Verkäufe | Verkauf | 2200 |  2200
+| Bezeichnung auf Rechnungen | Steuerbezeichnung                                | Steuergültigkeit | Steuerkonto | Steuerkonto für Erstattungen / Gutschriften |
+| -------------------------- | ------------------------------------------------ | ---------------- | ----------- | ------------------------------------------- |
+| 0% MwSt. VK                | 0% MwSt. Verkauf von Gütern und Dienstleistungen | Verkauf          | 2200        | 2200                                        |
+| 7.7% MwSt. inkl. EK        | 7.7% MwSt. inklusive auf Einkäufe                | Einkauf          | 1170        | 1170                                        |
+| 7.7% MwSt. inkl. VK        | 7.7% MwSt. inklusive auf Verkäufe                | Verkauf          | 2200        | 2200                                        |
+| 7.7% MwSt. exkl. EK        | 7.7% MwSt. exklusive auf Einkäufe                | Einkauf          | 1170        | 1170                                        |
+| 7.7% MwSt. exkl. VK        | 7.7% MwSt. exklusive auf Verkäufe                | Verkauf          | 2200        | 2200                                        |
+| 2.5% MwSt. inkl. EK        | 2,5 % MwSt. inklusive Einkauf                    | Einkauf          | 1170        | 1170                                        |
+| 2.5% MwSt. exkl. EK        | 2,5 % MwSt. exklusiv auf Einkäufe                | Einkauf          | 1170        | 1170                                        |
+| 2.5% MwSt. inkl. VK        | 2,5 % MwSt. inklusive auf Verkauf                | Verkauf          | 2200        | 2200                                        |
+| 2.5% MwSt. exkl. VK        | 2,5 % MwSt. exklusiv auf Verkäufe                | Verkauf          | 2200        | 2200                                        |
 
 ## Abrechnung erstellen
 Die MWST-Abrechnung wird je nach Vorgabe der Eidgenössischer Steuerverwaltung quartalsweise oder halbjährlich abgerechnet.
