@@ -10,7 +10,7 @@ Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung.
 
 * [Blanket Sale Order](Blanket-Sale-Order.md)
 * [Default sales incoterm per partner](Default-sales-incoterm-per-partner.md)
-* [Sale-Order-Line-Date](Sale-Order-Line-Date.md)
+* [Sale Order Line Date](Sale-Order-Line-Date.md)
 * [Sale Blanket Order](Sale-Blanket-Order.md)
 
 ## Verkäufe Dashboard anzeigen
