@@ -248,8 +248,7 @@ if (!firstArg || ['all', 'assets'].indexOf(firstArg) > 0) {
         // move asset file
         fs.renameSync(path.join(__dirname, assetsFolder,file), path.join(__dirname, newfile))
     })
-
-        
+ 
     // log
     console.log('Moving assets finished.')
 }
