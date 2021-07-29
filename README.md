@@ -276,6 +276,6 @@ Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)  
 
-## Mitarbeit
+## [Mitarbeit](Mitarbeit.md)
 
-Sie können eine Kopie des Handbuchs erstellen und für eigene Zwecke nutzen. Ebenfalls können sie Änderungen mitteilen und mit dem offizielen Handbuch zusammenführen. Mehr dazu unter [Mitarbeit](Mitarbeit.md)
+Sie können eine Kopie des Handbuchs erstellen und für eigene Zwecke nutzen. Ebenfalls können sie Änderungen mitteilen und mit dem offizielen Handbuch zusammenführen. Mehr dazu unter [Mitarbeit](Mitarbeit.md).

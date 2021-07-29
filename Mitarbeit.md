@@ -8,7 +8,7 @@ In diesem Dokument werden die Vorgaben zur Mitarbeit am Odoo Handbuch erläutert
 
 ## Philosophie
 
-Mit dem Odoo-Handbuch streben wir an eine einfache und kompakte Hilfestellung den Kunden anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best-Practice](Best-Practice.md). Geschäftsprozesse werden im [Referenzsystem](Referenzsystem.md) beschrieben.
+Mit dem Odoo-Handbuch streben wir an eine einfache und kompakte Hilfestellung den Kunden anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best-Practice](Best-Practice.md). Geschäftsprozesse werden im [Referenzsystem](Referenzsystem.md) beschrieben. 
 
 ## Beispielunternehmen
 
