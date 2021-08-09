@@ -51,6 +51,6 @@ In der Tabelle unten sind die Lohnarten und die Finanzkonten für eine Buchhaltu
 | Zuwendung                  | Vorschuss                             | KEINE BUCHUNG                      | KEINE BUCHUNG                           |
 | Freie Zuwendung            | Repräsentationskosten                 | 5820 - Reisespesen                 | 1091 - Lohndurchlaufkonto               |
 | Abzüge                     | Betreibungsamt                        | KEINE BUCHUNG                      | KEINE BUCHUNG                           |
-| Netto                      | Nettolohn                             | KEINE BUCHUNG                      | KEINE BUCHUNG                           |
+| Netto                      | Nettolohn                             | 1021 Ausstehende Zahlungen         | 1091 - Lohndurchlaufkonto               |
 | Arbeitgeberanteile         | Familienausgleichskasse               | 5700 - AHV, IV, EO, ALV, FAK       | 2170 - Verb. ggn. Vorsorgeeinrichtungen |
 | Reiner Arbeitgeberanteil   | Verwaltungskosten                     | 5700 - AHV, IV, EO, ALV, FAK       | 2170 - Verb. ggn. Vorsorgeeinrichtungen |

@@ -6,7 +6,7 @@ tags:
 # Verkäufe
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
-Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung. 
+Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung. 
 
 * [Blanket Sale Order](Blanket-Sale-Order.md)
 * [Default sales incoterm per partner](Default-sales-incoterm-per-partner.md)
@@ -23,23 +23,20 @@ Erstellen sie mit dem Knopf *Anlegen* ein neues Angebot. Befüllen sie die Kopfd
 
 | Bezeichnung       | Beschreibung                                                  |
 | ----------------- | ------------------------------------------------------------- |
-| Kunde             | Es erscheinen alle Einträge der Liste "Kontakte" zur Auswahl. |
-| Ablauf            | Frist wie lange das Angebot gültig ist.                       |
+| Kunde             | Auswahl eines Kunden aus der Liste *Kontakte* |
+| Ablauf            | Zeitdauer für die Gültigkeit des Angebots                      |
 | Preisliste        | Auswahl der relevanten Preisliste                             |
-| Zahlungsbediungen | -                                                             |
+| Zahlungsbedingungen | Der geforderte Zeitraum zur Begleichung der Rechnung                                                             |
 
 Wählen sie die Line-Items aus den Produkt-Stammdaten gemäss folgender Tabelle:
 
-| Beziechnung  | Beschreibung                                                                  |
+| Bezeichnung  | Beschreibung                                                                  |
 | ------------ | ----------------------------------------------------------------------------- |
-| Produkt      | Auswahl eines beliebigen Produktes mit dem Attribut "Kann verkauft werden".   |
-| Beschreibung | Text aus dem Feld "Verkaufs Beschreibung" der Produkt-Stammdaten              |
-| Route        | Der erwartete Lieferzeitpunkt. Dieses Datum wird für die Prognosen verwedent. |
-| Menge        | -                                                                             |
-| UoM          | -                                                                             |
-| Preis pro ME | -                                                                             |
-| Vorlaufzeit  | -                                                                             |
-| Steuern      | -                                                                              |
+| Produkt      | Auswahl eines beliebigen Produktes mit dem Attribut *Kann verkauft werden*   |
+| Beschreibung | Text aus dem Feld *Verkaufs Beschreibung* der Produkt-Stammdaten              |
+| Menge        | Angebotene Menge                                                                             |
+| UoM          | Masseinheit des Produktes                                                                             |
+| Preis pro ME | Preis pro Mengeneinheit (Masseinheit des Produktes)                                                                            |
 
 Für jedes Produkt zeigt der Bericht *Forecasted Report* eine detaillierte Übersicht bezüglich Verfügbarkeit. Zu- und Abgänge sowie potentielle Verkäufe werden berücksichtigt.
 
@@ -48,13 +45,23 @@ Für jedes Produkt zeigt der Bericht *Forecasted Report* eine detaillierte Über
 Mit dem Knopf *Per E-Mail Versenden* erstellt das System automatisch einen e-Mail Entwurf mit dem Angebot als PDF-Attachment. Die Textnachricht ist als Template hinterlegt, kann aber editiert werden.
 Mit *Senden* wird die e-Mail gesendet und der Status ändert auf *Angebot Gesendet*.
 
+## Kundenansicht
+
+Das versendete Angebots-eMail enthält einen Hyperlink auf die Kundenansicht in Form einer Website (Kunden-Portal). Auf dieser Seite findet der Kunde alle Informationen zum Angebot inklusiv der Möglichkeit des Downloads von PDF-Dokumenten.
+
 ## Auftrag bestätigen
 
 Das Angebot wird über folgende alternativen Aktionen zum Verkaufsauftrag:
-* Der Kunde bestätigt im Kunden-Portal
+* Der Kunde bestätigt in der Kundenansicht (Kunden-Portal)
 * Der Verkäufer bestätigt mit dem Knopf *Bestätigen*
+
 Damit wechselt das Angebot in den Status *Verkaufsauftrag*.
+
+Die Option Einstellungen > Verkauf > Angebote und Aufträge > Angebotsvorlagen ermöglicht das Einrichten eines automatischen Bestätigungs-eMail.
+
 Mit der Aktion *Per E-Mail Versenden* wird automatisch ein e-Mail Entwurf für das Versenden der Auftragsbestätigung generiert.
+
+
 
 ## Warenbedarf anzeigen
 
@@ -67,15 +74,17 @@ Durch einen Verkaufsauftrag entsteht automatisch ein Lieferauftrag. Die Verbindu
 
 ## Rabatte hinzufügen
 
-Soll bei ein Produkt in der Rechnung mit einem Rabatt verkauft werden, so kann je Auftragszeile einen indivduellen Rabatt manuell eingefügt werden.
+Soll ein Produkt mit einem Rabatt verkauft werden, so kann dieser je Auftragszeile manuell eingefügt werden.
 
 ![](assets/Verk%C3%A4ufe%20Auftragszeilen%20mit%20Rabatt.png)
 
-Entsprechend wird der Rabatt auf der Rechnung augeweisen.
+Entsprechend wird der Rabatt auf der Rechnung ausgewiesen.
 
 ![](assets/Verk%C3%A4ufe%20Ansicht%20Rabatt%20in%20der%20Rechnung.png)
 
 ## Upselling auflösen
 
 Ist ein Verkaufsauftrag im Status *Zusatzverkaufschance* wurde bei der Erstellung der Rechnung neue Positionen hinzugefügt oder bei einer bestehenden eine zusätzliche Menge in Rechnung gestellt. Damit der Verkaufsauftrag als *Abgrechnet* angezeigt wird, geht man wie folgt vor. Öffnen sie den Verkaufsauftrag und wählen sie *Abbrechen*. Anschliessend klicken sie auf *Setze auf Angebot*  und *Bestätigen*. Nun wurde die zusätzliche Position im Verkaufsauftrag registriert.
+
+Bei Käufe aus dem Webshop kann der Status *Zusatzverkaufschance* entstehen, wenn die Versandkosten nicht aktuell sind. Öffnen sie den Auftrag um die Versandkosten zu aktualisieren. Die Versandkosten werden in gelber Schrift angezeigt und unten beim Total kässt sich diese aktualisieren. Der Text der Versandkosten werden nun in schwarzer Farbe angezeigt und der Link *AKTUALISIERUNG DER VERSANDKOSTEN* ist nun grün. Klicken sie danach oben links auf Speichern.  
 

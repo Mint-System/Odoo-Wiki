@@ -89,3 +89,9 @@ Mit *Continue* wird der Datenimport durchgeführt. Nach Abschluss des Vorgangs z
 ![Datenbankmanager Funktionen](assets/Datenbankmanager%20Funktionen.png)
 
 Mit einem Klick auf den Namen ihrer Datenbank startet das System mit der Login-Maske.
+
+## Datenbank ID ändern
+
+Jede Odoo Datenbank wird mit einem Universally unique Identifier (UUID) identifiziert. Beim Kopieren der Datenbank mit dem Datenbankmanager wird jeweils eine neue UUID generiert. Die UUID kann aber auch manuell geneiert und festgelegt werden.
+
+Im Entwicklermodus navigieren sie nach *Einstellungen > Technisch > Parameter > Systemparameter*. Auf der Kommandozeile geben sie den Befehl `uuidgen` ein und legen die generierte UUID als Wert für den Parameter `database.uuid` fest.
