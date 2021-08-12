@@ -7,7 +7,7 @@ tags:
 
 Alle Kontaktdaten an einem Ort.
 
-* [Best-Practice-Kontakte](Best-Practice-Kontakte.md)
+* [Partner first name and last name](Partner-first-name-and-last-name.md)
 
 ## Portal-Zugriff gewähren
 
@@ -52,9 +52,3 @@ Standardmässig druckt Odoo die Adresse mit dem jeweiligen Land des Kontakts ab.
 Damit das Land nicht abgedruckt wird, öffnen sie die Ansicht *Kontakte > Konfiguration > Lokalisierung > Länder* und wählen ihr Land aus. Nun können sie das *Layout in Berichten* festlegen.
 
 ![](assets/Kontakte%20Layout%20in%20Berichten.png)
-
-## Reihenfolge Namensbestandteile festlegen
-
-Die Reihenfolge des Vor- und Nachnamen kann explizit festgelegt werden. Gehen sie im Entwicklermodus zu *Einstellungen > Allgemeine Einstellungen > Reihenfolge Partner-Namensbestandteile*. Wählen sie hier den gewünschten Eintrag aus.
-
-![](assets/Kontakte%20Namensbestandteile%20festlegen.png)
