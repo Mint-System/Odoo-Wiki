@@ -3,7 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
-# Massenverarbeitung
+# Mass Editing
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Mühelos mehere Einträge auf einmal bearbeiten.

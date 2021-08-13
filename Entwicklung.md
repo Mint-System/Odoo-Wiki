@@ -9,7 +9,7 @@ Odoo mühelos anpassen und erweitern.
 
 * [Aktionen](Aktionen.md)
 * [Web Timeline](Web-Timeline.md)
-* [Massenverarbeitung](Massenverarbeitung.md)
+* [Mass Editing](Mass-Editing.md)
 * [BI SQL Editor](BI-SQL-Editor.md)
 
 ## Domainfilter-Widget deaktivieren
