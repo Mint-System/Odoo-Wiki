@@ -8,6 +8,8 @@ tags:
 Alle Kontaktdaten an einem Ort.
 
 * [Partner first name and last name](Partner-first-name-and-last-name.md)
+* [Partner Secondary Name](Partner-Secondary-Name.md)
+* [Partner Secondary Email](Partner-Secondary-Email.md)
 
 ## Portal-Zugriff gewähren
 

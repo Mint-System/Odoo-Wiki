@@ -7,6 +7,8 @@ tags:
 
 Maximieren sie die Effizienz Ihres Lagers.
 
+* [Demand Planner](Demand-Planner.md)
+
 ## Erweiterte Vorgangstypen einrichten
 
 Wenn in den Einstellungen für das Lager die Option *Mehrstufige Routen* eingeschaltet wird, erweitert sich die Liste der Vorgangstypen mit *Interne Transfers*. Die neue Liste zeigt sich wie folgt:
