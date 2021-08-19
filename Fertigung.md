@@ -11,3 +11,5 @@ tags:
 * [Product Name Sequence](Product-Name-Sequence.md)
 * [Product Sequence](Product-Sequence.md)
 * [MRP Documents Share](MRP-Documents-Share.md)
+* [Product Country of Origin](Product-Country-of-Origin.md)
+* [Product Type Description](Product-Type-Description.md)
