@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+- OCA
 ---
 
 # Default sales incoterm per partner

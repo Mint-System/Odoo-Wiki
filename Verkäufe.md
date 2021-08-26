@@ -12,6 +12,7 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 * [Default sales incoterm per partner](Default-sales-incoterm-per-partner.md)
 * [Sale Order Line Date](Sale-Order-Line-Date.md)
 * [Sale Blanket Order](Sale-Blanket-Order.md)
+* [Sale Blanket Order Notes](Sale-Blanket-Order-Notes.md)
 
 ## Verkäufe Dashboard anzeigen
 
