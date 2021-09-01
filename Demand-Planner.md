@@ -15,3 +15,6 @@ Repository: <https://github.com/Mint-System/Demand-Planner>
 
 Damit Bestellvorschläge generiert werden, muss dies explizit auf dem Vorgangstyp festgelegt werden. Navigieren sie nach *Lager > Konfiguration > Vorgangstyp* und wählen sie den entsprechenden Typen aus. Aktivieren sie die Option *Calculate demand for orders of this type*.
 
+## Bestellvorschläge anzeigen
+
+Öffnen sie *Lager > Berichtswesen > Demand Planner* und klicken sie auf *Refresh*. Für Aufträge von aktivierten Vorgangstypen werden nun Bestellvorschläge generiert und angezeigt.
