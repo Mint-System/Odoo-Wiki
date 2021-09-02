@@ -35,3 +35,5 @@ FROM res_partner
 WHERE birthdate_date is not NULL and to_char(birthdate_date,'MMDD') > to_char(now() - INTERVAL '4 DAY','MMDD')
 ORDER BY to_char(birthdate_date,'MMDD')
 ```
+
+Feldtyp für `x_age` von `float` auf `integer` ändern.
