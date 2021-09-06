@@ -44,3 +44,24 @@ Nummernfolge: `3`
 Nachdem der Browser aktualisiert haben sie Zugriff auf das neue Menü und Ansicht.
 
 ![](assets/Aktionen%20neue%20Ansicht.png)
+
+## BoM Reload Aktion erstellen
+
+Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Reload BoM`\
+Modell: `Fertigungsauftrag`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld Pythoncode:
+```py
+for record in records:  
+  record._compute_allowed_product_ids()  
+  record._onchange_bom_id()  
+  record._onchange_move_raw()  
+  record._onchange_move_finished()  
+  record._onchange_location
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Im Fertigungsauftrag erscheint nun in der Auswahl *Action* das Menu *Reload BoM*.
