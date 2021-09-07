@@ -11,6 +11,7 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 * [Einstellungen-Login](Einstellungen-Login.md)
 * [Web Responsive](Web-Responsive.md)
 * [Impersonate](Impersonate.md)
+* [Integration](Integration.md)
 
 ## Entwicklermodus aktivieren
 
