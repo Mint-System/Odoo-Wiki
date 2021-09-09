@@ -13,6 +13,7 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 * [Sale Order Line Date](Sale-Order-Line-Date.md)
 * [Sale Blanket Order](Sale-Blanket-Order.md)
 * [Sale Blanket Order Notes](Sale-Blanket-Order-Notes.md)
+* [Sale Order Line Position](Sale-Order-Line-Position.md)
 
 ## Verkäufe Dashboard anzeigen
 

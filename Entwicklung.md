@@ -11,6 +11,7 @@ Odoo mühelos anpassen und erweitern.
 * [Web Timeline](Web-Timeline.md)
 * [Mass Editing](Mass-Editing.md)
 * [BI SQL Editor](BI-SQL-Editor.md)
+* [Snippets](Snippets.md)
 
 ## Domainfilter-Widget deaktivieren
 
