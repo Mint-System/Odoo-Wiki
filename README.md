@@ -66,6 +66,12 @@ Importieren und Exportieren sie alle Odoo Daten.
 
 ![icons_odoo_website_sale_options](assets/icons_odoo_website_sale_options.png)  
 
+### [Dokumente](Dokumente.md)
+
+Sparen Sie Zeit beim Erfassen von Rechnungen, Scannen von Verträgen und bei der Freigabe von Dokumenten.
+
+![icon_odoo_document_inbox](assets/icon_odoo_document_inbox.png)
+
 ### [Diskussion](Diskussion.md)
 
 In alle Module integrierter privater Chat und Gruppen-Chat.
