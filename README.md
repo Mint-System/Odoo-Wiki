@@ -1,10 +1,11 @@
 # Odoo Handbuch
 
-Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den drei Perspekten:
+Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den vier Perspekten:
 
-1. **Referenzsystem**: Eine umfassende Dokumentation der Odoo-Prozesse
-2. **Best Practice**: Beschreibung von Anwendungsfällen im Detail
-3. **HowTos**: Detailliert beschriebene Arbeitsschritte
+1. **Referenzsystem**: Eine umfassende Dokumentation der Odoo-Prozesse.
+2. **Best Practice**: Beschreibung von Anwendungsfällen im Detail.
+3. **HowTos**: Detailliert beschriebene Arbeitsschritte.
+4. **Anforderungen**: Rerferenzanforderung für den Abgelich mit Lastenheften.
 
 Diese Perspektiven werden in diesem Handbuch miteinander verlinkt.
 
@@ -281,6 +282,10 @@ Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)  
+
+## [Anforderungen](Anforderungen.md)
+
+Die Evaluation eines ERP-Systems ist eine aufwändige Arbeit. Als Kunde ist man damit konfrontiert Anforderungen systematisch zu erfassen und für Lieferanten zugänglich zu machen. Als Lieferant hat man der Analyse der Anforderungen viel Aufwand. Die [Referenzanforderungen](Anforderungen.md) sollen den Abgleich mit Lastenhefter vereinfachen.
 
 ## [Mitarbeit](Mitarbeit.md)
 
