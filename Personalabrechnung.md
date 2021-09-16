@@ -149,7 +149,7 @@ Habenkonto: `5000 Löhne`
 
 Speichern sie die Lohnart,  fügen sie einer ausgewählte Lohnabrechnung mit der zugehörigen Lohnstruktur eine Spesen-Eingabe hinzu und berechnen die Abrechnung neu.
 
-### Spesen als Zuwendung 
+### Spesen als Zuwendung
 
 Spesen können als variable Eingabe in der Lohnabrechnung hinzugefügt werden. Navigieren sie nach *Personalabrechnung > Konfiguration > Other Input Types*. Erstellen sie dort einen Eintrag mit *Beschreibung* `Spesen` und *Code* `SPESEN`.
 
