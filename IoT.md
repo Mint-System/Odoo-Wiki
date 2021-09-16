@@ -67,6 +67,10 @@ Wählen sie *handlers list* und anschliessen *Load handlers*. Nun werden die ver
 
 ## Bericht für direktes Drucken einrichten
 
+::: warning
+Der Drucker muss im selben Netzwerk wie der Client-Computer sein, damit ein direktes Drucken möglich ist.
+:::
+
 Öffnen sie den Drucker via *IoT > Geräte > Drucker auswählen > Bearbeiten*. Fügen sie der Liste *Printer Reports* einen Bericht hinzu und speichern sie den Vorgang.
 
 ![](assets/IoT%20Printer%20Reports.png)
