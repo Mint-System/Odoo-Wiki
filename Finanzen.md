@@ -10,6 +10,7 @@ Ihre Buchhaltung einfach und korrekt.
 * [Bank Account Camt54 Import](Bank-Account-Camt54-Import.md)
 * [Mehrere Währungen](Mehrere%20Währungen.md)
 * [SEPA-Zahlung](SEPA-Zahlung.md)
+* [Recurring - Contracts Management](Contract.md)
 
 ## Kontenplan einrichten
 
