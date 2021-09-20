@@ -7,6 +7,8 @@ tags:
 
 Alles, was das "Internet der Dinge (IoT)" bietet.
 
+* [Odoo Direct Print](Odoo-Direct-Print.md)
+
 ## Raspberry Pi installieren
 
 Unter <https://nightly.odoo.com/master/iotbox/iotboxv21_04.zip> die Datei `iotboxv21_04.zip` (oder aktueller) herunterladen und entpacken.

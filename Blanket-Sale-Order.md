@@ -10,7 +10,7 @@ tags:
 Rahmenverträge für Verkäufe erstellen.
 
 Technischer Name: `dev_blanket_sale_order`\
-Repository: <https://gitlab.com/mint-system/odoo-app-blanket-sale-order>
+Repository: <https://apps.odoo.com/apps/modules/14.0/dev_blanket_sale_order/>
 
 ## Rahmenbestellungen anzeigen
 

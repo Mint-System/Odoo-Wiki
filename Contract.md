@@ -26,3 +26,14 @@ Rufen sie *Finanzen >  Kunden > Kundenverträge* auf und wählen sie *Anlegen*. 
 ::: tip
 Täglich wird ein Cron-Job ausgeführt, der entsprechend dem *Datum der nächsten Rechnung* anhand des Vertrags eine Rechnung generiert.
 :::
+
+
+## Lieferantenvertrag einrichten
+
+Rufen sie *Finanzen >  Lieferanten > Lieferantenverträge* auf und wählen sie *Anlegen*. Füllen mindestens diese Felder aus:
+
+* **Vertragsname**: Titel des Vertrags
+* **Lieferant**: Das ist der Vertragspartner
+* **Abrechnugsintervall**: Gemäss Vertrag festlegen
+* **Startdatum**: Datum Vertragsbeginn
+* **Periodische Rechnungen**: Dienstleistungen und Produkte die es zur verrechnen gilt
