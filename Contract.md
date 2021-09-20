@@ -23,6 +23,6 @@ Rufen sie *Finanzen >  Kunden > Kundenverträge* auf und wählen sie *Anlegen*. 
 
 ![](assets/Contract%20Beispiel.png)
 
-::: info
+::: tip
 Täglich wird ein Cron-Job ausgeführt, der entsprechend dem *Datum der nächsten Rechnung* anhand des Vertrags eine Rechnung generiert.
 :::
