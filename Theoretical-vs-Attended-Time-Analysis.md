@@ -15,7 +15,7 @@ Repository: <https://github.com/OCA/hr-attendance/tree/13.0/hr_attendance_report
 
 ## Startdatum festlegen
 
-Das Startdatum der theoretischen Stunden kann pro MitarbieterIn festgelegt werden. Navigieren sie nach *Personal > MitarbeiterIn auswählen* und legen sie im Tab *HR Einstellungen* das Datum im Feld *Startdatum der theortischen Stunden* fest.
+Das Startdatum der theoretischen Stunden kann pro MitarbieterIn festgelegt werden. Navigieren sie nach *Personal > MitarbeiterIn auswählen* und legen sie im Tab *HR Einstellungen* das Datum im Feld *Startdatum der theoretischen Stunden* fest.
 
 ## Offset definieren
 
