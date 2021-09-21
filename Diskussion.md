@@ -7,6 +7,14 @@ tags:
 
 In alle Module integrierter privater Chat und Gruppen-Chat.
 
+## Mail an Kontakt senden
+
+Mit dem Odoo-Chatter können auf jedem Geschäftsobjekt interne Notizen hinzugefügt werden, aber auch Mails für Externe.
+
+Zum versenden einer Nachricht an einen Kontakt wählen sie *Kontakte > Kontakte* und navigieren zum *Chatter*. Wählen sie *Sende Nachricht* und vergrössern sie das Eingabefeld. Wählen sie die Empfänger, den Betreff, geben sie ihre Nachricht ein und klicken sie auf *Senden.*
+
+![Diskussion Nachricht versenden](assets/Diskussion%20Nachricht%20versenden.gif)
+
 ## Ausgehender Mail-Server konfigurieren
 
 Damit Odoo Mail verschicken kann, muss ein ausgehender Mail-Server konfiguriert werden.

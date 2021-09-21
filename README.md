@@ -15,9 +15,17 @@ Diese Perspektiven werden in diesem Handbuch miteinander verlinkt.
 
 Dieses Handbuch wird von der [Mint System GmbH](https://www.mint-system.ch/) unterhalten.
 
-## [Referenzsystem](Referenzsystem.md)  
+## [Referenzsystem](Referenzsystem.md)
+
+[Hier](Referenzsystem.md) geht es zum Referenzsystem.
+
 ## [Best Practice](Best-Practice.md)
+
+[Hier](Best-Practice.md) get es zu den Best Practice.
+
 ## HowTos
+
+Die HowTos sind nach Odoo Apps gruppiert.
 
 ### [Abrechnung](Abrechnung.md)
 
