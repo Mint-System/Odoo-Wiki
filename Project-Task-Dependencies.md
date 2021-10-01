@@ -12,9 +12,9 @@ Technischer Name: `project_task_dependency`\
 Repository: <https://github.com/OCA/project/tree/14.0/project_task_dependency>
 
 * [Project Timeline Task Dependencies](Project-Timeline-Task-Dependencies.md)
-* [Project Task Dependency Counter](Project Task Dependency Counter)
+* [Project Task Dependency Counter](Project-Task-Dependency-Counter.md)
 
-## Abhängigkeit einer Aufgabe hinzufügen
+## Abhängige Aufgabe hinzufügen
 
 Öffnen sie eine Aufgabe via *Projekt > Alle Aufgaben > Aufgabe wählen* und zeigen die den Tab *Abhängigkeiten* an. Fügen sie abhängige Aufgaben hinzu.
 

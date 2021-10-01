@@ -1,6 +1,6 @@
 # Odoo Handbuch
 
-Das Odoo Handbuch beschreibt die Funktionen von Odoo aus den vier Perspekten:
+Das Odoo Handbuch beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus vier Perspekten:
 
 1. **Referenzsystem**: Eine umfassende Dokumentation der Odoo-Prozesse.
 2. **Best Practice**: Beschreibung von Anwendungsfällen im Detail.
