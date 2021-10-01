@@ -89,11 +89,11 @@ Damit Einzahlungsscheine für bereits erstellte Rechnungen generiert werden kön
 
 ## QR-Rechnung drucken
 
-Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generierung von QR-Rechnung enthalten. Damit Einzahlungsscheine erstellt werden können, müssen die folgenden Bedingungen erfüllt sein:
+Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generierung von QR-Rechnungen enthalten. Damit Einzahlungsscheine erstellt werden können, müssen die folgenden Bedingungen erfüllt sein:
 
 * Der Rechnungsempfänger und Absender müssen eine Schweizer-Adresse haben
 * Das QR-Konto ist auf dem Rechnungskonto eingetragen
-* Die Zahlungsrefernz muss QRR-kompatibel sein (Referenz gemäss ISR)
+* Die Zahlungsreferenz muss QR-kompatibel sein (Referenz gemäss ISR)
 * Die Rechnung ist im Status *Gebucht*
 * Die Einstellung *Einstellungen > Finanzen > Ausgangsrechnungen > Print Swiss QR Code* ist aktiviert
 

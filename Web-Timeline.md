@@ -6,10 +6,12 @@ tags:
 # Web Timeline
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Die Gantt-Ansicht für alle Ressourcen.
+Die Timeline-Ansicht für alle Objekte.
 
 Technischer Name: `web_timeline`\
 Repository: <https://github.com/OCA/web/tree/13.0/web_timeline>
+
+* [Project timeline](Project-Timeline.md)
 
 ## Timeline für Abwesenheitszeiten anzeigen
 

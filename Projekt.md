@@ -7,6 +7,9 @@ tags:
 
 Agiles Projektmanagement. Schön. Einfach. Open Source.
 
+* [Project timeline](Project-Timeline.md)
+* [Project Task Dependencies](Project-Task-Dependencies.md)
+
 ## Projekt anlegen
 
 Aufgabenträger: [Projektleiter](Rollen#Projektleiter)

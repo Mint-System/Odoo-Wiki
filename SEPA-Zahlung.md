@@ -9,7 +9,7 @@ SEPA-Zahlungen mit Odoo Finanzen abwickeln.
 
 ## SEPA-Zahlmethode aktiveren
 
-Damit Zahlungen aus Odoo exportiert und im eBanking importiert werden könne, müssen sie die SEPA-Zahlmethode für das entsprechende Bank-Journal aktiveren.
+Damit Zahlungen aus Odoo exportiert und im eBanking importiert werden können, müssen sie die SEPA-Zahlmethode für das entsprechende Bank-Journal aktiveren.
 
 ![Finanzen SEPA Zahlung aktivieren](assets/Finanzen%20SEPA%20Zahlung%20aktivieren.gif)
 
@@ -17,7 +17,7 @@ Navigieren sie nach *Finanzen > Optionen Journal > Einstellungen > Tab Erweitert
 
 ## SEPA-Zahlung erstellen
 
-Öffnen sie eine Rechung drücken sie auf *Einzahlung erfassen*. Wählen sie *SEPA Kreditübertragung als Zahlungsmethode*.
+Öffnen sie eine Rechung und drücken sie auf *Einzahlung erfassen*. Wählen sie *SEPA Kreditübertragung als Zahlungsmethode*.
 
 ![Finanzen SEPA-Zahlung erfassen](assets/Finanzen%20SEPA-Zahlung%20erfassen.gif)
 
