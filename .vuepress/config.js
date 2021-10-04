@@ -23,7 +23,7 @@ module.exports = {
         [
             'vuepress-plugin-sitemap',
             {
-                hostname: 'https://odoo-wiki.ch'
+                hostname: 'https://odoo-wiki.org'
             }
         ]
     ],
