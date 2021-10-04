@@ -34,3 +34,11 @@ Ist die Fakturierungsregel *Nur bestätigte Stundenzettel* aktiviert, müssen zu
 Der Stundenzettel-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Validieren* und wählt den entsprechenden Zeitraum aus. Mit *Bestätigen* wird ein Validierungsdatum festgelegt. Alle Zeitnachweise vor dem Validierungsdatum gelten als validiert.
 
 ![](assets/Zeiterfassung%20Validierungsdatum.png)
+
+## Validierung zurücksetzen
+
+Einmal validierte Stundeneinträge können nicht mehr verändert werden. Benötigen sie dennoch eine korrektur, müssen sie für jeden Mitarbeitenden folgende Aktion ausführen: *Personal > Mitarbeitenden auswählen > Tab HR Einstellungen öffnen* und dort das Feld *Stundenzettel-Validierungsdatum* anpassen.
+
+![](assets/Zeiterfassung%20Stundenzettel-Validierungsdatum%20anpassen.png)
+
+Nach der Korrektur der Stundeinträge müssen sie diese wieder validieren.
