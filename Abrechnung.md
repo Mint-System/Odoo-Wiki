@@ -24,7 +24,7 @@ Für den automatischen Versand von Rechnungen können E-Mail-Vorlagen erstellt w
 
 Unter *Einstellungen > Technisch > E-Mail > Vorlagen* können die E-Mail-Vorlagen verwaltet werden. Erstellen sie ein Duplikat der Vorlage *Invoice: Send by email*.
 
-Als Betreff geben sie folgendes ein: `${object.company_id.name} Rechnung (Ref ${object.name or 'n/a'})`. Wechseln sie für die Nachricht in die Code-Ansicht.
+Als Betreff geben sie folgendes ein: `${object.company_id.name} Rechn. (Ref ${object.name or 'n/a'})`. Wechseln sie für die Nachricht in die Code-Ansicht.
 
 ![](assets/Odoo%20Code-Ansicht.png)
 
@@ -40,7 +40,7 @@ Kopieren sie den folgenden Inhalt:
             ${object.partner_id.name}
         % endif
         <br><br>
-        Anbei die Rechnung
+        Anbei die 
         % if object.name:
             Rechnung <strong>${object.name}</strong>
         % else:
@@ -49,7 +49,7 @@ Kopieren sie den folgenden Inhalt:
         % if object.invoice_origin:
             (mit Referenz: ${object.invoice_origin})
         % endif
-        im Betrag <strong>${format_amount(object.amount_total, object.currency_id)}</strong>
+        im Betrag von <strong>${format_amount(object.amount_total, object.currency_id)}</strong>
         von der ${object.company_id.name}.
         % if object.invoice_payment_state == 'paid':
             Diese Rechnung wurde bereits bezahlt.

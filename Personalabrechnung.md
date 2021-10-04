@@ -7,9 +7,7 @@ tags:
 
 Personalbrechnungen schnell und einfach erstellen.
 
-Technischer Name: `gio_payroll_custom`\
-Repository: <https://gitlab.com/mint-system/odoo-app-hr-payroll-share>
-
+* [Payroll Customizations Giordano](Payroll-Customizations-Giordano.md)
 * [Lohnmeldung](Lohnmeldung.md)
 
 ## Pesonalabrechnung initialisieren
@@ -21,7 +19,7 @@ Dazu eine Übersicht:
 * [Private Adresse hinterlegen](Personal.md#Private%20Adresse%20hinterlegen)
 * [Arbeitsvertrag hinzufügen](Personal.md#Arbeitsvertrag%20hinzuf%C3%BCgen)
 * [Bankverbindung hinterlegen](#Bankverbindung%20hinterlegen)
-* [Anteile Arbeitgeber / Arbeitnehmer konfigurieren](#Anteile%20Arbeitgeber%20Arbeitnehmer%20konfigurieren)
+* [Anteile Arbeitgeber Arbeitnehmer konfigurieren](Payroll-Customizations-Giordano.md#Anteile%20Arbeitgeber%20Arbeitnehmer%20konfigurieren)
 * [Lohnarten definieren](#Lohnarten%20definieren)
 * [Finanzkonten den Lohnarten zuweisen](#Finanzkonten%20den%20Lohnarten%20zuweisen)
 * [Gehaltsinformationen eingeben](#Gehaltsinformationen%20eingeben)
@@ -31,20 +29,6 @@ Konfigurieren sie diese Punkte, erst dann können sie die [Lohnabrechnung erstel
 ## Bankverbindung hinterlegen
 
 Zur Auszahlung des Lohns über SEPA müssen sie den Mitarbeiter ein Bankkonto hinterlegen. Navigieren sie nach *Pesonal > Mitarbeiter auswählen > Bearbeiten > Tab Private Information* und erfassen sie ein Bankkonto unter *Bankverbindung*.
-
-## Anteile Arbeitgeber / Arbeitnehmer konfigurieren
-
-Die Anteile des Arbeitgebener und Arbeitnehmer können als Vorlage erfasst werden. Die Anteile werde werden dem Arbeitsvertrag zugewiesen.
-
-Möchten sie eine neue Vorlage erstellen, öffnen sie *Personalabrechnung > Konfiguration > Anteile Arbeitgeber / Arbeitnehmer* und wählen *Anlegen.*
-
-Geben sie einen Namen mit Jahresdatum ein und legen sie die Fix- und Prozentwerte fest.
-
-::: warning
-Legen sie unbedingt die Monatslohngrenze fest. Nur dann werden ALV und NBU korrekt berechnet.
-:::
-
-![](assets/Pesonalabrechnung%20Anteile%20Arbeitnehmer%20Arbeitgebener.png)
 
 ## Lohnarten definieren
 
