@@ -7,6 +7,7 @@ tags:
 
 Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 
+Erweiterungen:
 * [Mail Activity Board](Mail-Activity-Board.md)
 
 ## Gefilterte Ansicht auf Dashboard speichern

@@ -2,7 +2,6 @@
 tags:
 - HowTo
 ---
-
 # Awesome Timesheet
 ![](assets/icon_awesome_timesheet.png)
 

@@ -3,7 +3,6 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-
 # Blanket Sale Order
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 

@@ -7,6 +7,7 @@ tags:
 
 Personalbrechnungen schnell und einfach erstellen.
 
+Erweiterungen:
 * [Payroll Customizations Giordano](Payroll-Customizations-Giordano.md)
 * [Lohnmeldung](Lohnmeldung.md)
 

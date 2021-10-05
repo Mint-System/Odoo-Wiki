@@ -3,7 +3,6 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-
 # Lohnmeldung
 ![](assets/odoo_icon_gioardano.png)
 

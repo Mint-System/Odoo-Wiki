@@ -7,10 +7,6 @@ tags:
 
 Management des Produktlebenszyklus für moderne Firmen.
 
-**Begriffe**
-
-ECO: Engineering Change Order
-
 ## ECO-Typ und Stufen erfassen
 
 Um einen ECO-Type zu erfassen navigieren sie nach *PLM > Konfiguration > ECO-Typen*. Mit einem klick auf *+ Anlegen* erstellen sie einen neuen Typen.

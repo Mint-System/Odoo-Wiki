@@ -7,6 +7,7 @@ tags:
 
 Ihre Buchhaltung einfach und korrekt.
 
+Erweiterungen:
 * [Bank Account Camt54 Import](Bank-Account-Camt54-Import.md)
 * [Mehrere Währungen](Mehrere%20Währungen.md)
 * [SEPA-Zahlung](SEPA-Zahlung.md)

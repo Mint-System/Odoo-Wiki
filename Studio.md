@@ -7,7 +7,8 @@ tags:
 
 Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.
 
-* [[Studio-Beispiele|Studio Beispiele]]
+Erweiterungen:
+* [Studio Beispiele](Studio-Beispiele.md)
 
 ## Anpassungen dokumentieren
 Aufgabenträger: [Administrator](Rollen.md#Administrator)

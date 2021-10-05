@@ -7,6 +7,7 @@ tags:
 
 Neue Apps installieren und aktualisieren.
 
+Erweiterungen:
 * [Product Name Sequence](Product-Name-Sequence.md)
 * [Product Barcode Generator](Product-Barcode-Generator.md)
 * [Cancel Manufacturing Order](Cancel-Manufacturing-Order.md)

@@ -7,6 +7,7 @@ tags:
 
 Maximieren sie die Effizienz Ihres Lagers.
 
+Erweiterungen:
 * [Demand Planner](Demand-Planner.md)
 
 ## Erweiterte Vorgangstypen einrichten

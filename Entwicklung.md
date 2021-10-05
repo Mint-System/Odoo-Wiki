@@ -7,6 +7,7 @@ tags:
 
 Odoo mühelos anpassen und erweitern.
 
+Erweiterungen:
 * [Aktionen](Aktionen.md)
 * [Web Timeline](Web-Timeline.md)
 * [Mass Editing](Mass-Editing.md)

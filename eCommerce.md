@@ -2,7 +2,6 @@
 tags:
 - HowTo
 ---
-
 # eCommerce
 ![](assets/icons_odoo_website_sale.png)
 

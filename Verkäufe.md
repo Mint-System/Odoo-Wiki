@@ -8,6 +8,7 @@ tags:
 
 Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung. 
 
+Erweiterungen:
 * [Blanket Sale Order](Blanket-Sale-Order.md)
 * [Default sales incoterm per partner](Default-sales-incoterm-per-partner.md)
 * [Sale Order Line Date](Sale-Order-Line-Date.md)

@@ -5,6 +5,8 @@ tags:
 # Fertigung Stammdaten
 ![icons_odoo_mrp](assets/icons_odoo_mrp.png)
 
+Produkte und Dienstleistungen zentral pflegen.
+
 ## Produkt anlegen
 
 Navigieren sie nach *Fertigung > Stammdaten > Produkte*.

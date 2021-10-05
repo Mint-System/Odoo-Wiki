@@ -8,6 +8,7 @@ tags:
 
 Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
+Erweiterungen:
 * [Terminal Zeiterfassung](Terminal-Zeiterfassung.md)
 * [Awesome Timesheet](Awesome-Timesheet.md)
 
