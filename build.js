@@ -145,7 +145,7 @@ if (!firstArg || ['all', 'index'].indexOf(firstArg) >= 0) {
         // Find title
         let title = null
         for (let line of lines) {
-            if (line.startsWith('# ') || line.startsWith('## ')) {
+            if (line.startsWith('# ') || line.startsWith('## ') || line.startsWith('### ')) {
                 // Get title
                 title = line.replace('## ','').replace('# ','')
                 break
