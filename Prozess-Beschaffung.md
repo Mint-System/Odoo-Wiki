@@ -1,6 +1,6 @@
 ---
 tags:
-* Prozess
+- Prozess
 ---
 # Prozess Beschaffung
 
