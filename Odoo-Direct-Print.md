@@ -50,11 +50,17 @@ Einmal konfiguriert wird der Drucker im PrintNode Client angezeigt:
 
 Damit Druckaufträge mit PrintNode gerduckt werden können, muss dies explizit festgelegt werden. Öffnen sie *Einstellungen > Direct Print* und aktivieren sie die Option *Print via Direct Print*.
 
+Wurde entweder ein globaler Standarddrucker festegelegt oder ein Standarddrucker auf dem dem Benutzer (siehe [Direktes Drucken für Benutzer einrichten](#Direktes%20Drucken%20für%20Benutzer%20einrichten)), dann erscheint bei druckbaren Objekten das folgende Aktions-Menu:
+
+![](assets/Odoo%20Direct%20Print%20Action%20Menu.png)
+
 ## Drucker in Odoo anzeigen
 
-Zeigen sie *Direct Print > Konfiguration > Drucker* an. Hier werden alle verfügbaren Drucker aufgelistet.
+Zeigen sie *Direct Print > Configuration > Printers* an. Hier werden alle verfügbaren Drucker aufgelistet.
 
-![](assets/Pasted%20image%2020211005161332.png)
+![](assets/Odoo%20Direct%20Print%20Beispiel.png)
+
+Mit der Aktion *Einstellungen > Direct Print > Import Printers* werden die auf PrintNode verfügbaren Drucker importiert.
 
 ## PrintNode App Testseite drucken
 
@@ -62,11 +68,27 @@ Loggin sie sich auf <https://app.printnode.com> ein und wählen sie *Print somet
 
 ![](assets/Odoo%20Direct%20Print%20Testseite%20drucken.png)
 
-## Druckszenarion aktivieren
+## Druckszenario aktivieren
 
-Odoo Direct Print stellt gängige Druckszenarios unter *Direct Print > Druckszenarios* zur Verfüng. Aktivieren sie ein Senario mit einem Klick auf *Active* und wählen sie einen Drucker aus.
+::: warning
+Für den aktuellen Benutzer muss die Option *Print via Direct Print* aktiviert sein.
+:::
+
+Odoo Direct Print stellt gängige Druckszenarios unter *Direct Print > Print Scenarios* zur Verfüng. Aktivieren sie ein Senario mit einem Klick auf *Active* und wählen sie einen Drucker aus.
 
 ![](assets/Odoo%20Direct%20Print%20Szenario%20aktiviert.png)
+
+## Druckaktionen aktivieren
+
+::: warning
+Für den aktuellen Benutzer muss die Option *Print via Direct Print* aktiviert sein.
+:::
+
+Mit Odoo Direct Print können Druckaktionen ganz einfach hinzugefügt werden. Öffnen sie die Ansicht *Direct Print > Print Action Buttons*. Aktivieren sie eine Aktion mit einem Klick auf *Active* und wählen sie einen Drucker aus.
+
+![](assets/Odoo%20Direct%20Print%20Buttons.png)
+
+In diesem Beispiel wird der Lieferschein ausgedruck, sobald auf einem Lieferschein der Knopf *Bestätigen* gedrückt wurde.
 
 ## Produktlabel von Lieferauftrag drucken
 
@@ -77,3 +99,7 @@ Odoo Direct Print stellt gängige Druckszenarios unter *Direct Print > Druckszen
 ::: info
 Beachten sie dass der Druckvorgang einige Sekunden in Anspruch nimmt.
 :::
+
+## Direktes Drucken für Benutzer einrichten
+
+Für das direkte Drucken kann dem Benutzer ein Standarddrucker zugewiesen werden. Navigieren sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer > Benutzer auswählen > Tab Einstellungen* und legen sie im Abschnitt *Print* die Standarddrucker fest. Mit der Option *Print via Direct Print* wird das direkte Drucken aktiviert.

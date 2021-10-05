@@ -9,6 +9,7 @@ Maximieren sie die Effizienz Ihres Lagers.
 
 Erweiterungen:
 * [Demand Planner](Demand-Planner.md)
+* [Handscanner Zebra TC21](Handscanner-Zebra-TC21.md)
 
 ## Erweiterte Vorgangstypen einrichten
 
