@@ -96,7 +96,7 @@ In diesem Beispiel wird der Lieferschein ausgedruck, sobald auf einem Liefersche
 
 ![](assets/Odoo%20Direct%20Print%20Producut%20LAbels.png)
 
-::: info
+::: tip
 Beachten sie dass der Druckvorgang einige Sekunden in Anspruch nimmt.
 :::
 
