@@ -13,6 +13,8 @@ Diese Perspektiven werden in diesem Handbuch miteinander verlinkt.
 
 [![logo](assets/logo.svg)](https://www.mint-system.ch/)
 
+[![logo](assets/logo.svg)](https://www.mint-system.ch/)
+
 Dieses Handbuch wird von der [Mint System GmbH](https://www.mint-system.ch/) unterhalten.
 
 ## [Referenzsystem](Referenzsystem.md)
@@ -31,7 +33,7 @@ Die HowTos sind nach Odoo Apps gruppiert.
 
 Online Rechnungsstellung leicht gemacht.
 
-![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)
+[![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)](Abrechnung.md)
 
 ### [Abwesenheitszeiten](Abwesenheitszeiten.md)
 

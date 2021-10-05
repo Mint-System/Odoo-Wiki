@@ -68,19 +68,6 @@ function convert(content,file) {
         content = content.replace(match, `<video width="560" height="240" controls><source src="${basePathAssets}${video}"></video>`)
     }
 
-    // convert include markdown links
-    // ![title](file.md) -> !!!include(file.md)!!!
-    const mdInclude = /(!\[.*?\]\(.*?\.md\))/g
-    matches = content.match(mdInclude) || []
-    for (i = 0; i < matches.length; i++) {
-        let match = matches[i]
-        
-        let include = match.match(/!\[.*\]\((.*\.md)\)/)[1]
-        include = sanitizeName(include)
-                
-        content = content.replace(match, `!!!include(${include})!!!`)
-    }
-
     // convert markdown image links
     // ![title](Image.png) -> ![](./assets/image.png)
     const mdImage = /(!\[.*?\]\(.*?\..*?\))/g
@@ -98,7 +85,7 @@ function convert(content,file) {
     // [Title](Content.md#link to heading) -> [Title](Content.html#link-to-heading)
     const mdLink = /(?<!!)(\[.*\]\([^\)]*\.md.*\))/g
     const mdHref = /.+\]\(([^\)|#]*)/
-    const mdTitle = /\[([^\]]*)\]\(/
+    const mdTitle = /\[(.*)\]\(/
     const mdAnchor = /#(.*)\)/
     matches = content.match(mdLink) || []
     for (i = 0; i < matches.length; i++) {
@@ -121,6 +108,19 @@ function convert(content,file) {
 
         let mdLink = `[${title}](${basePath}${href}${uriSuffix}${anchor ? (anchorPrefix + anchor) : ''})`
         content = content.replace(match, mdLink)
+    }
+
+    // convert include markdown links
+    // ![title](file.md) -> !!!include(file.md)!!!
+    const mdInclude = /(!\[.*?\]\(.*?\.md\))/g
+    matches = content.match(mdInclude) || []
+    for (i = 0; i < matches.length; i++) {
+        let match = matches[i]
+        
+        let include = match.match(/!\[.*\]\((.*\.md)\)/)[1]
+        include = sanitizeName(include)
+                
+        content = content.replace(match, `!!!include(${include})!!!`)
     }
 
     return content
