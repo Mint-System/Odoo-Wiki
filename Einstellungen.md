@@ -13,6 +13,7 @@ Erweiterungen:
 * [Web Responsive](Web-Responsive.md)
 * [Impersonate](Impersonate.md)
 * [Integration](Integration.md)
+* [Home Background Image](Home-Background-Image.md)
 
 ## Entwicklermodus aktivieren
 
