@@ -16,20 +16,9 @@ Jede funktionale Anforderung wird in einer Odoo-App gruppiert.
 
 > Eine funktionale Anforderung ist eine Anforderung bezüglich des Ergebnisses eines Verhaltens, das von einer Funktion des Systems bereitgestellt werden soll.
 
-### [Kontakte](Kontakte.md)
+![Anforderungen Kontakte](Anforderungen%20Kontakte.md)
 
-#### Kontakte mit Mandanten teilen
-
-Beschreibung: Kontakt-Einträge können mit Odoo-Mandanten geteilt werden.\
-Status: ✅
-
-### [Personalabrechnung](Personalabrechnung.md)
-
-#### Verschiedene Lohnarten einrichten
-
-Beschreibung: Für Lohnabrechnungsmodelle können verschiedene Lohnarten definiert werden.\
-Status: ✅\
-Link: [Lohnarten definieren](Personalabrechnung.md#Lohnarten%20definieren)
+![Anforderungen Personalabrechnung](Anforderungen%20Personalabrechnung.md)
 
 ## Qualitätsanforderung
 
