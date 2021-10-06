@@ -34,6 +34,3 @@ Duplizieren sie eine bestehende Zahlungsbedingung. zum Beispiel 15 Tage.
 
 Anhänge an E-Mails mit diesem Alias aus dem Odoo-Postfach werden fortan als Rechnung erfasst.
 
-## Eingangsrechnung manuell ausgleichen
-
-#FIXME 
