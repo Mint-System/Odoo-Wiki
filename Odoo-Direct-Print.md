@@ -12,6 +12,9 @@ Jeder Odoo Bericht oder Etikette von überall nach überall drucken.
 Technischer Name: `printnode_base`\
 Repository: <https://apps.odoo.com/apps/modules/14.0/printnode_base/>
 
+Videos:
+* [Odoo Experience 2021 - Automating Direct Printing](https://www.youtube.com/watch?v=6dnHvpsukPg)
+
 ## PrintNode API Key generieren
 
 Loggen sie sich unter <https://app.printnode.com/app/apikeys> ein. Geben sie die URL der Odoo-Instanz ein und wählen sie *Create*.

@@ -7,6 +7,7 @@ tags:
 
 Eine moderne Lösung für ein altes Problem.
 
+Erweiterungen:
 * [Fertigung Stammdaten](Fertigung-Stammdaten.md)
 * [Cancel Manufacturing Order](Cancel-Manufacturing-Order.md)
 * [Product Barcode Generator](Product-Barcode-Generator.md)
@@ -15,6 +16,9 @@ Eine moderne Lösung für ein altes Problem.
 * [MRP Documents Share](MRP-Documents-Share.md)
 * [Product Country of Origin](Product-Country-of-Origin.md)
 * [Product Type Description](Product-Type-Description.md)
+
+Videos:
+* [Odoo Experience 2021 - What's New in MRP?](https://www.youtube.com/watch?v=xTXc_FV9kKU)
 
 ## BoM in Fertigungsauftrag neu laden
 
