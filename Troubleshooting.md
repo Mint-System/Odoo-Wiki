@@ -21,7 +21,7 @@ The following error prevented 'Swiss QR bill' QR-code to be generated though it 
 
 ![](assets/Troubleshooting%20Swiss%20QR%20bill%20error%202.png)
 
-:::
+::: warning
 Cannot generate the QR-bill. Please check you have configured the address of your company and debtor. If you are using a QR-IBAN, also check the invoice's payment reference is a QR reference.
 :::
 
