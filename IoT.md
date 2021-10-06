@@ -12,7 +12,7 @@ Alles, was das "Internet der Dinge (IoT)" bietet.
 
 ## Raspberry Pi installieren
 
-Unter <https://nightly.odoo.com/master/iotbox/iotboxv21_04.zip> die Datei `iotboxv21_04.zip` (oder aktueller) herunterladen und entpacken.
+Unter <https://nightly.odoo.com/master/iotbox/iotbox-latest.zip> die Datei `iotboxv21_04.zip` (oder aktueller) herunterladen und entpacken.
 
 [Raspberry Pi Imager](https://www.raspberrypi.org/software/) oder [Etcher](https://www.balena.io/etcher/) installieren und die Datei `iotbox.img` auf die SD-Karte laden.
 
