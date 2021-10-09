@@ -2,6 +2,7 @@
 
 #### Verschiedene Lohnarten einrichten
 
-Beschreibung: Für Lohnabrechnungsmodelle können verschiedene Lohnarten definiert werden.\
-Status: ✅\
-Link: [Lohnarten definieren](Personalabrechnung.md#Lohnarten%20definieren)
+| Titel                 | Beschreibung                                                               | Status |
+| --------------------- | -------------------------------------------------------------------------- | ------ |
+| Verschiedene Loharten | Für Lohnabrechnungsmodelle können verschiedene Lohnarten definiert werden. | ✅     |
+|                       |                                                                            |        |
