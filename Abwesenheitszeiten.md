@@ -10,6 +10,7 @@ Verwaltung von Mitarbeiterurlauben & Abwesenheit
 Erweiterungen:
 * [HR Holidays Public](HR-Holidays-Public.md)
 * [Theoretical vs Attended Time Analysis](Theoretical-vs-Attended-Time-Analysis.md)
+* [HR Holidays Remaining Leaves](HR-Holidays-Remaining-Leaves.md)
 
 ## Abwesenheitsanspruch melden
 
