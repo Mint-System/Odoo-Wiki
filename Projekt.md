@@ -10,6 +10,7 @@ Agiles Projektmanagement. Schön. Einfach. Open Source.
 Erweiterungen:
 * [Project timeline](Project-Timeline.md)
 * [Project Task Dependencies](Project-Task-Dependencies.md)
+* [Project key](Project-Key.md)
 
 ## Projekt anlegen
 

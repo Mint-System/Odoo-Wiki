@@ -11,6 +11,7 @@ Erweiterungen:
 * [HR Holidays Public](HR-Holidays-Public.md)
 * [Theoretical vs Attended Time Analysis](Theoretical-vs-Attended-Time-Analysis.md)
 * [HR Holidays Remaining Leaves](HR-Holidays-Remaining-Leaves.md)
+* [HR Holidays .ics Attachment](HR-holidays-ics-Attachment.md)
 
 ## Abwesenheitsanspruch melden
 
