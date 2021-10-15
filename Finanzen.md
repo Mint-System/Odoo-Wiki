@@ -33,4 +33,3 @@ Duplizieren sie eine bestehende Zahlungsbedingung. zum Beispiel 15 Tage.
 ![](assets/Finanzen%20Journal%20E-Mail-Alias.png)
 
 Anhänge an E-Mails mit diesem Alias aus dem Odoo-Postfach werden fortan als Rechnung erfasst.
-
