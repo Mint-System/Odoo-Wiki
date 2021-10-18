@@ -56,10 +56,6 @@ Für einen internen Transfer verpacken sie ein Produkt wie folgt:
 
 ![Lager Verpackungen Beispiel](assets/Lager%20Verpackungen%20Beispiel.gif)
 
-
-
-![Lager Vorgänge Verpackungen](assets/Lager%20Vorgänge%20Verpackungen.gif)
-
 ## Lieferung in mehre Packungen verpacken
 
 Jede Lieferung umfasst 1 oder mehrere *Vorgänge*. In einem Vorgang wird der Bedarf pro Produkt augelistet.
