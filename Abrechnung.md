@@ -107,4 +107,4 @@ Navigieren sie nach *Finanzen > Konfiguration > Verwaltung > Bargeld-Runden* und
 
 ![](assets/Abrechnung%20Runden.png)
 
-Wenn sie eine neue Rechnung schreiben, werden die Beiträge gerundet.
+Wenn sie eine neue Rechnung schreiben und die Rundungsmethode festgelegt ist, werden die Beiträge entsprechend gerundet.

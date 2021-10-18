@@ -2,7 +2,7 @@
 
 #### Kontakte mit Mandanten teilen
 
-| Titel                          | Beschreibung                                               | Status |
-| ------------------------------ | ---------------------------------------------------------- | ------ |
-| Einmaliges Adressbuch Mandaten | Kontakt-Einträge können mit Odoo-Mandanten geteilt werden. | ✅     |
-|                                |                                                            |        |
+| ID  | Titel                          | Beschreibung                                               | Status |
+| --- | ------------------------------ | ---------------------------------------------------------- | ------ |
+| AK1 | Einmaliges Adressbuch Mandaten | Kontakt-Einträge können mit Odoo-Mandanten geteilt werden. | ✅     |
+|     |                                |                                                            |        |

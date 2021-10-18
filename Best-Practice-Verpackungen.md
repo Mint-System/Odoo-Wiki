@@ -5,8 +5,8 @@ tags:
 # Best Practice: Verpackungen
 
 Folgende zwei Bedeutungen sind im Zusammenhang mit dem Verpacken zu beachten:
-- Produktverpackungen (Produkte nach Einheiten pro Paket verwalten und verpacken)
-- Verpackungen (Produkte für interne Transfers in Pakete, Kisten usw. verpacken)
+- **Produktverpackungen**: Produkte nach Einheiten pro Paket verwalten und verpacken)
+- **Versandverpackungen**: Produkte für interne Transfers in Pakete, Kisten usw. verpacken
 
 ## Produktverpackungen
 
@@ -30,7 +30,7 @@ Für ein Angebot wird die Produktverpackung zum Beispiel wie folgt angezeigt:
 Wenn ein Produkt in einer im System definierten Verpackung angeliefert wird, kann mit dem Scannen der Verpackung automatisch die entsprechende Quantität erfasst werden.
 :::
 
-### Verpackungen
+### Versandverpackungen
 
 Folgende Option muss eingeschaltet sein:
 

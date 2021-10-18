@@ -56,6 +56,24 @@ Für einen internen Transfer verpacken sie ein Produkt wie folgt:
 
 ![Lager Verpackungen Beispiel](assets/Lager%20Verpackungen%20Beispiel.gif)
 
+
+
+![Lager Vorgänge Verpackungen](assets/Lager%20Vorgänge%20Verpackungen.gif)
+
+## Lieferung in mehre Packungen verpacken
+
+Jede Lieferung umfasst 1 oder mehrere *Vorgänge*. In einem Vorgang wird der Bedarf pro Produkt augelistet.
+
+![](assets/Lager%20Vorgänge.png)
+
+Wenn sie einen Vorgang in mehere Packungen verpacken möchten, müssen sie unter *Detaillierte Vorgänge* zuerst das Teilgewicht in die vordefinierte Zeile einfügen. Anschliessend können sie weitere Zeilen mit weiteren Teilmengen hinzufügen.
+
+![Lager Vorgänge Verpackungen](assets/Lager%20Vorgänge%20Verpackungen.gif)
+
+## Versandverpackungen
+
+Verwalten sie Versandverpackungen unter *Lager > Konfiguration > Versandverpackungen*.
+
 ## Ablaufdatum aktivieren
 
 Für Produkte in Lots oder Produkte mit Seriennummer könne sie ein Ablaufdatum festlegen. Öffnen sie das Produkt via *Lager > Produkte > Produkte* und zeigen sie den Tab *Lager* an. Unter Lieferfolgung müssen sie eine Option für *Nachverfolung* auswählen. Nun erscheint die Checkbox *Ablaudatum*. Aktivieren sie diese und konfigurieren sie die Ablaufzeiten.
