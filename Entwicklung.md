@@ -196,3 +196,10 @@ Wählen sie den Bericht aus und notieren sie den *Vorlagenname* des Berichts.
 Nun haben sie alle Elemente um den Bericht als HTML anzuzeigen. Geben sie die folgende URL ein: /report/html/**stock.report_deliveryslip**/**3**
 
 ![](assets/Entwicklung%20Bericht%20angezeigt.png)
+
+Hierzu eine Übersicht der wichtigsten Berichte und deren URL:
+
+| Name              | URL                                      |
+| ----------------- | ---------------------------------------- |
+| Angebot / Auftrag | `/report/html/sale.report_saleorder/$ID` |
+|                   |                                          |

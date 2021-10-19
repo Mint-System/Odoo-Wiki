@@ -58,7 +58,7 @@ Für einen internen Transfer verpacken sie ein Produkt wie folgt:
 
 ## Lieferung in mehre Packungen verpacken
 
-Jede Lieferung umfasst 1 oder mehrere *Vorgänge*. In einem Vorgang wird der Bedarf pro Produkt augelistet.
+Jede Lieferung umfasst 1 oder mehrere *Vorgänge*. In einem Vorgang wird der Bedarf pro Produkt aufgelistet.
 
 ![](assets/Lager%20Vorgänge.png)
 
