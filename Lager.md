@@ -10,6 +10,7 @@ Maximieren sie die Effizienz Ihres Lagers.
 Erweiterungen:
 * [Demand Planner](Demand-Planner.md)
 * [Handscanner Zebra TC21](Handscanner-Zebra-TC21.md)
+* [Stock Production Lot Active](Stock-Production-Lot-Active.md)
 
 ## Erweiterte Vorgangstypen einrichten
 
