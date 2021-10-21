@@ -33,3 +33,11 @@ Duplizieren sie eine bestehende Zahlungsbedingung. zum Beispiel 15 Tage.
 ![](assets/Finanzen%20Journal%20E-Mail-Alias.png)
 
 Anhänge an E-Mails mit diesem Alias aus dem Odoo-Postfach werden fortan als Rechnung erfasst.
+
+## Bank-Datenübertragung konfigurieren
+
+Wählen sie *Finanzen > Konfiguration > Journale* und wählen sie das Bank-Journal aus. Im Tab *Buchungssätze* legen sie für das Feld *Bank-Datenübertragung* die Option *Automatisierte Banksynchronisation* fest.
+
+Fügen sie ihre Bank via *Konfiguration > Bankverzeichnis > Eine Bank hinzufügen* hinzu.
+
+![](assets/Finanzen%20Bank%20hinzufügen.png)
