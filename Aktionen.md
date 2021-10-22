@@ -122,6 +122,8 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Abwesenheitszeiten erscheint nun in der Auswahl *Aktion* das Menu *Ablehnen*.
 
+![](assets/Aktionen%20Abwesenheitszeiten%20Ablehnen.png)
+
 ## Automatische Archivierung der Los/Chargen
 
 Mit dieser Aktionen werden Los/Chargen archiviert, wenn sie eine Menge von 0 haben und werden dearchiviert wenn die Menge grösser 0 ist. Diese Aktion bötigt die Erweiterung [Stock Production Lot Active](Stock-Production-Lot-Active.md).
