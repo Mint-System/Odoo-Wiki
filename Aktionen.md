@@ -64,6 +64,7 @@ for record in records:
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
 Im Fertigungsauftrag erscheint nun in der Auswahl *Aktion* das Menu *Reload BoM*.
 
 ## Aktion Reset to Draft erstellen
@@ -82,6 +83,7 @@ for record in records:
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
 In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Reset to Draft*.
 
 ## Aktion Cancel Reconcilation erstellen
@@ -100,7 +102,25 @@ for record in records:
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
 In der Liste der Vorgänge erscheint nun in der Auswahl *Aktion* das Menu *Cancel Reconcilation*.
+
+## Aktion Abwesenheitzeiten Ablehnen erstellen
+
+Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Ablehnen`\
+Modell: `hr.leave`\
+Folgeaktion: `Python-Code ausführen`
+
+```
+for record in records:  
+  record.action_refuse()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Abwesenheitszeiten erscheint nun in der Auswahl *Aktion* das Menu *Ablehnen*.
 
 ## Automatische Archivierung der Los/Chargen
 
