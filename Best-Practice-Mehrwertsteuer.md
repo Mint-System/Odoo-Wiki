@@ -61,3 +61,33 @@ Für das Erstellen der Aberechung gehen sie im App Finanzen im Menü Berichtswes
 Lassen sie sich nur die gebuchten Posten anzeigen und wählen bei 'Tax report' die Option 'Global Summary'. Die mehrwertsteuerrelevante Umsätze werden angeziegt und können als PDF-Datei oder Export XLSX exportiert werden.
 
 Die einzelenen Mehrwertsteuersätze können mittels "Prüfung" einzeln kontrolliert werden. Beachten sie, das in dieser ansicht alle Rechnungen inkl. Gutschriften angezeigt werden. Die Summe kan somit zum effektiven MWST-Betrag differieren.
+
+## Regeln einrichten
+
+**Unterschiedliche MWST für In- und Ausland**
+
+Alle anwendbaren MWST-Sätze werden in der Liste *Abrechnung / Konfiguration / Finanzen / Steuern* eingetragen. Unterschieden werden die Einträge für *Verkauf* und *Einkauf*.
+
+Beispiel:
+- *Zu zahlende MwSt. bei 7.7%* mit Tax Type *Verkauf*
+- *Zu zahlende MwSt. bei 7.7%* mit Tax Type *Einkauf*
+
+Auf den Produkten ist im Tab *Allgemeine Informationen* im Feld *Steuern (Verkauf)* der Standard MWST-Satz hinterlegt. Zum Beispiel *Zu zahlende MwSt. bei 7.7%*.
+
+In der Liste *Abrechnung / Konfiguration / Finanzen / Steuerzuordnung*  können Regeln hinterlegt werden.
+
+Beispiel:
+- Schweiz national
+- Import/Export
+
+In der Steuerzuordnung *Schweiz national* kann im Feld *Land* auf die *Schweiz eingegrenzt* werden. Die Logik für die anwendbaren Steuern ergibt sich aus den Eintragungen in der Tabelle. Es wird der Inhalt der Spalte *Ursprüngliche Steuern beim Produkt* auf den Inhalt der Spalte *Verfügbare Steuer* transformiert. Soll also innerhalb der Schweiz der auf dem Produkt zugeordnete Standard-Steuersatz gelten, dann steht in beiden Spalten derselbe Inhalt.
+
+Beispiel:
+
+![Best Practice Mehrwertsteuer Beispiel 1](assets/Best%20Practice%20Mehrwertsteuer%20Beispiel%201.png)
+
+In der Steuerzuordnung *Import/Export* kann nun eingestellt werden, dass auf einem Angebot für das Ausland keine Steuern enthalten sind. Der Inhalt in der Spalte *Verfügbare Steuer* bleibt deshalb leer.
+
+Beispiel:
+
+![Best Practice Mehrwertsteuer Beispiel 2](assets/Best%20Practice%20Mehrwertsteuer%20Beispiel%202.png)

@@ -113,7 +113,7 @@ Name der Aktion: `Ablehnen`\
 Modell: `hr.leave`\
 Folgeaktion: `Python-Code ausführen`
 
-```
+```py
 for record in records:  
   record.action_refuse()
 ```
