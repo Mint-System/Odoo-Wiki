@@ -106,3 +106,7 @@ Beachten sie dass der Druckvorgang einige Sekunden in Anspruch nimmt.
 ## Direktes Drucken für Benutzer einrichten
 
 Für das direkte Drucken kann dem Benutzer ein Standarddrucker zugewiesen werden. Navigieren sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer > Benutzer auswählen > Tab Einstellungen* und legen sie im Abschnitt *Print* die Standarddrucker fest. Mit der Option *Print via Direct Print* wird das direkte Drucken aktiviert.
+
+## Standarddrucker für Bericht festlegen
+
+Unter *Direct Print > Print Report Policy > User Rules* können sie für jeden Benutzer den Standarddrucker für einen bestimmten Bericht festlegen. Erstellen sie dazu einen Eintrag, wählen sie den Benutzer, Drucker und Bericht aus.

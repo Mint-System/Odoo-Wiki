@@ -108,3 +108,9 @@ Für jedes Geschäftsobjekt können sie Standardwerte mit Bedingungen festlegen.
 Für jede installierte Sprache kann das angezeigte Datumsformat überschrieben werden. Öffnen sie das Sprachpaket via *Einstellungen > Allgemeine Einstellungen > Sprachen > Sprachen verwalten*. Bearbeiten sie das Feld *Datumsformat* und geben sie dort `%d.%m.%Y` ein.
 
 ![](assets/Einstellung%20Datumsformat.png)
+
+## Odoo-Datenbank verlängern
+
+Wenn eine Datenbank abgelaufen ist, erscheine eine entsprechende Meldung. Diese ist aber nur symbolisch, mit der richtigen URL können sie in den *Systemparameter* von Odoo das Ablaufdatum der Datenbank verlängern. Am einfachsten ist es, wenn das Testsystem und das produktive System unter einer ähnlichen URL erreichbar sind.
+
+![Einstellungen Odoo-Datenbank verlängern](assets/Einstellungen%20Odoo-Datenbank%20verlängern.gif)

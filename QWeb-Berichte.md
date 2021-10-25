@@ -46,7 +46,7 @@ Nun exportieren sie die Ansicht um eine *XML ID* zu generieren.
 
 ![QWeb-Berichte XML ID generieren](assets/QWeb-Berichte%20XML%20ID%20generieren.gif)
 
-Setzen sie als *Ansichtsbezeichnung* die *XML ID*. Öffnen sie den Bericht und setzen sie als *Vorlagenname* die *XML ID* ein.
+Setzen sie als *Ansichtsbezeichnung* die *XML ID*, ersetzen sie dabei `__export__` mit einer anderen Bezeichner beispielsweise `mint_system`. Öffnen sie den Bericht und setzen sie als *Vorlagenname* die *XML ID* ein.
 
 ![](assets/QWeb-Berichte%20Vorlagenname%20setzen.png)
 
