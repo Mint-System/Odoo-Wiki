@@ -21,7 +21,7 @@ Dieses Handbuch wird von der [Mint System GmbH](https://www.mint-system.ch/) unt
 
 ## [Best Practice](Best-Practice.md)
 
-[Hier](Best-Practice.md) get es zu den Best Practice.
+[Hier](Best-Practice.md) geht es zu den Best Practice.
 
 ## HowTos
 
