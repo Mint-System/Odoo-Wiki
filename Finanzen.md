@@ -12,6 +12,7 @@ Erweiterungen:
 * [Mehrere Währungen](Mehrere%20Währungen.md)
 * [SEPA-Zahlung](SEPA-Zahlung.md)
 * [Recurring - Contracts Management](Contract.md)
+* [Switzerland - Bank type](Switerland-Bank-Type.md)
 
 ## Kontenplan einrichten
 

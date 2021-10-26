@@ -54,19 +54,18 @@ MwSt. pflichtig:  7.7% MwSt. exkl. EK / 7.7% MwSt. inkl. EK
 | 2.5% MwSt. inkl. VK        | 2,5 % MwSt. inklusive auf Verkauf                | Verkauf          | 2200        | 2200                                        |
 | 2.5% MwSt. exkl. VK        | 2,5 % MwSt. exklusiv auf Verkäufe                | Verkauf          | 2200        | 2200                                        |
 
-## Abrechnung erstellen
+## MWST-Abrechnung
+
 Die MWST-Abrechnung wird je nach Vorgabe der Eidgenössischer Steuerverwaltung quartalsweise oder halbjährlich abgerechnet.
 
 Für das Erstellen der Aberechung gehen sie im App Finanzen im Menü Berichtswesen und rufen das Menü Berichtswesen auf. Hier wählen sie die Aberechungsperiode ab. Zum Beispiel von 01.01 bis 31.03.
-Lassen sie sich nur die gebuchten Posten anzeigen und wählen bei 'Tax report' die Option 'Global Summary'. Die mehrwertsteuerrelevante Umsätze werden angeziegt und können als PDF-Datei oder Export XLSX exportiert werden.
+Lassen sie sich nur die gebuchten Posten anzeigen und wählen bei *Tax report* die Option *Global Summary*. Die mehrwertsteuerrelevante Umsätze werden angeziegt und können als PDF-Datei oder XLSX exportiert werden.
 
-Die einzelenen Mehrwertsteuersätze können mittels "Prüfung" einzeln kontrolliert werden. Beachten sie, das in dieser ansicht alle Rechnungen inkl. Gutschriften angezeigt werden. Die Summe kan somit zum effektiven MWST-Betrag differieren.
+Die einzelenen Mehrwertsteuersätze können mittels *Prüfung* einzeln kontrolliert werden. Beachten sie, das in dieser ansicht alle Rechnungen inkl. Gutschriften angezeigt werden. Die Summe kan somit zum effektiven MWST-Betrag differieren.
 
-## Regeln einrichten
+## Unterschiedliche MWST für In- und Ausland
 
-**Unterschiedliche MWST für In- und Ausland**
-
-Alle anwendbaren MWST-Sätze werden in der Liste *Abrechnung / Konfiguration / Finanzen / Steuern* eingetragen. Unterschieden werden die Einträge für *Verkauf* und *Einkauf*.
+Alle anwendbaren MWST-Sätze werden in der Liste *Abrechnung > Konfiguration > Finanzen > Steuern* eingetragen. Unterschieden werden die Einträge für *Verkauf* und *Einkauf*.
 
 Beispiel:
 - *Zu zahlende MwSt. bei 7.7%* mit Tax Type *Verkauf*
@@ -74,7 +73,7 @@ Beispiel:
 
 Auf den Produkten ist im Tab *Allgemeine Informationen* im Feld *Steuern (Verkauf)* der Standard MWST-Satz hinterlegt. Zum Beispiel *Zu zahlende MwSt. bei 7.7%*.
 
-In der Liste *Abrechnung / Konfiguration / Finanzen / Steuerzuordnung*  können Regeln hinterlegt werden.
+In der Liste *Abrechnung > Konfiguration > Finanzen > Steuerzuordnung*  können Regeln hinterlegt werden.
 
 Beispiel:
 - Schweiz national
