@@ -24,21 +24,17 @@ Technische Konfigurationen damit sie an der Wissensdatenbank mitarbeiten können
 git@github.com:Mint-System/Odoo-Handbuch.git
 ```
 
-7. Öffnen sie den Ordner mit Obsidian
+8. Öffnen sie den Ordner mit Obsidian
 
 ### Synchronisierung
 
-Der Obsidian Vault und das Git Repository werden mit dem Obisidian Git plugin synchronisiert.
+Der Obsidian Vault und das Git Repository werden mit dem Obisidian Git Plugin synchronisiert.
 
-**Pull**
-
-Aktualisieren sie das lokale Git Repository.
+**Pull** - Das lokale Git Repository aktualisieren:
 * <kbd>ctrl + p</kbd> drücken
 * Befehl `Obisdian Git: Pull from remote repository` ausführen
 
-**Push**
-
-Ihre Änderungen werden gespeichert und auf <https://github.com/Mint-System/Odoo-Handbuch> mitgeteilt.
+**Push** - Änderungen speichern und auf <https://github.com/Mint-System/Odoo-Handbuch> hochladen:
 * <kbd>ctrl + p</kbd> drücken
 * Befehl `Obisdian Git: Create backup` ausführen
 
