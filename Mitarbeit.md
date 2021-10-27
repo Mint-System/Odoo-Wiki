@@ -8,7 +8,7 @@ In diesem Dokument werden die Vorgaben zur Mitarbeit am Odoo Handbuch erläutert
 
 ## Verwendung
 
-Technische Konfiguration damit sie an der Wissensdatenbank mitarbeiten können.
+Technische Konfigurationen damit sie an der Wissensdatenbank mitarbeiten können.
 
 ### Initialisierung
 
