@@ -6,6 +6,42 @@ tags:
 
 In diesem Dokument werden die Vorgaben zur Mitarbeit am Odoo Handbuch erläutert.
 
+## Verwendung
+
+Technische Konfiguration damit sie an der Wissensdatenbank mitarbeiten können.
+
+### Initialisierung
+
+1. Erstellen sie einen Account auf <https://github.com/>
+2. Werden sie Mitgleid bei <https://github.com/Mint-System/> (optional)
+3. Installieren sie <https://obsidian.md/>
+4. Installieren sie <https://git-scm.com/>
+5. Erstellen sie ein SSH-Schlüsselpaar <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
+6. Forken sie das *Odoo Handbuch* Repository (optional)
+7. Klonen sie das *Odoo Handbuch* Repository
+
+```bash
+git@github.com:Mint-System/Odoo-Handbuch.git
+```
+
+7. Öffnen sie den Ordner mit Obsidian
+
+### Synchronisierung
+
+Der Obsidian Vault und das Git Repository werden mit dem Obisidian Git plugin synchronisiert.
+
+**Pull**
+
+Aktualisieren sie das lokale Git Repository.
+* <kbd>ctrl + p</kbd> drücken
+* Befehl `Obisdian Git: Pull from remote repository` ausführen
+
+**Push**
+
+Ihre Änderungen werden gespeichert und auf <https://github.com/Mint-System/Odoo-Handbuch> mitgeteilt.
+* <kbd>ctrl + p</kbd> drücken
+* Befehl `Obisdian Git: Create backup` ausführen
+
 ## Philosophie
 
 Mit dem Odoo-Handbuch streben wir an eine einfache und kompakte Hilfestellung den Kunden anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best-Practice](Best-Practice.md). Geschäftsprozesse werden im [Referenzsystem](Referenzsystem.md) beschrieben. 
