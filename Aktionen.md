@@ -132,6 +132,7 @@ Navigeren nach *Einstellungen > Technisch > Geplante Aktionen* und einen neuen E
 
 * Name der Aktion: `Mint System: Archive Stock Production Lot`
 * Modell: `Serveraktion`
+* Anzahl aufrufe: `-1`
 
 Kopieren sie die folgenden Zeilen in das Feld *Python Code*:
 
@@ -159,5 +160,5 @@ if len(filtered_lots) > 0:
     filtered_lots.write({'active': True})
 env.cr.commit()
 
-raise Warning('The "Archive Stock Production Lot" job was executed successfully.')
+log('The "Archive Stock Production Lot" job was executed successfully.', level='info')
 ```

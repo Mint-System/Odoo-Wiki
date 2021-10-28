@@ -114,3 +114,7 @@ Für jede installierte Sprache kann das angezeigte Datumsformat überschrieben w
 Wenn eine Datenbank abgelaufen ist, erscheine eine entsprechende Meldung. Diese ist aber nur symbolisch, mit der richtigen URL können sie in den *Systemparameter* von Odoo das Ablaufdatum der Datenbank verlängern. Am einfachsten ist es, wenn das Testsystem und das produktive System unter einer ähnlichen URL erreichbar sind.
 
 ![Einstellungen Odoo-Datenbank verlängern](assets/Einstellungen%20Odoo-Datenbank%20verlängern.gif)
+
+## Sequenz anpassen
+
+Um die Nummerierung einer Sequenz anzupassen, öffnen sie *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Sequenzen*. Wählen sie die Sequenz aus und setzen die beispielsweise das Feld *Nächste Nummer zuweisen*.

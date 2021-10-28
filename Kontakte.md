@@ -12,6 +12,7 @@ Erweiterungen:
 * [Partner Secondary Name](Partner-Secondary-Name.md)
 * [Partner Secondary Email](Partner-Secondary-Email.md)
 * [Contact's birthdate](Contact-Birthdate.md)
+* [Partner Ref Sequence](Partner-Ref-Sequence.md)
 
 ## Portal-Zugriff gewähren
 
