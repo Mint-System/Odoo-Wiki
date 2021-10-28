@@ -4,9 +4,11 @@ tags:
 ---
 # Best Practice
 
-Implementation Geschäftsprozesse in Odoo.
+Beschreibt wie man am besten bestimmte Anwendungsfälle in Odoo implementiert.
 
 ## Beispiel-Daten
+
+Mit Beispiel-Daten werden Anwendungsfälle illustriert und die Implementation von Odoo unterstützt.
 
 * [Item-Structure](Best-Practice-Item-Structure.md)
 * [Definition Beispiel Fahrrad](Best-Practice-Definition-Beispiel-Fahrrad.md)
@@ -14,6 +16,8 @@ Implementation Geschäftsprozesse in Odoo.
 * [Personalabrechnung Lohnbuchhaltung](Best-Practice-Lohnbuchhaltung.md)
 
 ## Anwendungsfälle
+
+Gruppiert nach Bereich werden verschiedene Anwendungsfälle aufgeführt. Die Anwendungsfälle verweisen zur Implementation auf die HowTos.
 
 ### Fertigung
 
@@ -66,3 +70,4 @@ Implementation Geschäftsprozesse in Odoo.
 
 * [E-Mails verarbeiten](Best-Practice-E-Mails-verarbeiten.md)
 * [Odoo Datenmanagement](Best-Practice-Odoo-Datenmanagement.md)
+* [Externe ID](Best-Practice-Externe-ID.md)
