@@ -13,6 +13,7 @@ Erweiterungen:
 * [Partner Secondary Email](Partner-Secondary-Email.md)
 * [Contact's birthdate](Contact-Birthdate.md)
 * [Partner Ref Sequence](Partner-Ref-Sequence.md)
+* [Partner Contact Department](Partner-Contact-Department.md)
 
 ## Portal-Zugriff gewähren
 
