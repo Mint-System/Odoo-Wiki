@@ -12,6 +12,7 @@ Erweiterungen:
 * [Purchase Order Line Date](Purchase-Order-Line-Date.md)
 * [Purchase Partner Incoterm](Purchase-Partner-Incoterm.md)
 * [Pruchase Order Line Position](Purchase-Order-Line-Position.md)
+* [Purchase Order Line Price Default](Purchase-Order-Line-Price-Default.md)
 
 ## Angebotsanfrage erstellen
 

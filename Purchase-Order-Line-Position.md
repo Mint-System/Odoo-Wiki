@@ -6,7 +6,7 @@ tags:
 # Purchase Order Line Position
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Einkaufsaufträge mit Positionsnummbern. 
+Einkaufsaufträge mit Positionsnummern. 
 
 Technischer Name: `purchase_order_line_position`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_line_position>
