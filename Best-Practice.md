@@ -19,11 +19,11 @@ Mit Beispiel-Daten werden Anwendungsfälle illustriert und die Implementation vo
 
 Komplexe vertikale Odoo Implementationen werden mit Use Cases beschrieben.
 
-### Schokoladenfabrik
+### [Schokoladenfabrik](Use-Case-Schokoladenfabrik.md)
 
 In der Lebensmittelbranche müssen mehrstufige Qualitätskontrollen für Rohstoffe, Halbfabriakte und Fertigprodukte absolviert werden. In diesem Use Case wird beschrieben wie mit Odoo mehrstufige Routen für den Einkauf, die Fertigung und das Lager konfiguriert werden und wie diese mit der Qualitätskontrolle verknüpft werden.
 
-Hier geht es zum [Use Case - Schokoladenfabrik](Use-Case-Schokoladenfabrik.md)
+Hier geht es zum [Use Case - Schokoladenfabrik](Use-Case-Schokoladenfabrik.md).
 
 ## Best Practices
 
