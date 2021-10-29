@@ -4,7 +4,7 @@ tags:
 ---
 # Best Practice
 
-Beschreibt wie man am besten bestimmte Anwendungsfälle in Odoo implementiert.
+Beschreibt wie man bestimmte Anwendungsfälle in Odoo implementiert.
 
 ## Beispiel-Daten
 
@@ -15,9 +15,19 @@ Mit Beispiel-Daten werden Anwendungsfälle illustriert und die Implementation vo
 * [Finanzen Journale](Best-Practice-Finanzen-Journale.md)
 * [Personalabrechnung Lohnbuchhaltung](Best-Practice-Lohnbuchhaltung.md)
 
-## Anwendungsfälle
+## Use Cases
 
-Gruppiert nach Bereich werden verschiedene Anwendungsfälle aufgeführt. Die Anwendungsfälle verweisen zur Implementation auf die HowTos.
+Komplexe vertikale Odoo Implementationen werden mit Use Cases beschrieben.
+
+### Schokoladenfabrik
+
+In der Lebensmittelbranche müssen mehrstufige Qualitätskontrollen für Rohstoffe, Halbfabriakte und Fertigprodukte absolviert werden. In diesem Use Case wird beschrieben wie mit Odoo mehrstufige Routen für den Einkauf, die Fertigung und das Lager konfiguriert werden und wie diese mit der Qualitätskontrolle verknüpft werden.
+
+Hier geht es zum [Use Case - Schokoladenfabrik](Use-Case-Schokoladenfabrik.md)
+
+## Best Practices
+
+Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die # Best Practices verweisen zur Implementation auf die HowTos.
 
 ### Fertigung
 
