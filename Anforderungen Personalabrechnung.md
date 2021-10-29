@@ -1,4 +1,4 @@
-### [Personalabrechnung](Personalabrechnung.md)
+### Personalabrechnung
 
 #### Verschiedene Lohnarten einrichten
 

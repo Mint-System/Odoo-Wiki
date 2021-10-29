@@ -1,4 +1,4 @@
-### [Kontakte](Kontakte.md)
+### Kontakte
 
 #### Kontakte mit Mandanten teilen
 
