@@ -97,12 +97,12 @@ Rohstoffe (Input):
 Halbfabrikat QC:
 
 * **Kakaopulver** 1kg
-  * Route: Fertigung Halbfabrikat mit Q-Prüfung
-  * Katgeorie: Halbfabrikat QC
-  * BoM:
-	  * Route:
-	  * Komponenten:
-		* 2kg Kakaobohnen
+	* Route: Fertigung Halbfabrikat mit Q-Prüfung
+	* Katgeorie: Halbfabrikat QC
+	* BoM:
+		* Route:
+		* Komponenten:
+			* 2kg Kakaobohnen
 
 Halbfabrikat:
 

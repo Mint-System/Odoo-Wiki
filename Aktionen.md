@@ -71,8 +71,8 @@ Im Fertigungsauftrag erscheint nun in der Auswahl *Aktion* das Menu *Reload BoM*
 
 Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
 
-Name der Aktion: `Reset to Draft`\
-Modell: `account.move`\
+Name der Aktion: `Reset to Draft`
+Modell: `account.move`
 Folgeaktion: `Python-Code ausführen`
 
 Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
@@ -162,3 +162,19 @@ env.cr.commit()
 
 log('The "Archive Stock Production Lot" job was executed successfully.', level='info')
 ```
+
+
+## Default-Wert für Order Deadline 
+
+Mit Aktionen können Felder mit einem bestimmten Default-Wert beschrieben werden. Im folgenden Beispiel wird das Feld *Order Deadline* bei einer Angebotsanfrage auf das Datum *heute + 5 Tage* gesetzt.
+
+Navigieren sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen sie den folgenden Eintrag:
+
+* Name der Aktion: `Mint System: Set Order Deadline`
+* Modell: `Beschaffungsauftrag`
+* Auslöser: `Bei Erstellung`
+* Folgeaktion: `Den Datensatz aktualisieren`
+* Feld: `Order Deadline (purchase.order)`
+* Bewertungstyp: 
+* Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
+
