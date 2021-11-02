@@ -13,6 +13,7 @@ Erweiterungen:
 * [SEPA-Zahlung](SEPA-Zahlung.md)
 * [Recurring - Contracts Management](Contract.md)
 * [Switzerland - Bank type](Switerland-Bank-Type.md)
+* [Account Move Line Position](Account-Move-Line-Position.md)
 
 ## Kontenplan einrichten
 

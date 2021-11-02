@@ -11,6 +11,7 @@ Erweiterungen:
 * [Demand Planner](Demand-Planner.md)
 * [Handscanner Zebra TC21](Handscanner-Zebra-TC21.md)
 * [Stock Production Lot Active](Stock-Production-Lot-Active.md)
+* [Stock Move Line Position](Stock-Move-Line-Position.md)
 
 ## Erweiterte Vorgangstypen einrichten
 
