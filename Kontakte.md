@@ -14,6 +14,7 @@ Erweiterungen:
 * [Contact's birthdate](Contact-Birthdate.md)
 * [Partner Ref Sequence](Partner-Ref-Sequence.md)
 * [Partner Contact Department](Partner-Contact-Department.md)
+* [Partner Hide Address](Partner-Hide-Address.md)
 
 ## Portal-Zugriff gewähren
 
