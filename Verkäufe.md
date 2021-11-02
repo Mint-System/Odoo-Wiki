@@ -16,7 +16,8 @@ Erweiterungen:
 * [Sale Blanket Order Notes](Sale-Blanket-Order-Notes.md)
 * [Sale Order Line Position](Sale-Order-Line-Position.md)
 * [Sale Order Default Commitment Date](Sale-Order-Default-Commitment-Date.md)
-* [](Sale-Order-Contact-Person.md)
+* [Sale Order Contact Person](Sale-Order-Contact-Person.md)
+* [Sale Order Line Description](Sale-Order-Line-Description.md)
 
 ## Verkäufe Dashboard anzeigen
 
