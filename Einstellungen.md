@@ -118,3 +118,13 @@ Wenn eine Datenbank abgelaufen ist, erscheine eine entsprechende Meldung. Diese 
 ## Sequenz anpassen
 
 Um die Nummerierung einer Sequenz anzupassen, öffnen sie *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Sequenzen*. Wählen sie die Sequenz aus und setzen die beispielsweise das Feld *Nächste Nummer zuweisen*.
+
+## Neues Papierformat einrichten
+
+Navigieren sie nach *Einstellungen > Technisch > Berichtswesen > Papieformat*. Wir nehmen an, es braucht ein neues Papieformat für einen Etikettendrucker. Erstellen sie einen neuen Eintrag:
+
+![](assets/Neues%20Papierformat.png)
+
+::: tip
+Für einen exakten Druck, müssen sie die Seitengrösse in Inche und Milimeter kennen
+:::

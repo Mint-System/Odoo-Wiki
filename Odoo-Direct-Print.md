@@ -110,3 +110,25 @@ Für das direkte Drucken kann dem Benutzer ein Standarddrucker zugewiesen werden
 ## Standarddrucker für Bericht festlegen
 
 Unter *Direct Print > Print Report Policy > User Rules* können sie für jeden Benutzer den Standarddrucker für einen bestimmten Bericht festlegen. Erstellen sie dazu einen Eintrag, wählen sie den Benutzer, Drucker und Bericht aus.
+
+![](assets/Odoo%20Direct%20Print%20Default%20Printer.png)
+
+## Papierformat anlegen
+
+Unter *Direct Print > Configuration > Papers* können sie Papierformat für Bericht hinterlegen.
+
+![](assets/Odoo%20Direct%20Print%20Papers.png)
+
+## Papiefromat für Drucker festlegen
+
+Erstellen sie unter *Direct Print > Print Report Policy > Printer Settings* einen Eintrag für ihren Drucker.
+
+![](assets/Odoo%20Direct%20Print%20Printer%20Settings.png)
+
+## Papieformat für Bericht fesltegen
+
+Erstellen sie unter *Direct Print > Print Report Policy > Report Settings* einen Eintrag für ihren Bericht.
+
+::: tip
+Odoo Direct Print gibt eine Warnung aus, wenn das Papieformat nicht mit dem verknüpften Drucker übereinstimmt.
+:::

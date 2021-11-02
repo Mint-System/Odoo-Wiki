@@ -3,6 +3,7 @@ tags:
 - Best-Practice
 ---
 # Best Practice: Lager Vorgangstypen
+
 ## Vorgangstypen einrichten
 
 Standardmässig sind folgende Vorgangstypen eingerichtet:
