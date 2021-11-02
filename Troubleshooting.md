@@ -27,17 +27,13 @@ Cannot generate the QR-bill. Please check you have configured the address of you
 
 #### Ursache
 
-Auf dem Bankkonto ist normalerweise die QR-IBAN hinterlegt.
-
-![](assets/Troubleshooting%20QR-IBAN%20Ursache.png)
-
-Jedoch wird diese QR-IBAN nicht von der Rechnung übernommen.
+Damit die QR-Rechnung generiert werden kann, muss die Zahlungsreferenz nach einem bestimmten Muster gebildet werden.
 
 #### Lösung
 
-Erfassen sie die QR-IBAN als separates Konto und hinterlegen sie dieses auf der Rechnung.
+Stellen sie sicher, dass auf dem Journal die Einstellung *Kommunkationsstandard* auf *Schweiz* eingestellt ist.
 
-![](assets/Troubleshooting%20QR-IBAN%20Lösung.png)
+![](assets/Troubleshooting%20QR-IBAN%20Lösung%202.png)
 
 ## Fehlermeldung - Something went wrong
 
