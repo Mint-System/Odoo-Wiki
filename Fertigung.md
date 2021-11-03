@@ -7,8 +7,10 @@ tags:
 
 Eine moderne Lösung für ein altes Problem.
 
-Erweiterungen:
+Bereiche:
 * [Fertigung Stammdaten](Fertigung-Stammdaten.md)
+
+Erweiterungen:
 * [Cancel Manufacturing Order](Cancel-Manufacturing-Order.md)
 * [Product Barcode Generator](Product-Barcode-Generator.md)
 * [Product Name Sequence](Product-Name-Sequence.md)
@@ -28,6 +30,6 @@ Die Server Aktion *Reload BoM* wird gemäss Beschreibung in [BoM Reload Aktion e
 
 ![Fertigung Reload BoM](assets/Fertigung%20Reload%20BoM.png)
 
-:::info
+::: tip
 Falls eine Stückliste leer ist (keine Komponenten) erscheint ein über MTO automatisch generierter Fertigungsauftrag im Status *Entwurf*. Falls die Stückliste Komponenten enthält, dann erscheint er im Status *Bestätigt*.
 :::

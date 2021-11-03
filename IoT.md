@@ -7,8 +7,11 @@ tags:
 
 Alles, was das "Internet der Dinge (IoT)" bietet.
 
-* [Odoo Direct Print](Odoo-Direct-Print.md)
+Bereich:
 * [Etikettendrucker Zebra ZD410](Etikettendrucker-Zebra-ZD410.md)
+
+Erweiterungen:
+* [Odoo Direct Print](Odoo-Direct-Print.md)
 
 ## Raspberry Pi installieren
 

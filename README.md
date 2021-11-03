@@ -2,18 +2,18 @@
 
 Das Odoo Handbuch beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus vier Perspekten:
 
-1. **Referenzsystem**: Eine umfassende Dokumentation der Odoo-Prozesse.
-2. **Best Practice**: Beschreibung von Anwendungsfällen im Detail.
-3. **HowTos**: Detailliert beschriebene Arbeitsschritte.
-4. **Anforderungen**: Rerferenzanforderung für den Abgelich mit Lastenheften.
+1. **Referenzsystem**: Eine umfassende Dokumentation der Odoo-Prozesse
+2. **Best Practice**: Beschreibung von Anwendungsfällen im Detail
+3. **HowTos**: Detailliert beschriebene Arbeitsschritte
+4. **Anforderungen**: Rerferenzanforderung für den Abgleich mit einem Lastenheften
 
-Diese Perspektiven werden in diesem Handbuch miteinander verlinkt.
+Die Perspektiven werden in diesem Handbuch verlinkt.
 
 ## Maintainer
 
 [![logo](assets/logo.svg)](https://www.mint-system.ch/)
 
-Dieses Handbuch wird von der [Mint System GmbH](https://www.mint-system.ch/) unterhalten.
+Das Odoo Handbuch wird von der [Mint System GmbH](https://www.mint-system.ch/) unterhalten.
 
 ## [Referenzsystem](Referenzsystem.md)
 
@@ -25,7 +25,7 @@ Dieses Handbuch wird von der [Mint System GmbH](https://www.mint-system.ch/) unt
 
 ## HowTos
 
-Die HowTos sind nach Odoo Apps gruppiert.
+Für jede Odoo App finden sie hier HowTos.
 
 ### [Abrechnung](Abrechnung.md)
 
@@ -293,7 +293,7 @@ Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
 ## [Anforderungen](Anforderungen.md)
 
-Die Evaluation eines ERP-Systems ist eine aufwändige Arbeit. Als Kunde ist man damit konfrontiert Anforderungen systematisch zu erfassen und für Lieferanten zugänglich zu machen. Als Lieferant hat man der Analyse der Anforderungen viel Aufwand. Die [Referenzanforderungen](Anforderungen.md) sollen den Abgleich mit Lastenhefter vereinfachen.
+Die Evaluation eines ERP-Systems ist eine aufwändige Arbeit. Als Kunde ist man damit konfrontiert Anforderungen systematisch zu erfassen und für Lieferanten zugänglich zu machen. Als Lieferant hat man der Analyse der Anforderungen viel Aufwand. Die [Referenzanforderungen](Anforderungen.md) sollen den Abgleich mit einem Lastenheft vereinfachen.
 
 ## [Mitarbeit](Mitarbeit.md)
 

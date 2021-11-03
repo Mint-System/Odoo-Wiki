@@ -158,17 +158,21 @@ Weitere Erläuterungen.
 Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist die App Fertigung sehr umfangreich. Deshalb können die Bereiche in Unterseiten aufgeteilt werden.
 
 * [Fertigung](Fertigung.md)
+
+Bereiche: 
+
 * [Fertigung Stammdaten](Fertigung-Stammdaten.md)
 
 Die Bereiche bzw. Unterseite werden in der Hauptseite aufgelistet.
 
+Genauso werden Erweiterungen und Videos verlinkt.
+
 ### OCA-Apps
 
 Dokumentation zu den OCA-Apps müssen diese Vorgaben erfüllen:
-* Stanard OCA-icon
+* Standard OCA-icon
 * Titel ist gleich dem Titel im Repository
 * Repository-Link zeigt auf aktuelle Odoo-Version
-
 
 ### Namensbereiche
 
