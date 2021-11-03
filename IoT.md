@@ -7,7 +7,7 @@ tags:
 
 Alles, was das "Internet der Dinge (IoT)" bietet.
 
-Bereich:
+Bereiche:
 * [Etikettendrucker Zebra ZD410](Etikettendrucker-Zebra-ZD410.md)
 
 Erweiterungen:

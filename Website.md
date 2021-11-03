@@ -8,7 +8,7 @@ tags:
 
 Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 
-Erweiterungen:
+Bereiche:
 * [eCommerce](eCommerce.md)
 
 ## Zugriff Menu beschränken

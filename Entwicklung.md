@@ -7,13 +7,15 @@ tags:
 
 Odoo mühelos anpassen und erweitern.
 
-Erweiterungen:
+Bereiche:
 * [Aktionen](Aktionen.md)
+* [Snippets](Snippets.md)
+* [QWeb Berichte](QWeb-Berichte.md)
+
+Erweiterungen:
 * [Web Timeline](Web-Timeline.md)
 * [Mass Editing](Mass-Editing.md)
 * [BI SQL Editor](BI-SQL-Editor.md)
-* [Snippets](Snippets.md)
-* [QWeb Berichte](QWeb-Berichte.md)
 
 ## Domainfilter-Widget deaktivieren
 

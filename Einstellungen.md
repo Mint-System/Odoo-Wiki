@@ -7,12 +7,14 @@ tags:
 
 Odoo-Einstellungen aktivieren und konfigurieren.
 
-Erweiterungen:
+Bereiche:
 * [Einstellungen-Übersetzung](Einstellungen-%C3%9Cbersetzung.md)
 * [Einstellungen-Login](Einstellungen-Login.md)
+* [Integration](Integration.md)
+
+Erweiterungen:
 * [Web Responsive](Web-Responsive.md)
 * [Impersonate](Impersonate.md)
-* [Integration](Integration.md)
 * [Home Background Image](Home-Background-Image.md)
 
 ## Entwicklermodus aktivieren
