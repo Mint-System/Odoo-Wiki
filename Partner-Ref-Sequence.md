@@ -1,15 +1,15 @@
 ---
 tags:
 - HowTo
-- OCA
+- Drittanbierter
 ---
 # Partner Ref Sequence
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oms_box](assets/icon_oms_box.png)
 
 Automatische Vergabe der Kontakt-Referenz.
 
 Technischer Name: `partner_ref_sequence`\
-Repository: <https://github.com/OCA/partner-contact/tree/14.0/partner_ref_sequence>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/partner_ref_sequence>
 
 ## Kontakt-Referenz automatisch vergeben
 

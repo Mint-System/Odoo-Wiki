@@ -92,3 +92,6 @@ Ist ein Verkaufsauftrag im Status *Zusatzverkaufschance* wurde bei der Erstellun
 
 Bei Käufe aus dem Webshop kann der Status *Zusatzverkaufschance* entstehen, wenn die Versandkosten nicht aktuell sind. Öffnen sie den Auftrag um die Versandkosten zu aktualisieren. Die Versandkosten werden in gelber Schrift angezeigt und unten beim Total kässt sich diese aktualisieren. Der Text der Versandkosten werden nun in schwarzer Farbe angezeigt und der Link *Aktualisierung der Versandkosten* ist nun grün. Klicken sie danach oben links auf Speichern.
 
+## Mindestbestellmenge festlegen
+
+Für jedes Produkt in einer Preisliste kann eine Mindestbestellmenge definiert werden. Öffnen sie *Verkauf > Produkte > Preislisten* und wählen sie eine Preisliste aus. In der Spalte *Min. Bestellmenge* können sie die Mindestbestellmenge eintragen.
