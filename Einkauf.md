@@ -44,3 +44,12 @@ Die Portal-Ansicht einer Bestellung können sie wie folgt anzeigen:
 ::: tip
 In einem privaten Browser werden die Cookies nicht geladen und somit wird man nicht automatisch bei Odoo angemeldet.
 :::
+
+## Portal Benutzerkonto anlegen
+Falls sie für das Portal noch keinen Zugang haben, können sie über die Funktion *Benutzerkonto anlegen* ein Konto erstellen.
+
+![Einkauf Portal Benutzerkonto anlegen](assets/Einkauf%20Portal%20Benutzerkonto%20anlegen.png)
+
+Benutzername und Passwort können gewählt werden.
+
+![Einkauf Portal Benutzerkonto registrieren](assets/Einkauf%20Portal%20Benutzerkonto%20registrieren.png)

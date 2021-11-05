@@ -64,7 +64,7 @@ Kopieren sie den folgenden Inhalt:
 
 ## Rechnungsnummer einrichten
 
-Die Einrichtung der automatischen Vergabe der Rechnungsnummer erfolgt über die Aktion *Resequence* im Menu Abrechnung > Kunden > Rechnungen.
+Die Einrichtung der automatischen Vergabe der Rechnungsnummer erfolgt über die Aktion *Resequence* im Menu *Abrechnung > Kunden > Rechnungen*.
 Markieren sie eine (oder alle) Rechnungen und formulieren sie die erste Rechnungsnummer der Sequenz. Nach diesem Schema werden nur alle Rechnungen neu benannt und neue Rechnungen folgen diesem Muster.
 
 ![Abrechnung Rechnungsnummer einrichten](assets/Abrechnung%20Rechnungsnummer%20einrichten.gif)
