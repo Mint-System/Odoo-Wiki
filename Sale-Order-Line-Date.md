@@ -7,6 +7,8 @@ tags:
 # Sale Order Line Date
 ![icon_oca_app](assets/icon_oca_app.png)
 
+Lieferdatum pro Position.
+
 Technischer Name: `sale_partner_incoterm`\
 Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_partner_incoterm>
 

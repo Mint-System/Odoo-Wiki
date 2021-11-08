@@ -7,8 +7,9 @@ tags:
 
 Alle Odoo-Funktionen sind als mobile App verfügbar.
 
-Erweiterung:
-* [mERP Mobile App](mERP-Mobile-App.md)
+| Erweiterung                           | Beschreibung                     |
+| ------------------------------------- | -------------------------------- |
+| [mERP Mobile App](mERP-Mobile-App.md) | Alternative zur Odoo Mobile App. |
 
 ## In App einloggen
 

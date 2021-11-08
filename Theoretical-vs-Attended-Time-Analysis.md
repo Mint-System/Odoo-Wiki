@@ -11,8 +11,9 @@ Erstellen sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunde
 Technischer Name: `hr_attendance_report_theoretical_time`\
 Repository: <https://github.com/OCA/hr-attendance/tree/13.0/hr_attendance_report_theoretical_time>
 
-Erweiterungen:
-* [HR Holidays Public](HR-Holidays-Public.md)
+| Erweiterung                                 | Beschreibung                                                                              |
+| ------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| [HR Holidays Public](HR-Holidays-Public.md) | Erstellen sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird. |
 
 ## Startdatum festlegen
 

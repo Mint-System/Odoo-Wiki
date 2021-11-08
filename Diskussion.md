@@ -7,8 +7,9 @@ tags:
 
 In alle Module integrierter privater Chat und Gruppen-Chat.
 
-Erweiterungen:
-* [URL Attachment](URL-Attachment.md): Url als Dokument anhängen.
+| Erweiterung                         | Beschreibung               |
+| ----------------------------------- | -------------------------- |
+| [URL Attachment](URL-Attachment.md) | Url als Dokument anhängen. |
 
 ## Mail an Kontakt senden
 

@@ -7,12 +7,13 @@ tags:
 
 Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
 
-Erweiterungen:
-* [Einkauf Kaufverträge](Einkauf-Kaufverträge.md)
-* [Purchase Order Line Date](Purchase-Order-Line-Date.md)
-* [Purchase Partner Incoterm](Purchase-Partner-Incoterm.md)
-* [Pruchase Order Line Position](Purchase-Order-Line-Position.md)
-* [Purchase Order Line Price Default](Purchase-Order-Line-Price-Default.md)
+| Erweiterung                                                               | Beschreibung                                        |
+| ------------------------------------------------------------------------- | --------------------------------------------------- |
+| [Einkauf Kaufverträge](Einkauf-Kaufverträge.md)                           | Kaufvertäge für Rahmenbestellungen erstellen.       |
+| [Purchase Order Line Date](Purchase-Order-Line-Date.md)                   | Lieferdatum im Wareneingang automatisch nachtragen. |
+| [Purchase Partner Incoterm](Purchase-Partner-Incoterm.md)                 | Für jedem Partner die Incoterms festlegen.          |
+| [Pruchase Order Line Position](Purchase-Order-Line-Position.md)           | Einkaufsaufträge mit Positionsnummern.              |
+| [Purchase Order Line Price Default](Purchase-Order-Line-Price-Default.md) | Standardpreis einer Einkaufsposition überschreiben. |
 
 ## Angebotsanfrage erstellen
 

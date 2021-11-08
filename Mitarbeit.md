@@ -159,9 +159,9 @@ Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist di
 
 * [Fertigung](Fertigung.md)
 
-Bereiche: 
-
-* [Fertigung Stammdaten](Fertigung-Stammdaten.md)
+| Bereich                                         | Beschreibung                                   |
+| ----------------------------------------------- | ---------------------------------------------- |
+| [Fertigung Stammdaten](Fertigung-Stammdaten.md) | Produkte und Dienstleistungen zentral pflegen. |
 
 Die Bereiche bzw. Unterseite werden in der Hauptseite aufgelistet.
 

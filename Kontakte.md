@@ -7,14 +7,15 @@ tags:
 
 Alle Kontaktdaten an einem Ort.
 
-Erweiterungen:
-* [Partner first name and last name](Partner-first-name-and-last-name.md)
-* [Partner Secondary Name](Partner-Secondary-Name.md)
-* [Partner Secondary Email](Partner-Secondary-Email.md)
-* [Contact's birthdate](Contact-Birthdate.md)
-* [Partner Ref Sequence](Partner-Ref-Sequence.md)
-* [Partner Contact Department](Partner-Contact-Department.md)
-* [Partner Hide Address](Partner-Hide-Address.md)
+| Erweiterung                                                             | Beschreibung                                               |
+| ----------------------------------------------------------------------- | ---------------------------------------------------------- |
+| [Partner first name and last name](Partner-first-name-and-last-name.md) | Unterscheidet Vor- und Nachnamen.                          |
+| [Partner Secondary Name](Partner-Secondary-Name.md)                     | Zweitname für Unternehmen.                                 |
+| [Partner Secondary Email](Partner-Secondary-Email.md)                   | Zweite E-Mail für alle Kontakte.                           |
+| [Contact's birthdate](Contact-Birthdate.md)                             | Geburtstag bei Kontakten speichern für tolle Erinnerungen. |
+| [Partner Ref Sequence](Partner-Ref-Sequence.md)                         | Automatische Vergabe der Kontakt-Referenz.                 |
+| [Partner Contact Department](Partner-Contact-Department.md)             | Erweitert das Adressbuch mit Abteilungen.                  |
+| [Partner Hide Address](Partner-Hide-Address.md)                         | Addressen auf Berichten auslbenden.                        |
 
 ## Portal-Zugriff gewähren
 

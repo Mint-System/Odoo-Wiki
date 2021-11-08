@@ -6,7 +6,7 @@ tags:
 # Sale Order Line Position
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Verkaufsaufträge mit Positionsnummbern. 
+Verkaufsaufträge mit Positionsnummern. 
 
 Technischer Name: `sale_order_line_position`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_position>

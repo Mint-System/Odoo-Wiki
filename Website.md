@@ -8,8 +8,9 @@ tags:
 
 Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 
-Bereiche:
-* [eCommerce](eCommerce.md)
+| Erweiterung               | Beschreibung                      |
+| ------------------------- | --------------------------------- |
+| [eCommerce](eCommerce.md) | Webshop ohne Integrationsaufwand. |
 
 ## Zugriff Menu beschränken
 

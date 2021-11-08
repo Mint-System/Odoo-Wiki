@@ -7,9 +7,10 @@ tags:
 
 Personalbrechnungen schnell und einfach erstellen.
 
-Erweiterungen:
-* [Payroll Customizations Giordano](Payroll-Customizations-Giordano.md)
-* [Lohnmeldung](Lohnmeldung.md)
+| Erweiterung                                                           | Beschreibung                                 |
+| --------------------------------------------------------------------- | -------------------------------------------- |
+| [Payroll Customizations Giordano](Payroll-Customizations-Giordano.md) | Lohnabrechnung nach Schweizer Anforderungen. |
+| [Lohnmeldung](Lohnmeldung.md)                                         | Lohnmeldungen ganz einfach generieren.       |
 
 ## Pesonalabrechnung initialisieren
 

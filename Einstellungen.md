@@ -7,15 +7,17 @@ tags:
 
 Odoo-Einstellungen aktivieren und konfigurieren.
 
-Bereiche:
-* [Einstellungen-Übersetzung](Einstellungen-%C3%9Cbersetzung.md)
-* [Einstellungen-Login](Einstellungen-Login.md)
-* [Integration](Integration.md)
+| Bereich                                                        | Beschreibung                                          |
+| -------------------------------------------------------------- | ----------------------------------------------------- |
+| [Einstellungen-Übersetzung](Einstellungen-%C3%9Cbersetzung.md) | Einstellungen zu Sprachpakete und Übersetzungen.      |
+| [Einstellungen-Login](Einstellungen-Login.md)                  | Odoo-Einstellungen zum Benutzer und Anmeldeverfahren. |
+| [Integration](Integration.md)                                  | Odoo mit Plattformen von Dritten integrieren.         |
 
-Erweiterungen:
-* [Web Responsive](Web-Responsive.md)
-* [Impersonate](Impersonate.md)
-* [Home Background Image](Home-Background-Image.md)
+| Erweiterung                                       | Beschreibung                                   |
+| ------------------------------------------------- | ---------------------------------------------- |
+| [Web Responsive](Web-Responsive.md)               | Responsive Anzeige der Odoo-Oberfläche.        |
+| [Impersonate](Impersonate.md)                     | Schnelles Wechseln zwischen Benutzer-Accounts. |
+| [Home Background Image](Home-Background-Image.md) | Den Odoo-Startbildschirm gestalten.            |
 
 ## Entwicklermodus aktivieren
 

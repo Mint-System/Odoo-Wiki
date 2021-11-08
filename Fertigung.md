@@ -7,20 +7,23 @@ tags:
 
 Eine moderne Lösung für ein altes Problem.
 
-Bereiche:
-* [Fertigung Stammdaten](Fertigung-Stammdaten.md)
+| Bereich                                         | Beschreibung                                   |
+| ----------------------------------------------- | ---------------------------------------------- |
+| [Fertigung Stammdaten](Fertigung-Stammdaten.md) | Produkte und Dienstleistungen zentral pflegen. |
 
-Erweiterungen:
-* [Cancel Manufacturing Order](Cancel-Manufacturing-Order.md)
-* [Product Barcode Generator](Product-Barcode-Generator.md)
-* [Product Name Sequence](Product-Name-Sequence.md)
-* [Product Sequence](Product-Sequence.md)
-* [MRP Documents Share](MRP-Documents-Share.md)
-* [Product Country of Origin](Product-Country-of-Origin.md)
-* [Product Type Description](Product-Type-Description.md)
+| Erweiterung                                                 | Beschreibung                                                                 |
+| ----------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [Cancel Manufacturing Order](Cancel-Manufacturing-Order.md) | Fertigungsauftrag rückgängig machen.                                         |
+| [Product Barcode Generator](Product-Barcode-Generator.md)   | Autogenerate EAN13 product barcodes.                                         |
+| [Product Name Sequence](Product-Name-Sequence.md)           | Generate product names based on a sequence.                                  |
+| [Product Sequence](Product-Sequence.md)                     | Produkreferenzen anhand einer Sequenz generieren lassen.                     |
+| [MRP Documents Share](MRP-Documents-Share.md)               | Teilen sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument. |
+| [Product Country of Origin](Product-Country-of-Origin.md)   | Bestimmen sie für jedes Produkt ein Herkunftsland                            |
+| [Product Type Description](Product-Type-Description.md)     | Zu jedem Produkt ein Beschreibungsfeld.                                      |
 
-Videos:
-* [Odoo Experience 2021 - What's New in MRP?](https://www.youtube.com/watch?v=xTXc_FV9kKU)
+| Video                                                                                    |
+| ---------------------------------------------------------------------------------------- |
+| [Odoo Experience 2021 - What's New in MRP?](https://www.youtube.com/watch?v=xTXc_FV9kKU) |
 
 ## BoM in Fertigungsauftrag neu laden
 

@@ -5,7 +5,7 @@ tags:
 # Notizen
 ![icons_odoo_note](assets/icons_odoo_note.png)
 
-Notizen zentral verwwalten.
+Notizen zentral verwalten.
 
 ## Notizen teilen
 

@@ -11,8 +11,9 @@ Die Timeline-Ansicht für alle Objekte.
 Technischer Name: `web_timeline`\
 Repository: <https://github.com/OCA/web/tree/13.0/web_timeline>
 
-Erweiterungen:
-* [Project timeline](Project-Timeline.md)
+| Erweiterung                             | Beschreibung                          |
+| --------------------------------------- | ------------------------------------- |
+| [Project timeline](Project-Timeline.md) | Timeline-Ansicht für Projektaufgaben. |
 
 ## Timeline für Abwesenheitszeiten anzeigen
 

@@ -8,19 +8,21 @@ tags:
 
 Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung. 
 
-Bereiche:
-* [Verkäufe Stammdaten](Verkäufe-Stammdaten.md)
+| Bereich                                       | Beschreibung                                         |
+| --------------------------------------------- | ---------------------------------------------------- |
+| [Verkäufe Stammdaten](Verkäufe-Stammdaten.md) | Produkte, Preislisten und Varianten zentral pflegen. |
 
-Erweiterungen:
-* [Blanket Sale Order](Blanket-Sale-Order.md)
-* [Default sales incoterm per partner](Default-sales-incoterm-per-partner.md)
-* [Sale Order Line Date](Sale-Order-Line-Date.md)
-* [Sale Blanket Order](Sale-Blanket-Order.md)
-* [Sale Blanket Order Notes](Sale-Blanket-Order-Notes.md)
-* [Sale Order Line Position](Sale-Order-Line-Position.md)
-* [Sale Order Default Commitment Date](Sale-Order-Default-Commitment-Date.md)
-* [Sale Order Contact Person](Sale-Order-Contact-Person.md)
-* [Sale Order Line Description](Sale-Order-Line-Description.md)
+| Erweiterung                                                                 | Beschreibung                                                           |
+| --------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [Blanket Sale Order](Blanket-Sale-Order.md)                                 | Rahmenverträge für Verkäufe erstellen.                                 |
+| [Default sales incoterm per partner](Default-sales-incoterm-per-partner.md) | Standardlieferbedingungen für Kunden.                                  |
+| [Sale Order Line Date](Sale-Order-Line-Date.md)                             | Lieferdatum pro Position.                                              |
+| [Sale Blanket Order](Sale-Blanket-Order.md)                                 | Rahmenverträge für Verkäufe erstellen.                                 |
+| [Sale Blanket Order Notes](Sale-Blanket-Order-Notes.md)                     | Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden. |
+| [Sale Order Line Position](Sale-Order-Line-Position.md)                     | Verkaufsaufträge mit Positionsnummern.                                 |
+| [Sale Order Default Commitment Date](Sale-Order-Default-Commitment-Date.md) | Standardlieferdatum festlegen.                                         |
+| [Sale Order Contact Person](Sale-Order-Contact-Person.md)                   | Kontaktperson auf Verkaufsauftrag festlegen.                           |
+| [Sale Order Line Description](Sale-Order-Line-Description.md)               | Nur Verkausbeschreibung im Feld Beschreibung übertragen.               |
 
 ## Verkäufe Dashboard anzeigen
 

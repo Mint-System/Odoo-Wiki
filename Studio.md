@@ -7,8 +7,9 @@ tags:
 
 Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.
 
-Erweiterungen:
-* [Studio Beispiele](Studio-Beispiele.md)
+| Erweiterung                             | Beschreibung                               |
+| --------------------------------------- | ------------------------------------------ |
+| [Studio Beispiele](Studio-Beispiele.md) | Beispiele für Anpassungen mit Odoo Studio. |
 
 ## Anpassungen dokumentieren
 Aufgabenträger: [Administrator](Rollen.md#Administrator)

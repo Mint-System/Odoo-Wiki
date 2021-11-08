@@ -8,9 +8,10 @@ tags:
 
 Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
-Bereiche:
-* [Terminal Zeiterfassung](Terminal-Zeiterfassung.md)
-* [Awesome Timesheet](Awesome-Timesheet.md)
+| Erweiterung                                         | Beschreibung                                        |
+| --------------------------------------------------- | --------------------------------------------------- |
+| [Terminal Zeiterfassung](Terminal-Zeiterfassung.md) | Ein- und auschecken mit dem Terminal Zeiterfassung. |
+| [Awesome Timesheet](Awesome-Timesheet.md)           | Mobile Zeiterfassung.                               |
 
 ## Eintrag manuell erstellen
 

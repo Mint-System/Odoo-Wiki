@@ -7,13 +7,15 @@ tags:
 
 Maximieren sie die Effizienz Ihres Lagers.
 
-Bereiche:
-* [Handscanner Zebra TC21](Handscanner-Zebra-TC21.md)
+| Bereich                                             | Beschreibung          |
+| --------------------------------------------------- | --------------------- |
+| [Handscanner Zebra TC21](Handscanner-Zebra-TC21.md) | Handscanner für Odoo. |
 
-Erweiterungen:
-* [Demand Planner](Demand-Planner.md)
-* [Stock Production Lot Active](Stock-Production-Lot-Active.md)
-* [Stock Move Line Position](Stock-Move-Line-Position.md)
+| Erweiterung                                                   | Beschreibung                                                                                                |
+| ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [Demand Planner](Demand-Planner.md)                           | Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen. |
+| [Stock Production Lot Active](Stock-Production-Lot-Active.md) | Erlaubt die Archivierung von Los/Chargen.                                                                   |
+| [Stock Move Line Position](Stock-Move-Line-Position.md)       | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.                                            |
 
 ## Erweiterte Vorgangstypen einrichten
 

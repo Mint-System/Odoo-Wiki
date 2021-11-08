@@ -7,11 +7,12 @@ tags:
 
 Neue Apps installieren und aktualisieren.
 
-Erweiterungen:
-* [Product Name Sequence](Product-Name-Sequence.md)
-* [Product Barcode Generator](Product-Barcode-Generator.md)
-* [Cancel Manufacturing Order](Cancel-Manufacturing-Order.md)
-* [Blanket Sale Order](Blanket-Sale-Order.md)
+| Erweiterung                                                 | Beschreibung                                |
+| ----------------------------------------------------------- | ------------------------------------------- |
+| [Product Name Sequence](Product-Name-Sequence.md)           | Generate product names based on a sequence. |
+| [Product Barcode Generator](Product-Barcode-Generator.md)   | Autogenerate EAN13 product barcodes.        |
+| [Cancel Manufacturing Order](Cancel-Manufacturing-Order.md) | Fertigungsauftrag rückgängig machen.        |
+| [Blanket Sale Order](Blanket-Sale-Order.md)                 | Rahmenverträge für Verkäufe erstellen.      |
 
 ## Liste der Apps aktualisieren
 

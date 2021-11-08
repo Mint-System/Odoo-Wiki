@@ -6,7 +6,7 @@ tags:
 # Home Backround Image
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Kalenderansicht aller Geburtstage.
+Den Odoo-Startbildschirm gestalten.
 
 Technischer Name: `home_background_image`\
 Repository: <https://github.com/Mint-System/Odoo-App-Home-Background-Image/tree/14.0>
