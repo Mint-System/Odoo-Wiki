@@ -17,3 +17,7 @@ Produkte, Preislisten und Varianten zentral pflegen.
 Zuletzt tragen sie Werte für das Attribut ein.
 
 ![](assets/Verkäufe%20Stammdaten%20Produktattributte.png)
+
+## Erweiterte Preisregeln aktivieren
+
+Navigieren sie nach *Verkäufe > Konfiguration > Preiskalkulation* und aktivieren sie die Option *Preislisten* mit der Unteroption *Erweiterte Preisregeln*.
