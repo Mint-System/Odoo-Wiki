@@ -147,7 +147,7 @@ if (!firstArg || ['all', 'index'].indexOf(firstArg) >= 0) {
         for (let line of lines) {
             if (line.startsWith('# ') || line.startsWith('## ') || line.startsWith('### ')) {
                 // Get title
-                title = line.replace('## ','').replace('# ','')
+                title = line.replace('### ','').replace('## ','').replace('# ','')
                 break
             }
         }
