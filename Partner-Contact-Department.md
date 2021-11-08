@@ -1,22 +1,16 @@
 ---
 tags:
 - HowTo
-- OCA
+- Drittanbierter
 ---
 # Partner Contact Department
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oms_box](assets/icon_oms_box.png)
 
-Erweitert das Adressbuch mit Abteilungen.
+Abteilung auf Kontakten speichern. 
 
 Technischer Name: `partner_contact_department`\
-Repository: <https://github.com/OCA/partner-contact/tree/14.0/partner_contact_department>
-
-## Abteilungen für Kontakte verwalten
-
-Öffnen sie *Kontakte > Konfiguration > Abteilungen* und verwalten sie hier hierarchische Struktur der Abteilungen. 
+Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/partner_contact_department>
 
 ## Abteilung auf Kontakt festlegen
 
-Mit dieser Erweiterung können sie für jeden Kontakt eine Abteilung festlegen. Öffnen sie einen Kontakt via *Kontakte*. Unter dem Feld *Stelle* finden sie das Abteilungs-Feld.
-
-
+Mit dieser Erweiterung können sie für jeden Kontakt einen Wert im Feld *Abteilung* festhalten. Öffnen sie einen Kontakt via *Kontakte*. Unter dem Feld *Stelle* finden sie das Abteilungs-Feld.
