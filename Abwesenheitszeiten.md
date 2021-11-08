@@ -7,11 +7,12 @@ tags:
 
 Verwaltung von Mitarbeiterurlauben & Abwesenheit
 
-Erweiterungen:
-* [HR Holidays Public](HR-Holidays-Public.md)
-* [Theoretical vs Attended Time Analysis](Theoretical-vs-Attended-Time-Analysis.md)
-* [HR Holidays Remaining Leaves](HR-Holidays-Remaining-Leaves.md)
-* [HR Holidays .ics Attachment](HR-holidays-ics-Attachment.md)
+| Erweiterung                                                                       | Beschreibung                                                                                                       |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| [HR Holidays Public](HR-Holidays-Public.md)                                       | Erstellen sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.                          |
+| [Theoretical vs Attended Time Analysis](Theoretical-vs-Attended-Time-Analysis.md) | Erstellen sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement. |
+| [HR Holidays Remaining Leaves](HR-Holidays-Remaining-Leaves.md)                   | Verbleibende Anwesenheitsansprüche der Mitarbeitenden anzeigen.                                                    |
+| [HR Holidays .ics Attachment](HR-holidays-ics-Attachment.md)                      | An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.                                                  |
 
 ## Abwesenheitsanspruch melden
 

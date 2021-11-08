@@ -7,6 +7,9 @@ tags:
 
 In alle Module integrierter privater Chat und Gruppen-Chat.
 
+Erweiterungen:
+* [URL Attachment](URL-Attachment.md): Url als Dokument anhängen.
+
 ## Mail an Kontakt senden
 
 Mit dem Odoo-Chatter können auf jedem Geschäftsobjekt interne Notizen hinzugefügt werden, aber auch Mails für Externe.

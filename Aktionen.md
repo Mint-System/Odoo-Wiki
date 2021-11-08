@@ -5,7 +5,7 @@ tags:
 # Aktionen
 ![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)
 
-Validierungen und Ansicht können mit Odoo Aktionen einfach erstellt werden.
+Eigene Odoo Aktionen erstellen.
 
 ## Beim Aktualisieren eine Validierung ausführen
 

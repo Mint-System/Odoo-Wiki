@@ -9,7 +9,7 @@ tags:
 Ganz einfach SQL-basierte Berichte erstellen.
 
 Technischer Name: `bi_sql_editor`\
-Repository: <https://github.com/OCA/reporting-engine/tree/13.0/bi_sql_editor>
+Repository: <https://github.com/OCA/reporting-engine/tree/14.0/bi_sql_editor>
 
 ## SQL-Bericht erstellen
 

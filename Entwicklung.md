@@ -8,14 +8,14 @@ tags:
 Odoo mühelos anpassen und erweitern.
 
 Bereiche:
-* [Aktionen](Aktionen.md)
-* [Snippets](Snippets.md)
-* [QWeb Berichte](QWeb-Berichte.md)
+* [Aktionen](Aktionen.md): Eigene Odoo Aktionen erstellen.
+* [Snippets](Snippets.md): Einfache Anpassungen mit den Mint System Snippets umsetzen.
+* [QWeb Berichte](QWeb-Berichte.md): Eigene Berichte mit QWeb erstellen.
 
 Erweiterungen:
-* [Web Timeline](Web-Timeline.md)
-* [Mass Editing](Mass-Editing.md)
-* [BI SQL Editor](BI-SQL-Editor.md)
+* [Web Timeline](Web-Timeline.md): Die Timeline-Ansicht für alle Objekte.
+* [Mass Editing](Mass-Editing.md): Mühelos mehere Einträge auf einmal bearbeiten.
+* [BI SQL Editor](BI-SQL-Editor.md): Ganz einfach SQL-basierte Berichte erstellen.
 
 ## Domainfilter-Widget deaktivieren
 
