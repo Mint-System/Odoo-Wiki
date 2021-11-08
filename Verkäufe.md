@@ -2,7 +2,6 @@
 tags:
 - HowTo
 ---
-
 # Verkäufe
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
@@ -23,6 +22,7 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 | [Sale Order Default Commitment Date](Sale-Order-Default-Commitment-Date.md) | Standardlieferdatum festlegen.                                         |
 | [Sale Order Contact Person](Sale-Order-Contact-Person.md)                   | Kontaktperson auf Verkaufsauftrag festlegen.                           |
 | [Sale Order Line Description](Sale-Order-Line-Description.md)               | Nur Verkausbeschreibung im Feld Beschreibung übertragen.               |
+| [Product Listprice Currency](Product-Listprice-Currency.md)                 | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.       |
 
 ## Verkäufe Dashboard anzeigen
 

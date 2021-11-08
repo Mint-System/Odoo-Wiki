@@ -17,7 +17,7 @@ Odoo.sh Projekte sind an ein Github-Repository gekoppelt, wenn sie einem Benutze
 
 ## Eigene Domain konfigurieren
 
-Damit ihre Odoo-Installation oder Website unter einer eigenen Domain erreichbar ist, müssen sie einerseits im Besitz der Domäne sein und einen DNS-Eintrag machen. Der DNS-Eintrag zeigt wo man den Odoo-Server für eine bestimme Domain findet. Angenommen ihr Odoo.sh-Projekt heisst `example` und ihre Domain `example.com`, dann müssen sie diesen DNS-Eintrag machen: `example.com ALIAS example.odoo.com` oder `example.com CNAME example.odoo.com`.
+Damit ihre Odoo-Installation oder Website unter einer eigenen Domain erreichbar sind, müssen sie im Besitz der Domäne sein und einen DNS-Eintrag machen. Der DNS-Eintrag zeigt wo man den Odoo-Server für eine bestimme Domain findet. Angenommen ihr Odoo.sh-Projekt heisst `example` und ihre Domain `example.com`, dann müssen sie diesen DNS-Eintrag machen: `example.com ALIAS example.odoo.com` oder `example.com CNAME example.odoo.com`.
 
 ::: tip
 Die DNS-Einträge können sie oft dort machen, wo sie die Domain erworben haben. Verantwortlich für die DNS-Einträge sind die sog. Nameserver.
