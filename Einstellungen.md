@@ -23,6 +23,10 @@ Navigieren nach *Einstellungen > Allgemeine Einstellungen > Entwickler Tools*.
 
 Auf *Entwicklermodus aktivieren* klicken. Nun erscheinen neue Optionen in verschiedenen Odoo Apps. In der URL erscheint zusätzlich der Parameter `?debug=1`. Der Entwicklermodus kann auch über die manuelle Eingabe dieses Parameters aktiviert werden.
 
+Eine weitere Möglickeit ist die Installation einer Browser Erweiterung. Installieren sie über die Funktion *Erweiterungen* in der Einstellung ihres Browsers die Funktion *Odoo Debug*. Anschliessend erscheint das folgende Icon in der Toolbar. ![Einstellungen Odoo Debug](assets/Einstellungen%20Odoo%20Debug.png)
+
+Mit einem Mausklick können sie damit den Entwicklermodus ein- und ausschalten.
+
 ## Tour deaktivieren
 
 Aktivieren Sie den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren).
@@ -73,7 +77,7 @@ Navigieren sie nach *Einstellungen > Benutzer und Unternehmen > Roles* und wähl
 
 Weisen sie im Tab *Benutzer* die Rolle einem Benutzer zu. Ist die Rolle aktiv, überschreibt sie die existierenden Berechtigungen.
 
-## Papieformat für Bericht anpassen
+## Papierformat für Bericht anpassen
 
 Angenommen sie möchten das Papieformat für den ISR-Einzahlungsschein ändern, öffnen sie im Entwicklermodus *Einstellungen > Technisch > Berichtswesen > Papierformat.*
 

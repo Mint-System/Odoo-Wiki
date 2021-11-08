@@ -21,23 +21,23 @@ Die Produkte erscheinen entsprechend zur Auswahl wenn z.B ein Angebot (kann verk
 
 **Titel**
 
-Feld |Beispiel|Kommentar
-:- |:- |:-
-Produktname|Lenkerbügel|Bezeichnet einen Teil des Anzeigenamens in Form von *[Interne Referenz] Produktname*
-Kann verkauft werden|*aktiviert*|Der Artikel wird als Verkaufsprodukt angeboten. Damit erscheint er in der Auswahl um ein Angebot zu erstellen.
-Kann eingekauft werden|*deaktiviert*|Der Artikel kann von extern bezogen werden. Er erscheint in der Auswahl um eine Angebotsanfrage zu erstellen.
+| Feld                   | Beispiel      | Kommentar                                                                                                      |
+| ---------------------- | ------------- | -------------------------------------------------------------------------------------------------------------- |
+| Produktname            | Lenkerbügel   | Bezeichnet einen Teil des Anzeigenamens in Form von *[Interne Referenz] Produktname*                           |
+| Kann verkauft werden   | *aktiviert*   | Der Artikel wird als Verkaufsprodukt angeboten. Damit erscheint er in der Auswahl um ein Angebot zu erstellen. |
+| Kann eingekauft werden | *deaktiviert* | Der Artikel kann von extern bezogen werden. Er erscheint in der Auswahl um eine Angebotsanfrage zu erstellen.  |
 
 **Register Allgemeine Informationen**
 
-Feld |Beispiel |Kommentar
-:- |:- |:-
-Produktart|Einlagerbares Produkt|Siehe Abschnitt Definitionen/Produktart
-Produktkategorie|All|Siehe Abschnitt Definitionen/Produktkategorie
-Interne Referenz|1005-0000|Bezeichnet einen Teil des Anzeigenamens in Form von *[Interne Referenz] Produktname*
-Strichcode|1005-0000|Empfehlung: Gleicher Inhalt wie *Interne Referenz*. Achtung: Falls der Artikel international eindeutig sein soll, sind spezielle Vorgabe zu beachten.
-Verkaufspreis|---|---
-Steuern (Verkauf)|---|---
-Kosten|26.15 CHF|Siehe Abschnitt Definition/Kosten
+| Feld              | Beispiel              | Kommentar                                                                                                                                             |
+| ----------------- | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Produktart        | Einlagerbares Produkt | Siehe Abschnitt Definitionen/Produktart                                                                                                               |
+| Produktkategorie  | All                   | Siehe Abschnitt Definitionen/Produktkategorie                                                                                                         |
+| Interne Referenz  | 1005-0000             | Bezeichnet einen Teil des Anzeigenamens in Form von *[Interne Referenz] Produktname*                                                                  |
+| Strichcode        | 1005-0000             | Empfehlung: Gleicher Inhalt wie *Interne Referenz*. Achtung: Falls der Artikel international eindeutig sein soll, sind spezielle Vorgabe zu beachten. |
+| Verkaufspreis     | ---                   | ---                                                                                                                                                   |
+| Steuern (Verkauf) | ---                   | ---                                                                                                                                                   |
+| Kosten            | 26.15 CHF             | Siehe Abschnitt Definition/Kosten                                                                                                                     |
 
 In verschiedenen Darstellungen erscheint die Produktbezeichnung als zusammengesetzter Text in der Form \[Interne Referenz\] Produktname.
 
@@ -62,9 +62,9 @@ Falls eine *Security Lead Time for Sales* definiert ist (siehe Lager > Konfigrua
 ## Produktart festlegen
 
 Zur Auswahl stehen 
-- Einlagerbares Produkt
-- Verbrauchsartikel
-- Dienstleistung
+* Einlagerbares Produkt
+* Verbrauchsartikel
+* Dienstleistung
 
 Falls ein Produkt im Lager eingebucht und die Menge überwacht werden soll, ist *Einlagerbares Produkt* die richtige Wahl. Für Produkte welche mengenmässig nicht erfasst werden (z.B. Reinigungsflüssigkeit) wählen Sie *Verbrauchsartikel*. Sie können sie einkaufen aber nicht an Lager legen. Die Produktart *Dienstleistung* dient zur Darstellung von immateriellen Gütern (z.B. Beratungsleistung).
 
@@ -73,9 +73,9 @@ Falls ein Produkt im Lager eingebucht und die Menge überwacht werden soll, ist 
 Die Produktkategorie können sie nach eigenen Definitionen kategorisieren.
 
 Zur Auswahl stehen:
-- All
-- All / Expenses
-- All / Saleable
+* All
+* All / Expenses
+* All / Saleable
 
 ## Produktkosten ermitten
 
