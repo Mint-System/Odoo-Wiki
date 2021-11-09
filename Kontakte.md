@@ -14,9 +14,10 @@ Alle Kontaktdaten an einem Ort.
 | [Partner Secondary Email](Partner-Secondary-Email.md)                   | Zweite E-Mail für alle Kontakte.                           |
 | [Contact's birthdate](Contact-Birthdate.md)                             | Geburtstag bei Kontakten speichern für tolle Erinnerungen. |
 | [Partner Ref Sequence](Partner-Ref-Sequence.md)                         | Automatische Vergabe der Kontakt-Referenz.                 |
-| [Partner Contact Department](OCA-Partner-Contact-Department.md)             | Erweitert das Adressbuch mit Abteilungen.                  |
+| [Partner Contact Department](OCA-Partner-Contact-Department.md)         | Erweitert das Adressbuch mit Abteilungen.                  |
 | [Partner Hide Address](Partner-Hide-Address.md)                         | Addressen auf Berichten auslbenden.                        |
 | [Partner Contact Department](Partner-Contact-Department.md)             | Abteilung auf Kontakten speichern.                         |
+| [Base Partner Sequence](Base-Partner-Sequence.md)                       | Sequenz auf Kundenreferenz.                                |
 
 ## Portal-Zugriff gewähren
 
