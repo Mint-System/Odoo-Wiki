@@ -36,3 +36,9 @@ Beachten sie immer in welchem Kontext sie sich in der Navigation befinden.
 Standardmässig zeigt Odoo 80 Einträge auf einer Listenseite an. Diese Einstellung kann pro Listenansicht übersteuert werden. Als Anwender kann man adhoch einen Werte festlegen.
 
 ![Navigation Mehrere Listeneinträge](assets/Navigation%20Mehrere%20Listeneinträge.gif)
+
+## Versteckte Spalte anzeigen
+
+Öffnen sie eine beliebige Listenansicht und klicken sie auf die drei Punkte auf der rechten Seite. Wählen sie die Spalten an, die sie anzeigen möchten.
+
+![](assets/Navigation%20Versteckte%20Spalten.png)
