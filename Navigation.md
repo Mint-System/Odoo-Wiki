@@ -42,3 +42,5 @@ Standardmässig zeigt Odoo 80 Einträge auf einer Listenseite an. Diese Einstell
 Öffnen sie eine beliebige Listenansicht und klicken sie auf die drei Punkte auf der rechten Seite. Wählen sie die Spalten an, die sie anzeigen möchten.
 
 ![](assets/Navigation%20Versteckte%20Spalten.png)
+
+Odoo merkt sich die Einstellungen für ihren Benuzter und zeigt beim Aufruf der Listenansicht die Spalten wie gewählt an.
