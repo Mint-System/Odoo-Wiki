@@ -13,6 +13,7 @@ Verwaltung von Mitarbeiterurlauben & Abwesenheit
 | [Theoretical vs Attended Time Analysis](Theoretical-vs-Attended-Time-Analysis.md) | Erstellen sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement. |
 | [HR Holidays Remaining Leaves](HR-Holidays-Remaining-Leaves.md)                   | Verbleibende Anwesenheitsansprüche der Mitarbeitenden anzeigen.                                                    |
 | [HR Holidays .ics Attachment](HR-holidays-ics-Attachment.md)                      | An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.                                                  |
+| [HR Holidays Leave Archive](HR-Holidays-Leave-Archive.md)                         | Archivierungsfunktion für Abwesenheitseinträge aktivieren.                                                         |
 
 ## Abwesenheitsanspruch melden
 
