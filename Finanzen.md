@@ -63,3 +63,9 @@ Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an und öffnen sie
 ## Währung auf Rechnung festlegen
 
 Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* oder *Finanzen > Lieferanten > Rechnungen* an. Rechts vom Eingabefeld *Journal* können sie die Währung festlegen.
+
+## Sperrdatum festlegen
+
+Im Dialog *Finanzen > Finanzen > Aktion > Sperrdaten* können sie Sperrdaten für die Geschäfts- und Steuerperiode definieren.
+
+![](assets/Finanzen%20Sperrdatum%20festlegen.png)
