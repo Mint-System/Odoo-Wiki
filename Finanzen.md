@@ -66,6 +66,6 @@ Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* oder *Finanzen > L
 
 ## Sperrdatum festlegen
 
-Im Dialog *Finanzen > Finanzen > Aktion > Sperrdaten* können sie Sperrdaten für die Geschäfts- und Steuerperiode definieren.
+Im Dialog *Finanzen > Finanzen > Aktion > Sperrdaten* können sie Sperrdaten für die Geschäfts- und Steuerperiode definieren.e
 
 ![](assets/Finanzen%20Sperrdatum%20festlegen.png)

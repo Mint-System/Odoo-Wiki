@@ -132,3 +132,9 @@ Erstellen sie unter *Direct Print > Print Report Policy > Report Settings* einen
 ::: tip
 Odoo Direct Print gibt eine Warnung aus, wenn das Papieformat nicht mit dem verknüpften Drucker übereinstimmt.
 :::
+
+## Packvorgang/Lieferschein automatisch drucken
+
+Mit Druck-Senarien können sie Druckvorgänge automatisieren. Damit der Packvorgang nach der Bestätigung eines Verkaufsauftrags automatisch gedruckt wird, navigieren sie als erstes nach *Direct Print > Print Scenarios*. Aktivieren sie die Zeile *Print Picking Document after Sales Order Confirmation*.
+
+Für das automatische Drucken das Lieferschein aktivieren sie die Zeile *Print document on Backorder (created after Transfer validation*.

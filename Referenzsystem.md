@@ -19,6 +19,7 @@ Prozesse:
 * [Beschaffung](Prozess-Beschaffung.md)
 * [Betriebsdaten](Prozess-Betriebsdaten.md)
 * [Abwesenheit](Prozess-Abwesenheit.md)
+* [Finanzen](Prozess-Finanzen.md)
 
 ## Rollen
 

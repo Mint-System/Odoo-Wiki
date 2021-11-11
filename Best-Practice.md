@@ -27,7 +27,7 @@ Hier geht es zum [Use Case - Schokoladenfabrik](Use-Case-Schokoladenfabrik.md).
 
 ## Best Practices
 
-Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die # Best Practices verweisen zur Implementation auf die HowTos.
+Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best Practices verweisen zur Implementation auf die HowTos.
 
 ### Fertigung
 
