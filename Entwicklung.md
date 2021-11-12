@@ -183,3 +183,27 @@ Ansichtsbezeichnung: `mint_system.hr_holidays.hr_leave_view_tree.remove_payslip`
 
 </data>
 ```
+
+## Ansicht entfernen
+
+Öffnen sie *Einstellungen > Technisch > Benutzer-Interface > Ansichten* und suchen sie die entsprechende Ansicht. Markieren sie diese und wählen sie *Aktion > Löschen* oder *Aktion > Archiv*.
+
+::: warning
+Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen sie die Aktion nur aus, wenn sie sich den möglichen Auswirkungen bewusst sind.
+:::
+
+## Menüeintrag entfernen
+
+Öffnen sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und suchen sie den entsprechende Menüeintrag. Markieren sie diesen und wählen sie *Aktion > Löschen* oder *Aktion > Archiv*.
+
+::: warning
+Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen sie die Aktion nur aus, wenn sie sich den möglichen Auswirkungen bewusst sind.
+:::
+
+## Datenmodell entfernen
+
+Öffnen sie *Einstellungen > Technisch > Datenbankstruktur > Datenmodelle* und suchen sie das entsprechende Datenmodell. Markieren sie diesen und wählen sie *Aktion > Löschen*.
+
+::: warning
+Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen sie die Aktion nur aus, wenn sie sich den möglichen Auswirkungen bewusst sind.
+:::

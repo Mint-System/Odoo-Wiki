@@ -54,3 +54,16 @@ Dem Benutzer wurde mit wiedersprüchlichen Berechtigungen ausgestattet.
 Den Entwickler-Modus aktivieren und in den Superuser wechseln. Nun ist es möglich über die Einstellungen zur Benutzerliste zu navigieren. Dort den eigenen Benutzer mit Berechtigungen ausstatten.
 
 
+## Zahlungsmethode gelöscht
+
+#### Problem
+
+Eine Zahlungsmethode steht nicht mehr zur Verfügung.
+
+#### Ursache
+
+Im Zahlungsvorgang von Rechnungen wurde eine Zahlungsmethode gelöscht.
+
+#### Lösung
+
+Aktualisieren sie die App *Abrechnung* (`account`). Damit werden die Zahlungsmetho
