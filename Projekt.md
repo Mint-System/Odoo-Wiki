@@ -63,3 +63,15 @@ Um ein Projekt zu duplizieren führen sie folgende Aktion aus *Projekt > Projekt
 Die Gantt-Ansicht kann via *Projekt > Alle Aufgaben* angezeigt werden.
 
 ![](assets/Projekt%20Gantt-Ansicht%20aktiviert.png)
+
+## Abrechnung für Projekt einrichten
+
+Damit die auf einer Projektaufgabe erfassten Stunden abgerechnet werden können, müssen sie bestimmte Einstellungen vornehmen. Öffnen sie ein Projekt via *Projekt > Projekte > Kontext-Menü > Bearbeiten > Tab Einstellungen* und wählen sie als erstes die Option *Abrechenbar*. Öffnen sie den Tab *Abrechnung* und stellen sie sicher, dass diese Optionen aktiviert sind:
+
+* **Invoice Task to**: Stunden an einen oder mehrere Kunden verrechnen
+* **Preiskalkulation**: Stundensatz des Mitarbeiters oder aus Verkaufsauftrag
+* **Verkaufsauftrag**: Verlinkter Verkaufsauftrag mit Standardposition
+
+Dazu ein Beispiel:
+
+![](assets/Projekt%20Tab%20Abrechnung.png)
