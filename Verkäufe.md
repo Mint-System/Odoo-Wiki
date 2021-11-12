@@ -100,3 +100,17 @@ Bei Käufe aus dem Webshop kann der Status *Zusatzverkaufschance* entstehen, wen
 ## Mindestbestellmenge festlegen
 
 Für jedes Produkt in einer Preisliste kann eine Mindestbestellmenge definiert werden. Öffnen sie *Verkauf > Produkte > Preislisten* und wählen sie eine Preisliste aus. In der Spalte *Min. Bestellmenge* können sie die Mindestbestellmenge eintragen.
+
+## Für mehrere Verkaufsaufträge eine Rechnung generieren
+
+Öffnen sie *Verkauf*, gruppieren sie die Aufträge nach Kunde und setzen sie als Filter *Abzurechnen*. Öffnen sie einen Kunden, markieren sie die Einträge und wählen sie *Aktion > Rechnung erzeugen*.
+
+![](assets/Verkäufe%20Rechnung%20erzeugen.png)
+
+Im Dialog wählen sie *Erzeuge und zeige Rechnung an*.
+
+![](assets/Verkäufe%20Rechnung%20anzeigen.png)
+
+Nun wird für jeden Positionen in den Verkaufsaufträgen eine Rechnungsposition erstellt. Jede Rechnungsposition ist mit der entsprechenden Verkaufsauftragsposition verknüpft.
+
+![](assets/Verkäufe%20Auftragsposition%20verknüpft.png)
