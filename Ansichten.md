@@ -59,3 +59,9 @@ Ansichtsbezeichnung: `mint_system.hr_holidays.hr_leave_view_tree.remove_payslip`
 ::: warning
 Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen sie die Aktion nur aus, wenn sie sich den möglichen Auswirkungen bewusst sind.
 :::
+
+## Standard-Ansicht definieren
+
+Beim Aufrufen einer Ansicht wird als erstes eine Aktion ausgeführt. Auf dieser Aktion ist definiert welche Ansicht (Liste, Kanban, Karte, ...) standardmässig angezeigt werden soll. Zum ändern rufen zeigen sie eine Anischt an und wählen *Entwicklertools > Aktion bearbeiten*. Scrollen sie nach unten und ändern sie die Reihenfolge der Ansichten.
+
+![](assets/Ansicht%20Standard%20ändern.png)
