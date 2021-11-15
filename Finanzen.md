@@ -69,3 +69,10 @@ Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* oder *Finanzen > L
 Im Dialog *Finanzen > Finanzen > Aktion > Sperrdaten* können sie Sperrdaten für die Geschäfts- und Steuerperiode definieren.e
 
 ![](assets/Finanzen%20Sperrdatum%20festlegen.png)
+
+## Ausgehende Zahlung für mehrere Rechnungen erfassen
+Im App Finanzen in der Ansicht *Finanzen >  Lieferanten > Rechnung* den Fiilter *Nicht bezahlt* setzen. Die zu zahhlenden Rechnungen links markieren und *Zahlung erfassen* auswählen. 
+
+![](assets/Finanzen%20Sepa%20Zahlung%20erfassen.png)
+
+Für jede Rechnung wird eine SEPA-Zahlung angelegt.

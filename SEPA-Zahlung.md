@@ -7,6 +7,15 @@ tags:
 
 SEPA-Zahlungen mit Odoo Finanzen abwickeln.
 
+## SEPA-Zahlung aktivieren
+
+Damit SEPA-Zahlungen exportiert werden können, müssen unter *Einstellungen > Finanzen > Zahlung des Lieferant* die folgenden Einstellungen vorgenommen werden:
+
+* Unternehmensname: Name des Unternehmesn
+* Identifikation: Mwst. oder andere eindeutige Identifikationsnummer
+* Veranlasser: Name des Buchhalters
+* SEPA PAIN Version: Schweizer Version
+
 ## SEPA-Zahlmethode aktiveren
 
 Damit Zahlungen aus Odoo exportiert und im eBanking importiert werden können, müssen sie die SEPA-Zahlmethode für das entsprechende Bank-Journal aktiveren.
@@ -21,13 +30,7 @@ Navigieren sie nach *Finanzen > Optionen Journal > Einstellungen > Tab Erweitert
 
 ![Finanzen SEPA-Zahlung erfassen](assets/Finanzen%20SEPA-Zahlung%20erfassen.gif)
 
-## SEPA-Zahlung exportieren
+## Stapelzahlung anlegen
 
-Damit SEPA-Zahlungen exportiert werden können, müssen unter *Einstellungen > Finanzen > Zahlung des Lieferant* die folgenden Einstellungen vorgenommen werden:
+Um eine Zahlung zu exportieren, klicken sie auf *Finanzen > X Über SEPA zu sendende Zahlungen*, markieren die offenen Zahlungen und wählen *Aktion > Stapelzahlung anlegen*. Im neuen Dialog wählen sie *Bestätigen* und erhalten so die generierte Zahlungsdatei, die sie exportieren können.
 
-* Unternehmensname: Name des Unternehmesn
-* Identifikation: Mwst. oder andere eindeutige Identifikationsnummer
-* Veranlasser: Name des Buchhalters
-* SEPA PAIN Version: Schweizer Version
-
-Um eine Zahlung zu exportieren, klicken sie auf *Finanzen > X Über SEPA zu sendende Zahlungen*, markieren die offenen Zahlungen und wählen *Aktion > Stapelzahlung anlegen*. Im neuen Dialog wählen sie *Bestätigen* und erhalten so die generierte Zahlungsdatei.
