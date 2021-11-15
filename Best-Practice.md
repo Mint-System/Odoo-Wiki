@@ -46,6 +46,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Verschiedene Währungen](Best-Practice-Verschiedene-W%C3%A4hrungen.md)
 * [Mehrwertsteuer](Best-Practice-Mehrwertsteuer.md)
 * [QR-Rechnung](Best-Practice-QR-Rechnung.md)
+* [SEPA Zahlung](Best-Pratice-SEPA-Zahlung.md)
 
 ### Einkauf
 
