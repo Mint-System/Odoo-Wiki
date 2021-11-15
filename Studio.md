@@ -74,6 +74,6 @@ Wählen sie die neue Standardansicht an und klicken auf das Menu und auf *Als St
 
 Eine App erstellt mit Odoo Studio generiert im Hintergrund Menüeinträge, Datenmodelle und Ansichten. Damit die App entfernt werden kann, müssen diese Einträge von Hand gelöscht werden. Gehen sie folgt vor:
 
-* [Ansicht entfernen](Entwicklung.md#Ansicht%20entfernen)
+* [Ansicht entfernen](Ansichten.md#Ansicht%20entfernen)
 * [Menüeintrag entfernen](Entwicklung.md#Menüeintrag%20entfernen)
 * [Datenmodell entfernen](Entwicklung.md#Datenmodell%20entfernen)

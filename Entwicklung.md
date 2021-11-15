@@ -12,6 +12,7 @@ Odoo mühelos anpassen und erweitern.
 | [Aktionen](Aktionen.md)           | Eigene Odoo Aktionen erstellen.                             |
 | [Snippets](Snippets.md)           | Einfache Anpassungen mit den Mint System Snippets umsetzen. |
 | [QWeb Berichte](QWeb-Berichte.md) | Eigene Berichte mit QWeb erstellen.                         |
+| [Ansichten](Ansichten.md)         | Odoo Ansichten anpassen.                                                            |
 
 | Erweiterung                       | Beschreibung                                   |
 | --------------------------------- | ---------------------------------------------- |
@@ -73,36 +74,6 @@ Frist bis in 5 Tagen erreicht und an eigenem Benutzer zugewiesen:
 ]
 ```
 
-## In Portal-Ansicht neue Felder anzeigen
-Aufgabenträger: [Entwickler](Rollen.md#Entwickler)
-
-Die Anpassung [Dateianhang in Bericht anzeigen](Studio.md#Dateianhang%20in%20Bericht%20anzeigen) ist auch für das Kundenportal möglich.
-
-![](assets/Entwicklung%20Portal%20neues%20Feld%20hinzuf%C3%BCgen.png)
-
-Dazu ergänzt man die Ansicht `purchase.portal_my_purchase_order` mit folgender Erweiterung:
-
-**Portal: My Purchase Order with File Links**
-
-```xml
-<xpath expr='//span[@t-esc='ol.name']' position='after'>
-	<t t-if="ol.product_id.x_studio_drawing">
-		<br/>
-		<span>Zeichnung: </span>
-		<a t-attf-href="{{ol.product_id.x_studio_drawing.url}}">
-		  <span t-field="ol.product_id.x_studio_drawing.display_name"/>
-		</a>
-	</t>
-	<t t-if="ol.product_id.x_studio_step_file">
-		<br/>
-		<span>STEP-Datei: </span>
-		<a t-attf-href="{{ol.product_id.x_studio_step_file.url}}">
-			<span t-field="ol.product_id.x_studio_step_file.display_name"/>
-		</a>
-	</t>
-</xpath>
-```
-
 ## Developer API Key generieren
 
 Damit Software von Dritten Zugriff auf die Daten von Odoo hat, ohne dass dabei das Passwort eines Benutzers geteilt werden muss, kann man einen Zugriffsschlüssel bereitstellen.
@@ -138,59 +109,6 @@ An jedem Objekt kann an einfach ein Feld hinzugefügt werden. Öffnen sie eine A
 Dazu ein Beispiel mit [Abwesenheitszeiten](Abwesenheitszeiten.md):
 
 ![](assets/Entwicklung%20Neues%20Feld%20auf%20Abwesenheitszeiten.png)
-
-## Feld in Ansicht anzeigen
-
-Damit ein neues Feld ersichtlich ist, muss es auf der entsprechenden Ansicht hingefügt werden. Rufen sie im Entwicklermodus die Ansicht auf und wählen sie *Entwicklertools > Ansicht bearbeiten: Liste. Suchen sie hier den Feldnamen unter dem das neue Feld angezeigt werden soll.
-
-In unserem Beispiel nehmen wir `state`.
-
-![](assets/Entwicklung%20Feld%20hinzufügen.png)
-
-Navigieren sie nun in den Tab *Vererbte Ansichten* und fügen sie hier einen neuen Eintrag hinzu:
-
-Ansichtsbezeichnung: Beginnt mit Prefix `mint_system.` anschlissend folgt die externe ID der Hauptansicht und anschliessend folgt `.BESCHREIBUNG`
-
-Beispiel: `mint_system.hr_holidays.hr_leave_view_tree.add_synced_field`
-
-Im Tab *Architektur* geben sie die Anweisung zum Hinzufügen des Feldes ein:
-
-```xml
-<?xml version="1.0"?>
-<data inherit_id="hr_holidays.hr_leave_view_tree">
-
-  <xpath expr="//field[@name='state']" position="after">
-    <field name="x_synced" widget="toggle_button"/>
-  </xpath>
-
-</data>
-```
-
-Speichern sie die Ansicht und laden sie die aktuelle Ansicht neu.
-
-## Feld in Ansicht ausblenden
-
-Wiederholen sie den Vorgang [Neues Feld hinzufügen](#Neues%20Feld%20hinzufügen), jedoch wird das ausgesuchte Feld mit diesem Snippet ausgeblendet:
-
-Ansichtsbezeichnung: `mint_system.hr_holidays.hr_leave_view_tree.remove_payslip`
-
-```xml
-<?xml version="1.0"?>
-<data inherit_id="hr_holidays.hr_leave_view_tree">
-
-  <xpath expr="//field[@name='payslip_status']" position="replace">
-  </xpath>
-
-</data>
-```
-
-## Ansicht entfernen
-
-Öffnen sie *Einstellungen > Technisch > Benutzer-Interface > Ansichten* und suchen sie die entsprechende Ansicht. Markieren sie diese und wählen sie *Aktion > Löschen* oder *Aktion > Archiv*.
-
-::: warning
-Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen sie die Aktion nur aus, wenn sie sich den möglichen Auswirkungen bewusst sind.
-:::
 
 ## Menüeintrag entfernen
 
