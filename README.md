@@ -5,7 +5,7 @@ Das Odoo Handbuch beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus
 1. **Referenzsystem**: Eine umfassende Dokumentation der Odoo-Prozesse
 2. **Best Practice**: Beschreibung von Anwendungsfällen im Detail
 3. **HowTos**: Detailliert beschriebene Arbeitsschritte
-4. **Anforderungen**: Rerferenzanforderung für den Abgleich mit einem Lastenheften
+4. **Anforderungen**: Referenzanforderung für den Abgleich mit einem Lastenheften
 
 Die Perspektiven werden in diesem Handbuch verlinkt.
 
