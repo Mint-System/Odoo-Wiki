@@ -63,6 +63,12 @@ Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 
 [![icons_odoo_board](assets/icons_odoo_board.png)](Dashboards.md)
 
+### [Data Cleaning](Data-Cleaning.md)
+
+Die Datenqualität ganz einfach verbessern.
+
+[![](assets/icon_odoo_data_cleaning.png)](Data-Cleaning.md)
+
 ### [Datenbankmanager](Datenbankmanager.md)
 
 Odoo-Instanzen mit dem Datenbankmanager verwalten.
