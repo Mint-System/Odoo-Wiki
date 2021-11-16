@@ -12,12 +12,12 @@ Ihre Buchhaltung einfach und korrekt.
 | [Mehrere Währungen](Mehrere%20Währungen.md) | Unterschiedliche Währungen mit Odoo Finanzen verarbeiten. |
 | [SEPA-Zahlung](SEPA-Zahlung.md)             | SEPA-Zahlungen mit Odoo Finanzen abwickeln.               |
 
-| Erweiterung                                                 | Beschreibung                                                                   |
-| ----------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| [Bank Account Camt54 Import](Bank-Account-Camt54-Import.md) | Camt54 Bankauszug mit den Details zu Sammelbuchungen (vorher DTI) importieren. |
-| [Recurring - Contracts Management](Contract.md)             | Wiederholende Verträge verwalten und automatisch verrechnen.                   |
-| [Switzerland - Bank type](Switerland-Bank-Type.md)          | Lokalisierung für Schweizer Banken und Bankkontos.                             |
-| [Account Move Line Position](Account-Move-Line-Position.md) | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.               |
+| Erweiterung                                                 | Beschreibung                                                      |
+| ----------------------------------------------------------- | ----------------------------------------------------------------- |
+| [Bank Account Camt54 Import](Bank-Account-Camt54-Import.md) | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren. |
+| [Recurring - Contracts Management](Contract.md)             | Wiederholende Verträge verwalten und automatisch verrechnen.      |
+| [Switzerland - Bank type](Switerland-Bank-Type.md)          | Lokalisierung für Schweizer Banken und Bankkontos.                |
+| [Account Move Line Position](Account-Move-Line-Position.md) | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.  |
 
 ## Kontenplan einrichten
 
