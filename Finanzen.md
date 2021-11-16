@@ -40,13 +40,37 @@ Duplizieren sie eine bestehende Zahlungsbedingung. zum Beispiel 15 Tage.
 
 Anhänge an E-Mails mit diesem Alias aus dem Odoo-Postfach werden fortan als Rechnung erfasst.
 
-## Bank-Datenübertragung konfigurieren
-
-Wählen sie *Finanzen > Konfiguration > Journale* und wählen sie das Bank-Journal aus. Im Tab *Buchungssätze* legen sie für das Feld *Bank-Datenübertragung* die Option *Automatisierte Banksynchronisation* fest.
+## Bank-Synchronisation konfigurieren
 
 Fügen sie ihre Bank via *Konfiguration > Bankverzeichnis > Eine Bank hinzufügen* hinzu.
 
-![](assets/Finanzen%20Bank%20hinzufügen.png)
+![](assets/Finanzan%20Raiffeisen%20Schweiz.png)
+
+Hinterlegen sie eine Telefonnummer zur Wiederherstellung des Synchronisations-Account.
+
+![](assets/Finanzen%20Account%20Recovery.png)
+
+Geben sie den Bestätigungcode ein. Nun werden sie auf die Website von <https://www.saltedge.com> umgeleitet. Geben sie ihre Login-Informationen ein.
+
+![](assets/Finanzen%20Saltedge%20Account.png)
+
+Im Anschluss wählen sie eine Authentisierungs-Methode.
+
+![](assets/Finanzen%20Saltedge%20Authenticaion.png)
+
+Führen sie diese wie gewohnt aus. Nun verbindet Saltedge den Odoo-Account mit dem Bankkonto. Sie werden wieder nach Odoo zurückgeführt.
+
+![](assets/Finanzen%20Bankkonto%20verknüpfen.png)
+
+Es wird nun ein neues Journal zur Synchronisation erstellt.
+
+## Bank-Synchronisation einrichten
+
+Wählen sie *Finanzen > Konfiguration > Journale* und wählen sie das Bank-Journal aus. Im Tab *Buchungssätze* legen sie für das Feld *Bank-Datenübertragung* die Option *Automatisierte Banksynchronisation* fest.
+
+Dann gehen sie nach *Finanznen > Konfiguration > Online Synchronisation* und wählen den ersten Eintrag aus. Im Feld *Journal* können sie das Bank-Journal eintragen.
+
+![](assets/Fiannzen%20Bank-Journal%20eintragen.png)
 
 ## Kommunikationsstandard festlegen
 
