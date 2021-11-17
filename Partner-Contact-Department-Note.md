@@ -1,7 +1,7 @@
 ---
 tags:
 - HowTo
-- Drittanbierter
+- Drittanbieter
 ---
 # Partner Contact Department Note
 ![icon_oms_box](assets/icon_oms_box.png)

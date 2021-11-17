@@ -16,8 +16,9 @@ Alle Kontaktdaten an einem Ort.
 | [Partner Ref Sequence](Partner-Ref-Sequence.md)                         | Automatische Vergabe der Kontakt-Referenz.                 |
 | [Partner Contact Department](OCA-Partner-Contact-Department.md)         | Erweitert das Adressbuch mit Abteilungen.                  |
 | [Partner Hide Address](Partner-Hide-Address.md)                         | Addressen auf Berichten auslbenden.                        |
-| [Partner Contact Department](Partner-Contact-Department-Note.md)             | Abteilung auf Kontakten speichern.                         |
+| [Partner Contact Department](Partner-Contact-Department-Note.md)        | Abteilung auf Kontakten speichern.                         |
 | [Base Partner Sequence](Base-Partner-Sequence.md)                       | Sequenz auf Kundenreferenz.                                |
+| [Partner Contact Location in Name](Partner-Contact-Location-in-Name.md) | PLZ und Stadt in Kontaktauswahl anzeigen.                  |
 
 ## Portal-Zugriff gewähren
 
