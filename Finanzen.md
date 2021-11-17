@@ -100,3 +100,7 @@ Im App Finanzen in der Ansicht *Finanzen >  Lieferanten > Rechnung* den Fiilter 
 ![](assets/Finanzen%20Sepa%20Zahlung%20erfassen.png)
 
 Für jede Rechnung wird eine SEPA-Zahlung angelegt.
+
+## Mehrere Rechnung versenden
+
+Zeigen sie *Finanzen > Kunden > Rechnung* an und filtern sie die Rechnung nach *Status* und *Zahlung*. Markieren sie die Rechnungen, die sie versenden möchten und wählen sie *Aktion > Senden & Drucken*. Wählen sie im E-Mail die Mail-Vorlage aus und drücken sie auf *Senden*.
