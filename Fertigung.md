@@ -38,3 +38,23 @@ Die Server Aktion *Reload BoM* wird gemäss Beschreibung in [BoM Reload Aktion e
 ::: tip
 Falls eine Stückliste leer ist (keine Komponenten) erscheint ein über MTO automatisch generierter Fertigungsauftrag im Status *Entwurf*. Falls die Stückliste Komponenten enthält, dann erscheint er im Status *Bestätigt*.
 :::
+
+## Hauptproduktionszeitplan anwenden
+
+Öffnen sie *Fertigung > Planung > Hauptproduktionszeitplan* und fügen sie ein Produkt und ein Kompenenten-Produkt hinzu. Im Filter *Zeilen* wählen sie:
+
+* Anfangslagerbestand
+* Tatsächliche Nachfrage
+* Prognostizierter indirekter Bedarf
+* Aufzufüllen
+* Prognostizierter Bestand
+
+In der Zeile *Tatsächliche* sehen sie die nachgefragte Menge. Geben sie in der Zeile *Vorschlag Auffüllung* die zu produzierende Menge ein.
+
+Für das Komponenten-Produkt wird nun der *prognostizierter indirekter Bedarf* berechnet. Erstellen sie für dieses Produkt ebenfalls einen Vorschlag.
+
+![](assets/Hauptproduktionszeitplan.png)
+
+Wählen sie für jedes Produkt *Aufstocken* um einen Auftrag gemäss hinterlegter Route zu erstellen.
+
+
