@@ -6,7 +6,7 @@ tags:
 # Partner Hide Address
 ![](assets/icon_oms_box.png)
 
-Addressen auf Berichten auslbenden.
+Addressen auf Berichten ausblenden.
 
 Technischer Name: `partner_hide_address`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/partner_hide_address>
