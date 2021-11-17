@@ -4,4 +4,3 @@ default.vim
 node_modules
 tmp
 .vercel
-.obsidian/plugins
