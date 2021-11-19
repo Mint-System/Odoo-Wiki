@@ -177,4 +177,3 @@ Navigieren sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstelle
 * Feld: `Order Deadline (purchase.order)`
 * Bewertungstyp: 
 * Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
-

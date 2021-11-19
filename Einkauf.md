@@ -9,7 +9,7 @@ Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
 
 | Erweiterung                                                               | Beschreibung                                        |
 | ------------------------------------------------------------------------- | --------------------------------------------------- |
-| [Einkauf Kaufverträge](Einkauf-Kaufverträge.md)                           | Kaufvertäge für Rahmenbestellungen erstellen.       |
+| [Einkauf Kaufverträge](Einkauf-Kaufverträge.md)                           | Kaufverträge für Rahmenbestellungen erstellen.       |
 | [Purchase Order Line Date](Purchase-Order-Line-Date.md)                   | Lieferdatum im Wareneingang automatisch nachtragen. |
 | [Purchase Partner Incoterm](Purchase-Partner-Incoterm.md)                 | Für jedem Partner die Incoterms festlegen.          |
 | [Pruchase Order Line Position](Purchase-Order-Line-Position.md)           | Einkaufsaufträge mit Positionsnummern.              |
@@ -54,3 +54,28 @@ Falls sie für das Portal noch keinen Zugang haben, können sie über die Funkti
 Benutzername und Passwort können gewählt werden.
 
 ![Einkauf Portal Benutzerkonto registrieren](assets/Einkauf%20Portal%20Benutzerkonto%20registrieren.png)
+
+
+## Lieferadresse ändern
+Auf einer Bestellung ist die Lieferadresse standardmässig die Adresse der eigenen Firma gemäss *Einstellungen > Unternehmen*.
+Falls eine andere Lieferadresse gewünscht ist, lässt sich das über das Einrichten eines entsprechendes Lagers/Vorgangstyp erreichen.
+
+Jedes Lager hat eine Adresse.
+
+![Einkauf Lager Adresse](assets/Einkauf%20Lager%20Adresse.png)
+
+Die Adresse kann auch eine spezielle Lieferandresse sein.
+
+![Einkauf Lager Adresse Lieferadresse](assets/Einkauf%20Lager%20Adresse%20Lieferadresse.png)
+
+Falls also für eine Bestellung verschiedene Lieferadressen zur Verfügung stehen sollen,  muss für jede Adresse ein Lager eingerichtet werden.
+
+![Einkauf Lager Anlieferung](assets/Einkauf%20Lager%20Anlieferung.png)
+
+Die Lieferanschrift kann auf der Bestellung gemäss der folgenden Abbildung gewählt werden (die Markierung zeigt den Vorgangstyp):
+
+![Einkauf Lieferadresse Anlieferung](assets/Einkauf%20Lieferadresse%20Anlieferung.png)
+
+Die Bestellung sieht dann wie folgt aus:
+
+![Einkauf Bestellung Beispiel Lieferadresse](assets/Einkauf%20Bestellung%20Beispiel%20Lieferadresse.png)
