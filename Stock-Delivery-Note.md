@@ -3,10 +3,10 @@ tags:
 - HowTo
 - OCA
 ---
-# Stock Production Lot Active
+# Stock Delivery Note
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Erlaubt die Archivierung von Los/Chargen.
+Notiz auf Lieferschein.
 
 Technischer Name: `stock_delivery_note`\
 Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/stock_delivery_note>
