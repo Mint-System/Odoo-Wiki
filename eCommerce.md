@@ -40,3 +40,15 @@ Diese Einstellungen kann vom einzelnen Produkt übersteuert werden. Sehen sie *W
 ::: warning
 Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzurechendende Menge des Verkaufsauftrag aktualisiert werden. Nur dann wird das zusätzliche Produkt auf die Rechnung übertragen.
 :::
+
+## Zahlungsanbieter aktivieren
+
+Öffnen sie die Übersicht *Finanzen > Konfiguration > Zahlungsanbieter* und aktivieren sie einen Zahlungsanbieter.
+
+![](assets/eCommerce%20Zahlungsanbieter.png)
+
+## Bericht in Bestätigungsmail festlegen
+
+Standardmässig versenden Odoo mit der Bestätigungsmail zur Bestellung eine Proformarechnung. Sie können auch das Angebot/Auftrag versenden. Öffnen sie *Einstellungen > Technisch > E-Mail > Vorlagen* und zeigen sie die die Vorlage *Sales Order: Confirmation Email* an. Im Tab *Erweiterte Einstellungen* können sie den Bericht im Anhang festlegen.
+
+![](assets/eCommerce%20Anhang%20Bestätigung.png)

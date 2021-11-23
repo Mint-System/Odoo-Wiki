@@ -23,6 +23,7 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 | [Sale Order Contact Person](Sale-Order-Contact-Person.md)                   | Kontaktperson auf Verkaufsauftrag festlegen.                           |
 | [Sale Order Line Description](Sale-Order-Line-Description.md)               | Nur Verkausbeschreibung im Feld Beschreibung übertragen.               |
 | [Product Listprice Currency](Product-Listprice-Currency.md)                 | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.       |
+| [Sale Order Delivery Note](Sale-Order-Delivery-Note.md)                     | Notiz auf Verkaufsauftrag für Lieferung hinzufügen.                    |
 
 ## Verkäufe Dashboard anzeigen
 
