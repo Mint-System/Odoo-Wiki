@@ -10,6 +10,7 @@ Maximieren sie die Effizienz Ihres Lagers.
 | Bereich                                             | Beschreibung          |
 | --------------------------------------------------- | --------------------- |
 | [Handscanner Zebra TC21](Handscanner-Zebra-TC21.md) | Handscanner für Odoo. |
+| [Handscanner Zebra DS22](Handscanner-Zebra-DS22.md) | Handscanner für Odoo. |
 
 | Erweiterung                                                   | Beschreibung                                                                                                |
 | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
