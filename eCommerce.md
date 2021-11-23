@@ -40,3 +40,9 @@ Diese Einstellungen kann vom einzelnen Produkt übersteuert werden. Sehen sie *W
 ::: warning
 Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzurechendende Menge des Verkaufsauftrag aktualisiert werden. Nur dann wird das zusätzliche Produkt auf die Rechnung übertragen.
 :::
+
+## Zahlungsanbieter aktivieren
+
+Öffnen sie die Übersicht *Finanzen > Konfiguration > Zahlungsanbieter* und aktivieren sie einen Zahlungsanbieter.
+
+![](assets/eCommerce%20Zahlungsanbieter.png)
