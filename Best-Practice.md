@@ -49,12 +49,13 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [SEPA Zahlung](Best-Pratice-SEPA-Zahlung.md)
 * [Zahlungsabgleich](Best-Pratice-Zahlungsabgleich.md)
 
-### Einkauf
+### Verkauf und Einkauf
 
 * [Verschiedene Produktarten einkaufen](Best-Practice-Verschiedene-Produktarten-einkaufen.md)
 * [Änderung der Route während dem Einkaufsprozess](Best-Practice-%C3%84nderung-der-Route-w%C3%A4hrend-dem-Einkaufsprozess.md)
 * [Beschaffung](Best-Practice-Beschaffung.md)
 * [Einkauf Bestellmenge ändern](Best-Practice-Einkauf-Bestellmenge-ändern.md)
+* [Zustände von Ein- und Verkaufsaufträgen](Best-Practice-Zustände-von-Ein-und-Verkausfauträgen.md)
 
 ### Lager
 
