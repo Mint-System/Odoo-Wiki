@@ -25,6 +25,7 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 | [Product Listprice Currency](Product-Listprice-Currency.md)                 | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.       |     |
 | [Sale Order Delivery Note](Sale-Order-Delivery-Note.md)                     | Notiz auf Verkaufsauftrag für Lieferung hinzufügen.                    |     |
 | [Sale Blanket Order Contact Person](Sale-Blanket-Order-Contact-Person.md)   | Kontaktperson auf Rahmenauftrag festlegen.                             |     |
+| [Sale Blanket Order Stock Terms](Sale-Blanket-Order-Stock-Terms.md)         | Legen sie Lieferbedinungen auf dem Rahmenauftrag fest.                 |     |
 
 ## Verkauf Dashboard anzeigen
 
