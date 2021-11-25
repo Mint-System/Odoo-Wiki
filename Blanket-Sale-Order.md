@@ -13,7 +13,7 @@ Repository: <https://apps.odoo.com/apps/modules/14.0/dev_blanket_sale_order/>
 
 ## Rahmenbestellungen anzeigen
 
-Navigieren sie nach *Verkäufe > Aufträge > Rahmenbstellungen*.
+Navigieren sie nach *Verkauf > Aufträge > Rahmenbstellungen*.
 
 ![](assets/Odoo%20App%20Verk%C3%A4ufe%20Rahmenbestellungen%20anzeigen.png)
 

@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/14.
 
 Mit dieser Erweiterung können sie pro Produkt Listenpreisen in verschiedenen Währungen angeben.
 
-Wählen sie ein Produkt via *Verkäufe > Produkte > Produkte* und geben sie einen Verkaufspreis ein.
+Wählen sie ein Produkt via *Verkauf > Produkte > Produkte* und geben sie einen Verkaufspreis ein.
 
 ![](assets/Product%20Listprice%20Currency%20Set.png)
 

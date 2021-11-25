@@ -6,13 +6,13 @@ tags:
 
 Odoo unterstützt mehre Währungssätze und kann deren Kurs automatisch abrufen. Zum Zeitpunkt eines Einkaufs oder eines Verkaufs wird der aktuelle Währungskurs abgefragt und festgehalten. Erfolgt zu einem späteren Zeitpunkt der Zahlungsabgleich zu einem anderen Kurs, wird die Differenz als Ertrag oder Aufwand verbucht. Der Wechselkurs wird auf dem Auftrag festgehalten.
 
-## Verkäufe in verschiedenen Währungen
+## Verkauf in verschiedenen Währungen
 
 Verkaufspreise in einem Angebot können von der Standardwährung abweichen. Dazu muss die Option [Mehrere Währungen](Finanzen.md#Mehrere%20W%C3%A4hrungen) eingeschaltet sein.
 
 ### Preislisten
 
-Zusätzlich muss pro Währung eine Preisliste hinterlegt sein. Navigieren sie zu *Verkäufe > Produkte > Preislisten*.
+Zusätzlich muss pro Währung eine Preisliste hinterlegt sein. Navigieren sie zu *Verkauf > Produkte > Preislisten*.
 Die Allgemeine Preisliste für CHF ist in den Standardeinstellungen bereits vorhanden. Für weitere Währungen ist die Liste zu ergänzen. Zum Beispiel:
 - Allgemeine Preisliste, Währung EUR
 - Allgemeine Preisliste, Währung USD

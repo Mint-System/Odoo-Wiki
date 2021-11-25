@@ -119,7 +119,7 @@ Die Dateinamen der Artikel dürfen keine Leerschläge enthalten. Dies führt daz
 
 Der Name eines Bildes beginnt mit dem Namen der Odoo App.
 
-"Produkt anlegen" -> "Verkäufe Produkt anlegen"
+"Produkt anlegen" -> "Verkauf Produkt anlegen"
 
 ## Bilder
 

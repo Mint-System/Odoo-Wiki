@@ -10,9 +10,9 @@ tags:
 
 ### Prozessschritte
 
-* [Angebot erstellen](Verkäufe.md#Angebot%20erstellen)
-* [Angebot senden](Verkäufe.md#Angebot%20senden)
-* [Auftrag bestätigen](Verkäufe.md#Auftrag%20bestätigen)
+* [Angebot erstellen](Verkauf.md#Angebot%20erstellen)
+* [Angebot senden](Verkauf.md#Angebot%20senden)
+* [Auftrag bestätigen](Verkauf.md#Auftrag%20bestätigen)
 
 ## Verkaufsauftrag direkt
 
@@ -20,5 +20,5 @@ tags:
 
 ### Prozessschritte
 
-* [Auftrag bestätigen](Verkäufe.md#Auftrag%20bestätigen)
+* [Auftrag bestätigen](Verkauf.md#Auftrag%20bestätigen)
 * [Packvorgang Lieferschein automatisch drucken](Odoo-Direct-Print.md#Packvorgang%20Lieferschein%20automatisch%20drucken)

@@ -273,11 +273,11 @@ Aktualisieren sie ihre Odoo Enterprise Installation ohne Mehrkosten.
 
 [![icons_odoo_website_enterprise](assets/icons_odoo_website_enterprise.png)](Update.md) 
 
-### [Verkäufe](Verk%C3%A4ufe.md)
+### [Verkauf](Verkauf.md)
 
 Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung. 
 
-[![icons_odoo_sale](assets/icons_odoo_sale.png)](Verk%C3%A4ufe.md)
+[![icons_odoo_sale](Verkauf.md)
 
 ### [Wartung](Wartung.md)
 

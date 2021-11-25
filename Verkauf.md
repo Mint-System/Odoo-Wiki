@@ -2,14 +2,14 @@
 tags:
 - HowTo
 ---
-# Verkäufe
+# Verkauf
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
 Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung. 
 
 | Bereich                                       | Beschreibung                                         |
 | --------------------------------------------- | ---------------------------------------------------- |
-| [Verkäufe Stammdaten](Verkäufe-Stammdaten.md) | Produkte, Preislisten und Varianten zentral pflegen. |
+| [Verkauf Stammdaten](Verkauf-Stammdaten.md) | Produkte, Preislisten und Varianten zentral pflegen. |
 
 | Erweiterung                                                                 | Beschreibung                                                           |
 | --------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
@@ -25,9 +25,9 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 | [Product Listprice Currency](Product-Listprice-Currency.md)                 | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.       |
 | [Sale Order Delivery Note](Sale-Order-Delivery-Note.md)                     | Notiz auf Verkaufsauftrag für Lieferung hinzufügen.                    |
 
-## Verkäufe Dashboard anzeigen
+## Verkauf Dashboard anzeigen
 
-Öffnen sie die App *Verkäufe*. Hier sehen Sie alle offenen Angebote und Verkaufsaufträge.
+Öffnen sie die App *Verkauf*. Hier sehen Sie alle offenen Angebote und Verkaufsaufträge.
 
 ## Angebot erstellen
 
@@ -86,11 +86,11 @@ Durch einen Verkaufsauftrag entsteht automatisch ein Lieferauftrag. Die Verbindu
 
 Soll ein Produkt mit einem Rabatt verkauft werden, so kann dieser je Auftragszeile manuell eingefügt werden.
 
-![](assets/Verk%C3%A4ufe%20Auftragszeilen%20mit%20Rabatt.png)
+![](assets/Verkauf%20Auftragszeilen%20mit%20Rabatt.png)
 
 Entsprechend wird der Rabatt auf der Rechnung ausgewiesen.
 
-![](assets/Verk%C3%A4ufe%20Ansicht%20Rabatt%20in%20der%20Rechnung.png)
+![](assets/Verkauf%20Ansicht%20Rabatt%20in%20der%20Rechnung.png)
 
 ## Upselling auflösen
 
@@ -106,12 +106,20 @@ Für jedes Produkt in einer Preisliste kann eine Mindestbestellmenge definiert w
 
 Öffnen sie *Verkauf*, gruppieren sie die Aufträge nach Kunde und setzen sie als Filter *Abzurechnen*. Öffnen sie einen Kunden, markieren sie die Einträge und wählen sie *Aktion > Rechnung erzeugen*.
 
-![](assets/Verkäufe%20Rechnung%20erzeugen.png)
+![](assets/Verkauf%20Rechnung%20erzeugen.png)
 
 Im Dialog wählen sie *Erzeuge und zeige Rechnung an*.
 
-![](assets/Verkäufe%20Rechnung%20anzeigen.png)
+![](assets/Verkauf%20Rechnung%20anzeigen.png)
 
 Nun wird für jeden Positionen in den Verkaufsaufträgen eine Rechnungsposition erstellt. Jede Rechnungsposition ist mit der entsprechenden Verkaufsauftragsposition verknüpft.
 
-![](assets/Verkäufe%20Auftragsposition%20verknüpft.png)
+![](assets/Verkauf%20Auftragsposition%20verknüpft.png)
+
+## Incoterms festlegen
+
+Damit sie die Lieferbedinungen auf einem Angebot festlegen können, müssen sie Mitglied in der Grupp *Lieferbedingungen auf Angeboten und Rechnungen anzeigen* sein.
+
+Ist diese Bedinung erfüllt können sie ein Angebot öffnen *Verkauf > Angebot auswählen > Tab Weitere Informationen*. Im Feld *Lieferbedingungen* können sie die Incoterm festlegen.
+
+![](assets/Verkauf%20Lieferbedingungen.png)

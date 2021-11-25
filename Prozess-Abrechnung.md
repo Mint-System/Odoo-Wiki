@@ -10,5 +10,5 @@ tags:
 
 ### Prozessschritte
 
-* [Für mehrere Verkaufsaufträge eine Rechnung generieren](Verkäufe.md#Für%20mehrere%20Verkaufsaufträge%20eine%20Rechnung%20generieren)
+* [Für mehrere Verkaufsaufträge eine Rechnung generieren](Verkauf.md#Für%20mehrere%20Verkaufsaufträge%20eine%20Rechnung%20generieren)
 * [Mehrere Rechnung versenden](Finanzen.md#Mehrere%20Rechnung%20versenden)
