@@ -11,19 +11,20 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 | --------------------------------------------- | ---------------------------------------------------- |
 | [Verkauf Stammdaten](Verkauf-Stammdaten.md) | Produkte, Preislisten und Varianten zentral pflegen. |
 
-| Erweiterung                                                                 | Beschreibung                                                           |
-| --------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [Blanket Sale Order](Blanket-Sale-Order.md)                                 | Rahmenverträge für Verkäufe erstellen.                                 |
-| [Default sales incoterm per partner](Default-sales-incoterm-per-partner.md) | Standardlieferbedingungen für Kunden.                                  |
-| [Sale Order Line Date](Sale-Order-Line-Date.md)                             | Lieferdatum pro Position.                                              |
-| [Sale Blanket Order](Sale-Blanket-Order.md)                                 | Rahmenverträge für Verkäufe erstellen.                                 |
-| [Sale Blanket Order Notes](Sale-Blanket-Order-Notes.md)                     | Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden. |
-| [Sale Order Line Position](Sale-Order-Line-Position.md)                     | Verkaufsaufträge mit Positionsnummern.                                 |
-| [Sale Order Default Commitment Date](Sale-Order-Default-Commitment-Date.md) | Standardlieferdatum festlegen.                                         |
-| [Sale Order Contact Person](Sale-Order-Contact-Person.md)                   | Kontaktperson auf Verkaufsauftrag festlegen.                           |
-| [Sale Order Line Description](Sale-Order-Line-Description.md)               | Nur Verkausbeschreibung im Feld Beschreibung übertragen.               |
-| [Product Listprice Currency](Product-Listprice-Currency.md)                 | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.       |
-| [Sale Order Delivery Note](Sale-Order-Delivery-Note.md)                     | Notiz auf Verkaufsauftrag für Lieferung hinzufügen.                    |
+| Erweiterung                                                                 | Beschreibung                                                           |     |
+| --------------------------------------------------------------------------- | ---------------------------------------------------------------------- | --- |
+| [Blanket Sale Order](Blanket-Sale-Order.md)                                 | Rahmenverträge für Verkäufe erstellen.                                 |     |
+| [Default sales incoterm per partner](Default-sales-incoterm-per-partner.md) | Standardlieferbedingungen für Kunden.                                  |     |
+| [Sale Order Line Date](Sale-Order-Line-Date.md)                             | Lieferdatum pro Position.                                              |     |
+| [Sale Blanket Order](Sale-Blanket-Order.md)                                 | Rahmenverträge für Verkäufe erstellen.                                 |     |
+| [Sale Blanket Order Notes](Sale-Blanket-Order-Notes.md)                     | Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden. |     |
+| [Sale Order Line Position](Sale-Order-Line-Position.md)                     | Verkaufsaufträge mit Positionsnummern.                                 |     |
+| [Sale Order Default Commitment Date](Sale-Order-Default-Commitment-Date.md) | Standardlieferdatum festlegen.                                         |     |
+| [Sale Order Contact Person](Sale-Order-Contact-Person.md)                   | Kontaktperson auf Verkaufsauftrag festlegen.                           |     |
+| [Sale Order Line Description](Sale-Order-Line-Description.md)               | Nur Verkausbeschreibung im Feld Beschreibung übertragen.               |     |
+| [Product Listprice Currency](Product-Listprice-Currency.md)                 | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.       |     |
+| [Sale Order Delivery Note](Sale-Order-Delivery-Note.md)                     | Notiz auf Verkaufsauftrag für Lieferung hinzufügen.                    |     |
+| [Sale Blanket Order Contact Person](Sale-Blanket-Order-Contact-Person.md)   | Kontaktperson auf Rahmenauftrag festlegen.                             |     |
 
 ## Verkauf Dashboard anzeigen
 
@@ -123,3 +124,7 @@ Damit sie die Lieferbedinungen auf einem Angebot festlegen können, müssen sie 
 Ist diese Bedinung erfüllt können sie ein Angebot öffnen *Verkauf > Angebot auswählen > Tab Weitere Informationen*. Im Feld *Lieferbedingungen* können sie die Incoterm festlegen.
 
 ![](assets/Verkauf%20Lieferbedingungen.png)
+
+## Liefer- und Rechnungsadresse festlegen
+
+Damit sie die Liefer- und Rechnungsadresse explizit festlegen können, muss die Option **
