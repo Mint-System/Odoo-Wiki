@@ -65,7 +65,7 @@ Führen sie folgendes aus  *Einstellungen > Diskussion > Externe E-Mail-Server >
 
 Für sie einen Abonnent dem Odoo-Objekt hinzu indem sie rechts von *Abonnieren* auf das Icon klicken und *Followers hinzufügen* wählen.
 
-![Diskussion Abonnent entfernen](assets/Diskussion%20Abonnent%20entfernen.gif)
+![Diskussion Abonnent hinzufügen](assets/Diskussion%20Abonnent%20hinzufügen.gif)
 
 ## Abonnent entfernen
 
