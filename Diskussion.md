@@ -60,3 +60,15 @@ Wurde die Nachricht als Mail versendet, können sie im Tab *Empfänger* die Kont
 ## Nachrichten abrufen
 
 Führen sie folgendes aus  *Einstellungen > Diskussion > Externe E-Mail-Server > Eintrag auswählen*. Führen sie die Aktion *Nachrichten abrufen* aus. Im Feld *Letztes Abholdatum* sehen ob die E-Mails abgerufen werden konnten.
+
+## Abonnent hinzufügen
+
+Für sie einen Abonnent dem Odoo-Objekt hinzu indem sie rechts von *Abonnieren* auf das Icon klicken und *Followers hinzufügen* wählen.
+
+![Diskussion Abonnent entfernen](assets/Diskussion%20Abonnent%20entfernen.gif)
+
+## Abonnent entfernen
+
+Entfernen sie einen Abonnent vom Odoo-Objekt indem sie rechts von *Abonnieren* auf das Icon klicken.
+
+![Diskussion Abonnent entfernen](assets/Diskussion%20Abonnent%20entfernen.gif)
