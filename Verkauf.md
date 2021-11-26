@@ -7,25 +7,26 @@ tags:
 
 Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung. 
 
-| Bereich                                       | Beschreibung                                         |
-| --------------------------------------------- | ---------------------------------------------------- |
+| Bereich                                     | Beschreibung                                         |
+| ------------------------------------------- | ---------------------------------------------------- |
 | [Verkauf Stammdaten](Verkauf-Stammdaten.md) | Produkte, Preislisten und Varianten zentral pflegen. |
 
-| Erweiterung                                                                 | Beschreibung                                                           |     |
-| --------------------------------------------------------------------------- | ---------------------------------------------------------------------- | --- |
-| [Blanket Sale Order](Blanket-Sale-Order.md)                                 | Rahmenverträge für Verkäufe erstellen.                                 |     |
-| [Default sales incoterm per partner](Default-sales-incoterm-per-partner.md) | Standardlieferbedingungen für Kunden.                                  |     |
-| [Sale Order Line Date](Sale-Order-Line-Date.md)                             | Lieferdatum pro Position.                                              |     |
-| [Sale Blanket Order](Sale-Blanket-Order.md)                                 | Rahmenverträge für Verkäufe erstellen.                                 |     |
-| [Sale Blanket Order Notes](Sale-Blanket-Order-Notes.md)                     | Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden. |     |
-| [Sale Order Line Position](Sale-Order-Line-Position.md)                     | Verkaufsaufträge mit Positionsnummern.                                 |     |
-| [Sale Order Default Commitment Date](Sale-Order-Default-Commitment-Date.md) | Standardlieferdatum festlegen.                                         |     |
-| [Sale Order Contact Person](Sale-Order-Contact-Person.md)                   | Kontaktperson auf Verkaufsauftrag festlegen.                           |     |
-| [Sale Order Line Description](Sale-Order-Line-Description.md)               | Nur Verkausbeschreibung im Feld Beschreibung übertragen.               |     |
-| [Product Listprice Currency](Product-Listprice-Currency.md)                 | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.       |     |
-| [Sale Order Delivery Note](Sale-Order-Delivery-Note.md)                     | Notiz auf Verkaufsauftrag für Lieferung hinzufügen.                    |     |
-| [Sale Blanket Order Contact Person](Sale-Blanket-Order-Contact-Person.md)   | Kontaktperson auf Rahmenauftrag festlegen.                             |     |
-| [Sale Blanket Order Stock Terms](Sale-Blanket-Order-Stock-Terms.md)         | Legen sie Lieferbedinungen auf dem Rahmenauftrag fest.                 |     |
+| Erweiterung                                                                 | Beschreibung                                                           |
+| --------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [Blanket Sale Order](Blanket-Sale-Order.md)                                 | Rahmenverträge für Verkäufe erstellen.                                 |
+| [Default sales incoterm per partner](Default-sales-incoterm-per-partner.md) | Standardlieferbedingungen für Kunden.                                  |
+| [Sale Order Line Date](Sale-Order-Line-Date.md)                             | Lieferdatum pro Position.                                              |
+| [Sale Blanket Order](Sale-Blanket-Order.md)                                 | Rahmenverträge für Verkäufe erstellen.                                 |
+| [Sale Blanket Order Notes](Sale-Blanket-Order-Notes.md)                     | Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden. |
+| [Sale Order Line Position](Sale-Order-Line-Position.md)                     | Verkaufsaufträge mit Positionsnummern.                                 |
+| [Sale Order Default Commitment Date](Sale-Order-Default-Commitment-Date.md) | Standardlieferdatum festlegen.                                         |
+| [Sale Order Contact Person](Sale-Order-Contact-Person.md)                   | Kontaktperson auf Verkaufsauftrag festlegen.                           |
+| [Sale Order Line Description](Sale-Order-Line-Description.md)               | Nur Verkausbeschreibung im Feld Beschreibung übertragen.               |
+| [Product Listprice Currency](Product-Listprice-Currency.md)                 | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.       |
+| [Sale Order Delivery Note](Sale-Order-Delivery-Note.md)                     | Notiz auf Verkaufsauftrag für Lieferung hinzufügen.                    |
+| [Sale Blanket Order Contact Person](Sale-Blanket-Order-Contact-Person.md)   | Kontaktperson auf Rahmenauftrag festlegen.                             |
+| [Sale Blanket Order Stock Terms](Sale-Blanket-Order-Stock-Terms.md)         | Legen sie Lieferbedinungen auf dem Rahmenauftrag fest.                 |
+| [Sale Blanket Order Send](Sale-Blanket-Order-Send.md)                       | Workflow mit Rahmenauftrag per E-Mail.                                 |
 
 ## Verkauf Dashboard anzeigen
 
@@ -35,22 +36,22 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 
 Erstellen sie mit dem Knopf *Anlegen* ein neues Angebot. Befüllen sie die Kopfdaten gemäss folgender Tabelle:
 
-| Bezeichnung       | Beschreibung                                                  |
-| ----------------- | ------------------------------------------------------------- |
-| Kunde             | Auswahl eines Kunden aus der Liste *Kontakte* |
-| Ablauf            | Zeitdauer für die Gültigkeit des Angebots                      |
-| Preisliste        | Auswahl der relevanten Preisliste                             |
-| Zahlungsbedingungen | Der geforderte Zeitraum zur Begleichung der Rechnung                                                             |
+| Bezeichnung         | Beschreibung                                         |
+| ------------------- | ---------------------------------------------------- |
+| Kunde               | Auswahl eines Kunden aus der Liste *Kontakte*        |
+| Ablauf              | Zeitdauer für die Gültigkeit des Angebots            |
+| Preisliste          | Auswahl der relevanten Preisliste                    |
+| Zahlungsbedingungen | Der geforderte Zeitraum zur Begleichung der Rechnung |
 
 Wählen sie die Line-Items aus den Produkt-Stammdaten gemäss folgender Tabelle:
 
-| Bezeichnung  | Beschreibung                                                                  |
-| ------------ | ----------------------------------------------------------------------------- |
-| Produkt      | Auswahl eines beliebigen Produktes mit dem Attribut *Kann verkauft werden*   |
-| Beschreibung | Text aus dem Feld *Verkaufs Beschreibung* der Produkt-Stammdaten              |
-| Menge        | Angebotene Menge                                                                             |
-| UoM          | Masseinheit des Produktes                                                                             |
-| Preis pro ME | Preis pro Mengeneinheit (Masseinheit des Produktes)                                                                            |
+| Bezeichnung  | Beschreibung                                                               |
+| ------------ | -------------------------------------------------------------------------- |
+| Produkt      | Auswahl eines beliebigen Produktes mit dem Attribut *Kann verkauft werden* |
+| Beschreibung | Text aus dem Feld *Verkaufs Beschreibung* der Produkt-Stammdaten           |
+| Menge        | Angebotene Menge                                                           |
+| UoM          | Masseinheit des Produktes                                                  |
+| Preis pro ME | Preis pro Mengeneinheit (Masseinheit des Produktes)                        |
 
 Für jedes Produkt zeigt der Bericht *Forecasted Report* eine detaillierte Übersicht bezüglich Verfügbarkeit. Zu- und Abgänge sowie potentielle Verkäufe werden berücksichtigt.
 
