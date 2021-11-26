@@ -9,11 +9,14 @@ tags:
 Rahmenverträge für Verkäufe erstellen.
 
 Technischer Name: `sale_blanket_order`\
-Repository: <https://github.com/OCA/sale-workflow/tree/13.0/sale_blanket_order>
+Repository: <https://github.com/Mint-System/sale-workflow/tree/14.0-mig-sale_blanket_order/sale_blanket_order>
 
-| Erweiterung                                             | Beschreibung                                                           |
-| ------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [Sale Blanket Order Notes](Sale-Blanket-Order-Notes.md) | Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden. |
+| Erweiterung                                                               | Beschreibung                                                           |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [Sale Blanket Order Notes](Sale-Blanket-Order-Notes.md)                   | Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden. |
+| [Sale Blanket Order Contact Person](Sale-Blanket-Order-Contact-Person.md) | Kontaktperson auf Rahmenauftrag festlegen.                             |
+| [Sale Blanket Order Stock Terms](Sale-Blanket-Order-Stock-Terms.md)       | Legen sie Lieferbedinungen auf dem Rahmenauftrag fest.                 |
+| [Sale Blanket Order Send](Sale-Blanket-Order-Send.md)                     | Workflow mit Rahmenauftrag per E-Mail.                                 |
 
 ## Rahmenauftrag erstellen
 
