@@ -104,3 +104,13 @@ Für jede Rechnung wird eine SEPA-Zahlung angelegt.
 ## Mehrere Rechnung versenden
 
 Zeigen sie *Finanzen > Kunden > Rechnung* an und filtern sie die Rechnung nach *Status* und *Zahlung*. Markieren sie die Rechnungen, die sie versenden möchten und wählen sie *Aktion > Senden & Drucken*. Wählen sie für E-Mail eine Mail-Vorlage aus und drücken sie auf *Senden*.
+
+## Kontenplan exportieren
+
+Öffnen sie die Übersicht der Konten *Finanzen > Konfiguration > Finanzen > Kontenplan* und filtern sie die Konten gemäss ihren Anforderungen. Markieren sie die Konten und wählen sie *Select all ...*. Führen sie *Aktion > Export* aus.
+
+![](assets/Finanzen%20Kontenplan%20exportieren.png)
+
+Im Export-Dialog können sie auf der linken Seite die zu exportierenden Felder suchen und dem Export auf der rechten Seite hinzufügen. Dies ist eine Odoo-Standardfunktion, mehr dazu unter [Daten exportieren](Datenmanagement.md#Daten%20exportieren).
+
+![](assets/Finanzen%20Daten%20exportieren.png)
