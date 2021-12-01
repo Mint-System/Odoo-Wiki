@@ -55,3 +55,7 @@ Erstellen sie eine neues Pensum *Personal > Mitarbeiter auswählen > Tab Arbeits
 ## Arbeitsvertrag hinzufügen
 
 Die Entlohnung und Arbeitszeiten sind im Arbeitsvertrag festgehalten. Fügen sie den Mitarbeiter über *Personal > Mitarbeiter auswählen > Link Verträge* mit *Anlegen* einen Vertrag hinzu. Damit der Vertrag aktiv ist, müssen sie ihn in den Status *Laufend* verschieben.
+
+## Mitarbeiteraustritt ausführen
+
+Ein Mitarbeiteraustritt bedeutet für Odoo eine Archivierung des Mitarbeitenden in der *Personal* App. Wählen sie den/die Mitarbeitenden unter *Personal* aus und klicken auf *Aktion > Archiv*. Zusammenhängende Ressourcen zum Personaleintrag werden mit dier Aktion ebenfalls archiviert.
