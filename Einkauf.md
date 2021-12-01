@@ -14,6 +14,7 @@ Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
 | [Purchase Partner Incoterm](Purchase-Partner-Incoterm.md)                 | Für jedem Partner die Incoterms festlegen.          |
 | [Pruchase Order Line Position](Purchase-Order-Line-Position.md)           | Einkaufsaufträge mit Positionsnummern.              |
 | [Purchase Order Line Price Default](Purchase-Order-Line-Price-Default.md) | Standardpreis einer Einkaufsposition überschreiben. |
+| [Purchase order lines with discounts](Purchase-order-lines-with-discounts.md) | Rabatte auf Einkaufspositionen festlegen. |
 
 ## Angebotsanfrage erstellen
 
