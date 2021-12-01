@@ -110,6 +110,10 @@ Dazu ein Beispiel mit [Abwesenheitszeiten](Abwesenheitszeiten.md):
 
 ![](assets/Entwicklung%20Neues%20Feld%20auf%20Abwesenheitszeiten.png)
 
+## Menüeintrag erstellen
+
+Öffnen sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und wählen sie *Anlegen*.
+
 ## Menüeintrag entfernen
 
 Öffnen sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und suchen sie den entsprechende Menüeintrag. Markieren sie diesen und wählen sie *Aktion > Löschen* oder *Aktion > Archiv*.

@@ -127,3 +127,15 @@ Navigieren sie nach *Finanzen > Konfiguration > Kontengruppen* und fügen eine K
 
 * **Name**: Name der Kontengruppe
 * **Code-Präfix Von bis**: Bereiech der Kontennummer welche dieser Gruppe hinzugefügt werden
+
+## Kontoarten anzeigen
+
+Standardmässig werden die Kontoarten nicht angezeigt. Damit diese angezeigt werden, muss eine Menüpunkt gemäss [Menüeintrag erstellen](Entwicklung.md#Entwicklung#Menüeintrag%20erstellen)
+
+![](assets/Finanzen%20Kontoarten%20anzeigen.png)
+
+## Zahlungskonten konfigurieren
+
+Auf jedem Journal ist hinterlegt welches Konto für die ausstehende Zahlungen bzw. Zahlungsbestätigungen verwendet werden sollen.
+
+Öffnen sie *Finanzen > Konfiguration > Journale > Journal auswählen* und zeigen sie den Tab *Payments Configuration* an. Hier können sie die Konten für die Zahlungen festlegen.
