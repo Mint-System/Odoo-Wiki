@@ -114,3 +114,16 @@ Zeigen sie *Finanzen > Kunden > Rechnung* an und filtern sie die Rechnung nach *
 Im Export-Dialog können sie auf der linken Seite die zu exportierenden Felder suchen und dem Export auf der rechten Seite hinzufügen. Dies ist eine Odoo-Standardfunktion, mehr dazu unter [Daten exportieren](Datenmanagement.md#Daten%20exportieren).
 
 ![](assets/Finanzen%20Daten%20exportieren.png)
+
+## Kontenplan gruppieren
+
+Den Kontenplan können sie nach beliebigen Merkmalen gruppieren und die Gruppierung als Standard speichern.
+
+![Finanzen Kontenplan gruppieren](assets/Finanzen%20Kontenplan%20gruppieren.gif)
+
+## Kontengruppen erstellen
+
+Navigieren sie nach *Finanzen > Konfiguration > Kontengruppen* und fügen eine Kontengruppe hinzu.
+
+* **Name**: Name der Kontengruppe
+* **Code-Präfix Von bis**: Bereiech der Kontennummer welche dieser Gruppe hinzugefügt werden
