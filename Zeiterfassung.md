@@ -30,6 +30,7 @@ Wenn sie den Abrechnungstyp von bestehenden Eintägen ändern möchten, müssen 
 ![](assets/Zeiterfassung%20Verrechnungstyp%20%C3%A4ndern.gif)
 
 ## Stundenzettel validieren
+#Odoo13 
 
 Ist die Fakturierungsregel *Nur bestätigte Stundenzettel* aktiviert, müssen zur Verrechnung die Stundenzetter der Mitarbieter explizit validiert werden.
 
@@ -38,9 +39,31 @@ Der Stundenzettel-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Va
 ![](assets/Zeiterfassung%20Validierungsdatum.png)
 
 ## Validierung zurücksetzen
+#Odoo13 
 
 Einmal validierte Stundeneinträge können nicht mehr verändert werden. Benötigen sie dennoch eine korrektur, müssen sie für jeden Mitarbeitenden folgende Aktion ausführen: *Personal > Mitarbeitenden auswählen > Tab HR Einstellungen öffnen* und dort das Feld *Stundenzettel-Validierungsdatum* anpassen.
 
 ![](assets/Zeiterfassung%20Stundenzettel-Validierungsdatum%20anpassen.png)
 
 Nach der Korrektur der Stundeinträge müssen sie diese wieder validieren.
+
+
+## Validierung zurücksetzen
+#Odoo14
+
+Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Validierung zurücksetzen`\
+Modell: `Kostenstellen-Buchungen`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld Pythoncode:
+
+```py
+for record in records:
+	records.write({'validated': False})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl *Aktion* das Menu *Validierung zurücksetzen*.
