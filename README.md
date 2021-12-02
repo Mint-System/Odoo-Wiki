@@ -55,7 +55,7 @@ Neue Apps installieren und aktualisieren.
 
 Anleitung zur Odoo-App Certificate Planner.
 
-[![icon_odoo_certificate_planner](Certificate%20Planner.md)
+[![icon_odoo_certificate_planer](assets/icon_odoo_certificate_planer.png)](Certificate%20Planner.md)
 
 ### [Dashboards](Dashboards.md)
 
@@ -67,7 +67,7 @@ Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 
 Die Datenqualität ganz einfach verbessern.
 
-[![](Data%20Cleaning.md)
+[![icon_odoo_data_cleaning](assets/icon_odoo_data_cleaning.png)](Data%20Cleaning.md)
 
 ### [Datenbankmanager](Datenbankmanager.md)
 
@@ -115,7 +115,7 @@ Teilen Sie ihr Wissen mit der eLearning-Plattform.
 
 E-Mail-Marketing leicht gemacht.
 
-[![icons_odoo_mass_mailing](E-Mail%20Marketing.md)
+[![icons_odoo_mass_mailing](assets/icons_odoo_mass_mailing.png)](E-Mail%20Marketing.md)
 
 ### [Entwicklung](Entwicklung.md)
 
@@ -187,7 +187,7 @@ Maximieren sie die Effizienz Ihres Lagers.
 
 Web-Kampagnen und E-Mails verfolgen.
 
-[![icons_odoo_website_partner](Link%20Tracker.md)
+[![icons_odoo_website_partner](assets/icons_odoo_website_partner.png)](Link%20Tracker.md)
 
 ### [Navigation](Navigation.md)
 
@@ -205,7 +205,7 @@ Notizen zentral verwwalten.
 
 Alle Odoo-Funktionen auf ihrem Smartphone und Tablet.
 
-[![icons_odoo_app](Odoo%20Mobile%20App.md)
+[![icons_odoo_app](assets/icons_odoo_app.png)](Odoo%20Mobile%20App.md)
 
 ### [Odoo.sh](Odoo.sh.md)
 
@@ -229,7 +229,7 @@ Personalbrechnungen schnell und einfach erstellen.
 
 Einstellungen für ihren persönlichen Odoo-Benutzer.
 
-[![icons_odoo_membership](Persönliche%20Einstellungen.md)
+[![icons_odoo_membership](assets/icons_odoo_membership.png)](Persönliche%20Einstellungen.md)
 
 ### [PLM](PLM.md)
 
@@ -277,7 +277,7 @@ Aktualisieren sie ihre Odoo Enterprise Installation ohne Mehrkosten.
 
 Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung. 
 
-[![icons_odoo_sale](Verkauf.md)
+[![icons_odoo_sale](assets/icons_odoo_sale.png)](Verkauf.md)
 
 ### [Wartung](Wartung.md)
 
