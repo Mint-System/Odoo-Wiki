@@ -202,3 +202,8 @@ Falls es auf dem Eintrag eine verknüpfte Buchung gibt, wird diese ebenfalls gel
 ## Lohnbuchungen abgleichen
 
 Standardmässig werden die auszuzahlenden Löhne auf dem *Lohndurchlaufkonto* und dem Konto *Ausstehende Zahlungen* verbucht. Erfasst man für einen Lohnlauf eine Zahlung, importiert diese ins eBanking und gleicht den Beleg später ab, müssen sie den Beleg mit dem Konto *Ausstehende Zahlungen* abgleichen.
+
+## Lohnabrechnung neu berechnen
+
+Haben sie einen Fehler in einer erledigten Lohanbrechnung können sie diese wie folgt neu berechnen. Erfassen sie eine Zahlung, wenn dies nicht bereit getan ist. Wählen sie *Aktion > Abbrechen*. Nun ist die Lohnabrechnung im Status Abgelehnt. Wählen sie nun *Auf Entwurf Setzen* und nehmen sie die Anpassungen vor. Ist alles erledigt, können sie wie gewohnt die Lohnabrechnung berechnen lassen und bestätigen
+
