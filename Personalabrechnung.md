@@ -205,5 +205,5 @@ Standardmässig werden die auszuzahlenden Löhne auf dem *Lohndurchlaufkonto* un
 
 ## Lohnabrechnung neu berechnen
 
-Haben sie einen Fehler in einer erledigten Lohanbrechnung können sie diese wie folgt neu berechnen. Erfassen sie eine Zahlung, wenn dies nicht bereit getan ist. Wählen sie *Aktion > Abbrechen*. Nun ist die Lohnabrechnung im Status Abgelehnt. Wählen sie nun *Auf Entwurf Setzen* und nehmen sie die Anpassungen vor. Ist alles erledigt, können sie wie gewohnt die Lohnabrechnung berechnen lassen und bestätigen
+Haben sie einen Fehler in einer erledigten Lohanbrechnung können sie diese wie folgt neu berechnen. Erfassen sie eine Zahlung, wenn dies nicht bereit getan ist. Wählen sie *Aktion > Abbrechen*. Nun ist die Lohnabrechnung im Status Abgelehnt. Wählen sie nun *Auf Entwurf Setzen* und nehmen sie die Anpassungen vor. Ist alles erledigt, können sie wie gewohnt die Lohnabrechnung berechnen lassen und bestätigen.
 
