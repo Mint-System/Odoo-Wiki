@@ -153,8 +153,8 @@ Python Code: `result = inputs.SPESEN.amount if inputs.SPESEN else 0`
 
 Im Tab *Finanzen* wählen sie:
 
-Sollkonto: `1098 Durchlaufkonto Löhne`\
-Habenkonto: `5082 Spesen`
+Sollkonto: `5082 Spesen`\
+Habenkonto: `1098 Durchlaufkonto Löhne`
 
 Speichern sie die Lohnart,  fügen sie einer ausgewählte Lohnabrechnung mit der zugehörigen Lohnstruktur eine Spesen-Eingabe hinzu und berechnen die Abrechnung neu.
 
@@ -207,3 +207,8 @@ Standardmässig werden die auszuzahlenden Löhne auf dem *Lohndurchlaufkonto* un
 
 Haben sie einen Fehler in einer erledigten Lohanbrechnung können sie diese wie folgt neu berechnen. Erfassen sie eine Zahlung, wenn dies nicht bereit getan ist. Wählen sie *Aktion > Abbrechen*. Nun ist die Lohnabrechnung im Status Abgelehnt. Wählen sie nun *Auf Entwurf Setzen* und nehmen sie die Anpassungen vor. Ist alles erledigt, können sie wie gewohnt die Lohnabrechnung berechnen lassen und bestätigen.
 
+## Lohnabrechnungszeilen anzeigen
+
+[[Entwicklung.md#]]
+
+Navigieren sie nach *Personalabrechnung > Konfiguration > Regeln*

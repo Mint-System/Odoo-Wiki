@@ -7,11 +7,12 @@ tags:
 
 Ihre Buchhaltung einfach und korrekt.
 
-| Bereich                                     | Beschreibung                                              |
-| ------------------------------------------- | --------------------------------------------------------- |
+| Bereich                                                         | Beschreibung                                              |
+| --------------------------------------------------------------- | --------------------------------------------------------- |
 | [Finanzen Mehrere Währungen](Finanzen%20Mehrere%20Währungen.md) | Unterschiedliche Währungen mit Odoo Finanzen verarbeiten. |
-| [Finanzen Zahlungen](Finanzen%20Zahlungen.md)             | SEPA-Zahlungen mit Odoo Finanzen abwickeln.               |
+| [Finanzen Zahlungen](Finanzen%20Zahlungen.md)                   | SEPA-Zahlungen mit Odoo Finanzen abwickeln.               |
 | [Finanzen Mehrwertsteuer](Finanzen%20Mehrwertsteuer.md)         | Mehrwertsteuer einfach abrechnen mit Odoo.                |
+| [Finanzen Berichte](Finanzen%20Berichte.md)                       | Finanzberichte erstellen.                                 |
 
 
 | Erweiterung                                                 | Beschreibung                                                      |
