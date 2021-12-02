@@ -9,7 +9,7 @@ Verfolgen sie Aufträge, Produkte und Lieferungen mit Barcodes.
 
 | Bereich                                             | Beschreibung          |
 | --------------------------------------------------- | --------------------- |
-| [Handscanner Zebra TC21](Handscanner-Zebra-TC21.md) | Handscanner für Odoo. |
+| [Handscanner Zebra TC21](Handscanner%20Zebra%20TC21.md) | Handscanner für Odoo. |
 
 ## Produktstrichcode generieren
 

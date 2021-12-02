@@ -40,7 +40,7 @@ Der Obsidian Vault und das Git Repository werden mit dem Obisidian Git Plugin sy
 
 ## Philosophie
 
-Mit dem Odoo-Handbuch streben wir an eine einfache und kompakte Hilfestellung den Kunden anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best-Practice](Best-Practice.md). Geschäftsprozesse werden im [Referenzsystem](Referenzsystem.md) beschrieben. 
+Mit dem Odoo-Handbuch streben wir an eine einfache und kompakte Hilfestellung den Kunden anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best Practice](Best%20Practice.md). Geschäftsprozesse werden im [Referenzsystem](Referenzsystem.md) beschrieben. 
 
 ## Beispielunternehmen
 
@@ -161,7 +161,7 @@ Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist di
 
 | Bereich                                         | Beschreibung                                   |
 | ----------------------------------------------- | ---------------------------------------------- |
-| [Fertigung Stammdaten](Fertigung-Stammdaten.md) | Produkte und Dienstleistungen zentral pflegen. |
+| [Fertigung Stammdaten](Fertigung%20Stammdaten.md) | Produkte und Dienstleistungen zentral pflegen. |
 
 Die Bereiche bzw. Unterseite werden in der Hauptseite aufgelistet.
 

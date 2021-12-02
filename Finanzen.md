@@ -9,17 +9,17 @@ Ihre Buchhaltung einfach und korrekt.
 
 | Bereich                                     | Beschreibung                                              |
 | ------------------------------------------- | --------------------------------------------------------- |
-| [Finanzen Mehrere Währungen](Finanzen-Mehrere-Währungen.md) | Unterschiedliche Währungen mit Odoo Finanzen verarbeiten. |
-| [Finanzen SEPA-Zahlung](Finanzen-SEPA-Zahlung.md)             | SEPA-Zahlungen mit Odoo Finanzen abwickeln.               |
+| [Finanzen Mehrere Währungen](Finanzen%20Mehrere%20Währungen.md) | Unterschiedliche Währungen mit Odoo Finanzen verarbeiten. |
+| [Finanzen SEPA-Zahlung](Finanzen%20SEPA%20Zahlung.md)             | SEPA-Zahlungen mit Odoo Finanzen abwickeln.               |
 | [Finanzen Mehrwertsteuer](Finanzen%20Mehrwertsteuer.md)         | Mehrwertsteuer einfach abrechnen mit Odoo.                |
 
 
 | Erweiterung                                                 | Beschreibung                                                      |
 | ----------------------------------------------------------- | ----------------------------------------------------------------- |
-| [Bank Account Camt54 Import](Bank-Account-Camt54-Import.md) | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren. |
+| [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md) | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren. |
 | [Recurring - Contracts Management](Contract.md)             | Wiederholende Verträge verwalten und automatisch verrechnen.      |
-| [Switzerland - Bank type](Switerland-Bank-Type.md)          | Lokalisierung für Schweizer Banken und Bankkontos.                |
-| [Account Move Line Position](Account-Move-Line-Position.md) | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.  |
+| [Switzerland - Bank type](Switerland%20Bank%20Type.md)          | Lokalisierung für Schweizer Banken und Bankkontos.                |
+| [Account Move Line Position](Account%20Move%20Line%20Position.md) | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.  |
 
 ## Kontenplan einrichten
 

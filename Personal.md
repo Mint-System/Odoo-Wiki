@@ -9,8 +9,8 @@ Personalmanagement für moderne Unternehmen.
 
 | Erweiterung                                     | Beschreibung                                  |
 | ----------------------------------------------- | --------------------------------------------- |
-| [HR Birthday Calender](HR-Birthday-Calender.md) | Kalenderansicht aller Geburtstage.            |
-| [HR Shortname](HR-Shortname.md)                 | Zu jedem Mitarbeitenden ein Kürzel speichern. |
+| [HR Birthday Calender](HR%20Birthday%20Calender.md) | Kalenderansicht aller Geburtstage.            |
+| [HR Shortname](HR%20Shortname.md)                 | Zu jedem Mitarbeitenden ein Kürzel speichern. |
 
 > Odoo unterscheidet zwischen Benutzer und Mitarbeiter. Mitarbeiter müssen nicht zwingend einen Odoo-Account besitzen. Zur Verwendung von Apps wie die Zeiterfassung muss den Benutzern ein Mitarbeiter hinterlegt werden.
 

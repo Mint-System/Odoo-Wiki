@@ -9,16 +9,16 @@ Odoo mühelos anpassen und erweitern.
 
 | Bereich                                                   | Beschreibung                                                |
 | --------------------------------------------------------- | ----------------------------------------------------------- |
-| [Entwicklung Aktionen](Entwicklung-Aktionen.md)           | Eigene Odoo Aktionen erstellen.                             |
-| [Entwicklung Snippets](Entwicklung-Snippets.md)           | Einfache Anpassungen mit den Mint System Snippets umsetzen. |
-| [Entwicklung QWeb Berichte](Entwicklung-QWeb-Berichte.md) | Eigene Berichte mit QWeb erstellen.                         |
-| [Entwicklung Ansichten](Entwicklung-Ansichten.md)         | Odoo Ansichten anpassen.                                    |
+| [Entwicklung Aktionen](Entwicklung%20Aktionen.md)           | Eigene Odoo Aktionen erstellen.                             |
+| [Entwicklung Snippets](Entwicklung%20Snippets.md)           | Einfache Anpassungen mit den Mint System Snippets umsetzen. |
+| [Entwicklung QWeb Berichte](Entwicklung%20QWeb-Berichte.md) | Eigene Berichte mit QWeb erstellen.                         |
+| [Entwicklung Ansichten](Entwicklung%20Ansichten.md)         | Odoo Ansichten anpassen.                                    |
 
 | Erweiterung                       | Beschreibung                                   |
 | --------------------------------- | ---------------------------------------------- |
-| [Web Timeline](Web-Timeline.md)   | Die Timeline-Ansicht für alle Objekte.         |
-| [Mass Editing](Mass-Editing.md)   | Mühelos mehere Einträge auf einmal bearbeiten. |
-| [BI SQL Editor](BI-SQL-Editor.md) | Ganz einfach SQL-basierte Berichte erstellen.  |
+| [Web Timeline](Web%20Timeline.md)   | Die Timeline-Ansicht für alle Objekte.         |
+| [Mass Editing](Mass%20Editing.md)   | Mühelos mehere Einträge auf einmal bearbeiten. |
+| [BI SQL Editor](BI%20SQL%20Editor.md) | Ganz einfach SQL-basierte Berichte erstellen.  |
 
 ## Domainfilter-Widget deaktivieren
 

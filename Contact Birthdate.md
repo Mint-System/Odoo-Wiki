@@ -19,7 +19,7 @@ Repository: <https://github.com/OCA/partner-contact/tree/14.0/partner_contact_bi
 
 ## Geburtstagskalender für Kontakte erstellen
 
-Mit dieser Erweiterung können sie Geburtstage bei Kontakten hinterlegen. Um einen fortlaufenden Kalender der Geburtstage zu generieren, müssen sie die App [BI SQL Editor](BI-SQL-Editor.md) installieren. Damit lassen sich einfach Datenbankabfragen als Odoo-Ansichten darstellen. Dazu ein Beispiel für eine einfache Geburtstagsliste:
+Mit dieser Erweiterung können sie Geburtstage bei Kontakten hinterlegen. Um einen fortlaufenden Kalender der Geburtstage zu generieren, müssen sie die App [BI SQL Editor](BI%20SQL%20Editor.md) installieren. Damit lassen sich einfach Datenbankabfragen als Odoo-Ansichten darstellen. Dazu ein Beispiel für eine einfache Geburtstagsliste:
 
 Bezeichnung: `Geburtstag Kontakte`\
 Technische Bezeichnung: `contact_birthday_report`\

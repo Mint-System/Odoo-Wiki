@@ -9,7 +9,7 @@ Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 
 | Erweiterung                                   | Beschreibung                            |
 | --------------------------------------------- | --------------------------------------- |
-| [Mail Activity Board](Mail-Activity-Board.md) | Übersicht aller erstellten Aktivitäten. |
+| [Mail Activity Board](Mail%20Activity%20Board.md) | Übersicht aller erstellten Aktivitäten. |
 
 ## Gefilterte Ansicht auf Dashboard speichern
 

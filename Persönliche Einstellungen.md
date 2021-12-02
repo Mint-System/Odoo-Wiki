@@ -15,7 +15,6 @@ Nach dem Login klicken sie oben rechts auf ihren Benutzer und wählen *My Profil
 **Email** - Über diese EMailadresse werden alle Nachrichten verschickt (Rechnung, Nachrichten an Kunden). Diese Mailadresse erscheint als Versender im Mailheader.  
 **Signatur** - Die Signatur sollte die kompletten Unternehmensdaten enthalten.  
 **Foto** - Für das Foto verwenden sie ein JPG-Format nicht grösser als 100 x 100 Pixel.  
-
 ## Passwort ändern
 
 Klicken sie oben rechts auf ihen Benutzer und wählen *My Profile*. Drücken sie  am Ende des Dialogs auf *Passwort ändern*.

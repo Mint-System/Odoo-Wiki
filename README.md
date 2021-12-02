@@ -19,9 +19,9 @@ Das Odoo Handbuch wird von der [Mint System GmbH](https://www.mint-system.ch/) u
 
 [Hier](Referenzsystem.md) geht es zum Referenzsystem.
 
-## [Best Practice](Best-Practice.md)
+## [Best Practice](Best%20Practice.md)
 
-[Hier](Best-Practice.md) geht es zu den Best Practice.
+[Hier](Best%20Practice.md) geht es zu den Best Practice.
 
 ## HowTos
 
@@ -51,11 +51,11 @@ Neue Apps installieren und aktualisieren.
 
 [![icons_odoo_modules](assets/icons_odoo_modules.png)  ](Apps.md)
 
-### [Certificate Planner](Certificate-Planner.md)
+### [Certificate Planner](Certificate%20Planner.md)
 
 Anleitung zur Odoo-App Certificate Planner.
 
-[![icon_odoo_certificate_planner](assets/icon_odoo_certificate_planer.png)](Certificate-Planner.md)
+[![icon_odoo_certificate_planner](Certificate%20Planner.md)
 
 ### [Dashboards](Dashboards.md)
 
@@ -63,11 +63,11 @@ Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 
 [![icons_odoo_board](assets/icons_odoo_board.png)](Dashboards.md)
 
-### [Data Cleaning](Data-Cleaning.md)
+### [Data Cleaning](Data%20Cleaning.md)
 
 Die Datenqualität ganz einfach verbessern.
 
-[![](assets/icon_odoo_data_cleaning.png)](Data-Cleaning.md)
+[![](Data%20Cleaning.md)
 
 ### [Datenbankmanager](Datenbankmanager.md)
 
@@ -111,11 +111,11 @@ Teilen Sie ihr Wissen mit der eLearning-Plattform.
 
 [![icons_odoo_website_slides](assets/icons_odoo_website_slides.png)](eLearning.md)
 
-### [E-Mail-Marketing](E-Mail-Marketing.md)
+### [E-Mail Marketing](E-Mail%20Marketing.md)
 
 E-Mail-Marketing leicht gemacht.
 
-[![icons_odoo_mass_mailing](assets/icons_odoo_mass_mailing.png)](E-Mail-Marketing.md)
+[![icons_odoo_mass_mailing](E-Mail%20Marketing.md)
 
 ### [Entwicklung](Entwicklung.md)
 
@@ -183,11 +183,11 @@ Maximieren sie die Effizienz Ihres Lagers.
 
 [![icons_odoo_stock](assets/icons_odoo_stock.png)](Lager.md)
 
-### [Link Tracker](Link-Tracker.md)
+### [Link Tracker](Link%20Tracker.md)
 
 Web-Kampagnen und E-Mails verfolgen.
 
-[![icons_odoo_website_partner](assets/icons_odoo_website_partner.png)](Link-Tracker.md)
+[![icons_odoo_website_partner](Link%20Tracker.md)
 
 ### [Navigation](Navigation.md)
 
@@ -201,11 +201,11 @@ Notizen zentral verwwalten.
 
 [![icons_odoo_note](assets/icons_odoo_note.png)](Notizen.md)
 
-### [Odoo Mobile App](Odoo-Mobile-App.md)
+### [Odoo Mobile App](Odoo%20Mobile%20App.md)
 
 Alle Odoo-Funktionen auf ihrem Smartphone und Tablet.
 
-[![icons_odoo_app](assets/icons_odoo_app.png)](Odoo-Mobile-App.md)
+[![icons_odoo_app](Odoo%20Mobile%20App.md)
 
 ### [Odoo.sh](Odoo.sh.md)
 
@@ -225,11 +225,11 @@ Personalbrechnungen schnell und einfach erstellen.
 
 [![icons_odoo_hr_payroll](assets/icons_odoo_hr_payroll.png)](Personalabrechnung.md)
 
-### [Persönliche Einstellungen](Pers%C3%B6nliche-Einstellungen.md)
+### [Persönliche Einstellungen](Persönliche%20Einstellungen.md)
 
 Einstellungen für ihren persönlichen Odoo-Benutzer.
 
-[![icons_odoo_membership](assets/icons_odoo_membership.png)](Pers%C3%B6nliche-Einstellungen.md)
+[![icons_odoo_membership](Persönliche%20Einstellungen.md)
 
 ### [PLM](PLM.md)
 

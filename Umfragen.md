@@ -18,7 +18,7 @@ Im Tab *Optionen*  unter *Access Mode* haben sie diese Optionen:
 * **Nur eingeladene Personen**: Die Teilnahme ist nur für Kontakte möglich, die über [Umfrage teilen](#Umfrage%20teilen) eingeladen wurden und einen Portal-Zugriff haben.
 
 ::: tip
-Teilnehmer müssen als Kontakt erfasst sein und müssen einen Portalzugriff haben: [Portalzugriff gewähren](Einstellungen-Login.md#Portalzugriff%20gewähren).
+Teilnehmer müssen als Kontakt erfasst sein und müssen einen Portalzugriff haben: [Portalzugriff gewähren](Einstellungen%20Login.md#Portalzugriff%20gewähren).
 :::
 
 ## Umfrage teilen

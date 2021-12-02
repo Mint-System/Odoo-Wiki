@@ -10,7 +10,7 @@ tags:
 
 ### Produkt-Struktur
 
-(Siehe auch [Item Structure](Best-Practice-Item-Structure.md))
+(Siehe auch [Item Structure](Best%20Practice%20Item%20Structure.md))
 
 ![Theorie Item Structure Rahmen unbeschichtet](assets/Best%20Practice%20Item%20Structure%20Rahmen%20unbeschichtet.svg)
 

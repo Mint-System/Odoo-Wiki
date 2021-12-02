@@ -9,7 +9,7 @@ In alle Module integrierter privater Chat und Gruppen-Chat.
 
 | Erweiterung                         | Beschreibung               |
 | ----------------------------------- | -------------------------- |
-| [URL Attachment](URL-Attachment.md) | Url als Dokument anhängen. |
+| [URL Attachment](URL%20Attachment.md) | Url als Dokument anhängen. |
 
 ## Mail an Kontakt senden
 

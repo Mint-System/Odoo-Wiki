@@ -8,7 +8,7 @@ tags:
 
 Wir erstellen ein Angebot für 10 Stk *Kettenstrebe* an den Kunden *Fahrrad-Traum AG*. Der Liefertermin wird auf *Heute + 6 Tage* gesetzt und das Angebot bestätigt. Die Warnfarbe bei *Menge* ist rot. Wir haben also nicht genügend Ware an Lager.
 
-Der Aufruf von *Replenishment* zeigt nun eine leere Liste. Das ergibt sich daraus, dass die definierte *Durchlaufzeit der Fertigung* von 4 Tagen (siehe [Lead Times](Best-Practice-Definition-Beispiel-Fahrrad.md#Lead%20Times)) noch keinen Fertigungsauftrag verlangt.
+Der Aufruf von *Replenishment* zeigt nun eine leere Liste. Das ergibt sich daraus, dass die definierte *Durchlaufzeit der Fertigung* von 4 Tagen (siehe [Lead Times](Best%20Practice%20Definition%20Beispiel%20Fahrrad.md#Lead%20Times)) noch keinen Fertigungsauftrag verlangt.
 
 Der Bericht *Prognostizierter Bestand* zeigt, dass wir in 6 Tagen -10 Stk *Kettenstreben* an Lager haben.
 

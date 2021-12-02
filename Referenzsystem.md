@@ -14,13 +14,14 @@ Die Prozesslandkarte ist die oberste Ebene des Prozesssystems. Sie zeigt in eine
 ![Prozesslandkarte](assets/Prozesslandkarte.svg)
 
 Prozesse:
-* [Produktentwicklung](Prozess-Produktentwicklung.md)
-* [Verkauf](Prozess-Verkauf.md)
-* [Beschaffung](Prozess-Beschaffung.md)
-* [Betriebsdaten](Prozess-Betriebsdaten.md)
-* [Abwesenheit](Prozess-Abwesenheit.md)
-* [Versand](Prozess-Versand.md)
-* [Abrechnung](Prozess-Abrechnung.md)
+* [Produktentwicklung](Prozess%20Produktentwicklung.md)
+* [Verkauf](Prozess%20Verkauf.md)
+* [Beschaffung](Prozess%20Beschaffung.md)
+* [Betriebsdaten](Prozess%20Betriebsdaten.md)
+* [Abwesenheit](Prozess%20Abwesenheit.md)
+* [Versand](Prozess%20Versand.md)
+* [Abrechnung](Prozess%20Abrechnung.md)
+* [Finanzen](Prozess%20Finanzen.md)
 
 ## Rollen
 

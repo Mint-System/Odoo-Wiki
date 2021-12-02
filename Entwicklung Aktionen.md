@@ -126,7 +126,7 @@ In der Liste der Abwesenheitszeiten erscheint nun in der Auswahl *Aktion* das Me
 
 ## Automatische Archivierung der Los/Chargen
 
-Mit dieser Aktionen werden Los/Chargen archiviert, wenn sie eine Menge von 0 haben und werden dearchiviert wenn die Menge grösser 0 ist. Diese Aktion bötigt die Erweiterung [Stock Production Lot Active](Stock-Production-Lot-Active.md).
+Mit dieser Aktionen werden Los/Chargen archiviert, wenn sie eine Menge von 0 haben und werden dearchiviert wenn die Menge grösser 0 ist. Diese Aktion bötigt die Erweiterung [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md).
 
 Navigeren nach *Einstellungen > Technisch > Geplante Aktionen* und einen neuen Eintrag erstellen:
 

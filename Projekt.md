@@ -9,9 +9,9 @@ Agiles Projektmanagement. Schön. Einfach. Open Source.
 
 | Erweiterung                                               | Beschreibung                           |
 | --------------------------------------------------------- | -------------------------------------- |
-| [Project timeline](Project-Timeline.md)                   | Timeline-Ansicht für Projektaufgaben.  |
-| [Project Task Dependencies](Project-Task-Dependencies.md) | Projektaufgaben mit Abhängigkeiten.    |
-| [Project key](Project-Key.md)                             | Projektkürzel für Aufgabenbezeichnung. |
+| [Project timeline](Project%20Timeline.md)                   | Timeline-Ansicht für Projektaufgaben.  |
+| [Project Task Dependencies](Project%20Task%20Dependencies.md) | Projektaufgaben mit Abhängigkeiten.    |
+| [Project key](Project%20Key.md)                             | Projektkürzel für Aufgabenbezeichnung. |
 
 
 ## Projekt anlegen

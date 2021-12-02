@@ -8,7 +8,7 @@ tags:
 
 ## Prozessschritte
 
-* [Warenbedarf](Best-Practice-Warenbedarf.md)
+* [Warenbedarf](Best%20Practice%20Warenbedarf.md)
 * [Angebotsanfrage erstellen](Einkauf.md#Angebotsanfrage%20erstellen)
 * [Angebotsanfrage senden](Einkauf.md#Angebotsanfrage%20senden)
 * [Bestellung bestätigen](Einkauf.md#Bestellung%20best%C3%A4tigen)

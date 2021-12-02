@@ -13,7 +13,7 @@ Repository: <https://github.com/OCA/web/tree/13.0/web_timeline>
 
 | Erweiterung                             | Beschreibung                          |
 | --------------------------------------- | ------------------------------------- |
-| [Project timeline](Project-Timeline.md) | Timeline-Ansicht für Projektaufgaben. |
+| [Project timeline](Project%20Timeline.md) | Timeline-Ansicht für Projektaufgaben. |
 
 ## Timeline für Abwesenheitszeiten anzeigen
 

@@ -21,4 +21,4 @@ tags:
 ### Prozessschritte
 
 * [Auftrag bestätigen](Verkauf.md#Auftrag%20bestätigen)
-* [Packvorgang Lieferschein automatisch drucken](Odoo-Direct-Print.md#Packvorgang%20Lieferschein%20automatisch%20drucken)
+* [Packvorgang Lieferschein automatisch drucken](Odoo%20Direct%20Print.md#Packvorgang%20Lieferschein%20automatisch%20drucken)

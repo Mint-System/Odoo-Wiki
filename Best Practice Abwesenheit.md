@@ -30,6 +30,6 @@ Setzen sie die *Einheit der Abwesenheit* von *Bezahlter Urlaub* auf *Halber Tag*
 
 ## Prozess
 
-Der genaue Ablauf zur Abwesenheit ist [hier](Prozess-Abwesenheit.md) dokumentiert.
+Der genaue Ablauf zur Abwesenheit ist [hier](Prozess%20Abwesenheit.md) dokumentiert.
 
 Je nach Konfiguration des Abwesenheitstyp muss kein Anspruch bezogen werden.

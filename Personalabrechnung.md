@@ -9,7 +9,7 @@ Personalbrechnungen schnell und einfach erstellen.
 
 | Erweiterung                                                           | Beschreibung                                 |
 | --------------------------------------------------------------------- | -------------------------------------------- |
-| [Payroll Customizations Giordano](Payroll-Customizations-Giordano.md) | Lohnabrechnung nach Schweizer Anforderungen. |
+| [Payroll Customizations Giordano](Payroll%20Customizations%20Giordano.md) | Lohnabrechnung nach Schweizer Anforderungen. |
 | [Lohnmeldung](Lohnmeldung.md)                                         | Lohnmeldungen ganz einfach generieren.       |
 
 ## Pesonalabrechnung initialisieren
@@ -21,7 +21,7 @@ Dazu eine Übersicht:
 * [Private Adresse hinterlegen](Personal.md#Private%20Adresse%20hinterlegen)
 * [Arbeitsvertrag hinzufügen](Personal.md#Arbeitsvertrag%20hinzuf%C3%BCgen)
 * [Bankverbindung hinterlegen](#Bankverbindung%20hinterlegen)
-* [Anteile Arbeitgeber Arbeitnehmer konfigurieren](Payroll-Customizations-Giordano.md#Anteile%20Arbeitgeber%20Arbeitnehmer%20konfigurieren)
+* [Anteile Arbeitgeber Arbeitnehmer konfigurieren](Payroll%20Customizations%20Giordano.md#Anteile%20Arbeitgeber%20Arbeitnehmer%20konfigurieren)
 * [Lohnarten definieren](#Lohnarten%20definieren)
 * [Finanzkonten den Lohnarten zuweisen](#Finanzkonten%20den%20Lohnarten%20zuweisen)
 * [Gehaltsinformationen eingeben](#Gehaltsinformationen%20eingeben)
@@ -44,7 +44,7 @@ Regeln für die sie keine Verwendung haben, können sie archivieren.
 
 ## Finanzkonten den Lohnarten zuweisen
 
-Damit  die Lohnabrechnung auch in der Finanzbuchhaltung ersichtlich ist, müssen sie für alle Lohnregeln die entsprechenden Soll- und Habenkonten hinterlegen. Eine Übersicht dazu finden sie unter [Best-Practice Lohnbuchhaltung](Best-Practice-Lohnbuchhaltung.md).
+Damit  die Lohnabrechnung auch in der Finanzbuchhaltung ersichtlich ist, müssen sie für alle Lohnregeln die entsprechenden Soll- und Habenkonten hinterlegen. Eine Übersicht dazu finden sie unter [Best-Practice Lohnbuchhaltung](Best%20Practice%20Lohnbuchhaltung.md).
 
 Navigieren sie nach *Personalabrechnung > Konfiguration > Regeln > Regel auswählen > Beareiten > Tab Finanzen* und weisen sie dort die Konten zu.
 

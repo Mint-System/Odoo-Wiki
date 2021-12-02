@@ -13,7 +13,7 @@ Repository: <https://github.com/OCA/project/tree/14.0/project_timeline>
 
 | Erweiterung                                                                 | Beschreibung                                             |
 | --------------------------------------------------------------------------- | -------------------------------------------------------- |
-| [Project Timeline Task Dependencies](Project-Timeline-Task-Dependencies.md) | Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten. |
+| [Project Timeline Task Dependencies](Project%20Timeline%20Task%20Dependencies.md) | Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten. |
 
 ## Start- und Endatum festlegen
 

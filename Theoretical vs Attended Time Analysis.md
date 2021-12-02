@@ -13,7 +13,7 @@ Repository: <https://github.com/OCA/hr-attendance/tree/13.0/hr_attendance_report
 
 | Erweiterung                                 | Beschreibung                                                                              |
 | ------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| [HR Holidays Public](HR-Holidays-Public.md) | Erstellen sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird. |
+| [HR Holidays Public](HR%20Holidays%20Public.md) | Erstellen sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird. |
 
 ## Startdatum festlegen
 
@@ -30,7 +30,7 @@ Legen sie als erstes pro Mitarbeiter das Startdatum der theoretischen Stunden fe
 ## Abwesenheitstyp in theoretischen Stunden einbeziehen
 
 ::: tip
-Damit der Abwesenheitstyp in der Auswertung [Theoretical-vs-Attended-Time-Analysis](Theoretical-vs-Attended-Time-Analysis.md) berücksichtigt wird, muss dies explizit festgelegt werden.
+Damit der Abwesenheitstyp in der Auswertung [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) berücksichtigt wird, muss dies explizit festgelegt werden.
 :::
 
 Öffnen Sie den Abwesenheitstyp mit *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Bearbeiten sie den Typ und wählen sie die Checkbox *in theoretische Stunden einbeziehen* unter *Optionen*. Schliessen sie den Vorgang ab. Nun wird der Abwesenheitstyp in der theoretischen Stunden berücksichtigt.

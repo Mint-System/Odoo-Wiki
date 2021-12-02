@@ -13,8 +13,8 @@ Repository: <https://github.com/OCA/project/tree/14.0/project_task_dependency>
 
 | Erweiterung                                                                 | Beschreibung                                             |
 | --------------------------------------------------------------------------- | -------------------------------------------------------- |
-| [Project Timeline Task Dependencies](Project-Timeline-Task-Dependencies.md) | Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten. |
-| [Project Task Dependency Counter](Project-Task-Dependency-Counter.md)       | Smart Button für abhängige Aufgaben.                     |
+| [Project Timeline Task Dependencies](Project%20Timeline%20Task%20Dependencies.md) | Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten. |
+| [Project Task Dependency Counter](Project%20Task%20Dependency%20Counter.md)       | Smart Button für abhängige Aufgaben.                     |
 
 ## Abhängige Aufgabe hinzufügen
 
