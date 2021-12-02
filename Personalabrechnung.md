@@ -209,6 +209,15 @@ Haben sie einen Fehler in einer erledigten Lohanbrechnung können sie diese wie 
 
 ## Lohnabrechnungszeilen anzeigen
 
-[[Entwicklung.md#]]
+Damit sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
 
-Navigieren sie nach *Personalabrechnung > Konfiguration > Regeln*
+Name der Aktion: `Lohnabrechnungszeilen`\
+Objekt: `hr.payslip.line`\
+Menü: `Lohnabrechnungszeilen`\
+Obermenü: `	ersonalabrechnung/Abrechnungen Mitarbeitervergütung`\
+Aktion: `ir.actions.act_window` `Lohnabrechnungszeilen`
+Nummernfolge: `90`
+
+Das Ergebnis sollte so aussehen:
+
+![](assets/Personalabrechnung%20Lohnabrechnungszeilen.png)
