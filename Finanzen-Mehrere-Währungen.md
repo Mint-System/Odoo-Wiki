@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-# Mehrere Währungen
+# Finanzen Mehrere Währungen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
 Unterschiedliche Währungen mit Odoo Finanzen verarbeiten.

@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-# SEPA-Zahlung
+# Finanzen SEPA-Zahlung
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
 SEPA-Zahlungen mit Odoo Finanzen abwickeln.

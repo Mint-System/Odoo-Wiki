@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-# Integration
+# Einstellungen Integration
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
 Odoo mit Plattformen von Dritten integrieren.

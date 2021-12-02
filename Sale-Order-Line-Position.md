@@ -19,4 +19,4 @@ Die Positionsnummern auf einem Verkausauftrag werden mit dieser Erweiterung auto
 
 ## Positionsnummer anzeigen
 
-Zur Darstellung der Positionsnummer in verknüpften Dokumenten stehen entsprechende [Positionsnummer anzeigen](Snippets.md#Positionsnummer%20anzeigen) bereit.
+Zur Darstellung der Positionsnummer in verknüpften Dokumenten stehen entsprechende [Positionsnummer anzeigen](Entwicklung-Snippets.md#Positionsnummer%20anzeigen) bereit.

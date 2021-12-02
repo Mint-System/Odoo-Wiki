@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-# QWeb-Berichte
+# Entwicklung QWeb-Berichte
 ![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)
 
 Eigene Berichte mit QWeb erstellen.

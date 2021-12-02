@@ -9,8 +9,10 @@ Ihre Buchhaltung einfach und korrekt.
 
 | Bereich                                     | Beschreibung                                              |
 | ------------------------------------------- | --------------------------------------------------------- |
-| [Mehrere Währungen](Mehrere%20Währungen.md) | Unterschiedliche Währungen mit Odoo Finanzen verarbeiten. |
-| [SEPA-Zahlung](SEPA-Zahlung.md)             | SEPA-Zahlungen mit Odoo Finanzen abwickeln.               |
+| [Finanzen Mehrere Währungen](Finanzen-Mehrere-Währungen.md) | Unterschiedliche Währungen mit Odoo Finanzen verarbeiten. |
+| [Finanzen SEPA-Zahlung](Finanzen-SEPA-Zahlung.md)             | SEPA-Zahlungen mit Odoo Finanzen abwickeln.               |
+| [Finanzen Mehrwertsteuer](Finanzen%20Mehrwertsteuer.md)         | Mehrwertsteuer einfach abrechnen mit Odoo.                |
+
 
 | Erweiterung                                                 | Beschreibung                                                      |
 | ----------------------------------------------------------- | ----------------------------------------------------------------- |
