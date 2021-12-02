@@ -138,6 +138,6 @@ Standardmässig werden die Kontoarten nicht angezeigt. Damit diese angezeigt wer
 
 ## Zahlungskonten konfigurieren
 
-Auf jedem Journal ist hinterlegt welches Konto für die ausstehende Zahlungen bzw. Zahlungsbestätigungen verwendet werden sollen.
+Auf jedem Journal vom Typ *Bank* oder *Kasse/Bank* ist hinterlegt welches Konto für die ausstehende Zahlungen bzw. Zahlungsbestätigungen verwendet werden sollen.
 
 Öffnen sie *Finanzen > Konfiguration > Journale > Journal auswählen* und zeigen sie den Tab *Payments Configuration* an. Hier können sie die Konten für die Zahlungen festlegen.

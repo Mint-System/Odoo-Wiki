@@ -34,3 +34,10 @@ Navigieren sie nach *Finanzen > Optionen Journal > Einstellungen > Tab Erweitert
 
 Um eine Zahlung zu exportieren, klicken sie auf *Finanzen > X Über SEPA zu sendende Zahlungen*, markieren die offenen Zahlungen und wählen *Aktion > Stapelzahlung anlegen*. Im neuen Dialog wählen sie *Bestätigen* und erhalten so die generierte Zahlungsdatei, die sie exportieren können.
 
+## Mehrere Zahlung auf einmal anlegen
+
+Öffnen sie *Finanzen > Lieferanten > Rechnungen* und zeigen sie die Spalte *Zahlung Status* an. Filtern sie nach *Nicht bezahl* und selektieren sie die Rechnungen, für welche sie eine Zahlung erfassen möchten.
+
+![](assets/Pasted%20image%2020211202105338.png)
+
+Wählen sie *Zahlung Erfassen*. Schliessen sie den Dialog. Nun wird für jede Rechnung eine Zahlung generiert.
