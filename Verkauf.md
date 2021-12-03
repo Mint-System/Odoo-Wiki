@@ -28,6 +28,7 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 | [Sale Blanket Order Stock Terms](Sale%20Blanket%20Order%20Stock%20Terms.md)         | Legen sie Lieferbedinungen auf dem Rahmenauftrag fest.                 |
 | [Sale Blanket Order Send](Sale%20Blanket%20Order%20Send.md)                         | Workflow mit Rahmenauftrag per E-Mail.                                 |
 | [Sale Stock Picking Note](Sale%20Stock%20Picking%20Note.md)                         | Interne und externe Notiz für Lieferungen.                             |
+| [Sale Order Line Default Packaging](Sale%20Order%20Line%20Default%20Packaging.md)                         | Standardverpackung auf Position setzen.                          |
 
 ## Verkauf Dashboard anzeigen
 
