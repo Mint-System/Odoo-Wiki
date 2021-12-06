@@ -8,8 +8,8 @@ tags:
 
 Verknüpfen der Verpackung von Verkaufsauftrag.
 
-Technischer Name: `stock_move_line_position`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_move_line_position>
+Technischer Name: `stock_move_line_packaging`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_move_line_packaging>
 
 ## Verpackung von Verkaufsauftrag auf Lieferung anzeigen
 
