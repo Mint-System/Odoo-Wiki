@@ -12,7 +12,8 @@ Ihre Buchhaltung einfach und korrekt.
 | [Finanzen Mehrere Währungen](Finanzen%20Mehrere%20Währungen.md) | Unterschiedliche Währungen mit Odoo Finanzen verarbeiten. |
 | [Finanzen Zahlungen](Finanzen%20Zahlungen.md)                   | SEPA-Zahlungen mit Odoo Finanzen abwickeln.               |
 | [Finanzen Mehrwertsteuer](Finanzen%20Mehrwertsteuer.md)         | Mehrwertsteuer einfach abrechnen mit Odoo.                |
-| [Finanzen Berichte](Finanzen%20Berichte.md)                       | Finanzberichte erstellen.                                 |
+| [Finanzen Berichte](Finanzen%20Berichte.md)                     | Finanzberichte erstellen.                                 |
+| [Finanzen Kostenrechnung](Finanzen%20Kostenrechnung.md)         | Kosten analysieren und Budget plannen.                    |
 
 
 | Erweiterung                                                 | Beschreibung                                                      |
