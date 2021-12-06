@@ -41,3 +41,8 @@ Um eine Zahlung zu exportieren, klicken sie auf *Finanzen > X Über SEPA zu send
 ![](assets/Finanzen%20Zahlungen%20erfassen.png)
 
 Wählen sie *Zahlung Erfassen*. Schliessen sie den Dialog. Nun wird für jede Rechnung eine Zahlung generiert.
+
+## Rechnung auf einer Kostenstelle belasten
+
+Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an. Auf der Rechnungszeile können sie eine Kostenstelle in der entsprechenden Spalte festlegen.
+

@@ -48,6 +48,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [QR-Rechnung](Best%20Practice%20QR%20Rechnung.md)
 * [SEPA Zahlung](Best%20Pratice%20SEPA%20Zahlung.md)
 * [Zahlungsabgleich](Best%20Pratice%20Zahlungsabgleich.md)
+* [Kostenrechnung](Best%20Pratice%20Kostenrechnung.md)
 
 ### Verkauf und Einkauf
 

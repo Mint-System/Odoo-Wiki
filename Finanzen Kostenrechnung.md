@@ -14,3 +14,7 @@ Kosten analysieren und Budget plannen.
 ## Kostenrechnung anzeigen
 
 Zeigen sie *Finanzen > Berichtswesen > Verwaltung > Kostenbericht* an. Wählen sie *Optionen > Hierarchie und Zwischensummen*  sowie die gewünschte Periode. Es werden nun die saldierten Kostenstellen gruppiert aufgeführt.
+
+## Kosten/Eröse anzeigen
+
+Über den Smart-Link *Kosten/Erlöse* auf einer Kostenstelle *Finanzen > Kostenrechnung > Kostenstellen* sehen sie alle analytischen Buchungen auf der Kostenstelle.
