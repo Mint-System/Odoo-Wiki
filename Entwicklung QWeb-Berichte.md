@@ -78,7 +78,8 @@ Nun haben sie alle Elemente um den Bericht als HTML anzuzeigen. Geben sie die fo
 
 Hierzu eine Übersicht der wichtigsten Berichte und deren URL:
 
-| Name              | URL                                      |
-| ----------------- | ---------------------------------------- |
-| Angebot / Auftrag | `/report/html/sale.report_saleorder/$ID` |
-|                   |                                          |
+| Name              | URL                                          |
+| ----------------- | -------------------------------------------- |
+| Angebot / Auftrag | `/report/html/sale.report_saleorder/$ID`     |
+| Packvorgänge      | `/report/html/stock.report_picking/$ID`      |
+| Lieferschein      | `/report/html/stock.report_deliveryslip/$ID` |
