@@ -18,6 +18,7 @@ Maximieren sie die Effizienz Ihres Lagers.
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md) | Erlaubt die Archivierung von Los/Chargen.                                                                   |
 | [Stock Move Line Position](Stock%20Move%20Line%20Position.md)       | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.                                            |
 | [Stock Delivery Note](Stock%20Delivery%20Note.md)                 | Notiz auf Lieferschein.                                                                                     |
+| [Stock Move Line Packaging](Stock%20Move%20Line%20Packaging.md)             | Verknüpfen der Verpackung von Verkaufsauftrag.                                                                                     |
 
 ## Erweiterte Vorgangstypen einrichten
 
