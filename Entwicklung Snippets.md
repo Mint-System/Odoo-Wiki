@@ -23,4 +23,4 @@ Unter <https://odoo.build/snippets> finden sie Snippets mit der Kennzeichnung `g
 
 Unter <https://odoo.build/snippets> finden sie verschiedene Snippets um Ansichten und Berichte anzupassen. Anhand des Verweis auf den Bericht und dem Link auf das Snippet können sie das Snippet installieren.
 
-[Entwicklung Snippet hinzufügen](assets/Entwicklung%20Snippet%20hinzufügen.gif)
+![](assets/Entwicklung%20Snippet%20hinzufügen.gif)
