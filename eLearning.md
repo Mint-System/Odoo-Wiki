@@ -42,7 +42,7 @@ Damit Teilnehmer einen Portal-Benutzer erhalten, muss dieser erstellt werden.
 
 Navigieren sie im Backend nach *eLearning > Konfiguration > Kurs-Stichwörter* und wählen sie den ersten Eintrag und bearbeiten sie diesen.
 
-Stichwörter können gruppiert werden, das heisst es gibt Stichwörter-Gruppen, die jeweils mehere Stichwörter enthalten.
+Stichwörter können gruppiert werden, das heisst es gibt Stichwörter-Gruppen, die jeweils mehrere Stichwörter enthalten.
 
 ## Kursinhalte anlegen
 

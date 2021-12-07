@@ -17,7 +17,7 @@ Odoo mühelos anpassen und erweitern.
 | Erweiterung                       | Beschreibung                                   |
 | --------------------------------- | ---------------------------------------------- |
 | [Web Timeline](Web%20Timeline.md)   | Die Timeline-Ansicht für alle Objekte.         |
-| [Mass Editing](Mass%20Editing.md)   | Mühelos mehere Einträge auf einmal bearbeiten. |
+| [Mass Editing](Mass%20Editing.md)   | Mühelos mehrere Einträge auf einmal bearbeiten. |
 | [BI SQL Editor](BI%20SQL%20Editor.md) | Ganz einfach SQL-basierte Berichte erstellen.  |
 
 ## Domainfilter-Widget deaktivieren

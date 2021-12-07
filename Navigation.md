@@ -31,7 +31,7 @@ Odoo-Verknüpft die Geschäftsobjekte über diverse Links. Dies erlaubt eine fle
 Beachten sie immer in welchem Kontext sie sich in der Navigation befinden.
 :::
 
-## Mehere Listeneinträge anzeigen
+## Mehrere Listeneinträge anzeigen
 
 Standardmässig zeigt Odoo 80 Einträge auf einer Listenseite an. Diese Einstellung kann pro Listenansicht übersteuert werden. Als Anwender kann man adhoch einen Werte festlegen.
 

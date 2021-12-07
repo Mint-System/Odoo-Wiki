@@ -71,7 +71,7 @@ Jede Lieferung umfasst 1 oder mehrere *Vorgänge*. In einem Vorgang wird der Bed
 
 ![](assets/Lager%20Vorgänge.png)
 
-Wenn sie einen Vorgang in mehere Packungen verpacken möchten, müssen sie unter *Detaillierte Vorgänge* zuerst das Teilgewicht in die vordefinierte Zeile einfügen. Anschliessend können sie weitere Zeilen mit weiteren Teilmengen hinzufügen.
+Wenn sie einen Vorgang in mehrere Packungen verpacken möchten, müssen sie unter *Detaillierte Vorgänge* zuerst das Teilgewicht in die vordefinierte Zeile einfügen. Anschliessend können sie weitere Zeilen mit weiteren Teilmengen hinzufügen.
 
 ![Lager Vorgänge Verpackungen](assets/Lager%20Vorgänge%20Verpackungen.gif)
 
