@@ -13,11 +13,12 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 | [Einstellungen Login](Einstellungen%20Login.md)                  | Odoo-Einstellungen zum Benutzer und Anmeldeverfahren. |
 | [Einstellungen Integration](Einstellungen%20Integration.md)                                  | Odoo mit Plattformen von Dritten integrieren.         |
 
-| Erweiterung                                       | Beschreibung                                   |
-| ------------------------------------------------- | ---------------------------------------------- |
-| [Web Responsive](Web%20Responsive.md)               | Responsive Anzeige der Odoo-Oberfläche.        |
-| [Impersonate](Impersonate.md)                     | Schnelles Wechseln zwischen Benutzer-Accounts. |
+| Erweiterung                                           | Beschreibung                                   |
+| ----------------------------------------------------- | ---------------------------------------------- |
+| [Web Responsive](Web%20Responsive.md)                 | Responsive Anzeige der Odoo-Oberfläche.        |
+| [Impersonate](Impersonate.md)                         | Schnelles Wechseln zwischen Benutzer-Accounts. |
 | [Home Background Image](Home%20Background%20Image.md) | Den Odoo-Startbildschirm gestalten.            |
+| [Show DB Name](Show%20DB%20Name.md)                   | Zeigt den Datenbanknamen oben rechts an.       |
 
 ## Entwicklermodus aktivieren
 
