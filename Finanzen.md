@@ -24,8 +24,6 @@ Ihre Buchhaltung einfach und korrekt.
 | [Account Move Line Position](Account%20Move%20Line%20Position.md)             | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.  |
 | [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md) | Lieferaufträge mit Rechnungszeile verlinken.                      |
 
-
-
 ## Kontenplan einrichten
 
 Öffnen sie die Finanz-App und richten Sie den Standard-Kontenplan ein. Navigieren sie nach *Finanzen > Konfiguration > Finanzen > Kontenplan*.
@@ -138,6 +136,10 @@ Navigieren sie nach *Finanzen > Konfiguration > Kontengruppen* und fügen eine K
 ## Kontoarten anzeigen
 
 Standardmässig werden die Kontoarten nicht angezeigt. Damit diese angezeigt werden, muss eine Menüpunkt gemäss [Menüeintrag erstellen](Entwicklung.md#Entwicklung#Menüeintrag%20erstellen)
+
+* **Menü**: Kontoarten
+* **Obermenü**: Finanzen/Konfiguration/Finanzen
+* **Aktion**: ir.actions.act_window Kontoarten
 
 ![](assets/Finanzen%20Kontoarten%20anzeigen.png)
 
