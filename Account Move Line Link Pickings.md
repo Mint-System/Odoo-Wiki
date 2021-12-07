@@ -16,3 +16,12 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 Mit dieser Erweiterung werden Lieferungen mit der Rechnungszeile verlinkt.
 
 ![](assets/Account%20Move%20Line%20Link%20Pickings.png)
+
+
+## Sammelrechnung erstellen
+
+Mit dem Snippet <https://odoo.build/snippets.html#group-by-pickings> und dieser Erweiterung können sie Sammelrechnungen generieren.
+
+![](assets/Account%20Move%20Line%20Link%20Pickings%20Sammelrechnung.png)
+
+Dazu müssen sie wissen wie man ein [Snippet hinzufügen](Entwicklung%20Snippets.md#Snippet%20hinzufügen) kann und wie man [für mehrere Verkaufsaufträge eine Rechnung generiert](Verkauf.md#Für%20mehrere%20Verkaufsaufträge%20eine%20Rechnung%20generieren).

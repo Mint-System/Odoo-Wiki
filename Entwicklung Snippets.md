@@ -18,3 +18,9 @@ Unter <https://odoo.build/snippets> finden sie Snippets mit der Kennzeichnung `g
 Öffnen sie ein Snippet via *Einstellungen > Technisch > Benutzer-Interface > Ansichten*. Klicken sie im Tab *Architektur* auf * Übersetzungen bearbeiten*.
 
 ![](assets/Snippet%20Übersetzung.png)
+
+## Snippet hinzufügen
+
+Unter <https://odoo.build/snippets> finden sie verschiedene Snippets um Ansichten und Berichte anzupassen. Anhand des Verweis auf den Bericht und dem Link auf das Snippet können sie das Snippet installieren.
+
+[Entwicklung Snippet hinzufügen](assets/Entwicklung%20Snippet%20hinzufügen.gif)
