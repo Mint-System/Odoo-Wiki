@@ -12,7 +12,9 @@ Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 | [Überzeitenmanagement](Überzeitenmanagement.md)                                   | Verwalten sie die Überzeiten der Mitarbeitenden.                                                                   |
 | [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement. |
 
-> Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheit. Für das Erfassen der Projektzeit nutzt man die App Zeiterfassung.
+::: tip
+Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheit. Für das Erfassen der Projektzeit nutzt man die App Zeiterfassung.
+:::
 
 ![Anwesenheitszeiten An- und Abmelden](assets/Anwesenheitszeiten%20An-%20und%20Abmelden.png)
 
@@ -38,7 +40,7 @@ Es erscheint eine Verabschiedung mit Angabe der geleisteten Arbeitszeit.
 
 ## Anwesenheitszeiten anzeigen
 
-Der kürzeste Weg zur Anzeige der rapprtierten Arbeitszeit führt über *Mein Profil*.
+Der kürzeste Weg zur Anzeige der rapportierten Arbeitszeit führt über *Mein Profil*.
 Navigieren Sie zum Knopf mit ihrem Namen auf dem Bildschirm oben rechts.
 Dort wählen Sie *Vorname Nachname > Mein Profil*. Es erscheint die folgende Maske:
 
