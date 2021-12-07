@@ -1,4 +1,4 @@
----
+E---
 tags:
 - HowTo
 ---
@@ -77,3 +77,13 @@ Haben sie mehrere Sprachpakete auf der Odoo-Umgebung installiert und möchten Pr
 ![](assets/Einstellungen%20%C3%9Cbersetung%20Produktnamen%20%C3%BCbersetzen.png)
 
 Klicken sie auf diesen und geben sie den übersetzten Produktnamen ein.
+
+## Feldinhalte übersetzen
+
+Bestimmte Feldinhalte können direkt übersetzt werden. Dazu wählt man den Sprachcode *DE* (gemäss aktiver Sprache) auf der rechten Seite des Feldes und passt die Übersetzung an.
+
+![Einstellungen Übersetzung Feldinhalt](assets/Einstellungen%20Übersetzung%20Feldinhalt.gif)
+
+::: warning
+Wenn sie [Übersetzungen aktualisieren](#Übersetzungen%20aktualisieren) gehen diese Änderungen verloren.
+:::
