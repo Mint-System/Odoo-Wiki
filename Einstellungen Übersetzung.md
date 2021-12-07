@@ -13,7 +13,7 @@ Damit Odoo in mehreren Sprachen verfügbar ist, müssen sie die entsprechenden S
 
 ## Übersetzungen aktualisieren
 
-Mit jeder Odoo Version und den dazugehörigen Modulen werden neue Übersetzungen hinzugefügt. Um die aktuellsten Übersetzungen zu erhalten müssen sie folgende Aktion ausführen: Öffnen sie *Einstellungen > Sprachen > Sprachen verwalten > Sprache auswählen* und klicken auf *Aktivieren und Übersetzen*. Bestätigen sie den Dialog.
+Mit jeder Odoo Version und den dazugehörigen Modulen werden neue Übersetzungen hinzugefügt. Um die aktuellsten Übersetzungen zu erhalten müssen sie folgende Aktion ausführen: Öffnen sie *Einstellungen > Sprachen > Sprachen verwalten > Sprache auswählen* und klicken auf *Active / Update*. Bestätigen sie den Dialog. Mit der Option *Bisherige Übersetzungen ändern* werden manuell erstelle Übersetzungen überschrieben.
 
 ## Fehlende Begriffe generieren
 
@@ -75,7 +75,7 @@ In unserem Fall wollen wir die Einträge mit `<strong>...</strong>` anpassen. W�
 Haben sie mehrere Sprachpakete auf der Odoo-Umgebung installiert und möchten Produktnamen übersetzen, gehen sie wie folgt vor. Öffnen sie das Produkt in der Einzelansicht und klicken sie auf *Bearbeiten*. Am oberen rechten Eck des Eingabefelds zum Produktnamen finden sie ein Link.
 
 ![](assets/Einstellungen%20%C3%9Cbersetung%20Produktnamen%20%C3%BCbersetzen.png)
-
+n
 Klicken sie auf diesen und geben sie den übersetzten Produktnamen ein.
 
 ## Feldinhalte übersetzen
@@ -85,5 +85,5 @@ Bestimmte Feldinhalte können direkt übersetzt werden. Dazu wählt man den Spra
 ![Einstellungen Übersetzung Feldinhalt](assets/Einstellungen%20Übersetzung%20Feldinhalt.gif)
 
 ::: warning
-Wenn sie [Übersetzungen aktualisieren](#Übersetzungen%20aktualisieren) gehen diese Änderungen verloren.
+Wenn sie [Übersetzungen aktualisieren](#Übersetzungen%20aktualisieren) können solche Änderungen verloren gehen.
 :::
