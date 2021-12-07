@@ -87,4 +87,14 @@ Für Produkte in Lots oder Produkte mit Seriennummer könne sie ein Ablaufdatum 
 
 ## Sicherheitsvorlaufzeiten definieren
 
-Die Sicherheitsvorlaufzeiten können sie zentral unter *Einstellungen > Lager > Erweiterte Planung* festlegen. Aktivieren sie für jeweilige Vorlaufzeit die Checkbox und tragen sie die gewünschten Zeiten ein.
+Die Sicherheitsvorlaufzeiten können sie zentral unter *Einstellungen > Lager > Erweiterte Planung* festlegen. Aktivieren sie für jeweilige Vorlaufzeit die Checkbox und tragen sie die gewünschten Zeiten ein
+
+## Bordereau-Export erstellen
+
+Öffnen sie *Lager > Berichtswesen > Produktlieferungen*. Gruppieren und sortieren sie Lagerbuchungen nach *Datum > Tag*. Markieren sie zu exportierenden Lagerbuchungen und wählen sie *Aktion > Export*. Wählen sie diese Felder:
+
+* Lagerbuchung/Lieferadresse
+* Produkt/Referenz
+* Produkt
+* Produkt/HS-Code
+* Erledigt
