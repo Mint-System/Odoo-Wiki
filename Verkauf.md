@@ -131,4 +131,6 @@ Ist diese Bedinung erfüllt können sie ein Angebot öffnen *Verkauf > Angebot a
 
 ## Liefer- und Rechnungsadresse festlegen
 
-Damit sie die Liefer- und Rechnungsadresse explizit festlegen können, muss die Option **
+Damit sie die Liefer- und Rechnungsadresse explizit festlegen können, muss die Option.
+
+#FIXME 

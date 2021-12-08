@@ -16,7 +16,7 @@ Folgende Option muss eingeschaltet sein (Verkauf > Produktkatalog):
 
 ![Lager Einstellungen Produktverpackungen](assets/Lager%20Einstellungen%20Produktverpackungen.png)
 
-Damit Produktverpackungen verfügbar sind, müssen diese erfasst werden:[Produktverpackung erfassen](Lager.md#Produktverpackung%20erfassen).
+Damit Produktverpackungen verfügbar sind, müssen diese erfasst werden: [Produktverpackung erfassen](Lager%20Verpackungen.md#Produktverpackung%20erfassen).
 
 Den Produkten können im Register *Lager* die Produktverpackungen zugeordnet werden.
 

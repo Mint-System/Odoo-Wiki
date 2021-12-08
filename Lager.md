@@ -7,10 +7,11 @@ tags:
 
 Maximieren sie die Effizienz Ihres Lagers.
 
-| Bereich                                             | Beschreibung          |
-| --------------------------------------------------- | --------------------- |
-| [Handscanner Zebra TC21](Handscanner%20Zebra%20TC21.md) | Handscanner für Odoo. |
-| [Handscanner Zebra DS22](Handscanner%20Zebra%20DS22.md) | Handscanner für Odoo. |
+| Bereich                                                 | Beschreibung                      |
+| ------------------------------------------------------- | --------------------------------- |
+| [Handscanner Zebra TC21](Handscanner%20Zebra%20TC21.md) | Handscanner für Odoo.             |
+| [Handscanner Zebra DS22](Handscanner%20Zebra%20DS22.md) | Handscanner für Odoo.             |
+| [Lager Verpackungen](Lager%20Verpackungen.md)           | Verpackungen effizient verwalten. |
 
 | Erweiterung                                                   | Beschreibung                                                                                                |
 | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -52,32 +53,6 @@ Navigieren sie zum Menu *Lager > Vorgänge > Inventur*. Mit dem Knopf *Anlegen* 
 Starten sie die vorbereitete Inventur mit *Inventur Starten*. Falls ein nicht gelistetes Produkt gezählt wird, kann über *Anlegen* eine neue Position eingefügt werden.
 
 Befüllen sie nun die Spalte *Gezählt* entsprechend der gezählten Quantität pro Produkt. Nach der abgeschlossenen Zählung wird mit *Bestandsbuchung Durchführen* der korrigierte Bestand gebucht. Das Protokoll kann über *Print Count Sheet* erstellt werden.
-
-## Produktverpackung erfassen
-
-Um die verschiedenen Produktverpackungen zu erfassen navigieren sie zu folgender Einstellung: *Lager > Konfiguration > Produkte > Produktverpackungen*.
-
-![Lager Produktverpackungen Beispiel](assets/Lager%20Produktverpackungen%20Beispiel.png)
-
-## Produkt verpacken
-
-Für einen internen Transfer verpacken sie ein Produkt wie folgt:
-
-![Lager Verpackungen Beispiel](assets/Lager%20Verpackungen%20Beispiel.gif)
-
-## Lieferung in mehrere Packungen verpacken
-
-Jede Lieferung umfasst 1 oder mehrere *Vorgänge*. In einem Vorgang wird der Bedarf pro Produkt aufgelistet.
-
-![](assets/Lager%20Vorgänge.png)
-
-Wenn sie einen Vorgang in mehrere Packungen verpacken möchten, müssen sie unter *Detaillierte Vorgänge* zuerst das Teilgewicht in die vordefinierte Zeile einfügen. Anschliessend können sie weitere Zeilen mit weiteren Teilmengen hinzufügen.
-
-![Lager Vorgänge Verpackungen](assets/Lager%20Vorgänge%20Verpackungen.gif)
-
-## Versandverpackungen
-
-Verwalten sie Versandverpackungen unter *Lager > Konfiguration > Versandverpackungen*.
 
 ## Ablaufdatum aktivieren
 
