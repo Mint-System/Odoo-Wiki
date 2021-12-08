@@ -72,3 +72,13 @@ Für sie einen Abonnent dem Odoo-Objekt hinzu indem sie rechts von *Abonnieren* 
 Entfernen sie einen Abonnent vom Odoo-Objekt indem sie rechts von *Abonnieren* auf das Icon klicken.
 
 ![Diskussion Abonnent entfernen](assets/Diskussion%20Abonnent%20entfernen.gif)
+
+## Mail-Versand prüfen
+
+Wenn man eine Odoo-Nachricht als E-Mail versendet, wird die Nachricht im Chatter geloggt. Man findet dort das Mail-Icon.
+
+![](assets/Diskussion%20Mail%20Fehlschlag.png)
+
+Ist das Mail-Icon rot markiert (und nicht weiss), konnte die E-Mail nicht versendet werden. Klickt man auf das Icon erfährt wieso der Mail-Versand nicht funktioniert hat.
+
+![Diskussion Mail Fehlschlag Beispiel](assets/Diskussion%20Mail%20Fehlschlag%20Beispiel.png)
