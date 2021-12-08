@@ -57,3 +57,23 @@ Sobald der Dokument-Code (immer oben rechs) gescannt wurde, werden die Positione
 ![](assets/Strichcode%20Positionen%20Scanvorgang.png)
 
 Nun können sie einzelnen Positionen bestätigen und den Vorgang mit dem Barcode-Befehl *Validate* abschliessen.
+
+## Strichcode-Eingabe simulieren
+
+Auf einem Linux-Computer kann man ganz einfach eine Strichcode-Eingabe mit [xdotool](https://www.semicomplete.com/projects/xdotool/) simulieren. Öffnen sie ein Terminal-Fenster installieren sie das xdotool mit dem Befehl `sudo apt install xdotool`. Öffnen sie den Firefox-Browser und zeigen sie das *Strichcode* App an. Führen sie das folgende Skript im Terminal aus:
+
+```bash
+# Name des Transfers
+BARCODE="WH/OUT/00017"
+
+# Dieser Befehl sucht die Identifikationsnummer des Firefox Browserfenster
+WID=`xdotool search --title "Mozilla Firefox" | head -1`
+
+# Das Browserfenster wird angezeigt und der Barcode eingegeben
+xdotool windowfocus $WID
+xdotool type $BARCODE
+```
+
+Passen sie die `BARCODE`-Variable entsprechend an. Dazu ein Beispiel der Ausführung:
+
+![Strichcode Eignabe simulieren](assets/Strichcode%20Eignabe%20simulieren.gif)

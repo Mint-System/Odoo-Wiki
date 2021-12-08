@@ -84,3 +84,4 @@ Hierzu eine Übersicht der wichtigsten Berichte und deren URL:
 | Packvorgänge      | `/report/html/stock.report_picking/$ID`                         |
 | Lieferschein      | `/report/html/stock.report_deliveryslip/$ID`                    |
 | Rechnungen        | `/report/html/account.account.report_invoice_with_payments/$ID` |
+| Barcode (PDF)     | `/report/html/stock.label_transfer_template_view_pdf/$ID`                                                                |
