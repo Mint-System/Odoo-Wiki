@@ -7,9 +7,9 @@ tags:
 
 In alle Module integrierter privater Chat und Gruppen-Chat.
 
-| Bereich               | Beschreibung              |
-| --------------------- | ------------------------- |
-| [[Diskussion E-Mail]] | E-Mail mit Odoo versenden |
+| Bereich                                     | Beschreibung              |
+| ------------------------------------------- | ------------------------- |
+| [Diskussion E-Mail](Diskussion%20E-Mail.md) | E-Mail mit Odoo versenden |
 
 
 | Erweiterung                           | Beschreibung               |
