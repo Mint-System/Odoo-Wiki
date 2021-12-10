@@ -24,4 +24,6 @@ Mit dem Snippet <https://odoo.build/snippets.html#group-by-pickings> und dieser 
 
 ![](assets/Account%20Move%20Line%20Link%20Pickings%20Sammelrechnung.png)
 
-Dazu müssen sie wissen wie man ein [Snippet hinzufügen](Entwicklung%20Snippets.md#Snippet%20hinzufügen) kann und wie man [für mehrere Verkaufsaufträge eine Rechnung generiert](Verkauf.md#Für%20mehrere%20Verkaufsaufträge%20eine%20Rechnung%20generieren).
+Für die Implementation müssien folgendes wissen:
+* [Snippet hinzufügen](Entwicklung%20Snippets.md#Snippet%20hinzufügen)
+* [Für mehrere Verkaufsaufträge eine Rechnung generieren](Verkauf.md#Für%20mehrere%20Verkaufsaufträge%20eine%20Rechnung%20generieren) 
