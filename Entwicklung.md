@@ -129,3 +129,32 @@ Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitge
 ::: warning
 Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen sie die Aktion nur aus, wenn sie sich den möglichen Auswirkungen bewusst sind.
 :::
+
+## Neues berechnetes Feld hinzufügen
+
+Wir nehmen an, dass sie auf der Lagerbechnung ein berechnetes Feld benötigen. Dieses Feld soll die Anzahl Kisten berechnen, die es braucht um das Produkt zu verpacken. Immer wenn die *Erledigte Menge* ändert, soll das Feld berechnet werden.
+
+Erstellen sie ein neues Feld unter *Einstellungen > Technisch > Datenbankstruktur > Felder* mit diesen Attributen:
+
+* **Feldname**: `x_count_boxes`
+* **Feldbezeichnung**: Anzahl Kisten
+* **Modell**: Lagerbuchung (technischer Name ist `stock.move`)
+* **Typfeld-Text**: Ganzzahl
+* **Basiseigenschaften**:
+	* Nur Lesen
+	* Gespeichert
+* **Abhängigkeiten**: `quantity_done`
+* **Berechnen**:
+
+```py
+for rec in self:
+	if rec.product_packaging:
+		if rec.product_packaging.name == "Schale":
+			rec['x_count_boxes'] = (rec.quantity_done + 2.4)/2.5
+		if rec.product_packaging.name == "Kiste":
+			rec['x_count_boxes'] = (rec.quantity_done + 9)/10
+```
+
+Dieser Code berechnet abhängig von der gewählten Verpackung und deren Füllmenge die Anzahl Kisten. Mit Python-Code können sie natürlich jegliche Logik für die Berechnung entwickeln.
+
+![](assets/Entwicklung%20Berechnetes%20Feld.png)
