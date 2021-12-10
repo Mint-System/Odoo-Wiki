@@ -13,13 +13,15 @@ Maximieren sie die Effizienz Ihres Lagers.
 | [Handscanner Zebra DS22](Handscanner%20Zebra%20DS22.md) | Handscanner für Odoo.             |
 | [Lager Verpackungen](Lager%20Verpackungen.md)           | Verpackungen effizient verwalten. |
 
-| Erweiterung                                                   | Beschreibung                                                                                                |
-| ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [Demand Planner](Demand%20Planner.md)                           | Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen. |
+| Erweiterung                                                         | Beschreibung                                                                                                |
+| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [Demand Planner](Demand%20Planner.md)                               | Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen. |
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md) | Erlaubt die Archivierung von Los/Chargen.                                                                   |
 | [Stock Move Line Position](Stock%20Move%20Line%20Position.md)       | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.                                            |
-| [Stock Delivery Note](Stock%20Delivery%20Note.md)                 | Notiz auf Lieferschein.                                                                                     |
-| [Stock Move Line Packaging](Stock%20Move%20Line%20Packaging.md)             | Verknüpfen der Verpackung von Verkaufsauftrag.                                                                                     |
+| [Stock Delivery Note](Stock%20Delivery%20Note.md)                   | Notiz auf Lieferschein.                                                                                     |
+| [Stock Move Line Packaging](Stock%20Move%20Line%20Packaging.md)     | Verknüpfen der Verpackung von Verkaufsauftrag.                                                              |
+| [Stock Barcode Packaging](Stock%20Barcode%20Packaging.md)           | Verpackung auf Strichcode-Vorgang anzeigen.                                                                                                            |
+
 
 ## Erweiterte Vorgangstypen einrichten
 
@@ -66,7 +68,18 @@ Die Sicherheitsvorlaufzeiten können sie zentral unter *Einstellungen > Lager > 
 
 ## Bordereau-Export erstellen
 
-Öffnen sie *Lager > Berichtswesen > Produktlieferungen*. Gruppieren und sortieren sie Lagerbuchungen nach *Datum > Tag*. Markieren sie zu exportierenden Lagerbuchungen und wählen sie *Aktion > Export*. Wählen sie diese Felder:
+Öffnen sie *Lager > Berichtswesen > Produktlieferungen*. Filtern sie die Daten wie  folgt:
+
+* Ausgehend
+* Erledigt
+
+Gruppieren und sortieren sie Lagerbuchungen nach:
+
+* Datum > Tag
+* Lieferadresse
+* Produkt
+
+Markieren sie zu exportierenden Lagerbuchungen und wählen sie *Aktion > Export*. Wählen sie diese Felder:
 
 * Lagerbuchung/Lieferadresse
 * Produkt/Referenz
