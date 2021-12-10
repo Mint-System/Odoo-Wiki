@@ -15,7 +15,6 @@ Ihre Buchhaltung einfach und korrekt.
 | [Finanzen Berichte](Finanzen%20Berichte.md)                     | Finanzberichte erstellen.                                 |
 | [Finanzen Kostenrechnung](Finanzen%20Kostenrechnung.md)         | Kosten analysieren und Budget plannen.                    |
 
-
 | Erweiterung                                                                   | Beschreibung                                                      |
 | ----------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)             | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren. |
@@ -148,3 +147,7 @@ Standardmässig werden die Kontoarten nicht angezeigt. Damit diese angezeigt wer
 Auf jedem Journal vom Typ *Bank* oder *Kasse/Bank* ist hinterlegt welches Konto für die ausstehende Zahlungen bzw. Zahlungsbestätigungen verwendet werden sollen.
 
 Öffnen sie *Finanzen > Konfiguration > Journale > Journal auswählen* und zeigen sie den Tab *Payments Configuration* an. Hier können sie die Konten für die Zahlungen festlegen.
+
+## Unversendete Recchnungen anzeigen
+
+Navigieren sie nach *Finanzen > Kunden > Rechnungen* und wählen sie *Filter > Benutzerdefinierten Filter hinzufügen*. Als Feld definieren sie *Rechnung Verschickt* mit Bedingung *Ist falsch*. Nun erhalten sie alle unversendeneten Rechnungen.
