@@ -158,3 +158,7 @@ for rec in self:
 Dieser Code berechnet abhängig von der gewählten Verpackung und deren Füllmenge die Anzahl Kisten. Mit Python-Code können sie natürlich jegliche Logik für die Berechnung entwickeln.
 
 ![](assets/Entwicklung%20Berechnetes%20Feld.png)
+
+## Externe IDs anzeigen
+
+Odoo speichert alle externen IDs in einer Tabelle. Öffnen sie *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Externe Identifikationen*.
