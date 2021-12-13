@@ -84,8 +84,8 @@ Hierzu eine Übersicht der wichtigsten Berichte und deren URL:
 | Packvorgänge              | `/report/html/stock.report_picking/$ID`                         |
 | Lieferschein              | `/report/html/stock.report_deliveryslip/$ID`                    |
 | Rechnungen                | `/report/html/account.account.report_invoice_with_payments/$ID` |
-| Vorschau interner Bericht | `/report/html/web.preview_internalreport`                       |
-| Vorschau externer Bericht | `/report/html/web.preview_externalreport`                       |
+| Vorschau interner Bericht | `/report/html/web.preview_internalreport/$ID`                   |
+| Vorschau externer Bericht | `/report/html/web.preview_externalreport/$ID`                   |
 
 ::: tip
 Bestimmte Bericht können mehere Dokumente anzeigen. Für die HTML-Anzeige können sie die Dokument-IDs Komma-getrennt übergeben: /report/html/**stock.report_deliveryslip**/**3,4,5**
