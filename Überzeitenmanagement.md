@@ -3,6 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
+[🔗 Anwesenheitszeiten](Anwesenheitszeiten.md)
 # Überzeitenmanagement
 ![](assets/icon_syscoon_hr_attendance.png)
 

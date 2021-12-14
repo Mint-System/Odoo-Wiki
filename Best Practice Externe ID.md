@@ -1,3 +1,8 @@
+---
+tags:
+- Best-Practice
+---
+[🔗 Best Practice](Best%20Practice.md)
 # Best-Practice: Externe ID
 
 Die externe ID / XML-ID ist in Odoo sinngemäss eine UUID (Universal Unique Identifier). Sie hilft Datensätze auch ausserhalb des Systems eindeutig zu identifizieren.

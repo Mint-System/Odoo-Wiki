@@ -3,6 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
+[🔗 Verkauf](Verkauf.md)
 # Sale Blanket Order
 ![icon_oca_app](assets/icon_oca_app.png)
 

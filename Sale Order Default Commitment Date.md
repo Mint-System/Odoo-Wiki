@@ -3,7 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-
+[🔗 Verkauf](Verkauf.md)
 # Sale Order Default Commitment Date
 ![icon_oms_box](assets/icon_oms_box.png)
 

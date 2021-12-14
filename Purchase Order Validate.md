@@ -3,6 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
+[🔗 Einkauf](Einkauf.md)
 # Purchase Order Validate
 ![icon_oms_box](assets/icon_oms_box.png)
 

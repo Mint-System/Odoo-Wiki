@@ -3,6 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
+[🔗 Einstellungen](Einstellungen.md)
 # Impersonate
 ![](assets/icon_odoo_impersonate.png)
 

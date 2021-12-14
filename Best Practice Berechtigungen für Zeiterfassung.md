@@ -2,6 +2,7 @@
 tags:
 - Best-Practice
 ---
+[🔗 Best Practice](Best%20Practice.md)
 # Best Practice: Berechtigungen für Zeiterfassung
 
 #FIXME 

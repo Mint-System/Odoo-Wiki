@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-
+[🔗 Verkauf](Verkauf.md)
 # Verkauf Stammdaten
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 

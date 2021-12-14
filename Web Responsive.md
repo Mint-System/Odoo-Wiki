@@ -3,6 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
+[🔗 Einstellungen](Einstellungen.md)
 # Web Responsive
 ![icon_oca_app](assets/icon_oca_app.png)
 

@@ -2,6 +2,7 @@
 tags:
 - HowTo
 ---
+[🔗 Odoo Mobile App](Odoo%20Mobile%20App.md)
 # mERP Mobile App
 ![](assets/odoo_icon_merp.png)
 

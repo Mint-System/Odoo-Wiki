@@ -3,7 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-
+[🔗 Personalabrechnung](Personalabrechnung.md)
 # Payroll Customizations Giordano
 ![](assets/odoo_icon_gioardano.png)
 

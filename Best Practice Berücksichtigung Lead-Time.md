@@ -2,6 +2,7 @@
 tags:
 - Best-Practice
 ---
+[🔗 Best Practice](Best%20Practice.md)
 # Best Practice: Berücksichtigung Lead-Time
 
 ## Beispiel 1

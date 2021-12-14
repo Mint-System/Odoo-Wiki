@@ -3,6 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
+[🔗 Kontakte](Kontakte.md)
 # Partner Contact Department
 ![icon_oca_app](assets/icon_oca_app.png)
 

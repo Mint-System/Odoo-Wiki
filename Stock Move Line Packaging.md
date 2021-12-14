@@ -3,6 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
+[🔗 Lager](Lager.md)
 # Stock Move Line Packaging
 ![icon_oms_box](assets/icon_oms_box.png)
 

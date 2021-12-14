@@ -3,6 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
+[🔗 Lager](Lager.md)
 # Stock Production Lot Active
 ![icon_oca_app](assets/icon_oca_app.png)
 

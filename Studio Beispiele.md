@@ -2,6 +2,7 @@
 tags:
 - HowTo
 ---
+[🔗 Studio](Studio.md)
 # Studio Beispiele
 ![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)
 

@@ -2,6 +2,7 @@
 tags:
 - HowTo
 ---
+[🔗 Lager](Lager.md)
 # Handscanner Zebra TC21
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 

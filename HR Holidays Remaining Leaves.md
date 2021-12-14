@@ -3,6 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
+[🔗 Personal](Personal.md)
 # HR Holidays Remining Leaves
 ![icon_oms_box](assets/icon_oms_box.png)
 
