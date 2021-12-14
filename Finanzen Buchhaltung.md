@@ -16,6 +16,10 @@ Zeigen sie *Finanzen > Finanzen > Sonstiges > Buchungssätze* an. Legen sie eine
 
 Speichern sie den Buchungssatz und wählen sie *Buchen*, wenn alle Angaben stimmen.
 
+## Eröffnungsbuchung hinzufügen
+
+
+
 ## Kontenplan einrichten
 
 Öffnen sie die Finanz-App und richten Sie den Standard-Kontenplan ein. Navigieren sie nach *Finanzen > Konfiguration > Finanzen > Kontenplan*.

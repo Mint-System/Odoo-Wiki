@@ -23,7 +23,6 @@ Maximieren sie die Effizienz Ihres Lagers.
 | [Stock Move Line Packaging](Stock%20Move%20Line%20Packaging.md)     | Verknüpfen der Verpackung von Verkaufsauftrag.                                                              |
 | [Stock Barcode Packaging](Stock%20Barcode%20Packaging.md)           | Verpackung auf Strichcode-Vorgang anzeigen.                                                                                                            |
 
-
 ## Erweiterte Vorgangstypen einrichten
 
 Wenn in den Einstellungen für das Lager die Option *Mehrstufige Routen* eingeschaltet wird, erweitert sich die Liste der Vorgangstypen mit *Interne Transfers*. Die neue Liste zeigt sich wie folgt:
@@ -67,7 +66,7 @@ Für Produkte in Lots oder Produkte mit Seriennummer könne sie ein Ablaufdatum 
 
 Die Sicherheitsvorlaufzeiten können sie zentral unter *Einstellungen > Lager > Erweiterte Planung* festlegen. Aktivieren sie für jeweilige Vorlaufzeit die Checkbox und tragen sie die gewünschten Zeiten ein
 
-## Bordereau-Export erstellen
+## Bordero-Export erstellen
 
 Öffnen sie *Lager > Berichtswesen > Produktlieferungen*. Filtern sie die Daten wie  folgt:
 

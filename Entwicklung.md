@@ -163,3 +163,24 @@ Dieser Code berechnet abhängig von der gewählten Verpackung und deren Füllmen
 ## Externe IDs anzeigen
 
 Odoo speichert alle externen IDs in einer Tabelle. Öffnen sie *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Externe Identifikationen*.
+
+## Externe ID erfassen
+
+Zeigen sie einen beliebigen Datensatz in der Formularansicht an. Als Beispiel verwenden wir eine Ansicht. Entnehmen sie anhand der Url die *ID* und das *Datenmodell*.
+
+/web#id=**1639**&action=28&model=**ir.ui.view**&view_type=form&cids=1&menu_id=4
+
+Navigieren sie nun nach *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Externe Identifikationen* und legen sie einen Eintrag an:
+
+* **Modul**: Technischer Name des Odoo-Moduls
+* **Externe Identifikation**: Eindeutiger Bezeichner
+* **Modellname**: Angabe Gemäss Url
+* **Datensatz-ID**: Angabe Gemäss Url
+
+Dazu die Angaben aus dem Beispiel:
+
+![](assets/Entwicklung%20Externe%20ID%20erfassen.png)
+
+Ist die *Externe Identifikation* gespeichert, wird sie auf Datensatz angezeigt.
+
+![](assets/Entwicklung%20Externe%20Ansicht%20Beispiel.png)
