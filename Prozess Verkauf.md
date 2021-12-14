@@ -1,8 +1,8 @@
 ---
 tags:
 - Prozess
+prev: ./referenzsystem
 ---
-[> Referenzsystem](Referenzsystem.md)
 # Prozess Verkauf
 
 ## Angebot zu Auftrag

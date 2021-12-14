@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - OCA
+prev: ./projekt
 ---
-[> Projekt](Projekt.md)
 # Project Task Dependencies
 ![icon_oca_app](assets/icon_oca_app.png)
 

@@ -1,8 +1,8 @@
 ---
 tags:
 - HowTo
+prev: ./einstellungen
 ---
-[> Einstellungen](Einstellungen.md)
 # Einstellungen Login
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 

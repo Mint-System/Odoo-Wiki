@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - OCA
+prev: ./entwicklung
 ---
-[> Entwicklung](Entwicklung.md)
 # Web Timeline
 ![icon_oca_app](assets/icon_oca_app.png)
 

@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - OCA
+prev: ./kontakte
 ---
-[> Kontakte](Kontakte.md)
 # Partner Contact Department
 ![icon_oca_app](assets/icon_oca_app.png)
 

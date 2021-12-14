@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./fertigung
 ---
-[> Fertigung](Fertigung.md)
 # MRP Documents Share
 ![](assets/icon_odoo_mrp_documents_share.png)
 

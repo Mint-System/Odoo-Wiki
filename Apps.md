@@ -1,8 +1,8 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
-[> Home](/)
 # Apps
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 

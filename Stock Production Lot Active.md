@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - OCA
+prev: ./lager
 ---
-[> Lager](Lager.md)
 # Stock Production Lot Active
 ![icon_oca_app](assets/icon_oca_app.png)
 

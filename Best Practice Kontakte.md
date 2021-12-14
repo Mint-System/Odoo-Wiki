@@ -1,8 +1,8 @@
 ---
 tags:
 - Best-Practice
+prev: ./best-practice
 ---
-[> Best Practice](Best%20Practice.md)
 # Best Practice: Kontakte
 
 Odoo unterscheidet *Einzelperson* und *Unternehmen*. Eine Person kann einem Unternehmen zugeordnet werden. Einem Unternehmen können mehrere Personen zugeordnet werden.

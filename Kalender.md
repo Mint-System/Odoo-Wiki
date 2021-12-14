@@ -1,8 +1,8 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
-[> Home](/)
 # Kalender
 ![icons_odoo_calendar](assets/icons_odoo_calendar.png)
 

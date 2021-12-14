@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - OCA
+prev: ./finanzen
 ---
-[> Finanzen](Finanzen.md)
 # Switzerland - Bank type
 ![icon_oca_app](assets/icon_oca_app.png)
 

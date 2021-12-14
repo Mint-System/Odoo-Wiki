@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./projekt
 ---
-[> Projekt](Projekt.md)
 # Project Task Dependency Counter
 ![icon_oms_box](assets/icon_oms_box.png)
 

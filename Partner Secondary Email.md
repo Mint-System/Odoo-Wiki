@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./kontakte
 ---
-[> Kontakte](Kontakte.md)
 # Partner Secondary Email
 ![](assets/icon_oms_box.png)
 

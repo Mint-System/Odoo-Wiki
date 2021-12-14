@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./personal
 ---
-[> Personal](Personal.md)
 # HR Shortname
 ![](assets/icon_odoo_hr_shortname.png)
 

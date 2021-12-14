@@ -1,8 +1,8 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
-[> Home](/)
 # Fleet
 ![icons_odoo_fleet](assets/icons_odoo_fleet.png)
 

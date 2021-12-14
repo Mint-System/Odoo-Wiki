@@ -1,8 +1,8 @@
 ---
 tags:
 - Best-Practice
+prev: ./
 ---
-[> Home](/)
 # Best Practice
 
 Beschreibt wie man bestimmte Anwendungsfälle in Odoo implementiert.

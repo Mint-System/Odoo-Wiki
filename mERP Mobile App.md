@@ -1,8 +1,8 @@
 ---
 tags:
 - HowTo
+prev: ./odoo-mobile-app
 ---
-[> Odoo Mobile App](Odoo%20Mobile%20App.md)
 # mERP Mobile App
 ![](assets/odoo_icon_merp.png)
 

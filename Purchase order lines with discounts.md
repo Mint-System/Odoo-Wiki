@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - OCA
+prev: ./einkauf
 ---
-[> Einkauf](Einkauf.md)
 # Purchase order lines with discounts
 ![icon_oca_app](assets/icon_oca_app.png)
 

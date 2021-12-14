@@ -1,8 +1,8 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
-[> Home](/)
 # Verkauf
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 

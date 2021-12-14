@@ -1,8 +1,8 @@
 ---
 tags:
 - Prozess
+prev: ./referenzsystem
 ---
-[> Referenzsystem](Referenzsystem.md)
 # Prozess Beschaffung
 
 ![Prozess Beschaffung](assets/Prozess%20Beschaffung.svg)

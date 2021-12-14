@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./fertigung
 ---
-[> Fertigung](Fertigung.md)
 # Product Type Description
 ![icon_oms_box](assets/icon_oms_box.png)
 

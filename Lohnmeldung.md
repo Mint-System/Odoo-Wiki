@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./personalabrechnung
 ---
-[> Personalabrechnung](Personalabrechnung.md)
 # Lohnmeldung
 ![](assets/odoo_icon_gioardano.png)
 

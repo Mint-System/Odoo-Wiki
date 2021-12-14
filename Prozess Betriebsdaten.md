@@ -1,8 +1,8 @@
 ---
 tags:
 - Prozess
+prev: ./referenzsystem
 ---
-[> Referenzsystem](Referenzsystem.md)
 # Prozess Betriebsdaten
 
 ![Prozess Betriebsdaten](assets/Prozess%20Betriebsdaten.svg)

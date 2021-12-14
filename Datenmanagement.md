@@ -1,8 +1,8 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
-[> Home](/)
 # Datenmanagement
 ![icons_odoo_website_sale_options](assets/icons_odoo_website_sale_options.png)
 

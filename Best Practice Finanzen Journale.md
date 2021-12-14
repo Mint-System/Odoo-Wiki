@@ -1,8 +1,8 @@
 ---
 tags:
 - Best-Practice
+prev: ./best-practice
 ---
-[> Best Practice](Best%20Practice.md)
 # Best Practice: Journale
 
 Für die Finanzbuchhaltung müssen vor der ersten Buchung Journale definiert werden. Navigieren Sie nach *Finanzen > Konfiguration > Abrechnung > Journale*. Passen sie die bestehenden Journale an.

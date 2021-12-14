@@ -1,8 +1,8 @@
 ---
 tags:
 - HowTo
+prev: ./website
 ---
-[> Website](Website.md)
 # Website eCommerce
 ![](assets/icons_odoo_website_sale.png)
 

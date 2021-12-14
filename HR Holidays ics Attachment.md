@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./personal
 ---
-[> Personal](Personal.md)
 # HR Holidays .ics Attachment
 ![icon_oms_box](assets/icon_oms_box.png)
 

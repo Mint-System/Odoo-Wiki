@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./fertigung
 ---
-[> Fertigung](Fertigung.md)
 # Cancel Manufacturing Order
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 

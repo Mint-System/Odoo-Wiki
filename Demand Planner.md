@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./lager
 ---
-[> Lager](Lager.md)
 # Demand Planner
 ![](assets/odoo_icon_demand_planner.png)
 

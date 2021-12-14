@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./personal
 ---
-[> Personal](Personal.md)
 # HR Holidays Leave Archive
 ![icon_oms_box](assets/icon_oms_box.png)
 

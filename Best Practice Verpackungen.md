@@ -1,8 +1,8 @@
 ---
 tags:
 - Best-Practice
+prev: ./best-practice
 ---
-[> Best Practice](Best%20Practice.md)
 # Best Practice: Verpackungen
 
 Folgende zwei Bedeutungen sind im Zusammenhang mit dem Verpacken zu beachten:

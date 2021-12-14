@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./verkauf
 ---
-[> Verkauf](Verkauf.md)
 # Blanket Sale Order
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 

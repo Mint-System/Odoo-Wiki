@@ -1,8 +1,8 @@
 ---
 tags:
 - Best-Practice
+prev: ./best-practice
 ---
-[> Best Practice](Best%20Practice.md)
 # Best Practice: Odoo Datenmanagement
 
 Beim Import von Daten besteht keine grosse Flexibilität. Entsprechend hoch muss die Datenqualität vor dem Import sein.

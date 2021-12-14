@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./verkauf
 ---
-[> Verkauf](Verkauf.md)
 # Sale Order Line Position
 ![icon_oms_box](assets/icon_oms_box.png)
 

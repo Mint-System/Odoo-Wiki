@@ -1,8 +1,8 @@
 ---
 tags:
 - Best-Practice
+prev: ./best-practice
 ---
-[> Best Practice](Best%20Practice.md)
 # Best Practice: SEPA-Zahlung
 
 Damit sie SEPA-Zahungen erfassen können, müssen sie die [SEPA-Zahlmethode aktiveren](Finanzen%20Zahlungen.md#SEPA-Zahlmethode%20aktiveren).

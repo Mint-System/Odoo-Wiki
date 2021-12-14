@@ -1,8 +1,8 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
-[> Home](/)
 # Anwesenheitszeiten
 ![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)
 

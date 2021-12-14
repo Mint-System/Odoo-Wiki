@@ -1,8 +1,8 @@
 ---
 tags:
 - HowTo
+prev: ./lager
 ---
-[> Lager](Lager.md)
 # Handscanner Zebra DS22
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 

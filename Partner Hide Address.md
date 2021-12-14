@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./kontakte
 ---
-[> Kontakte](Kontakte.md)
 # Partner Hide Address
 ![](assets/icon_oms_box.png)
 

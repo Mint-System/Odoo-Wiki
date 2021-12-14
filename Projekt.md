@@ -1,8 +1,8 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
-[> Home](/)
 # Projekt
 ![icons_odoo_project](assets/icons_odoo_project.png)
 

@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./personal
 ---
-[> Personal](Personal.md)
 # HR Birthday Calender
 ![](assets/icon_hr_birthday_calendar.png)
 

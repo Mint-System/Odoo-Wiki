@@ -1,8 +1,8 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
-[> Home](/)
 # Link Tracker
 ![icons_odoo_website_partner](assets/icons_odoo_website_partner.png)
 

@@ -1,8 +1,8 @@
 ---
 tags:
 - HowTo
+prev: ./finanzen
 ---
-[> Finanzen](Finanzen.md)
 # Finanzen Zahlungen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 

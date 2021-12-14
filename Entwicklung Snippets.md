@@ -1,8 +1,8 @@
 ---
 tags:
 - HowTo
+prev: ./entwicklung
 ---
-[> Entwicklung](Entwicklung.md)
 # Entwicklung Snippets
 ![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)
 

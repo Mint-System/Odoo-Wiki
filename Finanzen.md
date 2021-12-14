@@ -1,8 +1,8 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
-[> Home](/)
 # Finanzen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 

@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - OCA
+prev: ./entwicklung
 ---
-[> Entwicklung](Entwicklung.md)
 # Mass Editing
 ![icon_oca_app](assets/icon_oca_app.png)
 

@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./personalabrechnung
 ---
-[> Personalabrechnung](Personalabrechnung.md)
 # Payroll Customizations Giordano
 ![](assets/odoo_icon_gioardano.png)
 

@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./iot
 ---
-[> IoT](IoT.md)
 # Odoo Direct Print
 ![](assets/icons_odoo_printnode_base.png)
 

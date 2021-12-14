@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./fertigung
 ---
-[> Fertigung](Fertigung.md)
 # Product Name Sequence
 ![](assets/icon_product_name_sequence.png)
 

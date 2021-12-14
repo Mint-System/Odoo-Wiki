@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - OCA
+prev: ./personal
 ---
-[> Personal](Personal.md)
 # HR Holidays Public
 ![icon_oca_app](assets/icon_oca_app.png)
 

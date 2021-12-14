@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./fertigung
 ---
-[> Fertigung](Fertigung.md)
 # Product Country of Origin
 ![](assets/odoo_icon_product_country_of_origin.png)
 

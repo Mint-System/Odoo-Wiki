@@ -1,8 +1,8 @@
 ---
 tags:
 - Best-Practice
+prev: ./best-practice
 ---
-[> Best Practice](Best%20Practice.md)
 # Best Practice: Material Reservierung
 
 Das Beispiel der Fertigung von [Rahmen unbeschichtet](Best%20Practice%20Fertigungsplanung.md#Beispiel%20Fertigungsauftrag%20Rahmen%20unbeschichtet) zeigt eine dreistufige Produktionsplanung.

@@ -1,8 +1,8 @@
 ---
 tags:
 - Best-Practice
+prev: ./best-practice
 ---
-[> Best Practice](Best%20Practice.md)
 # Best Practice: Materialbezug in Vorgängen
 
 In der Bearbeitung von Stücklisten bietet die Funktion *Flexible Consumption* im Register *Sonstiges* die folgenden drei Optionen:

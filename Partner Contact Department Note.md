@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./kontakte
 ---
-[> Kontakte](Kontakte.md)
 # Partner Contact Department Note
 ![icon_oms_box](assets/icon_oms_box.png)
 
