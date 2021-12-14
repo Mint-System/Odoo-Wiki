@@ -5,7 +5,7 @@ tags:
 # Finanzen Zahlungen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
-SEPA-Zahlungen mit Odoo Finanzen abwickeln.
+SEPA- und QR-Zahlungen mit Odoo Finanzen abwickeln.
 
 ## SEPA-Zahlung aktivieren
 
@@ -42,7 +42,17 @@ Um eine Zahlung zu exportieren, klicken sie auf *Finanzen > X Über SEPA zu send
 
 Wählen sie *Zahlung Erfassen*. Schliessen sie den Dialog. Nun wird für jede Rechnung eine Zahlung generiert.
 
-## Rechnung auf einer Kostenstelle belasten
+## QR-IBAN speichern
 
-Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an. Auf der Rechnungszeile können sie eine Kostenstelle in der entsprechenden Spalte festlegen.
+Zur Speicherung der QR-IBAN gibt es auf dem Bankkonto ein entsprechendes Feld. Navigieren sie nach *Finanzen > Konfiguraiton > Bankkonten*, wählen sie das Bankkonto aus und tragen sie im Feld *QR-IBAN* die Nummer ein.
 
+## QR-Code Zahlungstyp festlegen
+
+Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an und öffnen sie den Tab *Weitere Informationen*. Im Feld *Payment QR-code* ist die Methode zum Generieren des QR-Codes festgelegt.
+
+## Ausgehende Zahlung für mehrere Rechnungen erfassen
+Im App Finanzen in der Ansicht *Finanzen >  Lieferanten > Rechnung* den Fiilter *Nicht bezahlt* setzen. Die zu zahhlenden Rechnungen links markieren und *Zahlung erfassen* auswählen. 
+
+![](assets/Finanzen%20Sepa%20Zahlung%20erfassen.png)
+
+Für jede Rechnung wird eine SEPA-Zahlung angelegt.

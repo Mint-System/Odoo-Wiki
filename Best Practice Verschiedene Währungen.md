@@ -8,7 +8,7 @@ Odoo unterstützt mehre Währungssätze und kann deren Kurs automatisch abrufen.
 
 ## Verkauf in verschiedenen Währungen
 
-Verkaufspreise in einem Angebot können von der Standardwährung abweichen. Dazu muss die Option [Mehrere Währungen](Finanzen.md#Mehrere%20W%C3%A4hrungen) eingeschaltet sein.
+Verkaufspreise in einem Angebot können von der Standardwährung abweichen. Dazu müssen sie die Option [Mehrere Währungen aktivieren](Finanzen%20Mehrere%20Währungen.md#Mehrere%20Währungen%20aktivieren).
 
 ### Preislisten
 
@@ -32,8 +32,8 @@ Die Nummerierung der Rechnungen folgt einem Nummernkreis pro Journal. Es ist des
 ### Kontos
 
 Die benötigten Kontos *Standard-Sollkonto* und *Standard-Habenkonto* müssen ebenfalls ergänzt werden. Zum Beispiel:
-- 3201 Handelserlös EUR
-- 3202 Handelserlös USD
+* 3201 Handelserlös EUR
+* 3202 Handelserlös USD
 
 ### Angebot erstellen
 
