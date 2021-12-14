@@ -2,6 +2,7 @@
 tags:
 - HowTo
 ---
+[🔗 README](README.md)
 # Finanzen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 

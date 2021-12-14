@@ -2,6 +2,7 @@
 tags:
 - HowTo
 ---
+[🔗 Finanzen](Finanzen.md)
 # Bank Account Camt54 Import
 ![icon_oca_app](assets/icon_oca_app.png)
 

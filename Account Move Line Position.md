@@ -3,6 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
+[🔗 Finanzen](Finanzen.md)
 ## Account Move Line Position
 ![icon_oms_box](assets/icon_oms_box.png)
 

@@ -2,6 +2,7 @@
 tags:
 - HowTo
 ---
+[🔗 Finanzen](Finanzen.md)
 # Finanzen Mehrere Währungen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 

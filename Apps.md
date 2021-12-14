@@ -2,6 +2,7 @@
 tags:
 - HowTo
 ---
+[🔗 README](README.md)
 # Apps
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 
