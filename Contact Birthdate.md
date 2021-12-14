@@ -3,6 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
+[🔗 Kontakte](Kontakte.md)
 # Contact's birthdate
 ![icon_oca_app](assets/icon_oca_app.png)
 

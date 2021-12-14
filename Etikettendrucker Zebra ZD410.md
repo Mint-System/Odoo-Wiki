@@ -1,3 +1,8 @@
+---
+tags:
+- HowTo
+---
+[🔗 IoT](IoT.md)
 # Etikettendrucker Zebra ZD410
 ![icons_odoo_iot](assets/icons_odoo_iot.png)
 

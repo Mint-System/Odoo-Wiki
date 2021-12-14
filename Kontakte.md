@@ -2,6 +2,7 @@
 tags:
 - HowTo
 ---
+[🔗 Home](/)
 # Kontakte
 ![icons_odoo_contacts](assets/icons_odoo_contacts.png)
 

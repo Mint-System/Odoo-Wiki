@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 README](README.md)
+[🔗 Home](/)
 # Anwesenheitszeiten
 ![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)
 

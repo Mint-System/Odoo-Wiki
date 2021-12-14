@@ -1,7 +1,8 @@
-E---
+---
 tags:
 - HowTo
 ---
+[🔗 Einstellungen](Einstellungen.md)
 # Einstellungen Übersetzungen
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 

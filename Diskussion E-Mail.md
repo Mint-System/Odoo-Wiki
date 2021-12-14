@@ -2,6 +2,7 @@
 tags:
 - HowTo
 ---
+[🔗 Diskussion](Diskussion.md)
 # Diskussion E-Mail
 ![icons_odoo_mail](assets/icons_odoo_mail.png)
 

@@ -2,6 +2,7 @@
 tags:
 - HowTo
 ---
+[🔗 Home](/)
 # Personal
 ![icons_odoo_hr](assets/icons_odoo_hr.png)
 

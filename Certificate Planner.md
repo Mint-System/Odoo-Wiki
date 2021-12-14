@@ -3,7 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-[🔗 README](README.md)
+[🔗 Home](/)
 # Certificate Planner
 ![](assets/icon_odoo_certificate_planer.png)
 

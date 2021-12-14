@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 README](README.md)
+[🔗 Home](/)
 # Datenbankmanager
 ![icons_odoo_website_version](assets/icons_odoo_website_version.png)
 

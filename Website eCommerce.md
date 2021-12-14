@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-# eCommerce
+# Website eCommerce
 ![](assets/icons_odoo_website_sale.png)
 
 Webshop ohne Integrationsaufwand.

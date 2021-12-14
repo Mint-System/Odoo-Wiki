@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-
+[🔗 Home](/)
 # Zeiterfassung
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
 

@@ -2,6 +2,7 @@
 tags:
 - HowTo
 ---
+[🔗 Home](/)
 # Einkauf
 ![icons_odoo_purchase](assets/icons_odoo_purchase.png)
 

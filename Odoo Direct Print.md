@@ -3,7 +3,6 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-
 # Odoo Direct Print
 ![](assets/icons_odoo_printnode_base.png)
 

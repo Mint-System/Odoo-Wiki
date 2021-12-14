@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 README](README.md)
+[🔗 Home](/)
 # Abrechnung
 
 Online Rechnungsstellung leicht gemacht.

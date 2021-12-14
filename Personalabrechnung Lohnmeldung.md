@@ -3,7 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-# Lohnmeldung
+# Personalabrechnung Lohnmeldung
 ![](assets/odoo_icon_gioardano.png)
 
 Lohnmeldungen ganz einfach generieren.

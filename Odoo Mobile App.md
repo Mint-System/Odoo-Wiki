@@ -2,6 +2,7 @@
 tags:
 - HowTo
 ---
+[🔗 Home](/)
 # Odoo Mobile App
 ![](assets/icons_odoo_app.png)
 

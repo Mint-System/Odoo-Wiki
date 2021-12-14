@@ -2,6 +2,7 @@
 tags:
 - HowTo
 ---
+[🔗 Home](/)
 # Personalabrechnung
 ![icons_odoo_hr_payroll](assets/icons_odoo_hr_payroll.png)
 
@@ -10,7 +11,7 @@ Personalbrechnungen schnell und einfach erstellen.
 | Erweiterung                                                           | Beschreibung                                 |
 | --------------------------------------------------------------------- | -------------------------------------------- |
 | [Payroll Customizations Giordano](Payroll%20Customizations%20Giordano.md) | Lohnabrechnung nach Schweizer Anforderungen. |
-| [Lohnmeldung](Lohnmeldung.md)                                         | Lohnmeldungen ganz einfach generieren.       |
+| [Personalabrechnung Lohnmeldung](Personalabrechnung%20Lohnmeldung.md)                                         | Lohnmeldungen ganz einfach generieren.       |
 
 ## Pesonalabrechnung initialisieren
 

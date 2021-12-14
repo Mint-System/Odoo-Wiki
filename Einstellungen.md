@@ -2,6 +2,7 @@
 tags:
 - HowTo
 ---
+[🔗 Home](/)
 # Einstellungen
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 

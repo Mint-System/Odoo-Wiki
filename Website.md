@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-
+[🔗 Home](/)
 # Website
 ![icons_odoo_website](assets/icons_odoo_website.png)
 
@@ -10,7 +10,7 @@ Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 
 | Erweiterung               | Beschreibung                      |
 | ------------------------- | --------------------------------- |
-| [eCommerce](eCommerce.md) | Webshop ohne Integrationsaufwand. |
+| [Website eCommerce](Website%20eCommerce.md) | Webshop ohne Integrationsaufwand. |
 
 ## Zugriff Menu beschränken
 
