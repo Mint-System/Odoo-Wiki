@@ -3,7 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-[🔗 Sale Blanket Order](Sale%20Blanket%20Order.md)
+[> Sale Blanket Order](Sale%20Blanket%20Order.md)
 # Sale Blanket Order Contact Person
 ![icon_oms_box](assets/icon_oms_box.png)
 

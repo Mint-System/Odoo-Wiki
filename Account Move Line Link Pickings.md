@@ -3,7 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-[🔗 Finanzen](Finanzen.md)
+[> Finanzen](Finanzen.md)
 # Account Move Line Link Pickings
 ![icon_oms_box](assets/icon_oms_box.png)
 

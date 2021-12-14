@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 Home](/)
+[> Home](/)
 # Data Cleaning
 ![](assets/icon_odoo_data_cleaning.png)
 

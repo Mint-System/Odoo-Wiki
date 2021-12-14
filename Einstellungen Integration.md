@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 Einstellungen](Einstellungen.md)
+[> Einstellungen](Einstellungen.md)
 # Einstellungen Integration
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 

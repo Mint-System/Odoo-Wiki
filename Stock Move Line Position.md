@@ -3,7 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-[🔗 Lager](Lager.md)
+[> Lager](Lager.md)
 # Stock Move Line Position
 ![icon_oms_box](assets/icon_oms_box.png)
 

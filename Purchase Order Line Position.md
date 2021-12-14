@@ -3,7 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-[🔗 Einkauf](Einkauf.md)
+[> Einkauf](Einkauf.md)
 # Purchase Order Line Position
 ![icon_oms_box](assets/icon_oms_box.png)
 

@@ -2,7 +2,7 @@
 tags:
 - Best-Practice
 ---
-[🔗 Best Practice](Best%20Practice.md)
+[> Best Practice](Best%20Practice.md)
 # Best Practice: Item Structure
 
 Ein Produkt (Item) besteht aus 0-n Unterprodukten. Jedes kann produziert (Make Item) oder eingekauft werden (Buy Item). Für die Herstellung eines Produktes benötigt man:

@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 Home](/)
+[> Home](/)
 # Abrechnung
 
 Online Rechnungsstellung leicht gemacht.

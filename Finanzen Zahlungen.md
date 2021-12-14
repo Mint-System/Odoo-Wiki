@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 Finanzen](Finanzen.md)
+[> Finanzen](Finanzen.md)
 # Finanzen Zahlungen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 

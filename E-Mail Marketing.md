@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 Home](/)
+[> Home](/)
 # E-Mail-Marketing
 ![icons_odoo_mass_mailing](assets/icons_odoo_mass_mailing.png)
 

@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 Home](/)
+[> Home](/)
 # Dokumente
 ![icon_odoo_document_inbox](assets/icon_odoo_document_inbox.png)
 

@@ -3,7 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
-[🔗 Fertigung](Fertigung.md)
+[> Fertigung](Fertigung.md)
 # Product Sequence
 ![icon_oca_app](assets/icon_oca_app.png)
 

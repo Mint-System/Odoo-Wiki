@@ -2,7 +2,7 @@
 tags:
 - Best-Practice
 ---
-[🔗 Best Practice](Best%20Practice.md)
+[> Best Practice](Best%20Practice.md)
 # Best Practice: Mengeneinheiten
 
 ## Bedingung für Transfer der Mengenheit

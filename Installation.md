@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 Home](/)
+[> Home](/)
 # Installation
 ![icons_odoo_website_version](assets/icons_odoo_website_version.png)
 

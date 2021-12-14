@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 Lager](Lager.md)
+[> Lager](Lager.md)
 # Lager Verpackungen
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 

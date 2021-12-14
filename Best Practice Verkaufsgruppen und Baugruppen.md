@@ -2,7 +2,7 @@
 tags:
 - Best-Practice
 ---
-[🔗 Best Practice](Best%20Practice.md)
+[> Best Practice](Best%20Practice.md)
 # Best Practice: Verkaufsgruppen und Baugruppen
 
 Odoo bildet die Produkte zur Fertigung in folgenden Schema ab:

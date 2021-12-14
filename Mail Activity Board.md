@@ -3,7 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
-[🔗 Dashboards](Dashboards.md)
+[> Dashboards](Dashboards.md)
 # Mail Activity Board
 ![icon_oca_app](assets/icon_oca_app.png)
 

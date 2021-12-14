@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 Home](/)
+[> Home](/)
 # Persönliche Einstellungen
 ![icons_odoo_membership](assets/icons_odoo_membership.png)
 

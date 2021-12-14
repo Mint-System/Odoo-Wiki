@@ -2,7 +2,7 @@
 tags:
 - Best-Practice
 ---
-[🔗 Best Practice](Best%20Practice.md)
+[> Best Practice](Best%20Practice.md)
 # Best Practice: Verschiedene Währungen
 
 Odoo unterstützt mehre Währungssätze und kann deren Kurs automatisch abrufen. Zum Zeitpunkt eines Einkaufs oder eines Verkaufs wird der aktuelle Währungskurs abgefragt und festgehalten. Erfolgt zu einem späteren Zeitpunkt der Zahlungsabgleich zu einem anderen Kurs, wird die Differenz als Ertrag oder Aufwand verbucht. Der Wechselkurs wird auf dem Auftrag festgehalten.

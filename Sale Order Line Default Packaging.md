@@ -3,7 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-[🔗 Verkauf](Verkauf.md)
+[> Verkauf](Verkauf.md)
 # Sale Order Line Default Packaging
 ![icon_oms_box](assets/icon_oms_box.png)
 

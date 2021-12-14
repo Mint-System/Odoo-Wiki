@@ -3,7 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-[🔗 Einstellungen](Einstellungen.md)
+[> Einstellungen](Einstellungen.md)
 # Show DB Name
 ![icon_oms_box](assets/icon_oms_box.png)
 

@@ -3,7 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
-[🔗 Lager](Lager.md)
+[> Lager](Lager.md)
 # Stock Delivery Note
 ![icon_oca_app](assets/icon_oca_app.png)
 

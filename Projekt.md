@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 Home](/)
+[> Home](/)
 # Projekt
 ![icons_odoo_project](assets/icons_odoo_project.png)
 

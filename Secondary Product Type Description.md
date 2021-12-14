@@ -3,7 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-[🔗 Fertigung](Fertigung.md)
+[> Fertigung](Fertigung.md)
 # Secondary Product Type Description
 ![icon_oms_box](assets/icon_oms_box.png)
 

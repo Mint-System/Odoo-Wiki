@@ -3,7 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
-[🔗 Verkauf](Verkauf.md)
+[> Verkauf](Verkauf.md)
 # Sale Stock Picking Note
 ![icon_oca_app](assets/icon_oca_app.png)
 

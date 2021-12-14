@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 Home](/)
+[> Home](/)
 # Navigation
 ![icons_odoo_website_crm_score](assets/icons_odoo_website_crm_score.png)
 

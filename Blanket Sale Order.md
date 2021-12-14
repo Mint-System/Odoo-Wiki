@@ -3,7 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-[🔗 Verkauf](Verkauf.md)
+[> Verkauf](Verkauf.md)
 # Blanket Sale Order
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 

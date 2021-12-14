@@ -3,7 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
-[🔗 Finanzen](Finanzen.md)
+[> Finanzen](Finanzen.md)
 # Recurring - Contracts Management
 ![icon_oca_app](assets/icon_oca_app.png)
 

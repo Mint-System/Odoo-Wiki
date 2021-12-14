@@ -3,7 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-[🔗 Fertigung](Fertigung.md)
+[> Fertigung](Fertigung.md)
 # Product Barcode Generator
 ![](assets/icon_odoo_product_barcode.png)
 

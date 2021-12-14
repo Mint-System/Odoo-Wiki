@@ -2,7 +2,7 @@
 tags:
 - Prozess
 ---
-[🔗 Referenzsystem](Referenzsystem.md)
+[> Referenzsystem](Referenzsystem.md)
 # Prozess Abrechnung
 
 ## Rechnung aus Verkauf

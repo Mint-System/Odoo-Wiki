@@ -3,7 +3,7 @@ tags:
 - HowTo
 - Drittanbieter
 ---
-[🔗 Kontakte](Kontakte.md)
+[> Kontakte](Kontakte.md)
 # Partner Secondary Name
 ![](assets/icon_oms_box.png)
 

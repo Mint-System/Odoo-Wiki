@@ -3,7 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
-[🔗 Kontakte](Kontakte.md)
+[> Kontakte](Kontakte.md)
 # Base Partner Sequence
 ![icon_oca_app](assets/icon_oca_app.png)
 

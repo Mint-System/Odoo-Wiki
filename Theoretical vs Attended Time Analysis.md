@@ -3,7 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
-[🔗 Anwesenheitszeiten](Anwesenheitszeiten.md)
+[> Anwesenheitszeiten](Anwesenheitszeiten.md)
 # Theoretical vs Attended Time Analysis
 ![icon_oca_app](assets/icon_oca_app.png)
 

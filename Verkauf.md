@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 Home](/)
+[> Home](/)
 # Verkauf
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 

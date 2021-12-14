@@ -3,7 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
-[🔗 Entwicklung](Entwicklung.md)
+[> Entwicklung](Entwicklung.md)
 # Web Timeline
 ![icon_oca_app](assets/icon_oca_app.png)
 

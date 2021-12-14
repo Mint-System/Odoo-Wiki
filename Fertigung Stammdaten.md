@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 Fertigung](Fertigung.md)
+[> Fertigung](Fertigung.md)
 # Fertigung Stammdaten
 ![icons_odoo_mrp](assets/icons_odoo_mrp.png)
 

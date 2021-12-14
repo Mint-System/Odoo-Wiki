@@ -3,7 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
-[🔗 Diskussion](Diskussion.md)
+[> Diskussion](Diskussion.md)
 # URL Attachment
 ![icon_oca_app](assets/icon_oca_app.png)
 

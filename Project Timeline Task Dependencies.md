@@ -3,7 +3,7 @@ tags:
 - HowTo
 - OCA
 ---
-[🔗 Projekt](Projekt.md)
+[> Projekt](Projekt.md)
 # Project Timeline Task Dependencies
 ![icon_oca_app](assets/icon_oca_app.png)
 

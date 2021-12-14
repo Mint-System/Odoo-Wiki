@@ -2,7 +2,7 @@
 tags:
 - Readme
 ---
-[🔗 Home](/)
+[> Home](/)
 # Mitarbeit
 
 In diesem Dokument werden die Vorgaben zur Mitarbeit am Odoo Handbuch erläutert.

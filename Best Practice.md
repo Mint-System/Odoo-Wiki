@@ -2,7 +2,7 @@
 tags:
 - Best-Practice
 ---
-[🔗 Home](/)
+[> Home](/)
 # Best Practice
 
 Beschreibt wie man bestimmte Anwendungsfälle in Odoo implementiert.

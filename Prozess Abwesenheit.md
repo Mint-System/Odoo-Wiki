@@ -2,7 +2,7 @@
 tags:
 - Prozess
 ---
-[🔗 Referenzsystem](Referenzsystem.md)
+[> Referenzsystem](Referenzsystem.md)
 # Prozess Abwesenheit
 
 ![Prozess Abwesenheit](assets/Prozess%20Abwesenheit.svg)

@@ -2,7 +2,7 @@
 tags:
 - HowTo
 ---
-[🔗 Home](/)
+[> Home](/)
 # Odoo.sh
 ![icons_odoo_app](assets/icons_odoo_app.png)  
 
