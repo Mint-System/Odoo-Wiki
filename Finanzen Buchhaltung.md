@@ -52,7 +52,7 @@ Navigieren sie nach *Finanzen > Konfiguration > Kontengruppen* und fügen eine K
 
 ## Kontoarten anzeigen
 
-Standardmässig werden die Kontoarten nicht angezeigt. Damit diese angezeigt werden, muss eine Menüpunkt gemäss [Menüeintrag erstellen](Entwicklung.md#Entwicklung#Menüeintrag%20erstellen)
+Standardmässig werden die Kontoarten nicht angezeigt. Damit diese angezeigt werden, müssen sie ein [Menüeintrag erstellen](Entwicklung.md#Entwicklung#Menüeintrag%20erstellen).
 
 * **Menü**: Kontoarten
 * **Obermenü**: Finanzen/Konfiguration/Finanzen
