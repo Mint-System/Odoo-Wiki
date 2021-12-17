@@ -52,8 +52,14 @@ Zur Speicherung der QR-IBAN gibt es auf dem Bankkonto ein entsprechendes Feld. N
 Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an und öffnen sie den Tab *Weitere Informationen*. Im Feld *Payment QR-code* ist die Methode zum Generieren des QR-Codes festgelegt.
 
 ## Ausgehende Zahlung für mehrere Rechnungen erfassen
-Im App Finanzen in der Ansicht *Finanzen >  Lieferanten > Rechnung* den Fiilter *Nicht bezahlt* setzen. Die zu zahhlenden Rechnungen links markieren und *Zahlung erfassen* auswählen. 
+Im App Finanzen in der Ansicht *Finanzen >  Lieferanten > Rechnung* den Filter *Nicht bezahlt* setzen. Die zu zahhlenden Rechnungen links markieren und *Zahlung erfassen* auswählen. 
 
 ![](assets/Finanzen%20Sepa%20Zahlung%20erfassen.png)
 
 Für jede Rechnung wird eine SEPA-Zahlung angelegt.
+
+## Zahlung mit Rabatt erstellen
+
+Wenn sie für eine Rechnung *Finanzen > Lieferanten > Rechnung* eine Zahlung erfassen, können sie den Zahlungsbetrag mit dem gewährten Rabatt überschreiben. Den Rabatt-Betrag erhalten sie im Tab *Buchungszeilen* unter Berücksichtigung der entsprechenden *Fälligkeit*. Im Dialog *Zahlung erfassen*, geben sie den entsprechenden Betrag ein und wählen für das Feld *Zahlungsdifferenz* die Option *Mark as fully paid*. Geben sie nun das entsprechende Konto für das Skonto ein.
+
+![](assets/Finanzen%20Zahlung%20mit%20Rabatt.png)
