@@ -82,3 +82,7 @@ Zeigen sie das Dashboard von *Finanzen* an. Wählen sie *Import* unter dem Name 
 ![](assets/Finanzen%20Kontoauszug%20importieren.png)
 
 Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Bewebungen wird angezeigt.
+
+## Buchungszeilen ohne Entwicklermodus anzeigen
+
+Das Menü *Buchungszeilen* wird nur im Entwicklermodus angezeigt. Um das Verhalten zu ändern, öffnen sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge*, zeigen den Menüeintrag *Buchungszeilen* an und entfernen im Tab *Zugriffsrechte* die Gruppe. Aktualisieren sie den Browser und verlassen sie den Entwicklermodus. Sie sollten den Menüeintrag nun sehen.
