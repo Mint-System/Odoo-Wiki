@@ -74,3 +74,11 @@ Standardmässig werden die Kontoarten nicht angezeigt. Damit diese angezeigt wer
 Auf jedem Journal vom Typ *Bank* oder *Kasse/Bank* ist hinterlegt welches Konto für die ausstehende Zahlungen bzw. Zahlungsbestätigungen verwendet werden sollen.
 
 Öffnen sie *Finanzen > Konfiguration > Journale > Journal auswählen* und zeigen sie den Tab *Payments Configuration* an. Hier können sie die Konten für die Zahlungen festlegen.
+
+## Kontoauszug importieren
+
+Zeigen sie das Dashboard von *Finanzen* an. Wählen sie *Import* unter dem Name des Bankjournals. Laden sie im Dialog die Datei mit den Kontoauszügen hoch.
+
+![](assets/Finanzen%20Kontoauszug%20importieren.png)
+
+Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Bewebungen wird angezeigt.
