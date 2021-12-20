@@ -24,3 +24,7 @@ Im Tab *Erweiterte Optionen* haben sie diese wichtigen Felder:
 
 * **Bezeichnung auf Rechnungen**: Gilt für Ein- und Ausgangsrechnungen
 * **Steuergruppe**: Eine rein organsatorische Gruppierung
+
+## Steuerperiode festlegen
+
+Öffnen sie *Finanzen > Konfiguration > Einstellungen > Steuern*. Legen sie im Bereich *regelmässige Steuernrückzahlungen* die Periode für die Steuerrückzahlungen fest.
