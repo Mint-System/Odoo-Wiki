@@ -41,6 +41,14 @@ Unter *Bankverbindung* fügen sie das Bankkonto ihres Unternehmens hinzu. Legen 
 
 Im Tab *Payments Configuration* legen sie die Konten für ausstehende Ein- und Auzahlungen fest.
 
+::: tip
+Ein Beispiel wie der Kontenplan nach der Konfiguration ausseiht
+* 1031 Transferkonto Bank (Umlaufvermögen)
+* 1032 Bank (Liquide Mittel)
+* 1033 Ausstehende Auszahlungen (Umlaufvermögen)
+* 1034 Ausstehende Einzahlungen (Umlaufvermögen)
+:::
+
 ## Bank-Synchronisation konfigurieren
 
 Fügen sie ihre Bank via *Konfiguration > Bankverzeichnis > Eine Bank hinzufügen* hinzu.
@@ -71,7 +79,7 @@ Wählen sie *Finanzen > Konfiguration > Journale* und wählen sie das Bank-Journ
 
 Dann gehen sie nach *Finanznen > Konfiguration > Online Synchronisation* und wählen den ersten Eintrag aus. Im Feld *Journal* können sie das Bank-Journal eintragen.
 
-![](assets/Fiannzen%20Bank-Journal%20eintragen.png)
+![](assets/Fianzen%20Bank-Journal%20eintragen.png)
 
 ## Kommunikationsstandard festlegen
 
