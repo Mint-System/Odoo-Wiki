@@ -16,9 +16,13 @@ Zeigen sie *Finanzen > Finanzen > Sonstiges > Buchungssätze* an. Legen sie eine
 
 Speichern sie den Buchungssatz und wählen sie *Buchen*, wenn alle Angaben stimmen.
 
-## Eröffnungsbuchung hinzufügen
+## Eröffnungsbuchung anpassen
 
+Mit der Ausführung des Assisten wird eine Eröffungsbuchung erstellt. Navigieren sie nach *Finanzen > Sonstiges > Buchungssätze* und öffnen sie den Eintrag mit Bezeichnung *Journal-Eintrag wird geöffnet*.
 
+![](assets/Odoo%20Buchhaltung%20Eröffnungsbuchung%20anpassen.png)
+
+Fügen sie die Konten mit der entsprechenden Saldierung hinzu und buchen sie Eröffnungsbuchung.
 
 ## Kontenplan einrichten
 
