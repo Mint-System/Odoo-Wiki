@@ -19,7 +19,7 @@ Online Rechnungsstellung leicht gemacht.
 
 ## Lieferantenkonto konfigurieren
 
-
+Wählen sie *Kontakte* zeigen sie den Lieferanten in der Formularansicht an. Klicken sie auf *Bearbeiten* und fügen sie im Tab *Finanzen* ein Bakkonto hinzu.
 
 ## Rechnungen digitalisieren
 

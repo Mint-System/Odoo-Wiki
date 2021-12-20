@@ -63,3 +63,9 @@ Für jede Rechnung wird eine SEPA-Zahlung angelegt.
 Wenn sie für eine Rechnung *Finanzen > Lieferanten > Rechnung* eine Zahlung erfassen, können sie den Zahlungsbetrag mit dem gewährten Rabatt überschreiben. Den Rabatt-Betrag erhalten sie im Tab *Buchungszeilen* unter Berücksichtigung der entsprechenden *Fälligkeit*. Im Dialog *Zahlung erfassen*, geben sie den entsprechenden Betrag ein und wählen für das Feld *Zahlungsdifferenz* die Option *Mark as fully paid*. Geben sie nun das entsprechende Konto für das Skonto ein.
 
 ![](assets/Finanzen%20Zahlung%20mit%20Rabatt.png)
+
+## Zahlung anzeigen
+
+Wählen sie bezahlte Rechnung oder Rechnung in Zahlung via *Finanzen > Lieferanten > Rechnung* aus. Klicken sie auf das Informations-Icon unterhalb des Rechnungstotal und wählen anschliessen *Ansicht*.
+
+![](assets/Finanzen%20Zahlungen%20anzeigen.png)
