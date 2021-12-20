@@ -9,6 +9,14 @@ Online Rechnungsstellung leicht gemacht.
 
 ![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)
 
+## Ausgangsrechnung erfassen
+
+Öffnen sie *Abrechnung > Kunden > Rechnungen* und fügen sie einen Eintrag hinzu.
+
+## Eingangsrechnung erfassen
+
+Öffnen sie *Abrechnung > Lieferanten > Rechnungen* und fügen sie einen Eintrag hinzu.
+
 ## Rechnungen digitalisieren
 
 Mit Odoo können PDF-Rechnung einfach gescannt und verarbeitet werden. Die Rechnungsdigitalisierung liest die Zahlungsinformationen aus dem PDF und erstellt eine Lieferantenrechnung.
