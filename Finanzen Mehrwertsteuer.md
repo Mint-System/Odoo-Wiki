@@ -28,3 +28,7 @@ Im Tab *Erweiterte Optionen* haben sie diese wichtigen Felder:
 ## Steuerperiode festlegen
 
 Öffnen sie *Finanzen > Konfiguration > Einstellungen > Steuern*. Legen sie im Bereich *regelmässige Steuernrückzahlungen* die Periode für die Steuerrückzahlungen fest.
+
+## Konten-Tags ohne Entwicklermodus anzeigen
+
+Das Menü *Konten-Tags* wird nur im Entwicklermodus angezeigt. Um das Verhalten zu ändern, öffnen sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge*, zeigen den Menüeintrag *Konten-Tags* an und entfernen im Tab *Zugriffsrechte* die Gruppe. Aktualisieren sie den Browser und verlassen sie den Entwicklermodus. Sie sollten den Menüeintrag nun sehen.
