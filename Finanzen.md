@@ -33,6 +33,14 @@ Ihre Buchhaltung einfach und korrekt.
 
 Anhänge an E-Mails mit diesem Alias aus dem Odoo-Postfach werden fortan als Rechnung erfasst.
 
+## Bank-Journal einrichten
+
+Öffnen sie das Bank-Journal via *Finanzen > Dashboard > Kontextmenü Bank > Konfiguration*. Im Tab *Buchungssätze* geben legen sie im Feld *Bankkonto* das entsprechende Konto aus dem Kontenplan fest.
+
+Unter *Bankverbindung* fügen sie das Bankkonto ihres Unternehmens hinzu. Legen sie *Bank Datenübertrag* gemäss Anforderungen fest.
+
+Im Tab *Payments Configuration* legen sie die Konten für ausstehende Ein- und Auzahlungen fest.
+
 ## Bank-Synchronisation konfigurieren
 
 Fügen sie ihre Bank via *Konfiguration > Bankverzeichnis > Eine Bank hinzufügen* hinzu.
