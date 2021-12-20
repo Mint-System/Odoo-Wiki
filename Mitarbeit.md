@@ -50,15 +50,25 @@ Zur Erläuterung der Instruktionen darf man ein fiktives Unternehmen mit folgend
 ![logo-velo-manufaktur-ag](assets/logo-velo-manufaktur-ag.svg)
 
 Name: Velo Manufaktur AG  
-Website: https://www.example.com  
-Mail: info@example.com
-Odoo: https://erp.example.com  
-Standort: Fahrradstrasse 64, Altdorf 6460, Schweiz  
+Website: <https://www.velo-manufaktur.ch>  
+Mail: <mailto:info@velo-manufaktur.ch>  
+Odoo: <https://erp.velo-manufaktur.ch>  
+Standort: Fahrradstrasse 46, 6460 Altdorf, Schweiz  
 Mitarbeiter: Kurt Gisler, Janik von Rotz, Marco Roeleven  
 MWST: CHE-103.800.167  
 IBAN: CH5604835012345678009  
 Bank: Credit Suisse  
 BIC: CRESCHZZ  
+
+### Lieferanten
+
+Name: Velo Zürich GmbH  
+Website: <https://www.velo-zuerich.ch>  
+Standort: Rautistrasse 33, 8047 Zürich, Schweiz  
+IBAN: CH35 0900 0000 8510 5462 4  
+BIC/SWIFT: POFICHBEXXX  
+MWST: CHE-113.887.810  
+Handelsregister: CH-020.4.036.470-7  
 
 ## Sprache
 

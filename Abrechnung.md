@@ -17,6 +17,10 @@ Online Rechnungsstellung leicht gemacht.
 
 Öffnen sie *Abrechnung > Lieferanten > Rechnungen* und fügen sie einen Eintrag hinzu.
 
+## Lieferantenkonto konfigurieren
+
+
+
 ## Rechnungen digitalisieren
 
 Mit Odoo können PDF-Rechnung einfach gescannt und verarbeitet werden. Die Rechnungsdigitalisierung liest die Zahlungsinformationen aus dem PDF und erstellt eine Lieferantenrechnung.
