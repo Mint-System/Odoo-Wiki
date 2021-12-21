@@ -19,3 +19,9 @@ Werden mehre Währungen verwendet, können die Wechselkurse automatisch von Odoo
 ## Währung auf Rechnung festlegen
 
 Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* oder *Finanzen > Lieferanten > Rechnungen* an. Rechts vom Eingabefeld *Journal* können sie die Währung festlegen.
+
+## Position des Währungs-Symbol ändern
+
+Zeigen sie *Finanzen > Konfiguration > Finanzen > Währungen* an wählen sie eine Währung aus. Unter *Anzeige* können sie die Position bestimmen.
+
+![](assets/Finanzen%20Mehrere%20Währungen%20Anzeige.png)
