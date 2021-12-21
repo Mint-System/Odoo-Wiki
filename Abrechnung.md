@@ -93,7 +93,7 @@ In Modul *Finanzen* die Rechnung in der Liste anwählen und anzeigen lassen. Dan
 
 Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generierung von Einzahlungsscheinen enthalten. Damit Einzahlungsscheine erstellt werden können, müssen die folgenden Bedingungen erfüllt sein:
 
-* Auf dem Bankkonto des Unternehmens müssen die Felder `ISR Client Identification Number` und `CHF ISR Subscription Number` ausgefüllt sein.
+* Auf dem Bankkonto des Unternehmens muss das Feld `CHF ISR Subscription Number` ausgefüllt sein
 
 ![](assets/Abrechnung%20ESR-Nummern.png)
 
