@@ -1,7 +1,0 @@
----
-tags:
-- Prozess
-- Referenzsystem
----
-# Prozesslandkarte
-
