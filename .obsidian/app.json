@@ -5,5 +5,7 @@
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "trashOption": "local",
-  "promptDelete": false
+  "promptDelete": false,
+  "legacyEditor": false,
+  "livePreview": true
 }

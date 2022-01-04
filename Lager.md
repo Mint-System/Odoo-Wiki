@@ -66,7 +66,7 @@ Für Produkte in Lots oder Produkte mit Seriennummer könne sie ein Ablaufdatum 
 
 Die Sicherheitsvorlaufzeiten können sie zentral unter *Einstellungen > Lager > Erweiterte Planung* festlegen. Aktivieren sie für jeweilige Vorlaufzeit die Checkbox und tragen sie die gewünschten Zeiten ein
 
-## Bordero-Export erstellen
+## Bordereau-Export erstellen
 
 Öffnen sie *Lager > Berichtswesen > Produktlieferungen*. Filtern sie die Daten wie  folgt:
 
@@ -86,3 +86,16 @@ Markieren sie zu exportierenden Lagerbuchungen und wählen sie *Aktion > Export*
 * Produkt
 * Produkt/HS-Code
 * Erledigt
+
+## Rundungsgenauigkeit einer Mengeneinheit ändern
+
+Wenn sie die Rundungsgenauigkeit (Stellen nach dem Komma) einer Mengeneinheit ändern möchten, öffnen sie *Lager > Konfiguration > Mengeneinheiten > UoM* und wählen hier die Einheit aus. Im Feld *Rundungsgenauigkeit* geben sie den entsprechenden Wert ein. 
+
+::: warning
+Die Anzahl Dezimalstellen für eine Einheit wird unter *Einstellungen > Technisch> Datenbankstruktur > Dezimalstellen* verwaltet. Passen sie dort den entsprechenden Eintrag an.
+:::
+
+Die hier gemachten Einstellung haben Einfluss auf die Darstellung der Zahl.
+
+![](assets/Lager%20Wicht%20mit%203%20Kommastellen.png)
+
