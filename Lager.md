@@ -22,8 +22,8 @@ Maximieren sie die Effizienz Ihres Lagers.
 | [Stock Delivery Note](Stock%20Delivery%20Note.md)                   | Notiz auf Lieferschein.                                                                                     |
 | [Stock Move Line Packaging](Stock%20Move%20Line%20Packaging.md)     | Verknüpfen der Verpackung von Verkaufsauftrag.                                                              |
 | [Stock Barcode Packaging](Stock%20Barcode%20Packaging.md)           | Verpackung auf Strichcode-Vorgang anzeigen.                                                                 |
-| [Product Logistics UoM](Product%20Logistics%20UoM.md)                                           | Individuelle Mengenheit für Produkte festlegen.                                                             |
-| [Stock Move Weight UoM](Stock%20Move%20Weight%20UoM.md)                                           | Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.                                                |
+| [Product Logistics UoM](Product%20Logistics%20UoM.md)               | Individuelle Mengenheit für Produkte festlegen.                                                             |
+| [Stock Move Weight UoM](Stock%20Move%20Weight%20UoM.md)             | Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.                                                |
 
 ## Erweiterte Vorgangstypen einrichten
 

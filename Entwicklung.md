@@ -27,13 +27,18 @@ Damit man für Filter dynamische Funktionen verwenden kann, muss die Ansicht zur
 
 Liste mit Ansichten öffnen *Einstellungen > Technisch > Benutzer-Interface > Ansichten*. Anschliessend suchen sie nach der Ansicht mit Bezeichung *ir.filters form* und öffnen diese. Im Tab *Vererbte Ansichten* erstellen sie einen neuen Eintrag:
 
-Ansichtsbezeichnung: `ir.filters form custom`  
+Ansichtsbezeichnung: `$COMPANY_NAME.base.ir_filters_view_form.remove_domain_widget`  
 Architektur:
 
 ```xml
-<xpath expr="//field[@name='domain']" position="replace">
-    <field name="domain"/>
-</xpath>
+<?xml version="1.0"?>
+<data inherit_id="base.ir_filters_view_form" priority="50">
+
+    <field name="domain" position="attributes">
+        <attribute name="widget"/>
+    </field>
+
+</data>
 ```
 
 ## Filter mit dynamischen Datum erstellen
@@ -51,7 +56,7 @@ Erstellen sie einen Filter für das Feld Frist mit dem heutigen Datum.
 Speichern sie den Filter als Favorit und wählen *Entwicklertools > Filter verwalten*. Kopieren sie den folgenden Ausdruck in das Feld *Code-Editor*:
 
 ```py
-[('date_deadline','<=',time.strftime('%Y-%m-%d'))]
+[['date_deadline','<=',time.strftime('%Y-%m-%d')]]
 ```
 
 Speichern sie den Dialog. Beim Anzeigen des Filters werden nun alle Aufgaben mit einer Frist bis Heute aufgerufen.
@@ -61,8 +66,11 @@ Weitere Filter-Beispiele:
 Frist erreicht und an eigenem Benutzer zugewiesen:
 
 ```py
-["&", ("user_id", "=", uid), 
-("date_deadline", "<=", time.strftime('%Y-%m-%d'))]
+[
+"&",
+["user_id", "=", uid],
+["date_deadline", "<=", time.strftime('%Y-%m-%d')]
+]
 ```
 
 Frist bis in 5 Tagen erreicht und an eigenem Benutzer zugewiesen:
@@ -70,8 +78,8 @@ Frist bis in 5 Tagen erreicht und an eigenem Benutzer zugewiesen:
 ```py
 [
 "&",
-("user_id", "=", uid), 
-("date_deadline", "<=", (datetime.datetime.now() + datetime.timedelta(days=3)).strftime('%Y-%m-%d'))
+["user_id", "=", uid], 
+["date_deadline", "<=", (datetime.datetime.now() + datetime.timedelta(days=3)).strftime('%Y-%m-%d')]
 ]
 ```
 

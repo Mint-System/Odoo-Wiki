@@ -21,7 +21,7 @@ Ihre Buchhaltung einfach und korrekt.
 | ----------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)             | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren. |
 | [Recurring - Contracts Management](Contract.md)                               | Wiederholende Verträge verwalten und automatisch verrechnen.      |
-| [Switzerland - Bank type](Switzerland%20Bank%20Type.md)                        | Lokalisierung für Schweizer Banken und Bankkontos.                |
+| [Switzerland Bank type](Switzerland%20Bank%20Type.md)                        | Lokalisierung für Schweizer Banken und Bankkontos.                |
 | [Account Move Line Position](Account%20Move%20Line%20Position.md)             | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.  |
 | [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md) | Lieferaufträge mit Rechnungszeile verlinken.                      |
 
