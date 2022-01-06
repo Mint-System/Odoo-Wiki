@@ -30,6 +30,7 @@ Auf der Seite [SIX - Download Bankenstamm](https://www.six-group.com/de/products
 * Place
 * Phone
 * BIC
+
 Entfernen sie alle Bankeinträge ohne BIC/SWIFT-Eintrag.
 
 In zeigen sie *Kontakte > Konfiguration > Bankkonten > Bankverzeichnis* an und wählen *Favoriten > Datensätze importieren*. Laden sie die Datei und ordnen sie die Spalten wie folgt zu.
