@@ -8,6 +8,10 @@ prev: ./verkauf
 
 Produkte, Preislisten und Varianten zentral pflegen.
 
+| Erweiterung       | Beschreibung                            |
+| ----------------- | --------------------------------------- |
+| [[Packaging UOM]] | Mengeneinheit für Produktverpackung fesltegen. |
+
 ## Produktattribut erstellen
 
 Öffnen sie *Verkäufe > Konfiguration > Produkte > Attribute* und wählen sie *Anlegen*. Geben den Attributnamen an und legen sie den Anzeigetyp fest. Für das Feld *Variants Creation Mode* haben sie diese Optionen:
