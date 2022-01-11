@@ -26,6 +26,14 @@ Maximieren sie die Effizienz Ihres Lagers.
 | [Stock Move Weight UoM](Stock%20Move%20Weight%20UoM.md)             | Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.                                                |
 | [[Stock Move Line Auto Fill]]                                       | Die erledigte Menge auf einem Transfer automatisch ausfüllen.                                               |
 
+## Produkt aufstocken
+
+Mit *Aufstocken* werden Produkte an Lager gelegt. Für die Produkte bestehenden unterschiedliche Vorgänge wie diese ins Lager gelanden. Zum Aufstocken öffnen sie *Lager > Produkte > Produkte* und öffnen ein Produkt. Wählen sie nun *Aufstocken*.
+
+![](assets/Lager%20Produkt%20aufstocken.png)
+
+Geben sie die Menge ein und wählen sie *Bestätigen*. Nun wird entsprechend der Einstellung im Tab *Lager* des Produkts ein Transfer angelegt.
+
 ## Erweiterte Vorgangstypen einrichten
 
 Wenn in den Einstellungen für das Lager die Option *Mehrstufige Routen* eingeschaltet wird, erweitert sich die Liste der Vorgangstypen mit *Interne Transfers*. Die neue Liste zeigt sich wie folgt:
