@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
 # PLM
 ![icons_odoo_mrp_plm](assets/icons_odoo_mrp_plm.png)

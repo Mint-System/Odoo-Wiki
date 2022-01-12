@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./einstellungen
 ---
 # Home Backround Image
 ![icon_oms_box](assets/icon_oms_box.png)

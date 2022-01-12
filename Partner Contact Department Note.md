@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./kontakte
 ---
 # Partner Contact Department Note
 ![icon_oms_box](assets/icon_oms_box.png)

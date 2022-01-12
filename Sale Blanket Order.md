@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - OCA
+prev: ./verkauf
 ---
 # Sale Blanket Order
 ![icon_oca_app](assets/icon_oca_app.png)

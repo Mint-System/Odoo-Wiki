@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - OCA
+prev: ./kontakte
 ---
 # Base Partner Sequence
 ![icon_oca_app](assets/icon_oca_app.png)

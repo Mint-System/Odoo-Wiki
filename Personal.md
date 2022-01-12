@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
 # Personal
 ![icons_odoo_hr](assets/icons_odoo_hr.png)

@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
 # Data Cleaning
 ![](assets/icon_odoo_data_cleaning.png)

@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
 # Initialisierung
 ![icons_odoo_survey](assets/icons_odoo_survey.png)

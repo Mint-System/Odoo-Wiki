@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./kontakte
 ---
 # Partner Secondary Name
 ![](assets/icon_oms_box.png)

@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - OCA
+prev: ./einstellungen
 ---
 # Web Responsive
 ![icon_oca_app](assets/icon_oca_app.png)

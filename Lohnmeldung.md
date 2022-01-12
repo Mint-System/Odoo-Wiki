@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./personalabrechnung
 ---
 # Lohnmeldung
 ![](assets/odoo_icon_gioardano.png)

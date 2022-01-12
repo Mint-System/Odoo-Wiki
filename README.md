@@ -237,6 +237,12 @@ Management des Produktlebenszyklus für moderne Firmen.
 
 [![icons_odoo_mrp_plm](assets/icons_odoo_mrp_plm.png)](PLM.md)
 
+### [Point of Sale](Point%20of%20Sale.md)
+
+In wenigen Minuten einrichten, innerhalb von Sekunden verkaufen. 
+
+![icons_odoo_point_of_sale](assets/icons_odoo_point_of_sale.png)
+
 ### [Projekt](Projekt.md)
 
 Agiles Projektmanagement. Schön. Einfach. Open Source.

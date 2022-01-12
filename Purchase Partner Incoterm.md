@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./einkauf
 ---
 # Purchase Partner Incoterm
 ![](assets/icon_odoo_purchase_partner_incoterm.png)

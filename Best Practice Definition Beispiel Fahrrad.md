@@ -1,6 +1,7 @@
 ---
 tags:
 - Best-Practice
+prev: ./best-practice
 ---
 # Best Practice: Definition Beispiel Fahrrad
 

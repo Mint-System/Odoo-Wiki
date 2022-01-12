@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
 # IoT
 ![icons_odoo_iot](assets/icons_odoo_iot.png)

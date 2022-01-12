@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./fertigung
 ---
 # Product Barcode Generator
 ![](assets/icon_odoo_product_barcode.png)

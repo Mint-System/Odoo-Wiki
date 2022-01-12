@@ -1,5 +1,0 @@
----
-tags:
-- Prozess
----
-# Prozess Fertigungsplanung

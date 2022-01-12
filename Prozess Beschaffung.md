@@ -1,6 +1,7 @@
 ---
 tags:
 - Prozess
+prev: ./referenzsystem
 ---
 # Prozess Beschaffung
 

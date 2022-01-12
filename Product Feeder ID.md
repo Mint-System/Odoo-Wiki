@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./fertigung
 ---
 # Product Feeder ID
 ![icon_oms_box](assets/icon_oms_box.png)

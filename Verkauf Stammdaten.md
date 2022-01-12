@@ -1,12 +1,16 @@
 ---
 tags:
 - HowTo
+prev: ./verkauf
 ---
-
 # Verkauf Stammdaten
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
 Produkte, Preislisten und Varianten zentral pflegen.
+
+| Erweiterung       | Beschreibung                            |
+| ----------------- | --------------------------------------- |
+| [[Packaging UOM]] | Mengeneinheit für Produktverpackung fesltegen. |
 
 ## Produktattribut erstellen
 

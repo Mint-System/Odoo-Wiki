@@ -2,8 +2,8 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./verkauf
 ---
-
 # Sale Order Default Commitment Date
 ![icon_oms_box](assets/icon_oms_box.png)
 

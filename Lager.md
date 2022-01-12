@@ -1,24 +1,38 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
 # Lager
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
 Maximieren sie die Effizienz Ihres Lagers.
 
-| Bereich                                             | Beschreibung          |
-| --------------------------------------------------- | --------------------- |
-| [Handscanner Zebra TC21](Handscanner%20Zebra%20TC21.md) | Handscanner für Odoo. |
-| [Handscanner Zebra DS22](Handscanner%20Zebra%20DS22.md) | Handscanner für Odoo. |
+| Bereich                                                 | Beschreibung                      |
+| ------------------------------------------------------- | --------------------------------- |
+| [Handscanner Zebra TC21](Handscanner%20Zebra%20TC21.md) | Handscanner für Odoo.             |
+| [Handscanner Zebra DS22](Handscanner%20Zebra%20DS22.md) | Handscanner für Odoo.             |
+| [Lager Verpackungen](Lager%20Verpackungen.md)           | Verpackungen effizient verwalten. |
 
-| Erweiterung                                                   | Beschreibung                                                                                                |
-| ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [Demand Planner](Demand%20Planner.md)                           | Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen. |
+| Erweiterung                                                         | Beschreibung                                                                                                |
+| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [Demand Planner](Demand%20Planner.md)                               | Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen. |
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md) | Erlaubt die Archivierung von Los/Chargen.                                                                   |
 | [Stock Move Line Position](Stock%20Move%20Line%20Position.md)       | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.                                            |
-| [Stock Delivery Note](Stock%20Delivery%20Note.md)                 | Notiz auf Lieferschein.                                                                                     |
-| [Stock Move Line Packaging](Stock%20Move%20Line%20Packaging.md)             | Verknüpfen der Verpackung von Verkaufsauftrag.                                                                                     |
+| [Stock Delivery Note](Stock%20Delivery%20Note.md)                   | Notiz auf Lieferschein.                                                                                     |
+| [Stock Move Line Packaging](Stock%20Move%20Line%20Packaging.md)     | Verknüpfen der Verpackung von Verkaufsauftrag.                                                              |
+| [Stock Barcode Packaging](Stock%20Barcode%20Packaging.md)           | Verpackung auf Strichcode-Vorgang anzeigen.                                                                 |
+| [Product Logistics UoM](Product%20Logistics%20UoM.md)               | Individuelle Mengenheit für Produkte festlegen.                                                             |
+| [Stock Move Weight UoM](Stock%20Move%20Weight%20UoM.md)             | Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.                                                |
+| [[Stock Move Line Auto Fill]]                                       | Die erledigte Menge auf einem Transfer automatisch ausfüllen.                                               |
+
+## Produkt aufstocken
+
+Mit *Aufstocken* werden Produkte an Lager gelegt. Für die Produkte bestehenden unterschiedliche Vorgänge wie diese ins Lager gelanden. Zum Aufstocken öffnen sie *Lager > Produkte > Produkte* und öffnen ein Produkt. Wählen sie nun *Aufstocken*.
+
+![](assets/Lager%20Produkt%20aufstocken.png)
+
+Geben sie die Menge ein und wählen sie *Bestätigen*. Nun wird entsprechend der Einstellung im Tab *Lager* des Produkts ein Transfer angelegt.
 
 ## Erweiterte Vorgangstypen einrichten
 
@@ -53,32 +67,6 @@ Starten sie die vorbereitete Inventur mit *Inventur Starten*. Falls ein nicht ge
 
 Befüllen sie nun die Spalte *Gezählt* entsprechend der gezählten Quantität pro Produkt. Nach der abgeschlossenen Zählung wird mit *Bestandsbuchung Durchführen* der korrigierte Bestand gebucht. Das Protokoll kann über *Print Count Sheet* erstellt werden.
 
-## Produktverpackung erfassen
-
-Um die verschiedenen Produktverpackungen zu erfassen navigieren sie zu folgender Einstellung: *Lager > Konfiguration > Produkte > Produktverpackungen*.
-
-![Lager Produktverpackungen Beispiel](assets/Lager%20Produktverpackungen%20Beispiel.png)
-
-## Produkt verpacken
-
-Für einen internen Transfer verpacken sie ein Produkt wie folgt:
-
-![Lager Verpackungen Beispiel](assets/Lager%20Verpackungen%20Beispiel.gif)
-
-## Lieferung in mehrere Packungen verpacken
-
-Jede Lieferung umfasst 1 oder mehrere *Vorgänge*. In einem Vorgang wird der Bedarf pro Produkt aufgelistet.
-
-![](assets/Lager%20Vorgänge.png)
-
-Wenn sie einen Vorgang in mehrere Packungen verpacken möchten, müssen sie unter *Detaillierte Vorgänge* zuerst das Teilgewicht in die vordefinierte Zeile einfügen. Anschliessend können sie weitere Zeilen mit weiteren Teilmengen hinzufügen.
-
-![Lager Vorgänge Verpackungen](assets/Lager%20Vorgänge%20Verpackungen.gif)
-
-## Versandverpackungen
-
-Verwalten sie Versandverpackungen unter *Lager > Konfiguration > Versandverpackungen*.
-
 ## Ablaufdatum aktivieren
 
 Für Produkte in Lots oder Produkte mit Seriennummer könne sie ein Ablaufdatum festlegen. Öffnen sie das Produkt via *Lager > Produkte > Produkte* und zeigen sie den Tab *Lager* an. Unter Lieferfolgung müssen sie eine Option für *Nachverfolung* auswählen. Nun erscheint die Checkbox *Ablaudatum*. Aktivieren sie diese und konfigurieren sie die Ablaufzeiten.
@@ -91,10 +79,54 @@ Die Sicherheitsvorlaufzeiten können sie zentral unter *Einstellungen > Lager > 
 
 ## Bordereau-Export erstellen
 
-Öffnen sie *Lager > Berichtswesen > Produktlieferungen*. Gruppieren und sortieren sie Lagerbuchungen nach *Datum > Tag*. Markieren sie zu exportierenden Lagerbuchungen und wählen sie *Aktion > Export*. Wählen sie diese Felder:
+Öffnen sie *Lager > Berichtswesen > Produktlieferungen*. Filtern sie die Daten wie  folgt:
+
+* Ausgehend
+* Erledigt
+
+Gruppieren und sortieren sie Lagerbuchungen nach:
+
+* Datum > Tag
+* Lieferadresse
+* Produkt
+
+Markieren sie zu exportierenden Lagerbuchungen und wählen sie *Aktion > Export*. Wählen sie diese Felder:
 
 * Lagerbuchung/Lieferadresse
 * Produkt/Referenz
 * Produkt
 * Produkt/HS-Code
 * Erledigt
+
+## Rundungsgenauigkeit einer Mengeneinheit ändern
+
+Wenn sie die Rundungsgenauigkeit (Stellen nach dem Komma) einer Mengeneinheit ändern möchten, öffnen sie *Lager > Konfiguration > Mengeneinheiten > UoM* und wählen hier die Einheit aus. Im Feld *Rundungsgenauigkeit* geben sie den entsprechenden Wert ein. 
+
+::: warning
+Die Anzahl Dezimalstellen für eine Einheit wird unter *Einstellungen > Technisch> Datenbankstruktur > Dezimalstellen* verwaltet. Passen sie dort den entsprechenden Eintrag an.
+:::
+
+Die hier gemachten Einstellung haben Einfluss auf die Darstellung der Zahl.
+
+![](assets/Lager%20Wicht%20mit%203%20Kommastellen.png)
+
+## Aktion  "Lagerbuchung zurücksetzen" erstellen
+
+Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Lagerbuchung zurücksetzen`\
+Modell: `stock.move`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```py
+for record in records:  
+  record.write({'state': 'draft'})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
+
+![](assets/Lager%20Aktion%20%20Lagerbuchung%20Zurücksetzen%20erstellen.png)

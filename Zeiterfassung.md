@@ -1,15 +1,15 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
-
 # Zeiterfassung
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
 
 Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
-| Erweiterung                                         | Beschreibung                                        |
-| --------------------------------------------------- | --------------------------------------------------- |
+| Erweiterung                                           | Beschreibung                                        |
+| ----------------------------------------------------- | --------------------------------------------------- |
 | [Terminal Zeiterfassung](Terminal%20Zeiterfassung.md) | Ein- und auschecken mit dem Terminal Zeiterfassung. |
 | [Awesome Timesheet](Awesome%20Timesheet.md)           | Mobile Zeiterfassung.                               |
 
@@ -66,6 +66,26 @@ Kopieren sie die folgenden Zeilen in das Feld Pythoncode:
 ```py
 for record in records:
 	records.write({'validated': False})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl *Aktion* das Menu *Validierung zurücksetzen*.
+
+## Auftragselement von Aufgabe entfernen
+#Odoo14
+
+Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Auftragselement von Aufgabe entfernen`\
+Modell: `Kostenstellen-Buchungen`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld Pythoncode:
+
+```py
+for record in records:
+	record.task_id.write({'sale_line_id': False})
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.

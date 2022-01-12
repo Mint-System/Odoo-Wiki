@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
 # Finanzen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
@@ -10,32 +11,19 @@ Ihre Buchhaltung einfach und korrekt.
 | Bereich                                                         | Beschreibung                                              |
 | --------------------------------------------------------------- | --------------------------------------------------------- |
 | [Finanzen Mehrere Währungen](Finanzen%20Mehrere%20Währungen.md) | Unterschiedliche Währungen mit Odoo Finanzen verarbeiten. |
-| [Finanzen Zahlungen](Finanzen%20Zahlungen.md)                   | SEPA-Zahlungen mit Odoo Finanzen abwickeln.               |
+| [Finanzen Zahlungen](Finanzen%20Zahlungen.md)                   | SEPA- und QR-Zahlungen mit Odoo Finanzen abwickeln.       |
 | [Finanzen Mehrwertsteuer](Finanzen%20Mehrwertsteuer.md)         | Mehrwertsteuer einfach abrechnen mit Odoo.                |
 | [Finanzen Berichte](Finanzen%20Berichte.md)                     | Finanzberichte erstellen.                                 |
 | [Finanzen Kostenrechnung](Finanzen%20Kostenrechnung.md)         | Kosten analysieren und Budget plannen.                    |
-
+| [Finanzen Buchhaltung](Finanzen%20Buchhaltung.md)               | Kontenplan einrichten und Buchungen erstellen.            |
 
 | Erweiterung                                                                   | Beschreibung                                                      |
 | ----------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)             | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren. |
 | [Recurring - Contracts Management](Contract.md)                               | Wiederholende Verträge verwalten und automatisch verrechnen.      |
-| [Switzerland - Bank type](Switerland%20Bank%20Type.md)                        | Lokalisierung für Schweizer Banken und Bankkontos.                |
+| [Switzerland Bank type](Switzerland%20Bank%20Type.md)                        | Lokalisierung für Schweizer Banken und Bankkontos.                |
 | [Account Move Line Position](Account%20Move%20Line%20Position.md)             | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.  |
 | [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md) | Lieferaufträge mit Rechnungszeile verlinken.                      |
-
-## Kontenplan einrichten
-
-Öffnen sie die Finanz-App und richten Sie den Standard-Kontenplan ein. Navigieren sie nach *Finanzen > Konfiguration > Finanzen > Kontenplan*.
-
-Konten für welche sie keine Verwendung haben, können sie anwählen und die Checkbox *Nicht mehr verwenden* markieren.
-
-## Skonto einrichten
-
-Navigieren sie nach *Finanzen > Konfiguration > Abrechnung > Zahlungsbedingungen* und erstellen sie einen neuen Eintrag wie folgt.
-Duplizieren sie eine bestehende Zahlungsbedingung. zum Beispiel 15 Tage.
-
-![](assets/Zahlungsbedingungen%20Skonto.png)
 
 ## Rechnung per E-Mail empfangen
 
@@ -44,6 +32,22 @@ Duplizieren sie eine bestehende Zahlungsbedingung. zum Beispiel 15 Tage.
 ![](assets/Finanzen%20Journal%20E-Mail-Alias.png)
 
 Anhänge an E-Mails mit diesem Alias aus dem Odoo-Postfach werden fortan als Rechnung erfasst.
+
+## Bank-Journal einrichten
+
+Öffnen sie das Bank-Journal via *Finanzen > Dashboard > Kontextmenü Bank > Konfiguration*. Im Tab *Buchungssätze* geben legen sie im Feld *Bankkonto* das entsprechende Konto aus dem Kontenplan fest.
+
+Unter *Bankverbindung* fügen sie das Bankkonto ihres Unternehmens hinzu. Legen sie *Bank Datenübertrag* gemäss Anforderungen fest.
+
+Im Tab *Payments Configuration* legen sie die Konten für ausstehende Ein- und Auzahlungen fest.
+
+::: tip
+Ein Beispiel wie der Kontenplan nach der Konfiguration ausseiht
+* 1031 Transferkonto Bank (Umlaufvermögen)
+* 1032 Bank (Liquide Mittel)
+* 1033 Ausstehende Auszahlungen (Umlaufvermögen)
+* 1034 Ausstehende Einzahlungen (Umlaufvermögen)
+:::
 
 ## Bank-Synchronisation konfigurieren
 
@@ -75,76 +79,22 @@ Wählen sie *Finanzen > Konfiguration > Journale* und wählen sie das Bank-Journ
 
 Dann gehen sie nach *Finanznen > Konfiguration > Online Synchronisation* und wählen den ersten Eintrag aus. Im Feld *Journal* können sie das Bank-Journal eintragen.
 
-![](assets/Fiannzen%20Bank-Journal%20eintragen.png)
+![](assets/Fianzen%20Bank-Journal%20eintragen.png)
 
 ## Kommunikationsstandard festlegen
 
 Der Kommunikationsstandard ist entscheidend bei der Generierung von Zahlungsreferenzen. Öffnen sie ein Journal via *Finanzen > Konfiguration > Journale* und zeigen sie den Tab *Erweiterte Einstellungen* an. Legen sie im Feld *Kommunikationsstandard* den passenden Wert fest.
 
-## QR-IBAN speichern
-
-Zur Speicherung der QR-IBAN gibt es auf dem Bankkonto ein entsprechendes Feld. Navigieren sie nach *Finanzen > Konfiguraiton > Bankkonten*, wählen sie das Bankkonto aus und tragen sie im Feld *QR-IBAN* die Nummer ein.
-
-## QR-Code Zahlungstyp festlegen
-
-Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an und öffnen sie den Tab *Weitere Informationen*. Im Feld *Payment QR-code* ist die Methode zum Generieren des QR-Codes festgelegt.
-
-## Währung auf Rechnung festlegen
-
-Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* oder *Finanzen > Lieferanten > Rechnungen* an. Rechts vom Eingabefeld *Journal* können sie die Währung festlegen.
-
-## Sperrdatum festlegen
-
-Im Dialog *Finanzen > Finanzen > Aktion > Sperrdaten* können sie Sperrdaten für die Geschäfts- und Steuerperiode definieren.e
-
-![](assets/Finanzen%20Sperrdatum%20festlegen.png)
-
-## Ausgehende Zahlung für mehrere Rechnungen erfassen
-Im App Finanzen in der Ansicht *Finanzen >  Lieferanten > Rechnung* den Fiilter *Nicht bezahlt* setzen. Die zu zahhlenden Rechnungen links markieren und *Zahlung erfassen* auswählen. 
-
-![](assets/Finanzen%20Sepa%20Zahlung%20erfassen.png)
-
-Für jede Rechnung wird eine SEPA-Zahlung angelegt.
-
 ## Mehrere Rechnung versenden
 
 Zeigen sie *Finanzen > Kunden > Rechnung* an und filtern sie die Rechnung nach *Status* und *Zahlung*. Markieren sie die Rechnungen, die sie versenden möchten und wählen sie *Aktion > Senden & Drucken*. Wählen sie für E-Mail eine Mail-Vorlage aus und drücken sie auf *Senden*.
 
-## Kontenplan exportieren
+## Unversendete Rechnungen anzeigen
 
-Öffnen sie die Übersicht der Konten *Finanzen > Konfiguration > Finanzen > Kontenplan* und filtern sie die Konten gemäss ihren Anforderungen. Markieren sie die Konten und wählen sie *Select all ...*. Führen sie *Aktion > Export* aus.
+Navigieren sie nach *Finanzen > Kunden > Rechnungen* und wählen sie *Filter > Benutzerdefinierten Filter hinzufügen*. Als Feld definieren sie *Rechnung Verschickt* mit Bedingung *Ist falsch*. Nun erhalten sie alle unversendeneten Rechnungen.
 
-![](assets/Finanzen%20Kontenplan%20exportieren.png)
+## Zahlungsbedingung mit Rabatt einrichten
 
-Im Export-Dialog können sie auf der linken Seite die zu exportierenden Felder suchen und dem Export auf der rechten Seite hinzufügen. Dies ist eine Odoo-Standardfunktion, mehr dazu unter [Daten exportieren](Datenmanagement.md#Daten%20exportieren).
+Navigieren sie nach *Finanzen > Konfiguration > Abrechnung > Zahlungsbedingungen* und erstellen sie einen neuen Eintrag wie folgt. Duplizieren sie eine bestehende Zahlungsbedingung, beispielsweise *30 Tage*. Wir nehmen an, dass wir für eine Zahlung innerhalb von Tagen 10 eine Skonto von 10% gewähren.
 
-![](assets/Finanzen%20Daten%20exportieren.png)
-
-## Kontenplan gruppieren
-
-Den Kontenplan können sie nach beliebigen Merkmalen gruppieren und die Gruppierung als Standard speichern.
-
-![Finanzen Kontenplan gruppieren](assets/Finanzen%20Kontenplan%20gruppieren.gif)
-
-## Kontengruppen erstellen
-
-Navigieren sie nach *Finanzen > Konfiguration > Kontengruppen* und fügen eine Kontengruppe hinzu.
-
-* **Name**: Name der Kontengruppe
-* **Code-Präfix Von bis**: Bereiech der Kontennummer welche dieser Gruppe hinzugefügt werden
-
-## Kontoarten anzeigen
-
-Standardmässig werden die Kontoarten nicht angezeigt. Damit diese angezeigt werden, muss eine Menüpunkt gemäss [Menüeintrag erstellen](Entwicklung.md#Entwicklung#Menüeintrag%20erstellen)
-
-* **Menü**: Kontoarten
-* **Obermenü**: Finanzen/Konfiguration/Finanzen
-* **Aktion**: ir.actions.act_window Kontoarten
-
-![](assets/Finanzen%20Kontoarten%20anzeigen.png)
-
-## Zahlungskonten konfigurieren
-
-Auf jedem Journal vom Typ *Bank* oder *Kasse/Bank* ist hinterlegt welches Konto für die ausstehende Zahlungen bzw. Zahlungsbestätigungen verwendet werden sollen.
-
-Öffnen sie *Finanzen > Konfiguration > Journale > Journal auswählen* und zeigen sie den Tab *Payments Configuration* an. Hier können sie die Konten für die Zahlungen festlegen.
+![](assets/Finanzen%20Rbatt.png)

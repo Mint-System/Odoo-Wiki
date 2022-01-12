@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./einstellungen
 ---
 # Impersonate
 ![](assets/icon_odoo_impersonate.png)

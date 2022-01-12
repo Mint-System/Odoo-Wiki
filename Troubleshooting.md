@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
 # Troubleshooting
 ![icons_odoo_website_forum](assets/icons_odoo_website_forum.png)
@@ -29,11 +30,15 @@ Cannot generate the QR-bill. Please check you have configured the address of you
 
 Damit die QR-Rechnung generiert werden kann, muss die Zahlungsreferenz nach einem bestimmten Muster gebildet werden.
 
+Es wird dasselbe Verfahren wie für eine ISR-Zahlungsschein verwendet.
+
 #### Lösung
 
 Stellen sie sicher, dass auf dem Journal die Einstellung *Kommunkationsstandard* auf *Schweiz* eingestellt ist.
 
 ![](assets/Troubleshooting%20QR-IBAN%20Lösung%202.png)
+
+Entfernen sie auf dem Bankkonto die *ISR Client Identification Number*. Wird diese gesetzt, kann eine mit QR-Bill inkompatible Referenz generiert werden.
 
 ## Fehlermeldung - Something went wrong
 

@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
 # Odoo Mobile App
 ![](assets/icons_odoo_app.png)

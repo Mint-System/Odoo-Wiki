@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
 # Persönliche Einstellungen
 ![icons_odoo_membership](assets/icons_odoo_membership.png)

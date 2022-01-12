@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./fertigung
 ---
 # Secondary Product Type Description
 ![icon_oms_box](assets/icon_oms_box.png)

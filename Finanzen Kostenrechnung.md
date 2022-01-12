@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./finanzen
 ---
 # Finanzen Kostenrechnung
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
@@ -18,3 +19,7 @@ Zeigen sie *Finanzen > Berichtswesen > Verwaltung > Kostenbericht* an. Wählen s
 ## Kosten/Eröse anzeigen
 
 Über den Smart-Link *Kosten/Erlöse* auf einer Kostenstelle *Finanzen > Kostenrechnung > Kostenstellen* sehen sie alle analytischen Buchungen auf der Kostenstelle.
+
+## Rechnung auf einer Kostenstelle belasten
+
+Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an. Auf der Rechnungszeile können sie eine Kostenstelle in der entsprechenden Spalte festlegen.

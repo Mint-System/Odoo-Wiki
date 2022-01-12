@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
 # eLearning
 ![icons_odoo_website_slides](assets/icons_odoo_website_slides.png)
@@ -54,7 +55,7 @@ Navigieren sie im Backend nach *eLearning > Kurse > Wählen den Kurs > Tab Inhal
 * **Dokument**: Der Kursinhalt ist eine Dokument
 * **Video**: Der Kursinhalt ist verlinktes Video
 * **Quiz**: Sie erfassen ein Quiz im entsprechenden Tab
-* **Zertifizierung**: Kopplung mit der App [[Umfragen]]
+* **Zertifizierung**: Kopplung mit der App [Umfragen](Umfragen.md)
 
 ## Kurs Inhalt freigeben
 

@@ -1,6 +1,7 @@
 ---
 tags:
 - Best-Practice
+prev: ./best-practice
 ---
 # Best Practice: Scheduler
 

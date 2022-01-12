@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./zeiterfassung
 ---
 # Awesome Timesheet
 ![](assets/icon_awesome_timesheet.png)
@@ -21,7 +22,7 @@ Um die mobile App *Awesome Timesheet* in ihrem Browser oder auf dem Smartphone z
 #### **Schritt 2**
 Klick auf *Sign In*.
 
-![[Awesome Timesheet Login 2.png]]
+![Awesome Timesheet Login 2](assets/Awesome%20Timesheet%20Login%202.png)
 
 #### **Schritt 3**
 *Https://* auswählen und die Odoo Domain eingeben.

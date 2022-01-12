@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./entwicklung
 ---
 # Entwicklung Aktionen
 ![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)
@@ -45,7 +46,7 @@ Nachdem der Browser aktualisiert haben sie Zugriff auf das neue Menü und Ansich
 
 ![](assets/Aktionen%20neue%20Ansicht.png)
 
-## BoM Reload Aktion erstellen
+## AKtion "Reload BoM" erstellen
 
 Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
 
@@ -67,7 +68,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 Im Fertigungsauftrag erscheint nun in der Auswahl *Aktion* das Menu *Reload BoM*.
 
-## Aktion Reset to Draft erstellen
+## Aktion "Reset to Draft" erstellen
 
 Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
 
@@ -86,7 +87,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Reset to Draft*.
 
-## Aktion Cancel Reconcilation erstellen
+## Aktion "Cancel Reconcilation" erstellen
 
 Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
 
@@ -105,7 +106,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Vorgänge erscheint nun in der Auswahl *Aktion* das Menu *Cancel Reconcilation*.
 
-## Aktion Abwesenheitzeiten Ablehnen erstellen
+## Aktion Abwesenheitzeiten "Ablehnen" erstellen
 
 Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
 
@@ -177,3 +178,4 @@ Navigieren sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstelle
 * Feld: `Order Deadline (purchase.order)`
 * Bewertungstyp: 
 * Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
+

@@ -1,6 +1,7 @@
 ---
 tags:
 - Best-Practice
+prev: ./best-practice
 ---
 # Best Practice: Odoo Datenmanagement
 
@@ -356,6 +357,21 @@ item_ids/product_tmpl_id/name
 item_ids/fixed_price
 ```
 Datei: `product.pricelist.csv`
+
+### Buchungssätze
+Listenansicht: *Fertigung > Finanzen > Buchungssätze*
+
+Felder: 
+```
+id
+journal_id
+date
+line_ids/account_id/id
+line_ids/name
+line_ids/debit
+line_ids/credit
+```
+Datei: `account.move.csv`
 
 ## Importvorgänge
 

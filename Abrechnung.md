@@ -1,12 +1,25 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
 # Abrechnung
 
 Online Rechnungsstellung leicht gemacht.
 
 ![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)
+
+## Ausgangsrechnung erfassen
+
+Öffnen sie *Abrechnung > Kunden > Rechnungen* und fügen sie einen Eintrag hinzu.
+
+## Eingangsrechnung erfassen
+
+Öffnen sie *Abrechnung > Lieferanten > Rechnungen* und fügen sie einen Eintrag hinzu.
+
+## Lieferantenkonto konfigurieren
+
+Wählen sie *Kontakte* zeigen sie den Lieferanten in der Formularansicht an. Klicken sie auf *Bearbeiten* und fügen sie im Tab *Finanzen* ein Bakkonto hinzu.
 
 ## Rechnungen digitalisieren
 
@@ -80,7 +93,7 @@ In Modul *Finanzen* die Rechnung in der Liste anwählen und anzeigen lassen. Dan
 
 Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generierung von Einzahlungsscheinen enthalten. Damit Einzahlungsscheine erstellt werden können, müssen die folgenden Bedingungen erfüllt sein:
 
-* Auf dem Bankkonto des Unternehmens müssen die Felder `ISR Client Identification Number` und `CHF ISR Subscription Number` ausgefüllt sein.
+* Auf dem Bankkonto des Unternehmens muss das Feld `CHF ISR Subscription Number` ausgefüllt sein
 
 ![](assets/Abrechnung%20ESR-Nummern.png)
 

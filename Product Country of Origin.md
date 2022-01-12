@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./fertigung
 ---
 # Product Country of Origin
 ![](assets/odoo_icon_product_country_of_origin.png)

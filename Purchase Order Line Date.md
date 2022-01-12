@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./einkauf
 ---
 # Purchase Order Line Date
 ![](assets/icon_oms_box.png)

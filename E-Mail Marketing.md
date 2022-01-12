@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./
 ---
 # E-Mail-Marketing
 ![icons_odoo_mass_mailing](assets/icons_odoo_mass_mailing.png)

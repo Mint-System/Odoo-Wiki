@@ -1,6 +1,7 @@
 ---
 tags:
 - Best-Practice
+prev: ./best-practice
 ---
 # Best Practice: Bestellmenge ändern
 
@@ -29,7 +30,7 @@ Prüfen sie nun über den Smart-Button *Wareneingang* die Veränderung des Inter
 
 Der Chatter rapportierte die Änderung wie folgt:
 
-![[Best Practice Einkauf Bestellmenge ändern Vergrösserung Wareneingang Chatter.png]]
+![Best Practice Einkauf Bestellmenge ändern Vergrösserung Wareneingang Chatter](assets/Best%20Practice%20Einkauf%20Bestellmenge%20ändern%20Vergrösserung%20Wareneingang%20Chatter.png)
 
 ## Fall 2: Verkleinerung der Bestellmenge
 

@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./einstellungen
 ---
 # Einstellungen Integration
 ![icons_odoo_settings](assets/icons_odoo_settings.png)

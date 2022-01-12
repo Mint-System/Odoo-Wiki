@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./fertigung
 ---
 # MRP Documents Share
 ![](assets/icon_odoo_mrp_documents_share.png)

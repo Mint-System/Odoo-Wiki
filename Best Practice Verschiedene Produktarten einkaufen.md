@@ -1,6 +1,7 @@
 ---
 tags:
 - Best-Practice
+prev: ./best-practice
 ---
 # Best Practice: Verschiedene Produktarten einkaufen
 Beim Lieferanten Fahrrad-Traum AG werden folgende zwei Produkte eingekauft:

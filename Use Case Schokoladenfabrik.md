@@ -1,6 +1,7 @@
 ---
 tags:
 - Use-Case
+prev: ./best-practice
 ---
 # Use Case - Schokoladenfabrik
 

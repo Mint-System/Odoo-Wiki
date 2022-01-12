@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./zeiterfassung
 ---
 # Terminal Zeiterfassung
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)

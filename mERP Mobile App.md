@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+prev: ./odoo-mobile-app
 ---
 # mERP Mobile App
 ![](assets/odoo_icon_merp.png)

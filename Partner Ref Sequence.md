@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./kontakte
 ---
 # Partner Ref Sequence
 ![icon_oms_box](assets/icon_oms_box.png)

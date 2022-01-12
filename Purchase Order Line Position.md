@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
+prev: ./einkauf
 ---
 # Purchase Order Line Position
 ![icon_oms_box](assets/icon_oms_box.png)

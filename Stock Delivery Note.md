@@ -2,6 +2,7 @@
 tags:
 - HowTo
 - OCA
+prev: ./lager
 ---
 # Stock Delivery Note
 ![icon_oca_app](assets/icon_oca_app.png)
