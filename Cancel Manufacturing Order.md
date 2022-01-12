@@ -5,7 +5,8 @@ tags:
 prev: ./fertigung
 ---
 # Cancel Manufacturing Order
-![icons_odoo_modules](assets/icons_odoo_modules.png)
+
+![](assets/icons_odoo_eq.png)
 
 Fertigungsauftrag rückgängig machen.
 
@@ -14,7 +15,7 @@ Repository: <https://gitlab.com/mint-system/odoo-app-cancel-manufacturing-order>
 
 ## Berechtigung festlegen
 
- From Users Menu, there is access rights called *Cancel Manufacturing Orders*. User who have access rights can cancel manufacturing orders.
+From Users Menu, there is access rights called *Cancel Manufacturing Orders*. User who have access rights can cancel manufacturing orders.
 
 ![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Berechtigung.png)
 
@@ -26,7 +27,7 @@ Repository: <https://gitlab.com/mint-system/odoo-app-cancel-manufacturing-order>
 
 Once manufacturing order done inventory moves moved to done state.
 
- User who have cancel manufacturing orders access rights can see *Cancel* button. 
+User who have cancel manufacturing orders access rights can see *Cancel* button. 
 
 ![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Knopf.png)
 
@@ -36,7 +37,7 @@ Once manufacturing order done inventory moves moved to done state.
 
 When user click on cancel button it cancel inventory moves, cancel work orders and reverse inventory in system and moved manufacturing order to *Cancelled* state. 
 
- After cancel manufacturing order reset to draft button appeared.
+After cancel manufacturing order reset to draft button appeared.
  
 ![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Zur%C3%BCcksetzen.png)
 

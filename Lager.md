@@ -109,3 +109,24 @@ Die Anzahl Dezimalstellen für eine Einheit wird unter *Einstellungen > Technisc
 Die hier gemachten Einstellung haben Einfluss auf die Darstellung der Zahl.
 
 ![](assets/Lager%20Wicht%20mit%203%20Kommastellen.png)
+
+## Aktion  "Lagerbuchung zurücksetzen" erstellen
+
+Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Lagerbuchung zurücksetzen`\
+Modell: `stock.move`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```py
+for record in records:  
+  record.write({'state': 'draft'})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
+
+![](assets/Lager%20Aktion%20%20Lagerbuchung%20Zurücksetzen%20erstellen.png)
