@@ -61,7 +61,7 @@ Falls für die Angebotsanfrage ein Lieferant vorgegeben wird, dann erscheint in 
 ![Einkauf Bestellung Beispiel 3](assets/Einkauf Bestellung Beispiel 3.png)
 
 ### Fall 3: Preisstaffelung
-Falls in den Produktionformationen eine Preisstaffelung in Abhängigkeit zu Lieferant und Menge abgebildet ist, wird in der Einkaufsliste der passende Preis abgebildet.
+Falls in den Produktionformationen eine Preisstaffelung in Abhängigkeit zu Lieferant und Menge abgebildet ist, wird in der Einkaufsliste der passende Preis eingetragen.
 
 
 ![Einkauf Preisstaffelung Beispiel](assets/Einkauf Preisstaffelung Beispiel.png)
@@ -79,6 +79,30 @@ Beispiel Einkauf bei Liererant *Steinmann GmbH*
 ## Angebotsanfrage senden
 
 Mit dem Knopf *Per E-Mail Versenden* wird eine PDF-Datei generiert und per eMail an den Lieferanten gesendet.
+
+## Subunternehmer beauftragen
+Wenn die Fertigung eines Produktes an einen Subunternehmer übertragen wird, dann sind in der Auftragsabwicklung die folgenden Punkte zu berücksichtigen.
+
+### Vorbereitung
+- App *Fertigung (mrp)* installieren
+- Die Option *An Subunternehmer vergeben* einschalten (Einstellungen > Fertigung)
+
+### Stückliste definieren
+Ein Produkt das extern gefertigt wird benötigt eine Stückliste vom Typ *An Subunternehmer vergeben*. Im Feld *Subunternehmer* werden die vorgesehenen Lieferanten eingetragen.
+
+![Einkauf Subunternehmer Stückliste](assets/Einkauf Subunternehmer Stückliste.png)
+
+### Route einstellen
+Die in der Stückliste enthaltenen Produkte müssen als Route *Subunternehmer nach Auftrag versorgen* eingestellt haben.
+
+![Einkauf Subunternehmer Stückliste Typ](assets/Einkauf Subunternehmer Stückliste Typ.png)
+
+
+### Bei Subunternehmer bestellen
+Ein extern zu fertigendes Produkt wird über einen entsprechenden Beschaffungsauftrag beim vorgesehenen Subunternehmer beauftragt. Mit dem Bestätigen der Bestellung werden die folgenden zwei Transfers programmiert.
+- Wareneingang (WH/IN/---) 
+- Lieferauftrag an den Subunternehmer (WH/OUT/---).
+
 
 ## Portal-Ansicht Bestellung anzeigen
 
