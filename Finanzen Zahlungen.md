@@ -31,6 +31,12 @@ Navigieren sie nach *Finanzen > Optionen Journal > Einstellungen > Tab Erweitert
 
 ![Finanzen SEPA-Zahlung erfassen](assets/Finanzen%20SEPA-Zahlung%20erfassen.gif)
 
+## SEPA-Zahlung nach Währung gruppieren
+
+Oft macht es Sinn Zahlungen nach Währung oder einem anderen Attribut zu gruppieren. Klicken sie auf *Finanzen > X Über SEPA zu sendende Zahlungen* und wählen sie *Gruppieren nach > Währung*. Führen sie nun eine Folgeaktion aus mit der markierten Elementen einer Gruppe.
+
+![](assets/Finanzen%20Zahlungen%20SEPA-Zahlung%20nach%20Währung%20gruppieren.png)
+
 ## Stapelzahlung anlegen
 
 Um eine Zahlung zu exportieren, klicken sie auf *Finanzen > X Über SEPA zu sendende Zahlungen*, markieren die offenen Zahlungen und wählen *Aktion > Stapelzahlung anlegen*. Im neuen Dialog wählen sie *Bestätigen* und erhalten so die generierte Zahlungsdatei, die sie exportieren können.

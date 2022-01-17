@@ -23,7 +23,7 @@ Odoo mühelos anpassen und erweitern.
 
 ## Assets-Bundel neu generieren
 
-Wird Odoo im Browser angezeigt, werden sog. Assets im Hintergrund geladen (JavaScript- und CSS-Dateien). Diese Assets können nach einem Odoo-Update veraltet sein und müss neu generiert werden. Wählen sie *Entickler-Tool > Bündel von Assets regenerieren.
+Wird Odoo im Browser angezeigt, werden sog. Assets im Hintergrund geladen (JavaScript-, SCSS- und CSS-Dateien). Diese Assets können nach einem Odoo-Update veraltet sein und müss neu generiert werden. Wählen sie Entwickler-Tool > Bündel von Assets regenerieren.
 
 ![](assets/Entwicklung%20Assets-Bundel%20neu%20generieren.png)
 

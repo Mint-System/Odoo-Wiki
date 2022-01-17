@@ -12,9 +12,25 @@ Unterschiedliche Währungen mit Odoo Finanzen verarbeiten.
 
 Navigieren nach *Finanzen > Konfiguration > Einstellungen > Währungen* und dort die Option *Mehrere Währungen* akvieren. Nach Bedarf muss ein Journal gemäss Vorlage erstellt werden. Die verfügbaren Währungen können über die Option *Andere Währungen aktivieren* verwaltet werden.
 
+## Konto für Kursdifferenzbuchungen bestimmen
+
+Zeigen sie *Einstellungen > Finanzen > Währungen* an. Unter der aktivierten Option *Mehrere Währungen* finden sie die Felder zum festlegen des Journals, Gewinn- und Verlustkonto für Kursdifferenzen.
+
 ## Automatische Währungssätze aktiveren
 
-Werden mehre Währungen verwendet, können die Wechselkurse automatisch von Odoo aktualisiert werden. Navigieren sie nach *Einstellungen > Finanzen > Währung* und klicken sie auf *Automatische Währungssätze*. Stellen sie ob die Währung automatisch oder manuel aktualisiert werden soll.
+Werden mehre Währungen verwendet, können die Wechselkurse automatisch von Odoo aktualisiert werden. Navigieren sie nach *Einstellungen > Finanzen > Währung* und klicken sie auf *Automatische Währungssätze*. Stellen sie ein ob die Währung automatisch oder manuell aktualisiert werden soll.
+
+![](assets/Finanzen%20Mehrere%20Währungen%20Automatisch.png)
+
+Klicken sie auf das Icon neben dem Feld *Nächster Lauf*. Die Währungskurse werden nun aktualisiert.
+
+## Währungskurse anzeigen
+
+Öffnen sie *Finanzen > Konfiguration > Währungen*. Hier werden alle aktivierten Währungen der entsprechende Kurs aufgelistet. In der Detailansicht sehen sie die Einstellungen der Währung sowie vergange Kurse.
+
+## Währung aktivieren oder deaktivieren
+
+Öffnen sie *Finanzen > Konfiguration > Währungen*. Aktivieren oder deaktivieren sie die Währung in der Spalte *Aktiv*.
 
 ## Währung auf Rechnung festlegen
 
