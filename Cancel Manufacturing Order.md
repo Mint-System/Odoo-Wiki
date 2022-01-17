@@ -15,37 +15,35 @@ Repository: <https://gitlab.com/mint-system/odoo-app-cancel-manufacturing-order>
 
 ## Berechtigung festlegen
 
-From Users Menu, there is access rights called *Cancel Manufacturing Orders*. User who have access rights can cancel manufacturing orders.
+In den Benutzereinstellungen aktivieren sie die Option *Cancel Manufacturing Orders*. Benutzer mit dieser Berechtigung können Fertigungsaufträge abbrechen.
 
 ![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Berechtigung.png)
 
 ## Fertigungsauftrag zurücksetzen
 
- Before process manufacturing order as per below image product have some quantity.
+Damit ein Fertgigungsauftrag zurückgesetzt werden kann, muss sichergestellt werden, dass die Produkte an Lager sind.
 
 ![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Menge.png)
 
-Once manufacturing order done inventory moves moved to done state.
-
-User who have cancel manufacturing orders access rights can see *Cancel* button. 
+Der Fertgiungsauftrag muss im Zustand *Erledigt* sein. Dann kann man über den Knopf *Cancel* den Fertigungsauftrag abbrechen.
 
 ![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Knopf.png)
 
- After done manufacturing order consumed material quantity decreased.
+ Entsprechen weden die konsumierten Materialien angepasst.
 
 ![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Menge%20aktuaisiert.png)
 
-When user click on cancel button it cancel inventory moves, cancel work orders and reverse inventory in system and moved manufacturing order to *Cancelled* state. 
+Beim Klick auf *Cancel* werden die Lagerbewebung zurückgesetzt und der Fertigungsaufrag wird abgebrochen.
 
-After cancel manufacturing order reset to draft button appeared.
- 
+Im Status *Abgebrochen* kann der Fertigungsauftrag in den Entwurfs-Status gesetzt werden.
+
 ![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Zur%C3%BCcksetzen.png)
 
-After cancel manufacturing order consumed material quantity increased.
+Nach Abbruch des Fertgiungsauftrag werden die Bestände der konsumierten Materialien angepasst.
 
 ![](assets/Fertigung%20Fertigungsauftrag%20Abbrechen%20Menge%20konsumiert.png)
 
-Click on reset to draft button it will delete cancelled inventory moves, delete cancelled finished workorders and make order in confirm state.
+Setzt man den Fertgigungsauftrag in den Entwurfsstatus, werden alle Lagerbewebungen und Arbeitsaufträge abgebrochen.
 
 ![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Entwurf%20erstellen.png)
 
