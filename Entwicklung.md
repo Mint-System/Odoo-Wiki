@@ -21,6 +21,12 @@ Odoo mühelos anpassen und erweitern.
 | [Mass Editing](Mass%20Editing.md)   | Mühelos mehrere Einträge auf einmal bearbeiten. |
 | [BI SQL Editor](BI%20SQL%20Editor.md) | Ganz einfach SQL-basierte Berichte erstellen.  |
 
+## Assets-Bundel neu generieren
+
+Wird Odoo im Browser angezeigt, werden sog. Assets im Hintergrund geladen (JavaScript- und CSS-Dateien). Diese Assets können nach einem Odoo-Update veraltet sein und müss neu generiert werden. Wählen sie *Entickler-Tool > Bündel von Assets regenerieren.
+
+![](assets/Entwicklung%20Assets-Bundel%20neu%20generieren.png)
+
 ## Domainfilter-Widget deaktivieren
 
 Damit man für Filter dynamische Funktionen verwenden kann, muss die Ansicht zur Darstellung der Filter angepasst werden.

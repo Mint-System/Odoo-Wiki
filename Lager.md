@@ -130,3 +130,22 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
 
 ![](assets/Lager%20Aktion%20%20Lagerbuchung%20Zurücksetzen%20erstellen.png)
+
+## Aktion  "Lagerbuchung abbrechen" erstellen
+
+Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Lagerbuchung abbrechen`\
+Modell: `stock.move`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```py
+for record in records:  
+  record.write({'state': 'cancel'})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
