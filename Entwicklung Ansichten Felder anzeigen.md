@@ -8,6 +8,12 @@ prev: ./entwicklung
 
 Odoo Ansichten anpassen.
 
+## Verfügbare Felder anzeigen
+
+Abhängig von der angezeigten Ansicht stehen Felder gemäss dem verknüpften Datenmodell zur Verfügung. Standardmässig werden nicht alle Felder angezeigt und bestimmte Felder müssen eingeblendet werden. Eine Übersicht der verfügbaren Felder erhalten sie via *Entwicklertools > Felder anzeigen*.
+
+![](assets/Pasted%20image%2020220118183127.png)
+
 ## Feld in Ansicht anzeigen
 
 Damit ein neues Feld ersichtlich ist, muss es auf der entsprechenden Ansicht hingefügt werden. Rufen sie im Entwicklermodus die Ansicht auf und wählen sie *Entwicklertools > Ansicht bearbeiten: Liste. Suchen sie hier den Feldnamen unter dem das neue Feld angezeigt werden soll.
