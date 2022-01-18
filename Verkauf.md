@@ -133,6 +133,21 @@ Ist diese Bedinung erfüllt können sie ein Angebot öffnen *Verkauf > Angebot a
 
 ## Liefer- und Rechnungsadresse festlegen
 
-Damit sie die Liefer- und Rechnungsadresse explizit festlegen können, muss die Option.
+Damit sie die Liefer- und Rechnungsadresse explizit festlegen können, muss die Option *Einstellungen > Verkauf > Angebote und Aufträge > Kundenadresse* aktiviert sein.
 
-#FIXME 
+![](assets/Verkauf%20Rechnung-%20und%20Lieferadresse.png)
+
+## Auftragszeilen anzeigen
+
+Damit sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+
+Name der Aktion: `Auftragszeilen`\
+Objekt: `sale.order.line`\
+Menü: `Auftragszeilen`\
+Obermenü: `Verkauf/Produkte`\
+Aktion: `ir.actions.act_window` `Auftragszeilen`
+Nummernfolge: `90`
+
+Das Ergebnis sollte so aussehen:
+
+![](assets/Verkauf%20Auftragszeilen.png)
