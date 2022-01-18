@@ -14,6 +14,10 @@ Abhängig von der angezeigten Ansicht stehen Felder gemäss dem verknüpften Dat
 
 ![](assets/Pasted%20image%2020220118183127.png)
 
+::: tip
+Hier finden sie zu jedem Feld den technischen Name *Feldname*. Diesen Namen verwendet Odoo für die Programmierung.
+:::
+
 ## Feld in Ansicht anzeigen
 
 Damit ein neues Feld ersichtlich ist, muss es auf der entsprechenden Ansicht hingefügt werden. Rufen sie im Entwicklermodus die Ansicht auf und wählen sie *Entwicklertools > Ansicht bearbeiten: Liste. Suchen sie hier den Feldnamen unter dem das neue Feld angezeigt werden soll.
