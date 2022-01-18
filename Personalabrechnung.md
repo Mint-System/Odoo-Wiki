@@ -113,7 +113,7 @@ Damit sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen sie dem How
 Name der Aktion: `Lohnabrechnungszeilen`\
 Objekt: `hr.payslip.line`\
 Menü: `Lohnabrechnungszeilen`\
-Obermenü: `	ersonalabrechnung/Abrechnungen Mitarbeitervergütung`\
+Obermenü: `Personalabrechnung/Abrechnungen Mitarbeitervergütung`\
 Aktion: `ir.actions.act_window` `Lohnabrechnungszeilen`
 Nummernfolge: `90`
 

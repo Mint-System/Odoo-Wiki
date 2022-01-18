@@ -48,3 +48,13 @@ Die Einladung sie wie folgt aus:
 Hat sich der Benutzer mit der Mail registriert, muss er seinen Account verifizieren.
 
 ![](assets/Einstellungen%20Login%20Profilverifizierung.png)
+
+## Portal Benutzerkonto anlegen
+
+Falls sie für das Portal noch keinen Zugang haben, können sie über die Funktion *Benutzerkonto anlegen* ein Konto erstellen.
+
+![Einkauf Portal Benutzerkonto anlegen](assets/Einstellungen%20Portal%20Benutzerkonto%20anlegen.png)
+
+Benutzername und Passwort können gewählt werden.
+
+![Einkauf Portal Benutzerkonto registrieren](assets/Einstellungen%20Portal%20Benutzerkonto%20registrieren.png)

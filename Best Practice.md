@@ -58,6 +58,8 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Beschaffung](Best%20Practice%20Beschaffung.md)
 * [Einkauf Bestellmenge ändern](Best%20Practice%20Einkauf%20Bestellmenge%20ändern.md)
 * [Zustände von Ein- und Verkaufsaufträgen](Best%20Practice%20Zustände%20von%20Ein-%20und%20Verkausfauträgen.md)
+* [Subunternehmer beauftragen](Best%20Practice%20Subunternehmer%20beauftragen.md)
+* [Stückpreis definieren](Best%20Practice%20Stückpreis%20definieren.md)
 
 ### Lager
 

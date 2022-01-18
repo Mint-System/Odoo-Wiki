@@ -33,76 +33,9 @@ Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
 
 Im Register Produkte werden die gewünschten Artikel gelistet.
 
-## Stückpreis definieren
-Für die Definition des Stückpreises stehen verschiedene Funktionen zur Verfügung
-
-### Fall 1: Neue Lieferantenbeziehung
-Falls mit einem Beschaffungsauftrag zum ersten Mal bei einem bestimmten Lieferanten eingekauft wird, dann wird diese Lieferantenbeziehung beim Produkt im Abschnitt *Einkauf* eingetragen. Der Preis wird aus dem Beschaffungsauftrag übernommen und *Menge* und *Tage bis Auslieferung* auf 0 gesetzt.
-
-![Einkauf Bestellung Beispiel](assets/Einkauf Bestellung Beispiel.png)
-
-
-![Einkauf Bestellung Lieferantenbeziehung](assets/Einkauf Bestellung Lieferantenbeziehung.png)
-
-::: warning
-Weitere Bestellungen des selben Produkts beim selben Lieferanten haben keinen Einfluss auf die Listeneinträge im Abschnitt *Einkauf*
-:::
-
-### Fall 2: Mehrere Lieferanten stehen zur Wahl
-Falls für eine neue Angebotsanfrage das Feld *Lieferant* noch nicht ausgefüllt ist, wird der Stückpreis des ersten Lieferanten der Produktinformationen in die Einkaufsliste übertragen.
-
-![Einkauf Bestellung Beispiel 2](assets/Einkauf Bestellung Beispiel 2.png)
-
-
-![Einkauf Bestellung Lieferantenbeziehung 2](assets/Einkauf Bestellung Lieferantenbeziehung 2.png)
-
-Falls für die Angebotsanfrage ein Lieferant vorgegeben wird, dann erscheint in der Einkaufsliste der Stückpreis dieses Lieferanten.
-
-![Einkauf Bestellung Beispiel 3](assets/Einkauf Bestellung Beispiel 3.png)
-
-### Fall 3: Preisstaffelung
-Falls in den Produktionformationen eine Preisstaffelung in Abhängigkeit zu Lieferant und Menge abgebildet ist, wird in der Einkaufsliste der passende Preis eingetragen.
-
-
-![Einkauf Preisstaffelung Beispiel](assets/Einkauf Preisstaffelung Beispiel.png)
-
-
-Beispiel Einkauf bei Liererant *Klingel AG*
-
-![Einkauf Bestellung Beispiel 4](assets/Einkauf Bestellung Beispiel 4.png)
-
-Beispiel Einkauf bei Liererant *Steinmann GmbH*
-
-![Einkauf Bestellung Beispiel 4](assets/Einkauf Bestellung Beispiel 4.png)
-
-
 ## Angebotsanfrage senden
 
 Mit dem Knopf *Per E-Mail Versenden* wird eine PDF-Datei generiert und per eMail an den Lieferanten gesendet.
-
-## Subunternehmer beauftragen
-Wenn die Fertigung eines Produktes an einen Subunternehmer übertragen wird, dann sind in der Auftragsabwicklung die folgenden Punkte zu berücksichtigen.
-
-### Vorbereitung
-- App *Fertigung (mrp)* installieren
-- Die Option *An Subunternehmer vergeben* einschalten (Einstellungen > Fertigung)
-
-### Stückliste definieren
-Ein Produkt das extern gefertigt wird benötigt eine Stückliste vom Typ *An Subunternehmer vergeben*. Im Feld *Subunternehmer* werden die vorgesehenen Lieferanten eingetragen.
-
-![Einkauf Subunternehmer Stückliste](assets/Einkauf Subunternehmer Stückliste.png)
-
-### Route einstellen
-Die in der Stückliste enthaltenen Produkte müssen als Route *Subunternehmer nach Auftrag versorgen* eingestellt haben.
-
-![Einkauf Subunternehmer Stückliste Typ](assets/Einkauf Subunternehmer Stückliste Typ.png)
-
-
-### Bei Subunternehmer bestellen
-Ein extern zu fertigendes Produkt wird über einen entsprechenden Beschaffungsauftrag beim vorgesehenen Subunternehmer beauftragt. Mit dem Bestätigen der Bestellung werden die folgenden zwei Transfers programmiert.
-- Wareneingang (WH/IN/---) 
-- Lieferauftrag an den Subunternehmer (WH/OUT/---).
-
 
 ## Portal-Ansicht Bestellung anzeigen
 
@@ -115,16 +48,6 @@ Die Portal-Ansicht einer Bestellung können sie wie folgt anzeigen:
 ::: tip
 In einem privaten Browser werden die Cookies nicht geladen und somit wird man nicht automatisch bei Odoo angemeldet.
 :::
-
-## Portal Benutzerkonto anlegen
-Falls sie für das Portal noch keinen Zugang haben, können sie über die Funktion *Benutzerkonto anlegen* ein Konto erstellen.
-
-![Einkauf Portal Benutzerkonto anlegen](assets/Einkauf%20Portal%20Benutzerkonto%20anlegen.png)
-
-Benutzername und Passwort können gewählt werden.
-
-![Einkauf Portal Benutzerkonto registrieren](assets/Einkauf%20Portal%20Benutzerkonto%20registrieren.png)
-
 
 ## Lieferadresse ändern
 Auf einer Bestellung ist die Lieferadresse standardmässig die Adresse der eigenen Firma gemäss *Einstellungen > Unternehmen*.
@@ -149,3 +72,18 @@ Die Lieferanschrift kann auf der Bestellung gemäss der folgenden Abbildung gew�
 Die Bestellung sieht dann wie folgt aus:
 
 ![Einkauf Bestellung Beispiel Lieferadresse](assets/Einkauf%20Bestellung%20Beispiel%20Lieferadresse.png)
+
+## Einkaufszeilen anzeigen
+
+Damit sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+
+Name der Aktion: `Einkaufszeilen`\
+Objekt: `purchase.order.line`\
+Menü: `Einkaufszeilen`\
+Obermenü: `Einkauf/Produkte`\
+Aktion: `ir.actions.act_window` `Einkaufszeilen`
+Nummernfolge: `90`
+
+Das Ergebnis sollte so aussehen:
+
+![](assets/Einkauf%20Einkaufszeilen.png)
