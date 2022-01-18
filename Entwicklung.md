@@ -8,12 +8,12 @@ prev: ./
 
 Odoo mühelos anpassen und erweitern.
 
-| Bereich                                                   | Beschreibung                                                |
-| --------------------------------------------------------- | ----------------------------------------------------------- |
+| Bereich                                                     | Beschreibung                                                |
+| ----------------------------------------------------------- | ----------------------------------------------------------- |
 | [Entwicklung Aktionen](Entwicklung%20Aktionen.md)           | Eigene Odoo Aktionen erstellen.                             |
 | [Entwicklung Snippets](Entwicklung%20Snippets.md)           | Einfache Anpassungen mit den Mint System Snippets umsetzen. |
 | [Entwicklung QWeb-Berichte](Entwicklung%20QWeb-Berichte.md) | Eigene Berichte mit QWeb erstellen.                         |
-| [Entwicklung Ansichten Felder anzeigen](Entwicklung%20Ansichten%20Felder%20anzeigen.md)         | Odoo Ansichten anpassen.                                    |
+| [Entwicklung Ansichten](Entwicklung%20Ansichten.md)         | Odoo Ansichten anpassen.                                    |
 
 | Erweiterung                       | Beschreibung                                   |
 | --------------------------------- | ---------------------------------------------- |
