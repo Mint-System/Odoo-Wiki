@@ -81,7 +81,7 @@ Name der Aktion: `Einkaufszeilen`\
 Objekt: `purchase.order.line`\
 Menü: `Einkaufszeilen`\
 Obermenü: `Einkauf/Produkte`\
-Aktion: `ir.actions.act_window` `Einkaufszeilen`
+Aktion: `ir.actions.act_window` `Einkaufszeilen`\
 Nummernfolge: `90`
 
 Das Ergebnis sollte so aussehen:

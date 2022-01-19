@@ -144,9 +144,9 @@ Damit sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen sie dem How
 Name der Aktion: `Auftragszeilen`\
 Objekt: `sale.order.line`\
 Menü: `Auftragszeilen`\
-Obermenü: `Verkauf/Produkte`\
-Aktion: `ir.actions.act_window` `Auftragszeilen`
-Nummernfolge: `90`
+Obermenü: `Verkauf/Aufträge`\
+Aktion: `ir.actions.act_window` `Auftragszeilen`\
+Nummernfolge: `2`
 
 Das Ergebnis sollte so aussehen:
 
