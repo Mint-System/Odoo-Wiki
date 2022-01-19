@@ -79,6 +79,7 @@ Damit sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen sie dem How
 
 Name der Aktion: `Einkaufszeilen`\
 Objekt: `purchase.order.line`\
+Ansichtsmodus: `tree,form,pivot`\
 Menü: `Einkaufszeilen`\
 Obermenü: `Einkauf/Produkte`\
 Aktion: `ir.actions.act_window` `Einkaufszeilen`\

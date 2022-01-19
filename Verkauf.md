@@ -143,6 +143,7 @@ Damit sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen sie dem How
 
 Name der Aktion: `Auftragszeilen`\
 Objekt: `sale.order.line`\
+Ansichtsmodus: `tree,form,pivot`\
 Menü: `Auftragszeilen`\
 Obermenü: `Verkauf/Aufträge`\
 Aktion: `ir.actions.act_window` `Auftragszeilen`\
