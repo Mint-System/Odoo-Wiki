@@ -198,3 +198,22 @@ Dazu die Angaben aus dem Beispiel:
 Ist die *Externe Identifikation* gespeichert, wird sie auf Datensatz angezeigt.
 
 ![](assets/Entwicklung%20Externe%20Ansicht%20Beispiel.png)
+
+## Neues Beziehungs-Feld hinzufügen
+
+Wir nehmen an, dass sie auf der Auftragsposition ein Beziehungs-Feld benötigen. Dieses Feld soll die Kundenreferenz auf dem zugehörigen Verkaufsauftrag anzeigen.
+
+Erstellen sie ein neues Feld unter *Einstellungen > Technisch > Datenbankstruktur > Felder* mit diesen Attributen:
+
+* **Feldname**: `x_client_order_ref`
+* **Feldbezeichnung**: Kundenreferenz
+* **Modell**: Auftragsposition (technischer Name ist `sale.order.line`)
+* **Typfeld-Text**: Text
+* **Basiseigenschaften**:
+	* Nur Lesen
+	* Gespeichert
+* **Beziehungs-Feld**: `order_id.client_order_ref`
+
+![](assets/Entwicklung%20Neues%20Beziehungs-Feld%20hinzufügen.png)
+
+Dieses Feld können sie nun in Berichten oder Listenansichten anzeigen.
