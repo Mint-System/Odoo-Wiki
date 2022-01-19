@@ -57,6 +57,16 @@ Zur Speicherung der QR-IBAN gibt es auf dem Bankkonto ein entsprechendes Feld. N
 
 Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an und öffnen sie den Tab *Weitere Informationen*. Im Feld *Payment QR-code* ist die Methode zum Generieren des QR-Codes festgelegt.
 
+## Zahlungsreferenz Lieferant hinterlegen
+
+Auf einer Lieferantenrechnung unter *Finanzen > Lieferanten > Rechnung* geben sie im Feld *Zahlungsreferenz* die Rechnungsnummer des Lieferanten ein. Dazu ein Beispiel:
+
+![](assets/Finanzen%20Zahlungen%20Zahlungsreferenz%20Lieferant%20hinterlegen.png)
+
+Wenn sie eine Zahlung erfassen wird diese Zahlungsreferenz als *Memo* übernommen.
+
+![](assets/Finanzen%20Zahlungen%20Memo%20Zahlung.png)
+
 ## Ausgehende Zahlung für mehrere Rechnungen erfassen
 Im App Finanzen in der Ansicht *Finanzen >  Lieferanten > Rechnung* den Filter *Nicht bezahlt* setzen. Die zu zahhlenden Rechnungen links markieren und *Zahlung erfassen* auswählen. 
 
