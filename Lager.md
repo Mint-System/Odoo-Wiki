@@ -149,3 +149,9 @@ for record in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
+
+## Vorgangstyp für Retouren definieren
+
+Öffnen sie *Lager > Konfiguration > Route* und wählen sie eine Route aus. Klicken sie auf die *Regel* auf der die Retoure erfolgt. Wählen sie auf der Regel den *Vorgangstyp* aus und bearbeiten sie diesen. Im Feld *Vorgangstyp für Retouren* wählen sie den Vorgangstyp für die Retoure aus.
+
+
