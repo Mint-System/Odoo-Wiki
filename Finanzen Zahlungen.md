@@ -54,6 +54,7 @@ Angenommen sie haben Stammdaten oder Kontoangaben der Lieferanten angepasst und 
 Angenommen sie möchten eine Zahlung korrigeren und anschliessen erneut zur Zahlung hochladen. Gehen sie wie folgt vor. Rufen sie die Zahlung unter *Finanzen > Lieferanten > Zahlungen* auf. Wählen sie *Stornieren* und passen sie die Zahlung an. *Bestätigen* sie anschliessend die Zahlung klicken sie auf *Abstimmung Rechnungen & Zahlungen*.
 
 ![](assets/Pasted%20image%2020220120113850.png)
+
 Hat sich der Betrag genändert muss nun die Differenz entsprechend verbucht werden.
 
 ![](assets/Finanzen%20Zahlungen%20Zahlungsbetrag%20korrigieren.png)
