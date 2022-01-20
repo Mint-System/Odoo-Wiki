@@ -8,9 +8,10 @@ prev: ./
 
 Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung. 
 
-| Bereich                                     | Beschreibung                                         |
-| ------------------------------------------- | ---------------------------------------------------- |
+| Bereich                                       | Beschreibung                                         |
+| --------------------------------------------- | ---------------------------------------------------- |
 | [Verkauf Stammdaten](Verkauf%20Stammdaten.md) | Produkte, Preislisten und Varianten zentral pflegen. |
+| [Verkauf Versand](Verkauf%20Versand.md)       | Versandmethoden und Logistik definieren.             |
 
 | Erweiterung                                                                         | Beschreibung                                                           |
 | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
@@ -64,10 +65,6 @@ Für jedes Produkt zeigt der Bericht *Forecasted Report* eine detaillierte Über
 Mit dem Knopf *Per E-Mail Versenden* erstellt das System automatisch einen e-Mail Entwurf mit dem Angebot als PDF-Attachment. Die Textnachricht ist als Template hinterlegt, kann aber editiert werden.
 Mit *Senden* wird die e-Mail gesendet und der Status ändert auf *Angebot Gesendet*.
 
-## Kundenansicht
-
-Das versendete Angebots-eMail enthält einen Hyperlink auf die Kundenansicht in Form einer Website (Kunden-Portal). Auf dieser Seite findet der Kunde alle Informationen zum Angebot inklusiv der Möglichkeit des Downloads von PDF-Dokumenten.
-
 ## Auftrag bestätigen
 
 Das Angebot wird über folgende alternativen Aktionen zum Verkaufsauftrag:
@@ -79,11 +76,6 @@ Damit wechselt das Angebot in den Status *Verkaufsauftrag*.
 Die Option Einstellungen > Verkauf > Angebote und Aufträge > Angebotsvorlagen ermöglicht das Einrichten eines automatischen Bestätigungs-eMail.
 
 Mit der Aktion *Per E-Mail Versenden* wird automatisch ein e-Mail Entwurf für das Versenden der Auftragsbestätigung generiert.
-
-## Warenbedarf anzeigen
-
-Durch einen Verkaufsauftrag entsteht Warenbedarf der (falls nicht im Lager vorhanden) automatisch zu Einkaufs- oder Fertigungsvorschlägen führt. Folgende Beschreibung zeigt die Systematik:
-[Best Practice Warenbedarf](Best%20Practice%20Warenbedarf.md)
 
 ## Lieferung anzeigen
 
