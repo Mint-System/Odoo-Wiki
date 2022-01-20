@@ -41,6 +41,23 @@ Oft macht es Sinn Zahlungen nach Währung oder einem anderen Attribut zu gruppie
 
 Um eine Zahlung zu exportieren, klicken sie auf *Finanzen > X Über SEPA zu sendende Zahlungen*, markieren die offenen Zahlungen und wählen *Aktion > Stapelzahlung anlegen*. Im neuen Dialog wählen sie *Bestätigen* und erhalten so die generierte Zahlungsdatei, die sie exportieren können.
 
+Im Menüpunkt *Finanzen > Lieferanten > Stapel-Überweisungen* sehen sie alle Stapelzahlungen.
+
+## Zahlungsdatei neu generieren
+
+Angenommen sie haben Stammdaten oder Kontoangaben der Lieferanten angepasst und möcht die Zahlungsdatei erneut generieren, öffnen sie *Finanzen > Lieferanten > Stapel-Überweisungen*. Wählen sie die betroffene Stapelzahlung aus und klicken sie auf *Re-generate Export File*. Ein Dialog öffnet sich und sie können sie Zahlung herunterladen.
+
+![](assets/Finanzen%20Zahlungen%20Datei%20herunterladen.png)
+
+## Zahlungsbetrag korrigieren
+
+Angenommen sie möchten eine Zahlung korrigeren und anschliessen erneut zur Zahlung hochladen. Gehen sie wie folgt vor. Rufen sie die Zahlung unter *Finanzen > Lieferanten > Zahlungen* auf. Wählen sie *Stornieren* und passen sie die Zahlung an. *Bestätigen* sie anschliessend die Zahlung klicken sie auf *Abstimmung Rechnungen & Zahlungen*.
+
+![](assets/Pasted%20image%2020220120113850.png)
+Hat sich der Betrag genändert muss nun die Differenz entsprechend verbucht werden.
+
+![](assets/Finanzen%20Zahlungen%20Zahlungsbetrag%20korrigieren.png)
+
 ## Mehrere Zahlungen auf einmal anlegen
 
 Öffnen sie *Finanzen > Lieferanten > Rechnungen* und zeigen sie die Spalte *Zahlung Status* an. Filtern sie nach *Nicht bezahl* und selektieren sie die Rechnungen, für welche sie eine Zahlung erfassen möchten.
