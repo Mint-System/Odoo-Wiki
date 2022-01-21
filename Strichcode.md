@@ -59,6 +59,14 @@ Sobald der Dokument-Code (immer oben rechs) gescannt wurde, werden die Positione
 
 Nun können sie einzelnen Positionen bestätigen und den Vorgang mit dem Barcode-Befehl *Validate* abschliessen.
 
+## Zusätzliche Produkte hinzufügen
+
+Im Transfer können sie Produkte anhand des Produktbarcodes hinzufügen. Öffnen sie die App *Strichcode* und halten sie den Scanner, das Dokument und den Produktbarcode bereit.
+
+Mit jedem Scan des Produktbarcodes wird 1 Stück dem Transfer hinzugefügt.
+
+![Strichcode Zusätzliche Produkte hinzufügen](assets/Strichcode%20Zusätzliche%20Produkte%20hinzufügen.gif)
+
 ## Strichcode-Eingabe simulieren
 
 Auf einem Linux-Computer kann man ganz einfach eine Strichcode-Eingabe mit [xdotool](https://www.semicomplete.com/projects/xdotool/) simulieren. Öffnen sie ein Terminal-Fenster installieren sie das xdotool mit dem Befehl `sudo apt install xdotool`. Öffnen sie den Firefox-Browser und zeigen sie das *Strichcode* App an. Führen sie das folgende Skript im Terminal aus:
