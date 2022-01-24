@@ -138,3 +138,52 @@ Odoo Direct Print gibt eine Warnung aus, wenn das Papieformat nicht mit dem verk
 Mit Druck-Senarien können sie Druckvorgänge automatisieren. Damit der Packvorgang nach der Bestätigung eines Verkaufsauftrags automatisch gedruckt wird, navigieren sie als erstes nach *Direct Print > Print Scenarios*. Aktivieren sie die Zeile *Print Picking Document after Sales Order Confirmation*.
 
 Für das automatische Drucken das Lieferschein aktivieren sie die Zeile *Print document on Backorder (created after Transfer validation*.
+
+## Geplante Aktion "Rüstschein drucken" erstellen
+
+Navigieren sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Rüstschein drucken`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Tage\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 07:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```py
+# Get deliveries due in 3 days
+start_date = (datetime.datetime.now() + datetime.timedelta(days=2)).strftime('%Y-%m-%d')
+end_date = (datetime.datetime.now() + datetime.timedelta(days=4)).strftime('%Y-%m-%d')
+
+pickings = env['stock.picking'].search([
+('picking_type_id', '=', 2),
+('scheduled_date', '>', start_date),
+('scheduled_date', '<', end_date)
+])
+
+# raise Warning([start_date, end_date, pickings])
+
+report_name = 'stock.action_report_picking'
+printer_id = env.user.get_report_printer(report_name)[0]
+
+# raise Warning(["Printer:", printer_id.name])
+
+picking_ids = pickings.filtered(lambda r: not r.printed)
+
+# raise Warning(["Print Pickings:", picking_ids])
+
+log('Start print job for %s on %s' % (picking_ids, printer_id))
+
+number_of_copies = 1
+report_id = env.ref(report_name)
+
+printer_id.printnode_print(
+  report_id,
+  picking_ids,
+  copies=number_of_copies
+)
+
+picking_ids.write({'printed': True})
+```
