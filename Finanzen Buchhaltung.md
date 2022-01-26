@@ -86,3 +86,11 @@ Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Beweb
 ## Buchungszeilen ohne Entwicklermodus anzeigen
 
 Das Menü *Buchungszeilen* wird nur im Entwicklermodus angezeigt. Um das Verhalten zu ändern, öffnen sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge*, zeigen den Menüeintrag *Buchungszeilen* an und entfernen im Tab *Zugriffsrechte* die Gruppe. Aktualisieren sie den Browser und verlassen sie den Entwicklermodus. Sie sollten den Menüeintrag nun sehen.
+
+## Buchungssatz korrigieren
+
+Haben sie eine fehlerhafte Buchung gemacht, können sie diese einfach korrigieren. Öffnen sie den Buchungssatz via *Finanzen > Finanzen > Buchungssätze*. Wählen sie *Zurücksetzen* und korrigieren sie beispielsweise ein Konto auf dem Buchungssatz. Buchen sie die korrektur mit der Aktion *Buchen*.
+
+::: warning
+Falls sie eine Rechnung korrigieren, geht Zahlungsabgleiche verloren. Diese müssen sie wieder verknüpfen.
+:::

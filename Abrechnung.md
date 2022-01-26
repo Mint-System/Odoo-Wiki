@@ -123,7 +123,7 @@ Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die A
 
 Damit Frankenbeträge in Rechnungen auf 0.05 gerundet werden, müssen sie die Bargeldrundung aktivieren.
 
-Navigieren sie nach *Finanzen > Konfiguration > Verwaltung > Bargeld-Runden* und erstellen sie einen neuen Eintrag wie folgt.
+Navigieren sie nach *Finanzen > Konfiguration > Bargeld-Runden* und erstellen sie einen neuen Eintrag wie folgt.
 
 ![](assets/Abrechnung%20Runden.png)
 
