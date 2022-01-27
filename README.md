@@ -241,7 +241,7 @@ Management des Produktlebenszyklus für moderne Firmen.
 
 In wenigen Minuten einrichten, innerhalb von Sekunden verkaufen. 
 
-![icons_odoo_point_of_sale](assets/icons_odoo_point_of_sale.png)
+[![icons_odoo_point_of_sale](assets/icons_odoo_point_of_sale.png)](Point%20of%20Sale.md)
 
 ### [Projekt](Projekt.md)
 
