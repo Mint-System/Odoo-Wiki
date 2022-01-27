@@ -155,3 +155,8 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *
 Öffnen sie *Lager > Konfiguration > Route* und wählen sie eine Route aus. Klicken sie auf die *Regel* auf der die Retoure erfolgt. Wählen sie auf der Regel den *Vorgangstyp* aus und bearbeiten sie diesen. Im Feld *Vorgangstyp für Retouren* wählen sie den Vorgangstyp für die Retoure aus.
 
 
+## Transfer korrigieren
+
+Wurde ein Transfer einmal erledigt, kann er nicht mehr bearbeitet werden. Jedoch können sie diesen *Entsperren* um bestimmte Felder zu ändern.
+
+![Lager Transfer entsperren](assets/Lager%20Transfer%20entsperren.gif)
