@@ -9,8 +9,8 @@ prev: ./verkauf
 
 Lieferdatum pro Position.
 
-Technischer Name: `sale_partner_incoterm`\
-Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_partner_incoterm>
+Technischer Name: `sale_order_line_date`\
+Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_order_line_date>
 
 ## Lieferdatum pro Position festlegen
 

@@ -107,3 +107,15 @@ Wählen sie bezahlte Rechnung oder Rechnung in Zahlung via *Finanzen > Lieferant
 ## Zahlungsreferenz neu geneireren
 
 Wählen sie die gebuchte Rechnung unter *Finanzen > Lieferanten > Rechnung* und klicken sie auf *Zurücksetzen*. Entfernen sie die Inhalte aus dem Feld *Zahlungsreferenz* und bestätigen sie die Rechnung. Nun sollte eine neue Zahlungsreferenz generiert werden.
+
+## Zahlungsdatei validieren
+
+Falls die Zahlung nach dem Hochladen ins eBanking nicht ausgeführt werden kann, können sie die Zahlungsdatei validieren lassen. Registrieren sie sich im [Swiss Pyament Standards Validation.Portal](https://validation.iso-payments.ch).
+
+Laden sie die Datei hoch und wählen sie den Standard aus. Drücken sie *Nachricht Hochladen* und anschliessen *Jetzt validieren* um den Validierungsvorgang zustarten.
+
+![](assets/Finanzen%20Zahlungen%20Zahlungsdatei%20validieren.png)
+
+Nach der Validierung erhalten sie einen ausführlichen Bericht.
+
+![](assets/Finanzen%20Zahlungen%20Zahlungsdatei%20output.png)
