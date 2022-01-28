@@ -49,6 +49,12 @@ Angenommen sie haben Stammdaten oder Kontoangaben der Lieferanten angepasst und 
 
 ![](assets/Finanzen%20Zahlungen%20Datei%20herunterladen.png)
 
+::: warning
+Falls sie beim Neugenerieren der Zahlung einen Fehler erhalten, müssen sie die Zahlungen zurücksetzen.
+
+![](assets/Finanzen%20Zahlung%20gesendet%20Fehler.png)
+:::
+
 ## Zahlungsbetrag korrigieren
 
 Angenommen sie möchten eine Zahlung korrigeren und anschliessen erneut zur Zahlung hochladen. Gehen sie wie folgt vor. Rufen sie die Zahlung unter *Finanzen > Lieferanten > Zahlungen* auf. Wählen sie *Stornieren* und passen sie die Zahlung an. *Bestätigen* sie anschliessend die Zahlung klicken sie auf *Abstimmung Rechnungen & Zahlungen*.
@@ -119,3 +125,28 @@ Laden sie die Datei hoch und wählen sie den Standard aus. Drücken sie *Nachric
 Nach der Validierung erhalten sie einen ausführlichen Bericht.
 
 ![](assets/Finanzen%20Zahlungen%20Zahlungsdatei%20output.png)
+
+## Aktion  "Zahlung gesendet zurücksetzen" erstellen
+
+Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Zahlung gesendet zurücksetzen`\
+Modell: `account.payment`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```py
+for record in records:  
+  record.write({'is_move_sent': False})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Zahlung erscheint nun in der Auswahl *Aktion* das Menu *Zahlung gesendet zurücksetzen*.
+
+## Zahlung gesendet zurücksetzen
+
+Wenn  sie die [Aktion "Zahlung gesendet zurücksetzen" erstellen](#Aktion%20Zahlung%20gesendet%20zurücksetzen%20erstellen), können sie Stapelzahlung mit gesendeten Zahlungen neu generieren.
+
+![Finanzen Zahlungen gesendet zurücksetzen](assets/Finanzen%20Zahlungen%20gesendet%20zurücksetzen.gif)
