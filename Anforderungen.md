@@ -8,7 +8,7 @@ Jeder Anforderung ist ein Status zugewiesen:
 * ⭕ Teilweise erfüllt.
 * ❌ Nicht erfüllt.
 
-Der Anforderungstitel beschreibt immer eine Aktion. Die Beschreibung erläutert die Anforderung in einfachen Worten. Optional kann ein Link zur Quelle im Handbuch hinzugefügt werden.
+Der Anforderungstitel beschreibt immer eine Aktion. Die Beschreibung erläutert die Anforderung in einfachen Worten. Optional kann ein Link zur Quelle im Wiki hinzugefügt werden.
 
 Jede funktionale Anforderung wird in einer Odoo-App gruppiert.
 

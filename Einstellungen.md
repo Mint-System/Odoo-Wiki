@@ -42,7 +42,7 @@ Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
 Navigieren sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen sie den Benutzer, dessen Zugriffsrechte sie verändern möchten. Drücken sie auf *Bearbeiten* und wählen sie nun über die Dropdown oder Checkboxen die Rollen und Zugriffe aus.
 
-![Odoo Handbuch Benutzerrechte](assets/Einstellungen%20Handbuch%20Benutzerrechte.png)
+![Odoo Benutzerrechte](assets/Einstellungen%20Benutzerrechte.png)
 
 Klicken Sie auf speichern um den Vorgang abzuschliessen.
 

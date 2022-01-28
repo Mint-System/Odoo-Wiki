@@ -1,19 +1,19 @@
-# Odoo Handbuch
+# Odoo Wiki
 
-Das Odoo Handbuch beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus vier Perspekten:
+Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus vier Perspekten:
 
 1. **Referenzsystem**: Eine umfassende Dokumentation der Odoo-Prozesse
 2. **Best Practice**: Beschreibung von Anwendungsfällen im Detail
 3. **HowTos**: Detailliert beschriebene Arbeitsschritte
 4. **Anforderungen**: Referenzanforderung für den Abgleich mit einem Lastenheften
 
-Die Perspektiven werden in diesem Handbuch verlinkt.
+Die Perspektiven werden in diesem Wiki verlinkt.
 
 ## Maintainer
 
 [![logo](assets/logo.svg)](https://www.mint-system.ch/)
 
-Das Odoo Handbuch wird von der [Mint System GmbH](https://www.mint-system.ch/) unterhalten.
+Das Odoo Wiki wird von der [Mint System GmbH](https://www.mint-system.ch/) unterhalten.
 
 ## [Referenzsystem](Referenzsystem.md)
 
@@ -309,4 +309,4 @@ Die Evaluation eines ERP-Systems ist eine aufwändige Arbeit. Als Kunde ist man 
 
 ## [Mitarbeit](Mitarbeit.md)
 
-Sie können eine Kopie des Handbuchs erstellen und für eigene Zwecke nutzen. Ebenfalls können sie Änderungen mitteilen und mit dem offizielen Handbuch zusammenführen. Mehr dazu unter [Mitarbeit](Mitarbeit.md).
+Sie können eine Kopie des Wiki erstellen und für eigene Zwecke nutzen. Ebenfalls können sie Änderungen mitteilen und mit dem offizielen Wiki zusammenführen. Mehr dazu unter [Mitarbeit](Mitarbeit.md).

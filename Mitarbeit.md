@@ -5,7 +5,7 @@ prev: ./
 ---
 # Mitarbeit
 
-In diesem Dokument werden die Vorgaben zur Mitarbeit am Odoo Handbuch erläutert.
+In diesem Dokument werden die Vorgaben zur Mitarbeit am Odoo Wiki erläutert.
 
 ## Verwendung
 
@@ -18,11 +18,11 @@ Technische Konfigurationen damit sie an der Wissensdatenbank mitarbeiten können
 3. Installieren sie <https://obsidian.md/>
 4. Installieren sie <https://git-scm.com/>
 5. Erstellen sie ein SSH-Schlüsselpaar <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
-6. Forken sie das *Odoo Handbuch* Repository (optional)
-7. Klonen sie das *Odoo Handbuch* Repository
+6. Forken sie das *Odoo Wiki* Repository (optional)
+7. Klonen sie das *Odoo Wiki Repository
 
 ```bash
-git@github.com:Mint-System/Odoo-Handbuch.git
+git@github.com:Mint-System/Odoo-Wiki.git
 ```
 
 8. Öffnen sie den Ordner mit Obsidian
@@ -35,13 +35,13 @@ Der Obsidian Vault und das Git Repository werden mit dem Obisidian Git Plugin sy
 * <kbd>ctrl + p</kbd> drücken
 * Befehl `Obisdian Git: Pull from remote repository` ausführen
 
-**Push** - Änderungen speichern und auf <https://github.com/Mint-System/Odoo-Handbuch> hochladen:
+**Push** - Änderungen speichern und auf <https://github.com/Mint-System/Odoo-Wiki> hochladen:
 * <kbd>ctrl + p</kbd> drücken
 * Befehl `Obisdian Git: Create backup` ausführen
 
 ## Philosophie
 
-Mit dem Odoo-Handbuch streben wir an eine einfache und kompakte Hilfestellung den Kunden anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best Practice](Best%20Practice.md). Geschäftsprozesse werden im [Referenzsystem](Referenzsystem.md) beschrieben. 
+Mit dem Odoo Wiki streben wir an eine einfache und kompakte Hilfestellung den Kunden anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best Practice](Best%20Practice.md). Geschäftsprozesse werden im [Referenzsystem](Referenzsystem.md) beschrieben. 
 
 ## Beispielunternehmen
 
