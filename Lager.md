@@ -24,7 +24,7 @@ Maximieren sie die Effizienz Ihres Lagers.
 | [Stock Barcode Packaging](Stock%20Barcode%20Packaging.md)           | Verpackung auf Strichcode-Vorgang anzeigen.                                                                 |
 | [Product Logistics UoM](Product%20Logistics%20UoM.md)               | Individuelle Mengenheit für Produkte festlegen.                                                             |
 | [Stock Move Weight UoM](Stock%20Move%20Weight%20UoM.md)             | Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.                                                |
-| [[Stock Move Line Auto Fill]]                                       | Die erledigte Menge auf einem Transfer automatisch ausfüllen.                                               |
+| [Stock Move Line Auto Fill](Stock%20Move%20Line%20Auto%20Fill.md)                                       | Die erledigte Menge auf einem Transfer automatisch ausfüllen.                                               |
 
 ## Produkt aufstocken
 

@@ -187,3 +187,22 @@ printer_id.printnode_print(
 
 picking_ids.write({'printed': True})
 ```
+
+## Geplante Aktion "Print Scenario Datum aktualisieren" erstellen
+
+Navigieren sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Print Scenario Datum aktualisieren`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Tage\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 05:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```py
+printnode_scenario = env.ref("printnode_base.print_picking_document_after_so_confirmation_scenario")
+date = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime('%Y-%m-%d')
+printnode_scenario['domain'] = '[["commitment_date", "<=", "' + date + '"]]'
+```

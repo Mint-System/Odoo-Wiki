@@ -13,25 +13,27 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 | [Verkauf Stammdaten](Verkauf%20Stammdaten.md) | Produkte, Preislisten und Varianten zentral pflegen. |
 | [Verkauf Versand](Verkauf%20Versand.md)       | Versandmethoden und Logistik definieren.             |
 
-| Erweiterung                                                                         | Beschreibung                                                           |
-| ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [Blanket Sale Order](Blanket%20Sale%20Order.md)                                     | Rahmenverträge für Verkäufe erstellen.                                 |
-| [Default sales incoterm per partner](Default%20sales%20incoterm%20per%20partner.md) | Standardlieferbedingungen für Kunden.                                  |
-| [Sale Order Line Date](Sale%20Order%20Line%20Date.md)                               | Lieferdatum pro Position.                                              |
-| [Sale Blanket Order](Sale%20Blanket%20Order.md)                                     | Rahmenverträge für Verkäufe erstellen.                                 |
-| [Sale Blanket Order Notes](Sale%20Blanket%20Order%20Notes.md)                       | Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden. |
-| [Sale Order Line Position](Sale%20Order%20Line%20Position.md)                       | Verkaufsaufträge mit Positionsnummern.                                 |
-| [Sale Order Default Commitment Date](Sale%20Order%20Default%20Commitment%20Date.md) | Standardlieferdatum festlegen.                                         |
-| [Sale Order Contact Person](Sale%20Order%20Contact%20Person.md)                     | Kontaktperson auf Verkaufsauftrag festlegen.                           |
-| [Sale Order Line Description](Sale%20Order%20Line%20Description.md)                 | Nur Verkausbeschreibung im Feld Beschreibung übertragen.               |
-| [Product Listprice Currency](Product%20Listprice%20Currency.md)                     | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.       |
-| [Sale Order Delivery Note](Sale%20Order%20Delivery%20Note.md)                       | Notiz auf Verkaufsauftrag für Lieferung hinzufügen.                    |
-| [Sale Blanket Order Contact Person](Sale%20Blanket%20Order%20Contact%20Person.md)   | Kontaktperson auf Rahmenauftrag festlegen.                             |
-| [Sale Blanket Order Stock Terms](Sale%20Blanket%20Order%20Stock%20Terms.md)         | Legen sie Lieferbedinungen auf dem Rahmenauftrag fest.                 |
-| [Sale Blanket Order Send](Sale%20Blanket%20Order%20Send.md)                         | Workflow mit Rahmenauftrag per E-Mail.                                 |
-| [Sale Stock Picking Note](Sale%20Stock%20Picking%20Note.md)                         | Interne und externe Notiz für Lieferungen.                             |
-| [Sale Order Line Default Packaging](Sale%20Order%20Line%20Default%20Packaging.md)   | Standardverpackung auf Position setzen.                                |
-| [Sale Order Default Carrier](Sale%20Order%20Default%20Carrier.md)                   |                                                                        |
+| Erweiterung                                                                           | Beschreibung                                                                                    |
+| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| [Blanket Sale Order](Blanket%20Sale%20Order.md)                                       | Rahmenverträge für Verkäufe erstellen.                                                          |
+| [Default sales incoterm per partner](Default%20sales%20incoterm%20per%20partner.md)   | Standardlieferbedingungen für Kunden.                                                           |
+| [Sale Order Line Date](Sale%20Order%20Line%20Date.md)                                 | Lieferdatum pro Position.                                                                       |
+| [Sale Blanket Order](Sale%20Blanket%20Order.md)                                       | Rahmenverträge für Verkäufe erstellen.                                                          |
+| [Sale Blanket Order Notes](Sale%20Blanket%20Order%20Notes.md)                         | Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden.                          |
+| [Sale Order Line Position](Sale%20Order%20Line%20Position.md)                         | Verkaufsaufträge mit Positionsnummern.                                                          |
+| [Sale Order Default Commitment Date](Sale%20Order%20Default%20Commitment%20Date.md)   | Standardlieferdatum festlegen.                                                                  |
+| [Sale Order Contact Person](Sale%20Order%20Contact%20Person.md)                       | Kontaktperson auf Verkaufsauftrag festlegen.                                                    |
+| [Sale Order Line Description](Sale%20Order%20Line%20Description.md)                   | Nur Verkausbeschreibung im Feld Beschreibung übertragen.                                        |
+| [Product Listprice Currency](Product%20Listprice%20Currency.md)                       | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.                                |
+| [Sale Order Delivery Note](Sale%20Order%20Delivery%20Note.md)                         | Notiz auf Verkaufsauftrag für Lieferung hinzufügen.                                             |
+| [Sale Blanket Order Contact Person](Sale%20Blanket%20Order%20Contact%20Person.md)     | Kontaktperson auf Rahmenauftrag festlegen.                                                      |
+| [Sale Blanket Order Stock Terms](Sale%20Blanket%20Order%20Stock%20Terms.md)           | Legen sie Lieferbedinungen auf dem Rahmenauftrag fest.                                          |
+| [Sale Blanket Order Send](Sale%20Blanket%20Order%20Send.md)                           | Workflow mit Rahmenauftrag per E-Mail.                                                          |
+| [Sale Stock Picking Note](Sale%20Stock%20Picking%20Note.md)                           | Interne und externe Notiz für Lieferungen.                                                      |
+| [Sale Order Line Default Packaging](Sale%20Order%20Line%20Default%20Packaging.md)     | Standardverpackung auf Position setzen.                                                         |
+| [Sale Order Default Carrier](Sale%20Order%20Default%20Carrier.md)                     | Auslieferungsmethode von Kontakt übernehmen.                                                    |
+| [Sale Order Line Date Propagate](Sale%20Order%20Line%20Date%20Propagate.md)           | Lieferfristen auf dem Verkaufsautrag und dessen Zeilen werden auf den Lieferauftrag übertragen. |
+| [Sale Order Expected Commitment Date](Sale%20Order%20Expected%20Commitment%20Date.md) | Das Standardlieferdatum ist das erwartete Datum.                                                |
 
 ## Verkauf Dashboard anzeigen
 
