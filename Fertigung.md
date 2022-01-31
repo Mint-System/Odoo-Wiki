@@ -12,17 +12,18 @@ Eine moderne Lösung für ein altes Problem.
 | ----------------------------------------------- | ---------------------------------------------- |
 | [Fertigung Stammdaten](Fertigung%20Stammdaten.md) | Produkte und Dienstleistungen zentral pflegen. |
 
-| Erweiterung                                                                 | Beschreibung                                                                 |
-| --------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| [Cancel Manufacturing Order](Cancel%20Manufacturing%20Order.md)                 | Fertigungsauftrag rückgängig machen.                                         |
-| [Product Barcode Generator](Product%20Barcode%20Generator.md)                   | Autogenerate EAN13 product barcodes.                                         |
-| [Product Name Sequence](Product%20Name%20Sequence.md)                           | Generate product names based on a sequence.                                  |
-| [Product Sequence](Product%20Sequence.md)                                     | Produkreferenzen anhand einer Sequenz generieren lassen.                     |
-| [MRP Documents Share](MRP%20Documents%20Share.md)                               | Teilen sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument. |
+| Erweiterung                                                                       | Beschreibung                                                                 |
+| --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [Cancel Manufacturing Order](Cancel%20Manufacturing%20Order.md)                   | Fertigungsauftrag rückgängig machen.                                         |
+| [Product Barcode Generator](Product%20Barcode%20Generator.md)                     | Autogenerate EAN13 product barcodes.                                         |
+| [Product Name Sequence](Product%20Name%20Sequence.md)                             | Generate product names based on a sequence.                                  |
+| [Product Sequence](Product%20Sequence.md)                                         | Produkreferenzen anhand einer Sequenz generieren lassen.                     |
+| [MRP Documents Share](MRP%20Documents%20Share.md)                                 | Teilen sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument. |
 | [Product Country of Origin](Product%20Country%20of%20Origin.md)                   | Bestimmen sie für jedes Produkt ein Herkunftsland                            |
-| [Product Type Description](Product%20Type%20Description.md)                     | Zu jedem Produkt ein Beschreibungsfeld.                                      |
+| [Product Type Description](Product%20Type%20Description.md)                       | Zu jedem Produkt ein Beschreibungsfeld.                                      |
 | [Secondary Product Type Description](Secondary%20Product%20Type%20Description.md) | Zu jedem Produkt ein zweites Beschreibungsfeld.                              |
-| [Product Feeder ID](Product%20Feeder%20ID.md)                                   | Feeder-Textfeld auf dem Produkt.                                             |
+| [Product Feeder ID](Product%20Feeder%20ID.md)                                     | Feeder-Textfeld auf dem Produkt.                                             |
+| [Manufacture Production Move Date](Manufacture%20Production%20Move%20Date.md)     | Lieferdatum auf Fertigungsauftrag bearbeiten.                                |
 
 | Video                                                                                    |
 | ---------------------------------------------------------------------------------------- |
