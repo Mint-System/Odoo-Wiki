@@ -150,6 +150,26 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
 
+## Aktion  "Lagerbuchung erledigen" erstellen
+
+Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Lagerbuchung erledigen`\
+Modell: `stock.move`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```py
+for record in records:
+  record._set_quantity_done(record.product_uom_qty)
+  record._action_done()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung erledigen*.
+
 ## Vorgangstyp für Retouren definieren
 
 Öffnen sie *Lager > Konfiguration > Route* und wählen sie eine Route aus. Klicken sie auf die *Regel* auf der die Retoure erfolgt. Wählen sie auf der Regel den *Vorgangstyp* aus und bearbeiten sie diesen. Im Feld *Vorgangstyp für Retouren* wählen sie den Vorgangstyp für die Retoure aus.
@@ -160,3 +180,38 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *
 Wurde ein Transfer einmal erledigt, kann er nicht mehr bearbeitet werden. Jedoch können sie diesen *Entsperren* um bestimmte Felder zu ändern.
 
 ![Lager Transfer entsperren](assets/Lager%20Transfer%20entsperren.gif)
+
+## Geplante Aktion "Erledigte Menge korrigieren" erstellen
+
+Navigieren sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Erledigte Menge korrigieren`\
+Modell: `ir.actions.server`\
+Ausführen alle: `3` Stunden\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+
+```py
+# Get pickings to be processed
+pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ("assigned", "partially_available"))])
+
+# Get lines where qty done is not equal to demand
+fix_move_lines = pickings.move_line_ids.filtered(lambda l: l.qty_done != l.move_id.product_uom_qty)
+
+if fix_move_lines:
+	log('Fix qty done for %s' % (fix_move_lines))
+
+for line in fix_move_lines:
+    line.write({'qty_done': line.move_id.product_uom_qty})
+```
+
+
+## Lagerort Lagerschwund mit externer ID ergänzen
+
+Erfassen sie für das Lagerort *	Virtual Locations/Scrap* eine externe ID gemäss [Externe ID erfassen](Entwicklung.md#Externe%20ID%20erfassen). Die Definition ist wie folgt:
+
+![](assets/Lager%20Lagerschwund%20externe%20ID.png)
