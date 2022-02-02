@@ -212,6 +212,6 @@ for line in fix_move_lines:
 
 ## Lagerort Lagerschwund mit externer ID ergänzen
 
-Erfassen sie für das Lagerort *	Virtual Locations/Scrap* eine externe ID gemäss [Externe ID erfassen](Entwicklung.md#Externe%20ID%20erfassen). Die Definition ist wie folgt:
+Erfassen sie für das Lagerort *Virtual Locations/Scrap* eine externe ID gemäss [Externe ID erfassen](Entwicklung.md#Externe%20ID%20erfassen). Die Definition ist wie folgt:
 
 ![](assets/Lager%20Lagerschwund%20externe%20ID.png)

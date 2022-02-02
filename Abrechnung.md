@@ -128,3 +128,13 @@ Navigieren sie nach *Finanzen > Konfiguration > Bargeld-Runden* und erstellen si
 ![](assets/Abrechnung%20Runden.png)
 
 Wenn sie eine neue Rechnung schreiben und die Rundungsmethode festgelegt ist, werden die Beiträge entsprechend gerundet.
+
+## Fakturierungsregel festlegen
+
+Für jedes Produkt können sie definieren, ob es nach der Lieferung oder nach der Bestellung verrechnet werden soll.
+
+![](assets/eCommerce%20Fakturierungsregel%20auf%20Produkt.png)
+
+::: warning
+Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzurechendende Menge des Verkaufsauftrag aktualisiert werden. Nur dann wird das zusätzliche Produkt auf die Rechnung übertragen.
+:::

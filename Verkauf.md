@@ -39,6 +39,12 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 
 Öffnen sie die App *Verkauf*. Hier sehen Sie alle offenen Angebote und Verkaufsaufträge.
 
+## Produkte zum Verkauf deklarieren
+
+Öffnen sie ein Produkt via *Verkauf > Produkte > Produkte* und markieren sie *Kann verkauft werden*. Neue Optionen erscheinen auf der Produktansicht.
+
+![Produkte zum Verkauf deklarieren](assets/Produkte%20zum%20Verkauf%20deklarieren.gif)
+
 ## Angebot erstellen
 
 Erstellen sie mit dem Knopf *Anlegen* ein neues Angebot. Befüllen sie die Kopfdaten gemäss folgender Tabelle:
