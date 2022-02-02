@@ -24,6 +24,7 @@ Eine moderne Lösung für ein altes Problem.
 | [Secondary Product Type Description](Secondary%20Product%20Type%20Description.md) | Zu jedem Produkt ein zweites Beschreibungsfeld.                              |
 | [Product Feeder ID](Product%20Feeder%20ID.md)                                     | Feeder-Textfeld auf dem Produkt.                                             |
 | [Manufacture Production Move Date](Manufacture%20Production%20Move%20Date.md)     | Lieferdatum auf Fertigungsauftrag bearbeiten.                                |
+| [Manufacturing BoM Scrap](Manufacturing%20BoM%20Scrap.md)                         | Definieren Sie eine Stückliste, die bei der Lieferung verschrottet wird.                                                                             |
 
 | Video                                                                                    |
 | ---------------------------------------------------------------------------------------- |
