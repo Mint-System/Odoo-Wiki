@@ -1,7 +1,7 @@
 
 module.exports = {
-    title: 'Odoo Handbuch',
-    description: 'Odoo Handbuch',
+    title: 'Odoo Wiki',
+    description: 'Odoo Wiki',
     head: [
         ['link', { rel: "icon", type: "image/png", href: "icon.png"}],
     ],
