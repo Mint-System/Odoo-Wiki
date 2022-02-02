@@ -22,4 +22,4 @@ Mit dieser Odoo Erweiterung wird die erledigte Menge gemäss Konfiguration auf d
 
 Mit dieser Erweiterung steht auf Transfers eine Aktion *Autofill* zur Verfügung. Wenn sie auf diesen Knopf drücken wird die erledigte Menge entsprechend der reservierten Menge ausgefüllt.
 
-![](assets/Pasted%20image%2020220117105640.png)
+![](assets/Stock%20Move%20Line%20Auto%20Fill%20Button.png)

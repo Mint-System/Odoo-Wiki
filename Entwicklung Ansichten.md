@@ -12,7 +12,7 @@ Odoo Ansichten anpassen.
 
 Abhängig von der angezeigten Ansicht stehen Felder gemäss dem verknüpften Datenmodell zur Verfügung. Standardmässig werden nicht alle Felder angezeigt und bestimmte Felder müssen eingeblendet werden. Eine Übersicht der verfügbaren Felder erhalten sie via *Entwicklertools > Felder anzeigen*.
 
-![](assets/Pasted%20image%2020220118183127.png)
+![](assets/Entwicklung%20Ansichten%20Felder.png)
 
 ::: tip
 Hier finden sie zu jedem Feld den technischen Name *Feldname*. Diesen Namen verwendet Odoo für die Programmierung.

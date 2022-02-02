@@ -36,4 +36,10 @@ Haben sie ein Produkt mit einer Verbrauchsstückliste erstellt, wird bei der Bes
 
 Öffnen sie das Produkt via *Lager > Produkte > Produkte* und drücken sie auf *Produktlieferungen*. Hier sehen sie alle Lagerbewegungen des Produkts.
 
-![](assets/Pasted%20image%2020220202165832.png)
+![](assets/Manufacturing%20BoM%20Scrap%20Produktlieferungen.png)
+
+## Lieferung mit verbrauchter Menge abbrechen
+
+Beim erledigen einer Lieferung mit Lagerschwund, wird eine zusätzlicher Lagerbuchun. Wird die Lieferung abgebrochen, dann wird die zusätzliche Lagerbuchung auf Null gesetzt.
+
+![Manufacture BoM Scrap abbrechen](assets/Manufacture%20BoM%20Scrap%20abbrechen.gif)

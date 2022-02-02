@@ -59,7 +59,7 @@ Falls sie beim Neugenerieren der Zahlung einen Fehler erhalten, müssen sie die 
 
 Angenommen sie möchten eine Zahlung korrigeren und anschliessen erneut zur Zahlung hochladen. Gehen sie wie folgt vor. Rufen sie die Zahlung unter *Finanzen > Lieferanten > Zahlungen* auf. Wählen sie *Stornieren* und passen sie die Zahlung an. *Bestätigen* sie anschliessend die Zahlung klicken sie auf *Abstimmung Rechnungen & Zahlungen*.
 
-![](assets/Pasted%20image%2020220120113850.png)
+![](assets/Finanzen%20Zahlungen%20Abstimmen.png)
 
 Hat sich der Betrag genändert muss nun die Differenz entsprechend verbucht werden.
 
