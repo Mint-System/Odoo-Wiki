@@ -174,7 +174,8 @@ picking_ids = pickings.filtered(lambda r: not r.printed)
 
 # raise Warning(["Print Pickings:", picking_ids])
 
-log('Start print job for %s on %s' % (picking_ids, printer_id))
+if picking_ids:
+	log('Start print job for %s on %s' % (picking_ids, printer_id))
 
 number_of_copies = 1
 report_id = env.ref(report_name)
