@@ -4,13 +4,13 @@ tags:
 - Drittanbieter
 prev: ./fertigung
 ---
-# Manufacturing BoM Scrap
+# Manufacturing BoM Consumption
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Definieren Sie eine Stückliste, die bei der Lieferung verschrottet wird.
+Definieren Sie eine Stückliste, die bei der Lieferung verbraucht wird.
 
-Technischer Name: `mrp_bom_scrap`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_bom_scrap>
+Technischer Name: `mrp_bom_consumption`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_bom_consumption>
 
 ## Stückliste für Lagerschwund erstellen
 

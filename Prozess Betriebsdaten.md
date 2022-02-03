@@ -9,5 +9,5 @@ prev: ./referenzsystem
 
 ## Prozessschritte
 
-* [Inventur vorbereiten](Lager.md#Inventur%20vorbereiten)
-* [Inventur durchführen](Lager.md#Inventur%20durchf%C3%BChren)
+* [Inventur vorbereiten](Lager%20Bestand.md#Inventur%20vorbereiten)
+* [Inventur durchführen](Lager%20Bestand.md#Inventur%20durchf%C3%BChren)
