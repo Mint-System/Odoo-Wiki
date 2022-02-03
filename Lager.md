@@ -162,13 +162,34 @@ Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```py
 for record in records:
-  record._set_quantity_done(record.product_uom_qty)
   record._action_done()
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung erledigen*.
+
+## Aktion "Bestand zurücksetzen" erstellen
+
+Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Bestand zurücksetzen`\
+Modell: `stock.quant`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```py
+for record in records:
+	record.sudo().write({
+	  'quantity': 0,
+	  # 'reserved_quantity': 0
+	})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Bestand zurücksetzen*.
 
 ## Vorgangstyp für Retouren definieren
 
