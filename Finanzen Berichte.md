@@ -14,7 +14,7 @@ Finanzberichte erstellen.
 
 ![](assets/Finanzen%20Berichte%20Saldenliste.png)
 
-### Buchungszeilen auswerten
+## Buchungszeilen auswerten
 
 Um eine Saldenliste zu generieren, gehen sie wie folgt vor.
 
