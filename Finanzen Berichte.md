@@ -8,7 +8,13 @@ prev: ./finanzen
 
 Finanzberichte erstellen.
 
-## Saldenliste erstellen
+## Saldenliste anzeigen
+
+Öffnen sie *Finanzen > Finanzen > Umsätze nach Konten und Perioden*. Hier sehen sie gemäss Kontenplan die Spalten Soll, Haben und Saldo. Filtern sie die Angaben nach Konten und Buchungsdatum um die gewünschte Periode anzugigen
+
+![](assets/Finanzen%20Berichte%20Saldenliste.png)
+
+### Buchungszeilen auswerten
 
 Um eine Saldenliste zu generieren, gehen sie wie folgt vor.
 
