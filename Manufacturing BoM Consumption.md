@@ -18,13 +18,13 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_
 
 Fügen sie der Komponenteliste Produkte und deren zu verbrauchende Menge ein.
 
-![Manufacture BoM Scrap erstellen](assets/Manufacture%20BoM%20Scrap%20erstellen.gif)
+![](assets/Manufacturing%20BoM%20Consumption%20BoM.png)
 
 ## Lot Lagerschwund erstellen
 
 Damit der Verbrauch richtig verfolgt werden kann, erstellen sie für die zu verbrauchenden Produkte ein Lot. Öffnen sie das Produkt und erstellen sie ein Lot. Hinterlegen sie das Lot bei den Stücklisten zum Verbrauch.
 
-![Manufacture BoM Scrap Lot erstellen](assets/Manufacture%20BoM%20Scrap%20Lot%20erstellen.gif)
+![](assets/Manufacturing%20BoM%20Consumption%20Lot.png)
 
 ## Lieferung mit Lagerschwund erstellen
 
