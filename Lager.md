@@ -176,7 +176,7 @@ Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```py
 # Get pickings to be processed
-pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ("assigned", "partially_available"))])
+pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
 # Get moves where qty done it not equal to demand
 fix_moves = pickings.move_lines.filtered(lambda m: m.quantity_done != m.product_uom_qty)

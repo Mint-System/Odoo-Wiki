@@ -30,7 +30,7 @@ SELECT
     name as x_name,
 	to_char( birthday, '2021-MM-DD') as x_birthday 
 FROM hr_employee 
-WHERE birthday is not NULL and to_char(birthday,'MMDD') > to_char(now() - INTERVAL '4 DAY','MMDD')
+WHERE active = True and birthday is not NULL and to_char(birthday,'MMDD') > to_char(now() - INTERVAL '4 DAY','MMDD')
 ORDER BY to_char(birthday,'MMDD')
 ```
 
