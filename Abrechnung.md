@@ -138,3 +138,7 @@ Für jedes Produkt können sie definieren, ob es nach der Lieferung oder nach de
 ::: warning
 Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzurechendende Menge des Verkaufsauftrag aktualisiert werden. Nur dann wird das zusätzliche Produkt auf die Rechnung übertragen.
 :::
+
+## Rechnungsadresse ändern
+
+Angenommen sie möchten die Empfängeradresse einer gebuchten Rechnung ändern, so setzen sie diese Rechnung mit *Zurücksetzen* in den Entwurfsstatus. Anschliessen können sie das Feld *Kunde* wieder bearbeiten. Passen sie die Adresse an und buchen sie die Rechnung wieder.
