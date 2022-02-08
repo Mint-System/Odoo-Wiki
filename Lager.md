@@ -197,7 +197,6 @@ for line in fix_move_lines:
     line.write({'qty_done': line.move_id.product_uom_qty})
 ```
 
-
 ## Lagerort Lagerschwund mit externer ID ergänzen
 
 Erfassen sie für das Lagerort *Virtual Locations/Scrap* eine externe ID gemäss [Externe ID erfassen](Entwicklung.md#Externe%20ID%20erfassen). Die Definition ist wie folgt:
