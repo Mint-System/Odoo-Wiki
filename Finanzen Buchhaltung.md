@@ -94,3 +94,25 @@ Haben sie eine fehlerhafte Buchung gemacht, können sie diese einfach korrigiere
 ::: warning
 Falls sie eine Rechnung korrigieren, geht Zahlungsabgleiche verloren. Diese müssen sie wieder verknüpfen.
 :::
+
+## Buchungssatz umkehren
+
+Angenommen sie möchten einen Buchungssatz umkehren, beispielsweise für die Buchung von Transitorischen, öffnen sie diesen via *Finanzen > Finanzen > Buchungssätze*.
+
+Hier haben wir eine Buchung am 31.12.
+
+![](assets/Finanzen%20Buchhaltung%20Eröffnung.png)
+Wählen sie *Stornobuchungssatz* unterhalb von *Bearbeiten*. Diese Auswahl erscheint, wenn die Buchung gebucht ist.
+
+Beim Klick öffnet dieser Dialog:
+
+
+![](assets/Finanzen%20Buchhaltung%20Stornieren.png)
+
+Wählen sie das Journal und das Datum für die neue Buchung. Bestätigen sie den Vorgang mit *Stornieren.*
+
+Nun wird ein umgekehrter Buchungssatz erstellt.
+
+![](assets/Finanzen%20Buchhaltung%20Umkehrung.png)
+
+Diesen können sie wie gewohnt anpassen.
