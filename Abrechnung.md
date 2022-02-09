@@ -142,3 +142,11 @@ Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzu
 ## Rechnungsadresse ändern
 
 Angenommen sie möchten die Empfängeradresse einer gebuchten Rechnung ändern, so setzen sie diese Rechnung mit *Zurücksetzen* in den Entwurfsstatus. Anschliessen können sie das Feld *Kunde* wieder bearbeiten. Passen sie die Adresse an und buchen sie die Rechnung wieder.
+
+## Rechnungsabgrenzung vornehmen
+
+Um eine Rechnungsabgrenzung in Odoo vorzunehmen, wählen sie die Rechnung via *Finanzen > Lieferanten > Rechnungen* aus. Zeigen sie den Tab *Buchungszeilen* an und klicken sie auf *Cut-Off* bei der betroffenen Zeile. Nun erscheint ein Dialog um die Abgrenzung vorzunehmen.
+
+![](assets/Abrechnung%20Rechnungsabgrenzung.png)
+
+Mit *Create Journal Entries* wird die Buchung und Gegenbuchung für die Rechnungsabgrenzung erstellt.
