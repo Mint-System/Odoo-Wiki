@@ -46,4 +46,3 @@ Für sie einen Abonnent dem Odoo-Objekt hinzu indem sie rechts von *Abonnieren* 
 Entfernen sie einen Abonnent vom Odoo-Objekt indem sie rechts von *Abonnieren* auf das Icon klicken.
 
 ![Diskussion Abonnent entfernen](assets/Diskussion%20Abonnent%20entfernen.gif)
-
