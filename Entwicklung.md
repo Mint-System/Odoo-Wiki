@@ -217,3 +217,19 @@ Erstellen sie ein neues Feld unter *Einstellungen > Technisch > Datenbankstruktu
 ![](assets/Entwicklung%20Neues%20Beziehungs-Feld%20hinzufügen.png)
 
 Dieses Feld können sie nun in Berichten oder Listenansichten anzeigen.
+
+## Standard-Filter für alle Benutzer festlegen
+
+Wenn sie über Aktionen bestimmte Odoo-Ansichten aufrufen ist bereits ein Filter in der Suchmaske hinterlegt. Dieser Standard-Filter können sie für alle Benutzer anpassen.
+
+Wählen sie auf der Ansicht mit dem Filter *Entwickler-Tools > Aktion bearbeiten*. Im Feld *Wert aus Kontext* können nicht nur Standardwerte für die anzuzeigende Ansicht hinterlegt werden, sondern auch der Status von Filtern.
+
+![](assets/Pasted%20image%2020220214144936.png)
+
+Der Name des Filters lautet in diesem Beispiel `my_quotation`. Angenommen sie haben mittels Snippet diesen Filter hinzugefügt:
+
+```xml
+<filter string="Order Sent" name="sent" domain="[['state', '=', 'sent']]"/>
+```
+
+Können entweder `my_question` mit `sent` im Filter-Kontext der Aktion ersetzen oder den Filter-Kontext mit `{'search_default_my_quotation': 1, 'search_default_sent': 1}` um den neuen Filter erweitern..
