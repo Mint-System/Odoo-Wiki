@@ -51,6 +51,12 @@ Neue Apps installieren und aktualisieren.
 
 [![icons_odoo_modules](assets/icons_odoo_modules.png)  ](Apps.md)
 
+### [Calendar](Calendar.md)
+
+Termine immer synchronisiert.
+
+[![icons_odoo_calendar](assets/icons_odoo_calendar.png)](Calendar.md)
+
 ### [Certificate Planner](Certificate%20Planner.md)
 
 Anleitung zur Odoo-App Certificate Planner.

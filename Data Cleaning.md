@@ -23,3 +23,11 @@ Mit der Aktion *Zusammenführen* können sie erkannten Duplikate bereinigt werde
 ::: warning
 Der Bereinigungsvorgang berücksichtigt die Verknüpftung der Daten. In der Spalte *Verwendet bei* werden die verlinkten Objekte angezeigt.
 :::
+
+## Odoo Bot Mail-Adresse ändern
+
+Der Odoo Bot verschickt unter der E-Mail-Adresse `odoobot@example.com` Informations-Mails zum System.
+
+![](assets/Einstellungen%20OdooBot%20Mail.png)
+
+Wenn wie die Absender-Adresse ändern möchten, öffnen sie *Kontakt* und wählen *Filter > Archiviert*. Nun erscheint der Kontakt-Eintrag *OdooBot* und sie können dort die Mail-Adresse ändern.
