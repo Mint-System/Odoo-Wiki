@@ -116,3 +116,4 @@ Nun wird ein umgekehrter Buchungssatz erstellt.
 ![](assets/Finanzen%20Buchhaltung%20Umkehrung.png)
 
 Diesen können sie wie gewohnt anpassen.
+ 

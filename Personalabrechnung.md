@@ -120,3 +120,22 @@ Nummernfolge: `90`
 Das Ergebnis sollte so aussehen:
 
 ![](assets/Personalabrechnung%20Lohnabrechnungszeilen.png)
+
+## Aktion "Lohnabrechnung zurücksetzen" hinzufügen
+
+iNavigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Lohnabrechnung zurücksetzen`\
+Modell: `hr.payslip`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```py
+for record in records:  
+  record.write({'state': 'draft'})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+Im Formular der Lohnbuchung erscheint nun in der Auswahl *Aktion* das Menu *Lohnabrechnung zurücksetzen*.

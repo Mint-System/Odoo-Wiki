@@ -8,9 +8,10 @@ prev: ./
 
 In alle Module integrierter privater Chat und Gruppen-Chat.
 
-| Bereich                                     | Beschreibung              |
-| ------------------------------------------- | ------------------------- |
-| [Diskussion E-Mail](Diskussion%20E-Mail.md) | E-Mail mit Odoo versenden |
+| Bereich                                           | Beschreibung              |
+| ------------------------------------------------- | ------------------------- |
+| [Diskussion E-Mail](Diskussion%20E-Mail.md)       | E-Mail mit Odoo versenden. |
+| [Mail Thread Context](Mail%20Thread%20Context.md) | Automatisches Abonnieren deaktiveren.                          |
 
 
 | Erweiterung                           | Beschreibung               |

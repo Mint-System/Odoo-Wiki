@@ -41,3 +41,9 @@ Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* oder *Finanzen > L
 Zeigen sie *Finanzen > Konfiguration > Finanzen > Währungen* an wählen sie eine Währung aus. Unter *Anzeige* können sie die Position bestimmen.
 
 ![](assets/Finanzen%20Mehrere%20Währungen%20Anzeige.png)
+
+## Bankkonto-Transfer in unterschiedlicher Währung verbuchen
+
+Registieren sie als erstes den Bank-Transfer via *Finanzen > Bank > Kontext-Menü > Interne Überweisungen*. Stellen sie sicher, dass im Dialog *Is Internal Transfer* markiert ist. Geben sie als *Bankkonto des Empfängers* das Bankkonto mit der Zielwährung an. Bestätigen sie den Transfer. Sie können diese Transfer als Zahlung via Stapelbuchungen verarbeiten lassen.
+
+Der Abgleich erfolgt anschliessend doppelt. Einmal der Zahlungsausgang auf dem Ursprungskonto und einmal der Zahlungseingang auf dem Zielkonto.
