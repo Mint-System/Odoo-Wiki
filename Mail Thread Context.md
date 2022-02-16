@@ -17,6 +17,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mail
 Mit dieser Erweiterung wird beim Erstellen und Aktualisieren von Odoo Einträgen sowie beim Hinterlassen von Notizen keine automatisches Abonnement erstellt.
 
 Vorher:
+
 ![Mail Thread Context Notiz vorher](assets/Mail%20Thread%20Context%20Notiz%20vorher.gif)
 
 Nachher:
