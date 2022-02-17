@@ -178,15 +178,6 @@ Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
 # Get pickings to be processed
 pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
-# Get moves where qty done it not equal to demand
-fix_moves = pickings.move_lines.filtered(lambda m: m.quantity_done != m.product_uom_qty)
-
-if fix_moves:
-	log('Fix qty done for %s' % (fix_moves))
-
-for move in fix_moves:
-    move.write({'quantity_done': move.product_uom_qty})
-
 # Get lines where qty done is not equal to demand
 fix_move_lines = pickings.move_line_ids.filtered(lambda l: l.qty_done != l.move_id.product_uom_qty)
 
@@ -195,6 +186,15 @@ if fix_move_lines:
 
 for line in fix_move_lines:
     line.write({'qty_done': line.move_id.product_uom_qty})
+
+# Get moves where qty done it not equal to demand
+fix_moves = pickings.move_lines.filtered(lambda m: m.quantity_done != m.product_uom_qty)
+
+if fix_moves:
+	log('Fix qty done for %s' % (fix_moves))
+
+for move in fix_moves:
+    move.write({'quantity_done': move.product_uom_qty})
 ```
 
 ## Lagerort Lagerschwund mit externer ID ergänzen

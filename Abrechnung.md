@@ -31,6 +31,10 @@ Zur Digitalisierung einer Rechnung laden sie als erstes die PDF-Datei via *Finan
 
 ![](assets/Abrechnung%20Rechnung%20digitalisieren.png)
 
+Der Digitalisierungsprozess dauert wenige Sekunden. Sie können den Status mit *Aktualisieren* überprüfen.
+
+![](assets/Abrechnung%20Digitalisierung%20überprüfen.png)
+
 ## Rechnungsvorlage anpassen
 
 Für den automatischen Versand von Rechnungen können E-Mail-Vorlagen erstellt werden.
