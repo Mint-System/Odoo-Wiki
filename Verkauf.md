@@ -152,3 +152,11 @@ Nummernfolge: `2`
 Das Ergebnis sollte so aussehen:
 
 ![](assets/Verkauf%20Auftragszeilen.png)
+
+## Margen anzeigen
+
+Mit der aktivierten Option *Einstellungen > Verkauf > Margen* sehen sie für jede Auftragszeile die Marge.
+
+![](assets/Verkauf%20Margen%20in%20Auftragszeilen.png)
+
+Die Berechnung der Margen ist `Zwischensumme - Kosten * Menge`. Diese Inputs können einem Angebot geändert werden.
