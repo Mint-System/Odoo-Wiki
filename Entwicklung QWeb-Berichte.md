@@ -89,6 +89,7 @@ Hierzu eine Übersicht der wichtigsten Berichte und deren URL:
 | Vorschau interner Bericht | `/report/html/web.preview_internalreport/$ID`             |
 | Vorschau externer Bericht | `/report/html/web.preview_externalreport/$ID`             |
 | Rahmenauftrag             | `/report/html/sale_blanket_order.report_blanketorder/$ID` |
+| QR-Rechnung               | `/report/html/l10n_ch.qr_report_main/$ID`                                                          |
 
 ::: tip
 Bestimmte Bericht können mehere Dokumente anzeigen. Für die HTML-Anzeige können sie die Dokument-IDs Komma-getrennt übergeben: /report/html/**stock.report_deliveryslip**/**3,4,5**

@@ -29,7 +29,7 @@ Um die Liste der verfügbaren Apps zu aktualisieren, wechseln sie in den [Entwic
 
 > Für die Enterprise Apps stellen wir den Code der ausschliesslich lizenzierten Apps zur Verfügung. Wenn die Option “Installiere” zur Verfügung steht, kann die App installiert werden. Wenn “Aktualisieren” steht muss die App zuerst gekauft werden, der Code muss bereitgestellt werden und nur dann kann man diese installieren.
 
-### Themes in Liste anzeigen
+## Themes in Liste anzeigen
 
 Website Themes sind auch Odoo-Apps, werden aber standardmässig nicht angezeigt. Verwantwortlich für die Filterung ist die Aktion, welche beim Anlicken von *Apps* aufgerufen wird.
 
@@ -37,3 +37,10 @@ Damit auch Apps in der Theme-Liste angezeigt werden, klicken sie erstmals auf *A
 
 ![Apps Themes anzeigen](assets/Apps%20Themes%20anzeigen.gif)
 
+## App aktualisieren
+
+Wählen sie *Apps* und entfernen sie den Standardfilter *Apps*. Suchen sie nach der gewünschten App, klicken sie auf das Kontext-Menü und wählen sie *Modul Inofrmation*.
+
+![](assets/Pasted%20image%2020220221194620.png)
+
+In der Formular-Ansicht wählen sie *Aktualiseren*. Nun aktualisiert Odoo die App-Daten (Daten, Ansichten und Assets).
