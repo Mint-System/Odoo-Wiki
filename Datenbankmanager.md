@@ -96,3 +96,17 @@ Mit einem Klick auf den Namen ihrer Datenbank startet das System mit der Login-M
 Jede Odoo Datenbank wird mit einem Universally unique Identifier (UUID) identifiziert. Beim Kopieren der Datenbank mit dem Datenbankmanager wird jeweils eine neue UUID generiert. Die UUID kann aber auch manuell geneiert und festgelegt werden.
 
 Im Entwicklermodus navigieren sie nach *Einstellungen > Technisch > Parameter > Systemparameter*. Auf der Kommandozeile geben sie den Befehl `uuidgen` ein und legen die generierte UUID als Wert für den Parameter `database.uuid` fest.
+
+## Odoo Online Datenbank herunterladen
+
+Damit sie die Odoo Online Datenbank herunterladen können, öffnen sie <https://www.odoo.com/de_DE/my/databases>. Hier haben sie eine Übersicht iherer Odoo Online Datenbanken.
+
+Öffnen sie bei der zu exportierenden Datenbank das Kontext-Menü neben dem Datebanknamen. 
+
+![](assets/Datenbankmanager%20Odoo%20Online%20Datebanken.png)
+
+Anschliessend wählen sie *Herunterladen*.
+
+![](assets/Datenbankmanager%20Odoo%20Online%20Herunterladen.png)
+
+Der Download-Vorgang kann abhängig von der Datenbankgrösse Zeit in Anspruch nehmen. Als erstes sollte die Datei `UNTERNEHMENSNAME.dump.zip` zum Download angeboten werden. Mit *Speichern* laden sie die Datei auf den lokalen Computer.
