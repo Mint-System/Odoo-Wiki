@@ -232,7 +232,7 @@ Der Name des Filters lautet in diesem Beispiel `my_quotation`. Angenommen sie ha
 <filter string="Order Sent" name="sent" domain="[['state', '=', 'sent']]"/>
 ```
 
-Können entweder `my_question` mit `sent` im Filter-Kontext der Aktion ersetzen oder den Filter-Kontext mit `{'search_default_my_quotation': 1, 'search_default_sent': 1}` um den neuen Filter erweitern.
+Können sie entweder `my_question` mit `sent` im *Kontext Wert* der Aktion (*Entwickler-Tools > Aktion bearbeiten*) ersetzen oder den *Kontext Wert* mit `{'search_default_my_quotation': 1, 'search_default_sent': 1}` erweitern.
 
 ::: warning
 Wenn sie das Modul mit der Definition der Aktiona aktualisieren, wird das Feld *Wert aus Kontext* überschrieben und ihre Anpassungen gehen verloren. Falls das unter keinen Umständen passieren darf, müssen sie Aktion duplizeren und in der Menüstruktur neu verknüpfen.
