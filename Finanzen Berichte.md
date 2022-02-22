@@ -39,3 +39,9 @@ Klicken sie auf *Finanzen* und wählen sie ein Bank-Journal aus. Klicken sie auf
 ![](assets/Finanzen%20Berichte%20Ausgleichsbericht.png)
 
 Hier werden nicht abgeglichene Bank-Zahlungen und Belege angezeigt.
+
+Oberhalb des Berichts kann diese Meldung erscheinen:
+
+![](assets/Finanzen%20Berichte%20Balance%20Off.png)
+
+Klicken sie *journal items* um die Buchungen anzuzeigen.
