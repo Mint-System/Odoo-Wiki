@@ -7,7 +7,7 @@ prev: ./lager
 # Stock Critical Forecast
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Kritisches Datum für Lieferungen in Komponenten in der Fertigung anzeigen.
+Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzeigen.
 
 Technischer Name: `stock_critical_forecast`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_critical_forecast>

@@ -26,7 +26,7 @@ Maximieren sie die Effizienz Ihres Lagers.
 | [Product Logistics UoM](Product%20Logistics%20UoM.md)               | Individuelle Mengenheit für Produkte festlegen.                                                             |
 | [Stock Move Weight UoM](Stock%20Move%20Weight%20UoM.md)             | Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.                                                |
 | [Stock Move Line Auto Fill](Stock%20Move%20Line%20Auto%20Fill.md)   | Die erledigte Menge auf einem Transfer automatisch ausfüllen.                                               |
-| [Stock Critical Forecast](Stock%20Critical%20Forecast.md)           | Kritisches Datum für Lieferungen in Komponenten in der Fertigung anzeigen.                                  |
+| [Stock Critical Forecast](Stock%20Critical%20Forecast.md)           | Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzeigen.                                  |
 
 ## Produkt aufstocken
 
