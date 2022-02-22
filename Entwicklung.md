@@ -237,3 +237,19 @@ Können sie entweder `my_question` mit `sent` im *Kontext Wert* der Aktion (*Ent
 ::: warning
 Wenn sie das Modul mit der Definition der Aktiona aktualisieren, wird das Feld *Wert aus Kontext* überschrieben und ihre Anpassungen gehen verloren. Falls das unter keinen Umständen passieren darf, müssen sie Aktion duplizeren und in der Menüstruktur neu verknüpfen.
 :::
+
+## Ansicht Anhänge erstellen
+
+Damit sie eine Übersicht der Anhänte erhalten, folgen sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+
+Name der Aktion: `Attachments`\
+Objekt: `ir.attachments`\
+Ansichtsmodus: `tree,form`\
+Menü: `Anhänge`\
+Obermenü: `Einstellungen/Technisch/Diskussion`\
+Aktion: `ir.actions.act_window` `Einkaufszeilen`\
+Nummernfolge: `10`
+
+Das Ergebnis sollte so aussehen:
+
+![](assets/Entwicklung%20Ansicht%20Anhänge.png)

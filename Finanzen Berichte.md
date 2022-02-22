@@ -32,3 +32,10 @@ Klicken sie auf *Finanzen > Berichtswesen > Schweiz > Erfolgsrechnung*.
 
 Klicken sie auf *Finanzen > Berichtswesen > Prüfungsberichte > Umstatzsteuerbericht*.
 
+## Bericht Bank-Abgleich anzeigen
+
+Klicken sie auf *Finanzen* und wählen sie ein Bank-Journal aus. Klicken sie auf das Kontext-Menü und wählen sie *Offne-Posten Ausgleichsbericht*.
+
+![](assets/Finanzen%20Berichte%20Ausgleichsbericht.png)
+
+Hier werden nicht abgeglichene Bank-Zahlungen und Belege angezeigt.
