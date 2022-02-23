@@ -176,26 +176,56 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```py
+# Set products to ignore
+except_product_names = ["Gebinde"]
+
 # Get pickings to be processed
 pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
 # Get moves where qty done it not equal to demand
-fix_moves = pickings.move_lines.filtered(lambda m: m.quantity_done != m.product_uom_qty)
+fix_moves = pickings.move_lines.filtered(lambda m: (m.quantity_done != m.product_uom_qty) and (m.product_id.name not in except_product_names))
 
 if fix_moves:
-	log('Fix qty done for %s' % (fix_moves))
+	log('Fix qty done for moves: %s' % (fix_moves))
 
 for move in fix_moves:
     move.write({'quantity_done': move.product_uom_qty})
 
 # Get lines where qty done is not equal to demand and no move line has been created
-fix_move_lines = pickings.move_line_ids.filtered(lambda l: l.qty_done != l.move_id.product_uom_qty and not l.move_line_ids)
+fix_move_lines = pickings.move_line_ids.filtered(lambda l: (l.qty_done != l.move_id.product_uom_qty) and (l.product_id.name not in except_product_names))
 
 if fix_move_lines:
-	log('Fix qty done for %s' % (fix_move_lines))
+	log('Fix qty done for move lines: %s' % (fix_move_lines))
 
 for line in fix_move_lines:
     line.write({'qty_done': line.move_id.product_uom_qty})
+
+# Assign pickings
+assign_pickings = pickings.filtered(lambda p: p.state in ["confirmed"])
+
+if assign_pickings:
+	log('Assign pickings: %s' % (assign_pickings))
+
+for picking in assign_pickings:
+    picking.write({'state': 'assigned'})
+    
+# Update transport moves
+
+transport_product_name = "Gebinde"
+transport_moves = []
+
+for picking in pickings:
+  # Check if picking has a transport move
+  transport_move_ids = picking.move_lines.filtered(lambda m: m.product_id.name == transport_product_name)
+  if transport_move_ids:
+    # Count boxes and set as qty done if not null
+    x_count_boxes_sum = sum(picking.move_lines.mapped("x_count_boxes"))
+    for transport_move in transport_move_ids:
+      if transport_move.quantity_done == 0 and x_count_boxes_sum > 0:
+        transport_moves.append(transport_move)
+        transport_move.write({'quantity_done': x_count_boxes_sum})
+if transport_moves:
+  log('Fix qty done for transport moves: %s' % (transport_moves))
 ```
 
 ## Lagerort Lagerschwund mit externer ID ergänzen
