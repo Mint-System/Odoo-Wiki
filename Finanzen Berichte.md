@@ -32,6 +32,8 @@ Klicken sie auf *Finanzen > Berichtswesen > Schweiz > Erfolgsrechnung*.
 
 Klicken sie auf *Finanzen > Berichtswesen > Prüfungsberichte > Umstatzsteuerbericht*.
 
+Der Umsatzsteuerbericht wird in regelmässigen Abständen generiert. Die Einstellung dazu finden sie unter *Einstellungen > Finanzen > Steuern > regelmässige Steuernrückzahlungen*.
+
 ## Bericht Bank-Abgleich anzeigen
 
 Klicken sie auf *Finanzen* und wählen sie ein Bank-Journal aus. Klicken sie auf das Kontext-Menü und wählen sie *Offne-Posten Ausgleichsbericht*.
