@@ -8,15 +8,19 @@ prev: ./finanzen
 
 Finanzberichte erstellen.
 
+## Hauptbuch anzeigen
+
+Wenn sie verschiedene Kontoauszüge ansehen wollen, öffnen sie *Finanzen > Berichtswesen > Hauptbuch*. Hier können sie nach bestimmten Konten, Perioden und Journalen filtern. Zu jedem Konto sehen sie das Saldo.
+
 ## Saldenliste anzeigen
 
-Öffnen sie *Finanzen > Finanzen > Umsätze nach Konten und Perioden*. Hier sehen sie gemäss Kontenplan die Spalten Soll, Haben und Saldo. Filtern sie die Angaben nach Konten und Buchungsdatum um die gewünschte Periode anzugigen
+Öffnen sie *Finanzen > Finanzen > Hauptbuch*. Hier sehen sie gemäss Kontenplan die Spalten *Soll*, *Haben* und *Saldo*. Filtern sie die Angaben nach Konten und Buchungsdatum um die gewünschte Periode anzugigen
 
 ![](assets/Finanzen%20Berichte%20Saldenliste.png)
 
 ## Buchungszeilen auswerten
 
-Um eine Saldenliste zu generieren, gehen sie wie folgt vor.
+Alle Buchungszeilen können sie als Pivot auswerten. Wenn sie eine Saldenliste generieren möchten, gehen sie wie folgt vor:
 
 ![Finanzen Saldenliste erstellen](assets/Finanzen%20Saldenliste%20erstellen.gif)
 
