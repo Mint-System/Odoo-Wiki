@@ -116,4 +116,14 @@ Nun wird ein umgekehrter Buchungssatz erstellt.
 ![](assets/Finanzen%20Buchhaltung%20Umkehrung.png)
 
 Diesen können sie wie gewohnt anpassen.
- 
+
+## Buchungssatz importieren
+
+Wenn sie einen Buchungssatz mit meheren Zeilen im Excel erstellen und anschliessend in Odoo importieren möchten, verwenden sie diese Vorlage:
+
+| Journal | Datum      | Buchungszeilen/Buchungstext | Buchungszeilen/Konto | Buchungszeilen/Soll | Buchungszeilen/Haben |
+| ------- | ---------- | --------------------------- | -------------------- | ------------------- | -------------------- |
+| Lohn    | 2022-01-31 | Lohn                        | 1091                 | 74297.35            |                      |
+|         |            | Lohn                        | 1030                 |                     | 74297.35             |
+
+Damit wird eine Lohnbuchung in Journal *Lohn* importiert. Für den Import wählen sie *Finanzen > Finanzen > Buchungssätze > Favoriten > Datensätze importieren*. Der Import-Dialog wird die Spaltenüberschriften automatisch erkennen und mit den Felder des Datenmodells verknüpfen. 
