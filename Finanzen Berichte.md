@@ -32,9 +32,15 @@ Klicken sie auf *Finanzen > Berichtswesen > Schweiz > Bilanz*.
 
 Klicken sie auf *Finanzen > Berichtswesen > Schweiz > Erfolgsrechnung*.
 
-## Umstatzsteuerbericht anzeigen
+## Umsatzsteuerbericht anzeigen
 
 Klicken sie auf *Finanzen > Berichtswesen > Prüfungsberichte > Umstatzsteuerbericht*.
+
+:::tip
+Wenn sie die Ausgaben des Umsatzsteuerberichts prüfen, müssen sie beachten, dass die Buchungszeilen gefiltert werden müssen, damit der korrekte Nettobetrag erscheint.
+
+![Finanzen Berichte Umsatzsteuerbericht Prüfen](assets/Finanzen%20Berichte%20Umsatzsteuerbericht%20Prüfen.gif)
+:::
 
 Der Umsatzsteuerbericht wird in regelmässigen Abständen generiert. Die Einstellung dazu finden sie unter *Einstellungen > Finanzen > Steuern > regelmässige Steuernrückzahlungen*.
 

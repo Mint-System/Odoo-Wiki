@@ -168,7 +168,7 @@ Navigieren sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstelle
 
 Name der Aktion: `Erledigte Menge korrigieren`\
 Modell: `ir.actions.server`\
-Ausführen alle: `3` Stunden\
+Ausführen alle: `15` Minuten\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
@@ -233,3 +233,46 @@ if transport_moves:
 Erfassen sie für das Lagerort *Virtual Locations/Scrap* eine externe ID gemäss [Externe ID erfassen](Entwicklung.md#Externe%20ID%20erfassen). Die Definition ist wie folgt:
 
 ![](assets/Lager%20Lagerschwund%20externe%20ID.png)
+
+## Geplante Aktion "Lot automatisch zuweisen" erstellen
+
+Navigieren sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Lot automatisch zuweisen`\
+Modell: `ir.actions.server`\
+Ausführen alle: `15` Minuten\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```py
+# Get outgoing pickings
+pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "partially_available"])])
+
+# Get lines where lot is tracked and not set
+fix_move_lines = pickings.move_line_ids.filtered(lambda l: not l.lot_id and l.lots_visible)
+
+# Get all products
+product_tmpl_ids = fix_move_lines.mapped('product_id.product_tmpl_id.id')
+
+# Get forecasted data for products
+replenish_data = env['report.stock.report_product_product_replenishment']._get_report_data(product_tmpl_ids)
+
+# Get incoming move for each fix move line
+for move_line in fix_move_lines:
+  incoming_lines = list(filter(lambda l: 
+    (l['product']['id'] == move_line.product_id.id) and
+    (l['move_out'] == move_line.move_id) and
+    (l['move_in'] != None),
+  replenish_data['lines']))
+  
+  # Assign the lot of the first incoming line
+  if incoming_lines:
+    move_in = incoming_lines[0]['move_in']
+    if move_in and move_in.move_line_ids and move_in.move_line_ids[0].lot_id:
+      log('Assign lot to move line: %s' % move_line)
+      move_line.write({'lot_id':  move_in.move_line_ids[0].lot_id.id})
+
+```

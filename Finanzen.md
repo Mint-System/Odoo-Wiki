@@ -98,4 +98,4 @@ Navigieren sie nach *Finanzen > Kunden > Rechnungen* und wählen sie *Filter > B
 
 Navigieren sie nach *Finanzen > Konfiguration > Abrechnung > Zahlungsbedingungen* und erstellen sie einen neuen Eintrag wie folgt. Duplizieren sie eine bestehende Zahlungsbedingung, beispielsweise *30 Tage*. Wir nehmen an, dass wir für eine Zahlung innerhalb von Tagen 10 eine Skonto von 10% gewähren.
 
-![](assets/Finanzen%20Rbatt.png)
+![](assets/Finanzen%20Rabatt.png)
