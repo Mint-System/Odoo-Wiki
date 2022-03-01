@@ -16,6 +16,11 @@ Nach dem Login klicken sie oben rechts auf ihren Benutzer und wählen *My Profil
 **Email** - Über diese EMailadresse werden alle Nachrichten verschickt (Rechnung, Nachrichten an Kunden). Diese Mailadresse erscheint als Versender im Mailheader.  
 **Signatur** - Die Signatur sollte die kompletten Unternehmensdaten enthalten.  
 **Foto** - Für das Foto verwenden sie ein JPG-Format nicht grösser als 100 x 100 Pixel.  
+
 ## Passwort ändern
 
 Klicken sie oben rechts auf ihen Benutzer und wählen *My Profile*. Drücken sie  am Ende des Dialogs auf *Passwort ändern*.
+
+## E-Mail-Signatur hinterlegen
+
+Mit Odoo können sie E-Mails verschicken. Wie in Mail-Programmen können sie eine E-Mail-Signatur hinterlegen. Klicken sie oben rechts auf ihren Benutzernamen und wählen sie *Einstellungen*. Im Feld *E-mail Signatur* können sie eine Signatur definieren.

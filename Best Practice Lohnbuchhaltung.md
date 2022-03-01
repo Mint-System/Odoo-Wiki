@@ -71,5 +71,5 @@ Für ein kleines Unternehmen, braucht es keine komplexe Lohnabrechnung. Für jed
 | UVG/NBU-Beiträge Arbeitgeber  | UVGAG | Arbeitgeberanteile | Prozent (%)    | BASIC                 | 1.057       | -1.0  |                                                                                   |
 | PK/BVG-Beiträge               | BVGAN | Abzüge             | Fester Betrag  | BASIC                 | 2.04        | -1.0  |                                                                                   |
 | PK/BVG-Beiträge Arbeitgeber   | BVGAG | Arbeitgeberanteile | Fester Betrag  |                       | 0           | -1.0  |                                                                                   |
-| Familienzulagen               | FAM   | Zuwendung          | Fester Betrag  |                       | 0           | 1.0   |                                                                                   |
+| Kinderzulagen                 | KIZU  | Zuwendung          | Fester Betrag  |                       | 0           | 1.0   |                                                                                   |
 | Nettolohn                     | NET   | Netto              | Python Code    |                       | 0           | 1.0   | `result = categories.BASIC + categories.ALW + categories.DED`                     |

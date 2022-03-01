@@ -14,7 +14,7 @@ Mit Beispiel-Daten werden Anwendungsfälle illustriert und die Implementation vo
 * [Item-Structure](Best%20Practice%20Item%20Structure.md)
 * [Definition Beispiel Fahrrad](Best%20Practice%20Definition%20Beispiel%20Fahrrad.md)
 * [Finanzen Journale](Best%20Practice%20Finanzen%20Journale.md)
-* [Personalabrechnung Lohnbuchhaltung](Best%20Practice%20Lohnbuchhaltung.md)
+* [Lohnbuchhaltung](Best%20Practice%20Lohnbuchhaltung.md)
 
 ## Use Cases
 
