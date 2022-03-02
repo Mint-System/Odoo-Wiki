@@ -88,3 +88,9 @@ Bestimmte Feldinhalte können direkt übersetzt werden. Dazu wählt man den Spra
 ::: warning
 Wenn sie [Übersetzungen aktualisieren](#Übersetzungen%20aktualisieren) können solche Änderungen verloren gehen.
 :::
+
+## Übersetzungskommentar hinzufügen
+
+Mit einem Odoo Snippet können sie in unter *Einstellungen > Übersetzungen > Übersetzte Begriffe* das Feld *Übersetzungskommentare* anzeigen. Wenn sie eine eigene Übersetzung erstellen, fügen sie den Kommentar `mint_system` hinzu. So können sie vor einem Export die eigenen Übersetzungen exportieren.
+
+![Einstellungen Übersetzung Kommentar hinzufügen](assets/Einstellungen%20Übersetzung%20Kommentar%20hinzufügen.gif)
