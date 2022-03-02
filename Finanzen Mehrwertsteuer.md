@@ -38,3 +38,12 @@ Das Menü *Konten-Tags* wird nur im Entwicklermodus angezeigt. Um das Verhalten 
 Klicken sie auf *Einstellungen > Finanzen > Steuern > Konfigurieren der Steuerkonten*. Hier können sie die Konten pro Steuersatz für die Bezahlung der Umsatzsteuer hinterlegen.
 
 ![](assets/Finanzen%20Mehrwertsteuer%20Steuerkonten%20konfigurieren.png)
+
+## Steuergruppen anzeigen
+
+Damit sie eine Übersicht der Steuergruppen erhalten,müssen sie via *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* einen neuen Eintrag anlegen.
+
+Menü: `Steuergruppen`\
+Obermenü: `Finanzen/Konfiguration/Finanzen`\
+Aktion: `ir.actions.act_window` `Steuergruppen`\
+Nummernfolge: `10`
