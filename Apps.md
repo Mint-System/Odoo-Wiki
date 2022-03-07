@@ -41,6 +41,6 @@ Damit auch Apps in der Theme-Liste angezeigt werden, klicken sie erstmals auf *A
 
 Wählen sie *Apps* und entfernen sie den Standardfilter *Apps*. Suchen sie nach der gewünschten App, klicken sie auf das Kontext-Menü und wählen sie *Modul Inofrmation*.
 
-![](assets/Pasted%20image%2020220221194620.png)
+![](assets/Apps%20Modul%20aktualisieren.png)
 
 In der Formular-Ansicht wählen sie *Aktualiseren*. Nun aktualisiert Odoo die App-Daten (Daten, Ansichten und Assets).

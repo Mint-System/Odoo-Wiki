@@ -224,7 +224,7 @@ Wenn sie über Aktionen bestimmte Odoo-Ansichten aufrufen ist bereits ein Filter
 
 Wählen sie auf der Ansicht mit dem Filter *Entwickler-Tools > Aktion bearbeiten*. Im Feld *Wert aus Kontext* können nicht nur Standardwerte für die anzuzeigende Ansicht hinterlegt werden, sondern auch der Status von Filtern.
 
-![](assets/Pasted%20image%2020220214144936.png)
+![](assets/Entwicklung%20Standardfilter%20einrichten.png)
 
 Der Name des Filters lautet in diesem Beispiel `my_quotation`. Angenommen sie haben mittels Snippet diesen Filter hinzugefügt:
 

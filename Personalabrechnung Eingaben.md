@@ -120,3 +120,6 @@ Damit die Eingabe in der Lohnabrechnung berücksichtigt wird, muss eine bestehen
 Python Code: `result = payslip.paid_amount + (inputs.BASIC13.amount if inputs.BASIC13 else 0)`
 
 Speichern sie die Lohnart,  fügen sie einer ausgewählte Lohnabrechnung mit der zugehörigen Lohnstruktur eine Spesen-Eingabe hinzu und berechnen die Abrechnung neu.
+
+::: tip
+Falls sie für den 13en Monatslohn eine eigene Lohnart aufführen, können sie diesen Python Code verwenden: `result = inputs.BASIC13.amount if inputs.BASIC13 else 0
