@@ -123,7 +123,7 @@ Das Ergebnis sollte so aussehen:
 
 ## Aktion "Lohnabrechnung zurücksetzen" hinzufügen
 
-iNavigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
 
 Name der Aktion: `Lohnabrechnung zurücksetzen`\
 Modell: `hr.payslip`\
@@ -139,3 +139,22 @@ for record in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 Im Formular der Lohnbuchung erscheint nun in der Auswahl *Aktion* das Menu *Lohnabrechnung zurücksetzen*.
+
+## Aktion "Batch zurücksetzen" hinzufügen
+
+Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Batch zurücksetzen`\
+Modell: `hr.payslip.run`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```py
+for record in records:
+  record.write({'state': 'verify'})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+Im Formular der Batches erscheint nun in der Auswahl *Aktion* das Menu *Batch zurücksetzen*.
