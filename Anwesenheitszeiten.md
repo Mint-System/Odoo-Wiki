@@ -69,3 +69,13 @@ Mitarbeiter können standardmässig ihre Anwesenheitszeiten nachbessern. Dazu na
 Um einen Eintrag zu bearbeiten, klick man entweder auf *Einchecken* oder *Abmeldung*.
 
 ![](assets/Anwesenheitszeiten%20bearbeiten.png)
+
+## Zeitüberschreitungen filtern
+
+Wenn sie wissen möchten, welche Mitarbeitenden nicht korrekt ausgestempelt oder zu viel Zeit gestempelt haben, können sie die Einträge via *Anwesenheitszeiten > Manager > Anwesenheitszeiten* filtern. Erstellen sie einen Filter für das Feld *Arbeitsstunden*:
+
+![](assets/Anwesenheitszeiten%20Arbeitsstunden%20filtern.png)
+
+Natürlich können sie die Auswertung auf ihrem Dashboard hinzufügen und sehen so, ob eine Fehlbuchung entstanden ist.
+
+![](assets/Anwesenheitszeiten%20Dashboard.png)
