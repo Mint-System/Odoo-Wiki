@@ -114,7 +114,7 @@ for project in project_ids:
     action = env['ir.actions.act_window'].create({
       'name': name,
       'res_model': 'project.task',
-      'view_mode': 'kanban',
+      'view_mode': 'kanban,tree,form,calendar,pivot,graph,activity,map',
       'domain': "[('project_id', '=', %s)]"  % (project.id),
     })
   
