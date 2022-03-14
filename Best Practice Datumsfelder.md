@@ -8,4 +8,4 @@ prev: ./best-practice
 Die folgende Übersicht zeigt die Datumfelder im Zusammenhang mit *Einkauf*, *Verkauf* und *Fertigung*.
 
 
-![Best Practice Datumsfelder](assets/Best%20Practice%20Datumsfelder.svg)
+[Best Practice Datumsfelder](assets/Best%20Practice%20Datumsfelder.svg)
