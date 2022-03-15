@@ -173,7 +173,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```py
 # Set products to ignore
@@ -189,8 +189,11 @@ if fix_moves:
 	log('Fix qty done for moves: %s' % (fix_moves))
 
 for move in fix_moves:
-    move.write({'quantity_done': move.product_uom_qty})
-
+    try:
+        move.write({'quantity_done': move.product_uom_qty})
+    except:
+        log('While writing move %s an error occured.' % (move), level='error')
+      
 # Get lines where qty done is not equal to demand and no move line has been created
 fix_move_lines = pickings.move_line_ids.filtered(lambda l: (l.qty_done != l.move_id.product_uom_qty) and (l.product_id.name not in except_product_names))
 
@@ -245,7 +248,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```py
 # Get outgoing pickings
