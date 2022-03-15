@@ -57,3 +57,10 @@ Oberhalb des Berichts kann diese Meldung erscheinen:
 ![](assets/Finanzen%20Berichte%20Balance%20Off.png)
 
 Klicken sie *journal items* um die Buchungen anzuzeigen.
+
+## Buchungszeilen mit Gegenkonto anzeigen
+
+Eine Buchungszeile enthählt immer noch nur ein Konto. Der Buchungssatz kann mehrere Buchungszeilen enthalten. Wenn sie eine Aufstellung der Buchungszeilen mit Gegenkonto sehen möchten, aktivieren sie den Entwicklermodus und wählen *Finanzen > Finanzen > Buchungszeilen*. Filtern sie die Buchungszeilen nach einem bestimmten Journal und gruppieren sie nach *Buchungssatz*.
+
+![](assets/Finanzen%20Berichte%20Buchungszeilen%20mit%20Gegenkonto%20anzeigen.png)
+
