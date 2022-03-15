@@ -71,4 +71,18 @@ Im Zahlungsvorgang von Rechnungen wurde eine Zahlungsmethode gelöscht.
 
 #### Lösung
 
-Aktualisieren sie die App *Abrechnung* (`account`). Damit werden die Zahlungsmetho
+Aktualisieren sie die App *Abrechnung* (`account`).
+
+## Eingehende Mail werden nicht verarbeitet
+
+#### Problem
+
+Antworten auf E-Mails, die mit Odoo versendet werden, werden von Odoo nicht verarbeitet.
+
+#### Ursache
+
+Werden die ausgehenden E-Mail Server bearbeitet oder zurückgesetzt, werden in den Systemparameter die Einstellungen für den Mail-Alias verändert.
+
+#### Lösung
+
+Prüfen sie die Systemparater und stellen sicher sich, dass die Schlüssel `mail.catchall.domain` und `mail.catchall.alias`.
