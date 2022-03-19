@@ -64,3 +64,7 @@ Standardmässig druckt Odoo die Adresse mit dem jeweiligen Land des Kontakts ab.
 Damit das Land nicht abgedruckt wird, öffnen sie die Ansicht *Kontakte > Konfiguration > Lokalisierung > Länder* und wählen ihr Land aus. Nun können sie das *Layout in Berichten* festlegen.
 
 ![](assets/Kontakte%20Layout%20in%20Berichten.png)
+
+## Partner Autovervollständigung deaktivieren
+
+Wenn sie nicht möchten, dass Odoo Kontaktdaten beim Erfassen vorschlägt und ihre Odoo Kontakt-Daten nicht hochgeladen werden, müssen sie die *Partner Partner Autovervollständigung* unter *Einstellungen > Allgemeine Einstellungen > Kontakte* deaktivieren.

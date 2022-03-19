@@ -29,3 +29,4 @@ Die DNS-Einträge können sie im Normalfall dort machen, wo sie die Domain erwor
 In den Einstellung findet sie den Abschnitt *Custom domains*, hier fügen sie den Namen ihrer Domain ein.
 
 ![](assets/Odoo.sh%20Custom%20domains.png)
+

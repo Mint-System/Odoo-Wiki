@@ -47,3 +47,7 @@ Für sie einen Abonnent dem Odoo-Objekt hinzu indem sie rechts von *Abonnieren* 
 Entfernen sie einen Abonnent vom Odoo-Objekt indem sie rechts von *Abonnieren* auf das Icon klicken.
 
 ![Diskussion Abonnent entfernen](assets/Diskussion%20Abonnent%20entfernen.gif)
+
+## Benachrichtigungen anzeigen
+
+Wenn Odoo Nachrichten versendet, werden abonnierte Benutzer benachrichtigt. Diese Benachrichtigungen können via *Einstellungen > Technisch > Benachrichtigungen* angezeigt werden.

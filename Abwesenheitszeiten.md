@@ -16,6 +16,12 @@ Verwaltung von Mitarbeiterurlauben & Abwesenheit
 | [HR Holidays .ics Attachment](HR%20Holidays%20ics%20Attachment.md)                      | An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.                                                  |
 | [HR Holidays Leave Archive](HR%20Holidays%20Leave%20Archive.md)                         | Archivierungsfunktion für Abwesenheitseinträge aktivieren.                                                         |
 
+## Abwesenheitstypen erfassen
+
+Jede Abwesenheit und Abwesenheitsanspruch wird einem Abwesenheitstyp zugeordnet. Damit sie jährliche Feriensaldis korrekt erfassen, müssen sie für jedes Jahr einen Abwesenheitstyp erfassen. Navigieren sie nach *Abwesenheitszeiten > Konfiguratin > Abwesenheitstypen* und duplizieren sie einen bestehenden Typ. Legen sie im Bereich *Gültigkeit* das Von- und Bis-Datum fest. Dazu ein Beispiel:
+
+![](assets/Abwesenheitszeiten%20Übersicht%20Abwesenheitstypen.png)
+
 ## Abwesenheitsanspruch melden
 
 Damit sie Anspruch auf Abwesenheit haben, müssen sie diesen Anspruch geltend machen. Öffnen sie die App *Abwesenheitszeiten* und wählen sie *Neuer Abwesenheitsanspruch*. Wählen sie den Typ, die Anzahl Tage und fügen sie eine Beschreibung hinzu.
