@@ -100,3 +100,23 @@ Navigieren sie nach *Finanzen > Kunden > Rechnungen* und wählen sie *Filter > B
 Navigieren sie nach *Finanzen > Konfiguration > Abrechnung > Zahlungsbedingungen* und erstellen sie einen neuen Eintrag wie folgt. Duplizieren sie eine bestehende Zahlungsbedingung, beispielsweise *30 Tage*. Wir nehmen an, dass wir für eine Zahlung innerhalb von Tagen 10 eine Skonto von 10% gewähren.
 
 ![](assets/Finanzen%20Rabatt.png)
+
+
+## Aktion Finanzen "Als ungebucht markieren" erstellen
+
+Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Als ungebucht markieren`\
+Modell: `account.move`\
+Folgeaktion: `Python-Code ausführen`
+
+```py
+for record in records:
+	if record.state != 'cancel':
+		UserError('Can only unpost entry if it is cancelled.')
+	record.write({ 'posted_before': False })
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Als ungebucht markieren*.

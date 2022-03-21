@@ -46,7 +46,7 @@ Nachdem der Browser aktualisiert haben sie Zugriff auf das neue Menü und Ansich
 
 ![](assets/Aktionen%20neue%20Ansicht.png)
 
-## AKtion "Reload BoM" erstellen
+## Aktion Fertigung  "Reload BoM" erstellen
 
 Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
 
@@ -68,7 +68,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 Im Fertigungsauftrag erscheint nun in der Auswahl *Aktion* das Menu *Reload BoM*.
 
-## Aktion "Reset to Draft" erstellen
+## Aktion Finanzen "Reset to Draft" erstellen
 
 Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
 
@@ -87,11 +87,11 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Reset to Draft*.
 
-## Aktion "Cancel Reconcilation" erstellen
+## Aktion  Finanzen "Abstimmung zurücksetzen" erstellen
 
 Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
 
-Name der Aktion: `Cancel Reconcilation`\
+Name der Aktion: `Abstimmung zurücksetzen`\
 Modell: `account.bank.statement.line`\
 Folgeaktion: `Python-Code ausführen`
 
@@ -99,12 +99,31 @@ Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```py
 for record in records:  
-  record.button_cancel_reconciliation()
+  record.button_undo_reconciliation()
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Liste der Vorgänge erscheint nun in der Auswahl *Aktion* das Menu *Cancel Reconcilation*.
+In der Liste der Vorgänge erscheint nun in der Auswahl *Aktion* das Menu *Abstimmung zurücksetzen*.
+
+## Aktion Finanzen "Bankauszug zurücksetzen" erstellen
+
+Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+
+Name der Aktion: `Bankauszug zurücksetzen`\
+Modell: `account.bank.statement`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```py
+for record in records:  
+  record.button_reopen()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Belege erscheint nun in der Auswahl *Aktion* das Menu *Bankauszug zurücksetzen*.
 
 ## Aktion Abwesenheitzeiten "Ablehnen" erstellen
 
