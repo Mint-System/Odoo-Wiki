@@ -10,11 +10,15 @@ prev: ./dashboards
 Übersicht aller erstellten Aktivitäten.
 
 Technischer Name: `mail_activity_board`\
-Repository: <https://github.com/OCA/social/tree/13.0/mail_activity_board>
+Repository: <https://github.com/OCA/social/tree/14.0/mail_activity_board>
 
-## Aktivitäten anzeigen
+## Alle Aktivitäten anzeigen
 
-Navigieren sie nach *Dashboard > Activities*. Hier sehen sie alle erstellen Aktiviäten. Wenn sie sich auf einem Geschäftsobjekt befinden, können sie die dazugehörgen Aktivitäten über diesen Button anzeigen lassen:
+Navigieren sie nach *Dashboard > Activities*. Hier sehen sie alle erstellen Aktiviäten.
+
+![](assets/Mail%20Activity%20Board%20Alle.png)
+
+Wenn sie sich auf einem Geschäftsobjekt befinden, können sie die dazugehörgen Aktivitäten über diesen Button anzeigen lassen:
 
 ![](assets/Mail%20Activity%20Board%20List.png)
 
