@@ -64,3 +64,12 @@ Eine Buchungszeile enthählt immer noch nur ein Konto. Der Buchungssatz kann meh
 
 ![](assets/Finanzen%20Berichte%20Buchungszeilen%20mit%20Gegenkonto%20anzeigen.png)
 
+## Mahnberichte anzeigen
+
+Sie finden eine Aufstellung der Mahnungen via *Finanzen > Kunden > Mahnberichte*.
+
+![](assets/Finanzen%20Berichte%20Mahnberichte.png)
+
+::: warning
+Wenn sie einen Mahbericht öffnen, befinden sie sich technisch auf einem Kontakt-Eintrag. Nachrichten, die mit der Ansicht Mahnbericht versendet werden, werdem auf dem Kontakt-Eintrag registriert. Prüfen sie vor dem Versand der Nachricht, ob die Abonnenten auf dem Kontakt-Eintrag korrekt sind.
+:::
