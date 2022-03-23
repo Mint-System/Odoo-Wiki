@@ -11,7 +11,8 @@ prev: ./fertigung
 Fertigungsauftrag rückgängig machen.
 
 Technischer Name: `eq_cancel_mrp_orders`\
-Repository: <https://gitlab.com/mint-system/odoo-app-cancel-manufacturing-order>
+Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/eq_cancel_mrp_orders>\
+Odoo App Store: <https://gitlab.com/mint-system/odoo-app-cancel-manufacturing-order>
 
 ## Berechtigung festlegen
 

@@ -10,7 +10,7 @@ prev: ./einstellungen
 Den Odoo-Startbildschirm gestalten.
 
 Technischer Name: `home_background_image`\
-Repository: <https://github.com/Mint-System/Odoo-App-Home-Background-Image/tree/14.0>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/home_background_image>
 
 ## Hintergrundbild festlegen
 

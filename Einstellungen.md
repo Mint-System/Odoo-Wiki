@@ -20,6 +20,7 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 | [Impersonate](Impersonate.md)                         | Schnelles Wechseln zwischen Benutzer-Accounts. |
 | [Home Background Image](Home%20Background%20Image.md) | Den Odoo-Startbildschirm gestalten.            |
 | [Show DB Name](Show%20DB%20Name.md)                   | Zeigt den Datenbanknamen oben rechts an.       |
+| [Auth OAuth Keycloak](Auth%20OAuth%20Keycloak)        | Ermöglich Keycloak Integration mit ODoo OAuth.                                               |
 
 ## Entwicklermodus aktivieren
 

@@ -8,9 +8,10 @@ prev: ./
 
 Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 
-| Erweiterung                                   | Beschreibung                            |
-| --------------------------------------------- | --------------------------------------- |
+| Erweiterung                                       | Beschreibung                            |
+| ------------------------------------------------- | --------------------------------------- |
 | [Mail Activity Board](Mail%20Activity%20Board.md) | Übersicht aller erstellten Aktivitäten. |
+| [Board Users](Board%20Users.md)                      |     Dashboars von allen Benutzer anzeigen.                                    |
 
 ## Gefilterte Ansicht auf Dashboard speichern
 

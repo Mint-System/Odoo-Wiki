@@ -10,7 +10,7 @@ prev: ./fertigung
 Teilen sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument.
 
 Technischer Name: `mrp_documents_share`\
-Repository: <https://github.com/Mint-System/Odoo-App-MRP-Documents-Share>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_documents_share>
 
 ## Zeichnung und Step-Datei hinzufügen
 

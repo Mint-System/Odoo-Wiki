@@ -10,7 +10,8 @@ prev: ./einstellungen
 Schnelles Wechseln zwischen Benutzer-Accounts.
 
 Technischer Name: `impersonate`\
-Repository: <https://apps.odoo.com/apps/modules/13.0/impersonate/>
+Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/impersonate>\
+Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/impersonate/>
 
 ## Impersonierung freigeben
 
