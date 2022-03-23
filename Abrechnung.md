@@ -9,9 +9,10 @@ Online Rechnungsstellung leicht gemacht.
 
 ![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)
 
-| Erweiterung                                                                         | Beschreibung                                                                          |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                           | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt.           |
+| Erweiterung                                                           | Beschreibung                                                                |
+| --------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [Account Move Post Warn](Account%20Move%20Post%20Warn.md)             | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt. |
+| [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md) | PDF-Dokumenten von Rechnungen zusammenführen.                               |
 
 ## Ausgangsrechnung erfassen
 
