@@ -2,20 +2,16 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finanzen
+prev: ./abrechnung
 ---
 # Sale Move Reconciled Date
 
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Zeigt für eine Rechnung das definitive Abgleichsdatum an.           
+Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt.      
 
-Technischer Name: `account_move_reconciled_date`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_move_reconciled_date>
-
-
-
-Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt. 
+Technischer Name: `account_move_post_warn`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_move_post_warn>
 
 ## Warnung beim Buchen ausgeben
 
