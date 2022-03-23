@@ -155,7 +155,7 @@ Um eine Rechnungsabgrenzung in Odoo vorzunehmen, wählen sie die Rechnung via *F
 
 Mit *Create Journal Entries* wird die Buchung und Gegenbuchung für die Rechnungsabgrenzung erstellt.
 
-## Warnung bei Erstellung von Rechnung anzeigen
+## Warnung für den Rechnungskontakt festlegen
 
 Auf Kontakten können sie Warnungs-Text hinterlegen, welche bei der Ertellung einer Rechnung angezeigt werden. Damit die entprechenden Felder auf dem Kontakt angezeigt werden, müssen sie in den Benutzer-Einstellungen die Berechtigung *Eine Warnung kann auf einem Partner (Konto) gelegt werden* aktivieren. Unter *Kontakte > Eintrag auswählen > Tab Interne Notizen* finden sie das entsprechende Feld.
 
