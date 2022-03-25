@@ -67,3 +67,31 @@ In der Listenansicht können Datensätze ausgewählt und als Sammelmutation geä
 ## Demodaten anzeigen
 
 Auf GitHub veröffentlicht die Mint System [Odoo-Demodaten](https://github.com/Mint-System/Odoo-Demodaten). Hier finden sie Importbereite Datensätze für die Odoo-Module.
+
+
+## Importzuordnung anzeigen
+
+Damit sie eine Übersicht der Importzuordnung erhalten, erstellen sie als erstes eine neue Ansicht gemäss [Ansicht erstellen](Entwicklung.md#Ansicht%20erstellen) mit diesen Angaben:
+
+Ansichtsbezeichnung: `mint_system.base_import.mapping.tree`
+Modell: `base_import.mapping`\
+Architektur:
+
+```xml
+<tree>
+  <field name="column_name"/>
+  <field name="res_model"/>
+</tree>
+```
+
+Anschliessend erstellen sie einen neuen Menüeintrag mit einer neuen Aktion gemäss [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Angaben:
+
+Name der Aktion: `Importzuordnung`\
+Objekt: `base_import.mapping`\
+Ansichtsreferenz: `mint_system.base_import.mapping.tree`
+Ansichtsmodus: `tree,form`\
+Menü: `Importzuordnung`\
+Obermenü: `Einstellungen/Technisch/Datenbankstruktur`\
+Aktion: `ir.actions.act_window` `Importzuordnung`\
+Nummernfolge: `90`
+

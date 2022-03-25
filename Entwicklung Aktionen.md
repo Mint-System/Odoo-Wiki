@@ -33,7 +33,8 @@ Fehlen bestimmte Ansichten, können diese ganz einfach mit einer Aktion und eine
 Navigieren sie nach *Einstellungen > Technisch > Aktionen > Fenster öffnen/schliessen ...* und erstellen sie einen neuen Eintrag:
 
 Name der Aktion: `BoM Komponenenten`\
-Objekt: `mrp.bom.line`
+Objekt: `mrp.bom.line`\
+Ansichtsreferenz: Gemäss Angaben
 
 Navigieren sie nach *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und erstellen sie einen neuen Eintrag:
 

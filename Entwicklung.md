@@ -253,3 +253,22 @@ Nummernfolge: `10`
 Das Ergebnis sollte so aussehen:
 
 ![](assets/Entwicklung%20Ansicht%20Anhänge.png)
+
+## Ansicht erstellen
+
+Öffnen sie *Einstellung > Technisch > Ansichten* und legen sie einen neuen Eintrag an. Im folgenden Beispiel erstellen sie eine Listenansicht (Tree) für das Datenmodell *Basisimportzuordnung*.
+
+Ansichtsbezeichnung: `mint_system.base_import.mapping.tree`
+Modell: `base_import.mapping`\
+Architektur:
+
+```xml
+<tree>
+  <field name="column_name"/>
+  <field name="res_model"/>
+</tree>
+```
+
+So sollte es dann aussehen:
+
+![](assets/Entwicklung%20Ansicht%20erstellen.png)
