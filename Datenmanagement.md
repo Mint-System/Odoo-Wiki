@@ -68,7 +68,6 @@ In der Listenansicht können Datensätze ausgewählt und als Sammelmutation geä
 
 Auf GitHub veröffentlicht die Mint System [Odoo-Demodaten](https://github.com/Mint-System/Odoo-Demodaten). Hier finden sie Importbereite Datensätze für die Odoo-Module.
 
-
 ## Importzuordnung anzeigen
 
 Damit sie eine Übersicht der Importzuordnung erhalten, erstellen sie als erstes eine neue Ansicht gemäss [Ansicht erstellen](Entwicklung.md#Ansicht%20erstellen) mit diesen Angaben:
@@ -95,3 +94,4 @@ Obermenü: `Einstellungen/Technisch/Datenbankstruktur`\
 Aktion: `ir.actions.act_window` `Importzuordnung`\
 Nummernfolge: `90`
 
+![](assets/Importzuordnung%20Importzuordnung%20anzeigen.png)
