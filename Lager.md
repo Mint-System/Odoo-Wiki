@@ -175,7 +175,7 @@ Folgeaktion: `Python-Code ausführen`
 
 Kopieren sie die folgenden Zeilen in das Feld *Python Code*:
 
-```py
+```python
 # Set products to ignore
 except_product_names = ["Gebinde"]
 
@@ -192,7 +192,7 @@ for move in fix_moves:
     try:
         move.write({'quantity_done': move.product_uom_qty})
     except:
-        log('While writing move %s an error occured.' % (move), level='error')
+        log('While writing move %s with origin %s an error occured.' % (move, move.origin), level='error')
       
 # Get lines where qty done is not equal to demand and no move line has been created
 fix_move_lines = pickings.move_line_ids.filtered(lambda l: (l.qty_done != l.move_id.product_uom_qty) and (l.product_id.name not in except_product_names))
