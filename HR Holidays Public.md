@@ -34,3 +34,9 @@ Geben Mitarbeitende ihren Abwesenheit ein, wird der Feiertag von der berechneten
 
 ![HR Holidays Public Abzug](assets/HR%20Holidays%20Public%20Abzug.gif)
 
+
+## Spezielle Abwesenheitsregelungen einrichten
+
+Angenommen sie müssen für bestimmte Personen spezielle Abwesenheitsregelungen einrichten, so können sie das über die Arbeitszeit definieren. Öffnen sie *Einstellungen > Technisch > Arbeitszeit* und wwählen sie einen Eintrag aus. Wenn sie im Tab *Gobal Time Off* einen Eintrag machen, wird dieser bei der Erfassung der Abwesenheit berücksichtigt.
+
+![](assets/Pasted%20image%2020220329101738.png)
