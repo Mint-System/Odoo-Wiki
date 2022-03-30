@@ -311,7 +311,7 @@ Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
 ## [Anforderungen](Anforderungen.md)
 
-Die Evaluation eines ERP-Systems ist eine aufwändige Arbeit. Als Kunde ist man damit konfrontiert Anforderungen systematisch zu erfassen und für Lieferanten zugänglich zu machen. Als Lieferant hat man der Analyse der Anforderungen viel Aufwand. Die [Referenzanforderungen](Anforderungen.md) sollen den Abgleich mit einem Lastenheft vereinfachen.
+Die Evaluation eines ERP-Systems ist eine aufwändige Arbeit. Als Kunde ist man damit konfrontiert Anforderungen systematisch zu erfassen und den Lieferanten sinnvoll zu vermitteln. Als Lieferant erfordert die Analyse der Anforderungen viel Zeit. Die [Referenzanforderungen](Anforderungen.md) sollen den Abgleich mit einem Lastenheft vereinfachen.
 
 ## [Mitarbeit](Mitarbeit.md)
 

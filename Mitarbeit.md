@@ -41,7 +41,7 @@ Der Obsidian Vault und das Git Repository werden mit dem Obisidian Git Plugin sy
 
 ## Philosophie
 
-Mit dem Odoo Wiki streben wir an eine einfache und kompakte Hilfestellung den Kunden anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best Practice](Best%20Practice.md). Geschäftsprozesse werden im [Referenzsystem](Referenzsystem.md) beschrieben. 
+Das Odoo Wiki hat zum Ziel den Anwender eine einfache und kompakte Hilfestellung anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best Practice](Best%20Practice.md) abgebildet und Geschäftsprozesse werden im [Referenzsystem](Referenzsystem.md) beschrieben. 
 
 ## Beispielunternehmen
 
@@ -72,7 +72,7 @@ Handelsregister: CH-020.4.036.470-7
 
 ## Sprache
 
-Die Artikel sind in der Sprache Deutsch und in der [Höflichkeitsform](https://de.wikipedia.org/wiki/H%C3%B6flichkeitsform). Das Subjektiv bleibt jedoch klein geschrieben.
+Die Artikel sind in der Sprache Deutsch und in der [Höflichkeitsform](https://de.wikipedia.org/wiki/H%C3%B6flichkeitsform). Das Subjektiv bleibt klein geschrieben.
 
 Die Beschreibungen und Anleitungen sind ausführlich und kommen ohne Abkürzungen aus.
 
@@ -143,7 +143,7 @@ Informationen eines Kunden dürfen auf den Bilder nicht sichtbar sein.
 
 ## Struktur
 
-Für jede Odoo-App existiert eine Seite. Beispielsweise für die Notiz-App gibt es die Seite [Notizen](Notizen.md). Auf dieser Seite werden Abläufe aus Kundensicht beschrieben. Dazu die folgende Vorlage:
+Für jede Odoo-App existiert eine Seite. Beispielsweise für die Notiz-App gibt es die Seite [Notizen](Notizen.md). Auf dieser Seite werden Abläufe aus Kundensicht beschrieben. Dazu existiert diese Vorlage:
 
 **Appname.md**
 
@@ -181,9 +181,9 @@ Genauso werden Erweiterungen und Videos verlinkt.
 ### OCA-Apps
 
 Dokumentation zu den OCA-Apps müssen diese Vorgaben erfüllen:
-* Standard OCA-icon
+* Standard OCA-Icon
 * Titel ist gleich dem Titel im Repository
-* Repository-Link zeigt auf aktuelle Odoo-Version
+* Repository-Link zeigt auf die aktuellste Version
 
 ### Namensbereiche
 
@@ -196,7 +196,7 @@ Die foglenden Namensbereiche sind reserviert:
 
 ## Tags
 
-Mit Obsidian können Artikel getagged `#tagname` werden. Tags werden jedoch von Vuepress nicht unterstützt. Daher werden die Tags nur zur Verwaltung der Artikel verwendet. Folgende Tags stehen zur verfügung:
+Mit Obsidian können Artikel getagged `#tagname` werden. Tags werden von Vuepress nicht verarbeitet, daher werden diese nur zur Verwaltung der Artikel verwendet. Folgende Tags stehen zur Verfügung:
 
 * #FIXME: An dieser Stelle ist eine Änderungen offen.
 * #REPLACEME: An der Stelle des Tags mit gemäss Kommentar Inhalt ergänzt werden.
