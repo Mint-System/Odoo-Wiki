@@ -66,7 +66,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Replenishment](Best%20Practice%20Replenishment.md)
 * [Warenbedarf](Best%20Practice%20Warenbedarf.md)
 * [Liefertermin verschieben](Best%20Practice%20Liefertermin%20verschieben.md)
-* [Berücksichtigung Lead-Time](Best%20Practice%20Berücksichtigung%20Lead-Time.md)
+* [Berücksichtigung Lead-Time](Best%20Practice%20Berücksichtigung%20Lead%20Time.md)
 * [Mengeneinheiten](Best%20Practice%20Mengeneinheiten.md)
 * [Lager konfigurieren](Best%20Practice%20Lager%20konfigurieren.md)
 * [Verpackungen](Best%20Practice%20Verpackungen.md)
