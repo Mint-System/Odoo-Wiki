@@ -14,7 +14,7 @@ Aktueller Lagerbestand: 11 Stk
 
 Stückliste:
 - 1 Stk Sattelstütze (Einkaufprodukt, Lead Time 2 Tage)
-- 1 Stk Sattelüberzug (Einkaufprodukt, Lead Time 30 Tage)
+- 1 Stk Sattelüberzug (Einkaufprodukt, Lead Time 7 Tage)
 - 1 Stk Sattelschelle (Einkaufprodukt, Lead Time 3 Tage)
 
 ### Replenishment
@@ -36,8 +36,8 @@ Die Übersicht *Prognostizierter Bestand* zeigt, dass der Lagerbestand des Produ
 
 Mit *Order Once* wird der Fertigungsauftrag WH/MO/00001 generiert. Im *Replenishment* erscheinen als Nächstes drei Bestellvorschläge für die Produkte *Sattelstütze*, *Sattelüberzug* und *Sattelschelle*.
 
-::: warning Liefertermin kann nicht gehalten werden
-Falls eine der Komponenten eine Lead Time > 30 Tage hat, kann der Liefertermin für das Produkt *Sattel* nicht eingehalten werden. Um Planungssicherheit zu haben muss also die *Durchlaufzeit der Fertigung* unter Berücksichtigung der Lead Time zur Beschaffung aller darunterliegenden Komponenten definiert werden.
+::: warning Lead Time der Komponenten beachten
+Falls eine der Komponenten eine Lead Time > 30 Tage hat, kann der Liefertermin für das Produkt *Sattel* nicht eingehalten werden. Um Planungssicherheit zu haben muss also die *Durchlaufzeit der Fertigung* unter Berücksichtigung der Lead Time zur Beschaffung aller benötigten Komponenten definiert werden.
 :::
 
 ![Best Practice lange Lead Time 2](assets/Best%20Practice%20lange%20Lead%20Time%202.svg)
