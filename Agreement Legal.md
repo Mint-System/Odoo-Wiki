@@ -42,3 +42,9 @@ Basierend auf einer Vorlage können Sie eine Vereinbarung erstellen. Öffnen sie
 Über die Ansicht *Agreements > Operations > Agreements* sehen sie alle aktiven Vereinbarungen. Hier können Sie suchen und filtern.
 
 ![Agreement Legal anzeigen](assets/Agreement%20Legal%20anzeigen.gif)
+
+## Neue Version von Vereinbarung erstellen
+
+Öffnen sie die *Agreements* App und wählen Sie eine bestehende Vereinbarung. Klicken Sie auf *New Version*. Nun wird die bestehende Vereinbarung dupliziert und im Tab *Revisions* wird die alte Version verknüpft.
+
+![](assets/Agreement%20Legal%20Revisions.png)
