@@ -21,7 +21,7 @@ Die Dateien camt053 und camt054 kann durch Odoo im App Finanzen eingelesen und v
 
 Durch die Angabe von Detailinformationen wie Bankdaten der Buchungs-Gegenseite, Mandat-ID und EndToEndId ist die Zuordnung von Zahlungen zu "Offene Posten" einfacher als mit den alten Formaten.
 
-Für Odoo wählen sie das Format *camt.053* um die von der Bank verbuchten Belege in den Kontoauszügen zu importieren. 
+Für Odoo wählen Sie das Format *camt.053* um die von der Bank verbuchten Belege in den Kontoauszügen zu importieren. 
 
 ### pain 
 
@@ -38,11 +38,11 @@ Damit ein Zahlungsausgleich durchgeführt werden kann, müssen zuerst die   Kred
 
 ![](assets/Best%20Practice%20Zahlungsabgleich%20Dashboard.png)
 
-Erfassen sie die Angaben zur Rechnung wie Lieferant, Rechnungsdatum, Buchungsdatum und Fälligkeit. Das Buchungsdatum und Fälligkeitsdatum soll mit der manuellen Verbuchung identisch mit dem Zahlungsdatum des Bankbeleges sein.
+Erfassen Sie die Angaben zur Rechnung wie Lieferant, Rechnungsdatum, Buchungsdatum und Fälligkeit. Das Buchungsdatum und Fälligkeitsdatum soll mit der manuellen Verbuchung identisch mit dem Zahlungsdatum des Bankbeleges sein.
     
-Geben sie in den Rechnungspositionen die Menge, den Stückpreis und die Art der Mehrwertsteuer ein. Dabei wird unterschieden zwischen den verschiedenen Mehrwertsteuersätze (2.5%, 7.7%) und ob der Betrag inklusive Mehrwertsteuer ist.
+Geben Sie in den Rechnungspositionen die Menge, den Stückpreis und die Art der Mehrwertsteuer ein. Dabei wird unterschieden zwischen den verschiedenen Mehrwertsteuersätze (2.5%, 7.7%) und ob der Betrag inklusive Mehrwertsteuer ist.
 
-Oben rechts mit der Büroklammer kann die eingescannte Rechnung als PDF abgelegt werden. Nach dem Erfassen aller Angaben klicken sie oben links auf *Bestätigen* damit der Knopf *Zahlung Erfassen* erscheint.
+Oben rechts mit der Büroklammer kann die eingescannte Rechnung als PDF abgelegt werden. Nach dem Erfassen aller Angaben klicken Sie oben links auf *Bestätigen* damit der Knopf *Zahlung Erfassen* erscheint.
 
 ![](assets/Best%20Practice%20Zahlungsabgleich%20Entwurf.png)
 
@@ -50,7 +50,7 @@ Oben rechts mit der Büroklammer kann die eingescannte Rechnung als PDF abgelegt
 
 ### Manueller Zahlungsabgleich
 
-Wird die Zahlung manuell ausgelöst, so wählen sie bei der Zahlungsmethode *Manuell* aus. Setzen sie auch das effektive Zahlungsdatum der Bankzahlung ein.
+Wird die Zahlung manuell ausgelöst, so wählen Sie bei der Zahlungsmethode *Manuell* aus. Setzen Sie auch das effektive Zahlungsdatum der Bankzahlung ein.
 
 Eine andere Art der Zahlung ist das Aufbereiten der Zahlungen in einer SEPA-Datei, die anschliessend im Ebanking eingelesen wrid.
 

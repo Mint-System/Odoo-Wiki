@@ -12,14 +12,14 @@ Alternative zur Odoo Mobile App.
 
 Laden Sie die App aus dem Geräte-spezifischen App-Store herunter.
 
-Öffnen sie App und geben sie Odoo Server Url ein.
+Öffnen Sie App und geben Sie Odoo Server Url ein.
 
 ![](assets/mERP%20Mobile%20App%20Server.jpg)
 
-Geben sie als nächstes den Benutzernamen und und das Passwort ein.
+Geben Sie als nächstes den Benutzernamen und und das Passwort ein.
 
 ![](assets/mERP%20Mobile%20App%20Benutzer.jpg)
 
-Hat das Login funktioniert, sollten sie diesen Bildschirm sehen:
+Hat das Login funktioniert, sollten Sie diesen Bildschirm sehen:
 
 ![](assets/mERP%20Mobile%20App%20Startbildschirm.jpg)

@@ -16,12 +16,12 @@ Repository: <https://gitlab.giordano.ch/odoo/giordano-addons/swiss-payroll/-/tre
 
 Die Anteile des Arbeitgebener und Arbeitnehmer können als Vorlage erfasst werden. Die Anteile werde werden dem Arbeitsvertrag zugewiesen.
 
-Möchten sie eine neue Vorlage erstellen, öffnen sie *Personalabrechnung > Konfiguration > Anteile Arbeitgeber / Arbeitnehmer* und wählen *Anlegen.*
+Möchten Sie eine neue Vorlage erstellen, öffnen Sie *Personalabrechnung > Konfiguration > Anteile Arbeitgeber / Arbeitnehmer* und wählen *Anlegen.*
 
-Geben sie einen Namen mit Jahresdatum ein und legen sie die Fix- und Prozentwerte fest.
+Geben Sie einen Namen mit Jahresdatum ein und legen Sie die Fix- und Prozentwerte fest.
 
 ::: warning
-Legen sie unbedingt die Monatslohngrenze fest. Nur dann werden ALV und NBU korrekt berechnet.
+Legen Sie unbedingt die Monatslohngrenze fest. Nur dann werden ALV und NBU korrekt berechnet.
 :::
 
 ![](assets/Pesonalabrechnung%20Anteile%20Arbeitnehmer%20Arbeitgebener.png)

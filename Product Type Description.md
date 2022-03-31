@@ -14,4 +14,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/14.
 
 ## Beschreibung hinzufügen
 
-Öffnen sie ein Produkt via *Lager > Produkte > Produkte* und zeigen sie den Tab *Allgemeine Informationen* an. Unter dem Feld *Interne Referenz* finden das Feld *Type Description*.
+Öffnen Sie ein Produkt via *Lager > Produkte > Produkte* und zeigen Sie den Tab *Allgemeine Informationen* an. Unter dem Feld *Interne Referenz* finden das Feld *Type Description*.

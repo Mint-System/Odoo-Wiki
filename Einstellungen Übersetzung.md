@@ -10,11 +10,11 @@ Einstellungen zu Sprachpakete und Übersetzungen.
 
 ## Neue Sprache aktivieren
 
-Damit Odoo in mehreren Sprachen verfügbar ist, müssen sie die entsprechenden Sprachpakete installieren. Navigieren sie nach *Einstellungen > Sprachen* und wählen sie *Sprachen verwalten*. Suchen sie die zu installierende Sprache, öffnen sie diese und wählen *Aktivieren und Übersetzen*.
+Damit Odoo in mehreren Sprachen verfügbar ist, müssen Sie die entsprechenden Sprachpakete installieren. Navigieren Sie nach *Einstellungen > Sprachen* und wählen Sie *Sprachen verwalten*. Suchen Sie die zu installierende Sprache, öffnen Sie diese und wählen *Aktivieren und Übersetzen*.
 
 ## Übersetzungen aktualisieren
 
-Mit jeder Odoo Version und den dazugehörigen Modulen werden neue Übersetzungen hinzugefügt. Um die aktuellsten Übersetzungen zu erhalten müssen sie folgende Aktion ausführen: Öffnen sie *Einstellungen > Sprachen > Sprachen verwalten > Sprache auswählen* und klicken auf *Active / Update*. Bestätigen sie den Dialog. Mit der Option *Bisherige Übersetzungen ändern* werden manuell erstelle Übersetzungen überschrieben.
+Mit jeder Odoo Version und den dazugehörigen Modulen werden neue Übersetzungen hinzugefügt. Um die aktuellsten Übersetzungen zu erhalten müssen Sie folgende Aktion ausführen: Öffnen Sie *Einstellungen > Sprachen > Sprachen verwalten > Sprache auswählen* und klicken auf *Active / Update*. Bestätigen Sie den Dialog. Mit der Option *Bisherige Übersetzungen ändern* werden manuell erstelle Übersetzungen überschrieben.
 
 ## Fehlende Begriffe generieren
 
@@ -41,43 +41,43 @@ Nun ist der Odoo-Dialog übersetzt.
 ![Odoo Übersetzung nachher](assets/Einstellungen%20%C3%9Cbersetzung%20nachher.png)
 
 ::: warning
-Speichern sie alle übersetzten Begriffe in einer separaten Notiz. Bei Upgrades können eigene Übersetzungen vom System überschrieben werden.
+Speichern Sie alle übersetzten Begriffe in einer separaten Notiz. Bei Upgrades können eigene Übersetzungen vom System überschrieben werden.
 
 ![](assets/Einstellungen%20Übersetungen%20Noitz.png)
 :::
 
 ## Übersetzungen exportieren
 
-Im Entwicklermodus öffnen sie den Export-Dialog via *Einstellungen > Übersetzungen > Import / Export > Übersetzung exportieren*. Wählen sie die zu exportierende Sprache, Datei-Format CSV und eine App deren Übersetzungen sie exportieren möchten. Drücken sie auf *Export* und laden die CSV-Datei herunter.
+Im Entwicklermodus öffnen Sie den Export-Dialog via *Einstellungen > Übersetzungen > Import / Export > Übersetzung exportieren*. Wählen Sie die zu exportierende Sprache, Datei-Format CSV und eine App deren Übersetzungen Sie exportieren möchten. Drücken Sie auf *Export* und laden die CSV-Datei herunter.
 
 ::: warning
-Organisieren sie die Übersetzung nach Apps
+Organisieren Sie die Übersetzung nach Apps
 :::
 
 ## Übersetzungen importieren
 
-Im Entwicklermodus öffnen sie den Import-Dialog via *Einstellungen > Übersetzungen > Import / Export > Übersetzung importieren*. Für die Sprache Deutsch (Schweiz) geben sie die folgenden Informationen ein:
+Im Entwicklermodus öffnen Sie den Import-Dialog via *Einstellungen > Übersetzungen > Import / Export > Übersetzung importieren*. Für die Sprache Deutsch (Schweiz) geben Sie die folgenden Informationen ein:
 * Sprache: de
 * Code: CH
-Laden sie die Datei mit Übersetzungen hoch und klicken auf *Import*.
+Laden Sie die Datei mit Übersetzungen hoch und klicken auf *Import*.
 
 ## Bestimmte Begriffe umbennen
 
-Ist man mit einer bestimmte Übersetzung nicht zufrieden, können sie diese selber anpassen. Angenommen wir wollen auf der Rechnung *Zwischensumme* zu *Nettobetrag* umbennen, öffnen sie als erstes *Einstellungen > Übersetzungen > Übersetzt Begriffe*.
+Ist man mit einer bestimmte Übersetzung nicht zufrieden, können Sie diese selber anpassen. Angenommen wir wollen auf der Rechnung *Zwischensumme* zu *Nettobetrag* umbennen, öffnen Sie als erstes *Einstellungen > Übersetzungen > Übersetzt Begriffe*.
 
 ![](assets/Einstellungen%20%C3%9Cbersetzungen%20Begriff%20Zwischensumme.png)
 
-Suchen sie nach dem Übersetzungswert *Zwischensumme*. Es erscheinen mehrere Resultate. Für einen Begriff kann es mehrere gleiche Übersetzung geben, weil es mehrere unabhängige Odoo Apps gibt, die den gleichen Begriff verwenden.
+Suchen Sie nach dem Übersetzungswert *Zwischensumme*. Es erscheinen mehrere Resultate. Für einen Begriff kann es mehrere gleiche Übersetzung geben, weil es mehrere unabhängige Odoo Apps gibt, die den gleichen Begriff verwenden.
 
-In unserem Fall wollen wir die Einträge mit `<strong>...</strong>` anpassen. Wählen sie die entsprechenden Einträge aus und ersetzen sie *Zwischensumme* mit *Nettobetrag*.
+In unserem Fall wollen wir die Einträge mit `<strong>...</strong>` anpassen. Wählen Sie die entsprechenden Einträge aus und ersetzen Sie *Zwischensumme* mit *Nettobetrag*.
 
 ## Produktnamen übersetzen
 
-Haben sie mehrere Sprachpakete auf der Odoo-Umgebung installiert und möchten Produktnamen übersetzen, gehen sie wie folgt vor. Öffnen sie das Produkt in der Einzelansicht und klicken sie auf *Bearbeiten*. Am oberen rechten Eck des Eingabefelds zum Produktnamen finden sie ein Link.
+Haben Sie mehrere Sprachpakete auf der Odoo-Umgebung installiert und möchten Produktnamen übersetzen, gehen Sie wie folgt vor. Öffnen Sie das Produkt in der Einzelansicht und klicken Sie auf *Bearbeiten*. Am oberen rechten Eck des Eingabefelds zum Produktnamen finden Sie ein Link.
 
 ![](assets/Einstellungen%20%C3%9Cbersetung%20Produktnamen%20%C3%BCbersetzen.png)
 n
-Klicken sie auf diesen und geben sie den übersetzten Produktnamen ein.
+Klicken Sie auf diesen und geben Sie den übersetzten Produktnamen ein.
 
 ## Feldinhalte übersetzen
 
@@ -86,11 +86,11 @@ Bestimmte Feldinhalte können direkt übersetzt werden. Dazu wählt man den Spra
 ![Einstellungen Übersetzung Feldinhalt](assets/Einstellungen%20Übersetzung%20Feldinhalt.gif)
 
 ::: warning
-Wenn sie [Übersetzungen aktualisieren](#Übersetzungen%20aktualisieren) können solche Änderungen verloren gehen.
+Wenn Sie [Übersetzungen aktualisieren](#Übersetzungen%20aktualisieren) können solche Änderungen verloren gehen.
 :::
 
 ## Übersetzungskommentar hinzufügen
 
-Mit einem Odoo Snippet können sie in unter *Einstellungen > Übersetzungen > Übersetzte Begriffe* das Feld *Übersetzungskommentare* anzeigen. Wenn sie eine eigene Übersetzung erstellen, fügen sie den Kommentar `mint_system` hinzu. So können sie vor einem Export die eigenen Übersetzungen exportieren.
+Mit einem Odoo Snippet können Sie in unter *Einstellungen > Übersetzungen > Übersetzte Begriffe* das Feld *Übersetzungskommentare* anzeigen. Wenn Sie eine eigene Übersetzung erstellen, fügen Sie den Kommentar `mint_system` hinzu. So können Sie vor einem Export die eigenen Übersetzungen exportieren.
 
 ![Einstellungen Übersetzung Kommentar hinzufügen](assets/Einstellungen%20Übersetzung%20Kommentar%20hinzufügen.gif)

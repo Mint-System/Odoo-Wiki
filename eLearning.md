@@ -10,15 +10,15 @@ Teilen Sie ihr Wissen mit der eLearning-Plattform.
 
 ## Leaderboard und Achievements ausblenden
 
-Navigieren sie zur ihrer Website und öffnen sie die Kursseite. Wählen sie *Bearbeiten* und klicken anschliessend auf *Anpassen*. Im geöffneten Menu können Leaderboards und Achievements deaktiviert werden.
+Navigieren Sie zur ihrer Website und öffnen Sie die Kursseite. Wählen Sie *Bearbeiten* und klicken anschliessend auf *Anpassen*. Im geöffneten Menu können Leaderboards und Achievements deaktiviert werden.
 
 ![](assets/eLearning%20Deaktivieren%20Leaderboard.png)
 
 ## Kurs anlegen
 
-Navigieren sie zu ihrer Webiste und öffnen sie die Kursseite. Klicken sie auf *+ Neu > Neuer Kurs*. Geben sie einen passenden Namen ein und fügen sie ein passendes Bild hinzu.
+Navigieren Sie zu ihrer Webiste und öffnen Sie die Kursseite. Klicken Sie auf *+ Neu > Neuer Kurs*. Geben Sie einen passenden Namen ein und fügen Sie ein passendes Bild hinzu.
 
-Wählen sie im Tab *Optionen* folgendes aus:
+Wählen Sie im Tab *Optionen* folgendes aus:
 * **Dokumentation**: Es erfolgt keine Teilname
 * **Training**: Teilnehmer können sich gemäss den *Einschreiberichtlinien* anmelden
 
@@ -41,13 +41,13 @@ Damit Teilnehmer einen Portal-Benutzer erhalten, muss dieser erstellt werden.
 
 ## Stichwörter anlegen
 
-Navigieren sie im Backend nach *eLearning > Konfiguration > Kurs-Stichwörter* und wählen sie den ersten Eintrag und bearbeiten sie diesen.
+Navigieren Sie im Backend nach *eLearning > Konfiguration > Kurs-Stichwörter* und wählen Sie den ersten Eintrag und bearbeiten Sie diesen.
 
 Stichwörter können gruppiert werden, das heisst es gibt Stichwörter-Gruppen, die jeweils mehrere Stichwörter enthalten.
 
 ## Kursinhalte anlegen
 
-Navigieren sie im Backend nach *eLearning > Kurse > Wählen den Kurs > Tab Inhalt* und klicken auf *Einen Inhalt hinzufügen*. Sie haben diese Kursypen zur Auswahl:
+Navigieren Sie im Backend nach *eLearning > Kurse > Wählen den Kurs > Tab Inhalt* und klicken auf *Einen Inhalt hinzufügen*. Sie haben diese Kursypen zur Auswahl:
 
 * **Website**: Sie erfassen Inhalte mit dem Website-Editor
 * **Infografik**: Sie laden ein einziges Bild mit dem Kursinhalt hoch
@@ -59,17 +59,17 @@ Navigieren sie im Backend nach *eLearning > Kurse > Wählen den Kurs > Tab Inhal
 
 ## Kurs Inhalt freigeben
 
-Damit Kursteilnehmer den Kurs und die Inhalte sehen, muss dieser immer freigeben werden. Wählen sie für den Inhalt *eLearning > Kurs > Inhalte* aus und klicken sie auf *Gehe zu Website*. Publizieren sie den Inhalt mit Button *Unveröffentlicht* oben rechts. Dasselbe funktioniert für Kurse.
+Damit Kursteilnehmer den Kurs und die Inhalte sehen, muss dieser immer freigeben werden. Wählen Sie für den Inhalt *eLearning > Kurs > Inhalte* aus und klicken Sie auf *Gehe zu Website*. Publizieren Sie den Inhalt mit Button *Unveröffentlicht* oben rechts. Dasselbe funktioniert für Kurse.
 
 ![](assets/Website%20Inhalt%20ver%C3%B6ffentlicht.png)
 
 ## Kursabsolventen anzeigen
 
-Die Absolventen eines Kurses sehen sie unter *eLearning > Kurs auswählen* und auf Vorschau *Absolventen* anklicken. Hier werden alle Teilnehmer aufgelistet, die den Kurs absolviert haben.
+Die Absolventen eines Kurses sehen Sie unter *eLearning > Kurs auswählen* und auf Vorschau *Absolventen* anklicken. Hier werden alle Teilnehmer aufgelistet, die den Kurs absolviert haben.
 
 ## Teilnehmer einladen
 
-Jeder Kurs hat eine individuelle Teilnehmerliste. Wenn sie unter *eLearning > Kurs auswählen* den Link *Teilnehmer* anklicken, erscheint eine Liste mit *Name* und *E-Mail*. Hier können sie Tabellendatei mit den Teilnehmer importieren.
+Jeder Kurs hat eine individuelle Teilnehmerliste. Wenn Sie unter *eLearning > Kurs auswählen* den Link *Teilnehmer* anklicken, erscheint eine Liste mit *Name* und *E-Mail*. Hier können Sie Tabellendatei mit den Teilnehmer importieren.
 
 ::: warning
 Jeder Teilnehmer braucht einen Portal-Benutzer.
@@ -91,11 +91,11 @@ Jeder Teilnehmer erhählt eine Einladung via E-Mail.
 
 ## Quiz hinzufügen
 
-Im Tab *Quiz* eines Inhalts können sie eine Frage mit mehreren Antworten erstellen. 
+Im Tab *Quiz* eines Inhalts können Sie eine Frage mit mehreren Antworten erstellen. 
 
 ## Zertifizierung erfassen
 
-Beim Abschluss einer Umfrage können den Teilnehmer Zertifikate vergeben werden. Navigieren sie nach *eLearning > Kurse > Zertifizierungen*. Hier können sie eine [Umfrage erstellen](Umfragen.md#Umfrage%20erstellen), die als Zertifizierung verfügbar ist.
+Beim Abschluss einer Umfrage können den Teilnehmer Zertifikate vergeben werden. Navigieren Sie nach *eLearning > Kurse > Zertifizierungen*. Hier können Sie eine [Umfrage erstellen](Umfragen.md#Umfrage%20erstellen), die als Zertifizierung verfügbar ist.
 
 Die Zertifizierung kann als Inhaltstyp *Zertifizierung* mit einem Kursinhalt verknüpft werden.
 

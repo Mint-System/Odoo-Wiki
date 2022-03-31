@@ -15,23 +15,23 @@ Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/dev_blanket_sale_order/
 
 ## Rahmenbestellungen anzeigen
 
-Navigieren sie nach *Verkauf > Aufträge > Rahmenbstellungen*.
+Navigieren Sie nach *Verkauf > Aufträge > Rahmenbstellungen*.
 
 ![](assets/Odoo%20App%20Verk%C3%A4ufe%20Rahmenbestellungen%20anzeigen.png)
 
 ## Rahmenbestellung eröffnen
 
-Eröffnen sie eine Rahmenbstellung mit einem Klick auf *Offen*.
+Eröffnen Sie eine Rahmenbstellung mit einem Klick auf *Offen*.
 
 ![](assets/Odoo%20App%20Verk%C3%A4ufe%20Rahmenbestellungen%20er%C3%B6ffnen.png)
 
 ## Angebot aus Rahmenbestellung erstellen
 
-Erstellen sie ein Angebot aus einer Rahmenbestellung.
+Erstellen Sie ein Angebot aus einer Rahmenbestellung.
 
 ![](assets/Odoo%20App%20Verk%C3%A4ufe%20Rahmenbestellungen%20Angebot%20erstellenOdoo%20App%20Verk%C3%A4ufe%20Rahmenbestellungen%20M.png)
 
-Legen sie den Kunden und die Bestellmenge fest.
+Legen Sie den Kunden und die Bestellmenge fest.
 
 ![](assets/Odoo%20App%20Verk%C3%A4ufe%20Rahmenbestellungen%20Details%20festlegen.png)
 

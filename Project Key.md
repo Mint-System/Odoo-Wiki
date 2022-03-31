@@ -14,11 +14,11 @@ Repository: <https://github.com/OCA/project/tree/14.0/project_key>
 
 ## Nummerierungsmuster festlegen
 
-Mit dieser Erweiterung können sie für Projekte ein Kürzel festlegen, welches vor den Aufgabentitel gesetzt wird. Öffnen sie *Projekt > Projekt wählen* und über das Kontext-Menu *Bearbeiten* klicken.
+Mit dieser Erweiterung können Sie für Projekte ein Kürzel festlegen, welches vor den Aufgabentitel gesetzt wird. Öffnen Sie *Projekt > Projekt wählen* und über das Kontext-Menu *Bearbeiten* klicken.
 
 ![](assets/Project%20key%20Projekt%20Bearbeiten.png)
 
-Im Feld *Nummerierungsmuster* könnnen sie das Projektkürzelfesltegen.
+Im Feld *Nummerierungsmuster* könnnen Sie das Projektkürzelfesltegen.
 
 ![](assets/Project%20key%20Kürzel.png)
 

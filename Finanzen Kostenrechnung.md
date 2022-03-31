@@ -10,16 +10,16 @@ Kosten analysieren und Budget plannen.
 
 ## Kostenstellengruppen erstellen
 
-Öffnen sie *Finanzen > Konfiguration > Kostenrechnung > Kostenstellengruppen* und erstellen sie eine Gruppe.
+Öffnen Sie *Finanzen > Konfiguration > Kostenrechnung > Kostenstellengruppen* und erstellen Sie eine Gruppe.
 
 ## Kostenrechnung anzeigen
 
-Zeigen sie *Finanzen > Berichtswesen > Verwaltung > Kostenbericht* an. Wählen sie *Optionen > Hierarchie und Zwischensummen*  sowie die gewünschte Periode. Es werden nun die saldierten Kostenstellen gruppiert aufgeführt.
+Zeigen Sie *Finanzen > Berichtswesen > Verwaltung > Kostenbericht* an. Wählen Sie *Optionen > Hierarchie und Zwischensummen*  sowie die gewünschte Periode. Es werden nun die saldierten Kostenstellen gruppiert aufgeführt.
 
 ## Kosten/Eröse anzeigen
 
-Über den Smart-Link *Kosten/Erlöse* auf einer Kostenstelle *Finanzen > Kostenrechnung > Kostenstellen* sehen sie alle analytischen Buchungen auf der Kostenstelle.
+Über den Smart-Link *Kosten/Erlöse* auf einer Kostenstelle *Finanzen > Kostenrechnung > Kostenstellen* sehen Sie alle analytischen Buchungen auf der Kostenstelle.
 
 ## Rechnung auf einer Kostenstelle belasten
 
-Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an. Auf der Rechnungszeile können sie eine Kostenstelle in der entsprechenden Spalte festlegen.
+Zeigen Sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an. Auf der Rechnungszeile können Sie eine Kostenstelle in der entsprechenden Spalte festlegen.

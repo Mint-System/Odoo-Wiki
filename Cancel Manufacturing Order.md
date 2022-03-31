@@ -16,7 +16,7 @@ Odoo App Store: <https://gitlab.com/mint-system/odoo-app-cancel-manufacturing-or
 
 ## Berechtigung festlegen
 
-In den Benutzereinstellungen aktivieren sie die Option *Cancel Manufacturing Orders*. Benutzer mit dieser Berechtigung können Fertigungsaufträge abbrechen.
+In den Benutzereinstellungen aktivieren Sie die Option *Cancel Manufacturing Orders*. Benutzer mit dieser Berechtigung können Fertigungsaufträge abbrechen.
 
 ![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Berechtigung.png)
 

@@ -9,9 +9,9 @@ Die Kostenrechnung ist das Standardwerkzeug um die Profitabiltiät von Projekten
 
 Standardmässig wird mit dem Verkaufsauftrag eine Kostenstellen angelegt. Diese wird für das Projekt und die Abrechnung verwendet.
  
-Koststenstellen kann man mit Kostenstellengruppen zusammenfassen. Dazu müssen sie [Kostenstellengruppen erstellen](Finanzen%20Kostenrechnung.md#Kostenstellengruppen%20erstellen).
+Koststenstellen kann man mit Kostenstellengruppen zusammenfassen. Dazu müssen Sie [Kostenstellengruppen erstellen](Finanzen%20Kostenrechnung.md#Kostenstellengruppen%20erstellen).
  
-Wenn sie die [Kostenrechnung anzeigen](Finanzen%20Kostenrechnung.md#Kostenrechnung%20anzeigen) sehen sie die Salden der gruppierten Kostennstellen.
+Wenn Sie die [Kostenrechnung anzeigen](Finanzen%20Kostenrechnung.md#Kostenrechnung%20anzeigen) sehen Sie die Salden der gruppierten Kostennstellen.
 
 Die Belastung einer Kostenstelle findet an verschiedenen Orten statt:
 * Projektzeiterfassung zum internen Stundensatz des Mitarbeitenden

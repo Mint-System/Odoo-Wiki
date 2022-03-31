@@ -14,7 +14,7 @@ Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/product_l
 
 ## Mengenheit Logistik festlegen
 
-Mit dieser Erweiterung können sie auf Produkten die Mengeneinheit für Produkt festlegen. Öffnen sie ein Produkt via *Lager > Produkte > Produkte* und zeigen sie den Tab *Lager* an. Legen sie Mengeneinheit neben dem Eingabefeld für das Gewicht oder Volumen fest.
+Mit dieser Erweiterung können Sie auf Produkten die Mengeneinheit für Produkt festlegen. Öffnen Sie ein Produkt via *Lager > Produkte > Produkte* und zeigen Sie den Tab *Lager* an. Legen Sie Mengeneinheit neben dem Eingabefeld für das Gewicht oder Volumen fest.
 
 ![](assets/Product%20Logistics%20UoM.png)
 

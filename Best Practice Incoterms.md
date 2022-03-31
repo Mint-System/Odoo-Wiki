@@ -23,7 +23,7 @@ Falls eine Zuordnung mit einer Logik *Pro Lieferant/Kunde* gewünscht ist, empfe
 ## Funktion einschalten
 
 Die Verwendung von Incoterms wird über die Einstellungen in *Finanzen* freigeschaltet.
-Wählen sie ihre Standard-Lieferbedingung hier:
+Wählen Sie ihre Standard-Lieferbedingung hier:
 - Einstellungen > Finanzen > Ausgangsrechnungen > Standard-Incoterm
 
 Damit die Auswahl in den Dokumenten *Angebot/Verkaufsauftrag* und *Angebotsanfrage/Beschaffungsauftrag* sichtbar wird, muss die Option *Lieferbedingungen für Aufträgen und Rechnungen anzeigen* in der folgenden Einstellung aktiviert werden:

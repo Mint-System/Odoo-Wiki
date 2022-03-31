@@ -21,7 +21,7 @@ Mit dieser Erweiterung werden Lieferungen mit der Rechnungszeile verlinkt.
 
 ## Sammelrechnung erstellen
 
-Mit dem Snippet <https://odoo.build/snippets.html#group-by-pickings> und dieser Erweiterung können sie Sammelrechnungen generieren.
+Mit dem Snippet <https://odoo.build/snippets.html#group-by-pickings> und dieser Erweiterung können Sie Sammelrechnungen generieren.
 
 ![](assets/Account%20Move%20Line%20Link%20Pickings%20Sammelrechnung.png)
 

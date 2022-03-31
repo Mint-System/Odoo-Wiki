@@ -19,19 +19,19 @@ Agiles Projektmanagement. Schön. Einfach. Open Source.
 
 Aufgabenträger: [Projektleiter](Rollen#Projektleiter)
 
-Öffnen sie die App *Projekt* und klicken auf *Anlegen.* Im Dialog geben sie eine Projektbezeichnung ein. Abhängig von der Odoo-Installation stehen diese Optionen zur Wahl:
+Öffnen Sie die App *Projekt* und klicken auf *Anlegen.* Im Dialog geben Sie eine Projektbezeichnung ein. Abhängig von der Odoo-Installation stehen diese Optionen zur Wahl:
 * Zeiterfassung: Zeit auf Projekaufgaben rapportieren.
 * Bill from Tasks: Anhand einer Projektaufgabe eine Rechnung erstellen
-Wählen sie die Option entsprechend der Projektkonfiguration.
+Wählen Sie die Option entsprechend der Projektkonfiguration.
 * Timesheet Timer: Zeiterfassung kann direkt auf der Aufgabe gestartet werden.
 
 ## Stufen erstellen
 
 ::: tip
-Mittels Projektstufen kann der Aufgabenstatus und deren Arbeitsfluss abgebildet werden. Eine Aufgaben durchläuft verschiedene Stufen bis sie erledigt ist und archiviert werden kann.
+Mittels Projektstufen kann der Aufgabenstatus und deren Arbeitsfluss abgebildet werden. Eine Aufgaben durchläuft verschiedene Stufen bis Sie erledigt ist und archiviert werden kann.
 :::
 
-Navigieren sie in die Kanban-Ansicht eines Projekts *Projekt > Projekt auswählen* und geben im Feld *Spaltentitel* die Stufenbezeichnung ein.
+Navigieren Sie in die Kanban-Ansicht eines Projekts *Projekt > Projekt auswählen* und geben im Feld *Spaltentitel* die Stufenbezeichnung ein.
 
 ::: warning
 Die erstellte Projektstufe ist nur für dieses Projekt sichtbar.
@@ -45,9 +45,9 @@ Aufgabenträger: [Projektleiter](Rollen#Projektleiter)
 Projektstufen können mit mehreren Projekten geteilt werden.
 :::
 
-Wechseln sie in den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) und navigieren nach *Projekt > Konfiguration > Stufen*. Wählen sie eine bestehende Stufe aus und klicken sie auf *Bearbeiten*.
+Wechseln Sie in den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) und navigieren nach *Projekt > Konfiguration > Stufen*. Wählen Sie eine bestehende Stufe aus und klicken Sie auf *Bearbeiten*.
 
-Im Auswahl-Feld *Projekt* können sie ein bestehendes Projekt hinzufügen. Mit *Speichern* schliessen sie den Vorgang ab. Wenn sie das hinzugefügte Projekt öffnen wird nun die gewählte Stufe dargestellt.
+Im Auswahl-Feld *Projekt* können Sie ein bestehendes Projekt hinzufügen. Mit *Speichern* schliessen Sie den Vorgang ab. Wenn Sie das hinzugefügte Projekt öffnen wird nun die gewählte Stufe dargestellt.
 
 ## Projekt duplizeren
 
@@ -55,7 +55,7 @@ Im Auswahl-Feld *Projekt* können sie ein bestehendes Projekt hinzufügen. Mit *
 Beim der Duplizierung eines Projekts werden deren Aufgaben und Stufen mitkopiert.
 :::
 
-Um ein Projekt zu duplizieren führen sie folgende Aktion aus *Projekt > Projekt wählen > Übersicht > Smart-Link Projekt > Aktion > Duplizieren*.
+Um ein Projekt zu duplizieren führen Sie folgende Aktion aus *Projekt > Projekt wählen > Übersicht > Smart-Link Projekt > Aktion > Duplizieren*.
 
 ![Projekt duplizieren](assets/Projekt%20duplizieren.gif)
 
@@ -67,7 +67,7 @@ Die Gantt-Ansicht kann via *Projekt > Alle Aufgaben* angezeigt werden.
 
 ## Abrechnung für Projekt einrichten
 
-Damit die auf einer Projektaufgabe erfassten Stunden abgerechnet werden können, müssen sie bestimmte Einstellungen vornehmen. Öffnen sie ein Projekt via *Projekt > Projekte > Kontext-Menü > Bearbeiten > Tab Einstellungen* und wählen sie als erstes die Option *Abrechenbar*. Öffnen sie den Tab *Abrechnung* und stellen sie sicher, dass diese Optionen aktiviert sind:
+Damit die auf einer Projektaufgabe erfassten Stunden abgerechnet werden können, müssen Sie bestimmte Einstellungen vornehmen. Öffnen Sie ein Projekt via *Projekt > Projekte > Kontext-Menü > Bearbeiten > Tab Einstellungen* und wählen Sie als erstes die Option *Abrechenbar*. Öffnen Sie den Tab *Abrechnung* und stellen Sie sicher, dass diese Optionen aktiviert sind:
 
 * **Invoice Task to**: Stunden an einen oder mehrere Kunden verrechnen
 * **Preiskalkulation**: Stundensatz des Mitarbeiters oder aus Verkaufsauftrag
@@ -79,9 +79,9 @@ Dazu ein Beispiel:
 
 ## Geplante Aktion "Projektmenü aktualisieren" erstellen
 
-Mit dieser geplanten Aktion generiert Odoo für jedes Projekt einen Menüeintrag. Damit können sie schneller zwischen Projektaufgaben navigieren.
+Mit dieser geplanten Aktion generiert Odoo für jedes Projekt einen Menüeintrag. Damit können Sie schneller zwischen Projektaufgaben navigieren.
 
-Navigieren sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Projektmenü aktualisieren`\
 Modell: `ir.actions.server`\
@@ -90,7 +90,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```python
 # Settings
@@ -136,6 +136,6 @@ if new_menus:
   log('Created new menus: %s' % (new_menus))
 ````
 
-Legen sie den Wert für `parent_menu_id` fest. Damit bestimmen sie unter welchem Menüpunkt die Projektmenüs erscheinen sollen.
+Legen Sie den Wert für `parent_menu_id` fest. Damit bestimmen Sie unter welchem Menüpunkt die Projektmenüs erscheinen sollen.
 
 ![Projekt Projektmenu aktualisieren](assets/Projekt%20Projektmenu%20aktualisieren.gif)

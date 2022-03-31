@@ -14,33 +14,33 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_
 
 ## Stückliste für Lagerschwund erstellen
 
-Öffnen sie ein Produkt und erstellen sie eine Stückliste. Als *Stücklisten Typ* geben sie *Scrap* an. Als Lagerquelle geben sie *WH/Stock* und als Ziellager *Virtual Locations/Scrap* ein.
+Öffnen Sie ein Produkt und erstellen Sie eine Stückliste. Als *Stücklisten Typ* geben Sie *Scrap* an. Als Lagerquelle geben Sie *WH/Stock* und als Ziellager *Virtual Locations/Scrap* ein.
 
-Fügen sie der Komponenteliste Produkte und deren zu verbrauchende Menge ein.
+Fügen Sie der Komponenteliste Produkte und deren zu verbrauchende Menge ein.
 
 ![](assets/Manufacturing%20BoM%20Consumption%20BoM.png)
 
 ## Lot Lagerschwund erstellen
 
-Damit der Verbrauch richtig verfolgt werden kann, erstellen sie für die zu verbrauchenden Produkte ein Lot. Öffnen sie das Produkt und erstellen sie ein Lot. Hinterlegen sie das Lot bei den Stücklisten zum Verbrauch.
+Damit der Verbrauch richtig verfolgt werden kann, erstellen Sie für die zu verbrauchenden Produkte ein Lot. Öffnen Sie das Produkt und erstellen Sie ein Lot. Hinterlegen Sie das Lot bei den Stücklisten zum Verbrauch.
 
 ![](assets/Manufacturing%20BoM%20Consumption%20Lot.png)
 
 ## Lieferung mit Lagerschwund erstellen
 
-Haben sie ein Produkt mit einer Scrap-Stückliste erstellt, wird bei der Bestätigung der Lieferung automatisch eine Lagerbuchung und Produktlieferung für den Lagerschwund erstellt.
+Haben Sie ein Produkt mit einer Scrap-Stückliste erstellt, wird bei der Bestätigung der Lieferung automatisch eine Lagerbuchung und Produktlieferung für den Lagerschwund erstellt.
 
 ![Manufacture BoM Scrap Lagerschwund](assets/Manufacture%20BoM%20Scrap%20Lagerschwund.gif)
 
 ## Lieferung mit mehrfachem Lagerschwund erstellen
 
-Angenommen sie verbrauchen zur Lieferung von 1 Kg *Zander Ganz*: 0.5 Kg *Filet ohne Haut* und zur Lieferung von 1 Kg *Filet ohne Haut*:  2 Kg *Zander Ganz*, dann wird für jedes Produkt ein Lagerschwund registriert.
+Angenommen Sie verbrauchen zur Lieferung von 1 Kg *Zander Ganz*: 0.5 Kg *Filet ohne Haut* und zur Lieferung von 1 Kg *Filet ohne Haut*:  2 Kg *Zander Ganz*, dann wird für jedes Produkt ein Lagerschwund registriert.
 
 ![Manufacturing BoM Scrap doppelt](assets/Manufacturing%20BoM%20Scrap%20mehrfach.gif)
 
 ## Verbrauch anzeigen
 
-Öffnen sie das Produkt via *Lager > Produkte > Produkte* und drücken sie auf *Produktlieferungen*. Hier sehen sie alle Lagerbewegungen des Produkts.
+Öffnen Sie das Produkt via *Lager > Produkte > Produkte* und drücken Sie auf *Produktlieferungen*. Hier sehen Sie alle Lagerbewegungen des Produkts.
 
 ![](assets/Manufacturing%20BoM%20Scrap%20Produktlieferungen.png)
 

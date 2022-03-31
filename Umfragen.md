@@ -10,10 +10,10 @@ Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
 
 ## Umfrage erstellen
 
-Navigieren sie nach *Umfragen* und wählen sie *+ Anlegen*. Vergeben sie eine passende Bezeichnung. Im Tab *Optionen* können sie die Umfrage gemäss ihren Anforderungen anpassen.
+Navigieren Sie nach *Umfragen* und wählen Sie *+ Anlegen*. Vergeben Sie eine passende Bezeichnung. Im Tab *Optionen* können Sie die Umfrage gemäss ihren Anforderungen anpassen.
 
 
-Im Tab *Optionen*  unter *Access Mode* haben sie diese Optionen:
+Im Tab *Optionen*  unter *Access Mode* haben Sie diese Optionen:
 
 * **Öffentlicher Link**: Die Umfrage wird mit einem Link geteilt, jeder mit diesem Link kann teilenehmen.
 * **Nur eingeladene Personen**: Die Teilnahme ist nur für Kontakte möglich, die über [Umfrage teilen](#Umfrage%20teilen) eingeladen wurden und einen Portal-Zugriff haben.
@@ -24,9 +24,9 @@ Teilnehmer müssen als Kontakt erfasst sein und müssen einen Portalzugriff habe
 
 ## Umfrage teilen
 
-Umfrage-Teilnehmer können sie mit der Aktion *Teilen* einladen. Navigieren sie zu ihrer Umfrage und wählen sie die Aktion. 
+Umfrage-Teilnehmer können Sie mit der Aktion *Teilen* einladen. Navigieren Sie zu ihrer Umfrage und wählen Sie die Aktion. 
 
-Erstellen sie eine neue Mail-Vorlage mit diesen Angaben:
+Erstellen Sie eine neue Mail-Vorlage mit diesen Angaben:
 
 Name: `Umfrage: Einladung`
 
@@ -59,7 +59,7 @@ Nachricht:
 	</div>
 	
 	% if object.deadline:
-		Beantworten sie die Umfrage bis ${format_date(object.deadline)}.<br><br>
+		Beantworten Sie die Umfrage bis ${format_date(object.deadline)}.<br><br>
 	% endif
 	Vielen Danke für ihre Teilnahme.
     

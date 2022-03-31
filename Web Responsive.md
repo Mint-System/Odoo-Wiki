@@ -14,7 +14,7 @@ Repository: <https://github.com/OCA/web/tree/13.0/web_responsive>
 
 ## Chatter-Position festlegen
 
-Die bevorzugte Position des Chatters kann festlegt werden. Klicken sie auf ihren Namen oben rechts und navigieren sie nach *Mein Profil > Einstellungen* und wklicken auf *Bearbeiten*. Wählen sie unter *Chatter-Position* die bevorzuge Position aus:
+Die bevorzugte Position des Chatters kann festlegt werden. Klicken Sie auf ihren Namen oben rechts und navigieren Sie nach *Mein Profil > Einstellungen* und wklicken auf *Bearbeiten*. Wählen Sie unter *Chatter-Position* die bevorzuge Position aus:
 
 * **Seitlich**: Der Chatter wird vorzugsweise auf der rechten Seite dargestellt.
 * **Normal**: Der Chatter wird vorzugsweise am Ende der Seite dargestellt.

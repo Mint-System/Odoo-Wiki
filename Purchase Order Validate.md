@@ -14,6 +14,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 ## Bestellung validieren
 
-Wenn sie eine Bestellung *Per E-Mail Versenden* oder *Auftrag Bestätigen* möchten, wird mit dieser Erweiterung geprüft, ob ein Verkaufskontakt gesetzt wurde.
+Wenn Sie eine Bestellung *Per E-Mail Versenden* oder *Auftrag Bestätigen* möchten, wird mit dieser Erweiterung geprüft, ob ein Verkaufskontakt gesetzt wurde.
 
 ![](assets/Purchase%20Order%20Validate%20Message.png)

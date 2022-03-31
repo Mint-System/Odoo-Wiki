@@ -34,11 +34,11 @@ Es wird dasselbe Verfahren wie für eine ISR-Zahlungsschein verwendet.
 
 #### Lösung
 
-Stellen sie sicher, dass auf dem Journal die Einstellung *Kommunkationsstandard* auf *Schweiz* eingestellt ist.
+Stellen Sie sicher, dass auf dem Journal die Einstellung *Kommunkationsstandard* auf *Schweiz* eingestellt ist.
 
 ![](assets/Troubleshooting%20QR-IBAN%20Lösung%202.png)
 
-Entfernen sie auf dem Bankkonto die *ISR Client Identification Number*. Wird diese gesetzt, kann eine mit QR-Bill inkompatible Referenz generiert werden.
+Entfernen Sie auf dem Bankkonto die *ISR Client Identification Number*. Wird diese gesetzt, kann eine mit QR-Bill inkompatible Referenz generiert werden.
 
 ## Fehlermeldung - Something went wrong
 
@@ -71,7 +71,7 @@ Im Zahlungsvorgang von Rechnungen wurde eine Zahlungsmethode gelöscht.
 
 #### Lösung
 
-Aktualisieren sie die App *Abrechnung* (`account`).
+Aktualisieren Sie die App *Abrechnung* (`account`).
 
 ## Eingehende Mail werden nicht verarbeitet
 
@@ -85,4 +85,4 @@ Werden die ausgehenden E-Mail Server bearbeitet oder zurückgesetzt, werden in d
 
 #### Lösung
 
-Prüfen sie die Systemparater und stellen sicher sich, dass die Schlüssel `mail.catchall.domain` und `mail.catchall.alias`.
+Prüfen Sie die Systemparater und stellen sicher sich, dass die Schlüssel `mail.catchall.domain` und `mail.catchall.alias`.

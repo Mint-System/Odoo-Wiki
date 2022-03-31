@@ -19,7 +19,7 @@ Die Implementation in Odoo erfordert die Installation von Apps, Festlegen von Ei
 
 ### Odoo Apps
 
-Installieren sie die folgenden Apps:
+Installieren Sie die folgenden Apps:
 * `mrp_workorder`
 * `stock`
 * `quality_control`
@@ -30,7 +30,7 @@ Installieren sie die folgenden Apps:
 
 ### Odoo Settings
 
-Aktivieren sie diese Einstellungen:
+Aktivieren Sie diese Einstellungen:
 * Mengeneinheiten
 * Lagerorte
 * Mehrstufige Routen
@@ -39,7 +39,7 @@ Aktivieren sie diese Einstellungen:
 
 ### Kontakt
 
-Legen sie mindestens diese Kontakte an:
+Legen Sie mindestens diese Kontakte an:
 Unternehmen: Schokoladenfabrik\
 Lieferant: Kakao ACME
 
@@ -54,7 +54,7 @@ Das Standardlager ist wie folgt konfiguriert:
 
 ### Lagerorte
 
-Legen sie diese Lagerort an:
+Legen Sie diese Lagerort an:
 * Hauptlager: WH/Stock
 * Eingangslager: WH/Input
 * Qualitätskontrolle: WH/QC1
@@ -62,7 +62,7 @@ Legen sie diese Lagerort an:
 
 ### Produktkategorien
 
-Legen sie diese Produktkategorien an:
+Legen Sie diese Produktkategorien an:
 * Rohstoff QC
 * Rohstoff
 * Halbfabrikat QC
@@ -145,7 +145,7 @@ Ein Beispiel wie mehrstufige Routen aussehen:
 
 ![](assets/Routen.svg)
 
-Konfigurieren sie diese Routen:
+Konfigurieren Sie diese Routen:
 
 * **Einkauf Rohstoff direkt**
   * Name: WH: QC1 (buy)
@@ -176,7 +176,7 @@ Konfigurieren sie diese Routen:
     * Vorgangstyp: Zürch: **Store Finished Product Q5**
     * Lager: Zürch
 
-Optional konfigurieren sie diese Routen:
+Optional konfigurieren Sie diese Routen:
 
 * **Fertigung Halbfabrikat mit Q-Prüfung**
 	* Name:
@@ -190,7 +190,7 @@ Optional konfigurieren sie diese Routen:
 
 ### Arbeitsplätze
 
-Legen sie diese Arbeitsplätze an:
+Legen Sie diese Arbeitsplätze an:
 * Verarbeitung
 * Produktion
 
@@ -258,7 +258,7 @@ Produktion Karamellcreme:
 
 ### Qualitätsteams
 
-Legen sie diese Qualitätsteams an:
+Legen Sie diese Qualitätsteams an:
 * QC1-Team
 * QC5-Team
 
@@ -268,25 +268,25 @@ Zur Prüfung der Ware müssen Qualitätsprüfpunkte unten erstellt werden.
 
 **Q-Prüfung Rohstoffe Anlieferung**
 * Titel: Ware prüfen
-* Anleitung: Prüfen sie die Ware.
+* Anleitung: Prüfen Sie die Ware.
 * Vorgänge: Anlieferung QC1
 * Team: QC1-Team
 
 **Q-Prüfung Rohstoffe QC1**
 * Titel: Qualität prüfen
-* Anleitung: Prüfen sie die Qualität.
+* Anleitung: Prüfen Sie die Qualität.
 * Vorgänge: Interne Transfers QC1
 * Team: QC1-Team
 
 **Q-Prüfung Fertigung QC5**
 * Titel: Qualität prüfen
-* Anleitung: Prüfen sie die Qualität.
+* Anleitung: Prüfen Sie die Qualität.
 * Vorgänge: Store Finished Product QC5
 * Team: QC5-Team
 
 ## Ausführung
 
-Ist die Implementation erfolgt, können sie den Use Case mit den folgenden Instruktionen ausführen.
+Ist die Implementation erfolgt, können Sie den Use Case mit den folgenden Instruktionen ausführen.
 
 ### Rohstoff mit Q-Prüfung
 

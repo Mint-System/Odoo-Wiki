@@ -6,7 +6,7 @@ prev: ./
 # Strichcode
 ![icons_odoo_stock_barcode](assets/icons_odoo_stock_barcode.png)
 
-Verfolgen sie Aufträge, Produkte und Lieferungen mit Barcodes.
+Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
 
 | Bereich                                             | Beschreibung          |
 | --------------------------------------------------- | --------------------- |
@@ -14,7 +14,7 @@ Verfolgen sie Aufträge, Produkte und Lieferungen mit Barcodes.
 
 ## Produktstrichcode generieren
 
-Öffnen sie *Einstellungen > Lager > Strichcode* und wählen sie die Aktion *Konfigurieren der Produkt-Barcodes*. In dieser Liste tragen sie für jedes Produkt einen Strichcode ein.
+Öffnen Sie *Einstellungen > Lager > Strichcode* und wählen Sie die Aktion *Konfigurieren der Produkt-Barcodes*. In dieser Liste tragen Sie für jedes Produkt einen Strichcode ein.
 
 ::: tip
 Für jedes Produkt verwaltet Odoo einen Strichcode. Ähnlich der internen Referenz kann für jede Produkt-Variante ein Strichcode festgelegt werden.
@@ -41,7 +41,7 @@ Hier zwei Strichcodes im Vergleich:
 
 ## Barcode-Befehle drucken
 
-Mit Barcode-Befehlen können sie bestimmte Vorgänge starten oder abschliessen. Drücken sie auf *Einstellungen > Lager > Strichcode > Drucken Sie die Barcode-Befehle* und drucken sie dieses Dokument aus.
+Mit Barcode-Befehlen können Sie bestimmte Vorgänge starten oder abschliessen. Drücken Sie auf *Einstellungen > Lager > Strichcode > Drucken Sie die Barcode-Befehle* und drucken Sie dieses Dokument aus.
 
 ![](assets/Strichcode%20Barcode-Befehle.png)
 
@@ -49,7 +49,7 @@ Auf der ersten Seite finden die die Befehle, auf der zweiten die Vorgangstypen u
 
 ## Rütschein/Packvorgang scannen und verarbeiten
 
-Öffnen sie *Strichcode* im Browser auf ihrem Computer oder auf der App auf ihrem mobilen Gerät. Scannen sie den Barcode auf dem Packvorgang mit dem angeschlossen Scanner, dem integrierten Scanner oder Geräte-Kamera.
+Öffnen Sie *Strichcode* im Browser auf ihrem Computer oder auf der App auf ihrem mobilen Gerät. Scannen Sie den Barcode auf dem Packvorgang mit dem angeschlossen Scanner, dem integrierten Scanner oder Geräte-Kamera.
 
 ![](assets/Strichcode%20scannen.png)
 
@@ -57,11 +57,11 @@ Sobald der Dokument-Code (immer oben rechs) gescannt wurde, werden die Positione
 
 ![](assets/Strichcode%20Positionen%20Scanvorgang.png)
 
-Nun können sie einzelnen Positionen bestätigen und den Vorgang mit dem Barcode-Befehl *Validate* abschliessen.
+Nun können Sie einzelnen Positionen bestätigen und den Vorgang mit dem Barcode-Befehl *Validate* abschliessen.
 
 ## Zusätzliche Produkte hinzufügen
 
-Im Transfer können sie Produkte anhand des Produktbarcodes hinzufügen. Öffnen sie die App *Strichcode* und halten sie den Scanner, das Dokument und den Produktbarcode bereit.
+Im Transfer können Sie Produkte anhand des Produktbarcodes hinzufügen. Öffnen Sie die App *Strichcode* und halten Sie den Scanner, das Dokument und den Produktbarcode bereit.
 
 Mit jedem Scan des Produktbarcodes wird 1 Stück dem Transfer hinzugefügt.
 
@@ -69,7 +69,7 @@ Mit jedem Scan des Produktbarcodes wird 1 Stück dem Transfer hinzugefügt.
 
 ## Strichcode-Eingabe simulieren
 
-Auf einem Linux-Computer kann man ganz einfach eine Strichcode-Eingabe mit [xdotool](https://www.semicomplete.com/projects/xdotool/) simulieren. Öffnen sie ein Terminal-Fenster installieren sie das xdotool mit dem Befehl `sudo apt install xdotool`. Öffnen sie den Firefox-Browser und zeigen sie das *Strichcode* App an. Führen sie das folgende Skript im Terminal aus:
+Auf einem Linux-Computer kann man ganz einfach eine Strichcode-Eingabe mit [xdotool](https://www.semicomplete.com/projects/xdotool/) simulieren. Öffnen Sie ein Terminal-Fenster installieren Sie das xdotool mit dem Befehl `sudo apt install xdotool`. Öffnen Sie den Firefox-Browser und zeigen Sie das *Strichcode* App an. Führen Sie das folgende Skript im Terminal aus:
 
 ```bash
 # Name des Transfers
@@ -83,6 +83,6 @@ xdotool windowfocus $WID
 xdotool type $BARCODE
 ```
 
-Passen sie die `BARCODE`-Variable entsprechend an. Dazu ein Beispiel der Ausführung:
+Passen Sie die `BARCODE`-Variable entsprechend an. Dazu ein Beispiel der Ausführung:
 
 ![Strichcode Eignabe simulieren](assets/Strichcode%20Eignabe%20simulieren.gif)

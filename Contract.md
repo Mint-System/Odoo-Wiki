@@ -14,7 +14,7 @@ Repository: <https://github.com/OCA/contract/tree/14.0/contract>
 
 ## Kundenvertrag erstellen
 
-Rufen sie *Finanzen >  Kunden > Kundenverträge* auf und wählen sie *Anlegen*. Füllen mindestens diese Felder aus:
+Rufen Sie *Finanzen >  Kunden > Kundenverträge* auf und wählen Sie *Anlegen*. Füllen mindestens diese Felder aus:
 
 * **Vertragsname**: Titel des Vertrags
 * **Kunde**: Das ist der Vertragspartner
@@ -31,7 +31,7 @@ Täglich wird ein Cron-Job ausgeführt, der entsprechend dem *Datum der nächste
 
 ## Lieferantenvertrag einrichten
 
-Rufen sie *Finanzen >  Lieferanten > Lieferantenverträge* auf und wählen sie *Anlegen*. Füllen mindestens diese Felder aus:
+Rufen Sie *Finanzen >  Lieferanten > Lieferantenverträge* auf und wählen Sie *Anlegen*. Füllen mindestens diese Felder aus:
 
 * **Vertragsname**: Titel des Vertrags
 * **Lieferant**: Das ist der Vertragspartner

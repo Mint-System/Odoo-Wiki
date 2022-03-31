@@ -15,6 +15,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 ## Definitives Abgleichsdatum anzeigen
 
-Mit dieser Erweiterung wird in der Liste der Rechnung zusätzlich zum Zahlungsstatus das definitive Abgleichsdatum angezeigt. Navigieren sie nach *Finanzen > Lieferanten > Rechnungen* und blenden sie das Feld *Reconcile Date* ein.
+Mit dieser Erweiterung wird in der Liste der Rechnung zusätzlich zum Zahlungsstatus das definitive Abgleichsdatum angezeigt. Navigieren Sie nach *Finanzen > Lieferanten > Rechnungen* und blenden Sie das Feld *Reconcile Date* ein.
 
 ![Sale Move Reconciled Date](assets/Sale%20Move%20Reconciled%20Date.png)

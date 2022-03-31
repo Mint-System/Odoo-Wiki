@@ -3,7 +3,7 @@
 
 ## Inventur vorbereiten
 
-Navigieren sie zum Menu *Lager > Vorgänge > Inventur*. Mit dem Knopf *Anlegen* erstellen sie einen Inventurauftrag. Befüllen sie die Felder gemäss untenstehender Tabelle.
+Navigieren Sie zum Menu *Lager > Vorgänge > Inventur*. Mit dem Knopf *Anlegen* erstellen Sie einen Inventurauftrag. Befüllen Sie die Felder gemäss untenstehender Tabelle.
 
 | Bezeichnung                       | Beschreibung                                                                                    |
 | --------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -17,19 +17,19 @@ Navigieren sie zum Menu *Lager > Vorgänge > Inventur*. Mit dem Knopf *Anlegen* 
 
 ## Inventur durchführen
 
-Starten sie die vorbereitete Inventur mit *Inventur Starten*. Falls ein nicht gelistetes Produkt gezählt wird, kann über *Anlegen* eine neue Position eingefügt werden.
+Starten Sie die vorbereitete Inventur mit *Inventur Starten*. Falls ein nicht gelistetes Produkt gezählt wird, kann über *Anlegen* eine neue Position eingefügt werden.
 
-Befüllen sie nun die Spalte *Gezählt* entsprechend der gezählten Quantität pro Produkt. Nach der abgeschlossenen Zählung wird mit *Bestandsbuchung Durchführen* der korrigierte Bestand gebucht. Das Protokoll kann über *Print Count Sheet* erstellt werden.
+Befüllen Sie nun die Spalte *Gezählt* entsprechend der gezählten Quantität pro Produkt. Nach der abgeschlossenen Zählung wird mit *Bestandsbuchung Durchführen* der korrigierte Bestand gebucht. Das Protokoll kann über *Print Count Sheet* erstellt werden.
 
 ## Aktion "Bestand zurücksetzen" erstellen
 
-Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Bestand zurücksetzen`\
 Modell: `stock.quant`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```py
 for record in records:

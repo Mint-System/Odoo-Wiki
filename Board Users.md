@@ -15,4 +15,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/boa
 
 ## Alle Dashboards anzeigen
 
-Mit dier Erweiterung können sie das Dashboard von jedem Benutzer anzeigen.
+Mit dier Erweiterung können Sie das Dashboard von jedem Benutzer anzeigen.

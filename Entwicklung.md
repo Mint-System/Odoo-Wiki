@@ -23,7 +23,7 @@ Odoo mühelos anpassen und erweitern.
 
 ## Assets-Bundel neu generieren
 
-Wird Odoo im Browser angezeigt, werden sog. Assets im Hintergrund geladen (JavaScript-, SCSS- und CSS-Dateien). Diese Assets können nach einem Odoo-Update veraltet sein und müss neu generiert werden. Wählen sie Entwickler-Tool > Bündel von Assets regenerieren.
+Wird Odoo im Browser angezeigt, werden sog. Assets im Hintergrund geladen (JavaScript-, SCSS- und CSS-Dateien). Diese Assets können nach einem Odoo-Update veraltet sein und müss neu generiert werden. Wählen Sie Entwickler-Tool > Bündel von Assets regenerieren.
 
 ![](assets/Entwicklung%20Assets-Bundel%20neu%20generieren.png)
 
@@ -31,7 +31,7 @@ Wird Odoo im Browser angezeigt, werden sog. Assets im Hintergrund geladen (JavaS
 
 Damit man für Filter dynamische Funktionen verwenden kann, muss die Ansicht zur Darstellung der Filter angepasst werden.
 
-Liste mit Ansichten öffnen *Einstellungen > Technisch > Benutzer-Interface > Ansichten*. Anschliessend suchen sie nach der Ansicht mit Bezeichung *ir.filters form* und öffnen diese. Im Tab *Vererbte Ansichten* erstellen sie einen neuen Eintrag:
+Liste mit Ansichten öffnen *Einstellungen > Technisch > Benutzer-Interface > Ansichten*. Anschliessend suchen Sie nach der Ansicht mit Bezeichung *ir.filters form* und öffnen diese. Im Tab *Vererbte Ansichten* erstellen Sie einen neuen Eintrag:
 
 Ansichtsbezeichnung: `$COMPANY_NAME.base.ir_filters_view_form.remove_domain_widget`  
 Architektur:
@@ -50,22 +50,22 @@ Architektur:
 ## Filter mit dynamischen Datum erstellen
 
 ::: warning
-Diese Aufgabe erfordert, dass sie das [Domainfilter-Widget deaktivieren](#Domainfilter-Widget%20deaktivieren).
+Diese Aufgabe erfordert, dass Sie das [Domainfilter-Widget deaktivieren](#Domainfilter-Widget%20deaktivieren).
 :::
 
-Um einen Filter zu erstellen, der beispielsweise alle Aufgaben mit Frist Heute anzeigt, öffnen sie als erstes die Aufgaben-Übersicht *Projekt > Alle Aufgaben*.
+Um einen Filter zu erstellen, der beispielsweise alle Aufgaben mit Frist Heute anzeigt, öffnen Sie als erstes die Aufgaben-Übersicht *Projekt > Alle Aufgaben*.
 
-Erstellen sie einen Filter für das Feld Frist mit dem heutigen Datum.
+Erstellen Sie einen Filter für das Feld Frist mit dem heutigen Datum.
 
 ![](assets/Entwicklung%20Filter%20Frist.png)
 
-Speichern sie den Filter als Favorit und wählen *Entwicklertools > Filter verwalten*. Kopieren sie den folgenden Ausdruck in das Feld *Code-Editor*:
+Speichern Sie den Filter als Favorit und wählen *Entwicklertools > Filter verwalten*. Kopieren Sie den folgenden Ausdruck in das Feld *Code-Editor*:
 
 ```py
 [['date_deadline','<=',time.strftime('%Y-%m-%d')]]
 ```
 
-Speichern sie den Dialog. Beim Anzeigen des Filters werden nun alle Aufgaben mit einer Frist bis Heute aufgerufen.
+Speichern Sie den Dialog. Beim Anzeigen des Filters werden nun alle Aufgaben mit einer Frist bis Heute aufgerufen.
 
 Weitere Filter-Beispiele:
 
@@ -93,29 +93,29 @@ Frist bis in 5 Tagen erreicht und an eigenem Benutzer zugewiesen:
 
 Damit Software von Dritten Zugriff auf die Daten von Odoo hat, ohne dass dabei das Passwort eines Benutzers geteilt werden muss, kann man einen Zugriffsschlüssel bereitstellen.
 
-Öffenen sie die Sicherheitseinstellungen des eingeloggten Benutzers *Menu > Mein Profil > Tab Acccount Security* und klicken auf *New API Key*.
+Öffenen Sie die Sicherheitseinstellungen des eingeloggten Benutzers *Menu > Mein Profil > Tab Acccount Security* und klicken auf *New API Key*.
 
 ## Menüeinträge umbennen
 
-Im Entwicklermodus können sie ganz einfach Menüeinträge umbennen. Angenommen sie möchten diesen Punkt umbennen:
+Im Entwicklermodus können Sie ganz einfach Menüeinträge umbennen. Angenommen Sie möchten diesen Punkt umbennen:
 
 ![](assets/Entwicklung%20Men%C3%BCeintr%C3%A4ge%20umbennen.png)
 
-Gehen sie wie folgt vor. Navigieren sie nach *Einstellungen > Technisch >  Benutzer-Interface > Menüeinträge* und suchen sie nach *Alle Angestellte*. Bearbeiten sie den Eintrag und setzen sie für das Feld *Menü* einen neuen Wert.
+Gehen Sie wie folgt vor. Navigieren Sie nach *Einstellungen > Technisch >  Benutzer-Interface > Menüeinträge* und suchen Sie nach *Alle Angestellte*. Bearbeiten Sie den Eintrag und setzen Sie für das Feld *Menü* einen neuen Wert.
 
 ![](assets/Einstellungen%20Men%C3%BCeintrag%20bearbeiten.png)
 
-Nachdem sie den Browser-Tab aktualisiert haben, ist der Menüeintrag umbenannt.
+Nachdem Sie den Browser-Tab aktualisiert haben, ist der Menüeintrag umbenannt.
 
 ## Fenster umbennen
 
-Um den angezeigten Namen eines Fenster anzuspassen, navigieren sie nach *Eisntellungen > Technisch > Aktionen > Fesnter öffnen/schliessen ...*. Suchen sie im Feld *Name der Aktion* nach dem Fensternamen und passen sie den Namen an.
+Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach *Eisntellungen > Technisch > Aktionen > Fesnter öffnen/schliessen ...*. Suchen Sie im Feld *Name der Aktion* nach dem Fensternamen und passen Sie den Namen an.
 
 ![Einstellungen Fenster umbennen](assets/Einstellungen%20Fenster%20umbennen.gif)
 
 ## Neues Feld hinzufügen
 
-An jedem Objekt kann an einfach ein Feld hinzugefügt werden. Öffnen sie eine Ansicht im Entwicklermodus und wählen sie *Entwicklertools > Felder anzeigen*. Wählen sie *+ Anlegen* und geben sie folgende Informationen ein:
+An jedem Objekt kann an einfach ein Feld hinzugefügt werden. Öffnen Sie eine Ansicht im Entwicklermodus und wählen Sie *Entwicklertools > Felder anzeigen*. Wählen Sie *+ Anlegen* und geben Sie folgende Informationen ein:
 
 * Feldname: Beginnt mit `x_` und darf keine Leerschläge enthalten und sollte kleingeschrieben und auf Englisch sein.
 * Feldbezeichnung: Passender Name in der angezeigten Sprache.
@@ -127,29 +127,29 @@ Dazu ein Beispiel mit [Abwesenheitszeiten](Abwesenheitszeiten.md):
 
 ## Menüeintrag erstellen
 
-Öffnen sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und wählen sie *Anlegen*.
+Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und wählen Sie *Anlegen*.
 
 ## Menüeintrag entfernen
 
-Öffnen sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und suchen sie den entsprechende Menüeintrag. Markieren sie diesen und wählen sie *Aktion > Löschen* oder *Aktion > Archiv*.
+Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und suchen Sie den entsprechende Menüeintrag. Markieren Sie diesen und wählen Sie *Aktion > Löschen* oder *Aktion > Archiv*.
 
 ::: warning
-Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen sie die Aktion nur aus, wenn sie sich den möglichen Auswirkungen bewusst sind.
+Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
 :::
 
 ## Datenmodell entfernen
 
-Öffnen sie *Einstellungen > Technisch > Datenbankstruktur > Datenmodelle* und suchen sie das entsprechende Datenmodell. Markieren sie diesen und wählen sie *Aktion > Löschen*.
+Öffnen Sie *Einstellungen > Technisch > Datenbankstruktur > Datenmodelle* und suchen Sie das entsprechende Datenmodell. Markieren Sie diesen und wählen Sie *Aktion > Löschen*.
 
 ::: warning
-Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen sie die Aktion nur aus, wenn sie sich den möglichen Auswirkungen bewusst sind.
+Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
 :::
 
 ## Neues berechnetes Feld hinzufügen
 
-Wir nehmen an, dass sie auf der Lagerbechnung ein berechnetes Feld benötigen. Dieses Feld soll die Anzahl Kisten berechnen, die es braucht um das Produkt zu verpacken. Immer wenn die *Erledigte Menge* ändert, soll das Feld berechnet werden.
+Wir nehmen an, dass Sie auf der Lagerbechnung ein berechnetes Feld benötigen. Dieses Feld soll die Anzahl Kisten berechnen, die es braucht um das Produkt zu verpacken. Immer wenn die *Erledigte Menge* ändert, soll das Feld berechnet werden.
 
-Erstellen sie ein neues Feld unter *Einstellungen > Technisch > Datenbankstruktur > Felder* mit diesen Attributen:
+Erstellen Sie ein neues Feld unter *Einstellungen > Technisch > Datenbankstruktur > Felder* mit diesen Attributen:
 
 * **Feldname**: `x_count_boxes`
 * **Feldbezeichnung**: Anzahl Kisten
@@ -170,21 +170,21 @@ for rec in self:
 			rec['x_count_boxes'] = (rec.quantity_done + 9)/10
 ```
 
-Dieser Code berechnet abhängig von der gewählten Verpackung und deren Füllmenge die Anzahl Kisten. Mit Python-Code können sie natürlich jegliche Logik für die Berechnung entwickeln.
+Dieser Code berechnet abhängig von der gewählten Verpackung und deren Füllmenge die Anzahl Kisten. Mit Python-Code können Sie natürlich jegliche Logik für die Berechnung entwickeln.
 
 ![](assets/Entwicklung%20Berechnetes%20Feld.png)
 
 ## Externe IDs anzeigen
 
-Odoo speichert alle externen IDs in einer Tabelle. Öffnen sie *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Externe Identifikationen*.
+Odoo speichert alle externen IDs in einer Tabelle. Öffnen Sie *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Externe Identifikationen*.
 
 ## Externe ID erfassen
 
-Zeigen sie einen beliebigen Datensatz in der Formularansicht an. Als Beispiel verwenden wir eine Ansicht. Entnehmen sie anhand der Url die *ID* und das *Datenmodell*.
+Zeigen Sie einen beliebigen Datensatz in der Formularansicht an. Als Beispiel verwenden wir eine Ansicht. Entnehmen Sie anhand der Url die *ID* und das *Datenmodell*.
 
 /web#id=**1639**&action=28&model=**ir.ui.view**&view_type=form&cids=1&menu_id=4
 
-Navigieren sie nun nach *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Externe Identifikationen* und legen sie einen Eintrag an:
+Navigieren Sie nun nach *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Externe Identifikationen* und legen Sie einen Eintrag an:
 
 * **Modul**: Technischer Name des Odoo-Moduls
 * **Externe Identifikation**: Eindeutiger Bezeichner
@@ -195,15 +195,15 @@ Dazu die Angaben aus dem Beispiel:
 
 ![](assets/Entwicklung%20Externe%20ID%20erfassen.png)
 
-Ist die *Externe Identifikation* gespeichert, wird sie auf Datensatz angezeigt.
+Ist die *Externe Identifikation* gespeichert, wird Sie auf Datensatz angezeigt.
 
 ![](assets/Entwicklung%20Externe%20Ansicht%20Beispiel.png)
 
 ## Neues Beziehungs-Feld hinzufügen
 
-Wir nehmen an, dass sie auf der Auftragsposition ein Beziehungs-Feld benötigen. Dieses Feld soll die Kundenreferenz auf dem zugehörigen Verkaufsauftrag anzeigen.
+Wir nehmen an, dass Sie auf der Auftragsposition ein Beziehungs-Feld benötigen. Dieses Feld soll die Kundenreferenz auf dem zugehörigen Verkaufsauftrag anzeigen.
 
-Erstellen sie ein neues Feld unter *Einstellungen > Technisch > Datenbankstruktur > Felder* mit diesen Attributen:
+Erstellen Sie ein neues Feld unter *Einstellungen > Technisch > Datenbankstruktur > Felder* mit diesen Attributen:
 
 * **Feldname**: `x_client_order_ref`
 * **Feldbezeichnung**: Kundenreferenz
@@ -216,31 +216,31 @@ Erstellen sie ein neues Feld unter *Einstellungen > Technisch > Datenbankstruktu
 
 ![](assets/Entwicklung%20Neues%20Beziehungs-Feld%20hinzufügen.png)
 
-Dieses Feld können sie nun in Berichten oder Listenansichten anzeigen.
+Dieses Feld können Sie nun in Berichten oder Listenansichten anzeigen.
 
 ## Standard-Filter für alle Benutzer festlegen
 
-Wenn sie über Aktionen bestimmte Odoo-Ansichten aufrufen ist bereits ein Filter in der Suchmaske hinterlegt. Dieser Standard-Filter können sie für alle Benutzer anpassen.
+Wenn Sie über Aktionen bestimmte Odoo-Ansichten aufrufen ist bereits ein Filter in der Suchmaske hinterlegt. Dieser Standard-Filter können Sie für alle Benutzer anpassen.
 
-Wählen sie auf der Ansicht mit dem Filter *Entwickler-Tools > Aktion bearbeiten*. Im Feld *Wert aus Kontext* können nicht nur Standardwerte für die anzuzeigende Ansicht hinterlegt werden, sondern auch der Status von Filtern.
+Wählen Sie auf der Ansicht mit dem Filter *Entwickler-Tools > Aktion bearbeiten*. Im Feld *Wert aus Kontext* können nicht nur Standardwerte für die anzuzeigende Ansicht hinterlegt werden, sondern auch der Status von Filtern.
 
 ![](assets/Entwicklung%20Standardfilter%20einrichten.png)
 
-Der Name des Filters lautet in diesem Beispiel `my_quotation`. Angenommen sie haben mittels Snippet diesen Filter hinzugefügt:
+Der Name des Filters lautet in diesem Beispiel `my_quotation`. Angenommen Sie haben mittels Snippet diesen Filter hinzugefügt:
 
 ```xml
 <filter string="Order Sent" name="sent" domain="[['state', '=', 'sent']]"/>
 ```
 
-Können sie entweder `my_question` mit `sent` im *Kontext Wert* der Aktion (*Entwickler-Tools > Aktion bearbeiten*) ersetzen oder den *Kontext Wert* mit `{'search_default_my_quotation': 1, 'search_default_sent': 1}` erweitern.
+Können Sie entweder `my_question` mit `sent` im *Kontext Wert* der Aktion (*Entwickler-Tools > Aktion bearbeiten*) ersetzen oder den *Kontext Wert* mit `{'search_default_my_quotation': 1, 'search_default_sent': 1}` erweitern.
 
 ::: warning
-Wenn sie das Modul mit der Definition der Aktiona aktualisieren, wird das Feld *Wert aus Kontext* überschrieben und ihre Anpassungen gehen verloren. Falls das unter keinen Umständen passieren darf, müssen sie Aktion duplizeren und in der Menüstruktur neu verknüpfen.
+Wenn Sie das Modul mit der Definition der Aktiona aktualisieren, wird das Feld *Wert aus Kontext* überschrieben und ihre Anpassungen gehen verloren. Falls das unter keinen Umständen passieren darf, müssen Sie Aktion duplizeren und in der Menüstruktur neu verknüpfen.
 :::
 
 ## Ansicht Anhänge erstellen
 
-Damit sie eine Übersicht der Anhänte erhalten, folgen sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+Damit Sie eine Übersicht der Anhänte erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
 
 Name der Aktion: `Attachments`\
 Objekt: `ir.attachments`\
@@ -256,7 +256,7 @@ Das Ergebnis sollte so aussehen:
 
 ## Ansicht erstellen
 
-Öffnen sie *Einstellung > Technisch > Ansichten* und legen sie einen neuen Eintrag an. Im folgenden Beispiel erstellen sie eine Listenansicht (Tree) für das Datenmodell *Basisimportzuordnung*.
+Öffnen Sie *Einstellung > Technisch > Ansichten* und legen Sie einen neuen Eintrag an. Im folgenden Beispiel erstellen Sie eine Listenansicht (Tree) für das Datenmodell *Basisimportzuordnung*.
 
 Ansichtsbezeichnung: `mint_system.base_import.mapping.tree`
 Modell: `base_import.mapping`\

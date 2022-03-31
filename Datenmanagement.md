@@ -6,7 +6,7 @@ prev: ./
 # Datenmanagement
 ![icons_odoo_website_sale_options](assets/icons_odoo_website_sale_options.png)
 
-Importieren und Exportieren sie alle Odoo Daten.
+Importieren und Exportieren Sie alle Odoo Daten.
 
 ## Daten exportieren
 
@@ -32,7 +32,7 @@ In den verschiedenen Apps besteht immer die Möglichkeit Daten zu importieren. F
 
 ![Datenmanagement Daten importieren](assets/Datenmanagement%20Daten%20importieren.png)
 
-Drücken sie den Knopf *Import*. Anschliessend erscheint folgende Maske mit der Möglichkeit eine Datei für den Import auszuwählen.
+Drücken Sie den Knopf *Import*. Anschliessend erscheint folgende Maske mit der Möglichkeit eine Datei für den Import auszuwählen.
 
 ![Datenmanagement Daten importieren Datei](assets/Datenmanagement%20Daten%20importieren%20Datei.png)
 
@@ -46,7 +46,7 @@ Mit der Funktion *Testbetrieb* wird festgestellt, ob die Stuktur der Datei den V
 
 ![Datenmanagement Daten importieren ok](assets/Datenmanagement%20Daten%20importieren%20ok.png)
 
-Nun können sie mit dem Knopf *Import* den Datentransfer ausführen.
+Nun können Sie mit dem Knopf *Import* den Datentransfer ausführen.
 
 ## Daten aktualisieren
 
@@ -66,11 +66,11 @@ In der Listenansicht können Datensätze ausgewählt und als Sammelmutation geä
 
 ## Demodaten anzeigen
 
-Auf GitHub veröffentlicht die Mint System [Odoo-Demodaten](https://github.com/Mint-System/Odoo-Demodaten). Hier finden sie Importbereite Datensätze für die Odoo-Module.
+Auf GitHub veröffentlicht die Mint System [Odoo-Demodaten](https://github.com/Mint-System/Odoo-Demodaten). Hier finden Sie Importbereite Datensätze für die Odoo-Module.
 
 ## Importzuordnung anzeigen
 
-Damit sie eine Übersicht der Importzuordnung erhalten, erstellen sie als erstes eine neue Ansicht gemäss [Ansicht erstellen](Entwicklung.md#Ansicht%20erstellen) mit diesen Angaben:
+Damit Sie eine Übersicht der Importzuordnung erhalten, erstellen Sie als erstes eine neue Ansicht gemäss [Ansicht erstellen](Entwicklung.md#Ansicht%20erstellen) mit diesen Angaben:
 
 Ansichtsbezeichnung: `mint_system.base_import.mapping.tree`
 Modell: `base_import.mapping`\
@@ -83,7 +83,7 @@ Architektur:
 </tree>
 ```
 
-Anschliessend erstellen sie einen neuen Menüeintrag mit einer neuen Aktion gemäss [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Angaben:
+Anschliessend erstellen Sie einen neuen Menüeintrag mit einer neuen Aktion gemäss [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Angaben:
 
 Name der Aktion: `Importzuordnung`\
 Objekt: `base_import.mapping`\

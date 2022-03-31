@@ -10,6 +10,6 @@ Sparen Sie Zeit beim Erfassen von Rechnungen, Scannen von Verträgen und bei der
 
 ## E-Mail-Hochladen für Arbeitsbereich einrichten
 
-Wählen sie einen Arbeitsbereich via *Dokumente* aus und klicken sie auf *Teilen*. Wählen sie die Option *Erlaubt es: Hoch- und runterladen* und geben sie rechts den E-Mail-Alias ein. Speichern sie den Vorgang.
+Wählen Sie einen Arbeitsbereich via *Dokumente* aus und klicken Sie auf *Teilen*. Wählen Sie die Option *Erlaubt es: Hoch- und runterladen* und geben Sie rechts den E-Mail-Alias ein. Speichern Sie den Vorgang.
 
-Richten sie den E-Mail-Alias für ihre konfigurierte Odoo-Mail-Adresse ein.
+Richten Sie den E-Mail-Alias für ihre konfigurierte Odoo-Mail-Adresse ein.

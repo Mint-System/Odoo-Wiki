@@ -14,8 +14,8 @@ Repository: <https://github.com/OCA/server-ux/tree/13.0/mass_editing>
 
 ## Aktion hinzufügen
 
-Navigieren sie nach *Einstellungen > Mass Operations > Massenverarbeitung* und klicken auf *Anlegen*.
+Navigieren Sie nach *Einstellungen > Mass Operations > Massenverarbeitung* und klicken auf *Anlegen*.
 
-Geben sie als *Name* den Name des Zielmodels im snake_case-Format ein. Geben sie den im Feld *Name der Aktion* eine passende Beschreibung ein. Wählen sie das Zielmodell unter *Modell* und fügen sie die verfügbaren Felder für die Massenbearbeitung hinzu. Aktivieren sie die Massenbearbeitung mit *Add sidebar button*.
+Geben Sie als *Name* den Name des Zielmodels im snake_case-Format ein. Geben Sie den im Feld *Name der Aktion* eine passende Beschreibung ein. Wählen Sie das Zielmodell unter *Modell* und fügen Sie die verfügbaren Felder für die Massenbearbeitung hinzu. Aktivieren Sie die Massenbearbeitung mit *Add sidebar button*.
 
 ![Massenverarbeitung ausführen](assets/Massenverarbeitung%20ausführen.gif)

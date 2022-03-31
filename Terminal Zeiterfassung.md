@@ -12,7 +12,7 @@ Ein- und auschecken mit dem Terminal Zeiterfassung.
 
 Damit Mitarbeiter sich mit einer RFID-Chip anmelden können, muss die Chip-Nummer hinterlegt werden.
 
-Navigieren sie nach *Personal* und führen sie diese Aktionen aus:
+Navigieren Sie nach *Personal* und führen Sie diese Aktionen aus:
 * Mitarbeiter wählen
 * Bearbeiten
 * Tab HR Einstellungen öffnen

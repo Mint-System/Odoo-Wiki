@@ -25,9 +25,9 @@ Damit Abwesenheitseinträge vom Vorgesetzten oder den HR-Verantwortlichen validi
 
 **Abwesenheitstyp**
 
-Damit der Genehmigungs-Prozess korrekt funktioniert, müssen die Abwesenheitstypen konfiguriert werden. Stellen sie die *Genehmigung* auf *Abwesenheits Officer*. [Abwesenheitstyp konfigurieren](Abwesenheitszeiten.md#Abwesenheitstyp%20konfigurieren).
+Damit der Genehmigungs-Prozess korrekt funktioniert, müssen die Abwesenheitstypen konfiguriert werden. Stellen Sie die *Genehmigung* auf *Abwesenheits Officer*. [Abwesenheitstyp konfigurieren](Abwesenheitszeiten.md#Abwesenheitstyp%20konfigurieren).
 
-Setzen sie die *Einheit der Abwesenheit* von *Bezahlter Urlaub* auf *Halber Tag*.
+Setzen Sie die *Einheit der Abwesenheit* von *Bezahlter Urlaub* auf *Halber Tag*.
 
 ## Prozess
 

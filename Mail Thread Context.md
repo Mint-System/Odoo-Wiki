@@ -28,6 +28,6 @@ Dasselbe funktioniert auch für *Sende Nachricht*. Der Empfänger wird nicht aut
 
 ## Alle Abonnenten löschen
 
-Wenn sie oder ein anderer Benutzer einem Dokument folgen, speichert das Odoo in einer technischen Tabelle. Diese Einträge können sie via *Einstellungen > Technisch > Diskussion > Abonnenten* löschen. Filtern sie die Einträge nach einem bestimmten Modellname. Dazu ein Beispiel mit dem Verkaufsaufträgen (`sale.order`):
+Wenn Sie oder ein anderer Benutzer einem Dokument folgen, speichert das Odoo in einer technischen Tabelle. Diese Einträge können Sie via *Einstellungen > Technisch > Diskussion > Abonnenten* löschen. Filtern Sie die Einträge nach einem bestimmten Modellname. Dazu ein Beispiel mit dem Verkaufsaufträgen (`sale.order`):
 
 ![Diskussion Abonnenten löschen](assets/Diskussion%20Abonnenten%20löschen.gif)

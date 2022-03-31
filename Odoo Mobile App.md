@@ -20,14 +20,14 @@ Laden Sie die App aus dem Geräte-spezifischen App-Store herunter.
 
 ![](assets/Odoo%20Mobile%20App%20Appstore.jpg)
 
-Öffnen sie App und geben sie Odoo Server Url mit Benutzername und Passwort ein.
+Öffnen Sie App und geben Sie Odoo Server Url mit Benutzername und Passwort ein.
 
 ![](assets/Odoo%20Mobile%20App%20Login.jpg)
 
-Hat das Login funktioniert, sollten sie diesen Bildschirm sehen:
+Hat das Login funktioniert, sollten Sie diesen Bildschirm sehen:
 
 ![](assets/Odoo%20Mobile%20App%20Startbildschirm.jpg)
 
 ## Konto wechseln oder neues hinzufügen
 
-Die Odoo App unterstützt mehrere Kontos. Wählen sie das das Menü oben Rechts und anschliessend drücken sie auf *Wechsle/Füge Konto hinzu*. Nun können zu einem bereits erfassten Konto wechsel oder über *+* ein neues Konto hinzufügen.
+Die Odoo App unterstützt mehrere Kontos. Wählen Sie das das Menü oben Rechts und anschliessend drücken Sie auf *Wechsle/Füge Konto hinzu*. Nun können zu einem bereits erfassten Konto wechsel oder über *+* ein neues Konto hinzufügen.

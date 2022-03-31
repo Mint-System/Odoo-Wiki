@@ -14,7 +14,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/hr_shortname>
 
 ## Kürzel eintragen und suchen
 
-Ist diese Erweiterung installiert, können sie bei Mitarbeitenden ein Kürzel eintragen:
+Ist diese Erweiterung installiert, können Sie bei Mitarbeitenden ein Kürzel eintragen:
 
 ![](assets/HR%20Shortname%20Kürzel%20Erfassen.png)
 

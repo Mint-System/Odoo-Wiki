@@ -7,7 +7,7 @@ prev: ./anwesenheitszeiten
 # Überzeitenmanagement
 ![](assets/icon_syscoon_hr_attendance.png)
 
-Verwalten sie die Überzeiten der Mitarbeitenden.
+Verwalten Sie die Überzeiten der Mitarbeitenden.
 
 Technischer Name: `syscoon_hr_attendance`\
 Website: <https://apps.odoo.com/apps/modules/13.0/syscoon_hr_attendance/>
@@ -22,6 +22,6 @@ Dazu eine Übersicht:
 
 ## Überzeit nachtragen
 
-Oft ist man mit einem laufenden Wechsel des Zeiterfassungssystems konfrontiert. Überstunden und Saldos müssen ins neue System übertragen werden. Überstunden können sie ganz einfach nachtragen.
+Oft ist man mit einem laufenden Wechsel des Zeiterfassungssystems konfrontiert. Überstunden und Saldos müssen ins neue System übertragen werden. Überstunden können Sie ganz einfach nachtragen.
 
-Navigieren sie nach *Personal > Person auswählen > Tab HR Einstellungen* und klicken sie auf *Bearbeiten*. Geben sie den +/- Stundenbetrag im Feld *Overtime (History)* ein.
+Navigieren Sie nach *Personal > Person auswählen > Tab HR Einstellungen* und klicken Sie auf *Bearbeiten*. Geben Sie den +/- Stundenbetrag im Feld *Overtime (History)* ein.

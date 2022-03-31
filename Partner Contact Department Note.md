@@ -14,4 +14,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/
 
 ## Abteilung auf Kontakt festlegen
 
-Mit dieser Erweiterung können sie für jeden Kontakt einen Wert im Feld *Abteilung* festhalten. Öffnen sie einen Kontakt via *Kontakte*. Unter dem Feld *Stelle* finden sie das Abteilungs-Feld.
+Mit dieser Erweiterung können Sie für jeden Kontakt einen Wert im Feld *Abteilung* festhalten. Öffnen Sie einen Kontakt via *Kontakte*. Unter dem Feld *Stelle* finden Sie das Abteilungs-Feld.

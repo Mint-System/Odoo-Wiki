@@ -16,12 +16,12 @@ Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/sh_inv_merge_pdf>
 
 ## PDF-Dokumente aus Rechnung zusammenführen
 
-Mit dieser Erweiterung können sie Die Anhänge einer Rechnung eineem bestimmten Rechnungsbericht anfügen.
+Mit dieser Erweiterung können Sie Die Anhänge einer Rechnung eineem bestimmten Rechnungsbericht anfügen.
 
-In den Einstellunge unter *Finanzen > Invoice Attachment Merge*, bestimmen sie den Hauptbericht.
+In den Einstellunge unter *Finanzen > Invoice Attachment Merge*, bestimmen Sie den Hauptbericht.
 
 ![](assets/Invoice%20Merge%20PDF%20Attachment.png)
 
-Wenn sie eine Rechnung erstellen, generieren sie als erstes den Anhang (hier QR-Rechung). Anschliessend legen sie auf der Rechnung, dass der Anhang zusammengeführt werden soll. Wenn sie nun den Hauptbericht generieren, werden die ausgewählten Anhänge angefügt.
+Wenn Sie eine Rechnung erstellen, generieren Sie als erstes den Anhang (hier QR-Rechung). Anschliessend legen Sie auf der Rechnung, dass der Anhang zusammengeführt werden soll. Wenn Sie nun den Hauptbericht generieren, werden die ausgewählten Anhänge angefügt.
 
 ![Invoice Merge PDF Attachment](assets/Invoice%20Merge%20PDF%20Attachment.gif)

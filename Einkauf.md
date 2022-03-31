@@ -39,7 +39,7 @@ Mit dem Knopf *Per E-Mail Versenden* wird eine PDF-Datei generiert und per eMail
 
 ## Portal-Ansicht Bestellung anzeigen
 
-Die Portal-Ansicht einer Bestellung können sie wie folgt anzeigen:
+Die Portal-Ansicht einer Bestellung können Sie wie folgt anzeigen:
 * Öffnen Angebotsanfrage
 * Ausführen *Aktion > Teilen > Text kopieren*
 * Neues privates Browser-Fenster öffnen
@@ -75,7 +75,7 @@ Die Bestellung sieht dann wie folgt aus:
 
 ## Einkaufszeilen anzeigen
 
-Damit sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+Damit Sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
 
 Name der Aktion: `Einkaufszeilen`\
 Objekt: `purchase.order.line`\

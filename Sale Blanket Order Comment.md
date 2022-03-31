@@ -14,10 +14,10 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 ## Kommentar hinzufügen
 
-Öffnen sie einen Rahmenauftrag via *Verkäufe > Aufträge > Rahmenaufträge*. Im Tab *Weitere Informationen* finden sie das Feld *Kommentar*.
+Öffnen Sie einen Rahmenauftrag via *Verkäufe > Aufträge > Rahmenaufträge*. Im Tab *Weitere Informationen* finden Sie das Feld *Kommentar*.
 
 ![](assets/Sale%20Blanket%20Order%20Comment%20Feld.png)
 
-Wenn sie einen neuen Kommentar erfassen oder einen bestehenden Kommentar anpassen, wird das im Chatter protokolliert.
+Wenn Sie einen neuen Kommentar erfassen oder einen bestehenden Kommentar anpassen, wird das im Chatter protokolliert.
 
 ![](assets/Sale%20Blanket%20Order%20Comment%20Chatter.png)

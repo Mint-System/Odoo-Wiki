@@ -14,6 +14,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 ## Lieferdatum aus Bestellung aktualisieren
 
-Wenn sie in der Positionszeile einer Bestellung das Lieferdatum aktualisieren, wird dieses im Wareneingang nachgetragen.
+Wenn Sie in der Positionszeile einer Bestellung das Lieferdatum aktualisieren, wird dieses im Wareneingang nachgetragen.
 
 ![Purchase Order Line Date](assets/Purchase%20Order%20Line%20Date.gif)

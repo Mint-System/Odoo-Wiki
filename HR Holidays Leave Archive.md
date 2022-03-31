@@ -14,7 +14,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/hr_holidays_l
 
 ## Abwesenheitszeiten archivieren
 
-Ist diese Erweiterung installiert können Abwesenheitszeiten archiviert werden. Navigieren sie nach *Abwesenheitszeiten > Vorgesetzte > Abwesenheitszeiten*. Filtern sie die Listen nach Einträgen und markieren sie jene, die archivieren möchten. Wählen sie *Aktion > Archiv*.
+Ist diese Erweiterung installiert können Abwesenheitszeiten archiviert werden. Navigieren Sie nach *Abwesenheitszeiten > Vorgesetzte > Abwesenheitszeiten*. Filtern Sie die Listen nach Einträgen und markieren Sie jene, die archivieren möchten. Wählen Sie *Aktion > Archiv*.
 
 ::: tip
 Im Archivierungsvorgang wird der Status von Abwesenheitszeiten auf *Abgebrochen* gesetzt.
@@ -22,11 +22,11 @@ Im Archivierungsvorgang wird der Status von Abwesenheitszeiten auf *Abgebrochen*
 
 ## Archivierte Abwesenheitszeiten anzeigen
 
-Zeigen sie die Listenansicht *Abwesenheitszeiten > Vorgesetzte > Abwesenheitszeiten* an und wählen sie *Filter*. Aktivieren sie den Filter *Archived*. Mit *Aktion > Archivierung aufheben* können sie ausgewählte Einträge wieder aktivieren.
+Zeigen Sie die Listenansicht *Abwesenheitszeiten > Vorgesetzte > Abwesenheitszeiten* an und wählen Sie *Filter*. Aktivieren Sie den Filter *Archived*. Mit *Aktion > Archivierung aufheben* können Sie ausgewählte Einträge wieder aktivieren.
 
 ## Abwesenheitsansprüche archivieren
 
-Ist diese Erweiterung installiert können Abwesenheitsansprüche archiviert werden. Navigieren sie nach *Abwesenheitszeiten > Vorgesetzte > Abwesenheitsansprüche*. Filtern sie die Listen nach Einträgen und markieren sie jene, die archivieren möchten. Wählen sie *Aktion > Archiv*.
+Ist diese Erweiterung installiert können Abwesenheitsansprüche archiviert werden. Navigieren Sie nach *Abwesenheitszeiten > Vorgesetzte > Abwesenheitsansprüche*. Filtern Sie die Listen nach Einträgen und markieren Sie jene, die archivieren möchten. Wählen Sie *Aktion > Archiv*.
 
 ::: tip
 Im Archivierungsvorgang werden alle verknüpften Abwesenheitszeiten ebenfalls archiviert.
@@ -34,4 +34,4 @@ Im Archivierungsvorgang werden alle verknüpften Abwesenheitszeiten ebenfalls ar
 
 ## Archivierte ## Abwesenheitsansprüche anzeigen
 
-Zeigen sie die Listenansicht *Abwesenheitszeiten > Vorgesetzte > Abwesenheitsansprüche* an und wählen sie *Filter*. Aktivieren sie den Filter *Archived*. Mit *Aktion > Archivierung aufheben* können sie ausgewählte Einträge wieder aktivieren.
+Zeigen Sie die Listenansicht *Abwesenheitszeiten > Vorgesetzte > Abwesenheitsansprüche* an und wählen Sie *Filter*. Aktivieren Sie den Filter *Archived*. Mit *Aktion > Archivierung aufheben* können Sie ausgewählte Einträge wieder aktivieren.

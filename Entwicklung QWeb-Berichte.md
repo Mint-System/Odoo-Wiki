@@ -10,14 +10,14 @@ Eigene Berichte mit QWeb erstellen.
 
 ## Benutzerdefinierter Bericht erstellen
 
-Öffnen sie *Einstellungen > Technisch > Berichtswesen > Berichte* und erstellen sie einen neuen Bericht mit diesen Attributen:
+Öffnen Sie *Einstellungen > Technisch > Berichtswesen > Berichte* und erstellen Sie einen neuen Bericht mit diesen Attributen:
 
 * Name: `Barcodes $COMPANY (PDF)`
 * Modellname: `stock.picking`
 * Papierformat: `A4`
 * Berichtstyp: `PDF`
 
-Navigieren sie nun nach *Einstellungen > Technisch > Benutzer-Interface > Ansichten*, suchen sie eine bestehende Ansicht und duplizieren sie diese.
+Navigieren Sie nun nach *Einstellungen > Technisch > Benutzer-Interface > Ansichten*, suchen Sie eine bestehende Ansicht und duplizieren Sie diese.
 
 * Ansichtsbezeichnung: `label_transfer_template_view_$COMPANY`
 * Architektur:
@@ -43,11 +43,11 @@ Navigieren sie nun nach *Einstellungen > Technisch > Benutzer-Interface > Ansich
 </t>
 ```
 
-Nun exportieren sie die Ansicht um eine *XML ID* zu generieren.
+Nun exportieren Sie die Ansicht um eine *XML ID* zu generieren.
 
 ![QWeb-Berichte XML ID generieren](assets/QWeb-Berichte%20XML%20ID%20generieren.gif)
 
-Setzen sie als *Ansichtsbezeichnung* die *XML ID*, ersetzen sie dabei `__export__` mit einer anderen Bezeichner beispielsweise `mint_system`. Öffnen sie den Bericht und setzen sie als *Vorlagenname* die *XML ID* ein.
+Setzen Sie als *Ansichtsbezeichnung* die *XML ID*, ersetzen Sie dabei `__export__` mit einer anderen Bezeichner beispielsweise `mint_system`. Öffnen Sie den Bericht und setzen Sie als *Vorlagenname* die *XML ID* ein.
 
 ![](assets/QWeb-Berichte%20Vorlagenname%20setzen.png)
 
@@ -63,17 +63,17 @@ Odoo verlinkt das Ansichts- und Berichtsobjekt über die externe ID bzw. XML ID.
 
 Alle von Odoo generierten Berichte können unter einer bestimmten URL als HTML angezeigt werden. Diese URL besteht aus dem technischen Berichtsnamen und der ID des anzuzeigenden Geschäftsobjekt. Dazu ein Beispiel anhand des Lieferscheins.
 
-Öffnen sie einen Lieferschein via *Lager > Vorgänge > Transfers* und merken sie sich die folgenden Elemente der angezeigeigten URL: /web#**id=3**&action=348&**model=stock.picking**&view_type=form&cids=1&menu_id=208
+Öffnen Sie einen Lieferschein via *Lager > Vorgänge > Transfers* und merken Sie sich die folgenden Elemente der angezeigeigten URL: /web#**id=3**&action=348&**model=stock.picking**&view_type=form&cids=1&menu_id=208
 
-Navigieren sie nun zu **Einstellungen > Technisch > Aktionen > Berichte**. Filtern sie die Liste nach dem *Name* des Berichts oder dem *Modellname*.
+Navigieren Sie nun zu **Einstellungen > Technisch > Aktionen > Berichte**. Filtern Sie die Liste nach dem *Name* des Berichts oder dem *Modellname*.
 
 ![](assets/Entwicklung%20Berichte%20filtern.png)
 
-Wählen sie den Bericht aus und notieren sie den *Vorlagenname* des Berichts.
+Wählen Sie den Bericht aus und notieren Sie den *Vorlagenname* des Berichts.
 
 ![](assets/Entwicklung%20Bericht%20Vorlagenname.png)
 
-Nun haben sie alle Elemente um den Bericht als HTML anzuzeigen. Geben sie die folgende URL ein: /report/html/**stock.report_deliveryslip**/**3**
+Nun haben Sie alle Elemente um den Bericht als HTML anzuzeigen. Geben Sie die folgende URL ein: /report/html/**stock.report_deliveryslip**/**3**
 
 ![](assets/Entwicklung%20Bericht%20angezeigt.png)
 
@@ -92,5 +92,5 @@ Hierzu eine Übersicht der wichtigsten Berichte und deren URL:
 | QR-Rechnung               | `/report/html/l10n_ch.qr_report_main/$ID`                                                          |
 
 ::: tip
-Bestimmte Bericht können mehere Dokumente anzeigen. Für die HTML-Anzeige können sie die Dokument-IDs Komma-getrennt übergeben: /report/html/**stock.report_deliveryslip**/**3,4,5**
+Bestimmte Bericht können mehere Dokumente anzeigen. Für die HTML-Anzeige können Sie die Dokument-IDs Komma-getrennt übergeben: /report/html/**stock.report_deliveryslip**/**3,4,5**
 :::

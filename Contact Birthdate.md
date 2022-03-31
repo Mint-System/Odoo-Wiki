@@ -14,13 +14,13 @@ Repository: <https://github.com/OCA/partner-contact/tree/14.0/partner_contact_bi
 
 ## Geburtsdatum für Kontakt speichern
 
-Öffnen sie einen Kontakt und zeigen sie den Tab *Persönliche Auskunft*. Bearbeiten sie den Kontakt und legen sie das Geburtstdatum im Feld *Geburtsdatum* fest. Odoo berechnet dazu das Alter.
+Öffnen Sie einen Kontakt und zeigen Sie den Tab *Persönliche Auskunft*. Bearbeiten Sie den Kontakt und legen Sie das Geburtstdatum im Feld *Geburtsdatum* fest. Odoo berechnet dazu das Alter.
 
 ![](assets/Contact%20Birthdate%20Tab%20mit%20Geburtsdatum.png)
 
 ## Geburtstagskalender für Kontakte erstellen
 
-Mit dieser Erweiterung können sie Geburtstage bei Kontakten hinterlegen. Um einen fortlaufenden Kalender der Geburtstage zu generieren, müssen sie die App [BI SQL Editor](BI%20SQL%20Editor.md) installieren. Damit lassen sich einfach Datenbankabfragen als Odoo-Ansichten darstellen. Dazu ein Beispiel für eine einfache Geburtstagsliste:
+Mit dieser Erweiterung können Sie Geburtstage bei Kontakten hinterlegen. Um einen fortlaufenden Kalender der Geburtstage zu generieren, müssen Sie die App [BI SQL Editor](BI%20SQL%20Editor.md) installieren. Damit lassen sich einfach Datenbankabfragen als Odoo-Ansichten darstellen. Dazu ein Beispiel für eine einfache Geburtstagsliste:
 
 Bezeichnung: `Geburtstag Kontakte`\
 Technische Bezeichnung: `contact_birthday_report`\

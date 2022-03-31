@@ -9,23 +9,23 @@ In diesem Dokument werden die Vorgaben zur Mitarbeit am Odoo Wiki erläutert.
 
 ## Verwendung
 
-Technische Konfigurationen damit sie an der Wissensdatenbank mitarbeiten können.
+Technische Konfigurationen damit Sie an der Wissensdatenbank mitarbeiten können.
 
 ### Initialisierung
 
-1. Erstellen sie einen Account auf <https://github.com/>
-2. Werden sie Mitgleid bei <https://github.com/Mint-System/> (optional)
-3. Installieren sie <https://obsidian.md/>
-4. Installieren sie <https://git-scm.com/>
-5. Erstellen sie ein SSH-Schlüsselpaar <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
-6. Forken sie das *Odoo Wiki* Repository (optional)
-7. Klonen sie das *Odoo Wiki Repository
+1. Erstellen Sie einen Account auf <https://github.com/>
+2. Werden Sie Mitgleid bei <https://github.com/Mint-System/> (optional)
+3. Installieren Sie <https://obsidian.md/>
+4. Installieren Sie <https://git-scm.com/>
+5. Erstellen Sie ein SSH-Schlüsselpaar <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
+6. Forken Sie das *Odoo Wiki* Repository (optional)
+7. Klonen Sie das *Odoo Wiki Repository
 
 ```bash
 git@github.com:Mint-System/Odoo-Wiki.git
 ```
 
-8. Öffnen sie den Ordner mit Obsidian
+8. Öffnen Sie den Ordner mit Obsidian
 
 ### Synchronisierung
 
@@ -72,7 +72,7 @@ Handelsregister: CH-020.4.036.470-7
 
 ## Sprache
 
-Die Artikel sind in der Sprache Deutsch und in der [Höflichkeitsform](https://de.wikipedia.org/wiki/H%C3%B6flichkeitsform). Das Subjektiv bleibt klein geschrieben.
+Die Artikel sind in der Sprache Deutsch und in der [Höflichkeitsform](https://de.wikipedia.org/wiki/H%C3%B6flichkeitsform).
 
 Die Beschreibungen und Anleitungen sind ausführlich und kommen ohne Abkürzungen aus.
 
@@ -81,17 +81,17 @@ Die Beschreibungen und Anleitungen sind ausführlich und kommen ohne Abkürzunge
 Die Navigations-Anweisungen müssen genauso erstellt werden:
 
 🚫"Fertigung/Stammdaten/Stückliste"  
-✅ "Navigieren sie nach *Fertigung > Stammdaten > Stückliste* und klicken sie auf *+ Anliegen*."
+✅ "Navigieren Sie nach *Fertigung > Stammdaten > Stückliste* und klicken Sie auf *+ Anliegen*."
 
 Pfade und Bezeichnungen werden kursiv geschrieben.
 
-🚫 Drücken sie auf "+ Anlegen"  
-✅ Drücken sie auf *+ Anlegen*
+🚫 Drücken Sie auf "+ Anlegen"  
+✅ Drücken Sie auf *+ Anlegen*
 
 Bezeichnungen die gross geschrieben sind, werden nur mit Anfangsbuchstanden gross geschrieben.
 
-🚫 Drücken sie auf *ALS ERLEDIGT MARKIEREN*
-✅ Drücken sie auf *Als Erledigt Markieren*
+🚫 Drücken Sie auf *ALS ERLEDIGT MARKIEREN*
+✅ Drücken Sie auf *Als Erledigt Markieren*
 
 ## Markierungen
 

@@ -14,4 +14,4 @@ Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/stock_del
 
 ## Notiz auf Lieferschein erfassen
 
-Öffnen sie einen Lieferschein via *Lager > Lieferaufträge > Lieferauftrag auswählen > Tab Zusätzliche Informationen* und tragen sie im Feld *Delivery Note* ihre Notiz ein. Die Notiz wird auf dem Lieferschein *Drucken > Lieferschein* unterhalb der Tabelle mit den Positionen aufgeführt.
+Öffnen Sie einen Lieferschein via *Lager > Lieferaufträge > Lieferauftrag auswählen > Tab Zusätzliche Informationen* und tragen Sie im Feld *Delivery Note* ihre Notiz ein. Die Notiz wird auf dem Lieferschein *Drucken > Lieferschein* unterhalb der Tabelle mit den Positionen aufgeführt.

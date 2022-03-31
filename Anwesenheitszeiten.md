@@ -10,8 +10,8 @@ Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 
 | Erweiterung                                                                       | Beschreibung                                                                                                       |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| [Überzeitenmanagement](Überzeitenmanagement.md)                                   | Verwalten sie die Überzeiten der Mitarbeitenden.                                                                   |
-| [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement. |
+| [Überzeitenmanagement](Überzeitenmanagement.md)                                   | Verwalten Sie die Überzeiten der Mitarbeitenden.                                                                   |
+| [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement. |
 
 ::: tip
 Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheit. Für das Erfassen der Projektzeit nutzt man die App Zeiterfassung.
@@ -21,7 +21,7 @@ Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenhe
 
 ## Anwesenheit anmelden
 
-Navigieren sie nach *Anwesenheitszeiten* und klicken sie auf den Knopf *Anmelden*.
+Navigieren Sie nach *Anwesenheitszeiten* und klicken Sie auf den Knopf *Anmelden*.
 
 ![Anwesenheitszeiten Anmeldung](assets/Anwesenheitszeiten%20Anmeldung.png)
 
@@ -31,7 +31,7 @@ Es erscheint ein Willkommensgruss mit Angabe der Uhrzeit.
 
 ## Anwesenheit abmelden
 
-Navigieren sie nach *Anwesenheitszeiten* und klicken sie auf den Knopf *Abmelden*.
+Navigieren Sie nach *Anwesenheitszeiten* und klicken Sie auf den Knopf *Abmelden*.
 
 ![Anwesenheitszeiten Abmeldung](assets/Anwesenheitszeiten%20Abmeldung.png)
 
@@ -64,7 +64,7 @@ Das detaillierte Protokoll der An- und Abmeldungen zeigt die Übersicht *Anwesen
 
 ## Anwesenheitszeiten bearbeiten
 
-Mitarbeiter können standardmässig ihre Anwesenheitszeiten nachbessern. Dazu navigieren sie über das Menu oben-rechts nach *Vorname Nachname > Mein Profil > Smart-Link XX.XX Stunden*. Hier werden die Checkins und Checkouts aufgelistet.
+Mitarbeiter können standardmässig ihre Anwesenheitszeiten nachbessern. Dazu navigieren Sie über das Menu oben-rechts nach *Vorname Nachname > Mein Profil > Smart-Link XX.XX Stunden*. Hier werden die Checkins und Checkouts aufgelistet.
 
 Um einen Eintrag zu bearbeiten, klick man entweder auf *Einchecken* oder *Abmeldung*.
 
@@ -72,10 +72,10 @@ Um einen Eintrag zu bearbeiten, klick man entweder auf *Einchecken* oder *Abmeld
 
 ## Zeitüberschreitungen filtern
 
-Wenn sie wissen möchten, welche Mitarbeitenden nicht korrekt ausgestempelt oder zu viel Zeit gestempelt haben, können sie die Einträge via *Anwesenheitszeiten > Manager > Anwesenheitszeiten* filtern. Erstellen sie einen Filter für das Feld *Arbeitsstunden*:
+Wenn Sie wissen möchten, welche Mitarbeitenden nicht korrekt ausgestempelt oder zu viel Zeit gestempelt haben, können Sie die Einträge via *Anwesenheitszeiten > Manager > Anwesenheitszeiten* filtern. Erstellen Sie einen Filter für das Feld *Arbeitsstunden*:
 
 ![](assets/Anwesenheitszeiten%20Arbeitsstunden%20filtern.png)
 
-Natürlich können sie die Auswertung auf ihrem Dashboard hinzufügen und sehen so, ob eine Fehlbuchung entstanden ist.
+Natürlich können Sie die Auswertung auf ihrem Dashboard hinzufügen und sehen so, ob eine Fehlbuchung entstanden ist.
 
 ![](assets/Anwesenheitszeiten%20Dashboard.png)

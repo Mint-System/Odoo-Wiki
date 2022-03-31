@@ -7,6 +7,6 @@ prev: ./best-practice
 
 ## Standardverhalten
 
-Wenn sie eine Notiz auf einem beliebigen Odoo Dokument einem Chatter-Fenster hinterlassen, werden sie als Abonnent hinzugefügt.
+Wenn Sie eine Notiz auf einem beliebigen Odoo Dokument einem Chatter-Fenster hinterlassen, werden Sie als Abonnent hinzugefügt.
 
 ![](assets/Diskussion%20Follower%20bei%20Notiz.gif)

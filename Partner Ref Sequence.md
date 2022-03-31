@@ -14,10 +14,10 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/
 
 ## Kontakt-Referenz automatisch vergeben
 
-Mit dieser Erweiterung werden beim Erstellen eines Kontakt automatisch eine Referenz vergeben. Öffnen sie *Kontakte* und erstellen sie einen Eintrag.
+Mit dieser Erweiterung werden beim Erstellen eines Kontakt automatisch eine Referenz vergeben. Öffnen Sie *Kontakte* und erstellen Sie einen Eintrag.
 
 Im Tab *Verkauf & Einkauf* ist nun die generierte Referenz sichtbar.
 
 ![](assets/Partner%20Ref%20Sequence.png)
 
-Möchten sie die Nummerierung ändern, öffnen sie [Sequenz anpassen](Einstellungen.md#Sequenz%20anpassen).
+Möchten Sie die Nummerierung ändern, öffnen Sie [Sequenz anpassen](Einstellungen.md#Sequenz%20anpassen).

@@ -14,7 +14,7 @@ Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/stock_pro
 
 ## Los/Charge archivieren
 
-Öffnen sie *Lager > Stammdaten > Chargen-/ Seriennummern* und wählen sie die zu archivierenden Chargen-/Seriennummern aus.
-Wählen sie *Aktion > Archiv*.
+Öffnen Sie *Lager > Stammdaten > Chargen-/ Seriennummern* und wählen Sie die zu archivierenden Chargen-/Seriennummern aus.
+Wählen Sie *Aktion > Archiv*.
 
 ![](assets/Stock%20Production%20Lot%20Active%20Aktion.png)

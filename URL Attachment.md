@@ -14,11 +14,11 @@ Repository: <https://github.com/OCA/knowledge/tree/14.0/document_url>
 
 ## Url als Dokument hinzufügen
 
-Mit dieser Erweiterungen können sie, nicht nur Dokumente im Chatter anhängen, sondern auch Urls. Öffnen sie eine beliebige Formular-Ansicht mit einem Chatter-Fenster und wählen *Add URL*.
+Mit dieser Erweiterungen können sie, nicht nur Dokumente im Chatter anhängen, sondern auch Urls. Öffnen Sie eine beliebige Formular-Ansicht mit einem Chatter-Fenster und wählen *Add URL*.
 
 ![](assets/URL%20Attachment%20Add.png)
 
-Geben sie einen Link-Namen und die Url ein. 
+Geben Sie einen Link-Namen und die Url ein. 
 
 ![](assets/URL%20Attachment%20Example.png)
 

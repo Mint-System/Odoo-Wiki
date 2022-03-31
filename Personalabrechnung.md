@@ -16,7 +16,7 @@ Personalbrechnungen schnell und einfach erstellen.
 
 ## Pesonalabrechnung initialisieren
 
-Damit sie die Personalabrechnung für ihre Mitarbeiter erstellen können, müssen einige vorbereitungen getroffen werden.
+Damit Sie die Personalabrechnung für ihre Mitarbeiter erstellen können, müssen einige vorbereitungen getroffen werden.
 
 Dazu eine Übersicht:
 * [Mitarbeiter erfassen](Personal.md#Personal#Mitarbeiter%20erfassen)
@@ -28,11 +28,11 @@ Dazu eine Übersicht:
 * [Finanzkonten den Lohnarten zuweisen](#Finanzkonten%20den%20Lohnarten%20zuweisen)
 * [Gehaltsinformationen eingeben](#Gehaltsinformationen%20eingeben)
 
-Konfigurieren sie diese Punkte, erst dann können sie die [Lohnabrechnung erstellen](#Lohnabrechnung%20erstellen).
+Konfigurieren Sie diese Punkte, erst dann können Sie die [Lohnabrechnung erstellen](#Lohnabrechnung%20erstellen).
 
 ## Bankverbindung hinterlegen
 
-Zur Auszahlung des Lohns über SEPA müssen sie den Mitarbeiter ein Bankkonto hinterlegen. Navigieren sie nach *Pesonal > Mitarbeiter auswählen > Bearbeiten > Tab Private Information* und erfassen sie ein Bankkonto unter *Bankverbindung*.
+Zur Auszahlung des Lohns über SEPA müssen Sie den Mitarbeiter ein Bankkonto hinterlegen. Navigieren Sie nach *Pesonal > Mitarbeiter auswählen > Bearbeiten > Tab Private Information* und erfassen Sie ein Bankkonto unter *Bankverbindung*.
 
 ## Lohnarten definieren
 
@@ -40,15 +40,15 @@ Zur Auszahlung des Lohns über SEPA müssen sie den Mitarbeiter ein Bankkonto hi
 Das sind die Regeln, die Informationen über die Gehaltsberechnung liefern. Diese Regeln werden von odoo gemäss der Reihenfolge ihrer Sequenznummer interpretiert. Die Regeln können verwendet werden, um Buchungen zu erzeugen, ohne dass diese in der Gehaltsliste sichtbar sind.
 :::
 
-Die Lohnregel sind unter *Personalabrechnung > Konfiguration > Regeln* definiert. Überprüfen sie alle Regeln und legen sie fest welche auf dem Lohnzettel erscheinen sollen.
+Die Lohnregel sind unter *Personalabrechnung > Konfiguration > Regeln* definiert. Überprüfen Sie alle Regeln und legen Sie fest welche auf dem Lohnzettel erscheinen sollen.
 
-Regeln für die sie keine Verwendung haben, können sie archivieren.
+Regeln für die Sie keine Verwendung haben, können Sie archivieren.
 
 ## Finanzkonten den Lohnarten zuweisen
 
-Damit  die Lohnabrechnung auch in der Finanzbuchhaltung ersichtlich ist, müssen sie für alle Lohnregeln die entsprechenden Soll- und Habenkonten hinterlegen. Eine Übersicht dazu finden sie unter [Best-Practice Lohnbuchhaltung](Best%20Practice%20Lohnbuchhaltung.md).
+Damit  die Lohnabrechnung auch in der Finanzbuchhaltung ersichtlich ist, müssen Sie für alle Lohnregeln die entsprechenden Soll- und Habenkonten hinterlegen. Eine Übersicht dazu finden Sie unter [Best-Practice Lohnbuchhaltung](Best%20Practice%20Lohnbuchhaltung.md).
 
-Navigieren sie nach *Personalabrechnung > Konfiguration > Regeln > Regel auswählen > Beareiten > Tab Finanzen* und weisen sie dort die Konten zu.
+Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln > Regel auswählen > Beareiten > Tab Finanzen* und weisen Sie dort die Konten zu.
 
 ![](assets/Personalbrechnung%20Finanzkonten.png)
 
@@ -58,15 +58,15 @@ Lohnabrechnung können für mehre oder einzelne Mitarbeiter ausgeführt werden.
 
 **Einzeln**
 
-Um eine einzelne Lohnabrechnung zu erzeugen wählen sie den Mitarbeiter aus *Personal > Mitarbeiter auswählen* und klicken auf den Link *Abrechnungen Mitarbeiterverfügung* und wählen *Anlegen*.
+Um eine einzelne Lohnabrechnung zu erzeugen wählen Sie den Mitarbeiter aus *Personal > Mitarbeiter auswählen* und klicken auf den Link *Abrechnungen Mitarbeiterverfügung* und wählen *Anlegen*.
 
 ![Personalabrechnung Einzeln anlegen](assets/Personalabrechnung%20Einzeln%20anlegen.gif)
 
-Legen sie die Zeitperiode fest, speichern sie den Eintrag und drücken *Berechnen*. Nun wird die Lohnabrechnung erstellt und ist bereit zur Verbuchung.
+Legen Sie die Zeitperiode fest, speichern Sie den Eintrag und drücken *Berechnen*. Nun wird die Lohnabrechnung erstellt und ist bereit zur Verbuchung.
 
 **Batch**
 
-Navigieren sie nach *Personalabrechnung > Work Entries > Work Entries* und wählen den aktuellen Monat. Starten sie den Batch-Vorgang mit *Lohnabrechnung erzeugen*. Für jeden Mitarbeiter wird nun eine Lohnabrechnung erzeugt und steht bereit zur Prüfung.
+Navigieren Sie nach *Personalabrechnung > Work Entries > Work Entries* und wählen den aktuellen Monat. Starten Sie den Batch-Vorgang mit *Lohnabrechnung erzeugen*. Für jeden Mitarbeiter wird nun eine Lohnabrechnung erzeugt und steht bereit zur Prüfung.
 
 ![](assets/Personalbrechung%20Lohnabrechnung%20%C3%BCberpr%C3%BCfen.png)
 
@@ -74,7 +74,7 @@ Mit *Create draft entry* werden die einzelnen Lohnabrechnungen berechnet und ein
 
 ## Lohnabrechnung verbuchen
 
-Wählen sie eine aktuelle Lohnabrechnung, die im Status *Erledigt* ist: *Personalabrechnung > Abrechnung Mitarbeitervergütung > All Payslips > Payslip auswählen*. Öffnen sie den Tab *Finanzen* und klicken auf den Link unter *Buchung*.
+Wählen Sie eine aktuelle Lohnabrechnung, die im Status *Erledigt* ist: *Personalabrechnung > Abrechnung Mitarbeitervergütung > All Payslips > Payslip auswählen*. Öffnen Sie den Tab *Finanzen* und klicken auf den Link unter *Buchung*.
 
 ![](assets/Personalbrechnung%20Buchung.png)
 
@@ -86,13 +86,13 @@ Werden die Lohnzahlung als Batch verarbeitet, müssen alle Lohnabrechnungen best
 
 ## Gehaltsinformationen eingeben
 
-Die Gehaltsinformationen der Mitarbeiter legen sie via *Pesonal > Mitarbeiter auswählen > Link Verträge > Arbeitsvertrag auswählen > Bearbeiten > Tab Gehaltsinformationen* fest.
+Die Gehaltsinformationen der Mitarbeiter legen Sie via *Pesonal > Mitarbeiter auswählen > Link Verträge > Arbeitsvertrag auswählen > Bearbeiten > Tab Gehaltsinformationen* fest.
 
 ## Lohnabrechnung entfernen
 
-Eine verbuche Lohnabrechnung lässt sich nicht mehr löschen oder abbrechen. Zumindest ist das im Status *Erledigt* nicht möglich. Wurde eine Lohnzahlung als bezahlt markiert, kann sie jedoch wieder entfernt werden.
+Eine verbuche Lohnabrechnung lässt sich nicht mehr löschen oder abbrechen. Zumindest ist das im Status *Erledigt* nicht möglich. Wurde eine Lohnzahlung als bezahlt markiert, kann Sie jedoch wieder entfernt werden.
 
-Öffnen sie die zu löschende Lohnabrechung *Personalabrechung > Abrechnungen Mitarbeitervergütung > All Paylips*. Ist die Abrechnung im Status *Erledigt*, wählen sie *Erfasse Zahlung*. Odoo erstellt eine Zahlungsdatei, die sie ignorieren können. Wählen sie *Aktion > Abbrechen*. Nun ist ist die Abrechnung im Status *Abgelehnt*. Nun können sie den Eintrag mit *Aktion > Löschen* entfernen.
+Öffnen Sie die zu löschende Lohnabrechung *Personalabrechung > Abrechnungen Mitarbeitervergütung > All Paylips*. Ist die Abrechnung im Status *Erledigt*, wählen Sie *Erfasse Zahlung*. Odoo erstellt eine Zahlungsdatei, die Sie ignorieren können. Wählen Sie *Aktion > Abbrechen*. Nun ist ist die Abrechnung im Status *Abgelehnt*. Nun können Sie den Eintrag mit *Aktion > Löschen* entfernen.
 
 ::: warning
 Falls es auf dem Eintrag eine verknüpfte Buchung gibt, wird diese ebenfalls gelöscht.
@@ -100,15 +100,15 @@ Falls es auf dem Eintrag eine verknüpfte Buchung gibt, wird diese ebenfalls gel
 
 ## Lohnbuchungen abgleichen
 
-Standardmässig werden die auszuzahlenden Löhne auf dem *Lohndurchlaufkonto* und dem Konto *Ausstehende Zahlungen* verbucht. Erfasst man für einen Lohnlauf eine Zahlung, importiert diese ins eBanking und gleicht den Beleg später ab, müssen sie den Beleg mit dem Konto *Ausstehende Zahlungen* abgleichen.
+Standardmässig werden die auszuzahlenden Löhne auf dem *Lohndurchlaufkonto* und dem Konto *Ausstehende Zahlungen* verbucht. Erfasst man für einen Lohnlauf eine Zahlung, importiert diese ins eBanking und gleicht den Beleg später ab, müssen Sie den Beleg mit dem Konto *Ausstehende Zahlungen* abgleichen.
 
 ## Lohnabrechnung neu berechnen
 
-Haben sie einen Fehler in einer erledigten Lohanbrechnung können sie diese wie folgt neu berechnen. Erfassen sie eine Zahlung, wenn dies nicht bereit getan ist. Wählen sie *Aktion > Abbrechen*. Nun ist die Lohnabrechnung im Status Abgelehnt. Wählen sie nun *Auf Entwurf Setzen* und nehmen sie die Anpassungen vor. Ist alles erledigt, können sie wie gewohnt die Lohnabrechnung berechnen lassen und bestätigen.
+Haben Sie einen Fehler in einer erledigten Lohanbrechnung können Sie diese wie folgt neu berechnen. Erfassen Sie eine Zahlung, wenn dies nicht bereit getan ist. Wählen Sie *Aktion > Abbrechen*. Nun ist die Lohnabrechnung im Status Abgelehnt. Wählen Sie nun *Auf Entwurf Setzen* und nehmen Sie die Anpassungen vor. Ist alles erledigt, können Sie wie gewohnt die Lohnabrechnung berechnen lassen und bestätigen.
 
 ## Lohnabrechnungszeilen anzeigen
 
-Damit sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+Damit Sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
 
 Name der Aktion: `Lohnabrechnungszeilen`\
 Objekt: `hr.payslip.line`\
@@ -123,13 +123,13 @@ Das Ergebnis sollte so aussehen:
 
 ## Aktion "Lohnabrechnung zurücksetzen" hinzufügen
 
-Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lohnabrechnung zurücksetzen`\
 Modell: `hr.payslip`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```py
 for record in records:  
@@ -142,13 +142,13 @@ Im Formular der Lohnbuchung erscheint nun in der Auswahl *Aktion* das Menu *Lohn
 
 ## Aktion "Batch zurücksetzen" hinzufügen
 
-Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Batch zurücksetzen`\
 Modell: `hr.payslip.run`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```py
 for record in records:

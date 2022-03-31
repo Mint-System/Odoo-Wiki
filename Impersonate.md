@@ -15,7 +15,7 @@ Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/impersonate/>
 
 ## Impersonierung freigeben
 
-Bei entsprechenden Berechtigungen kann sich ein Benutzer entweder als jeden beliebigen Benutzer ausgeben oder als einen bestimmten Benutzer anhand einer Auswahl. Richten sie die Berechtigung wie folgt ein:
+Bei entsprechenden Berechtigungen kann sich ein Benutzer entweder als jeden beliebigen Benutzer ausgeben oder als einen bestimmten Benutzer anhand einer Auswahl. Richten Sie die Berechtigung wie folgt ein:
 
 **Alle Benutzer**: Unter *Einstellungen > Benutzer verwalten > Benutzer wählen* und die Berechtigung *Impersonate Anyone* setzen.
 
@@ -25,7 +25,7 @@ Bei entsprechenden Berechtigungen kann sich ein Benutzer entweder als jeden beli
 
 ## Impersonierung ausführen
 
-Über das Tray-Menu oben rechts, wählen sie *Impersonate*. Wähle sie den Benutzer aus klicken sie auf *Impersonate*.
+Über das Tray-Menu oben rechts, wählen Sie *Impersonate*. Wähle Sie den Benutzer aus klicken Sie auf *Impersonate*.
 
 ![Impersonate ausführen](assets/Impersonate%20Ausführen.gif)
 

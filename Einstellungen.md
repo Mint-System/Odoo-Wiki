@@ -28,22 +28,22 @@ Navigieren nach *Einstellungen > Allgemeine Einstellungen > Entwickler Tools*.
 
 Auf *Entwicklermodus aktivieren* klicken. Nun erscheinen neue Optionen in verschiedenen Odoo Apps. In der URL erscheint zusätzlich der Parameter `?debug=1`. Der Entwicklermodus kann auch über die manuelle Eingabe dieses Parameters aktiviert werden.
 
-Eine weitere Möglickeit ist die Installation einer Browser Erweiterung. Installieren sie über die Funktion *Erweiterungen* in der Einstellung ihres Browsers die Funktion *Odoo Debug*. Anschliessend erscheint das folgende Icon in der Toolbar:
+Eine weitere Möglickeit ist die Installation einer Browser Erweiterung. Installieren Sie über die Funktion *Erweiterungen* in der Einstellung ihres Browsers die Funktion *Odoo Debug*. Anschliessend erscheint das folgende Icon in der Toolbar:
 
 ![Einstellungen Odoo Debug](assets/Einstellungen%20Odoo%20Debug.png)
 
-Mit einem Mausklick können sie damit den Entwicklermodus ein- und ausschalten.
+Mit einem Mausklick können Sie damit den Entwicklermodus ein- und ausschalten.
 
 ## Tour deaktivieren
 
 Aktivieren Sie den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren).
 
-Klicken sie auf das Käfer-Symbol in der Menu-Leiste oben rechts. Wählen sie *Tour deaktivieren*.
+Klicken Sie auf das Käfer-Symbol in der Menu-Leiste oben rechts. Wählen Sie *Tour deaktivieren*.
 
 ## Benutzerrechte vergeben
 Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
-Navigieren sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen sie den Benutzer, dessen Zugriffsrechte sie verändern möchten. Drücken sie auf *Bearbeiten* und wählen sie nun über die Dropdown oder Checkboxen die Rollen und Zugriffe aus.
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen Sie den Benutzer, dessen Zugriffsrechte Sie verändern möchten. Drücken Sie auf *Bearbeiten* und wählen Sie nun über die Dropdown oder Checkboxen die Rollen und Zugriffe aus.
 
 ![Odoo Benutzerrechte](assets/Einstellungen%20Benutzerrechte.png)
 
@@ -56,9 +56,9 @@ Damit die neuen Rechte für den Benutzer sichtbar sind, muss dieser den Browser 
 ## Passwort zurücksetzen
 Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
-Navigieren sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen sie den Benutzer, dessen Passwort sie zurücksetzen möchten.
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen Sie den Benutzer, dessen Passwort Sie zurücksetzen möchten.
  
-Wählen Sie *Aktion* und *Passwort ändern*. Geben sie im Feld *Neues Passwort* das neue Passwort ein.
+Wählen Sie *Aktion* und *Passwort ändern*. Geben Sie im Feld *Neues Passwort* das neue Passwort ein.
 
 ## Kundenregistration erlauben
 
@@ -66,7 +66,7 @@ Damit Besucher der Website sich im Odoo-Portal registrieren könne muss die Opti
 
 ## Dokumentlayout konfigurieren
 
-Die Darstellung der generierten Dokumente kann einfach angepasst werden. Navigieren sie nach *Einstellungen > Allgemeine Einstellungen > Geschäftsunterlagen* und wählen sie *Dokumentlayout konfigurieren* aus. Die hier ausgewählte Dokumentvorlage wird für alle Berichte übernommen.
+Die Darstellung der generierten Dokumente kann einfach angepasst werden. Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Geschäftsunterlagen* und wählen Sie *Dokumentlayout konfigurieren* aus. Die hier ausgewählte Dokumentvorlage wird für alle Berichte übernommen.
 
 ![](assets/Einstellungen%20Dokumentlayout.png)
 
@@ -78,21 +78,21 @@ Diese Anleitung erfordert das Modul `base_user_role`.
 
 Die Gruppenrechte können mit Benutzerrollen zusammengefasst werden. Mit der entsprechenden Erweiterung kann man Rollen erstellen, Gruppen hinzufügen und diese für einen Benutzer aktivieren.
 
-Navigieren sie nach *Einstellungen > Benutzer und Unternehmen > Roles* und wählen sie *Anlegen*. Erstellen zur Initieirung eine Administratoren-Rolle mit diesen Angaben:
+Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Roles* und wählen Sie *Anlegen*. Erstellen zur Initieirung eine Administratoren-Rolle mit diesen Angaben:
 
 ![](assets/Odoo%20Einstellungen%20Benutzerrolle%20Administrator.png)
 
-Weisen sie im Tab *Benutzer* die Rolle einem Benutzer zu. Ist die Rolle aktiv, überschreibt sie die existierenden Berechtigungen.
+Weisen Sie im Tab *Benutzer* die Rolle einem Benutzer zu. Ist die Rolle aktiv, überschreibt Sie die existierenden Berechtigungen.
 
 ## Papierformat für Bericht anpassen
 
-Angenommen sie möchten das Papieformat für den ISR-Einzahlungsschein ändern, öffnen sie im Entwicklermodus *Einstellungen > Technisch > Berichtswesen > Papierformat.*
+Angenommen Sie möchten das Papieformat für den ISR-Einzahlungsschein ändern, öffnen Sie im Entwicklermodus *Einstellungen > Technisch > Berichtswesen > Papierformat.*
 
-Duplizieren sie das Papierformat *European A4 without borders* als *European A4 for ISR Report*.
+Duplizieren Sie das Papierformat *European A4 without borders* als *European A4 for ISR Report*.
 
-Passen sie das Papierformat an, beispielsweise mit *Linker Rand (mm)* `5.00`.
+Passen Sie das Papierformat an, beispielsweise mit *Linker Rand (mm)* `5.00`.
 
-Im Entwicklermodus öffnen sie *Einstellungen > Technisch > Berichtswesen > Berichte*, wählen den Bericht *ISR* und legen sie das neue Papieformat fest.
+Im Entwicklermodus öffnen Sie *Einstellungen > Technisch > Berichtswesen > Berichte*, wählen den Bericht *ISR* und legen Sie das neue Papieformat fest.
 
 ## Berechtigungen zurücksetzen
 
@@ -102,42 +102,42 @@ Eine Fehlerhafte Struktur wird in der Ansicht Benutzerberechtiung beispielsweise
 
 ![](assets/Einstellungen%20fehlerhafte%20Berechtigungsstruktur.png)
 
-Zur Bereinigung öffnen sie als erstes *Einstellungen > Technisch > Sicherheit > Zugriffsrechte*. Suchen sie hier nach Einträgen mit Modul `hr_attendance` und löschen sie diese.
+Zur Bereinigung öffnen Sie als erstes *Einstellungen > Technisch > Sicherheit > Zugriffsrechte*. Suchen Sie hier nach Einträgen mit Modul `hr_attendance` und löschen Sie diese.
 
-Als nächstes öffnen sie *Einstellungen > Benutzer und Unternehmen > Gruppen* und  suchen nach *Anwesenheit*. Öffnen sie jede Gruppe  entfernen sie im Tab *Benutzer* und *Reche für Daten* alle Einträge.
+Als nächstes öffnen Sie *Einstellungen > Benutzer und Unternehmen > Gruppen* und  suchen nach *Anwesenheit*. Öffnen Sie jede Gruppe  entfernen Sie im Tab *Benutzer* und *Reche für Daten* alle Einträge.
 
-Zuletzt installiere sie die App `hr_attendance` neu. Nun sollten die Ursprünglichen Berechtigungsstrukturen wiederhergestellt sein.
+Zuletzt installiere Sie die App `hr_attendance` neu. Nun sollten die Ursprünglichen Berechtigungsstrukturen wiederhergestellt sein.
 
 ![](assets/Einstellungen%20Berechtigungen%20korrigiert.png)
 
 ## Standardwerte setzen
 
-Für jedes Geschäftsobjekt können sie Standardwerte mit Bedingungen festlegen. Öffnen sie im Entwicklermodus ein Objekt, beispielsweise ein Angbot und legen sie für ein Feld einen neuen Wert fest. Bevor sie das Angebot speichern, navigieren sie zum Entwicklermenu und wählen *Standardwert setzen*. Im Dialog wählen sie das Feld und den Wert sowie die passende Bedingung. Wenn sie den Standardwert gespeichert haben, wir dieser bei der Erstellung eines neuen Geschäftsobjekts angwendet.
+Für jedes Geschäftsobjekt können Sie Standardwerte mit Bedingungen festlegen. Öffnen Sie im Entwicklermodus ein Objekt, beispielsweise ein Angbot und legen Sie für ein Feld einen neuen Wert fest. Bevor Sie das Angebot speichern, navigieren Sie zum Entwicklermenu und wählen *Standardwert setzen*. Im Dialog wählen Sie das Feld und den Wert sowie die passende Bedingung. Wenn Sie den Standardwert gespeichert haben, wir dieser bei der Erstellung eines neuen Geschäftsobjekts angwendet.
 
 ![Einstellungen Standardwerte festlegen](assets/Einstellungen%20Standardwerte%20festlegen.gif)
 
 ## Datumsformat ändern
 
-Für jede installierte Sprache kann das angezeigte Datumsformat überschrieben werden. Öffnen sie das Sprachpaket via *Einstellungen > Allgemeine Einstellungen > Sprachen > Sprachen verwalten*. Bearbeiten sie das Feld *Datumsformat* und geben sie dort `%d.%m.%Y` ein.
+Für jede installierte Sprache kann das angezeigte Datumsformat überschrieben werden. Öffnen Sie das Sprachpaket via *Einstellungen > Allgemeine Einstellungen > Sprachen > Sprachen verwalten*. Bearbeiten Sie das Feld *Datumsformat* und geben Sie dort `%d.%m.%Y` ein.
 
 ![](assets/Einstellung%20Datumsformat.png)
 
 ## Odoo-Datenbank verlängern
 
-Wenn eine Datenbank abgelaufen ist, erscheine eine entsprechende Meldung. Diese ist aber nur symbolisch, mit der richtigen URL können sie in den *Systemparameter* von Odoo das Ablaufdatum der Datenbank verlängern. Am einfachsten ist es, wenn das Testsystem und das produktive System unter einer ähnlichen URL erreichbar sind.
+Wenn eine Datenbank abgelaufen ist, erscheine eine entsprechende Meldung. Diese ist aber nur symbolisch, mit der richtigen URL können Sie in den *Systemparameter* von Odoo das Ablaufdatum der Datenbank verlängern. Am einfachsten ist es, wenn das Testsystem und das produktive System unter einer ähnlichen URL erreichbar sind.
 
 ![Einstellungen Odoo-Datenbank verlängern](assets/Einstellungen%20Odoo-Datenbank%20verlängern.gif)
 
 ## Sequenz anpassen
 
-Um die Nummerierung einer Sequenz anzupassen, öffnen sie *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Sequenzen*. Wählen sie die Sequenz aus und setzen die beispielsweise das Feld *Nächste Nummer zuweisen*.
+Um die Nummerierung einer Sequenz anzupassen, öffnen Sie *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Sequenzen*. Wählen Sie die Sequenz aus und setzen die beispielsweise das Feld *Nächste Nummer zuweisen*.
 
 ## Neues Papierformat einrichten
 
-Navigieren sie nach *Einstellungen > Technisch > Berichtswesen > Papieformat*. Wir nehmen an, es braucht ein neues Papieformat für einen Etikettendrucker. Erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Berichtswesen > Papieformat*. Wir nehmen an, es braucht ein neues Papieformat für einen Etikettendrucker. Erstellen Sie einen neuen Eintrag:
 
 ![](assets/Neues%20Papierformat.png)
 
 ::: tip
-Für einen exakten Druck, müssen sie die Seitengrösse in Inche und Milimeter kennen
+Für einen exakten Druck, müssen Sie die Seitengrösse in Inche und Milimeter kennen
 :::

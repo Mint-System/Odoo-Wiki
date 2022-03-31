@@ -23,11 +23,11 @@ Alle Kontaktdaten an einem Ort.
 
 ## Portal-Zugriff gewähren
 
-Wählen sie einen Kontakt mit Mail-Adresse aus. Klicken sie auf *Aktion > Grant portal access*. Im folgenden Dialog das Kächstchen *Portal* anklicken und bestätigen. Nun erhält der Benutzer eine Einladungs-Email, sofern der Benutzer eine gültige Mail-Adresse hinterlegt hat.
+Wählen Sie einen Kontakt mit Mail-Adresse aus. Klicken Sie auf *Aktion > Grant portal access*. Im folgenden Dialog das Kächstchen *Portal* anklicken und bestätigen. Nun erhält der Benutzer eine Einladungs-Email, sofern der Benutzer eine gültige Mail-Adresse hinterlegt hat.
 
 ## Kontakte anlegen
 
-Ein neuer Eintrag im Adressbuch können sie über *Kontakte > Anliegen* erstellen.
+Ein neuer Eintrag im Adressbuch können Sie über *Kontakte > Anliegen* erstellen.
 
 ![Kontakte anlegen](assets/Kontakte%20anlegen.png)
 
@@ -51,7 +51,7 @@ Individuen die als Einzelperson erfasst und einem Unternehmen zugeordnet sind er
 
 Wenn keine Bezeichnung für die Umsatzsteuer festgelegt ist, verwendet Odoo *Tax ID*. Das ist beispielsweise im Footer eines Dokuments ersichtlich.
 
-Wenn sie die Bezeichnung ändern wollen, gehen sie folgt vor. Öffnen sie die Ansicht *Kontakte > Konfiguration > Lokalisierung > Länder* und wählen sie ihr Land aus. Nun können sie die Bezeichnung im Feld *USt.-Bezeichnung* festlegen.
+Wenn Sie die Bezeichnung ändern wollen, gehen Sie folgt vor. Öffnen Sie die Ansicht *Kontakte > Konfiguration > Lokalisierung > Länder* und wählen Sie ihr Land aus. Nun können Sie die Bezeichnung im Feld *USt.-Bezeichnung* festlegen.
 
 ![](assets/Kontakte%20Bezeichnung%20Umsatzsteuer.png)
 
@@ -61,10 +61,10 @@ Standardmässig druckt Odoo die Adresse mit dem jeweiligen Land des Kontakts ab.
 
 ![](assets/Einstellungen%20Adressformat.png)
 
-Damit das Land nicht abgedruckt wird, öffnen sie die Ansicht *Kontakte > Konfiguration > Lokalisierung > Länder* und wählen ihr Land aus. Nun können sie das *Layout in Berichten* festlegen.
+Damit das Land nicht abgedruckt wird, öffnen Sie die Ansicht *Kontakte > Konfiguration > Lokalisierung > Länder* und wählen ihr Land aus. Nun können Sie das *Layout in Berichten* festlegen.
 
 ![](assets/Kontakte%20Layout%20in%20Berichten.png)
 
 ## Partner Autovervollständigung deaktivieren
 
-Wenn sie nicht möchten, dass Odoo Kontaktdaten beim Erfassen vorschlägt und ihre Odoo Kontakt-Daten nicht hochgeladen werden, müssen sie die *Partner Partner Autovervollständigung* unter *Einstellungen > Allgemeine Einstellungen > Kontakte* deaktivieren.
+Wenn Sie nicht möchten, dass Odoo Kontaktdaten beim Erfassen vorschlägt und ihre Odoo Kontakt-Daten nicht hochgeladen werden, müssen Sie die *Partner Partner Autovervollständigung* unter *Einstellungen > Allgemeine Einstellungen > Kontakte* deaktivieren.

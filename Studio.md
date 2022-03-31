@@ -21,7 +21,7 @@ Jede Änderung mit Odoo Studio an einer Odoo-Instanz muss dokumentiert werden. D
 
 ## Feld entfernen
 
-Möchten sie ein Feld aus einer Ansicht entfernen, öffnen sie zuerst die Ansicht in Odoo Studion. Anschliessend wählen sie das Feld aus und klicken in der linken Menu-Leiste auf *Aus Ansicht entfernen*
+Möchten Sie ein Feld aus einer Ansicht entfernen, öffnen Sie zuerst die Ansicht in Odoo Studion. Anschliessend wählen Sie das Feld aus und klicken in der linken Menu-Leiste auf *Aus Ansicht entfernen*
 
 ::: warning
 Benutzerdefinierte Felder sowie Basisfelder werden nicht aus der Datenbank entfernt. Sie bestehen weiterhin und können der Ansicht wieder hinzugefügt werden.
@@ -29,7 +29,7 @@ Benutzerdefinierte Felder sowie Basisfelder werden nicht aus der Datenbank entfe
 
 ## Berechtigung auf verstecktem Feld festlegen
 
-Bestimmte Felder und Buttons werden nur im Entwicklermodus also mit den erweiterten Berechtigungen angezeigt. Damit diese Felder und Buttons standardmässig angezeigt werden können, können sie mit Odoo Studion ganz einfach die Berechtigung festlegen.
+Bestimmte Felder und Buttons werden nur im Entwicklermodus also mit den erweiterten Berechtigungen angezeigt. Damit diese Felder und Buttons standardmässig angezeigt werden können, können Sie mit Odoo Studion ganz einfach die Berechtigung festlegen.
 
 Dazu ein Beispiel: Ein Arbeitsauftrag ist in Arbeit und bereits Bestände produziert, die man verbuchen kann.
 
@@ -51,29 +51,29 @@ Odoo stellt Inhalte in verschiedenen Ansichten dar:
 * Graphen
 * uvw.
 
-Wenn eine Ansicht fehlt, können sie diese mit Odoo Studio ergänzen.
+Wenn eine Ansicht fehlt, können Sie diese mit Odoo Studio ergänzen.
 
-Angenommen der Bericht zum prognostizierten Lagerbestand *Lager > Berichtswesen > Prognostizierter Bestand* soll nebst der grafischen Ansicht eine Pivot-Ansicht erhalten, gehen sie wie folgt vor.
+Angenommen der Bericht zum prognostizierten Lagerbestand *Lager > Berichtswesen > Prognostizierter Bestand* soll nebst der grafischen Ansicht eine Pivot-Ansicht erhalten, gehen Sie wie folgt vor.
 
-Öffnen sie den Bericht in Odoo Studio. In der Adressleite finden sie diesen Parameter `model=report.stock.quantity`. Das sagt ihnen auf welchen Datenmodell sie mit Odoo Studio arbeiten. Klicken sie auf *Ansichten*, wählen *Privot* und klicken *Ansicht aktivieren*.
+Öffnen Sie den Bericht in Odoo Studio. In der Adressleite finden Sie diesen Parameter `model=report.stock.quantity`. Das sagt ihnen auf welchen Datenmodell Sie mit Odoo Studio arbeiten. Klicken Sie auf *Ansichten*, wählen *Privot* und klicken *Ansicht aktivieren*.
 
 ![](assets/Studio%20Ansicht%20aktivieren.png)
 
-Schliessen sie die Bearbeitung mit *Abschliessen* ab. Nun sehen sie unter dem Suchfeld die Ansicht.
+Schliessen Sie die Bearbeitung mit *Abschliessen* ab. Nun sehen Sie unter dem Suchfeld die Ansicht.
 
 ![](assets/Studio%20Neue%20Ansicht.png)
 
 ## Ansicht als Standard definieren
 
-Beim Aufruf einer App oder eines Menu ruft Odoo die dazugehörige Standardansicht auf. Öffnen sie beispielsweise die App Kontakte, erscheinen die Kontakte in der Listenansicht. Um dies zu ändern öffnen sie die aktive Ansicht im Odoo Studio und wählen *Ansichten*.
+Beim Aufruf einer App oder eines Menu ruft Odoo die dazugehörige Standardansicht auf. Öffnen Sie beispielsweise die App Kontakte, erscheinen die Kontakte in der Listenansicht. Um dies zu ändern öffnen Sie die aktive Ansicht im Odoo Studio und wählen *Ansichten*.
 
 ![](assets/Studio%20Standardansicht%20festlegen.png)
 
-Wählen sie die neue Standardansicht an und klicken auf das Menu und auf *Als Standard setzen*. Schliessen sie den Vorgang ab.
+Wählen Sie die neue Standardansicht an und klicken auf das Menu und auf *Als Standard setzen*. Schliessen Sie den Vorgang ab.
 
 ## Benutzerdefinierte App entfernen
 
-Eine App erstellt mit Odoo Studio generiert im Hintergrund Menüeinträge, Datenmodelle und Ansichten. Damit die App entfernt werden kann, müssen diese Einträge von Hand gelöscht werden. Gehen sie folgt vor:
+Eine App erstellt mit Odoo Studio generiert im Hintergrund Menüeinträge, Datenmodelle und Ansichten. Damit die App entfernt werden kann, müssen diese Einträge von Hand gelöscht werden. Gehen Sie folgt vor:
 
 * [Ansicht entfernen](Entwicklung%20Ansichten.md#Ansicht%20entfernen)
 * [Menüeintrag entfernen](Entwicklung.md#Menüeintrag%20entfernen)

@@ -12,12 +12,12 @@ Website: <https://www.zebra.com/de/de/support-downloads/scanners/general-purpose
 
 ## Handscanner in Betrieb nehmen
 
-Damit sie den Hanscanner in Betrieb nehmen können, müssen sie einzig die Tastatursprache festlegen. Wählen sie *English (US)* als Sprachpaket.
+Damit Sie den Hanscanner in Betrieb nehmen können, müssen Sie einzig die Tastatursprache festlegen. Wählen Sie *English (US)* als Sprachpaket.
 
 ## Betriebsmodus ändern
 
-Verbinden sie den Scanner mit dem Computer. Scannen einer der folgenden Codes um den Betriebsmodus zu ändern.
+Verbinden Sie den Scanner mit dem Computer. Scannen einer der folgenden Codes um den Betriebsmodus zu ändern.
 
 ![](assets/Handscanner%20Zebra%20DS22.png)
 
-Weitere Konfiugrations-Codes finden sie in der [Bedienungsanleitung](https://www.zebra.com/content/dam/zebra_new_ia/en-us/manuals/barcode-scanners/ds2208-qsg-en.pdf)
+Weitere Konfiugrations-Codes finden Sie in der [Bedienungsanleitung](https://www.zebra.com/content/dam/zebra_new_ia/en-us/manuals/barcode-scanners/ds2208-qsg-en.pdf)

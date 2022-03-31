@@ -10,17 +10,17 @@ Einstellungen für ihren persönlichen Odoo-Benutzer.
 
 ## Persönliche Einstellungen festlegen
 
-Nach dem Login klicken sie oben rechts auf ihren Benutzer und wählen *Einstellungen*. Legen sie die folgenden Einstellungen fest.
+Nach dem Login klicken Sie oben rechts auf ihren Benutzer und wählen *Einstellungen*. Legen Sie die folgenden Einstellungen fest.
 
 **Zeitzone** - Damit wird automatisch die Systemzeit richtig eingestellt.\
 **Email** - Über diese EMailadresse werden alle Nachrichten verschickt (Rechnung, Nachrichten an Kunden). Diese Mailadresse erscheint als Versender im Mailheader.\
 **Signatur** - Die Signatur sollte die kompletten Unternehmensdaten enthalten.\
-**Foto** - Für das Foto verwenden sie ein JPG-Format nicht grösser als 100 x 100 Pixel.
+**Foto** - Für das Foto verwenden Sie ein JPG-Format nicht grösser als 100 x 100 Pixel.
 
 ## Passwort ändern
 
-Klicken sie oben rechts auf ihen Benutzer und wählen sie *Einstellungen*. Öffnen sie den Tab *Account Sicherheit* und klicken sie auf *Passwort Ändern*.
+Klicken Sie oben rechts auf ihen Benutzer und wählen Sie *Einstellungen*. Öffnen Sie den Tab *Account Sicherheit* und klicken Sie auf *Passwort Ändern*.
 
 ## E-Mail-Signatur hinterlegen
 
-Mit Odoo können sie E-Mails verschicken. Wie in Mail-Programmen können sie eine E-Mail-Signatur hinterlegen. Klicken sie oben rechts auf ihren Benutzernamen und wählen sie *Einstellungen*. Im Feld *E-mail Signatur* können sie eine Signatur definieren.
+Mit Odoo können Sie E-Mails verschicken. Wie in Mail-Programmen können Sie eine E-Mail-Signatur hinterlegen. Klicken Sie oben rechts auf ihren Benutzernamen und wählen Sie *Einstellungen*. Im Feld *E-mail Signatur* können Sie eine Signatur definieren.

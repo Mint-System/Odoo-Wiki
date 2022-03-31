@@ -29,7 +29,7 @@ Ihre Buchhaltung einfach und korrekt.
 
 ## Rechnung per E-Mail empfangen
 
-Öffnen sie die Journal-Einstellungen via *Finanzen > Konfiguration > Finanzen > Journale* und wählen sie das Journal für das Rechnungen empfangen und erstellt werden sollen. Öffnen sie den Tab *Erweiterte Einstellungen* und tragen sie im Feld *E-Mail-Alias* die Empfangsadresse ein.
+Öffnen Sie die Journal-Einstellungen via *Finanzen > Konfiguration > Finanzen > Journale* und wählen Sie das Journal für das Rechnungen empfangen und erstellt werden sollen. Öffnen Sie den Tab *Erweiterte Einstellungen* und tragen Sie im Feld *E-Mail-Alias* die Empfangsadresse ein.
 
 ![](assets/Finanzen%20Journal%20E-Mail-Alias.png)
 
@@ -37,11 +37,11 @@ Anhänge an E-Mails mit diesem Alias aus dem Odoo-Postfach werden fortan als Rec
 
 ## Bank-Journal einrichten
 
-Öffnen sie das Bank-Journal via *Finanzen > Dashboard > Kontextmenü Bank > Konfiguration*. Im Tab *Buchungssätze* geben legen sie im Feld *Bankkonto* das entsprechende Konto aus dem Kontenplan fest.
+Öffnen Sie das Bank-Journal via *Finanzen > Dashboard > Kontextmenü Bank > Konfiguration*. Im Tab *Buchungssätze* geben legen Sie im Feld *Bankkonto* das entsprechende Konto aus dem Kontenplan fest.
 
-Unter *Bankverbindung* fügen sie das Bankkonto ihres Unternehmens hinzu. Legen sie *Bank Datenübertrag* gemäss Anforderungen fest.
+Unter *Bankverbindung* fügen Sie das Bankkonto ihres Unternehmens hinzu. Legen Sie *Bank Datenübertrag* gemäss Anforderungen fest.
 
-Im Tab *Payments Configuration* legen sie die Konten für ausstehende Ein- und Auzahlungen fest.
+Im Tab *Payments Configuration* legen Sie die Konten für ausstehende Ein- und Auzahlungen fest.
 
 ::: tip
 Ein Beispiel wie der Kontenplan nach der Konfiguration ausseiht
@@ -53,23 +53,23 @@ Ein Beispiel wie der Kontenplan nach der Konfiguration ausseiht
 
 ## Bank-Synchronisation konfigurieren
 
-Fügen sie ihre Bank via *Konfiguration > Bankverzeichnis > Eine Bank hinzufügen* hinzu.
+Fügen Sie ihre Bank via *Konfiguration > Bankverzeichnis > Eine Bank hinzufügen* hinzu.
 
 ![](assets/Finanzan%20Raiffeisen%20Schweiz.png)
 
-Hinterlegen sie eine Telefonnummer zur Wiederherstellung des Synchronisations-Account.
+Hinterlegen Sie eine Telefonnummer zur Wiederherstellung des Synchronisations-Account.
 
 ![](assets/Finanzen%20Account%20Recovery.png)
 
-Geben sie den Bestätigungcode ein. Nun werden sie auf die Website von <https://www.saltedge.com> umgeleitet. Geben sie ihre Login-Informationen ein.
+Geben Sie den Bestätigungcode ein. Nun werden Sie auf die Website von <https://www.saltedge.com> umgeleitet. Geben Sie ihre Login-Informationen ein.
 
 ![](assets/Finanzen%20Saltedge%20Account.png)
 
-Im Anschluss wählen sie eine Authentisierungs-Methode.
+Im Anschluss wählen Sie eine Authentisierungs-Methode.
 
 ![](assets/Finanzen%20Saltedge%20Authenticaion.png)
 
-Führen sie diese wie gewohnt aus. Nun verbindet Saltedge den Odoo-Account mit dem Bankkonto. Sie werden wieder nach Odoo zurückgeführt.
+Führen Sie diese wie gewohnt aus. Nun verbindet Saltedge den Odoo-Account mit dem Bankkonto. Sie werden wieder nach Odoo zurückgeführt.
 
 ![](assets/Finanzen%20Bankkonto%20verknüpfen.png)
 
@@ -77,34 +77,34 @@ Es wird nun ein neues Journal zur Synchronisation erstellt.
 
 ## Bank-Synchronisation einrichten
 
-Wählen sie *Finanzen > Konfiguration > Journale* und wählen sie das Bank-Journal aus. Im Tab *Buchungssätze* legen sie für das Feld *Bank-Datenübertragung* die Option *Automatisierte Banksynchronisation* fest.
+Wählen Sie *Finanzen > Konfiguration > Journale* und wählen Sie das Bank-Journal aus. Im Tab *Buchungssätze* legen Sie für das Feld *Bank-Datenübertragung* die Option *Automatisierte Banksynchronisation* fest.
 
-Dann gehen sie nach *Finanznen > Konfiguration > Online Synchronisation* und wählen den ersten Eintrag aus. Im Feld *Journal* können sie das Bank-Journal eintragen.
+Dann gehen Sie nach *Finanznen > Konfiguration > Online Synchronisation* und wählen den ersten Eintrag aus. Im Feld *Journal* können Sie das Bank-Journal eintragen.
 
 ![](assets/Fianzen%20Bank-Journal%20eintragen.png)
 
 ## Kommunikationsstandard festlegen
 
-Der Kommunikationsstandard ist entscheidend bei der Generierung von Zahlungsreferenzen. Öffnen sie ein Journal via *Finanzen > Konfiguration > Journale* und zeigen sie den Tab *Erweiterte Einstellungen* an. Legen sie im Feld *Kommunikationsstandard* den passenden Wert fest.
+Der Kommunikationsstandard ist entscheidend bei der Generierung von Zahlungsreferenzen. Öffnen Sie ein Journal via *Finanzen > Konfiguration > Journale* und zeigen Sie den Tab *Erweiterte Einstellungen* an. Legen Sie im Feld *Kommunikationsstandard* den passenden Wert fest.
 
 ## Mehrere Rechnung versenden
 
-Zeigen sie *Finanzen > Kunden > Rechnung* an und filtern sie die Rechnung nach *Status* und *Zahlung*. Markieren sie die Rechnungen, die sie versenden möchten und wählen sie *Aktion > Senden & Drucken*. Wählen sie für E-Mail eine Mail-Vorlage aus und drücken sie auf *Senden*.
+Zeigen Sie *Finanzen > Kunden > Rechnung* an und filtern Sie die Rechnung nach *Status* und *Zahlung*. Markieren Sie die Rechnungen, die Sie versenden möchten und wählen Sie *Aktion > Senden & Drucken*. Wählen Sie für E-Mail eine Mail-Vorlage aus und drücken Sie auf *Senden*.
 
 ## Unversendete Rechnungen anzeigen
 
-Navigieren sie nach *Finanzen > Kunden > Rechnungen* und wählen sie *Filter > Benutzerdefinierten Filter hinzufügen*. Als Feld definieren sie *Rechnung Verschickt* mit Bedingung *Ist falsch*. Nun erhalten sie alle unversendeneten Rechnungen.
+Navigieren Sie nach *Finanzen > Kunden > Rechnungen* und wählen Sie *Filter > Benutzerdefinierten Filter hinzufügen*. Als Feld definieren Sie *Rechnung Verschickt* mit Bedingung *Ist falsch*. Nun erhalten Sie alle unversendeneten Rechnungen.
 
 ## Zahlungsbedingung mit Rabatt einrichten
 
-Navigieren sie nach *Finanzen > Konfiguration > Abrechnung > Zahlungsbedingungen* und erstellen sie einen neuen Eintrag wie folgt. Duplizieren sie eine bestehende Zahlungsbedingung, beispielsweise *30 Tage*. Wir nehmen an, dass wir für eine Zahlung innerhalb von Tagen 10 eine Skonto von 10% gewähren.
+Navigieren Sie nach *Finanzen > Konfiguration > Abrechnung > Zahlungsbedingungen* und erstellen Sie einen neuen Eintrag wie folgt. Duplizieren Sie eine bestehende Zahlungsbedingung, beispielsweise *30 Tage*. Wir nehmen an, dass wir für eine Zahlung innerhalb von Tagen 10 eine Skonto von 10% gewähren.
 
 ![](assets/Finanzen%20Rabatt.png)
 
 
 ## Aktion Finanzen "Als ungebucht markieren" erstellen
 
-Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Als ungebucht markieren`\
 Modell: `account.move`\

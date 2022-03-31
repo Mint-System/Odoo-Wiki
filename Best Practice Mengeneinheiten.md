@@ -7,7 +7,7 @@ prev: ./best-practice
 
 ## Bedingung für Transfer der Mengenheit
 
-Mengenheiten können zwischeneinander umgerechnet werden solange sie in der selben "Mengeneinheit-Kategorie" sind.
+Mengenheiten können zwischeneinander umgerechnet werden solange Sie in der selben "Mengeneinheit-Kategorie" sind.
 
 ## Einheit für Aufstocken (Replenishment)
 
@@ -17,7 +17,7 @@ Für das *Aufstocken* kann pro Produkt individuell eine Mengenenheit gewählt we
 
 ## Beispiel Metallblech
 
-In der Fertigung werden Metallbleche in der Einheit mm2 verbaut. Eingekauft werden sie in der Einheit m2. Der Lieferant bietet seine Bleche in Standardgrössen an (z.B. 0.5 m2 Bleche).
+In der Fertigung werden Metallbleche in der Einheit mm2 verbaut. Eingekauft werden Sie in der Einheit m2. Der Lieferant bietet seine Bleche in Standardgrössen an (z.B. 0.5 m2 Bleche).
 
 ![Best Practice Mengeneinheiten](assets/Best%20Practice%20Mengeneinheiten.svg)
 

@@ -16,23 +16,23 @@ Online Rechnungsstellung leicht gemacht.
 
 ## Ausgangsrechnung erfassen
 
-Öffnen sie *Abrechnung > Kunden > Rechnungen* und fügen sie einen Eintrag hinzu.
+Öffnen Sie *Abrechnung > Kunden > Rechnungen* und fügen Sie einen Eintrag hinzu.
 
 ## Eingangsrechnung erfassen
 
-Öffnen sie *Abrechnung > Lieferanten > Rechnungen* und fügen sie einen Eintrag hinzu.
+Öffnen Sie *Abrechnung > Lieferanten > Rechnungen* und fügen Sie einen Eintrag hinzu.
 
 ## Lieferantenkonto konfigurieren
 
-Wählen sie *Kontakte* zeigen sie den Lieferanten in der Formularansicht an. Klicken sie auf *Bearbeiten* und fügen sie im Tab *Finanzen* ein Bakkonto hinzu.
+Wählen Sie *Kontakte* zeigen Sie den Lieferanten in der Formularansicht an. Klicken Sie auf *Bearbeiten* und fügen Sie im Tab *Finanzen* ein Bakkonto hinzu.
 
 ## Rechnungen digitalisieren
 
 Mit Odoo können PDF-Rechnung einfach gescannt und verarbeitet werden. Die Rechnungsdigitalisierung liest die Zahlungsinformationen aus dem PDF und erstellt eine Lieferantenrechnung.
 
-Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits können als In-App-Purchase (IAP) erworben werden. Klicken sie auf *Einstellungen > Finanzen > Eingangsrechnungen > Guthaben kaufen*. Loggen sie sich mit dem Odoo-Account ein und erwerben sie ein IAP-Paket. Die Credits werden an ihrer Datenbank gut geschrieben und fortan steht der Digitalisierungsprozess zur Verfügung.
+Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits können als In-App-Purchase (IAP) erworben werden. Klicken Sie auf *Einstellungen > Finanzen > Eingangsrechnungen > Guthaben kaufen*. Loggen Sie sich mit dem Odoo-Account ein und erwerben Sie ein IAP-Paket. Die Credits werden an ihrer Datenbank gut geschrieben und fortan steht der Digitalisierungsprozess zur Verfügung.
 
-Zur Digitalisierung einer Rechnung laden sie als erstes die PDF-Datei via *Finanzen > Lieferanten > Rechnungen > Hochladen* hoch. Öffnen sie die Rechnung und starten sie dann die Aktion *Send for digitalization*. Nach wenigen Sekunden sollte die Rechnungsangaben aus dem PDF ausgelesen und abgefüllt werden.
+Zur Digitalisierung einer Rechnung laden Sie als erstes die PDF-Datei via *Finanzen > Lieferanten > Rechnungen > Hochladen* hoch. Öffnen Sie die Rechnung und starten Sie dann die Aktion *Send for digitalization*. Nach wenigen Sekunden sollte die Rechnungsangaben aus dem PDF ausgelesen und abgefüllt werden.
 
 ![](assets/Abrechnung%20Rechnung%20digitalisieren.png)
 
@@ -44,13 +44,13 @@ Der Digitalisierungsprozess dauert wenige Sekunden. Sie können den Status mit *
 
 Für den automatischen Versand von Rechnungen können E-Mail-Vorlagen erstellt werden.
 
-Unter *Einstellungen > Technisch > E-Mail > Vorlagen* können die E-Mail-Vorlagen verwaltet werden. Erstellen sie ein Duplikat der Vorlage *Invoice: Send by email*.
+Unter *Einstellungen > Technisch > E-Mail > Vorlagen* können die E-Mail-Vorlagen verwaltet werden. Erstellen Sie ein Duplikat der Vorlage *Invoice: Send by email*.
 
-Als Betreff geben sie folgendes ein: `${object.company_id.name} Rechn. (Ref ${object.name or 'n/a'})`. Wechseln sie für die Nachricht in die Code-Ansicht.
+Als Betreff geben Sie folgendes ein: `${object.company_id.name} Rechn. (Ref ${object.name or 'n/a'})`. Wechseln Sie für die Nachricht in die Code-Ansicht.
 
 ![](assets/Odoo%20Code-Ansicht.png)
 
-Kopieren sie den folgenden Inhalt:
+Kopieren Sie den folgenden Inhalt:
 
 ```html
 <div style="margin:0px;padding: 0px;">
@@ -87,7 +87,7 @@ Kopieren sie den folgenden Inhalt:
 ## Rechnungsnummer einrichten
 
 Die Einrichtung der automatischen Vergabe der Rechnungsnummer erfolgt über die Aktion *Resequence* im Menu *Abrechnung > Kunden > Rechnungen*.
-Markieren sie eine (oder alle) Rechnungen und formulieren sie die erste Rechnungsnummer der Sequenz. Nach diesem Schema werden nur alle Rechnungen neu benannt und neue Rechnungen folgen diesem Muster.
+Markieren Sie eine (oder alle) Rechnungen und formulieren Sie die erste Rechnungsnummer der Sequenz. Nach diesem Schema werden nur alle Rechnungen neu benannt und neue Rechnungen folgen diesem Muster.
 
 ![Abrechnung Rechnungsnummer einrichten](assets/Abrechnung%20Rechnungsnummer%20einrichten.gif)
 
@@ -130,17 +130,17 @@ Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die A
 
 ## Beträge runden
 
-Damit Frankenbeträge in Rechnungen auf 0.05 gerundet werden, müssen sie die Bargeldrundung aktivieren.
+Damit Frankenbeträge in Rechnungen auf 0.05 gerundet werden, müssen Sie die Bargeldrundung aktivieren.
 
-Navigieren sie nach *Finanzen > Konfiguration > Bargeld-Runden* und erstellen sie einen neuen Eintrag wie folgt.
+Navigieren Sie nach *Finanzen > Konfiguration > Bargeld-Runden* und erstellen Sie einen neuen Eintrag wie folgt.
 
 ![](assets/Abrechnung%20Runden.png)
 
-Wenn sie eine neue Rechnung schreiben und die Rundungsmethode festgelegt ist, werden die Beiträge entsprechend gerundet.
+Wenn Sie eine neue Rechnung schreiben und die Rundungsmethode festgelegt ist, werden die Beiträge entsprechend gerundet.
 
 ## Fakturierungsregel festlegen
 
-Für jedes Produkt können sie definieren, ob es nach der Lieferung oder nach der Bestellung verrechnet werden soll.
+Für jedes Produkt können Sie definieren, ob es nach der Lieferung oder nach der Bestellung verrechnet werden soll.
 
 ![](assets/eCommerce%20Fakturierungsregel%20auf%20Produkt.png)
 
@@ -150,11 +150,11 @@ Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzu
 
 ## Rechnungsadresse ändern
 
-Angenommen sie möchten die Empfängeradresse einer gebuchten Rechnung ändern, so setzen sie diese Rechnung mit *Zurücksetzen* in den Entwurfsstatus. Anschliessen können sie das Feld *Kunde* wieder bearbeiten. Passen sie die Adresse an und buchen sie die Rechnung wieder.
+Angenommen Sie möchten die Empfängeradresse einer gebuchten Rechnung ändern, so setzen Sie diese Rechnung mit *Zurücksetzen* in den Entwurfsstatus. Anschliessen können Sie das Feld *Kunde* wieder bearbeiten. Passen Sie die Adresse an und buchen Sie die Rechnung wieder.
 
 ## Rechnungsabgrenzung vornehmen
 
-Um eine Rechnungsabgrenzung in Odoo vorzunehmen, wählen sie die Rechnung via *Finanzen > Lieferanten > Rechnungen* aus. Zeigen sie den Tab *Buchungszeilen* an und klicken sie auf *Cut-Off* bei der betroffenen Zeile. Nun erscheint ein Dialog um die Abgrenzung vorzunehmen.
+Um eine Rechnungsabgrenzung in Odoo vorzunehmen, wählen Sie die Rechnung via *Finanzen > Lieferanten > Rechnungen* aus. Zeigen Sie den Tab *Buchungszeilen* an und klicken Sie auf *Cut-Off* bei der betroffenen Zeile. Nun erscheint ein Dialog um die Abgrenzung vorzunehmen.
 
 ![](assets/Abrechnung%20Rechnungsabgrenzung.png)
 
@@ -162,6 +162,6 @@ Mit *Create Journal Entries* wird die Buchung und Gegenbuchung für die Rechnung
 
 ## Warnung für den Rechnungskontakt festlegen
 
-Auf Kontakten können sie Warnungs-Text hinterlegen, welche bei der Ertellung einer Rechnung angezeigt werden. Damit die entprechenden Felder auf dem Kontakt angezeigt werden, müssen sie in den Benutzer-Einstellungen die Berechtigung *Eine Warnung kann auf einem Partner (Konto) gelegt werden* aktivieren. Unter *Kontakte > Eintrag auswählen > Tab Interne Notizen* finden sie das entsprechende Feld.
+Auf Kontakten können Sie Warnungs-Text hinterlegen, welche bei der Ertellung einer Rechnung angezeigt werden. Damit die entprechenden Felder auf dem Kontakt angezeigt werden, müssen Sie in den Benutzer-Einstellungen die Berechtigung *Eine Warnung kann auf einem Partner (Konto) gelegt werden* aktivieren. Unter *Kontakte > Eintrag auswählen > Tab Interne Notizen* finden Sie das entsprechende Feld.
 
 ![](assets/Abrechnung%20Warnung.png)

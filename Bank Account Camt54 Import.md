@@ -13,8 +13,8 @@ Repository: <https://github.com/OCA/bank-statement-import/tree/14.0/account_stat
 
 ## Camt54 importieren und abgleichen
 
-Navigieren sie nach *Finanzen* wählen beim abzugleichenden Konto *Import Auszüge* aus. Laden sie im Dialog die XML-Datei hoch. Nach Bedarf können sie den Namen der Datei anpassen.
+Navigieren Sie nach *Finanzen* wählen beim abzugleichenden Konto *Import Auszüge* aus. Laden Sie im Dialog die XML-Datei hoch. Nach Bedarf können Sie den Namen der Datei anpassen.
 
 ![](assets/Bank%20Account%20Camt54%20Import%20hochladen.png)
 
-Klicken sie auf *Import* und anschliessend *Buchen*. Nun stehen die Belege zum Abgleich bereit. Wählen sie *Abgleichen* und starten sie den Vorgang.
+Klicken Sie auf *Import* und anschliessend *Buchen*. Nun stehen die Belege zum Abgleich bereit. Wählen Sie *Abgleichen* und starten Sie den Vorgang.

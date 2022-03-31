@@ -14,6 +14,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 ## Kontaktperson hinzufügen
 
-Öffnen sie *Verkauf > Aufträge > Rahmenaufträge* und wählen sie einen Rahmenauftrag aus. Im Feld *Contact Person* können sie einen bliegen Kontakt als Kontaktperson festlegen.
+Öffnen Sie *Verkauf > Aufträge > Rahmenaufträge* und wählen Sie einen Rahmenauftrag aus. Im Feld *Contact Person* können Sie einen bliegen Kontakt als Kontaktperson festlegen.
 
 ![](assets/Sale%20Blanket%20Order%20Contact%20Person.png)

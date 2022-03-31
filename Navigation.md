@@ -10,7 +10,7 @@ Alles zur Navigation in Odoo.
 
 ## Ansichten durchsuchen
 
-Die Startseite von Odoo listet alle verfügbaren Apps auf. Die Apps und deren Ansichten können gefiltert werden. Geben sie auf der Übersicht einfach den gewünschten Begriff ein und Odoo filter die Ansichten für sie.
+Die Startseite von Odoo listet alle verfügbaren Apps auf. Die Apps und deren Ansichten können gefiltert werden. Geben Sie auf der Übersicht einfach den gewünschten Begriff ein und Odoo filter die Ansichten für sie.
 
 ![](assets/Navigation%20Suche.png)
 
@@ -20,7 +20,7 @@ Die Smart-Links erlauben einen direkten Wechsel in verküpfte Geschäftsobjekte 
 
 ![](assets/Navigation%20Smart-Links.png)
 
-Klicken sie auf *Zeiterfassung* werden alle Zeiterfassungs-Einträge des Projekts dargestellt.
+Klicken Sie auf *Zeiterfassung* werden alle Zeiterfassungs-Einträge des Projekts dargestellt.
 
 ## Mit Links navigieren
 
@@ -29,7 +29,7 @@ Odoo-Verknüpft die Geschäftsobjekte über diverse Links. Dies erlaubt eine fle
 ![](assets/Navigation%20Pfad.png)
 
 ::: warning
-Beachten sie immer in welchem Kontext sie sich in der Navigation befinden.
+Beachten Sie immer in welchem Kontext Sie sich in der Navigation befinden.
 :::
 
 ## Mehrere Listeneinträge anzeigen
@@ -40,7 +40,7 @@ Standardmässig zeigt Odoo 80 Einträge auf einer Listenseite an. Diese Einstell
 
 ## Versteckte Spalte anzeigen
 
-Öffnen sie eine beliebige Listenansicht und klicken sie auf die drei Punkte auf der rechten Seite. Wählen sie die Spalten an, die sie anzeigen möchten.
+Öffnen Sie eine beliebige Listenansicht und klicken Sie auf die drei Punkte auf der rechten Seite. Wählen Sie die Spalten an, die Sie anzeigen möchten.
 
 ![](assets/Navigation%20Versteckte%20Spalten.png)
 

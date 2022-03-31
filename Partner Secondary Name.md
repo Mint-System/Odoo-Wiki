@@ -14,4 +14,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/
 
 ## Zweitname einfügen
 
-Navigieren sie nach *Kontakte* und zeigen sie ein Unternehmen an. Gleich unter dem Anzeigenamen finden sie das Feld *Secondary Name*.
+Navigieren Sie nach *Kontakte* und zeigen Sie ein Unternehmen an. Gleich unter dem Anzeigenamen finden Sie das Feld *Secondary Name*.

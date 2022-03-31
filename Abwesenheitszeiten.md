@@ -10,29 +10,29 @@ Verwaltung von Mitarbeiterurlauben & Abwesenheit
 
 | Erweiterung                                                                       | Beschreibung                                                                                                       |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| [HR Holidays Public](HR%20Holidays%20Public.md)                                       | Erstellen sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.                          |
-| [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement. |
+| [HR Holidays Public](HR%20Holidays%20Public.md)                                       | Erstellen Sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.                          |
+| [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement. |
 | [HR Holidays Remaining Leaves](HR%20Holidays%20Remaining%20Leaves.md)                   | Verbleibende Anwesenheitsansprüche der Mitarbeitenden anzeigen.                                                    |
 | [HR Holidays .ics Attachment](HR%20Holidays%20ics%20Attachment.md)                      | An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.                                                  |
 | [HR Holidays Leave Archive](HR%20Holidays%20Leave%20Archive.md)                         | Archivierungsfunktion für Abwesenheitseinträge aktivieren.                                                         |
 
 ## Abwesenheitstypen erfassen
 
-Jede Abwesenheit und Abwesenheitsanspruch wird einem Abwesenheitstyp zugeordnet. Damit sie jährliche Feriensaldis korrekt erfassen, müssen sie für jedes Jahr einen Abwesenheitstyp erfassen. Navigieren sie nach *Abwesenheitszeiten > Konfiguratin > Abwesenheitstypen* und duplizieren sie einen bestehenden Typ. Legen sie im Bereich *Gültigkeit* das Von- und Bis-Datum fest. Dazu ein Beispiel:
+Jede Abwesenheit und Abwesenheitsanspruch wird einem Abwesenheitstyp zugeordnet. Damit Sie jährliche Feriensaldis korrekt erfassen, müssen Sie für jedes Jahr einen Abwesenheitstyp erfassen. Navigieren Sie nach *Abwesenheitszeiten > Konfiguratin > Abwesenheitstypen* und duplizieren Sie einen bestehenden Typ. Legen Sie im Bereich *Gültigkeit* das Von- und Bis-Datum fest. Dazu ein Beispiel:
 
 ![](assets/Abwesenheitszeiten%20Übersicht%20Abwesenheitstypen.png)
 
 ## Abwesenheitsanspruch melden
 
-Damit sie Anspruch auf Abwesenheit haben, müssen sie diesen Anspruch geltend machen. Öffnen sie die App *Abwesenheitszeiten* und wählen sie *Neuer Abwesenheitsanspruch*. Wählen sie den Typ, die Anzahl Tage und fügen sie eine Beschreibung hinzu.
+Damit Sie Anspruch auf Abwesenheit haben, müssen Sie diesen Anspruch geltend machen. Öffnen Sie die App *Abwesenheitszeiten* und wählen Sie *Neuer Abwesenheitsanspruch*. Wählen Sie den Typ, die Anzahl Tage und fügen Sie eine Beschreibung hinzu.
 
 ![](assets/Abwesenheitszeiten%20Anspruch%20melden.png)
 
-Schliessen sie den Dialog nach *Speichern*.
+Schliessen Sie den Dialog nach *Speichern*.
 
 ## Abwesenheitsanspruch validieren
 
-Wenn sie eine Mail zur Validierung eines Abwesenheitsanspruches erhalten, können sie direkt auf den Link klicken.
+Wenn Sie eine Mail zur Validierung eines Abwesenheitsanspruches erhalten, können Sie direkt auf den Link klicken.
 
 ![](assets/Abwesenheitszeiten%20Anspruch%20Mail.png)
 
@@ -40,7 +40,7 @@ Abwesenheitsansprüche zur Validierung werden auch über Odoo-Aktivitäten angez
 
 ![](assets/Abwesenheitszeiten%20Aktivit%C3%A4t.png)
 
-Klicken sie auf *Genehmigen* oder *Ablehnen* um den Abwesenheitsanspruch zu validieren.
+Klicken Sie auf *Genehmigen* oder *Ablehnen* um den Abwesenheitsanspruch zu validieren.
 
 Mitarbeitende erhalten nach der Validierung eine entsprechende Mail.
 
@@ -52,13 +52,13 @@ Odoo versendet keine Nachrichten, wenn die Genehmigung alls Massenbearbeitung er
 
 ## Abwesenheit melden
 
-Öffnen sie die App *Abwesenheitszeiten* und wählen sie *Neuer Abwesenheitsantrag*. Geben sie den Typ und die Dauer ein.
+Öffnen Sie die App *Abwesenheitszeiten* und wählen Sie *Neuer Abwesenheitsantrag*. Geben Sie den Typ und die Dauer ein.
 
 ![](assets/Abwesenheitszeiten%20Abwesenheit%20melden.png)
 
-Bestätigen sie den Vorgang mit *Speichern*.
+Bestätigen Sie den Vorgang mit *Speichern*.
 
-Wurde die Abwesenheit genehmigt, sehen sie die verleibenden Tage des Abwesenheitstyps in der Übersicht *Abwesenheitszeiten*.
+Wurde die Abwesenheit genehmigt, sehen Sie die verleibenden Tage des Abwesenheitstyps in der Übersicht *Abwesenheitszeiten*.
 
 ![](assets/Abwesenheitszeiten%20Verleibend.png)
 
@@ -69,29 +69,29 @@ Abwesenheitseinträge, die im Zustand *Zur Genehmigung* sind, können nicht mehr
 
 ## Abwesenheit validieren
 
-Nach demselben Verfahren wie [Abwesenheitsanspruch validieren](#Abwesenheitsanspruch%20validieren) können sie Abwesenheiten validieren. Sie erhalten entweder eine Mail oder sehen die zugewiesene Odoo-Aktivität.
+Nach demselben Verfahren wie [Abwesenheitsanspruch validieren](#Abwesenheitsanspruch%20validieren) können Sie Abwesenheiten validieren. Sie erhalten entweder eine Mail oder sehen die zugewiesene Odoo-Aktivität.
 
 ![](assets/Anwesenheitszeiten%20Mail%20Abwesenheit.png)
 
-Klicken sie auf den Link und validieren sie die Abwesenheit.
+Klicken Sie auf den Link und validieren Sie die Abwesenheit.
 
 ## Abwesenheitstyp konfigurieren
 
-Navigieren sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Wählen sie hier den Abwesenheitstyp aus und bearbeiten sie diesen gemäss den Anforderungen.
+Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Wählen Sie hier den Abwesenheitstyp aus und bearbeiten Sie diesen gemäss den Anforderungen.
 
 ## Abwesenheit entfernen
 
-Wurde eine Abwesenheit einmal erfasst, kann sie nicht mehr gelöscht werden (asser vom Administator). Möchte man dennoch eine Abwesenheit entfernen, muss der Vorgesetzte diese ablehnen. Im Status *Verworfen* wird der Kalendereintrag des Mitarbeiters entfernt..
+Wurde eine Abwesenheit einmal erfasst, kann Sie nicht mehr gelöscht werden (asser vom Administator). Möchte man dennoch eine Abwesenheit entfernen, muss der Vorgesetzte diese ablehnen. Im Status *Verworfen* wird der Kalendereintrag des Mitarbeiters entfernt..
 
 ## Verantwortliche festlegen
 
-Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen sie den Tab *Arbeitsinformationen* und wählen sie *Bearbeiten*. Tragen sie den Vorgesetzen im Feld *Abwesenheitszeiten* ein. Standardmässig wird der *Manager* übernommen.
+Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen Sie den Tab *Arbeitsinformationen* und wählen Sie *Bearbeiten*. Tragen Sie den Vorgesetzen im Feld *Abwesenheitszeiten* ein. Standardmässig wird der *Manager* übernommen.
 
 ## Abwesenheitstyp Überstunden kompensieren anlegen
 
 Damit Mitarbeiter ihre Überstunden kompensieren können, braucht es einen entsprechenden Abwesenheitstyp.
 
-Navigieren sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und erstellen einen neuen Eintrag. Wählen sie als *Work Entry Type*: *Anwesend* und für *Einheit der Abwesenheit*: *Stunden*.
+Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und erstellen einen neuen Eintrag. Wählen Sie als *Work Entry Type*: *Anwesend* und für *Einheit der Abwesenheit*: *Stunden*.
 
 Über den normalen Genemigungsprozess können so Mitarbeiter ihre Überstunden als Anwesenheit registrieren lassen.
 

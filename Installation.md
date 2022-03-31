@@ -14,13 +14,13 @@ Odoo benötigt zum Empfang und Versand von E-Mails einen exklusiven Mail-Account
 
 **Aliase**
 
-Damit Antworten an E-Mails von Odoo korrekt verarbeitet werden können, müssen Mail-Aliase konfiguriert werden. Erstellen sie die folgenden Mail-Aliase für `odoo@example.com`:
+Damit Antworten an E-Mails von Odoo korrekt verarbeitet werden können, müssen Mail-Aliase konfiguriert werden. Erstellen Sie die folgenden Mail-Aliase für `odoo@example.com`:
 
 * `catchall@example.com` Für allgemeine Antworten
 * `eingangsrechnung@example.com` Zum Empfang von Rechnungen
 * `support@example.com` Zum Empfang von Support-Anfragen
 
-Wenn jemand eine Mail an eine dieser Adresse schickt, werden sie ans Postfach von `odoo@example.com` weitergeleitet und anschliessen von Odoo verarbeitet.
+Wenn jemand eine Mail an eine dieser Adresse schickt, werden Sie ans Postfach von `odoo@example.com` weitergeleitet und anschliessen von Odoo verarbeitet.
 
 ## DNS-Einträge erstellen
 

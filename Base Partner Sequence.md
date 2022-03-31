@@ -14,6 +14,6 @@ Repository: <https://github.com/OCA/partner-contact/tree/14.0/base_partner_seque
 
 ## Kontakt-Referenz automatisch vergeben
 
-Mit dieser Erweiterung werden beim Erstellen eines Kontakt automatisch eine Referenz vergeben. Öffnen sie *Kontakte* und erstellen sie einen Eintrag.
+Mit dieser Erweiterung werden beim Erstellen eines Kontakt automatisch eine Referenz vergeben. Öffnen Sie *Kontakte* und erstellen Sie einen Eintrag.
 
 Im Tab *Verkauf & Einkauf* ist nun die generierte Referenz sichtbar.

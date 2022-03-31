@@ -10,12 +10,12 @@ Mobile Zeiterfassung.
 
 ## Awesome Timesheet installieren
 
-Um die mobile App *Awesome Timesheet* in ihrem Browser oder auf dem Smartphone zu verwenden, müssen sie es zuerst über den jeweiligen App-Store installieren.
+Um die mobile App *Awesome Timesheet* in ihrem Browser oder auf dem Smartphone zu verwenden, müssen Sie es zuerst über den jeweiligen App-Store installieren.
 
 ### Login
 <!-- tabs:start -->
 #### **Schritt 1**
-Öffnen sie das Menu und wählen *Synchronize*.
+Öffnen Sie das Menu und wählen *Synchronize*.
 
 ![Awesome Timesheet Login 1](assets/Awesome%20Timesheet%20Login%201.png)
 
@@ -35,7 +35,7 @@ Im Feld *Login* die Email und Feld *Password* das Passwort eingeben. Einloggen m
 ![Awesome Timesheet Login 4](assets/Awesome%20Timesheet%20Login%204.png)
 
 #### **Schritt 5**
-Erscheint ein Dialog, wählen sie *Discard Data*.
+Erscheint ein Dialog, wählen Sie *Discard Data*.
 
 ![Awesome Timesheet Login 3](assets/Awesome%20Timesheet%20Login%203.png)
 <!-- tabs:end -->

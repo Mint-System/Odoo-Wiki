@@ -6,11 +6,11 @@ prev: ./
 # Initialisierung
 ![icons_odoo_survey](assets/icons_odoo_survey.png)
 
-Richten sie ihre Odoo-Umgebung ein.
+Richten Sie ihre Odoo-Umgebung ein.
 
 ## Unternehmensdaten eintragen
 
-Die Unternehmensdaten werden an vielen Stellen im System verwendet. Unter anderem für die Rechnung, für Angebote, für E-Mails und weiteres. Füllen sie bitte diese Daten aus und verwenden sie ein Logo mit folgenden Details:
+Die Unternehmensdaten werden an vielen Stellen im System verwendet. Unter anderem für die Rechnung, für Angebote, für E-Mails und weiteres. Füllen Sie bitte diese Daten aus und verwenden Sie ein Logo mit folgenden Details:
 * Datenformat: JPG oder PNG
 * Grösse: Empfehlung Breite 300 pixel
 

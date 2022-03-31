@@ -14,16 +14,16 @@ Repository: <https://github.com/OCA/social/tree/14.0/mail_activity_board>
 
 ## Alle Aktivitäten anzeigen
 
-Navigieren sie nach *Dashboard > Activities*. Hier sehen sie alle erstellen Aktiviäten.
+Navigieren Sie nach *Dashboard > Activities*. Hier sehen Sie alle erstellen Aktiviäten.
 
 ![](assets/Mail%20Activity%20Board%20Alle.png)
 
-Wenn sie sich auf einem Geschäftsobjekt befinden, können sie die dazugehörgen Aktivitäten über diesen Button anzeigen lassen:
+Wenn Sie sich auf einem Geschäftsobjekt befinden, können Sie die dazugehörgen Aktivitäten über diesen Button anzeigen lassen:
 
 ![](assets/Mail%20Activity%20Board%20List.png)
 
 ## Meine Aktivitäten anzeigen
 
-Wenn sie eine Übersicht all ihrer Aktiväten erhalten möchten, navigieren sie nach *Dashboards > Activities* und filtern dort das Feld *Zugewiesen an* nach ihrem Namen.
+Wenn Sie eine Übersicht all ihrer Aktiväten erhalten möchten, navigieren Sie nach *Dashboards > Activities* und filtern dort das Feld *Zugewiesen an* nach ihrem Namen.
 
 ![](assets/Mail%20Activity%20Board%20Meine%20Aktivitäten.png)

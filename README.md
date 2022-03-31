@@ -25,7 +25,7 @@ Das Odoo Wiki wird von der [Mint System GmbH](https://www.mint-system.ch/) unter
 
 ## HowTos
 
-Für jede Odoo App finden sie hier HowTos.
+Für jede Odoo App finden Sie hier HowTos.
 
 ### [Abrechnung](Abrechnung.md)
 
@@ -83,7 +83,7 @@ Odoo-Instanzen mit dem Datenbankmanager verwalten.
 
 ### [Datenmanagement](Datenmanagement.md)
 
-Importieren und Exportieren sie alle Odoo Daten.
+Importieren und Exportieren Sie alle Odoo Daten.
 
 [![icons_odoo_website_sale_options](assets/icons_odoo_website_sale_options.png)](Datenmanagement.md)
 
@@ -149,7 +149,7 @@ Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträg
 
 ### [Initialisierung](Initialisierung.md)
 
-Richten sie ihre Odoo-Umgebung ein.
+Richten Sie ihre Odoo-Umgebung ein.
 
 [![icons_odoo_survey](assets/icons_odoo_survey.png)](Initialisierung.md)
 
@@ -179,13 +179,13 @@ Alle Kontaktdaten an einem Ort.
 
 ### [Kundenverwaltung](Kundenverwaltung.md)
 
-Verfolgen sie Leads, schließen sie Chancen ab und erhalten sie genaue Prognosen.
+Verfolgen Sie Leads, schließen Sie Chancen ab und erhalten Sie genaue Prognosen.
 
 [![icons_odoo_crm](assets/icons_odoo_crm.png)](Kundenverwaltung.md)
 
 ### [Lager](Lager.md)
 
-Maximieren sie die Effizienz Ihres Lagers.
+Maximieren Sie die Effizienz Ihres Lagers.
 
 [![icons_odoo_stock](assets/icons_odoo_stock.png)](Lager.md)
 
@@ -257,7 +257,7 @@ Agiles Projektmanagement. Schön. Einfach. Open Source.
 
 ### [Strichode](Strichcode.md)
 
-Verfolgen sie Aufträge, Produkte und Lieferungen mit Barcodes.
+Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
 
 [![icons_odoo_stock_barcode](assets/icons_odoo_stock_barcode.png)](Strichcode.md)
 
@@ -281,7 +281,7 @@ Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
 
 ### [Update](Update.md)
 
-Aktualisieren sie ihre Odoo Enterprise Installation ohne Mehrkosten.
+Aktualisieren Sie ihre Odoo Enterprise Installation ohne Mehrkosten.
 
 [![icons_odoo_website_enterprise](assets/icons_odoo_website_enterprise.png)](Update.md) 
 
@@ -315,4 +315,4 @@ Die Evaluation eines ERP-Systems ist eine aufwändige Arbeit. Als Kunde ist man 
 
 ## [Mitarbeit](Mitarbeit.md)
 
-Sie können eine Kopie des Wiki erstellen und für eigene Zwecke nutzen. Ebenfalls können sie Änderungen mitteilen und mit dem offizielen Wiki zusammenführen. Mehr dazu unter [Mitarbeit](Mitarbeit.md).
+Sie können eine Kopie des Wiki erstellen und für eigene Zwecke nutzen. Ebenfalls können Sie Änderungen mitteilen und mit dem offizielen Wiki zusammenführen. Mehr dazu unter [Mitarbeit](Mitarbeit.md).

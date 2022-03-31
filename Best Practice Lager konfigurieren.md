@@ -15,8 +15,8 @@ Beispiel:
 
 ### Standard Lagerorte für Lieferungen
 
-Zu diesem Zeitpunkt sind bereits Standard Lagerorte angelegt. Sie werden aber erst sichtbar, wenn man die Option *Lagerorte* einschaltet. Navigieren sie hierfür in den Einstellungen zum Abschnitt *Lager > Lager* und aktivieren sie *Lagerorte*.
-Anschliessend werden in der App *Lager* über den Menüpunkt *Konfiguration > Lager & Logistik > Lagerorte* die folgenden Lagerorte sichtbar (schalten sie den Filter *intern* aus):
+Zu diesem Zeitpunkt sind bereits Standard Lagerorte angelegt. Sie werden aber erst sichtbar, wenn man die Option *Lagerorte* einschaltet. Navigieren Sie hierfür in den Einstellungen zum Abschnitt *Lager > Lager* und aktivieren Sie *Lagerorte*.
+Anschliessend werden in der App *Lager* über den Menüpunkt *Konfiguration > Lager & Logistik > Lagerorte* die folgenden Lagerorte sichtbar (schalten Sie den Filter *intern* aus):
 
 ![Lager Lagerorte Standard](assets/Lager%20Lagerorte%20Standard.png)
 
@@ -26,7 +26,7 @@ Die folgenden zusätzlichen Lager sind vobereitet aber als *archiviert* vorerst 
 
 ### Standard Routen für Lieferungen
 
-Um das Einrichten der kundenspezifischen Warentransfers im Lager zu vereinfachen sind Standard Konfigurationen programmiert. Öffnen sie das entsprechende Lager über die Liste in der Ansicht *Konfiguration > Lager & Logistik > Lager*). Nach dem Einschalten von *Bearbeiten* zeigt sich die folgende Auswahl:
+Um das Einrichten der kundenspezifischen Warentransfers im Lager zu vereinfachen sind Standard Konfigurationen programmiert. Öffnen Sie das entsprechende Lager über die Liste in der Ansicht *Konfiguration > Lager & Logistik > Lager*). Nach dem Einschalten von *Bearbeiten* zeigt sich die folgende Auswahl:
 
 ![Lager Konfiguration Standard](assets/Lager%20Konfiguration%20Standard.png)
 

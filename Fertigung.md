@@ -18,8 +18,8 @@ Eine moderne Lösung für ein altes Problem.
 | [Product Barcode Generator](Product%20Barcode%20Generator.md)                     | Autogenerate EAN13 product barcodes.                                         |
 | [Product Name Sequence](Product%20Name%20Sequence.md)                             | Generate product names based on a sequence.                                  |
 | [Product Sequence](Product%20Sequence.md)                                         | Produkreferenzen anhand einer Sequenz generieren lassen.                     |
-| [MRP Documents Share](MRP%20Documents%20Share.md)                                 | Teilen sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument. |
-| [Product Country of Origin](Product%20Country%20of%20Origin.md)                   | Bestimmen sie für jedes Produkt ein Herkunftsland                            |
+| [MRP Documents Share](MRP%20Documents%20Share.md)                                 | Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument. |
+| [Product Country of Origin](Product%20Country%20of%20Origin.md)                   | Bestimmen Sie für jedes Produkt ein Herkunftsland                            |
 | [Product Type Description](Product%20Type%20Description.md)                       | Zu jedem Produkt ein Beschreibungsfeld.                                      |
 | [Secondary Product Type Description](Secondary%20Product%20Type%20Description.md) | Zu jedem Produkt ein zweites Beschreibungsfeld.                              |
 | [Product Feeder ID](Product%20Feeder%20ID.md)                                     | Feeder-Textfeld auf dem Produkt.                                             |
@@ -44,7 +44,7 @@ Falls eine Stückliste leer ist (keine Komponenten) erscheint ein über MTO auto
 
 ## Hauptproduktionszeitplan anwenden
 
-Öffnen sie *Fertigung > Planung > Hauptproduktionszeitplan* und fügen sie ein Produkt und ein Kompenenten-Produkt hinzu. Im Filter *Zeilen* wählen sie:
+Öffnen Sie *Fertigung > Planung > Hauptproduktionszeitplan* und fügen Sie ein Produkt und ein Kompenenten-Produkt hinzu. Im Filter *Zeilen* wählen sie:
 
 * Anfangslagerbestand
 * Tatsächliche Nachfrage
@@ -52,12 +52,12 @@ Falls eine Stückliste leer ist (keine Komponenten) erscheint ein über MTO auto
 * Aufzufüllen
 * Prognostizierter Bestand
 
-In der Zeile *Tatsächliche* sehen sie die nachgefragte Menge. Geben sie in der Zeile *Vorschlag Auffüllung* die zu produzierende Menge ein.
+In der Zeile *Tatsächliche* sehen Sie die nachgefragte Menge. Geben Sie in der Zeile *Vorschlag Auffüllung* die zu produzierende Menge ein.
 
-Für das Komponenten-Produkt wird nun der *prognostizierter indirekter Bedarf* berechnet. Erstellen sie für dieses Produkt ebenfalls einen Vorschlag.
+Für das Komponenten-Produkt wird nun der *prognostizierter indirekter Bedarf* berechnet. Erstellen Sie für dieses Produkt ebenfalls einen Vorschlag.
 
 ![](assets/Hauptproduktionszeitplan.png)
 
-Wählen sie für jedes Produkt *Aufstocken* um einen Auftrag gemäss hinterlegter Route zu erstellen.
+Wählen Sie für jedes Produkt *Aufstocken* um einen Auftrag gemäss hinterlegter Route zu erstellen.
 
 

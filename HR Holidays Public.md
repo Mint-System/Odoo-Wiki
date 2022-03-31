@@ -7,7 +7,7 @@ prev: ./personal
 # HR Holidays Public
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Erstellen sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.
+Erstellen Sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.
 
 Technischer Name: `hr_holidays_public`\
 Repository: <https://github.com/OCA/hr-holidays/tree/13.0/hr_holidays_public>
@@ -16,11 +16,11 @@ Repository: <https://github.com/OCA/hr-holidays/tree/13.0/hr_holidays_public>
 
 Damit Feiertage bei der Eingabe von Abwesenheiten abegzogen werden, muss der ausgewählte Abwesenheitstyp konfiguriert werden. Standardmässig werden Feiertage für Abwesenheitstypen berücksichtigt.
 
-Navigieren sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und wählen sie hier den Typ zur Bearbeitung aus. Entfernen sie das Häkchen  von*Feiertage ausschliessen*, falls sie die Feiertage für diesen Abwesenheitstyp ignorieren möchten.
+Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und wählen Sie hier den Typ zur Bearbeitung aus. Entfernen Sie das Häkchen  von*Feiertage ausschliessen*, falls Sie die Feiertage für diesen Abwesenheitstyp ignorieren möchten.
 
 ## Feiertage einrichten
 
-Feiertage können für alle Mitarbeiter zentral festgelegt werden. Navigieren sie nach *Abwesenheitszeiten > Feiertage > Feiertage des neues Jahres erstellen*. Klicken sie auf *Erstellen* und navigieren sie nach *Abwesenheitszeiten > Feiertage > Feiertage*. Wählen sie den neuen Feiertagskalender aus und geben sie die Feiertage ein. Schliessen sie den Vorgang mit *Speichern* ab.
+Feiertage können für alle Mitarbeiter zentral festgelegt werden. Navigieren Sie nach *Abwesenheitszeiten > Feiertage > Feiertage des neues Jahres erstellen*. Klicken Sie auf *Erstellen* und navigieren Sie nach *Abwesenheitszeiten > Feiertage > Feiertage*. Wählen Sie den neuen Feiertagskalender aus und geben Sie die Feiertage ein. Schliessen Sie den Vorgang mit *Speichern* ab.
 
 ![](assets/HR%20Holidays%20Public%20Beispiel%20Feiertagskalender.png)
 
@@ -37,6 +37,6 @@ Geben Mitarbeitende ihren Abwesenheit ein, wird der Feiertag von der berechneten
 
 ## Spezielle Abwesenheitsregelungen einrichten
 
-Angenommen sie müssen für bestimmte Personen spezielle Abwesenheitsregelungen einrichten, so können sie das über die Arbeitszeit festhalten. Öffnen sie *Einstellungen > Technisch > Arbeitszeit* und wählen sie einen Eintrag aus. Wenn sie im Tab *Gobal Time Off* einen Eintrag machen, wird dieser bei der Erfassung der Abwesenheit berücksichtigt.
+Angenommen Sie müssen für bestimmte Personen spezielle Abwesenheitsregelungen einrichten, so können Sie das über die Arbeitszeit festhalten. Öffnen Sie *Einstellungen > Technisch > Arbeitszeit* und wählen Sie einen Eintrag aus. Wenn Sie im Tab *Gobal Time Off* einen Eintrag machen, wird dieser bei der Erfassung der Abwesenheit berücksichtigt.
 
 ![](assets/Abwesenheitszeiten%20Global%20Time%20Off.png)

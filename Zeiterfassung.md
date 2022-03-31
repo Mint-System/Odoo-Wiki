@@ -25,7 +25,7 @@ Zur manuellen Erfassung folgende Aktion ausführen *Zeiterfassung > + Anlegen*. 
 
 Jeder Zeiterfassungseintrag ist ein Verrechnungstyp zugeweisen. Dieser wird beim Erstellen des Eintrag abhängig von Konfiguration des Projekts und der Projektaufgabe festgelegt. In der Listenansicht des Stundenzettels kann nach dem Attribut *Abrechenbarer Typ* gruppiert werden. Falsche Einträge können so identifiziert werden.
 
-Wenn sie den Abrechnungstyp von bestehenden Eintägen ändern möchten, müssen sie die verknüpfte Aufgaben ändern und wieder zuweisen.
+Wenn Sie den Abrechnungstyp von bestehenden Eintägen ändern möchten, müssen Sie die verknüpfte Aufgaben ändern und wieder zuweisen.
 
 ![](assets/Zeiterfassung%20Verrechnungstyp%20%C3%A4ndern.gif)
 
@@ -46,22 +46,22 @@ Der Stundenzettel-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Va
 ## Validierung zurücksetzen
 #Odoo13
 
-Einmal validierte Stundeneinträge können nicht mehr verändert werden. Benötigen sie dennoch eine korrektur, müssen sie für jeden Mitarbeitenden folgende Aktion ausführen: *Personal > Mitarbeitenden auswählen > Tab HR Einstellungen öffnen* und dort das Feld *Stundenzettel-Validierungsdatum* anpassen.
+Einmal validierte Stundeneinträge können nicht mehr verändert werden. Benötigen Sie dennoch eine korrektur, müssen Sie für jeden Mitarbeitenden folgende Aktion ausführen: *Personal > Mitarbeitenden auswählen > Tab HR Einstellungen öffnen* und dort das Feld *Stundenzettel-Validierungsdatum* anpassen.
 
 ![](assets/Zeiterfassung%20Stundenzettel-Validierungsdatum%20anpassen.png)
 
-Nach der Korrektur der Stundeinträge müssen sie diese wieder validieren.
+Nach der Korrektur der Stundeinträge müssen Sie diese wieder validieren.
 
 ## Validierung zurücksetzen
 #Odoo14
 
-Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Validierung zurücksetzen`\
 Modell: `Kostenstellen-Buchungen`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld Pythoncode:
+Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
 
 ```py
 for record in records:
@@ -75,13 +75,13 @@ In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl *Aktion*
 ## Auftragselement von Aufgabe entfernen
 #Odoo14
 
-Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Auftragselement von Aufgabe entfernen`\
 Modell: `Kostenstellen-Buchungen`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld Pythoncode:
+Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
 
 ```py
 for record in records:

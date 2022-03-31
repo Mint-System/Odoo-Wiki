@@ -12,7 +12,7 @@ Eigene Odoo Aktionen erstellen.
 
 Mit *Automatischen Aktionen* kann ein Datensatz, der aktualisiert wurde, zusätzlich validiert werden. In unserem Beispiel wollen wir unterbinden, dass Qualitätsalarme auf bestimmte Stufen gesetzt werden.
 
-Navigieren sie nach *Einstellungen > Technisch > Aktionen > Automatische Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Automatische Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Modell: `Qualitätsalarm`\
 Triggerbedingung: `Beim Aktualisieren`\
@@ -30,32 +30,32 @@ if record.stage_id.sequence in [0,1,2]:
 
 Fehlen bestimmte Ansichten, können diese ganz einfach mit einer Aktion und einem Menüeintrag erstellt werden. In diesem Bespiel wollen wir die die Komponenten aller Stücklisten in einer Tabelle darstellen.
 
-Navigieren sie nach *Einstellungen > Technisch > Aktionen > Fenster öffnen/schliessen ...* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Fenster öffnen/schliessen ...* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `BoM Komponenenten`\
 Objekt: `mrp.bom.line`\
 Ansichtsreferenz: Gemäss Angaben
 
-Navigieren sie nach *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und erstellen Sie einen neuen Eintrag:
 
 Menü: `BoM Komponenenten`\
 Obermenü: `Fertigung/Produkte`\
 Aktion: `ir.actions.act_window` `BoM Komponenenten`
 Nummernfolge: `3`
 
-Nachdem der Browser aktualisiert haben sie Zugriff auf das neue Menü und Ansicht.
+Nachdem der Browser aktualisiert haben Sie Zugriff auf das neue Menü und Ansicht.
 
 ![](assets/Aktionen%20neue%20Ansicht.png)
 
 ## Aktion Fertigung  "Reload BoM" erstellen
 
-Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reload BoM`\
 Modell: `Fertigungsauftrag`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld Pythoncode:
+Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
 ```py
 for record in records:  
   record._compute_allowed_product_ids()  
@@ -71,13 +71,13 @@ Im Fertigungsauftrag erscheint nun in der Auswahl *Aktion* das Menu *Reload BoM*
 
 ## Aktion Finanzen "Reset to Draft" erstellen
 
-Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reset to Draft`
 Modell: `account.move`
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```py
 for record in records:  
@@ -90,13 +90,13 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *
 
 ## Aktion  Finanzen "Abstimmung zurücksetzen" erstellen
 
-Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Abstimmung zurücksetzen`\
 Modell: `account.bank.statement.line`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```py
 for record in records:  
@@ -109,13 +109,13 @@ In der Liste der Vorgänge erscheint nun in der Auswahl *Aktion* das Menu *Absti
 
 ## Aktion Finanzen "Bankauszug zurücksetzen" erstellen
 
-Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Bankauszug zurücksetzen`\
 Modell: `account.bank.statement`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```py
 for record in records:  
@@ -128,7 +128,7 @@ In der Liste der Belege erscheint nun in der Auswahl *Aktion* das Menu *Bankausz
 
 ## Aktion Abwesenheitzeiten "Ablehnen" erstellen
 
-Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Ablehnen`\
 Modell: `hr.leave`\
@@ -147,7 +147,7 @@ In der Liste der Abwesenheitszeiten erscheint nun in der Auswahl *Aktion* das Me
 
 ## Automatische Archivierung der Los/Chargen
 
-Mit dieser Aktionen werden Los/Chargen archiviert, wenn sie eine Menge von 0 haben und werden dearchiviert wenn die Menge grösser 0 ist. Diese Aktion bötigt die Erweiterung [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md).
+Mit dieser Aktionen werden Los/Chargen archiviert, wenn Sie eine Menge von 0 haben und werden dearchiviert wenn die Menge grösser 0 ist. Diese Aktion bötigt die Erweiterung [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md).
 
 Navigeren nach *Einstellungen > Technisch > Geplante Aktionen* und einen neuen Eintrag erstellen:
 
@@ -155,7 +155,7 @@ Navigeren nach *Einstellungen > Technisch > Geplante Aktionen* und einen neuen E
 * Modell: `Serveraktion`
 * Anzahl aufrufe: `-1`
 
-Kopieren sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```py
 # search for all lots
@@ -189,7 +189,7 @@ log('The "Archive Stock Production Lot" job was executed successfully.', level='
 
 Mit Aktionen können Felder mit einem bestimmten Default-Wert beschrieben werden. Im folgenden Beispiel wird das Feld *Order Deadline* bei einer Angebotsanfrage auf das Datum *heute + 5 Tage* gesetzt.
 
-Navigieren sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen sie den folgenden Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie den folgenden Eintrag:
 
 * Name der Aktion: `Mint System: Set Order Deadline`
 * Modell: `Beschaffungsauftrag`

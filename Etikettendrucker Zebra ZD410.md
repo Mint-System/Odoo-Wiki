@@ -21,22 +21,22 @@ Der maximale Durchmesser der Rolle ist 127mm.
 
 ## Etikettendrucker in Betrieb nehmen
 
-Damit sie den Etikettendrucker verwenden können, müssen folgende Vorbereitungen getroffen werden:
+Damit Sie den Etikettendrucker verwenden können, müssen folgende Vorbereitungen getroffen werden:
 
 * Etikettendrucker ist per USB verbunden
 * Etikettendrucker ist mit dem Netzteil verbunden
 * Etikettenrolle ist eingesetzt
 
-Führen sie als erstes eine Kalibrierung des Gerätes durch.
+Führen Sie als erstes eine Kalibrierung des Gerätes durch.
 
 ![](assets/Etikettendrucker%20Zebra%20ZD410%20kalibrieren.png)
 
-Drucken sie anschliessend ein Konfigurationsbericht.
+Drucken Sie anschliessend ein Konfigurationsbericht.
 
 ![](assets/Etikettendrucker%20Zebra%20ZD410%20testen.png)
 
 ## Etikettenrolle auswechseln
 
-Schauen sie sich das folgende Instruktionsvideo von Zebra an:
+Schauen Sie sich das folgende Instruktionsvideo von Zebra an:
 
 ![](assets/Etikettendrucker%20Zebra%20ZD410.mp4)

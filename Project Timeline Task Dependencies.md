@@ -14,7 +14,7 @@ Repository: <https://github.com/OCA/project/tree/14.0/project_timeline_task_depe
 
 ## Projektaufgaben Timeline-Ansicht mit Abhängigkeiten anzeigen
 
-Öffnen sie die *Timeline*-Ansicht via *Projekt > Alle Aufgaben*.
+Öffnen Sie die *Timeline*-Ansicht via *Projekt > Alle Aufgaben*.
 
 ![](assets/Project%20Timeline%20View%20task%20timeline.png)
 

@@ -14,36 +14,36 @@ Navigieren nach *Finanzen > Konfiguration > Einstellungen > Währungen* und dort
 
 ## Konto für Kursdifferenzbuchungen bestimmen
 
-Zeigen sie *Einstellungen > Finanzen > Währungen* an. Unter der aktivierten Option *Mehrere Währungen* finden sie die Felder zum festlegen des Journals, Gewinn- und Verlustkonto für Kursdifferenzen.
+Zeigen Sie *Einstellungen > Finanzen > Währungen* an. Unter der aktivierten Option *Mehrere Währungen* finden Sie die Felder zum festlegen des Journals, Gewinn- und Verlustkonto für Kursdifferenzen.
 
 ## Automatische Währungssätze aktiveren
 
-Werden mehre Währungen verwendet, können die Wechselkurse automatisch von Odoo aktualisiert werden. Navigieren sie nach *Einstellungen > Finanzen > Währung* und klicken sie auf *Automatische Währungssätze*. Stellen sie ein ob die Währung automatisch oder manuell aktualisiert werden soll.
+Werden mehre Währungen verwendet, können die Wechselkurse automatisch von Odoo aktualisiert werden. Navigieren Sie nach *Einstellungen > Finanzen > Währung* und klicken Sie auf *Automatische Währungssätze*. Stellen Sie ein ob die Währung automatisch oder manuell aktualisiert werden soll.
 
 ![](assets/Finanzen%20Mehrere%20Währungen%20Automatisch.png)
 
-Klicken sie auf das Icon neben dem Feld *Nächster Lauf*. Die Währungskurse werden nun aktualisiert.
+Klicken Sie auf das Icon neben dem Feld *Nächster Lauf*. Die Währungskurse werden nun aktualisiert.
 
 ## Währungskurse anzeigen
 
-Öffnen sie *Finanzen > Konfiguration > Währungen*. Hier werden alle aktivierten Währungen der entsprechende Kurs aufgelistet. In der Detailansicht sehen sie die Einstellungen der Währung sowie vergange Kurse.
+Öffnen Sie *Finanzen > Konfiguration > Währungen*. Hier werden alle aktivierten Währungen der entsprechende Kurs aufgelistet. In der Detailansicht sehen Sie die Einstellungen der Währung sowie vergange Kurse.
 
 ## Währung aktivieren oder deaktivieren
 
-Öffnen sie *Finanzen > Konfiguration > Währungen*. Aktivieren oder deaktivieren sie die Währung in der Spalte *Aktiv*.
+Öffnen Sie *Finanzen > Konfiguration > Währungen*. Aktivieren oder deaktivieren Sie die Währung in der Spalte *Aktiv*.
 
 ## Währung auf Rechnung festlegen
 
-Zeigen sie eine Rechnung via *Finanzen > Kunden > Rechnungen* oder *Finanzen > Lieferanten > Rechnungen* an. Rechts vom Eingabefeld *Journal* können sie die Währung festlegen.
+Zeigen Sie eine Rechnung via *Finanzen > Kunden > Rechnungen* oder *Finanzen > Lieferanten > Rechnungen* an. Rechts vom Eingabefeld *Journal* können Sie die Währung festlegen.
 
 ## Position des Währungs-Symbol ändern
 
-Zeigen sie *Finanzen > Konfiguration > Finanzen > Währungen* an wählen sie eine Währung aus. Unter *Anzeige* können sie die Position bestimmen.
+Zeigen Sie *Finanzen > Konfiguration > Finanzen > Währungen* an wählen Sie eine Währung aus. Unter *Anzeige* können Sie die Position bestimmen.
 
 ![](assets/Finanzen%20Mehrere%20Währungen%20Anzeige.png)
 
 ## Bankkonto-Transfer in unterschiedlicher Währung verbuchen
 
-Registieren sie als erstes den Bank-Transfer via *Finanzen > Bank > Kontext-Menü > Interne Überweisungen*. Stellen sie sicher, dass im Dialog *Is Internal Transfer* markiert ist. Geben sie als *Bankkonto des Empfängers* das Bankkonto mit der Zielwährung an. Bestätigen sie den Transfer. Sie können diese Transfer als Zahlung via Stapelbuchungen verarbeiten lassen.
+Registieren Sie als erstes den Bank-Transfer via *Finanzen > Bank > Kontext-Menü > Interne Überweisungen*. Stellen Sie sicher, dass im Dialog *Is Internal Transfer* markiert ist. Geben Sie als *Bankkonto des Empfängers* das Bankkonto mit der Zielwährung an. Bestätigen Sie den Transfer. Sie können diese Transfer als Zahlung via Stapelbuchungen verarbeiten lassen.
 
 Der Abgleich erfolgt anschliessend doppelt. Einmal der Zahlungsausgang auf dem Ursprungskonto und einmal der Zahlungseingang auf dem Zielkonto.

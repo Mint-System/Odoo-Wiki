@@ -6,7 +6,7 @@ prev: ./
 # Lager
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
-Maximieren sie die Effizienz Ihres Lagers.
+Maximieren Sie die Effizienz Ihres Lagers.
 
 | Bereich                                                 | Beschreibung                      |
 | ------------------------------------------------------- | --------------------------------- |
@@ -30,11 +30,11 @@ Maximieren sie die Effizienz Ihres Lagers.
 
 ## Produkt aufstocken
 
-Mit *Aufstocken* werden Produkte an Lager gelegt. Für die Produkte bestehenden unterschiedliche Vorgänge wie diese ins Lager gelanden. Zum Aufstocken öffnen sie *Lager > Produkte > Produkte* und öffnen ein Produkt. Wählen sie nun *Aufstocken*.
+Mit *Aufstocken* werden Produkte an Lager gelegt. Für die Produkte bestehenden unterschiedliche Vorgänge wie diese ins Lager gelanden. Zum Aufstocken öffnen Sie *Lager > Produkte > Produkte* und öffnen ein Produkt. Wählen Sie nun *Aufstocken*.
 
 ![](assets/Lager%20Produkt%20aufstocken.png)
 
-Geben sie die Menge ein und wählen sie *Bestätigen*. Nun wird entsprechend der Einstellung im Tab *Lager* des Produkts ein Transfer angelegt.
+Geben Sie die Menge ein und wählen Sie *Bestätigen*. Nun wird entsprechend der Einstellung im Tab *Lager* des Produkts ein Transfer angelegt.
 
 ## Erweiterte Vorgangstypen einrichten
 
@@ -51,28 +51,28 @@ Die Option *Mehrere Lagerorte* wird automatisch eingeschaltet und es erscheinen 
 
 ## Ablaufdatum aktivieren
 
-Für Produkte in Lots oder Produkte mit Seriennummer könne sie ein Ablaufdatum festlegen. Öffnen sie das Produkt via *Lager > Produkte > Produkte* und zeigen sie den Tab *Lager* an. Unter Lieferfolgung müssen sie eine Option für *Nachverfolung* auswählen. Nun erscheint die Checkbox *Ablaudatum*. Aktivieren sie diese und konfigurieren sie die Ablaufzeiten.
+Für Produkte in Lots oder Produkte mit Seriennummer könne Sie ein Ablaufdatum festlegen. Öffnen Sie das Produkt via *Lager > Produkte > Produkte* und zeigen Sie den Tab *Lager* an. Unter Lieferfolgung müssen Sie eine Option für *Nachverfolung* auswählen. Nun erscheint die Checkbox *Ablaudatum*. Aktivieren Sie diese und konfigurieren Sie die Ablaufzeiten.
 
 ![](assets/Lager%20Ablaufdatum%20konfiguriert.png)
 
 ## Sicherheitsvorlaufzeiten definieren
 
-Die Sicherheitsvorlaufzeiten können sie zentral unter *Einstellungen > Lager > Erweiterte Planung* festlegen. Aktivieren sie für jeweilige Vorlaufzeit die Checkbox und tragen sie die gewünschten Zeiten ein
+Die Sicherheitsvorlaufzeiten können Sie zentral unter *Einstellungen > Lager > Erweiterte Planung* festlegen. Aktivieren Sie für jeweilige Vorlaufzeit die Checkbox und tragen Sie die gewünschten Zeiten ein
 
 ## Bordereau-Export erstellen
 
-Öffnen sie *Lager > Berichtswesen > Produktlieferungen*. Filtern sie die Daten wie  folgt:
+Öffnen Sie *Lager > Berichtswesen > Produktlieferungen*. Filtern Sie die Daten wie  folgt:
 
 * Ausgehend
 * Erledigt
 
-Gruppieren und sortieren sie Lagerbuchungen nach:
+Gruppieren und sortieren Sie Lagerbuchungen nach:
 
 * Datum > Tag
 * Lieferadresse
 * Produkt
 
-Markieren sie zu exportierenden Lagerbuchungen und wählen sie *Aktion > Export*. Wählen sie diese Felder:
+Markieren Sie zu exportierenden Lagerbuchungen und wählen Sie *Aktion > Export*. Wählen Sie diese Felder:
 
 * Lagerbuchung/Lieferadresse
 * Produkt/Referenz
@@ -82,10 +82,10 @@ Markieren sie zu exportierenden Lagerbuchungen und wählen sie *Aktion > Export*
 
 ## Rundungsgenauigkeit einer Mengeneinheit ändern
 
-Wenn sie die Rundungsgenauigkeit (Stellen nach dem Komma) einer Mengeneinheit ändern möchten, öffnen sie *Lager > Konfiguration > Mengeneinheiten > UoM* und wählen hier die Einheit aus. Im Feld *Rundungsgenauigkeit* geben sie den entsprechenden Wert ein. 
+Wenn Sie die Rundungsgenauigkeit (Stellen nach dem Komma) einer Mengeneinheit ändern möchten, öffnen Sie *Lager > Konfiguration > Mengeneinheiten > UoM* und wählen hier die Einheit aus. Im Feld *Rundungsgenauigkeit* geben Sie den entsprechenden Wert ein. 
 
 ::: warning
-Die Anzahl Dezimalstellen für eine Einheit wird unter *Einstellungen > Technisch> Datenbankstruktur > Dezimalstellen* verwaltet. Passen sie dort den entsprechenden Eintrag an.
+Die Anzahl Dezimalstellen für eine Einheit wird unter *Einstellungen > Technisch> Datenbankstruktur > Dezimalstellen* verwaltet. Passen Sie dort den entsprechenden Eintrag an.
 :::
 
 Die hier gemachten Einstellung haben Einfluss auf die Darstellung der Zahl.
@@ -94,13 +94,13 @@ Die hier gemachten Einstellung haben Einfluss auf die Darstellung der Zahl.
 
 ## Aktion  "Lagerbuchung zurücksetzen" erstellen
 
-Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lagerbuchung zurücksetzen`\
 Modell: `stock.move`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```py
 for record in records:  
@@ -115,13 +115,13 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *
 
 ## Aktion  "Lagerbuchung abbrechen" erstellen
 
-Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lagerbuchung abbrechen`\
 Modell: `stock.move`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```py
 for record in records:  
@@ -134,13 +134,13 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *
 
 ## Aktion  "Lagerbuchung erledigen" erstellen
 
-Navigieren sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lagerbuchung erledigen`\
 Modell: `stock.move`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```py
 for record in records:
@@ -153,18 +153,18 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *
 
 ## Vorgangstyp für Retouren definieren
 
-Öffnen sie *Lager > Konfiguration > Route* und wählen sie eine Route aus. Klicken sie auf die *Regel* auf der die Retoure erfolgt. Wählen sie auf der Regel den *Vorgangstyp* aus und bearbeiten sie diesen. Im Feld *Vorgangstyp für Retouren* wählen sie den Vorgangstyp für die Retoure aus.
+Öffnen Sie *Lager > Konfiguration > Route* und wählen Sie eine Route aus. Klicken Sie auf die *Regel* auf der die Retoure erfolgt. Wählen Sie auf der Regel den *Vorgangstyp* aus und bearbeiten Sie diesen. Im Feld *Vorgangstyp für Retouren* wählen Sie den Vorgangstyp für die Retoure aus.
 
 
 ## Transfer korrigieren
 
-Wurde ein Transfer einmal erledigt, kann er nicht mehr bearbeitet werden. Jedoch können sie diesen *Entsperren* um bestimmte Felder zu ändern.
+Wurde ein Transfer einmal erledigt, kann er nicht mehr bearbeitet werden. Jedoch können Sie diesen *Entsperren* um bestimmte Felder zu ändern.
 
 ![Lager Transfer entsperren](assets/Lager%20Transfer%20entsperren.gif)
 
 ## Geplante Aktion "Erledigte Menge korrigieren" erstellen
 
-Navigieren sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Erledigte Menge korrigieren`\
 Modell: `ir.actions.server`\
@@ -173,7 +173,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 # Set products to ignore
@@ -233,13 +233,13 @@ if transport_moves:
 
 ## Lagerort Lagerschwund mit externer ID ergänzen
 
-Erfassen sie für das Lagerort *Virtual Locations/Scrap* eine externe ID gemäss [Externe ID erfassen](Entwicklung.md#Externe%20ID%20erfassen). Die Definition ist wie folgt:
+Erfassen Sie für das Lagerort *Virtual Locations/Scrap* eine externe ID gemäss [Externe ID erfassen](Entwicklung.md#Externe%20ID%20erfassen). Die Definition ist wie folgt:
 
 ![](assets/Lager%20Lagerschwund%20externe%20ID.png)
 
 ## Geplante Aktion "Lot automatisch zuweisen" erstellen
 
-Navigieren sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lot automatisch zuweisen`\
 Modell: `ir.actions.server`\
@@ -248,7 +248,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```py
 # Get outgoing pickings

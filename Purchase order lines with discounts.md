@@ -14,12 +14,12 @@ Repository: <https://github.com/OCA/purchase-workflow/tree/14.0/purchase_discoun
 
 ## Rabatt auf Preisliste festlegen
 
-Öffnen sie *Einkauf > Konfiguration > Lieferanten-Preislisten* und zeigen sie eine Preisliste an. Im Feld *Rabatt (%)* können sie Standardrabatte der Preisliste hinzufügen.
+Öffnen Sie *Einkauf > Konfiguration > Lieferanten-Preislisten* und zeigen Sie eine Preisliste an. Im Feld *Rabatt (%)* können Sie Standardrabatte der Preisliste hinzufügen.
 
 ## Rabatt auf Lieferant festlegen
 
-Öffnen sie *Einkauf > Aufträge > Lieferanten* und zeigen sie einen Lieferant an. Im Tab *Verkauf & Einkauf* finden sie das Feld *Standardlieferantenrabatt (%)*. Dort können sie den Standardrabatt für den Lieferant festlegen.
+Öffnen Sie *Einkauf > Aufträge > Lieferanten* und zeigen Sie einen Lieferant an. Im Tab *Verkauf & Einkauf* finden Sie das Feld *Standardlieferantenrabatt (%)*. Dort können Sie den Standardrabatt für den Lieferant festlegen.
 
 ## Rabatt auf Einkaufsposition festlegen
 
-Öffnen sie *Einkauf > Aufträge > Bestellungen* und wählen sie eine Bestellung aus. Im Tab *Produkte* finden sie eine Spalte *Rabatt (%)*. Legen sie dort den Rabatt fest.
+Öffnen Sie *Einkauf > Aufträge > Bestellungen* und wählen Sie eine Bestellung aus. Im Tab *Produkte* finden Sie eine Spalte *Rabatt (%)*. Legen Sie dort den Rabatt fest.

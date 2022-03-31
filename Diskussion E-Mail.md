@@ -12,7 +12,7 @@ E-Mail mit Odoo versenden.
 
 Damit Odoo Mail verschicken kann, muss ein ausgehender Mail-Server konfiguriert werden.
 
-Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren sie das Feature, wenn noch nicht erledigt und wählen *Ausgehender Mail-Server*. Klicken sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten.
+Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Ausgehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten.
 
 ::: tip
 Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladung, versendet Odoo die E-Mail im Namen des Unternehmens und verwendet dazu die E-Mail-Adresse aus den Unternehmenseinstellungen.
@@ -23,20 +23,20 @@ Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
 Damit Odoo Mails empfanen und verarbeiten kann, muss ein eingehender Mail-Server konfiguriert werden.
 
-Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten.
+Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten.
 
 ## Testnachrichten verschicken
 Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
 Um sicherzustellen, dass Odoo Nachrichten am richtigen Ort platziert, kann man als Administrator des Systems Testnachrichten erstellen und verschicken.
 
-Öffnen sie *Einstellungen > Diskussion > Externe E-Mail-Server > Eintrag auswählen > Aktion > Nachrichten*. Mit *Anlegen* könne sie nun ein Nachricht erfassen und verschicken.
+Öffnen Sie *Einstellungen > Diskussion > Externe E-Mail-Server > Eintrag auswählen > Aktion > Nachrichten*. Mit *Anlegen* könne Sie nun ein Nachricht erfassen und verschicken.
 
 ## Mail an Kontakt senden
 
 Mit dem Odoo-Chatter können auf jedem Geschäftsobjekt interne Notizen hinzugefügt werden, aber auch Mails für Externe.
 
-Zum versenden einer Nachricht an einen Kontakt wählen sie *Kontakte > Kontakte* und navigieren zum *Chatter*. Wählen sie *Sende Nachricht* und vergrössern sie das Eingabefeld. Wählen sie die Empfänger, den Betreff, geben sie ihre Nachricht ein und klicken sie auf *Senden.*
+Zum versenden einer Nachricht an einen Kontakt wählen Sie *Kontakte > Kontakte* und navigieren zum *Chatter*. Wählen Sie *Sende Nachricht* und vergrössern Sie das Eingabefeld. Wählen Sie die Empfänger, den Betreff, geben Sie ihre Nachricht ein und klicken Sie auf *Senden.*
 
 ![Diskussion Nachricht versenden](assets/Diskussion%20Nachricht%20versenden.gif)
 

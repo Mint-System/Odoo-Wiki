@@ -10,7 +10,7 @@ Produkte und Dienstleistungen zentral pflegen.
 
 ## Produkt anlegen
 
-Navigieren sie nach *Fertigung > Stammdaten > Produkte*.
+Navigieren Sie nach *Fertigung > Stammdaten > Produkte*.
 
 ![Fertigung Produkt anlegen](assets/Fertigung%20Produkt%20anlegen.png)
 
@@ -67,11 +67,11 @@ Zur Auswahl stehen
 * Verbrauchsartikel
 * Dienstleistung
 
-Falls ein Produkt im Lager eingebucht und die Menge überwacht werden soll, ist *Einlagerbares Produkt* die richtige Wahl. Für Produkte welche mengenmässig nicht erfasst werden (z.B. Reinigungsflüssigkeit) wählen Sie *Verbrauchsartikel*. Sie können sie einkaufen aber nicht an Lager legen. Die Produktart *Dienstleistung* dient zur Darstellung von immateriellen Gütern (z.B. Beratungsleistung).
+Falls ein Produkt im Lager eingebucht und die Menge überwacht werden soll, ist *Einlagerbares Produkt* die richtige Wahl. Für Produkte welche mengenmässig nicht erfasst werden (z.B. Reinigungsflüssigkeit) wählen Sie *Verbrauchsartikel*. Sie können Sie einkaufen aber nicht an Lager legen. Die Produktart *Dienstleistung* dient zur Darstellung von immateriellen Gütern (z.B. Beratungsleistung).
 
 ## Produktkategorie festlegen
 
-Die Produktkategorie können sie nach eigenen Definitionen kategorisieren.
+Die Produktkategorie können Sie nach eigenen Definitionen kategorisieren.
 
 Zur Auswahl stehen:
 * All
