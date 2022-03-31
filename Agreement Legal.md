@@ -13,11 +13,16 @@ Verträge und Vereinbarungen dokumentieren.
 Technischer Name: `agreement_legal`\
 Repository: <https://github.com/OCA/contract/tree/14.0/agreement_legal>
 
-## Vertragsypen verwalten
+## Vereinbarungstyp verwalten
 
-Navigieren Sie nach *Agreements > Configuration > Agreement Types*. Hier können sie bestehende Vertragstypen bearbeiten oder neue erstellen.
+Navigieren Sie nach *Agreements > Configuration > Agreement Types*. Hier können sie bestehende Vereinbarungstyp bearbeiten oder neue erstellen.
 
 ![](assets/Agreement%20Types.png)
+## Unter-Vereinbarungstyp erstellen
+
+Die Vereinbarungstypen können weiter in Untergruppen gegliedert werden. Navigieren Sie nach *Agreements > Configuration > Agreement Types*, wählen sie einen Eintrag aus und erfassen sie in der Tabelle *Sub-Type Name* die Untergruppen.
+
+![](assets/Agreement%20Legal%20Subtypes.png)
 
 ## Vorlage für Vereinbarung erstellen
 
@@ -48,3 +53,7 @@ Basierend auf einer Vorlage können Sie eine Vereinbarung erstellen. Öffnen sie
 Öffnen sie die *Agreements* App und wählen Sie eine bestehende Vereinbarung. Klicken Sie auf *New Version*. Nun wird die bestehende Vereinbarung dupliziert und im Tab *Revisions* wird die alte Version verknüpft.
 
 ![](assets/Agreement%20Legal%20Revisions.png)
+
+## Stufen der Vereinbarungen anpassen
+
+Um die Stufen der Vereinbarungen anzupassen, wählen Sie *Agreements > Configuration > Stages*. Hier können sie bestehende Stufen anpassen, löschen oder neue erstellen.
