@@ -8,9 +8,10 @@ prev: ./
 
 Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 
-| Erweiterung               | Beschreibung                      |
-| ------------------------- | --------------------------------- |
-| [Website eCommerce](Website%20eCommerce.md) | Webshop ohne Integrationsaufwand. |
+| Erweiterung                                                                   | Beschreibung                      |
+| ----------------------------------------------------------------------------- | --------------------------------- |
+| [Website eCommerce](Website%20eCommerce.md)                                   | Webshop ohne Integrationsaufwand. |
+| [Website Sale Default Country CH](Website%20Sale%20Default%20Country%20CH.md) | Schweiz als Standardland im Webhop festlegen.                                  |
 
 ## Zugriff Menu beschränken
 
