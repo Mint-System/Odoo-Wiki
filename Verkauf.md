@@ -20,7 +20,7 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 | [Sale Order Line Date](Sale%20Order%20Line%20Date.md)                                 | Lieferdatum pro Position.                                                                       |
 | [Sale Blanket Order](Sale%20Blanket%20Order.md)                                       | Rahmenverträge für Verkäufe erstellen.                                                          |
 | [Sale Blanket Order Notes](Sale%20Blanket%20Order%20Notes.md)                         | Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden.                          |
-| [Sale Order Line Position](Sale%20Order%20Line%20Position.md)                         | Verkaufsaufträge mit Positionsnummern.                                                          |
+| [Sale Order Line Pos](Sale%20Order%20Line%20Pos.md)                         | Verkaufsaufträge mit Positionsnummern.                                                          |
 | [Sale Order Default Commitment Date](Sale%20Order%20Default%20Commitment%20Date.md)   | Standardlieferdatum festlegen.                                                                  |
 | [Sale Order Contact Person](Sale%20Order%20Contact%20Person.md)                       | Kontaktperson auf Verkaufsauftrag festlegen.                                                    |
 | [Sale Order Line Description](Sale%20Order%20Line%20Description.md)                   | Nur Verkausbeschreibung im Feld Beschreibung übertragen.                                        |

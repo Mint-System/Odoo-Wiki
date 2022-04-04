@@ -4,13 +4,13 @@ tags:
 - Drittanbieter
 prev: ./verkauf
 ---
-# Sale Order Line Position
+# Sale Order Line Po
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Verkaufsaufträge mit Positionsnummern. 
 
-Technischer Name: `sale_order_line_position`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_position>
+Technischer Name: `sale_order_line_pos`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_pos>
 
 ## Positionsnummern generieren
 
