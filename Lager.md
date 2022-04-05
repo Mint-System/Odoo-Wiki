@@ -226,7 +226,7 @@ for picking in pickings:
     for transport_move in transport_move_ids:
       if transport_move.quantity_done == 0 and x_count_boxes_sum > 0:
         transport_moves.append(transport_move)
-        transport_move.write({'quantity_done': x_count_boxes_sum})
+        transport_move.write({'quantity_done': x_count_boxes_sum, 'product_uom_qty': x_count_boxes_sum})
 if transport_moves:
   log('Fix qty done for transport moves: %s' % (transport_moves))
 ```
