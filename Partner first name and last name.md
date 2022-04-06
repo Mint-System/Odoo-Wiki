@@ -10,7 +10,7 @@ prev: ./kontakte
 Unterscheidet Vor- und Nachnamen.
 
 Technischer Name: `partner_firstname`\
-Repository: <https://github.com/OCA/partner-contact/tree/14.0/partner_firstname>
+Repository: <https://github.com/OCA/partner-contact/tree/15.0/partner_firstname>
 
 ## Reihenfolge Namensbestandteile festlegen
 
