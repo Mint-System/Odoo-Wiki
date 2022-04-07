@@ -52,3 +52,9 @@ Entfernen Sie einen Abonnent vom Odoo-Objekt indem Sie rechts von *Abonnieren* a
 ## Benachrichtigungen anzeigen
 
 Wenn Odoo Nachrichten versendet, werden abonnierte Benutzer benachrichtigt. Diese Benachrichtigungen können via *Einstellungen > Technisch > Benachrichtigungen* angezeigt werden.
+
+## Nicht versende E-Mails anzeigen
+
+Wenn Sie den Entwicklermodus eingeschaltet haben, finden Sie unter *Einstellungen > Technisch > E-Mails* eine Liste der nicht versendeten E-Mails. Odoo registiert wenn die E-Mail-Zustellung nicht erfolgreich wa
+
+![](assets/Diskussion%20nicht%20versendete%20E-Mails.png)
