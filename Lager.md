@@ -164,7 +164,7 @@ Wurde ein Transfer einmal erledigt, kann er nicht mehr bearbeitet werden. Jedoch
 
 ## Geplante Aktion "Los automatisch zuweisen" erstellen
 
-Diese Aktion prüft ausgehende Lieferungen und setzt die Losnummer basierend auf eingehenden Lieferungen.
+Die Aktion lädt alle Produklieferungen, welche noch keine Losnummer haben und vergleicht diese mit Produktzugängen. Wenn es einen Produkteingang gibt, der bis einer Woche vor der Lieferung eingeht, wird die Losnummer des Zugang auf die Lieferung übertragen.
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
