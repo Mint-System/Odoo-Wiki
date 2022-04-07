@@ -19,7 +19,6 @@ Repository: <https://github.com/Mint-System/sale-workflow/tree/14.0-mig-sale_bla
 | [Sale Blanket Order Stock Terms](Sale%20Blanket%20Order%20Stock%20Terms.md)       | Legen Sie Lieferbedinungen auf dem Rahmenauftrag fest.                 |
 | [Sale Blanket Order Send](Sale%20Blanket%20Order%20Send.md)                       | Workflow mit Rahmenauftrag per E-Mail.                                 |
 | [Sale Blanket Order Comment](Sale%20Blanket%20Order%20Comment.md)                 | Kommentar auf Verkauf- und Rahmenauftrag.                              |
-| [Sale Order Template Notes](Sale%20Order%20Template%20Notes.md)                   |  Notizen auf Angebotsvorlage.                                                                      |
 
 ## Rahmenauftrag erstellen
 

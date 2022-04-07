@@ -7,7 +7,7 @@ prev: ./verkauf
 # Sale Force Invoiced
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Markieren Sie den Verkaufsauftrag abgerechnet.
+Markieren Sie den Verkaufsauftrag als abgerechnet.
 
 Technischer Name: `sale_force_invoiced`\
 Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_force_invoiced>
