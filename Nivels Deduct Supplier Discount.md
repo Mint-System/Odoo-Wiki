@@ -8,7 +8,7 @@ prev: ./abrechnung
 
 ![](assets/icon-nivels.png)
 
-Allow discount deduction on vendor bills
+Allow discount deduction on vendor bills.
 
 Technischer Name: `nivels_deduct_supplier_discount`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/nivels_deduct_supplier_discount>
@@ -24,6 +24,8 @@ After installing the user has to create a discount product (see **Inventory**, *
 ![](assets/Nivels%20Deduct%20Supplier%20Discount%20Product.png)
 
 ![](assets/Nivels%20Deduct%20Supplier%20Discount%20Product%20Tax.png)
+
+Finallly you can also configure the default accounts in the *Accounting* tab.
 
 ## Setup payment term
 
