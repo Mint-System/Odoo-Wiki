@@ -6,7 +6,7 @@ prev: ./abrechnung
 ---
 # Nivels Deduct Supplier Discount
 
-![](assets/icon.png)
+![](assets/icon-nivels.png)
 
 Allow discount deduction on vendor bills
 
