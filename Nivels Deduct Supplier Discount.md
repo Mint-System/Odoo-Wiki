@@ -10,8 +10,8 @@ prev: ./abrechnung
 
 Allow discount deduction on vendor bills
 
-Technischer Name: `sh_inv_merge_pdf`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/sh_inv_merge_pdf>
+Technischer Name: `nivels_deduct_supplier_discount`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/nivels_deduct_supplier_discount>
 
 ## Setup discount product
 
