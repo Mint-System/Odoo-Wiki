@@ -8,23 +8,6 @@ prev: ./diskussion
 
 E-Mail mit Odoo versenden.
 
-## Ausgehender Mail-Server konfigurieren
-
-Damit Odoo Mail verschicken kann, muss ein ausgehender Mail-Server konfiguriert werden.
-
-Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Ausgehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten.
-
-::: tip
-Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladung, versendet Odoo die E-Mail im Namen des Unternehmens und verwendet dazu die E-Mail-Adresse aus den Unternehmenseinstellungen.
-:::
-
-## Eingehender Mail-Server konfigurieren
-Aufgabenträger: [Administrator](Rollen.md#Administrator)
-
-Damit Odoo Mails empfanen und verarbeiten kann, muss ein eingehender Mail-Server konfiguriert werden.
-
-Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten.
-
 ## Testnachrichten verschicken
 Aufgabenträger: [Administrator](Rollen.md#Administrator)
 

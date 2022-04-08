@@ -33,6 +33,12 @@ Falls ihr Benutzer in Odoo noch nicht existiert hat, erscheint die folgende Meld
 
 Kontaktieren Sie den/die [AdministratorIn](Rollen.md#Administrator%20In) und bitten Sie um eine Freigabe. Wurde die Freigabe erstellt, loggen Sie sich erneut ein.
 
+## OAuth Benutzername festlegen
+
+Wurde ein OAuth Provider konfiguriert, kann jedem Odoo Benutzer ein bestimmer OAuth Benutzername hinterlegt werden. Führen Sie diese Aktionen aus *Einstellungen > Benutzer und Unternehmen > Benutzer > Benutzer wählen > Tab Oauth öffnen*. Im Feld *OAuth User ID* können Sie den Benutzernamen für das Login festlegen.
+
+![](assets/Integration%20OAuth%20Benutzername.png)
+
 ## Portal-Benutzer in internen Benutzer umwandeln
 
 Wenn Benutzer sich über das Portal bzw. Login-Fenster registrieren wird ein Portal-Benutzer erstellt. Dieser Benutzer hat Zugriff auf die externen Dienste von Odoo. Wenn Sie diesem Benutzer interne Zugriffsrechte geben möchten, gehen Sie wie folgt vor.
