@@ -18,6 +18,7 @@ Das Odoo Wiki wird von der [Mint System GmbH](https://www.mint-system.ch/) unter
 Es sind Dokumente von diesen Drittanbietern vorhanden:
 * [nivels GmbH](https://www.nivels.ch/)
 * [giordano.ch](https://www.giordano.ch/)
+* [syscoon GmbH](https://syscoon.com/)
 * [Odoo Community Association](https://odoo-community.org/)
 * [VentorTech](https://ventor.tech/)
 * [Zebra](https://www.zebra.com)
