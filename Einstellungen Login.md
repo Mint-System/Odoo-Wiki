@@ -8,6 +8,10 @@ prev: ./einstellungen
 
 Odoo-Einstellungen zum Benutzer und Anmeldeverfahren.
 
+| Erweiterung                                                           | Beschreibung                            |
+| --------------------------------------------------------------------- | --------------------------------------- |
+| [Authentication OpenID Connect](Authentication%20OpenID%20Connect.md) | Login mit OpenID Connect Provider. |
+
 ## Kundenkonto Einladungsverfahren festlegen
 
 für Kunden, Teilnehmer und Partner kann ein Odoo-Zugang eingerichtet werden. Unter *Einstellungen > Benutzer > Kundenkonto* hat man zwei Optionen:

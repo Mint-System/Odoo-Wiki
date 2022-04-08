@@ -8,7 +8,7 @@ prev: ./abrechnung
 
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt.      
+Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt.
 
 Technischer Name: `account_move_post_warn`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_move_post_warn>

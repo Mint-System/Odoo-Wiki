@@ -55,6 +55,6 @@ Wenn Odoo Nachrichten versendet, werden abonnierte Benutzer benachrichtigt. Dies
 
 ## Nicht versende E-Mails anzeigen
 
-Wenn Sie den Entwicklermodus eingeschaltet haben, finden Sie unter *Einstellungen > Technisch > E-Mails* eine Liste der nicht versendeten E-Mails. Odoo registiert wenn die E-Mail-Zustellung nicht erfolgreich wa
+Wenn Sie den Entwicklermodus eingeschaltet haben, finden Sie unter *Einstellungen > Technisch > E-Mails* eine Liste der nicht versendeten E-Mails. Odoo registiert wenn die E-Mail-Zustellung nicht erfolgreich war.
 
 ![](assets/Diskussion%20nicht%20versendete%20E-Mails.png)
