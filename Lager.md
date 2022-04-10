@@ -21,12 +21,11 @@ Maximieren Sie die Effizienz Ihres Lagers.
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md) | Erlaubt die Archivierung von Los/Chargen.                                                                   |
 | [Stock Move Line Position](Stock%20Move%20Line%20Position.md)       | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.                                            |
 | [Stock Delivery Note](Stock%20Delivery%20Note.md)                   | Notiz auf Lieferschein.                                                                                     |
-| [Stock Move Line Packaging](Stock%20Move%20Line%20Packaging.md)     | Verknüpfen der Verpackung von Verkaufsauftrag.                                                              |
-| [Stock Barcode Packaging](Stock%20Barcode%20Packaging.md)           | Verpackung auf Strichcode-Vorgang anzeigen.                                                                 |
 | [Product Logistics UoM](Product%20Logistics%20UoM.md)               | Individuelle Mengenheit für Produkte festlegen.                                                             |
 | [Stock Move Weight UoM](Stock%20Move%20Weight%20UoM.md)             | Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.                                                |
 | [Stock Move Line Auto Fill](Stock%20Move%20Line%20Auto%20Fill.md)   | Die erledigte Menge auf einem Transfer automatisch ausfüllen.                                               |
-| [Stock Critical Forecast](Stock%20Critical%20Forecast.md)           | Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzeigen.                                  |
+| [Stock Critical Forecast](Stock%20Critical%20Forecast.md)           | Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzeigen.                         |
+| [Stock Picking Notes](Stock%20Picking%20Notes)                      | Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.        |
 
 ## Produkt aufstocken
 
@@ -162,7 +161,61 @@ Wurde ein Transfer einmal erledigt, kann er nicht mehr bearbeitet werden. Jedoch
 
 ![Lager Transfer entsperren](assets/Lager%20Transfer%20entsperren.gif)
 
+## Geplante Aktion "Los automatisch zuweisen" erstellen
+
+Die Aktion lädt alle Produklieferungen, welche noch keine Losnummer haben und vergleicht diese mit Produktzugängen. Wenn es einen Produkteingang gibt, der bis einer Woche vor der Lieferung eingeht, wird die Losnummer des Zugang auf die Lieferung übertragen.
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Los automatisch zuweisen`\
+Modell: `ir.actions.server`\
+Ausführen alle: `15` Minuten\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Settings
+scope_days = 7
+
+# Get confirmed outgoing pickings
+pickings_out = env['stock.picking'].search(["&", ["picking_type_code", "=", "outgoing"], ("state", "in", ["confirmed", "assigned", "partially_available"])])
+
+# Get confirmed incoming pickings
+pickings_in = env['stock.picking'].search(["&", ["picking_type_code", "=", "incoming"], ("state", "in", ["confirmed", "assigned", "partially_available"])])
+
+# Get move lines with lot and tracking enabled
+lot_move_lines = pickings_in.move_line_ids.filtered(lambda l: l.lot_id and l.tracking)
+
+# raise UserError(lot_move_lines)
+
+# Get lines where lot is not set and tracking enabled
+fix_move_lines = pickings_out.move_line_ids.filtered(lambda l: not l.lot_id and l.tracking)
+
+# raise UserError(fix_move_lines)
+
+messages = []
+for line in fix_move_lines:
+  # Find matching lot line by product and scope
+  match_lot_move_lines = lot_move_lines.filtered(lambda l: l.product_id == line.product_id and ((line.move_id.date - datetime.timedelta(days=scope_days)) < l.move_id.date and l.move_id.date < line.move_id.date))
+  if match_lot_move_lines:
+    match_line = match_lot_move_lines[0]
+    # raise UserError([line.product_id.name,line.picking_id.name,match_line.product_id.name,match_line.picking_id.name])
+    messages.append('Set matching lot from %s on %s.' % (match_line,line))
+    try:
+      line.write({'lot_id': match_line.lot_id})
+    except:
+      log('While writing %s with %s an error occured.' % (line, match_line.lot_id), level='error')
+
+if messages:
+  log(' '.join(messages))
+```
+
 ## Geplante Aktion "Erledigte Menge korrigieren" erstellen
+
+Diese Aktion prüft ausgehende Lieferungen und setzt die erledigte Menge gemäss Bedarf ohne Berücksichtigung von Materialreservationen.
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -226,7 +279,7 @@ for picking in pickings:
     for transport_move in transport_move_ids:
       if transport_move.quantity_done == 0 and x_count_boxes_sum > 0:
         transport_moves.append(transport_move)
-        transport_move.write({'quantity_done': x_count_boxes_sum})
+        transport_move.write({'quantity_done': x_count_boxes_sum, 'product_uom_qty': x_count_boxes_sum})
 if transport_moves:
   log('Fix qty done for transport moves: %s' % (transport_moves))
 ```

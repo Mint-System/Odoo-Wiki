@@ -10,7 +10,7 @@ prev: ./diskussion
  Automatisches Abonnieren deaktiveren.
  
 Technischer Name: `mail_thread_context`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mail_thread_context>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_thread_context>
 
 ## Automatisches Abonnieren deaktivieren
 

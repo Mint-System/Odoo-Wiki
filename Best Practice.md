@@ -50,6 +50,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [SEPA Zahlung](Best%20Pratice%20SEPA%20Zahlung.md)
 * [Zahlungsabgleich](Best%20Pratice%20Zahlungsabgleich.md)
 * [Kostenrechnung](Best%20Pratice%20Kostenrechnung.md)
+* [Buchung Gewinn-/Verlustvortrag](Best%20Practice%20Buchung%20Gewinn-Verlust-Vortrag.md)
 
 ### Verkauf und Einkauf
 

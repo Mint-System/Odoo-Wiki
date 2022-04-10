@@ -12,7 +12,7 @@ Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
 | ------------------------------------------------------------------------------------- | ---------------------------------------------------- |
 | [Einkauf Kaufverträge](Einkauf%20Kaufverträge.md)                                     | Kaufverträge für Rahmenbestellungen erstellen.       |
 | [Purchase Order Line Date](Purchase%20Order%20Line%20Date.md)                         | Lieferdatum im Wareneingang automatisch nachtragen.  |
-| [Purchase Partner Incoterm](Purchase%20Partner%20Incoterm.md)                         | Für jedem Partner die Incoterms festlegen.           |
+| [Purchase Order Partner Incoterm](Purchase%20Order%20Partner%20Incoterm.md)                         | Für jedem Partner die Incoterms festlegen.           |
 | [Pruchase Order Line Position](Purchase%20Order%20Line%20Position.md)                 | Einkaufsaufträge mit Positionsnummern.               |
 | [Purchase Order Line Price Default](Purchase%20Order%20Line%20Price%20Default.md)     | Standardpreis einer Einkaufsposition überschreiben.  |
 | [Purchase order lines with discounts](Purchase%20order%20lines%20with%20discounts.md) | Rabatte auf Einkaufspositionen festlegen.            |

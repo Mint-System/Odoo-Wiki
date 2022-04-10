@@ -8,10 +8,11 @@ prev: ./
 
 In alle Module integrierter privater Chat und Gruppen-Chat.
 
-| Bereich                                           | Beschreibung              |
-| ------------------------------------------------- | ------------------------- |
-| [Diskussion E-Mail](Diskussion%20E-Mail.md)       | E-Mail mit Odoo versenden. |
-| [Mail Thread Context](Mail%20Thread%20Context.md) | Automatisches Abonnieren deaktiveren.                          |
+| Bereich                                                       | Beschreibung                                                           |
+| ------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [Diskussion E-Mail](Diskussion%20E-Mail.md)                   | E-Mail mit Odoo versenden.                                             |
+| [Mail Thread Context](Mail%20Thread%20Context.md)             | Automatisches Abonnieren deaktiveren.                                  |
+| [Account Move Mail Thread](Account%20Move%20Mail%20Thread.md) | Verhindert das versenden von Nachrichten beim Erstellen einer Buchung. |
 
 
 | Erweiterung                           | Beschreibung               |
@@ -51,3 +52,9 @@ Entfernen Sie einen Abonnent vom Odoo-Objekt indem Sie rechts von *Abonnieren* a
 ## Benachrichtigungen anzeigen
 
 Wenn Odoo Nachrichten versendet, werden abonnierte Benutzer benachrichtigt. Diese Benachrichtigungen können via *Einstellungen > Technisch > Benachrichtigungen* angezeigt werden.
+
+## Nicht versende E-Mails anzeigen
+
+Wenn Sie den Entwicklermodus eingeschaltet haben, finden Sie unter *Einstellungen > Technisch > E-Mails* eine Liste der nicht versendeten E-Mails. Odoo registiert wenn die E-Mail-Zustellung nicht erfolgreich war.
+
+![](assets/Diskussion%20nicht%20versendete%20E-Mails.png)

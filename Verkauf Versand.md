@@ -8,6 +8,17 @@ prev: ./verkauf
 
 Versandmethoden und Logistik definieren.
 
+| Erweiterung                                                                           | Beschreibung                                                                                    |     |
+| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --- |
+| [Sale Order Delivery Note](Sale%20Order%20Delivery%20Note.md)                         | Notiz auf Verkaufsauftrag für Lieferung hinzufügen.                                             |     |
+| [Sale Stock Picking Note](Sale%20Stock%20Picking%20Note.md)                           | Interne und externe Notiz für Lieferungen.                                                      |     |
+| [Sale Order Line Default Packaging](Sale%20Order%20Line%20Default%20Packaging.md)     | Standardverpackung auf Position setzen.                                                         |     |
+| [Sale Order Default Carrier](Sale%20Order%20Default%20Carrier.md)                     | Auslieferungsmethode von Kontakt übernehmen.                                                    |     |
+| [Sale Order Line Date](Sale%20Order%20Line%20Date.md)                                 | Lieferdatum pro Position.                                                                       |     |
+| [Sale Order Default Commitment Date](Sale%20Order%20Default%20Commitment%20Date.md)   | Standardlieferdatum festlegen.                                                                  |     |
+| [Sale Order Expected Commitment Date](Sale%20Order%20Expected%20Commitment%20Date.md) | Das Standardlieferdatum ist das erwartete Datum.                                                |     |
+| [Sale Order Line Date Propagate](Sale%20Order%20Line%20Date%20Propagate.md)           | Lieferfristen auf dem Verkaufsautrag und dessen Zeilen werden auf den Lieferauftrag übertragen. |     |
+
 ## Versandmethode erstellen
 
 Navigieren Sie nach *Verkauf > Konfiguration > Versandmethoden* und erstellen Sie eine neue Methode. Eine Versandmethode braucht miestends einen *Namen*, *Anbieter* und ein *Auslieferungsprodukt*. Erstellen Sie für die neue Versandmethode ein Auslieferungsprodukt.

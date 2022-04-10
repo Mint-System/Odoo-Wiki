@@ -1,0 +1,23 @@
+---
+tags:
+- HowTo
+- OCA
+prev: ./projekt
+---
+# Business Requirement
+![](assets/icon_oca_business_requirement.png)
+
+Projektanforderungen erfassen und verknüpfen. 
+
+Technischer Name: `business_requirement`\
+Repository: <https://github.com/OCA/business-requirement/tree/14.0/business_requirement>
+
+## Projektanforderung erfassen
+
+Öffnen sie  die App *Business Requirement* und klicken sie auf *Anlegen*. Geben sie einen Titel ein und füllen sie die Felder wie nötig aus.
+
+![](assets/Business%20Requirement%20erstellen.png)
+
+Beim Speichern wird gemäss Sequenz eine ID generiert. Sie können diese [Sequenz anpassen](Einstellungen.md#Sequenz%20anpassen).
+
+![](assets/Business%20Requirement%20Sequenz.png)

@@ -4,13 +4,13 @@ tags:
 - Drittanbieter
 prev: ./einkauf
 ---
-# Purchase Partner Incoterm
+# Purchase Order Partner Incoterm
 ![](assets/icon_odoo_purchase_partner_incoterm.png)
 
 Für jedem Partner die Incoterms festlegen.
 
-Technischer Name: `purchase_partner_incoterm`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_partner_incoterm>
+Technischer Name: `purchase_order_partner_incoterm`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_partner_incoterm>
 
 ## Standard-Incoterm für Einkauf festlegen
 

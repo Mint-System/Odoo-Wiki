@@ -126,4 +126,4 @@ Wenn Sie einen Buchungssatz mit meheren Zeilen im Excel erstellen und anschliess
 | Lohn    | 2022-01-31 | Lohn                        | 1091                 | 74297.35            |                      |
 |         |            | Lohn                        | 1030                 |                     | 74297.35             |
 
-Damit wird eine Lohnbuchung in Journal *Lohn* importiert. Für den Import wählen Sie *Finanzen > Finanzen > Buchungssätze > Favoriten > Datensätze importieren*. Der Import-Dialog wird die Spaltenüberschriften automatisch erkennen und mit den Felder des Datenmodells verknüpfen. 
+Damit wird eine Lohnbuchung in Journal *Lohn* importiert. Für den Import wählen Sie *Finanzen > Finanzen > Buchungssätze > Favoriten > Datensätze importieren*. Der Import-Dialog wird die Spaltenüberschriften automatisch erkennen und mit den Felder des Datenmodells verknüpfen.
