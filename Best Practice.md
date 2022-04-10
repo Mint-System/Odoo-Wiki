@@ -61,7 +61,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Zustände von Ein- und Verkaufsaufträgen](Best%20Practice%20Zustände%20von%20Ein-%20und%20Verkausfauträgen.md)
 * [Subunternehmer beauftragen](Best%20Practice%20Subunternehmer%20beauftragen.md)
 * [Stückpreis definieren](Best%20Practice%20Stückpreis%20definieren.md)
-* [Best Practice Verkauf Kit bereitstellen](Best%20Practice%20Verkauf%20Kit%20bereitstellen.md)
+* [Kit bereitstellen](Best%20Practice%20Verkauf%20Kit%20bereitstellen.md)
 
 ### Lager
 
