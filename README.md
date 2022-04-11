@@ -187,7 +187,7 @@ Alle Kontaktdaten an einem Ort.
 
 ### [Kundenverwaltung](Kundenverwaltung.md)
 
-Synonym: [[CRM]]
+Synonym: [CRM](CRM.md)
 
 Verfolgen Sie Leads, schließen Sie Chancen ab und erhalten Sie genaue Prognosen.
 
