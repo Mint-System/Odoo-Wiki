@@ -2,9 +2,6 @@
 tags:
 - HowTo
 prev: ./
-meta:
-  - name: keywords
-    content: crm leads customers
 ---
 # Kundenveraltung
 ![icons_odoo_crm](assets/icons_odoo_crm.png)
