@@ -18,3 +18,7 @@ Verfolgen Sie Leads, schließen Sie Chancen ab und erhalten Sie genaue Prognosen
 ![](assets/Kundenverwaltung.png)
 
 Speichern Sie die Chance in ihrer Pipeline mit *Hinzufügen*.
+
+## Chance anreichern
+
+Odoo kann zum Kunden Unternehmensdaten finden und der Chance hinzufügen. Wählen Sie eine Chance auf der Übersicht von *Kundenverwaltung* aus und klicken Sie auf *Aktion > Anreichern*. Wenn Odoo Informationen zum Kunden findet, liestet es diese auf der rechten Seite im Chatter auf.
