@@ -154,7 +154,7 @@ if (!firstArg || ['all', 'index'].indexOf(firstArg) >= 0) {
 
         // Use filename as title
         if (!title) {
-            title = file.name
+            title = file.replace('.md','')
             // throw new Error(`Could not find title for '${file}'.`)
         }
 
