@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 meta:
-	- name: keywords
+  - name: keywords
     content: crm leads customers
 ---
 # Kundenveraltung
