@@ -37,6 +37,18 @@ Im Register Produkte werden die gewünschten Artikel gelistet.
 
 Mit dem Knopf *Per E-Mail Versenden* wird eine PDF-Datei generiert und per eMail an den Lieferanten gesendet.
 
+## Angebotsanfrage nachfassen
+
+Falls man beim Lieferanten bezüglich einem fehlenden Angebot nachfassen will, verwendet man den Knopf *Per e-Mail erneut senden*. Damit öffnet sich ein Dialog für den Versand eines e-Mails an den Lieferanten mit der Angebotsanfrage als Beilage.
+
+## An Beschaffungsauftrag erinnern
+
+Wenn der Lieferant an die Erfüllung des Beschaffungsauftrags erinnert werden soll, dann verwendet man hierzu die Aktion *Send Reminder*. Damit wird vollautomatisch eine e-Mail an den Lieferanten mit vordefiniertem Text und dem Beschaffungsauftrag als Beilage versendet.
+
+::: tip
+Die Aktion "Send Reminder" wird mit dem Aktivieren der Option *Ask confirmation* zum festgelegten Zeitpunkt automatisch ausgeführt.
+:::
+
 ## Portal-Ansicht Bestellung anzeigen
 
 Die Portal-Ansicht einer Bestellung können Sie wie folgt anzeigen:
