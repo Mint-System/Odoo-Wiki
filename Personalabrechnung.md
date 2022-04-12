@@ -12,7 +12,8 @@ Personalbrechnungen schnell und einfach erstellen.
 | ------------------------------------------------------------------------- | -------------------------------------------- |
 | [Payroll Customizations Giordano](Payroll%20Customizations%20Giordano.md) | Lohnabrechnung nach Schweizer Anforderungen. |
 | [Lohnmeldung](Lohnmeldung.md)                                             | Lohnmeldungen ganz einfach generieren.       |
-| [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md)           | Lohnabrechnungen mit variablen Eingaben.                                             |
+| [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md)           | Lohnabrechnungen mit variablen Eingaben.     |
+| [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md)                                           | Berichte für Lohnbuchhaltung erstellen.                                             |
 
 ## Pesonalabrechnung initialisieren
 
@@ -113,13 +114,17 @@ Damit Sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen Sie dem How
 Name der Aktion: `Lohnabrechnungszeilen`\
 Objekt: `hr.payslip.line`\
 Menü: `Lohnabrechnungszeilen`\
-Obermenü: `Personalabrechnung/Abrechnungen Mitarbeitervergütung`\
+Obermenü: `Personalabrechnung/Berichtswesen`\
 Aktion: `ir.actions.act_window` `Lohnabrechnungszeilen`
 Nummernfolge: `90`
 
 Das Ergebnis sollte so aussehen:
 
 ![](assets/Personalabrechnung%20Lohnabrechnungszeilen.png)
+
+::: tip
+Auf der Aktion *Lohnabrechnungszeilen* als *Ansichtsmodus* den Wert `pivot` anfügen.
+:::
 
 ## Aktion "Lohnabrechnung zurücksetzen" hinzufügen
 
