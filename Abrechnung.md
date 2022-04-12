@@ -13,7 +13,8 @@ Online Rechnungsstellung leicht gemacht.
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                   | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt. |
 | [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)       | PDF-Dokumenten von Rechnungen zusammenführen.                               |
-| [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md) | Allow discount deduction on vendor bills.                                    |
+| [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md) | Allow discount deduction on vendor bills.                                   |
+| [Switzerland QR IBAN](Switzerland%20QR%20IBAN)                              |                                                                             |
 
 ## Ausgangsrechnung erfassen
 
