@@ -23,3 +23,10 @@ Oder die Codes der Lohnarten nach *B*.
 ![](assets/Personalabrechnung%20Berichte%20Lohnabrechnungszweilen%20Code%20B.png)
 
 
+## Rekapitulation Lohn anzeigen
+
+Öffnen Sie *Finanzen > Berichtswesen > Hauptbuch* und filtern die Journale nach dem Lohnjournal.
+
+![](assets/Personalabrechnung%20Berichte%20Lohnjournal.png)
+
+Nun erhalten Sie alle Konten der Lohnabrechnung.
