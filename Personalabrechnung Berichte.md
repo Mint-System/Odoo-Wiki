@@ -23,5 +23,3 @@ Oder die Codes der Lohnarten nach *B*.
 ![](assets/Personalabrechnung%20Berichte%20Lohnabrechnungszweilen%20Code%20B.png)
 
 
-
-

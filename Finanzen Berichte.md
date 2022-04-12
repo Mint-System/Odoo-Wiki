@@ -12,6 +12,11 @@ Finanzberichte erstellen.
 
 Wenn Sie verschiedene Kontoauszüge ansehen wollen, öffnen Sie *Finanzen > Berichtswesen > Hauptbuch*. Hier können Sie nach bestimmten Konten, Perioden und Journalen filtern. Zu jedem Konto sehen Sie das Saldo.
 
+
+## Kontenblatt erstellen
+
+Öffnen Sie  *Finanzen > Berichtswesen > Hauptbuch* und geben Sie in der Suchmaske die Kontonummer ein. Wählen Sie in der Filterleiste *Alle auffalten* und filtern Sie die Buchungszeilen nach Geschäftsjahr. Mit der Aktion *Vorschau Drucken* erhalten Sie eine PDF-Datei der Ansicht.
+
 ## Saldenliste anzeigen
 
 Öffnen Sie *Finanzen > Finanzen > Hauptbuch*. Hier sehen Sie gemäss Kontenplan die Spalten *Soll*, *Haben* und *Saldo*. Filtern Sie die Angaben nach Konten und Buchungsdatum um die gewünschte Periode anzugigen
