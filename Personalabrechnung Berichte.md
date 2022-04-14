@@ -8,7 +8,7 @@ prev: ./personalabrechnung
 
 Berichte für Lohnbuchhaltung erstellen.
 
-## Lohnabrechnungszeilen monatlich darstellen
+## Rekapitulation Lohnabrechnung Mitarbeiter erstellen
 
 Öffnen Sie *Personalabrechnung > Berichtswesen > Lohnabrechnungszeilen* und wechseln Sie in die Privot-Ansicht. Auf der X-Achse wählen Sie *Bis > Monat* und auf der Y-Achse *Mitarbeiter > Name*. Zuletzt wählen Sie als Wert *Betrag*. Nun erhalten Sie eine Aufstellung der Lohnabrechnungszeilen für jeden Monat und Mitarbeiter.
 
@@ -23,7 +23,7 @@ Oder die Codes der Lohnarten nach *B*.
 ![](assets/Personalabrechnung%20Berichte%20Lohnabrechnungszweilen%20Code%20B.png)
 
 
-## Rekapitulation Lohn anzeigen
+## Buchhaltung Lohn anzeigen
 
 Öffnen Sie *Finanzen > Berichtswesen > Hauptbuch* und filtern die Journale nach dem Lohnjournal.
 

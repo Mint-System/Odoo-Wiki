@@ -53,3 +53,31 @@ Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzu
 Standardmässig versenden Odoo mit der Bestätigungsmail zur Bestellung eine Proformarechnung. Sie können auch das Angebot/Auftrag versenden. Öffnen Sie *Einstellungen > Technisch > E-Mail > Vorlagen* und zeigen Sie die die Vorlage *Sales Order: Confirmation Email* an. Im Tab *Erweiterte Einstellungen* können Sie den Bericht im Anhang festlegen.
 
 ![](assets/eCommerce%20Anhang%20Bestätigung.png)
+
+## Promo-Codes für Webshop aktivieren
+
+Mit den Preislisten können Sie Promo-Codes für den Webshop definieren. Als erstes aktivieren Sie die Option *Erweiterte Preisregeln (Rabatte, Formeln)* unter *Einstellungen > Website*.
+
+![](assets/Pasted%20image%2020220414151231.png)
+
+Auf der Website-Ansicht klicken Sie auf *Anpassen* und aktivieren *Promo Code*.
+
+![](assets/Pasted%20image%2020220414152109.png)
+
+Nun navigieren Sie nach *Website > Produkte > Preislisten* und erstellen einen neuen Eintrag mit Namen *Promo-Code*. Im Tab *Konfiguration* können Sie den Code im Feld *E-Commerce Gutscheincode* hinteregen. Mit der Option *Rabattpolitk* können Sie steuern wie der Rabatt im Webshop dargestellt werden soll. 
+
+Im Tab *Preisregeln* können den neuen Preis für das Produkt festlegen.
+
+![](assets/Website%20eCommerce%20Rabatt.png)
+
+::: warning
+Der neue Preis kann nur für Produkte und nicht für den Warenkorb geltend gemacht werden.
+:::
+
+Zum Abschluss ein Beispiel wie das aus Sicht den Besuchers aussieht:
+
+![Website eCommerce Rabatte](assets/Website%20eCommerce%20Rabatte.gif)
+
+Ist der Code einmal eingeben erhält der Besucher eine Auswahl der Preislisten.
+
+![](assets/Website%20eCommerce%20Auswahl%20Preislisten.png)
