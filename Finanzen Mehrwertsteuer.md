@@ -39,6 +39,10 @@ Klicken Sie auf *Einstellungen > Finanzen > Steuern > Konfigurieren der Steuerko
 
 ![](assets/Finanzen%20Mehrwertsteuer%20Steuerkonten%20konfigurieren.png)
 
+::: tip
+Normalerweise werden in den Spalten *Steuer aktuelles Konto (bezahlen)* und *Steuer aktuelles Konto (empfangen)* das Konto *2201 Abrechnungskonto MWST* hinterlegt.
+::: 
+
 ## Steuergruppen anzeigen
 
 Damit Sie eine Übersicht der Steuergruppen erhalten,müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* einen neuen Eintrag anlegen.

@@ -59,5 +59,3 @@ Für das Komponenten-Produkt wird nun der *prognostizierter indirekter Bedarf* b
 ![](assets/Hauptproduktionszeitplan.png)
 
 Wählen Sie für jedes Produkt *Aufstocken* um einen Auftrag gemäss hinterlegter Route zu erstellen.
-
-
