@@ -41,7 +41,7 @@ Klicken Sie auf *Einstellungen > Finanzen > Steuern > Konfigurieren der Steuerko
 
 ::: tip
 Normalerweise werden in den Spalten *Steuer aktuelles Konto (bezahlen)* und *Steuer aktuelles Konto (empfangen)* das Konto *2201 Abrechnungskonto MWST* hinterlegt.
-::: 
+:::
 
 ## Steuergruppen anzeigen
 
