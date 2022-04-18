@@ -79,3 +79,31 @@ Wenn Sie wissen möchten, welche Mitarbeitenden nicht korrekt ausgestempelt oder
 Natürlich können Sie die Auswertung auf ihrem Dashboard hinzufügen und sehen so, ob eine Fehlbuchung entstanden ist.
 
 ![](assets/Anwesenheitszeiten%20Dashboard.png)
+
+
+## Überstunden berechnen
+
+Öffnen Sie die *Einstellungen* und markieren Sie die Option *Anwesenheitszeiten > Überstunden > Überstunden zählen*. Setzen Sie ein Startdatum und Speichern Sie die Einstellungen.
+
+![](assets/Anwesenheitszeiten%20Überstunden.png)
+
+Unter *Anwesenheitszweiten > Berichtswesen* können Sie die Überzeiten der Mitarbeitenden anzeigen.
+
+## Aktion "Überstunden aktualisieren" hinzufügen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Überstunden aktualisieren`\
+Modell: `hr.attendance`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```py
+for record in records:  
+  record._update_overtime()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+Im Formular der Anwesenheitszeiten erscheint nun in der Auswahl *Aktion* das Menu *Überstunden aktualisieren*.
