@@ -12,7 +12,7 @@ Website Coupons & Gutscheine im Odoo Shop.
 
 Technischer Name: `website_discount_voucher`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/website_discount_voucher>\
-Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/dev_blanket_sale_order/>
+Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/website_discount_voucher/>
 
 ## Promo-Code einrichten
 
