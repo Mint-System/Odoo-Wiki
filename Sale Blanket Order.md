@@ -1,4 +1,4 @@
----
+	---
 tags:
 - HowTo
 - OCA
@@ -19,6 +19,8 @@ Repository: <https://github.com/Mint-System/sale-workflow/tree/14.0-mig-sale_bla
 | [Sale Blanket Order Stock Terms](Sale%20Blanket%20Order%20Stock%20Terms.md)       | Legen Sie Lieferbedinungen auf dem Rahmenauftrag fest.                 |
 | [Sale Blanket Order Send](Sale%20Blanket%20Order%20Send.md)                       | Workflow mit Rahmenauftrag per E-Mail.                                 |
 | [Sale Blanket Order Comment](Sale%20Blanket%20Order%20Comment.md)                 | Kommentar auf Verkauf- und Rahmenauftrag.                              |
+| [Sale Blanket Order CRM Tags](Sale%20Blanket%20Order%20CRM%20Tags.md)             | Setze Stichwörter auf dem Rahmenauftrag.                                                                       |
+| [Sale Blanket Order Date Confirmed](Sale%20Blanket%20Order%20Date%20Confirmed.md) | Setze ein Bestätigungsdatum auf dem Verkaufsauftrag.                   |
 
 ## Rahmenauftrag erstellen
 

@@ -111,7 +111,7 @@ Name der Aktion: `Als ungebucht markieren`\
 Modell: `account.move`\
 Folgeaktion: `Python-Code ausführen`
 
-```py
+```python
 for record in records:
 	if record.state != 'cancel':
 		UserError('Can only unpost entry if it is cancelled.')
