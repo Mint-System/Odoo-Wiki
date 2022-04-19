@@ -12,7 +12,6 @@ Setze ein Bestätigungsdatum auf dem Verkaufsauftrag.
 Technischer Name: `sale_blanket_order_date_confirmed`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_date_confirmed>
 
-
 ## Bestätigungsdatum setzen
 
 Mit dieser Erweiterung wird auf dem Verkaufsauftrag beim Bestätigen ein Bestätigungsdatum gesetzt.
