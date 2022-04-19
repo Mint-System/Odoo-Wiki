@@ -11,7 +11,7 @@ prev: ./abrechnung
 Generierung der QR-Rechnung ohne ISR-Nummer.
 
 Technischer Name: `l10n_ch_qr_iban`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-I`nvoicing/tree/14.0/l10n_ch_qr_iban>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/l10n_ch_qr_iban>
 
 ## QR-Rechnung generieren
 
