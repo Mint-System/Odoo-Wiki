@@ -4,8 +4,9 @@ tags:
 - Drittanbieter
 prev: ./website-ecommerce
 ---
-# Website Coupons & Vouchers in Odoo Shop
-![icons_odoo_modules](assets/icons_odoo_modules.png)
+# Website Shop Coupons
+
+![](assets/icon_website_discount_voucher.png)
 
 Website Coupons & Gutscheine im Odoo Shop.
 

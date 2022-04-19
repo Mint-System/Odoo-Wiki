@@ -10,7 +10,7 @@ Webshop ohne Integrationsaufwand.
 
 | Erweiterung                                                                                       | Beschreibung                               |
 | ------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| [Website Coupons & Vouchers in Odoo Shop](Website%20Coupons%20&%20Vouchers%20in%20Odoo%20Shop.md) | Website Coupons & Gutscheine im Odoo Shop. |
+| [Website Shop Coupons](Website%20Shop%20Coupons.md) | Website Coupons & Gutscheine im Odoo Shop. |
 
 ## Produkt veröffentlichen
 
