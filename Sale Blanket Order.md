@@ -1,4 +1,4 @@
----
+	---
 tags:
 - HowTo
 - OCA
@@ -26,6 +26,7 @@ Repository: <https://github.com/Mint-System/sale-workflow/tree/14.0-mig-sale_bla
 | [Sale Blanket Order Carrier](Sale%20Blanket%20Order%20Carrier.md)                                       | Legen Sie die Auslieferungsmethode auf dem Rahmenvertrag fest.                                   |
 | [Sale Blanket Order Extended](Sale%20Blanket%20Order%20Extended.md)                                     | Kopiert weitere Felder vom Rahmenauftrag auf den Verkaufsauftrag.                                |
 | [Sale Blanket Order Commitment Date](Sale%20Blanket%20Order%20Commitment%20Date.md)                     | Kopiert das geplante Datum der Rahmenauftragszeile in das Lieferdatum der Verkaufsauftragszeile. |
+| [Sale Blanket Order Discount](Sale%20Blanket%20Order%20Discount.md)                                     | Definiere einen Rabatt auf der Rahmenauftragszeile.                                              |
 
 ## Rahmenauftrag erstellen
 

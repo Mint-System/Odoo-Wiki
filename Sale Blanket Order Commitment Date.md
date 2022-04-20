@@ -12,7 +12,6 @@ Kopiert das geplante Datum der Rahmenauftragszeile in das Lieferdatum der Verkau
 Technischer Name: `sale_blanket_order_commitment_date`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_commitment_date>
 
-
 ## Lieferdatum kopieren
 
 Beim Erstellen eines Verkaufsauftrag aus einem Rahmenauftrag wird mit dieser Erweiterung das *Geplantes Datum* der Rahmenauftragszeile in das *Lieferdatum* der Verkaufsauftragszeile kopiert.
