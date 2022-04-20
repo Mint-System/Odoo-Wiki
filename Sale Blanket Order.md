@@ -4,13 +4,14 @@ tags:
 - OCA
 prev: ./verkauf
 ---
+
 # Sale Blanket Order
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Rahmenverträge für Verkäufe erstellen.
 
 Technischer Name: `sale_blanket_order`\
-Repository: <https://github.com/Mint-System/sale-workflow/tree/14.0-mig-sale_blanket_order/sale_blanket_order>
+Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_blanket_order>
 
 | Erweiterung                                                                                             | Beschreibung                                                                                     |
 | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
