@@ -30,3 +30,9 @@ In den Einstellung findet Sie den Abschnitt *Custom domains*, hier fügen Sie de
 
 ![](assets/Odoo.sh%20Custom%20domains.png)
 
+## Branch entfernen
+
+Für jede Staging-Phase können Sie eine bestimmte Azahl Branches haben. Möchten Sie einen Branch entfernen so wählen Sie diesen aus und klicken oben rechts auf *Delete*.
+
+![](assets/Odoo.sh%20Delete.png)
+
