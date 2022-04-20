@@ -23,6 +23,7 @@ Repository: <https://github.com/Mint-System/sale-workflow/tree/14.0-mig-sale_bla
 | [Sale Blanket Order Date Confirmed](Sale%20Blanket%20Order%20Date%20Confirmed.md)                       | Setze ein Bestätigungsdatum auf dem Verkaufsauftrag.                          |
 | [Sale Blanket Order Cancel State](Sale%20Blanket%20Order%20Cancel%20State.md)                           | Beim Abbrechen wird der Verkaufsautrag in den entsprechendne Status versetzt. |
 | [Sale Blanket Order Invoice Shipping Partner](Sale%20Blanket%20Order%20Invoice%20Shipping%20Partner.md) | Liefer- und Rechnungsadresse auf Rahmenauftrag definieren.                    |
+| [Sale Blanket Order Carrier](Sale%20Blanket%20Order%20Carrier.md)                                       | Legen Sie die Auslieferungsmethode auf dem Rahmenvertrag fest.                |
 
 ## Rahmenauftrag erstellen
 
