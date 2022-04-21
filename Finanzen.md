@@ -125,3 +125,21 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *
 ## Portal-Ansicht von Rechnung anzeigen
 
 Um die Portal-Ansicht einer Rechnung anzuzeigen gehen Sie wie folgt vor *Abrechnung > Kunden > Rechnungen > Rechnung auswählen* und dann auf *Vorschau* klicken. Nun öffnet sich die Portal-Ansicht in einem neuen Tab.
+
+## Aktion Finanzen "Buchungszeilen aktualisieren" erstellen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Buchungszeilen aktualisieren`\
+Modell: `account.move`\
+Folgeaktion: `Python-Code ausführen`
+
+```python
+records.filtered(lambda r: r.state == "draft").with_context(check_move_validity=False)._move_autocomplete_invoice_lines_values()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Buchungszeilen aktualisieren*.
+
+![Finanzen Buchungszeilen aktualisieren](assets/Finanzen%20Buchungszeilen%20aktualisieren.gif)
