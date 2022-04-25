@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "PASTED",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
@@ -18,5 +18,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.12692319920051137,
-  "close": true
+  "close": false
 }
