@@ -10,7 +10,8 @@ prev: ./fertigung
 Autogenerate EAN13 product barcodes.
 
 Technischer Name: `product_barcode`\
-Repository: <https://github.com/CybroOdoo/CybroAddons/tree/14.0/product_barcode>
+Repository: <https://github.com/CybroOdoo/CybroAddons/tree/14.0/product_barcode>\
+Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/product_barcode/>
 
 ## Generate product barcode
 
