@@ -21,7 +21,7 @@ Python Code:
 
 ```py
 if record.stage_id.sequence in [0,1,2]:
-	raise UserError('This Stufe ist nicht erlaubt!')
+	raise UserError('This stage is not allowed!')
 ```
 
 ![Aktionen Stufe nicht erlaubt](assets/Aktionen%20Stufe%20nicht%20erlaubt.gif)
@@ -46,104 +46,6 @@ Nummernfolge: `3`
 Nachdem der Browser aktualisiert haben Sie Zugriff auf das neue Menü und Ansicht.
 
 ![](assets/Aktionen%20neue%20Ansicht.png)
-
-## Aktion Fertigung  "Reload BoM" erstellen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Reload BoM`\
-Modell: `Fertigungsauftrag`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
-```py
-for record in records:  
-  record._compute_allowed_product_ids()  
-  record._onchange_bom_id()  
-  record._onchange_move_raw()  
-  record._onchange_move_finished()  
-  record._onchange_location()
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-Im Fertigungsauftrag erscheint nun in der Auswahl *Aktion* das Menu *Reload BoM*.
-
-## Aktion Finanzen "Reset to Draft" erstellen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Reset to Draft`
-Modell: `account.move`
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
-
-```py
-for record in records:  
-  record.button_draft()
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Reset to Draft*.
-
-## Aktion  Finanzen "Abstimmung zurücksetzen" erstellen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Abstimmung zurücksetzen`\
-Modell: `account.bank.statement.line`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
-
-```py
-for record in records:  
-  record.button_undo_reconciliation()
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-In der Liste der Vorgänge erscheint nun in der Auswahl *Aktion* das Menu *Abstimmung zurücksetzen*.
-
-## Aktion Finanzen "Bankauszug zurücksetzen" erstellen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Bankauszug zurücksetzen`\
-Modell: `account.bank.statement`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
-
-```py
-for record in records:  
-  record.button_reopen()
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-In der Liste der Belege erscheint nun in der Auswahl *Aktion* das Menu *Bankauszug zurücksetzen*.
-
-## Aktion Abwesenheitzeiten "Ablehnen" erstellen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Ablehnen`\
-Modell: `hr.leave`\
-Folgeaktion: `Python-Code ausführen`
-
-```py
-for record in records:  
-  record.action_refuse()
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-In der Liste der Abwesenheitszeiten erscheint nun in der Auswahl *Aktion* das Menu *Ablehnen*.
-
-![](assets/Aktionen%20Abwesenheitszeiten%20Ablehnen.png)
 
 ## Automatische Archivierung der Los/Chargen
 

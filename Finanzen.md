@@ -16,6 +16,7 @@ Ihre Buchhaltung einfach und korrekt.
 | [Finanzen Berichte](Finanzen%20Berichte.md)                     | Finanzberichte erstellen.                                 |
 | [Finanzen Kostenrechnung](Finanzen%20Kostenrechnung.md)         | Kosten analysieren und Budget plannen.                    |
 | [Finanzen Buchhaltung](Finanzen%20Buchhaltung.md)               | Kontenplan einrichten und Buchungen erstellen.            |
+| [Finanzen Aktionen](Finanzen%20Aktionen.md)                     | Neue Aktionen für Buchungen und Abstimmungen.             |
 
 | Erweiterung                                                                                                     | Beschreibung                                                                          |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
@@ -102,44 +103,6 @@ Navigieren Sie nach *Finanzen > Konfiguration > Abrechnung > Zahlungsbedingungen
 
 ![](assets/Finanzen%20Rabatt.png)
 
-
-## Aktion Finanzen "Als ungebucht markieren" erstellen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Als ungebucht markieren`\
-Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`
-
-```python
-for record in records:
-	if record.state != 'cancel':
-		UserError('Can only unpost entry if it is cancelled.')
-	record.write({ 'posted_before': False })
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Als ungebucht markieren*.
-
 ## Portal-Ansicht von Rechnung anzeigen
 
 Um die Portal-Ansicht einer Rechnung anzuzeigen gehen Sie wie folgt vor *Abrechnung > Kunden > Rechnungen > Rechnung auswählen* und dann auf *Vorschau* klicken. Nun öffnet sich die Portal-Ansicht in einem neuen Tab.
-
-## Aktion Finanzen "Buchungszeilen aktualisieren" erstellen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Buchungszeilen aktualisieren`\
-Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`
-
-```python
-records.filtered(lambda r: r.state == "draft").with_context(check_move_validity=False)._move_autocomplete_invoice_lines_values()
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Buchungszeilen aktualisieren*.
-
-![Finanzen Buchungszeilen aktualisieren](assets/Finanzen%20Buchungszeilen%20aktualisieren.gif)

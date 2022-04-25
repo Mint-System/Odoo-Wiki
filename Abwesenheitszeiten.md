@@ -104,3 +104,22 @@ Möchte ein Mitarbeiter seine Überstunden beziehen, gibt er diese als Abwesenhe
 Hier wählt man *Neuer Abwesenheitsantrag* und als Typ *Überstunden kompensieren*. Wurde der Abwesenheitsantrag angenomme und gespeichert, wird dies als Arbeitszeit berücksichtigt.
 
 ![](assets/Odoo%20Abwesenheitszeiten%20Abwesenheitsantrag%20erstellen.png)
+
+## Aktion "Ablehnen" erstellen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Ablehnen`\
+Modell: `hr.leave`\
+Folgeaktion: `Python-Code ausführen`
+
+```py
+for record in records:  
+  record.action_refuse()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Abwesenheitszeiten erscheint nun in der Auswahl *Aktion* das Menu *Ablehnen*.
+
+![](assets/Aktionen%20Abwesenheitszeiten%20Ablehnen.png)
