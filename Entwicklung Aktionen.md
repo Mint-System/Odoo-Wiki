@@ -62,7 +62,7 @@ for record in records:
   record._onchange_bom_id()  
   record._onchange_move_raw()  
   record._onchange_move_finished()  
-  record._onchange_location
+  record._onchange_location()
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
