@@ -24,3 +24,9 @@ Klicken Sie oben rechts auf ihen Benutzer und wählen Sie *Einstellungen*. Öffn
 ## E-Mail-Signatur hinterlegen
 
 Mit Odoo können Sie E-Mails verschicken. Wie in Mail-Programmen können Sie eine E-Mail-Signatur hinterlegen. Klicken Sie oben rechts auf ihren Benutzernamen und wählen Sie *Einstellungen*. Im Feld *E-mail Signatur* können Sie eine Signatur definieren.
+
+## Benachrichtigungs-Kanal festlegen
+
+Odoo benachrichtigt Odoo-Benutzer entweder via E-Mail oder über den Odoo-Chat. Sie können den bevorzugten Kanal einstellen indem Sie oben rechts auf ihren Namen klicken und dann *Mein Profil > Tab Einstellungen* wählen. Im Feld *Benachrichtigung* können Sie die Einstellung festlegen.
+
+![](assets/Persönliche%20Einstellungen%20Benachrichtigung.png)
