@@ -83,3 +83,9 @@ Wenn Sie einen Mahbericht öffnen, befinden Sie sich technisch auf einem Kontakt
 Zeigen Sie *Finanzen > Finanzen > Buchungssätze* an und filtern Sie wie folgt um alle Buchungssätze des ersten Quartals mit einem Steuerbetrag anzuzeigen.
 
 ![](assets/Finanzen%20Berichte%20Steuerbare%20Buchungssätze.png)
+
+## Buchungszeilen aus Umsatzsteuerbericht anzeigen
+
+Möchten Sie die Buchungszeilen des Umsatzsteuerberichts anzeigen, öffnen Sie *Finanzen > Finanzen > Buchungszeilen* und filtern die Einträge wie folgt:
+
+![](assets/Finanzen%20Berichte%20Umsatzsteuer%20Buchungszeilen.png)
