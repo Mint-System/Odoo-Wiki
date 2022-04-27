@@ -69,6 +69,5 @@ Link zu SEPA-Zahlung erstellen
 Werden Zahlungen aus Odoo mittels der Datei SEPA-XML ins EBanking importiert, so lohnt es sich die importierten Zahlungen im EBanking nochmals zu überprüfen.
 Die Raiffeisenbank zum Beispiel, import die Zahlung nicht als SEPA sondern als Typ "Andere SHA". Das hat zur Folge, dass die Geühren der Zahlung einiges höher sind. Statt CHF 0.20 je Zahlung können bis CHF 15.00 anfallen. Korrigieren Sie gegebenenfalls die Zahlungsart auf SEPA.
 
-
 #FIXME 
 

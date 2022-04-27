@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+- Aktionen
 prev: ./finanzen
 ---
 # Finanzen Aktionen
@@ -37,7 +38,7 @@ Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
-```py
+```python
 for record in records:  
   record.button_reopen()
 ```
@@ -74,7 +75,7 @@ Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
-```py
+```python
 for record in records:  
   record.button_draft()
 ```
@@ -93,7 +94,7 @@ Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
-```py
+```python
 for record in records:  
   record.button_undo_reconciliation()
 ```

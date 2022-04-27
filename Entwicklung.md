@@ -61,7 +61,7 @@ Erstellen Sie einen Filter für das Feld Frist mit dem heutigen Datum.
 
 Speichern Sie den Filter als Favorit und wählen *Entwicklertools > Filter verwalten*. Kopieren Sie den folgenden Ausdruck in das Feld *Code-Editor*:
 
-```py
+```python
 [['date_deadline','<=',time.strftime('%Y-%m-%d')]]
 ```
 
@@ -71,7 +71,7 @@ Weitere Filter-Beispiele:
 
 Frist erreicht und an eigenem Benutzer zugewiesen:
 
-```py
+```python
 [
 "&",
 ["user_id", "=", uid],
@@ -81,7 +81,7 @@ Frist erreicht und an eigenem Benutzer zugewiesen:
 
 Frist bis in 5 Tagen erreicht und an eigenem Benutzer zugewiesen:
 
-```py
+```python
 [
 "&",
 ["user_id", "=", uid], 
@@ -161,7 +161,7 @@ Erstellen Sie ein neues Feld unter *Einstellungen > Technisch > Datenbankstruktu
 * **Abhängigkeiten**: `quantity_done`
 * **Berechnen**:
 
-```py
+```python
 for rec in self:
 	if rec.product_packaging:
 		if rec.product_packaging.name == "Schale":

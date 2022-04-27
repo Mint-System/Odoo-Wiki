@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+- Aktionen
 prev: ./fertigung
 ---
 # Fertigung Aktionen
@@ -17,7 +18,7 @@ Modell: `Fertigungsauftrag`\
 Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
-```py
+```python
 for record in records:  
   record._compute_allowed_product_ids()  
   record._onchange_bom_id()  

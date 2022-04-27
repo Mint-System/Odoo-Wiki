@@ -63,7 +63,7 @@ Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
 
-```py
+```python
 for record in records:
 	records.write({'validated': False})
 ```
@@ -83,7 +83,7 @@ Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
 
-```py
+```python
 for record in records:
 	record.task_id.write({'sale_line_id': False})
 ```

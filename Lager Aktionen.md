@@ -1,6 +1,7 @@
 ---
 tags:
 - HowTo
+- Aktionen
 prev: ./lager
 ---
 # Lager Aktionen

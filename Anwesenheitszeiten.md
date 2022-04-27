@@ -99,7 +99,7 @@ Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
-```py
+```python
 for record in records:  
   record._update_overtime()
 ```

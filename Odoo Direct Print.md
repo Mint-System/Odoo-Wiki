@@ -154,7 +154,7 @@ Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
-```py
+```python
 # Get deliveries due in 3 days
 start_date = (datetime.datetime.now() + datetime.timedelta(days=2)).strftime('%Y-%m-%d')
 end_date = (datetime.datetime.now() + datetime.timedelta(days=4)).strftime('%Y-%m-%d')
@@ -204,7 +204,7 @@ Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
-```py
+```python
 printnode_scenario = env.ref("printnode_base.print_picking_document_after_so_confirmation_scenario")
 date = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime('%Y-%m-%d')
 printnode_scenario['domain'] = '[["commitment_date", "<=", "' + date + '"]]'
