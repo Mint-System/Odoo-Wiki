@@ -43,7 +43,7 @@ Beobachtete Felder: `state`\
 Anzuwenden auf:
 
 ```text
-["&",["state","=","confirmed"],["lot_producing_id","=",False]]
+["&",["state","in",["confirmed","progress"]],["lot_producing_id","=",False]]
 ```
 
 Python Code:
@@ -52,6 +52,7 @@ Python Code:
 record.action_generate_serial()
 ```
 
+Beispiel für eine automatische Aktion:
 ![](assets/Fertigung%20Aktionen%20Lot-Nummer%20generieren.png)
 
 
