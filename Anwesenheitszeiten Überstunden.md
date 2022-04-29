@@ -36,5 +36,5 @@ Werden die Überstunden genehmigt, verbucht Odoo am Tag der Erstellung dementspr
 ![](assets/Anwesenheitszeiten%20Überstunden%20kompensiert.png)
 
 ::: warning
-Wenn man die Abwesenheit Rückgängig macht, löscht Odoo die betroffnen Überstunden-Einträ
+Wenn man die Abwesenheit Rückgängig macht, löscht Odoo die betroffnen Überstunden-Einträge.
 :::
