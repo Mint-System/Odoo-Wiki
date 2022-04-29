@@ -66,7 +66,6 @@ Wurde die Abwesenheit genehmigt, sehen Sie die verleibenden Tage des Abwesenheit
 Abwesenheitseinträge, die im Zustand *Zur Genehmigung* sind, können nicht mehr gelöscht werden.
 :::
 
-
 ## Abwesenheit validieren
 
 Nach demselben Verfahren wie [Abwesenheitsanspruch validieren](#Abwesenheitsanspruch%20validieren) können Sie Abwesenheiten validieren. Sie erhalten entweder eine Mail oder sehen die zugewiesene Odoo-Aktivität.
@@ -86,24 +85,6 @@ Wurde eine Abwesenheit einmal erfasst, kann Sie nicht mehr gelöscht werden (ass
 ## Verantwortliche festlegen
 
 Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen Sie den Tab *Arbeitsinformationen* und wählen Sie *Bearbeiten*. Tragen Sie den Vorgesetzen im Feld *Abwesenheitszeiten* ein. Standardmässig wird der *Manager* übernommen.
-
-## Abwesenheitstyp Überstunden kompensieren anlegen
-
-Damit Mitarbeiter ihre Überstunden kompensieren können, braucht es einen entsprechenden Abwesenheitstyp.
-
-Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und erstellen einen neuen Eintrag. Wählen Sie als *Work Entry Type*: *Anwesend* und für *Einheit der Abwesenheit*: *Stunden*.
-
-Über den normalen Genemigungsprozess können so Mitarbeiter ihre Überstunden als Anwesenheit registrieren lassen.
-
-## Überstunden beziehen
-
-Möchte ein Mitarbeiter seine Überstunden beziehen, gibt er diese als Abwesenheit ein. Angenommen man hat 00:29 Stunden Überzeit, so öffnet man als erstes die *Abwesenheitszeiten.*
-
-![](assets/Odoo%20Abwesenheit%20%C3%9Cberstunden%20anzeigen.png)
-
-Hier wählt man *Neuer Abwesenheitsantrag* und als Typ *Überstunden kompensieren*. Wurde der Abwesenheitsantrag angenomme und gespeichert, wird dies als Arbeitszeit berücksichtigt.
-
-![](assets/Odoo%20Abwesenheitszeiten%20Abwesenheitsantrag%20erstellen.png)
 
 ## Aktion "Ablehnen" erstellen
 

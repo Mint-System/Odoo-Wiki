@@ -8,6 +8,10 @@ prev: ./
 
 Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 
+| Bereich                                                               | Beschreibung                        |
+| --------------------------------------------------------------------- | ----------------------------------- |
+| [Anwesenheitszeiten Überstunden](Anwesenheitszeiten%20Überstunden.md) | Überstundenmanagement ganz einfach. | 
+
 | Erweiterung                                                                       | Beschreibung                                                                                                       |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | [Überzeitenmanagement](Überzeitenmanagement.md)                                   | Verwalten Sie die Überzeiten der Mitarbeitenden.                                                                   |
@@ -79,15 +83,6 @@ Wenn Sie wissen möchten, welche Mitarbeitenden nicht korrekt ausgestempelt oder
 Natürlich können Sie die Auswertung auf ihrem Dashboard hinzufügen und sehen so, ob eine Fehlbuchung entstanden ist.
 
 ![](assets/Anwesenheitszeiten%20Dashboard.png)
-
-
-## Überstunden berechnen
-
-Öffnen Sie die *Einstellungen* und markieren Sie die Option *Anwesenheitszeiten > Überstunden > Überstunden zählen*. Setzen Sie ein Startdatum und Speichern Sie die Einstellungen.
-
-![](assets/Anwesenheitszeiten%20Überstunden.png)
-
-Unter *Anwesenheitszweiten > Berichtswesen* können Sie die Überzeiten der Mitarbeitenden anzeigen.
 
 ## Aktion "Überstunden aktualisieren" hinzufügen
 

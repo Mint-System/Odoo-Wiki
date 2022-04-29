@@ -16,6 +16,12 @@ Personalbrechnungen schnell und einfach erstellen.
 | [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md)           | Berichte für Lohnbuchhaltung erstellen.      |
 | [Personalabrechnung Aktionen](Personalabrechnung%20Aktionen.md)                                               | Lohnabrechnung automatisieren.                                             |
 
+## Arbeitseinträge anzeigen
+
+Anhand der Anwesenheit und Abwesenheit erstellt Odoo für jeden Mitarbeitenden entsprechende Arbeitseinträge. Diese sind relevant für die Stundenbasierten Lohnabrechnungen.
+
+Die Arbeitseinträge zeigen Sie via *Personalabrechnung > Arbeitseinträge > Work Entries* an. Hier sehen Sie, ob Mitarbeitende ungeklärte Lücken haben.
+
 ## Pesonalabrechnung initialisieren
 
 Damit Sie die Personalabrechnung für ihre Mitarbeiter erstellen können, müssen einige vorbereitungen getroffen werden.
