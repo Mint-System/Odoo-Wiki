@@ -200,5 +200,6 @@ Mit Obsidian können Artikel getagged `#tagname` werden. Tags werden von Vuepres
 
 * #FIXME: An dieser Stelle ist eine Änderungen offen.
 * #Odoo13: Dieses Feature ist nur für Odoo 13 verfügbar.
-* #Odoo14: Dieses Feature ist nur für Odoo 13 verfügbar.
+* #Odoo14: Dieses Feature ist nur für Odoo 14 verfügbar.
+* #Odoo15: Dieses Feature ist nur für Odoo 15 verfügbar.
 * #Odoo13-14: Dieses Feature ist für Odoo 13 bis 14 verfügbar.

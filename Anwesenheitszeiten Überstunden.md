@@ -8,6 +8,8 @@ prev: ./
 
 Überstundenmanagement ganz einfach.
 
+Gilt ab #Odoo15
+
 ## Überstunden berechnen
 
 Öffnen Sie die *Einstellungen* und markieren Sie die Option *Anwesenheitszeiten > Überstunden > Überstunden zählen*. Setzen Sie ein Startdatum und Speichern Sie die Einstellungen.
