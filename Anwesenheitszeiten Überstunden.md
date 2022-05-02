@@ -1,7 +1,7 @@
 ---
 tags:
 - HowTo
-prev: ./anwesenheitsz
+prev: ./anwesenheitszeiten
 ---
 # Anwesenheitszeiten Überstunden
 ![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)
