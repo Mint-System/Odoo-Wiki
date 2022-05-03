@@ -9,6 +9,24 @@ prev: ./finanzen
 
 Neue Aktionen für Buchungen und Abstimmungen.
 
+## Aktion "Als gesendet markieren" erstellen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Als gesendet markieren`\
+Modell: `account.move`\
+Folgeaktion: `Python-Code ausführen`
+
+```python
+for record in records:
+	record.write({ 'is_move_sent': True })
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Als gesendet markieren*.
+
+
 ## Aktion "Als ungebucht markieren" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
