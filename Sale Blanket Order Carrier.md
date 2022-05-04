@@ -17,3 +17,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 Öffnen Sie einen Rahmenvertrag via *Verkauf > Aufträge > Rahmenaufträge*. Unterhalb der *Zahlungsbedingungen* können Sie die Auslieferungsmethode festlegen.
 
 ![](assets/Sale%20Blanket%20Order%20Carrier.png)
+
+::: tip
+Wurde die Auslieferungsmethode auf dem Kontakt hinterlegt, wird diese beim Erstellen des Rahmenauftrags übernommen.
+:::
