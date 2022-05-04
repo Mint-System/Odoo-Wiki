@@ -16,7 +16,7 @@ Online Rechnungsstellung leicht gemacht.
 | [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md) | Allow discount deduction on vendor bills.                                   |
 | [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                           | Generierung der QR-Rechnung ohne ISR-Nummer.                                |
 | [Account Invoice Notes](Account%20Invoice%20Notes.md)                       | Zusätzliche Header und Footer Notizen kopiert von Verkaufsauftrag.          |
-| [[Switzerland QR-bill scan]]                                                                            |                                                                             |
+| [Switzerland QR-bill scan](Switzerland%20QR-bill%20scan.md)                 | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
 
 ## Ausgangsrechnung erfassen
 

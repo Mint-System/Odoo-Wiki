@@ -7,7 +7,8 @@ prev: ./abrechnung
 # Switzerland QR-bill scan
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Lokalisierung für Schweizer Banken und Bankkontos.
+
+Daten aus QR-Code bei Rechnungsimport auslesen.
 
 Technischer Name: `l10n_ch_qr_bill_scan`\
 Repository: <https://github.com/OCA/l10n-switzerland/tree/14.0/l10n_ch_qr_bill_scan>
