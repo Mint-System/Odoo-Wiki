@@ -89,3 +89,9 @@ Zeigen Sie *Finanzen > Finanzen > Buchungssätze* an und filtern Sie wie folgt u
 Möchten Sie die Buchungszeilen des Umsatzsteuerberichts anzeigen, öffnen Sie *Finanzen > Finanzen > Buchungszeilen* und filtern die Einträge wie folgt:
 
 ![](assets/Finanzen%20Berichte%20Umsatzsteuer%20Buchungszeilen.png)
+
+## Überfällige Forderungen anzeigen
+
+Mit dem Bericht *Finanzen > Berichtswesen > Überfällige Forderungen* können Sie für einen oder mehrere Kunden die offenen Debitoren anzeigen lassen.
+
+![](assets/Finanzen%20Berichte%20Forderunen.png)
