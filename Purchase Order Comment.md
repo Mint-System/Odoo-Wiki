@@ -9,7 +9,7 @@ prev: ./einkauf
 
 Kommentar-Feld für Einkaufsaufträge.
 
-Technischer Name: purchase_order_comment\
+Technischer Name: `purchase_order_comment`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_comment>
 
 ## Kommentar hinzufügen
