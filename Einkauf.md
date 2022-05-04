@@ -20,6 +20,7 @@ Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
 | [Purchase Order Line Relay Price](Purchase%20Order%20Line%20Relay%20Price.md)         | Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den Verkäufter. |     |
 | [Purchase Order Notes](Purchase%20Order%20Notes.md)                                   | Einkaufsaufträge mit Notizfelder.                                                         |     |
 | [Purchase Order Comment](Purchase%20Order%20Comment.md)                               | Kommentar-Feld für Einkaufsaufträge.                                                      |     |
+| [Purchase Order Line Description](Purchase%20Order%20Line%20Description.md)           | Nur die Einkaufsbeschreibung in der Einkaufsposition übernehmen.                                                                                          |     |
 
 ## Angebotsanfrage erstellen
 
