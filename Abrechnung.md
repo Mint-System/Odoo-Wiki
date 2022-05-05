@@ -17,6 +17,7 @@ Online Rechnungsstellung leicht gemacht.
 | [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                           | Generierung der QR-Rechnung ohne ISR-Nummer.                                |
 | [Account Invoice Notes](Account%20Invoice%20Notes.md)                       | Zusätzliche Header und Footer Notizen kopiert von Verkaufsauftrag.          |
 | [Switzerland QR-bill scan](Switzerland%20QR-bill%20scan.md)                 | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
+| [Sale Invoice Line Description](Sale%20Invoice%20Line%20Description.md)     | Buchungszeilen generiert aus Verkaufsaufträgen enhalten nur den Anzeigenamen des Produkts.
 
 ## Ausgangsrechnung erfassen
 
