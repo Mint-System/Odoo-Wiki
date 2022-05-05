@@ -11,7 +11,7 @@ Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
 | Bereich                                           | Beschreibung                                   |     |
 | ------------------------------------------------- | ---------------------------------------------- | --- |
 | [Einkauf Kaufverträge](Einkauf%20Kaufverträge.md) | Kaufverträge für Rahmenbestellungen erstellen. |     |
-
+[Einkauf Kaufverträge](Einkauf%20Kaufverträge.md)
 | Erweiterung                                                                           | Beschreibung                                                                              |     |
 | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | --- |
 | [Purchase Order Line Date](Purchase%20Order%20Line%20Date.md)                         | Lieferdatum im Wareneingang automatisch nachtragen.                                       |     |
