@@ -55,23 +55,3 @@ record.action_generate_serial()
 
 Beispiel für eine automatische Aktion:
 ![](assets/Fertigung%20Aktionen%20Lot-Nummer%20generieren.png)
-
-## Aktion  "Als verfügbar markieren" erstellen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Als verfügbar markieren`\
-Modell: `Lagerbuchung`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
-```python
-for record in records:  
-  record.write({
-	  'state': 'assigned'
-  })
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-Auf der Lagerbuchung erscheint nun in der Auswahl *Aktion* das Menu *Als verfügbar markieren*.
