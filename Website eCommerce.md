@@ -85,3 +85,17 @@ Zum Abschluss ein Beispiel wie das aus Sicht den Besuchers aussieht:
 Ist der Code einmal eingeben erhält der Besucher eine Auswahl der Preislisten.
 
 ![](assets/Website%20eCommerce%20Auswahl%20Preislisten.png)
+
+## Produkt ohne Versandkosten einrichten
+
+Die Berechnung der Versandkosten basiert standardmässig auf dem Warenkorb und der Lieferadresse. Damit stehen verschiedene Attribute zur Berechnung des Versandpreises fest. Im folgenden ein Beispiel wie man am einfachsten die Versandkosten auf Null setzt, wenn es sich beim bestellten Produkt um einen Gutschein handelt.
+
+Legen Sie in der Versandmethode unter *Website > Konfiguration > Versandmethoden* eine neue Preisregel fest:
+
+![](assets/Website%20eCommerce%20Preisregel%20Gewicht.png)
+
+Wenn das Gewicht des Warenkorbs unter Null fällt, fallen die Lieferkosten auf Null.
+
+Für die Produkte, welche keine Lieferkosten geneieren sollen, geben Sie als Gewicht -0.01 ein und für alle anderen Produkte ein Gewicht grösser als Null ein:
+
+![](assets/Website%20eCommerce%20Gutschein%20Gewicht.png)
