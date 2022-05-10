@@ -17,6 +17,7 @@ Agiles Projektmanagement. Schön. Einfach. Open Source.
 | [Project Task Default Stage](Project%20Task%20Default%20Stage.md) | Standardstufen für Projektaufgaben.                    |
 | [Project Templates](Project%20Templates.md)                       | Projekt aus Projektvorlage erstellen.                  |
 | [Project Task Material](Project%20Task%20Material.md)             | Liste von verbrauchten Materialien auf Projektaufgabe. |
+| [Sequential Code for Tasks](Sequential%20Code%20for%20Tasks.md)   | Sequenznummer für Projektaufgaben.                     |
 
 ## Projekt anlegen
 
