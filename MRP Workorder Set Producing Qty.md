@@ -7,7 +7,7 @@ prev: ./fertigung
 # MRP Workorder Set Producing Qty
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Arbeitsauftrag startet mit 0 als zu produzierende Menge.
+Arbeitsauftrag startet ohne erledigte Menge.
 
 Technischer Name: `mrp_workorder_set_producing_qty`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_workorder_set_producing_qty>
