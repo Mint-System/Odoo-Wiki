@@ -105,3 +105,5 @@ Auf Banken- und Kassenjournalen werden Bankauszüge und Belege abgebildet. Wähl
 Markieren Sie die Belge und wählen Sie *Drucken > Beleg*.
 
 ![](assets/Finanzen%20Berichte%20Beleg%20drucken.png)
+
+Auf der Bericht werden alle Belge mit den einzelnen Transaktionen aufgelistet.
