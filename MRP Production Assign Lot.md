@@ -14,7 +14,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_
 
 ## Erweiterung konfigurieren
 
-Mit dieser Erweiterung können Lot-Nummern aus Wareneingängen an unreservierte Komponenten zugewiesen werden. Setzen Sie die Option *Benutze vorhandene Los/Seriennummer* bei Vorgangstypen  vom Typ *Wareneingang* unter *Lager > Konfiguration > Vorgangstypen*. Damit können Sie auf Anlieferungen die Los-Nummer direkt festlegen:
+Mit dieser Erweiterung können Lot-Nummern aus Wareneingängen und Fertigungsaufträgen an unreservierte Komponenten zugewiesen werden. Setzen Sie die Option *Benutze vorhandene Los/Seriennummer* bei Vorgangstypen  vom Typ *Wareneingang* unter *Lager > Konfiguration > Vorgangstypen*. Damit können Sie auf Anlieferungen die Los-Nummer direkt festlegen:
 
 ![](assets/MRP%20Production%20Assign%20Lot%20Wareneingang.png)
 
@@ -31,3 +31,7 @@ Mit dieser Erweiterung finden Sie auf Fertigungsaufträgen die Aktion *Los zuwei
 Im Chatter wird die Zuweisung entsprechend vermerkt:
 
 ![](assets/MRP%20Production%20Assign%20Lot%20Chatter.png)
+
+::: tip
+Die Zuweisung funktioniert automatisch für Backorders.
+:::
