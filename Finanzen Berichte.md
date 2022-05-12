@@ -95,3 +95,13 @@ Möchten Sie die Buchungszeilen des Umsatzsteuerberichts anzeigen, öffnen Sie *
 Mit dem Bericht *Finanzen > Berichtswesen > Überfällige Forderungen* können Sie für einen oder mehrere Kunden die offenen Debitoren anzeigen lassen.
 
 ![](assets/Finanzen%20Berichte%20Forderunen.png)
+
+## Beleg drucken
+
+Auf Banken- und Kassenjournalen werden Bankauszüge und Belege abgebildet. Wählen Sie ein Journal auf der Übersicht *Finanzen* aus und drücken Sie auf Kontextmenü und wählen Sie *Belege*.
+
+![](assets/Finanzen%20Berichte%20Belege.png)
+
+Markieren Sie die Belge und wählen Sie *Drucken > Beleg*.
+
+![](assets/Finanzen%20Berichte%20Beleg%20drucken.png)

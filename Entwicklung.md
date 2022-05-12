@@ -260,6 +260,8 @@ Das Ergebnis sollte so aussehen:
 
 Ansichtsbezeichnung: `mint_system.base_import.mapping.tree`
 Modell: `base_import.mapping`\
+Ansichtstyp: `Baum`\
+Sequenz: `16`\
 Architektur:
 
 ```xml
