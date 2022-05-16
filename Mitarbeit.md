@@ -49,16 +49,17 @@ Zur Erläuterung der Instruktionen darf man ein fiktives Unternehmen mit folgend
 
 ![logo-velo-manufaktur-ag](assets/logo-velo-manufaktur-ag.svg)
 
-Name: Velo Manufaktur AG  
-Website: <https://www.velo-manufaktur.ch>  
-Mail: <mailto:info@velo-manufaktur.ch>  
-Odoo: <https://erp.velo-manufaktur.ch>  
-Standort: Fahrradstrasse 46, 6460 Altdorf, Schweiz  
-Mitarbeiter: Kurt Gisler, Janik von Rotz, Marco Roeleven  
-MWST: CHE-103.800.167  
-IBAN: CH5604835012345678009  
-Bank: Credit Suisse  
-BIC: CRESCHZZ  
+Name: Velo Manufaktur AG\
+Website: <https://www.velo-manufaktur.ch>\
+Mail: <mailto:info@velo-manufaktur.ch>\
+Odoo: <https://erp.velo-manufaktur.ch>\
+Standort: Fahrradstrasse 46, 6460 Altdorf, Schweiz\
+Mitarbeiter: Kurt Gisler, Janik von Rotz, Marco Roeleven\
+MWST: CHE-103.800.167\
+IBAN: CH5604835012345678009\
+QR-IBAN: CH4431999123000889012\
+Bank: Credit Suisse\
+BIC: CRESCHZZ
 
 ### Lieferanten
 
