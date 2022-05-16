@@ -32,7 +32,7 @@ Konten für welche Sie keine Verwendung haben, können Sie anwählen und die Che
 
 ## Sperrdatum festlegen
 
-Im Dialog *Finanzen > Finanzen > Aktion > Sperrdaten* können Sie Sperrdaten für die Geschäfts- und Steuerperiode definieren.e
+Im Dialog *Finanzen > Finanzen > Aktion > Sperrdaten* können Sie Sperrdaten für die Geschäfts- und Steuerperiode definieren.
 
 ![](assets/Finanzen%20Sperrdatum%20festlegen.png)
 

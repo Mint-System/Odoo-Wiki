@@ -7,5 +7,5 @@
   "trashOption": "local",
   "promptDelete": false,
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": false
 }
