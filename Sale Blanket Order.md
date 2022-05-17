@@ -28,6 +28,7 @@ Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_blanket_order>
 | [Sale Blanket Order Extended](Sale%20Blanket%20Order%20Extended.md)                                     | Kopiert weitere Felder vom Rahmenauftrag auf den Verkaufsauftrag.                                |
 | [Sale Blanket Order Commitment Date](Sale%20Blanket%20Order%20Commitment%20Date.md)                     | Kopiert das geplante Datum der Rahmenauftragszeile in das Lieferdatum der Verkaufsauftragszeile. |
 | [Sale Blanket Order Discount](Sale%20Blanket%20Order%20Discount.md)                                     | Definiere einen Rabatt auf der Rahmenauftragszeile.                                              |
+| [Sale Blanket Order Readonly States](Sale%20Blanket%20Order%20Readonly%20States.md)                     | Bestätigte Rahmenaufträge bearbeiten.                                                                                                 |
 
 ## Rahmenauftrag erstellen
 
