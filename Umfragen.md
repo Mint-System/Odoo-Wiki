@@ -28,10 +28,10 @@ Umfrage-Teilnehmer können Sie mit der Aktion *Teilen* einladen. Navigieren Sie 
 
 Erstellen Sie eine neue Mail-Vorlage mit diesen Angaben:
 
-**Name**: Umfrage: Einladung\
-**Gilt für**: Benutzereingaben\
-**Betreff**: `Einladung zur Umfrage ${object.survey_id.title}`\
-**Nachricht**:
+* **Name**: Umfrage: Einladung\
+* **Gilt für**: Benutzereingaben\
+* **Betreff**: `Einladung zur Umfrage ${object.survey_id.title}`\
+* **Nachricht**:
 
 ```html
 <div style="margin:0px;padding:0px; ">
