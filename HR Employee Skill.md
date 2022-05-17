@@ -10,7 +10,7 @@ prev: ./personal
 Übersicht der Mitarbeiterfähigkeiten.
 
 Technischer Name: `hr_employee_skill`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_employee_skill>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_employee_skill>
 
 ## Übersicht Fähigkeiten anzeigen
 
