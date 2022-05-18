@@ -25,6 +25,7 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 | [Sale Force Invoiced](Sale%20Force%20Invoiced.md)                                   | Markieren Sie den Verkaufsauftrag als abgerechnet.               |
 | [Sale Order Notes](Sale%20Order%20Notes.md)                                         | Verkaufsaufträge mit Notizfelder.                                |
 | [Sale Order Template Notes](Sale%20Order%20Template%20Notes.md)                     | Notizen auf Angebotsvorlage.                                     |
+| [Sale Order Line Not Billable](Sale%20Order%20Line%20Not%20Billable.md)                                                                                    |                                                                  |
 
 ## Verkauf Dashboard anzeigen
 
