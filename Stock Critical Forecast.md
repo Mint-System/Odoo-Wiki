@@ -1,4 +1,4 @@
----
+	---
 tags:
 - HowTo
 - Drittanbieter
@@ -11,6 +11,10 @@ Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzei
 
 Technischer Name: `stock_critical_forecast`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_critical_forecast>
+
+| Erweiterung                                                                                   | Beschreibung                                                    |
+| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| [Stock Critical Forecast Promised Agreed](Stock%20Critical%20Forecast%20Promised%20Agreed.md) | Erweitert den Bericht Mengen aus Rahmenauftrag und Kaufvertrag. |
 
 ## Kritische Vorhersage anzeigen
 
