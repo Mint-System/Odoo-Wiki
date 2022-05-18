@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./lager
+prev: ./stock-critical-forecast
 ---
 # Stock Critical Forecast Promised Agreed
 ![icon_oms_box](assets/icon_oms_box.png)
