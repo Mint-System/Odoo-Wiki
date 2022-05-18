@@ -23,6 +23,18 @@ Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenhe
 
 ![Anwesenheitszeiten An- und Abmelden](assets/Anwesenheitszeiten%20An-%20und%20Abmelden.png)
 
+## Kioskmodus starten
+
+Starten Sie den Kioskmodus von Odoo über *Anwesenheitszeiten > Kioskmodus*.
+
+![](assets/Anwesenheitszeiten%20Kioskmodus.png)
+
+Mitarbeitende können nun ohne Odoo-Benutzer die Anwesenheit registrieren.
+
+::: warning
+Stellen Sie sicher, dass der verwendete Benutzer für den Kioskmodus eingeschränkte Berechtigungen hat.
+:::
+
 ## Anwesenheit anmelden
 
 Navigieren Sie nach *Anwesenheitszeiten* und klicken Sie auf den Knopf *Anmelden*.
