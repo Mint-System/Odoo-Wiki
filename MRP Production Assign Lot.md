@@ -32,6 +32,8 @@ Im Chatter wird die Zuweisung entsprechend vermerkt:
 
 ![](assets/MRP%20Production%20Assign%20Lot%20Chatter.png)
 
-::: tip
-Die Zuweisung funktioniert automatisch für Backorders.
-:::
+## Los von ersten Backorder zuweisen
+
+Mit dieser Erweiterung wird das Los der der Arbeitsaufträge aus dem ersten Backorder auf die neuen Backorders übertragen.
+
+![MRP Production Assign Lot Backorder](assets/MRP%20Production%20Assign%20Lot%20Backorder.gif)
