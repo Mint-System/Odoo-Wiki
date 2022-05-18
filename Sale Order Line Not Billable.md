@@ -16,4 +16,8 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Mit dieser Erweiterung können Sie unter *Verkauf > Produkte > Produkte > Produkt auswählen > Tab Verkauf* mit dem Feld *Verrechenbar* festlegen, ob das Produkt beim Abrechnen eines Verkaufsauftrags enthalten sein soll.
 
+![](assets/Sale%20Order%20Line%20Not%20Billable.png)
+
+Bei der Eingabe der Menge wird diesselbe Menge für nicht verrechenbare Produkte als abgerechnete Menge übernommen.
+
 ![Sale Order Line Not Billable](assets/Sale%20Order%20Line%20Not%20Billable.gif)
