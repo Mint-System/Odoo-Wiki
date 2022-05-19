@@ -13,7 +13,6 @@ Neue Apps installieren und aktualisieren.
 | [Product Name Sequence](Product%20Name%20Sequence.md)           | Generate product names based on a sequence. |
 | [Product Barcode Generator](Product%20Barcode%20Generator.md)   | Autogenerate EAN13 product barcodes.        |
 | [Cancel Manufacturing Order](Cancel%20Manufacturing%20Order.md) | Fertigungsauftrag rückgängig machen.        |
-| [Blanket Sale Order](Blanket%20Sale%20Order.md)                 | Rahmenverträge für Verkäufe erstellen.      |
 
 ## Liste der Apps aktualisieren
 

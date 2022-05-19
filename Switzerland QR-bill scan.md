@@ -32,7 +32,7 @@ Mit *Import* bestätigen Sie den Importvorgang.
 
 Ist der Kontakt des Lieferanten nicht vorhanden, erscheint diese Fehlermeldung:
 
-![](assets/Pasted%20image%2020220504115514.png)
+![](assets/Switzerland%20QR-bill%20scan%20Fehler%20Vendor.png)
 
 Klicken Sie auf *Create* um den Lieferanten-Kontakt zu erfassen. Starten Sie anschliessend den Importvorgang erneut.
 

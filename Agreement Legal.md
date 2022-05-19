@@ -62,4 +62,4 @@ Um die Stufen der Vereinbarungen anzupassen, wählen Sie *Agreements > Configura
 
 Im folgenden Beispiel werden die abrufbaren Verträge anhand des *Agreement Type* gefiltert. Für Mitglieder der Gruppe *Agreement IT* sind nur Verträge mit der Type Bezeichnung *IT* sichtbar. Die Gruppe erstellen Sie unter *Einstellungen > Benutzer und Unternehmen > Gruppen*.
 
-![](assets/Pasted%20image%2020220509105730.png)
+![](assets/Agreement%20Legal%20Permission.png)

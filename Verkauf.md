@@ -15,7 +15,6 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 
 | Erweiterung                                                                         | Beschreibung                                                         |
 | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [Blanket Sale Order](Blanket%20Sale%20Order.md)                                     | Rahmenverträge für Verkäufe erstellen.                               |
 | [Default sales incoterm per partner](Default%20sales%20incoterm%20per%20partner.md) | Standardlieferbedingungen für Kunden.                                |
 | [Sale Blanket Order](Sale%20Blanket%20Order.md)                                     | Rahmenverträge für Verkäufe erstellen.                               |
 | [Sale Order Line Pos](Sale%20Order%20Line%20Pos.md)                                 | Verkaufsaufträge mit Positionsnummern.                               |

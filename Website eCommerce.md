@@ -62,11 +62,11 @@ Standardmässig versenden Odoo mit der Bestätigungsmail zur Bestellung eine Pro
 
 Mit den Preislisten können Sie Promo-Codes für den Webshop definieren. Als erstes aktivieren Sie die Option *Erweiterte Preisregeln (Rabatte, Formeln)* unter *Einstellungen > Website*.
 
-![](assets/Pasted%20image%2020220414151231.png)
+![](assets/Website%20eCommerce%20Preislisten.png)
 
 Auf der Website-Ansicht klicken Sie auf *Anpassen* und aktivieren *Promo Code*.
 
-![](assets/Pasted%20image%2020220414152109.png)
+![](assets/Website%20eCommerce%20Promo%20Code.png)
 
 Nun navigieren Sie nach *Website > Produkte > Preislisten* und erstellen einen neuen Eintrag mit Namen *Promo-Code*. Im Tab *Konfiguration* können Sie den Code im Feld *E-Commerce Gutscheincode* hinteregen. Mit der Option *Rabattpolitk* können Sie steuern wie der Rabatt im Webshop dargestellt werden soll. 
 
