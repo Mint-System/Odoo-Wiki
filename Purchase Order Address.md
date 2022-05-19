@@ -18,10 +18,14 @@ Damit die Bestelladresse als Empfängeradresse für die E-Mail übernommen wird,
 
 ![](assets/Purchase%20Order%20Address%20Konfiguration.png)
 
+In anderen E-Mail-Vorlagen wie *Purchase Order: Vendor Reminder* kann im Feld *An (Partner)* der Code `${object.partner_order_id.id}` eingegben werden.
+
+![](assets/Purchase%20Order%20Address%20Reminder.png)
+
+Damit wird sichergestellt, dass E-Mails aus der Bestellung immer an die Bestelladresse gehen.
+
 ## Angebotsanfrage an Bestelladresse schicken
 
 Mit dieser Erweiterung wird die Bestelladresse aus dem Kontakt auf die Angebotsanfrage übertragen. Wenn Sie eine E-Mail mit der Aktion *Per E-Mail Versenden* vorbereiten, wird die E-Mail des Bestellkontakts übernommen.
 
 ![Purchase Order Address](assets/Purchase%20Order%20Address.gif)
-
-
