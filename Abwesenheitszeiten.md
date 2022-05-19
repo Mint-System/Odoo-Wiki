@@ -66,7 +66,6 @@ Wurde die Abwesenheit genehmigt, sehen Sie die verleibenden Tage des Abwesenheit
 Abwesenheitseinträge, die im Zustand *Zur Genehmigung* sind, können nicht mehr gelöscht werden.
 :::
 
-
 ## Abwesenheit validieren
 
 Nach demselben Verfahren wie [Abwesenheitsanspruch validieren](#Abwesenheitsanspruch%20validieren) können Sie Abwesenheiten validieren. Sie erhalten entweder eine Mail oder sehen die zugewiesene Odoo-Aktivität.
@@ -87,20 +86,21 @@ Wurde eine Abwesenheit einmal erfasst, kann Sie nicht mehr gelöscht werden (ass
 
 Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen Sie den Tab *Arbeitsinformationen* und wählen Sie *Bearbeiten*. Tragen Sie den Vorgesetzen im Feld *Abwesenheitszeiten* ein. Standardmässig wird der *Manager* übernommen.
 
-## Abwesenheitstyp Überstunden kompensieren anlegen
+## Aktion "Ablehnen" erstellen
 
-Damit Mitarbeiter ihre Überstunden kompensieren können, braucht es einen entsprechenden Abwesenheitstyp.
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und erstellen einen neuen Eintrag. Wählen Sie als *Work Entry Type*: *Anwesend* und für *Einheit der Abwesenheit*: *Stunden*.
+Name der Aktion: `Ablehnen`\
+Modell: `hr.leave`\
+Folgeaktion: `Python-Code ausführen`
 
-Über den normalen Genemigungsprozess können so Mitarbeiter ihre Überstunden als Anwesenheit registrieren lassen.
+```python
+for record in records:  
+  record.action_refuse()
+```
 
-## Überstunden beziehen
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-Möchte ein Mitarbeiter seine Überstunden beziehen, gibt er diese als Abwesenheit ein. Angenommen man hat 00:29 Stunden Überzeit, so öffnet man als erstes die *Abwesenheitszeiten.*
+In der Liste der Abwesenheitszeiten erscheint nun in der Auswahl *Aktion* das Menu *Ablehnen*.
 
-![](assets/Odoo%20Abwesenheit%20%C3%9Cberstunden%20anzeigen.png)
-
-Hier wählt man *Neuer Abwesenheitsantrag* und als Typ *Überstunden kompensieren*. Wurde der Abwesenheitsantrag angenomme und gespeichert, wird dies als Arbeitszeit berücksichtigt.
-
-![](assets/Odoo%20Abwesenheitszeiten%20Abwesenheitsantrag%20erstellen.png)
+![](assets/Aktionen%20Abwesenheitszeiten%20Ablehnen.png)

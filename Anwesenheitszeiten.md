@@ -8,6 +8,10 @@ prev: ./
 
 Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 
+| Bereich                                                               | Beschreibung                        |
+| --------------------------------------------------------------------- | ----------------------------------- |
+| [Anwesenheitszeiten Überstunden](Anwesenheitszeiten%20Überstunden.md) | Überstundenmanagement ganz einfach. | 
+
 | Erweiterung                                                                       | Beschreibung                                                                                                       |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | [Überzeitenmanagement](Überzeitenmanagement.md)                                   | Verwalten Sie die Überzeiten der Mitarbeitenden.                                                                   |
@@ -18,6 +22,18 @@ Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenhe
 :::
 
 ![Anwesenheitszeiten An- und Abmelden](assets/Anwesenheitszeiten%20An-%20und%20Abmelden.png)
+
+## Kioskmodus starten
+
+Starten Sie den Kioskmodus von Odoo über *Anwesenheitszeiten > Kioskmodus*.
+
+![](assets/Anwesenheitszeiten%20Kioskmodus.png)
+
+Mitarbeitende können nun ohne Odoo-Benutzer die Anwesenheit registrieren.
+
+::: warning
+Stellen Sie sicher, dass der verwendete Benutzer für den Kioskmodus eingeschränkte Berechtigungen hat.
+:::
 
 ## Anwesenheit anmelden
 
@@ -79,3 +95,22 @@ Wenn Sie wissen möchten, welche Mitarbeitenden nicht korrekt ausgestempelt oder
 Natürlich können Sie die Auswertung auf ihrem Dashboard hinzufügen und sehen so, ob eine Fehlbuchung entstanden ist.
 
 ![](assets/Anwesenheitszeiten%20Dashboard.png)
+
+## Aktion "Überstunden aktualisieren" hinzufügen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Überstunden aktualisieren`\
+Modell: `hr.attendance`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```python
+for record in records:  
+  record._update_overtime()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+Im Formular der Anwesenheitszeiten erscheint nun in der Auswahl *Aktion* das Menu *Überstunden aktualisieren*.

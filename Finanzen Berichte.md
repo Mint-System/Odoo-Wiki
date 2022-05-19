@@ -12,6 +12,10 @@ Finanzberichte erstellen.
 
 Wenn Sie verschiedene Kontoauszüge ansehen wollen, öffnen Sie *Finanzen > Berichtswesen > Hauptbuch*. Hier können Sie nach bestimmten Konten, Perioden und Journalen filtern. Zu jedem Konto sehen Sie das Saldo.
 
+## Kontenblatt erstellen
+
+Öffnen Sie  *Finanzen > Berichtswesen > Hauptbuch* und geben Sie in der Suchmaske die Kontonummer ein. Wählen Sie in der Filterleiste *Alle auffalten* und filtern Sie die Buchungszeilen nach Geschäftsjahr. Mit der Aktion *Vorschau Drucken* erhalten Sie eine PDF-Datei der Ansicht.
+
 ## Saldenliste anzeigen
 
 Öffnen Sie *Finanzen > Finanzen > Hauptbuch*. Hier sehen Sie gemäss Kontenplan die Spalten *Soll*, *Haben* und *Saldo*. Filtern Sie die Angaben nach Konten und Buchungsdatum um die gewünschte Periode anzugigen
@@ -73,3 +77,33 @@ Sie finden eine Aufstellung der Mahnungen via *Finanzen > Kunden > Mahnberichte*
 ::: warning
 Wenn Sie einen Mahbericht öffnen, befinden Sie sich technisch auf einem Kontakt-Eintrag. Nachrichten, die mit der Ansicht Mahnbericht versendet werden, werdem auf dem Kontakt-Eintrag registriert. Prüfen Sie vor dem Versand der Nachricht, ob die Abonnenten auf dem Kontakt-Eintrag korrekt sind.
 :::
+
+## Versteuerbare Buchungssätze anzeigen
+
+Zeigen Sie *Finanzen > Finanzen > Buchungssätze* an und filtern Sie wie folgt um alle Buchungssätze des ersten Quartals mit einem Steuerbetrag anzuzeigen.
+
+![](assets/Finanzen%20Berichte%20Steuerbare%20Buchungssätze.png)
+
+## Buchungszeilen aus Umsatzsteuerbericht anzeigen
+
+Möchten Sie die Buchungszeilen des Umsatzsteuerberichts anzeigen, öffnen Sie *Finanzen > Finanzen > Buchungszeilen* und filtern die Einträge wie folgt:
+
+![](assets/Finanzen%20Berichte%20Umsatzsteuer%20Buchungszeilen.png)
+
+## Überfällige Forderungen anzeigen
+
+Mit dem Bericht *Finanzen > Berichtswesen > Überfällige Forderungen* können Sie für einen oder mehrere Kunden die offenen Debitoren anzeigen lassen.
+
+![](assets/Finanzen%20Berichte%20Forderunen.png)
+
+## Beleg drucken
+
+Auf Banken- und Kassenjournalen werden Bankauszüge und Belege abgebildet. Wählen Sie ein Journal auf der Übersicht *Finanzen* aus und drücken Sie auf Kontextmenü und wählen Sie *Belege*.
+
+![](assets/Finanzen%20Berichte%20Belege.png)
+
+Markieren Sie die Belge und wählen Sie *Drucken > Beleg*.
+
+![](assets/Finanzen%20Berichte%20Beleg%20drucken.png)
+
+Auf der Bericht werden alle Belge mit den einzelnen Transaktionen aufgelistet.

@@ -9,8 +9,8 @@ prev: ./diskussion
 
 Verhindert das versenden von Nachrichten beim Erstellen einer Buchung.
  
-Technischer Name: `mail_thread_context`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_thread_context>
+Technischer Name: `account_move_mail_thread`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/account_move_mail_thread>
 
 ## Rechnung ohne Benachrichtigungen erstellen
 

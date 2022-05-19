@@ -28,7 +28,7 @@ Navigieren nach *Einstellungen > Allgemeine Einstellungen > Entwickler Tools*.
 
 Auf *Entwicklermodus aktivieren* klicken. Nun erscheinen neue Optionen in verschiedenen Odoo Apps. In der URL erscheint zusätzlich der Parameter `?debug=1`. Der Entwicklermodus kann auch über die manuelle Eingabe dieses Parameters aktiviert werden.
 
-Eine weitere Möglickeit ist die Installation einer Browser Erweiterung. Installieren Sie über die Funktion *Erweiterungen* in der Einstellung ihres Browsers die Funktion *Odoo Debug*. Anschliessend erscheint das folgende Icon in der Toolbar:
+Eine weitere Möglickeit ist die Installation der Browser-Addon [Odoo Debug](https://www.droggol.com/odoo-tools). Installieren Sie deses Addon in ihrem Browser. Anschliessend erscheint das folgende Icon in der Toolbar:
 
 ![Einstellungen Odoo Debug](assets/Einstellungen%20Odoo%20Debug.png)
 

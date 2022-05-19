@@ -12,7 +12,15 @@ Personalbrechnungen schnell und einfach erstellen.
 | ------------------------------------------------------------------------- | -------------------------------------------- |
 | [Payroll Customizations Giordano](Payroll%20Customizations%20Giordano.md) | Lohnabrechnung nach Schweizer Anforderungen. |
 | [Lohnmeldung](Lohnmeldung.md)                                             | Lohnmeldungen ganz einfach generieren.       |
-| [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md)           | Lohnabrechnungen mit variablen Eingaben.                                             |
+| [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md)           | Lohnabrechnungen mit variablen Eingaben.     |
+| [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md)           | Berichte für Lohnbuchhaltung erstellen.      |
+| [Personalabrechnung Aktionen](Personalabrechnung%20Aktionen.md)                                               | Lohnabrechnung automatisieren.                                             |
+
+## Arbeitseinträge anzeigen
+
+Anhand der Anwesenheit und Abwesenheit erstellt Odoo für jeden Mitarbeitenden entsprechende Arbeitseinträge. Diese sind relevant für die Stundenbasierten Lohnabrechnungen.
+
+Die Arbeitseinträge zeigen Sie via *Personalabrechnung > Arbeitseinträge > Work Entries* an. Hier sehen Sie, ob Mitarbeitende ungeklärte Lücken haben.
 
 ## Pesonalabrechnung initialisieren
 
@@ -113,7 +121,7 @@ Damit Sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen Sie dem How
 Name der Aktion: `Lohnabrechnungszeilen`\
 Objekt: `hr.payslip.line`\
 Menü: `Lohnabrechnungszeilen`\
-Obermenü: `Personalabrechnung/Abrechnungen Mitarbeitervergütung`\
+Obermenü: `Personalabrechnung/Berichtswesen`\
 Aktion: `ir.actions.act_window` `Lohnabrechnungszeilen`
 Nummernfolge: `90`
 
@@ -121,40 +129,6 @@ Das Ergebnis sollte so aussehen:
 
 ![](assets/Personalabrechnung%20Lohnabrechnungszeilen.png)
 
-## Aktion "Lohnabrechnung zurücksetzen" hinzufügen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Lohnabrechnung zurücksetzen`\
-Modell: `hr.payslip`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
-
-```py
-for record in records:  
-  record.write({'state': 'draft'})
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-Im Formular der Lohnbuchung erscheint nun in der Auswahl *Aktion* das Menu *Lohnabrechnung zurücksetzen*.
-
-## Aktion "Batch zurücksetzen" hinzufügen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Batch zurücksetzen`\
-Modell: `hr.payslip.run`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
-
-```py
-for record in records:
-  record.write({'state': 'verify'})
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-Im Formular der Batches erscheint nun in der Auswahl *Aktion* das Menu *Batch zurücksetzen*.
+::: tip
+Auf der Aktion *Lohnabrechnungszeilen* als *Ansichtsmodus* den Wert `pivot` anfügen.
+:::

@@ -152,9 +152,10 @@ if (!firstArg || ['all', 'index'].indexOf(firstArg) >= 0) {
             }
         }
 
-        // Throw error if title not found
+        // Use filename as title
         if (!title) {
-            throw new Error(`Could not find title for '${file}'.`)
+            title = file.replace('.md','')
+            // throw new Error(`Could not find title for '${file}'.`)
         }
 
         // create file link list

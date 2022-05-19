@@ -8,15 +8,23 @@ prev: ./
 
 Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
 
-| Erweiterung                                                                           | Beschreibung                                         |
-| ------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| [Einkauf Kaufverträge](Einkauf%20Kaufverträge.md)                                     | Kaufverträge für Rahmenbestellungen erstellen.       |
-| [Purchase Order Line Date](Purchase%20Order%20Line%20Date.md)                         | Lieferdatum im Wareneingang automatisch nachtragen.  |
-| [Purchase Order Partner Incoterm](Purchase%20Order%20Partner%20Incoterm.md)                         | Für jedem Partner die Incoterms festlegen.           |
-| [Pruchase Order Line Position](Purchase%20Order%20Line%20Position.md)                 | Einkaufsaufträge mit Positionsnummern.               |
-| [Purchase Order Line Price Default](Purchase%20Order%20Line%20Price%20Default.md)     | Standardpreis einer Einkaufsposition überschreiben.  |
-| [Purchase order lines with discounts](Purchase%20order%20lines%20with%20discounts.md) | Rabatte auf Einkaufspositionen festlegen.            |
-| [Purchase Order Validate](Purchase%20Order%20Validate.md)                             | Bestellung vor Versenden oder Bestätigen überprüfen. |
+| Bereich                                           | Beschreibung                                   |
+| ------------------------------------------------- | ---------------------------------------------- |
+| [Einkauf Kaufverträge](Einkauf%20Kaufverträge.md) | Kaufverträge für Rahmenbestellungen erstellen. |
+
+| Erweiterung                                                                           | Beschreibung                                                                              |
+| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| [Purchase Order Line Date](Purchase%20Order%20Line%20Date.md)                         | Lieferdatum im Wareneingang automatisch nachtragen.                                       |
+| [Purchase Order Partner Incoterm](Purchase%20Order%20Partner%20Incoterm.md)           | Für jedem Partner die Incoterms festlegen.                                                |
+| [Pruchase Order Line Position](Purchase%20Order%20Line%20Position.md)                 | Einkaufsaufträge mit Positionsnummern.                                                    |
+| [Purchase Order Line Price Default](Purchase%20Order%20Line%20Price%20Default.md)     | Standardpreis einer Einkaufsposition überschreiben.                                       |
+| [Purchase order lines with discounts](Purchase%20order%20lines%20with%20discounts.md) | Rabatte auf Einkaufspositionen festlegen.                                                 |
+| [Purchase Order Validate](Purchase%20Order%20Validate.md)                             | Bestellung vor Versenden oder Bestätigen überprüfen.                                      |
+| [Purchase Order Line Relay Price](Purchase%20Order%20Line%20Relay%20Price.md)         | Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den Verkäufter. |
+| [Purchase Order Notes](Purchase%20Order%20Notes.md)                                   | Einkaufsaufträge mit Notizfelder.                                                         |
+| [Purchase Order Comment](Purchase%20Order%20Comment.md)                               | Kommentar-Feld für Einkaufsaufträge.                                                      |
+| [Purchase Order Line Description](Purchase%20Order%20Line%20Description.md)           | Nur die Einkaufsbeschreibung in der Einkaufsposition übernehmen.                          |
+| [Purchase Order Address](Purchase%20Order%20Address.md)                               | Bestelladresse von Kunden auf Angebotsanfrage gespeichert.                                                                                          |
 
 ## Angebotsanfrage erstellen
 

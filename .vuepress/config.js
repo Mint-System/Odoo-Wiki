@@ -6,11 +6,13 @@ module.exports = {
         ['link', { rel: "icon", type: "image/png", href: "icon.png"}],
     ],
     themeConfig: {
+        logo: '/icon.png',
         sidebar: 'auto',
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Topics', link: '/topics' },
-            { text: 'Glossary', link: '/glossary' }
+            { text: 'Glossary', link: '/glossary' },
+            { text: 'Mint System', link: 'https://www.mint-system.ch' }
         ]
     },
     plugins: [

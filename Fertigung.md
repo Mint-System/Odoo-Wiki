@@ -8,9 +8,10 @@ prev: ./
 
 Eine moderne Lösung für ein altes Problem.
 
-| Bereich                                         | Beschreibung                                   |
-| ----------------------------------------------- | ---------------------------------------------- |
+| Bereich                                           | Beschreibung                                   |
+| ------------------------------------------------- | ---------------------------------------------- |
 | [Fertigung Stammdaten](Fertigung%20Stammdaten.md) | Produkte und Dienstleistungen zentral pflegen. |
+| [Fertigung Aktionen](Fertigung%20Aktionen.md)     | Fertigungs-Prozesse automatisieren.            |
 
 | Erweiterung                                                                       | Beschreibung                                                                 |
 | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -24,7 +25,10 @@ Eine moderne Lösung für ein altes Problem.
 | [Secondary Product Type Description](Secondary%20Product%20Type%20Description.md) | Zu jedem Produkt ein zweites Beschreibungsfeld.                              |
 | [Product Feeder ID](Product%20Feeder%20ID.md)                                     | Feeder-Textfeld auf dem Produkt.                                             |
 | [Manufacture Production Move Date](Manufacture%20Production%20Move%20Date.md)     | Lieferdatum auf Fertigungsauftrag bearbeiten.                                |
-| [Manufacturing BoM Consumption](Manufacturing%20BoM%20Consumption.md)                         | Definieren Sie eine Stückliste, die bei der Lieferung verschrottet wird.                                                                             |
+| [Manufacturing BoM Consumption](Manufacturing%20BoM%20Consumption.md)             | Definieren Sie eine Stückliste, die bei der Lieferung verschrottet wird.     |
+| [MRP Production Release](MRP%20Production%20Release.md)                           | Fertigungsaufträge können zurückgesetzt und freigegebenen werden.            |
+| [MRP Production Assign Lot](MRP%20Production%20Assign%20Lot.md)                   | Los aus eingehenden Lagerbuchungen and unreservierte Komponenten zuweisen.   |
+| [MRP Workorder Set Producing Qty](MRP%20Workorder%20Set%20Producing%20Qty.md)     | Arbeitsauftrag startet ohne erledigte Menge.                     |
 
 | Video                                                                                    |
 | ---------------------------------------------------------------------------------------- |
@@ -34,7 +38,7 @@ Eine moderne Lösung für ein altes Problem.
 
 Mit dem Erstellen eines Fertigungsauftrags werden die Komponenten der Stückliste (BoM) als zu verwendendes Material übernommen. Falls die Stückliste zu einem späteren Zeitpunkt geändert wird, verändert sich der Fertigungsauftrag standardmässig nicht. Mit der folgend beschriebenen Funktion kann aber erreicht werden, dass der Fertigungsauftrag jederzeit mit der aktuellen Stückliste abgeglichen werden kann.
 
-Die Server Aktion *Reload BoM* wird gemäss Beschreibung in [BoM Reload Aktion erstellen](Entwicklung%20Aktionen.md#BoM%20Reload%20Aktion%20erstellen) erstellt. Anschliessend kann über den Menupunkt *Reload BoM* die BoM jederzeit neu geladen werden.
+Die Server Aktion *Reload BoM* wird gemäss Beschreibung in [Aktion Fertigung Reload BoM erstellen](Fertigung%20Aktionen.md#Aktion%20Fertigung%20Reload%20BoM%20erstellen) erstellt. Anschliessend kann über den Menupunkt *Reload BoM* die BoM jederzeit neu geladen werden.
 
 ![Fertigung Reload BoM](assets/Fertigung%20Reload%20BoM.png)
 
@@ -59,5 +63,3 @@ Für das Komponenten-Produkt wird nun der *prognostizierter indirekter Bedarf* b
 ![](assets/Hauptproduktionszeitplan.png)
 
 Wählen Sie für jedes Produkt *Aufstocken* um einen Auftrag gemäss hinterlegter Route zu erstellen.
-
-

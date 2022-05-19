@@ -49,16 +49,17 @@ Zur Erläuterung der Instruktionen darf man ein fiktives Unternehmen mit folgend
 
 ![logo-velo-manufaktur-ag](assets/logo-velo-manufaktur-ag.svg)
 
-Name: Velo Manufaktur AG  
-Website: <https://www.velo-manufaktur.ch>  
-Mail: <mailto:info@velo-manufaktur.ch>  
-Odoo: <https://erp.velo-manufaktur.ch>  
-Standort: Fahrradstrasse 46, 6460 Altdorf, Schweiz  
-Mitarbeiter: Kurt Gisler, Janik von Rotz, Marco Roeleven  
-MWST: CHE-103.800.167  
-IBAN: CH5604835012345678009  
-Bank: Credit Suisse  
-BIC: CRESCHZZ  
+Name: Velo Manufaktur AG\
+Website: <https://www.velo-manufaktur.ch>\
+Mail: <mailto:info@velo-manufaktur.ch>\
+Odoo: <https://erp.velo-manufaktur.ch>\
+Standort: Fahrradstrasse 46, 6460 Altdorf, Schweiz\
+Mitarbeiter: Kurt Gisler, Janik von Rotz, Marco Roeleven\
+MWST: CHE-103.800.167\
+IBAN: CH5604835012345678009\
+QR-IBAN: CH4431999123000889012\
+Bank: Credit Suisse\
+BIC: CRESCHZZ
 
 ### Lieferanten
 
@@ -199,9 +200,7 @@ Die foglenden Namensbereiche sind reserviert:
 Mit Obsidian können Artikel getagged `#tagname` werden. Tags werden von Vuepress nicht verarbeitet, daher werden diese nur zur Verwaltung der Artikel verwendet. Folgende Tags stehen zur Verfügung:
 
 * #FIXME: An dieser Stelle ist eine Änderungen offen.
-* #REPLACEME: An der Stelle des Tags mit gemäss Kommentar Inhalt ergänzt werden.
-* #DELETEME: Dieser Artikel und Assets kann gelöscht werden.
-* #PATCH: Applied patch to fix bug.
 * #Odoo13: Dieses Feature ist nur für Odoo 13 verfügbar.
-* #Odoo14: Dieses Feature ist nur für Odoo 13 verfügbar.
+* #Odoo14: Dieses Feature ist nur für Odoo 14 verfügbar.
+* #Odoo15: Dieses Feature ist nur für Odoo 15 verfügbar.
 * #Odoo13-14: Dieses Feature ist für Odoo 13 bis 14 verfügbar.

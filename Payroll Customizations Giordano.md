@@ -25,3 +25,9 @@ Legen Sie unbedingt die Monatslohngrenze fest. Nur dann werden ALV und NBU korre
 :::
 
 ![](assets/Pesonalabrechnung%20Anteile%20Arbeitnehmer%20Arbeitgebener.png)
+
+## Lohndeklaration AVH anzeigen
+
+Damit die Lohndeklaration für die Ausgleichsklasse einfacher gemacht werden, können Sie eine neue Lohnregel erstellen:
+
+![](assets/Payroll%20Customizations%20Giordano%20Lohndeklaration.png)

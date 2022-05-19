@@ -8,13 +8,16 @@ prev: ./
 
 Agiles Projektmanagement. Schön. Einfach. Open Source.
 
-| Erweiterung                                                   | Beschreibung                           |
-| ------------------------------------------------------------- | -------------------------------------- |
-| [Project timeline](Project%20Timeline.md)                     | Timeline-Ansicht für Projektaufgaben.  |
-| [Project Task Dependencies](Project%20Task%20Dependencies.md) | Projektaufgaben mit Abhängigkeiten.    |
-| [Project key](Project%20Key.md)                               | Projektkürzel für Aufgabenbezeichnung. |
-| [Business Requirement](Business%20Requirement.md)             | Projektanforderungen erfassen und verknüpfen.                                       |
-
+| Erweiterung                                                       | Beschreibung                                           |
+| ----------------------------------------------------------------- | ------------------------------------------------------ |
+| [Project timeline](Project%20Timeline.md)                         | Timeline-Ansicht für Projektaufgaben.                  |
+| [Project Task Dependencies](Project%20Task%20Dependencies.md)     | Projektaufgaben mit Abhängigkeiten.                    |
+| [Project key](Project%20Key.md)                                   | Projektkürzel für Aufgabenbezeichnung.                 |
+| [Business Requirement](Business%20Requirement.md)                 | Projektanforderungen erfassen und verknüpfen.          |
+| [Project Task Default Stage](Project%20Task%20Default%20Stage.md) | Standardstufen für Projektaufgaben.                    |
+| [Project Templates](Project%20Templates.md)                       | Projekt aus Projektvorlage erstellen.                  |
+| [Project Task Material](Project%20Task%20Material.md)             | Liste von verbrauchten Materialien auf Projektaufgabe. |
+| [Sequential Code for Tasks](Sequential%20Code%20for%20Tasks.md)   | Sequenznummer für Projektaufgaben.                     |
 
 ## Projekt anlegen
 
@@ -106,25 +109,41 @@ for project in project_ids:
 
   # Set name for action and view
   name = 'Projektaufgaben ' + project.name
+  if project.key:
+    name += ' (' + project.key + ')'
 
   # Check if view entry exists
   action = env['ir.actions.act_window'].search([('name', '=', name)], limit=1)
   # raise Warning([action])
+  
+  # Create action if it does not exist otherwise update
   if not action:
-    # Create view
     action = env['ir.actions.act_window'].create({
       'name': name,
       'res_model': 'project.task',
       'view_mode': 'kanban,tree,form,calendar,pivot,graph,activity,map',
       'domain': "[('project_id', '=', %s)]"  % (project.id),
+      'context': "{ 'default_project_id': %s }" % (project.id)
     })
+  else:
+    action.update({
+      'name': name,
+      'res_model': 'project.task',
+      'view_mode': 'kanban,tree,form,calendar,pivot,graph,activity,map',
+      'domain': "[('project_id', '=', %s)]"  % (project.id),
+      'context': "{ 'default_project_id': %s }" % (project.id)
+    })
+
+  
+  # Set action reference
+  action_ref = 'ir.actions.act_window,' + str(action.id)
   
   # Check if menu entry exists
   menu = env['ir.ui.menu'].search([('name', '=', name)], limit=1)
   # raise Warning([menu])
+  
+  # Create menu if does not exist otherwise update
   if not menu:
-    # Add menu
-    action_ref = 'ir.actions.act_window,' + str(action.id)
     menu = env['ir.ui.menu'].create({
       'name': name,
       'action': action_ref,
@@ -132,6 +151,13 @@ for project in project_ids:
       'sequence': project.id,
     })
     new_menus.append(menu)
+  else:
+    menu.update({
+      'name': name,
+      'action': action_ref,
+      'parent_id': parent_menu_id,
+      'sequence': project.id,
+    })
      
 if new_menus:
   log('Created new menus: %s' % (new_menus))

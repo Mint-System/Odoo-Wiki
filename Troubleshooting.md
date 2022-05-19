@@ -86,3 +86,41 @@ Werden die ausgehenden E-Mail Server bearbeitet oder zurückgesetzt, werden in d
 #### Lösung
 
 Prüfen Sie die Systemparater und stellen sicher sich, dass die Schlüssel `mail.catchall.domain` und `mail.catchall.alias`.
+
+##  Kein Zugriff auf Ansicht
+
+### Problem
+
+Beim erstellen eines Bericht erscheint diese Fehlermeldung:
+
+```
+odoo.exceptions.AccessError: Sie haben keinen Zugriff auf 'Ansicht' (ir.ui.view) Datensätze.
+
+This operation is allowed for the following groups:
+	- Administration/Settings
+
+Contact your administrator to request access if necessary.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/cache.py", line 85, in lookup
+    r = d[key]
+  File "/usr/lib/python3/dist-packages/odoo/tools/func.py", line 71, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: ('ir.model.access', <function IrModelAccess.check at 0x7f125fa22e18>, 10, False, 'ir.ui.view', 'read', True, ('de_CH',))
+
+During handling of the above exception, another exception occurred:
+```
+
+### Ursache
+
+Der angezeigte Bericht wird nicht korrekt vom System aufgerufen.
+
+### Lösung
+
+Geben Sie den Benutzern Leserechte auf das Datenmodell `ir.ui.view`.
+
+![](assets/ir.ui.view%20user%20read.png)

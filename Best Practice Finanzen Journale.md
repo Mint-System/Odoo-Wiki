@@ -5,6 +5,8 @@ prev: ./best-practice
 ---
 # Best Practice: Journale
 
+Gilt für #Odoo13 
+
 Für die Finanzbuchhaltung müssen vor der ersten Buchung Journale definiert werden. Navigieren Sie nach *Finanzen > Konfiguration > Abrechnung > Journale*. Passen Sie die bestehenden Journale an.
 
 ## Verkauf
@@ -27,7 +29,6 @@ Typ: Einkauf
 Währung: CHF  
 E-Mail Alias: eingangsrechnungen@example.com  
 
-#Odoo13\
 Sequenz: Prefix "Nr. " und nächste Nummer 300  
 Rückerstattungs-Sequenz: Prefix "Nr. " und nächste Nummer 300  
 Standard-Sollkonto: 4400 Handelswarenaufwand  
@@ -46,7 +47,6 @@ Kurzzeichen: BNK1
 Typ: Bank  
 Währung: CHF  
 
-#Odoo13\
 Sequenz: Prefix "BNK1/%(range_year)s/"  
 Standard-Sollkonto: 1021 Bank  
 Standard-Habenkonto: 1021 Bank  
@@ -58,7 +58,6 @@ Kurzzeichen: CSH1
 Typ: Kasse/Bank  
 Währung: CHF  
 
-#Odoo13\
 Sequenz: Prefix "CSH1/%(range_year)s/"  
 Standard-Sollkonto: 1001 Kasse/Bank  
 Standard-Habenkonto: 1001 Kasse/Bank  
@@ -69,7 +68,6 @@ Name: **Wechselkursdifferenzen (CHF)**
 Kurzzeichen: EXCH  
 Typ: Sonstiges  
 
-#Odoo13\
 Sequenz: Prefix "EXCH/%(range_year)s/"  
 Standard-Sollkonto: 4906 Währungsdifferenzen  
 Standard-Habenkonto: 3806 Währungsdifferenzen  
@@ -81,7 +79,6 @@ Kurzzeichen: LHN
 Typ: Sonstiges  
 Währung: CHF  
 
-#Odoo13\
 Sequenz: Prefix "LHN/%(range_year)s/"  
 Standard-Sollkonto: 5000 Lohnaufwand  
 Standard-Habenkonto: 5000 Lohnaufwand  

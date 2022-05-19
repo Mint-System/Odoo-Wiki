@@ -10,6 +10,68 @@ Eigene Berichte mit QWeb erstellen.
 
 ## Benutzerdefinierter Bericht erstellen
 
+In diesem Szenario möchten wir für Dokumente einen Bericht generieren.
+
+Öffnen Sie *Einstellungen > Technisch > Berichtswesen > Berichte* und erstellen Sie einen neuen Bericht mit diesen Attributen:
+
+* **Name**: `Kundenstandards`
+* **Modellname**: `documents.document`
+* **Papierformat**: `A4`
+* **Berichtstyp**: `PDF`
+* **Vorlagenname**: `documents.report_customer_standards`
+
+Navigieren Sie nun nach *Einstellungen > Technisch > Benutzer-Interface > Ansichten* und erstellen sie Sie neue Ansicht gemäss [Ansicht erstellen](Entwicklung.md#Ansicht%20erstellen) mit diesen Attributen:
+
+**Ansichtsbezeichnung**: `mint_system.documents.report_customer_standards`
+**Modell**: `documents.document`\
+**Sequenz**: `50`\
+**Ansichtstyp**: `QWeb`\
+**Architektur**:
+
+```xml
+<t t-name="report_customer_standards">
+  <t t-call="web.html_container">
+	  <t t-call="web.internal_layout">
+  		<div class="page">
+  				
+		<table class="table o_report_block_table">
+          <thead>
+            <tr>
+              <th>
+                <span>Name</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr t-foreach="docs" t-as="o">
+              <td>
+                <span t-field="o.name"/>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+    
+  		</div>
+	  </t>
+	</t>
+</t>
+```
+
+Kopieren Sie die *ID* der Ansicht via *Entwicklertools > Metadaten anzeigen* und erstellen Sie eine externe ID gemäss [Externe ID erfassen](Entwicklung.md#Externe%20ID%20erfassen) mit diesen Attributen:
+
+* **Modul**: `documents`
+* **Externe Identifikation**: `report_customer_standards`
+* **Modellname**: `ir.ui.view`
+* **Datensatz-ID**: `$ID`
+
+Ihre Ansicht wird nun vom Bericht über den *Vorlagename* identifiziert. Kehren Sie zum Bericht zurück und wählen *Zum Druckmenü hinzufügen*
+
+![](assets/Entwicklung%20QWeb-Berichte%20Drucken%20Kundenstandards.png)
+
+## Benutzerdefinierter Bericht ableiten
+
+In diesem Szenario wird gezeigt wie Sie einen bestehenden Bericht übernehmen und anpassen.
+
 Öffnen Sie *Einstellungen > Technisch > Berichtswesen > Berichte* und erstellen Sie einen neuen Bericht mit diesen Attributen:
 
 * Name: `Barcodes $COMPANY (PDF)`
@@ -89,7 +151,8 @@ Hierzu eine Übersicht der wichtigsten Berichte und deren URL:
 | Vorschau interner Bericht | `/report/html/web.preview_internalreport/$ID`             |
 | Vorschau externer Bericht | `/report/html/web.preview_externalreport/$ID`             |
 | Rahmenauftrag             | `/report/html/sale_blanket_order.report_blanketorder/$ID` |
-| QR-Rechnung               | `/report/html/l10n_ch.qr_report_main/$ID`                                                          |
+| QR-Rechnung               | `/report/html/l10n_ch.qr_report_main/$ID`                 |
+| Barcodes (PDF)            | `/report/html/stock.label_transfer_template_view_pdf/$ID`                                                          |
 
 ::: tip
 Bestimmte Bericht können mehere Dokumente anzeigen. Für die HTML-Anzeige können Sie die Dokument-IDs Komma-getrennt übergeben: /report/html/**stock.report_deliveryslip**/**3,4,5**

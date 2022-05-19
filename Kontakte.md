@@ -8,18 +8,19 @@ prev: ./
 
 Alle Kontaktdaten an einem Ort.
 
-| Erweiterung                                                             | Beschreibung                                               |
-| ----------------------------------------------------------------------- | ---------------------------------------------------------- |
-| [Partner first name and last name](Partner%20first%20name%20and%20last%20name.md) | Unterscheidet Vor- und Nachnamen.                          |
-| [Partner Secondary Name](Partner%20Secondary%20Name.md)                     | Zweitname für Unternehmen.                                 |
-| [Partner Secondary Email](Partner%20Secondary%20Email.md)                   | Zweite E-Mail für alle Kontakte.                           |
-| [Contact's birthdate](Contact%20Birthdate.md)                             | Geburtstag bei Kontakten speichern für tolle Erinnerungen. |
-| [Partner Ref Sequence](Partner%20Ref%20Sequence.md)                         | Automatische Vergabe der Kontakt-Referenz.                 |
-| [Partner Contact Department](OCA%20Partner%20Contact%20Department.md)         | Erweitert das Adressbuch mit Abteilungen.                  |
-| [Partner Hide Address](Partner%20Hide%20Address.md)                         | Addressen auf Berichten ausblenden.                        |
-| [Partner Contact Department](Partner%20Contact%20Department%20Note.md)        | Abteilung auf Kontakten speichern.                         |
-| [Base Partner Sequence](Base%20Partner%20Sequence.md)                       | Sequenz auf Kundenreferenz.                                |
-| [Partner Contact Location in Name](Partner%20Contact%20Location%20in%20Name.md) | PLZ und Stadt in Kontaktauswahl anzeigen.                  |
+| Erweiterung                                                                       | Beschreibung                                                  |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| [Partner first name and last name](Partner%20first%20name%20and%20last%20name.md) | Unterscheidet Vor- und Nachnamen.                             |
+| [Partner Secondary Name](Partner%20Secondary%20Name.md)                           | Zweitname für Unternehmen.                                    |
+| [Partner Secondary Email](Partner%20Secondary%20Email.md)                         | Zweite E-Mail für alle Kontakte.                              |
+| [Contact's birthdate](Contact%20Birthdate.md)                                     | Geburtstag bei Kontakten speichern für tolle Erinnerungen.    |
+| [Partner Ref Sequence](Partner%20Ref%20Sequence.md)                               | Automatische Vergabe der Kontakt-Referenz.                    |
+| [Partner Contact Department](OCA%20Partner%20Contact%20Department.md)             | Erweitert das Adressbuch mit Abteilungen.                     |
+| [Partner Hide Address](Partner%20Hide%20Address.md)                               | Addressen auf Berichten ausblenden.                           |
+| [Partner Contact Department](Partner%20Contact%20Department%20Note.md)            | Abteilung auf Kontakten speichern.                            |
+| [Base Partner Sequence](Base%20Partner%20Sequence.md)                             | Sequenz auf Kundenreferenz.                                   |
+| [Partner Contact Location in Name](Partner%20Contact%20Location%20in%20Name.md)   | PLZ und Stadt in Kontaktauswahl anzeigen.                     |
+| [Partner Type Order](Partner%20Type%20Order.md)                                   | Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest. |
 
 ## Portal-Zugriff gewähren
 
@@ -37,7 +38,16 @@ Odoo verwendet Kontakte als zentrales Adressbuch. Verschiedene Apps wie Verkauf,
 
 **Kopfdaten**
 
-![Kontakte Felder Kopfdaten](assets/Kontakte%20Felder%20Kopfdaten.svg)
+| Bezeichung    | Beschreibung                                                                                       |
+| ------------- | -------------------------------------------------------------------------------------------------- |
+| Firmenadresse |                                                                                                    |
+| Strasse       |                                                                                                    |
+| Strasse 2     |                                                                                                    |
+| Stadt         |                                                                                                    |
+| Bundesland    | Wird für die Schweiz nicht verwendet                                                               |
+| PLZ           |                                                                                                    |
+| Land          | Muss immer einen Eintrag haben, weil für bestimmte Berechnungen die Information notwendig ist.     |
+| Ust-IdNr.     | Unternehmens-Identifikationsnummer (UID). Mit dem Zusatz MWST ist sie gleichzeitig die MWST-Nummer |
 
 **Kontakte & Adressen**
 
@@ -45,7 +55,11 @@ Individuen die als Einzelperson erfasst und einem Unternehmen zugeordnet sind er
 
 **Verkauf**
 
-![Kontakte Felder Verkauf](assets/Kontakte%20Felder%20Verkauf.svg)
+| Bezeichnung         | Beschreibung                                                                                                  |
+| ------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Verkäufer           | Beim Erfassen eines neuen Angebots erscheint der hier zugeordnete Name aus der Benutzerliste.                 |
+| Zahlungsbedingungen | Kundenspezifischer Standardwert für das Erstellen von Angeboten                                               |
+| Preisliste          | Es können über die Zuordnung verschiedener Preislisten spezifische Verkaufspreise pro Kunde definiert werden. |
 
 ## Bezeichnung Umsatzsteuer festlegen
 

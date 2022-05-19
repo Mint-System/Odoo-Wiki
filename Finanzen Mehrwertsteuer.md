@@ -39,6 +39,10 @@ Klicken Sie auf *Einstellungen > Finanzen > Steuern > Konfigurieren der Steuerko
 
 ![](assets/Finanzen%20Mehrwertsteuer%20Steuerkonten%20konfigurieren.png)
 
+::: tip
+Normalerweise werden in den Spalten *Steuer aktuelles Konto (bezahlen)* und *Steuer aktuelles Konto (empfangen)* das Konto *2201 Abrechnungskonto MWST* hinterlegt.
+:::
+
 ## Steuergruppen anzeigen
 
 Damit Sie eine Übersicht der Steuergruppen erhalten,müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* einen neuen Eintrag anlegen.
@@ -47,3 +51,18 @@ Menü: `Steuergruppen`\
 Obermenü: `Finanzen/Konfiguration/Finanzen`\
 Aktion: `ir.actions.act_window` `Steuergruppen`\
 Nummernfolge: `10`
+
+## Steueranpassung vornehmen
+
+Angenommen Sie haben auf einer Lieferantenrechnung eine falsche Steuer verrechnet und der Umsatzsteuerbericht ist bereits verbucht, so können Sie mit der Aktion *Finanzen > Finanzen > Steueranpassung* eine Korrekturbuchung erstellen. Geben Sie als Betrag den Steuerbetrag ein.
+
+Hier ein Beispiel einer Lieferantenrechung zur Korrektur:
+![](assets/Finanzen%20Mehrwertsteuer%20Steueranpassung%20Rechnung.png)
+
+Der Fehlbetrag wird im Aktionsformular eingetragen.
+
+![](assets/Finanzen%20Mehrwertsteuer%20Steueranpassung.png)
+
+Und daraus wird diese Buchung generiert.
+
+![](assets/Finanzen%20Mehrwertsteuer%20Steueranpassung%20Buchung.png)

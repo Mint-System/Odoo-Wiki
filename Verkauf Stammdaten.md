@@ -10,7 +10,7 @@ Produkte, Preislisten und Varianten zentral pflegen.
 
 | Erweiterung       | Beschreibung                            |
 | ----------------- | --------------------------------------- |
-| [[Packaging UOM]] | Mengeneinheit für Produktverpackung fesltegen. |
+| [Packaging UOM](Packaging%20UOM.md) | Mengeneinheit für Produktverpackung fesltegen. |
 
 ## Produktattribut erstellen
 

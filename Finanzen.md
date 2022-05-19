@@ -16,16 +16,19 @@ Ihre Buchhaltung einfach und korrekt.
 | [Finanzen Berichte](Finanzen%20Berichte.md)                     | Finanzberichte erstellen.                                 |
 | [Finanzen Kostenrechnung](Finanzen%20Kostenrechnung.md)         | Kosten analysieren und Budget plannen.                    |
 | [Finanzen Buchhaltung](Finanzen%20Buchhaltung.md)               | Kontenplan einrichten und Buchungen erstellen.            |
+| [Finanzen Aktionen](Finanzen%20Aktionen.md)                     | Neue Aktionen für Buchungen und Abstimmungen.             |
+| [Finanzen Snippets](Finanzen%20Snippets.md)                     | Einfache Anpassungen mit Odoo Snippets.                   |
 
-| Erweiterung                                                                         | Beschreibung                                                                          |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)                   | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren.                     |
-| [Recurring - Contracts Management](Contract.md)                                     | Wiederholende Verträge verwalten und automatisch verrechnen.                          |
-| [Switzerland Bank type](Switzerland%20Bank%20Type.md)                               | Lokalisierung für Schweizer Banken und Bankkontos.                                    |
-| [Account Move Line Position](Account%20Move%20Line%20Position.md)                   | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.                      |
-| [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)       | Lieferaufträge mit Rechnungszeile verlinken.                                          |
-| [Sale Invoice Cash Rounding Default](Sale%20Invoice%20Cash%20Rounding%20Default.md) | Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden. |
-| [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)               | Zeigt für eine Rechnung das definitive Abgleichsdatum an.                             |
+| Erweiterung                                                                                                     | Beschreibung                                                                          |
+| --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)                                               | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren.                     |
+| [Recurring - Contracts Management](Contract.md)                                                                 | Wiederholende Verträge verwalten und automatisch verrechnen.                          |
+| [Switzerland Bank type](Switzerland%20Bank%20Type.md)                                                           | Lokalisierung für Schweizer Banken und Bankkontos.                                    |
+| [Account Move Line Position](Account%20Move%20Line%20Position.md)                                               | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.                      |
+| [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)                                   | Lieferaufträge mit Rechnungszeile verlinken.                                          |
+| [Sale Invoice Cash Rounding Default](Sale%20Invoice%20Cash%20Rounding%20Default.md)                             | Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden. |
+| [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                           | Zeigt für eine Rechnung das definitive Abgleichsdatum an.                             |
+| [Switzerland Invoice Reports with payment option](Switzerland%20Invoice%20Reports%20with%20payment%20option.md) | Rechnung mit ISR- und/oder QR-Zahlung drucken.                                        |
 
 ## Rechnung per E-Mail empfangen
 
@@ -100,26 +103,6 @@ Navigieren Sie nach *Finanzen > Kunden > Rechnungen* und wählen Sie *Filter > B
 Navigieren Sie nach *Finanzen > Konfiguration > Abrechnung > Zahlungsbedingungen* und erstellen Sie einen neuen Eintrag wie folgt. Duplizieren Sie eine bestehende Zahlungsbedingung, beispielsweise *30 Tage*. Wir nehmen an, dass wir für eine Zahlung innerhalb von Tagen 10 eine Skonto von 10% gewähren.
 
 ![](assets/Finanzen%20Rabatt.png)
-
-
-## Aktion Finanzen "Als ungebucht markieren" erstellen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Als ungebucht markieren`\
-Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`
-
-```py
-for record in records:
-	if record.state != 'cancel':
-		UserError('Can only unpost entry if it is cancelled.')
-	record.write({ 'posted_before': False })
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Als ungebucht markieren*.
 
 ## Portal-Ansicht von Rechnung anzeigen
 
