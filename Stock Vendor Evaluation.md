@@ -10,7 +10,7 @@ prev: ./lager
 Lieferungen bewerten und Lieferanten auswerten.
 
 Technischer Name: `stock_vendor_evaluation`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_vendor_evaluation>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/15.0/stock_vendor_evaluation>
 
 ## Erweiterung konfigurieren
 
