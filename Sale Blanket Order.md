@@ -30,6 +30,7 @@ Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_blanket_order>
 | [Sale Blanket Order Discount](Sale%20Blanket%20Order%20Discount.md)                                     | Definiere einen Rabatt auf der Rahmenauftragszeile.                                              |
 | [Sale Blanket Order Readonly States](Sale%20Blanket%20Order%20Readonly%20States.md)                     | Bestätigte Rahmenaufträge bearbeiten.                                                            |
 | [Sale Blanket Order Line Description](Sale%20Blanket%20Order%20Line%20Description.md)                   | Beschreibungsfeld von Rahmenauftragszeile auf die Verkaufsauftragszeile kopieren.                |
+| [Sale Blanket Order Template](Sale%20Blanket%20Order%20Template.md)                                                                                                        |                                                                                                  |
 
 ## Rahmenauftrag erstellen
 
