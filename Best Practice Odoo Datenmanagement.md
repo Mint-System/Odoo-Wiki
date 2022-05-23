@@ -32,20 +32,20 @@ Listenansicht: *Kontakte*
 
 Felder:
 ```
-Name
-Straße
-Straße2
-Stadt
-PLZ
-Land
-USt-IdNr.
-Telefon
-Mobil
-E-Mail
-Websiten-Link
-Ist ein Unternehmen
-Bankverzeichnis/Kontonummer
-Bankverzeichnis/Bank/ID
+name
+street
+street2
+city
+cip
+country
+vat
+phone
+mobile
+email
+website
+is_company
+bank_ids
+bank_ids/bank_id
 ```
 Datei: `res.partner.csv`
 
@@ -68,13 +68,13 @@ Listenansicht: *Einstellungen > Diskussion > Externe E-Mail-Server > Ausgehender
 
 Felder:
 ```
-Priorität
-Beschreibung
-Postausgang-Server (SMTP)
-Benutzername
-Passwort
-Verbindungssicherheit
-SMTP-Port
+sequence
+name
+smtp_host
+smtp_user
+smtp_pass
+smtp_encryption
+smtp_port
 ```
 Datei: `ir.mail_server.csv`
 
@@ -320,13 +320,16 @@ default_code
 barcode
 sale_ok
 purchase_ok
-type
+recurring_invoice
+detailed_type
 categ_id/id
 list_price
 taxes_id/id
 uom_id/id
 uom_po_id/id
 route_ids/id
+tracking
+subscription_template_id
 ```
 Datei: `product.temlate.csv`
 

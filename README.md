@@ -35,6 +35,12 @@ Es sind Dokumente von diesen Drittanbietern vorhanden:
 
 Für jede Odoo App finden Sie hier HowTos.
 
+### [Abonnements](Abonnements.md)
+
+Wiederkehrende Rechnungsstellung und Management von Abonnenten auf einfache Art und Weise.
+
+[![icons_odoo_sale_subscription](assets/icons_odoo_sale_subscription.png)](Abonnements.md)
+
 ### [Abrechnung](Abrechnung.md)
 
 Online Rechnungsstellung leicht gemacht.

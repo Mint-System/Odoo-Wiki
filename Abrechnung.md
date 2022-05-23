@@ -5,9 +5,9 @@ prev: ./
 ---
 # Abrechnung
 
-Online Rechnungsstellung leicht gemacht.
-
 ![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)
+
+Online Rechnungsstellung leicht gemacht.
 
 | Erweiterung                                                                 | Beschreibung                                                                |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
