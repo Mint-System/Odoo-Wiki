@@ -18,3 +18,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 Ist diese Erweiterung installiert wird das Lieferdatum vom Verkaufsauftrag auf den Lieferauftrag übertragen. Dies gilt auch für die Verkaufspostionen.
 
 ![Sale Order Line Date Propagate](assets/Sale%20Order%20Line%20Date%20Propagate.gif)
+
+::: tip
+Beim Übertrag des Lieferdatum wird die Sicherheitsvorlaufzeit für den Verkauf eingerechne
+:::
