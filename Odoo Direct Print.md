@@ -7,7 +7,7 @@ prev: ./iot
 # Odoo Direct Print
 ![](assets/icons_odoo_printnode_base.png)
 
-Jeder Odoo Bericht oder Etikette von überall nach überall drucken.
+Jeden Odoo Bericht oder Etikette von überall nach überall drucken.
 
 Technischer Name: `printnode_base`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/printnode_base>\
