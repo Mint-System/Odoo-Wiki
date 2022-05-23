@@ -14,7 +14,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 | Erweiterung                                                                                   | Beschreibung                                                    |
 | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| [Stock Critical Forecast Promised Agreed](Stock%20Critical%20Forecast%20Promised%20Agreed.md) | Erweitert den Bericht Mengen aus Rahmenauftrag und Kaufvertrag. |
+| [Stock Critical Forecast Promised Agreed](Stock%20Critical%20Forecast%20Promised%20Agreed.md) | Erweitert den Bericht mit Mengen aus Rahmenauftrag und Kaufvertrag. |
 
 ## Kritische Vorhersage anzeigen
 
