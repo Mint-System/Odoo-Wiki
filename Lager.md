@@ -29,6 +29,7 @@ Maximieren Sie die Effizienz Ihres Lagers.
 | [Stock Picking Notes](Stock%20Picking%20Notes)                      | Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.        |
 | [Stock Move Sale Order Name](Stock%20Move%20Sale%20Order%20Name.md) | Beschreibung der Auftragsposition wird auf die Lieferung kopiert.                                           |
 | [Stock Picking Responsible](Stock%20Picking%20Responsible.md)       | Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.                                  |
+| [Stock Vendor Evaluation](Stock%20Vendor%20Evaluation.md)           | Lieferungen bewerten und Lieferanten auswerten.                                                            |
 
 ## Produkt aufstocken
 

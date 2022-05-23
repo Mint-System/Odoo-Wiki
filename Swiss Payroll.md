@@ -4,13 +4,13 @@ tags:
 - Drittanbieter
 prev: ./personalabrechnung
 ---
-# Payroll Customizations Giordano
+# Swiss Payroll
 ![](assets/odoo_icon_gioardano.png)
 
 Lohnabrechnung nach Schweizer Anforderungen.
 
 Technischer Name: `gio_payroll_custom`\
-Repository: <https://gitlab.giordano.ch/odoo/giordano-addons/swiss-payroll/-/tree/14.0/gio_payroll_custom>
+Repository: <https://gitlab.giordano.ch/odoo/giordano-addons/payroll/gio_payroll_custom>
 
 ## Anteile Arbeitgeber / Arbeitnehmer konfigurieren
 

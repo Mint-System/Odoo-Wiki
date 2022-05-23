@@ -8,13 +8,13 @@ prev: ./
 
 Personalbrechnungen schnell und einfach erstellen.
 
-| Erweiterung                                                               | Beschreibung                                 |
-| ------------------------------------------------------------------------- | -------------------------------------------- |
-| [Payroll Customizations Giordano](Payroll%20Customizations%20Giordano.md) | Lohnabrechnung nach Schweizer Anforderungen. |
-| [Lohnmeldung](Lohnmeldung.md)                                             | Lohnmeldungen ganz einfach generieren.       |
-| [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md)           | Lohnabrechnungen mit variablen Eingaben.     |
-| [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md)           | Berichte für Lohnbuchhaltung erstellen.      |
-| [Personalabrechnung Aktionen](Personalabrechnung%20Aktionen.md)                                               | Lohnabrechnung automatisieren.                                             |
+| Erweiterung                                                     | Beschreibung                                 |
+| --------------------------------------------------------------- | -------------------------------------------- |
+| [Swiss Payroll](Swiss%20Payroll.md)                             | Lohnabrechnung nach Schweizer Anforderungen. |
+| [Lohnmeldung](Lohnmeldung.md)                                   | Lohnmeldungen ganz einfach generieren.       |
+| [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md) | Lohnabrechnungen mit variablen Eingaben.     |
+| [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md) | Berichte für Lohnbuchhaltung erstellen.      |
+| [Personalabrechnung Aktionen](Personalabrechnung%20Aktionen.md) | Lohnabrechnung automatisieren.               |
 
 ## Arbeitseinträge anzeigen
 
@@ -31,7 +31,7 @@ Dazu eine Übersicht:
 * [Private Adresse hinterlegen](Personal.md#Private%20Adresse%20hinterlegen)
 * [Arbeitsvertrag hinzufügen](Personal.md#Arbeitsvertrag%20hinzuf%C3%BCgen)
 * [Bankverbindung hinterlegen](#Bankverbindung%20hinterlegen)
-* [Anteile Arbeitgeber Arbeitnehmer konfigurieren](Payroll%20Customizations%20Giordano.md#Anteile%20Arbeitgeber%20Arbeitnehmer%20konfigurieren)
+* [Anteile Arbeitgeber Arbeitnehmer konfigurieren](Swiss%20Payroll.md#Anteile%20Arbeitgeber%20Arbeitnehmer%20konfigurieren)
 * [Lohnarten definieren](#Lohnarten%20definieren)
 * [Finanzkonten den Lohnarten zuweisen](#Finanzkonten%20den%20Lohnarten%20zuweisen)
 * [Gehaltsinformationen eingeben](#Gehaltsinformationen%20eingeben)
