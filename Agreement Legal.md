@@ -18,6 +18,7 @@ Repository: <https://github.com/OCA/contract/tree/14.0/agreement_legal>
 Navigieren Sie nach *Agreements > Configuration > Agreement Types*. Hier können sie bestehende Vereinbarungstyp bearbeiten oder neue erstellen.
 
 ![](assets/Agreement%20Types.png)
+
 ## Unter-Vereinbarungstyp erstellen
 
 Die Vereinbarungstypen können weiter in Untergruppen gegliedert werden. Navigieren Sie nach *Agreements > Configuration > Agreement Types*, wählen sie einen Eintrag aus und erfassen sie in der Tabelle *Sub-Type Name* die Untergruppen.
@@ -63,3 +64,23 @@ Um die Stufen der Vereinbarungen anzupassen, wählen Sie *Agreements > Configura
 Im folgenden Beispiel werden die abrufbaren Verträge anhand des *Agreement Type* gefiltert. Für Mitglieder der Gruppe *Agreement IT* sind nur Verträge mit der Type Bezeichnung *IT* sichtbar. Die Gruppe erstellen Sie unter *Einstellungen > Benutzer und Unternehmen > Gruppen*.
 
 ![](assets/Agreement%20Legal%20Permission.png)
+
+## Berechtigungen anhand Benutzer und Gruppen filtern
+
+Haben Sie das Feld `x_user_ids` und `x_group_ids` auf dem Datenmodell *Agreement* zur Verfügung können Sie den Zugriff auf die Objekte damit filtern.
+
+Legen Sie auf dem Datenmodell diese *Rechte für Daten* fest:
+
+* **Name**: Agreement Gruppen
+* **Gruppen**: Interne Benutzer
+* **Domain**: `[('x_group_ids', 'in', [g.id for g in user.groups_id])]`
+
+* **Name**: Agreement Benutzer
+* **Gruppen**: Interne Benutzer
+* **Domain**: `[('x_user_ids','=',user.id)]`
+
+![](assets/Agreement%20Legal%20Berechtigungen.png)
+
+Auf dem Agreement können Sie über die Felder *Benutzer* und *Gruppen* zusätzliche Zugriffe regeln.
+
+![](assets/Pasted%20image%2020220524114926.png)
