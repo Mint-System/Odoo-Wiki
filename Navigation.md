@@ -45,3 +45,9 @@ Standardmässig zeigt Odoo 80 Einträge auf einer Listenseite an. Diese Einstell
 ![](assets/Navigation%20Versteckte%20Spalten.png)
 
 Odoo merkt sich die Einstellungen für ihren Benuzter und zeigt beim Aufruf der Listenansicht die Spalten wie gewählt an.
+
+## Kommandozeile ausführen
+
+Mit der Tastenkombination <kbd>Ctrl</kbd> + <kbd>k</kbd> starten Sie die Odoo Kommandozeile. Geben Sie im Suchfeld einen Befehl ein und starten Sie diesen mit <kbd>Enter</kbd>.
+
+![Navigation Kommandozeile](assets/Navigation%20Kommandozeile.gif)
