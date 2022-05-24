@@ -271,7 +271,7 @@ Agiles Projektmanagement. Schön. Einfach. Open Source.
 
 [![icons_odoo_project](assets/icons_odoo_project.png)](Projekt.md)
 
-### [Strichode](Strichcode.md)
+### [Strichcode](Strichcode.md)
 
 Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
 
