@@ -7,7 +7,7 @@ prev: ./fertigung
 # Product Sequence
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Lebenszyklus von Produkt festlegen.
+Lebenszyklus von Produkten festlegen.
 
 Technischer Name: `product_state`\
 Repository: <https://github.com/OCA/product-attribute/tree/15.0/product_state>
