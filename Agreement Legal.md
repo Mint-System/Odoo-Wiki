@@ -71,13 +71,13 @@ Haben Sie das Feld `x_user_ids` und `x_group_ids` auf dem Datenmodell *Agreement
 
 Legen Sie auf dem Datenmodell diese *Rechte für Daten* fest:
 
-* **Name**: Agreement Gruppen
-* **Gruppen**: Interne Benutzer
-* **Domain**: `[('x_group_ids', 'in', [g.id for g in user.groups_id])]`
+*Name**: Agreement Gruppen\
+**Gruppen**: Interne Benutzer\
+**Domain**: `[('x_group_ids', 'in', [g.id for g in user.groups_id])]`
 
-* **Name**: Agreement Benutzer
-* **Gruppen**: Interne Benutzer
-* **Domain**: `[('x_user_ids','=',user.id)]`
+**Name**: Agreement Benutzer\
+**Gruppen**: Interne Benutzer\
+**Domain**: `[('x_user_ids','=',user.id)]`
 
 ![](assets/Agreement%20Legal%20Berechtigungen.png)
 
