@@ -14,6 +14,11 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 ## Lieferdatum aus Bestellung aktualisieren
 
-Wenn Sie in der Positionszeile einer Bestellung das Lieferdatum aktualisieren, wird dieses im Wareneingang nachgetragen.
+Wenn Sie in der Positionszeile einer Bestellung das Lieferdatum aktualisieren, wird dieses im Wareneingang nachgetragen. Die Sicherheitsvorlaufzeit für den Einkauf wird wie folgt berechnet:
+
+Geplantes Datum (Lagerbuchung) = Liefertermin (Bestellposition) + Sicherheitsvorlaufzeit Einkauf
+Frist (Lagerbuchung) = Liefertermin (Bestellposition)
+
+Dazu ein Beispiel mit Sicherheitsvorlaufzeit von -3 Tagen.
 
 ![Purchase Order Line Date](assets/Purchase%20Order%20Line%20Date.gif)
