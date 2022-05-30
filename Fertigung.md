@@ -8,10 +8,14 @@ prev: ./
 
 Eine moderne Lösung für ein altes Problem.
 
+## Bereiche
+
 | Bereich                                           | Beschreibung                                   |
 | ------------------------------------------------- | ---------------------------------------------- |
 | [Fertigung Stammdaten](Fertigung%20Stammdaten.md) | Produkte und Dienstleistungen zentral pflegen. |
 | [Fertigung Aktionen](Fertigung%20Aktionen.md)     | Fertigungs-Prozesse automatisieren.            |
+
+## Erweiterungen
 
 | Erweiterung                                                                       | Beschreibung                                                                 |
 | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -30,6 +34,8 @@ Eine moderne Lösung für ein altes Problem.
 | [MRP Production Assign Lot](MRP%20Production%20Assign%20Lot.md)                   | Los aus eingehenden Lagerbuchungen and unreservierte Komponenten zuweisen.   |
 | [MRP Workorder Set Producing Qty](MRP%20Workorder%20Set%20Producing%20Qty.md)     | Arbeitsauftrag startet ohne erledigte Menge.                                 |
 | [Product State](Product%20State.md)                                               | Lebenszyklus von Produkten festlegen.                                          |
+
+## Videos
 
 | Video                                                                                    |
 | ---------------------------------------------------------------------------------------- |

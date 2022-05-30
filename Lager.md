@@ -8,6 +8,8 @@ prev: ./
 
 Maximieren Sie die Effizienz Ihres Lagers.
 
+## Bereiche
+
 | Bereich                                                 | Beschreibung                        |
 | ------------------------------------------------------- | ----------------------------------- |
 | [Handscanner Zebra TC21](Handscanner%20Zebra%20TC21.md) | Handscanner für Odoo.               |
@@ -15,6 +17,8 @@ Maximieren Sie die Effizienz Ihres Lagers.
 | [Lager Verpackungen](Lager%20Verpackungen.md)           | Verpackungen effizient verwalten.   |
 | [Lager Bestand](Lager%20Bestand.md)                     | Den Lagerbestand optimal verwalten. |
 | [Lager Aktionen](Lager%20Aktionen.md)                   | Arbeitsflüsse im Lager automatisieren.                                    |
+
+## Erweiterungen
 
 | Erweiterung                                                         | Beschreibung                                                                                                |
 | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |

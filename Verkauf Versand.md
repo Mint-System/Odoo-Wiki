@@ -8,6 +8,8 @@ prev: ./verkauf
 
 Versandmethoden und Logistik definieren.
 
+## Erweiterungen
+
 | Erweiterung                                                                           | Beschreibung                                                                                    |     |
 | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --- |
 | [Sale Order Delivery Note](Sale%20Order%20Delivery%20Note.md)                         | Notiz auf Verkaufsauftrag für Lieferung hinzufügen.                                             |     |

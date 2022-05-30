@@ -8,6 +8,8 @@ prev: ./
 
 Neue Apps installieren und aktualisieren.
 
+## Erweiterungen
+
 | Erweiterung                                                 | Beschreibung                                |
 | ----------------------------------------------------------- | ------------------------------------------- |
 | [Product Name Sequence](Product%20Name%20Sequence.md)           | Generate product names based on a sequence. |

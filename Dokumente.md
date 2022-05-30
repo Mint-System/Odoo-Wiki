@@ -8,6 +8,8 @@ prev: ./
 
 Sparen Sie Zeit beim Erfassen von Rechnungen, Scannen von Verträgen und bei der Freigabe von Dokumenten.
 
+## Erweiterungen
+
 | Erweiterung   | Beschreibung                               |
 | ------------- | ------------------------------------------ |
 | [Agreement Legal](Agreement%20Legal.md) | Verträge und Vereinbarungen dokumentieren. |

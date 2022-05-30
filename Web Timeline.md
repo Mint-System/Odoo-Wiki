@@ -12,6 +12,8 @@ Die Timeline-Ansicht für alle Objekte.
 Technischer Name: `web_timeline`\
 Repository: <https://github.com/OCA/web/tree/13.0/web_timeline>
 
+## Erweiterungen
+
 | Erweiterung                             | Beschreibung                          |
 | --------------------------------------- | ------------------------------------- |
 | [Project timeline](Project%20Timeline.md) | Timeline-Ansicht für Projektaufgaben. |

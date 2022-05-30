@@ -8,7 +8,9 @@ prev: ./
 
 Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
-| Erweiterung                                           | Beschreibung                                        |
+## Bereiche
+
+| Bereich                                           | Beschreibung                                        |
 | ----------------------------------------------------- | --------------------------------------------------- |
 | [Terminal Zeiterfassung](Terminal%20Zeiterfassung.md) | Ein- und auschecken mit dem Terminal Zeiterfassung. |
 | [Awesome Timesheet](Awesome%20Timesheet.md)           | Mobile Zeiterfassung.                               |

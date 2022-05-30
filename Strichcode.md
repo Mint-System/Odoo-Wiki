@@ -8,13 +8,17 @@ prev: ./
 
 Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
 
-| Erweiterung                                                         | Beschreibung                                                                                                |
-| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [Stock Barcode MRP](Stock%20Barcode%20MRP.md)                       | Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen.                                                                                                             |
+## Bereiche
 
 | Bereich                                             | Beschreibung          |
 | --------------------------------------------------- | --------------------- |
 | [Handscanner Zebra TC21](Handscanner%20Zebra%20TC21.md) | Handscanner für Odoo. |
+
+## Erweiterungen
+
+| Erweiterung                                                         | Beschreibung                                                                                                |
+| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [Stock Barcode MRP](Stock%20Barcode%20MRP.md)                       | Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen.                                                                                                             |
 
 ## Produktstrichcode generieren
 

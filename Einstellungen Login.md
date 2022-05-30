@@ -8,6 +8,8 @@ prev: ./einstellungen
 
 Odoo-Einstellungen zum Benutzer und Anmeldeverfahren.
 
+## Erweiterungen
+
 | Erweiterung                                                           | Beschreibung                            |
 | --------------------------------------------------------------------- | --------------------------------------- |
 | [Authentication OpenID Connect](Authentication%20OpenID%20Connect.md) | Login mit OpenID Connect Provider. |

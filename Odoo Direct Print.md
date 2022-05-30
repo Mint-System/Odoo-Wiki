@@ -13,6 +13,8 @@ Technischer Name: `printnode_base`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/printnode_base>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/printnode_base/>
 
+## Videos
+
 | Video                                                                                            |
 | ------------------------------------------------------------------------------------------------ |
 | [Odoo Experience 2021 - Automating Direct Printing](https://www.youtube.com/watch?v=6dnHvpsukPg) |

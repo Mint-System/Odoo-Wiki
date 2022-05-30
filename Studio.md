@@ -8,8 +8,10 @@ prev: ./
 
 Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.
 
-| Erweiterung                             | Beschreibung                               |
-| --------------------------------------- | ------------------------------------------ |
+## Bereiche
+
+| Bereich                                   | Beschreibung                               |
+| ----------------------------------------- | ------------------------------------------ |
 | [Studio Beispiele](Studio%20Beispiele.md) | Beispiele für Anpassungen mit Odoo Studio. |
 
 ## Anpassungen dokumentieren

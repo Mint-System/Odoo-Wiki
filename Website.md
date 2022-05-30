@@ -8,6 +8,8 @@ prev: ./
 
 Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 
+## Erweiterungen
+
 | Erweiterung                                                                   | Beschreibung                      |
 | ----------------------------------------------------------------------------- | --------------------------------- |
 | [Website eCommerce](Website%20eCommerce.md)                                   | Webshop ohne Integrationsaufwand. |

@@ -12,6 +12,8 @@ Projektaufgaben mit Abhängigkeiten.
 Technischer Name: `project_task_dependency`\
 Repository: <https://github.com/OCA/project/tree/14.0/project_task_dependency>
 
+## Erweiterungen
+
 | Erweiterung                                                                 | Beschreibung                                             |
 | --------------------------------------------------------------------------- | -------------------------------------------------------- |
 | [Project Timeline Task Dependencies](Project%20Timeline%20Task%20Dependencies.md) | Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten. |

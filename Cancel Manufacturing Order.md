@@ -5,7 +5,6 @@ tags:
 prev: ./fertigung
 ---
 # Cancel Manufacturing Order
-
 ![](assets/icons_odoo_eq.png)
 
 Fertigungsauftrag rückgängig machen.

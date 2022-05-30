@@ -8,9 +8,13 @@ prev: ./
 
 Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 
+## Bereiche
+
 | Bereich                                                               | Beschreibung                        |
 | --------------------------------------------------------------------- | ----------------------------------- |
 | [Anwesenheitszeiten Überstunden](Anwesenheitszeiten%20Überstunden.md) | Überstundenmanagement ganz einfach. | 
+
+## Erweiterungen
 
 | Erweiterung                                                                       | Beschreibung                                                                                                       |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |

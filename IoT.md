@@ -8,9 +8,13 @@ prev: ./
 
 Alles, was das "Internet der Dinge (IoT)" bietet.
 
+## Bereiche
+
 | Bereich                                                         | Beschreibung               |
 | --------------------------------------------------------------- | -------------------------- |
 | [Etikettendrucker Zebra ZD410](Etikettendrucker%20Zebra%20ZD410.md) | Etikettendrucker für Odoo. |
+
+## Erweiterungen
 
 | Erweiterung                               | Beschreibung                                                       |
 | ----------------------------------------- | ------------------------------------------------------------------ |

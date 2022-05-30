@@ -8,9 +8,13 @@ prev: ./
 
 Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
 
+## Bereiche
+
 | Bereich                                           | Beschreibung                                   |
 | ------------------------------------------------- | ---------------------------------------------- |
 | [Einkauf Kaufverträge](Einkauf%20Kaufverträge.md) | Kaufverträge für Rahmenbestellungen erstellen. |
+
+## Erweiterungen
 
 | Erweiterung                                                                           | Beschreibung                                                                              |
 | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |

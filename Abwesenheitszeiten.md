@@ -8,6 +8,8 @@ prev: ./
 
 Verwaltung von Mitarbeiterurlauben & Abwesenheit
 
+## Erweiterungen
+
 | Erweiterung                                                                       | Beschreibung                                                                                                       |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | [HR Holidays Public](HR%20Holidays%20Public.md)                                       | Erstellen Sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.                          |

@@ -8,6 +8,8 @@ prev: ./
 
 Personalmanagement für moderne Unternehmen.
 
+## Erweiterungen
+
 | Erweiterung                                         | Beschreibung                                  |
 | --------------------------------------------------- | --------------------------------------------- |
 | [HR Birthday Calender](HR%20Birthday%20Calender.md) | Kalenderansicht aller Geburtstage.            |

@@ -8,6 +8,8 @@ prev: ./website
 
 Webshop ohne Integrationsaufwand.
 
+## Erweiterungen
+
 | Erweiterung                                                                                       | Beschreibung                               |
 | ------------------------------------------------------------------------------------------------- | ------------------------------------------ |
 | [Website Shop Coupons](Website%20Shop%20Coupons.md) | Website Coupons & Gutscheine im Odoo Shop. |

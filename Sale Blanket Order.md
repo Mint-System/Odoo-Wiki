@@ -13,6 +13,8 @@ Rahmenverträge für Verkäufe erstellen.
 Technischer Name: `sale_blanket_order`\
 Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_blanket_order>
 
+## Erweiterungen
+
 | Erweiterung                                                                                             | Beschreibung                                                                                     |
 | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | [Sale Blanket Order Notes](Sale%20Blanket%20Order%20Notes.md)                                           | Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden.                           |

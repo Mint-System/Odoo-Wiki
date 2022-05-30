@@ -8,6 +8,8 @@ prev: ./
 
 Agiles Projektmanagement. Schön. Einfach. Open Source.
 
+## Erweiterungen
+
 | Erweiterung                                                       | Beschreibung                                           |
 | ----------------------------------------------------------------- | ------------------------------------------------------ |
 | [Project timeline](Project%20Timeline.md)                         | Timeline-Ansicht für Projektaufgaben.                  |

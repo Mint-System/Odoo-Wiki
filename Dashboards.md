@@ -8,6 +8,8 @@ prev: ./
 
 Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 
+## Erweiterungen
+
 | Erweiterung                                       | Beschreibung                            |
 | ------------------------------------------------- | --------------------------------------- |
 | [Mail Activity Board](Mail%20Activity%20Board.md) | Übersicht aller erstellten Aktivitäten. |

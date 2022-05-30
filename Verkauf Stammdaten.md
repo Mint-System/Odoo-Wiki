@@ -8,9 +8,11 @@ prev: ./verkauf
 
 Produkte, Preislisten und Varianten zentral pflegen.
 
+## Erweiterungen
+
 | Erweiterung       | Beschreibung                            |
 | ----------------- | --------------------------------------- |
-| [Packaging UOM](Packaging%20UOM.md) | Mengeneinheit für Produktverpackung fesltegen. |
+| [Packaging UOM](Packaging%20UOM.md) | Mengeneinheit für Produktverpackung festlegen. |
 
 ## Produktattribut erstellen
 

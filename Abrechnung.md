@@ -9,6 +9,8 @@ prev: ./
 
 Online Rechnungsstellung leicht gemacht.
 
+## Erweiterungen
+
 | Erweiterung                                                                 | Beschreibung                                                                |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                   | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt. |

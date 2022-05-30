@@ -8,6 +8,8 @@ prev: ./lager
 
 Verpackungen effizient verwalten. 
 
+## Erweiterungen
+
 | Erweiterung                                                     | Beschreibung                                   |
 | --------------------------------------------------------------- | ---------------------------------------------- |
 | [Stock Move Line Packaging](Stock%20Move%20Line%20Packaging.md) | Verknüpfen der Verpackung von Verkaufsauftrag. |

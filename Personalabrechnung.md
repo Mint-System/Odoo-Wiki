@@ -8,6 +8,8 @@ prev: ./
 
 Personalbrechnungen schnell und einfach erstellen.
 
+## Erweiterungen
+
 | Erweiterung                                                     | Beschreibung                                 |
 | --------------------------------------------------------------- | -------------------------------------------- |
 | [Swiss Payroll](Swiss%20Payroll.md)                             | Lohnabrechnung nach Schweizer Anforderungen. |

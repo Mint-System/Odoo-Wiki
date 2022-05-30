@@ -12,6 +12,8 @@ Nur Verkausbeschreibung im Feld Beschreibung übertragen.
 Technischer Name: `sale_order_line_description`\
 Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_order_line_description>
 
+## Erweiterungen
+
 | Erweiterung                          | Beschreibung                                                          |
 | ------------------------------------ | --------------------------------------------------------------------- |
 | [Sale Order Line Description Name](Sale%20Order%20Line%20Description%20Name.md) | Benutze Produktname ohne Referenz wenn Verkaufsbeschreibung leer ist. |
