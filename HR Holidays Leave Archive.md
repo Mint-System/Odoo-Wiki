@@ -17,7 +17,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/hr_holidays_l
 Ist diese Erweiterung installiert können Abwesenheitszeiten archiviert werden. Navigieren Sie nach *Abwesenheitszeiten > Vorgesetzte > Abwesenheitszeiten*. Filtern Sie die Listen nach Einträgen und markieren Sie jene, die archivieren möchten. Wählen Sie *Aktion > Archiv*.
 
 ::: warning
-Archivierte Abwesenheiten werden weiterhin in den Abwesenheitsanspruch eingerechnet
+Archivierte Abwesenheiten werden weiterhin in den Abwesenheitsanspruch eingerechnet.
 <!--Im Archivierungsvorgang wird der Status von Abwesenheitszeiten auf *Abgebrochen* gesetzt.-->
 :::
 
