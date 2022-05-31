@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./verkauf
 ---
-# Sale Order Notes
+## Sale Order Notes
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Verkaufsaufträge mit Notizfelder.

@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./lager
 ---
-# Stock Picking Notes
+## Stock Picking Notes
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.

@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./einstellungen
 ---
-# Authentication OpenID Connect
+## Authentication OpenID Connect
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Login mit OpenID Connect Provider.

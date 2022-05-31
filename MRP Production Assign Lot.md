@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./fertigung
 ---
-# MRP Production Assign Lot
+## MRP Production Assign Lot
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Los aus eingehenden Lagerbuchungen and unreservierte Komponenten zuweisen.

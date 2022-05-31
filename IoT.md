@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# IoT
+## IoT
 ![icons_odoo_iot](assets/icons_odoo_iot.png)
 
 Alles, was das "Internet der Dinge (IoT)" bietet.

@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# Personal
+## Personal
 ![icons_odoo_hr](assets/icons_odoo_hr.png)
 
 Personalmanagement für moderne Unternehmen.

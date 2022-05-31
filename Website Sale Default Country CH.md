@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./website
 ---
-# Website Sale Default Country CH
+## Website Sale Default Country CH
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Schweiz als Standardland im Webhop festlegen.

@@ -3,7 +3,7 @@ tags:
 - Prozess
 prev: ./referenzsystem
 ---
-# Prozess Abrechnung
+## Prozess Abrechnung
 
 ## Rechnung aus Verkauf
 

@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./fertigung
 ---
-# Product Barcode Generator
+## Product Barcode Generator
 ![](assets/icon_odoo_product_barcode.png)
 
 Autogenerate EAN13 product barcodes.
@@ -53,7 +53,7 @@ def ean_checksum(eancode):
     check = int(10 - total % 10.0) % 10
     return check
 
-# Generate ean by id
+## Generate ean by id
 
 def generate_ean(ean):
     """Creates and returns a valid ean13 from an invalid one"""
@@ -64,11 +64,11 @@ def generate_ean(ean):
         ean = ean + '0' * (13 - len(ean))
     return ean[:-1] + str(ean_checksum(ean))
 
-# Search products without barcode
+## Search products without barcode
 
 product_ids = env['product.product'].search([('barcode','=',False)])
 
-# Generate barcode for each product
+## Generate barcode for each product
 
 for product in product_ids:
     barcode_id = product.id

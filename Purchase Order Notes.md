@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./einkauf
 ---
-# Purchase Order Notes
+## Purchase Order Notes
 ![icon_oms_box](assets/icon_oms_box.png)
 
  Einkaufsaufträge mit Notizfelder.

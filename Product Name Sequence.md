@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./fertigung
 ---
-# Product Name Sequence
+## Product Name Sequence
 ![](assets/icon_product_name_sequence.png)
 
 Generate product names based on a sequence.

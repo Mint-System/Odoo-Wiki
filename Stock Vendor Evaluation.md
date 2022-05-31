@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./lager
 ---
-# Stock Vendor Evaluation
+## Stock Vendor Evaluation
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Lieferungen bewerten und Lieferanten auswerten.

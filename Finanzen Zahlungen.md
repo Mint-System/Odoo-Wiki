@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./finanzen
 ---
-# Finanzen Zahlungen
+## Finanzen Zahlungen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
 SEPA- und QR-Zahlungen mit Odoo Finanzen abwickeln.

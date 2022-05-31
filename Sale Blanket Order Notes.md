@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-# Sale Blanket Order Notes
+## Sale Blanket Order Notes
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden.

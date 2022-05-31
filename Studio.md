@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# Studio
+## Studio
 ![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)
 
 Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.

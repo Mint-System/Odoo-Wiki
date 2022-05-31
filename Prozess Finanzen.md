@@ -3,7 +3,7 @@ tags:
 - Prozess
 prev: ./referenzsystem
 ---
-# Prozess Finanzen
+## Prozess Finanzen
 
 ## Ein- und Auszahlungen abwickeln
 

@@ -4,7 +4,7 @@ tags:
 - Aktionen
 prev: ./finanzen
 ---
-# Finanzen Aktionen
+## Finanzen Aktionen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
 Neue Aktionen für Buchungen und Abstimmungen.

@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# Strichcode
+## Strichcode
 ![icons_odoo_stock_barcode](assets/icons_odoo_stock_barcode.png)
 
 Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
@@ -80,13 +80,13 @@ Mit jedem Scan des Produktbarcodes wird 1 Stück dem Transfer hinzugefügt.
 Auf einem Linux-Computer kann man ganz einfach eine Strichcode-Eingabe mit [xdotool](https://www.semicomplete.com/projects/xdotool/) simulieren. Öffnen Sie ein Terminal-Fenster installieren Sie das xdotool mit dem Befehl `sudo apt install xdotool`. Öffnen Sie den Firefox-Browser und zeigen Sie das *Strichcode* App an. Führen Sie das folgende Skript im Terminal aus:
 
 ```bash
-# Name des Transfers
+## Name des Transfers
 BARCODE="WH/OUT/00017"
 
-# Dieser Befehl sucht die Identifikationsnummer des Firefox Browserfenster
+## Dieser Befehl sucht die Identifikationsnummer des Firefox Browserfenster
 WID=`xdotool search --title "Mozilla Firefox" | head -1`
 
-# Das Browserfenster wird angezeigt und der Barcode eingegeben
+## Das Browserfenster wird angezeigt und der Barcode eingegeben
 xdotool windowfocus $WID
 xdotool type $BARCODE
 ```

@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./lager
 ---
-# Stock Picking Responsible
+## Stock Picking Responsible
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.

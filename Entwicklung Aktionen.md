@@ -4,7 +4,7 @@ tags:
 - Aktionen
 prev: ./entwicklung
 ---
-# Entwicklung Aktionen
+## Entwicklung Aktionen
 ![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)
 
 Eigene Odoo Aktionen erstellen.

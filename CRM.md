@@ -4,6 +4,6 @@ tags:
 prev: ./
 ---
 
-# CRM
+## CRM
 
 ![Kundenverwaltung](Kundenverwaltung.md)

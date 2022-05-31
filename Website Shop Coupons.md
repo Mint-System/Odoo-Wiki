@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./website-ecommerce
 ---
-# Website Shop Coupons
+## Website Shop Coupons
 
 ![](assets/icon_website_discount_voucher.png)
 

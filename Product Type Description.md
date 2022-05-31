@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./fertigung
 ---
-# Product Type Description
+## Product Type Description
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Zu jedem Produkt ein Beschreibungsfeld.

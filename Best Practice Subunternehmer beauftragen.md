@@ -4,7 +4,7 @@ tags:
 prev: ./best-practice
 ---
 
-# Best Practice: Subunternehmer beauftragen
+## Best Practice: Subunternehmer beauftragen
 Wenn die Fertigung eines Produktes an einen Subunternehmer übertragen wird, dann sind in der Auftragsabwicklung die folgenden Punkte zu berücksichtigen.
 
 ## Vorbereitung

@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Bestellmenge ändern
+## Best Practice: Bestellmenge ändern
 
 ## Allgemein
 

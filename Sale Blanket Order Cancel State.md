@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-# Sale Blanket Order Cancel State
+## Sale Blanket Order Cancel State
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Beim Abbrechen wird der Verkaufsautrag in den entsprechendne Status versetzt.

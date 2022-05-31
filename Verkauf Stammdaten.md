@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./verkauf
 ---
-# Verkauf Stammdaten
+## Verkauf Stammdaten
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
 Produkte, Preislisten und Varianten zentral pflegen.

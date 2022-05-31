@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./personalabrechnung
 ---
-# Swiss Payroll
+## Swiss Payroll
 ![](assets/odoo_icon_gioardano.png)
 
 Lohnabrechnung nach Schweizer Anforderungen.

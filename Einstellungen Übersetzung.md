@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./einstellungen
 ---
-# Einstellungen Übersetzungen
+## Einstellungen Übersetzungen
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
 Einstellungen zu Sprachpakete und Übersetzungen.

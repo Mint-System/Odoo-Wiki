@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./einkauf
 ---
-# Purchase Order Line Date
+## Purchase Order Line Date
 ![](assets/icon_oms_box.png)
 
 Lieferdatum im Wareneingang automatisch nachtragen.

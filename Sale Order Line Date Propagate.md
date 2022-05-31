@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./verkauf
 ---
-# Sale Order Line Date Propagate
+## Sale Order Line Date Propagate
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Lieferfristen auf dem Verkaufsautrag und dessen Zeilen werden auf den Lieferauftrag übertragen.

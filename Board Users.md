@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./dashboards
 ---
-# Board Users
+## Board Users
 
 ![icon_oms_box](assets/icon_oms_box.png)
 

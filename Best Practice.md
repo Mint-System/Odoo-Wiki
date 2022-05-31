@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./
 ---
-# Best Practice
+## Best Practice
 
 Beschreibt wie man bestimmte Anwendungsfälle in Odoo implementiert.
 

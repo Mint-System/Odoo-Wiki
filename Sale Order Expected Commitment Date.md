@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./verkauf
 ---
-# Sale Order Expected Commitment Date
+## Sale Order Expected Commitment Date
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Das Standardlieferdatum ist das erwartete Datum.

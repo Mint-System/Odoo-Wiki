@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./kontakte
 ---
-# Partner Secondary Name
+## Partner Secondary Name
 ![](assets/icon_oms_box.png)
 
 Zweitname für Unternehmen.

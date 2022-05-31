@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# Verkauf
+## Verkauf
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
 Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung. 

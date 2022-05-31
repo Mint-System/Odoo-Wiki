@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./finanzen
 ---
-# Sale Invoice Cash Rounding Default
+## Sale Invoice Cash Rounding Default
 ![icon_oms_box](assets/icon_oms_box.png)
 
  Rounding Default	Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.            

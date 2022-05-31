@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./einkauf
 ---
-# Purchase Order Partner Incoterm
+## Purchase Order Partner Incoterm
 ![](assets/icon_odoo_purchase_partner_incoterm.png)
 
 Für jedem Partner die Incoterms festlegen.

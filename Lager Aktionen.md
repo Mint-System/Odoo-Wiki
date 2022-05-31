@@ -4,7 +4,7 @@ tags:
 - Aktionen
 prev: ./lager
 ---
-# Lager Aktionen
+## Lager Aktionen
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
 Arbeitsflüsse im Lager automatisieren.
@@ -145,24 +145,24 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-# Settings
+## Settings
 scope_days = 7
 
-# Get confirmed outgoing pickings
+## Get confirmed outgoing pickings
 pickings_out = env['stock.picking'].search(["&", ["picking_type_code", "=", "outgoing"], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
-# Get confirmed incoming pickings
+## Get confirmed incoming pickings
 pickings_in = env['stock.picking'].search(["&", ["picking_type_code", "=", "incoming"], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
-# Get move lines with lot and tracking enabled
+## Get move lines with lot and tracking enabled
 lot_move_lines = pickings_in.move_line_ids.filtered(lambda l: l.lot_id and l.tracking)
 
-# raise UserError(lot_move_lines)
+## raise UserError(lot_move_lines)
 
-# Get lines where lot is not set and tracking enabled
+## Get lines where lot is not set and tracking enabled
 fix_move_lines = pickings_out.move_line_ids.filtered(lambda l: not l.lot_id and l.tracking)
 
-# raise UserError(fix_move_lines)
+## raise UserError(fix_move_lines)
 
 messages = []
 for line in fix_move_lines:
@@ -197,13 +197,13 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-# Set products to ignore
+## Set products to ignore
 except_product_names = ["Gebinde"]
 
-# Get pickings to be processed
+## Get pickings to be processed
 pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
-# Get moves where qty done it not equal to demand
+## Get moves where qty done it not equal to demand
 fix_moves = pickings.move_lines.filtered(lambda m: (m.quantity_done != m.product_uom_qty) and (m.product_id.name not in except_product_names))
 
 if fix_moves:
@@ -215,7 +215,7 @@ for move in fix_moves:
     except:
         log('While writing move %s with origin %s an error occured.' % (move, move.origin), level='error')
       
-# Get lines where qty done is not equal to demand and no move line has been created
+## Get lines where qty done is not equal to demand and no move line has been created
 fix_move_lines = pickings.move_line_ids.filtered(lambda l: (l.qty_done != l.move_id.product_uom_qty) and (l.product_id.name not in except_product_names))
 
 if fix_move_lines:
@@ -224,7 +224,7 @@ if fix_move_lines:
 for line in fix_move_lines:
     line.write({'qty_done': line.move_id.product_uom_qty})
 
-# Assign pickings
+## Assign pickings
 assign_pickings = pickings.filtered(lambda p: p.state in ["confirmed"])
 
 if assign_pickings:
@@ -233,7 +233,7 @@ if assign_pickings:
 for picking in assign_pickings:
     picking.write({'state': 'assigned'})
     
-# Update transport moves
+## Update transport moves
 
 transport_product_name = "Gebinde"
 transport_moves = []
@@ -266,19 +266,19 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-# Get outgoing pickings
+## Get outgoing pickings
 pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
-# Get lines where lot is tracked and not set
+## Get lines where lot is tracked and not set
 fix_move_lines = pickings.move_line_ids.filtered(lambda l: not l.lot_id and l.lots_visible)
 
-# Get all products
+## Get all products
 product_tmpl_ids = fix_move_lines.mapped('product_id.product_tmpl_id.id')
 
-# Get forecasted data for products
+## Get forecasted data for products
 replenish_data = env['report.stock.report_product_product_replenishment']._get_report_data(product_tmpl_ids)
 
-# Get incoming move for each fix move line
+## Get incoming move for each fix move line
 for move_line in fix_move_lines:
   incoming_lines = list(filter(lambda l: 
     (l['product']['id'] == move_line.product_id.id) and

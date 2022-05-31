@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# Projekt
+## Projekt
 ![icons_odoo_project](assets/icons_odoo_project.png)
 
 Agiles Projektmanagement. Schön. Einfach. Open Source.
@@ -99,12 +99,12 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```python
-# Settings
+## Settings
 parent_menu_id = 218
 
-# Get all projects
+## Get all projects
 project_ids = env['project.project'].search([])
-# raise Warning([project_ids.mapped('name')])
+## raise Warning([project_ids.mapped('name')])
 
 new_menus = []
 for project in project_ids:

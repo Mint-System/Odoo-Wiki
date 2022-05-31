@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./projekt
 ---
-# Project Task Dependency Counter
+## Project Task Dependency Counter
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Smart Button für abhängige Aufgaben.

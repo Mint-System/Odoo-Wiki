@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./diskussion
 ---
-# Account Move Mail Thread
+## Account Move Mail Thread
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Verhindert das versenden von Nachrichten beim Erstellen einer Buchung.

@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./diskussion
 ---
-# Purchase Order Unsubscribe
+## Purchase Order Unsubscribe
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Alle Abonnenten nach Bestätigung der Bestellung entfernen.

@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./lager
 ---
-# Demand Planner
+## Demand Planner
 ![](assets/odoo_icon_demand_planner.png)
 
 Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen.

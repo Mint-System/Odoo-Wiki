@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./projekt
 ---
-# Project Task Dependencies
+## Project Task Dependencies
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Projektaufgaben mit Abhängigkeiten.

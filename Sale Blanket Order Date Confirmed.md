@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-# Sale Blanket Order Date Confirmed
+## Sale Blanket Order Date Confirmed
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Setze ein Bestätigungsdatum auf dem Verkaufsauftrag.

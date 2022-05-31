@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# Odoo.sh
+## Odoo.sh
 ![icons_odoo_app](assets/icons_odoo_app.png)  
 
 The Odoo Cloud Platform.

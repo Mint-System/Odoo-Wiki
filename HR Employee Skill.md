@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./personal
 ---
-# HR Employee Skill
+## HR Employee Skill
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Übersicht der Mitarbeiterfähigkeiten.

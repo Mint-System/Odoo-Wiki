@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# Link Tracker
+## Link Tracker
 ![icons_odoo_website_partner](assets/icons_odoo_website_partner.png)
 
 Web-Kampagnen und E-Mails verfolgen.

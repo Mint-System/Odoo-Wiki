@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./lager
 ---
-# Lager Bestand
+## Lager Bestand
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
 Den Lagerbestand optimal verwalten.

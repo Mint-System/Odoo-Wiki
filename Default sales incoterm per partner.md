@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./verkauf
 ---
-# Default sales incoterm per partner
+## Default sales incoterm per partner
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Standardlieferbedingungen für Kunden.

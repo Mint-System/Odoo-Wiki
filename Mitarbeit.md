@@ -3,7 +3,7 @@ tags:
 - Readme
 prev: ./
 ---
-# Mitarbeit
+## Mitarbeit
 
 In diesem Dokument werden die Vorgaben zur Mitarbeit am Odoo Wiki erläutert.
 
@@ -149,7 +149,7 @@ Für jede Odoo-App existiert eine Seite. Beispielsweise für die Notiz-App gibt 
 **Appname.md**
 
 ```
-# Appname
+## Appname
 ![](/assets/icon.png)
 
 Informationen zur App

@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./verkauf
 ---
-# Product Listprice Currency
+## Product Listprice Currency
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Listenpreise in verschiedenen Währungen für Preislisten-Formeln.

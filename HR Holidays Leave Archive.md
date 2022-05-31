@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./personal
 ---
-# HR Holidays Leave Archive
+## HR Holidays Leave Archive
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Archivierungsfunktion für Abwesenheitseinträge aktivieren.

@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./einkauf
 ---
-# Purchase Order Comment
+## Purchase Order Comment
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Kommentar-Feld für Einkaufsaufträge.

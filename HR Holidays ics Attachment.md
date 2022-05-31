@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./personal
 ---
-# HR Holidays .ics Attachment
+## HR Holidays .ics Attachment
 ![icon_oms_box](assets/icon_oms_box.png)
 
 An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.

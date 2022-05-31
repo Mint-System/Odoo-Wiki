@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./verkauf
 ---
-# Sale Order Contact Person
+## Sale Order Contact Person
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Kontaktperson auf Verkaufsauftrag festlegen. 

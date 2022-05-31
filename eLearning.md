@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# eLearning
+## eLearning
 ![icons_odoo_website_slides](assets/icons_odoo_website_slides.png)
 
 Teilen Sie ihr Wissen mit der eLearning-Plattform.

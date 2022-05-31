@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./lager
 ---
-# Stock Move Sale Order Name
+## Stock Move Sale Order Name
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Beschreibung der Auftragsposition wird auf die Lieferung kopiert.

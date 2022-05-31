@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./fertigung
 ---
-# Fertigung Stammdaten
+## Fertigung Stammdaten
 ![icons_odoo_mrp](assets/icons_odoo_mrp.png)
 
 Produkte und Dienstleistungen zentral pflegen.

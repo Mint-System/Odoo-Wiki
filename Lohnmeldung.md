@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./personalabrechnung
 ---
-# Lohnmeldung
+## Lohnmeldung
 ![](assets/odoo_icon_gioardano.png)
 
 Lohnmeldungen ganz einfach generieren.

@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./projekt
 ---
-# Project Templates
+## Project Templates
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Projekt aus Projektvorlage erstellen.

@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./kontakte
 ---
-# Base Partner Sequence
+## Base Partner Sequence
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Sequenz auf Kundenreferenz.

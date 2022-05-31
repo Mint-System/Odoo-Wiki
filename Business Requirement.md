@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./projekt
 ---
-# Business Requirement
+## Business Requirement
 ![](assets/icon_oca_business_requirement.png)
 
 Projektanforderungen erfassen und verknüpfen. 

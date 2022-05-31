@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Lager konfigurieren
+## Best Practice: Lager konfigurieren
 
 In den Grundeinstellungen ist ein Lager mit dem Namen *San Francisco*, dem Kurznamen *WH* und der Adresse der Firma angelegt.
 

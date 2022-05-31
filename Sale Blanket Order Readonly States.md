@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-# Sale Blanket Order Readonly States
+## Sale Blanket Order Readonly States
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Bestätigte Rahmenaufträge bearbeiten.

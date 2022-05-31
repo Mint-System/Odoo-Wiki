@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-# Sale Blanket Order Contact Person
+## Sale Blanket Order Contact Person
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Kontaktperson auf Rahmenauftrag festlegen. 

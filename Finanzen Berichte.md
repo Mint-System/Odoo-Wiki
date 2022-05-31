@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./finanzen
 ---
-# Finanzen Berichte
+## Finanzen Berichte
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
 Finanzberichte erstellen.

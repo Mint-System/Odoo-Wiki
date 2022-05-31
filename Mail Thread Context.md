@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./diskussion
 ---
-# Mail Thread Context
+## Mail Thread Context
 ![icon_oms_box](assets/icon_oms_box.png)
 
  Automatisches Abonnieren deaktiveren.

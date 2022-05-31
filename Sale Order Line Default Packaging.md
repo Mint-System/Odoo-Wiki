@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./verkauf
 ---
-# Sale Order Line Default Packaging
+## Sale Order Line Default Packaging
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Standardverpackung auf Position setzen.  

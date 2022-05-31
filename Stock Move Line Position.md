@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./lager
 ---
-# Stock Move Line Position
+## Stock Move Line Position
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.

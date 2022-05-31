@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Kostenrechnung
+## Best Practice: Kostenrechnung
 
 Die Kostenrechnung ist das Standardwerkzeug um die Profitabiltiät von Projekten oder Dienstleistungen zu messen sowie eine Nachkalkulation für Projekte zu machen.
 

@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./abrechnung
 ---
-# Switzerland QR-bill scan
+## Switzerland QR-bill scan
 ![icon_oca_app](assets/icon_oca_app.png)
 
 

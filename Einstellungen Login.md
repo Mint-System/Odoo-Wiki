@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./einstellungen
 ---
-# Einstellungen Login
+## Einstellungen Login
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
 Odoo-Einstellungen zum Benutzer und Anmeldeverfahren.
@@ -92,7 +92,7 @@ group_ids = env['res.groups'].search([])
 
 messages = []
 
-# Create and update the permission group for every department
+## Create and update the permission group for every department
 for department in department_ids:
   
   # Define permission group name

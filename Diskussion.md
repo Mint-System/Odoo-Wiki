@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# Diskussion
+## Diskussion
 ![icons_odoo_mail](assets/icons_odoo_mail.png)
 
 In alle Module integrierter privater Chat und Gruppen-Chat.

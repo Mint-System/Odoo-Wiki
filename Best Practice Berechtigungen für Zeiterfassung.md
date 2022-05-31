@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Berechtigungen für Zeiterfassung
+## Best Practice: Berechtigungen für Zeiterfassung
 
 #FIXME 
 

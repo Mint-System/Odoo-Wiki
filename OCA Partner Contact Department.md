@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./kontakte
 ---
-# Partner Contact Department
+## Partner Contact Department
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Erweitert das Adressbuch mit Abteilungen.

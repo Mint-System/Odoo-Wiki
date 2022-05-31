@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-# Sale Blanket Order Send
+## Sale Blanket Order Send
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Workflow mit Rahmenauftrag per E-Mail. 

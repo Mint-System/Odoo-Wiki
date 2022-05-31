@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./finanzen
 ---
-# Switzerland Bank Type
+## Switzerland Bank Type
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Lokalisierung für Schweizer Banken und Bankkontos.

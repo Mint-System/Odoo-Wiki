@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./personal
 ---
-# HR Shortname
+## HR Shortname
 ![](assets/icon_odoo_hr_shortname.png)
 
 Zu jedem Mitarbeitenden ein Kürzel speichern.

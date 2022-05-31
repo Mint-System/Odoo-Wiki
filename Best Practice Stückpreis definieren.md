@@ -4,7 +4,7 @@ tags:
 prev: ./best-practice
 ---
 
-# Best-Practice Stückpreis definieren
+## Best-Practice Stückpreis definieren
 Für die Definition des Stückpreises stehen verschiedene Funktionen zur Verfügung
 
 ## Fall 1: Neue Lieferantenbeziehung

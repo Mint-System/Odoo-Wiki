@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./einstellungen
 ---
-# Show DB Name
+## Show DB Name
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Zeigt den Datenbanknamen oben rechts an.   

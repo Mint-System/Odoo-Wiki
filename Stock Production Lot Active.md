@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./lager
 ---
-# Stock Production Lot Active
+## Stock Production Lot Active
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Erlaubt die Archivierung von Los/Chargen.
@@ -32,24 +32,24 @@ Navigeren nach *Einstellungen > Technisch > Geplante Aktionen* und einen neuen E
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-# search for all lots
+## search for all lots
 all_lots = env['stock.production.lot'].with_context(active_test=False).search([])
 #len(all_lots)
 
-# search for lots with product qty 0 or less
+## search for lots with product qty 0 or less
 filtered_lots = all_lots.filtered(lambda lot : lot.active is True and lot.product_qty < 1)
 #len(filtered_lots)
 
-# archive the filtered lots
+## archive the filtered lots
 if len(filtered_lots) > 0:
     log('About to archive %s: %s' % (filtered_lots._name, filtered_lots.ids))
     filtered_lots.write({'active': False})
 
-# search for archived lots with product qty 1 or greater
+## search for archived lots with product qty 1 or greater
 filtered_lots = all_lots.filtered(lambda lot : lot.active is False and lot.product_qty > 0)
 #len(filtered_lots)
 
-# unarchive the filtered lots
+## unarchive the filtered lots
 if len(filtered_lots) > 0:
     log('About to unarchive %s: %s' % (filtered_lots._name, filtered_lots.ids))
     filtered_lots.write({'active': True})

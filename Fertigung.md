@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# Fertigung
+## Fertigung
 ![icons_odoo_mrp](assets/icons_odoo_mrp.png)
 
 Eine moderne Lösung für ein altes Problem.

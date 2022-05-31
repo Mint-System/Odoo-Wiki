@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./finanzen
 ---
-# Finanzen Kostenrechnung
+## Finanzen Kostenrechnung
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
 Kosten analysieren und Budget plannen.  

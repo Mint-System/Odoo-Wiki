@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Kit bereitstellen
+## Best Practice: Kit bereitstellen
 
 ## Allgemein
 

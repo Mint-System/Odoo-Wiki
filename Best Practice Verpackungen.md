@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Verpackungen
+## Best Practice: Verpackungen
 
 Folgende zwei Bedeutungen sind im Zusammenhang mit dem Verpacken zu beachten:
 - **Produktverpackungen**: Produkte nach Einheiten pro Paket verwalten und verpacken)

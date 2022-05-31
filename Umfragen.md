@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# Umfragen
+## Umfragen
 ![icons_odoo_survey](assets/icons_odoo_survey.png)
 
 Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.

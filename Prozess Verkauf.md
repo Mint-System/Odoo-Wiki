@@ -3,7 +3,7 @@ tags:
 - Prozess
 prev: ./referenzsystem
 ---
-# Prozess Verkauf
+## Prozess Verkauf
 
 ## Angebot zu Auftrag
 

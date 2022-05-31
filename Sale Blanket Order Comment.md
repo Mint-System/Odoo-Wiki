@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-# Sale Blanket Order Comment
+## Sale Blanket Order Comment
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Kommentar auf Verkauf- und Rahmenauftrag.

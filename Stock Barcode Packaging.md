@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./lager
 ---
-# Stock Barcode Packaging
+## Stock Barcode Packaging
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Verpackung auf Strichcode-Vorgang anzeigen.

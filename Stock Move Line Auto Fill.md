@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./lager
 ---
-# Stock Move Line Auto Fill
+## Stock Move Line Auto Fill
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Die erledigte Menge auf einem Transfer automatisch ausfüllen.

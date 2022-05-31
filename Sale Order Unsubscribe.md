@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./diskussion
 ---
-# Sale Order Unsubscribe
+## Sale Order Unsubscribe
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Alle Abonnenten nach Bestätigung des Angebots entfernen.

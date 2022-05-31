@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./kontakte
 ---
-# Partner Type Order
+## Partner Type Order
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.

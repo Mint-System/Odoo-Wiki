@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./einkauf
 ---
-# Purchase Order Line Relay Price
+## Purchase Order Line Relay Price
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den Verkäufter.

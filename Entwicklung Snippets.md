@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./entwicklung
 ---
-# Entwicklung Snippets
+## Entwicklung Snippets
 ![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)
 
 Einfache Anpassungen mit den Mint System Snippets umsetzen.
