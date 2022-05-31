@@ -12,6 +12,10 @@ Wiederholende Verträge verwalten und automatisch verrechnen.
 Technischer Name: `contract`\
 Repository: <https://github.com/OCA/contract/tree/14.0/contract>
 
+## Kundenverträge anzeigen
+
+Navigieren Sie nach *Finanzen >  Kunden > Kundenverträge*.
+
 ## Kundenvertrag erstellen
 
 Rufen Sie *Finanzen >  Kunden > Kundenverträge* auf und wählen Sie *Anlegen*. Füllen mindestens diese Felder aus:
@@ -27,6 +31,10 @@ Rufen Sie *Finanzen >  Kunden > Kundenverträge* auf und wählen Sie *Anlegen*. 
 ::: tip
 Täglich wird ein Cron-Job ausgeführt, der entsprechend dem *Datum der nächsten Rechnung* anhand des Vertrags eine Rechnung generiert.
 :::
+
+## Lieferantenverträge anzeigen
+
+Navigieren Sie nach *Finanzen >  Lieferanten > Lieferantenverträge*.
 
 ## Lieferantenvertrag einrichten
 
