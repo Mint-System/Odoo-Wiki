@@ -14,16 +14,14 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 ## Erweiterung konfigurieren
 
-Mit dem Systemparameter `purchase.order.line.hide_ref` können Sie festlegen, ob die Produktreferenz eingeblendet werden soll. Setzen Sie den Wert auf `False` um die Referenz einzublden.
-
-![](assets/Purchase%20Order%20Line%20Description%20Parameter.png)
-
-Dazu ein Beispiel:
-
-![](assets/Purchase%20Order%20Line%20Description%20mit%20Referenz.png)
+Mit dem Systemparameter `purchase.order.line.hide_ref` können Sie festlegen, ob die Produktreferenz eingeblendet werden soll. Setzen Sie den Wert auf `True` um die Referenz einzublenden.
 
 ## Nur Einkaufsbeschreibung übertragen
 
-Mit dieser Erweiterung wird beim Hinzufügen eins Produkts in einer Bestellung statt *Referenz + Name + Einkaufsbeschreibung* nur die Einkausbeschreibung übernommen. Falls die Einkaufsbeschreibung nicht vorhanden ist, wird nur der Produktname übernommen.
+Mit dieser Erweiterung wird beim Hinzufügen eins Produkts in einer Bestellung statt *Referenz + Name + Einkaufsbeschreibung* die folgende Formel angewendet:
 
-![](assets/Purchase%20Order%20Line%20Description.png)
+*Verkäufer Produktcode + Einkaufsbeschreibung + Verkäufe Produktname*
+
+Falls *Produktcode* oder *Produktname* nicht vorhanden sind wird die Einkaufsbeschreibung übernommen.
+
+![](assets/Purchase%20Order%20Line%20Description%20Product%20Code.png)

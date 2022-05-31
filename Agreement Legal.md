@@ -83,4 +83,4 @@ Legen Sie auf dem Datenmodell diese *Rechte für Daten* fest:
 
 Auf dem Agreement können Sie über die Felder *Benutzer* und *Gruppen* zusätzliche Zugriffe regeln.
 
-![](assets/Pasted%20image%2020220524114926.png)
+![](assets/Agreement%20Legal%20Guppen%20und%20Benutzer.png)
