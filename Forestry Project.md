@@ -1,7 +1,7 @@
 ---
 tags:
 - HowTo
-prev: ./forestry-management
+prev: ./forestry-base
 ---
 ## Forestry Project
 ![icons_odoo_forestry_base](assets/icons_odoo_forestry_base.png)
