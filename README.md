@@ -165,7 +165,7 @@ Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträg
 
 Odoo für die Holzwirtschaft.
 
-![icons_odoo_forestry_base](assets/icons_odoo_forestry_base.png)](Forestry%20Base.md)
+[![icons_odoo_forestry_base](assets/icons_odoo_forestry_base.png)](Forestry%20Base.md)
 
 ### [Initialisierung](Initialisierung.md)
 
