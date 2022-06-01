@@ -10,10 +10,11 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 
 ## Bereiche
 
-| Bereich                                       | Beschreibung                                         |
-| --------------------------------------------- | ---------------------------------------------------- |
-| [Verkauf Stammdaten](Verkauf%20Stammdaten.md) | Produkte, Preislisten und Varianten zentral pflegen. |
-| [Verkauf Versand](Verkauf%20Versand.md)       | Versandmethoden und Logistik definieren.             |
+| Bereich                                       | Beschreibung                                                                                                     |
+| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| [Verkauf Stammdaten](Verkauf%20Stammdaten.md) | Produkte, Preislisten und Varianten zentral pflegen.                                                             |
+| [Verkauf Versand](Verkauf%20Versand.md)       | Versandmethoden und Logistik definieren.                                                                         |
+| [Order Positions](Order%20Positions.md)       | Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen. |
 
 ## Erweiterungen
 

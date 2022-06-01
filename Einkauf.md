@@ -10,9 +10,10 @@ Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
 
 ## Bereiche
 
-| Bereich                                           | Beschreibung                                   |
-| ------------------------------------------------- | ---------------------------------------------- |
-| [Einkauf Kaufverträge](Einkauf%20Kaufverträge.md) | Kaufverträge für Rahmenbestellungen erstellen. |
+| Bereich                                           | Beschreibung                                                                                                     |
+| ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| [Einkauf Kaufverträge](Einkauf%20Kaufverträge.md) | Kaufverträge für Rahmenbestellungen erstellen.                                                                   |
+| [Order Positions](Order%20Positions.md)           | Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen. |
 
 ## Erweiterungen
 
