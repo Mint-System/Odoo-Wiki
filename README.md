@@ -161,6 +161,12 @@ Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträg
 
 [![icons_odoo_fleet](assets/icons_odoo_fleet.png)](Fleet.md)
 
+### [Forestry Base](Forestry%20Base.md)
+
+Odoo für die Holzwirtschaft.
+
+[![](Forestry%20Base.md)
+
 ### [Initialisierung](Initialisierung.md)
 
 Richten Sie ihre Odoo-Umgebung ein.
