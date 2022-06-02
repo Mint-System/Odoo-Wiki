@@ -33,7 +33,8 @@ Eine moderne Lösung für ein altes Problem.
 | [MRP Production Release](MRP%20Production%20Release.md)                           | Fertigungsaufträge können zurückgesetzt und freigegebenen werden.            |
 | [MRP Production Assign Lot](MRP%20Production%20Assign%20Lot.md)                   | Los aus eingehenden Lagerbuchungen and unreservierte Komponenten zuweisen.   |
 | [MRP Workorder Set Producing Qty](MRP%20Workorder%20Set%20Producing%20Qty.md)     | Arbeitsauftrag startet ohne erledigte Menge.                                 |
-| [Product State](Product%20State.md)                                               | Lebenszyklus von Produkten festlegen.                                          |
+| [Product State](Product%20State.md)                                               | Lebenszyklus von Produkten festlegen.                                        |
+| [MRP Production Unplan Move](MRP%20Production%20Unplan%20Move.md)                 | Zukünftiges Datum auf Lagerbuchung bei Planungsabruch festlegen.             |
 
 ## Videos
 
