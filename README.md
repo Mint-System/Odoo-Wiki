@@ -15,7 +15,7 @@ Im Odoo Wiki werden diese Perspektive miteinander verknüpft.
 
 Das Odoo Wiki ist ein Produkt der [Mint System GmbH](https://www.mint-system.ch/).
 
-Es sind Dokumente von diesen Drittanbietern vorhanden:
+Es sind Dokumente von diesen Drittanbietern enthalten:
 * [nivels GmbH](https://www.nivels.ch/)
 * [giordano.ch](https://www.giordano.ch/)
 * [syscoon GmbH](https://syscoon.com/)
