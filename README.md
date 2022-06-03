@@ -7,7 +7,7 @@ Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus vie
 3. **HowTos**: Detailliert beschriebene Arbeitsschritte
 4. **Anforderungen**: Referenzanforderung für den Abgleich mit einem Lastenheften
 
-Die Perspektiven werden in diesem Wiki verlinkt.
+Im Odoo Wiki werden diese Perspektive miteinander verknüpft.
 
 ## Maintainer
 
