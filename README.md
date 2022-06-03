@@ -1,4 +1,4 @@
-## Odoo Wiki
+# Odoo Wiki
 
 Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus vier Perspekten:
 
