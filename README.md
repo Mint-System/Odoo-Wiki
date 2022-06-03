@@ -13,7 +13,7 @@ Die Perspektiven werden in diesem Wiki verlinkt.
 
 [![logo](assets/logo.svg)](https://www.mint-system.ch/)
 
-Das Odoo Wiki wird von der [Mint System GmbH](https://www.mint-system.ch/) unterhalten.
+Das Odoo Wiki ist ein Produkt der [Mint System GmbH](https://www.mint-system.ch/).
 
 Es sind Dokumente von diesen Drittanbietern vorhanden:
 * [nivels GmbH](https://www.nivels.ch/)
