@@ -13,6 +13,16 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-Forestry/tree/15.
 
 ## Felder Holzwirtschaft auf Projektaufgabe anzeigen
 
-Mit dieser Erweiterungen erhalten Sie zusätzliche Felder auf der Projektaufgabe.
+Mit dieser Erweiterungen erhalten Sie zusätzliche Felder auf dem Projekt und den Projektaufgaben.
 
-![](assets/Forestry%20Project.png)
+Auftragstyp auf dem Projektformular:
+
+![](assets/Forestry%20Project%20Auftragstyp.png)
+
+Sowie auf der Kanban-Kachel:
+
+![](assets/Forestry%20Project%20Auftragstyp%20Kanban.png)
+
+Zusätzliche Felder auf der Projektaufgabe
+
+![](assets/Forestry%20Project%20Auftrag.png)
