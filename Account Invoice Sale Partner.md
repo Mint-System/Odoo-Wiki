@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./abrechnung
 ---
-## Sale Invoice Line Description
+## Account Invoice Sale Partner
 
 ![icon_oms_box](assets/icon_oms_box.png)
 
