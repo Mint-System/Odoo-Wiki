@@ -8,6 +8,13 @@ prev: ./
 
 Personalmanagement für moderne Unternehmen.
 
+## Bereiche
+
+| Bereich                                     | Beschreibung                        |
+| ------------------------------------------- | ----------------------------------- |
+| [Personal Verträge](Personal%20Verträge.md) | Personalverträge zentral verwalten. |
+
+
 ## Erweiterungen
 
 | Erweiterung                                         | Beschreibung                                  |
@@ -55,10 +62,6 @@ Um das Pensum eines Mitarbeits zu wechseln, muss ein Endatum für die bestehende
 Erstellen Sie eine neues Pensum *Personal > Mitarbeiter auswählen > Tab Arbeitsinformation > Ausführungsplan > Anlegen und Bearbeiten*. Definieren Sie einen passenden Titel und legen Sie bei den bestehenden Arbeitszeiten das Enddatum fest.
 
 ![](assets/Personal%20Arbeitszeiten%20mit%20Enddatum.png)
-
-## Arbeitsvertrag hinzufügen
-
-Die Entlohnung und Arbeitszeiten sind im Arbeitsvertrag festgehalten. Fügen Sie den Mitarbeiter über *Personal > Mitarbeiter auswählen > Link Verträge* mit *Anlegen* einen Vertrag hinzu. Damit der Vertrag aktiv ist, müssen Sie ihn in den Status *Laufend* verschieben.
 
 ## Mitarbeiteraustritt ausführen
 
