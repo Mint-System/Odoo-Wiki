@@ -20,21 +20,22 @@ Maximieren Sie die Effizienz Ihres Lagers.
 
 ## Erweiterungen
 
-| Erweiterung                                                         | Beschreibung                                                                                                |
-| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [Demand Planner](Demand%20Planner.md)                               | Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen. |
-| [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md) | Erlaubt die Archivierung von Los/Chargen.                                                                   |
-| [Stock Move Line Position](Stock%20Move%20Line%20Position.md)       | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.                                            |
-| [Stock Delivery Note](Stock%20Delivery%20Note.md)                   | Notiz auf Lieferschein.                                                                                     |
-| [Product Logistics UoM](Product%20Logistics%20UoM.md)               | Individuelle Mengenheit für Produkte festlegen.                                                             |
-| [Stock Move Weight UoM](Stock%20Move%20Weight%20UoM.md)             | Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.                                                |
-| [Stock Move Line Auto Fill](Stock%20Move%20Line%20Auto%20Fill.md)   | Die erledigte Menge auf einem Transfer automatisch ausfüllen.                                               |
-| [Stock Critical Forecast](Stock%20Critical%20Forecast.md)           | Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzeigen.                         |
-| [Stock Picking Notes](Stock%20Picking%20Notes)                      | Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.        |
-| [Stock Move Sale Order Name](Stock%20Move%20Sale%20Order%20Name.md) | Beschreibung der Auftragsposition wird auf die Lieferung kopiert.                                           |
-| [Stock Picking Responsible](Stock%20Picking%20Responsible.md)       | Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.                                  |
-| [Stock Vendor Evaluation](Stock%20Vendor%20Evaluation.md)           | Lieferungen bewerten und Lieferanten auswerten.                                                             |
-| [Stock Aggregated Move Lines](Stock%20Aggregated%20Move%20Lines.md)                                                                    |                                                                                                             |
+| Erweiterung                                                                                   | Beschreibung                                                                                                |
+| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [Demand Planner](Demand%20Planner.md)                                                         | Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen. |
+| [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md)                           | Erlaubt die Archivierung von Los/Chargen.                                                                   |
+| [Stock Move Line Position](Stock%20Move%20Line%20Position.md)                                 | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.                                            |
+| [Stock Delivery Note](Stock%20Delivery%20Note.md)                                             | Notiz auf Lieferschein.                                                                                     |
+| [Product Logistics UoM](Product%20Logistics%20UoM.md)                                         | Individuelle Mengenheit für Produkte festlegen.                                                             |
+| [Stock Move Weight UoM](Stock%20Move%20Weight%20UoM.md)                                       | Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.                                                |
+| [Stock Move Line Auto Fill](Stock%20Move%20Line%20Auto%20Fill.md)                             | Die erledigte Menge auf einem Transfer automatisch ausfüllen.                                               |
+| [Stock Critical Forecast](Stock%20Critical%20Forecast.md)                                     | Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzeigen.                         |
+| [Stock Picking Notes](Stock%20Picking%20Notes)                                                | Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.        |
+| [Stock Move Sale Order Name](Stock%20Move%20Sale%20Order%20Name.md)                           | Beschreibung der Auftragsposition wird auf die Lieferung kopiert.                                           |
+| [Stock Picking Responsible](Stock%20Picking%20Responsible.md)                                 | Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.                                  |
+| [Stock Vendor Evaluation](Stock%20Vendor%20Evaluation.md)                                     | Lieferungen bewerten und Lieferanten auswerten.                                                             |
+| [Stock Aggregated Move Lines Description](Stock%20Aggregated%20Move%20Lines%20Description.md) | Beschreibungsfeld auf aggregierten Zeilen anzeigen.                                                                                                            |
+| [Stock Aggregated Move Line](Stock%20Aggregated%20Move%20Line.md)                             |                                                                                                             |
 
 ## Produkt aufstocken
 
