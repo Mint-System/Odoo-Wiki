@@ -21,7 +21,8 @@ Online Rechnungsstellung leicht gemacht.
 | [Switzerland QR-bill scan](Switzerland%20QR-bill%20scan.md)                 | Daten aus QR-Code bei Rechnungsimport auslesen.                                            |
 | [Sale Invoice Line Description](Sale%20Invoice%20Line%20Description.md)     | Buchungszeilen generiert aus Verkaufsaufträgen enhalten nur den Anzeigenamen des Produkts. |
 | [Account Invoice Sale Partner](Account%20Invoice%20Sale%20Partner.md)       | Verkaufsadresse auf Rechnung festlegen.                                                    |
-| [Account Move Invoice Partner](Account%20Move%20Invoice%20Partner.md)       | Separate Rechnungsadresse auf Rechnung festlegen.                                                   |
+| [Account Move Invoice Partner](Account%20Move%20Invoice%20Partner.md)       | Separate Rechnungsadresse auf Rechnung festlegen.                                          |
+| [Account Invoice Comment](Account%20Invoice%20Comment.md)                   | Kommentarfeld auf Rechnung.                                                                |
 
 ## Ausgangsrechnung erfassen
 
