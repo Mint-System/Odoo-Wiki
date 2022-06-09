@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abrechnung
+prev: ./finanzen
 ---
 ## Sale Move Reconciled Date
 

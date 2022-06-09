@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finanzen
+prev: ./abrechnung
 ---
 ## Sale Invoice Cash Rounding Default
 ![icon_oms_box](assets/icon_oms_box.png)

@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abrechnung
+prev: ./finanzen
 ---
 ## Switzerland QR IBAN
 ![icon_oms_box](assets/icon_oms_box.png)

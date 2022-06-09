@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finanzen
+prev: ./abrechnung
 ---
 ## Account Invoice Carrier
 

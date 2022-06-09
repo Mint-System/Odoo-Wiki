@@ -23,18 +23,20 @@ Ihre Buchhaltung einfach und korrekt.
 
 ## Erweiterungen
 
-| Erweiterung                                                                                                     | Beschreibung                                                                                       |
-| --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)                                               | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren.                                  |
-| [Recurring - Contracts Management](Contract.md)                                                                 | Wiederholende Verträge verwalten und automatisch verrechnen.                                       |
-| [Switzerland Bank type](Switzerland%20Bank%20Type.md)                                                           | Lokalisierung für Schweizer Banken und Bankkontos.                                                 |
-| [Account Move Line Position](Account%20Move%20Line%20Position.md)                                               | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.                                   |
-| [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)                                   | Lieferaufträge mit Rechnungszeile verlinken.                                                       |
-| [Sale Invoice Cash Rounding Default](Sale%20Invoice%20Cash%20Rounding%20Default.md)                             | Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.              |
-| [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                           | Zeigt für eine Rechnung das definitive Abgleichsdatum an.                                          |
-| [Switzerland Invoice Reports with payment option](Switzerland%20Invoice%20Reports%20with%20payment%20option.md) | Rechnung mit ISR- und/oder QR-Zahlung drucken.                                                     |
-| [Account Invoice Carrier](Account%20Invoice%20Carrier.md)                                                       | Auslieferungsmethode auf Rechnung hinterlegen.                                                     |
-| [Sale Invoice Carrier](Sale%20Invoice%20Carrier.md)                                                             | Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus Verkaufsaufträgen übertragen. |
+| Erweiterung                                                                                                     | Beschreibung                                                                |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)                                               | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren.           |
+| [Recurring - Contracts Management](Contract.md)                                                                 | Wiederholende Verträge verwalten und automatisch verrechnen.                |
+| [Switzerland Bank type](Switzerland%20Bank%20Type.md)                                                           | Lokalisierung für Schweizer Banken und Bankkontos.                          |
+| [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                                               | Generierung der QR-Rechnung ohne ISR-Nummer.                                |
+| [Switzerland QR-bill scan](Switzerland%20QR-bill%20scan.md)                                                     | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
+| [Account Move Line Position](Account%20Move%20Line%20Position.md)                                               | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.            |
+| [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)                                   | Lieferaufträge mit Rechnungszeile verlinken.                                |
+| [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                           | Zeigt für eine Rechnung das definitive Abgleichsdatum an.                   |
+| [Switzerland Invoice Reports with payment option](Switzerland%20Invoice%20Reports%20with%20payment%20option.md) | Rechnung mit ISR- und/oder QR-Zahlung drucken.                              |
+| [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                                                       | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt. |
+| [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                           | PDF-Dokumenten von Rechnungen zusammenführen.                               |
+| [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                     | Allow discount deduction on vendor bills.                                   |
 
 ## Rechnung per E-Mail empfangen
 

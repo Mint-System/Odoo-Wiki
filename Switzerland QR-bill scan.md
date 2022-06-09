@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - OCA
-prev: ./abrechnung
+prev: ./finanzen
 ---
 ## Switzerland QR-bill scan
 ![icon_oca_app](assets/icon_oca_app.png)
