@@ -14,6 +14,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/purchase_
 
 ## Abonnenten entfernen
 
-Mit dieser Erweiterung werden beim Bestätigen einer Bestellung alle Abonnenten entfernt.
+Mit dieser Erweiterung werden beim Bestätigen einer Bestellung alle Abonnenten bis auf den Einkaufsbeauftragten entfernt.
 
 ![](assets/Purchase%20Order%20Unsubscribe.png)

@@ -14,6 +14,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/account_m
 
 ## Abonnenten entfernen
 
-Mit dieser Erweiterung werden beim Buchen eines Buchungssatzes alle Abonnenten entfernt.
+Mit dieser Erweiterung werden beim Buchen eines Buchungssatzes alle Abonnenten bis auf den Rechnungskontakt entfernt.
 
 ![](assets/Account%20Move%20Unsubscribe.png)
