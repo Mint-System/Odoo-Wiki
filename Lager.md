@@ -34,8 +34,9 @@ Maximieren Sie die Effizienz Ihres Lagers.
 | [Stock Move Sale Order Name](Stock%20Move%20Sale%20Order%20Name.md)                           | Beschreibung der Auftragsposition wird auf die Lieferung kopiert.                                           |
 | [Stock Picking Responsible](Stock%20Picking%20Responsible.md)                                 | Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.                                  |
 | [Stock Vendor Evaluation](Stock%20Vendor%20Evaluation.md)                                     | Lieferungen bewerten und Lieferanten auswerten.                                                             |
-| [Stock Aggregated Move Lines Description](Stock%20Aggregated%20Move%20Lines%20Description.md) | Beschreibungsfeld auf aggregierten Zeilen anzeigen.                                                                                                            |
-| [Stock Aggregated Move Line](Stock%20Aggregated%20Move%20Line.md)                             |                                                                                                             |
+| [Stock Aggregated Move Lines Description](Stock%20Aggregated%20Move%20Lines%20Description.md) | Beschreibungsfeld auf aggregierten Zeilen anzeigen.                                                         |
+| [Stock Aggregated Move Line](Stock%20Aggregated%20Move%20Line.md)                             | Zugriff auf Lieferung in aggregierten Zeilen.                                                                                                            |
+| [Stock Picking Invoice Link](Stock%20Picking%20Invoice%20Link.md)                             | Verlinkt Rechnungen und Transfers.                                                                          |
 
 ## Produkt aufstocken
 

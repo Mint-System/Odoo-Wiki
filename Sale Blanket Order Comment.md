@@ -7,7 +7,7 @@ prev: ./sale-blanket-order
 ## Sale Blanket Order Comment
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Kommentar auf Verkauf- und Rahmenauftrag.
+Kommentar auf Rahmenauftrag.
 
 Technischer Name: `sale_blanket_order_comment`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_comment>

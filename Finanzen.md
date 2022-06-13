@@ -37,6 +37,8 @@ Ihre Buchhaltung einfach und korrekt.
 | [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                                                       | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt. |
 | [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                           | PDF-Dokumenten von Rechnungen zusammenführen.                               |
 | [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                     | Allow discount deduction on vendor bills.                                   |
+| [Acccount Move Accounting Description](Acccount%20Move%20Accounting%20Description.md)                           | Beschreibungsfeld für Rechnungszeile.                                       |
+| [Account Move Line Accounting Description Stock](Account%20Move%20Line%20Accounting%20Description%20Stock)      | Beschreibung Lagerbuchung auf Rechnung übertragen.         |
 
 ## Rechnung per E-Mail empfangen
 
