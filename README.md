@@ -253,6 +253,12 @@ Personalbrechnungen schnell und einfach erstellen.
 
 [![icons_odoo_hr_payroll](assets/icons_odoo_hr_payroll.png)](Personalabrechnung.md)
 
+### [Personalbeschaffung](Personalbeschaffung.md)
+
+Einstellungsprozess leicht gemacht.
+
+[![icons_odoo_hr_recruitment](assets/icons_odoo_hr_recruitment.png)](Personalbeschaffung.md)
+
 ### [Persönliche Einstellungen](Persönliche%20Einstellungen.md)
 
 Einstellungen für ihren persönlichen Odoo-Benutzer.
