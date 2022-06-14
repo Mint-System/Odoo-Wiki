@@ -23,11 +23,11 @@ Arbeitstellen können über die Odoo Website publiziert werden. Klicken Sie auf 
 
 ## Arbeitstelle bearbeiten
 
-Auf der Odoo Website können Sie mit dem Website-Editor die Stellenbeschreibung anpassen.
+Auf der Odoo Website können Sie mit dem Website-Editor die Stellenbeschreibung anpassen. Bearbeiten Sie eine Stellenbeschreibung via *Personalbeschaffung > Arbeitsstelle auswählen > Stellenbeschreibung*.
 
 ![Personalbeschaffung Stellenbeschreibung](assets/Personalbeschaffung%20Stellenbeschreibung.gif)
 
-Klicken Sie auf auf den Pfeil neben *Bearbeiten* und dann auf *Im Backend bearbeiten* um die normale Ansicht zu gelangen.
+Klicken Sie auf auf den Pfeil neben *Bearbeiten* und dann auf *Im Backend bearbeiten* um die normale Ansicht zurückzukehren.
 
 ## Bewerbungen hochladen
 
