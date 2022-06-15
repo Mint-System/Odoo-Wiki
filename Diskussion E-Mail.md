@@ -36,3 +36,21 @@ Ist das Mail-Icon rot markiert (und nicht weiss), konnte die E-Mail nicht versen
 ## Mail-Vorlagen verwalten
 
 Zu jedem Geschäftsobjekt können E-Mail-Vorlagen mit Parameter angelegt werden. Navigieren Sie nach *Einstellungen > Technisch > Volagen* um die bestehenden E-Mail-Vorlagen anzuzeigen.
+
+## Mehrsprachige E-Mail-Vorlagen  aus Word kopieren
+
+Erstellen Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > Volagen*. Fügen Sie die Text aus der Word-Datei mit <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>v</kbd> (Einfügen ohne Formatierungen) ein. Bearbeiten Sie  im nächsten Schritt die Übersetzungen und kopieren Sie den generierten Code in das übersetzte Feld.
+
+![Mail-Vorlage aus Word kopieren](assets/Mail-Vorlage%20aus%20Word%20kopieren.gif)
+
+## Dynamischer Platzhalter generieren
+
+Rufe Sie eine importierte E-Mail-Vorlage unter *Einstellungen > Technisch > Volagen* auf. Generieren Sie einen dynamischen Platzhalter und fügen Sie diesen in die Vorlage.
+
+![Mail-Vorlage Platzhalter ersetzen](assets/Mail-Vorlage%20Platzhalter%20ersetzen.gif)
+
+## E-Mail-Vorlage testen
+
+Rufe Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > Volagen* auf und klicken Sie auf *Vorschau*. Wählen Sie einen Datensatz und prüfen Sie die generierte Vorschau.
+
+![Mail-Vorlage Variablen testen](assets/Mail-Vorlage%20Variablen%20testen.gif)
