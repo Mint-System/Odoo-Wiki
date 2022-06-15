@@ -33,6 +33,12 @@ Ist das Mail-Icon rot markiert (und nicht weiss), konnte die E-Mail nicht versen
 
 ![Diskussion Mail Fehlschlag Beispiel](assets/Diskussion%20Mail%20Fehlschlag%20Beispiel.png)
 
+## Nicht versende E-Mails anzeigen
+
+Wenn Sie den Entwicklermodus eingeschaltet haben, finden Sie unter *Einstellungen > Technisch > E-Mails* eine Liste der nicht versendeten E-Mails. Odoo registiert wenn die E-Mail-Zustellung nicht erfolgreich war.
+
+![](assets/Diskussion%20nicht%20versendete%20E-Mails.png)
+
 ## Mail-Vorlagen verwalten
 
 Zu jedem Geschäftsobjekt können E-Mail-Vorlagen mit Parameter angelegt werden. Navigieren Sie nach *Einstellungen > Technisch > Volagen* um die bestehenden E-Mail-Vorlagen anzuzeigen.
