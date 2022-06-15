@@ -26,9 +26,9 @@ Unter <https://odoo.build/snippets> finden Sie verschiedene Snippets um Ansichte
 
 ![](assets/Entwicklung%20Snippet%20hinzufügen.gif)
 
-## Parameter für Snippet hinzufügen
+## Text als Systemparameter definieren
 
-In bestimmten Fällen möchte man Texte in Berichten direkt anpassen. Damit Sie der Anwender nicht den Code im Bericht anpassen muss, kann man die Text-Stelle im Bericht als Systemparameter definieren. Im Bericht fügen Sie diesen Platzhalter ein:
+In bestimmten Fällen möchte man Texte in Berichten direkt anpassen. Damit Anwender nicht den Code im Bericht anpassen müssen, können Sie den Text im Bericht als Systemparameter definieren. Fügen Sie im Bericht diesen Platzhalter ein:
 
 ```xml
 <t t-set="footer" t-value="request.env['ir.config_parameter'].sudo().get_param('stock.report_bordero.basis57.footer')"/>
@@ -50,3 +50,34 @@ Vielen Dank
 Beim Erstellen des Bericht wird der Platzhalter mit dem konfigurierten Wert des Systemparamters ersetzt:
 
 ![](assets/Entwicklung%20Snippets%20Bericht%20mit%20Systemparameter.png)
+
+## Text als Begriff parametrisieren
+
+In bestimmten Fällen möchte man Texte in Berichten direkt anpassen. Damit Anwender nicht den Code im Bericht anpassen müssen, können Sie den Text im Bericht als Begriff parametrisieren. Fügen Sie im Bericht diesen Platzhalter ein:
+
+```xml
+<t t-set="footer" t-value="docs.env['ir.translation'].search([('src', '=', 'stock.report_bordero.basis57.footer')], limit=1)"/>
+<t t-if="footer">
+  <p><t t-raw="footer.value"/></p>
+</t>
+```
+
+Unter *Einstellungen > Übersetzungen > Übersetzte Begriffe* erstellen Sie einen neuen Eintrag mit diesen Werten:
+
+* **Interne Quelle**: `stock.report_bordero.basis57.footer`
+* **Übersetzungswert**:
+
+```text
+Bitte die Gebinde beim Kunden sofort zurücknehmen und beim Abholen in Erstfeld die Gebinde retournieren.<br/>
+<br/>
+<strong>Chaffeur Achtung!</strong> Abholadresse: Gotthardstrasse 189, 6472 Erstfeld<br/>
+<br/>
+Vielen Dank
+```
+
+* **Übersetztes Feld**: `snippet`
+* **Sprache**: German (CH) / Deutsch (CH)
+
+![](assets/Entwicklung%20Snippets%20Begriff.png)
+
+Beim Erstellen des Bericht wird der Platzhalter mit dem *Übersetzungswert* ersetzt.
