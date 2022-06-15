@@ -25,3 +25,28 @@ Unter <https://odoo.build/snippets> finden Sie Snippets mit der Bezeichung *Get 
 Unter <https://odoo.build/snippets> finden Sie verschiedene Snippets um Ansichten und Berichte anzupassen. Anhand des Verweis auf den Bericht und dem Link auf das Snippet können Sie das Snippet installieren.
 
 ![](assets/Entwicklung%20Snippet%20hinzufügen.gif)
+
+## Parameter für Snippet hinzufügen
+
+In bestimmten Fällen möchte man Texte in Berichten direkt anpassen. Damit Sie der Anwender nicht den Code im Bericht anpassen muss, kann man die Text-Stelle im Bericht als Systemparameter definieren. Im Bericht fügen Sie diesen Platzhalter ein:
+
+```xml
+<t t-set="footer" t-value="request.env['ir.config_parameter'].sudo().get_param('stock.report_bordero.basis57.footer')"/>
+<t t-if="footer">
+  <p><t t-raw="footer"/></p>
+</t>
+```
+
+Unter *Einstellungen > Technisch > Systemparameter* erstellen Sie einen neuen Eintrag mit Schlüssel `stock.report_bordero.basis57.footer` und diesem Wert:
+
+```txt
+Bitte die Gebinde beim Kunden sofort zurücknehmen und beim Abholen in Erstfeld die Gebinde retournieren.<br/>
+<br/>
+<strong>Chaffeur Achtung!</strong> Abholadresse: Gotthardstrasse 189, 6472 Erstfeld<br/>
+<br/>
+Vielen Dank
+```
+
+Beim Erstellen des Bericht wird der Platzhalter mit dem konfigurierten Wert des Systemparamters ersetzt:
+
+![](assets/Entwicklung%20Snippets%20Bericht%20mit%20Systemparameter.png)
