@@ -1,6 +1,6 @@
 # Odoo Wiki
 
-Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus vier Perspekten:
+Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus vier Perspektiven:
 
 1. **Referenzsystem**: Eine umfassende Dokumentation der Odoo-Prozesse
 2. **Best Practice**: Beschreibung von Anwendungsfällen im Detail
