@@ -10,7 +10,7 @@ prev: ./einstellungen
 Service-Benutzer von Lizenzvertrag ausschliessen.
 
 Technischer Name: `mail_service_users`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/mail_service_users>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/mail_service_users>
 
 ## Benutzer als Service-Benutzer festlegen
 
