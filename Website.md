@@ -32,3 +32,17 @@ Auf jeden beliebigen Abschnitt auf einer Seite kann ein Link gesetzt werden. Die
 Über *Menu bearbeiten* kann die URL unter Verwendung des Sonderzeichens *#* schnell gefunden und einfach eingefügt werden.
 
 ![Website Link auf Abschnitt einfügen](assets/Website%20Link%20auf%20Abschnitt%20einfügen.gif)
+
+## Formular erweitern
+
+Website-Formulare können mit bestehenden Feldern aus dem Datenbankmodell erweitert werden. Im folgenden Beispiel wurd dem Formular für *Bewerbungen* ein neus Feld hinzugefügt. In der Auswahl des Feldtyps können Sie ein bestehendes Feld auswählen:
+
+![](assets/Website%20Form%20Existing%20Fields.png)
+
+Dem Formular wurde das bestehende Feld *Datenschutz* hinzufgefügt:
+
+![](assets/Website%20Form%20Datenschutz.png)
+
+Die Eingabe des neues Feldes ist im Backend ersichtlich:
+
+![](assets/Website%20Backend%20Feld.png)
