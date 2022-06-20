@@ -124,3 +124,33 @@ Der angezeigte Bericht wird nicht korrekt vom System aufgerufen.
 Geben Sie den Benutzern Leserechte auf das Datenmodell `ir.ui.view`.
 
 ![](assets/ir.ui.view%20user%20read.png)
+
+
+## Berichtsformatierung in PDF nicht vorhanden
+
+### Problem
+
+Wenn wkhtmltopdf die PDF-Datei erstellt, wird dieser Fehler geworfen:
+
+```
+2022-06-13 20:03:37,244 1 WARNING odoo odoo.addons.base.models.ir_actions_report: wkhtmltopdf: b'Exit with code 1 due to network error: ConnectionRefusedError\n'
+```
+
+Oder dieser Fehler:
+
+```
+2022-06-20 16:43:05,267 1 WARNING odoo odoo.addons.base.models.ir_actions_report: wkhtmltopdf: b'Exit with code 1 due to network error: ContentNotFoundError\n'
+2
+```
+
+Das generierte PDF enthält keine Formatierungen.
+
+### Ursache
+
+Wkhtmltopdf kann kein CSS oder Bilder über HTTPS laden.
+
+Quelle: <https://github.com/wkhtmltopdf/wkhtmltopdf/issues/4462>
+
+### Lösung
+
+In den Systemparameter von Odoo muss beim Eintrag `web.base.url`  die URL von https auf http gewechselt werden.

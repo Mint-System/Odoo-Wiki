@@ -14,6 +14,8 @@ Repository: <https://github.com/OCA/product-attribute/tree/14.0/mrp_production_u
 
 ## Zukünftiges Datum bei Planungsabruch setzen
 
-Mit dieser Erweiterung wird beim Abruch der Planung eines Fertigungsauftrag auf der dazugehörigenden Lagerbuchung eine bestimmtes Datum festgelegt.
+Mit dieser Erweiterung wird beim Abbruch der Planung oder bei der Bestätigung eines Fertigungsauftrag auf der dazugehörigenden Lagerbuchung eine fiktives Datum festgelegt.
 
 ![](assets/MRP%20Production%20Unplan%20Move.png)
+
+Damit sind Aufträge erkennbar, welche noch genauer geplant werden müssen.
