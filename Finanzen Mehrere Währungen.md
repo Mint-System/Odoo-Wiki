@@ -32,6 +32,12 @@ Klicken Sie auf das Icon neben dem Feld *Nächster Lauf*. Die Währungskurse wer
 
 Öffnen Sie *Finanzen > Konfiguration > Währungen*. Aktivieren oder deaktivieren Sie die Währung in der Spalte *Aktiv*.
 
+## Tageskurs für bestimmes Datum definieren
+
+Öffnen Sie die die Kursliste einer Währung via *Finanzne > Konfiguraiton > Währungen > Währung auswählen > Kurse*. Legen Sie einen neuen Eintrag an oder bearbeiten Sie einen bestehendne.
+
+![](assets/Finanzen%20Mehrere%20Währungen%20Tageskurs%20definieren.png)
+
 ## Währung auf Rechnung festlegen
 
 Zeigen Sie eine Rechnung via *Finanzen > Kunden > Rechnungen* oder *Finanzen > Lieferanten > Rechnungen* an. Rechts vom Eingabefeld *Journal* können Sie die Währung festlegen.
