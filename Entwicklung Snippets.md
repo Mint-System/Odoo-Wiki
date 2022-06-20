@@ -67,7 +67,7 @@ Unter *Einstellungen > Übersetzungen > Übersetzte Begriffe* erstellen Sie eine
 * **Interne Quelle**: `stock.report_bordero.basis57.footer`
 * **Übersetzungswert**:
 
-```text
+```txt
 Bitte die Gebinde beim Kunden sofort zurücknehmen und beim Abholen in Erstfeld die Gebinde retournieren.<br/>
 <br/>
 <strong>Chaffeur Achtung!</strong> Abholadresse: Gotthardstrasse 189, 6472 Erstfeld<br/>

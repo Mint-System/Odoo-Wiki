@@ -8,6 +8,12 @@ prev: ./
 
 Einstellungsprozess leicht gemacht.
 
+## Erweiterungen
+
+| Erweiterung                                                 | Beschreibung |
+| ----------------------------------------------------------- | ------------ |
+| [HR Recruitment Firstname](HR%20Recruitment%20Firstname.md) | Vor- und Nachname auf Bewerbung.             |
+
 ## Arbeitstellen definieren
 
 Definieren Sie bestehende und neue Arbeitstellen unter *Personalbeschaffung > Konfiguration > Arbeitsstellen*.

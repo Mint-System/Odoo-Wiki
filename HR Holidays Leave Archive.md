@@ -10,7 +10,7 @@ prev: ./personal
 Archivierungsfunktion für Abwesenheitseinträge aktivieren.
 
 Technischer Name: `hr_holidays_leave_archive`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/hr_holidays_leave_archive>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_holidays_leave_archive>
 
 ## Abwesenheitszeiten archivieren
 

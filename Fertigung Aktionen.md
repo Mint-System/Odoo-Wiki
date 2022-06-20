@@ -43,7 +43,7 @@ Triggerbedingung: Beim Aktualisieren\
 Beobachtete Felder: `state`\
 Anzuwenden auf:
 
-```text
+```txt
 ["&",["state","in",["confirmed","progress"]],["lot_producing_id","=",False]]
 ```
 
