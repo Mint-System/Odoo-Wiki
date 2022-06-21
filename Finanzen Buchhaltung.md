@@ -127,3 +127,11 @@ Wenn Sie einen Buchungssatz mit meheren Zeilen im Excel erstellen und anschliess
 |         |            | Lohn                        | 1030                 |                     | 74297.35             |
 
 Damit wird eine Lohnbuchung in Journal *Lohn* importiert. Für den Import wählen Sie *Finanzen > Finanzen > Buchungssätze > Favoriten > Datensätze importieren*. Der Import-Dialog wird die Spaltenüberschriften automatisch erkennen und mit den Felder des Datenmodells verknüpfen.
+
+## Rechnungsabgrenzung vornehmen
+
+Um eine Rechnungsabgrenzung in Odoo vorzunehmen, wählen Sie die Rechnung via *Finanzen > Lieferanten > Rechnungen* aus. Zeigen Sie den Tab *Buchungszeilen* an und klicken Sie auf *Cut-Off* bei der betroffenen Zeile. Nun erscheint ein Dialog um die Abgrenzung vorzunehmen.
+
+![](assets/Abrechnung%20Rechnungsabgrenzung.png)
+
+Mit *Create Journal Entries* wird die Buchung und Gegenbuchung für die Rechnungsabgrenzung erstellt.

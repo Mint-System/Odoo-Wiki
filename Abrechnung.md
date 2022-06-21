@@ -33,7 +33,7 @@ Online Rechnungsstellung leicht gemacht.
 
 ## Lieferantenkonto konfigurieren
 
-Wählen Sie *Kontakte* zeigen Sie den Lieferanten in der Formularansicht an. Klicken Sie auf *Bearbeiten* und fügen Sie im Tab *Finanzen* ein Bakkonto hinzu.
+Wählen Sie *Kontakte* zeigen Sie den Lieferanten in der Formularansicht an. Klicken Sie auf *Bearbeiten* und fügen Sie im Tab *Finanzen* ein Bankkonto hinzu.
 
 ## Rechnungen digitalisieren
 
@@ -160,14 +160,6 @@ Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzu
 ## Rechnungsadresse ändern
 
 Angenommen Sie möchten die Empfängeradresse einer gebuchten Rechnung ändern, so setzen Sie diese Rechnung mit *Zurücksetzen* in den Entwurfsstatus. Anschliessen können Sie das Feld *Kunde* wieder bearbeiten. Passen Sie die Adresse an und buchen Sie die Rechnung wieder.
-
-## Rechnungsabgrenzung vornehmen
-
-Um eine Rechnungsabgrenzung in Odoo vorzunehmen, wählen Sie die Rechnung via *Finanzen > Lieferanten > Rechnungen* aus. Zeigen Sie den Tab *Buchungszeilen* an und klicken Sie auf *Cut-Off* bei der betroffenen Zeile. Nun erscheint ein Dialog um die Abgrenzung vorzunehmen.
-
-![](assets/Abrechnung%20Rechnungsabgrenzung.png)
-
-Mit *Create Journal Entries* wird die Buchung und Gegenbuchung für die Rechnungsabgrenzung erstellt.
 
 ## Warnung für den Rechnungskontakt festlegen
 
