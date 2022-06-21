@@ -10,13 +10,14 @@ Maximieren Sie die Effizienz Ihres Lagers.
 
 ## Bereiche
 
-| Bereich                                                 | Beschreibung                        |
-| ------------------------------------------------------- | ----------------------------------- |
-| [Handscanner Zebra TC21](Handscanner%20Zebra%20TC21.md) | Handscanner für Odoo.               |
-| [Handscanner Zebra DS22](Handscanner%20Zebra%20DS22.md) | Handscanner für Odoo.               |
-| [Lager Verpackungen](Lager%20Verpackungen.md)           | Verpackungen effizient verwalten.   |
-| [Lager Bestand](Lager%20Bestand.md)                     | Den Lagerbestand optimal verwalten. |
-| [Lager Aktionen](Lager%20Aktionen.md)                   | Arbeitsflüsse im Lager automatisieren.                                    |
+| Bereich                                                 | Beschreibung                           |
+| ------------------------------------------------------- | -------------------------------------- |
+| [Handscanner Zebra TC21](Handscanner%20Zebra%20TC21.md) | Handscanner für Odoo.                  |
+| [Handscanner Zebra DS22](Handscanner%20Zebra%20DS22.md) | Handscanner für Odoo.                  |
+| [Lager Verpackungen](Lager%20Verpackungen.md)           | Verpackungen effizient verwalten.      |
+| [Lager Bestand](Lager%20Bestand.md)                     | Den Lagerbestand optimal verwalten.    |
+| [Lager Aktionen](Lager%20Aktionen.md)                   | Arbeitsflüsse im Lager automatisieren. |
+| [Lager Vorgänge](Lager%20Vorgänge.md)                   | Vorgänge im Lager ausführen.                                       |
 
 ## Erweiterungen
 
@@ -38,27 +39,6 @@ Maximieren Sie die Effizienz Ihres Lagers.
 | [Stock Aggregated Move Line](Stock%20Aggregated%20Move%20Line.md)                             | Zugriff auf Lieferung in aggregierten Zeilen.                                                                                                            |
 | [Stock Picking Invoice Link](Stock%20Picking%20Invoice%20Link.md)                             | Verlinkt Rechnungen und Transfers.                                                                          |
 
-## Produkt aufstocken
-
-Mit *Aufstocken* werden Produkte an Lager gelegt. Für die Produkte bestehenden unterschiedliche Vorgänge wie diese ins Lager gelanden. Zum Aufstocken öffnen Sie *Lager > Produkte > Produkte* und öffnen ein Produkt. Wählen Sie nun *Aufstocken*.
-
-![](assets/Lager%20Produkt%20aufstocken.png)
-
-Geben Sie die Menge ein und wählen Sie *Bestätigen*. Nun wird entsprechend der Einstellung im Tab *Lager* des Produkts ein Transfer angelegt.
-
-## Erweiterte Vorgangstypen einrichten
-
-Wenn in den Einstellungen für das Lager die Option *Mehrstufige Routen* eingeschaltet wird, erweitert sich die Liste der Vorgangstypen mit *Interne Transfers*. Die neue Liste zeigt sich wie folgt:
-
-1. Anlieferungen
-2. Interne Transfers
-3. Lieferaufträge
-4. Manufacturing
-
-Die Option *Mehrere Lagerorte* wird automatisch eingeschaltet und es erscheinen im Menu die neuen Funktion *Lagerorte* und *Regeln*.
-
-![](assets/Lager%20Erweitertes%20Menu.png)
-
 ## Ablaufdatum aktivieren
 
 Für Produkte in Lots oder Produkte mit Seriennummer könne Sie ein Ablaufdatum festlegen. Öffnen Sie das Produkt via *Lager > Produkte > Produkte* und zeigen Sie den Tab *Lager* an. Unter Lieferfolgung müssen Sie eine Option für *Nachverfolung* auswählen. Nun erscheint die Checkbox *Ablaudatum*. Aktivieren Sie diese und konfigurieren Sie die Ablaufzeiten.
@@ -68,27 +48,6 @@ Für Produkte in Lots oder Produkte mit Seriennummer könne Sie ein Ablaufdatum 
 ## Sicherheitsvorlaufzeiten definieren
 
 Die Sicherheitsvorlaufzeiten können Sie zentral unter *Einstellungen > Lager > Erweiterte Planung* festlegen. Aktivieren Sie für jeweilige Vorlaufzeit die Checkbox und tragen Sie die gewünschten Zeiten ein
-
-## Bordereau-Export erstellen
-
-Öffnen Sie *Lager > Berichtswesen > Produktlieferungen*. Filtern Sie die Daten wie  folgt:
-
-* Ausgehend
-* Erledigt
-
-Gruppieren und sortieren Sie Lagerbuchungen nach:
-
-* Datum > Tag
-* Lieferadresse
-* Produkt
-
-Markieren Sie zu exportierenden Lagerbuchungen und wählen Sie *Aktion > Export*. Wählen Sie diese Felder:
-
-* Lagerbuchung/Lieferadresse
-* Produkt/Referenz
-* Produkt
-* Produkt/HS-Code
-* Erledigt
 
 ## Rundungsgenauigkeit einer Mengeneinheit ändern
 
@@ -101,18 +60,6 @@ Die Anzahl Dezimalstellen für eine Einheit wird unter *Einstellungen > Technisc
 Die hier gemachten Einstellung haben Einfluss auf die Darstellung der Zahl.
 
 ![](assets/Lager%20Wicht%20mit%203%20Kommastellen.png)
-
-
-## Vorgangstyp für Retouren definieren
-
-Öffnen Sie *Lager > Konfiguration > Route* und wählen Sie eine Route aus. Klicken Sie auf die *Regel* auf der die Retoure erfolgt. Wählen Sie auf der Regel den *Vorgangstyp* aus und bearbeiten Sie diesen. Im Feld *Vorgangstyp für Retouren* wählen Sie den Vorgangstyp für die Retoure aus.
-
-
-## Transfer korrigieren
-
-Wurde ein Transfer einmal erledigt, kann er nicht mehr bearbeitet werden. Jedoch können Sie diesen *Entsperren* um bestimmte Felder zu ändern.
-
-![Lager Transfer entsperren](assets/Lager%20Transfer%20entsperren.gif)
 
 ## Lagerort Lagerschwund mit externer ID ergänzen
 

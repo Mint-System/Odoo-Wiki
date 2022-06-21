@@ -27,3 +27,24 @@ Navigieren Sie zum Menu *Lager > Vorgänge > Inventur*. Mit dem Knopf *Anlegen* 
 Starten Sie die vorbereitete Inventur mit *Inventur Starten*. Falls ein nicht gelistetes Produkt gezählt wird, kann über *Anlegen* eine neue Position eingefügt werden.
 
 Befüllen Sie nun die Spalte *Gezählt* entsprechend der gezählten Quantität pro Produkt. Nach der abgeschlossenen Zählung wird mit *Bestandsbuchung Durchführen* der korrigierte Bestand gebucht. Das Protokoll kann über *Print Count Sheet* erstellt werden.
+
+## Bordereau-Export erstellen
+
+Öffnen Sie *Lager > Berichtswesen > Produktlieferungen*. Filtern Sie die Daten wie  folgt:
+
+* Ausgehend
+* Erledigt
+
+Gruppieren und sortieren Sie Lagerbuchungen nach:
+
+* Datum > Tag
+* Lieferadresse
+* Produkt
+
+Markieren Sie zu exportierenden Lagerbuchungen und wählen Sie *Aktion > Export*. Wählen Sie diese Felder:
+
+* Lagerbuchung/Lieferadresse
+* Produkt/Referenz
+* Produkt
+* Produkt/HS-Code
+* Erledigt
