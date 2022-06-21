@@ -143,5 +143,5 @@ Navigieren Sie nach *Einstellungen > Technisch > Berichtswesen > Papieformat*. W
 ![](assets/Neues%20Papierformat.png)
 
 ::: tip
-Für einen exakten Druck, müssen Sie die Seitengrösse in Inche und Milimeter kennen
+Für einen exakten Druck, müssen Sie die Seitengrösse in Inch und Milimeter kennen
 :::

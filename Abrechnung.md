@@ -4,7 +4,6 @@ tags:
 prev: ./
 ---
 ## Abrechnung
-
 ![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)
 
 Online Rechnungsstellung leicht gemacht.

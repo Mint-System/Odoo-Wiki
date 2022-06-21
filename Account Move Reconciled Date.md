@@ -5,7 +5,6 @@ tags:
 prev: ./finanzen
 ---
 ## Sale Move Reconciled Date
-
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Zeigt für eine Rechnung das definitive Abgleichsdatum an.           
