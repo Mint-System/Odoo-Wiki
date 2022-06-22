@@ -91,9 +91,11 @@ Legen Sie auf dem Datenmodell diese *Rechte für Daten* fest:
 **Objekt**: `hr.applicant`\
 **Domain**: `[('user_id','=',user.id)]`
 
+<!--
 Fügen Sie die Gruppe *Verantwortlich* im Tab *Vererbt* von *Personalbeschaffung / Personalsachbearbeiter* hinzu. Damit ist sichergestellt, dass jeweils nur eine Option in den Einstellung augewählt werden kann:
 
 ![](assets/Personalbeschaffung%20Einstellungen%20Verantwortlich.png)
+-->
 
 Legen Sie auf einer Stelle einen Benutzer als *Verantwortlich* fest. Jene Benutzer mit der Berechtigung *Verantwortlich* sehen nur noch ihre Stellen und Bewerbungen.
 
