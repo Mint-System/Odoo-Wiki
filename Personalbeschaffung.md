@@ -76,3 +76,21 @@ Wurde der Vertrag unterschrieben, können Sie aus der Bewerbung einen Mitarbeite
 ![](assets/Personalbeschaffung%20Bestätigung.png)
 
 Anschliessend können Sie Onboarding-Pläne für den Mitarbeitenden starten.
+
+## Neue Berechtigungsgruppe Verantwortlich anlegen
+
+Gehen Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und erstellen Sie eine Kopie von *Personalbeschaffung / Personalsachbearbeiter*. Geben Sie als Namen *Verantwortlich* ein und entfernen Sie die Einträge im Tab *Benutzer*, *Vererbt* und *Rechte für Daten*.
+
+Legen Sie auf dem Datenmodell diese *Rechte für Daten* fest:
+
+**Name**: Stelle Verantwortlich\
+**Objekt**: `hr.job`\
+**Domain**: `[('user_id','=',user.id)]`
+
+**Name**: Job Verantwortlich\
+**Objekt**: `hr.applicant`\
+**Domain**: `[('user_id','=',user.id)]`
+
+Legen Sie auf einer Stelle einen Benutzer als *Verantwortlich* fest. Fortant sehen Benutzer mit der Berchtigung *Verantwortlich* nur noch ihre Stellen und Bewerbungen.
+
+![](assets/Personalbeschaffung%20Verantworltich.png)
