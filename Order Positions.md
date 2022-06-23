@@ -19,13 +19,4 @@ Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechn
 
 ## Positionen auf Berichten anzeigen
 
-Haben Sie die benötigten Erweiterungen installiert können Sie mit den folgenden Snippets die Positionsnummer auf Berichten einblenden:
-
-* <https://odoo.build/snippets.html#report-invoice-document-get-position>
-* <https://odoo.build/snippets.html#report-purchaseorder-document-get-position>
-* <https://odoo.build/snippets.html#report-purchasequotation-document-get-position>
-* <https://odoo.build/snippets.html#report-saleorder-document-get-position>
-* <https://odoo.build/snippets.html#report-delivery-document-get-position>
-* <https://odoo.build/snippets.html#report-picking-get-position>
-* <https://odoo.build/snippets.html#stock-report-delivery-aggregated-move-lines-get-position>
-* <https://odoo.build/snippets.html#report-delivery-document-sort-by-position>
+Haben Sie die benötigten Erweiterungen installiert können Sie mit den Snippets von <https://odoo.build/snippets> mit Bezeichnung *Get Position* die Positionsnummer einblenden.
