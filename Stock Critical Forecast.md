@@ -35,3 +35,7 @@ log('Launch scheduled action')
 model.get_data()
 log('Scheduled action has finished')
 ```
+
+Damit werden unter *Einstellungen > Technisch > Protokollierung* die Ausführungen der Aktion festgehalten.
+
+![](assets/Stock%20Critical%20Forecast%20Protokollierung.png)
