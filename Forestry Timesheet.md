@@ -17,8 +17,11 @@ Mit dieser Erweiterungen erhalten Sie zusätzliche Felder auf der Zeiterfassung.
 
 Beispielsweise beim Erfassen der Zeit:
 
-![](assets/Forestry%20Timesheet%20Save%20Recorded%20Time.png)
-
-Und Übersicht der Zeiterfassungs-Einträge:
-
-![](assets/Forestry%20Timesheet%20Entries.png)
+* **Produkt**: Polter oder Holz
+* **Sortiment**: Holzart
+* **Menge**: Menge von Produkt
+* **Mengeneinheit**: Mengeneinheit von Produkt
+* **Abgangsort**: Abgangsort aus Aufgabe
+* **Zielort**: Zielort aus Aufgabe
+* **Transport**: Transporteuer
+* **Km**: Zurückgelegte Distanz

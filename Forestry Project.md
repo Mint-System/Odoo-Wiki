@@ -15,14 +15,17 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-Forestry/tree/15.
 
 Mit dieser Erweiterungen erhalten Sie zusätzliche Felder auf dem Projekt und den Projektaufgaben.
 
-Auftragstyp auf dem Projektformular:
+Auf dem Projektformular:
 
-![](assets/Forestry%20Project%20Auftragstyp.png)
+* **Projektnummer**: Fortlaufende Nummerierung
+* **Auftragstyp**: Bestimmt die Bezeichnung der Aufgaben
 
-Sowie auf der Kanban-Kachel:
+Auf der Projektaufgabe:
 
-![](assets/Forestry%20Project%20Auftragstyp%20Kanban.png)
-
-Zusätzliche Felder auf der Projektaufgabe
-
-![](assets/Forestry%20Project%20Auftrag.png)
+* **Produkt**: Polter oder Holz
+* **Abgangsort**: Standard-Abgangsort
+* **Abgangsort-Link**: Karten-Link des Abgangsort
+* **Zielort**: Standard-Zielort
+* **Zielort-Link**: Karten-Link des Zielort
+* **Fahrzeug**: Zugewiesenes Fahrzeug
+* **Anhänger**: Mit Anhänger oder ohne
