@@ -25,3 +25,13 @@ Mit dieser Erweiterung haben Sie Zugriff auf einen neuen Bericht, der das kritis
 Öffnen Sie *Lager > Berichtswesen > Kritische Vorhersage*. Klicken Sie auf *Aktualisieren* um die Daten anzuzeigen. Nun haben Sie verschiedene Möglichkeit um die kritischen Produkte genauer anzuschauen, Aktivitäten zu planen oder weitere Aktionen auszuführen.
 
 ![Stock Critical Forecast](assets/Stock%20Critical%20Forecast.gif)
+
+## Geplante Aktion "Kritische Vorhersage berechnen" anpassen
+
+Diese Erweiterung stellt eine geplante Aktion *Kritische Vorhersage berechnen* bereit, die täglich ausgeführt wird. Diese Aktion können Sie anpassen, beispielsweise mit Protokollierung:
+
+```python
+log('Launch scheduled action')
+model.get_data()
+log('Scheduled action has finished')
+```
