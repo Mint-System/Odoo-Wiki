@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personal
+prev: ./abwesenheitszeiten
 ---
 ## HR Holidays .ics Attachment
 ![icon_oms_box](assets/icon_oms_box.png)

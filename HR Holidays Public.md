@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - OCA
-prev: ./personal
+prev: ./abwesenheitszeiten
 ---
 ## HR Holidays Public
 ![icon_oca_app](assets/icon_oca_app.png)

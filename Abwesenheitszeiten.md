@@ -10,13 +10,14 @@ Verwaltung von Mitarbeiterurlauben & Abwesenheit
 
 ## Erweiterungen
 
-| Erweiterung                                                                       | Beschreibung                                                                                                       |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| [HR Holidays Public](HR%20Holidays%20Public.md)                                       | Erstellen Sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.                          |
+| Erweiterung                                                                               | Beschreibung                                                                                                       |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| [HR Holidays Public](HR%20Holidays%20Public.md)                                           | Erstellen Sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.                          |
 | [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement. |
-| [HR Holidays Remaining Leaves](HR%20Holidays%20Remaining%20Leaves.md)                   | Verbleibende Anwesenheitsansprüche der Mitarbeitenden anzeigen.                                                    |
-| [HR Holidays .ics Attachment](HR%20Holidays%20ics%20Attachment.md)                      | An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.                                                  |
-| [HR Holidays Leave Archive](HR%20Holidays%20Leave%20Archive.md)                         | Archivierungsfunktion für Abwesenheitseinträge aktivieren.                                                         |
+| [HR Holidays Remaining Leaves](HR%20Holidays%20Remaining%20Leaves.md)                     | Verbleibende Anwesenheitsansprüche der Mitarbeitenden anzeigen.                                                    |
+| [HR Holidays .ics Attachment](HR%20Holidays%20ics%20Attachment.md)                        | An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.                                                  |
+| [HR Holidays Leave Archive](HR%20Holidays%20Leave%20Archive.md)                           | Archivierungsfunktion für Abwesenheitseinträge aktivieren.                                                         |
+| [HR Holidays Calendar Department](HR%20Holidays%20Calendar%20Department.md)               | Erweitert den Anwesenheitsbericht mit neuen Felder.                                                                |
 
 ## Abwesenheitstypen erfassen
 
