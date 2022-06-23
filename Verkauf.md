@@ -138,7 +138,7 @@ Damit Sie die Liefer- und Rechnungsadresse explizit festlegen können, muss die 
 
 ## Auftragszeilen anzeigen
 
-Damit Sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+Damit Sie eine Übersicht der Auftragszeilen erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
 
 Name der Aktion: `Auftragszeilen`\
 Objekt: `sale.order.line`\
