@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./einkauf
+prev: ./einkauf-kaufverträge
 ---
 ## Purchase Requisition Tag
 ![icon_oms_box](assets/icon_oms_box.png)
