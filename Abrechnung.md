@@ -21,6 +21,7 @@ Online Rechnungsstellung leicht gemacht.
 | [Account Invoice Carrier](Account%20Invoice%20Carrier.md)                           | Auslieferungsmethode auf Rechnung hinterlegen.                                                     |
 | [Sale Invoice Carrier](Sale%20Invoice%20Carrier.md)                                 | Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus Verkaufsaufträgen übertragen. |
 | [Sale Invoice Prepare Partner](Sale%20Invoice%20Prepare%20Partner.md)               | Kontakte aus Verkaufsauftrag auf Rechnung kopieren.                                                |
+| [Purchase Invoice Prepare Partner](Purchase%20Invoice%20Prepare%20Partner.md)       | Kontakte aus Bestellung auf Rechnung kopieren.                                                     |
 
 ## Ausgangsrechnung erfassen
 

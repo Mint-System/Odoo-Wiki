@@ -8,6 +8,12 @@ prev: ./einkauf
 
 Kaufvertäge für Rahmenbestellungen erstellen.
 
+## Erweiterungen
+
+| Erweiterung                                                 | Beschreibung |
+| ----------------------------------------------------------- | ------------ |
+| [Purchase Requisition Tag](Purchase%20Requisition%20Tag.md) | Kaufverträge mit Stichwörter.             |
+
 ## Kaufvertrag anlegen
 
 Navigieren Sie nach *Einkauf > Aufträge > Kaufverträge*.
