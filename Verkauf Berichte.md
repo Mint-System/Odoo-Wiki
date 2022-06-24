@@ -16,6 +16,6 @@ Zeigen Sie die Pivot-Ansicht unter *Verkauf > Berichtswesen > Verkauf* an. Angen
 * Pro Woche (X-Achse)  
 * Pro Produkt und Branche (Y-Achse)
 
-Wählen Sie ganz einfach die entsprechenden Felder 
+Wählen Sie ganz einfach die entsprechenden Felder:
 
 ![](assets/Verkauf%20Berichte%20Verkaufszeilen.png)
