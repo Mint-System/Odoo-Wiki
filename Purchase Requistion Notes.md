@@ -7,7 +7,7 @@ prev: ./einkauf-kaufverträge
 ## Purchase Requisition Notes
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Kaufverträge mit Stichwörter.
+Kaufverträge mit Notizfelder.
 
 Technischer Name: `purchase_requisition_notes`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_notes>
@@ -18,4 +18,4 @@ Mit dieser Erweiterung haben Sie auf Kaufverträgen zwei zusätzliche Notizfelde
 
 ![](assets/Purchase%20Requistion%20Notes.png)
 
-Die Notizen werden auf neue Bestellungen übertrag
+Die Notizen werden auf neue Bestellungen übertragen.

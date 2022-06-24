@@ -14,7 +14,7 @@ Kaufvertäge für Rahmenbestellungen erstellen.
 | --------------------------------------------------------------------------------- | -------------------------------- |
 | [Purchase Requisition Tag](Purchase%20Requisition%20Tag.md)                       | Kaufverträge mit Stichwörter.    |
 | [Purchase Requisition Order Address](Purchase%20Requisition%20Order%20Address.md) | Bestelladresse auf Kaufverträge. |
-| [[Purchase Requistion Notes]]                                                                                  |                                  |
+| [Purchase Requistion Notes](Purchase%20Requistion%20Notes.md)                     |                                  |
 
 ## Kaufvertrag anlegen
 
