@@ -14,6 +14,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 ## Notizen hinzufügen
 
-Mit dieser Erweiterung haben Sie auf Einkaufsaufträgen zwei zusätzliche Notizfelder *Einkauf > Aufträge > Angebotsanfragen*. Wählen Sie einen Auftrag aus und öffnen Sie den Tab *Notes*. Hier können Sie die Notizen hinzufüge und ändern.
+Mit dieser Erweiterung haben Sie auf Einkaufsaufträgen zwei zusätzliche Notizfelder *Einkauf > Aufträge > Angebotsanfragen*. Wählen Sie einen Auftrag aus und öffnen Sie den Tab *Notes*. Hier können Sie die Notizen hinzufügen und ändern.
 
 ![](assets/Purchase%20Order%20Notes.png)
