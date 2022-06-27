@@ -7,7 +7,7 @@ prev: ./fertigung
 ## MRP Production Assign Lot
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Los aus eingehenden Lagerbuchungen and unreservierte Komponenten zuweisen.
+Los aus eingehenden Lagerbuchungen an unreservierte Komponenten zuweisen.
 
 Technischer Name: `mrp_production_assign_lot`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_production_assign_lot>
@@ -32,7 +32,7 @@ Im Chatter wird die Zuweisung entsprechend vermerkt:
 
 ![](assets/MRP%20Production%20Assign%20Lot%20Chatter.png)
 
-## Los von ersten Backorder zuweisen
+## Los von erstem Backorder zuweisen
 
 Mit dieser Erweiterung wird das Los der der Arbeitsaufträge aus dem ersten Backorder auf die neuen Backorders übertragen.
 
