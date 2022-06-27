@@ -19,3 +19,17 @@ Zeigen Sie die Pivot-Ansicht unter *Verkauf > Berichtswesen > Verkauf* an. Angen
 Wählen Sie ganz einfach die entsprechenden Felder:
 
 ![](assets/Verkauf%20Berichte%20Verkaufszeilen.png)
+
+## Auftragszeilen mit dynamischen Filter auswerten
+
+Wenn Sie [Auftragszeilen anzeigen](Verkauf.md#Auftragszeilen%20anzeigen) können Sie in der Pivot-Ansicht einen [Filter mit dynamischen Datum erstellen](Entwicklung.md#Filter%20mit%20dynamischen%20Datum%20erstellen). Verwenden Sie die Paramter zur Konnfigurtion des Filters für die Auftragszeilen:
+
+* **Domain**: 
+
+```python
+[
+"&",
+["x_commitment_date", ">=", (datetime.datetime.now() - datetime.timedelta(weeks=2)).strftime('%Y-%m-%d')],
+["x_commitment_date", "<=", (datetime.datetime.now() + datetime.timedelta(weeks=2)).strftime('%Y-%m-%d')]
+]
+```

@@ -27,6 +27,26 @@ Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenhe
 
 ![Anwesenheitszeiten An- und Abmelden](assets/Anwesenheitszeiten%20An-%20und%20Abmelden.png)
 
+## Ausweis ID hinterlegen
+
+Für jeden Mitarbeitenden kann eine Ausweis ID hinterlegt werden. Navigieren Sie dazu nach *Personal > Mitarbeitende auswählen > Tab HR Einstellungen*. Geben Sie im Feld *Ausweis ID* die gewünschte Nummer ein oder wählen Sie *Erzeugen.*
+
+![](assets/Anwesenheitszeiten%20Ausweis%20ID.png)
+
+::: warning
+Die Ausweis ID ist ist für die Anmeldung im Kioskmodus relevant.
+:::
+
+## PIN Code für anmeldung festlegen
+
+Wenn Sie die Anmeldung der Anwesenheit mit einem PIN Code validieren möchten, können Sie diesen auf den Mitarbeitenden hinterlegen. Navigieren Sie dazu nach *Personal > Mitarbeitende auswählen > Tab HR Einstellungen*. Geben Sie den PIN im Feld *PIN Code* ein.
+
+![](assets/Anwesenheitszeiten%20PIN%20Code.png)
+
+::: warning
+Der PIN Code wird bei der Anmeldung über den Kioskmodus abgefragt.
+:::
+
 ## Kioskmodus starten
 
 Starten Sie den Kioskmodus von Odoo über *Anwesenheitszeiten > Kioskmodus*.

@@ -31,9 +31,10 @@ Mit dieser Erweiterung haben Sie Zugriff auf einen neuen Bericht, der das kritis
 Diese Erweiterung stellt eine geplante Aktion *Kritische Vorhersage berechnen* bereit, die täglich ausgeführt wird. Diese Aktion können Sie anpassen, beispielsweise mit Protokollierung:
 
 ```python
-log('Launch scheduled action')
+date = datetime.datetime.now().isoformat()
+log('Action lauchend by %s at %s' % (env.user.name, date))
 model.get_data()
-log('Scheduled action has finished')
+log('Scheduled action with timestamp %s has finished' % date)
 ```
 
 Damit werden unter *Einstellungen > Technisch > Protokollierung* die Ausführungen der Aktion festgehalten.

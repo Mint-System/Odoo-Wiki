@@ -63,7 +63,7 @@ Erstellen Sie einen Filter für das Feld Frist mit dem heutigen Datum.
 
 ![](assets/Entwicklung%20Filter%20Frist.png)
 
-Speichern Sie den Filter als Favorit und wählen *Entwicklertools > Filter verwalten*. Kopieren Sie den folgenden Ausdruck in das Feld *Code-Editor*:
+Speichern Sie den Filter als Favorit und wählen *Entwicklertools > Filter verwalten*. Kopieren Sie den folgenden Ausdruck in das Feld *Domain*:
 
 ```python
 [['date_deadline','<=',time.strftime('%Y-%m-%d')]]
