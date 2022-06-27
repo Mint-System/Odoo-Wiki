@@ -19,13 +19,13 @@ Wählen Sie *Aktion > Archiv*.
 
 ![](assets/Stock%20Production%20Lot%20Active%20Aktion.png)
 
-## Automatische Archivierung der Los/Chargen
+## Aktion "Los automatisch archivieren" erstellen
 
 Mit dieser Aktionen werden Los/Chargen archiviert, wenn Sie eine Menge von 0 haben und werden dearchiviert wenn die Menge grösser 0 ist. Diese Aktion bötigt die Erweiterung [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md).
 
 Navigeren nach *Einstellungen > Technisch > Geplante Aktionen* und einen neuen Eintrag erstellen:
 
-* Name der Aktion: `Mint System: Archive Stock Production Lot`
+* Name der Aktion: `Los automatisch archivieren`
 * Modell: `Serveraktion`
 * Anzahl aufrufe: `-1`
 
