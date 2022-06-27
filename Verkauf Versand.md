@@ -21,6 +21,10 @@ Versandmethoden und Logistik definieren.
 | [Sale Order Expected Commitment Date](Sale%20Order%20Expected%20Commitment%20Date.md) | Das Standardlieferdatum ist das erwartete Datum.                                                |     |
 | [Sale Order Line Date Propagate](Sale%20Order%20Line%20Date%20Propagate.md)           | Lieferfristen auf dem Verkaufsautrag und dessen Zeilen werden auf den Lieferauftrag übertragen. |     |
 
+## Lieferung anzeigen
+
+Durch einen Verkaufsauftrag entsteht automatisch ein Lieferauftrag. Die Verbindung wird über einen entsprechenden *Smart Button* oben rechts sichtbar.
+
 ## Versandmethode erstellen
 
 Navigieren Sie nach *Verkauf > Konfiguration > Versandmethoden* und erstellen Sie eine neue Methode. Eine Versandmethode braucht miestends einen *Namen*, *Anbieter* und ein *Auslieferungsprodukt*. Erstellen Sie für die neue Versandmethode ein Auslieferungsprodukt.
@@ -32,6 +36,20 @@ Auf dem Verkaufsauftrag können Sie über den Knopf *Versand Hinzufügen* eine V
 ![](assets/Verkauf%20Versand%20Versandmethode%20hinzufügen.png)
 
 Das *Auslieferungsprodukt* wird nun dem Verkaufsauftrag hinzugefügt.
+
+## Incoterms festlegen
+
+Damit Sie die Lieferbedinungen auf einem Angebot festlegen können, müssen Sie Mitglied in der Gruppe *Lieferbedingungen auf Angeboten und Rechnungen anzeigen* sein.
+
+Ist diese Bedinung erfüllt können Sie ein Angebot öffnen *Verkauf > Angebot auswählen > Tab Weitere Informationen*. Im Feld *Lieferbedingungen* können Sie die Incoterm festlegen.
+
+![](assets/Verkauf%20Lieferbedingungen.png)
+
+## Liefer- und Rechnungsadresse festlegen
+
+Damit Sie die Liefer- und Rechnungsadresse explizit festlegen können, muss die Option *Einstellungen > Verkauf > Angebote und Aufträge > Kundenadresse* aktiviert sein.
+
+![](assets/Verkauf%20Rechnung-%20und%20Lieferadresse.png)
 
 ## Anzahl Auslieferungsprodukte festlegen
 

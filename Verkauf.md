@@ -15,7 +15,8 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 | [Verkauf Stammdaten](Verkauf%20Stammdaten.md) | Produkte, Preislisten und Varianten zentral pflegen.                                                             |
 | [Verkauf Versand](Verkauf%20Versand.md)       | Versandmethoden und Logistik definieren.                                                                         |
 | [Order Positions](Order%20Positions.md)       | Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen. |
-| [Verkauf Berichte](Verkauf%20Berichte.md)     | Verkaufsdaten immer aktuell.                                                                                                                 |
+| [Verkauf Berichte](Verkauf%20Berichte.md)     | Verkaufsdaten immer aktuell.                                                                                     |
+| [Verkauf Abrechnung](Verkauf%20Abrechnung.md) | Verkaufsaufträge unkompliziert abrechnen.                                                                                                                 |
 
 ## Erweiterungen
 
@@ -38,7 +39,7 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 
 Öffnen Sie die App *Verkauf*. Hier sehen Sie alle offenen Angebote und Verkaufsaufträge.
 
-## Produkte zum Verkauf deklarieren
+## Produkte zum Verkauf festlegen
 
 Öffnen Sie ein Produkt via *Verkauf > Produkte > Produkte* und markieren Sie *Kann verkauft werden*. Neue Optionen erscheinen auf der Produktansicht.
 
@@ -84,10 +85,6 @@ Die Option Einstellungen > Verkauf > Angebote und Aufträge > Angebotsvorlagen e
 
 Mit der Aktion *Per E-Mail Versenden* wird automatisch ein e-Mail Entwurf für das Versenden der Auftragsbestätigung generiert.
 
-## Lieferung anzeigen
-
-Durch einen Verkaufsauftrag entsteht automatisch ein Lieferauftrag. Die Verbindung wird über einen entsprechenden *Smart Button* oben rechts sichtbar.
-
 ## Rabatte hinzufügen
 
 Soll ein Produkt mit einem Rabatt verkauft werden, so kann dieser je Auftragszeile manuell eingefügt werden.
@@ -98,43 +95,9 @@ Entsprechend wird der Rabatt auf der Rechnung ausgewiesen.
 
 ![](assets/Verkauf%20Ansicht%20Rabatt%20in%20der%20Rechnung.png)
 
-## Upselling auflösen
-
-Ist ein Verkaufsauftrag im Status *Zusatzverkaufschance* wurde bei der Erstellung der Rechnung neue Positionen hinzugefügt oder bei einer bestehenden eine zusätzliche Menge in Rechnung gestellt. Damit der Verkaufsauftrag als *Abgrechnet* angezeigt wird, geht man wie folgt vor. Öffnen Sie den Verkaufsauftrag und wählen Sie *Abbrechen*. Anschliessend klicken Sie auf *Setze auf Angebot*  und *Bestätigen*. Nun wurde die zusätzliche Position im Verkaufsauftrag registriert.
-
-Bei Käufe aus dem Webshop kann der Status *Zusatzverkaufschance* entstehen, wenn die Versandkosten nicht aktuell sind. Öffnen Sie den Auftrag um die Versandkosten zu aktualisieren. Die Versandkosten werden in gelber Schrift angezeigt und unten beim Total kässt sich diese aktualisieren. Der Text der Versandkosten werden nun in schwarzer Farbe angezeigt und der Link *Aktualisierung der Versandkosten* ist nun grün. Klicken Sie danach oben links auf Speichern.
-
 ## Mindestbestellmenge festlegen
 
 Für jedes Produkt in einer Preisliste kann eine Mindestbestellmenge definiert werden. Öffnen Sie *Verkauf > Produkte > Preislisten* und wählen Sie eine Preisliste aus. In der Spalte *Min. Bestellmenge* können Sie die Mindestbestellmenge eintragen.
-
-## Für mehrere Verkaufsaufträge eine Rechnung generieren
-
-Öffnen Sie *Verkauf*, gruppieren Sie die Aufträge nach Kunde und setzen Sie als Filter *Abzurechnen*. Öffnen Sie einen Kunden, markieren Sie die Einträge und wählen Sie *Aktion > Rechnung erzeugen*.
-
-![](assets/Verkauf%20Rechnung%20erzeugen.png)
-
-Im Dialog wählen Sie *Erzeuge und zeige Rechnung an*.
-
-![](assets/Verkauf%20Rechnung%20anzeigen.png)
-
-Nun wird für jeden Positionen in den Verkaufsaufträgen eine Rechnungsposition erstellt. Jede Rechnungsposition ist mit der entsprechenden Verkaufsauftragsposition verknüpft.
-
-![](assets/Verkauf%20Auftragsposition%20verknüpft.png)
-
-## Incoterms festlegen
-
-Damit Sie die Lieferbedinungen auf einem Angebot festlegen können, müssen Sie Mitglied in der Grupp *Lieferbedingungen auf Angeboten und Rechnungen anzeigen* sein.
-
-Ist diese Bedinung erfüllt können Sie ein Angebot öffnen *Verkauf > Angebot auswählen > Tab Weitere Informationen*. Im Feld *Lieferbedingungen* können Sie die Incoterm festlegen.
-
-![](assets/Verkauf%20Lieferbedingungen.png)
-
-## Liefer- und Rechnungsadresse festlegen
-
-Damit Sie die Liefer- und Rechnungsadresse explizit festlegen können, muss die Option *Einstellungen > Verkauf > Angebote und Aufträge > Kundenadresse* aktiviert sein.
-
-![](assets/Verkauf%20Rechnung-%20und%20Lieferadresse.png)
 
 ## Auftragszeilen anzeigen
 
