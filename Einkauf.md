@@ -30,7 +30,8 @@ Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
 | [Purchase Order Comment](Purchase%20Order%20Comment.md)                               | Kommentar-Feld für Einkaufsaufträge.                                                      |
 | [Purchase Order Line Description](Purchase%20Order%20Line%20Description.md)           | Nur die Einkaufsbeschreibung in der Einkaufsposition übernehmen.                          |
 | [Purchase Order Address](Purchase%20Order%20Address.md)                               | Bestelladresse von Kunden auf Angebotsanfrage gespeichert.                                |
-| [Purchase Tags](Purchase%20Tags.md)                                                   | Einkaufsbestellungen mit Stichwörter.                                                                                          |
+| [Purchase Tags](Purchase%20Tags.md)                                                   | Einkaufsbestellungen mit Stichwörter.                                                     |
+| [Purchase Partner Incoterm](Purchase%20Partner%20Incoterm.md)                         | Standardlieferbedingungen für Lieferanten.                                                                                          |
 
 ## Angebotsanfrage erstellen
 
