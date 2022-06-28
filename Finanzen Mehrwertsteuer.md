@@ -23,7 +23,7 @@ Im Tab *Definition* werden die Konten für die Buchung und die Ziffer für den U
 Im Tab *Erweiterte Optionen* haben Sie diese wichtigen Felder:
 
 * **Bezeichnung auf Rechnungen**: Gilt für Ein- und Ausgangsrechnungen
-* **Steuergruppe**: Eine rein organsatorische Gruppierung
+* **Steuergruppe**: Werden Steuersätze gruppiert, wird diese Bezeichnung übernommen
 
 ## Steuerperiode festlegen
 
