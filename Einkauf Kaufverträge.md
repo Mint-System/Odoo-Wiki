@@ -17,6 +17,7 @@ Kaufvertäge für Rahmenbestellungen erstellen.
 | [Purchase Requistion Notes](Purchase%20Requistion%20Notes.md)                     | Kaufverträge mit Notizfelder.                 |
 | [Purchase Requisition Incoterm](Purchase%20Requisition%20Incoterm.md)             | Lieferbedinungen auf Kaufverträgen festlegen. |
 | [Purchase Requisition Fiscal](Purchase%20Requisition%20Fiscal.md)                 | Steuerzuordnung auf Kaufverträgen festlegen.  |
+| [Purchase Requisition Send](Purchase%20Requisition%20Send.md)                     | Kaufverträge per E-Mail versenden.                                              |
 
 ## Kaufvertrag anlegen
 
