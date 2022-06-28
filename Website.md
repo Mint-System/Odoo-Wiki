@@ -8,6 +8,13 @@ prev: ./
 
 Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 
+## Bereiche
+
+| Bereich                                                 | Beschreibung                           |
+| ------------------------------------------------------- | -------------------------------------- |
+| [Website Aktionen](Website%20Aktionen.md) | Automatisierung der Website-Vorgänge.                  |
+
+
 ## Erweiterungen
 
 | Erweiterung                                                                   | Beschreibung                      |
