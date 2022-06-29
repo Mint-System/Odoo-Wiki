@@ -14,7 +14,6 @@ Personalmanagement für moderne Unternehmen.
 | ------------------------------------------- | ----------------------------------- |
 | [Personal Verträge](Personal%20Verträge.md) | Personalverträge zentral verwalten. |
 
-
 ## Erweiterungen
 
 | Erweiterung                                         | Beschreibung                                                       |
