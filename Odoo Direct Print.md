@@ -75,6 +75,23 @@ Loggin Sie sich auf <https://app.printnode.com> ein und wählen Sie *Print somet
 
 ![](assets/Odoo%20Direct%20Print%20Testseite%20drucken.png)
 
+## Methode erfassen
+
+Navigieren Sie nach *Direct Print > Configuration > Methods* und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel für den Abschluss von Fertigungsaufträgen:
+
+* **Model**: `mrp.workorder`
+* **Name**: Weiterfahren
+* **Method**: `action_open_manufacturing_order`
+
+## Druck-Aktion erstellen
+
+Wenn Sie beispielsweise beim Abschliessen eines Fertigungsauftrags einen Bericht drucken möchten, müssen Sie dazu eine Druck-Aktion erfassen. Zeigen Sie *Direct Print > Print Action Buttons* an und erstellen Sie den folgenden Eintrag:
+
+* **Model**: `mrp.workorder`
+* **Method ID**: Weiterfahren (siehe [Methode erfassen](#Methode%20erfassen))
+* **Description**: Print product labels when workorder is continued
+* **Report**: Wählen Sie den Bericht aus.
+
 ## Druckszenario aktivieren
 
 ::: warning
@@ -85,7 +102,7 @@ Odoo Direct Print stellt gängige Druckszenarios unter *Direct Print > Print Sce
 
 ![](assets/Odoo%20Direct%20Print%20Szenario%20aktiviert.png)
 
-## Druckaktionen aktivieren
+## Druck-Aktion aktivieren
 
 ::: warning
 Für den aktuellen Benutzer muss die Option *Print via Direct Print* aktiviert sein.
