@@ -48,6 +48,26 @@ Damit Odoo Mails empfanen und verarbeiten kann, muss ein eingehender Mail-Server
 
 Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten.
 
+## Eingehender Mail-Server Office 365 konfigurieren
+
+Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen (bis Odoo 14):
+
+* **Beschreibung**: Office 365 Incoming
+* **Servertyp**: IMAP Server
+* **Servername**: `imap.outlook.com`
+* **Port**: 587
+* **SSL/TLS**: Option markieren
+* **Benutzername**: Mail-Adresse des Odoo Postfach
+* **Passwort**: Passwort des Odoo Postfach
+
+Ab Odoo 15 müssen Sie lediglich diese Parameter wählen:
+
+* **Beschreibung**: Office 365 Outgoing
+* **Outlook**: Option markieren
+* **Benutzername**: Mail-Adresse des Odoo Postfach
+
+Und anschliessen den E-Mail-Benutzer gemäss Hinweis authentisieren.
+
 ## Catchall-Alias anpassen
 
 Unter der Catchall-Mail-Adresse versendet Odoo Nachrichten. Auf diese Adresse können die Empfänger antworten und Odoo kann die eingegangenen Nachrichten verarbeiten.
