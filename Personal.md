@@ -67,3 +67,7 @@ Erstellen Sie eine neues Pensum *Personal > Mitarbeiter auswählen > Tab Arbeits
 ## Mitarbeiteraustritt ausführen
 
 Ein Mitarbeiteraustritt bedeutet für Odoo eine Archivierung des Mitarbeitenden in der *Personal* App. Wählen Sie den/die Mitarbeitenden unter *Personal* aus und klicken auf *Aktion > Archiv*. Zusammenhängende Ressourcen zum Personaleintrag werden mit dier Aktion ebenfalls archiviert.
+
+## Neue Berechtigungsgruppe Personalmanager anlegen
+
+Gehen Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und erstellen Sie eine Kopie von *Personal / Personalsachbearbeiter*. Geben Sie als Namen *Personalmanager* ein und entfernen Sie die Einträge im Tab *Benutzer*, *Vererbt*, *Menüs* und *Rechte für Daten*. Benutzer in dieser Gruppe erhalten Zugriff auf Aktivitäten auf dem Mitarbeiter-Objekt.
