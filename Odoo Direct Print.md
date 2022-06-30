@@ -228,3 +228,21 @@ printnode_scenario = env.ref("printnode_base.print_picking_document_after_so_con
 date = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime('%Y-%m-%d')
 printnode_scenario['domain'] = '[["commitment_date", "<=", "' + date + '"]]'
 ```
+
+## Troubleshooting
+
+### Druckereinstellungen haben kein Effekt
+
+#### Problem
+
+Die Druckereinstellung auf dem Computer mit dem PrintNode Client haben kein Effekt auf den Druckvorgang.
+
+#### Ursache
+
+Der PrintNode Client ist als Dienst installiert und läuft unter einem anderen Benutzer.
+
+#### Lösung
+
+Der PrintNode Client muss als Programm und nicht als Dienst installiert werden.
+
+Quelle: <https://www.printnode.com/en/faq#q13>
