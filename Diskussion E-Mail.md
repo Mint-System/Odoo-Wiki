@@ -8,6 +8,26 @@ prev: ./diskussion
 
 E-Mail mit Odoo versenden.
 
+## E-Mail-Vorlage erfassen
+
+Navigieren Sie nach *Einstellungen > Technisch > Volagen* und erstellen Sie einen neuen Eintrag. Im Feld *Gilt für* wählen das Geschäftsobjekt, das mit der Voralge verknüpft werden soll.
+
+![](assets/Diskussion%20E-Mail%20Gilt%20für.png)
+
+Im ersten Tab *Inhalt* können Sie mit dem HTML-Editor den Vorlage-Text mit Platzhaltern definieren. 
+
+![](assets/Diskussion%20E-Mail%20HTML.png)
+
+Im Tab *E-Mail-Konfiguration* finden Sie diese Parameter:
+
+* **Von**: ID des Absender-Kontakt. Standard: `${(object.user_id.email_formatted or user.email_formatted) | safe}`
+* **Standardempfänger**: Wenn markiert wird Standardempfänge `partner_id` von Objekt verwendet.
+	* **An (E-Mails)**: E-Mail-Adressen als Text. Standard: `${object.work_email | safe}`
+	* **An (Partner)**: ID des Empfänger-Kontakt. Standard: `${object.partner_id.id}`
+* **CC**: E-Mail-Adressen als CC.
+* **Antwort an**: Überschreiben der Antworten-Adresse.
+* **Geplantes Sendedatum**: Dynamisches Datum für das geplante Versenden.
+
 ## Testnachrichten verschicken
 Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
