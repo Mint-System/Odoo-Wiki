@@ -24,13 +24,13 @@ Wenn jemand eine Mail an eine dieser Adresse schickt, werden Sie ans Postfach vo
 
 ## DNS-Einträge erstellen
 
-Odoo ist eine Webapplikation und muss über eine bestimmte Adresse im Browser aufgerufen werden. Wir empfehlen als Adresse für die produktive Umgebung `erp.example.com` festzulegen und für die Testumgebung `erp-dev.example.com`. `example.com` ist natürlich mit der Domain des Kunden zu ersetzen.
+Odoo ist eine Webapplikation und muss über eine bestimmte Adresse im Browser aufgerufen werden. Wir empfehlen als Adresse für die produktive Umgebung `odoo.example.com` festzulegen und für die Testumgebung `odoo-dev.example.com`. `example.com` ist natürlich mit der Domain des Kunden zu ersetzen.
 
 Damit die Adresse korrekt aufgelöst wird, müssen DNS-Einträge erstellt werden. Angenommen es wird ein Server unter der Adresse `server1.example.org` bereitgestellt, müssen diese DNS-Einträge erstellt werden:
 
 ```
-erp.example.com ALIAS server1.example.org
-erp-dev.example.com ALIAS server1.example.org
+odoo.example.com ALIAS server1.example.org
+odoo-dev.example.com ALIAS server1.example.org
 ```
 
 Alternativ können auch Einträge vom Typ CNAME statt ALIAS erstellt werden.
