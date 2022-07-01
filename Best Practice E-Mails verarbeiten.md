@@ -13,7 +13,7 @@ Auf bestimmten Odoo-Objekten können Sie E-Mail-Adressen einrichten. Wurden E-Ma
 
 Odoo koordiniert die Kommunikation zwischen Geschäftsobjekten und den E-Mail-Empfängen mit verschiedenen Header im E-Mail. Dazu die wichtigsten:
 
-* **reply-to**: Antworten an den E-Mail-Absender werden an diese Adresse umgeleitet.
+* **reply-to**: Antworten an den E-Mail-Absender werden an diese Adresse umgeleitet. Es handelt sich um die sog. Catchall-Adresse.
 * **from**: Normalerweise der/die BenutzerIn, welche die E-Mail verschickt hat
 * **x-odoo-objects**: Eindeutige Referenz auf das Geschäftsobjekt
 
