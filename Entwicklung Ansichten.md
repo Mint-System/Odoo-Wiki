@@ -8,6 +8,12 @@ prev: ./entwicklung
 
 Odoo Ansichten anpassen.
 
+## Ansichten verwalten
+
+Alle Listen, Formulare und Berichte werden von Odoo in einer Tabelle verwaltet. Diese können Sie via *Einstellungen > Technisch > Benutzer-Interface > Ansichten* anzeigen. 
+
+![](assets/Entwicklung%20Ansichten%20verwalten.png)
+
 ## Verfügbare Felder anzeigen
 
 Abhängig von der angezeigten Ansicht stehen Felder gemäss dem verknüpften Datenmodell zur Verfügung. Standardmässig werden nicht alle Felder angezeigt und bestimmte Felder müssen eingeblendet werden. Eine Übersicht der verfügbaren Felder erhalten Sie via *Entwicklertools > Felder anzeigen*.
