@@ -26,17 +26,13 @@ Hier finden Sie zu jedem Feld den technischen Name *Feldname*. Diesen Namen verw
 
 ## Feld in Ansicht anzeigen
 
-Damit ein neues Feld ersichtlich ist, muss es auf der entsprechenden Ansicht hingefügt werden. Rufen Sie im Entwicklermodus die Ansicht auf und wählen Sie *Entwicklertools > Ansicht bearbeiten: Liste. Suchen Sie hier den Feldnamen unter dem das neue Feld angezeigt werden soll.
-
-In unserem Beispiel nehmen wir `state`.
+Damit ein neues Feld ersichtlich ist, muss es auf der entsprechenden Ansicht hingefügt werden. Rufen Sie im Entwicklermodus die Ansicht auf und wählen Sie *Entwicklertools > Ansicht bearbeiten: Liste. Suchen Sie hier den Feldnamen unter dem das neue Feld angezeigt werden soll. In unserem Beispiel verwenden wir den Feldnamen `state`.
 
 ![](assets/Entwicklung%20Feld%20hinzufügen.png)
 
 Navigieren Sie nun in den Tab *Vererbte Ansichten* und fügen Sie hier einen neuen Eintrag hinzu:
 
-Ansichtsbezeichnung: Beginnt mit Prefix `mint_system.` anschlissend folgt die externe ID der Hauptansicht und anschliessend folgt `.BESCHREIBUNG`
-
-Beispiel: `mint_system.hr_holidays.hr_leave_view_tree.add_synced_field`
+Ansichtsbezeichnung: Beginnt mit Prefix `mint_system.` anschlissend folgt die externe ID der Hauptansicht und anschliessend folgt `.BESCHREIBUNG` Beispiel: `mint_system.hr_holidays.hr_leave_view_tree.add_synced_field`
 
 Im Tab *Architektur* geben Sie die Anweisung zum Hinzufügen des Feldes ein:
 
