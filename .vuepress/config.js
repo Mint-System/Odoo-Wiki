@@ -1,35 +1,27 @@
+const { defaultTheme } = require('vuepress')
+const { searchPlugin } = require('@vuepress/plugin-search')
+const { sitemapPlugin } = require("vuepress-plugin-sitemap2");
 
 module.exports = {
+    lang: 'en-US',
     title: 'Odoo Wiki',
-    description: 'Odoo Wiki',
-    head: [
-        ['link', { rel: "icon", type: "image/png", href: "icon.png"}],
-    ],
-    themeConfig: {
+    description: 'Eine einfache und umfassende Odoo-Dokumentation.',
+    theme: defaultTheme({
         logo: '/icon.png',
-        sidebar: 'auto',
-        nav: [
+        repo: 'mint-system/odoo-wiki',
+        docsBranch: '14.0',
+        editLink: false,
+        navbar: [
             { text: 'Home', link: '/' },
             { text: 'Topics', link: '/topics' },
             { text: 'Glossary', link: '/glossary' },
             { text: 'Mint System', link: 'https://www.mint-system.ch' }
         ]
-    },
+    }),
     plugins: [
-        'fulltext-search',
-        '@vuepress/active-header-links',
-        '@vuepress/medium-zoom',
-        'vuepress-plugin-mermaidjs',
-        'plausible-analytics',
-        '@vuepress/back-to-top',
-        [
-            'vuepress-plugin-sitemap',
-            {
-                hostname: 'https://odoo-wiki.org'
-            }
-        ]
+        searchPlugin(), 
+        sitemapPlugin({
+            hostname: 'https://www.odoo-wiki.org/'
+          }),
     ],
-    extendMarkdown: (md) => {
-        md.use(require('markdown-it-include'))
-    }
 }
