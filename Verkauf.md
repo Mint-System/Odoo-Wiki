@@ -125,7 +125,7 @@ Die Berechnung der Margen ist `Zwischensumme - Kosten * Menge`. Diese Inputs kö
 
 ## Kunde anhand Adresstyp auswählen
 
-Wenn Sie eine Rechnungs- oder Lieferadresse mit gleichen Anzeigename wie der Hauptkontakt gespeichert haben, können diese im Feld *Kunde* nicht unterschieden werden. Um sicherzustellen, dass die korrekte Adresse gewählt wurde, passen Sie entweder den Anzeigenamen an oder öffenen die Kontakt-Suche:
+Wenn Sie eine Rechnungs- oder Lieferadresse mit gleichen Anzeigename wie der Hauptkontakt gespeichert haben, können diese im Feld *Kunde* nicht unterschieden werden. Um sicherzustellen, dass die korrekte Adresse gewählt wurde, können Sie die [Rechnungsadresse in Anzeigenamen einblenden](Kontakte.md#Rechnungsadresse%20in%20Anzeigenamen%20einblenden) oder über die erweiterte Suche anzeigen:
 
 ![](assets/Verkauf%20Kontakt-Suche.png)
 

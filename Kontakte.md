@@ -85,3 +85,13 @@ Damit das Land nicht abgedruckt wird, öffnen Sie die Ansicht *Kontakte > Konfig
 ## Partner Autovervollständigung deaktivieren
 
 Wenn Sie nicht möchten, dass Odoo Kontaktdaten beim Erfassen vorschlägt und ihre Odoo Kontakt-Daten nicht hochgeladen werden, müssen Sie die *Partner Partner Autovervollständigung* unter *Einstellungen > Allgemeine Einstellungen > Kontakte* deaktivieren.
+
+## Rechnungsadresse in Anzeigenamen  einblenden
+
+Damit die Bezeichnung *Rechnungsadresse* im Anzeigenamen der Kontakte eingelendet wird, muss der Kontakt als *Einzelperson* festgelegt werden und das Namensfeld muss leer gelassen werden.
+
+![](assets/Kontak%20Rechnungsadresse.png)
+
+In der Kontaktauswahl wird der Adresstyp so sichtbar:
+
+![](assets/Kontakt%20Auswahl%20mit%20Adresstyp.png)
