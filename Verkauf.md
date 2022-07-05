@@ -122,3 +122,9 @@ Mit der aktivierten Option *Einstellungen > Verkauf > Margen* sehen Sie für jed
 ![](assets/Verkauf%20Margen%20in%20Auftragszeilen.png)
 
 Die Berechnung der Margen ist `Zwischensumme - Kosten * Menge`. Diese Inputs können einem Angebot geändert werden.
+
+## Kunde anhand Adresstyp auswählen
+
+Wenn Sie eine Rechnungs- oder Lieferadresse mit gleichen Anzeigename wie der Hauptkontakt gespeichert haben, können diese im Feld *Kunde* nicht unterschieden werden. Um sicherzustellen, dass die korrekte Adresse gewählt wurde, passen Sie entweder den Anzeigenamen an oder öffenen die Kontakt-Suche:
+
+![](assets/Verkauf%20Kontakt-Suche.png)
