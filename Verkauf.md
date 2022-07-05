@@ -128,3 +128,7 @@ Die Berechnung der Margen ist `Zwischensumme - Kosten * Menge`. Diese Inputs kö
 Wenn Sie eine Rechnungs- oder Lieferadresse mit gleichen Anzeigename wie der Hauptkontakt gespeichert haben, können diese im Feld *Kunde* nicht unterschieden werden. Um sicherzustellen, dass die korrekte Adresse gewählt wurde, passen Sie entweder den Anzeigenamen an oder öffenen die Kontakt-Suche:
 
 ![](assets/Verkauf%20Kontakt-Suche.png)
+
+::: warning
+Die Verfügbarkeit des Felds *Adresstyp* in der Listenauswahl muss mit einem Snippet sichergestellt werden.
+:::
