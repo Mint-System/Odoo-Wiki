@@ -14,11 +14,13 @@ Wenn Sie verhindern möchten, dass die Zahlungsreferenz auf Aufträgen erstellt 
 
 Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Automatische Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name: `Website Zahlungsreferenz entfernen`\
-Modell: `sale.order`\
-Triggerbedingung: `Beim Erstellung`\
-Folgeaktion: `Daten Datensatz aktualisieren`\
+**Name**: `Website Zahlungsreferenz entfernen`\
+**Modell**: `sale.order`\
+**Triggerbedingung**: `Bei Erstellung und Aktualisierung`\
+**Trigger-Felder**: `reference`
+**Folgeaktion**: `Daten Datensatz aktualisieren`
+
 Zu schreibende Daten:
-* Feld: `reference`
-* Bewertungstyp: Python Ausdruck
-* Wert: `''`
+* **Feld**: `reference`
+* **Bewertungstyp**: Python Ausdruck
+* **Wert**: `''`
