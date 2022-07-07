@@ -87,7 +87,7 @@ Anschliessend erstellen Sie einen neuen Menüeintrag mit einer neuen Aktion gem�
 
 Name der Aktion: `Importzuordnung`\
 Objekt: `base_import.mapping`\
-Ansichtsreferenz: `mint_system.base_import.mapping.tree`
+Ansichtsreferenz: `mint_system.base_import.mapping.tree`\
 Ansichtsmodus: `tree,form`\
 Menü: `Importzuordnung`\
 Obermenü: `Einstellungen/Technisch/Datenbankstruktur`\

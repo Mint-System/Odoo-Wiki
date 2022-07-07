@@ -6,10 +6,13 @@ all
 index
 convert
 assets
+sitemap
 */
 
 // settings
 const ignoreFiles = ['_navbar.md', '_sidbar.md']
+const scheme = 'https://'
+const hostname = 'www.odoo-wiki.org'
 const basePath = '/'
 const basePathAssets = './'
 const uriSuffix = '.html'
@@ -44,6 +47,10 @@ function sanitizeAssetname(name) {
         .replace(/ö/g,'o')
         .replace(/ü/g, 'u')
         .replace(/ä/g,'a')
+}
+
+function loopMdFiles() {
+    return fs.readdirSync(__dirname).filter(file => (file.slice(-3) === '.md') && (ignoreFiles.indexOf(file) != 0))
 }
 
 const groupBy = key => array =>
@@ -131,13 +138,13 @@ var files = []
 var args = process.argv.slice(2);
 var firstArg = args[0]
 
-if (!firstArg || ['all', 'index'].indexOf(firstArg) >= 0) {
+if (!firstArg || ['all', 'index', 'sitemap'].indexOf(firstArg) >= 0) {
 
     // log
     console.log('Build title index ...')
 
     // loop all markdown files
-    fs.readdirSync(__dirname).filter(file => (file.slice(-3) === '.md') && (ignoreFiles.indexOf(file) != 0)).forEach((file) => {
+    loopMdFiles().forEach((file) => {
 
         // Read file and split into lines
         let lines = fs.readFileSync(file, 'utf8').split(/\r?\n/);
@@ -172,7 +179,7 @@ if (!firstArg || ['all', 'convert'].indexOf(firstArg) >= 0) {
     console.log('Convert files ...')
 
     // loop all markdown files of the current folder
-    fs.readdirSync(__dirname).filter(file => (file.slice(-3) === '.md') && (ignoreFiles.indexOf(file) != 0)).forEach((file) => {
+    loopMdFiles().forEach((file) => {
 
         // get markdown content
         let content = fs.readFileSync(file, 'utf8')
@@ -252,4 +259,23 @@ if (!firstArg || ['all', 'assets'].indexOf(firstArg) > 0) {
  
     // log
     console.log('Moving assets finished.')
+}
+
+
+if (!firstArg || ['all', 'sitemap'].indexOf(firstArg) > 0) {
+    
+    // log
+    console.log('Build sitemap ...')
+
+    content = []
+    loopMdFiles().forEach((file) => {
+        href = sanitizeName(file.replace('\.md', ''))
+        content.push(`${scheme}${hostname}${basePath}${href}${uriSuffix}\n`)
+    })
+    
+    // write content to index file
+    fs.writeFileSync('.vuepress/public/sitemap.txt', content.join(''), 'utf8')
+
+    // log
+    console.log('Building sitemap finished.')
 }

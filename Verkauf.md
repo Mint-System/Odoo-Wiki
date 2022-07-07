@@ -33,7 +33,9 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 | [Sale Order Template Notes](Sale%20Order%20Template%20Notes.md)                     | Notizen auf Angebotsvorlage.                                         |
 | [Sale Order Line Not Billable](Sale%20Order%20Line%20Not%20Billable.md)             | Produkt als nicht verrechbar festlegen und bei Abrechnunung filtern. |
 | [Sale Order Line Name Get](Sale%20Order%20Line%20Name%20Get.md)                     | Produktname als Anzeigename für Verkaufspositionen.                  |
-| [Sale Order Comment](Sale%20Order%20Comment.md)                                     | Kommentar auf Verkaufsauftrag.                                                                     |
+| [Sale Order Comment](Sale%20Order%20Comment.md)                                     | Kommentar auf Verkaufsauftrag.                                       |
+| [Sale Product Set](Sale%20Product%20Set.md)                                         | Produktsets definieren und einfach hinzufügen.                       |
+| [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                         | Produktset mit Notizen und Abschnitten.                                                                     |
 
 ## Verkauf Dashboard anzeigen
 
