@@ -12,6 +12,8 @@ Generierung der QR- und ISR-Berichte deaktivieren.
 Technischer Name: `l10n_ch_disable_default_reports`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/l10n_ch_disable_default_reports>
 
-## Rechung ohne Standardberichte
+## Rechung ohne Standardberichte versenden
 
 Mit dieser Erweiterung wird die Generierung der Standardberichte deaktiviert. Es wird nur der Bericht, der in der E-Mail-Vorlage definiert ist, geladen.
+
+![](assets/Switzerland%20Disable%20Default%20Reports.png)
