@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./lager
 ---
-## Stock Barcode MRP
+# Stock Barcode MRP
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen.

@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Data Cleaning
+# Data Cleaning
 ![](assets/icon_odoo_data_cleaning.png)
 
 Die Datenqualität ganz einfach verbessern.

@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Troubleshooting
+# Troubleshooting
 ![icons_odoo_website_forum](assets/icons_odoo_website_forum.png)
 
 Probleme und Lösungen rund um Odoo.

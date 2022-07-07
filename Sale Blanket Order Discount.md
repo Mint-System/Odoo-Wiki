@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-## Sale Blanket Order Discount
+# Sale Blanket Order Discount
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Definiere einen Rabatt auf der Rahmenauftragszeile.

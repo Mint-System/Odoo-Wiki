@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./zeiterfassung
 ---
-## Terminal Zeiterfassung
+# Terminal Zeiterfassung
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
 
 Ein- und auschecken mit dem Terminal Zeiterfassung.

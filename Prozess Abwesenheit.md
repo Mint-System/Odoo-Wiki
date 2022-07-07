@@ -3,7 +3,7 @@ tags:
 - Prozess
 prev: ./referenzsystem
 ---
-## Prozess Abwesenheit
+# Prozess Abwesenheit
 
 ![Prozess Abwesenheit](assets/Prozess%20Abwesenheit.svg)
 

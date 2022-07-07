@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Fleet
+# Fleet
 ![icons_odoo_fleet](assets/icons_odoo_fleet.png)
 
 Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträge.

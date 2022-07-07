@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Einstellungen
+# Einstellungen
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
 Odoo-Einstellungen aktivieren und konfigurieren.

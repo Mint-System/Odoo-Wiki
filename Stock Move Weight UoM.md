@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./lager
 ---
-## Stock Move Weight UoM
+# Stock Move Weight UoM
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.

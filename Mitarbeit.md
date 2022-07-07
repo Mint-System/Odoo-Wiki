@@ -3,7 +3,7 @@ tags:
 - Readme
 prev: ./
 ---
-## Mitarbeit
+# Mitarbeit
 
 In diesem Dokument werden die Vorgaben zur Mitarbeit am Odoo Wiki erläutert.
 

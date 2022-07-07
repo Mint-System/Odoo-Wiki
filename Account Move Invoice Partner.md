@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./abrechnung
 ---
-## Account Move Invoice Partner
+# Account Move Invoice Partner
 
 ![icon_oms_box](assets/icon_oms_box.png)
 

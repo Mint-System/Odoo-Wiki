@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Apps
+# Apps
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 
 Neue Apps installieren und aktualisieren.

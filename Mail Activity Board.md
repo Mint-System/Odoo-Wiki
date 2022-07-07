@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./dashboards
 ---
-## Mail Activity Board
+# Mail Activity Board
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Übersicht aller erstellten Aktivitäten.

@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./website
 ---
-## Website Berichte
+# Website Berichte
 ![](assets/icons_odoo_website_sale.png)
 
 Verkaufszahlen analysieren.

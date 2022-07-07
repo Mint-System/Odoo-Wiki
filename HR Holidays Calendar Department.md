@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./personal
 ---
-## HR Holidays Calendar Department
+# HR Holidays Calendar Department
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Erweitert den Anwesenheitsbericht mit neuen Felder.

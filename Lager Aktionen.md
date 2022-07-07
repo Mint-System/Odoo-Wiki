@@ -4,7 +4,7 @@ tags:
 - Aktionen
 prev: ./lager
 ---
-## Lager Aktionen
+# Lager Aktionen
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
 Arbeitsflüsse im Lager automatisieren.

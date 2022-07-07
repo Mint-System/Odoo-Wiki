@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./kontakte
 ---
-## Partner Ref Sequence
+# Partner Ref Sequence
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Automatische Vergabe der Kontakt-Referenz.

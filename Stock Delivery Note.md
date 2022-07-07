@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./lager
 ---
-## Stock Delivery Note
+# Stock Delivery Note
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Notiz auf Lieferschein.

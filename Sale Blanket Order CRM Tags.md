@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-## Sale Blanket Order CRM Tags
+# Sale Blanket Order CRM Tags
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Setze Stichwörter auf dem Rahmenauftrag.

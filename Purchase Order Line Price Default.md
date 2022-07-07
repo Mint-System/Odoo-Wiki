@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./einkauf
 ---
-## Purchase Order Line Price Default
+# Purchase Order Line Price Default
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Standardpreis einer Einkaufsposition überschreiben.

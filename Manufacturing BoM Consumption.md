@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./fertigung
 ---
-## Manufacturing BoM Consumption
+# Manufacturing BoM Consumption
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Definieren Sie eine Stückliste, die bei der Lieferung verbraucht wird.

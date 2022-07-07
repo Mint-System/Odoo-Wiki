@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./kontakte
 ---
-## Partner Contact Department Note
+# Partner Contact Department Note
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Abteilung auf Kontakten speichern. 

@@ -4,7 +4,7 @@ tags:
 - Aktionen
 prev: ./personalabrechnung
 ---
-## Personalabrechnung Aktionen
+# Personalabrechnung Aktionen
 ![icons_odoo_hr_payroll](assets/icons_odoo_hr_payroll.png)
 
 Lohnabrechnung automatisieren.

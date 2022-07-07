@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./finanzen
 ---
-## Sale Move Reconciled Date
+# Sale Move Reconciled Date
 
 ![icon_oms_box](assets/icon_oms_box.png)
 

@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./lager
 ---
-## Stock Production Lot Active
+# Stock Production Lot Active
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Erlaubt die Archivierung von Los/Chargen.

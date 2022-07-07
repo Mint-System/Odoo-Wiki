@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./einkauf
 ---
-## Purchase Order Line Description
+# Purchase Order Line Description
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Nur die Einkaufsbeschreibung in der Einkaufsposition übernehmen.

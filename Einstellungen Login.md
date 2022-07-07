@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./einstellungen
 ---
-## Einstellungen Login
+# Einstellungen Login
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
 Odoo-Einstellungen zum Benutzer und Anmeldeverfahren.

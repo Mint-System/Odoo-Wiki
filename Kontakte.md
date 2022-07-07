@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Kontakte
+# Kontakte
 ![icons_odoo_contacts](assets/icons_odoo_contacts.png)
 
 Alle Kontaktdaten an einem Ort.

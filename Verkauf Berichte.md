@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./verkauf
 ---
-## Verkauf Berichte
+# Verkauf Berichte
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
 Verkaufsdaten immer aktuell.

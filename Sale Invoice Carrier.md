@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./abrechnung
 ---
-## Sale Invoice Carrier
+# Sale Invoice Carrier
 
 ![icon_oms_box](assets/icon_oms_box.png)
 

@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./fertigung
 ---
-## Product Sequence
+# Product Sequence
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Produkreferenzen anhand einer Sequenz generieren lassen.

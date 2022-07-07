@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./einkauf-kaufverträge
 ---
-## Purchase Requisition Send
+# Purchase Requisition Send
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Kaufverträge per E-Mail versenden.

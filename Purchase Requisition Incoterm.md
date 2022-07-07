@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./einkauf-kaufverträge
 ---
-## Purchase Requisition Incoterm
+# Purchase Requisition Incoterm
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Lieferbedinungen auf Kaufverträgen festlegen.

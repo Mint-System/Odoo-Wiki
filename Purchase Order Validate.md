@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./einkauf
 ---
-## Purchase Order Validate
+# Purchase Order Validate
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Bestellung vor Versenden oder Bestätigen überprüfen.

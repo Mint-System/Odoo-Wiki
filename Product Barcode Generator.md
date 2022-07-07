@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./fertigung
 ---
-## Product Barcode Generator
+# Product Barcode Generator
 ![](assets/icon_odoo_product_barcode.png)
 
 Autogenerate EAN13 product barcodes.

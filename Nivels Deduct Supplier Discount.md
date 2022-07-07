@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./finanzen
 ---
-## Nivels Deduct Supplier Discount
+# Nivels Deduct Supplier Discount
 
 ![](assets/icon-nivels.png)
 

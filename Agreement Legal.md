@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./dokumente
 ---
-## Agreement Legal
+# Agreement Legal
 
 ![](assets/icon_oca_agreement.png)
 

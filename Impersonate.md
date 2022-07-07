@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./einstellungen
 ---
-## Impersonate
+# Impersonate
 ![](assets/icon_odoo_impersonate.png)
 
 Schnelles Wechseln zwischen Benutzer-Accounts.

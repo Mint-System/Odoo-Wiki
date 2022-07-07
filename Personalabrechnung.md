@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Personalabrechnung
+# Personalabrechnung
 ![icons_odoo_hr_payroll](assets/icons_odoo_hr_payroll.png)
 
 Personalbrechnungen schnell und einfach erstellen.

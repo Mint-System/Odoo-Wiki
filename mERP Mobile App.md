@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./odoo-mobile-app
 ---
-## mERP Mobile App
+# mERP Mobile App
 ![](assets/odoo_icon_merp.png)
 
 Alternative zur Odoo Mobile App.

@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./finanzen
 ---
-## Recurring - Contracts Management
+# Recurring - Contracts Management
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Wiederholende Verträge verwalten und automatisch verrechnen.

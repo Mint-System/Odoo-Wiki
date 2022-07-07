@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./anwesenheitszeiten
 ---
-## Theoretical vs Attended Time Analysis
+# Theoretical vs Attended Time Analysis
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement.

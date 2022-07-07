@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./stock-critical-forecast
 ---
-## Stock Critical Forecast Promised Agreed
+# Stock Critical Forecast Promised Agreed
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Erweitert den Bericht mit Mengen aus Rahmenauftrag und Kaufvertrag.

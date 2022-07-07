@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./website
 ---
-## Website eCommerce
+# Website eCommerce
 ![](assets/icons_odoo_website_sale.png)
 
 Webshop ohne Integrationsaufwand.

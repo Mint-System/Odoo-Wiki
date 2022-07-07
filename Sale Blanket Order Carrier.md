@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-## Sale Blanket Order Carrier
+# Sale Blanket Order Carrier
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Legen Sie die Auslieferungsmethode auf dem Rahmenvertrag fest.

@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./personalbeschaffung
 ---
-## HR Recruitment Firstname
+# HR Recruitment Firstname
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Vor- und Nachname auf Bewerbung.

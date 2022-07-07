@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./verkauf
 ---
-## Sale Order Line Name Get
+# Sale Order Line Name Get
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Produktname als Anzeigename für Verkaufspositionen.

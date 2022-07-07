@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-## Best Practice: Liefertermin verschieben
+# Best Practice: Liefertermin verschieben
 
 ## Beispiel (Liefertermin A)
 

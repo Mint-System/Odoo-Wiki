@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./lager
 ---
-## Stock Aggregated Move Lines Description
+# Stock Aggregated Move Lines Description
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Beschreibungsfeld auf aggregierten Zeilen anzeigen.

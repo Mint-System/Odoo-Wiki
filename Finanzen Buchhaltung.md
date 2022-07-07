@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./finanzen
 ---
-## Finanzen Buchhaltung
+# Finanzen Buchhaltung
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
 Kontenplan einrichten und Buchungen erstellen.

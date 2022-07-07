@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./einkauf-kaufverträge
 ---
-## Purchase Requisition Fiscal
+# Purchase Requisition Fiscal
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Steuerzuordnung auf Kaufverträgen festlegen.

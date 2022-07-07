@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./iot
 ---
-## Odoo Direct Print
+# Odoo Direct Print
 ![](assets/icons_odoo_printnode_base.png)
 
 Jeden Odoo Bericht oder Etikette von überall nach überall drucken.

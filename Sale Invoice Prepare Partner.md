@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./abrechnung
 ---
-## Sale Invoice Prepare Partner
+# Sale Invoice Prepare Partner
 
 ![icon_oms_box](assets/icon_oms_box.png)
 

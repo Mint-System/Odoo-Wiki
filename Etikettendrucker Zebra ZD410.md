@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./iot
 ---
-## Etikettendrucker Zebra ZD410
+# Etikettendrucker Zebra ZD410
 ![icons_odoo_iot](assets/icons_odoo_iot.png)
 
 Etikettendrucker für Odoo.

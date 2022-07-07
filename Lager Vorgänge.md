@@ -4,7 +4,7 @@ tags:
 - Aktionen
 prev: ./lager
 ---
-## Lager Vorgänge
+# Lager Vorgänge
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
 Vorgänge im Lager ausführen.

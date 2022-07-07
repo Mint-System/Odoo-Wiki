@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./finanzen
 ---
-## Switzerland Disable Default Reports
+# Switzerland Disable Default Reports
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Generierung der QR- und ISR-Berichte deaktivieren.

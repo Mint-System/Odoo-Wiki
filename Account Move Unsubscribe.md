@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./diskussion
 ---
-## Account Move Unsubscribe
+# Account Move Unsubscribe
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Alle Abonnenten nach Buchung eines Buchungssatzes entfernen.

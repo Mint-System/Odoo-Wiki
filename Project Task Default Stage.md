@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./projekt
 ---
-## Project Task Default Stage
+# Project Task Default Stage
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Standardstufen für Projektaufgaben.

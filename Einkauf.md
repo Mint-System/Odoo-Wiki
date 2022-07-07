@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Einkauf
+# Einkauf
 ![icons_odoo_purchase](assets/icons_odoo_purchase.png)
 
 Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands

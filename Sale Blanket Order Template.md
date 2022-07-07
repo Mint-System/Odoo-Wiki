@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-## Sale Blanket Order Template
+# Sale Blanket Order Template
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Vorlagen für Rahmenaufträge

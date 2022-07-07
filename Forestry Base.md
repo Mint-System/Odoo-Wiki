@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Forestry Base
+# Forestry Base
 ![icons_odoo_forestry_base](assets/icons_odoo_forestry_base.png)
 
 Odoo für die Holzwirtschaft.

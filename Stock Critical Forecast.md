@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./lager
 ---
-## Stock Critical Forecast
+# Stock Critical Forecast
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzeigen.

@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./personal
 ---
-## Personal Verträge
+# Personal Verträge
 ![icons_odoo_hr](assets/icons_odoo_hr.png)
 
 Personalverträge zentral verwalten.

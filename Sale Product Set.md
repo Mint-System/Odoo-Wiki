@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./verkauf
 ---
-## Sale Product Set
+# Sale Product Set
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Produktsets definieren und einfach hinzufügen.

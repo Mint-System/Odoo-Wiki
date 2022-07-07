@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-order-line-description
 ---
-## Sale Order Line Description Name
+# Sale Order Line Description Name
 ![icon_oms_box](assets/icon_oms_box.png)
 
  Benutze Produktname ohne Referenz wenn Verkaufsbeschreibung leer ist.

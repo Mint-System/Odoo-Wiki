@@ -4,7 +4,7 @@ tags:
 - Aktionen
 prev: ./finanzen
 ---
-## Finanzen Snippets
+# Finanzen Snippets
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
 Einfache Anpassungen mit Odoo Snippets.

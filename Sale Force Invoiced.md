@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./verkauf
 ---
-## Sale Force Invoiced
+# Sale Force Invoiced
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Markieren Sie den Verkaufsauftrag als abgerechnet.

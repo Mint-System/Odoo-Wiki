@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./lager
 ---
-## Stock Picking Invoice Link
+# Stock Picking Invoice Link
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Verlinkt Rechnungen und Transfers.

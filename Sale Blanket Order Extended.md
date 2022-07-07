@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-## Sale Blanket Order Extended
+# Sale Blanket Order Extended
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Kopiert weitere Felder vom Rahmenauftrag auf den Verkaufsauftrag.

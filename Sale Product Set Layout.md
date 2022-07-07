@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./verkauf
 ---
-## Sale Product Set Layout
+# Sale Product Set Layout
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Produktset mit Notizen und Abschnitten.

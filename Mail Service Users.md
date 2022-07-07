@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./einstellungen
 ---
-## Mail Service Users
+# Mail Service Users
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Service-Benutzer von Lizenzvertrag ausschliessen.

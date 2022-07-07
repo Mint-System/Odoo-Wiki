@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./verkauf
 ---
-## Sale Order Default Carrier
+# Sale Order Default Carrier
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Auslieferungsmethode von Kontakt übernehmen.

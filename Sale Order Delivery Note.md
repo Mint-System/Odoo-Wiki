@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./verkauf
 ---
-## Sale Order Delivery Note
+# Sale Order Delivery Note
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Notiz auf Verkaufsauftrag für Lieferung hinzufügen.

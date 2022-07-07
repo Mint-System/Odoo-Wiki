@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./kontakte
 ---
-## Partner Hide Address
+# Partner Hide Address
 ![](assets/icon_oms_box.png)
 
 Addressen auf Berichten ausblenden.

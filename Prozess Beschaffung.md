@@ -3,7 +3,7 @@ tags:
 - Prozess
 prev: ./referenzsystem
 ---
-## Prozess Beschaffung
+# Prozess Beschaffung
 
 ![Prozess Beschaffung](assets/Prozess%20Beschaffung.svg)
 

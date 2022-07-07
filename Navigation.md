@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Navigation
+# Navigation
 ![icons_odoo_website_crm_score](assets/icons_odoo_website_crm_score.png)
 
 Alles zur Navigation in Odoo.

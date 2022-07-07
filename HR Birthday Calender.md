@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./personal
 ---
-## HR Birthday Calender
+# HR Birthday Calender
 ![](assets/icon_hr_birthday_calendar.png)
 
 Kalenderansicht aller Geburtstage.

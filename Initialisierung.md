@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Initialisierung
+# Initialisierung
 ![icons_odoo_survey](assets/icons_odoo_survey.png)
 
 Richten Sie ihre Odoo-Umgebung ein.

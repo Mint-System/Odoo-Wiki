@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./verkauf
 ---
-## Sale Order Template Notes
+# Sale Order Template Notes
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Notizen auf Angebotsvorlage.

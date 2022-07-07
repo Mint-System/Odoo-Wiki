@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-## Sale Blanket Order Commitment Date
+# Sale Blanket Order Commitment Date
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Kopiert das geplante Datum der Rahmenauftragszeile in das Lieferdatum der Verkaufsauftragszeile.

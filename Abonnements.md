@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Abonnements
+# Abonnements
 
 ![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)
 

@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Personalbeschaffung
+# Personalbeschaffung
 ![icons_odoo_hr_recruitment](assets/icons_odoo_hr_recruitment.png)
 
 Einstellungsprozess leicht gemacht.

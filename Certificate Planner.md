@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./
 ---
-## Certificate Planner
+# Certificate Planner
 ![](assets/icon_odoo_certificate_planer.png)
 
 Anleitung zur Odoo-App Certificate Planner.

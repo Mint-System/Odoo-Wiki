@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./abwesenheitszeiten
 ---
-## HR Holidays Remining Leaves
+# HR Holidays Remining Leaves
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Verbleibende Anwesenheitsansprüche der Mitarbeitenden anzeigen.

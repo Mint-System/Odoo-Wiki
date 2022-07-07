@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./projekt
 ---
-## Project Timeline Task Dependencies
+# Project Timeline Task Dependencies
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten.

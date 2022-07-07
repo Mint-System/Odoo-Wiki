@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-## Sale Blanket Order Stock Terms
+# Sale Blanket Order Stock Terms
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Legen Sie Lieferbedinungen auf dem Rahmenauftrag fest. 

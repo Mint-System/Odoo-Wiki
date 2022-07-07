@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./finanzen
 ---
-## Acccount Move Accounting Description
+# Acccount Move Accounting Description
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Beschreibungsfeld für Rechnungszeile.

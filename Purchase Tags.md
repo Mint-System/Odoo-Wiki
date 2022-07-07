@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./einkauf-kaufverträge
 ---
-## Purchase Tags
+# Purchase Tags
 
 ![](assets/icon_oca_agreement.png)
 

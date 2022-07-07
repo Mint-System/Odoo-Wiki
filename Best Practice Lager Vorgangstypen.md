@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-## Best Practice: Lager Vorgangstypen
+# Best Practice: Lager Vorgangstypen
 
 ## Vorgangstypen einrichten
 

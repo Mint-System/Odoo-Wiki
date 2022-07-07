@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./kontakte
 ---
-## Partner Type Sale
+# Partner Type Sale
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.

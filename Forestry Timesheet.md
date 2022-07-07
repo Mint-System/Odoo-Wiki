@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./forestry-base
 ---
-## Forestry Timesheet
+# Forestry Timesheet
 ![icons_odoo_forestry_base](assets/icons_odoo_forestry_base.png)
 
 Erweiterung Zeiterfassung für die Holzwirtschaft.

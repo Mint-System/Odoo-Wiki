@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Strichcode
+# Strichcode
 ![icons_odoo_stock_barcode](assets/icons_odoo_stock_barcode.png)
 
 Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.

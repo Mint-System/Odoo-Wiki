@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Anwesenheitszeiten
+# Anwesenheitszeiten
 ![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)
 
 Mitarbeitende erfassen selbständig ihre Präsenzzeit.

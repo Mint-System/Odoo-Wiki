@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./forestry-base
 ---
-## Forestry Project
+# Forestry Project
 ![icons_odoo_forestry_base](assets/icons_odoo_forestry_base.png)
 
 Erweiterung Projektmanagement für die Holzwirtschaft.

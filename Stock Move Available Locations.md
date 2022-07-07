@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./lager
 ---
-## Stock Move Available Locations
+# Stock Move Available Locations
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Nur Lagerorte mit Besand in Auswahl anzeigen.

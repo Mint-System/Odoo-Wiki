@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./lager
 ---
-## Lager Verpackungen
+# Lager Verpackungen
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
 Verpackungen effizient verwalten. 

@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./abrechnung
 ---
-## Purchase Invoice Prepare Partner
+# Purchase Invoice Prepare Partner
 
 ![icon_oms_box](assets/icon_oms_box.png)
 

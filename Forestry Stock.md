@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./forestry-base
 ---
-## Forestry Stock
+# Forestry Stock
 ![icons_odoo_forestry_base](assets/icons_odoo_forestry_base.png)
 
 Erweiterung Lager für die Holzwirtschaft.

@@ -3,7 +3,7 @@ tags:
 - Prozess
 prev: ./referenzsystem
 ---
-## Prozess Betriebsdaten
+# Prozess Betriebsdaten
 
 ![Prozess Betriebsdaten](assets/Prozess%20Betriebsdaten.svg)
 

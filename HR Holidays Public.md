@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./abwesenheitszeiten
 ---
-## HR Holidays Public
+# HR Holidays Public
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Erstellen Sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.

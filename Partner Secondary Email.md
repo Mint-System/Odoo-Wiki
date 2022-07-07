@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./kontakte
 ---
-## Partner Secondary Email
+# Partner Secondary Email
 ![](assets/icon_oms_box.png)
 
 Zweite E-Mail für alle Kontakte.

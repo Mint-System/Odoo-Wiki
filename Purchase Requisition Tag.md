@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./einkauf-kaufverträge
 ---
-## Purchase Requisition Tag
+# Purchase Requisition Tag
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Kaufverträge mit Stichwörter.

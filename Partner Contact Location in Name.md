@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./kontakte
 ---
-## Partner Contact Location in Name
+# Partner Contact Location in Name
 ![icon_oms_box](assets/icon_oms_box.png)
 
 PLZ und Stadt in Kontaktauswahl anzeigen.

@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./einstellungen
 ---
-## Web Responsive
+# Web Responsive
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Responsive Anzeige der Odoo-Oberfläche.

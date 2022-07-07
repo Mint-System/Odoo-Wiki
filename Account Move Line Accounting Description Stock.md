@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./finanzen
 ---
-## Account Move Line Accounting Description Stock
+# Account Move Line Accounting Description Stock
 
 ![icon_oms_box](assets/icon_oms_box.png)
 

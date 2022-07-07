@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./abrechnung
 ---
-## Account Invoice Comment
+# Account Invoice Comment
 
 ![icon_oms_box](assets/icon_oms_box.png)
 

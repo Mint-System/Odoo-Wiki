@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./verkauf
 ---
-## Verkauf Abrechnung
+# Verkauf Abrechnung
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
 Verkaufsaufträge unkompliziert abrechnen.

@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./personalabrechnung
 ---
-## Personalabrechnung Eingaben
+# Personalabrechnung Eingaben
 ![icons_odoo_hr_payroll](assets/icons_odoo_hr_payroll.png)
 
 Lohnabrechnungen mit variablen Eingaben.

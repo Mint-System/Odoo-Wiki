@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./finanzen
 ---
-## Switzerland QR IBAN
+# Switzerland QR IBAN
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Generierung der QR-Rechnung ohne ISR-Nummer.

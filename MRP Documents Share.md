@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./fertigung
 ---
-## MRP Documents Share
+# MRP Documents Share
 ![](assets/icon_odoo_mrp_documents_share.png)
 
 Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument.

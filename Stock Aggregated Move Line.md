@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./lager
 ---
-## Stock Aggregated Move Lines
+# Stock Aggregated Move Lines
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Zugriff auf Lieferung in aggregierten Zeilen.

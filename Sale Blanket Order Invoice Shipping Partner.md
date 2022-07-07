@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-## Sale Blanket Order Invoice Shipping Partner
+# Sale Blanket Order Invoice Shipping Partner
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Liefer- und Rechnungsadresse auf Rahmenauftrag definieren.

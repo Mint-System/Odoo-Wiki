@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-## Sale Blanket Order Line Description
+# Sale Blanket Order Line Description
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Beschreibungsfeld von Rahmenauftragszeile auf die Verkaufsauftragszeile kopieren.

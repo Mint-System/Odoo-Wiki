@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./entwicklung
 ---
-## BI SQL Editor
+# BI SQL Editor
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Ganz einfach SQL-basierte Berichte erstellen.

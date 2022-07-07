@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./lager
 ---
-## Stock Move Line Packaging
+# Stock Move Line Packaging
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Verknüpfen der Verpackung von Verkaufsauftrag.
