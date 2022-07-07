@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-## Projekt
+# Projekt
 ![icons_odoo_project](assets/icons_odoo_project.png)
 
 Agiles Projektmanagement. Schön. Einfach. Open Source.
