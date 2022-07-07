@@ -1,6 +1,6 @@
 const { defaultTheme } = require('vuepress')
 const { searchPlugin } = require('@vuepress/plugin-search')
-const { sitemapPlugin } = require("vuepress-plugin-sitemap2");
+const { plausiblePlugin } = require('./plausible')
 
 module.exports = {
     lang: 'en-US',
@@ -13,15 +13,14 @@ module.exports = {
         editLink: false,
         navbar: [
             { text: 'Home', link: '/' },
-            { text: 'Topics', link: '/topics' },
             { text: 'Glossary', link: '/glossary' },
             { text: 'Mint System', link: 'https://www.mint-system.ch' }
         ]
     }),
     plugins: [
-        searchPlugin(), 
-        sitemapPlugin({
-            hostname: 'https://www.odoo-wiki.org/'
-          }),
+        searchPlugin(),
+        plausiblePlugin({
+            'domain': 'odoo-wiki.org'
+        })
     ],
 }
