@@ -20,10 +20,10 @@ Navigieren Sie nach *Personal* und führen Sie diese Aktionen aus:
 * RFID-Chip auf den Scanner legen
 * Speichern
 
-![](assets/Zeiterfassung%20Terminal%20RFID%20registrieren.webm)
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/727928057?h=8278678305" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ## Mit RFID-Karte an- und abmelden
 
 Mitarbeiter können mit einem registrierten RFID-Chip ein- und auschecken.
 
-![](assets/Zeiterfassung%20Terminal%20ein-%20und%20auschecken.webm)
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/727928034?h=e73bd9eb0f" width="640" height="360" frameborder="0" allowfullscreen></iframe>
