@@ -81,7 +81,7 @@ Die Einladungsmail sieht ungefwähr so aus:
 
 ## Automatisch eingeschriebene Gruppen festlegen
 
-Ein Benutzer mit Zugriff auf den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) kann auf dem Kurs eine Gruppe hinterlegen, deren Mitgleider automatisch als Teilnehmer aufgeführt werden.
+Ein Benutzer mit Zugriff auf den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) kann auf dem Kurs eine Gruppe hinterlegen, deren Mitglieder automatisch als Teilnehmer aufgeführt werden.
 
 ![](assets/eLearning%20Automatisch%20eingeschriebene%20Gruppe.png)
 

@@ -14,7 +14,7 @@ Technische Konfigurationen damit Sie an der Wissensdatenbank mitarbeiten können
 ### Initialisierung
 
 1. Erstellen Sie einen Account auf <https://github.com/>
-2. Werden Sie Mitgleid bei <https://github.com/Mint-System/> (optional)
+2. Werden Sie Mitglied bei <https://github.com/Mint-System/> (optional)
 3. Installieren Sie <https://obsidian.md/>
 4. Installieren Sie <https://git-scm.com/>
 5. Erstellen Sie ein SSH-Schlüsselpaar <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
