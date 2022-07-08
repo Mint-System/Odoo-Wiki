@@ -3,7 +3,7 @@ const { searchPlugin } = require('@vuepress/plugin-search')
 const { plausiblePlugin } = require('./plausible')
 
 module.exports = {
-    lang: 'en-US',
+    lang: 'de-CH',
     title: 'Odoo Wiki',
     description: 'Eine einfache und umfassende Odoo-Dokumentation.',
     theme: defaultTheme({

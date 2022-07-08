@@ -138,7 +138,7 @@ var files = []
 var args = process.argv.slice(2);
 var firstArg = args[0]
 
-if (!firstArg || ['all', 'index', 'sitemap'].indexOf(firstArg) >= 0) {
+if (!firstArg || ['all', 'index'].indexOf(firstArg) >= 0) {
 
     // log
     console.log('Build title index ...')
