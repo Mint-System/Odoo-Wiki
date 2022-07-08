@@ -7,20 +7,6 @@ Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus vie
 3. **HowTos**: Detailliert beschriebene Arbeitsschritte
 4. **Anforderungen**: Referenzanforderung für den Abgleich mit einem Lastenheften
 
-## Maintainer
-
-[![logo](assets/logo.svg)](https://www.mint-system.ch/)
-
-Das Odoo Wiki ist ein Produkt der [Mint System GmbH](https://www.mint-system.ch/).
-
-Es sind Dokumente von diesen Drittanbietern enthalten:
-* [nivels GmbH](https://www.nivels.ch/)
-* [giordano.ch](https://www.giordano.ch/)
-* [syscoon GmbH](https://syscoon.com/)
-* [Odoo Community Association](https://odoo-community.org/)
-* [VentorTech](https://ventor.tech/)
-* [Zebra](https://www.zebra.com)
-
 ## [Referenzsystem](Referenzsystem.md)
 
 [Hier](Referenzsystem.md) geht es zum Referenzsystem.
@@ -342,3 +328,17 @@ Die Evaluation eines ERP-Systems ist eine aufwändige Arbeit. Als Kunde ist man 
 ## [Mitarbeit](Mitarbeit.md)
 
 Sie können eine Kopie des Wiki erstellen und für eigene Zwecke nutzen. Ebenfalls können Sie Änderungen mitteilen und mit dem offizielen Wiki zusammenführen. Mehr dazu unter [Mitarbeit](Mitarbeit.md).
+
+## Maintainer
+
+[![logo](assets/logo.svg)](https://www.mint-system.ch/)
+
+Das Odoo Wiki ist ein Produkt der [Mint System GmbH](https://www.mint-system.ch/).
+
+Es sind Dokumente von diesen Drittanbietern enthalten:
+* [nivels GmbH](https://www.nivels.ch/)
+* [giordano.ch](https://www.giordano.ch/)
+* [syscoon GmbH](https://syscoon.com/)
+* [Odoo Community Association](https://odoo-community.org/)
+* [VentorTech](https://ventor.tech/)
+* [Zebra](https://www.zebra.com)
