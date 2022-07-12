@@ -108,7 +108,7 @@ Markieren Sie die Belge und wählen Sie *Drucken > Beleg*.
 
 Auf der Bericht werden alle Belge mit den einzelnen Transaktionen aufgelistet.
 
-## Kono-Bereich exportieren
+## Konto-Bereich exportieren
 
 Angenommen Sie möchten einen bestimmten Konten-Bereich, beispielsweise von 1500 bis 2000, anzeigen, müssen Sie *Finanzen > Finanzen > Hauptbericht* anwählen. Hier können Sie das Feld *Konto Root* entsprechen den gewählten Bereichen filtern.
 
