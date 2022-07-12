@@ -80,7 +80,7 @@ Angenommen Sie geben als Wert `erp` ein, so ist die resultierende Absender-Aress
 Bestimmte Mail-Hoster erlauben keine Mail-Aliase für *catchall* und *no-reply*.
 :::
 
-## Absender-Adresse überschreiben
+## Antwort-Adresse überschreiben
 
 Wenn Odoo eine E-Mail versendet, wird im E-Mail eine Von- und Antwort-Adresse hinterlegt. In den E-Mail-Kopfzeilen sieht das so aus:
 
@@ -95,3 +95,10 @@ Wenn Sie die Von-Adresse überschreiben möchten, öffnen Sie *Einstellungen > T
 From: "FIRSTNAME LASTNAME" <erp@example.com>
 Reply-To: "My Company" <catchall@example.com>
 ```
+
+## Antwort-Adresse mit Konfiguration von E-Mail-Vorlage überscheiben
+
+Damit die Antwort-Adresse aud der Konfiguration der Mail-Vorlage übernommen wird, muss 
+der Systemparameter `mail.catchall.domain` entfernt werden.
+
+
