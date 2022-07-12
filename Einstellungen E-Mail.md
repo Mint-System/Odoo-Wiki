@@ -96,7 +96,7 @@ From: "FIRSTNAME LASTNAME" <erp@example.com>
 Reply-To: "My Company" <catchall@example.com>
 ```
 
-## Antwort-Adresse mit Konfiguration von E-Mail-Vorlage überscheiben
+## Antwort-Adresse mit Konfiguration von E-Mail-Vorlage überschreiben
 
 Damit die Antwort-Adresse aud der Konfiguration der Mail-Vorlage übernommen wird, muss 
 der Systemparameter `mail.catchall.domain` entfernt werden.
