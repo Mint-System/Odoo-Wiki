@@ -98,7 +98,9 @@ Reply-To: "My Company" <catchall@example.com>
 
 ## Antwort-Adresse mit Konfiguration von E-Mail-Vorlage überschreiben
 
-Damit die Antwort-Adresse aud der Konfiguration der Mail-Vorlage übernommen wird, muss 
-der Systemparameter `mail.catchall.domain` entfernt werden.
+Damit die Antwort-Adresse aus der Konfiguration der Mail-Vorlage übernommen wird, muss 
+der Eintrag `mail.catchall.domain` unter *Einstellungen > Technisch > Parameter > Systemparameter* entfernt werden.
 
+In der E-Mail-Vorlage muss im Tab *E-Mail-Konfiguration* das feld *Antwort an* gesetzt sein.
 
+![](assets/Einstellungen%20E-Mail%20Konfiguration.png)
