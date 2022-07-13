@@ -20,7 +20,7 @@ In diesem Szenario möchten wir für Dokumente einen Bericht generieren.
 * **Berichtstyp**: `PDF`
 * **Vorlagenname**: `documents.report_customer_standards`
 
-Navigieren Sie nun nach *Einstellungen > Technisch > Benutzer-Interface > Ansichten* und erstellen sie Sie neue Ansicht gemäss [Ansicht erstellen](Entwicklung.md#Ansicht%20erstellen) mit diesen Attributen:
+Navigieren Sie nun nach *Einstellungen > Technisch > Benutzer-Interface > Ansichten* und erstellen sie Sie neue Ansicht gemäss [Ansicht erstellen](Entwicklung%20Ansichten.md#Ansicht%20erstellen) mit diesen Attributen:
 
 **Ansichtsbezeichnung**: `mint_system.documents.report_customer_standards`
 **Modell**: `documents.document`\

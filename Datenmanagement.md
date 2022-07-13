@@ -70,7 +70,7 @@ Auf GitHub veröffentlicht die Mint System [Odoo-Demodaten](https://github.com/M
 
 ## Importzuordnung anzeigen
 
-Damit Sie eine Übersicht der Importzuordnung erhalten, erstellen Sie als erstes eine neue Ansicht gemäss [Ansicht erstellen](Entwicklung.md#Ansicht%20erstellen) mit diesen Angaben:
+Damit Sie eine Übersicht der Importzuordnung erhalten, erstellen Sie als erstes eine neue Ansicht gemäss [Ansicht erstellen](Entwicklung%20Ansichten.md#Ansicht%20erstellen) mit diesen Angaben:
 
 Ansichtsbezeichnung: `mint_system.base_import.mapping.tree`
 Modell: `base_import.mapping`\

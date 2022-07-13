@@ -22,7 +22,7 @@ Wählen Sie ganz einfach die entsprechenden Felder:
 
 ## Auftragszeilen mit dynamischen Filter auswerten
 
-Wenn Sie [Auftragszeilen anzeigen](Verkauf.md#Auftragszeilen%20anzeigen) können Sie in der Pivot-Ansicht einen [Filter mit dynamischen Datum erstellen](Entwicklung.md#Filter%20mit%20dynamischen%20Datum%20erstellen). Verwenden Sie die Paramter zur Konnfigurtion des Filters für die Auftragszeilen:
+Wenn Sie [Auftragszeilen anzeigen](Verkauf.md#Auftragszeilen%20anzeigen) können Sie in der Pivot-Ansicht einen [Filter mit dynamischen Datum erstellen](Entwicklung%20Ansichten.md#Filter%20mit%20dynamischen%20Datum%20erstellen). Verwenden Sie diese Paramter zur Konfiguration des Filters für die Auftragszeilen:
 
 * **Domain**: 
 

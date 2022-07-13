@@ -9,6 +9,12 @@ prev: ./entwicklung
 
 Eigene Odoo Aktionen erstellen.
 
+## Fenster umbennen
+
+Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach *Eisntellungen > Technisch > Aktionen > Fesnter öffnen/schliessen ...*. Suchen Sie im Feld *Name der Aktion* nach dem Fensternamen und passen Sie den Namen an.
+
+![Einstellungen Fenster umbennen](assets/Einstellungen%20Fenster%20umbennen.gif)
+
 ## Beim Aktualisieren eine Validierung ausführen
 
 Mit *Automatischen Aktionen* kann ein Datensatz, der aktualisiert wurde, zusätzlich validiert werden. In unserem Beispiel wollen wir unterbinden, dass Qualitätsalarme auf bestimmte Stufen gesetzt werden.
@@ -48,18 +54,17 @@ Nachdem der Browser aktualisiert haben Sie Zugriff auf das neue Menü und Ansich
 
 ![](assets/Aktionen%20neue%20Ansicht.png)
 
-## Default-Wert für Order Deadline 
+## Geplante Aktion "Set Order Deadline" erstellen
 
-Mit Aktionen können Felder mit einem bestimmten Default-Wert beschrieben werden. Im folgenden Beispiel wird das Feld *Order Deadline* bei einer Angebotsanfrage auf das Datum *heute + 5 Tage* gesetzt.
+Mit Aktionen können Felder mit einem bestimmten Default-Wert beschrieben werden. Im folgenden Beispiel wird das Feld *Order Deadline* auf Angebotsanfragen auf das Datum *heute + 5 Tage* gesetzt.
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie den folgenden Eintrag:
 
-* Name der Aktion: `Mint System: Set Order Deadline`
+* Name der Aktion: `Set Order Deadline`
 * Modell: `Beschaffungsauftrag`
 * Auslöser: `Bei Erstellung`
 * Folgeaktion: `Den Datensatz aktualisieren`
 * Feld: `Order Deadline (purchase.order)`
-* Bewertungstyp: 
 * Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
 
 ## Geplante Aktion "Ablaufdatum Datenbank erneuern" erstellen
