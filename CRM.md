@@ -6,4 +6,4 @@ prev: ./
 
 ## CRM
 
-![Kundenverwaltung](Kundenverwaltung.md)
+Siehe [Kundenverwaltung](Kundenverwaltung.md).
