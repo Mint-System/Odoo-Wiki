@@ -24,12 +24,12 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```python
-## Settings
+# Settings
 parent_menu_id = 218
 
-## Get all projects
+# Get all projects
 project_ids = env['project.project'].search([])
-## raise Warning([project_ids.mapped('name')])
+# raise Warning([project_ids.mapped('name')])
 
 new_menus = []
 for project in project_ids:
@@ -39,7 +39,7 @@ for project in project_ids:
   if project.key:
     name += ' (' + project.key + ')'
 
-  # Check if view entry exists
+  # Check if action entry exists
   action = env['ir.actions.act_window'].search([('name', '=', name)], limit=1)
   # raise Warning([action])
   
@@ -85,7 +85,27 @@ for project in project_ids:
       'parent_id': parent_menu_id,
       'sequence': project.id,
     })
-     
+
+# Get all archived projects
+project_ids = env['project.project'].search([('active','=',False)])
+
+for project in project_ids:
+
+  # Set name for action and view
+  name = 'Projektaufgaben ' + project.name
+  if project.key:
+    name += ' (' + project.key + ')'
+
+  # Check if menu entry exists and remove it if found
+  menu = env['ir.ui.menu'].search([('name', '=', name)], limit=1)
+  if menu:
+    menu.unlink()
+  
+  # Check if action entry exists and remove it if found
+  action = env['ir.actions.act_window'].search([('name', '=', name)], limit=1)
+  if action:
+    action.unlink()
+  
 if new_menus:
   log('Created new menus: %s' % (new_menus))
 ````
