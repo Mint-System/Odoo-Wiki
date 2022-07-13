@@ -181,6 +181,12 @@ Alle Kontaktdaten an einem Ort.
 
 [![icons_odoo_contacts](assets/icons_odoo_contacts.png)](Kontakte.md)
 
+### [Kundendienst](Kundendienst.md)
+
+Für einen fantastischen Kundenservice.
+
+[![icons_odoo_helpdesk](assets/icons_odoo_helpdesk.png)](Kundendienst.md)
+
 ### [Kundenverwaltung](Kundenverwaltung.md)
 
 Synonym: [CRM](CRM.md)
