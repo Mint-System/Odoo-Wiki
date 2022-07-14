@@ -23,4 +23,7 @@ module.exports = {
             'domain': 'odoo-wiki.org'
         })
     ],
+    extendsMarkdown: (md) => {
+        md.use(require('markdown-it-include'))
+    },
 }
