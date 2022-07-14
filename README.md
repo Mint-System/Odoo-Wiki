@@ -37,6 +37,12 @@ Verwaltung von Mitarbeiterurlauben & Abwesenheit.
 
 [![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)](Abwesenheitszeiten.md)
 
+### [Aero Base](Aero%20Base.md)
+
+Odoo für die Luftfahrt.
+
+[![](assets/icons_odoo_aero_base.png)](Aero%20Base.md)
+
 ### [Anwesenheitszeiten](Anwesenheitszeiten.md)
 
 Mitarbeitende erfassen selbständig ihre Präsenzzeit.
