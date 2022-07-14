@@ -119,16 +119,16 @@ function convert(content,file) {
 
     // convert include markdown links
     // ![title](file.md) -> !!!include(file.md)!!!
-    // const mdInclude = /(!\[.*?\]\(.*?\.md\))/g
-    // matches = content.match(mdInclude) || []
-    // for (i = 0; i < matches.length; i++) {
-    //     let match = matches[i]
+    const mdInclude = /(!\[.*?\]\(.*?\.md\))/g
+    matches = content.match(mdInclude) || []
+    for (i = 0; i < matches.length; i++) {
+        let match = matches[i]
         
-    //     let include = match.match(/!\[.*\]\((.*\.md)\)/)[1]
-    //     include = sanitizeName(include)
+        let include = match.match(/!\[.*\]\((.*\.md)\)/)[1]
+        include = sanitizeName(include)
                 
-    //     content = content.replace(match, `!!!include(${include})!!!`)
-    // }
+        content = content.replace(match, `!!!include(${include})!!!`)
+    }
 
     return content
 }
