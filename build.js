@@ -130,7 +130,7 @@ function convert(content,file) {
     //     content = content.replace(match, `!!!include(${include})!!!`)
     // }
 
-    // return content
+    return content
 }
 
 // Build vars
