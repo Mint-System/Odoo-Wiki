@@ -22,7 +22,7 @@ Technische Konfigurationen damit Sie an der Wissensdatenbank mitarbeiten können
 7. Klonen Sie das *Odoo Wiki Repository
 
 ```bash
-git@github.com:Mint-System/Odoo-Wiki.git
+git clone git@github.com:Mint-System/Odoo-Wiki.git
 ```
 
 8. Öffnen Sie den Ordner mit Obsidian
