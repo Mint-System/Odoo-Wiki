@@ -16,7 +16,8 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 | [Verkauf Versand](Verkauf%20Versand.md)       | Versandmethoden und Logistik definieren.                                                                         |
 | [Order Positions](Order%20Positions.md)       | Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen. |
 | [Verkauf Berichte](Verkauf%20Berichte.md)     | Verkaufsdaten immer aktuell.                                                                                     |
-| [Verkauf Abrechnung](Verkauf%20Abrechnung.md) | Verkaufsaufträge unkompliziert abrechnen.                                                                                                                 |
+| [Verkauf Abrechnung](Verkauf%20Abrechnung.md) | Verkaufsaufträge unkompliziert abrechnen.                                                                        |
+| [Verkauf Projekt](Verkauf%20Projekt.md)       | Dienstleistungen mit Verkauf und Projekt abwickeln.                                                              |
 
 ## Erweiterungen
 

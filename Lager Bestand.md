@@ -8,6 +8,14 @@ prev: ./lager
 
 Den Lagerbestand optimal verwalten.
 
+## Meldebestand erfassen
+
+Für jedes einlagerbare Produkt kann eine Meldebestand definiert werden. Navigieren Sie nach *Lager > Konfiguration > Meldebestände* und erstellen Sie einen neuen Eintrag.
+
+![](assets/Lager%20Bestand%20Meldebestand.png)
+
+Für dieses Produkt wird bei Unterschreitung des Minimalbestand automatisch ein Bestellvorschlag generiert. Mit [Scheduler manuell starten](Lager%20Vorgänge.md#Scheduler%20manuell%20starten) können Sie die Bestandsregeln forcieren.
+
 ## Inventur vorbereiten
 
 Navigieren Sie zum Menu *Lager > Vorgänge > Inventur*. Mit dem Knopf *Anlegen* erstellen Sie einen Inventurauftrag. Befüllen Sie die Felder gemäss untenstehender Tabelle.

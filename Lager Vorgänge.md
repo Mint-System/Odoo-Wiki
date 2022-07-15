@@ -47,3 +47,11 @@ Wurde ein Transfer einmal erledigt, ist die Bearbeitung gespeert. Wenn Sie denno
 ::: tip
 Wird die erledigte Menge verändert, wird der Bestand des Produkts entsprechend angepasst.
 :::
+
+## Scheduler manuell starten
+
+Der Lager Scheduler wird von Odoo in regelmässig Abständen ausgeführt. In bestimmten Fällen, möchten Sie diesen manuell starten. Klicken Sie dazu auf *Lager > Vorgänge > Scheduler starten* und wählen Sie *Scheduler starten*.
+
+::: tip
+Der Scheduler wird im Hintergrund ausgeführt. Sind viele Vorgänge am laufen, kann die Ausführung des Schedulers länger dauern.
+:::
