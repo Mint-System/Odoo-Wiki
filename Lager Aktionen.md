@@ -293,3 +293,27 @@ for move_line in fix_move_lines:
       log('Assign lot to move line: %s' % move_line)
       move_line.write({'lot_id':  move_in.move_line_ids[0].lot_id.id})
 ```
+
+## Automatische Aktion "Lieferung erledigen wenn bereit" erstellen
+
+Mit dieser automatischen Aktion wird eine Lieferung im Status *Bereit* die erledigte Menge gleich der Bedarfsmenge gesetzt und erledigt.
+
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
+
+Name der Aktion: `Lieferung erledigen wenn bereit`\
+Modell: `stock.picking`\
+Triggerbedingung: Beim Aktualisieren\
+Anzuwenden auf:
+
+```txt
+["&",["picking_type_code","=","outgoing"],["state","=","assigned"]]
+```
+
+Python Code:
+
+```python
+for picking in records:
+  for move in records.move_lines:
+    move.write({'quantity_done': move.product_uom_qty})
+  picking._action_done()
+```
