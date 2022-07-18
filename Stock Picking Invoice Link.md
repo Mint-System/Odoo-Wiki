@@ -21,3 +21,7 @@ Diese Erweiterung verknüpft Lieferungen und Rechnungen. Auf einer Lieferung fin
 Dasselbe funktioniert auch umgekehrt.
 
 ![](assets/Stock%20Picking%20Invoice%20Link%20Invoice.png)
+
+::: warning
+Damit eine Verlinkung erstellt werden kann, muss der LIeferung erledigt sein.
+:::
