@@ -10,9 +10,10 @@ Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 
 ## Bereiche
 
-| Bereich                                                 | Beschreibung                           |
-| ------------------------------------------------------- | -------------------------------------- |
-| [Website Aktionen](Website%20Aktionen.md) | Automatisierung der Website-Vorgänge.                  |
+| Bereich                                   | Beschreibung                          |
+| ----------------------------------------- | ------------------------------------- |
+| [Website Aktionen](Website%20Aktionen.md) | Automatisierung der Website-Vorgänge. |
+| [Website Partner](Website%20Partner.md)   | Partner auf Website publizieren.      |
 
 
 ## Erweiterungen

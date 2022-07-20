@@ -64,6 +64,16 @@ Individuen die als Einzelperson erfasst und einem Unternehmen zugeordnet sind er
 | Zahlungsbedingungen | Kundenspezifischer Standardwert für das Erstellen von Angeboten                                               |
 | Preisliste          | Es können über die Zuordnung verschiedener Preislisten spezifische Verkaufspreise pro Kunde definiert werden. |
 
+## Unterkontakte erfassen
+
+Zeigen Sie ein Unternehmenskontakt via *Kontakte* an. Im Tab *Kontakte & Adressen* können Sie Unterkontakte erfassen. Diese Unterkontkakte werden als *Einzelpersonen* angelegt.
+
+![](assets/Unterkontakte.png)
+
+::: warning
+Ändern Sie den Typ von Unterkontakten nicht auf Unternehmen. Wird beispielsweise die Rechnungsadresse als Kontakt vom Typ Unternehmen fesgelegt, erfolgt eine kommzerielle Trennung des Haupt- und Unterkonakt.
+:::
+
 ## Bezeichnung Umsatzsteuer festlegen
 
 Wenn keine Bezeichnung für die Umsatzsteuer festgelegt ist, verwendet Odoo *Tax ID*. Das ist beispielsweise im Footer eines Dokuments ersichtlich.
