@@ -40,7 +40,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```python
 for record in records:
-  record.write({'state': 'verify'})
+  record.write({'state': 'draft'})
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.

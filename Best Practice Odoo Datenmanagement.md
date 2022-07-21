@@ -9,7 +9,7 @@ Beim Import von Daten besteht keine grosse Flexibilität. Entsprechend hoch muss
 
 Damit Daten einfacher Import werden können, werden hier Vorlagen bereitgestellt und erklärt wo genau die Daten importiert werden können.
 
-## Importvorlagen
+## Exportvoralgen
 
 Damit Daten miteinanderverknüpft werden können, ist die Spalte **id** sehr wichtig. Beim Export wird diese im Dialog mit der Option *Ich will Daten aktualisieren* oben links hinzugefügt.
 
@@ -26,6 +26,22 @@ login
 lang
 ```
 Datei: `res.users.csv`
+
+### Zguriffsrechte
+Listenansicht: *Einstellungen > Technisch > Sicherheit > Zugriffsrechte*
+
+Felder:
+```
+id
+model_id/id
+perm_read
+perm_write
+perm_unlink
+perm_create
+```
+Datei: `ir.model.access.csv`
+
+Calc-Formeln: `=CONCAT(IF(B2="True","C",""),IF(C2="True","R",""),IF(D2="True","U",""),IF(E2="True","D",""))`
 
 ### Kontakte
 Listenansicht: *Kontakte*
