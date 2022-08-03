@@ -36,12 +36,12 @@ Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_blanket_order>
 
 ## Rahmenauftrag erstellen
 
-Rahmenaufträge werden unabhängig von Verkaufsaufträgen unter *Verkauf > Aufträge > Rahmenaufträge* erfasst. Klicken Sie dort auf *Anlegen* und erfassen Sie einen Auftrag mit diesen Felder:
+Rahmenaufträge werden unabhängig von Verkaufsaufträgen unter *Verkauf > Aufträge > Rahmenaufträge* erfasst. Klicken Sie dort auf *Anlegen* und erfassen Sie einen Auftrag mit diesen Feldern:
 
 * Partner: Der Verkaufspartner
 * Gültigkeitsdatum: Wie lange der Rahmenauftrag gültig ist
 
-Fügen Sie anschliessen Produktzeilen hinzu und bestimmen Sie jeweils die vertragliche Menge und das *Geplantes Datum*.
+Fügen Sie anschliessend Produktzeilen hinzu und bestimmen Sie jeweils die vertragliche Menge und das *Geplantes Datum*.
 
 ![](assets/Sale%20Blanket%20Order%20Beispiel%20Rahmenauftrag.png)
 
