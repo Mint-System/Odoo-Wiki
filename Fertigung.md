@@ -71,3 +71,13 @@ Für das Komponenten-Produkt wird nun der *prognostizierter indirekter Bedarf* b
 ![](assets/Hauptproduktionszeitplan.png)
 
 Wählen Sie für jedes Produkt *Aufstocken* um einen Auftrag gemäss hinterlegter Route zu erstellen.
+
+## Mehrstufige Fertigung aktivieren
+
+Aktivieren Sie die Option *Mehrstufige Routen* unter *Einstellungen > Lager > Lager*. Anschliessen Zeiten Sie das Standardlager unter *Lager > Konfiguration > Lager* an und aktivieren im Tab *Lager Konfiguraiton* die Option *Zusammenstellen der Komponenten und dann fertigen (2ter Schritt)*. Nun steht die Route für die mehrstufige Fertigung bereit.
+
+::: tip
+Damit die mehrstufige Fertigungs-Route direkt den Produkten zugewiesen werden kann, aktivieren Sie die Auswahlmöglichkeit auf der Route.
+
+![](assets/Fertigung%20Lager%20Auswahlmöglichkeit.png)
+:::
