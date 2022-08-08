@@ -315,5 +315,5 @@ Python Code:
 for picking in records:
   for move in records.move_lines:
     move.write({'quantity_done': move.product_uom_qty})
-  picking._action_done()
+    move.write({'state': 'done'})
 ```
