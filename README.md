@@ -7,6 +7,8 @@ Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus vie
 3. **HowTos**: Detailliert beschriebene Arbeitsschritte
 4. **Anforderungen**: Referenzanforderung für den Abgleich mit einem Lastenheften
 
+Die [Mint System GmbH](https://www.mint-system.ch/) unterhält das Odoo Wiki.
+
 ## [Referenzsystem](Referenzsystem.md)
 
 [Hier](Referenzsystem.md) geht es zum Referenzsystem.
@@ -341,11 +343,12 @@ Sie können eine Kopie des Wiki erstellen und für eigene Zwecke nutzen. Ebenfal
 
 ## Maintainer
 
+Authoren werden hier mit Logo aufgeführt:
+
 [![logo](assets/logo.svg)](https://www.mint-system.ch/)
 
-Das Odoo Wiki ist ein Produkt der [Mint System GmbH](https://www.mint-system.ch/).
-
 Es sind Dokumente von diesen Drittanbietern enthalten:
+
 * [nivels GmbH](https://www.nivels.ch/)
 * [giordano.ch](https://www.giordano.ch/)
 * [syscoon GmbH](https://syscoon.com/)

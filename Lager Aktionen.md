@@ -316,4 +316,5 @@ for picking in records:
   for move in records.move_lines:
     move.write({'quantity_done': move.product_uom_qty})
     move.write({'state': 'done'})
+  picking._action_done()
 ```
