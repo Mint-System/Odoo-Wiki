@@ -8,21 +8,14 @@ prev: ./
 
 Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträge.
 
-> Das App dient zur Verwaltung von Fahrzeugen. Es können Fahrzeugdaten, Leasing-Verträge, Servicekosten oder Treibstoffkosten erfasst werden.
-
 ## Fahrzeugflotte verwalten
 
-Nach der Installation sind die gängisten Automarken bereits erfasst.
-Bei einer Fahrzeugflotte für Lastkraftwagen (LKW) sind die Marken/Lieferanten nicht erfasst. Diese sind noch nachträglich zu erfassen inkl. Logo.
+Zeigen Sie *Fahrzeugflotte* an und erstellen Sie einen neuen Eintrag.
 
-## Treibstoffkosten erfassen
+## Tachometer-Eintrag erfassen
 
-Je erfasstes Fahrzeug kann der Tankvorgang erfasst werden:
-- Treibstoffart
-- Anzahl Liter
-- Preis je Liter
-- aktueller Kilometerstand
+Rufen Sie ein Fahrzeug und *Fahrzeugflotte* auf und wählen Sie den Smart-Link *Tachometer*. Erstellen Sie einen neuen Eintrag.
 
-## Status der Fahrzeuge anzeigen
+## Status der Fahrzeuge konfigurieren
 
-In der Kanban-Ansicht werden die Stati wie "Verfügbar", "in Wartung" oder "in Betrieb" als Spalten dargestellt und die Fahrzeuge zugeteilt.
+Zeigen Sie *Fahrzeugflotte > Konfiguration > Fahrzeugzustand* an. Verwalten Sie hier die Kanban-Stufen zum Zustand der Fahrzeuge.
