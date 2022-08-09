@@ -15,56 +15,6 @@ Damit Daten miteinanderverknüpft werden können, ist die Spalte **id** sehr wic
 
 Die Spalte **id** ist eine eindeutige Referenz für jeden Eintrag. Damit können bestehende Einträge überschrieben werden und in bestimmten Fällen möchte man die Berechnungen im Erstellvorgang umgehen indem zwei Importvorgänge durchführt und so die berechneten Werte überschreibt.
 
-### Benutzer
-Listenansicht: *Einstellungen > Benutzer >  Benutzer verwalten*
-
-Felder:
-```
-id
-name
-login
-lang
-```
-Datei: `res.users.csv`
-
-### Zguriffsrechte
-Listenansicht: *Einstellungen > Technisch > Sicherheit > Zugriffsrechte*
-
-Felder:
-```
-id
-model_id/id
-perm_read
-perm_write
-perm_unlink
-perm_create
-```
-Datei: `ir.model.access.csv`
-
-Calc-Formeln: `=CONCAT(IF(B2="True","C",""),IF(C2="True","R",""),IF(D2="True","U",""),IF(E2="True","D",""))`
-
-### Kontakte
-Listenansicht: *Kontakte*
-
-Felder:
-```
-name
-street
-street2
-city
-cip
-country
-vat
-phone
-mobile
-email
-website
-is_company
-bank_ids
-bank_ids/bank_id
-```
-Datei: `res.partner.csv`
-
 ### Personal
 Listenansicht: *Kontakte*
 
@@ -151,52 +101,7 @@ Arbeitsplatz
 ```
 Datei: `mrp.workcenter.csv`
 
-### Projekt
-Listenasnicht: *Projekt > Konfiguration > Stufen*
 
-Felder:
-```
-Sequenz
-Stufenbezeichnung
-In Kanban eingeklappt
-Beschreibung
-Projekte/Externe ID 
-```
-File: `project.task.type.csv`
-
-Listenansicht: *Projekt > Konfiguration > Projekte*
-
-Felder:
-```
-Sequenz
-Name
-Projektmanager
-Kunde
-Zeiterfassung 
-```
-Datei: `project.project.csv`
-
-Listenansicht: *Projekt > Alle Aufgaben*
-
-Felder:
-```
-Titel
-Projekt
-Zugewiesen an
-Geplante Stunden
-Stufe
-```
-Datei: `project.task_main.csv`
-
-Felder:
-```
-Titel
-Projekt
-Zugewiesen an
-Geplante Stunden
-Stufe
-```
-Datei: `project.task.csv`
 
 ### Abwesenheitszeiten
 Listenansicht: *Abwesenheitszeiten > Abwesenheiten*

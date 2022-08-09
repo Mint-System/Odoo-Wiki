@@ -13,6 +13,7 @@ Agiles Projektmanagement. Schön. Einfach. Open Source.
 | Bereich                                   | Beschreibung                         |
 | ----------------------------------------- | ------------------------------------ |
 | [Projekt Aktionen](Projekt%20Aktionen.md) | Aktionen für Projekt App einrichten. |
+| [Projekt Datenmanagement](Projekt%20Datenmanagement.md)             | Daten zu Projekte exportieren und importieren.      |
 
 ## Erweiterungen
 

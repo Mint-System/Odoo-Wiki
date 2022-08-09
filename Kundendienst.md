@@ -8,6 +8,12 @@ prev: ./
 
 Für einen fantastischen Kundenservice.
 
+## Bereiche
+
+| Bereich                                                           | Beschreibung                                       |
+| ----------------------------------------------------------------- | -------------------------------------------------- |
+| [Kundendienst Datenmanagement](Kundendiesnt%20Datenmanagement.md) | Daten zu Kundendienst exportieren und importieren. |
+
 ## Team anlegen
 
 Zeigen Sie *Kundendienst > Konfiguration > Kundendienst Teams* an. Erstellen Sie einen neuen Eintrag. Geben Sie einen *Namen*, *Beschreibung* und einen gültigen E-Mail-Alias ein.

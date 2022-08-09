@@ -113,3 +113,9 @@ Auf der Bericht werden alle Belge mit den einzelnen Transaktionen aufgelistet.
 Angenommen Sie möchten einen bestimmten Konten-Bereich, beispielsweise von 1500 bis 2000, anzeigen, müssen Sie *Finanzen > Finanzen > Hauptbericht* anwählen. Hier können Sie das Feld *Konto Root* entsprechen den gewählten Bereichen filtern.
 
 ![](assets/Finanzen%20Berichte%20Hauptbuch%20Bereich.png)
+
+## Anlagespiegel anzeigen
+
+Alle Anlagen und Abschreibungen können Sie unter *Finanzen > Berichtswesen > Abschreibungszeitplan* anzeigen.
+
+![](assets/Finanzen%20Berichte%20Abschreibungszeitplan.png)

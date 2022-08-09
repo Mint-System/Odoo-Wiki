@@ -8,6 +8,12 @@ prev: ./
 
 Alle Kontaktdaten an einem Ort.
 
+## Bereiche
+
+| Bereich                                                     | Beschreibung                                          |
+| ----------------------------------------------------------- | ----------------------------------------------------- |
+| [Kontakte Datenmanagement](Kontakte%20Datenmanagement.md)                           | Daten zu Kontakte exportieren und importieren.                                                      |
+
 ## Erweiterungen
 
 | Erweiterung                                                                       | Beschreibung                                                   |
