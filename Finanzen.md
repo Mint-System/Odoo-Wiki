@@ -20,6 +20,7 @@ Ihre Buchhaltung einfach und korrekt.
 | [Finanzen Buchhaltung](Finanzen%20Buchhaltung.md)               | Kontenplan einrichten und Buchungen erstellen.            |
 | [Finanzen Aktionen](Finanzen%20Aktionen.md)                     | Neue Aktionen für Buchungen und Abstimmungen.             |
 | [Finanzen Snippets](Finanzen%20Snippets.md)                     | Einfache Anpassungen mit Odoo Snippets.                   |
+| [[Finanzen Anlagenverwaltung]]                                  | Anlagen verwalten und automatisch Abschreibungen erstellen.                                                          |
 
 ## Erweiterungen
 
