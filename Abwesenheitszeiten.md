@@ -53,6 +53,14 @@ Mitarbeitende erhalten nach der Validierung eine entsprechende Mail.
 Odoo versendet keine Nachrichten, wenn die Genehmigung alls Massenbearbeitung erfolgt.
 :::
 
+## Abwesenheitsanspruch anpassen
+
+Wenn Sie einen genehmigten Abwesenheitsanspruch anpassen wollen, wählen Sie diesen aus *Abwesenheitszeiten > Vorgesetzte > Abwesenheitsansprüche* und klicken auf *Ablehnen*. Anschliessend klicken Sie auf *Zurücksetzen* und bearbeiten den Anspruch.
+
+::: warning
+Damit die Aktion *Zurücksetzen* ausgewählt werden kann, muss Ihr Odoo-Benutzer die Rolle *Abwesenheitszeiten: Administrator* haben.
+:::
+
 ## Abwesenheit melden
 
 Öffnen Sie die App *Abwesenheitszeiten* und wählen Sie *Neuer Abwesenheitsantrag*. Geben Sie den Typ und die Dauer ein.
