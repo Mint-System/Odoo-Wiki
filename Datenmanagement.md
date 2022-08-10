@@ -15,7 +15,7 @@ Importieren und Exportieren Sie alle Odoo Daten.
 | [Einstellungen Datenmanagement](Einstellungen%20Datenmanagement.md) | Daten zu Einstellungen exportieren und importieren. |
 | [Kontakte Datenmanagement](Kontakte%20Datenmanagement.md)           | Daten zu Kontakte exportieren und importieren.      |
 | [Projekt Datenmanagement](Projekt%20Datenmanagement.md)             | Daten zu Projekte exportieren und importieren.      |
-| [Kundendienst Datenmanagement](Kundendiesnt%20Datenmanagement.md)       | Daten zu Kundendienst exportieren und importieren.      |
+| [Kundendienst Datenmanagement](Kundendiesnt%20Datenmanagement.md)   | Daten zu Kundendienst exportieren und importieren.  |
 
 ## Daten exportieren
 

@@ -29,6 +29,11 @@ Mit Odoo können Sie E-Mails verschicken. Wie in Mail-Programmen können Sie ein
 
 ## Benachrichtigungs-Kanal festlegen
 
-Odoo benachrichtigt Odoo-Benutzer entweder via E-Mail oder über den Odoo-Chat. Sie können den bevorzugten Kanal einstellen indem Sie oben rechts auf ihren Namen klicken und dann *Mein Profil > Tab Einstellungen* wählen. Im Feld *Benachrichtigung* können Sie die Einstellung festlegen.
+Odoo benachrichtigt Odoo-Benutzer entweder via E-Mail oder über den Odoo-Chat. Sie können den bevorzugten Kanal einstellen indem Sie oben rechts auf ihren Namen klicken und dann *Einstellungen / Mein Profil > Tab Einstellungen* wählen. Im Feld *Benachrichtigung* können Sie die Einstellung festlegen.
 
 ![](assets/Persönliche%20Einstellungen%20Benachrichtigung.png)
+
+
+::: warning
+Auch wenn die Benachrichtigung ohne E-Mail erfolgt, braucht der Benutzer einen Eintrag im Feld *E-Mail*.
+:::
