@@ -45,7 +45,7 @@ Das Odoo Wiki hat zum Ziel den Anwender eine einfache und kompakte Hilfestellung
 
 ## Beispielunternehmen
 
-Zur Erläuterung der Instruktionen darf man ein fiktives Unternehmen mit folgenden Informationen verwenden:
+Zur Erläuterung der Instruktionen wird ein fiktives Unternehmen mit diesen Informationen verwendet:
 
 ![logo-velo-manufaktur-ag](assets/logo-velo-manufaktur-ag.svg)
 
@@ -73,7 +73,7 @@ Handelsregister: CH-020.4.036.470-7
 
 ## Sprache
 
-Die Artikel sind in der Sprache Deutsch und in der [Höflichkeitsform](https://de.wikipedia.org/wiki/H%C3%B6flichkeitsform).
+Die Artikel sind in der Sprache Deutsch und in der [Höflichkeitsform](https://de.wikipedia.org/wiki/H%C3%B6flichkeitsform) verfasst.
 
 Die Beschreibungen und Anleitungen sind ausführlich und kommen ohne Abkürzungen aus.
 
@@ -125,13 +125,13 @@ Warnung
 
 Die Dateinamen der Artikel dürfen keine Leerschläge enthalten. Dies führt dazu das die generierte URL korrekt kopiert und eingefügt werden kann.
 
-"Persönliche Einstellungen" -> "Persönliche-Einstellungen"
+`Persönliche Einstellungen` -> `persönliche-einstellungen`
 
 **Dateinamen Prefix**
 
 Der Name eines Bildes beginnt mit dem Namen der Odoo App.
 
-"Produkt anlegen" -> "Verkauf Produkt anlegen"
+`Produkt anlegen.png` -> `Verkauf Produkt anlegen.png`
 
 ## Bilder
 
@@ -140,11 +140,11 @@ Für Animationen kann das GIF-Format verwendet werden.
 
 Bilder sollen Ausschnitte und Fragmente aus der Odoo Oberfläche zeigen. Nicht erlaubt sind Screenshots des gesamten Bildschirms.
 
-Informationen eines Kunden dürfen auf den Bilder nicht sichtbar sein.
+Informationen eines Kunden dürfen auf den Bildern nicht sichtbar sein.
 
 ## Struktur
 
-Für jede Odoo-App existiert eine Seite. Beispielsweise für die Notiz-App gibt es die Seite [Notizen](Notizen.md). Auf dieser Seite werden Abläufe aus Kundensicht beschrieben. Dazu existiert diese Vorlage:
+Für jede Odoo-App existiert eine Seite. Beispielsweise gibt es die Seite [Notizen](Notizen.md) für die Notiz-App. Auf dieser Seite werden Abläufe aus Kundensicht beschrieben. Dazu existiert diese Vorlage:
 
 **Appname.md**
 
@@ -167,7 +167,7 @@ Weitere Erläuterungen.
 
 ### Unterseiten
 
-Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist die App Fertigung sehr umfangreich. Deshalb können die Bereiche in Unterseiten aufgeteilt werden.
+Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist die App Fertigung sehr umfangreich. Deshalb kann die App in Unterseiten (Bereiche) aufgeteilt werden.
 
 * [Fertigung](Fertigung.md)
 
@@ -177,7 +177,7 @@ Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist di
 
 Die Bereiche bzw. Unterseite werden in der Hauptseite aufgelistet.
 
-Genauso werden Erweiterungen und Videos verlinkt.
+Genauso werden *Erweiterungen* und *Videos* verlinkt.
 
 ### OCA-Apps
 
