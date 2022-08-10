@@ -10,12 +10,12 @@ Einstellungen für ihren persönlichen Odoo-Benutzer.
 
 ## Persönliche Einstellungen festlegen
 
-Nach dem Login klicken Sie oben rechts auf ihren Benutzer und wählen *Einstellungen* oder *Profil*. Legen Sie die folgenden Einstellungen fest.
+Nach dem Login klicken Sie oben rechts auf ihren Benutzer und wählen *Einstellungen* oder *Profil*. Legen Sie die folgenden Einstellungen fest:
 
-**Zeitzone**: Damit wird automatisch die Systemzeit richtig eingestellt.\
-**Email**: Diese E-Mail dient zu Informationszwecken.\
-**Signatur**: Die Signatur sollte die kompletten Unternehmensdaten enthalten.\
 **Foto**: Für das Foto verwenden Sie ein JPG-Format nicht grösser als 100 x 100 Pixel.
+**Email**: Diese E-Mail dient zur Benachrichtigung.\
+**Signatur**: Die Signatur sollte die kompletten Unternehmensdaten enthalten.\
+**Zeitzone**: Damit wird die Systemzeit automatisch eingestellt.\
 
 ## Passwort ändern
 
@@ -32,7 +32,6 @@ Mit Odoo können Sie E-Mails verschicken. Wie in Mail-Programmen können Sie ein
 Odoo benachrichtigt Odoo-Benutzer entweder via E-Mail oder über den Odoo-Chat. Sie können den bevorzugten Kanal einstellen indem Sie oben rechts auf ihren Namen klicken und dann *Einstellungen / Mein Profil > Tab Einstellungen* wählen. Im Feld *Benachrichtigung* können Sie die Einstellung festlegen.
 
 ![](assets/Persönliche%20Einstellungen%20Benachrichtigung.png)
-
 
 ::: warning
 Auch wenn die Benachrichtigung ohne E-Mail erfolgt, braucht der Benutzer einen Eintrag im Feld *E-Mail*.
