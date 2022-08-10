@@ -37,6 +37,7 @@ Eine moderne Lösung für ein altes Problem.
 | [MRP Production Unplan Move](MRP%20Production%20Unplan%20Move.md)                               | Zukünftiges Datum auf Lagerbuchung bei Planungsabruch festlegen.             |
 | [MRP Production Create Upstream Backorder](MRP%20Production%20Create%20Upstream%20Backorder.md) | Erstelle Nachlieferungen für Pickings von Fertigungsaufträgen.               |
 | [MRP Production Update Upstream Move](MRP%20Production%20Update%20Upstream%20Move.md)           | Aktualisiere offene Pickings von Fertigungsaufträgen bei Änderungen.         |
+| [MRP BoM Position](MRP%20BoM%20Position.md)                                                     | Jede Komponente in der Stückliste erhält eine Positionsnummer.               |
 
 ## Videos
 
