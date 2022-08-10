@@ -17,24 +17,26 @@ Eine moderne Lösung für ein altes Problem.
 
 ## Erweiterungen
 
-| Erweiterung                                                                       | Beschreibung                                                                 |
-| --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| [Cancel Manufacturing Order](Cancel%20Manufacturing%20Order.md)                   | Fertigungsauftrag rückgängig machen.                                         |
-| [Product Barcode Generator](Product%20Barcode%20Generator.md)                     | Autogenerate EAN13 product barcodes.                                         |
-| [Product Name Sequence](Product%20Name%20Sequence.md)                             | Generate product names based on a sequence.                                  |
-| [Product Sequence](Product%20Sequence.md)                                         | Produkreferenzen anhand einer Sequenz generieren lassen.                     |
-| [MRP Documents Share](MRP%20Documents%20Share.md)                                 | Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument. |
-| [Product Country of Origin](Product%20Country%20of%20Origin.md)                   | Bestimmen Sie für jedes Produkt ein Herkunftsland                            |
-| [Product Type Description](Product%20Type%20Description.md)                       | Zu jedem Produkt ein Beschreibungsfeld.                                      |
-| [Secondary Product Type Description](Secondary%20Product%20Type%20Description.md) | Zu jedem Produkt ein zweites Beschreibungsfeld.                              |
-| [Product Feeder ID](Product%20Feeder%20ID.md)                                     | Feeder-Textfeld auf dem Produkt.                                             |
-| [Manufacture Production Move Date](Manufacture%20Production%20Move%20Date.md)     | Lieferdatum auf Fertigungsauftrag bearbeiten.                                |
-| [Manufacturing BoM Consumption](Manufacturing%20BoM%20Consumption.md)             | Definieren Sie eine Stückliste, die bei der Lieferung verschrottet wird.     |
-| [MRP Production Release](MRP%20Production%20Release.md)                           | Fertigungsaufträge können zurückgesetzt und freigegebenen werden.            |
-| [MRP Production Assign Lot](MRP%20Production%20Assign%20Lot.md)                   | Los aus eingehenden Lagerbuchungen an unreservierte Komponenten zuweisen.   |
-| [MRP Workorder Set Producing Qty](MRP%20Workorder%20Set%20Producing%20Qty.md)     | Arbeitsauftrag startet ohne erledigte Menge.                                 |
-| [Product State](Product%20State.md)                                               | Lebenszyklus von Produkten festlegen.                                        |
-| [MRP Production Unplan Move](MRP%20Production%20Unplan%20Move.md)                 | Zukünftiges Datum auf Lagerbuchung bei Planungsabruch festlegen.             |
+| Erweiterung                                                                                     | Beschreibung                                                                 |
+| ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [Cancel Manufacturing Order](Cancel%20Manufacturing%20Order.md)                                 | Fertigungsauftrag rückgängig machen.                                         |
+| [Product Barcode Generator](Product%20Barcode%20Generator.md)                                   | Autogenerate EAN13 product barcodes.                                         |
+| [Product Name Sequence](Product%20Name%20Sequence.md)                                           | Generate product names based on a sequence.                                  |
+| [Product Sequence](Product%20Sequence.md)                                                       | Produkreferenzen anhand einer Sequenz generieren lassen.                     |
+| [MRP Documents Share](MRP%20Documents%20Share.md)                                               | Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument. |
+| [Product Country of Origin](Product%20Country%20of%20Origin.md)                                 | Bestimmen Sie für jedes Produkt ein Herkunftsland                            |
+| [Product Type Description](Product%20Type%20Description.md)                                     | Zu jedem Produkt ein Beschreibungsfeld.                                      |
+| [Secondary Product Type Description](Secondary%20Product%20Type%20Description.md)               | Zu jedem Produkt ein zweites Beschreibungsfeld.                              |
+| [Product Feeder ID](Product%20Feeder%20ID.md)                                                   | Feeder-Textfeld auf dem Produkt.                                             |
+| [Manufacture Production Move Date](Manufacture%20Production%20Move%20Date.md)                   | Lieferdatum auf Fertigungsauftrag bearbeiten.                                |
+| [Manufacturing BoM Consumption](Manufacturing%20BoM%20Consumption.md)                           | Definieren Sie eine Stückliste, die bei der Lieferung verschrottet wird.     |
+| [MRP Production Release](MRP%20Production%20Release.md)                                         | Fertigungsaufträge können zurückgesetzt und freigegebenen werden.            |
+| [MRP Production Assign Lot](MRP%20Production%20Assign%20Lot.md)                                 | Los aus eingehenden Lagerbuchungen an unreservierte Komponenten zuweisen.    |
+| [MRP Workorder Set Producing Qty](MRP%20Workorder%20Set%20Producing%20Qty.md)                   | Arbeitsauftrag startet ohne erledigte Menge.                                 |
+| [Product State](Product%20State.md)                                                             | Lebenszyklus von Produkten festlegen.                                        |
+| [MRP Production Unplan Move](MRP%20Production%20Unplan%20Move.md)                               | Zukünftiges Datum auf Lagerbuchung bei Planungsabruch festlegen.             |
+| [MRP Production Create Upstream Backorder](MRP%20Production%20Create%20Upstream%20Backorder.md) | Erstelle Nachlieferungen für Pickings von Fertigungsaufträgen.               |
+| [MRP Production Update Upstream Move](MRP%20Production%20Update%20Upstream%20Move.md)           | Aktualisiere offene Pickings von Fertigungsaufträgen bei Änderungen.         |
 
 ## Videos
 
