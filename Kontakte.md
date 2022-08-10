@@ -47,7 +47,7 @@ Odoo verwendet Kontakte als zentrales Adressbuch. Verschiedene Apps wie Verkauf,
 
 **Kopfdaten**
 
-| Bezeichung    | Beschreibung                                                                                       |
+| Bezeichnung    | Beschreibung                                                                                       |
 | ------------- | -------------------------------------------------------------------------------------------------- |
 | Firmenadresse |                                                                                                    |
 | Strasse       |                                                                                                    |

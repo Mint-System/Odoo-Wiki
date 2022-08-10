@@ -8,12 +8,6 @@ prev: ./entwicklung
 
 Einfache Anpassungen mit den Mint System Snippets umsetzen.
 
-## Positionsnummer anzeigen
-
-Unter <https://odoo.build/snippets> finden Sie Snippets mit der Bezeichung *Get Postition*, beispielsweise <https://odoo.build/snippets/purchase.html#get-position>. Verwenden Sie diese Snippets um auf Berichten, die Positionsnummer aus den Verkaus- und Einkaufsaufträgen anzuzeigen.
-
-![](assets/Snippets%20Positionsnummer%20anzeigen.png)
-
 ## Snippet-Inhalte übersetzen
 
 Öffnen Sie ein Snippet via *Einstellungen > Technisch > Benutzer-Interface > Ansichten*. Klicken Sie im Tab *Architektur* auf * Übersetzungen bearbeiten*.

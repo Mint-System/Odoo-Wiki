@@ -12,7 +12,7 @@ Mehrwertsteuer einfach abrechnen mit Odoo.
 
 Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern*. Hier werden alle Steuersätze festgelegt. Öffnen Sie einen Eintrag und passen Sie diese Felder an:
 
-* **Steuerbezeichnung**: Ist die interne Bezeichung
+* **Steuerbezeichnung**: Ist die interne Bezeichnung
 * **Steuerberechnung**: Legt fest wie die Steuer berechnet wird
 * **Tax Type**: Unterscheidung zwischen Einkauf und Verkauf
 * **Steuergültigkeit**: Steuern nur für bestimmte Produktarten zulassen

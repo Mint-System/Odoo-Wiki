@@ -25,7 +25,7 @@ Maximieren Sie die Effizienz Ihres Lagers.
 | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | [Demand Planner](Demand%20Planner.md)                                                         | Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen. |
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md)                           | Erlaubt die Archivierung von Los/Chargen.                                                                   |
-| [Stock Move Line Position](Stock%20Move%20Line%20Position.md)                                 | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.                                            |
+| [Stock Move Line Position](Stock%20Move%20Line%20Position.md)                                 | Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen.                                            |
 | [Stock Delivery Note](Stock%20Delivery%20Note.md)                                             | Notiz auf Lieferschein.                                                                                     |
 | [Product Logistics UoM](Product%20Logistics%20UoM.md)                                         | Individuelle Mengenheit für Produkte festlegen.                                                             |
 | [Stock Move Weight UoM](Stock%20Move%20Weight%20UoM.md)                                       | Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.                                                |
@@ -38,7 +38,7 @@ Maximieren Sie die Effizienz Ihres Lagers.
 | [Stock Aggregated Move Lines Description](Stock%20Aggregated%20Move%20Lines%20Description.md) | Beschreibungsfeld auf aggregierten Zeilen anzeigen.                                                         |
 | [Stock Aggregated Move Line](Stock%20Aggregated%20Move%20Line.md)                             | Zugriff auf Lieferung in aggregierten Zeilen.                                                               |
 | [Stock Picking Invoice Link](Stock%20Picking%20Invoice%20Link.md)                             | Verlinkt Rechnungen und Transfers.                                                                          |
-| [Stock Move Available Locations](Stock%20Move%20Available%20Locations.md)                     | Nur Lagerorte mit Besand in Auswahl anzeigen.                                                                                                            |
+| [Stock Move Available Locations](Stock%20Move%20Available%20Locations.md)                     | Nur Lagerorte mit Besand in Auswahl anzeigen.                                                               |
 
 ## Ablaufdatum aktivieren
 

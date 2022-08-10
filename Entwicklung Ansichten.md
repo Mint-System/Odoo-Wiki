@@ -140,7 +140,7 @@ Wenn Sie das Modul mit der Definition der Aktiona aktualisieren, wird das Feld *
 
 Damit man für Filter dynamische Funktionen verwenden kann, muss die Ansicht zur Darstellung der Filter angepasst werden.
 
-Liste mit Ansichten öffnen *Einstellungen > Technisch > Benutzer-Interface > Ansichten*. Anschliessend suchen Sie nach der Ansicht mit Bezeichung *ir.filters form* und öffnen diese. Im Tab *Vererbte Ansichten* erstellen Sie einen neuen Eintrag:
+Liste mit Ansichten öffnen *Einstellungen > Technisch > Benutzer-Interface > Ansichten*. Anschliessend suchen Sie nach der Ansicht mit Bezeichnung *ir.filters form* und öffnen diese. Im Tab *Vererbte Ansichten* erstellen Sie einen neuen Eintrag:
 
 Ansichtsbezeichnung: `$COMPANY_NAME.base.ir_filters_view_form.remove_domain_widget`  
 Architektur:

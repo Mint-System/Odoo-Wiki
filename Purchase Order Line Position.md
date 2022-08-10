@@ -20,4 +20,6 @@ Die Positionsnummern auf einem Einkaufsauftrag werden mit dieser Erweiterung aut
 
 ## Positionsnummer anzeigen
 
-Zur Darstellung der Positionsnummer in verknüpften Dokumenten stehen entsprechende [Positionsnummer anzeigen](Entwicklung%20Snippets.md#Positionsnummer%20anzeigen) bereit.
+Unter <https://odoo.build/snippets> finden Sie Snippets mit der Bezeichnung *Get Postition*, beispielsweise <https://odoo.build/snippets/purchase.html#get-position>. Verwenden Sie diese Snippets um auf Berichten, die Positionsnummer aus Verkaus-, Einkaufs- und Fertigungsaufträgen anzuzeigen.
+
+![](assets/Snippets%20Positionsnummer%20anzeigen.png)
