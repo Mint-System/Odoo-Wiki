@@ -341,7 +341,7 @@ Die Evaluation eines ERP-Systems ist eine aufwändige Arbeit. Als Kunde ist man 
 
 Sie können eine Kopie des Wiki erstellen und für eigene Zwecke nutzen. Ebenfalls können Sie Änderungen mitteilen und mit dem offizielen Wiki zusammenführen. Mehr dazu unter [Mitarbeit](Mitarbeit.md).
 
-## Maintainer
+### Maintainer
 
 Authoren werden hier mit Logo aufgeführt:
 
