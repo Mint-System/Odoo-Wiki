@@ -120,7 +120,7 @@ Beim Aufrufen einer Ansicht wird als erstes eine Aktion ausgeführt. Auf dieser 
 
 Wenn Sie über Aktionen bestimmte Odoo-Ansichten aufrufen ist bereits ein Filter in der Suchmaske hinterlegt. Dieser Standard-Filter können Sie für alle Benutzer anpassen.
 
-Wählen Sie auf der Ansicht mit dem Filter *Entwickler-Tools > Aktion bearbeiten*. Im Feld *Wert aus Kontext* können nicht nur Standardwerte für die anzuzeigende Ansicht hinterlegt werden, sondern auch der Status von Filtern.
+Wählen Sie auf der Ansicht mit dem Filter *Entwicklertools > Aktion bearbeiten*. Im Feld *Wert aus Kontext* können nicht nur Standardwerte für die anzuzeigende Ansicht hinterlegt werden, sondern auch der Status von Filtern.
 
 ![](assets/Entwicklung%20Standardfilter%20einrichten.png)
 
@@ -130,7 +130,7 @@ Der Name des Filters lautet in diesem Beispiel `my_quotation`. Angenommen Sie ha
 <filter string="Order Sent" name="sent" domain="[['state', '=', 'sent']]"/>
 ```
 
-Können Sie entweder `my_question` mit `sent` im *Kontext Wert* der Aktion (*Entwickler-Tools > Aktion bearbeiten*) ersetzen oder den *Kontext Wert* mit `{'search_default_my_quotation': 1, 'search_default_sent': 1}` erweitern.
+Können Sie entweder `my_question` mit `sent` im *Kontext Wert* der Aktion (*Entwicklertools > Aktion bearbeiten*) ersetzen oder den *Kontext Wert* mit `{'search_default_my_quotation': 1, 'search_default_sent': 1}` erweitern.
 
 ::: warning
 Wenn Sie das Modul mit der Definition der Aktiona aktualisieren, wird das Feld *Wert aus Kontext* überschrieben und ihre Anpassungen gehen verloren. Falls das unter keinen Umständen passieren darf, müssen Sie Aktion duplizeren und in der Menüstruktur neu verknüpfen.

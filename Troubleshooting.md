@@ -154,3 +154,28 @@ Quelle: <https://github.com/wkhtmltopdf/wkhtmltopdf/issues/4462>
 ### Lösung
 
 In den Systemparameter von Odoo muss beim Eintrag `web.base.url`  die URL von https auf http gewechselt werden.
+
+### Externe ID User Admin nicht gefunden
+
+#### Problem 
+
+Beim Einloggen oder Ausführen einer Aktion erscheint diese Fehlermeldung:
+
+```
+External ID not found in the system: base.user_admin
+```
+
+#### Ursache
+
+Der Admin-Benutzer wurde gelöscht oder dessen externe ID entfernt.
+
+#### Lösung
+
+Sie müssen eine [Externe ID erfassen](Entwicklung.md#Externe%20ID%20erfassen) mit diesen Parameter erfassen:
+
+* **Modul**: `base`
+* **Externe Identifkation**: `user_admin`
+* **Modellname**: `res.user`
+* **Datensatz-ID**: Tragen Sie hier die *ID* aus den [Metadaten anzeigen](Entwicklung.md#Metadaten%20anzeigen) eines Benutzers ein.
+
+Mit der neuen externen ID bestimmen Sie einen anderen Bentuzer als Administrator.

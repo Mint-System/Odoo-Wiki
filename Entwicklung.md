@@ -27,7 +27,7 @@ Odoo mühelos anpassen und erweitern.
 
 ## Assets-Bundel neu generieren
 
-Wird Odoo im Browser angezeigt, werden sog. Assets im Hintergrund geladen (JavaScript-, SCSS- und CSS-Dateien). Diese Assets können nach einem Odoo-Update veraltet sein und müss neu generiert werden. Wählen Sie Entwickler-Tool > Bündel von Assets regenerieren.
+Wird Odoo im Browser angezeigt, werden sog. Assets im Hintergrund geladen (JavaScript-, SCSS- und CSS-Dateien). Diese Assets können nach einem Odoo-Update veraltet sein und müss neu generiert werden. Wählen Sie *Entwicklertool > Bündel von Assets regenerieren*.
 
 ![](assets/Entwicklung%20Assets-Bundel%20neu%20generieren.png)
 
@@ -68,6 +68,12 @@ Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitge
 ::: warning
 Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
 :::
+
+## Metadaten anzeigen
+
+Für jedes Geschäftsobjekt können Sie in der Einzelansicht die Metadaten anzeigen. Rufen Sie ein Odoo-Objekt im Entwicklermodus auf, beispielsweise einen Benutzer und klicken Sie auf *Entwicklertools > Metadaten anzeigen*.
+
+![](assets/Entwicklung%20Metadaten%20anzeigen.png)
 
 ## Externe IDs anzeigen
 

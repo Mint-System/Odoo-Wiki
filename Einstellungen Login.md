@@ -15,6 +15,10 @@ Odoo-Einstellungen zum Benutzer und Anmeldeverfahren.
 | [Authentication OpenID Connect](Authentication%20OpenID%20Connect.md) | Login mit OpenID Connect Provider.                |
 | [Mail Service Users](Mail%20Service%20Users.md)                       | Service-Benutzer von Lizenzvertrag ausschliessen. |
 
+## Benutzer anzeigen
+
+Benutzer verwalten Sie unter *Einstellungen > Benutzer und Unternehmen > Benutzer.*
+
 ## Kundenkonto Einladungsverfahren festlegen
 
 für Kunden, Teilnehmer und Partner kann ein Odoo-Zugang eingerichtet werden. Unter *Einstellungen > Benutzer > Kundenkonto* hat man zwei Optionen:
