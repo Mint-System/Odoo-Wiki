@@ -32,7 +32,6 @@ Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
 | [Purchase Order Address](Purchase%20Order%20Address.md)                               | Bestelladresse von Kunden auf Angebotsanfrage gespeichert.                                |
 | [Purchase Tags](Purchase%20Tags.md)                                                   | Einkaufsbestellungen mit Stichwörter.                                                     |
 | [Purchase Partner Incoterm](Purchase%20Partner%20Incoterm.md)                         | Standardlieferbedingungen für Lieferanten.                                                |
-| [Purchase Requisition Payment Term](Purchase%20Requisition%20Payment%20Term.md)       | Kaufverträge mit Zahlungsbedingungen.                                                                                          |
 
 ## Angebotsanfrage erstellen
 
