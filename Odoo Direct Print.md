@@ -146,7 +146,7 @@ Erstellen Sie unter *Direct Print > Print Report Policy > Printer Settings* eine
 
 ![](assets/Odoo%20Direct%20Print%20Printer%20Settings.png)
 
-## Papieformat für Bericht fesltegen
+## Papieformat für Bericht festlegen
 
 Erstellen Sie unter *Direct Print > Print Report Policy > Report Settings* einen Eintrag für ihren Bericht.
 

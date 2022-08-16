@@ -89,3 +89,4 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Externe ID](Best%20Practice%20Externe%20ID.md)
 * [Chatter](Best%20Practice%20Chatter.md)
 * [Datumsfelder](Best%20Practice%20Datumsfelder.md)
+* [Direct Print](Best%20Practice%20Direct%20Print.md)
