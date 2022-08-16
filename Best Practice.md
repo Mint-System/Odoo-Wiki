@@ -11,7 +11,6 @@ Beschreibt wie man bestimmte Anwendungsfälle in Odoo implementiert.
 
 Mit Beispiel-Daten werden Anwendungsfälle illustriert und die Implementation von Odoo unterstützt.
 
-* [Item-Structure](Best%20Practice%20Item%20Structure.md)
 * [Definition Beispiel Fahrrad](Best%20Practice%20Definition%20Beispiel%20Fahrrad.md)
 * [Finanzen Journale](Best%20Practice%20Finanzen%20Journale.md)
 * [Lohnbuchhaltung](Best%20Practice%20Lohnbuchhaltung.md)
@@ -54,11 +53,9 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 ### Verkauf und Einkauf
 
-* [Verschiedene Produktarten einkaufen](Best%20Practice%20Verschiedene%20Produktarten%20einkaufen.md)
 * [Änderung der Route während dem Einkaufsprozess](Best%20Practice%20Änderung%20der%20Route%20während%20dem%20Einkaufsprozess.md)
-* [Beschaffung](Best%20Practice%20Beschaffung.md)
 * [Einkauf Bestellmenge ändern](Best%20Practice%20Einkauf%20Bestellmenge%20ändern.md)
-* [Zustände von Ein- und Verkaufsaufträgen](Best%20Practice%20Zustände%20von%20Ein-%20und%20Verkausfauträgen.md)
+* [Zustände von Einkaufs- und Verkaufsaufträgen](Best%20Practice%20Zustände%20von%20Einkauf-%20und%20Verkaufsauträgen.md)
 * [Subunternehmer beauftragen](Best%20Practice%20Subunternehmer%20beauftragen.md)
 * [Stückpreis definieren](Best%20Practice%20Stückpreis%20definieren.md)
 * [Kit bereitstellen](Best%20Practice%20Verkauf%20Kit%20bereitstellen.md)
@@ -73,8 +70,8 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Lager konfigurieren](Best%20Practice%20Lager%20konfigurieren.md)
 * [Verpackungen](Best%20Practice%20Verpackungen.md)
 * [Scheduler](Best%20Practice%20Scheduler.md)
-* [Lagerorte](Best%20Practice%20Lagerorte.md)
 * [Lager Vorgangstypen](Best%20Practice%20Lager%20Vorgangstypen.md)
+* [Purchase To Order](Best%20Practice%20Purchase%20To%20Order.md)
 
 ### Kontakte
 
@@ -84,7 +81,6 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 ### Personal
 
 * [Abwesenheit](Best%20Practice%20Abwesenheit.md)
-* [Berechtigungen für Zeiterfassung](Best%20Practice%20Berechtigungen%20für%20Zeiterfassung.md)
 
 ### Technisch
 

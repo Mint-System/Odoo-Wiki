@@ -57,17 +57,17 @@ Damit funktioniert der *Wareneingang* mit der Konfiguration *2 steps* mit den pr
 
 ![Lager Konfiguration Schema 2 Schritt](assets/Lager%20Konfiguration%20Schema%202%20Schritt.svg)
 
-** Wareneingang 3 Schritte **
+**Wareneingang 3 Schritte**
 
 ![Lager Konfiguration Schema 3 Schritt](assets/Lager%20Konfiguration%20Schema%203%20Schritt.svg)
 
-** Ausgehende Lieferungen 2 Schritte **
+**Ausgehende Lieferungen 2 Schritte**
 
 Für ausgehende Lieferungen zeigt sich das Schema folgendermassen (die Bezeichnung der Route ist falsch übersetzt. Es sollte heissen *Auslieferung in 2 Schritten*):
 
 ![Lager Konfiguration Schema 2 Schritt Lieferung](assets/Lager%20Konfiguration%20Schema%202%20Schritt%20Lieferung.svg)
 
-** Ausgehende Lieferungen 3 Schritte **
+**Ausgehende Lieferungen 3 Schritte**
 
 ![Lager Konfiguration Schema 3 Schritt Lieferung](assets/Lager%20Konfiguration%20Schema%203%20Schritt%20Lieferung.svg)
 
@@ -122,7 +122,6 @@ Für den Empfang und die Lieferung von Produkten sind Routen für die Varianten 
 Empfangsschritte:
 
 ![Lager Empfangsschritte](assets/Lager%20Empfangsschritte.svg)
-
 
 Lieferungsschritte:
 

@@ -4,7 +4,8 @@ tags:
 prev: ./best-practice
 ---
 
-## Best Practice: Subunternehmer beauftragen
+# Best Practice: Subunternehmer beauftragen
+
 Wenn die Fertigung eines Produktes an einen Subunternehmer übertragen wird, dann sind in der Auftragsabwicklung die folgenden Punkte zu berücksichtigen.
 
 ## Vorbereitung
@@ -24,10 +25,9 @@ Die in der Stückliste enthaltenen Produkte müssen als Route *Subunternehmer na
 
 ![Einkauf Subunternehmer Stückliste Typ](assets/Einkauf Subunternehmer Stückliste Typ.png)
 
-
 ## Bei Subunternehmer bestellen
 
 Ein extern zu fertigendes Produkt wird über einen entsprechenden Beschaffungsauftrag beim vorgesehenen Subunternehmer beauftragt. Mit dem Bestätigen der Bestellung werden die folgenden zwei Transfers programmiert.
 
 * Wareneingang (WH/IN/---) 
-- Lieferauftrag an den Subunternehmer (WH/OUT/---).
+* Lieferauftrag an den Subunternehmer (WH/OUT/---).

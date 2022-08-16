@@ -14,7 +14,7 @@ Die wesentlichen Aspekte sind:
 - Die zugeordnete Stückliste ist vom Typ *Bausatz* und hat keine Vorgänge
 - Die Apps *Lager* und *Fertigung* müssen installiert sein
 
-## Beispiel Produkt *Bike Reparatur Set*
+## Beispiel Produkt "Bike Reparatur Set"
 
 ![Best Practive Verkauf Kit bereitstellen Produkt Definition](assets/Best%20Practive%20Verkauf%20Kit%20bereitstellen%20Produkt%20Definition.png)
 

@@ -55,3 +55,19 @@ Der Lager Scheduler wird von Odoo in regelmässig Abständen ausgeführt. In bes
 ::: tip
 Der Scheduler wird im Hintergrund ausgeführt. Sind viele Vorgänge am laufen, kann die Ausführung des Schedulers länger dauern.
 :::
+
+## Route "Auffüllung nach Auftrag (MTO)" wiederherstellen
+
+Rufen Sie die Ansicht der Routen auf *Lager > Konfiguration > Routen* und wählen Sie *Filter > Archiviert*. Klicken Sie auf die Route *Auffüllung nach Auftrag (MTO)* und wählen anschliessend *Aktion > Archivierung aufheben*.
+
+## Beschaffungsgruppe weitergeben
+
+Navigieren Sie nach *Lager > Konfiguration > Route* und Route *Einkaufen* auswählen. Im Abschnitt *Regel* wählen Sie die bestehende Aktion *Einkaufen*. Im Feld *Weitergabe Beschaffungsgruppe* legen Sie *Weitergeben* fest.
+
+![](assets/Lager%20Vorgänge%20Weitergabe%20Beschaffungsgruppe.png)
+
+## Bestand beim Einkauf ignorieren
+
+Wenn Sie beim Einkauf das Lager nicht berücksichtigen wollen. Müssen Sie auf der Route *Auffüllung nach Auftrag (MTO)* die Beschaffungsmethode anpassen:
+
+![Lager Vorgänge Stock ignorieren](assets/Lager%20Vorgänge%20Stock%20ignorieren.gif)

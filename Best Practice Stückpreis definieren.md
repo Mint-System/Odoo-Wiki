@@ -4,10 +4,12 @@ tags:
 prev: ./best-practice
 ---
 
-## Best-Practice Stückpreis definieren
+# Best-Practice Stückpreis definieren
+
 Für die Definition des Stückpreises stehen verschiedene Funktionen zur Verfügung
 
 ## Fall 1: Neue Lieferantenbeziehung
+
 Falls mit einem Beschaffungsauftrag zum ersten Mal bei einem bestimmten Lieferanten eingekauft wird, dann wird diese Lieferantenbeziehung beim Produkt im Abschnitt *Einkauf* eingetragen. Der Preis wird aus dem Beschaffungsauftrag übernommen und *Menge* und *Tage bis Auslieferung* auf 0 gesetzt.
 
 ![Einkauf Bestellung Beispiel](assets/Einkauf Bestellung Beispiel.png)
@@ -20,6 +22,7 @@ Weitere Bestellungen des selben Produkts beim selben Lieferanten haben keinen Ei
 :::
 
 ## Fall 2: Mehrere Lieferanten stehen zur Wahl
+
 Falls für eine neue Angebotsanfrage das Feld *Lieferant* noch nicht ausgefüllt ist, wird der Stückpreis des ersten Lieferanten der Produktinformationen in die Einkaufsliste übertragen.
 
 ![Einkauf Bestellung Beispiel 2](assets/Einkauf Bestellung Beispiel 2.png)
@@ -32,11 +35,10 @@ Falls für die Angebotsanfrage ein Lieferant vorgegeben wird, dann erscheint in 
 ![Einkauf Bestellung Beispiel 3](assets/Einkauf Bestellung Beispiel 3.png)
 
 ## Fall 3: Preisstaffelung
+
 Falls in den Produktionformationen eine Preisstaffelung in Abhängigkeit zu Lieferant und Menge abgebildet ist, wird in der Einkaufsliste der passende Preis eingetragen.
 
-
 ![Einkauf Preisstaffelung Beispiel](assets/Einkauf Preisstaffelung Beispiel.png)
-
 
 Beispiel Einkauf bei Liererant *Klingel AG*
 

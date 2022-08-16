@@ -4,6 +4,7 @@ tags:
 prev: ./best-practice
 ---
 # Best Practice: Verschiedene Produktarten einkaufen
+
 Beim Lieferanten Fahrrad-Traum AG werden folgende zwei Produkte eingekauft:
 - 15 Stk Rundrohr Typ 1, Produktart *Einlagerbares Produkt*
 - 20 h Engineering,  Produktart *Dienstleistung*

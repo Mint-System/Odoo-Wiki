@@ -67,3 +67,13 @@ Die hier gemachten Einstellung haben Einfluss auf die Darstellung der Zahl.
 Erfassen Sie für das Lagerort *Virtual Locations/Scrap* eine externe ID gemäss [Externe ID erfassen](Entwicklung.md#Externe%20ID%20erfassen). Die Definition ist wie folgt:
 
 ![](assets/Lager%20Lagerschwund%20externe%20ID.png)
+
+## Mehrstufige Routen aktivieren
+
+Aktivieren Sie die Option *Mehrstufige Routen* unter *Einstellungen > Lager > Lager*.
+
+## Produkt für "Purchase to Order" konfigurieren
+
+Navigieren Sie nach *Lager > Produkte* und wählen Sie ein Produkt aus. Im Tab *Lager* aktivieren Sie die Routen *Einkaufen* und *Auffüllung nach Auftrag (MTO)*.
+
+![](assets/Lager%20Purchase%20to%20Order.png)
