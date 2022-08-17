@@ -7,7 +7,7 @@ prev: ./sale-blanket-order
 # Sale Blanket Order Template
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Vorlagen für Rahmenaufträge
+Vorlagen für Rahmenaufträge.
 
 Technischer Name: `sale_blanket_order_template`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_template>
