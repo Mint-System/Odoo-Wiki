@@ -175,7 +175,7 @@ Sie müssen eine [Externe ID erfassen](Entwicklung.md#Externe%20ID%20erfassen) m
 
 * **Modul**: `base`
 * **Externe Identifkation**: `user_admin`
-* **Modellname**: `res.user`
+* **Modellname**: `res.users`
 * **Datensatz-ID**: Tragen Sie hier die *ID* aus den [Metadaten anzeigen](Entwicklung.md#Metadaten%20anzeigen) eines Benutzers ein.
 
 Mit der neuen externen ID bestimmen Sie einen anderen Bentuzer als Administrator.
