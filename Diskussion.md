@@ -16,14 +16,15 @@ In alle Module integrierter privater Chat und Gruppen-Chat.
 
 ## Erweiterungen
 
-| Erweiterung                                                     | Beschreibung                                                           |
-| --------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [URL Attachment](URL%20Attachment.md)                           | Url als Dokument anhängen.                                             |
-| [Mail Thread Context](Mail%20Thread%20Context.md)               | Automatisches Abonnieren deaktiveren.                                  |
-| [Account Move Mail Thread](Account%20Move%20Mail%20Thread.md)   | Verhindert das versenden von Nachrichten beim Erstellen einer Buchung. |
-| [Sale Order Unsubscribe](Sale%20Order%20Unsubscribe.md)         | Alle Abonnenten nach Bestätigung des Angebots entfernen.               |
-| [Purchase Order Unsubscribe](Purchase%20Order%20Unsubscribe.md) | Alle Abonnenten nach Bestätigung der Bestellung entfernen.             |
-| [Account Move Unsubscribe](Account%20Move%20Unsubscribe.md)     | Alle Abonnenten nach Buchung eines Buchungssatzes entfernen.           |
+| Erweiterung                                                                         | Beschreibung                                                           |
+| ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [URL Attachment](URL%20Attachment.md)                                               | Url als Dokument anhängen.                                             |
+| [Mail Thread Context](Mail%20Thread%20Context.md)                                   | Automatisches Abonnieren deaktiveren.                                  |
+| [Account Move Mail Thread](Account%20Move%20Mail%20Thread.md)                       | Verhindert das versenden von Nachrichten beim Erstellen einer Buchung. |
+| [Sale Order Unsubscribe](Sale%20Order%20Unsubscribe.md)                             | Alle Abonnenten nach Bestätigung des Angebots entfernen.               |
+| [Purchase Order Unsubscribe](Purchase%20Order%20Unsubscribe.md)                     | Alle Abonnenten nach Bestätigung der Bestellung entfernen.             |
+| [Account Move Unsubscribe](Account%20Move%20Unsubscribe.md)                         | Alle Abonnenten nach Buchung eines Buchungssatzes entfernen.           |
+| [Mail optional follower notification](Mail%20optional%20follower%20notification.md) | Auswahl ob Nachricht an Abonnent verschickt wird.                                                                       |
 
 ## Versendete Nachrichten betrachten
 
