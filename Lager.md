@@ -55,7 +55,7 @@ Die Sicherheitsvorlaufzeiten können Sie zentral unter *Einstellungen > Lager > 
 Wenn Sie die Rundungsgenauigkeit (Stellen nach dem Komma) einer Mengeneinheit ändern möchten, öffnen Sie *Lager > Konfiguration > Mengeneinheiten > UoM* und wählen hier die Einheit aus. Im Feld *Rundungsgenauigkeit* geben Sie den entsprechenden Wert ein. 
 
 ::: warning
-Die Anzahl Dezimalstellen für eine Einheit wird unter *Einstellungen > Technisch> Datenbankstruktur > Dezimalstellen* verwaltet. Passen Sie dort den entsprechenden Eintrag an.
+Hier können Sie [Dezimalstellen festlegen](Einstellungen%20Technisch.md#Dezimalstellen%20festlegen).
 :::
 
 Die hier gemachten Einstellung haben Einfluss auf die Darstellung der Zahl.

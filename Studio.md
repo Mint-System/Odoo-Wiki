@@ -80,3 +80,9 @@ Eine App erstellt mit Odoo Studio generiert im Hintergrund Menüeinträge, Daten
 * [Ansicht entfernen](Entwicklung%20Ansichten.md#Ansicht%20entfernen)
 * [Menüeintrag entfernen](Entwicklung.md#Menüeintrag%20entfernen)
 * [Datenmodell entfernen](Entwicklung.md#Datenmodell%20entfernen)
+
+## Dezimalstellen festlegen
+
+Wenn Sie ein Gleitkommazahl-Feld erstellen und in einer Ansicht einfügten, zeigt Odoo nur 2 Stellen nach dem Komma an. Damit mehr Stellen sichtbar werden, müssen Sie die XML-Struktur der Ansicht wie folgt anpassen.
+
+![Studio Dezimalstellen festlegen](assets/Studio%20Dezimalstellen%20festlegen.gif)

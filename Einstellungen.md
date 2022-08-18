@@ -10,12 +10,13 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 
 ## Bereiche
 
-| Bereich                                                     | Beschreibung                                          |
-| ----------------------------------------------------------- | ----------------------------------------------------- |
-| [Einstellungen Übersetzung](Einstellungen%20Übersetzung.md) | Einstellungen zu Sprachpakete und Übersetzungen.      |
-| [Einstellungen Login](Einstellungen%20Login.md)             | Odoo-Einstellungen zum Benutzer und Anmeldeverfahren. |
-| [Einstellungen E-Mail](Einstellungen%20E-Mail.md)           | Odoo mit Plattformen von Dritten integrieren.         |
-| [Einstellungen Datenmanagement](Einstellungen%20Datenmanagement.md)                           | Daten zu Einstellungen exportieren und importieren.                                                      |
+| Bereich                                                             | Beschreibung                                          |
+| ------------------------------------------------------------------- | ----------------------------------------------------- |
+| [Einstellungen Übersetzung](Einstellungen%20Übersetzung.md)         | Einstellungen zu Sprachpakete und Übersetzungen.      |
+| [Einstellungen Login](Einstellungen%20Login.md)                     | Odoo-Einstellungen zum Benutzer und Anmeldeverfahren. |
+| [Einstellungen E-Mail](Einstellungen%20E-Mail.md)                   | Odoo mit Plattformen von Dritten integrieren.         |
+| [Einstellungen Datenmanagement](Einstellungen%20Datenmanagement.md) | Daten zu Einstellungen exportieren und importieren.   |
+| [Einstellungen Technisch](Einstellungen%20Technisch.md)             | Technische Einstellungen zur Odoo-Datenbank.          |
 
 ## Erweiterungen
 
