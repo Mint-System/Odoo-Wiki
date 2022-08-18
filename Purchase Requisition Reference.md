@@ -1,16 +1,16 @@
 ---
 tags:
 - HowTo
-- OCA
-prev: ./einkauf
+- Drittanbieter
+prev: ./einkauf-kaufverträge
 ---
 # Purchase Requisition Reference
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oms_box](assets/icon_oms_box.png)
 
 Feld Lieferantenreferenz auf Kaufvertrag hinzufügen.
 
 Technischer Name: `purchase_requisition_reference`\
-Repository: <https://github.com/OCA/purchase-workflow/tree/14.0/purchase_requisition_reference>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_reference>
 
 ## Feld Lieferantenreferenz auf Kaufvertrag hinzufügen
 

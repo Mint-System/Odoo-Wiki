@@ -1,16 +1,16 @@
 ---
 tags:
 - HowTo
-- OCA
-prev: ./einkauf
+- Drittanbieter
+prev: ./einkauf-kaufverträge
 ---
 # Purchase Requisition Other Information Page
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oms_box](assets/icon_oms_box.png)
 
 Fügt einen "Weitere Informationen" Tab der Formularansicht hinzu.
 
 Technischer Name: `purchase_requisition_other_information_page`\
-Repository: <https://github.com/OCA/purchase-workflow/tree/14.0/purchase_requisition_payment_term>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_other_information_page>
 
 ## Tab "Weitere Informationen" anzeigen
 
