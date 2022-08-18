@@ -203,11 +203,11 @@ except_product_names = ["Gebinde"]
 pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
 # Get moves where qty done it not equal to demand
-fix_moves = pickings.move_lines.filtered(lambda m: (m.quantity_done != m.product_uom_qty) and (m.product_id.name not in except_product_names))
+fix_moves = pickings.move_lines.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
 
+# Set qty done on moves
 if fix_moves:
-	log('Fix qty done for moves: %s' % (fix_moves))
-
+	log('Set qty done for moves: %s' % (fix_moves))
 for move in fix_moves:
     try:
         move.write({'quantity_done': move.product_uom_qty})
@@ -215,13 +215,13 @@ for move in fix_moves:
         log('While writing move %s with origin %s an error occured.' % (move, move.origin), level='error')
       
 # Get lines where qty done is not equal to demand and no move line has been created
-fix_move_lines = pickings.move_line_ids.filtered(lambda l: (l.qty_done != l.move_id.product_uom_qty) and (l.product_id.name not in except_product_names))
+fix_move_lines = fix_moves.mapped('move_line_ids')
 
+# Set qty done with reservation value 
 if fix_move_lines:
 	log('Fix qty done for move lines: %s' % (fix_move_lines))
-
 for line in fix_move_lines:
-    line.write({'qty_done': line.move_id.product_uom_qty})
+    line.write({'qty_done': line.product_uom_qty if line.product_uom_qty >0 else line.move_id.product_uom_qty})
 
 # Assign pickings
 assign_pickings = pickings.filtered(lambda p: p.state in ["confirmed"])

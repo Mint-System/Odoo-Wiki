@@ -71,3 +71,9 @@ Navigieren Sie nach *Lager > Konfiguration > Route* und Route *Einkaufen* auswä
 Wenn Sie beim Einkauf das Lager nicht berücksichtigen wollen. Müssen Sie auf der Route *Auffüllung nach Auftrag (MTO)* die Beschaffungsmethode anpassen:
 
 ![Lager Vorgänge Stock ignorieren](assets/Lager%20Vorgänge%20Stock%20ignorieren.gif)
+
+## Automatische Reservierung deaktivieren
+
+Navigieren Sie nach *Einstellungen > Lager > Vorgänge*. Wählen Sie hier die Option *Manuell oder auf Basis eines automatisierten Zeitplans*.
+
+![](assets/Lager%20Vorgänge%20Reservierung.png)
