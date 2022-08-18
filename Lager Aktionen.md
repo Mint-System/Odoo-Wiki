@@ -22,7 +22,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 ```python
 for record in records:
 	record.sudo().write({
-	  'quantity': 0,W
+	  'quantity': 0
 	})
 ```
 

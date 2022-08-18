@@ -66,3 +66,5 @@ Damit Sie diese Aktion ausführen können, müssen Sie [Superuser werden](Einste
 :::
 
 ![](assets/Lager%20Bestand%20Reservierter%20Bestand%20zurücksetzen.png)
+
+Wenn Sie offene Lieferungen mit reservierten Mengen haben, können Sie die [Aktion Reservierungen zurücksetzen erstellen](Lager%20Aktionen.md#Aktion%20Reservierungen%20zurücksetzen%20erstellen) und ausführen.
