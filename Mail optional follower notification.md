@@ -7,7 +7,7 @@ prev: ./diskussion
 # Mail optional follower notification
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Auswahl ob Nachricht an Abonnent verschickt wird.
+Auswahl Nachrichen an Abonnenten verschicken.
 
 Technischer Name: `mail_optional_follower_notification`\
 Repository: <https://github.com/OCA/social/tree/14.0/mail_optional_follower_notification>

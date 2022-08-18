@@ -24,7 +24,7 @@ In alle Module integrierter privater Chat und Gruppen-Chat.
 | [Sale Order Unsubscribe](Sale%20Order%20Unsubscribe.md)                             | Alle Abonnenten nach Bestätigung des Angebots entfernen.               |
 | [Purchase Order Unsubscribe](Purchase%20Order%20Unsubscribe.md)                     | Alle Abonnenten nach Bestätigung der Bestellung entfernen.             |
 | [Account Move Unsubscribe](Account%20Move%20Unsubscribe.md)                         | Alle Abonnenten nach Buchung eines Buchungssatzes entfernen.           |
-| [Mail optional follower notification](Mail%20optional%20follower%20notification.md) | Auswahl ob Nachricht an Abonnent verschickt wird.                                                                       |
+| [Mail optional follower notification](Mail%20optional%20follower%20notification.md) | Auswahl Nachrichen an Abonnenten verschicken.                          |
 
 ## Versendete Nachrichten betrachten
 
