@@ -10,15 +10,17 @@ Kaufvertäge für Rahmenbestellungen erstellen.
 
 ## Erweiterungen
 
-| Erweiterung                                                                       | Beschreibung                                  |
-| --------------------------------------------------------------------------------- | --------------------------------------------- |
-| [Purchase Requisition Tag](Purchase%20Requisition%20Tag.md)                       | Kaufverträge mit Stichwörter.                 |
-| [Purchase Requisition Order Address](Purchase%20Requisition%20Order%20Address.md) | Bestelladresse auf Kaufverträge.              |
-| [Purchase Requistion Notes](Purchase%20Requistion%20Notes.md)                     | Kaufverträge mit Notizfelder.                 |
-| [Purchase Requisition Incoterm](Purchase%20Requisition%20Incoterm.md)             | Lieferbedinungen auf Kaufverträgen festlegen. |
-| [Purchase Requisition Fiscal](Purchase%20Requisition%20Fiscal.md)                 | Steuerzuordnung auf Kaufverträgen festlegen.  |
-| [Purchase Requisition Send](Purchase%20Requisition%20Send.md)                     | Kaufverträge per E-Mail versenden.            |
-| [Purchase Requisition Payment Term](Purchase%20Requisition%20Payment%20Term.md)       | Kaufverträge mit Zahlungsbedingungen.                                                                                          |
+| Erweiterung                                                                                           | Beschreibung                                                      |
+| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| [Purchase Requisition Tag](Purchase%20Requisition%20Tag.md)                                           | Kaufverträge mit Stichwörter.                                     |
+| [Purchase Requisition Order Address](Purchase%20Requisition%20Order%20Address.md)                     | Bestelladresse auf Kaufverträge.                                  |
+| [Purchase Requistion Notes](Purchase%20Requistion%20Notes.md)                                         | Kaufverträge mit Notizfelder.                                     |
+| [Purchase Requisition Incoterm](Purchase%20Requisition%20Incoterm.md)                                 | Lieferbedinungen auf Kaufverträgen festlegen.                     |
+| [Purchase Requisition Fiscal](Purchase%20Requisition%20Fiscal.md)                                     | Steuerzuordnung auf Kaufverträgen festlegen.                      |
+| [Purchase Requisition Send](Purchase%20Requisition%20Send.md)                                         | Kaufverträge per E-Mail versenden.                                |
+| [Purchase Requisition Payment Term](Purchase%20Requisition%20Payment%20Term.md)                       | Kaufverträge mit Zahlungsbedingungen.                             |
+| [Purchase Requisition Other Information Page](Purchase%20Requisition%20Other%20Information%20Page.md) | Fügt einen "Weitere Informationen" Tab der Formularansicht hinzu. |
+| [Purchase Requisition Reference](Purchase%20Requisition%20Reference.md)                               | Feld Lieferantenreferenz auf Kaufvertrag hinzufügen.              |
 
 ## Kaufvertrag anlegen
 
