@@ -9,7 +9,7 @@ prev: ./lager
 
 Arbeitsflüsse im Lager automatisieren.
 
-# Aktion "Bestand zurücksetzen" erstellen
+## Aktion "Bestand zurücksetzen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -30,7 +30,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Bestand zurücksetzen*.
 
-# Aktion  "Lagerbuchung zurücksetzen" erstellen
+## Aktion  "Lagerbuchung zurücksetzen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -51,7 +51,7 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *
 
 ![](assets/Lager%20Aktion%20%20Lagerbuchung%20Zurücksetzen%20erstellen.png)
 
-# Aktion  "Transfer abbrechen" erstellen
+## Aktion  "Transfer abbrechen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -70,7 +70,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Transfers erscheint nun in der Auswahl *Aktion* das Menu *Transfer zurücksetzen*.
 
-# Aktion  "Lagerbuchung abbrechen" erstellen
+## Aktion  "Lagerbuchung abbrechen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -89,7 +89,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
 
-# Aktion  "Lagerbuchung erledigen" erstellen
+## Aktion  "Lagerbuchung erledigen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -108,7 +108,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung erledigen*.
 
-# Aktion  "Als verfügbar markieren" erstellen
+## Aktion  "Als verfügbar markieren" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -318,7 +318,7 @@ for picking in records:
   picking._action_done()
 ```
 
-# Aktion "Reservierungen zurücksetzen" erstellen
+## Aktion "Reservierungen zurücksetzen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -339,7 +339,7 @@ log('Unreserved these pickings: %s' % (pickings.mapped('name')))
 
 Speichern Sie die Aktion und führen Sie diese mit *Starten* aus.
 
-# Aktion "Reservierter Bestand zurücksetzen" erstellen
+## Aktion "Reservierter Bestand zurücksetzen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
