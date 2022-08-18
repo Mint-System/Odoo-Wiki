@@ -29,7 +29,7 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 
 ## Entwicklermodus aktivieren
 
-Navigieren nach *Einstellungen > Allgemeine Einstellungen > Entwickler Tools*.
+Navigieren nach *Einstellungen > Allgemeine Einstellungen > Entwicklertools*.
 
 Auf *Entwicklermodus aktivieren* klicken. Nun erscheinen neue Optionen in verschiedenen Odoo Apps. In der URL erscheint zusätzlich der Parameter `?debug=1`. Der Entwicklermodus kann auch über die manuelle Eingabe dieses Parameters aktiviert werden.
 
@@ -38,6 +38,16 @@ Eine weitere Möglickeit ist die Installation der Browser-Addon [Odoo Debug](htt
 ![Einstellungen Odoo Debug](assets/Einstellungen%20Odoo%20Debug.png)
 
 Mit einem Mausklick können Sie damit den Entwicklermodus ein- und ausschalten.
+
+## Superuser werden
+
+Aktivieren Sie den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren).
+
+Klicken Sie *Entwicklertools > Superuser werden*. Das Layout von Odoo ändert sich, Sie sind nun Superuser. Um zum normalen Benutzer zu wechseln, müssen Sie sich abmelden.
+
+::: warning
+Im Superuser-Modus werden alle Berechtigungen ignoriert. Das System kann unabsichtlich in einen inkonsistenten Zustand gebracht werden.
+:::
 
 ## Tour deaktivieren
 

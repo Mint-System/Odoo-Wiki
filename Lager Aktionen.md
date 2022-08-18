@@ -9,7 +9,7 @@ prev: ./lager
 
 Arbeitsflüsse im Lager automatisieren.
 
-## Aktion "Bestand zurücksetzen" erstellen
+# Aktion "Bestand zurücksetzen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -22,8 +22,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 ```python
 for record in records:
 	record.sudo().write({
-	  'quantity': 0,
-	  # 'reserved_quantity': 0
+	  'quantity': 0,W
 	})
 ```
 
@@ -31,7 +30,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Bestand zurücksetzen*.
 
-## Aktion  "Lagerbuchung zurücksetzen" erstellen
+# Aktion  "Lagerbuchung zurücksetzen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -52,7 +51,7 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *
 
 ![](assets/Lager%20Aktion%20%20Lagerbuchung%20Zurücksetzen%20erstellen.png)
 
-## Aktion  "Transfer abbrechen" erstellen
+# Aktion  "Transfer abbrechen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -71,7 +70,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Transfers erscheint nun in der Auswahl *Aktion* das Menu *Transfer zurücksetzen*.
 
-## Aktion  "Lagerbuchung abbrechen" erstellen
+# Aktion  "Lagerbuchung abbrechen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -90,7 +89,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
 
-## Aktion  "Lagerbuchung erledigen" erstellen
+# Aktion  "Lagerbuchung erledigen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -109,7 +108,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung erledigen*.
 
-## Aktion  "Als verfügbar markieren" erstellen
+# Aktion  "Als verfügbar markieren" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -129,7 +128,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 Auf der Lagerbuchung erscheint nun in der Auswahl *Aktion* das Menu *Als verfügbar markieren*.
 
-## Geplante Aktion "Los automatisch zuweisen" erstellen
+# Geplante Aktion "Los automatisch zuweisen" erstellen
 
 Die Aktion lädt alle Produklieferungen, welche noch keine Losnummer haben und vergleicht diese mit Produktzugängen. Wenn es einen Produkteingang gibt, der bis einer Woche vor der Lieferung eingeht, wird die Losnummer des Zugang auf die Lieferung übertragen.
 
@@ -145,24 +144,24 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-## Settings
+# Settings
 scope_days = 7
 
-## Get confirmed outgoing pickings
+# Get confirmed outgoing pickings
 pickings_out = env['stock.picking'].search(["&", ["picking_type_code", "=", "outgoing"], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
-## Get confirmed incoming pickings
+# Get confirmed incoming pickings
 pickings_in = env['stock.picking'].search(["&", ["picking_type_code", "=", "incoming"], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
-## Get move lines with lot and tracking enabled
+# Get move lines with lot and tracking enabled
 lot_move_lines = pickings_in.move_line_ids.filtered(lambda l: l.lot_id and l.tracking)
 
-## raise UserError(lot_move_lines)
+# raise UserError(lot_move_lines)
 
-## Get lines where lot is not set and tracking enabled
+# Get lines where lot is not set and tracking enabled
 fix_move_lines = pickings_out.move_line_ids.filtered(lambda l: not l.lot_id and l.tracking)
 
-## raise UserError(fix_move_lines)
+# raise UserError(fix_move_lines)
 
 messages = []
 for line in fix_move_lines:
@@ -181,7 +180,7 @@ if messages:
   log(' '.join(messages))
 ```
 
-## Geplante Aktion "Erledigte Menge korrigieren" erstellen
+# Geplante Aktion "Erledigte Menge korrigieren" erstellen
 
 Diese Aktion prüft ausgehende Lieferungen und setzt die erledigte Menge gemäss Bedarf ohne Berücksichtigung von Materialreservationen.
 
@@ -197,13 +196,13 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-## Set products to ignore
+# Set products to ignore
 except_product_names = ["Gebinde"]
 
-## Get pickings to be processed
+# Get pickings to be processed
 pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
-## Get moves where qty done it not equal to demand
+# Get moves where qty done it not equal to demand
 fix_moves = pickings.move_lines.filtered(lambda m: (m.quantity_done != m.product_uom_qty) and (m.product_id.name not in except_product_names))
 
 if fix_moves:
@@ -215,7 +214,7 @@ for move in fix_moves:
     except:
         log('While writing move %s with origin %s an error occured.' % (move, move.origin), level='error')
       
-## Get lines where qty done is not equal to demand and no move line has been created
+# Get lines where qty done is not equal to demand and no move line has been created
 fix_move_lines = pickings.move_line_ids.filtered(lambda l: (l.qty_done != l.move_id.product_uom_qty) and (l.product_id.name not in except_product_names))
 
 if fix_move_lines:
@@ -224,7 +223,7 @@ if fix_move_lines:
 for line in fix_move_lines:
     line.write({'qty_done': line.move_id.product_uom_qty})
 
-## Assign pickings
+# Assign pickings
 assign_pickings = pickings.filtered(lambda p: p.state in ["confirmed"])
 
 if assign_pickings:
@@ -233,7 +232,7 @@ if assign_pickings:
 for picking in assign_pickings:
     picking.write({'state': 'assigned'})
     
-## Update transport moves
+# Update transport moves
 
 transport_product_name = "Gebinde"
 transport_moves = []
@@ -252,7 +251,7 @@ if transport_moves:
   log('Fix qty done for transport moves: %s' % (transport_moves))
 ```
 
-## Geplante Aktion "Lot automatisch zuweisen" erstellen
+# Geplante Aktion "Lot automatisch zuweisen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -266,19 +265,19 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-## Get outgoing pickings
+# Get outgoing pickings
 pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
-## Get lines where lot is tracked and not set
+# Get lines where lot is tracked and not set
 fix_move_lines = pickings.move_line_ids.filtered(lambda l: not l.lot_id and l.lots_visible)
 
-## Get all products
+# Get all products
 product_tmpl_ids = fix_move_lines.mapped('product_id.product_tmpl_id.id')
 
-## Get forecasted data for products
+# Get forecasted data for products
 replenish_data = env['report.stock.report_product_product_replenishment']._get_report_data(product_tmpl_ids)
 
-## Get incoming move for each fix move line
+# Get incoming move for each fix move line
 for move_line in fix_move_lines:
   incoming_lines = list(filter(lambda l: 
     (l['product']['id'] == move_line.product_id.id) and
@@ -294,7 +293,7 @@ for move_line in fix_move_lines:
       move_line.write({'lot_id':  move_in.move_line_ids[0].lot_id.id})
 ```
 
-## Automatische Aktion "Lieferung erledigen wenn bereit" erstellen
+# Automatische Aktion "Lieferung erledigen wenn bereit" erstellen
 
 Mit dieser automatischen Aktion wird eine Lieferung im Status *Bereit* die erledigte Menge gleich der Bedarfsmenge gesetzt und erledigt.
 
@@ -318,3 +317,45 @@ for picking in records:
     move.write({'state': 'done'})
   picking._action_done()
 ```
+
+# Aktion "Reservierungen zurücksetzen" erstellen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Reservierungen zurücksetzen`\
+Modell: `ir.actions.server`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```python
+# Get outgoing pickings with reservations
+pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["assigned", "partially_available"])])
+# Unreserve pickings
+pickings.do_unreserve()
+# Log picking names
+log('Unreserved these pickings: %s' % (pickings.mapped('name')))
+```
+
+Speichern Sie die Aktion und führen Sie diese mit *Starten* aus.
+
+# Aktion "Reservierter Bestand zurücksetzen" erstellen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Reservierter Bestand zurücksetzen`
+Modell: `stock.quant`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```python
+for record in records:
+	record.sudo().write({
+		'reserved_quantity': 0
+	})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Reservierter Bestand*.
