@@ -147,11 +147,11 @@ Ihre Buchhaltung einfach und korrekt.
 
 [![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)](Finanzen.md)
 
-### [Fleet](Fleet.md)
+### [Fahrzeugflotte](Fahrzeugflotte.md)
 
 Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträge.
 
-[![icons_odoo_fleet](assets/icons_odoo_fleet.png)](Fleet.md)
+[![icons_odoo_fleet](Fahrzeugflotte.md)
 
 ### [Forestry Base](Forestry%20Base.md)
 
