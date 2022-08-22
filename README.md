@@ -107,7 +107,7 @@ In alle Module integrierter privater Chat und Gruppen-Chat.
 
 ### [Einkauf](Einkauf.md)
 
-Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands
+Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands.
 
 [![icons_odoo_purchase](assets/icons_odoo_purchase.png)](Einkauf.md)
 
