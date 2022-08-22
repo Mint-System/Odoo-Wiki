@@ -5,7 +5,7 @@ prev: ./best-practice
 ---
 # Best Practice: Zustände von Einkauf- und Verkaufsaufträgen
 
-Bestellungen, Verkaufsaufträge, Rahmenaufträge und Kaufvertäge durchlaufen verschiedene Stufen. Diese Tabelle bietet eine Übersicht über diese Zustände.
+Bestellungen, Verkaufsaufträge, Rahmenaufträge und Kaufverträge durchlaufen verschiedene Stufen. Diese Tabelle bietet eine Übersicht über diese Zustände.
 
 | Bestellung                     | Verkaufsauftrag         | Rahmenaufträge       | Kaufverträge             |
 | ------------------------------ | ----------------------- | -------------------- | ------------------------ |
