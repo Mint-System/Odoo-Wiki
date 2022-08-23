@@ -171,3 +171,7 @@ Auf Kontakten können Sie Warnungs-Text hinterlegen, welche bei der Ertellung ei
 ## Mahnstufen konfigurieren
 
 Navigieren Sie nach *Abrechnung > Konfiguration > Mahnstufen*. Hier können Sie bestehende Mahnstufen konfigurieren oder neue Erstellen. Eintscheidend bei den Mahnstufen ist das Feld *Nach X bei fällig, tun Sie folgendes:*. Hier können Sie Anzahl Tage (+/-) für den Zeitabstand zur Mahnung erstellen.
+
+## Mahnung versenden
+
+Unbezahlte Rechnung, welche die Zahlungsfrist überschritten haben, können Sie unter *Finanzen > Kunden > Mahnberichte* anzeigen. Wählen Sie einen Eintrag aus und klicken Sie auf *Sende Per E-Mail*.
