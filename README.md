@@ -151,7 +151,7 @@ Ihre Buchhaltung einfach und korrekt.
 
 Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträge.
 
-[![icons_odoo_fleet](Fahrzeugflotte.md)
+![icons_odoo_fleet](assets/icons_odoo_fleet.png)
 
 ### [Forestry Base](Forestry%20Base.md)
 
