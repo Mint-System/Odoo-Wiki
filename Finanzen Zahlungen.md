@@ -110,7 +110,7 @@ Wählen Sie bezahlte Rechnung oder Rechnung in Zahlung via *Finanzen > Lieferant
 
 ![](assets/Finanzen%20Zahlungen%20anzeigen.png)
 
-## Zahlungsreferenz neu geneireren
+## Zahlungsreferenz neu generieren
 
 Wählen Sie die gebuchte Rechnung unter *Finanzen > Lieferanten > Rechnung* und klicken Sie auf *Zurücksetzen*. Entfernen Sie die Inhalte aus dem Feld *Zahlungsreferenz* und bestätigen Sie die Rechnung. Nun sollte eine neue Zahlungsreferenz generiert werden.
 
