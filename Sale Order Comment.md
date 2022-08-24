@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 
 Kommentar auf Verkaufsauftrag.
 
-	Technischer Name: `sale_order_comment`\
+Technischer Name: `sale_order_comment`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_comment>
 
 ## Erweiterungen

@@ -36,7 +36,8 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 | [Sale Order Line Name Get](Sale%20Order%20Line%20Name%20Get.md)                     | Produktname als Anzeigename für Verkaufspositionen.                  |
 | [Sale Order Comment](Sale%20Order%20Comment.md)                                     | Kommentar auf Verkaufsauftrag.                                       |
 | [Sale Product Set](Sale%20Product%20Set.md)                                         | Produktsets definieren und einfach hinzufügen.                       |
-| [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                         | Produktset mit Notizen und Abschnitten.                                                                     |
+| [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                         | Produktset mit Notizen und Abschnitten.                              |
+| [Sale Order Line Purchase Margin](Sale%20Order%20Line%20Purchase%20Margin.md)       | Kalkulation der Marge basierend auf verlinkter Bestellung.           |
 
 ## Verkauf Dashboard anzeigen
 
