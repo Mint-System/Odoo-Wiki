@@ -14,6 +14,7 @@ Odoo-Einstellungen zum Benutzer und Anmeldeverfahren.
 | --------------------------------------------------------------------- | ------------------------------------------------- |
 | [Authentication OpenID Connect](Authentication%20OpenID%20Connect.md) | Login mit OpenID Connect Provider.                |
 | [Mail Service Users](Mail%20Service%20Users.md)                       | Service-Benutzer von Lizenzvertrag ausschliessen. |
+| [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)                     | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.                                                  |
 
 ## Benutzer anzeigen
 
@@ -76,65 +77,18 @@ Benutzername und Passwort können gewählt werden.
 
 ![Einkauf Portal Benutzerkonto registrieren](assets/Einstellungen%20Portal%20Benutzerkonto%20registrieren.png)
 
-## Geplante Aktion "Abteilungsgruppen synchronisieren" erstellen
+## Zwei-Faktor-Authentisierung aktivieren
 
-Diese Aktion erstellt eine Berechtigungsgruppe für jede Abteilungsgruppe und synchronisiert die Benutzer der Abteilungsmitglieder.
+Sie können für Ihren Odoo-Benutzer jederzeit die Zwei-Faktor-Authentisierung einrichten. Klicken Sie dazu auf *Account > Einstellungen* und im Tab *Account Sicherheit* wählen Sie *Aktiviere Zwei-Faktor-Authentifizierung*. Befolgen Sie die Anweisungen im Dialog.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+![](assets/Einstellungen%20Login%20Zwei-Faktor-Authentisierung.png)
 
-Name der Aktion: `Abteilungsgruppen synchronisieren`\
-Modell: `ir.actions.server`\
-Ausführen alle: `15` Minuten\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
-Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+## Einladung zur Zwei-Faktor-Authentisierung verschicken
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Für jeden Benutzer können Sie eine Einladung zur Zwei-Faktor-Authentisierung verschicken. Markieren Sie dazu die Benutzer unter *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie *Aktion > Einladung zur Verwendung der Zwei-Faktor-Authentifizierung*.
 
-```python
-department_ids = env['hr.department'].search([])
-group_ids = env['res.groups'].search([])
+![](assets/Einstellungen%20Login%20Einladung%20zur%20Zwei-Faktor-Authentisierung%20verschicken.png)
 
-messages = []
+## Zwei-Faktor-Authentisierung für einen Benutzer aktivieren
 
-## Create and update the permission group for every department
-for department in department_ids:
-  
-  # Define permission group name
-  name = 'Department ' + department.display_name
-
-  # Get user ids for department and subdepartments
-  department_users = department.member_ids.user_id
-  if department.child_ids:
-    department_users += department.child_ids.member_ids.user_id
-  if department.child_ids.child_ids:
-    department_users += department.child_ids.child_ids.member_ids.user_id
-
-  # Search group
-  group = group_ids.filtered(lambda g: g.name == name)
-  
-  # Create group if it does not exist
-  if not group:
-    messages.append("Create permission group: %s." % (name))
-    group = env['res.groups'].create({
-      'name': name
-    })
-    
-  # Ensure group is unique
-  group.ensure_one()
-    
-  # Get group users
-  group_users = group.users
-
-  # raise Warning([group.name, group_users, department_users, set(group_users) == set(department_users)])
-    
-  # Set members for the group
-  if set(group_users) != set(department_users):
-    messages.append("Set users for group: %s." % (group.name))
-    group.write({
-      'users': department_users
-    })
-    
-if messages:
-  log('\n'.join(messages))
-```
+Sie können die Zwei-Faktor-Authentisierung auch für bestimmte Benutzer aktivieren. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie einen Benutzer aus. Anschliessen klicken Sie auf *Tab Account Sicherheit > Zwei-Faktor-Authentifizierung* und befolgen den Dialog.
