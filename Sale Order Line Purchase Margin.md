@@ -12,7 +12,7 @@ Kalkulation der Marge basierend auf verlinkter Bestellung.
 Technischer Name: `sale_order_line_purchase_margin`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_purchase_margin>
 
-## Verkaufsmarge basierend auf Bestellung berechnen
+## Verkaufsmarge basierend auf Bestellpositionen berechnen
 
 Mit dieser Erweiterungen wird die Marge jeder Verkaufspositionen anhand der Kosten aus der verlinkten Bestellung berechnet.
 
