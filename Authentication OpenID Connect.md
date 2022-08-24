@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - OCA
-prev: ./einstellungen
+prev: ./einstellungen-login
 ---
 # Authentication OpenID Connect
 ![icon_oca_app](assets/icon_oca_app.png)

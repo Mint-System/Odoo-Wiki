@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./einstellungen
+prev: ./einstellungen-login
 ---
 # Auth TOTP IP Check
 ![icon_oms_box](assets/icon_oms_box.png)

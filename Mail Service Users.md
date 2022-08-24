@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./einstellungen
+prev: ./einstellungen-login
 ---
 # Mail Service Users
 ![icon_oms_box](assets/icon_oms_box.png)
