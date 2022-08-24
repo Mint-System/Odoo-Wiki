@@ -159,3 +159,7 @@ Erstellen Sie ein neues Feld unter *Einstellungen > Technisch > Datenbankstruktu
 ![](assets/Entwicklung%20Neues%20Beziehungs-Feld%20hinzufügen.png)
 
 Dieses Feld können Sie nun in Berichten oder Listenansichten anzeigen.
+
+## Systemparameter anlegen
+
+ Öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und erstellen einen Eintrag mit *Schlüssel* und *Wert*.
