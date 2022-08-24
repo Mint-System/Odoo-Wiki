@@ -28,6 +28,7 @@ Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung
 | [Sale Order Line Pos](Sale%20Order%20Line%20Pos.md)                                 | Verkaufsaufträge mit Positionsnummern.                               |
 | [Sale Order Contact Person](Sale%20Order%20Contact%20Person.md)                     | Kontaktperson auf Verkaufsauftrag festlegen.                         |
 | [Sale Order Line Description](Sale%20Order%20Line%20Description.md)                 | Nur Verkausbeschreibung im Feld Beschreibung übertragen.             |
+| [Sale Order Line Description Name](Sale%20Order%20Line%20Description%20Name.md) | Benutze Produktname ohne Referenz wenn Verkaufsbeschreibung leer ist. |
 | [Product Listprice Currency](Product%20Listprice%20Currency.md)                     | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.     |
 | [Sale Force Invoiced](Sale%20Force%20Invoiced.md)                                   | Markieren Sie den Verkaufsauftrag als abgerechnet.                   |
 | [Sale Order Notes](Sale%20Order%20Notes.md)                                         | Verkaufsaufträge mit Notizfelder.                                    |
