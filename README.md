@@ -57,6 +57,12 @@ Neue Apps installieren und aktualisieren.
 
 [![icons_odoo_modules](assets/icons_odoo_modules.png)  ](Apps.md)
 
+## [Aufwand](Aufwand.md)
+
+Spesen erfassen und abrechnen.
+
+[![icons_odoo_hr_expense](assets/icons_odoo_hr_expense.png)](Aufwand.md)
+
 ### [Calendar](Calendar.md)
 
 Termine immer synchronisiert.
