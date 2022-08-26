@@ -22,7 +22,7 @@ Personalbrechnungen schnell und einfach erstellen.
 
 Anhand der Anwesenheit und Abwesenheit erstellt Odoo für jeden Mitarbeitenden entsprechende Arbeitseinträge. Diese sind relevant für die Stundenbasierten Lohnabrechnungen.
 
-Die Arbeitseinträge zeigen Sie via *Personalabrechnung > Arbeitseinträge > Work Entries* an. Hier sehen Sie, ob Mitarbeitende ungeklärte Lücken haben.
+Die Arbeitseinträge zeigen Sie via *Personalabrechnung > Arbeitseinträge >Arbeitseinträge* an. Hier sehen Sie, ob Mitarbeitende ungeklärte Lücken haben.
 
 ## Pesonalabrechnung initialisieren
 
@@ -76,7 +76,7 @@ Legen Sie die Zeitperiode fest, speichern Sie den Eintrag und drücken *Berechne
 
 **Batch**
 
-Navigieren Sie nach *Personalabrechnung > Work Entries > Work Entries* und wählen den aktuellen Monat. Starten Sie den Batch-Vorgang mit *Lohnabrechnung erzeugen*. Für jeden Mitarbeiter wird nun eine Lohnabrechnung erzeugt und steht bereit zur Prüfung.
+Navigieren Sie nach *Personalabrechnung > Arbeitseinträge > Arbeitseinträge* und wählen den aktuellen Monat. Starten Sie den Batch-Vorgang mit *Lohnabrechnung erzeugen*. Für jeden Mitarbeiter wird nun eine Lohnabrechnung erzeugt und steht bereit zur Prüfung.
 
 ![](assets/Personalbrechung%20Lohnabrechnung%20%C3%BCberpr%C3%BCfen.png)
 
