@@ -26,8 +26,11 @@ Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20ko
 * **SMTP Server**: `smtp.outlook.com`
 * **SMTP Port**: 587
 * **Verbindungssicherheit**: TLS
-* **Benutzername**: Mail-Adresse des Odoo Postfach
+* **Benutzername**: Mail-Adresse von Odoo Postfach
 * **Passwort**: Passwort des Odoo Postfach
+* **Aus Filter**: Mail-Adresse von Odoo Postfach
+
+![](assets/Einstellungen%20E-Mail%20Ausgehender%20Mail-Server%20Office%20365.png)
 
 Ab Odoo 15 müssen Sie lediglich diese Parameter wählen:
 
