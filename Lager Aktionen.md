@@ -359,3 +359,30 @@ for record in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Reservierter Bestand*.
+
+## Aktion "Reservierungen aufheben" erstellen
+
+Mit dieser Aktion können Sie alle Reservierungen für ein Produktaufheben.
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Reservierungen zurücksetzen`\
+Modell: `product.template`\
+Folgeaktion: `Python-Code ausführen`\
+Sicherheit-Gruppennamen: `Lager \ Administrator`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```python
+for product_id in records:
+	# Get outgoing moves with reservations
+	move_ids = env['stock.move'].search([ "&", ("product_id", "=", product_id.id), ("state", "in", ["assigned"]) ])
+	# Unreserve moves
+	move_ids._do_unreserve()
+	# Log picking names
+	log('Unreserved these moves: %s' % (move_ids.mapped('reference')))
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Ansicht der Produkte haben Sie nun die Auswahl *Aktion > Reservierungen aufheben*.
