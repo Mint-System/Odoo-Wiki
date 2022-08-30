@@ -385,6 +385,7 @@ for product_id in records:
 Kopieren Sie den Eintrag und passen Sie ihn wie folgt an:
 
 Modell: `product.template`\
+Pythoncode:
 
 ```python
 for product_id in records.product_variant_id:
