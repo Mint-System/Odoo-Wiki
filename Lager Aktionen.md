@@ -128,7 +128,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 Auf der Lagerbuchung erscheint nun in der Auswahl *Aktion* das Menu *Als verfügbar markieren*.
 
-# Geplante Aktion "Los automatisch zuweisen" erstellen
+## Geplante Aktion "Los automatisch zuweisen" erstellen
 
 Die Aktion lädt alle Produklieferungen, welche noch keine Losnummer haben und vergleicht diese mit Produktzugängen. Wenn es einen Produkteingang gibt, der bis einer Woche vor der Lieferung eingeht, wird die Losnummer des Zugang auf die Lieferung übertragen.
 
@@ -180,7 +180,7 @@ if messages:
   log(' '.join(messages))
 ```
 
-# Geplante Aktion "Erledigte Menge korrigieren" erstellen
+## Geplante Aktion "Erledigte Menge korrigieren" erstellen
 
 Diese Aktion prüft ausgehende Lieferungen und setzt die erledigte Menge gemäss Bedarf ohne Berücksichtigung von Materialreservationen.
 
@@ -251,7 +251,7 @@ if transport_moves:
   log('Fix qty done for transport moves: %s' % (transport_moves))
 ```
 
-# Geplante Aktion "Lot automatisch zuweisen" erstellen
+## Geplante Aktion "Lot automatisch zuweisen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -293,7 +293,7 @@ for move_line in fix_move_lines:
       move_line.write({'lot_id':  move_in.move_line_ids[0].lot_id.id})
 ```
 
-# Automatische Aktion "Lieferung erledigen wenn bereit" erstellen
+## Automatische Aktion "Lieferung erledigen wenn bereit" erstellen
 
 Mit dieser automatischen Aktion wird eine Lieferung im Status *Bereit* die erledigte Menge gleich der Bedarfsmenge gesetzt und erledigt.
 
@@ -367,7 +367,7 @@ Mit dieser Aktion können Sie alle Reservierungen für ein Produktaufheben.
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reservierungen zurücksetzen`\
-Modell: `product.template`\
+Modell: `product.product`\
 Folgeaktion: `Python-Code ausführen`\
 Sicherheit-Gruppennamen: `Lager \ Administrator`
 
@@ -375,14 +375,26 @@ Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```python
 for product_id in records:
-	# Get outgoing moves with reservations
+	# Get assigned moves for product
 	move_ids = env['stock.move'].search([ "&", ("product_id", "=", product_id.id), ("state", "in", ["assigned"]) ])
-	# Unreserve moves
-	move_ids._do_unreserve()
-	# Log picking names
-	log('Unreserved these moves: %s' % (move_ids.mapped('reference')))
+	if move_ids:
+		move_ids._do_unreserve()
+		log('Unreserved moves for product: %s' % product_id.display_name)
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Kopieren Sie den Eintrag und passen Sie in wie folgt an:
+
+Modell: `product.template`\
+
+```python
+for product_id in records.product_variant_id:
+	# Get assigned moves for first variant
+	move_ids = env['stock.move'].search([ "&", ("product_id", "=", product_id.id), ("state", "in", ["assigned"]) ])
+	if move_ids:
+		move_ids._do_unreserve()
+		log('Unreserved moves for product: %s' % product_id.display_name)
+```
+
+Beide Aktionen mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 In der Ansicht der Produkte haben Sie nun die Auswahl *Aktion > Reservierungen aufheben*.
