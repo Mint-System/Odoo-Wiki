@@ -382,7 +382,7 @@ for product_id in records:
 		log('Unreserved moves for product: %s' % product_id.display_name)
 ```
 
-Kopieren Sie den Eintrag und passen Sie in wie folgt an:
+Kopieren Sie den Eintrag und passen Sie ihn wie folgt an:
 
 Modell: `product.template`\
 
@@ -395,6 +395,6 @@ for product_id in records.product_variant_id:
 		log('Unreserved moves for product: %s' % product_id.display_name)
 ```
 
-Beide Aktionen mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Beide Aktionen mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
 
 In der Ansicht der Produkte haben Sie nun die Auswahl *Aktion > Reservierungen aufheben*.
