@@ -67,7 +67,7 @@ Die Checkbox *I want to update data (import-compatible export)* markieren.
 Mit der Funktion *I want to update data* wird erreicht, dass die in der Datenbank vorhandenen Einträge überschrieben werden.
 :::
 
-## Massenmutation machen
+## Massenmutation durchführen
 
 In der Listenansicht können Datensätze ausgewählt und als Sammelmutation geändert werden. Das folgende Beispiel zeigt die Änderung des Feldes *Verantwortlich*.
 
