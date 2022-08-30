@@ -7,5 +7,8 @@
   "trashOption": "local",
   "promptDelete": false,
   "legacyEditor": false,
-  "livePreview": false
+  "livePreview": false,
+  "userIgnoreFilters": [
+    "node_modules/"
+  ]
 }
