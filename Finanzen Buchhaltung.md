@@ -106,7 +106,6 @@ Wählen Sie *Stornobuchungssatz* unterhalb von *Bearbeiten*. Diese Auswahl ersch
 
 Beim Klick öffnet dieser Dialog:
 
-
 ![](assets/Finanzen%20Buchhaltung%20Stornieren.png)
 
 Wählen Sie das Journal und das Datum für die neue Buchung. Bestätigen Sie den Vorgang mit *Stornieren.*
@@ -116,6 +115,14 @@ Nun wird ein umgekehrter Buchungssatz erstellt.
 ![](assets/Finanzen%20Buchhaltung%20Umkehrung.png)
 
 Diesen können Sie wie gewohnt anpassen.
+
+## Buchungssatz abbrechen
+
+Einmal gebuchte Buchungssätze können nicht gelöscht, aber abgebrochen werden. Zeigen Sie einen Buchungssatz an *Finanzen > Finanzen > Buchungssätze* und klicken Sie auf *Zurücksetzen*. Anschliessend wählen Sie *Buchung Abrechen*. 
+
+![](assets/Finanzen%20Buchhaltung%20Abgebrochen.png)
+
+Den abgebrochenen Buchungssatz können Sie mit *Zurücksetzen* wieder in den Entwurfsstatussetzen und von dort aus wieder buchen.
 
 ## Buchungssatz importieren
 
