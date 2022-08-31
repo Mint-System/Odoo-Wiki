@@ -179,3 +179,17 @@ Sie müssen eine [Externe ID erfassen](Entwicklung.md#Externe%20ID%20erfassen) m
 * **Datensatz-ID**: Tragen Sie hier die *ID* aus den [Metadaten anzeigen](Entwicklung.md#Metadaten%20anzeigen) eines Benutzers ein.
 
 Mit der neuen externen ID bestimmen Sie einen anderen Bentuzer als Administrator.
+
+## Office 365 SMTP-Verbindung abbruch
+
+### Problem
+
+Beim Testen der SMTP-Verbindung mit Office 365 erscheint dieser Fehler:
+
+```
+5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant.
+```
+
+### Lösung
+
+Prüfen Sie die SMTP-Einstellungen für den Benutzer und den Nachrichtenfluss von Exchange Online.

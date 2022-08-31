@@ -23,7 +23,7 @@ Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladun
 Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen (bis Odoo 14):
 
 * **Beschreibung**: Office 365 Outgoing
-* **SMTP Server**: `smtp.outlook.com`
+* **SMTP Server**: `smtp.office365.com`
 * **SMTP Port**: 587
 * **Verbindungssicherheit**: TLS
 * **Benutzername**: Mail-Adresse von Odoo Postfach
@@ -57,15 +57,15 @@ Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20ko
 
 * **Beschreibung**: Office 365 Incoming
 * **Servertyp**: IMAP Server
-* **Servername**: `imap.outlook.com`
-* **Port**: 587
+* **Servername**: `outlook.office365.com`
+* **Port**: 993
 * **SSL/TLS**: Option markieren
 * **Benutzername**: Mail-Adresse des Odoo Postfach
 * **Passwort**: Passwort des Odoo Postfach
 
 Ab Odoo 15 müssen Sie lediglich diese Parameter wählen:
 
-* **Beschreibung**: Office 365 Outgoing
+* **Beschreibung**: Office 365 Incoming
 * **Outlook**: Option markieren
 * **Benutzername**: Mail-Adresse des Odoo Postfach
 
