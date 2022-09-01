@@ -8,6 +8,8 @@ prev: ./
 
 Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
+Website: <https://www.odoo.com/de_DE/app/timesheet>
+
 ## Bereiche
 
 | Bereich                                           | Beschreibung                                        |

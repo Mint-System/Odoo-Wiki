@@ -8,6 +8,8 @@ prev: ./
 
 Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.
 
+Website: <https://www.odoo.com/de_DE/app/studio>
+
 ## Bereiche
 
 | Bereich                                   | Beschreibung                               |

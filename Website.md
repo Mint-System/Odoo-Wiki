@@ -8,6 +8,8 @@ prev: ./
 
 Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 
+Website: <https://www.odoo.com/de_DE/app/website>
+
 ## Bereiche
 
 | Bereich                                   | Beschreibung                          |

@@ -8,6 +8,8 @@ prev: ./website
 
 Webshop ohne Integrationsaufwand.
 
+Website: <https://www.odoo.com/de_DE/app/ecommerce>
+
 ## Erweiterungen
 
 | Erweiterung                                         | Beschreibung                               |

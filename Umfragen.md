@@ -8,6 +8,8 @@ prev: ./
 
 Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
 
+Website: <https://www.odoo.com/de_DE/app/surveys>
+
 ## Umfrage erstellen
 
 Navigieren Sie nach *Umfragen* und wählen Sie *+ Anlegen*. Vergeben Sie eine passende Bezeichnung. Im Tab *Optionen* können Sie die Umfrage gemäss ihren Anforderungen anpassen.

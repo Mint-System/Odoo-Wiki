@@ -8,6 +8,8 @@ prev: ./
 
 Agiles Projektmanagement. Schön. Einfach. Open Source.
 
+Website: <https://www.odoo.com/de_DE/app/project>
+
 ## Bereiche
 
 | Bereich                                   | Beschreibung                         |

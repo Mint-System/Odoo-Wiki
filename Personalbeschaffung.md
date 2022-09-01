@@ -8,6 +8,8 @@ prev: ./
 
 Einstellungsprozess leicht gemacht.
 
+Website: <https://www.odoo.com/de_DE/app/recruitment>
+
 ## Erweiterungen
 
 | Erweiterung                                                 | Beschreibung |

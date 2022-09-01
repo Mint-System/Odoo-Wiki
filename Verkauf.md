@@ -8,6 +8,8 @@ prev: ./
 
 Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung. 
 
+Website: <https://www.odoo.com/de_DE/app/sales>
+
 ## Bereiche
 
 | Bereich                                       | Beschreibung                                                                                                     |

@@ -8,6 +8,8 @@ prev: ./
 
 Personalmanagement für moderne Unternehmen.
 
+Website: <https://www.odoo.com/de_DE/app/employees>
+
 ## Bereiche
 
 | Bereich                                           | Beschreibung                        |

@@ -8,6 +8,8 @@ prev: ./
 
 Management des Produktlebenszyklus für moderne Firmen.
 
+Website: <https://www.odoo.com/de_DE/app/plm>
+
 ## ECO-Typ und Stufen erfassen
 
 Um einen ECO-Type zu erfassen navigieren Sie nach *PLM > Konfiguration > ECO-Typen*. Mit einem klick auf *+ Anlegen* erstellen Sie einen neuen Typen.
