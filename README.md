@@ -7,11 +7,11 @@ head:
       content: Umfassende Dokumentation der Odoo-Funktionen
     - name: keywords
       content: odoo wiki dokumentation howto referenz prozesse best-practice
-    - name: og:type
+    - property: og:type
       content: article
-    - name: og:title
+    - property: og:title
       content: Odoo Wiki
-    - name: og:description
+    - property: og:description
       content: Umfassende Dokumentation der Odoo-Funktionen
 ---
 
