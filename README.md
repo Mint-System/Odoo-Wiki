@@ -1,20 +1,10 @@
 ---
 head:
-  - meta:
-    - name: title
-      content: Odoo Wiki
-    - name: description
-      content: Umfassende Dokumentation der Odoo-Funktionen
-    - name: keywords
-      content: odoo wiki dokumentation howto referenz prozesse best-practice
-    - property: og:type
-      content: article
-    - property: og:title
-      content: Odoo Wiki
-    - property: og:description
-      content: Umfassende Dokumentation der Odoo-Funktionen
+  - - meta
+    - name: foo
+      content: yaml array syntax
+  - [meta, { name: bar , content: square brackets syntax }]
 ---
-
 # Odoo Wiki
 
 Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus vier Perspektiven:
