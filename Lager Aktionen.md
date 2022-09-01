@@ -376,7 +376,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 ```python
 for product_id in records:
 	# Get assigned moves for product
-	move_ids = env['stock.move'].search([ "&", ("product_id", "=", product_id.id), ("state", "in", ["assigned"]) ])
+	move_ids = env['stock.move'].search([ "&", ("product_id", "=", product_id.id), ("state", "in", ["assigned", "partially_available"]) ])
 	if move_ids:
 		move_ids._do_unreserve()
 		log('Unreserved moves for product: %s' % product_id.display_name)
@@ -390,7 +390,7 @@ Pythoncode:
 ```python
 for product_id in records.product_variant_id:
 	# Get assigned moves for first variant
-	move_ids = env['stock.move'].search([ "&", ("product_id", "=", product_id.id), ("state", "in", ["assigned"]) ])
+	move_ids = env['stock.move'].search([ "&", ("product_id", "=", product_id.id), ("state", "in", ["assigned", "partially_available"]) ])
 	if move_ids:
 		move_ids._do_unreserve()
 		log('Unreserved moves for product: %s' % product_id.display_name)
