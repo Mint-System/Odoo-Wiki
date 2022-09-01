@@ -1,4 +1,3 @@
-```
 ---
 head:
   - - meta
@@ -9,7 +8,6 @@ head:
     - name: og:description
       content: Umfassende Dokumentation der Odoo-Funktionen
 ---
-```
 
 # Odoo Wiki
 
