@@ -1,14 +1,15 @@
 ---
+title: Abonnements
+description: Wiederkehrende Rechnungsstellung und Management von Abonnenten auf einfache Art und Weise.
 tags:
 - HowTo
 prev: ./
 ---
-# Abonnements
+# {{ $frontmatter.title }}
 
 ![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)
 
-Wiederkehrende Rechnungsstellung und Management von Abonnenten auf einfache 
-Art und Weise.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/subscriptions>
 
