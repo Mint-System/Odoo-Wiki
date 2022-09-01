@@ -8,6 +8,8 @@ prev: ./
 
 Neue Apps installieren und aktualisieren.
 
+Website: <https://www.odoo.com/de_DE/page/all-apps>
+
 ## Erweiterungen
 
 | Erweiterung                                                 | Beschreibung                                |
