@@ -1,6 +1,10 @@
 ---
 head:
   - - meta
+	- name: title
+      content: Odoo Wiki
+    - name: description
+      content: Umfassende Dokumentation der Odoo-Funktionen
     - name: og:type
       content: article
     - name: og:title
