@@ -1,3 +1,16 @@
+```
+---
+head:
+  - - meta
+    - name: og:type
+      content: article
+    - name: og:title
+      content: Odoo Wiki
+    - name: og:description
+      content: Umfassende Dokumentation der Odoo-Funktionen
+---
+```
+
 # Odoo Wiki
 
 Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus vier Perspektiven:
