@@ -8,6 +8,8 @@ prev: ./
 
 Ihre Buchhaltung einfach und korrekt.
 
+Website: <https://www.odoo.com/de_DE/app/accounting>
+
 ## Bereiche
 
 | Bereich                                                         | Beschreibung                                                |

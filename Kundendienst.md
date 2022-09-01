@@ -8,6 +8,8 @@ prev: ./
 
 Für einen fantastischen Kundenservice.
 
+Website: <https://www.odoo.com/de_DE/app/helpdesk>
+
 ## Bereiche
 
 | Bereich                                                           | Beschreibung                                       |

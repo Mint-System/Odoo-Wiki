@@ -8,6 +8,8 @@ prev: ./
 
 Eine moderne Lösung für ein altes Problem.
 
+Website: <https://www.odoo.com/de_DE/app/manufacturing>
+
 ## Bereiche
 
 | Bereich                                           | Beschreibung                                   |

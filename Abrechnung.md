@@ -8,6 +8,8 @@ prev: ./
 
 Online Rechnungsstellung leicht gemacht.
 
+Website: <https://www.odoo.com/de_DE/app/invoicing>
+
 ## Erweiterungen
 
 | Erweiterung                                                                         | Beschreibung                                                                                       |

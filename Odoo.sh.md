@@ -8,6 +8,8 @@ prev: ./
 
 The Odoo Cloud Platform.
 
+Website: <https://www.odoo.sh/>
+
 ## Projekt mit Github-Benutzer teilen
 
 Odoo.sh Projekte sind an ein Github-Repository gekoppelt, wenn Sie einem Benutzer Zugriff auf das Projekt geben möchten, müssen Sie den Github-Benutzernamen in den Projekteinstellungen hinterlegen.

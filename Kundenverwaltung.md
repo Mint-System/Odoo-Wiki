@@ -8,6 +8,8 @@ prev: ./
 
 Verfolgen Sie Leads, schließen Sie Chancen ab und erhalten Sie genaue Prognosen.
 
+Website: <https://www.odoo.com/de_DE/app/crm>
+
 ## Chance erstellen
 
 Öffnen Sie die App *Kundenverwaltung* und klicken Sie auf *Anlegen*. Wählen Sie als erstes einen Kunden aus und geben Sie einen passenden Titel ein.

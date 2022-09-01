@@ -8,6 +8,8 @@ prev: ./
 
 Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträge.
 
+Website: <https://www.odoo.com/de_DE/app/fleet>
+
 ## Fahrzeug erfassen
 
 Zeigen Sie *Fahrzeugflotte* an und erstellen Sie einen neuen Eintrag.

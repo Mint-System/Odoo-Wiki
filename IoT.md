@@ -8,6 +8,8 @@ prev: ./
 
 Alles, was das "Internet der Dinge (IoT)" bietet.
 
+Website: <https://www.odoo.com/de_DE/app/iot>
+
 ## Bereiche
 
 | Bereich                                                         | Beschreibung               |

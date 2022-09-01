@@ -8,6 +8,8 @@ prev: ./
 
 In alle Module integrierter privater Chat und Gruppen-Chat.
 
+Website: <https://www.odoo.com/de_DE/app/discuss>
+
 ## Bereiche
 
 | Bereich                                                         | Beschreibung                                                           |

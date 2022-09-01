@@ -8,6 +8,8 @@ prev: ./
 
 Sparen Sie Zeit beim Erfassen von Rechnungen, Scannen von Verträgen und bei der Freigabe von Dokumenten.
 
+Website: <https://www.odoo.com/de_DE/app/documents>
+
 ## Erweiterungen
 
 | Erweiterung   | Beschreibung                               |

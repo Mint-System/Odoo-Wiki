@@ -8,6 +8,8 @@ prev: ./
 
 Teilen Sie ihr Wissen mit der eLearning-Plattform.
 
+Website: <https://www.odoo.com/de_DE/app/elearning>
+
 ## Leaderboard und Achievements ausblenden
 
 Navigieren Sie zur ihrer Website und öffnen Sie die Kursseite. Wählen Sie *Bearbeiten* und klicken anschliessend auf *Anpassen*. Im geöffneten Menu können Leaderboards und Achievements deaktiviert werden.

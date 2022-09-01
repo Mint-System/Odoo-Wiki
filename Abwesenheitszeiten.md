@@ -8,6 +8,8 @@ prev: ./
 
 Verwaltung von Mitarbeiterurlauben & Abwesenheit
 
+Wesite: <https://www.odoo.com/de_DE/app/time-off>
+
 ## Erweiterungen
 
 | Erweiterung                                                                               | Beschreibung                                                                                                       |

@@ -8,6 +8,8 @@ prev: ./
 
 Maximieren Sie die Effizienz Ihres Lagers.
 
+Website: <https://www.odoo.com/de_DE/app/inventory>
+
 ## Bereiche
 
 | Bereich                                                 | Beschreibung                           |
