@@ -14,12 +14,12 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 
 | Bereich                                       | Beschreibung                                                                                                     |
 | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| [Order Positions](Order%20Positions.md)       | Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen. |
+| [Verkauf Abrechnung](Verkauf%20Abrechnung.md) | Verkaufsaufträge unkompliziert abrechnen.                                                                        |
+| [Verkauf Berichte](Verkauf%20Berichte.md)     | Verkaufsdaten immer aktuell.                                                                                     |
+| [Verkauf Projekt](Verkauf%20Projekt.md)       | Dienstleistungen mit Verkauf und Projekt abwickeln.                                                              |
 | [Verkauf Stammdaten](Verkauf%20Stammdaten.md) | Produkte, Preislisten und Varianten zentral pflegen.                                                             |
 | [Verkauf Versand](Verkauf%20Versand.md)       | Versandmethoden und Logistik definieren.                                                                         |
-| [Order Positions](Order%20Positions.md)       | Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen. |
-| [Verkauf Berichte](Verkauf%20Berichte.md)     | Verkaufsdaten immer aktuell.                                                                                     |
-| [Verkauf Abrechnung](Verkauf%20Abrechnung.md) | Verkaufsaufträge unkompliziert abrechnen.                                                                        |
-| [Verkauf Projekt](Verkauf%20Projekt.md)       | Dienstleistungen mit Verkauf und Projekt abwickeln.                                                              |
 
 ## Erweiterungen
 

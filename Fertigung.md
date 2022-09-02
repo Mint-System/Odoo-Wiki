@@ -14,8 +14,8 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 
 | Bereich                                           | Beschreibung                                   |
 | ------------------------------------------------- | ---------------------------------------------- |
-| [Fertigung Stammdaten](Fertigung%20Stammdaten.md) | Produkte und Dienstleistungen zentral pflegen. |
 | [Fertigung Aktionen](Fertigung%20Aktionen.md)     | Fertigungs-Prozesse automatisieren.            |
+| [Fertigung Stammdaten](Fertigung%20Stammdaten.md) | Produkte und Dienstleistungen zentral pflegen. |
 
 ## Erweiterungen
 
@@ -29,6 +29,7 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 | [MRP Production Release](MRP%20Production%20Release.md)                                         | Fertigungsaufträge können zurückgesetzt und freigegebenen werden.                |
 | [MRP Production Unplan Move](MRP%20Production%20Unplan%20Move.md)                               | Zukünftiges Datum auf Lagerbuchung bei Planungsabruch festlegen.                 |
 | [MRP Production Update Upstream Move](MRP%20Production%20Update%20Upstream%20Move.md)           | Aktualisiere offene Pickings von Fertigungsaufträgen bei Änderungen.             |
+| [MRP Workorder Disable Autostart](MRP%20Workorder%20Disable%20Autostart.md)                     | Bei Aufruf von Arbeitsaufträgen in der Tablet-Ansicht nicht automatisch starten. |
 | [MRP Workorder Set Producing Qty](MRP%20Workorder%20Set%20Producing%20Qty.md)                   | Arbeitsauftrag startet ohne erledigte Menge.                                     |
 | [Manufacture Production Move Date](Manufacture%20Production%20Move%20Date.md)                   | Lieferdatum auf Fertigungsauftrag bearbeiten.                                    |
 | [Manufacturing BoM Consumption](Manufacturing%20BoM%20Consumption.md)                           | Definieren Sie eine Stückliste, die bei der Lieferung verschrottet wird.         |
@@ -40,7 +41,6 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 | [Product State](Product%20State.md)                                                             | Lebenszyklus von Produkten festlegen.                                            |
 | [Product Type Description](Product%20Type%20Description.md)                                     | Zu jedem Produkt ein Beschreibungsfeld.                                          |
 | [Secondary Product Type Description](Secondary%20Product%20Type%20Description.md)               | Zu jedem Produkt ein zweites Beschreibungsfeld.                                  |
-| [MRP Workorder Disable Autostart](MRP%20Workorder%20Disable%20Autostart.md)                     | Bei Aufruf von Arbeitsaufträgen in der Tablet-Ansicht nicht automatisch starten. |
 
 ## Videos
 
