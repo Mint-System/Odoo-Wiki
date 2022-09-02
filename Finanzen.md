@@ -113,6 +113,10 @@ Zeigen Sie *Finanzen > Kunden > Rechnung* an und filtern Sie die Rechnung nach *
 
 Navigieren Sie nach *Finanzen > Kunden > Rechnungen* und wählen Sie *Filter > Benutzerdefinierten Filter hinzufügen*. Als Feld definieren Sie *Rechnung Verschickt* mit Bedingung *Ist falsch*. Nun erhalten Sie alle unversendeneten Rechnungen.
 
+## Standard-Versandoptionen definieren
+
+Zeigen Sie den  Abschnitt *Finanzen > Konfiguration > Einstellungen > Ausgangsrechnungen* an. Legen Sie im Bereich *Standard-Versandoptionen* die Standardoptionen zum Versand fest.
+
 ## Zahlungsbedingung mit Rabatt einrichten
 
 Navigieren Sie nach *Finanzen > Konfiguration > Abrechnung > Zahlungsbedingungen* und erstellen Sie einen neuen Eintrag wie folgt. Duplizieren Sie eine bestehende Zahlungsbedingung, beispielsweise *30 Tage*. Wir nehmen an, dass wir für eine Zahlung innerhalb von Tagen 10 eine Skonto von 10% gewähren.
