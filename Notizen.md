@@ -8,6 +8,23 @@ prev: ./
 
 Notizen zentral verwalten.
 
+## Notiz erstellen
+
+Rufen Sie die App *Notizen* und erstellen Sie einen neuen Eintrag.
+
+::: tip
+Die erste Notizzeile wird in der Kanban-Ansicht als Titel der Notiz angezeigt.
+:::
+
+![](assets/Notizen%20erstellen.png)
+
+
+## Notiz-Stufen anpassen
+
+Bearbeiten Sie die Notiz-Stufen unter *Notizen > Konfiguration > Stufen*.
+
+![](assets/Notizen%20Stufen.png)
+
 ## Notizen teilen
 
 Um eine Notiz mit einem internen Odoo-Benutzer zu teilen, kann man dieses als Abonnent der Notiz hinzufügen.
