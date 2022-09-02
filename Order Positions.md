@@ -12,10 +12,10 @@ Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechn
 
 | Erweiterung                                                           | Beschreibung                                                                  |
 | --------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| [Sale Order Line Pos](Sale%20Order%20Line%20Pos.md)                   | Verkaufsaufträge mit Positionsnummern.                                        |
-| [Purchase Order Line Position](Purchase%20Order%20Line%20Position.md) | Einkaufsaufträge mit Positionsnummern.                                        |
 | [Account Move Line Position](Account%20Move%20Line%20Position.md)     | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.              |
 | [MRP BoM Position](MRP%20BoM%20Position.md)                           | Jede Komponente in der Stückliste erhält eine Positionsnummer.                |
+| [Purchase Order Line Position](Purchase%20Order%20Line%20Position.md) | Einkaufsaufträge mit Positionsnummern.                                        |
+| [Sale Order Line Pos](Sale%20Order%20Line%20Pos.md)                   | Verkaufsaufträge mit Positionsnummern.                                        |
 | [Stock Move Line Position](Stock%20Move%20Line%20Position.md)         | Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen. |
 
 ## Positionen auf Berichten anzeigen

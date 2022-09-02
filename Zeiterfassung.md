@@ -12,10 +12,10 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 
 ## Bereiche
 
-| Bereich                                           | Beschreibung                                        |
+| Bereich                                               | Beschreibung                                        |
 | ----------------------------------------------------- | --------------------------------------------------- |
-| [Terminal Zeiterfassung](Terminal%20Zeiterfassung.md) | Ein- und auschecken mit dem Terminal Zeiterfassung. |
 | [Awesome Timesheet](Awesome%20Timesheet.md)           | Mobile Zeiterfassung.                               |
+| [Terminal Zeiterfassung](Terminal%20Zeiterfassung.md) | Ein- und auschecken mit dem Terminal Zeiterfassung. |
 
 ## Eintrag manuell erstellen
 

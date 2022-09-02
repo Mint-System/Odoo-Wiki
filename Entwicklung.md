@@ -13,17 +13,17 @@ Odoo mühelos anpassen und erweitern.
 | Bereich                                                     | Beschreibung                                                |
 | ----------------------------------------------------------- | ----------------------------------------------------------- |
 | [Entwicklung Aktionen](Entwicklung%20Aktionen.md)           | Eigene Odoo Aktionen erstellen.                             |
-| [Entwicklung Snippets](Entwicklung%20Snippets.md)           | Einfache Anpassungen mit den Mint System Snippets umsetzen. |
-| [Entwicklung QWeb-Berichte](Entwicklung%20QWeb-Berichte.md) | Eigene Berichte mit QWeb erstellen.                         |
 | [Entwicklung Ansichten](Entwicklung%20Ansichten.md)         | Odoo Ansichten anpassen.                                    |
+| [Entwicklung QWeb-Berichte](Entwicklung%20QWeb-Berichte.md) | Eigene Berichte mit QWeb erstellen.                         |
+| [Entwicklung Snippets](Entwicklung%20Snippets.md)           | Einfache Anpassungen mit den Mint System Snippets umsetzen. |
 
 ## Erweiterungen
 
 | Erweiterung                           | Beschreibung                                    |
 | ------------------------------------- | ----------------------------------------------- |
-| [Web Timeline](Web%20Timeline.md)     | Die Timeline-Ansicht für alle Objekte.          |
-| [Mass Editing](Mass%20Editing.md)     | Mühelos mehrere Einträge auf einmal bearbeiten. |
 | [BI SQL Editor](BI%20SQL%20Editor.md) | Ganz einfach SQL-basierte Berichte erstellen.   |
+| [Mass Editing](Mass%20Editing.md)     | Mühelos mehrere Einträge auf einmal bearbeiten. |
+| [Web Timeline](Web%20Timeline.md)     | Die Timeline-Ansicht für alle Objekte.          |
 
 ## Assets-Bundel neu generieren
 

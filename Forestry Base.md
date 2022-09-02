@@ -16,8 +16,8 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-Forestry/tree/15.
 | Erweiterung                                   | Beschreibung                                          |
 | --------------------------------------------- | ----------------------------------------------------- |
 | [Forestry Project](Forestry%20Project.md)     | Erweiterung Projektmanagement für die Holzwirtschaft. |
-| [Forestry Timesheet](Forestry%20Timesheet.md) | Erweiterung Zeiterfassung für die Holzwirtschaft.     |
 | [Forestry Stock](Forestry%20Stock.md)         | Erweiterung Lager für die Holzwirtschaft.             |
+| [Forestry Timesheet](Forestry%20Timesheet.md) | Erweiterung Zeiterfassung für die Holzwirtschaft.     |
 
 ## Kontakt als Ort markieren
 

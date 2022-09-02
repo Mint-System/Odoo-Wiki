@@ -14,18 +14,18 @@ Website: <https://www.odoo.com/de_DE/app/employees>
 
 | Bereich                                           | Beschreibung                        |
 | ------------------------------------------------- | ----------------------------------- |
-| [Personal Verträge](Personal%20Verträge.md)       | Personalverträge zentral verwalten. |
 | [Personal Aktivitäten](Personal%20Aktivitäten.md) | Aktivitäten für Personal verwalten. |
+| [Personal Verträge](Personal%20Verträge.md)       | Personalverträge zentral verwalten. |
 
 ## Erweiterungen
 
 | Erweiterung                                                 | Beschreibung                                                       |
 | ----------------------------------------------------------- | ------------------------------------------------------------------ |
-| [HR Birthday Calender](HR%20Birthday%20Calender.md)         | Kalenderansicht aller Geburtstage.                                 |
-| [HR Shortname](HR%20Shortname.md)                           | Zu jedem Mitarbeitenden ein Kürzel speichern.                      |
-| [HR Employee Skill](HR%20Employee%20Skill.md)               | Übersicht der Mitarbeiterfähigkeiten.                              |
 | [HR Activity Date](HR%20Activity%20Date.md)                 | Plannungstypen mit Aktivitätsdatum basierend auf Arbeitsverträgen. |
-| [HR Employee Employ Like](HR%20Employee%20Employ%20Like.md) | Neues Feld Anstellung wie auf Mitarbeitenden.                            |
+| [HR Birthday Calender](HR%20Birthday%20Calender.md)         | Kalenderansicht aller Geburtstage.                                 |
+| [HR Employee Employ Like](HR%20Employee%20Employ%20Like.md) | Neues Feld Anstellung wie auf Mitarbeitenden.                      |
+| [HR Employee Skill](HR%20Employee%20Skill.md)               | Übersicht der Mitarbeiterfähigkeiten.                              |
+| [HR Shortname](HR%20Shortname.md)                           | Zu jedem Mitarbeitenden ein Kürzel speichern.                      |
 
 > Odoo unterscheidet zwischen Benutzer und Mitarbeiter. Mitarbeiter müssen nicht zwingend einen Odoo-Account besitzen. Zur Verwendung von Apps wie die Zeiterfassung muss den Benutzern ein Mitarbeiter hinterlegt werden.
 

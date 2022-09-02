@@ -12,22 +12,22 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 
 | Bereich                                                             | Beschreibung                                          |
 | ------------------------------------------------------------------- | ----------------------------------------------------- |
-| [Einstellungen Übersetzung](Einstellungen%20Übersetzung.md)         | Einstellungen zu Sprachpakete und Übersetzungen.      |
-| [Einstellungen Login](Einstellungen%20Login.md)                     | Odoo-Einstellungen zum Benutzer und Anmeldeverfahren. |
-| [Einstellungen E-Mail](Einstellungen%20E-Mail.md)                   | Odoo mit Plattformen von Dritten integrieren.         |
+| [Einstellungen Aktionen](Einstellungen%20Aktionen.md)               | Odoo-Einstellungen automatisieren.                    |
 | [Einstellungen Datenmanagement](Einstellungen%20Datenmanagement.md) | Daten zu Einstellungen exportieren und importieren.   |
+| [Einstellungen E-Mail](Einstellungen%20E-Mail.md)                   | Odoo mit Plattformen von Dritten integrieren.         |
+| [Einstellungen Login](Einstellungen%20Login.md)                     | Odoo-Einstellungen zum Benutzer und Anmeldeverfahren. |
 | [Einstellungen Technisch](Einstellungen%20Technisch.md)             | Technische Einstellungen zur Odoo-Datenbank.          |
-| [Einstellungen Aktionen](Einstellungen%20Aktionen.md)               | Odoo-Einstellungen automatisieren.                                                      |
+| [Einstellungen Übersetzung](Einstellungen%20Übersetzung.md)         | Einstellungen zu Sprachpakete und Übersetzungen.      |
 
 ## Erweiterungen
 
 | Erweiterung                                           | Beschreibung                                   |
 | ----------------------------------------------------- | ---------------------------------------------- |
-| [Web Responsive](Web%20Responsive.md)                 | Responsive Anzeige der Odoo-Oberfläche.        |
-| [Impersonate](Impersonate.md)                         | Schnelles Wechseln zwischen Benutzer-Accounts. |
+| [Auth OAuth Keycloak](Auth%20OAuth%20Keycloak)        | Ermöglich Keycloak Integration mit Odoo OAuth. |
 | [Home Background Image](Home%20Background%20Image.md) | Den Odoo-Startbildschirm gestalten.            |
+| [Impersonate](Impersonate.md)                         | Schnelles Wechseln zwischen Benutzer-Accounts. |
 | [Show DB Name](Show%20DB%20Name.md)                   | Zeigt den Datenbanknamen oben rechts an.       |
-| [Auth OAuth Keycloak](Auth%20OAuth%20Keycloak)        | Ermöglich Keycloak Integration mit Odoo OAuth.                                               |
+| [Web Responsive](Web%20Responsive.md)                 | Responsive Anzeige der Odoo-Oberfläche.        |
 
 ## Entwicklermodus aktivieren
 

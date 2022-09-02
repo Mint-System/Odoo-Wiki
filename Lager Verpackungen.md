@@ -12,8 +12,8 @@ Verpackungen effizient verwalten.
 
 | Erweiterung                                                     | Beschreibung                                   |
 | --------------------------------------------------------------- | ---------------------------------------------- |
-| [Stock Move Line Packaging](Stock%20Move%20Line%20Packaging.md) | Verknüpfen der Verpackung von Verkaufsauftrag. |
 | [Stock Barcode Packaging](Stock%20Barcode%20Packaging.md)       | Verpackung auf Strichcode-Vorgang anzeigen.    |
+| [Stock Move Line Packaging](Stock%20Move%20Line%20Packaging.md) | Verknüpfen der Verpackung von Verkaufsauftrag. |
 
 ## Produktverpackung erfassen
 
