@@ -13,6 +13,7 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 | Bereich                                                             | Beschreibung                                          |
 | ------------------------------------------------------------------- | ----------------------------------------------------- |
 | [Einstellungen Aktionen](Einstellungen%20Aktionen.md)               | Odoo-Einstellungen automatisieren.                    |
+| [Einstellungen Berechtigungen](Einstellungen%20Berechtigungen.md)   | Einstellungen zur Zugriffsrechte und Gruppen.         |
 | [Einstellungen Datenmanagement](Einstellungen%20Datenmanagement.md) | Daten zu Einstellungen exportieren und importieren.   |
 | [Einstellungen E-Mail](Einstellungen%20E-Mail.md)                   | Odoo mit Plattformen von Dritten integrieren.         |
 | [Einstellungen Login](Einstellungen%20Login.md)                     | Odoo-Einstellungen zum Benutzer und Anmeldeverfahren. |
