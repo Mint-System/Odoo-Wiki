@@ -26,7 +26,7 @@ Um die Liste der verfügbaren Apps zu aktualisieren, wechseln Sie in den [Entwic
 
 ## App installieren
 
-Rufen Sie die Liste der verfügbaren Apps auf. Suchen Sie die App, die installieren möchten und klicken Sie auf *Installieren*.
+Rufen Sie die Liste der verfügbaren Apps auf. Suchen Sie die App, die Sie installieren möchten und klicken Sie auf *Installieren*.
 
 ![](assets/Apps%20installieren%20und%20aktualisieren.png)
 
@@ -64,3 +64,23 @@ for record in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 In der Liste der Apps erscheint nun in der Auswahl *Aktion* das Menu *Modul aktualisieren*.
+
+## App deinstallieren
+
+Rufen Sie die Liste der verfügbaren Apps auf. Suchen Sie die App, die Sie deinstallieren möchten und klicken Sie auf *Kontext-Menü > Deinstallieren*.
+
+![](assets/Apps%20App%20deinstallieren.png)
+
+::: warning
+Je nach Abhängigkeit und Definition der App, werden Daten gelöscht oder die Odoo-Installation in einen fehlerhaften Zustand versetzt.
+:::
+
+## App entfernen
+
+Die Lister der Odoo-Apps ist eine Abbild der Modul-Struktur auf dem Odoo-Server. Wurde ein Modul auf dem Server entfernt, müssen Sie dieses manuell von der App-Liste entfernen. Wählen Sie dazu *Apps > Listenansicht > App markieren > Aktion > Löschen*.
+
+![](assets/Apps%20App%20entfernen.png)
+
+::: tip
+Wenn die App-Liste aktualisiert wird, sollte die gelöschte App nicht mehr erscheinen.
+:::
