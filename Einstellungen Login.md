@@ -92,3 +92,13 @@ Für jeden Benutzer können Sie eine Einladung zur Zwei-Faktor-Authentisierung v
 ## Zwei-Faktor-Authentisierung für einen Benutzer aktivieren
 
 Sie können die Zwei-Faktor-Authentisierung auch für bestimmte Benutzer aktivieren. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie einen Benutzer aus. Anschliessen klicken Sie auf *Tab Account Sicherheit > Zwei-Faktor-Authentifizierung* und befolgen den Dialog.
+
+## Start-Aktion für Benutzer definieren
+
+Wenn der Benutzer einloggt, kann eine Aktion ausgeführt werden. Diese Aktion legen Sie im Entwicklermodus unter *Einstellungen > Benutzer und Unternehmen > Benutzer > Benutzer auswählen > Tab Einstellungen* im Feld *Aktionen* fest.
+
+::: warning
+Einige Aktionen haben den gleichen Namen, testen Sie die Auswahl vorgängig mit ein- und ausloggen. Ändern Sie den Anzeigenamen der Aktionen nach Bedarf.
+:::
+
+![](assets/Einstellungen%20Login%20Start-Aktion.png)
