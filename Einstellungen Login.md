@@ -18,11 +18,17 @@ Odoo-Einstellungen zum Benutzer und Anmeldeverfahren.
 
 ## Benutzer anzeigen
 
-Benutzer verwalten Sie unter *Einstellungen > Benutzer und Unternehmen > Benutzer.*
+Benutzer verwalten Sie unter *Einstellungen > Benutzer und Unternehmen > Benutzer*.
+
+## Benutzertyp festlegen
+
+Odoo unterscheidet zwischen internen und externen Benutzer. Den Benutzer-Typ legen Sie unter Einstellungen > Benutzer und Unternehmen > Benutzer* im Feld *User types* fest.
+
+![](assets/Einstellungen%20Login%20Benutzertypen.png)
 
 ## Kundenkonto Einladungsverfahren festlegen
 
-für Kunden, Teilnehmer und Partner kann ein Odoo-Zugang eingerichtet werden. Unter *Einstellungen > Benutzer > Kundenkonto* hat man zwei Optionen:
+Für Kunden, Teilnehmer und Partner kann ein Odoo-Zugang eingerichtet werden. Unter *Einstellungen > Benutzer > Kundenkonto* hat man zwei Optionen:
 
 * **Auf Einladung**: Benutzer werden explizit mit einer E-Mail eingeladen.
 * **Kostenlose Anmeldung**: Benutzer können sich über die Odoo-Website selber anmelden und erhalten standardmässig einen Portal-Benutzer.
