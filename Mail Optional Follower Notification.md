@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./diskussion
 ---
-# Mail optional follower notification
+# Mail Optional Follower Notification
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Auswahl Nachrichen an Abonnenten verschicken.

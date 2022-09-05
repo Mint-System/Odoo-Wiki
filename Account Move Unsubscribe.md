@@ -17,3 +17,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/account_m
 Mit dieser Erweiterung werden beim Buchen eines Buchungssatzes alle Abonnenten bis auf den aktuellen Benutzer entfernt.
 
 ![](assets/Account%20Move%20Unsubscribe.png)
+
+## Alle Abonnenten entfernen
+
+Wenn Sie den [Systemparameter](Entwicklung.md#Systemparameter%20anlegen) mit Schlüssel `mail.unsubscribe_all` und Wert `True` anlegen, werden alle Abonnenten entfernt.
