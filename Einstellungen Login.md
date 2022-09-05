@@ -22,7 +22,7 @@ Benutzer verwalten Sie unter *Einstellungen > Benutzer und Unternehmen > Benutze
 
 ## Benutzertyp festlegen
 
-Odoo unterscheidet zwischen internen und externen Benutzer. Den Benutzer-Typ legen Sie unter Einstellungen > Benutzer und Unternehmen > Benutzer* im Feld *User types* fest.
+Odoo unterscheidet zwischen internen und externen Benutzer. Den Benutzertyp legen Sie unter Einstellungen > Benutzer und Unternehmen > Benutzer* im Feld *Benutzertyp* fest.
 
 ![](assets/Einstellungen%20Login%20Benutzertypen.png)
 
