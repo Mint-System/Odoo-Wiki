@@ -29,7 +29,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | Erweiterung                                                                                                     | Beschreibung                                                                |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [Acccount Move Accounting Description](Acccount%20Move%20Accounting%20Description.md)                           | Beschreibungsfeld für Rechnungszeile.                                       |
-| [Account Missing Menus](Account%20Missing%20Menus.md)                                                     | Zusätzliche Menu-Punkte von Finanzen anzeigen.                              |
+| [Account Missing Menus](Account%20Missing%20Menus.md)                                                           | Zusätzliche Menu-Punkte von Finanzen anzeigen.                              |
 | [Account Move Line Accounting Description Stock](Account%20Move%20Line%20Accounting%20Description%20Stock)      | Beschreibung Lagerbuchung auf Rechnung übertragen.                          |
 | [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)                                   | Lieferaufträge mit Rechnungszeile verlinken.                                |
 | [Account Move Line Position](Account%20Move%20Line%20Position.md)                                               | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.            |
@@ -38,12 +38,13 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)                                               | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren.           |
 | [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                           | PDF-Dokumenten von Rechnungen zusammenführen.                               |
 | [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                     | Allow discount deduction on vendor bills.                                   |
-| [Recurring - Contracts Management](Contract.md)                                                                 | Wiederholende Verträge verwalten und automatisch verrechnen.                |
+| [Recurring Contracts Management](Recurring%20Contracts%20Management.md)                                         | Wiederholende Verträge verwalten und automatisch verrechnen.                |
+| [Swiss QR-ESR Scan](Swiss%20QR-ESR%20Scan.md)                                                                   | Rechnung anhand QR-Daten erstellen.                                         |
 | [Switzerland Bank type](Switzerland%20Bank%20Type.md)                                                           | Lokalisierung für Schweizer Banken und Bankkontos.                          |
 | [Switzerland Disable Default Reports](Switzerland%20Disable%20Default%20Reports.md)                             | Generierung der QR- und ISR-Berichte deaktivieren.                          |
 | [Switzerland Invoice Reports with payment option](Switzerland%20Invoice%20Reports%20with%20payment%20option.md) | Rechnung mit ISR- und/oder QR-Zahlung drucken.                              |
 | [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                                               | Generierung der QR-Rechnung ohne ISR-Nummer.                                |
-| [Switzerland QR-bill scan](Switzerland%20QR-bill%20scan.md)                                                     | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
+| [Switzerland QR-Bill Scan](Switzerland%20QR-Bill%20Scan.md)                                                     | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
 
 ## Rechnung per E-Mail empfangen
 

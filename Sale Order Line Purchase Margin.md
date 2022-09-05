@@ -17,7 +17,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 Mit dieser Erweiterungen wird die Marge jeder Verkaufspositionen anhand der Kosten aus der verlinkten Bestellung berechnet.
 
 ::: warning
-Wenn es mehrere verlinkte Bestellpositionen gibt, wird der Durchschnitt aus den Kosten berechnet.
+Wenn es mehrere verlinkte Bestellpositionen gibt, wird der Durchschnitt aus deren Kosten berechnet.
 :::
 
 ![Sale Order Line Purchase Margin](assets/Sale%20Order%20Line%20Purchase%20Margin.gif)
