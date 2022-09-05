@@ -38,3 +38,8 @@ Für jede Staging-Phase können Sie eine bestimmte Azahl Branches haben. Möchte
 
 ![](assets/Odoo.sh%20Delete.png)
 
+## Build-Verhalten bei Commit festlegen
+
+Wenn Sie auf einen Staging- oder Entwicklungs-Branch committen, erstellt Odoo.sh standardmässig einen neuen Build. In bestimmten Fällen ist dies nicht erwünscht. Das Verhalten können Sie unter *Branch > Settings* festlegen.
+
+![](assets/Odoo.sh%20Behavior%20Commit.png)
