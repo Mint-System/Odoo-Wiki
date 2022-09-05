@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./finanzen
 ---
-# Account - Missing Menus
+# Account Missing Menus
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Zusätzliche Menu-Punkte von Finanzen anzeigen.

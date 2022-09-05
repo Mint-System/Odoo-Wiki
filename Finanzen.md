@@ -29,7 +29,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | Erweiterung                                                                                                     | Beschreibung                                                                |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [Acccount Move Accounting Description](Acccount%20Move%20Accounting%20Description.md)                           | Beschreibungsfeld für Rechnungszeile.                                       |
-| [Account - Missing Menus](Account%20-%20Missing%20Menus.md)                                                     | Zusätzliche Menu-Punkte von Finanzen anzeigen.                              |
+| [Account Missing Menus](Account%20Missing%20Menus.md)                                                     | Zusätzliche Menu-Punkte von Finanzen anzeigen.                              |
 | [Account Move Line Accounting Description Stock](Account%20Move%20Line%20Accounting%20Description%20Stock)      | Beschreibung Lagerbuchung auf Rechnung übertragen.                          |
 | [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)                                   | Lieferaufträge mit Rechnungszeile verlinken.                                |
 | [Account Move Line Position](Account%20Move%20Line%20Position.md)                                               | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.            |
