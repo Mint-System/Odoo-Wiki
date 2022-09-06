@@ -77,7 +77,7 @@ Je nach Abhängigkeit und Definition der App, werden Daten gelöscht oder die Od
 
 ## App entfernen
 
-Die Lister der Odoo-Apps ist eine Abbild der Modul-Struktur auf dem Odoo-Server. Wurde ein Modul auf dem Server entfernt, müssen Sie dieses manuell von der App-Liste entfernen. Wählen Sie dazu *Apps > Listenansicht > App markieren > Aktion > Löschen*.
+Die Liste der Odoo-Apps ist ein Abbild der Modul-Struktur auf dem Odoo-Server. Wurde ein Modul auf dem Server entfernt, müssen Sie dieses manuell von der App-Liste entfernen. Wählen Sie dazu *Apps > Listenansicht > App markieren > Aktion > Löschen*.
 
 ![](assets/Apps%20App%20entfernen.png)
 
