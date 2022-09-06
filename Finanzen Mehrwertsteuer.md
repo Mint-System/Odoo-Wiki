@@ -66,3 +66,9 @@ Der Fehlbetrag wird im Aktionsformular eingetragen.
 Und daraus wird diese Buchung generiert.
 
 ![](assets/Finanzen%20Mehrwertsteuer%20Steueranpassung%20Buchung.png)
+
+## Standard-Steuer auf Konto hinterlegen
+
+Für jedes Konto können Sie einen Standard-Steuersatz hinterlegen. Rufen Sie das Konto in der Formularansicht auf und legen Sie den Steuersatz im Feld *Standard Steuern* fest.
+
+![](assets/Finanzen%20Mehrwertsteuer%20Standard%20Steuern.png)

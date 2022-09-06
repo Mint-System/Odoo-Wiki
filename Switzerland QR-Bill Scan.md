@@ -7,7 +7,6 @@ prev: ./finanzen
 # Switzerland QR-Bill Scan
 ![icon_oca_app](assets/icon_oca_app.png)
 
-
 Daten aus QR-Code bei Rechnungsimport auslesen.
 
 Technischer Name: `l10n_ch_qr_bill_scan`\
