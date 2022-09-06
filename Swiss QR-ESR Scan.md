@@ -28,7 +28,7 @@ Geben Sie die QR-Daten mithilfe eines Scanners in das Feld *Scan of the invoice*
 QR-Daten aus QR-Rechnungen beginnen immer mit der Zeile *SPC* (Swiss Payments Code).
 :::
 
-Ist der Kontakt noch nicht erfasst, können Sie diesen Erstellen lassen. In diesem Dialog können Sie auch das Aufwandskonto auswählen.
+Ist der Kontakt noch nicht erfasst, können Sie diesen direkt erstellen. Im selben Dialog wählen Sie das Aufwandskonto aus.
 
 ![](assets/Swiss%20QR-ESR%20Scan%20Wizard%20Create%20Partner.png)
 
@@ -58,7 +58,7 @@ Legen Sie eine neue Rechnung unter *Abrechnung > Kunden > Rechnungen* oder *Abre
 
 ## Standard-Aufwandskonto auf Kontakt hinterlegen
 
-Bearbeiten Sie den Kontakt und navigieren Sie zum Tab *Abrechung*. Auf der rechten Seite sehen Sie die Standardkonten für die Buchhaltung. Legen Sie im Feld *Expense Import Account* das Aufwandskonto für den Kontakt fest.
+Bearbeiten Sie den Kontakt und navigieren Sie zum Tab *Abrechnung*. Auf der rechten Seite sehen Sie die Standardkonten für die Buchhaltung. Legen Sie im Feld *Expense Import Account* das Aufwandskonto für den Kontakt fest.
 
 ![](assets/Pasted%20image%2020220906091650.png)
 
