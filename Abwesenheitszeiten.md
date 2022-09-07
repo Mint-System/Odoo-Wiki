@@ -23,7 +23,7 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 
 ## Abwesenheitstypen erfassen
 
-Jede Abwesenheit und Abwesenheitsanspruch wird einem Abwesenheitstyp zugeordnet. Damit Sie jährliche Feriensaldis korrekt erfassen, müssen Sie für jedes Jahr einen Abwesenheitstyp erfassen. Navigieren Sie nach *Abwesenheitszeiten > Konfiguratin > Abwesenheitstypen* und duplizieren Sie einen bestehenden Typ. Legen Sie im Bereich *Gültigkeit* das Von- und Bis-Datum fest. Dazu ein Beispiel:
+Jede Abwesenheit und Abwesenheitsanspruch wird einem Abwesenheitstyp zugeordnet. Damit Sie jährliche Feriensaldis korrekt erfassen, müssen Sie für jedes Jahr einen Abwesenheitstyp erfassen. Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und duplizieren Sie einen bestehenden Typ. Legen Sie im Bereich *Gültigkeit* das Von- und Bis-Datum fest. Dazu ein Beispiel:
 
 ![](assets/Abwesenheitszeiten%20Übersicht%20Abwesenheitstypen.png)
 

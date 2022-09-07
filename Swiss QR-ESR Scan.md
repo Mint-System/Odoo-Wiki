@@ -65,4 +65,3 @@ Bearbeiten Sie den Kontakt und navigieren Sie zum Tab *Abrechnung*. Auf der rech
 ::: tip
 Damit die Standardkonten für die Buchhaltung sichtbar sind, muss der Odoo-Benutzer über die Berechtigung *Buchhaltungsfunktionen anzeigen - schreibgeschützt* verfügen.
 :::
-

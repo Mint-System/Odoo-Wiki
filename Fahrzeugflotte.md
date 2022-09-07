@@ -10,6 +10,12 @@ Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträg
 
 Website: <https://www.odoo.com/de_DE/app/fleet>
 
+## Erweiterungen
+
+| Erweiterung                                                 | Beschreibung                                        |
+| ----------------------------------------------------------- | --------------------------------------------------- |
+| [Employee Vehicle Request](Employee%20Vehicle%20Request.md) | Fahrzeug-Reservationen für Mitarbeitende verwalten. |
+
 ## Fahrzeug erfassen
 
 Zeigen Sie *Fahrzeugflotte* an und erstellen Sie einen neuen Eintrag.
