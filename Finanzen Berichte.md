@@ -119,3 +119,9 @@ Angenommen Sie möchten einen bestimmten Konten-Bereich, beispielsweise von 1500
 Alle Anlagen und Abschreibungen können Sie unter *Finanzen > Berichtswesen > Abschreibungszeitplan* anzeigen.
 
 ![](assets/Finanzen%20Berichte%20Abschreibungszeitplan.png)
+
+## Budget zusammenfassen
+
+Navigieren Sie nach *Finanzen > Berichtswesen > Budgetanalyse*. Entfernen Sie die Filter und Gruppieren Sie die Einträge nach *Budgetposition*.
+
+![](assets/Finanzen%20Berichte%20Budgetanalyse.png)

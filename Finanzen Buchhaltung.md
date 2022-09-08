@@ -142,3 +142,9 @@ Um eine Rechnungsabgrenzung in Odoo vorzunehmen, wählen Sie die Rechnung via *F
 ![](assets/Abrechnung%20Rechnungsabgrenzung.png)
 
 Mit *Create Journal Entries* wird die Buchung und Gegenbuchung für die Rechnungsabgrenzung erstellt.
+
+## Manuelle Buchung ohne Steuer erstellen
+
+Entfernen Sie den Steuersatz in der Spalte *Steuern*, wenn Sie keine Mehrwertsteuer-Buchung im Buchungssatz möchten.
+
+![Account Buchhaltung Manuelle Buchung ohne Steuer](assets/Account%20Buchhaltung%20Manuelle%20Buchung%20ohne%20Steuer.gif)
