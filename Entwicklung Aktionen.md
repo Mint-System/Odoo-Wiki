@@ -92,3 +92,24 @@ expiration_date = now + datetime.timedelta(days=35)
 expiration_date = expiration_date.strftime('%Y-%m-%d %H:%M:%S')
 env['ir.config_parameter'].sudo().set_param('database.expiration_date', expiration_date)
 ```
+
+## Aktion "Recompute field" erstellen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Recompute field`\
+Modell: `ir.model.fields`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```python
+records.ensure_one()
+field = records
+obj = env[field.model_id.model]
+env.add_to_compute(obj._fields[field.name], obj.search([]))
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Felder erscheint nun in der Auswahl *Aktion* das Menu *Recompute field*.
