@@ -10,7 +10,7 @@ prev: ./einkauf
 Kaufverträge mit Zahlungsbedingungen.
 
 Technischer Name: `purchase_requisition_payment_term`\
-Repository: <https://github.com/OCA/purchase-workflow/tree/14.0/purchase_requisition_payment_term>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_payment_term>
 
 ## Zahlungsbedingungen auf Kaufvertrag festlegen
 
