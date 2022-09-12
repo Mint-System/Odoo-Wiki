@@ -25,6 +25,6 @@ Bestätigen Sie die Anfrage mit *Send Request*.
 
 Wählen Sie eine eine Anfrage unter *Personal > Vehicle Request > Vehicle Request* aus und bestätigen Sie diese it *Approve*.
 
-## Fahrzeug returnieren
+## Fahrzeug retournieren
 
 Wählen Sie eine eine bestätigte Anfrage unter *Personal > Vehicle Request > Vehicle Request* aus und klicken Sie auf *Return*.

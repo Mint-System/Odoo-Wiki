@@ -12,9 +12,10 @@ Website: <https://www.odoo.com/de_DE/app/fleet>
 
 ## Erweiterungen
 
-| Erweiterung                                                 | Beschreibung                                        |
-| ----------------------------------------------------------- | --------------------------------------------------- |
-| [Employee Vehicle Request](Employee%20Vehicle%20Request.md) | Fahrzeug-Reservationen für Mitarbeitende verwalten. |
+| Erweiterung                                                               | Beschreibung                                         |
+| ------------------------------------------------------------------------- | ---------------------------------------------------- |
+| [Employee Vehicle Request](Employee%20Vehicle%20Request.md)               | Fahrzeug-Reservationen für Mitarbeitende verwalten.  |
+| [Fleet Employee Vehicle Request](Fleet%20Employee%20Vehicle%20Request.md) | Brückenmodul für Fahrzeugflotte und Fahrzeuganfrage. |
 
 ## Fahrzeug erfassen
 
