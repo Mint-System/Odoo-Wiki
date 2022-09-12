@@ -20,6 +20,6 @@ Navigieren Sie nach *Einstellungen > Technisch > Metrics* und erstellen Sie eine
 
 ## Odoo-Metriken abrufen
 
-Die Odoo-Metriken werden unter `/metrics` bereitgestellt. Rufen Sie Sie die Metrik-Seite mit der Url <http://example.com/metrics> auf.
+Die Odoo-Metriken werden unter `/metrics` bereitgestellt. Rufen Sie Sie die Metrik-Seite mit der Url <https://example.com/metrics> auf.
 
 ![](assets/Prometheus%20Exporter%20Metrics.png)
