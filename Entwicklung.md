@@ -1,4 +1,4 @@
----
+	---
 tags:
 - HowTo
 prev: ./
@@ -19,11 +19,12 @@ Odoo mühelos anpassen und erweitern.
 
 ## Erweiterungen
 
-| Erweiterung                           | Beschreibung                                    |
-| ------------------------------------- | ----------------------------------------------- |
-| [BI SQL Editor](BI%20SQL%20Editor.md) | Ganz einfach SQL-basierte Berichte erstellen.   |
-| [Mass Editing](Mass%20Editing.md)     | Mühelos mehrere Einträge auf einmal bearbeiten. |
-| [Web Timeline](Web%20Timeline.md)     | Die Timeline-Ansicht für alle Objekte.          |
+| Erweiterung                                     | Beschreibung                                    |
+| ----------------------------------------------- | ----------------------------------------------- |
+| [BI SQL Editor](BI%20SQL%20Editor.md)           | Ganz einfach SQL-basierte Berichte erstellen.   |
+| [Mass Editing](Mass%20Editing.md)               | Mühelos mehrere Einträge auf einmal bearbeiten. |
+| [Web Timeline](Web%20Timeline.md)               | Die Timeline-Ansicht für alle Objekte.          |
+| [Prometheus Exporter](Prometheus%20Exporter.md) | Odoo-Metriken mit Prometheus monitoren.         |
 
 ## Assets-Bundel neu generieren
 
