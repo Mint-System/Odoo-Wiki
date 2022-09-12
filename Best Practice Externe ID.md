@@ -15,7 +15,7 @@ Wenn man Datensätze aus Odoo exportiert, generiert Odoo eine XML-ID. Anhand die
 
 ## Produktvarianten
 
-Beim Einschalten der Produktvarianen generiert Odoo für alle bestehenden Datensätze eine externe ID.
+Beim Einschalten der Produktvarianten generiert Odoo für alle bestehenden Datensätze eine externe ID.
 
 Ohne Produktvarianten:
 
