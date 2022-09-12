@@ -102,6 +102,7 @@ Hierzu eine Übersicht der wichtigsten Berichte und deren URL:
 | Barcodes (PDF)            | `/report/html/stock.label_transfer_template_view_pdf/$ID`           |
 | Fertigungsauftrag         | `/report/html/mrp.report_mrporder/$ID`                              |
 | Kaufvertrag               | `/report/html/purchase_requisition.report_purchaserequisitions/$ID` |
+| Angebotsanfrage           | `/report/html/purchase.report_purchasequotation/$ID`                | 
 
 ::: tip
 Bestimmte Bericht können mehere Dokumente anzeigen. Für die HTML-Anzeige können Sie die Dokument-IDs Komma-getrennt übergeben: /report/html/**stock.report_deliveryslip**/**3,4,5**
