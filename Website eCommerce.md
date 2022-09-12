@@ -104,3 +104,9 @@ Wenn das Gewicht des Warenkorbs unter Null fällt, fallen die Lieferkosten auf N
 Für die Produkte, welche keine Lieferkosten geneieren sollen, geben Sie als Gewicht -0.01 ein und für alle anderen Produkte ein Gewicht grösser als Null ein:
 
 ![](assets/Website%20eCommerce%20Gutschein%20Gewicht.png)
+
+## Aufträge von Website an Team oder Verkäufer zuweisen
+
+Unter *Einstellungen > Website > Order Followup* im Bereich *Assignment* können Sie bestimmten an welche Person oder Team neue Aufträge zugewiesen werden sollen.
+
+![](assets/Website%20eCommerce%20Zuweisung.png)

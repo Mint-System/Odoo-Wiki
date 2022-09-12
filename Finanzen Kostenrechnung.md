@@ -23,3 +23,15 @@ Zeigen Sie *Finanzen > Berichtswesen > Verwaltung > Kostenbericht* an. Wählen S
 ## Rechnung auf einer Kostenstelle belasten
 
 Zeigen Sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an. Auf der Rechnungszeile können Sie eine Kostenstelle in der entsprechenden Spalte festlegen.
+
+## Budget anlegen
+
+Navigieren Sie Nach *Finanzen > Finanzen > Budgets* und erstellen Sie einen neuen Eintrag. Legen Sie einen Namen und die Periode fest. Anschliessen können Sie [Budgezeile anlegen](#Budgezeile%20anlegen)
+
+## Budgezeile anlegen
+
+Öffnen Sie ein Budget in der Formularansicht unter *Finanzen > Finanzen > Budgets* und wählen im Tab *Budgetposition* die Aktion *Eintrag Hinzufügen*. Wählen Sie eine bestehende Budgetposition aus oder [erfassen Sie eine neue Budgetpositoin](#Budgeposition%20erfassen)
+
+## Budgeposition erfassen
+
+Navigieren Sie nach *Finanzen > Konfiguration > Budgetpositionen* und erstellen Sie einen neuen Eintrag. Geben Sie dem Position einen Namen und fügen ein oder mehrere Konten hinzu.

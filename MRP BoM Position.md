@@ -10,7 +10,7 @@ prev: ./fertigung
 Jede Komponente in der Stückliste erhält eine Positionsnummer.
 
 Technischer Name: `mrp_bom_position`\
-Repository: <https://github.com/OCA/product-attribute/tree/14.0/mrp_bom_position>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_bom_position>
 
 ## Positionsnummern generieren
 

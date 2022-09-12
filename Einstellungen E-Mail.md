@@ -111,3 +111,9 @@ der Eintrag `mail.catchall.domain` unter *Einstellungen > Technisch > Parameter 
 In der E-Mail-Vorlage muss im Tab *E-Mail-Konfiguration* das feld *Antwort an* gesetzt sein.
 
 ![](assets/Einstellungen%20E-Mail%20Konfiguration.png)
+
+## E-Mail nach Versand nicht löschen
+
+Damit E-Mail nach dem Versand nicht aus der Odoo-Datenbank und dem Postfach gelöscht wird, können Sie in den E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > Vorlagen > Vorlage auswählen > Tab Erweiterte Einstellungen* die Option *Autom. Löschen* deaktivieren.
+
+Nach dem Versand der E-Mail können Sie die [E-Mail anzeigen](Diskussion%20E-Mail.md#E-Mail%20anzeigen).

@@ -59,6 +59,6 @@ In der Formular-Ansicht können Sie unter *Asset Options* die Anlageklasse hinte
 
 ![](assets/Finanzen%20Anlagenverwaltung%201500%20Konto.png)
 
-Wird die Rechnung verbucht, erstellt Odoo automtisch eine neue Anlage und verknüpft diese mit der Rechnung.
+Wird die Rechnung verbucht, erstellt Odoo automatisch eine neue Anlage und verknüpft diese mit der Rechnung.
 
 ![](assets/Finanzen%20Anlagenverwaltung%20Anlage.png)
