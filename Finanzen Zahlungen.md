@@ -150,3 +150,17 @@ In der Liste der Zahlung erscheint nun in der Auswahl *Aktion* das Menu *Zahlung
 Wenn  Sie die [Aktion "Zahlung gesendet zurücksetzen" erstellen](#Aktion%20Zahlung%20gesendet%20zurücksetzen%20erstellen), können Sie Stapelzahlung mit gesendeten Zahlungen neu generieren.
 
 ![Finanzen Zahlungen gesendet zurücksetzen](assets/Finanzen%20Zahlungen%20gesendet%20zurücksetzen.gif)
+
+## Zahlungsmethoden anzeigen
+
+Damit Sie eine Übersicht der Zahlungsmethoden erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+
+Name der Aktion: `Zahlungsmethoden`\
+Objekt: `account.payment.method`\
+Ansichtsmodus: `tree,form`\
+Menü: `Auftragszeilen`\
+Obermenü: `Finanzen/Konfiguration/Zahlungen`\
+Aktion: `ir.actions.act_window` `Zahlungsmethoden`\
+Nummernfolge: `10`
+
+Laden Sie die Odoo-App neu. Anschliessend finden Sie unter *Finanzen > Konfiguration > Zahlungsmethoden* eine Übersicht der Zahlungsmethoden.
