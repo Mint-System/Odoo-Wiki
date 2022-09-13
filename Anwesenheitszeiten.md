@@ -20,6 +20,7 @@ Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement. |
 | [Überzeitenmanagement](Überzeitenmanagement.md)                                           | Verwalten Sie die Überzeiten der Mitarbeitenden.                                                                   |
+| [[HR Attendance Kiosk Mode Color]]                                                                                          |                                                                                                                    |
 
 ::: tip
 Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheit. Für das Erfassen der Projektzeit nutzt man die App Zeiterfassung.
