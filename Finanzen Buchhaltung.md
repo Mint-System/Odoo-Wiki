@@ -148,3 +148,7 @@ Mit *Create Journal Entries* wird die Buchung und Gegenbuchung für die Rechnung
 Entfernen Sie den Steuersatz in der Spalte *Steuern*, wenn Sie keine Mehrwertsteuer-Buchung im Buchungssatz möchten.
 
 ![Account Buchhaltung Manuelle Buchung ohne Steuer](assets/Account%20Buchhaltung%20Manuelle%20Buchung%20ohne%20Steuer.gif)
+
+## Steueranpassung erstellen
+
+Wählen Sie *Finanzen > Finanzen > Steueranpassungen* und erstellen Sie einen neuen Eintrag. Schliessen Sie den Vorgang mit *Buchung Anlegen und Buchen* ab.
