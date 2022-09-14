@@ -151,4 +151,6 @@ Entfernen Sie den Steuersatz in der Spalte *Steuern*, wenn Sie keine Mehrwertste
 
 ## Steueranpassung erstellen
 
-Wählen Sie *Finanzen > Finanzen > Steueranpassungen* und erstellen Sie einen neuen Eintrag. Schliessen Sie den Vorgang mit *Buchung Anlegen und Buchen* ab.
+Wählen Sie *Finanzen > Finanzen > Steueranpassungen* und erstellen Sie einen neuen Eintrag. Schliessen Sie den Vorgang mit *Buchung Anlegen und Buchen* ab. Dazu ein Beispiel:
+
+![](assets/Finanzen%20Buchhaltung%20Steueranpassung.png)
