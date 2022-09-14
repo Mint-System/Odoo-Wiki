@@ -49,9 +49,13 @@ Wenn man eine Odoo-Nachricht als E-Mail versendet, wird die Nachricht im Chatter
 
 ![](assets/Diskussion%20Mail%20Fehlschlag.png)
 
-Ist das Mail-Icon rot markiert (und nicht weiss), konnte die E-Mail nicht versendet werden. Klickt man auf das Icon erfährt wieso der Mail-Versand nicht funktioniert hat.
+Ist das Mail-Icon rot markiert (und nicht weiss), konnte die E-Mail nicht versendet werden. Wenn Sie auf Icon klicken werden Details zum fehlerhaften Mail-Versand angezeigt.
 
 ![Diskussion Mail Fehlschlag Beispiel](assets/Diskussion%20Mail%20Fehlschlag%20Beispiel.png)
+
+Ein weiteres Bespiel:
+
+![](assets/Diskussion%20E-Mail%20Fehler%20Single%20Domains.png)
 
 ## E-Mail anzeigen
 
