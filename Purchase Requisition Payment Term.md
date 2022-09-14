@@ -17,3 +17,11 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 Mit dieser Erweiterung können Sie auf Kaufverträge Zahlungsbedinungen definieren. Bei der Auswahl eines Lieferanten wird dessen Standardbedingungen auf den Kaufvertrag übertragen. 
 
 ![](assets/Purchase%20Requisition%20Payment%20Term.png)
+
+::: tip
+Wenn Sie auf dem Lieferant eine Standard-Zahlungsbedingung hinterlegt haben, wird bei der Auswahl des Lieferanten im Kaufvertrag diese Zahlungsbedingung übernommen.
+:::
+
+::: tip
+Wenn Sie eine Bestellung aus einem Kaufvertrag erstellen, wird die Zahlungsbedingung aus dem Kaufvertrag übernommen.
+:::
