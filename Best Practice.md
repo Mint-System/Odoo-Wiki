@@ -90,3 +90,4 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Chatter](Best%20Practice%20Chatter.md)
 * [Datumsfelder](Best%20Practice%20Datumsfelder.md)
 * [Direct Print](Best%20Practice%20Direct%20Print.md)
+* [Best Practice E-Mail Vorlagen](Best%20Practice%20E-Mail%20Vorlagen.md)

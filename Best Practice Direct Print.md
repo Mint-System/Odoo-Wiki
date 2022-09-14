@@ -3,6 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
+
 # Best Practice: Direct Print
 
 ## Drucken mit Hoch- und Querformat

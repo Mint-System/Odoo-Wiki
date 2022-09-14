@@ -19,4 +19,3 @@ Die Installation von [Purchase Partner Incoterm](Purchase%20Partner%20Incoterm.m
 ## Standard-Incoterm für Einkauf festlegen
 
 Damit automatisch die korrekten Incoterms für eine Einkaufsbestellung ausgewählt werden, können Sie auf jedem Kontakt die Standard-Incoterm festlegen. Gehen Sie nach *Kontakte > Kontakt auswählen > Tab Verkauf & Einkauf* und legen Sie im Feld *Default Purchase Incoterm* den passenden Wert fest.
-
