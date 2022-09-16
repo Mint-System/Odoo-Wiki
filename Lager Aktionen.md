@@ -244,7 +244,7 @@ for picking in pickings:
     # Count boxes and set as qty done if not null
     x_count_boxes_sum = sum(picking.move_lines.mapped("x_count_boxes"))
     for transport_move in transport_move_ids:
-      if transport_move.quantity_done == 0 and x_count_boxes_sum > 0:
+      if transport_move.quantity_done <= 1 and x_count_boxes_sum > 0:
         transport_moves.append(transport_move)
         transport_move.write({'quantity_done': x_count_boxes_sum, 'product_uom_qty': x_count_boxes_sum})
 if transport_moves:
