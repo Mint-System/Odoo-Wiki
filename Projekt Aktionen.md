@@ -48,7 +48,7 @@ for project in project_ids:
     action = env['ir.actions.act_window'].create({
       'name': name,
       'res_model': 'project.task',
-      'view_mode': 'kanban,tree,form,calendar,pivot,graph,activity,map',
+      'view_mode': 'kanban,tree,form,calendar,pivot,graph,gantt,activity,map',
       'domain': "[('project_id', '=', %s)]"  % (project.id),
       'context': "{ 'default_project_id': %s }" % (project.id)
     })
@@ -56,7 +56,7 @@ for project in project_ids:
     action.update({
       'name': name,
       'res_model': 'project.task',
-      'view_mode': 'kanban,tree,form,calendar,pivot,graph,activity,map',
+      'view_mode': 'kanban,tree,form,calendar,pivot,graph,gantt,activity,map',
       'domain': "[('project_id', '=', %s)]"  % (project.id),
       'context': "{ 'default_project_id': %s }" % (project.id)
     })
