@@ -64,3 +64,19 @@ Entfernen Sie einen Abonnent vom Odoo-Objekt indem Sie rechts von *Abonnieren* a
 ## Benachrichtigungen anzeigen
 
 Wenn Odoo Nachrichten versendet, werden abonnierte Benutzer benachrichtigt. Diese Benachrichtigungen können via *Einstellungen > Technisch > Benachrichtigungen* angezeigt werden.
+
+## Subtypen verwalten
+
+Navigieren Sie nach *Einstellungen > Technisch > Subtypen* und zeigen Sie beispielsweise den Subtyp *Bestätigt* an.
+
+![](assets/Diskussion%20Subtyp%20Bestätigt.png)
+
+Konfigurieren Sie den Subtypen gemäss Anforderungen.
+
+## Subtyp auf Abonnement konfigurieren
+
+Zeigen Sie ein Odoo Dokument an und beareiten Sie ein Abonnement.
+
+![](assets/Diskussion%20Abonnement%20bearbeiten.png)
+
+Wählen Sie die Subtypen aus, welche für das Abonnement aktiv sein sollen.
