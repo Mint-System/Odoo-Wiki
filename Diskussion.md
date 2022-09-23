@@ -71,9 +71,13 @@ Navigieren Sie nach *Einstellungen > Technisch > Subtypen* und zeigen Sie beispi
 
 ![](assets/Diskussion%20Subtyp%20Bestätigt.png)
 
-Konfigurieren Sie den Subtypen gemäss Anforderungen.
+Konfigurieren Sie den Subtypen gemäss Anforderungen:
 
-## Subtyp auf Abonnement konfigurieren
+* **Standard**: Wird beim Abonnieren automatisch ausgewählt.
+* **Nur interne**: Nur für interne Benutzer sichtbar.
+* **Versteckt**: Subtyp wird auf Abonnement-Formular ausgeblendet.
+
+## Subtyp auf Abonnement aktivieren
 
 Zeigen Sie ein Odoo Dokument an und beareiten Sie ein Abonnement.
 
