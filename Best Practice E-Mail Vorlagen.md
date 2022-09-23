@@ -12,6 +12,8 @@ E-Mail-Vorlagen müssen bei jeder Odoo-Implementation angepasst werden. Die orig
 
 XML-ID: `account.email_template_edi_invoice`
 
+Inhalt:
+
 ```xml
 <div style="margin: 0px; padding: 0px;">
     <p style="margin: 0px; padding: 0px; font-size: 13px;">
@@ -36,6 +38,8 @@ XML-ID: `account.email_template_edi_invoice`
 ## Sales Order: Cart Recovery Email
 
 XML-ID: `website_sale.mail_template_sale_cart_recovery`
+
+Inhalt:
 
 ```xml
 <div style="margin: 0px; padding: 0px;">
@@ -74,3 +78,11 @@ XML-ID: `website_sale.mail_template_sale_cart_recovery`
 	</a>
 </div>
 ```
+
+### Purchase Order: Send RFQ
+
+XML-ID: `purchase.email_template_edi_purchase`
+
+Betreff: `Anfrage ${object.partner_ref + ' / ' if object.partner_ref else ''}${object.name}`
+
+
