@@ -113,3 +113,19 @@ env.add_to_compute(obj._fields[field.name], obj.search([]))
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 In der Liste der Felder erscheint nun in der Auswahl *Aktion* das Menu *Recompute field*.
+
+## Aktion "Ansicht Zugriffsrechte aktualisieren" erstellen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Ansicht Zugriffsrechte aktualisieren`\
+Modell: `ir.actions.server`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```python
+env["res.groups"]._update_user_groups_view()
+```
+
+Speichern Sie die Aktion und führen Sie diese direkt mit *Starten* aus.
