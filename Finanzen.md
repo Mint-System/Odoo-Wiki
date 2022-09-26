@@ -29,6 +29,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | Erweiterung                                                                                                     | Beschreibung                                                                |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [Acccount Move Accounting Description](Acccount%20Move%20Accounting%20Description.md)                           | Beschreibungsfeld für Rechnungszeile.                                       |
+| [Account Followup Hide Communication](Account%20Followup%20Hide%20Communication.md)                             | Spalte Kommunikation in Mahnbericht ausblenden.                             |
 | [Account Missing Menus](Account%20Missing%20Menus.md)                                                           | Zusätzliche Menu-Punkte von Finanzen anzeigen.                              |
 | [Account Move Line Accounting Description Stock](Account%20Move%20Line%20Accounting%20Description%20Stock)      | Beschreibung Lagerbuchung auf Rechnung übertragen.                          |
 | [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)                                   | Lieferaufträge mit Rechnungszeile verlinken.                                |
@@ -45,7 +46,6 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Switzerland Invoice Reports with payment option](Switzerland%20Invoice%20Reports%20with%20payment%20option.md) | Rechnung mit ISR- und/oder QR-Zahlung drucken.                              |
 | [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                                               | Generierung der QR-Rechnung ohne ISR-Nummer.                                |
 | [Switzerland QR-Bill Scan](Switzerland%20QR-Bill%20Scan.md)                                                     | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
-| [Account Followup Hide Communication](Account%20Followup%20Hide%20Communication.md)                                                                         | Spalte Kommunikation in Mahnbericht ausblenden.                                                                            |
 
 ## Rechnung per E-Mail empfangen
 
