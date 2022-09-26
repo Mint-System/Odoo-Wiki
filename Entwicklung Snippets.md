@@ -8,17 +8,21 @@ prev: ./entwicklung
 
 Einfache Anpassungen mit den Mint System Snippets umsetzen.
 
+## Snippets-Übersicht anzeigen
+
+Zeigen Sie die Website <https://odoo.build/snippets.html> an. Hier finden Sie eine umfassende Snippets-Sammlung.
+
+## Snippet hinzufügen
+
+Unter <https://odoo.build/snippets> finden Sie verschiedene Snippets um Ansichten und Berichte anzupassen. Anhand der Referenz auf den Bericht und dem Link auf das Snippet können Sie das Snippet installieren.
+
+![](assets/Entwicklung%20Snippet%20hinzufügen.gif)
+
 ## Snippet-Inhalte übersetzen
 
 Öffnen Sie ein Snippet via *Einstellungen > Technisch > Benutzer-Interface > Ansichten*. Klicken Sie im Tab *Architektur* auf * Übersetzungen bearbeiten*.
 
 ![](assets/Snippet%20Übersetzung.png)
-
-## Snippet hinzufügen
-
-Unter <https://odoo.build/snippets> finden Sie verschiedene Snippets um Ansichten und Berichte anzupassen. Anhand des Verweis auf den Bericht und dem Link auf das Snippet können Sie das Snippet installieren.
-
-![](assets/Entwicklung%20Snippet%20hinzufügen.gif)
 
 ## Text als Systemparameter definieren
 

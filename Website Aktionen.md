@@ -18,7 +18,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Automatische Aktione
 **Modell**: `sale.order`\
 **Triggerbedingung**: `Bei Erstellung und Aktualisierung`\
 **Trigger-Felder**: `reference`
-**Folgeaktion**: `Daten Datensatz aktualisieren`
+**Folgeaktion**: `Den Datensatz aktualisieren`
 
 Zu schreibende Daten:
 * **Feld**: `reference`
