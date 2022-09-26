@@ -130,6 +130,12 @@ Mit der aktivierten Option *Einstellungen > Verkauf > Margen* sehen Sie für jed
 
 Die Berechnung der Margen ist `Zwischensumme - Kosten * Menge`. Diese Inputs können einem Angebot geändert werden.
 
+## Rechnungs- und Lieferadresse aktivieren
+
+Für Angebote können Sie eine separate Rechnungs- und Lieferadresse festlegen. Aktivieren Sie die Option *Einstellungen > Verkauf > Angebote und Aufträge > Kundenadresse*. Anschliessend können Sie die Adresse auswähl
+
+![](assets/Verkauf%20Rechnungs-%20und%20Lieferadresse.png)
+
 ## Kunde anhand Adresstyp auswählen
 
 Wenn Sie eine Rechnungs- oder Lieferadresse mit gleichen Anzeigename wie der Hauptkontakt gespeichert haben, können diese im Feld *Kunde* nicht unterschieden werden. Um sicherzustellen, dass die korrekte Adresse gewählt wurde, können Sie die [Rechnungsadresse in Anzeigenamen einblenden](Kontakte.md#Rechnungsadresse%20in%20Anzeigenamen%20einblenden) oder über die erweiterte Suche anzeigen:
