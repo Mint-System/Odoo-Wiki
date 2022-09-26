@@ -45,6 +45,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Switzerland Invoice Reports with payment option](Switzerland%20Invoice%20Reports%20with%20payment%20option.md) | Rechnung mit ISR- und/oder QR-Zahlung drucken.                              |
 | [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                                               | Generierung der QR-Rechnung ohne ISR-Nummer.                                |
 | [Switzerland QR-Bill Scan](Switzerland%20QR-Bill%20Scan.md)                                                     | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
+| [Account Followup Hide Communication](Account%20Followup%20Hide%20Communication.md)                                                                         | Spalte Kommunikation in Mahnbericht ausblenden.                                                                            |
 
 ## Rechnung per E-Mail empfangen
 

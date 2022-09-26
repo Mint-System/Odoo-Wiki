@@ -132,7 +132,7 @@ Die Berechnung der Margen ist `Zwischensumme - Kosten * Menge`. Diese Inputs kö
 
 ## Rechnungs- und Lieferadresse aktivieren
 
-Für Angebote können Sie eine separate Rechnungs- und Lieferadresse festlegen. Aktivieren Sie die Option *Einstellungen > Verkauf > Angebote und Aufträge > Kundenadresse*. Anschliessend können Sie die Adresse auswähl
+Für Angebote können Sie eine separate Rechnungs- und Lieferadresse festlegen. Aktivieren Sie die Option *Einstellungen > Verkauf > Angebote und Aufträge > Kundenadresse*. Anschliessend können Sie die Adresse auswählen.
 
 ![](assets/Verkauf%20Rechnungs-%20und%20Lieferadresse.png)
 
