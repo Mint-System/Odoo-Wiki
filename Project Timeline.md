@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./projekt
 ---
-# Project timeline
+# Project Timeline
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Timeline-Ansicht für Projektaufgaben.

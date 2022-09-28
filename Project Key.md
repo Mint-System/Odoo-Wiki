@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./projekt
 ---
-# Project key
+# Project Key
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Projektkürzel für Aufgabenbezeichnung.
