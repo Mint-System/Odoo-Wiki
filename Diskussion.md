@@ -30,6 +30,7 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 | [Sale Order Send Unsubscribe](Sale%20Order%20Send%20Unsubscribe.md)                 | Alle Abonnenten nach Versenden des Angebots entfernen.                 |
 | [Sale Order Unsubscribe](Sale%20Order%20Unsubscribe.md)                             | Alle Abonnenten nach Bestätigung des Angebots entfernen.               |
 | [URL Attachment](URL%20Attachment.md)                                               | Url als Dokument anhängen.                                             |
+| [[Mail Composer Default Template]]                                                                                    |                                                                        |
 
 ## Versendete Nachrichten betrachten
 
