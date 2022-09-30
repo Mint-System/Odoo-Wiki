@@ -17,7 +17,7 @@ Repository: <https://github.com/CybroOdoo/CybroAddons/tree/15.0/employee_vehicle
 
 Navigieren Sie nach *Personal > Vehicle Request > Vehicle Request* und erstellen Sie einen neuen Eintrag.
 
-![](assets/Pasted%20image%2020220907161529.png)
+![](assets/Employee%20Vehicle%20Request.png)
 
 Bestätigen Sie die Anfrage mit *Send Request*.
 

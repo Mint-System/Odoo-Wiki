@@ -60,7 +60,7 @@ Legen Sie eine neue Rechnung unter *Abrechnung > Kunden > Rechnungen* oder *Abre
 
 Bearbeiten Sie den Kontakt und navigieren Sie zum Tab *Abrechnung*. Auf der rechten Seite sehen Sie die Standardkonten für die Buchhaltung. Legen Sie im Feld *Expense Import Account* das Aufwandskonto für den Kontakt fest.
 
-![](assets/Pasted%20image%2020220906091650.png)
+![](assets/Swiss%20QR-ESR%20Scan%20Buchungen.png)
 
 ::: tip
 Damit die Standardkonten für die Buchhaltung sichtbar sind, muss der Odoo-Benutzer über die Berechtigung *Buchhaltungsfunktionen anzeigen - schreibgeschützt* verfügen.
