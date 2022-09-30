@@ -27,3 +27,23 @@ Zuletzt tragen Sie Werte für das Attribut ein.
 ## Erweiterte Preisregeln aktivieren
 
 Navigieren Sie nach *Verkauf > Konfiguration > Preiskalkulation* und aktivieren Sie die Option *Preislisten* mit der Unteroption *Erweiterte Preisregeln*.
+
+## Preisliste mit Rabatt erstellen
+
+Wenn Sie die [Erweiterte Preisregeln aktivieren](#Erweiterte%20Preisregeln%20aktivieren) können Sie eine Preisliste erstellen, die auf einer bestehenden Preisliste Rabatt gewährt.
+
+Navigieren Sie nach *Verkauf > Prdukte > Preislisten* und erstellen Sie einen neuen Eintrag mit dem Prozentsatz im Namen. Fügen Sie im Tab *Preisregeln* folgende Regeln hinzu:
+
+* **Anzuwenden auf**: Alle Produkte
+* **Stardatum**: Gemäss Laufzeit
+* **Enddatum**: Gemäss Laufzeit
+* **Ermittle Preis**: Formel
+* **Basiert auf**: Amdere Preisliste
+* **Stardatum**: Preisliste auswählen
+* **Rabatt**: Rabatt in Prozent
+
+Dazu ein Beispiel:
+
+![](assets/Verkauf%20Preisregel%20Rabat.png)
+
+Beim Auswahl der Preisliste im Angebot wird anschliessend der Preis mit Rabatt berechnet und eingetragen.
