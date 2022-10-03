@@ -23,6 +23,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Finanzen Mehrwertsteuer](Finanzen%20Mehrwertsteuer.md)         | Mehrwertsteuer einfach abrechnen mit Odoo.                  |
 | [Finanzen Snippets](Finanzen%20Snippets.md)                     | Einfache Anpassungen mit Odoo Snippets.                     |
 | [Finanzen Zahlungen](Finanzen%20Zahlungen.md)                   | SEPA- und QR-Zahlungen mit Odoo Finanzen abwickeln.         |
+| [Finanzen Abstimmung](Finanzen%20Abstimmung.md)                 | Bankkonto mit Odoo abgleichen.                                                            |
 
 ## Erweiterungen
 

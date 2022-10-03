@@ -75,14 +75,6 @@ Auf jedem Journal vom Typ *Bank* oder *Kasse/Bank* ist hinterlegt welches Konto 
 
 Öffnen Sie *Finanzen > Konfiguration > Journale > Journal auswählen* und zeigen Sie den Tab *Payments Configuration* an. Hier können Sie die Konten für die Zahlungen festlegen.
 
-## Kontoauszug importieren
-
-Zeigen Sie das Dashboard von *Finanzen* an. Wählen Sie *Import* unter dem Name des Bankjournals. Laden Sie im Dialog die Datei mit den Kontoauszügen hoch.
-
-![](assets/Finanzen%20Kontoauszug%20importieren.png)
-
-Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Bewebungen wird angezeigt.
-
 ## Buchungszeilen ohne Entwicklermodus anzeigen
 
 Das Menü *Buchungszeilen* wird nur im Entwicklermodus angezeigt. Um das Verhalten zu ändern, öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge*, zeigen den Menüeintrag *Buchungszeilen* an und entfernen im Tab *Zugriffsrechte* die Gruppe. Aktualisieren Sie den Browser und verlassen Sie den Entwicklermodus. Sie sollten den Menüeintrag nun sehen.
