@@ -85,4 +85,27 @@ XML-ID: `purchase.email_template_edi_purchase`
 
 Betreff: `Anfrage ${object.partner_ref + ' / ' if object.partner_ref else ''}${object.name}`
 
+## Gutschrift
 
+Domain: `[["move_type","=","out_refund"]]`
+
+Betreff: `Gutschrift (${object.name or 'n/a'})`
+
+Inhalt:
+
+```xml
+<div style="margin: 0px; padding: 0px;">
+    <p style="margin: 0px; padding: 0px; font-size: 13px;">
+        Liebe Kundin, Lieber Kunde 
+        <br><br>
+        Anbei erhalten Sie ihre Gutschrift.
+        <br><br>
+	    Bei Fragen stehen wir Ihnen gerne zur Verfügung.
+	    <br>
+        % if user.signature:
+            <br>
+            ${user.signature | safe}
+        % endif
+    </p>
+</div>
+```
