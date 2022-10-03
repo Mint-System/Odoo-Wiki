@@ -8,6 +8,10 @@ prev: ./entwicklung
 
 Odoo Ansichten anpassen.
 
+## Formularansicht bearbeiten
+
+Rufen Sie die Formularansicht des Geschäftsobjekts auf und wählen Sie *Entwickler-Tools > Ansicht bearbeiten: Formular*.
+
 ## Ansicht erstellen
 
 Öffnen Sie *Einstellung > Technisch > Ansichten* und legen Sie einen neuen Eintrag an. Im folgenden Beispiel erstellen Sie eine Listenansicht (Tree) für das Datenmodell *Basisimportzuordnung*.

@@ -129,3 +129,36 @@ env["res.groups"]._update_user_groups_view()
 ```
 
 Speichern Sie die Aktion und führen Sie diese direkt mit *Starten* aus.
+
+## Aktion "Compose E-Mail" erstellen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Compose E-Mail`\
+Modell: Referenz gemäss Geschäftsobjekt\
+Folgeaktion: `Python-Code ausführen`
+
+```python
+if record:
+  compose_form = env.ref('mail.email_compose_message_wizard_form', False)
+  ctx = dict(
+      default_model='account.move',
+      default_res_id=record.id,
+      default_composition_mode='comment',
+      custom_layout='mail.mail_notification_light',
+  )
+  action = {
+      'name': 'Compose E-Mail',
+      'type': 'ir.actions.act_window',
+      'view_mode': 'form',
+      'res_model': 'mail.compose.message',
+      'views': [(compose_form.id, 'form')],
+      'view_id': compose_form.id,
+      'target': 'new',
+      'context': ctx,
+  }
+```
+
+Speichern Sie die Serveraktion und zeigen Sie die [Metadaten an](Entwicklung.md#Metadaten%20anzeigen). Notieren Sie sich die *ID* des Datensatzes.
+
+Als nächtes müssen Sie die [Formularansicht bearbeiten](Entwicklung%20Ansichten.md#Formularansicht%20bearbeiten) und [Snippet hinzufügen](Entwicklung%20Snippets.md#Snippet%20hinzufügen)

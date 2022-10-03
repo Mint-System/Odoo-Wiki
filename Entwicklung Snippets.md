@@ -14,7 +14,13 @@ Zeigen Sie die Website <https://odoo.build/snippets.html> an. Hier finden Sie ei
 
 ## Snippet hinzufügen
 
-Unter <https://odoo.build/snippets> finden Sie verschiedene Snippets um Ansichten und Berichte anzupassen. Anhand der Referenz auf den Bericht und dem Link auf das Snippet können Sie das Snippet installieren.
+Unter <https://odoo.build/snippets.html> finden Sie verschiedene Snippets um Ansichten und Berichte anzupassen. Anhand der Referenz auf den Bericht und dem Link auf das Snippet können Sie das Snippet installieren.
+
+Zeigen Sie die Formularansicht des Geschäftsobjekt an und erstellen Sie im Tab *Vererbte Ansichten* einen neuen Eintrag mit diesen Werten:
+
+* **Ansichtsbezeichnung**: ID des Snippet
+* **Nummernfolge**: Priorität des Snippet
+* **Architektur**: Inhalt des Snippet
 
 ![](assets/Entwicklung%20Snippet%20hinzufügen.gif)
 
