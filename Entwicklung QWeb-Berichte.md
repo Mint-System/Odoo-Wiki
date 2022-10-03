@@ -160,3 +160,7 @@ Wurde das Kontext-Menü mit der Aktion *Zum Druckmenü hinzufügen* erstellt, ka
 ::: tip
 Odoo verlinkt das Ansichts- und Berichtsobjekt über die externe ID bzw. XML ID.
 :::
+
+## Option "Als Anhang speichern" deaktivieren
+
+Verschiedene Standardberichte werden beim Erzeugen als das Geschäftsobjekt angehängt. Dies geschieht aufgrund der Option *Als Anhangsprefix speichern* auf dem Berichtsobjekt. Rufen Sie einen Bericht auf *Einstellungen > Technisch > Berichtswesen > Berichte* und entfernen Sie im Tab *Erweiterte Eigenschaften* den Eintrag im Feld *Als Anhangsprefix speichern*.

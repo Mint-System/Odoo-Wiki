@@ -178,3 +178,9 @@ Navigieren Sie nach *Abrechnung > Konfiguration > Mahnstufen*. Hier können Sie 
 ## Mahnung versenden
 
 Unbezahlte Rechnung, welche die Zahlungsfrist überschritten haben, können Sie unter *Finanzen > Kunden > Mahnberichte* anzeigen. Wählen Sie einen Eintrag aus und klicken Sie auf *Sende Per E-Mail*.
+
+## Standardvorlage deaktivieren
+
+Zeigen Sie die [Externe ID](Entwicklung.md#Externe%20IDs%20anzeigen) für `account.email_template_edi_invoice` an. Geben Sie im Feld *Datensatz-ID* den Wert `0` ein.
+
+Damit wird beim Aufruf der Aktion *Senden & Drucken* auf der Rechnung die Standardvorlage nicht geladen.
