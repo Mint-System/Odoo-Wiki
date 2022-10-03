@@ -195,3 +195,7 @@ Beim Testen der SMTP-Verbindung mit Office 365 erscheint dieser Fehler:
 Prüfen Sie die SMTP-Einstellungen für den Benutzer und den Nachrichtenfluss von Exchange Online.
 
 ![](assets/Troubleshooting%20Exchange%20Mail.png)
+
+Gehen Sie in die Konto-Einstellungen des Postfachs und prüfen Sie ob die Verbindungsinformationen für SMTP und IMAP augezeigt werden.
+
+![](assets/Office%20365%20E-Mail%20synchronisieren.png)
