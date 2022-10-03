@@ -161,4 +161,14 @@ if record:
 
 Speichern Sie die Serveraktion und zeigen Sie die [Metadaten an](Entwicklung.md#Metadaten%20anzeigen). Notieren Sie sich die *ID* des Datensatzes.
 
-Als nächtes müssen Sie die [Formularansicht bearbeiten](Entwicklung%20Ansichten.md#Formularansicht%20bearbeiten) und [Snippet hinzufügen](Entwicklung%20Snippets.md#Snippet%20hinzufügen)
+Als nächtes müssen Sie die [Formularansicht bearbeiten](Entwicklung%20Ansichten.md#Formularansicht%20bearbeiten) und ein [Snippet hinzufügen](Entwicklung%20Snippets.md#Snippet%20hinzufügen) um diesen Knopf einzufügen:
+
+```xml
+<button name="$ID" type="action" string="Compose E-Mail"/>
+```
+
+Wobei `$ID` der notierten *ID* der Serveraktion entspricht.
+
+Mit diesem Knopf können Sie den E-Mail-Dialog öffnen.
+
+![Entwicklung Aktionen Compose E-Mail](assets/Entwicklung%20Aktionen%20Compose%20E-Mail.gif)
