@@ -26,4 +26,11 @@ Out-of-the-box generiert Odoo eine Rechnung eine QR-Rechnung separat sobald man 
 | [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                                               | Generierung der QR-Rechnung ohne ISR-Nummer.       |
 | [Mail Composer Default Template](Mail%20Composer%20Default%20Template.md)                                       | Standardvorlage für Mail-Dialog festlegen.         |
 
-Damit die Rechnungsdokumente nicht automatisch generiert und an das Rechnungsobjekt angehägt werden, müssen Sie für Rechnungs-Berichte die [Option Als Anhang speichern deaktivieren](Entwicklung%20QWeb-Berichte.md#Option%20Als%20Anhang%20speichern%20deaktivieren).
+Damit die Rechnungsdokumente nicht automatisch generiert und an das Rechnungsobjekt angehägt werden, müssen Sie für die folgenden Rechnungs-Berichte die [Option Als Anhang speichern deaktivieren](Entwicklung%20QWeb-Berichte.md#Option%20Als%20Anhang%20speichern%20deaktivieren):
+
+| Name                    | Entfernen                                                                         |
+| ----------------------- | --------------------------------------------------------------------------------- |
+| Originalrechnungen      | `'original_vendor_bill.pdf'`                                                      |
+| QR-bill                 | `'QR-bill-' + object.name + '.pdf'`                                               |
+| Rechnungen              | `(object.state == 'posted') and ((object.name or 'INV').replace('/','_')+'.pdf')` |
+| Rechnungen ohne Zahlung | `(object.state == 'posted') and ((object.name or 'INV').replace('/','_')+'.pdf')` |
