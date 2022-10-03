@@ -29,6 +29,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Product Listprice Currency](Product%20Listprice%20Currency.md)                     | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.      |
 | [Sale Blanket Order](Sale%20Blanket%20Order.md)                                     | Rahmenverträge für Verkäufe erstellen.                                |
 | [Sale Force Invoiced](Sale%20Force%20Invoiced.md)                                   | Markieren Sie den Verkaufsauftrag als abgerechnet.                    |
+| [Sale Order Archive](Sale%20Order%20Archive.md)                                     | Verkausaufträge archivieren.                                          |
 | [Sale Order Comment](Sale%20Order%20Comment.md)                                     | Kommentar auf Verkaufsauftrag.                                        |
 | [Sale Order Contact Person](Sale%20Order%20Contact%20Person.md)                     | Kontaktperson auf Verkaufsauftrag festlegen.                          |
 | [Sale Order Line Description Name](Sale%20Order%20Line%20Description%20Name.md)     | Benutze Produktname ohne Referenz wenn Verkaufsbeschreibung leer ist. |
