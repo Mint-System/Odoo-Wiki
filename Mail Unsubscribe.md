@@ -28,3 +28,6 @@ Wenn Sie für bestimmten Geschäftsobjekte verhindern möchten, dass die Abonnen
 
 Wenn Sie den [Systemparameter](Entwicklung.md#Systemparameter%20anlegen) mit Schlüssel `mail_unsubscribe.ignore_current_partner` und Wert `True` anlegen, 
 
+## Abonnieren von Empfängern erlauben
+
+## Abonnieren von aktuellen Benutzer erlauben
