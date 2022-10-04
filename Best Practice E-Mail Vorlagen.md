@@ -35,6 +35,37 @@ Inhalt:
 </div>
 ```
 
+```xml
+Guten Tag
+% if object.partner_id.parent_id:
+    ${object.partner_id.name}
+% else:
+    ${object.partner_id.name}
+% endif
+<br><br>
+Gerne möchten wir unsere Aufwände von <b>MM</b> bis <b>MM</b> verrechnen.
+<br><br>
+Anbei finden Sie die 
+% if object.name:
+    Rechnung <strong>${object.name}</strong>
+% else:
+    Rechnung
+%endif
+% if object.invoice_origin:
+    (mit Referenz: ${object.invoice_origin})
+% endif
+im Betrag von <strong>${format_amount(object.amount_total, object.currency_id)}</strong>
+von der ${object.company_id.name}.
+% if object.invoice_payment_state == 'paid':
+    Diese Rechnung wurde bereits bezahlt.
+% else:
+    Wir danken für eine fristgerechte Bezahlung.
+% endif
+<br><br>
+Zögern Sie nicht uns bei Fragen zu kontaktieren.
+<br>
+```
+
 ## Sales Order: Cart Recovery Email
 
 XML-ID: `website_sale.mail_template_sale_cart_recovery`
