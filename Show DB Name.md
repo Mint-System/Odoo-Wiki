@@ -10,7 +10,7 @@ prev: ./einstellungen
 Zeigt den Datenbanknamen oben rechts an.   
 
 Technischer Name: `show_db_name`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/show_db_name>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/show_db_name>
 
 ## Datenbanknamen anzeigen
 

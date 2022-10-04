@@ -22,13 +22,14 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 
 ## Erweiterungen
 
-| Erweiterung                                           | Beschreibung                                   |
-| ----------------------------------------------------- | ---------------------------------------------- |
-| [Auth OAuth Keycloak](Auth%20OAuth%20Keycloak)        | Ermöglich Keycloak Integration mit Odoo OAuth. |
-| [Home Background Image](Home%20Background%20Image.md) | Den Odoo-Startbildschirm gestalten.            |
-| [Impersonate](Impersonate.md)                         | Schnelles Wechseln zwischen Benutzer-Accounts. |
-| [Show DB Name](Show%20DB%20Name.md)                   | Zeigt den Datenbanknamen oben rechts an.       |
-| [Web Responsive](Web%20Responsive.md)                 | Responsive Anzeige der Odoo-Oberfläche.        |
+| Erweiterung                                           | Beschreibung                                                         |
+| ----------------------------------------------------- | -------------------------------------------------------------------- |
+| [Auth OAuth Keycloak](Auth%20OAuth%20Keycloak)        | Ermöglich Keycloak Integration mit Odoo OAuth.                       |
+| [Home Background Image](Home%20Background%20Image.md) | Den Odoo-Startbildschirm gestalten.                                  |
+| [Impersonate](Impersonate.md)                         | Schnelles Wechseln zwischen Benutzer-Accounts.                       |
+| [Show DB Name](Show%20DB%20Name.md)                   | Zeigt den Datenbanknamen oben rechts an.                             |
+| [Web Editor Show Code](Web%20Editor%20Show%20Code.md) | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |
+| [Web Responsive](Web%20Responsive.md)                 | Responsive Anzeige der Odoo-Oberfläche.                              |
 
 ## Entwicklermodus aktivieren
 
