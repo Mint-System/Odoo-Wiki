@@ -25,6 +25,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Sale Invoice Carrier](Sale%20Invoice%20Carrier.md)                                 | Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus Verkaufsaufträgen übertragen. |
 | [Sale Invoice Cash Rounding Default](Sale%20Invoice%20Cash%20Rounding%20Default.md) | Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.              |
 | [Sale Invoice Line Description](Sale%20Invoice%20Line%20Description.md)             | Buchungszeilen generiert aus Verkaufsaufträgen enhalten nur den Anzeigenamen des Produkts.         |
+| [Sale Invoice Prepare Bank](Sale%20Invoice%20Prepare%20Bank.md)                     | Bankkonto anhand Währung auswählen.                                                                |
 | [Sale Invoice Prepare Partner](Sale%20Invoice%20Prepare%20Partner.md)               | Kontakte aus Verkaufsauftrag auf Rechnung kopieren.                                                |
 | [Swiss QR-ESR Scan](Swiss%20QR-ESR%20Scan.md)                                       | Rechnung anhand QR-Daten erstellen.                                                                |
 
