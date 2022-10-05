@@ -30,6 +30,7 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 | [Purchase Order Line Relay Price](Purchase%20Order%20Line%20Relay%20Price.md)         | Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den Verkäufter. |
 | [Purchase Order Notes](Purchase%20Order%20Notes.md)                                   | Einkaufsaufträge mit Notizfelder.                                                         |
 | [Purchase Order Partner Incoterm](Purchase%20Order%20Partner%20Incoterm.md)           | Für jedem Partner die Incoterms festlegen.                                                |
+| [Purchase Order Partner Shipping](Purchase%20Order%20Partner%20Shipping.md)           | Alternative Lieferadresse für Bestellungen.                                               |
 | [Purchase Order Validate](Purchase%20Order%20Validate.md)                             | Bestellung vor Versenden oder Bestätigen überprüfen.                                      |
 | [Purchase Partner Incoterm](Purchase%20Partner%20Incoterm.md)                         | Standardlieferbedingungen für Lieferanten.                                                |
 | [Purchase Tags](Purchase%20Tags.md)                                                   | Einkaufsbestellungen mit Stichwörter.                                                     |
