@@ -22,6 +22,7 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 | Erweiterung                                                                                     | Beschreibung                                                                     |
 | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | [Cancel Manufacturing Order](Cancel%20Manufacturing%20Order.md)                                 | Fertigungsauftrag rückgängig machen.                                             |
+| [MRP BoM Consumption](MRP%20BoM%20Consumption.md)                                               | Definieren Sie eine Stückliste, die bei der Lieferung verschrottet wird.         |
 | [MRP BoM Position](MRP%20BoM%20Position.md)                                                     | Jede Komponente in der Stückliste erhält eine Positionsnummer.                   |
 | [MRP Documents Share](MRP%20Documents%20Share.md)                                               | Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument.     |
 | [MRP Production Assign Lot](MRP%20Production%20Assign%20Lot.md)                                 | Los aus eingehenden Lagerbuchungen an unreservierte Komponenten zuweisen.        |
@@ -32,7 +33,6 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 | [MRP Workorder Disable Autostart](MRP%20Workorder%20Disable%20Autostart.md)                     | Bei Aufruf von Arbeitsaufträgen in der Tablet-Ansicht nicht automatisch starten. |
 | [MRP Workorder Set Producing Qty](MRP%20Workorder%20Set%20Producing%20Qty.md)                   | Arbeitsauftrag startet ohne erledigte Menge.                                     |
 | [Manufacture Production Move Date](Manufacture%20Production%20Move%20Date.md)                   | Lieferdatum auf Fertigungsauftrag bearbeiten.                                    |
-| [Manufacturing BoM Consumption](Manufacturing%20BoM%20Consumption.md)                           | Definieren Sie eine Stückliste, die bei der Lieferung verschrottet wird.         |
 | [Product Barcode Generator](Product%20Barcode%20Generator.md)                                   | Autogenerate EAN13 product barcodes.                                             |
 | [Product Country of Origin](Product%20Country%20of%20Origin.md)                                 | Bestimmen Sie für jedes Produkt ein Herkunftsland                                |
 | [Product Feeder ID](Product%20Feeder%20ID.md)                                                   | Feeder-Textfeld auf dem Produkt.                                                 |

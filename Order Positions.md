@@ -20,4 +20,4 @@ Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechn
 
 ## Positionen auf Berichten anzeigen
 
-Haben Sie die benötigten Erweiterungen installiert können Sie mit den Snippets von <https://odoo.build/snippets> mit Bezeichnung *Get Position* die Positionsnummer einblenden.
+Haben Sie die benötigten Erweiterungen installiert können Sie mit den Snippets von <https://odoo.build/snippets.html> mit Bezeichnung *Get Position* die Positionsnummer einblenden.
