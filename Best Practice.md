@@ -40,6 +40,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 ### Projekte
 
 * [Projekte](Best%20Practice%20Projekte.md)
+* [Aufgabenphasen](Best%20Practice%20Aufgabenphasen.md)
 
 ### Finanzen
 

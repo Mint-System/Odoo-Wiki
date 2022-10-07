@@ -44,34 +44,32 @@ Aufgabenträger: [Projektleiter](Rollen#Projektleiter)
 Wählen Sie die Option entsprechend der Projektkonfiguration.
 * Timesheet Timer: Zeiterfassung kann direkt auf der Aufgabe gestartet werden.
 
-## Stufen erstellen
+## Aufgabenphasen erstellen
 
 ::: tip
-Mittels Projektstufen kann der Aufgabenstatus und deren Arbeitsfluss abgebildet werden. Eine Aufgaben durchläuft verschiedene Stufen bis Sie erledigt ist und archiviert werden kann.
+Mittels Aufgabenphasen kann der Aufgabenstatus und deren Arbeitsfluss abgebildet werden. Eine Aufgaben durchläuft verschiedene Stufen bis Sie erledigt ist und archiviert werden kann.
 :::
 
-Navigieren Sie in die Kanban-Ansicht eines Projekts *Projekt > Projekt auswählen* und geben im Feld *Spaltentitel* die Stufenbezeichnung ein.
+Navigieren Sie in die Kanban-Ansicht eines Projekts *Projekt > Projekt auswählen* und geben im Feld *Spaltentitel* die Phasenbezeichnung ein.
 
 ::: warning
-Die erstellte Projektstufe ist nur für dieses Projekt sichtbar.
+Die erstellte Aufgabenphasen ist nur für dieses Projekt sichtbar.
 :::
 
 ## Globale Stufen zuordnen
 
-Aufgabenträger: [Projektleiter](Rollen#Projektleiter)
-
 ::: tip
-Projektstufen können mit mehreren Projekten geteilt werden.
+Aufgabenphasen können mit mehreren Projekten geteilt werden.
 :::
 
-Wechseln Sie in den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) und navigieren nach *Projekt > Konfiguration > Stufen*. Wählen Sie eine bestehende Stufe aus und klicken Sie auf *Bearbeiten*.
+Wechseln Sie in den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) und navigieren nach *Projekt > Konfiguration > Aufgabenphasen*. Wählen Sie eine bestehende Phase aus und klicken Sie auf *Bearbeiten*.
 
 Im Auswahl-Feld *Projekt* können Sie ein bestehendes Projekt hinzufügen. Mit *Speichern* schliessen Sie den Vorgang ab. Wenn Sie das hinzugefügte Projekt öffnen wird nun die gewählte Stufe dargestellt.
 
 ## Projekt duplizieren
 
 ::: tip
-Beim der Duplizierung eines Projekts werden deren Aufgaben und Stufen mitkopiert.
+Beim der Duplizierung eines Projekts werden deren Aufgaben und Phasen mitkopiert.
 :::
 
 Um ein Projekt zu duplizieren führen Sie folgende Aktion aus *Projekt > Projekt wählen > Übersicht > Smart-Link Projekt > Aktion > Duplizieren*.
