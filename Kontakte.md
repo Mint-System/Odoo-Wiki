@@ -111,3 +111,9 @@ Damit die Bezeichnung *Rechnungsadresse* im Anzeigenamen der Kontakte eingelende
 In der Kontaktauswahl wird der Adresstyp so sichtbar:
 
 ![](assets/Kontakt%20Auswahl%20mit%20Adresstyp.png)
+
+## Gewerbliche Einheit festlegen
+
+Auf jedem Odoo-Kontakt ist eine gewerbliche Einheit hinterlegt. Diese definiert über welchen Kontakt die Abrechnung erfolgen soll. Der Zugriff auf die gewerbliche Einheit erfordert, dass Sie das entsprechende [Snippet hinzufügen](Entwicklung%20Snippets.md#Snippet%20hinzufügen). Nur dann wird das Feld *Gewerbliche Einheit* auf der Formularansicht sichtbar:
+
+![](assets/Kontakt%20Gewerbliche%20EInheit.png)
