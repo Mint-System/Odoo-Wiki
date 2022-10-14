@@ -36,6 +36,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Verkaufsgruppen und Baugruppen](Best%20Practice%20Verkaufsgruppen%20und%20Baugruppen.md)
 * [Materialbezug in Vorgängen](Best%20Practice%20Materialbezug%20in%20Vorgängen.md)
 * [Material-Reservierung](Best%20Practice%20Material%20Reservierung.md)
+* [Make To Order](Best%20Practice%20Make%20To%20Order.md)
 
 ### Projekte
 

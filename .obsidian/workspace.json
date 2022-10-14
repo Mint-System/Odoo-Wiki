@@ -25,26 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kontakte.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7c3a4d1551b09a90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kontakte.md",
+                "file": "Best Practice Make To Order.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,8 +91,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kontakte.md",
-                "collapseAll": false,
+                "file": "Best Practice Make To Order.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -120,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kontakte.md"
+                "file": "Best Practice Make To Order.md"
               }
             }
           },
@@ -152,17 +140,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7c3a4d1551b09a90",
+  "active": "dbba3a23f8171476",
   "lastOpenFiles": [
-    "Entwicklung Snippets.md",
+    "Best Practice.md",
     "Kontakte.md",
+    "Best Practice Purchase To Order.md",
+    "Best Practice Make To Order.md",
+    "Lager Aktionen.md",
+    "Entwicklung Snippets.md",
     "Abrechnung.md",
     "assets/Kontakt Gewerbliche EInheit.png",
     "Account Invoice Select Bank.md",
-    "Entwicklung QWeb-Berichte.md",
-    "Lager Datenmanagement.md",
-    "Einstellungen Datenmanagement.md",
-    "Lager.md",
-    "Einstellungen.md"
+    "Entwicklung QWeb-Berichte.md"
   ]
 }
