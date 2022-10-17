@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ac8a4010d389e337",
+        "id": "3ec51dc9207c0257",
         "type": "tabs",
         "children": [
           {
-            "id": "0fe259965c773aea",
+            "id": "55485d8d2f8ad286",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Best Practice E-Mail Vorlagen.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "36c1ec12b92e1ef8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Best Practice E-Mail Vorlagen.md",
+                "file": "Sale Product Set.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -91,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Best Practice E-Mail Vorlagen.md",
+                "file": "Sale Product Set.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Best Practice E-Mail Vorlagen.md"
+                "file": "Sale Product Set.md"
               }
             }
           },
@@ -140,17 +126,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "36c1ec12b92e1ef8",
+  "active": "55485d8d2f8ad286",
   "lastOpenFiles": [
+    "assets/Sale Product Set Dialog.png",
+    "assets/Pasted image 20221017084355.png",
+    "Best Practice Lagerorte.md",
+    "Best Practice Beschaffung.md",
+    "Best Practice Verschiedene Produktarten einkaufen.md",
+    "Best Practice Berechtigungen für Zeiterfassung.md",
+    "Best Practice E-Mail Vorlagen.md",
     "Diskussion E-Mail.md",
     "Abrechnung.md",
-    "Best Practice E-Mail Vorlagen.md",
-    "Best Practice.md",
-    "Einstellungen E-Mail.md",
-    "Kontakte.md",
-    "Finanzen Aktionen.md",
-    "Einstellungen OAuth.md",
-    "Einstellungen.md",
-    "assets/Einstellungen OAuth Outlook.png"
+    "Best Practice.md"
   ]
 }

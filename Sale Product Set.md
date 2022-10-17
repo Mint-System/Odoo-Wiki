@@ -22,6 +22,6 @@ Navigieren sie nach *Verkauf > Produkte > Produkset* und erstellen Sie einen neu
 
 Im Angebot wählen Sie die Aktion *Produkset Hinzufügen*. Im Dialog wählen Sie das gewünschte Set und passen die Menge.
 
-![](assets/Sale%20Product%20Set%20DialogPasted%20image%2020220706112559.png)
+![](assets/Sale%20Product%20Set%20Dialog.png)
 
 Mit der Aktion *Produkset Hinzufügen* werden auf dem Verkaufsautrag die einzelnen Auftragszeilen angelegt.
