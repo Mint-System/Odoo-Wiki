@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3ec51dc9207c0257",
+        "id": "2788c87f80ebe928",
         "type": "tabs",
         "children": [
           {
-            "id": "55485d8d2f8ad286",
+            "id": "996eacdd20d83b9e",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -119,17 +119,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "75c879f261fc1192",
+  "active": "996eacdd20d83b9e",
   "lastOpenFiles": [
+    "Calendar.md",
+    "Kalender.md",
+    "README.md",
     "assets/Zeiterfassung Terminal RFID registrieren.webm",
     "Sale Product Set.md",
     "assets/Sale Product Set Dialog.png",
     "assets/Pasted image 20221017084355.png",
     "Best Practice Lagerorte.md",
     "Best Practice Beschaffung.md",
-    "Best Practice Verschiedene Produktarten einkaufen.md",
-    "Best Practice Berechtigungen für Zeiterfassung.md",
-    "Best Practice E-Mail Vorlagen.md",
-    "Diskussion E-Mail.md"
+    "Best Practice Verschiedene Produktarten einkaufen.md"
   ]
 }
