@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lager Datenmanagement.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "dbba3a23f8171476",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Best Practice Make To Order.md",
+                "file": "Einstellungen OAuth.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -91,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Best Practice Make To Order.md",
+                "file": "Einstellungen OAuth.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Best Practice Make To Order.md"
+                "file": "Einstellungen OAuth.md"
               }
             }
           },
@@ -140,17 +126,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "dbba3a23f8171476",
+  "active": "bd4bc9a45fbc158b",
   "lastOpenFiles": [
-    "Best Practice.md",
-    "Kontakte.md",
-    "Best Practice Purchase To Order.md",
-    "Best Practice Make To Order.md",
-    "Lager Aktionen.md",
-    "Entwicklung Snippets.md",
-    "Abrechnung.md",
-    "assets/Kontakt Gewerbliche EInheit.png",
-    "Account Invoice Select Bank.md",
-    "Entwicklung QWeb-Berichte.md"
+    "assets/Einstellungen OAuth Outlook.png",
+    "Einstellungen OAuth.md",
+    "assets/Einstellungen OAuth.png",
+    "assets/Einstellungen OAuth Paste Client ID and Secret.png",
+    "assets/Einstellungen OAuth Copy Secret.png",
+    "assets/Einstellungen OAuth Client Secret.png",
+    "assets/Einstellungen OAuth Odoo App.png",
+    "assets/Einstellungen OAuth Mehrinstanzenfähig.png",
+    "assets/Einstellungen OAuth App-Registrierungen.png",
+    "Mail Service Users.md"
   ]
 }

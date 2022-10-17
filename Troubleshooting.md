@@ -73,7 +73,7 @@ Im Zahlungsvorgang von Rechnungen wurde eine Zahlungsmethode gelöscht.
 
 Aktualisieren Sie die App *Abrechnung* (`account`).
 
-## Eingehende Mail werden nicht verarbeitet
+## Eingehende Mails werden nicht verarbeitet
 
 #### Problem
 
@@ -85,7 +85,7 @@ Werden die ausgehenden E-Mail Server bearbeitet oder zurückgesetzt, werden in d
 
 #### Lösung
 
-Prüfen Sie die Systemparater und stellen sicher sich, dass die Schlüssel `mail.catchall.domain` und `mail.catchall.alias`.
+Prüfen Sie die Systemparameter und stellen Sie sicher sich, dass die Schlüssel `mail.catchall.domain` und `mail.catchall.alias` festgelegt sind.
 
 ##  Kein Zugriff auf Ansicht
 
