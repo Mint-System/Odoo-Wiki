@@ -120,4 +120,4 @@ Auf jedem Odoo-Kontakt ist eine gewerbliche Einheit hinterlegt. Diese definiert 
 
 ## Bankkonten anzeigen
 
-Wenn Sie alle erfassten Bankkonten in einer Listen möchten, navigieren Sie nach *Kontakte > Konfiguration > Bankkonten*.
+Wenn Sie alle erfassten Bankkonten in einer Listen anzeigen möchten, navigieren Sie nach *Kontakte > Konfiguration > Bankkonten*.
