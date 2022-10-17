@@ -8,18 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bd4bc9a45fbc158b",
+            "id": "0fe259965c773aea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kontakte.md",
+                "file": "Best Practice E-Mail Vorlagen.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "36c1ec12b92e1ef8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Best Practice E-Mail Vorlagen.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kontakte.md",
+                "file": "Best Practice E-Mail Vorlagen.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kontakte.md"
+                "file": "Best Practice E-Mail Vorlagen.md"
               }
             }
           },
@@ -118,27 +131,26 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 303.5
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "bd4bc9a45fbc158b",
+  "active": "36c1ec12b92e1ef8",
   "lastOpenFiles": [
+    "Diskussion E-Mail.md",
+    "Abrechnung.md",
+    "Best Practice E-Mail Vorlagen.md",
+    "Best Practice.md",
+    "Einstellungen E-Mail.md",
+    "Kontakte.md",
     "Finanzen Aktionen.md",
     "Einstellungen OAuth.md",
     "Einstellungen.md",
-    "assets/Einstellungen OAuth Outlook.png",
-    "assets/Einstellungen OAuth.png",
-    "assets/Einstellungen OAuth Paste Client ID and Secret.png",
-    "assets/Einstellungen OAuth Copy Secret.png",
-    "assets/Einstellungen OAuth Client Secret.png",
-    "assets/Einstellungen OAuth Odoo App.png",
-    "assets/Einstellungen OAuth Mehrinstanzenfähig.png"
+    "assets/Einstellungen OAuth Outlook.png"
   ]
 }

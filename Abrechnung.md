@@ -37,9 +37,13 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 Öffnen Sie *Abrechnung > Lieferanten > Rechnungen* und fügen Sie einen Eintrag hinzu.
 
-## Lieferantenkonto konfigurieren
+## Bankkonto zu Lieferant hinzufügen
 
-Wählen Sie *Kontakte* zeigen Sie den Lieferanten in der Formularansicht an. Klicken Sie auf *Bearbeiten* und fügen Sie im Tab *Finanzen* ein Bankkonto hinzu.
+Wählen Sie *Kontakte*  zeigen Sie den Lieferanten in der Formularansicht an. Klicken Sie auf *Bearbeiten* und fügen Sie im Tab *Finanzen* ein Bankkonto hinzu.
+
+## Bankkonten anzeigen
+
+Wenn Sie alle erfassten Bankkonten in einer Listen anzeigen möchten, navigieren Sie nach *Kontakte > Konfiguration > Bankkonten*.
 
 ## Rechnungen digitalisieren
 
@@ -59,45 +63,7 @@ Der Digitalisierungsprozess dauert wenige Sekunden. Sie können den Status mit *
 
 Für den automatischen Versand von Rechnungen können E-Mail-Vorlagen erstellt werden.
 
-Unter *Einstellungen > Technisch > E-Mail > Vorlagen* können die E-Mail-Vorlagen verwaltet werden. Erstellen Sie ein Duplikat der Vorlage *Invoice: Send by email*.
-
-Als Betreff geben Sie folgendes ein: `${object.company_id.name} Rechn. (Ref ${object.name or 'n/a'})`. Wechseln Sie für die Nachricht in die Code-Ansicht.
-
-![](assets/Odoo%20Code-Ansicht.png)
-
-Kopieren Sie den folgenden Inhalt:
-
-```html
-<div style="margin:0px;padding: 0px;">
-    <p style="padding: 0px; font-size: 13px;">
-        Guten Tag
-        % if object.partner_id.parent_id:
-            ${object.partner_id.name} (${object.partner_id.parent_id.name})
-        % else:
-            ${object.partner_id.name}
-        % endif
-        <br><br>
-        Anbei die 
-        % if object.name:
-            Rechnung <strong>${object.name}</strong>
-        % else:
-            Rechnung
-        %endif
-        % if object.invoice_origin:
-            (mit Referenz: ${object.invoice_origin})
-        % endif
-        im Betrag von <strong>${format_amount(object.amount_total, object.currency_id)}</strong>
-        von der ${object.company_id.name}.
-        % if object.invoice_payment_state == 'paid':
-            Diese Rechnung wurde bereits bezahlt.
-        % else:
-            Wir danken für eine fristgerechte Bezahlung.
-        % endif
-        <br><br>
-        Zögern Sie nicht uns bei Fragen zu kontaktieren.
-    </p>
-</div>         
-```
+Unter *Einstellungen > Technisch > E-Mail > Vorlagen* können die E-Mail-Vorlagen verwaltet werden. Erstellen Sie ein Duplikat der Vorlage *Invoice: Send by email* und fahren Sie weiter gemäss [E-Mail-Vorlage erfassen](Diskussion%20E-Mail.md#E-Mail-Vorlage%20erfassen).
 
 ## Rechnungsnummer einrichten
 

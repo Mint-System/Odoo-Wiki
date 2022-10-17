@@ -110,7 +110,7 @@ Inhalt:
 </div>
 ```
 
-### Purchase Order: Send RFQ
+## Purchase Order: Send RFQ
 
 XML-ID: `purchase.email_template_edi_purchase`
 
