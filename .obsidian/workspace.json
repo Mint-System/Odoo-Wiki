@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Finanzen Aktionen.md",
+                "file": "Kontakte.md",
                 "mode": "source",
                 "source": true
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bankkonto",
+                "query": "Bankkonten anzeigen",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Finanzen Aktionen.md",
+                "file": "Kontakte.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Finanzen Aktionen.md"
+                "file": "Kontakte.md"
               }
             }
           },
@@ -127,8 +128,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "1dc153448278c26e",
+  "active": "bd4bc9a45fbc158b",
   "lastOpenFiles": [
+    "Finanzen Aktionen.md",
     "Einstellungen OAuth.md",
     "Einstellungen.md",
     "assets/Einstellungen OAuth Outlook.png",
@@ -137,7 +139,6 @@
     "assets/Einstellungen OAuth Copy Secret.png",
     "assets/Einstellungen OAuth Client Secret.png",
     "assets/Einstellungen OAuth Odoo App.png",
-    "assets/Einstellungen OAuth Mehrinstanzenfähig.png",
-    "assets/Einstellungen OAuth App-Registrierungen.png"
+    "assets/Einstellungen OAuth Mehrinstanzenfähig.png"
   ]
 }

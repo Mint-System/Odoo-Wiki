@@ -117,3 +117,7 @@ In der Kontaktauswahl wird der Adresstyp so sichtbar:
 Auf jedem Odoo-Kontakt ist eine gewerbliche Einheit hinterlegt. Diese definiert über welchen Kontakt die Abrechnung erfolgen soll. Der Zugriff auf die gewerbliche Einheit erfordert, dass Sie das entsprechende [Snippet hinzufügen](Entwicklung%20Snippets.md#Snippet%20hinzufügen). Nur dann wird das Feld *Gewerbliche Einheit* auf der Formularansicht sichtbar:odoo manufacture to order
 
 ![](assets/Kontakt%20Gewerbliche%20EInheit.png)
+
+## Bankkonten anzeigen
+
+Wenn Sie alle erfassten Bankkonten in einer Listen möchten, navigieren Sie nach *Kontakte > Konfiguration > Bankkonten*.
