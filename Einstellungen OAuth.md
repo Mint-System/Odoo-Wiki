@@ -10,7 +10,7 @@ OAuth-Integration mit Odoo.
 
 ## Odoo als OAuth-Client auf Azure registrieren
 
-Damit sich Odoo-Benutzer den OAuth-Authorisierungsflow mit Azure abwickeln können, muss Odoo auf Azure regsitriert werden.
+Damit sich Odoo-Benutzer den OAuth-Authorisierungsflow mit Azure abwickeln können, muss Odoo auf Azure registriert werden.
 
 Klicken Sie auf <https://portal.azure.com/> um in das Azure-Portal zu gelangen. Navigieren Sie nach *Azure Active Directory > App-Registrierungen* und erstellen Sie eine neue App mit *Neue Registrierung*.
 
@@ -32,7 +32,7 @@ Klicken anschliessend auf *Ein Zertifikat oder Geheimnis hinzufügen*. Erstellen
 
 ![](assets/Einstellungen%20OAuth%20Client%20Secret.png)
 
-Kopieren Sie das Feld *Wert*, es handelt sich hierbei um das Client Secret.
+Kopieren Sie das Feld *Wert*, es handelt sich hierbei um das *Client Secret*.
 
 ![](assets/Einstellungen%20OAuth%20Copy%20Secret.png)
 
