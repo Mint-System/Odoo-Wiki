@@ -17,9 +17,9 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 | [Einstellungen Datenmanagement](Einstellungen%20Datenmanagement.md) | Daten zu Einstellungen exportieren und importieren.   |
 | [Einstellungen E-Mail](Einstellungen%20E-Mail.md)                   | Odoo mit Plattformen von Dritten integrieren.         |
 | [Einstellungen Login](Einstellungen%20Login.md)                     | Odoo-Einstellungen zum Benutzer und Anmeldeverfahren. |
+| [Einstellungen OAuth](Einstellungen%20OAuth.md)                     | OAuth-Integration mit Odoo.                           |
 | [Einstellungen Technisch](Einstellungen%20Technisch.md)             | Technische Einstellungen zur Odoo-Datenbank.          |
 | [Einstellungen Übersetzung](Einstellungen%20Übersetzung.md)         | Einstellungen zu Sprachpakete und Übersetzungen.      |
-| [Einstellungen OAuth](Einstellungen%20OAuth.md)                     | OAuth-Integration mit Odoo.                           |
 
 ## Erweiterungen
 

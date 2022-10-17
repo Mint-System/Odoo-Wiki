@@ -117,7 +117,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -126,7 +127,7 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "bd4bc9a45fbc158b",
+  "active": "90688d24ea0b6de8",
   "lastOpenFiles": [
     "Einstellungen OAuth.md",
     "assets/Einstellungen OAuth Outlook.png",
