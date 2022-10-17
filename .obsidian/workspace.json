@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Einstellungen.md",
+                "file": "Einstellungen OAuth.md",
                 "mode": "source",
                 "source": true
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Einstellungen.md",
+                "file": "Einstellungen OAuth.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Einstellungen.md"
+                "file": "Einstellungen OAuth.md"
               }
             }
           },
@@ -127,8 +127,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "90688d24ea0b6de8",
+  "active": "bd4bc9a45fbc158b",
   "lastOpenFiles": [
+    "Einstellungen.md",
     "Einstellungen OAuth.md",
     "assets/Einstellungen OAuth Outlook.png",
     "assets/Einstellungen OAuth.png",
@@ -137,7 +138,6 @@
     "assets/Einstellungen OAuth Client Secret.png",
     "assets/Einstellungen OAuth Odoo App.png",
     "assets/Einstellungen OAuth Mehrinstanzenfähig.png",
-    "assets/Einstellungen OAuth App-Registrierungen.png",
-    "Mail Service Users.md"
+    "assets/Einstellungen OAuth App-Registrierungen.png"
   ]
 }

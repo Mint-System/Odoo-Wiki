@@ -8,7 +8,7 @@ prev: ./einstellungen
 
 OAuth-Integration mit Odoo.
 
-## Odoo für OAuth auf Azure registrieren
+## Odoo als OAuth-Client auf Azure registrieren
 
 Damit sich Odoo-Benutzer den OAuth-Authorisierungsflow mit Azure abwickeln können, muss Odoo auf Azure regsitriert werden.
 
@@ -40,7 +40,7 @@ Kopieren Sie das Feld *Wert*, es handelt sich hierbei um das Client Secret.
 
 ![](assets/Einstellungen%20OAuth%20Paste%20Client%20ID%20and%20Secret.png)
 
-## Outlook OAuth-Verbindungen einrichten
+## Outlook OAuth-Verbindung einrichten
 
 Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server*. Markieren Sie den Eintrag *Outlook* auf dem Mail-Server. Klicken Sie auf *Connect your Outlook account* und loggen Sie sich mit dem Postfach-Benutzer ein.
 
