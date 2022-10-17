@@ -11,12 +11,8 @@
             "id": "55485d8d2f8ad286",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sale Product Set.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sale Product Set.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Sale Product Set.md"
-              }
+              "state": {}
             }
           },
           {
@@ -126,8 +119,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "55485d8d2f8ad286",
+  "active": "75c879f261fc1192",
   "lastOpenFiles": [
+    "assets/Zeiterfassung Terminal RFID registrieren.webm",
+    "Sale Product Set.md",
     "assets/Sale Product Set Dialog.png",
     "assets/Pasted image 20221017084355.png",
     "Best Practice Lagerorte.md",
@@ -135,8 +130,6 @@
     "Best Practice Verschiedene Produktarten einkaufen.md",
     "Best Practice Berechtigungen für Zeiterfassung.md",
     "Best Practice E-Mail Vorlagen.md",
-    "Diskussion E-Mail.md",
-    "Abrechnung.md",
-    "Best Practice.md"
+    "Diskussion E-Mail.md"
   ]
 }
