@@ -19,7 +19,7 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 | [Einstellungen Login](Einstellungen%20Login.md)                     | Odoo-Einstellungen zum Benutzer und Anmeldeverfahren. |
 | [Einstellungen Technisch](Einstellungen%20Technisch.md)             | Technische Einstellungen zur Odoo-Datenbank.          |
 | [Einstellungen Übersetzung](Einstellungen%20Übersetzung.md)         | Einstellungen zu Sprachpakete und Übersetzungen.      |
-| [[Einstellungen OAuth]]                                                                    |                                                       |
+| [Einstellungen OAuth](Einstellungen%20OAuth.md)                     | OAuth-Integration mit Odoo.                           |
 
 ## Erweiterungen
 

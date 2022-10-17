@@ -6,7 +6,7 @@ prev: ./einstellungen
 # Einstellungen OAuth
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
-Anmelden in Odoo auf Plattform
+OAuth-Integration mit Odoo.
 
 ## Odoo für OAuth auf Azure registrieren
 
