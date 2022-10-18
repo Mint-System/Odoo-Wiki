@@ -36,26 +36,30 @@ Starten Sie die vorbereitete Inventur mit *Inventur Starten*. Falls ein nicht ge
 
 Befüllen Sie nun die Spalte *Gezählt* entsprechend der gezählten Quantität pro Produkt. Nach der abgeschlossenen Zählung wird mit *Bestandsbuchung Durchführen* der korrigierte Bestand gebucht. Das Protokoll kann über *Print Count Sheet* erstellt werden.
 
-## Bordereau-Export erstellen
+## Bordereau-Ansicht erstellen
 
-Öffnen Sie *Lager > Berichtswesen > Produktlieferungen*. Filtern Sie die Daten wie  folgt:
+Die Bordereau-Ansicht bietet dem Logistiker eine Übersicht der anstehenden Aufträge. Odoo bietet standardmässig keine Bordereau-Ansicht, jedoch können Sie diese einfach selber erstellen. Führen Sie dazu [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) aus und verwenden diese Werte:
 
-* Ausgehend
-* Erledigt
+Name der Aktion: `Bordereau`\
+Objekt: `stock.picking`\
+Ansichtsmodus: `tree,form,pivot`\
+Wertebereich:
 
-Gruppieren und sortieren Sie Lagerbuchungen nach:
+```
+[
+"&",
+["carrier_id", "in", ["Bordereau", "Bordereau Migros"]],
+["state", "in", ["assigned","done"]],
+["scheduled_date", ">=", datetime.datetime.now()],
+["scheduled_date", "<=", (datetime.datetime.now() + datetime.timedelta(days=3)).strftime('%Y-%m-%d')]
+]
+```
 
-* Datum > Tag
-* Lieferadresse
-* Produkt
+Menü: `Bordereau`\
+Obermenü: `Lager/Lager`\
+Aktion: `ir.actions.act_window` `Bordereau`\
+Nummernfolge: `10`
 
-Markieren Sie zu exportierenden Lagerbuchungen und wählen Sie *Aktion > Export*. Wählen Sie diese Felder:
-
-* Lagerbuchung/Lieferadresse
-* Produkt/Referenz
-* Produkt
-* Produkt/HS-Code
-* Erledigt
 
 ## Reservierter Bestand zurücksetzen
 

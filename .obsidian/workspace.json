@@ -13,31 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboards.md",
+                "file": "Lager Bestand.md",
                 "mode": "source",
                 "source": true
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "863645e23ee04700",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "a9e5ead3f2c00221",
+            "id": "512dbf46896306c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Best Practice Auftragszeilen auswerten.md",
+                "file": "Lager Bestand.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "df1092f2a132861e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Verkauf.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Favorit",
+                "query": "bordereau",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dashboards.md",
+                "file": "Lager Bestand.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dashboards.md"
+                "file": "Lager Bestand.md"
               }
             }
           },
@@ -136,8 +143,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -146,17 +152,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "437d25156d5a7e2c",
+  "active": "512dbf46896306c3",
   "lastOpenFiles": [
-    "Best Practice Auftragszeilen auswerten.md",
+    "Entwicklung Aktionen.md",
+    "Verkauf.md",
+    "Lager Bestand.md",
     "Dashboards.md",
+    "Best Practice Auftragszeilen auswerten.md",
     "Navigation.md",
     "Awesome Timesheet.md",
     "Entwicklung Ansichten.md",
     "Best Practice.md",
-    "Best Practice Verkauf Kit bereitstellen.md",
-    "Best Practice Subunternehmer beauftragen.md",
-    "Entwicklung.md",
-    "assets/Best Practice Auftragszeilen auswerten.png"
+    "Best Practice Verkauf Kit bereitstellen.md"
   ]
 }

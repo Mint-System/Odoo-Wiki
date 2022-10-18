@@ -42,6 +42,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Fenster öffnen/schl
 Name der Aktion: `BoM Komponenenten`\
 Objekt: `mrp.bom.line`\
 Ansichtsreferenz: Gemäss Angaben
+Wertebereich: Gemäss Angaben
 
 Navigieren Sie nach *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und erstellen Sie einen neuen Eintrag:
 
