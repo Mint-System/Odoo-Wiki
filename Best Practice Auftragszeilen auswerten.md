@@ -35,4 +35,3 @@ Als Einstieg können Sie diese Auswertungen erstellen:
 | Aktion            | Auftragszeilen                                                                                                                                              |
 | Domain            | `[]`                                                                                                                  |
 | Kontext           | `{'graph_measure': '__count__', 'graph_mode': 'bar', 'graph_groupbys': ['x_categ_id'], 'group_by': ['x_categ_id'], 'comparison': {'comparisonId': 'previous_year', 'fieldName': 'x_date_order', 'fieldDescription': 'Auftragsdatum', 'range': '["&", ["x_date_order", ">=", "2021-12-31 23:00:00"], ["x_date_order", "<=", "2022-12-31 22:59:59"]]', 'rangeDescription': '2022', 'comparisonRange': '["&", ["x_date_order", ">=", "2020-12-31 23:00:00"], ["x_date_order", "<=", "2021-12-31 22:59:59"]]', 'comparisonRangeDescription': '2021'}}` |
-
