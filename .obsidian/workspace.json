@@ -11,8 +11,12 @@
             "id": "437d25156d5a7e2c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Best Practice Aufgabenphasen.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Best Practice Aufgabenphasen.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Best Practice Aufgabenphasen.md"
+              }
             }
           },
           {
@@ -119,8 +126,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "75c879f261fc1192",
+  "active": "437d25156d5a7e2c",
   "lastOpenFiles": [
+    "Best Practice.md",
     "Calendar.md",
     "Kalender.md",
     "README.md",
@@ -129,7 +137,6 @@
     "assets/Sale Product Set Dialog.png",
     "assets/Pasted image 20221017084355.png",
     "Best Practice Lagerorte.md",
-    "Best Practice Beschaffung.md",
-    "Best Practice Verschiedene Produktarten einkaufen.md"
+    "Best Practice Beschaffung.md"
   ]
 }

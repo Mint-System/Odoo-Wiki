@@ -20,6 +20,6 @@ Als Orientierung zur Definition der Aufgabenphasen wurd
 * **In Arbeit 🧑‍💻**: Die Aufgabe ist in Bearbeitung.
 * **Zur Verifizierung 🔍**: Die Aufgabe wurde erledigt und wird von einer dritten Person validiert.
 * **Erledigt ✅**: Die Aufgabe ist erledigt und kann archiviert werden.
-* **Permanent ♻️**: Aufgaben in dieser Stufe sind nie erledigt und werden fortlaufen bearbeitet, beispielsweise Projektadministration oder Kulanzleistungen..
+* **Postlog ♻️**: Aufgaben in dieser Stufe sind nie erledigt und werden fortlaufen bearbeitet, beispielsweise Projektadministration oder Kulanzleistungen.
 
 Für jedes Projekt und Projektvorlage können die Stufen angepasst werden. Einheitliche Aufgabenphase für alle Projekte werden empfohlen.
