@@ -14,7 +14,11 @@ Produkte, Preislisten und Varianten zentral pflegen.
 | ----------------- | --------------------------------------- |
 | [Packaging UOM](Packaging%20UOM.md) | Mengeneinheit für Produktverpackung festlegen. |
 
-## Produktattribut erstellen
+## Produktvarianten aktivieren
+
+Navigieren Sie nach *Einstellungen > Verkauf > Produktkatalog* und aktiveren Sie die Option *Varianten*.
+
+## Produktattributte erstellen
 
 Öffnen Sie *Verkäufe > Konfiguration > Produkte > Attribute* und wählen Sie *Anlegen*. Geben den Attributnamen an und legen Sie den Anzeigetyp fest. Für das Feld *Variants Creation Mode* haben Sie diese Optionen:
 * **Instantly**: Alle möglichen Produkvarianten werden angelegt.

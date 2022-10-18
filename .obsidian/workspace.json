@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abonnements.md",
+                "file": "Verkauf Stammdaten.md",
                 "mode": "source",
                 "source": true
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bordereau",
+                "query": "Produktvariante",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Abonnements.md",
+                "file": "Verkauf Stammdaten.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Abonnements.md"
+                "file": "Verkauf Stammdaten.md"
               }
             }
           },
@@ -128,8 +129,8 @@
   },
   "active": "f814e8f72499f541",
   "lastOpenFiles": [
-    "assets/Abonnements Produktvarainten.png",
     "Abonnements.md",
+    "assets/Abonnements Produktvarainten.png",
     "Account Move Line Position.md",
     "Lager Bestand.md",
     "Entwicklung Aktionen.md",
