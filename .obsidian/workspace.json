@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6b57b8e66992e604",
+        "id": "deeb0452ec8a171d",
         "type": "tabs",
         "children": [
           {
-            "id": "437d25156d5a7e2c",
+            "id": "f814e8f72499f541",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lager Bestand.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "512dbf46896306c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lager Bestand.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "df1092f2a132861e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Verkauf.md",
+                "file": "Account Move Line Position.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -103,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lager Bestand.md",
+                "file": "Account Move Line Position.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lager Bestand.md"
+                "file": "Account Move Line Position.md"
               }
             }
           },
@@ -152,11 +126,11 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "512dbf46896306c3",
+  "active": "f814e8f72499f541",
   "lastOpenFiles": [
+    "Lager Bestand.md",
     "Entwicklung Aktionen.md",
     "Verkauf.md",
-    "Lager Bestand.md",
     "Dashboards.md",
     "Best Practice Auftragszeilen auswerten.md",
     "Navigation.md",

@@ -60,7 +60,6 @@ Obermenü: `Lager/Lager`\
 Aktion: `ir.actions.act_window` `Bordereau`\
 Nummernfolge: `10`
 
-
 ## Reservierter Bestand zurücksetzen
 
 Für jeden Lagerort wird ein Bestand geführt *Lager > Konfiguration > Lagerorte > Lagerort auswählen > Smart-Link Bestand*. Wenn Sie die [Aktion Reservierter Bestand zurücksetzen erstellen](Lager%20Aktionen.md#Aktion%20Reservierter%20Bestand%20zurücksetzen%20erstellen), können Sie die Bestände markieren und die *Aktion > Reservierter Bestand zurücksetzen* ausführen.
