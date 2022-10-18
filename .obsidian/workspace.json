@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Best Practice.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "35ae9953e91776dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Best Practice Verkauf Kit bereitstellen.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5d82a7b8f590ed1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Best Practice Subunternehmer beauftragen.md",
+                "file": "Dashboards.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "863645e23ee04700",
@@ -91,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Entwickler-Too",
+                "query": "\"Favorit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Best Practice Subunternehmer beauftragen.md",
+                "file": "Dashboards.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Best Practice Subunternehmer beauftragen.md"
+                "file": "Dashboards.md"
               }
             }
           },
@@ -171,17 +146,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "5d82a7b8f590ed1b",
+  "active": "437d25156d5a7e2c",
   "lastOpenFiles": [
-    "Entwicklung Ansichten.md",
     "Best Practice Auftragszeilen auswerten.md",
-    "Best Practice Verkauf Kit bereitstellen.md",
-    "Entwicklung.md",
-    "assets/Best Practice Auftragszeilen auswerten.png",
+    "Dashboards.md",
+    "Navigation.md",
+    "Awesome Timesheet.md",
+    "Entwicklung Ansichten.md",
     "Best Practice.md",
-    "Verkauf Berichte.md",
-    "Best Practice Stückpreis definieren.md",
-    "assets/Einkauf.md",
-    "assets/Einkauf Bestellung Beispiel 4.png"
+    "Best Practice Verkauf Kit bereitstellen.md",
+    "Best Practice Subunternehmer beauftragen.md",
+    "Entwicklung.md",
+    "assets/Best Practice Auftragszeilen auswerten.png"
   ]
 }
