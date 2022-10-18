@@ -13,13 +13,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboards.md",
+                "file": "Best Practice Stückpreis definieren.md",
                 "mode": "source",
                 "source": true
               }
             }
+          },
+          {
+            "id": "9d233416553ddb63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Best Practice Stückpreis definieren.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8bf46270b6849934",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dashboards.md",
+                "file": "Best Practice Stückpreis definieren.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dashboards.md"
+                "file": "Best Practice Stückpreis definieren.md"
               }
             }
           },
@@ -126,17 +147,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "437d25156d5a7e2c",
+  "active": "9d233416553ddb63",
   "lastOpenFiles": [
-    "assets/Externer Link auf Startseite hinzufüge.gif",
-    "Dashboards.md",
-    "Best Practice Aufgabenphasen.md",
+    "assets/Einkauf.md",
+    "Best Practice Stückpreis definieren.md",
+    "assets/Einkauf Bestellung Beispiel 4.png",
+    "assets/Einkauf Bestellung Beispiel.png",
     "Best Practice.md",
+    "Dashboards.md",
+    "assets/Externer Link auf Startseite hinzufüge.gif",
+    "Best Practice Aufgabenphasen.md",
     "Calendar.md",
-    "Kalender.md",
-    "README.md",
-    "assets/Zeiterfassung Terminal RFID registrieren.webm",
-    "Sale Product Set.md",
-    "assets/Sale Product Set Dialog.png"
+    "Kalender.md"
   ]
 }
