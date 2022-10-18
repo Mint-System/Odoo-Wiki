@@ -41,7 +41,7 @@ Falls in den Produktionformationen eine Preisstaffelung in Abhängigkeit zu Lief
 
 Beispiel Einkauf bei Liererant *Klingel AG*
 
-![Einkauf Bestellung Beispiel 4](assets/Einkauf%20Bestellung%20Beispiel%204.png)]
+![Einkauf Bestellung Beispiel 4](assets/Einkauf%20Bestellung%20Beispiel%204.png)20Beispiel%204.png)]
 
 Beispiel Einkauf bei Liererant *Steinmann GmbH*
 

@@ -61,6 +61,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Subunternehmer beauftragen](Best%20Practice%20Subunternehmer%20beauftragen.md)
 * [Stückpreis definieren](Best%20Practice%20Stückpreis%20definieren.md)
 * [Kit bereitstellen](Best%20Practice%20Verkauf%20Kit%20bereitstellen.md)
+* [Auftragszeilen auswerten](Best%20Practice%20Auftragszeilen%20auswerten.md)
 
 ### Lager
 

@@ -13,34 +13,56 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Best Practice Stückpreis definieren.md",
+                "file": "Best Practice.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "9d233416553ddb63",
+            "id": "35ae9953e91776dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Best Practice Stückpreis definieren.md",
+                "file": "Best Practice Verkauf Kit bereitstellen.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "8bf46270b6849934",
+            "id": "5d82a7b8f590ed1b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Entwicklung Ansichten.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "863645e23ee04700",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9e5ead3f2c00221",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Best Practice Auftragszeilen auswerten.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "POSTGRES_PASSWORD",
+                "query": "Entwickler-Too",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +100,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Best Practice Stückpreis definieren.md",
+                "file": "Best Practice Auftragszeilen auswerten.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Best Practice Stückpreis definieren.md"
+                "file": "Best Practice Auftragszeilen auswerten.md"
               }
             }
           },
@@ -138,7 +161,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -147,17 +171,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "9d233416553ddb63",
+  "active": "a9e5ead3f2c00221",
   "lastOpenFiles": [
-    "assets/Einkauf.md",
-    "Best Practice Stückpreis definieren.md",
-    "assets/Einkauf Bestellung Beispiel 4.png",
-    "assets/Einkauf Bestellung Beispiel.png",
+    "Entwicklung Ansichten.md",
+    "Best Practice Auftragszeilen auswerten.md",
+    "Best Practice Verkauf Kit bereitstellen.md",
+    "Entwicklung.md",
+    "assets/Best Practice Auftragszeilen auswerten.png",
     "Best Practice.md",
-    "Dashboards.md",
-    "assets/Externer Link auf Startseite hinzufüge.gif",
-    "Best Practice Aufgabenphasen.md",
-    "Calendar.md",
-    "Kalender.md"
+    "Verkauf Berichte.md",
+    "Best Practice Stückpreis definieren.md",
+    "assets/Einkauf.md",
+    "assets/Einkauf Bestellung Beispiel 4.png"
   ]
 }

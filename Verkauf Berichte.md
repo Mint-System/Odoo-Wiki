@@ -8,12 +8,12 @@ prev: ./verkauf
 
 Verkaufsdaten immer aktuell.
 
-## Verkaufszeilen in Pivot auswerten
+## Verkaufsaufträge in Pivot auswerten
 
 Zeigen Sie die Pivot-Ansicht unter *Verkauf > Berichtswesen > Verkauf* an. Angenommen Sie wollen die Verkaufsdaten nach diesen Kriterien filtern:
 
 * Gelieferte Menge in kg  
-* Pro Woche (X-Achse)  
+* Pro Woche (X-Achse)
 * Pro Produkt und Branche (Y-Achse)
 
 Wählen Sie ganz einfach die entsprechenden Felder:
