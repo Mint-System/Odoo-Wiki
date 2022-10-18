@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Best Practice Aufgabenphasen.md",
+                "file": "Dashboards.md",
                 "mode": "source",
                 "source": true
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Best Practice Aufgabenphasen.md",
+                "file": "Dashboards.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Best Practice Aufgabenphasen.md"
+                "file": "Dashboards.md"
               }
             }
           },
@@ -128,15 +128,15 @@
   },
   "active": "437d25156d5a7e2c",
   "lastOpenFiles": [
+    "assets/Externer Link auf Startseite hinzufüge.gif",
+    "Dashboards.md",
+    "Best Practice Aufgabenphasen.md",
     "Best Practice.md",
     "Calendar.md",
     "Kalender.md",
     "README.md",
     "assets/Zeiterfassung Terminal RFID registrieren.webm",
     "Sale Product Set.md",
-    "assets/Sale Product Set Dialog.png",
-    "assets/Pasted image 20221017084355.png",
-    "Best Practice Lagerorte.md",
-    "Best Practice Beschaffung.md"
+    "assets/Sale Product Set Dialog.png"
   ]
 }
