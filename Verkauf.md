@@ -39,7 +39,6 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order Line Pos](Sale%20Order%20Line%20Pos.md)                                 | Verkaufsaufträge mit Positionsnummern.                                |
 | [Sale Order Line Purchase Margin](Sale%20Order%20Line%20Purchase%20Margin.md)       | Kalkulation der Marge basierend auf verlinkter Bestellung.            |
 | [Sale Order Notes](Sale%20Order%20Notes.md)                                         | Verkaufsaufträge mit Notizfelder.                                     |
-| [Sale Order Project Key](Sale%20Order%20Project%20Key.md)                           | Angebotsname von verlinkter Projektnummer übernehmen.                 |
 | [Sale Order Template Notes](Sale%20Order%20Template%20Notes.md)                     | Notizen auf Angebotsvorlage.                                          |
 | [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                         | Produktset mit Notizen und Abschnitten.                               |
 | [Sale Product Set](Sale%20Product%20Set.md)                                         | Produktsets definieren und einfach hinzufügen.                        |
