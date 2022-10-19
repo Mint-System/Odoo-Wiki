@@ -4,22 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "deeb0452ec8a171d",
+        "id": "492c22271d3970c9",
         "type": "tabs",
         "children": [
           {
-            "id": "f814e8f72499f541",
+            "id": "b1d91d27f559d766",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Verkauf Stammdaten.md",
+                "file": "Verkauf.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bd54b45d5ee3d572",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Verkauf.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9824b65c257148b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Verkauf.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "cc1f2b9acffd4206",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sale Order Project Key.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -78,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Verkauf Stammdaten.md",
+                "file": "Sale Order Project Key.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Verkauf Stammdaten.md"
+                "file": "Sale Order Project Key.md"
               }
             }
           },
@@ -118,7 +155,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -127,17 +165,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f814e8f72499f541",
+  "active": "cc1f2b9acffd4206",
   "lastOpenFiles": [
+    "Verkauf.md",
+    "Sale Order Project Key.md",
+    "Sale Order Line Pos.md",
+    "Sale Product Set Layout.md",
+    "Sale Product Set.md",
+    "Projekt.md",
+    "Verkauf Stammdaten.md",
     "Abonnements.md",
     "assets/Abonnements Produktvarainten.png",
-    "Account Move Line Position.md",
-    "Lager Bestand.md",
-    "Entwicklung Aktionen.md",
-    "Verkauf.md",
-    "Dashboards.md",
-    "Best Practice Auftragszeilen auswerten.md",
-    "Navigation.md",
-    "Awesome Timesheet.md"
+    "Account Move Line Position.md"
   ]
 }
