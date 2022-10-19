@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Verkauf.md",
+                "file": "Entwicklung Aktionen.md",
                 "mode": "source",
                 "source": true
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Produktvariante",
+                "query": "recompute",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Verkauf.md",
+                "file": "Entwicklung Aktionen.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Verkauf.md"
+                "file": "Entwicklung Aktionen.md"
               }
             }
           },
@@ -117,7 +118,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -126,17 +128,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "4d02592cb89707c0",
+  "active": "1dc153448278c26e",
   "lastOpenFiles": [
+    "Entwicklung.md",
+    "Entwicklung Ansichten.md",
+    "Entwicklung Aktionen.md",
+    "Verkauf.md",
     "Verkauf Projekt.md",
     "Sale Order Project Key.md",
-    "Verkauf.md",
     "Sale Order Line Pos.md",
     "Sale Product Set Layout.md",
     "Sale Product Set.md",
-    "Projekt.md",
-    "Verkauf Stammdaten.md",
-    "Abonnements.md",
-    "assets/Abonnements Produktvarainten.png"
+    "Projekt.md"
   ]
 }

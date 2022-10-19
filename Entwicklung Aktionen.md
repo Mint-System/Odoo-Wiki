@@ -9,6 +9,10 @@ prev: ./entwicklung
 
 Eigene Odoo Aktionen erstellen.
 
+## Aktuelle Aktion bearbeiten
+
+Mit jedem Klick auf ein Menü oder Knopf wird in Odoo eine Aktion ausgeührt. Die ausgeführte Aktion können Sie mit *Entwicklertools > Aktion bearbeiten* anzeigen und bearbeiten.
+
 ## Fenster umbennen
 
 Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach *Eisntellungen > Technisch > Aktionen > Fesnter öffnen/schliessen ...*. Suchen Sie im Feld *Name der Aktion* nach dem Fensternamen und passen Sie den Namen an.
@@ -94,11 +98,11 @@ expiration_date = expiration_date.strftime('%Y-%m-%d %H:%M:%S')
 env['ir.config_parameter'].sudo().set_param('database.expiration_date', expiration_date)
 ```
 
-## Aktion "Recompute field" erstellen
+## Aktion "Feld neu berechnen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Recompute field`\
+Name der Aktion: `Feld neu berechnen`\
 Modell: `ir.model.fields`\
 Folgeaktion: `Python-Code ausführen`
 
@@ -113,7 +117,7 @@ env.add_to_compute(obj._fields[field.name], obj.search([]))
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Liste der Felder erscheint nun in der Auswahl *Aktion* das Menu *Recompute field*.
+In der Liste der Felder erscheint nun in der Auswahl *Aktion* das Menu *Feld neu berechnen*.
 
 ## Aktion "Ansicht Zugriffsrechte aktualisieren" erstellen
 
