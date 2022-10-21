@@ -4,16 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "2d3603ca4c97683e",
+        "id": "876a7b79e0cf37a1",
         "type": "tabs",
         "children": [
           {
-            "id": "4d02592cb89707c0",
+            "id": "476a75a8623a48e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Entwicklung Aktionen.md",
+                "file": "Dokumente Aktionen.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "606373a0bdf94c5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lager Aktionen.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "effc5837cd4972d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lager.md",
                 "mode": "source",
                 "source": true
               }
@@ -48,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "recompute",
+                "query": "env['stock.picking']",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +81,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Entwicklung Aktionen.md",
+                "file": "Dokumente Aktionen.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Entwicklung Aktionen.md"
+                "file": "Dokumente Aktionen.md"
               }
             }
           },
@@ -118,8 +141,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -128,17 +150,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "1dc153448278c26e",
+  "active": "476a75a8623a48e8",
   "lastOpenFiles": [
+    "Lager Aktionen.md",
+    "Lager.md",
+    "Dokumente Aktionen.md",
+    "Fertigung Aktionen.md",
+    "Dokumente.md",
+    "Entwicklung Aktionen.md",
     "Entwicklung.md",
     "Entwicklung Ansichten.md",
-    "Entwicklung Aktionen.md",
     "Verkauf.md",
-    "Verkauf Projekt.md",
-    "Sale Order Project Key.md",
-    "Sale Order Line Pos.md",
-    "Sale Product Set Layout.md",
-    "Sale Product Set.md",
-    "Projekt.md"
+    "Verkauf Projekt.md"
   ]
 }
