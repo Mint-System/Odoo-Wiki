@@ -4,43 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "876a7b79e0cf37a1",
+        "id": "151b9205172067cb",
         "type": "tabs",
         "children": [
           {
-            "id": "476a75a8623a48e8",
+            "id": "1d7f0ac1c3eb48ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dokumente Aktionen.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "606373a0bdf94c5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lager Aktionen.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "effc5837cd4972d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lager.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -101,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dokumente Aktionen.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Dokumente Aktionen.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,13 +119,13 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "476a75a8623a48e8",
+  "active": "1d7f0ac1c3eb48ad",
   "lastOpenFiles": [
-    "Lager Aktionen.md",
     "Lager.md",
+    "Lager Aktionen.md",
     "Dokumente Aktionen.md",
-    "Fertigung Aktionen.md",
     "Dokumente.md",
+    "Fertigung Aktionen.md",
     "Entwicklung Aktionen.md",
     "Entwicklung.md",
     "Entwicklung Ansichten.md",
