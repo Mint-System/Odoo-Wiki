@@ -10,7 +10,7 @@ Maximieren Sie die Effizienz Ihres Lagers.
 
 Website: <https://www.odoo.com/de_DE/app/inventory>
 
-￼## Bereiche
+## Bereiche
 
 | Bereich                                                 | Beschreibung                           |
 | ------------------------------------------------------- | -------------------------------------- |
@@ -81,3 +81,7 @@ Aktivieren Sie die Option *Mehrstufige Routen* unter *Einstellungen > Lager > La
 Navigieren Sie nach *Lager > Produkte* und wählen Sie ein Produkt aus. Im Tab *Lager* aktivieren Sie die Routen *Einkaufen* und *Auffüllung nach Auftrag (MTO)*.
 
 ![](assets/Lager%20Purchase%20to%20Order.png)
+
+## Produkt für "Make to Order" konfigurieren
+
+Navigieren Sie nach *Lager > Produkte* und wählen Sie ein Produkt aus. Im Tab *Lager* aktivieren Sie die Routen *Fertigung* und *Auffüllung nach Auftrag (MTO)*.

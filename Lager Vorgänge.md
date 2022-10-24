@@ -62,15 +62,19 @@ Rufen Sie die Ansicht der Routen auf *Lager > Konfiguration > Routen* und wähle
 
 ## Beschaffungsgruppe weitergeben
 
-Navigieren Sie nach *Lager > Konfiguration > Route* und Route *Einkaufen* auswählen. Im Abschnitt *Regel* wählen Sie die bestehende Aktion *Einkaufen*. Im Feld *Weitergabe Beschaffungsgruppe* legen Sie *Weitergeben* fest.
+Navigieren Sie nach *Lager > Konfiguration > Route* und Route *Fertigung* auswählen. Im Abschnitt *Regel* wählen Sie die bestehende Regel *Einkaufen* oder *Fertigung*. Im Feld *Weitergabe Beschaffungsgruppe* legen Sie *Weitergeben* fest.
 
 ![](assets/Lager%20Vorgänge%20Weitergabe%20Beschaffungsgruppe.png)
 
 ## Bestand beim Einkauf ignorieren
 
-Wenn Sie beim Einkauf das Lager nicht berücksichtigen wollen. Müssen Sie auf der Route *Auffüllung nach Auftrag (MTO)* die Beschaffungsmethode anpassen:
+Wenn Sie beim Einkauf das Lager nicht berücksichtigen wollen. Müssen Sie auf der Route *Auffüllung nach Auftrag (MTO)* die Beschaffungsregel anpassen:
 
 ![Lager Vorgänge Stock ignorieren](assets/Lager%20Vorgänge%20Stock%20ignorieren.gif)
+
+## Bestand bei Fertigung ignorieren
+
+Wenn Sie bei Fertigung das Lager nicht berücksichtigen wollen. Müssen Sie auf der Route *Auffüllung nach Auftrag (MTO)* die Fertigungsregel anpassen. Navigieren Sie nach *Lager > Konfiguration > Routen* und öffnen Sie die Route *Auffüllung nach Auftrag (MTO)*.  Bearbeiten Sei die Regel *Fertigung* und legen Sie im Feld *Beschaffungsmethode* den Wert *Eine andere Regel auslösen* aus.
 
 ## Automatische Reservierung deaktivieren
 
