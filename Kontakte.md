@@ -23,6 +23,7 @@ Alle Kontaktdaten an einem Ort.
 | [Partner Contact Department](OCA%20Partner%20Contact%20Department.md)             | Erweitert das Adressbuch mit Abteilungen.                      |
 | [Partner Contact Department](Partner%20Contact%20Department%20Note.md)            | Abteilung auf Kontakten speichern.                             |
 | [Partner Contact Location in Name](Partner%20Contact%20Location%20in%20Name.md)   | PLZ und Stadt in Kontaktauswahl anzeigen.                      |
+| [Partner Duplicate Acc Number](Partner%20Duplicate%20Acc%20Number)                | Kontonummer für mehrere Bankkonten verwenden                   |
 | [Partner Hide Address](Partner%20Hide%20Address.md)                               | Addressen auf Berichten ausblenden.                            |
 | [Partner Ref Sequence](Partner%20Ref%20Sequence.md)                               | Automatische Vergabe der Kontakt-Referenz.                     |
 | [Partner Secondary Email](Partner%20Secondary%20Email.md)                         | Zweite E-Mail für alle Kontakte.                               |
