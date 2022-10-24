@@ -40,7 +40,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)                                               | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren.           |
 | [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                           | PDF-Dokumenten von Rechnungen zusammenführen.                               |
 | [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                     | Allow discount deduction on vendor bills.                                   |
-| [Recurring Contracts Management](Recurring%20Contracts%20Management.md)                                         | Wiederholende Verträge verwalten und automatisch verrechnen.                |
+| [Contracts Management Recurring](Contracts%20Management%20Recurring.md)                                         | Wiederholende Verträge verwalten und automatisch verrechnen.                |
 | [Swiss QR-ESR Scan](Swiss%20QR-ESR%20Scan.md)                                                                   | Rechnung anhand QR-Daten erstellen.                                         |
 | [Switzerland Bank type](Switzerland%20Bank%20Type.md)                                                           | Lokalisierung für Schweizer Banken und Bankkontos.                          |
 | [Switzerland Disable Default Reports](Switzerland%20Disable%20Default%20Reports.md)                             | Generierung der QR- und ISR-Berichte deaktivieren.                          |

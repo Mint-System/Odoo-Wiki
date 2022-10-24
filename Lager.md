@@ -18,9 +18,9 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Handscanner Zebra TC21](Handscanner%20Zebra%20TC21.md) | Handscanner für Odoo.                  |
 | [Lager Aktionen](Lager%20Aktionen.md)                   | Arbeitsflüsse im Lager automatisieren. |
 | [Lager Bestand](Lager%20Bestand.md)                     | Den Lagerbestand optimal verwalten.    |
+| [Lager Datenmanagement](Lager%20Datenmanagement.md)     |                                        |
 | [Lager Verpackungen](Lager%20Verpackungen.md)           | Verpackungen effizient verwalten.      |
 | [Lager Vorgänge](Lager%20Vorgänge.md)                   | Vorgänge im Lager ausführen.           |
-| [[Lager Datenmanagement]]                                                        |                                        |
 
 ## Erweiterungen
 

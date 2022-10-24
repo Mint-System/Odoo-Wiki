@@ -4,13 +4,19 @@ tags:
 - OCA
 prev: ./finanzen
 ---
-# Recurring Contracts Management
+# Contracts Management Recurring
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Wiederholende Verträge verwalten und automatisch verrechnen.
 
 Technischer Name: `contract`\
 Repository: <https://github.com/OCA/contract/tree/14.0/contract>
+
+## Erweiterungen
+
+| Erweiterung                              | Beschreibung                                             |
+| ---------------------------------------- | -------------------------------------------------------- |
+| [Contracts Management Recurring Sales](Contracts%20Management%20Recurring%20Sales.md) | Aus wiederholenden Verträge Verkaufsangebote generieren. |
 
 ## Kundenverträge anzeigen
 
@@ -36,7 +42,7 @@ Täglich wird ein Cron-Job ausgeführt, der entsprechend dem *Datum der nächste
 
 Navigieren Sie nach *Finanzen >  Lieferanten > Lieferantenverträge*.
 
-## Lieferantenvertrag einrichten
+## Lieferantenvertrag erstellen
 
 Rufen Sie *Finanzen >  Lieferanten > Lieferantenverträge* auf und wählen Sie *Anlegen*. Füllen mindestens diese Felder aus:
 

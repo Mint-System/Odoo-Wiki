@@ -23,25 +23,26 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 
 ## Erweiterungen
 
-| Erweiterung                                                                         | Beschreibung                                                          |
-| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| [Default sales incoterm per partner](Default%20sales%20incoterm%20per%20partner.md) | Standardlieferbedingungen für Kunden.                                 |
-| [Product Listprice Currency](Product%20Listprice%20Currency.md)                     | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.      |
-| [Sale Blanket Order](Sale%20Blanket%20Order.md)                                     | Rahmenverträge für Verkäufe erstellen.                                |
-| [Sale Force Invoiced](Sale%20Force%20Invoiced.md)                                   | Markieren Sie den Verkaufsauftrag als abgerechnet.                    |
-| [Sale Order Archive](Sale%20Order%20Archive.md)                                     | Abgebrochene Verkaufsaufträge archivieren.                            |
-| [Sale Order Comment](Sale%20Order%20Comment.md)                                     | Kommentar auf Verkaufsauftrag.                                        |
-| [Sale Order Contact Person](Sale%20Order%20Contact%20Person.md)                     | Kontaktperson auf Verkaufsauftrag festlegen.                          |
-| [Sale Order Line Description Name](Sale%20Order%20Line%20Description%20Name.md)     | Benutze Produktname ohne Referenz wenn Verkaufsbeschreibung leer ist. |
-| [Sale Order Line Description](Sale%20Order%20Line%20Description.md)                 | Nur Verkausbeschreibung im Feld Beschreibung übertragen.              |
-| [Sale Order Line Name Get](Sale%20Order%20Line%20Name%20Get.md)                     | Produktname als Anzeigename für Verkaufspositionen.                   |
-| [Sale Order Line Not Billable](Sale%20Order%20Line%20Not%20Billable.md)             | Produkt als nicht verrechbar festlegen und bei Abrechnunung filtern.  |
-| [Sale Order Line Pos](Sale%20Order%20Line%20Pos.md)                                 | Verkaufsaufträge mit Positionsnummern.                                |
-| [Sale Order Line Purchase Margin](Sale%20Order%20Line%20Purchase%20Margin.md)       | Kalkulation der Marge basierend auf verlinkter Bestellung.            |
-| [Sale Order Notes](Sale%20Order%20Notes.md)                                         | Verkaufsaufträge mit Notizfelder.                                     |
-| [Sale Order Template Notes](Sale%20Order%20Template%20Notes.md)                     | Notizen auf Angebotsvorlage.                                          |
-| [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                         | Produktset mit Notizen und Abschnitten.                               |
-| [Sale Product Set](Sale%20Product%20Set.md)                                         | Produktsets definieren und einfach hinzufügen.                        |
+| Erweiterung                                                                           | Beschreibung                                                          |
+| ------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| [Contracts Management Recurring Sales](Contracts%20Management%20Recurring%20Sales.md) | Aus wiederholenden Verträge Verkaufsangebote generieren.              |
+| [Default sales incoterm per partner](Default%20sales%20incoterm%20per%20partner.md)   | Standardlieferbedingungen für Kunden.                                 |
+| [Product Listprice Currency](Product%20Listprice%20Currency.md)                       | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.      |
+| [Sale Blanket Order](Sale%20Blanket%20Order.md)                                       | Rahmenverträge für Verkäufe erstellen.                                |
+| [Sale Force Invoiced](Sale%20Force%20Invoiced.md)                                     | Markieren Sie den Verkaufsauftrag als abgerechnet.                    |
+| [Sale Order Archive](Sale%20Order%20Archive.md)                                       | Abgebrochene Verkaufsaufträge archivieren.                            |
+| [Sale Order Comment](Sale%20Order%20Comment.md)                                       | Kommentar auf Verkaufsauftrag.                                        |
+| [Sale Order Contact Person](Sale%20Order%20Contact%20Person.md)                       | Kontaktperson auf Verkaufsauftrag festlegen.                          |
+| [Sale Order Line Description Name](Sale%20Order%20Line%20Description%20Name.md)       | Benutze Produktname ohne Referenz wenn Verkaufsbeschreibung leer ist. |
+| [Sale Order Line Description](Sale%20Order%20Line%20Description.md)                   | Nur Verkausbeschreibung im Feld Beschreibung übertragen.              |
+| [Sale Order Line Name Get](Sale%20Order%20Line%20Name%20Get.md)                       | Produktname als Anzeigename für Verkaufspositionen.                   |
+| [Sale Order Line Not Billable](Sale%20Order%20Line%20Not%20Billable.md)               | Produkt als nicht verrechbar festlegen und bei Abrechnunung filtern.  |
+| [Sale Order Line Pos](Sale%20Order%20Line%20Pos.md)                                   | Verkaufsaufträge mit Positionsnummern.                                |
+| [Sale Order Line Purchase Margin](Sale%20Order%20Line%20Purchase%20Margin.md)         | Kalkulation der Marge basierend auf verlinkter Bestellung.            |
+| [Sale Order Notes](Sale%20Order%20Notes.md)                                           | Verkaufsaufträge mit Notizfelder.                                     |
+| [Sale Order Template Notes](Sale%20Order%20Template%20Notes.md)                       | Notizen auf Angebotsvorlage.                                          |
+| [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                           | Produktset mit Notizen und Abschnitten.                               |
+| [Sale Product Set](Sale%20Product%20Set.md)                                           | Produktsets definieren und einfach hinzufügen.                        |
 
 ## Verkauf Dashboard anzeigen
 
