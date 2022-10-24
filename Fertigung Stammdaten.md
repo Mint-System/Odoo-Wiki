@@ -8,6 +8,20 @@ prev: ./fertigung
 
 Produkte und Dienstleistungen zentral pflegen.
 
+## Erweiterungen
+
+| Erweiterung                                                                       | Beschreibung                                             |
+| --------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| [Product Barcode Generator](Product%20Barcode%20Generator.md)                     | Autogenerate EAN13 product barcodes.                     |
+| [Product Country of Origin](Product%20Country%20of%20Origin.md)                   | Bestimmen Sie für jedes Produkt ein Herkunftsland        |
+| [Product Feeder ID](Product%20Feeder%20ID.md)                                     | Feeder-Textfeld auf dem Produkt.                         |
+| [Product Name Sequence](Product%20Name%20Sequence.md)                             | Generate product names based on a sequence.              |
+| [Product Sequence](Product%20Sequence.md)                                         | Produkreferenzen anhand einer Sequenz generieren lassen. |
+| [Product State](Product%20State.md)                                               | Lebenszyklus von Produkten festlegen.                    |
+| [Product Type Description](Product%20Type%20Description.md)                       | Zu jedem Produkt ein Beschreibungsfeld.                  |
+| [Secondary Product Type Description](Secondary%20Product%20Type%20Description.md) | Zu jedem Produkt ein zweites Beschreibungsfeld.          |
+
+
 ## Produkt anlegen
 
 Navigieren Sie nach *Fertigung > Stammdaten > Produkte*.

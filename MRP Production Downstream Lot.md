@@ -1,0 +1,17 @@
+---
+tags:
+- HowTo
+- Drittanbieter
+prev: ./fertigung
+---
+# MRP Production Downstream Lot
+![icon_oms_box](assets/icon_oms_box.png)
+
+Los auf verknüpfte Lieferung übertragen.
+
+Technischer Name: `mrp_production_downstream_lot`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_production_downstream_lot>
+
+## Los auf verknüpfte Lieferung übertragen
+
+Mit dieser Erweiterung wird beim Bestätigen eines Fertigungsauftrag das dazugehörige Los auf die Lieferung übertragen.
