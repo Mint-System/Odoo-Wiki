@@ -72,3 +72,7 @@ Und daraus wird diese Buchung generiert.
 Für jedes Konto können Sie einen Standard-Steuersatz hinterlegen. Rufen Sie das Konto in der Formularansicht auf und legen Sie den Steuersatz im Feld *Standard Steuern* fest.
 
 ![](assets/Finanzen%20Mehrwertsteuer%20Standard%20Steuern.png)
+
+## Standard-Steuer für Verkauf und Einkauf festlegen
+
+Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und legen Sie im Feld *Umsatzsteuer* und *Vorsteuer* die Steuer für *Einkauf* resp. *Verkauf* fest.

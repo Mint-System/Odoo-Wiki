@@ -36,7 +36,9 @@ Wenn Sie *Create Partner* gedrückt haben, wird der Vorgang nochmals bestätigt.
 
 ![](assets/Swiss%20QR-ESR%20Scan%20Wizard%20Confirm%20Partner.png)
 
-Wenn der folgende Dialog erscheint, fehlt ein Standard-Aufwandskonto auf dem Kontakt. Mehr dazu unter [Standard-Aufwandskonto auf Kontakt hinterlegen](#Standard-Aufwandskonto%20auf%20Kontakt%20hinterlegen)
+Nun wird die Rechnung generiert und validiert.
+
+Wenn die folgende Meldung erscheint, fehlt entweder ein Standard-Aufwandskonto auf dem Kontakt (Mehr dazu unter [Standard-Aufwandskonto auf Kontakt hinterlegen](#Standard-Aufwandskonto%20auf%20Kontakt%20hinterlegen)) oder die Standard-Steuern müssen entfernt werden (Mehr dazu unter [Standard-Steuer für Verkauf und Einkauf festlegen](Finanzen%20Mehrwertsteuer.md#Standard-Steuer%20für%20Verkauf%20und%20Einkauf%20festlegen)).
 
 ![](assets/Swiss%20QR-ESR%20Scan%20Error%20Missing%20Account.png)
 
