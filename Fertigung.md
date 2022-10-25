@@ -36,7 +36,7 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 | [MRP Workorder Set Producing Qty](MRP%20Workorder%20Set%20Producing%20Qty.md)                   | Arbeitsauftrag startet ohne erledigte Menge.                                     |
 | [Manufacture Production Move Date](Manufacture%20Production%20Move%20Date.md)                   | Lieferdatum auf Fertigungsauftrag bearbeiten.                                    |
 
-## Videos[MRP Production Downstream Lot](MRP%20Production%20Downstream%20Lot.md)[MRP Production Downstream Lot](MRP%20Production%20Downstream%20Lot.md)[MRP Production Downstream Lot](MRP%20Production%20Downstream%20Lot.md)
+## Videos
 
 | Video                                                                                    |
 | ---------------------------------------------------------------------------------------- |
