@@ -36,10 +36,12 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Verkaufsgruppen und Baugruppen](Best%20Practice%20Verkaufsgruppen%20und%20Baugruppen.md)
 * [Materialbezug in Vorgängen](Best%20Practice%20Materialbezug%20in%20Vorgängen.md)
 * [Material-Reservierung](Best%20Practice%20Material%20Reservierung.md)
+* [Make To Order](Best%20Practice%20Make%20To%20Order.md)
 
 ### Projekte
 
 * [Projekte](Best%20Practice%20Projekte.md)
+* [Aufgabenphasen](Best%20Practice%20Aufgabenphasen.md)
 
 ### Finanzen
 
@@ -59,6 +61,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Subunternehmer beauftragen](Best%20Practice%20Subunternehmer%20beauftragen.md)
 * [Stückpreis definieren](Best%20Practice%20Stückpreis%20definieren.md)
 * [Kit bereitstellen](Best%20Practice%20Verkauf%20Kit%20bereitstellen.md)
+* [Auftragszeilen auswerten](Best%20Practice%20Auftragszeilen%20auswerten.md)
 
 ### Lager
 

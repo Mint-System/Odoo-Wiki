@@ -11,3 +11,7 @@ Standardstufen für Projektaufgaben.
 
 Technischer Name: `project_task_default_stage`\
 Repository: <https://github.com/OCA/project/tree/15.0/project_task_default_stage>
+
+## Standard-Aufgabenphasen festlegen
+
+Navigieren Sie nach *Projekt > Konfiguration > Aufgabenphasen* und markieren Sie jene Phasen mit *Standard für neue Projekt*, die beim Erstellen eines neuen Projekts hinzugefügt werden sollen.

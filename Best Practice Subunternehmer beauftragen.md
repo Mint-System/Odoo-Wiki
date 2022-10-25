@@ -17,13 +17,13 @@ Wenn die Fertigung eines Produktes an einen Subunternehmer übertragen wird, dan
 
 Ein Produkt das extern gefertigt wird benötigt eine Stückliste vom Typ *An Subunternehmer vergeben*. Im Feld *Subunternehmer* werden die vorgesehenen Lieferanten eingetragen.
 
-![Einkauf Subunternehmer Stückliste](assets/Einkauf Subunternehmer Stückliste.png)
+![Einkauf Subunternehmer Stückliste](assets/Einkauf%20Subunternehmer%20Stückliste.png)
 
 ## Route einstellen
 
 Die in der Stückliste enthaltenen Produkte müssen als Route *Subunternehmer nach Auftrag versorgen* eingestellt haben.
 
-![Einkauf Subunternehmer Stückliste Typ](assets/Einkauf Subunternehmer Stückliste Typ.png)
+![Einkauf Subunternehmer Stückliste Typ](assets/Einkauf%20Subunternehmer%20Stückliste%20Typ.png)
 
 ## Bei Subunternehmer bestellen
 

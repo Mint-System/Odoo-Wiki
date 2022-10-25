@@ -85,6 +85,14 @@ Rufe Sie eine importierte E-Mail-Vorlage unter *Einstellungen > Technisch > Vola
 
 ## E-Mail-Vorlage testen
 
-Rufe Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > Volagen* auf und klicken Sie auf *Vorschau*. Wählen Sie einen Datensatz und prüfen Sie die generierte Vorschau.
+Rufe Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > Vorlagen* auf und klicken Sie auf *Vorschau*. Wählen Sie einen Datensatz und prüfen Sie die generierte Vorschau.
 
 ![Mail-Vorlage Variablen testen](assets/Mail-Vorlage%20Variablen%20testen.gif)
+
+## Bericht als Anhang hinzufügen
+
+Wenn Sie beim Aufruf der Mail-Voralge einen Bericht als Hinzufügen möchten, rufen Sie die Einstellungen der Mail-Vorlage unter *Einstellungen > Technisch > Vorlagen > Vorlage auswählen* auf. Im Tab *Erweiterte Einstellungen* wählen Sie im Feld *Optionaler zu druckender und anzuhängender Report* den Bericht aus.
+
+::: tip
+Im Feld *Report Dateiname* können Sie einen alternativen Dateinamen für den Anhang definieren.
+:::

@@ -10,5 +10,9 @@
   "livePreview": false,
   "userIgnoreFilters": [
     "node_modules/"
-  ]
+  ],
+  "spellcheckLanguages": [
+    "de"
+  ],
+  "showInlineTitle": false
 }

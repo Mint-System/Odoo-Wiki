@@ -10,7 +10,7 @@ Daten zu Einstellungen exportieren und importieren.
 
 ## Daten Benutzer exportieren
 
-Listenansicht: *Einstellungen > Benutzer >  Benutzer verwalten*
+Listenansicht: *Einstellungen > Benutzer > Benutzer verwalten*
 
 Felder:
 ```

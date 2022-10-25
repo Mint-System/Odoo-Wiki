@@ -8,6 +8,12 @@ prev: ./verkauf
 
 Dienstleistungen mit Verkauf und Projekt abwickeln.
 
+## Erweiterungen
+
+| Erweiterung                                               | Beschreibung                                          |
+| --------------------------------------------------------- | ----------------------------------------------------- |
+| [Sale Order Project Key](Sale%20Order%20Project%20Key.md) | Angebotsname von verlinkter Projektnummer übernehmen. |
+
 ## Dienstleistung für Zeiterfassung konfigurieren
 
 Mit Verkauf, Projekt und Zeiterfassung können Sie Dienstleistung mit Zeiterfassung erstellen. Navigieren Sie nach *Verkauf > Produkte > Produkte* erstellen oder öffnen Sie ein Dienstleistungs-Produkt. Hier die wichtigsten Konfigurationen:

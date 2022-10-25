@@ -46,3 +46,7 @@ Verwalten Sie Versandverpackungen unter *Lager > Konfiguration > Versandverpacku
 Eine Lieferung kann mehrere Vorgänge haben. Die Vorgänge lassen sich in detaillierte Vorgänge aufteilen. Jeder detaillierter Vorgang kann verpackt werden. Dazu finden Sie eine Animation wie ein Produkt in mehrere Verpackungen verpackt werden kann.
 
 ![](assets/Lager%20Verpackungen%20mehrere%20Verpackungen.gif)
+
+## Barcode auf Produktverpackung hinterlegen
+
+Rufen Sie eine Produktverpackung unter *Lager > Konfiguraiton > Produktverpackungen* auf. Hinterlegen Sie den Barcode im Feld *Strichcode*.

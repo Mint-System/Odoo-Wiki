@@ -239,7 +239,7 @@ transport_moves = []
 
 for picking in pickings:
   # Check if picking has a transport move
-  transport_move_ids = picking.move_lines.filtered(lambda m: m.product_id.name == transport_product_name)
+  transport_move_ids = picking.move_lines.filtered(lambda m: transport_product_name in m.product_id.name)
   if transport_move_ids:
     # Count boxes and set as qty done if not null
     x_count_boxes_sum = sum(picking.move_lines.mapped("x_count_boxes"))

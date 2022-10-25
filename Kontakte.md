@@ -23,6 +23,7 @@ Alle Kontaktdaten an einem Ort.
 | [Partner Contact Department](OCA%20Partner%20Contact%20Department.md)             | Erweitert das Adressbuch mit Abteilungen.                      |
 | [Partner Contact Department](Partner%20Contact%20Department%20Note.md)            | Abteilung auf Kontakten speichern.                             |
 | [Partner Contact Location in Name](Partner%20Contact%20Location%20in%20Name.md)   | PLZ und Stadt in Kontaktauswahl anzeigen.                      |
+| [Partner Duplicate Acc Number](Partner%20Duplicate%20Acc%20Number)                | Kontonummer für mehrere Bankkonten verwenden                   |
 | [Partner Hide Address](Partner%20Hide%20Address.md)                               | Addressen auf Berichten ausblenden.                            |
 | [Partner Ref Sequence](Partner%20Ref%20Sequence.md)                               | Automatische Vergabe der Kontakt-Referenz.                     |
 | [Partner Secondary Email](Partner%20Secondary%20Email.md)                         | Zweite E-Mail für alle Kontakte.                               |
@@ -111,3 +112,9 @@ Damit die Bezeichnung *Rechnungsadresse* im Anzeigenamen der Kontakte eingelende
 In der Kontaktauswahl wird der Adresstyp so sichtbar:
 
 ![](assets/Kontakt%20Auswahl%20mit%20Adresstyp.png)
+
+## Gewerbliche Einheit festlegen
+
+Auf jedem Odoo-Kontakt ist eine gewerbliche Einheit hinterlegt. Diese definiert über welchen Kontakt die Abrechnung erfolgen soll. Der Zugriff auf die gewerbliche Einheit erfordert, dass Sie das entsprechende [Snippet hinzufügen](Entwicklung%20Snippets.md#Snippet%20hinzufügen). Nur dann wird das Feld *Gewerbliche Einheit* auf der Formularansicht sichtbar:odoo manufacture to order
+
+![](assets/Kontakt%20Gewerbliche%20EInheit.png)

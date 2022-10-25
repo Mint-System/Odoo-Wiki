@@ -10,6 +10,12 @@ Sparen Sie Zeit beim Erfassen von Rechnungen, Scannen von Verträgen und bei der
 
 Website: <https://www.odoo.com/de_DE/app/documents>
 
+## Bereiche
+
+| Bereich                                       | Beschreibung |
+| -------------------------------------------- | ------------ |
+| [Dokumente Aktionen](Dokumente%20Aktionen.md) | Arbeitsflüsse mit Dokumenten automatisieren.             |
+
 ## Erweiterungen
 
 | Erweiterung   | Beschreibung                               |

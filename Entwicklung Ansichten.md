@@ -10,7 +10,7 @@ Odoo Ansichten anpassen.
 
 ## Formularansicht bearbeiten
 
-Rufen Sie die Formularansicht des Geschäftsobjekts auf und wählen Sie *Entwickler-Tools > Ansicht bearbeiten: Formular*.
+Rufen Sie die Formularansicht des Geschäftsobjekts auf und wählen Sie *Entwicklertools > Ansicht bearbeiten: Formular*.
 
 ## Ansicht erstellen
 
@@ -119,6 +119,18 @@ Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitge
 Beim Aufrufen einer Ansicht wird als erstes eine Aktion ausgeführt. Auf dieser Aktion ist definiert welche Ansicht (Liste, Kanban, Karte, ...) standardmässig angezeigt werden soll. Zum ändern rufen zeigen Sie eine Anischt an und wählen *Entwicklertools > Aktion bearbeiten*. Scrollen Sie nach unten und ändern Sie die Reihenfolge der Ansichten.
 
 ![](assets/Ansicht%20Standard%20ändern.png)
+
+## Filter manuell anlegen
+
+Wählen Sie auf der Listenansicht *Entwicklertools > Filter verwalten* und klicken Sie auf *Anlegen*. Geben Sie diese Informationen ein:
+
+* **Filterbezeichnung**: Name des Filters ersichtlich unter Favoriten
+* **Modell**: Datenmodell der Listenansicht
+* **Aktion**: Verwende Ansicht zum Aufruf der Listenansicht
+* **Domain**: Filterung der Daten
+* **Kontext**: Definition der Auswertung: Gruppieren, Sortieren, Vergleichen, ...
+* **Für Benutzer verfügbar**: Leer lassen damit Filter für alle Benutzer verfügbar ist
+* **Standardfilter**: Aktivieren wenn Filter beim Aufruf der Aktion angwendet werden soll
 
 ## Standard-Filter für alle Benutzer festlegen
 
