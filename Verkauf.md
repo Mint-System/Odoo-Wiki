@@ -82,7 +82,7 @@ Für jedes Produkt zeigt der Bericht *Forecasted Report* eine detaillierte Über
 Mit dem Knopf *Per E-Mail Versenden* erstellt das System automatisch einen e-Mail Entwurf mit dem Angebot als PDF-Attachment. Die Textnachricht ist als Template hinterlegt, kann aber editiert werden.
 Mit *Senden* wird die e-Mail gesendet und der Status ändert auf *Angebot Gesendet*.
 
-## Auftrag bestätigen
+## Angebot bestätigen
 
 Das Angebot wird über folgende alternativen Aktionen zum Verkaufsauftrag:
 * Der Kunde bestätigt in der Kundenansicht (Kunden-Portal)
@@ -93,6 +93,14 @@ Damit wechselt das Angebot in den Status *Verkaufsauftrag*.
 Die Option Einstellungen > Verkauf > Angebote und Aufträge > Angebotsvorlagen ermöglicht das Einrichten eines automatischen Bestätigungs-eMail.
 
 Mit der Aktion *Per E-Mail Versenden* wird automatisch ein e-Mail Entwurf für das Versenden der Auftragsbestätigung generiert.
+
+## Auftrag abbrechen
+
+Klicken Sie im Auftrag auf *Abbrechen* um den Auftrag in den Status *Abgebrochen* zu setzen. Damit gilt der Verkaufsauftrag als ungültig.
+
+## Auftrag zurücksetzen
+
+Ist der Verkaufsauftrag im Status *Abgebrochen* können Sie ihn mit *Setze auf Angebot* in den Status *Angebot* zurücksetzen. Anschliessen können Sie das [Angebot bestätigen](#Angebot%20bestätigen) und haben wieder einen gültigen Verkaufsauftrag.
 
 ## Rabatte hinzufügen
 
