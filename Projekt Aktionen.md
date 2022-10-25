@@ -50,7 +50,7 @@ for project in project_ids:
       'res_model': 'project.task',
       'view_mode': 'kanban,tree,form,calendar,pivot,graph,gantt,activity,map',
       'domain': "[('project_id', '=', %s)]"  % (project.id),
-      'context': "{ 'default_project_id': %s }" % (project.id)
+      'context': "{ 'default_project_id': %s, 'search_default_my_tasks': True }" % (project.id)
     })
   else:
     action.update({
@@ -58,7 +58,7 @@ for project in project_ids:
       'res_model': 'project.task',
       'view_mode': 'kanban,tree,form,calendar,pivot,graph,gantt,activity,map',
       'domain': "[('project_id', '=', %s)]"  % (project.id),
-      'context': "{ 'default_project_id': %s }" % (project.id)
+      'context': "{ 'default_project_id': %s, 'search_default_my_tasks': True }" % (project.id)
     })
 
   

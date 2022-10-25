@@ -231,7 +231,27 @@ if assign_pickings:
 
 for picking in assign_pickings:
     picking.write({'state': 'assigned'})
-    
+```
+
+## Geplante Aktion "Versandprodukte aktualisieren" erstellen
+
+Diese Aktion prüft ausgehende Lieferungen und setzt die erledigte Menge gemäss Bedarf ohne Berücksichtigung von Materialreservationen.
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Versandprodukte aktualisieren`\
+Modell: `ir.actions.server`\
+Ausführen alle: `5` Minuten\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Get pickings to be processed
+pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "partially_available"])])
+
 # Update transport moves
 
 transport_product_name = "Gebinde"
@@ -251,7 +271,7 @@ if transport_moves:
   log('Fix qty done for transport moves: %s' % (transport_moves))
 ```
 
-## Geplante Aktion "Lot automatisch zuweisen" erstellen
+## Geplante Aktion "Los automatisch zuweisen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
