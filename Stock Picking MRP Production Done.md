@@ -12,7 +12,7 @@ Liefertung mit Fertigungsauftrag gleichzeitig abschliessen.
 Technischer Name: `stock_picking_mrp_production_done`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_picking_mrp_production_done>
 
-## Upstram Fertigungsauftrag mit Lieferung erledigen
+## Upstream Fertigungsauftrag gleichzeitig mit Lieferung erledigen
 
 Mit dieser Erweiterung können Fertigungsaufträge und Lieferung in einem gültigen Zustand gleichzeitig abgeschlossen werden.
 
