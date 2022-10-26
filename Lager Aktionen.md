@@ -128,13 +128,13 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 Auf der Lagerbuchung erscheint nun in der Auswahl *Aktion* das Menu *Als verfügbar markieren*.
 
-## Geplante Aktion "Los automatisch zuweisen" erstellen
+## Geplante Aktion "Los  aus Anlieferung zuweisen" erstellen
 
 Die Aktion lädt alle Produklieferungen, welche noch keine Losnummer haben und vergleicht diese mit Produktzugängen. Wenn es einen Produkteingang gibt, der bis einer Woche vor der Lieferung eingeht, wird die Losnummer des Zugang auf die Lieferung übertragen.
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Los automatisch zuweisen`\
+Name der Aktion: `Los aus Anlieferung zuweisen`\
 Modell: `ir.actions.server`\
 Ausführen alle: `15` Minuten\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
@@ -148,18 +148,22 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 scope_days = 7
 
 # Get confirmed outgoing pickings
-pickings_out = env['stock.picking'].search(["&", ["picking_type_code", "=", "outgoing"], ("state", "in", ["confirmed", "assigned", "partially_available"])])
+# pickings_out = env['stock.picking'].search(["&", ["picking_type_code", "=", "outgoing"], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
 # Get confirmed incoming pickings
 pickings_in = env['stock.picking'].search(["&", ["picking_type_code", "=", "incoming"], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
+# Lookup unfinished manufacturing orders
+production_ids = env['mrp.production'].search([('state', 'in', ['confirmed','progress','to_close'])])
+        
 # Get move lines with lot and tracking enabled
 lot_move_lines = pickings_in.move_line_ids.filtered(lambda l: l.lot_id and l.tracking)
 
-# raise UserError(lot_move_lines)
+# raise UserError(production_ids)
 
 # Get lines where lot is not set and tracking enabled
-fix_move_lines = pickings_out.move_line_ids.filtered(lambda l: not l.lot_id and l.tracking)
+# fix_move_lines = pickings_out.move_line_ids.filtered(lambda l: not l.lot_id and l.tracking)
+fix_move_lines = production_ids.move_raw_ids.move_line_ids.filtered(lambda l: not l.lot_id and l.tracking)
 
 # raise UserError(fix_move_lines)
 
@@ -180,13 +184,13 @@ if messages:
   log(' '.join(messages))
 ```
 
-## Geplante Aktion "Erledigte Menge korrigieren" erstellen
+## Geplante Aktion "Erledigte Menge aktualisieren" erstellen
 
 Diese Aktion prüft ausgehende Lieferungen und setzt die erledigte Menge gemäss Bedarf ohne Berücksichtigung von Materialreservationen.
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Erledigte Menge korrigieren`\
+Name der Aktion: `Erledigte Menge aktualisieren`\
 Modell: `ir.actions.server`\
 Ausführen alle: `15` Minuten\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
@@ -197,17 +201,21 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 # Set products to ignore
-except_product_names = ["Gebinde"]
+except_product_names = ["Gebinde", "Gebinde Migros"]
 
 # Get pickings to be processed
-pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "partially_available"])])
+pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "waiting", "partially_available"])])
+
+# Lookup unfinished manufacturing orders
+production_ids = env['mrp.production'].search([('state', 'in', ['confirmed','progress','to_close'])])
 
 # Get moves where qty done it not equal to demand
 fix_moves = pickings.move_lines.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
+# fix_moves += production_ids.move_raw_ids.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
 
 # Set qty done on moves
 if fix_moves:
-	log('Set qty done for moves: %s' % (fix_moves))
+	log('Set qty done on moves: %s' % (fix_moves))
 for move in fix_moves:
     try:
         move.write({'quantity_done': move.product_uom_qty})
@@ -215,13 +223,18 @@ for move in fix_moves:
         log('While writing move %s with origin %s an error occured.' % (move, move.origin), level='error')
       
 # Get lines where qty done is not equal to demand and no move line has been created
-fix_move_lines = fix_moves.mapped('move_line_ids')
+fix_move_lines = fix_moves.mapped('move_line_ids').filtered(lambda l: ((l.qty_done != l.product_uom_qty) or not l.picking_id))
+
+# raise UserError(fix_move_lines)
 
 # Set qty done with reservation value 
 if fix_move_lines:
-	log('Fix qty done for move lines: %s' % (fix_move_lines))
+	log('Fix qty done on move lines: %s' % (fix_move_lines))
 for line in fix_move_lines:
-    line.write({'qty_done': line.product_uom_qty if line.product_uom_qty >0 else line.move_id.product_uom_qty})
+    line.write({
+      'qty_done': line.product_uom_qty if line.product_uom_qty >0 else line.move_id.product_uom_qty,
+      'picking_id': line.move_id.picking_id.id
+    })
 
 # Assign pickings
 assign_pickings = pickings.filtered(lambda p: p.state in ["confirmed"])
@@ -271,11 +284,11 @@ if transport_moves:
   log('Fix qty done for transport moves: %s' % (transport_moves))
 ```
 
-## Geplante Aktion "Los automatisch zuweisen" erstellen
+## Geplante Aktion "Los aus Forecast zuweisen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Lot automatisch zuweisen`\
+Name der Aktion: `Lot von Forecast zuweisen`\
 Modell: `ir.actions.server`\
 Ausführen alle: `15` Minuten\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
