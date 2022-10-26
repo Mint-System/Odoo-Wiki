@@ -26,6 +26,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 
 | Erweiterung                                                                                   | Beschreibung                                                                                                |
 | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [AMQP Base](AMQP%20Base.md)                                                                   | AMQP Zielhosts verwalten.                                                                                   |
 | [Demand Planner](Demand%20Planner.md)                                                         | Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen. |
 | [Product Logistics UoM](Product%20Logistics%20UoM.md)                                         | Individuelle Mengenheit für Produkte festlegen.                                                             |
 | [Stock Aggregated Move Line](Stock%20Aggregated%20Move%20Line.md)                             | Zugriff auf Lieferung in aggregierten Zeilen.                                                               |
@@ -38,11 +39,11 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Move Sale Order Name](Stock%20Move%20Sale%20Order%20Name.md)                           | Beschreibung der Auftragsposition wird auf die Lieferung kopiert.                                           |
 | [Stock Move Weight UoM](Stock%20Move%20Weight%20UoM.md)                                       | Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.                                                |
 | [Stock Picking Invoice Link](Stock%20Picking%20Invoice%20Link.md)                             | Verlinkt Rechnungen und Transfers.                                                                          |
+| [Stock Picking MRP Production Done](Stock%20Picking%20MRP%20Production%20Done.md)             | Liefertung mit Fertigungsauftrag gleichzeitig abschliessen.                                                 |
 | [Stock Picking Notes](Stock%20Picking%20Notes)                                                | Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.        |
 | [Stock Picking Responsible](Stock%20Picking%20Responsible.md)                                 | Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.                                  |
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md)                           | Erlaubt die Archivierung von Los/Chargen.                                                                   |
 | [Stock Vendor Evaluation](Stock%20Vendor%20Evaluation.md)                                     | Lieferungen bewerten und Lieferanten auswerten.                                                             |
-| [AMQP Base](AMQP%20Base.md)                                                                   | AMQP Zielhosts verwalten.                                                                                                            |
 
 ## Ablaufdatum aktivieren
 
