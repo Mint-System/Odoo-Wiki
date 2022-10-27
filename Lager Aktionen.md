@@ -173,10 +173,11 @@ for line in fix_move_lines:
   match_lot_move_lines = lot_move_lines.filtered(lambda l: l.product_id == line.product_id and ((line.move_id.date - datetime.timedelta(days=scope_days)) < l.move_id.date and l.move_id.date < line.move_id.date))
   if match_lot_move_lines:
     match_line = match_lot_move_lines[0]
-    # raise UserError([line.product_id.name,line.picking_id.name,match_line.product_id.name,match_line.picking_id.name])
     messages.append('Set matching lot from %s on %s.' % (match_line,line))
     try:
-      line.write({'lot_id': match_line.lot_id})
+      line.write({
+        'lot_id': match_line.lot_id,
+      })
     except:
       log('While writing %s with %s an error occured.' % (line, match_line.lot_id), level='error')
 
@@ -211,7 +212,7 @@ production_ids = env['mrp.production'].search([('state', 'in', ['confirmed','pro
 
 # Get moves where qty done it not equal to demand
 fix_moves = pickings.move_lines.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
-# fix_moves += production_ids.move_raw_ids.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
+fix_moves += production_ids.move_raw_ids.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
 
 # Set qty done on moves
 if fix_moves:
@@ -223,17 +224,14 @@ for move in fix_moves:
         log('While writing move %s with origin %s an error occured.' % (move, move.origin), level='error')
       
 # Get lines where qty done is not equal to demand and no move line has been created
-fix_move_lines = fix_moves.mapped('move_line_ids').filtered(lambda l: ((l.qty_done != l.product_uom_qty) or not l.picking_id))
-
-# raise UserError(fix_move_lines)
+fix_move_lines = fix_moves.mapped('move_line_ids').filtered(lambda l: l.qty_done != l.product_uom_qty)
 
 # Set qty done with reservation value 
 if fix_move_lines:
 	log('Fix qty done on move lines: %s' % (fix_move_lines))
 for line in fix_move_lines:
     line.write({
-      'qty_done': line.product_uom_qty if line.product_uom_qty >0 else line.move_id.product_uom_qty,
-      'picking_id': line.move_id.picking_id.id
+      'qty_done': line.product_uom_qty if line.product_uom_qty >0 else line.move_id.product_uom_qty
     })
 
 # Assign pickings

@@ -15,3 +15,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_
 ## Los auf verknüpfte Lieferung übertragen
 
 Mit dieser Erweiterung wird beim Bestätigen eines Fertigungsauftrag das dazugehörige Los auf die Lieferung übertragen.
+
+::: warning
+Die Verknüpfung von  Produktlieferung und Lieferung funktioniert nicht wenn [Automatische Reservierung deaktivieren](Lager%20Vorgänge.md#Automatische%20Reservierung%20deaktivieren) aktiv ist.
+:::
