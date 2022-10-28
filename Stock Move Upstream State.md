@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./lager
 ---
-# Stove Move Upstream State
+# Stock Move Upstream State
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Zugriff auf Status von Upstream Lagerbuchung.

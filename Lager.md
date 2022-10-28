@@ -37,6 +37,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Move Line Auto Fill](Stock%20Move%20Line%20Auto%20Fill.md)                             | Die erledigte Menge auf einem Transfer automatisch ausfüllen.                                               |
 | [Stock Move Line Position](Stock%20Move%20Line%20Position.md)                                 | Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen.                               |
 | [Stock Move Sale Order Name](Stock%20Move%20Sale%20Order%20Name.md)                           | Beschreibung der Auftragsposition wird auf die Lieferung kopiert.                                           |
+| [Stock Move Upstream State](Stock%20Move%20Upstream%20State.md)                               | Zugriff auf Status von Upstream Lagerbuchung.                                                               |
 | [Stock Move Weight UoM](Stock%20Move%20Weight%20UoM.md)                                       | Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.                                                |
 | [Stock Picking Invoice Link](Stock%20Picking%20Invoice%20Link.md)                             | Verlinkt Rechnungen und Transfers.                                                                          |
 | [Stock Picking MRP Production Done](Stock%20Picking%20MRP%20Production%20Done.md)             | Liefertung mit Fertigungsauftrag gleichzeitig abschliessen.                                                 |
@@ -44,7 +45,6 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Picking Responsible](Stock%20Picking%20Responsible.md)                                 | Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.                                  |
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md)                           | Erlaubt die Archivierung von Los/Chargen.                                                                   |
 | [Stock Vendor Evaluation](Stock%20Vendor%20Evaluation.md)                                     | Lieferungen bewerten und Lieferanten auswerten.                                                             |
-| [Stove Move Upstream State](Stove%20Move%20Upstream%20State.md)                               | Zugriff auf Status von Upstream Lagerbuchung.                                                               |
 
 ## Ablaufdatum aktivieren
 
