@@ -44,6 +44,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Picking Responsible](Stock%20Picking%20Responsible.md)                                 | Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.                                  |
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md)                           | Erlaubt die Archivierung von Los/Chargen.                                                                   |
 | [Stock Vendor Evaluation](Stock%20Vendor%20Evaluation.md)                                     | Lieferungen bewerten und Lieferanten auswerten.                                                             |
+| [Stove Move Upstream State](Stove%20Move%20Upstream%20State.md)                               | Zugriff auf Status von Upstream Lagerbuchung.                                                               |
 
 ## Ablaufdatum aktivieren
 
