@@ -63,6 +63,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Stückpreis definieren](Best%20Practice%20Stückpreis%20definieren.md)
 * [Kit bereitstellen](Best%20Practice%20Verkauf%20Kit%20bereitstellen.md)
 * [Auftragszeilen auswerten](Best%20Practice%20Auftragszeilen%20auswerten.md)
+* [Purchase To Order](Best%20Practice%20Purchase%20To%20Order.md)
 
 ### Lager
 
@@ -75,7 +76,6 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Verpackungen](Best%20Practice%20Verpackungen.md)
 * [Scheduler](Best%20Practice%20Scheduler.md)
 * [Lager Vorgangstypen](Best%20Practice%20Lager%20Vorgangstypen.md)
-* [Purchase To Order](Best%20Practice%20Purchase%20To%20Order.md)
 
 ### Kontakte
 
@@ -94,4 +94,4 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Chatter](Best%20Practice%20Chatter.md)
 * [Datumsfelder](Best%20Practice%20Datumsfelder.md)
 * [Direct Print](Best%20Practice%20Direct%20Print.md)
-* [Best Practice E-Mail Vorlagen](Best%20Practice%20E-Mail%20Vorlagen.md)
+* [E-Mail Vorlagen](Best%20Practice%20E-Mail%20Vorlagen.md)
