@@ -12,7 +12,9 @@ Vor- und Nachname auf Bewerbung.
 Technischer Name: `hr_recruitment_firstname`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_recruitment_firstname>
 
-## Bewerbungsformular mit Vor- und Nachname anzeigen
+## Verwendung
+
+### Bewerbungsformular mit Vor- und Nachname anzeigen
 
 Ist diese Erweiterung installiert, wird auf dem Bewerbungsformular und der Backendansicht ein Feld für Vor- und Nachname angezeigt.
 

@@ -12,7 +12,9 @@ Erstelle Nachlieferungen für Pickings von Fertigungsaufträgen.
 Technischer Name: `mrp_production_create_upstream_backorder`\
 Repository: <https://github.com/OCA/product-attribute/tree/14.0/mrp_production_create_upstream_backorder>
 
-## Nachlieferungen erstellen
+## Verwendung
+
+### Nachlieferungen erstellen
 
 Mit dieser Erweiterungen wird bei positiver Änderung der zu produzierende Menge auf einem Fertigungsauftrag, eine neue Nachlieferung angelegt, sofern die bestehende Lieferung erledigt ist.
 

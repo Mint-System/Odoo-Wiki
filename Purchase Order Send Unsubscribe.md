@@ -16,6 +16,8 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/purchase_
 Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscribe) zu verwenden.
 :::
 
-## Abonnenten nach Versand entfernen
+## Verwendung
+
+### Abonnenten nach Versand entfernen
 
 Mit dieser Erweiterung werden nach dem Versand einer Bestellung alle Abonnenten entfernt.

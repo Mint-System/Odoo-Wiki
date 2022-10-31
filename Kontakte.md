@@ -32,11 +32,15 @@ Alle Kontaktdaten an einem Ort.
 | [Partner Type Sale](Partner%20Type%20Sale.md)                                     | Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest. |
 | [Partner first name and last name](Partner%20first%20name%20and%20last%20name.md) | Unterscheidet Vor- und Nachnamen.                              |
 
-## Portal-Zugriff gewähren
+## Portal
+
+### Portal-Zugriff gewähren
 
 Wählen Sie einen Kontakt mit Mail-Adresse aus. Klicken Sie auf *Aktion > Grant portal access*. Im folgenden Dialog das Kächstchen *Portal* anklicken und bestätigen. Nun erhält der Benutzer eine Einladungs-Email, sofern der Benutzer eine gültige Mail-Adresse hinterlegt hat.
 
-## Kontakte anlegen
+## Verwaltung
+
+### Kontakte anlegen
 
 Ein neuer Eintrag im Adressbuch können Sie über *Kontakte > Anliegen* erstellen.
 
@@ -71,7 +75,7 @@ Individuen die als Einzelperson erfasst und einem Unternehmen zugeordnet sind er
 | Zahlungsbedingungen | Kundenspezifischer Standardwert für das Erstellen von Angeboten                                               |
 | Preisliste          | Es können über die Zuordnung verschiedener Preislisten spezifische Verkaufspreise pro Kunde definiert werden. |
 
-## Unterkontakte erfassen
+### Unterkontakte erfassen
 
 Zeigen Sie ein Unternehmenskontakt via *Kontakte* an. Im Tab *Kontakte & Adressen* können Sie Unterkontakte erfassen. Diese Unterkontkakte werden als *Einzelpersonen* angelegt.
 
@@ -81,7 +85,7 @@ Zeigen Sie ein Unternehmenskontakt via *Kontakte* an. Im Tab *Kontakte & Adresse
 Ändern Sie den Typ von Unterkontakten nicht auf Unternehmen. Wird beispielsweise die Rechnungsadresse als Kontakt vom Typ Unternehmen fesgelegt, erfolgt eine kommzerielle Trennung des Haupt- und Unterkonakt.
 :::
 
-## Bezeichnung Umsatzsteuer festlegen
+### Bezeichnung Umsatzsteuer festlegen
 
 Wenn keine Bezeichnung für die Umsatzsteuer festgelegt ist, verwendet Odoo *Tax ID*. Das ist beispielsweise im Footer eines Dokuments ersichtlich.
 
@@ -89,7 +93,15 @@ Wenn Sie die Bezeichnung ändern wollen, gehen Sie folgt vor. Öffnen Sie die An
 
 ![](assets/Kontakte%20Bezeichnung%20Umsatzsteuer.png)
 
-## Adressformat ändern
+### Gewerbliche Einheit festlegen
+
+Auf jedem Odoo-Kontakt ist eine gewerbliche Einheit hinterlegt. Diese definiert über welchen Kontakt die Abrechnung erfolgen soll. Der Zugriff auf die gewerbliche Einheit erfordert, dass Sie das entsprechende [Snippet hinzufügen](Entwicklung%20Snippets.md#Snippet%20hinzufügen). Nur dann wird das Feld *Gewerbliche Einheit* auf der Formularansicht sichtbar:odoo manufacture to order
+
+![](assets/Kontakt%20Gewerbliche%20EInheit.png)
+
+## Adressen
+
+### Adressformat ändern
 
 Standardmässig druckt Odoo die Adresse mit dem jeweiligen Land des Kontakts ab.
 
@@ -99,11 +111,7 @@ Damit das Land nicht abgedruckt wird, öffnen Sie die Ansicht *Kontakte > Konfig
 
 ![](assets/Kontakte%20Layout%20in%20Berichten.png)
 
-## Partner Autovervollständigung deaktivieren
-
-Wenn Sie nicht möchten, dass Odoo Kontaktdaten beim Erfassen vorschlägt und ihre Odoo Kontakt-Daten nicht hochgeladen werden, müssen Sie die *Partner Partner Autovervollständigung* unter *Einstellungen > Allgemeine Einstellungen > Kontakte* deaktivieren.
-
-## Rechnungsadresse in Anzeigenamen  einblenden
+### Rechnungsadresse in Anzeigenamen  einblenden
 
 Damit die Bezeichnung *Rechnungsadresse* im Anzeigenamen der Kontakte eingelendet wird, muss der Kontakt als *Einzelperson* festgelegt werden und das Namensfeld muss leer gelassen werden.
 
@@ -113,8 +121,9 @@ In der Kontaktauswahl wird der Adresstyp so sichtbar:
 
 ![](assets/Kontakt%20Auswahl%20mit%20Adresstyp.png)
 
-## Gewerbliche Einheit festlegen
+## Einstellungen
 
-Auf jedem Odoo-Kontakt ist eine gewerbliche Einheit hinterlegt. Diese definiert über welchen Kontakt die Abrechnung erfolgen soll. Der Zugriff auf die gewerbliche Einheit erfordert, dass Sie das entsprechende [Snippet hinzufügen](Entwicklung%20Snippets.md#Snippet%20hinzufügen). Nur dann wird das Feld *Gewerbliche Einheit* auf der Formularansicht sichtbar:odoo manufacture to order
+### Partner Autovervollständigung deaktivieren
 
-![](assets/Kontakt%20Gewerbliche%20EInheit.png)
+Wenn Sie nicht möchten, dass Odoo Kontaktdaten beim Erfassen vorschlägt und ihre Odoo Kontakt-Daten nicht hochgeladen werden, müssen Sie die *Partner Partner Autovervollständigung* unter *Einstellungen > Allgemeine Einstellungen > Kontakte* deaktivieren.
+

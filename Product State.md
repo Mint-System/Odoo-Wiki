@@ -12,7 +12,9 @@ Lebenszyklus von Produkten festlegen.
 Technischer Name: `product_state`\
 Repository: <https://github.com/OCA/product-attribute/tree/15.0/product_state>
 
-## Produkt-Zustände konfigurieren
+## Verwendung
+
+### Produkt-Zustände konfigurieren
 
 Navigieren Sie nach *Verkauf > Konfiguration > Produkt-Zustände*. Verwalten Sie hier die verfügbaren Zustände der Produkte.
 

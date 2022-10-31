@@ -8,7 +8,9 @@ prev: ./einstellungen
 
 Technische Einstellungen zur Odoo-Datenbank.
 
-## Dezimalstellen festlegen
+## Datenbank
+
+### Dezimalstellen festlegen
 
 Zeigen Sie die Liste *Einstellungen > Technisch > Datenbankstruktur > Dezimalstellen* an.
 

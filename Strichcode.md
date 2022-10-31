@@ -20,7 +20,9 @@ Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
 | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | [Stock Barcode MRP](Stock%20Barcode%20MRP.md)                       | Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen.                                                                                                             |
 
-## Produktstrichcode generieren
+## Verwendung
+
+### Produktstrichcode generieren
 
 Öffnen Sie *Einstellungen > Lager > Strichcode* und wählen Sie die Aktion *Konfigurieren der Produkt-Barcodes*. In dieser Liste tragen Sie für jedes Produkt einen Strichcode ein.
 
@@ -47,7 +49,7 @@ Hier zwei Strichcodes im Vergleich:
 
 ![](assets/Strichcode%20zwei%20Codes%20im%20Vergleich.png)
 
-## Barcode-Befehle drucken
+### Barcode-Befehle drucken
 
 Mit Barcode-Befehlen können Sie bestimmte Vorgänge starten oder abschliessen. Drücken Sie auf *Einstellungen > Lager > Strichcode > Drucken Sie die Barcode-Befehle* und drucken Sie dieses Dokument aus.
 
@@ -55,7 +57,7 @@ Mit Barcode-Befehlen können Sie bestimmte Vorgänge starten oder abschliessen. 
 
 Auf der ersten Seite finden die die Befehle, auf der zweiten die Vorgangstypen und auf der letzten die Lagerorte.
 
-## Rütschein/Packvorgang scannen und verarbeiten
+### Rütschein/Packvorgang scannen und verarbeiten
 
 Öffnen Sie *Strichcode* im Browser auf ihrem Computer oder auf der App auf ihrem mobilen Gerät. Scannen Sie den Barcode auf dem Packvorgang mit dem angeschlossen Scanner, dem integrierten Scanner oder Geräte-Kamera.
 
@@ -67,7 +69,7 @@ Sobald der Dokument-Code (immer oben rechs) gescannt wurde, werden die Positione
 
 Nun können Sie einzelnen Positionen bestätigen und den Vorgang mit dem Barcode-Befehl *Validate* abschliessen.
 
-## Zusätzliche Produkte hinzufügen
+### Zusätzliche Produkte hinzufügen
 
 Im Transfer können Sie Produkte anhand des Produktbarcodes hinzufügen. Öffnen Sie die App *Strichcode* und halten Sie den Scanner, das Dokument und den Produktbarcode bereit.
 
@@ -75,7 +77,9 @@ Mit jedem Scan des Produktbarcodes wird 1 Stück dem Transfer hinzugefügt.
 
 ![Strichcode Zusätzliche Produkte hinzufügen](assets/Strichcode%20Zusätzliche%20Produkte%20hinzufügen.gif)
 
-## Strichcode-Eingabe simulieren
+## Fehleranalyse
+
+### Strichcode-Eingabe simulieren
 
 Auf einem Linux-Computer kann man ganz einfach eine Strichcode-Eingabe mit [xdotool](https://www.semicomplete.com/projects/xdotool/) simulieren. Öffnen Sie ein Terminal-Fenster installieren Sie das xdotool mit dem Befehl `sudo apt install xdotool`. Öffnen Sie den Firefox-Browser und zeigen Sie das *Strichcode* App an. Führen Sie das folgende Skript im Terminal aus:
 

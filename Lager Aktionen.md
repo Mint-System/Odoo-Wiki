@@ -9,7 +9,9 @@ prev: ./lager
 
 Arbeitsflüsse im Lager automatisieren.
 
-## Aktion "Bestand zurücksetzen" erstellen
+## Aktionen
+
+### Aktion "Bestand zurücksetzen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -30,7 +32,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Bestand zurücksetzen*.
 
-## Aktion  "Lagerbuchung zurücksetzen" erstellen
+### Aktion  "Lagerbuchung zurücksetzen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -51,7 +53,7 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *
 
 ![](assets/Lager%20Aktion%20%20Lagerbuchung%20Zurücksetzen%20erstellen.png)
 
-## Aktion  "Transfer abbrechen" erstellen
+### Aktion  "Transfer abbrechen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -70,7 +72,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Transfers erscheint nun in der Auswahl *Aktion* das Menu *Transfer zurücksetzen*.
 
-## Aktion  "Lagerbuchung abbrechen" erstellen
+### Aktion  "Lagerbuchung abbrechen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -89,7 +91,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
 
-## Aktion  "Lagerbuchung erledigen" erstellen
+### Aktion  "Lagerbuchung erledigen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -108,7 +110,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung erledigen*.
 
-## Aktion  "Als verfügbar markieren" erstellen
+### Aktion  "Als verfügbar markieren" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -128,7 +130,91 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 Auf der Lagerbuchung erscheint nun in der Auswahl *Aktion* das Menu *Als verfügbar markieren*.
 
-## Geplante Aktion "Los aus Anlieferung zuweisen" erstellen
+### Aktion "Reservierungen zurücksetzen" erstellen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Reservierungen zurücksetzen`\
+Modell: `ir.actions.server`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```python
+# Get outgoing pickings with reservations
+pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["assigned", "partially_available"])])
+# Unreserve pickings
+pickings.do_unreserve()
+# Log picking names
+log('Unreserved these pickings: %s' % (pickings.mapped('name')))
+```
+
+Speichern Sie die Aktion und führen Sie diese mit *Starten* aus.
+
+### Aktion "Reservierter Bestand zurücksetzen" erstellen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Reservierter Bestand zurücksetzen`
+Modell: `stock.quant`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```python
+for record in records:
+	record.sudo().write({
+		'reserved_quantity': 0
+	})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Reservierter Bestand*.
+
+### Aktion "Reservierungen aufheben" erstellen
+
+Mit dieser Aktion können Sie alle Reservierungen für ein Produktaufheben.
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Reservierungen zurücksetzen`\
+Modell: `product.product`\
+Folgeaktion: `Python-Code ausführen`\
+Sicherheit-Gruppennamen: `Lager \ Administrator`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```python
+for product_id in records:
+	# Get assigned moves for product
+	move_ids = env['stock.move'].search([ "&", ("product_id", "=", product_id.id), ("state", "in", ["assigned", "partially_available"]) ])
+	if move_ids:
+		move_ids._do_unreserve()
+		log('Unreserved moves for product: %s' % product_id.display_name)
+```
+
+Kopieren Sie den Eintrag und passen Sie ihn wie folgt an:
+
+Modell: `product.template`\
+Pythoncode:
+
+```python
+for product_id in records.product_variant_id:
+	# Get assigned moves for first variant
+	move_ids = env['stock.move'].search([ "&", ("product_id", "=", product_id.id), ("state", "in", ["assigned", "partially_available"]) ])
+	if move_ids:
+		move_ids._do_unreserve()
+		log('Unreserved moves for product: %s' % product_id.display_name)
+```
+
+Beide Aktionen mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+
+In der Ansicht der Produkte haben Sie nun die Auswahl *Aktion > Reservierungen aufheben*.
+
+## Geplatne Aktionen
+
+### Geplante Aktion "Los aus Anlieferung zuweisen" erstellen
 
 Die Aktion lädt alle Produklieferungen, welche noch keine Losnummer haben und vergleicht diese mit Produktzugängen. Wenn es einen Produkteingang gibt, der bis einer Woche vor der Lieferung eingeht, wird die Losnummer des Zugang auf die Lieferung übertragen.
 
@@ -185,7 +271,7 @@ if messages:
   log(' '.join(messages))
 ```
 
-## Geplante Aktion "Erledigte Menge aktualisieren" erstellen
+### Geplante Aktion "Erledigte Menge aktualisieren" erstellen
 
 Diese Aktion prüft ausgehende Lieferungen und setzt die erledigte Menge gemäss Bedarf ohne Berücksichtigung von Materialreservationen.
 
@@ -244,7 +330,7 @@ for picking in assign_pickings:
     picking.write({'state': 'assigned'})
 ```
 
-## Geplante Aktion "Versandprodukte aktualisieren" erstellen
+### Geplante Aktion "Versandprodukte aktualisieren" erstellen
 
 Diese Aktion prüft ausgehende Lieferungen und setzt die erledigte Menge gemäss Bedarf ohne Berücksichtigung von Materialreservationen.
 
@@ -282,7 +368,7 @@ if transport_moves:
   log('Fix qty done for transport moves: %s' % (transport_moves))
 ```
 
-## Geplante Aktion "Los aus Forecast zuweisen" erstellen
+### Geplante Aktion "Los aus Forecast zuweisen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -324,7 +410,9 @@ for move_line in fix_move_lines:
       move_line.write({'lot_id':  move_in.move_line_ids[0].lot_id.id})
 ```
 
-## Automatische Aktion "Lieferung erledigen wenn bereit" erstellen
+## Automatische Aktionen
+
+### Automatische Aktion "Lieferung erledigen wenn bereit" erstellen
 
 Mit dieser automatischen Aktion wird eine Lieferung im Status *Bereit* die erledigte Menge gleich der Bedarfsmenge gesetzt und erledigt.
 
@@ -348,85 +436,3 @@ for picking in records:
     move.write({'state': 'done'})
   picking._action_done()
 ```
-
-## Aktion "Reservierungen zurücksetzen" erstellen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Reservierungen zurücksetzen`\
-Modell: `ir.actions.server`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
-
-```python
-# Get outgoing pickings with reservations
-pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["assigned", "partially_available"])])
-# Unreserve pickings
-pickings.do_unreserve()
-# Log picking names
-log('Unreserved these pickings: %s' % (pickings.mapped('name')))
-```
-
-Speichern Sie die Aktion und führen Sie diese mit *Starten* aus.
-
-## Aktion "Reservierter Bestand zurücksetzen" erstellen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Reservierter Bestand zurücksetzen`
-Modell: `stock.quant`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
-
-```python
-for record in records:
-	record.sudo().write({
-		'reserved_quantity': 0
-	})
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Reservierter Bestand*.
-
-## Aktion "Reservierungen aufheben" erstellen
-
-Mit dieser Aktion können Sie alle Reservierungen für ein Produktaufheben.
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Reservierungen zurücksetzen`\
-Modell: `product.product`\
-Folgeaktion: `Python-Code ausführen`\
-Sicherheit-Gruppennamen: `Lager \ Administrator`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
-
-```python
-for product_id in records:
-	# Get assigned moves for product
-	move_ids = env['stock.move'].search([ "&", ("product_id", "=", product_id.id), ("state", "in", ["assigned", "partially_available"]) ])
-	if move_ids:
-		move_ids._do_unreserve()
-		log('Unreserved moves for product: %s' % product_id.display_name)
-```
-
-Kopieren Sie den Eintrag und passen Sie ihn wie folgt an:
-
-Modell: `product.template`\
-Pythoncode:
-
-```python
-for product_id in records.product_variant_id:
-	# Get assigned moves for first variant
-	move_ids = env['stock.move'].search([ "&", ("product_id", "=", product_id.id), ("state", "in", ["assigned", "partially_available"]) ])
-	if move_ids:
-		move_ids._do_unreserve()
-		log('Unreserved moves for product: %s' % product_id.display_name)
-```
-
-Beide Aktionen mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
-
-In der Ansicht der Produkte haben Sie nun die Auswahl *Aktion > Reservierungen aufheben*.

@@ -12,7 +12,9 @@ Kalenderansicht und Terminbestätigung für Fahrzeuganfragen.
 Technischer Name: `hr_vehicle_request_calendar`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/hr_vehicle_request_calendar>
 
-## Fahrzeuganfrage mit Termin bestätigen
+## Verwendung
+
+### Fahrzeuganfrage mit Termin bestätigen
 
 Mit dieser Erweiterung wird beim Bestätigen der Fahrzeuganfrage ein Termin im Kalender erstellt und eine Nachricht mit dem Termin als Anhang verschickt.
 

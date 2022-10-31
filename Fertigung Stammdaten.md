@@ -21,6 +21,7 @@ Produkte und Dienstleistungen zentral pflegen.
 | [Product Type Description](Product%20Type%20Description.md)                       | Zu jedem Produkt ein Beschreibungsfeld.                  |
 | [Secondary Product Type Description](Secondary%20Product%20Type%20Description.md) | Zu jedem Produkt ein zweites Beschreibungsfeld.          |
 
+## Produktverwaltung
 
 ## Produkt anlegen
 
@@ -32,7 +33,7 @@ Navigieren Sie nach *Fertigung > Stammdaten > Produkte*.
 
 Die Produkte erscheinen entsprechend zur Auswahl wenn z.B ein Angebot (kann verkauft werden) oder eine Angebotsanfrage (kann eingekauft werden) erstellt werden.
 
-### Beschreibung der Felder
+***Beschreibung der Felder**
 
 **Titel**
 
@@ -74,7 +75,7 @@ In den Einstellungen kann eine Sicherheitsvorlaufzeit eingestellt werden.
 
 Falls eine *Security Lead Time for Sales* definiert ist (siehe Lager > Konfigruation) dann beeinflusst dies den geplanten Lieferzeitpunkt. D.h. der Warentransfer wird diese Anzahl Tage früher beauftragt. Der im Verkaufsauftrag definierte und für den Kunden sichtbare Termin wird aber durch die *Security Lead Time for Sales* nicht beeinflusst.
 
-## Produktart festlegen
+### Produktart festlegen
 
 Zur Auswahl stehen 
 * Einlagerbares Produkt
@@ -83,7 +84,7 @@ Zur Auswahl stehen
 
 Falls ein Produkt im Lager eingebucht und die Menge überwacht werden soll, ist *Einlagerbares Produkt* die richtige Wahl. Für Produkte welche mengenmässig nicht erfasst werden (z.B. Reinigungsflüssigkeit) wählen Sie *Verbrauchsartikel*. Sie können Sie einkaufen aber nicht an Lager legen. Die Produktart *Dienstleistung* dient zur Darstellung von immateriellen Gütern (z.B. Beratungsleistung).
 
-## Produktkategorie festlegen
+### Produktkategorie festlegen
 
 Die Produktkategorie können Sie nach eigenen Definitionen kategorisieren.
 
@@ -92,7 +93,7 @@ Zur Auswahl stehen:
 * All / Expenses
 * All / Saleable
 
-## Produktkosten ermitten
+### Produktkosten ermitten
 
 Mit der Funktion *Kosten aktualisieren* kann der Wert manuell geändert werden. Die History wird gespeichert.
 

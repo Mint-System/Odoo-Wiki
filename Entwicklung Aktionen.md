@@ -9,17 +9,15 @@ prev: ./entwicklung
 
 Eigene Odoo Aktionen erstellen.
 
-## Aktuelle Aktion bearbeiten
+## Aktionen
+
+### Aktuelle Aktion bearbeiten
 
 Mit jedem Klick auf ein Menü oder Knopf wird in Odoo eine Aktion ausgeührt. Die ausgeführte Aktion können Sie mit *Entwicklertools > Aktion bearbeiten* anzeigen und bearbeiten.
 
-## Fenster umbennen
+## Automatische Aktionen
 
-Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach *Eisntellungen > Technisch > Aktionen > Fesnter öffnen/schliessen ...*. Suchen Sie im Feld *Name der Aktion* nach dem Fensternamen und passen Sie den Namen an.
-
-![Einstellungen Fenster umbennen](assets/Einstellungen%20Fenster%20umbennen.gif)
-
-## Beim Aktualisieren eine Validierung ausführen
+### Beim Aktualisieren eine Validierung ausführen
 
 Mit *Automatischen Aktionen* kann ein Datensatz, der aktualisiert wurde, zusätzlich validiert werden. In unserem Beispiel wollen wir unterbinden, dass Qualitätsalarme auf bestimmte Stufen gesetzt werden.
 
@@ -37,7 +35,9 @@ if record.stage_id.sequence in [0,1,2]:
 
 ![Aktionen Stufe nicht erlaubt](assets/Aktionen%20Stufe%20nicht%20erlaubt.gif)
 
-## Neue Ansicht mit Aktion hinzufügen
+## Ansichten
+
+### Neue Ansicht mit Aktion hinzufügen
 
 Fehlen bestimmte Ansichten, können diese ganz einfach mit einer Aktion und einem Menüeintrag erstellt werden. In diesem Bespiel wollen wir die die Komponenten aller Stücklisten in einer Tabelle darstellen.
 
@@ -59,7 +59,15 @@ Nachdem der Browser aktualisiert haben Sie Zugriff auf das neue Menü und Ansich
 
 ![](assets/Aktionen%20neue%20Ansicht.png)
 
-## Geplante Aktion "Set Order Deadline" erstellen
+### Fenstername umbennen
+
+Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach *Eisntellungen > Technisch > Aktionen > Fesnter öffnen/schliessen ...*. Suchen Sie im Feld *Name der Aktion* nach dem Fensternamen und passen Sie den Namen an.
+
+![Einstellungen Fenster umbennen](assets/Einstellungen%20Fenster%20umbennen.gif)
+
+## Gplante Aktionen
+
+### Geplante Aktion "Set Order Deadline" erstellen
 
 Mit Aktionen können Felder mit einem bestimmten Default-Wert beschrieben werden. Im folgenden Beispiel wird das Feld *Order Deadline* auf Angebotsanfragen auf das Datum *heute + 5 Tage* gesetzt.
 
@@ -72,7 +80,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstelle
 * Feld: `Order Deadline (purchase.order)`
 * Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
 
-## Geplante Aktion "Ablaufdatum Datenbank erneuern" erstellen
+### Geplante Aktion "Ablaufdatum Datenbank erneuern" erstellen
 
 Diese geplante Aktion aktualisiert das Ablaufdatum der Datenbank in regelmässigen Abständen.
 
@@ -98,7 +106,9 @@ expiration_date = expiration_date.strftime('%Y-%m-%d %H:%M:%S')
 env['ir.config_parameter'].sudo().set_param('database.expiration_date', expiration_date)
 ```
 
-## Aktion "Feld neu berechnen" erstellen
+## Aktionen
+
+### Aktion "Feld neu berechnen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -119,7 +129,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Felder erscheint nun in der Auswahl *Aktion* das Menu *Feld neu berechnen*.
 
-## Aktion "Ansicht Zugriffsrechte aktualisieren" erstellen
+### Aktion "Ansicht Zugriffsrechte aktualisieren" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -135,7 +145,7 @@ env["res.groups"]._update_user_groups_view()
 
 Speichern Sie die Aktion und führen Sie diese direkt mit *Starten* aus.
 
-## Aktion "Compose E-Mail" erstellen
+### Aktion "Compose E-Mail" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 

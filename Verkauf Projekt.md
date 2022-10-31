@@ -14,7 +14,9 @@ Dienstleistungen mit Verkauf und Projekt abwickeln.
 | --------------------------------------------------------- | ----------------------------------------------------- |
 | [Sale Order Project Key](Sale%20Order%20Project%20Key.md) | Angebotsname von verlinkter Projektnummer übernehmen. |
 
-## Dienstleistung für Zeiterfassung konfigurieren
+## Abrechnung
+
+### Dienstleistung für Zeiterfassung konfigurieren
 
 Mit Verkauf, Projekt und Zeiterfassung können Sie Dienstleistung mit Zeiterfassung erstellen. Navigieren Sie nach *Verkauf > Produkte > Produkte* erstellen oder öffnen Sie ein Dienstleistungs-Produkt. Hier die wichtigsten Konfigurationen:
 
@@ -26,7 +28,7 @@ Mit Verkauf, Projekt und Zeiterfassung können Sie Dienstleistung mit Zeiterfass
 * * **Projekt**: Projekt in welchem die Aufgabe erstellt wird.
 * **Projekt-Vorlage**: Projekt welches als Vorlage kopiert wird.
 
-## Bestehendes Projekt verknüpfen
+### Bestehendes Projekt verknüpfen
 
 Wenn Sie ein bestehendes Projekt mit Dienstleistungen aus einem Verkaufsauftrag verknüpfen möchten, müssen Sie mindestes eine Dienstleistung als Auftragszeile hinzugefügt haben.
 

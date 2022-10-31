@@ -12,7 +12,9 @@ prev: ./diskussion
 Technischer Name: `mail_thread_context`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_thread_context>
 
-## Automatisches Abonnieren deaktivieren
+## Verwendung
+
+### Automatisches Abonnieren deaktivieren
 
 Mit dieser Erweiterung wird beim Erstellen und Aktualisieren von Odoo Einträgen sowie beim Hinterlassen von Notizen keine automatisches Abonnement erstellt.
 
@@ -26,7 +28,7 @@ Nachher:
 
 Dasselbe funktioniert auch für *Sende Nachricht*. Der Empfänger wird nicht automatisch als Abonnent hinzugefügt.
 
-## Alle Abonnenten löschen
+### Alle Abonnenten löschen
 
 Wenn Sie oder ein anderer Benutzer einem Dokument folgen, speichert das Odoo in einer technischen Tabelle. Diese Einträge können Sie via *Einstellungen > Technisch > Diskussion > Abonnenten* löschen. Filtern Sie die Einträge nach einem bestimmten Modellname. Dazu ein Beispiel mit dem Verkaufsaufträgen (`sale.order`):
 

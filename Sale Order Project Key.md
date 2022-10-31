@@ -12,7 +12,9 @@ Angebotsname von verlinkter Projektnummer übernehmen.
 Technischer Name: `sale_order_project_key`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/15.0/sale_order_project_key>
 
-## Angebotsname von verlinkter Projektnummer übernehmen
+## Verwendung
+
+### Angebotsname von verlinkter Projektnummer übernehmen
 
 Mit dieser Erweiterung können Sie beim Erstellen eines Angebots, direkt ein Projekt verlinken. Wird das Angebot erstellt, wird die Projektnummer als Anzeigenamen verwendet. Der Kunde des Angebots wird als Kunde auf dem Projekt eingetragen.
 

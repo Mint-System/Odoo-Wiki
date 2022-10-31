@@ -10,7 +10,9 @@ Management des Produktlebenszyklus für moderne Firmen.
 
 Website: <https://www.odoo.com/de_DE/app/plm>
 
-## ECO-Typ und Stufen erfassen
+## Engeering Change Order
+
+### ECO-Typ und Stufen erfassen
 
 Um einen ECO-Type zu erfassen navigieren Sie nach *PLM > Konfiguration > ECO-Typen*. Mit einem klick auf *+ Anlegen* erstellen Sie einen neuen Typen.
 
@@ -24,7 +26,7 @@ Wählen Sie den Typen aus und legen die Optionen fest.
 * Endstufe: Die Änderung ist abgeschlossen.
 * Genehmigung: Odoo-Benutzer festlegen, der die Änderungen auf der Stufe genehmigen muss.
 
-## Technischer Änderungsauftrag erfassen
+### Technischer Änderungsauftrag erfassen
 
 Klicken Sie auf *PLM > Änderungen > + Anlegen*.
 

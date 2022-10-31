@@ -12,7 +12,9 @@ prev: ./sale-order-line-description
 Technischer Name: `sale_order_line_description_name`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_description_name>
 
-## Produktname ohne Referenz übertragen
+## Verwendung
+
+### Produktname ohne Referenz übertragen
 
 Mit dieser Erweiterung wird beim Eintragen des Produkt auf der Verkaufszeile nur der Produktname übertragen, sofern keine Verkaufsbeschreibung vorhanden ist.
 

@@ -8,7 +8,9 @@ prev: ./
 
 Odoo installieren und konfigurieren.
 
-## Mail-Account bereitstellen
+## Infrastruktur
+
+### Mail-Account bereitstellen
 
 Odoo benötigt zum Empfang und Versand von E-Mails einen exklusiven Mail-Account. Im  Normalfall lautet die Mail Adresse `odoo@example.com`, wobei `example.com` mit der Domain des Kunden zu ersetzen ist.
 
@@ -22,7 +24,7 @@ Damit Antworten an E-Mails von Odoo korrekt verarbeitet werden können, müssen 
 
 Wenn jemand eine Mail an eine dieser Adresse schickt, werden Sie ans Postfach von `odoo@example.com` weitergeleitet und anschliessen von Odoo verarbeitet.
 
-## DNS-Einträge erstellen
+### DNS-Einträge erstellen
 
 Odoo ist eine Webapplikation und muss über eine bestimmte Adresse im Browser aufgerufen werden. Wir empfehlen als Adresse für die produktive Umgebung `odoo.example.com` festzulegen und für die Testumgebung `odoo-dev.example.com`. `example.com` ist natürlich mit der Domain des Kunden zu ersetzen.
 

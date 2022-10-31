@@ -12,6 +12,8 @@ Menu Alle Aufgaben hinzufügen.
 Technischer Name: `project_task_all_menu`\
 Repository: <https://github.com/OCA/project/tree/15.0/project_task_all_menu>
 
-## Alle Aufgaben anzeigen
+## Verwendung
+
+### Alle Aufgaben anzeigen
 
 Navigieren Sie nach *Projekt > Alle Aufgaben* um alle Aufgaben anzuzeigen.

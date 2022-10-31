@@ -12,6 +12,8 @@ Zu jedem Produkt ein Beschreibungsfeld.
 Technischer Name: `product_type_description`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/14.0/product_type_description>
 
-## Beschreibung hinzufügen
+## Verwendung
+
+### Beschreibung hinzufügen
 
 Öffnen Sie ein Produkt via *Lager > Produkte > Produkte* und zeigen Sie den Tab *Allgemeine Informationen* an. Unter dem Feld *Interne Referenz* finden das Feld *Type Description*.

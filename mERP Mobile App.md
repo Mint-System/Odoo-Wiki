@@ -8,7 +8,9 @@ prev: ./odoo-mobile-app
 
 Alternative zur Odoo Mobile App.
 
-## In App einloggen
+## Verwendung
+
+### In App einloggen
 
 Laden Sie die App aus dem Geräte-spezifischen App-Store herunter.
 

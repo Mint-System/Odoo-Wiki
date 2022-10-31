@@ -12,7 +12,9 @@ Aktualisiere offene Pickings von Fertigungsaufträgen bei Änderungen.
 Technischer Name: `mrp_production_update_upstream_move`\
 Repository: <https://github.com/OCA/product-attribute/tree/14.0/mrp_production_update_upstream_move>
 
-## Nachlieferung aktualisieren
+## Verwendung
+
+### Nachlieferung aktualisieren
 
 Hat ein Fertigungsauftrag eine offene Pickings und wird die zu produzierende Menge aktualisiert, dann werden mit dieser Erweiterung auch die Bedarfsmenge der Pickings angepasst.
 

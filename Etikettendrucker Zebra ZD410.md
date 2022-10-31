@@ -19,7 +19,9 @@ Zebra Z-Select 2000T ist nicht direkt.
 Der maximale Durchmesser der Rolle ist 127mm.
 :::
 
-## Etikettendrucker in Betrieb nehmen
+## Verwendung
+
+### Etikettendrucker in Betrieb nehmen
 
 Damit Sie den Etikettendrucker verwenden können, müssen folgende Vorbereitungen getroffen werden:
 
@@ -35,7 +37,7 @@ Drucken Sie anschliessend ein Konfigurationsbericht.
 
 ![](assets/Etikettendrucker%20Zebra%20ZD410%20testen.png)
 
-## Etikettenrolle auswechseln
+### Etikettenrolle auswechseln
 
 Schauen Sie sich das folgende Instruktionsvideo von Zebra an:
 

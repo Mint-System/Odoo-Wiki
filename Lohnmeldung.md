@@ -12,7 +12,9 @@ Lohnmeldungen ganz einfach generieren.
 Technischer Name: `gio_generic_excel_addon`\
 Repository: <https://gitlab.giordano.ch/odoo/giordano-addons/swiss-payroll/-/tree/14.0/gio_generic_excel_addon>
 
-## Excel-Konfiguration einrichten
+## Verwendung
+
+### Excel-Konfiguration einrichten
 
 Unter *Einstellungen > Technisch > Generic Excel Export* ein neuer Report *Lohnmeldung* erstellen.
 

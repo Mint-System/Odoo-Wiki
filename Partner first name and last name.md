@@ -12,7 +12,9 @@ Unterscheidet Vor- und Nachnamen.
 Technischer Name: `partner_firstname`\
 Repository: <https://github.com/OCA/partner-contact/tree/15.0/partner_firstname>
 
-## Reihenfolge Namensbestandteile festlegen
+## Verwendung
+
+### Reihenfolge Namensbestandteile festlegen
 
 Die Reihenfolge des Vor- und Nachnamen kann explizit festgelegt werden. Gehen Sie im Entwicklermodus zu *Einstellungen > Allgemeine Einstellungen > Reihenfolge Partner-Namensbestandteile*. Wählen Sie hier den gewünschten Eintrag aus.
 

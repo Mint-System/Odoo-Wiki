@@ -46,17 +46,23 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md)                           | Erlaubt die Archivierung von Los/Chargen.                                                                   |
 | [Stock Vendor Evaluation](Stock%20Vendor%20Evaluation.md)                                     | Lieferungen bewerten und Lieferanten auswerten.                                                             |
 
-## Ablaufdatum aktivieren
+## Nachverfolgung
+
+### Ablaufdatum aktivieren
 
 Für Produkte in Lots oder Produkte mit Seriennummer könne Sie ein Ablaufdatum festlegen. Öffnen Sie das Produkt via *Lager > Produkte > Produkte* und zeigen Sie den Tab *Lager* an. Unter Lieferfolgung müssen Sie eine Option für *Nachverfolung* auswählen. Nun erscheint die Checkbox *Ablaudatum*. Aktivieren Sie diese und konfigurieren Sie die Ablaufzeiten.
 
 ![](assets/Lager%20Ablaufdatum%20konfiguriert.png)
 
-## Sicherheitsvorlaufzeiten definieren
+## Vorlaufzeiten
+
+### Sicherheitsvorlaufzeiten definieren
 
 Die Sicherheitsvorlaufzeiten können Sie zentral unter *Einstellungen > Lager > Erweiterte Planung* festlegen. Aktivieren Sie für jeweilige Vorlaufzeit die Checkbox und tragen Sie die gewünschten Zeiten ein
 
-## Rundungsgenauigkeit einer Mengeneinheit ändern
+## Datenbank
+
+### Rundungsgenauigkeit einer Mengeneinheit ändern
 
 Wenn Sie die Rundungsgenauigkeit (Stellen nach dem Komma) einer Mengeneinheit ändern möchten, öffnen Sie *Lager > Konfiguration > Mengeneinheiten > UoM* und wählen hier die Einheit aus. Im Feld *Rundungsgenauigkeit* geben Sie den entsprechenden Wert ein. 
 
@@ -68,22 +74,24 @@ Die hier gemachten Einstellung haben Einfluss auf die Darstellung der Zahl.
 
 ![](assets/Lager%20Wicht%20mit%203%20Kommastellen.png)
 
-## Lagerort Lagerschwund mit externer ID ergänzen
+### Lagerort Lagerschwund mit externer ID ergänzen
 
 Erfassen Sie für das Lagerort *Virtual Locations/Scrap* eine externe ID gemäss [Externe ID erfassen](Entwicklung.md#Externe%20ID%20erfassen). Die Definition ist wie folgt:
 
 ![](assets/Lager%20Lagerschwund%20externe%20ID.png)
 
-## Mehrstufige Routen aktivieren
+## Routen
+
+### Mehrstufige Routen aktivieren
 
 Aktivieren Sie die Option *Mehrstufige Routen* unter *Einstellungen > Lager > Lager*.
 
-## Produkt für "Purchase to Order" konfigurieren
+### Produkt für "Purchase to Order" konfigurieren
 
 Navigieren Sie nach *Lager > Produkte* und wählen Sie ein Produkt aus. Im Tab *Lager* aktivieren Sie die Routen *Einkaufen* und *Auffüllung nach Auftrag (MTO)*.
 
 ![](assets/Lager%20Purchase%20to%20Order.png)
 
-## Produkt für "Make to Order" konfigurieren
+### Produkt für "Make to Order" konfigurieren
 
 Navigieren Sie nach *Lager > Produkte* und wählen Sie ein Produkt aus. Im Tab *Lager* aktivieren Sie die Routen *Fertigung* und *Auffüllung nach Auftrag (MTO)*.

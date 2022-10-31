@@ -12,7 +12,9 @@ An- und Abmelden bei Anwesenheit farblich markieren.
 Technischer Name: `hr_attendance_kiosk_mode_color`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_attendance_kiosk_mode_color>
 
-## An- und Abmelden mit Kioskmodus farblich markieren
+## Verwendung
+
+### An- und Abmelden mit Kioskmodus farblich markieren
 
 Mit dieser Erweiterung wird beim An- und Abmelden im Kioskmodus der Hintergrund der Infobox grün oder rot markiert.
 

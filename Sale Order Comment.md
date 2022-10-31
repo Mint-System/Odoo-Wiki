@@ -18,8 +18,9 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | [Sale Blanket Order Comment](Sale%20Blanket%20Order%20Comment.md)                                       | Kommentar auf Rahmenauftrag.                                                        |
 
+## Verwendung
 
-## Kommentar hinzufügen
+### Kommentar hinzufügen
 
 Öffnen Sie einen Verkaufsauftrag via *Verkäufe > Aufträge > Aufträge*. Im Tab *Weitere Informationen* finden Sie das Feld *Kommentar*.
 

@@ -13,7 +13,9 @@ Bankkonto anhand Währung auswählen.
 Technischer Name: `account_invoice_select_bank`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_invoice_select_bank>
 
-## Bankkonto anhand Währung auswählen
+## Verwendung
+
+### Bankkonto anhand Währung auswählen
 
 Beim Erstellen einer Rechnung oder beim Wechsel der Währung einer Rechung, wird das Feld *Empfängerbank* aktualisiert. Dabei wird die Währung des Bankkonto und der Rechnung berücksichtigt.
 

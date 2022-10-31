@@ -12,7 +12,9 @@ Das Standardlieferdatum ist das erwartete Datum.
 Technischer Name: `sale_order_expected_commitment_date`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_expected_commitment_date>
 
-## Standard-Lieferungdatum setzen
+## Verwendung
+
+### Standard-Lieferungdatum setzen
 
 Mit dieser Erweiterung wird das Lieferdatum, sofern nicht gesetzt, gleich dem erwarteten Datum des Verkaufsauftrags gesetzt.
 

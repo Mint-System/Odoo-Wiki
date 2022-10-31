@@ -8,7 +8,9 @@ prev: ./entwicklung
 
 Eigene Berichte mit QWeb erstellen.
 
-## URL von Berichten anzeigen
+## Ansicht
+
+### Bericht als Webseite anzeigen
 
 Eine Übersicht der wichtigsten Berichte und deren URL:
 
@@ -33,7 +35,27 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 Bestimmte Bericht können mehere Dokumente anzeigen. Für die HTML-Anzeige können Sie die Dokument-IDs Komma-getrennt übergeben: /report/html/**stock.report_deliveryslip**/**3,4,5**
 :::
 
-## Benutzerdefinierter Bericht erstellen
+### Berichte als HTML anzeigen
+
+Alle von Odoo generierten Berichte können unter einer bestimmten URL als HTML angezeigt werden. Diese URL besteht aus dem technischen Berichtsnamen und der ID des anzuzeigenden Geschäftsobjekt. Dazu ein Beispiel anhand des Lieferscheins.
+
+Öffnen Sie einen Lieferschein via *Lager > Vorgänge > Transfers* und merken Sie sich die folgenden Elemente der angezeigeigten URL: /web#**id=3**&action=348&**model=stock.picking**&view_type=form&cids=1&menu_id=208
+
+Navigieren Sie nun zu **Einstellungen > Technisch > Aktionen > Berichte**. Filtern Sie die Liste nach dem *Name* des Berichts oder dem *Modellname*.
+
+![](assets/Entwicklung%20Berichte%20filtern.png)
+
+Wählen Sie den Bericht aus und notieren Sie den *Vorlagenname* des Berichts.
+
+![](assets/Entwicklung%20Bericht%20Vorlagenname.png)
+
+Nun haben Sie alle Elemente um den Bericht als HTML anzuzeigen. Geben Sie die folgende URL ein: /report/html/**stock.report_deliveryslip**/**3**
+
+![](assets/Entwicklung%20Bericht%20angezeigt.png)
+
+## Verwaltung
+
+#### Benutzerdefinierter Bericht erstellen
 
 In diesem Szenario möchten wir für Dokumente einen Bericht generieren.
 
@@ -93,25 +115,7 @@ Ihre Ansicht wird nun vom Bericht über den *Vorlagename* identifiziert. Kehren 
 
 ![](assets/Entwicklung%20QWeb-Berichte%20Drucken%20Kundenstandards.png)
 
-## Berichte als HTML anzeigen
-
-Alle von Odoo generierten Berichte können unter einer bestimmten URL als HTML angezeigt werden. Diese URL besteht aus dem technischen Berichtsnamen und der ID des anzuzeigenden Geschäftsobjekt. Dazu ein Beispiel anhand des Lieferscheins.
-
-Öffnen Sie einen Lieferschein via *Lager > Vorgänge > Transfers* und merken Sie sich die folgenden Elemente der angezeigeigten URL: /web#**id=3**&action=348&**model=stock.picking**&view_type=form&cids=1&menu_id=208
-
-Navigieren Sie nun zu **Einstellungen > Technisch > Aktionen > Berichte**. Filtern Sie die Liste nach dem *Name* des Berichts oder dem *Modellname*.
-
-![](assets/Entwicklung%20Berichte%20filtern.png)
-
-Wählen Sie den Bericht aus und notieren Sie den *Vorlagenname* des Berichts.
-
-![](assets/Entwicklung%20Bericht%20Vorlagenname.png)
-
-Nun haben Sie alle Elemente um den Bericht als HTML anzuzeigen. Geben Sie die folgende URL ein: /report/html/**stock.report_deliveryslip**/**3**
-
-![](assets/Entwicklung%20Bericht%20angezeigt.png)
-
-## Benutzerdefinierter Bericht kopieren
+### Benutzerdefinierter Bericht kopieren
 
 In diesem Szenario wird gezeigt wie Sie einen bestehenden Bericht übernehmen und anpassen.
 
@@ -164,6 +168,6 @@ Wurde das Kontext-Menü mit der Aktion *Zum Druckmenü hinzufügen* erstellt, ka
 Odoo verlinkt das Ansichts- und Berichtsobjekt über die externe ID bzw. XML ID.
 :::
 
-## Option "Als Anhang speichern" deaktivieren
+### Option "Als Anhang speichern" deaktivieren
 
 Verschiedene Standardberichte werden beim Erzeugen als das Geschäftsobjekt angehängt. Dies geschieht aufgrund der Option *Als Anhangsprefix speichern* auf dem Berichtsobjekt. Rufen Sie einen Bericht auf *Einstellungen > Technisch > Berichtswesen > Berichte* und entfernen Sie im Tab *Erweiterte Eigenschaften* den Eintrag im Feld *Als Anhangsprefix speichern*.

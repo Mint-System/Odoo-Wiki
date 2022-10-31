@@ -18,7 +18,9 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 | ----------------------------- | ----------------------------------------------------------- |
 | [AMQP Stock](AMQP%20Stock.md) | Lagervorgänge als AMQP-Nachrichten empfangen und versenden. |
 
-## AMQP Host anlegen
+## Verwendung
+
+### AMQP Host anlegen
 
 Navigieren Sie nach *Einstellungen > Technisch > AMQP > Hosts* und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel:
 

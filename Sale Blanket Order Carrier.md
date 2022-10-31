@@ -12,7 +12,9 @@ Legen Sie die Auslieferungsmethode auf dem Rahmenvertrag fest.
 Technischer Name: `sale_blanket_order_carrier`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_carrier>
 
-## Auslieferungsmethode festlegen
+## Verwendung
+
+### Auslieferungsmethode festlegen
 
 Öffnen Sie einen Rahmenvertrag via *Verkauf > Aufträge > Rahmenaufträge*. Unterhalb der *Zahlungsbedingungen* können Sie die Auslieferungsmethode festlegen.
 

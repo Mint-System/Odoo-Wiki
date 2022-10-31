@@ -12,7 +12,9 @@ Standardverpackung auf Position setzen.
 Technischer Name: `sale_order_line_default_packaging`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_default_packaging>
 
-## Standardverpackung setzen
+## Verwendung
+
+### Standardverpackung setzen
 
 Mit dieser Erweiterung wird die erste Verpackung unter *Verkauf > Produkte > Produkte > Produkt auswählen > Tab	Lager* gesetzt.
 

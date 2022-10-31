@@ -12,7 +12,9 @@ Lieferdatum pro Position.
 Technischer Name: `sale_order_line_date`\
 Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_order_line_date>
 
-## Lieferdatum pro Position festlegen
+## Verwendung
+
+### Lieferdatum pro Position festlegen
 
 In einem Verkaufsangebot unter *Verkauf* können Sie pro Position ein Lieferdatumfestlegen.
 

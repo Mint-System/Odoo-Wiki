@@ -18,13 +18,9 @@ Personalbrechnungen schnell und einfach erstellen.
 | [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md) | Berichte für Lohnbuchhaltung erstellen.      |
 | [Personalabrechnung Aktionen](Personalabrechnung%20Aktionen.md) | Lohnabrechnung automatisieren.               |
 
-## Arbeitseinträge anzeigen
+## Konfiguration
 
-Anhand der Anwesenheit und Abwesenheit erstellt Odoo für jeden Mitarbeitenden entsprechende Arbeitseinträge. Diese sind relevant für die Stundenbasierten Lohnabrechnungen.
-
-Die Arbeitseinträge zeigen Sie via *Personalabrechnung > Arbeitseinträge >Arbeitseinträge* an. Hier sehen Sie, ob Mitarbeitende ungeklärte Lücken haben.
-
-## Pesonalabrechnung initialisieren
+### Pesonalabrechnung initialisieren
 
 Damit Sie die Personalabrechnung für ihre Mitarbeiter erstellen können, müssen einige vorbereitungen getroffen werden.
 
@@ -40,11 +36,11 @@ Dazu eine Übersicht:
 
 Konfigurieren Sie diese Punkte, erst dann können Sie die [Lohnabrechnung erstellen](#Lohnabrechnung%20erstellen).
 
-## Bankverbindung hinterlegen
+### Bankverbindung hinterlegen
 
 Zur Auszahlung des Lohns über SEPA müssen Sie den Mitarbeiter ein Bankkonto hinterlegen. Navigieren Sie nach *Pesonal > Mitarbeiter auswählen > Bearbeiten > Tab Private Information* und erfassen Sie ein Bankkonto unter *Bankverbindung*.
 
-## Lohnarten definieren
+### Lohnarten definieren
 
 ::: tip
 Das sind die Regeln, die Informationen über die Gehaltsberechnung liefern. Diese Regeln werden von odoo gemäss der Reihenfolge ihrer Sequenznummer interpretiert. Die Regeln können verwendet werden, um Buchungen zu erzeugen, ohne dass diese in der Gehaltsliste sichtbar sind.
@@ -54,7 +50,7 @@ Die Lohnregel sind unter *Personalabrechnung > Konfiguration > Regeln* definiert
 
 Regeln für die Sie keine Verwendung haben, können Sie archivieren.
 
-## Finanzkonten den Lohnarten zuweisen
+### Finanzkonten den Lohnarten zuweisen
 
 Damit  die Lohnabrechnung auch in der Finanzbuchhaltung ersichtlich ist, müssen Sie für alle Lohnregeln die entsprechenden Soll- und Habenkonten hinterlegen. Eine Übersicht dazu finden Sie unter [Best-Practice Lohnbuchhaltung](Best%20Practice%20Lohnbuchhaltung.md).
 
@@ -62,7 +58,15 @@ Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln > Regel auswäh
 
 ![](assets/Personalbrechnung%20Finanzkonten.png)
 
-## Lohnabrechnung erstellen
+## Lohnabrechnung
+
+### Arbeitseinträge anzeigen
+
+Anhand der Anwesenheit und Abwesenheit erstellt Odoo für jeden Mitarbeitenden entsprechende Arbeitseinträge. Diese sind relevant für die Stundenbasierten Lohnabrechnungen.
+
+Die Arbeitseinträge zeigen Sie via *Personalabrechnung > Arbeitseinträge >Arbeitseinträge* an. Hier sehen Sie, ob Mitarbeitende ungeklärte Lücken haben.
+
+### Lohnabrechnung erstellen
 
 Lohnabrechnung können für mehre oder einzelne Mitarbeiter ausgeführt werden.
 
@@ -82,7 +86,7 @@ Navigieren Sie nach *Personalabrechnung > Arbeitseinträge > Arbeitseinträge* u
 
 Mit *Create draft entry* werden die einzelnen Lohnabrechnungen berechnet und eine Buchung vorbereitet.
 
-## Lohnabrechnung verbuchen
+### Lohnabrechnung verbuchen
 
 Wählen Sie eine aktuelle Lohnabrechnung, die im Status *Erledigt* ist: *Personalabrechnung > Abrechnung Mitarbeitervergütung > All Payslips > Payslip auswählen*. Öffnen Sie den Tab *Finanzen* und klicken auf den Link unter *Buchung*.
 
@@ -94,11 +98,11 @@ Hier werden alle Buchungen der Lohnabrechnung aufgeführt.
 Werden die Lohnzahlung als Batch verarbeitet, müssen alle Lohnabrechnungen bestätigt sein, damit eine Zahlung ausgelöst werden kann.
 :::
 
-## Gehaltsinformationen eingeben
+### Gehaltsinformationen eingeben
 
 Die Gehaltsinformationen der Mitarbeiter legen Sie via *Pesonal > Mitarbeiter auswählen > Link Verträge > Arbeitsvertrag auswählen > Bearbeiten > Tab Gehaltsinformationen* fest.
 
-## Lohnabrechnung entfernen
+### Lohnabrechnung entfernen
 
 Eine verbuche Lohnabrechnung lässt sich nicht mehr löschen oder abbrechen. Zumindest ist das im Status *Erledigt* nicht möglich. Wurde eine Lohnzahlung als bezahlt markiert, kann Sie jedoch wieder entfernt werden.
 
@@ -108,15 +112,19 @@ Eine verbuche Lohnabrechnung lässt sich nicht mehr löschen oder abbrechen. Zum
 Falls es auf dem Eintrag eine verknüpfte Buchung gibt, wird diese ebenfalls gelöscht.
 :::
 
-## Lohnbuchungen abgleichen
-
-Standardmässig werden die auszuzahlenden Löhne auf dem *Lohndurchlaufkonto* und dem Konto *Ausstehende Zahlungen* verbucht. Erfasst man für einen Lohnlauf eine Zahlung, importiert diese ins eBanking und gleicht den Beleg später ab, müssen Sie den Beleg mit dem Konto *Ausstehende Zahlungen* abgleichen.
-
-## Lohnabrechnung neu berechnen
+### Lohnabrechnung neu berechnen
 
 Haben Sie einen Fehler in einer erledigten Lohanbrechnung können Sie diese wie folgt neu berechnen. Erfassen Sie eine Zahlung, wenn dies nicht bereit getan ist. Wählen Sie *Aktion > Abbrechen*. Nun ist die Lohnabrechnung im Status Abgelehnt. Wählen Sie nun *Auf Entwurf Setzen* und nehmen Sie die Anpassungen vor. Ist alles erledigt, können Sie wie gewohnt die Lohnabrechnung berechnen lassen und bestätigen.
 
-## Lohnabrechnungszeilen anzeigen
+## Abgleich
+
+### Lohnbuchungen abgleichen
+
+Standardmässig werden die auszuzahlenden Löhne auf dem *Lohndurchlaufkonto* und dem Konto *Ausstehende Zahlungen* verbucht. Erfasst man für einen Lohnlauf eine Zahlung, importiert diese ins eBanking und gleicht den Beleg später ab, müssen Sie den Beleg mit dem Konto *Ausstehende Zahlungen* abgleichen.
+
+## Auswertung
+
+### Lohnabrechnungszeilen anzeigen
 
 Damit Sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
 

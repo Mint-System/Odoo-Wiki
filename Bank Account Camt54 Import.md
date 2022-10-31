@@ -11,7 +11,9 @@ Camt54 Bankauszug mit den Details zu Sammelbuchungen (vorher DTI) importieren.
 Technischer Name: `account_statement_import_camt54`\
 Repository: <https://github.com/OCA/bank-statement-import/tree/14.0/account_statement_import_camt54>
 
-## Camt54 importieren und abgleichen
+## Verwendung
+
+### Camt54 importieren und abgleichen
 
 Navigieren Sie nach *Finanzen* wählen beim abzugleichenden Konto *Import Auszüge* aus. Laden Sie im Dialog die XML-Datei hoch. Nach Bedarf können Sie den Namen der Datei anpassen.
 

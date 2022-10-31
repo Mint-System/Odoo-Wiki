@@ -12,7 +12,9 @@ Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten.
 Technischer Name: `project_timeline_task_dependency`\
 Repository: <https://github.com/OCA/project/tree/14.0/project_timeline_task_dependency>
 
-## Projektaufgaben Timeline-Ansicht mit Abhängigkeiten anzeigen
+## Verwendung
+
+### Projektaufgaben Timeline-Ansicht mit Abhängigkeiten anzeigen
 
 Öffnen Sie die *Timeline*-Ansicht via *Projekt > Alle Aufgaben*.
 

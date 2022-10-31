@@ -12,7 +12,9 @@ Lohnabrechnung nach Schweizer Anforderungen.
 Technischer Name: `gio_payroll_custom`\
 Repository: <https://gitlab.giordano.ch/odoo/giordano-addons/payroll/gio_payroll_custom>
 
-## Anteile Arbeitgeber / Arbeitnehmer konfigurieren
+## Verwendung
+
+### Anteile Arbeitgeber / Arbeitnehmer konfigurieren
 
 Die Anteile des Arbeitgebener und Arbeitnehmer können als Vorlage erfasst werden. Die Anteile werde werden dem Arbeitsvertrag zugewiesen.
 
@@ -26,7 +28,7 @@ Legen Sie unbedingt die Monatslohngrenze fest. Nur dann werden ALV und NBU korre
 
 ![](assets/Pesonalabrechnung%20Anteile%20Arbeitnehmer%20Arbeitgebener.png)
 
-## Lohndeklaration AVH anzeigen
+### Lohndeklaration AVH anzeigen
 
 Damit die Lohndeklaration für die Ausgleichsklasse einfacher gemacht werden, können Sie eine neue Lohnregel erstellen:
 

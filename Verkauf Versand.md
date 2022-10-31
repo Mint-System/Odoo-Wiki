@@ -21,15 +21,17 @@ Versandmethoden und Logistik definieren.
 | [Sale Order Line Default Packaging](Sale%20Order%20Line%20Default%20Packaging.md)     | Standardverpackung auf Position setzen.                                                         |     |
 | [Sale Stock Picking Note](Sale%20Stock%20Picking%20Note.md)                           | Interne und externe Notiz für Lieferungen.                                                      |     |
 
-## Lieferung anzeigen
+## Lieferung
+
+### Lieferung anzeigen
 
 Durch einen Verkaufsauftrag entsteht automatisch ein Lieferauftrag. Die Verbindung wird über einen entsprechenden *Smart Button* oben rechts sichtbar.
 
-## Versandmethode erstellen
+### Versandmethode erstellen
 
 Navigieren Sie nach *Verkauf > Konfiguration > Versandmethoden* und erstellen Sie eine neue Methode. Eine Versandmethode braucht miestends einen *Namen*, *Anbieter* und ein *Auslieferungsprodukt*. Erstellen Sie für die neue Versandmethode ein Auslieferungsprodukt.
 
-## Versand hinzufügen
+### Versand hinzufügen
 
 Auf dem Verkaufsauftrag können Sie über den Knopf *Versand Hinzufügen* eine Versandmethode wählen.
 
@@ -37,7 +39,19 @@ Auf dem Verkaufsauftrag können Sie über den Knopf *Versand Hinzufügen* eine V
 
 Das *Auslieferungsprodukt* wird nun dem Verkaufsauftrag hinzugefügt.
 
-## Incoterms festlegen
+### Liefer- und Rechnungsadresse festlegen
+
+Damit Sie die Liefer- und Rechnungsadresse explizit festlegen können, muss die Option *Einstellungen > Verkauf > Angebote und Aufträge > Kundenadresse* aktiviert sein.
+
+![](assets/Verkauf%20Rechnung-%20und%20Lieferadresse.png)
+
+### Anzahl Auslieferungsprodukte festlegen
+
+Haben Sie einen Verkaufsauftrag bestätigt und können Sie auf der dazugehörigen Lieferung die definitive Anzahl der *Auslieferungsprodukte* festlegen. Dazu ein Beispiel aus der Strichcode App:
+
+## Lieferbedingungen
+
+### Incoterms festlegen
 
 Damit Sie die Lieferbedinungen auf einem Angebot festlegen können, müssen Sie Mitglied in der Gruppe *Lieferbedingungen auf Angeboten und Rechnungen anzeigen* sein.
 
@@ -45,18 +59,10 @@ Ist diese Bedinung erfüllt können Sie ein Angebot öffnen *Verkauf > Angebot a
 
 ![](assets/Verkauf%20Lieferbedingungen.png)
 
-## Liefer- und Rechnungsadresse festlegen
-
-Damit Sie die Liefer- und Rechnungsadresse explizit festlegen können, muss die Option *Einstellungen > Verkauf > Angebote und Aufträge > Kundenadresse* aktiviert sein.
-
-![](assets/Verkauf%20Rechnung-%20und%20Lieferadresse.png)
-
-## Anzahl Auslieferungsprodukte festlegen
-
-Haben Sie einen Verkaufsauftrag bestätigt und können Sie auf der dazugehörigen Lieferung die definitive Anzahl der *Auslieferungsprodukte* festlegen. Dazu ein Beispiel aus der Strichcode App:
+## Retoure
 
 ![](assets/Verkauf%20Versand%20Anzahl%20Auslieferungsprodukte%20festlegen.png)
-## Retoure Auslieferungsprodukt auf Lieferung erfassen
+### Retoure Auslieferungsprodukt auf Lieferung erfassen
 
 Öffnen Sie eine Lieferung via *Lager > Lieferaufträge* und klicken Sie auf *Rücklieferung*. Entfernen Sie im Dialog die Produkte, welche nicht zurückgeliefert wurde und geben Sie die Menge ein.
 
@@ -72,7 +78,7 @@ Auf den verknüpften Lieferungen des Verkaufsauftrag ist die Retoure ersichtlich
 
 ![](assets/Verkauf%20Versand%20Transfers%20mit%20Retoure.png)
 
-## Retoure Auslieferungsprodukt ohne Lieferung erfassen
+### Retoure Auslieferungsprodukt ohne Lieferung erfassen
 
 Das einlagerbare Auslieferungsprodukt muss für diesen Vorgang eine Lager-Route haben. Stellen Sie sicher, dass auf dem Produkt eine entsprechende Route definiert ist.
 

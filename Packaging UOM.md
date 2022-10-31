@@ -13,6 +13,8 @@ Mengeneinheit für Produktverpackung festlegen.
 Technischer Name: `sale_stock_picking_note`\
 Repository: <https://github.com/OCA/product-attribute/tree/14.0/packaging_uom>
 
-## Mengeneinheit auf Produktverpackung festlegen
+## Verwendung
+
+### Mengeneinheit auf Produktverpackung festlegen
 
 Öffnen Sie *Lager > Konfiguration > Produkte > Produkverpackungen* und zeigen Sie Produktverpackung an. Legen Sie Mengeneinheit unter *Verpackungseinheit* fest.

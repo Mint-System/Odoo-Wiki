@@ -12,7 +12,9 @@ Los aus eingehenden Lagerbuchungen an unreservierte Komponenten zuweisen.
 Technischer Name: `mrp_production_assign_lot`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_production_assign_lot>
 
-## Erweiterung konfigurieren
+## Verwendung
+
+### Erweiterung konfigurieren
 
 Mit dieser Erweiterung können Lot-Nummern aus Wareneingängen und Fertigungsaufträgen an unreservierte Komponenten zugewiesen werden. Setzen Sie die Option *Benutze vorhandene Los/Seriennummer* bei Vorgangstypen  vom Typ *Wareneingang* unter *Lager > Konfiguration > Vorgangstypen*. Damit können Sie auf Anlieferungen die Los-Nummer direkt festlegen:
 
@@ -22,7 +24,7 @@ Auf den Komponenten muss die Option *Nachverfolgung mittels Chargen* aktiviert s
 
 ![](assets/MRP%20Production%20Assign%20Lot%20Fertigungsauftrag.png)
 
-## Los zuweisen
+### Los zuweisen
 
 Mit dieser Erweiterung finden Sie auf Fertigungsaufträgen die Aktion *Los zuweisen*. Damit können Sie an jeder unreservierten Zeile eine Los-Nummer aus dem Wareneingang zuweisen.
 
@@ -32,7 +34,7 @@ Im Chatter wird die Zuweisung entsprechend vermerkt:
 
 ![](assets/MRP%20Production%20Assign%20Lot%20Chatter.png)
 
-## Los von erstem Backorder zuweisen
+### Los von erstem Backorder zuweisen
 
 Mit dieser Erweiterung wird das Los der der Arbeitsaufträge aus dem ersten Backorder auf die neuen Backorders übertragen.
 

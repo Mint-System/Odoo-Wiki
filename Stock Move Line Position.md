@@ -12,7 +12,9 @@ Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen.
 Technischer Name: `stock_move_line_position`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_move_line_position>
 
-## Positionsnummer anzeigen
+## Verwendung
+
+### Positionsnummer anzeigen
 
 Mit dieser Erweiterung werden Positionsnummern auf Transfers automatisch vom Verkaufs-, Einkaufs- oder Fertigungsauftrag verknüpft.
 

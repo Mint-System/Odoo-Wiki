@@ -12,7 +12,9 @@ Service-Benutzer von Lizenzvertrag ausschliessen.
 Technischer Name: `mail_service_users`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/mail_service_users>
 
-## Benutzer als Service-Benutzer festlegen
+## Verwendung
+
+### Benutzer als Service-Benutzer festlegen
 
 Mit dieser Erweiterung können Sie bestimmte Benutzer als *Service-Benutzer* markieren. Diese Benutzer werden vom Lizenzvertrag von Odoo augeschlossen. Sie dürfen diese Benutzer nicht als persönliches Login verwenden.
 

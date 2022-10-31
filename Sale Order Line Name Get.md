@@ -12,7 +12,9 @@ Produktname als Anzeigename für Verkaufspositionen.
 Technischer Name: `sale_order_line_name_get`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_name_get>
 
-## Produktname anzeigen
+## Verwendung
+
+### Produktname anzeigen
 
 Mit dieser Erweiterung wir der Produktname im Anzeigename für Verkaufspositionszeilen verwendet.
 

@@ -12,7 +12,9 @@ Arbeitsauftrag startet ohne erledigte Menge.
 Technischer Name: `mrp_workorder_set_producing_qty`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_workorder_set_producing_qty>
 
-## Arbeitsauftrag ohne erledigte Menge starten
+## Verwendung
+
+### Arbeitsauftrag ohne erledigte Menge starten
 
 Mit dieser Erweiterung wird ein Arbeitsauftrag immer ohne erledigte Menge gestartet. Der ausführende Benutzer muss die Menge explizit eingeben.
 

@@ -12,7 +12,9 @@ Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den V
 Technischer Name: `purchase_order_line_relay_price`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/purchase_order_line_relay_price>
 
-## Bester Einkaufspreis berechnen
+## Verwendung
+
+### Bester Einkaufspreis berechnen
 
 Diese Erweiterung rechnet für ein Produkt die möglichen Staffelpreise durch und benachrichtigt den Einkäufer mit Verbesserungsvorschlägen. Voraussetzung dafür ist, dass auf den Produkten mehrere Verkäufer hinterlegt sind:
 

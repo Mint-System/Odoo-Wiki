@@ -12,7 +12,9 @@ Setze Stichwörter auf dem Rahmenauftrag.
 Technischer Name: `sale_blanket_order_crm_tags`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_crm_tags>
 
-## Stichwörter auf Rahmenauftrag erfassen
+## Verwendung
+
+### Stichwörter auf Rahmenauftrag erfassen
 
 Ist diese Erweiterung installiert können Sie Stichwörter auf dem Rahmenauftrag erfassen. Öffnen Sie einen Auftrag via *Verkauf > Aufträge > Rahmenaufträge*.
 

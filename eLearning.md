@@ -10,13 +10,9 @@ Teilen Sie ihr Wissen mit der eLearning-Plattform.
 
 Website: <https://www.odoo.com/de_DE/app/elearning>
 
-## Leaderboard und Achievements ausblenden
+## Verwaltung
 
-Navigieren Sie zur ihrer Website und öffnen Sie die Kursseite. Wählen Sie *Bearbeiten* und klicken anschliessend auf *Anpassen*. Im geöffneten Menu können Leaderboards und Achievements deaktiviert werden.
-
-![](assets/eLearning%20Deaktivieren%20Leaderboard.png)
-
-## Kurs anlegen
+### Kurs anlegen
 
 Navigieren Sie zu ihrer Webiste und öffnen Sie die Kursseite. Klicken Sie auf *+ Neu > Neuer Kurs*. Geben Sie einen passenden Namen ein und fügen Sie ein passendes Bild hinzu.
 
@@ -41,13 +37,13 @@ Im gleichen Tab eine Option für *Einschreiberichtlinien* wählen:
 
 Damit Teilnehmer einen Portal-Benutzer erhalten, muss dieser erstellt werden.
 
-## Stichwörter anlegen
+### Stichwörter anlegen
 
 Navigieren Sie im Backend nach *eLearning > Konfiguration > Kurs-Stichwörter* und wählen Sie den ersten Eintrag und bearbeiten Sie diesen.
 
 Stichwörter können gruppiert werden, das heisst es gibt Stichwörter-Gruppen, die jeweils mehrere Stichwörter enthalten.
 
-## Kursinhalte anlegen
+### Kursinhalte anlegen
 
 Navigieren Sie im Backend nach *eLearning > Kurse > Wählen den Kurs > Tab Inhalt* und klicken auf *Einen Inhalt hinzufügen*. Sie haben diese Kursypen zur Auswahl:
 
@@ -59,17 +55,13 @@ Navigieren Sie im Backend nach *eLearning > Kurse > Wählen den Kurs > Tab Inhal
 * **Quiz**: Sie erfassen ein Quiz im entsprechenden Tab
 * **Zertifizierung**: Kopplung mit der App [Umfragen](Umfragen.md)
 
-## Kurs Inhalt freigeben
+### Kurs Inhalt freigeben
 
 Damit Kursteilnehmer den Kurs und die Inhalte sehen, muss dieser immer freigeben werden. Wählen Sie für den Inhalt *eLearning > Kurs > Inhalte* aus und klicken Sie auf *Gehe zu Website*. Publizieren Sie den Inhalt mit Button *Unveröffentlicht* oben rechts. Dasselbe funktioniert für Kurse.
 
 ![](assets/Website%20Inhalt%20ver%C3%B6ffentlicht.png)
 
-## Kursabsolventen anzeigen
-
-Die Absolventen eines Kurses sehen Sie unter *eLearning > Kurs auswählen* und auf Vorschau *Absolventen* anklicken. Hier werden alle Teilnehmer aufgelistet, die den Kurs absolviert haben.
-
-## Teilnehmer einladen
+### Teilnehmer einladen
 
 Jeder Kurs hat eine individuelle Teilnehmerliste. Wenn Sie unter *eLearning > Kurs auswählen* den Link *Teilnehmer* anklicken, erscheint eine Liste mit *Name* und *E-Mail*. Hier können Sie Tabellendatei mit den Teilnehmer importieren.
 
@@ -81,7 +73,7 @@ Die Einladungsmail sieht ungefwähr so aus:
 
 ![](assets/eLearning%20Einladungsmail.png)
 
-## Automatisch eingeschriebene Gruppen festlegen
+### Automatisch eingeschriebene Gruppen festlegen
 
 Ein Benutzer mit Zugriff auf den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) kann auf dem Kurs eine Gruppe hinterlegen, deren Mitglieder automatisch als Teilnehmer aufgeführt werden.
 
@@ -91,13 +83,24 @@ Ein Benutzer mit Zugriff auf den [Entwicklermodus](Einstellungen.md#Entwicklermo
 Jeder Teilnehmer erhählt eine Einladung via E-Mail.
 :::
 
-## Quiz hinzufügen
+### Quiz hinzufügen
 
 Im Tab *Quiz* eines Inhalts können Sie eine Frage mit mehreren Antworten erstellen. 
 
-## Zertifizierung erfassen
+### Zertifizierung erfassen
 
 Beim Abschluss einer Umfrage können den Teilnehmer Zertifikate vergeben werden. Navigieren Sie nach *eLearning > Kurse > Zertifizierungen*. Hier können Sie eine [Umfrage erstellen](Umfragen.md#Umfrage%20erstellen), die als Zertifizierung verfügbar ist.
 
 Die Zertifizierung kann als Inhaltstyp *Zertifizierung* mit einem Kursinhalt verknüpft werden.
 
+## Auswertung
+
+### Leaderboard und Achievements ausblenden
+
+Navigieren Sie zur ihrer Website und öffnen Sie die Kursseite. Wählen Sie *Bearbeiten* und klicken anschliessend auf *Anpassen*. Im geöffneten Menu können Leaderboards und Achievements deaktiviert werden.
+
+![](assets/eLearning%20Deaktivieren%20Leaderboard.png)
+
+### Kursabsolventen anzeigen
+
+Die Absolventen eines Kurses sehen Sie unter *eLearning > Kurs auswählen* und auf Vorschau *Absolventen* anklicken. Hier werden alle Teilnehmer aufgelistet, die den Kurs absolviert haben.

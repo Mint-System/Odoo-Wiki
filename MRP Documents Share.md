@@ -12,7 +12,9 @@ Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument.
 Technischer Name: `mrp_documents_share`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_documents_share>
 
-## Zeichnung und Step-Datei hinzufügen
+## Verwendung
+
+### Zeichnung und Step-Datei hinzufügen
 
 Erstellen Sie eine teilbaren Link zu ihrer Zeichung oder Step-Datei. Hier ein Beispiel mit Google Drive:
 
@@ -40,7 +42,7 @@ Falls das Produkt produziert wird, sehen Sie in der Workcenter-Tablet-Ansicht de
 
 ![](assets/MRP%20Documents%20Share%20Operation%20Drawing%20Link.png)
 
-## Alle Produktionsdokumente anzeigen
+### Alle Produktionsdokumente anzeigen
 
 Die hinterlegten Zeichnung und Step-Dateien können Sie auf einer Listenanischt anzeigen lassen. Navigieren Sie nach *Fertigung > Produkte > Produktionsdokumente*.
 

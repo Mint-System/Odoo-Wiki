@@ -10,11 +10,13 @@ Handscanner für Odoo.
 
 Website: <https://www.zebra.com/de/de/support-downloads/scanners/general-purpose-scanners/ds2200-series.html>
 
-## Handscanner in Betrieb nehmen
+## Verwendung
+
+### Handscanner in Betrieb nehmen
 
 Damit Sie den Hanscanner in Betrieb nehmen können, müssen Sie einzig die Tastatursprache festlegen. Wählen Sie *English (US)* als Sprachpaket.
 
-## Betriebsmodus ändern
+### Betriebsmodus ändern
 
 Verbinden Sie den Scanner mit dem Computer. Scannen einer der folgenden Codes um den Betriebsmodus zu ändern.
 

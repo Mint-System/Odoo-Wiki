@@ -12,11 +12,13 @@ Nur die Einkaufsbeschreibung in der Einkaufsposition übernehmen.
 Technischer Name: `purchase_order_line_description`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_line_description>
 
-## Erweiterung konfigurieren
+## Verwendung
+
+### Erweiterung konfigurieren
 
 Mit dem Systemparameter `purchase.order.line.hide_ref` können Sie festlegen, ob die Produktreferenz eingeblendet werden soll. Setzen Sie den Wert auf `True` um die Referenz einzublenden.
 
-## Nur Einkaufsbeschreibung übertragen
+### Nur Einkaufsbeschreibung übertragen
 
 Mit dieser Erweiterung wird beim Hinzufügen eins Produkts in einer Bestellung statt *Referenz + Name + Einkaufsbeschreibung* die folgende Formel angewendet:
 

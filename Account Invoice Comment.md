@@ -13,7 +13,9 @@ Kommentarfeld auf Rechnung.
 Technischer Name: `account_invoice_comment`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_invoice_comment>
 
-## Kommentar hinzufügen
+## Verwendung
+
+### Kommentar hinzufügen
 
 Öffnen Sie eine Rechnung via *Finanzen > Kunden > Rechnungen*. Im Tab *Weitere Informationen* finden Sie das Feld *Referenz*.
 

@@ -11,7 +11,9 @@ Erweiterung Lager für die Holzwirtschaft.
 Technischer Name: `forestry_stock`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-Forestry/tree/15.0/forestry_stock>
 
-## Lagerbuchungen validieren
+## Verwendung
+
+### Lagerbuchungen validieren
 
 Wenn Sie die Zeiterfassungseinträge validieren, wird unter folgenden Bedinungen eine Lagerbuchung erstellt:
 * Der Zeiterfassungseintrag ist mit einer Aufgabe verknüpft

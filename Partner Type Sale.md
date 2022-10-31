@@ -12,7 +12,9 @@ Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.
 Technischer Name: `partner_type_sale`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/partner_type_sale>
 
-## Verkaufsadresse festlegen
+## Verwendung
+
+### Verkaufsadresse festlegen
 
 Mit dieser Erweiterung erhalten Sie als zusätzlichen Adresstype *Verkaufsadresse*.
 

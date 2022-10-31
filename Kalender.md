@@ -8,13 +8,17 @@ prev: ./
 
 Termine Team- und Anwendungs-übergreifend organisieren.
 
-## Terminserie erstellen
+## Verwendung
+
+### Terminserie erstellen
 
 Auf jedem Odoo-Eintrag können Sie als Aktivität einen Termin erstellen. Dieser Termin kann auch eine Serie sein. Hier ein Beispiel wie man auf einem Kontakt-Eintrag eine Terminserie erstellt:
 
 ![Kalender Terminserie](assets/Kalender%20Terminserie.gif)
 
-## Versand Einladungen verhindern
+## Benachrichtigungen
+
+### Versand Einladungen verhindern
 
 Standardmässig versendet Odoo beim Hinzufügen von Teilnehmer an einen Termin an jeden Teilnehmer eine Einladung. Dieses Verhalten kann mit einer Einstellung in den Systemparameter verhindert werden.
 
@@ -24,7 +28,9 @@ Standardmässig versendet Odoo beim Hinzufügen von Teilnehmer an einen Termin a
 Werden Termine beispielsweise mit dem Google-Kalender synchronisiert, ist mit dieser Einstellung nicht ausgeschlossen, dass Google eine Einladungsmail verschickt.
 :::
 
-## Google-Kalender-Synchronisation einrichten
+## Verknüpfung
+
+### Google-Kalender-Synchronisation einrichten
 
 Wurde die Google-Kalender-Synchronisation in den Einstellungen aktiviert, können Sie ihren *Kalender* aufrufen und auf *Synchronsieren mit Google* klicken. Bestätigen Sie den Dialog mit *Ok*.
 

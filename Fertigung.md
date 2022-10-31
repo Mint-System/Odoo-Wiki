@@ -37,13 +37,9 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 | [MRP Workorder Set Producing Qty](MRP%20Workorder%20Set%20Producing%20Qty.md)                   | Arbeitsauftrag startet ohne erledigte Menge.                                     |
 | [Manufacture Production Move Date](Manufacture%20Production%20Move%20Date.md)                   | Lieferdatum auf Fertigungsauftrag bearbeiten.                                    |
 
-## Videos
+## Aufträge
 
-| Video                                                                                    |
-| ---------------------------------------------------------------------------------------- |
-| [Odoo Experience 2021 - What's New in MRP?](https://www.youtube.com/watch?v=xTXc_FV9kKU) |
-
-## BoM in Fertigungsauftrag neu laden
+### BoM in Fertigungsauftrag neu laden
 
 Mit dem Erstellen eines Fertigungsauftrags werden die Komponenten der Stückliste (BoM) als zu verwendendes Material übernommen. Falls die Stückliste zu einem späteren Zeitpunkt geändert wird, verändert sich der Fertigungsauftrag standardmässig nicht. Mit der folgend beschriebenen Funktion kann aber erreicht werden, dass der Fertigungsauftrag jederzeit mit der aktuellen Stückliste abgeglichen werden kann.
 
@@ -55,7 +51,9 @@ Die Server Aktion *Reload BoM* wird gemäss Beschreibung in [Aktion Fertigung Re
 Falls eine Stückliste leer ist (keine Komponenten) erscheint ein über MTO automatisch generierter Fertigungsauftrag im Status *Entwurf*. Falls die Stückliste Komponenten enthält, dann erscheint er im Status *Bestätigt*.
 :::
 
-## Hauptproduktionszeitplan anwenden
+## Planung
+
+### Hauptproduktionszeitplan anwenden
 
 Öffnen Sie *Fertigung > Planung > Hauptproduktionszeitplan* und fügen Sie ein Produkt und ein Kompenenten-Produkt hinzu. Im Filter *Zeilen* wählen sie:
 
@@ -73,7 +71,9 @@ Für das Komponenten-Produkt wird nun der *prognostizierter indirekter Bedarf* b
 
 Wählen Sie für jedes Produkt *Aufstocken* um einen Auftrag gemäss hinterlegter Route zu erstellen.
 
-## Mehrstufige Fertigung aktivieren
+## Routen
+
+### Mehrstufige Fertigung aktivieren
 
 Aktivieren Sie die Option *Mehrstufige Routen* unter *Einstellungen > Lager > Lager*. Anschliessen Zeiten Sie das Standardlager unter *Lager > Konfiguration > Lager* an und aktivieren im Tab *Lager Konfiguraiton* die Option *Zusammenstellen der Komponenten und dann fertigen (2ter Schritt)*. Nun steht die Route für die mehrstufige Fertigung bereit.
 

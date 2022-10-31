@@ -18,6 +18,8 @@ Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechn
 | [Sale Order Line Pos](Sale%20Order%20Line%20Pos.md)                   | Verkaufsaufträge mit Positionsnummern.                                        |
 | [Stock Move Line Position](Stock%20Move%20Line%20Position.md)         | Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen. |
 
-## Positionen auf Berichten anzeigen
+## Berichte
+
+### Positionen auf Berichten anzeigen
 
 Haben Sie die benötigten Erweiterungen installiert können Sie mit den Snippets von <https://odoo.build/snippets.html> mit Bezeichnung *Get Position* die Positionsnummer einblenden.

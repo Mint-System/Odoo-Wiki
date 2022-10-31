@@ -42,7 +42,7 @@ Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und kl
  
 Wählen Sie *Aktion* und *Passwort ändern*. Geben Sie im Feld *Neues Passwort* das neue Passwort ein.
 
-## Start-Aktion für Benutzer definieren
+### Start-Aktion für Benutzer definieren
 
 Wenn der Benutzer einloggt, kann eine Aktion ausgeführt werden. Diese Aktion legen Sie im Entwicklermodus unter *Einstellungen > Benutzer und Unternehmen > Benutzer > Benutzer auswählen > Tab Einstellungen* im Feld *Aktionen* fest.
 
@@ -52,7 +52,7 @@ Einige Aktionen haben den gleichen Namen, testen Sie die Auswahl vorgängig mit 
 
 ![](assets/Einstellungen%20Login%20Start-Aktion.png)
 
-## OAuth
+## Verknüpfung
 
 ### Automatisches Anmelden mit OAuth
 

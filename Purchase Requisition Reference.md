@@ -12,7 +12,9 @@ Feld Lieferantenreferenz auf Kaufvertrag hinzufügen.
 Technischer Name: `purchase_requisition_reference`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_reference>
 
-## Feld Lieferantenreferenz auf Kaufvertrag hinzufügen
+## Verwendung
+
+### Feld Lieferantenreferenz auf Kaufvertrag hinzufügen
 
 Mit diesem Modul erhält der Kaufvertrag ein Feld *Lieferantenreferenz*.
 

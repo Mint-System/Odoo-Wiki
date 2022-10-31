@@ -8,11 +8,13 @@ prev: ./entwicklung
 
 Odoo Ansichten anpassen.
 
-## Formularansicht bearbeiten
+## Ansichten
+
+### Formularansicht bearbeiten
 
 Rufen Sie die Formularansicht des Geschäftsobjekts auf und wählen Sie *Entwicklertools > Ansicht bearbeiten: Formular*.
 
-## Ansicht erstellen
+### Ansicht erstellen
 
 Öffnen Sie *Einstellung > Technisch > Ansichten* und legen Sie einen neuen Eintrag an. Im folgenden Beispiel erstellen Sie eine Listenansicht (Tree) für das Datenmodell *Basisimportzuordnung*.
 
@@ -33,7 +35,7 @@ So sollte es dann aussehen:
 
 ![](assets/Entwicklung%20Ansicht%20erstellen.png)
 
-## Ansicht Anhänge erstellen
+### Ansicht Anhänge erstellen
 
 Damit Sie eine Übersicht der Anhänte erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
 
@@ -49,13 +51,29 @@ Das Ergebnis sollte so aussehen:
 
 ![](assets/Entwicklung%20Ansicht%20Anhänge.png)
 
-## Ansichten verwalten
+### Ansichten verwalten
 
 Alle Listen, Formulare und Berichte werden von Odoo in einer Tabelle verwaltet. Diese können Sie via *Einstellungen > Technisch > Benutzer-Interface > Ansichten* anzeigen. 
 
 ![](assets/Entwicklung%20Ansichten%20verwalten.png)
 
-## Verfügbare Felder anzeigen
+### Ansicht entfernen
+
+Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Ansichten* und suchen Sie die entsprechende Ansicht. Markieren Sie diese und wählen Sie *Aktion > Löschen* oder *Aktion > Archiv*.
+
+::: warning
+Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
+:::
+
+### Standard-Ansicht definieren
+
+Beim Aufrufen einer Ansicht wird als erstes eine Aktion ausgeführt. Auf dieser Aktion ist definiert welche Ansicht (Liste, Kanban, Karte, ...) standardmässig angezeigt werden soll. Zum ändern rufen zeigen Sie eine Anischt an und wählen *Entwicklertools > Aktion bearbeiten*. Scrollen Sie nach unten und ändern Sie die Reihenfolge der Ansichten.
+
+![](assets/Ansicht%20Standard%20ändern.png)
+
+## Datenmodelle
+
+### Verfügbare Felder anzeigen
 
 Abhängig von der angezeigten Ansicht stehen Felder gemäss dem verknüpften Datenmodell zur Verfügung. Standardmässig werden nicht alle Felder angezeigt und bestimmte Felder müssen eingeblendet werden. Eine Übersicht der verfügbaren Felder erhalten Sie via *Entwicklertools > Felder anzeigen*.
 
@@ -65,7 +83,7 @@ Abhängig von der angezeigten Ansicht stehen Felder gemäss dem verknüpften Dat
 Hier finden Sie zu jedem Feld den technischen Name *Feldname*. Diesen Namen verwendet Odoo für die Programmierung.
 :::
 
-## Feld in Ansicht anzeigen
+### Feld in Ansicht anzeigen
 
 Damit ein neues Feld ersichtlich ist, muss es auf der entsprechenden Ansicht hingefügt werden. Rufen Sie im Entwicklermodus die Ansicht auf und wählen Sie *Entwicklertools > Ansicht bearbeiten: Liste. Suchen Sie hier den Feldnamen unter dem das neue Feld angezeigt werden soll. In unserem Beispiel verwenden wir den Feldnamen `state`.
 
@@ -90,7 +108,7 @@ Im Tab *Architektur* geben Sie die Anweisung zum Hinzufügen des Feldes ein:
 
 Speichern Sie die Ansicht und laden Sie die aktuelle Ansicht neu.
 
-## Feld in Ansicht ausblenden
+### Feld in Ansicht ausblenden
 
 Wiederholen Sie den Vorgang [Feld in Ansicht anzeigen](#Feld%20in%20Ansicht%20anzeigen), jedoch wird das ausgesuchte Feld mit diesem Snippet ausgeblendet:
 
@@ -106,21 +124,9 @@ Ansichtsbezeichnung: `mint_system.hr_holidays.hr_leave_view_tree.remove_payslip`
 </data>
 ```
 
-## Ansicht entfernen
+## Suche
 
-Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Ansichten* und suchen Sie die entsprechende Ansicht. Markieren Sie diese und wählen Sie *Aktion > Löschen* oder *Aktion > Archiv*.
-
-::: warning
-Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
-:::
-
-## Standard-Ansicht definieren
-
-Beim Aufrufen einer Ansicht wird als erstes eine Aktion ausgeführt. Auf dieser Aktion ist definiert welche Ansicht (Liste, Kanban, Karte, ...) standardmässig angezeigt werden soll. Zum ändern rufen zeigen Sie eine Anischt an und wählen *Entwicklertools > Aktion bearbeiten*. Scrollen Sie nach unten und ändern Sie die Reihenfolge der Ansichten.
-
-![](assets/Ansicht%20Standard%20ändern.png)
-
-## Filter manuell anlegen
+### Filter manuell anlegen
 
 Wählen Sie auf der Listenansicht *Entwicklertools > Filter verwalten* und klicken Sie auf *Anlegen*. Geben Sie diese Informationen ein:
 
@@ -132,7 +138,7 @@ Wählen Sie auf der Listenansicht *Entwicklertools > Filter verwalten* und klick
 * **Für Benutzer verfügbar**: Leer lassen damit Filter für alle Benutzer verfügbar ist
 * **Standardfilter**: Aktivieren wenn Filter beim Aufruf der Aktion angwendet werden soll
 
-## Standard-Filter für alle Benutzer festlegen
+### Standard-Filter für alle Benutzer festlegen
 
 Wenn Sie über Aktionen bestimmte Odoo-Ansichten aufrufen ist bereits ein Filter in der Suchmaske hinterlegt. Dieser Standard-Filter können Sie für alle Benutzer anpassen.
 
@@ -152,7 +158,7 @@ Können Sie entweder `my_question` mit `sent` im *Kontext Wert* der Aktion (*Ent
 Wenn Sie das Modul mit der Definition der Aktiona aktualisieren, wird das Feld *Wert aus Kontext* überschrieben und ihre Anpassungen gehen verloren. Falls das unter keinen Umständen passieren darf, müssen Sie Aktion duplizeren und in der Menüstruktur neu verknüpfen.
 :::
 
-## Domainfilter-Widget deaktivieren
+### Domainfilter-Widget deaktivieren
 
 Damit man für Filter dynamische Funktionen verwenden kann, muss die Ansicht zur Darstellung der Filter angepasst werden.
 
@@ -172,7 +178,7 @@ Architektur:
 </data>
 ```
 
-## Filter mit dynamischen Datum erstellen
+### Filter mit dynamischen Datum erstellen
 
 ::: warning
 Diese Aufgabe erfordert, dass Sie das [Domainfilter-Widget deaktivieren](#Domainfilter-Widget%20deaktivieren).

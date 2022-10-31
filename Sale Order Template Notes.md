@@ -12,7 +12,9 @@ Notizen auf Angebotsvorlage.
 Technischer Name: `sale_order_template_notes`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_template_notes>
 
-## Notizen hinzufügen
+## Verwendung
+
+### Notizen hinzufügen
 
 Mit dieser Erweiterung können Sie eine Header und eine Footer Notiz auf einer Angebotsvorlage hinzufügen. Öffnen Sie ddie Vorlage via *Verkauf > Konfiguration > Angebotsvorlage*. Im Tab *Notes* erfassen Sie die Notizen. Beim Erstellen eines Verkaufsauftrags werden die Notizen übertragen.
 

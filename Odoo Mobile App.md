@@ -14,7 +14,9 @@ Alle Odoo-Funktionen sind als mobile App verfügbar.
 | ------------------------------------- | -------------------------------- |
 | [mERP Mobile App](mERP%20Mobile%20App.md) | Alternative zur Odoo Mobile App. |
 
-## In App einloggen
+## Verwendung
+
+### In App einloggen
 
 Die Verwendung der App erfordert einen Odoo Account. Setze nach Bedarf das [Passwort zurücksetzen](Einstellungen.md#Passwort%20zur%C3%BCcksetzen) zurück.
 
@@ -30,6 +32,6 @@ Hat das Login funktioniert, sollten Sie diesen Bildschirm sehen:
 
 ![](assets/Odoo%20Mobile%20App%20Startbildschirm.jpg)
 
-## Konto wechseln oder neues hinzufügen
+### Konto wechseln oder neues hinzufügen
 
 Die Odoo App unterstützt mehrere Kontos. Wählen Sie das das Menü oben Rechts und anschliessend drücken Sie auf *Wechsle/Füge Konto hinzu*. Nun können zu einem bereits erfassten Konto wechsel oder über *+* ein neues Konto hinzufügen.

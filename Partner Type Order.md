@@ -12,7 +12,9 @@ Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.
 Technischer Name: `partner_type_order`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/partner_type_order>
 
-## Bestelladresse festlegen
+## Verwendung
+
+### Bestelladresse festlegen
 
 Mit dieser Erweiterung erhalten Sie als zusätzlichen Adresstype *Bestelladresse*.
 

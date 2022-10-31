@@ -12,7 +12,9 @@ Verpackung auf Strichcode-Vorgang anzeigen.
 Technischer Name: `stock_barcode_packaging`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_barcode_packaging>
 
-## Verpackung auf Strichcode-Vorgang anzeigen
+## Verwendung
+
+### Verpackung auf Strichcode-Vorgang anzeigen
 
 Mit dieser Erweiterung werden Verpackungen aus dem Verkaufsauftrag auf dem Vorgang in der *Strichcode* App angezeigt.
 

@@ -12,7 +12,9 @@ Kommentar auf Rahmenauftrag.
 Technischer Name: `sale_blanket_order_comment`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_comment>
 
-## Kommentar hinzufügen
+## Verwendung
+
+### Kommentar hinzufügen
 
 Öffnen Sie einen Rahmenauftrag via *Verkäufe > Aufträge > Rahmenaufträge*. Im Tab *Weitere Informationen* finden Sie das Feld *Kommentar*.
 

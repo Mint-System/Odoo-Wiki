@@ -8,7 +8,9 @@ prev: ./verkauf
 
 Verkaufsdaten immer aktuell.
 
-## Verkaufsaufträge in Pivot auswerten
+## Auswertung
+
+### Verkaufsaufträge in Pivot auswerten
 
 Zeigen Sie die Pivot-Ansicht unter *Verkauf > Berichtswesen > Verkauf* an. Angenommen Sie wollen die Verkaufsdaten nach diesen Kriterien filtern:
 
@@ -20,7 +22,7 @@ Wählen Sie ganz einfach die entsprechenden Felder:
 
 ![](assets/Verkauf%20Berichte%20Verkaufszeilen.png)
 
-## Auftragszeilen mit dynamischen Filter auswerten
+### Auftragszeilen mit dynamischen Filter auswerten
 
 Wenn Sie [Auftragszeilen anzeigen](Verkauf.md#Auftragszeilen%20anzeigen) können Sie in der Pivot-Ansicht einen [Filter mit dynamischen Datum erstellen](Entwicklung%20Ansichten.md#Filter%20mit%20dynamischen%20Datum%20erstellen). Verwenden Sie diese Paramter zur Konfiguration des Filters für die Auftragszeilen:
 

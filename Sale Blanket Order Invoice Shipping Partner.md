@@ -12,7 +12,9 @@ Liefer- und Rechnungsadresse auf Rahmenauftrag definieren.
 Technischer Name: `sale_blanket_order_invoice_shipping_partner`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_invoice_shipping_partner>
 
-## Liefer- und Rechnungsadresse festlegen
+## Verwendung
+
+### Liefer- und Rechnungsadresse festlegen
 
 Mit dieser Erweiterungen können Sie auf einem Rahmenauftrag eine Liefer- und Rechnungsadresse definieren.
 

@@ -9,7 +9,9 @@ prev: ./fertigung
 
 Fertigungs-Prozesse automatisieren.
 
-## Aktion  "Reload BoM" erstellen
+## Aktionen
+
+### Aktion  "Reload BoM" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -31,7 +33,9 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 Im Fertigungsauftrag erscheint nun in der Auswahl *Aktion* das Menu *Reload BoM*.
 
-## Automatische Aktion "Lot-Nummer generieren" erstellen
+## Automatische Aktionen
+
+### Automatische Aktion "Lot-Nummer generieren" erstellen
 
 Mit dieser automatischen Aktion wird bei der Bestätigung des Fertigungsauftrag automatisch eine Seriennummmer für das zu fertigende Produkt generiert.
 

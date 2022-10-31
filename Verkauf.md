@@ -45,17 +45,13 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                           | Produktset mit Notizen und Abschnitten.                                       |
 | [Sale Product Set](Sale%20Product%20Set.md)                                           | Produktsets definieren und einfach hinzufügen.                                |
 
-## Verkauf Dashboard anzeigen
+## Aufträge
+
+### Verkauf Dashboard anzeigen
 
 Öffnen Sie die App *Verkauf*. Hier sehen Sie alle offenen Angebote und Verkaufsaufträge.
 
-## Produkte zum Verkauf festlegen
-
-Öffnen Sie ein Produkt via *Verkauf > Produkte > Produkte* und markieren Sie *Kann verkauft werden*. Neue Optionen erscheinen auf der Produktansicht.
-
-![Produkte zum Verkauf deklarieren](assets/Produkte%20zum%20Verkauf%20deklarieren.gif)
-
-## Angebot erstellen
+### Angebot erstellen
 
 Erstellen Sie mit dem Knopf *Anlegen* ein neues Angebot. Befüllen Sie die Kopfdaten gemäss folgender Tabelle:
 
@@ -78,12 +74,12 @@ Wählen Sie die Line-Items aus den Produkt-Stammdaten gemäss folgender Tabelle:
 
 Für jedes Produkt zeigt der Bericht *Forecasted Report* eine detaillierte Übersicht bezüglich Verfügbarkeit. Zu- und Abgänge sowie potentielle Verkäufe werden berücksichtigt.
 
-## Angebot senden
+### Angebot senden
 
 Mit dem Knopf *Per E-Mail Versenden* erstellt das System automatisch einen e-Mail Entwurf mit dem Angebot als PDF-Attachment. Die Textnachricht ist als Template hinterlegt, kann aber editiert werden.
 Mit *Senden* wird die e-Mail gesendet und der Status ändert auf *Angebot Gesendet*.
 
-## Angebot bestätigen
+### Angebot bestätigen
 
 Das Angebot wird über folgende alternativen Aktionen zum Verkaufsauftrag:
 * Der Kunde bestätigt in der Kundenansicht (Kunden-Portal)
@@ -95,15 +91,17 @@ Die Option Einstellungen > Verkauf > Angebote und Aufträge > Angebotsvorlagen e
 
 Mit der Aktion *Per E-Mail Versenden* wird automatisch ein e-Mail Entwurf für das Versenden der Auftragsbestätigung generiert.
 
-## Auftrag abbrechen
+### Auftrag abbrechen
 
 Klicken Sie im Auftrag auf *Abbrechen* um den Auftrag in den Status *Abgebrochen* zu setzen. Damit gilt der Verkaufsauftrag als ungültig.
 
-## Auftrag zurücksetzen
+### Auftrag zurücksetzen
 
 Ist der Verkaufsauftrag im Status *Abgebrochen* können Sie ihn mit *Setze auf Angebot* in den Status *Angebot* zurücksetzen. Anschliessen können Sie das [Angebot bestätigen](#Angebot%20bestätigen) und haben wieder einen gültigen Verkaufsauftrag.
 
-## Rabatte hinzufügen
+## Auftragszeilen
+
+### Rabatte hinzufügen
 
 Soll ein Produkt mit einem Rabatt verkauft werden, so kann dieser je Auftragszeile manuell eingefügt werden.
 
@@ -113,11 +111,22 @@ Entsprechend wird der Rabatt auf der Rechnung ausgewiesen.
 
 ![](assets/Verkauf%20Ansicht%20Rabatt%20in%20der%20Rechnung.png)
 
-## Mindestbestellmenge festlegen
+### Mindestbestellmenge festlegen
 
 Für jedes Produkt in einer Preisliste kann eine Mindestbestellmenge definiert werden. Öffnen Sie *Verkauf > Produkte > Preislisten* und wählen Sie eine Preisliste aus. In der Spalte *Min. Bestellmenge* können Sie die Mindestbestellmenge eintragen.
 
-## Auftragszeilen anzeigen
+### Margen anzeigen
+
+Mit der aktivierten Option *Einstellungen > Verkauf > Margen* sehen Sie für jede Auftragszeile die Marge.
+
+![](assets/Verkauf%20Margen%20in%20Auftragszeilen.png)
+
+Die Berechnung der Margen ist `Zwischensumme - Kosten * Menge`. Diese Inputs können einem Angebot geändert werden.
+
+
+## Auswertung
+
+### Auftragszeilen anzeigen
 
 Damit Sie eine Übersicht der Auftragszeilen erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
 
@@ -133,21 +142,15 @@ Das Ergebnis sollte so aussehen:
 
 ![](assets/Verkauf%20Auftragszeilen.png)
 
-## Margen anzeigen
+## Kontakte
 
-Mit der aktivierten Option *Einstellungen > Verkauf > Margen* sehen Sie für jede Auftragszeile die Marge.
-
-![](assets/Verkauf%20Margen%20in%20Auftragszeilen.png)
-
-Die Berechnung der Margen ist `Zwischensumme - Kosten * Menge`. Diese Inputs können einem Angebot geändert werden.
-
-## Rechnungs- und Lieferadresse aktivieren
+### Rechnungs- und Lieferadresse aktivieren
 
 Für Angebote können Sie eine separate Rechnungs- und Lieferadresse festlegen. Aktivieren Sie die Option *Einstellungen > Verkauf > Angebote und Aufträge > Kundenadresse*. Anschliessend können Sie die Adresse auswählen.
 
 ![](assets/Verkauf%20Rechnungs-%20und%20Lieferadresse.png)
 
-## Kunde anhand Adresstyp auswählen
+### Kunde anhand Adresstyp auswählen
 
 Wenn Sie eine Rechnungs- oder Lieferadresse mit gleichen Anzeigename wie der Hauptkontakt gespeichert haben, können diese im Feld *Kunde* nicht unterschieden werden. Um sicherzustellen, dass die korrekte Adresse gewählt wurde, können Sie die [Rechnungsadresse in Anzeigenamen einblenden](Kontakte.md#Rechnungsadresse%20in%20Anzeigenamen%20einblenden) oder über die erweiterte Suche anzeigen:
 

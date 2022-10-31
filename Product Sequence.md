@@ -12,13 +12,15 @@ Produkreferenzen anhand einer Sequenz generieren lassen.
 Technischer Name: `product_sequence`\
 Repository: <https://github.com/OCA/product-attribute/tree/13.0/product_sequence>
 
-## Prefix festlegen
+## Verwendung
+
+### Prefix festlegen
 
 Navigieren Sie nach *Lager > Konfiguration > Produktkategorie* und wählen Sie eine Kategorie aus. Geben Sie den Prefix im Feld *Prefix for Product Internal Reference* ein. Wenn die Kategorie gespeichert wird, wird zugleich eine Sequenz angelegt.
 
 ![](assets/Product%20Sequence%20Prefix%20erstellt.png)
 
-## Produkt mit generierter Referenz erstellen
+### Produkt mit generierter Referenz erstellen
 
 Damit die Referenz beim Erstellen eines Produkts automatisch generiert wird müssen Sie eine Kategorie mit Prefix auswählen.
 

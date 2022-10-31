@@ -12,7 +12,9 @@ Projektanforderungen erfassen und verknüpfen.
 Technischer Name: `business_requirement`\
 Repository: <https://github.com/OCA/business-requirement/tree/14.0/business_requirement>
 
-## Projektanforderung erfassen
+## Verwendung
+
+### Projektanforderung erfassen
 
 Öffnen sie  die App *Business Requirement* und klicken sie auf *Anlegen*. Geben sie einen Titel ein und füllen sie die Felder wie nötig aus.
 

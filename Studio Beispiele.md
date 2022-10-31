@@ -8,7 +8,9 @@ prev: ./studio
 
 Beispiele für Anpassungen mit Odoo Studio.
 
-## IBAN und Bank auf Rechnung anzeigen
+## Beispiele
+
+### IBAN und Bank auf Rechnung anzeigen
 
 Standardmässig werden die Zahlungsinformationen nur bei konfigurierten ISR- und QR-Code-Einstellungen angzeigt. Falls Sie die der Rechnung hinterlegten Kontoinformationen anzeigen möchten können Sie das mit Studio einrichten.
 
@@ -45,7 +47,7 @@ Das Ergebnis sieht so aus:
 
 ![](assets/Odoo%20Studio%20IBAN%20und%20Bank%20auf%20Rechnung.png)
 
-## Dateianhang in Bericht anzeigen
+### Dateianhang in Bericht anzeigen
 Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
 ::: tip

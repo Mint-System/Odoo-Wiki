@@ -23,7 +23,9 @@ Jede Änderung mit Odoo Studio an einer Odoo-Instanz muss dokumentiert werden. D
 
 ![Studio Anpassungen dokumentieren](assets/Studio%20Anpassungen%20dokumentieren.gif)
 
-## Feld entfernen
+## Datenmodelle
+
+### Feld entfernen
 
 Möchten Sie ein Feld aus einer Ansicht entfernen, öffnen Sie zuerst die Ansicht in Odoo Studion. Anschliessend wählen Sie das Feld aus und klicken in der linken Menu-Leiste auf *Aus Ansicht entfernen*
 
@@ -31,7 +33,7 @@ Möchten Sie ein Feld aus einer Ansicht entfernen, öffnen Sie zuerst die Ansich
 Benutzerdefinierte Felder sowie Basisfelder werden nicht aus der Datenbank entfernt. Sie bestehen weiterhin und können der Ansicht wieder hinzugefügt werden.
 :::
 
-## Berechtigung auf verstecktem Feld festlegen
+### Berechtigung auf verstecktem Feld festlegen
 
 Bestimmte Felder und Buttons werden nur im Entwicklermodus also mit den erweiterten Berechtigungen angezeigt. Damit diese Felder und Buttons standardmässig angezeigt werden können, können Sie mit Odoo Studion ganz einfach die Berechtigung festlegen.
 
@@ -47,7 +49,9 @@ Damit dieser Button standardmässig angzeigt wird, geht man wie folgt vor:
 
 ![Studio Berechtigungen auf verstecktem Feld festlegen](assets/Studio%20Berechtigungen%20auf%20verstecktem%20Feld%20festlegen.gif)
 
-## Neue Ansichten hinzufügen
+## Ansichten
+
+### Neue Ansichten hinzufügen
 
 Odoo stellt Inhalte in verschiedenen Ansichten dar:
 * Listen
@@ -67,7 +71,7 @@ Schliessen Sie die Bearbeitung mit *Abschliessen* ab. Nun sehen Sie unter dem Su
 
 ![](assets/Studio%20Neue%20Ansicht.png)
 
-## Ansicht als Standard definieren
+### Ansicht als Standard definieren
 
 Beim Aufruf einer App oder eines Menu ruft Odoo die dazugehörige Standardansicht auf. Öffnen Sie beispielsweise die App Kontakte, erscheinen die Kontakte in der Listenansicht. Um dies zu ändern öffnen Sie die aktive Ansicht im Odoo Studio und wählen *Ansichten*.
 
@@ -75,7 +79,7 @@ Beim Aufruf einer App oder eines Menu ruft Odoo die dazugehörige Standardansich
 
 Wählen Sie die neue Standardansicht an und klicken auf das Menu und auf *Als Standard setzen*. Schliessen Sie den Vorgang ab.
 
-## Benutzerdefinierte App entfernen
+### Benutzerdefinierte App entfernen
 
 Eine App erstellt mit Odoo Studio generiert im Hintergrund Menüeinträge, Datenmodelle und Ansichten. Damit die App entfernt werden kann, müssen diese Einträge von Hand gelöscht werden. Gehen Sie folgt vor:
 
@@ -83,7 +87,9 @@ Eine App erstellt mit Odoo Studio generiert im Hintergrund Menüeinträge, Daten
 * [Menüeintrag entfernen](Entwicklung.md#Menüeintrag%20entfernen)
 * [Datenmodell entfernen](Entwicklung.md#Datenmodell%20entfernen)
 
-## Dezimalstellen festlegen
+## Datenbank
+
+### Dezimalstellen festlegen
 
 Wenn Sie ein Gleitkommazahl-Feld erstellen und in einer Ansicht einfügten, zeigt Odoo nur 2 Stellen nach dem Komma an. Damit mehr Stellen sichtbar werden, müssen Sie die XML-Struktur der Ansicht wie folgt anpassen.
 

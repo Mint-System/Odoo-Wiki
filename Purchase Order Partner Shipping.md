@@ -12,7 +12,9 @@ Alternative Lieferadresse für Bestellungen.
 Technischer Name: `purchase_order_partner_shipping`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_partner_shipping>
 
-## Alternative Lieferadresse festlegen
+## Verwendung
+
+### Alternative Lieferadresse festlegen
 
 Mit dieser Erweiterung können Sie auf Bestellung eine alternative Lieferadresse definieren. Zeigen Sie eine Bestellung unter *Einkauf* an und legen Sie im Feld *Lieferadresse* die alternative Lieferadresse fest.
 

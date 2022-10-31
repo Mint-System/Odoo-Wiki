@@ -18,7 +18,9 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | [Stock Critical Forecast Promised Agreed](Stock%20Critical%20Forecast%20Promised%20Agreed.md) | Erweitert den Bericht mit Mengen aus Rahmenauftrag und Kaufvertrag. |
 
-## Kritische Vorhersage anzeigen
+## Verwendung
+
+### Kritische Vorhersage anzeigen
 
 Mit dieser Erweiterung haben Sie Zugriff auf einen neuen Bericht, der das kritische Datum aus dem *Forecasted Report* für alle Produkte in Lieferungen und Fertigung anzeigt.
 
@@ -26,7 +28,7 @@ Mit dieser Erweiterung haben Sie Zugriff auf einen neuen Bericht, der das kritis
 
 ![Stock Critical Forecast](assets/Stock%20Critical%20Forecast.gif)
 
-## Geplante Aktion "Kritische Vorhersage berechnen" anpassen
+### Geplante Aktion "Kritische Vorhersage berechnen" anpassen
 
 Diese Erweiterung stellt eine geplante Aktion *Kritische Vorhersage berechnen* bereit, die täglich ausgeführt wird. Diese Aktion können Sie anpassen, beispielsweise mit Protokollierung:
 

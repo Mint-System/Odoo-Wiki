@@ -12,7 +12,9 @@ Daten aus QR-Code bei Rechnungsimport auslesen.
 Technischer Name: `l10n_ch_qr_bill_scan`\
 Repository: <https://github.com/OCA/l10n-switzerland/tree/14.0/l10n_ch_qr_bill_scan>
 
-## Rechnungsimport konfigurieren
+## Verwendung
+
+### Rechnungsimport konfigurieren
 
 Rufen Sie *Einstellungen > Abrechnung* auf legen Sie die gemäss Kontenplan die folgenden Einstellungen fest:
 
@@ -20,7 +22,7 @@ Rufen Sie *Einstellungen > Abrechnung* auf legen Sie die gemäss Kontenplan die 
 
 Mit der Option *Auto-create Bank Account of Supplier* können Sie festlegen, ob beim Importvorgang die Bankdaten des Lieferanten ausgelesen und ein entsprechendes Bankkonto angelegt werden soll.
 
-## QR-Rechnung importieren
+### QR-Rechnung importieren
 
 Mit dieser Erweiterung können Sie PDF-Rechnungen mit einem QR-Code importieren und die enthaltenen Daten auslesen lassen. Rufen Sie dazu *Abrechnung > Lieferanten > Rechnung importieren* auf und laden Sie das PDF-Dokument hoch.
 

@@ -19,14 +19,16 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-Forestry/tree/15.
 | [Forestry Stock](Forestry%20Stock.md)         | Erweiterung Lager für die Holzwirtschaft.             |
 | [Forestry Timesheet](Forestry%20Timesheet.md) | Erweiterung Zeiterfassung für die Holzwirtschaft.     |
 
-## Kontakt als Ort markieren
+## Verwendung
+
+### Kontakt als Ort markieren
 
 Zeigen Sie einen Kontakt via *Kontakte* an und aktivieren Sie die Checkbox *Ort*.
 
-## Lagerort-Link auf Kontakt einfügen
+### Lagerort-Link auf Kontakt einfügen
 
 Zeigen Sie einen Kontakt via *Kontakte* an und fügen Sie den Link im Feld *Lagerort-Link* ein.
 
-## Details auf Polter erfassen
+### Details auf Polter erfassen
 
 Zeigen Sie eine Polter via *Lager > Produkte > Produkte* an und erfassen Sie Details im unteren Bereich vom Tab *Allgemeine Informationen*.

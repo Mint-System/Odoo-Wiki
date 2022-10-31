@@ -13,7 +13,9 @@ Technischer Name: `impersonate`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/impersonate>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/impersonate/>
 
-## Impersonierung freigeben
+## Verwendung
+
+### Impersonierung freigeben
 
 Bei entsprechenden Berechtigungen kann sich ein Benutzer entweder als jeden beliebigen Benutzer ausgeben oder als einen bestimmten Benutzer anhand einer Auswahl. Richten Sie die Berechtigung wie folgt ein:
 
@@ -23,7 +25,7 @@ Bei entsprechenden Berechtigungen kann sich ein Benutzer entweder als jeden beli
 
 ![](assets/Impersonate%20Einstellungen.png)
 
-## Impersonierung ausführen
+### Impersonierung ausführen
 
 Über das Tray-Menu oben rechts, wählen Sie *Impersonate*. Wähle Sie den Benutzer aus klicken Sie auf *Impersonate*.
 

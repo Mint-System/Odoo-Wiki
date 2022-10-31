@@ -12,7 +12,9 @@ Kaufverträge mit Stichwörter.
 Technischer Name: `purchase_requisition_tag`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_tag>
 
-## Stichwörter hinzufügen
+## Verwendung
+
+### Stichwörter hinzufügen
 
 Mit dieser Erweiterung können Sie auf Kaufverträgen Stichwörter hinzufügen. Die Stichwörter werden auf Bestellungen übertragen.
 

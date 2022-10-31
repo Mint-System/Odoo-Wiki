@@ -12,7 +12,9 @@ Verlinkt Rechnungen und Transfers.
 Technischer Name: `stock_picking_invoice_link`\
 Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/stock_picking_invoice_link>
 
-## Verlinkte Rechnungen auf Lieferung anzeigen
+## Verwendung
+
+### Verlinkte Rechnungen auf Lieferung anzeigen
 
 Diese Erweiterung verknüpft Lieferungen und Rechnungen. Auf einer Lieferung finden Sie einen Smart-Link für den Zugriff auf die verlinkten Rechnungen.
 

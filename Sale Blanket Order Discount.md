@@ -12,7 +12,9 @@ Definiere einen Rabatt auf der Rahmenauftragszeile.
 Technischer Name: `sale_blanket_order_discount`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_discount>
 
-## Rabatt hinzufügen
+## Verwendung
+
+### Rabatt hinzufügen
 
 Ist diese Erweiterung installiert, können Sie auf einem Rahmenauftrag *Verkauf > Aufträge > Rahmenaufträge* Rabatte hinzufügen. Diese Rabatte werde auf auf den Verkaufsauftrag übertragen.
 

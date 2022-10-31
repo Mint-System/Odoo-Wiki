@@ -35,7 +35,9 @@ Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_blanket_order>
 | [Sale Blanket Order Stock Terms](Sale%20Blanket%20Order%20Stock%20Terms.md)                             | Lieferbedinungen auf dem Rahmenauftrag festlegen.                                                |
 | [Sale Blanket Order Template](Sale%20Blanket%20Order%20Template.md)                                     | Vorlagen für Rahmenaufträge.                                                                     |
 
-## Rahmenauftrag erstellen
+## Verwendung
+
+### Rahmenauftrag erstellen
 
 Rahmenaufträge werden unabhängig von Verkaufsaufträgen unter *Verkauf > Aufträge > Rahmenaufträge* erfasst. Klicken Sie dort auf *Anlegen* und erfassen Sie einen Auftrag mit diesen Feldern:
 
@@ -46,7 +48,7 @@ Fügen Sie anschliessend Produktzeilen hinzu und bestimmen Sie jeweils die vertr
 
 ![](assets/Sale%20Blanket%20Order%20Beispiel%20Rahmenauftrag.png)
 
-## Angebot aus Rahmenauftrag anlegen
+### Angebot aus Rahmenauftrag anlegen
 
 Öffnen Sie einen Rahmenauftrag via *Verkauf > Rahmenaufträge > Rahmenauftrag auswählen*. Klicken Sie auf *Verkaufsauftrag erstellen*, geben Sie im Dialog die  *Bestellmenge* ein und bestätigen Sie mit *Auftrag erstellen und anzeigen*.
 

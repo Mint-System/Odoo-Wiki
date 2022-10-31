@@ -13,7 +13,9 @@ Allow discount deduction on vendor bills.
 Technischer Name: `nivels_deduct_supplier_discount`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/nivels_deduct_supplier_discount>
 
-## Setup discount product
+## Usage
+
+### Setup discount product
 
 After installing the user has to create a discount product (see **Inventory**, **Products**) with the following information:
 
@@ -27,7 +29,7 @@ After installing the user has to create a discount product (see **Inventory**, *
 
 Finallly you can also configure the default accounts in the *Accounting* tab.
 
-## Setup payment term
+### Setup payment term
 
 After installing the user has to create a new payment term (see **Accounting**, **Configuration**, **Payment Terms**).
 
@@ -55,13 +57,13 @@ After adding all terms the user has to sort the lines by due date:
 
 ![](assets/Nivels%20Deduct%20Supplier%20Discount%20Due%20Dates.png)
 
-## Set default discount term for vendor
+### Set default discount term for vendor
 
 To set a default discount term on a vendor go to **Contacts** and selected the desired contact. In the **Sales & Purchase** tab the discount can be set.
 
 ![](assets/Nivels%20Deduct%20Supplier%20Discount%20Partner%20Term.png)
 
-## Create vendor invoice with discount
+### Create vendor invoice with discount
 
 Go to **Accounting**, **Vendors**, **Bills** and create a new vendor bill.
 
@@ -76,7 +78,7 @@ The following information are needed to deduct vendor discount:
 
 ![](assets/Nivels%20Deduct%20Supplier%20Discount%20Draft%20Invoice.png)
 
-## Filter and update invoice with discount
+### Filter and update invoice with discount
 
 Within the list of vendor bills the user has to choose **Filter** and then **Draft**.
 

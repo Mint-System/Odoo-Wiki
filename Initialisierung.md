@@ -8,7 +8,9 @@ prev: ./
 
 Richten Sie ihre Odoo-Umgebung ein.
 
-## Unternehmensdaten eintragen
+## Einstellungen
+
+### Unternehmensdaten eintragen
 
 Die Unternehmensdaten werden an vielen Stellen im System verwendet. Unter anderem für die Rechnung, für Angebote, für E-Mails und weiteres. Füllen Sie bitte diese Daten aus und verwenden Sie ein Logo mit folgenden Details:
 * Datenformat: JPG oder PNG
@@ -22,7 +24,9 @@ Benötigte Informationen:
 * IBAN Nummer
 * Unternehmensnummer, MwSt Nr. (wenn vorhanden)
 
-## Enterprise Abonnement aktivieren
+## Lizenz
+
+### Enterprise Abonnement aktivieren
 
 Beim ersten Login erscheint die Meldung, dass die Odoo-Installation nicht aktiviert ist. 
 

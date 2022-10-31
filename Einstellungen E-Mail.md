@@ -8,7 +8,9 @@ prev: ./einstellungen
 
 Odoo mit Plattformen von Dritten integrieren.
 
-## Ausgehender Mail-Server konfigurieren
+## Empfang
+
+### Ausgehender Mail-Server konfigurieren
 
 Damit Odoo Mail verschicken kann, muss ein ausgehender Mail-Server konfiguriert werden.
 
@@ -18,7 +20,37 @@ Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Fe
 Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladung, versendet Odoo die E-Mail im Namen des Unternehmens und verwendet dazu die E-Mail-Adresse aus den Unternehmenseinstellungen.
 :::
 
-## Ausgehender Mail-Server Office 365 konfigurieren
+### Eingehender Mail-Server Office 365 konfigurieren
+
+Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen (bis Odoo 14):
+
+* **Beschreibung**: Office 365 Incoming
+* **Servertyp**: IMAP Server
+* **Servername**: `outlook.office365.com`
+* **Port**: 993
+* **SSL/TLS**: Option markieren
+* **Benutzername**: Mail-Adresse des Odoo Postfach
+* **Passwort**: Passwort des Odoo Postfach
+
+Ab Odoo 15 müssen Sie lediglich diese Parameter wählen:
+
+* **Beschreibung**: Office 365 Incoming
+* **Outlook**: Option markieren
+* **Benutzername**: Mail-Adresse des Odoo Postfach
+
+Und anschliessen den E-Mail-Benutzer gemäss Hinweis authentisieren.
+
+## Versand
+
+### Eingehender Mail-Server konfigurieren
+Aufgabenträger: [Administrator](Rollen.md#Administrator)
+
+Damit Odoo Mails empfanen und verarbeiten kann, muss ein eingehender Mail-Server konfiguriert werden.
+
+Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten.
+
+
+### Ausgehender Mail-Server Office 365 konfigurieren
 
 Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen (bis Odoo 14):
 
@@ -44,34 +76,9 @@ Und anschliessen den E-Mail-Benutzer gemäss Hinweis authentisieren.
 Die Relay-Funktion von Odoo funktioniert mit Office 365 nicht. Sie müssen eine feste Absender-Adresse gemäss [Absender-Adresse überschreiben](#Absender-Adresse%20überschreiben) wählen.
 :::
 
-## Eingehender Mail-Server konfigurieren
-Aufgabenträger: [Administrator](Rollen.md#Administrator)
+## Konfiguration
 
-Damit Odoo Mails empfanen und verarbeiten kann, muss ein eingehender Mail-Server konfiguriert werden.
-
-Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten.
-
-## Eingehender Mail-Server Office 365 konfigurieren
-
-Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen (bis Odoo 14):
-
-* **Beschreibung**: Office 365 Incoming
-* **Servertyp**: IMAP Server
-* **Servername**: `outlook.office365.com`
-* **Port**: 993
-* **SSL/TLS**: Option markieren
-* **Benutzername**: Mail-Adresse des Odoo Postfach
-* **Passwort**: Passwort des Odoo Postfach
-
-Ab Odoo 15 müssen Sie lediglich diese Parameter wählen:
-
-* **Beschreibung**: Office 365 Incoming
-* **Outlook**: Option markieren
-* **Benutzername**: Mail-Adresse des Odoo Postfach
-
-Und anschliessen den E-Mail-Benutzer gemäss Hinweis authentisieren.
-
-## Catchall-Alias anpassen
+### Catchall-Alias anpassen
 
 Unter der Catchall-Mail-Adresse versendet Odoo Nachrichten. Auf diese Adresse können die Empfänger antworten und Odoo kann die eingegangenen Nachrichten verarbeiten.
 
@@ -83,7 +90,7 @@ Angenommen Sie geben als Wert `erp` ein, so ist die resultierende Absender-Aress
 Bestimmte Mail-Hoster erlauben keine Mail-Aliase für *catchall* und *no-reply*.
 :::
 
-## Absender-Adresse überschreiben
+### Absender-Adresse überschreiben
 
 Wenn Odoo eine E-Mail versendet, wird im E-Mail eine Von- und Antwort-Adresse hinterlegt. In den E-Mail-Kopfzeilen sieht das so aus:
 
@@ -103,7 +110,7 @@ Reply-To: "My Company" <catchall@example.com>
 ...
 ```
 
-## Antwort-Adresse mit Konfiguration von E-Mail-Vorlage überschreiben
+### Antwort-Adresse mit Konfiguration von E-Mail-Vorlage überschreiben
 
 Damit die Antwort-Adresse aus der Konfiguration der Mail-Vorlage übernommen wird, muss 
 der Eintrag `mail.catchall.domain` unter *Einstellungen > Technisch > Parameter > Systemparameter* entfernt werden.
@@ -112,7 +119,7 @@ In der E-Mail-Vorlage muss im Tab *E-Mail-Konfiguration* das feld *Antwort an* g
 
 ![](assets/Einstellungen%20E-Mail%20Konfiguration.png)
 
-## E-Mail nach Versand nicht löschen
+### E-Mail nach Versand nicht löschen
 
 Damit E-Mail nach dem Versand nicht aus der Odoo-Datenbank und dem Postfach gelöscht wird, können Sie in den E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > Vorlagen > Vorlage auswählen > Tab Erweiterte Einstellungen* die Option *Autom. Löschen* deaktivieren.
 

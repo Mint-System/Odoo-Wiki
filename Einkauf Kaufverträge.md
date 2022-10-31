@@ -22,7 +22,9 @@ Kaufverträge für Rahmenbestellungen erstellen.
 | [Purchase Requisition Tag](Purchase%20Requisition%20Tag.md)                                           | Kaufverträge mit Stichwörter.                                     |
 | [Purchase Requistion Notes](Purchase%20Requistion%20Notes.md)                                         | Kaufverträge mit Notizfelder.                                     |
 
-## Kaufvertrag anlegen
+## Verwaltung
+
+### Kaufvertrag anlegen
 
 Navigieren Sie nach *Einkauf > Aufträge > Kaufverträge*.
 

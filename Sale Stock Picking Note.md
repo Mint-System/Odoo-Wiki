@@ -12,7 +12,9 @@ Interne und externe Notiz für Lieferungen.
 Technischer Name: `sale_stock_picking_note`\
 Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_stock_picking_note>
 
-## Kommentar für Packvorgang und Lieferung hinterlassen.
+## Verwendung
+
+### Kommentar für Packvorgang und Lieferung hinterlassen.
 
 Zeigen Sie *Verkauf > Angebot auswählen > Tab Weitere Information* an. Hier finden Sie die zwei Felder *Picking Internal Note* und *Picking Customer Comments*.
 

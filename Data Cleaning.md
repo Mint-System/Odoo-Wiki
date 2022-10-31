@@ -8,7 +8,9 @@ prev: ./
 
 Die Datenqualität ganz einfach verbessern.
 
-## Duplikate in Kontakte bereinigen
+## Verwendung
+
+### Duplikate in Kontakte bereinigen
 
 Öffnen Sie *Data Cleaning > Konfiguration > Regeln > Deduplizierung* und zeigen Sie den Eintrag *Contact*. Hier können Sie einstellen unter welchen Bedingungen Kontakt-Einträge als Duplikate erkannt werden sollen.
 
@@ -24,7 +26,7 @@ Mit der Aktion *Zusammenführen* können Sie erkannten Duplikate bereinigt werde
 Der Bereinigungsvorgang berücksichtigt die Verknüpftung der Daten. In der Spalte *Verwendet bei* werden die verlinkten Objekte angezeigt.
 :::
 
-## Odoo Bot Mail-Adresse ändern
+### Odoo Bot Mail-Adresse ändern
 
 Der Odoo Bot verschickt unter der E-Mail-Adresse `odoobot@example.com` Informations-Mails zum System.
 

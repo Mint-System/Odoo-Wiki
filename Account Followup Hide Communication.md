@@ -12,7 +12,9 @@ Spalte Kommunikation in Mahnbericht ausblenden.
 Technischer Name: `account_followup_hide_communication`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.0/account_followup_hide_communication>
 
-## Spalte Kommunikation ausblenden
+## Verwendung
+
+### Spalte Kommunikation ausblenden
 
 Mit dieser Erweiterung wird die Spalte *Kommunikation* im Mahnbericht ausgeblendet.
 

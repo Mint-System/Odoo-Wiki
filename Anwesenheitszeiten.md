@@ -28,7 +28,9 @@ Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenhe
 
 ![Anwesenheitszeiten An- und Abmelden](assets/Anwesenheitszeiten%20An-%20und%20Abmelden.png)
 
-## Ausweis ID hinterlegen
+## Konfiguration
+
+### Ausweis ID hinterlegen
 
 Für jeden Mitarbeitenden kann eine Ausweis ID hinterlegt werden. Navigieren Sie dazu nach *Personal > Mitarbeitende auswählen > Tab HR Einstellungen*. Geben Sie im Feld *Ausweis ID* die gewünschte Nummer ein oder wählen Sie *Erzeugen.*
 
@@ -38,7 +40,7 @@ Für jeden Mitarbeitenden kann eine Ausweis ID hinterlegt werden. Navigieren Sie
 Die Ausweis ID ist ist für die Anmeldung im Kioskmodus relevant.
 :::
 
-## PIN Code für anmeldung festlegen
+### PIN Code für anmeldung festlegen
 
 Wenn Sie die Anmeldung der Anwesenheit mit einem PIN Code validieren möchten, können Sie diesen auf den Mitarbeitenden hinterlegen. Navigieren Sie dazu nach *Personal > Mitarbeitende auswählen > Tab HR Einstellungen*. Geben Sie den PIN im Feld *PIN Code* ein.
 
@@ -48,7 +50,9 @@ Wenn Sie die Anmeldung der Anwesenheit mit einem PIN Code validieren möchten, k
 Der PIN Code wird bei der Anmeldung über den Kioskmodus abgefragt.
 :::
 
-## Kioskmodus starten
+## Verwaltung
+
+### Kioskmodus starten
 
 Starten Sie den Kioskmodus von Odoo über *Anwesenheitszeiten > Kioskmodus*.
 
@@ -60,7 +64,7 @@ Mitarbeitende können nun ohne Odoo-Benutzer die Anwesenheit registrieren.
 Stellen Sie sicher, dass der verwendete Benutzer für den Kioskmodus eingeschränkte Berechtigungen hat.
 :::
 
-## Anwesenheit anmelden
+### Anwesenheit anmelden
 
 Navigieren Sie nach *Anwesenheitszeiten* und klicken Sie auf den Knopf *Anmelden*.
 
@@ -70,7 +74,7 @@ Es erscheint ein Willkommensgruss mit Angabe der Uhrzeit.
 
 ![Anwesenheitszeiten Bestätigung Anmeldung](assets/Anwesenheitszeiten%20Best%C3%A4tigung%20Anmeldung.png)
 
-## Anwesenheit abmelden
+### Anwesenheit abmelden
 
 Navigieren Sie nach *Anwesenheitszeiten* und klicken Sie auf den Knopf *Abmelden*.
 
@@ -80,7 +84,9 @@ Es erscheint eine Verabschiedung mit Angabe der geleisteten Arbeitszeit.
 
 ![Anwesenheitszeiten Bestätigung Abmeldung](assets/Anwesenheitszeiten%20Best%C3%A4tigung%20Abmeldung.png)
 
-## Anwesenheitszeiten anzeigen
+## Auswertung
+
+### Anwesenheitszeiten anzeigen
 
 Der kürzeste Weg zur Anzeige der rapportierten Arbeitszeit führt über *Mein Profil*.
 Navigieren Sie zum Knopf mit ihrem Namen auf dem Bildschirm oben rechts.
@@ -103,7 +109,7 @@ Mit dem Knopf *Werte* können Spalten ein- und ausgeblendet werden.
 Das detaillierte Protokoll der An- und Abmeldungen zeigt die Übersicht *Anwesenheitszeiten > Manager > Anwesenheitszeiten*. (Die Berechtigung Personalsachbearbeiter ist notwendig.)
 :::
 
-## Anwesenheitszeiten bearbeiten
+### Anwesenheitszeiten bearbeiten
 
 Mitarbeiter können standardmässig ihre Anwesenheitszeiten nachbessern. Dazu navigieren Sie über das Menu oben-rechts nach *Vorname Nachname > Mein Profil > Smart-Link XX.XX Stunden*. Hier werden die Checkins und Checkouts aufgelistet.
 
@@ -111,7 +117,7 @@ Um einen Eintrag zu bearbeiten, klick man entweder auf *Einchecken* oder *Abmeld
 
 ![](assets/Anwesenheitszeiten%20bearbeiten.png)
 
-## Zeitüberschreitungen filtern
+### Zeitüberschreitungen filtern
 
 Wenn Sie wissen möchten, welche Mitarbeitenden nicht korrekt ausgestempelt oder zu viel Zeit gestempelt haben, können Sie die Einträge via *Anwesenheitszeiten > Manager > Anwesenheitszeiten* filtern. Erstellen Sie einen Filter für das Feld *Arbeitsstunden*:
 
@@ -121,7 +127,9 @@ Natürlich können Sie die Auswertung auf ihrem Dashboard hinzufügen und sehen 
 
 ![](assets/Anwesenheitszeiten%20Dashboard.png)
 
-## Aktion "Überstunden aktualisieren" hinzufügen
+## Aktionen
+
+### Aktion "Überstunden aktualisieren" hinzufügen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 

@@ -12,7 +12,9 @@ Projekte nach Typ verwalten.
 Technischer Name: `project_type`\
 Repository: <https://github.com/OCA/project/tree/14.0/project_type>
 
-## Typ für Projekte und Aufgaben erfassen
+## Verwendung
+
+### Typ für Projekte und Aufgaben erfassen
 
 Navigieren Sie nach *Projekt > Konfiguration > Projekt Types* und erstellen Sie einen neuen Eintrag.
 

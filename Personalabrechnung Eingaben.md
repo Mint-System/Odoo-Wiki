@@ -8,7 +8,9 @@ prev: ./personalabrechnung
 
 Lohnabrechnungen mit variablen Eingaben.
 
-## Variable Eingaben mit Lohnart verbuchen
+## Abrechung
+
+### Variable Eingaben mit Lohnart verbuchen
 
 Um variable Eingaben in der Lohnzahlungen abzurechnen, müssen Sie diese Eingaben definieren und einer Lohnart hinterlegen. Bei der Abrechnung wird die Lohnart mitgerechnet.
 
@@ -32,7 +34,7 @@ Python Code: `result = inputs.QUELLEN.amount if inputs.QUELLEN else 0`
 
 Beim Berechnen werden variable Eingaben in der Lohnabrechnung miteinbezogen.
 
-## Lohnabzug Kurzarbeit konfigurieren
+### Lohnabzug Kurzarbeit konfigurieren
 
 Im Falle von Kurzarbeit kann man die variablen Abzüge mit einer neuen Eingabe und Lohnart geltend machen.
 
@@ -57,7 +59,7 @@ Habenkonto: `5000 Löhne`
 
 Speichern Sie die Lohnart,  fügen Sie einer ausgewählte Lohnabrechnung mit der zugehörigen Lohnstruktur eine Spesen-Eingabe hinzu und berechnen die Abrechnung neu.
 
-## Spesen als Zuwendung konfigurieren
+### Spesen als Zuwendung konfigurieren
 
 Spesen können als variable Eingabe in der Lohnabrechnung hinzugefügt werden. Navigieren Sie nach *Personalabrechnung > Konfiguration > Other Input Types*. Erstellen Sie dort einen Eintrag mit *Beschreibung* `Spesen` und *Code* `SPESEN`.
 
@@ -80,7 +82,7 @@ Habenkonto: `1098 Durchlaufkonto Löhne`
 
 Speichern Sie die Lohnart,  fügen Sie einer ausgewählte Lohnabrechnung mit der zugehörigen Lohnstruktur eine Spesen-Eingabe hinzu und berechnen die Abrechnung neu.
 
-## Lohnakonto mit Nachberechnung konfigurieren
+### Lohnakonto mit Nachberechnung konfigurieren
 
 Machen Sie Lohnabzüge nach Berechnung des Nettolohn, muss die Lohnabrechnung etwas umstrukturiert werden. Einerseits muss wieder ein variabler Lohntyp konfiguriert werden und anderer
 
@@ -111,7 +113,9 @@ Python Code: `result = categories.NET + categories.NBR`
 
 Und bei der Lohnart *Nettolohn* den Code auf `SUM` setzen (Code muss immer eindeutig sein).
 
-## 13er Monatslohn konfiguerieren
+## Lohnart
+
+### 13er Monatslohn konfigurieren
 
 Navigieren Sie nach *Personalabrechnung > Konfiguration > Other Input Types*. Erstellen Sie dort einen Eintrag mit *Beschreibung* `13er Monatslohn` und *Code* `BASIC13`.
 

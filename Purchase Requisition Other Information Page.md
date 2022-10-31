@@ -12,7 +12,9 @@ Fügt einen "Weitere Informationen" Tab der Formularansicht hinzu.
 Technischer Name: `purchase_requisition_other_information_page`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_other_information_page>
 
-## Tab "Weitere Informationen" anzeigen
+## Verwendung
+
+### Tab "Weitere Informationen" anzeigen
 
 Mit diesem Modul erhält der Kaufvertrag ein Tab "Weitere Informationen".
 

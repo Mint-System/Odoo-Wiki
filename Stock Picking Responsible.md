@@ -12,7 +12,9 @@ Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.
 Technischer Name: `stock_picking_responsible`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_picking_responsible>
 
-## Verantwortliche Person übertragen
+## Verwendung
+
+### Verantwortliche Person übertragen
 
 Ist diese Erweiterung installiert, wird die Verantworltiche Person des Verkaufsauftrags beim Bestätigen auf die Lieferung übertragen.
 

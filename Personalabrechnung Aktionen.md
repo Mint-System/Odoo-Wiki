@@ -9,7 +9,9 @@ prev: ./personalabrechnung
 
 Lohnabrechnung automatisieren.
 
-## Aktion "Lohnabrechnung zurücksetzen" hinzufügen
+## Aktionen
+
+### Aktion "Lohnabrechnung zurücksetzen" hinzufügen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -28,7 +30,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 Im Formular der Lohnbuchung erscheint nun in der Auswahl *Aktion* das Menu *Lohnabrechnung zurücksetzen*.
 
-## Aktion "Batch zurücksetzen" hinzufügen
+### Aktion "Batch zurücksetzen" hinzufügen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -46,6 +48,8 @@ for record in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 Im Formular der Batches erscheint nun in der Auswahl *Aktion* das Menu *Batch zurücksetzen*.
+
+## Automatische Aktionen
 
 ### Automatische Aktion "Lohnstuktur zuweisen" erstellen
 

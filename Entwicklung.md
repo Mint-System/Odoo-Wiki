@@ -26,19 +26,29 @@ Odoo mühelos anpassen und erweitern.
 | [Web Timeline](Web%20Timeline.md)               | Die Timeline-Ansicht für alle Objekte.          |
 | [Prometheus Exporter](Prometheus%20Exporter.md) | Odoo-Metriken mit Prometheus monitoren.         |
 
-## Assets-Bundel neu generieren
+## Konfiguration
 
-Wird Odoo im Browser angezeigt, werden sog. Assets im Hintergrund geladen (JavaScript-, SCSS- und CSS-Dateien). Diese Assets können nach einem Odoo-Update veraltet sein und müss neu generiert werden. Wählen Sie *Entwicklertool > Bündel von Assets regenerieren*.
+### Systemparameter anlegen
 
-![](assets/Entwicklung%20Assets-Bundel%20neu%20generieren.png)
+Öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und erstellen einen Eintrag mit *Schlüssel* und *Wert*.
 
-## Developer API Key generieren
+### Developer API Key generieren
 
 Damit Software von Dritten Zugriff auf die Daten von Odoo hat, ohne dass dabei das Passwort eines Benutzers geteilt werden muss, kann man einen Zugriffsschlüssel bereitstellen.
 
 Öffenen Sie die Sicherheitseinstellungen des eingeloggten Benutzers *Menu > Mein Profil > Tab Acccount Security* und klicken auf *New API Key*.
 
-## Menüeinträge umbennen
+## Ansichten
+
+### Assets-Bundel neu generieren
+
+Wird Odoo im Browser angezeigt, werden sog. Assets im Hintergrund geladen (JavaScript-, SCSS- und CSS-Dateien). Diese Assets können nach einem Odoo-Update veraltet sein und müss neu generiert werden. Wählen Sie *Entwicklertool > Bündel von Assets regenerieren*.
+
+![](assets/Entwicklung%20Assets-Bundel%20neu%20generieren.png)
+
+## Navigation
+
+### Menüeinträge umbennen
 
 Im Entwicklermodus können Sie ganz einfach Menüeinträge umbennen. Angenommen Sie möchten diesen Punkt umbennen:
 
@@ -50,11 +60,11 @@ Gehen Sie wie folgt vor. Navigieren Sie nach *Einstellungen > Technisch >  Benut
 
 Nachdem Sie den Browser-Tab aktualisiert haben, ist der Menüeintrag umbenannt.
 
-## Menüeintrag erstellen
+### Menüeintrag erstellen
 
 Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und wählen Sie *Anlegen*.
 
-## Menüeintrag entfernen
+### Menüeintrag entfernen
 
 Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und suchen Sie den entsprechende Menüeintrag. Markieren Sie diesen und wählen Sie *Aktion > Löschen* oder *Aktion > Archiv*.
 
@@ -62,7 +72,9 @@ Nachdem Sie den Browser-Tab aktualisiert haben, ist der Menüeintrag umbenannt.
 Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
 :::
 
-## Datenmodell entfernen
+## Datenmodelle
+
+### Datenmodell entfernen
 
 Öffnen Sie *Einstellungen > Technisch > Datenbankstruktur > Datenmodelle* und suchen Sie das entsprechende Datenmodell. Markieren Sie diesen und wählen Sie *Aktion > Löschen*.
 
@@ -70,17 +82,17 @@ Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitge
 Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
 :::
 
-## Metadaten anzeigen
+### Metadaten anzeigen
 
 Für jedes Geschäftsobjekt können Sie in der Einzelansicht die Metadaten anzeigen. Rufen Sie ein Odoo-Objekt im Entwicklermodus auf, beispielsweise einen Benutzer und klicken Sie auf *Entwicklertools > Metadaten anzeigen*.
 
 ![](assets/Entwicklung%20Metadaten%20anzeigen.png)
 
-## Externe IDs anzeigen
+### Externe IDs anzeigen
 
 Odoo speichert alle externen IDs in einer Tabelle. Öffnen Sie *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Externe Identifikationen*.
 
-## Externe ID erfassen
+### Externe ID erfassen
 
 Zeigen Sie einen beliebigen Datensatz in der Formularansicht an. Als Beispiel verwenden wir eine Ansicht. Entnehmen Sie anhand der Url die *ID* und das *Datenmodell*.
 
@@ -101,7 +113,7 @@ Ist die *Externe Identifikation* gespeichert, wird Sie auf Datensatz angezeigt.
 
 ![](assets/Entwicklung%20Externe%20Ansicht%20Beispiel.png)
 
-## Neues Feld hinzufügen
+### Neues Feld hinzufügen
 
 An jedem Objekt kann an einfach ein Feld hinzugefügt werden. Öffnen Sie eine Ansicht im Entwicklermodus und wählen Sie *Entwicklertools > Felder anzeigen*. Wählen Sie *+ Anlegen* und geben Sie folgende Informationen ein:
 
@@ -113,7 +125,7 @@ Dazu ein Beispiel mit [Abwesenheitszeiten](Abwesenheitszeiten.md):
 
 ![](assets/Entwicklung%20Neues%20Feld%20auf%20Abwesenheitszeiten.png)
 
-## Neues berechnetes Feld hinzufügen
+### Neues berechnetes Feld hinzufügen
 
 Wir nehmen an, dass Sie auf der Lagerbechnung ein berechnetes Feld benötigen. Dieses Feld soll die Anzahl Kisten berechnen, die es braucht um das Produkt zu verpacken. Immer wenn die *Erledigte Menge* ändert, soll das Feld berechnet werden.
 
@@ -142,7 +154,7 @@ Dieser Code berechnet abhängig von der gewählten Verpackung und deren Füllmen
 
 ![](assets/Entwicklung%20Berechnetes%20Feld.png)
 
-## Neues Beziehungs-Feld hinzufügen
+### Neues Beziehungs-Feld hinzufügen
 
 Wir nehmen an, dass Sie auf der Auftragsposition ein Beziehungs-Feld benötigen. Dieses Feld soll die Kundenreferenz auf dem zugehörigen Verkaufsauftrag anzeigen.
 
@@ -160,7 +172,3 @@ Erstellen Sie ein neues Feld unter *Einstellungen > Technisch > Datenbankstruktu
 ![](assets/Entwicklung%20Neues%20Beziehungs-Feld%20hinzufügen.png)
 
 Dieses Feld können Sie nun in Berichten oder Listenansichten anzeigen.
-
-## Systemparameter anlegen
-
- Öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und erstellen einen Eintrag mit *Schlüssel* und *Wert*.

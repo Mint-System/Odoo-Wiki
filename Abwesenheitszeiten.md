@@ -21,13 +21,29 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 | [HR Holidays Remaining Leaves](HR%20Holidays%20Remaining%20Leaves.md)                     | Verbleibende Anwesenheitsansprüche der Mitarbeitenden anzeigen.                                                    |
 | [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement. |
 
-## Abwesenheitstypen erfassen
+## Konfiguration
+
+### Abwesenheitstypen erfassen
 
 Jede Abwesenheit und Abwesenheitsanspruch wird einem Abwesenheitstyp zugeordnet. Damit Sie jährliche Feriensaldis korrekt erfassen, müssen Sie für jedes Jahr einen Abwesenheitstyp erfassen. Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und duplizieren Sie einen bestehenden Typ. Legen Sie im Bereich *Gültigkeit* das Von- und Bis-Datum fest. Dazu ein Beispiel:
 
 ![](assets/Abwesenheitszeiten%20Übersicht%20Abwesenheitstypen.png)
 
-## Abwesenheitsanspruch melden
+### Abwesenheitstyp konfigurieren
+
+Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Wählen Sie hier den Abwesenheitstyp aus und bearbeiten Sie diesen gemäss den Anforderungen.
+
+## Verworfene Abwesenheiten auf Dashboard ausblenden
+
+Auf der Dashboard-Ansicht von *Abwesenheiten* werden alle Abwesenheiten unabhängig ihres Status angezeigt. Um Abwesenheiten im Zustand *Verworfen* auszublenden, wählen Sie *Entwicklertools > Aktion bearbeiten*. Überschreiben Sie das Feld *Wertebereich* mit dem Wert `[('user_id', '=', uid),('state', 'not in', ['refuse'])]`. Laden Sie den Browser-Tab neu.
+
+::: warning
+Diese Anpassung geht bei der Aktualisierung oder Neuinstallation des Abwesenheits-Moduls verloren.
+:::
+
+## Vorgänge
+
+### Abwesenheitsanspruch melden
 
 Damit Sie Anspruch auf Abwesenheit haben, müssen Sie diesen Anspruch geltend machen. Öffnen Sie die App *Abwesenheitszeiten* und wählen Sie *Neuer Abwesenheitsanspruch*. Wählen Sie den Typ, die Anzahl Tage und fügen Sie eine Beschreibung hinzu.
 
@@ -35,7 +51,7 @@ Damit Sie Anspruch auf Abwesenheit haben, müssen Sie diesen Anspruch geltend ma
 
 Schliessen Sie den Dialog nach *Speichern*.
 
-## Abwesenheitsanspruch validieren
+### Abwesenheitsanspruch validieren
 
 Wenn Sie eine Mail zur Validierung eines Abwesenheitsanspruches erhalten, können Sie direkt auf den Link klicken.
 
@@ -55,7 +71,7 @@ Mitarbeitende erhalten nach der Validierung eine entsprechende Mail.
 Odoo versendet keine Nachrichten, wenn die Genehmigung alls Massenbearbeitung erfolgt.
 :::
 
-## Abwesenheitsanspruch anpassen
+### Abwesenheitsanspruch anpassen
 
 Wenn Sie einen genehmigten Abwesenheitsanspruch anpassen wollen, wählen Sie diesen aus *Abwesenheitszeiten > Vorgesetzte > Abwesenheitsansprüche* und klicken auf *Ablehnen*. Anschliessend klicken Sie auf *Zurücksetzen* und bearbeiten den Anspruch.
 
@@ -63,7 +79,7 @@ Wenn Sie einen genehmigten Abwesenheitsanspruch anpassen wollen, wählen Sie die
 Damit die Aktion *Zurücksetzen* ausgewählt werden kann, muss Ihr Odoo-Benutzer die Rolle *Abwesenheitszeiten: Administrator* haben.
 :::
 
-## Abwesenheit melden
+### Abwesenheit melden
 
 Öffnen Sie die App *Abwesenheitszeiten* und wählen Sie *Neuer Abwesenheitsantrag*. Geben Sie den Typ und die Dauer ein.
 
@@ -79,7 +95,7 @@ Wurde die Abwesenheit genehmigt, sehen Sie die verleibenden Tage des Abwesenheit
 Abwesenheitseinträge, die im Zustand *Zur Genehmigung* sind, können nicht mehr gelöscht werden.
 :::
 
-## Abwesenheit validieren
+### Abwesenheit validieren
 
 Nach demselben Verfahren wie [Abwesenheitsanspruch validieren](#Abwesenheitsanspruch%20validieren) können Sie Abwesenheiten validieren. Sie erhalten entweder eine Mail oder sehen die zugewiesene Odoo-Aktivität.
 
@@ -87,19 +103,17 @@ Nach demselben Verfahren wie [Abwesenheitsanspruch validieren](#Abwesenheitsansp
 
 Klicken Sie auf den Link und validieren Sie die Abwesenheit.
 
-## Abwesenheitstyp konfigurieren
-
-Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Wählen Sie hier den Abwesenheitstyp aus und bearbeiten Sie diesen gemäss den Anforderungen.
-
-## Abwesenheit entfernen
+### Abwesenheit entfernen
 
 Wurde eine Abwesenheit einmal erfasst, kann Sie nicht mehr gelöscht werden (asser vom Administator). Möchte man dennoch eine Abwesenheit entfernen, muss der Vorgesetzte diese ablehnen. Im Status *Verworfen* wird der Kalendereintrag des Mitarbeiters entfernt..
 
-## Verantwortliche festlegen
+### Verantwortliche festlegen
 
 Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen Sie den Tab *Arbeitsinformationen* und wählen Sie *Bearbeiten*. Tragen Sie den Vorgesetzen im Feld *Abwesenheitszeiten* ein. Standardmässig wird der *Manager* übernommen.
 
-## Aktion "Ablehnen" erstellen
+## Aktionen
+
+### Aktion "Ablehnen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -117,11 +131,3 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 In der Liste der Abwesenheitszeiten erscheint nun in der Auswahl *Aktion* das Menu *Ablehnen*.
 
 ![](assets/Aktionen%20Abwesenheitszeiten%20Ablehnen.png)
-
-## Verworfene Abwesenheiten auf Dashboard ausblenden
-
-Auf der Dashboard-Ansicht von *Abwesenheiten* werden alle Abwesenheiten unabhängig ihres Status angezeigt. Um Abwesenheiten im Zustand *Verworfen* auszublenden, wählen Sie *Entwicklertools > Aktion bearbeiten*. Überschreiben Sie das Feld *Wertebereich* mit dem Wert `[('user_id', '=', uid),('state', 'not in', ['refuse'])]`. Laden Sie den Browser-Tab neu.
-
-::: warning
-Diese Anpassung geht bei der Aktualisierung oder Neuinstallation des Abwesenheits-Moduls verloren.
-:::

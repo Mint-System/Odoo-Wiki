@@ -29,11 +29,13 @@ Website: <https://www.odoo.com/de_DE/app/employees>
 
 > Odoo unterscheidet zwischen Benutzer und Mitarbeiter. Mitarbeiter müssen nicht zwingend einen Odoo-Account besitzen. Zur Verwendung von Apps wie die Zeiterfassung muss den Benutzern ein Mitarbeiter hinterlegt werden.
 
-## Abteilungen anzeigen
+## Organisation
+
+### Abteilungen anzeigen
 
 Navigieren Sie nach *Personal > Abteilungen*.
 
-## Mitarbeiter erfassen
+### Mitarbeiter erfassen
 
 Navigieren Sie nach *Personal* und wählen Sie *+ Anlegen*. Geben Sie den Vor- und Nachnamen des Mitarbeiters ein und öffnen Sie den Tab *HR Einstelungen*. Wählen Sie unter *Verknüpfter Benutzer* einen bestehenden Benutzer aus, falls der Mitarbeiter Zugriff auf Odoo haben soll.
 
@@ -43,23 +45,33 @@ Alternativ können Sie nach *Einstellungen > Benutzer > Benutzer verwalten* navi
 
 ![](assets/Peresonal%20Smart-Link%20Mitarbeiter.png)
 
-## Vorgesetzte hinterlegen
+### Vorgesetzte hinterlegen
 
 Damit Prozesse korrekt Ablaufen, muss die *Organisations-Charta* konfiguriert werden. Öffnen Sie den Mitarbeitenden via *Personal* und wählen im Feld *Manager* den Vorgesetzten aus. Die Visualisierung der Organisationsstruktur wird aktualisiert, sobald die Anpassung gespeichert ist.
 
-## Private Adresse hinterlegen
+## Benutzer mit Mitarbeiter verknüpfen
+
+Sie können einen bestehenden Benutzer mit einem Mitarbeitenden-Eintrag verknüpfen. Zeigen Sie den Eintrag via *Personal* an und öffnen Sie den Tab *HR Einstellungen*. Wählen Sie hier im Feld *Verknüpfter Benutzer* den entsprechenden Benutzer aus.
+
+![](assets/Personal%20Verknüpfter%20Benutzer.png)
+
+## Adressen
+
+### Private Adresse hinterlegen
 
 Bestimmte Unterlagen wie die Lohnabrechnung werden an die private Adresse des Mitarbeiters versandt. Dafür gibt es ein entsprechendes Feld in der Mitarbeiter-Ansicht.
 
 Erstellen Sie eine private Adresse folgendermassen: *Personal > Mitarbeiter auswählen > Tab Private Information > Bearbeiten* und legen Sie private Adresse im Feld *Adresse* fest.
 
-## Arbeitspensum festlegen
+## Arbeitszeit
+
+### Arbeitspensum festlegen
 
 Um das Arbeitspensum für einen Mitarbeiter zu ändern, öffnen Sie das App *Personal* und wählen den Mitarbieter aus. Wählen Sie *Bearbeiten* und legen Sie im Tab *Arbeitsinformation* unter *Ausführungsplan* die *Arbeitsstunden* fest.
 
 ![](assets/Personal%20Arbeitsstunden.png)
 
-## Arbeitspensum wechseln
+### Arbeitspensum wechseln
 
 ::: tip
 Heute ist es die Norm, dass Mitarbeiter unterhalb des Jahres ein Arbeitspensum reduzieren oder erhöhen können. Es muss sichergestellt werden, dass die Entlohnung, Feriensaldos und Überstunden entsprechend angepasst werden.
@@ -71,16 +83,14 @@ Erstellen Sie eine neues Pensum *Personal > Mitarbeiter auswählen > Tab Arbeits
 
 ![](assets/Personal%20Arbeitszeiten%20mit%20Enddatum.png)
 
-## Mitarbeiteraustritt ausführen
+## Offboarding
+
+### Mitarbeiteraustritt ausführen
 
 Ein Mitarbeiteraustritt bedeutet für Odoo eine Archivierung des Mitarbeitenden in der *Personal* App. Wählen Sie den/die Mitarbeitenden unter *Personal* aus und klicken auf *Aktion > Archiv*. Zusammenhängende Ressourcen zum Personaleintrag werden mit dier Aktion ebenfalls archiviert.
 
-## Neue Berechtigungsgruppe Personalmanager anlegen
+## Berechtigung
+
+### Neue Berechtigungsgruppe Personalmanager anlegen
 
 Gehen Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und erstellen Sie eine Kopie von *Personal / Personalsachbearbeiter*. Geben Sie als Namen *Personalmanager* ein und entfernen Sie die Einträge im Tab *Benutzer*, *Vererbt*, *Menüs* und *Rechte für Daten*. Benutzer in dieser Gruppe erhalten Zugriff auf Aktivitäten auf dem Mitarbeiter-Objekt.
-
-## Benutzer mit Mitarbeiter verknüpfen
-
-Sie können einen bestehenden Benutzer mit einem Mitarbeitenden-Eintrag verknüpfen. Zeigen Sie den Eintrag via *Personal* an und öffnen Sie den Tab *HR Einstellungen*. Wählen Sie hier im Feld *Verknüpfter Benutzer* den entsprechenden Benutzer aus.
-
-![](assets/Personal%20Verknüpfter%20Benutzer.png)

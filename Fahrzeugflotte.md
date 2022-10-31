@@ -19,22 +19,24 @@ Website: <https://www.odoo.com/de_DE/app/fleet>
 | [HR Vehicle Request](HR%20Vehicle%20Request.md)                     | Fahrzeuganfragen für Mitarbeitende verwalten.        |
 | [HR Vehicle Request Calendar](HR%20Vehicle%20Request%20Calendar.md) | Kalenderansicht und Terminbestätigung für Fahrzeuganfragen.                                                     |
 
-## Fahrzeug erfassen
+## Verwendung
+
+### Fahrzeug erfassen
 
 Zeigen Sie *Fahrzeugflotte* an und erstellen Sie einen neuen Eintrag.
 
-## Tachometer-Eintrag erfassen
+### Tachometer-Eintrag erfassen
 
 Rufen Sie ein Fahrzeug und *Fahrzeugflotte* auf und wählen Sie den Smart-Link *Tachometer*. Erstellen Sie einen neuen Eintrag.
 
-## Fahrzeugvertrag erfassen
+### Fahrzeugvertrag erfassen
 
 Navigieren Sie nach *Fahrzeugflotte > Fahrzeuge > Fahrzeugverträge* und erstellen Sie einen neuen Eintrag.
 
-## Status der Fahrzeuge konfigurieren
+### Status der Fahrzeuge konfigurieren
 
 Zeigen Sie *Fahrzeugflotte > Konfiguration > Fahrzeugzustand* an. Verwalten Sie hier die Kanban-Stufen zum Zustand der Fahrzeuge.
 
-## Vertragstypen konfigurieren
+### Vertragstypen konfigurieren
 
 Zeigen Sie *Fahrzeugflotte > Konfiguration > Vertragstypen* an. Verwalten Sie hier die Typen der Fahrzeugverträge.

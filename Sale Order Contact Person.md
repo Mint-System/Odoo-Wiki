@@ -12,7 +12,9 @@ Kontaktperson auf Verkaufsauftrag festlegen.
 Technischer Name: `sale_order_contact_person`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_contact_person>
 
-## Kontaktperson hinzufügen
+## Verwendung
+
+### Kontaktperson hinzufügen
 
 Öffnen Sie *Verkauf* und wählen Sie einen Verkaufsauftrag aus. Im Feld *Contact Person* können Sie einen bliegen Kontakt als Kontaktperson festlegen.
 

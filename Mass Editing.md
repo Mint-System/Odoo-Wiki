@@ -12,7 +12,9 @@ Mühelos mehrere Einträge auf einmal bearbeiten.
 Technischer Name: `mass_editing`\
 Repository: <https://github.com/OCA/server-ux/tree/13.0/mass_editing>
 
-## Aktion hinzufügen
+## Verwendung
+
+### Aktion hinzufügen
 
 Navigieren Sie nach *Einstellungen > Mass Operations > Massenverarbeitung* und klicken auf *Anlegen*.
 

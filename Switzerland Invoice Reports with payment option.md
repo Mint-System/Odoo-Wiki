@@ -12,7 +12,9 @@ Rechnung mit ISR- und/oder QR-Zahlung drucken.
 Technischer Name: `l10n_ch_invoice_reports`\
 Repository: <https://github.com/OCA/l10n-switzerland/tree/14.0/l10n_ch_invoice_reports>
 
-## Rechnung mit QR-Zahlung drucken
+## Verwendung
+
+### Rechnung mit QR-Zahlung drucken
 
 Mit dieser Erweiterung können Sie die Rechnung inklusive QR-Zahlung in einem Dokument drucken. Öffnen Sie eine Rechnung via *Finanzen > Kunden > Rechnungen* und klicken Sie auf *Drucken*.
 

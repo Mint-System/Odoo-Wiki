@@ -13,7 +13,9 @@ Kontakte aus Verkaufsauftrag auf Rechnung kopieren.
 Technischer Name: `sale_invoice_prepare_partner`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/sale_invoice_prepare_partner>
 
-## Auftragskontakte auf Rechnung kopieren
+## Verwendung
+
+### Auftragskontakte auf Rechnung kopieren
 
 Mit dieser Erweiterung werden beim Erstellen einer Rechnung aus einem Verkaufsauftrag die Kontakte kopiert.
 

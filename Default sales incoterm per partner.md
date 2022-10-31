@@ -12,7 +12,9 @@ Standardlieferbedingungen für Kunden.
 Technischer Name: `sale_partner_incoterm`\
 Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_partner_incoterm>
 
-## Standard-Lieferbediengungen festlegen
+## Verwendung
+
+### Standard-Lieferbediengungen festlegen
 
 Für jeden Kunden können Lieferbedingungen (gemäss Incoterms) für Verkäufe festgelegt werden. Navigieren Sie dazu nach *Kontakt > Kunde auswählen > Tab Verkauf & Einkauf*. Sofern der Kontakt als Kunde registriert ist, kann man hier die Standard Lieferbedingungen festlegen.
 

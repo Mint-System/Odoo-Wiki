@@ -8,7 +8,21 @@ prev: ./lager
 
 Den Lagerbestand optimal verwalten.
 
-## Meldebestand erfassen
+## Bestand
+
+### Reservierter Bestand zurücksetzen
+
+Für jeden Lagerort wird ein Bestand geführt *Lager > Konfiguration > Lagerorte > Lagerort auswählen > Smart-Link Bestand*. Wenn Sie die [Aktion Reservierter Bestand zurücksetzen erstellen](Lager%20Aktionen.md#Aktion%20Reservierter%20Bestand%20zurücksetzen%20erstellen), können Sie die Bestände markieren und die *Aktion > Reservierter Bestand zurücksetzen* ausführen.
+
+::: warning
+Damit Sie diese Aktion ausführen können, müssen Sie [Superuser werden](Einstellungen.md#Superuser%20werden)
+:::
+
+![](assets/Lager%20Bestand%20Reservierter%20Bestand%20zurücksetzen.png)
+
+Wenn Sie offene Lieferungen mit reservierten Mengen haben, können Sie die [Aktion Reservierungen zurücksetzen erstellen](Lager%20Aktionen.md#Aktion%20Reservierungen%20zurücksetzen%20erstellen) und ausführen.
+
+### Meldebestand erfassen
 
 Für jedes einlagerbare Produkt kann eine Meldebestand definiert werden. Navigieren Sie nach *Lager > Konfiguration > Meldebestände* und erstellen Sie einen neuen Eintrag.
 
@@ -16,7 +30,9 @@ Für jedes einlagerbare Produkt kann eine Meldebestand definiert werden. Navigie
 
 Für dieses Produkt wird bei Unterschreitung des Minimalbestand automatisch ein Bestellvorschlag generiert. Mit [Scheduler manuell starten](Lager%20Vorgänge.md#Scheduler%20manuell%20starten) können Sie die Bestandsregeln forcieren.
 
-## Inventur vorbereiten
+## Inventur
+
+### Inventur vorbereiten
 
 Navigieren Sie zum Menu *Lager > Vorgänge > Inventur*. Mit dem Knopf *Anlegen* erstellen Sie einen Inventurauftrag. Befüllen Sie die Felder gemäss untenstehender Tabelle.
 
@@ -30,13 +46,15 @@ Navigieren Sie zum Menu *Lager > Vorgänge > Inventur*. Mit dem Knopf *Anlegen* 
 | Unternehmen                       | -                                                                                               |
 | Gezählte Mengen                   | -                                                                                               |
 
-## Inventur durchführen
+### Inventur durchführen
 
 Starten Sie die vorbereitete Inventur mit *Inventur Starten*. Falls ein nicht gelistetes Produkt gezählt wird, kann über *Anlegen* eine neue Position eingefügt werden.
 
 Befüllen Sie nun die Spalte *Gezählt* entsprechend der gezählten Quantität pro Produkt. Nach der abgeschlossenen Zählung wird mit *Bestandsbuchung Durchführen* der korrigierte Bestand gebucht. Das Protokoll kann über *Print Count Sheet* erstellt werden.
 
-## Bordereau-Ansicht erstellen
+## Disposition
+
+### Bordereau-Ansicht erstellen
 
 Die Bordereau-Ansicht bietet dem Logistiker eine Übersicht der anstehenden Aufträge. Odoo bietet standardmässig keine Bordereau-Ansicht, jedoch können Sie diese einfach selber erstellen. Führen Sie dazu [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) aus und verwenden diese Werte:
 
@@ -59,15 +77,3 @@ Menü: `Bordereau`\
 Obermenü: `Lager/Lager`\
 Aktion: `ir.actions.act_window` `Bordereau`\
 Nummernfolge: `10`
-
-## Reservierter Bestand zurücksetzen
-
-Für jeden Lagerort wird ein Bestand geführt *Lager > Konfiguration > Lagerorte > Lagerort auswählen > Smart-Link Bestand*. Wenn Sie die [Aktion Reservierter Bestand zurücksetzen erstellen](Lager%20Aktionen.md#Aktion%20Reservierter%20Bestand%20zurücksetzen%20erstellen), können Sie die Bestände markieren und die *Aktion > Reservierter Bestand zurücksetzen* ausführen.
-
-::: warning
-Damit Sie diese Aktion ausführen können, müssen Sie [Superuser werden](Einstellungen.md#Superuser%20werden)
-:::
-
-![](assets/Lager%20Bestand%20Reservierter%20Bestand%20zurücksetzen.png)
-
-Wenn Sie offene Lieferungen mit reservierten Mengen haben, können Sie die [Aktion Reservierungen zurücksetzen erstellen](Lager%20Aktionen.md#Aktion%20Reservierungen%20zurücksetzen%20erstellen) und ausführen.

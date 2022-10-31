@@ -36,7 +36,9 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 | [Purchase Tags](Purchase%20Tags.md)                                                   | Einkaufsbestellungen mit Stichwörter.                                                     |
 | [Purchase order lines with discounts](Purchase%20order%20lines%20with%20discounts.md) | Rabatte auf Einkaufspositionen festlegen.                                                 |
 
-## Angebotsanfrage erstellen
+## Aufträge
+
+### Angebotsanfrage erstellen
 
 Über *Anlegen* wird eine Angebotsanfrage eröffnet. Die Felder der Eingabemaske sind gemäss folgender Tabelle zu editieren:
 
@@ -51,15 +53,17 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 
 Im Register Produkte werden die gewünschten Artikel gelistet.
 
-## Angebotsanfrage senden
+### Angebotsanfrage senden
 
 Mit dem Knopf *Per E-Mail Versenden* wird eine PDF-Datei generiert und per eMail an den Lieferanten gesendet.
 
-## Angebotsanfrage nachfassen
+### Angebotsanfrage nachfassen
 
 Falls man beim Lieferanten bezüglich einem fehlenden Angebot nachfassen will, verwendet man den Knopf *Per e-Mail erneut senden*. Damit öffnet sich ein Dialog für den Versand eines e-Mails an den Lieferanten mit der Angebotsanfrage als Beilage.
 
-## An Beschaffungsauftrag erinnern
+## Benachrichtigung
+
+### An Beschaffungsauftrag erinnern
 
 Wenn der Lieferant an die Erfüllung des Beschaffungsauftrags erinnert werden soll, dann verwendet man hierzu die Aktion *Send Reminder*. Damit wird vollautomatisch eine e-Mail an den Lieferanten mit vordefiniertem Text und dem Beschaffungsauftrag als Beilage versendet.
 
@@ -67,7 +71,9 @@ Wenn der Lieferant an die Erfüllung des Beschaffungsauftrags erinnert werden so
 Die Aktion "Send Reminder" wird mit dem Aktivieren der Option *Ask confirmation* zum festgelegten Zeitpunkt automatisch ausgeführt.
 :::
 
-## Portal-Ansicht Bestellung anzeigen
+## Portal
+
+### Portal-Ansicht Bestellung anzeigen
 
 Die Portal-Ansicht einer Bestellung können Sie wie folgt anzeigen:
 * Öffnen Angebotsanfrage
@@ -79,7 +85,9 @@ Die Portal-Ansicht einer Bestellung können Sie wie folgt anzeigen:
 In einem privaten Browser werden die Cookies nicht geladen und somit wird man nicht automatisch bei Odoo angemeldet.
 :::
 
-## Lieferadresse ändern
+## Adresse
+
+### Lieferadresse ändern
 Auf einer Bestellung ist die Lieferadresse standardmässig die Adresse der eigenen Firma gemäss *Einstellungen > Unternehmen*.
 Falls eine andere Lieferadresse gewünscht ist, lässt sich das über das Einrichten eines entsprechendes Lagers/Vorgangstyp erreichen.
 
@@ -103,7 +111,9 @@ Die Bestellung sieht dann wie folgt aus:
 
 ![Einkauf Bestellung Beispiel Lieferadresse](assets/Einkauf%20Bestellung%20Beispiel%20Lieferadresse.png)
 
-## Einkaufszeilen anzeigen
+## Auswertung
+
+### Einkaufszeilen anzeigen
 
 Damit Sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
 

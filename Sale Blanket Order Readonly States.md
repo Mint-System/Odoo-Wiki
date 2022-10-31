@@ -12,7 +12,9 @@ Bestätigte Rahmenaufträge bearbeiten.
 Technischer Name: `sale_blanket_order_readonly_states`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_readonly_states>
 
-## Bestätigte Rahmenaufträge bearbeiten
+## Verwendung
+
+### Bestätigte Rahmenaufträge bearbeiten
 
 Mit dieser Erweiterung können Sie die bestätigte Rahmenaufträge bearbeiten.
 

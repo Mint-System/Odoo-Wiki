@@ -12,7 +12,9 @@ Bestellung vor Versenden oder Bestätigen überprüfen.
 Technischer Name: `purchase_order_validate`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_validate>
 
-## Bestellung validieren
+## Verwendung
+
+### Bestellung validieren
 
 Wenn Sie eine Bestellung *Per E-Mail Versenden* oder *Auftrag Bestätigen* möchten, wird mit dieser Erweiterung geprüft, ob ein Verkaufskontakt gesetzt wurde.
 

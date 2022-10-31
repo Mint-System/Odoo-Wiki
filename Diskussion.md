@@ -33,7 +33,9 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 | [Sale Order Unsubscribe](Sale%20Order%20Unsubscribe.md)                             | Alle Abonnenten nach Bestätigung des Angebots entfernen.               |
 | [URL Attachment](URL%20Attachment.md)                                               | Url als Dokument anhängen.                                             |
 
-## Versendete Nachrichten betrachten
+## Auswertung
+
+### Versendete Nachrichten betrachten
 
 Nachrichten, die von Odoo versendet werden, werden zentral gespeichert. Im Entwicklermodus sehen Sie diese unter *Einstellungen > Technisch > E-Mail > Nachrichten*. Hier sehen Sie alle versendeten Nachrichten aufgelistet. In der Detailansicht sieht man den *Nachrichtentext* und die Metadaten.
 
@@ -47,27 +49,31 @@ Wurde die Nachricht als Mail versendet, können Sie im Tab *Empfänger* die Kont
 
 ![](assets/Diskussion%20Empfänger.png)
 
-## Nachrichten abrufen
+### Nachrichten abrufen
 
 Führen Sie folgendes aus  *Einstellungen > Diskussion > Externe E-Mail-Server > Eintrag auswählen*. Führen Sie die Aktion *Nachrichten abrufen* aus. Im Feld *Letztes Abholdatum* sehen ob die E-Mails abgerufen werden konnten.
 
-## Abonnent hinzufügen
+## Abonnieren
+
+### Abonnent hinzufügen
 
 Für Sie einen Abonnent dem Odoo-Objekt hinzu indem Sie rechts von *Abonnieren* auf das Icon klicken und *Followers hinzufügen* wählen.
 
 ![Diskussion Abonnent hinzufügen](assets/Diskussion%20Abonnent%20hinzufügen.gif)
 
-## Abonnent entfernen
+### Abonnent entfernen
 
 Entfernen Sie einen Abonnent vom Odoo-Objekt indem Sie rechts von *Abonnieren* auf das Icon klicken.
 
 ![Diskussion Abonnent entfernen](assets/Diskussion%20Abonnent%20entfernen.gif)
 
+## Benachrichtigungen
+
 ## Benachrichtigungen anzeigen
 
 Wenn Odoo Nachrichten versendet, werden abonnierte Benutzer benachrichtigt. Diese Benachrichtigungen können via *Einstellungen > Technisch > Benachrichtigungen* angezeigt werden.
 
-## Subtypen verwalten
+### Subtypen verwalten
 
 Navigieren Sie nach *Einstellungen > Technisch > Subtypen* und zeigen Sie beispielsweise den Subtyp *Bestätigt* an.
 
@@ -79,7 +85,7 @@ Konfigurieren Sie den Subtypen gemäss Anforderungen:
 * **Nur interne**: Nur für interne Benutzer sichtbar.
 * **Versteckt**: Subtyp wird auf Abonnement-Formular ausgeblendet.
 
-## Subtyp auf Abonnement aktivieren
+### Subtyp auf Abonnement aktivieren
 
 Zeigen Sie ein Odoo Dokument an und beareiten Sie ein Abonnement.
 

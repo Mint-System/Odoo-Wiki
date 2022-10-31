@@ -34,7 +34,9 @@ Website: <https://www.odoo.com/de_DE/app/project>
 | [Project timesheet time control](Project%20timesheet%20time%20control.md) | Zeiterfassung auf Projektaufgabe starten.              |
 | [Sequential Code for Tasks](Sequential%20Code%20for%20Tasks.md)           | Sequenznummer für Projektaufgaben.                     |
 
-## Projekt anlegen
+## Projektmanagement
+
+### Projekt anlegen
 
 Aufgabenträger: [Projektleiter](Rollen#Projektleiter)
 
@@ -44,7 +46,7 @@ Aufgabenträger: [Projektleiter](Rollen#Projektleiter)
 Wählen Sie die Option entsprechend der Projektkonfiguration.
 * Timesheet Timer: Zeiterfassung kann direkt auf der Aufgabe gestartet werden.
 
-## Aufgabenphasen erstellen
+### Aufgabenphasen erstellen
 
 ::: tip
 Mittels Aufgabenphasen kann der Aufgabenstatus und deren Arbeitsfluss abgebildet werden. Eine Aufgaben durchläuft verschiedene Stufen bis Sie erledigt ist und archiviert werden kann.
@@ -56,7 +58,7 @@ Navigieren Sie in die Kanban-Ansicht eines Projekts *Projekt > Projekt auswähle
 Die erstellte Aufgabenphasen ist nur für dieses Projekt sichtbar.
 :::
 
-## Globale Stufen zuordnen
+### Globale Stufen zuordnen
 
 ::: tip
 Aufgabenphasen können mit mehreren Projekten geteilt werden.
@@ -66,7 +68,7 @@ Wechseln Sie in den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivie
 
 Im Auswahl-Feld *Projekt* können Sie ein bestehendes Projekt hinzufügen. Mit *Speichern* schliessen Sie den Vorgang ab. Wenn Sie das hinzugefügte Projekt öffnen wird nun die gewählte Stufe dargestellt.
 
-## Projekt duplizieren
+### Projekt duplizieren
 
 ::: tip
 Beim der Duplizierung eines Projekts werden deren Aufgaben und Phasen mitkopiert.
@@ -76,13 +78,15 @@ Um ein Projekt zu duplizieren führen Sie folgende Aktion aus *Projekt > Projekt
 
 ![Projekt duplizieren](assets/Projekt%20duplizieren.gif)
 
-## Gantt-Ansicht anzeigen
+### Gantt-Ansicht anzeigen
 
 Die Gantt-Ansicht kann via *Projekt > Alle Aufgaben* angezeigt werden.
 
 ![](assets/Projekt%20Gantt-Ansicht%20aktiviert.png)
 
-## Abrechnung für Projekt einrichten
+## Abrechnung
+
+### Abrechnung für Projekt einrichten
 
 Damit die auf einer Projektaufgabe erfassten Stunden abgerechnet werden können, müssen Sie bestimmte Einstellungen vornehmen. Öffnen Sie ein Projekt via *Projekt > Projekte > Kontext-Menü > Bearbeiten > Tab Einstellungen* und wählen Sie als erstes die Option *Abrechenbar*. Öffnen Sie den Tab *Abrechnung* und stellen Sie sicher, dass diese Optionen aktiviert sind:
 

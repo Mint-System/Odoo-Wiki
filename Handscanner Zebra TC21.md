@@ -14,7 +14,9 @@ Website: <https://www.zebra.com/de/de/products/mobile-computers/handheld/tc21-tc
 Es kann sein, dass der Handscanner ohne USB-C Kabel geliefert wird.
 :::
 
-## Handscanner in Betrieb nehmen
+## Verwendung
+
+### Handscanner in Betrieb nehmen
 
 Damit Sie den Hanscanner in Betrieb nehmen können, müssen Sie folgende Vorbereitungen treffen:
 
@@ -36,7 +38,7 @@ Loggen Sie sich bei Bedarf mit dem Google Account ein.
 
 Nur wenn Sie eingeloggt sind, können Sie später Apps aus dem Play Store installieren.
 
-## Barcode scannen
+### Barcode scannen
 
 Starten Sie die Odoo Mobile App und öffnen Sie App *Strichcode*. Wählen Sie *Strichode scannen*. Das Gerät schaltet die Kamera ein, nun können Sie beispielsweise den Code auf einem Lieferschein scannen.
 

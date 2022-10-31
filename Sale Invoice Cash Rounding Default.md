@@ -12,7 +12,9 @@ prev: ./abrechnung
 Technischer Name: `sale_invoice_cash_rounding_default`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/sale_invoice_cash_rounding_default>
 
-## Standardwert Rundungsmethode verwenden
+## Verwendung
+
+### Standardwert Rundungsmethode verwenden
 
 Mit diesem Modul wird beim Erstellen von Rechnungen aus Verkaufsaufträgen der Standardwert für die Rundungsmethode verwendet. Dazu ein Beispiel wie der Standardwert erstellt werden muss:
 

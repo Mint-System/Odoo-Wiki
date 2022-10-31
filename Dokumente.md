@@ -22,7 +22,9 @@ Website: <https://www.odoo.com/de_DE/app/documents>
 | ------------- | ------------------------------------------ |
 | [Agreement Legal](Agreement%20Legal.md) | Verträge und Vereinbarungen dokumentieren. |
 
-## E-Mail-Hochladen für Arbeitsbereich einrichten
+## Verwaltung
+
+### E-Mail-Hochladen für Arbeitsbereich einrichten
 
 Wählen Sie einen Arbeitsbereich via *Dokumente* aus und klicken Sie auf *Teilen*. Wählen Sie die Option *Erlaubt es: Hoch- und runterladen* und geben Sie rechts den E-Mail-Alias ein. Speichern Sie den Vorgang.
 

@@ -12,7 +12,8 @@ Abgebrochene Verkaufsaufträge archivieren.
 Technischer Name: `sale_order_archive`\
 Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_order_archive>
 
+## Verwendung
 
-# Verkausaufträge archivieren
+### Verkausaufträge archivieren
 
 Mit dieser Erweiterung können Sie abgebrochene Angebote und Verkaufsaufträge archivieren.

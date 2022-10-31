@@ -12,6 +12,8 @@ Abteilung auf Kontakten speichern.
 Technischer Name: `partner_contact_department_note`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/partner_contact_department_note>
 
-## Abteilung auf Kontakt festlegen
+## Verwendung
+
+### Abteilung auf Kontakt festlegen
 
 Mit dieser Erweiterung können Sie für jeden Kontakt einen Wert im Feld *Abteilung* festhalten. Öffnen Sie einen Kontakt via *Kontakte*. Unter dem Feld *Stelle* finden Sie das Abteilungs-Feld.

@@ -12,7 +12,9 @@ Fahrzeuganfragen für Mitarbeitende verwalten.
 Technischer Name: `hr_vehicle_request`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/hr_vehicle_request>
 
-## Fahrzeuganfrage erstellen
+## Verwendung
+
+### Fahrzeuganfrage erstellen
 
 Navigieren Sie nach *Personal > Fahrzeuganfrage > Fahrzeuganfrage* und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel:
 
@@ -20,7 +22,7 @@ Navigieren Sie nach *Personal > Fahrzeuganfrage > Fahrzeuganfrage* und erstellen
 
 Versenden Sie die Anfrage mit *Anfrage Senden*.
 
-## Fahrzeuganfrage validieren
+### Fahrzeuganfrage validieren
 
 Navigieren Sie nach *Personal > Fahrzeuganfrage > Fahrzeuganfrage* und filtern Sie die Einträge nach *Warte auf Bestätigung*.
 
@@ -28,6 +30,6 @@ Navigieren Sie nach *Personal > Fahrzeuganfrage > Fahrzeuganfrage* und filtern S
 
 Öffnen Sie eine Anfrage und validieren Sie diese mit *Bestätigen* oder *Ablehnen*.
 
-## Fahrzeug retournieren
+### Fahrzeug retournieren
 
 Öffnen Sie ihre *Fahrzeuganfrage* unter Personal > Fahrzeuganfrage > Fahrzeuganfrage* und klicken Sie auf *Retournieren*.

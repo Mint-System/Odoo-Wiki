@@ -17,7 +17,9 @@ Importieren und Exportieren Sie alle Odoo Daten.
 | [Projekt Datenmanagement](Projekt%20Datenmanagement.md)             | Daten zu Projekte exportieren und importieren.      |
 | [Kundendienst Datenmanagement](Kundendiesnt%20Datenmanagement.md)   | Daten zu Kundendienst exportieren und importieren.  |
 
-## Daten exportieren
+## Vorgänge
+
+### Daten exportieren
 
 In den verschiedenen Apps besteht immer die Möglichkeit Daten zu exportieren. Folgende Abbildung zeigt das Beispiel in der Maske Fertigung > Stammdaten > Produkte.
 
@@ -35,7 +37,7 @@ Wählen Sie die Aktion *Export*. Anschliessend erscheint die Maske zur Definitio
 Die zu exportierenden Felder müssen für jeden Zweck sorgfältig ausgewählt werden. Beachten Sie hierzu die Angaben im Abschnitt Datenstruktur Export.
 :::
 
-## Daten importieren
+### Daten importieren
 
 In den verschiedenen Apps besteht immer die Möglichkeit Daten zu importieren. Folgende Abbildung zeigt das Beispiel in der Maske Fertigung > Stammdaten > Produkte.
 
@@ -57,7 +59,7 @@ Mit der Funktion *Testbetrieb* wird festgestellt, ob die Stuktur der Datei den V
 
 Nun können Sie mit dem Knopf *Import* den Datentransfer ausführen.
 
-## Daten aktualisieren
+### Daten aktualisieren
 
 Den Entwicklermodus aktivieren.  
 Einen Datenexport starten.  
@@ -67,17 +69,17 @@ Die Checkbox *I want to update data (import-compatible export)* markieren.
 Mit der Funktion *I want to update data* wird erreicht, dass die in der Datenbank vorhandenen Einträge überschrieben werden.
 :::
 
-## Massenmutation durchführen
+### Massenmutation durchführen
 
 In der Listenansicht können Datensätze ausgewählt und als Sammelmutation geändert werden. Das folgende Beispiel zeigt die Änderung des Feldes *Verantwortlich*.
 
 ![Datenmanagement Sammelmutation](assets/Datenmanagement%20Sammelmutation.gif)
 
-## Demodaten anzeigen
+### Demodaten anzeigen
 
 Auf GitHub veröffentlicht die Mint System [Odoo-Demodaten](https://github.com/Mint-System/Odoo-Demodaten). Hier finden Sie Importbereite Datensätze für die Odoo-Module.
 
-## Importzuordnung anzeigen
+### Importzuordnung anzeigen
 
 Damit Sie eine Übersicht der Importzuordnung erhalten, erstellen Sie als erstes eine neue Ansicht gemäss [Ansicht erstellen](Entwicklung%20Ansichten.md#Ansicht%20erstellen) mit diesen Angaben:
 

@@ -13,7 +13,9 @@ Fahrzeug-Reservationen für Mitarbeitende verwalten.
 Technischer Name: `employee_vehicle_request`\
 Repository: <https://github.com/CybroOdoo/CybroAddons/tree/15.0/employee_vehicle_request>\
 
-## Fahrzeug-Anfrage erstellen
+## Verwendung
+
+### Fahrzeug-Anfrage erstellen
 
 Navigieren Sie nach *Personal > Vehicle Request > Vehicle Request* und erstellen Sie einen neuen Eintrag.
 

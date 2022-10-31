@@ -12,7 +12,9 @@ Verhindert das versenden von Nachrichten beim Erstellen einer Buchung.
 Technischer Name: `account_move_mail_thread`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/account_move_mail_thread>
 
-## Rechnung ohne Benachrichtigungen erstellen
+## Verwendung
+
+### Rechnung ohne Benachrichtigungen erstellen
 
 Mit dieser Erweiterung wird das erstellen von Benachrichtigungen beim Erstellen einer Rechnung unterdrückt. Dazu ein Bespiel mit einer Rechnung generiert aus einem Verkaufsauftrag.
 

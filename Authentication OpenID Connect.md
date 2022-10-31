@@ -12,7 +12,9 @@ Login mit OpenID Connect Provider.
 Technischer Name: `auth_oidc`\
 Repository: <https://github.com/OCA/server-auth/tree/14.0/auth_oidc>
 
-## Login mit GitLab konfigurieren
+## Verwendung
+
+### Login mit GitLab konfigurieren
 
 Damit Sie mit einem GitLab Account in Odoo einloggen können, müssen Sie als erstes eine OAuth-Applikation unter <https://gitlab.com/oauth/applications> erstellen. In diesem Beispiel ist die Odoo-Installation unter <https://erp.binary-business.ch> erreichbar.
 
@@ -47,7 +49,7 @@ Scope: `openid`
 Token URL: `https://gitlab.com/oauth/token`  
 JWKS URL: `https://gitlab.com/-/jwks`
 
-## Login freigeben
+### Login freigeben
 
 Es gibt zwei Registrationsverfahren für neue Benuter: Freigeben und Einrichten.
 
@@ -61,7 +63,7 @@ Nun wird ein Benutzer-Account in Odoo erstellt und der Adminisrator muss diesen 
 
 Wurde die Freigabe erteilt, kann sich der Benutzer nochmals einloggen.
 
-## Login einrichten
+### Login einrichten
 
 Möchte man die Logins vorgängig einrichten, kann man die Odoo-Accounts anlegen und die muss nur noch die *OAuth User ID* hinterlegen. Diese ID erhlält bei GitLab in dem man diesen Link aufruft: <https://gitlab.com/api/v4/users?username=$USERNAME>.
 

@@ -12,7 +12,9 @@ Listenpreise in verschiedenen Währungen für Preislisten-Formeln.
 Technischer Name: `product_listprice_currency`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/14.0/product_listprice_currency>
 
-## Listenpreise setzen und verwenden
+## Verwendung
+
+### Listenpreise setzen und verwenden
 
 Mit dieser Erweiterung können Sie pro Produkt Listenpreisen in verschiedenen Währungen angeben.
 

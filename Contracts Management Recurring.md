@@ -18,11 +18,13 @@ Repository: <https://github.com/OCA/contract/tree/14.0/contract>
 | ---------------------------------------- | -------------------------------------------------------- |
 | [Contracts Management Recurring Sales](Contracts%20Management%20Recurring%20Sales.md) | Aus wiederholenden Verträge Verkaufsangebote generieren. |
 
-## Kundenverträge anzeigen
+## Verwendung
+
+### Kundenverträge anzeigen
 
 Navigieren Sie nach *Finanzen >  Kunden > Kundenverträge*.
 
-## Kundenvertrag erstellen
+### Kundenvertrag erstellen
 
 Rufen Sie *Finanzen >  Kunden > Kundenverträge* auf und wählen Sie *Anlegen*. Füllen mindestens diese Felder aus:
 

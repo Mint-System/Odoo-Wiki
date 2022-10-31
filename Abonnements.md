@@ -12,13 +12,15 @@ prev: ./
 
 Website: <https://www.odoo.com/de_DE/app/subscriptions>
 
-## Abonnement-Vorlage erstellen
+## Verwendung
+
+### Abonnement-Vorlage erstellen
 
 Rufen Sie die Ansicht *Abonnements > Konfiguration > Vorlage für Abonnements* auf. Erstellen Sie einen neuen Eintrag. Geben Sie einen Namen beispielsweise *Jahresabonnment* ein. Legen Sie den *Abrechnungszeitraum* und einen *Code* fest.
 
 ![](assets/Abonnements%20Vorlage.png)
 
-## Abonnement-Laufzeit mit Produktvariante verknüpfen
+### Abonnement-Laufzeit mit Produktvariante verknüpfen
 
 Öffnen Sie ein Abonnent-Produkt unter *Abonnements > Abonnements > Produkte*. Zeigen Sie den Tab *Preis* an. Legen Sie in der Spalte *Produktvarianten* fest, welche Lafuzeit zu welcher Variante gehört.
 

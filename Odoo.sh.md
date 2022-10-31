@@ -10,7 +10,9 @@ The Odoo Cloud Platform.
 
 Website: <https://www.odoo.sh/>
 
-## Projekt mit Github-Benutzer teilen
+## Einstellungen
+
+### Projekt mit Github-Benutzer teilen
 
 Odoo.sh Projekte sind an ein Github-Repository gekoppelt, wenn Sie einem Benutzer Zugriff auf das Projekt geben möchten, müssen Sie den Github-Benutzernamen in den Projekteinstellungen hinterlegen.
 
@@ -18,7 +20,7 @@ Odoo.sh Projekte sind an ein Github-Repository gekoppelt, wenn Sie einem Benutze
 
 ![](assets/Odoo.sh%20Benutzer%20hinzuf%C3%BCgen.png)
 
-## Eigene Domain konfigurieren
+### Eigene Domain konfigurieren
 
 Damit ihre Odoo-Installation oder Website unter einer eigenen Domain erreichbar sind, müssen Sie im Besitz der Domäne sein und einen DNS-Eintrag machen. Der DNS-Eintrag zeigt wo man den Odoo-Server für eine bestimme Domain findet. 
 
@@ -32,13 +34,13 @@ In den Einstellung findet Sie den Abschnitt *Custom domains*, hier fügen Sie de
 
 ![](assets/Odoo.sh%20Custom%20domains.png)
 
-## Branch entfernen
+### Branch entfernen
 
 Für jede Staging-Phase können Sie eine bestimmte Azahl Branches haben. Möchten Sie einen Branch entfernen so wählen Sie diesen aus und klicken oben rechts auf *Delete*.
 
 ![](assets/Odoo.sh%20Delete.png)
 
-## Build-Verhalten bei Commit festlegen
+### Build-Verhalten bei Commit festlegen
 
 Wenn Sie auf einen Staging- oder Entwicklungs-Branch committen, erstellt Odoo.sh standardmässig einen neuen Build. In bestimmten Fällen ist dies nicht erwünscht. Das Verhalten können Sie unter *Branch > Settings* festlegen.
 

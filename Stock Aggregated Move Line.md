@@ -12,6 +12,8 @@ Zugriff auf Lieferung in aggregierten Zeilen.
 Technischer Name: `stock_aggregated_move_line`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_aggregated_move_line>
 
-## Auf Lieferzeilen in aggregierten Zeilen zugreifen
+## Verwendung
+
+### Auf Lieferzeilen in aggregierten Zeilen zugreifen
 
 Mit dieser Erweiterung können Sie auf die Lieferung in aggregierte Lieferzeilen zugreifen.

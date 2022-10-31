@@ -10,7 +10,9 @@ Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
 
 Website: <https://www.odoo.com/de_DE/app/surveys>
 
-## Umfrage erstellen
+## Verwendung
+
+### Umfrage erstellen
 
 Navigieren Sie nach *Umfragen* und wählen Sie *+ Anlegen*. Vergeben Sie eine passende Bezeichnung. Im Tab *Optionen* können Sie die Umfrage gemäss ihren Anforderungen anpassen.
 
@@ -24,7 +26,7 @@ Im Tab *Optionen*  unter *Access Mode* haben Sie diese Optionen:
 Teilnehmer müssen als Kontakt erfasst sein und müssen einen Portalzugriff haben: [Portalzugriff gewähren](Einstellungen%20Login.md#Portalzugriff%20gewähren).
 :::
 
-## Umfrage teilen
+### Umfrage teilen
 
 Umfrage-Teilnehmer können Sie mit der Aktion *Teilen* einladen. Navigieren Sie zu ihrer Umfrage und wählen Sie die Aktion. 
 

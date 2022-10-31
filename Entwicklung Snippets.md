@@ -8,11 +8,13 @@ prev: ./entwicklung
 
 Einfache Anpassungen mit den Mint System Snippets umsetzen.
 
-## Snippets-Übersicht anzeigen
+## Verwaltung
+
+### Snippets-Übersicht anzeigen
 
 Zeigen Sie die Website <https://odoo.build/snippets.html> an. Hier finden Sie eine umfassende Snippets-Sammlung.
 
-## Snippet hinzufügen
+### Snippet hinzufügen
 
 Unter <https://odoo.build/snippets.html> finden Sie verschiedene Snippets um Ansichten und Berichte anzupassen. Anhand der Referenz auf den Bericht und dem Link auf das Snippet können Sie das Snippet installieren.
 
@@ -24,13 +26,15 @@ Zeigen Sie die Formularansicht des Geschäftsobjekt an und erstellen Sie im Tab 
 
 ![](assets/Entwicklung%20Snippet%20hinzufügen.gif)
 
-## Snippet-Inhalte übersetzen
+### Snippet-Inhalte übersetzen
 
 Öffnen Sie ein Snippet via *Einstellungen > Technisch > Benutzer-Interface > Ansichten*. Klicken Sie im Tab *Architektur* auf * Übersetzungen bearbeiten*.
 
 ![](assets/Snippet%20Übersetzung.png)
 
-## Text als Systemparameter definieren
+## Entwicklung
+
+### Text als Systemparameter definieren
 
 In bestimmten Fällen möchte man Texte in Berichten direkt anpassen. Damit Anwender nicht den Code im Bericht anpassen müssen, können Sie den Text im Bericht als Systemparameter definieren. Fügen Sie im Bericht diesen Platzhalter ein:
 
@@ -55,7 +59,7 @@ Beim Erstellen des Bericht wird der Platzhalter mit dem konfigurierten Wert des 
 
 ![](assets/Entwicklung%20Snippets%20Bericht%20mit%20Systemparameter.png)
 
-## Text als Begriff parametrisieren
+### Text als Begriff parametrisieren
 
 In bestimmten Fällen möchte man Texte in Berichten direkt anpassen. Damit Anwender nicht den Code im Bericht anpassen müssen, können Sie den Text im Bericht als Begriff parametrisieren. Fügen Sie im Bericht diesen Platzhalter ein:
 

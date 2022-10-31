@@ -12,7 +12,9 @@ Projektkürzel für Aufgabenbezeichnung.
 Technischer Name: `project_key`\
 Repository: <https://github.com/OCA/project/tree/14.0/project_key>
 
-## Nummerierungsmuster festlegen
+## Verwendung
+
+### Nummerierungsmuster festlegen
 
 Mit dieser Erweiterung können Sie für Projekte ein Kürzel festlegen, welches vor den Aufgabentitel gesetzt wird. Öffnen Sie *Projekt > Projekt wählen* und über das Kontext-Menu *Bearbeiten* klicken.
 

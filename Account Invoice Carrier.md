@@ -13,7 +13,9 @@ Auslieferungsmethode auf Rechnung hinterlegen.
 Technischer Name: `account_invoice_carrier`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_invoice_carrier>
 
-## Auslieferungsmethode auf Rechnung hinterlegen
+## Verwendung
+
+### Auslieferungsmethode auf Rechnung hinterlegen
 
 Mit dieser Erweiterung erhalten Sie auf der Formularansicht der Rechnungen ein neues Feld *Auslieferungsmethode*.
 

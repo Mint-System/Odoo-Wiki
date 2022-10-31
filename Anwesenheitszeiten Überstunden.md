@@ -10,7 +10,9 @@ prev: ./anwesenheitszeiten
 
 Gilt ab #Odoo15
 
-## Überstunden berechnen
+## Verwendung
+
+### Überstunden berechnen
 
 Öffnen Sie die *Einstellungen* und markieren Sie die Option *Anwesenheitszeiten > Überstunden > Überstunden zählen*. Setzen Sie ein Startdatum und Speichern Sie die Einstellungen.
 
@@ -18,7 +20,7 @@ Gilt ab #Odoo15
 
 Unter *Anwesenheitszweiten > Berichtswesen* können Sie die Überzeiten der Mitarbeitenden anzeigen.
 
-## Übersteunden bei Abwesenheit abziehen
+### Übersteunden bei Abwesenheit abziehen
 
 Auf Abwesenheitstypen können Sie festlegen, ob Überstunden abgezogen werden können bzw. ob Überstunden mit der Abwesenheit kompensiert werden können.
 

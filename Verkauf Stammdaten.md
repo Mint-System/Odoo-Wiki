@@ -14,11 +14,19 @@ Produkte, Preislisten und Varianten zentral pflegen.
 | ----------------- | --------------------------------------- |
 | [Packaging UOM](Packaging%20UOM.md) | Mengeneinheit für Produktverpackung festlegen. |
 
-## Produktvarianten aktivieren
+## Produktverwaltung
+
+### Produkte zum Verkauf festlegen
+
+Öffnen Sie ein Produkt via *Verkauf > Produkte > Produkte* und markieren Sie *Kann verkauft werden*. Neue Optionen erscheinen auf der Produktansicht.
+
+![Produkte zum Verkauf deklarieren](assets/Produkte%20zum%20Verkauf%20deklarieren.gif)
+
+### Produktvarianten aktivieren
 
 Navigieren Sie nach *Einstellungen > Verkauf > Produktkatalog* und aktiveren Sie die Option *Varianten*.
 
-## Produktattributte erstellen
+### Produktattributte erstellen
 
 Öffnen Sie *Verkäufe > Konfiguration > Produkte > Attribute* und wählen Sie *Anlegen*. Geben den Attributnamen an und legen Sie den Anzeigetyp fest. Für das Feld *Variants Creation Mode* haben Sie diese Optionen:
 * **Instantly**: Alle möglichen Produkvarianten werden angelegt.
@@ -28,11 +36,13 @@ Zuletzt tragen Sie Werte für das Attribut ein.
 
 ![](assets/Verkauf%20Stammdaten%20Produktattributte.png)
 
-## Erweiterte Preisregeln aktivieren
+## Preislisten
+
+### Erweiterte Preisregeln aktivieren
 
 Navigieren Sie nach *Verkauf > Konfiguration > Preiskalkulation* und aktivieren Sie die Option *Preislisten* mit der Unteroption *Erweiterte Preisregeln*.
 
-## Preisliste mit Rabatt erstellen
+### Preisliste mit Rabatt erstellen
 
 Wenn Sie die [Erweiterte Preisregeln aktivieren](#Erweiterte%20Preisregeln%20aktivieren) können Sie eine Preisliste erstellen, die auf einer bestehenden Preisliste Rabatt gewährt.
 

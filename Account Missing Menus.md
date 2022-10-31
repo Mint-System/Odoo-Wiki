@@ -12,7 +12,9 @@ Zusätzliche Menu-Punkte von Finanzen anzeigen.
 Technischer Name: `contract`\
 Repository: <https://github.com/OCA/contract/tree/14.0/contract>
 
-## Zusätzliche Menus Finanzen anzeigen
+## Verwendung
+
+### Zusätzliche Menus Finanzen anzeigen
 
 Mit dieser Erweiterungen werden Menus für die folgenden Geschäftsobjekte sichtbar:
 

@@ -12,7 +12,9 @@ Lieferdatum auf Fertigungsauftrag bearbeiten.
 Technischer Name: `manufacture_production_move_date`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/manufacture_production_move_date>
 
-## Lieferdatum Komponenten auf Fertigungsauftrag festlegen
+## Verwendung
+
+### Lieferdatum Komponenten auf Fertigungsauftrag festlegen
 
 Mit dieser Erweiterung können Lieferfristen auf Lagerbuchungen von Fertigungsaufträge geplant werden.
 

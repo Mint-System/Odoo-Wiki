@@ -12,7 +12,9 @@ Zu jedem Mitarbeitenden ein Kürzel speichern.
 Technischer Name: `hr_shortname`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/hr_shortname>
 
-## Kürzel eintragen und suchen
+## Verwendung
+
+### Kürzel eintragen und suchen
 
 Ist diese Erweiterung installiert, können Sie bei Mitarbeitenden ein Kürzel eintragen:
 

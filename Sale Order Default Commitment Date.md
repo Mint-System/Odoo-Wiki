@@ -12,7 +12,9 @@ Standardlieferdatum festlegen.
 Technischer Name: `sale_order_default_commitment_date`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_default_commitment_date>
 
-## Standardlieferdatum generieren
+## Verwendung
+
+### Standardlieferdatum generieren
 
 Beim erstellen eines neuen Verkaufsangebot wird der *Liefertermin* nach der folgenden Regel überschrieben:
 * Vor 12 Uhr wird der Liefertermin auf den aktuellen Tag + 1 Tag gesetzt.

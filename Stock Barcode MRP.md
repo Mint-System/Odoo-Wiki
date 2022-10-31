@@ -12,7 +12,9 @@ Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen.
 Technischer Name: `stock_barcode_mrp`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_barcode_mrp>
 
-## Fertigungsauftrag scannen
+## Verwendung
+
+### Fertigungsauftrag scannen
 
 Mit dieser Erweiterung können Sie den Strichcode auf Fertigungsaufträgen scannen und gelangen direkt zum Arbeitsauftrag sofern einer existiert. Dazu eine Simulation des Scan-Vorgangs.
 

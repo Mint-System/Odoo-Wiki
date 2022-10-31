@@ -13,7 +13,9 @@ Lieferfristen auf dem Verkaufsautrag und dessen Zeilen werden auf den Lieferauft
 Technischer Name: `sale_order_line_date_propagate`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_date_propagate>
 
-## Lieferdatum Verkauf auf Lieferung übertragen
+## Verwendung
+
+### Lieferdatum Verkauf auf Lieferung übertragen
 
 Ist diese Erweiterung installiert wird das Lieferdatum vom Verkaufsauftrag auf den Lieferauftrag übertragen. Dies gilt auch für die Verkaufspositionen.
 

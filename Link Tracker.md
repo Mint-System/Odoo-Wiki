@@ -8,6 +8,8 @@ prev: ./
 
 Web-Kampagnen und E-Mails verfolgen.
 
-## App anzeigen
+## Verwendung
+
+### App anzeigen
 
 Um diesen App zu sehen, müssen Sie den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) aktvieren.

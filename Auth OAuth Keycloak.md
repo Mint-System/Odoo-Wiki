@@ -12,6 +12,8 @@ Ermöglich Keycloak Integration mit Odoo OAuth.
 Technischer Name: `auth_oauth_keycloak`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/auth_oauth_keycloak>
 
-## Einloggen mit Keycloak
+## Verwendung
+
+### Einloggen mit Keycloak
 
 Mit dieser Erweiterung können Sie sich mit einem Keycloak-Account bei Odoo anmelden.

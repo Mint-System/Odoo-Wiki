@@ -12,7 +12,9 @@ Neues Feld Anstellung wie auf Mitarbeitenden.
 Technischer Name: `hr_employee_employ_like`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/hr_employee_employ_like>
 
-## Anstellungsreferenz hinterlegen
+## Verwendung
+
+### Anstellungsreferenz hinterlegen
 
 Mit dieser Erweiterung können Sie für Mitarbeitenden nebst der Stelle auch eine Referenz zu einem/einer anderen Mitarbeitenden für den Anstellungsprozess hinterlegen.
 

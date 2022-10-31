@@ -13,13 +13,15 @@ Technischer Name: `eq_cancel_mrp_orders`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/eq_cancel_mrp_orders>\
 Odoo App Store: <https://gitlab.com/mint-system/odoo-app-cancel-manufacturing-order>
 
-## Berechtigung festlegen
+## Verwendung
+
+### Berechtigung festlegen
 
 In den Benutzereinstellungen aktivieren Sie die Option *Cancel Manufacturing Orders*. Benutzer mit dieser Berechtigung können Fertigungsaufträge abbrechen.
 
 ![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Berechtigung.png)
 
-## Fertigungsauftrag zurücksetzen
+### Fertigungsauftrag zurücksetzen
 
 Damit ein Fertgigungsauftrag zurückgesetzt werden kann, muss sichergestellt werden, dass die Produkte an Lager sind.
 

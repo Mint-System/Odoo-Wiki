@@ -9,7 +9,9 @@ prev: ./dokumente
 
 Arbeitsflüsse mit Dokumenten automatisieren.
 
-## Geplante Aktion "Dokumente an Wareneingang zuordnen" erstellen
+## Geplante Aktionen
+
+### Geplante Aktion "Dokumente an Wareneingang zuordnen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 

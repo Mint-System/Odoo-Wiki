@@ -10,7 +10,9 @@ Odoo-Instanzen mit dem Datenbankmanager verwalten.
 
 > Zur Verwaltung der Odoo-Instanzen gibt es den Datenbankmanager. Dieses Tool erlaubt ein Backup von der Instanz zu erstellen und nach Bedarf wiederherzustellen.
 
-## Datenbank erstellen
+## Datenbank
+
+### Datenbank erstellen
 
 Möchten Sie eine Datenbank für ihre Odoo-Installation erstellen, öffnen Sie den Datenbankmanager unter https://erp.example.com/web/database/manager und geben die folgenden Daten ein.
 
@@ -37,7 +39,7 @@ Der Eintrag im Feld Email wird automatisch zum Login des Standard-Benutzers *Adm
 Drücken Sie den Knopf *Create Database* zum Erstellen der neuen Datenbank.
 Die Funktion "Restore Database" führt Sie zu einem Dialog um eine bestehende Datenbank zu importieren.
 
-## Backup erstellen
+### Backup erstellen
 
 Der Datenbank Manager kann unter der URL https://erp.example.com/web/database/manager aufgerufen werden. Hier werden die Odoo-Instanzen aufgelistet. Beim Klick auf *Backup* wird man aufgefordert das *Odoo Master Password* einzugeben. Nach Eingabe des Password und abschliessen des Dialogs erhält man eine ZIP-Datei zum herunterladen.
 
@@ -55,7 +57,7 @@ Im unten dargestellten Dialog ist das *Odoo Master Password* notwendig.
 
 Nach der Bestätigung mit dem Knopf *Backup* wird der Inhalt der Datenbank lokal auf dem Computer in eine zip-Datei gespeichert.
 
-## Restore Database
+### Datenbank wiederherstellen
 
 Falls eine Datenbank mit einem Backup überschrieben werden soll, muss im nächsten Schritt die bestehende Datenbank gelöscht werden.
 
@@ -91,13 +93,15 @@ Mit *Continue* wird der Datenimport durchgeführt. Nach Abschluss des Vorgangs z
 
 Mit einem Klick auf den Namen ihrer Datenbank startet das System mit der Login-Maske.
 
-## Datenbank ID ändern
+### Datenbank ID ändern
 
 Jede Odoo Datenbank wird mit einem Universally unique Identifier (UUID) identifiziert. Beim Kopieren der Datenbank mit dem Datenbankmanager wird jeweils eine neue UUID generiert. Die UUID kann aber auch manuell geneiert und festgelegt werden.
 
 Im Entwicklermodus navigieren Sie nach *Einstellungen > Technisch > Parameter > Systemparameter*. Auf der Kommandozeile geben Sie den Befehl `uuidgen` ein und legen die generierte UUID als Wert für den Parameter `database.uuid` fest.
 
-## Odoo Online Datenbank herunterladen
+## Infrastruktur
+
+### Odoo Online Datenbank herunterladen
 
 Damit Sie die Odoo Online Datenbank herunterladen können, öffnen Sie <https://www.odoo.com/de_DE/my/databases>. Hier haben Sie eine Übersicht iherer Odoo Online Datenbanken.
 

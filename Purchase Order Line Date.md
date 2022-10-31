@@ -12,7 +12,9 @@ Lieferdatum im Wareneingang automatisch nachtragen.
 Technischer Name: `purchase_order_line_date`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_line_date>
 
-## Lieferdatum aus Bestellung aktualisieren
+## Verwendung
+
+### Lieferdatum aus Bestellung aktualisieren
 
 Wenn Sie in der Positionszeile einer Bestellung das Lieferdatum aktualisieren, wird dieses im Wareneingang nachgetragen. Die Sicherheitsvorlaufzeit für den Einkauf wird wie folgt eingerechnet:
 

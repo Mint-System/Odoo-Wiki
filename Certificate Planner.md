@@ -12,37 +12,39 @@ Anleitung zur Odoo-App Certificate Planner.
 Technisch: `certificate_planer`\
 Repository: <https://github.com/Mint-System/Certificate-Planner>
 
-## Certificate Planner aufrufen
+## Verwendung
+
+### Certificate Planner aufrufen
 
 Nachdem Sie sich eingeloggt haben, können Sie den Certificate Planner über das App-Dashboard aufrufen.
 
 ![](assets/Certificate%20Planner%20aufrufen.gif)
 
-## Dokumentbericht erstellen
+### Dokumentbericht erstellen
 
 Berichte zu einem Dokument können Sie mit der Aktion *Document Report* erstellen.
 
 ![](assets/Certificate%20Planner%20Dokumentbericht%20erstellen.gif)
 
-## Feedback erstellen
+### Feedback erstellen
 
 Haben Sie eine Rückmeldung zur App, können Sie diese als Notiz dem Entwickler mitteilen.
 
 ![](assets/Certificate%20Planner%20Feedback%20erstellen.gif)
 
-## Kommentar bei Dokument hinterlassen
+### Kommentar bei Dokument hinterlassen
 
 Zur Rücksprache und Besprechung können Sie bei Dokumente einen Kommentar hinterlassen.
 
 ![](assets/Certificate%20Planner%20Kommentar%20bei%20Dokument%20hinterlassen.gif)
 
-## Mehrere Dokumentrevisionen bearbeiten
+### Mehrere Dokumentrevisionen bearbeiten
 
 Für bestimmte Listenansichten steht die Massenbearbeitung zur Verfügung.
 
 ![Certificate Planner Massenbearbeitung](assets/Certificate%20Planner%20Massenbearbeitung.gif)
 
-## Mehrere Dokumente und Parts importieren
+### Mehrere Dokumente und Parts importieren
 
 Mit der richtigen Vorbereitung können Dokumente, Parts und deren Beziehung in zwei Schritten importiert werden.
 
