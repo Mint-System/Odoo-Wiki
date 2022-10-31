@@ -146,3 +146,7 @@ Entfernen Sie den Steuersatz in der Spalte *Steuern*, wenn Sie keine Mehrwertste
 Wählen Sie *Finanzen > Finanzen > Steueranpassungen* und erstellen Sie einen neuen Eintrag. Schliessen Sie den Vorgang mit *Buchung Anlegen und Buchen* ab. Dazu ein Beispiel:
 
 ![](assets/Finanzen%20Buchhaltung%20Steueranpassung.png)
+
+## Interne Überweisung erstellen
+
+Wählen Sie *Finanzen > Bank-Journal > Kontextmenü > Interne Überweisung*. Wählen Sie ob mit *Zahlungsart*, ob Sie Geld empfang oder senden möchten. Geben Sie einen Betrag ein und schliessen Sie den Vorgang mit *Bestätigen* ab.
