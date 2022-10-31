@@ -14,7 +14,9 @@ Technischer Name: `website_discount_voucher`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/website_discount_voucher>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/website_discount_voucher/>
 
-## Promo-Code einrichten
+## Verwendung
+
+### Promo-Code einrichten
 
 Navigieren Sie nach *Website > Produkte > Produkte* und erstellen Sie ein neues Produkt vom Type Dienstleistung.
 

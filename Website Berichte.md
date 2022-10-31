@@ -8,7 +8,9 @@ prev: ./website
 
 Verkaufszahlen analysieren.
 
-## Verkaufszahlen auswerten
+## Berichte
+
+### Verkaufszahlen auswerten
 
 Zeigen Sie *Website > Berichtswesen > Online-Verkäufe* an und filtern Sie die Pivot-Ansicht gemäss ihren Anforderungen. Dazu ein Beispiel der meistverkauften Produkte:
 

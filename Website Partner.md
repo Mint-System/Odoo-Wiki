@@ -8,6 +8,8 @@ prev: ./website
 
 Partner auf Website publizieren.
 
-## Partner publizieren
+## Verwendung
+
+### Partner publizieren
 
 Zeigen Sie einen Partner via *Kontakte* an und klicken Sie auf *Gehe zu Website*. Auf der Website klicken Sie in der Menuleiste auf *Unveröffentlicht* um den Partner zu publizeren.

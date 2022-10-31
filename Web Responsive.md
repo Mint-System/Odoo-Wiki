@@ -12,13 +12,15 @@ Responsive Anzeige der Odoo-Oberfläche.
 Technischer Name: `web_responsive`\
 Repository: <https://github.com/OCA/web/tree/15.0/web_responsive>
 
-## App-Dashboard anzeigen
+## Verwendung
+
+### App-Dashboard anzeigen
 
 Mit dieser Erweiterung erhalten Sie ein übersichtliches App-Dashboard auf der Odoo Community Edition.
 
 ![](assets/Web%20Responsive.png)
 
-## Chatter-Position festlegen
+### Chatter-Position festlegen
 
 Die bevorzugte Position des Chatters kann festlegt werden. Klicken Sie auf ihren Namen oben rechts und navigieren Sie nach *Mein Profil > Einstellungen* und wklicken auf *Bearbeiten*. Wählen Sie unter *Chatter-Position* die bevorzuge Position aus:
 

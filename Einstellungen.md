@@ -32,7 +32,7 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 | [Web Editor Show Code](Web%20Editor%20Show%20Code.md) | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |
 | [Web Responsive](Web%20Responsive.md)                 | Responsive Anzeige der Odoo-Oberfläche.                              |
 
-## Entwickltermodus
+## Entwicklermodus
 
 ### Entwicklermodus aktivieren
 

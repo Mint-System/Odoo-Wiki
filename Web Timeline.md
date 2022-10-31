@@ -18,7 +18,9 @@ Repository: <https://github.com/OCA/web/tree/13.0/web_timeline>
 | --------------------------------------- | ------------------------------------- |
 | [Project timeline](Project%20Timeline.md) | Timeline-Ansicht für Projektaufgaben. |
 
-## Timeline für Abwesenheitszeiten anzeigen
+## Verwendung
+
+### Timeline für Abwesenheitszeiten anzeigen
 
 Damit der Ansichtstyp *Timeline* für die App *Abwesenheitszeiten* angezeigt werden kann, müssen folgende Anpassungen vorgenommen werden:
 
