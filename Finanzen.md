@@ -49,15 +49,9 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                                               | Generierung der QR-Rechnung ohne ISR-Nummer.                                |
 | [Switzerland QR-Bill Scan](Switzerland%20QR-Bill%20Scan.md)                                                     | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
 
-## Rechnung per E-Mail empfangen
+## Bank-Jounal
 
-Öffnen Sie die Journal-Einstellungen via *Finanzen > Konfiguration > Finanzen > Journale* und wählen Sie das Journal für das Rechnungen empfangen und erstellt werden sollen. Öffnen Sie den Tab *Erweiterte Einstellungen* und tragen Sie im Feld *E-Mail-Alias* die Empfangsadresse ein.
-
-![](assets/Finanzen%20Journal%20E-Mail-Alias.png)
-
-Anhänge an E-Mails mit diesem Alias aus dem Odoo-Postfach werden fortan als Rechnung erfasst.
-
-## Bank-Journal einrichten
+### Bank-Journal einrichten
 
 Öffnen Sie das Bank-Journal via *Finanzen > Dashboard > Kontextmenü Bank > Konfiguration*. Im Tab *Buchungssätze* geben legen Sie im Feld *Bankkonto* das entsprechende Konto aus dem Kontenplan fest.
 
@@ -73,7 +67,7 @@ Ein Beispiel wie der Kontenplan nach der Konfiguration ausseiht
 * 1034 Ausstehende Einzahlungen (Umlaufvermögen)
 :::
 
-## Bank-Synchronisation konfigurieren
+### Bank-Synchronisation konfigurieren
 
 Fügen Sie ihre Bank via *Konfiguration > Bankverzeichnis > Eine Bank hinzufügen* hinzu.
 
@@ -97,7 +91,7 @@ Führen Sie diese wie gewohnt aus. Nun verbindet Saltedge den Odoo-Account mit d
 
 Es wird nun ein neues Journal zur Synchronisation erstellt.
 
-## Bank-Synchronisation einrichten
+### Bank-Synchronisation einrichten
 
 Wählen Sie *Finanzen > Konfiguration > Journale* und wählen Sie das Bank-Journal aus. Im Tab *Buchungssätze* legen Sie für das Feld *Bank-Datenübertragung* die Option *Automatisierte Banksynchronisation* fest.
 
@@ -105,28 +99,42 @@ Dann gehen Sie nach *Finanznen > Konfiguration > Online Synchronisation* und wä
 
 ![](assets/Fianzen%20Bank-Journal%20eintragen.png)
 
-## Kommunikationsstandard festlegen
+### Kommunikationsstandard festlegen
 
 Der Kommunikationsstandard ist entscheidend bei der Generierung von Zahlungsreferenzen. Öffnen Sie ein Journal via *Finanzen > Konfiguration > Journale* und zeigen Sie den Tab *Erweiterte Einstellungen* an. Legen Sie im Feld *Kommunikationsstandard* den passenden Wert fest.
 
-## Mehrere Rechnung versenden
+## Empfang und Versand
+
+### Rechnung per E-Mail empfangen
+
+Öffnen Sie die Journal-Einstellungen via *Finanzen > Konfiguration > Finanzen > Journale* und wählen Sie das Journal für das Rechnungen empfangen und erstellt werden sollen. Öffnen Sie den Tab *Erweiterte Einstellungen* und tragen Sie im Feld *E-Mail-Alias* die Empfangsadresse ein.
+
+![](assets/Finanzen%20Journal%20E-Mail-Alias.png)
+
+Anhänge an E-Mails mit diesem Alias aus dem Odoo-Postfach werden fortan als Rechnung erfasst.
+
+### Mehrere Rechnung versenden
 
 Zeigen Sie *Finanzen > Kunden > Rechnung* an und filtern Sie die Rechnung nach *Status* und *Zahlung*. Markieren Sie die Rechnungen, die Sie versenden möchten und wählen Sie *Aktion > Senden & Drucken*. Wählen Sie für E-Mail eine Mail-Vorlage aus und drücken Sie auf *Senden*.
 
-## Unversendete Rechnungen anzeigen
+### Unversendete Rechnungen anzeigen
 
 Navigieren Sie nach *Finanzen > Kunden > Rechnungen* und wählen Sie *Filter > Benutzerdefinierten Filter hinzufügen*. Als Feld definieren Sie *Rechnung Verschickt* mit Bedingung *Ist falsch*. Nun erhalten Sie alle unversendeneten Rechnungen.
 
-## Standard-Versandoptionen definieren
+### Standard-Versandoptionen definieren
 
 Zeigen Sie den  Abschnitt *Finanzen > Konfiguration > Einstellungen > Ausgangsrechnungen* an. Legen Sie im Bereich *Standard-Versandoptionen* die Standardoptionen zum Versand fest.
 
-## Zahlungsbedingung mit Rabatt einrichten
+## Rabatt
+
+### Zahlungsbedingung mit Rabatt einrichten
 
 Navigieren Sie nach *Finanzen > Konfiguration > Abrechnung > Zahlungsbedingungen* und erstellen Sie einen neuen Eintrag wie folgt. Duplizieren Sie eine bestehende Zahlungsbedingung, beispielsweise *30 Tage*. Wir nehmen an, dass wir für eine Zahlung innerhalb von Tagen 10 eine Skonto von 10% gewähren.
 
 ![](assets/Finanzen%20Rabatt.png)
 
-## Portal-Ansicht von Rechnung anzeigen
+## Portal
+
+### Portal-Ansicht von Rechnung anzeigen
 
 Um die Portal-Ansicht einer Rechnung anzuzeigen gehen Sie wie folgt vor *Abrechnung > Kunden > Rechnungen > Rechnung auswählen* und dann auf *Vorschau* klicken. Nun öffnet sich die Portal-Ansicht in einem neuen Tab.

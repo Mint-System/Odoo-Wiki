@@ -9,7 +9,9 @@ prev: ./finanzen
 
 Neue Aktionen für Buchungen und Abstimmungen.
 
-## Aktion "Als gesendet markieren" erstellen
+## Aktionen
+
+### Aktion "Als gesendet markieren" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -27,7 +29,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Als gesendet markieren*.
 
 
-## Aktion "Als ungebucht markieren" erstellen
+### Aktion "Als ungebucht markieren" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -46,7 +48,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Als ungebucht markieren*.
 
-## Aktion "Bankauszug zurücksetzen" erstellen
+### Aktion "Bankauszug zurücksetzen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -65,7 +67,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Belege erscheint nun in der Auswahl *Aktion* das Menu *Bankauszug zurücksetzen*.
 
-## Aktion "Buchungszeilen aktualisieren" erstellen
+### Aktion "Buchungszeilen aktualisieren" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -83,7 +85,7 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *
 
 ![Finanzen Buchungszeilen aktualisieren](assets/Finanzen%20Buchungszeilen%20aktualisieren.gif)
 
-## Aktion "Reset to Draft" erstellen
+### Aktion "Reset to Draft" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -102,7 +104,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Reset to Draft*.
 
-## Aktion "Abstimmung zurücksetzen" erstellen
+### Aktion "Abstimmung zurücksetzen" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -121,7 +123,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Vorgänge erscheint nun in der Auswahl *Aktion* das Menu *Abstimmung zurücksetzen*.
 
-## Aktion "Reset to Posted" erstellen
+### Aktion "Reset to Posted" erstellen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -139,3 +141,22 @@ for record in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Reset to Posted*.
+
+## Aktion  "Zahlung gesendet zurücksetzen" erstellen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Zahlung gesendet zurücksetzen`\
+Modell: `account.payment`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```python
+for record in records:  
+  record.write({'is_move_sent': False})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Zahlung erscheint nun in der Auswahl *Aktion* das Menu *Zahlung gesendet zurücksetzen*.

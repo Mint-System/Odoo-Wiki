@@ -9,11 +9,13 @@ prev: ./finanzen
 
 Anlagen verwalten und automatisch Abschreibungen erstellen.
 
-## Journal Inventur erstellen
+## Anlagenverwaltung
+
+### Journal Inventur erstellen
 
 Zur Verwaltung und Abschreibung der Anlagen soll ein eigenes Journal erstellt werden. Navigieren Sie nach *Finanzen > Konfiugration > Journale* und erstellen Sie ein neues Journal vom Typ *Sonstiges*.
 
-## Anlagevermögen erstellen
+### Anlagevermögen erstellen
 
 Rufen Sie *Finanzen > Finanzen > Anlagevermögen* auf und erstellen Sie einen neuen Eintrag mit diesen Parameter:
 
@@ -37,19 +39,19 @@ Für korrekte Buchungen geben Sie im Abschnitt Finanzen diese Werte an:
 
 Aktivieren Sie die Anlage *Bestätigen*.
 
-## Abschreibungsspiegel berechnen
+### Abschreibungsspiegel berechnen
 
 Zeigen Sie eine Anlage mit Abschreibungen an *Finanzen > Finanzen > Anlagevermögen* und klicken Sie auf *Abschreibungen Berechnen*. Im Tab *Abschreibungsspiegel* werden die Abschreibungen für die Buchung vorbereitet.
 
 ![](assets/Finanzen%20Anlagenverwaltung%20Buchung%20Abschreibung.png)
 
-## Anlageklasse erfassen
+### Anlageklasse erfassen
 
 Anlageklasse (Abschreibungsmodelle) können Sie unter *Finanzen > Konfiguration > Anlageklasse* vorerfassen. Mit diesen Modellen können Sie schneller neue Anlagen mit Abschreibungen erfassen. Dazu ein Beispiel mit 10% Abschreibung über 10 Jahre: 
 
 ![](assets/Finanzen%20Anlagenverwaltung%20Asset%20Modell.png)
 
-## Aus Lieferantenrechnung eine Anlage mit Abschreibung erstellen
+### Aus Lieferantenrechnung eine Anlage mit Abschreibung erstellen
 
 Wenn Sie auf dem Aktivenkonto eine Anlageklasse (Abschreibungsmodell) hinterlegen, wird aus einer Rechnungszeile direkt eine Anlage mit Abschreibung erstellt und verknüpft. Zur Aktivierung rufen Sie das Konto in der Formularansicht auf.
 

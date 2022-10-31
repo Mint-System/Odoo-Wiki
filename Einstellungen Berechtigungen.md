@@ -8,11 +8,46 @@ prev: ./einstellungen
 
 Einstellungen zur Zugriffsrechte und Gruppen.
 
-## Benutzer-Gruppen anzeigen
+## Benutzerrechte
+
+### Kundenregistration erlauben
+
+Damit Besucher der Website sich im Odoo-Portal registrieren könne muss die Option *Einstellungen > Allgemeine Einstellungen > Berechtigungen > Kundenkontro > Kostenlose Anmeldung* aktiviert sein.
+
+### Rollen erstellen
+
+::: warning
+Diese Anleitung erfordert das Modul `base_user_role`.
+:::
+
+Die Gruppenrechte können mit Benutzerrollen zusammengefasst werden. Mit der entsprechenden Erweiterung kann man Rollen erstellen, Gruppen hinzufügen und diese für einen Benutzer aktivieren.
+
+Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Roles* und wählen Sie *Anlegen*. Erstellen zur Initierung eine Administratoren-Rolle mit diesen Angaben:
+
+![](assets/Odoo%20Einstellungen%20Benutzerrolle%20Administrator.png)
+
+Weisen Sie im Tab *Benutzer* die Rolle einem Benutzer zu. Ist die Rolle aktiv, überschreibt Sie die existierenden Berechtigungen.
+
+### Benutzerrechte vergeben
+Aufgabenträger: [Administrator](Rollen.md#Administrator)
+
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen Sie den Benutzer, dessen Zugriffsrechte Sie verändern möchten. Drücken Sie auf *Bearbeiten* und wählen Sie nun über die Dropdown oder Checkboxen die Rollen und Zugriffe aus.
+
+![Odoo Benutzerrechte](assets/Einstellungen%20Benutzerrechte.png)
+
+Klicken Sie auf speichern um den Vorgang abzuschliessen.
+
+::: warning
+Damit die neuen Rechte für den Benutzer sichtbar sind, muss dieser den Browser aktualisieren.
+:::
+
+## Gruppenberechtigung
+
+### Benutzer-Gruppen anzeigen
 
 Gruppen verwalten Sie unter *Einstellungen > Benutzer und Unternehmen > Gruppen*.
 
-## Benutzer-Gruppe erstellen
+### Benutzer-Gruppe erstellen
 
 Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und erstellen Sie einen neuen Eintrag.
 
@@ -24,3 +59,21 @@ Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und ers
 * **Ansichten**: Sichtbarkeit von von Ansichten.
 * **Zugriffsrechte**: Zugriffsrechte auf Datenmodelle.
 * **Rechte für Daten**: Filterung von Daten. Übersteuert Zugriffsrechte.
+
+## App-Berechtigungen
+
+### Berechtigungen zurücksetzen
+
+Bei einem Modul- oder Odoo-Upgrade können sich die Berechtigungsstrukturen ändern. Falls sich diese nicht korrekt verhalten, kann man die Berechtigungen zurücksetzen. Als Anwendungsfall nehmen wir die Berechtigungen für [Anwesenheitszeiten](Anwesenheitszeiten.md).
+
+Eine Fehlerhafte Struktur wird in der Ansicht Benutzerberechtiung beispielsweise so darsgestellt:
+
+![](assets/Einstellungen%20fehlerhafte%20Berechtigungsstruktur.png)
+
+Zur Bereinigung öffnen Sie als erstes *Einstellungen > Technisch > Sicherheit > Zugriffsrechte*. Suchen Sie hier nach Einträgen mit Modul `hr_attendance` und löschen Sie diese.
+
+Als nächstes öffnen Sie *Einstellungen > Benutzer und Unternehmen > Gruppen* und  suchen nach *Anwesenheit*. Öffnen Sie jede Gruppe  entfernen Sie im Tab *Benutzer* und *Reche für Daten* alle Einträge.
+
+Zuletzt installiere Sie die App `hr_attendance` neu. Nun sollten die Ursprünglichen Berechtigungsstrukturen wiederhergestellt sein.
+
+![](assets/Einstellungen%20Berechtigungen%20korrigiert.png)

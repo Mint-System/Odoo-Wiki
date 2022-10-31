@@ -8,7 +8,9 @@ prev: ./finanzen
 
 Bankkonto mit Odoo abgleichen.
 
-## Kontoauszug importieren
+## Abstimmung
+
+### Kontoauszug importieren
 
 Zeigen Sie das Dashboard von *Finanzen* an. Wählen Sie *Import* unter dem Name des Bankjournals. Laden Sie im Dialog die Datei mit den Kontoauszügen hoch.
 
@@ -16,15 +18,15 @@ Zeigen Sie das Dashboard von *Finanzen* an. Wählen Sie *Import* unter dem Name 
 
 Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Bewebungen wird angezeigt.
 
-## Abstimmung durchführen
+### Abstimmung durchführen
 
 Öffnen Sie die Übersicht der Journale via *Finanzen* und klicken auf den Knopf *Abstimmen X Artikel* des entsprechenden Bankjournals.
 
-## Überfällige Forderungen abtimmen
+### Überfällige Forderungen abtimmen
 
 Navigieren Sie nach *Finanzen > FInanzen > Überfällige Forderungen* und erweitern Sie den Eintrag zu einem Partner. Wählen Sie Ausgleich und anschliessend den offenen Betrag. Erstellen Sie eine Gegenbuchung und schliessend Sie den Vorgang mit *Abstimmen* ab.
 
-## Ausgleichsmodell erstellen
+### Ausgleichsmodell erstellen
 
 Navigieren Sie nach *Finanzen > Konfiguration > Ausgleichsmodelle* und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel zur Rundungsdifferenz:
 

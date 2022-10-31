@@ -154,14 +154,24 @@ Für jede Odoo-App existiert eine Seite. Beispielsweise gibt es die Seite [Notiz
 
 Informationen zur App
 
-## Aufgabenbeschreibung
+## Bereiche
+
+| Bereich  | Beschreibung |
+| --- | --- |
+| [Appname Stammdaten](Appname%20Stammdaten.md) | Daten zentral pflegen. |
+
+## Erweiterungen
+
+| Bereich  | Beschreibung |
+| --- | --- |
+| [Appname Erweiterung](Appname%Erweiterung.md) | App erweitern. |
+
+## Abschnitt
+
+### Aufgabenbeschreibung
 Aufgabenträger: ![](Rollen#Rollenname)
 
 Beschreibung zur Interaktion mit der App
-
-### Abschnitt
-
-Weitere Erläuterungen.
 
 ```
 
