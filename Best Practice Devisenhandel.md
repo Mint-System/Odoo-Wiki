@@ -13,7 +13,7 @@ Als erstes müssen Sie auf dem CHF-Bankjournal eine [interne Überweisung erstel
 
 Auf dem USD-Bankjournal erstellen Sie eine interne Überweisung mit der Optional *Geld erhalten* als *Zahlungsart*.
 
-Nun führen Sie die entsprechende Überweisung im eBanking bzw. Portal für den Devisenhandel aus..
+Nun führen Sie die entsprechende Überweisung im eBanking bzw. Portal für den Devisenhandel aus.
 
 Wurde die Überweisung ausgeführt, können Sie für beide Bankjournale eine [Abstimmung durchführen](Finanzen%20Abstimmung.md#Abstimmung%20durchführen).
 
