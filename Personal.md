@@ -49,7 +49,7 @@ Alternativ können Sie nach *Einstellungen > Benutzer > Benutzer verwalten* navi
 
 Damit Prozesse korrekt Ablaufen, muss die *Organisations-Charta* konfiguriert werden. Öffnen Sie den Mitarbeitenden via *Personal* und wählen im Feld *Manager* den Vorgesetzten aus. Die Visualisierung der Organisationsstruktur wird aktualisiert, sobald die Anpassung gespeichert ist.
 
-## Benutzer mit Mitarbeiter verknüpfen
+### Benutzer mit Mitarbeiter verknüpfen
 
 Sie können einen bestehenden Benutzer mit einem Mitarbeitenden-Eintrag verknüpfen. Zeigen Sie den Eintrag via *Personal* an und öffnen Sie den Tab *HR Einstellungen*. Wählen Sie hier im Feld *Verknüpfter Benutzer* den entsprechenden Benutzer aus.
 
