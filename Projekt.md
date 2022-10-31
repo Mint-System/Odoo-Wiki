@@ -34,7 +34,7 @@ Website: <https://www.odoo.com/de_DE/app/project>
 | [Project timesheet time control](Project%20timesheet%20time%20control.md) | Zeiterfassung auf Projektaufgabe starten.              |
 | [Sequential Code for Tasks](Sequential%20Code%20for%20Tasks.md)           | Sequenznummer für Projektaufgaben.                     |
 
-## Projektmanagement
+## Verwaltung
 
 ### Projekt anlegen
 
@@ -77,6 +77,8 @@ Beim der Duplizierung eines Projekts werden deren Aufgaben und Phasen mitkopiert
 Um ein Projekt zu duplizieren führen Sie folgende Aktion aus *Projekt > Projekt wählen > Übersicht > Smart-Link Projekt > Aktion > Duplizieren*.
 
 ![Projekt duplizieren](assets/Projekt%20duplizieren.gif)
+
+## Auswertung
 
 ### Gantt-Ansicht anzeigen
 
