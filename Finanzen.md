@@ -103,7 +103,7 @@ Dann gehen Sie nach *Finanznen > Konfiguration > Online Synchronisation* und wä
 
 Der Kommunikationsstandard ist entscheidend bei der Generierung von Zahlungsreferenzen. Öffnen Sie ein Journal via *Finanzen > Konfiguration > Journale* und zeigen Sie den Tab *Erweiterte Einstellungen* an. Legen Sie im Feld *Kommunikationsstandard* den passenden Wert fest.
 
-## Empfang und Versand
+## Empfang
 
 ### Rechnung per E-Mail empfangen
 
@@ -112,6 +112,8 @@ Der Kommunikationsstandard ist entscheidend bei der Generierung von Zahlungsrefe
 ![](assets/Finanzen%20Journal%20E-Mail-Alias.png)
 
 Anhänge an E-Mails mit diesem Alias aus dem Odoo-Postfach werden fortan als Rechnung erfasst.
+
+## Versand
 
 ### Mehrere Rechnung versenden
 
