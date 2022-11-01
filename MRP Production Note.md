@@ -14,6 +14,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_
 
 ## Verwendung
 
-## Notiz auf Fertigungsauftrag hinzufügen
+### Notiz auf Fertigungsauftrag hinzufügen
 
 Öffnen Sie den Tab *Sonstiges* eines Fertigungsauftrags unter *Fertigung > Vorgänge > Fertigungsaufträge*. Fügen Sie im Feld *Notiz* einen Kommentar hinzu.
