@@ -85,7 +85,7 @@ Die Portal-Ansicht einer Bestellung können Sie wie folgt anzeigen:
 In einem privaten Browser werden die Cookies nicht geladen und somit wird man nicht automatisch bei Odoo angemeldet.
 :::
 
-## Adresse
+## Adressen
 
 ### Lieferadresse ändern
 Auf einer Bestellung ist die Lieferadresse standardmässig die Adresse der eigenen Firma gemäss *Einstellungen > Unternehmen*.
