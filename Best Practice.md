@@ -7,24 +7,6 @@ prev: ./
 
 Beschreibt wie man bestimmte Anwendungsfälle in Odoo implementiert.
 
-## Beispiel-Daten
-
-Mit Beispiel-Daten werden Anwendungsfälle illustriert und die Implementation von Odoo unterstützt.
-
-* [Definition Beispiel Fahrrad](Best%20Practice%20Definition%20Beispiel%20Fahrrad.md)
-* [Finanzen Journale](Best%20Practice%20Finanzen%20Journale.md)
-* [Lohnbuchhaltung](Best%20Practice%20Lohnbuchhaltung.md)
-
-## Use Cases
-
-Komplexe vertikale Odoo Implementationen werden mit Use Cases beschrieben.
-
-### [Schokoladenfabrik](Use%20Case%20Schokoladenfabrik.md)
-
-In der Lebensmittelbranche müssen mehrstufige Qualitätskontrollen für Rohstoffe, Halbfabriakte und Fertigprodukte absolviert werden. In diesem Use Case wird beschrieben wie mit Odoo mehrstufige Routen für den Einkauf, die Fertigung und das Lager konfiguriert werden und wie diese mit der Qualitätskontrolle verknüpft werden.
-
-Hier geht es zum [Use Case - Schokoladenfabrik](Use%20Case%20Schokoladenfabrik.md).
-
 ## Best Practices
 
 Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best Practices verweisen zur Implementation auf die HowTos.
@@ -95,3 +77,21 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Datumsfelder](Best%20Practice%20Datumsfelder.md)
 * [Direct Print](Best%20Practice%20Direct%20Print.md)
 * [E-Mail Vorlagen](Best%20Practice%20E-Mail%20Vorlagen.md)
+
+## Use Cases
+
+Komplexe vertikale Odoo Implementationen werden mit Use Cases beschrieben.
+
+### [Schokoladenfabrik](Use%20Case%20Schokoladenfabrik.md)
+
+In der Lebensmittelbranche müssen mehrstufige Qualitätskontrollen für Rohstoffe, Halbfabriakte und Fertigprodukte absolviert werden. In diesem Use Case wird beschrieben wie mit Odoo mehrstufige Routen für den Einkauf, die Fertigung und das Lager konfiguriert werden und wie diese mit der Qualitätskontrolle verknüpft werden.
+
+Hier geht es zum [Use Case - Schokoladenfabrik](Use%20Case%20Schokoladenfabrik.md).
+
+## Beispiel-Daten
+
+Mit Beispiel-Daten werden Anwendungsfälle illustriert und die Implementation von Odoo unterstützt.
+
+* [Definition Beispiel Fahrrad](Best%20Practice%20Definition%20Beispiel%20Fahrrad.md)
+* [Finanzen Journale](Best%20Practice%20Finanzen%20Journale.md)
+* [Lohnbuchhaltung](Best%20Practice%20Lohnbuchhaltung.md)
