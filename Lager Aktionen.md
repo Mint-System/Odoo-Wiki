@@ -222,7 +222,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstelle
 
 Name der Aktion: `Los aus Anlieferung zuweisen`\
 Modell: `ir.actions.server`\
-Ausführen alle: `15` Minuten\
+Ausführen alle: `5` Minuten\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
@@ -286,7 +286,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstelle
 
 Name der Aktion: `Erledigte Menge aktualisieren`\
 Modell: `ir.actions.server`\
-Ausführen alle: `15` Minuten\
+Ausführen alle: `5` Minuten\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
@@ -326,15 +326,38 @@ for line in fix_move_lines:
     line.write({
       'qty_done': line.product_uom_qty if line.product_uom_qty >0 else line.move_id.product_uom_qty
     })
+```
+
+### Geplante Aktion "Wartende Aufträge bestätigen" erstellen
+
+Diese Aktion versetzt Lieferungen im Status *Waiting* in den Status *Assigned.*
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Wartende Aufträge bestätigen`\
+Modell: `ir.actions.server`\
+Ausführen alle: `5` Minuten\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Set products to ignore
+except_product_names = ["Gebinde", "Gebinde Migros"]
+
+# Get outgoing pickings in waiting state
+pickings = env['stock.picking'].search(["&",
+  ("picking_type_id", "=", 2),
+  ("state", "in", ["waiting"]
+)])
 
 # Assign pickings
-# assign_pickings = pickings.filtered(lambda p: p.state in ["confirmed"])
+if pickings:
+	log('Assign pickings: %s' % (', '.join(pickings.name)))
 
-# if assign_pickings:
-# 	log('Assign pickings: %s' % (assign_pickings))
-
-# for picking in assign_pickings:
-#     picking.write({'state': 'assigned'})
+pickings.write({'state': 'assigned'})
 ```
 
 ### Geplante Aktion "Versandprodukte aktualisieren" erstellen
@@ -379,7 +402,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstelle
 
 Name der Aktion: `Lot von Forecast zuweisen`\
 Modell: `ir.actions.server`\
-Ausführen alle: `15` Minuten\
+Ausführen alle: `5` Minuten\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
