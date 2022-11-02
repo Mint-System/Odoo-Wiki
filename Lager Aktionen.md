@@ -237,7 +237,13 @@ scope_days = 7
 # pickings_out = env['stock.picking'].search(["&", ["picking_type_code", "=", "outgoing"], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
 # Get confirmed incoming pickings
-pickings_in = env['stock.picking'].search(["&", ["picking_type_code", "=", "incoming"], ("state", "in", ["confirmed", "assigned", "partially_available"])])
+date_now = datetime.datetime.now()
+scheduled_from = date_now - datetime.timedelta(days=scope_days)
+pickings_in = env['stock.picking'].search(["&", 
+  ("picking_type_code", "=", "incoming"),
+  ("state", "in", ["confirmed", "assigned", "partially_available", "done"]),
+  ("scheduled_date", ">=", scheduled_from)
+], order="scheduled_date desc")
 
 # Lookup unfinished manufacturing orders
 production_ids = env['mrp.production'].search([('state', 'in', ['confirmed','progress','to_close'])])
@@ -245,13 +251,13 @@ production_ids = env['mrp.production'].search([('state', 'in', ['confirmed','pro
 # Get move lines with lot and tracking enabled
 lot_move_lines = pickings_in.move_line_ids.filtered(lambda l: l.lot_id and l.tracking)
 
-# raise UserError(production_ids)
+# raise UserError(pickings_in)
 
 # Get lines where lot is not set and tracking enabled
 # fix_move_lines = pickings_out.move_line_ids.filtered(lambda l: not l.lot_id and l.tracking)
 fix_move_lines = production_ids.move_raw_ids.move_line_ids.filtered(lambda l: not l.lot_id and l.tracking)
 
-# raise UserError(fix_move_lines)
+# raise UserError([fix_move_lines[0].reference, fix_move_lines[0].product_id, fix_move_lines[0].move_id.date, lot_move_lines[0].reference, lot_move_lines[0].product_id, lot_move_lines[0].move_id.date])
 
 messages = []
 for line in fix_move_lines:
@@ -259,13 +265,14 @@ for line in fix_move_lines:
   match_lot_move_lines = lot_move_lines.filtered(lambda l: l.product_id == line.product_id and ((line.move_id.date - datetime.timedelta(days=scope_days)) < l.move_id.date and l.move_id.date < line.move_id.date))
   if match_lot_move_lines:
     match_line = match_lot_move_lines[0]
-    messages.append('Set matching lot from %s on %s.' % (match_line,line))
+    # raise UserError(match_line)
+    messages.append('Set matching lot from %s on %s.' % (match_line.reference, line.reference))
     try:
       line.write({
         'lot_id': match_line.lot_id,
       })
     except:
-      log('While writing %s with %s an error occured.' % (line, match_line.lot_id), level='error')
+      log('While writing %s with %s an error occured.' % (line.reference, match_line.lot_id.name), level='error')
 
 if messages:
   log(' '.join(messages))
@@ -291,14 +298,14 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 except_product_names = ["Gebinde", "Gebinde Migros"]
 
 # Get pickings to be processed
-pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "waiting", "partially_available"])])
+# pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "waiting", "partially_available"])])
 
 # Lookup unfinished manufacturing orders
 production_ids = env['mrp.production'].search([('state', 'in', ['confirmed','progress','to_close'])])
 
 # Get moves where qty done it not equal to demand
-fix_moves = pickings.move_lines.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
-fix_moves += production_ids.move_raw_ids.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
+# fix_moves = pickings.move_lines.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
+fix_moves = production_ids.move_raw_ids.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
 
 # Set qty done on moves
 if fix_moves:
@@ -314,20 +321,20 @@ fix_move_lines = fix_moves.mapped('move_line_ids').filtered(lambda l: l.qty_done
 
 # Set qty done with reservation value 
 if fix_move_lines:
-	log('Fix qty done on move lines: %s' % (fix_move_lines))
+	log('Fix qty done on move lines: %s' % (fix_move_lines.reference))
 for line in fix_move_lines:
     line.write({
       'qty_done': line.product_uom_qty if line.product_uom_qty >0 else line.move_id.product_uom_qty
     })
 
 # Assign pickings
-assign_pickings = pickings.filtered(lambda p: p.state in ["confirmed"])
+# assign_pickings = pickings.filtered(lambda p: p.state in ["confirmed"])
 
-if assign_pickings:
-	log('Assign pickings: %s' % (assign_pickings))
+# if assign_pickings:
+# 	log('Assign pickings: %s' % (assign_pickings))
 
-for picking in assign_pickings:
-    picking.write({'state': 'assigned'})
+# for picking in assign_pickings:
+#     picking.write({'state': 'assigned'})
 ```
 
 ### Geplante Aktion "Versandprodukte aktualisieren" erstellen
@@ -350,22 +357,20 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "partially_available"])])
 
 # Update transport moves
-
 transport_product_name = "Gebinde"
 transport_moves = []
-
 for picking in pickings:
   # Check if picking has a transport move
   transport_move_ids = picking.move_lines.filtered(lambda m: transport_product_name in m.product_id.name)
   if transport_move_ids:
-    # Count boxes and set as qty done if not null
+    # Count boxes and set qty done if not null
     x_count_boxes_sum = sum(picking.move_lines.mapped("x_count_boxes"))
     for transport_move in transport_move_ids:
-      if transport_move.quantity_done <= 1 and x_count_boxes_sum > 0:
-        transport_moves.append(transport_move)
+      if transport_move.quantity_done != x_count_boxes_sum and x_count_boxes_sum > 0:
+        transport_moves.append(transport_move.reference)
         transport_move.write({'quantity_done': x_count_boxes_sum, 'product_uom_qty': x_count_boxes_sum})
 if transport_moves:
-  log('Fix qty done for transport moves: %s' % (transport_moves))
+  log('Fix qty done for transport moves: %s' % (','.join(transport_moves)))
 ```
 
 ### Geplante Aktion "Los aus Forecast zuweisen" erstellen
