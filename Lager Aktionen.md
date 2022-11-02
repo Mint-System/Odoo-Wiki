@@ -307,21 +307,23 @@ production_ids = env['mrp.production'].search([('state', 'in', ['confirmed','pro
 # fix_moves = pickings.move_lines.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
 fix_moves = production_ids.move_raw_ids.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
 
+# raise UserError(fix_moves.mapped('reference'))
+
 # Set qty done on moves
 if fix_moves:
-	log('Set qty done on moves: %s' % (fix_moves))
+	log('Set qty done on moves: %s' % (', '.join(fix_moves.mapped('reference'))))
 for move in fix_moves:
     try:
         move.write({'quantity_done': move.product_uom_qty})
     except:
-        log('While writing move %s with origin %s an error occured.' % (move, move.origin), level='error')
+        log('While writing move %s an error occured.' % (move.reference), level='error')
       
 # Get lines where qty done is not equal to demand and no move line has been created
 fix_move_lines = fix_moves.mapped('move_line_ids').filtered(lambda l: l.qty_done != l.product_uom_qty)
 
 # Set qty done with reservation value 
 if fix_move_lines:
-	log('Fix qty done on move lines: %s' % (fix_move_lines.reference))
+	log('Fix qty done on move lines: %s' % (', '.join(fix_move_lines.mapped('reference'))))
 for line in fix_move_lines:
     line.write({
       'qty_done': line.product_uom_qty if line.product_uom_qty >0 else line.move_id.product_uom_qty
