@@ -78,6 +78,16 @@ Möchten Sie die Buchungszeilen des Umsatzsteuerberichts anzeigen, öffnen Sie *
 
 ## Mahnwesen
 
+### Mahnstufen einrichten
+
+Navigieren Sie nach *Finanzen > Konfiguration >Mahnstufen* und erstellen Sie hier einen neuen Eintrag.
+
+Mit der Eintage der Anzahl Tage bei *Nach __ bei fällig, tun Sie folgendes:* wird die entsprechende Mahnstufe gemäss Fälligkeit der offenen Rechnungen wirksam.
+
+::: tip
+Die geplante Aktion *Follow-up des Kontoberichts; Follow-up durchführen* löst die Prüfung der Mahnstufen aus. Sie wird täglich ausgefüh
+:::
+
 ### Mahnberichte anzeigen
 
 Sie finden eine Aufstellung der Mahnungen via *Finanzen > Kunden > Mahnberichte*.

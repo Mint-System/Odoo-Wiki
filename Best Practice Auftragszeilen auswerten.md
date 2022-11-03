@@ -23,7 +23,7 @@ Als Einstieg können Sie diese Auswertungen erstellen:
 | Filterbezeichnung | Verkauf nach Produktgruppen pro Monat 🗓️                                                                                                      |
 | Modell            | Sale Order Line                                                                                                                               |
 | Aktion            | Auftragszeilen                                                                                                                                              |
-| Domain            | `[["price_subtotal",">",0]]`                                                                                                                  |
+| Domain            | `[["untaxed_amount_invoiced",">",0]]`                                                                                                                  |
 | Kontext           | `{'pivot_measures': ['price_subtotal'], 'pivot_column_groupby': ['x_date_order:month'], 'pivot_row_groupby': ['x_categ_id'], 'group_by': []}` |
 
 ### Vorjahresvergleich Produktgruppen
