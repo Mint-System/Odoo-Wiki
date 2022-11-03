@@ -74,11 +74,11 @@ Neue Apps installieren und aktualisieren.
 
 [![icons_odoo_modules](assets/icons_odoo_modules.png)  ](Apps.md)
 
-### [Aufwand](Aufwand.md)
+### [Auslagen](Auslagen.md)
 
 Spesen erfassen und abrechnen.
 
-[![icons_odoo_hr_expense](assets/icons_odoo_hr_expense.png)](Aufwand.md)
+[![icons_odoo_hr_expense](Auslagen.md)
 
 ### [Certificate Planner](Certificate%20Planner.md)
 

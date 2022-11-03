@@ -85,7 +85,7 @@ Navigieren Sie nach *Finanzen > Konfiguration >Mahnstufen* und erstellen Sie hie
 Mit der Eintage der Anzahl Tage bei *Nach __ bei fällig, tun Sie folgendes:* wird die entsprechende Mahnstufe gemäss Fälligkeit der offenen Rechnungen wirksam.
 
 ::: tip
-Die geplante Aktion *Follow-up des Kontoberichts; Follow-up durchführen* löst die Prüfung der Mahnstufen aus. Sie wird täglich ausgefüh
+Die geplante Aktion *Follow-up des Kontoberichts; Follow-up durchführen* löst die Prüfung der Mahnstufen aus. Sie wird täglich ausgeführt.
 :::
 
 ### Mahnberichte anzeigen
