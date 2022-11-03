@@ -12,11 +12,11 @@ Personalbrechnungen schnell und einfach erstellen.
 
 | Erweiterung                                                     | Beschreibung                                 |
 | --------------------------------------------------------------- | -------------------------------------------- |
-| [Swiss Payroll](Swiss%20Payroll.md)                             | Lohnabrechnung nach Schweizer Anforderungen. |
 | [Lohnmeldung](Lohnmeldung.md)                                   | Lohnmeldungen ganz einfach generieren.       |
-| [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md) | Lohnabrechnungen mit variablen Eingaben.     |
-| [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md) | Berichte für Lohnbuchhaltung erstellen.      |
 | [Personalabrechnung Aktionen](Personalabrechnung%20Aktionen.md) | Lohnabrechnung automatisieren.               |
+| [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md) | Berichte für Lohnbuchhaltung erstellen.      |
+| [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md) | Lohnabrechnungen mit variablen Eingaben.     |
+| [Swiss Payroll](Swiss%20Payroll.md)                             | Lohnabrechnung nach Schweizer Anforderungen. |
 
 ## Konfiguration
 

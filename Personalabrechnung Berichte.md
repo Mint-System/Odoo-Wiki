@@ -10,6 +10,10 @@ Berichte für Lohnbuchhaltung erstellen.
 
 ## Berichte
 
+### Bericht für Lohnabrechnung bestimmen
+
+Navigieren Sie nach *Personalabrechnung > Structures* und wählen Sie hier eine Lohnstruktur aus. Im Feld *Bericht* legen Sie den Standardbericht für diese Lohnstruktur fest.
+
 ### Rekapitulation Lohnabrechnung Mitarbeiter erstellen
 
 Öffnen Sie *Personalabrechnung > Berichtswesen > Lohnabrechnungszeilen* und wechseln Sie in die Privot-Ansicht. Auf der X-Achse wählen Sie *Bis > Monat* und auf der Y-Achse *Mitarbeiter > Name*. Zuletzt wählen Sie als Wert *Betrag*. Nun erhalten Sie eine Aufstellung der Lohnabrechnungszeilen für jeden Monat und Mitarbeiter.

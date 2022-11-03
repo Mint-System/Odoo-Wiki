@@ -67,6 +67,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 ### Personal
 
 * [Abwesenheit](Best%20Practice%20Abwesenheit.md)
+* [Lohnrekapitulation](Best%20Practice%20Lohnrekapitulation.md)
 
 ### Technisch
 
