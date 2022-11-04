@@ -99,3 +99,11 @@ Damit die auf einer Projektaufgabe erfassten Stunden abgerechnet werden können,
 Dazu ein Beispiel:
 
 ![](assets/Projekt%20Tab%20Abrechnung.png)
+
+## Berechtigungen
+
+### Benutzer dürfen keine Aufgaben erstellen
+
+Wenn Sie verhindern möchten, dass Mitglieder der Gruppe *Projekt / Benutzer* Projektaufgaben erstellen können, gehen Sie wie folgt vor.
+
+Öffnen Sie *Einstellungen > Benutzer und Gruppen > Gruppen* und öffnen Sie die Gruppe *Projekt / Benutzer*. Navigieren Sie zum Tab *Zugriffsrechte* und bearbeiten Sie den Eintrag *project.task*. Entfernen Sie die Berechtigung *Erstellen* und *Löschen*.
