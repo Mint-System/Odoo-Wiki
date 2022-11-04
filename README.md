@@ -80,7 +80,6 @@ Spesen erfassen und abrechnen.
 
 [![icons_odoo_hr_expense](assets/icons_odoo_hr_expense.png)](Auslagenmd)
 
-
 ### [Certificate Planner](Certificate%20Planner.md)
 
 Anleitung zur Odoo-App Certificate Planner.

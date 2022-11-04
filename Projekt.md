@@ -107,3 +107,7 @@ Dazu ein Beispiel:
 Wenn Sie verhindern möchten, dass Mitglieder der Gruppe *Projekt / Benutzer* Projektaufgaben erstellen können, gehen Sie wie folgt vor.
 
 Öffnen Sie *Einstellungen > Benutzer und Gruppen > Gruppen* und öffnen Sie die Gruppe *Projekt / Benutzer*. Navigieren Sie zum Tab *Zugriffsrechte* und bearbeiten Sie den Eintrag *project.task*. Entfernen Sie die Berechtigung *Erstellen* und *Löschen*.
+
+Weil die Berechtigung von *Projekt / Benutzer* nach *Projekt / Administrator* vererbt wird, braucht es eine Anpassung. Zeiten Sie den Tab *Zugriffsrechte* der Gruppe *Projekt / Administrator* und erstellen Sie einen neuen Eintrag:
+
+![](assets/Projekt%20Berechtigung%20Administrator%20Aufgabe.png)
