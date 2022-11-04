@@ -212,7 +212,7 @@ Beide Aktionen mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und spe
 
 In der Ansicht der Produkte haben Sie nun die Auswahl *Aktion > Reservierungen aufheben*.
 
-## Geplatne Aktionen
+## Geplante Aktionen
 
 ### Geplante Aktion "Los aus Anlieferung zuweisen" erstellen
 

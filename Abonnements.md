@@ -20,6 +20,10 @@ Rufen Sie die Ansicht *Abonnements > Konfiguration > Vorlage für Abonnements* a
 
 ![](assets/Abonnements%20Vorlage.png)
 
+### Abonnement erstellen
+
+Im Normalfall wird beim [Angebot bestätigen](Verkauf.md#Angebot%20bestätigen) ein Abonnement generiert. Wenn Sie ein Abonnment ohne Verkaufsauftrag erstellen möchten, navigieren Sie nach *Abonnement* und klicken auf *Anlegen*.
+
 ### Abonnement-Laufzeit mit Produktvariante verknüpfen
 
 Öffnen Sie ein Abonnent-Produkt unter *Abonnements > Abonnements > Produkte*. Zeigen Sie den Tab *Preis* an. Legen Sie in der Spalte *Produktvarianten* fest, welche Lafuzeit zu welcher Variante gehört.

@@ -160,3 +160,41 @@ for record in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 In der Liste der Zahlung erscheint nun in der Auswahl *Aktion* das Menu *Zahlung gesendet zurücksetzen*.
+
+## Geplante Aktionen
+
+### Geplante Aktion "Rechnung mit Abrechnungsinterval generieren" erstellen
+
+Das ist eine einfach Lösung um wiederholgende Rechnung zu generieren. Mit dem Zusatzfeld `x_recurring_inverval` wird geprüft ob die Rechnung wieder fällig ist.
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Rechnung mit Abrechnungsinterval generieren`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Tage\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Get invoices with recurring inverval
+invoices_ids = env['account.move'].search([
+('x_recurring_inverval', 'in', ['monthly'])
+], order="date desc")
+
+# delta = dateutil.relativedelta(months=4)
+
+date_now = datetime.datetime.now()
+for invoice in invoices_ids:
+  # if invoice.x_recurring_inverval == 'daily':
+	 # delta = dateutil.relativedelta(days=1)
+  # if invoice.x_recurring_inverval == 'monthly':
+	 # delta = dateutil.relativedelta(months=1)
+  # if invoice.x_recurring_inverval == 'quarterly':
+	 # delta = dateutil.relativedelta(months=4)
+  # if invoice.x_recurring_inverval == 'yearly':
+	 # delta = dateutil.relativedelta(years=3)
+  raise UserError([invoice.name, invoice.x_recurring_inverval])
+```
