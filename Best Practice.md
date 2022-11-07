@@ -46,7 +46,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Kit bereitstellen](Best%20Practice%20Verkauf%20Kit%20bereitstellen.md)
 * [Auftragszeilen auswerten](Best%20Practice%20Auftragszeilen%20auswerten.md)
 * [Purchase To Order](Best%20Practice%20Purchase%20To%20Order.md)
-* [[Best Practice Abonnements]]
+* [Abonnements](Best%20Practice%20Abonnements.md)
 
 ### Lager
 

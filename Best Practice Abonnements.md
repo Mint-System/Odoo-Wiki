@@ -5,7 +5,7 @@ prev: ./best-practice
 ---
 # Best Practice: Abonnements
 
-## Voralgen
+## Vorlagen
 
 Verwenden Sie diese Abonnement-Vorlagen zum Einrichten der Abonnements:
 
