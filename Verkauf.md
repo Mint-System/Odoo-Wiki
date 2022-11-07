@@ -124,7 +124,6 @@ Mit der aktivierten Option *Einstellungen > Verkauf > Margen* sehen Sie für jed
 
 Die Berechnung der Margen ist `Zwischensumme - Kosten * Menge`. Diese Inputs können einem Angebot geändert werden.
 
-
 ## Auswertung
 
 ### Auftragszeilen anzeigen
