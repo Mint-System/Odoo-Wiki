@@ -44,6 +44,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order Template Notes](Sale%20Order%20Template%20Notes.md)                       | Notizen auf Angebotsvorlage.                                                  |
 | [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                           | Produktset mit Notizen und Abschnitten.                                       |
 | [Sale Product Set](Sale%20Product%20Set.md)                                           | Produktsets definieren und einfach hinzufügen.                                |
+| [[Sale Order Check Price]]                                                                                      |                                                                               |
 
 ## Aufträge
 
