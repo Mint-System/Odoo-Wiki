@@ -78,7 +78,7 @@ Neue Apps installieren und aktualisieren.
 
 Spesen erfassen und abrechnen.
 
-[![icons_odoo_hr_expense](assets/icons_odoo_hr_expense.png)](Auslagenmd)
+[![icons_odoo_hr_expense](assets/icons_odoo_hr_expense.png)](Auslagen.md)
 
 ### [Certificate Planner](Certificate%20Planner.md)
 
