@@ -179,22 +179,26 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-# Get invoices with recurring inverval
-invoices_ids = env['account.move'].search([
-('x_recurring_inverval', 'in', ['monthly'])
-], order="date desc")
+today = datetime.datetime.today()
 
-# delta = dateutil.relativedelta(months=4)
+# Get invoices with recurring inverval within a month
+invoice_ids = env['account.move'].search([
+  ('x_recurring_inverval', 'in', ['monthly']),
+  ('invoice_date', '>=', (today - datetime.timedelta(days=35)).strftime('%Y-%m-%d'))
+], order='invoice_date desc')
 
-date_now = datetime.datetime.now()
-for invoice in invoices_ids:
-  # if invoice.x_recurring_inverval == 'daily':
-	 # delta = dateutil.relativedelta(days=1)
-  # if invoice.x_recurring_inverval == 'monthly':
-	 # delta = dateutil.relativedelta(months=1)
-  # if invoice.x_recurring_inverval == 'quarterly':
-	 # delta = dateutil.relativedelta(months=4)
-  # if invoice.x_recurring_inverval == 'yearly':
-	 # delta = dateutil.relativedelta(years=3)
-  raise UserError([invoice.name, invoice.x_recurring_inverval])
+# Foreach invoice check if it is due
+refs = []
+for invoice in invoice_ids:
+  
+  if invoice.x_recurring_inverval == 'monthly' and invoice.ref not in refs:
+    invoice_date = invoice.invoice_date
+    last_date = datetime.date(today.year, abs(today.month-1), today.day)
+    refs.append(invoice.ref)
+    # Duplicate invoice
+    if invoice_date <= last_date:
+      new_invoice = invoice.copy({'date': today})
+    
+    # raise UserError([invoice.name, refs, invoice_date, last_date,  invoice_date <= last_date, new_invoice])
+    
 ```
