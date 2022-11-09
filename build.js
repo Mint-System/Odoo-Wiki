@@ -20,7 +20,7 @@ const uriSuffix = '.html'
 const anchorPrefix = '#'
 const assetsFolder = 'assets'
 const gitUrl = 'https://github.com/Mint-System/Odoo-Handbuch/blob/master/'
-const sidebarStatic = [`'glossary.md'`]
+const sidebarAppend = ['glossary.md']
 
 function sanitizeName(name) {
     return name.toLocaleLowerCase()
@@ -180,7 +180,7 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
     // log
     console.log('Build sidebar ...')
 
-    content = []
+    sidebar = []
 
     // Read file and split into lines
     let lines = fs.readFileSync('README.md', 'utf8').split(/\r?\n/);
@@ -190,22 +190,36 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
         if (line.startsWith('### ')) {
             // Add file name to content list
             filename = line.slice(0, -1).split('](')[1]
-            if (filename != undefined) { content.push(sanitizeName(`'${filename}'`)) }
+            if (filename != undefined) { sidebar.push(sanitizeName(filename)) }
         }
     }
 
-    content = [].concat(content, sidebarStatic)
+    children = []
 
-    content = [].concat(content, [
-        {
-            text: 'Erweiterungen',
-            children: ['project-key.md'],
+    // Read file and split into lines
+    lines = fs.readFileSync('Best Practice.md', 'utf8').split(/\r?\n/);
+
+    // Find sidebar items
+    for (let line of lines) {
+        if (line.startsWith('* [')) {
+            // Add file name to content list
+            filename = line.slice(0, -1).split('](')[1]
+            if (filename != undefined) { children.push(sanitizeName(filename)) }
         }
-    ])
+    }
+
+    sidebarMain = [
+        {
+            'text': 'Best Practice',
+            children: children
+        }
+    ]
+    
+    sidebar = [].concat(sidebarMain, sidebar, sidebarAppend)
     
     // write content to index file
-    content = `module.exports = [${content.join(', ')}]`
-    fs.writeFileSync('.vuepress/sidebar.js', content, 'utf8')
+    sidebar = `module.exports = ${JSON.stringify(sidebar)}`
+    fs.writeFileSync('.vuepress/sidebar.js', sidebar, 'utf8')
 
     // log
     console.log('Building sidebar finished.')
