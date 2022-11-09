@@ -457,7 +457,13 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 # Get negative quants
 quant_ids = env['stock.quant'].search([('quantity', '<', 0.0)])
 
-quant_ids.write({'inventory_quantity': 0.0})
+for quant in quant_ids:
+    diff = -quant.inventory_quantity
+    move_vals = quant._get_inventory_move_values(diff, quant.product_id.with_company(quant.company_id).property_stock_inventory, quant.location_id)
+    move = quant.env['stock.move'].with_context(inventory_mode=False).create(move_vals)
+    # move._action_done()
+    env.cr.commit()
+    raise UserError([move.name, move.product_id.name, move.date])
 
 if quant_ids:
 	log('Set these quants to zero: %s' % ', '.join(quant_ids.mapped(lambda q: '%s (%s)' % (q.location_id.name, q.lot_id.name))))
