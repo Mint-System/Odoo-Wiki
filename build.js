@@ -181,6 +181,7 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
     console.log('Build sidebar ...')
 
     sidebar = []
+    childrenErweiterungen = []
 
     // Read file and split into lines
     let lines = fs.readFileSync('README.md', 'utf8').split(/\r?\n/);
@@ -190,11 +191,26 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
         if (line.startsWith('### ')) {
             // Add file name to content list
             filename = line.slice(0, -1).split('](')[1]
-            if (filename != undefined) { sidebar.push(sanitizeName(filename)) }
+            if (filename != undefined) { 
+                
+                sidebar.push(sanitizeName(filename))
+
+                // Read file and split into lines
+                lines = fs.readFileSync(filename.replace(/%20/g,' '), 'utf8').split(/\r?\n/);
+
+                // Find sidebar items
+                for (let line of lines) {
+                    if (line.startsWith('| [')) {
+                        // Add file name to content list
+                        filename = line.split('](')[1].split(')')[0]
+                        if (filename != undefined) { childrenErweiterungen.push(sanitizeName(filename)) }
+                    }
+                }
+            }
         }
     }
 
-    children = []
+    childrenBestPractice = []
 
     // Read file and split into lines
     lines = fs.readFileSync('Best Practice.md', 'utf8').split(/\r?\n/);
@@ -204,19 +220,28 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
         if (line.startsWith('* [')) {
             // Add file name to content list
             filename = line.slice(0, -1).split('](')[1]
-            if (filename != undefined) { children.push(sanitizeName(filename)) }
+            if (filename != undefined) { childrenBestPractice.push(sanitizeName(filename)) }
         }
     }
 
     sidebarMain = [
         {
             text: 'Best Practice',
-            collapsable: false,
-            children: children
+            link: 'best-practice.md',
+            collapsible: true,
+            children: childrenBestPractice
+        }
+    ]
+
+    sidebarExtension = [
+        {
+            text: 'Erweiterungen',
+            collapsible: true,
+            children: childrenErweiterungen
         }
     ]
     
-    sidebar = [].concat(sidebarMain, sidebar, sidebarAppend)
+    sidebar = [].concat(sidebarMain, sidebar, sidebarExtension, sidebarAppend)
     
     // write content to index file
     sidebar = `module.exports = ${JSON.stringify(sidebar)}`
