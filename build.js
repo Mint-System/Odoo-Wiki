@@ -195,6 +195,13 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
     }
 
     content = [].concat(content, sidebarStatic)
+
+    content = [].concat(content, [
+        {
+            text: 'Erweiterungen',
+            children: ['project-key.md'],
+        }
+    ])
     
     // write content to index file
     content = `module.exports = [${content.join(', ')}]`
