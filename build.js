@@ -210,7 +210,8 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
 
     sidebarMain = [
         {
-            'text': 'Best Practice',
+            text: 'Best Practice',
+            collapsable: false,
             children: children
         }
     ]
