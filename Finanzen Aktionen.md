@@ -200,5 +200,4 @@ for invoice in invoice_ids:
       new_invoice = invoice.copy({'date': today})
     
     # raise UserError([invoice.name, refs, invoice_date, last_date,  invoice_date <= last_date, new_invoice])
-    
 ```
