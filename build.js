@@ -236,6 +236,7 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
     sidebarExtension = [
         {
             text: 'Erweiterungen',
+            link: '/',
             collapsible: true,
             children: childrenErweiterungen
         }
@@ -244,7 +245,7 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
     sidebar = [].concat(sidebarMain, sidebar, sidebarExtension, sidebarAppend)
     
     // write content to index file
-    sidebar = `module.exports = ${JSON.stringify(sidebar)}`
+    sidebar = `module.exports = ${JSON.stringify(sidebar, null, 2)}`
     fs.writeFileSync('.vuepress/sidebar.js', sidebar, 'utf8')
 
     // log
