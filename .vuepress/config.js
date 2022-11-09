@@ -18,6 +18,12 @@ module.exports = {
             { text: 'Mint System', link: 'https://www.mint-system.ch/odoo' }
         ],
         sidebar: {
+            'glossary': [
+                {
+                    text: 'Glossary',
+                    collapsible: false,
+                },
+            ],
             '/': [
                 {
                     text: 'Home',
