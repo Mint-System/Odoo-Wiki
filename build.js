@@ -20,6 +20,7 @@ const uriSuffix = '.html'
 const anchorPrefix = '#'
 const assetsFolder = 'assets'
 const gitUrl = 'https://github.com/Mint-System/Odoo-Handbuch/blob/master/'
+const sidebarStatic = [`'glossary.md'`]
 
 function sanitizeName(name) {
     return name.toLocaleLowerCase()
@@ -192,6 +193,8 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
             if (filename != undefined) { content.push(sanitizeName(`'${filename}'`)) }
         }
     }
+
+    content = [].concat(content, sidebarStatic)
     
     // write content to index file
     content = `module.exports = [${content.join(', ')}]`
