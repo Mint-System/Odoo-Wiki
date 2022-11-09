@@ -238,7 +238,7 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
             text: 'Erweiterungen',
             link: '/',
             collapsible: true,
-            children: childrenErweiterungen
+            children: childrenErweiterungen.sort()
         }
     ]
     
