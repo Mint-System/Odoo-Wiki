@@ -7,6 +7,7 @@ index
 convert
 assets
 sitemap
+sidebar
 */
 
 // settings
@@ -278,4 +279,30 @@ if (!firstArg || ['all', 'sitemap'].indexOf(firstArg) > 0) {
 
     // log
     console.log('Building sitemap finished.')
+}
+
+if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
+    
+    // log
+    console.log('Build sidebar ...')
+
+    content = []
+
+    // Read file and split into lines
+    let lines = fs.readFileSync('README.md', 'utf8').split(/\r?\n/);
+
+    // Find sidebar items
+    for (let line of lines) {
+        if (line.startsWith('### ')) {
+            // Add file name to content list
+            content.push("'" + line.slice(0, -1).split('](')[1] + "'")
+        }
+    }
+    
+    // write content to index file
+    content = `module.exports = [${content.join(', ')}]`
+    fs.writeFileSync('.vuepress/sidebar.js', content, 'utf8')
+
+    // log
+    console.log('Building sidebar finished.')
 }

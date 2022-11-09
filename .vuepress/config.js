@@ -1,6 +1,7 @@
 const { defaultTheme } = require('vuepress')
 const { searchPlugin } = require('@vuepress/plugin-search')
 const { plausiblePlugin } = require('./plausible')
+const sidebar = require('./sidebar')
 
 module.exports = {
     lang: 'de-CH',
@@ -15,7 +16,16 @@ module.exports = {
             { text: 'Home', link: '/' },
             { text: 'Glossary', link: '/glossary' },
             { text: 'Mint System', link: 'https://www.mint-system.ch/odoo' }
-        ]
+        ],
+        sidebar: {
+            '/': [
+                {
+                    text: 'Home',
+                    collapsable: false,
+                    children: sidebar,
+                },
+            ]
+        }
     }),
     plugins: [
         searchPlugin({
