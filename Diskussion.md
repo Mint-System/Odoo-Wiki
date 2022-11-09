@@ -12,9 +12,10 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 
 ## Bereiche
 
-| Bereich                                                         | Beschreibung                                                           |
-| --------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [Diskussion E-Mail](Diskussion%20E-Mail.md)                     | E-Mail mit Odoo versenden.                                             |
+| Bereich                                               | Beschreibung                         |
+| ----------------------------------------------------- | ------------------------------------ |
+| [Diskussion Aktivitäten](Diskussion%20Aktivitäten.md) | Arbeitsplanung mit Odoo Aktivitäten. |
+| [Diskussion E-Mail](Diskussion%20E-Mail.md)           | E-Mail mit Odoo versenden.           |
 
 ## Erweiterungen
 

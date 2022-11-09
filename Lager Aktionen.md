@@ -440,6 +440,29 @@ for move_line in fix_move_lines:
       move_line.write({'lot_id':  move_in.move_line_ids[0].lot_id.id})
 ```
 
+### Geplante Aktion "Negativer Bestand bereinigen" erstellen
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Negativer Bestand bereinigen`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Tage\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Get negative quants
+quant_ids = env['stock.quant'].search([('quantity', '<', 0.0)])
+
+quant_ids.write({'inventory_quantity': 0.0})
+
+if quant_ids:
+	log('Set these quants to zero: %s' % ', '.join(quant_ids.mapped(lambda q: '%s (%s)' % (q.location_id.name, q.lot_id.name))))
+```
+
 ## Automatische Aktionen
 
 ### Automatische Aktion "Lieferung erledigen wenn bereit" erstellen

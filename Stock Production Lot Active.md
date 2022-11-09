@@ -29,33 +29,31 @@ Navigeren nach *Einstellungen > Technisch > Geplante Aktionen* und einen neuen E
 
 * Name der Aktion: `Los automatisch archivieren`
 * Modell: `Serveraktion`
+* Ausführen alle: `1 Tage`
 * Anzahl aufrufe: `-1`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-## search for all lots
-all_lots = env['stock.production.lot'].with_context(active_test=False).search([])
-#len(all_lots)
+# Search for all lots
+all_lots = env['stock.production.lot'].search([])
 
-## search for lots with product qty 0 or less
-filtered_lots = all_lots.filtered(lambda lot : lot.active is True and lot.product_qty < 1)
-#len(filtered_lots)
+# Search for lots with product qty less than zero
+archive_lots = all_lots.filtered(lambda lot : lot.active is True and lot.product_qty < 0.0)
 
-## archive the filtered lots
-if len(filtered_lots) > 0:
-    log('About to archive %s: %s' % (filtered_lots._name, filtered_lots.ids))
+# Archive the filtered lots
+if archive_lots:
     filtered_lots.write({'active': False})
+    log('Archived lots: %s' % archive_lots._name)
 
-## search for archived lots with product qty 1 or greater
-filtered_lots = all_lots.filtered(lambda lot : lot.active is False and lot.product_qty > 0)
-#len(filtered_lots)
+# Search for archived lots with product qty 1 or greater
+unarchive_lots = all_lots.filtered(lambda lot : lot.active is False and lot.product_qty > 0.0)
 
-## unarchive the filtered lots
-if len(filtered_lots) > 0:
-    log('About to unarchive %s: %s' % (filtered_lots._name, filtered_lots.ids))
+# Unarchive lots
+if unarchive_lots:
     filtered_lots.write({'active': True})
-env.cr.commit()
+    log('Unarchived lots: %s' % archive_lots._name)
 
-log('The "Archive Stock Production Lot" job was executed successfully.', level='info')
+# Commit changs
+env.cr.commit()
 ```
