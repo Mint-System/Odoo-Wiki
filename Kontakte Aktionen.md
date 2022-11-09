@@ -26,8 +26,21 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-# Settings
-scope_days = 7
+name = 'Zur Archivierung und Requalifikation'
 
-# Get confirmed outgoing pickings
-# pickings_out = en
+type_id = env['mail.activity.type'].search( [('name', '=', name)], limit=1)
+
+activity_ids = env['mail.activity'].search( [('activity_type_id', '=', type_id.id), ('date_deadline', '<=', datetime.date.today())] )
+
+partner_ids = env['res.partner'].search( [('id', 'in', activity_ids.mapped('res_id'))] )
+
+# raise UserError(partner_ids)
+
+partner_ids.write({'active': False})
+if partner_ids:
+  log('Archived partners with planned activity: %s' % ', '.join(partner_ids.mapped('display_name')))
+```
+
+::: tip
+Die Aktivität auf dem Kontakt wird im Archivierungsvorgang gelöscht.
+:::
