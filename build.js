@@ -188,8 +188,8 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
     for (let line of lines) {
         if (line.startsWith('### ')) {
             // Add file name to content list
-            filename = "'" + line.slice(0, -1).split('](')[1] + "'"
-            content.push(sanitizeName(filename))
+            filename = line.slice(0, -1).split('](')[1]
+            if (filename != undefined) { content.push(sanitizeName(`'${filename}'`)) }
         }
     }
     
