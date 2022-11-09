@@ -12,8 +12,8 @@ Alle Kontaktdaten an einem Ort.
 
 | Bereich                                                   | Beschreibung                                   |
 | --------------------------------------------------------- | ---------------------------------------------- |
+| [Kontakte Aktionen](Kontakte%20Aktionen.md)               | Arbeitsflüsse mit Kontakte automatisieren.     |
 | [Kontakte Datenmanagement](Kontakte%20Datenmanagement.md) | Daten zu Kontakte exportieren und importieren. |
-| [[Kontakte Aktionen]]                                                          |                                                |
 
 ## Erweiterungen
 
