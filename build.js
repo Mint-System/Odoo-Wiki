@@ -248,7 +248,6 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
     sidebarExtension = [
         {
             text: 'Erweiterungen',
-            link: '/',
             collapsible: true,
             children: removeDuplicates(childrenExtension.sort())
         }
@@ -257,7 +256,6 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
     sidebarTopic = [
         {
             text: 'Bereiche',
-            link: '/',
             collapsible: true,
             children: removeDuplicates(childrenTopic.sort())
         }
