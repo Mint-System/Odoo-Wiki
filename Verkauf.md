@@ -28,7 +28,6 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Contracts Management Recurring Sales](Contracts%20Management%20Recurring%20Sales.md) | Aus wiederholenden Verträge Verkaufsangebote generieren.                      |
 | [Default sales incoterm per partner](Default%20sales%20incoterm%20per%20partner.md)   | Standardlieferbedingungen für Kunden.                                         |
 | [Product Listprice Currency](Product%20Listprice%20Currency.md)                       | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.              |
-| [Sale Blanket Order](Sale%20Blanket%20Order.md)                                       | Rahmenverträge für Verkäufe erstellen.                                        |
 | [Sale Force Invoiced](Sale%20Force%20Invoiced.md)                                     | Markieren Sie den Verkaufsauftrag als abgerechnet.                            |
 | [Sale Order Archive](Sale%20Order%20Archive.md)                                       | Abgebrochene Verkaufsaufträge archivieren.                                    |
 | [Sale Order Check Price](Sale%20Order%20Check%20Price.md)                             | Preis vor Bestätigung des Angebots prüfen.                                    |

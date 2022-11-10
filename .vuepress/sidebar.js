@@ -97,6 +97,7 @@ module.exports = [
   "plm.md",
   "point-of-sale.md",
   "projekt.md",
+  "sale-blanket-order.md",
   "strichcode.md",
   "studio.md",
   "troubleshooting.md",
@@ -112,7 +113,6 @@ module.exports = [
     "children": [
       {
         "text": "Anwesenheitszeiten",
-        "link": "anwesenheitszeiten.md",
         "collapsible": true,
         "children": [
           "anwesenheitszeiten-überstunden.md"
@@ -120,7 +120,6 @@ module.exports = [
       },
       {
         "text": "Datenmanagement",
-        "link": "datenmanagement.md",
         "collapsible": true,
         "children": [
           "einstellungen-datenmanagement.md",
@@ -131,7 +130,6 @@ module.exports = [
       },
       {
         "text": "Dokumente",
-        "link": "dokumente.md",
         "collapsible": true,
         "children": [
           "dokumente-aktionen.md"
@@ -139,7 +137,6 @@ module.exports = [
       },
       {
         "text": "Diskussion",
-        "link": "diskussion.md",
         "collapsible": true,
         "children": [
           "diskussion-aktivitäten.md",
@@ -148,7 +145,6 @@ module.exports = [
       },
       {
         "text": "Einkauf",
-        "link": "einkauf.md",
         "collapsible": true,
         "children": [
           "einkauf-kaufverträge.md",
@@ -157,7 +153,6 @@ module.exports = [
       },
       {
         "text": "Einstellungen",
-        "link": "einstellungen.md",
         "collapsible": true,
         "children": [
           "einstellungen-aktionen.md",
@@ -172,7 +167,6 @@ module.exports = [
       },
       {
         "text": "Entwicklung",
-        "link": "entwicklung.md",
         "collapsible": true,
         "children": [
           "entwicklung-aktionen.md",
@@ -183,7 +177,6 @@ module.exports = [
       },
       {
         "text": "Fertigung",
-        "link": "fertigung.md",
         "collapsible": true,
         "children": [
           "fertigung-aktionen.md",
@@ -192,7 +185,6 @@ module.exports = [
       },
       {
         "text": "Finanzen",
-        "link": "finanzen.md",
         "collapsible": true,
         "children": [
           "finanzen-abstimmung.md",
@@ -209,7 +201,6 @@ module.exports = [
       },
       {
         "text": "IoT",
-        "link": "iot.md",
         "collapsible": true,
         "children": [
           "etikettendrucker-zebra-zd410.md"
@@ -217,7 +208,6 @@ module.exports = [
       },
       {
         "text": "Kontakte",
-        "link": "kontakte.md",
         "collapsible": true,
         "children": [
           "kontakte-aktionen.md",
@@ -226,7 +216,6 @@ module.exports = [
       },
       {
         "text": "Kundendienst",
-        "link": "kundendienst.md",
         "collapsible": true,
         "children": [
           "kundendiesnt-datenmanagement.md"
@@ -234,7 +223,6 @@ module.exports = [
       },
       {
         "text": "Lager",
-        "link": "lager.md",
         "collapsible": true,
         "children": [
           "handscanner-zebra-ds22.md",
@@ -248,7 +236,6 @@ module.exports = [
       },
       {
         "text": "Personal",
-        "link": "personal.md",
         "collapsible": true,
         "children": [
           "personal-aktivitäten.md",
@@ -257,7 +244,6 @@ module.exports = [
       },
       {
         "text": "Projekt",
-        "link": "projekt.md",
         "collapsible": true,
         "children": [
           "projekt-aktionen.md",
@@ -266,7 +252,6 @@ module.exports = [
       },
       {
         "text": "Strichcode",
-        "link": "strichcode.md",
         "collapsible": true,
         "children": [
           "handscanner-zebra-tc21.md"
@@ -274,7 +259,6 @@ module.exports = [
       },
       {
         "text": "Studio",
-        "link": "studio.md",
         "collapsible": true,
         "children": [
           "studio-beispiele.md"
@@ -282,7 +266,6 @@ module.exports = [
       },
       {
         "text": "Verkauf",
-        "link": "verkauf.md",
         "collapsible": true,
         "children": [
           "order-positions.md",
@@ -295,7 +278,6 @@ module.exports = [
       },
       {
         "text": "Website",
-        "link": "website.md",
         "collapsible": true,
         "children": [
           "website-aktionen.md",
@@ -305,7 +287,6 @@ module.exports = [
       },
       {
         "text": "Zeiterfassung",
-        "link": "zeiterfassung.md",
         "collapsible": true,
         "children": [
           "awesome-timesheet.md",
@@ -320,7 +301,6 @@ module.exports = [
     "children": [
       {
         "text": "Abrechnung",
-        "link": "abrechnung.md",
         "collapsible": true,
         "children": [
           "account-invoice-carrier.md",
@@ -341,7 +321,6 @@ module.exports = [
       },
       {
         "text": "Abwesenheitszeiten",
-        "link": "abwesenheitszeiten.md",
         "collapsible": true,
         "children": [
           "hr-holidays-ics-attachment.md",
@@ -354,7 +333,6 @@ module.exports = [
       },
       {
         "text": "Anwesenheitszeiten",
-        "link": "anwesenheitszeiten.md",
         "collapsible": true,
         "children": [
           "theoretical-vs-attended-time-analysis.md",
@@ -364,7 +342,6 @@ module.exports = [
       },
       {
         "text": "Apps",
-        "link": "apps.md",
         "collapsible": true,
         "children": [
           "cancel-manufacturing-order.md",
@@ -374,7 +351,6 @@ module.exports = [
       },
       {
         "text": "Dashboards",
-        "link": "dashboards.md",
         "collapsible": true,
         "children": [
           "board-users.md",
@@ -384,7 +360,6 @@ module.exports = [
       },
       {
         "text": "Dokumente",
-        "link": "dokumente.md",
         "collapsible": true,
         "children": [
           "agreement-legal.md"
@@ -392,7 +367,6 @@ module.exports = [
       },
       {
         "text": "Diskussion",
-        "link": "diskussion.md",
         "collapsible": true,
         "children": [
           "account-move-mail-thread.md",
@@ -411,7 +385,6 @@ module.exports = [
       },
       {
         "text": "Einkauf",
-        "link": "einkauf.md",
         "collapsible": true,
         "children": [
           "purchase-order-line-position.md",
@@ -432,7 +405,6 @@ module.exports = [
       },
       {
         "text": "Einstellungen",
-        "link": "einstellungen.md",
         "collapsible": true,
         "children": [
           "auth-oauth-keycloak",
@@ -445,7 +417,6 @@ module.exports = [
       },
       {
         "text": "Entwicklung",
-        "link": "entwicklung.md",
         "collapsible": true,
         "children": [
           "bi-sql-editor.md",
@@ -456,7 +427,6 @@ module.exports = [
       },
       {
         "text": "Fertigung",
-        "link": "fertigung.md",
         "collapsible": true,
         "children": [
           "cancel-manufacturing-order.md",
@@ -479,7 +449,6 @@ module.exports = [
       },
       {
         "text": "Finanzen",
-        "link": "finanzen.md",
         "collapsible": true,
         "children": [
           "acccount-move-accounting-description.md",
@@ -505,7 +474,6 @@ module.exports = [
       },
       {
         "text": "Fahrzeugflotte",
-        "link": "fahrzeugflotte.md",
         "collapsible": true,
         "children": [
           "employee-vehicle-request.md",
@@ -516,7 +484,6 @@ module.exports = [
       },
       {
         "text": "Forestry Base",
-        "link": "forestry-base.md",
         "collapsible": true,
         "children": [
           "forestry-project.md",
@@ -526,7 +493,6 @@ module.exports = [
       },
       {
         "text": "IoT",
-        "link": "iot.md",
         "collapsible": true,
         "children": [
           "odoo-direct-print.md"
@@ -534,7 +500,6 @@ module.exports = [
       },
       {
         "text": "Kontakte",
-        "link": "kontakte.md",
         "collapsible": true,
         "children": [
           "base-partner-sequence.md",
@@ -554,7 +519,6 @@ module.exports = [
       },
       {
         "text": "Lager",
-        "link": "lager.md",
         "collapsible": true,
         "children": [
           "amqp-base.md",
@@ -581,7 +545,6 @@ module.exports = [
       },
       {
         "text": "Odoo Mobile App",
-        "link": "odoo-mobile-app.md",
         "collapsible": true,
         "children": [
           "merp-mobile-app.md"
@@ -589,7 +552,6 @@ module.exports = [
       },
       {
         "text": "Personal",
-        "link": "personal.md",
         "collapsible": true,
         "children": [
           "hr-activity-date.md",
@@ -601,7 +563,6 @@ module.exports = [
       },
       {
         "text": "Personalabrechnung",
-        "link": "personalabrechnung.md",
         "collapsible": true,
         "children": [
           "lohnmeldung.md",
@@ -613,7 +574,6 @@ module.exports = [
       },
       {
         "text": "Personalbeschaffung",
-        "link": "personalbeschaffung.md",
         "collapsible": true,
         "children": [
           "hr-recruitment-firstname.md"
@@ -621,7 +581,6 @@ module.exports = [
       },
       {
         "text": "Projekt",
-        "link": "projekt.md",
         "collapsible": true,
         "children": [
           "business-requirement.md",
@@ -639,8 +598,30 @@ module.exports = [
         ]
       },
       {
+        "text": "Sale Blanket Order",
+        "collapsible": true,
+        "children": [
+          "sale-blanket-order-crm-tags.md",
+          "sale-blanket-order-cancel-state.md",
+          "sale-blanket-order-carrier.md",
+          "sale-blanket-order-comment.md",
+          "sale-blanket-order-commitment-date.md",
+          "sale-blanket-order-contact-person.md",
+          "sale-blanket-order-date-confirmed.md",
+          "sale-blanket-order-discount.md",
+          "sale-blanket-order-extended.md",
+          "sale-blanket-order-invoice-shipping-partner.md",
+          "sale-blanket-order-line-description.md",
+          "sale-blanket-order-notes.md",
+          "sale-blanket-order-readonly-states-extended.md",
+          "sale-blanket-order-readonly-states.md",
+          "sale-blanket-order-send.md",
+          "sale-blanket-order-stock-terms.md",
+          "sale-blanket-order-template.md"
+        ]
+      },
+      {
         "text": "Strichcode",
-        "link": "strichcode.md",
         "collapsible": true,
         "children": [
           "stock-barcode-mrp.md"
@@ -648,13 +629,11 @@ module.exports = [
       },
       {
         "text": "Verkauf",
-        "link": "verkauf.md",
         "collapsible": true,
         "children": [
           "contracts-management-recurring-sales.md",
           "default-sales-incoterm-per-partner.md",
           "product-listprice-currency.md",
-          "sale-blanket-order.md",
           "sale-force-invoiced.md",
           "sale-order-archive.md",
           "sale-order-check-price.md",
@@ -675,7 +654,6 @@ module.exports = [
       },
       {
         "text": "Website",
-        "link": "website.md",
         "collapsible": true,
         "children": [
           "website-date-of-birth.md",

@@ -296,6 +296,12 @@ Agiles Projektmanagement. Schön. Einfach. Open Source.
 
 [![icons_odoo_project](assets/icons_odoo_project.png)](Projekt.md)
 
+### [Sale Blanket Order](Sale%20Blanket%20Order.md)
+
+Rahmenverträge für Verkäufe erstellen.
+
+[![icon_oca_app](assets/icon_oca_app.png)](Sale%20Blanket%20Order.md)
+
 ### [Strichcode](Strichcode.md)
 
 Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
