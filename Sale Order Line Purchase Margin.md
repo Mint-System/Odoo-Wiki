@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./sale-blanket-order
+prev: ./verkauf-rahmenverträge
 ---
 # Sale Order Line Purchase Margin
 ![icon_oms_box](assets/icon_oms_box.png)
