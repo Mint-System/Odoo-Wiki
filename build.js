@@ -204,7 +204,7 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
                 // Read file and split into lines
                 lines = fs.readFileSync(filename, 'utf8').split(/\r?\n/);
 
-                // Find sidebar items
+                // Find sidebar topics and extensions
                 isTopic = false
                 isExtension = false
                 sidebarExtension = []
@@ -217,12 +217,12 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
                     if (line.startsWith('| [')) {
                         // Add file name to content list
                         subfilename = line.split('](')[1].split(')')[0].replace(/%20/g,' ')
-                        if (subfilename != undefined && isExtension) { sidebarExtension.push(sanitizeName(subfilename)) }
-                        if (subfilename != undefined && isTopic) { sidebarTopic.push(sanitizeName(subfilename)) }
-                    }
+                        if (isExtension) { sidebarExtension.push(sanitizeName(subfilename)) }
+                        if (isTopic) { sidebarTopic.push(sanitizeName(subfilename)) }
+                    }                    
                 }
 
-                if (isExtension) {
+                if (sidebarExtension.length > 0) {
                     childrenExtension.push({
                         text: filename.split('.md')[0],
                         link: sanitizeName(filename),
@@ -230,7 +230,7 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
                         children: sidebarExtension
                     })
                 }
-                if (isTopic) {
+                if (sidebarTopic.length > 0) {
                     childrenTopic.push({
                         text: filename.split('.md')[0],
                         link: sanitizeName(filename),
@@ -256,6 +256,7 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
         }
     }
 
+    // Assemble sidebar
     sidebarMain = [
         {
             text: 'Best Practice',
@@ -264,7 +265,6 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
             children: childrenBestPractice
         }
     ]
-
     sidebarExtension = [
         {
             text: 'Erweiterungen',
@@ -272,18 +272,16 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
             children: removeDuplicates(childrenExtension.sort())
         }
     ]
-
     sidebarTopic = [
         {
             text: 'Bereiche',
             collapsible: true,
             children: removeDuplicates(childrenTopic.sort())
         }
-    ]
-    
+    ]    
     sidebar = [].concat(sidebarMain, sidebar, sidebarTopic, sidebarExtension, sidebarAppend)
     
-    // write content to index file
+    // write content to sidebar file
     sidebar = `module.exports = ${JSON.stringify(sidebar, null, 2)}`
     fs.writeFileSync('.vuepress/sidebar.js', sidebar, 'utf8')
 

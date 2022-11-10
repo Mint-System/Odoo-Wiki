@@ -111,6 +111,14 @@ module.exports = [
     "collapsible": true,
     "children": [
       {
+        "text": "Anwesenheitszeiten",
+        "link": "anwesenheitszeiten.md",
+        "collapsible": true,
+        "children": [
+          "anwesenheitszeiten-überstunden.md"
+        ]
+      },
+      {
         "text": "Datenmanagement",
         "link": "datenmanagement.md",
         "collapsible": true,
@@ -122,6 +130,101 @@ module.exports = [
         ]
       },
       {
+        "text": "Dokumente",
+        "link": "dokumente.md",
+        "collapsible": true,
+        "children": [
+          "dokumente-aktionen.md"
+        ]
+      },
+      {
+        "text": "Diskussion",
+        "link": "diskussion.md",
+        "collapsible": true,
+        "children": [
+          "diskussion-aktivitäten.md",
+          "diskussion-e-mail.md"
+        ]
+      },
+      {
+        "text": "Einkauf",
+        "link": "einkauf.md",
+        "collapsible": true,
+        "children": [
+          "einkauf-kaufverträge.md",
+          "order-positions.md"
+        ]
+      },
+      {
+        "text": "Einstellungen",
+        "link": "einstellungen.md",
+        "collapsible": true,
+        "children": [
+          "einstellungen-aktionen.md",
+          "einstellungen-berechtigungen.md",
+          "einstellungen-datenmanagement.md",
+          "einstellungen-e-mail.md",
+          "einstellungen-login.md",
+          "einstellungen-oauth.md",
+          "einstellungen-technisch.md",
+          "einstellungen-übersetzung.md"
+        ]
+      },
+      {
+        "text": "Entwicklung",
+        "link": "entwicklung.md",
+        "collapsible": true,
+        "children": [
+          "entwicklung-aktionen.md",
+          "entwicklung-ansichten.md",
+          "entwicklung-qweb-berichte.md",
+          "entwicklung-snippets.md"
+        ]
+      },
+      {
+        "text": "Fertigung",
+        "link": "fertigung.md",
+        "collapsible": true,
+        "children": [
+          "fertigung-aktionen.md",
+          "fertigung-stammdaten.md"
+        ]
+      },
+      {
+        "text": "Finanzen",
+        "link": "finanzen.md",
+        "collapsible": true,
+        "children": [
+          "finanzen-abstimmung.md",
+          "finanzen-aktionen.md",
+          "finanzen-anlagenverwaltung.md",
+          "finanzen-berichte.md",
+          "finanzen-buchhaltung.md",
+          "finanzen-kostenrechnung.md",
+          "finanzen-mehrere-währungen.md",
+          "finanzen-mehrwertsteuer.md",
+          "finanzen-snippets.md",
+          "finanzen-zahlungen.md"
+        ]
+      },
+      {
+        "text": "IoT",
+        "link": "iot.md",
+        "collapsible": true,
+        "children": [
+          "etikettendrucker-zebra-zd410.md"
+        ]
+      },
+      {
+        "text": "Kontakte",
+        "link": "kontakte.md",
+        "collapsible": true,
+        "children": [
+          "kontakte-aktionen.md",
+          "kontakte-datenmanagement.md"
+        ]
+      },
+      {
         "text": "Kundendienst",
         "link": "kundendienst.md",
         "collapsible": true,
@@ -130,11 +233,74 @@ module.exports = [
         ]
       },
       {
+        "text": "Lager",
+        "link": "lager.md",
+        "collapsible": true,
+        "children": [
+          "handscanner-zebra-ds22.md",
+          "handscanner-zebra-tc21.md",
+          "lager-aktionen.md",
+          "lager-bestand.md",
+          "lager-datenmanagement.md",
+          "lager-verpackungen.md",
+          "lager-vorgänge.md"
+        ]
+      },
+      {
+        "text": "Personal",
+        "link": "personal.md",
+        "collapsible": true,
+        "children": [
+          "personal-aktivitäten.md",
+          "personal-verträge.md"
+        ]
+      },
+      {
+        "text": "Projekt",
+        "link": "projekt.md",
+        "collapsible": true,
+        "children": [
+          "projekt-aktionen.md",
+          "projekt-datenmanagement.md"
+        ]
+      },
+      {
+        "text": "Strichcode",
+        "link": "strichcode.md",
+        "collapsible": true,
+        "children": [
+          "handscanner-zebra-tc21.md"
+        ]
+      },
+      {
         "text": "Studio",
         "link": "studio.md",
         "collapsible": true,
         "children": [
           "studio-beispiele.md"
+        ]
+      },
+      {
+        "text": "Verkauf",
+        "link": "verkauf.md",
+        "collapsible": true,
+        "children": [
+          "order-positions.md",
+          "verkauf-abrechnung.md",
+          "verkauf-berichte.md",
+          "verkauf-projekt.md",
+          "verkauf-stammdaten.md",
+          "verkauf-versand.md"
+        ]
+      },
+      {
+        "text": "Website",
+        "link": "website.md",
+        "collapsible": true,
+        "children": [
+          "website-aktionen.md",
+          "website-partner.md",
+          "website-ecommerce.md"
         ]
       },
       {
