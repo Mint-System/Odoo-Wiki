@@ -62,6 +62,10 @@ const groupBy = key => array =>
         return objectsByKeyValue;
     }, {});
 
+function removeDuplicates(arr) {
+    return [...new Set(arr)];
+}
+
 function convert(content,file) {
 
     // convert markdown video links
@@ -181,7 +185,8 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
     console.log('Build sidebar ...')
 
     sidebar = []
-    childrenErweiterungen = []
+    childrenExtension = []
+    childrenTopic = []
 
     // Read file and split into lines
     let lines = fs.readFileSync('README.md', 'utf8').split(/\r?\n/);
@@ -199,11 +204,18 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
                 lines = fs.readFileSync(filename.replace(/%20/g,' '), 'utf8').split(/\r?\n/);
 
                 // Find sidebar items
+                isTopic = false
+                isExtension = false
                 for (let line of lines) {
+
+                    if (line.startsWith('## Bereiche')) { isTopic = true, isExtension = false}
+                    if (line.startsWith('## Erweiterungen')) { isExtension = true, isTopic = false}
+
                     if (line.startsWith('| [')) {
                         // Add file name to content list
                         filename = line.split('](')[1].split(')')[0]
-                        if (filename != undefined) { childrenErweiterungen.push(sanitizeName(filename)) }
+                        if (filename != undefined && isExtension) { childrenExtension.push(sanitizeName(filename)) }
+                        if (filename != undefined && isTopic) { childrenTopic.push(sanitizeName(filename)) }
                     }
                 }
             }
@@ -238,11 +250,20 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
             text: 'Erweiterungen',
             link: '/',
             collapsible: true,
-            children: childrenErweiterungen.sort()
+            children: removeDuplicates(childrenExtension.sort())
+        }
+    ]
+
+    sidebarTopic = [
+        {
+            text: 'Bereiche',
+            link: '/',
+            collapsible: true,
+            children: removeDuplicates(childrenTopic.sort())
         }
     ]
     
-    sidebar = [].concat(sidebarMain, sidebar, sidebarExtension, sidebarAppend)
+    sidebar = [].concat(sidebarMain, sidebar, sidebarTopic, sidebarExtension, sidebarAppend)
     
     // write content to index file
     sidebar = `module.exports = ${JSON.stringify(sidebar, null, 2)}`
