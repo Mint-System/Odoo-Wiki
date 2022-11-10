@@ -29,7 +29,7 @@ module.exports = {
     }),
     plugins: [
         searchPlugin({
-            maxSuggestions: 10
+            maxSuggestions: 20
         }),
         plausiblePlugin({
             'domain': 'odoo-wiki.org'
