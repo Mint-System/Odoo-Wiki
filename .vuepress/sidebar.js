@@ -99,13 +99,13 @@ module.exports = [
   "plm.md",
   "point-of-sale.md",
   "projekt.md",
-  "sale-blanket-order.md",
   "strichcode.md",
   "studio.md",
   "troubleshooting.md",
   "umfragen.md",
   "update.md",
   "verkauf.md",
+  "verkauf-rahmenverträge.md",
   "versand.md",
   "wartung.md",
   "website.md",
@@ -646,29 +646,6 @@ module.exports = [
         ]
       },
       {
-        "text": "Sale Blanket Order",
-        "collapsible": true,
-        "children": [
-          "sale-blanket-order-crm-tags.md",
-          "sale-blanket-order-cancel-state.md",
-          "sale-blanket-order-carrier.md",
-          "sale-blanket-order-comment.md",
-          "sale-blanket-order-commitment-date.md",
-          "sale-blanket-order-contact-person.md",
-          "sale-blanket-order-date-confirmed.md",
-          "sale-blanket-order-discount.md",
-          "sale-blanket-order-extended.md",
-          "sale-blanket-order-invoice-shipping-partner.md",
-          "sale-blanket-order-line-description.md",
-          "sale-blanket-order-notes.md",
-          "sale-blanket-order-readonly-states-extended.md",
-          "sale-blanket-order-readonly-states.md",
-          "sale-blanket-order-send.md",
-          "sale-blanket-order-stock-terms.md",
-          "sale-blanket-order-template.md"
-        ]
-      },
-      {
         "text": "Strichcode",
         "collapsible": true,
         "children": [
@@ -701,6 +678,29 @@ module.exports = [
           "sale-order-template-notes.md",
           "sale-product-set-layout.md",
           "sale-product-set.md"
+        ]
+      },
+      {
+        "text": "Verkauf Rahmenverträge",
+        "collapsible": true,
+        "children": [
+          "sale-blanket-order-crm-tags.md",
+          "sale-blanket-order-cancel-state.md",
+          "sale-blanket-order-carrier.md",
+          "sale-blanket-order-comment.md",
+          "sale-blanket-order-commitment-date.md",
+          "sale-blanket-order-contact-person.md",
+          "sale-blanket-order-date-confirmed.md",
+          "sale-blanket-order-discount.md",
+          "sale-blanket-order-extended.md",
+          "sale-blanket-order-invoice-shipping-partner.md",
+          "sale-blanket-order-line-description.md",
+          "sale-blanket-order-notes.md",
+          "sale-blanket-order-readonly-states-extended.md",
+          "sale-blanket-order-readonly-states.md",
+          "sale-blanket-order-send.md",
+          "sale-blanket-order-stock-terms.md",
+          "sale-blanket-order-template.md"
         ]
       },
       {
