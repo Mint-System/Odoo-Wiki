@@ -348,7 +348,7 @@ Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung.
 
 Rahmenverträge für Verkäufe erstellen.
 
-[![icon_oca_app](Verkauf%20Rahmenverträge.md)
+[![icons_odoo_sale](assets/icons_odoo_sale.png)](Verkauf%20Rahmenverträge.md)
 
 ### [Versand](Versand.md)
 
