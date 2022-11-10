@@ -308,11 +308,11 @@ Agiles Projektmanagement. Schön. Einfach. Open Source.
 
 [![icons_odoo_project](assets/icons_odoo_project.png)](Projekt.md)
 
-### [Sale Blanket Order](Sale%20Blanket%20Order.md)
+### [Verkauf Rahmenverträge](Verkauf%20Rahmenverträge.md)
 
 Rahmenverträge für Verkäufe erstellen.
 
-[![icon_oca_app](assets/icon_oca_app.png)](Sale%20Blanket%20Order.md)
+[![icon_oca_app](Verkauf%20Rahmenverträge.md)
 
 ### [Strichcode](Strichcode.md)
 

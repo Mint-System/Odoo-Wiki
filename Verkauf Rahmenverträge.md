@@ -2,10 +2,10 @@
 tags:
 - HowTo
 - OCA
-prev: ./verkauf
+prev: ./
 ---
 
-## Sale Blanket Order
+## Verkauf Rahmenverträge
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Rahmenverträge für Verkäufe erstellen.
