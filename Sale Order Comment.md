@@ -12,12 +12,6 @@ Kommentar auf Verkaufsauftrag.
 Technischer Name: `sale_order_comment`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_comment>
 
-## Erweiterungen
-
-| Erweiterung                                                                                             | Beschreibung                                                                                     |
-| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| [Sale Blanket Order Comment](Sale%20Blanket%20Order%20Comment.md)                                       | Kommentar auf Rahmenauftrag.                                                        |
-
 ## Verwendung
 
 ### Kommentar hinzufügen

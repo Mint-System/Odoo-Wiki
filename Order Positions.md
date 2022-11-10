@@ -1,7 +1,7 @@
 ---
 tags:
 - HowTo
-prev: ./verkauf
+prev: ./
 ---
 # Order Positions
 ![icons_odoo_sale](assets/icons_odoo_sale.png)

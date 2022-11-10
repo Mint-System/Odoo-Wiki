@@ -8,14 +8,6 @@ prev: ./einstellungen
 
 Odoo-Einstellungen zum Benutzer und Anmeldeverfahren.
 
-## Erweiterungen
-
-| Erweiterung                                                           | Beschreibung                                      |
-| --------------------------------------------------------------------- | ------------------------------------------------- |
-| [Authentication OpenID Connect](Authentication%20OpenID%20Connect.md) | Login mit OpenID Connect Provider.                |
-| [Mail Service Users](Mail%20Service%20Users.md)                       | Service-Benutzer von Lizenzvertrag ausschliessen. |
-| [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)                     | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.                                                  |
-
 ## Benutzerverwaltung
 
 ### Benutzer anzeigen

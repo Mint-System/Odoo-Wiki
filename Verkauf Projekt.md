@@ -8,12 +8,6 @@ prev: ./verkauf
 
 Dienstleistungen mit Verkauf und Projekt abwickeln.
 
-## Erweiterungen
-
-| Erweiterung                                               | Beschreibung                                          |
-| --------------------------------------------------------- | ----------------------------------------------------- |
-| [Sale Order Project Key](Sale%20Order%20Project%20Key.md) | Angebotsname von verlinkter Projektnummer übernehmen. |
-
 ## Abrechnung
 
 ### Dienstleistung für Zeiterfassung konfigurieren

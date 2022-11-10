@@ -12,12 +12,6 @@ Wiederholende Verträge verwalten und automatisch verrechnen.
 Technischer Name: `contract`\
 Repository: <https://github.com/OCA/contract/tree/14.0/contract>
 
-## Erweiterungen
-
-| Erweiterung                              | Beschreibung                                             |
-| ---------------------------------------- | -------------------------------------------------------- |
-| [Contracts Management Recurring Sales](Contracts%20Management%20Recurring%20Sales.md) | Aus wiederholenden Verträge Verkaufsangebote generieren. |
-
 ## Verwendung
 
 ### Kundenverträge anzeigen

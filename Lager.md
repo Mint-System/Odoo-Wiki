@@ -31,10 +31,14 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Product Logistics UoM](Product%20Logistics%20UoM.md)                                         | Individuelle Mengenheit für Produkte festlegen.                                                             |
 | [Stock Aggregated Move Line](Stock%20Aggregated%20Move%20Line.md)                             | Zugriff auf Lieferung in aggregierten Zeilen.                                                               |
 | [Stock Aggregated Move Lines Description](Stock%20Aggregated%20Move%20Lines%20Description.md) | Beschreibungsfeld auf aggregierten Zeilen anzeigen.                                                         |
+| [Stock Barcode Packaging](Stock%20Barcode%20Packaging.md)                                     | Verpackung auf Strichcode-Vorgang anzeigen.                                                                 |
+| [Stock Critical Forecast Link Replenish](Stock%20Critical%20Forecast%20Link%20Replenish)      | Aktionsdatum berücksichtigt aktive Bestandsregeln von Produkten.                                            |
+| [Stock Critical Forecast Promised Agreed](Stock%20Critical%20Forecast%20Promised%20Agreed.md) | Erweitert den Bericht mit Mengen aus Rahmenauftrag und Kaufvertrag.                                         |
 | [Stock Critical Forecast](Stock%20Critical%20Forecast.md)                                     | Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzeigen.                         |
 | [Stock Delivery Note](Stock%20Delivery%20Note.md)                                             | Notiz auf Lieferschein.                                                                                     |
 | [Stock Move Available Locations](Stock%20Move%20Available%20Locations.md)                     | Nur Lagerorte mit Besand in Auswahl anzeigen.                                                               |
 | [Stock Move Line Auto Fill](Stock%20Move%20Line%20Auto%20Fill.md)                             | Die erledigte Menge auf einem Transfer automatisch ausfüllen.                                               |
+| [Stock Move Line Packaging](Stock%20Move%20Line%20Packaging.md)                               | Verknüpfen der Verpackung von Verkaufsauftrag.                                                              |
 | [Stock Move Line Position](Stock%20Move%20Line%20Position.md)                                 | Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen.                               |
 | [Stock Move Sale Order Name](Stock%20Move%20Sale%20Order%20Name.md)                           | Beschreibung der Auftragsposition wird auf die Lieferung kopiert.                                           |
 | [Stock Move Upstream Quantity](Stock%20Move%20Upstream%20Quantity.md)                         | Aktualisiert die erledigte Menge auf verlinkten Lagerbuchungen.                                             |

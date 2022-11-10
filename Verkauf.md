@@ -19,7 +19,6 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Verkauf Berichte](Verkauf%20Berichte.md)     | Verkaufsdaten immer aktuell.                                                                                     |
 | [Verkauf Projekt](Verkauf%20Projekt.md)       | Dienstleistungen mit Verkauf und Projekt abwickeln.                                                              |
 | [Verkauf Stammdaten](Verkauf%20Stammdaten.md) | Produkte, Preislisten und Varianten zentral pflegen.                                                             |
-| [Verkauf Versand](Verkauf%20Versand.md)       | Versandmethoden und Logistik definieren.                                                                         |
 
 ## Erweiterungen
 
@@ -27,7 +26,9 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | [Contracts Management Recurring Sales](Contracts%20Management%20Recurring%20Sales.md) | Aus wiederholenden Verträge Verkaufsangebote generieren.                      |
 | [Default sales incoterm per partner](Default%20sales%20incoterm%20per%20partner.md)   | Standardlieferbedingungen für Kunden.                                         |
+| [Packaging UOM](Packaging%20UOM.md)                                                   | Mengeneinheit für Produktverpackung festlegen.                                |
 | [Product Listprice Currency](Product%20Listprice%20Currency.md)                       | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.              |
+| [Sale Blanket Order Comment](Sale%20Blanket%20Order%20Comment.md)                     | Kommentar auf Rahmenauftrag.                                                  |
 | [Sale Force Invoiced](Sale%20Force%20Invoiced.md)                                     | Markieren Sie den Verkaufsauftrag als abgerechnet.                            |
 | [Sale Order Archive](Sale%20Order%20Archive.md)                                       | Abgebrochene Verkaufsaufträge archivieren.                                    |
 | [Sale Order Check Price](Sale%20Order%20Check%20Price.md)                             | Preis vor Bestätigung des Angebots prüfen.                                    |
@@ -41,6 +42,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order Line Purchase Margin](Sale%20Order%20Line%20Purchase%20Margin.md)         | Kalkulation der Marge basierend auf verlinkter Bestellung.                    |
 | [Sale Order MRP Production Cancel](Sale%20Order%20MRP%20Production%20Cancel.md)       | Verlinkter Fertigungsauftrag bei Abbruch Verkaufsauftrag ebenfalls abbrechen. |
 | [Sale Order Notes](Sale%20Order%20Notes.md)                                           | Verkaufsaufträge mit Notizfelder.                                             |
+| [Sale Order Project Key](Sale%20Order%20Project%20Key.md)                             | Angebotsname von verlinkter Projektnummer übernehmen.                         |
 | [Sale Order Template Notes](Sale%20Order%20Template%20Notes.md)                       | Notizen auf Angebotsvorlage.                                                  |
 | [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                           | Produktset mit Notizen und Abschnitten.                                       |
 | [Sale Product Set](Sale%20Product%20Set.md)                                           | Produktsets definieren und einfach hinzufügen.                                |

@@ -39,6 +39,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                                                       | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt. |
 | [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                           | Zeigt für eine Rechnung das definitive Abgleichsdatum an.                   |
 | [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)                                               | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren.           |
+| [Contracts Management Recurring Sales](Contracts%20Management%20Recurring%20Sales.md)                           | Aus wiederholenden Verträge Verkaufsangebote generieren.                    |
 | [Contracts Management Recurring](Contracts%20Management%20Recurring.md)                                         | Wiederholende Verträge verwalten und automatisch verrechnen.                |
 | [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                           | PDF-Dokumenten von Rechnungen zusammenführen.                               |
 | [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                     | Allow discount deduction on vendor bills.                                   |

@@ -12,12 +12,6 @@ Lokalisierung für Schweizer Banken und Bankkontos.
 Technischer Name: `l10n_ch_base_bank`\
 Repository: <https://github.com/OCA/l10n-switzerland/tree/14.0/l10n_ch_base_bank>
 
-## Erweiterungen
-
-| Erweiterung                                       | Beschreibung                                 |
-| ------------------------------------------------- | -------------------------------------------- |
-| [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md) | Generierung der QR-Rechnung ohne ISR-Nummer. |
-
 ## Verwendung
 
 ### Clearingnummer der Bank hinzufügen

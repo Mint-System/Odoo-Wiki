@@ -12,13 +12,6 @@ Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzei
 Technischer Name: `stock_critical_forecast`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_critical_forecast>
 
-## Erweiterungen
-
-| Erweiterung                                                                                   | Beschreibung                                                        |
-| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| [Stock Critical Forecast Link Replenish](Stock%20Critical%20Forecast%20Link%20Replenish)      | Aktionsdatum berücksichtigt aktive Bestandsregeln von Produkten.    |
-| [Stock Critical Forecast Promised Agreed](Stock%20Critical%20Forecast%20Promised%20Agreed.md) | Erweitert den Bericht mit Mengen aus Rahmenauftrag und Kaufvertrag. |
-
 ## Verwendung
 
 ### Kritische Vorhersage anzeigen

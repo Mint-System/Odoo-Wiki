@@ -23,8 +23,9 @@ Odoo mühelos anpassen und erweitern.
 | ----------------------------------------------- | ----------------------------------------------- |
 | [BI SQL Editor](BI%20SQL%20Editor.md)           | Ganz einfach SQL-basierte Berichte erstellen.   |
 | [Mass Editing](Mass%20Editing.md)               | Mühelos mehrere Einträge auf einmal bearbeiten. |
-| [Web Timeline](Web%20Timeline.md)               | Die Timeline-Ansicht für alle Objekte.          |
+| [Project timeline](Project%20Timeline.md)       | Timeline-Ansicht für Projektaufgaben.           |
 | [Prometheus Exporter](Prometheus%20Exporter.md) | Odoo-Metriken mit Prometheus monitoren.         |
+| [Web Timeline](Web%20Timeline.md)               | Die Timeline-Ansicht für alle Objekte.          |
 
 ## Konfiguration
 

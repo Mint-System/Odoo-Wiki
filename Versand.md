@@ -1,10 +1,10 @@
 ---
 tags:
 - HowTo
-prev: ./verkauf
+prev: ./
 ---
-# Verkauf Versand
-![icons_odoo_sale](assets/icons_odoo_sale.png)
+# Versand
+![icon_odoo_website_sale_delivery](assets/icon_odoo_website_sale_delivery.png)
 
 Versandmethoden und Logistik definieren.
 

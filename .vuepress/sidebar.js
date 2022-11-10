@@ -69,6 +69,7 @@ module.exports = [
   "dokumente.md",
   "diskussion.md",
   "einkauf.md",
+  "einkauf-kaufverträge.md",
   "einstellungen.md",
   "elearning.md",
   "e-mail-marketing.md",
@@ -90,6 +91,7 @@ module.exports = [
   "notizen.md",
   "odoo-mobile-app.md",
   "odoo.sh.md",
+  "order-positions.md",
   "personal.md",
   "personalabrechnung.md",
   "personalbeschaffung.md",
@@ -104,8 +106,10 @@ module.exports = [
   "umfragen.md",
   "update.md",
   "verkauf.md",
+  "versand.md",
   "wartung.md",
   "website.md",
+  "website-ecommerce.md",
   "zeiterfassung.md",
   {
     "text": "Bereiche",
@@ -147,7 +151,6 @@ module.exports = [
         "text": "Einkauf",
         "collapsible": true,
         "children": [
-          "einkauf-kaufverträge.md",
           "order-positions.md"
         ]
       },
@@ -155,6 +158,8 @@ module.exports = [
         "text": "Einstellungen",
         "collapsible": true,
         "children": [
+          "auth-totp-ip-check.md",
+          "authentication-openid-connect.md",
           "einstellungen-aktionen.md",
           "einstellungen-berechtigungen.md",
           "einstellungen-datenmanagement.md",
@@ -162,7 +167,8 @@ module.exports = [
           "einstellungen-login.md",
           "einstellungen-oauth.md",
           "einstellungen-technisch.md",
-          "einstellungen-übersetzung.md"
+          "einstellungen-übersetzung.md",
+          "mail-service-users.md"
         ]
       },
       {
@@ -272,8 +278,7 @@ module.exports = [
           "verkauf-abrechnung.md",
           "verkauf-berichte.md",
           "verkauf-projekt.md",
-          "verkauf-stammdaten.md",
-          "verkauf-versand.md"
+          "verkauf-stammdaten.md"
         ]
       },
       {
@@ -404,6 +409,21 @@ module.exports = [
         ]
       },
       {
+        "text": "Einkauf Kaufverträge",
+        "collapsible": true,
+        "children": [
+          "purchase-requisition-fiscal.md",
+          "purchase-requisition-incoterm.md",
+          "purchase-requisition-order-address.md",
+          "purchase-requisition-other-information-page.md",
+          "purchase-requisition-payment-term.md",
+          "purchase-requisition-reference.md",
+          "purchase-requisition-send.md",
+          "purchase-requisition-tag.md",
+          "purchase-requistion-notes.md"
+        ]
+      },
+      {
         "text": "Einstellungen",
         "collapsible": true,
         "children": [
@@ -421,8 +441,9 @@ module.exports = [
         "children": [
           "bi-sql-editor.md",
           "mass-editing.md",
-          "web-timeline.md",
-          "prometheus-exporter.md"
+          "project-timeline.md",
+          "prometheus-exporter.md",
+          "web-timeline.md"
         ]
       },
       {
@@ -444,7 +465,15 @@ module.exports = [
           "mrp-production-upstream-state.md",
           "mrp-workorder-disable-autostart.md",
           "mrp-workorder-set-producing-qty.md",
-          "manufacture-production-move-date.md"
+          "manufacture-production-move-date.md",
+          "product-barcode-generator.md",
+          "product-country-of-origin.md",
+          "product-feeder-id.md",
+          "product-name-sequence.md",
+          "product-sequence.md",
+          "product-state.md",
+          "product-type-description.md",
+          "secondary-product-type-description.md"
         ]
       },
       {
@@ -461,6 +490,7 @@ module.exports = [
           "account-move-post-warn.md",
           "account-move-reconciled-date.md",
           "bank-account-camt54-import.md",
+          "contracts-management-recurring-sales.md",
           "contracts-management-recurring.md",
           "invoice-merge-pdf-attachment.md",
           "nivels-deduct-supplier-discount.md",
@@ -526,10 +556,14 @@ module.exports = [
           "product-logistics-uom.md",
           "stock-aggregated-move-line.md",
           "stock-aggregated-move-lines-description.md",
+          "stock-barcode-packaging.md",
+          "stock-critical-forecast-link-replenish",
+          "stock-critical-forecast-promised-agreed.md",
           "stock-critical-forecast.md",
           "stock-delivery-note.md",
           "stock-move-available-locations.md",
           "stock-move-line-auto-fill.md",
+          "stock-move-line-packaging.md",
           "stock-move-line-position.md",
           "stock-move-sale-order-name.md",
           "stock-move-upstream-quantity.md",
@@ -548,6 +582,17 @@ module.exports = [
         "collapsible": true,
         "children": [
           "merp-mobile-app.md"
+        ]
+      },
+      {
+        "text": "Order Positions",
+        "collapsible": true,
+        "children": [
+          "account-move-line-position.md",
+          "mrp-bom-position.md",
+          "purchase-order-line-position.md",
+          "sale-order-line-pos.md",
+          "stock-move-line-position.md"
         ]
       },
       {
@@ -589,8 +634,11 @@ module.exports = [
           "project-task-all-menu.md",
           "project-task-default-stage.md",
           "project-task-dependencies.md",
+          "project-task-dependency-counter.md",
           "project-task-material.md",
           "project-templates.md",
+          "project-timeline-task-dependencies.md",
+          "project-timeline-task-dependencies.md",
           "project-timeline.md",
           "project-type.md",
           "project-timesheet-time-control.md",
@@ -633,7 +681,9 @@ module.exports = [
         "children": [
           "contracts-management-recurring-sales.md",
           "default-sales-incoterm-per-partner.md",
+          "packaging-uom.md",
           "product-listprice-currency.md",
+          "sale-blanket-order-comment.md",
           "sale-force-invoiced.md",
           "sale-order-archive.md",
           "sale-order-check-price.md",
@@ -647,9 +697,24 @@ module.exports = [
           "sale-order-line-purchase-margin.md",
           "sale-order-mrp-production-cancel.md",
           "sale-order-notes.md",
+          "sale-order-project-key.md",
           "sale-order-template-notes.md",
           "sale-product-set-layout.md",
           "sale-product-set.md"
+        ]
+      },
+      {
+        "text": "Versand",
+        "collapsible": true,
+        "children": [
+          "sale-order-default-carrier.md",
+          "sale-order-default-commitment-date.md",
+          "sale-order-delivery-note.md",
+          "sale-order-expected-commitment-date.md",
+          "sale-order-line-date-propagate.md",
+          "sale-order-line-date.md",
+          "sale-order-line-default-packaging.md",
+          "sale-stock-picking-note.md"
         ]
       },
       {
@@ -659,6 +724,14 @@ module.exports = [
           "website-date-of-birth.md",
           "website-product-description",
           "website-sale-default-country-ch.md"
+        ]
+      },
+      {
+        "text": "Website eCommerce",
+        "collapsible": true,
+        "children": [
+          "website-shop-coupons.md",
+          "website-berichte.md"
         ]
       }
     ]

@@ -128,6 +128,12 @@ Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands.
 
 [![icons_odoo_purchase](assets/icons_odoo_purchase.png)](Einkauf.md)
 
+### [Einkauf Kaufverträge](Einkauf%20Kaufverträge.md)
+
+Kaufverträge für Rahmenbestellungen erstellen.
+
+[![icons_odoo_purchase](assets/icons_odoo_purchase.png)](Einkauf%20Kaufverträge.md)
+
 ### [Einstellungen](Einstellungen.md)
 
 Odoo-Einstellungen aktivieren und konfigurieren.
@@ -254,6 +260,12 @@ The Odoo Cloud Platform.
 
 [![icons_odoo_app](assets/icons_odoo_app.png)](Odoo.sh.md)
 
+### [Order Positions](Order%20Positions.md)
+
+Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen.
+
+![icons_odoo_sale](assets/icons_odoo_sale.png)
+
 ### [Personal](Personal.md)
 
 Personalmanagement für moderne Unternehmen.
@@ -338,6 +350,12 @@ Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung.
 
 [![icons_odoo_sale](assets/icons_odoo_sale.png)](Verkauf.md)
 
+### [Versand](Versand.md)
+
+Versandmethoden und Logistik definieren.                                                                         
+
+[![icon_odoo_website_sale_delivery](assets/icon_odoo_website_sale_delivery.png)](Verkauf.md)
+
 ### [Wartung](Wartung.md)
 
 Wartungs-Software für moderne Hersteller.
@@ -349,6 +367,12 @@ Wartungs-Software für moderne Hersteller.
 Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 
 [![icons_odoo_website](assets/icons_odoo_website.png)](Website.md)
+
+### [Website eCommerce](Website%20eCommerce.md)
+
+Webshop ohne Integrationsaufwand.
+
+[![](assets/icons_odoo_website_sale.png)](Website%20eCommerce.md)
 
 ### [Zeiterfassung](Zeiterfassung.md)
 

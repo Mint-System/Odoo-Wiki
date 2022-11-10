@@ -10,16 +10,19 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 
 ## Bereiche
 
-| Bereich                                                             | Beschreibung                                          |
-| ------------------------------------------------------------------- | ----------------------------------------------------- |
-| [Einstellungen Aktionen](Einstellungen%20Aktionen.md)               | Odoo-Einstellungen automatisieren.                    |
-| [Einstellungen Berechtigungen](Einstellungen%20Berechtigungen.md)   | Einstellungen zur Zugriffsrechte und Gruppen.         |
-| [Einstellungen Datenmanagement](Einstellungen%20Datenmanagement.md) | Daten zu Einstellungen exportieren und importieren.   |
-| [Einstellungen E-Mail](Einstellungen%20E-Mail.md)                   | Odoo mit Plattformen von Dritten integrieren.         |
-| [Einstellungen Login](Einstellungen%20Login.md)                     | Odoo-Einstellungen zum Benutzer und Anmeldeverfahren. |
-| [Einstellungen OAuth](Einstellungen%20OAuth.md)                     | OAuth-Integration mit Odoo.                           |
-| [Einstellungen Technisch](Einstellungen%20Technisch.md)             | Technische Einstellungen zur Odoo-Datenbank.          |
-| [Einstellungen Übersetzung](Einstellungen%20Übersetzung.md)         | Einstellungen zu Sprachpakete und Übersetzungen.      |
+| Bereich                                                               | Beschreibung                                                       |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)                     | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren. |
+| [Authentication OpenID Connect](Authentication%20OpenID%20Connect.md) | Login mit OpenID Connect Provider.                                 |
+| [Einstellungen Aktionen](Einstellungen%20Aktionen.md)                 | Odoo-Einstellungen automatisieren.                                 |
+| [Einstellungen Berechtigungen](Einstellungen%20Berechtigungen.md)     | Einstellungen zur Zugriffsrechte und Gruppen.                      |
+| [Einstellungen Datenmanagement](Einstellungen%20Datenmanagement.md)   | Daten zu Einstellungen exportieren und importieren.                |
+| [Einstellungen E-Mail](Einstellungen%20E-Mail.md)                     | Odoo mit Plattformen von Dritten integrieren.                      |
+| [Einstellungen Login](Einstellungen%20Login.md)                       | Odoo-Einstellungen zum Benutzer und Anmeldeverfahren.              |
+| [Einstellungen OAuth](Einstellungen%20OAuth.md)                       | OAuth-Integration mit Odoo.                                        |
+| [Einstellungen Technisch](Einstellungen%20Technisch.md)               | Technische Einstellungen zur Odoo-Datenbank.                       |
+| [Einstellungen Übersetzung](Einstellungen%20Übersetzung.md)           | Einstellungen zu Sprachpakete und Übersetzungen.                   |
+| [Mail Service Users](Mail%20Service%20Users.md)                       | Service-Benutzer von Lizenzvertrag ausschliessen.                  |
 
 ## Erweiterungen
 

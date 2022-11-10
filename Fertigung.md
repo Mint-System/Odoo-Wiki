@@ -37,6 +37,14 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 | [MRP Workorder Disable Autostart](MRP%20Workorder%20Disable%20Autostart.md)                     | Bei Aufruf von Arbeitsaufträgen in der Tablet-Ansicht nicht automatisch starten. |
 | [MRP Workorder Set Producing Qty](MRP%20Workorder%20Set%20Producing%20Qty.md)                   | Arbeitsauftrag startet ohne erledigte Menge.                                     |
 | [Manufacture Production Move Date](Manufacture%20Production%20Move%20Date.md)                   | Lieferdatum auf Fertigungsauftrag bearbeiten.                                    |
+| [Product Barcode Generator](Product%20Barcode%20Generator.md)                                   | Autogenerate EAN13 product barcodes.                                             |
+| [Product Country of Origin](Product%20Country%20of%20Origin.md)                                 | Bestimmen Sie für jedes Produkt ein Herkunftsland                                |
+| [Product Feeder ID](Product%20Feeder%20ID.md)                                                   | Feeder-Textfeld auf dem Produkt.                                                 |
+| [Product Name Sequence](Product%20Name%20Sequence.md)                                           | Generate product names based on a sequence.                                      |
+| [Product Sequence](Product%20Sequence.md)                                                       | Produkreferenzen anhand einer Sequenz generieren lassen.                         |
+| [Product State](Product%20State.md)                                                             | Lebenszyklus von Produkten festlegen.                                            |
+| [Product Type Description](Product%20Type%20Description.md)                                     | Zu jedem Produkt ein Beschreibungsfeld.                                          |
+| [Secondary Product Type Description](Secondary%20Product%20Type%20Description.md)               | Zu jedem Produkt ein zweites Beschreibungsfeld.                                  |
 
 ## Aufträge
 

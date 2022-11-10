@@ -1,7 +1,7 @@
 ---
 tags:
 - HowTo
-prev: ./website
+prev: ./
 ---
 # Website eCommerce
 ![](assets/icons_odoo_website_sale.png)

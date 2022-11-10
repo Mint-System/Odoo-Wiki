@@ -1,7 +1,7 @@
 ---
 tags:
 - HowTo
-prev: ./einkauf
+prev: ./
 ---
 # Einkauf Kaufverträge
 ![icons_odoo_purchase](assets/icons_odoo_purchase.png)
