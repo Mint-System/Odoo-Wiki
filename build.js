@@ -226,14 +226,14 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
                     childrenExtension.push({
                         text: filename.split('.md')[0],
                         collapsible: true,
-                        children: sidebarExtension
+                        children: removeDuplicates(sidebarExtension)
                     })
                 }
                 if (sidebarTopic.length > 0) {
                     childrenTopic.push({
                         text: filename.split('.md')[0],
                         collapsible: true,
-                        children: sidebarTopic
+                        children: removeDuplicates(sidebarTopic)
                     })
                 }
             }
