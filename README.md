@@ -308,12 +308,6 @@ Agiles Projektmanagement. Schön. Einfach. Open Source.
 
 [![icons_odoo_project](assets/icons_odoo_project.png)](Projekt.md)
 
-### [Verkauf Rahmenverträge](Verkauf%20Rahmenverträge.md)
-
-Rahmenverträge für Verkäufe erstellen.
-
-[![icon_oca_app](Verkauf%20Rahmenverträge.md)
-
 ### [Strichcode](Strichcode.md)
 
 Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
@@ -349,6 +343,12 @@ Aktualisieren Sie ihre Odoo Enterprise Installation ohne Mehrkosten.
 Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung. 
 
 [![icons_odoo_sale](assets/icons_odoo_sale.png)](Verkauf.md)
+
+### [Verkauf Rahmenverträge](Verkauf%20Rahmenverträge.md)
+
+Rahmenverträge für Verkäufe erstellen.
+
+[![icon_oca_app](Verkauf%20Rahmenverträge.md)
 
 ### [Versand](Versand.md)
 
