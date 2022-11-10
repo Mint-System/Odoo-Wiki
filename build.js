@@ -196,16 +196,19 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
         if (line.startsWith('### ')) {
             // Add file name to content list
             filename = line.slice(0, -1).split('](')[1]
-            if (filename != undefined) { 
-                
+            if (filename != undefined) {
+                filename = filename.replace(/%20/g,' ')
+
                 sidebar.push(sanitizeName(filename))
 
                 // Read file and split into lines
-                lines = fs.readFileSync(filename.replace(/%20/g,' '), 'utf8').split(/\r?\n/);
+                lines = fs.readFileSync(filename, 'utf8').split(/\r?\n/);
 
                 // Find sidebar items
                 isTopic = false
                 isExtension = false
+                sidebarExtension = []
+                sidebarTopic = []
                 for (let line of lines) {
 
                     if (line.startsWith('## Bereiche')) { isTopic = true, isExtension = false}
@@ -213,10 +216,27 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
 
                     if (line.startsWith('| [')) {
                         // Add file name to content list
-                        filename = line.split('](')[1].split(')')[0]
-                        if (filename != undefined && isExtension) { childrenExtension.push(sanitizeName(filename)) }
-                        if (filename != undefined && isTopic) { childrenTopic.push(sanitizeName(filename)) }
+                        subfilename = line.split('](')[1].split(')')[0].replace(/%20/g,' ')
+                        if (subfilename != undefined && isExtension) { sidebarExtension.push(sanitizeName(subfilename)) }
+                        if (subfilename != undefined && isTopic) { sidebarTopic.push(sanitizeName(subfilename)) }
                     }
+                }
+
+                if (isExtension) {
+                    childrenExtension.push({
+                        text: filename.split('.md')[0],
+                        link: sanitizeName(filename),
+                        collapsible: true,
+                        children: sidebarExtension
+                    })
+                }
+                if (isTopic) {
+                    childrenTopic.push({
+                        text: filename.split('.md')[0],
+                        link: sanitizeName(filename),
+                        collapsible: true,
+                        children: sidebarTopic
+                    })
                 }
             }
         }
