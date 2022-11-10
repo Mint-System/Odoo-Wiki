@@ -225,7 +225,6 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
                 if (sidebarExtension.length > 0) {
                     childrenExtension.push({
                         text: filename.split('.md')[0],
-                        link: sanitizeName(filename),
                         collapsible: true,
                         children: sidebarExtension
                     })
@@ -233,7 +232,6 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
                 if (sidebarTopic.length > 0) {
                     childrenTopic.push({
                         text: filename.split('.md')[0],
-                        link: sanitizeName(filename),
                         collapsible: true,
                         children: sidebarTopic
                     })
