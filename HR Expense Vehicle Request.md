@@ -1,0 +1,19 @@
+---
+tags:
+- HowTo
+- Drittanbieter
+prev: ./personal
+---
+# HR Expense Vehicle Request
+![icon_oms_box](assets/icon_oms_box.png)
+
+Brückenmodul für Fahrzeuganfrage und Auslage.
+
+Technischer Name: `hr_expense_vehicle_request`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_expense_vehicle_request>
+
+## Verwendung
+
+### Aus Fahrzeuganfrage eine Auslage erstellen
+
+Mit dieser Erweiterung wird beim Erstellen

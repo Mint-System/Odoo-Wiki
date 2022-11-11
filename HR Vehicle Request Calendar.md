@@ -10,7 +10,7 @@ prev: ./personal
 Kalenderansicht und Terminbestätigung für Fahrzeuganfragen.
 
 Technischer Name: `hr_vehicle_request_calendar`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/hr_vehicle_request_calendar>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_vehicle_request_calendar>
 
 ## Verwendung
 

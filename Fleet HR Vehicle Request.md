@@ -10,7 +10,7 @@ prev: ./personal
 Brückenmodul für Fahrzeugflotte und Fahrzeuganfrage.
 
 Technischer Name: `fleet_hr_vehicle_request`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/fleet_hr_vehicle_request>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/fleet_hr_vehicle_request>
 
 ## Verwendung
 
