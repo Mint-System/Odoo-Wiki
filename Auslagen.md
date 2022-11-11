@@ -10,6 +10,12 @@ Spesen erfassen und abrechnen.
 
 Website: <https://www.odoo.com/de_DE/app/expenses>
 
+## Erweiterungen
+
+| Erweiterung                                                       | Beschreibung                                  |
+| ----------------------------------------------------------------- | --------------------------------------------- |
+| [HR Expense Vehicle Request](HR%20Expense%20Vehicle%20Request.md) | Brückenmodul für Fahrzeuganfrage und Auslage. |
+
 ## Konfiguration
 
 ### Auslagen-Produkt erfassen

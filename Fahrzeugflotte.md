@@ -12,9 +12,9 @@ Website: <https://www.odoo.com/de_DE/app/fleet>
 
 ## Erweiterungen
 
-| Erweiterung                                                         | Beschreibung                                                |
-| ------------------------------------------------------------------- | ----------------------------------------------------------- |
-| [Fleet HR Vehicle Request](Fleet%20HR%20Vehicle%20Request.md)       | Brückenmodul für Fahrzeugflotte und Fahrzeuganfrage.        |
+| Erweiterung                                                   | Beschreibung                                         |
+| ------------------------------------------------------------- | ---------------------------------------------------- |
+| [Fleet HR Vehicle Request](Fleet%20HR%20Vehicle%20Request.md) | Brückenmodul für Fahrzeugflotte und Fahrzeuganfrage. |
 
 ## Verwendung
 

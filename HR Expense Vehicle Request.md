@@ -16,4 +16,8 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_expense_ve
 
 ### Aus Fahrzeuganfrage eine Auslage erstellen
 
-Mit dieser Erweiterung wird beim Erstellen
+Mit dieser Erweiterung wird beim Retournieren einer privaten Fahrzeuganfrage eine Auslage erstellt.
+
+![HR Expense Vehicle Request](assets/HR%20Expense%20Vehicle%20Request.gif)
+
+Wenn Sie eine [Spesenabrechnung erstellen](Auslagen.md#Spesenabrechnung%20erstellen) wird der Manager des Fahrzeugs als Verantwortlicher für die Spesenabrechnung eingetragen.
