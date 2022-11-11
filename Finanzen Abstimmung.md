@@ -35,3 +35,7 @@ Navigieren Sie nach *Finanzen > Konfiguration > Ausgleichsmodelle* und erstellen
 Dieses Ausgleichsmodell können im Abgleichsvorgang mit einem Knopfdruck anwenden:
 
 ![](assets/Finanzen%20Abstimmung%20Ausgleichsmodell%20anwenden.png)
+
+### Buchungsatz von Zeile aus Kontoauszug anzeigen
+
+Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge* aus. Suchen Sie hier nach einer bestimmten Bankauszugs-Zeile. Öffnen Sie die Zeile und wählen Sie *Buchungssatz*.

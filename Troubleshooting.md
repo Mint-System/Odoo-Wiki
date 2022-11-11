@@ -199,3 +199,22 @@ Prüfen Sie die SMTP-Einstellungen für den Benutzer und den Nachrichtenfluss vo
 Gehen Sie in die Konto-Einstellungen des Postfachs und prüfen Sie ob die Verbindungsinformationen für SMTP und IMAP augezeigt werden.
 
 ![](assets/Office%20365%20E-Mail%20synchronisieren.png)
+
+
+## Abstimmungsvorgang kann nicht bestätigt werden
+
+### Problem
+
+Bei der Bestätigung eines Abgleichs erscheint dieser Fehler:
+
+```
+Fehler: You can only reconcile posted entries.
+```
+
+### Ursache
+
+Die Buchung des Kontoauszug ist im Entwurfsstatus.
+
+### Lösung
+
+Vor der Abstimmung muss der
