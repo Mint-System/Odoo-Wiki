@@ -17,6 +17,12 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 | [Awesome Timesheet](Awesome%20Timesheet.md)           | Mobile Zeiterfassung.                               |
 | [Terminal Zeiterfassung](Terminal%20Zeiterfassung.md) | Ein- und auschecken mit dem Terminal Zeiterfassung. |
 
+## Konfiguration
+
+### Fakturierungsregeln festlegen
+
+Navigieren Sie nach *Einstellungen > Zeiterfassung > Abrechnung* und wählen Sie eine Option bei *Fakturierungsregel*. Ist die Fakturierungsregel *Nur bestätigte Stundenzettel* aktiviert, müssen die Stundenzettel zur Verrechnung vorgängit validiert werden.
+
 ## Erfassung
 
 ### Eintrag manuell erstellen
@@ -35,17 +41,8 @@ Wenn Sie den Abrechnungstyp von bestehenden Eintägen ändern möchten, müssen 
 
 ![](assets/Zeiterfassung%20Verrechnungstyp%20%C3%A4ndern.gif)
 
-### Stundenzettel validieren
-Gilt für #Odoo13
-
-Ist die Fakturierungsregel *Nur bestätigte Stundenzettel* aktiviert, müssen zur Verrechnung die Stundenzetter der Mitarbieter explizit validiert werden.
-
-Der Stundenzettel-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Validieren* und wählt den entsprechenden Zeitraum aus. Mit *Bestätigen* wird ein Validierungsdatum festgelegt. Alle Zeitnachweise vor dem Validierungsdatum gelten als validiert.
-
-![](assets/Zeiterfassung%20Validierungsdatum.png)
-
 ### Auftragselement von Aufgabe entfernen
-Gilt ab #Odoo14
+*Gilt ab #Odoo14.*
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -66,13 +63,20 @@ In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl *Aktion*
 
 ## Validierung
 
+### Stundenzettel bis Datum validieren
+*Gilt für #Odoo13.*
+
+Der Stundenzettel-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Validieren* und wählt den entsprechenden Zeitraum aus. Mit *Bestätigen* wird ein Validierungsdatum festgelegt. Alle Zeitnachweise vor dem Validierungsdatum gelten als validiert.
+
+![](assets/Zeiterfassung%20Validierungsdatum.png)
+
 ### Stundenzettel validieren
-Gilt ab #Odoo14
+*Gilt ab #Odoo14.*
 
 Der Stundenzettel-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Validieren* und wählt den entsprechenden Zeitraum aus. Mit *Bestätigen* wird ein Validierungsdatum festgelegt.
 
 ### Validierung zurücksetzen
-Gilt für #Odoo13
+*Gilt für #Odoo13.
 
 Einmal validierte Stundeneinträge können nicht mehr verändert werden. Benötigen Sie dennoch eine korrektur, müssen Sie für jeden Mitarbeitenden folgende Aktion ausführen: *Personal > Mitarbeitenden auswählen > Tab HR Einstellungen öffnen* und dort das Feld *Stundenzettel-Validierungsdatum* anpassen.
 
@@ -81,7 +85,7 @@ Einmal validierte Stundeneinträge können nicht mehr verändert werden. Benöti
 Nach der Korrektur der Stundeinträge müssen Sie diese wieder validieren.
 
 ### Validierung zurücksetzen
-Gilt ab #Odoo14
+*Gilt ab #Odoo14.*
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
