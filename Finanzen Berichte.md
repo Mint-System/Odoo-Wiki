@@ -20,9 +20,13 @@ Wenn Sie verschiedene Kontoauszüge ansehen wollen, öffnen Sie *Finanzen > Beri
 
 ### Saldenliste anzeigen
 
-Öffnen Sie *Finanzen > Finanzen > Hauptbuch*. Hier sehen Sie gemäss Kontenplan die Spalten *Soll*, *Haben* und *Saldo*. Filtern Sie die Angaben nach Konten und Buchungsdatum um die gewünschte Periode anzugigen
+Öffnen Sie *Finanzen > Finanzen > Hauptbuch*. Hier sehen Sie gemäss Kontenplan die Spalten *Soll*, *Haben* und *Saldo*. Filtern Sie die Angaben nach Konten und Buchungsdatum um die gewünschte Periode anzuzeigen
 
 ![](assets/Finanzen%20Berichte%20Saldenliste.png)
+
+:::
+Das Feld *Cumulated Balance* kumuliert fortlaufend das Saldo. Sie können das Feld über das Kontext-Menü ein- und ausblenden.
+:::
 
 ### Buchungszeilen auswerten
 
