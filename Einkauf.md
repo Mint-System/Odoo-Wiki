@@ -10,12 +10,6 @@ Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands.
 
 Website: <https://www.odoo.com/de_DE/app/purchase>
 
-## Bereiche
-
-| Bereich                                           | Beschreibung                                                                                                     |
-| ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| [Order Positions](Order%20Positions.md)           | Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen. |
-
 ## Erweiterungen
 
 | Erweiterung                                                                           | Beschreibung                                                                              |

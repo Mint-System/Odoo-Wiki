@@ -14,7 +14,6 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 
 | Bereich                                       | Beschreibung                                                                                                     |
 | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| [Order Positions](Order%20Positions.md)       | Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen. |
 | [Verkauf Abrechnung](Verkauf%20Abrechnung.md) | Verkaufsaufträge unkompliziert abrechnen.                                                                        |
 | [Verkauf Berichte](Verkauf%20Berichte.md)     | Verkaufsdaten immer aktuell.                                                                                     |
 | [Verkauf Projekt](Verkauf%20Projekt.md)       | Dienstleistungen mit Verkauf und Projekt abwickeln.                                                              |
