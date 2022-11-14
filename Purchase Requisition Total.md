@@ -14,7 +14,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 ## Verwendung
 
-## Kalkulation Kaufvertrag anzeigen
+### Kalkulation Kaufvertrag anzeigen
 
 Mit dieser Erweiterung wird auf dem kaufvertrag der Netto- und Steuerbetrag sowie Total berechnet. Auf den Auftragspositionen können Sie die Einkaufssteuer festelgen. Für jede Zeile wird die Zwischensumme berechnet.
 
