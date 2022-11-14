@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./verkauf
+prev: ./order-positions
 ---
 # Sale Order Line Po
 ![icon_oms_box](assets/icon_oms_box.png)

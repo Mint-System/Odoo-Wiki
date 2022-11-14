@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finanzen
+prev: ./order-positions
 ---
 # Account Move Line Position
 ![icon_oms_box](assets/icon_oms_box.png)

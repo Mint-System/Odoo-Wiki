@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./fertigung
+prev: ./order-positions
 ---
 # MRP BoM Position
 ![icon_oms_box](assets/icon_oms_box.png)
