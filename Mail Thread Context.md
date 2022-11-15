@@ -12,6 +12,10 @@ prev: ./diskussion
 Technischer Name: `mail_thread_context`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_thread_context>
 
+::: warning
+Diese App ist veraltet. Wir empfehlen die App [Mail No Autofollow](Mail%20No%20Autofollow.md) zu verwenden.
+:::
+
 ## Verwendung
 
 ### Automatisches Abonnieren deaktivieren
