@@ -77,3 +77,23 @@ Menü: `Bordereau`\
 Obermenü: `Lager/Lager`\
 Aktion: `ir.actions.act_window` `Bordereau`\
 Nummernfolge: `10`
+
+## Auswertung
+
+### Inventur Gebinde anzeigen
+
+Damit Sie eine Übersicht der Gebinde erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Entwicklung%20Aktionen.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+
+Name der Aktion: `Inventur Gebinde`\
+Objekt: `stock.move`\
+Ansichtsmodus: `tree,form`\
+Wertebereich: `["&", ("state", "=", "done"), ["product_id", "ilike", "Gebinde"], ["picking_partner_id", "!=", False]]`\
+Wert aus Kontext: `{'group_by': ['product_id', 'x_picking_partner_id']}`\
+Menü: `Inventur Gebinde`\
+Obermenü: `Verkauf/Aufträge`\
+Aktion: `ir.actions.act_window` `Inventur Gebinde`\
+Nummernfolge: `2`
+
+Das Ergebnis sollte so aussehen:
+
+![](assets/Lager%20Bestand%20Inventur%20Gebinde.png)

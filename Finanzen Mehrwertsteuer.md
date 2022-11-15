@@ -8,7 +8,11 @@ prev: ./finanzen
 
 Mehrwertsteuer einfach abrechnen mit Odoo.
 
-## Merhwertsteuer
+## Konfiguration
+
+### Nach vereinnahmten Entgelten verrechnen
+
+Wenn Sie die Mehrwertsteuer nach vereinnahmten Entgelten abrechnen wolle, navigieren Sie nach *Einstellungen > Finanzen > Steuern* und aktivieren Sie die Option *Nach vereinnahmten Entgelten*. Legen Sie anschliessen ein Journal im Feld *Journal für die Besteuerung nach vereinnahmten Entgelten* und ein Konto im Feld *Konto für erhaltenen Steuerbetrag* fest.
 
 ### Steuersätze anpassen
 
@@ -50,6 +54,19 @@ Obermenü: `Finanzen/Konfiguration/Finanzen`\
 Aktion: `ir.actions.act_window` `Steuergruppen`\
 Nummernfolge: `10`
 
+### Standard-Steuer auf Konto hinterlegen
+
+Für jedes Konto können Sie einen Standard-Steuersatz hinterlegen. Rufen Sie das Konto in der Formularansicht auf und legen Sie den Steuersatz im Feld *Standard Steuern* fest.
+
+![](assets/Finanzen%20Mehrwertsteuer%20Standard%20Steuern.png)
+
+### Standard-Steuer für Verkauf und Einkauf festlegen
+
+Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und legen Sie im Feld *Umsatzsteuer* und *Vorsteuer* die Steuer für *Einkauf* resp. *Verkauf* fest.
+
+
+## Verwaltung
+
 ### Steueranpassung vornehmen
 
 Angenommen Sie haben auf einer Lieferantenrechnung eine falsche Steuer verrechnet und der Umsatzsteuerbericht ist bereits verbucht, so können Sie mit der Aktion *Finanzen > Finanzen > Steueranpassung* eine Korrekturbuchung erstellen. Geben Sie als Betrag den Steuerbetrag ein.
@@ -65,15 +82,7 @@ Und daraus wird diese Buchung generiert.
 
 ![](assets/Finanzen%20Mehrwertsteuer%20Steueranpassung%20Buchung.png)
 
-### Standard-Steuer auf Konto hinterlegen
-
-Für jedes Konto können Sie einen Standard-Steuersatz hinterlegen. Rufen Sie das Konto in der Formularansicht auf und legen Sie den Steuersatz im Feld *Standard Steuern* fest.
-
-![](assets/Finanzen%20Mehrwertsteuer%20Standard%20Steuern.png)
-
-### Standard-Steuer für Verkauf und Einkauf festlegen
-
-Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und legen Sie im Feld *Umsatzsteuer* und *Vorsteuer* die Steuer für *Einkauf* resp. *Verkauf* fest.
+## Technisch
 
 ### Konten-Tags ohne Entwicklermodus anzeigen
 

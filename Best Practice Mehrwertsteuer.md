@@ -13,7 +13,7 @@ Sind Sie noch nicht Steuerpflichtig, können Sie direkt mit dem Verbuchen von Re
 Steuerverrechnung und vereinbarten Entgelten. So ist auch die Buchhaltung eingestellt.
 Weiterführende Informationen finden Sie unter <https://fedlex.data.admin.ch/eli/cc/2009/615>
 
-## Abrechnung nach vereinbarten Entelten
+## Abrechnung nach vereinbarten Entgelten
 
 DIe Abrechnung nach vereinbarten Entgelten ist das Standardverfahren der eidgenössischen Steuerverwaltung. Bei dieser Methode wird die MwSt fällig, sobald die Rechnung dem Kunden gestellt ist. Bezahlt dieser die Rechnung erst in einem späteren Quartal, finanzieren Sie als Unternehmer die MwSt vor.
 
