@@ -26,8 +26,6 @@ Feiertage können für alle Mitarbeiter zentral festgelegt werden. Navigieren Si
 
 ![](assets/HR%20Holidays%20Public%20Beispiel%20Feiertagskalender.png)
 
-In den [Demodaten](Datenmanagement.md#Demodaten%20anzeigen) der Mint System sind Feiertage zum Import bereitgestellt.
-
 Erstellte Feiertage werden im Kalender von OdooBot eingetragen:
 
 ![](assets/HR-Holidays-Public%20OdooBot.png)

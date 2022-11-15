@@ -75,10 +75,6 @@ In der Listenansicht können Datensätze ausgewählt und als Sammelmutation geä
 
 ![Datenmanagement Sammelmutation](assets/Datenmanagement%20Sammelmutation.gif)
 
-### Demodaten anzeigen
-
-Auf GitHub veröffentlicht die Mint System [Odoo-Demodaten](https://github.com/Mint-System/Odoo-Demodaten). Hier finden Sie Importbereite Datensätze für die Odoo-Module.
-
 ### Importzuordnung anzeigen
 
 Damit Sie eine Übersicht der Importzuordnung erhalten, erstellen Sie als erstes eine neue Ansicht gemäss [Ansicht erstellen](Entwicklung%20Ansichten.md#Ansicht%20erstellen) mit diesen Angaben:
