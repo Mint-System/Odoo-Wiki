@@ -5,7 +5,7 @@ tags:
 prev: ./verkauf
 ---
 # Sale Order Check Price
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oms_box](assets/icon_oms_box.png)
 
 Preis vor Bestätigung des Angebots prüfen.
 

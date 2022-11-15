@@ -11,6 +11,10 @@ Beschreibt wie man bestimmte Anwendungsfälle in Odoo implementiert.
 
 Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best Practices verweisen zur Implementation auf die HowTos.
 
+### An- und Abwesenheitszeiten
+
+* [[Best Practice Abwesenheitstypen]]
+
 ### Fertigung
 
 * [Fertigungsplanung](Best%20Practice%20Fertigungsplanung.md)

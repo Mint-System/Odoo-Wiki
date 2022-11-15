@@ -80,3 +80,12 @@ Erstellen Sie eine zweite Preisregel für den normalen Preis:
 Dazu ein Beispiel:
 
 ![](assets/Verkauf%20Stammdaten%20Preisliste%20mit%20Rabatt.png)
+
+### Preisregeln anzeigen
+
+Damit Sie eine Übersicht der Preisregeln erhalten, folgen Sie dem HowTo [Menüeintrag erstellen](Entwicklung.md#Menüeintrag%20erstellen) und verwenden diese Werte:
+
+Menü: `Preisregeln`\
+Obermenü: `Verkauf/Produkte`\
+Aktion: `ir.actions.act_window` `Preisregeln`\
+Nummernfolge: `5`

@@ -10,6 +10,12 @@ Verwaltung von Mitarbeiterurlauben & Abwesenheit
 
 Wesite: <https://www.odoo.com/de_DE/app/time-off>
 
+## Bereiche
+
+| Bereich                                                                       | Beschreibung |
+| ----------------------------------------------------------------------------- | ------------ |
+| [Abwesenheitszeiten Datenmanagement](Abwesenheitszeiten%20Datenmanagement.md) | Daten zu Abwesenheitszeiten exportieren und importieren.             |
+
 ## Erweiterungen
 
 | Erweiterung                                                                               | Beschreibung                                                                                                       |
