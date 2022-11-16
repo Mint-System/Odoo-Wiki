@@ -91,7 +91,7 @@ Standardmässig ist die Übersicht der Steuerkonten in der Navigation nicht sich
 
 ### Vereinnahmte Buchungen aufgrund von Zahlungen anzeigen
 
-Wenn Sie [nach vereinnahmten Entgelten verrechnen](#Nach%20vereinnahmten%20Entgelten%20verrechnen) und eine [Abstimmung](Finanzen%20Abstimmung.md#Abstimmung%20durchführen) für eine Rechnung mit einer Steuerfälligkeit *Auf der Grundlage einer Zahlung* durchführen, wird eine Umbuchung vom Übergangskonto auf das effektive MWST-Konto erstellt. Öffnen Sie das Steuer-Journal um diese Buchungen anzueigen.
+Wenn Sie [nach vereinnahmten Entgelten verrechnen](#Nach%20vereinnahmten%20Entgelten%20verrechnen) und eine Abstimmung für eine Rechnung mit einer Steuerfälligkeit *Auf der Grundlage einer Zahlung* durchführen, wird eine Umbuchung vom Übergangskonto auf das effektive MWST-Konto erstellt. Öffnen Sie das Steuer-Journal um diese Buchungen anzueigen.
 
 ![](assets/Finanzen%20Mehrwertsteuer%20Buchung%20Übergangskonto.png)
 
