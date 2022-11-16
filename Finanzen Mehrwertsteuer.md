@@ -14,6 +14,19 @@ Mehrwertsteuer einfach abrechnen mit Odoo.
 
 Wenn Sie die Mehrwertsteuer nach vereinnahmten Entgelten abrechnen wolle, navigieren Sie nach *Einstellungen > Finanzen > Steuern* und aktivieren Sie die Option *Nach vereinnahmten Entgelten*. Legen Sie anschliessen ein Journal im Feld *Journal für die Besteuerung nach vereinnahmten Entgelten* und ein Konto im Feld *Konto für erhaltenen Steuerbetrag* fest.
 
+* **Journal**: Steuern
+* **Konto**: 2202 Umsatzsteuerausgleich Abrechnungsmethode 
+
+### Steuerfälligkeit für Steuersatz festlegen
+
+Wenn Sie [Nach vereinnahmten Entgelten verrechnen](#Nach%20vereinnahmten%20Entgelten%20verrechnen) können für jeden Steuersatz die Steuerfälligkeit festlegen. Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern* und öffnen Sie einen Steuersatz. Im Tab *Erweiterte Optionen* finden Sie das Feld *Steuerfälligkeit*. Wählen Sie *Auf der Grundlage einer Zahlung* und legen Sie ein Übergangskonto fest, wenn Sie für diesen Steuersatz nach vereinnahmten Entgelt abrechnen möchten.
+
+![](assets/Finanzen%20Mehrwertsteuer%20Grundlage%20Zahlung.png)
+
+Wird der entsprechende Steuersatz auf der Rechnungszeile verwendet, wird die MWST-Buchung entsprechend angepasst:
+
+![](assets/Finanzen%20Mehrwertsteuer%20Grundlage%20Zahlung%20Buchung.png)
+
 ### Steuersätze anpassen
 
 Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern*. Hier werden alle Steuersätze festgelegt. Öffnen Sie einen Eintrag und passen Sie diese Felder an:
@@ -75,6 +88,12 @@ Wenn Sie eine Abschlussbuchung für die Mehrwertsteuer vornehmen wollen, öffnen
 ::: tip
 Standardmässig ist die Übersicht der Steuerkonten in der Navigation nicht sichtbar. Führen Sie die Aktion [Steuergruppen anzeigen](#Steuergruppen%20anzeigen) aus um einen entsprechenden Menü-Eintrag zu erstellen.
 :::
+
+### Vereinnahmte Buchungen aufgrund von Zahlungen anzeigen
+
+Wenn Sie [nach vereinnahmten Entgelten verrechnen](#Nach%20vereinnahmten%20Entgelten%20verrechnen) und eine [Abstimmung](Finanzen%20Abstimmung.md#Abstimmung%20durchführen) für eine Rechnung mit einer [Steuerfälligkeit](#Steuerfälligkeit%20für%20Steuersatz%20festlegen) aufgrund einer Zahlung durchführen, wird eine Umbuchung vom Übergangskonto auf das effektive MWST-Konto erstellt. Öffnen Sie das entsprechende Journal um diese Buchungen anzueigen.
+
+![](assets/Finanzen%20Mehrwertsteuer%20Buchung%20Übergangskonto.png)
 
 ### Steueranpassung vornehmen
 
