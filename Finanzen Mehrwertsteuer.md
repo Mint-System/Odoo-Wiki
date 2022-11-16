@@ -64,8 +64,15 @@ Für jedes Konto können Sie einen Standard-Steuersatz hinterlegen. Rufen Sie da
 
 Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und legen Sie im Feld *Umsatzsteuer* und *Vorsteuer* die Steuer für *Einkauf* resp. *Verkauf* fest.
 
-
 ## Verwaltung
+
+### Abschlussbuchung Steuererklärung erstellen
+
+Wenn Sie eine Abschlussbuchung für die Mehrwertsteuer vornehmen wollen, öffnen Sie *Finanzen > Berichtswesen > Umsatzsteuerbericht* und klicken auf *Abschlussbuchung*. Nun wird eine Buchung für die Steuererklärung gemäss Steuerperiode (siehe [Steuerperiode festlegen](#Steuerperiode%20festlegen)) erstellt. Dabei wird der Steuerbetrag aus dem zu schuldenden Steuerbetrag sowie Vorsteuerabzug gemäss Steuergruppen berechnet.
+
+::: tip
+Sie Steuergruppen sind standardmässig nicht sichtbar. Führen Sie die Aktion [Steuergruppen anzeigen](#Steuergruppen%20anzeigen) aus um das zu ändern.
+:::
 
 ### Steueranpassung vornehmen
 
