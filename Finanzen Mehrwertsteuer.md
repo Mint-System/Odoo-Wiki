@@ -37,9 +37,9 @@ Im Tab *Erweiterte Optionen* haben Sie diese wichtigen Felder:
 
 ### Steuerkonten konfigurieren
 
-Klicken Sie auf *Einstellungen > Finanzen > Steuern > Konfigurieren der Steuerkonten*. Hier können Sie die Konten pro Steuersatz für die Bezahlung der Umsatzsteuer hinterlegen.
+Klicken Sie auf *Einstellungen > Finanzen > Steuern > Konfigurieren der Steuerkonten*. Hier können Sie die Konten pro Steuersatz für die Bezahlung der Mehrwertsteuer hinterlegen.
 
-![](assets/Finanzen%20Mehrwertsteuer%20Steuerkonten%20konfigurieren.png)
+![](assets/Finanzen%20Mehrwertsteuer%20Abrechnung.png)
 
 ::: tip
 Normalerweise werden in den Spalten *Steuer aktuelles Konto (bezahlen)* und *Steuer aktuelles Konto (empfangen)* das Konto *2201 Abrechnungskonto MWST* hinterlegt.
@@ -68,10 +68,12 @@ Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und legen Sie im Feld *
 
 ### Abschlussbuchung Steuererklärung erstellen
 
-Wenn Sie eine Abschlussbuchung für die Mehrwertsteuer vornehmen wollen, öffnen Sie *Finanzen > Berichtswesen > Umsatzsteuerbericht* und klicken auf *Abschlussbuchung*. Nun wird eine Buchung für die Steuererklärung gemäss Steuerperiode (siehe [Steuerperiode festlegen](#Steuerperiode%20festlegen)) erstellt. Dabei wird der Steuerbetrag aus dem zu schuldenden Steuerbetrag sowie Vorsteuerabzug gemäss Steuergruppen berechnet.
+Wenn Sie eine Abschlussbuchung für die Mehrwertsteuer vornehmen wollen, öffnen Sie *Finanzen > Berichtswesen > Umsatzsteuerbericht* und klicken auf *Abschlussbuchung*. Nun wird eine Buchung für die Steuererklärung gemäss Steuerperiode (siehe [Steuerperiode festlegen](#Steuerperiode%20festlegen)) erstellt. Dabei wird der Steuerbetrag aus dem zu schuldenden Steuerbetrag sowie Vorsteuerabzug gemäss Steuerkonten berechnet.
+
+![](assets/Finanzen%20Mehrwertsteuer%20Abschlussbuchung.png)
 
 ::: tip
-Sie Steuergruppen sind standardmässig nicht sichtbar. Führen Sie die Aktion [Steuergruppen anzeigen](#Steuergruppen%20anzeigen) aus um das zu ändern.
+Standardmässig ist die Übersicht der Steuerkonten in der Navigation nicht sichtbar. Führen Sie die Aktion [Steuergruppen anzeigen](#Steuergruppen%20anzeigen) aus um einen entsprechenden Menü-Eintrag zu erstellen.
 :::
 
 ### Steueranpassung vornehmen
