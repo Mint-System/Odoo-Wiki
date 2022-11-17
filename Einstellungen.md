@@ -12,8 +12,6 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 
 | Bereich                                                               | Beschreibung                                                       |
 | --------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)                     | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren. |
-| [Authentication OpenID Connect](Authentication%20OpenID%20Connect.md) | Login mit OpenID Connect Provider.                                 |
 | [Einstellungen Aktionen](Einstellungen%20Aktionen.md)                 | Odoo-Einstellungen automatisieren.                                 |
 | [Einstellungen Berechtigungen](Einstellungen%20Berechtigungen.md)     | Einstellungen zur Zugriffsrechte und Gruppen.                      |
 | [Einstellungen Datenmanagement](Einstellungen%20Datenmanagement.md)   | Daten zu Einstellungen exportieren und importieren.                |
@@ -22,18 +20,21 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 | [Einstellungen OAuth](Einstellungen%20OAuth.md)                       | OAuth-Integration mit Odoo.                                        |
 | [Einstellungen Technisch](Einstellungen%20Technisch.md)               | Technische Einstellungen zur Odoo-Datenbank.                       |
 | [Einstellungen Übersetzung](Einstellungen%20Übersetzung.md)           | Einstellungen zu Sprachpakete und Übersetzungen.                   |
-| [Mail Service Users](Mail%20Service%20Users.md)                       | Service-Benutzer von Lizenzvertrag ausschliessen.                  |
 
 ## Erweiterungen
 
-| Erweiterung                                           | Beschreibung                                                         |
-| ----------------------------------------------------- | -------------------------------------------------------------------- |
-| [Auth OAuth Keycloak](Auth%20OAuth%20Keycloak)        | Ermöglich Keycloak Integration mit Odoo OAuth.                       |
-| [Home Background Image](Home%20Background%20Image.md) | Den Odoo-Startbildschirm gestalten.                                  |
-| [Impersonate](Impersonate.md)                         | Schnelles Wechseln zwischen Benutzer-Accounts.                       |
-| [Show DB Name](Show%20DB%20Name.md)                   | Zeigt den Datenbanknamen oben rechts an.                             |
-| [Web Editor Show Code](Web%20Editor%20Show%20Code.md) | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |
-| [Web Responsive](Web%20Responsive.md)                 | Responsive Anzeige der Odoo-Oberfläche.                              |
+| Erweiterung                                                           | Beschreibung                                                         |
+| --------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [Auth Impersonate User](Auth%20Impersonate%20User.md)                 | Mit einem anderen Benutzer einloggen.                                |
+| [Auth OAuth Keycloak](Auth%20OAuth%20Keycloak)                        | Ermöglich Keycloak Integration mit Odoo OAuth.                       |
+| [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)                     | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.   |
+| [Authentication OpenID Connect](Authentication%20OpenID%20Connect.md) | Login mit OpenID Connect Provider.                                   |
+| [Home Background Image](Home%20Background%20Image.md)                 | Den Odoo-Startbildschirm gestalten.                                  |
+| [Impersonate](Impersonate.md)                                         | Schnelles Wechseln zwischen Benutzer-Accounts.                       |
+| [Mail Service Users](Mail%20Service%20Users.md)                       | Service-Benutzer von Lizenzvertrag ausschliessen.                    |
+| [Show DB Name](Show%20DB%20Name.md)                                   | Zeigt den Datenbanknamen oben rechts an.                             |
+| [Web Editor Show Code](Web%20Editor%20Show%20Code.md)                 | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |
+| [Web Responsive](Web%20Responsive.md)                                 | Responsive Anzeige der Odoo-Oberfläche.                              |
 
 ## Entwicklermodus
 
