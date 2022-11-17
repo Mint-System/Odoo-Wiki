@@ -73,7 +73,7 @@ Handelsregister: CH-020.4.036.470-7
 
 ### Dateien
 
-camt.053 für Import Kontoauszug: [camt053_example](assets/camt053_example.xml)
+camt.053 für Import Kontoauszug: [camt053_example](https://raw.githubusercontent.com/Mint-System/Odoo-Wiki/master/assets/camt053_example.xml)[](assets/camt053_example.xml)
 
 ## Sprache
 
