@@ -43,7 +43,7 @@ Der Obsidian Vault und das Git Repository werden mit dem Obisidian Git Plugin sy
 
 Das Odoo Wiki hat zum Ziel den Anwender eine einfache und kompakte Hilfestellung anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best Practice](Best%20Practice.md) abgebildet und Geschäftsprozesse werden im [Referenzsystem](Referenzsystem.md) beschrieben. 
 
-## Beispielunternehmen
+## Demo-Daten
 
 Zur Erläuterung der Instruktionen wird ein fiktives Unternehmen mit diesen Informationen verwendet:
 
@@ -70,6 +70,10 @@ IBAN: CH35 0900 0000 8510 5462 4
 BIC/SWIFT: POFICHBEXXX  
 MWST: CHE-113.887.810  
 Handelsregister: CH-020.4.036.470-7  
+
+### Dateien
+
+camt.053 für Import Kontoauszug: [camt053_example](assets/camt053_example.xml)
 
 ## Sprache
 
