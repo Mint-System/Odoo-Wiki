@@ -173,3 +173,9 @@ Erstellen Sie ein neues Feld unter *Einstellungen > Technisch > Datenbankstruktu
 ![](assets/Entwicklung%20Neues%20Beziehungs-Feld%20hinzufügen.png)
 
 Dieses Feld können Sie nun in Berichten oder Listenansichten anzeigen.
+
+## Berechtigungen
+
+### Zugriff auf Feld einschränken
+
+Sie können den Zugriff für benutzerdefinierte Felder einschränken. Zeigen Sie das Feld via *Einstellungen > Technisch > Felder* an und öffnen Sie den Tab

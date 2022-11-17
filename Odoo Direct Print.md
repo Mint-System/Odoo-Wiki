@@ -11,13 +11,8 @@ Jeden Odoo Bericht oder Etikette von überall nach überall drucken.
 
 Technischer Name: `printnode_base`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/printnode_base>\
-Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/printnode_base/>
-
-## Videos
-
-| Video                                                                                            |
-| ------------------------------------------------------------------------------------------------ |
-| [Odoo Experience 2021 - Automating Direct Printing](https://www.youtube.com/watch?v=6dnHvpsukPg) |
+Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/printnode_base/>\
+Video: [Odoo Experience 2021 - Automating Direct Printing](https://www.youtube.com/watch?v=6dnHvpsukPg)
 
 ## Konfiguration
 
@@ -245,7 +240,7 @@ printnode_scenario['domain'] = '[["commitment_date", "<=", "' + date + '"]]'
 
 ## Troubleshooting
 
-### Druckereinstellungen haben kein Effekt
+### Druckereinstellungen haben keinen Effekt
 
 #### Problem
 
@@ -260,3 +255,21 @@ Der PrintNode Client ist als Dienst installiert und läuft unter einem anderen B
 Der PrintNode Client muss als Programm und nicht als Dienst installiert werden.
 
 Quelle: <https://www.printnode.com/en/faq#q13>
+
+### Drucken mit Methode führt zu Fehler
+
+#### Problem
+
+Wenn Sie eine [Methode erfassen](#Methode%20erfassen) und diese aufrufen wird der folgende Fehler geworfen:
+
+```
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+```
+
+#### Ursache
+
+Aufgrund der Methode muss der Druckauftrag vor Ausführung der Methode ausgelöst werden.
+
+#### Lösung
+
+Auf der entsprechenden Methode die Option *Print before action* aktivieren.
