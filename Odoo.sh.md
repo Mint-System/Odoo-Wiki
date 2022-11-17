@@ -45,3 +45,7 @@ Für jede Staging-Phase können Sie eine bestimmte Azahl Branches haben. Möchte
 Wenn Sie auf einen Staging- oder Entwicklungs-Branch committen, erstellt Odoo.sh standardmässig einen neuen Build. In bestimmten Fällen ist dies nicht erwünscht. Das Verhalten können Sie unter *Branch > Settings* festlegen.
 
 ![](assets/Odoo.sh%20Behavior%20Commit.png)
+
+### Build-Backup erstellen
+
+Zie Sie die Ansicht *Builds* des aktuellen Projekts an und suchen Sie den Build aus, den Sie sichern möchten. Wählen Sie im Kontext-Menü die Aktion *Download-Backup*.
