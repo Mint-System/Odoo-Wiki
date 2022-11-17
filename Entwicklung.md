@@ -178,4 +178,15 @@ Dieses Feld können Sie nun in Berichten oder Listenansichten anzeigen.
 
 ### Zugriff auf Feld einschränken
 
-Sie können den Zugriff für benutzerdefinierte Felder einschränken. Zeigen Sie das Feld via *Einstellungen > Technisch > Felder* an und öffnen Sie den Tab
+Sie können den Zugriff für benutzerdefinierte Felder einschränken. Dazu müssen Sie ein [Snippet hinzufügen](Entwicklung%20Snippets.md#Snippet%20hinzufügen), welches auf der ausgewählten Ansicht auf dem Feld das Attribut `groups` festlegt. Als Wert geben Sie die externe ID der Benutzergruppe an, welche Zugriff haben soll. Dazu ein Beispiel:
+
+```xml
+<?xml version="1.0"?>
+<data inherit_id="hr_holidays.hr_leave_view_tree">
+
+  <xpath expr="//field[@name='state']" position="after">
+    <field name="x_synced" widget="toggle_button" groups="hr.group_hr_user"/>
+  </xpath>
+
+</data>
+```
