@@ -260,7 +260,7 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
             text: 'Best Practice',
             link: 'best-practice.md',
             collapsible: true,
-            children: childrenBestPractice
+            children: removeDuplicates(childrenBestPractice.sort())
         }
     ]
     sidebarExtension = [

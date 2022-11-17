@@ -35,6 +35,7 @@ Um Ware zwischen den Lagerorten zu bewegen sind *Routen* und *Regeln* vorbereite
 ![Lager Routen Standard 1 step](assets/Lager%20Routen%20Standard%201%20step.png)
 
 Die folgenden zwei Routen sind vorhanden, aber archiviert:
+
 ![Lager Routen Standard 1 archivert](assets/Lager%20Routen%20Standard%201%20archivert.png)
 
 Die entsprechenden Regeln finden sich im Menu *Konfiguration > Lager & Logistik > Regeln*.  (Damit in der Liste der Name sichtbar ist, wurde im Entwicklermodus die Spalte `<field name="name"/>` eingefügt.)
