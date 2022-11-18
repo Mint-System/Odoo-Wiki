@@ -71,7 +71,7 @@ Entfernen Sie einen Abonnent vom Odoo-Objekt indem Sie rechts von *Abonnieren* a
 
 ## Benachrichtigungen
 
-## Benachrichtigungen anzeigen
+### Benachrichtigungen anzeigen
 
 Wenn Odoo Nachrichten versendet, werden abonnierte Benutzer benachrichtigt. Diese Benachrichtigungen können via *Einstellungen > Technisch > Benachrichtigungen* angezeigt werden.
 
@@ -94,3 +94,13 @@ Zeigen Sie ein Odoo Dokument an und beareiten Sie ein Abonnement.
 ![](assets/Diskussion%20Abonnement%20bearbeiten.png)
 
 Wählen Sie die Subtypen aus, welche für das Abonnement aktiv sein sollen.
+
+## Kanäle
+
+### Kanal löschen
+
+Um einen Kanal zu löschen navigieren Sie nach *Einstellungen > Technisch > Kanäle*, wechseln in die Listenansicht und wählen die Kanäle die gelöscht werden sollen. Klicken Sie auf *Aktion > Löschen*.
+
+::: warning
+Alle mit dem Kanal verknüpften Nachrichten werden mit dieser Aktion gelöscht.
+:::

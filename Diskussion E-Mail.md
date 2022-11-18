@@ -97,7 +97,7 @@ Wenn Sie den Entwicklermodus eingeschaltet haben, finden Sie unter *Einstellunge
 
 ![](assets/Diskussion%20nicht%20versendete%20E-Mails.png)
 
-## E-Mail-Vorlage testen
+### E-Mail-Vorlage testen
 
 Rufe Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > Vorlagen* auf und klicken Sie auf *Vorschau*. Wählen Sie einen Datensatz und prüfen Sie die generierte Vorschau.
 

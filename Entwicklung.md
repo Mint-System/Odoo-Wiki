@@ -47,6 +47,10 @@ Wird Odoo im Browser angezeigt, werden sog. Assets im Hintergrund geladen (JavaS
 
 ![](assets/Entwicklung%20Assets-Bundel%20neu%20generieren.png)
 
+### Demo-Daten neu laden
+
+Navigieren Sie nach *Einstellungen > Entwicklertools* und klicken Sie auf *Demo Daten laden* um die Daten in die aktuelle Datenbank zu laden.
+
 ## Navigation
 
 ### Menüeinträge umbennen
