@@ -23,4 +23,7 @@ Mit dieser Erweiterung können Sie beim Erstellen eines Angebots, direkt ein Pro
 Wenn das Angebot bestätigt wird, werden Dienstleistungen mit Aufgaben im verlinkten Projekt erstellt.
 
 ![Sale Order Project Key Confirmation](assets/Sale%20Order%20Project%20Key%20Confirmation.gif)
-Aufgaben
+
+::: tip
+Die zugeordnete Kostenstelle beim Bestätigen vom Angebot auf das Projekt übertragen.
+:::

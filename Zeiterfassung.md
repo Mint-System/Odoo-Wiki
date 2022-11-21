@@ -18,6 +18,12 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 | [Terminal Zeiterfassung](Terminal%20Zeiterfassung.md)   | Ein- und auschecken mit dem Terminal Zeiterfassung. |
 | [Zeiterfassung Ansichten](Zeiterfassung%20Ansichten.md) | Ansichten der Zeiterfassung anpassen.                                                    |
 
+## Erweiterungen
+
+| Erweiterung                                 | Beschreibung          |
+| ------------------------------------------- | --------------------- |
+| [HR Timesheet From Until](HR%20Timesheet%20From%20Until.md) | Berechnung Dauer anhand Start- und Endzeit. |
+
 ## Konfiguration
 
 ### Fakturierungsregeln festlegen
