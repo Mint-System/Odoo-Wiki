@@ -67,9 +67,15 @@ Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitge
 
 ### Standard-Ansicht definieren
 
-Beim Aufrufen einer Ansicht wird als erstes eine Aktion ausgeführt. Auf dieser Aktion ist definiert welche Ansicht (Liste, Kanban, Karte, ...) standardmässig angezeigt werden soll. Zum ändern rufen zeigen Sie eine Anischt an und wählen *Entwicklertools > Aktion bearbeiten*. Scrollen Sie nach unten und ändern Sie die Reihenfolge der Ansichten.
+Beim Aufrufen einer Ansicht wird als erstes eine Aktion ausgeführt. Auf dieser Aktion ist definiert welche Ansicht (Liste, Kanban, Karte, ...) standardmässig angezeigt werden soll. Zum ändern rufen zeigen Sie eine Ansicht an und wählen *Entwicklertools > Aktion bearbeiten*. Scrollen Sie nach unten und ändern Sie die Reihenfolge der Ansichten.
 
 ![](assets/Ansicht%20Standard%20ändern.png)
+
+### Sequenz der Standard-Ansichten festlegen
+
+Zeiten Sie eine Aktion zum Aufrufen einer Ansicht via *Einstellungne > Technisch > Fenster öffnen/schliessen* auf und navigieren Sie zum Abschnitt *Ansichten*. Bearbeiten Sie die Reihenfolge der Ansichten.
+
+![](assets/Entwicklung%20Ansichten%20Sequenz.png)
 
 ## Datenmodelle
 
@@ -138,7 +144,15 @@ Wählen Sie auf der Listenansicht *Entwicklertools > Filter verwalten* und klick
 * **Für Benutzer verfügbar**: Leer lassen damit Filter für alle Benutzer verfügbar ist
 * **Standardfilter**: Aktivieren wenn Filter beim Aufruf der Aktion angwendet werden soll
 
-### Standard-Filter für alle Benutzer festlegen
+### Benutzerdefinierter Filter für alle Benutzer freigeben
+
+Rufen Sie die Übersicht der Filter auf *Entwicklertools > Filter verwalten* und entfernen Sie *Eigene Filter*. Bearbeiten Sie den Filter, welcher für alle Benutzer verfügbar sein soll. Entfernen Sie Einträge in *Für Benutzer verfügbar*.
+
+### Benutzerdefinierter Filter fürStandardfilter freigeben
+
+Rufen Sie die Übersicht der Filter auf *Entwicklertools > Filter verwalten* und entfernen Sie *Eigene Filter*. Bearbeiten Sie den Filter, welcher als Standard festgelegt werden soll. Markieren Sie die Option *Standardfilter*.
+
+### Standard-Filter für auf Ansicht festlegen
 
 Wenn Sie über Aktionen bestimmte Odoo-Ansichten aufrufen ist bereits ein Filter in der Suchmaske hinterlegt. Dieser Standard-Filter können Sie für alle Benutzer anpassen.
 
