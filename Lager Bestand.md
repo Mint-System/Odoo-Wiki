@@ -73,6 +73,7 @@ Wertebereich:
 ]
 ```
 
+Wert aus Kontext: `{'contact_display': 'partner_address', 'default_company_id': allowed_company_ids[0], 'search_default_expected_date_day': True}`
 Menü: `Bordereau`\
 Obermenü: `Lager/Lager`\
 Aktion: `ir.actions.act_window` `Bordereau`\

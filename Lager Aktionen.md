@@ -298,14 +298,14 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 except_product_names = ["Gebinde", "Gebinde Migros"]
 
 # Get pickings to be processed
-# pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "waiting", "partially_available"])])
+pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "waiting", "partially_available"])])
 
 # Lookup unfinished manufacturing orders
 production_ids = env['mrp.production'].search([('state', 'in', ['confirmed','progress','to_close'])])
 
 # Get moves where qty done it not equal to demand
-# fix_moves = pickings.move_lines.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
-fix_moves = production_ids.move_raw_ids.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
+fix_moves = pickings.move_lines.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
+fix_moves += production_ids.move_raw_ids.filtered(lambda m: (m.quantity_done == 0) and (m.product_id.name not in except_product_names))
 
 # raise UserError(fix_moves.mapped('reference'))
 
