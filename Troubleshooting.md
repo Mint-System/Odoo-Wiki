@@ -155,6 +155,8 @@ Quelle: <https://github.com/wkhtmltopdf/wkhtmltopdf/issues/4462>
 
 In den Systemparameter von Odoo muss beim Eintrag `web.base.url`  die URL von https auf http gewechselt werden.
 
+Stellen Sie sicher, dass der Systemparameter `report.url` nicht existiert.
+
 ## Externe ID User Admin nicht gefunden
 
 ### Problem 
