@@ -17,3 +17,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 ### Kaufvertrag per E-Mail versenden
 
 Mit dieser Erweiterungen können Sie Kaufverträge per E-Mail verschicken. Zeigen Sie einen Kaufvertrag via *Einkauf > Aufträge > Kaufverträge* an und wählen Sie die Aktion *Per E-Mail Versenden*.
+
+::: tip
+Der Kaufvertrag wird nach dem Versenden in den Zustand *Gesendet* versetzt, wenn dieser im Zustand *Entwurf* oder *Bestätigt* war.
+:::
