@@ -338,6 +338,12 @@ Aktualisieren Sie ihre Odoo Enterprise Installation ohne Mehrkosten.
 
 [![icons_odoo_website_enterprise](assets/icons_odoo_website_enterprise.png)](Update.md) 
 
+### [Ventor PRO](Ventor%20PRO.md)
+
+Android-App für die Lagerbewirtschaftung.
+
+[![](assets/ventor_icon.png)](Ventor%20PRO.md)
+
 ### [Verkauf](Verkauf.md)
 
 Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung. 
