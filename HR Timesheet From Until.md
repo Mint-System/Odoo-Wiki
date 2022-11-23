@@ -20,3 +20,10 @@ Mit dieser Erweiterung wir die Dauer auf einem Stundenzettel anhand der End- und
 
 ![HR Timesheet From Until](assets/HR%20Timesheet%20From%20Until.gif)
 
+::: tip
+Für eine schnelle Eingabe der Uhrzeit, können Sie eine Fliesskommazahl in eine Uhrzeit umfwandeln lassen:
+
+Eingabe `8.25` führt zu `08:15`.\
+Eingabe `8.5` führt zu `08:30`.\
+Eingabe `8.75` führt zu `08:45`.\
+:::
