@@ -31,4 +31,3 @@ Eingabe `8.75` ergibt `08:45`.
 :::
 
 ![HR Timesheet From Until](assets/HR%20Timesheet%20From%20Until.gif)
-
