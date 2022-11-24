@@ -35,6 +35,7 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 | [Show DB Name](Show%20DB%20Name.md)                                   | Zeigt den Datenbanknamen oben rechts an.                             |
 | [Web Editor Show Code](Web%20Editor%20Show%20Code.md)                 | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |
 | [Web Responsive](Web%20Responsive.md)                                 | Responsive Anzeige der Odoo-Oberfläche.                              |
+| [Audit Log](Audit%20Log.md)                                           | Operationen auf Daten loggen.                                                                     |
 
 ## Entwicklermodus
 
