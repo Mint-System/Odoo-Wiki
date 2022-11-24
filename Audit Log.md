@@ -29,3 +29,7 @@ Und aktivieren Sie die Regel mit *Aktiviere*. Wenn Sie jetzt einen neuen Eintrag
 ### Log-Protokolle anzeigen
 
 Navigieren Sie nach *Einstellungen > Technisch > Audit > Protokolle*. Hier finden Sie alle Log-Einträge, die anhand der Regeln generiert wurden. Filtern Sie die Einträge gemäss Anforderungen.
+
+### Feld-Operationen anzeigen
+
+Jeder Log-Eintrag ist mit ein oder mehreren Feld-Operationen verknüpft. Navigieren Sie nach *Einstellungen > Technisch > Audit > Log Lines* um alle Operationen in einer Liste anzuzeigen. 
