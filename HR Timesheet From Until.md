@@ -19,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_timesheet_
 Mit dieser Erweiterung wir die Dauer auf einem Stundenzettel anhand der End- und Startzeit berechnet. Navigieren Sie nach *Zeiterfassung* und wählen Sie die Listenansicht aus. Erstellen Sie einen neuen Eintrag und geben Sie Start- und Endzeit in den entsprechenden Felder ein.
 
 ::: tip
-Für eine schnelle Eingabe der Uhrzeit, können Sie eine Ganzahl oder Kommazahl in eine Uhrzeit umwandeln lassen:
+Für eine schnelle Eingabe der Uhrzeit, können Sie eine Ganzzahl oder Kommazahl in eine Uhrzeit umwandeln lassen:
 
 Eingabe `815` ergibt `08:15`.\
 Eingabe `1045` ergibt `10:45`.\
