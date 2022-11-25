@@ -180,3 +180,4 @@ Navigieren Sie nach  *Einstellungen > Technisch > Berichtswesen > Berichte* und 
 | --------------- | -------------------------------------- | -------------------------------------------------- |
 | Rechnungen      | `(object._get_report_base_filename())` | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
 | Invoice with QR | `(object._get_report_base_filename())` | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
+| QR-bill         | `'QR-Rechnung_%s' % object.name`       | `'QR-Rechnung_%s' % object.name`                                                   |
