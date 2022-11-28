@@ -10,7 +10,7 @@ prev: ./verkauf-stammdaten
 
 Mengeneinheit für Produktverpackung festlegen.
 
-Technischer Name: `sale_stock_picking_note`\
+Technischer Name: `packaging_uom`\
 Repository: <https://github.com/OCA/product-attribute/tree/14.0/packaging_uom>
 
 ## Verwendung

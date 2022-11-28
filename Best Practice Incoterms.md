@@ -17,7 +17,7 @@ Die Deklaration des anwendbaren Incoterm ist eine Vertragsklausel und wird in de
 - Angebotsanfrage/Beschaffungsauftrag (> Weitere Informationen > Lieferbedingung)
 
 ::: tip
-Falls eine Zuordnung mit einer Logik *Pro Lieferant/Kunde* gewünscht ist, empfehlen wie die Installation der App [Default sales incoterm per partner](Default%20sales%20incoterm%20per%20partner.md).
+Falls eine Zuordnung mit einer Logik *Pro Lieferant/Kunde* gewünscht ist, empfehlen wie die Installation der App [Sale Partner Incoterm](Sale%20Partner%20Incoterm.md).
 :::
 
 ## Funktion einschalten
