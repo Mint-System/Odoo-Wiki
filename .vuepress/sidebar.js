@@ -4,61 +4,61 @@ module.exports = [
     "link": "best-practice.md",
     "collapsible": true,
     "children": [
-      "best-practice-fertigungsplanung.md",
-      "best-practice-fertigungsauftrag.md",
-      "best-practice-verkaufsgruppen-und-baugruppen.md",
-      "best-practice-materialbezug-in-vorgängen.md",
-      "best-practice-material-reservierung.md",
-      "best-practice-make-to-order.md",
-      "best-practice-projekte.md",
-      "best-practice-aufgabenphasen.md",
-      "best-practice-verschiedene-währungen.md",
-      "best-practice-mehrwertsteuer.md",
-      "best-practice-qr-rechnung.md",
-      "best-pratice-sepa-zahlung.md",
-      "best-pratice-zahlungsabgleich.md",
-      "best-pratice-kostenrechnung.md",
-      "best-practice-buchung-gewinn-verlust-vortrag.md",
-      "best-practice-devisenhandel.md",
-      "best-practice-änderung-der-route-während-dem-einkaufsprozess.md",
-      "best-practice-einkauf-bestellmenge-ändern.md",
-      "best-practice-zustände-von-einkauf-und-verkaufsauträgen.md",
-      "best-practice-subunternehmer-beauftragen.md",
-      "best-practice-stückpreis-definieren.md",
-      "best-practice-verkauf-kit-bereitstellen.md",
-      "best-practice-auftragszeilen-auswerten.md",
-      "best-practice-purchase-to-order.md",
       "best-practice-abonnements.md",
-      "best-practice-replenishment.md",
-      "best-practice-warenbedarf.md",
-      "best-practice-liefertermin-verschieben.md",
-      "best-practice-berücksichtigung-lead-time.md",
-      "best-practice-mengeneinheiten.md",
-      "best-practice-lager-konfigurieren.md",
-      "best-practice-verpackungen.md",
-      "best-practice-scheduler.md",
-      "best-practice-lager-vorgangstypen.md",
-      "best-practice-kontakte.md",
-      "best-practice-incoterms.md",
       "best-practice-abwesenheit.md",
-      "best-practice-lohnrekapitulation.md",
-      "best-practice-e-mails-verarbeiten.md",
-      "best-practice-odoo-datenmanagement.md",
-      "best-practice-externe-id.md",
+      "best-practice-aufgabenphasen.md",
+      "best-practice-auftragszeilen-auswerten.md",
+      "best-practice-berücksichtigung-lead-time.md",
+      "best-practice-buchung-gewinn-verlust-vortrag.md",
       "best-practice-chatter.md",
       "best-practice-datumsfelder.md",
+      "best-practice-definition-beispiel-fahrrad.md",
+      "best-practice-devisenhandel.md",
       "best-practice-direct-print.md",
       "best-practice-e-mail-vorlagen.md",
-      "best-practice-definition-beispiel-fahrrad.md",
+      "best-practice-e-mails-verarbeiten.md",
+      "best-practice-einkauf-bestellmenge-ändern.md",
+      "best-practice-externe-id.md",
+      "best-practice-fertigungsauftrag.md",
+      "best-practice-fertigungsplanung.md",
       "best-practice-finanzen-journale.md",
-      "best-practice-lohnbuchhaltung.md"
+      "best-practice-incoterms.md",
+      "best-practice-kontakte.md",
+      "best-practice-lager-konfigurieren.md",
+      "best-practice-lager-vorgangstypen.md",
+      "best-practice-liefertermin-verschieben.md",
+      "best-practice-lohnbuchhaltung.md",
+      "best-practice-lohnrekapitulation.md",
+      "best-practice-make-to-order.md",
+      "best-practice-material-reservierung.md",
+      "best-practice-materialbezug-in-vorgängen.md",
+      "best-practice-mehrwertsteuer.md",
+      "best-practice-mengeneinheiten.md",
+      "best-practice-odoo-datenmanagement.md",
+      "best-practice-projekte.md",
+      "best-practice-purchase-to-order.md",
+      "best-practice-qr-rechnung.md",
+      "best-practice-replenishment.md",
+      "best-practice-scheduler.md",
+      "best-practice-stückpreis-definieren.md",
+      "best-practice-subunternehmer-beauftragen.md",
+      "best-practice-verkauf-kit-bereitstellen.md",
+      "best-practice-verkaufsgruppen-und-baugruppen.md",
+      "best-practice-verpackungen.md",
+      "best-practice-verschiedene-währungen.md",
+      "best-practice-warenbedarf.md",
+      "best-practice-zustände-von-einkauf-und-verkaufsauträgen.md",
+      "best-practice-änderung-der-route-während-dem-einkaufsprozess.md",
+      "best-pratice-kostenrechnung.md",
+      "best-pratice-sepa-zahlung.md",
+      "best-pratice-zahlungsabgleich.md"
     ]
   },
   "abonnements.md",
   "abrechnung.md",
-  "abwesenheitszeiten.md",
+  "abwesenheit.md",
   "aero-base.md",
-  "anwesenheitszeiten.md",
+  "anwesenheit.md",
   "apps.md",
   "auslagen.md",
   "certificate-planner.md",
@@ -82,6 +82,7 @@ module.exports = [
   "installation.md",
   "iot.md",
   "kalender.md",
+  "knowledge.md",
   "kontakte.md",
   "kundendienst.md",
   "kundenverwaltung.md",
@@ -104,6 +105,7 @@ module.exports = [
   "troubleshooting.md",
   "umfragen.md",
   "update.md",
+  "ventor-pro.md",
   "verkauf.md",
   "verkauf-rahmenverträge.md",
   "versand.md",
@@ -116,10 +118,17 @@ module.exports = [
     "collapsible": true,
     "children": [
       {
-        "text": "Anwesenheitszeiten",
+        "text": "Abwesenheit",
         "collapsible": true,
         "children": [
-          "anwesenheitszeiten-überstunden.md"
+          "abwesenheit-datenmanagement.md"
+        ]
+      },
+      {
+        "text": "Anwesenheit",
+        "collapsible": true,
+        "children": [
+          "anwesenheit-überstunden.md"
         ]
       },
       {
@@ -148,18 +157,9 @@ module.exports = [
         ]
       },
       {
-        "text": "Einkauf",
-        "collapsible": true,
-        "children": [
-          "order-positions.md"
-        ]
-      },
-      {
         "text": "Einstellungen",
         "collapsible": true,
         "children": [
-          "auth-totp-ip-check.md",
-          "authentication-openid-connect.md",
           "einstellungen-aktionen.md",
           "einstellungen-berechtigungen.md",
           "einstellungen-datenmanagement.md",
@@ -167,8 +167,7 @@ module.exports = [
           "einstellungen-login.md",
           "einstellungen-oauth.md",
           "einstellungen-technisch.md",
-          "einstellungen-übersetzung.md",
-          "mail-service-users.md"
+          "einstellungen-übersetzung.md"
         ]
       },
       {
@@ -274,7 +273,6 @@ module.exports = [
         "text": "Verkauf",
         "collapsible": true,
         "children": [
-          "order-positions.md",
           "verkauf-abrechnung.md",
           "verkauf-berichte.md",
           "verkauf-projekt.md",
@@ -295,7 +293,8 @@ module.exports = [
         "collapsible": true,
         "children": [
           "awesome-timesheet.md",
-          "terminal-zeiterfassung.md"
+          "terminal-zeiterfassung.md",
+          "zeiterfassung-ansichten.md"
         ]
       }
     ]
@@ -325,7 +324,7 @@ module.exports = [
         ]
       },
       {
-        "text": "Abwesenheitszeiten",
+        "text": "Abwesenheit",
         "collapsible": true,
         "children": [
           "hr-holidays-ics-attachment.md",
@@ -337,7 +336,7 @@ module.exports = [
         ]
       },
       {
-        "text": "Anwesenheitszeiten",
+        "text": "Anwesenheit",
         "collapsible": true,
         "children": [
           "theoretical-vs-attended-time-analysis.md",
@@ -352,6 +351,13 @@ module.exports = [
           "cancel-manufacturing-order.md",
           "product-barcode-generator.md",
           "product-name-sequence.md"
+        ]
+      },
+      {
+        "text": "Auslagen",
+        "collapsible": true,
+        "children": [
+          "hr-expense-vehicle-request.md"
         ]
       },
       {
@@ -378,6 +384,7 @@ module.exports = [
           "account-move-send-unsubscribe.md",
           "account-move-unsubscribe.md",
           "mail-composer-default-template.md",
+          "mail-no-autofollow.md",
           "mail-optional-follower-notification.md",
           "mail-thread-context.md",
           "mail-unsubscribe.md",
@@ -414,12 +421,14 @@ module.exports = [
         "children": [
           "purchase-requisition-fiscal.md",
           "purchase-requisition-incoterm.md",
+          "purchase-requisition-line-description.md",
           "purchase-requisition-order-address.md",
           "purchase-requisition-other-information-page.md",
           "purchase-requisition-payment-term.md",
           "purchase-requisition-reference.md",
           "purchase-requisition-send.md",
           "purchase-requisition-tag.md",
+          "purchase-requisition-total.md",
           "purchase-requistion-notes.md"
         ]
       },
@@ -427,12 +436,17 @@ module.exports = [
         "text": "Einstellungen",
         "collapsible": true,
         "children": [
+          "auth-impersonate-user.md",
           "auth-oauth-keycloak",
+          "auth-totp-ip-check.md",
+          "authentication-openid-connect.md",
           "home-background-image.md",
           "impersonate.md",
+          "mail-service-users.md",
           "show-db-name.md",
           "web-editor-show-code.md",
-          "web-responsive.md"
+          "web-responsive.md",
+          "audit-log.md"
         ]
       },
       {
@@ -490,7 +504,7 @@ module.exports = [
           "account-move-post-warn.md",
           "account-move-reconciled-date.md",
           "bank-account-camt54-import.md",
-          "contracts-management-recurring-sales.md",
+          "contract-sale-generation.md",
           "contracts-management-recurring.md",
           "invoice-merge-pdf-attachment.md",
           "nivels-deduct-supplier-discount.md",
@@ -506,10 +520,7 @@ module.exports = [
         "text": "Fahrzeugflotte",
         "collapsible": true,
         "children": [
-          "employee-vehicle-request.md",
-          "fleet-hr-vehicle-request.md",
-          "hr-vehicle-request.md",
-          "hr-vehicle-request-calendar.md"
+          "fleet-hr-vehicle-request.md"
         ]
       },
       {
@@ -599,11 +610,14 @@ module.exports = [
         "text": "Personal",
         "collapsible": true,
         "children": [
+          "employee-vehicle-request.md",
           "hr-activity-date.md",
           "hr-birthday-calender.md",
           "hr-employee-employ-like.md",
           "hr-employee-skill.md",
-          "hr-shortname.md"
+          "hr-shortname.md",
+          "hr-vehicle-request-calendar.md",
+          "hr-vehicle-request.md"
         ]
       },
       {
@@ -638,7 +652,6 @@ module.exports = [
           "project-task-material.md",
           "project-templates.md",
           "project-timeline-task-dependencies.md",
-          "project-timeline-task-dependencies.md",
           "project-timeline.md",
           "project-type.md",
           "project-timesheet-time-control.md",
@@ -656,8 +669,7 @@ module.exports = [
         "text": "Verkauf",
         "collapsible": true,
         "children": [
-          "contracts-management-recurring-sales.md",
-          "default-sales-incoterm-per-partner.md",
+          "contract-sale-generation.md",
           "packaging-uom.md",
           "product-listprice-currency.md",
           "sale-blanket-order-comment.md",
@@ -676,6 +688,7 @@ module.exports = [
           "sale-order-notes.md",
           "sale-order-project-key.md",
           "sale-order-template-notes.md",
+          "sale-partner-incoterm.md",
           "sale-product-set-layout.md",
           "sale-product-set.md"
         ]
@@ -732,6 +745,13 @@ module.exports = [
         "children": [
           "website-shop-coupons.md",
           "website-berichte.md"
+        ]
+      },
+      {
+        "text": "Zeiterfassung",
+        "collapsible": true,
+        "children": [
+          "hr-timesheet-from-until.md"
         ]
       }
     ]

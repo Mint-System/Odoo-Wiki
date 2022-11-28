@@ -54,7 +54,7 @@ Online Rechnungsstellung leicht gemacht.
 
 Verwaltung von Mitarbeiterurlauben & Abwesenheit.
 
-[![icons_odoo_hr_holidays](Abwesenheit.md)
+[![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)](Abwesenheit.md)
 
 ### [Aero Base](Aero%20Base.md)
 
@@ -66,7 +66,7 @@ Odoo für die Luftfahrt.
 
 Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 
-[![icons_odoo_hr_attendance](Anwesenheit.md)
+[![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)](Anwesenheit.md)
 
 ### [Apps](Apps.md)
 
