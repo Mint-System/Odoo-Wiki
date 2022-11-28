@@ -70,9 +70,15 @@ Erstellen Sie eine private Adresse folgendermassen: *Personal > Mitarbeiter ausw
 
 ## Arbeitszeit
 
-### Arbeitspensum festlegen
+### Arbeitszeit erstellen
 
-Um das Arbeitspensum für einen Mitarbeiter zu ändern, öffnen Sie das App *Personal* und wählen den Mitarbieter aus. Wählen Sie *Bearbeiten* und legen Sie im Tab *Arbeitsinformation* unter *Ausführungsplan* die *Arbeitsstunden* fest.
+Navigieren Sie nach *Einstellungen > Technisch > Arbeitszeit.* und erstellen Sie einen neuen Eintrag mit Namen gemäss dem bestehenden Schema. Geben Sie entweder die *Durchschnittliche Stundenzahl pro Tag* manuell ein oder erstellen Sie neue Einträge in der Liste *Arbeitsstunden*.
+
+![](assets/Personal%20Arbeitszeit.png)
+
+### Arbeitszeiten festlegen
+
+Um die Arbeitszeiten für einen Mitarbeiter zu ändern, öffnen Sie das App *Personal* und wählen den Mitarbieter aus. Wählen Sie *Bearbeiten* und legen Sie im Tab *Arbeitsinformation* unter *Arbeitsplan* die *Arbeitsstunden* fest.
 
 ![](assets/Personal%20Arbeitsstunden.png)
 

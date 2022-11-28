@@ -126,7 +126,7 @@ An jedem Objekt kann an einfach ein Feld hinzugefügt werden. Öffnen Sie eine A
 * Feldbezeichnung: Passender Name in der angezeigten Sprache.
 * Typfeld-Text: Auswahls den Felddatentyps.
 
-Dazu ein Beispiel mit [Abwesenheitszeiten](Abwesenheitszeiten.md):
+Dazu ein Beispiel mit [Abwesenheit](Abwesenheit.md):
 
 ![](assets/Entwicklung%20Neues%20Feld%20auf%20Abwesenheitszeiten.png)
 

@@ -209,6 +209,13 @@ Die foglenden Namensbereiche sind reserviert:
 * Odoo-App
 * OCA-App
 
+### Umleitung
+
+Die folgenden Einträge sind Umleitungen:
+* [CRM](CRM.md)
+* [Anwesenheitszeiten](Anwesenheitszeiten.md)
+* [Abwesenheitszeiten](Abwesenheitszeiten.md)
+
 ## Tags
 
 Mit Obsidian können Artikel getagged `#tagname` werden. Tags werden von Vuepress nicht verarbeitet, daher werden diese nur zur Verwaltung der Artikel verwendet. Folgende Tags stehen zur Verfügung:

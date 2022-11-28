@@ -9,7 +9,7 @@ prev: ./referenzsystem
 
 ## Prozessschritte
 
-* [Abwesenheitsanspruch melden](Abwesenheitszeiten.md#Abwesenheitsanspruch%20melden)
-* [Abwesenheitsanspruch validieren](Abwesenheitszeiten.md#Abwesenheitsanspruch%20validieren)
-* [Abwesenheit melden](Abwesenheitszeiten.md#Abwesenheit%20melden)
-* [Abwesenheit validieren](Abwesenheitszeiten.md#Abwesenheit%20validieren)
+* [Abwesenheitsanspruch melden](Abwesenheit.md#Abwesenheitsanspruch%20melden)
+* [Abwesenheitsanspruch validieren](Abwesenheit.md#Abwesenheitsanspruch%20validieren)
+* [Abwesenheit melden](Abwesenheit.md#Abwesenheit%20melden)
+* [Abwesenheit validieren](Abwesenheit.md#Abwesenheit%20validieren)

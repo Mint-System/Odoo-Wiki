@@ -50,11 +50,11 @@ Online Rechnungsstellung leicht gemacht.
 
 [![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)](Abrechnung.md)
 
-### [Abwesenheitszeiten](Abwesenheitszeiten.md)
+### [Abwesenheit](Abwesenheit.md)
 
 Verwaltung von Mitarbeiterurlauben & Abwesenheit.
 
-[![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)](Abwesenheitszeiten.md)
+[![icons_odoo_hr_holidays](Abwesenheit.md)
 
 ### [Aero Base](Aero%20Base.md)
 
@@ -62,11 +62,11 @@ Odoo für die Luftfahrt.
 
 [![](assets/icons_odoo_aero_base.png)](Aero%20Base.md)
 
-### [Anwesenheitszeiten](Anwesenheitszeiten.md)
+### [Anwesenheit](Anwesenheit.md)
 
 Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 
-[![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)](Anwesenheitszeiten.md)
+[![icons_odoo_hr_attendance](Anwesenheit.md)
 
 ### [Apps](Apps.md)
 

@@ -7,7 +7,7 @@ prev: ./best-practice
 
 ## Ferien als Abwesenheitsypen abbilden
 
-Wir empfehlen, dass Sie für jedes jährliche Feriensaldo einen [Abwesenheitstypen erfassen](Abwesenheitszeiten.md#Abwesenheitstypen%20erfassen).
+Wir empfehlen, dass Sie für jedes jährliche Feriensaldo einen [Abwesenheitstypen erfassen](Abwesenheit.md#Abwesenheitstypen%20erfassen).
 
 | Name        | Von        | Bis        |
 | ----------- | ---------- | ---------- |
@@ -16,7 +16,7 @@ Wir empfehlen, dass Sie für jedes jährliche Feriensaldo einen [Abwesenheitstyp
 | Ferien 2023 | 01.01.2023 | 31.12.2023 |
 | Ferien 2024 | 01.01.2024 | 31.12.2024 |
 
-Am Ende des Jahres können Sie die [verbleibenden Anwesenheitsansprüche anzeigen](HR%20Holidays%20Remaining%20Leaves.md#Verbleibende%20Anwesenheitsansprüche%20anzeigen) und die [Abwesenheitsansprüche exportieren](Abwesenheitszeiten%20Datenmanagement.md#Abwesenheitsansprüche%20exportieren). Passen Sie die exportierte Datei an und importieren Sie diese Abwesenheitsansprüche für das neue Jahr.
+Am Ende des Jahres können Sie die [verbleibenden Anwesenheitsansprüche anzeigen](HR%20Holidays%20Remaining%20Leaves.md#Verbleibende%20Anwesenheitsansprüche%20anzeigen) und die [Abwesenheitsansprüche exportieren](Abwesenheit%20Datenmanagement.md#Abwesenheitsansprüche%20exportieren). Passen Sie die exportierte Datei an und importieren Sie diese Abwesenheitsansprüche für das neue Jahr.
 
 ## Vorlage für Abwesenheitstypen
 

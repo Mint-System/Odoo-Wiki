@@ -3,10 +3,10 @@ tags:
 - HowTo
 prev: ./abwesenheitszeiten
 ---
-# Abwesenheitszeiten Datenmanagement
+# Abwesenheit Datenmanagement
 ![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)
 
-Daten zu Abwesenheitszeiten exportieren und importieren.
+Daten zu Abwesenheit exportieren und importieren.
 
 ## Abwesenheitsansprüche exportieren
 
