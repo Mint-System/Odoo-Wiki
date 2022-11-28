@@ -206,6 +206,12 @@ Termine Team- und Anwendungs-übergreifend organisieren.
 
 [![icons_odoo_calendar](assets/icons_odoo_calendar.png)](Kalender.md)
 
+### [Knowledge](Knowledge.md)
+
+Wissenstransfer für Teams vereinfachen.
+
+[![icon_odoo_knowldge](assets/icon_odoo_knowledge.png)](Knowledge.md)
+
 ### [Kontakte](Kontakte.md)
 
 Alle Kontaktdaten an einem Ort.
