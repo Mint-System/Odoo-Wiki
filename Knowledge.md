@@ -3,8 +3,8 @@ tags:
 - HowTo
 prev: ./
 ---
-# Kundenveraltung
-![icons_odoo_crm](assets/icons_odoo_crm.png)
+# Knowledge
+![icon_odoo_knowledge](assets/icon_odoo_knowledge.png)
 
 Wissenstransfer für Teams vereinfachen.
 
@@ -32,7 +32,7 @@ Zeigen Sie die App *Knowledge* and klicken Sie auf das ➕ Zeichen rechts von ei
 
 ### Artikel verlinken
 
-In einem Mail Dialog können Sie mit der Eingabe von kbd>/</kbd> + *Artikel* nach einem Artikel suchen und diesen als Link einfügen.
+In einem Mail Dialog können Sie mit der Eingabe von kbd>/</kbd> + *Artikel* nach einem Artikel suchen und diesen als Link einfügen.\
 
 ![Knowledge Artike-Link](assets/Knowledge%20Artikel%20verlinken.gif)
 
