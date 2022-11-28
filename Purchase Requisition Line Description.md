@@ -2,21 +2,21 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./einkauf
+prev: ./einkauf-kaufverträge
 ---
-# Purchase Order Line Description
+# Purchase Requisition Line Description
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Nur die Einkaufsbeschreibung in die Einkaufsposition übernehmen.
 
-Technischer Name: `purchase_order_line_description`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_line_description>
+Technischer Name: `purchase_requisition_line_description`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_line_description>
 
 ## Verwendung
 
 ### Erweiterung konfigurieren
 
-Mit dem Systemparameter `purchase.order.line.hide_ref` können Sie festlegen, ob die Produktreferenz eingeblendet werden soll. Setzen Sie den Wert auf `True` um die Referenz einzublenden.
+Mit dem Systemparameter `purchase.requisition.line.hide_ref` können Sie festlegen, ob die Produktreferenz eingeblendet werden soll. Setzen Sie den Wert auf `True` um die Referenz einzublenden.
 
 ### Nur Einkaufsbeschreibung übertragen
 
@@ -26,4 +26,4 @@ Mit dieser Erweiterung wird beim Hinzufügen eines Produkts in einer Bestellung 
 
 Falls *Produktcode* oder *Produktname* nicht vorhanden sind wird die Einkaufsbeschreibung übernommen.
 
-![](assets/Purchase%20Order%20Line%20Description%20Product%20Code.png)
+![](assets/Purchase%20Requisition%20Line%20Description.png)

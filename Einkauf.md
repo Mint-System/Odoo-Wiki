@@ -18,7 +18,7 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 | [Purchase Order Address](Purchase%20Order%20Address.md)                               | Bestelladresse von Kunden auf Angebotsanfrage gespeichert.                                |
 | [Purchase Order Comment](Purchase%20Order%20Comment.md)                               | Kommentar-Feld für Einkaufsaufträge.                                                      |
 | [Purchase Order Line Date](Purchase%20Order%20Line%20Date.md)                         | Lieferdatum im Wareneingang automatisch nachtragen.                                       |
-| [Purchase Order Line Description](Purchase%20Order%20Line%20Description.md)           | Nur die Einkaufsbeschreibung in der Einkaufsposition übernehmen.                          |
+| [Purchase Order Line Description](Purchase%20Order%20Line%20Description.md)           | Nur die Einkaufsbeschreibung in die Einkaufsposition übernehmen.                          |
 | [Purchase Order Line Price Default](Purchase%20Order%20Line%20Price%20Default.md)     | Standardpreis einer Einkaufsposition überschreiben.                                       |
 | [Purchase Order Line Relay Price](Purchase%20Order%20Line%20Relay%20Price.md)         | Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den Verkäufter. |
 | [Purchase Order Notes](Purchase%20Order%20Notes.md)                                   | Einkaufsaufträge mit Notizfelder.                                                         |

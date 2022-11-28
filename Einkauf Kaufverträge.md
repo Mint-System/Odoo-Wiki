@@ -14,6 +14,7 @@ Kaufverträge für Rahmenbestellungen erstellen.
 | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | [Purchase Requisition Fiscal](Purchase%20Requisition%20Fiscal.md)                                     | Steuerzuordnung auf Kaufverträgen festlegen.                      |
 | [Purchase Requisition Incoterm](Purchase%20Requisition%20Incoterm.md)                                 | Lieferbedinungen auf Kaufverträgen festlegen.                     |
+| [Purchase Requisition Line Description](Purchase%20Requisition%20Line%20Description.md)               | Nur die Einkaufsbeschreibung in die Einkaufsposition übernehmen.  |
 | [Purchase Requisition Order Address](Purchase%20Requisition%20Order%20Address.md)                     | Bestelladresse auf Kaufverträge.                                  |
 | [Purchase Requisition Other Information Page](Purchase%20Requisition%20Other%20Information%20Page.md) | Fügt einen "Weitere Informationen" Tab der Formularansicht hinzu. |
 | [Purchase Requisition Payment Term](Purchase%20Requisition%20Payment%20Term.md)                       | Kaufverträge mit Zahlungsbedingungen.                             |
