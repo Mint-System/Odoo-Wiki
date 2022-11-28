@@ -176,8 +176,9 @@ Verschiedene Standardberichte werden beim Erzeugen als das Geschäftsobjekt ange
 
 Navigieren Sie nach  *Einstellungen > Technisch > Berichtswesen > Berichte* und legen Sie die Dateinamen gemäss folgender Tabelle fest:
 
-| Name            | Name des gedruckten Berichtes          | Als Anhangsprefix speichern                        |
-| --------------- | -------------------------------------- | -------------------------------------------------- |
-| Rechnungen      | `(object._get_report_base_filename())` | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
-| Invoice with QR | `(object._get_report_base_filename())` | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
-| QR-bill         | `'QR-Rechnung_%s' % object.name`       | `'QR-Rechnung_%s' % object.name`                                                   |
+| Name                  | Name des gedruckten Berichtes                      | Als Anhangsprefix speichern                        |
+| --------------------- | -------------------------------------------------- | -------------------------------------------------- |
+| Invoice with QR       | `'Rechnung_%s.pdf' % object.name.replace("/","_")` | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
+| QR-bill               | `'QR-Rechnung_%s' % object.name`                   | `'QR-Rechnung_%s' % object.name`                   |
+| Rechnung ohne Zahlung | `'Rechnung_%s.pdf' % object.name.replace("/","_")` | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
+| Rechnungen            | `'Rechnung_%s.pdf' % object.name.replace("/","_")` | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
