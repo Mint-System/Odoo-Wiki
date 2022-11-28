@@ -10,7 +10,7 @@ prev: ./verkauf
 Kontaktperson auf Verkaufsauftrag festlegen. 
 
 Technischer Name: `sale_order_contact_person`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_contact_person>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/15.0/sale_order_contact_person>
 
 ## Verwendung
 

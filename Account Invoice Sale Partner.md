@@ -11,7 +11,7 @@ prev: ./abrechnung
 Verkaufsadresse auf Rechnung festlegen.
 
 Technischer Name: `account_invoice_sale_partner`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_invoice_sale_partner>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.0/account_invoice_sale_partner>
 
 ## Verwendung
 
