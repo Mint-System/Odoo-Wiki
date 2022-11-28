@@ -14,7 +14,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 ## Verwendung
 
-### Rahmenauftra per E-Mail versenden
+### Rahmenauftrag per E-Mail versenden
 
 Öffnen Sie *Verkauf > Aufträge > Rahmenaufträge* und wählen Sie einen Rahmenauftrag Im Status *Entwurf* aus oder legen Sie einen an. Drücken Sie den Knopf *Send by Email* und versenden Sie das E-Mail. Der Rahmenauftrag wechselt nun den Status.
 
