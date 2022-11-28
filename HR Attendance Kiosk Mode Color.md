@@ -2,7 +2,7 @@
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abwesenheitszeiten
+prev: ./abwesenheit
 ---
 # HR Attendance Kiosk Mode Color
 ![icon_oms_box](assets/icon_oms_box.png)
