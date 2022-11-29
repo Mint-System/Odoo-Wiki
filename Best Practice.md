@@ -51,6 +51,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Auftragszeilen auswerten](Best%20Practice%20Auftragszeilen%20auswerten.md)
 * [Purchase To Order](Best%20Practice%20Purchase%20To%20Order.md)
 * [Abonnements](Best%20Practice%20Abonnements.md)
+* [Dienstleistungen mit Nachtzuschlag](Best%20Practice%20Dienstleistungen%20mit%20Nachtzuschlag.md)
 
 ### Lager
 

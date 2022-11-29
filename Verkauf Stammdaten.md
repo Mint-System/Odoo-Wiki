@@ -30,6 +30,14 @@ Zuletzt tragen Sie Werte für das Attribut ein.
 
 ![](assets/Verkauf%20Stammdaten%20Produktattributte.png)
 
+### Produktvarianten konfigurieren
+
+Navigieren Sie nach *Verkauf > Produkte > Produkte* und wählen Sie das Produkt aus für welches Sie Produktvarianten konfigurieren möchten. Zeigen Sie den Tab *Merkmale & Varianten* an und fügen Sie ein Merkmal mit den vefügbaren Varianten hinzu. Klicken Sie anschliessend auf *Konfigurieren* und legen Sie die Preiseaufschläge oder Rabatte im Feld *Value Price Extra* fest.
+
+### Konfigurierierte Produktvarianten anzeigen
+
+Navigieren Sie nach *Verkauf > Produkte > Produktvarianten*. Hier finden Sie alle konfigurierten Produktvarianten.
+
 ## Preislisten
 
 ### Erweiterte Preisregeln aktivieren
