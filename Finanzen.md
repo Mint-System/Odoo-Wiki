@@ -46,7 +46,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Swiss QR-ESR Scan](Swiss%20QR-ESR%20Scan.md)                                                                   | Rechnung anhand QR-Daten erstellen.                                         |
 | [Switzerland Bank type](Switzerland%20Bank%20Type.md)                                                           | Lokalisierung für Schweizer Banken und Bankkontos.                          |
 | [Switzerland Disable Default Reports](Switzerland%20Disable%20Default%20Reports.md)                             | Generierung der QR- und ISR-Berichte deaktivieren.                          |
-| [Switzerland Invoice Reports with payment option](Switzerland%20Invoice%20Reports%20with%20payment%20option.md) | Rechnung mit ISR- und/oder QR-Zahlung drucken.                              |
+| [L10n CH Invoice Reports](L10n%20CH%20Invoice%20Reports.md) | Rechnung mit ISR- und/oder QR-Zahlung drucken.                              |
 | [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                                               | Generierung der QR-Rechnung ohne ISR-Nummer.                                |
 | [Switzerland QR-Bill Scan](Switzerland%20QR-Bill%20Scan.md)                                                     | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
 

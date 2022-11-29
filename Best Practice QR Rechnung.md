@@ -22,7 +22,7 @@ Out-of-the-box generiert Odoo eine Rechnung eine QR-Rechnung separat sobald man 
 | Erweiterung                                                                                                     | Beschreibung                                       |
 | --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
 | [Switzerland Disable Default Reports](Switzerland%20Disable%20Default%20Reports.md)                             | Generierung der QR- und ISR-Berichte deaktivieren. |
-| [Switzerland Invoice Reports with payment option](Switzerland%20Invoice%20Reports%20with%20payment%20option.md) | Rechnung mit ISR- und/oder QR-Zahlung drucken.     |
+| [L10n CH Invoice Reports](L10n%20CH%20Invoice%20Reports.md) | Rechnung mit ISR- und/oder QR-Zahlung drucken.     |
 | [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                                               | Generierung der QR-Rechnung ohne ISR-Nummer.       |
 | [Mail Composer Default Template](Mail%20Composer%20Default%20Template.md)                                       | Standardvorlage für Mail-Dialog festlegen.         |
 
