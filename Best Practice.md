@@ -13,7 +13,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 ### An- und Abwesenheitszeiten
 
-* [[Best Practice Abwesenheitstypen]]
+* [Abwesenheitstypen](Best%20Practice%20Abwesenheitstypen.md)
 
 ### Fertigung
 
