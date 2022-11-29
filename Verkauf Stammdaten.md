@@ -16,6 +16,10 @@ Produkte, Preislisten und Varianten zentral pflegen.
 
 ![Produkte zum Verkauf deklarieren](assets/Produkte%20zum%20Verkauf%20deklarieren.gif)
 
+### Verkaufspreis auf Produkt festlegen
+
+Wählen Sie das Produkt unter *Verkauf > Produkte > Produkte* aus und legen Sie im Tab *Allgemeine Informationen* im Feld *Verkaufspreis* den Preis fest.  Legen Sie zusätzlich im Feld *Steuern (Verkauf)* die Mehwertsteuer fest. 
+
 ### Produktvarianten aktivieren
 
 Navigieren Sie nach *Einstellungen > Verkauf > Produktkatalog* und aktiveren Sie die Option *Varianten*.

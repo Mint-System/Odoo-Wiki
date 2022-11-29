@@ -17,4 +17,4 @@ Auf dem Verkaufsangebot fügen Sie alle relevanten Varianten hinzu.
 
 Wenn Sie in der Zeiterfassung einen [Eintrag manuell erstellen](Zeiterfassung.md#Eintrag%20manuell%20erstellen) wählen Sie als *Aufgabe* die entsprechende Projekteaufgabe.
 
-Haben Sie die Erweiterung [HR Timesheet From Until](HR%20Timesheet%20From%20Until.md) installiert, können Sie anhand Start- und Endzeit einfacher die Zusschlagsarten bestimmen.
+Haben Sie die Erweiterung [HR Timesheet From Until](HR%20Timesheet%20From%20Until.md) installiert, können Sie anhand Start- und Endzeit einfacher die Zuschlagsarten bestimmen.
