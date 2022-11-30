@@ -368,6 +368,12 @@ Versandmethoden und Logistik definieren.
 
 [![icon_odoo_website_sale_delivery](assets/icon_odoo_website_sale_delivery.png)](Verkauf.md)
 
+### [Warehouse](Warehouse.md)
+
+Werkhallen und Warenhäuser effizient verwalten.
+
+[![](assets/icon_odoo_warehouse.png)](Warehouse.md)
+
 ### [Wartung](Wartung.md)
 
 Wartungs-Software für moderne Hersteller.
