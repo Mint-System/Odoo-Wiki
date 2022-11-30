@@ -45,5 +45,3 @@ Dieses Ausgleichsmodell können im Abgleichsvorgang mit einem Knopfdruck anwende
 ### Buchungsatz von Vorgang aus Bankauszug anzeigen
 
 Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge* aus. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Öffnen Sie den Vorgang und wählen Sie *Buchungssatz*.
-
-### Abstimm

@@ -14,6 +14,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 ### An- und Abwesenheitszeiten
 
 * [Abwesenheitstypen](Best%20Practice%20Abwesenheitstypen.md)
+* [Abwesenheit](Best%20Practice%20Abwesenheit.md)
 
 ### Fertigung
 
@@ -39,6 +40,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Kostenrechnung](Best%20Pratice%20Kostenrechnung.md)
 * [Buchung Gewinn-/Verlustvortrag](Best%20Practice%20Buchung%20Gewinn-Verlust-Vortrag.md)
 * [Devisenhandel](Best%20Practice%20Devisenhandel.md)
+* [Lohnrekapitulation](Best%20Practice%20Lohnrekapitulation.md)
 
 ### Verkauf und Einkauf
 
@@ -69,11 +71,6 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 * [Kontakte](Best%20Practice%20Kontakte.md)
 * [Incoterms](Best%20Practice%20Incoterms.md)
-
-### Personal
-
-* [Abwesenheit](Best%20Practice%20Abwesenheit.md)
-* [Lohnrekapitulation](Best%20Practice%20Lohnrekapitulation.md)
 
 ### Technisch
 
