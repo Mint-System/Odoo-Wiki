@@ -8,6 +8,12 @@ prev: ./finanzen
 
 Bankkonto mit Odoo abgleichen.
 
+## Konfiguration
+
+### Abstimmung für Konto erlauben
+
+Um die Abstimmung für Buchungszeilen eines bestimmten Kontos zu erlauben, navigieren Sie nach *Finanzen > Konfiguration > Kontenplan*. Suchen Sie das bestimmte Konto und aktivieren Sie Option *Erlaube Abstimmung*.
+
 ## Abstimmung
 
 ### Kontoauszug importieren
@@ -39,3 +45,5 @@ Dieses Ausgleichsmodell können im Abgleichsvorgang mit einem Knopfdruck anwende
 ### Buchungsatz von Vorgang aus Bankauszug anzeigen
 
 Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge* aus. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Öffnen Sie den Vorgang und wählen Sie *Buchungssatz*.
+
+### Abstimm
