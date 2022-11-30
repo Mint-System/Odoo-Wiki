@@ -51,6 +51,24 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md)                           | Erlaubt die Archivierung von Los/Chargen.                                                                   |
 | [Stock Vendor Evaluation](Stock%20Vendor%20Evaluation.md)                                     | Lieferungen bewerten und Lieferanten auswerten.                                                             |
 
+## Vorgänge
+
+### Lieferung ausführen
+
+Navigieren Sie nach *Lager* und wählen Sie die Kachel *Lieferaufträge* an. Nun erscheinen die zu erledigenden Lieferaufträge. Klicken Sie auf *Verfügbarkeit Prüfen* und erledigen Sie den Auftrag mit *Bestätigen*.
+
+::: warning
+Für Produkte mit Nachverfolgung müssen Sie eine Lot-Nummer auswählen.
+:::
+
+### Anlieferung bestätigen
+
+Navigieren Sie nach *Lager* und wählen Sie die Kachel *Anlieferung* an. Nun erscheinen die zu erledigenden Anlieferungen. Bestätigen Sie den Erhalt der Produkte mit *Bestätigen*.
+
+::: warning
+Für Produkte mit Nachverfolgung müssen Sie eine Lot-Nummer auswählen.
+:::
+
 ## Nachverfolgung
 
 ### Ablaufdatum aktivieren

@@ -16,6 +16,7 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 | ------------------------------------------------- | ---------------------------------------------- |
 | [Fertigung Aktionen](Fertigung%20Aktionen.md)     | Fertigungs-Prozesse automatisieren.            |
 | [Fertigung Stammdaten](Fertigung%20Stammdaten.md) | Produkte und Dienstleistungen zentral pflegen. |
+| [Fertigung Vorgänge](Fertigung%20Vorgänge.md)     | Vorgänge für Fertigung konfigurieren.          |
 
 ## Erweiterungen
 
@@ -45,6 +46,12 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 | [Product State](Product%20State.md)                                                             | Lebenszyklus von Produkten festlegen.                                            |
 | [Product Type Description](Product%20Type%20Description.md)                                     | Zu jedem Produkt ein Beschreibungsfeld.                                          |
 | [Secondary Product Type Description](Secondary%20Product%20Type%20Description.md)               | Zu jedem Produkt ein zweites Beschreibungsfeld.                                  |
+
+## Konfiguration
+
+### Vergabe an Subunternehmer aktivieren
+
+Naivigieren Sie nach *Einstellungen > Fertigung > Vorgänge* und aktivieren Sie die Option *An Subunternehmer vergeben*.
 
 ## Aufträge
 

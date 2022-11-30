@@ -86,4 +86,8 @@ Mit der Funktion *Kosten aktualisieren* kann der Wert manuell geändert werden. 
 
 Für Fertigungsprodukte können mit der Funktion *Berechnung des Preises aus Stückliste* die Kosten aus Produkten und Vorgängen (Stücklisten und Arbeitsplänen) berechnet werden.
 
+## Stücklisten
 
+### Fertigung an Subunternehmer vergeben
+
+Damit ein Produkt von einem Subunternehmer gefertigt wird, müssten Sie die Stückliste des Produkts via *Fertigung > Produkte > Stückliste* öffnen und als *Stücklisten Typ* die Option *An Subunternehmer vergeben* auswählen. Als nächstes wählen Sie im Feld *Subunternehmer* das entsprechende Unternehmen aus.

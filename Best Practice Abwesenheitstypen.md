@@ -42,7 +42,8 @@ Damit Mitarbeitende ihre Abwesenheiten sauber erfassen können, empfehlen wir di
 
 ## Feiertagssaldo
 
-Wenn Sie für Mitarbeitende ein unterschiedliches [Arbeitspensum festlegen](Personal.md#Arbeitspensum%20festlegen) wird die Situation bezl. Ferien- und Feiertage etwas schwieriger. Wir empfehlen einerseits einen Feiertagskalender zu führen (siehe [Feiertage einrichten](HR%20Holidays%20Public.md#Feiertage%20einrichten)) und andererseits einen Abwesenheitstyp *Feiertage 20XX* für jedes Jahr bereitzustellen. Damit können Feiertage als Abwesenheitsansprüche geltend gemacht werden. 
+Wenn Sie für Mitarbeitende ein unterschiedliches [Arbeitspensum festlegen](Personal.md#Arbeitspensum%20festlegen) wird die Situation bezl. Ferien- und Feiertage etwas schwieriger. 
+Wir empfehlen einerseits einen Feiertagskalender zu führen (siehe [Feiertage einrichten](HR%20Holidays%20Public.md#Feiertage%20einrichten)) und andererseits einen Abwesenheitstyp *Feiertage 20XX* für jedes Jahr bereitzustellen. Damit können Feiertage als Abwesenheitsansprüche geltend gemacht werden. 
 
 
 
