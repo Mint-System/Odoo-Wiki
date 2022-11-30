@@ -13,7 +13,7 @@ Sie möchten das Produkt *Knusperli* fertigen und müssen dazu einem Subunterneh
 
 Zur Vorbereiten müssen Sie die [Vergabe an Subunternehmer aktivieren](Fertigung.md#Vergabe%20an%20Subunternehmer%20aktivieren).
 Erstellen Sie Produkte und die Stückliste für die *Knusperli*. Legen Sie auf dieser Stückliste fest, dass Sie die [Fertigung an Subunternehmer vergeben](Fertigung%20Stammdaten.md#Fertigung%20an%20Subunternehmer%20vergeben).
-Auf dem Rohstoff *Zander* müssen Sie die [Route zur Versorgung des Subunternehmers festlegen](Fertigung%20Vorgänge.md#Route%20zur%20Versorgung%20des%20Subunternehmers%20festlegen)
+Auf dem Rohstoff *Zander* müssen Sie die [Route zur Versorgung des Subunternehmers festlegen](Fertigung%20Vorgänge.md#Route%20zur%20Versorgung%20des%20Subunternehmers%20festlegen).
 
 ## Ausführung manuell
 

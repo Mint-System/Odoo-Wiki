@@ -346,18 +346,15 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-# Set products to ignore
-except_product_names = ["Gebinde", "Gebinde Migros"]
-
 # Get outgoing pickings in waiting state
 pickings = env['stock.picking'].search(["&",
   ("picking_type_id", "=", 2),
-  ("state", "in", ["waiting"]
+  ("state", "in", ["waiting", "confirmed"]
 )])
 
 # Assign pickings
 if pickings:
-	log('Assign pickings: %s' % (', '.join(pickings.name)))
+	log('Assign pickings: %s' % (', '.join(pickings.mapped('name'))))
 
 pickings.write({'state': 'assigned'})
 ```
