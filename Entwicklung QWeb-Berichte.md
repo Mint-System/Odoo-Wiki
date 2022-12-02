@@ -180,6 +180,7 @@ Navigieren Sie nach  *Einstellungen > Technisch > Berichtswesen > Berichte* und 
 | Name                  | Name des gedruckten Berichtes                      | Als Anhangsprefix speichern                        |
 | --------------------- | -------------------------------------------------- | -------------------------------------------------- |
 | Invoice with QR       | `'Rechnung_%s.pdf' % object.name.replace("/","_")` | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
+| Originalrechnungen    | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |                                                    |
 | QR-bill               | `'QR-Rechnung_%s' % object.name`                   | `'QR-Rechnung_%s' % object.name`                   |
 | Rechnung ohne Zahlung | `'Rechnung_%s.pdf' % object.name.replace("/","_")` | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
 | Rechnungen            | `'Rechnung_%s.pdf' % object.name.replace("/","_")` | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
