@@ -16,7 +16,7 @@ Personalbrechnungen schnell und einfach erstellen.
 | [Personalabrechnung Aktionen](Personalabrechnung%20Aktionen.md) | Lohnabrechnung automatisieren.               |
 | [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md) | Berichte für Lohnbuchhaltung erstellen.      |
 | [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md) | Lohnabrechnungen mit variablen Eingaben.     |
-| [Swiss Payroll](Swiss%20Payroll.md)                             | Lohnabrechnung nach Schweizer Anforderungen. |
+| [Swiss Payroll](Swiss%20Payroll.md)                             | Lohnarten für die Schweizer Lohnabrechnung. |
 
 ## Konfiguration
 
@@ -52,7 +52,7 @@ Regeln für die Sie keine Verwendung haben, können Sie archivieren.
 
 ### Finanzkonten den Lohnarten zuweisen
 
-Damit  die Lohnabrechnung auch in der Finanzbuchhaltung ersichtlich ist, müssen Sie für alle Lohnregeln die entsprechenden Soll- und Habenkonten hinterlegen. Eine Übersicht dazu finden Sie unter [Best-Practice Lohnbuchhaltung](Best%20Practice%20Lohnbuchhaltung.md).
+Damit  die Lohnabrechnung auch in der Finanzbuchhaltung ersichtlich ist, müssen Sie für alle Lohnregeln die entsprechenden Soll- und Habenkonten hinterlegen.
 
 Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln > Regel auswählen > Beareiten > Tab Finanzen* und weisen Sie dort die Konten zu.
 

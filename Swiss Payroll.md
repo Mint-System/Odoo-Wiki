@@ -7,10 +7,18 @@ prev: ./personalabrechnung
 # Swiss Payroll
 ![](assets/odoo_icon_gioardano.png)
 
-Lohnabrechnung nach Schweizer Anforderungen.
+Lohnarten für die Schweizer Lohnabrechnung.
 
 Technischer Name: `gio_payroll_custom`\
 Repository: <https://gitlab.giordano.ch/odoo/giordano-addons/payroll/gio_payroll_custom>
+
+## Konfiguration
+
+### Schweizer Lohnarten aktivieren
+
+Mit der Installation dieser Erweiterung werden Schweizer Lohnarten aktiviert. Navigieren Sie nach *Personalabrechung > Konfiguration > Regeln*.
+
+![](assets/Swiss%20Payroll%20Vorschau.png)
 
 ## Verwendung
 

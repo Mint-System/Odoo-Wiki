@@ -9,7 +9,12 @@
   "legacyEditor": false,
   "livePreview": false,
   "userIgnoreFilters": [
-    "node_modules/"
+    "node_modules/",
+    "build.js",
+    "package.json",
+    "obsidian.css",
+    "default.vim",
+    "package-lock.json"
   ],
   "spellcheckLanguages": [
     "de"

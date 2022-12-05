@@ -30,7 +30,7 @@ Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Beweb
 
 ### Überfällige Forderungen abtimmen
 
-Navigieren Sie nach *Finanzen > FInanzen > Überfällige Forderungen* und erweitern Sie den Eintrag zu einem Partner. Wählen Sie Ausgleich und anschliessend den offenen Betrag. Erstellen Sie eine Gegenbuchung und schliessend Sie den Vorgang mit *Abstimmen* ab.
+Navigieren Sie nach *Finanzen > FInanzen > Überfällige Forderungen* und erweitern Sie den Eintrag zu einem Partner. Wählen Sie Ausgleich und anschliessend den offenen Betrag. Erstellen Sie eine Gegenbuchung und schliessend Sie den Vorgang mit *Abstimmung* ab.
 
 ### Ausgleichsmodell erstellen
 

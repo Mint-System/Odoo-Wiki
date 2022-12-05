@@ -42,6 +42,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Buchung Gewinn-/Verlustvortrag](Best%20Practice%20Buchung%20Gewinn-Verlust-Vortrag.md)
 * [Devisenhandel](Best%20Practice%20Devisenhandel.md)
 * [Lohnrekapitulation](Best%20Practice%20Lohnrekapitulation.md)
+* [Buchung Zahlungsdifferenzen](Best%20Practice%20Buchung%20Zahlungsdifferenzen.md)
 
 ### Verkauf und Einkauf
 
@@ -98,4 +99,4 @@ Mit Beispiel-Daten werden Anwendungsfälle illustriert und die Implementation vo
 
 * [Definition Beispiel Fahrrad](Best%20Practice%20Definition%20Beispiel%20Fahrrad.md)
 * [Finanzen Journale](Best%20Practice%20Finanzen%20Journale.md)
-* [Lohnbuchhaltung](Best%20Practice%20Lohnbuchhaltung.md)
+* [Lohnabrechnung](Best%20Practice%20Lohnabrechnung.md)
