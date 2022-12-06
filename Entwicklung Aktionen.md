@@ -71,7 +71,6 @@ Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatische Aktio
 * Folgeaktion: `Den Datensatz aktualisieren`
 * Feld: `Order Deadline (purchase.order)`
 * Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
-* 
 
 ## Ansichten
 
