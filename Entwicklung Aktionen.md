@@ -106,8 +106,6 @@ Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach *Eisntel
 
 ## Geplante Aktionen
 
-
-
 ### Geplante Aktion "Ablaufdatum Datenbank erneuern" erstellen
 
 Diese geplante Aktion aktualisiert das Ablaufdatum der Datenbank in regelmässigen Abständen.
