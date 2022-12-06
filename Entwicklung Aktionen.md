@@ -131,7 +131,7 @@ expiration_date = expiration_date.strftime('%Y-%m-%d %H:%M:%S')
 env['ir.config_parameter'].sudo().set_param('database.expiration_date', expiration_date)
 ```
 
-## Aktionen
+## Server Aktionen
 
 ### Aktion "Feld neu berechnen" erstellen
 

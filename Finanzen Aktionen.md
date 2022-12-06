@@ -155,7 +155,7 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 
 ```python
-for record in records:  
+for record in records:
   record.write({'state': 'posted'})
 ```
 
