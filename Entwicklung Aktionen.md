@@ -36,7 +36,7 @@ Heutiges Datum als Standardwert für das Feld `ordering_date`.
 ```
 
 ::: warning
-Dokumentieren Sie die Anpassung von Aktionen. Bei einer Aktualisierung der Module gehen diese Änderungen verloren.
+Dokumentieren Sie die Anpassung von Aktionen. Bei einer Aktualisierung der Module gehen die Änderungen verloren.
 :::
 
 ## Automatische Aktionen

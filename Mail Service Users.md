@@ -23,5 +23,5 @@ Rufen Sie einen Benutzer via *Einstellungen > Benutzer und Unternehmen > Benutze
 ![](assets/Mail%20Service%20Users.png)
 
 ::: warning
-Dieses Modul wurde von Odoo S.A. nicht geprüft.
+Dieses Modul verändert die Berechnung der aktiven Benutzer auf dem System. Mit dieser Anpassung verstosst man gegen die Bedinungen im Odoo Enterprise Lizenzvertrag. 
 :::
