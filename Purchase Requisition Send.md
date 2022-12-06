@@ -14,6 +14,10 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 ## Verwendung
 
+### Erweiterung konfigurieren
+
+Damit die Bestelladresse als Empfängeradresse für die E-Mail übernommen wird,  muss in der E-Mail-Vorlage im Feld  *An (Partner)* der Wert `${object.partner_order_id.id}` eingetragen sein. Zur Bearbeitung rufen Sie die entsprechende E-Mail-Vorlage unter *Einstellungen > Technisch > E-Mail > Vorlagen* auf.
+
 ### Kaufvertrag per E-Mail versenden
 
 Mit dieser Erweiterungen können Sie Kaufverträge per E-Mail verschicken. Zeigen Sie einen Kaufvertrag via *Einkauf > Aufträge > Kaufverträge* an und wählen Sie die Aktion *Per E-Mail Versenden*.
