@@ -45,7 +45,7 @@ Dokumentieren Sie die Anpassung von Aktionen. Bei einer Aktualisierung der Modul
 
 Mit *Automatischen Aktionen* kann ein Datensatz, der aktualisiert wurde, zusätzlich validiert werden. In unserem Beispiel wollen wir unterbinden, dass Qualitätsalarme auf bestimmte Stufen gesetzt werden.
 
-Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Automatische Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatische Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Modell: `Qualitätsalarm`\
 Triggerbedingung: `Beim Aktualisieren`\
@@ -58,6 +58,20 @@ if record.stage_id.sequence in [0,1,2]:
 ```
 
 ![Aktionen Stufe nicht erlaubt](assets/Aktionen%20Stufe%20nicht%20erlaubt.gif)
+
+### Automatische Aktion "Set Order Deadline" erstellen
+
+Mit Aktionen können Felder mit einem bestimmten Default-Wert beschrieben werden. Im folgenden Beispiel wird das Feld *Order Deadline* auf Angebotsanfragen auf das Datum *heute + 5 Tage* gesetzt.
+
+Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatische Aktionen* und erstellen Sie den folgenden Eintrag:
+
+* Name der Aktion: `Set Order Deadline`
+* Modell: `Beschaffungsauftrag`
+* Auslöser: `Bei Erstellung`
+* Folgeaktion: `Den Datensatz aktualisieren`
+* Feld: `Order Deadline (purchase.order)`
+* Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
+* 
 
 ## Ansichten
 
@@ -90,20 +104,9 @@ Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach *Eisntel
 
 ![Einstellungen Fenster umbennen](assets/Einstellungen%20Fenster%20umbennen.gif)
 
-## Gplante Aktionen
+## Geplante Aktionen
 
-### Geplante Aktion "Set Order Deadline" erstellen
 
-Mit Aktionen können Felder mit einem bestimmten Default-Wert beschrieben werden. Im folgenden Beispiel wird das Feld *Order Deadline* auf Angebotsanfragen auf das Datum *heute + 5 Tage* gesetzt.
-
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie den folgenden Eintrag:
-
-* Name der Aktion: `Set Order Deadline`
-* Modell: `Beschaffungsauftrag`
-* Auslöser: `Bei Erstellung`
-* Folgeaktion: `Den Datensatz aktualisieren`
-* Feld: `Order Deadline (purchase.order)`
-* Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
 
 ### Geplante Aktion "Ablaufdatum Datenbank erneuern" erstellen
 
