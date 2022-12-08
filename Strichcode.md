@@ -77,7 +77,7 @@ Mit jedem Scan des Produktbarcodes wird 1 Stück dem Transfer hinzugefügt.
 
 ![Strichcode Zusätzliche Produkte hinzufügen](assets/Strichcode%20Zusätzliche%20Produkte%20hinzufügen.gif)
 
-## Fehleranalyse
+## Troubleshooting
 
 ### Strichcode-Eingabe simulieren
 
