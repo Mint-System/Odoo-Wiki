@@ -295,7 +295,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 # Set products to ignore
-except_product_names = ["Gebinde", "Gebinde Migros"]
+except_product_names = ["Gebinde", "Gebinde Migros", "Gebinde Bianchi"]
 
 # Get pickings to be processed
 pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "waiting", "partially_available"])])
@@ -314,6 +314,8 @@ if fix_moves:
 	log('Set qty done on moves: %s' % (', '.join(fix_moves.mapped('reference'))))
 for move in fix_moves:
     try:
+        # Revert resevations
+        move._do_unreserve()
         move.write({'quantity_done': move.product_uom_qty})
     except:
         log('While writing move %s an error occured.' % (move.reference), level='error')
