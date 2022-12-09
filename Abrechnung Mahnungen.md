@@ -23,3 +23,11 @@ Wenn Sie den Text des Mahnberichts anpassen möchten, müssen Sie eine [Überset
 ### Mahnung versenden
 
 Unbezahlte Rechnung, welche die Zahlungsfrist überschritten haben, können Sie unter *Finanzen > Kunden > Mahnberichte* anzeigen. Wählen Sie einen Eintrag aus und klicken Sie auf *Sende Per E-Mail*.
+
+### Text Mahnbericht anpassen
+
+Wenn Sie den Mahnbericht geöffnet haben und auf den Text klicken, können Sie diesen direkt bearbeiten. Schliessen Sie den Vorgang mit *Speichern* ab.
+
+::: warning
+Beim Bearbeiten des Texts gehen die Zeilenumbrüche verloren.
+:::
