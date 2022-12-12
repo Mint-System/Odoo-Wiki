@@ -22,7 +22,8 @@ Kaufverträge für Rahmenbestellungen erstellen.
 | [Purchase Requisition Send](Purchase%20Requisition%20Send.md)                                         | Kaufverträge per E-Mail versenden.                                |
 | [Purchase Requisition Tag](Purchase%20Requisition%20Tag.md)                                           | Kaufverträge mit Stichwörter.                                     |
 | [Purchase Requisition Total](Purchase%20Requisition%20Total.md)                                       | Kaufvertrag mit Steuern, Zwischensummen und Total.                |
-| [Purchase Requistion Notes](Purchase%20Requistion%20Notes.md)                                         | Kaufverträge mit Notizfelder.                                     |
+| [Purchase Requisition User](Purchase%20Requisition%20User.md)                                         | Einkaufsbeauftragte von Kaufvertrag auf Bestellung übertragen.    |
+| [Purchase Requisition Notes](Purchase%20Requisition%20Notes.md)                                         | Kaufverträge mit Notizfelder.                                     |
 
 ## Verwaltung
 
