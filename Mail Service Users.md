@@ -22,6 +22,10 @@ Rufen Sie einen Benutzer via *Einstellungen > Benutzer und Unternehmen > Benutze
 
 ![](assets/Mail%20Service%20Users.png)
 
+Unter Einstellungen wird die Zahl der aktiven Benutzer entsprechend angepasst.
+
+![](assets/Mail%20Service%20Users%20Einstellungen.png)
+
 ::: warning
-Dieses Modul verändert die Berechnung der aktiven Benutzer auf dem System. Mit dieser Anpassung verstosst man gegen die Bedinungen im Odoo Enterprise Lizenzvertrag. 
+Dieses Modul verändert die Berechnung der aktiven Benutzer auf dem System. Ist die Erweiterung aktiv verstossen Sie gegen die Bedinungen im Odoo Enterprise Lizenzvertrag. 
 :::
