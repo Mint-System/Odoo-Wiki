@@ -90,6 +90,10 @@ Navigieren Sie nach *Finanzen > Konfiguration > Steuerzuordnung*. Hier finden Si
 Die Standardkonfiguration von Odoo sieht vor, dass alle Internationalen Import/Export eine Steuerzuordnung von 0.0% erhalten.
 :::
 
+### Steuerzuordnung auf Lieferant festlegen
+
+Zeigen Sie *Finanzen > Lieferanten > Lieferanten* an. Öffnen Sie einen bestimmten Lieferanten und zeigen Sie den Tab *Verkauf & Einkauf* an. Wählen Sie im Feld *Steuerzuordnung* einen Wert aus
+
 ## Abrechnung
 
 ### Abschlussbuchung Steuererklärung erstellen
