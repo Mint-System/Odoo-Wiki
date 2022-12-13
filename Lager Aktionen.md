@@ -315,7 +315,7 @@ if fix_moves:
 for move in fix_moves:
     try:
         # Revert resevations
-        move._do_unreserve()
+        # move._do_unreserve()
         move.write({'quantity_done': move.product_uom_qty})
     except:
         log('While writing move %s an error occured.' % (move.reference), level='error')

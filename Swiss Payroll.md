@@ -10,7 +10,7 @@ prev: ./personalabrechnung
 Lohnarten für die Schweizer Lohnabrechnung.
 
 Technischer Name: `gio_payroll_custom`\
-Repository: <https://gitlab.giordano.ch/odoo/giordano-addons/payroll/gio_payroll_custom>
+Repository: <https://gitlab.com/mint-system/odoo-apps-swiss-payroll/-/tree/15.0>
 
 ## Konfiguration
 

@@ -10,4 +10,4 @@ prev: ./einstellungen
 Limit für Python-Rekursionen erhöhen. 
 
 Technischer Name: `base_recursion_limit`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/base_recursion_limit>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/15.0/base_recursion_limit>

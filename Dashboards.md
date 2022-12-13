@@ -16,7 +16,6 @@ Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 | [Mail Activity Board](Mail%20Activity%20Board.md) | Übersicht aller erstellten Aktivitäten. |
 | [Mail Activity Done](Mail%20Activity%20Done.md)   | Aktivitäten als erledigt markieren.     |
 
-
 ## Verwendung
 
 ### Ansicht als Favorit speichern
