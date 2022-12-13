@@ -40,7 +40,6 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                           | Zeigt für eine Rechnung das definitive Abgleichsdatum an.                   |
 | [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)                                               | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren.           |
 | [Contract Sale Generation](Contract%20Sale%20Generation.md)                           | Aus wiederholenden Verträge Verkaufsangebote generieren.                    |
-| [Contracts Management Recurring](Contracts%20Management%20Recurring.md)                                         | Wiederholende Verträge verwalten und automatisch verrechnen.                |
 | [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                           | PDF-Dokumenten von Rechnungen zusammenführen.                               |
 | [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                     | Allow discount deduction on vendor bills.                                   |
 | [Swiss QR-ESR Scan](Swiss%20QR-ESR%20Scan.md)                                                                   | Rechnung anhand QR-Daten erstellen.                                         |

@@ -88,7 +88,7 @@ Anleitung zur Odoo-App Certificate Planner.
 
 ### [Contract](Contract.md)
 
-Kunden- und Lieferantenverträge verwalten.
+Wiederholende Verträge verwalten und automatisch verrechnen.
 
 [![icon_oca_agreement](assets/icon_oca_agreement.png)](Auslagen.md)
 
