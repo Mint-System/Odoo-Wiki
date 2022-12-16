@@ -294,8 +294,9 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-# Set time range
-scope_days=2
+# Settings
+scope_days=1
+picking_type_id=8
 
 # Create scope dates for search
 date_now = datetime.datetime.now()
@@ -305,7 +306,8 @@ date_planned_start = date_now + datetime.timedelta(days=scope_days)
 # Lookup unfinished manufacturing orders
 production_ids = env['mrp.production'].search([
   ('state', 'in', ['confirmed','progress','to_close']),
-  ("date_planned_start", ">=", date_planned_start)
+  ('date_planned_start', '<=', date_planned_start),
+  ('picking_type_id', '=', picking_type_id)
 ])
 
 # Lookup confirmed outgoing pickings
@@ -321,7 +323,7 @@ production_ids = env['mrp.production'].search([
 fix_moves = production_ids.move_raw_ids.filtered(lambda l: not l.lot_ids and l.product_id.qty_available > 0)
 # qty_available = sum(fix_moves.mapped('product_id.qty_available'))
 
-# raise UserError([fix_moves.mapped('reference')])
+# raise UserError([production_ids.mapped('date_planned_start'), fix_moves.mapped('reference')])
 
 # Trigger reservations
 messages = []
@@ -373,7 +375,7 @@ if fix_moves:
 for move in fix_moves:
     try:
         # Revert resevations
-        # move._do_unreserve()
+        move._do_unreserve()
         move.write({'quantity_done': move.product_uom_qty})
     except:
         log('While writing move %s an error occured.' % (move.reference), level='error')

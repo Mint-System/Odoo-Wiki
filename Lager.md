@@ -38,6 +38,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Delivery Note](Stock%20Delivery%20Note.md)                                             | Notiz auf Lieferschein.                                                                                     |
 | [Stock Move Available Locations](Stock%20Move%20Available%20Locations.md)                     | Nur Lagerorte mit Besand in Auswahl anzeigen.                                                               |
 | [Stock Move Line Auto Fill](Stock%20Move%20Line%20Auto%20Fill.md)                             | Die erledigte Menge auf einem Transfer automatisch ausfüllen.                                               |
+| [Stock Move Line Lot Done](Stock%20Move%20Line%20Lot%20Done.md)                               | Erledigte Menge bei Zuweisung von Los festlegen.                                                            |
 | [Stock Move Line Packaging](Stock%20Move%20Line%20Packaging.md)                               | Verknüpfen der Verpackung von Verkaufsauftrag.                                                              |
 | [Stock Move Line Position](Stock%20Move%20Line%20Position.md)                                 | Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen.                               |
 | [Stock Move Sale Order Name](Stock%20Move%20Sale%20Order%20Name.md)                           | Beschreibung der Auftragsposition wird auf die Lieferung kopiert.                                           |
