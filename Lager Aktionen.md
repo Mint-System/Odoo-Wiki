@@ -306,6 +306,7 @@ date_planned_start = date_now + datetime.timedelta(days=scope_days)
 # Lookup unfinished manufacturing orders
 production_ids = env['mrp.production'].search([
   ('state', 'in', ['confirmed','progress','to_close']),
+  ('reserve_visible', '=', True),
   ('date_planned_start', '<=', date_planned_start),
   ('picking_type_id', '=', picking_type_id)
 ])
