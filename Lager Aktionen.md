@@ -296,7 +296,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 ```python
 # Settings
 scope_days=1
-picking_type_id=8
+picking_type_ids=[8]
 
 # Create scope dates for search
 date_now = datetime.datetime.now()
@@ -308,7 +308,7 @@ production_ids = env['mrp.production'].search([
   ('state', 'in', ['confirmed','progress','to_close']),
   ('reserve_visible', '=', True),
   ('date_planned_start', '<=', date_planned_start),
-  ('picking_type_id', '=', picking_type_id)
+  ('picking_type_id', 'in', picking_type_ids)
 ])
 
 # Lookup confirmed outgoing pickings
