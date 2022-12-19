@@ -14,6 +14,10 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 ## Verwendung
 
+### Reservierung vor Erledigung konfigurieren
+
+Wenn Sie den [Systemparameter](Entwicklung.md#Systemparameter%20anlegen) mit Schlüssel `stock_picking_mrp_production_done.assign_before` und Wert `True` anlegen, wird vor dem Bestätigen der Fertigungsaufträge eine Reservierung ausgeführt.
+
 ### Upstream Fertigungsauftrag gleichzeitig mit Lieferung erledigen
 
 Mit dieser Erweiterung können Fertigungsaufträge und Lieferung in einem gültigen Zustand gleichzeitig abgeschlossen werden.

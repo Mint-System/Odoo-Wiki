@@ -286,8 +286,8 @@ Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstelle
 
 Name der Aktion: `Reservierung für Lieferperiode aktualisieren`\
 Modell: `ir.actions.server`\
-Ausführen alle: `5` Minuten\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Ausführen alle: `12` Stunden\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 09:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
