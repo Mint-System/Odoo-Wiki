@@ -318,7 +318,6 @@ production_ids = env['mrp.production'].search([
 #   ("scheduled_date", ">=", scheduled_from),
 # ], order="scheduled_date desc")
 
-
 # Get lines where not lot_ids are set
 # fix_moves = pickings_out.move_lines.filtered(lambda l: not l.lot_ids)
 fix_moves = production_ids.move_raw_ids.filtered(lambda l: not l.lot_ids and l.product_id.qty_available > 0)
@@ -330,7 +329,7 @@ fix_moves = production_ids.move_raw_ids.filtered(lambda l: not l.lot_ids and l.p
 messages = []
 for move in fix_moves:
     try:
-        messages.append('Set lot for %s.' % (move.reference))
+        messages.append('Reserved materials for %s.' % (move.reference))
         move._action_assign()
     except:
         log('While writing move %s an error occured.' % (move.reference), level='error')
