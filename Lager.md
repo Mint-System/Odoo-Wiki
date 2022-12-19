@@ -46,7 +46,8 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Move Upstream State](Stock%20Move%20Upstream%20State.md)                               | Zugriff auf Status von Upstream Lagerbuchung.                                                               |
 | [Stock Move Weight UoM](Stock%20Move%20Weight%20UoM.md)                                       | Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.                                                |
 | [Stock Picking Invoice Link](Stock%20Picking%20Invoice%20Link.md)                             | Verlinkt Rechnungen und Transfers.                                                                          |
-| [Stock Picking MRP Production Done](Stock%20Picking%20MRP%20Production%20Done.md)             | Liefertung mit Fertigungsauftrag gleichzeitig abschliessen.                                                 |
+| [Stock Picking MRP Production Assign](Stock%20Picking%20MRP%20Production%20Assign.md)         | Reservierung für Make-To-Order Aufträge gleichzeitig durchführen.                                           |
+| [Stock Picking MRP Production Done](Stock%20Picking%20MRP%20Production%20Done.md)             | Lieferung mit Fertigungsauftrag gleichzeitig abschliessen.                                                  |
 | [Stock Picking Notes](Stock%20Picking%20Notes)                                                | Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.        |
 | [Stock Picking Responsible](Stock%20Picking%20Responsible.md)                                 | Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.                                  |
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md)                           | Erlaubt die Archivierung von Los/Chargen.                                                                   |
