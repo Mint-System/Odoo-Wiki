@@ -51,6 +51,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Picking Notes](Stock%20Picking%20Notes)                                                | Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.        |
 | [Stock Picking Responsible](Stock%20Picking%20Responsible.md)                                 | Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.                                  |
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md)                           | Erlaubt die Archivierung von Los/Chargen.                                                                   |
+| [Stock Production Lot Date](Stock%20Production%20Lot%20Date.md)                               | Datum auf Losnummer festlegen und Ablaufdatum relativ setzen.                                               |
 | [Stock Vendor Evaluation](Stock%20Vendor%20Evaluation.md)                                     | Lieferungen bewerten und Lieferanten auswerten.                                                             |
 
 ## Vorgänge

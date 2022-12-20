@@ -20,18 +20,19 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Angebotsanfrage           | `/report/html/purchase.report_purchasequotation/$ID`                            |
 | Barcode EAN-13            | `/report/barcode/?type=EAN13&value=0769503968353width=600&height=150`           |
 | Barcodes (PDF)            | `/report/html/stock.label_transfer_template_view_pdf/$ID`                       |
+| Bordereau                 | `/report/html/report/html/mint_system.stock.report_bordero.basis57/$ID`         |
 | Fertigungsauftrag         | `/report/html/mrp.report_mrporder/$ID`                                          |
 | Kaufvertrag               | `/report/html/purchase_requisition.report_purchaserequisitions/$ID`             |
 | Lieferschein              | `/report/html/stock.report_deliveryslip/$ID`                                    |
 | Packvorgänge              | `/report/html/stock.report_picking/$ID`                                         |
 | QR-Rechnung               | `/report/html/l10n_ch.qr_report_main/$ID`                                       |
 | Rahmenauftrag             | `/report/html/sale_blanket_order.report_blanketorder/$ID`                       |
+| Rechnung mit Zeitnachweis | `/report/html/account_sale_timesheet_report.report_invoice_with_timesheets/$ID` |
 | Rechnungen                | `/report/html/account.report_invoice/$ID`                                       |
 | Rechnungen mit Zahlung    | `/report/html/account.report_invoice_with_payments/$ID`                         |
 | Vorschau externer Bericht | `/report/html/web.preview_externalreport/$ID`                                   |
 | Vorschau interner Bericht | `/report/html/web.preview_internalreport/$ID`                                   |
 | Zeitnachweis              | `/report/html/account_sale_timesheet_report.timesheet_report/$ID`               |
-| Rechnung mit Zeitnachweis | `/report/html/account_sale_timesheet_report.report_invoice_with_timesheets/$ID` |
 
 ::: tip
 Bestimmte Bericht können mehere Dokumente anzeigen. Für die HTML-Anzeige können Sie die Dokument-IDs Komma-getrennt übergeben: /report/html/**stock.report_deliveryslip**/**3,4,5**
