@@ -21,3 +21,7 @@ Mit dieser Erweiterung können Sie auf einem Los zusätzlich zum Namen ein Datum
 Navigieren Sie nach *Lager > Produkte > Chargen-/Seriennummern* und erstellen Sie ein Los. Legen Sie im Feld *Datum* das entsprechende Datum fest.
 
 ![](assets/Stock%20Production%20Lot%20Date.png)
+
+::: tip
+Wenn das Produkt ein Ablaufdatum hat, wird dieses aufgrund des gewählten Datums berechne
+:::
