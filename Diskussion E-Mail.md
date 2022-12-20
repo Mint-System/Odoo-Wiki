@@ -24,7 +24,7 @@ Wenn Sie alle von Odoo gesendeten E-Mails anzeigen möchten, navigieren Sie nach
 Wenn Sie alle von Odoo verarbeiteten E-Mails anzeigen möchten, navigieren Sie nach *Einstellungen > Technisch > Nachrichten* und nehmen in der Suche diese Einstellung vor:
 
 * Gruppiert: *Datum: Monat > Datum: Woche > Datum: Tag*
-* Filter: Typ ist "Kommentar|
+* Filter: Typ ist "Kommentar"
 * Filter: Betreff ist gesetzt
 
 ![](assets/Diskussion%20E-Mail%20Gesendet.png)
