@@ -23,5 +23,5 @@ Navigieren Sie nach *Lager > Produkte > Chargen-/Seriennummern* und erstellen Si
 ![](assets/Stock%20Production%20Lot%20Date.png)
 
 ::: tip
-Wenn das Produkt ein Ablaufdatum hat, wird dieses aufgrund des gewählten Datums berechne
+Wenn das Produkt ein Ablaufdatum hat, wird dieses aufgrund des gewählten Datums berechnet.
 :::

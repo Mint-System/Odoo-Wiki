@@ -8,6 +8,27 @@ prev: ./diskussion
 
 E-Mail mit Odoo versenden.
 
+## E-Mails
+
+### Alle empfangenen E-Mails anzeigen
+
+Wenn Sie alle von Odoo gesendeten E-Mails anzeigen möchten, navigieren Sie nach *Einstellungen > Technisch > Nachrichten* und nehmen in der Suche diese Einstellung vor:
+
+* Gruppiert: *Datum: Monat > Datum: Woche > Datum: Tag*
+* Filter: Typ ist "E-MAil"
+
+![](assets/Diskussion%20E-Mail%20Empfang.png)
+
+### Alle versendeten E-Mails anzeigen
+
+Wenn Sie alle von Odoo verarbeiteten E-Mails anzeigen möchten, navigieren Sie nach *Einstellungen > Technisch > Nachrichten* und nehmen in der Suche diese Einstellung vor:
+
+* Gruppiert: *Datum: Monat > Datum: Woche > Datum: Tag*
+* Filter: Typ ist "Kommentar|
+* Filter: Betreff ist gesetzt
+
+![](assets/Diskussion%20E-Mail%20Gesendet.png)
+
 ## Vorlagen
 
 ### Mail-Vorlagen verwalten
@@ -87,7 +108,7 @@ Ein weiteres Bespiel:
 
 ![](assets/Diskussion%20E-Mail%20Fehler%20Single%20Domains.png)
 
-### E-Mail anzeigen
+### Alle E-Mails anzeigen
 
 Odoo speichert E-Mails in der Datenbank. Sie können diese im Entwicklermodus unter *Einstellungen > Technisch > E-Mails* anzeigen.
 
