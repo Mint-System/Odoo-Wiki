@@ -14,8 +14,7 @@ Ein- und auschecken mit dem Terminal Zeiterfassung.
 Das Terminal Zeiterfassung ist im wesentlichen ein Mini-Computer, der die Odoo-Installation im Browser anzeigt. Mit dem eingebauten Touchscreen kann mit der Odoo-Oberfläche direkt interagiert werden.
 :::
 
-
-### Terminal in Betrieb nehmen
+### Terminal Zeiterfassung in Betrieb nehmen
 
 Damit Sie das Terminal Zeiterfassung verwenden können, müssen Sie es zuerst mit dem Netzwerk verbinden. Gehen Sie wie folgt vor:
 
