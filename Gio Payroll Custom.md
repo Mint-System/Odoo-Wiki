@@ -47,6 +47,11 @@ Navigieren Sie nach *Personalabrechnung > Personal > Verträge*, öffnen Sie ein
 * **Stundenlohn**: Geben Sie hier nochmals den Stundenlohn an
 * **Anteile AN / AG**: Wählen Sie hier den Eintrag mit den aktuellsten Werten aus
 
+### Struktur Lohnabrechnung konfigurieren
+
+Navigieren Sie nach *Personalabrechnung > Konfiguration > Structures* und öffnen Sie den Eintrag *Lohnabrechnung*. Diese Lohnstruktur wurde von der Erweiterung erstellt. Passen Sie diese gemäss Anforderungen an.
+
+
 ## Bericht
 
 ### Lohndeklaration AVH anzeigen
