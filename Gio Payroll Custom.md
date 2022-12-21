@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./personalabrechnung
 ---
-# Swiss Payroll
+# Gio Payroll Custom
 ![](assets/odoo_icon_gioardano.png)
 
 Lohnarten für die Schweizer Lohnabrechnung.
@@ -35,6 +35,19 @@ Legen Sie unbedingt die Monatslohngrenze fest. Nur dann werden ALV und NBU korre
 :::
 
 ![](assets/Pesonalabrechnung%20Anteile%20Arbeitnehmer%20Arbeitgebener.png)
+
+### Gehaltsinformationen auf Arbeitsvertrag hinterlegen
+
+Navigieren Sie nach *Personalabrechnung > Personal > Verträge*, öffnen Sie einen Vertrag und wählen Sie als erstes im Feld *Art der Gehaltsstruktur* den entsprechenden Wert aus. Füllen Sie im Tab *Gehaltsinformation* alle relevanten Felder aus.
+
+* **Vergütung**: Geben Sie hier den Monatslohn an, wenn die *Art der Gehaltsstruktur* *Monatslohn* entspricht
+* **Hourly Wage**: Geben Sie hier den Stundelohn an, wenn die *Art der Gehaltsstruktur* *Stundenlohn* entspricht
+* **Lohntyp**: Wählen Sie hier Monatslohn oder Stundenlohn aus
+* **Monatslohn**: Geben Sie hier nochmals den Monatslohn an
+* **Stundenlohn**: Geben Sie hier nochmals den Stundenlohn an
+* **Anteile AN / AG**: Wählen Sie hier den Eintrag mit den aktuellsten Werten aus
+
+## Bericht
 
 ### Lohndeklaration AVH anzeigen
 

@@ -10,13 +10,13 @@ Personalbrechnungen schnell und einfach erstellen.
 
 ## Erweiterungen
 
-| Erweiterung                                                     | Beschreibung                                 |
-| --------------------------------------------------------------- | -------------------------------------------- |
-| [Lohnmeldung](Lohnmeldung.md)                                   | Lohnmeldungen ganz einfach generieren.       |
-| [Personalabrechnung Aktionen](Personalabrechnung%20Aktionen.md) | Lohnabrechnung automatisieren.               |
-| [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md) | Berichte für Lohnbuchhaltung erstellen.      |
-| [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md) | Lohnabrechnungen mit variablen Eingaben.     |
-| [Swiss Payroll](Swiss%20Payroll.md)                             | Lohnarten für die Schweizer Lohnabrechnung. |
+| Erweiterung                                                     | Beschreibung                                |
+| --------------------------------------------------------------- | ------------------------------------------- |
+| [Gio Payroll Custom](Gio%20Payroll%20Custom.md)                 | Lohnarten für die Schweizer Lohnabrechnung. |
+| [Lohnmeldung](Lohnmeldung.md)                                   | Lohnmeldungen ganz einfach generieren.      |
+| [Personalabrechnung Aktionen](Personalabrechnung%20Aktionen.md) | Lohnabrechnung automatisieren.              |
+| [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md) | Berichte für Lohnbuchhaltung erstellen.     |
+| [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md) | Lohnabrechnungen mit variablen Eingaben.    |
 
 ## Konfiguration
 
@@ -29,7 +29,7 @@ Dazu eine Übersicht:
 * [Private Adresse hinterlegen](Personal.md#Private%20Adresse%20hinterlegen)
 * [Arbeitsvertrag hinzufügen](Personal.md#Arbeitsvertrag%20hinzuf%C3%BCgen)
 * [Bankverbindung hinterlegen](#Bankverbindung%20hinterlegen)
-* [Anteile Arbeitgeber Arbeitnehmer konfigurieren](Swiss%20Payroll.md#Anteile%20Arbeitgeber%20Arbeitnehmer%20konfigurieren)
+* [Anteile Arbeitgeber Arbeitnehmer konfigurieren](Gio%20Payroll%20Custom.md#Anteile%20Arbeitgeber%20Arbeitnehmer%20konfigurieren)
 * [Lohnarten definieren](#Lohnarten%20definieren)
 * [Finanzkonten den Lohnarten zuweisen](#Finanzkonten%20den%20Lohnarten%20zuweisen)
 * [Gehaltsinformationen eingeben](#Gehaltsinformationen%20eingeben)
