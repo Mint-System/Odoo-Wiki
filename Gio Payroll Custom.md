@@ -51,7 +51,6 @@ Navigieren Sie nach *Personalabrechnung > Personal > Verträge*, öffnen Sie ein
 
 Navigieren Sie nach *Personalabrechnung > Konfiguration > Structures* und öffnen Sie den Eintrag *Lohnabrechnung*. Diese Lohnstruktur wurde von der Erweiterung erstellt. Passen Sie diese gemäss Anforderungen an.
 
-
 ## Bericht
 
 ### Lohndeklaration AVH anzeigen
