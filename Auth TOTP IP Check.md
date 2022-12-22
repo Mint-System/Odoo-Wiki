@@ -22,5 +22,5 @@ Zeigen Sie *Einstellungen > Technisch > Sicherheit > Disable TOTP Check* an. Geb
 
 ### Login ohne Zwei-Faktor-Authentisierung für unbestimmte Netzwerke verhindern
 
-Wenn Sie den [Systemparameter](Entwicklung.md#Systemparameter%20anlegen) mit Schlüssel `auth_totp.prevent_login_without_2fa` und Wert `True` anlegen, können Benutzer ohne Zwei-Faktor-Auhtentisierung aus unbestimmten Netzwerken nicht mehr einloggen.
+Wenn Sie den [Systemparameter](Entwicklung.md#Systemparameter%20anlegen) mit Schlüssel `auth_totp.prevent_login_without_2fa` und Wert `True` anlegen, können Benutzer ohne Zwei-Faktor-Authentisierung aus unbestimmten Netzwerken nicht mehr einloggen.
 
