@@ -159,4 +159,8 @@ Wählen Sie *Finanzen > Finanzen > Steueranpassungen* und erstellen Sie einen ne
 
 ### Interne Überweisung erstellen
 
-Wählen Sie *Finanzen > Bank-Journal > Kontextmenü > Interne Überweisung*. Wählen Sie ob mit *Zahlungsart*, ob Sie Geld empfang oder senden möchten. Geben Sie einen Betrag ein und schliessen Sie den Vorgang mit *Bestätigen* ab.
+Wählen Sie *Finanzen > Bank-Journal > Kontextmenü > Interne Überweisung*. 
+
+![](assets/Finanzen%20Buchhaltung%20Interne%20Überweisung.png)
+
+Wählen Sie ob mit *Zahlungsart*, ob Sie Geld empfang oder senden möchten. Geben Sie einen Betrag ein und schliessen Sie den Vorgang mit *Bestätigen* ab.

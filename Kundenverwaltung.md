@@ -10,6 +10,22 @@ Verfolgen Sie Leads, schließen Sie Chancen ab und erhalten Sie genaue Prognosen
 
 Website: <https://www.odoo.com/de_DE/app/crm>
 
+## Konfiguration
+
+### Interessenten aus eingehenden E-Mails erstellen
+
+Sie können für E-Mails, die an das Odoo-Postfach geschickt werden, Interessenten in der Kundenverwaltung generieren. Navigieren Sie nach *Kundenverwaltung > Konfiguration > Einstellungen* und aktivieren Sie die Option *Eingehende E-Mails*. Tragen Sie im neuen Feld den E-Mail-Alias des Odoo-Postfach ein.
+
+## Interessenten
+
+### Interessenten erstellen
+
+Navigieren Sie nach *Kundenverwaltung > Interessenten* und erstellen Sie einen neuen Eintrag.
+
+### Interessenten in Chance umwandeln
+
+Wählen Sie einen Interessenten unter *Kundenverwaltung > Interessenten* aus und klicken Sie auf *In Chance Umwandeln*.
+
 ## Chancen
 
 ### Chance erstellen

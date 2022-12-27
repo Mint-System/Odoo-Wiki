@@ -17,7 +17,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.
 
 ### Zeiterfassungsbericht für Rechnung erstellen
 
-Mit dieser Erweiterung können Sie einen Zeiterfassungsbericht direkt auf der Rechnung drucken. Navigieren Sie zu einer Rechnung via *Abrechnung > Kunden > Rechnungen* und klicken Sie auf *Drucken > Zeiterfassungsbericht*.
+Mit dieser Erweiterung können Sie einen Zeiterfassungsbericht direkt auf der Rechnung drucken. Navigieren Sie zu einer Rechnung via *Abrechnung > Kunden > Rechnungen* und klicken Sie auf *Drucken > Zeitnachweis*.
 
 ![](assets/Account%20Sale%20Timesheet%20Report%20Beispiel.png)
 

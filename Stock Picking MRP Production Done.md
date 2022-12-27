@@ -7,12 +7,16 @@ prev: ./lager
 # Stock Picking MRP Production Done
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Liefertung mit Fertigungsauftrag gleichzeitig abschliessen.
+Lieferung mit Fertigungsauftrag gleichzeitig abschliessen.
 
 Technischer Name: `stock_picking_mrp_production_done`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_picking_mrp_production_done>
 
 ## Verwendung
+
+### Reservierung vor Erledigung konfigurieren
+
+Wenn Sie den [Systemparameter](Entwicklung.md#Systemparameter%20anlegen) mit Schlüssel `stock_picking_mrp_production_done.assign_before` und Wert `True` anlegen, wird vor dem Bestätigen der Fertigungsaufträge eine Reservierung ausgeführt.
 
 ### Upstream Fertigungsauftrag gleichzeitig mit Lieferung erledigen
 

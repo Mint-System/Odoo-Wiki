@@ -28,6 +28,13 @@ Website: <https://www.odoo.com/de_DE/app/website>
 
 ## Berechtigung
 
+### Registration erlauben
+
+Navigieren Sie nach *Einstellungen > Bwebsite > Berechtigung* und wählen Sie eine Option bei *Kundenkonto* aus:
+
+* **Auf Einladung**: Portal-Benutzer müssen eigeladen werden, damit Sie Zugriff erhalten
+* **Kostenlose Anmeldung**: Benutzer können sich selber im Portal registrieren.
+
 ### Zugriff Menu beschränken
 
 Der Zugriff auf die verfügbaren Seite in der Menu-Struktur kann ganz einfach angepasst werden. Navigieren Sie nach *Website > Konfiguration > Menüs*. In der Spalte *Visible Groups* können die Benutzer-Gruppen hinterlegt werden für welche das Menu angezeigt werden soll.

@@ -29,6 +29,16 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 | [Purchase Tags](Purchase%20Tags.md)                                                   | Einkaufsbestellungen mit Stichwörter.                                                     |
 | [Purchase order lines with discounts](Purchase%20order%20lines%20with%20discounts.md) | Rabatte auf Einkaufspositionen festlegen.                                                 |
 
+## Produkte
+
+### Standard-Steuern für Einkauf auf Produkt festlegen
+
+Öffnen Sie ein Produkt *Einkauf > Produkte > Produkte* und zeigen Sie den Tab *Einkauf*. Legen Sie im Feld *Steuern (Einkauf)* die Standard-Steuern fest. 
+
+### Lieferant auf Produkt konfigurieren
+
+Öffnen Sie ein Produkt *Einkauf > Produkte > Produkte* und zeigen Sie den Tab *Einkauf*. Fügen Sie der Lieferanten-Liste einen neuen Eintag hinzu. Wählen Sie den Lieferant aus und legen Produktdetails wie *Preis* und *Tage bis Lieferung* fest.
+
 ## Aufträge
 
 ### Angebotsanfrage erstellen

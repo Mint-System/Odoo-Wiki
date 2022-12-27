@@ -1,16 +1,21 @@
 ---
 tags:
 - HowTo
-- OCA
-prev: ./finanzen
+prev: ./
 ---
-# Contracts Management Recurring
-![icon_oca_app](assets/icon_oca_app.png)
+# Contract
+![icon_oca_agreement](assets/icon_oca_agreement.png)
 
 Wiederholende Verträge verwalten und automatisch verrechnen.
 
 Technischer Name: `contract`\
-Repository: <https://github.com/OCA/contract/tree/14.0/contract>
+Repository: <https://github.com/OCA/contract/tree/15.0/contract>
+
+## Erweiterungen
+
+| Erweiterung                                                         | Beschreibung                                                  |
+| ------------------------------------------------------------------- | ------------------------------------------------------------- |
+| [Contract Format Date Marker](Contract%20Format%20Date%20Marker.md) | Datum aus Vertragszeile in Rechnung anzeigen und formatieren. |
 
 ## Verwendung
 

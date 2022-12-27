@@ -23,7 +23,7 @@ Als Einstieg können Sie diese Auswertungen erstellen:
 | Filterbezeichnung | Verkauf nach Produktgruppen pro Monat 🗓️                                                                                                      |
 | Modell            | Sale Order Line                                                                                                                               |
 | Aktion            | Auftragszeilen                                                                                                                                              |
-| Domain            | `[["untaxed_amount_invoiced",">",0]]`                                                                                                                  |
+| Domain            | `[["untaxed_amount_invoiced",">",0],["state", "=", "sale"]]`                                                                                                                  |
 | Kontext           | `{'pivot_measures': ['price_subtotal'], 'pivot_column_groupby': ['x_date_order:month'], 'pivot_row_groupby': ['x_categ_id'], 'group_by': []}` |
 
 ### Vorjahresvergleich Produktgruppen
@@ -33,5 +33,5 @@ Als Einstieg können Sie diese Auswertungen erstellen:
 | Filterbezeichnung | Vorjahresvergleich 22/21 Produktgruppen 📊                                                                                                      |
 | Modell            | Sale Order Line                                                                                                                               |
 | Aktion            | Auftragszeilen                                                                                                                                              |
-| Domain            | `[]`                                                                                                                  |
+| Domain            | `[["state", "=", "sale"]]`                                                                                                                  |
 | Kontext           | `{'graph_measure': '__count__', 'graph_mode': 'bar', 'graph_groupbys': ['x_categ_id'], 'group_by': ['x_categ_id'], 'comparison': {'comparisonId': 'previous_year', 'fieldName': 'x_date_order', 'fieldDescription': 'Auftragsdatum', 'range': '["&", ["x_date_order", ">=", "2021-12-31 23:00:00"], ["x_date_order", "<=", "2022-12-31 22:59:59"]]', 'rangeDescription': '2022', 'comparisonRange': '["&", ["x_date_order", ">=", "2020-12-31 23:00:00"], ["x_date_order", "<=", "2021-12-31 22:59:59"]]', 'comparisonRangeDescription': '2021'}}` |

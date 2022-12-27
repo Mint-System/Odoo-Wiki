@@ -86,6 +86,12 @@ Anleitung zur Odoo-App Certificate Planner.
 
 [![icon_odoo_certificate_planer](assets/icon_odoo_certificate_planer.png)](Certificate%20Planner.md)
 
+### [Contract](Contract.md)
+
+Wiederholende Verträge verwalten und automatisch verrechnen.
+
+[![icon_oca_agreement](assets/icon_oca_agreement.png)](Auslagen.md)
+
 ### [Dashboards](Dashboards.md)
 
 Dynamische Übersichten und Grafiken zu ihrem Unternehmen.

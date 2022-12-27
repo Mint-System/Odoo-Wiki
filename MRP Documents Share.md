@@ -5,7 +5,7 @@ tags:
 prev: ./fertigung
 ---
 # MRP Documents Share
-![](assets/icon_odoo_mrp_documents_share.png)
+![icon_oms_box](assets/icon_oms_box.png)
 
 Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument.
 

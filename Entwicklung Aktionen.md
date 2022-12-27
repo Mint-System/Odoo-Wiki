@@ -71,7 +71,6 @@ Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatische Aktio
 * Folgeaktion: `Den Datensatz aktualisieren`
 * Feld: `Order Deadline (purchase.order)`
 * Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
-* 
 
 ## Ansichten
 
@@ -105,8 +104,6 @@ Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach *Eisntel
 ![Einstellungen Fenster umbennen](assets/Einstellungen%20Fenster%20umbennen.gif)
 
 ## Geplante Aktionen
-
-
 
 ### Geplante Aktion "Ablaufdatum Datenbank erneuern" erstellen
 

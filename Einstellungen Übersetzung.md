@@ -28,6 +28,14 @@ Damit Begriffe überesetzt werden können, muss als erstes die Liste, der zu üb
 
 Dann kann man die Übersetzungen über die Einstellungen anzeigen.
 
+### Übersetzung anpassen
+
+Navigieren Sie nach *Einstellungen > Übersetzungen > Übersetzte Begriffe* und suchen Sie nach dem übersetzten Begriff. Ändern Sie die Übersetzung direkt im Feld *Übersetzungswert*.
+
+::: warning
+Wenn Sie ein Modul aktualisieren, können angepasste Übersetzungen verloren gehen. Notieren Sie sich die angepassten Übersetzungen.
+:::
+
 ### Übersetzungen erstellen
 
 Odoo wird in viele Sprachen übersetzt, daher kann es sein, dass die Lokalisierung in der eingestellte Sprache unvollständig ist. Findet man einen Begriff oder Satz, der nicht korrekt übersetzt ist, kann man diesen selber anpassen. Dazu ein Beispiel.
@@ -65,9 +73,9 @@ Im Entwicklermodus öffnen Sie den Import-Dialog via *Einstellungen > Übersetzu
 * Code: CH
 Laden Sie die Datei mit Übersetzungen hoch und klicken auf *Import*.
 
-### Bestimmte Begriffe umbennen
+### Begriffe in Bericht umbennen
 
-Ist man mit einer bestimmte Übersetzung nicht zufrieden, können Sie diese selber anpassen. Angenommen wir wollen auf der Rechnung *Zwischensumme* zu *Nettobetrag* umbennen, öffnen Sie als erstes *Einstellungen > Übersetzungen > Übersetzt Begriffe*.
+Wenn Sie mit einer bestimmte Übersetzung nicht zufrieden sind, können Sie diese selber anpassen. Angenommen Sie wollen auf der Rechnung *Zwischensumme* zu *Nettobetrag* umbennen, öffnen Sie als erstes *Einstellungen > Übersetzungen > Übersetzt Begriffe*.
 
 ![](assets/Einstellungen%20%C3%9Cbersetzungen%20Begriff%20Zwischensumme.png)
 

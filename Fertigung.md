@@ -24,6 +24,7 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | [Cancel Manufacturing Order](Cancel%20Manufacturing%20Order.md)                                 | Fertigungsauftrag rückgängig machen.                                             |
 | [MRP BoM Consumption](MRP%20BoM%20Consumption.md)                                               | Definieren Sie eine Stückliste, die bei der Lieferung verschrottet wird.         |
+| [MRP BoM List](MRP%20BoM%20List.md)                                                             | Stücklisten-Struktur als Liste anzeigen                                          |
 | [MRP BoM Position](MRP%20BoM%20Position.md)                                                     | Jede Komponente in der Stückliste erhält eine Positionsnummer.                   |
 | [MRP Documents Share](MRP%20Documents%20Share.md)                                               | Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument.     |
 | [MRP Production Assign Lot](MRP%20Production%20Assign%20Lot.md)                                 | Los aus eingehenden Lagerbuchungen an unreservierte Komponenten zuweisen.        |

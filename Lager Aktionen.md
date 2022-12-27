@@ -278,6 +278,66 @@ if messages:
   log(' '.join(messages))
 ```
 
+### Geplante Aktion "Reservierung für Lieferperiode aktualisieren" erstellen
+
+Die Aktion lädt alle Produklieferungen, welche noch keine Losnummer haben und vergleicht diese mit Produktzugängen. Wenn es einen Produkteingang gibt, der bis einer Woche vor der Lieferung eingeht, wird die Losnummer des Zugang auf die Lieferung übertragen.
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Reservierung für Lieferperiode aktualisieren`\
+Modell: `ir.actions.server`\
+Ausführen alle: `12` Stunden\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 09:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Settings
+scope_days=1
+picking_type_ids=[8]
+
+# Create scope dates for search
+date_now = datetime.datetime.now()
+# scheduled_from = date_now + datetime.timedelta(days=scope_days)
+date_planned_start = date_now + datetime.timedelta(days=scope_days)
+
+# Lookup unfinished manufacturing orders
+production_ids = env['mrp.production'].search([
+  ('state', 'in', ['confirmed','progress','to_close']),
+  ('reserve_visible', '=', True),
+  ('date_planned_start', '<=', date_planned_start),
+  ('picking_type_id', 'in', picking_type_ids)
+])
+
+# Lookup confirmed outgoing pickings
+# pickings_out = env['stock.picking'].search([
+#   ("picking_type_code", "=", "outgoing"),
+#   ("state", "in", ["confirmed", "assigned", "partially_available"]),
+#   ("scheduled_date", ">=", scheduled_from),
+# ], order="scheduled_date desc")
+
+# Get lines where not lot_ids are set
+# fix_moves = pickings_out.move_lines.filtered(lambda l: not l.lot_ids)
+fix_moves = production_ids.move_raw_ids.filtered(lambda l: not l.lot_ids and l.product_id.qty_available > 0)
+# qty_available = sum(fix_moves.mapped('product_id.qty_available'))
+
+# raise UserError([production_ids.mapped('date_planned_start'), fix_moves.mapped('reference')])
+
+# Trigger reservations
+messages = []
+for move in fix_moves:
+    try:
+        messages.append('Reserved materials for %s.' % (move.reference))
+        move._action_assign()
+    except:
+        log('While writing move %s an error occured.' % (move.reference), level='error')
+
+if messages:
+  log(' '.join(messages))
+```
+
 ### Geplante Aktion "Erledigte Menge aktualisieren" erstellen
 
 Diese Aktion prüft ausgehende Lieferungen und setzt die erledigte Menge gemäss Bedarf ohne Berücksichtigung von Materialreservationen.
@@ -295,7 +355,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 # Set products to ignore
-except_product_names = ["Gebinde", "Gebinde Migros"]
+except_product_names = ["Gebinde", "Gebinde Migros", "Gebinde Bianchi"]
 
 # Get pickings to be processed
 pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["confirmed", "assigned", "waiting", "partially_available"])])
@@ -314,6 +374,8 @@ if fix_moves:
 	log('Set qty done on moves: %s' % (', '.join(fix_moves.mapped('reference'))))
 for move in fix_moves:
     try:
+        # Revert resevations
+        move._do_unreserve()
         move.write({'quantity_done': move.product_uom_qty})
     except:
         log('While writing move %s an error occured.' % (move.reference), level='error')

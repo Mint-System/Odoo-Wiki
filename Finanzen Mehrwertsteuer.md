@@ -77,7 +77,24 @@ Für jedes Konto können Sie einen Standard-Steuersatz hinterlegen. Rufen Sie da
 
 Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und legen Sie im Feld *Umsatzsteuer* und *Vorsteuer* die Steuer für *Einkauf* resp. *Verkauf* fest.
 
-## Verwaltung
+## International
+
+### Steuersätze abhängig von Land überschreiben
+
+Navigieren Sie nach *Finanzen > Konfiguration > Steuerzuordnung*. Hier finden Sie standardmässig zwei Einträge:
+
+* **Schweiz national**: Diese Steuerzuordnung wird für Rechnung mit Partner aus der Schweiz angewendet.
+* **Import/Export**: Diese Steuerzuordnung wird für alle Rechnungen (sprich ohne Schweizer Partner) angewendet.
+
+::: tip
+Die Standardkonfiguration von Odoo sieht vor, dass alle Internationalen Import/Export eine Steuerzuordnung von 0.0% erhalten.
+:::
+
+### Steuerzuordnung auf Lieferant festlegen
+
+Zeigen Sie *Finanzen > Lieferanten > Lieferanten* an. Öffnen Sie einen bestimmten Lieferanten und zeigen Sie den Tab *Verkauf & Einkauf* an. Wählen Sie im Feld *Steuerzuordnung* einen Wert aus.
+
+## Abrechnung
 
 ### Abschlussbuchung Steuererklärung erstellen
 

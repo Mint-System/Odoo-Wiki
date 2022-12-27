@@ -38,6 +38,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Delivery Note](Stock%20Delivery%20Note.md)                                             | Notiz auf Lieferschein.                                                                                     |
 | [Stock Move Available Locations](Stock%20Move%20Available%20Locations.md)                     | Nur Lagerorte mit Besand in Auswahl anzeigen.                                                               |
 | [Stock Move Line Auto Fill](Stock%20Move%20Line%20Auto%20Fill.md)                             | Die erledigte Menge auf einem Transfer automatisch ausfüllen.                                               |
+| [Stock Move Line Lot Done](Stock%20Move%20Line%20Lot%20Done.md)                               | Erledigte Menge bei Zuweisung von Los festlegen.                                                            |
 | [Stock Move Line Packaging](Stock%20Move%20Line%20Packaging.md)                               | Verknüpfen der Verpackung von Verkaufsauftrag.                                                              |
 | [Stock Move Line Position](Stock%20Move%20Line%20Position.md)                                 | Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen.                               |
 | [Stock Move Sale Order Name](Stock%20Move%20Sale%20Order%20Name.md)                           | Beschreibung der Auftragsposition wird auf die Lieferung kopiert.                                           |
@@ -45,10 +46,12 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Move Upstream State](Stock%20Move%20Upstream%20State.md)                               | Zugriff auf Status von Upstream Lagerbuchung.                                                               |
 | [Stock Move Weight UoM](Stock%20Move%20Weight%20UoM.md)                                       | Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.                                                |
 | [Stock Picking Invoice Link](Stock%20Picking%20Invoice%20Link.md)                             | Verlinkt Rechnungen und Transfers.                                                                          |
-| [Stock Picking MRP Production Done](Stock%20Picking%20MRP%20Production%20Done.md)             | Liefertung mit Fertigungsauftrag gleichzeitig abschliessen.                                                 |
+| [Stock Picking MRP Production Assign](Stock%20Picking%20MRP%20Production%20Assign.md)         | Reservierung für Make-To-Order Aufträge gleichzeitig durchführen.                                           |
+| [Stock Picking MRP Production Done](Stock%20Picking%20MRP%20Production%20Done.md)             | Lieferung mit Fertigungsauftrag gleichzeitig abschliessen.                                                  |
 | [Stock Picking Notes](Stock%20Picking%20Notes)                                                | Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.        |
 | [Stock Picking Responsible](Stock%20Picking%20Responsible.md)                                 | Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.                                  |
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md)                           | Erlaubt die Archivierung von Los/Chargen.                                                                   |
+| [Stock Production Lot Date](Stock%20Production%20Lot%20Date.md)                               | Datum auf Losnummer festlegen und Ablaufdatum relativ setzen.                                               |
 | [Stock Vendor Evaluation](Stock%20Vendor%20Evaluation.md)                                     | Lieferungen bewerten und Lieferanten auswerten.                                                             |
 
 ## Vorgänge

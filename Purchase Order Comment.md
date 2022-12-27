@@ -14,6 +14,10 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 ## Verwendung
 
+### Erweiterung konfigurieren
+
+Mit dem Systemparameter `purchase.order.copy_requisition_comment` können Sie festlegen, ob der Kommentar vom Einkaufsvertrag kopiert werden soll. Setzen Sie den Wert auf `True` um die Referenz einzublenden.
+
 ### Kommentar hinzufügen
 
 Öffnen Sie einen Einkaufsauftrag via *Einkauf > Aufträge > Bestellungen*. Im Tab *Weitere Informationen* finden Sie das Feld *Kommentar*.
@@ -25,10 +29,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 Öffnen Sie einen Kaufvertrag via *Einkauf > Aufträge > Kaufverträge. Im Tab *Weitere Informationen* finden Sie das Feld *Kommentar*.
 
 ![](assets/Purchase%20Order%20Comment%20Kaufvertrag.png)
-
-::: tip
-Wenn Sie eine Bestellung aus einem Verkaufsauftrag erstellen, wird der Kommentar kopiert.
-:::
 
 
 
