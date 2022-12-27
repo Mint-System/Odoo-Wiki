@@ -53,7 +53,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 
 Die Standard-Steuer für ein bestimmtes Produkt wird in den Produkt-Stammdaten unter *Allgemeine Informationen > Steuern (Verkauf)* definiert.
 
-Unterschiedliche Steuern der einzelnen Line-Items werden im Formular und im Bericht gruppiert dargestellt.
+Unterschiedliche Steuern der einzelnen Line-Items werden im Formular und im Bericht gruppiert dargestellt. Die Zuordnung erfolgt über die *Steuergruppe* gemäss dem Feld *Steuergruppe* im Tab *Erweiterte Optionen*.
 
 ![](assets/Pasted%20image%2020221227094720.png)
 
