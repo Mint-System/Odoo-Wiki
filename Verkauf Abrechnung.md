@@ -35,13 +35,3 @@ Nun wird für jeden Positionen in den Verkaufsaufträgen eine Rechnungsposition 
 Wenn Sie Dienstleistungen im Angebot haben, die eine Projektaufgabe generieren und Sie diese einem bestehenden Projekt zuordnen möchten, zeigen Sie den Tab *Weitere Informationen* an. Wählen Sie im Feld *Projekt* ein bestehendes Projekt aus. Beim Bestätigen des Angebots wird die Aufgabe im gewählten Projekt erstellt und mit der Auftragszeile verbunden.
 
 ![](assets/Verkauf%20Projekt%20auswählen.png)
-
-## Produkte
-
-### Standard-Steuern für Verkauf auf Produkt festlegen
-
-Die Standard-Steuer für ein bestimmtes Produkt wird in den Produkt-Stammdaten unter Allgemeine Informationen > Steuern (Verkauf) definiert.
-
-Unterschiedliche Steuern der einzelnen Line-Items werden im Formular und im Bericht gruppiert dargestellt.
-
-![](assets/Pasted%20image%2020221227094720.png)
