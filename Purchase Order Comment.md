@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 ### Erweiterung konfigurieren
 
-Mit dem Systemparameter `purchase.order.copy_requisition_comment` können Sie festlegen, ob der Kommentar vom Einkaufsvertrag kopiert werden soll. Setzen Sie den Wert auf `True` um die Referenz einzublenden.
+Mit dem Systemparameter `purchase.order.copy_requisition_comment` können Sie festlegen, ob der Kommentar vom Einkaufsvertrag kopiert werden soll. Setzen Sie den Wert auf `True` damit der Wert kopiert wird.
 
 ### Kommentar hinzufügen
 
