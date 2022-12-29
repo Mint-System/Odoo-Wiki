@@ -35,6 +35,8 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 
 Öffnen Sie ein Produkt *Einkauf > Produkte > Produkte* und zeigen Sie den Tab *Einkauf*. Legen Sie im Feld *Steuern (Einkauf)* die Standard-Steuern fest. 
 
+Unterschiedliche Steuern der einzelnen Line-Items werden im Formular und im Bericht gruppiert dargestellt (ab Version 15). Die Zuordnung erfolgt über die *Steuergruppe* gemäss dem Feld *Steuergruppe* im Tab *Erweiterte Optionen*.
+
 ### Lieferant auf Produkt konfigurieren
 
 Öffnen Sie ein Produkt *Einkauf > Produkte > Produkte* und zeigen Sie den Tab *Einkauf*. Fügen Sie der Lieferanten-Liste einen neuen Eintag hinzu. Wählen Sie den Lieferant aus und legen Produktdetails wie *Preis* und *Tage bis Lieferung* fest.
