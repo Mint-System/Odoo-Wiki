@@ -14,6 +14,10 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 ## Verwendung
 
+### Erweiterung konfigurieren
+
+Mit dem Systemparameter `sale_blanket_order_comment.copy_comment` können Sie festlegen, ob der Kommentar vom Rahmenauftrag kopiert werden soll. Setzen Sie den Wert auf `True` damit der Wert kopiert wird.
+
 ### Kommentar hinzufügen
 
 Öffnen Sie einen Rahmenauftrag via *Verkäufe > Aufträge > Rahmenaufträge*. Im Tab *Weitere Informationen* finden Sie das Feld *Kommentar*.
