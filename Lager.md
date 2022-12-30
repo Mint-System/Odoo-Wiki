@@ -29,6 +29,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [AMQP Base](AMQP%20Base.md)                                                                   | AMQP Zielhosts verwalten.                                                                                   |
 | [Demand Planner](Demand%20Planner.md)                                                         | Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen. |
 | [Product Logistics UoM](Product%20Logistics%20UoM.md)                                         | Individuelle Mengenheit für Produkte festlegen.                                                             |
+| [Stock Account Location Valued](Stock%20Account%20Location%20Valued.md)                       | Lagerort zur Bewertung markieren.                                                                           |
 | [Stock Aggregated Move Line](Stock%20Aggregated%20Move%20Line.md)                             | Zugriff auf Lieferung in aggregierten Zeilen.                                                               |
 | [Stock Aggregated Move Lines Description](Stock%20Aggregated%20Move%20Lines%20Description.md) | Beschreibungsfeld auf aggregierten Zeilen anzeigen.                                                         |
 | [Stock Barcode Packaging](Stock%20Barcode%20Packaging.md)                                     | Verpackung auf Strichcode-Vorgang anzeigen.                                                                 |
