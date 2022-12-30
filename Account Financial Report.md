@@ -9,7 +9,7 @@ prev: ./finanzen
 Finanzberichte der Odoo Community Assocation.
 
 Technischer Name: `account_financial_report`\
-Repository: <hhttps://github.com/OCA/account-financial-reporting/tree/16.0/account_financial_report>
+Repository: <https://github.com/OCA/account-financial-reporting/tree/16.0/account_financial_report>
 
 ## Berichte
 
