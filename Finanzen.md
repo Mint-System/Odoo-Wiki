@@ -27,27 +27,28 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 
 ## Erweiterungen
 
-| Erweiterung                                                                                                     | Beschreibung                                                                |
-| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| [Acccount Move Accounting Description](Acccount%20Move%20Accounting%20Description.md)                           | Beschreibungsfeld für Rechnungszeile.                                       |
-| [Account Followup Hide Communication](Account%20Followup%20Hide%20Communication.md)                             | Spalte Kommunikation in Mahnbericht ausblenden.                             |
-| [Account Invoice Description](Account%20Invoice%20Description.md)                                               | Beschreibungsfeld auf Rechnung.                                             |
-| [Account Missing Menus](Account%20Missing%20Menus.md)                                                           | Zusätzliche Menu-Punkte von Finanzen anzeigen.                              |
-| [Account Move Line Accounting Description Stock](Account%20Move%20Line%20Accounting%20Description%20Stock)      | Beschreibung Lagerbuchung auf Rechnung übertragen.                          |
-| [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)                                   | Lieferaufträge mit Rechnungszeile verlinken.                                |
-| [Account Move Line Position](Account%20Move%20Line%20Position.md)                                               | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.            |
-| [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                                                       | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt. |
-| [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                           | Zeigt für eine Rechnung das definitive Abgleichsdatum an.                   |
-| [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)                                               | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren.           |
-| [Contract Sale Generation](Contract%20Sale%20Generation.md)                           | Aus wiederholenden Verträge Verkaufsangebote generieren.                    |
-| [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                           | PDF-Dokumenten von Rechnungen zusammenführen.                               |
-| [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                     | Allow discount deduction on vendor bills.                                   |
-| [Swiss QR-ESR Scan](Swiss%20QR-ESR%20Scan.md)                                                                   | Rechnung anhand QR-Daten erstellen.                                         |
-| [Switzerland Bank type](Switzerland%20Bank%20Type.md)                                                           | Lokalisierung für Schweizer Banken und Bankkontos.                          |
-| [Switzerland Disable Default Reports](Switzerland%20Disable%20Default%20Reports.md)                             | Generierung der QR- und ISR-Berichte deaktivieren.                          |
-| [L10n CH Invoice Reports](L10n%20CH%20Invoice%20Reports.md) | Rechnung mit ISR- und/oder QR-Zahlung drucken.                              |
-| [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                                               | Generierung der QR-Rechnung ohne ISR-Nummer.                                |
-| [Switzerland QR-Bill Scan](Switzerland%20QR-Bill%20Scan.md)                                                     | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
+| Erweiterung                                                                                                | Beschreibung                                                                |
+| ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [Acccount Move Accounting Description](Acccount%20Move%20Accounting%20Description.md)                      | Beschreibungsfeld für Rechnungszeile.                                       |
+| [Account Financial Report](Account%20Financial%20Report.md)                                                | Finanzberichte der Odoo Community Assocation.                               |
+| [Account Followup Hide Communication](Account%20Followup%20Hide%20Communication.md)                        | Spalte Kommunikation in Mahnbericht ausblenden.                             |
+| [Account Invoice Description](Account%20Invoice%20Description.md)                                          | Beschreibungsfeld auf Rechnung.                                             |
+| [Account Missing Menus](Account%20Missing%20Menus.md)                                                      | Zusätzliche Menu-Punkte von Finanzen anzeigen.                              |
+| [Account Move Line Accounting Description Stock](Account%20Move%20Line%20Accounting%20Description%20Stock) | Beschreibung Lagerbuchung auf Rechnung übertragen.                          |
+| [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)                              | Lieferaufträge mit Rechnungszeile verlinken.                                |
+| [Account Move Line Position](Account%20Move%20Line%20Position.md)                                          | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.            |
+| [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                                                  | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt. |
+| [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                      | Zeigt für eine Rechnung das definitive Abgleichsdatum an.                   |
+| [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)                                          | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren.           |
+| [Contract Sale Generation](Contract%20Sale%20Generation.md)                                                | Aus wiederholenden Verträge Verkaufsangebote generieren.                    |
+| [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                      | PDF-Dokumenten von Rechnungen zusammenführen.                               |
+| [L10n CH Invoice Reports](L10n%20CH%20Invoice%20Reports.md)                                                | Rechnung mit ISR- und/oder QR-Zahlung drucken.                              |
+| [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                | Allow discount deduction on vendor bills.                                   |
+| [Swiss QR-ESR Scan](Swiss%20QR-ESR%20Scan.md)                                                              | Rechnung anhand QR-Daten erstellen.                                         |
+| [Switzerland Bank type](Switzerland%20Bank%20Type.md)                                                      | Lokalisierung für Schweizer Banken und Bankkontos.                          |
+| [Switzerland Disable Default Reports](Switzerland%20Disable%20Default%20Reports.md)                        | Generierung der QR- und ISR-Berichte deaktivieren.                          |
+| [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                                          | Generierung der QR-Rechnung ohne ISR-Nummer.                                |
+| [Switzerland QR-Bill Scan](Switzerland%20QR-Bill%20Scan.md)                                                | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
 
 ## Bank-Jounal
 
