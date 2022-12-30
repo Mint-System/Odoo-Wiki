@@ -47,6 +47,7 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 | [Product State](Product%20State.md)                                                             | Lebenszyklus von Produkten festlegen.                                            |
 | [Product Type Description](Product%20Type%20Description.md)                                     | Zu jedem Produkt ein Beschreibungsfeld.                                          |
 | [Secondary Product Type Description](Secondary%20Product%20Type%20Description.md)               | Zu jedem Produkt ein zweites Beschreibungsfeld.                                  |
+| [Stock MRP Traceability List](Stock%20MRP%20Traceability%20List.md)                             | Daten aus Lieferverfolgungsbericht als Liste anzeigen.                           |
 
 ## Konfiguration
 
