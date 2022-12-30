@@ -8,7 +8,7 @@ prev: ./finanzen
 
 Finanzberichte erstellen.
 
-## Bilanzierung
+## Berichte
 
 ### Saldenliste nach Konto anzeigen
 
@@ -22,7 +22,7 @@ Ein Jahresauszug einer Buchhaltung kann mehrere hundert Seiten produzieren. Beim
 
 ### Kontenblatt erstellen
 
-Öffnen Sie  *Finanzen > Berichtswesen > Hauptbuch* und geben Sie in der Suchmaske die Kontonummer ein. Wählen Sie in der Filterleiste *Alle auffalten* und filtern Sie die Buchungszeilen nach Geschäftsjahr. Mit der Aktion *Vorschau Drucken* erhalten Sie eine PDF-Datei der Ansicht.
+Öffnen Sie  *Finanzen > Berichtswesen > Hauptbuch* und geben Sie in der Suchmaske die Kontonummer ein. Wählen Sie in der Filterleiste *Alle auffalten* und filtern Sie die Buchungszeilen nach Geschäftsjahr. Mit der Aktion *Vorschau Drucken* oder *Speichern* erhalten Sie eine PDF-Datei der Ansicht.
 
 ### Kumulierte Buchungszeilen anzeigen
 
