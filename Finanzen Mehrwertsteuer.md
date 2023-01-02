@@ -48,6 +48,8 @@ Im Tab *Erweiterte Optionen* haben Sie diese wichtigen Felder:
 
 Für jeden Steuersatz können Sie ein Abrechnungskonto festlegen. Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern* und zeigen Sie einen Steuersatz an. Im Tab *Definition* legen Sie das Abrechnungskonto für Rechnungen und Rückerstattungen fest.
 
+![](assets/Finanzen%20Mehrwertsteuer%20Abrechnungskonto.png)
+
 ::: tip
 Für Steuersätze von eingehenden Rechnungen verwenden Sie das Vorsteuerkonto 1170 und für ausgehende Rechnungen das Konto 2200.
 :::
