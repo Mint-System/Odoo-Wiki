@@ -17,18 +17,13 @@ tags:
 
 # Odoo Wiki
 
-Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus vier Perspektiven:
-
-1. **Referenzsystem**: Eine umfassende Dokumentation der Odoo-Prozesse
-2. **Best Practice**: Beschreibung von Anwendungsfällen im Detail
-3. **HowTos**: Detailliert beschriebene Arbeitsschritte
-4. **Anforderungen**: Referenzanforderung für den Abgleich mit einem Lastenheften
+Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) auf zwei Ebenen. Die **Best Practice** beschreiben wie Anwendungsfälle in Odoo allgemein umgesetzt werden. Die **HowTos** sind detailliert beschriebene Arbeitsschritte zur Konfiguraiton und Verwendung von Odoo.
 
 Die [Mint System GmbH](https://www.mint-system.ch/) unterhält das Odoo Wiki.
 
-## [Referenzsystem](Referenzsystem.md)
+%%## [Referenzsystem](Referenzsystem.md)
 
-[Hier](Referenzsystem.md) geht es zum Referenzsystem.
+[Hier](Referenzsystem.md) geht es zum Referenzsystem.%% 
 
 ## [Best Practice](Best%20Practice.md)
 
@@ -404,9 +399,9 @@ Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
 [![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)](Zeiterfassung.md)
 
-## [Anforderungen](Anforderungen.md)
+%%## [Anforderungen](Anforderungen.md)
 
-Die Evaluation eines ERP-Systems ist eine aufwändige Arbeit. Als Kunde ist man damit konfrontiert Anforderungen systematisch zu erfassen und den Lieferanten sinnvoll zu vermitteln. Als Lieferant erfordert die Analyse der Anforderungen viel Zeit. Die [Referenzanforderungen](Anforderungen.md) sollen den Abgleich mit einem Lastenheft vereinfachen.
+Die Evaluation eines ERP-Systems ist eine aufwändige Arbeit. Als Kunde ist man damit konfrontiert Anforderungen systematisch zu erfassen und den Lieferanten sinnvoll zu vermitteln. Als Lieferant erfordert die Analyse der Anforderungen viel Zeit. Die [Referenzanforderungen](Anforderungen.md) sollen den Abgleich mit einem Lastenheft vereinfachen.%%
 
 ## [Mitarbeit](Mitarbeit.md)
 
