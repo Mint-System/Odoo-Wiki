@@ -31,6 +31,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [Acccount Move Accounting Description](Acccount%20Move%20Accounting%20Description.md)                      | Beschreibungsfeld für Rechnungszeile.                                       |
 | [Account Financial Report](Account%20Financial%20Report.md)                                                | Finanzberichte der Odoo Community Assocation.                               |
+| [Account Followup Email From](Account%20Followup%20Email%20From.md)                                        | Mahnbericht von definierter E-Mail-Adresse verschicken.                     |
 | [Account Followup Hide Communication](Account%20Followup%20Hide%20Communication.md)                        | Spalte Kommunikation in Mahnbericht ausblenden.                             |
 | [Account Invoice Description](Account%20Invoice%20Description.md)                                          | Beschreibungsfeld auf Rechnung.                                             |
 | [Account Missing Menus](Account%20Missing%20Menus.md)                                                      | Zusätzliche Menu-Punkte von Finanzen anzeigen.                              |
