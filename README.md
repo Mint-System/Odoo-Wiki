@@ -21,9 +21,9 @@ Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) auf zwe
 
 Die [Mint System GmbH](https://www.mint-system.ch/) unterhält das Odoo Wiki.
 
-%%## [Referenzsystem](Referenzsystem.md)
+<!--## [Referenzsystem](Referenzsystem.md)
 
-[Hier](Referenzsystem.md) geht es zum Referenzsystem.%% 
+[Hier](Referenzsystem.md) geht es zum Referenzsystem.-->
 
 ## [Best Practice](Best%20Practice.md)
 
@@ -399,9 +399,9 @@ Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
 [![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)](Zeiterfassung.md)
 
-%%## [Anforderungen](Anforderungen.md)
+<!--## [Anforderungen](Anforderungen.md)
 
-Die Evaluation eines ERP-Systems ist eine aufwändige Arbeit. Als Kunde ist man damit konfrontiert Anforderungen systematisch zu erfassen und den Lieferanten sinnvoll zu vermitteln. Als Lieferant erfordert die Analyse der Anforderungen viel Zeit. Die [Referenzanforderungen](Anforderungen.md) sollen den Abgleich mit einem Lastenheft vereinfachen.%%
+Die Evaluation eines ERP-Systems ist eine aufwändige Arbeit. Als Kunde ist man damit konfrontiert Anforderungen systematisch zu erfassen und den Lieferanten sinnvoll zu vermitteln. Als Lieferant erfordert die Analyse der Anforderungen viel Zeit. Die [Referenzanforderungen](Anforderungen.md) sollen den Abgleich mit einem Lastenheft vereinfachen.-->
 
 ## [Mitarbeit](Mitarbeit.md)
 
