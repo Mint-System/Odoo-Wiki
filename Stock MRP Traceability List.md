@@ -15,7 +15,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/stoc
 
 ## Verwendung
 
-### Lieferverfolung als Liste anzeigen
+### Lieferverfolgung als Liste anzeigen
 
 Zeigen Sie einen erledigten Fertigungsauftrag via *Fertigung > Vorgänge > Fertigungsaufträge* an und klicken Sie auf den Smart-Link *Lieferverfolgungsliste*. Sie erhalten eine Listenansicht der Zeilen aus dem Lieferverfolgungsbericht.
 
