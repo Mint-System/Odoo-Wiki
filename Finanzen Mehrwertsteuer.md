@@ -44,6 +44,14 @@ Im Tab *Erweiterte Optionen* haben Sie diese wichtigen Felder:
 * **Bezeichnung auf Rechnungen**: Gilt für Ein- und Ausgangsrechnungen
 * **Steuergruppe**: Werden Steuersätze gruppiert, wird diese Bezeichnung übernommen
 
+### Abrechnungskonto festlegen
+
+Für jeden Steuersatz können Sie ein Abrechnungskonto festlegen. Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern* und zeigen Sie einen Steuersatz an. Im Tab *Definition* legen Sie das Abrechnungskonto für Rechnungen und Rückerstattungen fest.
+
+::: tip
+Für Steuersätze von eingehenden Rechnungen verwenden Sie das Vorsteuerkonto 1170 und für ausgehende Rechnungen das Konto 2200.
+:::
+
 ### Steuerperiode festlegen
 
 Öffnen Sie *Finanzen > Konfiguration > Einstellungen > Steuern*. Legen Sie im Bereich *regelmässige Steuernrückzahlungen* die Periode für die Steuerrückzahlungen fest.

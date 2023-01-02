@@ -34,11 +34,13 @@ Beispiel: Wie im Beispiel oben stellen Sie dem Kunden eine Rechnung über CHF 1�
 
 Im System sind die wichtigsten Steuersätze bereits erfasst. Sind Sie in der Schweiz MwSt. pflichtig, arbeiten Sie mit 7.7%, wenn nicht dann lassen Sie die Steuer leer.
 
-**Ausgangsrechnungen**  
+**Ausgangsrechnungen**
+
 nicht MwST pflichtig: leer  
 MwSt. pflichtig:  7.7% MwSt. inkl. VK  
 
-**Eingangsrechnungen**  
+**Eingangsrechnungen**
+
 Eingangsrechnungen von Lieferanten haben in der Regel MwSt. drauf. Auf diesen Rechnungen prüfen Sie jeweils ob der Betrag inkl. oder exkl. angegeben ist und tragen einfach genau diese Regelung ein.  
 nicht MwST pflichtig: leer  
 MwSt. pflichtig:  7.7% MwSt. exkl. EK / 7.7% MwSt. inkl. EK
@@ -69,6 +71,7 @@ Die einzelenen Mehrwertsteuersätze können mittels *Prüfung* einzeln kontrolli
 Alle anwendbaren MWST-Sätze werden in der Liste *Abrechnung > Konfiguration > Finanzen > Steuern* eingetragen. Unterschieden werden die Einträge für *Verkauf* und *Einkauf*.
 
 Beispiel:
+
 - *Zu zahlende MwSt. bei 7.7%* mit Tax Type *Verkauf*
 - *Zu zahlende MwSt. bei 7.7%* mit Tax Type *Einkauf*
 
@@ -77,6 +80,7 @@ Auf den Produkten ist im Tab *Allgemeine Informationen* im Feld *Steuern (Verkau
 In der Liste *Abrechnung > Konfiguration > Finanzen > Steuerzuordnung*  können Regeln hinterlegt werden.
 
 Beispiel:
+
 - Schweiz national
 - Import/Export
 
