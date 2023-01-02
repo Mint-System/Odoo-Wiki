@@ -41,7 +41,7 @@ Der Obsidian Vault und das Git Repository werden mit dem Obisidian Git Plugin sy
 
 ## Philosophie
 
-Das Odoo Wiki hat zum Ziel den Anwender eine einfache und kompakte Hilfestellung anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best Practice](Best%20Practice.md) abgebildet und Geschäftsprozesse werden im [Referenzsystem](Referenzsystem.md) beschrieben. 
+Das Odoo Wiki hat zum Ziel den Anwender eine einfache und kompakte Hilfestellung anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best Practice](Best%20Practice.md) abgebildet. Konkrete Arbeitsschritte zur Konfiguration und Verwendung von Odoo werden als [HowTos](README.md#HowTos) dokumentiert.
 
 ## Demo-Daten
 
