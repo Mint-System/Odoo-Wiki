@@ -44,6 +44,10 @@ Navigieren Sie nach *Verkauf > Produkte > Produktvarianten*. Hier finden Sie all
 
 ## Preislisten
 
+### Preisliste erstellen
+
+Navigieren Sie nach *Verkauf > Produkte > Preislisten* und erstellen Sie einen neuen Eintrag. Legen Sie im Tab *Konfiguration* die Verfügbarkeit gemäss Ländergruppe fest und bestimmen Sie mit der Option *Rabattpolitik*, ob Rabatt im Produkpreis inkludiert ist oder nicht.
+
 ### Erweiterte Preisregeln aktivieren
 
 Navigieren Sie nach *Verkauf > Konfiguration > Preiskalkulation* und aktivieren Sie die Option *Preislisten* mit der Unteroption *Erweiterte Preisregeln*.
@@ -52,13 +56,13 @@ Navigieren Sie nach *Verkauf > Konfiguration > Preiskalkulation* und aktivieren 
 
 Wenn Sie die [Erweiterte Preisregeln aktivieren](#Erweiterte%20Preisregeln%20aktivieren) können Sie eine Preisliste erstellen, die auf einer bestehenden Preisliste Rabatt gewährt.
 
-Navigieren Sie nach *Verkauf > Prdukte > Preislisten* und erstellen Sie einen neuen Eintrag mit dem Prozentsatz im Namen. Fügen Sie im Tab *Preisregeln* folgende Regeln hinzu:
+Navigieren Sie nach *Verkauf > Produkte > Preislisten* und erstellen Sie einen neuen Eintrag mit dem Prozentsatz im Namen. Fügen Sie im Tab *Preisregeln* folgende Regeln hinzu:
 
 * **Anzuwenden auf**: Alle Produkte
 * **Startdatum**: Gemäss Laufzeit
 * **Enddatum**: Gemäss Laufzeit
 * **Ermittle Preis**: Formel
-* **Basiert auf**: Amdere Preisliste
+* **Basiert auf**: Andere Preisliste
 * **Stardatum**: Preisliste auswählen
 * **Rabatt**: Rabatt in Prozent
 
@@ -72,7 +76,7 @@ Beim Auswahl der Preisliste im Angebot wird anschliessend der Preis mit Rabatt b
 
 Wenn Sie die [Erweiterte Preisregeln aktivieren](#Erweiterte%20Preisregeln%20aktivieren) können Sie eine Preisliste erstellen, die auf einer bestehenden Preisliste Rabatt gewährt.
 
-Wenn Sie auf eine bestehenden Preisliste in einem bestimmten Zeitraum Rabatt gewähren möchten, müssen Sie eine neue Preisliste mit zwei Preisregeln einrichten. Navigieren Sie nach *Verkauf > Prdukte > Preislisten* und erstellen Sie einen neuen Eintrag mit dem Prozentsatz im Namen. Erstellen Sie eine für den Rabatt:
+Wenn Sie auf eine bestehenden Preisliste in einem bestimmten Zeitraum Rabatt gewähren möchten, müssen Sie eine neue Preisliste mit zwei Preisregeln einrichten. Navigieren Sie nach *Verkauf > Produkte > Preislisten* und erstellen Sie einen neuen Eintrag mit dem Prozentsatz im Namen. Erstellen Sie eine für den Rabatt:
 
 * **Anzuwenden auf**: Alle Produkte
 * **Enddatum**: Ende der Kampange
@@ -101,3 +105,5 @@ Menü: `Preisregeln`\
 Obermenü: `Verkauf/Produkte`\
 Aktion: `ir.actions.act_window` `Preisregeln`\
 Nummernfolge: `5`
+
+

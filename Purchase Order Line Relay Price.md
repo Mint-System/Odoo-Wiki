@@ -10,7 +10,7 @@ prev: ./einkauf
 Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den Verkäufter.
 
 Technischer Name: `purchase_order_line_relay_price`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/purchase_order_line_relay_price>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_line_relay_price>
 
 ## Verwendung
 
