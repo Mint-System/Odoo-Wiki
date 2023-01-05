@@ -35,7 +35,7 @@ Damit Sie das Terminal Zeiterfassung verwenden können, müssen Sie es zuerst mi
 * Zeigen Sie den Kiosk-Modus an
 * Optional wechseln Sie mit <kbd>F11</kbd> in den Vollbildmodus
 
-### Browser Autostart einrichten
+### Chromium Browser automatisch starten
 
 Wenn Sie beim Starten des Terminal automatisch den Browser starten möchten, gehen Sie wie folgt vor. Offnen Sie das *Terminal* und geben Sie diesen Befehl ein:
 
@@ -55,8 +55,7 @@ Name=chromiumstart
 Exec=/usr/bin/chromium-browser --noerrdialogs --disable-session-crashed-bubble --disable-infobars --kiosk https://demo.odoo.com
 ```
 
-
-###
+### Autostart Programme anzeigen
 
 Wählen Sie *Main Menu > Preferences > Main Menu Editor*. Anschliessend klicken Sie auf *Preferences* und aktivieren die Option *Desktop Session Settings*.
 
