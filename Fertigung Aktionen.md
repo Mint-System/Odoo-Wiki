@@ -130,7 +130,7 @@ for production in production_ids:
     messages.append('Unreserve materials for %s.' % (production.name))
     production.move_line_raw_ids.unlink()
   except:
-    error_messages.append('While writing move %s an error occured.' % (production.name))
+    error_messages.append('While unlinking move lines for %s an error occured.' % (production.name))
 
 if messages and not error_messages:
   log(' '.join(messages))

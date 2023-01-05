@@ -528,6 +528,52 @@ if quant_ids:
 	log('Set these quants to zero: %s' % ', '.join(quant_ids.mapped(lambda q: '%s (%s)' % (q.location_id.name, q.lot_id.name))))
 ```
 
+### Geplante Aktion "Los in Produktlieferungen aktualisieren" erstellen
+
+Diese geplante Aktion aktualisiert regelmässig das Los in Produktlieferungen für ausgewählte Produkte. Dabei wird die erledigte Menge beibehalten.
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Los in Produktlieferungen aktualisieren`\
+Modell: `ir.actions.server`\
+Ausführen alle: `3` Stunden\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 09:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Settings
+product_ids = [70]
+
+# Lookup unfinished picking orders
+pickings = env['stock.picking'].search([
+	('picking_type_id', '=', 2),
+	('state', 'in', ['confirmed', 'assigned', 'partially_available'])
+])
+
+# Get move lines with lot
+update_move_lines = pickings.move_line_ids.filtered(lambda l: l.product_id in product_ids and l.lot_id and l.tracking)
+
+raise Warning(update_move_lines.mapped('reference'))
+
+# Unreserve material
+messages = []
+error_messages = []
+for line in unlink_move_lines:
+  try:
+    messages.append('Update move line %s.' % (line.reference))
+    #FIXME
+  except:
+    error_messages.append('While updating move line %s an error occured.' % (line.reference))
+
+if messages and not error_messages:
+  log(' '.join(messages))
+if error_messages:
+  log(' '.join(error_messages), level='error')
+```
+
 ## Automatische Aktionen
 
 ### Automatische Aktion "Lieferung erledigen wenn bereit" erstellen

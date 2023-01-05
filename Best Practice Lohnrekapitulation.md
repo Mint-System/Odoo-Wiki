@@ -6,7 +6,7 @@ prev: ./best-practice
 
 # Best Practice: Lohnrekapitulation
 
-Für die Lohndeklaration können Sie eine Auswertung auf den Lohnabrechnungszeile
+Für die Lohndeklaration können Sie eine Auswertung basierend auf den Lohnabrechnungszeilen erstellen.
 
 Standardmässig sind Lohnabrechnungszeilen nicht sichtbar, Sie müssen dazu das HowTo [Lohnabrechnungszeilen anzeigen](Personalabrechnung.md#Lohnabrechnungszeilen%20anzeigen) ausführen.
 
