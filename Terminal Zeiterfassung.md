@@ -20,7 +20,7 @@ Damit Sie das Terminal Zeiterfassung verwenden können, müssen Sie es zuerst mi
 
 * Tastatur und Maus an Terminal anschliessen
 * Terminal und Stromadapter anschliessen
-* Das Terminal startet automatisch und zeigt den Startbildschirm
+* Das Terminal startet nun automatisch und zeigt den Startbildschirm
 
 ![](assets/raspberry-pi-setup.png)
 
@@ -32,6 +32,37 @@ Damit Sie das Terminal Zeiterfassung verwenden können, müssen Sie es zuerst mi
 * Starten Sie den Browser
 * Geben Sie die Adresse zu ihrer Odoo-Installation ein
 * Loggen Sie sich mit einem Service-Benutzer ein
+* Zeigen Sie den Kiosk-Modus an
+* Optional wechseln Sie mit <kbd>F11</kbd> in den Vollbildmodus
+
+### Browser Autostart einrichten
+
+Wenn Sie beim Starten des Terminal automatisch den Browser starten möchten, gehen Sie wie folgt vor. Offnen Sie das *Terminal* und geben Sie diesen Befehl ein:
+
+```bash
+nano ~/.config/autostart/chromiumstart.desktop
+```
+
+Kopieren oder fügen Sie diesen Ihnalt in die Datei:
+
+```
+[Desktop Entry]
+Type=Application
+Hidden=false
+X-GNOME-Autostart-enabled=true
+Comment=Start des Cromium Browsers
+Name=chromiumstart
+Exec=/usr/bin/chromium-browser --noerrdialogs --disable-session-crashed-bubble --disable-infobars --kiosk https://demo.odoo.com
+```
+
+
+###
+
+Wählen Sie *Main Menu > Preferences > Main Menu Editor*. Anschliessend klicken Sie auf *Preferences* und aktivieren die Option *Desktop Session Settings*.
+
+![](assets/Terminal%20Zeiterfassung%20Desktop%20Session.png)
+
+Nun können Sie die Autostart Programme unter *Main Menu > Preferences > Desktop Session Settings* im Tab *Automatically Started Applications* anzeigen.
 
 ### RFID-Karte registrieren
 
