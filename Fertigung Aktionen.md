@@ -96,15 +96,17 @@ record.action_generate_serial()
 Beispiel für eine automatische Aktion:
 ![](assets/Fertigung%20Aktionen%20Lot-Nummer%20generieren.png)
 
-### Geplante Aktion "MAterial-Reservationen entfernen" erstellen
+## Geplante Aktionen
 
-Die Aktion lädt alle Produklieferungen, welche noch keine Losnummer haben und vergleicht diese mit Produktzugängen. Wenn es einen Produkteingang gibt, der bis einer Woche vor der Lieferung eingeht, wird die Losnummer des Zugang auf die Lieferung übertragen.
+### Geplante Aktion "Material-Reservationen entfernen" erstellen
+
+Diese geplante Aktion entfernt regelmässig Material-Reservationen auf Fertigungsaufträgen.
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `MAterial-Reservationen entfernen`\
+Name der Aktion: `Material-Reservationen entfernen`\
 Modell: `ir.actions.server`\
-Ausführen alle: `1` Stunden\
+Ausführen alle: `3` Stunden\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 09:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
@@ -112,37 +114,26 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-# Settings
-scope_days=1
-picking_type_ids=[8]
-
-# Create scope dates for search
-date_now = datetime.datetime.now()
-# scheduled_from = date_now + datetime.timedelta(days=scope_days)
-date_planned_start = date_now + datetime.timedelta(days=scope_days)
-
 # Lookup unfinished manufacturing orders
 production_ids = env['mrp.production'].search([
-  [('state', 'in', ('draft', 'confirmed', 'progress', 'to_close'))],
-  ('reserve_visible', '=', True),
+  ('state', 'in', ['draft', 'confirmed', 'progress', 'to_close']),
+  ('reservation_state', 'in', ['assigned']),
 ])
 
-# Get lines where not lot_ids are set
-# fix_moves = pickings_out.move_lines.filtered(lambda l: not l.lot_ids)
-fix_moves = production_ids.move_raw_ids.filtered(lambda l: not l.lot_ids and l.product_id.qty_available > 0)
-# qty_available = sum(fix_moves.mapped('product_id.qty_available'))
+# raise Warning(production_ids.mapped('name'))
 
-# raise UserError([production_ids.mapped('date_planned_start'), fix_moves.mapped('reference')])
-
-# Trigger reservations
+# Unreserve material
 messages = []
-for move in fix_moves:
-    try:
-        messages.append('Reserved materials for %s.' % (move.reference))
-        move._action_assign()
-    except:
-        log('While writing move %s an error occured.' % (move.reference), level='error')
+error_messages = []
+for production in production_ids:
+  try:
+    messages.append('Unreserve materials for %s.' % (production.name))
+    production.move_line_raw_ids.unlink()
+  except:
+    error_messages.append('While writing move %s an error occured.' % (production.name))
 
-if messages:
+if messages and not error_messages:
   log(' '.join(messages))
+if error_messages:
+  log(' '.join(error_messages), level='error')
 ```
