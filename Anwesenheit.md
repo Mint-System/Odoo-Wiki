@@ -50,6 +50,10 @@ Wenn Sie die Anmeldung der Anwesenheit mit einem PIN Code validieren möchten, k
 Der PIN Code wird bei der Anmeldung über den Kioskmodus abgefragt.
 :::
 
+### Anwesenheitskontrolle konfigurieren
+
+Navigieren Sie nach *Einstellungen > Personal > Personal*. Bei Feld *Anwesenheitskontrolle* können Sie die Optionen zur Erfassung der Anwesenheit ein- und ausschalten.
+
 ## Verwaltung
 
 ### Kioskmodus starten
