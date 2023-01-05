@@ -10,15 +10,12 @@ Odoo mit Plattformen von Dritten integrieren.
 
 ## Empfang
 
-### Ausgehender Mail-Server konfigurieren
+### Eingehender Mail-Server konfigurieren
+Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
-Damit Odoo Mail verschicken kann, muss ein ausgehender Mail-Server konfiguriert werden.
+Damit Odoo Mails empfanen und verarbeiten kann, muss ein eingehender Mail-Server konfiguriert werden.
 
-Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Ausgehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten.
-
-::: tip
-Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladung, versendet Odoo die E-Mail im Namen des Unternehmens und verwendet dazu die E-Mail-Adresse aus den Unternehmenseinstellungen.
-:::
+Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten.
 
 ### Eingehender Mail-Server Office 365 konfigurieren
 
@@ -42,13 +39,15 @@ Und anschliessen den E-Mail-Benutzer gemäss Hinweis authentisieren.
 
 ## Versand
 
-### Eingehender Mail-Server konfigurieren
-Aufgabenträger: [Administrator](Rollen.md#Administrator)
+### Ausgehender Mail-Server konfigurieren
 
-Damit Odoo Mails empfanen und verarbeiten kann, muss ein eingehender Mail-Server konfiguriert werden.
+Damit Odoo Mail verschicken kann, muss ein ausgehender Mail-Server konfiguriert werden.
 
-Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten.
+Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Ausgehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten.
 
+::: tip
+Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladung, versendet Odoo die E-Mail im Namen des Unternehmens und verwendet dazu die E-Mail-Adresse aus den Unternehmenseinstellungen.
+:::
 
 ### Ausgehender Mail-Server Office 365 konfigurieren
 
@@ -77,6 +76,14 @@ Die Relay-Funktion von Odoo funktioniert mit Office 365 nicht. Sie müssen eine 
 :::
 
 ## Konfiguration
+
+### Aktion für eingehende nicht zuordbare E-Mails konfigurieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server* und zeigen Sie einen aktiven Eintrag an. Im Feld *Einen neuen Datensatz erzeugen?* können Sie ein Datenmodell auswählen. Wenn Odoo eine E-Mail verarbeitet und dieses nicht einer bestehenden Diskussion erzeugen kann, erstellt es einen Datensatz des ausgewählten Datenmodells.
+
+::: tip
+Als ausgewähltes Datenmodell empfehlen wir *Diskussionskanal* oder *Notiz*. 
+:::
 
 ### Catchall-Alias anpassen
 

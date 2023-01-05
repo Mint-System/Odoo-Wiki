@@ -220,3 +220,24 @@ Die Buchung des Kontoauszug ist im Entwurfsstatus.
 ### Lösung
 
 Vor der Abstimmung muss der
+
+
+## Batch in Personalabrechnung kann nicht abgeschlossen werden
+
+### Problem
+
+Beim Bestätigen einer Personalabrechnung erscheint dieser Fehler:
+
+```
+Der Vorgang kann nicht abgeschlossen werden: ein anderes Modell erfordert, dass der Datensatz gelöscht wird. Wenn möglich, archivieren Sie es stattdessen.
+
+Model: Salary Rule (hr.salary.rule), Einschränkung: hr_salary_rule_struct_id_fkey
+```
+
+### Ursache
+
+Das [Gio Payroll Custom](Gio%20Payroll%20Custom.md) App ist nicht akutell und muss aktualisiert werden.
+
+### Lösung
+
+Löschen Sie die Lohnstruktur *Stundenlohn* in der Personalabrechnung und aktualisieren Sie die App.
