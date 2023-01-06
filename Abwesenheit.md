@@ -27,6 +27,18 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 | [HR Holidays Remaining Leaves](HR%20Holidays%20Remaining%20Leaves.md)                     | Verbleibende Anwesenheitsansprüche der Mitarbeitenden anzeigen.                                                    |
 | [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement. |
 
+## Dashboard
+
+###  Verfügbare Abwesenheitsansprüche anzeigen
+
+Öffnen Sie die App *Abwesenheit*. Auf dem Dashboard werden oberhalb des Kalender die verbleibenden Abwesenheitsansprüche angezeigt.
+
+![](assets/Abwesenheit%20Dashboard.png)
+
+::: warning
+Die verfügbaren Überstunden werden nur angezeigt, wenn der Wert positiv ist.
+:::
+
 ## Konfiguration
 
 ### Abwesenheitstypen erfassen
