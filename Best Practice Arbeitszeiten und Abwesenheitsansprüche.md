@@ -64,3 +64,7 @@ Das ist korrekt.
 ![](assets/Best%20Practice%20Abwesenheit%20Berechnung.png)
 
 Odoo rechnet die verbleibenden Tage falsch.
+
+## Korrektur
+
+Es wird empfohlen die Urlaubstage in Stunden anzuzeigen und eine Anpassung am System vorzunehmen, damit Odoo die Urlaubstage in Tagen korrekt rechnet.
