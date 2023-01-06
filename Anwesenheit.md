@@ -10,9 +10,10 @@ Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 
 ## Bereiche
 
-| Bereich                                                               | Beschreibung                        |
-| --------------------------------------------------------------------- | ----------------------------------- |
-| [Anwesenheit Überstunden](Anwesenheit%20Überstunden.md) | Überstundenmanagement ganz einfach. | 
+| Bereich                                                 | Beschreibung                             |
+| ------------------------------------------------------- | ---------------------------------------- |
+| [Anwesenheit Aktionen](Anwesenheit%20Aktionen.md)       | Aktionen für Anwesenheit App einrichten. |
+| [Anwesenheit Überstunden](Anwesenheit%20Überstunden.md) | Überstundenmanagement ganz einfach.      |
 
 ## Erweiterungen
 
@@ -130,24 +131,3 @@ Wenn Sie wissen möchten, welche Mitarbeitenden nicht korrekt ausgestempelt oder
 Natürlich können Sie die Auswertung auf ihrem Dashboard hinzufügen und sehen so, ob eine Fehlbuchung entstanden ist.
 
 ![](assets/Anwesenheitszeiten%20Dashboard.png)
-
-## Aktionen
-
-### Aktion "Überstunden aktualisieren" hinzufügen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Überstunden aktualisieren`\
-Modell: `hr.attendance`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
-
-```python
-for record in records:  
-  record._update_overtime()
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-Im Formular der Anwesenheitszeiten erscheint nun in der Auswahl *Aktion* das Menu *Überstunden aktualisieren*.

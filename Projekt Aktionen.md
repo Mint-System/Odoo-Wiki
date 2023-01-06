@@ -8,7 +8,7 @@ prev: ./projekt
 
 Aktionen für Projekt App einrichten.
 
-## Aktionen
+## Geplante Aktionen
 
 ### Geplante Aktion "Projektmenü aktualisieren" erstellen
 

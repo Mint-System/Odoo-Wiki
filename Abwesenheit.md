@@ -14,6 +14,7 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 
 | Bereich                                                         | Beschreibung                                      |
 | --------------------------------------------------------------- | ------------------------------------------------- |
+| [Abwesenheit Aktionen](Abwesenheit%20Aktionen.md)               | Aktionen für Abwesenheit App einrichten.          |
 | [Abwesenheit Datenmanagement](Abwesenheit%20Datenmanagement.md) | Daten zu Abwesenheit exportieren und importieren. |
 
 ## Erweiterungen
@@ -136,24 +137,3 @@ Wurde eine Abwesenheit einmal erfasst, kann Sie nicht mehr gelöscht werden (ass
 ### Verantwortliche festlegen
 
 Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen Sie den Tab *Arbeitsinformationen* und wählen Sie *Bearbeiten*. Tragen Sie den Vorgesetzen im Feld *Abwesenheitszeiten* ein. Standardmässig wird der *Manager* übernommen.
-
-## Aktionen
-
-### Aktion "Ablehnen" erstellen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Ablehnen`\
-Modell: `hr.leave`\
-Folgeaktion: `Python-Code ausführen`
-
-```python
-for record in records:  
-  record.action_refuse()
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-In der Liste der Abwesenheitszeiten erscheint nun in der Auswahl *Aktion* das Menu *Ablehnen*.
-
-![](assets/Aktionen%20Abwesenheitszeiten%20Ablehnen.png)
