@@ -51,6 +51,14 @@ Jede Abwesenheit und Abwesenheitsanspruch wird einem Abwesenheitstyp zugeordnet.
 
 Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Wählen Sie hier den Abwesenheitstyp aus und bearbeiten Sie diesen gemäss den Anforderungen.
 
+### Einheit für Abwesenheitstyp festlegen
+
+Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Wählen Sie hier den Abwesenheitstyp aus. Im Feld *Einheit der Abwesenheit* können Sie wählen, ob der Typ in Stunden, Halbtage oder Tagen dargestellt wird.
+
+::: tip
+Odoo rechnet intern immer in Stunden. Diese Option legt die Darstellung der verbleibenden Ansprüche fest.
+:::
+
 ### Verworfene Abwesenheiten auf Dashboard ausblenden
 
 Auf der Dashboard-Ansicht von *Abwesenheiten* werden alle Abwesenheiten unabhängig ihres Status angezeigt. Um Abwesenheiten im Zustand *Verworfen* auszublenden, wählen Sie *Entwicklertools > Aktion bearbeiten*. Überschreiben Sie das Feld *Wertebereich* mit dem Wert `[('user_id', '=', uid),('state', 'not in', ['refuse'])]`. Laden Sie den Browser-Tab neu.
