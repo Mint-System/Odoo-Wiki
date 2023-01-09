@@ -111,14 +111,13 @@ Diese Serveraktion produziert ein Bericht in folgenden Format:
 ```markdown
 # Missing attendances
 
-Range is from 2022-12-31 until 2023-01-05.
+Range is from 08.11.2022 until 08.12.2022.
 
 Abigail Peterson:
-* 2023-01-04 (4.0h)
+* 07.12.2022 (4.0h)
+* 06.12.2022 (8.0h)
+* 05.12.2022 (8.0h)
 
-Anita Oliver:
-* 2023-01-05 (8.0h)
-* 2023-01-04 (8.0h)
 ...
 ```
 
