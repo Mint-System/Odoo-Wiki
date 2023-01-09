@@ -9,7 +9,7 @@ prev: ./anwesenheit
 
 Überstundenmanagement ganz einfach.
 
-Gilt ab #Odoo15
+Gilt ab #Odoo15.
 
 ## Konfiguraiton
 
