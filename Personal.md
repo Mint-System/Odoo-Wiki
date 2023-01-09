@@ -72,9 +72,15 @@ Erstellen Sie eine private Adresse folgendermassen: *Personal > Mitarbeiter ausw
 
 ### Arbeitszeit erstellen
 
-Navigieren Sie nach *Einstellungen > Technisch > Arbeitszeit.* und erstellen Sie einen neuen Eintrag mit Namen gemäss dem bestehenden Schema. Geben Sie entweder die *Durchschnittliche Stundenzahl pro Tag* manuell ein oder erstellen Sie neue Einträge in der Liste *Arbeitsstunden*.
+Navigieren Sie nach *Einstellungen > Technisch > Arbeitszeit* und erstellen Sie einen neuen Eintrag mit Namen gemäss dem bestehenden Schema. Geben Sie entweder die *Durchschnittliche Stundenzahl pro Tag* manuell ein oder erstellen Sie neue Einträge in der Liste *Arbeitsstunden*.
 
 ![](assets/Personal%20Arbeitszeit.png)
+
+### Flexible Arbeitszeit erfassen
+
+Navigieren Sie nach *Einstellungen > Technisch > Arbeitszeit* und erstellen Sie einen neuen Eintrag mit Namen *Standard 0 hours/week*. Entfernen Sie alle Einträge in *Arbeitsstunden* und tragen Sie als *Durchschnittliche Stundenzahl pro Tag* den Wert `0` ein. 
+
+![](assets/Personal%20Flexible%20Arbeitszeit.png)
 
 ### Arbeitszeiten festlegen
 
