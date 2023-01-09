@@ -21,7 +21,9 @@ Wählen Sie *Aktion > Archiv*.
 
 ![](assets/Stock%20Production%20Lot%20Active%20Aktion.png)
 
-### Aktion "Los automatisch archivieren" erstellen
+## Geplante Aktionen
+
+### Los automatisch archivieren
 
 Mit dieser Aktionen werden Los/Chargen archiviert, wenn Sie eine Menge von 0 haben und werden dearchiviert wenn die Menge grösser 0 ist. Diese Aktion bötigt die Erweiterung [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md).
 

@@ -21,7 +21,7 @@ Once the app is installed Odoo will automtically create EAN13 standard barcodes.
 
 ![Odoo App Product Barcode Generator](assets/Odoo%20App%20Product%20Barcode%20Generator.gif)
 
-### Server-Aktion "Barcode generieren" erstellen
+### Barcode generieren
 
 Mit dieser Server-Aktion können Sie für alle Produkte einen EAN13-Barcode generieren.
 

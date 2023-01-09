@@ -8,9 +8,9 @@ prev: ./website
 
 Automatisierung der Website-Vorgänge.
 
-## Aktionen
+## Automatische Aktionen
 
-### Automatische Aktion "Website Zahlungsreferenz entfernen" erstellen
+### Website Zahlungsreferenz entfernen
 
 Wenn Sie verhindern möchten, dass die Zahlungsreferenz auf Aufträgen erstellt und auf die Rechnung übernommen wird, können Sie diese automatische Aktion erstellen.
 

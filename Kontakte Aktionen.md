@@ -10,7 +10,7 @@ Arbeitsflüsse mit Kontakte automatisieren.
 
 ## Geplante Aktionen
 
-### Geplante Aktion "Kontakte mit geplanter Aktivität archivieren" erstellen
+### Kontakte mit geplanter Aktivität archivieren
 
 Erfassen Sie einen [neuen Aktivitätstyp](Diskussion%20Aktivitäten.md#Neuer%20Aktivitätstyp%20erfassen). Mit dieser geplanten Aktion können Sie Kontakte, welche diese Aktivität haben archivieren lassen.
 

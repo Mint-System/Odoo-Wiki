@@ -11,7 +11,7 @@ Lohnabrechnung automatisieren.
 
 ## Aktionen
 
-### Aktion "Lohnabrechnung zurücksetzen" hinzufügen
+### Lohnabrechnung zurücksetzen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -30,7 +30,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 Im Formular der Lohnbuchung erscheint nun in der Auswahl *Aktion* das Menu *Lohnabrechnung zurücksetzen*.
 
-### Aktion "Batch zurücksetzen" hinzufügen
+### Batch zurücksetzen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -51,7 +51,7 @@ Im Formular der Batches erscheint nun in der Auswahl *Aktion* das Menu *Batch zu
 
 ## Automatische Aktionen
 
-### Automatische Aktion "Lohnstuktur zuweisen" erstellen
+### Lohnstuktur zuweisen
 
 Wenn Sie die Zuweisung der Lohnstruktur beim Erstellen der Lohnabrechnungen automatisieren möchten, richten Sie diese Aktione in.
 

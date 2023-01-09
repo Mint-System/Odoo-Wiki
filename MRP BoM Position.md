@@ -26,7 +26,9 @@ Unter <https://odoo.build/snippets.html> finden Sie Snippets mit der Bezeichnung
 
 ![](assets/MRP%20BoM%20Position%20Report.png)
 
-### Aktion "Positionsnummer festlegen" erstellen
+## Aktionen
+
+### Positionsnummer festlegen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 

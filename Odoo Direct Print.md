@@ -169,7 +169,7 @@ Odoo Direct Print gibt eine Warnung aus, wenn das Papieformat nicht mit dem verk
 
 ## Geplante Aktionen
 
-### Geplante Aktion "Rüstschein drucken" erstellen
+### Rüstschein drucken
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -219,7 +219,7 @@ printer_id.printnode_print(
 picking_ids.write({'printed': True})
 ```
 
-### Geplante Aktion "Print Scenario Datum aktualisieren" erstellen
+### Print Scenario Datum aktualisieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 

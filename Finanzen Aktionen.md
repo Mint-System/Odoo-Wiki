@@ -11,7 +11,7 @@ Neue Aktionen für Buchungen und Abstimmungen.
 
 ## Aktionen
 
-### Aktion "Als gesendet markieren" erstellen
+### Als gesendet markieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -29,7 +29,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Als gesendet markieren*.
 
 
-### Aktion "Als ungebucht markieren" erstellen
+### Als ungebucht markieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -48,7 +48,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Als ungebucht markieren*.
 
-### Aktion "Bankauszug zurücksetzen" erstellen
+### Bankauszug zurücksetzen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -67,7 +67,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Belege erscheint nun in der Auswahl *Aktion* das Menu *Bankauszug zurücksetzen*.
 
-### Aktion "Bankauszug bestätigen" erstellen
+### Bankauszug bestätigen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -88,7 +88,7 @@ In der Liste der Belege erscheint nun in der Auswahl *Aktion* das Menu *Bankausz
 
 ![Finanzen Aktionen Bankauszug bestätigen](assets/Finanzen%20Aktionen%20Bankauszug%20bestätigen.gif)
 
-### Aktion "Buchungszeilen aktualisieren" erstellen
+### Buchungszeilen aktualisieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -106,7 +106,7 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *
 
 ![Finanzen Buchungszeilen aktualisieren](assets/Finanzen%20Buchungszeilen%20aktualisieren.gif)
 
-### Aktion "Reset to Draft" erstellen
+### Reset to Draft
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -125,7 +125,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Reset to Draft*.
 
-### Aktion "Abstimmung zurücksetzen" erstellen
+### Abstimmung zurücksetzen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -144,7 +144,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Vorgänge erscheint nun in der Auswahl *Aktion* das Menu *Abstimmung zurücksetzen*.
 
-### Aktion "Reset to Posted" erstellen
+### Reset to Posted
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -163,7 +163,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Reset to Posted*.
 
-### Aktion  "Zahlung gesendet zurücksetzen" erstellen
+### Zahlung gesendet zurücksetzen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -184,7 +184,7 @@ In der Liste der Zahlung erscheint nun in der Auswahl *Aktion* das Menu *Zahlung
 
 ## Geplante Aktionen
 
-### Geplante Aktion "Rechnung mit Abrechnungsinterval generieren" erstellen
+### Rechnung mit Abrechnungsinterval generieren
 
 Das ist eine einfach Lösung um wiederholgende Rechnung zu generieren. Mit dem Zusatzfeld `x_recurring_inverval` wird geprüft ob die Rechnung wieder fällig ist.
 

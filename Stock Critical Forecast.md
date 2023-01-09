@@ -22,11 +22,13 @@ Mit dieser Erweiterung haben Sie Zugriff auf einen neuen Bericht, der das kritis
 
 ![Stock Critical Forecast](assets/Stock%20Critical%20Forecast.gif)
 
-### Kritische Vorhersage berechnen
+### Kritische Vorhersage manuell berechnen
 
 Klicken Sie auf *Lager > Vorgänge > Kritische Vorhersage berechen* und bestätigen Sie den Vorgang mit *Berechnen*.
 
-### Geplante Aktion "Kritische Vorhersage berechnen" anpassen
+## Geplante Aktionen
+
+### Kritische Vorhersage automatisch berechnen
 
 Diese Erweiterung stellt eine geplante Aktion *Kritische Vorhersage berechnen* bereit, die täglich ausgeführt wird. Diese Aktion können Sie beliebig anpassen, beispielsweise mit Protokollierung:
 

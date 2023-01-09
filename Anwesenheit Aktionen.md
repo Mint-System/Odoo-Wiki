@@ -10,7 +10,7 @@ Aktionen für Anwesenheit App einrichten.
 
 ## Aktionen
 
-### Aktion "Fehlende Anwesenheitseinträge anzeigen" erstellen
+### Fehlende Anwesenheitseinträge anzeigen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -123,7 +123,7 @@ Abigail Peterson:
 
 Wenn Sie den Bericht für bestimmte Mitarbeitende deaktivieren möchten, müssen Sie eine [Flexible Arbeitszeit erfassen](Personal.md#Flexible%20Arbeitszeit%20erfassen) und den entsprechenden Mitarbeitenden hinterlegen.
 
-### Aktion "Überstunden aktualisieren" hinzufügen
+### Überstunden aktualisieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 

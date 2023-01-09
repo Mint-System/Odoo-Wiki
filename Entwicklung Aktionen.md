@@ -59,7 +59,7 @@ if record.stage_id.sequence in [0,1,2]:
 
 ![Aktionen Stufe nicht erlaubt](assets/Aktionen%20Stufe%20nicht%20erlaubt.gif)
 
-### Automatische Aktion "Set Order Deadline" erstellen
+### Set Order Deadline
 
 Mit Aktionen können Felder mit einem bestimmten Default-Wert beschrieben werden. Im folgenden Beispiel wird das Feld *Order Deadline* auf Angebotsanfragen auf das Datum *heute + 5 Tage* gesetzt.
 
@@ -105,7 +105,7 @@ Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach *Eisntel
 
 ## Geplante Aktionen
 
-### Geplante Aktion "Ablaufdatum Datenbank erneuern" erstellen
+### Ablaufdatum Datenbank erneuern
 
 Diese geplante Aktion aktualisiert das Ablaufdatum der Datenbank in regelmässigen Abständen.
 
@@ -131,9 +131,9 @@ expiration_date = expiration_date.strftime('%Y-%m-%d %H:%M:%S')
 env['ir.config_parameter'].sudo().set_param('database.expiration_date', expiration_date)
 ```
 
-## Server Aktionen
+## Aktionen
 
-### Aktion "Feld neu berechnen" erstellen
+### Feld neu berechnen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -154,7 +154,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Felder erscheint nun in der Auswahl *Aktion* das Menu *Feld neu berechnen*.
 
-### Aktion "Ansicht Zugriffsrechte aktualisieren" erstellen
+### Ansicht Zugriffsrechte aktualisieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -170,7 +170,7 @@ env["res.groups"]._update_user_groups_view()
 
 Speichern Sie die Aktion und führen Sie diese direkt mit *Starten* aus.
 
-### Aktion "Compose E-Mail" erstellen
+### Compose E-Mail
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 

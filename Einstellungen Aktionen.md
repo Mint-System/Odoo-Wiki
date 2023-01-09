@@ -10,7 +10,7 @@ Odoo-Einstellungen automatisieren.
 
 ## Geplante Aktionen
 
-### Geplante Aktion "Abteilungsgruppen synchronisieren" erstellen
+### Abteilungsgruppen synchronisieren
 
 Diese Aktion erstellt eine Berechtigungsgruppe für jede Abteilungsgruppe und synchronisiert die Benutzer der Abteilungsmitglieder.
 

@@ -134,7 +134,7 @@ Nach der Validierung erhalten Sie einen ausführlichen Bericht.
 
 ### Zahlung gesendet zurücksetzen
 
-Wenn  Sie die [Aktion "Zahlung gesendet zurücksetzen" erstellen](Finanzen%20Aktionen.md#Aktion%20"Zahlung%20gesendet%20zurücksetzen"%20erstellen), können Sie Stapelzahlung mit gesendeten Zahlungen neu generieren.
+Wenn  Sie die Aktion [Zahlung gesendet zurücksetzen](Finanzen%20Aktionen.md#Zahlung%20gesendet%20zurücksetzen) erstellen, können Sie Stapelzahlung mit gesendeten Zahlungen neu generieren.
 
 ![Finanzen Zahlungen gesendet zurücksetzen](assets/Finanzen%20Zahlungen%20gesendet%20zurücksetzen.gif)
 

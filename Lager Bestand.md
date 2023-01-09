@@ -12,7 +12,7 @@ Den Lagerbestand optimal verwalten.
 
 ### Reservierter Bestand zurücksetzen
 
-Für jeden Lagerort wird ein Bestand geführt *Lager > Konfiguration > Lagerorte > Lagerort auswählen > Smart-Link Bestand*. Wenn Sie die [Aktion Reservierter Bestand zurücksetzen erstellen](Lager%20Aktionen.md#Aktion%20Reservierter%20Bestand%20zurücksetzen%20erstellen), können Sie die Bestände markieren und die *Aktion > Reservierter Bestand zurücksetzen* ausführen.
+Für jeden Lagerort wird ein Bestand geführt *Lager > Konfiguration > Lagerorte > Lagerort auswählen > Smart-Link Bestand*. Wenn Sie die Aktion [Reservierter Bestand zurücksetzen](Lager%20Aktionen.md#Reservierter%20Bestand%20zurücksetzen) erstellen, können Sie die Bestände markieren und die *Aktion > Reservierter Bestand zurücksetzen* ausführen.
 
 ::: warning
 Damit Sie diese Aktion ausführen können, müssen Sie [Superuser werden](Einstellungen.md#Superuser%20werden)
@@ -20,7 +20,7 @@ Damit Sie diese Aktion ausführen können, müssen Sie [Superuser werden](Einste
 
 ![](assets/Lager%20Bestand%20Reservierter%20Bestand%20zurücksetzen.png)
 
-Wenn Sie offene Lieferungen mit reservierten Mengen haben, können Sie die [Aktion Reservierungen zurücksetzen erstellen](Lager%20Aktionen.md#Aktion%20Reservierungen%20zurücksetzen%20erstellen) und ausführen.
+Wenn Sie offene Lieferungen mit reservierten Mengen haben, können Sie die Aktion [Reservierungen zurücksetzen](Lager%20Aktionen.md#Reservierungen%20zurücksetzen) erstellen und ausführen.
 
 ### Meldebestand erfassen
 

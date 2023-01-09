@@ -10,7 +10,7 @@ Aktionen für Apps einrichten.
 
 ## Aktionen
 
-### Aktion "Modul aktualisieren" erstellen
+### Modul aktualisieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 

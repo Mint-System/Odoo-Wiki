@@ -11,7 +11,7 @@ Arbeitsflüsse im Lager automatisieren.
 
 ## Aktionen
 
-### Aktion "Bestand zurücksetzen" erstellen
+### Bestand zurücksetzen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -32,7 +32,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Bestand zurücksetzen*.
 
-### Aktion  "Lagerbuchung zurücksetzen" erstellen
+### Lagerbuchung zurücksetzen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -53,7 +53,7 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *
 
 ![](assets/Lager%20Aktion%20%20Lagerbuchung%20Zurücksetzen%20erstellen.png)
 
-### Aktion  "Transfer abbrechen" erstellen
+### Transfer abbrechen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -72,7 +72,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Transfers erscheint nun in der Auswahl *Aktion* das Menu *Transfer zurücksetzen*.
 
-### Aktion  "Lagerbuchung abbrechen" erstellen
+### Lagerbuchung abbrechen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -91,7 +91,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
 
-### Aktion  "Lagerbuchung erledigen" erstellen
+### Lagerbuchung erledigen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -110,7 +110,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung erledigen*.
 
-### Aktion  "Als verfügbar markieren" erstellen
+### Als verfügbar markieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -130,7 +130,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 Auf der Lagerbuchung erscheint nun in der Auswahl *Aktion* das Menu *Als verfügbar markieren*.
 
-### Aktion "Reservierungen zurücksetzen" erstellen
+### Reservierungen zurücksetzen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -151,7 +151,7 @@ log('Unreserved these pickings: %s' % (pickings.mapped('name')))
 
 Speichern Sie die Aktion und führen Sie diese mit *Starten* aus.
 
-### Aktion "Reservierter Bestand zurücksetzen" erstellen
+### Reservierter Bestand zurücksetzen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -172,7 +172,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Reservierter Bestand*.
 
-### Aktion "Reservierungen aufheben" erstellen
+### Reservierungen aufheben
 
 Mit dieser Aktion können Sie alle Reservierungen für ein Produktaufheben.
 
@@ -212,7 +212,7 @@ Beide Aktionen mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und spe
 
 In der Ansicht der Produkte haben Sie nun die Auswahl *Aktion > Reservierungen aufheben*.
 
-### Aktion "Ablaufende Los-Nummern aktualisieren" erstellen
+### Ablaufende Los-Nummern aktualisieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -252,7 +252,7 @@ In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Reser
 
 ## Geplante Aktionen
 
-### Geplante Aktion "Los aus Anlieferung zuweisen" erstellen
+### Los aus Anlieferung zuweisen
 
 Die Aktion lädt alle Produklieferungen, welche noch keine Losnummer haben und vergleicht diese mit Produktzugängen. Wenn es einen Produkteingang gibt, der bis einer Woche vor der Lieferung eingeht, wird die Losnummer des Zugang auf die Lieferung übertragen.
 
@@ -316,7 +316,7 @@ if messages:
   log(' '.join(messages))
 ```
 
-### Geplante Aktion "Reservierung für Lieferperiode aktualisieren" erstellen
+### Reservierung für Lieferperiode aktualisieren
 
 Die Aktion lädt alle Produklieferungen, welche noch keine Losnummer haben und vergleicht diese mit Produktzugängen. Wenn es einen Produkteingang gibt, der bis einer Woche vor der Lieferung eingeht, wird die Losnummer des Zugang auf die Lieferung übertragen.
 
@@ -376,7 +376,7 @@ if messages:
   log(' '.join(messages))
 ```
 
-### Geplante Aktion "Erledigte Menge aktualisieren" erstellen
+### Erledigte Menge aktualisieren
 
 Diese Aktion prüft ausgehende Lieferungen und setzt die erledigte Menge gemäss Bedarf ohne Berücksichtigung von Materialreservationen.
 
@@ -430,7 +430,7 @@ for line in fix_move_lines:
     })
 ```
 
-### Geplante Aktion "Wartende Aufträge bestätigen" erstellen
+### Wartende Aufträge bestätigen
 
 Diese Aktion versetzt Lieferungen im Status *Waiting* in den Status *Assigned.*
 
@@ -459,7 +459,7 @@ if pickings:
 pickings.write({'state': 'assigned'})
 ```
 
-### Geplante Aktion "Versandprodukte aktualisieren" erstellen
+### Versandprodukte aktualisieren
 
 Diese Aktion prüft ausgehende Lieferungen und setzt die erledigte Menge gemäss Bedarf ohne Berücksichtigung von Materialreservationen.
 
@@ -495,7 +495,7 @@ if transport_moves:
   log('Fix qty done for transport moves: %s' % (','.join(transport_moves)))
 ```
 
-### Geplante Aktion "Los aus Forecast zuweisen" erstellen
+### Los aus Forecast zuweisen
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -537,7 +537,7 @@ for move_line in fix_move_lines:
       move_line.write({'lot_id':  move_in.move_line_ids[0].lot_id.id})
 ```
 
-### Geplante Aktion "Negativer Bestand bereinigen" erstellen
+### Negativer Bestand bereinigen
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -566,7 +566,7 @@ if quant_ids:
 	log('Set these quants to zero: %s' % ', '.join(quant_ids.mapped(lambda q: '%s (%s)' % (q.location_id.name, q.lot_id.name))))
 ```
 
-### Geplante Aktion "Los in Produktlieferungen aktualisieren" erstellen
+### Los in Produktlieferungen aktualisieren
 
 Diese geplante Aktion aktualisiert regelmässig das Los in Produktlieferungen für ausgewählte Produkte. Dabei wird die erledigte Menge beibehalten.
 
@@ -628,7 +628,7 @@ if error_messages:
 
 ## Automatische Aktionen
 
-### Automatische Aktion "Lieferung erledigen wenn bereit" erstellen
+### Lieferung erledigen wenn bereit
 
 Mit dieser automatischen Aktion wird eine Lieferung im Status *Bereit* die erledigte Menge gleich der Bedarfsmenge gesetzt und erledigt.
 
@@ -639,7 +639,7 @@ Modell: `stock.picking`\
 Triggerbedingung: Beim Aktualisieren\
 Anzuwenden auf:
 
-```txt
+```python
 ["&",["picking_type_code","=","outgoing"],["state","=","assigned"]]
 ```
 

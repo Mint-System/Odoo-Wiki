@@ -10,7 +10,7 @@ Aktionen für Abwesenheit App einrichten.
 
 ## Aktionen
 
-### Aktion "Ablehnen" erstellen
+### Ablehnen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 

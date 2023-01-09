@@ -61,7 +61,7 @@ Naivigieren Sie nach *Einstellungen > Fertigung > Vorgänge* und aktivieren Sie 
 
 Mit dem Erstellen eines Fertigungsauftrags werden die Komponenten der Stückliste (BoM) als zu verwendendes Material übernommen. Falls die Stückliste zu einem späteren Zeitpunkt geändert wird, verändert sich der Fertigungsauftrag standardmässig nicht. Mit der folgend beschriebenen Funktion kann aber erreicht werden, dass der Fertigungsauftrag jederzeit mit der aktuellen Stückliste abgeglichen werden kann.
 
-Die Server Aktion *Reload BoM* wird gemäss Beschreibung in [Aktion Fertigung Reload BoM erstellen](Fertigung%20Aktionen.md#Aktion%20Fertigung%20Reload%20BoM%20erstellen) erstellt. Anschliessend kann über den Menupunkt *Reload BoM* die BoM jederzeit neu geladen werden.
+Die Server Aktion *Reload BoM* wird gemäss Beschreibung [Reload BoM](Fertigung%20Aktionen.md#Reload%20BoM) erstellt. Anschliessend kann über den Menupunkt *Reload BoM* die BoM jederzeit neu geladen werden.
 
 ![Fertigung Reload BoM](assets/Fertigung%20Reload%20BoM.png)
 

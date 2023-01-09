@@ -10,7 +10,7 @@ Aktionen für Projekt App einrichten.
 
 ## Geplante Aktionen
 
-### Geplante Aktion "Projektmenü aktualisieren" erstellen
+### Projektmenü aktualisieren
 
 Mit dieser geplanten Aktion generiert Odoo für jedes Projekt einen Menüeintrag. Damit können Sie schneller zwischen Projektaufgaben navigieren.
 
