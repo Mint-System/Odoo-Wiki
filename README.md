@@ -55,7 +55,7 @@ Verwaltung von Mitarbeiterurlauben & Abwesenheit.
 
 Odoo für die Luftfahrt.
 
-![](assets/icons_odoo_aero_base.png)](Aero%20Base.md)
+![](assets/icons_odoo_aero_base.png)
 
 ### [Anwesenheit](Anwesenheit.md)
 
