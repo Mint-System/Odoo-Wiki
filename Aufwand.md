@@ -42,7 +42,7 @@ Ab #Odoo15 : Öffnen Sie eine Auslage via *Aufwand > Meine Auslagen > Meine zu m
 
 Bis #Odoo15 : Öffnen Sie eine Abrechnung via *Auslagen > Meine Auslagen > Meine Abrechnung* und klicken Sie auf *Dem Manager vorlegen*.
 
-Bis #Odoo15 : Öffnen Sie eine Abrechnung via *Aufwand > Meine Auslagen > Meine Berichte* und klicken Sie auf *Dem Manager vorlegen*.
+Ab #Odoo15 : Öffnen Sie eine Abrechnung via *Aufwand > Meine Auslagen > Meine Berichte* und klicken Sie auf *Dem Manager vorlegen*.
 
 ## Freigabe
 
