@@ -19,7 +19,7 @@ Name der Aktion: `Bestand zurücksetzen`\
 Modell: `stock.quant`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 for record in records:
@@ -40,7 +40,7 @@ Name der Aktion: `Lagerbuchung zurücksetzen`\
 Modell: `stock.move`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 for record in records:  
@@ -61,7 +61,7 @@ Name der Aktion: `Transfer abbrechen`\
 Modell: `stock.picking`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 for record in records:  
@@ -80,7 +80,7 @@ Name der Aktion: `Lagerbuchung abbrechen`\
 Modell: `stock.move`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 for record in records:  
@@ -99,7 +99,7 @@ Name der Aktion: `Lagerbuchung erledigen`\
 Modell: `stock.move`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 for record in records:
@@ -138,7 +138,7 @@ Name der Aktion: `Reservierungen zurücksetzen`\
 Modell: `ir.actions.server`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 # Get outgoing pickings with reservations
@@ -159,7 +159,7 @@ Name der Aktion: `Reservierter Bestand zurücksetzen`
 Modell: `stock.quant`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 for record in records:
@@ -183,7 +183,7 @@ Modell: `product.product`\
 Folgeaktion: `Python-Code ausführen`\
 Sicherheit-Gruppennamen: `Lager \ Administrator`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 for product_id in records:
@@ -211,6 +211,44 @@ for product_id in records.product_variant_id:
 Beide Aktionen mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
 
 In der Ansicht der Produkte haben Sie nun die Auswahl *Aktion > Reservierungen aufheben*.
+
+### Aktion "Ablaufende Los-Nummern aktualisieren" erstellen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Ablaufende Los-Nummern aktualisieren`
+Modell: `stock.picking`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+now = datetime.datetime.now()
+
+for picking in records:
+  
+  lines = picking.move_line_ids.filtered(lambda l: l.tracking)
+  
+  for line in lines:
+    
+    # Check expiring quantities
+    quants = line.product_id.stock_quant_ids.filtered(lambda q: 
+      q.lot_id and
+      q.quantity > 0 and
+      q.removal_date and
+      q.removal_date > now
+    ).sorted(key=lambda r: r.removal_date)
+    
+    # Update with newer quantity
+    if quants and quants[0].lot_id != line.lot_id:
+      line.write({
+        'lot_id': quants[0].lot_id.id
+      })
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Reservierter Bestand*.
 
 ## Geplante Aktionen
 
@@ -547,6 +585,8 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 # Settings
 product_ids = [70]
 
+now = datetime.datetime.now()
+
 # Lookup unfinished picking orders
 pickings = env['stock.picking'].search([
 	('picking_type_id', '=', 2),
@@ -554,19 +594,31 @@ pickings = env['stock.picking'].search([
 ])
 
 # Get move lines with lot
-update_move_lines = pickings.move_line_ids.filtered(lambda l: l.product_id in product_ids and l.lot_id and l.tracking)
+update_move_lines = pickings.move_line_ids.filtered(lambda l: l.product_id.id in product_ids and l.tracking)
 
-raise Warning(update_move_lines.mapped('reference'))
+# raise Warning([pickings,update_move_lines.mapped('reference')])
 
 # Unreserve material
 messages = []
 error_messages = []
-for line in unlink_move_lines:
+for line in update_move_lines:
   try:
-    messages.append('Update move line %s.' % (line.reference))
-    #FIXME
-  except:
-    error_messages.append('While updating move line %s an error occured.' % (line.reference))
+	  # Check expiring quantities
+    quants = line.product_id.stock_quant_ids.filtered(lambda q: 
+      q.lot_id and
+      q.quantity > 0 and
+      q.removal_date and
+      q.removal_date > now
+    ).sorted(key=lambda r: r.removal_date)
+    
+    # Update with newer quantity
+    if quants and quants[0].lot_id != line.lot_id:
+      messages.append('Update move line %s.' % (line.reference))
+      line.write({
+        'lot_id': quants[0].lot_id.id
+      })
+  except Exception as e:
+    error_messages.append('While updating move line %s an error occured: %s' % (line.reference, e))
 
 if messages and not error_messages:
   log(' '.join(messages))
