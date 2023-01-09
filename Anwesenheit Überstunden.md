@@ -11,7 +11,7 @@ prev: ./anwesenheit
 
 Gilt ab #Odoo15.
 
-## Konfiguraiton
+## Konfiguration
 
 ### Überstunden berechnen
 

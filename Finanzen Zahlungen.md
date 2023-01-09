@@ -79,7 +79,7 @@ Wählen Sie *Zahlung Erfassen*. Schliessen Sie den Dialog. Nun wird für jede Re
 
 ### QR-IBAN speichern
 
-Zur Speicherung der QR-IBAN gibt es auf dem Bankkonto ein entsprechendes Feld. Navigieren Sie nach *Finanzen > Konfiguraiton > Bankkonten*, wählen Sie das Bankkonto aus und tragen Sie im Feld *QR-IBAN* die Nummer ein.
+Zur Speicherung der QR-IBAN gibt es auf dem Bankkonto ein entsprechendes Feld. Navigieren Sie nach *Finanzen > Konfiguration > Bankkonten*, wählen Sie das Bankkonto aus und tragen Sie im Feld *QR-IBAN* die Nummer ein.
 
 ### QR-Code Zahlungstyp festlegen
 

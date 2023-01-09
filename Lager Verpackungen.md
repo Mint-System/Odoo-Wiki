@@ -48,4 +48,4 @@ Eine Lieferung kann mehrere Vorgänge haben. Die Vorgänge lassen sich in detail
 
 ### Barcode auf Produktverpackung hinterlegen
 
-Rufen Sie eine Produktverpackung unter *Lager > Konfiguraiton > Produktverpackungen* auf. Hinterlegen Sie den Barcode im Feld *Strichcode*.
+Rufen Sie eine Produktverpackung unter *Lager > Konfiguration > Produktverpackungen* auf. Hinterlegen Sie den Barcode im Feld *Strichcode*.

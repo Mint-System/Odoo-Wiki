@@ -17,7 +17,7 @@ tags:
 
 # Odoo Wiki
 
-Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) auf zwei Ebenen. Die **Best Practice** beschreiben wie Anwendungsfälle in Odoo allgemein umgesetzt werden. Die **HowTos** sind detailliert beschriebene Arbeitsschritte zur Konfiguraiton und Verwendung von Odoo.
+Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) auf zwei Ebenen. Die **Best Practice** beschreiben wie Anwendungsfälle in Odoo allgemein umgesetzt werden. Die **HowTos** sind detailliert beschriebene Arbeitsschritte zur Konfiguration und Verwendung von Odoo.
 
 Die [Mint System GmbH](https://www.mint-system.ch/) unterhält das Odoo Wiki.
 

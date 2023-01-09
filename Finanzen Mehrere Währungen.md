@@ -36,7 +36,7 @@ Klicken Sie auf das Icon neben dem Feld *Nächster Lauf*. Die Währungskurse wer
 
 ### Tageskurs für bestimmes Datum definieren
 
-Öffnen Sie die die Kursliste einer Währung via *Finanzne > Konfiguraiton > Währungen > Währung auswählen > Kurse*. Legen Sie einen neuen Eintrag an oder bearbeiten Sie einen bestehendne.
+Öffnen Sie die die Kursliste einer Währung via *Finanzne > Konfiguration > Währungen > Währung auswählen > Kurse*. Legen Sie einen neuen Eintrag an oder bearbeiten Sie einen bestehendne.
 
 ![](assets/Finanzen%20Mehrere%20Währungen%20Tageskurs%20definieren.png)
 
