@@ -67,7 +67,7 @@ Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 
 Neue Apps installieren und aktualisieren.
 
-[![icons_odoo_modules](assets/icons_odoo_modules.png)  ](Apps.md)
+[![icons_odoo_modules](assets/icons_odoo_modules.png)](Apps.md)
 
 ### [Aufwand](Aufwand.md)
 
