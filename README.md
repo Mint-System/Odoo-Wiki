@@ -411,7 +411,7 @@ Sie können eine Kopie des Wiki erstellen und für eigene Zwecke nutzen. Ebenfal
 
 Authoren werden hier mit Logo aufgeführt:
 
-![logo](assets/logo.svg)](https://www.mint-system.ch/)
+[![logo](assets/logo.svg)](https://www.mint-system.ch/)
 
 Es sind Dokumente von diesen Drittanbietern enthalten:
 
