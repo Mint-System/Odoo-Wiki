@@ -55,8 +55,4 @@ Wenn man die Abwesenheit Rückgängig macht, löscht Odoo die betroffnen Überst
 
 ### Überstundenberechnung für Mitarbeitende im Stundenlohn deaktivieren
 
-Angenommen Sie haben Mitarbeiten im Stundenlohn und möchten für diese die Berechnung der Überstunden deaktiveren, müssen Sie als erstes eine [Flexible Arbeitszeit erfassen](Personal.md#Flexible%20Arbeitszeit%20erfassen). Hinterlegen Sie diese Arbeitszeit bei Mitarbeitenden mit Stundenlohn.
-
-::: warning
-Jede Arbeitsstunde wird so als Überstunde berechnet.
-:::
+Angenommen Sie haben Mitarbeiten im Stundenlohn und möchten für diese die Berechnung der Überstunden deaktiveren. Dazu müssen Sie eine [Flexible Arbeitszeit erfassen](Personal.md#Flexible%20Arbeitszeit%20erfassen) und diese den entsprechenden Mitarbeitenden hinterlegen. Jede Arbeitsstunde wird mit deser Konfiguration als Überstunde gerechnet.
