@@ -69,11 +69,11 @@ Neue Apps installieren und aktualisieren.
 
 [![icons_odoo_modules](assets/icons_odoo_modules.png)  ](Apps.md)
 
-### [Ausgaben](Ausgaben.md)
+### [Aufwand](Aufwand.md)
 
 Spesen erfassen und abrechnen.
 
-[![icons_odoo_hr_expense](Ausgaben.md)
+[![icons_odoo_hr_expense](Aufwand.md)
 
 ### [Certificate Planner](Certificate%20Planner.md)
 
@@ -85,7 +85,7 @@ Anleitung zur Odoo-App Certificate Planner.
 
 Wiederholende Verträge verwalten und automatisch verrechnen.
 
-[![icon_oca_agreement](Ausgaben.md)
+[![icon_oca_agreement](Aufwand.md)
 
 ### [Dashboards](Dashboards.md)
 
