@@ -3,7 +3,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# Auslagen
+# Ausgaben
 ![icons_odoo_hr_expense](assets/icons_odoo_hr_expense.png)
 
 Spesen erfassen und abrechnen.
