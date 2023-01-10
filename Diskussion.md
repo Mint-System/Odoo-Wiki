@@ -57,13 +57,21 @@ Führen Sie folgendes aus  *Einstellungen > Diskussion > Externe E-Mail-Server >
 
 ## Abonnieren
 
-### Abonnent hinzufügen
+### Eigenes Abonnement hinzufügen
 
-Für Sie einen Abonnent dem Odoo-Objekt hinzu indem Sie rechts von *Abonnieren* auf das Icon klicken und *Followers hinzufügen* wählen.
+Wenn Sie einen Chatter zum Odoo-Geschäftsobjekt sehen, können Sie mit einem Klick auf *Abonnieren*, das eigene Abonnement hinzufügen.
+
+### Abonnement hinzufügen
+
+Fügen Sie einen Abonnent dem Odoo-Objekt hinzu indem Sie rechts von *Abonnieren* auf das Icon klicken und *Followers hinzufügen* wählen.
 
 ![Diskussion Abonnent hinzufügen](assets/Diskussion%20Abonnent%20hinzufügen.gif)
 
-### Abonnent entfernen
+### Abonnement bearbeiten
+
+Wählen Sie ein Abonnement auf dem Odoo-Gschäftsobjekts aus, indem Sie rechts von *Abonnieren* auf das Icon klicken und ein Abonnement auswählen.
+
+### Abonnement entfernen
 
 Entfernen Sie einen Abonnent vom Odoo-Objekt indem Sie rechts von *Abonnieren* auf das Icon klicken.
 

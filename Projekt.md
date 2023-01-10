@@ -114,3 +114,11 @@ Wenn Sie verhindern möchten, dass Mitglieder der Gruppe *Projekt / Benutzer* Pr
 Weil die Berechtigung von *Projekt / Benutzer* nach *Projekt / Administrator* vererbt wird, braucht es eine Anpassung. Zeiten Sie den Tab *Zugriffsrechte* der Gruppe *Projekt / Administrator* und erstellen Sie einen neuen Eintrag:
 
 ![](assets/Projekt%20Berechtigung%20Administrator%20Aufgabe.png)
+
+## Diskussion
+
+### Benachrichtigung bei Erstellung von Aufgabe erhalten
+
+Um eine Benachrichtigung zu erhalten, wenn eine Aufgabe in einem bestimmten Projekt erstellt, müssen Sie das Projekt via *Projekt > Konfiguration > Projekte* bearbeiten. Nun müssen Sie ein [eigenes Abonnement hinzufügen](Diskussion.md#Eigenes%20Abonnement%20hinzufügen). 
+
+![](assets/Pasted%20image%2020230110085638.png)
