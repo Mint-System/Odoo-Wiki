@@ -85,7 +85,7 @@ for employee in env['hr.employee'].search(employee_domain):
     has_attendance = check_date.date() in attendance_dates
     
     if work_hours > 0 and not has_attendance and not active_leaves and not active_calendar_leaves:
-      missing_dates.append(check_date.strftime(date_format) + ' (%sh)' % work_hours)
+      missing_dates.append(check_date.strftime(date_format) + ' (%sh)' % round(work_hours,2))
     
       # raise UserError({
       #   'start_date': start_date,
