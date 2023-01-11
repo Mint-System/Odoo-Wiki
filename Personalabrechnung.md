@@ -20,7 +20,7 @@ Personalbrechnungen schnell und einfach erstellen.
 
 ## Konfiguration
 
-### Pesonalabrechnung initialisieren
+### Personalabrechnung initialisieren
 
 Damit Sie die Personalabrechnung für ihre Mitarbeiter erstellen können, müssen einige vorbereitungen getroffen werden.
 

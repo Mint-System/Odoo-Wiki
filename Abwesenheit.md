@@ -69,6 +69,16 @@ Auf der Dashboard-Ansicht von *Abwesenheiten* werden alle Abwesenheiten unabhän
 Diese Anpassung geht bei der Aktualisierung oder Neuinstallation des Abwesenheits-Moduls verloren.
 :::
 
+## Feiertage festlegen
+
+Für jeden Arbeitszeiteintrag können Sie Feiertage festlegen. Navigieren Sie nach *Abwesenheit > Konfiguration > Gesetzliche Feiertage*. Erstellen Sie hier einen neuen Eintrag für jeden Feiertag und jedes Arbeitspensum.
+
+![](assets/Abwesenheit%20Feiertage.png)
+
+::: warning
+Stellen Sie sicher, dass zwischen Start- und Endatum die effektive Anzahl Stunden/Tage dazwischen liegt.
+:::
+
 ## Vorgänge
 
 ### Abwesenheitsanspruch melden
