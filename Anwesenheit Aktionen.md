@@ -47,12 +47,12 @@ for employee in env['hr.employee'].search(employee_domain):
   leaves = env['hr.leave'].search([
     leave_state_domain,
     ('employee_id', '=', employee.id),
-    '|', ('date_from', '>=', check_in_start), ('date_to', '<=', check_in_start),
+    '|', ('date_from', '<=', check_in_start), ('date_to', '>=', check_in_start),
   ])
   
   calendar_leaves = env['resource.calendar.leaves'].search([
     ('calendar_id', '=', employee.resource_calendar_id.id),
-    '|', ('date_from', '>=', check_in_start), ('date_to', '<=', check_in_start),
+    '|', ('date_from', '<=', check_in_start), ('date_to', '>=', check_in_start),
   ])
   
   missing_dates = []

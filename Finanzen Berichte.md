@@ -8,6 +8,12 @@ prev: ./finanzen
 
 Finanzberichte erstellen.
 
+## Konfiguration
+
+### Option *Alle auffalten* aktivieren
+
+Wenn Sie in Finannzberichen die Option *Alle auffalten* vermissen, navigieren Sie nach *Finanzen > Konfiguation > Finanzberichte* und öffnen hier den entsprechenden Bericht. Aktivieren Sie die Option *Filter zum Aufklappen aller Optionen anzeigen*. Auf dieser Ansicht können Sie auch weitere Optionen akivieren und deaktivieren.
+
 ## Berichte
 
 ### Saldenliste nach Konto anzeigen
