@@ -4,7 +4,7 @@ tags:
 - OCA
 prev: ./kontakte
 ---
-# Partner first name and last name
+# Partner Firstname
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Unterscheidet Vor- und Nachnamen.
