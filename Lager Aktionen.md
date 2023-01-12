@@ -585,8 +585,6 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 # Settings
 product_ids = [70]
 
-now = datetime.datetime.now()
-
 # Lookup unfinished picking orders
 pickings = env['stock.picking'].search([
 	('picking_type_id', '=', 2),
@@ -619,6 +617,52 @@ for line in update_move_lines:
       })
   except Exception as e:
     error_messages.append('While updating move line %s an error occured: %s' % (line.reference, e))
+
+if messages and not error_messages:
+  log(' '.join(messages))
+if error_messages:
+  log(' '.join(error_messages), level='error')
+```
+
+### Transfers auf geplantes Datum erledigen
+
+Diese geplante Aktion erledigt markierte Aufträge sobald die geplante Zeit eingetroffen ist.
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Transfers auf geplantes Datum erledigen`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Stunden\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 09:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Settings
+date_to = datetime.datetime.now()
+date_from = date_to - datetime.timedelta(hours=1)
+
+# Lookup makred picking orders
+pickings = env['stock.picking'].search([
+	('x_autocomplete', '=', True),
+	('state', 'in', ['confirmed', 'assigned', 'partially_available']),
+	('scheduled_date', '<=', date_to),
+	('scheduled_date', '>=', date_from)
+])
+
+# raise Warning([pickings,pickings.mapped('name')])
+
+# Complete pickings
+messages = []
+error_messages = []
+for picking in pickings:
+  try:
+	  messages.append('Complete picking %s on schedule.' % (picking.name))
+	  picking.button_validate()
+  except Exception as e:
+    error_messages.append('While try to complete picking %s an error occured: %s' % (picking.name, e))
 
 if messages and not error_messages:
   log(' '.join(messages))
