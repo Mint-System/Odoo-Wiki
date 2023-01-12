@@ -13,6 +13,10 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-Forestry/tree/15.
 
 ## Verwendung
 
+### Bewegungen anzeigen
+
+Navigieren Sie nach *Lager > Produkte > Produkte* und öffnen Sie ein *Polter*.
+
 ### Lagerbuchungen validieren
 
 Wenn Sie die Zeiterfassungseinträge validieren, wird unter folgenden Bedinungen eine Lagerbuchung erstellt:
