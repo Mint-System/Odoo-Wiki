@@ -83,6 +83,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Datumsfelder](Best%20Practice%20Datumsfelder.md)
 * [Direct Print](Best%20Practice%20Direct%20Print.md)
 * [E-Mail Vorlagen](Best%20Practice%20E-Mail%20Vorlagen.md)
+* [Kommunikation mit Odoo](Best%20Practice%20Kommunikation%20mit%20Odoo.md)
 
 ## Use Cases
 
