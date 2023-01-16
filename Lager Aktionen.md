@@ -642,7 +642,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 ```python
 # Settings
 date_to = datetime.datetime.now()
-date_from = date_to - datetime.timedelta(hours=1)
+date_from = date_to - datetime.timedelta(hours=15)
 
 # Lookup makred picking orders
 pickings = env['stock.picking'].search([

@@ -26,6 +26,10 @@ Mit der Ausführung des Assisten wird eine Eröffungsbuchung erstellt. Navigiere
 
 Fügen Sie die Konten mit der entsprechenden Saldierung hinzu und buchen Sie Eröffnungsbuchung.
 
+::: tip
+Als Gegenkonto für die Anfangssaldo verwenden Sie das Konto *999999 Unverteilte Gewinne/Verluste*.
+:::
+
 ### Buchungssatz korrigieren
 
 Haben Sie eine fehlerhafte Buchung gemacht, können Sie diese einfach korrigieren. Öffnen Sie den Buchungssatz via *Finanzen > Finanzen > Buchungssätze*. Wählen Sie *Zurücksetzen* und korrigieren Sie beispielsweise ein Konto auf dem Buchungssatz. Buchen Sie die korrektur mit der Aktion *Buchen*.
@@ -41,6 +45,7 @@ Angenommen Sie möchten einen Buchungssatz umkehren, beispielsweise für die Buc
 Hier haben wir eine Buchung am 31.12.
 
 ![](assets/Finanzen%20Buchhaltung%20Eröffnung.png)
+
 Wählen Sie *Stornobuchungssatz* unterhalb von *Bearbeiten*. Diese Auswahl erscheint, wenn die Buchung gebucht ist.
 
 Beim Klick öffnet dieser Dialog:
