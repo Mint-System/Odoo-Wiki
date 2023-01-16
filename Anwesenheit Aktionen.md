@@ -23,7 +23,7 @@ Folgeaktion: `Python-Code ausführen`
 days = 30
 offset_days = 3
 date_format = '%d.%m.%Y'
-employee_domain = [] #[('name', '=', 'Daniel Kobel')]
+employee_domain = [] # [('name', '=', 'Roger Bünter')]
 leave_state_domain = ('state', 'not in', ['draft', 'confirm'])
 
 today = datetime.datetime.today() - datetime.timedelta(days=offset_days)
@@ -52,6 +52,8 @@ for employee in env['hr.employee'].search(employee_domain):
   
   calendar_leaves = env['resource.calendar.leaves'].search([
     ('calendar_id', '=', employee.resource_calendar_id.id),
+    ('work_entry_type_id', '=', 2),
+    ('resource_id', '=', False),
     '|', ('date_from', '>=', start_date), ('date_to', '<=', start_date),
   ])
   
@@ -84,25 +86,29 @@ for employee in env['hr.employee'].search(employee_domain):
     
     has_attendance = check_date.date() in attendance_dates
     
-    if work_hours > 0 and not has_attendance and not active_leaves and not active_calendar_leaves:
+    missing_attendance = work_hours > 0 and not has_attendance and not active_leaves and not active_calendar_leaves
+    if missing_attendance:
       missing_dates.append(check_date.strftime(date_format) + ' (%sh)' % round(work_hours,2))
     
-      # raise UserError({
-      #   'start_date': start_date,
-      #   'name': employee.name, 
-      #   'check_date': check_date,
-      #   'work_hours': work_hours,
-      #   'leaves': leaves.mapped('date_from'),
-      #   'active_leaves': active_leaves,
-      #   'calendar_leaves': calendar_leaves[0].date_from,
-      #   'active_calendar_leaves': active_calendar_leaves,
-      #   'has_attendance': has_attendance,
-      #   'min_check_date': min_check_date,
-      #   'max_check_date': max_check_date,
-      #   'delta': user_tz.utcoffset(check_date),
-      #   'min_check_date_utc': min_check_date_utc,
-      #   'max_check_date_utc': max_check_date_utc,
-      # }.items())
+    # raise UserError({
+    #   'start_date': start_date,
+    #   'name': employee.name, 
+    #   'check_date': check_date,
+    #   'missing_attendance': missing_attendance,
+    #   'work_hours': work_hours,
+    #   'leaves': leaves.mapped('date_from'),
+    #   'active_leaves': active_leaves,
+    #   'calendar_leaves': calendar_leaves[0].date_from,
+    #   'active_calendar_leaves': active_calendar_leaves,
+    #   'has_attendance': has_attendance,
+    #   'min_check_date': min_check_date,
+    #   'max_check_date': max_check_date,
+    #   'delta': user_tz.utcoffset(check_date),
+    #   'min_check_date_utc': min_check_date_utc,
+    #   'max_check_date_utc': max_check_date_utc,
+    # }.items())
+  
+  # raise UserError(missing_dates)
     
   if missing_dates:
     report += '\n' + employee.name + ':\n'
