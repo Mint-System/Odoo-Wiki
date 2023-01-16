@@ -1,7 +1,7 @@
 {
   "welcomeComplete": true,
   "theme": {
-    "dark": true,
+    "dark": false,
     "layout": "compact"
   },
   "drawing": {
