@@ -9,7 +9,7 @@ Die Berechnung der Arbeitszeiten und Abwesenheitsansprüche ist eine komplexe An
 
 ## Szenario
 
-Im Unternehmen der Velo Manufaktur AG haben Mitarbeitende 25 Tage Urlaub.
+Im Unternehmen der Velo Manufaktur AG haben Mitarbeitende 25 Tage Urlaub und arbeiten in einem 100%-Pensum 40 Stundne pro Woche bzw. 8 Stunden am Tag.
 
 **Michel Admin 40% Pensum**
 
@@ -55,11 +55,11 @@ Das ist ebenfalls korrekt.
 
 Für Mitchell wird angezeigt: Bezahlte Abwesenheit 6 Tage verfügbar.
 
-Das ist falsch, es sollten 7 Tage sein.
+Das ist falsch, es sollten 8 Tage sein.
 
 Für Abigail wird angezeigt: Bezahlte Abwesenheit 11 Tage verfügbar.
 
-Das ist falsch, es sollten 12 Tage sein.
+Das auch falsch, es sollten 12 Tage sein.
 
 ![](assets/Best%20Practice%20Abwesenheit%20Berechnung.png)
 
