@@ -19,16 +19,17 @@ Website: <https://www.odoo.com/de_DE/app/employees>
 
 ## Erweiterungen
 
-| Erweiterung                                                         | Beschreibung                                                       |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| [Employee Vehicle Request](Employee%20Vehicle%20Request.md)         | Fahrzeug-Reservationen für Mitarbeitende verwalten.                |
-| [HR Activity Date](HR%20Activity%20Date.md)                         | Plannungstypen mit Aktivitätsdatum basierend auf Arbeitsverträgen. |
-| [HR Birthday Calender](HR%20Birthday%20Calender.md)                 | Kalenderansicht aller Geburtstage.                                 |
-| [HR Employee Employ Like](HR%20Employee%20Employ%20Like.md)         | Neues Feld Anstellung wie auf Mitarbeitenden.                      |
-| [HR Employee Skill](HR%20Employee%20Skill.md)                       | Übersicht der Mitarbeiterfähigkeiten.                              |
-| [HR Shortname](HR%20Shortname.md)                                   | Zu jedem Mitarbeitenden ein Kürzel speichern.                      |
-| [HR Vehicle Request Calendar](HR%20Vehicle%20Request%20Calendar.md) | Kalenderansicht und Terminbestätigung für Fahrzeuganfragen.        |
-| [HR Vehicle Request](HR%20Vehicle%20Request.md)                     | Fahrzeuganfragen für Mitarbeitende verwalten.                      |
+| Erweiterung                                                         | Beschreibung                                                                              |
+| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| [Employee Vehicle Request](Employee%20Vehicle%20Request.md)         | Fahrzeug-Reservationen für Mitarbeitende verwalten.                                       |
+| [HR Activity Date](HR%20Activity%20Date.md)                         | Plannungstypen mit Aktivitätsdatum basierend auf Arbeitsverträgen.                        |
+| [HR Birthday Calender](HR%20Birthday%20Calender.md)                 | Kalenderansicht aller Geburtstage.                                                        |
+| [HR Employee Employ Like](HR%20Employee%20Employ%20Like.md)         | Neues Feld Anstellung wie auf Mitarbeitenden.                                             |
+| [HR Employee Skill](HR%20Employee%20Skill.md)                       | Übersicht der Mitarbeiterfähigkeiten.                                                     |
+| [HR Shortname](HR%20Shortname.md)                                   | Zu jedem Mitarbeitenden ein Kürzel speichern.                                             |
+| [HR Vehicle Request Calendar](HR%20Vehicle%20Request%20Calendar.md) | Kalenderansicht und Terminbestätigung für Fahrzeuganfragen.                               |
+| [HR Vehicle Request](HR%20Vehicle%20Request.md)                     | Fahrzeuganfragen für Mitarbeitende verwalten.                                             |
+| [Resource Calendar Get Days](Resource%20Calendar%20Get%20Days.md)   | Die Anzahl Tage in Abwesenheiten relativ zu den Arbeitszeiten des Unternehmens berechnen. |
 
 ## Organisation
 

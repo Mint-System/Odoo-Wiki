@@ -27,11 +27,11 @@ Abigail Peterson arbeitet 60%. Sie hat 15 Tage Urlaub im Jahr. Das sind 120 Stun
 
 Beide Geben für die erste Mai-Woche Urlaub ein.
 
-Bei Mitchell sind das 3 Arbeitstage bzw. 16 Stunden.
+Bei Mitchell sind das 2 Arbeitstage bzw. 16 Stunden.
 
 ![](assets/Best%20Practice%20Arbeitszeiten%20Urlaub%2016.png)
 
-Bei Abigail sind das 4 Arbeitstage bzw. 24 Stunden.
+Bei Abigail sind das 3 Arbeitstage bzw. 24 Stunden.
 
 ![](assets/Best%20Practice%20Arbeitszeiten%20Urlaub%2024.png)
 
@@ -59,7 +59,7 @@ Das ist falsch, es sollten 7 Tage sein.
 
 Für Abigail wird angezeigt: Bezahlte Abwesenheit 11 Tage verfügbar.
 
-Das ist korrekt.
+Das ist falsch, es sollten 12 Tage sein.
 
 ![](assets/Best%20Practice%20Abwesenheit%20Berechnung.png)
 
