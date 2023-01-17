@@ -10,7 +10,7 @@ prev: ./lager
 Individuelle Mengenheit für Produkte festlegen.
 
 Technischer Name: `product_logistics_uom`\
-Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/product_logistics_uom>
+Repository: <https://github.com/OCA/product-attribute/tree/14.0/product_logistics_uom>
 
 ## Verwendung
 
