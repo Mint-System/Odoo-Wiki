@@ -67,4 +67,4 @@ Odoo rechnet die verbleibenden Tage falsch.
 
 ## Korrektur
 
-Es wird empfohlen die Urlaubstage in Stunden anzuzeigen und eine Anpassung am System vorzunehmen, damit Odoo die Urlaubstage in Tagen korrekt rechnet.
+Die Fehlberechnung lässt sich mit der Erweiterung [Resource Calendar Get Days](Resource%20Calendar%20Get%20Days.md) korrgieren. Die Erweiterung berechnet die Anzahl Tage einer Abwesenheits relativ zu den Arbeitsstunden des Unternehmens.
