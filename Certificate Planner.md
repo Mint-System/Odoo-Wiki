@@ -12,6 +12,14 @@ Anleitung zur Odoo-App Certificate Planner.
 Technisch: `certificate_planer`\
 Repository: <https://github.com/Mint-System/Certificate-Planner>
 
+## Konfiguration
+
+### Umfrage-Vorlagen definieren
+
+Navigieren Sie nach *Umfragen* und öffnen oder erstellen Sie die Umfrage, welche für den Certificate Planner zur Verfügung gestellt werden soll. Aktivieren Sie die Option *Certificate Planner* unterhalb des Umfragetitels.
+
+Navigieren Sie nach *Einstellungen > Certificate Planner > Umfragen*. Wählen Sie hier die entsprechenden Vorlagen aus. Es werden nur Umfragen angezeigt, welche die Option *Certificate Planner* aktiviert haben.
+
 ## Verwendung
 
 ### Certificate Planner aufrufen
