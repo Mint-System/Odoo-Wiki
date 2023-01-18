@@ -12,7 +12,7 @@ Mahnberichte erstellen und verschicken
 
 ### Mahnstufen konfigurieren
 
-Navigieren Sie nach *Abrechnung > Konfiguration > Mahnstufen*. Hier können Sie bestehende Mahnstufen konfigurieren oder neue Erstellen. Eintscheidend bei den Mahnstufen ist das Feld *Nach X bei fällig, tun Sie folgendes:*. Hier können Sie Anzahl Tage (+/-) für den Zeitabstand zur Mahnung erstellen.
+Navigieren Sie nach *Abrechnung > Konfiguration > Mahnstufen*. Hier können Sie bestehende Mahnstufen konfigurieren oder neue Erstellen. Entscheidend bei den Mahnstufen ist das Feld *Nach X bei fällig, tun Sie folgendes:*. Hier können Sie Anzahl Tage (+/-) für den Zeitabstand zur Mahnung erstellen.
 
 ### Text Mahnbericht anpassen
 
@@ -35,3 +35,7 @@ Wenn Sie den Mahnbericht geöffnet haben und auf den Text klicken, können Sie d
 ::: warning
 Beim Bearbeiten des Texts gehen die Zeilenumbrüche verloren.
 :::
+
+### Rechnung von Mahnung auschliessen
+
+Öffnen Sie einen Mahnbericht unter *Finanzen > Kunden > Mahnberichte*. Aktivieren Sie die Option *Ausgeschlossen* bei Rechnungen, die im Mahnbericht nicht erscheinen sollen.
