@@ -16,4 +16,4 @@ Repository: <https://github.com/OCA/hr/tree/14.0/hr_employee_id>
 
 ### Identifikationsnummer festlegen
 
-Navigieren Sie nach *Personal* und öffnen Sie einen Mitarbeitenden-Eintrag. Tragen Sie im Feld **
+Navigieren Sie nach *Personal* und öffnen Sie einen Mitarbeitenden-Eintrag. Tragen Sie im Feld *Identifikationsnummer* die entsprechende Nummer ein.
