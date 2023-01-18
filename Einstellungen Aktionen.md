@@ -8,6 +8,25 @@ prev: ./einstellungen
 
 Odoo-Einstellungen automatisieren.
 
+## Aktionen
+
+### Sofort senden
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Sofort senden`\
+Modell: `mail.mail`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for record in records:
+	record.send()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
 ## Geplante Aktionen
 
 ### Abteilungsgruppen synchronisieren

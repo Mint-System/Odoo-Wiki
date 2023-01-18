@@ -241,3 +241,19 @@ Das [Gio Payroll Custom](Gio%20Payroll%20Custom.md) App ist nicht akutell und mu
 ### Lösung
 
 Löschen Sie die Lohnstruktur *Stundenlohn* in der Personalabrechnung und aktualisieren Sie die App.
+
+## Versandlimit für E-Mails erreich
+
+### Problem
+
+```
+Daily email limit exceeded: retry later.
+```
+
+### Ursache
+
+Odoo.sh schränkt die Anzahl E-Mails, die an einem Tag verschickt werden können ein.
+
+### Lösung
+
+Konfigurieren Sie den ausgehenden E-Mail-Server mit einem Anbieter, der eine höhrere Limite hat.
