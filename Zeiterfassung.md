@@ -20,9 +20,10 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 
 ## Erweiterungen
 
-| Erweiterung                                 | Beschreibung          |
-| ------------------------------------------- | --------------------- |
-| [HR Timesheet From Until](HR%20Timesheet%20From%20Until.md) | Berechnung Dauer anhand Start- und Endzeit. |
+| Erweiterung                                                      | Beschreibung                                |
+| ---------------------------------------------------------------- | ------------------------------------------- |
+| [HR Timesheet From Until](HR%20Timesheet%20From%20Until.md)      | Berechnung Dauer anhand Start- und Endzeit. |
+| [HR Timesheet Multiline Name](HR%20Timesheet%20Multiline%20Name) | Mehrzeilige Beschreibung in Zeiterfassung.  |
 
 ## Konfiguration
 
