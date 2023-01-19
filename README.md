@@ -75,6 +75,12 @@ Spesen erfassen und abrechnen.
 
 ![icons_odoo_hr_expense](assets/icons_odoo_hr_expense.png)
 
+### [Aussendienst](Aussendienst.md)
+
+Bieten Sie Ihren Kunden überall ausgezeichnete Dienstleistungen an.
+
+![](assets/icons_odoo_fsm_industry.png)
+
 ### [Certificate Planner](Certificate%20Planner.md)
 
 Anleitung zur Odoo-App Certificate Planner.

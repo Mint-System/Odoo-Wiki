@@ -45,17 +45,24 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Lohnrekapitulation](Best%20Practice%20Lohnrekapitulation.md)
 * [Buchung Zahlungsdifferenzen](Best%20Practice%20Buchung%20Zahlungsdifferenzen.md)
 
-### Verkauf und Einkauf
+### Kaufverträge
+
+* [Zustände von Einkaufs- und Verkaufsaufträgen](Best%20Practice%20Zustände%20von%20Einkauf-%20und%20Verkaufsauträgen.md)
+
+### Verkauf
+
+* [Kit bereitstellen](Best%20Practice%20Verkauf%20Kit%20bereitstellen.md)
+* [Auftragszeilen auswerten](Best%20Practice%20Auftragszeilen%20auswerten.md)
+* [Abonnements](Best%20Practice%20Abonnements.md)
+* [Dienstleistungen mit Nachtzuschlag](Best%20Practice%20Dienstleistungen%20mit%20Nachtzuschlag.md)
+* [Spesen verrechnen](Spesen%20verrechnen.md)
+
+### Einkauf
 
 * [Änderung der Route während dem Einkaufsprozess](Best%20Practice%20Änderung%20der%20Route%20während%20dem%20Einkaufsprozess.md)
 * [Einkauf Bestellmenge ändern](Best%20Practice%20Einkauf%20Bestellmenge%20ändern.md)
-* [Zustände von Einkaufs- und Verkaufsaufträgen](Best%20Practice%20Zustände%20von%20Einkauf-%20und%20Verkaufsauträgen.md)
 * [Stückpreis definieren](Best%20Practice%20Stückpreis%20definieren.md)
-* [Kit bereitstellen](Best%20Practice%20Verkauf%20Kit%20bereitstellen.md)
-* [Auftragszeilen auswerten](Best%20Practice%20Auftragszeilen%20auswerten.md)
 * [Purchase To Order](Best%20Practice%20Purchase%20To%20Order.md)
-* [Abonnements](Best%20Practice%20Abonnements.md)
-* [Dienstleistungen mit Nachtzuschlag](Best%20Practice%20Dienstleistungen%20mit%20Nachtzuschlag.md)
 
 ### Lager
 
