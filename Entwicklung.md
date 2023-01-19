@@ -19,14 +19,17 @@ Odoo mühelos anpassen und erweitern.
 
 ## Erweiterungen
 
-| Erweiterung                                     | Beschreibung                                                        |
-| ----------------------------------------------- | ------------------------------------------------------------------- |
-| [BI SQL Editor](BI%20SQL%20Editor.md)           | Ganz einfach SQL-basierte Berichte erstellen.                       |
-| [Mass Editing](Mass%20Editing.md)               | Mühelos mehrere Einträge auf einmal bearbeiten.                     |
-| [Project timeline](Project%20Timeline.md)       | Timeline-Ansicht für Projektaufgaben.                               |
-| [Prometheus Exporter](Prometheus%20Exporter.md) | Odoo-Metriken mit Prometheus monitoren.                             |
-| [Web Domain Field](Web%20Domain%20Field.md)     | Dynamische Definitionen für Domain-Attribute auf Felder generieren. |
-| [Web Timeline](Web%20Timeline.md)               | Die Timeline-Ansicht für alle Objekte.                              |
+| Erweiterung                                                                                 | Beschreibung                                                        |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| [BI SQL Editor](BI%20SQL%20Editor.md)                                                       | Ganz einfach SQL-basierte Berichte erstellen.                       |
+| [Mass Editing](Mass%20Editing.md)                                                           | Mühelos mehrere Einträge auf einmal bearbeiten.                     |
+| [Project timeline](Project%20Timeline.md)                                                   | Timeline-Ansicht für Projektaufgaben.                               |
+| [Prometheus Exporter](Prometheus%20Exporter.md)                                             | Odoo-Metriken mit Prometheus monitoren.                             |
+| [Server Environment Ir Config Parameter](Server%20Environment%20Ir%20Config%20Parameter.md) | Systemparameter aus Umgebungsvariablen laden.                       |
+| [Server Environment](Server%20Environment.md)                                               | Systemkonfigurationen aus Umgebungsvariablen laden.                 |
+| [Web Domain Field](Web%20Domain%20Field.md)                                                 | Dynamische Definitionen für Domain-Attribute auf Felder generieren. |
+| [Web Environment Ribbon](Web%20Environment%20Ribbon.md)                                     | Odoo Umgebung mit Banner markieren.                                 |
+| [Web Timeline](Web%20Timeline.md)                                                           | Die Timeline-Ansicht für alle Objekte.                              |
 
 ## Konfiguration
 
@@ -69,6 +72,14 @@ Nachdem Sie den Browser-Tab aktualisiert haben, ist der Menüeintrag umbenannt.
 ### Menüeintrag erstellen
 
 Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und wählen Sie *Anlegen*.
+
+### Menüeintrag bearbeiten
+
+Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und wählen Sie ein bestehenden Menüeintrag aus. Bearbeiten Sie die Sichtbarkeit des Menüs im Tab *Zugriffsrechte* oder steuern Sie die Reihenfolge der Untermenüs im Tab *Untermenüs*.
+
+:::
+Bei einer Aktualisierung der Odoo App, werden die verlinkten Menüeinträge zurückgesetzt.
+:::
 
 ### Menüeintrag entfernen
 

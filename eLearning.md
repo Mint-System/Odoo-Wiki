@@ -10,6 +10,12 @@ Teilen Sie ihr Wissen mit der eLearning-Plattform.
 
 Website: <https://www.odoo.com/de_DE/app/elearning>
 
+## Konfiguration
+
+### eLearning für interne Benutzer
+
+Damit die App *eLearning* für alle Benutzer sichtar ist, müssen Sie den entsprechenden [Menüeintrag bearbeiten](Entwicklung.md#Menüeintrag%20bearbeiten). Fügen Sie die Gruppe *Interner Benutzer* im Tab *Zugriffsrechte* hinzu.
+
 ## Verwaltung
 
 ### Kurs anlegen

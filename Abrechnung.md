@@ -28,6 +28,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Account Invoice Select Bank](Account%20Invoice%20Select%20Bank.md)                 | Bankkonto anhand Währung auswählen.                                                                |
 | [Account Move Invoice Partner](Account%20Move%20Invoice%20Partner.md)               | Separate Rechnungsadresse auf Rechnung festlegen.                                                  |
 | [Account Sale Timesheet Report](Account%20Sale%20Timesheet%20Report.md)             | Zeiterfassungsbericht für Rechnung.                                                                |
+| [L10n CH Invoice Reports](L10n%20CH%20Invoice%20Reports.md)                         | Rechnung mit ISR- und/oder QR-Zahlung drucken.                                                     |
 | [Purchase Invoice Prepare Partner](Purchase%20Invoice%20Prepare%20Partner.md)       | Kontakte aus Bestellung auf Rechnung kopieren.                                                     |
 | [Sale Invoice Carrier](Sale%20Invoice%20Carrier.md)                                 | Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus Verkaufsaufträgen übertragen. |
 | [Sale Invoice Cash Rounding Default](Sale%20Invoice%20Cash%20Rounding%20Default.md) | Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.              |
