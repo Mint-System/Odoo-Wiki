@@ -12,12 +12,13 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 
 ## Bereiche
 
-| Bereich                                       | Beschreibung                                                                                                     |
-| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| [Verkauf Abrechnung](Verkauf%20Abrechnung.md) | Verkaufsaufträge unkompliziert abrechnen.                                                                        |
-| [Verkauf Berichte](Verkauf%20Berichte.md)     | Verkaufsdaten immer aktuell.                                                                                     |
-| [Verkauf Projekt](Verkauf%20Projekt.md)       | Dienstleistungen mit Verkauf und Projekt abwickeln.                                                              |
-| [Verkauf Stammdaten](Verkauf%20Stammdaten.md) | Produkte, Preislisten und Varianten zentral pflegen.                                                             |
+| Bereich                                       | Beschreibung                                         |
+| --------------------------------------------- | ---------------------------------------------------- |
+| [Verkauf Abrechnung](Verkauf%20Abrechnung.md) | Verkaufsaufträge unkompliziert abrechnen.            |
+| [Verkauf Aktionen](Verkauf%20Aktionen.md)     | Arbeitsflüsse in Verkauf automatisieren.             |
+| [Verkauf Berichte](Verkauf%20Berichte.md)     | Verkaufsdaten immer aktuell.                         |
+| [Verkauf Projekt](Verkauf%20Projekt.md)       | Dienstleistungen mit Verkauf und Projekt abwickeln.  |
+| [Verkauf Stammdaten](Verkauf%20Stammdaten.md) | Produkte, Preislisten und Varianten zentral pflegen. |
 
 ## Erweiterungen
 
