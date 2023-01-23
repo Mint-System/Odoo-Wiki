@@ -97,6 +97,12 @@ Nachdem der Browser aktualisiert haben Sie Zugriff auf das neue Menü und Ansich
 
 ![](assets/Aktionen%20neue%20Ansicht.png)
 
+### Ansicht einer Aktion hinzufügen
+
+Wenn eine [Aktion bearbeiten](#Aktion%20bearbeiten), können Sie die verfügbaren Ansichtstypen im Feld *Ansichtmodus* festlegen. Ebenfalls können Sie steuern welche Ansicht abhängig vom Type aufgerufen werden. Auf der selben Bearbeitungsansicht können Sie unter *Ansichten* eine Liste bearbeiten.
+
+![](assets/Entwicklung%20Aktionen%20Ansichten.png)
+
 ### Fenstername umbennen
 
 Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach *Eisntellungen > Technisch > Aktionen > Fesnter öffnen/schliessen ...*. Suchen Sie im Feld *Name der Aktion* nach dem Fensternamen und passen Sie den Namen an.

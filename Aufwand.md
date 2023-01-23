@@ -20,7 +20,23 @@ Website: <https://www.odoo.com/de_DE/app/expenses>
 
 ### Auslagenprodukt erfassen
 
-Zeigen Sie *Aufwand > Konfiguration > Auslagenprodukte* an. Erstellen Sie eines Produkt und geben Sie die Kosten und den Verkaufspreis an.
+Zeigen Sie *Aufwand > Konfiguration > Auslagenprodukte* an. Erstellen Sie eines Produkt und geben Sie die Kosten an.
+
+::: tip
+Setzen Sie den Verkaufspreis
+:::
+
+### Bestehendes Produkt als Auslagenprodukt definieren
+
+Damit ein bestehendes Produkt in der Auswahl der Auslagenprodukte erscheint, muss man auf dem Produkt *Verkauf > Produkte > Produkte* die Option *Als Ausgabe verwendbar* aktivieren.
+
+::: warning
+Die Option ist standardmässig nicht sichtbar und muss über ein entsprechendes [Snippet](Entwicklung%20Snippets.md) eingeblendet werden.
+:::
+
+### Auslagen zur Weiterverrechnung markieren
+
+Zeigen Sie ein Auslagenprodukt unter *Verkauf > Produkte > Produkte* an. Wählen Sie eine Option im Feld *Auslagen weiterberechnen* aus. Damit wird festgelegt zu welchem Preis die Auslage wieter verrechnet werden kann.
 
 ### Genehmigende Person festlegen
 
@@ -30,7 +46,11 @@ Rufen Sie einen Mitarbeitenden unter *Personal* auf und zeigen Sie den Tab *Arbe
 
 ### Spesen erfassen
 
-Navigieren Sie nach *Aufwand* und klicken Sie auf *Anlegen*. Erfassen Sie eine neue Auslage.
+Navigieren Sie nach *Aufwand* und klicken Sie auf *Anlegen*. Erfassen Sie eine neue Auslage und beachten Sie diesse Felder:
+
+* **Produkte**: Wählen Sie hier ein bestehendes Auslagenprodukt aus.
+* **Ausgabendatum**: Der Tag an dem die Spese angefallen ist.
+* **An Kunden berechnen**: Wählen Sie hier einen besthenden Verkaufsauftrag. Diese Option wird angezeigt, wenn auf dem Auslagenproduk die Option *Auslagen weiterberechnen* ausgewählt wurde.
 
 ### Spesenabrechnung erstellen
 
@@ -68,6 +88,14 @@ Ab #Odoo15 : Navigieren Sie nach *Aufwand > Auslagenberichte> Zu buchende Berich
 
 ::: tip
 Wurden die Spesen vom Unternehmen bezahlt, wechselt die Abrechnung direkt in den Status *Bezahlt*.
+:::
+
+::: tip
+Wurden das Auslagenprodukt zur Weiterverrechnung markiert, wird das Auslagenprodukt mit der gelieferten Menge beim Buchen der Abrechnung auf dem verlinkten Verkaufsauftrag hinzugefügt.
+:::
+
+::: warning
+Der Mitarbeitende braucht eine private Adresse, damit die Spesenabrechung erstellt werden kann: [Private Adresse hinterlegen](Personal.md#Private%20Adresse%20hinterlegen).
 :::
 
 ### Spesenabrechnung auszahlen
