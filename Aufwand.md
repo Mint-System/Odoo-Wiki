@@ -92,6 +92,12 @@ Wurden die Spesen vom Unternehmen bezahlt, wechselt die Abrechnung direkt in den
 
 ::: tip
 Wurden das Auslagenprodukt zur Weiterverrechnung markiert, wird das Auslagenprodukt mit der gelieferten Menge beim Buchen der Abrechnung auf dem verlinkten Verkaufsauftrag hinzugefügt.
+
+![](assets/Aufwand%20Verkaufsauftrags.png)
+
+Der Verkaufsauftrag ist mir der Spesenabrechnung verlinkt.
+
+![](assets/Aufwand%20Smart-Link.png)
 :::
 
 ::: warning
