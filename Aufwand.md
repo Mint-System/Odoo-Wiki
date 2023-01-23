@@ -122,7 +122,7 @@ Ab #Odoo15 : Navigieren Sie nach *Aufwand > Auslagenberichte > Alle Berichte*.
 
 Damit Benutzer beim Erfassen einer Spesen den Kundenauftrag zur weiterverrechnung auswählen können, brauchen Sie Lesezugriff auf Verkaufsaufträge.
 
-Dazu können Sie [Zugriffsrechte auf Datenmodell vergeben](Einstellungen%20Berechtigungen.md#Zugriffsrechte%20auf%20Datenmodell%20vergeben) mit diesen Informationen:
+Dazu können Sie mit den folgenden Informationen [Zugriffsrechte auf Datenmodell vergeben](Einstellungen%20Berechtigungen.md#Zugriffsrechte%20auf%20Datenmodell%20vergeben) :
 
 * **Datenmodell**: `sale.order`
 * **Name**: `mint_system.sale.order.read`
