@@ -22,10 +22,6 @@ Website: <https://www.odoo.com/de_DE/app/expenses>
 
 Zeigen Sie *Aufwand > Konfiguration > Auslagenprodukte* an. Erstellen Sie eines Produkt und geben Sie die Kosten an.
 
-::: tip
-Setzen Sie den Verkaufspreis
-:::
-
 ### Bestehendes Produkt als Auslagenprodukt definieren
 
 Damit ein bestehendes Produkt in der Auswahl der Auslagenprodukte erscheint, muss man auf dem Produkt *Verkauf > Produkte > Produkte* die Option *Als Ausgabe verwendbar* aktivieren.
@@ -36,7 +32,11 @@ Die Option ist standardmässig nicht sichtbar und muss über ein entsprechendes 
 
 ### Auslagen zur Weiterverrechnung markieren
 
-Zeigen Sie ein Auslagenprodukt unter *Verkauf > Produkte > Produkte* an. Wählen Sie eine Option im Feld *Auslagen weiterberechnen* aus. Damit wird festgelegt zu welchem Preis die Auslage wieter verrechnet werden kann.
+Zeigen Sie ein Auslagenprodukt unter *Verkauf > Produkte > Produkte* an. Wählen Sie eine Option im Feld *Auslagen weiterberechnen* aus. Damit wird festgelegt zu welchem Preis die Auslage weiter verrechnet werden kann.
+
+::: tip
+Wählen Sie die Option *Nach Aufwand*, wenn der Verkaufspreis gleich der Kosten ist
+:::
 
 ### Genehmigende Person festlegen
 
