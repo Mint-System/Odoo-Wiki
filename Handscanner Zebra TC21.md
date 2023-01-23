@@ -18,7 +18,7 @@ Es kann sein, dass der Handscanner ohne USB-C Kabel geliefert wird.
 
 ### Handscanner in Betrieb nehmen
 
-Damit Sie den Hanscanner in Betrieb nehmen können, müssen Sie folgende Vorbereitungen treffen:
+Damit Sie den Handscanner in Betrieb nehmen können, müssen Sie folgende Vorbereitungen treffen:
 
 * Gerät ist zur Stromversorgung mit einem USB-C Kabel verbunden
 * Wifi-Netzwerk ist vorhanden und Zugangsdaten sind bekannt 
@@ -26,15 +26,15 @@ Damit Sie den Hanscanner in Betrieb nehmen können, müssen Sie folgende Vorbere
 
 Schaltet Sie das Gerät ein und starten Sie das Setup.
 
-![](assets/Hanscanner%20Zebra%20TC21%20Setup.jpg)
+![](assets/Handscanner%20Zebra%20TC21%20Setup.jpg)
 
 Verbinden Sie das Gerät mit dem Wifi-Netzwerk.
 
-![](assets/Hanscanner%20Zebra%20TC21%20Wifi.jpg)
+![](assets/Handscanner%20Zebra%20TC21%20Wifi.jpg)
 
 Loggen Sie sich bei Bedarf mit dem Google Account ein.
 
-![](assets/Hanscanner%20Zebra%20TC21%20Google%20Login.jpg)
+![](assets/Handscanner%20Zebra%20TC21%20Google%20Login.jpg)
 
 Nur wenn Sie eingeloggt sind, können Sie später Apps aus dem Play Store installieren.
 

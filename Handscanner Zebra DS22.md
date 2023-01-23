@@ -14,7 +14,7 @@ Website: <https://www.zebra.com/de/de/support-downloads/scanners/general-purpose
 
 ### Handscanner in Betrieb nehmen
 
-Damit Sie den Hanscanner in Betrieb nehmen können, müssen Sie einzig die Tastatursprache festlegen. Wählen Sie *English (US)* als Sprachpaket.
+Damit Sie den Handscanner in Betrieb nehmen können, müssen Sie einzig die Tastatursprache festlegen. Wählen Sie *English (US)* als Sprachpaket.
 
 ### Betriebsmodus ändern
 

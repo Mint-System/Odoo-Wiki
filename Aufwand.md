@@ -35,7 +35,7 @@ Die Option ist standardmässig nicht sichtbar und muss über ein entsprechendes 
 Zeigen Sie ein Auslagenprodukt unter *Verkauf > Produkte > Produkte* an. Wählen Sie eine Option im Feld *Auslagen weiterberechnen* aus. Damit wird festgelegt zu welchem Preis die Auslage weiter verrechnet werden kann.
 
 ::: tip
-Wählen Sie die Option *Nach Aufwand*, wenn der Verkaufspreis gleich der Kosten ist
+Wählen Sie die Option *Nach Aufwand*, wenn der Verkaufspreis gleich der Kosten ist.
 :::
 
 ### Genehmigende Person festlegen

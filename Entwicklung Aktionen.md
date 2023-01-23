@@ -9,69 +9,6 @@ prev: ./entwicklung
 
 Eigene Odoo Aktionen erstellen.
 
-## Aktionen
-
-### Aktion bearbeiten
-
-Odoo unterscheidet im wesentlichen zwischen drei Aktionen.
-
-**Fenster-Aktion**: Verwendet zum anzeigen von Ansichten. Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Fenster öffnen/schliessen*.
-
-**Server-Aktion**: Für geplante Aktionen und Aktionen verknüpft mit Datenmodelle. Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Server Aktionen*.
-
-**Automatische Aktion**: Aktion bei bestimmten Zuständen auslösen. Navigieren Sie nach *Einstellungen > Technisch > Automation > Server Aktionen*.
-
-### Aktuelle Aktion bearbeiten
-
-Mit jedem Klick auf ein Menü oder Knopf wird in Odoo eine Aktion ausgeührt. Die ausgeführte Aktion können Sie mit *Entwicklertools > Aktion bearbeiten* anzeigen und bearbeiten.
-
-### Standardwert auf Aktion definieren
-
-Wenn Sie die [aktuelle Aktion bearbeiten](#Aktuelle%20Aktion%20bearbeiten) können Sie im Feld *Wert aus Kontext* einen Standardwert für das aktuelle Datenmodell festlegen. Dazu ein paar Bespiele:
-
-Heutiges Datum als Standardwert für das Feld `ordering_date`.
-
-```
-{ 'default_ordering_date': datetime.datetime.today().strftime('%Y-%m-%d') }
-```
-
-::: warning
-Dokumentieren Sie die Anpassung von Aktionen. Bei einer Aktualisierung der Module gehen die Änderungen verloren.
-:::
-
-## Automatische Aktionen
-
-### Beim Aktualisieren eine Validierung ausführen
-
-Mit *Automatischen Aktionen* kann ein Datensatz, der aktualisiert wurde, zusätzlich validiert werden. In unserem Beispiel wollen wir unterbinden, dass Qualitätsalarme auf bestimmte Stufen gesetzt werden.
-
-Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatische Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Modell: `Qualitätsalarm`\
-Triggerbedingung: `Beim Aktualisieren`\
-Beobachtete Felder: `Stufe (quality.alert)`\
-Python Code:
-
-```python
-if record.stage_id.sequence in [0,1,2]:
-	raise UserError('This stage is not allowed!')
-```
-
-![Aktionen Stufe nicht erlaubt](assets/Aktionen%20Stufe%20nicht%20erlaubt.gif)
-
-### Set Order Deadline
-
-Mit Aktionen können Felder mit einem bestimmten Default-Wert beschrieben werden. Im folgenden Beispiel wird das Feld *Order Deadline* auf Angebotsanfragen auf das Datum *heute + 5 Tage* gesetzt.
-
-Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatische Aktionen* und erstellen Sie den folgenden Eintrag:
-
-* Name der Aktion: `Set Order Deadline`
-* Modell: `Beschaffungsauftrag`
-* Auslöser: `Bei Erstellung`
-* Folgeaktion: `Den Datensatz aktualisieren`
-* Feld: `Order Deadline (purchase.order)`
-* Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
-
 ## Ansichten
 
 ### Neue Ansicht mit Aktion hinzufügen
@@ -109,33 +46,35 @@ Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach *Eisntel
 
 ![Einstellungen Fenster umbennen](assets/Einstellungen%20Fenster%20umbennen.gif)
 
-## Geplante Aktionen
+## Entwicklung
 
-### Ablaufdatum Datenbank erneuern
+### Aktion bearbeiten
 
-Diese geplante Aktion aktualisiert das Ablaufdatum der Datenbank in regelmässigen Abständen.
+Odoo unterscheidet im wesentlichen zwischen drei Aktionen.
+
+**Fenster-Aktion**: Verwendet zum anzeigen von Ansichten. Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Fenster öffnen/schliessen*.
+
+**Server-Aktion**: Für geplante Aktionen und Aktionen verknüpft mit Datenmodelle. Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Server Aktionen*.
+
+**Automatische Aktion**: Aktion bei bestimmten Zuständen auslösen. Navigieren Sie nach *Einstellungen > Technisch > Automation > Server Aktionen*.
+
+### Aktuelle Aktion bearbeiten
+
+Mit jedem Klick auf ein Menü oder Knopf wird in Odoo eine Aktion ausgeührt. Die ausgeführte Aktion können Sie mit *Entwicklertools > Aktion bearbeiten* anzeigen und bearbeiten.
+
+### Standardwert auf Aktion definieren
+
+Wenn Sie die [aktuelle Aktion bearbeiten](#Aktuelle%20Aktion%20bearbeiten) können Sie im Feld *Wert aus Kontext* einen Standardwert für das aktuelle Datenmodell festlegen. Dazu ein paar Bespiele:
+
+Heutiges Datum als Standardwert für das Feld `ordering_date`.
+
+```
+{ 'default_ordering_date': datetime.datetime.today().strftime('%Y-%m-%d') }
+```
 
 ::: warning
-Verwenden Sie diese Aktion nur in Testsystemen! Produktive System müssen vor Ablauf des echten Datums lizenziert werden!
+Dokumentieren Sie die Anpassung von Aktionen. Bei einer Aktualisierung der Module gehen die Änderungen verloren.
 :::
-
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Ablaufdatum Datenbank erneuern`\
-Modell: `ir.actions.server`\
-Ausführen alle: `1` Tage\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
-Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
-
-```python
-now = datetime.datetime.now()
-expiration_date = now + datetime.timedelta(days=35)
-expiration_date = expiration_date.strftime('%Y-%m-%d %H:%M:%S')
-env['ir.config_parameter'].sudo().set_param('database.expiration_date', expiration_date)
-```
 
 ## Aktionen
 
@@ -218,3 +157,64 @@ Wobei `$ID` der notierten *ID* der Serveraktion entspricht.
 Mit diesem Knopf können Sie den E-Mail-Dialog öffnen.
 
 ![Entwicklung Aktionen Compose E-Mail](assets/Entwicklung%20Aktionen%20Compose%20E-Mail.gif)
+
+## Automatische Aktionen
+
+### Beim Aktualisieren eine Validierung ausführen
+
+Mit *Automatischen Aktionen* kann ein Datensatz, der aktualisiert wurde, zusätzlich validiert werden. In unserem Beispiel wollen wir unterbinden, dass Qualitätsalarme auf bestimmte Stufen gesetzt werden.
+
+Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatische Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Modell: `Qualitätsalarm`\
+Triggerbedingung: `Beim Aktualisieren`\
+Beobachtete Felder: `Stufe (quality.alert)`\
+Python Code:
+
+```python
+if record.stage_id.sequence in [0,1,2]:
+	raise UserError('This stage is not allowed!')
+```
+
+![Aktionen Stufe nicht erlaubt](assets/Aktionen%20Stufe%20nicht%20erlaubt.gif)
+
+### Set Order Deadline
+
+Mit Aktionen können Felder mit einem bestimmten Default-Wert beschrieben werden. Im folgenden Beispiel wird das Feld *Order Deadline* auf Angebotsanfragen auf das Datum *heute + 5 Tage* gesetzt.
+
+Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatische Aktionen* und erstellen Sie den folgenden Eintrag:
+
+* Name der Aktion: `Set Order Deadline`
+* Modell: `Beschaffungsauftrag`
+* Auslöser: `Bei Erstellung`
+* Folgeaktion: `Den Datensatz aktualisieren`
+* Feld: `Order Deadline (purchase.order)`
+* Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
+
+## Geplante Aktionen
+
+### Ablaufdatum Datenbank erneuern
+
+Diese geplante Aktion aktualisiert das Ablaufdatum der Datenbank in regelmässigen Abständen.
+
+::: warning
+Verwenden Sie diese Aktion nur in Testsystemen! Produktive System müssen vor Ablauf des echten Datums lizenziert werden!
+:::
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Ablaufdatum Datenbank erneuern`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Tage\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+now = datetime.datetime.now()
+expiration_date = now + datetime.timedelta(days=35)
+expiration_date = expiration_date.strftime('%Y-%m-%d %H:%M:%S')
+env['ir.config_parameter'].sudo().set_param('database.expiration_date', expiration_date)
+```
