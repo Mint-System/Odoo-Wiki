@@ -115,3 +115,16 @@ Ab #Odoo15 : Navigieren Sie nach *Aufwand > Auslagenberichte > Berichte zu zahle
 Bis #Odoo15 : Navigieren Sie nach *Auslagen > Auslagen Abrechnung > Alle Abrechnungen*.
 
 Ab #Odoo15 : Navigieren Sie nach *Aufwand > Auslagenberichte > Alle Berichte*.
+
+## Berechtigungen
+
+### Lesezugriff auf Verkaufsaufträge vergeben
+
+Damit Benutzer beim Erfassen einer Spesen den Kundenauftrag zur weiterverrechnung auswählen können, brauchen Sie Lesezugriff auf Verkaufsaufträge.
+
+Dazu können Sie [Zugriffsrechte auf Datenmodell vergeben](Einstellungen%20Berechtigungen.md#Zugriffsrechte%20auf%20Datenmodell%20vergeben) mit diesen Informationen:
+
+* **Datenmodell**: `sale.order`
+* **Name**: `mint_system.sale.order.read`
+* **Gruppe**: Benutzertypen / Interner Benutzer
+* **Berechtigung**: Leserecht

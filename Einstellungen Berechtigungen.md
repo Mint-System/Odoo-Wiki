@@ -60,6 +60,16 @@ Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und ers
 * **Zugriffsrechte**: Zugriffsrechte auf Datenmodelle.
 * **Rechte für Daten**: Filterung von Daten. Übersteuert Zugriffsrechte.
 
+## Zugriffsrechte
+
+### Zugriffsrechte auf Datenmodell vergeben
+
+Wenn Sie einer augwewählten Gruppe Zugriffsrechte auf ein Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Datenmodelle*. Rufen Sie hier das ausgewählten Datenmodell aus und zeigen Sie den Tab *Zugriffsrechte* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
+
+* **Name**: Geben Sie einen namen im Schema `$COMPANY.$.$MODUL.$XML_ID.$OPERATION` ein. Dazu ein Beispiel: `mint_system.sale.order.read`.
+* **Gruppe**: Wählen Sie die Gruppe aus, welche die Zugriffsrechte erhält.
+* **Berechtigung**: Wählen Sie die passende Berechtigungen aus.
+
 ## App-Berechtigungen
 
 ### Berechtigungen zurücksetzen
