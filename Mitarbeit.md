@@ -63,13 +63,15 @@ BIC: CRESCHZZ
 
 ### Lieferanten
 
-Name: Velo Zürich GmbH  
-Website: <https://www.velo-zuerich.ch>  
-Standort: Rautistrasse 33, 8047 Zürich, Schweiz  
-IBAN: CH35 0900 0000 8510 5462 4  
-BIC/SWIFT: POFICHBEXXX  
-MWST: CHE-113.887.810  
-Handelsregister: CH-020.4.036.470-7  
+Name: Velo Zürich GmbH\
+Website: <https://www.velo-zuerich.ch>\
+Standort: Rautistrasse 33, 8047 Zürich, Schweiz\
+MWST: CHE-113.887.810\
+Handelsregister: CH-020.4.036.470-7\
+IBAN: CH3509000000851054624\
+Bank: Postfinance AG\
+BIC: POFICHBEXXX
+
 
 ### Dateien
 
