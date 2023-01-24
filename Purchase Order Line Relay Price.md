@@ -14,7 +14,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 ## Verwendung
 
-### Produkt mit mehreren Verkäufte
+### Produkt mit mehreren Lieferanten
 
 Diese Erweiterung rechnet für ein Produkt die möglichen Staffelpreise durch und benachrichtigt den Einkäufer mit Verbesserungsvorschlägen. Voraussetzung dafür ist, dass auf Sie auf dem Produkt mehre  [Lieferanten auf Produkt hinzufügen](Einkauf.md#Lieferant%20auf%20Produkt%20hinzufügen):
 
