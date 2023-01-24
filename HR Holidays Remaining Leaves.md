@@ -10,7 +10,7 @@ prev: ./abwesenheit
 Verbleibende Anwesenheitsansprüche der Mitarbeitenden anzeigen.
 
 Technischer Name: `hr_holidays_remaining_leaves`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/hr_holidays_remaining_leaves>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_holidays_remaining_leaves>
 
 ## Verwendung
 
@@ -18,4 +18,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/hr_holidays_r
 
 Mit dieser Erweiterung werden unter *Abwesenheitszeiten > Vorgesetzte > Abwesenheitsanprüche* nebst der zugewiesenen Tagen die verbleibenden Abwesenheitstage angezeigt.
 
-![](assets/HR%20Holidays%20Remining%20Leaves.png)
+![](assets/HR%20Holidays%20Remaining%20Leaves.png)
