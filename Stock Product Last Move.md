@@ -18,4 +18,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 Navigieren Sie nach *Lager > Produkte > Produkte* und schalten Sie die Listen-Ansicht ein. In der Spalte *Datum Letzter Eingang* sehen Sie das Datum der letzten eingehenden Lieferung von einem Lieferanten und in der Spalte *Datum Letzter Ausgang* sehen Sie das Datum der letzten Lieferung an einen Kunden oder an einen Fertigungsauftrag.
 
-![](assets/Stock%20Product%20Last%20Move.png)
+![](assets/Stock%20Product%20Last%20Move%20Produktvarianten.png)
