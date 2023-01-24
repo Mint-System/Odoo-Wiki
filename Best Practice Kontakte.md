@@ -7,33 +7,10 @@ prev: ./best-practice
 
 Odoo unterscheidet *Einzelperson* und *Unternehmen*. Eine Person kann einem Unternehmen zugeordnet werden. Einem Unternehmen können mehrere Personen zugeordnet werden.
 
-## Felder Kontakt
+## Privat und Geschäft
 
-Eine Übersicht zu den Felder eines Kontakts:
+Wenn Sie die Private Adresse eines Mitarbeitenden erfassen, haben Sie in Kontakte zweimal dieselbe Person. Zur Unterscheidung der Einträge erfassen Sie ein Unternehmen *Privat* für die privaten Kontakte.
 
-![Kontakte Felder](assets/Best%20Practice%20Kontakte%20Felder.svg)
+## Dieselbe Person in mehreren Unternehmen
 
-## Anzeigenamen
-
-In einigen Darstellungen erscheinen Einzelpersonen ergänzt mit dem zugeordneten Unternehmen. Dieses (berechnete) Feld nennt sich *Anzeigename*.
-
-Beispiel Ausschnitt *Liste aller Kontakte*:
-
-![Kontakte Anzeigename](assets/Best%20Practice%20Kontakte%20Anzeigename.png)
-
-## Adressart
-
-![Kontakte Adressart](assets/Best%20Practice%20Kontakte%20Adressart.png)
-
-Die Adressart kann wie folgt eingestellt werden:
-- Kontakt
-- Rechnungsadresse
-- Lieferadresse
-- Andere Adresse
-- Privatadresse
-
-## Eingabeprüfungen
-
-Das System warnt falls die Gefahr besteht, dass zweimal dieselbe Steuer-ID angelegt wird.
-
-![Kontakte Warnung doppelte Steuer-ID](assets/Best%20Practice%20Kontakte%20Warnung%20doppelte%20Steuer-ID.png)
+Wenn eine Person für mehrere Unternehmen arbeitet, muss die Person mehrmals erfasst werden. Weissen Sie jeweils das Unternehmen der Person zu.

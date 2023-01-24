@@ -19,8 +19,8 @@ Modell: `hr.leave`\
 Folgeaktion: `Python-Code ausführen`
 
 ```python
-for record in records:  
-  record.action_refuse()
+for rec in records:  
+  rec.action_refuse()
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
