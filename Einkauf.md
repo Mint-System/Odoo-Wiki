@@ -37,9 +37,9 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 
 Unterschiedliche Steuern der einzelnen Line-Items werden im Formular und im Bericht gruppiert dargestellt (ab Version 15). Die Zuordnung erfolgt über die *Steuergruppe* gemäss dem Feld *Steuergruppe* im Tab *Erweiterte Optionen*.
 
-### Lieferant auf Produkt konfigurieren
+### Lieferant auf Produkt hinzufügen
 
-Öffnen Sie ein Produkt *Einkauf > Produkte > Produkte* und zeigen Sie den Tab *Einkauf*. Fügen Sie der Lieferanten-Liste einen neuen Eintag hinzu. Wählen Sie den Lieferant aus und legen Produktdetails wie *Preis* und *Tage bis Lieferung* fest.
+Öffnen Sie ein Produkt *Einkauf > Produkte > Produkte* und zeigen Sie den Tab *Einkauf*. Fügen Sie der Lieferanten-Liste einen neuen Eintag hinzu. Wählen Sie den Lieferant aus und legen Details wie *Preis* und *Tage bis Lieferung* fest.
 
 ## Aufträge
 
