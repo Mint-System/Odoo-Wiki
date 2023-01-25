@@ -47,3 +47,7 @@ Kopieren Sie das Feld *Wert*, es handelt sich hierbei um das *Client Secret*.
 Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server*. Markieren Sie den Eintrag *Outlook* auf dem Mail-Server. Klicken Sie auf *Connect your Outlook account* und loggen Sie sich mit dem Postfach-Benutzer ein.
 
 ![](assets/Einstellungen%20OAuth%20Outlook.png)
+
+### OAuth-Token regenerieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server*. Öffnen Sie einen Eintrag mit einer OAuth-Verbindung. Klicken Sie auf *Edit settings*. Der OAuth-Authorisierungsflow wird gestartet. Loggin Sie sich mit dem Postfach-Benutzer ein. Anschliessend werden Sie wieder nach Odoo zurückgeführt. Damit wurden das OAuth-Token regeneriert.

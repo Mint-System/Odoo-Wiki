@@ -9,7 +9,7 @@ Odoo unterscheidet *Einzelperson* und *Unternehmen*. Eine Person kann einem Unte
 
 ## Privat und Geschäft
 
-Wenn Sie die Private Adresse eines Mitarbeitenden erfassen, haben Sie in Kontakte zweimal dieselbe Person. Zur Unterscheidung der Einträge erfassen Sie ein Unternehmen *Privat* für die privaten Kontakte.
+Wenn Sie die Private Adresse eines Mitarbeitenden erfassen, haben Sie in Kontakte zweimal dieselbe Person. Zur Unterscheidung der Einträge erfassen Sie ein Stichwort *Privat* für die privaten Kontakte.
 
 ## Dieselbe Person in mehreren Unternehmen
 
