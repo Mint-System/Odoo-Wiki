@@ -167,6 +167,14 @@ Erstellen Sie unter *Direct Print > Print Report Policy > Report Settings* einen
 Odoo Direct Print gibt eine Warnung aus, wenn das Papieformat nicht mit dem verknüpften Drucker übereinstimmt.
 :::
 
+## Aktionen
+
+### Produktetiketten drucken
+
+Auf Transfers *Lager > Vorgänge > Transfers* können Sie eine bestimmte Anzahl Produktetiketten drucken. Öffnen Sie einen Transfer und wählen Sie *Aktion > Print Product Labels*. Im Dialog wählen Sie den Bericht aus, bestimmen die Produkte und Anzahl der Etiketten, die Sie drucken möchten, wählen den Drucker aus und führen den Vorgang mit *Print* aus.
+
+![](assets/Odoo%20Direct%20Print%20Print%20Product%20Labels.png)
+
 ## Geplante Aktionen
 
 ### Rüstschein drucken

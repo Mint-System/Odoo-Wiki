@@ -20,7 +20,7 @@ Website: <https://www.odoo.com/de_DE/app/iot>
 
 | Erweiterung                               | Beschreibung                                                       |
 | ----------------------------------------- | ------------------------------------------------------------------ |
-| [Odoo Direct Print](Odoo%20Direct%20Print.md) | Jeder Odoo Bericht oder Etikette von überall nach überall drucken. |
+| [Printnode Base](Printnode%20Base.md) | Jeder Odoo Bericht oder Etikette von überall nach überall drucken. |
 
 ## Konfiguration
 

@@ -8,6 +8,6 @@ prev: ./best-practice
 
 ## Drucken mit Hoch- und Querformat
 
-Sie müssen für das Hoch- und Queformat je ein [Papierformat anlegen](Odoo%20Direct%20Print.md#Papierformat%20anlegen).
+Sie müssen für das Hoch- und Queformat je ein [Papierformat anlegen](Printnode%20Base.md#Papierformat%20anlegen).
 
-Für jedes Papierformat müssen Sie [Standarddrucker für Bericht festlegen](Odoo%20Direct%20Print.md#Standarddrucker%20für%20Bericht%20festlegen).
+Für jedes Papierformat müssen Sie [Standarddrucker für Bericht festlegen](Printnode%20Base.md#Standarddrucker%20für%20Bericht%20festlegen).
