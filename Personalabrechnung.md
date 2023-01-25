@@ -59,7 +59,7 @@ Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln > Regel auswäh
 ![](assets/Personalbrechnung%20Finanzkonten.png)
 
 ::: warning
-Wenn die Berechnung der Lohnart einen Minusbetrag ergibt, werden die Soll- und Haben-Konten beim Erstellen der Lohnbuchung vertauscht.
+Wenn die Berechnung der Lohnart einen Minusbetrag ergibt, werden die Soll- und Haben-Konten beim Erstellen der Lohnbuchung getauscht. Als Lösung müssen die Konten für Abzüge vertauscht eingetragen werden.
 :::
 
 ## Lohnabrechnung
