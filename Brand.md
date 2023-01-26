@@ -9,7 +9,7 @@ prev: ./
 
 Mehrere Marken für ihr Unternehmen präsentieren.
 
-Website: <https://github.com/OCA/brand>
+Website: <https://github.com/OCA/brand>\
 Repository: <https://github.com/OCA/brand/tree/16.0/brand>
 
 ## Erweiterungen
