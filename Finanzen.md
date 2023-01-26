@@ -54,6 +54,14 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                                          | Generierung der QR-Rechnung ohne ISR-Nummer.                                |
 | [Switzerland QR-Bill Scan](Switzerland%20QR-Bill%20Scan.md)                                                | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
 
+## Konfiguration
+
+### Steuerliche Lokalisierung festlegen
+
+Wenn Sie ein neues Unternehmen erstellt haben, können Sie unter *Einstellungen > Finanzen > Steuerliche Lokalisierung* ein Lokalisierungspaket im Feld *Kontenrahmen* auswählen und installieren. Damit werden die länderspezifischen Journale, Steuersätze und Kontenplan angelegt.
+
+![](assets/Finanzen%20Mehrwertsteuer.png)
+
 ## Bank-Jounal
 
 ### Bank-Journal einrichten
