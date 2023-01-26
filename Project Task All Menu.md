@@ -10,7 +10,7 @@ prev: ./projekt
 Menu Alle Aufgaben hinzufügen.
 
 Technischer Name: `project_task_all_menu`\
-Repository: <https://github.com/OCA/project/tree/15.0/project_task_all_menu>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/16.0/project_task_all_menu>
 
 ## Verwendung
 

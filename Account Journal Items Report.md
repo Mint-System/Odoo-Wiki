@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./finanzen
 ---
-# Account Move Line Contra Accounts
+# Account Journal Items Report
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Kontoauszug basierend auf Buchungszeilen erstellen.   

@@ -81,6 +81,12 @@ Bieten Sie Ihren Kunden überall ausgezeichnete Dienstleistungen an.
 
 ![](assets/icons_odoo_fsm_industry.png)
 
+### [Brand](Brand.md)
+
+Mehrere Marken für ihr Unternehmen präsentieren.
+
+![](assets/icons_odoo_brand.png)
+
 ### [Certificate Planner](Certificate%20Planner.md)
 
 Anleitung zur Odoo-App Certificate Planner.
