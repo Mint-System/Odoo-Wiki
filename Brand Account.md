@@ -9,6 +9,7 @@ prev: ./
 
 Rechnung mit Marke verknüpfen.
 
+Technischer Name: `account_brand`\
 Repository: <https://github.com/OCA/brand/tree/16.0/account_brand>
 
 ## Verwendung

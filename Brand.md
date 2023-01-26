@@ -14,9 +14,10 @@ Repository: <https://github.com/OCA/brand/tree/16.0/brand>
 
 ## Erweiterungen
 
-| Erweiterung                         | Beschreibung                   |
-| ----------------------------------- | ------------------------------ |
-| [Brand Account](Brand%20Account.md) | Rechnung mit Marke verknüpfen. |
+| Erweiterung                                                           | Beschreibung                   |
+| --------------------------------------------------------------------- | ------------------------------ |
+| [Brand Account](Brand%20Account.md)                                   | Rechnung mit Marke verknüpfen. |
+| [Brand External Report Layout](Brand%20External%20Report%20Layout.md) | Dokument-Layout mit Marke verknüpfen.                               |
 
 ## Konfiguration
 
@@ -29,5 +30,3 @@ Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Unternehmen* und
 ### Marke anlegen
 
 Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Marken* und erstellen Sie hier einen neuen Eintrag.
-
-Wählen Sie *Change Document Layout* um das Dokument-Layout der Marke anzupassen.
