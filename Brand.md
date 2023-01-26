@@ -14,10 +14,10 @@ Repository: <https://github.com/OCA/brand/tree/16.0/brand>
 
 ## Erweiterungen
 
-| Erweiterung                                                           | Beschreibung                   |
-| --------------------------------------------------------------------- | ------------------------------ |
-| [Brand Account](Brand%20Account.md)                                   | Rechnung mit Marke verknüpfen. |
-| [Brand External Report Layout](Brand%20External%20Report%20Layout.md) | Dokument-Layout mit Marke verknüpfen.                               |
+| Erweiterung                                                           | Beschreibung                          |
+| --------------------------------------------------------------------- | ------------------------------------- |
+| [Brand Account](Brand%20Account.md)                                   | Rechnung mit Marke verknüpfen.        |
+| [Brand External Report Layout](Brand%20External%20Report%20Layout.md) | Dokument-Layout mit Marke verknüpfen. |
 
 ## Konfiguration
 
