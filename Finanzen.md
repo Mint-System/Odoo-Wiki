@@ -29,13 +29,16 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 
 | Erweiterung                                                                                                | Beschreibung                                                                |
 | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+|                                                                                                            |                                                                             |
 | [Acccount Move Accounting Description](Acccount%20Move%20Accounting%20Description.md)                      | Beschreibungsfeld für Rechnungszeile.                                       |
 | [Account Financial Report](Account%20Financial%20Report.md)                                                | Finanzberichte der Odoo Community Assocation.                               |
 | [Account Followup Email From](Account%20Followup%20Email%20From.md)                                        | Mahnbericht von definierter E-Mail-Adresse verschicken.                     |
 | [Account Followup Hide Communication](Account%20Followup%20Hide%20Communication.md)                        | Spalte Kommunikation in Mahnbericht ausblenden.                             |
 | [Account Invoice Description](Account%20Invoice%20Description.md)                                          | Beschreibungsfeld auf Rechnung.                                             |
+| [Account Journal Items Report](Account%20Journal%20Items%20Report.md)                                      | Kontoauszug basierend auf Buchungszeilen erstellen.                         |
 | [Account Missing Menus](Account%20Missing%20Menus.md)                                                      | Zusätzliche Menu-Punkte von Finanzen anzeigen.                              |
 | [Account Move Line Accounting Description Stock](Account%20Move%20Line%20Accounting%20Description%20Stock) | Beschreibung Lagerbuchung auf Rechnung übertragen.                          |
+| [Account Move Line Contra Accounts](Account%20Move%20Line%20Contra%20Accounts.md)                          | Gegenkontos auf Buchungszeilen anzeigen.                                    |
 | [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)                              | Lieferaufträge mit Rechnungszeile verlinken.                                |
 | [Account Move Line Position](Account%20Move%20Line%20Position.md)                                          | Positionsnummer aus dem Verkaufs- oder Einkaufsauftrag anzeigen.            |
 | [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                                                  | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt. |
