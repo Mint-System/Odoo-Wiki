@@ -70,6 +70,12 @@ Bestimmte Unterlagen wie die Lohnabrechnung werden an die private Adresse des Mi
 
 Erstellen Sie eine private Adresse folgendermassen: *Personal > Mitarbeiter auswählen > Tab Private Information > Bearbeiten* und legen Sie private Adresse im Feld *Adresse* fest.
 
+## Abrechnung
+
+### Bankverbindung einrichten
+
+Zur Lohnabrechung und Abrechnung von Aufwänden brauchen Mitarbeitende eine private Adresse mit einem Bankkonto. Navigieren Sie nach *Personal* und öffnen Sie einen Eintrag. Im Tab *Private Information* finden Sie das Feld *Bankverbindung*. Hier können Sie ein [Bankkonto erfassen](Abrechnung.md#Bankkonto%20erfassen)
+
 ## Arbeitszeit
 
 ### Arbeitszeit erstellen

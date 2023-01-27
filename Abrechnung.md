@@ -50,7 +50,15 @@ Geschuldete MwSt. (Umsatzsteuer)* mit den Gegenbuchungen wieder ausgeglichen und
 
 In Modul *Finanzen* die Rechnung in der Liste anwählen und anzeigen lassen. Danach den Befehl *Stornieren* ausführen. Beachten Sie, dass Sie das als Storno-Datum das Rechnungsdatum wählen. Sodass die Storno am gleichen Tag erfolgt.
 
-## Adressen
+## Abrechnung
+
+### Bank hinzufügen
+
+Navigieren Sie nach *Kontakte > Konfiguration > Bankverzeichnis* und erstellen Sie einen neuen Eintrag. Geben Sie den *Namen* der Bank und die *Bankleitzahl* (BIC) ein. Optional können Sie die *Bankadresse* erfassen. 
+
+### Bankkonto erfassen
+
+Navigieren Sie nach *Kontakte > Konfiguration > Bankkonten* und erstellen Sie einen neuen Eintrag. Geben Sie *Kontonummber* (IBAN) und den *Kontoinhaber* ein. Wählen oder erstellen Sie eine Bank im Feld *Bank*.
 
 ### Bankkonto zu Lieferant hinzufügen
 
