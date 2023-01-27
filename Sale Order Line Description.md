@@ -10,7 +10,7 @@ prev: ./verkauf
 Nur Verkausbeschreibung im Feld Beschreibung übertragen.
 
 Technischer Name: `sale_order_line_description`\
-Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_order_line_description>
+Repository: <https://github.com/OCA/sale-workflow/tree/15.0/sale_order_line_description>
 
 ## Verwendung
 
