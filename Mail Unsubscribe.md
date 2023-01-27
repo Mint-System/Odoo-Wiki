@@ -26,6 +26,8 @@ Wenn Sie für bestimmten Geschäftsobjekte verhindern möchten, dass die Abonnen
 
 ![](assets/Mail%20Unsubscribe%20Datenmodelle.png)
 
+## Konfiguration
+
 ### Aktueller Benutzer beim  Entfernen ignorieren
 
 Wenn Sie den [Systemparameter](Entwicklung.md#Systemparameter%20anlegen) mit Schlüssel `mail_unsubscribe.ignore_current_partner` und Wert `True` anlegen, werden vor dem Versand einer Nachricht alle Abonnenten ausser des aktuellen Benutzer entfernt.
