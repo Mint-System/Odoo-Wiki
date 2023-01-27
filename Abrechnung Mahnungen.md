@@ -10,9 +10,13 @@ Mahnberichte erstellen und verschicken
 
 ## Konfiguration
 
-### Mahnstufen konfigurieren
+### Mahnstufe konfigurieren
 
 Navigieren Sie nach *Abrechnung > Konfiguration > Mahnstufen*. Hier können Sie bestehende Mahnstufen konfigurieren oder neue Erstellen. Entscheidend bei den Mahnstufen ist das Feld *Nach X bei fällig, tun Sie folgendes:*. Hier können Sie Anzahl Tage (+/-) für den Zeitabstand zur Mahnung erstellen.
+
+### Offene Rechnung als Nachrichtenanhang hinzufügen
+
+Wenn Sie eine [Mahnstufe konfigurieren](#Mahnstufe%20konfigurieren) können Sie über die Option *Offene Rechnungen verbinden* bestimmen, ob die Rechnung als Anhang hinzufgefügt werden.
 
 ### Text Mahnbericht anpassen
 
