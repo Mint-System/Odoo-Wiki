@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_unsu
 
 ### Abonnenten vor dem Versenden einer Nachricht entfernen
 
-Ist diese Erweiterung installiert, werden vor dem Versenden einer Nachricht alle Abnonnenten des Geschäftsobjekts entfernt. Damit ist sichergestellt, dass nur die ausgewählten Empfänger die Nachricht erhalten. 
+Ist diese Erweiterung installiert, werden vor dem Versenden einer Nachricht alle Abonnenten des Geschäftsobjekts entfernt. Damit ist sichergestellt, dass nur die ausgewählten Empfänger die Nachricht erhalten. 
 
 ![Mail Unsubscribe](assets/Mail%20Unsubscribe.gif)
 
@@ -40,6 +40,6 @@ Wenn Sie möchten, dass die Empfänge als Abonnenten nach dem Versenden der Nach
 
 ### Abonnieren von aktuellen Benutzer erlauben
 
-Wenn Sie möchten, dass der aktuelle Benutzer beim Versenden einer Nachricht als Abnonnent hinzugefügt wird, legen Sie einen Systemparameter mit Schlüssel `mail_unsubscribe.mail_create_nosubscribe` und Wert `False` an. 
+Wenn Sie möchten, dass der aktuelle Benutzer beim Versenden einer Nachricht als Abonnent hinzugefügt wird, legen Sie einen Systemparameter mit Schlüssel `mail_unsubscribe.mail_create_nosubscribe` und Wert `False` an. 
 
 ![Mail Unsubscribe Enable Subscribe](assets/Mail%20Unsubscribe%20Enable%20Subscribe.gif)
