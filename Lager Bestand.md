@@ -30,6 +30,23 @@ Für jedes einlagerbare Produkt kann eine Meldebestand definiert werden. Navigie
 
 Für dieses Produkt wird bei Unterschreitung des Minimalbestand automatisch ein Bestellvorschlag generiert. Mit [Scheduler manuell starten](Lager%20Vorgänge.md#Scheduler%20manuell%20starten) können Sie die Bestandsregeln forcieren.
 
+### Verfügbare Menge anzeigen
+
+Navivigieren Sie nach *Lager > Produkte > Produkte* und zeigen Sie ein Produkt an. Wählen Sie den Smart-Link *X kg Verfügbar*. Hier sehen Sie die verfügbare Menge des Produkts.
+
+### Produkt-Bestand zu neuem Lageort verschieben
+
+Es wird angeommen, dass Sie den gesamten Produktbestand von einem Lagerort zu einem anderen transferieren möchten.
+
+Dazu müssen Sie die [Verfügbare Menge anzeigen](#Verfügbare%20Menge%20anzeigen) und expotieren.\
+Dazu können Sie die Voralge [Bestand exportieren](Lager%20Datenmanagement.md#Bestand%20exportieren) verwenden.
+
+Anschliessend müssen Sie eine [Inventur vorbereiten](#Inventur%20vorbereiten). Starten Sie die Inventur und importieren Sie die Bestandsliste 2 Mal.
+
+Legen Sie für die einen Zeilen den neuen Lagerort und die zu übertragende Menge fest und setzen Sie die Menge der anderen Zeilen auf 0.  Schliessen Sie die Inventur ab.
+
+![](assets/Lager%20Bestand%20Bestand%20verschoben.png)
+
 ## Inventur
 
 ### Inventur vorbereiten
