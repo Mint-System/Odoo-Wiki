@@ -34,7 +34,7 @@ Für dieses Produkt wird bei Unterschreitung des Minimalbestand automatisch ein 
 
 Navivigieren Sie nach *Lager > Produkte > Produkte* und zeigen Sie ein Produkt an. Wählen Sie den Smart-Link *X kg Verfügbar*. Hier sehen Sie die verfügbare Menge des Produkts.
 
-### Produkt-Bestand zu neuem Lageort verschieben
+### Produkt-Bestand zu neuem Lagerort verschieben
 
 Es wird angeommen, dass Sie den gesamten Produktbestand von einem Lagerort zu einem anderen transferieren möchten.
 
