@@ -32,9 +32,8 @@ Damit auf der Lohnabrechnung die gearbeiteten Stunden eingetragen werden, muss d
 
 ## Beispiel
 
-
-
 ![](assets/Pasted%20image%2020230131110332.png)
 
 ![](assets/Pasted%20image%2020230131110142.png)
 
+![](assets/Pasted%20image%2020230131110910.png)

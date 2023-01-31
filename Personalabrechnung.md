@@ -66,13 +66,19 @@ Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln > Regel auswäh
 Wenn die Berechnung der Lohnart einen Minusbetrag ergibt, werden die Soll- und Haben-Konten beim Erstellen der Lohnbuchung getauscht. Als Lösung müssen die Konten für Abzüge vertauscht eingetragen werden.
 :::
 
-## Lohnabrechnung
+## Arbeitseinträge
 
 ### Arbeitseinträge anzeigen
 
 Anhand der Anwesenheit und Abwesenheit erstellt Odoo für jeden Mitarbeitenden entsprechende Arbeitseinträge. Diese sind relevant für die Stundenbasierten Lohnabrechnungen.
 
 Die Arbeitseinträge zeigen Sie via *Personalabrechnung > Arbeitseinträge >Arbeitseinträge* an. Hier sehen Sie, ob Mitarbeitende ungeklärte Lücken haben.
+
+### Arbeitseinträge neu generieren
+
+Navigieren Sie nach *Personalabrechnung > Arbeitseinträge >Arbeitseinträge* und wählen Sie Aktion *Arbeitseinträge Neu Generieren*. Im Dialog wählen Sie den Mitarbeitenden und definieren den Zeitraum zur Berechnung. Führen Sie die Erstellung der Arbeitseinträge mit *Arbeitseinträge Neu Generieren* aus.
+
+## Lohnabrechnung
 
 ### Lohnabrechnung erstellen
 
