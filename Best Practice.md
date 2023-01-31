@@ -32,18 +32,24 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Projekte](Best%20Practice%20Projekte.md)
 * [Aufgabenphasen](Best%20Practice%20Aufgabenphasen.md)
 
-### Finanzen
+### Abrechnung
 
 * [Verschiedene Währungen](Best%20Practice%20Verschiedene%20Währungen.md)
 * [Mehrwertsteuer](Best%20Practice%20Mehrwertsteuer.md)
 * [QR-Rechnung](Best%20Practice%20QR%20Rechnung.md)
 * [SEPA Zahlung](Best%20Pratice%20SEPA%20Zahlung.md)
+
+### Finanzen
+
 * [Zahlungsabgleich](Best%20Pratice%20Zahlungsabgleich.md)
 * [Kostenrechnung](Best%20Pratice%20Kostenrechnung.md)
 * [Buchung Gewinn-/Verlustvortrag](Best%20Practice%20Buchung%20Gewinn-Verlust-Vortrag.md)
 * [Devisenhandel](Best%20Practice%20Devisenhandel.md)
-* [Lohnrekapitulation](Best%20Practice%20Lohnrekapitulation.md)
 * [Buchung Zahlungsdifferenzen](Best%20Practice%20Buchung%20Zahlungsdifferenzen.md)
+
+### Personalabrechung
+
+* [Lohnrekapitulation](Best%20Practice%20Lohnrekapitulation.md)
 
 ### Kaufverträge
 

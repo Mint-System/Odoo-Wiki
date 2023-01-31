@@ -89,3 +89,7 @@ Vielen Dank
 ![](assets/Entwicklung%20Snippets%20Begriff.png)
 
 Beim Erstellen des Bericht wird der Platzhalter mit dem *Übersetzungswert* ersetzt.
+
+### Feld oder Button nur in Entwicklermodus anzeigen
+
+Mit einem Snippet könne Sie die das Attribut `groups` eines Elements auf einer Listen- oder Formularansicht anpassen. Mit dem Gruppenzugehörigkeit wird auch die Anzeige im Entwicklermodus gesteuert. Verwenden Sie die Definition `groups="base.group_no_one"`, wenn Sie das Feld oder Button nur im Entwicklermodus anzeigen möchtne.
