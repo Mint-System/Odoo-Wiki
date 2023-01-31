@@ -50,6 +50,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 ### Personalabrechung
 
 * [Lohnrekapitulation](Best%20Practice%20Lohnrekapitulation.md)
+* [Stundenlohn abrechnen](Best%20Practice%20Stundenlohn%20abrechnen.md)
 
 ### Kaufverträge
 

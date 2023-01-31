@@ -50,6 +50,10 @@ Die Lohnregel sind unter *Personalabrechnung > Konfiguration > Regeln* definiert
 
 Regeln für die Sie keine Verwendung haben, können Sie archivieren.
 
+### Lohnart anpassen
+
+Sie Lohnarten müssen unter bestimmten Bedingungen angepasst werden. Navigierne Sie nach *Personalabrechnung > Konfiguration > Regeln* und öffnen Sie die Lohnart, welche Sie ändern möchten. 
+
 ### Finanzkonten den Lohnarten zuweisen
 
 Damit  die Lohnabrechnung auch in der Finanzbuchhaltung ersichtlich ist, müssen Sie für alle Lohnregeln die entsprechenden Soll- und Habenkonten hinterlegen.
@@ -74,21 +78,23 @@ Die Arbeitseinträge zeigen Sie via *Personalabrechnung > Arbeitseinträge >Arbe
 
 Lohnabrechnung können für mehre oder einzelne Mitarbeiter ausgeführt werden.
 
-**Einzeln**
-
 Um eine einzelne Lohnabrechnung zu erzeugen wählen Sie den Mitarbeiter aus *Personal > Mitarbeiter auswählen* und klicken auf den Link *Abrechnungen Mitarbeiterverfügung* und wählen *Anlegen*.
 
 ![Personalabrechnung Einzeln anlegen](assets/Personalabrechnung%20Einzeln%20anlegen.gif)
 
 Legen Sie die Zeitperiode fest, speichern Sie den Eintrag und drücken *Berechnen*. Nun wird die Lohnabrechnung erstellt und ist bereit zur Verbuchung.
 
-**Batch**
+### Lohnabrechnungen mit Batch erstellen
 
-Navigieren Sie nach *Personalabrechnung > Arbeitseinträge > Arbeitseinträge* und wählen den aktuellen Monat. Starten Sie den Batch-Vorgang mit *Lohnabrechnung erzeugen*. Für jeden Mitarbeiter wird nun eine Lohnabrechnung erzeugt und steht bereit zur Prüfung.
+Um mehrere Lohnabrechnungen zu erstellen, müssen Sie zuerst einen Batch erstellen.
+
+Navigieren Sie nach *Personalabrechnung > Arbeitseinträge > Arbeitseinträge* und wählen den aktuellen Monat. Starten Sie den Batch-Vorgang mit *Lohnabrechnung Generieren*. Für jeden angezeigten Mitarbeiter wird nun eine Lohnabrechnung erzeugt und steht zur Prüfung bereit.
 
 ![](assets/Personalbrechung%20Lohnabrechnung%20%C3%BCberpr%C3%BCfen.png)
 
-Mit *Create draft entry* werden die einzelnen Lohnabrechnungen berechnet und eine Buchung vorbereitet.
+Öffnen Sie die einzelnen Lohnabrechnung um Sie zu validieren.
+
+Mit *Bestätigen* werden alle Lohnabrechungen des Batchs bestätigt.
 
 ### Lohnabrechnung verbuchen
 

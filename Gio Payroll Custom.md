@@ -20,6 +20,22 @@ Mit der Installation dieser Erweiterung werden Schweizer Lohnarten aktiviert. Na
 
 ![](assets/Swiss%20Payroll%20Vorschau.png)
 
+### Standardlohnregeln entfernen
+
+Navigieren Sie nach *Personalabrechung > Konfiguration > Regeln* und archivieren Sie diese Lohnregeln:
+
+* ​Grundgehalt (BASIC)
+* Brutto (GROSS)
+* Nettogehalt (NET)
+
+### Gehaltsstruktur auf Strukturtyp festlegen
+
+Navigieren Sie nach *Personalabrechnung > Konfiguraiton > Strukturtypen* und wählen Sie hier *Montaslohn* aus. Im Feld *Reguläre Gehaltsstruktur* wählen Sie den Wert *Lohnabrechnung* aus und speichern die Bearbeitung.
+
+### Strukturtyp auf Arbeitsvertrag festlegen
+
+Navigieren Sie nach *Personalabrechnung > Verträge > Verträge* und öffnen Sie einen Arbeitsvertrag. Im Feld *Art der Gehaltsstruktur* wählen Sie *Monatslohn*aus.
+
 ## Verwendung
 
 ### Anteile Arbeitgeber / Arbeitnehmer konfigurieren
@@ -34,7 +50,20 @@ Geben Sie einen Namen mit Jahresdatum ein und legen Sie die Fix- und Prozentwert
 Legen Sie unbedingt die Monatslohngrenze fest. Nur dann werden ALV und NBU korrekt berechnet.
 :::
 
-![](assets/Pesonalabrechnung%20Anteile%20Arbeitnehmer%20Arbeitgebener.png)
+| Feld               | Wert               |
+| ------------------ | ------------------ |
+| Name               | 2023               |
+| Monatslohngrenze   | 140'000.00         |
+| AHV / IV / EO %    | 5.3000             |
+| ALV %              | 1.1000             |
+| NBU %              | 0.9130             |
+| AHV / IV / EO AG % | AHV / IV / EO AG % |
+| ALV AG %           | 1.1000             |
+| BU %               | 0.1650             |
+
+### Lohntyp festlegen
+
+Navigieren Sie nach *Personalabrechnung > Personal > Verträge* und zeigen Sie den Tab *Gehaltsinformationen* an. Wählen Sie im Feld *Lohntyp* den entsprechenden Wert aus.
 
 ### Gehaltsinformationen auf Arbeitsvertrag hinterlegen
 
