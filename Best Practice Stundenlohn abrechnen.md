@@ -13,13 +13,38 @@ Wenn Sie die Erweiterung [Gio Payroll Custom](Gio%20Payroll%20Custom.md) für Sc
 Lohntyp auf Arbeitsvertrag auf Stundenlohn setzen.
 Auf dem Arbeitsvertrag der Stundenlöhner, müssen Sie *Stundenlohn* als [Lohntyp festlegen](Gio%20Payroll%20Custom.md#Lohntyp%20festlegen)
 
-Damit die gearbeiteten Stunden automatisch aus der Lohnabrechnung ausgelesen werden muss auf der Lohnstruktur *Monatslohn* der *Python Code* ersetzt werden. Sie können die [Lohnart anpassen](Personalabrechnung.md#Lohnart%20anpassen) und diesen Code verwenden:
+Damit die gearbeiteten Stunden automatisch aus der Lohnabrechnung ausgelesen werden muss auf der Lohnart *Monatslohn* die Berechnung ersetzt werden. Sie können die [Lohnart anpassen](Personalabrechnung.md#Lohnart%20anpassen) und diesen Code verwenden:
+
+**Python Code**
 
 ```python
 if contract.gio_wage_type == 'hourly':
-    result = contract.gio_wage_hourly*payslip.sum_worked_hours
+	if payslip.gio_worked_hours > 0.0:
+		result = contract.gio_wage_hourly*payslip.gio_worked_hours
+	else:
+		attendances = contract.employee_id.attendance_ids.search([
+			('check_in', '>=', payslip.date_from),
+			('check_out', '<=', payslip.date_to),
+		])
+		result = contract.gio_wage_hourly*sum(attendances.mapped('worked_hours'))
 else:
     result = contract.gio_wage_monthly
+```
+
+**Basic Python Code**
+
+```python
+if contract.gio_wage_type == 'hourly':
+	if payslip.gio_worked_hours > 0.0:
+		result = payslip.gio_worked_hours
+	else:
+		attendances = contract.employee_id.attendance_ids.search([
+			('check_in', '>=', payslip.date_from),
+			('check_out', '<=', payslip.date_to),
+		])
+		result = sum(attendances.mapped('worked_hours'))
+else:
+    result = 0.0
 ```
 
 Damit beim Erstellen der Abrechnung die korrekte Gehaltsstruktur geladen wird, müssen Sie auf dem Strukturtyp die entsprechende Gehaltsstruktur festlegen. Führen Sie dazu [Gehaltsstruktur auf Strukturtyp festlegen](Gio%20Payroll%20Custom.md#Gehaltsstruktur%20auf%20Strukturtyp%20festlegen) aus.
@@ -32,8 +57,6 @@ Damit auf der Lohnabrechnung die gearbeiteten Stunden eingetragen werden, muss d
 
 ## Beispiel
 
-![](assets/Pasted%20image%2020230131110332.png)
+Wenn die Vorlage der Lohnabrechnung angepasst wurde, können Sie Lohnabrechnungen wie die folgende erstellen:
 
-![](assets/Pasted%20image%2020230131110142.png)
-
-![](assets/Pasted%20image%2020230131110910.png)
+![](assets/Best%20Practice%20Stundenlohn%20abrechnen%20Beispiel.png)
