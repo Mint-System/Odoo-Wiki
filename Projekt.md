@@ -120,3 +120,5 @@ Weil die Berechtigung von *Projekt / Benutzer* nach *Projekt / Administrator* ve
 ### Benachrichtigung bei Erstellung von Aufgabe erhalten
 
 Um eine Benachrichtigung zu erhalten, wenn eine Aufgabe in einem bestimmten Projekt erstellt, müssen Sie das Projekt via *Projekt > Konfiguration > Projekte* bearbeiten. Nun müssen Sie ein [eigenes Abonnement hinzufügen](Diskussion.md#Eigenes%20Abonnement%20hinzufügen). 
+
+![](assets/Projekt%20Subscription%20bearbeiten.png)
