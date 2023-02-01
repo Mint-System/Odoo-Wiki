@@ -36,6 +36,10 @@ Dazu eine Übersicht:
 
 Konfigurieren Sie diese Punkte, erst dann können Sie die [Lohnabrechnung erstellen](#Lohnabrechnung%20erstellen).
 
+### Gehaltsinformationen eingeben
+
+Die Gehaltsinformationen der Mitarbeiter legen Sie via *Pesonal > Mitarbeiter auswählen > Link Verträge > Arbeitsvertrag auswählen > Bearbeiten > Tab Gehaltsinformationen* fest.
+
 ### Bankverbindung hinterlegen
 
 Zur Auszahlung des Lohns über SEPA müssen Sie den Mitarbeiter ein Bankkonto hinterlegen. Navigieren Sie nach *Pesonal > Mitarbeiter auswählen > Bearbeiten > Tab Private Information* und erfassen Sie ein Bankkonto unter *Bankverbindung*.
@@ -92,7 +96,7 @@ Legen Sie die Zeitperiode fest, speichern Sie den Eintrag und drücken *Berechne
 
 ### Lohnabrechnungen mit Batch erstellen
 
-Um mehrere Lohnabrechnungen zu erstellen, müssen Sie zuerst einen Batch erstellen.
+Um mehrere Lohnabrechnungen zu erstellen, müssen Sie einen Lohhnabrechnungslauf starten.
 
 Navigieren Sie nach *Personalabrechnung > Arbeitseinträge > Arbeitseinträge* und wählen den aktuellen Monat. Starten Sie den Batch-Vorgang mit *Lohnabrechnung Generieren*. Für jeden angezeigten Mitarbeiter wird nun eine Lohnabrechnung erzeugt und steht zur Prüfung bereit.
 
@@ -102,7 +106,19 @@ Navigieren Sie nach *Personalabrechnung > Arbeitseinträge > Arbeitseinträge* u
 
 Mit *Bestätigen* werden alle Lohnabrechungen des Batchs bestätigt.
 
-### Lohnabrechnung verbuchen
+### Zahlungsdatei für Batch generieren
+
+Für erledigte oder bezahlte Lohhnabrechnungsläufe können Sie eine Zahlungsdatei erstellen oder neu generieren. Öffnen Sie einen Lohnabrechnungslauf unter *Personalabrechnung > Abrechnung Mitarbeitervergütung > Batches* und klicken Sie auf *Erfasse Zahlung*. Wählen Sie ein Bankkonto aus bestätigen Sie den Dialog mit *Bestätigen*. Es wird nun ein Feld *SEPA File* ersichtlich, klicken Sie darauf um die Zahlungsdatei herunterzuladen.
+
+### Zu bezahlende Lohnabrechnungen anzeigen
+
+Navigieren Sie nach *Personalabrechnung > Abrechnung Mitarbeitervergütung > Zu Bezahlen*.
+
+### Batches anzeigen
+
+Navigieren Sie nach *Personalabrechnung > Abrechnung Mitarbeitervergütung > Batches*.
+
+### Lohnabrechnung buchen
 
 Wählen Sie eine aktuelle Lohnabrechnung, die im Status *Erledigt* ist: *Personalabrechnung > Abrechnung Mitarbeitervergütung > All Payslips > Payslip auswählen*. Öffnen Sie den Tab *Finanzen* und klicken auf den Link unter *Buchung*.
 
@@ -113,10 +129,6 @@ Hier werden alle Buchungen der Lohnabrechnung aufgeführt.
 ::: warning
 Werden die Lohnzahlung als Batch verarbeitet, müssen alle Lohnabrechnungen bestätigt sein, damit eine Zahlung ausgelöst werden kann.
 :::
-
-### Gehaltsinformationen eingeben
-
-Die Gehaltsinformationen der Mitarbeiter legen Sie via *Pesonal > Mitarbeiter auswählen > Link Verträge > Arbeitsvertrag auswählen > Bearbeiten > Tab Gehaltsinformationen* fest.
 
 ### Lohnabrechnung entfernen
 
