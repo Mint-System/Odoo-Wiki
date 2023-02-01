@@ -38,4 +38,4 @@ Speichern Sie die Chance in ihrer Pipeline mit *Hinzufügen*.
 
 ### Chance anreichern
 
-Odoo kann zum Kunden Unternehmensdaten finden und der Chance hinzufügen. Wählen Sie eine Chance auf der Übersicht von *Kundenverwaltung* aus und klicken Sie auf *Aktion > Anreichern*. Wenn Odoo Informationen zum Kunden findet, liestet es diese auf der rechten Seite im Chatter auf.
+Odoo kann zum Kunden Unternehmensdaten finden und der Chance hinzufügen. Wählen Sie eine Chance auf der Übersicht von *Kundenverwaltung* aus und klicken Sie auf *Aktion > Anreichern*. Wenn Odoo Informationen zum Kunden findet, listet es diese auf der rechten Seite im Chatter auf.

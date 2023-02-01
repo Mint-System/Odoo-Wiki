@@ -84,7 +84,7 @@ Der Stundenzettel-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Va
 Der Stundenzettel-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Validieren* und wählt den entsprechenden Zeitraum aus. Mit *Bestätigen* wird ein Validierungsdatum festgelegt.
 
 ### Validierung zurücksetzen
-*Gilt für #Odoo13.**
+*Gilt für #Odoo13.*
 
 Einmal validierte Stundeneinträge können nicht mehr verändert werden. Benötigen Sie dennoch eine korrektur, müssen Sie für jeden Mitarbeitenden folgende Aktion ausführen: *Personal > Mitarbeitenden auswählen > Tab HR Einstellungen öffnen* und dort das Feld *Stundenzettel-Validierungsdatum* anpassen.
 
