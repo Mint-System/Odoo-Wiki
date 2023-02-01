@@ -36,9 +36,32 @@ Navigieren Sie nach *Personalabrechnung > Konfiguraiton > Strukturtypen* und wä
 
 Navigieren Sie nach *Personalabrechnung > Verträge > Verträge* und öffnen Sie einen Arbeitsvertrag. Im Feld *Art der Gehaltsstruktur* wählen Sie *Monatslohn*aus.
 
-### Lohnart zur Rundung des Lohnseinrichten
+### Lohnart zur Rundung des Nettolohn 
 
 
+Damit der Nettolohn gerundet wird müssen Sie folgende [Lohnart erstellen](Personalabrechnung.md#Lohnart%20erstellen):
+
+* **Regelbezeichnung**: Rundung
+* **Kategorie**: Zuwendung
+* **Code**: ROUND
+* **Vergütungsstruktur**: Lohnabrechnung
+* **Erscheint in der Lohnabrechnung**: Deaktivieren
+* **Reihenfolge**: 199
+
+Im Tab *Allgemein* machen Sie diese Angaben:
+
+* **Bedingung basiert auf**: Immer Wahr
+* **Berechnungsart**: Python Code
+* **Python Code**:
+
+```python
+amount = categories.BASIC + categories.ALW + categories.DED + categories.FALW + categories.PAG + categories.WNA
+digits = 0.05
+amount_round = round( (amount + digits / 2) / digits ) * digits
+result = amount_round - amount
+```
+
+Damit der Rundungsbetrag als Verlust gebucht wird müssen Sie die entsprechenden [Finanzkonten den Lohnarten zuweisen](Personalabrechnung.md#Finanzkonten%20den%20Lohnarten%20zuweisen).
 
 ## Verwendung
 

@@ -54,6 +54,23 @@ Die Lohnregel sind unter *Personalabrechnung > Konfiguration > Regeln* definiert
 
 Regeln für die Sie keine Verwendung haben, können Sie archivieren.
 
+### Lohnart erstellen
+
+Navigierne Sie nach *Personalabrechnung > Konfiguration > Regeln* und klicken Sie auf *Anlegen*.
+
+* **Regelbezeichnung**: Name der auf der Lohnabrechnung erscheint
+* **Kategorie**: Zur Berechnung des Nettolohns werden die Lohnarten über die Kategorie summiert. Wählen Sie eine passende Kategorie aus.
+* **Code**: Nummer zur Identifizierung der Lohnart
+* **Vergütungsstruktur**: Standardmässig gibt es hier nur eine Auswahl.
+* **Erscheint in der Lohnabrechnung**: Aktivieren oder deaktivieren.
+* **Reihenfolge**: Bestimmte die Abfolge der Berechnung der Lohnzeilen.
+
+Im Tab *Allgemein* machen Sie diese Angaben:
+
+* **Bedingung basiert auf**: Immer Wahr
+* **Berechnungsart**: Python Code
+* **Python Code**: Geben Sie hier die Formel zur Berechnung der Lohnart ein.
+
 ### Lohnart anpassen
 
 Sie Lohnarten müssen unter bestimmten Bedingungen angepasst werden. Navigierne Sie nach *Personalabrechnung > Konfiguration > Regeln* und öffnen Sie die Lohnart, welche Sie ändern möchten. 
