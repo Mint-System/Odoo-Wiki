@@ -148,7 +148,7 @@ Haben Sie einen Fehler in einer erledigten Lohanbrechnung können Sie diese wie 
 
 ### Lohnbuchungen abgleichen
 
-Standardmässig werden die auszuzahlenden Löhne auf dem *Lohndurchlaufkonto* und dem Konto *Ausstehende Zahlungen* verbucht. Erfasst man für einen Lohnlauf eine Zahlung, importiert diese ins eBanking und gleicht den Beleg später ab, müssen Sie den Beleg mit dem Konto *Ausstehende Zahlungen* abgleichen.
+Standardmässig werden die auszuzahlenden Löhne auf dem *Lohndurchlaufkonto* und dem Konto *Ausstehende Zahlungen* verbucht. Haben Sie für einen Lohnlauf eine Zahlung erfasst, diese ins eBanking importiert und als Beleg zum Abgleich in Odoo importiert, müssen Sie den Beleg mit dem Konto *Ausstehende Zahlungen* abgleichen.
 
 ## Auswertung
 
