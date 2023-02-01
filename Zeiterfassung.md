@@ -111,3 +111,9 @@ for record in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl *Aktion* das Menu *Validierung zurücksetzen*.
+
+## Berichte
+
+### Anwesenheit und Zeiterfassung vergleichen
+
+Navigieren Sie nach *Zeiterfassung > Berichtswesen > Zeiterfassung / Anwesenheit*. In diesem Bericht wird die Differenz zwischen Anwesenheit und erfasster Projektzeit berechnet.
