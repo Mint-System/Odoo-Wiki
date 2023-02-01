@@ -90,6 +90,12 @@ Es erscheint eine Verabschiedung mit Angabe der geleisteten Arbeitszeit.
 
 ![Anwesenheitszeiten Bestätigung Abmeldung](assets/Anwesenheitszeiten%20Best%C3%A4tigung%20Abmeldung.png)
 
+## Berechtigungen
+
+### Manuelle Erfassung Anwesenheit erlauben
+
+Damit Mitarbeitende ihre Anwesenheit manuell erfassen können Navigieren Sie nach *Einstellungen > Technisch > Ansichten* und zeigen die Ansicht *hr.attendance.tree.inherit* an. Im Tab *Zugriffsrechte* fügen Sie die Gruppe *Anwesenheiten / Manuelle Anwesenheit* hinzu.
+
 ## Auswertung
 
 ### Anwesenheitszeiten anzeigen
