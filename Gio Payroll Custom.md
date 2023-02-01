@@ -36,6 +36,10 @@ Navigieren Sie nach *Personalabrechnung > Konfiguraiton > Strukturtypen* und wä
 
 Navigieren Sie nach *Personalabrechnung > Verträge > Verträge* und öffnen Sie einen Arbeitsvertrag. Im Feld *Art der Gehaltsstruktur* wählen Sie *Monatslohn*aus.
 
+### Lohnart zur Rundung des Lohnseinrichten
+
+
+
 ## Verwendung
 
 ### Anteile Arbeitgeber / Arbeitnehmer konfigurieren

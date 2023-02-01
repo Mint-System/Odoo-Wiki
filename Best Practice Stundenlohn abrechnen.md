@@ -23,6 +23,7 @@ if contract.gio_wage_type == 'hourly':
 		result = contract.gio_wage_hourly*payslip.gio_worked_hours
 	else:
 		attendances = contract.employee_id.attendance_ids.search([
+			('employee_id', '=', contract.employee_id.id),
 			('check_in', '>=', payslip.date_from),
 			('check_out', '<=', payslip.date_to),
 		])
@@ -39,6 +40,7 @@ if contract.gio_wage_type == 'hourly':
 		result = payslip.gio_worked_hours
 	else:
 		attendances = contract.employee_id.attendance_ids.search([
+			('employee_id', '=', contract.employee_id.id),
 			('check_in', '>=', payslip.date_from),
 			('check_out', '<=', payslip.date_to),
 		])
