@@ -36,7 +36,7 @@ Navigieren Sie nach *Personalabrechnung > Konfiguraiton > Strukturtypen* und wä
 
 Navigieren Sie nach *Personalabrechnung > Verträge > Verträge* und öffnen Sie einen Arbeitsvertrag. Im Feld *Art der Gehaltsstruktur* wählen Sie *Monatslohn*aus.
 
-### Lohnart zur Aufrundung des Nettolohn 
+### Lohnart zum Aufrunden des Nettolohns erstellen
 
 Damit der Nettolohn auf 0.05 CHF aufgerundet wird, müssen Sie folgende [Lohnart erstellen](Personalabrechnung.md#Lohnart%20erstellen):
 
