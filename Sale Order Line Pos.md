@@ -14,6 +14,8 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 ## Verwendung
 
+Gilt bis #Odoo14 .
+
 ### Positionsnummern generieren
 
 Die Positionsnummern auf einem Verkausauftrag werden mit dieser Erweiterung automatisch generiert.

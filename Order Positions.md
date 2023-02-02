@@ -17,6 +17,7 @@ Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechn
 | [Purchase Order Line Position](Purchase%20Order%20Line%20Position.md) | Einkaufsaufträge mit Positionsnummern.                                        |
 | [Sale Order Line Pos](Sale%20Order%20Line%20Pos.md)                   | Verkaufsaufträge mit Positionsnummern.                                        |
 | [Stock Move Line Position](Stock%20Move%20Line%20Position.md)         | Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen. |
+| [Sale Order Line Position](Sale%20Order%20Line%20Position.md)                   | Verkaufsaufträge mit Positionsnummern.                                        |
 
 ## Berichte
 
