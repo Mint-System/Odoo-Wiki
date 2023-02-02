@@ -26,6 +26,7 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 | [Purchase Order Partner Shipping](Purchase%20Order%20Partner%20Shipping.md)           | Alternative Lieferadresse für Bestellungen.                                               |
 | [Purchase Order Validate](Purchase%20Order%20Validate.md)                             | Bestellung vor Versenden oder Bestätigen überprüfen.                                      |
 | [Purchase Partner Incoterm](Purchase%20Partner%20Incoterm.md)                         | Standardlieferbedingungen für Lieferanten.                                                |
+| [Purchase Stock Sale Owner](Purchase%20Stock%20Sale%20Owner.md)                       | Eigentümer auf Wareneingang aus Verkaufsauftrag zuordnen.                                 |
 | [Purchase Tags](Purchase%20Tags.md)                                                   | Einkaufsbestellungen mit Stichwörter.                                                     |
 | [Purchase order lines with discounts](Purchase%20order%20lines%20with%20discounts.md) | Rabatte auf Einkaufspositionen festlegen.                                                 |
 
