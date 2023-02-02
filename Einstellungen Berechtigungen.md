@@ -60,6 +60,10 @@ Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und ers
 * **Zugriffsrechte**: Zugriffsrechte auf Datenmodelle.
 * **Rechte für Daten**: Filterung von Daten. Übersteuert Zugriffsrechte.
 
+### Rechte auf Daten für Gruppe anpassen
+
+Um die Rechte auf Daten für eine bestimmte Gruppe anzupassen, navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen*. Zeiten Sie Gruppe an und öffnen Sie den den Tab *Rechte auf Daten*.
+
 ## Zugriffsrechte
 
 ### Zugriffsrechte auf Datenmodell vergeben
