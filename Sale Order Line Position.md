@@ -4,7 +4,7 @@ tags:
 - Drittanbieter
 prev: ./order-positions
 ---
-# Sale Order Line Po
+# Sale Order Line Position
 ![icon_oms_box](assets/icon_oms_box.png)
 
 Verkaufsaufträge mit Positionsnummern. 

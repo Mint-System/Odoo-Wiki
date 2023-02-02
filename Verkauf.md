@@ -39,6 +39,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order Line Name Get](Sale%20Order%20Line%20Name%20Get.md)                 | Produktname als Anzeigename für Verkaufspositionen.                           |
 | [Sale Order Line Not Billable](Sale%20Order%20Line%20Not%20Billable.md)         | Produkt als nicht verrechbar festlegen und bei Abrechnunung filtern.          |
 | [Sale Order Line Pos](Sale%20Order%20Line%20Pos.md)                             | Verkaufsaufträge mit Positionsnummern.                                        |
+| [Sale Order Line Position](Sale%20Order%20Line%20Position.md)                   | Verkaufsaufträge mit Positionsnummern.                                        |
 | [Sale Order Line Purchase Margin](Sale%20Order%20Line%20Purchase%20Margin.md)   | Kalkulation der Marge basierend auf verlinkter Bestellung.                    |
 | [Sale Order MRP Production Cancel](Sale%20Order%20MRP%20Production%20Cancel.md) | Verlinkter Fertigungsauftrag bei Abbruch Verkaufsauftrag ebenfalls abbrechen. |
 | [Sale Order Notes](Sale%20Order%20Notes.md)                                     | Verkaufsaufträge mit Notizfelder.                                             |
