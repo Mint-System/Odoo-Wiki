@@ -39,7 +39,7 @@ Und anschliessen den E-Mail-Benutzer gemäss Hinweis authentisieren.
 
 ### Eingehende E-Mails erneut empfangen
 
-Odoo markiert die empfangenen und verarbeiteten E-Mails im Postfach als gelesen. Markieren Sie die E-Mails im Postfach als ungelesen damit Odoo beim der nächsten Ausführung zur Verarbeitung der eingehenden E-Mails die markierten E-Mails erneut verarbeitet.
+Odoo markiert empfangene und verarbeitete E-Mails im Postfach als gelesen. Markieren Sie die E-Mails im Postfach als ungelesen damit Odoo beim der nächsten Ausführung zur Verarbeitung der eingehenden E-Mails die markierten E-Mails erneut verarbeitet.
 
 ## Versand
 

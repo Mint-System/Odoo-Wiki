@@ -38,6 +38,7 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 | [Show DB Name](Show%20DB%20Name.md)                                   | Zeigt den Datenbanknamen oben rechts an.                             |
 | [Web Editor Show Code](Web%20Editor%20Show%20Code.md)                 | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |
 | [Web Responsive](Web%20Responsive.md)                                 | Responsive Anzeige der Odoo-Oberfläche.                              |
+| [Mail Server Filter](Mail%20Server%20Filter.md)                       | Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern.                                                                     |
 
 ## Entwicklermodus
 
