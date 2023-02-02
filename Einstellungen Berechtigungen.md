@@ -66,6 +66,10 @@ Um die Rechte auf Daten für eine bestimmte Gruppe anzupassen, navigieren Sie na
 
 ## Zugriffsrechte
 
+### Zugriffsrechte anpassen
+
+Navigieren Sie nach *Einstellungen > Technisch > Zugriffsrechte* und suchen Sie den Eintrag anhand es Namens. Passen Sie die Berechtigungen auf dieser Ansicht an.
+
 ### Zugriffsrechte auf Datenmodell vergeben
 
 Wenn Sie einer augwewählten Gruppe Zugriffsrechte auf ein Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Datenmodelle*. Rufen Sie hier das ausgewählten Datenmodell aus und zeigen Sie den Tab *Zugriffsrechte* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
