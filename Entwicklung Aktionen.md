@@ -58,6 +58,15 @@ Odoo unterscheidet im wesentlichen zwischen drei Aktionen.
 
 **Automatische Aktion**: Aktion bei bestimmten Zuständen auslösen. Navigieren Sie nach *Einstellungen > Technisch > Automation > Server Aktionen*.
 
+### Fenster-Aktion bearbeiten
+
+Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Fenster öffnen/schliessen* und suchen Sie anhand *Namen der Aktion*. Mehrere Aktionen können den gleichen Namen haben. Die wichtigsten Felder sind:
+
+* **Ansichtsmodus**: Verfügbare Ansichten nach Aufruf der Aktion.
+* **Wertebereich**: Filter für die angezeigten Daten.
+* **Wert aus Kontext**: Kontext-Definitionen.
+* **Ansichten**: Ordnet und spezifiziert die Auswahl der verfügbaren Ansichten.
+
 ### Aktuelle Aktion bearbeiten
 
 Mit jedem Klick auf ein Menü oder Knopf wird in Odoo eine Aktion ausgeührt. Die ausgeführte Aktion können Sie mit *Entwicklertools > Aktion bearbeiten* anzeigen und bearbeiten.

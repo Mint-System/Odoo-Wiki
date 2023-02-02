@@ -96,6 +96,8 @@ Es erscheint eine Verabschiedung mit Angabe der geleisteten Arbeitszeit.
 
 Damit Mitarbeitende ihre Anwesenheit manuell erfassen können Navigieren Sie nach *Einstellungen > Technisch > Ansichten* und zeigen die Ansicht *hr.attendance.tree.inherit* an. Im Tab *Zugriffsrechte* fügen Sie die Gruppe *Anwesenheiten / Manuelle Anwesenheit* hinzu.
 
+Als weiterer Schritt müssen Sie die *Anwesenheit* [Fenster-Aktion bearbeiten](Entwicklung%20Aktionen.md#Fenster-Aktion%20bearbeiten) und den Wert *Wert aus Kontext* auf `{'create': True}` setzen.
+
 ## Auswertung
 
 ### Anwesenheitszeiten anzeigen
