@@ -161,17 +161,21 @@ Falls es auf dem Eintrag eine verknüpfte Buchung gibt, wird diese ebenfalls gel
 
 Haben Sie einen Fehler in einer erledigten Lohanbrechnung können Sie diese wie folgt neu berechnen. Erfassen Sie eine Zahlung, wenn dies nicht bereit getan ist. Wählen Sie *Aktion > Abbrechen*. Nun ist die Lohnabrechnung im Status Abgelehnt. Wählen Sie nun *Auf Entwurf Setzen* und nehmen Sie die Anpassungen vor. Ist alles erledigt, können Sie wie gewohnt die Lohnabrechnung berechnen lassen und bestätigen.
 
+### PDF Lohnabrechnung versenden
+
+Beim Bestätigen der Lohnabrechnung wird das Feld *In Warteschlange für PDF* aktiviert. Die geplante Aktion *Lohnbuchhaltung: PDFs generieren* erstellt und versendet die markierten Lohnabrechnung an den Mitarbeitenden. Dazu wird die E-Mail-Vorlage *Payroll: Neue Gehaltsabrechnung* verwendet.
+
+Um die Lohnabrechnungen in der Warteschleife direkt zu versenden, können Sie die geplante Aktion manuell ausführen.
+
+Damit die Lohnabrechnung als Anhang hinzufugefügt wird, können Sie die E-Mail-Vorlage anpassen.
+
+Wenn Sie die Lohnabrechnung manuell versenden möchten, deaktivieren Sie die geplante Aktion und für die Aktion [Lohnabrechnung versenden](Personalabrechnung%20Aktionen.md#Lohnabrechnung%20versenden) hinzu.
+
 ## Abgleich
 
 ### Lohnbuchungen abgleichen
 
 Standardmässig werden die auszuzahlenden Löhne auf dem *Lohndurchlaufkonto* und dem Konto *Ausstehende Zahlungen* verbucht. Haben Sie für einen Lohnlauf eine Zahlung erfasst, diese ins eBanking importiert und als Beleg zum Abgleich in Odoo importiert, müssen Sie den Beleg mit dem Konto *Ausstehende Zahlungen* abgleichen.
-
-### PDF Lohnabrechnung versenden
-
-Beim Bestätigen der Lohnabrechnung wird das Feld *In Warteschlange für PDF* aktiviert. Die geplante Aktion *Lohnbuchhaltung: PDFs generieren* erstellt und versendet die markierten Lohnabrechnung an den Mitarbeitenden. Dabei wird die E-Mail-Voralge *Payroll: Neue Gehaltsabrechnung* verwendet.
-
-Um die Lohnabrechnungen in der Warteschleife direkt zu versenden, können Sie die geplante Aktion manuell ausführen.
 
 ## Auswertung
 
