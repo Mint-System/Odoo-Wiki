@@ -50,7 +50,7 @@ Zur Auszahlung des Lohns über SEPA müssen Sie den Mitarbeiter ein Bankkonto hi
 Das sind die Regeln, die Informationen über die Gehaltsberechnung liefern. Diese Regeln werden von odoo gemäss der Reihenfolge ihrer Sequenznummer interpretiert. Die Regeln können verwendet werden, um Buchungen zu erzeugen, ohne dass diese in der Gehaltsliste sichtbar sind.
 :::
 
-Die Lohnregel sind unter *Personalabrechnung > Konfiguration > Regeln* definiert. Überprüfen Sie alle Regeln und legen Sie fest welche auf dem Lohnzettel erscheinen sollen.
+Die Lohnregel sind unter *Personalabrechnung > Konfiguration > Regeln* definiert. Überprüfen Sie alle Regeln und legen Sie fest welche auf der Lohnabrechnung erscheinen sollen.
 
 Regeln für die Sie keine Verwendung haben, können Sie archivieren.
 
