@@ -69,13 +69,13 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 Im Formular der Batches erscheint nun in der Auswahl *Aktion* das Menu *Batch zurücksetzen*.
 
-### Lohnbuchung neu erstellen ⚠️
+### Lohnbuchung zurücksetzen
 
 Mit dieser Aktion wird die Buchung der Lohnabrechnung gelöscht und neu erstellt. Die Aktion funktioniert nicht für Lohnabrechnungen, die mit einem Batch erstellt wurden.
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Lohnbuchung neu erstellen ⚠️`\
+Name der Aktion: `Lohnbuchung zurücksetzen`\
 Modell: `hr.payslip`\
 Folgeaktion: `Python-Code ausführen`
 
@@ -87,12 +87,12 @@ for rec in records.filtered(lambda r: not r.payslip_run_id):
 	  rec.move_id.write({'name': '', 'state': 'draft'})
 	  rec.move_id.unlink()
   rec._action_create_account_move()
-  rec.move_id.action_post()
+  # rec.move_id.action_post()
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-Im Formular der Lohnabrechnung erscheint nun die Auswahl *Aktion > Lohnbuchung neu erstellen ⚠️*.
+Im Formular der Lohnabrechnung erscheint nun die Auswahl *Aktion > Lohnbuchung zurücksetzen*.
 
 ## Automatische Aktionen
 
