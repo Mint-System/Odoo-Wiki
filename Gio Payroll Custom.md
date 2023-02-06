@@ -113,3 +113,20 @@ Navigieren Sie nach *Personalabrechnung > Konfiguration > Structures* und öffne
 Damit die Lohndeklaration für die Ausgleichsklasse einfacher gemacht werden, können Sie eine neue Lohnregel erstellen:
 
 ![](assets/Payroll%20Customizations%20Giordano%20Lohndeklaration.png)
+
+* **Regelbezeichnung**: # Lohndeklaration AHV
+* **Kategorie**: Lohndeklaration (DLK)
+* **Code**: 4999
+* **Vergütungsstruktur**: Lohnabrechnung
+* **Erscheint in der Lohnabrechnung**: Deaktivieren
+* **Reihenfolge**: 99
+
+Im Tab *Allgemein* machen Sie diese Angaben:
+
+* **Bedingung basiert auf**: Immer Wahr
+* **Berechnungsart**: Python Code
+* **Python Code**:
+
+```python
+result = categories.BASIC + categories.ALW + categories.PAG
+```
