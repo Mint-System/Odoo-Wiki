@@ -37,8 +37,10 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 | [Mail Server Filter](Mail%20Server%20Filter.md)                       | Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern. |
 | [Mail Service Users](Mail%20Service%20Users.md)                       | Service-Benutzer von Lizenzvertrag ausschliessen.                    |
 | [Show DB Name](Show%20DB%20Name.md)                                   | Zeigt den Datenbanknamen oben rechts an.                             |
+| [Web Dark Mode](Web%20Dark%20Mode.md)                                 | Dark mode für Weboberfläche.                                         |
 | [Web Editor Show Code](Web%20Editor%20Show%20Code.md)                 | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |
 | [Web Responsive](Web%20Responsive.md)                                 | Responsive Anzeige der Odoo-Oberfläche.                              |
+| [Web Theme Classic](Web%20Theme%20Classic.md)                         | Kontrast auf Benutzeroberfläche verbessern.                          |
 
 ## Entwicklermodus
 
