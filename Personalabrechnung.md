@@ -167,6 +167,12 @@ Haben Sie einen Fehler in einer erledigten Lohanbrechnung können Sie diese wie 
 
 Standardmässig werden die auszuzahlenden Löhne auf dem *Lohndurchlaufkonto* und dem Konto *Ausstehende Zahlungen* verbucht. Haben Sie für einen Lohnlauf eine Zahlung erfasst, diese ins eBanking importiert und als Beleg zum Abgleich in Odoo importiert, müssen Sie den Beleg mit dem Konto *Ausstehende Zahlungen* abgleichen.
 
+### PDF Lohnabrechnung versenden
+
+Beim Bestätigen der Lohnabrechnung wird das Feld *In Warteschlange für PDF* aktiviert. Die geplante Aktion *Lohnbuchhaltung: PDFs generieren* erstellt und versendet die markierten Lohnabrechnung an den Mitarbeitenden. Dabei wird die E-Mail-Voralge *Payroll: Neue Gehaltsabrechnung* verwendet.
+
+Um die Lohnabrechnungen in der Warteschleife direkt zu versenden, können Sie die geplante Aktion manuell ausführen.
+
 ## Auswertung
 
 ### Lohnabrechnungszeilen anzeigen
