@@ -4,7 +4,7 @@ tags:
 prev: ./
 ---
 # Ventor PRO
-![](assets/ventor_icon.png)
+![](assets/odoo_icon_ventor.png)
 
 Android-App für die Lagerbewirtschaftung.
 
