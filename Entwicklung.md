@@ -57,6 +57,10 @@ Navigieren Sie nach *Einstellungen > Entwicklertools* und klicken Sie auf *Demo 
 
 ## Navigation
 
+### Menüeinträge anordnen
+
+Im Entwicklermodus navigieren Sie nach  *Einstellungen > Technisch >  Benutzer-Interface > Menüeinträge*. Erstellen Sie einen Filter *Obermenü* mit dem Wert *ist nicht gesetzt*. Nun können Sie die Menüeinträge mit dem Handler in der Liste anordnen.
+
 ### Menüeinträge umbennen
 
 Im Entwicklermodus können Sie ganz einfach Menüeinträge umbennen. Angenommen Sie möchten diesen Punkt umbennen:
