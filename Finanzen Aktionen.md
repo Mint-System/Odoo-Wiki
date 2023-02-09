@@ -202,23 +202,43 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 ```python
 today = datetime.datetime.today()
 
-# Get invoices with recurring inverval within a month
+def add_month(date):
+  
+    # Determine the year and month for the new date
+    new_year = date.year
+    new_month = date.month + 1
+
+    # If the new month is greater than 12, subtract 12 and increment the year
+    if new_month > 12:
+        new_month -= 12
+        new_year += 1
+
+    # Return the new date
+    return datetime.datetime(new_year, new_month, date.day)
+
+# Get posted invoices with recurring interval within the last 40 days
 invoice_ids = env['account.move'].search([
   ('x_recurring_inverval', 'in', ['monthly']),
-  ('invoice_date', '>=', (today - datetime.timedelta(days=35)).strftime('%Y-%m-%d'))
+  ('invoice_date', '>=', (today - datetime.timedelta(days=32)).strftime('%Y-%m-%d'))
 ], order='invoice_date desc')
 
-# Foreach invoice check if it is due
+# Foreach invoice check if is due
 refs = []
 for invoice in invoice_ids:
   
   if invoice.x_recurring_inverval == 'monthly' and invoice.ref not in refs:
+    # Update ref list to avoid multiple duplicates
+    refs.append(invoice.ref)
+    
+    # Duplicate invoice
     invoice_date = invoice.invoice_date
     last_date = datetime.date(today.year, abs(today.month-1), today.day)
-    refs.append(invoice.ref)
-    # Duplicate invoice
     if invoice_date <= last_date:
-      new_invoice = invoice.copy({'date': today})
+      new_invoice = invoice.copy({
+        'invoice_date': add_month(invoice_date),
+        'ref': invoice.ref,
+      })
+      env.cr.commit()
     
-    # raise UserError([invoice.name, refs, invoice_date, last_date,  invoice_date <= last_date, new_invoice])
+    # raise UserError([invoice.name, refs, invoice_date, last_date,  invoice_date <= last_date, add_month(invoice_date)])
 ```
