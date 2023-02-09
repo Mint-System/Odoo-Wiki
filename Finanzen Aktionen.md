@@ -186,7 +186,7 @@ In der Liste der Zahlung erscheint nun in der Auswahl *Aktion* das Menu *Zahlung
 
 ### Rechnung mit Abrechnungsinterval generieren
 
-Das ist eine einfach Lösung um wiederholgende Rechnung zu generieren. Mit dem Zusatzfeld `x_recurring_inverval` wird geprüft ob die Rechnung wieder fällig ist.
+Das ist eine einfach Lösung um wiederholgende Rechnung zu generieren. Mit dem zusätzlichen Feld `x_recurring_inverval` wird geprüft ob die Rechnung wieder fällig ist.
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
