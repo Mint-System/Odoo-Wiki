@@ -12,7 +12,7 @@ Login mit OpenID Connect Provider.
 Technischer Name: `auth_oidc`\
 Repository: <https://github.com/OCA/server-auth/tree/14.0/auth_oidc>
 
-## Verwendung
+## Konfiguration
 
 ### Login mit GitLab konfigurieren
 
@@ -49,6 +49,8 @@ Scope: `openid`
 Token URL: `https://gitlab.com/oauth/token`  
 JWKS URL: `https://gitlab.com/-/jwks`
 
+## Verwendung
+
 ### Login freigeben
 
 Es gibt zwei Registrationsverfahren für neue Benuter: Freigeben und Einrichten.
@@ -57,7 +59,7 @@ Im Freigababeverfahren loggt sich der Benutzer ein:
 
 ![Authentication OpenID Connect Login](assets/Authentication%20OpenID%20Connect%20Login.gif)
 
-Nun wird ein Benutzer-Account in Odoo erstellt und der Adminisrator muss diesen Freigeben:
+Nun wird ein Benutzer-Account in Odoo erstellt und der Administrator muss diesen Freigeben:
 
 ![Authentication OpenID Connect Freigabe](assets/Authentication%20OpenID%20Connect%20Freigabe.gif)
 

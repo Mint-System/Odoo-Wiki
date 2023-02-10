@@ -46,11 +46,15 @@ Einige Aktionen haben den gleichen Namen, testen Sie die Auswahl vorgängig mit 
 
 ## Verknüpfung
 
-### Automatisches Anmelden mit OAuth
+### Automatisches Anmelden mit OAuth ermöglichen
 
-Wenn Sie OAuth mit Google, Odoo.com oder einem anderen Anbieter verwenden, begegnen Sie der Problematik, dass wenn sich ein Benutzer anmeldet, ein Odoo-Account mit den falschen Berechtigungen erstellt wird. Bestimmte OAuth-Anbieter erlauben, dass der Benutzer vorgängig in Odoo angelegt wird. Fall das nicht möglich ist und der OAuth-Provider nur für interne Benutzer verfügbar ist, können Sie die Standardzugriffsrechte für zu Portal-Benutzer festlegen.
+Wenn Sie OAuth mit Google, Odoo.com oder einem anderen Anbieter verwenden, erstellt Odoo beim Anmelden des Benutzer einen Odoo-Account. Dieser Odoo-Account wird als externe Benutzer registiert.
 
-### Anmelden mit Google
+Bestimmte OAuth-Anbieter erlauben, dass der Benutzer vorgängig in Odoo angelegt wird. So können Sie den OAuth-Benutzer als interner Benutzer erfassen und den OAuth-Provider zuweisen.
+
+Fall das nicht möglich ist und der OAuth-Provider nur für interne Benutzer verfügbar ist, können Sie die Standardzugriffsrechte für Portal-Benutzer festlegen.
+
+### Mit Google-Account anmelden
 
 Wählen Sie im Login-Fenster die Option *Log in with Google*. Sie werden nun zur Google-Anmeldemaske umgeleitet. Melden Sie sich mit dem Google-Acccount an und erlauben Sie den Zugriff von Odoo. Sie werden nun zurückgeleitet.
 
@@ -62,7 +66,7 @@ Kontaktieren Sie den/die [AdministratorIn](Rollen.md#Administrator%20In) und bit
 
 ### OAuth Benutzername festlegen
 
-Wurde ein OAuth Provider konfiguriert, kann jedem Odoo Benutzer ein bestimmer OAuth Benutzername hinterlegt werden. Führen Sie diese Aktionen aus *Einstellungen > Benutzer und Unternehmen > Benutzer > Benutzer wählen > Tab Oauth öffnen*. Im Feld *OAuth User ID* können Sie den Benutzernamen für das Login festlegen.
+Wurde ein OAuth Provider konfiguriert, kann jedem Odoo Benutzer ein bestimmer OAuth Benutzername hinterlegt werden. Führen Sie diese Aktionen aus *Einstellungen > Benutzer und Unternehmen > Benutzer > Benutzer wählen > Tab OAuth öffnen*. Im Feld *OAuth User ID* können Sie den Benutzernamen für das Login festlegen.
 
 ![](assets/Integration%20OAuth%20Benutzername.png)
 
