@@ -159,3 +159,47 @@ for record in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 Im Formular der Anwesenheitszeiten erscheint nun in der Auswahl *Aktion* das Menu *Überstunden aktualisieren*.
+
+## Geplante Aktionen 
+
+### Überstunden entfernen
+
+Mit dieser geplanten Aktion werden registrierte Überstunden der Mitarbeitenden mit einem Arbeitsstundensoll von 0 am Ende des Monats entfernt.
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Überstunden entfernen`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Monat\
+Nächstes Ausführungsdatum: `01.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+last_month_until = datetime.date.today().replace(day=1) - datetime.timedelta(days=1)
+last_month_from = last_month_until.replace(day=1)
+
+# Get employees with zero hours work time
+employees = env['hr.employee'].search([
+	('resource_calendar_id.hours_per_day', '=', 0.0)
+])
+
+messages = []
+for employee in employees:
+
+  # Get overtimes of last month
+	overtimes = env['hr.attendance.overtime'].search([
+		('employee_id', '=', employee.id),
+		# ('date', '>=', last_month_from),
+		('date', '<=', last_month_until)
+	])
+	if overtimes:
+		messages.append('Removed these overtime entries for %(name)s:\n' % {'name': employee.name})
+		messages.extend(["- %s: %s\n" % (o.date, round(o.duration, 2)) for o in overtimes])
+		overtimes.unlink
+
+if messages:
+  log(' '.join(messages))
+```
