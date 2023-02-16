@@ -133,10 +133,14 @@ Fügen Sie im Tab *Zugriffsrechte* die Gruppe *Zeiterfassung / Benutzer: nur eig
 
 Anschliessend müssen Sie für *Zeiterfassung Anwesenheitsnachweis* die [Rechte für Daten auf Datenmodell vergeben](Einstellungen%20Berechtigungen.md#Rechte%20für%20Daten%20auf%20Datenmodell%20vergeben):
 
+Für die Benutzer:
+
 * **Name**: *Zeiterfassung / Benutzer: nur eigene Stundenzettel*
 * **Gruppe**: *Zeiterfassung / Benutzer: nur eigene Stundenzettel*
 * **Filter**: `[('user_id', '=', user.id)]`
 * **Berechtigung**: Leseberechtigung
+
+Für die Vorgesetzten:
 
 * **Name**: *Zeiterfassung / Benutzer: Alle Stundenzettel*
 * **Gruppe**: *Zeiterfassung / Benutzer: Alle Stundenzettel*
