@@ -84,7 +84,7 @@ Wenn Sie beim Einkauf das Lager nicht berücksichtigen wollen. Müssen Sie auf d
 
 ### Bestand bei Fertigung ignorieren
 
-Wenn Sie bei Fertigung das Lager nicht berücksichtigen wollen. Müssen Sie auf der Route *Auffüllung nach Auftrag (MTO)* die Fertigungsregel anpassen. Navigieren Sie nach *Lager > Konfiguration > Routen* und öffnen Sie die Route *Auffüllung nach Auftrag (MTO)*.  Bearbeiten Sei die erste Regel *WH: Stock → Customers (MTO)* und legen Sie im Feld *Beschaffungsmethode* den Wert *Eine andere Regel auslösen* aus.
+Wenn Sie bei Fertigung das Lager nicht berücksichtigen wollen. Müssen Sie auf der Route *Auffüllung nach Auftrag (MTO)* die Fertigungsregel anpassen. Navigieren Sie nach *Lager > Konfiguration > Routen* und öffnen Sie die Route *Auffüllung nach Auftrag (MTO)*.  Bearbeiten Sei die erste Regel *WH: Stock → Customers (MTO)* und wählen Sie im Feld *Beschaffungsmethode* den Wert *Eine andere Regel auslösen* aus.
 
 ## Einstellungen
 
