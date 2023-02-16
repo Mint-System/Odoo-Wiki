@@ -16,4 +16,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 ### Lagerbestand zu Zeitpunkt berechnen
 
-Navigieren Sie nach *Lager > Berichtswesen > Übersicht Bestand*. Der Bericht berechnet anhand der Produktlieferung den Bestand für jedes Produkt und Lagerort. Wählen Sie *Lagerbetand Zum Zeitpunkt* und geben Sie im Dialog ein bestimmtes Datum ein. Der Bericht berechnet den Bestand zum gewählten Zeitpunkt aus. 
+Navigieren Sie nach *Lager > Berichtswesen > Übersicht Bestand*. Der Bericht berechnet anhand der Produktlieferungen den Bestand für jedes Produkt und Lagerort. Wählen Sie *Lagerbestand Zum Zeitpunkt* und geben Sie im Dialog ein bestimmtes Datum ein. Wählen Sie weiter mit *Nur interne Lagerorte* aus, ob nur Lagerorte vom Typ *Interner Lagerort* berücksichtigt werden sollen und filtern Sie optional die Struktur der Lagerorte mit der Auswahl *Lagerort*.
+
+Starten Sie den Berechnungs-Vorgang mit *Bestätigen*.
