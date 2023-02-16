@@ -117,3 +117,30 @@ In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl *Aktion*
 ### Anwesenheit und Zeiterfassung vergleichen
 
 Navigieren Sie nach *Zeiterfassung > Berichtswesen > Zeiterfassung / Anwesenheit*. In diesem Bericht wird die Differenz zwischen Anwesenheit und erfasster Projektzeit berechnet.
+
+## Berechtigungen
+
+### Zugriff Bericht Anwesenheit und Zeiterfassung erteilen
+
+Damit Benutzer die [Anwesenheit und Zeiterfassung vergleichen](#Anwesenheit%20und%20Zeiterfassung%20vergleichen) können, müssen Sie Zugriffsrechte auf Menüeinträge anpasst werden.
+
+Als erstes müssen Sie die folgenden [Menüeinträge bearbeiten](Entwicklung.md#Menüeintrag%20bearbeiten):
+
+* *Zeiterfassung/Berichtswesen*
+* *Zeiterfassung/Berichtswesen/Zeiterfassung / Anwesenheit*
+
+Fügen Sie im Tab *Zugriffsrechte* die Gruppe *Zeiterfassung / Benutzer: nur eigene Stundenzettel* hinzu. 
+
+Anschliessend müssen Sie für *Zeiterfassung Anwesenheitsnachweis* die [Rechte für Daten auf Datenmodell vergeben](Einstellungen%20Berechtigungen.md#Rechte%20für%20Daten%20auf%20Datenmodell%20vergeben):
+
+* **Name**: *Zeiterfassung / Benutzer: nur eigene Stundenzettel*
+* **Gruppe**: *Zeiterfassung / Benutzer: nur eigene Stundenzettel*
+* **Filter**: `[('user_id', '=', user.id)]`
+* **Berechtigung**: Leseberechtigung
+
+* **Name**: *Zeiterfassung / Benutzer: Alle Stundenzettel*
+* **Gruppe**: *Zeiterfassung / Benutzer: Alle Stundenzettel*
+* **Filter**: `[]`
+* **Berechtigung**: Leseberechtigung
+
+Nun sollten Benutzer, die nur ihren eigenen Stundenzettel sehen, den Bericht aufrufen können.
