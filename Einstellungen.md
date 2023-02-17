@@ -24,23 +24,24 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 
 ## Erweiterungen
 
-| Erweiterung                                           | Beschreibung                                                         |
-| ----------------------------------------------------- | -------------------------------------------------------------------- |
-| [Audit Log](Audit%20Log.md)                           | Operationen auf Daten loggen.                                        |
-| [Auth Impersonate User](Auth%20Impersonate%20User.md) | Mit einem anderen Benutzer einloggen.                                |
-| [Auth OAuth Keycloak](Auth%20OAuth%20Keycloak)        | Ermöglich Keycloak Integration mit Odoo OAuth.                       |
-| [Auth OIDC](Auth%20OIDC.md)                           | Login mit OpenID Connect Provider.                                   |
-| [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)     | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.   |
-| [Base Recursion Limit](Base%20Recursion%20Limit.md)   | Limit für Python-Rekursionen erhöhen.                                |
-| [Home Background Image](Home%20Background%20Image.md) | Den Odoo-Startbildschirm gestalten.                                  |
-| [Impersonate](Impersonate.md)                         | Schnelles Wechseln zwischen Benutzer-Accounts.                       |
-| [Mail Server Filter](Mail%20Server%20Filter.md)       | Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern. |
-| [Mail Service Users](Mail%20Service%20Users.md)       | Service-Benutzer von Lizenzvertrag ausschliessen.                    |
-| [Show DB Name](Show%20DB%20Name.md)                   | Zeigt den Datenbanknamen oben rechts an.                             |
-| [Web Dark Mode](Web%20Dark%20Mode.md)                 | Dark mode für Weboberfläche.                                         |
-| [Web Editor Show Code](Web%20Editor%20Show%20Code.md) | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |
-| [Web Responsive](Web%20Responsive.md)                 | Responsive Anzeige der Odoo-Oberfläche.                              |
-| [Web Theme Classic](Web%20Theme%20Classic.md)         | Kontrast auf Benutzeroberfläche verbessern.                          |
+| Erweiterung                                             | Beschreibung                                                         |
+| ------------------------------------------------------- | -------------------------------------------------------------------- |
+| [Audit Log](Audit%20Log.md)                             | Operationen auf Daten loggen.                                        |
+| [Auth Impersonate User](Auth%20Impersonate%20User.md)   | Mit einem anderen Benutzer einloggen.                                |
+| [Auth OAuth Keycloak](Auth%20OAuth%20Keycloak)          | Ermöglich Keycloak Integration mit Odoo OAuth.                       |
+| [Auth OIDC](Auth%20OIDC.md)                             | Login mit OpenID Connect Provider.                                   |
+| [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)       | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.   |
+| [Base Recursion Limit](Base%20Recursion%20Limit.md)     | Limit für Python-Rekursionen erhöhen.                                |
+| [Home Background Image](Home%20Background%20Image.md)   | Den Odoo-Startbildschirm gestalten.                                  |
+| [Impersonate](Impersonate.md)                           | Schnelles Wechseln zwischen Benutzer-Accounts.                       |
+| [Mail Server Filter](Mail%20Server%20Filter.md)         | Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern. |
+| [Mail Service Users](Mail%20Service%20Users.md)         | Service-Benutzer von Lizenzvertrag ausschliessen.                    |
+| [Odoo Microsoft Account](Odoo%20Microsoft%20Account.md) | Login mit Microsoft-Account.                                         |
+| [Show DB Name](Show%20DB%20Name.md)                     | Zeigt den Datenbanknamen oben rechts an.                             |
+| [Web Dark Mode](Web%20Dark%20Mode.md)                   | Dark mode für Weboberfläche.                                         |
+| [Web Editor Show Code](Web%20Editor%20Show%20Code.md)   | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |
+| [Web Responsive](Web%20Responsive.md)                   | Responsive Anzeige der Odoo-Oberfläche.                              |
+| [Web Theme Classic](Web%20Theme%20Classic.md)           | Kontrast auf Benutzeroberfläche verbessern.                          |
 
 ## Entwicklermodus
 
