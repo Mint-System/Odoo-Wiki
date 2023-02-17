@@ -198,7 +198,7 @@ for employee in employees:
 	if overtimes:
 		messages.append('Removed these overtime entries for %(name)s:\n' % {'name': employee.name})
 		messages.extend(["- %s: %s\n" % (o.date, round(o.duration, 2)) for o in overtimes])
-		overtimes.unlink
+		overtimes.unlink()
 
 if messages:
   log(' '.join(messages))
