@@ -10,6 +10,12 @@ Spesen erfassen und abrechnen.
 
 Website: <https://www.odoo.com/de_DE/app/expenses>
 
+## Bereiche
+
+| Bereich                                                 | Beschreibung                             |
+| ------------------------------------------------------- | ---------------------------------------- |
+| [Aufwand Aktionen](Aufwand%20Aktionen.md)       | Aktionen für Aufwand App einrichten. |
+
 ## Erweiterungen
 
 | Erweiterung                                                       | Beschreibung                                  |
