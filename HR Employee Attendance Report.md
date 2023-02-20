@@ -30,3 +30,6 @@ Eine Übersicht der Abwesenheitsansprüche:
 
 ![](assets/HR%20Employee%20Attendance%20Report%20Allocations.png)
 
+## Bericht Anwesenheit für bestimmte Benutzer drucken
+
+Navigieren Sie nach *Einstellungen* und wählen Sie *Benutzer verwalten*. Markieren Sie die Benutzer für welche Sie den Bericht erstellen wollen und klicken Sie auf *Aktion > Bericht Anwesenheit*.
