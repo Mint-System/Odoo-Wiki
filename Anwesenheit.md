@@ -103,7 +103,7 @@ Als weiterer Schritt müssen Sie die *Anwesenheit* [Fenster-Aktion bearbeiten](E
 
 Damit Mitarbeitende ihre erfassten Anwesenheiten löschen können, müssen Sie die Zugriffsrechte für die Gruppe *Anwesenheit / Manuelle Anwesenheit* anpassen. Führen Sie [Rechte auf Daten für Gruppe anpassen](Einstellungen%20Berechtigungen.md#Rechte%20auf%20Daten%20für%20Gruppe%20anpassen) aus und erlauben Sie das Löschen der Einträge.
 
-Zusätlich müssen Sie auf den Zugriffsrechten *hr.attendance.system.user* das Löschen erlauben. [[Einstellungen Berechtigungen.md#]] 
+Zusätzlich müssen Sie auf den Zugriffsrechten *hr.attendance.system.user* das Löschen erlauben. 
 
 ## Auswertung
 
