@@ -25,19 +25,19 @@ Unter *Anwesenheitszweiten > Berichtswesen* können Sie die Überzeiten der Mita
 
 ### Eigene Überstunden anzeigen
 
-Mitarbeitende können Ihre Überstunden unter *Account > Mein Profil* anzeigen lassen. Die Summer der Überstunden wird über den gleichnamigen Smart-Link angezeigt.
+Mitarbeitende können Ihre Überstunden unter *Account > Mein Profil* anzeigen lassen. Die Summe der Überstunden wird über den gleichnamigen Smart-Link angezeigt.
 
 ### Alle Überstunden anzeigen
 
 Als Personaldministrator können Sie alle Überstunden im Bericht *Anwesenheit > Berichtswesen* anzeigen lassen. Wählen Sie dazu *Werte > Überstunden*.
 
-### Übersteunden bei Abwesenheit abziehen
+### Überstunden bei Abwesenheit abziehen
 
 Auf Abwesenheitstypen können Sie festlegen, ob Überstunden abgezogen werden können bzw. ob Überstunden mit der Abwesenheit kompensiert werden können.
 
 Öffnen Sie den Abwesenheitstyp via *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Mit der Option *Zusätzliche Stunden abziehen* können Sie festlegen, ob Überstunden abgezogen werden.
 
-Dazu ein Beispielt mit dem Abwesenheitstyp *Übestunden*:
+Dazu ein Beispiel mit dem Abwesenheitstyp *Übestunden*:
 
 ![](assets/Anwesenheitszeiten%20Überstunden%20Abwesenheitstyp.png)
 
@@ -50,7 +50,7 @@ Werden die Überstunden genehmigt, verbucht Odoo am Tag der Erstellung dementspr
 ![](assets/Anwesenheitszeiten%20Überstunden%20kompensiert.png)
 
 ::: warning
-Wenn man die Abwesenheit Rückgängig macht, löscht Odoo die betroffnen Überstunden-Einträge.
+Wenn man die Abwesenheit rückgängig macht, löscht Odoo die betroffenen Überstunden-Einträge.
 :::
 
 ### Überstundenberechnung für Mitarbeitende im Stundenlohn deaktivieren
