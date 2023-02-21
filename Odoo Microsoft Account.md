@@ -33,6 +33,10 @@ Und in den Einstellungen des OAuth-Provider die Authorisierungs-URL entsprechend
 
 ![](assets/Odoo%20Microsoft%20Account%20URL.png)
 
+Verwenden Sie die URLs:
+* **Authorization URL**: `https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/authorize`
+* **UserInfo URL**: `https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/token`
+
 Mit diesen beiden Einstellungen können nur Benutzer aus dem entsprechenden Tenant einloggen.
 
 ## Verwendung
