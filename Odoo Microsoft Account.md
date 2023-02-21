@@ -23,6 +23,18 @@ Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > OAuth-Provider* 
 
 Im Feld *Gültigkeitsbereicht* geben Sie `offline_access User.Read Mail.Read Contacts.ReadWrite Calendars.ReadWrite` ein.
 
+### Login nur für bestimmten Tenant erlauben
+
+Damit nur Benutzer aus einem bestimmten Tenant einloggen können, müssen Sie den OAuth-Client auf Azure als *Single-Tenant* konfigurieren:
+
+![](assets/Odoo%20Microsoft%20Account%20Single%20Tenant.png)
+
+Und in den Einstellungen des OAuth-Provider die Authorisierungs-URL entsprechend festlegen:
+
+![](assets/Odoo%20Microsoft%20Account%20URL.png)
+
+Mit diesen beiden Einstellungen können nur Benutzer aus dem entsprechenden Tenant einloggen.
+
 ## Verwendung
 
 ### Microsoft-Account anlegen
