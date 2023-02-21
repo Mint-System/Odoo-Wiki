@@ -12,6 +12,12 @@ Verkaufsaufträge mit Positionsnummern.
 Technischer Name: `sale_order_line_position`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/15.0/sale_order_line_position>
 
+## Konfiguration
+
+### Positionsnummer wiederhlolen
+
+Navigieren Sie nach *Verkauf > Produkte > Produkte* und zeigen Sie ein Produkt an. Im Tab *Verkauf* aktivieren Sie die Option *Wiederhole Positionsnummer in Auftragszeile*. Wenn Sie nun das Produkt in einem Verkaufsauftrag hinzufügen, wird die vorhergehende Positionummer für dieses Produkt wiederholt.
+
 ## Verwendung
 
 Gilt ab #Odoo15 .

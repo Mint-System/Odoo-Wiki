@@ -23,22 +23,24 @@ und die [Abwesenheitsansprüche exportieren](Abwesenheit%20Datenmanagement.md#Ab
 
 Damit Mitarbeitende ihre Abwesenheiten sauber erfassen können, empfehlen wir diese Typen als Standar:
 
-| Name                   |
-| ---------------------- |
-| Ausgleichstage         |
-| Berufschule            |
-| Bezahlte Absenz        |
-| Home Office            |
-| Kompensation / Gleiten |
-| Krankheit              |
-| Kundentermin           |
-| Messe                  |
-| Militär / Zivilschutz  |
-| Mutterschutz           |
-| Unbezahlter Urlaub     |
-| Unfall                 |
-| Vaterschaft            |
-| Weiterbildung          |
+| Name                   | Genehmigung Abwesenheit     | Genehmeigung Anspruch |
+| ---------------------- | --------------------------- | --------------------- |
+| Ausgleichstage         | Genehmiger des Mitarbeiters | Abwesenheitsmanager   |
+| Berufschule            | Genehmiger des Mitarbeiters | Keine                 |
+| Bezahlte Absenz        | Genehmiger des Mitarbeiters | Keine                 |
+| Ferien 20XX            | Genehmiger des Mitarbeiters | Abwesenheitsmanager   |
+| Home Office            | Genehmiger des Mitarbeiters | Keine                 |
+| Kompensation / Gleiten | Keine                       | Keine                 |
+| Krankheit              | Genehmiger des Mitarbeiters | Keine                 |
+| Kundentermin           | Genehmiger des Mitarbeiters | Keine                 |
+| Messe                  | Genehmiger des Mitarbeiters | Keine                 |
+| Militär / Zivilschutz  | Genehmiger des Mitarbeiters | Keine                 |
+| Mutterschutz           | Genehmiger des Mitarbeiters | Keine                 |
+| Unbezahlter Urlaub     | Genehmiger des Mitarbeiters | Keine                 |
+| Unfall                 | Genehmiger des Mitarbeiters | Keine                 |
+| Vaterschaft            | Genehmiger des Mitarbeiters | Keine                 |
+| Weiterbildung          | Genehmiger des Mitarbeiters | Keine                 |
+| Überstundensaldo       | Keine                       | ABwesenheitsmanager   |
 
 ## Feiertagssaldo
 
