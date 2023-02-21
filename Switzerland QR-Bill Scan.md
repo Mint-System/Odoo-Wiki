@@ -10,7 +10,11 @@ prev: ./finanzen
 Daten aus QR-Code bei Rechnungsimport auslesen.
 
 Technischer Name: `l10n_ch_qr_bill_scan`\
-Repository: <https://github.com/OCA/l10n-switzerland/tree/14.0/l10n_ch_qr_bill_scan>
+Repository: <https://github.com/OCA/l10n-switzerland/tree/14.0>
+
+::: warning
+Dieses Modul ist nur als Pull Request verfügbar. Wir empfehlen als Alternative das Modul [Swiss QR-ESR Scan](Swiss%20QR-ESR%20Scan.md) zur verwenden.
+:::
 
 ## Verwendung
 
