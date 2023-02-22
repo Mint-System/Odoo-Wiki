@@ -79,7 +79,7 @@ Zur Erläuterung ein Beispiel mit einem Arbeitspensum von 42 Stunden.
 | Freitag   | Vormittag     | 07:30 | 11:45 |
 | Freitag   | Nachmittag    | 13:10 | 16:10 |
 
-Der Mitarbeitende gibt Urlaub von 07.04.2023 bis 10.04.2023 ein. Für Montag und Freitag macht Odoo die folgenden Berchnungen:
+Der Mitarbeitende gibt Urlaub von 07.04.2023 bis 10.04.2023 ein. Zwischen diesen Tagen liegt ein Wochenende. Für Montag und Freitag macht Odoo die folgenden Berchnungen:
 
 07.04.2023 Freitag:
 
