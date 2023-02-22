@@ -67,4 +67,29 @@ Odoo rechnet die verbleibenden Tage falsch.
 
 ## Korrektur
 
-Die Fehlberechnung lässt sich mit der Erweiterung [Resource Calendar Get Days](Resource%20Calendar%20Get%20Days.md) korrgieren. Die Erweiterung berechnet die Anzahl Tage einer Abwesenheits relativ zu den Arbeitsstunden des Unternehmens.
+Die Fehlberechnung lässt sich mit der Erweiterung [Resource Calendar Get Days](Resource%20Calendar%20Get%20Days.md) korrgieren. Die Erweiterung berechnet die Anzahl Tage einer Abwesenheit relativ zu den Arbeitsstunden des Unternehmens.
+
+Zur Erläuterung ein Beispiel mit einem Arbeitspensum von 42 Stunden.
+
+| Wochentag | Tageszeitraum | Von   | Bis   |
+| --------- | ------------- | ----- | ----- |
+| Montag    | Vormittag     | 07:30 | 11:45 |
+| Montag    | Nachmittag    | 13:20 | 17:40 |
+| ...       |               |       |       |
+| Freitag   | Vormittag     | 07:30 | 11:45 |
+| Freitag   | Nachmittag    | 13:10 | 16:10 |
+
+Der Mitarbeitende gibt Urlaub von 07.04.2023 bis 10.04.2023 ein. Für Montag und Freitag macht Odoo die folgenden Berchnungen:
+
+07.04.2023 Freitag:
+
+Vormittag: 11.75-7.5 = 4.25
+Nachmittag: 16.166-13.166 = 3
+
+10.04.2023 Montag:
+
+Vormittag: 11.75-7.5 = 4.25
+Nachmittag: 17.666-13.333 = 4.333
+
+Die Summder der Sunden ist: **15.833**
+Die Berechnung der Tage ist: 15.833/8.4 = **1.884**
