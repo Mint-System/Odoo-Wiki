@@ -11,7 +11,7 @@ Beschreibt wie man bestimmte Anwendungsfälle in Odoo implementiert.
 
 Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best Practices verweisen zur Implementation auf die HowTos.
 
-### An- und Abwesenheitszeiten
+### Abwesenheit
 
 * [Abwesenheitstypen](Best%20Practice%20Abwesenheitstypen.md)
 * [Abwesenheit](Best%20Practice%20Abwesenheit.md)
@@ -88,7 +88,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Kontakte](Best%20Practice%20Kontakte.md)
 * [Incoterms](Best%20Practice%20Incoterms.md)
 
-### Technisch
+### Einstellungen
 
 * [E-Mails verarbeiten](Best%20Practice%20E-Mails%20verarbeiten.md)
 * [Odoo Datenmanagement](Best%20Practice%20Odoo%20Datenmanagement.md)
