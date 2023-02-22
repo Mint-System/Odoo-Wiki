@@ -53,7 +53,7 @@ Haben Sie einen Verkaufsauftrag bestätigt und können Sie auf der dazugehörige
 
 ### Incoterms festlegen
 
-Damit Sie die Lieferbedinungen auf einem Angebot festlegen können, müssen Sie Mitglied in der Gruppe *Lieferbedingungen auf Angeboten und Rechnungen anzeigen* sein.
+Damit Sie die Lieferbedingungen auf einem Angebot festlegen können, müssen Sie Mitglied in der Gruppe *Lieferbedingungen auf Angeboten und Rechnungen anzeigen* sein.
 
 Ist diese Bedinung erfüllt können Sie ein Angebot öffnen *Verkauf > Angebot auswählen > Tab Weitere Informationen*. Im Feld *Lieferbedingungen* können Sie die Incoterm festlegen.
 

@@ -33,7 +33,7 @@ Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_blanket_order>
 | [Sale Blanket Order Readonly States](Sale%20Blanket%20Order%20Readonly%20States.md)                     | Bestätigte Rahmenaufträge bearbeiten.                                                            |
 | [Sale Blanket Order Reference](Sale%20Blanket%20Order%20Reference.md)                                   | Kundenreferenz von Rahmenauftrag auf den Verkaufsauftrag kopieren.                               |
 | [Sale Blanket Order Send](Sale%20Blanket%20Order%20Send.md)                                             | Workflow mit Rahmenauftrag per E-Mail.                                                           |
-| [Sale Blanket Order Stock Terms](Sale%20Blanket%20Order%20Stock%20Terms.md)                             | Lieferbedinungen auf dem Rahmenauftrag festlegen.                                                |
+| [Sale Blanket Order Stock Terms](Sale%20Blanket%20Order%20Stock%20Terms.md)                             | Lieferbedingungen auf dem Rahmenauftrag festlegen.                                                |
 | [Sale Blanket Order Template](Sale%20Blanket%20Order%20Template.md)                                     | Vorlagen für Rahmenaufträge.                                                                     |
 
 ## Verwendung

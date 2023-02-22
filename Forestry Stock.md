@@ -19,7 +19,7 @@ Navigieren Sie nach *Lager > Produkte > Produkte* und öffnen Sie ein *Polter*.
 
 ### Lagerbuchungen validieren
 
-Wenn Sie die Zeiterfassungseinträge validieren, wird unter folgenden Bedinungen eine Lagerbuchung erstellt:
+Wenn Sie die Zeiterfassungseinträge validieren, wird unter folgenden Bedingungen eine Lagerbuchung erstellt:
 * Der Zeiterfassungseintrag ist mit einer Aufgabe verknüpft
 * Das verlinkte Produkt ist gelagert
 * Die vorhandene Menge ist nicht negativ

@@ -7,7 +7,7 @@ prev: ./einkauf-kaufverträge
 # Purchase Requisition Incoterm
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Lieferbedinungen auf Kaufverträgen festlegen.
+Lieferbedingungen auf Kaufverträgen festlegen.
 
 Technischer Name: `purchase_requisition_incoterm`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_incoterm>

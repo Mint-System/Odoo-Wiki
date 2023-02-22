@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 ### Zahlungsbedingungen auf Kaufvertrag festlegen
 
-Mit dieser Erweiterung können Sie auf Kaufverträge Zahlungsbedinungen definieren. Bei der Auswahl eines Lieferanten wird dessen Standardbedingungen auf den Kaufvertrag übertragen. 
+Mit dieser Erweiterung können Sie auf Kaufverträge Zahlungsbedingungen definieren. Bei der Auswahl eines Lieferanten wird dessen Standardbedingungen auf den Kaufvertrag übertragen. 
 
 ![](assets/Purchase%20Requisition%20Payment%20Term.png)
 

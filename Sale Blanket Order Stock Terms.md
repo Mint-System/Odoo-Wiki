@@ -7,7 +7,7 @@ prev: ./verkauf-rahmenverträge
 # Sale Blanket Order Stock Terms
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Legen Sie Lieferbedinungen auf dem Rahmenauftrag fest. 
+Legen Sie Lieferbedingungen auf dem Rahmenauftrag fest. 
 
 Technischer Name: `sale_blanket_order_stock_terms`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_stock_terms>
