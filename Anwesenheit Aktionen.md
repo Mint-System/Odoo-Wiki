@@ -52,7 +52,7 @@ for employee in env['hr.employee'].search(employee_domain):
   
   calendar_leaves = env['resource.calendar.leaves'].search([
     ('calendar_id', '=', employee.resource_calendar_id.id),
-    ('work_entry_type_id', '=', 2),
+    # ('work_entry_type_id', '=', 2),
     ('resource_id', '=', False),
     '|', ('date_from', '>=', start_date), ('date_to', '<=', start_date),
   ])

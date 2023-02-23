@@ -43,11 +43,16 @@ Die verfügbaren Überstunden werden nur angezeigt, wenn der Wert positiv ist.
 
 ## Konfiguration
 
-### Abwesenheitstypen erfassen
+### Abwesenheitstyp erfassen
 
-Jede Abwesenheit und Abwesenheitsanspruch wird einem Abwesenheitstyp zugeordnet. Damit Sie jährliche Feriensaldis korrekt erfassen, müssen Sie für jedes Jahr einen Abwesenheitstyp erfassen. Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und duplizieren Sie einen bestehenden Typ. Legen Sie im Bereich *Gültigkeit* das Von- und Bis-Datum fest. Dazu ein Beispiel:
+Jede Abwesenheit und Abwesenheitsanspruch wird einem Abwesenheitstyp zugeordnet. Damit Sie jährliche Feriensaldis korrekt erfassen, müssen Sie für jedes Jahr einen Abwesenheitstyp erfassen. Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und duplizieren Sie einen bestehenden Typ. Legen Sie diese Werte fest:
 
-![](assets/Abwesenheitszeiten%20Übersicht%20Abwesenheitstypen.png)
+* **Name**: Anzeigenamen des Abwesenheitstyp.
+* **Abwesenheitsanträge Genehmigung**: Bestimmen Sie ob die Abwesenheitseinträge genehmigt werden muss.
+* **Einheit der Abwesenheit**: Wählen Sie hier Stunden, Halbtage oder Tage als Einheit.
+* **Zusätzliche Stunden abziehen**: Wenn die Abwesenheit nicht als Arbeitszeit gerechnet werden soll, aktivieren Sie diese Option.
+* **Erfordert Zuweisung**: Bestimmen Sie ob der Abwesenheitsanspruch genehmigt werden muss.
+* **Urlaubsanspruch Genehmigung**: Bestimmen Sie wie der Abwesenheitsanspruch genehmigt wird.
 
 ### Abwesenheitstyp konfigurieren
 
@@ -69,7 +74,7 @@ Auf der Dashboard-Ansicht von *Abwesenheiten* werden alle Abwesenheiten unabhän
 Diese Anpassung geht bei der Aktualisierung oder Neuinstallation des Abwesenheits-Moduls verloren.
 :::
 
-## Feiertage festlegen
+### Feiertage festlegen
 
 Für jeden Arbeitszeiteintrag können Sie Feiertage festlegen. Navigieren Sie nach *Abwesenheit > Konfiguration > Gesetzliche Feiertage*. Erstellen Sie hier einen neuen Eintrag für jeden Feiertag und jedes Arbeitspensum.
 
