@@ -19,7 +19,7 @@ Gilt ab #Odoo15.
 
 ![](assets/Anwesenheitszeiten%20Überstunden.png)
 
-Unter *Anwesenheitszweiten > Berichtswesen* können Sie die Überzeiten der Mitarbeitenden anzeigen.
+Unter *Anwesenheitszweiten > Berichtswesen* können Sie die Überstunden der Mitarbeitenden anzeigen.
 
 ## Verwendung
 
@@ -41,11 +41,11 @@ Dazu ein Beispiel mit dem Abwesenheitstyp *Übestunden*:
 
 ![](assets/Anwesenheitszeiten%20Überstunden%20Abwesenheitstyp.png)
 
-Legt man für den Mitarbeitenden eine Abwesenheit von diesem Typ an, prüft Odoo ob genug Überzeit vorhanden ist.
+Legt man für den Mitarbeitenden eine Abwesenheit von diesem Typ an, prüft Odoo ob genug Überstunden vorhanden sind.
 
 ![](assets/Anwesenheitszeiten%20Überstunden%20Abwesenheit.png)
 
-Werden die Überstunden genehmigt, verbucht Odoo am Tag der Erstellung dementsprechend die Überzeit.
+Werden die Überstunden genehmigt, verbucht Odoo am Tag der Erstellung dementsprechend die Überstunden.
 
 ![](assets/Anwesenheitszeiten%20Überstunden%20kompensiert.png)
 

@@ -52,7 +52,7 @@ Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und
 
 ### Überstunden beziehen
 
-Möchte ein Mitarbeiter seine Überstunden beziehen, gibt er diese als Abwesenheit ein. Angenommen man hat 00:29 Stunden Überzeit, so öffnet man als erstes die *Abwesenheitszeiten.*
+Möchte ein Mitarbeiter seine Überstunden beziehen, gibt er diese als Abwesenheit ein. Angenommen man hat 00:29 Überstunden, so öffnet man als erstes die *Abwesenheitszeiten.*
 
 ![](assets/Odoo%20Abwesenheit%20%C3%9Cberstunden%20anzeigen.png)
 

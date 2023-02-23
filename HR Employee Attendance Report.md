@@ -18,7 +18,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_employee_a
 
 Klicken Sie auf das Account-Menü und wählen Sie *Mein Profil*. Wählen Sie nun *Drucken > Bericht Anwesenheit* um den Anwesenheitsbericht des letzten Monats zu erstellen.
 
-Sie erhalten eine Aufstellung der gearbeiteten Stunden und Berechnung der Überzeit:
+Sie erhalten eine Aufstellung der gearbeiteten Stunden und Berechnung der Überstunden:
 
 ![](assets/HR%20Employee%20Attendance%20Report%20Attendances.png)
 
