@@ -9,5 +9,5 @@ prev: ./finanzen
 
 Alle Buchungszeilen bei Auswahl "nicht gruppiert" anzeigen.
 
-Technischer Name: `account_financial_report_reverse_move_lines`\
+Technischer Name: `account_financial_report_show_grouped_none`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/14.0/account_financial_report_show_grouped_none>
