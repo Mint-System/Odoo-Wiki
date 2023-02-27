@@ -20,7 +20,7 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 | [Einstellungen OAuth](Einstellungen%20OAuth.md)                     | OAuth-Integration mit Odoo.                           |
 | [Einstellungen Technisch](Einstellungen%20Technisch.md)             | Technische Einstellungen zur Odoo-Datenbank.          |
 | [Einstellungen Übersetzung](Einstellungen%20Übersetzung.md)         | Einstellungen zu Sprachpakete und Übersetzungen.      |
-| [Einstellungen Unternehmen](Einstellungen%20Unternehmen.md)                                       | Mehrere Unternehmen mit Odoo verwalten.                                                      |
+| [Einstellungen Unternehmen](Einstellungen%20Unternehmen.md)         | Mehrere Unternehmen mit Odoo verwalten.               |
 
 ## Erweiterungen
 
