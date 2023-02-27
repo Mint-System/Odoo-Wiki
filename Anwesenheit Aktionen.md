@@ -203,3 +203,30 @@ for employee in employees:
 if messages:
   log(' '.join(messages))
 ```
+
+### Überstunden aktualisieren
+
+Mit dieser geplanten Aktion werden die Überstunden anhand der Anwesenheit neu berechnet.
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Überstunden aktualisieren`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Woche\
+Nächstes Ausführungsdatum: `01.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Settings
+days = 7
+start_date = datetime.datetime.today() - datetime.timedelta(days=days)
+
+attendances = env['hr.attendance'].search([
+	('check_in', '>=', start_date)
+])
+
+attendances._update_overtime()
+```
