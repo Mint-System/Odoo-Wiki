@@ -7,7 +7,7 @@ prev: ./best-practice
 
 ## Allgemein
 
-Auf bestimmten Odoo-Objekten können Sie E-Mail-Adressen einrichten. Wurden E-Mails im Postfach von Odoo mit der entsprechenden Adresse gefunden, ordnet Odoo den Inhalt und Anhang des E-Mails dem entsprechendne Odoo-Objekt zu.
+Auf bestimmten Odoo-Objekten können Sie E-Mail-Adressen einrichten. Wenn E-Mails im Postfach von Odoo mit der entsprechenden Adresse eintreffen, dann ordnet Odoo den Inhalt und Anhang des E-Mails dem entsprechenden Odoo-Objekt zu.
 
 ## E-Mail Kopfzeilen
 
@@ -21,11 +21,12 @@ Odoo koordiniert die Kommunikation zwischen Geschäftsobjekten und den E-Mail-Em
 
 ![](assets/Infomaniak%20Kopfzeilen.png)
 
-Diese Header werden beim Empfang der Antwort-Mail von Odoo verarbeitet und entsprechend an das Geschäftsobjekt zugeordnet.
+Diese Header werden beim Empfang der Antwort-Mail von Odoo verarbeitet und entsprechend dem Geschäftsobjekt zugeordnet.
 
 ## Finanzen
 
-Es macht Sinn, dass man Rechnungen per E-Mail empfangen kann. Dazu braucht zwei Einstellungen. Erstens muss man den [eingehenden Mail-Server konfigurieren](Diskussion%20E-Mail.md#Eingehender%20Mail-Server%20konfigurieren). Zweitens muss man [Rechnung per E-Mail empfangen](Finanzen.md#Rechnung%20per%20E-Mail%20empfangen).
+Es macht Sinn, dass man Rechnungen per E-Mail empfangen kann. Dazu braucht es zwei Einstellungen. Erstens muss man den [eingehenden Mail-Server konfigurieren](Diskussion%20E-Mail.md#Eingehender%20Mail-Server%20konfigurieren).
+Zweitens muss man [Rechnung per E-Mail empfangen](Finanzen.md#Rechnung%20per%20E-Mail%20empfangen) einrichten.
 
-Wurde alles eingerichtet könne Sie mit [Nachrichten abrufen](Diskussion.md#Nachrichten%20abrufen) den Abruf der E-Mails aus dem Odoo-Postfach forcieren.
+Wenn alles eingerichtet ist, dann können Sie mit [Nachrichten abrufen](Diskussion.md#Nachrichten%20abrufen) den Abruf der E-Mails aus dem Odoo-Postfach anstossen.
 
