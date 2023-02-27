@@ -91,12 +91,15 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 ### Einstellungen
 
-* [E-Mails verarbeiten](Best%20Practice%20E-Mails%20verarbeiten.md)
 * [Odoo Datenmanagement](Best%20Practice%20Odoo%20Datenmanagement.md)
 * [Externe ID](Best%20Practice%20Externe%20ID.md)
 * [Chatter](Best%20Practice%20Chatter.md)
 * [Datumsfelder](Best%20Practice%20Datumsfelder.md)
 * [Direct Print](Best%20Practice%20Direct%20Print.md)
+
+### Einstellungen E-Mail
+
+* [E-Mails verarbeiten](Best%20Practice%20E-Mails%20verarbeiten.md)
 * [E-Mail Vorlagen](Best%20Practice%20E-Mail%20Vorlagen.md)
 * [Kommunikation mit Odoo](Best%20Practice%20Kommunikation%20mit%20Odoo.md)
 
