@@ -54,6 +54,12 @@ Erlbauen Sie den Zugriff auf ihren Kalender. Anschliessend werden Sie zu Odoo zu
 
 Wenn Sie die [Outlook-Kalender-Synchronisation aktivieren](#Outlook-Kalender-Synchronisation%20aktivieren), können Mitarbeitende den Odoo Kalender mit dem Outlook Kalender synchronsieren.
 
+::: warning
+Entfernen Sie vor der Synchronisation alle Termine mit Teilnehmer aus ihrem Odoo-Kalender. Die Aktivierung der Kalender-Synchronisation führt dazu, dass Outlook Einladung für Termine mit Teilnehmer versendet. 
+:::
+
 Als Mitarbeitenden öffnen Sie die *Kalender* App und klicken auf *🔃 Outlook*. Sie werden zur Microsoft-Login-Seite umgeleitet. Loggen Sie sich mit ihrem Microsoft-Account ein und erlauben Sie den Zugriff von Odoo auf ihr Profil.
 
 ![](assets/Kalender%20Microsoft%20Zugriff.png)
+
+Anschliessend werden Sie zurück nach Odoo umgleitet und die Termine werden synchronisiert.
