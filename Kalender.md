@@ -62,4 +62,6 @@ Als Mitarbeitenden öffnen Sie die *Kalender* App und klicken auf *🔃 Outlook*
 
 ![](assets/Kalender%20Microsoft%20Zugriff.png)
 
-Anschliessend werden Sie zurück nach Odoo umgleitet und die Termine werden synchronisiert.
+Anschliessend werden Sie zurück nach Odoo umgleitet und die Termine werden synchronisiert. Im Kalender wird die erfolgreiche Synchronisierung mit dieser Anzeige markiert:
+
+![](assets/Kalender%20Outlook%20Sync.png)
