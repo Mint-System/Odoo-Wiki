@@ -8,7 +8,7 @@ prev: ./einstellungen
 
 OAuth-Integration mit Odoo.
 
-## Verknüpfung
+## Konfiguration
 
 ### Odoo als OAuth-Client auf Azure registrieren
 
@@ -42,6 +42,8 @@ Kopieren Sie das Feld *Wert*, es handelt sich hierbei um das *Client Secret*.
 
 ![](assets/Einstellungen%20OAuth%20Paste%20Client%20ID%20and%20Secret.png)
 
+## Verwendung
+
 ### Outlook OAuth-Verbindung einrichten
 
 Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server*. Markieren Sie den Eintrag *Outlook* auf dem Mail-Server. Klicken Sie auf *Connect your Outlook account* und loggen Sie sich mit dem Postfach-Benutzer ein.
@@ -51,3 +53,19 @@ Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server*. Marki
 ### OAuth-Token regenerieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server* oder *Einstellungen > Technisch > Ausgehender Mail-Server*. Öffnen Sie einen Eintrag mit einer OAuth-Verbindung. Klicken Sie auf *Edit settings*. Der OAuth-Authorisierungsflow wird gestartet. Loggin Sie sich mit dem Postfach-Benutzer ein. Anschliessend werden Sie wieder nach Odoo zurückgeführt. Damit wurden das OAuth-Token regeneriert.
+
+### OAuth Benutzername festlegen
+
+Wurde ein OAuth Provider konfiguriert, kann jedem Odoo Benutzer ein bestimmer OAuth Benutzername hinterlegt werden. Führen Sie diese Aktionen aus *Einstellungen > Benutzer und Unternehmen > Benutzer > Benutzer wählen > Tab OAuth öffnen*. Im Feld *OAuth User ID* können Sie den Benutzernamen für das Login festlegen.
+
+![](assets/Integration%20OAuth%20Benutzername.png)
+
+### Mit Google-Account anmelden
+
+Wählen Sie im Login-Fenster die Option *Log in with Google*. Sie werden nun zur Google-Anmeldemaske umgeleitet. Melden Sie sich mit dem Google-Acccount an und erlauben Sie den Zugriff von Odoo. Sie werden nun zurückgeleitet.
+
+Falls ihr Benutzer in Odoo noch nicht existiert hat, erscheint die folgende Meldung:
+
+![Einstellungen Login Fehler](assets/Einstellungen%20Login%20Fehler.png)
+
+Kontaktieren Sie den/die [AdministratorIn](Rollen.md#Administrator%20In) und bitten Sie um eine Freigabe. Wurde die Freigabe erstellt, loggen Sie sich erneut ein.

@@ -106,11 +106,11 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *
 
 ![Finanzen Buchungszeilen aktualisieren](assets/Finanzen%20Buchungszeilen%20aktualisieren.gif)
 
-### Reset to Draft
+### Auf Entwurf setzen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Reset to Draft`
+Name der Aktion: `Auf Entwurf setzen`
 Modell: `account.move`
 Folgeaktion: `Python-Code ausführen`
 
@@ -123,7 +123,7 @@ for record in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Reset to Draft*.
+In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Auf Entwurf setzen.
 
 ### Abstimmung zurücksetzen
 
@@ -144,11 +144,11 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Vorgänge erscheint nun in der Auswahl *Aktion* das Menu *Abstimmung zurücksetzen*.
 
-### Reset to Posted
+### Als gebucht markieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Reset to Posted`
+Name der Aktion: `Als gebucht markieren`
 Modell: `account.move`
 Folgeaktion: `Python-Code ausführen`
 
@@ -161,7 +161,7 @@ for record in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Reset to Posted*.
+In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Als gebucht markieren*.
 
 ### Zahlung gesendet zurücksetzen
 
@@ -181,6 +181,27 @@ for record in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 In der Liste der Zahlung erscheint nun in der Auswahl *Aktion* das Menu *Zahlung gesendet zurücksetzen*.
+
+### Mahnstufe anzeigen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Mahnstufe anzeigen`\
+Modell: `res.partner`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```python
+records.ensure_one()
+followup_level = records._query_followup_level()
+raise UserError(followup_level.items())
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+
+
 
 ## Geplante Aktionen
 

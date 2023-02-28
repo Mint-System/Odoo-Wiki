@@ -8,6 +8,16 @@ prev: ./einstellungen
 
 Odoo-Einstellungen zum Benutzer und Anmeldeverfahren.
 
+## Konfiguration
+
+### Interne Benutzer-Vorlage bearbeiten
+
+Wenn Sie neue interne Benutzer erstellen, verwendet Odoo dazu die interne Benutzer-Vorlage. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie *Filter > Inaktive Benutzer*. Klicken Sie auf *Default User Template* und passen Sie die Vorlage gemäss ihren Anforderungen an.  
+
+### Portal-Benutzer-Vorlage bearbeiten
+
+Wenn sich neue Portal-Benutzer registrieren oder erstellt werden, verwendet Odoo dazu die Portal-Benutzer-Vorlage. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie *Filter > Inaktive Benutzer*. Klicken Sie auf *Portal User Template* und passen Sie die Vorlage gemäss ihren Anforderungen an.
+
 ## Benutzerverwaltung
 
 ### Benutzer anzeigen
@@ -43,32 +53,6 @@ Einige Aktionen haben den gleichen Namen, testen Sie die Auswahl vorgängig mit 
 :::
 
 ![](assets/Einstellungen%20Login%20Start-Aktion.png)
-
-## Verknüpfung
-
-### Automatisches Anmelden mit OAuth ermöglichen
-
-Wenn Sie OAuth mit Google, Odoo.com oder einem anderen Anbieter verwenden, erstellt Odoo beim Anmelden des Benutzer einen Odoo-Account. Dieser Odoo-Account wird als externe Benutzer registiert.
-
-Bestimmte OAuth-Anbieter erlauben, dass der Benutzer vorgängig in Odoo angelegt wird. So können Sie den OAuth-Benutzer als interner Benutzer erfassen und den OAuth-Provider zuweisen.
-
-Fall das nicht möglich ist und der OAuth-Provider nur für interne Benutzer verfügbar ist, können Sie die Standardzugriffsrechte für Portal-Benutzer festlegen.
-
-### Mit Google-Account anmelden
-
-Wählen Sie im Login-Fenster die Option *Log in with Google*. Sie werden nun zur Google-Anmeldemaske umgeleitet. Melden Sie sich mit dem Google-Acccount an und erlauben Sie den Zugriff von Odoo. Sie werden nun zurückgeleitet.
-
-Falls ihr Benutzer in Odoo noch nicht existiert hat, erscheint die folgende Meldung:
-
-![Einstellungen Login Fehler](assets/Einstellungen%20Login%20Fehler.png)
-
-Kontaktieren Sie den/die [AdministratorIn](Rollen.md#Administrator%20In) und bitten Sie um eine Freigabe. Wurde die Freigabe erstellt, loggen Sie sich erneut ein.
-
-### OAuth Benutzername festlegen
-
-Wurde ein OAuth Provider konfiguriert, kann jedem Odoo Benutzer ein bestimmer OAuth Benutzername hinterlegt werden. Führen Sie diese Aktionen aus *Einstellungen > Benutzer und Unternehmen > Benutzer > Benutzer wählen > Tab OAuth öffnen*. Im Feld *OAuth User ID* können Sie den Benutzernamen für das Login festlegen.
-
-![](assets/Integration%20OAuth%20Benutzername.png)
 
 ## Portalzugriff
 
