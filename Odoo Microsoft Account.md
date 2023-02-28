@@ -17,15 +17,20 @@ Odoo App Store: <https://apps.odoo.com/apps/modules/16.0/odoo_microsoft_account/
 
 ### Microsoft OAuth-Provider einrichten
 
-Damit der OAuth-Flow mit Microsoft-Azure funktioniert, müssen Sie [Odoo als OAuth-Client auf Azure registrieren](Einstellungen%20OAuth.md#Odoo%20als%20OAuth-Client%20auf%20Azure%20registrieren). Verwenden Sie in diesem Fall die *Redirect URI* `https://odoo.example.com/auth_oauth/microsoft/signin`.
+Damit der OAuth-Flow mit Microsoft-Azure funktioniert, müssen Sie [Odoo als OAuth-Client auf Azure registrieren](Einstellungen%20OAuth.md#Odoo%20als%20OAuth-Client%20auf%20Azure%20registrieren). Verwenden Sie zusätzliche diese Angaben:
+
+* **Name**: Odoo Login
+* **Redirect URI**: `https://odoo.example.com/auth_oauth/microsoft/signin`.
 
 Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > OAuth-Provider* und Zeigen Sie den Provider *Microsoft OAuth2* an. Überschreiben Sie die Werte im Feld *Client ID* und *Secret Key* mit den Angaben aus der vorhergehenden Registration.
 
 Im Feld *Gültigkeitsbereicht* geben Sie `offline_access User.Read Mail.Read Contacts.ReadWrite Calendars.ReadWrite` ein.
 
-### Login nur für bestimmten Tenant erlauben
+### Login nur für eigenen Tenant erlauben
 
-Damit nur Benutzer aus einem bestimmten Tenant einloggen können, müssen Sie den OAuth-Client auf Azure als *Single-Tenant* konfigurieren:
+Damit nur Benutzer aus dem eigenen Tenant einloggen können, müssen Sie den OAuth-Client auf Azure als *Single-Tenant* konfigurieren:
+
+* **Unterstützte Kontentypen**: Nur Konten in diesem Organisationsverzeichnis (einzelner Mandant)
 
 ![](assets/Odoo%20Microsoft%20Account%20Single%20Tenant.png)
 
@@ -34,6 +39,7 @@ Und in den Einstellungen des OAuth-Provider die Authorisierungs-URL entsprechend
 ![](assets/Odoo%20Microsoft%20Account%20URL.png)
 
 Verwenden Sie die URLs:
+
 * **Authorization URL**: `https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/authorize`
 * **UserInfo URL**: `https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/token`
 

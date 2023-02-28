@@ -18,7 +18,11 @@ Termine Team- und Anwendungs-übergreifend organisieren.
 
 ### Outlook-Kalender-Synchronisation aktivieren
 
-Erstellen oder Aktualisieren Sie die OAuth-App, welche Sie der Anleitung [Odoo als OAuth-Client auf Azure registrieren](Einstellungen%20OAuth.md#Odoo%20als%20OAuth-Client%20auf%20Azure%20registrieren) erstellt haben. Fügen Sie die  *Redirect URI* `https://odoo.example.com/microsoft_account/authentication` hinzu.
+Damit die Kalender-Synchronisation möglich ist, müssen Sie [Odoo als OAuth-Client auf Azure registrieren](Einstellungen%20OAuth.md#Odoo%20als%20OAuth-Client%20auf%20Azure%20registrieren). Verwenden Sie diese Angaben:
+
+* **Name**: Odoo Kalender
+* **Unterstützte Kontentypen**: Konten in einem beliebigen Organisationsverziechnis (mehrinstanzenfähig)
+* **Redirect URI** `https://odoo.example.com/microsoft_account/authentication`
 
 Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Integration*. Aktivieren Sie die Option *Outlook-Kalender*. Füllen Sie die Felder *Client ID* und *Client Secret* mit den Werten aus der Registration der OAuth-app aus.
 
