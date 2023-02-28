@@ -72,8 +72,8 @@ Anschliessend werden Sie zurück nach Odoo umgleitet und die Termine werden sync
 
 ![](assets/Kalender%20Outlook%20Sync.png)
 
-## Kalender-Synchronisation-Tokens anzeigen
+### Kalender-Synchronisation Zugriff-Tokens anzeigen
 
-Für jeden Odoo-Benutzer, der die Kalender-Synchronisation einrichtet, speichert Odoo sog. Tokens ab. Zeigen Sie einen Benutzer via *Einstellungen > Benutzer und Unternehmen > Benutzer* an und öffnen Sie den Tab *Kalender*. Hier sehen Sie die Tokens, welche Odoo für den Benutzer speichert um auf die Schnittstelle des Kalender-Anbieter zuzugreifen.
+Für jeden Odoo-Benutzer, der die Kalender-Synchronisation einrichtet, speichert Odoo sog. Tokens ab. Zeigen Sie einen Benutzer via *Einstellungen > Benutzer und Unternehmen > Benutzer* an und öffnen Sie den Tab *Kalender*. Hier sehen Sie die Tokens, die Odoo für die Benutzer speichert, um auf die Schnittstelle des Kalender-Anbieter zuzugreifen.
 
 ![](assets/Kalender%20Benutzer%20Outlook%20Tokens.png)
