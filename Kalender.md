@@ -8,6 +8,12 @@ prev: ./
 
 Termine Team- und Anwendungs-übergreifend organisieren.
 
+## Bereiche
+
+| Bereich                                     | Beschreibung                      |
+| ------------------------------------------- | --------------------------------- |
+| [Kalender Aktionen](Kalender%20Aktionen.md) | Kalender-Prozesse automatisieren. |
+
 ## Konfiguration
 
 ### Outlook-Kalender-Synchronisation aktivieren
@@ -65,3 +71,9 @@ Als Mitarbeitenden öffnen Sie die *Kalender* App und klicken auf *🔃 Outlook*
 Anschliessend werden Sie zurück nach Odoo umgleitet und die Termine werden synchronisiert. Im Kalender wird die erfolgreiche Synchronisierung mit dieser Anzeige markiert:
 
 ![](assets/Kalender%20Outlook%20Sync.png)
+
+## Kalender-Synchronisation-Tokens anzeigen
+
+Für jeden Odoo-Benutzer, der die Kalender-Synchronisation einrichtet, speichert Odoo sog. Tokens ab. Zeigen Sie einen Benutzer via *Einstellungen > Benutzer und Unternehmen > Benutzer* an und öffnen Sie den Tab *Kalender*. Hier sehen Sie die Tokens, welche Odoo für den Benutzer speichert um auf die Schnittstelle des Kalender-Anbieter zuzugreifen.
+
+![](assets/Kalender%20Benutzer%20Outlook%20Tokens.png)
