@@ -11,7 +11,7 @@ In diesem Best Practice wird der Umgang mit Ferien- und Überstundensaldo beschr
 
 Wenn Sie die App Abwesenheit einführen und die Überstunden der Mitarbeitenden aus einem anderen System übertragen wollen, können Sie einen *Überstundensaldo* [Abwesenheitstyp erfassen](Abwesenheit.md#Abwesenheitstyp%20erfassen).
 
-Für die Mitarbeitenden können Sie einen Abwesenheitsanspruch erstellen und die Überstunden eintragen. Die Mitarbeitenden können das Abwesenheiten vom Typ Überstundensaldo eintragen.
+Für die Mitarbeitenden können Sie einen Abwesenheitsanspruch erstellen und die Überstunden eintragen. Die Mitarbeitenden können die Abwesenheiten vom Typ Überstundensaldo eintragen.
 
 ## Feriensaldo
 
