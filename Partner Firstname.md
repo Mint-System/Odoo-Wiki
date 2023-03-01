@@ -4,13 +4,13 @@ tags:
 - OCA
 prev: ./kontakte
 ---
-# Partner Firstname
+# # Partner first name and last name
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Unterscheidet Vor- und Nachnamen.
 
 Technischer Name: `partner_firstname`\
-Repository: <https://github.com/OCA/partner-contact/tree/15.0/partner_firstname>
+Repository: <https://github.com/OCA/partner-contact/tree/16.0/partner_firstname>
 
 ## Verwendung
 
