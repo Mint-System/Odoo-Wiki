@@ -21,7 +21,7 @@ und die [Abwesenheitsansprüche exportieren](Abwesenheit%20Datenmanagement.md#Ab
 
 ## Vorlage für Abwesenheitstypen
 
-Damit Mitarbeitende ihre Abwesenheiten sauber erfassen können, empfehlen wir diese Typen als Standar:
+Damit Mitarbeitende ihre Abwesenheiten sauber erfassen können, empfehlen wir diese Typen als Standard:
 
 | Name                   | Genehmigung Abwesenheit     | Genehmeigung Anspruch |
 | ---------------------- | --------------------------- | --------------------- |
