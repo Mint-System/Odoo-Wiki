@@ -12,10 +12,12 @@ Website: <https://www.odoo.com/de_DE/app/ecommerce>
 
 ## Erweiterungen
 
-| Erweiterung                                         | Beschreibung                               |
-| --------------------------------------------------- | ------------------------------------------ |
-| [Website Shop Coupons](Website%20Shop%20Coupons.md) | Website Coupons & Gutscheine im Odoo Shop. |
-| [Website Berichte](Website%20Berichte.md)           | Verkaufszahlen analysieren.                |
+| Erweiterung                                                                               | Beschreibung                                                         |
+| ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [Payment Saferpay](Payment%20Saferpay.md)                                                 | Zahlungsanbieter für Saferpay (ohne Zahlungstokens).                 |
+| [Sale Subscription Disable Tokenization](Sale%20Subscription%20Disable%20Tokenization.md) | Abonnements mit Zahlungsanbieter ohne wiederkehrende Zahlung kaufen. |
+| [Website Berichte](Website%20Berichte.md)                                                 | Verkaufszahlen analysieren.                                          |
+| [Website Shop Coupons](Website%20Shop%20Coupons.md)                                       | Website Coupons & Gutscheine im Odoo Shop.                           |
 
 ## Produktverwaltung
 
