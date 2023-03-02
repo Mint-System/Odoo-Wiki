@@ -416,6 +416,27 @@ elif len(move_lines_to_unreserve) == 1:
 
 Zur Ausführung dieses Berichts müssen Sie [Superuser werden](Einstellungen.md#Superuser%20werden).
 
+### Reservationsdatum aktualisieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Reservationsdatum aktualisieren`\
+Modell: `stock.move`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for rec in records:
+	rec.write({
+	  'reservation_date': rec.date
+	})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+Zeigen Sie die Liste der Lagebuchungen an, markieren Sie die Einträge und wählen Sie *Aktion > Reservationsdatum aktualisieren*.
+
 ## Geplante Aktionen
 
 ### Los aus Anlieferung zuweisen
