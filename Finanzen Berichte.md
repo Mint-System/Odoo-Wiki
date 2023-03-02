@@ -10,7 +10,7 @@ Finanzberichte erstellen.
 
 ## Konfiguration
 
-### Option *Alle auffalten* aktivieren
+### Option "Alle auffalten" aktivieren
 
 Wenn Sie in Finannzberichen die Option *Alle auffalten* vermissen, navigieren Sie nach *Finanzen > Konfiguation > Finanzberichte* und öffnen hier den entsprechenden Bericht. Aktivieren Sie die Option *Filter zum Aufklappen aller Optionen anzeigen*. Auf dieser Ansicht können Sie auch weitere Optionen akivieren und deaktivieren.
 
@@ -125,6 +125,20 @@ Wenn Sie einen Mahbericht öffnen, befinden Sie sich technisch auf einem Kontakt
 Mit dem Bericht *Finanzen > Berichtswesen > Überfällige Forderungen* können Sie für einen oder mehrere Kunden die offenen Debitoren anzeigen lassen.
 
 ![](assets/Finanzen%20Berichte%20Forderunen.png)
+
+::: tip
+Mit dem Datumsfilter können Sie die Forderungen zu einem bestimmten Zeitpunkt, beispielsweise Ende letztes Geschäftsjahr, anzeigen lassen.
+:::
+
+## Verbindlichkeiten
+
+### Überfällige Verbindlichkeit anzeigen
+
+Mit dem Bericht *Finanzen > Berichtswesen > Überfällige Verbindlichkeit* können Sie für einen oder mehrere Lieferanten die offenen Kreditoren anzeigen lassen.
+
+::: tip
+Mit dem Datumsfilter können Sie die Verbindlichkeiten zu einem bestimmten Zeitpunkt, beispielsweise Ende letztes Geschäftsjahr, anzeigen lassen.
+:::
 
 ## Kontoauszug
 
