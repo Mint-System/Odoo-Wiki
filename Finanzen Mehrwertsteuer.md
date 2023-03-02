@@ -89,7 +89,7 @@ Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und legen Sie im Feld *
 
 ## International
 
-### Steuersätze abhängig von Land überschreiben
+### Steuerzurodnung anzeigen
 
 Navigieren Sie nach *Finanzen > Konfiguration > Steuerzuordnung*. Hier finden Sie standardmässig zwei Einträge:
 
@@ -100,11 +100,15 @@ Navigieren Sie nach *Finanzen > Konfiguration > Steuerzuordnung*. Hier finden Si
 Die Standardkonfiguration von Odoo sieht vor, dass alle Internationalen Import/Export eine Steuerzuordnung von 0.0% erhalten.
 :::
 
+### Steuerzuordnung für ausgewähltes Land festlegen
+
+Erstellen oder Kopieren Sie unter *Finanzen > Konfiguration > Steuerzuordnung* einen neuen Eintrag. Im Feld *Land* oder *Ländergruppe* können Sie das ausewählte Land eintragen. Im Tab *Steuerzuordnung* fügen Sie die ursprünglichen und neuen Steuersätze hinzu.
+
 ### Steuerzuordnung auf Lieferant festlegen
 
 Zeigen Sie *Finanzen > Lieferanten > Lieferanten* an. Öffnen Sie einen bestimmten Lieferanten und zeigen Sie den Tab *Verkauf & Einkauf* an. Wählen Sie im Feld *Steuerzuordnung* einen Wert aus.
 
-### Steuerzuordnung auf Kunden festlegen
+### Steuerzuordnung auf Kunde festlegen
 
 Zeigen Sie *Finanzen > Kunden > Kunden* an. Öffnen Sie einen bestimmten Kunden und zeigen Sie den Tab *Verkauf & Einkauf* an. Wählen Sie im Feld *Steuerzuordnung* einen Wert aus.
 
