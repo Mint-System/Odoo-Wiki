@@ -50,10 +50,16 @@ Kopieren oder fügen Sie diesen Ihnalt in die Datei:
 Type=Application
 Hidden=false
 X-GNOME-Autostart-enabled=true
-Comment=Start des Cromium Browsers
+Comment=Start Cromium Browser
 Name=chromiumstart
 Exec=/usr/bin/chromium-browser --noerrdialogs --disable-session-crashed-bubble --disable-infobars --kiosk https://demo.odoo.com
 ```
+
+Ersetzen Sie die Url `https://demo.odoo.com` mit der Url der Ansicht [Kioskmodus starten](Anwesenheit.md#Kioskmodus%20starten).
+
+::: tip
+Speichern Sie vorgängig den Benutzernamen und Passwort des Odoo Benutzers im Browser.
+:::
 
 ### Autostart Programme anzeigen
 
