@@ -427,7 +427,7 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-for rec in records:
+for rec in records.filtered(lambda r: r.state in ['assigned', 'confirmed', 'partially_available']):
 	rec.write({
 	  'reservation_date': rec.date
 	})
