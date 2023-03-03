@@ -4,7 +4,7 @@ tags:
 prev: ./best-practice
 ---
 
-# Best Practice: Auftragszeilen auswerten
+# Auftragszeilen auswerten
 
 Statt die Aufträge oder den Verkaufsbericht zu verwenden, empfehlen wir die Auftragszeilen auswertungen. Damit sind beispielsweise solche Auswertungen möglich:
 

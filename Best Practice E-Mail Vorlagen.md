@@ -4,7 +4,7 @@ tags:
 prev: ./best-practice
 ---
 
-# Best Practice: E-Mail-Vorlagen
+# E-Mail-Vorlagen
 
 E-Mail-Vorlagen müssen bei jeder Odoo-Implementation angepasst werden. Die originale Vorlagen sind nur teilweise übersetzt und oftmals zu komplex aufgebaut. Für einen einfacheren Einstieg werden hier alternative E-Mail-Vorlagen angeboten.
 

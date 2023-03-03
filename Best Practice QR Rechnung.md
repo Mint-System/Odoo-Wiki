@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: QR-Rechnung
+# QR-Rechnung
 
 Zur Generierung einer QR-Rechnung müssen verschiedene Bedingungen erfüllt sien.
 

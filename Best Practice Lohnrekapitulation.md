@@ -4,7 +4,7 @@ tags:
 prev: ./best-practice
 ---
 
-# Best Practice: Lohnrekapitulation
+# Lohnrekapitulation
 
 Für die Lohndeklaration können Sie eine Auswertung basierend auf den Lohnabrechnungszeilen erstellen.
 

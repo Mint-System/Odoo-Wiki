@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Spesen verrechnen
+# Spesen verrechnen
 
 Die Mitarbeitenden ihres Unternehmen können mit Odoo [Spesen erfassen](Aufwand.md#Spesen%20erfassen) und abrechnen lassen. Wenn Mitarbeitende auf Projekten arbeiten und dort ihre Aufwände erfassen, stellt sich die Frage wie angefallene Spesen weiter verrechnet werden können.
 

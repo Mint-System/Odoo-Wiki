@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Aufgabenphasen
+# Aufgabenphasen
 
 Aufgabenphasen sind die Stufen, die eine Projektaufgabe von der Erstellung bis zur Erledigung durchläuft. Jedes Odoo-Projekt kann gemeinsame oder verschiedene Aufgabenphasen haben.
 

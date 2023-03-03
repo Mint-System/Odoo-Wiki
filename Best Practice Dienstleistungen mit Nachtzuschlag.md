@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Dienstleistungen mit Nachtzuschlag
+# Dienstleistungen mit Nachtzuschlag
 
 Nachzuschläge sollen auf der finalen Rechnung separat ausgewiesen, bzw. mit einem anderen Stundensatz als die normale Dienstleistung abgerechnet werden. Dazu müssen Zuschlags-Varianten für die Dienstleistungen generiert werden. Als erstes erstellen Sie ein neues [Produktattributt](Verkauf%20Stammdaten.md#Produktattributte%20erstellen) mit der folgenden Konfiguration:
 

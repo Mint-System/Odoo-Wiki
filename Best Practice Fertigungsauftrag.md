@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Fertigungsauftrag
+# Fertigungsauftrag
 
 ## Spezialfall Teilmenge einlagern
 

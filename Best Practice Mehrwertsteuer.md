@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Mehrwertsteuer
+# Mehrwertsteuer
 
 Bevor Sie im System die erste Rechnung erstellen sollten Sie die Abklärungen machen ob Sie überhaupt MwSt. pflichtig sind oder nicht. Es gilt die Regel:
 

@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Fertigungsplanung
+# Fertigungsplanung
 
 ## Beispiel Fertigungsauftrag Rahmen unbeschichtet
 

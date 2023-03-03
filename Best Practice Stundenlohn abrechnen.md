@@ -4,7 +4,7 @@ tags:
 prev: ./best-practice
 ---
 
-# Best Practice: Stundenlohn abrechnen
+# Stundenlohn abrechnen
 
 Wenn Sie die Erweiterung [Gio Payroll Custom](Gio%20Payroll%20Custom.md) für Schweizer Lohnabrechnung verwenden, können Sie damit auch Stundenlöhner abrechnen.
 

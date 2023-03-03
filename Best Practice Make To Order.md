@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Make to Order
+# Make to Order
 
 Damit beim Verkauf von zu fertigenden Produkten direkt ein Fertigungsauftrag erstellt wird, müssen für die Produkte zwei Lagerrouten aktiviert werden. Diese Routen sind im System bereits hinterlegt, müssen aber sichtbar gemacht werden.
 

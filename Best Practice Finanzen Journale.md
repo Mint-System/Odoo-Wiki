@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Journale
+# Journale
 
 Gilt für #Odoo13 
 

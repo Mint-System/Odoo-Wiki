@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Definition Beispiel Fahrrad
+# Definition Beispiel Fahrrad
 
 ![Best Practice Definition Beispiel Fahrrad](assets/Best%20Practice%20Definition%20Beispiel%20Fahrrad.svg)
 

@@ -4,7 +4,7 @@ tags:
 prev: ./best-practice
 ---
 
-# Best Practice: Buchung Zahlungsdifferenzen
+# Buchung Zahlungsdifferenzen
 
 In diesem Best Practice werden verschiedene Szenarios zur Behandlung von Zahlungsdifferenzen behandelt.
 

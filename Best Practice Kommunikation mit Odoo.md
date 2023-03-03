@@ -4,7 +4,7 @@ tags:
 prev: ./best-practice
 ---
 
-# Best Practice: Kommunikation mit Odoo
+# Kommunikation mit Odoo
 
 Odoo ist auch ein Kommunikationsystem. Mit Odoo können Sie den internen und externen Austausch im Kontext von Apps und Objekten verwalten.
 

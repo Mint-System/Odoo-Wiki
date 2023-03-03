@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Datumsfelder
+# Datumsfelder
 
 Die folgende Übersicht zeigt die Datumsfelder im Zusammenhang mit *Einkauf*, *Verkauf* und *Fertigung*. (Für bessere Lesbarkeit Rechter Mausklick und *Grafik in neuem Tab öffnen*.)
 

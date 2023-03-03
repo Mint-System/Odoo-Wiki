@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Arbeitszeiten und Abwesenheitsansprüche
+# Arbeitszeiten und Abwesenheitsansprüche
 
 Die Berechnung der Arbeitszeiten und Abwesenheitsansprüche ist eine komplexe Angelegenheit. Um die Systematik von Odoo zu verstehen wurde ein Anwendungsfall definiert.
 

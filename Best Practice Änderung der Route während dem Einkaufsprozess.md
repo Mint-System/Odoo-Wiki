@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Änderung der Route während dem Einkaufsprozess
+# Änderung der Route während dem Einkaufsprozess
 
 ## Beispiel
 

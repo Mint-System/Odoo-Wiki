@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Berücksichtigung Lead Time
+# Berücksichtigung Lead Time
 
 ## Beispiel 1
 

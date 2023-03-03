@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Devisenhandel
+# Devisenhandel
 
 ## Geld von einem Bankkonto mit unterschiedlicher Währung auf ein anderes transferieren
 

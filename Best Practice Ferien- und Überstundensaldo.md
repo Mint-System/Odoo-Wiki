@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Ferien- und Überstundensaldo
+# Ferien- und Überstundensaldo
 
 In diesem Best Practice wird der Umgang mit Ferien- und Überstundensaldo beschreiben.
 

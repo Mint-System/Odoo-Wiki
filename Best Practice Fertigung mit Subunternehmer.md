@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Fertigung mit Subunternehmer
+# Fertigung mit Subunternehmer
 
 ## Szenario
 

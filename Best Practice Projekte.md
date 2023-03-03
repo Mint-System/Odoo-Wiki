@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Projekte
+# Projekte
 
 Das Initialisieren von Projekten beginnt mit der Produktdefinition.
 

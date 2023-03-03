@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: E-Mails verarbeiten
+# E-Mails verarbeiten
 
 ## Allgemein
 

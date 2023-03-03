@@ -3,7 +3,7 @@ tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Best Practice: Purchase to Order
+# Purchase to Order
 
 Damit Sie Produkte nach dem Verkauf direkt bei einem Lieferanten einkaufen können, müssen für Produkte zwei Lagerrouten aktiviert werden. Diese Routen sind im System bereits hinterlegt, müssen aber sichtbar gemacht werden.
 
