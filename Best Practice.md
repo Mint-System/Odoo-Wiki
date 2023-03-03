@@ -96,6 +96,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Chatter](Best%20Practice%20Chatter.md)
 * [Datumsfelder](Best%20Practice%20Datumsfelder.md)
 * [Direct Print](Best%20Practice%20Direct%20Print.md)
+* [Best Practice Portal und Backend](Best%20Practice%20Portal%20und%20Backend.md)
 
 ### Einstellungen E-Mail
 

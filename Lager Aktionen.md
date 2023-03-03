@@ -194,7 +194,7 @@ for product_id in records:
 		log('Unreserved moves for product: %s' % product_id.display_name)
 ```
 
-Kopieren Sie den Eintrag und passen Sie ihn wie folgt an:
+Duplizieren Sie den Eintrag und passen Sie ihn wie folgt an:
 
 Modell: `product.template`\
 Pythoncode:
