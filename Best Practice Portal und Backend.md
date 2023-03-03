@@ -4,7 +4,7 @@ tags:
 prev: ./best-practice
 ---
 
-# Best Practice: Portal und Backend
+# Portal und Backend
 
 Odoo verfügt über einen externen Bereich *Portal* und den internen Bereich *Backend*. Interne Benutzer haben Zugriff auf das Backend und externe Bentuzer Zugriff auf das Portal.
 
