@@ -119,6 +119,10 @@ Für jede installierte Sprache kann das angezeigte Datumsformat überschrieben w
 
 Um die Nummerierung einer Sequenz anzupassen, öffnen Sie *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Sequenzen*. Wählen Sie die Sequenz aus und setzen die beispielsweise das Feld *Nächste Nummer zuweisen*.
 
+## Sequenz-Nummerierung per Datum zurücksetzen
+
+Damit die Sequenz-Nummer auf ein bestimmtes Datum, beipsielweise Ende Jahr, zurückgesetzt wird, navigieren Sie nach *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Sequenzen* und öffnen eine Sequenz. Aktivieren Sie die Option *Teilmenge aus date_range verwenden* und tragen Sie hier die Datums-Abschnitte und *Nächste Nummer zuweisen* ein.
+
 ## Lizenz
 
 ### Odoo-Datenbank verlängern
