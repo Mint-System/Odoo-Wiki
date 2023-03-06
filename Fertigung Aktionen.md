@@ -11,6 +11,25 @@ Fertigungs-Prozesse automatisieren.
 
 ## Aktionen
 
+### Fertigungsauftrag abbrechen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Fertigungsauftrag abbrechen`\
+Modell: `mrp.production`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for rec in records:  
+  rec.write({'state': 'cancel'})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Fertigungsauftrag können Sie die Einträge markieren und *Aktion > Fertigungsauftrag abbrechen* auswählen.
+
 ### Reload BoM
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:

@@ -46,3 +46,22 @@ for rec in records:
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+
+### Verkaufsauftrag abbrechen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Verkaufsauftrag abbrechen`\
+Modell: `sale.order`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for rec in records:  
+  rec.write({'state': 'cancel'})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Verkaufsaufträge können Sie die Einträge markieren und *Aktion > Verkaufsauftrag abbrechen* auswählen.
