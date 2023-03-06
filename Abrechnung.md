@@ -155,13 +155,16 @@ Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die A
 
 ## Datenbank
 
-### Beträge runden
+### Rundungsmethode erstellen
 
 Damit Frankenbeträge in Rechnungen auf 0.05 gerundet werden, müssen Sie die Bargeldrundung aktivieren.
 
-Navigieren Sie nach *Finanzen > Konfiguration > Bargeld-Runden* und erstellen Sie einen neuen Eintrag wie folgt.
+Navigieren Sie nach *Finanzen > Konfiguration > Bargeld-Runden* und erstellen Sie einen neuen Eintrag wie folgt:
 
-![](assets/Abrechnung%20Runden.png)
+* **Name**: CHF auf 0.05
+* **Rundungsgenauigkeit**: 0.05
+* **Rundungsstrategie**: Steuerbetrag bearbeiten
+* **Rundungsverfahren**: HALF-UP
 
 Wenn Sie eine neue Rechnung schreiben und die Rundungsmethode festgelegt ist, werden die Beiträge entsprechend gerundet.
 
