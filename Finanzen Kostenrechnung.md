@@ -12,7 +12,7 @@ Kosten analysieren und Budget plannen.
 
 ### Zugriff Kostenrechnung erteilen
 
-Damit die Benutzer Zugriff auf die Kostenrechnung und der damit verbunden Felder sehen können, muss in *Einstellungen > Benutzer > Benutzer auswählen* die Berechtigung *Kostenrechnung* erteilt werden.
+Damit ein Benutzer Zugriff auf die Kostenrechnung und die damit verbunden Felder (wie die Kostentelle) sehen kann, muss in *Einstellungen > Benutzer > Benutzer auswählen* die Berechtigung *Kostenrechnung* erteilt werden.
 
 ### Kostenstellengruppen erstellen
 
