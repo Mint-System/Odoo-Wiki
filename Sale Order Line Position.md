@@ -27,8 +27,10 @@ Gilt ab #Odoo15 .
 Die Positionsnummern auf einem Verkausauftrag werden mit dieser Erweiterung automatisch generiert. Zeigen Sie einen Auftrag unter *Verkauf > Aufträge > Angebote* an.
 
 ::: tip
-Wenn Positionsnummern gleich 0 sind, können Sie *Aktion > Positionsnummern festlegen* ausführen.
+Wenn Positionsnummern leer sind, können Sie *Aktion > Positionsnummern festlegen* ausführen.
 :::
+
+## Berichte
 
 ### Positionsnummer anzeigen
 

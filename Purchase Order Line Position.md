@@ -10,7 +10,7 @@ prev: ./order-positions
 Einkaufsaufträge mit Positionsnummern. 
 
 Technischer Name: `purchase_order_line_position`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_line_position>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/15.0/purchase_order_line_position>
 
 ## Verwendung
 
@@ -18,7 +18,11 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 Die Positionsnummern auf einem Einkaufsauftrag werden mit dieser Erweiterung automatisch generiert.
 
-![](assets/Purchase%20Order%20Line%20Position%20Anzeige%20Pos.png)
+::: tip
+Wenn Positionsnummern leer sind, können Sie *Aktion > Positionsnummern festlegen* ausführen.
+:::
+
+## Berichte
 
 ### Positionsnummer anzeigen
 
