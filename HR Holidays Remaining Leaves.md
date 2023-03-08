@@ -19,4 +19,8 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_holidays_r
 Mit dieser Erweiterung werden unter *Abwesenheitszeiten > Vorgesetzte > Abwesenheitsanprüche* nebst der zugewiesenen Tagen die verbleibenden Abwesenheitstage angezeigt.
 
 * **Verbleibend**: Berechnet Dauert aus Anspruch minus Dauer aus validierten Abwesenheiten
-* **Aktuell Verbleibend**:  Berechnet Dauert aus Anspruch minus Dauer aus validierten Abwesenheiten mit Startdatum bis zum aktuellen Tag
+* **Aktuell Verbleibend**:  Berechnet Dauert aus Anspruch minus Dauer aus validierten Abwesenheiten bis zum aktuellen Tag
+
+::: tip
+Läuft eine Abwesenheit, beispielsweise von Mittwoch bis Dienstag der nächsten Woche, liegt ein Wochenende dazwischen. Erstellt man die Bewertung am Dienstag so berechnet Odoo für *Aktuell Verbleibend* 4 Tage: Mittwoch, Donnerstag, Freitag und Montag.
+:::
