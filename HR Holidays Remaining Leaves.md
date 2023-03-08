@@ -18,4 +18,5 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_holidays_r
 
 Mit dieser Erweiterung werden unter *Abwesenheitszeiten > Vorgesetzte > Abwesenheitsanprüche* nebst der zugewiesenen Tagen die verbleibenden Abwesenheitstage angezeigt.
 
-![](assets/HR%20Holidays%20Remaining%20Leaves.png)
+* **Verbleibend**: Berechnet Dauert aus Anspruch minus Dauer aus validierten Abwesenheiten
+* **Aktuell Verbleibend**:  Berechnet Dauert aus Anspruch minus Dauer aus validierten Abwesenheiten mit Startdatum bis zum aktuellen Tag
