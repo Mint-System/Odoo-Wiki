@@ -13,7 +13,7 @@ Technischer Name: `account_move_send_unsubscribe`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/account_move_send_unsubscribe>
 
 ::: warning
-Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscribe) zu verwenden.
+Diese App ist veraltet. Es wird empfohlen die App [Mail Unsubscribe](Mail%20Unsubscribe) zu verwenden.
 :::
 
 ## Verwendung
