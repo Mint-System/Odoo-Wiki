@@ -24,3 +24,7 @@ Mit dieser Erweiterung werden unter *Abwesenheitszeiten > Vorgesetzte > Abwesenh
 ::: tip
 Läuft eine Abwesenheit von Mittwoch bis Dienstag der nächsten Woche, dann liegt ein Wochenende oder sogar Feiertage dazwischen. Wird der Abwesenheitsanspruch am Dienstag betracht, berücksichtigt Odoo die gegebenen Abwesenheit und berechnet für *Aktuell Verbleibend* 4 Tage: Mittwoch, Donnerstag, Freitag und Montag.
 :::
+
+::: warning
+Wenn mehrere Urlaubsansprüche vom selben Abwesenheitstyp existieren und die Abwesenheiten an keinem Urlaubsanspruch zugeordnet sind, wird die Dauer für alle Urlaubsansprüche minus berechnet.
+:::
