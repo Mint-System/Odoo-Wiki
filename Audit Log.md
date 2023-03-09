@@ -16,13 +16,13 @@ Repository: <https://github.com/OCA/server-tools/tree/15.0/auditlog>
 
 ### Logging für Datenmodell aktivieren
 
-Mit dieser Erweiterung können Sie für bestimmte Datenmodelle und Operationen ein Audit Log aktivieren. Navigieren Sie nach *Einstellungen > Technisch > Audit > Regel* und erstellen Sie einen neuen Eintrag, dazu ein Bespiel
+Mit dieser Erweiterung können Sie für bestimmte Datenmodelle und Operationen ein Audit Log aktivieren. Navigieren Sie nach *Einstellungen > Technisch > Audit > Regel* und erstellen Sie einen neuen Eintrag. Dazu folgendes Beispiel:
 
-* **Name**: Kontakt Log\
-* **Modell**: Kontakt\
+* **Name**: Kontakt Log
+* **Modell**: Kontakt
 * **Art**: Kurz-Protokoll
 
-Und aktivieren Sie die Regel mit *Aktiviere*. Wenn Sie jetzt einen neuen Eintrag erstellen, bearbeiten oder löschen wird diese Operation protokolliert.
+Speichern und archivieren Sie die Regel mit *Aktiviere*. Damit erscheint sie in der Liste *Regeln*. Wenn Sie jetzt einen neuen Eintrag erstellen, bearbeiten oder löschen wird diese Operation protokolliert.
 
 ## Verwendung
 
