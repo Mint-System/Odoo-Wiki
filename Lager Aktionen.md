@@ -174,30 +174,16 @@ In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Reser
 
 ### Reservierungen aufheben
 
-Mit dieser Aktion können Sie alle Reservierungen für ein Produktaufheben.
+Mit dieser Aktion können Sie alle Reservierungen für ausgewählte Produkte aufheben und das Reservationsdatum der verknüpften Lagerbuchungen aktualisieren.
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reservierungen zurücksetzen`\
-Modell: `product.product`\
+Modell: `product.template`\
 Folgeaktion: `Python-Code ausführen`\
 Sicherheit-Gruppennamen: `Lager \ Administrator`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
-
-```python
-for product_id in records:
-	# Get assigned moves for product
-	move_ids = env['stock.move'].search([ "&", ("product_id", "=", product_id.id), ("state", "in", ["assigned", "partially_available"]) ])
-	if move_ids:
-		move_ids._do_unreserve()
-		log('Unreserved moves for product: %s' % product_id.display_name)
-```
-
-Duplizieren Sie den Eintrag und passen Sie ihn wie folgt an:
-
-Modell: `product.template`\
-Pythoncode:
 
 ```python
 for product_id in records.product_variant_id:
@@ -206,6 +192,28 @@ for product_id in records.product_variant_id:
 	if move_ids:
 		move_ids._do_unreserve()
 		log('Unreserved moves for product: %s' % product_id.display_name)
+		for move in move_ids:
+		  move.write({
+	  		  'reservation_date': move.date
+	  		})
+```
+
+Duplizieren Sie den Eintrag für die Produktvarianten und passen Sie ihn wie folgt an:
+
+Modell: `product.product`\
+Pythoncode:
+
+```python
+for product_id in records:
+	# Get assigned moves for product
+	move_ids = env['stock.move'].search([ "&", ("product_id", "=", product_id.id), ("state", "in", ["assigned", "partially_available"]) ])
+	if move_ids:
+		move_ids._do_unreserve()
+		log('Unreserved moves for product: %s' % product_id.display_name)
+		for move in move_ids:
+		  move.write({
+	  		  'reservation_date': move.date
+	  		})
 ```
 
 Beide Aktionen mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
