@@ -11,48 +11,6 @@ Arbeitsflüsse im Lager automatisieren.
 
 ## Aktionen
 
-### Bestand zurücksetzen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Bestand zurücksetzen`\
-Modell: `stock.quant`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
-
-```python
-for record in records:
-	record.sudo().write({
-	  'quantity': 0
-	})
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Bestand zurücksetzen*.
-
-### Lagerbuchung zurücksetzen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Lagerbuchung zurücksetzen`\
-Modell: `stock.move`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
-
-```python
-for record in records:  
-  record.write({'state': 'draft'})
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
-
-![](assets/Lager%20Aktion%20%20Lagerbuchung%20Zurücksetzen%20erstellen.png)
-
 ### Transfer abbrechen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
@@ -91,6 +49,47 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
 
+### Lagerbuchung zurücksetzen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Lagerbuchung zurücksetzen`\
+Modell: `stock.move`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for record in records:  
+  record.write({'state': 'draft'})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
+
+![](assets/Lager%20Aktion%20%20Lagerbuchung%20Zurücksetzen%20erstellen.png)
+
+### Als verfügbar markieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Als verfügbar markieren`\
+Modell: `stock.move`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
+```python
+for record in records:  
+  record.write({
+	  'state': 'assigned'
+  })
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+Auf der Lagerbuchung erscheint nun in der Auswahl *Aktion* das Menu *Als verfügbar markieren*.
+
 ### Lagerbuchung erledigen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
@@ -110,67 +109,26 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung erledigen*.
 
-### Als verfügbar markieren
+### Reservationsdatum aktualisieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Als verfügbar markieren`\
-Modell: `Lagerbuchung`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
-```python
-for record in records:  
-  record.write({
-	  'state': 'assigned'
-  })
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-Auf der Lagerbuchung erscheint nun in der Auswahl *Aktion* das Menu *Als verfügbar markieren*.
-
-### Reservierungen zurücksetzen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Reservierungen zurücksetzen`\
-Modell: `ir.actions.server`\
+Name der Aktion: `Reservationsdatum aktualisieren`\
+Modell: `stock.move`\
 Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-# Get outgoing pickings with reservations
-pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["assigned", "partially_available"])])
-# Unreserve pickings
-pickings.do_unreserve()
-# Log picking names
-log('Unreserved these pickings: %s' % (pickings.mapped('name')))
-```
-
-Speichern Sie die Aktion und führen Sie diese mit *Starten* aus.
-
-### Reservierter Bestand zurücksetzen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Reservierter Bestand zurücksetzen`
-Modell: `stock.quant`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
-
-```python
-for record in records:
-	record.sudo().write({
-		'reserved_quantity': 0
+for rec in records.filtered(lambda r: r.state in ['assigned', 'confirmed', 'partially_available']):
+	rec.write({
+	  'reservation_date': rec.date
 	})
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Reservierter Bestand*.
+Zeigen Sie die Liste der Lagebuchungen an, markieren Sie die Einträge und wählen Sie *Aktion > Reservationsdatum aktualisieren*.
 
 ### Reservierungen aufheben
 
@@ -219,6 +177,69 @@ for product_id in records:
 Beide Aktionen mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
 
 In der Ansicht der Produkte haben Sie nun die Auswahl *Aktion > Reservierungen aufheben*.
+
+### Reservierungen zurücksetzen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Reservierungen zurücksetzen`\
+Modell: `ir.actions.server`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Get outgoing pickings with reservations
+pickings = env['stock.picking'].search(["&", ["picking_type_id", "=", 2], ("state", "in", ["assigned", "partially_available"])])
+# Unreserve pickings
+pickings.do_unreserve()
+# Log picking names
+log('Unreserved these pickings: %s' % (pickings.mapped('name')))
+```
+
+Speichern Sie die Aktion und führen Sie diese mit *Starten* aus.
+
+### Bestand zurücksetzen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Bestand zurücksetzen`\
+Modell: `stock.quant`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for record in records:
+	record.sudo().write({
+	  'quantity': 0
+	})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Bestand zurücksetzen*.
+
+### Reservierter Bestand zurücksetzen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Reservierter Bestand zurücksetzen`
+Modell: `stock.quant`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for record in records:
+	record.sudo().write({
+		'reserved_quantity': 0
+	})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Reservierter Bestand*.
 
 ### Ablaufende Los-Nummern aktualisieren
 
@@ -350,13 +371,13 @@ There is no exiting quants despite its `reserved_quantity`
 ******************
 ```
 
-### Nicht reserverierte Mengen korrigieren
+### Nicht reservierte Mengen korrigieren
 
 Diese Serveraktion korrigiert die falsch reservierten Mengen.
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Nicht reserverierte Mengen korrigieren`
+Name der Aktion: `Nicht reservierte Mengen korrigieren`
 Modell: `ir.actions.server`\
 Folgeaktion: `Python-Code ausführen`
 
@@ -423,27 +444,6 @@ elif len(move_lines_to_unreserve) == 1:
 ```
 
 Zur Ausführung dieses Berichts müssen Sie [Superuser werden](Einstellungen.md#Superuser%20werden).
-
-### Reservationsdatum aktualisieren
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Reservationsdatum aktualisieren`\
-Modell: `stock.move`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
-
-```python
-for rec in records.filtered(lambda r: r.state in ['assigned', 'confirmed', 'partially_available']):
-	rec.write({
-	  'reservation_date': rec.date
-	})
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-Zeigen Sie die Liste der Lagebuchungen an, markieren Sie die Einträge und wählen Sie *Aktion > Reservationsdatum aktualisieren*.
 
 ## Geplante Aktionen
 
