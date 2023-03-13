@@ -9,7 +9,7 @@ Beim Import von Daten besteht keine grosse Flexibilität. Entsprechend hoch muss
 
 Damit Daten einfacher Import werden können, werden hier Vorlagen bereitgestellt und erklärt wo genau die Daten importiert werden können.
 
-## Exportvoralgen
+## Exportvorlagen
 
 Damit Daten miteinanderverknüpft werden können, ist die Spalte **id** sehr wichtig. Beim Export wird diese im Dialog mit der Option *Ich will Daten aktualisieren* oben links hinzugefügt.
 
