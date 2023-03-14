@@ -37,7 +37,7 @@ Auf Abwesenheitstypen können Sie festlegen, ob Überstunden abgezogen werden k�
 
 Öffnen Sie den Abwesenheitstyp via *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Mit der Option *Zusätzliche Stunden abziehen* können Sie festlegen, ob Überstunden abgezogen werden.
 
-Dazu ein Beispiel mit dem Abwesenheitstyp *Übestunden*:
+Dazu ein Beispiel mit dem Abwesenheitstyp *Überstunden*:
 
 ![](assets/Anwesenheitszeiten%20Überstunden%20Abwesenheitstyp.png)
 
