@@ -690,11 +690,11 @@ if transport_moves:
   log('Fix qty done for transport moves: %s' % (','.join(transport_moves)))
 ```
 
-### Los aus Forecast zuweisen
+### Los aus Vorhersage zuweisen
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Lot von Forecast zuweisen`\
+Name der Aktion: `Lot aus Vorhersage zuweisen`\
 Modell: `ir.actions.server`\
 Ausführen alle: `5` Minuten\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
@@ -839,7 +839,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 date_to = datetime.datetime.now()
 date_from = date_to - datetime.timedelta(hours=15)
 
-# Lookup makred picking orders
+# Lookup marked picking orders
 pickings = env['stock.picking'].search([
 	('x_autocomplete', '=', True),
 	('state', 'in', ['confirmed', 'assigned', 'partially_available']),
@@ -864,6 +864,57 @@ if messages and not error_messages:
 if error_messages:
   log(' '.join(error_messages), level='error')
 ```
+
+### Abgelaufene Bestände entfernen
+
+Diese geplante Aktion setzt die Menge von markierte Chargen auf Null sobald das Ablaufdatum erreicht ist.
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Abgelaufene Bestände entfernen`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Stunden\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 09:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Settings
+now = datetime.datetime.now()
+
+# Lookup marked lots
+lots = env['stock.production.lot'].search([
+	('x_autoremove', '=', True),
+	('product_expiry_alert', '=', True),
+	('removal_date', '<=', now)
+])
+lots = lots.filtered(lambda l: l.product_qty > 0.0)
+
+# raise Warning([lots[0].display_name, lots[0].product_id.name, lots[0].product_qty])
+
+# Remove quants
+msg = []
+error_msg = []
+for lot in lots:
+  try:
+	  quants = lot.quant_ids.filtered(lambda q: q.location_id.usage == 'internal')
+	  if quants:
+	    msg.append('Remove expired quants for lot %s / %s.' % (lot.product_id.name, lot.display_name))
+	    quants.sudo().write({
+	      'quantity': 0.0
+	    })
+	    env.cr.commit()
+  except Exception as e:
+    error_msg.append('While trying to remove quants for lot %s an error occured: %s' % (lot.name, e))
+
+if msg and not error_msg:
+  log(' '.join(msg))
+if error_msg:
+  log(' '.join(error_msg), level='error')
+```
+
 
 ## Automatische Aktionen
 
