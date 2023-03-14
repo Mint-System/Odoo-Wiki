@@ -10,7 +10,7 @@ prev: ./abwesenheit
 Erstellen Sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.
 
 Technischer Name: `hr_holidays_public`\
-Repository: <https://github.com/OCA/hr-holidays/tree/13.0/hr_holidays_public>
+Repository: <https://github.com/OCA/hr-holidays/tree/15.0/hr_holidays_public>
 
 ## Verwendung
 
