@@ -6,13 +6,13 @@ prev: ./einstellungen
 # Einstellungen Berechtigungen
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
-Einstellungen zur Zugriffsrechte und Gruppen.
+Einstellungen zu Zugriffsrechten und Gruppen.
 
 ## Benutzerrechte
 
 ### Kundenregistration erlauben
 
-Damit Besucher der Website sich im Odoo-Portal registrieren könne muss die Option *Einstellungen > Allgemeine Einstellungen > Berechtigungen > Kundenkontro > Kostenlose Anmeldung* aktiviert sein.
+Damit sich Besucher der Website im Odoo-Portal registrieren können, muss die Option *Einstellungen > Allgemeine Einstellungen > Berechtigungen > Kundenkontro > Kostenlose Anmeldung* aktiviert sein.
 
 ### Rollen erstellen
 
@@ -22,7 +22,7 @@ Diese Anleitung erfordert das Modul `base_user_role`.
 
 Die Gruppenrechte können mit Benutzerrollen zusammengefasst werden. Mit der entsprechenden Erweiterung kann man Rollen erstellen, Gruppen hinzufügen und diese für einen Benutzer aktivieren.
 
-Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Roles* und wählen Sie *Anlegen*. Erstellen zur Initierung eine Administratoren-Rolle mit diesen Angaben:
+Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Roles* und wählen Sie *Anlegen*. Erstellen Sie zur Initiierung eine Administratoren-Rolle mit diesen Angaben:
 
 ![](assets/Odoo%20Einstellungen%20Benutzerrolle%20Administrator.png)
 
