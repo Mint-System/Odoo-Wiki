@@ -5,7 +5,7 @@ tags:
 - Drittanbieter
 prev: ./abrechnung
 ---
-# Swiss QR-ESR Scan
+# Swiss QR/ESR scan
 ![](assets/icon_camp_to_camp.png)
 
 Rechnung anhand QR-Daten erstellen.

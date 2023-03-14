@@ -36,7 +36,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Sale Invoice Line Description](Sale%20Invoice%20Line%20Description.md)             | Buchungszeilen generiert aus Verkaufsaufträgen enhalten nur den Anzeigenamen des Produkts.         |
 | [Sale Invoice Prepare Bank](Sale%20Invoice%20Prepare%20Bank.md)                     | Bankkonto anhand Währung auswählen.                                                                |
 | [Sale Invoice Prepare Partner](Sale%20Invoice%20Prepare%20Partner.md)               | Kontakte aus Verkaufsauftrag auf Rechnung kopieren.                                                |
-| [Swiss QR-ESR Scan](Swiss%20QR-ESR%20Scan.md)                                       | Rechnung anhand QR-Daten erstellen.                                                                |
+| [l10n CH QR ISR Invoice Import](l10n%20CH%20QR%20ISR%20Invoice%20Import.md)                                       | Rechnung anhand QR-Daten erstellen.                                                                |
 
 ## Versand
 

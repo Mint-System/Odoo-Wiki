@@ -50,7 +50,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                      | PDF-Dokumenten von Rechnungen zusammenführen.                               |
 | [L10n CH Invoice Reports](L10n%20CH%20Invoice%20Reports.md)                                                | Rechnung mit ISR- und/oder QR-Zahlung drucken.                              |
 | [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                | Allow discount deduction on vendor bills.                                   |
-| [Swiss QR-ESR Scan](Swiss%20QR-ESR%20Scan.md)                                                              | Rechnung anhand QR-Daten erstellen.                                         |
+| [l10n CH QR ISR Invoice Import](l10n%20CH%20QR%20ISR%20Invoice%20Import.md)                                                              | Rechnung anhand QR-Daten erstellen.                                         |
 | [Switzerland Bank type](Switzerland%20Bank%20Type.md)                                                      | Lokalisierung für Schweizer Banken und Bankkontos.                          |
 | [Switzerland Disable Default Reports](Switzerland%20Disable%20Default%20Reports.md)                        | Generierung der QR- und ISR-Berichte deaktivieren.                          |
 | [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                                          | Generierung der QR-Rechnung ohne ISR-Nummer.                                |
