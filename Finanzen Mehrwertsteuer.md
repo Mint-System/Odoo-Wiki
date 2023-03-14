@@ -33,7 +33,7 @@ Wird der entsprechende Steuersatz auf der Rechnungszeile verwendet, wird die MWS
 
 * **Steuerbezeichnung**: Ist die interne Bezeichnung
 * **Steuerberechnung**: Legt fest wie die Steuer berechnet wird
-* **Tax Type**: Unterscheidung zwischen Einkauf und Verkauf
+* **Steuertyp**: Unterscheidung zwischen Einkauf und Verkauf
 * **Steuergültigkeit**: Steuern nur für bestimmte Produktarten zulassen
 * **Betrag**: Der Prozentsatz
 
