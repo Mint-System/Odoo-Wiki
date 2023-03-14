@@ -42,7 +42,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Move Line Accounting Description Stock](Account%20Move%20Line%20Accounting%20Description%20Stock) | Beschreibung Lagerbuchung auf Rechnung übertragen.                          |
 | [Account Move Line Contra Accounts](Account%20Move%20Line%20Contra%20Accounts.md)                          | Gegenkontos auf Buchungszeilen anzeigen.                                    |
 | [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)                              | Lieferaufträge mit Rechnungszeile verlinken.                                |
-| [Account Move Line Position](Account%20Move%20Line%20Position.md)                                          | Positionsnummer anzeigen und aus Verkaufs- oder Einkaufsauftrag verlinken.            |
+| [Account Move Line Position](Account%20Move%20Line%20Position.md)                                          | Positionsnummer anzeigen und aus Verkaufs- oder Einkaufsauftrag verlinken.  |
 | [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                                                  | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt. |
 | [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                      | Zeigt für eine Rechnung das definitive Abgleichsdatum an.                   |
 | [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)                                          | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren.           |
@@ -54,7 +54,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Switzerland Bank type](Switzerland%20Bank%20Type.md)                                                      | Lokalisierung für Schweizer Banken und Bankkontos.                          |
 | [Switzerland Disable Default Reports](Switzerland%20Disable%20Default%20Reports.md)                        | Generierung der QR- und ISR-Berichte deaktivieren.                          |
 | [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                                          | Generierung der QR-Rechnung ohne ISR-Nummer.                                |
-| [Switzerland QR-Bill Scan](Switzerland%20QR-Bill%20Scan.md)                                                | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
+| [l10n CH QR Bill Scan](l10n%20CH%20QR%20Bill%20Scan.md)                                                    | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
 
 ## Konfiguration
 
