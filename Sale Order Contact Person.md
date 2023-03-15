@@ -12,9 +12,13 @@ Kontaktperson auf Verkaufsauftrag festlegen.
 Technischer Name: `sale_order_contact_person`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/15.0/sale_order_contact_person>
 
-## Verwendung
+::: warning
+Dieses Modul wird nicht weiterentwickelt. Verwenden Sie das Modul [Sale Order Sale Partner](Sale%20Order%20Sale%20Partner.md) stattdessen.
+:::
 
-### Erweiterung konfigurieren
+## Konfiguration
+
+### Empfängeradresse auf E-Mail-Vorlage festlegen
 
 Damit die Kontaktperson als Empfängeradresse für die E-Mail übernommen wird, darf auf der E-Mail-Vorlage kein Eintrag im Feld *An (Partner)* sein. Zur Bearbeitung rufen Sie die entsprechenden E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > Vorlagen* auf. Ersetzen Sie den Eintrag in *An (Partner)* `{{ object.partner_id.id }}` mit `{{ object.partner_contact_id.id or object.partner_id.id }}`.
 

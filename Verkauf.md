@@ -44,6 +44,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order MRP Production Cancel](Sale%20Order%20MRP%20Production%20Cancel.md) | Verlinkter Fertigungsauftrag bei Abbruch Verkaufsauftrag ebenfalls abbrechen. |
 | [Sale Order Notes](Sale%20Order%20Notes.md)                                     | Verkaufsaufträge mit Notizfelder.                                             |
 | [Sale Order Project Key](Sale%20Order%20Project%20Key.md)                       | Angebotsname von verlinkter Projektnummer übernehmen.                         |
+| [Sale Order Sale Partner](Sale%20Order%20Sale%20Partner.md)                     | Verkaufsadresse auf Verkaufsauftrag festlegen.                                |
 | [Sale Order Template Notes](Sale%20Order%20Template%20Notes.md)                 | Notizen auf Angebotsvorlage.                                                  |
 | [Sale Partner Incoterm](Sale%20Partner%20Incoterm.md)                           | Standardlieferbedingungen für Kunden.                                         |
 | [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                     | Produktset mit Notizen und Abschnitten.                                       |

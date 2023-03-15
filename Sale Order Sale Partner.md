@@ -1,0 +1,19 @@
+---
+tags:
+- HowTo
+- Drittanbieter
+prev: ./verkauf
+---
+# Sale Order Sale Partner
+![icon_oms_box](assets/icon_oms_box.png)
+
+Verkaufsadresse auf Verkaufsauftrag festlegen. 
+
+Technischer Name: `sale_order_sale_partner`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/15.0/sale_order_sale_partner>
+
+## Verwendung
+
+### Verkaufsadresse hinzufügen
+
+Öffnen Sie *Verkauf* und wählen Sie einen Verkaufsauftrag aus. Im Feld *Verkaufsadresse* können Sie einen bliegen Kontakt auswählen.
