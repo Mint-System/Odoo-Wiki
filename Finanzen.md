@@ -48,7 +48,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)                                          | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren.           |
 | [Contract Sale Generation](Contract%20Sale%20Generation.md)                                                | Aus wiederholenden Verträge Verkaufsangebote generieren.                    |
 | [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                      | PDF-Dokumenten von Rechnungen zusammenführen.                               |
-| [L10n CH Invoice Reports](L10n%20CH%20Invoice%20Reports.md)                                                | Rechnung mit ISR- und/oder QR-Zahlung drucken.                              |
+| [l10n CH Invoice Reports](l10n%20CH%20Invoice%20Reports.md)                                                | Rechnung mit ISR- und/oder QR-Zahlung drucken.                              |
 | [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                | Allow discount deduction on vendor bills.                                   |
 | [l10n CH QR ISR Invoice Import](l10n%20CH%20QR%20ISR%20Invoice%20Import.md)                                                              | Rechnung anhand QR-Daten erstellen.                                         |
 | [Switzerland Bank type](Switzerland%20Bank%20Type.md)                                                      | Lokalisierung für Schweizer Banken und Bankkontos.                          |
