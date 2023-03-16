@@ -32,6 +32,7 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 | [Auth OIDC](Auth%20OIDC.md)                             | Login mit OpenID Connect Provider.                                   |
 | [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)       | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.   |
 | [Base Recursion Limit](Base%20Recursion%20Limit.md)     | Limit für Python-Rekursionen erhöhen.                                |
+| [Base User Role](Base%20User%20Role.md)                 | Gruppenberechtigungen mit Benutzer-Rollen verwalten.                 |
 | [Home Background Image](Home%20Background%20Image.md)   | Den Odoo-Startbildschirm gestalten.                                  |
 | [Impersonate](Impersonate.md)                           | Schnelles Wechseln zwischen Benutzer-Accounts.                       |
 | [Mail Server Filter](Mail%20Server%20Filter.md)         | Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern. |
@@ -42,7 +43,6 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 | [Web Editor Show Code](Web%20Editor%20Show%20Code.md)   | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |
 | [Web Responsive](Web%20Responsive.md)                   | Responsive Anzeige der Odoo-Oberfläche.                              |
 | [Web Theme Classic](Web%20Theme%20Classic.md)           | Kontrast auf Benutzeroberfläche verbessern.                          |
-| [[Base User Role]]                                                        |                                                                      |
 
 ## Entwicklermodus
 
