@@ -97,6 +97,21 @@ Dazu ein Beispiel:
 
 ![](assets/Verkauf%20Stammdaten%20Preisliste%20mit%20Rabatt.png)
 
+### Preisliste mit Staffelpreisen
+
+Um für ein Produkt in Abhängigkeit zu unterschiedlichen Mengen eine Preisstaffelung einzurichten, muss die entsprechende Option eingeschaltet werden.
+
+![](assets/Verkauf%20Stammdaten%20Staffelpreise.png)
+
+Ein Beispiel könnte so aussehen:
+
+![](assets/Verkauf%20Stammdaten%20Staffelpreise%20Beispiel.png)
+
+In einem *Angebot / Verkaufsauftrag* werden die Preise entsprechend unterschiedlich angezeigt. Dazu das folgende Beispiel:
+
+![](assets/Verkauf%20Stammdaten%20Staffelpreise%20Verkaufsauftrag%20Beispiel.png)
+
+
 ### Preisregeln anzeigen
 
 Damit Sie eine Übersicht der Preisregeln erhalten, folgen Sie dem HowTo [Menüeintrag erstellen](Entwicklung.md#Menüeintrag%20erstellen) und verwenden diese Werte:
