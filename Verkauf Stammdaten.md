@@ -99,7 +99,7 @@ Dazu ein Beispiel:
 
 ### Preisliste mit Staffelpreisen
 
-Um für ein Produkt in Abhängigkeit zu unterschiedlichen Mengen eine Preisstaffelung einzurichten, muss die entsprechende Option eingeschaltet werden.
+Um für ein Produkt in Abhängigkeit zu unterschiedlichen Mengen eine Preisstaffelung einzurichten, muss die entsprechende Option *Preislisten / Mehrere Preise pro Produkt* unter *Einstellungen > Verkauf  > Preiskalkulation* eingeschaltet werden.
 
 ![](assets/Verkauf%20Stammdaten%20Staffelpreise.png)
 
