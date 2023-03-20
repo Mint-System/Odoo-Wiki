@@ -134,3 +134,21 @@ Dazu können Sie mit den folgenden Informationen [Zugriffsrechte auf Datenmodell
 * **Name**: `mint_system.sale.order.read`
 * **Gruppe**: Benutzertypen / Interner Benutzer
 * **Berechtigung**: Leserecht
+
+## Troublshooting
+
+### Spesenabrechnung kann nicht erstellt werden
+
+**Problem**
+
+Wenn Sie die [Spesenabrechnung erstellen](#Spesenabrechnung%20erstellen) erscheint der Fehler:
+
+> Sie können nicht zweimal die gleiche Zeile erfassen!
+
+**Ursache**
+
+Wenn der Spesen-Eintrag bereits mit einem Bericht verknüpft ist.
+
+**Lösung**
+
+Filtern Sie die Spesen mit Filter *Auslagenabrechnung ist nicht gesetzt*.
