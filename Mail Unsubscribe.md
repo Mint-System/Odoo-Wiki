@@ -10,7 +10,7 @@ prev: ./diskussion
 Automatische Abmeldung der Follower vor dem Versand einer Nachricht.
  
 Technischer Name: `mail_unsubscribe`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_unsubscribe>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/15.0/mail_unsubscribe>
 
 ## Verwendung
 
@@ -40,8 +40,6 @@ Wenn Sie möchten, dass die Empfänge als Abonnenten nach dem Versenden der Nach
 
 ![Mail Unsubscribe Allow Follow](assets/Mail%20Unsubscribe%20Allow%20Follow.gif)
 
-### Abonnieren von aktuellen Benutzer erlauben
+### Abonnieren von aktuellen Benutzer verhindern
 
-Wenn Sie möchten, dass der aktuelle Benutzer beim Versenden einer Nachricht als Abonnent hinzugefügt wird, legen Sie einen Systemparameter mit Schlüssel `mail_unsubscribe.mail_create_nosubscribe` und Wert `False` an. 
-
-![Mail Unsubscribe Enable Subscribe](assets/Mail%20Unsubscribe%20Enable%20Subscribe.gif)
+Wenn Sie möchten, dass der aktuelle Benutzer beim Versenden einer Nachricht nicht als Abonnent hinzugefügt wird, legen Sie einen Systemparameter mit Schlüssel `mail_unsubscribe.mail_create_nosubscribe` und Wert `True` an. 

@@ -10,7 +10,7 @@ prev: ./diskussion
 Beim Erstellen von Nachrichten erfolgt keine automatische Abonnierung.
  
 Technischer Name: `mail_no_autofollow`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_no_autofollow>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/15.0/mail_no_autofollow>
 
 ## Verwendung
 
