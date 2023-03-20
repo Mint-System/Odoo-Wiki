@@ -22,3 +22,7 @@ Navigieren Sie nach *Verkauf*, zeigen Sie ein Angebot an und Öffnen Sie den Tab
 ::: tip
 Wenn Sie eine Rechnung erstellen wird das Feld übertragen. Im Anzeigenamen der Rechnungen werden die Zeilenumbrüche Kundenreferenz mit Leerschlägen ersetzt. 
 :::
+
+::: warning
+Die Referenz wird im Anzeigennamen nur für nicht-ausgehende Rechnung angezeigt.  
+:::
