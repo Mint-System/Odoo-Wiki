@@ -89,6 +89,14 @@ Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und legen Sie im Feld *
 
 ## International
 
+### Mehrwertsteuer für EU-Ausland aktivieren
+
+Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und aktivieren Sie die Option *Innergemeinschaftlicher Fernabsatz der EU*.
+
+### MwSt-Identifikationsnr. überprüfen
+
+Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und aktivieren Sie die Option *MwSt-Identifikationsnr. überprüfen*.
+
 ### Steuerzurodnung anzeigen
 
 Navigieren Sie nach *Finanzen > Konfiguration > Steuerzuordnung*. Hier finden Sie standardmässig zwei Einträge:
