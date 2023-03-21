@@ -57,3 +57,13 @@ Zeigen Sie *Finanzen > Konfiguration > Finanzen > Währungen* an wählen Sie ein
 Registieren Sie als erstes den Bank-Transfer via *Finanzen > Bank > Kontext-Menü > Interne Überweisungen*. Stellen Sie sicher, dass im Dialog *Is Internal Transfer* markiert ist. Geben Sie als *Bankkonto des Empfängers* das Bankkonto mit der Zielwährung an. Bestätigen Sie den Transfer. Sie können diese Transfer als Zahlung via Stapelbuchungen verarbeiten lassen.
 
 Der Abgleich erfolgt anschliessend doppelt. Einmal der Zahlungsausgang auf dem Ursprungskonto und einmal der Zahlungseingang auf dem Zielkonto.
+
+## Buchhaltung
+
+### Korrektur-Buchung für Kursdifferenzen erstellen
+
+Wenn Sie eine Korrektur-Buchung der Kursdifferenzen für ein Währungskonto erstellen möchten, navigieren Sie nach *Finanzen > Finanzen > Buchungssätze* und erstellen einen neuen Eintrag. Wählen Sie für den Haben-Betrag das Fremdwährungskonto und als für den Soll-Betrag das Kursverlust-Konto aus. Geben Sie die Beträge in der Grundwährung ein und treffen Sie eine Auswahl für *Währung*. Auf der Zeile mit dem Fremdwährungskonto setzen Sie nun das Feld *Betrag in Währung* auf Null.
+
+Dazu ein Beispiel für ein Euro-Konto mit einer CHF-Buchhaltung:
+
+![](assets/Finanzen%20Mehrere%20Währungen%20Anpassung%20Kursdifferenzen.png)
