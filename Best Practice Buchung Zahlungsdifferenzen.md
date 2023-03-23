@@ -22,6 +22,6 @@ Den Restbetrag wollen Sie als Verlust aus Forderung verbuchen. Dazu zeigen Sie d
 
 ![](assets/Best%20Practice%20Buchung%20Zahlungsdifferenzen%20überfällige%20Forderungen.png)
 
-Nun [gleichen Sie die Forderung](Finanzen%20Abstimmung.md#Überfällige%20Forderungen%20abtimmen) mit der Aktion *Ausgleich* aus. Sie verbuchen den offenen Betrag auf das entsprechende Aufwandskonto.
+Nun [gleichen Sie die Forderung](Finanzen%20Abstimmung.md#Überfällige%20Forderungen%20abstimmen) mit der Aktion *Ausgleich* aus. Sie verbuchen den offenen Betrag auf das entsprechende Aufwandskonto.
 
 ![](assets/Best%20Practice%20Buchung%20Zahlungsdifferenzen%20Abstimmung%20Verlust%20aus%20Forderung.png)

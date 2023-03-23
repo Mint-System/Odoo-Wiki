@@ -28,7 +28,7 @@ Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Beweb
 
 Öffnen Sie die Übersicht der Journale via *Finanzen* und klicken auf den Knopf *Abstimmen X Artikel* des entsprechenden Bankjournals.
 
-### Überfällige Forderungen abtimmen
+### Überfällige Forderungen abstimmen
 
 Navigieren Sie nach *Finanzen > FInanzen > Überfällige Forderungen* und erweitern Sie den Eintrag zu einem Partner. Wählen Sie Ausgleich und anschliessend den offenen Betrag. Erstellen Sie eine Gegenbuchung und schliessend Sie den Vorgang mit *Abstimmung* ab.
 
