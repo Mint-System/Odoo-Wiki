@@ -8,6 +8,12 @@ prev: ./verkauf
 
 Verkaufsaufträge unkompliziert abrechnen.
 
+## Konfiguration
+
+### Produkt für Vorauszahlung auswählen
+
+Navigieren Sie nach *Einstellungen > Verkauf > Abrechnung* und wählen Sie im Feld *Anzahlungen* das entsprechende Produkt aus.
+
 ## Abrechnung
 
 ### Verkaufsauftrag abrechnen
