@@ -957,7 +957,7 @@ Trigger-Feld:
 * `pack_weight`
 * `quant_ids`
 * `single_product_qty`
-* `singple_product_id`
+* `single_product_id`
 Anzuwenden auf:
 
 ```python
