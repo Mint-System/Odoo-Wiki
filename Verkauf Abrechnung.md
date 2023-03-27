@@ -15,7 +15,7 @@ Verkaufsaufträge unkompliziert abrechnen.
 Navigieren Sie nach *Einstellungen > Verkauf > Abrechnung* und wählen Sie im Feld *Anzahlungen* das entsprechende Produkt aus. Zegien Sie das Produkt an und wählen Sie im Tab *Finanzen* das Erlöskonto festlegen.
 
 ::: warning
-Damit Anzahlungen korrekt gebucht werden, müssen das [Konto für Anzahlungen festlegen](Finanzen%20Zahlungen.md#Konto%20für%20Anzahlungen%20festlegen)
+Damit Anzahlungen korrekt gebucht werden, müssen das [Konto für Anzahlungen festlegen](Finanzen%20Zahlungen.md#Konto%20für%20Anzahlungen%20festlegen).
 :::
 
 ## Abrechnung
