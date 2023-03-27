@@ -942,3 +942,27 @@ for picking in records:
     move.write({'state': 'done'})
   picking._action_done()
 ```
+
+### Liefergewicht von Verpackung berechnen
+
+Mit dieser automatischen Aktion wird auf Verpackung das Liefergewicht aus dem geschäftzten Produktgewicht und dem Gewicht der Verpackung berechnet.
+
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
+
+Name der Aktion: `Liefergewicht von Verpackung berechnen`\
+Modell: `stock.quant.package`\
+Triggerbedingung: Bei Erstellung und Aktualisierung\
+Trigger-Feld:
+* `​estimated_pack_weight_kg`
+* `pack_weight`
+* `quant_ids`
+* `single_product_qty`
+* `singple_product_id`
+Anzuwenden auf:
+
+```python
+for rec in records:
+  rec.write({
+    'shipping_weight': rec.estimated_pack_weight_kg + rec.pack_weight
+  })
+```
