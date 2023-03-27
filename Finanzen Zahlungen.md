@@ -151,3 +151,9 @@ Aktion: `ir.actions.act_window` `Zahlungsmethoden`\
 Nummernfolge: `10`
 
 Laden Sie die Odoo-App neu. Anschliessend finden Sie unter *Finanzen > Konfiguration > Zahlungsmethoden* eine Übersicht der Zahlungsmethoden.
+
+## Anzahlungen
+
+### Konto für Anzahlungen festlegen
+
+Navigieren Sie nach *Einstellungen > Verkauf > Abrechnung* und öffnen Sie das Produkt in der Auswahl von *Anzahlungen*. Im Tab *Finanzen* wählen Sie im Feld *Erlöskonto* ein Konto aus den kurzfristigen Verbindlichkeiten, beispielsweise *2030 Erhaltene Anzahlungen*, aus.
