@@ -19,12 +19,12 @@ Sind diese Bedingungen erfüllt, kann mit der *Print QR-Bill* Aktion eine QR-Rec
 
 Out-of-the-box generiert Odoo eine Rechnung eine QR-Rechnung separat sobald man die Aktion *Senden & Drucken* auf einer Rechnung ausführt. Damit dieses Verhalten unterdrückt werden kann müssen diese Module installiert werden:
 
-| Erweiterung                                                                                                     | Beschreibung                                       |
-| --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| [Switzerland Disable Default Reports](Switzerland%20Disable%20Default%20Reports.md)                             | Generierung der QR- und ISR-Berichte deaktivieren. |
-| [l10n CH Invoice Reports](l10n%20CH%20Invoice%20Reports.md) | Rechnung mit ISR- und/oder QR-Zahlung drucken.     |
-| [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                                               | Generierung der QR-Rechnung ohne ISR-Nummer.       |
-| [Mail Composer Default Template](Mail%20Composer%20Default%20Template.md)                                       | Standardvorlage für Mail-Dialog festlegen.         |
+| Erweiterung                                                                         | Beschreibung                                       |
+| ----------------------------------------------------------------------------------- | -------------------------------------------------- |
+| [Mail Composer Default Template](Mail%20Composer%20Default%20Template.md)           | Standardvorlage für Mail-Dialog festlegen.         |
+| [Switzerland Disable Default Reports](Switzerland%20Disable%20Default%20Reports.md) | Generierung der QR- und ISR-Berichte deaktivieren. |
+| [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                   | Generierung der QR-Rechnung ohne ISR-Nummer.       |
+| [l10n CH Invoice Reports](l10n%20CH%20Invoice%20Reports.md)                         | Rechnung mit ISR- und/oder QR-Zahlung drucken.     |
 
 Damit die Rechnungsdokumente nicht automatisch generiert und an das Rechnungsobjekt angehägt werden, müssen Sie für die folgenden Rechnungs-Berichte die [Option Als Anhang speichern deaktivieren](Entwicklung%20QWeb-Berichte.md#Option%20Als%20Anhang%20speichern%20deaktivieren):
 
