@@ -10,7 +10,7 @@ Verkaufsaufträge unkompliziert abrechnen.
 
 ## Konfiguration
 
-### Produkt für Vorauszahlung auswählen
+### Produkt für Anzahlung auswählen
 
 Navigieren Sie nach *Einstellungen > Verkauf > Abrechnung* und wählen Sie im Feld *Anzahlungen* das entsprechende Produkt aus. Zegien Sie das Produkt an und wählen Sie im Tab *Finanzen* das Erlöskonto festlegen.
 
@@ -24,11 +24,11 @@ Damit Anzahlungen korrekt gebucht werden, müssen das [Konto für Anzahlungen fe
 
 Navigieren Sie nach *Verkauf > Aufträge > Aufträge* und öffnen Sie einen Verkaufsaufstag im Status *Abzurechnen*. Wählen Sie die Aktion *Rechnung erstellen*. Im Dialog wählen Sie die Option *Reguläre Rechnung* und bestätigen den Vorgang mit *Rechnung erstellen und anzeigen*.
 
-### Vorauszahlung erstellen
+### Anzahlung erstellen
 
 Navigieren Sie nach *Verkauf > Aufträge > Aufträge* und öffnen Sie einen Verkaufsaufstag. Wählen Sie die Aktion *Rechnung erstellen* und anschliessend die Option *Anzahlung (Prozent)*. Tragen Sie im Feld *Anzahlungsbetrag* den Prozentsatz ein. Dasselbe funktioniert auch mit Fixbeträgen mit der Option *Anzahlung (Fester Betrag)*. Schliessen Sie den Vorgang mit *Rechnung erstellen und anzeigen*. Odoo erstellt eine Rechnung mit dem Produkt *Down payment* und trägt dieses auf dem Verkaufsauftrag ein.
 
-### Verkaufsauftrag mit Vorauszahlung abrechnen
+### Verkaufsauftrag mit Anzahlungen abrechnen
 
 avigieren Sie nach *Verkauf > Aufträge > Aufträge* und öffnen Sie einen Verkaufsaufstag mit einer Vorauszahlung. Klicken Sie auf *Rechnung erstellen*. Wenn Sie Option *Abzug von Anzahlung* aktivieren, wird Odoo den Rechnungsbetrag den vorausbezahlte Betrag abziehen. Wenn Sie die Option deaktivieren, erstellt eine normale Rechnung.
 

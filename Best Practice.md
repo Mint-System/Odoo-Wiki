@@ -39,6 +39,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Mehrwertsteuer](Best%20Practice%20Mehrwertsteuer.md)
 * [QR-Rechnung](Best%20Practice%20QR%20Rechnung.md)
 * [SEPA Zahlung](Best%20Pratice%20SEPA%20Zahlung.md)
+* [Anzahlungen](Best%20Practice%20Anzahlungen.md)
 
 ### Finanzen
 
