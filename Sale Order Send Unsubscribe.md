@@ -14,6 +14,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/sale_orde
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscribe) zu verwenden.
+#deprecated
 :::
 
 ## Verwendung

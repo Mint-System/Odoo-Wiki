@@ -54,6 +54,6 @@ Nachdem Sie die Rechnung bestätigt haben, erscheint die folgende Meldung:
 
 Klicken Sie auf *Restguthaben* und gleichen Sie die Rechnung mit dem Bankbeleg ab. Sie können die Rechnung dem Kunden schicken, dass die Rechnung bereits bezahlt wurde ist ersichtlich.
 
-### Schlussrechnung
+### Abschluss
 
 Wenn alle Stunden des Auftrags abgerechnet wurden, die Rechung der Anzahlung als [Gutschrift](Abrechnung.md#Gutschrift%20erstellen) verbucht werden.

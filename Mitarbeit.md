@@ -227,3 +227,4 @@ Mit Obsidian können Artikel getagged `#tagname` werden. Tags werden von Vuepres
 * #Odoo14: Tag für Odoo Version 14.
 * #Odoo15: Tag für Odoo Version 15.
 * #Odoo16: Tag für Odoo Version 16.
+* #deprecated: Tag für veraltete Artikel

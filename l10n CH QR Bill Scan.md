@@ -14,6 +14,7 @@ Repository: <https://github.com/OCA/l10n-switzerland/tree/14.0>
 
 ::: warning
 Dieses Modul ist nur als Pull Request verfügbar. Wir empfehlen als Alternative das Modul [l10n CH QR ISR Invoice Import](l10n%20CH%20QR%20ISR%20Invoice%20Import.md) zur verwenden.
+#deprecated
 :::
 
 ## Verwendung
