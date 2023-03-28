@@ -7,45 +7,53 @@ prev: ./best-practice
 
 ## Dienstleistung mit Anzahlung abwickeln
 
-In diesem Szenario verkaufen Sie eine Dienstleistung auf Stundenbasis an einen Kunden. Sie bieten dem Kunden 10% Rabatt an, wenn eine 100% Anzahlung der offerierten Stunden erfolgt. 
+In diesem Szenario verkaufen Sie eine Dienstleistung auf Stundenbasis an einen Kunden. Sie bieten dem Kunden 10% Rabatt in Form von zusätzlichen Stunden an, wenn eine Anzahlung der offerierten Stunden zu 100% erfolgt. 
 
 ### Konfiguration
 
-Damit Anzahlungen für Angebote erfasst werden könne, führen Sie die folgenden HowTos aus:
+Damit Anzahlungen für Angebote erfasst werden können, führen Sie diese Schritte durchführen:
 
-* 
 * [Produkt für Anzahlung auswählen](Verkauf%20Abrechnung.md#Produkt%20für%20Anzahlung%20auswählen)
 * [Konto für Anzahlungen festlegen](Finanzen%20Zahlungen.md#Konto%20für%20Anzahlungen%20festlegen)
 
 ### Anzahlung
 
-Nun können Sie [Angebot erstellen](Verkauf.md#Angebot%20erstellen) und diese Auftragszeilen hinzufügen:
+Nun können Sie ein [Angebot erstellen](Verkauf.md#Angebot%20erstellen) und diese Auftragszeilen hinzufügen:
 
 Auftragszeile 1:
-* Produkt: 
-* Menge: 
+* **Produkt**: Produkt vom Typ Dienstleistung
+* **Menge**: 20 Stunden
+* **Stückpreis**: 100.00
+
 Auftragszeile 2:
-* Produkt: 
-* Menge: 
-* Rabatt
+* **Produkt**: Produkt vom Typ Dienstleistung
+* **Menge**: 2 Stunden (10% von 20 Stunden)
+* **Preis**: 0.00 
 
-
-
-[Anzahlung erstellen](Verkauf%20Abrechnung.md#Anzahlung%20erstellen)
-
+Bestätigen Sie den Auftrag und führen Sie [Anzahlung erstellen](Verkauf%20Abrechnung.md#Anzahlung%20erstellen) mit dem *Anzahlungsbetrag* von 100% aus. Bestätigen Sie die Rechnung.
 
 ### Zahlung
 
-Sobald der Kunde die Rechnung bezahlt, erhalten Sie über das eBanking einen entsprechenden Beleg zum Abgleich. Dazu die manuellen Schritte:
+Sobald der Kunde die Rechnung bezahlt, erhalten Sie über das eBanking einen entsprechenden Beleg zum Abgleich. Diesen Beleg dürfen Sie nicht mit der Anzahlungsrechnung abgleichen.
 
-[[Finanzen Abstimmung]] Beleg erfassen
+Für dieses Beispiel können Sie einen [Bankauszug](Finanzen%20Abstimmung#Bankauszug%20erfassen) mit dem Betrag von 2'154.00 erfassen.
 
-[Abstimmung durchführen](Finanzen%20Abstimmung.md#Abstimmung%20durchführen)
+### Leistungen
+
+Auf dem Verkaufsauftrag erfassen Sie nun Leistungen. Entweder tragen Sie diese manuell in die Auftragszeilen ein oder fügen Sie über die Zeiterfassung und Projekte hinzu.
+
+In diesem Beispiel werden 10 Stunden geliefert und stehen so zur Abrechnung bereit. 
 
 ### Abrechnung
 
-Genau wie die Aufträge ohne Anzahlung erstellen Sie periodische eine Rechnung. Führen Sie dazu das HowTo aus: [Verkaufsauftrag mit Anzahlungen abrechnen](Verkauf%20Abrechnung.md#Verkaufsauftrag%20mit%20Anzahlungen%20abrechnen)
+Genau wie für die Aufträge ohne Anzahlung erstellen Sie periodische eine Rechnung. Führen Sie dazu eine Abrechnung ohne *Abzug der Anzahlung* aus: [Verkaufsauftrag mit Anzahlungen abrechnen](Verkauf%20Abrechnung.md#Verkaufsauftrag%20mit%20Anzahlungen%20abrechnen).
 
-Im
+Nachdem Sie die Rechnung bestätigt haben, erscheint die folgende Meldung:
 
-[Verkaufsauftrag abrechnen](Verkauf%20Abrechnung.md#Verkaufsauftrag%20abrechnen)
+> Sie haben **Restguthaben** für diesen Kunden. Sie können diese zuteilen, um die Rechnung als bezahlt zu kennzeichnen.
+
+Klicken Sie auf *Restguthaben* und gleichen Sie die Rechnung mit dem Bankbeleg ab. Sie können die Rechnung dem Kunden schicken, dass die Rechnung bereits bezahlt wurde ist ersichtlich.
+
+### Schlussrechnung
+
+Wenn alle Stunden des Auftrags abgerechnet wurden, die Rechung der Anzahlung als [Gutschrift](Abrechnung.md#Gutschrift%20erstellen) verbucht werden.

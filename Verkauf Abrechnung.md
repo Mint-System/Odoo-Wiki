@@ -26,11 +26,11 @@ Navigieren Sie nach *Verkauf > Aufträge > Aufträge* und öffnen Sie einen Verk
 
 ### Anzahlung erstellen
 
-Navigieren Sie nach *Verkauf > Aufträge > Aufträge* und öffnen Sie einen Verkaufsaufstag. Wählen Sie die Aktion *Rechnung erstellen* und anschliessend die Option *Anzahlung (Prozent)*. Tragen Sie im Feld *Anzahlungsbetrag* den Prozentsatz ein. Dasselbe funktioniert auch mit Fixbeträgen mit der Option *Anzahlung (Fester Betrag)*. Schliessen Sie den Vorgang mit *Rechnung erstellen und anzeigen*. Odoo erstellt eine Rechnung mit dem Produkt *Down payment* und trägt dieses auf dem Verkaufsauftrag ein.
+Navigieren Sie nach *Verkauf > Aufträge > Aufträge* und öffnen Sie einen Verkaufsaufstag. Wählen Sie die Aktion *Rechnung erstellen* und anschliessend die Option *Anzahlung (Prozent)*. Tragen Sie im Feld *Anzahlungsbetrag* den Prozentsatz ein. Dasselbe funktioniert auch mit Fixbeträgen mit der Option *Anzahlung (Fester Betrag)*. Schliessen Sie den Vorgang mit *Rechnung erstellen und anzeigen*. Odoo erstellt eine Rechnung mit dem Produkt *Anzahlung* und trägt dieses auf dem Verkaufsauftrag ein.
 
 ### Verkaufsauftrag mit Anzahlungen abrechnen
 
-avigieren Sie nach *Verkauf > Aufträge > Aufträge* und öffnen Sie einen Verkaufsaufstag mit einer Vorauszahlung. Klicken Sie auf *Rechnung erstellen*. Wenn Sie Option *Abzug von Anzahlung* aktivieren, wird Odoo den Rechnungsbetrag den vorausbezahlte Betrag abziehen. Wenn Sie die Option deaktivieren, erstellt eine normale Rechnung.
+Navigieren Sie nach *Verkauf > Aufträge > Aufträge* und öffnen Sie einen Verkaufsaufstag mit einer Vorauszahlung. Klicken Sie auf *Rechnung erstellen*. Wenn Sie Option *Abzug von Anzahlung* aktivieren, wird Odoo den Rechnungsbetrag den vorausbezahlte Betrag abziehen. Wenn Sie die Option deaktivieren, erstellt eine normale Rechnung.
 
 ::: warning
 Wenn die Option *Abzug von Anzahlung* aktiviert ist und der vorausbezahlte Betrag den Rechnungsbetrag übersteigt, erstellt Odoo eine Kunden-Gutschrift.

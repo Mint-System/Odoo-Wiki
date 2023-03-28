@@ -45,12 +45,26 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 Öffnen Sie *Abrechnung > Kunden > Rechnungen* und fügen Sie einen Eintrag hinzu.
 
-### Rechnung stornieren
+### Rechnung zurücksetzen
 
-Wurde die erstellte Rechnung bereits auf Status *Verbucht* gesetzt, so kann diese Rechnung nicht mehr korrigiert oder gelöscht werden. Reklamiert der Kunde zum Beispiel und die Rechnung muss neu erstellt erden, so kann über die Funktion *Stornieren* die Rechnung rückgängig gemacht werden und sämtliche Buchungen erhalten eine Gegenbuchung. Somit ist zum Beispiel das Konto *2200   
-Geschuldete MwSt. (Umsatzsteuer)* mit den Gegenbuchungen wieder ausgeglichen und die MWST wird in Auflistung der Abrechnung nicht erscheinen.
+Um eine gebucht Rechnung zurückzusetzen navigieren Sie nach nach Abrechnung > Kunden > Rechnungen* und zeigen eine augewählte Rechnung an. Wählen Sie die Aktion *Zurücksetzen* damit die Rechnung in den Status *Entwurf* gesetzt wird.
 
-In Modul *Finanzen* die Rechnung in der Liste anwählen und anzeigen lassen. Danach den Befehl *Stornieren* ausführen. Beachten Sie, dass Sie das als Storno-Datum das Rechnungsdatum wählen. Sodass die Storno am gleichen Tag erfolgt.
+::: tip
+Wurde die erstellte Rechnung bereits auf Status *Gebucht* gesetzt, so kann diese Rechnung nur teilweise korrigiert oder gelöscht werden.
+:::
+
+### Gutschrift erstellen
+
+Öffnen Sie *Abrechnung > Kunden > Rechnungen* und zeigen Sie die Rechnung an, welche vergütet werden soll. Wählen Sie die Aktion *Gutschrift Erstellen* und aktivieren die passenden Optionen:
+
+* **Kreditmethode**:
+	* Teilweise Rückerstattung:  
+	* Komplette Rückerstattung: Es wird eine Gegenbuchung erstellt
+	* Komplette Rückerstattung und neuer Rechnungsentwurf: Es wird eine Gegenbuchung erstellt und die Rechnung kopiert.
+* **Begründung**: Geben Sie einen Text für die Gegenbuchung ein
+* **Stornodatum**: Wenn Sie *Spezifisch* wählen, treffen Sie für das *Rückerstattungsdatum* eine Auswahl 
+
+Schliessen Sie den Vorgang mit *Gutschrift Erstellen* ab.
 
 ## Abrechnung
 
@@ -114,15 +128,6 @@ Zeigen Sie die [Externe ID](Entwicklung.md#Externe%20IDs%20anzeigen) für `accou
 
 Damit wird beim Aufruf der Aktion *Senden & Drucken* auf der Rechnung die Standardvorlage nicht geladen.
 
-## Konfiguration
-
-### Rechnungsnummer einrichten
-
-Die Einrichtung der automatischen Vergabe der Rechnungsnummer erfolgt über die Aktion *Resequence* im Menu *Abrechnung > Kunden > Rechnungen*.
-Markieren Sie eine (oder alle) Rechnungen und formulieren Sie die erste Rechnungsnummer der Sequenz. Nach diesem Schema werden nur alle Rechnungen neu benannt und neue Rechnungen folgen diesem Muster.
-
-![Abrechnung Rechnungsnummer einrichten](assets/Abrechnung%20Rechnungsnummer%20einrichten.gif)
-
 ## Berichte
 
 ### Einzahlungsschein drucken
@@ -151,9 +156,9 @@ Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generie
 * Das QR-Konto ist auf dem Rechnungskonto eingetragen
 * Die Zahlungsreferenz muss QR-kompatibel sein (Referenz gemäss ISR)
 * Die Rechnung ist im Status *Gebucht*
-* Die Einstellung *Einstellungen > Finanzen > Ausgangsrechnungen > Print Swiss QR Code* ist aktiviert
+* Die Einstellung *Einstellungen > Finanzen > Ausgangsrechnungen > Print Swiss QR Code* ist aktiviert (optional)
 
-Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die Aktion *Print QR-Bill*.
+Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die Aktion *QR-Rechnung Drucken*.
 
 ## Datenbank
 

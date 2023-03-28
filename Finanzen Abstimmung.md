@@ -14,7 +14,18 @@ Bankkonto mit Odoo abgleichen.
 
 Um die Abstimmung für Buchungszeilen eines bestimmten Kontos zu erlauben, navigieren Sie nach *Finanzen > Konfiguration > Kontenplan*. Suchen Sie das bestimmte Konto und aktivieren Sie Option *Erlaube Abstimmung*.
 
-## Abstimmung
+### Bankauszug
+
+### Bankauszug erfassen
+
+Navigieren Sie nach *Finanzen* und klicken Sie auf das Bankjoural. Erfassen Sie einen neuen Bankauszug:
+
+* **Referenz**: Eindeutige Kennzeichnung des Belegs
+* **Anfangssaldo**: Banksaldo vor Begin der Transkationen
+* **Endsaldo**: Banksaldo nach Ende der Transkationen
+* **Transaktionen**: Erfassen Sie die Banktransaktionen mit Datum, Buchungstext, Partner und Betrag
+
+Bestätigen Sie den Bankauszug.
 
 ### Kontoauszug importieren
 
@@ -23,6 +34,8 @@ Zeigen Sie das Dashboard von *Finanzen* an. Wählen Sie *Import* unter dem Name 
 ![](assets/Finanzen%20Kontoauszug%20importieren.png)
 
 Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Bewebungen wird angezeigt.
+
+## ABstimmung
 
 ### Abstimmung durchführen
 
