@@ -32,6 +32,13 @@ Auftragszeile 2:
 
 Bestätigen Sie den Auftrag und führen Sie [Anzahlung erstellen](Verkauf%20Abrechnung.md#Anzahlung%20erstellen) mit dem *Anzahlungsbetrag* von 100% aus. Bestätigen Sie die Rechnung.
 
+Mit der Anzahlung wird der Betrag auf das Konto *2030 Erhaltene Anzahlungen* blastet.
+
+| Buchungssatz    | Konto                                                       | Buchungstext         | Soll         | Haben        |
+| --------------- | ----------------------------------------------------------- | -------------------- | ------------ | ------------ |
+| Re.:/2023/00006 | 2030 Erhaltene Anzahlungen                                  | Anzahlung von 100.0% | CHF 0.00     | CHF 2'154.00 |
+| Re.:/2023/00006 | 1100 Forderungen aus Lieferungen und Leistungen (Debitoren) |                      | CHF 2'154.00 | CHF 0.00     |
+
 ### Zahlung
 
 Sobald der Kunde die Rechnung bezahlt, erhalten Sie über das eBanking einen entsprechenden Beleg zum Abgleich. Diesen Beleg dürfen Sie nicht mit der Anzahlungsrechnung abgleichen.
@@ -57,3 +64,12 @@ Klicken Sie auf *Restguthaben* und gleichen Sie die Rechnung mit dem Bankbeleg a
 ### Abschluss
 
 Wenn alle Stunden des Auftrags abgerechnet wurden, die Rechung der Anzahlung als [Gutschrift](Abrechnung.md#Gutschrift%20erstellen) verbucht werden.
+
+Mit der Gutschrift wird das Konto *2030 Erhaltene Anzahlungen* wieder ausgeglichen.
+
+| Buchungssatz                                      | Konto                                                       | Buchungstext         | Soll         | Haben        |
+| ------------------------------------------------- | ----------------------------------------------------------- | -------------------- | ------------ | ------------ |
+| Re.:/2023/00006                                   | 2030 Erhaltene Anzahlungen                                  | Anzahlung von 100.0% | CHF 0.00     | CHF 2'154.00 |
+| Re.:/2023/00006                                   | 1100 Forderungen aus Lieferungen und Leistungen (Debitoren) |                      | CHF 2'154.00 | CHF 0.00     |
+| RRe.:/2023/00001 (Umkehrung von: Re.:/2023/00006) | 2030 Erhaltene Anzahlungen                                  | Anzahlung von 100.0% | CHF 2'154.00 | CHF 0.00     |
+| RRe.:/2023/00001 (Umkehrung von: Re.:/2023/00006) | 1100 Forderungen aus Lieferungen und Leistungen (Debitoren) |                      | HF 0.00      | CHF 2'154.00 |
