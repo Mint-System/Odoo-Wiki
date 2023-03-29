@@ -49,7 +49,7 @@ Für dieses Beispiel können Sie einen [Bankauszug](Finanzen%20Abstimmung#Bankau
 
 Auf dem Verkaufsauftrag erfassen Sie nun Leistungen. Entweder tragen Sie diese manuell in die Auftragszeilen ein oder fügen Sie über die Zeiterfassung und Projekte hinzu.
 
-In diesem Beispiel werden 10 Stunden geliefert und stehen so zur Abrechnung bereit. 
+In diesem Beispiel werden 20 Stunden geliefert und stehen so zur Abrechnung bereit. 
 
 ### Abrechnung
 
@@ -63,7 +63,7 @@ Klicken Sie auf *Restguthaben* und gleichen Sie die Rechnung mit dem Bankbeleg a
 
 ### Abschluss
 
-Wenn alle Stunden des Auftrags abgerechnet wurden, die Rechung der Anzahlung als [Gutschrift](Abrechnung.md#Gutschrift%20erstellen) verbucht werden.
+Wenn alle Stunden des Auftrags abgerechnet worden sind, kann die Anzahlungsrechnung als [Gutschrift](Abrechnung.md#Gutschrift%20erstellen) verbucht werden.
 
 Mit der Gutschrift wird das Konto *2030 Erhaltene Anzahlungen* wieder ausgeglichen.
 
