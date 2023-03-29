@@ -14,10 +14,10 @@ Repository: <https://github.com/OCA/server-ux/tree/13.0/mass_editing>
 
 ## Verwendung
 
-### Aktion hinzufügen
+### Aktion Massenbearbeitung hinzufügen
 
-Navigieren Sie nach *Einstellungen > Mass Operations > Massenverarbeitung* und klicken auf *Anlegen*.
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und klicken auf *Anlegen*.
 
-Geben Sie als *Name* den Name des Zielmodels im snake_case-Format ein. Geben Sie den im Feld *Name der Aktion* eine passende Beschreibung ein. Wählen Sie das Zielmodell unter *Modell* und fügen Sie die verfügbaren Felder für die Massenbearbeitung hinzu. Aktivieren Sie die Massenbearbeitung mit *Add sidebar button*.
+Geben Sie im Feld *Name der Aktion* eine für die Aktion passende Beziechyhnung ein. Wählen Sie im Feld *Modell* das Datenmodell wo die Aktion verfügbar sein soll. Anschliessend wählen Sie im Feld *Folgeaktion* die Option *Mass Edit Records*. In der Tabelle *Fields* können Sie nuun die Felder, welche im Dialog der Massenbearbeitung zur Verfügung stehen sollen hinzufügen. Im Tab *Message* können Sie eine optionale Nachricht für den Bearbeitungs-Dialog hinterlegen und im Tab *Sicherheit* können Sie die Aktion auf bestimmte Gruppen einschränken.
 
 ![Massenverarbeitung ausführen](assets/Massenverarbeitung%20ausführen.gif)
