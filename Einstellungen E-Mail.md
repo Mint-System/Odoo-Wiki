@@ -19,7 +19,7 @@ Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Fe
 
 ### Eingehender Mail-Server Office 365 konfigurieren
 
-Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen (bis Odoo 14):
+Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen (bis #Odoo14):
 
 * **Beschreibung**: Office 365 Incoming
 * **Servertyp**: IMAP Server
@@ -29,7 +29,7 @@ Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20ko
 * **Benutzername**: Mail-Adresse des Odoo Postfach
 * **Passwort**: Passwort des Odoo Postfach
 
-Ab Odoo 15 müssen Sie lediglich diese Parameter wählen:
+Ab #Odoo15  müssen Sie lediglich diese Parameter wählen:
 
 * **Beschreibung**: Office 365 Incoming
 * **Outlook**: Option markieren
@@ -63,7 +63,7 @@ Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladun
 
 ### Ausgehender Mail-Server Office 365 konfigurieren
 
-Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen (bis Odoo 14):
+Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen (bis #Odoo14):
 
 * **Beschreibung**: Office 365 Outgoing
 * **SMTP Server**: `smtp.office365.com`
@@ -75,7 +75,7 @@ Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20ko
 
 ![](assets/Einstellungen%20E-Mail%20Ausgehender%20Mail-Server%20Office%20365.png)
 
-Ab Odoo 15 müssen Sie lediglich diese Parameter wählen:
+Ab #Odoo15 müssen Sie lediglich diese Parameter wählen:
 
 * **Beschreibung**: Office 365 Outgoing
 * **Outlook**: Option markieren
