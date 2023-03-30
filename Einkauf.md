@@ -10,6 +10,12 @@ Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands.
 
 Website: <https://www.odoo.com/de_DE/app/purchase>
 
+## Bereiche
+
+| Bereich                                   | Beschreibung                             |
+| ----------------------------------------- | ---------------------------------------- |
+| [Einkauf Aktionen](Einkauf%20Aktionen.md) | Arbeitsflüsse in Einkauf automatisieren. |
+
 ## Erweiterungen
 
 | Erweiterung                                                                           | Beschreibung                                                                              |

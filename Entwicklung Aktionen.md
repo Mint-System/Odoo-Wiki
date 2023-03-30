@@ -187,19 +187,6 @@ if record.stage_id.sequence in [0,1,2]:
 
 ![Aktionen Stufe nicht erlaubt](assets/Aktionen%20Stufe%20nicht%20erlaubt.gif)
 
-### Set Order Deadline
-
-Mit Aktionen können Felder mit einem bestimmten Default-Wert beschrieben werden. Im folgenden Beispiel wird das Feld *Order Deadline* auf Angebotsanfragen auf das Datum *heute + 5 Tage* gesetzt.
-
-Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatische Aktionen* und erstellen Sie den folgenden Eintrag:
-
-* Name der Aktion: `Set Order Deadline`
-* Modell: `Beschaffungsauftrag`
-* Auslöser: `Bei Erstellung`
-* Folgeaktion: `Den Datensatz aktualisieren`
-* Feld: `Order Deadline (purchase.order)`
-* Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
-
 ## Geplante Aktionen
 
 ### Ablaufdatum Datenbank erneuern

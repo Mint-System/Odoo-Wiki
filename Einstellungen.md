@@ -33,6 +33,7 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 | [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)               | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.   |
 | [Base Recursion Limit](Base%20Recursion%20Limit.md)             | Limit für Python-Rekursionen erhöhen.                                |
 | [Base User Role](Base%20User%20Role.md)                         | Gruppenberechtigungen mit Benutzer-Rollen verwalten.                 |
+| [Fetchmail Incoming Log](Fetchmail%20Incoming%20Log.md)         | Loggt Informationen zu eingehenden E-Mails.                      |
 | [Home Background Image](Home%20Background%20Image.md)           | Den Odoo-Startbildschirm gestalten.                                  |
 | [Impersonate](Impersonate.md)                                   | Schnelles Wechseln zwischen Benutzer-Accounts.                       |
 | [Mail Server Filter](Mail%20Server%20Filter.md)                 | Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern. |

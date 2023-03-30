@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_employee_a
 
 ### Bericht Anwesenheit letzter Monat drucken
 
-Klicken Sie auf das Account-Menü und wählen Sie *Mein Profil*. Wählen Sie nun *Drucken > Bericht Anwesenheit* um den Anwesenheitsbericht des letzten Monats zu erstellen.
+Klicken Sie auf das Account-Menü und wählen Sie *Mein Profil*. Wählen Sie nun *Drucken > Bericht Anwesenheit*. Im neuen Dialog können Sie ein Start- und Endatum auswählen und den Vorgang mit *Drucken ausführen*.
 
 Sie erhalten eine Aufstellung der gearbeiteten Stunden und Berechnung der Überstunden:
 
