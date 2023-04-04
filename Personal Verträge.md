@@ -17,3 +17,9 @@ Navigieren Sie nach *Einstellungen > Benutzer* und wählen Sie den Bentzer aus, 
 ### Arbeitsvertrag hinzufügen
 
 Die Entlohnung und Arbeitszeiten sind im Arbeitsvertrag festgehalten. Fügen Sie den Mitarbeiter über *Personal > Mitarbeiter auswählen > Link Verträge* mit *Anlegen* einen Vertrag hinzu. Damit der Vertrag aktiv ist, müssen Sie ihn in den Status *Laufend* verschieben.
+
+## Arbeitszeit
+
+### Arbeitszeiten in Kalender anzeigen
+
+Odoo generiert anhand der Arbeitszeiten Termin-Einträge für die Kalender-Ansicht. Navigieren Sie nach *Personal* und wählen Sie einen Mitarbeitenden aus. Klicken Sie auf den Smart-Link *Arbeitseinträge*.
