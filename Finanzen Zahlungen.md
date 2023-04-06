@@ -85,9 +85,9 @@ Zur Speicherung der QR-IBAN gibt es auf dem Bankkonto ein entsprechendes Feld. N
 
 Zeigen Sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an und öffnen Sie den Tab *Weitere Informationen*. Im Feld *Payment QR-code* ist die Methode zum Generieren des QR-Codes festgelegt.
 
-## Zahlungen
+## Ausgehende Zahlungen
 
-### Zahlungsreferenz Lieferant hinterlegen
+### Zahlungsreferenz von Lieferant hinterlegen
 
 Auf einer Lieferantenrechnung unter *Finanzen > Lieferanten > Rechnung* geben Sie im Feld *Zahlungsreferenz* die Rechnungsnummer des Lieferanten ein. Dazu ein Beispiel:
 
@@ -98,25 +98,26 @@ Wenn Sie eine Zahlung erfassen wird diese Zahlungsreferenz als *Memo* übernomme
 ![](assets/Finanzen%20Zahlungen%20Memo%20Zahlung.png)
 
 ### Ausgehende Zahlung für mehrere Rechnungen erfassen
+
 Im App Finanzen in der Ansicht *Finanzen >  Lieferanten > Rechnung* den Filter *Nicht bezahlt* setzen. Die zu zahhlenden Rechnungen links markieren und *Zahlung erfassen* auswählen. 
 
 ![](assets/Finanzen%20Sepa%20Zahlung%20erfassen.png)
 
 Für jede Rechnung wird eine SEPA-Zahlung angelegt.
 
-### Zahlung mit Rabatt erstellen
+### Lieferanten-Zahlung mit Rabatt erstellen
 
 Wenn Sie für eine Rechnung *Finanzen > Lieferanten > Rechnung* eine Zahlung erfassen, können Sie den Zahlungsbetrag mit dem gewährten Rabatt überschreiben. Den Rabatt-Betrag erhalten Sie im Tab *Buchungszeilen* unter Berücksichtigung der entsprechenden *Fälligkeit*. Im Dialog *Zahlung erfassen*, geben Sie den entsprechenden Betrag ein und wählen für das Feld *Zahlungsdifferenz* die Option *Mark as fully paid*. Geben Sie nun das entsprechende Konto für das Skonto ein.
 
 ![](assets/Finanzen%20Zahlung%20mit%20Rabatt.png)
 
-### Zahlung anzeigen
+### Lieferanten-Zahlungen anzeigen
 
 Wählen Sie bezahlte Rechnung oder Rechnung in Zahlung via *Finanzen > Lieferanten > Rechnung* aus. Klicken Sie auf das Informations-Icon unterhalb des Rechnungstotal und wählen anschliessen *Ansicht*.
 
 ![](assets/Finanzen%20Zahlungen%20anzeigen.png)
 
-### Zahlungsreferenz neu generieren
+### Zahlungsreferenz auf Lieferantenrechnung neu generieren
 
 Wählen Sie die gebuchte Rechnung unter *Finanzen > Lieferanten > Rechnung* und klicken Sie auf *Zurücksetzen*. Entfernen Sie die Inhalte aus dem Feld *Zahlungsreferenz* und bestätigen Sie die Rechnung. Nun sollte eine neue Zahlungsreferenz generiert werden.
 
@@ -132,11 +133,33 @@ Nach der Validierung erhalten Sie einen ausführlichen Bericht.
 
 ![](assets/Finanzen%20Zahlungen%20Zahlungsdatei%20output.png)
 
-### Zahlung gesendet zurücksetzen
+### Gesendete Stapelzahlung zurücksetzen
 
 Wenn  Sie die Aktion [Zahlung gesendet zurücksetzen](Finanzen%20Aktionen.md#Zahlung%20gesendet%20zurücksetzen) erstellen, können Sie Stapelzahlung mit gesendeten Zahlungen neu generieren.
 
 ![Finanzen Zahlungen gesendet zurücksetzen](assets/Finanzen%20Zahlungen%20gesendet%20zurücksetzen.gif)
+
+## Eingehende Zahlungen
+
+### Eingehende Zahlung erfassen
+
+Navigieren Sie nach *Finanzen > Kunden > Zahlung* und erfassen Sie eine Zahlung:
+
+* **Zahlungsart**: Wählen Sie hier *Eingehend*
+* **Kunde**: Wählen Sie den Kunden von dem Sie die Zahlung erhalten haben
+* **Betrag**: Geben Sie hier den erhaltenen Betrag ein
+* **Datum**: Das ist das Datum an dem die Zahlung erfolgt ist
+* **Memo**: Tragen Sie hier die Zahlungsreferenz des Kunden ein
+
+Buchen Sie die Zahlung mit *Bestätigung*.
+
+## Anzahlungen
+
+### Konto für Anzahlungen festlegen
+
+Navigieren Sie nach *Einstellungen > Verkauf > Abrechnung* und öffnen Sie das Produkt in der Auswahl von *Anzahlungen*. Im Tab *Finanzen* wählen Sie im Feld *Erlöskonto* ein Konto aus den kurzfristigen Verbindlichkeiten, beispielsweise *2030 Erhaltene Anzahlungen*, aus.
+
+## Ansichten
 
 ### Zahlungsmethoden anzeigen
 
@@ -151,9 +174,3 @@ Aktion: `ir.actions.act_window` `Zahlungsmethoden`\
 Nummernfolge: `10`
 
 Laden Sie die Odoo-App neu. Anschliessend finden Sie unter *Finanzen > Konfiguration > Zahlungsmethoden* eine Übersicht der Zahlungsmethoden.
-
-## Anzahlungen
-
-### Konto für Anzahlungen festlegen
-
-Navigieren Sie nach *Einstellungen > Verkauf > Abrechnung* und öffnen Sie das Produkt in der Auswahl von *Anzahlungen*. Im Tab *Finanzen* wählen Sie im Feld *Erlöskonto* ein Konto aus den kurzfristigen Verbindlichkeiten, beispielsweise *2030 Erhaltene Anzahlungen*, aus.

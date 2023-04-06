@@ -8,6 +8,12 @@ prev: ./finanzen
 
 Kontenplan einrichten und Buchungen erstellen.
 
+## Konfiguration
+
+### Schwellendatum für Rechnungen festlegen
+
+Wenn Sie beispielsweise eine Buchhaltung per 01.01.2023 starten und Rechnungen aus dem Vorjahr erfassen möchten, diese aber nicht anzeigen möchten, können Sie ein Schwellen-Datum festlegen. Navigieren Sie nach *Einstellungen > Finanzen > Steuer-Zeiträume* und wählen Sie bei *Invoicing Switch Threshold* das entsprechende Datum aus.
+
 ## Buchhaltung
 
 ### Buchungsatz erstellen
