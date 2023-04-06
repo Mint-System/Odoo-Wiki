@@ -150,6 +150,7 @@ Navigieren Sie nach *Finanzen > Kunden > Zahlung* und erfassen Sie eine Zahlung:
 * **Betrag**: Geben Sie hier den erhaltenen Betrag ein
 * **Datum**: Das ist das Datum an dem die Zahlung erfolgt ist
 * **Memo**: Tragen Sie hier die Zahlungsreferenz des Kunden ein
+* **Journal**: Hier wählen Sie das passende Journal (Bank oder Kasse) aus
 
 Buchen Sie die Zahlung mit *Bestätigung*.
 
