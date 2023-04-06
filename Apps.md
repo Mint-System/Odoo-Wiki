@@ -49,7 +49,7 @@ Damit auch Apps in der Theme-Liste angezeigt werden, klicken Sie erstmals auf *A
 
 ### App aktualisieren
 
-Wählen Sie *Apps* und entfernen Sie den Standardfilter *Apps*. Suchen Sie nach der gewünschten App, klicken Sie auf das Kontext-Menü und wählen Sie *Modul Inofrmation*.
+Wählen Sie *Apps* und entfernen Sie den Standardfilter *Apps*. Suchen Sie nach der gewünschten App, klicken Sie auf das Kontext-Menü und wählen Sie *Modul Information*.
 
 ![](assets/Apps%20Modul%20aktualisieren.png)
 
