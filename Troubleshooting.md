@@ -242,7 +242,7 @@ Das [Gio Payroll Custom](Gio%20Payroll%20Custom.md) App ist nicht akutell und mu
 
 Löschen Sie die Lohnstruktur *Stundenlohn* in der Personalabrechnung und aktualisieren Sie die App.
 
-## Versandlimit für E-Mails erreich
+## Versandlimit für E-Mails erreicht
 
 ### Problem
 
@@ -257,3 +257,21 @@ Odoo.sh schränkt die Anzahl E-Mails, die an einem Tag verschickt werden können
 ### Lösung
 
 Konfigurieren Sie den ausgehenden E-Mail-Server mit einem Anbieter, der eine höhrere Limite hat.
+
+## Reservierung im Lager aufheben nicht möpglich
+
+### Problem
+
+Beim Bestätigen eines Lagertransfers erscheint dieser Fehler:
+
+```
+Es ist nicht möglich, die Reservierung für mehr Produkte von [XXX] PRODUCTNAME aufzuheben als im Lager vorhanden sind.
+```
+
+### Ursache
+
+Es gibt höchstwahrscheinlich ungültige Produktlieferungen für das genannte Produkt.
+
+### Lösungen
+
+Zeigen Sie die offenen Produktlieferungen des Produkts an, identifizieren und entfernen Sie die Lieferungen, welche den Lagertransfer blockieren.

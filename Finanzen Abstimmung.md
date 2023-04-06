@@ -35,11 +35,11 @@ Zeigen Sie das Dashboard von *Finanzen* an. Wählen Sie *Import* unter dem Name 
 
 Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Bewebungen wird angezeigt.
 
-## ABstimmung
+## Abstimmung
 
 ### Abstimmung durchführen
 
-Öffnen Sie die Übersicht der Journale via *Finanzen* und klicken auf den Knopf *Abstimmen X Artikel* des entsprechenden Bankjournals.
+Öffnen Sie die Übersicht der Journale via *Finanzen* und klicken auf den Knopf *Abstimmen X Artikel* des entsprechenden Journals.
 
 ### Überfällige Forderungen abstimmen
 
