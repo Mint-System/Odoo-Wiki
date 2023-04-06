@@ -184,4 +184,4 @@ Zeigen die App *Finanzen* an und wählen Sie beim Journal *Bargeld* das Kontext-
 
 ![](assets/Finanzen%20Buchhaltung%20Bargeld%20Beleg.png)
 
-Geben Sie eine passende Referenz beispielsweise *Kassenabrechnung Januar 2023* ein. Bei *Anfangssaldo* klicken Sie auf *-> Zähle* und erfassen so den Anfangsbestan der Kasse. Anschliessend wiederholen Sie den Vorgang für *Endsaldo*. Nun können Sie den Beleg direkt buchen ohne bei *Transkationen* einen Eintrag zu machen. Odoo berechnet die Differenz aus Anfangs- und Endsaldo und erstellt dazu eine Transak
+Geben Sie eine passende Referenz beispielsweise *Kassenabrechnung Januar 2023* ein. Bei *Anfangssaldo* klicken Sie auf *-> Zähle* und erfassen so den Anfangsbestan der Kasse. Anschliessend wiederholen Sie den Vorgang für *Endsaldo*. Nun können Sie den Beleg direkt buchen ohne bei *Transkationen* einen Eintrag zu machen. Odoo berechnet die Differenz aus Anfangs- und Endsaldo und erstellt dazu eine Transaktion.
