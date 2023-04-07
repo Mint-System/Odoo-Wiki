@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_employee_a
 
 ### Bericht Anwesenheit letzter Monat drucken
 
-Klicken Sie auf das Account-Menü und wählen Sie *Mein Profil*. Wählen Sie nun *Drucken > Bericht Anwesenheit*. Im neuen Dialog können Sie ein Start- und Endatum auswählen und den Vorgang mit *Drucken ausführen*.
+Klicken Sie auf das Account-Menü und wählen Sie *Mein Profil*. Wählen Sie nun *Drucken > Bericht Anwesenheit*.
 
 Sie erhalten eine Aufstellung der gearbeiteten Stunden und Berechnung der Überstunden:
 
@@ -30,6 +30,14 @@ Eine Übersicht der Abwesenheitsansprüche:
 
 ![](assets/HR%20Employee%20Attendance%20Report%20Allocations.png)
 
-## Bericht Anwesenheit für bestimmte Benutzer drucken
+### Bericht Anwesenheit für ausgewählte Periode drucken
 
-Navigieren Sie nach *Einstellungen* und wählen Sie *Benutzer verwalten*. Markieren Sie die Benutzer für welche Sie den Bericht erstellen wollen und klicken Sie auf *Aktion > Bericht Anwesenheit*.
+Klicken Sie auf das Account-Menü und wählen Sie *Mein Profil*. Wählen Sie nun *Drucken > Dialog Bericht Anwesenheit*. Wählen Sie ein Start- und Endatum ais und drucken Sie den Bericht mit *Drucken*.
+
+::: tip
+Die Aktion *Herunterladen* auf dem Dialog erlaubt das Herunterladen des Berichts, wenn die Erweiterung [Printnode Base](Printnode%20Base.md) installiert i
+:::
+
+### Bericht Anwesenheit für bestimmte Mitarbeitende drucken
+
+Navigieren Sie nach *Personal* und wählen Sie die Listen-Ansicht. Markieren Sie die Mitarbeitnden für welche Sie den Bericht erstellen wollen und klicken Sie auf *Aktion > Bericht Anwesenheit*.
