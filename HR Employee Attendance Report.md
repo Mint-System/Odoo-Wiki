@@ -35,7 +35,7 @@ Eine Übersicht der Abwesenheitsansprüche:
 Klicken Sie auf das Account-Menü und wählen Sie *Mein Profil*. Wählen Sie nun *Drucken > Dialog Bericht Anwesenheit*. Wählen Sie ein Start- und Endatum ais und drucken Sie den Bericht mit *Drucken*.
 
 ::: tip
-Die Aktion *Herunterladen* auf dem Dialog erlaubt das Herunterladen des Berichts, wenn die Erweiterung [Printnode Base](Printnode%20Base.md) installiert i
+Die Aktion *Herunterladen* auf dem Dialog erlaubt das Herunterladen des Berichts, wenn die Erweiterung [Printnode Base](Printnode%20Base.md) installiert ist.
 :::
 
 ### Bericht Anwesenheit für bestimmte Mitarbeitende drucken
