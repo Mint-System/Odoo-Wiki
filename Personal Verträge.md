@@ -23,3 +23,7 @@ Die Entlohnung und Arbeitszeiten sind im Arbeitsvertrag festgehalten. Fügen Sie
 ### Arbeitszeiten in Kalender anzeigen
 
 Odoo generiert anhand der Arbeitszeiten Termin-Einträge für die Kalender-Ansicht. Navigieren Sie nach *Personal* und wählen Sie einen Mitarbeitenden aus. Klicken Sie auf den Smart-Link *Arbeitseinträge*.
+
+::: tip
+Damit die Arbeitseinträge generiert werden, muss auf dem Mitarbeiter-Eintrag ein aktiver Arbeitsvertrag sein.
+:::

@@ -30,6 +30,7 @@ Website: <https://www.odoo.com/de_DE/app/employees>
 | [HR Shortname](HR%20Shortname.md)                                   | Zu jedem Mitarbeitenden ein Kürzel speichern.                                             |
 | [HR Vehicle Request Calendar](HR%20Vehicle%20Request%20Calendar.md) | Kalenderansicht und Terminbestätigung für Fahrzeuganfragen.                               |
 | [HR Vehicle Request](HR%20Vehicle%20Request.md)                     | Fahrzeuganfragen für Mitarbeitende verwalten.                                             |
+| [HR Work Entry Profile](HR%20Work%20Entry%20Profile.md)             | Mitarbeiter können ihre Arbeitseinträge im Profile anzeigen.                              |
 | [Resource Calendar Get Days](Resource%20Calendar%20Get%20Days.md)   | Die Anzahl Tage in Abwesenheiten relativ zu den Arbeitszeiten des Unternehmens berechnen. |
 
 ## Organisation
