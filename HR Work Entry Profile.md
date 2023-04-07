@@ -14,6 +14,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_work_entry
 
 ## Verwendung
 
-### Meine Arbeitseinträge anzeige
+### Meine Arbeitseinträge anzeigen
 
 Zeigen Sie ihre Profil-Ansicht an *Account > Mein Profil* und klicken Sie auf den Smart-Button *Arbeitseinträge*. Hier sehen Sie eine Übersicht ihrer Arbeitszeiten.
