@@ -46,3 +46,32 @@ Falls das Produkt produziert wird, sehen Sie in der Workcenter-Tablet-Ansicht de
 
 Die hinterlegten Zeichnung und Step-Dateien können Sie auf einer Listenanischt anzeigen lassen. Navigieren Sie nach *Fertigung > Produkte > Produktionsdokumente*.
 
+## Aktionen
+
+### Produktionsdokumente mit Produkt verknüpfen
+
+Damit die Produktionsdokumente und Produkte in beide Richtigungen verknüpft werden, kann diese Aktion auf den Produkten ausgeführt werden.
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Produktionsdokumente mit Produkt verknüpfen`\
+Modell: `product.template`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for rec in records:
+  if rec.drawing_file:
+    rec.drawing_file.write({
+      'res_model': 'product.template',
+      'res_id': rec.id,
+    })
+  if rec.step_file:
+    rec.step_file.write({
+      'res_model': 'product.template',
+      'res_id': rec.id,
+    })
+```
+
+Die Aktion mit *Kontextuelle Aktion Erstellen* abschliessen. Markieren Sie die Produkte unter *Fertigung > Produkte > Produkte* und wählen Sie *Aktion > Produktionsdokumente mit Produkt verknüpfen*.
