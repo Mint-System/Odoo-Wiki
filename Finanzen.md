@@ -45,16 +45,19 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Move Line Position](Account%20Move%20Line%20Position.md)                                          | Positionsnummer anzeigen und aus Verkaufs- oder Einkaufsauftrag verlinken.  |
 | [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                                                  | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt. |
 | [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                      | Zeigt für eine Rechnung das definitive Abgleichsdatum an.                   |
-| [Bank Account Camt54 Import](Bank%20Account%20Camt54%20Import.md)                                          | Camt54 Bankauszug mit den Details zu Sammelbuchungen importieren.           |
+| [Account Statement Import Base](Account%20Statement%20Import%20Base.md)                                    | Basismodul für Import Bankauszüge.                                          |
+| [Account Statement Import CAMT](Account%20Statement%20Import%20CAMT.md)                                    | Support Import Bankauszug im Camt-Format.                                   |
+| [Account Statement Import Camt54](Account%20Statement%20Import%20Camt54.md)                                | Camt54 Bankauszug mit den Details zu Einzahlungen importieren.              |
+| [Account statement Import](Account%20statement%20Import.md)                                                | Bankauszüge importieren.                                                    |
 | [Contract Sale Generation](Contract%20Sale%20Generation.md)                                                | Aus wiederholenden Verträge Verkaufsangebote generieren.                    |
 | [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                      | PDF-Dokumenten von Rechnungen zusammenführen.                               |
-| [l10n CH Invoice Reports](l10n%20CH%20Invoice%20Reports.md)                                                | Rechnung mit ISR- und/oder QR-Zahlung drucken.                              |
 | [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                | Allow discount deduction on vendor bills.                                   |
-| [l10n CH QR ISR Invoice Import](l10n%20CH%20QR%20ISR%20Invoice%20Import.md)                                                              | Rechnung anhand QR-Daten erstellen.                                         |
 | [Switzerland Bank type](Switzerland%20Bank%20Type.md)                                                      | Lokalisierung für Schweizer Banken und Bankkontos.                          |
 | [Switzerland Disable Default Reports](Switzerland%20Disable%20Default%20Reports.md)                        | Generierung der QR- und ISR-Berichte deaktivieren.                          |
 | [Switzerland QR IBAN](Switzerland%20QR%20IBAN.md)                                                          | Generierung der QR-Rechnung ohne ISR-Nummer.                                |
+| [l10n CH Invoice Reports](l10n%20CH%20Invoice%20Reports.md)                                                | Rechnung mit ISR- und/oder QR-Zahlung drucken.                              |
 | [l10n CH QR Bill Scan](l10n%20CH%20QR%20Bill%20Scan.md)                                                    | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
+| [l10n CH QR ISR Invoice Import](l10n%20CH%20QR%20ISR%20Invoice%20Import.md)                                | Rechnung anhand QR-Daten erstellen.                                         |
 
 ## Konfiguration
 
