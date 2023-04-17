@@ -33,7 +33,7 @@ Klicken Sie auf *Import* und anschliessend *Buchen*. Nun stehen die Belege zum A
 
 Gilt ab #Odoo15.
 
-Zeigen Sie dei App *Finanzen* an und wählen Sie *Import Statement (OCA)*. Im Dialog wählen Sie die XML-Datei oder die Zip-Datei im Camt54-Format aus. Klicken Sie auf *Import and View*. Wählen Sie *Buchen* und anschliessend *Abstimmung*
+Zeigen Sie dei App *Finanzen* an und wählen Sie *Import Statement (OCA)*. Im Dialog wählen Sie die XML-Datei oder die Zip-Datei im Camt54-Format aus. Klicken Sie auf *Import and View*. Wählen Sie *Buchen* und anschliessend *Abstimmung*.
 
 ::: tip
 Die IBAN des Bankauszugs muss mit der IBAN des Bankjournals übereinstimmen.
