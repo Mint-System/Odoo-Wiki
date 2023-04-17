@@ -10,7 +10,7 @@ prev: ./kontakte
 Sequenz auf Kundenreferenz.
 
 Technischer Name: `base_partner_sequence`\
-Repository: <https://github.com/OCA/partner-contact/tree/14.0/base_partner_sequence>
+Repository: <https://github.com/OCA/partner-contact/tree/16.0/base_partner_sequence>
 
 ## Verwendung
 

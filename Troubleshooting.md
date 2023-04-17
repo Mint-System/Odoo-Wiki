@@ -272,6 +272,26 @@ Es ist nicht möglich, die Reservierung für mehr Produkte von [XXX] PRODUCTNAME
 
 Es gibt höchstwahrscheinlich ungültige Produktlieferungen für das genannte Produkt.
 
-### Lösungen
+### Lösung
 
 Zeigen Sie die offenen Produktlieferungen des Produkts an, identifizieren und entfernen Sie die Lieferungen, welche den Lagertransfer blockieren.
+
+## Office 365 Zugangstoken abgelaufen
+
+### Problem
+
+E-Mails können nicht versendet werden. Als Fehlerursache werden folgende Angaben gemacht:
+
+```
+Beim Abrufen des Zugangstokens ist ein Fehler aufgetreten. AADSTS7000222: The provided client secret keys for app '8cccc1f5-0e91-4b8d-885f-2345c10ca415' are expired. Visit the Azure portal to create new keys for your app: https://aka.ms/NewClientSecret, or consider using certificate credentials for added security: https://aka.ms/certCreds. Trace ID: 3786a52f-0991-40c1-899e-f7c8182c4500 Correlation ID: c922836e-efe6-4bee-becc-257b575557ef Timestamp: 2023-04-17 11:47:22Z 
+```
+
+### Ursache
+
+Das Client-Secret der Azure-App ist abglaufen.
+
+![](assets/Office365%20Token%20abgelaufen.png)
+
+### Lösung
+
+Erstellen Sie ein neues Client-Secret und speichern Sie es in den Odoo EInstellungen.
