@@ -1,0 +1,13 @@
+---
+tags:
+- HowTo
+- OCA
+prev: ./entwicklung
+---
+# Mass Operation Abstract
+![icon_oca_app](assets/icon_oca_app.png)
+
+Bietet Werkzeuge zur Massenbearbeitung.
+
+Technischer Name: `mass_operation_abstract`\
+Repository: <https://github.com/OCA/server-ux/tree/14.0/mass_operation_abstract>
