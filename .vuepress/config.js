@@ -7,6 +7,9 @@ module.exports = {
     lang: 'de-CH',
     title: 'Odoo Wiki',
     description: 'Eine einfache und umfassende Odoo-Dokumentation.',
+    head: [
+        ['link', { rel: 'icon', href: '/icon.png' }]
+    ],
     theme: defaultTheme({
         logo: '/icon.png',
         repo: 'mint-system/odoo-wiki',
