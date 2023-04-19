@@ -79,7 +79,7 @@ for project in project_ids:
       'parent_id': parent_menu_id,
       'sequence': project.id,
     })
-    new_menus.append(menu)
+    new_menus.append(menu.name)
   else:
     menu.update({
       'name': name,
@@ -109,7 +109,7 @@ for project in project_ids:
     action.unlink()
   
 if new_menus:
-  log('Created new menus: %s' % (new_menus))
+  log('Created new menus: %s' % (new_menus.join(', ')))
 ````
 
 Legen Sie den Wert für `parent_menu_id` fest. Damit bestimmen Sie unter welchem Menüpunkt die Projektmenüs erscheinen sollen.
