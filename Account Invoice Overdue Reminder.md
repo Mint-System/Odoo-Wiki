@@ -48,6 +48,12 @@ Nachdem Sie den [Assistent Zahlungserinnerung starten](#Assistent%20Zahlungserin
 
 Validieren oder überspringen Sie hier den Versand der Erinnerungs-Mail. Nach dem Versand der E-Mail zählt Odoo das Feld *Overdue Reminder Count* auf der Rechnung um 1 hoch.
 
+::: tip
+Wenn mehrere Rechnungen des gleichen Kontakts überfällig sind, werden diese im E-Mai zusammengefasst:
+
+![](assets/Account%20Invoice%20Overdue%20Reminder%20Multiple.png)
+:::
+
 ### Status Zahlungserinnerung anzeigen
 
 Navigieren Sie nach *Abrechnung > Kunden > Rechnung* und zeigen Sie die Spalte *Overdue Reminder Count* an. Öffnen Sie eine Rechnung mit einem Wert von mindestes 1 und zeigen Sie den Tab *Overdue Reminder* an. Hier erhalten Sie die Angaben zu den versendeten Zahlungserinnerungen.
