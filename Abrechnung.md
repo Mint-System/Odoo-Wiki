@@ -25,18 +25,19 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Account Invoice Detail](Account%20Invoice%20Detail.md)                             | Verkaufskontakt auf Rechnung einblenden.                                                           |
 | [Account Invoice Multiline Ref](Account%20Invoice%20Multiline%20Ref.md)             | Kundenreferenz auf Verkaufsauftrag und Rechnung mit mehreren Zeilen.                               |
 | [Account Invoice Notes](Account%20Invoice%20Notes.md)                               | Zusätzliche Header und Footer Notizen kopiert von Verkaufsauftrag.                                 |
+| [Account Invoice Overdue Reminder](Account%20Invoice%20Overdue%20Reminder.md)       | Einfache Lösung zum Versenden von Zahlungserinnerungen.                                            |
 | [Account Invoice Sale Partner](Account%20Invoice%20Sale%20Partner.md)               | Verkaufsadresse auf Rechnung festlegen.                                                            |
 | [Account Invoice Select Bank](Account%20Invoice%20Select%20Bank.md)                 | Bankkonto anhand Währung auswählen.                                                                |
 | [Account Move Invoice Partner](Account%20Move%20Invoice%20Partner.md)               | Separate Rechnungsadresse auf Rechnung festlegen.                                                  |
 | [Account Move Line Description](Account%20Move%20Line%20Description.md)             | Produktname ohne Referenz in Beschreibung Rechnungszeile übertragen.                               |
 | [Account Sale Timesheet Report](Account%20Sale%20Timesheet%20Report.md)             | Zeiterfassungsbericht für Rechnung.                                                                |
-| [l10n CH Invoice Reports](l10n%20CH%20Invoice%20Reports.md)                         | Rechnung mit ISR- und/oder QR-Zahlung drucken.                                                     |
 | [Purchase Invoice Prepare Partner](Purchase%20Invoice%20Prepare%20Partner.md)       | Kontakte aus Bestellung auf Rechnung kopieren.                                                     |
 | [Sale Invoice Carrier](Sale%20Invoice%20Carrier.md)                                 | Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus Verkaufsaufträgen übertragen. |
 | [Sale Invoice Cash Rounding Default](Sale%20Invoice%20Cash%20Rounding%20Default.md) | Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.              |
 | [Sale Invoice Line Description](Sale%20Invoice%20Line%20Description.md)             | Buchungszeilen generiert aus Verkaufsaufträgen enhalten nur den Anzeigenamen des Produkts.         |
 | [Sale Invoice Prepare Bank](Sale%20Invoice%20Prepare%20Bank.md)                     | Bankkonto anhand Währung auswählen.                                                                |
 | [Sale Invoice Prepare Partner](Sale%20Invoice%20Prepare%20Partner.md)               | Kontakte aus Verkaufsauftrag auf Rechnung kopieren.                                                |
+| [l10n CH Invoice Reports](l10n%20CH%20Invoice%20Reports.md)                         | Rechnung mit ISR- und/oder QR-Zahlung drucken.                                                     |
 | [l10n CH QR ISR Invoice Import](l10n%20CH%20QR%20ISR%20Invoice%20Import.md)         | Rechnung anhand QR-Daten erstellen.                                                                |
 
 ## Versand
