@@ -56,6 +56,12 @@ Wird Odoo im Browser angezeigt, werden sog. Assets im Hintergrund geladen (JavaS
 
 Navigieren Sie nach *Einstellungen > Entwicklertools* und klicken Sie auf *Demo Daten laden* um die Daten in die aktuelle Datenbank zu laden.
 
+### Odoo Revision anzeigen
+
+Rufen Sie die *Einstellungen* auf und scrollen Sie auf der Ansicht nach ganz unten. Beim Abschnitt *Über* finden Sie Angaben zur Odoo Revision.
+
+![](assets/Einstellungen%20Odoo%20Revision.png)
+
 ## Navigation
 
 ### Menüeinträge anordnen

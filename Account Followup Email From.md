@@ -1,4 +1,5 @@
 ---
+description: Mahnbericht von definierter E-Mail-Adresse verschicken.
 tags:
 - HowTo
 - Drittanbieter
@@ -7,7 +8,7 @@ prev: ./finanzen
 # Account Followup Email From
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Mahnbericht von definierter E-Mail-Adresse verschicken.
+{{ $frontmatter.description }}
 
 Technischer Name: `account_followup_email_from`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.0/account_followup_email_from>
