@@ -105,17 +105,17 @@ Wiederholende Verträge verwalten und automatisch verrechnen.
 
 Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 
-### [Data Merge](Data%20Merge.md)
-
-![icon_odoo_data_cleaning](assets/icon_odoo_data_cleaning.png)
-
-Die Datenqualität ganz einfach verbessern.
-
 ### [Datenbankmanager](Datenbankmanager.md)
 
 ![icons_odoo_website_version](assets/icons_odoo_website_version.png)
 
 Odoo-Instanzen mit dem Datenbankmanager verwalten.
+
+### [Datenbereinigung](Data%20Cleaning.md)
+
+![icon_odoo_data_cleaning](assets/icon_odoo_data_cleaning.png)
+
+Die Datenqualität ganz einfach verbessern.
 
 ### [Datenmanagement](Datenmanagement.md)
 
