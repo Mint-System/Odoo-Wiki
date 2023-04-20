@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Spesen erfassen und abrechnen.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Aufwand
 ![icons_odoo_hr_expense](assets/icons_odoo_hr_expense.png)
 
-Spesen erfassen und abrechnen.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/expenses>
 

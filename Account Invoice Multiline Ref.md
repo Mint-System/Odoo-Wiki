@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kundenreferenz auf Verkaufsauftrag und Rechnung mit mehreren Zeilen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./abrechnung
 
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Kundenreferenz auf Verkaufsauftrag und Rechnung mit mehreren Zeilen.
+{{ $frontmatter.description }}
 
 Technischer Name: `account_invoice_multiline_ref`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.0/account_invoice_multiline_ref>

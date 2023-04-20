@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verhindert das versenden von Nachrichten beim Erstellen einer Buchung.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./diskussion
 # Account Move Mail Thread
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Verhindert das versenden von Nachrichten beim Erstellen einer Buchung.
+{{ $frontmatter.description }}
  
 Technischer Name: `account_move_mail_thread`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/account_move_mail_thread>

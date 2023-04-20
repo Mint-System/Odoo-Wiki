@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Neue Apps installieren und aktualisieren.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Apps
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 
-Neue Apps installieren und aktualisieren.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/page/all-apps>
 

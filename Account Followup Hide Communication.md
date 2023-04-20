@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Spalte Kommunikation in Mahnbericht ausblenden.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./finanzen
 # Account Followup Hide Communication
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Spalte Kommunikation in Mahnbericht ausblenden.
+{{ $frontmatter.description }}
 
 Technischer Name: `account_followup_hide_communication`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.0/account_followup_hide_communication>

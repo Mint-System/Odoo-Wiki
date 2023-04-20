@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Aktionen für Anwesenheit App einrichten.
 tags:
 - HowTo
 prev: ./anwesenheit
@@ -7,7 +7,7 @@ prev: ./anwesenheit
 # Anwesenheit Aktionen
 ![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)
 
-Aktionen für Anwesenheit App einrichten.
+{{ $frontmatter.description }}
 
 ## Aktionen
 

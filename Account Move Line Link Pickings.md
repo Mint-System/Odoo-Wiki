@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lieferaufträge mit Rechnungszeile verlinken.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./finanzen
 # Account Move Line Link Pickings
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Lieferaufträge mit Rechnungszeile verlinken.                  
+{{ $frontmatter.description }}
 
 Technischer Name: `account_move_line_link_pickings`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_move_line_link_pickings>

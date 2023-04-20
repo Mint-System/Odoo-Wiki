@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Beschreibung Lagerbuchung auf Rechnung übertragen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./finanzen
 
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Beschreibung Lagerbuchung auf Rechnung übertragen.
+{{ $frontmatter.description }}
 
 Technischer Name: `account_move_line_accounting_description_stock`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_move_line_accounting_description_stock>

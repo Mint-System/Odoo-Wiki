@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Einfache Lösung zum Versenden von Zahlungserinnerungen.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./finanzen
 # Overdue Invoice Reminder
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Einfache Lösung zum Versenden von Zahlungserinnerungen.
+{{ $frontmatter.description }}
 
 Technischer Name: `account_invoice_overdue_reminder`\
 Repository: <https://github.com/OCA/credit-control/tree/15.0/account_invoice_overdue_reminder>

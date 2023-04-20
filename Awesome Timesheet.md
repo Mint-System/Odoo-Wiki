@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Mobile Zeiterfassung.
 tags:
 - HowTo
 prev: ./zeiterfassung
@@ -7,7 +7,7 @@ prev: ./zeiterfassung
 # Awesome Timesheet
 ![](assets/icon_awesome_timesheet.png)
 
-Mobile Zeiterfassung.
+{{ $frontmatter.description }}
 
 ## Verwendung
 

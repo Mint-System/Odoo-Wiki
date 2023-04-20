@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Separate Rechnungsadresse auf Rechnung festlegen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./abrechnung
 
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Separate Rechnungsadresse auf Rechnung festlegen.
+{{ $frontmatter.description }}
 
 Technischer Name: `account_move_invoice_partner`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_move_invoice_partner>

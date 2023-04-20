@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Bieten Sie Ihren Kunden überall ausgezeichnete Dienstleistungen an.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Aussendienst
 ![](assets/icons_odoo_fsm_industry.png)
 
-Bieten Sie Ihren Kunden überall ausgezeichnete Dienstleistungen an.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/field-service>
 

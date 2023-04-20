@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Ermöglich Keycloak Integration mit Odoo OAuth.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./einstellungen
 # Auth OAuth Keycloak
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Ermöglich Keycloak Integration mit Odoo OAuth. 
+{{ $frontmatter.description }}
 
 Technischer Name: `auth_oauth_keycloak`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/auth_oauth_keycloak>

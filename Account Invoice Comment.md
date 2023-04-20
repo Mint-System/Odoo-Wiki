@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kommentarfeld auf Rechnung.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./abrechnung
 
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Kommentarfeld auf Rechnung.
+{{ $frontmatter.description }}
 
 Technischer Name: `account_invoice_comment`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_invoice_comment>

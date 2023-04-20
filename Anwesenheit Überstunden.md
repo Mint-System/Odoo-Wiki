@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Überstundenmanagement ganz einfach.
 tags:
 - HowTo
 prev: ./anwesenheit
@@ -8,7 +8,7 @@ prev: ./anwesenheit
 # Anwesenheit Überstunden
 ![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)
 
-Überstundenmanagement ganz einfach.
+{{ $frontmatter.description }}
 
 Gilt ab #Odoo15.
 

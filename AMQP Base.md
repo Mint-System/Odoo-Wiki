@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: AMQP Zielhosts verwalten.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./lager
 # AMQP Base
 ![](assets/odoo_icon_amqp.png)
 
-AMQP Zielhosts verwalten.
+{{ $frontmatter.description }}
 
 Technischer Name: `amqp_base`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/15.0/amqp_base>

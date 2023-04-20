@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Aktionen für Apps einrichten.
 tags:
 - HowTo
 prev: ./apps
@@ -7,7 +7,7 @@ prev: ./apps
 # Apps Aktionen
 ![icons_odoo_modules](assets/icons_odoo_modules.png)
 
-Aktionen für Apps einrichten.
+{{ $frontmatter.description }}
 
 ## Aktionen
 

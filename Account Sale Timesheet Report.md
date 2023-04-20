@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Zeiterfassungsbericht für Rechnung.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./abrechnung
 
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Zeiterfassungsbericht für Rechnung.
+{{ $frontmatter.description }}
 
 Technischer Name: `account_sale_timesheet_report`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.0/account_sale_timesheet_report>

@@ -1,5 +1,5 @@
-\---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+---
+description: Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 tags:
 - HowTo
 prev: ./

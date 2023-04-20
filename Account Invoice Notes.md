@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Zusätzliche Header und Footer Notizen kopiert von Verkaufsauftrag.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./abrechnung
 
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Zusätzliche Header und Footer Notizen kopiert von Verkaufsauftrag.
+{{ $frontmatter.description }}
 
 Technischer Name: `account_invoice_notes`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_invoice_notes>

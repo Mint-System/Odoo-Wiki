@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Camt54 Bankauszug mit den Details zu Einzahlungen importieren.
 tags:
 - HowTo
 prev: ./finanzen
@@ -7,7 +7,7 @@ prev: ./finanzen
 # Account Statement Import Camt54
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Camt54 Bankauszug mit den Details zu Einzahlungen importieren.
+{{ $frontmatter.description }}
 
 Technischer Name: `account_statement_import_camt54`\
 Repository: <https://github.com/OCA/bank-statement-import/tree/15.0/account_statement_import_camt54>

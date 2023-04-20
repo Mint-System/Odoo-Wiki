@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Gegenkontos auf Buchungszeilen anzeigen.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./finanzen
 # Account Move Line Contra Accounts
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Gegenkontos auf Buchungszeilen anzeigen.            
+{{ $frontmatter.description }}
 
 Technischer Name: `account_move_line_contra_accounts`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_move_line_contra_accounts>

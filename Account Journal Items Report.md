@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kontoauszug basierend auf Buchungszeilen erstellen.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./finanzen
 # Account Journal Items Report
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Kontoauszug basierend auf Buchungszeilen erstellen.   
+{{ $frontmatter.description }}
 
 Technischer Name: `account_journal_items_report`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_journal_items_report>

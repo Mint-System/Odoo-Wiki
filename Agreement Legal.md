@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verträge und Vereinbarungen dokumentieren.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./dokumente
 
 ![](assets/icon_oca_agreement.png)
 
-Verträge und Vereinbarungen dokumentieren.
+{{ $frontmatter.description }}
 
 Technischer Name: `agreement_legal`\
 Repository: <https://github.com/OCA/contract/tree/14.0/agreement_legal>

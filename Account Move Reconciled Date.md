@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Zeigt für eine Rechnung das definitive Abgleichsdatum an.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./finanzen
 # Sale Move Reconciled Date
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Zeigt für eine Rechnung das definitive Abgleichsdatum an.           
+{{ $frontmatter.description }}
 
 Technischer Name: `account_move_reconciled_date`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_move_reconciled_date>

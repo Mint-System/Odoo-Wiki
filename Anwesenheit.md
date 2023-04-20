@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Anwesenheit
 ![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)
 
-Mitarbeitende erfassen selbständig ihre Präsenzzeit.
+{{ $frontmatter.description }}
 
 ## Bereiche
 

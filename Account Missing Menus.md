@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Zusätzliche Menu-Punkte von Finanzen anzeigen.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./finanzen
 # Account Missing Menus
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Zusätzliche Menu-Punkte von Finanzen anzeigen.
+{{ $frontmatter.description }}
 
 Technischer Name: `contract`\
 Repository: <https://github.com/OCA/contract/tree/14.0/contract>

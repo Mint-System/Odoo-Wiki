@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Operationen auf Daten loggen.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./einstellungen
 # Audit Log
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Operationen auf Daten loggen.
+{{ $frontmatter.description }}
 
 Technischer Name: `auditlog`\
 Repository: <https://github.com/OCA/server-tools/tree/15.0/auditlog>

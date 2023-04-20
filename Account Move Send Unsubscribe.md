@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Alle Abonnenten nach Versenden der Rechnung entfernen.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./diskussion
 # Account Move Send Unsubscribe
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Alle Abonnenten nach Versenden der Rechnung entfernen.
+{{ $frontmatter.description }}
  
 Technischer Name: `account_move_send_unsubscribe`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/account_move_send_unsubscribe>

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./einstellungen-login
 # Auth TOTP IP Check
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.
+{{ $frontmatter.description }}
 
 Technischer Name: `auth_totp_ip_check`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/auth_totp_ip_check>

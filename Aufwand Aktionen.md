@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Aktionen für Aufwand App einrichten.
 tags:
 - HowTo
 prev: ./anwesenheit
@@ -7,7 +7,7 @@ prev: ./anwesenheit
 # Aufwand Aktionen
 ![icons_odoo_hr_expense](assets/icons_odoo_hr_expense.png)
 
-Aktionen für Aufwand App einrichten.
+{{ $frontmatter.description }}
 
 ## Aktionen
 
