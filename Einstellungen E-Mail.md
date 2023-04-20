@@ -1,4 +1,5 @@
 ---
+description: Odoo mit Plattformen von Dritten integrieren.
 tags:
 - HowTo
 prev: ./einstellungen
@@ -6,7 +7,7 @@ prev: ./einstellungen
 # Einstellungen E-Mail
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
-Odoo mit Plattformen von Dritten integrieren.
+{{ $frontmatter.description }}
 
 ## Empfang
 

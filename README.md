@@ -105,7 +105,7 @@ Wiederholende Verträge verwalten und automatisch verrechnen.
 
 Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 
-### [Data Cleaning](Data%20Cleaning.md)
+### [Data Merge](Data%20Merge.md)
 
 ![icon_odoo_data_cleaning](assets/icon_odoo_data_cleaning.png)
 
@@ -231,7 +231,7 @@ Wissenstransfer für Teams vereinfachen.
 
 Alle Kontaktdaten an einem Ort.
 
-### [Kundendienst](Kundendienst.md)
+### [Kundendienst](Helpdesk.md)
 
 ![icons_odoo_helpdesk](assets/icons_odoo_helpdesk.png)
 

@@ -1,12 +1,13 @@
 ---
+description: Die Datenqualität ganz einfach verbessern.
 tags:
 - HowTo
 prev: ./
 ---
-# Data Cleaning
+# Datenbereinigung
 ![](assets/icon_odoo_data_cleaning.png)
 
-Die Datenqualität ganz einfach verbessern.
+{{ $frontmatter.description }}
 
 ## Verwendung
 

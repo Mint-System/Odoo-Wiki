@@ -1,4 +1,5 @@
 ---
+description: Für einen fantastischen Kundenservice.
 tags:
 - HowTo
 prev: ./
@@ -6,7 +7,7 @@ prev: ./
 # Kundendienst
 ![icons_odoo_helpdesk](assets/icons_odoo_helpdesk.png)
 
-Für einen fantastischen Kundenservice.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/helpdesk>
 
@@ -51,3 +52,11 @@ Auf dem Dashboard von *Kundendienst* sehen Sie, die nicht zugewiesenen Tickets.
 Bearbeiten Sie diese Tickets und wählen Sie entweder *Mir Zuweisen* oder geben Sie im Feld *Zugewiesen an* einen Mitarbeitenden an.
 
 ![](assets/Kundendiesnt%20Zugewiesen.png)
+
+## Bereinigung
+
+### Helpdesk-Tickets zusammenführen
+
+Ist die App [Data Merge](Data%20Merge.md) installiert, können Sie Tickets zusammenfünren. Navigieren Sie nach *Kundendienst > Tickets > Alle Tickets* und suchen Sie die Tickets, die Sie zusammenführen möchten. Markieren Sie die Einträge und wählen Sie *Aktion > Zusammenführen*.  Im neuen Dialog erhaltne Sie eine Übersicht beiden Einträge. Klicken Sie auf *Zusammenführen* und bestätien Sie Warnung mit *Ok*. Im Chatter hält Odoo die ursprünglichen Informationen des Tickets fest.
+
+![](assets/Helpdesk%20Merged.png)
