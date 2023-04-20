@@ -1,4 +1,5 @@
 ---
+description: Daten zu Abwesenheit exportieren und importieren.
 tags:
 - HowTo
 prev: ./abwesenheit
@@ -6,7 +7,7 @@ prev: ./abwesenheit
 # Abwesenheit Datenmanagement
 ![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)
 
-Daten zu Abwesenheit exportieren und importieren.
+{{ $frontmatter.description }}
 
 ## Abwesenheitsansprüche exportieren
 

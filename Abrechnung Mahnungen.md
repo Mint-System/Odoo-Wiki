@@ -1,4 +1,5 @@
 ---
+description: Mahnberichte erstellen und verschicken.
 tags:
 - HowTo
 prev: ./abrechnung
@@ -6,7 +7,7 @@ prev: ./abrechnung
 # Abrechnung Mahnungen
 ![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)
 
-Mahnberichte erstellen und verschicken
+{{ $frontmatter.description }}
 
 ## Konfiguration
 

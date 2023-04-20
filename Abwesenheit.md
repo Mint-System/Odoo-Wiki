@@ -1,4 +1,5 @@
 ---
+description: Verwaltung von Mitarbeiterurlauben & Abwesenheit.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +8,7 @@ prev: ./
 # Abwesenheit
 ![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)
 
-Verwaltung von Mitarbeiterurlauben & Abwesenheit.
+{{ $frontmatter.description }}
 
 Wesite: <https://www.odoo.com/de_DE/app/time-off>
 

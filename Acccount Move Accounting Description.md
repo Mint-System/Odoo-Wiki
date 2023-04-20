@@ -1,4 +1,5 @@
 ---
+description: Beschreibungsfeld für Rechnungszeile.
 tags:
 - HowTo
 - OCA
@@ -7,7 +8,7 @@ prev: ./finanzen
 # Acccount Move Accounting Description
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Beschreibungsfeld für Rechnungszeile.
+{{ $frontmatter.description }}
 
 Technischer Name: `account_move_line_accounting_description`\
 Repository: <https://github.com/OCA/account-invoicing/tree/14.0/account_move_line_accounting_description>

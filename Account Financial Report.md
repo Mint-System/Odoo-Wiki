@@ -1,4 +1,5 @@
 ---
+description: Finanzberichte der Odoo Community Assocation.
 tags:
 - HowTo
 prev: ./finanzen
@@ -6,7 +7,7 @@ prev: ./finanzen
 # Account Financial Report
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Finanzberichte der Odoo Community Assocation.
+{{ $frontmatter.description }}
 
 Technischer Name: `account_financial_report`\
 Repository: <https://github.com/OCA/account-financial-reporting/tree/16.0/account_financial_report>

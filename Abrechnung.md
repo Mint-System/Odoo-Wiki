@@ -1,4 +1,5 @@
 ---
+description: Online Rechnungsstellung leicht gemacht.
 tags:
 - HowTo
 prev: ./
@@ -6,7 +7,7 @@ prev: ./
 # Abrechnung
 ![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)
 
-Online Rechnungsstellung leicht gemacht.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/invoicing>
 
