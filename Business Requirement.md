@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Projektanforderungen erfassen und verknüpfen.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./projekt
 # Business Requirement
 ![](assets/icon_oca_business_requirement.png)
 
-Projektanforderungen erfassen und verknüpfen. 
+{{ $frontmatter.description }}
 
 Technischer Name: `business_requirement`\
 Repository: <https://github.com/OCA/business-requirement/tree/14.0/business_requirement>

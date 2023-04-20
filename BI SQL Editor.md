@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Ganz einfach SQL-basierte Berichte erstellen.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./entwicklung
 # BI SQL Editor
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Ganz einfach SQL-basierte Berichte erstellen.
+{{ $frontmatter.description }}
 
 Technischer Name: `bi_sql_editor`\
 Repository: <https://github.com/OCA/reporting-engine/tree/14.0/bi_sql_editor>

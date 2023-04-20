@@ -1,12 +1,12 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Beschreibt wie man bestimmte Anwendungsfälle in Odoo implementiert.
 tags:
 - Best-Practice
 prev: ./
 ---
 # Best Practice
 
-Beschreibt wie man bestimmte Anwendungsfälle in Odoo implementiert.
+{{ $frontmatter.description }}
 
 ## Best Practices
 

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Rechnung mit Marke verknüpfen.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./
 # Brand Account
 ![](assets/icons_odoo_brand.png)
 
-Rechnung mit Marke verknüpfen.
+{{ $frontmatter.description }}
 
 Technischer Name: `account_brand`\
 Repository: <https://github.com/OCA/brand/tree/16.0/account_brand>

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Geburtstag bei Kontakten speichern für tolle Erinnerungen.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./kontakte
 # Contact Birthdate
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Geburtstag bei Kontakten speichern für tolle Erinnerungen.
+{{ $frontmatter.description }}
 
 Technischer Name: `partner_contact_birthdate`\
 Repository: <https://github.com/OCA/partner-contact/tree/14.0/partner_contact_birthdate>

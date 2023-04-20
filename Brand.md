@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Mehrere Marken für ihr Unternehmen präsentieren.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./
 # Brand
 ![](assets/icons_odoo_brand.png)
 
-Mehrere Marken für ihr Unternehmen präsentieren.
+{{ $frontmatter.description }}
 
 Website: <https://github.com/OCA/brand>\
 Repository: <https://github.com/OCA/brand/tree/16.0/brand>

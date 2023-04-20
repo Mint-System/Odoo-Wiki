@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Dashboars von allen Benutzer anzeigen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./dashboards
 
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Dashboars von allen Benutzer anzeigen.      
+{{ $frontmatter.description }}
 
 Technischer Name: `board_users`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/board_users>

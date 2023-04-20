@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Anleitung zur Odoo-App Certificate Planner.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./
 # Certificate Planner
 ![](assets/icon_odoo_certificate_planer.png)
 
-Anleitung zur Odoo-App Certificate Planner.
+{{ $frontmatter.description }}
 
 Technisch: `certificate_planer`\
 Repository: <https://github.com/Mint-System/Certificate-Planner>

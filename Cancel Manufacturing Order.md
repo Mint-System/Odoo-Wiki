@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Fertigungsauftrag rückgängig machen.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./fertigung
 # Cancel Manufacturing Order
 ![](assets/icons_odoo_eq.png)
 
-Fertigungsauftrag rückgängig machen.
+{{ $frontmatter.description }}
 
 Technischer Name: `eq_cancel_mrp_orders`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/eq_cancel_mrp_orders>\

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Gruppenberechtigungen mit Benutzer-Rollen verwalten.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./einstellungen
 # User roles
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Gruppenberechtigungen mit Benutzer-Rollen verwalten.
+{{ $frontmatter.description }}
 
 Technischer Name: `base_user_role`\
 Repository: <https://github.com/OCA/server-backend/tree/14.0/base_user_role>

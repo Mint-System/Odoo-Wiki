@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Wiederholende Verträge verwalten und automatisch verrechnen.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Contract
 ![icon_oca_agreement](assets/icon_oca_agreement.png)
 
-Wiederholende Verträge verwalten und automatisch verrechnen.
+{{ $frontmatter.description }}
 
 Technischer Name: `contract`\
 Repository: <https://github.com/OCA/contract/tree/15.0/contract>

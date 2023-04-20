@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Dokument-Layout mit Marke verknüpfen.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./
 # Brand External Report Layout
 ![](assets/icons_odoo_brand.png)
 
-Dokument-Layout mit Marke verknüpfen.
+{{ $frontmatter.description }}
 
 Technischer Name: `brand_external_report_layout`\
 Repository: <https://github.com/OCA/brand/tree/16.0/brand_external_report_layout>

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Aus wiederholenden Verträge Verkaufsangebote generieren.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./finanzen
 # Contracts Management Recurring Sales
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Aus wiederholenden Verträge Verkaufsangebote generieren. 
+{{ $frontmatter.description }}
 
 Technischer Name: `contract_sale_generation`\
 Repository: <https://github.com/OCA/contract/tree/14.0/contract_sale_generation>

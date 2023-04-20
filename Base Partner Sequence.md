@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Sequenz auf Kundenreferenz.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./kontakte
 # Base Partner Sequence
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Sequenz auf Kundenreferenz.
+{{ $frontmatter.description }}
 
 Technischer Name: `base_partner_sequence`\
 Repository: <https://github.com/OCA/partner-contact/tree/16.0/base_partner_sequence>
