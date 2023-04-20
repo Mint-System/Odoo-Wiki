@@ -42,6 +42,10 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [SEPA Zahlung](Best%20Pratice%20SEPA%20Zahlung.md)
 * [Anzahlungen](Best%20Practice%20Anzahlungen.md)
 
+### Kundendienst
+
+* [Tickets verlinken](Best%20Practice%20Tickets%20verlinken.md)
+
 ### Finanzen
 
 * [Zahlungsabgleich](Best%20Pratice%20Zahlungsabgleich.md)
