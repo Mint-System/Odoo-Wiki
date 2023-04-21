@@ -5,7 +5,7 @@ tags:
 - Drittanbieter
 prev: ./kontakte
 ---
-# Partner Hide Address
+# Partner Multi Pricelist
 ![](assets/icon_oms_box.png)
 
 {{ $frontmatter.description }}
