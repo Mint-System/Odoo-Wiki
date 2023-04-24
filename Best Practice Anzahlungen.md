@@ -40,33 +40,9 @@ Mit der Anzahlung wird der Betrag auf das Konto *2030 Erhaltene Anzahlungen* bla
 | Re.:/2023/00006 | 2030 Erhaltene Anzahlungen                                  | Anzahlung von 100.0% | CHF 0.00     | CHF 2'154.00 |
 | Re.:/2023/00006 | 1100 Forderungen aus Lieferungen und Leistungen (Debitoren) |                      | CHF 2'154.00 | CHF 0.00     |
 
-### Zahlung
+### Gutschrift
 
-Sobald der Kunde die Rechnung bezahlt, erhalten Sie über das eBanking einen entsprechenden Beleg zum Abgleich. Diesen Beleg dürfen Sie nicht mit der Anzahlungsrechnung abgleichen.
-
-Für dieses Beispiel können Sie einen [Bankauszug](Finanzen%20Abstimmung#Bankauszug%20erfassen) mit dem Betrag von 2'154.00 erfassen.
-
-### Leistungen
-
-Auf dem Verkaufsauftrag erfassen Sie nun Leistungen. Entweder tragen Sie diese manuell in die Auftragszeilen ein oder fügen Sie über die Zeiterfassung und Projekte hinzu.
-
-In diesem Beispiel werden 20 Stunden geliefert und stehen so zur Abrechnung bereit. 
-
-### Abrechnung
-
-Genau wie für die Aufträge ohne Anzahlung erstellen Sie periodische eine Rechnung. Führen Sie dazu eine Abrechnung ohne *Abzug der Anzahlung* aus: [Verkaufsauftrag mit Anzahlungen abrechnen](Verkauf%20Abrechnung.md#Verkaufsauftrag%20mit%20Anzahlungen%20abrechnen).
-
-Nachdem Sie die Rechnung bestätigt haben, erscheint die folgende Meldung:
-
-> Sie haben **Restguthaben** für diesen Kunden. Sie können diese zuteilen, um die Rechnung als bezahlt zu kennzeichnen.
-
-Klicken Sie auf *Restguthaben* und gleichen Sie die Rechnung mit dem Bankbeleg ab. Sie können die Rechnung dem Kunden schicken, dass die Rechnung bereits bezahlt wurde ist ersichtlich.
-
-### Abschluss
-
-Wenn alle Stunden des Auftrags abgerechnet worden sind, kann die Anzahlungsrechnung als [Gutschrift](Abrechnung.md#Gutschrift%20erstellen) verbucht werden.
-
-Mit der Gutschrift wird das Konto *2030 Erhaltene Anzahlungen* wieder ausgeglichen.
+Sobald der Kunde die Rechnung bezahlt, erhalten Sie über das eBanking einen entsprechenden Beleg zum Abgleich. Diesen Beleg gleichen Sie mit der Anzahlungsrechnung ab und erstellen eine [Gutschrift](Abrechnung.md#Gutschrift%20erstellen). Mit der Gutschrift wird das Konto *2030 Erhaltene Anzahlungen* wieder ausgeglichen.
 
 | Buchungssatz                                      | Konto                                                       | Buchungstext         | Soll         | Haben        |
 | ------------------------------------------------- | ----------------------------------------------------------- | -------------------- | ------------ | ------------ |
@@ -74,3 +50,17 @@ Mit der Gutschrift wird das Konto *2030 Erhaltene Anzahlungen* wieder ausgeglich
 | Re.:/2023/00006                                   | 1100 Forderungen aus Lieferungen und Leistungen (Debitoren) |                      | CHF 2'154.00 | CHF 0.00     |
 | RRe.:/2023/00001 (Umkehrung von: Re.:/2023/00006) | 2030 Erhaltene Anzahlungen                                  | Anzahlung von 100.0% | CHF 2'154.00 | CHF 0.00     |
 | RRe.:/2023/00001 (Umkehrung von: Re.:/2023/00006) | 1100 Forderungen aus Lieferungen und Leistungen (Debitoren) |                      | HF 0.00      | CHF 2'154.00 |
+
+Für dieses Beispiel können Sie einen [Bankauszug](Finanzen%20Abstimmung#Bankauszug%20erfassen) mit dem Betrag von 2'154.00 erfassen.
+
+### Abrechnung
+
+Auf dem Verkaufsauftrag erfassen Sie nun Leistungen. Entweder tragen Sie diese manuell in die Auftragszeilen ein oder fügen Sie über die Zeiterfassung und Projekte hinzu.
+
+Genau wie für die Aufträge ohne Anzahlung erstellen Sie periodische eine Rechnung. Führen Sie dazu eine Abrechnung aus: [Verkaufsauftrag mit Anzahlungen abrechnen](Verkauf%20Abrechnung.md#Verkaufsauftrag%20mit%20Anzahlungen%20abrechnen).
+
+Nachdem Sie die Rechnung bestätigt haben, erscheint die folgende Meldung:
+
+> Sie haben **Restguthaben** für diesen Kunden. Sie können diese zuteilen, um die Rechnung als bezahlt zu kennzeichnen.
+
+Klicken Sie auf *Restguthaben* und gleichen Sie die Rechnung mit der Gutschrift ab. Sie können die Rechnung dem Kunden schicken. Es ist ein Hinweis vermerkt, dass die Rechnung bereits bezahlt wurde.
