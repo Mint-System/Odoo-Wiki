@@ -11,7 +11,7 @@ OAuth-Integration mit Odoo.
 
 ## Konfiguration
 
-### Odoo als OAuth-Client auf Azure registrieren
+### Odoo als OAuth-App auf Azure registrieren
 
 Damit sich Odoo-Benutzer den OAuth-Authorisierungsflow mit Azure abwickeln können, muss Odoo auf Azure registriert werden.
 
