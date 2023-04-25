@@ -265,7 +265,7 @@ Alles zur Navigation in Odoo.
 
 ![icons_odoo_note](assets/icons_odoo_note.png)
 
-Notizen zentral verwwalten.
+Notizen zentral verwalten.
 
 ### [Odoo Mobile App](Odoo%20Mobile%20App.md)
 
@@ -332,6 +332,12 @@ Kunden mit Odoo verbinden.
 ![icons_odoo_project](assets/icons_odoo_project.png)
 
 Agiles Projektmanagement. Schön. Einfach. Open Source.
+
+### [Qualität](Qualität.md)
+
+![](assets/icons_odoo_quality.png)
+
+Für moderne Hersteller.
 
 ### [Strichcode](Strichcode.md)
 
