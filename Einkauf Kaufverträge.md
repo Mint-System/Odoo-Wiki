@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kaufverträge für Rahmenbestellungen erstellen.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Einkauf Kaufverträge
 ![icons_odoo_purchase](assets/icons_odoo_purchase.png)
 
-Kaufverträge für Rahmenbestellungen erstellen.
+{{ $frontmatter.description }}
 
 ## Erweiterungen
 

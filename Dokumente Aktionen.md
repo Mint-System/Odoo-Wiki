@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Arbeitsflüsse mit Dokumenten automatisieren.
 tags:
 - HowTo
 - Aktionen
@@ -8,7 +8,7 @@ prev: ./dokumente
 # Dokumente Aktionen
 ![icon_odoo_document_inbox](assets/icon_odoo_document_inbox.png)
 
-Arbeitsflüsse mit Dokumenten automatisieren.
+{{ $frontmatter.description }}
 
 ## Geplante Aktionen
 

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Etikettendrucker für Odoo.
 tags:
 - HowTo
 prev: ./iot
@@ -7,7 +7,7 @@ prev: ./iot
 # Etikettendrucker Zebra ZD410
 ![icons_odoo_iot](assets/icons_odoo_iot.png)
 
-Etikettendrucker für Odoo.
+{{ $frontmatter.description }}
 
 Website: <https://www.zebra.com/de/de/support-downloads/printers/desktop/zd410.html>
 

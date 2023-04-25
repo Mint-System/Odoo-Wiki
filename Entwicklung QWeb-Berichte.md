@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Eigene Berichte mit QWeb erstellen.
 tags:
 - HowTo
 prev: ./entwicklung
@@ -7,7 +7,7 @@ prev: ./entwicklung
 # Entwicklung QWeb-Berichte
 ![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)
 
-Eigene Berichte mit QWeb erstellen.
+{{ $frontmatter.description }}
 
 ## Ansicht
 

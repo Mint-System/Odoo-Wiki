@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: In alle Module integrierter privater Chat und Gruppen-Chat.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Diskussion
 ![icons_odoo_mail](assets/icons_odoo_mail.png)
 
-In alle Module integrierter privater Chat und Gruppen-Chat.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/discuss>
 

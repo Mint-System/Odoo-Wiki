@@ -9,7 +9,6 @@ prev: ./
 
 {{ $frontmatter.description }}
 
-
 ## Bereiche
 
 | Bereich                                                             | Beschreibung                                          |

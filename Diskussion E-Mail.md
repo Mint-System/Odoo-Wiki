@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: E-Mail mit Odoo versenden.
 tags:
 - HowTo
 prev: ./diskussion
@@ -7,7 +7,7 @@ prev: ./diskussion
 # Diskussion E-Mail
 ![icons_odoo_mail](assets/icons_odoo_mail.png)
 
-E-Mail mit Odoo versenden.
+{{ $frontmatter.description }}
 
 ## E-Mails
 

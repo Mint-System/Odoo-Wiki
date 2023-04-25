@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Fahrzeug-Reservationen für Mitarbeitende verwalten.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./fahrzeugflotte
 
 ![](assets/icon_odoo_cybrosys.png)
 
-Fahrzeug-Reservationen für Mitarbeitende verwalten.
+{{ $frontmatter.description }}
 
 Technischer Name: `employee_vehicle_request`\
 Repository: <https://github.com/CybroOdoo/CybroAddons/tree/15.0/employee_vehicle_request>\

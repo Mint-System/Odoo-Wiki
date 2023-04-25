@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Einstellungen zu Sprachpakete und Übersetzungen.
 tags:
 - HowTo
 prev: ./einstellungen
@@ -7,7 +7,7 @@ prev: ./einstellungen
 # Einstellungen Übersetzungen
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
-Einstellungen zu Sprachpakete und Übersetzungen.
+{{ $frontmatter.description }}
 
 ## Konfiguration
 

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Odoo-Instanzen mit dem Datenbankmanager verwalten.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Datenbankmanager
 ![icons_odoo_website_version](assets/icons_odoo_website_version.png)
 
-Odoo-Instanzen mit dem Datenbankmanager verwalten.
+{{ $frontmatter.description }}
 
 > Zur Verwaltung der Odoo-Instanzen gibt es den Datenbankmanager. Dieses Tool erlaubt ein Backup von der Instanz zu erstellen und nach Bedarf wiederherzustellen.
 

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Einkauf
 ![icons_odoo_purchase](assets/icons_odoo_purchase.png)
 
-Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/purchase>
 

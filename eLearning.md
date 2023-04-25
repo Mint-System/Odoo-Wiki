@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Teilen Sie ihr Wissen mit der eLearning-Plattform.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # eLearning
 ![icons_odoo_website_slides](assets/icons_odoo_website_slides.png)
 
-Teilen Sie ihr Wissen mit der eLearning-Plattform.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/elearning>
 

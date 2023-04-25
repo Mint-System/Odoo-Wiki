@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Eigene Odoo Aktionen erstellen.
 tags:
 - HowTo
 - Aktionen
@@ -8,7 +8,7 @@ prev: ./entwicklung
 # Entwicklung Aktionen
 ![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)
 
-Eigene Odoo Aktionen erstellen.
+{{ $frontmatter.description }}
 
 ## Ansichten
 

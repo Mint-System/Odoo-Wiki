@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Odoo-Einstellungen automatisieren.
 tags:
 - HowTo
 prev: ./einstellungen
@@ -7,7 +7,7 @@ prev: ./einstellungen
 # Einstellungen Aktionen
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
-Odoo-Einstellungen automatisieren.
+{{ $frontmatter.description }}
 
 ## Aktionen
 

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Importieren und Exportieren Sie alle Odoo Daten.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Datenmanagement
 ![icons_odoo_website_sale_options](assets/icons_odoo_website_sale_options.png)
 
-Importieren und Exportieren Sie alle Odoo Daten.
+{{ $frontmatter.description }}
 
 ## Bereiche
 

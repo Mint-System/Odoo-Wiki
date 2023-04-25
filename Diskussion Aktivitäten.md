@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Arbeitsplanung mit Odoo Aktivitäten.
 tags:
 - HowTo
 prev: ./diskussion
@@ -7,7 +7,7 @@ prev: ./diskussion
 # Diskussion Aktivitäten
 ![icons_odoo_mail](assets/icons_odoo_mail.png)
 
-Arbeitsplanung mit Odoo Aktivitäten.
+{{ $frontmatter.description }}
 
 ## Konfiguration
 

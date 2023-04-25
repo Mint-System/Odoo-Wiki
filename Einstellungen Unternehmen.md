@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Mehrere Unternehmen mit Odoo verwalten.
 tags:
 - HowTo
 prev: ./einstellungen
@@ -7,7 +7,7 @@ prev: ./einstellungen
 # Einstellungen Unternehmen
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
-Mehrere Unternehmen mit Odoo verwalten.
+{{ $frontmatter.description }}
 
 ## Verwendung
 

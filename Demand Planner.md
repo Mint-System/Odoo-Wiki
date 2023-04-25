@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./lager
 # Demand Planner
 ![](assets/odoo_icon_demand_planner.png)
 
-Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen.
+{{ $frontmatter.description }}
 
 Technischer Name: `demand_planner`\
 Repository: <https://github.com/Mint-System/Demand-Planner>

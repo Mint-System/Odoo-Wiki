@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Sparen Sie Zeit beim Erfassen von Rechnungen, Scannen von Verträgen und bei der Freigabe von Dokumenten.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Dokumente
 ![icon_odoo_document_inbox](assets/icon_odoo_document_inbox.png)
 
-Sparen Sie Zeit beim Erfassen von Rechnungen, Scannen von Verträgen und bei der Freigabe von Dokumenten.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/documents>
 

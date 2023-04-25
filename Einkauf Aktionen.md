@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Arbeitsflüsse in Einkauf automatisieren.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Einkauf Aktionen
 ![icons_odoo_purchase](assets/icons_odoo_purchase.png)
 
-Arbeitsflüsse in Einkauf automatisieren.
+{{ $frontmatter.description }}
 
 ## Automatische Aktionen
 

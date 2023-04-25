@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Odoo-Einstellungen zum Benutzer und Anmeldeverfahren.
 tags:
 - HowTo
 prev: ./einstellungen
@@ -7,7 +7,7 @@ prev: ./einstellungen
 # Einstellungen Login
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
-Odoo-Einstellungen zum Benutzer und Anmeldeverfahren.
+{{ $frontmatter.description }}
 
 ## Konfiguration
 

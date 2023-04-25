@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: OAuth-Integration mit Odoo.
 tags:
 - HowTo
 prev: ./einstellungen
@@ -7,7 +7,7 @@ prev: ./einstellungen
 # Einstellungen OAuth
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
-OAuth-Integration mit Odoo.
+{{ $frontmatter.description }}
 
 ## Konfiguration
 

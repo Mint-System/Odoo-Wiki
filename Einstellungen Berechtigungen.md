@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Einstellungen zu Zugriffsrechten und Gruppen.
 tags:
 - HowTo
 prev: ./einstellungen
@@ -7,7 +7,7 @@ prev: ./einstellungen
 # Einstellungen Berechtigungen
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
-Einstellungen zu Zugriffsrechten und Gruppen.
+{{ $frontmatter.description }}
 
 ## Benutzerrechte
 

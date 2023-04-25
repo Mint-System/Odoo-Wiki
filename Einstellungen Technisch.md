@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Technische Einstellungen zur Odoo-Datenbank.
 tags:
 - HowTo
 prev: ./einstellungen
@@ -7,7 +7,7 @@ prev: ./einstellungen
 # Einstellungen Technisch
 ![icons_odoo_settings](assets/icons_odoo_settings.png)
 
-Technische Einstellungen zur Odoo-Datenbank.
+{{ $frontmatter.description }}
 
 ## Datenbank
 

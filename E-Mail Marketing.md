@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: E-Mail-Marketing leicht gemacht.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # E-Mail-Marketing
 ![icons_odoo_mass_mailing](assets/icons_odoo_mass_mailing.png)
 
-E-Mail-Marketing leicht gemacht.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/email-marketing>
 

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Odoo Ansichten anpassen.
 tags:
 - HowTo
 prev: ./entwicklung
@@ -7,7 +7,7 @@ prev: ./entwicklung
 # Entwicklung Ansichten
 ![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)
 
-Odoo Ansichten anpassen.
+{{ $frontmatter.description }}
 
 ## Ansichten
 

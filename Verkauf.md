@@ -43,6 +43,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order Line Position](Sale%20Order%20Line%20Position.md)                   | Verkaufsaufträge mit Positionsnummern.                                        |
 | [Sale Order Line Purchase Margin](Sale%20Order%20Line%20Purchase%20Margin.md)   | Kalkulation der Marge basierend auf verlinkter Bestellung.                    |
 | [Sale Order MRP Production Cancel](Sale%20Order%20MRP%20Production%20Cancel.md) | Verlinkter Fertigungsauftrag bei Abbruch Verkaufsauftrag ebenfalls abbrechen. |
+| [Sale Order Multi Pricelist](Sale%20Order%20Multi%20Pricelist.md)               | Partner-Preisliste anhand Lieferdatum filtern.                                |
 | [Sale Order Notes](Sale%20Order%20Notes.md)                                     | Verkaufsaufträge mit Notizfelder.                                             |
 | [Sale Order Project Key](Sale%20Order%20Project%20Key.md)                       | Angebotsname von verlinkter Projektnummer übernehmen.                         |
 | [Sale Order Sale Partner](Sale%20Order%20Sale%20Partner.md)                     | Verkaufsadresse auf Verkaufsauftrag festlegen.                                |

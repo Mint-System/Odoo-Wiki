@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Daten zu Einstellungen exportieren und importieren.
 tags:
 - HowTo
 prev: ./einstellungen
@@ -7,7 +7,7 @@ prev: ./einstellungen
 # Einstellungen Datenmanagement
 ![icons_odoo_website_sale_options](assets/icons_odoo_website_sale_options.png)
 
-Daten zu Einstellungen exportieren und importieren.
+{{ $frontmatter.description }}
 
 ## Daten Benutzer exportieren
 
