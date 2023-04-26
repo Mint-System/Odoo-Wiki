@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: PDF-Dokumenten von Rechnungen zusammenführen.     
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./finanzen
 
 ![](assets/icon_odoo_sv.png)
 
-PDF-Dokumenten von Rechnungen zusammenführen.     
+{{ $frontmatter.description }}
 
 Technischer Name: `sh_inv_merge_pdf`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/sh_inv_merge_pdf>\

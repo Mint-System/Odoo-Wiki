@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Neue Aktionen für Buchungen und Abstimmungen.
 tags:
 - HowTo
 - Aktionen
@@ -8,7 +8,7 @@ prev: ./finanzen
 # Finanzen Aktionen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
-Neue Aktionen für Buchungen und Abstimmungen.
+{{ $frontmatter.description }}
 
 ## Aktionen
 

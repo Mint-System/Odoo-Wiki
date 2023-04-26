@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Fahrzeuganfragen für Mitarbeitende verwalten.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./personal
 # HR Vehicle Request
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Fahrzeuganfragen für Mitarbeitende verwalten.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_vehicle_request`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_vehicle_request>

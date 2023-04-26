@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Plannungstypen mit Aktivitätsdatum basierend auf Arbeitsverträgen.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./personal
 # HR Activity Date
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Plannungstypen mit Aktivitätsdatum basierend auf Arbeitsverträgen.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_activity_date`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_activity_date>

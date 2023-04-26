@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Bankkonto mit Odoo abgleichen.
 tags:
 - HowTo
 prev: ./finanzen
@@ -7,7 +7,7 @@ prev: ./finanzen
 # Finanzen Abstimmung
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
-Bankkonto mit Odoo abgleichen.
+{{ $frontmatter.description }}
 
 ## Konfiguration
 

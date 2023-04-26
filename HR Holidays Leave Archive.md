@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Archivierungsfunktion für Abwesenheitseinträge aktivieren.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./abwesenheit
 # HR Holidays Leave Archive
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Archivierungsfunktion für Abwesenheitseinträge aktivieren.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_holidays_leave_archive`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_holidays_leave_archive>

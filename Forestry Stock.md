@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Erweiterung Lager für die Holzwirtschaft.
 tags:
 - HowTo
 prev: ./forestry-base
@@ -7,7 +7,7 @@ prev: ./forestry-base
 # Forestry Stock
 ![icons_odoo_forestry_base](assets/icons_odoo_forestry_base.png)
 
-Erweiterung Lager für die Holzwirtschaft.
+{{ $frontmatter.description }}
 
 Technischer Name: `forestry_stock`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-Forestry/tree/15.0/forestry_stock>

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kontenplan einrichten und Buchungen erstellen.
 tags:
 - HowTo
 prev: ./finanzen
@@ -7,7 +7,7 @@ prev: ./finanzen
 # Finanzen Buchhaltung
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
-Kontenplan einrichten und Buchungen erstellen.
+{{ $frontmatter.description }}
 
 ## Konfiguration
 

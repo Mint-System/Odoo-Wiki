@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Schnelles Wechseln zwischen Benutzer-Accounts.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./einstellungen
 # Impersonate
 ![](assets/icon_odoo_impersonate.png)
 
-Schnelles Wechseln zwischen Benutzer-Accounts.
+{{ $frontmatter.description }}
 
 Technischer Name: `impersonate`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/impersonate>\

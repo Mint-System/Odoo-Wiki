@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Odoo für die Holzwirtschaft.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Forestry Base
 ![icons_odoo_forestry_base](assets/icons_odoo_forestry_base.png)
 
-Odoo für die Holzwirtschaft.
+{{ $frontmatter.description }}
 
 Technischer Name: `forestry_base`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-Forestry/tree/15.0/forestry_base>

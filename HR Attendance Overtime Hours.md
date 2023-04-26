@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Geplante und gearbeitete Stunden auf Anischt Überstunden anzeigen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./abwesenheit
 # HR Attendance Overtime Hours
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Geplante und gearbeitete Stunden auf Anischt Überstunden anzeigen.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_attendance_overtime_hours`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_attendance_overtime_hours>

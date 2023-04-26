@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Vor- und Nachname auf Bewerbung.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./personalbeschaffung
 # HR Recruitment Firstname
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Vor- und Nachname auf Bewerbung.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_recruitment_firstname`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_recruitment_firstname>

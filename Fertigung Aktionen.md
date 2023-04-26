@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Fertigungs-Prozesse automatisieren.
 tags:
 - HowTo
 - Aktionen
@@ -8,7 +8,7 @@ prev: ./fertigung
 # Fertigung Aktionen
 ![icons_odoo_mrp](assets/icons_odoo_mrp.png)
 
-Fertigungs-Prozesse automatisieren.
+{{ $frontmatter.description }}
 
 ## Aktionen
 

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Odoo installieren und konfigurieren.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Installation
 ![icons_odoo_website_version](assets/icons_odoo_website_version.png)
 
-Odoo installieren und konfigurieren.
+{{ $frontmatter.description }}
 
 ## Infrastruktur
 

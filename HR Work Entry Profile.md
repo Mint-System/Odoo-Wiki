@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Mitarbeiter können ihre Arbeitseinträge im Profile anzeigen.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./personal
 # HR Work Entry Profile
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Mitarbeiter können ihre Arbeitseinträge im Profile anzeigen.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_work_entry_profile`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_work_entry_profile>

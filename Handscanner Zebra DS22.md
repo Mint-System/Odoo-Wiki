@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Handscanner für Odoo.
 tags:
 - HowTo
 prev: ./lager
@@ -7,7 +7,7 @@ prev: ./lager
 # Handscanner Zebra DS22
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
-Handscanner für Odoo.
+{{ $frontmatter.description }}
 
 Website: <https://www.zebra.com/de/de/support-downloads/scanners/general-purpose-scanners/ds2200-series.html>
 

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Übersicht der Mitarbeiterfähigkeiten.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./personal
 # HR Employee Skill
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Übersicht der Mitarbeiterfähigkeiten.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_employee_skill`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_employee_skill>

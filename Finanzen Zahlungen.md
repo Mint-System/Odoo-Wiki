@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: SEPA- und QR-Zahlungen mit Odoo Finanzen abwickeln.
 tags:
 - HowTo
 prev: ./finanzen
@@ -7,7 +7,7 @@ prev: ./finanzen
 # Finanzen Zahlungen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
-SEPA- und QR-Zahlungen mit Odoo Finanzen abwickeln.
+{{ $frontmatter.description }}
 
 ## SEPA-Zahlung
 

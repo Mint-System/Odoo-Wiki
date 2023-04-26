@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Unterschiedliche Währungen mit Odoo Finanzen verarbeiten.
 tags:
 - HowTo
 prev: ./finanzen
@@ -7,7 +7,7 @@ prev: ./finanzen
 # Finanzen Mehrere Währungen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
-Unterschiedliche Währungen mit Odoo Finanzen verarbeiten.
+{{ $frontmatter.description }}
 
 ## Währungen
 

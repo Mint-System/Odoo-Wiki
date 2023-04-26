@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lohnarten für die Schweizer Lohnabrechnung.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./personalabrechnung
 # Gio Payroll Custom
 ![](assets/odoo_icon_gioardano.png)
 
-Lohnarten für die Schweizer Lohnabrechnung.
+{{ $frontmatter.description }}
 
 Technischer Name: `gio_payroll_custom`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-swiss-payroll/-/tree/15.0>

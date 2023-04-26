@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Brückenmodul für Fahrzeugflotte und Fahrzeuganfrage.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./personal
 # Fleet HR Vehicle Request
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Brückenmodul für Fahrzeugflotte und Fahrzeuganfrage.
+{{ $frontmatter.description }}
 
 Technischer Name: `fleet_hr_vehicle_request`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/fleet_hr_vehicle_request>

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Produkte und Dienstleistungen zentral pflegen.
 tags:
 - HowTo
 prev: ./fertigung
@@ -7,7 +7,7 @@ prev: ./fertigung
 # Fertigung Stammdaten
 ![icons_odoo_mrp](assets/icons_odoo_mrp.png)
 
-Produkte und Dienstleistungen zentral pflegen.
+{{ $frontmatter.description }}
 
 ## Produktverwaltung
 

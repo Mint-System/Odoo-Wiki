@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: An- und Abmelden bei Anwesenheit farblich markieren.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./abwesenheit
 # HR Attendance Kiosk Mode Color
 ![icon_oms_box](assets/icon_oms_box.png)
 
-An- und Abmelden bei Anwesenheit farblich markieren.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_attendance_kiosk_mode_color`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_attendance_kiosk_mode_color>

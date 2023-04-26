@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Anlagen verwalten und automatisch Abschreibungen erstellen.
 tags:
 - HowTo
 - Aktionen
@@ -8,7 +8,7 @@ prev: ./finanzen
 # Finanzen Anlagenverwaltung
 ![icons_odoo_account_asset](assets/icons_odoo_account_asset.png)
 
-Anlagen verwalten und automatisch Abschreibungen erstellen.
+{{ $frontmatter.description }}
 
 ## Anlagenverwaltung
 

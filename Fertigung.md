@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Eine moderne Lösung für ein altes Problem.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Fertigung
 ![icons_odoo_mrp](assets/icons_odoo_mrp.png)
 
-Eine moderne Lösung für ein altes Problem.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/manufacturing>
 

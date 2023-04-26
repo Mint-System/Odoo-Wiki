@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Alles, was das "Internet der Dinge (IoT)" bietet.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # IoT
 ![icons_odoo_iot](assets/icons_odoo_iot.png)
 
-Alles, was das "Internet der Dinge (IoT)" bietet.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/iot>
 

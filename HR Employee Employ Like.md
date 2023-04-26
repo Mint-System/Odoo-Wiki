@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Neues Feld Anstellung wie auf Mitarbeitenden.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./personal
 # HR Employee Employ Like
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Neues Feld Anstellung wie auf Mitarbeitenden.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_employee_employ_like`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/hr_employee_employ_like>

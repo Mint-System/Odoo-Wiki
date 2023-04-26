@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Berechnung Dauer anhand Start- und Endzeit.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./personal
 # HR Timesheet From Until
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
 
-Berechnung Dauer anhand Start- und Endzeit.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_timesheet_from_until`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_timesheet_from_until>

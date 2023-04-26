@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträge.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Fahrzeugflotte
 ![icons_odoo_fleet](assets/icons_odoo_fleet.png)
 
-Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträge.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/fleet>
 

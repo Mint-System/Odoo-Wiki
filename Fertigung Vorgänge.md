@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Vorgänge für Fertigung konfigurieren.
 tags:
 - HowTo
 prev: ./fertigung
@@ -7,7 +7,7 @@ prev: ./fertigung
 # Fertigung Vorgänge
 ![icons_odoo_mrp](assets/icons_odoo_mrp.png)
 
-Vorgänge für Fertigung konfigurieren.
+{{ $frontmatter.description }}
 
 ## Subunternehmer
 

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Mehrwertsteuer einfach abrechnen mit Odoo.
 tags:
 - HowTo
 prev: ./finanzen
@@ -7,7 +7,7 @@ prev: ./finanzen
 # Finanzen Mehrwertsteuer
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
-Mehrwertsteuer einfach abrechnen mit Odoo.
+{{ $frontmatter.description }}
 
 ## Konfiguration
 

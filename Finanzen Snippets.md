@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Einfache Anpassungen mit Odoo Snippets.
 tags:
 - HowTo
 - Aktionen
@@ -8,7 +8,7 @@ prev: ./finanzen
 # Finanzen Snippets
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
-Einfache Anpassungen mit Odoo Snippets.
+{{ $frontmatter.description }}
 
 ## Vorhanden Kassenpositionen auf Kassenbeleg anzeigen
 

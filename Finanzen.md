@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Ihre Buchhaltung einfach und korrekt.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Finanzen
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
-Ihre Buchhaltung einfach und korrekt.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/accounting>
 

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Finanzberichte erstellen.
 tags:
 - HowTo
 prev: ./finanzen
@@ -7,7 +7,7 @@ prev: ./finanzen
 # Finanzen Berichte
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
-Finanzberichte erstellen.
+{{ $frontmatter.description }}
 
 ## Konfiguration
 

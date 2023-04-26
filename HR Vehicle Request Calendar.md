@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kalenderansicht und Terminbestätigung für Fahrzeuganfragen.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./personal
 # HR Vehicle Request Calendar
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Kalenderansicht und Terminbestätigung für Fahrzeuganfragen.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_vehicle_request_calendar`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_vehicle_request_calendar>

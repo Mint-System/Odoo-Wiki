@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: IP-Prüfung bei Anmeldung der Anwesenheit.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./abwesenheit
 # HR Attendance IP Check
 ![icon_oms_box](assets/icon_oms_box.png)
 
-IP-Prüfung bei Anmeldung der Anwesenheit.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_attendance_ip_check`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_attendance_ip_check>

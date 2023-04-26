@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Erweitert den Anwesenheitsbericht mit neuen Felder.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./personal
 # HR Holidays Calendar Department
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Erweitert den Anwesenheitsbericht mit neuen Felder.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_holidays_calendar_department`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_holidays_calendar_department>

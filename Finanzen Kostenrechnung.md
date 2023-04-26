@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kosten analysieren und Budget plannen.
 tags:
 - HowTo
 prev: ./finanzen
@@ -7,7 +7,7 @@ prev: ./finanzen
 # Finanzen Kostenrechnung
 ![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
 
-Kosten analysieren und Budget plannen.
+{{ $frontmatter.description }}
 
 ## Kostenrechnung
 

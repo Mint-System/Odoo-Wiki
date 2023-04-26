@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Stundenzettel mit Anwesenheit, Abwesenheiten und Überstunden.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./abwesenheit
 # HR Employee Attendance Report
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Stundenzettel mit Anwesenheit, Abwesenheiten und Überstunden.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_employee_attendance_report`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_employee_attendance_report>

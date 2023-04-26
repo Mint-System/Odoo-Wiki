@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verbleibende Abwesenheitsansprüche der Mitarbeitenden anzeigen.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./abwesenheit
 # HR Holidays Remining Leaves
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Verbleibende Abwesenheitsansprüche der Mitarbeitenden anzeigen.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_holidays_remaining_leaves`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_holidays_remaining_leaves>

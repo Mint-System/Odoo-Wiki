@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Den Odoo-Startbildschirm gestalten.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./einstellungen
 # Home Backround Image
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Den Odoo-Startbildschirm gestalten.
+{{ $frontmatter.description }}
 
 Technischer Name: `home_background_image`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/home_background_image>

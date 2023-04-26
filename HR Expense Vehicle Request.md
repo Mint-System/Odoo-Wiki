@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Brückenmodul für Fahrzeuganfrage und Auslage.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./aufwand
 # HR Expense Vehicle Request
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Brückenmodul für Fahrzeuganfrage und Auslage.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_expense_vehicle_request`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_expense_vehicle_request>

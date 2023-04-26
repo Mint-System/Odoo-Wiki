@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Richten Sie ihre Odoo-Umgebung ein.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Initialisierung
 ![icons_odoo_survey](assets/icons_odoo_survey.png)
 
-Richten Sie ihre Odoo-Umgebung ein.
+{{ $frontmatter.description }}
 
 ## Einstellungen
 

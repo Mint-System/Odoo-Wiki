@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Erstellen Sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./abwesenheit
 # HR Holidays Public
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Erstellen Sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_holidays_public`\
 Repository: <https://github.com/OCA/hr-holidays/tree/15.0/hr_holidays_public>
