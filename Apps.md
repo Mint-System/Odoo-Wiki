@@ -17,15 +17,6 @@ Website: <https://www.odoo.com/de_DE/page/all-apps>
 | ----------------------------------- | ----------------------------- |
 | [Apps Aktionen](Apps%20Aktionen.md) | Aktionen für Apps einrichten. |
 
-## Erweiterungen
-
-| Erweiterung                                                     | Beschreibung                                |
-| --------------------------------------------------------------- | ------------------------------------------- |
-| [Cancel Manufacturing Order](Cancel%20Manufacturing%20Order.md) | Fertigungsauftrag rückgängig machen.        |
-| [Product Barcode Generator](Product%20Barcode%20Generator.md)   | Autogenerate EAN13 product barcodes.        |
-| [Product Name Sequence](Product%20Name%20Sequence.md)           | Generate product names based on a sequence. |
-| [Report XLSX](Report%20XLSX.md)                                 | Klasse zur Enwicklung von XLSX-Berichten.   |
-
 ## Verwendung
 
 ### Liste der Apps aktualisieren

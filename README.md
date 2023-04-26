@@ -327,6 +327,12 @@ In wenigen Minuten einrichten, innerhalb von Sekunden verkaufen.
 
 Kunden mit Odoo verbinden.
 
+### [Produkt](Produkt.md)
+
+![](assets/icons_odoo_product.png)
+
+Produkte und Preise.
+
 ### [Projekt](Projekt.md)
 
 ![icons_odoo_project](assets/icons_odoo_project.png)
