@@ -92,3 +92,29 @@ for department in department_ids:
 if messages:
   log('\n'.join(messages))
 ```
+
+### Ablaufdatum Datenbank erneuern
+
+Diese geplante Aktion aktualisiert das Ablaufdatum der Datenbank in regelmässigen Abständen.
+
+::: warning
+Verwenden Sie diese Aktion nur in Testsystemen! Produktive System müssen vor Ablauf des echten Datums lizenziert werden!
+:::
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Ablaufdatum Datenbank erneuern`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Tage\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+now = datetime.datetime.now()
+expiration_date = now + datetime.timedelta(days=35)
+expiration_date = expiration_date.strftime('%Y-%m-%d %H:%M:%S')
+env['ir.config_parameter'].sudo().set_param('database.expiration_date', expiration_date)
+```
