@@ -1,5 +1,5 @@
 ---
-description: Auftragszeilen mit Rabaut aus Preisliste mit Fixpreis.
+description: Auftragszeilen mit Rabatt aus Preisliste mit Fes.
 tags:
 - HowTo
 - Drittanbieter
