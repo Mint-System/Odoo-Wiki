@@ -159,3 +159,31 @@ Und daraus wird diese Buchung generiert.
 ### Konten-Tags ohne Entwicklermodus anzeigen
 
 Das Menü *Konten-Tags* wird nur im Entwicklermodus angezeigt. Um das Verhalten zu ändern, öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge*, zeigen den Menüeintrag *Konten-Tags* an und entfernen im Tab *Zugriffsrechte* die Gruppe. Aktualisieren Sie den Browser und verlassen Sie den Entwicklermodus. Sie sollten den Menüeintrag nun sehen.
+
+## Bezugssteuer
+
+### Bezugssteuer einrichten
+
+Die bestehende Bezugssteuer *UST 7.7% Bezugssteuer* von Odoo ist für den Umsatzsteuerbericht unzureichend.
+
+Gemäss [Steuersätze anpassen](#Steuersätze%20anpassen) können Sie eine Kopie von *UST 7.7% Bezugssteuer* und wie folgt anpassen:
+
+* **Steuerbezeichnung**: Bezugssteuer 7.7%
+* **Betrag**: 7.7000
+* **Verteilung für Rechnungen**:
+
+|       % | Basiert auf | Konto                                                   | Steuerraster |
+| -------:| ----------- | ------------------------------------------------------- | ------------ |
+|         | Basis       |                                                         | +382a        |
+| -100.00 | der Steuer  | 2200 Geschuldete Mehrwertsteuer                         | -382b        |
+|  100.00 | der Steuer  | 1170 Vorsteuer auf Materialaufwand und Dienstleistungen | +400         |
+
+* **Verteilung für Gutschriften**:
+
+|       % | Basiert auf | Konto                                                   | Steuerraster |
+| -------:| ----------- | ------------------------------------------------------- | ------------ |
+|         | Basis       |                                                         | -382a        |
+| -100.00 | der Steuer  | 2200 Geschuldete Mehrwertsteuer                         | +382b        |
+|  100.00 | der Steuer  | 1170 Vorsteuer auf Materialaufwand und Dienstleistungen | -400         |
+
+Für Bezugsteuer für Investition können Sie ebenfalls eine Kopie erstellen und im Steuerraster jeweils den Tag 405 statt 400 verwenden.
