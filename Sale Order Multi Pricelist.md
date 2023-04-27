@@ -1,5 +1,5 @@
 ---
-description: Partner-Preisliste anhand Lieferdatum filtern.
+description: Partner-Preisliste anhand Auftragsdatum filtern.
 tags:
 - HowTo
 - Drittanbieter
