@@ -105,7 +105,7 @@ Wiederholende Verträge verwalten und automatisch verrechnen.
 
 Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 
-### [Datenbankmanager](Datenbankmanager.md)
+### [Datenbank](Datenbank.md)
 
 ![icons_odoo_website_version](assets/icons_odoo_website_version.png)
 

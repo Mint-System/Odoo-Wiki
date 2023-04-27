@@ -4,14 +4,20 @@ tags:
 - HowTo
 prev: ./
 ---
-# Datenbankmanager
+# Datenbank
 ![icons_odoo_website_version](assets/icons_odoo_website_version.png)
 
 {{ $frontmatter.description }}
 
-> Zur Verwaltung der Odoo-Instanzen gibt es den Datenbankmanager. Dieses Tool erlaubt ein Backup von der Instanz zu erstellen und nach Bedarf wiederherzustellen.
+## Erweiterungen
+
+| Erweiterung                                   | Beschreibung                                   |
+| --------------------------------------------- | ---------------------------------------------- |
+| [Base Search Fuzzy](Base%20Search%20Fuzzy.md) | Aktivieren Trigram-Index auf Datenbank-Felder. |
 
 ## Datenbank
+
+Zur Verwaltung der Odoo-Instanzen gibt es den Datenbankmanager. Dieses Tool erlaubt ein Backup von der Instanz zu erstellen und nach Bedarf wiederherzustellen.
 
 ### Datenbank erstellen
 
