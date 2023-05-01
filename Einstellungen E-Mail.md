@@ -16,21 +16,19 @@ Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
 Damit Odoo Mails empfanen und verarbeiten kann, muss ein eingehender Mail-Server konfiguriert werden.
 
-Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten.
+Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten. Dazu ein Beispiel mit Infomaniak:
 
-### Eingehender Mail-Server Office 365 konfigurieren
-
-Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen (bis #Odoo14):
-
-* **Beschreibung**: Office 365 Incoming
+* **Beschreibung**: Infomaniak Incoming
 * **Servertyp**: IMAP Server
-* **Servername**: `outlook.office365.com`
+* **Servername**: `mail.infomaniak.com`
 * **Port**: 993
-* **SSL/TLS**: Option markieren
+* **SSL/TLS**: Option aktivieren
 * **Benutzername**: Mail-Adresse des Odoo Postfach
 * **Passwort**: Passwort des Odoo Postfach
 
-Ab #Odoo15  müssen Sie lediglich diese Parameter wählen:
+### Eingehender Mail-Server Office 365 konfigurieren
+
+Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen:
 
 * **Beschreibung**: Office 365 Incoming
 * **Outlook**: Option markieren
@@ -56,7 +54,15 @@ Der Empfänger der eingehenden E-Mails werden mit der Liste der Aliase vergliche
 
 Damit Odoo Mail verschicken kann, muss ein ausgehender Mail-Server konfiguriert werden.
 
-Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Ausgehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten.
+Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Ausgehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten. Dazu ein Beispiel für Infomaniak:
+
+* **Beschreibung**: Infomaniak Outgoing
+* **SMTP Server**: `mail.infomaniak.com`
+* **SMTP Port**: 587
+* **Verbindungssicherheit**: TLS
+* **Benutzername**: Mail-Adresse von Odoo Postfach
+* **Passwort**: Passwort des Odoo Postfach
+* **Aus Filter**: Mail-Adresse von Odoo Postfach (gilt ab #Odoo15)
 
 ::: tip
 Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladung, versendet Odoo die E-Mail im Namen des Unternehmens und verwendet dazu die E-Mail-Adresse aus den Unternehmenseinstellungen.
@@ -64,19 +70,7 @@ Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladun
 
 ### Ausgehender Mail-Server Office 365 konfigurieren
 
-Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen (bis #Odoo14):
-
-* **Beschreibung**: Office 365 Outgoing
-* **SMTP Server**: `smtp.office365.com`
-* **SMTP Port**: 587
-* **Verbindungssicherheit**: TLS
-* **Benutzername**: Mail-Adresse von Odoo Postfach
-* **Passwort**: Passwort des Odoo Postfach
-* **Aus Filter**: Mail-Adresse von Odoo Postfach
-
-![](assets/Einstellungen%20E-Mail%20Ausgehender%20Mail-Server%20Office%20365.png)
-
-Ab #Odoo15 müssen Sie lediglich diese Parameter wählen:
+Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen:
 
 * **Beschreibung**: Office 365 Outgoing
 * **Outlook**: Option markieren
