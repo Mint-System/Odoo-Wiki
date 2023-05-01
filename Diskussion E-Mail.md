@@ -93,9 +93,9 @@ Zum versenden einer Nachricht an einen Kontakt wählen Sie *Kontakte > Kontakte*
 
 ![Diskussion Nachricht versenden](assets/Diskussion%20Nachricht%20versenden.gif)
 
-## Prüfen
+## E-Mails
 
-### Mail-Versand prüfen
+### E-Mail-Versand prüfen
 
 Wenn man eine Odoo-Nachricht als E-Mail versendet, wird die Nachricht im Chatter geloggt. Man findet dort das Mail-Icon.
 
@@ -119,8 +119,10 @@ Wenn Sie den Entwicklermodus eingeschaltet haben, finden Sie unter *Einstellunge
 
 ![](assets/Diskussion%20nicht%20versendete%20E-Mails.png)
 
-### E-Mail-Vorlage testen
+### E-Mail erneut versenden
 
-Rufe Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > Vorlagen* auf und klicken Sie auf *Vorschau*. Wählen Sie einen Datensatz und prüfen Sie die generierte Vorschau.
+Wenn [Nicht versendete E-Mails anzeigen](#Nicht%20versendete%20E-Mails%20anzeigen) und dort Einträge finden, können Sie der Aktion *Wiederholen* den Versand erneut starten. Um die E-Mail direkt zu versenden, wählen Sie *Sofort senden*.
 
-![Mail-Vorlage Variablen testen](assets/Mail-Vorlage%20Variablen%20testen.gif)
+::: warning
+Auf bestimmte Nachrichten habe nur der Author Zugriff. Kontaktieren Sie den Author über den Chatter und teilen Sie mit, dass die Nachricht erneut versendet werden soll. 
+:::
