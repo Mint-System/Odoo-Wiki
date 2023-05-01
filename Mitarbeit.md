@@ -126,6 +126,17 @@ Info
 Warnung
 :::
 
+### Veraltet
+
+Wenn Apps verwaltet sind können Sie diese Markierung verwenden:
+
+```
+::: warning
+Diese App ist veraltet und wird aufgrund von Aktualisierungen in Odoo nicht mehr benötigt.
+#deprecated
+:::
+```
+
 ## Konventionen
 
 **Keine Leerschläge**
