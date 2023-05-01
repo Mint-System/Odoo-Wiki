@@ -142,16 +142,3 @@ In der E-Mail-Vorlage muss im Tab *E-Mail-Konfiguration* das feld *Antwort an* g
 Damit E-Mail nach dem Versand nicht aus der Odoo-Datenbank und dem Postfach gelöscht wird, können Sie in den E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > Vorlagen > Vorlage auswählen > Tab Erweiterte Einstellungen* die Option *Autom. Löschen* deaktivieren.
 
 Nach dem Versand der E-Mail können Sie die [E-Mail anzeigen](Diskussion%20E-Mail.md#E-Mail%20anzeigen).
-
-
-## Vorlagen
-
-### E-Mail-Vorlagen anzeigen
-
-Odoo verwaltet alle E-mail-Voralgen unter *Einstellungen > Technisch > E-Mail > Vorlagen*.
-
-### E-Mail-Vorlage testen
-
-Rufe Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > Vorlagen* auf und klicken Sie auf *Vorschau*. Wählen Sie einen Datensatz und prüfen Sie die generierte Vorschau.
-
-![Mail-Vorlage Variablen testen](assets/Mail-Vorlage%20Variablen%20testen.gif)

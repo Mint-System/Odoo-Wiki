@@ -32,13 +32,17 @@ Wenn Sie alle von Odoo verarbeiteten E-Mails anzeigen möchten, navigieren Sie n
 
 ## Vorlagen
 
-### Mail-Vorlagen verwalten
+### E-Mail-Vorlagen anzeigen
 
-Zu jedem Geschäftsobjekt können E-Mail-Vorlagen mit Parameter angelegt werden. Navigieren Sie nach *Einstellungen > Technisch > Volagen* um die bestehenden E-Mail-Vorlagen anzuzeigen.
+Odoo verwaltet alle E-mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > Vorlagen*.
+
+### E-Mail-Vorlagen verwalten
+
+Zu jedem Geschäftsobjekt können E-Mail-Vorlagen mit Parameter angelegt werden. Navigieren Sie nach *Einstellungen > Technisch > Vorlagen* um die bestehenden E-Mail-Vorlagen anzuzeigen.
 
 ### E-Mail-Vorlage erfassen
 
-Navigieren Sie nach *Einstellungen > Technisch > Volagen* und erstellen Sie einen neuen Eintrag. Im Feld *Gilt für* wählen das Geschäftsobjekt, das mit der Voralge verknüpft werden soll.
+Navigieren Sie nach *Einstellungen > Technisch > Vorlagen* und erstellen Sie einen neuen Eintrag. Im Feld *Gilt für* wählen das Geschäftsobjekt, das mit der Voralge verknüpft werden soll.
 
 ![](assets/Diskussion%20E-Mail%20Gilt%20für.png)
 
@@ -56,15 +60,21 @@ Im Tab *E-Mail-Konfiguration* finden Sie diese Parameter:
 * **Antwort an**: Überschreiben der Antworten-Adresse.
 * **Geplantes Sendedatum**: Dynamisches Datum für das geplante Versenden.
 
-### Mehrsprachige E-Mail-Vorlagen  aus Word kopieren
+### E-Mail-Vorlage testen
 
-Erstellen Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > Volagen*. Fügen Sie die Text aus der Word-Datei mit <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>v</kbd> (Einfügen ohne Formatierungen) ein. Bearbeiten Sie  im nächsten Schritt die Übersetzungen und kopieren Sie den generierten Code in das übersetzte Feld.
+Rufe Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > Vorlagen* auf und klicken Sie auf *Vorschau*. Wählen Sie einen Datensatz und prüfen Sie die generierte Vorschau.
+
+![Mail-Vorlage Variablen testen](assets/Mail-Vorlage%20Variablen%20testen.gif)
+
+### Mehrsprachige E-Mail-Vorlagen aus Word kopieren
+
+Erstellen Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > Vorlagen*. Fügen Sie die Text aus der Word-Datei mit <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>v</kbd> (Einfügen ohne Formatierungen) ein. Bearbeiten Sie  im nächsten Schritt die Übersetzungen und kopieren Sie den generierten Code in das übersetzte Feld.
 
 ![Mail-Vorlage aus Word kopieren](assets/Mail-Vorlage%20aus%20Word%20kopieren.gif)
 
 ### Dynamischer Platzhalter generieren
 
-Rufe Sie eine importierte E-Mail-Vorlage unter *Einstellungen > Technisch > Volagen* auf. Generieren Sie einen dynamischen Platzhalter und fügen Sie diesen in die Vorlage.
+Rufe Sie eine importierte E-Mail-Vorlage unter *Einstellungen > Technisch > Vorlagen* auf. Generieren Sie einen dynamischen Platzhalter und fügen Sie diesen in die Vorlage.
 
 ![Mail-Vorlage Platzhalter ersetzen](assets/Mail-Vorlage%20Platzhalter%20ersetzen.gif)
 
@@ -85,7 +95,7 @@ Um sicherzustellen, dass Odoo Nachrichten am richtigen Ort platziert, kann man a
 
 Öffnen Sie *Einstellungen > Diskussion > Externe E-Mail-Server > Eintrag auswählen > Aktion > Nachrichten*. Mit *Anlegen* könne Sie nun ein Nachricht erfassen und verschicken.
 
-### Mail an Kontakt senden
+### E-Mail an Kontakt senden
 
 Mit dem Odoo-Chatter können auf jedem Geschäftsobjekt interne Notizen hinzugefügt werden, aber auch Mails für Externe.
 
@@ -93,7 +103,7 @@ Zum versenden einer Nachricht an einen Kontakt wählen Sie *Kontakte > Kontakte*
 
 ![Diskussion Nachricht versenden](assets/Diskussion%20Nachricht%20versenden.gif)
 
-## E-Mails
+## Versand
 
 ### E-Mail-Versand prüfen
 
