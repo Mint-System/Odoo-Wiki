@@ -26,6 +26,10 @@ Im Normalfall wird beim [Angebot bestätigen](Verkauf.md#Angebot%20bestätigen) 
 
 ### Abonnement-Laufzeit mit Produktvariante verknüpfen
 
-Öffnen Sie ein Abonnent-Produkt unter *Abonnements > Abonnements > Produkte*. Zeigen Sie den Tab *Preis* an. Legen Sie in der Spalte *Produktvarianten* fest, welche Lafuzeit zu welcher Variante gehört.
+Öffnen Sie ein Abonnent-Produkt unter *Abonnements > Abonnements > Produkte*. Zeigen Sie den Tab *Preis* an. Legen Sie in der Spalte *Produktvarianten* fest, welche Laufzeit zu welcher Variante gehört. Dazu ein Beispiel.
 
 ![](assets/Abonnements%20Produktvarainten.png)
+
+### Abonnement-Laufzeit mit Produktvariante und Preisliste verknüpfen
+
+Wenn Sie [Preislisten aktivieren](Verkauf%20Preise.md#Preislisten%20aktivieren) und eine [Abonnement-Laufzeit mit ein Produktvariante verknüpfen](#Abonnement-Laufzeit%20mit%20Produktvariante%20verknüpfen), können Sie zusätzlich eine Preislisteliste auswählen. Wenn Sie die ausgewählte [Preisliste anzeigen](Verkauf%20Preise.md#Preisliste%20anzeigen) sehen Sie im Tab *Zeitbasierte Regel* die erstellten Verknüpfungen.

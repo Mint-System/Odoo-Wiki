@@ -19,8 +19,8 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Verkauf Aktionen](Verkauf%20Aktionen.md)     | Arbeitsflüsse in Verkauf automatisieren.             |
 | [Verkauf Berichte](Verkauf%20Berichte.md)     | Verkaufsdaten immer aktuell.                         |
 | [Verkauf Lager](Verkauf%20Lager.md)           | Lieferungen aus Verkaufsaufträge erstellen.          |
+| [Verkauf Preise](Verkauf%20Preise.md)         | Produkte, Preislisten und Varianten zentral pflegen. |
 | [Verkauf Projekt](Verkauf%20Projekt.md)       | Dienstleistungen mit Verkauf und Projekt abwickeln.  |
-| [Verkauf Stammdaten](Verkauf%20Stammdaten.md) | Produkte, Preislisten und Varianten zentral pflegen. |
 
 ## Erweiterungen
 

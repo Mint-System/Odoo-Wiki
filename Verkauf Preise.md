@@ -9,6 +9,16 @@ prev: ./verkauf
 
 Produkte, Preislisten und Varianten zentral pflegen.
 
+## Konfiguraiton
+
+### Preislisten aktivieren
+
+Navigieren Sie nach *Verkauf > Konfiguration > Preiskalkulation* und aktivieren Sie die Option *Preislisten*. Sie können nun mehrere Peise für ein Produkt erfassen.
+
+### Erweiterte Preisregeln aktivieren
+
+Navigieren Sie nach *Verkauf > Konfiguration > Preiskalkulation* und aktivieren Sie die Option *Preislisten* mit der Unteroption *Erweiterte Preisregeln*.
+
 ## Produkte
 
 ### Produkte zum Verkauf festlegen
@@ -45,13 +55,21 @@ Navigieren Sie nach *Verkauf > Produkte > Produktvarianten*. Hier finden Sie all
 
 ## Preislisten
 
+### Preisliste anzeigen
+
+Navigieren Sie nach *Verkauf > Produkte > Preislisten* und wählen Sie eine Preisliste aus.
+
 ### Preisliste erstellen
 
 Navigieren Sie nach *Verkauf > Produkte > Preislisten* und erstellen Sie einen neuen Eintrag. Legen Sie im Tab *Konfiguration* die Verfügbarkeit gemäss Ländergruppe fest und bestimmen Sie mit der Option *Rabattpolitik*, ob Rabatt im Produkpreis inkludiert ist oder nicht.
 
-### Erweiterte Preisregeln aktivieren
+### Preisregel für Produktvariante erfassen
 
-Navigieren Sie nach *Verkauf > Konfiguration > Preiskalkulation* und aktivieren Sie die Option *Preislisten* mit der Unteroption *Erweiterte Preisregeln*.
+Navigieren Sie nach *Verkauf > Produkte > Preislisten* und zeigen Sie eine Preisliste an. Fügen Sie eine neue Zeile hinzu:
+
+* **Produkt**: Wählen Sie hier die Produktvorlage aus
+* **Variante**: Und hier die entsprechende Produktvariante
+* **Preis**: Legen Sie den Preis der Produktvariante fest
 
 ### Preisliste mit Rabatt erstellen
 
@@ -111,7 +129,6 @@ Ein Beispiel könnte so aussehen:
 In einem *Angebot / Verkaufsauftrag* werden die Preise entsprechend unterschiedlich angezeigt. Dazu das folgende Beispiel:
 
 ![](assets/Verkauf%20Stammdaten%20Staffelpreise%20Verkaufsauftrag%20Beispiel.png)
-
 
 ### Preisregeln anzeigen
 
