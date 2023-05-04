@@ -14,7 +14,7 @@ prev: ./einstellungen
 ### Eingehender Mail-Server konfigurieren
 Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
-Damit Odoo Mails empfanen und verarbeiten kann, muss ein eingehender Mail-Server konfiguriert werden.
+Damit Odoo Mails empfangen und verarbeiten kann, muss ein eingehender Mail-Server konfiguriert werden.
 
 Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten. Dazu ein Beispiel mit Infomaniak:
 
