@@ -179,7 +179,7 @@ Navigieren Sie nach *Finanzen > Konfiguration > Bargeld-Runden* und erstellen Si
 
 Wenn Sie eine neue Rechnung schreiben und die Rundungsmethode festgelegt ist, werden die Beiträge entsprechend gerundet.
 
-## Produktverwaltung
+## Produkte
 
 ### Fakturierungsregel festlegen
 

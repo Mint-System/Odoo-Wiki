@@ -9,7 +9,7 @@ prev: ./verkauf
 
 Produkte, Preislisten und Varianten zentral pflegen.
 
-## Produktverwaltung
+## Produkte
 
 ### Produkte zum Verkauf festlegen
 

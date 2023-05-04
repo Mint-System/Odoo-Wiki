@@ -20,7 +20,7 @@ Website: <https://www.odoo.com/de_DE/app/ecommerce>
 | [Website Berichte](Website%20Berichte.md)                                                 | Verkaufszahlen analysieren.                                          |
 | [Website Shop Coupons](Website%20Shop%20Coupons.md)                                       | Website Coupons & Gutscheine im Odoo Shop.                           |
 
-## Produktverwaltung
+## Produkte
 
 ### Produkt veröffentlichen
 

@@ -9,7 +9,7 @@ prev: ./fertigung
 
 {{ $frontmatter.description }}
 
-## Produktverwaltung
+## Produkte
 
 ## Produkt anlegen
 
