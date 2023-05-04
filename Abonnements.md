@@ -32,4 +32,6 @@ Im Normalfall wird beim [Angebot bestätigen](Verkauf.md#Angebot%20bestätigen) 
 
 ### Abonnement-Laufzeit mit Produktvariante und Preisliste verknüpfen
 
-Wenn Sie [Preislisten aktivieren](Verkauf%20Preise.md#Preislisten%20aktivieren) und eine [Abonnement-Laufzeit mit ein Produktvariante verknüpfen](#Abonnement-Laufzeit%20mit%20Produktvariante%20verknüpfen), können Sie zusätzlich eine Preislisteliste auswählen. Wenn Sie die ausgewählte [Preisliste anzeigen](Verkauf%20Preise.md#Preisliste%20anzeigen) sehen Sie im Tab *Zeitbasierte Regel* die erstellten Verknüpfungen.
+Wenn Sie [Preislisten aktivieren](Verkauf%20Preise.md#Preislisten%20aktivieren) und eine [Abonnement-Laufzeit mit ein Produktvariante verknüpfen](#Abonnement-Laufzeit%20mit%20Produktvariante%20verknüpfen), können Sie zusätzlich eine Preislisteliste auswählen.
+
+Wenn Sie die ausgewählte [Preisliste anzeigen](Verkauf%20Preise.md#Preisliste%20anzeigen) sehen Sie im Tab *Zeitbasierte Regel* die erstellten Verknüpfungen.
