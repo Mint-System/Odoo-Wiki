@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Responsive Anzeige der Odoo-Oberfläche.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./einstellungen
 # Web Responsive
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Responsive Anzeige der Odoo-Oberfläche.
+{{ $frontmatter.description }}
 
 Technischer Name: `web_responsive`\
 Repository: <https://github.com/OCA/web/tree/15.0/web_responsive>

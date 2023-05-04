@@ -34,7 +34,7 @@ prev: ./
 | [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)               | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.   |
 | [Base Recursion Limit](Base%20Recursion%20Limit.md)             | Limit für Python-Rekursionen erhöhen.                                |
 | [Base User Role](Base%20User%20Role.md)                         | Gruppenberechtigungen mit Benutzer-Rollen verwalten.                 |
-| [Fetchmail Incoming Log](Fetchmail%20Incoming%20Log.md)         | Loggt Informationen zu eingehenden E-Mails.                      |
+| [Fetchmail Incoming Log](Fetchmail%20Incoming%20Log.md)         | Loggt Informationen zu eingehenden E-Mails.                          |
 | [Home Background Image](Home%20Background%20Image.md)           | Den Odoo-Startbildschirm gestalten.                                  |
 | [Impersonate](Impersonate.md)                                   | Schnelles Wechseln zwischen Benutzer-Accounts.                       |
 | [Mail Server Filter](Mail%20Server%20Filter.md)                 | Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern. |
@@ -42,6 +42,7 @@ prev: ./
 | [Odoo Microsoft Account](Odoo%20Microsoft%20Account.md)         | Login mit Microsoft-Account.                                         |
 | [Report QWeb PDF Watermark](Report%20QWeb%20PDF%20Watermark.md) | Wasserzeichen auf PDF-Berichte hinzufügen.                           |
 | [Show DB Name](Show%20DB%20Name.md)                             | Zeigt den Datenbanknamen oben rechts an.                             |
+| [Web Company Color](Web%20Company%20Color.md)                   | Farben des Odoo Backend Theme anpassen.                              |
 | [Web Dark Mode](Web%20Dark%20Mode.md)                           | Dark mode für Weboberfläche.                                         |
 | [Web Editor Show Code](Web%20Editor%20Show%20Code.md)           | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |
 | [Web Responsive](Web%20Responsive.md)                           | Responsive Anzeige der Odoo-Oberfläche.                              |
