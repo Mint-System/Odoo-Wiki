@@ -110,8 +110,8 @@ for project in project_ids:
     action.unlink()
   
 if new_menus:
-  log('Created new menus: %s' % (new_menus.join(', ')))
-````
+  log('Created new menus: %s' % (', '.join(new_menus)))
+```
 
 Legen Sie den Wert für `parent_menu_id` fest. Damit bestimmen Sie unter welchem Menüpunkt die Projektmenüs erscheinen sollen.
 
