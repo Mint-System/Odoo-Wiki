@@ -76,7 +76,9 @@ BIC: POFICHBEXXX
 
 ### Dateien
 
-camt.053 für Import Kontoauszug: [camt053_example](https://raw.githubusercontent.com/Mint-System/Odoo-Wiki/master/assets/camt053_example.xml)[](assets/camt053_example.xml)
+Camt.053 für Import Kontoauszug: [camt053_example](https://raw.githubusercontent.com/Mint-System/Odoo-Wiki/master/assets/camt053_example.xml)[](assets/camt053_example.xml)
+
+Beispiele von Rechnungen zum Importieren gibt es hier: <https://github.com/swico/qr-bill>.
 
 ## Sprache
 
