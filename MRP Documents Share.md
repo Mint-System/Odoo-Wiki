@@ -76,3 +76,27 @@ for rec in records:
 ```
 
 Die Aktion mit *Kontextuelle Aktion Erstellen* abschliessen. Markieren Sie die Produkte unter *Fertigung > Produkte > Produkte* und wählen Sie *Aktion > Produktionsdokumente mit Produkt verknüpfen*.
+
+Dasselbe können Sie für Produkvarianten erledigen:
+
+Name der Aktion: `Produktionsdokumente mit Produkt verknüpfen`\
+Modell: `product.product`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for rec in records.product_tmpl_id:
+  if rec.drawing_file:
+    rec.drawing_file.write({
+      'res_model': 'product.template',
+      'res_id': rec.id,
+    })
+  if rec.step_file:
+    rec.step_file.write({
+      'res_model': 'product.template',
+      'res_id': rec.id,
+    })
+```
+
+Die Aktion mit *Kontextuelle Aktion Erstellen* abschliessen. Markieren Sie die Produkte unter *Fertigung > Produkte > Produkte* und wählen Sie *Aktion > Produktionsdokumente mit Produkt verknüpfen*.
