@@ -25,7 +25,7 @@ Damit der OAuth-Flow mit Microsoft-Azure funktioniert, müssen Sie [Odoo als OAu
 
 Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > OAuth-Provider* und Zeigen Sie den Provider *Microsoft OAuth2* an. Überschreiben Sie die Werte im Feld *Client ID* und *Secret Key* mit den Angaben aus der vorhergehenden Registration.
 
-Im Feld *Gültigkeitsbereicht* geben Sie `offline_access User.Read Mail.Read Contacts.ReadWrite Calendars.ReadWrite` ein.
+Im Feld *Gültigkeitsbereich* geben Sie `offline_access User.Read Mail.Read Contacts.ReadWrite Calendars.ReadWrite` ein.
 
 ### Login nur für eigenen Tenant erlauben
 

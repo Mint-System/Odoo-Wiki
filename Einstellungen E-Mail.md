@@ -34,7 +34,11 @@ Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20ko
 * **Outlook**: Option markieren
 * **Benutzername**: Mail-Adresse des Odoo Postfach
 
-Und anschliessen den E-Mail-Benutzer gemäss Hinweis authentisieren.
+Und anschliessen die Aktion [Outlook OAuth-Verbindung einrichten](Einstellungen%20OAuth.md#Outlook%20OAuth-Verbindung%20einrichten) ausführen.
+
+::: warning
+Das verwendete Outlook-Postfach darf keine Shared Mailbox sein. Der Benutzer und Postfach müssen lizenziert sein.
+:::
 
 ### Eingehende E-Mails erneut empfangen
 
@@ -76,7 +80,11 @@ Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20ko
 * **Outlook**: Option markieren
 * **Benutzername**: Mail-Adresse des Odoo Postfach
 
-Und anschliessen den E-Mail-Benutzer gemäss Hinweis authentisieren.
+Und anschliessen die Aktion [Outlook OAuth-Verbindung einrichten](Einstellungen%20OAuth.md#Outlook%20OAuth-Verbindung%20einrichten) ausführen.
+
+::: warning
+Das verwendete Outlook-Postfach darf keine Shared Mailbox sein. Der Benutzer und Postfach müssen lizenziert sein.
+:::
 
 ::: warning
 Die Relay-Funktion von Odoo funktioniert mit Office 365 nicht. Sie müssen eine feste Absender-Adresse gemäss [Absender-Adresse überschreiben](#Absender-Adresse%20überschreiben) wählen.

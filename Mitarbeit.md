@@ -57,10 +57,10 @@ Odoo: <https://erp.velo-manufaktur.ch>\
 Standort: Fahrradstrasse 46, 6460 Altdorf, Schweiz\
 Mitarbeiter: Kurt Gisler, Janik von Rotz, Marco Roeleven\
 MWST: CHE-103.800.167\
-IBAN: CH5604835012345678009\
-QR-IBAN: CH4431999123000889012\
-Bank: Credit Suisse\
-BIC: CRESCHZZ
+IBAN: CH40 8080 8008 9197 0092 6\
+QR-IBAN: CH68 3080 8008 9197 0092 6\
+Bank: Raiffeisen\
+BIC: RAIFCH22XXX
 
 ### Lieferanten
 
@@ -69,7 +69,7 @@ Website: <https://www.velo-zuerich.ch>\
 Standort: Rautistrasse 33, 8047 Zürich, Schweiz\
 MWST: CHE-113.887.810\
 Handelsregister: CH-020.4.036.470-7\
-IBAN: CH3509000000851054624\
+IBAN: CH35 0900 0000 85105462 4\
 Bank: Postfinance AG\
 BIC: POFICHBEXXX
 
