@@ -110,6 +110,10 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [E-Mail Vorlagen](Best%20Practice%20E-Mail%20Vorlagen.md)
 * [Kommunikation mit Odoo](Best%20Practice%20Kommunikation%20mit%20Odoo.md)
 
+### Entwicklung
+
+* [Odoo übersetzen](Best%20Practice%20Odoo%20übersetzen.md)
+
 ## Use Cases
 
 Komplexe vertikale Odoo Implementationen werden mit Use Cases beschrieben.

@@ -41,11 +41,19 @@ Navigieren Sie nach *Einstellungen > Übersetzungen > Übersetzte Begriffe* und 
 Wenn Sie ein Modul aktualisieren, können angepasste Übersetzungen verloren gehen. Notieren Sie sich die angepassten Übersetzungen.
 :::
 
-### Übersetzungen anpassen
-
 Ab #Odoo16 .
 
-Zur Übersetzung von Ansichten und Felder müssen Sie mindestens eine [Sprache aktivieren](#Sprache%20aktivieren). Wenn Sie eine andere Sprache als `en_US` aktiviert haben und nur diese Sprache, beispielsweise `de_CH`, aktiviert haben, möchten, können Sie die zusätzliche Sprache nach Anpassung der Übersetzungen wieder deaktivieren. 
+Zur Übersetzung von Ansichten und Felder müssen Sie mindestens eine [Sprache aktivieren](#Sprache%20aktivieren). Wenn Sie eine andere Sprache als `en_US` aktiviert haben und nur diese Sprache, beispielsweise `de_CH` aktiviert haben wollen, können Sie die zusätzliche Sprache nach Anpassung der Übersetzungen wieder deaktivieren. 
+
+### Übersetzung auf Ansicht anpassen
+
+Auf der Ansicht, welche die Übersetzung enthält, die Sie anpassen möchten, wählen *Entwickler-Tool > Bearbeitungsansicht:List|Form*. Klicken im Tab *Architektur* rechts auf den *EN*-Link. Nun öffnet sich ein Dialog mit den übersetzten und übersetzbaren Begriffen der Ansicht. Nehmen Sie die Anpassungen vor und Speichern Sie den Vorgang.
+
+![](assets/Einstellungen%20Übersetzung%20Ansicht%20übersetzen.gif)
+
+::: warning
+Der *EN*-Link wird ab #Odoo16 nur angezeigt, wenn mindestens 2 Sprachen aktiv sind.
+:::
 
 ### Übersetzungen erstellen
 

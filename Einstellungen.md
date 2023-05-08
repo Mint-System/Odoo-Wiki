@@ -48,7 +48,7 @@ prev: ./
 | [Web Responsive](Web%20Responsive.md)                           | Responsive Anzeige der Odoo-Oberfläche.                              |
 | [Web Theme Classic](Web%20Theme%20Classic.md)                   | Kontrast auf Benutzeroberfläche verbessern.                          |
 
-## Entwicklermodus
+## Entwicklung
 
 ### Entwicklermodus aktivieren
 
