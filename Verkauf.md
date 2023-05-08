@@ -109,13 +109,13 @@ Die Option Einstellungen > Verkauf > Angebote und Aufträge > Angebotsvorlagen e
 
 Mit der Aktion *Per E-Mail Versenden* wird automatisch ein e-Mail Entwurf für das Versenden der Auftragsbestätigung generiert.
 
-### Auftrag abbrechen
+### Verkaufsauftrag abbrechen
 
-Klicken Sie im Auftrag auf *Abbrechen* um den Auftrag in den Status *Abgebrochen* zu setzen. Damit gilt der Verkaufsauftrag als ungültig.
+Klicken Sie im Verkaufsauftrag auf *Abbrechen* um den Auftrag in den Status *Abgebrochen* zu setzen. Damit gilt der Verkaufsauftrag als ungültig.
 
-### Auftrag zurücksetzen
+### Verkaufsauftrag zurücksetzen
 
-Ist der Verkaufsauftrag im Status *Abgebrochen* können Sie ihn mit *Setze auf Angebot* in den Status *Angebot* zurücksetzen. Anschliessen können Sie das [Angebot bestätigen](#Angebot%20bestätigen) und haben wieder einen gültigen Verkaufsauftrag.
+Ist der Verkaufsauftrag im Status *Abgebrochen* können Sie ihn mit *Setze auf Angebot* in den Status *Angebot* zurücksetzen. Anschliessend können Sie das [Angebot bestätigen](#Angebot%20bestätigen) und haben wieder einen gültigen Verkaufsauftrag.
 
 ## Auftragszeilen
 

@@ -19,9 +19,12 @@ Website: <https://www.odoo.com/de_DE/app/expenses>
 
 ## Erweiterungen
 
-| Erweiterung                                                       | Beschreibung                                  |
-| ----------------------------------------------------------------- | --------------------------------------------- |
-| [HR Expense Vehicle Request](HR%20Expense%20Vehicle%20Request.md) | Brückenmodul für Fahrzeuganfrage und Auslage. |
+| Erweiterung                                                             | Beschreibung                                                   |
+| ----------------------------------------------------------------------- | -------------------------------------------------------------- |
+| [HR Expense Vehicle Request](HR%20Expense%20Vehicle%20Request.md)       | Brückenmodul für Fahrzeuganfrage und Auslage.                  |
+| [Sale Expense Description Date](Sale%20Expense%20Description%20Date.md) | Fügt das Datum der Auslage der Kundenauftragszeile hinzu.      |
+| [Sale Expense Link](Sale%20Expense%20Link.md)                           | Verlinkt die Auslagen mit der Kundenauftragszeile.             |
+| [Sale Expense Unlink](Sale%20Expense%20Unlink.md)                       | Bei Abbruch Auslagenbericht wird Kundenauftragszeile entfernt. |
 
 ## Konfiguration
 

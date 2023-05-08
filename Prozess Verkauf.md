@@ -14,7 +14,7 @@ prev: ./referenzsystem
 
 * [Angebot erstellen](Verkauf.md#Angebot%20erstellen)
 * [Angebot senden](Verkauf.md#Angebot%20senden)
-* [Auftrag bestätigen](Verkauf.md#Auftrag%20bestätigen)
+* [Angebot bestätigen](Verkauf.md#Angebot%20bestätigen)
 
 ## Verkaufsauftrag direkt
 
