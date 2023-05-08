@@ -17,7 +17,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_
 
 ### Zeichnung und Step-Datei hinzufügen
 
-Erstellen Sie eine teilbaren Link zu ihrer Zeichung oder Step-Datei. Hier ein Beispiel mit Google Drive:
+Erstellen Sie einen teilbaren Link zu ihrer Zeichung oder Step-Datei. Hier ein Beispiel mit Google Drive:
 
 ![](assets/Google%20Drive%20öffentlicher%20Link.png)
 
@@ -25,7 +25,7 @@ Navigieren Sie zu ihrem Produkt und erstellen Sie einen neuen Eintrag für die Z
 
 ![](assets/MRP%20Documents%20Share%20Zeichnung%20hinzufügen.png)
 
-Im Feld *Url* fügen Sie den öffentliche Link hinzu.
+Im Feld *Url* fügen Sie den öffentlichen Link hinzu.
 
 ![](assets/MRP%20Documents%20Share%20Url%20hinzufügen.png)
 
@@ -45,7 +45,7 @@ Falls das Produkt produziert wird, sehen Sie in der Workcenter-Tablet-Ansicht de
 
 ### Alle Produktionsdokumente anzeigen
 
-Die hinterlegten Zeichnung und Step-Dateien können Sie auf einer Listenanischt anzeigen lassen. Navigieren Sie nach *Fertigung > Produkte > Produktionsdokumente*.
+Die hinterlegten Zeichnungen und Step-Dateien können Sie auf einer Listenanischt anzeigen lassen. Navigieren Sie nach *Fertigung > Produkte > Produktionsdokumente*.
 
 ## Aktionen
 
@@ -75,9 +75,9 @@ for rec in records:
     })
 ```
 
-Die Aktion mit *Kontextuelle Aktion Erstellen* abschliessen. Markieren Sie die Produkte unter *Fertigung > Produkte > Produkte* und wählen Sie *Aktion > Produktionsdokumente mit Produkt verknüpfen*.
+Schliessen Sie die Aktion mit *Kontextuelle Aktion Erstellen* ab. Markieren Sie die Produkte unter *Fertigung > Produkte > Produkte* und wählen Sie *Aktion > Produktionsdokumente mit Produkt verknüpfen*.
 
-Dasselbe können Sie für Produkvarianten erledigen:
+Dasselbe können Sie für Produktvarianten einrichten:
 
 Name der Aktion: `Produktionsdokumente mit Produkt verknüpfen`\
 Modell: `product.product`\
@@ -99,4 +99,4 @@ for rec in records.product_tmpl_id:
     })
 ```
 
-Die Aktion mit *Kontextuelle Aktion Erstellen* abschliessen. Markieren Sie die Produkte unter *Fertigung > Produkte > Produkte* und wählen Sie *Aktion > Produktionsdokumente mit Produkt verknüpfen*.
+Schliessen Sie die Aktion mit *Kontextuelle Aktion Erstellen* ab. Markieren Sie die Produkte unter *Fertigung > Produkte > Produkte* und wählen Sie *Aktion > Produktionsdokumente mit Produkt verknüpfen*.
