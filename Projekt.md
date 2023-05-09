@@ -25,6 +25,7 @@ Website: <https://www.odoo.com/de_DE/app/project>
 | [Business Requirement](Business%20Requirement.md)                                 | Projektanforderungen erfassen und verknüpfen.            |
 | [Project Key Link Type](Project%20Key%20Link%20Type.md)                           | Projektnummer anhand Projekttyp erstellen.               |
 | [Project Key](Project%20Key.md)                                                   | Projektkürzel für Aufgabenbezeichnung.                   |
+| [Project Phase](Project%20Phase.md)                                               | Projektaufgaben mit Projektphasen verwalten.             |
 | [Project Task All Menu](Project%20Task%20All%20Menu.md)                           | Menu Alle Aufgaben hinzufügen.                           |
 | [Project Task Default Stage](Project%20Task%20Default%20Stage.md)                 | Standardstufen für Projektaufgaben.                      |
 | [Project Task Dependencies](Project%20Task%20Dependencies.md)                     | Projektaufgaben mit Abhängigkeiten.                      |
@@ -32,37 +33,43 @@ Website: <https://www.odoo.com/de_DE/app/project>
 | [Project Task Material](Project%20Task%20Material.md)                             | Liste von verbrauchten Materialien auf Projektaufgabe.   |
 | [Project Templates](Project%20Templates.md)                                       | Projekt aus Projektvorlage erstellen.                    |
 | [Project Timeline Task Dependencies](Project%20Timeline%20Task%20Dependencies.md) | Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten. |
-| [Project Timeline Task Dependencies](Project%20Timeline%20Task%20Dependencies.md) | Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten. |
 | [Project Timeline](Project%20Timeline.md)                                         | Timeline-Ansicht für Projektaufgaben.                    |
 | [Project Type](Project%20Type.md)                                                 | Projekte nach Typ verwalten.                             |
-| [Project timesheet time control](Project%20timesheet%20time%20control.md)         | Zeiterfassung auf Projektaufgabe starten.                |
+| [Project Timesheet Time Control](Project%20Timesheet%20Time%20Control.md)         | Zeiterfassung auf Projektaufgabe starten.                |
 | [Sequential Code for Tasks](Sequential%20Code%20for%20Tasks.md)                   | Sequenznummer für Projektaufgaben.                       |
 
 ## Verwaltung
 
 ### Projekt anlegen
 
-Aufgabenträger: [Projektleiter](Rollen#Projektleiter)
-
 Öffnen Sie die App *Projekt* und klicken auf *Anlegen.* Im Dialog geben Sie eine Projektbezeichnung ein. Abhängig von der Odoo-Installation stehen diese Optionen zur Wahl:
-* Zeiterfassung: Zeit auf Projekaufgaben rapportieren.
-* Bill from Tasks: Anhand einer Projektaufgabe eine Rechnung erstellen
-Wählen Sie die Option entsprechend der Projektkonfiguration.
-* Timesheet Timer: Zeiterfassung kann direkt auf der Aufgabe gestartet werden.
 
-### Aufgabenphasen erstellen
+* **Zeiterfassung**: Zeit auf Projekaufgaben rapportieren.
+* **Bill from Tasks**: Anhand einer Projektaufgabe eine Rechnung erstellen
+Wählen Sie die Option entsprechend der Projektkonfiguration.
+* **Timesheet Timer**: Zeiterfassung kann direkt auf der Aufgabe gestartet werden.
+
+### Aufgaben anzeigen
+
+Wählen Sie *Projekt* und klicken Sie auf eine Projekt-Kachel. Sie sehen nun die Aufgaben gefiltert anhand es ausgewählten Projekts. Klicken Sie auf eine Aufgabe um die Details zu sehen.
+
+### Meine Aufgaben anzeigen
+
+Wählen Sie *Projekt > Aufgaben*. Hier sehen Sie alle Aufgaben, die ihnen zugeordnet wurden.
+
+### Aufgabenstufen erstellen
 
 ::: tip
-Mittels Aufgabenphasen kann der Aufgabenstatus und deren Arbeitsfluss abgebildet werden. Eine Aufgaben durchläuft verschiedene Stufen bis Sie erledigt ist und archiviert werden kann.
+Mittels Aufgabenstufen kann der Aufgabenstatus und deren Arbeitsfluss abgebildet werden. Eine Aufgaben durchläuft verschiedene Stufen bis Sie erledigt ist und archiviert werden kann.
 :::
 
-Navigieren Sie in die Kanban-Ansicht eines Projekts *Projekt > Projekt auswählen* und geben im Feld *Spaltentitel* die Phasenbezeichnung ein.
+Navigieren Sie in die Kanban-Ansicht eines Projekts *Projekt > Projekt auswählen* und geben im Feld *Spaltentitel* die Stufenbezeichnung ein.
 
 ::: warning
-Die erstellte Aufgabenphasen ist nur für dieses Projekt sichtbar.
+Die erstellte Aufgabenstufen ist nur für dieses Projekt sichtbar.
 :::
 
-### Globale Stufen zuordnen
+### Globale ### Aufgabenstufen erstellen zuordnen
 
 ::: tip
 Aufgabenphasen können mit mehreren Projekten geteilt werden.
