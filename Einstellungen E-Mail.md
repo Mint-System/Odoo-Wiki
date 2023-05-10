@@ -112,6 +112,12 @@ Angenommen Sie geben als Wert `erp` ein, so ist die resultierende Absender-Aress
 Bestimmte Mail-Provider erlauben keine Mail-Aliase für *catchall* und *no-reply*.
 :::
 
+### Bounce-Alias anpassen
+
+Wenn Odoo eine E-Mail erhält, dessen Empfänger-Adresse nicht mit dem Catchall-Alias übereinstimmt, versendet Odoo eine Nachricht. Der Absender dieser Nachricht verwendet den Bounce-Alias.
+
+Falls Sie den Bounce-Alias ändern möchten, öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und passen den Wert für `mail.bounce.alias` an.
+
 ### Absender-Adresse überschreiben
 
 Wenn Odoo eine E-Mail versendet, wird im E-Mail eine Von- und Antwort-Adresse hinterlegt. In den E-Mail-Kopfzeilen sieht das so aus:
@@ -153,7 +159,11 @@ Nach dem Versand der E-Mail können Sie die [E-Mail anzeigen](Diskussion%20E-Mai
 
 ## Troubleshooting
 
-### 
+### Bounce-Nachricht erhalten
+
+**Problem**
+
+Sie haben eine E-Mail an das Odoo Postfach geschickt und diese Antwort erhalten:
 
 ```
 Hallo ,
@@ -166,3 +176,11 @@ Grüße,
 
 Der example.com Team.
 ```
+
+**Ursache**
+
+Odoo bounced die E-Mail, wenn diese direkt an den Catchall- oder den Bounce-Alias geschickt wird.
+
+**Lösung**
+
+Sie müssen den [Catchall-Alias anpassen](#Catchall-Alias%20anpassen) oder den [Bounce-Alias anpassen](#Bounce-Alias%20anpassen), damit die E-Mail nicht gebounced wird.
