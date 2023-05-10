@@ -251,15 +251,15 @@ printnode_scenario['domain'] = '[["commitment_date", "<=", "' + date + '"]]'
 
 ### Druckereinstellungen haben keinen Effekt
 
-#### Problem
+**Problem**
 
 Die Druckereinstellung auf dem Computer mit dem PrintNode Client haben kein Effekt auf den Druckvorgang.
 
-#### Ursache
+**Ursache**
 
 Der PrintNode Client ist als Dienst installiert und läuft unter einem anderen Benutzer.
 
-#### Lösung
+**Lösung**
 
 Der PrintNode Client muss als Programm und nicht als Dienst installiert werden.
 
@@ -267,7 +267,7 @@ Quelle: <https://www.printnode.com/en/faq#q13>
 
 ### Drucken mit Methode führt zu Fehler
 
-#### Problem
+**Problem**
 
 Wenn Sie eine [Methode erfassen](#Methode%20erfassen) und diese aufrufen wird der folgende Fehler geworfen:
 
@@ -275,10 +275,10 @@ Wenn Sie eine [Methode erfassen](#Methode%20erfassen) und diese aufrufen wird de
 ValueError: dictionary update sequence element #0 has length 1; 2 is required
 ```
 
-#### Ursache
+**Ursache**
 
 Aufgrund der Methode muss der Druckauftrag vor Ausführung der Methode ausgelöst werden.
 
-#### Lösung
+**Lösung**
 
 Auf der entsprechenden Methode die Option *Print before action* aktivieren.

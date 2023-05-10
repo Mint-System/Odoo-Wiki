@@ -150,3 +150,19 @@ In der E-Mail-Vorlage muss im Tab *E-Mail-Konfiguration* das feld *Antwort an* g
 Damit E-Mail nach dem Versand nicht aus der Odoo-Datenbank und dem Postfach gelöscht wird, können Sie in den E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > Vorlagen > Vorlage auswählen > Tab Erweiterte Einstellungen* die Option *Autom. Löschen* deaktivieren.
 
 Nach dem Versand der E-Mail können Sie die [E-Mail anzeigen](Diskussion%20E-Mail.md#E-Mail%20anzeigen).
+
+## Troubleshooting
+
+### 
+
+```
+Hallo ,
+
+Die E-Mail senden an Odoo Demo <odoo@example.com> kann nicht verarbeitet werden. Diese Adresse wird verwendet, um Antworten zu sammeln und sollte nicht zur direkten Kontaktaufnahme verwendet werden example.com.
+
+Bitte kontaktieren Sie uns stattdessen unter Verwendung von contact@example.com
+
+Grüße,
+
+Der example.com Team.
+```
