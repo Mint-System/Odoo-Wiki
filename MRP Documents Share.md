@@ -64,12 +64,12 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 ```python
 for rec in records:
   if rec.drawing_file:
-    rec.drawing_file.write({
+    rec.drawing_file.sudo().write({
       'res_model': 'product.template',
       'res_id': rec.id,
     })
   if rec.step_file:
-    rec.step_file.write({
+    rec.step_file.sudo().write({
       'res_model': 'product.template',
       'res_id': rec.id,
     })
@@ -88,12 +88,12 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 ```python
 for rec in records.product_tmpl_id:
   if rec.drawing_file:
-    rec.drawing_file.write({
+    rec.drawing_file.sudo().write({
       'res_model': 'product.template',
       'res_id': rec.id,
     })
   if rec.step_file:
-    rec.step_file.write({
+    rec.step_file.sudo().write({
       'res_model': 'product.template',
       'res_id': rec.id,
     })
