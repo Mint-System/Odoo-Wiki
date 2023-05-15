@@ -55,6 +55,10 @@ Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server*. Marki
 
 Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server* oder *Einstellungen > Technisch > Ausgehender Mail-Server*. Öffnen Sie einen Eintrag mit einer OAuth-Verbindung. Klicken Sie auf *Edit settings*. Der OAuth-Authorisierungsflow wird gestartet. Loggin Sie sich mit dem Postfach-Benutzer ein. Anschliessend werden Sie wieder nach Odoo zurückgeführt. Damit wurden das OAuth-Token regeneriert.
 
+::: warning
+Wenn Sie bei den Microsoft-Diensten bereits eingeloggt sind, müssen Sie diesen Vorgang entweder in einem privaten Browser-Tab ausführen oder Sie müssen sich bei den Microsoft-Diensten via <https://login.microsoftonline.com> ausloggen.
+:::
+
 ### OAuth Benutzername festlegen
 
 Wurde ein OAuth Provider konfiguriert, kann jedem Odoo Benutzer ein bestimmer OAuth Benutzername hinterlegt werden. Führen Sie diese Aktionen aus *Einstellungen > Benutzer und Unternehmen > Benutzer > Benutzer wählen > Tab OAuth öffnen*. Im Feld *OAuth User ID* können Sie den Benutzernamen für das Login festlegen.
