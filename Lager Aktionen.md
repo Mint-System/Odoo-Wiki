@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Arbeitsflüsse im Lager automatisieren.
 tags:
 - HowTo
 - Aktionen
@@ -8,7 +8,7 @@ prev: ./lager
 # Lager Aktionen
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
-Arbeitsflüsse im Lager automatisieren.
+{{ $frontmatter.description }}
 
 ## Aktionen
 
