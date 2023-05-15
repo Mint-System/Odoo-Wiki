@@ -11,11 +11,11 @@ prev: ./diskussion
 
 ## Aktionen
 
-### Abonnenten entfernen
+### Alle Abonnenten entfernen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Abonnenten entfernen`\
+Name der Aktion: `Alle Abonnenten entfernen`\
 Modell: `project.task` (oder ein anderes Datenmodell)\
 Folgeaktion: `Python-Code ausführen`
 
@@ -28,4 +28,4 @@ for record in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-Auf der Listenansicht des Datenmodell markieren Sie ausgewählte Einträge und wählen *Aktion > Abonnenten entfernen*.
+Auf der Listenansicht des Datenmodell markieren Sie ausgewählte Einträge und wählen *Aktion > Alle Abonnenten entfernen*.

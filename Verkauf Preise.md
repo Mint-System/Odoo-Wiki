@@ -38,9 +38,11 @@ Navigieren Sie nach *Einstellungen > Verkauf > Produktkatalog* und aktiveren Sie
 ### Produktattributte erstellen
 
 Öffnen Sie *Verkäufe > Konfiguration > Produkte > Attribute* und wählen Sie *Anlegen*. Geben den Attributnamen an und legen Sie den Anzeigetyp fest. Für das Feld *Variants Creation Mode* haben Sie diese Optionen:
+
 * **Instantly**: Alle möglichen Produkvarianten werden angelegt.
 * **Dynamically**: Produktvarianten werden nur angelegt, wenn diese explizit konfiguriert werden.
 * **Niemals**: Mögliche Produktvarianten werden für dieses Attribut nicht angelegt.
+
 Zuletzt tragen Sie Werte für das Attribut ein.
 
 ![](assets/Verkauf%20Stammdaten%20Produktattributte.png)
