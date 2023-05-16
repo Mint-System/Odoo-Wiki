@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verfolgen Sie Leads, schließen Sie Chancen ab und erhalten Sie genaue Prognosen.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Kundenverwaltung
 ![icons_odoo_crm](assets/icons_odoo_crm.png)
 
-Verfolgen Sie Leads, schließen Sie Chancen ab und erhalten Sie genaue Prognosen.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/crm>
 

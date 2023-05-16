@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Daten zu Kundendienst exportieren und importieren.
 tags:
 - HowTo
 prev: ./kundendienst
@@ -7,7 +7,7 @@ prev: ./kundendienst
 # Kundendiesnt Datenmanagement
 ![icons_odoo_website_sale_options](assets/icons_odoo_website_sale_options.png)
 
-Daten zu Kundendiesnt exportieren und importieren.
+{{ $frontmatter.description }}
 
 ### Daten Ticket exportieren
 

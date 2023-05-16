@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Arbeitsflüsse mit Kontakte automatisieren.
 tags:
 - HowTo
 prev: ./kontakte
@@ -7,7 +7,7 @@ prev: ./kontakte
 # Kontakte Aktionen
 ![icons_odoo_website_sale_options](assets/icons_odoo_website_sale_options.png)
 
-Arbeitsflüsse mit Kontakte automatisieren.
+{{ $frontmatter.description }}
 
 ## Geplante Aktionen
 

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Rechnung mit ISR- und/oder QR-Zahlung drucken.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./finanzen
 # Switzerland Invoice Reports with payment option
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Rechnung mit ISR- und/oder QR-Zahlung drucken.
+{{ $frontmatter.description }}
 
 Technischer Name: `l10n_ch_invoice_reports`\
 Repository: <https://github.com/OCA/l10n-switzerland/tree/15.0/l10n_ch_invoice_reports>

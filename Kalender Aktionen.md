@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kalender-Prozesse automatisieren.
 tags:
 - HowTo
 prev: ./kalender
@@ -7,7 +7,7 @@ prev: ./kalender
 # Kalender Aktionen
 ![icons_odoo_calendar](assets/icons_odoo_calendar.png)
 
-Kalender-Prozesse automatisieren.
+{{ $frontmatter.description }}
 
 ## Aktionen
 

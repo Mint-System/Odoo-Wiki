@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Alle Kontaktdaten an einem Ort.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Kontakte
 ![icons_odoo_contacts](assets/icons_odoo_contacts.png)
 
-Alle Kontaktdaten an einem Ort.
+{{ $frontmatter.description }}
 
 ## Bereiche
 

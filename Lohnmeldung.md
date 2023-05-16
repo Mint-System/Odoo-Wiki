@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lohnmeldungen ganz einfach generieren.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./personalabrechnung
 # Lohnmeldung
 ![](assets/odoo_icon_gioardano.png)
 
-Lohnmeldungen ganz einfach generieren.
+{{ $frontmatter.description }}
 
 Technischer Name: `gio_generic_excel_addon`\
 Repository: <https://gitlab.giordano.ch/odoo/giordano-addons/swiss-payroll/-/tree/14.0/gio_generic_excel_addon>

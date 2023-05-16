@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Web-Kampagnen und E-Mails verfolgen.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Link Tracker
 ![icons_odoo_website_partner](assets/icons_odoo_website_partner.png)
 
-Web-Kampagnen und E-Mails verfolgen.
+{{ $frontmatter.description }}
 
 ## Verwendung
 

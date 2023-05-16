@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Termine Team- und Anwendungs-übergreifend organisieren.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Kalender
 ![icons_odoo_calendar](assets/icons_odoo_calendar.png)
 
-Termine Team- und Anwendungs-übergreifend organisieren.
+{{ $frontmatter.description }}
 
 ## Bereiche
 

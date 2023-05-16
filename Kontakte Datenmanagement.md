@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Daten zu Kontakte exportieren und importieren.
 tags:
 - HowTo
 prev: ./kontakte
@@ -7,7 +7,7 @@ prev: ./kontakte
 # Kontakte Datenmanagement
 ![icons_odoo_website_sale_options](assets/icons_odoo_website_sale_options.png)
 
-Daten zu Kontakte exportieren und importieren.
+{{ $frontmatter.description }}
 
 ## Daten Kontakte exportieren
 

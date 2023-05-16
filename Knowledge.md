@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Wissenstransfer für Teams vereinfachen.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Knowledge
 ![icon_odoo_knowledge](assets/icon_odoo_knowledge.png)
 
-Wissenstransfer für Teams vereinfachen.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/knowledge>
 

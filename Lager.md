@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Maximieren Sie die Effizienz Ihres Lagers.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Lager
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
-Maximieren Sie die Effizienz Ihres Lagers.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/inventory>
 

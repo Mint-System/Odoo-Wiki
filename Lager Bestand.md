@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Den Lagerbestand optimal verwalten.
 tags:
 - HowTo
 prev: ./lager
@@ -7,7 +7,7 @@ prev: ./lager
 # Lager Bestand
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
-Den Lagerbestand optimal verwalten.
+{{ $frontmatter.description }}
 
 ## Bestand
 

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verpackungen effizient verwalten.
 tags:
 - HowTo
 prev: ./lager
@@ -7,7 +7,7 @@ prev: ./lager
 # Lager Verpackungen
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
-Verpackungen effizient verwalten.
+{{ $frontmatter.description }}
 
 ::: tip
 Begriffe rund um Verpackungen sind nicht korrekt übersetzt. Im foglenden eine Definition:

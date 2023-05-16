@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Daten zu Lager exportieren und importieren.
 tags:
 - HowTo
 prev: ./lager
@@ -7,7 +7,7 @@ prev: ./lager
 # Lager Datenmanagement
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
-Daten zu Lager exportieren und importieren.
+{{ $frontmatter.description }}
 
 ## Produktverpackungen exportieren
 

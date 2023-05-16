@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Vorgänge im Lager ausführen.
 tags:
 - HowTo
 - Aktionen
@@ -8,7 +8,7 @@ prev: ./lager
 # Lager Vorgänge
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
-Vorgänge im Lager ausführen.
+{{ $frontmatter.description }}
 
 ## Vorgangstypen
 

@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Generierung der QR-Rechnung ohne ISR-Nummer.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./finanzen
 # Switzerland QR IBAN
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Generierung der QR-Rechnung ohne ISR-Nummer.
+{{ $frontmatter.description }}
 
 Technischer Name: `l10n_ch_qr_iban`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/l10n_ch_qr_iban>

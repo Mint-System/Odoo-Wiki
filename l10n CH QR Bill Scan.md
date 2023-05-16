@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Daten aus QR-Code bei Rechnungsimport auslesen.
 tags:
 - HowTo
 - OCA
@@ -8,7 +8,7 @@ prev: ./finanzen
 # Switzerland QR-Bill Scan
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Daten aus QR-Code bei Rechnungsimport auslesen.
+{{ $frontmatter.description }}
 
 Technischer Name: `l10n_ch_qr_bill_scan`\
 Repository: <https://github.com/OCA/l10n-switzerland/tree/14.0>

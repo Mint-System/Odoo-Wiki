@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Rechnung anhand QR-Daten erstellen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./abrechnung
 # Swiss QR/ESR scan
 ![](assets/icon_camp_to_camp.png)
 
-Rechnung anhand QR-Daten erstellen.
+{{ $frontmatter.description }}
 
 Technischer Name: `l10n_ch_qr_isr_invoice_import`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/l10n_ch_qr_isr_invoice_import>\
