@@ -29,6 +29,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Contract Sale Generation](Contract%20Sale%20Generation.md)                                       | Aus wiederholenden Verträge Verkaufsangebote generieren.                      |
 | [Packaging UOM](Packaging%20UOM.md)                                                               | Mengeneinheit für Produktverpackung festlegen.                                |
 | [Product Listprice Currency](Product%20Listprice%20Currency.md)                                   | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.              |
+| [Product Supplierinfo for Customer Sale](Product%20Supplierinfo%20for%20Customer%20Sale.md)       | Produktspezifische Informationen für ausgewählte Kunden erfassen.             |
 | [Sale Blanket Order Comment](Sale%20Blanket%20Order%20Comment.md)                                 | Kommentar auf Rahmenauftrag.                                                  |
 | [Sale Force Invoiced](Sale%20Force%20Invoiced.md)                                                 | Markieren Sie den Verkaufsauftrag als abgerechnet.                            |
 | [Sale Order Archive](Sale%20Order%20Archive.md)                                                   | Abgebrochene Verkaufsaufträge archivieren.                                    |
