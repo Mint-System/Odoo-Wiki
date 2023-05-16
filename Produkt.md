@@ -12,12 +12,12 @@ prev: ./
 
 ## Erweiterungen
 
-| Erweiterung                                                                                 | Beschreibung                                                      |
-| ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| [Product Barcode Generator](Product%20Barcode%20Generator.md)                               | Autogenerate EAN13 product barcodes.                              |
-| [Product Name Sequence](Product%20Name%20Sequence.md)                                       | Generate product names based on a sequence.                       |
-| [Product Pricelist Fixed Discount](Product%20Pricelist%20Fixed%20Discount.md)               | Festpreise in Preisliste mit Rabatt.                              |
-| [Product Supplierinfo for Customer Sale](Product%20Supplierinfo%20for%20Customer%20Sale.md) | Produktspezifische Informationen für ausgewählte Kunden erfassen. |
+| Erweiterung                                                                       | Beschreibung                                                      |
+| --------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| [Product Barcode Generator](Product%20Barcode%20Generator.md)                     | Autogenerate EAN13 product barcodes.                              |
+| [Product Name Sequence](Product%20Name%20Sequence.md)                             | Generate product names based on a sequence.                       |
+| [Product Pricelist Fixed Discount](Product%20Pricelist%20Fixed%20Discount.md)     | Festpreise in Preisliste mit Rabatt.                              |
+| [Product Supplierinfo for Customers](Product%20Supplierinfo%20for%20Customers.md) | Produktspezifische Informationen für ausgewählte Kunden erfassen. |
 
 ## Verwendung
 
