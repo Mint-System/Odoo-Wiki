@@ -27,7 +27,7 @@ Website: <https://www.odoo.com/de_DE/app/website>
 | [Website Date of Birth](Website%20Date%20of%20Birth.md)                             | Geburtsdatum auf Anmeldeformular.                                      |
 | [Website Product Description](Website%20Product%20Description)                      | Separates Feld für Produktbeschreibungen.                              |
 | [Website Sale Default Country CH](Website%20Sale%20Default%20Country%20CH.md)       | Schweiz als Standardland im Webshop festlegen.                         |
-| [Website Sale Minium Order Quantity](Website%20Sale%20Minium%20Order%20Quantity.md) | Legen Sie Mindestbestellmengen für Produkte und Produktvarianten fest. |
+| [Website Sale Minimum Order Quantity](Website%20Sale%20Minimum%20Order%20Quantity.md) | Legen Sie Mindestbestellmengen für Produkte und Produktvarianten fest. |
 
 ## Berechtigung
 

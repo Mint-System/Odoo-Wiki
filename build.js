@@ -20,7 +20,7 @@ const uriSuffix = '.html'
 const anchorPrefix = '#'
 const assetsFolder = 'assets'
 const gitUrl = 'https://github.com/Mint-System/Odoo-Handbuch/blob/master/'
-const sidebarAppend = ['glossary.md','mitarbeit.md']
+const sidebarAppend = ['glossary.md','contribution.md']
 
 function sanitizeName(name) {
     return name.toLocaleLowerCase()
