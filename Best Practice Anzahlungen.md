@@ -14,12 +14,12 @@ In diesem Szenario verkaufen Sie eine Dienstleistung auf Stundenbasis an einen K
 
 Damit Anzahlungen für Angebote erfasst werden können, führen Sie diese Schritte durchführen:
 
-* [Produkt für Anzahlung auswählen](Verkauf%20Abrechnung.md#Produkt%20für%20Anzahlung%20auswählen)
-* [Konto für Anzahlungen festlegen](Finanzen%20Zahlungen.md#Konto%20für%20Anzahlungen%20festlegen)
+* [Produkt für Anzahlung auswählen](Sale%20Invoicing.md#Produkt%20für%20Anzahlung%20auswählen)
+* [Konto für Anzahlungen festlegen](Finance%20Payments.md#Konto%20für%20Anzahlungen%20festlegen)
 
 ### Anzahlung
 
-Nun können Sie ein [Angebot erstellen](Verkauf.md#Angebot%20erstellen) und diese Auftragszeilen hinzufügen:
+Nun können Sie ein [Angebot erstellen](Sale.md#Angebot%20erstellen) und diese Auftragszeilen hinzufügen:
 
 Auftragszeile 1:
 * **Produkt**: Produkt vom Typ Dienstleistung
@@ -31,7 +31,7 @@ Auftragszeile 2:
 * **Menge**: 2 Stunden (10% von 20 Stunden)
 * **Preis**: 0.00 
 
-Bestätigen Sie den Auftrag und führen Sie [Anzahlung erstellen](Verkauf%20Abrechnung.md#Anzahlung%20erstellen) mit dem *Anzahlungsbetrag* von 100% aus. Bestätigen Sie die Rechnung.
+Bestätigen Sie den Auftrag und führen Sie [Anzahlung erstellen](Sale%20Invoicing.md#Anzahlung%20erstellen) mit dem *Anzahlungsbetrag* von 100% aus. Bestätigen Sie die Rechnung.
 
 Mit der Anzahlung wird der Betrag auf das Konto *2030 Erhaltene Anzahlungen* blastet.
 
@@ -42,7 +42,7 @@ Mit der Anzahlung wird der Betrag auf das Konto *2030 Erhaltene Anzahlungen* bla
 
 ### Gutschrift
  Auf der Rechnung ist ein Hinweis, ass die Rechnung bereits bezahlt wurde, ist ersichtlich Auf der Rechnung ist ein Hinweis, ass die Rechnung bereits bezahlt wurde, ist ersichtlich
-Sobald der Kunde die Rechnung bezahlt, erhalten Sie über das eBanking einen entsprechenden Beleg zum Abgleich. Diesen Beleg gleichen Sie mit der Anzahlungsrechnung ab und erstellen eine [Gutschrift](Abrechnung.md#Gutschrift%20erstellen). Mit der Gutschrift wird das Konto *2030 Erhaltene Anzahlungen* wieder ausgeglichen.
+Sobald der Kunde die Rechnung bezahlt, erhalten Sie über das eBanking einen entsprechenden Beleg zum Abgleich. Diesen Beleg gleichen Sie mit der Anzahlungsrechnung ab und erstellen eine [Gutschrift](Invoicing.md#Gutschrift%20erstellen). Mit der Gutschrift wird das Konto *2030 Erhaltene Anzahlungen* wieder ausgeglichen.
 
 | Buchungssatz                                      | Konto                                                       | Buchungstext         | Soll         | Haben        |
 | ------------------------------------------------- | ----------------------------------------------------------- | -------------------- | ------------ | ------------ |
@@ -51,13 +51,13 @@ Sobald der Kunde die Rechnung bezahlt, erhalten Sie über das eBanking einen ent
 | RRe.:/2023/00001 (Umkehrung von: Re.:/2023/00006) | 2030 Erhaltene Anzahlungen                                  | Anzahlung von 100.0% | CHF 2'154.00 | CHF 0.00     |
 | RRe.:/2023/00001 (Umkehrung von: Re.:/2023/00006) | 1100 Forderungen aus Lieferungen und Leistungen (Debitoren) |                      | HF 0.00      | CHF 2'154.00 |
 
-Für dieses Beispiel können Sie einen [Bankauszug](Finanzen%20Abstimmung#Bankauszug%20erfassen) mit dem Betrag von 2'154.00 erfassen.
+Für dieses Beispiel können Sie einen [Bankauszug](Finance%20Reconcile.md#Bankauszug%20erfassen) mit dem Betrag von 2'154.00 erfassen.
 
 ### Abrechnung
 
 Auf dem Verkaufsauftrag erfassen Sie nun Leistungen. Entweder tragen Sie diese manuell in die Auftragszeilen ein oder fügen Sie über die Zeiterfassung und Projekte hinzu.
 
-Genau wie für die Aufträge ohne Anzahlung erstellen Sie periodische eine Rechnung. Führen Sie dazu eine Abrechnung aus: [Verkaufsauftrag mit Anzahlungen abrechnen](Verkauf%20Abrechnung.md#Verkaufsauftrag%20mit%20Anzahlungen%20abrechnen).
+Genau wie für die Aufträge ohne Anzahlung erstellen Sie periodische eine Rechnung. Führen Sie dazu eine Abrechnung aus: [Verkaufsauftrag mit Anzahlungen abrechnen](Sale%20Invoicing.md#Verkaufsauftrag%20mit%20Anzahlungen%20abrechnen).
 
 Nachdem Sie die Rechnung bestätigt haben, erscheint die folgende Meldung:
 

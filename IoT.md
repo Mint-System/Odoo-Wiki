@@ -15,7 +15,7 @@ Website: <https://www.odoo.com/de_DE/app/iot>
 
 | Bereich                                                         | Beschreibung               |
 | --------------------------------------------------------------- | -------------------------- |
-| [Etikettendrucker Zebra ZD410](Etikettendrucker%20Zebra%20ZD410.md) | Etikettendrucker für Odoo. |
+| [Etikettendrucker Zebra ZD410](Labelprinter%20Zebra%20ZD410.md) | Etikettendrucker für Odoo. |
 
 ## Erweiterungen
 

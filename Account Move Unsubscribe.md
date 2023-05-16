@@ -3,7 +3,7 @@ description: Alle Abonnenten nach Buchung eines Buchungssatzes entfernen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./diskussion
+prev: ./discuss
 ---
 # Account Move Unsubscribe
 ![icon_oms_box](assets/icon_oms_box.png)
@@ -23,4 +23,4 @@ Mit dieser Erweiterung werden beim Buchen eines Buchungssatzes alle Abonnenten b
 
 ### Alle Abonnenten entfernen
 
-Wenn Sie den [Systemparameter](Entwicklung.md#Systemparameter%20anlegen) mit Schlüssel `mail.unsubscribe_all` und Wert `True` anlegen, werden alle Abonnenten entfernt.
+Wenn Sie den [Systemparameter](Development.md#Systemparameter%20anlegen) mit Schlüssel `mail.unsubscribe_all` und Wert `True` anlegen, werden alle Abonnenten entfernt.

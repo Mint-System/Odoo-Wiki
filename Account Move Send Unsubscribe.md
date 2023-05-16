@@ -3,7 +3,7 @@ description: Alle Abonnenten nach Versenden der Rechnung entfernen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./diskussion
+prev: ./discuss
 ---
 # Account Move Send Unsubscribe
 ![icon_oms_box](assets/icon_oms_box.png)

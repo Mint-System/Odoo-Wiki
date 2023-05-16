@@ -3,7 +3,7 @@ description: AMQP Zielhosts verwalten.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./lager
+prev: ./stock
 ---
 # AMQP Base
 ![](assets/odoo_icon_amqp.png)

@@ -7,4 +7,4 @@ prev: ./
 
 ## Abwesenheitszeiten
 
-Siehe [Abwesenheit](Abwesenheit.md).
+Siehe [HR Holidays](HR%20Holidays.md).

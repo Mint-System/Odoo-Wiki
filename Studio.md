@@ -15,7 +15,7 @@ Website: <https://www.odoo.com/de_DE/app/studio>
 
 | Bereich                                   | Beschreibung                               |
 | ----------------------------------------- | ------------------------------------------ |
-| [Studio Beispiele](Studio%20Beispiele.md) | Beispiele für Anpassungen mit Odoo Studio. |
+| [Studio Beispiele](Studio%20Examples.md) | Beispiele für Anpassungen mit Odoo Studio. |
 
 ## Anpassungen dokumentieren
 Aufgabenträger: [Administrator](Rollen.md#Administrator)
@@ -84,9 +84,9 @@ Wählen Sie die neue Standardansicht an und klicken auf das Menu und auf *Als St
 
 Eine App erstellt mit Odoo Studio generiert im Hintergrund Menüeinträge, Datenmodelle und Ansichten. Damit die App entfernt werden kann, müssen diese Einträge von Hand gelöscht werden. Gehen Sie folgt vor:
 
-* [Ansicht entfernen](Entwicklung%20Ansichten.md#Ansicht%20entfernen)
-* [Menüeintrag entfernen](Entwicklung.md#Menüeintrag%20entfernen)
-* [Datenmodell entfernen](Entwicklung.md#Datenmodell%20entfernen)
+* [Ansicht entfernen](Develpment%20Views.md#Ansicht%20entfernen)
+* [Menüeintrag entfernen](Development.md#Menüeintrag%20entfernen)
+* [Datenmodell entfernen](Development.md#Datenmodell%20entfernen)
 
 ## Datenbank
 

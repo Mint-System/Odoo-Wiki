@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./diskussion
+prev: ./discuss
 ---
 # Mail Unsubscribe
 ![icon_oms_box](assets/icon_oms_box.png)
@@ -29,7 +29,7 @@ Standardmässig werden vor dem Versenden der Nachricht alle Abonenten entfernt u
 
 ### Eigener Benutzer beim  Entfernen ignorieren
 
-Wenn Sie den [Systemparameter](Entwicklung.md#Systemparameter%20anlegen) mit Schlüssel `mail_unsubscribe.ignore_current_partner` und Wert `True` anlegen, werden vor dem Versand einer Nachricht alle Abonnenten ausser des aktuellen Benutzer entfernt.
+Wenn Sie den [Systemparameter](Development.md#Systemparameter%20anlegen) mit Schlüssel `mail_unsubscribe.ignore_current_partner` und Wert `True` anlegen, werden vor dem Versand einer Nachricht alle Abonnenten ausser des aktuellen Benutzer entfernt.
 
 ### Abonnieren von Empfängern erlauben
 

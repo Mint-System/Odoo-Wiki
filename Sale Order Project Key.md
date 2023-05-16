@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./verkauf-projekt
+prev: ./sale
 ---
 # Sale Order Project Key
 ![icon_oms_box](assets/icon_oms_box.png)

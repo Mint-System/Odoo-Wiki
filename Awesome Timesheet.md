@@ -2,7 +2,7 @@
 description: Mobile Zeiterfassung.
 tags:
 - HowTo
-prev: ./zeiterfassung
+prev: ./hr-timesheet
 ---
 # Awesome Timesheet
 ![](assets/icon_awesome_timesheet.png)

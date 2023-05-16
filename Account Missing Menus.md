@@ -3,7 +3,7 @@ description: Zusätzliche Menu-Punkte von Finanzen anzeigen.
 tags:
 - HowTo
 - OCA
-prev: ./finanzen
+prev: ./finance
 ---
 # Account Missing Menus
 ![icon_oca_app](assets/icon_oca_app.png)

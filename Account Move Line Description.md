@@ -3,7 +3,7 @@ description: Produktname ohne Referenz in Beschreibung Rechnungszeile übertrage
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abrechnung
+prev: ./invoicing
 ---
 # Account Move Line Description
 

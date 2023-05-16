@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abrechnung
+prev: ./invoicing
 ---
 # Sale Invoice Cash Rounding Default
 ![icon_oms_box](assets/icon_oms_box.png)
@@ -19,7 +19,7 @@ Ab #Odoo15 .
 
 ### Standard-Rundungsmethode festlegen
 
-Navigieren Sie nach *Einstellungen > Abrechnung > Kundenrechnungen* aktivieren Sie die Option *Bargeld-Runden*. Nun können Sie eine [Rundungsmethode erstellen](Abrechnung.md#Rundungsmethode%20erstellen) und diese im Feld *Default Cash Rounding Method* als Standard für neue Rechnungen hinterlegen.
+Navigieren Sie nach *Einstellungen > Abrechnung > Kundenrechnungen* aktivieren Sie die Option *Bargeld-Runden*. Nun können Sie eine [Rundungsmethode erstellen](Invoicing.md#Rundungsmethode%20erstellen) und diese im Feld *Default Cash Rounding Method* als Standard für neue Rechnungen hinterlegen.
 
 ## Verwendung
 

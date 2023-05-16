@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./fertigung
+prev: ./manufacture
 ---
 # MRP Production Update Upstream Move
 ![icon_oms_box](assets/icon_oms_box.png)

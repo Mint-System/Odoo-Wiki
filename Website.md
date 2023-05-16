@@ -15,7 +15,7 @@ Website: <https://www.odoo.com/de_DE/app/website>
 
 | Bereich                                     | Beschreibung                          |
 | ------------------------------------------- | ------------------------------------- |
-| [Website Aktionen](Website%20Aktionen.md)   | Automatisierung der Website-Vorgänge. |
+| [Website Aktionen](Website%20Actions.md)   | Automatisierung der Website-Vorgänge. |
 | [Website Partner](Website%20Partner.md)     | Partner auf Website publizieren.      |
 | [Website eCommerce](Website%20eCommerce.md) | Webshop ohne Integrationsaufwand.     |
 

@@ -3,7 +3,7 @@ description: Verkaufsadresse auf Rechnung festlegen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abrechnung
+prev: ./invoicing
 ---
 # Account Invoice Sale Partner
 

@@ -8,11 +8,11 @@ prev: ./best-practice
 
 Zur Generierung einer QR-Rechnung müssen verschiedene Bedingungen erfüllt sien.
 
-* Der Kommunikationsstandard muss *Schweiz* sein: [Kommunikationsstandard festlegen](Finanzen.md#Kommunikationsstandard%20festlegen)
-* Auf dem Bankkonto muss eine QR-IBAN hinterlegt sein: [QR-IBAN speichern](Finanzen%20Zahlungen.md#QR-IBAN%20speichern)
+* Der Kommunikationsstandard muss *Schweiz* sein: [Kommunikationsstandard festlegen](Finance.md#Kommunikationsstandard%20festlegen)
+* Auf dem Bankkonto muss eine QR-IBAN hinterlegt sein: [QR-IBAN speichern](Finance%20Payments.md#QR-IBAN%20speichern)
 * Auf der Adresse des Kunden und Unternehmen muss als Land *Schweiz* festgelegt sein
-* Die Währung der Rechnung ist *EUR* oder *CHF*: [Währung auf Rechnung festlegen](Finanzen%20Mehrere%20Währungen.md#Währung%20auf%20Rechnung%20festlegen)
-* Der *Payment QR-code* ist *Swiss QR bill*: [QR-Code Zahlungstyp festlegen](Finanzen%20Zahlungen.md#QR-Code%20Zahlungstyp%20festlegen)
+* Die Währung der Rechnung ist *EUR* oder *CHF*: [Währung auf Rechnung festlegen](Finance%20Multicurrency.md#Währung%20auf%20Rechnung%20festlegen)
+* Der *Payment QR-code* ist *Swiss QR bill*: [QR-Code Zahlungstyp festlegen](Finance%20Payments.md#QR-Code%20Zahlungstyp%20festlegen)
 
 Sind diese Bedingungen erfüllt, kann mit der *Print QR-Bill* Aktion eine QR-Rechnung generiert werden. 
 
@@ -27,7 +27,7 @@ Out-of-the-box generiert Odoo eine Rechnung eine QR-Rechnung separat sobald man 
 | [l10n CH QR Code IBAN](l10n%20CH%20QR%20Code%20IBAN.md)                                   | Generierung der QR-Rechnung ohne ISR-Nummer.       |
 | [l10n CH Invoice Reports](l10n%20CH%20Invoice%20Reports.md)                         | Rechnung mit ISR- und/oder QR-Zahlung drucken.     |
 
-Damit die Rechnungsdokumente nicht automatisch generiert und an das Rechnungsobjekt angehägt werden, müssen Sie für die folgenden Rechnungs-Berichte die [Option Als Anhang speichern deaktivieren](Entwicklung%20QWeb-Berichte.md#Option%20Als%20Anhang%20speichern%20deaktivieren):
+Damit die Rechnungsdokumente nicht automatisch generiert und an das Rechnungsobjekt angehägt werden, müssen Sie für die folgenden Rechnungs-Berichte die [Option Als Anhang speichern deaktivieren](Development%20Reports.md#Option%20Als%20Anhang%20speichern%20deaktivieren):
 
 | Name                    | Entfernen                                                                         |
 | ----------------------- | --------------------------------------------------------------------------------- |

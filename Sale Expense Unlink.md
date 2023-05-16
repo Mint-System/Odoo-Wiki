@@ -3,7 +3,7 @@ description: Bei Abbruch Auslagenbericht wird Kundenauftragszeile entfernt.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./aufwand
+prev: ./hr-expense
 ---
 # Sale Expense Unlink
 ![icon_oms_box](assets/icon_oms_box.png)

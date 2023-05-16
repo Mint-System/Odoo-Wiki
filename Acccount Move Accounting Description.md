@@ -3,7 +3,7 @@ description: Beschreibungsfeld für Rechnungszeile.
 tags:
 - HowTo
 - OCA
-prev: ./finanzen
+prev: ./finance
 ---
 # Acccount Move Accounting Description
 ![icon_oca_app](assets/icon_oca_app.png)

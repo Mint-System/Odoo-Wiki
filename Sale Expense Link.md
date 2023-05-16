@@ -3,7 +3,7 @@ description: Verlinkt die Auslagen mit der Kundenauftragszeile.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./aufwand
+prev: ./hr-expense
 ---
 # Sale Expense Link
 ![icon_oms_box](assets/icon_oms_box.png)

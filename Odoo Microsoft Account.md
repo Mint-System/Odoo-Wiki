@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./einstellungen
+prev: ./settings
 ---
 # Odoo Microsoft Account
 ![](assets/icons_odoo_microsoft_account.png)
@@ -18,7 +18,7 @@ Odoo App Store: <https://apps.odoo.com/apps/modules/16.0/odoo_microsoft_account/
 
 ### Microsoft OAuth-Provider einrichten
 
-Damit der OAuth-Flow mit Microsoft-Azure funktioniert, müssen Sie [Odoo als OAuth-App auf Azure registrieren](Einstellungen%20OAuth.md#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren). Verwenden Sie zusätzliche diese Angaben:
+Damit der OAuth-Flow mit Microsoft-Azure funktioniert, müssen Sie [Odoo als OAuth-App auf Azure registrieren](Settings%20OAuth.md#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren). Verwenden Sie zusätzliche diese Angaben:
 
 * **Name**: Odoo Login
 * **Redirect URI**: `https://odoo.example.com/auth_oauth/microsoft/signin`

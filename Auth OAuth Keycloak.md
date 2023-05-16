@@ -3,7 +3,7 @@ description: Ermöglich Keycloak Integration mit Odoo OAuth.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./einstellungen
+prev: ./settings
 ---
 # Auth OAuth Keycloak
 ![icon_oms_box](assets/icon_oms_box.png)

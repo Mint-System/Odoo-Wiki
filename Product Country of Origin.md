@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./fertigung
+prev: ./manufacture
 ---
 # Product Country of Origin
 ![](assets/odoo_icon_product_country_of_origin.png)

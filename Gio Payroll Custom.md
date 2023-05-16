@@ -3,7 +3,7 @@ description: Lohnarten für die Schweizer Lohnabrechnung.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personalabrechnung
+prev: ./hr-payroll
 ---
 # Gio Payroll Custom
 ![](assets/odoo_icon_gioardano.png)
@@ -39,7 +39,7 @@ Navigieren Sie nach *Personalabrechnung > Verträge > Verträge* und öffnen Sie
 
 ### Lohnart zum Aufrunden des Nettolohns erstellen
 
-Damit der Nettolohn auf 0.05 CHF aufgerundet wird, müssen Sie folgende [Lohnart erstellen](Personalabrechnung.md#Lohnart%20erstellen):
+Damit der Nettolohn auf 0.05 CHF aufgerundet wird, müssen Sie folgende [Lohnart erstellen](HR%20Payroll.md#Lohnart%20erstellen):
 
 * **Regelbezeichnung**: Aufrunden
 * **Kategorie**: Zuwendung
@@ -61,7 +61,7 @@ amount_round = round( (amount + digits / 2) / digits ) * digits
 result = amount_round - amount
 ```
 
-Damit der Rundungsbetrag als Verlust gebucht wird müssen Sie die entsprechenden [Finanzkonten den Lohnarten zuweisen](Personalabrechnung.md#Finanzkonten%20den%20Lohnarten%20zuweisen).
+Damit der Rundungsbetrag als Verlust gebucht wird müssen Sie die entsprechenden [Finanzkonten den Lohnarten zuweisen](HR%20Payroll.md#Finanzkonten%20den%20Lohnarten%20zuweisen).
 
 ## Verwendung
 

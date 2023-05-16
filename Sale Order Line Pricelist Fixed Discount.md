@@ -3,7 +3,7 @@ description: Auftragszeilen mit Rabatt aus Preisliste mit Festpreis.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./verkauf
+prev: ./sale
 ---
 # Sale Order Line Pricelist Fixed Discount
 ![icon_oms_box](assets/icon_oms_box.png)

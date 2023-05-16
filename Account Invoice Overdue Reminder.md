@@ -3,7 +3,7 @@ description: Einfache Lösung zum Versenden von Zahlungserinnerungen.
 tags:
 - HowTo
 - OCA
-prev: ./finanzen
+prev: ./finance
 ---
 # Overdue Invoice Reminder
 ![icon_oca_app](assets/icon_oca_app.png)
@@ -17,7 +17,7 @@ Repository: <https://github.com/OCA/credit-control/tree/15.0/account_invoice_ove
 
 ### E-Mail-Vorlage für Zahlungserinnerung anpassen
 
-Wenn Sie die [E-Mail-Vorlagen anzeigen](Einstellungen%20E-Mail.md#E-Mail-Vorlagen%20anzeigen) finden Sie den Eintrag *Overdue Invoice Reminder*. Diese Vorlage wird beim Versenden der Zahlungserinnerung verwendet.
+Wenn Sie die [E-Mail-Vorlagen anzeigen](Settings%20E-Mail.md#E-Mail-Vorlagen%20anzeigen) finden Sie den Eintrag *Overdue Invoice Reminder*. Diese Vorlage wird beim Versenden der Zahlungserinnerung verwendet.
 
 ### Optionen für Assisten festlegen
 

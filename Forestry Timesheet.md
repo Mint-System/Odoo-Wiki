@@ -4,7 +4,7 @@ tags:
 - HowTo
 prev: ./forestry-base
 ---
-# Forestry Timesheet
+# Holzwirtschaft Zeiterfassung
 ![icons_odoo_forestry_base](assets/icons_odoo_forestry_base.png)
 
 {{ $frontmatter.description }}

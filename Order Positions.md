@@ -4,7 +4,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# Order Positions
+# Positionsnummern
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
 Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen.

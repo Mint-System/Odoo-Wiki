@@ -3,7 +3,7 @@ description: Projektanforderungen erfassen und verknüpfen.
 tags:
 - HowTo
 - OCA
-prev: ./projekt
+prev: ./project
 ---
 # Business Requirement
 ![](assets/icon_oca_business_requirement.png)
@@ -21,6 +21,6 @@ Repository: <https://github.com/OCA/business-requirement/tree/14.0/business_requ
 
 ![](assets/Business%20Requirement%20erstellen.png)
 
-Beim Speichern wird gemäss Sequenz eine ID generiert. Sie können diese [Sequenz anpassen](Einstellungen.md#Sequenz%20anpassen).
+Beim Speichern wird gemäss Sequenz eine ID generiert. Sie können diese [Sequenz anpassen](Settings.md#Sequenz%20anpassen).
 
 ![](assets/Business%20Requirement%20Sequenz.png)

@@ -3,7 +3,7 @@ description: Erstellen Sie einen Feiertagskalender, der in der Abwesenheitszeite
 tags:
 - HowTo
 - OCA
-prev: ./abwesenheit
+prev: ./hr-holidays
 ---
 # HR Holidays Public
 ![icon_oca_app](assets/icon_oca_app.png)

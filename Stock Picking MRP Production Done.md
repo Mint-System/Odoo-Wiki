@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./lager
+prev: ./stock
 ---
 # Stock Picking MRP Production Done
 ![icon_oms_box](assets/icon_oms_box.png)
@@ -17,7 +17,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 ### Reservierung vor Erledigung konfigurieren
 
-Wenn Sie den [Systemparameter](Entwicklung.md#Systemparameter%20anlegen) mit Schlüssel `stock_picking_mrp_production_done.assign_before` und Wert `True` anlegen, wird vor dem Bestätigen der Fertigungsaufträge eine Reservierung ausgeführt.
+Wenn Sie den [Systemparameter](Development.md#Systemparameter%20anlegen) mit Schlüssel `stock_picking_mrp_production_done.assign_before` und Wert `True` anlegen, wird vor dem Bestätigen der Fertigungsaufträge eine Reservierung ausgeführt.
 
 ### Upstream Fertigungsauftrag gleichzeitig mit Lieferung erledigen
 

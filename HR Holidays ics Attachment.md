@@ -3,7 +3,7 @@ description: An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abwesenheit
+prev: ./hr-holidays
 ---
 # HR Holidays .ics Attachment
 ![icon_oms_box](assets/icon_oms_box.png)

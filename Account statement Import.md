@@ -2,7 +2,7 @@
 description: Bankauszüge importieren.
 tags:
 - HowTo
-prev: ./finanzen
+prev: ./finance
 ---
 # Account Statement Import
 ![icon_oca_app](assets/icon_oca_app.png)

@@ -12,9 +12,9 @@ prev: ./referenzsystem
 
 ### Prozessschritte
 
-* [Angebot erstellen](Verkauf.md#Angebot%20erstellen)
-* [Angebot senden](Verkauf.md#Angebot%20senden)
-* [Angebot bestätigen](Verkauf.md#Angebot%20bestätigen)
+* [Angebot erstellen](Sale.md#Angebot%20erstellen)
+* [Angebot senden](Sale.md#Angebot%20senden)
+* [Angebot bestätigen](Sale.md#Angebot%20bestätigen)
 
 ## Verkaufsauftrag direkt
 
@@ -22,5 +22,5 @@ prev: ./referenzsystem
 
 ### Prozessschritte
 
-* [Auftrag bestätigen](Verkauf.md#Auftrag%20bestätigen)
+* [Auftrag bestätigen](Sale.md#Auftrag%20bestätigen)
 * [Packvorgang Lieferschein automatisch drucken](Printnode%20Base.md#Packvorgang%20Lieferschein%20automatisch%20drucken)

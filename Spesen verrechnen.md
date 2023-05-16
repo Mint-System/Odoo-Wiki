@@ -6,17 +6,17 @@ prev: ./best-practice
 ---
 # Spesen verrechnen
 
-Die Mitarbeitenden ihres Unternehmen können mit Odoo [Spesen erfassen](Aufwand.md#Spesen%20erfassen) und abrechnen lassen. Wenn Mitarbeitende auf Projekten arbeiten und dort ihre Aufwände erfassen, stellt sich die Frage wie angefallene Spesen weiter verrechnet werden können.
+Die Mitarbeitenden ihres Unternehmen können mit Odoo [Spesen erfassen](HR%20Expense.md#Spesen%20erfassen) und abrechnen lassen. Wenn Mitarbeitende auf Projekten arbeiten und dort ihre Aufwände erfassen, stellt sich die Frage wie angefallene Spesen weiter verrechnet werden können.
 
 ### Spesen mit Aussendienst verrechnen
 
-Wenn Sie die App [Aussendienst](Aussendienst.md) aktiviert haben, können Sie Auslagen direkt auf der Projektaufgabe erfassen.
+Wenn Sie die App [FSM](FSM.md) aktiviert haben, können Sie Auslagen direkt auf der Projektaufgabe erfassen.
 
 Die Auslagenprodukte müssen als Verbrauchsartikel erfasst werden.
 
 ![](assets/Best%20Practice%20Spesen%20verrechnen%20Aussendienst.png)
 
-Abhängig davon wie Sie die [Fakturierungsregel](Abrechnung.md#Fakturierungsregel%20festlegen) der Auslagenprodukte festlegen, wird eine Lieferung zur Erledigung erstellt.
+Abhängig davon wie Sie die [Fakturierungsregel](Invoicing.md#Fakturierungsregel%20festlegen) der Auslagenprodukte festlegen, wird eine Lieferung zur Erledigung erstellt.
 
 ![](assets/Best%20Practice%20Spesen%20verrechnen%20Lieferung.png)
 

@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./fertigung
+prev: ./manufacture
 ---
 # MRP Production Upstream State
 ![icon_oms_box](assets/icon_oms_box.png)
@@ -17,6 +17,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_
 
 ### Status von Upstream Lagerbuchung auf Komponentenliste anzeigen
 
-Wenn Sie die [Mehrstufige Fertigung aktivieren](Fertigung.md#Mehrstufige%20Fertigung%20aktivieren) und diese Erweiterung installieren, sehen Sie den Status der verlinkten Lagerbuchung auf der Komponentenliste.
+Wenn Sie die [Mehrstufige Fertigung aktivieren](Manufacture.md#Mehrstufige%20Fertigung%20aktivieren) und diese Erweiterung installieren, sehen Sie den Status der verlinkten Lagerbuchung auf der Komponentenliste.
 
 ![](assets/MRP%20Production%20Upstream%20State.png)

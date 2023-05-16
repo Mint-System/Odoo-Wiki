@@ -3,7 +3,7 @@ description: Kundenreferenz auf Verkaufsauftrag und Rechnung mit mehreren Zeilen
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abrechnung
+prev: ./invoicing
 ---
 # Account Invoice Multiline Ref
 

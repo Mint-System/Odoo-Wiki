@@ -3,7 +3,7 @@ description: Vereinfacht den Aufruf von Onchange-Methoden im Python Code.
 tags:
 - HowTo
 - OCA
-prev: ./entwicklung
+prev: ./development
 ---
 # Onchange Helper
 ![icon_oca_app](assets/icon_oca_app.png)

@@ -15,13 +15,13 @@ Website: <https://www.odoo.com/de_DE/page/all-apps>
 
 | Bereich                             | Beschreibung                  |
 | ----------------------------------- | ----------------------------- |
-| [Apps Aktionen](Apps%20Aktionen.md) | Aktionen für Apps einrichten. |
+| [Apps Aktionen](Apps%20Actions.md) | Aktionen für Apps einrichten. |
 
 ## Verwendung
 
 ### Liste der Apps aktualisieren
 
-Um die Liste der verfügbaren Apps zu aktualisieren, wechseln Sie in den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) und öffnen *Apps*. Im oberen Menu klicken Sie auf *Update der Apps*. Wenn der Vorgang abgeschlossen ist, können Sie die neuen Apps in der Liste suchen.
+Um die Liste der verfügbaren Apps zu aktualisieren, wechseln Sie in den [Entwicklermodus](Settings.md#Entwicklermodus%20aktivieren) und öffnen *Apps*. Im oberen Menu klicken Sie auf *Update der Apps*. Wenn der Vorgang abgeschlossen ist, können Sie die neuen Apps in der Liste suchen.
 
 ![](assets/Apps%20Liste%20aktualisieren.png)
 

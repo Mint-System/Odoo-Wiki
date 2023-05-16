@@ -3,7 +3,7 @@ description: Rechnung mit ISR- und/oder QR-Zahlung drucken.
 tags:
 - HowTo
 - OCA
-prev: ./finanzen
+prev: ./finance
 ---
 # Switzerland Invoice Reports with payment option
 ![icon_oca_app](assets/icon_oca_app.png)

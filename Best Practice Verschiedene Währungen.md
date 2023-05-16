@@ -10,7 +10,7 @@ Odoo unterstützt mehre Währungssätze und kann deren Kurs automatisch abrufen.
 
 ## Verkauf in verschiedenen Währungen
 
-Verkaufspreise in einem Angebot können von der Standardwährung abweichen. Dazu müssen Sie die Option [Mehrere Währungen aktivieren](Finanzen%20Mehrere%20Währungen.md#Mehrere%20Währungen%20aktivieren).
+Verkaufspreise in einem Angebot können von der Standardwährung abweichen. Dazu müssen Sie die Option [Mehrere Währungen aktivieren](Finance%20Multicurrency.md#Mehrere%20Währungen%20aktivieren).
 
 ### Preislisten
 

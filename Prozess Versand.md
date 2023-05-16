@@ -12,4 +12,4 @@ prev: ./referenzsystem
 
 ### Prozesschritte
 
-* [Rütschein Packvorgang scannen und verarbeiten](Strichcode.md#Rütschein%20Packvorgang%20scannen%20und%20verarbeiten)
+* [Rütschein Packvorgang scannen und verarbeiten](Barcode.md#Rütschein%20Packvorgang%20scannen%20und%20verarbeiten)

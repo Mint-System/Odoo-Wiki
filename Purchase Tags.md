@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - OCA
-prev: ./einkauf-kaufverträge
+prev: ./purchase-requisition
 ---
 # Purchase Tags
 

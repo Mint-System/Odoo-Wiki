@@ -3,7 +3,7 @@ description: Lohnmeldungen ganz einfach generieren.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personalabrechnung
+prev: ./hr-payroll
 ---
 # Lohnmeldung
 ![](assets/odoo_icon_gioardano.png)

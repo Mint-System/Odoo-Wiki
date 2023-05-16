@@ -2,7 +2,7 @@
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
-prev: ./personalabrechnung
+prev: ./hr-payroll
 ---
 # Personalabrechnung Eingaben
 ![icons_odoo_hr_payroll](assets/icons_odoo_hr_payroll.png)

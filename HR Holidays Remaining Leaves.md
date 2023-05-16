@@ -3,7 +3,7 @@ description: Verbleibende Abwesenheitsansprüche der Mitarbeitenden anzeigen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abwesenheit
+prev: ./hr-holidays
 ---
 # HR Holidays Remining Leaves
 ![icon_oms_box](assets/icon_oms_box.png)

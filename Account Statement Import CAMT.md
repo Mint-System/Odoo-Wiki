@@ -2,7 +2,7 @@
 description: Support Import Bankauszug im CAMT-Format.
 tags:
 - HowTo
-prev: ./finanzen
+prev: ./finance
 ---
 # Account Statement Import CAMT
 ![icon_oca_app](assets/icon_oca_app.png)

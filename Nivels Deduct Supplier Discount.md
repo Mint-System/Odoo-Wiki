@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finanzen
+prev: ./finance
 ---
 # Nivels Deduct Supplier Discount
 

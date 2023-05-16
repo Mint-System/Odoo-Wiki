@@ -4,7 +4,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# Contract
+# Verträge
 ![icon_oca_agreement](assets/icon_oca_agreement.png)
 
 {{ $frontmatter.description }}

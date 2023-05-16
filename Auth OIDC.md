@@ -3,7 +3,7 @@ description: Login mit OpenID Connect Provider.
 tags:
 - HowTo
 - OCA
-prev: ./einstellungen-login
+prev: ./settings-login
 ---
 # Authentication OpenID Connect
 ![icon_oca_app](assets/icon_oca_app.png)

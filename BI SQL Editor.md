@@ -3,7 +3,7 @@ description: Ganz einfach SQL-basierte Berichte erstellen.
 tags:
 - HowTo
 - OCA
-prev: ./entwicklung
+prev: ./development
 ---
 # BI SQL Editor
 ![icon_oca_app](assets/icon_oca_app.png)

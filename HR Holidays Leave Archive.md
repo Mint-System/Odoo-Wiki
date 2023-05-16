@@ -3,7 +3,7 @@ description: Archivierungsfunktion für Abwesenheitseinträge aktivieren.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abwesenheit
+prev: ./hr-holidays
 ---
 # HR Holidays Leave Archive
 ![icon_oms_box](assets/icon_oms_box.png)

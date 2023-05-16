@@ -3,7 +3,7 @@ description: Verkaufskontakt auf Rechnung einblenden.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abrechnung
+prev: ./invoicing
 ---
 # Account Invoice Detail
 

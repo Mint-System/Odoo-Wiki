@@ -3,7 +3,7 @@ description: PDF-Dokumenten von Rechnungen zusammenführen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finanzen
+prev: ./finance
 ---
 # Invoice Merge PDF Attachment
 

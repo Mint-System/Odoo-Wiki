@@ -3,7 +3,7 @@ description: Schnelles Wechseln zwischen Benutzer-Accounts.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./einstellungen
+prev: ./settings
 ---
 # Impersonate
 ![](assets/icon_odoo_impersonate.png)

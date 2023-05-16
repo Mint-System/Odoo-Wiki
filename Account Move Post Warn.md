@@ -3,7 +3,7 @@ description: Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt an
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finanzen
+prev: ./finance
 ---
 # Sale Move Reconciled Date
 
@@ -18,6 +18,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 ### Warnung beim Buchen ausgeben
 
-Mit dieser Erweiterung wird beim Buchen einer Rechnung die Warnung, die auf dem Rechnungskontakt hinterlegt ist, im Chatter angezeigt. Als erstes müssen Sie eine [Warnung für den Rechnungskontakt festlegen](Abrechnung.md#Warnung%20für%20den%20Rechnungskontakt%20festlegen).
+Mit dieser Erweiterung wird beim Buchen einer Rechnung die Warnung, die auf dem Rechnungskontakt hinterlegt ist, im Chatter angezeigt. Als erstes müssen Sie eine [Warnung für den Rechnungskontakt festlegen](Invoicing.md#Warnung%20für%20den%20Rechnungskontakt%20festlegen).
 
 ![Account Move Post Warn](assets/Account%20Move%20Post%20Warn.gif) 

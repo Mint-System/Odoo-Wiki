@@ -14,7 +14,7 @@ Wenn Sie die Erweiterung [Gio Payroll Custom](Gio%20Payroll%20Custom.md) für Sc
 Lohntyp auf Arbeitsvertrag auf Stundenlohn setzen.
 Auf dem Arbeitsvertrag der Stundenlöhner, müssen Sie *Stundenlohn* als [Lohntyp festlegen](Gio%20Payroll%20Custom.md#Lohntyp%20festlegen)
 
-Damit die gearbeiteten Stunden automatisch aus der Lohnabrechnung ausgelesen werden muss auf der Lohnart *Monatslohn* die Berechnung ersetzt werden. Sie können die [Lohnart anpassen](Personalabrechnung.md#Lohnart%20anpassen) und diesen Code verwenden:
+Damit die gearbeiteten Stunden automatisch aus der Lohnabrechnung ausgelesen werden muss auf der Lohnart *Monatslohn* die Berechnung ersetzt werden. Sie können die [Lohnart anpassen](HR%20Payroll.md#Lohnart%20anpassen) und diesen Code verwenden:
 
 **Python Code**
 
@@ -56,7 +56,7 @@ Auf den Verträgen der Mitarbeitenden muss der korrekte Strukturtyp erfasst sein
 
 ## Abrechnung
 
-Damit auf der Lohnabrechnung die gearbeiteten Stunden eingetragen werden, muss die Lohnabrechnung über die Arbeitseinträge erstellt werden. Führen Sie dazu die Aktion [Lohnabrechnungen mit Batch erstellen](Personalabrechnung.md#Lohnabrechnungen%20mit%20Batch%20erstellen) aus.
+Damit auf der Lohnabrechnung die gearbeiteten Stunden eingetragen werden, muss die Lohnabrechnung über die Arbeitseinträge erstellt werden. Führen Sie dazu die Aktion [Lohnabrechnungen mit Batch erstellen](HR%20Payroll.md#Lohnabrechnungen%20mit%20Batch%20erstellen) aus.
 
 ## Beispiel
 

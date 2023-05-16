@@ -3,7 +3,7 @@ description: Anzeige negative Überstunden auf Dashboard Abwesenheit.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abwesenheit
+prev: ./hr-holidays
 ---
 # HR Attendance Overtime Negative Hours
 ![icon_oms_box](assets/icon_oms_box.png)

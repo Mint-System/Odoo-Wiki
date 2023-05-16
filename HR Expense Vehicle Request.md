@@ -3,7 +3,7 @@ description: Brückenmodul für Fahrzeuganfrage und Auslage.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./aufwand
+prev: ./hr-expense
 ---
 # HR Expense Vehicle Request
 ![icon_oms_box](assets/icon_oms_box.png)
@@ -21,4 +21,4 @@ Mit dieser Erweiterung wird beim Retournieren einer privaten Fahrzeuganfrage ein
 
 ![HR Expense Vehicle Request](assets/HR%20Expense%20Vehicle%20Request.gif)
 
-Wenn Sie eine [Spesenabrechnung erstellen](Aufwand.md#Spesenabrechnung%20erstellen) wird der Manager des Fahrzeugs als Verantwortlicher für die Spesenabrechnung eingetragen.
+Wenn Sie eine [Spesenabrechnung erstellen](HR%20Expense.md#Spesenabrechnung%20erstellen) wird der Manager des Fahrzeugs als Verantwortlicher für die Spesenabrechnung eingetragen.

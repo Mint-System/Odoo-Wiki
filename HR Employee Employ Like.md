@@ -21,6 +21,6 @@ Mit dieser Erweiterung können Sie für Mitarbeitenden nebst der Stelle auch ein
 
 ![](assets/HR%20Employee%20Employ%20Like.png)
 
-Wenn Sie einen [Onboarding-Plan starten](Personal%20Aktivitäten.md#Onboarding-Plan%20starten), wird die Anstellungsreferenz in der Notiz der Aktivitäten hinterlegt.
+Wenn Sie einen [Onboarding-Plan starten](HR%20Activities.md#Onboarding-Plan%20starten), wird die Anstellungsreferenz in der Notiz der Aktivitäten hinterlegt.
 
 ![](assets/HR%20Employee%20Employ%20Like%20Plan.png)

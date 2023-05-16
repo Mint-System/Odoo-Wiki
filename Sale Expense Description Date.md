@@ -3,7 +3,7 @@ description: Fügt das Datum der Auslage der Kundenauftragszeile hinzu.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./aufwand
+prev: ./hr-expense
 ---
 # Sale Expense Description Date
 ![icon_oms_box](assets/icon_oms_box.png)

@@ -3,7 +3,7 @@ description: Beschreibungsfeld auf Rechnung.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finanzen
+prev: ./finance
 ---
 # Account Invoice Description
 ![icon_oms_box](assets/icon_oms_box.png)

@@ -3,7 +3,7 @@ description: Verhindert das versenden von Nachrichten beim Erstellen einer Buchu
 tags:
 - HowTo
 - Drittanbieter
-prev: ./diskussion
+prev: ./discuss
 ---
 # Account Move Mail Thread
 ![icon_oms_box](assets/icon_oms_box.png)

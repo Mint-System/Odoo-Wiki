@@ -3,7 +3,7 @@ description: Mehrere Preislisten mit Start- und Enddatum auf Kunden festlegen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./kontakte
+prev: ./partner
 ---
 # Partner Multi Pricelist
 ![](assets/icon_oms_box.png)

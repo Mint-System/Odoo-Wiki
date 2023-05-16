@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./einkauf
+prev: ./purchase
 ---
 # Purchase Order Line Relay Price
 ![icon_oms_box](assets/icon_oms_box.png)
@@ -17,7 +17,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 ### Produkt mit mehreren Lieferanten
 
-Diese Erweiterung rechnet für ein Produkt die möglichen Staffelpreise durch und benachrichtigt den Einkäufer mit Verbesserungsvorschlägen. Voraussetzung dafür ist, dass Sie auf dem Produkt mehre  [Lieferanten auf Produkt hinzufügen](Einkauf.md#Lieferant%20auf%20Produkt%20hinzufügen):
+Diese Erweiterung rechnet für ein Produkt die möglichen Staffelpreise durch und benachrichtigt den Einkäufer mit Verbesserungsvorschlägen. Voraussetzung dafür ist, dass Sie auf dem Produkt mehre  [Lieferanten auf Produkt hinzufügen](Purchase.md#Lieferant%20auf%20Produkt%20hinzufügen):
 
 **Produkt**: `[FURN_6666] Akustische Blockbildschirme`\
 **Tab Einkauf**:

@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./produkte
+prev: ./product
 ---
 # Product Barcode Generator
 ![](assets/icon_odoo_product_barcode.png)

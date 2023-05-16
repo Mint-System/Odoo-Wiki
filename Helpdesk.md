@@ -15,7 +15,7 @@ Website: <https://www.odoo.com/de_DE/app/helpdesk>
 
 | Bereich                                                           | Beschreibung                                       |
 | ----------------------------------------------------------------- | -------------------------------------------------- |
-| [Kundendienst Datenmanagement](Kundendiesnt%20Datenmanagement.md) | Daten zu Kundendienst exportieren und importieren. |
+| [Kundendienst Datenmanagement](Helpdesk%20Data%20Management.md) | Daten zu Kundendienst exportieren und importieren. |
 
 ## Organisation
 

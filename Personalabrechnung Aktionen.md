@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Aktionen
-prev: ./personalabrechnung
+prev: ./hr-payroll
 ---
 # Personalabrechnung Aktionen
 ![icons_odoo_hr_payroll](assets/icons_odoo_hr_payroll.png)
@@ -137,5 +137,5 @@ Zu schreibende Daten:
 * **Wert**: `record.contract_id.x_struct_id`
 
 ::: warning
-Das Feld `x_struct_id` wurde mithilfe eines [Snippets](Entwicklung%20Snippets.md) erstellt.
+Das Feld `x_struct_id` wurde mithilfe eines [Snippets](Development%20Snippets.md) erstellt.
 :::

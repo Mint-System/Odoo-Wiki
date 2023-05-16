@@ -4,7 +4,7 @@ tags:
 - HowTo
 prev: ./forestry-base
 ---
-# Forestry Stock
+# Holzwirtschaft Lager
 ![icons_odoo_forestry_base](assets/icons_odoo_forestry_base.png)
 
 {{ $frontmatter.description }}

@@ -4,7 +4,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# Warehouse
+# Warenhaus
 ![](assets/icon_odoo_warehouse.png)
 
 Werkhallen und Warenhäuser effizient verwalten.

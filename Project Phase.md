@@ -3,7 +3,7 @@ description: Projektaufgaben mit Projektphasen verwalten.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./projekt
+prev: ./project
 ---
 # Project Phase
 ![icon_oms_box](assets/icon_oms_box.png)
@@ -21,4 +21,4 @@ Navigieren Sie nach *Projekt > Project Phases > Project Phases* und wählen Sie 
 
 ### Aufgabe an Phase zuordnen
 
-Wenn Sie [Aufgaben anzeigen](Projekt.md#Aufgaben%20anzeigen) und eine Aufgabe öffnen, sehen Sie neu das Feld *Projekt Phase*. Wählen Sie eine passende Projektphase aus.
+Wenn Sie [Aufgaben anzeigen](Project.md#Aufgaben%20anzeigen) und eine Aufgabe öffnen, sehen Sie neu das Feld *Projekt Phase*. Wählen Sie eine passende Projektphase aus.

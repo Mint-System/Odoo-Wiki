@@ -3,7 +3,7 @@ description: Zusätzliche Header und Footer Notizen kopiert von Verkaufsauftrag.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abrechnung
+prev: ./invoicing
 ---
 # Account Invoice Notes
 

@@ -3,7 +3,7 @@ description: Kontoauszug basierend auf Buchungszeilen erstellen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finanzen
+prev: ./finance
 ---
 # Account Journal Items Report
 ![icon_oms_box](assets/icon_oms_box.png)

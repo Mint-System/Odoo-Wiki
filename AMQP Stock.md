@@ -3,7 +3,7 @@ description: Lagervorgänge als AMQP-Nachrichten empfangen und versenden.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./lager
+prev: ./stock
 ---
 # AMQP Stock
 ![](assets/odoo_icon_amqp.png)

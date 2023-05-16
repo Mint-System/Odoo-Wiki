@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./einkauf
+prev: ./purchase
 ---
 # Purchase Order Address
 ![icon_oms_box](assets/icon_oms_box.png)

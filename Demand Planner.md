@@ -3,7 +3,7 @@ description: Bestellvorschläge für Kompontenten aus Stücklisten anhand Lagero
 tags:
 - HowTo
 - Drittanbieter
-prev: ./lager
+prev: ./stock
 ---
 # Demand Planner
 ![](assets/odoo_icon_demand_planner.png)

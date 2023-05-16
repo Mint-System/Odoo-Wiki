@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./diskussion
+prev: ./discuss
 ---
 # Purchase Order Unsubscribe
 ![icon_oms_box](assets/icon_oms_box.png)
@@ -23,4 +23,4 @@ Mit dieser Erweiterung werden beim Bestätigen einer Bestellung alle Abonnenten 
 
 ### Alle Abonnenten entfernen
 
-Wenn Sie den [Systemparameter](Entwicklung.md#Systemparameter%20anlegen) mit Schlüssel `mail.unsubscribe_all` und Wert `True` anlegen, werden alle Abonnenten entfernt.
+Wenn Sie den [Systemparameter](Development.md#Systemparameter%20anlegen) mit Schlüssel `mail.unsubscribe_all` und Wert `True` anlegen, werden alle Abonnenten entfernt.

@@ -3,7 +3,7 @@ description: Start- und End-Zeit für Abwesenheiten eintragen.
 tags:
 - HowTo
 - OCA
-prev: ./abwesenheit
+prev: ./hr-holidays
 ---
 # Custom Hour Interval for Holidays
 ![icon_oca_app](assets/icon_oca_app.png)

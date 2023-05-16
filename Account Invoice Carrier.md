@@ -3,7 +3,7 @@ description: Auslieferungsmethode auf Rechnung hinterlegen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abrechnung
+prev: ./invoicing
 ---
 # Account Invoice Carrier
 

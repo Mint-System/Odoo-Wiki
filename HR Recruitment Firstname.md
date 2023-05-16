@@ -3,7 +3,7 @@ description: Vor- und Nachname auf Bewerbung.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personalbeschaffung
+prev: ./hr-recruitment
 ---
 # HR Recruitment Firstname
 ![icon_oms_box](assets/icon_oms_box.png)

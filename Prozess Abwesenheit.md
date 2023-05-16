@@ -10,7 +10,7 @@ prev: ./referenzsystem
 
 ## Prozessschritte
 
-* [Abwesenheitsanspruch melden](Abwesenheit.md#Abwesenheitsanspruch%20melden)
-* [Abwesenheitsanspruch validieren](Abwesenheit.md#Abwesenheitsanspruch%20validieren)
-* [Abwesenheit melden](Abwesenheit.md#Abwesenheit%20melden)
-* [Abwesenheit validieren](Abwesenheit.md#Abwesenheit%20validieren)
+* [Abwesenheitsanspruch melden](HR%20Holidays.md#Abwesenheitsanspruch%20melden)
+* [Abwesenheitsanspruch validieren](HR%20Holidays.md#Abwesenheitsanspruch%20validieren)
+* [Abwesenheit melden](HR%20Holidays.md#Abwesenheit%20melden)
+* [Abwesenheit validieren](HR%20Holidays.md#Abwesenheit%20validieren)

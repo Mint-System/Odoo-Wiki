@@ -3,7 +3,7 @@ description: Zeigt für eine Rechnung das definitive Abgleichsdatum an.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finanzen
+prev: ./finance
 ---
 # Sale Move Reconciled Date
 ![icon_oms_box](assets/icon_oms_box.png)

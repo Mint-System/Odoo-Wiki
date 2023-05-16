@@ -13,4 +13,4 @@ prev: ./
 
 ### App anzeigen
 
-Um diesen App zu sehen, müssen Sie den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) aktvieren.
+Um diesen App zu sehen, müssen Sie den [Entwicklermodus](Settings.md#Entwicklermodus%20aktivieren) aktvieren.

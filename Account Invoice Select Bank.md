@@ -3,7 +3,7 @@ description: Bankkonto anhand Währung auswählen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abrechnung
+prev: ./invoicing
 ---
 # Account Invoice Select Bank
 

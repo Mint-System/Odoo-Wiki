@@ -3,7 +3,7 @@ description: Lieferaufträge mit Rechnungszeile verlinken.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finanzen
+prev: ./finance
 ---
 # Account Move Line Link Pickings
 ![icon_oms_box](assets/icon_oms_box.png)
@@ -28,5 +28,5 @@ Mit dem Snippet <https://odoo.build/snippets/account.html#group-by-pickings> und
 ![](assets/Account%20Move%20Line%20Link%20Pickings%20Sammelrechnung.png)
 
 Für die Implementation müssen Sie Folgendes berücksichtigen:
-* [Snippet hinzufügen](Entwicklung%20Snippets.md#Snippet%20hinzufügen)
-* [Für mehrere Verkaufsaufträge eine Rechnung generieren](Verkauf.md#Für%20mehrere%20Verkaufsaufträge%20eine%20Rechnung%20generieren) 
+* [Snippet hinzufügen](Development%20Snippets.md#Snippet%20hinzufügen)
+* [Für mehrere Verkaufsaufträge eine Rechnung generieren](Sale.md#Für%20mehrere%20Verkaufsaufträge%20eine%20Rechnung%20generieren) 

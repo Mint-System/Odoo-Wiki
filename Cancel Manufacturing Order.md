@@ -3,7 +3,7 @@ description: Fertigungsauftrag rückgängig machen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./fertigung
+prev: ./manufacture
 ---
 # Cancel Manufacturing Order
 ![](assets/icons_odoo_eq.png)

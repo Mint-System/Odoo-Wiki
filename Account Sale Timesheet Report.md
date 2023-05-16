@@ -3,7 +3,7 @@ description: Zeiterfassungsbericht für Rechnung.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abrechnung
+prev: ./invoicing
 ---
 # Account Sale Timesheet Report
 

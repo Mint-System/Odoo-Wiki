@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./kontakte
+prev: ./partner
 ---
 # Partner Ref Sequence
 ![icon_oms_box](assets/icon_oms_box.png)
@@ -23,4 +23,4 @@ Im Tab *Verkauf & Einkauf* ist nun die generierte Referenz sichtbar.
 
 ![](assets/Partner%20Ref%20Sequence.png)
 
-Möchten Sie die Nummerierung ändern, öffnen Sie [Sequenz anpassen](Einstellungen.md#Sequenz%20anpassen).
+Möchten Sie die Nummerierung ändern, öffnen Sie [Sequenz anpassen](Settings.md#Sequenz%20anpassen).

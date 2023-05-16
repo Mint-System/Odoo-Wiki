@@ -3,7 +3,7 @@ description: Verträge und Vereinbarungen dokumentieren.
 tags:
 - HowTo
 - OCA
-prev: ./dokumente
+prev: ./documents
 ---
 # Agreement Legal
 

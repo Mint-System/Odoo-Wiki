@@ -3,7 +3,7 @@ description: Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./einstellungen-login
+prev: ./settings-login
 ---
 # Auth TOTP IP Check
 ![icon_oms_box](assets/icon_oms_box.png)
@@ -23,5 +23,5 @@ Zeigen Sie *Einstellungen > Technisch > Sicherheit > Disable TOTP Check* an. Geb
 
 ### Login ohne Zwei-Faktor-Authentisierung für unbestimmte Netzwerke verhindern
 
-Wenn Sie den [Systemparameter](Entwicklung.md#Systemparameter%20anlegen) mit Schlüssel `auth_totp.prevent_login_without_2fa` und Wert `True` anlegen, können Benutzer ohne Zwei-Faktor-Authentisierung aus unbestimmten Netzwerken nicht mehr einloggen.
+Wenn Sie den [Systemparameter](Development.md#Systemparameter%20anlegen) mit Schlüssel `auth_totp.prevent_login_without_2fa` und Wert `True` anlegen, können Benutzer ohne Zwei-Faktor-Authentisierung aus unbestimmten Netzwerken nicht mehr einloggen.
 

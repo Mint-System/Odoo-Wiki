@@ -2,7 +2,7 @@
 description: Finanzberichte der Odoo Community Assocation.
 tags:
 - HowTo
-prev: ./finanzen
+prev: ./finance
 ---
 # Account Financial Report
 ![icon_oca_app](assets/icon_oca_app.png)

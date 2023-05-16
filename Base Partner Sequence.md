@@ -3,7 +3,7 @@ description: Sequenz auf Kundenreferenz.
 tags:
 - HowTo
 - OCA
-prev: ./kontakte
+prev: ./partner
 ---
 # Base Partner Sequence
 ![icon_oca_app](assets/icon_oca_app.png)

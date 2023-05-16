@@ -3,7 +3,7 @@ description: Aktivieren Trigram-Index auf Datenbank-Felder.
 tags:
 - HowTo
 - OCA
-prev: ./datenbank
+prev: ./database
 ---
 # Base Search Fuzzy
 ![icon_oca_app](assets/icon_oca_app.png)

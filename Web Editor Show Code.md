@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./einstellungen
+prev: ./settings
 ---
 # Web Editor Show Code
 ![icon_oms_box](assets/icon_oms_box.png)

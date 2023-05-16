@@ -13,10 +13,10 @@ Website: <https://www.odoo.com/de_DE/app/employees>
 
 ## Bereiche
 
-| Bereich                                           | Beschreibung                        |
-| ------------------------------------------------- | ----------------------------------- |
-| [Personal Aktivitäten](Personal%20Aktivitäten.md) | Aktivitäten für Personal verwalten. |
-| [Personal Verträge](Personal%20Verträge.md)       | Personalverträge zentral verwalten. |
+| Bereich                                    | Beschreibung                        |
+| ------------------------------------------ | ----------------------------------- |
+| [Personal Aktivitäten](HR%20Activities.md) | Aktivitäten für Personal verwalten. |
+| [Personal Verträge](HR%20Contract.md)      | Personalverträge zentral verwalten. |
 
 ## Erweiterungen
 
@@ -76,7 +76,7 @@ Erstellen Sie eine private Adresse folgendermassen: *Personal > Mitarbeiter ausw
 
 ### Bankverbindung einrichten
 
-Zur Lohnabrechung und Abrechnung von Aufwänden brauchen Mitarbeitende eine private Adresse mit einem Bankkonto. Navigieren Sie nach *Personal* und öffnen Sie einen Eintrag. Im Tab *Private Information* finden Sie das Feld *Bankverbindung*. Hier können Sie ein [Bankkonto erfassen](Abrechnung.md#Bankkonto%20erfassen)
+Zur Lohnabrechung und Abrechnung von Aufwänden brauchen Mitarbeitende eine private Adresse mit einem Bankkonto. Navigieren Sie nach *Personal* und öffnen Sie einen Eintrag. Im Tab *Private Information* finden Sie das Feld *Bankverbindung*. Hier können Sie ein [Bankkonto erfassen](Invoicing.md#Bankkonto%20erfassen)
 
 ## Arbeitszeit
 

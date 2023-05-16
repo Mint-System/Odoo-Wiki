@@ -3,7 +3,7 @@ description: Produktspezifische Informationen für ausgewählte Kunden erfassen.
 tags:
 - HowTo
 - OCA
-prev: ./finanzen
+prev: ./finance
 ---
 # Product Supplierinfo for Customer Sale
 ![icon_oca_app](assets/icon_oca_app.png)

@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./produkt
+prev: ./product
 ---
 # Product Name Sequence
 ![](assets/icon_product_name_sequence.png)

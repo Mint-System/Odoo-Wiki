@@ -3,7 +3,7 @@ description: Farben des Odoo Backend Theme anpassen.
 tags:
 - HowTo
 - OCA
-prev: ./einstellungen
+prev: ./settings
 ---
 # Web Company Color
 ![icon_oca_app](assets/icon_oca_app.png)

@@ -3,7 +3,7 @@ description: Kommentarfeld auf Rechnung.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abrechnung
+prev: ./invoicing
 ---
 # Account Invoice Comment
 

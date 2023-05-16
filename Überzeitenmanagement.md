@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./anwesenheit
+prev: ./hr-attendance
 ---
 # Überzeitenmanagement
 ![](assets/icon_syscoon_hr_attendance.png)

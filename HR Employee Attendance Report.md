@@ -3,7 +3,7 @@ description: Stundenzettel mit Anwesenheit, Abwesenheiten und Überstunden.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abwesenheit
+prev: ./hr-holidays
 ---
 # HR Employee Attendance Report
 ![icon_oms_box](assets/icon_oms_box.png)

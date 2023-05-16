@@ -3,7 +3,7 @@ description: Daten aus QR-Code bei Rechnungsimport auslesen.
 tags:
 - HowTo
 - OCA
-prev: ./finanzen
+prev: ./finance
 ---
 # Switzerland QR-Bill Scan
 ![icon_oca_app](assets/icon_oca_app.png)

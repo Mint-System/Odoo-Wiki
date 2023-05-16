@@ -2,7 +2,7 @@
 description: Camt54 Bankauszug mit den Details zu Einzahlungen importieren.
 tags:
 - HowTo
-prev: ./finanzen
+prev: ./finance
 ---
 # Account Statement Import Camt54
 ![icon_oca_app](assets/icon_oca_app.png)

@@ -4,7 +4,7 @@ tags:
 - HowTo
 prev: ./forestry-base
 ---
-# Forestry Project
+# Holzwirtschaft Projekt
 ![icons_odoo_forestry_base](assets/icons_odoo_forestry_base.png)
 
 {{ $frontmatter.description }}

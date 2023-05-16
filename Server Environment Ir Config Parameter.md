@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - OCA
-prev: ./entwicklung
+prev: ./development
 ---
 # Server Environment Ir Config Parameter
 ![icon_oca_app](assets/icon_oca_app.png)

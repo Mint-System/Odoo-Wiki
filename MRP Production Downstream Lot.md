@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./fertigung
+prev: ./manufacture
 ---
 # MRP Production Downstream Lot
 ![icon_oms_box](assets/icon_oms_box.png)
@@ -20,5 +20,5 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_
 Mit dieser Erweiterung wird beim Bestätigen eines Fertigungsauftrag das dazugehörige Los auf die Lieferung übertragen.
 
 ::: warning
-Die Verknüpfung von  Produktlieferung und Lieferung funktioniert nicht wenn [Automatische Reservierung deaktivieren](Lager%20Vorgänge.md#Automatische%20Reservierung%20deaktivieren) aktiv ist.
+Die Verknüpfung von  Produktlieferung und Lieferung funktioniert nicht wenn [Automatische Reservierung deaktivieren](Stock%20Operations.md#Automatische%20Reservierung%20deaktivieren) aktiv ist.
 :::

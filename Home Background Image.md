@@ -3,7 +3,7 @@ description: Den Odoo-Startbildschirm gestalten.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./einstellungen
+prev: ./settings
 ---
 # Home Backround Image
 ![icon_oms_box](assets/icon_oms_box.png)

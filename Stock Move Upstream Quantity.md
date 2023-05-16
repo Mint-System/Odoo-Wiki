@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./lager
+prev: ./stock
 ---
 # Stock Move Upstream Quantity
 ![icon_oms_box](assets/icon_oms_box.png)

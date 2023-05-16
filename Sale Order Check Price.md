@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - OCA
-prev: ./verkauf
+prev: ./sale
 ---
 # Sale Order Check Price
 ![icon_oms_box](assets/icon_oms_box.png)

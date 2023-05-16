@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - OCA
-prev: ./lager
+prev: ./stock
 ---
 # Stock Delivery Note
 ![icon_oca_app](assets/icon_oca_app.png)

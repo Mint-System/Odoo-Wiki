@@ -3,7 +3,7 @@ description: IP-Prüfung bei Anmeldung der Anwesenheit.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abwesenheit
+prev: ./hr-holidays
 ---
 # HR Attendance IP Check
 ![icon_oms_box](assets/icon_oms_box.png)

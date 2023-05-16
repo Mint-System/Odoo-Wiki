@@ -4,7 +4,7 @@ tags:
 - HowTo
 prev: ./
 ---
-# Knowledge
+# Wissen
 ![icon_odoo_knowledge](assets/icon_odoo_knowledge.png)
 
 {{ $frontmatter.description }}

@@ -3,7 +3,7 @@ description: Gegenkontos auf Buchungszeilen anzeigen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finanzen
+prev: ./finance
 ---
 # Account Move Line Contra Accounts
 ![icon_oms_box](assets/icon_oms_box.png)

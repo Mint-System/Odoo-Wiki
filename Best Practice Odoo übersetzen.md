@@ -33,7 +33,7 @@ Ob die Übersetzung angenommen wird, entscheiden die Reviewer.
 
 Mit Odoo 16 wurde die Erstellung von Übersetzung etwas komplizierter. Führen Sie als erstes diese Schritte aus:
 
-* [Entwicklermodus aktivieren](Einstellungen.md#Entwicklermodus%20aktivieren)
-* Mindestens 2 [Sprachen aktivieren](Einstellungen%20Übersetzung.md#Sprache%20aktivieren)
+* [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivieren)
+* Mindestens 2 [Sprachen aktivieren](Settings%20Translations.md#Sprache%20aktivieren)
 
-Nun können Sie [Übersetzungen auf Ansichten anpassen](Einstellungen%20Übersetzung.md#Übersetzung%20auf%20Ansicht%20anpassen).
+Nun können Sie [Übersetzungen auf Ansichten anpassen](Settings%20Translations.md#Übersetzung%20auf%20Ansicht%20anpassen).

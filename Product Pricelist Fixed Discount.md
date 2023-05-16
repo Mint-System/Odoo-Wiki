@@ -3,7 +3,7 @@ description: Festpreise in Preisliste mit Rabatt.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./fertigung
+prev: ./product
 ---
 # Product Pricelist Fixed Discount
 ![icon_oms_box](assets/icon_oms_box.png)

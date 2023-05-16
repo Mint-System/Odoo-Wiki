@@ -2,7 +2,7 @@
 description: Basismodul für Import Bankauszüge.
 tags:
 - HowTo
-prev: ./finanzen
+prev: ./finance
 ---
 # Account Statement Import Base
 ![icon_oca_app](assets/icon_oca_app.png)

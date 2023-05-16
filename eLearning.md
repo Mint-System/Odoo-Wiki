@@ -15,7 +15,7 @@ Website: <https://www.odoo.com/de_DE/app/elearning>
 
 ### eLearning für interne Benutzer
 
-Damit die App *eLearning* für alle Benutzer sichtar ist, müssen Sie den entsprechenden [Menüeintrag bearbeiten](Entwicklung.md#Menüeintrag%20bearbeiten). Fügen Sie die Gruppe *Interner Benutzer* im Tab *Zugriffsrechte* hinzu.
+Damit die App *eLearning* für alle Benutzer sichtar ist, müssen Sie den entsprechenden [Menüeintrag bearbeiten](Development.md#Menüeintrag%20bearbeiten). Fügen Sie die Gruppe *Interner Benutzer* im Tab *Zugriffsrechte* hinzu.
 
 ## Verwaltung
 
@@ -60,7 +60,7 @@ Navigieren Sie im Backend nach *eLearning > Kurse > Wählen den Kurs > Tab Inhal
 * **Dokument**: Der Kursinhalt ist eine Dokument
 * **Video**: Der Kursinhalt ist verlinktes Video
 * **Quiz**: Sie erfassen ein Quiz im entsprechenden Tab
-* **Zertifizierung**: Kopplung mit der App [Umfragen](Umfragen.md)
+* **Zertifizierung**: Kopplung mit der App [Umfragen](Survey.md)
 
 ### Kurs Inhalt freigeben
 
@@ -82,7 +82,7 @@ Die Einladungsmail sieht ungefwähr so aus:
 
 ### Automatisch eingeschriebene Gruppen festlegen
 
-Ein Benutzer mit Zugriff auf den [Entwicklermodus](Einstellungen.md#Entwicklermodus%20aktivieren) kann auf dem Kurs eine Gruppe hinterlegen, deren Mitglieder automatisch als Teilnehmer aufgeführt werden.
+Ein Benutzer mit Zugriff auf den [Entwicklermodus](Settings.md#Entwicklermodus%20aktivieren) kann auf dem Kurs eine Gruppe hinterlegen, deren Mitglieder automatisch als Teilnehmer aufgeführt werden.
 
 ![](assets/eLearning%20Automatisch%20eingeschriebene%20Gruppe.png)
 
@@ -96,7 +96,7 @@ Im Tab *Quiz* eines Inhalts können Sie eine Frage mit mehreren Antworten erstel
 
 ### Zertifizierung erfassen
 
-Beim Abschluss einer Umfrage können den Teilnehmer Zertifikate vergeben werden. Navigieren Sie nach *eLearning > Kurse > Zertifizierungen*. Hier können Sie eine [Umfrage erstellen](Umfragen.md#Umfrage%20erstellen), die als Zertifizierung verfügbar ist.
+Beim Abschluss einer Umfrage können den Teilnehmer Zertifikate vergeben werden. Navigieren Sie nach *eLearning > Kurse > Zertifizierungen*. Hier können Sie eine [Umfrage erstellen](Survey.md#Umfrage%20erstellen), die als Zertifizierung verfügbar ist.
 
 Die Zertifizierung kann als Inhaltstyp *Zertifizierung* mit einem Kursinhalt verknüpft werden.
 

@@ -3,7 +3,7 @@ description: Partner-Preisliste anhand Auftragsdatum filtern.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./verkauf
+prev: ./sale
 ---
 # Sale Order Multi Pricelist
 ![icon_oms_box](assets/icon_oms_box.png)

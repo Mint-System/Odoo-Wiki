@@ -3,7 +3,7 @@ description: An- und Abmelden bei Anwesenheit farblich markieren.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./abwesenheit
+prev: ./hr-holidays
 ---
 # HR Attendance Kiosk Mode Color
 ![icon_oms_box](assets/icon_oms_box.png)

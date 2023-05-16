@@ -3,7 +3,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./verkauf
+prev: ./sale
 ---
 # Sale Order Expected Commitment Date
 ![icon_oms_box](assets/icon_oms_box.png)
