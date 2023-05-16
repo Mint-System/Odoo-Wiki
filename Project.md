@@ -69,7 +69,7 @@ Navigieren Sie in die Kanban-Ansicht eines Projekts *Projekt > Projekt auswähle
 Die erstellte Aufgabenstufen ist nur für dieses Projekt sichtbar.
 :::
 
-### Globale ### Aufgabenstufen erstellen zuordnen
+### Globale Aufgabenstufen erstellen zuordnen
 
 ::: tip
 Aufgabenphasen können mit mehreren Projekten geteilt werden.

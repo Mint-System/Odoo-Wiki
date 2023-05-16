@@ -13,19 +13,21 @@ Website: <https://www.odoo.com/de_DE/app/website>
 
 ## Bereiche
 
-| Bereich                                     | Beschreibung                          |
-| ------------------------------------------- | ------------------------------------- |
-| [Website Aktionen](Website%20Actions.md)   | Automatisierung der Website-Vorgänge. |
-| [Website Partner](Website%20Partner.md)     | Partner auf Website publizieren.      |
-| [Website eCommerce](Website%20eCommerce.md) | Webshop ohne Integrationsaufwand.     |
+| Bereich                                     | Beschreibung                                                   |
+| ------------------------------------------- | -------------------------------------------------------------- |
+| [Website Aktionen](Website%20Actions.md)    | Automatisierung der Website-Vorgänge.                          |
+| [Website Partner](Website%20Partner.md)     | Partner auf Website publizieren.                               |
+| [Website eCommerce](Website%20eCommerce.md) | Webshop ohne Integrationsaufwand.                              |
+| [Verkauf True](Sale%20Loyalty.md)           | Kundentreue mit Rabatten, Coupons und Geschenkkarten belohnen. |
 
 ## Erweiterungen
 
-| Erweiterung                                                                   | Beschreibung                                  |
-| ----------------------------------------------------------------------------- | --------------------------------------------- |
-| [Website Date of Birth](Website%20Date%20of%20Birth.md)                       | Geburtsdatum auf Anmeldeformular.             |
-| [Website Product Description](Website%20Product%20Description)                | Separates Feld für Produktbeschreibungen.     |
-| [Website Sale Default Country CH](Website%20Sale%20Default%20Country%20CH.md) | Schweiz als Standardland im Webhop festlegen. |
+| Erweiterung                                                                         | Beschreibung                                                           |
+| ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [Website Date of Birth](Website%20Date%20of%20Birth.md)                             | Geburtsdatum auf Anmeldeformular.                                      |
+| [Website Product Description](Website%20Product%20Description)                      | Separates Feld für Produktbeschreibungen.                              |
+| [Website Sale Default Country CH](Website%20Sale%20Default%20Country%20CH.md)       | Schweiz als Standardland im Webshop festlegen.                         |
+| [Website Sale Minium Order Quantity](Website%20Sale%20Minium%20Order%20Quantity.md) | Legen Sie Mindestbestellmengen für Produkte und Produktvarianten fest. |
 
 ## Berechtigung
 

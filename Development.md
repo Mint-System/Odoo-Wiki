@@ -145,6 +145,12 @@ Ist die *Externe Identifikation* gespeichert, wird Sie auf Datensatz angezeigt.
 
 ![](assets/Entwicklung%20Externe%20Ansicht%20Beispiel.png)
 
+### Externe ID aus Metadaten erfassen
+
+Ab #Odoo16 können Sie [Metadaten anzeigen](#Metadaten%20anzeigen) und direkt eine externe ID erfassen. Wählen Sie dazu die Aktion *create* auf der Ansicht der Metadaten. Der Modellname und die Datensatz-ID werden übernommen.
+
+![](assets/Development%20Metadaten.png)
+
 ### Neues Feld hinzufügen
 
 An jedem Objekt kann an einfach ein Feld hinzugefügt werden. Öffnen Sie eine Ansicht im Entwicklermodus und wählen Sie *Entwicklertools > Felder anzeigen*. Wählen Sie *+ Anlegen* und geben Sie folgende Informationen ein:

@@ -21,6 +21,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Verkauf Lager](Sale%20Stock.md)          | Lieferungen aus Verkaufsaufträge erstellen.          |
 | [Verkauf Preise](Sale%20Price.md)         | Produkte, Preislisten und Varianten zentral pflegen. |
 | [Verkauf Projekt](Sale%20Project.md)      | Dienstleistungen mit Verkauf und Projekt abwickeln.  |
+| [Verkauf True](Sale%20Loyalty.md)         |  Kundentrue mit Rabatten, Coupons und Geschenkkarten belohnen.                                                     |
 
 ## Erweiterungen
 
