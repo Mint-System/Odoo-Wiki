@@ -11,6 +11,7 @@ prev: ./hr-payroll
 {{ $frontmatter.description }}
 
 Technischer Name: `gio_payroll_custom`\
+Website: <https://www.giordano.ch/odoo/l%C3%B6sungen/lohnprogramm-ch-d>
 Repository: <https://gitlab.com/mint-system/odoo-apps-swiss-payroll/-/tree/15.0>
 
 ## Konfiguration
