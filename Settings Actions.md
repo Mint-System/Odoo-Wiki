@@ -117,4 +117,5 @@ now = datetime.datetime.now()
 expiration_date = now + datetime.timedelta(days=35)
 expiration_date = expiration_date.strftime('%Y-%m-%d %H:%M:%S')
 env['ir.config_parameter'].sudo().set_param('database.expiration_date', expiration_date)
+env['ir.config_parameter'].sudo().set_param('database.expiration_reason', 'renewal')
 ```

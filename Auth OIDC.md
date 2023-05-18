@@ -11,23 +11,24 @@ prev: ./settings-login
 {{ $frontmatter.description }}
 
 Technischer Name: `auth_oidc`\
-Repository: <https://github.com/OCA/server-auth/tree/14.0/auth_oidc>
+Repository: <https://github.com/OCA/server-auth/tree/16.0/auth_oidc>
 
 ## Konfiguration
 
 ### Login mit GitLab konfigurieren
 
-Damit Sie mit einem GitLab Account in Odoo einloggen können, müssen Sie als erstes eine OAuth-Applikation unter <https://gitlab.com/oauth/applications> erstellen. In diesem Beispiel ist die Odoo-Installation unter <https://erp.binary-business.ch> erreichbar.
+Damit Sie mit einem GitLab-Account in Odoo einloggen können, müssen Sie als erstes eine OAuth-Applikation unter <https://gitlab.com/oauth/applications> erstellen. In diesem Beispiel ist die Odoo-Installation unter <https://odoo.example.com> erreichbar.
 
-Name: `BINARY Business`\
-Redirect URI:\
+* **Name**: `Odoo Example`
+* **Redirect URI**:\
 ```
 http://localhost:8069/auth_oauth/signin
-https://erp.binary-business.ch/auth_oauth/signin
-https://erp-dev.binary-business.ch/auth_oauth/signin
+https://odoo.example.com/auth_oauth/signin
+https://odoo-dev.example.com/auth_oauth/signin
 ```
-Condential: [ ]\
-Scopes: `openid`
+
+* **Condential**: [ ]
+* **Scopes**: `openid`
 
 Speichern sie die Applikation und kopieren Sie diese Informationen:
 
@@ -36,19 +37,46 @@ Speichern sie die Applikation und kopieren Sie diese Informationen:
 
 Sie brauchen diese Information um die Verbindung zwischen Odoo und GitLab im nächsten Schritt zu erstellen.
 
-Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Integration*, klicken Sie auf ** und erstellen Sie einen neuen Eintrag:
+Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Integration*. Klicken Sie auf *OAuth-Provider* und erstellen Sie einen neuen Eintrag:
 
-Provider Name: `Login with GitLab`  
-Auth Flow: `OpenID Connect (authorization code flow)`  
-Token Map: `sub:user_id`  
-Client ID: `a0816649461bcd17f7e7574ea5b5ff2deedba3ccaf6613b4255f497ae05aeef4`  
-Client Secret: `**************************************************`  
-Allowed: `[x]`  
-Body: `Login with GitLab`  
-Authorization URL: `https://gitlab.com/oauth/authorize`  
-Scope: `openid`  
-Token URL: `https://gitlab.com/oauth/token`  
-JWKS URL: `https://gitlab.com/-/jwks`
+* **Provider Name**: `Login with GitLab`
+* **Auth Flow**: `OpenID Connect (authorization code flow)`
+* **Token Map**: `sub:user_id`
+* **Client ID**: `a0816649461bcd17f7e7574ea5b5ff2deedba3ccaf6613b4255f497ae05aeef4`
+* **Client Secret**: `**************************************************`
+* **Allowed**: `[x]`
+* **Body**: `Login with GitLab`
+* **Authorization URL**: `https://gitlab.com/oauth/authorize`
+* **Scope**: `openid`
+* **Token URL**: `https://gitlab.com/oauth/token`
+* **JWKS URL**: `https://gitlab.com/-/jwks`
+
+### Login mit Keycloak konfigurieren
+
+Damit Sie mit einem Keycloak-Account in Odoo einloggen können, müssen Sie als erstes ein OAuth-Client in einem ausgewählten Keycloak Realm erstellen. Im folgenden Beispiel ist Odoo-Installation unter <https://sozialinfo.16.odoo.build> und eine Keycloak-Instanz unter <https://login.mintsys.ch> verügbar.
+
+Loggen Sie sich bei Keycloak ein und erstellen Sie einen neuen Client mit diesen Informationen:
+
+* **Client type**: OpenID Connect
+* **Client ID**: `sozialinfo.16.odoo.build`
+* **Client authentication**: On
+* **Root URL**: <https://sozialinfo.16.odoo.build>
+
+Öffnen Sie den *Credentials* Tab des Client und notieren Sie sich den Wert von *Client secret*.
+
+Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Integration*. Klicken Sie auf *OAuth Provider* und erstellen Sie einen neuen Eintrag:
+
+* **Provider Name**: `Login with Keycloak`
+* **Auth Flow**: `OpenID Connect (authorization code flow)`
+* **Token Map**: `sub:user_id`
+* **Client ID**: `sozialinfo.16.odoo.build`
+* **Client Secret**: Fügen Sie das notierte *Client secret* ein
+* **Allowed**: `[x]`
+* **Body**: `Login with Keycloak`
+* **Authorization URL**: `https://gitlab.com/oauth/authorize`
+* **Scope**: `openid`
+* **Token URL**: `https://gitlab.com/oauth/token`
+* **JWKS URL**: `https://gitlab.com/-/jwks`
 
 ## Verwendung
 
