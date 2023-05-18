@@ -12,3 +12,9 @@ prev: ./stock
 
 Technischer Name: `product_packaging_parent`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/product_packaging_parent>
+
+## Verwendung
+
+### Übergeordnete Verpackung festlegen
+
+Navigieren Sie nach *Lager > Konfiguration > Produkte > Produktverpackungen* und wählen Sie eine Produktverpackung aus. Im Feld *Parent Packaging* können Sie eine Produktverpackung als übergeordnete Verpackung festlegen.
