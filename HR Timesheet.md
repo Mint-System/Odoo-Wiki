@@ -21,11 +21,11 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 
 ## Erweiterungen
 
-| Erweiterung                                                      | Beschreibung                                |
-| ---------------------------------------------------------------- | ------------------------------------------- |
-| [HR Timesheet From Until](HR%20Timesheet%20From%20Until.md)      | Berechnung Dauer anhand Start- und Endzeit. |
-| [HR Timesheet Multiline Name](HR%20Timesheet%20Multiline%20Name) | Mehrzeilige Beschreibung in Zeiterfassung.  |
-| [Task Timer Advance](Sh%20Task%20Time%20Adv.md)                | Aufgaben-Timer einfacher starten und beenden.                                            |
+| Erweiterung                                                      | Beschreibung                                  |
+| ---------------------------------------------------------------- | --------------------------------------------- |
+| [HR Timesheet From Until](HR%20Timesheet%20From%20Until.md)      | Berechnung Dauer anhand Start- und Endzeit.   |
+| [HR Timesheet Multiline Name](HR%20Timesheet%20Multiline%20Name) | Mehrzeilige Beschreibung in Zeiterfassung.    |
+| [Task Timer Advance](Sh%20Task%20Time%20Adv.md)                  | Aufgaben-Timer einfacher starten und beenden. |
 
 ## Konfiguration
 

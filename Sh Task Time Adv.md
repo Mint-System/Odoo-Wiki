@@ -7,7 +7,7 @@ tags:
 prev: ./hr-timesheet
 ---
 # {{ $frontmatter.title }}
-![](assets/icons_odoo_printnode_base.png)
+![odoo_icon_sh_task_time_adv](assets/odoo_icon_sh_task_time_adv.png)
 
 {{ $frontmatter.description }}
 
