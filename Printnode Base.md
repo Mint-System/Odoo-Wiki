@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Jeden Odoo Bericht oder Etikette von überall nach überall drucken.
 tags:
 - HowTo
 - Drittanbieter
@@ -8,7 +8,7 @@ prev: ./iot
 # Odoo Direct Print
 ![](assets/icons_odoo_printnode_base.png)
 
-Jeden Odoo Bericht oder Etikette von überall nach überall drucken.
+{{ $frontmatter.description }}
 
 Technischer Name: `printnode_base`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/printnode_base>\
