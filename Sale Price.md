@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Produkte, Preislisten und Varianten zentral pflegen.
 tags:
 - HowTo
 prev: ./sale
@@ -7,7 +7,7 @@ prev: ./sale
 # Verkauf Preise
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
-Produkte, Preislisten und Varianten zentral pflegen.
+{{ $frontmatter.description }}
 
 ## Konfiguration
 

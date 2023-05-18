@@ -1,5 +1,5 @@
 ---
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Einstellungen für ihren persönlichen Odoo-Benutzer.
 tags:
 - HowTo
 prev: ./
@@ -7,7 +7,7 @@ prev: ./
 # Persönliche Einstellungen
 ![icons_odoo_membership](assets/icons_odoo_membership.png)
 
-Einstellungen für ihren persönlichen Odoo-Benutzer.
+{{ $frontmatter.description }}
 
 ## Einstellungen
 
