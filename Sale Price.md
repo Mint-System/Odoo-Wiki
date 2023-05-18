@@ -9,7 +9,11 @@ prev: ./sale
 
 Produkte, Preislisten und Varianten zentral pflegen.
 
-## Konfiguraiton
+## Konfiguration
+
+### Rabatte aktivieren
+
+Navigieren Sie nach *Verkauf > Konfiguration > Preiskalkulation* und aktivieren Sie die Option *Rabatte*. Sie können nun Rabatte auf Auftragszeilen erfassen.
 
 ### Preislisten aktivieren
 

@@ -32,7 +32,7 @@ Navigieren Sie nach *Personalabrechung > Konfiguration > Regeln* und archivieren
 
 ### Gehaltsstruktur auf Strukturtyp festlegen
 
-Navigieren Sie nach *Personalabrechnung > Konfiguraiton > Strukturtypen* und wählen Sie hier *Montaslohn* aus. Im Feld *Reguläre Gehaltsstruktur* wählen Sie den Wert *Lohnabrechnung* aus und speichern die Bearbeitung.
+Navigieren Sie nach *Personalabrechnung > Konfiguration > Strukturtypen* und wählen Sie hier *Montaslohn* aus. Im Feld *Reguläre Gehaltsstruktur* wählen Sie den Wert *Lohnabrechnung* aus und speichern die Bearbeitung.
 
 ### Strukturtyp auf Arbeitsvertrag festlegen
 
