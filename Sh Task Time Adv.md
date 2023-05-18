@@ -6,7 +6,7 @@ tags:
 - Drittanbieter
 prev: ./hr-timesheet
 ---
-# {{ $frontmatter.title }}
+# Task Timer Advance
 ![odoo_icon_sh_task_time_adv](assets/odoo_icon_sh_task_time_adv.png)
 
 {{ $frontmatter.description }}

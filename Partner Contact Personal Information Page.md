@@ -5,7 +5,7 @@ tags:
 - OCA
 prev: ./partner
 ---
-# # Personal information page for contacts
+# Personal information page for contacts
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Tab in Kontakt-Formular für persönliche Informationen.
