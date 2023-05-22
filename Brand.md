@@ -1,11 +1,12 @@
 ---
+title: Marke
 description: Mehrere Marken für ihr Unternehmen präsentieren.
 tags:
 - HowTo
 - OCA
 prev: ./
 ---
-# Brand
+# Marke
 ![](assets/icons_odoo_brand.png)
 
 {{ $frontmatter.description }}
