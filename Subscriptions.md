@@ -1,4 +1,5 @@
 ---
+title: Abonnements
 description: Wiederkehrende Rechnungsstellung und Management von Abonnenten auf einfache Art und Weise.
 tags:
 - HowTo

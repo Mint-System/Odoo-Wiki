@@ -1,4 +1,5 @@
 ---
+title: HR Birthday Calender
 description: Kalenderansicht aller Geburtstage.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Stock Picking Invoice Link
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

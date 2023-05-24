@@ -1,4 +1,5 @@
 ---
+title: Scanner Zebra TC21
 description: Handscanner für Odoo.
 tags:
 - HowTo

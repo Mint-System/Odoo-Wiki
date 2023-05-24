@@ -1,4 +1,5 @@
 ---
+title: Entwickler
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Referenzsystem

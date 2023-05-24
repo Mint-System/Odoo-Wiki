@@ -1,4 +1,5 @@
 ---
+title: Brand External Report Layout
 description: Dokument-Layout mit Marke verknüpfen.
 tags:
 - HowTo

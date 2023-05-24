@@ -1,4 +1,5 @@
 ---
+title: Sale Move Reconciled Date
 description: Zeigt für eine Rechnung das definitive Abgleichsdatum an.
 tags:
 - HowTo

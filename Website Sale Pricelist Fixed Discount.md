@@ -1,4 +1,5 @@
 ---
+title: Website Sale Pricelist Fixed Discount
 description: Warenkorb mit Rabatten aus Preisliste mit Frestpreis.
 tags:
 - HowTo

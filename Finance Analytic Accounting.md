@@ -1,4 +1,5 @@
 ---
+title: Finanzen Kostenrechnung
 description: Kosten analysieren und Budget plannen.
 tags:
 - HowTo

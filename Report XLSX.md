@@ -1,4 +1,5 @@
 ---
+title: Report XLSX
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

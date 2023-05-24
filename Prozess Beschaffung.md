@@ -1,4 +1,5 @@
 ---
+title: Prozess Beschaffung
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Prozess

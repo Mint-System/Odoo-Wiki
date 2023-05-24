@@ -1,4 +1,5 @@
 ---
+title: Apps Aktionen
 description: Aktionen für Apps einrichten.
 tags:
 - HowTo

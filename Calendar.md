@@ -1,4 +1,5 @@
 ---
+title: Kalender
 description: Termine Team- und Anwendungs-übergreifend organisieren.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Account Missing Menus
 description: Zusätzliche Menu-Punkte von Finanzen anzeigen.
 tags:
 - HowTo

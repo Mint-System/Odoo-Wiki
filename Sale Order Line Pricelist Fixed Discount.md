@@ -1,4 +1,5 @@
 ---
+title: Sale Order Line Pricelist Fixed Discount
 description: Auftragszeilen mit Rabatt aus Preisliste mit Festpreis.
 tags:
 - HowTo

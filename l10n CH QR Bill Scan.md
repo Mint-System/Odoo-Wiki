@@ -1,4 +1,5 @@
 ---
+title: Switzerland QR-Bill Scan
 description: Daten aus QR-Code bei Rechnungsimport auslesen.
 tags:
 - HowTo

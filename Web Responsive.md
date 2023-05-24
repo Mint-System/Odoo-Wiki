@@ -1,4 +1,5 @@
 ---
+title: Web Responsive
 description: Responsive Anzeige der Odoo-Oberfläche.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Lager Bestand
 description: Den Lagerbestand optimal verwalten.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Sale Order Line Position
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

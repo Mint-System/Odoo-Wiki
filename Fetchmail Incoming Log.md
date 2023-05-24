@@ -1,4 +1,5 @@
 ---
+title: Fetchmail Incoming Log
 description: Loggt Informationen zu eingehenden E-Mails.
 tags:
 - HowTo

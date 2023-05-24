@@ -1,4 +1,5 @@
 ---
+title: Holzwirtschaft
 description: Odoo für die Holzwirtschaft.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Fahrzeugflotte
 description: Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträge.
 tags:
 - HowTo

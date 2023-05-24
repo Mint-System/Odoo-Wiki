@@ -1,4 +1,5 @@
 ---
+title: Verschiedene Währungen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

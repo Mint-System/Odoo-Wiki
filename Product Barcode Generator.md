@@ -1,4 +1,5 @@
 ---
+title: Product Barcode Generator
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

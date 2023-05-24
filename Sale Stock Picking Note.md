@@ -1,4 +1,5 @@
 ---
+title: Sale Stock Picking Note
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

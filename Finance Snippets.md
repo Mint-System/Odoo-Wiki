@@ -1,4 +1,5 @@
 ---
+title: Finanzen Snippets
 description: Einfache Anpassungen mit Odoo Snippets.
 tags:
 - HowTo

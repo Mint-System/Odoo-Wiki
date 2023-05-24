@@ -1,4 +1,5 @@
 ---
+title: Lohnmeldung
 description: Lohnmeldungen ganz einfach generieren.
 tags:
 - HowTo

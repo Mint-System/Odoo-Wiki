@@ -1,4 +1,5 @@
 ---
+title: Stock Product Last Move
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Sale Blanket Order CRM Tags
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

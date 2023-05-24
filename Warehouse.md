@@ -1,4 +1,5 @@
 ---
+title: Warenhaus
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Theoretical vs Attended Time Analysis
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

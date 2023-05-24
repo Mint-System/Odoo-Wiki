@@ -1,4 +1,5 @@
 ---
+title: Sale Invoice Carrier
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

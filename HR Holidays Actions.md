@@ -1,4 +1,5 @@
 ---
+title: Abwesenheit Aktionen
 description: Aktionen für Abwesenheit App einrichten.
 tags:
 - HowTo

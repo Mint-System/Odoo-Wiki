@@ -1,4 +1,5 @@
 ---
+title: Partner Type Sale
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Purchase Requisition Notes
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

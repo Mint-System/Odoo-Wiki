@@ -1,4 +1,5 @@
 ---
+title: Stock Aggregated Move Lines
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

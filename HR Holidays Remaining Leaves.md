@@ -1,4 +1,5 @@
 ---
+title: HR Holidays Remining Leaves
 description: Verbleibende Abwesenheitsansprüche der Mitarbeitenden anzeigen.
 tags:
 - HowTo

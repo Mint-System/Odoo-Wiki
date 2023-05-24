@@ -1,4 +1,5 @@
 ---
+title: Odoo Microsoft Account
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

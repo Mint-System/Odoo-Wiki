@@ -1,4 +1,5 @@
 ---
+title: Diskussion Aktivitäten
 description: Arbeitsplanung mit Odoo Aktivitäten.
 tags:
 - HowTo

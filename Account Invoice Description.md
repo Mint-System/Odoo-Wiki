@@ -1,4 +1,5 @@
 ---
+title: Account Invoice Description
 description: Beschreibungsfeld auf Rechnung.
 tags:
 - HowTo

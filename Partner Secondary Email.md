@@ -1,4 +1,5 @@
 ---
+title: Partner Secondary Email
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

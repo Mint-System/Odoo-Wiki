@@ -1,4 +1,5 @@
 ---
+title: Aero Base
 description: Odoo für die Luftfahrt.
 tags:
 - HowTo

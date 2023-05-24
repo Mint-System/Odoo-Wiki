@@ -1,4 +1,5 @@
 ---
+title: Datenbank
 description: Odoo-Instanzen mit dem Datenbankmanager verwalten.
 tags:
 - HowTo

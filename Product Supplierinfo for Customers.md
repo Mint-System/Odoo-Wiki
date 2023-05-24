@@ -1,4 +1,5 @@
 ---
+title: Product Supplierinfo for Customers
 description: Produktspezifische Informationen für ausgewählte Kunden erfassen.
 tags:
 - HowTo

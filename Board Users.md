@@ -1,4 +1,5 @@
 ---
+title: Board Users
 description: Dashboars von allen Benutzer anzeigen.
 tags:
 - HowTo

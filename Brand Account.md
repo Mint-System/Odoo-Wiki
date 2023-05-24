@@ -1,4 +1,5 @@
 ---
+title: Brand Account
 description: Rechnung mit Marke verknüpfen.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Website eCommerce
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Product Listprice Currency
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

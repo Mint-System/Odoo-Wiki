@@ -1,4 +1,5 @@
 ---
+title: Switzerland Disable Default Reports
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

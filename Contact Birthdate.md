@@ -1,4 +1,5 @@
 ---
+title: Contact Birthdate
 description: Geburtstag bei Kontakten speichern für tolle Erinnerungen.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Scanner Zebra DS22
 description: Handscanner für Odoo.
 tags:
 - HowTo

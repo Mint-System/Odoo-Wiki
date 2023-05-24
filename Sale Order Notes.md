@@ -1,4 +1,5 @@
 ---
+title: Sale Order Notes
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

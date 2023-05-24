@@ -1,4 +1,5 @@
 ---
+title: HR Holidays Public
 description: Erstellen Sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.
 tags:
 - HowTo

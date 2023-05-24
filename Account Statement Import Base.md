@@ -1,4 +1,5 @@
 ---
+title: Account Statement Import Base
 description: Basismodul für Import Bankauszüge.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: MRP Workorder Set Producing Qty
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

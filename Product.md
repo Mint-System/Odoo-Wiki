@@ -1,4 +1,5 @@
 ---
+title: Produkt
 description: Produkte und Preise.
 tags:
 - HowTo

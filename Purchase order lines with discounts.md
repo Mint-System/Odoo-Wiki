@@ -1,4 +1,5 @@
 ---
+title: Purchase order lines with discounts
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

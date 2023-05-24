@@ -1,4 +1,5 @@
 ---
+title: Contracts Management Recurring Sales
 description: Aus wiederholenden Verträge Verkaufsangebote generieren.
 tags:
 - HowTo

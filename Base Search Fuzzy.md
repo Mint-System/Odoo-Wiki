@@ -1,4 +1,5 @@
 ---
+title: Base Search Fuzzy
 description: Aktivieren Trigram-Index auf Datenbank-Felder.
 tags:
 - HowTo

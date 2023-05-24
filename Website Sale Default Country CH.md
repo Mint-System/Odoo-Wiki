@@ -1,4 +1,5 @@
 ---
+title: Website Sale Default Country CH
 description: Schweiz als Standardland im Webshop festlegen.
 tags:
 - HowTo

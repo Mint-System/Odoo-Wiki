@@ -1,4 +1,5 @@
 ---
+title: Report QWeb PDF Watermark
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Abwesenheit
 description: Verwaltung von Mitarbeiterurlauben & Abwesenheit.
 tags:
 - HowTo

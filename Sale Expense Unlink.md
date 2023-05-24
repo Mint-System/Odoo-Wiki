@@ -1,4 +1,5 @@
 ---
+title: Sale Expense Unlink
 description: Bei Abbruch Auslagenbericht wird Kundenauftragszeile entfernt.
 tags:
 - HowTo

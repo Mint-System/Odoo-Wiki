@@ -1,4 +1,5 @@
 ---
+title: Verkauf Preise
 description: Produkte, Preislisten und Varianten zentral pflegen.
 tags:
 - HowTo

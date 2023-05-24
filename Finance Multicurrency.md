@@ -1,4 +1,5 @@
 ---
+title: Finanzen Mehrere Währungen
 description: Unterschiedliche Währungen mit Odoo Finanzen verarbeiten.
 tags:
 - HowTo

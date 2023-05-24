@@ -1,4 +1,5 @@
 ---
+title: Stock Quant Package Dimension
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

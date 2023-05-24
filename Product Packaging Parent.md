@@ -1,4 +1,5 @@
 ---
+title: Product Packaging Parent
 description: Übergeordnete Verpackung für Produktverpackung definieren.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Stundenlohn abrechnen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

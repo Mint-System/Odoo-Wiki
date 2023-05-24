@@ -1,4 +1,5 @@
 ---
+title: Web Timeline
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: HR Shortname
 description: Zu jedem Mitarbeitenden ein Kürzel speichern.
 tags:
 - HowTo

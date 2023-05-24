@@ -1,4 +1,5 @@
 ---
+title: Einkauf Aktionen
 description: Arbeitsflüsse in Einkauf automatisieren.
 tags:
 - HowTo

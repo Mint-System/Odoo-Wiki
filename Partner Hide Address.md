@@ -1,4 +1,5 @@
 ---
+title: Partner Hide Address
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

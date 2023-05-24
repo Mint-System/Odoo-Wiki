@@ -1,4 +1,5 @@
 ---
+title: Account Financial Report Show Grouped None
 description: Alle Buchungszeilen bei Auswahl "nicht gruppiert" anzeigen.
 tags:
 - HowTo

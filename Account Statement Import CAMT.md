@@ -1,4 +1,5 @@
 ---
+title: Account Statement Import CAMT
 description: Support Import Bankauszug im CAMT-Format.
 tags:
 - HowTo

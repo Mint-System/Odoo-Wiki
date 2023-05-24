@@ -1,4 +1,5 @@
 ---
+title: Prozess Abwesenheit
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Prozess

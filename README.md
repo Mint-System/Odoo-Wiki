@@ -1,4 +1,5 @@
 ---
+title: Odoo Wiki
 head:
   - - meta
     - name: title

@@ -1,4 +1,5 @@
 ---
+title: Finanzen Aktionen
 description: Neue Aktionen für Buchungen und Abstimmungen.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Sale Expense Link
 description: Verlinkt die Auslagen mit der Kundenauftragszeile.
 tags:
 - HowTo

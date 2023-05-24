@@ -1,4 +1,5 @@
 ---
+title: Definition Beispiel Fahrrad
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

@@ -1,4 +1,5 @@
 ---
+title: Partner Contact Department
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

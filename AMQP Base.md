@@ -1,4 +1,5 @@
 ---
+title: AMQP Base
 description: AMQP Zielhosts verwalten.
 tags:
 - HowTo

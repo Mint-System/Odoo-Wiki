@@ -1,4 +1,5 @@
 ---
+title: Materialbezug in Vorgängen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

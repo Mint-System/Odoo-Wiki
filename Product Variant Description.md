@@ -1,4 +1,5 @@
 ---
+title: Product Variant Description
 description: Verkaufs-, Einkaufs- und Lieferbeschreibung auf Produktvarianten festlegen.
 tags:
 - HowTo

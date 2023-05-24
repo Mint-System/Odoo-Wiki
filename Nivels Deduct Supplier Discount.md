@@ -1,4 +1,5 @@
 ---
+title: Nivels Deduct Supplier Discount
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

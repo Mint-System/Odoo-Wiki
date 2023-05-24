@@ -1,4 +1,5 @@
 ---
+title: Stock Barcode MRP
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

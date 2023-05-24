@@ -1,4 +1,5 @@
 ---
+title: Odoo Datenmanagement
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

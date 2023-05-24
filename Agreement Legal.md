@@ -1,4 +1,5 @@
 ---
+title: Agreement Legal
 description: Verträge und Vereinbarungen dokumentieren.
 tags:
 - HowTo

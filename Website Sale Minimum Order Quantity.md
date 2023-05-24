@@ -1,4 +1,5 @@
 ---
+title: Website Sale Minimum Order Quantity
 description: Legen Sie Mindestbestellmengen für Produkte und Produktvarianten fest.
 tags:
 - HowTo

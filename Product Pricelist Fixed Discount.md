@@ -1,4 +1,5 @@
 ---
+title: Product Pricelist Fixed Discount
 description: Festpreise in Preisliste mit Rabatt.
 tags:
 - HowTo

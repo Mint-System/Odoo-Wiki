@@ -1,4 +1,5 @@
 ---
+title: Onchange Helper
 description: Vereinfacht den Aufruf von Onchange-Methoden im Python Code.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Account Invoice Detail
 description: Verkaufskontakt auf Rechnung einblenden.
 tags:
 - HowTo

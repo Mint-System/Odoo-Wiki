@@ -1,4 +1,5 @@
 ---
+title: Stock MRP Traceability List
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Sale Blanket Order Carrier
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

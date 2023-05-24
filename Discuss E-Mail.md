@@ -1,4 +1,5 @@
 ---
+title: Diskussion E-Mail
 description: E-Mail mit Odoo versenden.
 tags:
 - HowTo

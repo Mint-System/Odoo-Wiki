@@ -1,4 +1,5 @@
 ---
+title: Mail Optional Follower Notification
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Project Timesheet Time Control
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

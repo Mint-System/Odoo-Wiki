@@ -1,4 +1,5 @@
 ---
+title: Stock Production Lot Active
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

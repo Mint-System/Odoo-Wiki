@@ -1,4 +1,5 @@
 ---
+title: Account Move Invoice Partner
 description: Separate Rechnungsadresse auf Rechnung festlegen.
 tags:
 - HowTo

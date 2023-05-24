@@ -1,4 +1,5 @@
 ---
+title: Installation
 description: Odoo installieren und konfigurieren.
 tags:
 - HowTo

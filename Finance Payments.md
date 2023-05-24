@@ -1,4 +1,5 @@
 ---
+title: Finanzen Zahlungen
 description: SEPA- und QR-Zahlungen mit Odoo Finanzen abwickeln.
 tags:
 - HowTo

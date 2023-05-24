@@ -1,4 +1,5 @@
 ---
+title: l10n CH QR Code Ref
 description: Rechnungsname als zusätzliche Information in QR-Code festlegen.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Server Environment Ir Config Parameter
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Zeiterfassung Ansichten
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

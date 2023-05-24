@@ -1,4 +1,5 @@
 ---
+title: Lager Datenmanagement
 description: Daten zu Lager exportieren und importieren.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Diskussion Aktivitäten
 description: Arbeitsflüsse für Diskussion automatisieren.
 tags:
 - HowTo

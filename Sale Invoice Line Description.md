@@ -1,4 +1,5 @@
 ---
+title: Sale Invoice Line Description
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

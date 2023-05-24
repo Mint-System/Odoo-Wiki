@@ -1,4 +1,5 @@
 ---
+title: Buchung Gewinn-/Verlustvortrag
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

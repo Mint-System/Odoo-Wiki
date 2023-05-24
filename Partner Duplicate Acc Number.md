@@ -1,4 +1,5 @@
 ---
+title: Partner Duplicate Acc Number
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Dokumente Aktionen
 description: Arbeitsflüsse mit Dokumenten automatisieren.
 tags:
 - HowTo

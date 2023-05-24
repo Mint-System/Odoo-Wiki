@@ -1,4 +1,5 @@
 ---
+title: Holzwirtschaft Projekt
 description: Erweiterung Projektmanagement für die Holzwirtschaft.
 tags:
 - HowTo

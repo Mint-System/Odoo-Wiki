@@ -1,4 +1,5 @@
 ---
+title: MuK REST API for Odoo
 description: Stellt eine REST API für den Odoo Server bereit.
 tags:
 - HowTo

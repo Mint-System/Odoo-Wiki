@@ -1,4 +1,5 @@
 ---
+title: Lager Verpackungen
 description: Verpackungen effizient verwalten.
 tags:
 - HowTo

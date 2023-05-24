@@ -1,4 +1,5 @@
 ---
+title: Einstellungen Übersetzungen
 description: Einstellungen zu Sprachpakete und Übersetzungen.
 tags:
 - HowTo

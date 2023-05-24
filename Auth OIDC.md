@@ -1,4 +1,5 @@
 ---
+title: Authentication OpenID Connect
 description: Login mit OpenID Connect Provider.
 tags:
 - HowTo

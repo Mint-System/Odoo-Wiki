@@ -1,4 +1,5 @@
 ---
+title: Project Key Link Type
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

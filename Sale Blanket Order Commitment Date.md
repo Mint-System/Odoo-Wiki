@@ -1,4 +1,5 @@
 ---
+title: Sale Blanket Order Commitment Date
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

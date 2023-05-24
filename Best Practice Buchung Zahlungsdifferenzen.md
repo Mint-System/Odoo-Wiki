@@ -1,4 +1,5 @@
 ---
+title: Buchung Zahlungsdifferenzen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

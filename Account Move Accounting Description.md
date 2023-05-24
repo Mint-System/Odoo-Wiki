@@ -1,4 +1,5 @@
 ---
+title: Account Move Accounting Description
 description: Beschreibungsfeld für Rechnungszeile.
 tags:
 - HowTo

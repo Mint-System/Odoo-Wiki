@@ -1,4 +1,5 @@
 ---
+title: Odoo Direct Print
 description: Jeden Odoo Bericht oder Etikette von überall nach überall drucken.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Swiss QR/ESR scan
 description: Rechnung anhand QR-Daten erstellen.
 tags:
 - HowTo

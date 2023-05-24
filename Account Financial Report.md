@@ -1,4 +1,5 @@
 ---
+title: Account Financial Report
 description: Finanzberichte der Odoo Community Assocation.
 tags:
 - HowTo

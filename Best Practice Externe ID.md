@@ -1,4 +1,5 @@
 ---
+title: Externe ID
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

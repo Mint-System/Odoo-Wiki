@@ -1,4 +1,5 @@
 ---
+title: Entwicklung Aktionen
 description: Eigene Odoo Aktionen erstellen.
 tags:
 - HowTo

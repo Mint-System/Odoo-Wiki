@@ -1,4 +1,5 @@
 ---
+title: Lager Vorgänge
 description: Vorgänge im Lager ausführen.
 tags:
 - HowTo

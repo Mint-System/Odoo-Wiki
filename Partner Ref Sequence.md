@@ -1,4 +1,5 @@
 ---
+title: Partner Ref Sequence
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

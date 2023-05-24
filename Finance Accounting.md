@@ -1,4 +1,5 @@
 ---
+title: Finanzen Buchhaltung
 description: Kontenplan einrichten und Buchungen erstellen.
 tags:
 - HowTo

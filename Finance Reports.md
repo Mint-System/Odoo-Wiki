@@ -1,4 +1,5 @@
 ---
+title: Finanzen Berichte
 description: Finanzberichte erstellen.
 tags:
 - HowTo

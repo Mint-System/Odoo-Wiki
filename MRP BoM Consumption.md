@@ -1,4 +1,5 @@
 ---
+title: MRP BoM Consumption
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

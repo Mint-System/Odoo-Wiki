@@ -1,4 +1,5 @@
 ---
+title: Purchase Order Partner Shipping
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

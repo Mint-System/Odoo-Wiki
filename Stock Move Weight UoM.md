@@ -1,4 +1,5 @@
 ---
+title: Stock Move Weight UoM
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

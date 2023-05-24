@@ -1,4 +1,5 @@
 ---
+title: Account Statement Import
 description: Bankauszüge importieren.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Fertigung Datenmanagement
 description: Produkte und Dienstleistungen zentral pflegen.
 tags:
 - HowTo

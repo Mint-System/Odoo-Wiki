@@ -1,4 +1,5 @@
 ---
+title: Product Logistics UoM
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

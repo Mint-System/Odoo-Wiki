@@ -40,6 +40,7 @@ if (!firstArg || ['all', 'frontmatter'].indexOf(firstArg) >= 0) {
         }
 
         // Find title
+        let content = []
         let frontmatter = []
         let isFrontmatter = false
         for (let line of lines) {
@@ -49,9 +50,30 @@ if (!firstArg || ['all', 'frontmatter'].indexOf(firstArg) >= 0) {
             if (isFrontmatter && !line.startsWith('---')) {
                 frontmatter.push(line)
             }
+            if (!isFrontmatter && !line.startsWith('---')) {
+                content.push(line)
+            }
         }
 
-        console.log(frontmatter)
+        // Update frontmatter title
+        frontmatterTitle = 'title: ' + title
+        let hasFrontmatterTitle = false
+        for (let i in frontmatter) {
+            line = frontmatter[i]
+            if (line.startsWith('title: ')) {
+                hasFrontmatterTitle = true
+                frontmatter[i] = frontmatterTitle 
+            }
+        }
+        if (!hasFrontmatterTitle) {
+            frontmatter.unshift(frontmatterTitle)
+        }
+
+        // add footer
+        new_content = ['---'].concat(frontmatter, ['---'], content).join('\n')
+
+        // Write content to file
+        fs.writeFileSync(file, new_content, 'utf8')
     })
 
     // log

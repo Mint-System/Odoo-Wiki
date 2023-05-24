@@ -1,4 +1,5 @@
 ---
+title: l10n CH Invoice Reports with Payments
 description: Rechnung mit Zahlungsschein und Zahlungsdetails drucken.
 tags:
 - HowTo

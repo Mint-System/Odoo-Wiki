@@ -1,4 +1,5 @@
 ---
+title: Finanzen
 description: Ihre Buchhaltung einfach und korrekt.
 tags:
 - HowTo

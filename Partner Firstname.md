@@ -1,4 +1,5 @@
 ---
+title: Partner first name and last name
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

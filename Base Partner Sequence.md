@@ -1,4 +1,5 @@
 ---
+title: Base Partner Sequence
 description: Sequenz auf Kundenreferenz.
 tags:
 - HowTo

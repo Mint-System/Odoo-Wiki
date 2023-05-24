@@ -1,4 +1,5 @@
 ---
+title: Zustände von Einkauf- und Verkaufsaufträgen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

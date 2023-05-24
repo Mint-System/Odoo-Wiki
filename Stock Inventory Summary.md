@@ -1,4 +1,5 @@
 ---
+title: Stock Inventory Summary
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

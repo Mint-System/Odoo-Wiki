@@ -1,4 +1,5 @@
 ---
+title: Entwicklung
 description: Odoo mühelos anpassen und erweitern.
 tags:
 - HowTo

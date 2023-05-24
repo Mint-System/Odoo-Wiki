@@ -1,4 +1,5 @@
 ---
+title: Project Phase
 description: Projektaufgaben mit Projektphasen verwalten.
 tags:
 - HowTo

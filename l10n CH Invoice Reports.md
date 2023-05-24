@@ -1,4 +1,5 @@
 ---
+title: Switzerland Invoice Reports with payment option
 description: Rechnung mit ISR- und/oder QR-Zahlung drucken.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Einstellungen Technisch
 description: Technische Einstellungen zur Odoo-Datenbank.
 tags:
 - HowTo

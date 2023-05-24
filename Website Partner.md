@@ -1,4 +1,5 @@
 ---
+title: Website Partner
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

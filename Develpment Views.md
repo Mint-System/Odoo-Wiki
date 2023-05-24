@@ -1,4 +1,5 @@
 ---
+title: Entwicklung Ansichten
 description: Odoo Ansichten anpassen.
 tags:
 - HowTo

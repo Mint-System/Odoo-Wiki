@@ -1,4 +1,5 @@
 ---
+title: Custom Hour Interval for Holidays
 description: Start- und End-Zeit für Abwesenheiten eintragen.
 tags:
 - HowTo

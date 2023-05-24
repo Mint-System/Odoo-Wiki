@@ -1,4 +1,5 @@
 ---
+title: Sale Product Set Layout
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

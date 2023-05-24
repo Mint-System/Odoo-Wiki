@@ -1,4 +1,5 @@
 ---
+title: Verträge
 description: Wiederholende Verträge verwalten und automatisch verrechnen.
 tags:
 - HowTo

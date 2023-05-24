@@ -1,4 +1,5 @@
 ---
+title: MRP Production Generate Lot
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

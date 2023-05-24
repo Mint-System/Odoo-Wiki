@@ -1,4 +1,5 @@
 ---
+title: Lager Aktionen
 description: Arbeitsflüsse im Lager automatisieren.
 tags:
 - HowTo

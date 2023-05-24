@@ -1,11 +1,12 @@
-
 ---
+title: Qualität Aktionen
 description: Arbeitsflüsse im Qualitätsmanagement automatisieren.
 tags:
 - HowTo
 - Aktionen
 prev: ./quality
 ---
+
 # Qualität Aktionen
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 

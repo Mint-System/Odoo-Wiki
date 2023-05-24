@@ -1,4 +1,5 @@
 ---
+title: QR-Rechnung
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

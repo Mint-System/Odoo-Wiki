@@ -1,4 +1,5 @@
 ---
+title: Finanzen Abstimmung
 description: Bankkonto mit Odoo abgleichen.
 tags:
 - HowTo

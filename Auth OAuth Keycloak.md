@@ -1,4 +1,5 @@
 ---
+title: Auth OAuth Keycloak
 description: Ermöglich Keycloak Integration mit Odoo OAuth.
 tags:
 - HowTo

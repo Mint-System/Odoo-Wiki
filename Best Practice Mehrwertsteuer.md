@@ -1,4 +1,5 @@
 ---
+title: Mehrwertsteuer
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

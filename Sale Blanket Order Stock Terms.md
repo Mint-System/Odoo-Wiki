@@ -1,4 +1,5 @@
 ---
+title: Sale Blanket Order Stock Terms
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

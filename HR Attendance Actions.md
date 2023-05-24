@@ -1,4 +1,5 @@
 ---
+title: Anwesenheit Aktionen
 description: Aktionen für Anwesenheit App einrichten.
 tags:
 - HowTo

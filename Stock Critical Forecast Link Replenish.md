@@ -1,4 +1,5 @@
 ---
+title: Stock Critical Forecast Link Replenish
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

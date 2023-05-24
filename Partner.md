@@ -1,4 +1,5 @@
 ---
+title: Kontakte
 description: Alle Kontaktdaten an einem Ort.
 tags:
 - HowTo

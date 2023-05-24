@@ -1,4 +1,5 @@
 ---
+title: Finanzen Mehrwertsteuer
 description: Mehrwertsteuer einfach abrechnen mit Odoo.
 tags:
 - HowTo

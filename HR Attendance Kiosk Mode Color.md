@@ -1,4 +1,5 @@
 ---
+title: HR Attendance Kiosk Mode Color
 description: An- und Abmelden bei Anwesenheit farblich markieren.
 tags:
 - HowTo

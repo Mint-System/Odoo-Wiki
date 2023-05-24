@@ -1,4 +1,5 @@
 ---
+title: Purchase Requisition Other Information Page
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

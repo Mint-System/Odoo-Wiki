@@ -1,4 +1,5 @@
 ---
+title: Purchase Requisition Fiscal
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

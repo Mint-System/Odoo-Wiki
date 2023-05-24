@@ -1,4 +1,5 @@
 ---
+title: Personalabrechnung Aktionen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

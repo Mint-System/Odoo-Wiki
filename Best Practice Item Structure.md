@@ -1,4 +1,5 @@
 ---
+title: Item Structure
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

@@ -1,4 +1,5 @@
 ---
+title: Sale Product Set
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

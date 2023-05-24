@@ -1,4 +1,5 @@
 ---
+title: Project Task Default Stage
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

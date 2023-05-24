@@ -1,4 +1,5 @@
 ---
+title: Link Tracker
 description: Web-Kampagnen und E-Mails verfolgen.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Personalabrechnung
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

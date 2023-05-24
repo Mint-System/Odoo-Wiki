@@ -1,4 +1,5 @@
 ---
+title: Personal Aktivitäten
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

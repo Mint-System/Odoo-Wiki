@@ -1,4 +1,5 @@
 ---
+title: Account Statement Import Camt54
 description: Camt54 Bankauszug mit den Details zu Einzahlungen importieren.
 tags:
 - HowTo

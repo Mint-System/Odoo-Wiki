@@ -1,4 +1,5 @@
 ---
+title: Impersonate
 description: Schnelles Wechseln zwischen Benutzer-Accounts.
 tags:
 - HowTo

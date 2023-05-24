@@ -1,4 +1,5 @@
 ---
+title: Lager konfigurieren
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

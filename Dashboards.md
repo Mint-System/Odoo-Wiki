@@ -1,4 +1,5 @@
 ---
+title: Dashboards
 description: Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 tags:
 - HowTo

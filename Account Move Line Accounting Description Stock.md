@@ -1,4 +1,5 @@
 ---
+title: Account Move Line Accounting Description Stock
 description: Beschreibung Lagerbuchung auf Rechnung übertragen.
 tags:
 - HowTo

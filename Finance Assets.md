@@ -1,4 +1,5 @@
 ---
+title: Finanzen Anlagenverwaltung
 description: Anlagen verwalten und automatisch Abschreibungen erstellen.
 tags:
 - HowTo

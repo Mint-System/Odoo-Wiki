@@ -1,4 +1,5 @@
 ---
+title: Partner Contact Location in Name
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

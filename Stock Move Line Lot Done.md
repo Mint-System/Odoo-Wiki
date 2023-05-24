@@ -1,4 +1,5 @@
 ---
+title: Stock Move Line Lot Done
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

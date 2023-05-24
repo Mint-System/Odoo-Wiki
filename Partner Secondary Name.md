@@ -1,4 +1,5 @@
 ---
+title: Partner Secondary Name
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

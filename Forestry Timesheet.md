@@ -1,4 +1,5 @@
 ---
+title: Holzwirtschaft Zeiterfassung
 description: Erweiterung Zeiterfassung für die Holzwirtschaft.
 tags:
 - HowTo

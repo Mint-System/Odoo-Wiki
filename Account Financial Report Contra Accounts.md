@@ -1,4 +1,5 @@
 ---
+title: Account Financial Report Contra Accounts
 description: Gegenkontos für Hauptbuch OCA-Finanzbericht bereitstellen.
 tags:
 - HowTo

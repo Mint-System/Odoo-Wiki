@@ -1,4 +1,5 @@
 ---
+title: Website Date of Birth
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

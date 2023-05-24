@@ -1,4 +1,5 @@
 ---
+title: Sale Order Unsubscribe
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

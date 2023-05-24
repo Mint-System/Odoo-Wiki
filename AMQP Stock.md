@@ -1,4 +1,5 @@
 ---
+title: AMQP Stock
 description: Lagervorgänge als AMQP-Nachrichten empfangen und versenden.
 tags:
 - HowTo

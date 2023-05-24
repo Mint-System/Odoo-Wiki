@@ -1,4 +1,5 @@
 ---
+title: Lohnabrechnung
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

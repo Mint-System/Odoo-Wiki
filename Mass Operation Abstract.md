@@ -1,4 +1,5 @@
 ---
+title: Mass Operation Abstract
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

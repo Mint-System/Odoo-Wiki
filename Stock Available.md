@@ -1,4 +1,5 @@
 ---
+title: Stock available to promise
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

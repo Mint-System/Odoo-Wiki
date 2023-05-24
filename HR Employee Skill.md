@@ -1,4 +1,5 @@
 ---
+title: HR Employee Skill
 description: Übersicht der Mitarbeiterfähigkeiten.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Best-Practice Stückpreis definieren
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

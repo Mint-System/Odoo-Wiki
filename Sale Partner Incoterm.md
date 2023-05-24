@@ -1,4 +1,5 @@
 ---
+title: Default sales incoterm per partner
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

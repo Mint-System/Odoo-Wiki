@@ -1,4 +1,5 @@
 ---
+title: Mitarbeit
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Readme

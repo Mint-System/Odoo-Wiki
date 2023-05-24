@@ -1,4 +1,5 @@
 ---
+title: Mass Editing
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

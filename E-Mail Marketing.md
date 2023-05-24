@@ -1,4 +1,5 @@
 ---
+title: E-Mail-Marketing
 description: E-Mail-Marketing leicht gemacht.
 tags:
 - HowTo

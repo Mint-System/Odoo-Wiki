@@ -1,4 +1,5 @@
 ---
+title: Kit bereitstellen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

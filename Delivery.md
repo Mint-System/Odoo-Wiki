@@ -1,9 +1,5 @@
-Versand---
-description: Eine einfache und umfassende Odoo-Dokumentation.
-tags:
-- HowTo
-prev: ./
 ---
+title: Versand
 # Versand
 ![icon_odoo_website_sale_delivery](assets/icon_odoo_website_sale_delivery.png)
 
@@ -86,3 +82,10 @@ Das einlagerbare Auslieferungsprodukt muss für diesen Vorgang eine Lager-Route 
 Erstellen Sie einen Lagereingang mit der Menge der eingegangen *Auslieferugnsprodukte*.
 
 ![](assets/Verkauf%20Versand%20Rückgabe%20Auslieferungsprodukt%20erfassen.png)
+
+---
+Versand---
+description: Eine einfache und umfassende Odoo-Dokumentation.
+tags:
+- HowTo
+prev: ./

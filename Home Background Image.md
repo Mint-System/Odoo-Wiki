@@ -1,4 +1,5 @@
 ---
+title: Home Backround Image
 description: Den Odoo-Startbildschirm gestalten.
 tags:
 - HowTo

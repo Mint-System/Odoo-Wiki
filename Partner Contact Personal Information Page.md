@@ -1,4 +1,5 @@
 ---
+title: Personal information page for contacts
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

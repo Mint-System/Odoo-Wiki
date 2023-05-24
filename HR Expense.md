@@ -1,4 +1,5 @@
 ---
+title: Aufwand
 description: Spesen erfassen und abrechnen.
 tags:
 - HowTo

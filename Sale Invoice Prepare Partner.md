@@ -1,4 +1,5 @@
 ---
+title: Sale Invoice Prepare Partner
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

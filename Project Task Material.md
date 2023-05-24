@@ -1,4 +1,5 @@
 ---
+title: Project Task Material
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

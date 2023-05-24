@@ -1,4 +1,5 @@
 ---
+title: Rollen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Referenzsystem

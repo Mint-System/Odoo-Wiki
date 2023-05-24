@@ -1,4 +1,5 @@
 ---
+title: Einstellungen
 description: Odoo-Einstellungen aktivieren und konfigurieren.
 tags:
 - HowTo

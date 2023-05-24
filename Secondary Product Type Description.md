@@ -1,4 +1,5 @@
 ---
+title: Secondary Product Type Description
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Lager Vorgangstypen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

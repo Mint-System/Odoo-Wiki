@@ -1,4 +1,5 @@
 ---
+title: Persönliche Einstellungen
 description: Einstellungen für ihren persönlichen Odoo-Benutzer.
 tags:
 - HowTo

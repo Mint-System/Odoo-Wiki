@@ -1,4 +1,5 @@
 ---
+title: Odoo Mobile App
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Verkauf Lager
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

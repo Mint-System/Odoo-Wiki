@@ -1,4 +1,5 @@
 ---
+title: Aufwand Aktionen
 description: Aktionen für Aufwand App einrichten.
 tags:
 - HowTo

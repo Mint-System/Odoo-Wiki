@@ -1,4 +1,5 @@
 ---
+title: Stock Production Lot Date
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

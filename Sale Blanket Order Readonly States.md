@@ -1,4 +1,5 @@
 ---
+title: Sale Blanket Order Readonly States
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

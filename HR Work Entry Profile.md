@@ -1,4 +1,5 @@
 ---
+title: HR Work Entry Profile
 description: Mitarbeiter können ihre Arbeitseinträge im Profile anzeigen.
 tags:
 - HowTo

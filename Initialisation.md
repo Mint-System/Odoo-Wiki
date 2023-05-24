@@ -1,4 +1,5 @@
 ---
+title: Initialisierung
 description: Richten Sie ihre Odoo-Umgebung ein.
 tags:
 - HowTo

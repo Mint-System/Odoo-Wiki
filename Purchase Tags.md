@@ -1,4 +1,5 @@
 ---
+title: Purchase Tags
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

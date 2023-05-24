@@ -1,4 +1,5 @@
 ---
+title: Umfragen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

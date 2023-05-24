@@ -1,4 +1,5 @@
 ---
+title: Stock Account Location Valued
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

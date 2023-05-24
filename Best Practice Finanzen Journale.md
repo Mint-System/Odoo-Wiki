@@ -1,4 +1,5 @@
 ---
+title: Journale
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

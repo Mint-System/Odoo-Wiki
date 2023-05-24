@@ -1,4 +1,5 @@
 ---
+title: Product Feeder ID
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Use Case - Schokoladenfabrik
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Use-Case

@@ -1,4 +1,5 @@
 ---
+title: Verkauf Aktionen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Sale Subscription Disable Tokenization
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

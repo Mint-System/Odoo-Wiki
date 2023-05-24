@@ -1,4 +1,5 @@
 ---
+title: Devisenhandel
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice

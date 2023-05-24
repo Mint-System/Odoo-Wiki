@@ -1,4 +1,5 @@
 ---
+title: Ignore planned receptions in quantity available to promise
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

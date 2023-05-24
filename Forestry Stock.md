@@ -1,4 +1,5 @@
 ---
+title: Holzwirtschaft Lager
 description: Erweiterung Lager für die Holzwirtschaft.
 tags:
 - HowTo

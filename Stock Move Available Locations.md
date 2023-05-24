@@ -1,4 +1,5 @@
 ---
+title: Stock Move Available Locations
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

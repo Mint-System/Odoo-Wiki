@@ -1,4 +1,5 @@
 ---
+title: Einstellungen Aktionen
 description: Odoo-Einstellungen automatisieren.
 tags:
 - HowTo

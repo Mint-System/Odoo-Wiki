@@ -1,4 +1,5 @@
 ---
+title: Stock Picking MRP Production Done
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

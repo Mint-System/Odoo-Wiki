@@ -1,4 +1,5 @@
 ---
+title: Sale Invoice Cash Rounding Default
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

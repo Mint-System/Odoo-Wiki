@@ -1,4 +1,5 @@
 ---
+title: Diskussion
 description: In alle Module integrierter privater Chat und Gruppen-Chat.
 tags:
 - HowTo

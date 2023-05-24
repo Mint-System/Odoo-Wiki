@@ -1,4 +1,5 @@
 ---
+title: Sale Order Line Default Packaging
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

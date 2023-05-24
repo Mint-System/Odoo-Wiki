@@ -1,4 +1,5 @@
 ---
+title: Wissen
 description: Wissenstransfer für Teams vereinfachen.
 tags:
 - HowTo

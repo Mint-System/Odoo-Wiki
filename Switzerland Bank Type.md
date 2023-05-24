@@ -1,4 +1,5 @@
 ---
+title: Switzerland Bank Type
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: BI SQL Editor
 description: Ganz einfach SQL-basierte Berichte erstellen.
 tags:
 - HowTo

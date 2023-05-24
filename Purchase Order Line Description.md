@@ -1,4 +1,5 @@
 ---
+title: Purchase Order Line Description
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

@@ -1,4 +1,5 @@
 ---
+title: Purchase Requisition User
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

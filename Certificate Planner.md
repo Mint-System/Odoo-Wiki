@@ -1,4 +1,5 @@
 ---
+title: Certificate Planner
 description: Anleitung zur Odoo-App Certificate Planner.
 tags:
 - HowTo

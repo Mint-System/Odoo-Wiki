@@ -1,4 +1,5 @@
 ---
+title: Web Environment Ribbon
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo

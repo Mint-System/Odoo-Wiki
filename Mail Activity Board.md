@@ -1,4 +1,5 @@
 ---
+title: Mail Activity Board
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
