@@ -3,25 +3,11 @@ var path = require('path')
 
 /* arguments:
 all
-index
-convert
-assets
-sitemap
-sidebar
+frontmatter
 */
 
 // settings
 const ignoreFiles = ['_navbar.md', '_sidbar.md']
-const scheme = 'https://'
-const hostname = 'www.odoo-wiki.org'
-const basePath = '/'
-const basePathAssets = './'
-const uriSuffix = '.html'
-const anchorPrefix = '#'
-const assetsFolder = 'assets'
-const gitUrl = 'https://github.com/Mint-System/Odoo-Handbuch/blob/master/'
-const sidebarAppend = ['glossary.md','contribution.md']
-
 
 function loopMdFiles() {
     return fs.readdirSync(__dirname).filter(file => (file.slice(-3) === '.md') && (ignoreFiles.indexOf(file) != 0))
@@ -32,10 +18,10 @@ var files = []
 var args = process.argv.slice(2);
 var firstArg = args[0]
 
-if (!firstArg || ['all', 'index'].indexOf(firstArg) >= 0) {
+if (!firstArg || ['all', 'frontmatter'].indexOf(firstArg) >= 0) {
 
     // log
-    console.log('Build title index ...')
+    console.log('Update frontmatter ...')
 
     // loop all markdown files
     loopMdFiles().forEach((file) => {
@@ -53,16 +39,21 @@ if (!firstArg || ['all', 'index'].indexOf(firstArg) >= 0) {
             }
         }
 
-        // Use filename as title
-        if (!title) {
-            title = file.replace('.md','')
-            // throw new Error(`Could not find title for '${file}'.`)
+        // Find title
+        let frontmatter = []
+        let isFrontmatter = false
+        for (let line of lines) {
+            if (line.startsWith('---')) {
+                isFrontmatter = !isFrontmatter
+            }
+            if (isFrontmatter && !line.startsWith('---')) {
+                frontmatter.push(line)
+            }
         }
 
-        // create file link list
-        files.push({ source: title, target: file, firstLetter: title[0].toUpperCase() })
+        console.log(frontmatter)
     })
 
     // log
-    console.log('Building title index finished.')
+    console.log('Updating frontmatter.')
 }
