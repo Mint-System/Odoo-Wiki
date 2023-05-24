@@ -29,3 +29,9 @@ Beispielsweise beim Erfassen der Zeit:
 * **Zielort**: Zielort aus Aufgabe
 * **Transport**: Transporteuer
 * **Km**: Zurückgelegte Distanz
+
+## Berichte
+
+### Lieferschein zu Auftrag drucken
+
+Zeigen Sie einen Auftrag via *Projekte > Alle Aufgaben* an und wählen Sie *Drucken > Lieferschein*.
