@@ -1,6 +1,6 @@
 ---
 title: Mail Composer Default Template
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Standardvorlage für Mail-Dialog festlegen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./discuss
 # Mail Composer Default Template
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Standardvorlage für Mail-Dialog festlegen.
+{{ $frontmatter.description }}
  
 Technischer Name: `mail_composer_default_template`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_composer_default_template>

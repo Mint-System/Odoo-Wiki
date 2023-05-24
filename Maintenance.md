@@ -1,6 +1,6 @@
 ---
 title: Wartung
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Wartungs-Software für moderne Hersteller.
 tags:
 - HowTo
 prev: ./
@@ -8,6 +8,6 @@ prev: ./
 # Wartung
 ![icons_odoo_maintenance](assets/icons_odoo_maintenance.png)
 
-Wartungs-Software für moderne Hersteller.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/maintenance>

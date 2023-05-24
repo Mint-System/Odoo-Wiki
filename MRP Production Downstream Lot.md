@@ -1,6 +1,6 @@
 ---
 title: MRP Production Downstream Lot
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Los auf verknüpfte Lieferung übertragen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./manufacture
 # MRP Production Downstream Lot
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Los auf verknüpfte Lieferung übertragen.
+{{ $frontmatter.description }}
 
 Technischer Name: `mrp_production_downstream_lot`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_production_downstream_lot>

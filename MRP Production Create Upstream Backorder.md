@@ -1,6 +1,6 @@
 ---
 title: MRP Production Create Upstream Backorder
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Erstelle Nachlieferungen für Pickings von Fertigungsaufträgen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./manufacture
 # MRP Production Create Upstream Backorder
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Erstelle Nachlieferungen für Pickings von Fertigungsaufträgen.
+{{ $frontmatter.description }}
 
 Technischer Name: `mrp_production_create_upstream_backorder`\
 Repository: <https://github.com/OCA/product-attribute/tree/14.0/mrp_production_create_upstream_backorder>

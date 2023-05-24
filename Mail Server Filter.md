@@ -1,6 +1,6 @@
 ---
 title: Mail Server Filter
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./development
 # Mail Server Filter
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern.
+{{ $frontmatter.description }}
 
 Technischer Name: `mail_server_filter`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/mail_server_filter>

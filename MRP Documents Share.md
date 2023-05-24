@@ -1,6 +1,6 @@
 ---
 title: MRP Documents Share
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./manufacture
 # MRP Documents Share
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument.
+{{ $frontmatter.description }}
 
 Technischer Name: `mrp_documents_share`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_documents_share>

@@ -1,6 +1,6 @@
 ---
 title: MRP Production Release
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Fertigungsaufträge können zurückgesetzt und freigegebenen werden.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./manufacture
 # MRP Production Release
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Fertigungsaufträge können zurückgesetzt und freigegebenen werden.
+{{ $frontmatter.description }}
 
 Technischer Name: `mrp_production_release`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_production_release>

@@ -1,6 +1,6 @@
 ---
 title: MRP Production Update Upstream Move
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Aktualisiere offene Pickings von Fertigungsaufträgen bei Änderungen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./manufacture
 # MRP Production Update Upstream Move
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Aktualisiere offene Pickings von Fertigungsaufträgen bei Änderungen.
+{{ $frontmatter.description }}
 
 Technischer Name: `mrp_production_update_upstream_move`\
 Repository: <https://github.com/OCA/product-attribute/tree/14.0/mrp_production_update_upstream_move>

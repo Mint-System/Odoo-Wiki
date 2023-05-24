@@ -7,7 +7,6 @@ tags:
 prev: ./sale
 ---
 # Packaging UOM
-
 ![icon_oca_app](assets/icon_oca_app.png)
 
 Mengeneinheit für Produktverpackung festlegen.

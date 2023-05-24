@@ -1,5 +1,6 @@
 ---
 title: Odoo Wiki
+description: Umfassende Dokumentation der Odoo-Funktionen
 head:
   - - meta
     - name: title

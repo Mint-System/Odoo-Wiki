@@ -1,6 +1,6 @@
 ---
 title: Navigation
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Alles zur Navigation in Odoo.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Navigation
 ![icons_odoo_website_crm_score](assets/icons_odoo_website_crm_score.png)
 
-Alles zur Navigation in Odoo.
+{{ $frontmatter.description }}
 
 ## Ansichten
 

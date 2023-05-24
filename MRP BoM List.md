@@ -1,6 +1,6 @@
 ---
 title: MRP BoM List
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Stücklisten-Struktur als Liste anzeigen
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./manufacture
 # MRP BoM List
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Stücklisten-Struktur als Liste anzeigen
+{{ $frontmatter.description }}
 
 Technischer Name: `mrp_bom_list`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_bom_list>

@@ -1,6 +1,6 @@
 ---
 title: Notizen
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Notizen zentral verwalten.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Notizen
 ![icons_odoo_note](assets/icons_odoo_note.png)
 
-Notizen zentral verwalten.
+{{ $frontmatter.description }}
 
 ## Verwendung
 

@@ -1,6 +1,6 @@
 ---
 title: MRP Production Upstream State
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Status von Upstream Lagerbuchung auf Komponentenliste anzeigen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./manufacture
 # MRP Production Upstream State
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Status von Upstream Lagerbuchung auf Komponentenliste anzeigen.
+{{ $frontmatter.description }}
 
 Technischer Name: `mrp_production_upstream_state`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_production_upstream_state>

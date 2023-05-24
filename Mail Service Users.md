@@ -1,6 +1,6 @@
 ---
 title: Mail Service Users
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Service-Benutzer von Lizenzvertrag ausschliessen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./settings-login
 # Mail Service Users
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Service-Benutzer von Lizenzvertrag ausschliessen.
+{{ $frontmatter.description }}
 
 Technischer Name: `mail_service_users`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/15.0/mail_service_users>

@@ -1,6 +1,6 @@
 ---
 title: MRP Production Note
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Notiz auf Fertigungsauftrag hinzufügen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./manufacture
 # MRP Production Note
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Notiz auf Fertigungsauftrag hinzufügen.
+{{ $frontmatter.description }}
 
 Technischer Name: `mrp_production_note`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_production_note>

@@ -1,6 +1,6 @@
 ---
 title: Partner Contact Department
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Erweitert das Adressbuch mit Abteilungen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./partner
 # Partner Contact Department
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Erweitert das Adressbuch mit Abteilungen.
+{{ $frontmatter.description }}
 
 Technischer Name: `partner_contact_department`\
 Repository: <https://github.com/OCA/partner-contact/tree/14.0/partner_contact_department>

@@ -1,6 +1,6 @@
 ---
 title: Odoo.sh
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: The Odoo Cloud Platform.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Odoo.sh
 ![](assets/icons_odoo_server.png)
 
-The Odoo Cloud Platform.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.sh/>
 

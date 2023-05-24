@@ -1,6 +1,6 @@
 ---
 title: Mail Activity Board
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Übersicht aller erstellten Aktivitäten.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./dashboards
 # Mail Activity Board
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Übersicht aller erstellten Aktivitäten.
+{{ $frontmatter.description }}
 
 Technischer Name: `mail_activity_board`\
 Repository: <https://github.com/OCA/social/tree/14.0/mail_activity_board>

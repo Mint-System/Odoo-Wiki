@@ -1,6 +1,6 @@
 ---
 title: Mail Unsubscribe
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Automatische Abmeldung der Follower vor dem Versand einer Nachricht.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./discuss
 # Mail Unsubscribe
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Automatische Abmeldung der Follower vor dem Versand einer Nachricht.
+{{ $frontmatter.description }}
  
 Technischer Name: `mail_unsubscribe`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/15.0/mail_unsubscribe>

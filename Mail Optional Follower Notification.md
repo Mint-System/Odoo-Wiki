@@ -1,6 +1,6 @@
 ---
 title: Mail Optional Follower Notification
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Auswahl Nachrichen an Abonnenten verschicken.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./discuss
 # Mail Optional Follower Notification
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Auswahl Nachrichen an Abonnenten verschicken.
+{{ $frontmatter.description }}
 
 Technischer Name: `mail_optional_follower_notification`\
 Repository: <https://github.com/OCA/social/tree/14.0/mail_optional_follower_notification>

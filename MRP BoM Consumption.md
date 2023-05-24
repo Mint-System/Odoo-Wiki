@@ -1,6 +1,6 @@
 ---
 title: MRP BoM Consumption
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Definieren Sie eine Stückliste, die bei der Lieferung verbraucht wird.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./manufacture
 # MRP BoM Consumption
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Definieren Sie eine Stückliste, die bei der Lieferung verbraucht wird.
+{{ $frontmatter.description }}
 
 Technischer Name: `mrp_bom_consumption`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_bom_consumption>

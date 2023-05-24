@@ -1,16 +1,15 @@
 ---
 title: Nivels Deduct Supplier Discount
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Allow discount deduction on vendor bills.
 tags:
 - HowTo
 - Drittanbieter
 prev: ./finance
 ---
 # Nivels Deduct Supplier Discount
-
 ![](assets/icon-nivels.png)
 
-Allow discount deduction on vendor bills.
+{{ $frontmatter.description }}
 
 Technischer Name: `nivels_deduct_supplier_discount`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/nivels_deduct_supplier_discount>

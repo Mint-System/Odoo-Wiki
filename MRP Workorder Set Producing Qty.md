@@ -1,6 +1,6 @@
 ---
 title: MRP Workorder Set Producing Qty
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Arbeitsauftrag startet ohne erledigte Menge.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./manufacture
 # MRP Workorder Set Producing Qty
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Arbeitsauftrag startet ohne erledigte Menge.
+{{ $frontmatter.description }}
 
 Technischer Name: `mrp_workorder_set_producing_qty`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_workorder_set_producing_qty>

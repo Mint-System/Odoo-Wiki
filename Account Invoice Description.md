@@ -18,4 +18,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.
 
 ### Beschreibung auf Rechnung hinzufügen
 
-Mit dieser Erweiterung erhalten Sie auf Rechnungen *Finanzen > Kunden > Rechnungen* ein zusätzliches Feld *Beschreibung*. Der mehrzeilige Text wird unterhalb des Rechnungstitels angezeigt.
+Mit dieser Erweiterung erhalten Sie auf Rechnungen *Finanzen > Kunden > Rechnungen* ein zusätzliches Feld *Beschreibung*. Der mehrzeilige Text wird unterhalb des Rechnungstitel angezeigt.

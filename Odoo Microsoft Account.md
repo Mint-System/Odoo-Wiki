@@ -1,6 +1,6 @@
 ---
 title: Odoo Microsoft Account
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Login mit Microsoft-Account.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./settings
 # Odoo Microsoft Account
 ![](assets/icons_odoo_microsoft_account.png)
 
-Login mit Microsoft-Account.
+{{ $frontmatter.description }}
 
 Technischer Name: `odoo_microsoft_account`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/16.0/odoo_microsoft_account>\

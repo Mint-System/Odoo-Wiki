@@ -1,6 +1,6 @@
 ---
 title: Mass Editing
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Mühelos mehrere Einträge auf einmal bearbeiten.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./development
 # Mass Editing
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Mühelos mehrere Einträge auf einmal bearbeiten.
+{{ $frontmatter.description }}
 
 Technischer Name: `mass_editing`\
 Repository: <https://github.com/OCA/server-ux/tree/14.0/mass_editing>

@@ -1,6 +1,6 @@
 ---
 title: MRP Production Assign Lot
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Los aus eingehenden Lagerbuchungen an unreservierte Komponenten zuweisen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./manufacture
 # MRP Production Assign Lot
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Los aus eingehenden Lagerbuchungen an unreservierte Komponenten zuweisen.
+{{ $frontmatter.description }}
 
 Technischer Name: `mrp_production_assign_lot`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_production_assign_lot>

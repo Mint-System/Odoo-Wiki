@@ -1,6 +1,6 @@
 ---
 title: MRP Production Generate Lot
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Los für zu fertigende Produkte automatisch generieren.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./manufacture
 # MRP Production Generate Lot
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Los für zu fertigende Produkte automatisch generieren.
+{{ $frontmatter.description }}
 
 Technischer Name: `mrp_production_generate_lot`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_production_generate_lot>

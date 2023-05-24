@@ -1,6 +1,6 @@
 ---
 title: Odoo Mobile App
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Alle Odoo-Funktionen sind als mobile App verfügbar.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Odoo Mobile App
 ![](assets/icons_odoo_app.png)
 
-Alle Odoo-Funktionen sind als mobile App verfügbar.
+{{ $frontmatter.description }}
 
 ## Erweiterungen
 

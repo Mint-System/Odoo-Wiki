@@ -1,6 +1,6 @@
 ---
 title: Mail Activity Done
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Aktivitäten als erledigt markieren.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./dashboards
 # Mail Activity Done
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Aktivitäten als erledigt markieren.
+{{ $frontmatter.description }}
 
 Technischer Name: `mail_activity_done`\
 Repository: <https://github.com/OCA/social/tree/14.0/mail_activity_done>

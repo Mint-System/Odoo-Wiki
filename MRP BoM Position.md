@@ -1,6 +1,6 @@
 ---
 title: MRP BoM Position
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Jede Komponente in der Stückliste erhält eine Positionsnummer.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./order-positions
 # MRP BoM Position
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Jede Komponente in der Stückliste erhält eine Positionsnummer.
+{{ $frontmatter.description }}
 
 Technischer Name: `mrp_bom_position`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_bom_position>

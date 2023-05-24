@@ -1,6 +1,6 @@
 ---
 title: Positionsnummern
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Positionsnummern
 ![icons_odoo_sale](assets/icons_odoo_sale.png)
 
-Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen.
+{{ $frontmatter.description }}
 
 ## Erweiterungen
 

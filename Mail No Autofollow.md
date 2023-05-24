@@ -1,6 +1,6 @@
 ---
 title: Mail No Autofollow
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Beim Erstellen von Nachrichten erfolgt keine automatische Abonnierung.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./discuss
 # Mail No Autofollow
 ![icon_oms_box](assets/icon_oms_box.png)
 
-Beim Erstellen von Nachrichten erfolgt keine automatische Abonnierung.
+{{ $frontmatter.description }}
  
 Technischer Name: `mail_no_autofollow`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/15.0/mail_no_autofollow>

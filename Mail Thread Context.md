@@ -1,6 +1,6 @@
 ---
 title: Mail Thread Context
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Automatisches Abonnieren deaktiveren.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./discuss
 # Mail Thread Context
 ![icon_oms_box](assets/icon_oms_box.png)
 
- Automatisches Abonnieren deaktiveren.
+{{ $frontmatter.description }}
  
 Technischer Name: `mail_thread_context`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_thread_context>
