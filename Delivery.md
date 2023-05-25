@@ -1,5 +1,11 @@
 ---
 title: Versand
+description: Versandmethoden und Logistik definieren.
+tags:
+- HowTo
+prev: ./readme
+---
+
 # Versand
 ![icon_odoo_website_sale_delivery](assets/icon_odoo_website_sale_delivery.png)
 
