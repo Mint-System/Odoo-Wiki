@@ -23,6 +23,6 @@ Damit Rabatte auf aus der Preisliste auf den Warenkorb / Angebot übertragen wir
 
 ![](assets/Website%20Sale%20Pricelist%20Fixed%20Discount%20Preisliste.png)
 
-::: tip
+::: warning
 Die Anwendung von Rabatten funktioniert auch für wiederkehrende Produkte. Dazu müssen Sie die Produktpreise doppelt erfassen, einmal in den *Preisregeln* und einmal in den *Time-based rules*.
 :::
