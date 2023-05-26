@@ -955,11 +955,13 @@ Name der Aktion: `Liefergewicht von Verpackung berechnen`\
 Modell: `stock.quant.package`\
 Triggerbedingung: Bei Erstellung und Aktualisierung\
 Trigger-Feld:
+
 * `​estimated_pack_weight_kg`
 * `pack_weight`
 * `quant_ids`
 * `single_product_qty`
 * `single_product_id`
+
 Anzuwenden auf:
 
 ```python
