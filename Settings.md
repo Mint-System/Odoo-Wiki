@@ -38,6 +38,7 @@ prev: ./
 | [Fetchmail Incoming Log](Fetchmail%20Incoming%20Log.md)         | Loggt Informationen zu eingehenden E-Mails.                          |
 | [Home Background Image](Home%20Background%20Image.md)           | Den Odoo-Startbildschirm gestalten.                                  |
 | [Impersonate](Impersonate.md)                                   | Schnelles Wechseln zwischen Benutzer-Accounts.                       |
+| [Mail Manual Routing](Mail%20Manual%20Routing.md)               | Erlaubt Zuordnung von empfangenen E-Mails.                           |
 | [Mail Server Filter](Mail%20Server%20Filter.md)                 | Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern. |
 | [Mail Service Users](Mail%20Service%20Users.md)                 | Service-Benutzer von Lizenzvertrag ausschliessen.                    |
 | [Odoo Microsoft Account](Odoo%20Microsoft%20Account.md)         | Login mit Microsoft-Account.                                         |
