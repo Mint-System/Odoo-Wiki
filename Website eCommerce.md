@@ -16,6 +16,7 @@ Website: <https://www.odoo.com/de_DE/app/ecommerce>
 
 | Erweiterung                                                                               | Beschreibung                                                         |
 | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [PITS Payment Saferpay](PITS%20Payment%20Saferpay.md)                                     | Saferpay Payment Provider Plugin von PIT Solutions.                  |
 | [Payment Saferpay](Payment%20Saferpay.md)                                                 | Zahlungsanbieter für Saferpay (ohne Zahlungstokens).                 |
 | [Sale Subscription Disable Tokenization](Sale%20Subscription%20Disable%20Tokenization.md) | Abonnements mit Zahlungsanbieter ohne wiederkehrende Zahlung kaufen. |
 | [Website Berichte](Website%20Berichte.md)                                                 | Verkaufszahlen analysieren.                                          |
