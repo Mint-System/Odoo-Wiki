@@ -16,6 +16,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/
 
 ## Verwendung
 
-### Mehrzeilige Adresse in zeiter Strasse hinzufügen
+### Mehrzeilige Adresse in zweiter Strasse hinzufügen
 
 Zeiten Sie *Kontakte* an und öffnen Sie einen Eintrag. Im Feld *Strasse 2* können Sie nun Zeilenumbrüche hinzufügen.
