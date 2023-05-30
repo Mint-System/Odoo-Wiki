@@ -1,6 +1,6 @@
 ---
 title: Zeiterfassung Ansichten
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Ansichten der Zeiterfassung anpassen.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Zeiterfassung Ansichten
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
 
-Ansichten der Zeiterfassung anpassen.
+{{ $frontmatter.description }}
 
 ## Ansichten
 

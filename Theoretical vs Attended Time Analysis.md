@@ -1,6 +1,6 @@
 ---
 title: Theoretical vs Attended Time Analysis
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./hr-attendance
 # Theoretical vs Attended Time Analysis
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. Ideal für Überzeitenmanagement.
+{{ $frontmatter.description }}
 
 Technischer Name: `hr_attendance_report_theoretical_time`\
 Repository: <https://github.com/OCA/hr-attendance/tree/13.0/hr_attendance_report_theoretical_time>

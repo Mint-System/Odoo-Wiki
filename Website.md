@@ -1,6 +1,6 @@
 ---
 title: Website
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Website
 ![icons_odoo_website](assets/icons_odoo_website.png)
 
-Website Builder für Unternehmen. Einfach. Mobil. Open Source.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/website>
 

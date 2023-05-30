@@ -1,6 +1,6 @@
 ---
 title: Ventor PRO
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Android-App für die Lagerbewirtschaftung.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Ventor PRO
 ![](assets/odoo_icon_ventor.png)
 
-Android-App für die Lagerbewirtschaftung.
+{{ $frontmatter.description }}
 
 Website: <https://ventor.app/>
 

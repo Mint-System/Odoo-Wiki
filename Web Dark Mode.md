@@ -1,6 +1,6 @@
 ---
 title: Web Dark Mode
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Dark mode für Weboberfläche.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./settings
 # Web Dark Mode
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Dark mode für Weboberfläche.
+{{ $frontmatter.description }}
 
 Technischer Name: `web_dark_mode`\
 Repository: <https://github.com/OCA/web/tree/16.0/web_dark_mode>

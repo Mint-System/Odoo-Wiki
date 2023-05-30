@@ -1,6 +1,6 @@
 ---
 title: Website eCommerce
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Webshop ohne Integrationsaufwand.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Website eCommerce
 ![](assets/icons_odoo_website_sale.png)
 
-Webshop ohne Integrationsaufwand.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/ecommerce>
 

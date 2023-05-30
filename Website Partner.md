@@ -1,6 +1,6 @@
 ---
 title: Website Partner
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Partner auf Website publizieren.
 tags:
 - HowTo
 prev: ./website
@@ -8,7 +8,7 @@ prev: ./website
 # Website Partner
 ![icons_odoo_website_partner](assets/icons_odoo_website_partner.png)
 
-Partner auf Website publizieren.
+{{ $frontmatter.description }}
 
 ## Verwendung
 

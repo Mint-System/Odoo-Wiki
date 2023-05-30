@@ -1,6 +1,6 @@
 ---
 title: Warenhaus
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Werkhallen und Warenhäuser effizient verwalten.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Warenhaus
 ![](assets/icon_odoo_warehouse.png)
 
-Werkhallen und Warenhäuser effizient verwalten.
+{{ $frontmatter.description }}
 
 ## Erweiterungen
 

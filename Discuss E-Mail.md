@@ -90,7 +90,6 @@ Im Feld *Report Dateiname* können Sie einen alternativen Dateinamen für den An
 ## Testen
 
 ### Testnachrichten verschicken
-Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
 Um sicherzustellen, dass Odoo Nachrichten am richtigen Ort platziert, kann man als Administrator des Systems Testnachrichten erstellen und verschicken.
 

@@ -27,4 +27,4 @@ Prozesse:
 
 ## Rollen
 
-Die Prozessträger und Verwantwortliche werden anhand [Rollen](Rollen.md) identifiziert. Das Rollenkonzept zieht sich durch die gesamte Dokumentation.
+Die Prozessträger und Verwantwortliche werden anhand Rollen identifiziert. Das Rollenkonzept zieht sich durch die gesamte Dokumentation.

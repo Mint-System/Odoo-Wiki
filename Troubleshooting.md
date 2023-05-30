@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Probleme und Lösungen rund um Odoo.
 tags:
 - HowTo
 prev: ./
@@ -9,7 +9,7 @@ prev: ./
 # Troubleshooting
 ![icons_odoo_website_forum](assets/icons_odoo_website_forum.png)
 
-Probleme und Lösungen rund um Odoo.
+{{ $frontmatter.description }}
 
 ## Abrechnung
 

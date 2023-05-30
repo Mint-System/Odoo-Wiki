@@ -1,6 +1,6 @@
 ---
 title: Website Shop Coupons
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Website Coupons & Gutscheine im Odoo Shop.
 tags:
 - HowTo
 - Drittanbieter
@@ -10,7 +10,7 @@ prev: ./website-ecommerce
 
 ![](assets/icon_website_discount_voucher.png)
 
-Website Coupons & Gutscheine im Odoo Shop.
+{{ $frontmatter.description }}
 
 Technischer Name: `website_discount_voucher`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/website_discount_voucher>\

@@ -1,6 +1,6 @@
 ---
 title: Terminal Zeiterfassung
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Ein- und auschecken mit dem Terminal Zeiterfassung.
 tags:
 - HowTo
 prev: ./hr-timesheet
@@ -8,7 +8,7 @@ prev: ./hr-timesheet
 # Terminal Zeiterfassung
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
 
-Ein- und auschecken mit dem Terminal Zeiterfassung.
+{{ $frontmatter.description }}
 
 ## Verwendung
 

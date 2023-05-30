@@ -42,7 +42,6 @@ Für Kunden, Teilnehmer und Partner kann ein Odoo-Zugang eingerichtet werden. Un
 * **Kostenlose Anmeldung**: Benutzer können sich über die Odoo-Website selber anmelden und erhalten standardmässig einen Portal-Benutzer.
 
 ### Passwort zurücksetzen
-Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
 Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen Sie den Benutzer, dessen Passwort Sie zurücksetzen möchten.
  

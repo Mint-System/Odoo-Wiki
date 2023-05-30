@@ -1,6 +1,6 @@
 ---
 title: Website Berichte
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verkaufszahlen analysieren.
 tags:
 - HowTo
 prev: ./website
@@ -8,7 +8,7 @@ prev: ./website
 # Website Berichte
 ![](assets/icons_odoo_website_sale.png)
 
-Verkaufszahlen analysieren.
+{{ $frontmatter.description }}
 
 ## Berichte
 

@@ -74,4 +74,4 @@ Falls ihr Benutzer in Odoo noch nicht existiert hat, erscheint die folgende Meld
 
 ![Einstellungen Login Fehler](assets/Einstellungen%20Login%20Fehler.png)
 
-Kontaktieren Sie den/die [AdministratorIn](Rollen.md#Administrator%20In) und bitten Sie um eine Freigabe. Wurde die Freigabe erstellt, loggen Sie sich erneut ein.
+Kontaktieren Sie den/die AdministratorIn und bitten Sie um eine Freigabe. Wurde die Freigabe erstellt, loggen Sie sich erneut ein.

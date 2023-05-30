@@ -1,6 +1,6 @@
 ---
 title: Use Case - Schokoladenfabrik
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Use Case für mehrstufige Qualitätskontrollen.
 tags:
 - Use-Case
 prev: ./best-practice

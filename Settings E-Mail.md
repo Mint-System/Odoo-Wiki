@@ -13,7 +13,6 @@ prev: ./settings
 ## Empfang
 
 ### Eingehender Mail-Server konfigurieren
-Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
 Damit Odoo Mails empfangen und verarbeiten kann, muss ein eingehender Mail-Server konfiguriert werden.
 

@@ -50,7 +50,6 @@ Das Ergebnis sieht so aus:
 ![](assets/Odoo%20Studio%20IBAN%20und%20Bank%20auf%20Rechnung.png)
 
 ### Dateianhang in Bericht anzeigen
-Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
 ::: tip
 An jedem Odoo-Objekt kann ein Anhang vom Typ Datei oder URL hinzugefügt werden. Dieser Anhang kann im Portal oder Bericht angzeigt werden.

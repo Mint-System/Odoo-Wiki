@@ -31,7 +31,6 @@ Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Roles* und wähl
 Weisen Sie im Tab *Benutzer* die Rolle einem Benutzer zu. Ist die Rolle aktiv, überschreibt Sie die existierenden Berechtigungen.
 
 ### Benutzerrechte vergeben
-Aufgabenträger: [Administrator](Rollen.md#Administrator)
 
 Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen Sie den Benutzer, dessen Zugriffsrechte Sie verändern möchten. Drücken Sie auf *Bearbeiten* und wählen Sie nun über die Dropdown oder Checkboxen die Rollen und Zugriffe aus.
 

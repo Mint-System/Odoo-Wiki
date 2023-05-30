@@ -1,6 +1,6 @@
 ---
 title: Web Timeline
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Die Timeline-Ansicht für alle Objekte.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./development
 # Web Timeline
 ![icon_oca_app](assets/icon_oca_app.png)
 
-Die Timeline-Ansicht für alle Objekte.
+{{ $frontmatter.description }}
 
 Technischer Name: `web_timeline`\
 Repository: <https://github.com/OCA/web/tree/13.0/web_timeline>

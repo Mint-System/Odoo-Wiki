@@ -1,6 +1,6 @@
 ---
 title: Website Aktionen
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Automatisierung der Website-Vorgänge.
 tags:
 - HowTo
 prev: ./website
@@ -8,7 +8,7 @@ prev: ./website
 # Website Aktionen
 ![icons_odoo_website](assets/icons_odoo_website.png)
 
-Automatisierung der Website-Vorgänge.
+{{ $frontmatter.description }}
 
 ## Automatische Aktionen
 
