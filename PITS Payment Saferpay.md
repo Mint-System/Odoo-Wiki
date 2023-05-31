@@ -16,10 +16,6 @@ Technischer Name: `pits_payment_saferpay`\
 Website: <https://apps.odoo.com/apps/modules/16.0/pits_payment_saferpay/>\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/16.0/pits_payment_saferpay>
 
-::: warning
-Die Entwicklungen der PIT Solutions AG wurden mehrfach Qualitätsmängel festgestellt. Wenn möglich verzichten Sie auf den Einsatz dieser Lösung.
-:::
-
 ## Konfiguration
 
 ### Zahlungsanbieter Saferpay konfigurieren
@@ -31,10 +27,14 @@ Navigieren Sie nach *Abrechnung > Konfiguration > Saferpay Provider Configuratio
 * **API User Name**: Erstellen Sie ein neues Login unter *Einstellungen > JSON API Basic Authentication*
 * **API Password**: Eingabe aus Erstellung Login
 
-### Zahlungsoptionen Saferpay konfigurieren
-
-Navigieren Sie nach *Website > Konfiguration > Zahlungsanbieter* und Filter Sie die Liste nach Einträgen it *Saferpay* im Namen. Wählen Sie einen Eintrag aus, beispielsweise *Saferpay - Credit/Debit card* und wählen Sie die Aktion *Aktivieren*. Passen Sie den *Status* an und konfigurieren Sie den Zahlungsanbieter gemäss Anforderungen.
-
 ### Erlaubte Währungen auf Zahlungssymbole konfigurieren
 
 Zeigen Sie die Liste der Zahlungssymbole via *Website > Konfiguration > Zahlungssymbole* an. Öffnen Sie die Symbole, welche Sie verfügbar machen wollen und zeigen Sie den Tab *Saferpay Configurations* an. Legen Sie im Feld *Allowed currencies* die verfügbaren Währungen aus.
+
+### Zahlungsoptionen Saferpay konfigurieren
+
+Navigieren Sie nach *Website > Konfiguration > Zahlungsanbieter* und Filter Sie die Liste nach Einträgen it *Saferpay* im Namen. Wählen Sie einen Eintrag aus, beispielsweise *Saferpay - Credit/Debit card* und wählen Sie die Aktion *Aktivieren*. Konfigurieren Sie den Zahlungsanbieter im Tab *Konfiguration* wie folgt:
+
+* **Status**: Wählen Sie für den produktiven Betrieb *Aktivieren* und für den Testbetrieb *Testmodus*
+* **Zahlungsjournal**: Erstellen Sie bei Bedarf ein neues Zahlungsjournal *Saferpay* mit Kürzel *SFP*
+* **Payment Interface**: Wählen Sie hier *Payment Page* (empfohlen) oder *Transaction Interface* aus

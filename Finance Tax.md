@@ -188,3 +188,10 @@ Gemäss [Steuersätze anpassen](#Steuersätze%20anpassen) können Sie eine Kopie
 |  100.00 | der Steuer  | 1170 Vorsteuer auf Materialaufwand und Dienstleistungen | -400         |
 
 Für Bezugsteuer für Investition können Sie ebenfalls eine Kopie erstellen und im Steuerraster jeweils den Tag 405 statt 400 verwenden.
+
+
+## Buchhaltung
+
+### Vorsteuerabzug auf Buchungszeile machen
+
+Navigieren Sie nach *Finanzen > Finanzen > Buchungssätze* und wählen zeigen Sie die Buchung an auf der ein Vorsteuerabzug geltend gemacht werden soll.
