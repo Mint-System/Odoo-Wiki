@@ -34,3 +34,7 @@ Navigieren Sie nach *Abrechnung > Konfiguration > Saferpay Provider Configuratio
 ### Zahlungsoptionen Saferpay konfigurieren
 
 Navigieren Sie nach *Website > Konfiguration > Zahlungsanbieter* und Filter Sie die Liste nach Einträgen it *Saferpay* im Namen. Wählen Sie einen Eintrag aus, beispielsweise *Saferpay - Credit/Debit card* und wählen Sie die Aktion *Aktivieren*. Passen Sie den *Status* an und konfigurieren Sie den Zahlungsanbieter gemäss Anforderungen.
+
+### Erlaubte Währungen auf Zahlungssymbole konfigurieren
+
+Zeigen Sie die Liste der Zahlungssymbole via *Website > Konfiguration > Zahlungssymbole* an. Öffnen Sie die Symbole, welche Sie verfügbar machen wollen und zeigen Sie den Tab *Saferpay Configurations* an. Legen Sie im Feld *Allowed currencies* die verfügbaren Währungen aus.
