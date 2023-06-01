@@ -293,7 +293,7 @@ Löschen Sie die Lohnstruktur *Stundenlohn* in der Personalabrechnung und aktual
 
 ## Lager
 
-### Reservierung im Lager aufheben nicht möpglich
+### Reservierung im Lager aufheben nicht möglich
 
 **Problem**
 
@@ -310,3 +310,29 @@ Es gibt höchstwahrscheinlich ungültige Produktlieferungen für das genannte Pr
 **Lösung**
 
 Zeigen Sie die offenen Produktlieferungen des Produkts an, identifizieren und entfernen Sie die Lieferungen, welche den Lagertransfer blockieren.
+
+## Dashboard
+
+### Fehler in Dashboard-Definition
+
+**Problem**
+
+Beim Aufruf des Dashboards erscheint ein Fehler.
+
+```
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 641, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 317, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+psycopg2.ProgrammingError: column report_project_task_user.hours_planned does not exist
+LINE 2: ..."report_project_task_user".id) AS "__count" , sum("report_pr...
+```
+
+**Ursache**
+
+In der Definition des Dashboards gibt es ungültige Elemente.
+
+**Lösung**
+
+Sie müssen die [Dashboard-Definition anzeigen](Dashboards.md#Dashboard-Definition%20anzeigen) und bearbeiten. Falls nötig Löschen Sie die Definition.
