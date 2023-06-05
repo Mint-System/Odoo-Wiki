@@ -65,7 +65,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 
 ## Konfiguration
 
-### Steuerliche Lokalisierung festlegen
+### Kontenrahmen festlegen
 
 Wenn Sie ein neues Unternehmen erstellt haben, können Sie unter *Einstellungen > Finanzen > Steuerliche Lokalisierung* ein Lokalisierungspaket im Feld *Kontenrahmen* auswählen und installieren. Damit werden die länderspezifischen Journale, Steuersätze und Kontenplan angelegt.
 
