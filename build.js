@@ -280,7 +280,7 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
     sidebar = [].concat(sidebarMain, sidebar, sidebarTopic, sidebarExtension, sidebarAppend)
     
     // write content to sidebar file
-    sidebar = `module.exports = ${JSON.stringify(sidebar, null, 2)}`
+    sidebar = `export default ${JSON.stringify(sidebar, null, 2)}`
     fs.writeFileSync('.vuepress/sidebar.js', sidebar, 'utf8')
 
     // log

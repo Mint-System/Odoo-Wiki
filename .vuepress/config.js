@@ -1,9 +1,11 @@
-const { defaultTheme } = require('vuepress')
-const { searchPlugin } = require('@vuepress/plugin-search')
-const { plausiblePlugin } = require('./plausible')
-const sidebar = require('./sidebar')
+import { defaultTheme } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { plausiblePlugin } from './plausible'
+import { defineUserConfig } from 'vuepress'
+import sidebar from './sidebar'
 
-module.exports = {
+
+export default defineUserConfig({
     lang: 'de-CH',
     title: 'Odoo Wiki',
     description: 'Eine einfache und umfassende Odoo-Dokumentation.',
@@ -38,7 +40,4 @@ module.exports = {
             'domain': 'odoo-wiki.org'
         })
     ],
-    extendsMarkdown: (md) => {
-        md.use(require('markdown-it-include'))
-    },
-}
+})
