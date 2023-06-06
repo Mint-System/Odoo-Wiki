@@ -73,6 +73,7 @@ Wenn Sie ein neues Unternehmen erstellt haben, können Sie unter *Einstellungen 
 
 ## Bank-Jounal
 
+
 ### Bank-Journal einrichten
 
 Öffnen Sie das Bank-Journal via *Finanzen > Dashboard > Kontextmenü Bank > Konfiguration*. Im Tab *Buchungssätze* geben legen Sie im Feld *Bankkonto* das entsprechende Konto aus dem Kontenplan fest.

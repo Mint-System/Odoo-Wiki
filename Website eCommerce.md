@@ -22,6 +22,16 @@ Website: <https://www.odoo.com/de_DE/app/ecommerce>
 | [Website Berichte](Website%20Berichte.md)                                                 | Verkaufszahlen analysieren.                                          |
 | [Website Shop Coupons](Website%20Shop%20Coupons.md)                                       | Website Coupons & Gutscheine im Odoo Shop.                           |
 
+## Konfiguration
+
+### Checkout-Formular aktivieren
+
+Navigieren Sie nach *Einstellungen > Website > Shop - Checkout Process* und aktivieren Sie die Option *Zusätzlicher Schritt an der Kasse*. Damit wird im Checkout-Prozess ein zusätzlicher Schritt zum Ausfüllen eines anpassbaren Formulars hinzugefügt.
+
+### Checkout-Formular konfigurieren
+
+Navigieren Sie nach *Einstellungen > Website > Shop - Checkout Process* und wählen Sie die Aktion *Formular konfigurieren*.
+
 ## Produkte
 
 ### Produkt veröffentlichen
