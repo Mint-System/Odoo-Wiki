@@ -14,10 +14,12 @@
     "package.json",
     "obsidian.css",
     "default.vim",
-    "package-lock.json"
+    "package-lock.json",
+    "task.js"
   ],
   "spellcheckLanguages": [
-    "de"
+    "en-US",
+    "de-DE"
   ],
   "showInlineTitle": false
 }

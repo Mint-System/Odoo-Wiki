@@ -12,6 +12,12 @@ prev: ./
 
 Website: <https://www.odoo.com/de_DE/app/email-marketing>
 
+## Bereiche
+
+| Bereich                                             | Beschreibung                           |
+| --------------------------------------------------- | -------------------------------------- |
+| [E-Mail-Marketing Aktionen](mass_mailing_action.md) | Arbeitsflüsse in E-Mail-Marketing automatisieren. |
+
 ## Abonnieren
 
 ### Wöchentliche Statistik abmelden

@@ -155,7 +155,7 @@ Odoo-Einstellungen aktivieren und konfigurieren.
 
 Teilen Sie ihr Wissen mit der eLearning-Plattform.
 
-### [E-Mail Marketing](E-Mail%20Marketing.md)
+### [E-Mail-Marketing](mass_mailing.md)
 
 ![icons_odoo_mass_mailing](assets/icons_odoo_mass_mailing.png)
 
