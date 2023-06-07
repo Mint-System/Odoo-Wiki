@@ -57,6 +57,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Product Last Move](Stock%20Product%20Last%20Move.md)                                   | Letztes Datum zu ein- und ausgehender Lagerbewegung anzeigen.                                               |
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md)                           | Erlaubt die Archivierung von Los/Chargen.                                                                   |
 | [Stock Production Lot Date](Stock%20Production%20Lot%20Date.md)                               | Datum auf Losnummer festlegen und Ablaufdatum relativ setzen.                                               |
+| [Stock Production Lot Qty Storable](Stock%20Production%20Lot%20Qty%20Storable.md)             | Produkmenge auf Los als Wert speichern.                                                                     |
 | [Stock Quant Package Dimension](Stock%20Quant%20Package%20Dimension.md)                       | Dimensionen und geschätztes Gewicht auf Paket.                                                              |
 | [Stock Vendor Evaluation](Stock%20Vendor%20Evaluation.md)                                     | Lieferungen bewerten und Lieferanten auswerten.                                                             |
 
