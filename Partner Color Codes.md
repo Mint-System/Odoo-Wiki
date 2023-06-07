@@ -19,7 +19,7 @@ Odoo App Store: <https://apps.odoo.com/apps/modules/16.0/partner_color_codes/>
 
 ### Farbcodes verwalten
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Contact Color Codes* und wählen Sie den Link *Color Code*. Hier können Sie die Farbcodes verwalten. Sie haben die Möglichkeiten eine oder mehrere Regeln zu definieren, um die Farbcodes automatisch den Kontakten zuzuordnen. Das Feld *Rule Description* wird als Code übernenommen.
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Contact Color Codes* und wählen Sie den Link *Color Code*. Hier können Sie die Farbcodes verwalten. Sie haben die Möglichkeiten eine oder mehrere Regeln zu definieren, um die Farbcodes automatisch den Kontakten zuzuordnen. Das Feld *Rule Description* wird als Code übernommen.
 
 ## Verwendung
 
