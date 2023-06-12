@@ -30,7 +30,6 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Als gesendet markieren*.
 
-
 ### Als ungebucht markieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
@@ -202,8 +201,22 @@ raise UserError(followup_level.items())
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
+### Analysekonto entfernen
 
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
+Name der Aktion: `Analysekonto entfernen`\
+Modell: `account.move`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```python
+for rec in records:
+	rec.line_ids.write({'analytic_account_id': False})
+```
+
+Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
 
 ## Geplante Aktionen
 
