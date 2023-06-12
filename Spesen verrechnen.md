@@ -11,7 +11,7 @@ Die Mitarbeitenden ihres Unternehmen können mit Odoo [Spesen erfassen](HR%20Exp
 
 ### Spesen mit Aussendienst verrechnen
 
-Wenn Sie die App [FSM Industry](FSM%20Industry.md) aktiviert haben, können Sie Auslagen direkt auf der Projektaufgabe erfassen.
+Wenn Sie die App [Aussendienst](FSM%20Industry.md) aktiviert haben, können Sie Auslagen direkt auf der Projektaufgabe erfassen.
 
 Die Auslagenprodukte müssen als Verbrauchsartikel erfasst werden.
 
