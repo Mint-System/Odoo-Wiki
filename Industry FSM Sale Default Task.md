@@ -4,7 +4,7 @@ description: Bestehende verknüpfte Aufgabe von Verkaufsauftrag als Standardwert
 tags:
 - HowTo
 - Drittanbieter
-prev: ./fsm
+prev: ./fsm-industry
 ---
 # Industry FSM Sale Default Task
 ![icon_oms_box](assets/icon_oms_box.png)
