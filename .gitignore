@@ -1,7 +1,7 @@
 .DS_Store
 default.vim
 .obsidian/workspace.json
-.obsidian/appreance.json
+.obsidian/appearance.json
 node_modules
 tmp
 .vercel
