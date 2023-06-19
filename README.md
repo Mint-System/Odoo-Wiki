@@ -23,10 +23,6 @@ Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) auf zwe
 
 Die [Mint System GmbH](https://www.mint-system.ch/) unterhält das Odoo Wiki.
 
-<!--## [Referenzsystem](Referenzsystem.md)
-
-[Hier](Referenzsystem.md) geht es zum Referenzsystem.-->
-
 ## [Best Practice](Best%20Practice.md)
 
 [Hier](Best%20Practice.md) geht es zu den Best Practice.
