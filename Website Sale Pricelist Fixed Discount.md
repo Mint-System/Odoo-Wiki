@@ -1,6 +1,6 @@
 ---
 title: Website Sale Pricelist Fixed Discount
-description: Warenkorb mit Rabatten aus Preisliste mit Frestpreis.
+description: Warenkorb mit Rabatten aus Preisliste mit Festpreis.
 tags:
 - HowTo
 - Drittanbieter
