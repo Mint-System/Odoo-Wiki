@@ -25,6 +25,14 @@ Website: <https://www.odoo.com/de_DE/app/maintenance>
 
 ## Verwendung
 
+### Wartungsstufen vewalten
+
+Zeigen Sie *Wartung > Konfiguration > Wartungsstufen* an. Hier können Sie bestehende Stufen anpassen und neue Stufen erfassen.
+
 ### Inventar erfassen
 
 Navigieren Sie nach *Wartung > Inventar* und erstellen Sie einen neuen Eintrag. Füllen Sie mindestens *Inventarbezeichnung* und *Wartungsteam* aus.
+
+### Wartungsanfrage manuell erstellen
+
+Navigieren Sie nach *Wartung > Wartung > Wartungsanfragen* und erstellen Sie einen neuen Eintrag. 
