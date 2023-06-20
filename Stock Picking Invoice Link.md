@@ -12,7 +12,7 @@ prev: ./stock
 Verlinkt Rechnungen und Transfers.
 
 Technischer Name: `stock_picking_invoice_link`\
-Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/stock_picking_invoice_link>
+Repository: <https://github.com/OCA/stock-logistics-workflow/tree/15.0/stock_picking_invoice_link>
 
 ## Verwendung
 
@@ -27,5 +27,5 @@ Dasselbe funktioniert auch umgekehrt.
 ![](assets/Stock%20Picking%20Invoice%20Link%20Invoice.png)
 
 ::: warning
-Damit eine Verlinkung erstellt werden kann, muss der LIeferung erledigt sein.
+Damit eine Verlinkung erstellt werden kann, muss die LIeferung erledigt sein.
 :::

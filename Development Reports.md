@@ -37,7 +37,7 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Vorschau externer Bericht | `/report/html/web.preview_externalreport/$ID`                                   |
 | Vorschau interner Bericht | `/report/html/web.preview_internalreport/$ID`                                   |
 | Zeitnachweis              | `/report/html/account_sale_timesheet_report.timesheet_report/$ID`               |
-| Lieferschein (Aufgabe)             | `/report/html/forestry_timesheet.report_project_task_deliveryslip/$ID`                                                                                |
+| Lieferschein (Aufgabe)    | `/report/html/forestry_timesheet.report_project_task_deliveryslip/$ID`          |
 
 ::: tip
 Bestimmte Bericht können mehere Dokumente anzeigen. Für die HTML-Anzeige können Sie die Dokument-IDs Komma-getrennt übergeben: /report/html/**stock.report_deliveryslip**/**3,4,5**
