@@ -20,9 +20,10 @@ Website: <https://www.odoo.com/de_DE/app/email-marketing>
 
 ## Erweiterungen
 
-| Erweiterung                                                    | Beschreibung                                  |
-| -------------------------------------------------------------- | --------------------------------------------- |
-| [Link partners with mass-mailing](Mass%20Mailing%20Partner.md) | Mailinglisten-Kontakte und Kontakte verküpfen |
+| Erweiterung                                                      | Beschreibung                                   |
+| ---------------------------------------------------------------- | ---------------------------------------------- |
+| [Dynamic Mass Mailing Lists](Mass%20Mailing%20List%20Dynamic.md) | Mailingiste mit Kontakt-Liste synchronisieren. |
+| [Link partners with mass-mailing](Mass%20Mailing%20Partner.md)   | Mailinglisten-Kontakte und Kontakte verküpfen. |
 
 ## Abonnieren
 

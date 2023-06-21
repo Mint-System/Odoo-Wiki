@@ -48,21 +48,20 @@ Wählen Sie einen Kontakt mit Mail-Adresse aus. Klicken Sie auf *Aktion > Grant 
 
 ## Verwaltung
 
+### Kontakt-Stichwörter anlegen
+
+Navigieren Sie nach *Kontakte > Konfiguration > Kontakt Tag*. Hier können Sie Stichwörter verwalten, die auf dem Kontaktformular ausgewählt werden können.
+
 ### Kontakte anlegen
 
 Ein neuer Eintrag im Adressbuch können Sie über *Kontakte > Anliegen* erstellen.
 
 ![Kontakte anlegen](assets/Kontakte%20anlegen.png)
 
-Odoo verwendet Kontakte als zentrales Adressbuch. Verschiedene Apps wie Verkauf, CRM oder Finanzen greifen auf das Adressbuch zu.
-
-### Details Felder
-
-**Kopfdaten**
+Odoo verwendet Kontakte als zentrales Adressbuch. Verschiedene Apps wie Verkauf, CRM oder Finanzen greifen auf das Adressbuch zu. Eine Aufstellung der wichtigsten Felder:
 
 | Bezeichnung    | Beschreibung                                                                                       |
 | ------------- | -------------------------------------------------------------------------------------------------- |
-| Firmenadresse |                                                                                                    |
 | Strasse       |                                                                                                    |
 | Strasse 2     |                                                                                                    |
 | Stadt         |                                                                                                    |
@@ -71,11 +70,7 @@ Odoo verwendet Kontakte als zentrales Adressbuch. Verschiedene Apps wie Verkauf,
 | Land          | Muss immer einen Eintrag haben, weil für bestimmte Berechnungen die Information notwendig ist.     |
 | Ust-IdNr.     | Unternehmens-Identifikationsnummer (UID). Mit dem Zusatz MWST ist sie gleichzeitig die MWST-Nummer |
 
-**Kontakte & Adressen**
-
-Individuen die als Einzelperson erfasst und einem Unternehmen zugeordnet sind erscheinen in diesem Abschnitt.
-
-**Verkauf**
+Tab *Verkauf & Einkauf*.
 
 | Bezeichnung         | Beschreibung                                                                                                  |
 | ------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -90,7 +85,7 @@ Zeigen Sie ein Unternehmenskontakt via *Kontakte* an. Im Tab *Kontakte & Adresse
 ![](assets/Unterkontakte.png)
 
 ::: warning
-Ändern Sie den Typ von Unterkontakten nicht auf Unternehmen. Wird beispielsweise die Rechnungsadresse als Kontakt vom Typ Unternehmen fesgelegt, erfolgt eine kommzerielle Trennung des Haupt- und Unterkonakt.
+Ändern Sie den Typ von Unterkontakten nicht auf Unternehmen. Wird beispielsweise die Rechnungsadresse als Kontakt vom Typ Unternehmen festgelegt, erfolgt eine kommerzielle Trennung des Haupt- und Unterkonakt.
 :::
 
 ### Bezeichnung Umsatzsteuer festlegen
