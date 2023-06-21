@@ -18,6 +18,12 @@ Website: <https://www.odoo.com/de_DE/app/email-marketing>
 | --------------------------------------------------- | -------------------------------------- |
 | [E-Mail-Marketing Aktionen](mass_mailing_action.md) | Arbeitsflüsse in E-Mail-Marketing automatisieren. |
 
+## Erweiterungen
+
+| Erweiterung                                                    | Beschreibung                                  |
+| -------------------------------------------------------------- | --------------------------------------------- |
+| [Link partners with mass-mailing](Mass%20Mailing%20Partner.md) | Mailinglisten-Kontakte und Kontakte verküpfen |
+
 ## Abonnieren
 
 ### Wöchentliche Statistik abmelden

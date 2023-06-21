@@ -1,0 +1,15 @@
+---
+title: Link partners with mass-mailing
+description: Mailinglisten-Kontakte und Kontakte verküpfen
+tags:
+- HowTo
+- OCA
+prev: ./development
+---
+# Link partners with mass-mailing
+![icon_oca_app](assets/icon_oca_app.png)
+
+{{ $frontmatter.description }}
+
+Technischer Name: `mass_mailing_partner`\
+Repository: <https://github.com/OCA/social/tree/16.0/mass_mailing_partner>
