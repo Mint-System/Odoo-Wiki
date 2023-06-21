@@ -1,6 +1,6 @@
 ---
 title: Sale Blanket Order Comment
-description: Bestehende verknüpfte Aufgabe von Verkaufsauftrag als Standardwert für Aussendienst verwenden. 
+description: Verknüpfte Aufgabe der Auftragszeile als Standardwert verwenden
 tags:
 - HowTo
 - Drittanbieter
@@ -16,10 +16,13 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/in
 
 ## Verwendung
 
-### Aufgabe aus bestehenden Auftragszeilen auf neue übertragen
+### Verknüpfte Aufgabe der Auftragszeile als Standardwert verwenden
 
-Mit dieser Erweiterung wird beim Erstellen und Aktualisieren von Auftragszeilen in Verkaufsaufsträgen geprüft, ob es bestehende Auftragszeilen mit Aufgaben gibt, welche mit einem Aussendienst-Projekt verknüpft sind. Gibt es entsprechende Auftragszeilen und ist die neue Auftragszeile nicht mit einer Aufgabe verknüpft, wird die Aufgabe als Standardwert übernommen.
-
+Mit dieser Erweiterung wird beim Erstellen, Bestätigen und Aktualisieren von Auftragszeilen in Verkaufsaufsträgen geprüft, ob es Auftragszeilen ohne Aufgaben gibt. Die Aufgabe der ersten Auftragszeile mit einer Aufgabe, wird als Standardwert für die Auftragszeilen ohne Aufgaben übernommen.
 ::: tip
-Wenn eine Auftragszeile mit einer Aussendienst-Aufgabe verknüpft ist, erscheint das gleiche Produkt in der Warenkorb-Funktion der Aufgabe.
+Wenn eine Auftragszeile mit einer Aussendienst-Aufgabe verknüpft ist, erscheint das Produkt in der Warenkorb-Funktion der Aussendienst-Aufgabe.
+:::
+
+::: warning
+Es werden nur Auftragszeilen mit lagerfähigen Produkten oder Verbrauchsartikel verknüpft.
 :::

@@ -16,7 +16,7 @@ Website: <https://www.odoo.com/de_DE/app/field-service>
 
 | Erweiterung                                                                 | Beschreibung                                                                                   |
 | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [Industry FSM Sale Default Task](Industry%20FSM%20Sale%20Default%20Task.md) | Bestehende verknüpfte Aufgabe von Verkaufsauftrag als Standardwert für Aussendienst verwenden. |
+| [Industry FSM Sale Default Task](Industry%20FSM%20Sale%20Default%20Task.md) | Verknüpfte Aufgabe der Auftragszeile als Standardwert verwenden |
 
 ## Verwendung
 
