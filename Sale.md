@@ -38,7 +38,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order Check Price](Sale%20Order%20Check%20Price.md)                                         | Preis vor Bestätigung des Angebots prüfen.                                    |
 | [Sale Order Comment](Sale%20Order%20Comment.md)                                                   | Kommentar auf Verkaufsauftrag.                                                |
 | [Sale Order Contact Person](Sale%20Order%20Contact%20Person.md)                                   | Kontaktperson auf Verkaufsauftrag festlegen.                                  |
-| [Sale Order Line Description Name](Sale%20Order%20Line%20Description%20Name.md)                   | Produktname in Beschreibung ohne interne Referenz.         |
+| [Sale Order Line Description Name](Sale%20Order%20Line%20Description%20Name.md)                   | Produktname in Beschreibung ohne interne Referenz.                            |
 | [Sale Order Line Description](Sale%20Order%20Line%20Description.md)                               | Nur Verkausbeschreibung im Feld Beschreibung übertragen.                      |
 | [Sale Order Line Name Get](Sale%20Order%20Line%20Name%20Get.md)                                   | Produktname als Anzeigename für Verkaufspositionen.                           |
 | [Sale Order Line Not Billable](Sale%20Order%20Line%20Not%20Billable.md)                           | Produkt als nicht verrechbar festlegen und bei Abrechnunung filtern.          |
@@ -55,6 +55,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Partner Incoterm](Sale%20Partner%20Incoterm.md)                                             | Standardlieferbedingungen für Kunden.                                         |
 | [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                                       | Produktset mit Notizen und Abschnitten.                                       |
 | [Sale Product Set](Sale%20Product%20Set.md)                                                       | Produktsets definieren und einfach hinzufügen.                                |
+| [Sale Timesheet Total Validated](Sale%20Timesheet%20Total%20Validated.md)                         | Nur bestätige Zeiterfassungs-Einträge in Verkaufsauftrag anzeigen.            |
 
 ## Produkte
 
