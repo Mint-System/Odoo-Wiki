@@ -12,7 +12,7 @@ prev: ./hr-holidays
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_employee_attendance_report`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_employee_attendance_report>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_employee_attendance_report>
 
 ## Verwendung
 
@@ -34,7 +34,7 @@ Eine Übersicht der Abwesenheitsansprüche:
 
 ### Bericht Anwesenheit für ausgewählte Periode drucken
 
-Klicken Sie auf das Account-Menü und wählen Sie *Mein Profil*. Wählen Sie nun *Drucken > Dialog Bericht Anwesenheit*. Wählen Sie ein Start- und Endatum ais und drucken Sie den Bericht mit *Drucken*.
+Klicken Sie auf das Account-Menü und wählen Sie *Mein Profil*. Wählen Sie nun *Drucken > Dialog Bericht Anwesenheit*. Wählen Sie ein Start- und Enddatum ais und drucken Sie den Bericht mit *Drucken*.
 
 ::: tip
 Die Aktion *Herunterladen* auf dem Dialog erlaubt das Herunterladen des Berichts, wenn die Erweiterung [Printnode Base](Printnode%20Base.md) installiert ist.
@@ -42,4 +42,4 @@ Die Aktion *Herunterladen* auf dem Dialog erlaubt das Herunterladen des Berichts
 
 ### Bericht Anwesenheit für bestimmte Mitarbeitende drucken
 
-Navigieren Sie nach *Personal* und wählen Sie die Listen-Ansicht. Markieren Sie die Mitarbeitnden für welche Sie den Bericht erstellen wollen und klicken Sie auf *Aktion > Bericht Anwesenheit*.
+Navigieren Sie nach *Personal* und wählen Sie die Listen-Ansicht. Markieren Sie die Mitarbeitenden für welche Sie den Bericht erstellen wollen und klicken Sie auf *Aktion > Bericht Anwesenheit*.
