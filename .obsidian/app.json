@@ -9,13 +9,13 @@
   "legacyEditor": false,
   "livePreview": false,
   "userIgnoreFilters": [
-    "node_modules/",
     "build.js",
     "package.json",
     "obsidian.css",
     "default.vim",
     "package-lock.json",
-    "task.js"
+    "task.js",
+    "node_modules/"
   ],
   "spellcheckLanguages": [
     "en-US",
