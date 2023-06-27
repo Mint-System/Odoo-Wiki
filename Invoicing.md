@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Abrechnung
-![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)
+![icons_odoo_account](assets/icons_odoo_account.png)
 
 {{ $frontmatter.description }}
 

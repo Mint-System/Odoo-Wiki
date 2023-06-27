@@ -1,14 +1,14 @@
 ---
 title: Qualität
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Für moderne Hersteller.
 tags:
 - HowTo
 prev: ./
 ---
 # Qualität
-![](assets/icons_odoo_quality.png)
+![icons_odoo_quality_control](assets/icons_odoo_quality_control.png)
 
-Für moderne Hersteller.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/quality>
 

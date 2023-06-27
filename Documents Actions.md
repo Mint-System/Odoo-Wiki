@@ -7,7 +7,7 @@ tags:
 prev: ./documents
 ---
 # Dokumente Aktionen
-![icon_odoo_document_inbox](assets/icon_odoo_document_inbox.png)
+![icons_odoo_documents](assets/icons_odoo_documents.png)
 
 {{ $frontmatter.description }}
 

@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Datenmanagement
-![icons_odoo_website_sale_options](assets/icons_odoo_website_sale_options.png)
+![icons_odoo_data_recycle](assets/icons_odoo_data_recycle.png)
 
 {{ $frontmatter.description }}
 

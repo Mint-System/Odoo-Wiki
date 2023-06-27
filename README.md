@@ -39,7 +39,7 @@ Wiederkehrende Rechnungsstellung und Management von Abonnenten auf einfache Art 
 
 ### [Abrechnung](Invoicing.md)
 
-![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)
+![icons_odoo_account](assets/icons_odoo_account.png)
 
 Online Rechnungsstellung leicht gemacht.
 
@@ -63,7 +63,7 @@ Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 
 ### [Apps](Apps.md)
 
-![icons_odoo_modules](assets/icons_odoo_modules.png)
+![icons_odoo_hr_appraisal](assets/icons_odoo_hr_appraisal.png)
 
 Neue Apps installieren und aktualisieren.
 
@@ -75,7 +75,7 @@ Spesen erfassen und abrechnen.
 
 ### [Aussendienst](FSM%20Industry.md)
 
-![](assets/icons_odoo_fsm_industry.png)
+![](assets/icons_odoo_industry_fsm.png)
 
 Bieten Sie Ihren Kunden überall ausgezeichnete Dienstleistungen an.
 
@@ -105,19 +105,19 @@ Odoo-Instanzen mit dem Datenbankmanager verwalten.
 
 ### [Datenbereinigung](Data%20Cleaning.md)
 
-![icon_odoo_data_cleaning](assets/icon_odoo_data_cleaning.png)
+![icons_odoo_data_cleaning](assets/icons_odoo_data_cleaning.png)
 
 Die Datenqualität ganz einfach verbessern.
 
 ### [Datenmanagement](Data%20Management.md)
 
-![icons_odoo_website_sale_options](assets/icons_odoo_website_sale_options.png)
+![icons_odoo_data_recycle](assets/icons_odoo_data_recycle.png)
 
 Importieren und Exportieren Sie alle Odoo Daten.
 
 ### [Dokumente](Documents.md)
 
-![icon_odoo_document_inbox](assets/icon_odoo_document_inbox.png)
+![icons_odoo_documents](assets/icons_odoo_documents.png)
 
 Sparen Sie Zeit beim Erfassen von Rechnungen, Scannen von Verträgen und bei der Freigabe von Dokumenten.
 
@@ -159,7 +159,7 @@ E-Mail-Marketing leicht gemacht.
 
 ### [Entwicklung](Development.md)
 
-![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)
+![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)
 
 Odoo mühelos anpassen und erweitern.
 
@@ -249,7 +249,7 @@ Web-Kampagnen und E-Mails verfolgen.
 
 ### [Navigation](Navigation.md)
 
-![icons_odoo_website_crm_score](assets/icons_odoo_website_crm_score.png)
+![icons_odoo_website_partner](assets/icons_odoo_website_partner.png)
 
 Alles zur Navigation in Odoo.
 
@@ -327,7 +327,7 @@ Agiles Projektmanagement. Schön. Einfach. Open Source.
 
 ### [Qualität](Quality.md)
 
-![](assets/icons_odoo_quality.png)
+![icons_odoo_quality_control](assets/icons_odoo_quality_control.png)
 
 Für moderne Hersteller.
 
@@ -381,10 +381,9 @@ Rahmenverträge für Verkäufe erstellen.
 
 ### [Versand](Delivery.md)
 
-![icon_odoo_website_sale_delivery](assets/icon_odoo_website_sale_delivery.png)
+![icons_odoo_website_sale_delivery](assets/icons_odoo_website_sale_delivery.png)
 
 Versandmethoden und Logistik definieren.                                                                         
-
 ### [Verträge](Contract.md)
 
 ![icon_oca_agreement](assets/icon_oca_agreement.png)
@@ -417,7 +416,7 @@ Webshop ohne Integrationsaufwand.
 
 ### [Wissen](Knowledge.md)
 
-![icon_odoo_knowldge](assets/icon_odoo_knowledge.png)
+![icons_odoo_knowledge](assets/icons_odoo_knowledge.png)
 
 Wissenstransfer für Teams vereinfachen.
 
@@ -426,10 +425,6 @@ Wissenstransfer für Teams vereinfachen.
 ![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
 
 Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
-
-<!--## [Anforderungen](Anforderungen.md)
-
-Die Evaluation eines ERP-Systems ist eine aufwändige Arbeit. Als Kunde ist man damit konfrontiert Anforderungen systematisch zu erfassen und den Lieferanten sinnvoll zu vermitteln. Als Lieferant erfordert die Analyse der Anforderungen viel Zeit. Die [Referenzanforderungen](Anforderungen.md) sollen den Abgleich mit einem Lastenheft vereinfachen.-->
 
 ## [Mitarbeit](Contribution.md)
 

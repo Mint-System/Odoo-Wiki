@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Datenbereinigung
-![](assets/icon_odoo_data_cleaning.png)
+![icons_odoo_data_cleaning](assets/icons_odoo_data_cleaning.png)
 
 {{ $frontmatter.description }}
 

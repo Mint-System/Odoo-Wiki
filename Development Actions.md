@@ -7,7 +7,7 @@ tags:
 prev: ./development
 ---
 # Entwicklung Aktionen
-![icons_odoo_website_twitter](assets/icons_odoo_website_twitter.png)
+![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)
 
 {{ $frontmatter.description }}
 

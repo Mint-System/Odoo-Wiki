@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Wissen
-![icon_odoo_knowledge](assets/icon_odoo_knowledge.png)
+![icons_odoo_knowledge](assets/icons_odoo_knowledge.png)
 
 {{ $frontmatter.description }}
 
