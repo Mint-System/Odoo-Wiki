@@ -46,7 +46,7 @@ https.get(url, (response) => {
 
                     fs.rename(resizedFilePath, saveFilePath, (err) => {
                         if (err) {
-                            console.error(`Error replacing ${saveFileName}: ${err.message}`);
+                            console.error(`Error replacing ${saveFileName}: ${err.message}`)
                         } else {
                             console.log(`Resized image saved at ${saveFilePath}`)
                         }
