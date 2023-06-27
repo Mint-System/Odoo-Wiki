@@ -29,6 +29,15 @@ Wird der entsprechende Steuersatz auf der Rechnungszeile verwendet, wird die MWS
 
 ![](assets/Finanzen%20Mehrwertsteuer%20Grundlage%20Zahlung%20Buchung.png)
 
+### Steuersatz erfassen
+
+Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern*. Zeigen Sie einen bestehenden Steuersatz an und duplizieren Sie diesen. Dazu ein Beispiel für einem neuen Steuersatz auf Basis von *UST 7.7% Lief./DL (exkl. MWST)*:
+
+* **Steuerbezeichnung**: UST 8.1% Lief./DL (exkl. MWST)
+* **Betrag**: 8.1000%
+* **Bezeichnung auf Rechnungen**: 8.1%
+* **Steuergruppe**: MwSt. 8.1%
+
 ### Steuersätze anpassen
 
 Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern*. Hier werden alle Steuersätze festgelegt. Öffnen Sie einen Eintrag und passen Sie diese Felder an:
@@ -69,15 +78,6 @@ Klicken Sie auf *Einstellungen > Finanzen > Steuern > Konfigurieren der Steuerko
 ::: tip
 Normalerweise werden in den Spalten *Steuer aktuelles Konto (bezahlen)* und *Steuer aktuelles Konto (empfangen)* das Konto *2201 Abrechnungskonto MWST* hinterlegt.
 :::
-
-### Steuergruppen anzeigen
-
-Damit Sie eine Übersicht der Steuergruppen erhalten,müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* einen neuen Eintrag anlegen.
-
-Menü: `Steuergruppen`\
-Obermenü: `Finanzen/Konfiguration/Finanzen`\
-Aktion: `ir.actions.act_window` `Steuergruppen`\
-Nummernfolge: `10`
 
 ### Standard-Steuer auf Konto hinterlegen
 
@@ -161,6 +161,15 @@ Und daraus wird diese Buchung generiert.
 
 Das Menü *Konten-Tags* wird nur im Entwicklermodus angezeigt. Um das Verhalten zu ändern, öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge*, zeigen den Menüeintrag *Konten-Tags* an und entfernen im Tab *Zugriffsrechte* die Gruppe. Aktualisieren Sie den Browser und verlassen Sie den Entwicklermodus. Sie sollten den Menüeintrag nun sehen.
 
+### Steuergruppen anzeigen
+
+Damit Sie eine Übersicht der Steuergruppen erhalten,müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* einen neuen Eintrag anlegen.
+
+Menü: `Steuergruppen`\
+Obermenü: `Finanzen/Konfiguration/Finanzen`\
+Aktion: `ir.actions.act_window` `Steuergruppen`\
+Nummernfolge: `10`
+
 ## Bezugssteuer
 
 ### Bezugssteuer einrichten
@@ -187,8 +196,7 @@ Gemäss [Steuersätze anpassen](#Steuersätze%20anpassen) können Sie eine Kopie
 | -100.00 | der Steuer  | 2200 Geschuldete Mehrwertsteuer                         | +382b        |
 |  100.00 | der Steuer  | 1170 Vorsteuer auf Materialaufwand und Dienstleistungen | -400         |
 
-Für Bezugsteuer für Investition können Sie ebenfalls eine Kopie erstellen und im Steuerraster jeweils den Tag 405 statt 400 verwenden.
-
+Für Bezugssteuer für Investition können Sie ebenfalls eine Kopie erstellen und im Steuerraster jeweils den Tag 405 statt 400 verwenden.
 
 ## Buchhaltung
 
