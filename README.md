@@ -389,7 +389,8 @@ Rahmenverträge für Verkäufe erstellen.
 
 ![icons_odoo_website_sale_delivery](assets/icons_odoo_website_sale_delivery.png)
 
-Versandmethoden und Logistik definieren.                                                                         
+Versandmethoden und Logistik definieren.
+
 ### [Verträge](Contract.md)
 
 ![icon_oca_agreement](assets/icon_oca_agreement.png)
