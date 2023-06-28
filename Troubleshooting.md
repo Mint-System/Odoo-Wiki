@@ -243,11 +243,22 @@ Wkhtmltopdf kann kein CSS oder Bilder über HTTPS laden.
 
 Quelle: <https://github.com/wkhtmltopdf/wkhtmltopdf/issues/4462>
 
+Eine weitere Ursache kann auch sein, dass die Host-Adresse von Odoo innerhalb des Server-Netzwerks nicht korrekt aufgelöst wird.
+
 **Lösung**
 
 In den Systemparameter von Odoo muss beim Eintrag `web.base.url`  die URL von https auf http gewechselt werden.
 
 Stellen Sie sicher, dass der Systemparameter `report.url` nicht existiert.
+
+Verifizieren Sie, dass die Host-Adresse von Odoo korrekt aufgelöst wird.
+
+```
+docker exec -it odoo28 bash
+odoo@0e915a4496a8:/$ curl https://odoo.example.com
+curl: (60) SSL certificate problem: certificate has expired
+More details here: https://curl.se/docs/sslcerts.html
+```
 
 ## Finanzen
 
