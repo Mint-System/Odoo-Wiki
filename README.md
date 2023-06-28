@@ -247,6 +247,12 @@ Maximieren Sie die Effizienz Ihres Lagers.
 
 Web-Kampagnen und E-Mails verfolgen.
 
+### [Marketing-Automatisierung](Marketing-Automation.md)
+
+![icons_odoo_marketing_automation](assets/icons_odoo_marketing_automation.png)
+
+Setzen Sie das Marketing auf Autopilot.
+
 ### [Navigation](Navigation.md)
 
 ![icons_odoo_website_partner](assets/icons_odoo_website_partner.png)
