@@ -55,9 +55,13 @@ Auf der Kampange finden Sie einen Smart-Link *X Tests*, der Sie zu den erstellte
 
 Navigieren Sie nach *Marketing-Automatisierung > Kampagnen* und zeigen Sie eine Kampagne an. Wählen Sie die Aktion *Starten*.
 
+### Teilnehmer generieren und Aktivität ausführen
+
+Navigieren Sie nach *Marketing-Automatisierung > Kampagnen* und zeigen Sie eine laufende Kampagne an. Wählen Sie die Aktion *Teilnehmer Generieren*. Bestätigen Sie den Dialog und wählen Sie anschliessend *Aktivitäten ausführen*. Bestätigen Sie auch diesen Dialog. Die Marketing-Aktivitäten werden nun gemäss Auslöser geplant und vom Scheduler ausgeführt.
+
 ### Kampagnen-Teilnehmer anzeigen
 
-Navigieren Sie nach *Marketing-Automatisierung > Kampagnen* und zeigen Sie eine alufende Kampagne an. Wählen Sie den Smart-Link *X Teilnehmer* und zeigen Sie einen Eintrag an.
+Navigieren Sie nach *Marketing-Automatisierung > Kampagnen* und zeigen Sie eine laufende Kampagne an. Wählen Sie den Smart-Link *X Teilnehmer* und zeigen Sie einen Eintrag an.
 
 ::: tip
 Für Teilnehmer im Status *Vollständig* wurden alle Marketing-Aktivitäten absolviert. 
