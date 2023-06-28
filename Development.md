@@ -49,13 +49,7 @@ Damit Software von Dritten Zugriff auf die Daten von Odoo hat, ohne dass dabei d
 
 Öffenen Sie die Sicherheitseinstellungen des eingeloggten Benutzers *Menüleiste > Mein Profil > Tab Acccount Security* und klicken auf *New API Key*.
 
-## Ansichten
-
-### Assets-Bundel neu generieren
-
-Wird Odoo im Browser angezeigt, werden sog. Assets im Hintergrund geladen (JavaScript-, SCSS- und CSS-Dateien). Diese Assets können nach einem Odoo-Update veraltet sein und müss neu generiert werden. Wählen Sie *Entwicklertool > Bündel von Assets regenerieren*.
-
-![](assets/Entwicklung%20Assets-Bundel%20neu%20generieren.png)
+## Verwendung
 
 ### Demo-Daten neu laden
 
