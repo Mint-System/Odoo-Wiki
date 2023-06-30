@@ -25,7 +25,7 @@ Website: <https://www.odoo.com/de_DE/app/maintenance>
 
 ## Verwendung
 
-### Wartungsstufen vewalten
+### Wartungsstufen verwalten
 
 Zeigen Sie *Wartung > Konfiguration > Wartungsstufen* an. Hier können Sie bestehende Stufen anpassen und neue Stufen erfassen.
 

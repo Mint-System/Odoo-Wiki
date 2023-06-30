@@ -1,6 +1,6 @@
 ---
 title: Mitarbeit
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Das Odoo Wiki erweitern.
 tags:
 - Readme
 prev: ./

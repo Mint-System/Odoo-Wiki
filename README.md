@@ -435,7 +435,7 @@ Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
 ## [Mitarbeit](Contribution.md)
 
-Sie können eine Kopie des Wiki erstellen und für eigene Zwecke nutzen. Ebenfalls können Sie Änderungen mitteilen und mit dem offizielen Wiki zusammenführen. Mehr dazu unter [Contribution](Contribution.md).
+Sie können eine Kopie des Wiki erstellen und für eigene Zwecke nutzen. Ebenfalls können Sie Änderungen mitteilen und mit dem offizielen Wiki zusammenführen. Mehr dazu unter [Mitarbeit](Contribution.md).
 
 ### Unterstützer
 
