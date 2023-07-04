@@ -1,11 +1,11 @@
 ---
-title: Lohnabrechnung
+title: Struktur Lohnabrechnung
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Lohnabrechnung
+# Struktur Lohnabrechnung
 
 ## Lohnstrukturen
 

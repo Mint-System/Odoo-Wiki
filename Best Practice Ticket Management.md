@@ -1,12 +1,12 @@
 ---
-title: Tickets verlinken
+title: Tickets verwalten
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
 
-# Tickets verlinken
+# Tickets verwalten
 
 Die Tickets der Kundendienst App können mit verschiedenen Geschäftsobjekten verknüpft werden.
 

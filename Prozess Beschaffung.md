@@ -11,7 +11,7 @@ prev: ./referenzsystem
 
 ## Prozessschritte
 
-* [Warenbedarf](Best%20Practice%20Warenbedarf.md)
+* [Warenbedarf](Best%20Practice%20Material%20demand.md)
 * [Angebotsanfrage erstellen](Purchase.md#Angebotsanfrage%20erstellen)
 * [Angebotsanfrage senden](Purchase.md#Angebotsanfrage%20senden)
 * [Bestellung bestätigen](Purchase.md#Bestellung%20bestätigen)

@@ -1,11 +1,11 @@
 ---
-title: Kit bereitstellen
+title: Kit Bereitstellung
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Kit bereitstellen
+# Kit Bereitstellung
 
 ## Allgemein
 

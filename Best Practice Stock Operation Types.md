@@ -10,6 +10,7 @@ prev: ./best-practice
 ## Vorgangstypen einrichten
 
 Standardmässig sind folgende Vorgangstypen eingerichtet:
+
 1. Anlieferungen
 2. Lieferaufträge
 3. Manufacturing

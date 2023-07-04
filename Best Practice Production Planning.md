@@ -9,7 +9,7 @@ prev: ./best-practice
 
 ## Beispiel Fertigungsauftrag Rahmen unbeschichtet
 
-Für die Details des Produktes siehe [Rahmen unbeschichtet](Best%20Practice%20Definition%20Beispiel%20Fahrrad.md#Rahmen%20unbeschichtet).
+Für die Details des Produktes siehe [Rahmen unbeschichtet](Best%20Practice%20Definition%20Example%20Bicycle.md#Rahmen%20unbeschichtet).
 
 ### Automatische Fertigungsaufträge
 
