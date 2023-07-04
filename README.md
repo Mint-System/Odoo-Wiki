@@ -205,6 +205,12 @@ Odoo installieren und konfigurieren.
 
 Alles, was das "Internet der Dinge (IoT)" bietet.
 
+### [Lizenz](node_modules/bl/LICENSE.md)
+
+![](assets/odoo_icons_license.png)
+
+Software verkaufen und lizenzieren.
+
 ### [Kalender](Calendar.md)
 
 ![icons_odoo_calendar](assets/icons_odoo_calendar.png)
