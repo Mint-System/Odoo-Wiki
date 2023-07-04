@@ -46,7 +46,7 @@ prev: ./
 
 Wählen Sie einen Kontakt mit Mail-Adresse aus. Klicken Sie auf *Aktion > Grant portal access*. Im folgenden Dialog das Kächstchen *Portal* anklicken und bestätigen. Nun erhält der Benutzer eine Einladungs-Email, sofern der Benutzer eine gültige Mail-Adresse hinterlegt hat.
 
-## Verwaltung
+## Verwendung
 
 ### Kontakt-Stichwörter anlegen
 
@@ -101,6 +101,12 @@ Wenn Sie die Bezeichnung ändern wollen, gehen Sie folgt vor. Öffnen Sie die An
 Auf jedem Odoo-Kontakt ist eine gewerbliche Einheit hinterlegt. Diese definiert über welchen Kontakt die Abrechnung erfolgen soll. Der Zugriff auf die gewerbliche Einheit erfordert, dass Sie das entsprechende [Snippet hinzufügen](Development%20Snippets.md#Snippet%20hinzufügen). Nur dann wird das Feld *Gewerbliche Einheit* auf der Formularansicht sichtbar:odoo manufacture to order
 
 ![](assets/Kontakt%20Gewerbliche%20EInheit.png)
+
+### Kontakttyp festlegen
+
+Wenn Sie Unternehmen mit Kontakten haben, können Sie auf den Kontakten einen Typ festlegen. Zeigen Sie unter *Kontakte* ein Unternehmen an und klicken Sie im Tab *Kontakte & Adresse* auf eine Eintrag. Im Kontakformular erscheint nun ein Feld um den Kontakttyp auszuwählen.
+
+![](assets/Partner%20Select%20Type.png)
 
 ## Adressen
 
