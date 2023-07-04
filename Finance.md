@@ -71,6 +71,14 @@ Wenn Sie ein neues Unternehmen erstellt haben, können Sie unter *Einstellungen 
 
 ![](assets/Finanzen%20Mehrwertsteuer.png)
 
+### Konten Tag verwalten
+
+Navigieren Sie nach *Finanzen > Konfiguration > Konten Tags*. Hier finden Sie die auf Buchungszeilen und Steuersätzen auswählbaren Konten Tags. Erstellen Sie einen neuen Eintrag oder bearbeiten Sie einen Bestehenden.
+
+::: warning
+Konten Tags werden zur Generierung des Umsatzsteuerbericht verwendet und sind mit den Steuersätzen eng verknüpft. Nehmen Sie Anpassunge nur vor wenn die möglichen Konsequenzen bekannt sind.
+:::
+
 ## Bank-Jounal
 
 
