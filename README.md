@@ -205,12 +205,6 @@ Odoo installieren und konfigurieren.
 
 Alles, was das "Internet der Dinge (IoT)" bietet.
 
-### [Lizenz](node_modules/bl/LICENSE.md)
-
-![](assets/odoo_icons_license.png)
-
-Software verkaufen und lizenzieren.
-
 ### [Kalender](Calendar.md)
 
 ![icons_odoo_calendar](assets/icons_odoo_calendar.png)
@@ -246,6 +240,12 @@ Verfolgen Sie Leads, schließen Sie Chancen ab und erhalten Sie genaue Prognosen
 ![icons_odoo_stock](assets/icons_odoo_stock.png)
 
 Maximieren Sie die Effizienz Ihres Lagers.
+
+### [Lizenz](License.md)
+
+![](assets/odoo_icons_license.png)
+
+Software verkaufen und lizenzieren.
 
 ### [Link Tracker](Link%20Tracker.md)
 
