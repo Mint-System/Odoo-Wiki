@@ -109,7 +109,11 @@ Falls Sie die Adresse ändern möchten, öffnen Sie *Einstellungen > Technisch >
 Angenommen Sie geben als Wert `erp` ein, so ist die resultierende Absender-Aresse `From: "FIRSTNAME LASTNAME" <erp@example.com>`.
 
 ::: tip
-Bestimmte Mail-Provider erlauben keine Mail-Aliase für *catchall* und *no-reply*.
+Eine Liste von Mail-Provider und ob diese die *catchall* und *no-reply* E-Mail-Aliase erlauben:
+* ❌ Infomaniak
+* ❌ Outlook
+* ❌ Gmail
+* ✅ Proton
 :::
 
 ### Bounce-Alias anpassen
