@@ -44,6 +44,17 @@ Kopieren Sie das Feld *Wert*, es handelt sich hierbei um das *Client Secret*.
 
 ![](assets/Einstellungen%20OAuth%20Paste%20Client%20ID%20and%20Secret.png)
 
+### OAuth-App auf Azure als einzelner Mandant konfigurieren
+
+Standardmässig ist die OAuth-App mehrinstanzenfähig. Wenn Sie dies ändern möchten, öffnen Sie den Link <https://portal.azure.com/>, navigieren nach *Azure Active Directory > App-Registrierungen* und zeigen Sie OAuth-App an. Anschliessend klicken Sie auf *Mehrere Organisationen* und wählen bei *Unterstützte Kontotypen* die Option *Nur Konten in diesem Organisationsverzeichnis (einzelner Mandant)*. Öffnen Sie die Übersicht und notieren Sie sich die *Verzeichnis-ID (Mandant)*.
+
+In Odoo müssen Sie zwei [Systemparameter anlegen](Development.md#Systemparameter%20anlegen):
+
+* Schlüssel `microsoft_account.auth_endpoint` mit Wert `https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/authorize`
+* Schlüssel `microsoft_account.token_endpoint` mit Wert `https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/token`
+
+Die `TENANT_ID` ist die *Verzeichnis-ID (Mandant)*. Wenn Sie die [Outlook OAuth-Verbindung einrichten](#Outlook%20OAuth-Verbindung%20einrichten), wird nun ein Link mit der Mandanten-ID geöffnet.
+
 ## Verwendung
 
 ### Outlook OAuth-Verbindung einrichten
