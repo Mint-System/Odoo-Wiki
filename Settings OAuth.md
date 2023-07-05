@@ -46,16 +46,24 @@ Kopieren Sie das Feld *Wert*, es handelt sich hierbei um das *Client Secret*.
 
 ### OAuth-App auf Azure als einzelner Mandant konfigurieren
 
-Standardmässig ist die OAuth-App mehrinstanzenfähig. Wenn Sie dies ändern möchten, öffnen Sie den Link <https://portal.azure.com/>, navigieren nach *Azure Active Directory > App-Registrierungen* und zeigen Sie OAuth-App an. Anschliessend klicken Sie auf *Mehrere Organisationen* und wählen bei *Unterstützte Kontotypen* die Option *Nur Konten in diesem Organisationsverzeichnis (einzelner Mandant)*. Öffnen Sie die Übersicht und klicken Sie auf *Endpunkte*. Notieren Sie sich die Werte aus *OAuth 2.0-Autorisierungsendpunkt (v2)* und *OAuth 2.0-Token-Endpunkt (v2)*.
+Standardmässig ist die OAuth-App mehrinstanzenfähig. Wenn Sie dies ändern möchten, öffnen Sie den Link <https://portal.azure.com/>, navigieren nach *Azure Active Directory > App-Registrierungen* und zeigen Sie OAuth-App an. Anschliessend klicken Sie auf *Mehrere Organisationen* und wählen bei *Unterstützte Kontotypen* die Option *Nur Konten in diesem Organisationsverzeichnis (einzelner Mandant)*. Öffnen Sie die Übersicht und kopieren Sie die *Verzeichnis-ID (Mandant)*. 
+
+Legen Sie [Systemparameter](Development.md#Systemparameter%20anlegen) mit Schlüssel `microsoft_outlook.endpoint` und Wert `https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0` an. Wobei `TENANT_ID` gleich *Verzeichnis-ID (Mandant)* ist.
+
+Wenn Sie die [Outlook OAuth-Verbindung einrichten](#Outlook%20OAuth-Verbindung%20einrichten), wird nun die Mandanten-ID verwendet.
+
+### Microsoft OAuth-Endpunkte für einzelne Mandanten festlegen
+
+Wenn Sie die OAuth-App als einzelner Mandant verwenden, müssen Sie die OAuth-Endpunkte in Odoo anpassen.
+
+Öffnen Sie den Link <https://portal.azure.com/>, navigieren nach *Azure Active Directory > App-Registrierungen* und zeigen Sie OAuth-App an. Öffnen Sie die Übersicht und klicken Sie auf *Endpunkte*. Notieren Sie sich die Werte aus *OAuth 2.0-Autorisierungsendpunkt (v2)* und *OAuth 2.0-Token-Endpunkt (v2*.
 
 ![](assets/Settings%20OAuth%20Azure%20Endpunkte.png)
 
-Für diese Werte müssen Sie in Odoo nun zwei [Systemparameter anlegen](Development.md#Systemparameter%20anlegen):
+Für diese Werte müssen Sie in Odoo zwei [Systemparameter anlegen](Development.md#Systemparameter%20anlegen):
 
 * Schlüssel `microsoft_account.auth_endpoint` mit Wert `https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/authorize`
 * Schlüssel `microsoft_account.token_endpoint` mit Wert `https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/token`
-
-Wenn Sie die [Outlook OAuth-Verbindung einrichten](#Outlook%20OAuth-Verbindung%20einrichten), wird nun ein Link mit der Mandanten-ID geöffnet.
 
 ## Verwendung
 

@@ -145,7 +145,7 @@ Beim Abrufen des Zugangstokens ist ein Fehler aufgetreten. AADSTS7000222: The pr
 
 Das Client-Secret der Azure-App ist abglaufen.
 
-![](assets/Office365%20Token%20abgelaufen.png)
+![](assets/Office%20365%20Token%20abgelaufen.png)
 
 **Lösung**
 
