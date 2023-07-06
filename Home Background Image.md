@@ -22,7 +22,7 @@ Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Unternehmen* und
 
 ![](assets/Home%20Backround%20Image%20Upload.png)
 
-Wurde das Bild festelegt, wird es auf der Startseite angezeigt.
+Wurde das Bild festgelegt, wird es auf der Startseite angezeigt.
 
 ![](assets/Home%20Backround%20Image%20Set.png)
 
