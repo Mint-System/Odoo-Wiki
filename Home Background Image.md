@@ -12,13 +12,13 @@ prev: ./settings
 {{ $frontmatter.description }}
 
 Technischer Name: `home_background_image`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/home_background_image>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/15.0/home_background_image>
 
 ## Verwendung
 
 ### Hintergrundbild festlegen
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Unternehmen* und wählen Sie *Updte Info*. Bearbeiten Sie das Feld *Home Background Image* und laden Sie das Hintergrund-Bild hoch.
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Unternehmen* und wählen Sie *Update Info*. Bearbeiten Sie das Feld *Home Background Image* und laden Sie das Hintergrund-Bild hoch.
 
 ![](assets/Home%20Backround%20Image%20Upload.png)
 
