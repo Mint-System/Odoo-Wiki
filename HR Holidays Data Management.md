@@ -10,7 +10,9 @@ prev: ./hr-holidays
 
 {{ $frontmatter.description }}
 
-## Abwesenheitsansprüche exportieren
+## Export
+
+### Abwesenheitsansprüche exportieren
 
 Listenansicht: *Abwesenheitszeiten > Vorgesetzte > Abwesenheitsansprüche*
 

@@ -14,7 +14,7 @@ prev: ./
 
 | Bereich                                                             | Beschreibung                                        |
 | ------------------------------------------------------------------- | --------------------------------------------------- |
-| [Einstellunen Datenmanagement](Settings%20Data%20Management.md)     | Daten zu Einstellungen exportieren und importieren. |
+| [Einstellungen Datenmanagement](Settings%20Data%20Management.md)     | Daten zu Einstellungen exportieren und importieren. |
 | [Kontakte Datenmanagement](Partner%20Data%20Management.md)          | Daten zu Kontakte exportieren und importieren.      |
 | [Projekt Datenmanagement](Project%20Data%20Management.md)           | Daten zu Projekte exportieren und importieren.      |
 | [Kundendienst Datenmanagement](Helpdesk%20Data%20Management.md)     | Daten zu Kundendienst exportieren und importieren.  |

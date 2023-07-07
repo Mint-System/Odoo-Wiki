@@ -10,7 +10,9 @@ prev: ./partner
 
 {{ $frontmatter.description }}
 
-## Daten Kontakte exportieren
+## Export
+
+### Kontakte exportieren
 
 Listenansicht: *Kontakte*
 
@@ -33,8 +35,9 @@ bank_ids/bank_id
 ```
 Datei: `res.partner.csv`
 
+## Import
 
-## Daten Kontakte importieren
+### Kontakte importieren
 
 Listenansicht: *Kontakte*
 

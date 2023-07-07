@@ -10,7 +10,9 @@ prev: ./settings
 
 {{ $frontmatter.description }}
 
-## Daten Benutzer exportieren
+## Export
+
+### Benutzer exportieren
 
 Listenansicht: *Einstellungen > Benutzer > Benutzer verwalten*
 
@@ -23,7 +25,7 @@ lang
 ```
 Datei: `res.users.csv`
 
-## Daten Zugriffsrechte exportieren
+### Zugriffsrechte exportieren
 
 Listenansicht: *Einstellungen > Technisch > Sicherheit > Zugriffsrechte*
 
@@ -39,3 +41,9 @@ perm_create
 Datei: `ir.model.access.csv`
 
 Calc-Formeln: `=CONCAT(IF(B2="True","C",""),IF(C2="True","R",""),IF(D2="True","U",""),IF(E2="True","D",""))`
+
+## Import
+
+### Benutzer importieren
+
+Listenansicht: *Einstellungen > Benutzer > Benutzer verwalten*

@@ -10,7 +10,9 @@ prev: ./helpdesk
 
 {{ $frontmatter.description }}
 
-### Daten Ticket exportieren
+## Export
+
+### Kundendienst Tickets exportieren
 
 Listenansicht: *Kundendienst > Tickets > Alle Tickets*
 

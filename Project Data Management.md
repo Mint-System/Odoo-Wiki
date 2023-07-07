@@ -10,7 +10,9 @@ prev: ./project
 
 Daten zu Projekte exportieren und importieren.
 
-### Daten Projektstufen exportieren
+## Export
+
+### Projektstufen exportieren
 
 Listenansicht: *Projekt > Konfiguration > Stufen*
 
@@ -24,7 +26,7 @@ Projekte/Externe ID
 ```
 File: `project.task.type.csv`
 
-### Daten Projekte exportieren
+### Projekte exportieren
 
 Listenansicht: *Projekt > Konfiguration > Projekte*
 
@@ -38,7 +40,7 @@ Zeiterfassung
 ```
 Datei: `project.project.csv`
 
-### Daten Aufgaben exportieren
+### Aufgaben exportieren
 
 Listenansicht: *Projekt > Alle Aufgaben*
 

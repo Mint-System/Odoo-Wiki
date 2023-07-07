@@ -12,7 +12,7 @@ prev: ./manufacture
 
 ## Produkte
 
-## Produkt anlegen
+### Produkt anlegen
 
 Navigieren Sie nach *Fertigung > Stammdaten > Produkte*.
 
