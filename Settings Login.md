@@ -59,6 +59,10 @@ Einige Aktionen haben den gleichen Namen, testen Sie die Auswahl vorgängig mit 
 
 ## Portalzugriff
 
+### Portal-Benutzer anzeigen
+
+Portal-Benutzer verwalten Sie unter *Einstellungen > Benutzer und Unternehmen > Benutzer*. Entfernen Sie den Filter *Interner Nutzer* und wählen Sie den Filter *Portal Users*. Nun werden alle Portal-Benutzer angezeigt.
+
 ### Portal-Benutzer in internen Benutzer umwandeln
 
 Wenn Benutzer sich über das Portal bzw. Login-Fenster registrieren wird ein Portal-Benutzer erstellt. Dieser Benutzer hat Zugriff auf die externen Dienste von Odoo. Wenn Sie diesem Benutzer interne Zugriffsrechte geben möchten, gehen Sie wie folgt vor.
@@ -69,7 +73,7 @@ Wenn Benutzer sich über das Portal bzw. Login-Fenster registrieren wird ein Por
 
 ### Portalzugriff gewähren
 
-Damit mehrere Konakte Zugriff auf Odoo haben, brauchen Sie einen Portal-Zugriff. Navigieren Sie nach *Kontakte* und wählen Sie in der Listen-Ansicht die Kontake aus. Wählen Sie *Aktion > Portalzugriff gewähren* und klicken für jeden Kontakt auf die *Im Portal*-Checkbox. Bestätigen Sie den Vorgang und jeder Benutzer erhält eine Einladung.
+Damit mehrere Kontakte Zugriff auf Odoo haben, brauchen Sie einen Portal-Zugriff. Navigieren Sie nach *Kontakte* und wählen Sie in der Listen-Ansicht die Kontakte aus. Wählen Sie *Aktion > Portalzugriff gewähren* und klicken für jeden Kontakt auf die *Im Portal*-Checkbox. Bestätigen Sie den Vorgang und jeder Benutzer erhält eine Einladung.
 
 Die Einladung Sie wie folgt aus:
 
@@ -79,7 +83,7 @@ Hat sich der Benutzer mit der Mail registriert, muss er seinen Account verifizie
 
 ![](assets/Einstellungen%20Login%20Profilverifizierung.png)
 
-### Portal Benutzerkonto anlegen
+### Portal-Benutzerkonto anlegen
 
 Falls Sie für das Portal noch keinen Zugang haben, können Sie über die Funktion *Benutzerkonto anlegen* ein Konto erstellen.
 
