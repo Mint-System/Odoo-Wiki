@@ -79,6 +79,22 @@ Dem Benutzer wurde mit wiedersprüchlichen Berechtigungen ausgestattet.
 
 Den Entwickler-Modus aktivieren und in den Superuser wechseln. Nun ist es möglich über die Einstellungen zur Benutzerliste zu navigieren. Dort den eigenen Benutzer mit Berechtigungen ausstatten.
 
+### Nicht mehr als ein Benutzertyp
+
+**Problem**
+
+Beim Hinzufügen einer Gruppe erscheint diese Meldung:
+
+> Der Benutzer kann nicht mehr als einen Benutzertyp haben.
+
+**Ursache**
+
+Ausgewählte Gruppen definieren zusätzlich den Benutzertyp (Intern, Portal, Öffentlich). Es ist nur ein Benutzertyp möglich.
+
+**Lösung**
+
+Entfernen Sie die bestehende Benutzertyp-Gruppe oder entfernen Sie die neue Gruppe für den Benutzer.
+
 ## E-Mail
 
 ### Eingehende Mails werden nicht verarbeitet
