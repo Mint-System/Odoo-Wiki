@@ -130,7 +130,7 @@ Währen dem Importvorgang wird die Dauer mit dem Start- und Enddatum berechnet, 
 
 Beispiel:
 
-![](assets/Abwesenheiten%20Beispiel%20Export.png)
+![](attachments/Abwesenheiten%20Beispiel%20Export.png)
 
 ### Arbeitszeit
 

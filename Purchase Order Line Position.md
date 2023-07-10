@@ -7,7 +7,7 @@ tags:
 prev: ./order-positions
 ---
 # Purchase Order Line Position
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Einkaufsaufträge mit Positionsnummern. 
 
@@ -30,4 +30,4 @@ Wenn Positionsnummern leer sind, können Sie *Aktion > Positionsnummern festlege
 
 Unter <https://odoo.build/snippets.html> finden Sie Snippets mit der Bezeichnung *Get Postition*, beispielsweise <https://odoo.build/snippets/purchase.html#get-position>. Verwenden Sie diese Snippets um auf Berichten, die Positionsnummer aus Verkaus-, Einkaufs- und Fertigungsaufträgen anzuzeigen.
 
-![](assets/Snippets%20Positionsnummer%20anzeigen.png)
+![](attachments/Snippets%20Positionsnummer%20anzeigen.png)

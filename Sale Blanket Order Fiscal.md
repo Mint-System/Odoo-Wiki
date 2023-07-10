@@ -7,7 +7,7 @@ tags:
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Fiscal
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Steuerzuordnung von Rahmenauftrag auf den Verkaufsauftrag kopieren.
 
@@ -24,4 +24,4 @@ Mit dem Systemparameter `sale_blanket_order_fiscal.copy_fiscal` können Sie fest
 
 Mit dieser Erweiterung können Sie auf dem Verkaufsauftrag die *Steuerzuordnung* festlegen. 
 
-![](assets/Sale%20Blanket%20Order%20Extended.png)
+![](attachments/Sale%20Blanket%20Order%20Extended.png)

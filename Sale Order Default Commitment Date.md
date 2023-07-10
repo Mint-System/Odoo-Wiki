@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Sale Order Default Commitment Date
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Standardlieferdatum festlegen. 
 
@@ -23,4 +23,4 @@ Beim erstellen eines neuen Verkaufsangebot wird der *Liefertermin* nach der folg
 * Nach 12 Uhr wird der Liefertermin auf den aktuellen Tag + 2 Tage gesetzt.
 * Die Stunde und Minute werden auf einen bestimmten Wert gesetzt.
 
-![](assets/Sale%20Order%20Default%20Commitment%20Date%20Beispiel.png)
+![](attachments/Sale%20Order%20Default%20Commitment%20Date%20Beispiel.png)

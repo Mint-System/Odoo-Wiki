@@ -17,33 +17,33 @@ Im folgenden Beispiel wird ein Beschaffungsauftrag für 10 Stk City Bike erstell
 
 Im ersten Schritt werden also 10 Stk *City Bike* bestellt. Mit der Bestätigung des Auftrags wird ein Warentransfer für 10 Stk angelegt der über den Smart-Button *Wareneingang* oben rechts sichtbar wird. 
 
-![Best Practice Einkauf Bestellmenge ändern](assets/Best%20Practice%20Einkauf%20Bestellmenge%20ändern.png)
+![Best Practice Einkauf Bestellmenge ändern](attachments/Best%20Practice%20Einkauf%20Bestellmenge%20ändern.png)
 
 Ein Interner Transfer für die 10 Stk *City Bike* erscheint als Vorgang.
 
-![Best Practice Einkauf Bestellmenge ändern Wareneingang](assets/Best%20Practice%20Einkauf%20Bestellmenge%20ändern%20Wareneingang.png)
+![Best Practice Einkauf Bestellmenge ändern Wareneingang](attachments/Best%20Practice%20Einkauf%20Bestellmenge%20ändern%20Wareneingang.png)
 
 Falls nun der Beschaffungsauftrag über die Funktion *Bearbeiten* von 10 auf 12 Stk. vergrössert wird, erscheint die Änderung nach *Bestätigen* im Chatter wie folgt:
-![Best Practice Einkauf Bestellmenge ändern Vergrösserung Chatter](assets/Best%20Practice%20Einkauf%20Bestellmenge%20ändern%20Vergrösserung%20Chatter.png)
+![Best Practice Einkauf Bestellmenge ändern Vergrösserung Chatter](attachments/Best%20Practice%20Einkauf%20Bestellmenge%20ändern%20Vergrösserung%20Chatter.png)
 
 Prüfen Sie nun über den Smart-Button *Wareneingang* die Veränderung des Internen Transfers. Sie werden feststellen, dass sich die Menge automatisch von 10 auf 12 Stk erhöht hat.
 
-![Best Practice Einkauf Bestellmenge ändern Wareneingang Vergrösserung](assets/Best%20Practice%20Einkauf%20Bestellmenge%20ändern%20Wareneingang%20Vergrösserung.png)
+![Best Practice Einkauf Bestellmenge ändern Wareneingang Vergrösserung](attachments/Best%20Practice%20Einkauf%20Bestellmenge%20ändern%20Wareneingang%20Vergrösserung.png)
 
 Der Chatter rapportierte die Änderung wie folgt:
 
-![Best Practice Einkauf Bestellmenge ändern Vergrösserung Wareneingang Chatter](assets/Best%20Practice%20Einkauf%20Bestellmenge%20ändern%20Vergrösserung%20Wareneingang%20Chatter.png)
+![Best Practice Einkauf Bestellmenge ändern Vergrösserung Wareneingang Chatter](attachments/Best%20Practice%20Einkauf%20Bestellmenge%20ändern%20Vergrösserung%20Wareneingang%20Chatter.png)
 
 ## Fall 2: Verkleinerung der Bestellmenge
 
 Im folgenden Beispiel wird die bestellte Menge von 10 auf 6 Stk verkleinert. Der Chatter rapportiert die Änderung.
 
-![Best Practice Einkauf Bestellmenge ändern Verkleinern Chatter](assets/Best%20Practice%20Einkauf%20Bestellmenge%20ändern%20Verkleinern%20Chatter.png)
+![Best Practice Einkauf Bestellmenge ändern Verkleinern Chatter](attachments/Best%20Practice%20Einkauf%20Bestellmenge%20ändern%20Verkleinern%20Chatter.png)
 
 Prüfen Sie nun über den Smart-Button *Wareneingang* die Veränderung des Internen Transfers. Sie werden feststellen, dass sich die Menge nicht verändert hat. Stattdesen rapportiert der Chatter die folgende Fehlermeldung:
 
-![Best Practice Einkauf Bestellmenge ändern Verkleinern Wareneingang Chatter](assets/Best%20Practice%20Einkauf%20Bestellmenge%20ändern%20Verkleinern%20Wareneingang%20Chatter.png)
+![Best Practice Einkauf Bestellmenge ändern Verkleinern Wareneingang Chatter](attachments/Best%20Practice%20Einkauf%20Bestellmenge%20ändern%20Verkleinern%20Wareneingang%20Chatter.png)
 
 Die beiden Internen Transfers von Input --> Quality und Quality --> Stock wurden nicht automatisch nachgeführt. Die beiden Vorgänge müssen manuell geändert werden. Navigieren Sie hierfür in die entsprechenden Vorgänge und ändern Sie die Stückzahl von 12 auf 6 nachdem Sie die Funktionen *Entsperren* und *Bearbeiten* aktiviert haben. Nachdem die beiden Vorgänge richtiggstellt wurden, sollte für die Wahrung der Übersicht die Fehlermeldung auf dem Wareneingang abgeschlossen werden.
 
-![Best Practice Einkauf Bestellmenge ändern Fehlermeldung abschliessen](assets/Best%20Practice%20Einkauf%20Bestellmenge%20ändern%20Fehlermeldung%20abschliessen.gif)
+![Best Practice Einkauf Bestellmenge ändern Fehlermeldung abschliessen](attachments/Best%20Practice%20Einkauf%20Bestellmenge%20ändern%20Fehlermeldung%20abschliessen.gif)

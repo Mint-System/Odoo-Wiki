@@ -7,7 +7,7 @@ tags:
 prev: ./settings
 ---
 # Mail Manual Routing
-![](assets/odoo_icon_mail_manual_routing.png)
+![](attachments/odoo_icon_mail_manual_routing.png)
 
 {{ $frontmatter.description }}
 

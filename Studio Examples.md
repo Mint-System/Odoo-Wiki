@@ -6,7 +6,7 @@ tags:
 prev: ./studio
 ---
 # Studio Beispiele
-![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)
+![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 Beispiele für Anpassungen mit Odoo Studio.
 
@@ -47,7 +47,7 @@ Bearbeiten Sie den Rechnungsbericht und fügen Sie folgenden Code ein:
 
 Das Ergebnis sieht so aus:
 
-![](assets/Odoo%20Studio%20IBAN%20und%20Bank%20auf%20Rechnung.png)
+![](attachments/Odoo%20Studio%20IBAN%20und%20Bank%20auf%20Rechnung.png)
 
 ### Dateianhang in Bericht anzeigen
 
@@ -64,11 +64,11 @@ In diesem Beispiel wurde mit Odoo Studio dem Modell *product.product* zwei Felde
 	* Typ: Man2One Produktionsdokument
 	* Bezeichnung: STEP-Datei
 
-![](assets/Studio%20Produkt%20Variante%20zus%C3%A4tzliche%20Felder.png)
+![](attachments/Studio%20Produkt%20Variante%20zusätzliche%20Felder.png)
 
 Diese Felder können im Beschaffungsauftrag angzeigt werden.
 
-![](assets/Studio%20Beschaffungsauftrag%20XML%20Customization.png)
+![](attachments/Studio%20Beschaffungsauftrag%20XML%20Customization.png)
 
 Für diese Art von Anpassung muss das XML der Ansicht bearbeit werden, dazu der X-Path-Edit:
 

@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Stock Move Line Packaging
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Verknüpfen der Verpackung von Verkaufsauftrag.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 Mit dieser Erweiterung werden Verpackung automatisch auf den Vorgängen in Lieferungen anzeigt. Wenn der Vorgang mit einem Verkaufsauftragszeile verknüpft ist, wird die hinterlegte Verpackung verlinkt.
 
-![](assets/Stock%20Move%20Line%20Packaging.png)
+![](attachments/Stock%20Move%20Line%20Packaging.png)

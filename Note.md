@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Notizen
-![icons_odoo_note](assets/icons_odoo_note.png)
+![icons_odoo_note](attachments/icons_odoo_note.png)
 
 {{ $frontmatter.description }}
 
@@ -20,19 +20,19 @@ Rufen Sie die App *Notizen* und erstellen Sie einen neuen Eintrag.
 Die erste Notizzeile wird in der Kanban-Ansicht als Titel der Notiz angezeigt.
 :::
 
-![](assets/Notizen%20erstellen.png)
+![](attachments/Notizen%20erstellen.png)
 
 
 ### Notiz-Stufen anpassen
 
 Bearbeiten Sie die Notiz-Stufen unter *Notizen > Konfiguration > Stufen*.
 
-![](assets/Notizen%20Stufen.png)
+![](attachments/Notizen%20Stufen.png)
 
 ### Notizen teilen
 
 Um eine Notiz mit einem internen Odoo-Benutzer zu teilen, kann man dieses als Abonnent der Notiz hinzufügen.
 
-![](assets/Notizen%20Abonnenten%20hinzuf%C3%BCgen.png)
+![](attachments/Notizen%20Abonnenten%20hinzufügen.png)
 
 Der Benutzer erhält eine Benachrichtung mit einem Link zur Notiz.

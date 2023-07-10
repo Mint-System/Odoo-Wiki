@@ -7,7 +7,7 @@ tags:
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Comment
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Kommentar auf Rahmenauftrag.
 
@@ -24,8 +24,8 @@ Mit dem Systemparameter `sale_blanket_order_comment.copy_comment` können Sie fe
 
 Öffnen Sie einen Rahmenauftrag via *Verkäufe > Aufträge > Rahmenaufträge*. Im Tab *Weitere Informationen* finden Sie das Feld *Kommentar*.
 
-![](assets/Sale%20Blanket%20Order%20Comment%20Feld.png)
+![](attachments/Sale%20Blanket%20Order%20Comment%20Feld.png)
 
 Wenn Sie einen neuen Kommentar erfassen oder einen bestehenden Kommentar anpassen, wird das im Chatter protokolliert.
 
-![](assets/Sale%20Blanket%20Order%20Comment%20Chatter.png)
+![](attachments/Sale%20Blanket%20Order%20Comment%20Chatter.png)

@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Kontakte
-![icons_odoo_contacts](assets/icons_odoo_contacts.png)
+![icons_odoo_contacts](attachments/icons_odoo_contacts.png)
 
 {{ $frontmatter.description }}
 
@@ -56,7 +56,7 @@ Navigieren Sie nach *Kontakte > Konfiguration > Kontakt Tag*. Hier können Sie S
 
 Ein neuer Eintrag im Adressbuch können Sie über *Kontakte > Anliegen* erstellen.
 
-![Kontakte anlegen](assets/Kontakte%20anlegen.png)
+![Kontakte anlegen](attachments/Kontakte%20anlegen.png)
 
 Odoo verwendet Kontakte als zentrales Adressbuch. Verschiedene Apps wie Verkauf, CRM oder Finanzen greifen auf das Adressbuch zu. Eine Aufstellung der wichtigsten Felder:
 
@@ -82,7 +82,7 @@ Tab *Verkauf & Einkauf*.
 
 Zeigen Sie ein Unternehmenskontakt via *Kontakte* an. Im Tab *Kontakte & Adressen* können Sie Unterkontakte erfassen. Diese Unterkontkakte werden als *Einzelpersonen* angelegt.
 
-![](assets/Unterkontakte.png)
+![](attachments/Unterkontakte.png)
 
 ::: warning
 Ändern Sie den Typ von Unterkontakten nicht auf Unternehmen. Wird beispielsweise die Rechnungsadresse als Kontakt vom Typ Unternehmen festgelegt, erfolgt eine kommerzielle Trennung des Haupt- und Unterkonakt.
@@ -94,19 +94,19 @@ Wenn keine Bezeichnung für die Umsatzsteuer festgelegt ist, verwendet Odoo *Tax
 
 Wenn Sie die Bezeichnung ändern wollen, gehen Sie folgt vor. Öffnen Sie die Ansicht *Kontakte > Konfiguration > Lokalisierung > Länder* und wählen Sie ihr Land aus. Nun können Sie die Bezeichnung im Feld *USt.-Bezeichnung* festlegen.
 
-![](assets/Kontakte%20Bezeichnung%20Umsatzsteuer.png)
+![](attachments/Kontakte%20Bezeichnung%20Umsatzsteuer.png)
 
 ### Gewerbliche Einheit festlegen
 
 Auf jedem Odoo-Kontakt ist eine gewerbliche Einheit hinterlegt. Diese definiert über welchen Kontakt die Abrechnung erfolgen soll. Der Zugriff auf die gewerbliche Einheit erfordert, dass Sie das entsprechende [Snippet hinzufügen](Development%20Snippets.md#Snippet%20hinzufügen). Nur dann wird das Feld *Gewerbliche Einheit* auf der Formularansicht sichtbar:odoo manufacture to order
 
-![](assets/Kontakt%20Gewerbliche%20EInheit.png)
+![](attachments/Kontakt%20Gewerbliche%20EInheit.png)
 
 ### Kontakttyp festlegen
 
 Wenn Sie Unternehmen mit Kontakten haben, können Sie auf den Kontakten einen Typ festlegen. Zeigen Sie unter *Kontakte* ein Unternehmen an und klicken Sie im Tab *Kontakte & Adresse* auf eine Eintrag. Im Kontakformular erscheint nun ein Feld um den Kontakttyp auszuwählen.
 
-![](assets/Partner%20Select%20Type.png)
+![](attachments/Partner%20Select%20Type.png)
 
 ## Adressen
 
@@ -114,21 +114,21 @@ Wenn Sie Unternehmen mit Kontakten haben, können Sie auf den Kontakten einen Ty
 
 Standardmässig druckt Odoo die Adresse mit dem jeweiligen Land des Kontakts ab.
 
-![](assets/Einstellungen%20Adressformat.png)
+![](attachments/Einstellungen%20Adressformat.png)
 
 Damit das Land nicht abgedruckt wird, öffnen Sie die Ansicht *Kontakte > Konfiguration > Lokalisierung > Länder* und wählen ihr Land aus. Nun können Sie das *Layout in Berichten* festlegen.
 
-![](assets/Kontakte%20Layout%20in%20Berichten.png)
+![](attachments/Kontakte%20Layout%20in%20Berichten.png)
 
 ### Rechnungsadresse in Anzeigenamen  einblenden
 
 Damit die Bezeichnung *Rechnungsadresse* im Anzeigenamen der Kontakte eingelendet wird, muss der Kontakt als *Einzelperson* festgelegt werden und das Namensfeld muss leer gelassen werden.
 
-![](assets/Kontak%20Rechnungsadresse.png)
+![](attachments/Kontak%20Rechnungsadresse.png)
 
 In der Kontaktauswahl wird der Adresstyp so sichtbar:
 
-![](assets/Kontakt%20Auswahl%20mit%20Adresstyp.png)
+![](attachments/Kontakt%20Auswahl%20mit%20Adresstyp.png)
 
 ## Einstellungen
 

@@ -7,7 +7,7 @@ tags:
 prev: ./manufacture
 ---
 # MRP Production Update Upstream Move
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/OCA/product-attribute/tree/14.0/mrp_production_u
 
 Hat ein Fertigungsauftrag eine offene Pickings und wird die zu produzierende Menge aktualisiert, dann werden mit dieser Erweiterung auch die Bedarfsmenge der Pickings angepasst.
 
-![MRP Production Update Upstream Move](assets/MRP%20Production%20Update%20Upstream%20Move.gif)
+![MRP Production Update Upstream Move](attachments/MRP%20Production%20Update%20Upstream%20Move.gif)

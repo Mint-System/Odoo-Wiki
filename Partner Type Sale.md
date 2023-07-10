@@ -7,7 +7,7 @@ tags:
 prev: ./partner
 ---
 # Partner Type Sale
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.
 
@@ -20,7 +20,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/15.0/
 
 Mit dieser Erweiterung erhalten Sie als zusätzlichen Adresstype *Verkaufsadresse*.
 
-![](assets/Partner%20Type%20Sale.png)
+![](attachments/Partner%20Type%20Sale.png)
 
 Unterkontakte dieses Typs werden entsprechend mit einem Icon markiert.
 

@@ -90,10 +90,10 @@ In der Steuerzuordnung *Schweiz national* kann im Feld *Land* auf die *Schweiz e
 
 Beispiel:
 
-![Best Practice Mehrwertsteuer Beispiel 1](assets/Best%20Practice%20Mehrwertsteuer%20Beispiel%201.png)
+![Best Practice Mehrwertsteuer Beispiel 1](attachments/Best%20Practice%20Mehrwertsteuer%20Beispiel%201.png)
 
 In der Steuerzuordnung *Import/Export* kann nun eingestellt werden, dass auf einem Angebot für das Ausland keine Steuern enthalten sind. Der Inhalt in der Spalte *Verfügbare Steuer* bleibt deshalb leer.
 
 Beispiel:
 
-![Best Practice Mehrwertsteuer Beispiel 2](assets/Best%20Practice%20Mehrwertsteuer%20Beispiel%202.png)
+![Best Practice Mehrwertsteuer Beispiel 2](attachments/Best%20Practice%20Mehrwertsteuer%20Beispiel%202.png)

@@ -7,7 +7,7 @@ tags:
 prev: ./partner
 ---
 # Partner Secondary Name
-![](assets/icon_oms_box.png)
+![](attachments/icon_oms_box.png)
 
 Zweitname für Unternehmen.
 

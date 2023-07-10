@@ -7,7 +7,7 @@ tags:
 prev: ./settings
 ---
 # Impersonate
-![](assets/icon_odoo_impersonate.png)
+![](attachments/icon_odoo_impersonate.png)
 
 {{ $frontmatter.description }}
 
@@ -25,11 +25,11 @@ Bei entsprechenden Berechtigungen kann sich ein Benutzer entweder als jeden beli
 
 **Bestimmte Bentuzer**: Unter *Einstellungen > Benutzer verwalten > Benutzer wählen > Tab Einstellungen* und hier unter *Impersonate Users* die ausgewählten Benutzer hinzufügen.
 
-![](assets/Impersonate%20Einstellungen.png)
+![](attachments/Impersonate%20Einstellungen.png)
 
 ### Impersonierung ausführen
 
 Über das Tray-Menu oben rechts, wählen Sie *Impersonate*. Wähle Sie den Benutzer aus klicken Sie auf *Impersonate*.
 
-![Impersonate ausführen](assets/Impersonate%20Ausführen.gif)
+![Impersonate ausführen](attachments/Impersonate%20Ausführen.gif)
 

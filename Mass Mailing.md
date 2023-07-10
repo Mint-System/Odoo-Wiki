@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # E-Mail-Marketing
-![icons_odoo_mass_mailing](assets/icons_odoo_mass_mailing.png)
+![icons_odoo_mass_mailing](attachments/icons_odoo_mass_mailing.png)
 
 {{ $frontmatter.description }}
 
@@ -33,4 +33,4 @@ Odoo versendet jede Woche Übersicht zum Unternehmen. Wenn Sie diesen Newsletter
 
 Öffnen Sie den Eintrag *Wöchentliche Statistiken in Odoo* und wählen sie, ob Sie sich selber abmelden möchte oder für alle den Versand beenden wollen.
 
-![](assets/E-Mail-Marketing%20Versand%20beenden.png)
+![](attachments/E-Mail-Marketing%20Versand%20beenden.png)

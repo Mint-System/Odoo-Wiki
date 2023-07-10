@@ -7,7 +7,7 @@ tags:
 prev: ./hr-holidays
 ---
 # HR Attendance Kiosk Mode Color
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -22,8 +22,8 @@ Mit dieser Erweiterung wird beim An- und Abmelden im Kioskmodus der Hintergrund 
 
 Eigene Anwesenheit:
 
-![HR Attendance Kiosk Mode Color](assets/HR%20Attendance%20Kiosk%20Mode%20Color%20MyAttendance.gif)
+![HR Attendance Kiosk Mode Color](attachments/HR%20Attendance%20Kiosk%20Mode%20Color%20MyAttendance.gif)
 
 Kioskmodus:
 
-![HR Attendance Kiosk Mode Color Kioskmode](assets/HR%20Attendance%20Kiosk%20Mode%20Color%20Kioskmode.gif)
+![HR Attendance Kiosk Mode Color Kioskmode](attachments/HR%20Attendance%20Kiosk%20Mode%20Color%20Kioskmode.gif)

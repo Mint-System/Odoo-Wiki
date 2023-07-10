@@ -15,7 +15,7 @@ Damit beim Verkauf von zu fertigenden Produkten direkt ein Fertigungsauftrag ers
 
 Wenn Sie dieses Produkt verkaufen, legt Odoo eine Lieferung und ein Fertigungsauftrag an. Die Aufträge werden mit den Smart-Buttons verlinkt.
 
-![](assets/Best%20Practice%20Make%20To%20Order%20Smart-Links.png)
+![](attachments/Best%20Practice%20Make%20To%20Order%20Smart-Links.png)
 
 Wenn Sie mehrere Verkäufe für das Produkt anlegen, werden bestehende Bestellungen aktualisiert. Falls Sie für jeden Verkauf einen neuen Fertigungsauftrag möchten müssen Sie die [Beschaffungsgruppe weitergeben](Stock%20Operations.md#Beschaffungsgruppe%20weitergeben).
 

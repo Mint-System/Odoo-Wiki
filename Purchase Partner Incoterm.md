@@ -7,7 +7,7 @@ tags:
 prev: ./purchase
 ---
 # Purchase Partner Incoterm
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Standardlieferbedingungen für Lieferanten.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/OCA/purchase-workflow/tree/14.0/purchase_partner
 
 Ist diese Erweiterung installiert, wird bei der Auswahl eines Lieferanten auf einer Bestellung dessen Standardlieferbedingungen übertragen.
 
-![](assets/Purchase%20Partner%20Incoterm.png)
+![](attachments/Purchase%20Partner%20Incoterm.png)

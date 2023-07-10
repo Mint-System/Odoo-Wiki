@@ -7,7 +7,7 @@ prev: ./
 ---
 
 # Abwesenheit
-![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)
+![icons_odoo_hr_holidays](attachments/icons_odoo_hr_holidays.png)
 
 {{ $frontmatter.description }}
 
@@ -39,7 +39,7 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 
 Öffnen Sie die App *Abwesenheit*. Auf dem Dashboard werden oberhalb des Kalender die verbleibenden Abwesenheitsansprüche angezeigt.
 
-![](assets/Abwesenheit%20Dashboard.png)
+![](attachments/Abwesenheit%20Dashboard.png)
 
 ::: warning
 Die verfügbaren Überstunden werden nur angezeigt, wenn der Wert positiv ist.
@@ -82,7 +82,7 @@ Diese Anpassung geht bei der Aktualisierung oder Neuinstallation des Abwesenheit
 
 Für jeden Arbeitszeiteintrag können Sie Feiertage festlegen. Navigieren Sie nach *Abwesenheit > Konfiguration > Gesetzliche Feiertage*. Erstellen Sie hier einen neuen Eintrag für jeden Feiertag und jedes Arbeitspensum.
 
-![](assets/Abwesenheit%20Feiertage.png)
+![](attachments/Abwesenheit%20Feiertage.png)
 
 ::: warning
 Stellen Sie sicher, dass zwischen Start- und Endatum die effektive Anzahl Stunden/Tage dazwischen liegt.
@@ -94,7 +94,7 @@ Stellen Sie sicher, dass zwischen Start- und Endatum die effektive Anzahl Stunde
 
 Damit Sie Anspruch auf Abwesenheit haben, müssen Sie diesen Anspruch geltend machen. Öffnen Sie die App *Abwesenheitszeiten* und wählen Sie *Neuer Abwesenheitsanspruch*. Wählen Sie den Typ, die Anzahl Tage und fügen Sie eine Beschreibung hinzu.
 
-![](assets/Abwesenheitszeiten%20Anspruch%20melden.png)
+![](attachments/Abwesenheitszeiten%20Anspruch%20melden.png)
 
 Schliessen Sie den Dialog nach *Speichern*.
 
@@ -102,17 +102,17 @@ Schliessen Sie den Dialog nach *Speichern*.
 
 Wenn Sie eine Mail zur Validierung eines Abwesenheitsanspruches erhalten, können Sie direkt auf den Link klicken.
 
-![](assets/Abwesenheitszeiten%20Anspruch%20Mail.png)
+![](attachments/Abwesenheitszeiten%20Anspruch%20Mail.png)
 
 Abwesenheitsansprüche zur Validierung werden auch über Odoo-Aktivitäten angezeigt.
 
-![](assets/Abwesenheitszeiten%20Aktivit%C3%A4t.png)
+![](attachments/Abwesenheitszeiten%20Aktivität.png)
 
 Klicken Sie auf *Genehmigen* oder *Ablehnen* um den Abwesenheitsanspruch zu validieren.
 
 Mitarbeitende erhalten nach der Validierung eine entsprechende Mail.
 
-![](assets/Abwesenheitszeiten%20Mail%20Validierung.png)
+![](attachments/Abwesenheitszeiten%20Mail%20Validierung.png)
 
 ::: tip
 Odoo versendet keine Nachrichten, wenn die Genehmigung alls Massenbearbeitung erfolgt.
@@ -130,13 +130,13 @@ Damit die Aktion *Zurücksetzen* ausgewählt werden kann, muss Ihr Odoo-Benutzer
 
 Öffnen Sie die App *Abwesenheitszeiten* und wählen Sie *Neuer Abwesenheitsantrag*. Geben Sie den Typ und die Dauer ein.
 
-![](assets/Abwesenheitszeiten%20Abwesenheit%20melden.png)
+![](attachments/Abwesenheitszeiten%20Abwesenheit%20melden.png)
 
 Bestätigen Sie den Vorgang mit *Speichern*.
 
 Wurde die Abwesenheit genehmigt, sehen Sie die verleibenden Tage des Abwesenheitstyps in der Übersicht *Abwesenheitszeiten*.
 
-![](assets/Abwesenheitszeiten%20Verleibend.png)
+![](attachments/Abwesenheitszeiten%20Verleibend.png)
 
 ::: tip
 Abwesenheitseinträge, die im Zustand *Zur Genehmigung* sind, können nicht mehr gelöscht werden.
@@ -146,7 +146,7 @@ Abwesenheitseinträge, die im Zustand *Zur Genehmigung* sind, können nicht mehr
 
 Nach demselben Verfahren wie [Abwesenheitsanspruch validieren](#Abwesenheitsanspruch%20validieren) können Sie Abwesenheiten validieren. Sie erhalten entweder eine Mail oder sehen die zugewiesene Odoo-Aktivität.
 
-![](assets/Anwesenheitszeiten%20Mail%20Abwesenheit.png)
+![](attachments/Anwesenheitszeiten%20Mail%20Abwesenheit.png)
 
 Klicken Sie auf den Link und validieren Sie die Abwesenheit.
 

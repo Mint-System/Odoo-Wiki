@@ -38,7 +38,7 @@ In Odoo wird für die das Erstellen des Zahlungsfile die Methode SEPA eingesetzt
 
 Damit ein Zahlungsausgleich durchgeführt werden kann, müssen zuerst die   Kreditoren-Rechnungen über das App Finanzen erfasst werden. Für eine einfache Archivierung lohnt es sich, die Rechnung vorgängig als PDF-Datei zu scannen und mit der Buchung abzulegen. Eine neue Rechnung (Kreditor) wird über das *App > Finanzen > Dashboard im Journal Eingangsrechnungen* den Befehl *Erstellen* erfasst.
 
-![](assets/Best%20Practice%20Zahlungsabgleich%20Dashboard.png)
+![](attachments/Best%20Practice%20Zahlungsabgleich%20Dashboard.png)
 
 Erfassen Sie die Angaben zur Rechnung wie Lieferant, Rechnungsdatum, Buchungsdatum und Fälligkeit. Das Buchungsdatum und Fälligkeitsdatum soll mit der manuellen Verbuchung identisch mit dem Zahlungsdatum des Bankbeleges sein.
     
@@ -46,9 +46,9 @@ Geben Sie in den Rechnungspositionen die Menge, den Stückpreis und die Art der 
 
 Oben rechts mit der Büroklammer kann die eingescannte Rechnung als PDF abgelegt werden. Nach dem Erfassen aller Angaben klicken Sie oben links auf *Bestätigen* damit der Knopf *Zahlung Erfassen* erscheint.
 
-![](assets/Best%20Practice%20Zahlungsabgleich%20Entwurf.png)
+![](attachments/Best%20Practice%20Zahlungsabgleich%20Entwurf.png)
 
-![](assets/Best%20Practice%20Zahlungsabgleich%20Rechnung.png)
+![](attachments/Best%20Practice%20Zahlungsabgleich%20Rechnung.png)
 
 ### Manueller Zahlungsabgleich
 
@@ -56,8 +56,8 @@ Wird die Zahlung manuell ausgelöst, so wählen Sie bei der Zahlungsmethode *Man
 
 Eine andere Art der Zahlung ist das Aufbereiten der Zahlungen in einer SEPA-Datei, die anschliessend im Ebanking eingelesen wrid.
 
-![](assets/Best%20Practice%20Zahlungsabgleich%20Zahlung.png)
+![](attachments/Best%20Practice%20Zahlungsabgleich%20Zahlung.png)
 
 Der Status wechselt zu *In Zahlung* und unten beim Betrag steht das Valutadatum.
 
-![](assets/Best%20Practice%20Zahlungsabgleich%20In%20Zahlung.png)
+![](attachments/Best%20Practice%20Zahlungsabgleich%20In%20Zahlung.png)

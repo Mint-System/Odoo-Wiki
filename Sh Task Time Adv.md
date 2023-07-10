@@ -7,7 +7,7 @@ tags:
 prev: ./hr-timesheet
 ---
 # Task Timer Advance
-![odoo_icon_sh_task_time_adv](assets/odoo_icon_sh_task_time_adv.png)
+![odoo_icon_sh_task_time_adv](attachments/odoo_icon_sh_task_time_adv.png)
 
 {{ $frontmatter.description }}
 
@@ -21,7 +21,7 @@ Odoo App Store: <https://apps.odoo.com/apps/modules/16.0/sh_task_time_adv/>
 
 Zeigen Sie die Kanban-Ansicht der Aufgaben eines Projekts via *Projekt > Projekte* an. Klicken Sie bei einer ausgewählten Aufgabe auf den *Start* Button.
 
-![](assets/Task%20Timer%20Advance%20Start.png)
+![](attachments/Task%20Timer%20Advance%20Start.png)
 
 ### Timer von Menüleiste starten
 
@@ -31,11 +31,11 @@ Klicken Sie auf den Start-Button in der Menüleiste. Wählen Sie ein Projekt und
 
 Um einen laufenden Timer zu stoppen können Sie entweder die Aufgabenübersicht via *Projekt > Projekte* aufrufen und auf *Ende* klicken:
 
-![](assets/Task%20Timer%20Advance%20Ende.png)
+![](attachments/Task%20Timer%20Advance%20Ende.png)
 
 Oder stoppen den Timer über die Menüleiste oben rechts:
 
-![](assets/Task%20Timer%20Advance%20Menüleiste.png)
+![](attachments/Task%20Timer%20Advance%20Menüleiste.png)
 
 Geben Sie eine Aufgabenbeschreibung ein und wählen Sie *Task Beenden*.
 

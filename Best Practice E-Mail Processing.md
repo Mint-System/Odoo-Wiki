@@ -21,7 +21,7 @@ Odoo koordiniert die Kommunikation zwischen Geschäftsobjekten und den E-Mail-Em
 
  Dazu ein Beispiel:
 
-![](assets/Infomaniak%20Kopfzeilen.png)
+![](attachments/Infomaniak%20Kopfzeilen.png)
 
 Diese Header werden beim Empfang der Antwort-Mail von Odoo verarbeitet und dem entsprechenden Geschäftsobjekt zugeordnet.
 

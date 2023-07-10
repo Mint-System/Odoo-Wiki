@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Stock Move Sale Order Name
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Beschreibung der Auftragsposition wird auf die Lieferung kopiert.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 Mit dieser Erweiterung wird die Beschreibung auf der Auftragsposition auf die Lieferung übertragen.
 
-![Stock Move Sale Order Name](assets/Stock%20Move%20Sale%20Order%20Name.gif)
+![Stock Move Sale Order Name](attachments/Stock%20Move%20Sale%20Order%20Name.gif)

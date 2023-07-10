@@ -7,7 +7,7 @@ tags:
 prev: ./purchase
 ---
 # Purchase Order Line Price Default
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Standardpreis einer Einkaufsposition überschreiben.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 Mit dieser Erweiterung wird der Standardpreis einer Einkaufsposition auf Null gesetzt, wenn kein Verkäufer verfügbar ist.
 
-![](assets/Purchase%20Order%20Line%20Price%20Default.png)
+![](attachments/Purchase%20Order%20Line%20Price%20Default.png)

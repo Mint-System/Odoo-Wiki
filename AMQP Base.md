@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # AMQP Base
-![](assets/odoo_icon_amqp.png)
+![](attachments/odoo_icon_amqp.png)
 
 {{ $frontmatter.description }}
 

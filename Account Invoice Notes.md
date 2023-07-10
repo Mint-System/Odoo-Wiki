@@ -8,7 +8,7 @@ prev: ./invoicing
 ---
 # Account Invoice Notes
 
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -21,4 +21,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 Mit dier Erweiterung haben Sie auf Rechnungen zwei zusätzliche Notizfelder *Finanzen > Kunden / Lieferante > Rechnungen > Rechnung auswählen* im Tab *Notes*. Wird eine Rechnung aus dem Verkaufsauftrag generiert, werden die Notizfelder kopiert.
 
-![Account Invoice Notes](assets/Account%20Invoice%20Notes.gif)
+![Account Invoice Notes](attachments/Account%20Invoice%20Notes.gif)

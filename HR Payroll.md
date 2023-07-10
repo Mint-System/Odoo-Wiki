@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Personalabrechnung
-![icons_odoo_hr_payroll](assets/icons_odoo_hr_payroll.png)
+![icons_odoo_hr_payroll](attachments/icons_odoo_hr_payroll.png)
 
 Personalbrechnungen schnell und einfach erstellen.
 
@@ -83,7 +83,7 @@ Damit  die Lohnabrechnung auch in der Finanzbuchhaltung ersichtlich ist, müssen
 
 Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln > Regel auswählen > Beareiten > Tab Finanzen* und weisen Sie dort die Konten zu.
 
-![](assets/Personalbrechnung%20Finanzkonten.png)
+![](attachments/Personalbrechnung%20Finanzkonten.png)
 
 ::: warning
 Wenn die Berechnung der Lohnart einen Minusbetrag ergibt, werden die Soll- und Haben-Konten beim Erstellen der Lohnbuchung getauscht. Als Lösung müssen die Konten für Abzüge vertauscht eingetragen werden.
@@ -109,7 +109,7 @@ Lohnabrechnung können für mehre oder einzelne Mitarbeiter ausgeführt werden.
 
 Um eine einzelne Lohnabrechnung zu erzeugen wählen Sie den Mitarbeiter aus *Personal > Mitarbeiter auswählen* und klicken auf den Link *Abrechnungen Mitarbeiterverfügung* und wählen *Anlegen*.
 
-![Personalabrechnung Einzeln anlegen](assets/Personalabrechnung%20Einzeln%20anlegen.gif)
+![Personalabrechnung Einzeln anlegen](attachments/Personalabrechnung%20Einzeln%20anlegen.gif)
 
 Legen Sie die Zeitperiode fest, speichern Sie den Eintrag und drücken *Berechnen*. Nun wird die Lohnabrechnung erstellt und ist bereit zur Verbuchung.
 
@@ -119,7 +119,7 @@ Um mehrere Lohnabrechnungen zu erstellen, müssen Sie einen Lohhnabrechnungslauf
 
 Navigieren Sie nach *Personalabrechnung > Arbeitseinträge > Arbeitseinträge* und wählen den aktuellen Monat. Starten Sie den Batch-Vorgang mit *Lohnabrechnung Generieren*. Für jeden angezeigten Mitarbeiter wird nun eine Lohnabrechnung erzeugt und steht zur Prüfung bereit.
 
-![](assets/Personalbrechung%20Lohnabrechnung%20%C3%BCberpr%C3%BCfen.png)
+![](attachments/Personalbrechung%20Lohnabrechnung%20überprüfen.png)
 
 Öffnen Sie die einzelnen Lohnabrechnung um Sie zu validieren.
 
@@ -141,7 +141,7 @@ Navigieren Sie nach *Personalabrechnung > Abrechnung Mitarbeitervergütung > Bat
 
 Wählen Sie eine aktuelle Lohnabrechnung, die im Status *Erledigt* ist: *Personalabrechnung > Abrechnung Mitarbeitervergütung > All Payslips > Payslip auswählen*. Öffnen Sie den Tab *Finanzen* und klicken auf den Link unter *Buchung*.
 
-![](assets/Personalbrechnung%20Buchung.png)
+![](attachments/Personalbrechnung%20Buchung.png)
 
 Hier werden alle Buchungen der Lohnabrechnung aufgeführt.
 
@@ -194,7 +194,7 @@ Nummernfolge: `90`
 
 Das Ergebnis sollte so aussehen:
 
-![](assets/Personalabrechnung%20Lohnabrechnungszeilen.png)
+![](attachments/Personalabrechnung%20Lohnabrechnungszeilen.png)
 
 ::: tip
 Auf der Aktion *Lohnabrechnungszeilen* als *Ansichtsmodus* den Wert `pivot` anfügen.

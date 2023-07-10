@@ -7,7 +7,7 @@ tags:
 prev: ./finance
 ---
 # Switzerland Invoice Reports with payment option
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -30,11 +30,11 @@ Gilt bis #Odoo14 .
 
 Mit dieser Erweiterung können Sie die Rechnung inklusive QR-Zahlung in einem Dokument drucken. Öffnen Sie eine Rechnung via *Finanzen > Kunden > Rechnungen* und klicken Sie auf *Drucken*.
 
-![](assets/Switzerland%20Invoice%20Reports%20with%20payment%20option.png)
+![](attachments/Switzerland%20Invoice%20Reports%20with%20payment%20option.png)
 
 In der Mail-Vorlage können Sie den zusammengeführten Bericht als Standard festlegen.
 
-![](assets/Switzerland%20Invoice%20Reports%20with%20payment%20option%20mail.png)
+![](attachments/Switzerland%20Invoice%20Reports%20with%20payment%20option%20mail.png)
 
 ### Rechnung mit QR-Zahlung drucken
 

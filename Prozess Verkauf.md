@@ -9,7 +9,7 @@ prev: ./referenzsystem
 
 ## Angebot zu Auftrag
 
-![Grafik Prozess Kundenanfrage](assets/Prozess%20Kundenanfrage.svg)
+![Grafik Prozess Kundenanfrage](attachments/Prozess%20Kundenanfrage.svg)
 
 ### Prozessschritte
 
@@ -19,7 +19,7 @@ prev: ./referenzsystem
 
 ## Verkaufsauftrag direkt
 
-![Prozess Verkauf Verkaufsauftrag direkt](assets/Prozess%20Verkauf%20Verkaufsauftrag%20direkt.svg)
+![Prozess Verkauf Verkaufsauftrag direkt](attachments/Prozess%20Verkauf%20Verkaufsauftrag%20direkt.svg)
 
 ### Prozessschritte
 

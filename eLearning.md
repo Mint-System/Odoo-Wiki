@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # eLearning
-![icons_odoo_website_slides](assets/icons_odoo_website_slides.png)
+![icons_odoo_website_slides](attachments/icons_odoo_website_slides.png)
 
 {{ $frontmatter.description }}
 
@@ -32,11 +32,11 @@ Gemäss Option wird der Kurs in der Website-Ansicht dargestellt.
 
 Training:
 
-![](assets/eLearning%20Training.png)
+![](attachments/eLearning%20Training.png)
 
 Dokumentation:
 
-![](assets/eLearning%20Dokumentation.png)
+![](attachments/eLearning%20Dokumentation.png)
 
 Im gleichen Tab eine Option für *Einschreiberichtlinien* wählen:
 
@@ -67,7 +67,7 @@ Navigieren Sie im Backend nach *eLearning > Kurse > Wählen den Kurs > Tab Inhal
 
 Damit Kursteilnehmer den Kurs und die Inhalte sehen, muss dieser immer freigeben werden. Wählen Sie für den Inhalt *eLearning > Kurs > Inhalte* aus und klicken Sie auf *Gehe zu Website*. Publizieren Sie den Inhalt mit Button *Unveröffentlicht* oben rechts. Dasselbe funktioniert für Kurse.
 
-![](assets/Website%20Inhalt%20ver%C3%B6ffentlicht.png)
+![](attachments/Website%20Inhalt%20veröffentlicht.png)
 
 ### Teilnehmer einladen
 
@@ -79,13 +79,13 @@ Jeder Teilnehmer braucht einen Portal-Benutzer.
 
 Die Einladungsmail sieht ungefwähr so aus:
 
-![](assets/eLearning%20Einladungsmail.png)
+![](attachments/eLearning%20Einladungsmail.png)
 
 ### Automatisch eingeschriebene Gruppen festlegen
 
 Ein Benutzer mit Zugriff auf den [Entwicklermodus](Settings.md#Entwicklermodus%20aktivieren) kann auf dem Kurs eine Gruppe hinterlegen, deren Mitglieder automatisch als Teilnehmer aufgeführt werden.
 
-![](assets/eLearning%20Automatisch%20eingeschriebene%20Gruppe.png)
+![](attachments/eLearning%20Automatisch%20eingeschriebene%20Gruppe.png)
 
 ::: warning
 Jeder Teilnehmer erhählt eine Einladung via E-Mail.
@@ -107,7 +107,7 @@ Die Zertifizierung kann als Inhaltstyp *Zertifizierung* mit einem Kursinhalt ver
 
 Navigieren Sie zur ihrer Website und öffnen Sie die Kursseite. Wählen Sie *Bearbeiten* und klicken anschliessend auf *Anpassen*. Im geöffneten Menu können Leaderboards und Achievements deaktiviert werden.
 
-![](assets/eLearning%20Deaktivieren%20Leaderboard.png)
+![](attachments/eLearning%20Deaktivieren%20Leaderboard.png)
 
 ### Kursabsolventen anzeigen
 

@@ -7,7 +7,7 @@ tags:
 prev: ./hr-attendance
 ---
 # Überzeitenmanagement
-![](assets/icon_syscoon_hr_attendance.png)
+![](attachments/icon_syscoon_hr_attendance.png)
 
 Verwalten Sie die Überzeiten der Mitarbeitenden.
 

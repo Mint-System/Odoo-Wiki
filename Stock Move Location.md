@@ -7,7 +7,7 @@ tags:
 prev: ./warehouse
 ---
 # Stock Move Location
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Warenbestände zwischen Lagerorte verschieben.
 
@@ -22,7 +22,7 @@ Navigieren Sie nach *Lager > Produkte > Produkte* und öffnen Sie das Produkt, d
 
 Im neuen Dialog wählen Sie unter *Ziellagerort* den neuen Lagerort. Validieren Sie die Produktzeilen und bestätigen Sie den Vorgang entweder mit *Sofortige Lieferung* oder *Geplante Bewegung*. Mit der Aktion *Sofortige Lieferung* wird der Transfer angelegt und sofort erledigt. Mit der Aktion *Geplante Bewegung* kann die Aktion später ausgeführt werden.
 
-![](assets/Stock%20Move%20Location.png)
+![](attachments/Stock%20Move%20Location.png)
 
 ### Bestand von Lagerort bewegen
 

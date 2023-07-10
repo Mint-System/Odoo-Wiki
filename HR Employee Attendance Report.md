@@ -7,7 +7,7 @@ tags:
 prev: ./hr-holidays
 ---
 # HR Employee Attendance Report
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -22,15 +22,15 @@ Klicken Sie auf das Account-Menü und wählen Sie *Mein Profil*. Wählen Sie nun
 
 Sie erhalten eine Aufstellung der gearbeiteten Stunden und Berechnung der Überstunden:
 
-![](assets/HR%20Employee%20Attendance%20Report%20Attendances.png)
+![](attachments/HR%20Employee%20Attendance%20Report%20Attendances.png)
 
 Eine Zusammenfassung des Monats:
 
-![](assets/HR%20Employee%20Attendance%20Report%20Summary.png)
+![](attachments/HR%20Employee%20Attendance%20Report%20Summary.png)
 
 Eine Übersicht der Abwesenheitsansprüche:
 
-![](assets/HR%20Employee%20Attendance%20Report%20Allocations.png)
+![](attachments/HR%20Employee%20Attendance%20Report%20Allocations.png)
 
 ### Bericht Anwesenheit für ausgewählte Periode drucken
 

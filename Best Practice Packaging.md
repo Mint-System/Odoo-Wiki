@@ -17,17 +17,17 @@ Produktverpackungen werden auf Verkaufsaufträgen angezeigt um zu beschreiben, w
 
 Folgende Option muss eingeschaltet sein (Verkauf > Produktkatalog):
 
-![Lager Einstellungen Produktverpackungen](assets/Lager%20Einstellungen%20Produktverpackungen.png)
+![Lager Einstellungen Produktverpackungen](attachments/Lager%20Einstellungen%20Produktverpackungen.png)
 
 Damit Produktverpackungen verfügbar sind, müssen diese erfasst werden: [Produktverpackung erfassen](Stock%20Packaging.md#Produktverpackung%20erfassen).
 
 Den Produkten können im Register *Lager* die Produktverpackungen zugeordnet werden.
 
-![Lager Produktverpackung Zuordnung Produkt](assets/Lager%20Produktverpackung%20Zuordnung%20Produkt.png)
+![Lager Produktverpackung Zuordnung Produkt](attachments/Lager%20Produktverpackung%20Zuordnung%20Produkt.png)
 
 Für ein Angebot wird die Produktverpackung zum Beispiel wie folgt angezeigt:
 
-![Lager Produktverpackung Angebot Beispiel](assets/Lager%20Produktverpackung%20Angebot%20Beispiel.png)
+![Lager Produktverpackung Angebot Beispiel](attachments/Lager%20Produktverpackung%20Angebot%20Beispiel.png)
 
 ::: tip
 Wenn ein Produkt in einer im System definierten Verpackung angeliefert wird, kann mit dem Scannen der Verpackung automatisch die entsprechende Quantität erfasst werden.
@@ -37,4 +37,4 @@ Wenn ein Produkt in einer im System definierten Verpackung angeliefert wird, kan
 
 Folgende Option muss eingeschaltet sein:
 
-![Lager Einstellungen Verpackungen](assets/Lager%20Einstellungen%20Verpackungen.png)
+![Lager Einstellungen Verpackungen](attachments/Lager%20Einstellungen%20Verpackungen.png)

@@ -7,7 +7,7 @@ tags:
 prev: ./
 ---
 # Produkt
-![](assets/icons_odoo_product.png)
+![](attachments/icons_odoo_product.png)
 
 {{ $frontmatter.description }}
 

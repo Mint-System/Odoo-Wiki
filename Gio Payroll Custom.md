@@ -7,7 +7,7 @@ tags:
 prev: ./hr-payroll
 ---
 # Gio Payroll Custom
-![](assets/odoo_icon_gioardano.png)
+![](attachments/odoo_icon_gioardano.png)
 
 {{ $frontmatter.description }}
 
@@ -21,7 +21,7 @@ Repository: <https://gitlab.com/mint-system/odoo-apps-swiss-payroll/-/tree/15.0>
 
 Mit der Installation dieser Erweiterung werden Schweizer Lohnarten aktiviert. Navigieren Sie nach *Personalabrechung > Konfiguration > Regeln*.
 
-![](assets/Swiss%20Payroll%20Vorschau.png)
+![](attachments/Swiss%20Payroll%20Vorschau.png)
 
 ### Standardlohnregeln entfernen
 
@@ -115,7 +115,7 @@ Navigieren Sie nach *Personalabrechnung > Konfiguration > Structures* und öffne
 
 Damit die Lohndeklaration für die Ausgleichsklasse einfacher gemacht werden, können Sie eine neue Lohnregel erstellen:
 
-![](assets/Payroll%20Customizations%20Giordano%20Lohndeklaration.png)
+![](attachments/Payroll%20Customizations%20Giordano%20Lohndeklaration.png)
 
 * **Regelbezeichnung**: # Lohndeklaration AHV
 * **Kategorie**: Lohndeklaration (DLK)

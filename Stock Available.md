@@ -7,7 +7,7 @@ tags:
 prev: ./warehouse
 ---
 # Stock available to promise
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Verfügbare Bestände zur Zusage berechnen.
 

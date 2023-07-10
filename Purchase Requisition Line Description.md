@@ -7,7 +7,7 @@ tags:
 prev: ./purchase-requisition
 ---
 # Purchase Requisition Line Description
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Nur die Einkaufsbeschreibung in die Einkaufsposition übernehmen.
 
@@ -28,4 +28,4 @@ Mit dieser Erweiterung wird beim Hinzufügen eines Produkts in einer Bestellung 
 
 Falls *Produktcode* oder *Produktname* nicht vorhanden sind wird die Einkaufsbeschreibung übernommen.
 
-![](assets/Purchase%20Requisition%20Line%20Description.png)
+![](attachments/Purchase%20Requisition%20Line%20Description.png)

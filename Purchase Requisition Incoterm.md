@@ -7,7 +7,7 @@ tags:
 prev: ./purchase-requisition
 ---
 # Purchase Requisition Incoterm
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Lieferbedingungen auf Kaufverträgen festlegen.
 

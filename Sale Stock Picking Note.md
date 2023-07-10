@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Sale Stock Picking Note
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Interne und externe Notiz für Lieferungen.
 
@@ -20,10 +20,10 @@ Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_stock_picking_n
 
 Zeigen Sie *Verkauf > Angebot auswählen > Tab Weitere Information* an. Hier finden Sie die zwei Felder *Picking Internal Note* und *Picking Customer Comments*.
 
-![](assets/Sale%20Stock%20Picking%20Note.png)
+![](attachments/Sale%20Stock%20Picking%20Note.png)
 
 Die Kommentare sind auf dem Transfer und den Berichten ersichtlich.
 
-![](assets/Sale%20Stock%20Picking%20Note%20Transfer.png)
+![](attachments/Sale%20Stock%20Picking%20Note%20Transfer.png)
 
-![](assets/Sale%20Stock%20Picking%20Note%20Lieferschein.png)
+![](attachments/Sale%20Stock%20Picking%20Note%20Lieferschein.png)

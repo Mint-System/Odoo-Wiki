@@ -9,7 +9,7 @@ prev: ./best-practice
 
 Das Beispiel der Fertigung von [Rahmen unbeschichtet](Best%20Practice%20Production%20Planning.md#Beispiel%20Fertigungsauftrag%20Rahmen%20unbeschichtet) zeigt eine dreistufige Produktionsplanung.
 
-![Theorie Material Reservierung](assets/Best%20Practice%20Material%20Reservierung.svg)
+![Theorie Material Reservierung](attachments/Best%20Practice%20Material%20Reservierung.svg)
 
 ::: tip
 Die Fertigungsaufträge der zweiten Stufe könnten gestartet werden, wenn das benötigte Produkt Fettentferner nicht schon für den Auftrag der ersten Stufe reserviert wäre.

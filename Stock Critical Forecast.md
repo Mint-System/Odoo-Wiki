@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Stock Critical Forecast
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzeigen.
 
@@ -22,7 +22,7 @@ Mit dieser Erweiterung haben Sie Zugriff auf einen neuen Bericht, der das kritis
 
 Öffnen Sie *Lager > Berichtswesen > Kritische Vorhersage*. Klicken Sie auf *Aktualisieren* um die Daten anzuzeigen. Nun haben Sie verschiedene Möglichkeit um die kritischen Produkte genauer anzuschauen, Aktivitäten zu planen oder weitere Aktionen auszuführen.
 
-![Stock Critical Forecast](assets/Stock%20Critical%20Forecast.gif)
+![Stock Critical Forecast](attachments/Stock%20Critical%20Forecast.gif)
 
 ### Kritische Vorhersage manuell berechnen
 
@@ -43,4 +43,4 @@ log('Scheduled action with timestamp %s has finished' % date)
 
 Damit werden unter *Einstellungen > Technisch > Protokollierung* die Ausführungen der Aktion festgehalten.
 
-![](assets/Stock%20Critical%20Forecast%20Protokollierung.png)
+![](attachments/Stock%20Critical%20Forecast%20Protokollierung.png)

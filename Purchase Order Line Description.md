@@ -7,7 +7,7 @@ tags:
 prev: ./purchase
 ---
 # Purchase Order Line Description
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Nur die Einkaufsbeschreibung in die Einkaufsposition übernehmen.
 
@@ -30,4 +30,4 @@ Mit dieser Erweiterung wird beim Hinzufügen eines Produkts in einer Bestellung 
 
 Falls *Produktcode* oder *Produktname* nicht vorhanden sind wird die Einkaufsbeschreibung übernommen.
 
-![](assets/Purchase%20Order%20Line%20Description%20Product%20Code.png)
+![](attachments/Purchase%20Order%20Line%20Description%20Product%20Code.png)

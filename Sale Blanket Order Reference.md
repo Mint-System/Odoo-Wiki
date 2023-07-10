@@ -7,7 +7,7 @@ tags:
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Reference
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Kundenreferenz von Rahmenauftrag auf den Verkaufsauftrag kopieren.
 

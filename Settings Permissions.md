@@ -6,7 +6,7 @@ tags:
 prev: ./settings
 ---
 # Einstellungen Berechtigungen
-![icons_odoo_settings](assets/icons_odoo_settings.png)
+![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 {{ $frontmatter.description }}
 
@@ -26,7 +26,7 @@ Die Gruppenrechte können mit Benutzerrollen zusammengefasst werden. Mit der ent
 
 Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Roles* und wählen Sie *Anlegen*. Erstellen Sie zur Initiierung eine Administratoren-Rolle mit diesen Angaben:
 
-![](assets/Odoo%20Einstellungen%20Benutzerrolle%20Administrator.png)
+![](attachments/Odoo%20Einstellungen%20Benutzerrolle%20Administrator.png)
 
 Weisen Sie im Tab *Benutzer* die Rolle einem Benutzer zu. Ist die Rolle aktiv, überschreibt Sie die existierenden Berechtigungen.
 
@@ -34,7 +34,7 @@ Weisen Sie im Tab *Benutzer* die Rolle einem Benutzer zu. Ist die Rolle aktiv, �
 
 Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen Sie den Benutzer, dessen Zugriffsrechte Sie verändern möchten. Drücken Sie auf *Bearbeiten* und wählen Sie nun über die Dropdown oder Checkboxen die Rollen und Zugriffe aus.
 
-![Odoo Benutzerrechte](assets/Einstellungen%20Benutzerrechte.png)
+![Odoo Benutzerrechte](attachments/Einstellungen%20Benutzerrechte.png)
 
 Klicken Sie auf speichern um den Vorgang abzuschliessen.
 
@@ -96,7 +96,7 @@ Bei einem Modul- oder Odoo-Upgrade können sich die Berechtigungsstrukturen änd
 
 Eine Fehlerhafte Struktur wird in der Ansicht Benutzerberechtiung beispielsweise so darsgestellt:
 
-![](assets/Einstellungen%20fehlerhafte%20Berechtigungsstruktur.png)
+![](attachments/Einstellungen%20fehlerhafte%20Berechtigungsstruktur.png)
 
 Zur Bereinigung öffnen Sie als erstes *Einstellungen > Technisch > Sicherheit > Zugriffsrechte*. Suchen Sie hier nach Einträgen mit Modul `hr_attendance` und löschen Sie diese.
 
@@ -104,4 +104,4 @@ Als nächstes öffnen Sie *Einstellungen > Benutzer und Unternehmen > Gruppen* u
 
 Zuletzt installiere Sie die App `hr_attendance` neu. Nun sollten die Ursprünglichen Berechtigungsstrukturen wiederhergestellt sein.
 
-![](assets/Einstellungen%20Berechtigungen%20korrigiert.png)
+![](attachments/Einstellungen%20Berechtigungen%20korrigiert.png)

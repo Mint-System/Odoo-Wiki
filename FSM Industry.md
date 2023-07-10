@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Aussendienst
-![](assets/icons_odoo_industry_fsm.png)
+![](attachments/icons_odoo_industry_fsm.png)
 
 {{ $frontmatter.description }}
 

@@ -7,7 +7,7 @@ tags:
 prev: ./finance
 ---
 # Switzerland QR IBAN
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -25,4 +25,4 @@ Diese App ist veraltet und wird aufgrund von Aktualisierungen in Odoo nicht mehr
 
 Mit dieser Erweiterung muss keine ISR-Nummer in Bankddaten hinterlegt werden. Beim Bestätigen der Rechnung wird eine Zahlungsreferenz generiert und als Referenz in der QR-Rechnung hinterlegt.
 
-![Switzerland QR IBAN](assets/Switzerland%20QR%20IBAN.gif)
+![Switzerland QR IBAN](attachments/Switzerland%20QR%20IBAN.gif)

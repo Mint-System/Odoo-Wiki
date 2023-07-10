@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Zeiterfassung
-![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
+![icons_odoo_hr_timesheet](attachments/icons_odoo_hr_timesheet.png)
 
 Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
@@ -50,7 +50,7 @@ Jeder Zeiterfassungseintrag ist ein Verrechnungstyp zugeweisen. Dieser wird beim
 
 Wenn Sie den Abrechnungstyp von bestehenden Eintägen ändern möchten, müssen Sie die verknüpfte Aufgaben ändern und wieder zuweisen.
 
-![](assets/Zeiterfassung%20Verrechnungstyp%20%C3%A4ndern.gif)
+![](attachments/Zeiterfassung%20Verrechnungstyp%20ändern.gif)
 
 ### Auftragselement von Aufgabe entfernen
 *Gilt ab #Odoo14.*
@@ -79,7 +79,7 @@ In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl *Aktion*
 
 Der Stundenzettel-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Validieren* und wählt den entsprechenden Zeitraum aus. Mit *Bestätigen* wird ein Validierungsdatum festgelegt. Alle Zeitnachweise vor dem Validierungsdatum gelten als validiert.
 
-![](assets/Zeiterfassung%20Validierungsdatum.png)
+![](attachments/Zeiterfassung%20Validierungsdatum.png)
 
 ### Stundenzettel validieren
 *Gilt ab #Odoo14.*
@@ -91,7 +91,7 @@ Der Stundenzettel-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Va
 
 Einmal validierte Stundeneinträge können nicht mehr verändert werden. Benötigen Sie dennoch eine korrektur, müssen Sie für jeden Mitarbeitenden folgende Aktion ausführen: *Personal > Mitarbeitenden auswählen > Tab HR Einstellungen öffnen* und dort das Feld *Stundenzettel-Validierungsdatum* anpassen.
 
-![](assets/Zeiterfassung%20Stundenzettel-Validierungsdatum%20anpassen.png)
+![](attachments/Zeiterfassung%20Stundenzettel-Validierungsdatum%20anpassen.png)
 
 Nach der Korrektur der Stundeinträge müssen Sie diese wieder validieren.
 

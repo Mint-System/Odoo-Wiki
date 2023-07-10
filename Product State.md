@@ -7,7 +7,7 @@ tags:
 prev: ./manufacture
 ---
 # Product Sequence
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Lebenszyklus von Produkten festlegen.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/OCA/product-attribute/tree/15.0/product_state>
 
 Navigieren Sie nach *Verkauf > Konfiguration > Produkt-Zustände*. Verwalten Sie hier die verfügbaren Zustände der Produkte.
 
-![](assets/Product%20State.png)
+![](attachments/Product%20State.png)

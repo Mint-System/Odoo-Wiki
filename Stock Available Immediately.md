@@ -7,7 +7,7 @@ tags:
 prev: ./warehouse
 ---
 # Ignore planned receptions in quantity available to promise
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Verfügbare Bestände aus geplanten Aufträge ignorieren.
 

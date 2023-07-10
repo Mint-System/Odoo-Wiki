@@ -7,7 +7,7 @@ tags:
 prev: ./manufacture
 ---
 # MRP Workorder Disable Autostart
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -24,4 +24,4 @@ Mit dieser Erweiterung werden Arbeitsaufträge beim Aufruf in der Kanban-Ansicht
 Mit der Kontext-Option `context="{'mrp_workorder_disable_autostart': False}"` kann das Standardverhalten beim Aufruf der Tablet-Ansicht deaktiviert werden.
 :::
 
-![MRP Workorder Disable Autostart](assets/MRP%20Workorder%20Disable%20Autostart.gif)
+![MRP Workorder Disable Autostart](attachments/MRP%20Workorder%20Disable%20Autostart.gif)

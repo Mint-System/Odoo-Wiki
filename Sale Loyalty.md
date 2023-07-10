@@ -6,7 +6,7 @@ tags:
 prev: ./sale
 ---
 # Verkauf Treue
-![](assets/odoo_icon_website_loyalty.png)
+![](attachments/odoo_icon_website_loyalty.png)
 
 {{ $frontmatter.description }}
 

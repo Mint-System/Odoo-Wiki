@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Sale Order MRP Production Cancel
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Verlinkter Fertigungsauftrag bei Abbruch Verkaufsauftrag ebenfalls abbrechen.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Bei Abbruch des Verkaufsauftags wird ein verlinkter Fertigungsauftrag ebenfalls abgebrochen. Es somit dasselbe Verhalten wie bei den verlinkten Lieferungen.
 
-![Sale Order MRP Production Cancel](assets/Sale%20Order%20MRP%20Production%20Cancel.gif)
+![Sale Order MRP Production Cancel](attachments/Sale%20Order%20MRP%20Production%20Cancel.gif)

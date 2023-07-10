@@ -7,7 +7,7 @@ tags:
 prev: ./personal
 ---
 # Resource Calendar Get Days
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Die Anzahl Tage in Abwesenheiten relativ zu den Arbeitszeiten des Unternehmens berechnen.
 
@@ -22,8 +22,8 @@ Es wird angenommen, dass Sie Mitarbeitende mit einen Arbeitspensum <100% haben. 
 
 Der/die Mitarbeitende arbeitet am Dienstag 4 Stunden am Vormittag und gibt für diesen Tag eine bezahlte Abwesenheit ein:
 
-![](assets/Resource%20Calendar%20Get%20Days%201%20Tag.png)
+![](attachments/Resource%20Calendar%20Get%20Days%201%20Tag.png)
 
 Das System berechnet für die Abwesenheit 0.5 Tage und zieht diese von den verfügbaren Tagen ab:
 
-![](assets/Resource%20Calendar%20Get%20Days%20Guthaben.png)
+![](attachments/Resource%20Calendar%20Get%20Days%20Guthaben.png)

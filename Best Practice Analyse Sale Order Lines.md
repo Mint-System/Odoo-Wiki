@@ -10,7 +10,7 @@ prev: ./best-practice
 
 Statt die Aufträge oder den Verkaufsbericht zu verwenden, empfehlen wir die Auftragszeilen auswertungen. Damit sind beispielsweise solche Auswertungen möglich:
 
-![](assets/Best%20Practice%20Auftragszeilen%20auswerten.png)
+![](attachments/Best%20Practice%20Auftragszeilen%20auswerten.png)
 
 Standardmässig sind Auftragszeilen nicht sichtbar, Sie müssen dazu das HowTo [Auftragszeilen anzeigen](Sale.md#Auftragszeilen%20anzeigen) ausführen.
 

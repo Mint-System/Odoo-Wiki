@@ -7,7 +7,7 @@ tags:
 prev: ./partner
 ---
 # Partner Ref Sequence
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Automatische Vergabe der Kontakt-Referenz.
 
@@ -22,6 +22,6 @@ Mit dieser Erweiterung werden beim Erstellen eines Kontakt automatisch eine Refe
 
 Im Tab *Verkauf & Einkauf* ist nun die generierte Referenz sichtbar.
 
-![](assets/Partner%20Ref%20Sequence.png)
+![](attachments/Partner%20Ref%20Sequence.png)
 
 Möchten Sie die Nummerierung ändern, öffnen Sie [Sequenz anpassen](Settings.md#Sequenz%20anpassen).

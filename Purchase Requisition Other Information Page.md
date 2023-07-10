@@ -7,7 +7,7 @@ tags:
 prev: ./purchase-requisition
 ---
 # Purchase Requisition Other Information Page
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Fügt einen "Weitere Informationen" Tab der Formularansicht hinzu.
 
@@ -20,5 +20,5 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 Mit diesem Modul erhält der Kaufvertrag ein Tab "Weitere Informationen".
 
-![](assets/Purchase%20Requisition%20Other%20Information%20Page.png)
+![](attachments/Purchase%20Requisition%20Other%20Information%20Page.png)
 

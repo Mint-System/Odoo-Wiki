@@ -7,7 +7,7 @@ tags:
 prev: ./warehouse
 ---
 # Consider the production potential is available to promise
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Verfügbare Bestände zur Produktion berechnen.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/OCA/stock-logistics-warehouse/tree/14.0/stock_av
 
 Zeigen Sie das Produkt unter *Fertigung > Produkte > Produkte* an. In der Formularansicht wird ein Smart-Button angezeigt, welcher das Produktionspotenzial berechnet.
 
-![](assets/Stock%20Available%20MRP.png)
+![](attachments/Stock%20Available%20MRP.png)

@@ -7,7 +7,7 @@ tags:
 prev: ./purchase-requisition
 ---
 # Purchase Requisition Order Address
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Bestelladresse auf Kaufverträge.
 
@@ -20,7 +20,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 Mit dieser Erweiterung wird bei der Auswahl des Kontakts der Unterkontakt vom Typ *Bestelladresse* auf das gleichnamige Feld im Kaufvertrag übertragen. Beim Erstellen einer Bestellung wird die *Bestelladresse* übertragen.
 
-![](assets/Purchase%20Requisition%20Order%20Address.png)
+![](attachments/Purchase%20Requisition%20Order%20Address.png)
 
 ::: warning
 Die Bestelladresse auf Kaufvertrag übersteuert die Bestelladresse des Lieferant auf der Bestellung.

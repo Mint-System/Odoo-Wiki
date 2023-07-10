@@ -6,7 +6,7 @@ tags:
 prev: ./settings
 ---
 # Einstellungen Aktionen
-![icons_odoo_settings](assets/icons_odoo_settings.png)
+![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 {{ $frontmatter.description }}
 

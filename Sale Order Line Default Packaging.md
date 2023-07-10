@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Sale Order Line Default Packaging
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Standardverpackung auf Position setzen.  
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Mit dieser Erweiterung wird die erste Verpackung unter *Verkauf > Produkte > Produkte > Produkt auswählen > Tab	Lager* gesetzt.
 
-![Sale Order Line Default Packaging](assets/Sale%20Order%20Line%20Default%20Packaging.gif)
+![Sale Order Line Default Packaging](attachments/Sale%20Order%20Line%20Default%20Packaging.gif)

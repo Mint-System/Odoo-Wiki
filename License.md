@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Lizenz
-![odoo_icons_license](assets/odoo_icons_license.png)
+![odoo_icons_license](attachments/odoo_icons_license.png)
 
 {{ $frontmatter.description }}
 

@@ -7,7 +7,7 @@ tags:
 prev: ./settings
 ---
 # Home Backround Image
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,10 +20,10 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/15.0/hom
 
 Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Unternehmen* und wählen Sie *Update Info*. Bearbeiten Sie das Feld *Home Background Image* und laden Sie das Hintergrund-Bild hoch.
 
-![](assets/Home%20Backround%20Image%20Upload.png)
+![](attachments/Home%20Backround%20Image%20Upload.png)
 
 Wurde das Bild festgelegt, wird es auf der Startseite angezeigt.
 
-![](assets/Home%20Backround%20Image%20Set.png)
+![](attachments/Home%20Backround%20Image%20Set.png)
 
-![](assets/Home%20Backround%20Image%20Beispiel.png)
+![](attachments/Home%20Backround%20Image%20Beispiel.png)

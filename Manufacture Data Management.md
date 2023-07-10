@@ -6,7 +6,7 @@ tags:
 prev: ./manufacture
 ---
 # Fertigung Datenmanagement
-![icons_odoo_mrp](assets/icons_odoo_mrp.png)
+![icons_odoo_mrp](attachments/icons_odoo_mrp.png)
 
 {{ $frontmatter.description }}
 
@@ -16,7 +16,7 @@ prev: ./manufacture
 
 Navigieren Sie nach *Fertigung > Stammdaten > Produkte*.
 
-![Fertigung Produkt anlegen](assets/Fertigung%20Produkt%20anlegen.png)
+![Fertigung Produkt anlegen](attachments/Fertigung%20Produkt%20anlegen.png)
 
 **Verkaufsartikel/Einkaufsartikel**
 

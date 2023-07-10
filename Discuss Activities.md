@@ -6,7 +6,7 @@ tags:
 prev: ./discuss
 ---
 # Diskussion Aktivitäten
-![icons_odoo_mail](assets/icons_odoo_mail.png)
+![icons_odoo_mail](attachments/icons_odoo_mail.png)
 
 {{ $frontmatter.description }}
 
@@ -22,8 +22,8 @@ Navigieren Sie nach *Einstellungen > Technisch > Diskussion > Aktivitätsypen* u
 
 Es wird angenommen, dass Sie im Aktivitäts-Menü viele unerledigte Aktivitäten für ein bestimmtes Datenmodell haben und diese löschen möchten.
 
-![](assets/Diskussion%20Aktivitäten%20Benachrichtigung.png)
+![](attachments/Diskussion%20Aktivitäten%20Benachrichtigung.png)
 
 Navigieren Sie nach *Einstellungen > Technisch > Diskussion > Aktivitäten* und filtern Sie die Aktivitäten gemäss Datenmodell und Zuweisung. Markieren und löschen Sie die Aktivitäten via *Aktion*.
 
-![](assets/Diskussion%20Aktivitäten%20Löschen.png)
+![](attachments/Diskussion%20Aktivitäten%20Löschen.png)

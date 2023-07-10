@@ -17,15 +17,15 @@ Ein Fertigungsauftrag für eine bestimmte Menge N eines Produktes wird ausgelös
 
 Der Fertigungsauftrag WH/MO/00001 für 16 Stk des Artikels *Speiche* wird auf folgender Basis geplant:
 
-![Best Practice Speichen Lagerbestand Arbeitspläne](assets/Best%20Practice%20Speichen%20Lagerbestand%20Arbeitspl%C3%A4ne.svg)
+![Best Practice Speichen Lagerbestand Arbeitspläne](attachments/Best%20Practice%20Speichen%20Lagerbestand%20Arbeitspläne.svg)
 
 Daraus entstehen vier Arbeitsaufträge:
 
-![Best Practice Arbeitsaufträge 1](assets/Best%20Practice%20Arbeitsauftr%C3%A4ge%201.svg)
+![Best Practice Arbeitsaufträge 1](attachments/Best%20Practice%20Arbeitsaufträge%201.svg)
 
 Die Arbeitsaufträge werden der Reihe nach bearbeitet  (*Prozess*) und mit der Teilmenge B abgeschlossen. Sie bleiben damit im Status *In Arbeit* und es zeigt sich folgende Situation:
 
-![Best Practice Arbeitsaufträge 2](assets/Best%20Practice%20Arbeitsauftr%C3%A4ge%202.svg)
+![Best Practice Arbeitsaufträge 2](attachments/Best%20Practice%20Arbeitsaufträge%202.svg)
 
 ::: tip
 Das sequenzielle Abarbeiten von nicht abgeschlossenen Arbeitsaufträgen funktioniert nur, wenn im entsprechenden Arbeitsplan folgende Option eingeschaltet ist: *Start Next Operation: Sobald einige Produkte verarbeitet sind*

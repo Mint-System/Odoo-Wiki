@@ -6,7 +6,7 @@ tags:
 prev: ./hr-holidays
 ---
 # Abwesenheit Datenmanagement
-![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)
+![icons_odoo_hr_holidays](attachments/icons_odoo_hr_holidays.png)
 
 {{ $frontmatter.description }}
 

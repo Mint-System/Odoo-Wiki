@@ -7,7 +7,7 @@ tags:
 prev: ./purchase-requisition
 ---
 # Purchase Requisition Tag
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Kaufverträge mit Stichwörter.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 Mit dieser Erweiterung können Sie auf Kaufverträgen Stichwörter hinzufügen. Die Stichwörter werden auf Bestellungen übertragen.
 
-![](assets/Purchase%20Requisition%20Tag.png)
+![](attachments/Purchase%20Requisition%20Tag.png)

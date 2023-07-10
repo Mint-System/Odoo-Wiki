@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Verkauf
-![icons_odoo_sale](assets/icons_odoo_sale.png)
+![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
 Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung. 
 
@@ -65,7 +65,7 @@ Die Standard-Steuer für ein bestimmtes Produkt wird in den Produkt-Stammdaten u
 
 Unterschiedliche Steuern der einzelnen Line-Items werden im Formular und im Bericht gruppiert dargestellt. Die Zuordnung erfolgt über die *Steuergruppe* gemäss dem Feld *Steuergruppe* im Tab *Erweiterte Optionen*.
 
-![](assets/Verkauf%20Steuer-Gruppen.png)
+![](attachments/Verkauf%20Steuer-Gruppen.png)
 
 ## Aufträge
 
@@ -127,11 +127,11 @@ Ist der Verkaufsauftrag im Status *Abgebrochen* können Sie ihn mit *Setze auf A
 
 Soll ein Produkt mit einem Rabatt verkauft werden, so kann dieser je Auftragszeile manuell eingefügt werden.
 
-![](assets/Verkauf%20Auftragszeilen%20mit%20Rabatt.png)
+![](attachments/Verkauf%20Auftragszeilen%20mit%20Rabatt.png)
 
 Entsprechend wird der Rabatt auf der Rechnung ausgewiesen.
 
-![](assets/Verkauf%20Ansicht%20Rabatt%20in%20der%20Rechnung.png)
+![](attachments/Verkauf%20Ansicht%20Rabatt%20in%20der%20Rechnung.png)
 
 ### Mindestbestellmenge festlegen
 
@@ -141,7 +141,7 @@ Für jedes Produkt in einer Preisliste kann eine Mindestbestellmenge definiert w
 
 Mit der aktivierten Option *Einstellungen > Verkauf > Margen* sehen Sie für jede Auftragszeile die Marge.
 
-![](assets/Verkauf%20Margen%20in%20Auftragszeilen.png)
+![](attachments/Verkauf%20Margen%20in%20Auftragszeilen.png)
 
 Die Berechnung der Margen ist `Zwischensumme - Kosten * Menge`. Diese Inputs können einem Angebot geändert werden.
 
@@ -161,7 +161,7 @@ Nummernfolge: `2`
 
 Das Ergebnis sollte so aussehen:
 
-![](assets/Verkauf%20Auftragszeilen.png)
+![](attachments/Verkauf%20Auftragszeilen.png)
 
 ## Kontakte
 
@@ -169,13 +169,13 @@ Das Ergebnis sollte so aussehen:
 
 Für Angebote können Sie eine separate Rechnungs- und Lieferadresse festlegen. Aktivieren Sie die Option *Einstellungen > Verkauf > Angebote und Aufträge > Kundenadresse*. Anschliessend können Sie die Adresse auswählen.
 
-![](assets/Verkauf%20Rechnungs-%20und%20Lieferadresse.png)
+![](attachments/Verkauf%20Rechnungs-%20und%20Lieferadresse.png)
 
 ### Kunde anhand Adresstyp auswählen
 
 Wenn Sie eine Rechnungs- oder Lieferadresse mit gleichen Anzeigename wie der Hauptkontakt gespeichert haben, können diese im Feld *Kunde* nicht unterschieden werden. Um sicherzustellen, dass die korrekte Adresse gewählt wurde, können Sie die [Rechnungsadresse in Anzeigenamen einblenden](Partner.md#Rechnungsadresse%20in%20Anzeigenamen%20einblenden) oder über die erweiterte Suche anzeigen:
 
-![](assets/Verkauf%20Kontakt-Suche.png)
+![](attachments/Verkauf%20Kontakt-Suche.png)
 
 ::: warning
 Die Verfügbarkeit des Felds *Adresstyp* in der Listenauswahl muss mit einem Snippet sichergestellt werden.

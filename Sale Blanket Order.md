@@ -8,7 +8,7 @@ prev: ./
 ---
 
 # Verkauf Rahmenverträge
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Rahmenverträge für Verkäufe erstellen.
 
@@ -49,10 +49,10 @@ Rahmenaufträge werden unabhängig von Verkaufsaufträgen unter *Verkauf > Auftr
 
 Fügen Sie anschliessend Produktzeilen hinzu und bestimmen Sie jeweils die vertragliche Menge und das *Geplantes Datum*.
 
-![](assets/Sale%20Blanket%20Order%20Beispiel%20Rahmenauftrag.png)
+![](attachments/Sale%20Blanket%20Order%20Beispiel%20Rahmenauftrag.png)
 
 ### Angebot aus Rahmenauftrag anlegen
 
 Öffnen Sie einen Rahmenauftrag via *Verkauf > Rahmenaufträge > Rahmenauftrag auswählen*. Klicken Sie auf *Verkaufsauftrag erstellen*, geben Sie im Dialog die  *Bestellmenge* ein und bestätigen Sie mit *Auftrag erstellen und anzeigen*.
 
-![](assets/Sale%20Blanket%20Order%20Dialog.png)
+![](attachments/Sale%20Blanket%20Order%20Dialog.png)

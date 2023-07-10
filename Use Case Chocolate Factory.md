@@ -13,7 +13,7 @@ In der Lebensmittelbranche müssen mehrstufige Qualitätskontrollen für Rohstof
 
 Die Situation ist übersichtlich. Der Kunde wünscht die Implementation der folgenden Prozesse:
 
-![](assets/Use%20Case%20-%20Schokoladenfabrik%20-%20Prozesse.png)
+![](attachments/Use%20Case%20-%20Schokoladenfabrik%20-%20Prozesse.png)
 
 ## Implementation
 
@@ -145,7 +145,7 @@ Fertigprodukt:
 
 Ein Beispiel wie mehrstufige Routen aussehen:
 
-![](assets/Routen.svg)
+![](attachments/Routen.svg)
 
 Konfigurieren Sie diese Routen:
 
@@ -299,7 +299,7 @@ Ist die Implementation erfolgt, können Sie den Use Case mit den folgenden Instr
 2. Öffnen *Lager > Anlieferungen QC1* und auswählen Transfer
 3. Klick auf *Qualitätskontrollen* und *Bestanden*
 
-![](assets/Use%20Case%20Schokoladenfabrik%20Check.png)
+![](attachments/Use%20Case%20Schokoladenfabrik%20Check.png)
 
 4. Transfer bestätigen
 5. Öffnen *Lager > Interner Transfer QC1* und auswählen Transfer
@@ -315,7 +315,7 @@ Ist die Implementation erfolgt, können Sie den Use Case mit den folgenden Instr
 3. Öffnen *Lager > Store Finished Product QC5* und auswählen Transfer
 4. Klick auf *Qualitätskontrollen* und *Bestanden*
 
-![](assets/Use%20Case%20Schokoladenfabrik%20Store%20FInished%20Product.png)
+![](attachments/Use%20Case%20Schokoladenfabrik%20Store%20FInished%20Product.png)
 
 ### Einkauf Rohstoff direkt
 
@@ -336,10 +336,10 @@ Zur Frage, ob die Route auf der Kategorie festgelegt werden kann ist die Antwort
 
 Auf Route die Option *Produktkategorie* aktivieren:
 
-![](assets/Route.png)
+![](attachments/Route.png)
 
 Auf Prdouktkategorie die entsprechende Route wählen:
 
-![](assets/Produktkategorie.png)
+![](attachments/Produktkategorie.png)
 
 Es ist zu empfehlen, dass Routen entweder über Produkte oder Produkkategorien definiert werden.

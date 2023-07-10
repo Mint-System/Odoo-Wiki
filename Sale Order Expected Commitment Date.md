@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Sale Order Expected Commitment Date
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Das Standardlieferdatum ist das erwartete Datum.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Mit dieser Erweiterung wird das Lieferdatum, sofern nicht gesetzt, gleich dem erwarteten Datum des Verkaufsauftrags gesetzt.
 
-![](assets/Sale%20Order%20Expected%20Commitment%20Date.png)
+![](attachments/Sale%20Order%20Expected%20Commitment%20Date.png)

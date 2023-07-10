@@ -7,7 +7,7 @@ tags:
 prev: ./finance
 ---
 # Overdue Invoice Reminder
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -46,14 +46,14 @@ Um den Vorgang zu starten aktivieren Sie die Option *I consider that payments ar
 
 Nachdem Sie den [Assistent Zahlungserinnerung starten](#Assistent%20Zahlungserinnerung%20starten) erscheint für jede Zahlungserinnerung der Dialog *Overdue Invoice Step*.
 
-![](assets/Account%20Invoice%20Overdue%20Reminder.png)
+![](attachments/Account%20Invoice%20Overdue%20Reminder.png)
 
 Validieren oder überspringen Sie hier den Versand der Erinnerungs-Mail. Nach dem Versand der E-Mail zählt Odoo das Feld *Overdue Reminder Count* auf der Rechnung um 1 hoch.
 
 ::: tip
 Wenn mehrere Rechnungen des gleichen Kontakts überfällig sind, werden diese im E-Mai zusammengefasst:
 
-![](assets/Account%20Invoice%20Overdue%20Reminder%20Multiple.png)
+![](attachments/Account%20Invoice%20Overdue%20Reminder%20Multiple.png)
 :::
 
 ### Status Zahlungserinnerung anzeigen
@@ -64,7 +64,7 @@ Navigieren Sie nach *Abrechnung > Kunden > Rechnung* und zeigen Sie die Spalte *
 
 Wenn Sie den [Status Zahlungserinnerung anzeigen](#Status%20Zahlungserinnerung%20anzeigen) können Sie einen Eintrag öffnen und im Feld *Info/Result* sowie *Note* das Ergebnis festhalten.
 
-![](assets/Account%20Invoice%20Overdue%20Reminder%20Result.png)
+![](attachments/Account%20Invoice%20Overdue%20Reminder%20Result.png)
 
 ### Assistent Zahlungserinnerung auf Rechnung starten
 

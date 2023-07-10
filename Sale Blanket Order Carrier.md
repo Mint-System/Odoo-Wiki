@@ -7,7 +7,7 @@ tags:
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Carrier
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Legen Sie die Auslieferungsmethode auf dem Rahmenvertrag fest.
 
@@ -20,7 +20,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Öffnen Sie einen Rahmenvertrag via *Verkauf > Aufträge > Rahmenaufträge*. Unterhalb der *Zahlungsbedingungen* können Sie die Auslieferungsmethode festlegen.
 
-![](assets/Sale%20Blanket%20Order%20Carrier.png)
+![](attachments/Sale%20Blanket%20Order%20Carrier.png)
 
 ::: tip
 Wurde die Auslieferungsmethode auf dem Kontakt hinterlegt, wird diese beim Erstellen des Rahmenauftrags übernommen.

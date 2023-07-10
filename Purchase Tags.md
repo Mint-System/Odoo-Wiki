@@ -8,7 +8,7 @@ prev: ./purchase-requisition
 ---
 # Purchase Tags
 
-![](assets/icon_oca_agreement.png)
+![](attachments/icon_oca_agreement.png)
 
 Einkaufsbestellungen mit Stichwörter.
 
@@ -21,4 +21,4 @@ Repository: <https://github.com/OCA/purchase-workflow/tree/14.0/purchase_tag>
 
 Mit dieser Erweiterung können Sie auf Bestellungen im Tab *Weitere Informationen* Stichwörter hinzufügen.
 
-![](assets/Purchase%20Tags.png)
+![](attachments/Purchase%20Tags.png)

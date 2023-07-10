@@ -49,7 +49,7 @@ Das Odoo Wiki hat zum Ziel den Anwender eine einfache und kompakte Hilfestellung
 
 Zur Erläuterung der Instruktionen wird ein fiktives Unternehmen mit diesen Informationen verwendet:
 
-![logo-velo-manufaktur-ag](assets/logo-velo-manufaktur-ag.svg)
+![logo-velo-manufaktur-ag](attachments/logo-velo-manufaktur-ag.svg)
 
 Name: Velo Manufaktur AG\
 Website: <https://www.velo-manufaktur.ch>\
@@ -77,7 +77,7 @@ BIC: POFICHBEXXX
 
 ### Dateien
 
-Camt.053 für Import Kontoauszug: [camt053_example](https://raw.githubusercontent.com/Mint-System/Odoo-Wiki/master/assets/camt053_example.xml)[](assets/camt053_example.xml)
+Camt.053 für Import Kontoauszug: [camt053_example](https://raw.githubusercontent.com/Mint-System/Odoo-Wiki/master/assets/camt053_example.xml)[](attachments/camt053_example.xml)
 
 Beispiele von Rechnungen zum Importieren gibt es hier: <https://github.com/swico/qr-bill>.
 

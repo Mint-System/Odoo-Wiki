@@ -8,7 +8,7 @@ tags:
 prev: ./invoicing
 ---
 # Swiss QR/ESR scan
-![](assets/icon_camp_to_camp.png)
+![](attachments/icon_camp_to_camp.png)
 
 {{ $frontmatter.description }}
 
@@ -22,11 +22,11 @@ Odoo App Store: <https://apps.odoo.com/apps/modules/15.0/l10n_ch_qr_isr_invoice_
 
 Mit dieser Erweiterung können Sie anhand QR-Daten eine Rechnung erstellen. Klicken Sie auf *Abrechnung > Scan QR Bill* um den Vorgang zustarten.
 
-![](assets/Swiss%20QR-ESR%20Scan%20Scan%20Button.png)
+![](attachments/Swiss%20QR-ESR%20Scan%20Scan%20Button.png)
 
 Geben Sie die QR-Daten mithilfe eines Scanners in das Feld *Scan of the invoice* ein.
 
-![](assets/Swiss%20QR-ESR%20Scan%20Wizard%20Scan.png)
+![](attachments/Swiss%20QR-ESR%20Scan%20Wizard%20Scan.png)
 
 ::: tip
 QR-Daten aus QR-Rechnungen beginnen immer mit der Zeile *SPC* (Swiss Payments Code).
@@ -34,26 +34,26 @@ QR-Daten aus QR-Rechnungen beginnen immer mit der Zeile *SPC* (Swiss Payments Co
 
 Ist der Kontakt noch nicht erfasst, können Sie diesen direkt erstellen. Im selben Dialog wählen Sie das Aufwandskonto aus.
 
-![](assets/Swiss%20QR-ESR%20Scan%20Wizard%20Create%20Partner.png)
+![](attachments/Swiss%20QR-ESR%20Scan%20Wizard%20Create%20Partner.png)
 
 Wenn Sie *Create Partner* gedrückt haben, wird der Vorgang nochmals bestätigt. Fahren Sie weiter mit *Create*.
 
-![](assets/Swiss%20QR-ESR%20Scan%20Wizard%20Confirm%20Partner.png)
+![](attachments/Swiss%20QR-ESR%20Scan%20Wizard%20Confirm%20Partner.png)
 
 Nun wird die Rechnung generiert und validiert.
 
 Wenn die folgende Meldung erscheint, fehlt entweder ein Standard-Aufwandskonto auf dem Kontakt (Mehr dazu unter [Standard-Aufwandskonto auf Kontakt hinterlegen](#Standard-Aufwandskonto%20auf%20Kontakt%20hinterlegen)) oder die Standard-Steuern müssen entfernt werden (Mehr dazu unter [Standard-Steuer für Verkauf und Einkauf festlegen](Finance%20Tax.md#Standard-Steuer%20für%20Verkauf%20und%20Einkauf%20festlegen)).
 
-![](assets/Swiss%20QR-ESR%20Scan%20Error%20Missing%20Account.png)
+![](attachments/Swiss%20QR-ESR%20Scan%20Error%20Missing%20Account.png)
 
 Konnte die Rechnung erfolgreich importiert werden, werden Sie auf die Formularansicht umgeleitet.
 
-![](assets/Swiss%20QR-ESR%20Scan%20Imported%20Invoice.png)
+![](attachments/Swiss%20QR-ESR%20Scan%20Imported%20Invoice.png)
 
 ::: tip
 Die Standardsteuern der Rechnungszeile wird von der [Standard-Steuer auf dem Konto](Finance%20Tax.md#Standard-Steuer%20auf%20Konto%20hinterlegen) übernommen.
 
-![](assets/Swiss%20QR-ESR%20Scan%20Standard%20Steuern.png)
+![](attachments/Swiss%20QR-ESR%20Scan%20Standard%20Steuern.png)
 :::
 
 Starten Sie den nächsten Scan-Vorgang mit *Scan Next QR Bill*.
@@ -66,7 +66,7 @@ Legen Sie eine neue Rechnung unter *Abrechnung > Kunden > Rechnungen* oder *Abre
 
 Bearbeiten Sie den Kontakt und navigieren Sie zum Tab *Abrechnung*. Auf der rechten Seite sehen Sie die Standardkonten für die Buchhaltung. Legen Sie im Feld *Expense Import Account* das Aufwandskonto für den Kontakt fest.
 
-![](assets/Swiss%20QR-ESR%20Scan%20Buchungen.png)
+![](attachments/Swiss%20QR-ESR%20Scan%20Buchungen.png)
 
 ::: tip
 Damit die Standardkonten für die Buchhaltung sichtbar sind, muss der Odoo-Benutzer über die Berechtigung *Buchhaltungsfunktionen anzeigen - schreibgeschützt* verfügen.

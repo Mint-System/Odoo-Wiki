@@ -7,7 +7,7 @@ tags:
 prev: ./
 ---
 # Brand External Report Layout
-![](assets/icons_odoo_brand.png)
+![](attachments/icons_odoo_brand.png)
 
 {{ $frontmatter.description }}
 

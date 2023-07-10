@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Stock Move Weight UoM
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.
 

@@ -7,7 +7,7 @@ tags:
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Cancel States Extended
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Bearbeiten von Feldern aus weiteren Rahmenauftrags-Modulen im bestätigen Zustand.
 

@@ -7,7 +7,7 @@ tags:
 prev: ./personal
 ---
 # HR Timesheet From Until
-![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
+![icons_odoo_hr_timesheet](attachments/icons_odoo_hr_timesheet.png)
 
 {{ $frontmatter.description }}
 
@@ -32,4 +32,4 @@ Eingabe `8.5`ergibt `08:30`.\
 Eingabe `8.75` ergibt `08:45`.
 :::
 
-![HR Timesheet From Until](assets/HR%20Timesheet%20From%20Until.gif)
+![HR Timesheet From Until](attachments/HR%20Timesheet%20From%20Until.gif)

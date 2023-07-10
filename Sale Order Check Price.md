@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Sale Order Check Price
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Preis vor Bestätigung des Angebots prüfen.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_order_check_pri
 
 Diese Erweiterung stellt sicher, dass es keine Auftragszeilen gibt, die einen Preis von Null haben. Hat eine Zeile einen Preis von Null und sie versuchen das Angebot zu bestätigen, erscheint eine Fehlermeldung.
 
-![](assets/Sale%20Order%20Check%20Price.png)
+![](attachments/Sale%20Order%20Check%20Price.png)

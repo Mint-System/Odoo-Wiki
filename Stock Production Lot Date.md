@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Stock Production Lot Date
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Datum auf Losnummer festlegen und Ablaufdatum relativ setzen.
 
@@ -22,7 +22,7 @@ Mit dieser Erweiterung können Sie auf einem Los zusätzlich zum Namen ein Datum
 
 Navigieren Sie nach *Lager > Produkte > Chargen-/Seriennummern* und erstellen Sie ein Los. Legen Sie im Feld *Datum* das entsprechende Datum fest.
 
-![](assets/Stock%20Production%20Lot%20Date.png)
+![](attachments/Stock%20Production%20Lot%20Date.png)
 
 ::: tip
 Wenn das Produkt ein Ablaufdatum hat, wird dieses aufgrund des gewählten Datums berechnet.

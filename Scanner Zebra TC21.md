@@ -6,7 +6,7 @@ tags:
 prev: ./barcode
 ---
 # Scanner Zebra TC21
-![icons_odoo_stock](assets/icons_odoo_stock.png)
+![icons_odoo_stock](attachments/icons_odoo_stock.png)
 
 {{ $frontmatter.description }}
 
@@ -28,15 +28,15 @@ Damit Sie den Handscanner in Betrieb nehmen können, müssen Sie folgende Vorber
 
 Schaltet Sie das Gerät ein und starten Sie das Setup.
 
-![](assets/Handscanner%20Zebra%20TC21%20Setup.jpg)
+![](attachments/Handscanner%20Zebra%20TC21%20Setup.jpg)
 
 Verbinden Sie das Gerät mit dem Wifi-Netzwerk.
 
-![](assets/Handscanner%20Zebra%20TC21%20Wifi.jpg)
+![](attachments/Handscanner%20Zebra%20TC21%20Wifi.jpg)
 
 Loggen Sie sich bei Bedarf mit dem Google Account ein.
 
-![](assets/Handscanner%20Zebra%20TC21%20Google%20Login.jpg)
+![](attachments/Handscanner%20Zebra%20TC21%20Google%20Login.jpg)
 
 Nur wenn Sie eingeloggt sind, können Sie später Apps aus dem Play Store installieren.
 
@@ -44,5 +44,5 @@ Nur wenn Sie eingeloggt sind, können Sie später Apps aus dem Play Store instal
 
 Starten Sie die Odoo Mobile App und öffnen Sie App *Strichcode*. Wählen Sie *Strichode scannen*. Das Gerät schaltet die Kamera ein, nun können Sie beispielsweise den Code auf einem Lieferschein scannen.
 
-![](assets/Handscanner%20Zebra%20TC21%20Scan.jpg)
+![](attachments/Handscanner%20Zebra%20TC21%20Scan.jpg)
 

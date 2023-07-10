@@ -25,7 +25,7 @@ Die Übersicht *Replenishment* zeigt keinen Handlungsbedarf. Das System bestimmt
 
 Die Übersicht *Prognostizierter Bestand* zeigt, dass der Lagerbestand des Produktes *Sattel* in 30 Tagen von 11 auf -19 fällt.
 
-![Best Practice lange Lead Time 1](assets/Best%20Practice%20lange%20Lead%20Time%201.svg)
+![Best Practice lange Lead Time 1](attachments/Best%20Practice%20lange%20Lead%20Time%201.svg)
 
 ## Beispiel 2
 
@@ -42,4 +42,4 @@ Mit *Order Once* wird der Fertigungsauftrag WH/MO/00001 generiert. Im *Replenish
 Falls eine der Komponenten eine Lead Time > 30 Tage hat, kann der Liefertermin für das Produkt *Sattel* nicht eingehalten werden. Um Planungssicherheit zu haben muss also die *Durchlaufzeit der Fertigung* unter Berücksichtigung der Lead Time zur Beschaffung aller benötigten Komponenten definiert werden.
 :::
 
-![Best Practice lange Lead Time 2](assets/Best%20Practice%20lange%20Lead%20Time%202.svg)
+![Best Practice lange Lead Time 2](attachments/Best%20Practice%20lange%20Lead%20Time%202.svg)

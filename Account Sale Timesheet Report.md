@@ -8,7 +8,7 @@ prev: ./invoicing
 ---
 # Account Sale Timesheet Report
 
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -21,8 +21,8 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.
 
 Mit dieser Erweiterung können Sie einen Zeiterfassungsbericht direkt auf der Rechnung drucken. Navigieren Sie zu einer Rechnung via *Abrechnung > Kunden > Rechnungen* und klicken Sie auf *Drucken > Zeitnachweis*.
 
-![](assets/Account%20Sale%20Timesheet%20Report%20Beispiel.png)
+![](attachments/Account%20Sale%20Timesheet%20Report%20Beispiel.png)
 
 Derselbe Bericht wird an die Rechnung angehängt, sofern die Rechnung mit Zeiterfassungseinträgen verknüpft ist
 
-![](assets/Account%20Sale%20Timesheet%20Report%20Beispiel%20Rechnung.png)
+![](attachments/Account%20Sale%20Timesheet%20Report%20Beispiel%20Rechnung.png)

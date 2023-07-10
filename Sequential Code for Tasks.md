@@ -7,7 +7,7 @@ tags:
 prev: ./project
 ---
 # Sequential Code for Tasks
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Sequenznummer für Projektaufgaben.
 

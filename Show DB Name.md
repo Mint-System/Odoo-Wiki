@@ -7,7 +7,7 @@ tags:
 prev: ./settings
 ---
 # Show DB Name
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Zeigt den Datenbanknamen oben rechts an.   
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/sho
 
 Mit dieser Erweiterung wird der Datenbanknamen oben rechts nach dem Anzeigenamen des Benutzers angezeigt.
 
-![](assets/Show%20DB%20Name.png)
+![](attachments/Show%20DB%20Name.png)

@@ -6,7 +6,7 @@ tags:
 prev: ./stock
 ---
 # Lager Datenmanagement
-![icons_odoo_stock](assets/icons_odoo_stock.png)
+![icons_odoo_stock](attachments/icons_odoo_stock.png)
 
 {{ $frontmatter.description }}
 

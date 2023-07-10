@@ -6,7 +6,7 @@ tags:
 prev: ./settings
 ---
 # Einstellungen Übersetzungen
-![icons_odoo_settings](assets/icons_odoo_settings.png)
+![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 {{ $frontmatter.description }}
 
@@ -50,7 +50,7 @@ Zur Übersetzung von Ansichten und Felder müssen Sie mindestens eine [Sprache a
 
 Auf der Ansicht, welche die Übersetzung enthält, die Sie anpassen möchten, wählen *Entwickler-Tool > Bearbeitungsansicht:List|Form*. Klicken im Tab *Architektur* rechts auf den *EN*-Link. Nun öffnet sich ein Dialog mit den übersetzten und übersetzbaren Begriffen der Ansicht. Nehmen Sie die Anpassungen vor und Speichern Sie den Vorgang.
 
-![](assets/Einstellungen%20Übersetzung%20Ansicht%20übersetzen.gif)
+![](attachments/Einstellungen%20Übersetzung%20Ansicht%20übersetzen.gif)
 
 ::: warning
 Der *EN*-Link wird ab #Odoo16 nur angezeigt, wenn mindestens 2 Sprachen aktiv sind.
@@ -64,20 +64,20 @@ Odoo wird in viele Sprachen übersetzt, daher kann es sein, dass die Lokalisieru
 
 Der folgende Ausschnitt ist aus einem Odoo-Dialog. Die Labels und Buttons sind nicht übersetzt.
 
-![Odoo Übersetzung vorher](assets/Einstellungen%20%C3%9Cbersetzung%20vorher.png)
+![Odoo Übersetzung vorher](attachments/Einstellungen%20Übersetzung%20vorher.png)
 
 Als erstes muss man  die [Übersetzungen aktualisieren](Settings%20Translations.md#Übersetzungen%20aktualisieren). Anschliessend kann man in der Liste *Einstellungen > Übersetzungen > Übersetzte Begriffe* den englischen Begriff suchen und anpassen.
 
-![Odoo Übersetzung bearbeiten](assets/Einstellungen%20%C3%9Cbersetzung%20bearbeiten.png)
+![Odoo Übersetzung bearbeiten](attachments/Einstellungen%20Übersetzung%20bearbeiten.png)
 
 Nun ist der Odoo-Dialog übersetzt.
 
-![Odoo Übersetzung nachher](assets/Einstellungen%20%C3%9Cbersetzung%20nachher.png)
+![Odoo Übersetzung nachher](attachments/Einstellungen%20Übersetzung%20nachher.png)
 
 ::: warning
 Speichern Sie alle übersetzten Begriffe in einer separaten Notiz. Bei Upgrades können eigene Übersetzungen vom System überschrieben werden.
 
-![](assets/Einstellungen%20Übersetungen%20Noitz.png)
+![](attachments/Einstellungen%20Übersetungen%20Noitz.png)
 :::
 
 ### Übersetzungen exportieren
@@ -101,7 +101,7 @@ Bis #Odoo15.
 
 Wenn Sie mit einer bestimmte Übersetzung nicht zufrieden sind, können Sie diese selber anpassen. Angenommen Sie wollen auf der Rechnung *Zwischensumme* zu *Nettobetrag* umbennen, öffnen Sie als erstes *Einstellungen > Übersetzungen > Übersetzt Begriffe*.
 
-![](assets/Einstellungen%20%C3%9Cbersetzungen%20Begriff%20Zwischensumme.png)
+![](attachments/Einstellungen%20Übersetzungen%20Begriff%20Zwischensumme.png)
 
 Suchen Sie nach dem Übersetzungswert *Zwischensumme*. Es erscheinen mehrere Resultate. Für einen Begriff kann es mehrere gleiche Übersetzung geben, weil es mehrere unabhängige Odoo Apps gibt, die den gleichen Begriff verwenden.
 
@@ -111,7 +111,7 @@ In unserem Fall wollen wir die Einträge mit `<strong>...</strong>` anpassen. W�
 
 Bestimmte Feldinhalte können direkt übersetzt werden. Dazu wählt man den Sprachcode *DE* (gemäss aktiver Sprache) auf der rechten Seite des Feldes und passt die Übersetzung an.
 
-![Einstellungen Übersetzung Feldinhalt](assets/Einstellungen%20Übersetzung%20Feldinhalt.gif)
+![Einstellungen Übersetzung Feldinhalt](attachments/Einstellungen%20Übersetzung%20Feldinhalt.gif)
 
 ::: warning
 Wenn Sie [Übersetzungen aktualisieren](#Übersetzungen%20aktualisieren) können solche Änderungen verloren gehen.
@@ -123,4 +123,4 @@ Bis #Odoo15.
 
 Mit einem Odoo Snippet können Sie in unter *Einstellungen > Übersetzungen > Übersetzte Begriffe* das Feld *Übersetzungskommentare* anzeigen. Wenn Sie eine eigene Übersetzung erstellen, fügen Sie den Kommentar `mint_system` hinzu. So können Sie vor einem Export die eigenen Übersetzungen exportieren.
 
-![Einstellungen Übersetzung Kommentar hinzufügen](assets/Einstellungen%20Übersetzung%20Kommentar%20hinzufügen.gif)
+![Einstellungen Übersetzung Kommentar hinzufügen](attachments/Einstellungen%20Übersetzung%20Kommentar%20hinzufügen.gif)

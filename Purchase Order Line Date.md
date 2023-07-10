@@ -7,7 +7,7 @@ tags:
 prev: ./purchase
 ---
 # Purchase Order Line Date
-![](assets/icon_oms_box.png)
+![](attachments/icon_oms_box.png)
 
 Lieferdatum im Wareneingang automatisch nachtragen.
 
@@ -25,4 +25,4 @@ Frist (Lagerbuchung) = Liefertermin (Bestellposition)
 
 Dazu ein Beispiel mit Sicherheitsvorlaufzeit von -3 Tagen.
 
-![Purchase Order Line Date](assets/Purchase%20Order%20Line%20Date.gif)
+![Purchase Order Line Date](attachments/Purchase%20Order%20Line%20Date.gif)

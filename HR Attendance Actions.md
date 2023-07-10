@@ -6,7 +6,7 @@ tags:
 prev: ./hr-attendance
 ---
 # Anwesenheit Aktionen
-![icons_odoo_hr_attendance](assets/icons_odoo_hr_attendance.png)
+![icons_odoo_hr_attendance](attachments/icons_odoo_hr_attendance.png)
 
 {{ $frontmatter.description }}
 

@@ -7,7 +7,7 @@ prev: ./referenzsystem
 ---
 # Prozess Abwesenheit
 
-![Prozess Abwesenheit](assets/Prozess%20Abwesenheit.svg)
+![Prozess Abwesenheit](attachments/Prozess%20Abwesenheit.svg)
 
 ## Prozessschritte
 

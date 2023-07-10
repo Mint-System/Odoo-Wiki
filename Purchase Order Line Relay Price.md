@@ -7,7 +7,7 @@ tags:
 prev: ./purchase
 ---
 # Purchase Order Line Relay Price
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den Verkäufer.
 
@@ -32,7 +32,7 @@ Diese Erweiterung rechnet für ein Produkt die möglichen Staffelpreise durch un
 
 Öffnen Sie eine Bestellung und wählen Sie *Aktion > Prüfe Preise* oder bestätigen Sie die Angebotsanfrage.
 
-![Purchase Order Line Relay Price Prüfe Preise](assets/Purchase%20Order%20Line%20Relay%20Price%20Prüfe%20Preise.gif)
+![Purchase Order Line Relay Price Prüfe Preise](attachments/Purchase%20Order%20Line%20Relay%20Price%20Prüfe%20Preise.gif)
 
 Wurde ein besserer Preis gefunden (in diesem Fall 500 CHF), dann erstellt Odoo eine Aktivität:
 

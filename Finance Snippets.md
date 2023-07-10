@@ -7,7 +7,7 @@ tags:
 prev: ./finance
 ---
 # Finanzen Snippets
-![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
+![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}
 
@@ -18,4 +18,4 @@ Mit den folgenden Odoo Snippets können auf einm Kassenbeleg die Kassenpositione
 * <https://odoo.build/snippets/ir_model.html#x-cashbox-end-ids>
 * <https://odoo.build/snippets/ir_model.html#x-cashbox-start-ids>
 
-![](assets/Finanzen%20Snippets%20Kassenpositionen.png)
+![](attachments/Finanzen%20Snippets%20Kassenpositionen.png)

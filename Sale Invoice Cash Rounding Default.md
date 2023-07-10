@@ -7,7 +7,7 @@ tags:
 prev: ./invoicing
 ---
 # Sale Invoice Cash Rounding Default
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.            
 
@@ -30,4 +30,4 @@ Bis #Odoo14 .
 
 Mit diesem Modul wird beim Erstellen von Rechnungen aus Verkaufsaufträgen der Standardwert für die Rundungsmethode verwendet. Dazu ein Beispiel wie der Standardwert erstellt werden muss:
 
-![](assets/Sale%20Invoice%20Cash%20Rounding%20Default.png)
+![](attachments/Sale%20Invoice%20Cash%20Rounding%20Default.png)

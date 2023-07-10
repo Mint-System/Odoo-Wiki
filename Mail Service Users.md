@@ -7,7 +7,7 @@ tags:
 prev: ./settings-login
 ---
 # Mail Service Users
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -22,11 +22,11 @@ Mit dieser Erweiterung können Sie bestimmte Benutzer als *Service-Benutzer* mar
 
 Rufen Sie einen Benutzer via *Einstellungen > Benutzer und Unternehmen > Benutzer* auf. Setzen Sie die Checkbox wenn es sich um einen Service-Benutzer handelt.
 
-![](assets/Mail%20Service%20Users.png)
+![](attachments/Mail%20Service%20Users.png)
 
 Unter Einstellungen wird die Zahl der aktiven Benutzer entsprechend angepasst.
 
-![](assets/Mail%20Service%20Users%20Einstellungen.png)
+![](attachments/Mail%20Service%20Users%20Einstellungen.png)
 
 ::: warning
 Dieses Modul verändert die Berechnung der aktiven Benutzer auf dem System. Ist die Erweiterung aktiv verstossen Sie gegen die Bedingungen im Odoo Enterprise Lizenzvertrag. 

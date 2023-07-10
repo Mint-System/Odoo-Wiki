@@ -6,7 +6,7 @@ tags:
 prev: ./contract
 ---
 # Contract Format Date Marker
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -19,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Contract/tree/15.0/contrac
 
 Mit dieser Erweiterung wird beim Erstellen einer Rechnung aus Verträgen im Feld *Beschreibung* der jeweiligen Rechnungszeile, der Abrechnungszeitrum angefügt.
 
-![](assets/Contract%20Format%20Date%20Marker.png)
+![](attachments/Contract%20Format%20Date%20Marker.png)
 
 ::: tip
 Die Monate werden in der Sprache des Kunden vom Vertrag angezeigt.

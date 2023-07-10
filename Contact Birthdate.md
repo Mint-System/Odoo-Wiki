@@ -7,7 +7,7 @@ tags:
 prev: ./partner
 ---
 # Contact Birthdate
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -24,7 +24,7 @@ Diese Dokumentation wurde durch [Partner Contact Birthdate](Partner%20Contact%20
 
 Öffnen Sie einen Kontakt und zeigen Sie den Tab *Persönliche Auskunft*. Bearbeiten Sie den Kontakt und legen Sie das Geburtstdatum im Feld *Geburtsdatum* fest. Odoo berechnet dazu das Alter.
 
-![](assets/Contact%20Birthdate%20Tab%20mit%20Geburtsdatum.png)
+![](attachments/Contact%20Birthdate%20Tab%20mit%20Geburtsdatum.png)
 
 ### Geburtstagskalender für Kontakte erstellen
 

@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Entwicklung
-![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)
+![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 {{ $frontmatter.description }}
 
@@ -59,7 +59,7 @@ Navigieren Sie nach *Einstellungen > Entwicklertools* und klicken Sie auf *Demo 
 
 Rufen Sie die *Einstellungen* auf und scrollen Sie auf der Ansicht nach ganz unten. Beim Abschnitt *Über* finden Sie Angaben zur Odoo Revision.
 
-![](assets/Einstellungen%20Odoo%20Revision.png)
+![](attachments/Einstellungen%20Odoo%20Revision.png)
 
 ## Navigation
 
@@ -71,11 +71,11 @@ Im Entwicklermodus navigieren Sie nach  *Einstellungen > Technisch >  Benutzer-I
 
 Im Entwicklermodus können Sie ganz einfach Menüeinträge umbennen. Angenommen Sie möchten diesen Punkt umbennen:
 
-![](assets/Entwicklung%20Men%C3%BCeintr%C3%A4ge%20umbennen.png)
+![](attachments/Entwicklung%20Menüeinträge%20umbennen.png)
 
 Gehen Sie wie folgt vor. Navigieren Sie nach *Einstellungen > Technisch >  Benutzer-Interface > Menüeinträge* und suchen Sie nach *Alle Angestellte*. Bearbeiten Sie den Eintrag und setzen Sie für das Feld *Menü* einen neuen Wert.
 
-![](assets/Einstellungen%20Men%C3%BCeintrag%20bearbeiten.png)
+![](attachments/Einstellungen%20Menüeintrag%20bearbeiten.png)
 
 Nachdem Sie den Browser-Tab aktualisiert haben, ist der Menüeintrag umbenannt.
 
@@ -113,7 +113,7 @@ Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitge
 
 Für jedes Geschäftsobjekt können Sie in der Einzelansicht die Metadaten anzeigen. Rufen Sie ein Odoo-Objekt im Entwicklermodus auf, beispielsweise einen Benutzer und klicken Sie auf *Entwicklertools > Metadaten anzeigen*.
 
-![](assets/Entwicklung%20Metadaten%20anzeigen.png)
+![](attachments/Entwicklung%20Metadaten%20anzeigen.png)
 
 ### Externe IDs anzeigen
 
@@ -134,17 +134,17 @@ Navigieren Sie nun nach *Einstellungen > Technisch > Sequenzen- und Identifizier
 
 Dazu die Angaben aus dem Beispiel:
 
-![](assets/Entwicklung%20Externe%20ID%20erfassen.png)
+![](attachments/Entwicklung%20Externe%20ID%20erfassen.png)
 
 Ist die *Externe Identifikation* gespeichert, wird Sie auf Datensatz angezeigt.
 
-![](assets/Entwicklung%20Externe%20Ansicht%20Beispiel.png)
+![](attachments/Entwicklung%20Externe%20Ansicht%20Beispiel.png)
 
 ### Externe ID aus Metadaten erfassen
 
 Ab #Odoo16 können Sie [Metadaten anzeigen](#Metadaten%20anzeigen) und direkt eine externe ID erfassen. Wählen Sie dazu die Aktion *create* auf der Ansicht der Metadaten. Der Modellname und die Datensatz-ID werden übernommen.
 
-![](assets/Development%20Metadaten.png)
+![](attachments/Development%20Metadaten.png)
 
 ### Neues Feld hinzufügen
 
@@ -156,7 +156,7 @@ An jedem Objekt kann an einfach ein Feld hinzugefügt werden. Öffnen Sie eine A
 
 Dazu ein Beispiel mit [HR Holidays](HR%20Holidays.md):
 
-![](assets/Entwicklung%20Neues%20Feld%20auf%20Abwesenheitszeiten.png)
+![](attachments/Entwicklung%20Neues%20Feld%20auf%20Abwesenheitszeiten.png)
 
 ### Neues berechnetes Feld hinzufügen
 
@@ -185,7 +185,7 @@ for rec in self:
 
 Dieser Code berechnet abhängig von der gewählten Verpackung und deren Füllmenge die Anzahl Kisten. Mit Python-Code können Sie natürlich jegliche Logik für die Berechnung entwickeln.
 
-![](assets/Entwicklung%20Berechnetes%20Feld.png)
+![](attachments/Entwicklung%20Berechnetes%20Feld.png)
 
 ### Neues Beziehungs-Feld hinzufügen
 
@@ -202,7 +202,7 @@ Erstellen Sie ein neues Feld unter *Einstellungen > Technisch > Datenbankstruktu
 	* Gespeichert
 * **Beziehungs-Feld**: `order_id.client_order_ref`
 
-![](assets/Entwicklung%20Neues%20Beziehungs-Feld%20hinzufügen.png)
+![](attachments/Entwicklung%20Neues%20Beziehungs-Feld%20hinzufügen.png)
 
 Dieses Feld können Sie nun in Berichten oder Listenansichten anzeigen.
 

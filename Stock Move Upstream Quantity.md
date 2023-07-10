@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Stock Move Upstream Quantity
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Aktualisiert die erledigte Menge auf verlinkten Lagerbuchungen.
 

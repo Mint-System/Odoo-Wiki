@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Demand Planner
-![](assets/odoo_icon_demand_planner.png)
+![](attachments/odoo_icon_demand_planner.png)
 
 {{ $frontmatter.description }}
 

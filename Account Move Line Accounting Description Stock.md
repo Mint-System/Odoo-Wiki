@@ -8,7 +8,7 @@ prev: ./finance
 ---
 # Account Move Line Accounting Description Stock
 
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -21,5 +21,5 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 Diese Erweiterung kopiert die Beschreibung der Lagerbuchung auf das Feld *External Name* auf der Rechnungszeile, wenn aus einem Verkausauftrag eine Rechnung generiert wird.
 
-![Account Move Line Accounting Description Stock](assets/Account%20Move%20Line%20Accounting%20Description%20Stock.gif)
+![Account Move Line Accounting Description Stock](attachments/Account%20Move%20Line%20Accounting%20Description%20Stock.gif)
 

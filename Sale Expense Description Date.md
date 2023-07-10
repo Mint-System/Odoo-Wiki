@@ -7,7 +7,7 @@ tags:
 prev: ./hr-expense
 ---
 # Sale Expense Description Date
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 

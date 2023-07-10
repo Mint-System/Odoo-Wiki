@@ -7,7 +7,7 @@ tags:
 prev: ./project
 ---
 # Project Type
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Projekte nach Typ verwalten.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/OCA/project/tree/14.0/project_type>
 
 Navigieren Sie nach *Projekt > Konfiguration > Projekt Types* und erstellen Sie einen neuen Eintrag.
 
-![](assets/Project%20Type.png)
+![](attachments/Project%20Type.png)

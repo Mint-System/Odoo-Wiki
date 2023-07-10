@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Wissen
-![icons_odoo_knowledge](assets/icons_odoo_knowledge.png)
+![icons_odoo_knowledge](attachments/icons_odoo_knowledge.png)
 
 {{ $frontmatter.description }}
 
@@ -26,7 +26,7 @@ Der Titel des Artikels wird vom ersten Satz des Artikels abgeleitet. Klicken Sie
 
 Zeigen Sie die App *Knowledge* and klicken Sie auf das ➕ Zeichen rechts von einem Arbeitsbereich oder Artikel. Geben Sie einen passendenTitel ein.
 
-![](assets/Knowledge%20Artikel.png)
+![](attachments/Knowledge%20Artikel.png)
 
 ### Vorlage erstellen
 
@@ -36,10 +36,10 @@ Zeigen Sie die App *Knowledge* and klicken Sie auf das ➕ Zeichen rechts von ei
 
 In einem Mail Dialog können Sie mit der Eingabe von <kbd>/</kbd> + *Artikel* nach einem Artikel suchen und diesen als Link einfügen.
 
-![Knowledge Artike-Link](assets/Knowledge%20Artikel%20verlinken.gif)
+![Knowledge Artike-Link](attachments/Knowledge%20Artikel%20verlinken.gif)
 
 ### Nachricht aus Vorlage erstellen
 
 Sie können anhand Vorlagen in Artikeln Nachrichten erstellen lassen. Klicken Sie auf das Knowledge-Icon im Chatter-Fenster. Suchen Sie den Artikel und Vorlagen-Abschnitt. Klicken Sie auf das ✉️ Zeichen. Sie werden zum Chatter zurückgeführt und der Nachrichten-Dialog öffnet sich mit der ausgewählten Vorlage als Inhalt.
 
-![Knowledge Vorlage verschicken](assets/Knowledge%20Vorlage%20verschicken.gif)
+![Knowledge Vorlage verschicken](attachments/Knowledge%20Vorlage%20verschicken.gif)

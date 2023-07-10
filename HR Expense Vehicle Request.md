@@ -7,7 +7,7 @@ tags:
 prev: ./hr-expense
 ---
 # HR Expense Vehicle Request
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,6 +20,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_expense_ve
 
 Mit dieser Erweiterung wird beim Retournieren einer privaten Fahrzeuganfrage eine Auslage erstellt.
 
-![HR Expense Vehicle Request](assets/HR%20Expense%20Vehicle%20Request.gif)
+![HR Expense Vehicle Request](attachments/HR%20Expense%20Vehicle%20Request.gif)
 
 Wenn Sie eine [Spesenabrechnung erstellen](HR%20Expense.md#Spesenabrechnung%20erstellen) wird der Manager des Fahrzeugs als Verantwortlicher für die Spesenabrechnung eingetragen.

@@ -8,7 +8,7 @@ prev: ./invoicing
 ---
 # Sale Invoice Prepare Bank
 
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Bankkonto anhand Währung auswählen.
 

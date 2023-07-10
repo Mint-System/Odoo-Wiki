@@ -8,7 +8,7 @@ prev: ./invoicing
 ---
 # Account Invoice Multiline Ref
 
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 

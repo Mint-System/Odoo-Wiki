@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Projekt
-![icons_odoo_project](assets/icons_odoo_project.png)
+![icons_odoo_project](attachments/icons_odoo_project.png)
 
 Agiles Projektmanagement. Schön. Einfach. Open Source.
 
@@ -89,7 +89,7 @@ Beim der Duplizierung eines Projekts werden deren Aufgaben und Phasen mitkopiert
 
 Um ein Projekt zu duplizieren führen Sie folgende Aktion aus *Projekt > Projekt wählen > Übersicht > Smart-Link Projekt > Aktion > Duplizieren*.
 
-![Projekt duplizieren](assets/Projekt%20duplizieren.gif)
+![Projekt duplizieren](attachments/Projekt%20duplizieren.gif)
 
 ## Auswertung
 
@@ -97,7 +97,7 @@ Um ein Projekt zu duplizieren führen Sie folgende Aktion aus *Projekt > Projekt
 
 Die Gantt-Ansicht kann via *Projekt > Alle Aufgaben* angezeigt werden.
 
-![](assets/Projekt%20Gantt-Ansicht%20aktiviert.png)
+![](attachments/Projekt%20Gantt-Ansicht%20aktiviert.png)
 
 ## Abrechnung
 
@@ -111,7 +111,7 @@ Damit die auf einer Projektaufgabe erfassten Stunden abgerechnet werden können,
 
 Dazu ein Beispiel:
 
-![](assets/Projekt%20Tab%20Abrechnung.png)
+![](attachments/Projekt%20Tab%20Abrechnung.png)
 
 ## Berechtigungen
 
@@ -123,7 +123,7 @@ Wenn Sie verhindern möchten, dass Mitglieder der Gruppe *Projekt / Benutzer* Pr
 
 Weil die Berechtigung von *Projekt / Benutzer* nach *Projekt / Administrator* vererbt wird, braucht es eine Anpassung. Zeiten Sie den Tab *Zugriffsrechte* der Gruppe *Projekt / Administrator* und erstellen Sie einen neuen Eintrag:
 
-![](assets/Projekt%20Berechtigung%20Administrator%20Aufgabe.png)
+![](attachments/Projekt%20Berechtigung%20Administrator%20Aufgabe.png)
 
 ## Diskussion
 
@@ -131,4 +131,4 @@ Weil die Berechtigung von *Projekt / Benutzer* nach *Projekt / Administrator* ve
 
 Um eine Benachrichtigung zu erhalten, wenn eine Aufgabe in einem bestimmten Projekt erstellt, müssen Sie das Projekt via *Projekt > Konfiguration > Projekte* bearbeiten. Nun müssen Sie ein [eigenes Abonnement hinzufügen](Discuss.md#Eigenes%20Abonnement%20hinzufügen). 
 
-![](assets/Projekt%20Subscription%20bearbeiten.png)
+![](attachments/Projekt%20Subscription%20bearbeiten.png)

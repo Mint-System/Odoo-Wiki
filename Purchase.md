@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Einkauf
-![icons_odoo_purchase](assets/icons_odoo_purchase.png)
+![icons_odoo_purchase](attachments/icons_odoo_purchase.png)
 
 {{ $frontmatter.description }}
 
@@ -107,23 +107,23 @@ Falls eine andere Lieferadresse gewünscht ist, lässt sich das über das Einric
 
 Jedes Lager hat eine Adresse.
 
-![Einkauf Lager Adresse](assets/Einkauf%20Lager%20Adresse.png)
+![Einkauf Lager Adresse](attachments/Einkauf%20Lager%20Adresse.png)
 
 Die Adresse kann auch eine spezielle Lieferandresse sein.
 
-![Einkauf Lager Adresse Lieferadresse](assets/Einkauf%20Lager%20Adresse%20Lieferadresse.png)
+![Einkauf Lager Adresse Lieferadresse](attachments/Einkauf%20Lager%20Adresse%20Lieferadresse.png)
 
 Falls also für eine Bestellung verschiedene Lieferadressen zur Verfügung stehen sollen,  muss für jede Adresse ein Lager eingerichtet werden.
 
-![Einkauf Lager Anlieferung](assets/Einkauf%20Lager%20Anlieferung.png)
+![Einkauf Lager Anlieferung](attachments/Einkauf%20Lager%20Anlieferung.png)
 
 Die Lieferanschrift kann auf der Bestellung gemäss der folgenden Abbildung gewählt werden (die Markierung zeigt den Vorgangstyp):
 
-![Einkauf Lieferadresse Anlieferung](assets/Einkauf%20Lieferadresse%20Anlieferung.png)
+![Einkauf Lieferadresse Anlieferung](attachments/Einkauf%20Lieferadresse%20Anlieferung.png)
 
 Die Bestellung sieht dann wie folgt aus:
 
-![Einkauf Bestellung Beispiel Lieferadresse](assets/Einkauf%20Bestellung%20Beispiel%20Lieferadresse.png)
+![Einkauf Bestellung Beispiel Lieferadresse](attachments/Einkauf%20Bestellung%20Beispiel%20Lieferadresse.png)
 
 ## Auswertung
 
@@ -141,4 +141,4 @@ Nummernfolge: `90`
 
 Das Ergebnis sollte so aussehen:
 
-![](assets/Einkauf%20Einkaufszeilen.png)
+![](attachments/Einkauf%20Einkaufszeilen.png)

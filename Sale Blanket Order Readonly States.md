@@ -7,7 +7,7 @@ tags:
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Readonly States
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Bestätigte Rahmenaufträge bearbeiten.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Mit dieser Erweiterung können Sie die bestätigte Rahmenaufträge bearbeiten.
 
-![](assets/Sale%20Blanket%20Order%20Readonly%20States.png)
+![](attachments/Sale%20Blanket%20Order%20Readonly%20States.png)

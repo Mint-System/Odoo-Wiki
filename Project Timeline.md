@@ -7,7 +7,7 @@ tags:
 prev: ./project
 ---
 # Project Timeline
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Timeline-Ansicht für Projektaufgaben.
 
@@ -24,14 +24,14 @@ Repository: <https://github.com/OCA/project/tree/14.0/project_timeline>
 
 Navigieren Sie nach *Projekt > Projekte* und klicken Sie auf die *Timeline*-Ansicht.
 
-![](assets/Project%20Timeline%20View%20timeline.png)
+![](attachments/Project%20Timeline%20View%20timeline.png)
 
 Projekte werden entsprechend dem Start und Enddatum angezeigt.
 
-![](assets/Project%20Timeline%20View.png)
+![](attachments/Project%20Timeline%20View.png)
 
 ### Projektaufgaben Timeline-Ansicht anzeigen
 
 Navigieren Sie nach *Projekt > Alle Aufgaben* und klicken Sie auf die *Timeline*-Ansicht.
 
-![](assets/Project%20Timeline%20View%20task%20timeline.png)
+![](attachments/Project%20Timeline%20View%20task%20timeline.png)

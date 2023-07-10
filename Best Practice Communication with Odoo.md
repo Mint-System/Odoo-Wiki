@@ -16,7 +16,7 @@ Zum besseren Verständnis zeigt die folgende Grafik wie Odoo die Kommunikations-
 
 Typischerweise läuft die Odoo Mail-Kommunikation in diesem Schema ab:
 
-![Odoo Mail Workflow](assets/Odoo%20Mail%20Workflow.svg)
+![Odoo Mail Workflow](attachments/Odoo%20Mail%20Workflow.svg)
 
 1. Odoo BenutzerIn zeigt ein Geschäftsobjekt an (Angebot, Rechnung, Notiz, etc.)
 2. Die BenutzerIn klickt im Chatter auf *Nachricht* und startet eine neue Konversation

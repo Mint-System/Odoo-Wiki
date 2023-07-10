@@ -8,7 +8,7 @@ prev: ./invoicing
 ---
 # Sale Invoice Line Description
 
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Buchungszeilen generiert aus Verkaufsaufträgen enhalten nur den Anzeigenamen des Produkts.
 
@@ -21,4 +21,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 Ist diese Erweiterung installiert enthalten Buchungstexte, die aus einem Verkaufsauftrag generiert wurden, keine Verkaufsbeschreibung.
 
-![Sale Invoice Line Description](assets/Sale%20Invoice%20Line%20Description.gif)
+![Sale Invoice Line Description](attachments/Sale%20Invoice%20Line%20Description.gif)

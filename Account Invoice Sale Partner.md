@@ -8,7 +8,7 @@ prev: ./invoicing
 ---
 # Account Invoice Sale Partner
 
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -21,4 +21,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.
 
 Rufen Sie eine Kundenrechnung via *Abrechnung > Kunden > Rechnungen* auf. Sie finden ein neues Feld *Verkaufsadresse* unterhalb von *Kunde*. Legen Sie einen Kontakt des Kunden-Kontakt als  Verkaufsadresse fest, so wird dieser Kontakt bei der Auswahl des Kunden übernommen. 
 
-![](assets/Account%20Invoice%20Sale%20Partner.png)
+![](attachments/Account%20Invoice%20Sale%20Partner.png)

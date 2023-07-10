@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Product Listprice Currency
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Listenpreise in verschiedenen Währungen für Preislisten-Formeln.
 
@@ -22,10 +22,10 @@ Mit dieser Erweiterung können Sie pro Produkt Listenpreisen in verschiedenen W�
 
 Wählen Sie ein Produkt via *Verkauf > Produkte > Produkte* und geben Sie einen Verkaufspreis ein.
 
-![](assets/Product%20Listprice%20Currency%20Set.png)
+![](attachments/Product%20Listprice%20Currency%20Set.png)
 
 In Preislisten haben Sie Zugriff auf diese Listenpreise.
 
-![](assets/Product%20Listprice%20Currency%20Based%20on.png)
+![](attachments/Product%20Listprice%20Currency%20Based%20on.png)
 
 So können Sie für Produkte Preislisten-Berechnungen in verschiedenen Währungen durchführen.

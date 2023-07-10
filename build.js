@@ -5,7 +5,7 @@ var path = require('path')
 all
 index
 convert
-assets
+attachments
 sitemap
 sidebar
 */
@@ -15,10 +15,10 @@ const ignoreFiles = ['_navbar.md', '_sidbar.md']
 const scheme = 'https://'
 const hostname = 'www.odoo-wiki.org'
 const basePath = '/'
-const basePathAssets = './'
+const basePathAttachments = './'
 const uriSuffix = '.html'
 const anchorPrefix = '#'
-const assetsFolder = 'assets'
+const attachmentsFolder = 'attachments'
 const gitUrl = 'https://github.com/Mint-System/Odoo-Handbuch/blob/master/'
 const sidebarAppend = ['glossary.md','contribution.md']
 
@@ -69,29 +69,29 @@ function removeDuplicates(arr) {
 function convert(content,file) {
 
     // convert markdown video links
-    // ![](Video.webm) -> <video width="560" height="240" controls><source src="./assets/video.webm"></video> 
+    // ![](Video.webm) -> <video width="560" height="240" controls><source src="./attachments/video.webm"></video> 
     const mdVideo = /(!\[.*\]\(.*\.(webm|mp4)\))/g
     matches = content.match(mdVideo) || []
     for (i = 0; i < matches.length; i++) {
         let match = matches[i]
         
         let video = match.match(/!\[.*\]\((.*\..*)\)/)[1]
-        video = sanitizeAssetname(video.replace(`${assetsFolder}/`,''))
+        video = sanitizeAssetname(video.replace(`${attachmentsFolder}/`,''))
 
-        content = content.replace(match, `<video width="560" height="240" controls><source src="${basePathAssets}${video}"></video>`)
+        content = content.replace(match, `<video width="560" height="240" controls><source src="${basePathAttachments}${video}"></video>`)
     }
 
     // convert markdown image links
-    // ![title](Image.png) -> ![](./assets/image.png)
+    // ![title](Image.png) -> ![](./attachments/image.png)
     const mdImage = /(!\[.*?\]\(.*?\..*?\))/g
     matches = content.match(mdImage) || []
     for (i = 0; i < matches.length; i++) {
         let match = matches[i]
         
         let image = match.match(/!\[.*\]\((.*\..*)\)/)[1]
-        image = sanitizeAssetname(image.replace(`${assetsFolder}/`,''))
+        image = sanitizeAssetname(image.replace(`${attachmentsFolder}/`,''))
                 
-        content = content.replace(match, `![](${basePathAssets}${image})`)
+        content = content.replace(match, `![](${basePathAttachments}${image})`)
     }
 
     // convert markdown links
@@ -356,23 +356,23 @@ if (!firstArg || ['all', 'index'].indexOf(firstArg) > 0) {
     console.log('Building glossary finished.')
 }
 
-if (!firstArg || ['all', 'assets'].indexOf(firstArg) > 0) {
+if (!firstArg || ['all', 'attachments'].indexOf(firstArg) > 0) {
         
     // log
-    console.log('Move assets ...')
+    console.log('Move attachments ...')
 
     // Loop all asset files
-    fs.readdirSync(path.join(__dirname, assetsFolder)).forEach((file) => {
+    fs.readdirSync(path.join(__dirname, attachmentsFolder)).forEach((file) => {
         
         // set new file name
         newfile = sanitizeAssetname(file)
 
         // move asset file
-        fs.renameSync(path.join(__dirname, assetsFolder,file), path.join(__dirname, newfile))
+        fs.renameSync(path.join(__dirname, attachmentsFolder,file), path.join(__dirname, newfile))
     })
  
     // log
-    console.log('Moving assets finished.')
+    console.log('Moving attachments finished.')
 }
 
 

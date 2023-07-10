@@ -8,7 +8,7 @@ prev: ./invoicing
 ---
 # Sale Invoice Carrier
 
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus Verkaufsaufträgen übertragen.
 

@@ -7,7 +7,7 @@ tags:
 prev: ./manufacture
 ---
 # MRP Documents Share
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,29 +20,29 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_
 
 Erstellen Sie einen teilbaren Link zu ihrer Zeichung oder Step-Datei. Hier ein Beispiel mit Google Drive:
 
-![](assets/Google%20Drive%20öffentlicher%20Link.png)
+![](attachments/Google%20Drive%20öffentlicher%20Link.png)
 
 Navigieren Sie zu ihrem Produkt und erstellen Sie einen neuen Eintrag für die Zeichnung oder Step-Datei.
 
-![](assets/MRP%20Documents%20Share%20Zeichnung%20hinzufügen.png)
+![](attachments/MRP%20Documents%20Share%20Zeichnung%20hinzufügen.png)
 
 Im Feld *Url* fügen Sie den öffentlichen Link hinzu.
 
-![](assets/MRP%20Documents%20Share%20Url%20hinzufügen.png)
+![](attachments/MRP%20Documents%20Share%20Url%20hinzufügen.png)
 
 Wenn Sie eine Bestellung auslösen, erscheint der Link auf dem Bericht und der Portal-Ansicht.
 
 Bericht:
 
-![](assets/MRP%20Documents%20Share%20Bestellung.png)
+![](attachments/MRP%20Documents%20Share%20Bestellung.png)
 
 Portal-Ansicht:
 
-![](assets/MRP%20Documents%20Share%20Portal%20Ansicht.png)
+![](attachments/MRP%20Documents%20Share%20Portal%20Ansicht.png)
 
 Falls das Produkt produziert wird, sehen Sie in der Workcenter-Tablet-Ansicht den Link auf die Zeichnung.
 
-![](assets/MRP%20Documents%20Share%20Operation%20Drawing%20Link.png)
+![](attachments/MRP%20Documents%20Share%20Operation%20Drawing%20Link.png)
 
 ### Alle Produktionsdokumente anzeigen
 

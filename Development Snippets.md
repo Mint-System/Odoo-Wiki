@@ -6,7 +6,7 @@ tags:
 prev: ./development
 ---
 # Entwicklung Snippets
-![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)
+![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 {{ $frontmatter.description }}
 
@@ -26,13 +26,13 @@ Zeigen Sie die Formularansicht des Geschäftsobjekt an und erstellen Sie im Tab 
 * **Nummernfolge**: Priorität des Snippet
 * **Architektur**: Inhalt des Snippet
 
-![](assets/Entwicklung%20Snippet%20hinzufügen.gif)
+![](attachments/Entwicklung%20Snippet%20hinzufügen.gif)
 
 ### Snippet-Inhalte übersetzen
 
 Öffnen Sie ein Snippet via *Einstellungen > Technisch > Benutzer-Interface > Ansichten*. Klicken Sie im Tab *Architektur* auf * Übersetzungen bearbeiten*.
 
-![](assets/Snippet%20Übersetzung.png)
+![](attachments/Snippet%20Übersetzung.png)
 
 ## Entwicklung
 
@@ -59,7 +59,7 @@ Vielen Dank
 
 Beim Erstellen des Bericht wird der Platzhalter mit dem konfigurierten Wert des Systemparamters ersetzt:
 
-![](assets/Entwicklung%20Snippets%20Bericht%20mit%20Systemparameter.png)
+![](attachments/Entwicklung%20Snippets%20Bericht%20mit%20Systemparameter.png)
 
 ### Text als Begriff parametrisieren
 
@@ -88,7 +88,7 @@ Vielen Dank
 * **Übersetztes Feld**: `snippet`
 * **Sprache**: German (CH) / Deutsch (CH)
 
-![](assets/Entwicklung%20Snippets%20Begriff.png)
+![](attachments/Entwicklung%20Snippets%20Begriff.png)
 
 Beim Erstellen des Bericht wird der Platzhalter mit dem *Übersetzungswert* ersetzt.
 

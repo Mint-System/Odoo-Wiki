@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Sale Order Contact Person
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Kontaktperson auf Verkaufsauftrag festlegen. 
 
@@ -30,4 +30,4 @@ Damit die Kontaktperson als Empfängeradresse für die E-Mail übernommen wird, 
 
 Öffnen Sie *Verkauf* und wählen Sie einen Verkaufsauftrag aus. Im Feld *Kontaktperson* können Sie einen bliegen Kontakt als Kontaktperson festlegen.
 
-![](assets/Sale%20Order%20Contact%20Person%20Beispiel.png)
+![](attachments/Sale%20Order%20Contact%20Person%20Beispiel.png)

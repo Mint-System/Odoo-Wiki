@@ -7,7 +7,7 @@ tags:
 prev: ./hr-attendance
 ---
 # Theoretical vs Attended Time Analysis
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -26,7 +26,7 @@ Haben Mitarbeitende vor der Einführung des Überzeitenmanagement Übersstunden 
 
 Legen Sie als erstes pro Mitarbeiter das Startdatum der theoretischen Stunden fest. Erfassen Sie an den Tagen vor Beginn der theortischen Stunden zusätzliche Anwesenheiten. Wählen Sie das Eincheck- und Abmeldedatum sodass die Arbeitsstunden dem Überstundensaldo entsprechen.
 
-![](assets/Theoretical-vs-Attenden-Time-Analysis-Offset.png)
+![](attachments/Theoretical-vs-Attenden-Time-Analysis-Offset.png)
 
 ### Abwesenheitstyp in theoretischen Stunden einbeziehen
 
@@ -42,7 +42,7 @@ Navigieren Sie nach *Anwesenheitszeiten > Berichtswesen > Theoretische vs. tats�
 
 Falls Sie direkt den eigenen Vergleich sehen möchten wählen Sie direkt *Alle Angestellte*. Standardmässig wird die Ansicht nach dem eigenen Benutzer gefiltert.
 
-![](assets/Odoo%20Anwesenheitszeiten%20Vergleich.png)
+![](attachments/Odoo%20Anwesenheitszeiten%20Vergleich.png)
 
 ### Abwesenheitstyp "Überstunden kompensieren" anlegen
 
@@ -56,8 +56,8 @@ Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und
 
 Möchte ein Mitarbeiter seine Überstunden beziehen, gibt er diese als Abwesenheit ein. Angenommen man hat 00:29 Überstunden, so öffnet man als erstes die *Abwesenheitszeiten.*
 
-![](assets/Odoo%20Abwesenheit%20%C3%9Cberstunden%20anzeigen.png)
+![](attachments/Odoo%20Abwesenheit%20Überstunden%20anzeigen.png)
 
 Hier wählt man *Neuer Abwesenheitsantrag* und als Typ *Überstunden kompensieren*. Wurde der Abwesenheitsantrag angenomme und gespeichert, wird dies als Arbeitszeit berücksichtigt.
 
-![](assets/Odoo%20Abwesenheitszeiten%20Abwesenheitsantrag%20erstellen.png)
+![](attachments/Odoo%20Abwesenheitszeiten%20Abwesenheitsantrag%20erstellen.png)

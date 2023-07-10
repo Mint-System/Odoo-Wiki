@@ -8,7 +8,7 @@ prev: ./invoicing
 ---
 # Account Move Invoice Partner
 
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -25,7 +25,7 @@ Damit die Rechnungsadresse als Empfängeradresse für die E-Mail übernommen wir
 
 Mit dieser Erweiterung erhalten Sie ein zusätzliches Feld *Rechnungsadresse* auf der Formularansicht einer Rechnung.
 
-![](assets/Account%20Move%20Invoice%20Partner.png)
+![](attachments/Account%20Move%20Invoice%20Partner.png)
 
 ### Rechnung an Rechnungsadresse schicken
 

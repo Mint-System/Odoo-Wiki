@@ -7,7 +7,7 @@ prev: ./
 ---
 
 # Troubleshooting
-![icons_odoo_website_forum](assets/icons_odoo_website_forum.png)
+![icons_odoo_website_forum](attachments/icons_odoo_website_forum.png)
 
 {{ $frontmatter.description }}
 
@@ -19,13 +19,13 @@ prev: ./
 
 Beim Erstellen  einer QR-Rechnung werden diese Fehlermeldungen angezeigt:
 
-![](assets/Troubleshooting%20Swiss%20QR%20bill%20error%201.png)
+![](attachments/Troubleshooting%20Swiss%20QR%20bill%20error%201.png)
 
 ::: warning
 The following error prevented 'Swiss QR bill' QR-code to be generated though it was detected as eligible: When using a QR-IBAN as the destination account of a QR-code, the payment reference must be a QR-reference.
 :::
 
-![](assets/Troubleshooting%20Swiss%20QR%20bill%20error%202.png)
+![](attachments/Troubleshooting%20Swiss%20QR%20bill%20error%202.png)
 
 ::: warning
 Cannot generate the QR-bill. Please check you have configured the address of your company and debtor. If you are using a QR-IBAN, also check the invoice's payment reference is a QR reference.
@@ -41,7 +41,7 @@ Es wird dasselbe Verfahren wie für eine ISR-Zahlungsschein verwendet.
 
 Stellen Sie sicher, dass auf dem Journal die Einstellung *Kommunkationsstandard* auf *Schweiz* eingestellt ist.
 
-![](assets/Troubleshooting%20QR-IBAN%20Lösung%202.png)
+![](attachments/Troubleshooting%20QR-IBAN%20Lösung%202.png)
 
 Entfernen Sie auf dem Bankkonto die *ISR Client Identification Number*. Wird diese gesetzt, kann eine mit QR-Bill inkompatible Referenz generiert werden.
 
@@ -67,7 +67,7 @@ Aktualisieren Sie die App *Abrechnung* (`account`).
 
 Beim öffnen der Eisntellung erscheint der folgende Fehler:
 
-![Berechtigungsfehler - Something went wrong](assets/Troubleshooting%20Berechtigungsfehler%20-%20Something%20went%20wrong.png)
+![Berechtigungsfehler - Something went wrong](attachments/Troubleshooting%20Berechtigungsfehler%20-%20Something%20went%20wrong.png)
 
 Ein Zugriff auf die Benutzerliste ist nicht mehr möglich.
 
@@ -125,11 +125,11 @@ Beim Testen der SMTP-Verbindung mit Office 365 erscheint dieser Fehler:
 
 Prüfen Sie die SMTP-Einstellungen für den Benutzer und den Nachrichtenfluss von Exchange Online.
 
-![](assets/Troubleshooting%20Exchange%20Mail.png)
+![](attachments/Troubleshooting%20Exchange%20Mail.png)
 
 Gehen Sie in die Konto-Einstellungen des Postfachs und prüfen Sie ob die Verbindungsinformationen für SMTP und IMAP augezeigt werden.
 
-![](assets/Office%20365%20E-Mail%20synchronisieren.png)
+![](attachments/Office%20365%20E-Mail%20synchronisieren.png)
 
 ### Versandlimit für E-Mails erreicht
 
@@ -161,7 +161,7 @@ Beim Abrufen des Zugangstokens ist ein Fehler aufgetreten. AADSTS7000222: The pr
 
 Das Client-Secret der Azure-App ist abglaufen.
 
-![](assets/Office%20365%20Token%20abgelaufen.png)
+![](attachments/Office%20365%20Token%20abgelaufen.png)
 
 **Lösung**
 
@@ -205,7 +205,7 @@ Der angezeigte Bericht wird nicht korrekt vom System aufgerufen.
 
 Geben Sie den Benutzern Leserechte auf das Datenmodell `ir.ui.view`.
 
-![](assets/ir.ui.view%20user%20read.png)
+![](attachments/ir.ui.view%20user%20read.png)
 
 ### Externe ID User Admin nicht gefunden
 

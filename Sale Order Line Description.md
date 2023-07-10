@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Sale Order Line Description
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Nur Verkausbeschreibung im Feld Beschreibung übertragen.
 
@@ -30,7 +30,7 @@ Für Benutzer navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Be
 
 Ist die Option aktiviert, wird beim Ausfwählen eines Produkts nur die Verkaufsbeschreibung übernommen.
 
-![Sale Order Line Description](assets/Sale%20Order%20Line%20Description.gif)
+![Sale Order Line Description](attachments/Sale%20Order%20Line%20Description.gif)
 
 ::: warning
 Wenn die Verkaufsbeschreibung auf dem Produk nicht gesetzt ist, wird der Produkname übernommen.

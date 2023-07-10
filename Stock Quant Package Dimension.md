@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Stock Quant Package Dimension
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Dimensionen und geschätztes Gewicht auf Paket.
 

@@ -7,7 +7,7 @@ tags:
 prev: ./finance
 ---
 # Account Financial Report Show Grouped None
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 

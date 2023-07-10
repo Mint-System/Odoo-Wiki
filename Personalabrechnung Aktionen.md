@@ -7,7 +7,7 @@ tags:
 prev: ./hr-payroll
 ---
 # Personalabrechnung Aktionen
-![icons_odoo_hr_payroll](assets/icons_odoo_hr_payroll.png)
+![icons_odoo_hr_payroll](attachments/icons_odoo_hr_payroll.png)
 
 Lohnabrechnung automatisieren.
 

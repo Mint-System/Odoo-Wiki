@@ -7,7 +7,7 @@ tags:
 prev: ./iot
 ---
 # Odoo Direct Print
-![](assets/icons_odoo_printnode_base.png)
+![](attachments/icons_odoo_printnode_base.png)
 
 {{ $frontmatter.description }}
 
@@ -22,13 +22,13 @@ Video: [Odoo Experience 2021 - Automating Direct Printing](https://www.youtube.c
 
 Loggen Sie sich unter <https://app.printnode.com/app/apikeys> ein. Geben Sie die URL der Odoo-Instanz ein und wählen Sie *Create*.
 
-![](assets/Odoo%20Direct%20Print%20Generate%20API%20Key.png)
+![](attachments/Odoo%20Direct%20Print%20Generate%20API%20Key.png)
 
 ### API Key in Odoo einfügen
 
 Unter *Einstellungen > Direct Print > Account* müssen Sie den *API Key*, den Sie von <https://app.printnode.com/app/apikeys> erhalten haben, eintragen.
 
-![](assets/Odoo%20Direct%20Print%20Key%20einfügen.png)
+![](attachments/Odoo%20Direct%20Print%20Key%20einfügen.png)
 
 ### PrintNode Client installieren
 
@@ -36,7 +36,7 @@ Unter *Einstellungen > Direct Print > Account* müssen Sie den *API Key*, den Si
 
 Starten Sie den *PrintNode* Client und loggen Sie sich mit dem PrintNode-Account ein.
 
-![](assets/PrintNode%20Sign%20In.png)
+![](attachments/PrintNode%20Sign%20In.png)
 
 ## Druckerverwaltung
 
@@ -48,11 +48,11 @@ Der PrintNode Client erkennt die angeschlossenen Drucker automatisch. Falls das 
 
 Unter MacOS fügen Sie den Drucker wie folgt hinzu.
 
-![](assets/PrintNode%20Mac%20OS%20Drucker%20hinzufügen.png)
+![](attachments/PrintNode%20Mac%20OS%20Drucker%20hinzufügen.png)
 
 Einmal konfiguriert wird der Drucker im PrintNode Client angezeigt:
 
-![](assets/PrintNode%20Client%20Drucker%20anzeigen.png)
+![](attachments/PrintNode%20Client%20Drucker%20anzeigen.png)
 
 ### Direktes Drucken aktivieren
 
@@ -60,13 +60,13 @@ Damit Druckaufträge mit PrintNode gerduckt werden können, muss dies explizit f
 
 Wurde entweder ein globaler Standarddrucker festegelegt oder ein Standarddrucker auf dem dem Benutzer (siehe [Direktes Drucken für Benutzer einrichten](#Direktes%20Drucken%20für%20Benutzer%20einrichten)), dann erscheint bei druckbaren Objekten das folgende Aktions-Menu:
 
-![](assets/Odoo%20Direct%20Print%20Action%20Menu.png)
+![](attachments/Odoo%20Direct%20Print%20Action%20Menu.png)
 
 ### Drucker in Odoo anzeigen
 
 Zeigen Sie *Direct Print > Configuration > Printers* an. Hier werden alle verfügbaren Drucker aufgelistet.
 
-![](assets/Odoo%20Direct%20Print%20Beispiel.png)
+![](attachments/Odoo%20Direct%20Print%20Beispiel.png)
 
 Mit der Aktion *Einstellungen > Direct Print > Import Printers* werden die auf PrintNode verfügbaren Drucker importiert.
 
@@ -76,7 +76,7 @@ Mit der Aktion *Einstellungen > Direct Print > Import Printers* werden die auf P
 
 Loggin Sie sich auf <https://app.printnode.com> ein und wählen Sie *Print something*. Wählen Sie eine Quelle, Drucker und die Testseite aus und erstellen Sie einen Druckauftrag mit *Print*.
 
-![](assets/Odoo%20Direct%20Print%20Testseite%20drucken.png)
+![](attachments/Odoo%20Direct%20Print%20Testseite%20drucken.png)
 
 ## Druckszenarien
 
@@ -105,7 +105,7 @@ Für den aktuellen Benutzer muss die Option *Print via Direct Print* aktiviert s
 
 Odoo Direct Print stellt gängige Druckszenarios unter *Direct Print > Print Scenarios* zur Verfüng. Aktivieren Sie ein Senario mit einem Klick auf *Active* und wählen Sie einen Drucker aus.
 
-![](assets/Odoo%20Direct%20Print%20Szenario%20aktiviert.png)
+![](attachments/Odoo%20Direct%20Print%20Szenario%20aktiviert.png)
 
 ### Druck-Aktion aktivieren
 
@@ -115,7 +115,7 @@ Für den aktuellen Benutzer muss die Option *Print via Direct Print* aktiviert s
 
 Mit Odoo Direct Print können Druckaktionen ganz einfach hinzugefügt werden. Öffnen Sie die Ansicht *Direct Print > Print Action Buttons*. Aktivieren Sie eine Aktion mit einem Klick auf *Active* und wählen Sie einen Drucker aus.
 
-![](assets/Odoo%20Direct%20Print%20Buttons.png)
+![](attachments/Odoo%20Direct%20Print%20Buttons.png)
 
 In diesem Beispiel wird der Lieferschein ausgedruck, sobald auf einem Lieferschein der Knopf *Bestätigen* gedrückt wurde.
 
@@ -123,7 +123,7 @@ In diesem Beispiel wird der Lieferschein ausgedruck, sobald auf einem Liefersche
 
 Öffnen Sie eine Lieferung via *Lager > Lieferaufträge > Lieferauftrag auswählen* und klicken Sie auf *Aktion > Print Product Labels*
 
-![](assets/Odoo%20Direct%20Print%20Producut%20LAbels.png)
+![](attachments/Odoo%20Direct%20Print%20Producut%20LAbels.png)
 
 ::: tip
 Beachten Sie dass der Druckvorgang einige Sekunden in Anspruch nimmt.
@@ -145,7 +145,7 @@ Für das direkte Drucken kann dem Benutzer ein Standarddrucker zugewiesen werden
 
 Unter *Direct Print > Print Report Policy > User Rules* können Sie für jeden Benutzer den Standarddrucker für einen bestimmten Bericht festlegen. Erstellen Sie dazu einen Eintrag, wählen Sie den Benutzer, Drucker und Bericht aus.
 
-![](assets/Odoo%20Direct%20Print%20Default%20Printer.png)
+![](attachments/Odoo%20Direct%20Print%20Default%20Printer.png)
 
 ## Papierformat
 
@@ -153,13 +153,13 @@ Unter *Direct Print > Print Report Policy > User Rules* können Sie für jeden B
 
 Unter *Direct Print > Configuration > Papers* können Sie Papierformat für Bericht hinterlegen.
 
-![](assets/Odoo%20Direct%20Print%20Papers.png)
+![](attachments/Odoo%20Direct%20Print%20Papers.png)
 
 ### Papiefromat für Drucker festlegen
 
 Erstellen Sie unter *Direct Print > Print Report Policy > Printer Settings* einen Eintrag für ihren Drucker.
 
-![](assets/Odoo%20Direct%20Print%20Printer%20Settings.png)
+![](attachments/Odoo%20Direct%20Print%20Printer%20Settings.png)
 
 ### Papieformat für Bericht festlegen
 
@@ -175,7 +175,7 @@ Odoo Direct Print gibt eine Warnung aus, wenn das Papieformat nicht mit dem verk
 
 Auf Transfers *Lager > Vorgänge > Transfers* können Sie eine bestimmte Anzahl Produktetiketten drucken. Öffnen Sie einen Transfer und wählen Sie *Aktion > Print Product Labels*. Im Dialog wählen Sie den Bericht aus, bestimmen die Produkte und Anzahl der Etiketten, die Sie drucken möchten, wählen den Drucker aus und führen den Vorgang mit *Print* aus.
 
-![](assets/Odoo%20Direct%20Print%20Print%20Product%20Labels.png)
+![](attachments/Odoo%20Direct%20Print%20Print%20Product%20Labels.png)
 
 ## Geplante Aktionen
 

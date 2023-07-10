@@ -7,7 +7,7 @@ tags:
 prev: ./hr-holidays
 ---
 # HR Holidays Public
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -26,18 +26,18 @@ Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und
 
 Feiertage können für alle Mitarbeiter zentral festgelegt werden. Navigieren Sie nach *Abwesenheitszeiten > Feiertage > Feiertage des neues Jahres erstellen*. Klicken Sie auf *Erstellen* und navigieren Sie nach *Abwesenheitszeiten > Feiertage > Feiertage*. Wählen Sie den neuen Feiertagskalender aus und geben Sie die Feiertage ein. Schliessen Sie den Vorgang mit *Speichern* ab.
 
-![](assets/HR%20Holidays%20Public%20Beispiel%20Feiertagskalender.png)
+![](attachments/HR%20Holidays%20Public%20Beispiel%20Feiertagskalender.png)
 
 Erstellte Feiertage werden im Kalender von OdooBot eingetragen:
 
-![](assets/HR-Holidays-Public%20OdooBot.png)
+![](attachments/HR-Holidays-Public%20OdooBot.png)
 
 Geben Mitarbeitende ihren Abwesenheit ein, wird der Feiertag von der berechneten Anzahl Tage abgezogen:
 
-![HR Holidays Public Abzug](assets/HR%20Holidays%20Public%20Abzug.gif)
+![HR Holidays Public Abzug](attachments/HR%20Holidays%20Public%20Abzug.gif)
 
 ### Spezielle Abwesenheitsregelungen einrichten
 
 Angenommen Sie müssen für bestimmte Personen spezielle Abwesenheitsregelungen einrichten, so können Sie das über die Arbeitszeit festhalten. Öffnen Sie *Einstellungen > Technisch > Arbeitszeit* und wählen Sie einen Eintrag aus. Wenn Sie im Tab *Gobal Time Off* einen Eintrag machen, wird dieser bei der Erfassung der Abwesenheit berücksichtigt.
 
-![](assets/Abwesenheitszeiten%20Global%20Time%20Off.png)
+![](attachments/Abwesenheitszeiten%20Global%20Time%20Off.png)

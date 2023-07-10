@@ -7,7 +7,7 @@ tags:
 prev: ./development
 ---
 # BI SQL Editor
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -44,4 +44,4 @@ Im Tab *Sicherheit* entfernen Sie den Standard-Gruppeneintrag und fügen *User t
 
 Bestätigen Sie den Vorgang mit *Create UI*. Im Tab *Extra Information* werden die erstellten UI-Elemente und Einträge verlinkt.
 
-![](assets/BI%20SQL%20Editor%20Ansicht%20erstellt.png)
+![](attachments/BI%20SQL%20Editor%20Ansicht%20erstellt.png)

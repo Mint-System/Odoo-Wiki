@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Finanzen
-![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
+![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}
 
@@ -69,7 +69,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 
 Wenn Sie ein neues Unternehmen erstellt haben, können Sie unter *Einstellungen > Finanzen > Steuerliche Lokalisierung* ein Lokalisierungspaket im Feld *Kontenrahmen* auswählen und installieren. Damit werden die länderspezifischen Journale, Steuersätze und Kontenplan angelegt.
 
-![](assets/Finanzen%20Mehrwertsteuer.png)
+![](attachments/Finanzen%20Mehrwertsteuer.png)
 
 ### Konten Tag verwalten
 
@@ -102,23 +102,23 @@ Ein Beispiel wie der Kontenplan nach der Konfiguration ausseiht
 
 Fügen Sie ihre Bank via *Konfiguration > Bankverzeichnis > Eine Bank hinzufügen* hinzu.
 
-![](assets/Finanzan%20Raiffeisen%20Schweiz.png)
+![](attachments/Finanzan%20Raiffeisen%20Schweiz.png)
 
 Hinterlegen Sie eine Telefonnummer zur Wiederherstellung des Synchronisations-Account.
 
-![](assets/Finanzen%20Account%20Recovery.png)
+![](attachments/Finanzen%20Account%20Recovery.png)
 
 Geben Sie den Bestätigungcode ein. Nun werden Sie auf die Website von <https://www.saltedge.com> umgeleitet. Geben Sie ihre Login-Informationen ein.
 
-![](assets/Finanzen%20Saltedge%20Account.png)
+![](attachments/Finanzen%20Saltedge%20Account.png)
 
 Im Anschluss wählen Sie eine Authentisierungs-Methode.
 
-![](assets/Finanzen%20Saltedge%20Authenticaion.png)
+![](attachments/Finanzen%20Saltedge%20Authenticaion.png)
 
 Führen Sie diese wie gewohnt aus. Nun verbindet Saltedge den Odoo-Account mit dem Bankkonto. Sie werden wieder nach Odoo zurückgeführt.
 
-![](assets/Finanzen%20Bankkonto%20verknüpfen.png)
+![](attachments/Finanzen%20Bankkonto%20verknüpfen.png)
 
 Es wird nun ein neues Journal zur Synchronisation erstellt.
 
@@ -128,7 +128,7 @@ Wählen Sie *Finanzen > Konfiguration > Journale* und wählen Sie das Bank-Journ
 
 Dann gehen Sie nach *Finanznen > Konfiguration > Online Synchronisation* und wählen den ersten Eintrag aus. Im Feld *Journal* können Sie das Bank-Journal eintragen.
 
-![](assets/Fianzen%20Bank-Journal%20eintragen.png)
+![](attachments/Fianzen%20Bank-Journal%20eintragen.png)
 
 ### Kommunikationsstandard festlegen
 
@@ -140,7 +140,7 @@ Der Kommunikationsstandard ist entscheidend bei der Generierung von Zahlungsrefe
 
 Öffnen Sie die Journal-Einstellungen via *Finanzen > Konfiguration > Finanzen > Journale* und wählen Sie das Journal für das Rechnungen empfangen und erstellt werden sollen. Öffnen Sie den Tab *Erweiterte Einstellungen* und tragen Sie im Feld *E-Mail-Alias* die Empfangsadresse ein.
 
-![](assets/Finanzen%20Journal%20E-Mail-Alias.png)
+![](attachments/Finanzen%20Journal%20E-Mail-Alias.png)
 
 Anhänge an E-Mails mit diesem Alias aus dem Odoo-Postfach werden fortan als Rechnung erfasst.
 
@@ -164,7 +164,7 @@ Zeigen Sie den  Abschnitt *Finanzen > Konfiguration > Einstellungen > Ausgangsre
 
 Navigieren Sie nach *Finanzen > Konfiguration > Abrechnung > Zahlungsbedingungen* und erstellen Sie einen neuen Eintrag wie folgt. Duplizieren Sie eine bestehende Zahlungsbedingung, beispielsweise *30 Tage*. Wir nehmen an, dass wir für eine Zahlung innerhalb von Tagen 10 eine Skonto von 10% gewähren.
 
-![](assets/Finanzen%20Rabatt.png)
+![](attachments/Finanzen%20Rabatt.png)
 
 ## Portal
 

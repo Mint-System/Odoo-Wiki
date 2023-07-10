@@ -7,4 +7,4 @@ prev: ./referenzsystem
 ---
 # Prozess Produktentwicklung
 
-![Grafik Prozess Entwicklung](assets/Prozess%20Entwicklung.svg)
+![Grafik Prozess Entwicklung](attachments/Prozess%20Entwicklung.svg)

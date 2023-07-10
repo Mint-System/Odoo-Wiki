@@ -6,7 +6,7 @@ tags:
 prev: ./apps
 ---
 # Apps Aktionen
-![icons_odoo_hr_appraisal](assets/icons_odoo_hr_appraisal.png)
+![icons_odoo_hr_appraisal](attachments/icons_odoo_hr_appraisal.png)
 
 {{ $frontmatter.description }}
 

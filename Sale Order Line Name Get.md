@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Sale Order Line Name Get
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Produktname als Anzeigename für Verkaufspositionen.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Mit dieser Erweiterung wir der Produktname im Anzeigename für Verkaufspositionszeilen verwendet.
 
-![](assets/Sale%20Order%20Line%20Name%20Get.png)
+![](attachments/Sale%20Order%20Line%20Name%20Get.png)

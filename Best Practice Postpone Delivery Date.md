@@ -27,7 +27,7 @@ Jetzt erscheint nach dem Aufruf von *Replenish* der Artikel in der Liste. Das Sy
 
 Falls in der Meldestandsregel die *Preferred Route* auf *Einkaufen* eingestellt wird, erscheint im *Replenishment* bereits mit dem Liefertermin *Heute + 6 Tage* ein Eintrag in der Liste. Das System schlägt vor, 10 Stk des Artikels *Kettenstrebe* zu bestellen.
 
-![Best Practice Definition Beispiel Fahrrad Lead Times Grafik](assets/Best%20Practice%20Definition%20Beispiel%20Fahrrad%20Lead%20Times%20Grafik.svg)
+![Best Practice Definition Beispiel Fahrrad Lead Times Grafik](attachments/Best%20Practice%20Definition%20Beispiel%20Fahrrad%20Lead%20Times%20Grafik.svg)
 
 ## Variante Liefertermin C
 

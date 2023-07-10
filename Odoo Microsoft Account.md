@@ -7,7 +7,7 @@ tags:
 prev: ./settings
 ---
 # Odoo Microsoft Account
-![](assets/icons_odoo_microsoft_account.png)
+![](attachments/icons_odoo_microsoft_account.png)
 
 {{ $frontmatter.description }}
 
@@ -34,11 +34,11 @@ Damit nur Benutzer aus dem eigenen Tenant einloggen können, müssen Sie den OAu
 
 * **Unterstützte Kontentypen**: Nur Konten in diesem Organisationsverzeichnis (einzelner Mandant)
 
-![](assets/Odoo%20Microsoft%20Account%20Single%20Tenant.png)
+![](attachments/Odoo%20Microsoft%20Account%20Single%20Tenant.png)
 
 Und in den Einstellungen des OAuth-Provider die Authorisierungs-URL entsprechend festlegen:
 
-![](assets/Odoo%20Microsoft%20Account%20URL.png)
+![](attachments/Odoo%20Microsoft%20Account%20URL.png)
 
 Verwenden Sie die URLs:
 
@@ -61,7 +61,7 @@ Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und er
 
 Zeigen Sie die Odoo-Loginseite an und wählen Sie *Login in with Microsoft*. Sie werden nun auf die Anmelde-Seite von Microsoft umgeleitet. Loggen Sie sich mit dem Microsoft-Account ein und erlauben Sie den Zugriff von Odoo auf ihren Account.
 
-![](assets/Odoo%20Microsoft%20Account%20Permissions.png)
+![](attachments/Odoo%20Microsoft%20Account%20Permissions.png)
 
 Sie werden wieder zu Odoo umgeleitet und eingeloggt.
 

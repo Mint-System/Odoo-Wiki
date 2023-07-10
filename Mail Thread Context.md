@@ -7,7 +7,7 @@ tags:
 prev: ./discuss
 ---
 # Mail Thread Context
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
  
@@ -27,11 +27,11 @@ Mit dieser Erweiterung wird beim Erstellen und Aktualisieren von Odoo Einträgen
 
 Vorher:
 
-![Mail Thread Context Notiz vorher](assets/Mail%20Thread%20Context%20Notiz%20vorher.gif)
+![Mail Thread Context Notiz vorher](attachments/Mail%20Thread%20Context%20Notiz%20vorher.gif)
 
 Nachher:
 
-![Mail Thread Context Notiz nachher](assets/Mail%20Thread%20Context%20Notiz%20nachher.gif)
+![Mail Thread Context Notiz nachher](attachments/Mail%20Thread%20Context%20Notiz%20nachher.gif)
 
 Dasselbe funktioniert auch für *Sende Nachricht*. Der Empfänger wird nicht automatisch als Abonnent hinzugefügt.
 
@@ -39,7 +39,7 @@ Dasselbe funktioniert auch für *Sende Nachricht*. Der Empfänger wird nicht aut
 
 Wenn Sie oder ein anderer Benutzer einem Dokument folgen, speichert das Odoo in einer technischen Tabelle. Diese Einträge können Sie via *Einstellungen > Technisch > Diskussion > Abonnenten* löschen. Filtern Sie die Einträge nach einem bestimmten Modellname. Dazu ein Beispiel mit dem Verkaufsaufträgen (`sale.order`):
 
-![Diskussion Abonnenten löschen](assets/Diskussion%20Abonnenten%20löschen.gif)
+![Diskussion Abonnenten löschen](attachments/Diskussion%20Abonnenten%20löschen.gif)
 
 ::: warning
 Das löschen von Abonnenten kann die Kommunikation in der App Diskussion beeinflussen.

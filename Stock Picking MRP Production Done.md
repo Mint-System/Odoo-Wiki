@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Stock Picking MRP Production Done
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Lieferung mit Fertigungsauftrag gleichzeitig abschliessen.
 
@@ -24,4 +24,4 @@ Wenn Sie den [Systemparameter](Development.md#Systemparameter%20anlegen) mit Sch
 
 Mit dieser Erweiterung können Fertigungsaufträge und Lieferung in einem gültigen Zustand gleichzeitig abgeschlossen werden.
 
-![Stock Picking MRP Production Done](assets/Stock%20Picking%20MRP%20Production%20Done.gif)
+![Stock Picking MRP Production Done](attachments/Stock%20Picking%20MRP%20Production%20Done.gif)

@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Warenhaus
-![](assets/icon_odoo_warehouse.png)
+![](attachments/icon_odoo_warehouse.png)
 
 {{ $frontmatter.description }}
 

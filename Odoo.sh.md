@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Odoo.sh
-![](assets/icons_odoo_server.png)
+![](attachments/icons_odoo_server.png)
 
 {{ $frontmatter.description }}
 
@@ -26,13 +26,13 @@ Die DNS-Einträge können Sie im Normalfall dort machen, wo Sie die Domain erwor
 
 In den Einstellung findet Sie den Abschnitt *Custom domains*, hier fügen Sie den Namen ihrer Domain ein.
 
-![](assets/Odoo.sh%20Custom%20domains.png)
+![](attachments/Odoo.sh%20Custom%20domains.png)
 
 ### Build-Verhalten bei Commit festlegen
 
 Wenn Sie auf einen Staging- oder Entwicklungs-Branch committen, erstellt Odoo.sh standardmässig einen neuen Build. In bestimmten Fällen ist dies nicht erwünscht. Das Verhalten können Sie unter *Branch > Settings* festlegen.
 
-![](assets/Odoo.sh%20Behavior%20Commit.png)
+![](attachments/Odoo.sh%20Behavior%20Commit.png)
 
 ## Verwendung
 
@@ -40,7 +40,7 @@ Wenn Sie auf einen Staging- oder Entwicklungs-Branch committen, erstellt Odoo.sh
 
 Für jede Staging-Phase können Sie eine bestimmte Azahl Branches haben. Möchten Sie einen Branch entfernen so wählen Sie diesen aus und klicken oben rechts auf *Delete*.
 
-![](assets/Odoo.sh%20Delete.png)
+![](attachments/Odoo.sh%20Delete.png)
 
 ### Build-Backup erstellen
 
@@ -52,7 +52,7 @@ Aktualisieren Sie den Staging-Branch mit den Modulen für die neue Odoo Version.
 
 Der Upgrade-Prozess wird beim Punkt *Waiting user commit...* angehalten. Nun können die Submodule angepasst werden. Mit dem Befehl `git commit --allow-empty -m 'Trigger update'; git push` können Sie ein Upgrade der Datebank auslösen.
 
-![](assets/Odoo.sh%20Trigger%20update.png)
+![](attachments/Odoo.sh%20Trigger%20update.png)
 
 Odoo stellt die aktualisierte Datenbank auf dem Staging-Branch zum Testen bereit. Sie können weitere Anpassungen vornehmen und comitten.
 
@@ -72,4 +72,4 @@ Odoo.sh Projekte sind an ein Github-Repository gekoppelt, wenn Sie einem Benutze
 
 Öffnen Sie das Odoo.sh Projekt und navigieren Sie nach *Settings > Collaborators*. Tragen Sie hier den Benutzernamen und die enstprechenden Berechtigungen ein.
 
-![](assets/Odoo.sh%20Benutzer%20hinzuf%C3%BCgen.png)
+![](attachments/Odoo.sh%20Benutzer%20hinzufügen.png)

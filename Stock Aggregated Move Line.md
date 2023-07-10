@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Stock Aggregated Move Lines
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Zugriff auf Lieferung in aggregierten Zeilen.
 

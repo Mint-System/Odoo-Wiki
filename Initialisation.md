@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Initialisierung
-![icons_odoo_survey](assets/icons_odoo_survey.png)
+![icons_odoo_survey](attachments/icons_odoo_survey.png)
 
 {{ $frontmatter.description }}
 
@@ -34,6 +34,6 @@ Und füllen Sie mindestens diese Felder aus:
 
 Beim ersten Login erscheint die Meldung, dass die Odoo-Installation nicht aktiviert ist. 
 
-![](assets/Intialisierung%20Odoo%20Enterprise%20aktivieren.png)
+![](attachments/Intialisierung%20Odoo%20Enterprise%20aktivieren.png)
 
 

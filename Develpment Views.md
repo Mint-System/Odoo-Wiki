@@ -7,7 +7,7 @@ prev: ./development
 ---
 
 # Entwicklung Ansichten
-![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)
+![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 {{ $frontmatter.description }}
 
@@ -36,7 +36,7 @@ Architektur:
 
 So sollte es dann aussehen:
 
-![](assets/Entwicklung%20Ansicht%20erstellen.png)
+![](attachments/Entwicklung%20Ansicht%20erstellen.png)
 
 ### Ansicht Anhänge erstellen
 
@@ -52,13 +52,13 @@ Nummernfolge: `10`
 
 Das Ergebnis sollte so aussehen:
 
-![](assets/Entwicklung%20Ansicht%20Anhänge.png)
+![](attachments/Entwicklung%20Ansicht%20Anhänge.png)
 
 ### Ansichten verwalten
 
 Alle Listen, Formulare und Berichte werden von Odoo in einer Tabelle verwaltet. Diese können Sie via *Einstellungen > Technisch > Benutzer-Interface > Ansichten* anzeigen. 
 
-![](assets/Entwicklung%20Ansichten%20verwalten.png)
+![](attachments/Entwicklung%20Ansichten%20verwalten.png)
 
 ### Ansicht entfernen
 
@@ -72,13 +72,13 @@ Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitge
 
 Beim Aufrufen einer Ansicht wird als erstes eine Aktion ausgeführt. Auf dieser Aktion ist definiert welche Ansicht (Liste, Kanban, Karte, ...) standardmässig angezeigt werden soll. Zum ändern rufen zeigen Sie eine Ansicht an und wählen *Entwicklertools > Aktion bearbeiten*. Scrollen Sie nach unten und ändern Sie die Reihenfolge der Ansichten.
 
-![](assets/Ansicht%20Standard%20ändern.png)
+![](attachments/Ansicht%20Standard%20ändern.png)
 
 ### Sequenz der Standard-Ansichten festlegen
 
 Zeiten Sie eine Aktion zum Aufrufen einer Ansicht via *Einstellungne > Technisch > Fenster öffnen/schliessen* auf und navigieren Sie zum Abschnitt *Ansichten*. Bearbeiten Sie die Reihenfolge der Ansichten.
 
-![](assets/Entwicklung%20Ansichten%20Sequenz.png)
+![](attachments/Entwicklung%20Ansichten%20Sequenz.png)
 
 ## Datenmodelle
 
@@ -86,7 +86,7 @@ Zeiten Sie eine Aktion zum Aufrufen einer Ansicht via *Einstellungne > Technisch
 
 Abhängig von der angezeigten Ansicht stehen Felder gemäss dem verknüpften Datenmodell zur Verfügung. Standardmässig werden nicht alle Felder angezeigt und bestimmte Felder müssen eingeblendet werden. Eine Übersicht der verfügbaren Felder erhalten Sie via *Entwicklertools > Felder anzeigen*.
 
-![](assets/Entwicklung%20Ansichten%20Felder.png)
+![](attachments/Entwicklung%20Ansichten%20Felder.png)
 
 ::: tip
 Hier finden Sie zu jedem Feld den technischen Name *Feldname*. Diesen Namen verwendet Odoo für die Programmierung.
@@ -96,7 +96,7 @@ Hier finden Sie zu jedem Feld den technischen Name *Feldname*. Diesen Namen verw
 
 Damit ein neues Feld ersichtlich ist, muss es auf der entsprechenden Ansicht hingefügt werden. Rufen Sie im Entwicklermodus die Ansicht auf und wählen Sie *Entwicklertools > Ansicht bearbeiten: Liste. Suchen Sie hier den Feldnamen unter dem das neue Feld angezeigt werden soll. In unserem Beispiel verwenden wir den Feldnamen `state`.
 
-![](assets/Entwicklung%20Feld%20hinzufügen.png)
+![](attachments/Entwicklung%20Feld%20hinzufügen.png)
 
 Navigieren Sie nun in den Tab *Vererbte Ansichten* und fügen Sie hier einen neuen Eintrag hinzu:
 
@@ -161,7 +161,7 @@ Wenn Sie über Aktionen bestimmte Odoo-Ansichten aufrufen ist bereits ein Filter
 
 Wählen Sie auf der Ansicht mit dem Filter *Entwicklertools > Aktion bearbeiten*. Im Feld *Wert aus Kontext* können nicht nur Standardwerte für die anzuzeigende Ansicht hinterlegt werden, sondern auch der Status von Filtern.
 
-![](assets/Entwicklung%20Standardfilter%20einrichten.png)
+![](attachments/Entwicklung%20Standardfilter%20einrichten.png)
 
 Der Name des Filters lautet in diesem Beispiel `my_quotation`. Angenommen Sie haben mittels Snippet diesen Filter hinzugefügt:
 
@@ -205,7 +205,7 @@ Um einen Filter zu erstellen, der beispielsweise alle Aufgaben mit Frist Heute a
 
 Erstellen Sie einen Filter für das Feld Frist mit dem heutigen Datum.
 
-![](assets/Entwicklung%20Filter%20Frist.png)
+![](attachments/Entwicklung%20Filter%20Frist.png)
 
 Speichern Sie den Filter als Favorit und wählen *Entwicklertools > Filter verwalten*. Kopieren Sie den folgenden Ausdruck in das Feld *Domain*:
 

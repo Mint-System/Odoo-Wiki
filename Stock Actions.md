@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Lager Aktionen
-![icons_odoo_stock](assets/icons_odoo_stock.png)
+![icons_odoo_stock](attachments/icons_odoo_stock.png)
 
 {{ $frontmatter.description }}
 
@@ -70,7 +70,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
 
-![](assets/Lager%20Aktion%20%20Lagerbuchung%20Zurücksetzen%20erstellen.png)
+![](attachments/Lager%20Aktion%20%20Lagerbuchung%20Zurücksetzen%20erstellen.png)
 
 ### Als verfügbar markieren
 

@@ -6,7 +6,7 @@ tags:
 prev: ./hr-holidays
 ---
 # Abwesenheit Aktionen
-![icons_odoo_hr_holidays](assets/icons_odoo_hr_holidays.png)
+![icons_odoo_hr_holidays](attachments/icons_odoo_hr_holidays.png)
 
 {{ $frontmatter.description }}
 
@@ -29,7 +29,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Abwesenheitszeiten erscheint nun in der Auswahl *Aktion* das Menu *Ablehnen*.
 
-![](assets/Aktionen%20Abwesenheitszeiten%20Ablehnen.png)
+![](attachments/Aktionen%20Abwesenheitszeiten%20Ablehnen.png)
 
 ### Anzahl Stunden neuberechnen
 

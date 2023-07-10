@@ -7,7 +7,7 @@ tags:
 prev: ./development
 ---
 # Prometheus Exporter
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Odoo-Metriken mit Prometheus monitoren.
 
@@ -24,16 +24,16 @@ Navigieren Sie nach *Einstellungen > Technisch > Metrics* und erstellen Sie eine
 Standardmässig werden die Anazahl der Einträge gemäss Datnemodell und Filter (Domain) als Metrik-Wert publiziert.
 :::
 
-![](assets/Prometheus%20Exporter%20Metrics%20Details.png)
+![](attachments/Prometheus%20Exporter%20Metrics%20Details.png)
 
 ### Odoo-Metrik mit Operation erstellen
 
 Als erstes müssen Sie eine [Odoo-Metrik erstellen](#Odoo-Metrik%20erstellen) und dann wählen Sie im optional Feld *Measured Field* ein Feld. Wurde ein Feld ausgewählt erscheint die Option *Operation*. Hier können Sie das Berechnungsverfahren wählen.
 
-![](assets/Prometheus%20Exporter%20Measured%20Field.png)
+![](attachments/Prometheus%20Exporter%20Measured%20Field.png)
 
 ### Odoo-Metriken abrufen
 
 Die Odoo-Metriken werden unter `/metrics` bereitgestellt. Rufen Sie Sie die Metrik-Seite mit der Url <https://example.com/metrics> auf.
 
-![](assets/Prometheus%20Exporter%20Metrics.png)
+![](attachments/Prometheus%20Exporter%20Metrics.png)

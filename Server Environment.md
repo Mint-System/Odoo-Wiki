@@ -7,7 +7,7 @@ tags:
 prev: ./development
 ---
 # Server Environment
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Systemkonfigurationen aus Umgebungsvariablen laden.
 

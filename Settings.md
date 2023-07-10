@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Einstellungen
-![icons_odoo_settings](assets/icons_odoo_settings.png)
+![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 {{ $frontmatter.description }}
 
@@ -60,7 +60,7 @@ Auf *Entwicklermodus aktivieren* klicken. Nun erscheinen neue Optionen in versch
 
 Eine weitere Möglickeit ist die Installation der Browser-Addon [Odoo Debug](https://www.droggol.com/odoo-tools). Installieren Sie deses Addon in ihrem Browser. Anschliessend erscheint das folgende Icon in der Toolbar:
 
-![Einstellungen Odoo Debug](assets/Einstellungen%20Odoo%20Debug.png)
+![Einstellungen Odoo Debug](attachments/Einstellungen%20Odoo%20Debug.png)
 
 Mit einem Mausklick können Sie damit den Entwicklermodus ein- und ausschalten.
 
@@ -86,7 +86,7 @@ Klicken Sie auf das Käfer-Symbol in der Menu-Leiste oben rechts. Wählen Sie *T
 
 Navigieren Sie nach *Einstellungen > Technisch > Berichtswesen > Papieformat*. Wir nehmen an, es braucht ein neues Papieformat für einen Etikettendrucker. Erstellen Sie einen neuen Eintrag:
 
-![](assets/Neues%20Papierformat.png)
+![](attachments/Neues%20Papierformat.png)
 
 ::: tip
 Für einen exakten Druck, müssen Sie die Seitengrösse in Inch und Milimeter kennen
@@ -96,7 +96,7 @@ Für einen exakten Druck, müssen Sie die Seitengrösse in Inch und Milimeter ke
 
 Die Darstellung der generierten Dokumente kann einfach angepasst werden. Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Geschäftsunterlagen* und wählen Sie *Dokumentlayout konfigurieren* aus. Die hier ausgewählte Dokumentvorlage wird für alle Berichte übernommen.
 
-![](assets/Einstellungen%20Dokumentlayout.png)
+![](attachments/Einstellungen%20Dokumentlayout.png)
 
 ### Papierformat für Bericht anpassen
 
@@ -114,13 +114,13 @@ Im Entwicklermodus öffnen Sie *Einstellungen > Technisch > Berichtswesen > Beri
 
 Für jedes Geschäftsobjekt können Sie Standardwerte mit Bedingungen festlegen. Öffnen Sie im Entwicklermodus ein Objekt, beispielsweise ein Angbot und legen Sie für ein Feld einen neuen Wert fest. Bevor Sie das Angebot speichern, navigieren Sie zum Entwicklermenu und wählen *Standardwert setzen*. Im Dialog wählen Sie das Feld und den Wert sowie die passende Bedingung. Wenn Sie den Standardwert gespeichert haben, wir dieser bei der Erstellung eines neuen Geschäftsobjekts angwendet.
 
-![Einstellungen Standardwerte festlegen](assets/Einstellungen%20Standardwerte%20festlegen.gif)
+![Einstellungen Standardwerte festlegen](attachments/Einstellungen%20Standardwerte%20festlegen.gif)
 
 ### Datumsformat ändern
 
 Für jede installierte Sprache kann das angezeigte Datumsformat überschrieben werden. Öffnen Sie das Sprachpaket via *Einstellungen > Allgemeine Einstellungen > Sprachen > Sprachen verwalten*. Bearbeiten Sie das Feld *Datumsformat* und geben Sie dort `%d.%m.%Y` ein.
 
-![](assets/Einstellung%20Datumsformat.png)
+![](attachments/Einstellung%20Datumsformat.png)
 
 ### Sequenz anpassen
 
@@ -136,4 +136,4 @@ Damit die Sequenz-Nummer auf ein bestimmtes Datum, beipsielweise Ende Jahr, zur�
 
 Wenn eine Datenbank abgelaufen ist, erscheine eine entsprechende Meldung. Diese ist aber nur symbolisch, mit der richtigen URL können Sie in den *Systemparameter* von Odoo das Ablaufdatum der Datenbank verlängern. Am einfachsten ist es, wenn das Testsystem und das produktive System unter einer ähnlichen URL erreichbar sind.
 
-![Einstellungen Odoo-Datenbank verlängern](assets/Einstellungen%20Odoo-Datenbank%20verlängern.gif)
+![Einstellungen Odoo-Datenbank verlängern](attachments/Einstellungen%20Odoo-Datenbank%20verlängern.gif)

@@ -7,7 +7,7 @@ tags:
 prev: ./database
 ---
 # Base Search Fuzzy
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -29,5 +29,5 @@ Navigieren Sie nach *Einstellungen > Technisch > Datenbankstruktur > Trigram Ind
 ::: tip
 Damit eine *Fuzzy Search* funktioniert muss auf der Suchmaske der Suchfilter  angepasst werden. Statt den Operator `ilike`, gibt es neu den Operator `%`. Mit einer *Fuzzy Search* werden Suchergebnisse zuverlässiger gefliefert. Hier ein Beispiel mit einem Rechtschreibefehler:
 
-![](assets/Base%20Search%20Fuzzy.png)
+![](attachments/Base%20Search%20Fuzzy.png)
 :::

@@ -7,7 +7,7 @@ tags:
 prev: ./manufacture
 ---
 # MRP Production Unplan Move
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,6 +20,6 @@ Repository: <https://github.com/OCA/product-attribute/tree/14.0/mrp_production_u
 
 Mit dieser Erweiterung wird beim Abbruch der Planung oder bei der Bestätigung eines Fertigungsauftrag auf der dazugehörigenden Lagerbuchung eine fiktives Datum festgelegt.
 
-![](assets/MRP%20Production%20Unplan%20Move.png)
+![](attachments/MRP%20Production%20Unplan%20Move.png)
 
 Damit sind Aufträge erkennbar, welche noch genauer geplant werden müssen.

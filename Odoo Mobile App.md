@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Odoo Mobile App
-![](assets/icons_odoo_app.png)
+![](attachments/icons_odoo_app.png)
 
 {{ $frontmatter.description }}
 
@@ -24,15 +24,15 @@ Die Verwendung der App erfordert einen Odoo Account. Setze nach Bedarf das [Pass
 
 Laden Sie die App aus dem Geräte-spezifischen App-Store herunter.
 
-![](assets/Odoo%20Mobile%20App%20Appstore.jpg)
+![](attachments/Odoo%20Mobile%20App%20Appstore.jpg)
 
 Öffnen Sie App und geben Sie Odoo Server Url mit Benutzername und Passwort ein.
 
-![](assets/Odoo%20Mobile%20App%20Login.jpg)
+![](attachments/Odoo%20Mobile%20App%20Login.jpg)
 
 Hat das Login funktioniert, sollten Sie diesen Bildschirm sehen:
 
-![](assets/Odoo%20Mobile%20App%20Startbildschirm.jpg)
+![](attachments/Odoo%20Mobile%20App%20Startbildschirm.jpg)
 
 ### Konto wechseln oder neues hinzufügen
 

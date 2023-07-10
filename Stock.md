@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Lager
-![icons_odoo_stock](assets/icons_odoo_stock.png)
+![icons_odoo_stock](attachments/icons_odoo_stock.png)
 
 {{ $frontmatter.description }}
 
@@ -85,7 +85,7 @@ Für Produkte mit Nachverfolgung müssen Sie eine Lot-Nummer auswählen.
 
 Für Produkte in Lots oder Produkte mit Seriennummer könne Sie ein Ablaufdatum festlegen. Öffnen Sie das Produkt via *Lager > Produkte > Produkte* und zeigen Sie den Tab *Lager* an. Unter Lieferfolgung müssen Sie eine Option für *Nachverfolung* auswählen. Nun erscheint die Checkbox *Ablaudatum*. Aktivieren Sie diese und konfigurieren Sie die Ablaufzeiten.
 
-![](assets/Lager%20Ablaufdatum%20konfiguriert.png)
+![](attachments/Lager%20Ablaufdatum%20konfiguriert.png)
 
 ## Vorlaufzeiten
 
@@ -105,13 +105,13 @@ Hier können Sie [Dezimalstellen festlegen](Settings%20Technical.md#Dezimalstell
 
 Die hier gemachten Einstellung haben Einfluss auf die Darstellung der Zahl.
 
-![](assets/Lager%20Wicht%20mit%203%20Kommastellen.png)
+![](attachments/Lager%20Wicht%20mit%203%20Kommastellen.png)
 
 ### Lagerort Lagerschwund mit externer ID ergänzen
 
 Erfassen Sie für das Lagerort *Virtual Locations/Scrap* eine externe ID gemäss [Externe ID erfassen](Development.md#Externe%20ID%20erfassen). Die Definition ist wie folgt:
 
-![](assets/Lager%20Lagerschwund%20externe%20ID.png)
+![](attachments/Lager%20Lagerschwund%20externe%20ID.png)
 
 ## Routen
 
@@ -123,7 +123,7 @@ Aktivieren Sie die Option *Mehrstufige Routen* unter *Einstellungen > Lager > La
 
 Navigieren Sie nach *Lager > Produkte* und wählen Sie ein Produkt aus. Im Tab *Lager* aktivieren Sie die Routen *Einkaufen* und *Auffüllung nach Auftrag (MTO)*.
 
-![](assets/Lager%20Purchase%20to%20Order.png)
+![](attachments/Lager%20Purchase%20to%20Order.png)
 
 ### Produkt für "Make to Order" konfigurieren
 

@@ -8,7 +8,7 @@ prev: ./website-ecommerce
 ---
 
 # Saferpay Payment Gateway
-![](assets/odoo_icons_payment_saferpay.png)
+![](attachments/odoo_icons_payment_saferpay.png)
 
 Zahlungsanbieter für Saferpay (ohne Zahlungstokens).
 

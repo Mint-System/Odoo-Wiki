@@ -7,7 +7,7 @@ tags:
 prev: ./development
 ---
 # Mass Editing
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -26,4 +26,4 @@ Geben Sie im Feld *Name der Aktion* eine für die Aktion passende Bezeichung ein
 Im Dialog der Massenbearbeitung werden für die Felder keine Client-Validierungen durchgeführt. Beispielsweise werden Konfigurationen, die das Feld aufgrund des Status des Objekts nur lesbar machen, ignoriert. 
 :::
 
-![Massenverarbeitung ausführen](assets/Massenverarbeitung%20ausführen.gif)
+![Massenverarbeitung ausführen](attachments/Massenverarbeitung%20ausführen.gif)

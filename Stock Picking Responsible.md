@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Stock Picking Responsible
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.
 
@@ -20,5 +20,5 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 Ist diese Erweiterung installiert, wird die Verantworltiche Person des Verkaufsauftrags beim Bestätigen auf die Lieferung übertragen.
 
-![Stock Picking Responsible](assets/Stock%20Picking%20Responsible.gif)
+![Stock Picking Responsible](attachments/Stock%20Picking%20Responsible.gif)
 

@@ -7,7 +7,7 @@ tags:
 prev: ./finance
 ---
 # Partner Color Codes
-![](assets/odoo_icon_partner_color_codes.png)
+![](attachments/odoo_icon_partner_color_codes.png)
 
 {{ $frontmatter.description }}
 
@@ -27,4 +27,4 @@ Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Contact Color Co
 
 Zeigen Sie die App *Kontakte* an. In der Kanban-Ansicht klicken Sie auf den Platzhalter für die Farbmarkierung auf einer Kontakt-Karte. Fügen Sie im neuen Dialog einen Eintrag hinzu. Wählen Sie eine Farbcode aus und fügen Sie eine Beschreibung hinzu. Speichern Sie die Dialog im Vorgang.
 
-![](assets/Partner%20Color%20Codes.png)
+![](attachments/Partner%20Color%20Codes.png)

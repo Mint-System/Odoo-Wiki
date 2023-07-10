@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Portal
-![](assets/icons_odoo_website_membership.png)
+![](attachments/icons_odoo_website_membership.png)
 
 Kunden mit Odoo verbinden.
 
@@ -16,8 +16,8 @@ Kunden mit Odoo verbinden.
 
 In der Portal-Ansicht klicken Sie auf *Benutzer-Icon > My Account* und anschliessend wählen Sie *Abonnements*.
 
-![](assets/Portal%20My%20Account.png)
+![](attachments/Portal%20My%20Account.png)
 
 Hier werden alle Abonnements aufgelistet, die mit ihrem Account verknüpft sind.
 
-![](assets/Portal%20Abonnements.png)
+![](attachments/Portal%20Abonnements.png)

@@ -7,7 +7,7 @@ tags:
 prev: ./maintenance
 ---
 # Maintenance Equipments Hierarchy
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 

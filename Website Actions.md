@@ -6,7 +6,7 @@ tags:
 prev: ./website
 ---
 # Website Aktionen
-![icons_odoo_website](assets/icons_odoo_website.png)
+![icons_odoo_website](attachments/icons_odoo_website.png)
 
 {{ $frontmatter.description }}
 

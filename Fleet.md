@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Fahrzeugflotte
-![icons_odoo_fleet](assets/icons_odoo_fleet.png)
+![icons_odoo_fleet](attachments/icons_odoo_fleet.png)
 
 {{ $frontmatter.description }}
 

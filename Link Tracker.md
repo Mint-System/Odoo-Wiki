@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Link Tracker
-![icons_odoo_website_partner](assets/icons_odoo_website_partner.png)
+![icons_odoo_website_partner](attachments/icons_odoo_website_partner.png)
 
 {{ $frontmatter.description }}
 

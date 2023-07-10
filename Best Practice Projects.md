@@ -19,6 +19,6 @@ Damit für diese Arbeiten mit dem Verkauf direkt Projektaufgaben angelegt werden
 
 Project Template: Entwicklungsprojekt
 
-![Best Practice Verkaufsauftrag 1](assets/Best%20Practice%20Verkaufsauftrag%201.svg)
+![Best Practice Verkaufsauftrag 1](attachments/Best%20Practice%20Verkaufsauftrag%201.svg)
 
 Mit der Funktion *Bestätigen* wird das Projekt mit den Aufgaben *Marketing-Beratung* und *Engineering* erstellt.

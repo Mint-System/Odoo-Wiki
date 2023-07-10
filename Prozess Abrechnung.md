@@ -9,7 +9,7 @@ prev: ./referenzsystem
 
 ## Rechnung aus Verkauf
 
-![Prozess Abrechnung Standard](assets/Prozess%20Abrechnung%20Rechnung%20aus%20Verkauf.svg)
+![Prozess Abrechnung Standard](attachments/Prozess%20Abrechnung%20Rechnung%20aus%20Verkauf.svg)
 
 ### Prozessschritte
 

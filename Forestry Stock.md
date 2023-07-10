@@ -6,7 +6,7 @@ tags:
 prev: ./forestry-base
 ---
 # Holzwirtschaft Lager
-![icons_odoo_forestry_base](assets/icons_odoo_forestry_base.png)
+![icons_odoo_forestry_base](attachments/icons_odoo_forestry_base.png)
 
 {{ $frontmatter.description }}
 
@@ -29,4 +29,4 @@ Wenn Sie die Zeiterfassungseinträge validieren, wird unter folgenden Bedingunge
 
 Hier ein Bespiel des Prozesses:
 
-![Forestry Stock](assets/Forestry%20Stock.gif)
+![Forestry Stock](attachments/Forestry%20Stock.gif)

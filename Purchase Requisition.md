@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Einkauf Kaufverträge
-![icons_odoo_purchase](assets/icons_odoo_purchase.png)
+![icons_odoo_purchase](attachments/icons_odoo_purchase.png)
 
 {{ $frontmatter.description }}
 
@@ -35,4 +35,4 @@ Navigieren Sie nach *Einkauf > Aufträge > Kaufverträge*.
 
 Legen Sie mit einem Klick auf *Anlegen* einen neuen Kaufvertrag an.
 
-![Einkauf Kaufverträge Kaufvertrag anlegen](assets/Einkauf%20Kaufverträge%20Kaufvertrag%20anlegen.png)
+![Einkauf Kaufverträge Kaufvertrag anlegen](attachments/Einkauf%20Kaufverträge%20Kaufvertrag%20anlegen.png)

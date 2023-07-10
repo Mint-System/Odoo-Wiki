@@ -34,7 +34,7 @@ Es wird angenommen das Unternehmen hat im Jahr 2022 mit einem Eigenkapital von 2
 
 Am Ende des Jahres sieht die Bilanz wie folgt aus:
 
-![](assets/Best%20Practice%20Bilanz1.png)
+![](attachments/Best%20Practice%20Bilanz1.png)
 
 Der Jahresverlust wird aus der Erfolgsrechnung übertragen.
 
@@ -69,7 +69,7 @@ Im neuen Jahr wirder Gewinn/Verlust als Vortrag verbuch.
 
 Der Jahresverlust ist auf 0.00 CHF und das Eigenkapital angepasst.
 
-![](assets/Best%20Practice%20Bilanz2.png)
+![](attachments/Best%20Practice%20Bilanz2.png)
 
 ## Bilanz aktuelles Jahr mit Aufwänden
 
@@ -86,4 +86,4 @@ Verbuchen Sie im neuen Jahr wieder Aufwände:
 
 Werden diese wieder als Jahresgewinn oder Jahresverlust aufgeführt.
 
-![](assets/Best%20Practice%20Bilanz3.png)
+![](attachments/Best%20Practice%20Bilanz3.png)

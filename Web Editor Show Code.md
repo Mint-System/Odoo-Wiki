@@ -7,7 +7,7 @@ tags:
 prev: ./settings
 ---
 # Web Editor Show Code
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/web
 
 Mit dieser Erweiterung wird die Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus angezeigt.
 
-![](assets/Web%20Editor%20Show%20Code.png)
+![](attachments/Web%20Editor%20Show%20Code.png)

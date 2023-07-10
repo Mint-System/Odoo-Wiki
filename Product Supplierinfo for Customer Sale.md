@@ -7,7 +7,7 @@ tags:
 prev: ./finance
 ---
 # Product Supplierinfo for Customer Sale
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 

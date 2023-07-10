@@ -7,7 +7,7 @@ tags:
 prev: ./partner
 ---
 # Partner Contact Location in Name
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 PLZ und Stadt in Kontaktauswahl anzeigen.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/
 
 Mit dieser Erweiterung werden in bestimmten Kontaktauswahlen zusätzlich zum Name die PLZ und Stadt angezeigt. Beispielsweise unter *Verkauf > Angebote > Angebot auswählen*:
 
-![](assets/Partner%20Contact%20Location%20in%20Name.png)
+![](attachments/Partner%20Contact%20Location%20in%20Name.png)

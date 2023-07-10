@@ -17,13 +17,13 @@ Im Unternehmen der Velo Manufaktur AG haben Mitarbeitende 25 Tage Urlaub und arb
 
 Mitchell Admin arbeitet 40%.  Er hat 10 Tage Urlaub im Jahr. Das sind 80 Stunden.
 
-![](assets/Best%20Practice%20Arbeitszeiten%2040.png)
+![](attachments/Best%20Practice%20Arbeitszeiten%2040.png)
 
 **Abigail Peterson 60% Pensum**
 
 Abigail Peterson arbeitet 60%. Sie hat 15 Tage Urlaub im Jahr. Das sind 120 Stunden.
 
-![](assets/Best%20Practice%20Arbeitszeiten%2060.png)
+![](attachments/Best%20Practice%20Arbeitszeiten%2060.png)
 
 **Eingabe Urlaub**
 
@@ -31,11 +31,11 @@ Beide Geben für die erste Mai-Woche Urlaub ein.
 
 Bei Mitchell sind das 2 Arbeitstage bzw. 16 Stunden.
 
-![](assets/Best%20Practice%20Arbeitszeiten%20Urlaub%2016.png)
+![](attachments/Best%20Practice%20Arbeitszeiten%20Urlaub%2016.png)
 
 Bei Abigail sind das 3 Arbeitstage bzw. 24 Stunden.
 
-![](assets/Best%20Practice%20Arbeitszeiten%20Urlaub%2024.png)
+![](attachments/Best%20Practice%20Arbeitszeiten%20Urlaub%2024.png)
 
 Beide Urlaubsanträge wurden genehmigt.
 
@@ -63,7 +63,7 @@ Für Abigail wird angezeigt: Bezahlte Abwesenheit 11 Tage verfügbar.
 
 Das auch falsch, es sollten 12 Tage sein.
 
-![](assets/Best%20Practice%20Abwesenheit%20Berechnung.png)
+![](attachments/Best%20Practice%20Abwesenheit%20Berechnung.png)
 
 Odoo rechnet die verbleibenden Tage falsch.
 

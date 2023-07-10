@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Umfragen
-![icons_odoo_survey](assets/icons_odoo_survey.png)
+![icons_odoo_survey](attachments/icons_odoo_survey.png)
 
 Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
 

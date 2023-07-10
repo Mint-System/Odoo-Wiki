@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # IoT
-![icons_odoo_iot](assets/icons_odoo_iot.png)
+![icons_odoo_iot](attachments/icons_odoo_iot.png)
 
 {{ $frontmatter.description }}
 
@@ -32,7 +32,7 @@ Unter <https://nightly.odoo.com/master/iotbox/iotbox-latest.zip> die Datei `iotb
 
 [Raspberry Pi Imager](https://www.raspberrypi.org/software/) oder [Etcher](https://www.balena.io/etcher/) installieren und die Datei `iotbox.img` auf die SD-Karte laden.
 
-![](assets/IoT%20Raspberry%20Pi%20Image.png)
+![](attachments/IoT%20Raspberry%20Pi%20Image.png)
  
 **Verbindungs-Token abrufen**
 
@@ -44,7 +44,7 @@ Starten Sie die IoT Box und warten Sie ~5 Minuten. In den verfügbaren Netzwerke
  
 Öffnen Sie den folgenden Link <http://10.11.12.1:8069/steps> und starten Sie die Konfiguration der IoT Box.
  
-![](assets/IoT%20Wifi%20Verbindung.png)
+![](attachments/IoT%20Wifi%20Verbindung.png)
 
 ### IoT Box konfigurieren
 
@@ -54,21 +54,21 @@ Den *Raspberry Pi* starten und mit dem IoT Box Netzwerk verbinden. Man wird auf 
 Das zur Verfügung gestellte Token wird für die Identifikation benötigt
 :::
 
-![iot verbindung 1](assets/iot%20verbindung%201.png)
+![iot verbindung 1](attachments/iot%20verbindung%201.png)
 
-![iot verbindung 2](assets/iot%20verbindung%202.png)
+![iot verbindung 2](attachments/iot%20verbindung%202.png)
 
 ::: warning
 Die IoT Box prüft nicht, ob die Wifi-Verbindung aufgebaut werden kann.
 :::
 
-![iot verbindung 3](assets/iot%20verbindung%203.png)
+![iot verbindung 3](attachments/iot%20verbindung%203.png)
 
-![iot verbindung 4](assets/iot%20verbindung%204.png)
+![iot verbindung 4](attachments/iot%20verbindung%204.png)
 
 In Odoo wird die IoT-Box bei erfolgreicher Konfiguration aufgeführt.
 
-![iot verbindung 5](assets/iot%20verbindung%205.png)
+![iot verbindung 5](attachments/iot%20verbindung%205.png)
 
 ## Verknüpfung
 
@@ -80,11 +80,11 @@ Verbinden Sie den Drucker über den USB-Anschluss mit der IoT Box. Öffnen Sie d
 Für diesen Vorgang muss ihr Computer und die IoT Box im selben Netzwerk sein.
 :::
 
-![](assets/IoT%20Box%20Konfigurationsseite.png)
+![](attachments/IoT%20Box%20Konfigurationsseite.png)
 
 Wählen Sie *handlers list* und anschliessen *Load handlers*. Nun werden die verfügbaren Treiber geladen. Ist der Vorgang abgeschlossen, sollte der Drucker erkannt und verbunden werden.
 
-![](assets/IoT%20Gerät%20Drucker.png)
+![](attachments/IoT%20Gerät%20Drucker.png)
 
 ### Bericht für direktes Drucken einrichten
 
@@ -94,8 +94,8 @@ Der Drucker muss im selben Netzwerk wie der Client-Computer sein, damit ein dire
 
 Öffnen Sie den Drucker via *IoT > Geräte > Drucker auswählen > Bearbeiten*. Fügen Sie der Liste *Printer Reports* einen Bericht hinzu und speichern Sie den Vorgang.
 
-![](assets/IoT%20Printer%20Reports.png)
+![](attachments/IoT%20Printer%20Reports.png)
 
 Wenn Sie in Odoo den gewählten Bericht drucken, sollte dieser direkt auf den Drucker via IoT Box umgeleitet werden.
 
-![](assets/IoT%20Erfolgreich%20gesendet.png)
+![](attachments/IoT%20Erfolgreich%20gesendet.png)

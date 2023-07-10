@@ -7,7 +7,7 @@ tags:
 prev: ./purchase
 ---
 # Purchase Order Partner Shipping
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Alternative Lieferadresse für Bestellungen.
 
@@ -20,10 +20,10 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 Mit dieser Erweiterung können Sie auf Bestellung eine alternative Lieferadresse definieren. Zeigen Sie eine Bestellung unter *Einkauf* an und legen Sie im Feld *Lieferadresse* die alternative Lieferadresse fest.
 
-![Purchase Order Partner Shipping](assets/Purchase%20Order%20Partner%20Shipping.gif)
+![Purchase Order Partner Shipping](attachments/Purchase%20Order%20Partner%20Shipping.gif)
 
 ::: warning
 Wird aus einer Bestellung eine Lieferung generiert, so wird die alternative Lieferadesse der Warenhausadresse aus der Lieferung auf den Einkaufs-Berichten vorgezogen.
 
-![](assets/Purchase%20Order%20Partner%20Shipping%20Priority.png)
+![](attachments/Purchase%20Order%20Partner%20Shipping%20Priority.png)
 :::

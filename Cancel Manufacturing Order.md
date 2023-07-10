@@ -7,7 +7,7 @@ tags:
 prev: ./manufacture
 ---
 # Cancel Manufacturing Order
-![](assets/icons_odoo_eq.png)
+![](attachments/icons_odoo_eq.png)
 
 {{ $frontmatter.description }}
 
@@ -21,34 +21,34 @@ Odoo App Store: <https://gitlab.com/mint-system/odoo-app-cancel-manufacturing-or
 
 In den Benutzereinstellungen aktivieren Sie die Option *Cancel Manufacturing Orders*. Benutzer mit dieser Berechtigung können Fertigungsaufträge abbrechen.
 
-![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Berechtigung.png)
+![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Berechtigung.png)
 
 ### Fertigungsauftrag zurücksetzen
 
 Damit ein Fertgigungsauftrag zurückgesetzt werden kann, muss sichergestellt werden, dass die Produkte an Lager sind.
 
-![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Menge.png)
+![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Menge.png)
 
 Der Fertgiungsauftrag muss im Zustand *Erledigt* sein. Dann kann man über den Knopf *Cancel* den Fertigungsauftrag abbrechen.
 
-![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Knopf.png)
+![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Knopf.png)
 
  Entsprechen weden die konsumierten Materialien angepasst.
 
-![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Menge%20aktuaisiert.png)
+![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Menge%20aktuaisiert.png)
 
 Beim Klick auf *Cancel* werden die Lagerbewebung zurückgesetzt und der Fertigungsaufrag wird abgebrochen.
 
 Im Status *Abgebrochen* kann der Fertigungsauftrag in den Entwurfs-Status gesetzt werden.
 
-![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Zur%C3%BCcksetzen.png)
+![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Zurücksetzen.png)
 
 Nach Abbruch des Fertgiungsauftrag werden die Bestände der konsumierten Materialien angepasst.
 
-![](assets/Fertigung%20Fertigungsauftrag%20Abbrechen%20Menge%20konsumiert.png)
+![](attachments/Fertigung%20Fertigungsauftrag%20Abbrechen%20Menge%20konsumiert.png)
 
 Setzt man den Fertgigungsauftrag in den Entwurfsstatus, werden alle Lagerbewebungen und Arbeitsaufträge abgebrochen.
 
-![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Entwurf%20erstellen.png)
+![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Entwurf%20erstellen.png)
 
-![](assets/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Bereit.png)
+![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Bereit.png)

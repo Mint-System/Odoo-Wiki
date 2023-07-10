@@ -7,7 +7,7 @@ tags:
 prev: ./personal
 ---
 # HR Vehicle Request
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,7 +20,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_vehicle_re
 
 Navigieren Sie nach *Personal > Fahrzeuganfrage > Fahrzeuganfrage* und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel:
 
-![](assets/HR%20Vehicle%20Request%20Example.png)
+![](attachments/HR%20Vehicle%20Request%20Example.png)
 
 Versenden Sie die Anfrage mit *Anfrage Senden*.
 
@@ -28,7 +28,7 @@ Versenden Sie die Anfrage mit *Anfrage Senden*.
 
 Navigieren Sie nach *Personal > Fahrzeuganfrage > Fahrzeuganfrage* und filtern Sie die Einträge nach *Warte auf Bestätigung*.
 
-![](assets/HR%20Vehicle%20Request%20Waiting.png)
+![](attachments/HR%20Vehicle%20Request%20Waiting.png)
 
 Öffnen Sie eine Anfrage und validieren Sie diese mit *Bestätigen* oder *Ablehnen*.
 

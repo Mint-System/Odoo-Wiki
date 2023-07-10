@@ -7,7 +7,7 @@ tags:
 prev: ./stock-critical-forecast
 ---
 # Stock Critical Forecast Link Replenish
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Aktionsdatum berücksichtigt aktive Bestandsregeln von Produkten.
 
@@ -18,4 +18,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 Mit dieser Erweiterung werden Bestandsregeln auf Produkten im Bericht *Kritsiche Vorhersage* berücksichtigt. Mit dem entsprechenden Aktion gelangen Sie direkt zur Ansicht *Aufüllen*.
 
-![Stock Critical Forecast Link Replenish](assets/Stock%20Critical%20Forecast%20Link%20Replenish.gif)
+![Stock Critical Forecast Link Replenish](attachments/Stock%20Critical%20Forecast%20Link%20Replenish.gif)

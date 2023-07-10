@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Datenbank
-![icons_odoo_website_version](assets/icons_odoo_website_version.png)
+![icons_odoo_website_version](attachments/icons_odoo_website_version.png)
 
 {{ $frontmatter.description }}
 
@@ -42,7 +42,7 @@ https://www.example.com -> `example`  Das *www* wird ignoriert
 Der Eintrag im Feld Email wird automatisch zum Login des Standard-Benutzers *Administrator*.
 :::
 
-![Einstellungen Benutzer Administrator](assets/Einstellungen%20Benutzer%20Administrator.png)
+![Einstellungen Benutzer Administrator](attachments/Einstellungen%20Benutzer%20Administrator.png)
 
 Drücken Sie den Knopf *Create Database* zum Erstellen der neuen Datenbank.
 Die Funktion "Restore Database" führt Sie zu einem Dialog um eine bestehende Datenbank zu importieren.
@@ -53,15 +53,15 @@ Der Datenbank Manager kann unter der URL https://erp.example.com/web/database/ma
 
 Wählen Sie auf der folgenden Maske die Funktion *Manage Databases*.
 
-![Datenbankmanager Start](assets/Datenbankmanager%20Start.png)
+![Datenbankmanager Start](attachments/Datenbankmanager%20Start.png)
 
 Wählen Sie gemäss der folgenden Darstellung die Funktion *Backup*.
 
-![Datenbankmanager Funktionen](assets/Datenbankmanager%20Funktionen.png)
+![Datenbankmanager Funktionen](attachments/Datenbankmanager%20Funktionen.png)
 
 Im unten dargestellten Dialog ist das *Odoo Master Password* notwendig.
 
-![Datenbankmanager Backup](assets/Datenbankmanager%20Backup.png)
+![Datenbankmanager Backup](attachments/Datenbankmanager%20Backup.png)
 
 Nach der Bestätigung mit dem Knopf *Backup* wird der Inhalt der Datenbank lokal auf dem Computer in eine zip-Datei gespeichert.
 
@@ -71,21 +71,21 @@ Falls eine Datenbank mit einem Backup überschrieben werden soll, muss im nächs
 
 Wählen Sie gemäss der folgenden Darstellung die Funktion *Delete*.
 
-![Datenbankmanager Funktionen](assets/Datenbankmanager%20Funktionen.png)
+![Datenbankmanager Funktionen](attachments/Datenbankmanager%20Funktionen.png)
 
 Im unten dargestellten Dialog ist das *Odoo Master Password* notwendig.
 
-![Datenbankmanager Delete](assets/Datenbankmanager%20Delete.png)
+![Datenbankmanager Delete](attachments/Datenbankmanager%20Delete.png)
 
 Wählen Sie anschliessend die Funktion *Delete*.
 
 Rufen Sie anschliessend die Startseite erneut auf. Es erscheint die folgende Maske:
 
-![Datenbankmanager Restore](assets/Datenbankmanager%20Restore.png)
+![Datenbankmanager Restore](attachments/Datenbankmanager%20Restore.png)
 
 Wählen Sie die Funktion *restore a Database*. Anschliessend erscheint die folgende Auswahl.
 
-![Datenbankmanager Restore Auswahl](assets/Datenbankmanager%20Restore%20Auswahl.png)
+![Datenbankmanager Restore Auswahl](attachments/Datenbankmanager%20Restore%20Auswahl.png)
 
 ::: tip
 Im Feld *Database* muss zwingend der Name der gelöschten Datenbank eingetragen werden.
@@ -97,7 +97,7 @@ Wählen Sie *This database is a copy*. Ansonsten verliert die Installation den L
 
 Mit *Continue* wird der Datenimport durchgeführt. Nach Abschluss des Vorgangs zeigt der Browser die folgende Auswahl:
 
-![Datenbankmanager Funktionen](assets/Datenbankmanager%20Funktionen.png)
+![Datenbankmanager Funktionen](attachments/Datenbankmanager%20Funktionen.png)
 
 Mit einem Klick auf den Namen ihrer Datenbank startet das System mit der Login-Maske.
 
@@ -115,10 +115,10 @@ Damit Sie die Odoo Online Datenbank herunterladen können, öffnen Sie <https://
 
 Öffnen Sie bei der zu exportierenden Datenbank das Kontext-Menü neben dem Datebanknamen. 
 
-![](assets/Datenbankmanager%20Odoo%20Online%20Datebanken.png)
+![](attachments/Datenbankmanager%20Odoo%20Online%20Datebanken.png)
 
 Anschliessend wählen Sie *Herunterladen*.
 
-![](assets/Datenbankmanager%20Odoo%20Online%20Herunterladen.png)
+![](attachments/Datenbankmanager%20Odoo%20Online%20Herunterladen.png)
 
 Der Download-Vorgang kann abhängig von der Datenbankgrösse Zeit in Anspruch nehmen. Als erstes sollte die Datei `UNTERNEHMENSNAME.dump.zip` zum Download angeboten werden. Mit *Speichern* laden Sie die Datei auf den lokalen Computer.

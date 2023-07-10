@@ -21,8 +21,8 @@ Beim Einschalten der Produktvarianten generiert Odoo für alle bestehenden Daten
 
 Ohne Produktvarianten:
 
-![](assets/ir_model_data%20product.product%201.png)
+![](attachments/ir_model_data%20product.product%201.png)
 
 Mit Produktvarianten:
 
-![](assets/ir_model_data%20product.product%202.png)
+![](attachments/ir_model_data%20product.product%202.png)

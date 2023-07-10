@@ -63,4 +63,4 @@ Damit auf der Lohnabrechnung die gearbeiteten Stunden eingetragen werden, muss d
 
 Wenn die Vorlage der Lohnabrechnung angepasst wurde, können Sie Lohnabrechnungen wie die folgende erstellen:
 
-![](assets/Best%20Practice%20Stundenlohn%20abrechnen%20Beispiel.png)
+![](attachments/Best%20Practice%20Stundenlohn%20abrechnen%20Beispiel.png)

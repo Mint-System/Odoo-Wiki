@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Versand
-![icons_odoo_website_sale_delivery](assets/icons_odoo_website_sale_delivery.png)
+![icons_odoo_website_sale_delivery](attachments/icons_odoo_website_sale_delivery.png)
 
 Versandmethoden und Logistik definieren.
 
@@ -37,7 +37,7 @@ Navigieren Sie nach *Verkauf > Konfiguration > Versandmethoden* und erstellen Si
 
 Auf dem Verkaufsauftrag können Sie über den Knopf *Versand Hinzufügen* eine Versandmethode wählen.
 
-![](assets/Verkauf%20Versand%20Versandmethode%20hinzufügen.png)
+![](attachments/Verkauf%20Versand%20Versandmethode%20hinzufügen.png)
 
 Das *Auslieferungsprodukt* wird nun dem Verkaufsauftrag hinzugefügt.
 
@@ -45,7 +45,7 @@ Das *Auslieferungsprodukt* wird nun dem Verkaufsauftrag hinzugefügt.
 
 Damit Sie die Liefer- und Rechnungsadresse explizit festlegen können, muss die Option *Einstellungen > Verkauf > Angebote und Aufträge > Kundenadresse* aktiviert sein.
 
-![](assets/Verkauf%20Rechnung-%20und%20Lieferadresse.png)
+![](attachments/Verkauf%20Rechnung-%20und%20Lieferadresse.png)
 
 ### Anzahl Auslieferungsprodukte festlegen
 
@@ -59,26 +59,26 @@ Damit Sie die Lieferbedingungen auf einem Angebot festlegen können, müssen Sie
 
 Ist diese Bedinung erfüllt können Sie ein Angebot öffnen *Verkauf > Angebot auswählen > Tab Weitere Informationen*. Im Feld *Lieferbedingungen* können Sie die Incoterm festlegen.
 
-![](assets/Verkauf%20Lieferbedingungen.png)
+![](attachments/Verkauf%20Lieferbedingungen.png)
 
 ## Retoure
 
-![](assets/Verkauf%20Versand%20Anzahl%20Auslieferungsprodukte%20festlegen.png)
+![](attachments/Verkauf%20Versand%20Anzahl%20Auslieferungsprodukte%20festlegen.png)
 ### Retoure Auslieferungsprodukt auf Lieferung erfassen
 
 Öffnen Sie eine Lieferung via *Lager > Lieferaufträge* und klicken Sie auf *Rücklieferung*. Entfernen Sie im Dialog die Produkte, welche nicht zurückgeliefert wurde und geben Sie die Menge ein.
 
-![](assets/Verkauf%20Versand%20Rücklieferung.png)
+![](attachments/Verkauf%20Versand%20Rücklieferung.png)
 
 Mit der Bestätigung wird ein neuer Transfer angelegt. Bestätigen Sie diesen Transfer.
 
 Auf dem Verkaufsauftrag wird nun die ausgelieferte Menge zurückgesetzt.
 
-![](assets/Verkauf%20Versand%20Ausgeliefert%20zurückgesetzt.png)
+![](attachments/Verkauf%20Versand%20Ausgeliefert%20zurückgesetzt.png)
 
 Auf den verknüpften Lieferungen des Verkaufsauftrag ist die Retoure ersichtlich.
 
-![](assets/Verkauf%20Versand%20Transfers%20mit%20Retoure.png)
+![](attachments/Verkauf%20Versand%20Transfers%20mit%20Retoure.png)
 
 ### Retoure Auslieferungsprodukt ohne Lieferung erfassen
 
@@ -86,4 +86,4 @@ Das einlagerbare Auslieferungsprodukt muss für diesen Vorgang eine Lager-Route 
 
 Erstellen Sie einen Lagereingang mit der Menge der eingegangen *Auslieferugnsprodukte*.
 
-![](assets/Verkauf%20Versand%20Rückgabe%20Auslieferungsprodukt%20erfassen.png)
+![](attachments/Verkauf%20Versand%20Rückgabe%20Auslieferungsprodukt%20erfassen.png)

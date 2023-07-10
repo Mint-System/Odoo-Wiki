@@ -15,15 +15,15 @@ Wenn Sie die App [Aussendienst](FSM%20Industry.md) aktiviert haben, können Sie 
 
 Die Auslagenprodukte müssen als Verbrauchsartikel erfasst werden.
 
-![](assets/Best%20Practice%20Spesen%20verrechnen%20Aussendienst.png)
+![](attachments/Best%20Practice%20Spesen%20verrechnen%20Aussendienst.png)
 
 Abhängig davon wie Sie die [Fakturierungsregel](Invoicing.md#Fakturierungsregel%20festlegen) der Auslagenprodukte festlegen, wird eine Lieferung zur Erledigung erstellt.
 
-![](assets/Best%20Practice%20Spesen%20verrechnen%20Lieferung.png)
+![](attachments/Best%20Practice%20Spesen%20verrechnen%20Lieferung.png)
 
 Ansonsten werden die Auslagenprodukte dem Verkaufsauftrag hinzugefügt und können verrechnet werden.
 
-![](assets/Best%20Practice%20Spesen%20verrechnen%20Auftrag%20mit%20Menge.png)
+![](attachments/Best%20Practice%20Spesen%20verrechnen%20Auftrag%20mit%20Menge.png)
 
 Vorteile:
 * Einfache Erfassung der Auslagenprodukte
@@ -38,17 +38,17 @@ Damit Mitarbeitende die Spesen auf einem Projekt erfassen können, müssen die A
 
 Dazu ein Beispiel eines Dienstleistungsprojekt:
 
-![](assets/Best%20Practice%20Spesen%20verrechnen%20Auftragszeilen.png)
+![](attachments/Best%20Practice%20Spesen%20verrechnen%20Auftragszeilen.png)
 
 Die einzelnen Auslagenprodukte müssen als *Dienstleistung* konfiguriert sein.
 
 In der Zeiterfassung gilt es die entsprechende Auftragsposition auszuwählen.
 
-![](assets/Best%20Practice%20Spesen%20verrechnen%20Zeiterfassung.png)
+![](attachments/Best%20Practice%20Spesen%20verrechnen%20Zeiterfassung.png)
 
 Die Abrechnung erfolgt wie alle Dienstleistungen.
 
-![](assets/Best%20Practice%20Spesen%20verrechnen%20Rechnung.png)
+![](attachments/Best%20Practice%20Spesen%20verrechnen%20Rechnung.png)
 
 Vorteile:
 * Wie alle Zeitnachweise, können auch die Spesen validiert werden

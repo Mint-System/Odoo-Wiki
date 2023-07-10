@@ -7,7 +7,7 @@ tags:
 prev: ./finance
 ---
 # Account Move Line Contra Accounts
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 Mit dieser Erweiterung wird auf jeder Buchungszeile eine Liste der Gegenkontos aus dem Buchungssatz geführt. Navigieren Sie nach *Finanzen > Finanzen > Buchungszeilen* und öffnen Sie eine Buchungszeile. Im Feld *Gegenkontos* sehen Sie eine Liste der Gegenkontos.
 
-![](assets/Account%20Move%20Line%20Contra%20Accounts.png)
+![](attachments/Account%20Move%20Line%20Contra%20Accounts.png)

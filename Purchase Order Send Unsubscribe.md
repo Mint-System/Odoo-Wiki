@@ -7,7 +7,7 @@ tags:
 prev: ./discuss
 ---
 # Purchase Order Send Unsubscribe
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Alle Abonnenten nach Versenden der Bestellung entfernen.
  

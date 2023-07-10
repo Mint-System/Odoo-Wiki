@@ -7,7 +7,7 @@ tags:
 prev: ./finance
 ---
 # Account Move Line Link Pickings
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,13 +20,13 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 Mit dieser Erweiterung werden Lieferungen mit der Rechnungszeile verlinkt.
 
-![](assets/Account%20Move%20Line%20Link%20Pickings.png)
+![](attachments/Account%20Move%20Line%20Link%20Pickings.png)
 
 ### Sammelrechnung erstellen
 
 Mit dem Snippet <https://odoo.build/snippets/account.html#group-by-pickings> und dieser Erweiterung können Sie Sammelrechnungen generieren.
 
-![](assets/Account%20Move%20Line%20Link%20Pickings%20Sammelrechnung.png)
+![](attachments/Account%20Move%20Line%20Link%20Pickings%20Sammelrechnung.png)
 
 Für die Implementation müssen Sie Folgendes berücksichtigen:
 * [Snippet hinzufügen](Development%20Snippets.md#Snippet%20hinzufügen)

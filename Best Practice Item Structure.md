@@ -14,4 +14,4 @@ Ein Produkt (Item) besteht aus 0-n Unterprodukten. Jedes kann produziert (Make I
 
 Beispiel:
 
-![Best Practice Item Structure](assets/Best%20Practice%20Item%20Structure.svg)
+![Best Practice Item Structure](attachments/Best%20Practice%20Item%20Structure.svg)

@@ -7,7 +7,7 @@ tags:
 prev: ./discuss
 ---
 # Mail No Autofollow
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
  
@@ -26,8 +26,8 @@ Mit dieser Erweiterungen werden die Empfänger beim Erstellen einer Nachricht ni
 
 Vorher:
 
-![](assets/Mail%20No%20Autofollow%20Before.png)
+![](attachments/Mail%20No%20Autofollow%20Before.png)
 
 Nachher:
 
-![](assets/Mail%20No%20Autofollow%20After.png)
+![](attachments/Mail%20No%20Autofollow%20After.png)

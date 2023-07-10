@@ -7,7 +7,7 @@ tags:
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Contact Person
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Kontaktperson auf Rahmenauftrag festlegen. 
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Öffnen Sie *Verkauf > Aufträge > Rahmenaufträge* und wählen Sie einen Rahmenauftrag aus. Im Feld *Contact Person* können Sie einen bliegen Kontakt als Kontaktperson festlegen.
 
-![](assets/Sale%20Blanket%20Order%20Contact%20Person.png)
+![](attachments/Sale%20Blanket%20Order%20Contact%20Person.png)

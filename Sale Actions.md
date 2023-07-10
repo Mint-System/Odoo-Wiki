@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Verkauf Aktionen
-![icons_odoo_sale](assets/icons_odoo_sale.png)
+![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
 Arbeitsflüsse in Verkauf automatisieren.
 

@@ -9,7 +9,7 @@ prev: ./referenzsystem
 
 ## Standard
 
-![Prozess Versand Standard](assets/Prozess%20Versand%20Standard.svg)
+![Prozess Versand Standard](attachments/Prozess%20Versand%20Standard.svg)
 
 ### Prozesschritte
 

@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Lager Vorgänge
-![icons_odoo_stock](assets/icons_odoo_stock.png)
+![icons_odoo_stock](attachments/icons_odoo_stock.png)
 
 {{ $frontmatter.description }}
 
@@ -24,7 +24,7 @@ Wenn in den Einstellungen für das Lager die Option *Mehrstufige Routen* eingesc
 
 Die Option *Mehrere Lagerorte* wird automatisch eingeschaltet und es erscheinen im Menu die neuen Funktion *Lagerorte* und *Regeln*.
 
-![](assets/Lager%20Erweitertes%20Menu.png)
+![](attachments/Lager%20Erweitertes%20Menu.png)
 
 ### Vorgangstyp für Retouren definieren
 
@@ -36,7 +36,7 @@ Die Option *Mehrere Lagerorte* wird automatisch eingeschaltet und es erscheinen 
 
 Mit *Aufstocken* werden Produkte an Lager gelegt. Für die Produkte bestehenden unterschiedliche Vorgänge wie diese ins Lager gelanden. Zum Aufstocken öffnen Sie *Lager > Produkte > Produkte* und öffnen ein Produkt. Wählen Sie nun *Aufstocken*.
 
-![](assets/Lager%20Produkt%20aufstocken.png)
+![](attachments/Lager%20Produkt%20aufstocken.png)
 
 Geben Sie die Menge ein und wählen Sie *Bestätigen*. Nun wird entsprechend der Einstellung im Tab *Lager* des Produkts ein Transfer angelegt.
 
@@ -44,7 +44,7 @@ Geben Sie die Menge ein und wählen Sie *Bestätigen*. Nun wird entsprechend der
 
 Wurde ein Transfer einmal erledigt, kann er nicht mehr bearbeitet werden. Jedoch können Sie diesen *Entsperren* um bestimmte Felder zu ändern.
 
-![Lager Transfer entsperren](assets/Lager%20Transfer%20entsperren.gif)
+![Lager Transfer entsperren](attachments/Lager%20Transfer%20entsperren.gif)
 
 ### Erledigte Menge korrigieren
 
@@ -76,13 +76,13 @@ Rufen Sie die Ansicht der Routen auf *Lager > Konfiguration > Routen* und wähle
 
 Navigieren Sie nach *Lager > Konfiguration > Route* und Route *Fertigung* auswählen. Im Abschnitt *Regel* wählen Sie die bestehende Regel *Einkaufen* oder *Fertigung*. Im Feld *Weitergabe Beschaffungsgruppe* legen Sie *Weitergeben* fest.
 
-![](assets/Lager%20Vorgänge%20Weitergabe%20Beschaffungsgruppe.png)
+![](attachments/Lager%20Vorgänge%20Weitergabe%20Beschaffungsgruppe.png)
 
 ### Bestand beim Einkauf ignorieren
 
 Wenn Sie beim Einkauf das Lager nicht berücksichtigen wollen. Müssen Sie auf der Route *Auffüllung nach Auftrag (MTO)* die Beschaffungsregel anpassen:
 
-![Lager Vorgänge Stock ignorieren](assets/Lager%20Vorgänge%20Stock%20ignorieren.gif)
+![Lager Vorgänge Stock ignorieren](attachments/Lager%20Vorgänge%20Stock%20ignorieren.gif)
 
 ### Bestand bei Fertigung ignorieren
 
@@ -94,4 +94,4 @@ Wenn Sie bei Fertigung das Lager nicht berücksichtigen wollen. Müssen Sie auf 
 
 Navigieren Sie nach *Einstellungen > Lager > Vorgänge*. Wählen Sie hier die Option *Manuell oder auf Basis eines automatisierten Zeitplans*.
 
-![](assets/Lager%20Vorgänge%20Reservierung.png)
+![](attachments/Lager%20Vorgänge%20Reservierung.png)

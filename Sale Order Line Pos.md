@@ -7,7 +7,7 @@ tags:
 prev: ./order-positions
 ---
 # Sale Order Line Po
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Verkaufsaufträge mit Positionsnummern. 
 
@@ -22,10 +22,10 @@ Gilt bis #Odoo14 .
 
 Die Positionsnummern auf einem Verkausauftrag werden mit dieser Erweiterung automatisch generiert.
 
-![](assets/Sale%20Order%20Line%20Position%20Pos%20auf%20Auftrag.png)
+![](attachments/Sale%20Order%20Line%20Position%20Pos%20auf%20Auftrag.png)
 
 ### Positionsnummer anzeigen
 
 Unter <https://odoo.build/snippets> finden Sie Snippets mit der Bezeichnung *Get Postition*, beispielsweise <https://odoo.build/snippets/purchase.html#get-position>. Verwenden Sie diese Snippets um auf Berichten, die Positionsnummer aus Verkaus-, Einkaufs- und Fertigungsaufträgen anzuzeigen.
 
-![](assets/Snippets%20Positionsnummer%20anzeigen.png)
+![](attachments/Snippets%20Positionsnummer%20anzeigen.png)

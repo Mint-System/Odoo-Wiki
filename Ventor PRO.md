@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Ventor PRO
-![](assets/odoo_icon_ventor.png)
+![](attachments/odoo_icon_ventor.png)
 
 {{ $frontmatter.description }}
 
@@ -24,4 +24,4 @@ Wenn Sie in einem Transfer mehr liefern möchten, als die angegebene Menge navig
 
 Öffnen Sie die App und klicken Sie auf *Lagerbetrieb*. Wählen Sie *Interne Transfers* und klicken Sie auf den gewünschten Transfer oder scannen Sie den Bacorde des Transfers.
 
-![](assets/Ventor%20PRO%20start.png)
+![](attachments/Ventor%20PRO%20start.png)

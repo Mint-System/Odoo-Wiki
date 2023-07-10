@@ -6,7 +6,7 @@ tags:
 prev: ./finance
 ---
 # Finanzen Berichte
-![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
+![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}
 
@@ -36,7 +36,7 @@ Ein Jahresauszug einer Buchhaltung kann mehrere hundert Seiten produzieren. Beim
 
 Öffnen Sie *Finanzen > Finanzen > Hauptbuch*. Hier sehen Sie gemäss Kontenplan die Spalten *Soll*, *Haben* und *Saldo*. Filtern Sie die Angaben nach Konten und Buchungsdatum um die gewünschte Periode anzuzeigen
 
-![](assets/Finanzen%20Berichte%20Saldenliste.png)
+![](attachments/Finanzen%20Berichte%20Saldenliste.png)
 
 :::
 Das Feld *Cumulated Balance* kumuliert fortlaufend das Saldo. Sie können das Feld über das Kontext-Menü ein- und ausblenden.
@@ -46,7 +46,7 @@ Das Feld *Cumulated Balance* kumuliert fortlaufend das Saldo. Sie können das Fe
 
 Alle Buchungszeilen können Sie als Pivot auswerten. Wenn Sie eine beispielsweise eine Saldenliste generieren möchten, gehen Sie wie folgt vor:
 
-![Finanzen Saldenliste erstellen](assets/Finanzen%20Saldenliste%20erstellen.gif)
+![Finanzen Saldenliste erstellen](attachments/Finanzen%20Saldenliste%20erstellen.gif)
 
 ### Bilanz anzeigen
 
@@ -60,13 +60,13 @@ Klicken Sie auf *Finanzen > Berichtswesen > Schweiz > Erfolgsrechnung*.
 
 Angenommen Sie möchten einen bestimmten Konten-Bereich, beispielsweise von 1500 bis 2000, anzeigen, müssen Sie *Finanzen > Finanzen > Hauptbericht* anwählen. Hier können Sie das Feld *Konto Root* entsprechen den gewählten Bereichen filtern.
 
-![](assets/Finanzen%20Berichte%20Hauptbuch%20Bereich.png)
+![](attachments/Finanzen%20Berichte%20Hauptbuch%20Bereich.png)
 
 ### Buchungszeilen mit Gegenkonto anzeigen
 
 Eine Buchungszeile enthählt immer noch nur ein Konto. Der Buchungssatz kann mehrere Buchungszeilen enthalten. Wenn Sie eine Aufstellung der Buchungszeilen mit Gegenkonto sehen möchten, aktivieren Sie den Entwicklermodus und wählen *Finanzen > Finanzen > Buchungszeilen*. Filtern Sie die Buchungszeilen nach einem bestimmten Journal und gruppieren Sie nach *Buchungssatz*.
 
-![](assets/Finanzen%20Berichte%20Buchungszeilen%20mit%20Gegenkonto%20anzeigen.png)
+![](attachments/Finanzen%20Berichte%20Buchungszeilen%20mit%20Gegenkonto%20anzeigen.png)
 
 ## Mehrwertsteuer
 
@@ -77,7 +77,7 @@ Klicken Sie auf *Finanzen > Berichtswesen > Prüfungsberichte > Umstatzsteuerber
 :::tip
 Wenn Sie die Ausgaben des Umsatzsteuerberichts prüfen, müssen Sie beachten, dass die Buchungszeilen gefiltert werden müssen, damit der korrekte Nettobetrag erscheint.
 
-![Finanzen Berichte Umsatzsteuerbericht Prüfen](assets/Finanzen%20Berichte%20Umsatzsteuerbericht%20Prüfen.gif)
+![Finanzen Berichte Umsatzsteuerbericht Prüfen](attachments/Finanzen%20Berichte%20Umsatzsteuerbericht%20Prüfen.gif)
 :::
 
 Der Umsatzsteuerbericht wird in regelmässigen Abständen generiert. Die Einstellung dazu finden Sie unter *Einstellungen > Finanzen > Steuern > regelmässige Steuernrückzahlungen*.
@@ -90,13 +90,13 @@ Zeigen Sie *Finanzen > Finanzen > Buchungssätze* an und wählen Sie *Gruppieren
 
 Zeigen Sie *Finanzen > Finanzen > Buchungssätze* an und filtern Sie wie folgt um alle Buchungssätze des ersten Quartals mit einem Steuerbetrag anzuzeigen.
 
-![](assets/Finanzen%20Berichte%20Steuerbare%20Buchungssätze.png)
+![](attachments/Finanzen%20Berichte%20Steuerbare%20Buchungssätze.png)
 
 ### Buchungszeilen aus Umsatzsteuerbericht anzeigen
 
 Möchten Sie die Buchungszeilen des Umsatzsteuerberichts anzeigen, öffnen Sie *Finanzen > Finanzen > Buchungszeilen* und filtern die Einträge wie folgt:
 
-![](assets/Finanzen%20Berichte%20Umsatzsteuer%20Buchungszeilen.png)
+![](attachments/Finanzen%20Berichte%20Umsatzsteuer%20Buchungszeilen.png)
 
 ## Mahnwesen
 
@@ -114,7 +114,7 @@ Die geplante Aktion *Follow-up des Kontoberichts; Follow-up durchführen* löst 
 
 Sie finden eine Aufstellung der Mahnungen via *Finanzen > Kunden > Mahnberichte*.
 
-![](assets/Finanzen%20Berichte%20Mahnberichte.png)
+![](attachments/Finanzen%20Berichte%20Mahnberichte.png)
 
 ::: warning
 Wenn Sie einen Mahbericht öffnen, befinden Sie sich technisch auf einem Kontakt-Eintrag. Nachrichten, die mit der Ansicht Mahnbericht versendet werden, werdem auf dem Kontakt-Eintrag registriert. Prüfen Sie vor dem Versand der Nachricht, ob die Abonnenten auf dem Kontakt-Eintrag korrekt sind.
@@ -126,7 +126,7 @@ Wenn Sie einen Mahbericht öffnen, befinden Sie sich technisch auf einem Kontakt
 
 Mit dem Bericht *Finanzen > Berichtswesen > Überfällige Forderungen* können Sie für einen oder mehrere Kunden die offenen Debitoren anzeigen lassen.
 
-![](assets/Finanzen%20Berichte%20Forderunen.png)
+![](attachments/Finanzen%20Berichte%20Forderunen.png)
 
 ::: tip
 Mit dem Datumsfilter können Sie die Forderungen zu einem bestimmten Zeitpunkt, beispielsweise Ende letztes Geschäftsjahr, anzeigen lassen.
@@ -148,13 +148,13 @@ Mit dem Datumsfilter können Sie die Verbindlichkeiten zu einem bestimmten Zeitp
 
 Klicken Sie auf *Finanzen* und wählen Sie ein Bank-Journal aus. Klicken Sie auf das Kontext-Menü und wählen Sie *Offne-Posten Ausgleichsbericht*.
 
-![](assets/Finanzen%20Berichte%20Ausgleichsbericht.png)
+![](attachments/Finanzen%20Berichte%20Ausgleichsbericht.png)
 
 Hier werden nicht abgeglichene Bank-Zahlungen und Belege angezeigt.
 
 Oberhalb des Berichts kann diese Meldung erscheinen:
 
-![](assets/Finanzen%20Berichte%20Balance%20Off.png)
+![](attachments/Finanzen%20Berichte%20Balance%20Off.png)
 
 Klicken Sie *journal items* um die Buchungen anzuzeigen.
 
@@ -162,11 +162,11 @@ Klicken Sie *journal items* um die Buchungen anzuzeigen.
 
 Auf Banken- und Kassenjournalen werden Bankauszüge und Belege abgebildet. Wählen Sie ein Journal auf der Übersicht *Finanzen* aus und drücken Sie auf Kontextmenü und wählen Sie *Belege*.
 
-![](assets/Finanzen%20Berichte%20Belege.png)
+![](attachments/Finanzen%20Berichte%20Belege.png)
 
 Markieren Sie die Belge und wählen Sie *Drucken > Beleg*.
 
-![](assets/Finanzen%20Berichte%20Beleg%20drucken.png)
+![](attachments/Finanzen%20Berichte%20Beleg%20drucken.png)
 
 Auf der Bericht werden alle Belge mit den einzelnen Transaktionen aufgelistet.
 
@@ -176,7 +176,7 @@ Auf der Bericht werden alle Belge mit den einzelnen Transaktionen aufgelistet.
 
 Alle Anlagen und Abschreibungen können Sie unter *Finanzen > Berichtswesen > Abschreibungszeitplan* anzeigen.
 
-![](assets/Finanzen%20Berichte%20Abschreibungszeitplan.png)
+![](attachments/Finanzen%20Berichte%20Abschreibungszeitplan.png)
 
 ## Budget
 
@@ -184,4 +184,4 @@ Alle Anlagen und Abschreibungen können Sie unter *Finanzen > Berichtswesen > Ab
 
 Navigieren Sie nach *Finanzen > Berichtswesen > Budgetanalyse*. Entfernen Sie die Filter und Gruppieren Sie die Einträge nach *Budgetposition*.
 
-![](assets/Finanzen%20Berichte%20Budgetanalyse.png)
+![](attachments/Finanzen%20Berichte%20Budgetanalyse.png)

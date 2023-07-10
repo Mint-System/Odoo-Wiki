@@ -6,7 +6,7 @@ tags:
 prev: ./project
 ---
 # Projekt Aktionen
-![icons_odoo_project](assets/icons_odoo_project.png)
+![icons_odoo_project](attachments/icons_odoo_project.png)
 
 Aktionen für Projekt App einrichten.
 
@@ -116,4 +116,4 @@ if new_menus:
 
 Legen Sie den Wert für `parent_menu_id` fest. Damit bestimmen Sie unter welchem Menüpunkt die Projektmenüs erscheinen sollen.
 
-![Projekt Projektmenu aktualisieren](assets/Projekt%20Projektmenu%20aktualisieren.gif)
+![Projekt Projektmenu aktualisieren](attachments/Projekt%20Projektmenu%20aktualisieren.gif)

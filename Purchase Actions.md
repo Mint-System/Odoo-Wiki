@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Einkauf Aktionen
-![icons_odoo_purchase](assets/icons_odoo_purchase.png)
+![icons_odoo_purchase](attachments/icons_odoo_purchase.png)
 
 {{ $frontmatter.description }}
 

@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # PLM
-![icons_odoo_mrp_plm](assets/icons_odoo_mrp_plm.png)
+![icons_odoo_mrp_plm](attachments/icons_odoo_mrp_plm.png)
 
 Management des Produktlebenszyklus für moderne Firmen.
 
@@ -20,7 +20,7 @@ Um einen ECO-Type zu erfassen navigieren Sie nach *PLM > Konfiguration > ECO-Typ
 
 Damit die Prozess-Stufen beim Auswahl des Types dargestellt wird, navigieren Sie nach *Konfiguration > ECO-Stufen* und klicken auf *+ Anlegen*.
 
-![](assets/PLM%20ECO-Stufe%20erfassen.png)
+![](attachments/PLM%20ECO-Stufe%20erfassen.png)
 
 Wählen Sie den Typen aus und legen die Optionen fest.
 
@@ -32,6 +32,6 @@ Wählen Sie den Typen aus und legen die Optionen fest.
 
 Klicken Sie auf *PLM > Änderungen > + Anlegen*.
 
-![](assets/PLM%20%C3%84nderungsauftrag%20erfassen.gif)
+![](attachments/PLM%20Änderungsauftrag%20erfassen.gif)
 
 Wählen Sie *Neue Revision starten*.

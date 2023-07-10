@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Fertigung
-![icons_odoo_mrp](assets/icons_odoo_mrp.png)
+![icons_odoo_mrp](attachments/icons_odoo_mrp.png)
 
 {{ $frontmatter.description }}
 
@@ -65,7 +65,7 @@ Mit dem Erstellen eines Fertigungsauftrags werden die Komponenten der Stücklist
 
 Die Server Aktion *Reload BoM* wird gemäss Beschreibung [Reload BoM](Manufacture%20Actions.md#Reload%20BoM) erstellt. Anschliessend kann über den Menupunkt *Reload BoM* die BoM jederzeit neu geladen werden.
 
-![Fertigung Reload BoM](assets/Fertigung%20Reload%20BoM.png)
+![Fertigung Reload BoM](attachments/Fertigung%20Reload%20BoM.png)
 
 ::: tip
 Falls eine Stückliste leer ist (keine Komponenten) erscheint ein über MTO automatisch generierter Fertigungsauftrag im Status *Entwurf*. Falls die Stückliste Komponenten enthält, dann erscheint er im Status *Bestätigt*.
@@ -87,7 +87,7 @@ In der Zeile *Tatsächliche* sehen Sie die nachgefragte Menge. Geben Sie in der 
 
 Für das Komponenten-Produkt wird nun der *prognostizierter indirekter Bedarf* berechnet. Erstellen Sie für dieses Produkt ebenfalls einen Vorschlag.
 
-![](assets/Hauptproduktionszeitplan.png)
+![](attachments/Hauptproduktionszeitplan.png)
 
 Wählen Sie für jedes Produkt *Aufstocken* um einen Auftrag gemäss hinterlegter Route zu erstellen.
 
@@ -100,5 +100,5 @@ Aktivieren Sie die Option *Mehrstufige Routen* unter *Einstellungen > Lager > La
 ::: tip
 Damit die mehrstufige Fertigungs-Route direkt den Produkten zugewiesen werden kann, aktivieren Sie die Auswahlmöglichkeit auf der Route.
 
-![](assets/Fertigung%20Lager%20Auswahlmöglichkeit.png)
+![](attachments/Fertigung%20Lager%20Auswahlmöglichkeit.png)
 :::

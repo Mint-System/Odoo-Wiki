@@ -7,7 +7,7 @@ tags:
 prev: ./development
 ---
 # Web Timeline
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -71,7 +71,7 @@ Den `view_mode` mit `timeline` bei diesen Fenster-Aktionen `ir.actions.act_windo
 
 Das Resultat sieht etwa so aus:
 
-![](assets/Web%20Timeline%20Kalender.png)
+![](attachments/Web%20Timeline%20Kalender.png)
 
 ## Timeline für Kalender anzeigen
 

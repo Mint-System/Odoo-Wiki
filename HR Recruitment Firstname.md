@@ -7,7 +7,7 @@ tags:
 prev: ./hr-recruitment
 ---
 # HR Recruitment Firstname
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -22,11 +22,11 @@ Ist diese Erweiterung installiert, wird auf dem Bewerbungsformular und der Backe
 
 Die Ansicht auf der Website:
 
-![](assets/HR%20Recruitment%20Firstname%20Website.png)
+![](attachments/HR%20Recruitment%20Firstname%20Website.png)
 
 Die Ansicht im Backend:
 
-![](assets/HR%20Recruitment%20Firstname%20Backend.png)
+![](attachments/HR%20Recruitment%20Firstname%20Backend.png)
 
 ::: tip
 Die neuen Felder können Sie in der E-Mail-Vorlage mit dem Platzhalter `${object.firstname}` und `${object.lastname}` verwenden.

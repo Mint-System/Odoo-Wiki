@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Studio
-![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)
+![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.
 
@@ -22,7 +22,7 @@ Website: <https://www.odoo.com/de_DE/app/studio>
 
 Jede Änderung mit Odoo Studio an einer Odoo-Instanz muss dokumentiert werden. Die Entwickler von Odoo haben dafür die Menu-Option *Notizen* hinzugefügt.
 
-![Studio Anpassungen dokumentieren](assets/Studio%20Anpassungen%20dokumentieren.gif)
+![Studio Anpassungen dokumentieren](attachments/Studio%20Anpassungen%20dokumentieren.gif)
 
 ## Datenmodelle
 
@@ -40,15 +40,15 @@ Bestimmte Felder und Buttons werden nur im Entwicklermodus also mit den erweiter
 
 Dazu ein Beispiel: Ein Arbeitsauftrag ist in Arbeit und bereits Bestände produziert, die man verbuchen kann.
 
-![](assets/Studio%20Feld%20nicht%20angezeigt.png)
+![](attachments/Studio%20Feld%20nicht%20angezeigt.png)
 
 Nur im Entwicklermodus wird die entsprechende Aktion angezeigt:
 
-![](assets/Studio%20Feld%20angzeigt.png)
+![](attachments/Studio%20Feld%20angzeigt.png)
 
 Damit dieser Button standardmässig angzeigt wird, geht man wie folgt vor:
 
-![Studio Berechtigungen auf verstecktem Feld festlegen](assets/Studio%20Berechtigungen%20auf%20verstecktem%20Feld%20festlegen.gif)
+![Studio Berechtigungen auf verstecktem Feld festlegen](attachments/Studio%20Berechtigungen%20auf%20verstecktem%20Feld%20festlegen.gif)
 
 ## Ansichten
 
@@ -66,17 +66,17 @@ Angenommen der Bericht zum prognostizierten Lagerbestand *Lager > Berichtswesen 
 
 Öffnen Sie den Bericht in Odoo Studio. In der Adressleite finden Sie diesen Parameter `model=report.stock.quantity`. Das sagt ihnen auf welchen Datenmodell Sie mit Odoo Studio arbeiten. Klicken Sie auf *Ansichten*, wählen *Privot* und klicken *Ansicht aktivieren*.
 
-![](assets/Studio%20Ansicht%20aktivieren.png)
+![](attachments/Studio%20Ansicht%20aktivieren.png)
 
 Schliessen Sie die Bearbeitung mit *Abschliessen* ab. Nun sehen Sie unter dem Suchfeld die Ansicht.
 
-![](assets/Studio%20Neue%20Ansicht.png)
+![](attachments/Studio%20Neue%20Ansicht.png)
 
 ### Ansicht als Standard definieren
 
 Beim Aufruf einer App oder eines Menu ruft Odoo die dazugehörige Standardansicht auf. Öffnen Sie beispielsweise die App Kontakte, erscheinen die Kontakte in der Listenansicht. Um dies zu ändern öffnen Sie die aktive Ansicht im Odoo Studio und wählen *Ansichten*.
 
-![](assets/Studio%20Standardansicht%20festlegen.png)
+![](attachments/Studio%20Standardansicht%20festlegen.png)
 
 Wählen Sie die neue Standardansicht an und klicken auf das Menu und auf *Als Standard setzen*. Schliessen Sie den Vorgang ab.
 
@@ -94,4 +94,4 @@ Eine App erstellt mit Odoo Studio generiert im Hintergrund Menüeinträge, Daten
 
 Wenn Sie ein Gleitkommazahl-Feld erstellen und in einer Ansicht einfügten, zeigt Odoo nur 2 Stellen nach dem Komma an. Damit mehr Stellen sichtbar werden, müssen Sie die XML-Struktur der Ansicht wie folgt anpassen.
 
-![Studio Dezimalstellen festlegen](assets/Studio%20Dezimalstellen%20festlegen.gif)
+![Studio Dezimalstellen festlegen](attachments/Studio%20Dezimalstellen%20festlegen.gif)

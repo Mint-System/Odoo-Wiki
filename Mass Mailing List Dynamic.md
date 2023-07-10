@@ -7,7 +7,7 @@ tags:
 prev: ./mass-mailing
 ---
 # Dynamic Mass Mailing Lists
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -27,7 +27,7 @@ Navigieren Sie nach *E-Mail-Marketing > Mailinglisten > Mailinglisten* und erste
 ```
 
 
-![](assets/Mass%20Mailing%20List%20Dynamic.png)
+![](attachments/Mass%20Mailing%20List%20Dynamic.png)
 
 ### Mailingliste synchronisieren
 

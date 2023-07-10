@@ -7,7 +7,7 @@ tags:
 prev: ./discuss
 ---
 # Sale Order Unsubscribe
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Alle Abonnenten nach Bestätigung des Angebots entfernen.
  
@@ -20,7 +20,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/sale_orde
 
 Mit dieser Erweiterung werden beim Bestätigen eines Angebots alle Abonnenten bis auf die Verkaufsperson entfernt.
 
-![](assets/Sale%20Order%20Unsubscribe.png)
+![](attachments/Sale%20Order%20Unsubscribe.png)
 
 ### Alle Abonnenten entfernen
 

@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Persönliche Einstellungen
-![icons_odoo_membership](assets/icons_odoo_membership.png)
+![icons_odoo_membership](attachments/icons_odoo_membership.png)
 
 {{ $frontmatter.description }}
 
@@ -29,7 +29,7 @@ Klicken Sie oben rechts auf ihen Benutzer und wählen Sie *Einstellungen*. Öffn
 
 Mit Odoo können Sie E-Mails verschicken. Wie in Mail-Programmen können Sie eine E-Mail-Signatur hinterlegen. Klicken Sie oben rechts auf ihren Benutzernamen und wählen Sie *Einstellungen* oder *Profil*. Im Feld *E-mail Signatur* können Sie eine Signatur definieren.
 
-![](assets/Persönliche%20Einstellungen%20Signatur.png)
+![](attachments/Persönliche%20Einstellungen%20Signatur.png)
 
 ## Benachrichtigung
 
@@ -37,7 +37,7 @@ Mit Odoo können Sie E-Mails verschicken. Wie in Mail-Programmen können Sie ein
 
 Odoo benachrichtigt Odoo-Benutzer entweder via E-Mail oder über den Odoo-Chat. Sie können den bevorzugten Kanal einstellen indem Sie oben rechts auf ihren Namen klicken und dann *Einstellungen / Mein Profil > Tab Einstellungen* wählen. Im Feld *Benachrichtigung* können Sie die Einstellung festlegen.
 
-![](assets/Persönliche%20Einstellungen%20Benachrichtigung.png)
+![](attachments/Persönliche%20Einstellungen%20Benachrichtigung.png)
 
 ::: warning
 Auch wenn die Benachrichtigung ohne E-Mail erfolgt, braucht der Benutzer einen Eintrag im Feld *E-Mail*.

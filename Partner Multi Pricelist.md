@@ -7,7 +7,7 @@ tags:
 prev: ./partner
 ---
 # Partner Multi Pricelist
-![](assets/icon_oms_box.png)
+![](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 

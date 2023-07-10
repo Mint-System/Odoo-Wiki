@@ -7,7 +7,7 @@ tags:
 prev: ./finance
 ---
 # Account Journal Items Report
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,7 +20,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 Navigieren Sie nach *Finanzen > Finanzen > Buchungszeilen*. Markieren Sie die alle Buchungszeilen, welche auf dem Bericht *Kontoauszug* erscheinen sollen. Wählen Sie *Drucken > Kontoauszug* um die PDF-Datei zu erstellen.
 
-![](assets/Account%20Journal%20Items%20Report%20Beispiel.png)
+![](attachments/Account%20Journal%20Items%20Report%20Beispiel.png)
 
 ::: warning
 Die Erstellung des Berichts für 7500 Buchungszeilen dauert ~60 Sekunden.

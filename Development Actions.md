@@ -7,7 +7,7 @@ tags:
 prev: ./development
 ---
 # Entwicklung Aktionen
-![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)
+![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 {{ $frontmatter.description }}
 
@@ -34,19 +34,19 @@ Nummernfolge: `3`
 
 Nachdem der Browser aktualisiert haben Sie Zugriff auf das neue Menü und Ansicht.
 
-![](assets/Aktionen%20neue%20Ansicht.png)
+![](attachments/Aktionen%20neue%20Ansicht.png)
 
 ### Ansicht einer Aktion hinzufügen
 
 Wenn eine [Aktion bearbeiten](#Aktion%20bearbeiten), können Sie die verfügbaren Ansichtstypen im Feld *Ansichtmodus* festlegen. Ebenfalls können Sie steuern welche Ansicht abhängig vom Type aufgerufen werden. Auf der selben Bearbeitungsansicht können Sie unter *Ansichten* eine Liste bearbeiten.
 
-![](assets/Entwicklung%20Aktionen%20Ansichten.png)
+![](attachments/Entwicklung%20Aktionen%20Ansichten.png)
 
 ### Fenstername umbennen
 
 Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach *Eisntellungen > Technisch > Aktionen > Fesnter öffnen/schliessen ...*. Suchen Sie im Feld *Name der Aktion* nach dem Fensternamen und passen Sie den Namen an.
 
-![Einstellungen Fenster umbennen](assets/Einstellungen%20Fenster%20umbennen.gif)
+![Einstellungen Fenster umbennen](attachments/Einstellungen%20Fenster%20umbennen.gif)
 
 ## Entwicklung
 
@@ -167,7 +167,7 @@ Wobei `$ID` der notierten *ID* der Serveraktion entspricht.
 
 Mit diesem Knopf können Sie den E-Mail-Dialog öffnen.
 
-![Entwicklung Aktionen Compose E-Mail](assets/Entwicklung%20Aktionen%20Compose%20E-Mail.gif)
+![Entwicklung Aktionen Compose E-Mail](attachments/Entwicklung%20Aktionen%20Compose%20E-Mail.gif)
 
 ## Automatische Aktionen
 
@@ -187,4 +187,4 @@ if record.stage_id.sequence in [0,1,2]:
 	raise UserError('This stage is not allowed!')
 ```
 
-![Aktionen Stufe nicht erlaubt](assets/Aktionen%20Stufe%20nicht%20erlaubt.gif)
+![Aktionen Stufe nicht erlaubt](attachments/Aktionen%20Stufe%20nicht%20erlaubt.gif)

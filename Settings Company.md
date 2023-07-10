@@ -6,7 +6,7 @@ tags:
 prev: ./settings
 ---
 # Einstellungen Unternehmen
-![icons_odoo_settings](assets/icons_odoo_settings.png)
+![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 {{ $frontmatter.description }}
 
@@ -20,12 +20,12 @@ Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Unternehmen* und
 
 Wenn Sie mehrere Unternehmen haben, können Sie oben rechts in der Menüleitste auf den aktiven Unternehmensname klicken und ein anderes Unternehmen auswählen.
 
-![](assets/Einstellungen%20Unternehmen%20Auswahl.png)
+![](attachments/Einstellungen%20Unternehmen%20Auswahl.png)
 
 ### Mehrere Unternehmen aktivieren
 
 Wenn Sie ein [Unternehmen auswählen](#Unternehmen%20auswählen), können Sie für mehere Unternehmen die Checkbox aktivieren.
 
-![](assets/Einstellungen%20Unternehmen%20Multi.png)
+![](attachments/Einstellungen%20Unternehmen%20Multi.png)
 
 Damit werden die Datenbankeinträge aller Unternehmen sichtbar.

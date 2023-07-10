@@ -7,7 +7,7 @@ tags:
 prev: ./personal
 ---
 # Fleet HR Vehicle Request
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/fleet_hr_vehi
 
 Wenn Sie ein [Fahrzeug retournieren](HR%20Vehicle%20Request.md#Fahrzeug%20retournieren) wird mit dieser Erweiterung der Kilometerstand auf das Fahrzeug übertragen und die Fahrt entsprechend geloggt.
 
-![Fleet Employee Vehicle Request](assets/Fleet%20HR%20Vehicle%20Request.gif)
+![Fleet Employee Vehicle Request](attachments/Fleet%20HR%20Vehicle%20Request.gif)

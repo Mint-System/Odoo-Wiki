@@ -6,7 +6,7 @@ tags:
 prev: ./manufacture
 ---
 # Fertigung Vorgänge
-![icons_odoo_mrp](assets/icons_odoo_mrp.png)
+![icons_odoo_mrp](attachments/icons_odoo_mrp.png)
 
 {{ $frontmatter.description }}
 

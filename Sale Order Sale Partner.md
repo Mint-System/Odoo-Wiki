@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Sale Order Sale Partner
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Verkaufsadresse auf Verkaufsauftrag festlegen. 
 

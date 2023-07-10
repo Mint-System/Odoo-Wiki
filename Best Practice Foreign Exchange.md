@@ -21,10 +21,10 @@ Wurde die Überweisung ausgeführt, können Sie für beide Bankjournale eine [Ab
 
 Beispiel CHF-Konto:
 
-![](assets/Best%20Practice%20Devisenhandel%20Abgleich%20CHF.png)
+![](attachments/Best%20Practice%20Devisenhandel%20Abgleich%20CHF.png)
 
 Beispiel USD-Konto:
 
-![](assets/Best%20Practice%20Devisenhandel%20Abgleich%20USD.png)
+![](attachments/Best%20Practice%20Devisenhandel%20Abgleich%20USD.png)
 
 Odoo übernimmt jeweils die Umrechnung der Währungen.

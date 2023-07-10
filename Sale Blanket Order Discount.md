@@ -7,7 +7,7 @@ tags:
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Discount
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Definiere einen Rabatt auf der Rahmenauftragszeile.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Ist diese Erweiterung installiert, können Sie auf einem Rahmenauftrag *Verkauf > Aufträge > Rahmenaufträge* Rabatte hinzufügen. Diese Rabatte werde auf auf den Verkaufsauftrag übertragen.
 
-![Sale Blanket Order Discount](assets/Sale%20Blanket%20Order%20Discount.gif)
+![Sale Blanket Order Discount](attachments/Sale%20Blanket%20Order%20Discount.gif)

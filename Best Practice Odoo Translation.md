@@ -18,7 +18,7 @@ Wenn Sie Odoo übersetzen wollen, haben Sie zwei Optionen. Entweder passen Sie d
 
 Als Anwendungsfall wollen wir den Begriff *Abschaltung* anpassen. Der Quellbegriff ist *Cut-Off* und worde nicht korrekt übersetzt:
 
-![](assets/Best%20Practice%20Odoo%20übersetzen%20Abschaltung.png)
+![](attachments/Best%20Practice%20Odoo%20übersetzen%20Abschaltung.png)
 
 ## Transifex
 
@@ -26,7 +26,7 @@ Odoo verwaltet alle Übersetzungen auf Transifex: <https://app.transifex.com/odo
 
 Wenn Sie sich registrieren, können Sie einen neuen Vorschlag erstellen. Wenn Sie den Vorschlag speichern, wird dieser zur Review freigegeben.
 
-![](assets/Best%20Practice%20Odoo%20übersetzen%20Suggestion.png)
+![](attachments/Best%20Practice%20Odoo%20übersetzen%20Suggestion.png)
 
 Ob die Übersetzung angenommen wird, entscheiden die Reviewer.
 

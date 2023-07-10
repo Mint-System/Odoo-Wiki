@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Zeiterfassung Ansichten
-![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
+![icons_odoo_hr_timesheet](attachments/icons_odoo_hr_timesheet.png)
 
 {{ $frontmatter.description }}
 

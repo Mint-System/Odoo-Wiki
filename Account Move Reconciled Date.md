@@ -7,7 +7,7 @@ tags:
 prev: ./finance
 ---
 # Sale Move Reconciled Date
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 Mit dieser Erweiterung wird in der Liste der Rechnung zusätzlich zum Zahlungsstatus das definitive Abgleichsdatum angezeigt. Navigieren Sie nach *Finanzen > Lieferanten > Rechnungen* und blenden Sie das Feld *Reconcile Date* ein.
 
-![Sale Move Reconciled Date](assets/Sale%20Move%20Reconciled%20Date.png)
+![Sale Move Reconciled Date](attachments/Sale%20Move%20Reconciled%20Date.png)

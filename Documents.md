@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Dokumente
-![icons_odoo_documents](assets/icons_odoo_documents.png)
+![icons_odoo_documents](attachments/icons_odoo_documents.png)
 
 {{ $frontmatter.description }}
 

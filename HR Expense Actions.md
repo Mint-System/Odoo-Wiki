@@ -6,7 +6,7 @@ tags:
 prev: ./hr-attendance
 ---
 # Aufwand Aktionen
-![icons_odoo_hr_expense](assets/icons_odoo_hr_expense.png)
+![icons_odoo_hr_expense](attachments/icons_odoo_hr_expense.png)
 
 {{ $frontmatter.description }}
 

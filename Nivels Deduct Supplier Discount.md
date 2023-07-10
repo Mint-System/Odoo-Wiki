@@ -7,7 +7,7 @@ tags:
 prev: ./finance
 ---
 # Nivels Deduct Supplier Discount
-![](assets/icon-nivels.png)
+![](attachments/icon-nivels.png)
 
 {{ $frontmatter.description }}
 
@@ -24,9 +24,9 @@ After installing the user has to create a discount product (see **Inventory**, *
 - **Product Type**: Product type (must be **Service**)
 - **Vendor Taxes**: Tax uses for the discount
 
-![](assets/Nivels%20Deduct%20Supplier%20Discount%20Product.png)
+![](attachments/Nivels%20Deduct%20Supplier%20Discount%20Product.png)
 
-![](assets/Nivels%20Deduct%20Supplier%20Discount%20Product%20Tax.png)
+![](attachments/Nivels%20Deduct%20Supplier%20Discount%20Product%20Tax.png)
 
 Finallly you can also configure the default accounts in the *Accounting* tab.
 
@@ -34,14 +34,14 @@ Finallly you can also configure the default accounts in the *Accounting* tab.
 
 After installing the user has to create a new payment term (see **Accounting**, **Configuration**, **Payment Terms**).
 
-![](assets/Nivels%20Deduct%20Supplier%20Discount%20Term.png)
+![](attachments/Nivels%20Deduct%20Supplier%20Discount%20Term.png)
 
 The user has to specify the following information:
 
 1. Payment Term Name
 2. Terms
 
-![](assets/Nivels%20Deduct%20Supplier%20Discount%20Term%20Name.png)
+![](attachments/Nivels%20Deduct%20Supplier%20Discount%20Term%20Name.png)
 
 After pressing the **Add a line** link the user has to specify the following information:
 
@@ -52,23 +52,23 @@ After pressing the **Add a line** link the user has to specify the following inf
 
 The field **Value** will be used like specified by **Odoo**. For example if the discount should be 5% the value must be 95 (100 - discount percentage).
 
-![](assets/Nivels%20Deduct%20Supplier%20Discount%20Term%20Definition.png)
+![](attachments/Nivels%20Deduct%20Supplier%20Discount%20Term%20Definition.png)
 
 After adding all terms the user has to sort the lines by due date:
 
-![](assets/Nivels%20Deduct%20Supplier%20Discount%20Due%20Dates.png)
+![](attachments/Nivels%20Deduct%20Supplier%20Discount%20Due%20Dates.png)
 
 ### Set default discount term for vendor
 
 To set a default discount term on a vendor go to **Contacts** and selected the desired contact. In the **Sales & Purchase** tab the discount can be set.
 
-![](assets/Nivels%20Deduct%20Supplier%20Discount%20Partner%20Term.png)
+![](attachments/Nivels%20Deduct%20Supplier%20Discount%20Partner%20Term.png)
 
 ### Create vendor invoice with discount
 
 Go to **Accounting**, **Vendors**, **Bills** and create a new vendor bill.
 
-![](assets/Nivels%20Deduct%20Supplier%20Discount%20Create%20Invoice.png)
+![](attachments/Nivels%20Deduct%20Supplier%20Discount%20Create%20Invoice.png)
 
 The following information are needed to deduct vendor discount:
 
@@ -77,18 +77,18 @@ The following information are needed to deduct vendor discount:
 
 **Note:** To use the discount calculation the vendor bill needs to be in **Draft** state.
 
-![](assets/Nivels%20Deduct%20Supplier%20Discount%20Draft%20Invoice.png)
+![](attachments/Nivels%20Deduct%20Supplier%20Discount%20Draft%20Invoice.png)
 
 ### Filter and update invoice with discount
 
 Within the list of vendor bills the user has to choose **Filter** and then **Draft**.
 
-![](assets/Nivels%20Deduct%20Supplier%20Discount%20Filter%20Draft.png)
+![](attachments/Nivels%20Deduct%20Supplier%20Discount%20Filter%20Draft.png)
 
 Select all filtered vendor bills and select **Action**, **Update Discount**.
 
-![](assets/Nivels%20Deduct%20Supplier%20Discount%20Update%20Discount.png)
+![](attachments/Nivels%20Deduct%20Supplier%20Discount%20Update%20Discount.png)
 
 To show all vendor bills with discount the user can select the filter **Has Discount**.
 
-![](assets/Nivels%20Deduct%20Supplier%20Discount%20Filter%20Has%20Discount.png)
+![](attachments/Nivels%20Deduct%20Supplier%20Discount%20Filter%20Has%20Discount.png)

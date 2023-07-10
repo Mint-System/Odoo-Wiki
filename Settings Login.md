@@ -6,7 +6,7 @@ tags:
 prev: ./settings
 ---
 # Einstellungen Login
-![icons_odoo_settings](assets/icons_odoo_settings.png)
+![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 {{ $frontmatter.description }}
 
@@ -55,7 +55,7 @@ Wenn der Benutzer einloggt, kann eine Aktion ausgeführt werden. Diese Aktion le
 Einige Aktionen haben den gleichen Namen, testen Sie die Auswahl vorgängig mit ein- und ausloggen. Ändern Sie den Anzeigenamen der Aktionen nach Bedarf.
 :::
 
-![](assets/Einstellungen%20Login%20Start-Aktion.png)
+![](attachments/Einstellungen%20Login%20Start-Aktion.png)
 
 ## Portalzugriff
 
@@ -69,7 +69,7 @@ Wenn Benutzer sich über das Portal bzw. Login-Fenster registrieren wird ein Por
 
 Öffnen Sie die Benutzerliste via *Einstellungen > Allgemeine Einstellungen > Benutzer verwalten*. Entfernen Sie den Filter damit Portal-Benuzter sichtbar werden. Wählen Sie den Portal-Benutzer aus und Bearbeiten Sie diesen. Wechseln Sie den Benutzertyp und vergeben Sie die benötigten Benutzerrechte.
 
-![](assets/Einstellungen%20Login%20Benutzertyp.png)
+![](attachments/Einstellungen%20Login%20Benutzertyp.png)
 
 ### Portalzugriff gewähren
 
@@ -77,21 +77,21 @@ Damit mehrere Kontakte Zugriff auf Odoo haben, brauchen Sie einen Portal-Zugriff
 
 Die Einladung Sie wie folgt aus:
 
-![](assets/Einstellungen%20Login%20Portal-Zugriff%20erhalten.png)
+![](attachments/Einstellungen%20Login%20Portal-Zugriff%20erhalten.png)
 
 Hat sich der Benutzer mit der Mail registriert, muss er seinen Account verifizieren.
 
-![](assets/Einstellungen%20Login%20Profilverifizierung.png)
+![](attachments/Einstellungen%20Login%20Profilverifizierung.png)
 
 ### Portal-Benutzerkonto anlegen
 
 Falls Sie für das Portal noch keinen Zugang haben, können Sie über die Funktion *Benutzerkonto anlegen* ein Konto erstellen.
 
-![Einkauf Portal Benutzerkonto anlegen](assets/Einstellungen%20Portal%20Benutzerkonto%20anlegen.png)
+![Einkauf Portal Benutzerkonto anlegen](attachments/Einstellungen%20Portal%20Benutzerkonto%20anlegen.png)
 
 Benutzername und Passwort können gewählt werden.
 
-![Einkauf Portal Benutzerkonto registrieren](assets/Einstellungen%20Portal%20Benutzerkonto%20registrieren.png)
+![Einkauf Portal Benutzerkonto registrieren](attachments/Einstellungen%20Portal%20Benutzerkonto%20registrieren.png)
 
 ## Zwei-Faktor-Authentisierung
 
@@ -106,7 +106,7 @@ Android: [2FA Authenticator (2FAS)](https://play.google.com/store/apps/details?i
 
 Sie können für Ihren Odoo-Benutzer jederzeit die Zwei-Faktor-Authentisierung einrichten. Klicken Sie dazu auf *Account > Mein Profil / Einstellungen* und im Tab *Account Sicherheit* wählen Sie *Aktiviere Zwei-Faktor-Authentifizierung*. Geben Sie das Passwort des Odoo-Account ein. Befolgen Sie die Anweisungen im Dialog.
 
-![](assets/Einstellungen%20Login%20Zwei-Faktor-Authentisierung.png)
+![](attachments/Einstellungen%20Login%20Zwei-Faktor-Authentisierung.png)
 
 :::
 Führen Sie diese Aktivierung auf dem Desktop. Odoo generiert für die Zwei-Faktor-Authentisierung eine QR-Code, den Sie mit dem Smartphone scannen müssen.
@@ -116,7 +116,7 @@ Führen Sie diese Aktivierung auf dem Desktop. Odoo generiert für die Zwei-Fakt
 
 Für jeden Benutzer können Sie eine Einladung zur Zwei-Faktor-Authentisierung verschicken. Markieren Sie dazu die Benutzer unter *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie *Aktion > Einladung zur Verwendung der Zwei-Faktor-Authentifizierung*.
 
-![](assets/Einstellungen%20Login%20Einladung%20zur%20Zwei-Faktor-Authentisierung%20verschicken.png)
+![](attachments/Einstellungen%20Login%20Einladung%20zur%20Zwei-Faktor-Authentisierung%20verschicken.png)
 
 ### Zwei-Faktor-Authentisierung für einen Benutzer aktivieren
 

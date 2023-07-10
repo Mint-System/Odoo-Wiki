@@ -7,7 +7,7 @@ prev: ./
 ---
 # Abonnements
 
-![icons_odoo_account_invoicing](assets/icons_odoo_account_invoicing.png)
+![icons_odoo_account_invoicing](attachments/icons_odoo_account_invoicing.png)
 
 {{ $frontmatter.description }}
 
@@ -19,7 +19,7 @@ Website: <https://www.odoo.com/de_DE/app/subscriptions>
 
 Rufen Sie die Ansicht *Abonnements > Konfiguration > Vorlage für Abonnements* auf. Erstellen Sie einen neuen Eintrag. Geben Sie einen Namen beispielsweise *Jahresabonnment* ein. Legen Sie den *Abrechnungszeitraum* und einen *Code* fest.
 
-![](assets/Abonnements%20Vorlage.png)
+![](attachments/Abonnements%20Vorlage.png)
 
 ### Abonnement erstellen
 
@@ -29,7 +29,7 @@ Im Normalfall wird beim [Angebot bestätigen](Sale.md#Angebot%20bestätigen) ein
 
 Öffnen Sie ein Abonnent-Produkt unter *Abonnements > Abonnements > Produkte*. Zeigen Sie den Tab *Preis* an. Legen Sie in der Spalte *Produktvarianten* fest, welche Laufzeit zu welcher Variante gehört. Dazu ein Beispiel.
 
-![](assets/Abonnements%20Produktvarainten.png)
+![](attachments/Abonnements%20Produktvarainten.png)
 
 ### Abonnement-Laufzeit mit Produktvariante und Preisliste verknüpfen
 

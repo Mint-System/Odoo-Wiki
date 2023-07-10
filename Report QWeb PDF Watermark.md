@@ -7,7 +7,7 @@ tags:
 prev: ./settings
 ---
 # Report QWeb PDF Watermark
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Wasserzeichen auf PDF-Berichte hinzufügen.
 
@@ -21,7 +21,7 @@ Repository: <https://github.com/OCA/reporting-engine/tree/15.0/report_qweb_pdf_w
 Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Unternehmen* und wählen Sie ein Unternehmen. Wählen Sie beim Feld *Wasserzeichen* die Aktion *Datei Hochladen* um eine PDF-Datei mit Wasserzeichen hochzuladen.
 
 ::: tip
-Die PDF-Datei mit Wasserzeichen, muss dasselbe Papierformat der generierten Berichte haben. Dazu ein Beispiel: [sample.pdf](https://github.com/Mint-System/Odoo-Wiki/raw/master/assets/sample.pdf)[](assets/sample.pdf)
+Die PDF-Datei mit Wasserzeichen, muss dasselbe Papierformat der generierten Berichte haben. Dazu ein Beispiel: [sample.pdf](https://github.com/Mint-System/Odoo-Wiki/raw/master/assets/sample.pdf)[](attachments/sample.pdf)
 :::
 
 ### Wasserzeichen von Unternehmen für Bericht aktivieren

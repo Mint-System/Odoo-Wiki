@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Sale Order Notes
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Verkaufsaufträge mit Notizfelder.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Mit dieser Erweiterung haben Sie auf Verkausaufträgen zwei zusätzliche Notizfelder *Verkauf > Aufträge > Aufträge*. Wählen Sie einen Auftrag aus und öffnen Sie den Tab *Notes*. Hier können Sie die Notizen hinzufüge und ändern.
 
-![Sale Order Notes Verkaufsauftrag Tab Notes](assets/Sale%20Order%20Notes%20Verkaufsauftrag%20Tab%20Notes.png)
+![Sale Order Notes Verkaufsauftrag Tab Notes](attachments/Sale%20Order%20Notes%20Verkaufsauftrag%20Tab%20Notes.png)

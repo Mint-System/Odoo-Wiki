@@ -7,7 +7,7 @@ tags:
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Line Description
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Beschreibungsfeld von Rahmenauftragszeile auf die Verkaufsauftragszeile kopieren.
 
@@ -20,20 +20,20 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Damit beim Hinzufügen der Beschreibung nur der Produktname angezeigt wird, legen Sie einen [Systemparameter](Development.md#Systemparameter%20anlegen) mit Wert `sale.blanket.order.line.hide_default_code` und Wert `True` an.
 
-![](assets/Sale%20Blanket%20Order%20Line%20Description%20Systemparameter.png)
+![](attachments/Sale%20Blanket%20Order%20Line%20Description%20Systemparameter.png)
 
 ### Beschreibung Rahmenauftrag ohne Produktname generieren
 
 Wenn Sie beim Hinzufügen eines Produkt nur die Verkaufsbeschreibung anzeigen möchten, legen Sie einen [Systemparameter](Development.md#Systemparameter%20anlegen) mit Wert `sale.blanket.order.line.sale_description_only` und Wert `True` an.
 
-![](assets/Sale%20Blanket%20Order%20Line%20Description%20Systemparameter.png)
+![](attachments/Sale%20Blanket%20Order%20Line%20Description%20Systemparameter.png)
 
 ### Beschreibung Rahmenauftragszeile kopieren
 
 Mit dieser Erweiterung wird die in der Rahmenauftragszeile das Feld *Beschreibung* eingeblendet. Sie können dieses überschreiben. Beim Erstellen eines Verkaufsauftrags wird es kopiert.
 
-![](assets/Sale%20Blanket%20Order%20Line%20Description.png)
+![](attachments/Sale%20Blanket%20Order%20Line%20Description.png)
 
 Gemäss den Optionen oben kann der Übertrag konfiguriert werden:
 
-![](assets/Sale%20Blanket%20Order%20Line%20Description%20Params.png)
+![](attachments/Sale%20Blanket%20Order%20Line%20Description%20Params.png)

@@ -6,7 +6,7 @@ tags:
 prev: ./iot
 ---
 # Etikettendrucker Zebra ZD410
-![icons_odoo_iot](assets/icons_odoo_iot.png)
+![icons_odoo_iot](attachments/icons_odoo_iot.png)
 
 {{ $frontmatter.description }}
 
@@ -33,11 +33,11 @@ Damit Sie den Etikettendrucker verwenden können, müssen folgende Vorbereitunge
 
 Führen Sie als erstes eine Kalibrierung des Gerätes durch.
 
-![](assets/Etikettendrucker%20Zebra%20ZD410%20kalibrieren.png)
+![](attachments/Etikettendrucker%20Zebra%20ZD410%20kalibrieren.png)
 
 Drucken Sie anschliessend ein Konfigurationsbericht.
 
-![](assets/Etikettendrucker%20Zebra%20ZD410%20testen.png)
+![](attachments/Etikettendrucker%20Zebra%20ZD410%20testen.png)
 
 ### Etikettenrolle auswechseln
 

@@ -7,7 +7,7 @@ tags:
 prev: ./purchase
 ---
 # Purchase Order Partner Incoterm
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Für jedem Partner die Incoterms festlegen.
 

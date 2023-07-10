@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Wartung
-![icons_odoo_maintenance](assets/icons_odoo_maintenance.png)
+![icons_odoo_maintenance](attachments/icons_odoo_maintenance.png)
 
 {{ $frontmatter.description }}
 

@@ -7,7 +7,7 @@ tags:
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Template
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Vorlagen für Rahmenaufträge.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Mit dieser Erweiterung erhalten Sie ein Feld zur Auswahl der Angebotsvorlage. Bestimmte Felder werden bei Auswahl einer Vorlage kopiert.
 
-![Sale Blanket Order Template](assets/Sale%20Blanket%20Order%20Template.gif)
+![Sale Blanket Order Template](attachments/Sale%20Blanket%20Order%20Template.gif)

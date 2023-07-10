@@ -6,7 +6,7 @@ tags:
 prev: ./hr-payroll
 ---
 # Personalabrechnung Eingaben
-![icons_odoo_hr_payroll](assets/icons_odoo_hr_payroll.png)
+![icons_odoo_hr_payroll](attachments/icons_odoo_hr_payroll.png)
 
 Lohnabrechnungen mit variablen Eingaben.
 
@@ -18,7 +18,7 @@ Um variable Eingaben in der Lohnzahlungen abzurechnen, müssen Sie diese Eingabe
 
 Als erstes müssen Sie für eine bestehende Lohnstruktur eine Eingabe definieren. Navigieren Sie nach *Personalabrechnung > Konfiguration > Structure* und wählen Sie die Lohnstruktur aus. Erstellen Sie im Tab *Ohter Input* eine Eingabe. Hierzu ein Beispiel für einen zusätzlichen Quellensteuerabzug:
 
-![](assets/Personalabrechnung%20Eingabe%20Quellensteuer.png)
+![](attachments/Personalabrechnung%20Eingabe%20Quellensteuer.png)
 
 Damit der Betrag in der Lohnabrechnung berücksichtigt wird, muss dieser als Lohnart definiert werden. Erstellen Sie eine neue Lohnart in der bestehenden Lohnstruktur. Dazu ein Beispiel wie man diese für den Quellensteuerabzug definiert:
 
@@ -32,7 +32,7 @@ Python Bedinung: `result = inputs.QUELLEN.amount > 0.0 if inputs.QUELLEN else Fa
 Berechnungsart: `Python Code`\
 Python Code: `result = inputs.QUELLEN.amount if inputs.QUELLEN else 0`
 
-![](assets/Personalabrechnung%20Lohnart%20von%20Inputs.png)
+![](attachments/Personalabrechnung%20Lohnart%20von%20Inputs.png)
 
 Beim Berechnen werden variable Eingaben in der Lohnabrechnung miteinbezogen.
 

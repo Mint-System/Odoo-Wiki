@@ -6,7 +6,7 @@ tags:
 prev: ./kalender
 ---
 # Kalender Aktionen
-![icons_odoo_calendar](assets/icons_odoo_calendar.png)
+![icons_odoo_calendar](attachments/icons_odoo_calendar.png)
 
 {{ $frontmatter.description }}
 

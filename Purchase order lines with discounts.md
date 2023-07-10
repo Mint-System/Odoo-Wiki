@@ -7,7 +7,7 @@ tags:
 prev: ./purchase
 ---
 # Purchase order lines with discounts
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Rabatte auf Einkaufspositionen festlegen.
 

@@ -7,7 +7,7 @@ tags:
 prev: ./manufacture
 ---
 # Product Type Description
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Zu jedem Produkt ein Beschreibungsfeld.
 

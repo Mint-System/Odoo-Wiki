@@ -6,7 +6,7 @@ tags:
 prev: ./forestry-base
 ---
 # Holzwirtschaft Projekt
-![icons_odoo_forestry_base](assets/icons_odoo_forestry_base.png)
+![icons_odoo_forestry_base](attachments/icons_odoo_forestry_base.png)
 
 {{ $frontmatter.description }}
 

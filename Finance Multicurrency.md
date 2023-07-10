@@ -6,7 +6,7 @@ tags:
 prev: ./finance
 ---
 # Finanzen Mehrere Währungen
-![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
+![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}
 
@@ -24,7 +24,7 @@ Zeigen Sie *Einstellungen > Finanzen > Währungen* an. Unter der aktivierten Opt
 
 Werden mehre Währungen verwendet, können die Wechselkurse automatisch von Odoo aktualisiert werden. Navigieren Sie nach *Einstellungen > Finanzen > Währung* und klicken Sie auf *Automatische Währungssätze*. Stellen Sie ein ob die Währung automatisch oder manuell aktualisiert werden soll.
 
-![](assets/Finanzen%20Mehrere%20Währungen%20Automatisch.png)
+![](attachments/Finanzen%20Mehrere%20Währungen%20Automatisch.png)
 
 Klicken Sie auf das Icon neben dem Feld *Nächster Lauf*. Die Währungskurse werden nun aktualisiert.
 
@@ -40,7 +40,7 @@ Klicken Sie auf das Icon neben dem Feld *Nächster Lauf*. Die Währungskurse wer
 
 Öffnen Sie die die Kursliste einer Währung via *Finanzne > Konfiguration > Währungen > Währung auswählen > Kurse*. Legen Sie einen neuen Eintrag an oder bearbeiten Sie einen bestehendne.
 
-![](assets/Finanzen%20Mehrere%20Währungen%20Tageskurs%20definieren.png)
+![](attachments/Finanzen%20Mehrere%20Währungen%20Tageskurs%20definieren.png)
 
 ### Währung auf Rechnung festlegen
 
@@ -50,7 +50,7 @@ Zeigen Sie eine Rechnung via *Finanzen > Kunden > Rechnungen* oder *Finanzen > L
 
 Zeigen Sie *Finanzen > Konfiguration > Finanzen > Währungen* an wählen Sie eine Währung aus. Unter *Anzeige* können Sie die Position bestimmen.
 
-![](assets/Finanzen%20Mehrere%20Währungen%20Anzeige.png)
+![](attachments/Finanzen%20Mehrere%20Währungen%20Anzeige.png)
 
 ## Überweisung
 
@@ -68,4 +68,4 @@ Wenn Sie eine Korrektur-Buchung der Kursdifferenzen für ein Währungskonto erst
 
 Dazu ein Beispiel für ein Euro-Konto mit einer CHF-Buchhaltung:
 
-![](assets/Finanzen%20Mehrere%20Währungen%20Anpassung%20Kursdifferenzen.png)
+![](attachments/Finanzen%20Mehrere%20Währungen%20Anpassung%20Kursdifferenzen.png)

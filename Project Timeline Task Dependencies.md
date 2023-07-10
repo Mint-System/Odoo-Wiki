@@ -7,7 +7,7 @@ tags:
 prev: ./project
 ---
 # Project Timeline Task Dependencies
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten.
 
@@ -20,8 +20,8 @@ Repository: <https://github.com/OCA/project/tree/14.0/project_timeline_task_depe
 
 Öffnen Sie die *Timeline*-Ansicht via *Projekt > Alle Aufgaben*.
 
-![](assets/Project%20Timeline%20View%20task%20timeline.png)
+![](attachments/Project%20Timeline%20View%20task%20timeline.png)
 
 Abhängigkeiten in Aufgaben werden auf der Timeline dargestellt.
 
-![](assets/Project%20Timeline%20Task%20Dependencies%20View.png)
+![](attachments/Project%20Timeline%20Task%20Dependencies%20View.png)

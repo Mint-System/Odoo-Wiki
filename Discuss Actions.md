@@ -6,7 +6,7 @@ tags:
 prev: ./discuss
 ---
 # Diskussion Aktivitäten
-![icons_odoo_mail](assets/icons_odoo_mail.png)
+![icons_odoo_mail](attachments/icons_odoo_mail.png)
 
 {{ $frontmatter.description }}
 

@@ -7,7 +7,7 @@ tags:
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order CRM Tags
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Setze Stichwörter auf dem Rahmenauftrag.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Ist diese Erweiterung installiert können Sie Stichwörter auf dem Rahmenauftrag erfassen. Öffnen Sie einen Auftrag via *Verkauf > Aufträge > Rahmenaufträge*.
 
-![Sale Blanket Order CRM Tags](assets/Sale%20Blanket%20Order%20CRM%20Tags.gif)
+![Sale Blanket Order CRM Tags](attachments/Sale%20Blanket%20Order%20CRM%20Tags.gif)

@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Stock Move Available Locations
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Nur Lagerorte mit Besand in Auswahl anzeigen.
 
@@ -26,8 +26,8 @@ Mit dieser Erweiterung wird die Auswahl der Lageort anhand des Produktbestands e
 
 Auf Operationen:
 
-![Stock Move Available Locations Operationen](assets/Stock%20Move%20Available%20Locations%20Operationen.gif)
+![Stock Move Available Locations Operationen](attachments/Stock%20Move%20Available%20Locations%20Operationen.gif)
 
 Auf detaillierten Operationen:
 
-![Stock Move Available Locations](assets/Stock%20Move%20Available%20Locations.gif)
+![Stock Move Available Locations](attachments/Stock%20Move%20Available%20Locations.gif)

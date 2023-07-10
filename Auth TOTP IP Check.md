@@ -7,7 +7,7 @@ tags:
 prev: ./settings-login
 ---
 # Auth TOTP IP Check
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,7 +20,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/aut
 
 Zeigen Sie *Einstellungen > Technisch > Sicherheit > Disable TOTP Check* an. Geben Sie hier ein Cidr-Adresse für ein IP-Netzwerk ein für welches die Zwei-Faktor-Authentisierung ignoriert werden soll. Wählen optional die Benutzer, für welche Ausnahme gelten soll.
 
-![Auth TOTP IP Check](assets/Auth%20TOTP%20IP%20Check.gif)
+![Auth TOTP IP Check](attachments/Auth%20TOTP%20IP%20Check.gif)
 
 ### Login ohne Zwei-Faktor-Authentisierung für unbestimmte Netzwerke verhindern
 

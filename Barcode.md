@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Strichcode
-![icons_odoo_stock_barcode](assets/icons_odoo_stock_barcode.png)
+![icons_odoo_stock_barcode](attachments/icons_odoo_stock_barcode.png)
 
 Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
 
@@ -41,7 +41,7 @@ Angenommen zur Zeit der Erfassung des Produktbarcodes ist es der 15. Oktober 202
 
 Diese Sequenz füllen wir in das entsprechende Produktfeld.
 
-![](assets/Strichcode%20f%C3%BCr%20Produkte%20generieren.png)
+![](attachments/Strichcode%20für%20Produkte%20generieren.png)
 
 ::: warning
 Wichtig ist, dass der Produktstrichcode immer eindeutig und so kurz wie möglich ist.
@@ -49,13 +49,13 @@ Wichtig ist, dass der Produktstrichcode immer eindeutig und so kurz wie möglich
 
 Hier zwei Strichcodes im Vergleich:
 
-![](assets/Strichcode%20zwei%20Codes%20im%20Vergleich.png)
+![](attachments/Strichcode%20zwei%20Codes%20im%20Vergleich.png)
 
 ### Barcode-Befehle drucken
 
 Mit Barcode-Befehlen können Sie bestimmte Vorgänge starten oder abschliessen. Drücken Sie auf *Einstellungen > Lager > Strichcode > Drucken Sie die Barcode-Befehle* und drucken Sie dieses Dokument aus.
 
-![](assets/Strichcode%20Barcode-Befehle.png)
+![](attachments/Strichcode%20Barcode-Befehle.png)
 
 Auf der ersten Seite finden die die Befehle, auf der zweiten die Vorgangstypen und auf der letzten die Lagerorte.
 
@@ -63,11 +63,11 @@ Auf der ersten Seite finden die die Befehle, auf der zweiten die Vorgangstypen u
 
 Öffnen Sie *Strichcode* im Browser auf ihrem Computer oder auf der App auf ihrem mobilen Gerät. Scannen Sie den Barcode auf dem Packvorgang mit dem angeschlossen Scanner, dem integrierten Scanner oder Geräte-Kamera.
 
-![](assets/Strichcode%20scannen.png)
+![](attachments/Strichcode%20scannen.png)
 
 Sobald der Dokument-Code (immer oben rechs) gescannt wurde, werden die Positionen augeführt.
 
-![](assets/Strichcode%20Positionen%20Scanvorgang.png)
+![](attachments/Strichcode%20Positionen%20Scanvorgang.png)
 
 Nun können Sie einzelnen Positionen bestätigen und den Vorgang mit dem Barcode-Befehl *Validate* abschliessen.
 
@@ -77,7 +77,7 @@ Im Transfer können Sie Produkte anhand des Produktbarcodes hinzufügen. Öffnen
 
 Mit jedem Scan des Produktbarcodes wird 1 Stück dem Transfer hinzugefügt.
 
-![Strichcode Zusätzliche Produkte hinzufügen](assets/Strichcode%20Zusätzliche%20Produkte%20hinzufügen.gif)
+![Strichcode Zusätzliche Produkte hinzufügen](attachments/Strichcode%20Zusätzliche%20Produkte%20hinzufügen.gif)
 
 ## Troubleshooting
 
@@ -99,4 +99,4 @@ xdotool type $BARCODE
 
 Passen Sie die `BARCODE`-Variable entsprechend an. Dazu ein Beispiel der Ausführung:
 
-![Strichcode Eignabe simulieren](assets/Strichcode%20Eignabe%20simulieren.gif)
+![Strichcode Eignabe simulieren](attachments/Strichcode%20Eignabe%20simulieren.gif)

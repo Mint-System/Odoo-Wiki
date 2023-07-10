@@ -7,7 +7,7 @@ tags:
 prev: ./settings-login
 ---
 # Authentication OpenID Connect
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -87,11 +87,11 @@ Es gibt zwei Registrationsverfahren für neue Benuter: Freigeben und Einrichten.
 
 Im Freigababeverfahren loggt sich der Benutzer ein:
 
-![Authentication OpenID Connect Login](assets/Authentication%20OpenID%20Connect%20Login.gif)
+![Authentication OpenID Connect Login](attachments/Authentication%20OpenID%20Connect%20Login.gif)
 
 Nun wird ein Benutzer-Account in Odoo erstellt und der Administrator muss diesen Freigeben:
 
-![Authentication OpenID Connect Freigabe](assets/Authentication%20OpenID%20Connect%20Freigabe.gif)
+![Authentication OpenID Connect Freigabe](attachments/Authentication%20OpenID%20Connect%20Freigabe.gif)
 
 Wurde die Freigabe erteilt, kann sich der Benutzer nochmals einloggen.
 
@@ -101,12 +101,12 @@ Möchte man die Logins vorgängig einrichten, kann man die Odoo-Accounts anlegen
 
 Dazu ein Beispiel:
 
-![](assets/Authentication%20OpenID%20Connect%20User%20ID.png)
+![](attachments/Authentication%20OpenID%20Connect%20User%20ID.png)
 
 Die hier angezeigte ID hinterlegt man im Benutzer-Account von Odoo:
 
-![](assets/Authentication%20OpenID%20Connect%20OAuth%20User%20ID.png)
+![](attachments/Authentication%20OpenID%20Connect%20OAuth%20User%20ID.png)
 
 Nun kann sich der Benutzer einloggen.
 
-![Authentication OpenID Connect Login Success](assets/Authentication%20OpenID%20Connect%20Login%20Success.gif)
+![Authentication OpenID Connect Login Success](attachments/Authentication%20OpenID%20Connect%20Login%20Success.gif)

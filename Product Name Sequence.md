@@ -7,7 +7,7 @@ tags:
 prev: ./product
 ---
 # Product Name Sequence
-![](assets/icon_product_name_sequence.png)
+![](attachments/icon_product_name_sequence.png)
 
 Generate product names based on a sequence.
 
@@ -20,10 +20,10 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/15.
 
 Product will have the default name `New`. If nothing else is set and the product form is saved or updated, then the product template sequence will be called and set as name.
 
-![Odoo App Product Name Sequence Generate](assets/Odoo%20App%20Product%20Name%20Sequence%20Generate.gif)
+![Odoo App Product Name Sequence Generate](attachments/Odoo%20App%20Product%20Name%20Sequence%20Generate.gif)
 
 ### Change sequence format
 
 The sequence based on which the product name is generated, can be customized.
 
-![Odoo App Product Name Sequence Update](assets/Odoo%20App%20Product%20Name%20Sequence%20Update.gif)
+![Odoo App Product Name Sequence Update](attachments/Odoo%20App%20Product%20Name%20Sequence%20Update.gif)

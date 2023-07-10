@@ -6,7 +6,7 @@ tags:
 prev: ./invoicing
 ---
 # Abrechnung Mahnungen
-![icons_odoo_account](assets/icons_odoo_account.png)
+![icons_odoo_account](attachments/icons_odoo_account.png)
 
 {{ $frontmatter.description }}
 
@@ -32,7 +32,7 @@ Unbezahlte Rechnung, welche die Zahlungsfrist überschritten haben, können Sie 
 
 Anschliessend klicken Sie auf *Erledigen*. Damit wird die Rechnung in die nächste Mahnstufe versetzt und der Mahnstatus angepasst.
 
-![](assets/Abrechnung%20Mahnungen%20Erledigt.png)
+![](attachments/Abrechnung%20Mahnungen%20Erledigt.png)
 
 ### Text Mahnbericht anpassen
 

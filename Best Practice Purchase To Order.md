@@ -15,7 +15,7 @@ Damit Sie Produkte nach dem Verkauf direkt bei einem Lieferanten einkaufen könn
 
 Wenn Sie dieses Produkt verkaufen, legt Odoo eine Lieferung und eine Bestellung an. Die Aufträge werden mit den Smart-Buttons verlinkt.
 
-![](assets/Best%20Practice%20Purchase%20To%20Order%20Smart%20Buttons.png)
+![](attachments/Best%20Practice%20Purchase%20To%20Order%20Smart%20Buttons.png)
 
 Wenn Sie mehrere Verkäufe für das Produkt anlegen, werden bestehende Bestellungen aktualisiert. Falls Sie für jeden Verkauf eine neue Bestellung möchten müssen Sie die [Beschaffungsgruppe weitergeben](Stock%20Operations.md#Beschaffungsgruppe%20weitergeben).
 

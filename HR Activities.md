@@ -6,7 +6,7 @@ tags:
 prev: ./personal
 ---
 # Personal Aktivitäten
-![icons_odoo_hr](assets/icons_odoo_hr.png)
+![icons_odoo_hr](attachments/icons_odoo_hr.png)
 
 Aktivitäten für Personal verwalten.
 

@@ -8,7 +8,7 @@ prev: ./invoicing
 ---
 # Account Invoice Carrier
 
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -21,4 +21,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 Mit dieser Erweiterung erhalten Sie auf der Formularansicht der Rechnungen ein neues Feld *Auslieferungsmethode*.
 
-![](assets/Account%20Invoice%20Carrier.png)
+![](attachments/Account%20Invoice%20Carrier.png)

@@ -7,7 +7,7 @@ tags:
 prev: ./manufacture
 ---
 # MRP BoM List
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -22,7 +22,7 @@ Mit dieser Erweiterung können Sie gesamte Stückliste eines Produkts als Liste 
 
 Mit der Aktion *Komponenten-Liste zu Zeitpunk* können Sie den Bestand der Komponenenten-Liste zu einem bestimmten Zeitpunkt anzeigen.
 
-![MRP BoM List](assets/MRP%20BoM%20List.gif)
+![MRP BoM List](attachments/MRP%20BoM%20List.gif)
 
 ::: tip
 Als Standard-Stückliste wird immer die erste Stückliste des jeweiligen Produkts ausgewählt.

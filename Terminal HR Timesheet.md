@@ -6,7 +6,7 @@ tags:
 prev: ./hr-timesheet
 ---
 # Terminal Zeiterfassung
-![icons_odoo_hr_timesheet](assets/icons_odoo_hr_timesheet.png)
+![icons_odoo_hr_timesheet](attachments/icons_odoo_hr_timesheet.png)
 
 {{ $frontmatter.description }}
 
@@ -24,12 +24,12 @@ Damit Sie das Terminal Zeiterfassung verwenden können, müssen Sie es zuerst mi
 * Terminal und Stromadapter anschliessen
 * Das Terminal startet nun automatisch und zeigt den Startbildschirm
 
-![](assets/raspberry-pi-setup.png)
+![](attachments/raspberry-pi-setup.png)
 
 * Klicken Sie oben rechts auf das Wifi-Symbol
 * Verbinden Sie das Terminal mit einem verfügbaren Router
 
-![](assets/raspberry-wifi.png)
+![](attachments/raspberry-wifi.png)
 
 * Starten Sie den Browser
 * Geben Sie die Adresse zu ihrer Odoo-Installation ein
@@ -67,7 +67,7 @@ Speichern Sie vorgängig den Benutzernamen und Passwort des Odoo Benutzers im Br
 
 Wählen Sie *Main Menu > Preferences > Main Menu Editor*. Anschliessend klicken Sie auf *Preferences* und aktivieren die Option *Desktop Session Settings*.
 
-![](assets/Terminal%20Zeiterfassung%20Desktop%20Session.png)
+![](attachments/Terminal%20Zeiterfassung%20Desktop%20Session.png)
 
 Nun können Sie die Autostart Programme unter *Main Menu > Preferences > Desktop Session Settings* im Tab *Automatically Started Applications* anzeigen.
 

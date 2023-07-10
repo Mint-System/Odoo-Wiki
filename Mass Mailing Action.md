@@ -7,7 +7,7 @@ tags:
 prev: ./mass_mailing
 ---
 # E-Mail-Marketing Aktionen
-![icons_odoo_mass_mailing](assets/icons_odoo_mass_mailing.png)
+![icons_odoo_mass_mailing](attachments/icons_odoo_mass_mailing.png)
 
 {{ $frontmatter.description }}
 

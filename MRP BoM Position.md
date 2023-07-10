@@ -7,7 +7,7 @@ tags:
 prev: ./order-positions
 ---
 # MRP BoM Position
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,13 +20,13 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_
 
 Mit dieser Erweiterung wird auf jeder Stückliste für jede Komponente eine Positionsnummer generiert.
 
-![](assets/MRP%20BoM%20Position.png)
+![](attachments/MRP%20BoM%20Position.png)
 
 ### Positionsnummer anzeigen
 
 Unter <https://odoo.build/snippets.html> finden Sie Snippets mit der Bezeichnung *Get Postition*, beispielsweise <https://odoo.build/snippets/purchase.html#get-position>. Verwenden Sie diese Snippets um auf Berichten, die Positionsnummer aus Verkaufs-, Einkaufs- und Fertigungsaufträgen anzuzeigen.
 
-![](assets/MRP%20BoM%20Position%20Report.png)
+![](attachments/MRP%20BoM%20Position%20Report.png)
 
 ## Aktionen
 

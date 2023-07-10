@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Sale Order Default Carrier
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Auslieferungsmethode von Kontakt übernehmen.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Mit dieser Erweiterung wird beim Erstellen eines Verkaufsauftrags die auf dem Kontakt hinterlegte Auslieferungsmethode übernommen.
 
-![](assets/Sale%20Order%20Default%20Carrier.png)
+![](attachments/Sale%20Order%20Default%20Carrier.png)

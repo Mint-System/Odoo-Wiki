@@ -7,7 +7,7 @@ tags:
 prev: ./product
 ---
 # Product Barcode Generator
-![](assets/icon_odoo_product_barcode.png)
+![](attachments/icon_odoo_product_barcode.png)
 
 Autogenerate EAN13 product barcodes.
 
@@ -21,7 +21,7 @@ Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/product_barcode/>
 
 Once the app is installed Odoo will automtically create EAN13 standard barcodes.
 
-![Odoo App Product Barcode Generator](assets/Odoo%20App%20Product%20Barcode%20Generator.gif)
+![Odoo App Product Barcode Generator](attachments/Odoo%20App%20Product%20Barcode%20Generator.gif)
 
 ### Barcode generieren
 

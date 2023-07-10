@@ -7,7 +7,7 @@ prev: ./referenzsystem
 ---
 # Prozess Betriebsdaten
 
-![Prozess Betriebsdaten](assets/Prozess%20Betriebsdaten.svg)
+![Prozess Betriebsdaten](attachments/Prozess%20Betriebsdaten.svg)
 
 ## Prozessschritte
 

@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Stock Production Lot Active
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Erlaubt die Archivierung von Los/Chargen.
 
@@ -21,7 +21,7 @@ Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/stock_pro
 Öffnen Sie *Lager > Stammdaten > Chargen-/ Seriennummern* und wählen Sie die zu archivierenden Chargen-/Seriennummern aus.
 Wählen Sie *Aktion > Archiv*.
 
-![](assets/Stock%20Production%20Lot%20Active%20Aktion.png)
+![](attachments/Stock%20Production%20Lot%20Active%20Aktion.png)
 
 ## Geplante Aktionen
 

@@ -8,7 +8,7 @@ prev: ./finance
 ---
 # Invoice Merge PDF Attachment
 
-![](assets/icon_odoo_sv.png)
+![](attachments/icon_odoo_sv.png)
 
 {{ $frontmatter.description }}
 
@@ -24,8 +24,8 @@ Mit dieser Erweiterung können Sie Die Anhänge einer Rechnung eineem bestimmten
 
 In den Einstellunge unter *Finanzen > Invoice Attachment Merge*, bestimmen Sie den Hauptbericht.
 
-![](assets/Invoice%20Merge%20PDF%20Attachment.png)
+![](attachments/Invoice%20Merge%20PDF%20Attachment.png)
 
 Wenn Sie eine Rechnung erstellen, generieren Sie als erstes den Anhang (hier QR-Rechung). Anschliessend legen Sie auf der Rechnung, dass der Anhang zusammengeführt werden soll. Wenn Sie nun den Hauptbericht generieren, werden die ausgewählten Anhänge angefügt.
 
-![Invoice Merge PDF Attachment](assets/Invoice%20Merge%20PDF%20Attachment.gif)
+![Invoice Merge PDF Attachment](attachments/Invoice%20Merge%20PDF%20Attachment.gif)

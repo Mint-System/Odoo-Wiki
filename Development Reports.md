@@ -6,7 +6,7 @@ tags:
 prev: ./development
 ---
 # Entwicklung Berichte
-![icons_odoo_web_studio](assets/icons_odoo_web_studio.png)
+![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 {{ $frontmatter.description }}
 
@@ -51,15 +51,15 @@ Alle von Odoo generierten Berichte können unter einer bestimmten URL als HTML a
 
 Navigieren Sie nun zu **Einstellungen > Technisch > Aktionen > Berichte**. Filtern Sie die Liste nach dem *Name* des Berichts oder dem *Modellname*.
 
-![](assets/Entwicklung%20Berichte%20filtern.png)
+![](attachments/Entwicklung%20Berichte%20filtern.png)
 
 Wählen Sie den Bericht aus und notieren Sie den *Vorlagenname* des Berichts.
 
-![](assets/Entwicklung%20Bericht%20Vorlagenname.png)
+![](attachments/Entwicklung%20Bericht%20Vorlagenname.png)
 
 Nun haben Sie alle Elemente um den Bericht als HTML anzuzeigen. Geben Sie die folgende URL ein: /report/html/**stock.report_deliveryslip**/**3**
 
-![](assets/Entwicklung%20Bericht%20angezeigt.png)
+![](attachments/Entwicklung%20Bericht%20angezeigt.png)
 
 ## Verwaltung
 
@@ -121,7 +121,7 @@ Kopieren Sie die *ID* der Ansicht via *Entwicklertools > Metadaten anzeigen* und
 
 Ihre Ansicht wird nun vom Bericht über den *Vorlagename* identifiziert. Kehren Sie zum Bericht zurück und wählen *Zum Druckmenü hinzufügen*
 
-![](assets/Entwicklung%20QWeb-Berichte%20Drucken%20Kundenstandards.png)
+![](attachments/Entwicklung%20QWeb-Berichte%20Drucken%20Kundenstandards.png)
 
 ### Benutzerdefinierter Bericht kopieren
 
@@ -162,15 +162,15 @@ Navigieren Sie nun nach *Einstellungen > Technisch > Benutzer-Interface > Ansich
 
 Nun exportieren Sie die Ansicht um eine *XML ID* zu generieren.
 
-![QWeb-Berichte XML ID generieren](assets/QWeb-Berichte%20XML%20ID%20generieren.gif)
+![QWeb-Berichte XML ID generieren](attachments/QWeb-Berichte%20XML%20ID%20generieren.gif)
 
 Setzen Sie als *Ansichtsbezeichnung* die *XML ID*, ersetzen Sie dabei `__export__` mit einer anderen Bezeichner beispielsweise `mint_system`. Öffnen Sie den Bericht und setzen Sie als *Vorlagenname* die *XML ID* ein.
 
-![](assets/QWeb-Berichte%20Vorlagenname%20setzen.png)
+![](attachments/QWeb-Berichte%20Vorlagenname%20setzen.png)
 
 Wurde das Kontext-Menü mit der Aktion *Zum Druckmenü hinzufügen* erstellt, kann der Bericht entsprechend erstellt werden.
 
-![](assets/QWeb-Berichte%20Drucken.png)
+![](attachments/QWeb-Berichte%20Drucken.png)
 
 ::: tip
 Odoo verlinkt das Ansichts- und Berichtsobjekt über die externe ID bzw. XML ID.

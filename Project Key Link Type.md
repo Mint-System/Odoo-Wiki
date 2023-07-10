@@ -7,7 +7,7 @@ tags:
 prev: ./project
 ---
 # Project Key Link Type
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Projektnummer anhand Projekttyp erstellen.
 
@@ -24,4 +24,4 @@ Repository: <https://github.com/OCA/project/tree/15.0/project_key_link_type>
 
 Ist diese Erweiterung installiert wird beim Erstellen des Projekt anhand des Typs eine Projektnummer generiert. Beim Aktualisieren des Projekts wird die Projektnummer und Projektname als Anzeigename für die Kostenstelle festgelegt.
 
-![Project Key Link Type](assets/Project%20Key%20Link%20Type.gif)
+![Project Key Link Type](attachments/Project%20Key%20Link%20Type.gif)

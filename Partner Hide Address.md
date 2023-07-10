@@ -7,7 +7,7 @@ tags:
 prev: ./partner
 ---
 # Partner Hide Address
-![](assets/icon_oms_box.png)
+![](attachments/icon_oms_box.png)
 
 Addressen auf Berichten ausblenden.
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/
 
 Mit dieser Erweiterung finden unter *Konakte > Kontakt auswählen > Tab Verkauf & Einkauf* die Option *Hide Address*.
 
-![](assets/Partner%20Hide%20Address.png)
+![](attachments/Partner%20Hide%20Address.png)

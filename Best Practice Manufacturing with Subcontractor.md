@@ -29,4 +29,4 @@ Zuletzt können Sie die [Anlieferung bestätigen](Stock.md#Anlieferung%20bestät
 
 Der Traceability-Bericht sieht dann wie folgt aus:
 
-![](assets/Best%20Practice%20Fertigung%20mit%20Subunternehmer.png)
+![](attachments/Best%20Practice%20Fertigung%20mit%20Subunternehmer.png)

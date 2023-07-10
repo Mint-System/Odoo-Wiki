@@ -7,7 +7,7 @@ tags:
 prev: ./manufacture
 ---
 # Stock MRP Traceability List
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Daten aus Lieferverfolgungsbericht als Liste anzeigen.
 
@@ -23,11 +23,11 @@ Zeigen Sie einen erledigten Fertigungsauftrag via *Fertigung > Vorgänge > Ferti
 
 Die Lieferverfolgungsliste:
 
-![](assets/Stock%20MRP%20Traceability%20List.png)
+![](attachments/Stock%20MRP%20Traceability%20List.png)
 
 Der Lieferverfolungsbericht:
 
-![](assets/Stock%20MRP%20Traceability%20List%20Report.png)
+![](attachments/Stock%20MRP%20Traceability%20List%20Report.png)
 
 ::: tip
 Wenn der Fertigungsauftrag nicht erledigt ist, aber Materialreservationen gemacht wurden, versucht der Bericht anhand der Lot die Lieferverfolgungsliste zu erstellen.

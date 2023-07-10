@@ -6,7 +6,7 @@ tags:
 prev: ./stock
 ---
 # Scanner Zebra DS22
-![icons_odoo_stock](assets/icons_odoo_stock.png)
+![icons_odoo_stock](attachments/icons_odoo_stock.png)
 
 {{ $frontmatter.description }}
 
@@ -22,6 +22,6 @@ Damit Sie den Handscanner in Betrieb nehmen können, müssen Sie einzig die Tast
 
 Verbinden Sie den Scanner mit dem Computer. Scannen einer der folgenden Codes um den Betriebsmodus zu ändern.
 
-![](assets/Handscanner%20Zebra%20DS22.png)
+![](attachments/Handscanner%20Zebra%20DS22.png)
 
 Weitere Konfiugrations-Codes finden Sie in der [Bedienungsanleitung](https://www.zebra.com/content/dam/zebra_new_ia/en-us/manuals/barcode-scanners/ds2208-qsg-en.pdf)

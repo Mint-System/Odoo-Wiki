@@ -7,7 +7,7 @@ tags:
 prev: ./manufacture
 ---
 # MRP Production Release
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,5 +20,5 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_
 
 Die Installation dieser Erweiterung führt dazu, dass auf bestätigten Fertigungsaufträgen der Knopf *Unrelease* und *Release* erscheint. Mit der *Unrelease*-Aktion wird der Fertigungsauftrag in den Entwurfsstatus gesetzt und alle verknüpften Lagerbuchungen entfernen. In diesem Zustand kann beispielsweise die Stückliste ausgewechselt werden. Mit der *Release*-Aktion wird der Fertigungsauftrag wieder bereit für die *Bestätigung* gemacht.
 
-![MRP Production Release](assets/MRP%20Production%20Release.gif)
+![MRP Production Release](attachments/MRP%20Production%20Release.gif)
 

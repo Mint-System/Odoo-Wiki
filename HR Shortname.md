@@ -7,7 +7,7 @@ tags:
 prev: ./personal
 ---
 # HR Shortname
-![](assets/icon_odoo_hr_shortname.png)
+![](attachments/icon_odoo_hr_shortname.png)
 
 {{ $frontmatter.description }}
 
@@ -20,8 +20,8 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/hr_shortname>
 
 Ist diese Erweiterung installiert, können Sie bei Mitarbeitenden ein Kürzel eintragen:
 
-![](assets/HR%20Shortname%20Kürzel%20Erfassen.png)
+![](attachments/HR%20Shortname%20Kürzel%20Erfassen.png)
 
 Und danach suchen:
 
-![](assets/HR%20Shortname%20Suche.png)
+![](attachments/HR%20Shortname%20Suche.png)

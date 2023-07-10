@@ -6,7 +6,7 @@ tags:
 prev: ./stock
 ---
 # Lager Bestand
-![icons_odoo_stock](assets/icons_odoo_stock.png)
+![icons_odoo_stock](attachments/icons_odoo_stock.png)
 
 {{ $frontmatter.description }}
 
@@ -20,7 +20,7 @@ Für jeden Lagerort wird ein Bestand geführt *Lager > Konfiguration > Lagerorte
 Damit Sie diese Aktion ausführen können, müssen Sie [Superuser werden](Settings.md#Superuser%20werden)
 :::
 
-![](assets/Lager%20Bestand%20Reservierter%20Bestand%20zurücksetzen.png)
+![](attachments/Lager%20Bestand%20Reservierter%20Bestand%20zurücksetzen.png)
 
 Wenn Sie offene Lieferungen mit reservierten Mengen haben, können Sie die Aktion [Reservierungen zurücksetzen](Stock%20Actions.md#Reservierungen%20zurücksetzen) erstellen und ausführen.
 
@@ -28,7 +28,7 @@ Wenn Sie offene Lieferungen mit reservierten Mengen haben, können Sie die Aktio
 
 Für jedes einlagerbare Produkt kann eine Meldebestand definiert werden. Navigieren Sie nach *Lager > Konfiguration > Meldebestände* und erstellen Sie einen neuen Eintrag.
 
-![](assets/Lager%20Bestand%20Meldebestand.png)
+![](attachments/Lager%20Bestand%20Meldebestand.png)
 
 Für dieses Produkt wird bei Unterschreitung des Minimalbestand automatisch ein Bestellvorschlag generiert. Mit [Scheduler manuell starten](Stock%20Operations.md#Scheduler%20manuell%20starten) können Sie die Bestandsregeln forcieren.
 
@@ -47,7 +47,7 @@ Anschliessend müssen Sie eine [Inventur vorbereiten](#Inventur%20vorbereiten). 
 
 Legen Sie für die einen Zeilen den neuen Lagerort und die zu übertragende Menge fest und setzen Sie die Menge der anderen Zeilen auf 0.  Schliessen Sie die Inventur ab.
 
-![](assets/Lager%20Bestand%20Bestand%20verschoben.png)
+![](attachments/Lager%20Bestand%20Bestand%20verschoben.png)
 
 ## Inventur
 
@@ -116,4 +116,4 @@ Nummernfolge: `2`
 
 Das Ergebnis sollte so aussehen:
 
-![](assets/Lager%20Bestand%20Inventur%20Gebinde.png)
+![](attachments/Lager%20Bestand%20Inventur%20Gebinde.png)

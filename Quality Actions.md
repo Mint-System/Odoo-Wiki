@@ -8,7 +8,7 @@ prev: ./quality
 ---
 
 # Qualität Aktionen
-![icons_odoo_quality_control](assets/icons_odoo_quality_control.png)
+![icons_odoo_quality_control](attachments/icons_odoo_quality_control.png)
 
 {{ $frontmatter.description }}
 

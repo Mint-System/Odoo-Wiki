@@ -7,7 +7,7 @@ tags:
 prev: ./partner
 ---
 # Partner Secondary Email
-![](assets/icon_oms_box.png)
+![](attachments/icon_oms_box.png)
 
 Zweite E-Mail für alle Kontakte.
 

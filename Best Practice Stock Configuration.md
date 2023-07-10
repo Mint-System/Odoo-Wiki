@@ -11,7 +11,7 @@ In den Grundeinstellungen ist ein Lager mit dem Namen *San Francisco*, dem Kurzn
 
 Beispiel:
 
-![Lager Lager anlegen](assets/Lager%20Lager%20anlegen.png)
+![Lager Lager anlegen](attachments/Lager%20Lager%20anlegen.png)
 
 (Der Name *San Francisco* hat damit zu tun, dass der Name des Lagers mit einem geografischen Ort zusammenhängen soll.)
 
@@ -20,29 +20,29 @@ Beispiel:
 Zu diesem Zeitpunkt sind bereits Standard Lagerorte angelegt. Sie werden aber erst sichtbar, wenn man die Option *Lagerorte* einschaltet. Navigieren Sie hierfür in den Einstellungen zum Abschnitt *Lager > Lager* und aktivieren Sie *Lagerorte*.
 Anschliessend werden in der App *Lager* über den Menüpunkt *Konfiguration > Lager & Logistik > Lagerorte* die folgenden Lagerorte sichtbar (schalten Sie den Filter *intern* aus):
 
-![Lager Lagerorte Standard](assets/Lager%20Lagerorte%20Standard.png)
+![Lager Lagerorte Standard](attachments/Lager%20Lagerorte%20Standard.png)
 
 Die folgenden zusätzlichen Lager sind vobereitet aber als *archiviert* vorerst verborgen. (Die archivierten Lagerorte werden sichtbar, wenn durch die Auswahl von komplexeren Lagerrouten zusätzliche Lager benötigt werden.)
 
-![Lager Lagerorte Standard archiviert](assets/Lager%20Lagerorte%20Standard%20archiviert.png)
+![Lager Lagerorte Standard archiviert](attachments/Lager%20Lagerorte%20Standard%20archiviert.png)
 
 ### Standard Routen für Lieferungen
 
 Um das Einrichten der kundenspezifischen Warentransfers im Lager zu vereinfachen sind Standard Konfigurationen programmiert. Öffnen Sie das entsprechende Lager über die Liste in der Ansicht *Konfiguration > Lager & Logistik > Lager*). Nach dem Einschalten von *Bearbeiten* zeigt sich die folgende Auswahl:
 
-![Lager Konfiguration Standard](assets/Lager%20Konfiguration%20Standard.png)
+![Lager Konfiguration Standard](attachments/Lager%20Konfiguration%20Standard.png)
 
 Um Ware zwischen den Lagerorten zu bewegen sind *Routen* und *Regeln* vorbereitet. Für die oben dargestellte Konfiguration *1 Schritt* sind die folgenden zwei Routen im Menu *Konfiguration > Lager & Logistik > Routen* vorgesehen:
 
-![Lager Routen Standard 1 step](assets/Lager%20Routen%20Standard%201%20step.png)
+![Lager Routen Standard 1 step](attachments/Lager%20Routen%20Standard%201%20step.png)
 
 Die folgenden zwei Routen sind vorhanden, aber archiviert:
 
-![Lager Routen Standard 1 archivert](assets/Lager%20Routen%20Standard%201%20archivert.png)
+![Lager Routen Standard 1 archivert](attachments/Lager%20Routen%20Standard%201%20archivert.png)
 
 Die entsprechenden Regeln finden sich im Menu *Konfiguration > Lager & Logistik > Regeln*.  (Damit in der Liste der Name sichtbar ist, wurde im Entwicklermodus die Spalte `<field name="name"/>` eingefügt.)
 
-![Lager Regeln Standard 1 Step](assets/Lager%20Regeln%20Standard%201%20Step.png)
+![Lager Regeln Standard 1 Step](attachments/Lager%20Regeln%20Standard%201%20Step.png)
 
 Für die genannte Einstellung *1 Schritt* sind nur die ersten zwei Regeln relevant. Die anderen Regeln stehen im Zusammenhang mit archivierten Routen.
 
@@ -50,7 +50,7 @@ Für die genannte Einstellung *1 Schritt* sind nur die ersten zwei Regeln releva
 
 Damit funktioniert der Warentransfer mit der Konfiguration *1 Schritt* mit den programmierten Routen und den Lagerorten nach dem folgenden Schema:
 
-![Lager Konfiguration Schema 1 Schritt](assets/Lager%20Konfiguration%20Schema%201%20Schritt.svg)
+![Lager Konfiguration Schema 1 Schritt](attachments/Lager%20Konfiguration%20Schema%201%20Schritt.svg)
 
 **Wareneingang 2 Schritte**
 
@@ -58,35 +58,35 @@ Mit dem Einschalten der Konfiguration *2 steps* für den Wareneingang erscheint 
 
 Damit funktioniert der *Wareneingang* mit der Konfiguration *2 steps* mit den programmierten Routen und den Lagerorten nach dem folgenden Schema:
 
-![Lager Konfiguration Schema 2 Schritt](assets/Lager%20Konfiguration%20Schema%202%20Schritt.svg)
+![Lager Konfiguration Schema 2 Schritt](attachments/Lager%20Konfiguration%20Schema%202%20Schritt.svg)
 
 **Wareneingang 3 Schritte**
 
-![Lager Konfiguration Schema 3 Schritt](assets/Lager%20Konfiguration%20Schema%203%20Schritt.svg)
+![Lager Konfiguration Schema 3 Schritt](attachments/Lager%20Konfiguration%20Schema%203%20Schritt.svg)
 
 **Ausgehende Lieferungen 2 Schritte**
 
 Für ausgehende Lieferungen zeigt sich das Schema folgendermassen (die Bezeichnung der Route ist falsch übersetzt. Es sollte heissen *Auslieferung in 2 Schritten*):
 
-![Lager Konfiguration Schema 2 Schritt Lieferung](assets/Lager%20Konfiguration%20Schema%202%20Schritt%20Lieferung.svg)
+![Lager Konfiguration Schema 2 Schritt Lieferung](attachments/Lager%20Konfiguration%20Schema%202%20Schritt%20Lieferung.svg)
 
 **Ausgehende Lieferungen 3 Schritte**
 
-![Lager Konfiguration Schema 3 Schritt Lieferung](assets/Lager%20Konfiguration%20Schema%203%20Schritt%20Lieferung.svg)
+![Lager Konfiguration Schema 3 Schritt Lieferung](attachments/Lager%20Konfiguration%20Schema%203%20Schritt%20Lieferung.svg)
 
 ### Standard Lagerorte für die Beschaffung
 
 Mit der Installation der App *Fertigung* werden die Funktionen im Lager mit den folgenden Möglichkeiten ergänzt:
 
-![Lager Konfiguration Standard Beschaffung](assets/Lager%20Konfiguration%20Standard%20Beschaffung.png)
+![Lager Konfiguration Standard Beschaffung](attachments/Lager%20Konfiguration%20Standard%20Beschaffung.png)
 
 Falls auch die App *Einkauf* und *Fertigung* installiert sind, wird die Auswahl mit der folgenden Option ergänzt:
 
-![Lager Konfiguration Standard Beschaffung Einkauf](assets/Lager%20Konfiguration%20Standard%20Beschaffung%20Einkauf.png)
+![Lager Konfiguration Standard Beschaffung Einkauf](attachments/Lager%20Konfiguration%20Standard%20Beschaffung%20Einkauf.png)
 
 Damit zusammenhängend erweitert sich die Liste der Routen mit *Fertigung* und *Einkaufen*.
 
-![Lager Routen Standard 1 Step Fertigung Einkaufen](assets/Lager%20Routen%20Standard%201%20Step%20Fertigung%20Einkaufen.png)
+![Lager Routen Standard 1 Step Fertigung Einkaufen](attachments/Lager%20Routen%20Standard%201%20Step%20Fertigung%20Einkaufen.png)
 
 Mit der Einstellung *Herstellung (1 Schritt)* werden noch keine zusätzlichen Lagerorte benötigt. Falls aber auf *Zusammenstellen der Komponenten und dann fertigen (2ter Schritt)* geändert wird, erscheint das zusätzliche Lager *WH/Pre-Production*.
 
@@ -94,27 +94,27 @@ Mit der Einstellung *Herstellung (1 Schritt)* werden noch keine zusätzlichen La
 
 **Fertigung 2 Schritte**
 
-![Lager Konfiguration Schema 2 Schritt Beschaffung](assets/Lager%20Konfiguration%20Schema%202%20Schritt%20Beschaffung.svg)
+![Lager Konfiguration Schema 2 Schritt Beschaffung](attachments/Lager%20Konfiguration%20Schema%202%20Schritt%20Beschaffung.svg)
 
 **Fertigung 3 Schritte**
 
-![Lager Konfiguration Schema 3 Schritt Beschaffung](assets/Lager%20Konfiguration%20Schema%203%20Schritt%20Beschaffung.svg)
+![Lager Konfiguration Schema 3 Schritt Beschaffung](attachments/Lager%20Konfiguration%20Schema%203%20Schritt%20Beschaffung.svg)
 
 **Reihenfolge**
 
 Die Reihenfolge der Routen und damit die Priorisierung wird über die Liste in der Darstellung Lager > Konfiguration > Routen definiert.
 
-![Lager Routen Reihenfolge](assets/Lager%20Routen%20Reihenfolge.png)
+![Lager Routen Reihenfolge](attachments/Lager%20Routen%20Reihenfolge.png)
 
 Die entsprechende Darstellung im Tab *Lager* in der Produktansicht zeigt sich wie folgt:
 
-![Lager Routen Reihenfolge Produkt](assets/Lager%20Routen%20Reihenfolge%20Produkt.png)
+![Lager Routen Reihenfolge Produkt](attachments/Lager%20Routen%20Reihenfolge%20Produkt.png)
 
 **Sichtbarkeit**
 
 Die Sichtbarkeit der Routen in den verschiedenen Darstellungen wird über die Option *Auswahlmöglichkeit* für jede Route eingestellt.
 
-![Lager Routen](assets/Lager%20Routen.svg)
+![Lager Routen](attachments/Lager%20Routen.svg)
 
 **Vordefinierte Routen**
 
@@ -124,11 +124,11 @@ Für den Empfang und die Lieferung von Produkten sind Routen für die Varianten 
 
 Empfangsschritte:
 
-![Lager Empfangsschritte](assets/Lager%20Empfangsschritte.svg)
+![Lager Empfangsschritte](attachments/Lager%20Empfangsschritte.svg)
 
 Lieferungsschritte:
 
-![Lager Lieferungsschritte](assets/Lager%20Lieferungsschritte.svg)
+![Lager Lieferungsschritte](attachments/Lager%20Lieferungsschritte.svg)
 
 ### Spezifische Route für die Wareneingangsprüfung
 
@@ -144,14 +144,14 @@ Mit der Umstellung wird die Regel auf der Route *Einkauf* geändert.
 
 Regel für 1 Schritt:
 
-![Lager Routen Standard Buy](assets/Lager%20Routen%20Standard%20Buy.png)
+![Lager Routen Standard Buy](attachments/Lager%20Routen%20Standard%20Buy.png)
 
 Regel für 3 Schritt:
 
-![Lager Routen Standard Input](assets/Lager%20Routen%20Standard%20Input.png)
+![Lager Routen Standard Input](attachments/Lager%20Routen%20Standard%20Input.png)
 
-![Lager Vorgangstypen Standard Anlieferungen](assets/Lager%20Vorgangstypen%20Standard%20Anlieferungen.png)
+![Lager Vorgangstypen Standard Anlieferungen](attachments/Lager%20Vorgangstypen%20Standard%20Anlieferungen.png)
 
 
-![Lager Vorgangstypen Standard Anlieferungen direkt](assets/Lager%20Vorgangstypen%20Standard%20Anlieferungen%20direkt.png)
+![Lager Vorgangstypen Standard Anlieferungen direkt](attachments/Lager%20Vorgangstypen%20Standard%20Anlieferungen%20direkt.png)
 

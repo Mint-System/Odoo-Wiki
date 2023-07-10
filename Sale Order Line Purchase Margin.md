@@ -7,7 +7,7 @@ tags:
 prev: ./sale-blanket-order
 ---
 # Sale Order Line Purchase Margin
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Kalkulation der Marge basierend auf verlinkter Bestellung.
 
@@ -24,4 +24,4 @@ Mit dieser Erweiterungen wird die Marge jeder Verkaufspositionen anhand der Kost
 Wenn es mehrere verlinkte Bestellpositionen gibt, wird der Durchschnitt aus deren Kosten berechnet.
 :::
 
-![Sale Order Line Purchase Margin](assets/Sale%20Order%20Line%20Purchase%20Margin.gif)
+![Sale Order Line Purchase Margin](attachments/Sale%20Order%20Line%20Purchase%20Margin.gif)

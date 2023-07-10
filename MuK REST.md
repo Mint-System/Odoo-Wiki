@@ -7,7 +7,7 @@ tags:
 prev: ./iot
 ---
 # MuK REST API for Odoo
-![](assets/odoo_icon_muk_rest.png)
+![](attachments/odoo_icon_muk_rest.png)
 
 {{ $frontmatter.description }}
 

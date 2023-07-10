@@ -6,7 +6,7 @@ tags:
 prev: ./settings
 ---
 # Einstellungen E-Mail
-![icons_odoo_settings](assets/icons_odoo_settings.png)
+![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 {{ $frontmatter.description }}
 
@@ -153,7 +153,7 @@ der Eintrag `mail.catchall.domain` unter *Einstellungen > Technisch > Parameter 
 
 In der E-Mail-Vorlage muss im Tab *E-Mail-Konfiguration* das feld *Antwort an* gesetzt sein.
 
-![](assets/Einstellungen%20E-Mail%20Konfiguration.png)
+![](attachments/Einstellungen%20E-Mail%20Konfiguration.png)
 
 ### E-Mail nach Versand nicht löschen
 

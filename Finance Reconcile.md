@@ -6,7 +6,7 @@ tags:
 prev: ./finance
 ---
 # Finanzen Abstimmung
-![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
+![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}
 
@@ -33,7 +33,7 @@ Bestätigen Sie den Bankauszug.
 
 Zeigen Sie das Dashboard von *Finanzen* an. Wählen Sie *Import* unter dem Name des Bankjournals. Laden Sie im Dialog die Datei mit den Kontoauszügen hoch.
 
-![](assets/Finanzen%20Kontoauszug%20importieren.png)
+![](attachments/Finanzen%20Kontoauszug%20importieren.png)
 
 Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Bewebungen wird angezeigt.
 
@@ -51,11 +51,11 @@ Navigieren Sie nach *Finanzen > FInanzen > Überfällige Forderungen* und erweit
 
 Navigieren Sie nach *Finanzen > Konfiguration > Ausgleichsmodelle* und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel zur Rundungsdifferenz:
 
-![](assets/Finanzen%20Abstimmung%20Rundungsdifferenz.png)
+![](attachments/Finanzen%20Abstimmung%20Rundungsdifferenz.png)
 
 Dieses Ausgleichsmodell können im Abgleichsvorgang mit einem Knopfdruck anwenden:
 
-![](assets/Finanzen%20Abstimmung%20Ausgleichsmodell%20anwenden.png)
+![](attachments/Finanzen%20Abstimmung%20Ausgleichsmodell%20anwenden.png)
 
 ### Buchungsatz von Vorgang aus Bankauszug anzeigen
 

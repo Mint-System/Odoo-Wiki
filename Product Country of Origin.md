@@ -7,7 +7,7 @@ tags:
 prev: ./manufacture
 ---
 # Product Country of Origin
-![](assets/odoo_icon_product_country_of_origin.png)
+![](attachments/odoo_icon_product_country_of_origin.png)
 
 Bestimmen Sie für jedes Produkt ein Herkunftsland.
 

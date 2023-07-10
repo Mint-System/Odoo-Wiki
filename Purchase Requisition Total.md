@@ -7,7 +7,7 @@ tags:
 prev: ./purchase-requisition
 ---
 # Purchase Requisition Total
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Kaufvertrag mit Steuern, Zwischensummen und Total.
 
@@ -22,8 +22,8 @@ Mit dieser Erweiterung wird auf dem kaufvertrag der Netto- und Steuerbetrag sowi
 
 Listenansicht der Kaufverträge:
 
-![](assets/Purchase%20Requisition%20Total%20Liste.png)
+![](attachments/Purchase%20Requisition%20Total%20Liste.png)
 
 Formularansicht der Kaufverträge:
 
-![](assets/Purchase%20Requisition%20Total%20Formular.png)
+![](attachments/Purchase%20Requisition%20Total%20Formular.png)

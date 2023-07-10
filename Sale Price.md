@@ -6,7 +6,7 @@ tags:
 prev: ./sale
 ---
 # Verkauf Preise
-![icons_odoo_sale](assets/icons_odoo_sale.png)
+![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
 {{ $frontmatter.description }}
 
@@ -30,7 +30,7 @@ Navigieren Sie nach *Verkauf > Konfiguration > Preiskalkulation* und aktivieren 
 
 Öffnen Sie ein Produkt via *Verkauf > Produkte > Produkte* und markieren Sie *Kann verkauft werden*. Neue Optionen erscheinen auf der Produktansicht.
 
-![Produkte zum Verkauf deklarieren](assets/Produkte%20zum%20Verkauf%20deklarieren.gif)
+![Produkte zum Verkauf deklarieren](attachments/Produkte%20zum%20Verkauf%20deklarieren.gif)
 
 ### Verkaufspreis auf Produkt festlegen
 
@@ -50,7 +50,7 @@ Navigieren Sie nach *Einstellungen > Verkauf > Produktkatalog* und aktiveren Sie
 
 Zuletzt tragen Sie Werte für das Attribut ein.
 
-![](assets/Verkauf%20Stammdaten%20Produktattributte.png)
+![](attachments/Verkauf%20Stammdaten%20Produktattributte.png)
 
 ### Produktvarianten konfigurieren
 
@@ -94,7 +94,7 @@ Navigieren Sie nach *Verkauf > Produkte > Preislisten* und erstellen Sie einen n
 
 Dazu ein Beispiel:
 
-![](assets/Verkauf%20Preisregel%20Rabat.png)
+![](attachments/Verkauf%20Preisregel%20Rabat.png)
 
 Beim Auswahl der Preisliste im Angebot wird anschliessend der Preis mit Rabatt berechnet und eingetragen.
 
@@ -121,21 +121,21 @@ Erstellen Sie eine zweite Preisregel für den normalen Preis:
 
 Dazu ein Beispiel:
 
-![](assets/Verkauf%20Stammdaten%20Preisliste%20mit%20Rabatt.png)
+![](attachments/Verkauf%20Stammdaten%20Preisliste%20mit%20Rabatt.png)
 
 ### Preisliste mit Staffelpreisen
 
 Um für ein Produkt in Abhängigkeit zu unterschiedlichen Mengen eine Preisstaffelung einzurichten, muss die entsprechende Option *Preislisten / Mehrere Preise pro Produkt* unter *Einstellungen > Verkauf  > Preiskalkulation* eingeschaltet werden.
 
-![](assets/Verkauf%20Stammdaten%20Staffelpreise.png)
+![](attachments/Verkauf%20Stammdaten%20Staffelpreise.png)
 
 Ein Beispiel könnte so aussehen:
 
-![](assets/Verkauf%20Stammdaten%20Staffelpreise%20Beispiel.png)
+![](attachments/Verkauf%20Stammdaten%20Staffelpreise%20Beispiel.png)
 
 In einem *Angebot / Verkaufsauftrag* werden die Preise entsprechend unterschiedlich angezeigt. Dazu das folgende Beispiel:
 
-![](assets/Verkauf%20Stammdaten%20Staffelpreise%20Verkaufsauftrag%20Beispiel.png)
+![](attachments/Verkauf%20Stammdaten%20Staffelpreise%20Verkaufsauftrag%20Beispiel.png)
 
 ### Preisregeln anzeigen
 

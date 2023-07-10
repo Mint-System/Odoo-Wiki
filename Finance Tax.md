@@ -6,7 +6,7 @@ tags:
 prev: ./finance
 ---
 # Finanzen Mehrwertsteuer
-![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
+![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}
 
@@ -23,11 +23,11 @@ Wenn Sie die Mehrwertsteuer nach vereinnahmten Entgelten abrechnen wolle, navigi
 
 Wenn Sie [nach vereinnahmten Entgelten verrechnen](#Nach%20vereinnahmten%20Entgelten%20verrechnen), können Sie für jeden Steuersatz die Steuerfälligkeit festlegen. Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern* und öffnen Sie einen Steuersatz. Im Tab *Erweiterte Optionen* finden Sie das Feld *Steuerfälligkeit*. Wählen Sie *Auf der Grundlage einer Zahlung* und legen Sie ein Übergangskonto fest, wenn Sie für diesen Steuersatz nach vereinnahmten Entgelt abrechnen möchten.
 
-![](assets/Finanzen%20Mehrwertsteuer%20Grundlage%20Zahlung.png)
+![](attachments/Finanzen%20Mehrwertsteuer%20Grundlage%20Zahlung.png)
 
 Wird der entsprechende Steuersatz auf der Rechnungszeile verwendet, wird die MWST-Buchung entsprechend angepasst:
 
-![](assets/Finanzen%20Mehrwertsteuer%20Grundlage%20Zahlung%20Buchung.png)
+![](attachments/Finanzen%20Mehrwertsteuer%20Grundlage%20Zahlung%20Buchung.png)
 
 ### Steuersatz erfassen
 
@@ -59,7 +59,7 @@ Im Tab *Erweiterte Optionen* haben Sie diese wichtigen Felder:
 
 Für jeden Steuersatz können Sie ein Mehrwertsteuer-Konto festlegen. Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern* und zeigen Sie einen Steuersatz an. Im Tab *Definition* legen Sie das Mehrwertsteuer-Konto für Rechnungen und Rückerstattungen fest.
 
-![](assets/Finanzen%20Mehrwertsteuer%20Abrechnungskonto.png)
+![](attachments/Finanzen%20Mehrwertsteuer%20Abrechnungskonto.png)
 
 ::: tip
 Für Steuersätze von eingehenden Rechnungen verwenden Sie das Vorsteuerkonto 1170 oder 1171 und für ausgehende Rechnungen das Konto 2200.
@@ -73,7 +73,7 @@ Für Steuersätze von eingehenden Rechnungen verwenden Sie das Vorsteuerkonto 11
 
 Klicken Sie auf *Einstellungen > Finanzen > Steuern > Konfigurieren der Steuerkonten*. Hier können Sie die Konten pro Steuersatz für die Bezahlung der Mehrwertsteuer hinterlegen.
 
-![](assets/Finanzen%20Mehrwertsteuer%20Abrechnung.png)
+![](attachments/Finanzen%20Mehrwertsteuer%20Abrechnung.png)
 
 ::: tip
 Normalerweise werden in den Spalten *Steuer aktuelles Konto (bezahlen)* und *Steuer aktuelles Konto (empfangen)* das Konto *2201 Abrechnungskonto MWST* hinterlegt.
@@ -83,7 +83,7 @@ Normalerweise werden in den Spalten *Steuer aktuelles Konto (bezahlen)* und *Ste
 
 Für jedes Konto können Sie einen Standard-Steuersatz hinterlegen. Rufen Sie das Konto in der Formularansicht auf und legen Sie den Steuersatz im Feld *Standard Steuern* fest.
 
-![](assets/Finanzen%20Mehrwertsteuer%20Standard%20Steuern.png)
+![](attachments/Finanzen%20Mehrwertsteuer%20Standard%20Steuern.png)
 
 ### Standard-Steuer für Verkauf und Einkauf festlegen
 
@@ -132,7 +132,7 @@ Zeigen Sie *Finanzen > Kunden > Kunden* an. Öffnen Sie einen bestimmten Kunden 
 
 Wenn Sie eine Abschlussbuchung für die Mehrwertsteuer vornehmen wollen, öffnen Sie *Finanzen > Berichtswesen > Umsatzsteuerbericht* und klicken auf *Abschlussbuchung*. Nun wird eine Buchung für die Steuererklärung gemäss Steuerperiode (siehe [Steuerperiode festlegen](#Steuerperiode%20festlegen)) erstellt. Dabei wird der Steuerbetrag aus dem zu schuldenden Steuerbetrag sowie Vorsteuerabzug gemäss Steuerkonten berechnet.
 
-![](assets/Finanzen%20Mehrwertsteuer%20Abschlussbuchung.png)
+![](attachments/Finanzen%20Mehrwertsteuer%20Abschlussbuchung.png)
 
 ::: tip
 Standardmässig ist die Übersicht der Steuerkonten in der Navigation nicht sichtbar. Führen Sie die Aktion [Steuergruppen anzeigen](#Steuergruppen%20anzeigen) aus um einen entsprechenden Menü-Eintrag zu erstellen.
@@ -142,22 +142,22 @@ Standardmässig ist die Übersicht der Steuerkonten in der Navigation nicht sich
 
 Wenn Sie [nach vereinnahmten Entgelten verrechnen](#Nach%20vereinnahmten%20Entgelten%20verrechnen) und eine Abstimmung für eine Rechnung mit einer Steuerfälligkeit *Auf der Grundlage einer Zahlung* durchführen, wird eine Umbuchung vom Übergangskonto auf das effektive MWST-Konto erstellt. Öffnen Sie das Steuer-Journal um diese Buchungen anzueigen.
 
-![](assets/Finanzen%20Mehrwertsteuer%20Buchung%20Übergangskonto.png)
+![](attachments/Finanzen%20Mehrwertsteuer%20Buchung%20Übergangskonto.png)
 
 ### Steueranpassung vornehmen
 
 Angenommen Sie haben auf einer Lieferantenrechnung eine falsche Steuer verrechnet und der Umsatzsteuerbericht ist bereits verbucht, so können Sie mit der Aktion *Finanzen > Finanzen > Steueranpassung* eine Korrekturbuchung erstellen. Geben Sie als Betrag den Steuerbetrag ein.
 
 Hier ein Beispiel einer Lieferantenrechung zur Korrektur:
-![](assets/Finanzen%20Mehrwertsteuer%20Steueranpassung%20Rechnung.png)
+![](attachments/Finanzen%20Mehrwertsteuer%20Steueranpassung%20Rechnung.png)
 
 Der Fehlbetrag wird im Aktionsformular eingetragen.
 
-![](assets/Finanzen%20Mehrwertsteuer%20Steueranpassung.png)
+![](attachments/Finanzen%20Mehrwertsteuer%20Steueranpassung.png)
 
 Und daraus wird diese Buchung generiert.
 
-![](assets/Finanzen%20Mehrwertsteuer%20Steueranpassung%20Buchung.png)
+![](attachments/Finanzen%20Mehrwertsteuer%20Steueranpassung%20Buchung.png)
 
 ## Technisch
 

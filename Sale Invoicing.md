@@ -6,7 +6,7 @@ tags:
 prev: ./sale
 ---
 # Verkauf Abrechnung
-![icons_odoo_sale](assets/icons_odoo_sale.png)
+![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
 Verkaufsaufträge unkompliziert abrechnen.
 
@@ -48,21 +48,21 @@ Bei Käufe aus dem Webshop kann der Status *Zusatzverkaufschance* entstehen, wen
 
 Öffnen Sie *Verkauf*, gruppieren Sie die Aufträge nach Kunde und setzen Sie als Filter *Abzurechnen*. Öffnen Sie einen Kunden, markieren Sie die Einträge und wählen Sie *Aktion > Rechnung erzeugen*.
 
-![](assets/Verkauf%20Rechnung%20erzeugen.png)
+![](attachments/Verkauf%20Rechnung%20erzeugen.png)
 
 Im Dialog wählen Sie *Erzeuge und zeige Rechnung an*.
 
-![](assets/Verkauf%20Rechnung%20anzeigen.png)
+![](attachments/Verkauf%20Rechnung%20anzeigen.png)
 
 Nun wird für jeden Positionen in den Verkaufsaufträgen eine Rechnungsposition erstellt. Jede Rechnungsposition ist mit der entsprechenden Verkaufsauftragsposition verknüpft.
 
-![](assets/Verkauf%20Auftragsposition%20verknüpft.png)
+![](attachments/Verkauf%20Auftragsposition%20verknüpft.png)
 
 ### Angebot einem bestehenden Projekt zuweisen
 
 Wenn Sie Dienstleistungen im Angebot haben, die eine Projektaufgabe generieren und Sie diese einem bestehenden Projekt zuordnen möchten, zeigen Sie den Tab *Weitere Informationen* an. Wählen Sie im Feld *Projekt* ein bestehendes Projekt aus. Beim Bestätigen des Angebots wird die Aufgabe im gewählten Projekt erstellt und mit der Auftragszeile verbunden.
 
-![](assets/Verkauf%20Projekt%20auswählen.png)
+![](attachments/Verkauf%20Projekt%20auswählen.png)
 
 ::: tip
 Das Feld *Projekt* wird nur angezeigt, wenn eine Auftragszeile eine Dienstleistung enthält, die zur Abrechnung eine Projekt oder Projektaufgabe erstellt. 

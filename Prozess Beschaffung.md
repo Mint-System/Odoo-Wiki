@@ -7,7 +7,7 @@ prev: ./referenzsystem
 ---
 # Prozess Beschaffung
 
-![Prozess Beschaffung](assets/Prozess%20Beschaffung.svg)
+![Prozess Beschaffung](attachments/Prozess%20Beschaffung.svg)
 
 ## Prozessschritte
 

@@ -6,7 +6,7 @@ tags:
 prev: ./sale
 ---
 # Verkauf Berichte
-![icons_odoo_sale](assets/icons_odoo_sale.png)
+![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
 Verkaufsdaten immer aktuell.
 
@@ -22,7 +22,7 @@ Zeigen Sie die Pivot-Ansicht unter *Verkauf > Berichtswesen > Verkauf* an. Angen
 
 Wählen Sie ganz einfach die entsprechenden Felder:
 
-![](assets/Verkauf%20Berichte%20Verkaufszeilen.png)
+![](attachments/Verkauf%20Berichte%20Verkaufszeilen.png)
 
 ### Auftragszeilen mit dynamischen Filter auswerten
 

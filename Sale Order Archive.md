@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Sale Order Archive
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Abgebrochene Verkaufsaufträge archivieren.
 

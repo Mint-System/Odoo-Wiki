@@ -7,7 +7,7 @@ tags:
 prev: ./personal
 ---
 # HR Vehicle Request Calendar
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_vehicle_re
 
 Mit dieser Erweiterung wird beim Bestätigen der Fahrzeuganfrage ein Termin im Kalender erstellt und eine Nachricht mit dem Termin als Anhang verschickt.
 
-![HR Vehicle Request Calendar](assets/HR%20Vehicle%20Request%20Calendar.gif)
+![HR Vehicle Request Calendar](attachments/HR%20Vehicle%20Request%20Calendar.gif)

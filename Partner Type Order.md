@@ -7,7 +7,7 @@ tags:
 prev: ./partner
 ---
 # Partner Type Order
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.
 
@@ -20,8 +20,8 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/15.0/
 
 Mit dieser Erweiterung erhalten Sie als zusätzlichen Adresstype *Bestelladresse*.
 
-![](assets/Partner%20Type%20Order.png)
+![](attachments/Partner%20Type%20Order.png)
 
 Unterkontakte dieses Typs werden entsprechend mit einm Icon markiert.
 
-![](assets/Partner%20Type%20Order%20Icon.png)
+![](attachments/Partner%20Type%20Order%20Icon.png)

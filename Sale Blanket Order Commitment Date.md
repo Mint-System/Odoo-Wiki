@@ -7,7 +7,7 @@ tags:
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Commitment Date
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Kopiert das geplante Datum der Rahmenauftragszeile in das Lieferdatum der Verkaufsauftragszeile.
 
@@ -22,8 +22,8 @@ Beim Erstellen eines Verkaufsauftrag aus einem Rahmenauftrag wird mit dieser Erw
 
 Rahmenauftragszeile:
 
-![](assets/Sale%20Blanket%20Order%20Commitment%20Date%20Date%20Schedule.png)
+![](attachments/Sale%20Blanket%20Order%20Commitment%20Date%20Date%20Schedule.png)
 
 Verkaufsautragszeile:
 
-![](assets/Sale%20Blanket%20Order%20Commitment%20Date.png)
+![](attachments/Sale%20Blanket%20Order%20Commitment%20Date.png)

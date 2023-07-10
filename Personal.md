@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Personal
-![icons_odoo_hr](assets/icons_odoo_hr.png)
+![icons_odoo_hr](attachments/icons_odoo_hr.png)
 
 Personalmanagement für moderne Unternehmen.
 
@@ -53,7 +53,7 @@ Navigieren Sie nach *Personal* und wählen Sie *+ Anlegen*. Geben Sie den Vor- u
 
 Alternativ zu [Mitarbeiter erfassen](#Mitarbeiter%20erfassen) können Sie nach *Einstellungen > Benutzer > Benutzer verwalten* navigieren und hier den Odoo-Benutzer auswählen. Über den Knopf *Mitarbeiter anlegen* können Sie den Mitarbeiter erfassen. Dieser wird über den Smart-Link verknüpft.
 
-![](assets/Peresonal%20Smart-Link%20Mitarbeiter.png)
+![](attachments/Peresonal%20Smart-Link%20Mitarbeiter.png)
 
 ### Vorgesetzte hinterlegen
 
@@ -63,7 +63,7 @@ Damit Prozesse korrekt Ablaufen, muss die *Organisations-Charta* konfiguriert we
 
 Sie können einen bestehenden Benutzer mit einem Mitarbeitenden-Eintrag verknüpfen. Zeigen Sie den Eintrag via *Personal* an und öffnen Sie den Tab *HR Einstellungen*. Wählen Sie hier im Feld *Verknüpfter Benutzer* den entsprechenden Benutzer aus.
 
-![](assets/Personal%20Verknüpfter%20Benutzer.png)
+![](attachments/Personal%20Verknüpfter%20Benutzer.png)
 
 ## Adressen
 
@@ -85,19 +85,19 @@ Zur Lohnabrechung und Abrechnung von Aufwänden brauchen Mitarbeitende eine priv
 
 Navigieren Sie nach *Einstellungen > Technisch > Arbeitszeit* und erstellen Sie einen neuen Eintrag mit Namen gemäss dem bestehenden Schema. Geben Sie entweder die *Durchschnittliche Stundenzahl pro Tag* manuell ein oder erstellen Sie neue Einträge in der Liste *Arbeitsstunden*.
 
-![](assets/Personal%20Arbeitszeit.png)
+![](attachments/Personal%20Arbeitszeit.png)
 
 ### Flexible Arbeitszeit erfassen
 
 Navigieren Sie nach *Einstellungen > Technisch > Arbeitszeit* und erstellen Sie einen neuen Eintrag mit Namen *Standard 0 hours/week*. Entfernen Sie alle Einträge in *Arbeitsstunden* und tragen Sie als *Durchschnittliche Stundenzahl pro Tag* den Wert `0` ein. 
 
-![](assets/Personal%20Flexible%20Arbeitszeit.png)
+![](attachments/Personal%20Flexible%20Arbeitszeit.png)
 
 ### Arbeitszeiten festlegen
 
 Um die Arbeitszeiten für einen Mitarbeiter zu ändern, öffnen Sie das App *Personal* und wählen den Mitarbieter aus. Wählen Sie *Bearbeiten* und legen Sie im Tab *Arbeitsinformation* unter *Arbeitsplan* die *Arbeitsstunden* fest.
 
-![](assets/Personal%20Arbeitsstunden.png)
+![](attachments/Personal%20Arbeitsstunden.png)
 
 ### Arbeitspensum wechseln
 
@@ -109,7 +109,7 @@ Um das Pensum eines Mitarbeits zu wechseln, muss ein Endatum für die bestehende
 
 Erstellen Sie eine neues Pensum *Personal > Mitarbeiter auswählen > Tab Arbeitsinformation > Ausführungsplan > Anlegen und Bearbeiten*. Definieren Sie einen passenden Titel und legen Sie bei den bestehenden Arbeitszeiten das Enddatum fest.
 
-![](assets/Personal%20Arbeitszeiten%20mit%20Enddatum.png)
+![](attachments/Personal%20Arbeitszeiten%20mit%20Enddatum.png)
 
 ## Offboarding
 

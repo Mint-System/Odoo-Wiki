@@ -7,7 +7,7 @@ tags:
 prev: ./purchase
 ---
 # Purchase Order Comment
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Kommentar-Feld für Einkaufsaufträge.
 
@@ -24,13 +24,13 @@ Mit dem Systemparameter `purchase.order.copy_requisition_comment` können Sie fe
 
 Öffnen Sie einen Einkaufsauftrag via *Einkauf > Aufträge > Bestellungen*. Im Tab *Weitere Informationen* finden Sie das Feld *Kommentar*.
 
-![](assets/Purchase%20Order%20Comment.png)
+![](attachments/Purchase%20Order%20Comment.png)
 
 ### Kommentar auf Kaufvertrag hinzufügen
 
 Öffnen Sie einen Kaufvertrag via *Einkauf > Aufträge > Kaufverträge. Im Tab *Weitere Informationen* finden Sie das Feld *Kommentar*.
 
-![](assets/Purchase%20Order%20Comment%20Kaufvertrag.png)
+![](attachments/Purchase%20Order%20Comment%20Kaufvertrag.png)
 
 
 

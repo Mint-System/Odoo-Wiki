@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Abrechnung
-![icons_odoo_account](assets/icons_odoo_account.png)
+![icons_odoo_account](attachments/icons_odoo_account.png)
 
 {{ $frontmatter.description }}
 
@@ -97,7 +97,7 @@ Angenommen Sie möchten die Empfängeradresse einer gebuchten Rechnung ändern, 
 
 Auf Kontakten können Sie Warnungs-Text hinterlegen, welche bei der Ertellung einer Rechnung angezeigt werden. Damit die entprechenden Felder auf dem Kontakt angezeigt werden, müssen Sie in den Benutzer-Einstellungen die Berechtigung *Eine Warnung kann auf einem Partner (Konto) gelegt werden* aktivieren. Unter *Kontakte > Eintrag auswählen > Tab Interne Notizen* finden Sie das entsprechende Feld.
 
-![](assets/Abrechnung%20Warnung.png)
+![](attachments/Abrechnung%20Warnung.png)
 
 ## Empfang
 
@@ -113,11 +113,11 @@ Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits könn
 
 Zur Digitalisierung einer Rechnung laden Sie als erstes die PDF-Datei via *Finanzen > Lieferanten > Rechnungen > Hochladen* hoch. Öffnen Sie die Rechnung und starten Sie dann die Aktion *Send for digitalization*. Nach wenigen Sekunden sollte die Rechnungsangaben aus dem PDF ausgelesen und abgefüllt werden.
 
-![](assets/Abrechnung%20Rechnung%20digitalisieren.png)
+![](attachments/Abrechnung%20Rechnung%20digitalisieren.png)
 
 Der Digitalisierungsprozess dauert wenige Sekunden. Sie können den Status mit *Aktualisieren* überprüfen.
 
-![](assets/Abrechnung%20Digitalisierung%20überprüfen.png)
+![](attachments/Abrechnung%20Digitalisierung%20überprüfen.png)
 
 ## Vorlagen
 
@@ -141,7 +141,7 @@ Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generie
 
 * Auf dem Bankkonto des Unternehmens muss das Feld `CHF ISR Subscription Number` ausgefüllt sein
 
-![](assets/Abrechnung%20ESR-Nummern.png)
+![](attachments/Abrechnung%20ESR-Nummern.png)
 
 * Das auf der Rechnung hinterlegte Konto muss mit diesem Unternehmenskonto übereinstimmen
 * Die Rechnung ist im Status *Gebucht*
@@ -186,7 +186,7 @@ Wenn Sie eine neue Rechnung schreiben und die Rundungsmethode festgelegt ist, we
 
 Für jedes Produkt können Sie definieren, ob es nach der Lieferung oder nach der Bestellung verrechnet werden soll. Navigieren Sie nach *Abrechnung > Produkte > Produkte* und zeigen Sie ein Produkt an. Im Feld *Fakturierungsregel* können Sie bestimmen Sie Verrechnungsart bestimmen.
 
-![](assets/eCommerce%20Fakturierungsregel%20auf%20Produkt.png)
+![](attachments/eCommerce%20Fakturierungsregel%20auf%20Produkt.png)
 
 ::: warning
 Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzurechendende Menge des Verkaufsauftrag aktualisiert werden. Nur dann wird das zusätzliche Produkt auf die Rechnung übertragen.

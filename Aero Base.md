@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Aero Base
-![icon](assets/icons_odoo_aero_base.png)
+![icon](attachments/icons_odoo_aero_base.png)
 
 {{ $frontmatter.description }}
 

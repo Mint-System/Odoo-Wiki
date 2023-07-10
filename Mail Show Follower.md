@@ -7,7 +7,7 @@ tags:
 prev: ./discuss
 ---
 # Mail Show Follower
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -20,7 +20,7 @@ Repository: <https://github.com/OCA/social/tree/15.0/mail_show_follower>
 
 Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion*. Im Bereich *Show Followers on mails* können Sie das Format des CC-Hinweis festlegen. Wählen Sie für *Text 'Sent to'* den Text `Diese Nachricht wurde an folgende Empfänger geschickt:`.
 
-![](assets/Mail%20Show%20Follower.png)
+![](attachments/Mail%20Show%20Follower.png)
 
 ## Verwendung
 
@@ -28,4 +28,4 @@ Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion*. Im 
 
 Mit dieser Erweiterung wird bei mehreren Empfängern von E-Mails einen Hinweis mit den Namen der Empfänger im E-Mail eingefügt.
 
-![](assets/Mail%20Show%20Follower%20Example.png)
+![](attachments/Mail%20Show%20Follower%20Example.png)

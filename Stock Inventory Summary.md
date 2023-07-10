@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Stock Inventory Summary
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Lagerbestand gruppiert nach Lagerort und Produkt.
 

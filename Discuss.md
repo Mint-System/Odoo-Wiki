@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Diskussion
-![icons_odoo_mail](assets/icons_odoo_mail.png)
+![icons_odoo_mail](attachments/icons_odoo_mail.png)
 
 {{ $frontmatter.description }}
 
@@ -45,15 +45,15 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 
 Nachrichten, die von Odoo versendet werden, werden zentral gespeichert. Im Entwicklermodus sehen Sie diese unter *Einstellungen > Technisch > E-Mail > Nachrichten*. Hier sehen Sie alle versendeten Nachrichten aufgelistet. In der Detailansicht sieht man den *Nachrichtentext* und die Metadaten.
 
-![](assets/Diskussion%20Detailansicht.png)
+![](attachments/Diskussion%20Detailansicht.png)
 
 Jede versendete Nachricht erhält eine eindeutige *Nachrichten-ID*.
 
-![](assets/Diskussion%20Nachrichten-ID.png)
+![](attachments/Diskussion%20Nachrichten-ID.png)
 
 Wurde die Nachricht als Mail versendet, können Sie im Tab *Empfänger* die Kontakte sehen.
 
-![](assets/Diskussion%20Empfänger.png)
+![](attachments/Diskussion%20Empfänger.png)
 
 ### Nachrichten abrufen
 
@@ -69,7 +69,7 @@ Wenn Sie einen Chatter zum Odoo-Geschäftsobjekt sehen, können Sie mit einem Kl
 
 Fügen Sie einen Abonnent dem Odoo-Objekt hinzu indem Sie rechts von *Abonnieren* auf das Icon klicken und *Followers hinzufügen* wählen.
 
-![Diskussion Abonnent hinzufügen](assets/Diskussion%20Abonnent%20hinzufügen.gif)
+![Diskussion Abonnent hinzufügen](attachments/Diskussion%20Abonnent%20hinzufügen.gif)
 
 ### Abonnement bearbeiten
 
@@ -79,7 +79,7 @@ Wählen Sie ein Abonnement auf dem Odoo-Gschäftsobjekts aus, indem Sie rechts v
 
 Entfernen Sie einen Abonnent vom Odoo-Objekt indem Sie rechts von *Abonnieren* auf das Icon klicken.
 
-![Diskussion Abonnent entfernen](assets/Diskussion%20Abonnent%20entfernen.gif)
+![Diskussion Abonnent entfernen](attachments/Diskussion%20Abonnent%20entfernen.gif)
 
 ## Benachrichtigungen
 
@@ -91,7 +91,7 @@ Wenn Odoo Nachrichten versendet, werden abonnierte Benutzer benachrichtigt. Dies
 
 Navigieren Sie nach *Einstellungen > Technisch > Subtypen* und zeigen Sie beispielsweise den Subtyp *Bestätigt* an.
 
-![](assets/Diskussion%20Subtyp%20Bestätigt.png)
+![](attachments/Diskussion%20Subtyp%20Bestätigt.png)
 
 Konfigurieren Sie den Subtypen gemäss Anforderungen:
 
@@ -103,7 +103,7 @@ Konfigurieren Sie den Subtypen gemäss Anforderungen:
 
 Zeigen Sie ein Odoo Dokument an und beareiten Sie ein Abonnement.
 
-![](assets/Diskussion%20Abonnement%20bearbeiten.png)
+![](attachments/Diskussion%20Abonnement%20bearbeiten.png)
 
 Wählen Sie die Subtypen aus, welche für das Abonnement aktiv sein sollen.
 

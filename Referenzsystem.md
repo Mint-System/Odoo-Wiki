@@ -13,7 +13,7 @@ Diese Organisation ist als Prozesssystem mit Prozesslandkarte und Prozessen defi
 
 Die Prozesslandkarte ist die oberste Ebene des Prozesssystems. Sie zeigt in einer grafischen Übersicht alle Prozesse und deren Zusammenhänge.
 
-![Prozesslandkarte](assets/Prozesslandkarte.svg)
+![Prozesslandkarte](attachments/Prozesslandkarte.svg)
 
 Prozesse:
 * [Produktentwicklung](Prozess%20Produktentwicklung.md)

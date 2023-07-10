@@ -8,7 +8,7 @@ prev: ./website-ecommerce
 ---
 
 # PITS Payment Saferpay
-![](assets/odoo_icons_payment_saferpay.png)
+![](attachments/odoo_icons_payment_saferpay.png)
 
 {{ $frontmatter.description }}
 

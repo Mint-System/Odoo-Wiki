@@ -6,7 +6,7 @@ tags:
 prev: ./finance
 ---
 # Finanzen Kostenrechnung
-![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
+![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}
 

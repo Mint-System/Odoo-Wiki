@@ -7,7 +7,7 @@ tags:
 prev: ./development
 ---
 # Web Environment Ribbon
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/OCA/web/tree/14.0/web_environment_ribbon>
 
 Ist diese Erweiterung installiert, erscheint am oberen linken Rand der Odoo-Oberfäche ein Banner. Damit kann die Umgebung beispielsweise als Test-Umgebung markiert werden.
 
-![](assets/Web%20Environment%20Ribbon.png)
+![](attachments/Web%20Environment%20Ribbon.png)

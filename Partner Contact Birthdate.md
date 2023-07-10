@@ -7,7 +7,7 @@ tags:
 prev: ./partner
 ---
 # Contact's birthdate
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Feld Geburtstag und Alter auf Kontakt vom Typ Einzelperson.
 

@@ -7,7 +7,7 @@ tags:
 prev: ./project
 ---
 # Project Timesheet Time Control
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Zeiterfassung auf Projektaufgabe starten.
 

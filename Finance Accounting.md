@@ -6,7 +6,7 @@ tags:
 prev: ./finance
 ---
 # Finanzen Buchhaltung
-![icons_odoo_account_accountant](assets/icons_odoo_account_accountant.png)
+![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}
 
@@ -22,7 +22,7 @@ Wenn Sie beispielsweise eine Buchhaltung per 01.01.2023 starten und Rechnungen a
 
 Zeigen Sie *Finanzen > Finanzen > Sonstiges > Buchungssätze* an. Legen Sie einen Buchungssatz an und geben Sie als erstes das *Buchungsdatum* an. Im Tab *Buchungszeile* geben Sie als nächstes Soll-Konto ein und navigieren mit <kbd>Tab</kbd> zum Feld *Buchungstext*. Geben Sie den Buchungstext und den Soll-Betrag ein. Erstellen Sie mit <kbd>Enter</kbd> eine neue Zeile und geben Sie das Haben-Konto ein. Odoo übernimmt den Soll-Betrag in Haben-Feld.
 
-![](assets/Finanzen%20Buchhaltung%20Buchungsatz%20erstellen.png)
+![](attachments/Finanzen%20Buchhaltung%20Buchungsatz%20erstellen.png)
 
 Speichern Sie den Buchungssatz und wählen Sie *Buchen*, wenn alle Angaben stimmen.
 
@@ -30,7 +30,7 @@ Speichern Sie den Buchungssatz und wählen Sie *Buchen*, wenn alle Angaben stimm
 
 Mit der Ausführung des Assisten wird eine Eröffungsbuchung erstellt. Navigieren Sie nach *Finanzen > Sonstiges > Buchungssätze* und öffnen Sie den Eintrag mit Bezeichnung *Journal-Eintrag wird geöffnet*.
 
-![](assets/Odoo%20Buchhaltung%20Eröffnungsbuchung%20anpassen.png)
+![](attachments/Odoo%20Buchhaltung%20Eröffnungsbuchung%20anpassen.png)
 
 Fügen Sie die Konten mit der entsprechenden Saldierung hinzu und buchen Sie Eröffnungsbuchung.
 
@@ -52,19 +52,19 @@ Angenommen Sie möchten einen Buchungssatz umkehren, beispielsweise für die Buc
 
 Hier haben wir eine Buchung am 31.12.
 
-![](assets/Finanzen%20Buchhaltung%20Eröffnung.png)
+![](attachments/Finanzen%20Buchhaltung%20Eröffnung.png)
 
 Wählen Sie *Stornobuchungssatz* unterhalb von *Bearbeiten*. Diese Auswahl erscheint, wenn die Buchung gebucht ist.
 
 Beim Klick öffnet dieser Dialog:
 
-![](assets/Finanzen%20Buchhaltung%20Stornieren.png)
+![](attachments/Finanzen%20Buchhaltung%20Stornieren.png)
 
 Wählen Sie das Journal und das Datum für die neue Buchung. Bestätigen Sie den Vorgang mit *Stornieren.*
 
 Nun wird ein umgekehrter Buchungssatz erstellt.
 
-![](assets/Finanzen%20Buchhaltung%20Umkehrung.png)
+![](attachments/Finanzen%20Buchhaltung%20Umkehrung.png)
 
 Diesen können Sie wie gewohnt anpassen.
 
@@ -72,7 +72,7 @@ Diesen können Sie wie gewohnt anpassen.
 
 Einmal gebuchte Buchungssätze können nicht gelöscht, aber abgebrochen werden. Zeigen Sie einen Buchungssatz an *Finanzen > Finanzen > Buchungssätze* und klicken Sie auf *Zurücksetzen*. Anschliessend wählen Sie *Buchung Abrechen*. 
 
-![](assets/Finanzen%20Buchhaltung%20Abgebrochen.png)
+![](attachments/Finanzen%20Buchhaltung%20Abgebrochen.png)
 
 Den abgebrochenen Buchungssatz können Sie mit *Zurücksetzen* wieder in den Entwurfsstatussetzen und von dort aus wieder buchen.
 
@@ -91,7 +91,7 @@ Damit wird eine Lohnbuchung in Journal *Lohn* importiert. Für den Import wähle
 
 Entfernen Sie den Steuersatz in der Spalte *Steuern*, wenn Sie keine Mehrwertsteuer-Buchung im Buchungssatz möchten.
 
-![Account Buchhaltung Manuelle Buchung ohne Steuer](assets/Account%20Buchhaltung%20Manuelle%20Buchung%20ohne%20Steuer.gif)
+![Account Buchhaltung Manuelle Buchung ohne Steuer](attachments/Account%20Buchhaltung%20Manuelle%20Buchung%20ohne%20Steuer.gif)
 
 ### Buchungszeilen ohne Entwicklermodus anzeigen
 
@@ -101,7 +101,7 @@ Das Menü *Buchungszeilen* wird nur im Entwicklermodus angezeigt. Um das Verhalt
 
 Im Dialog *Finanzen > Finanzen > Aktion > Sperrdaten* können Sie Sperrdaten für die Geschäfts- und Steuerperiode definieren.
 
-![](assets/Finanzen%20Sperrdatum%20festlegen.png)
+![](attachments/Finanzen%20Sperrdatum%20festlegen.png)
 
 ## Kontenplan
 
@@ -115,17 +115,17 @@ Konten für welche Sie keine Verwendung haben, können Sie anwählen und die Che
 
 Öffnen Sie die Übersicht der Konten *Finanzen > Konfiguration > Finanzen > Kontenplan* und filtern Sie die Konten gemäss ihren Anforderungen. Markieren Sie die Konten und wählen Sie *Select all ...*. Führen Sie *Aktion > Export* aus.
 
-![](assets/Finanzen%20Kontenplan%20exportieren.png)
+![](attachments/Finanzen%20Kontenplan%20exportieren.png)
 
 Im Export-Dialog können Sie auf der linken Seite die zu exportierenden Felder suchen und dem Export auf der rechten Seite hinzufügen. Dies ist eine Odoo-Standardfunktion, mehr dazu unter [Daten exportieren](Data%20Management.md#Daten%20exportieren).
 
-![](assets/Finanzen%20Daten%20exportieren.png)
+![](attachments/Finanzen%20Daten%20exportieren.png)
 
 ### Kontenplan gruppieren
 
 Den Kontenplan können Sie nach beliebigen Merkmalen gruppieren und die Gruppierung als Standard speichern.
 
-![Finanzen Kontenplan gruppieren](assets/Finanzen%20Kontenplan%20gruppieren.gif)
+![Finanzen Kontenplan gruppieren](attachments/Finanzen%20Kontenplan%20gruppieren.gif)
 
 ### Kontengruppen erstellen
 
@@ -142,7 +142,7 @@ Standardmässig werden die Kontoarten nicht angezeigt. Damit diese angezeigt wer
 * **Obermenü**: Finanzen/Konfiguration/Finanzen
 * **Aktion**: ir.actions.act_window Kontoarten
 
-![](assets/Finanzen%20Kontoarten%20anzeigen.png)
+![](attachments/Finanzen%20Kontoarten%20anzeigen.png)
 
 ### Zahlungskonten konfigurieren
 
@@ -156,7 +156,7 @@ Auf jedem Journal vom Typ *Bank* oder *Kasse/Bank* ist hinterlegt welches Konto 
 
 Um eine Rechnungsabgrenzung in Odoo vorzunehmen, wählen Sie die Rechnung via *Finanzen > Lieferanten > Rechnungen* aus. Zeigen Sie den Tab *Buchungszeilen* an und klicken Sie auf *Cut-Off* bei der betroffenen Zeile. Nun erscheint ein Dialog um die Abgrenzung vorzunehmen.
 
-![](assets/Abrechnung%20Rechnungsabgrenzung.png)
+![](attachments/Abrechnung%20Rechnungsabgrenzung.png)
 
 Mit *Create Journal Entries* wird die Buchung und Gegenbuchung für die Rechnungsabgrenzung erstellt.
 
@@ -166,7 +166,7 @@ Mit *Create Journal Entries* wird die Buchung und Gegenbuchung für die Rechnung
 
 Wählen Sie *Finanzen > Finanzen > Steueranpassungen* und erstellen Sie einen neuen Eintrag. Schliessen Sie den Vorgang mit *Buchung Anlegen und Buchen* ab. Dazu ein Beispiel:
 
-![](assets/Finanzen%20Buchhaltung%20Steueranpassung.png)
+![](attachments/Finanzen%20Buchhaltung%20Steueranpassung.png)
 
 ## Überweisung
 
@@ -174,7 +174,7 @@ Wählen Sie *Finanzen > Finanzen > Steueranpassungen* und erstellen Sie einen ne
 
 Wählen Sie *Finanzen > Bank-Journal > Kontextmenü > Interne Überweisung*. 
 
-![](assets/Finanzen%20Buchhaltung%20Interne%20Überweisung.png)
+![](attachments/Finanzen%20Buchhaltung%20Interne%20Überweisung.png)
 
 Wählen Sie ob mit *Zahlungsart*, ob Sie Geld empfang oder senden möchten. Geben Sie einen Betrag ein und schliessen Sie den Vorgang mit *Bestätigen* ab.
 
@@ -184,6 +184,6 @@ Wählen Sie ob mit *Zahlungsart*, ob Sie Geld empfang oder senden möchten. Gebe
 
 Zeigen die App *Finanzen* an und wählen Sie beim Journal *Bargeld* das Kontext-Menü und *Neu > Beleg* aus.
 
-![](assets/Finanzen%20Buchhaltung%20Bargeld%20Beleg.png)
+![](attachments/Finanzen%20Buchhaltung%20Bargeld%20Beleg.png)
 
 Geben Sie eine passende Referenz beispielsweise *Kassenabrechnung Januar 2023* ein. Bei *Anfangssaldo* klicken Sie auf *-> Zähle* und erfassen so den Anfangsbestan der Kasse. Anschliessend wiederholen Sie den Vorgang für *Endsaldo*. Nun können Sie den Beleg direkt buchen ohne bei *Transkationen* einen Eintrag zu machen. Odoo berechnet die Differenz aus Anfangs- und Endsaldo und erstellt dazu eine Transaktion.

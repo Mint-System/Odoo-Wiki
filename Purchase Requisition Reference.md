@@ -7,7 +7,7 @@ tags:
 prev: ./purchase-requisition
 ---
 # Purchase Requisition Reference
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 Feld Lieferantenreferenz auf Kaufvertrag hinzufügen.
 
@@ -25,5 +25,5 @@ Mit dem Systemparameter `purchase_requisition_reference.copy_reference` können 
 
 Mit diesem Modul erhält der Kaufvertrag ein Feld *Lieferantenreferenz*.
 
-![](assets/Purchase%20Requisition%20Reference.png)
+![](attachments/Purchase%20Requisition%20Reference.png)
 

@@ -6,7 +6,7 @@ tags:
 prev: ./partner
 ---
 # Kontakte Datenmanagement
-![icons_odoo_website_sale_options](assets/icons_odoo_website_sale_options.png)
+![icons_odoo_website_sale_options](attachments/icons_odoo_website_sale_options.png)
 
 {{ $frontmatter.description }}
 

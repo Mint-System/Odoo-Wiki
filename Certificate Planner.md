@@ -7,7 +7,7 @@ tags:
 prev: ./
 ---
 # Certificate Planner
-![](assets/icon_odoo_certificate_planer.png)
+![](attachments/icon_odoo_certificate_planer.png)
 
 {{ $frontmatter.description }}
 
@@ -20,7 +20,7 @@ Repository: <https://github.com/Mint-System/Certificate-Planner>
 
 Nachdem Sie sich eingeloggt haben, können Sie den Certificate Planner über das App-Dashboard aufrufen.
 
-![](assets/Certificate%20Planner%20aufrufen.gif)
+![](attachments/Certificate%20Planner%20aufrufen.gif)
 
 ## Umfrage
 
@@ -34,13 +34,13 @@ Navigieren Sie nach *Einstellungen > Certificate Planner > Umfragen*. Wählen Si
 
 Wenn Sie einen Change unter *Certificate Planner > Certificate > Changes* anzeigens, können Sie im Tab die *Survey* die Aktion *Start Survey* wählen. Es öffnet sich eine neue Seite mit der Umfrage. Nach dem Ausfüllen der Umfrage kehren Sie zurück und wählen die Aktion *Reload Survey Result Lists*. Bearbeiten Sie den Change und wählen Sie das neue Antwort-Set aus.
 
-![](assets/Certificate%20Planner%20Umfrage%20ausfüllen.gif)
+![](attachments/Certificate%20Planner%20Umfrage%20ausfüllen.gif)
 
 ### Change-Umfrage-Revision erstellen
 
 Miter Aktion *Revise Survey* können Sie auf einem Change *Certificate Planner > Certificate > Changes > Change wählen > Tab Survey* eine neue Umfrage starten. Die Version der letzten Antwort wird übernommen und inkrementiert. So können nachvollziehbar Revisionen angelegt werden.
 
-![](assets/Certificate%20Planner%20Umfrage-Revision%20erstellen.gif)
+![](attachments/Certificate%20Planner%20Umfrage-Revision%20erstellen.gif)
 
 ## Dokument
 
@@ -48,19 +48,19 @@ Miter Aktion *Revise Survey* können Sie auf einem Change *Certificate Planner >
 
 Zur Rücksprache und Besprechung können Sie bei Dokumente einen Kommentar hinterlassen.
 
-![](assets/Certificate%20Planner%20Kommentar%20bei%20Dokument%20hinterlassen.gif)
+![](attachments/Certificate%20Planner%20Kommentar%20bei%20Dokument%20hinterlassen.gif)
 
 ### Mehrere Dokumentrevisionen bearbeiten
 
 Für bestimmte Listenansichten steht die Massenbearbeitung zur Verfügung.
 
-![Certificate Planner Massenbearbeitung](assets/Certificate%20Planner%20Massenbearbeitung.gif)
+![Certificate Planner Massenbearbeitung](attachments/Certificate%20Planner%20Massenbearbeitung.gif)
 
 ### Dokumentbericht erstellen
 
 Berichte zu einem Dokument können Sie mit der Aktion *Document Report* erstellen.
 
-![](assets/Certificate%20Planner%20Dokumentbericht%20erstellen.gif)
+![](attachments/Certificate%20Planner%20Dokumentbericht%20erstellen.gif)
 
 ## Import
 
@@ -79,11 +79,11 @@ Auf der linken Seite der Tabelle von `id` bis `description` sind die Dokumente. 
 
 Im ersten Schritt importiert man die Parts:
 
-![Certificate Planner Importieren Document und Parts 1](assets/Certificate%20Planner%20Importieren%20Document%20und%20Parts%201.gif)
+![Certificate Planner Importieren Document und Parts 1](attachments/Certificate%20Planner%20Importieren%20Document%20und%20Parts%201.gif)
 
 Anschliessend importiert man die Dokumente und Beziehungen:
 
-![Certificate Planner Importieren Document und Parts 2](assets/Certificate%20Planner%20Importieren%20Document%20und%20Parts%202.gif)
+![Certificate Planner Importieren Document und Parts 2](attachments/Certificate%20Planner%20Importieren%20Document%20und%20Parts%202.gif)
 
 Natürlich kann man weitere Felder und Beziehungen hinzufügen. Mit dem Feld `id` kann man eine eindeutige Referenz nach dem Import.
 
@@ -93,4 +93,4 @@ Natürlich kann man weitere Felder und Beziehungen hinzufügen. Mit dem Feld `id
 
 Haben Sie eine Rückmeldung zur App, können Sie diese als Notiz dem Entwickler mitteilen.
 
-![](assets/Certificate%20Planner%20Feedback%20erstellen.gif)
+![](attachments/Certificate%20Planner%20Feedback%20erstellen.gif)

@@ -6,7 +6,7 @@ tags:
 prev: ./finance
 ---
 # Account Statement Import Camt54
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -27,7 +27,7 @@ Gilt bis #Odoo14.
 
 Navigieren Sie nach *Finanzen* wählen beim abzugleichenden Konto *Import Auszüge* aus. Laden Sie im Dialog die XML-Datei hoch. Nach Bedarf können Sie den Namen der Datei anpassen.
 
-![](assets/Bank%20Account%20Camt54%20Import%20hochladen.png)
+![](attachments/Bank%20Account%20Camt54%20Import%20hochladen.png)
 
 Klicken Sie auf *Import* und anschliessend *Buchen*. Nun stehen die Belege zum Abgleich bereit. Wählen Sie *Abgleichen* und starten Sie den Vorgang.
 

@@ -6,7 +6,7 @@ tags:
 prev: ./best-practice
 ---
 # Warenbedarf
-![Best Practice Materialbedarf](assets/Best%20Practice%20Materialbedarf.svg)
+![Best Practice Materialbedarf](attachments/Best%20Practice%20Materialbedarf.svg)
 
 1. Ein Angebot wird durch die Bestätigung (durch den Kunden) zum Verkaufsauftrag.
 2. Bei der Erstellung des Angebots ist sichtbar, ob die zu liefernde Ware in der benötigten Menge aktuell verfügbar ist. Die Warnfarbe rot zeigt fehlende Ware. Mit der Übersicht *Prognose* (*Forecasted Report*) werden die Details zukünftiger Zu- und Abgänge sichtbar. Falls zum Lieferzeitpunkt genügend Ware verfügbar ist, steht nach der Bestätigung des Angebots/Erstellung des Verkaufsautrags die Anzeige auf grün. Ansonsten steht Sie auf rot.

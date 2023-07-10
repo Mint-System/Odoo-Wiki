@@ -7,7 +7,7 @@ tags:
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Comment
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Öffnen Sie einen Verkaufsauftrag via *Verkäufe > Aufträge > Aufträge*. Im Tab *Weitere Informationen* finden Sie das Feld *Kommentar*.
 
-![](assets/Sale%20Order%20Comment.png)
+![](attachments/Sale%20Order%20Comment.png)

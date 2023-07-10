@@ -17,8 +17,8 @@ Standardmässig sind folgende Vorgangstypen eingerichtet:
 
 Die Vorgangstypen erscheinen in der Lagerübersicht
 
-![Lager Lager Übersicht](assets/Lager%20Lager%20%C3%9Cbersicht.png)
+![Lager Lager Übersicht](attachments/Lager%20Lager%20Übersicht.png)
 
 Einstellungen:
 
-![Lager Vorgangstypen](assets/Lager%20Vorgangstypen.svg)
+![Lager Vorgangstypen](attachments/Lager%20Vorgangstypen.svg)

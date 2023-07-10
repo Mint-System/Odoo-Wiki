@@ -7,7 +7,7 @@ tags:
 prev: ./sale-order-line-description
 ---
 # Sale Order Line Description Name
-![icon_oms_box](assets/icon_oms_box.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
@@ -20,4 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 Mit dieser Erweiterung wird beim Eintragen des Produkt auf der Verkaufszeile der Produktname ohne interne Referenz übertragen.
 
-![Sale Order Line Description Name](assets/Sale%20Order%20Line%20Description%20Name.png)
+![Sale Order Line Description Name](attachments/Sale%20Order%20Line%20Description%20Name.png)

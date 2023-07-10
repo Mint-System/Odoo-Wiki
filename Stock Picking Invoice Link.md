@@ -7,7 +7,7 @@ tags:
 prev: ./stock
 ---
 # Stock Picking Invoice Link
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 Verlinkt Rechnungen und Transfers.
 
@@ -20,11 +20,11 @@ Repository: <https://github.com/OCA/stock-logistics-workflow/tree/15.0/stock_pic
 
 Diese Erweiterung verknüpft Lieferungen und Rechnungen. Auf einer Lieferung finden Sie einen Smart-Link für den Zugriff auf die verlinkten Rechnungen.
 
-![](assets/Stock%20Picking%20Invoice%20Link.png)
+![](attachments/Stock%20Picking%20Invoice%20Link.png)
 
 Dasselbe funktioniert auch umgekehrt.
 
-![](assets/Stock%20Picking%20Invoice%20Link%20Invoice.png)
+![](attachments/Stock%20Picking%20Invoice%20Link%20Invoice.png)
 
 ::: warning
 Damit eine Verlinkung erstellt werden kann, muss die LIeferung erledigt sein.

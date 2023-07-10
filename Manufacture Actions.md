@@ -7,7 +7,7 @@ tags:
 prev: ./manufacture
 ---
 # Fertigung Aktionen
-![icons_odoo_mrp](assets/icons_odoo_mrp.png)
+![icons_odoo_mrp](attachments/icons_odoo_mrp.png)
 
 {{ $frontmatter.description }}
 
@@ -115,7 +115,7 @@ record.action_generate_serial()
 ```
 
 Beispiel für eine automatische Aktion:
-![](assets/Fertigung%20Aktionen%20Lot-Nummer%20generieren.png)
+![](attachments/Fertigung%20Aktionen%20Lot-Nummer%20generieren.png)
 
 ## Geplante Aktionen
 

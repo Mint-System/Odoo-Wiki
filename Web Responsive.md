@@ -7,7 +7,7 @@ tags:
 prev: ./settings
 ---
 # Web Responsive
-![icon_oca_app](assets/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -20,7 +20,7 @@ Repository: <https://github.com/OCA/web/tree/15.0/web_responsive>
 
 Mit dieser Erweiterung erhalten Sie ein übersichtliches App-Dashboard auf der Odoo Community Edition.
 
-![](assets/Web%20Responsive.png)
+![](attachments/Web%20Responsive.png)
 
 ### Chatter-Position festlegen
 
@@ -30,4 +30,4 @@ Die bevorzugte Position des Chatters kann festlegt werden. Klicken Sie auf ihren
 * **Normal**: Der Chatter wird vorzugsweise am Ende der Seite dargestellt.
 * **Leer**: Die Positionierung erfolgt anhand der Seitenbreite.
 
-![](assets/Web%20Responsive%20Chatter-Position%20Auswahl.png)
+![](attachments/Web%20Responsive%20Chatter-Position%20Auswahl.png)

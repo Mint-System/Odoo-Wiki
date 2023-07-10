@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Marketing-Automatisierung
-![icons_odoo_marketing_automation](assets/icons_odoo_marketing_automation.png)
+![icons_odoo_marketing_automation](attachments/icons_odoo_marketing_automation.png)
 
 {{ $frontmatter.description }}
 
@@ -29,23 +29,23 @@ Navigieren Sie nach *Marketing-Automatisierung > Kampagnen* und rufen Sie eine K
 
 Dazu ein Beispiel:
 
-![](assets/Marketing-Automation%20Aktivität.png)
+![](attachments/Marketing-Automation%20Aktivität.png)
 
 ### Untergeordnete Marketing-Aktivität erstellen
 
 Abhängig von den Resultaten einer Aktivität, kann eine Unteraktivität erstellt werden. Zeigen Sie via *Markting-Automatisierung > Kampagnen* die Aktivität an und wählen Sie den Bereich *Untergeordnete Aktivität hinzufügen* an.
 
-![](assets/Marketing-Automation%20Untergeordnete%20Aktivitäten.png)
+![](attachments/Marketing-Automation%20Untergeordnete%20Aktivitäten.png)
 
 Klicken Sie auf einen Auslöser in der Auswahl. Der Dialog zur Erstellung einer Markting-Aktivität wird geöffnet und der Auslöser vorkonfiguriert.
 
-![](assets/Marketing-Automation%20Auslöser%20E-Mail%20Geöffnet.png)
+![](attachments/Marketing-Automation%20Auslöser%20E-Mail%20Geöffnet.png)
 
 ### Marketing-Aktivität testen
 
 Navigieren Sie nach *Marketing-Automatisierung > Kampagnen* und zeigen Sie eine Kampagne an. Wählen Sie die Aktion *Einen Test Starten*. Wählen Sie einen bestimmten Kontakt aus und bestätigen Sie den Dialog mit *Weiter*. Im neuen Dialog können Sie nun ausgewählte Marketing-Aktivitäten starten.
 
-![](assets/Marketing-Automation.png)
+![](attachments/Marketing-Automation.png)
 
 ::: tip
 Auf der Kampange finden Sie einen Smart-Link *X Tests*, der Sie zu den erstellten Tests bringt.

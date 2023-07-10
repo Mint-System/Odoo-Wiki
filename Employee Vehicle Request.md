@@ -8,7 +8,7 @@ prev: ./fahrzeugflotte
 ---
 # Employee Vehicle Request
 
-![](assets/icon_odoo_cybrosys.png)
+![](attachments/icon_odoo_cybrosys.png)
 
 {{ $frontmatter.description }}
 
@@ -21,7 +21,7 @@ Repository: <https://github.com/CybroOdoo/CybroAddons/tree/15.0/employee_vehicle
 
 Navigieren Sie nach *Personal > Vehicle Request > Vehicle Request* und erstellen Sie einen neuen Eintrag.
 
-![](assets/Employee%20Vehicle%20Request.png)
+![](attachments/Employee%20Vehicle%20Request.png)
 
 Bestätigen Sie die Anfrage mit *Send Request*.
 
