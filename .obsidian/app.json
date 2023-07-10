@@ -1,7 +1,7 @@
 {
   "strictLineBreaks": true,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "assets",
+  "attachmentFolderPath": "./",
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "trashOption": "local",
