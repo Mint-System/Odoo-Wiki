@@ -4,7 +4,7 @@ description: Berechnung Dauer anhand Start- und Endzeit.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personal
+prev: ./hr-timesheet
 ---
 # HR Timesheet From Until
 ![icons_odoo_hr_timesheet](attachments/icons_odoo_hr_timesheet.png)

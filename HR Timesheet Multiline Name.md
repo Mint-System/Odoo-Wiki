@@ -4,7 +4,7 @@ description: Mehrzeilige Beschreibung in Zeiterfassung.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personal
+prev: ./hr-timesheet
 ---
 # HR Timesheet Multiline Name
 ![icons_odoo_hr_timesheet](attachments/icons_odoo_hr_timesheet.png)
