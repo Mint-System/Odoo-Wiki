@@ -16,6 +16,10 @@ prev: ./finance
 
 Wenn Sie beispielsweise eine Buchhaltung per 01.01.2023 starten und Rechnungen aus dem Vorjahr erfassen möchten, diese aber nicht anzeigen möchten, können Sie ein Schwellen-Datum festlegen. Navigieren Sie nach *Einstellungen > Finanzen > Steuer-Zeiträume* und wählen Sie bei *Invoicing Switch Threshold* das entsprechende Datum aus.
 
+### Buchungszeilen ohne Entwicklermodus anzeigen
+
+Das Menü *Buchungszeilen* wird nur im Entwicklermodus angezeigt. Um das Verhalten zu ändern, öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge*, zeigen den Menüeintrag *Buchungszeilen* an und entfernen im Tab *Zugriffsrechte* die Gruppe. Aktualisieren Sie den Browser und verlassen Sie den Entwicklermodus. Sie sollten den Menüeintrag nun sehen.
+
 ## Buchhaltung
 
 ### Buchungsatz erstellen
@@ -76,6 +80,16 @@ Einmal gebuchte Buchungssätze können nicht gelöscht, aber abgebrochen werden.
 
 Den abgebrochenen Buchungssatz können Sie mit *Zurücksetzen* wieder in den Entwurfsstatussetzen und von dort aus wieder buchen.
 
+### Buchungsnummer neu sequenzieren
+
+Die Buchungssnummer oder Bezeichnung einer Buchung kann abhängig von der Periode neu sequenziert werden. Wählen Sie *Finanzen > Finanzen > Buchungssätze* und filtern Sie die Buchungssätze, welche Sie neu sequenzieren möchten. Markieren Sie die Einträge und wählen Sie *Aktion > Resequence*.
+
+![](Finance%20Buchhaltung%20Resequence.png)
+
+Im Dialog geben Sie die Start-Sequenz ein. Die Start-Sequenz kann beispielweise `BNK1/2023/06/0349` sein. Odoo nummeriert die ausgewählten Buchungenabhängig vom jeweiligen Monat und der Anzahl Buchungen innerhalb des Monats. 
+
+![](Finance%20Buchhaltung%20Resequence%20Dialog.png)
+
 ### Buchungssatz importieren
 
 Wenn Sie einen Buchungssatz mit meheren Zeilen im Excel erstellen und anschliessend in Odoo importieren möchten, verwenden Sie diese Vorlage:
@@ -92,10 +106,6 @@ Damit wird eine Lohnbuchung in Journal *Lohn* importiert. Für den Import wähle
 Entfernen Sie den Steuersatz in der Spalte *Steuern*, wenn Sie keine Mehrwertsteuer-Buchung im Buchungssatz möchten.
 
 ![Account Buchhaltung Manuelle Buchung ohne Steuer](attachments/Account%20Buchhaltung%20Manuelle%20Buchung%20ohne%20Steuer.gif)
-
-### Buchungszeilen ohne Entwicklermodus anzeigen
-
-Das Menü *Buchungszeilen* wird nur im Entwicklermodus angezeigt. Um das Verhalten zu ändern, öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge*, zeigen den Menüeintrag *Buchungszeilen* an und entfernen im Tab *Zugriffsrechte* die Gruppe. Aktualisieren Sie den Browser und verlassen Sie den Entwicklermodus. Sie sollten den Menüeintrag nun sehen.
 
 ### Sperrdatum festlegen
 
