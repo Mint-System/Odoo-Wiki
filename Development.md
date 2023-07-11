@@ -101,12 +101,16 @@ Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitge
 
 ## Datenmodelle
 
+### Datenmodell anzeigen
+
+Öffnen Sie *Einstellungen > Technisch > Datenbankstruktur > Datenmodelle* und suchen Sie das entsprechende Datenmodell.
+
 ### Datenmodell entfernen
 
-Öffnen Sie *Einstellungen > Technisch > Datenbankstruktur > Datenmodelle* und suchen Sie das entsprechende Datenmodell. Markieren Sie diesen und wählen Sie *Aktion > Löschen*.
+Öffnen Sie *Einstellungen > Technisch > Datenbankstruktur > Datenmodelle* und suchen Sie das entsprechende Datenmodell. Markieren Sie dieses und wählen Sie *Aktion > Löschen*.
 
 ::: warning
-Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
+Diese Vorgang kann die Integrität und Verfügbarkeit des Systems beeinträchtigen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
 :::
 
 ### Metadaten anzeigen
