@@ -18,9 +18,10 @@ Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
 
 ## Erweiterungen
 
-| Erweiterung                                                         | Beschreibung                                                                                                |
-| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [Stock Barcode MRP](Stock%20Barcode%20MRP.md)                       | Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen.                                                                                                             |
+| Erweiterung                                                   | Beschreibung                                                  |
+| ------------------------------------------------------------- | ------------------------------------------------------------- |
+| [Stock Barcode MRP](Stock%20Barcode%20MRP.md)                 | Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen. |
+| [Stock Barcode Maintenance](Stock%20Barcode%20Maintenance.md) | Barcode scannen und Inventar anzeigen.                        |
 
 ## Verwendung
 

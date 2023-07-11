@@ -22,6 +22,7 @@ Website: <https://www.odoo.com/de_DE/app/maintenance>
 | [Maintenance Plan](Maintenance%20Plan.md)                                   | Wartungspläne für Inventar erstellen.    |
 | [Maintenance Product](Maintenance%20Product.md)                             | Produkt und Inventar verknüpfen.         |
 | [Maintenance Request Repair](Maintenance%20Request%20Repair.md)             | Reparatur aus Wartung erstellen.         |
+| [Stock Barcode Maintenance](Stock%20Barcode%20Maintenance.md)               | Barcode scannen und Inventar anzeigen.   |
 
 ## Verwendung
 
