@@ -26,4 +26,4 @@ Navigieren Sie nach *Wartung > Inventar > Inventar* und zeigen Sie einen Eintrag
 
 Dazu ein Beispiel mit einer Handscanner-Simulation. Der Befehl auf der Kommandozeile simuliert den Scan eines Barcodes.
 
-![](Stock%20Barcode%20Maintenance.gif)
+![](attachments/Stock%20Barcode%20Maintenance.gif)

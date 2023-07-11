@@ -1,7 +1,7 @@
 {
   "strictLineBreaks": true,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "./",
+  "attachmentFolderPath": "./attachments",
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "trashOption": "local",
