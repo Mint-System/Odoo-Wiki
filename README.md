@@ -283,7 +283,7 @@ Alle Odoo-Funktionen auf ihrem Smartphone und Tablet.
 
 The Odoo Cloud Platform.
 
-### [Personal](Personal.md)
+### [Personal](HR.md)
 
 ![icons_odoo_hr](attachments/icons_odoo_hr.png)
 

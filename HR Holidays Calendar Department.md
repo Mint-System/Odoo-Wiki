@@ -4,7 +4,7 @@ description: Erweitert den Anwesenheitsbericht mit neuen Felder.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personal
+prev: ./hr
 ---
 # HR Holidays Calendar Department
 ![icon_oms_box](attachments/icon_oms_box.png)

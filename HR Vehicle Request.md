@@ -4,7 +4,7 @@ description: Fahrzeuganfragen für Mitarbeitende verwalten.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personal
+prev: ./hr
 ---
 # HR Vehicle Request
 ![icon_oms_box](attachments/icon_oms_box.png)

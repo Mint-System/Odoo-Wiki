@@ -112,7 +112,7 @@ Der Verkaufsauftrag ist mir der Spesenabrechnung verlinkt.
 :::
 
 ::: warning
-Der Mitarbeitende braucht eine private Adresse, damit die Spesenabrechung erstellt werden kann: [Private Adresse hinterlegen](Personal.md#Private%20Adresse%20hinterlegen).
+Der Mitarbeitende braucht eine private Adresse, damit die Spesenabrechung erstellt werden kann: [Private Adresse hinterlegen](HR.md#Private%20Adresse%20hinterlegen).
 :::
 
 ### Spesenabrechnung auszahlen

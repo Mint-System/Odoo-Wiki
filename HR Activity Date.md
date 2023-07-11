@@ -4,7 +4,7 @@ description: Plannungstypen mit Aktivitätsdatum basierend auf Arbeitsverträgen
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personal
+prev: ./hr
 ---
 # HR Activity Date
 ![icon_oms_box](attachments/icon_oms_box.png)

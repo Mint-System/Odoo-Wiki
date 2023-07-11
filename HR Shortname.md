@@ -4,7 +4,7 @@ description: Zu jedem Mitarbeitenden ein Kürzel speichern.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personal
+prev: ./hr
 ---
 # HR Shortname
 ![](attachments/icon_odoo_hr_shortname.png)

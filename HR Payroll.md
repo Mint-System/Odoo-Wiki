@@ -27,9 +27,9 @@ Personalbrechnungen schnell und einfach erstellen.
 Damit Sie die Personalabrechnung für ihre Mitarbeiter erstellen können, müssen einige vorbereitungen getroffen werden.
 
 Dazu eine Übersicht:
-* [Mitarbeiter erfassen](Personal.md#Personal#Mitarbeiter%20erfassen)
-* [Arbeitsvertrag hinzufügen](Personal.md#Arbeitsvertrag%20hinzuf%C3%BCgen)
-* [Private Adresse hinterlegen](Personal.md#Private%20Adresse%20hinterlegen)
+* [Mitarbeiter erfassen](HR.md#Personal#Mitarbeiter%20erfassen)
+* [Arbeitsvertrag hinzufügen](HR.md#Arbeitsvertrag%20hinzufügen)
+* [Private Adresse hinterlegen](HR.md#Private%20Adresse%20hinterlegen)
 * [Bankverbindung hinterlegen](#Bankverbindung%20hinterlegen)
 * [Anteile Arbeitgeber Arbeitnehmer konfigurieren](Gio%20Payroll%20Custom.md#Anteile%20Arbeitgeber%20Arbeitnehmer%20konfigurieren)
 * [Lohnarten definieren](#Lohnarten%20definieren)

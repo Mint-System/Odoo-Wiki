@@ -4,7 +4,7 @@ description: Identifikationsnummer für Mitarbeitende.
 tags:
 - HowTo
 - OCA
-prev: ./personal
+prev: ./hr
 ---
 # HR Employee ID
 ![icon_oca_app](attachments/icon_oca_app.png)

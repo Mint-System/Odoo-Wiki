@@ -4,7 +4,7 @@ description: Brückenmodul für Fahrzeugflotte und Fahrzeuganfrage.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personal
+prev: ./hr
 ---
 # Fleet HR Vehicle Request
 ![icon_oms_box](attachments/icon_oms_box.png)

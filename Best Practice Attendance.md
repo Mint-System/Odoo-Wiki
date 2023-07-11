@@ -11,7 +11,7 @@ Mit der App Abwesenheit können Mitarbeitende ihre Abwesenheit registrieren. Dam
 
 ## Vorbereitung
 
-Alle Odoo-Benutzer, die ihre Abwesenheit registrieren wollen, brauchen einen Mitarbeiter-Eintrag. [Mitarbeiter erfassen](Personal.md#Mitarbeiter%20erfassen).
+Alle Odoo-Benutzer, die ihre Abwesenheit registrieren wollen, brauchen einen Mitarbeiter-Eintrag. [Mitarbeiter erfassen](HR.md#Mitarbeiter%20erfassen).
 
 **Mitarbeiter und Mail**
 
@@ -23,7 +23,7 @@ Damit die Vorgesetzten und Verantworltichen die Abwesenheit der Mitarbeitenden v
 
 **Vorgesetzte und Verantwortliche**
 
-Damit Abwesenheitseinträge vom Vorgesetzten oder den HR-Verantwortlichen validiert werden können, muss der *Vorgesetzte* und *Verantwortliche Abwesenheitszeiten* registriert werden. Siehe [Vorgesetze hinterlegen](Personal.md#Vorgesetze%20hinterlegen)  
+Damit Abwesenheitseinträge vom Vorgesetzten oder den HR-Verantwortlichen validiert werden können, muss der *Vorgesetzte* und *Verantwortliche Abwesenheitszeiten* registriert werden. Siehe [Vorgesetzte hinterlegen](HR.md#Vorgesetzte%20hinterlegen)
 und [Verantwortliche festlegen](HR%20Holidays.md#Verantwortliche%20festlegen).
 
 **Abwesenheitstyp**

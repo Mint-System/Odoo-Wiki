@@ -4,7 +4,7 @@ description: Übersicht der Mitarbeiterfähigkeiten.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personal
+prev: ./hr
 ---
 # HR Employee Skill
 ![icon_oms_box](attachments/icon_oms_box.png)

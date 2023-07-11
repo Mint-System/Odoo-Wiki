@@ -4,7 +4,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personal
+prev: ./hr
 ---
 # Resource Calendar Get Days
 ![icon_oms_box](attachments/icon_oms_box.png)

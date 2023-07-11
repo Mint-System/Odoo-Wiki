@@ -156,4 +156,4 @@ Wurde eine Abwesenheit einmal erfasst, kann Sie nicht mehr gelöscht werden (ass
 
 ### Verantwortliche festlegen
 
-Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen Sie den Tab *Arbeitsinformationen* und wählen Sie *Bearbeiten*. Tragen Sie den Vorgesetzen im Feld *Abwesenheitszeiten* ein. Standardmässig wird der *Manager* übernommen.
+Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen Sie den Tab *Arbeitsinformationen* und wählen Sie *Bearbeiten*. Tragen Sie den Vorgesetzten im Feld *Abwesenheitszeiten* ein. Standardmässig wird der *Manager* übernommen.

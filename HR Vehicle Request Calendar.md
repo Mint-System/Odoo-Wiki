@@ -4,7 +4,7 @@ description: Kalenderansicht und Terminbestätigung für Fahrzeuganfragen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personal
+prev: ./hr
 ---
 # HR Vehicle Request Calendar
 ![icon_oms_box](attachments/icon_oms_box.png)

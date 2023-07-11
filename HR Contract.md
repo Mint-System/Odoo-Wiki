@@ -3,7 +3,7 @@ title: Personal Verträge
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - HowTo
-prev: ./personal
+prev: ./hr
 ---
 # Personal Verträge
 ![icons_odoo_hr](attachments/icons_odoo_hr.png)

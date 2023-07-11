@@ -4,7 +4,7 @@ description: Kalenderansicht aller Geburtstage.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personal
+prev: ./hr
 ---
 # HR Birthday Calender
 ![](attachments/icon_hr_birthday_calendar.png)

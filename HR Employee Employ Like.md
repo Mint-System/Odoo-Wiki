@@ -4,7 +4,7 @@ description: Neues Feld Anstellung wie auf Mitarbeitenden.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personal
+prev: ./hr
 ---
 # HR Employee Employ Like
 ![icon_oms_box](attachments/icon_oms_box.png)

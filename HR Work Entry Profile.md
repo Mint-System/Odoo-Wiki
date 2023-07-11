@@ -4,7 +4,7 @@ description: Mitarbeiter können ihre Arbeitseinträge im Profile anzeigen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./personal
+prev: ./hr
 ---
 # HR Work Entry Profile
 ![icon_oms_box](attachments/icon_oms_box.png)
