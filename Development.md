@@ -30,7 +30,7 @@ prev: ./
 | [Onchange Helper](Onchange%20Helper.md)                                                     | Vereinfacht den Aufruf von Onchange-Methoden im Python Code.        |
 | [Project timeline](Project%20Timeline.md)                                                   | Timeline-Ansicht für Projektaufgaben.                               |
 | [Prometheus Exporter](Prometheus%20Exporter.md)                                             | Odoo-Metriken mit Prometheus monitoren.                             |
-| [Report XLSX](Report%20XLSX.md)                                                             | Klasse zur Enwicklung von XLSX-Berichten.                           |
+| [Report XLSX](Report%20XLSX.md)                                                             | Klasse zur Etnwicklung von XLSX-Berichten.                           |
 | [Server Environment Ir Config Parameter](Server%20Environment%20Ir%20Config%20Parameter.md) | Systemparameter aus Umgebungsvariablen laden.                       |
 | [Server Environment](Server%20Environment.md)                                               | Systemkonfigurationen aus Umgebungsvariablen laden.                 |
 | [Web Domain Field](Web%20Domain%20Field.md)                                                 | Dynamische Definitionen für Domain-Attribute auf Felder generieren. |

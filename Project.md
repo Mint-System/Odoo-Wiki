@@ -101,6 +101,10 @@ Die Gantt-Ansicht kann via *Projekt > Alle Aufgaben* angezeigt werden.
 
 ## Abrechnung
 
+### Standard-Auftragsposition festlegen
+
+Zeigen Sie ein Projekt via *Projekt > Konfiguration > Projekte* an und wählen Sie den Tab *Abrechnung* aus. Wählen Sie im Feld *Standard-Auftragsposition* die Auftragszeile aus, welche für neue Aufgaben übernommen werden soll.
+
 ### Abrechnung für Projekt einrichten
 
 Damit die auf einer Projektaufgabe erfassten Stunden abgerechnet werden können, müssen Sie bestimmte Einstellungen vornehmen. Öffnen Sie ein Projekt via *Projekt > Projekte > Kontext-Menü > Bearbeiten > Tab Einstellungen* und wählen Sie als erstes die Option *Abrechenbar*. Öffnen Sie den Tab *Abrechnung* und stellen Sie sicher, dass diese Optionen aktiviert sind:
