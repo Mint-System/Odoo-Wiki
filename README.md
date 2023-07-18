@@ -343,6 +343,12 @@ Agiles Projektmanagement. Schön. Einfach. Open Source.
 
 Für moderne Hersteller.
 
+### [Reseller](Reseller.md)
+
+![icons_odoo_website_crm_partner_assign](attachments/icons_odoo_website_crm_partner_assign.png)
+
+Partnerschaften mit Wiederverkäufer pflegen.
+
 ### [Strichcode](Barcode.md)
 
 ![icons_odoo_stock_barcode](attachments/icons_odoo_stock_barcode.png)

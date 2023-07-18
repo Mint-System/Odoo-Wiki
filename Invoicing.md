@@ -119,6 +119,10 @@ Der Digitalisierungsprozess dauert wenige Sekunden. Sie können den Status mit *
 
 ![](attachments/Abrechnung%20Digitalisierung%20überprüfen.png)
 
+### Lieferantenrechnung mit Bestellung verknüpfen
+
+Wenn Sie eine Lieferantenrechnung unter *Abrechnung > Lieferanten > Rechnung* haben, können Sie diese mit dem Feld *Autovervollständigung* mit einer Bestellung verknüpfen.
+
 ## Vorlagen
 
 ### Rechnungsvorlage anpassen
