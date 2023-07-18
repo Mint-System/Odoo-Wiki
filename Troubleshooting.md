@@ -167,6 +167,24 @@ Das Client-Secret der Azure-App ist abglaufen.
 
 Erstellen Sie ein neues Client-Secret und speichern Sie es in den Odoo EInstellungen.
 
+### Office 365 Refreshtoken abgelaufen
+
+**Problem**
+
+E-Mails können nicht versendet werden. Als Fehlerursache werden folgende Angaben gemacht:
+
+```
+Beim Abrufen des Zugangstokens ist ein Fehler aufgetreten. AADSTS700082: The refresh token has expired due to inactivity. The token was issued on 2023-04-17T12:24:41.7389404Z and was inactive for 90.00:00:00. Trace ID: f569f9b6-0510-4fc7-9903-5fb1ee204100 Correlation ID: c9c6ce28-6740-4abc-9835-5371032bd8ab Timestamp: 2023-07-17 09:44:06Z
+```
+
+**Ursache**
+
+Das Refreshtoken, welches in Odoo gespeichert wird, ist abgelafufen.
+
+**Lösung**
+
+Sie müssen das [OAuth-Token regenerieren](Settings%20OAuth.md#OAuth-Token%20regenerieren).
+
 ## Entwicklung
 
 ###  Kein Zugriff auf Ansicht
