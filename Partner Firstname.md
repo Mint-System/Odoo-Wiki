@@ -1,6 +1,6 @@
 ---
 title: Partner first name and last name
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Unterscheidet Vor- und Nachnamen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./partner
 # Partner first name and last name
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Unterscheidet Vor- und Nachnamen.
+{{ $frontmatter.description }}
 
 Technischer Name: `partner_firstname`\
 Repository: <https://github.com/OCA/partner-contact/tree/16.0/partner_firstname>

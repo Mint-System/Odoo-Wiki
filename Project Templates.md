@@ -1,6 +1,6 @@
 ---
 title: Project Templates
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Projekt aus Projektvorlage erstellen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./project
 # Project Templates
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Projekt aus Projektvorlage erstellen.
+{{ $frontmatter.description }}
 
 Technischer Name: `project_template`\
 Repository: <https://github.com/OCA/project/tree/15.0/project_template>

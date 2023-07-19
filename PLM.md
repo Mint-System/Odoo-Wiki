@@ -1,6 +1,6 @@
 ---
 title: PLM
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Management des Produktlebenszyklus für moderne Firmen.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # PLM
 ![icons_odoo_mrp_plm](attachments/icons_odoo_mrp_plm.png)
 
-Management des Produktlebenszyklus für moderne Firmen.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/plm>
 

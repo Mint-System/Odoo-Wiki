@@ -1,6 +1,6 @@
 ---
 title: Project Key Link Type
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Projektnummer anhand Projekttyp erstellen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./project
 # Project Key Link Type
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Projektnummer anhand Projekttyp erstellen.
+{{ $frontmatter.description }}
 
 Technischer Name: `project_key_link_type`\
 Repository: <https://github.com/OCA/project/tree/15.0/project_key_link_type>

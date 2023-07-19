@@ -1,6 +1,6 @@
 ---
 title: Project Key
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Projektkürzel für Aufgabenbezeichnung.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./project
 # Project Key
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Projektkürzel für Aufgabenbezeichnung.
+{{ $frontmatter.description }}
 
 Technischer Name: `project_key`\
 Repository: <https://github.com/OCA/project/tree/14.0/project_key>

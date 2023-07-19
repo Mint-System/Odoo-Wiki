@@ -1,6 +1,6 @@
 ---
 title: Product Sequence
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Produkreferenzen anhand einer Sequenz generieren lassen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./manufacture
 # Product Sequence
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Produkreferenzen anhand einer Sequenz generieren lassen.
+{{ $frontmatter.description }}
 
 Technischer Name: `product_sequence`\
 Repository: <https://github.com/OCA/product-attribute/tree/13.0/product_sequence>

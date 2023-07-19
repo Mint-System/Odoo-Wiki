@@ -1,6 +1,6 @@
 ---
 title: Contact's birthdate
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Feld Geburtstag und Alter auf Kontakt vom Typ Einzelperson.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./partner
 # Contact's birthdate
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Feld Geburtstag und Alter auf Kontakt vom Typ Einzelperson.
+{{ $frontmatter.description }}
 
 Technischer Name: `partner_contact_birthdate`\
 Repository: <https://github.com/OCA/partner-contact/tree/16.0/partner_contact_birthdate>

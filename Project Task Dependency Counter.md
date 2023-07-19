@@ -1,6 +1,6 @@
 ---
 title: Project Task Dependency Counter
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Smart Button für abhängige Aufgaben.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./project
 # Project Task Dependency Counter
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Smart Button für abhängige Aufgaben.
+{{ $frontmatter.description }}
 
 Technischer Name: `project_task_dependency_counter`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/13.0/project_task_dependency_counter>

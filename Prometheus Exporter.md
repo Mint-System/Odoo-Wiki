@@ -1,6 +1,6 @@
 ---
 title: Prometheus Exporter
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Odoo-Metriken mit Prometheus monitoren.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./development
 # Prometheus Exporter
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Odoo-Metriken mit Prometheus monitoren.
+{{ $frontmatter.description }}
 
 Technischer Name: `prometheus_exporter`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/prometheus_exporter>

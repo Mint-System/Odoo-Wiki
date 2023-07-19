@@ -1,6 +1,6 @@
 ---
 title: Personalabrechnung Aktionen
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lohnabrechnung automatisieren.
 tags:
 - HowTo
 - Aktionen
@@ -9,7 +9,7 @@ prev: ./hr-payroll
 # Personalabrechnung Aktionen
 ![icons_odoo_hr_payroll](attachments/icons_odoo_hr_payroll.png)
 
-Lohnabrechnung automatisieren.
+{{ $frontmatter.description }}
 
 ## Aktionen
 

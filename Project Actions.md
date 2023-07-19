@@ -1,6 +1,6 @@
 ---
 title: Projekt Aktionen
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Aktionen für Projekt App einrichten.
 tags:
 - HowTo
 prev: ./project
@@ -8,7 +8,7 @@ prev: ./project
 # Projekt Aktionen
 ![icons_odoo_project](attachments/icons_odoo_project.png)
 
-Aktionen für Projekt App einrichten.
+{{ $frontmatter.description }}
 
 ## Geplante Aktionen
 

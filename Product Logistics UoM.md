@@ -1,6 +1,6 @@
 ---
 title: Product Logistics UoM
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Individuelle Mengenheit für Produkte festlegen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./stock
 # Product Logistics UoM
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Individuelle Mengenheit für Produkte festlegen.
+{{ $frontmatter.description }}
 
 Technischer Name: `product_logistics_uom`\
 Repository: <https://github.com/OCA/product-attribute/tree/14.0/product_logistics_uom>

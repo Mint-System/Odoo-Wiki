@@ -1,6 +1,6 @@
 ---
 title: Partner Duplicate Acc Number
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kontonummer für mehrere Bankkonten verwenden
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./partner
 # Partner Duplicate Acc Number
 ![](attachments/icon_oms_box.png)
 
-Kontonummer für mehrere Bankkonten verwenden
+{{ $frontmatter.description }}
 
 Technischer Name: `partner_duplicate_acc_number`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/partner_duplicate_acc_number>

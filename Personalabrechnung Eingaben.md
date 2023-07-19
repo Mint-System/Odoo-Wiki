@@ -1,6 +1,6 @@
 ---
 title: Personalabrechnung Eingaben
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lohnabrechnungen mit variablen Eingaben.
 tags:
 - HowTo
 prev: ./hr-payroll
@@ -8,7 +8,7 @@ prev: ./hr-payroll
 # Personalabrechnung Eingaben
 ![icons_odoo_hr_payroll](attachments/icons_odoo_hr_payroll.png)
 
-Lohnabrechnungen mit variablen Eingaben.
+{{ $frontmatter.description }}
 
 ## Abrechung
 

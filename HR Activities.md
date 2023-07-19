@@ -1,6 +1,6 @@
 ---
 title: Personal Aktivitäten
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Aktivitäten für Personal verwalten.
 tags:
 - HowTo
 prev: ./hr
@@ -8,7 +8,7 @@ prev: ./hr
 # Personal Aktivitäten
 ![icons_odoo_hr](attachments/icons_odoo_hr.png)
 
-Aktivitäten für Personal verwalten.
+{{ $frontmatter.description }}
 
 ## Aktivitäten
 

@@ -1,6 +1,6 @@
 ---
 title: Kassensystem
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: In wenigen Minuten einrichten, innerhalb von Sekunden verkaufen.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Kassensystem
 ![icons_odoo_point_of_sale](attachments/icons_odoo_point_of_sale.png)
 
-In wenigen Minuten einrichten, innerhalb von Sekunden verkaufen.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/point-of-sale-shop>
 

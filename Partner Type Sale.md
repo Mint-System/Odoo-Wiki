@@ -1,6 +1,6 @@
 ---
 title: Partner Type Sale
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./partner
 # Partner Type Sale
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.
+{{ $frontmatter.description }}
 
 Technischer Name: `partner_type_sale`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/15.0/partner_type_sale>

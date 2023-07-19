@@ -1,6 +1,6 @@
 ---
 title: Project Task All Menu
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Menu Alle Aufgaben hinzufügen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./project
 # Project Task All Menu
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Menu Alle Aufgaben hinzufügen.
+{{ $frontmatter.description }}
 
 Technischer Name: `project_task_all_menu`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/16.0/project_task_all_menu>

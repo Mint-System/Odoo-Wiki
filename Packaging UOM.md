@@ -1,6 +1,6 @@
 ---
 title: Packaging UOM
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Mengeneinheit für Produktverpackung festlegen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./sale
 # Packaging UOM
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Mengeneinheit für Produktverpackung festlegen.
+{{ $frontmatter.description }}
 
 Technischer Name: `packaging_uom`\
 Repository: <https://github.com/OCA/product-attribute/tree/14.0/packaging_uom>

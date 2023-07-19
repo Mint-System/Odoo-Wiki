@@ -1,6 +1,6 @@
 ---
 title: Partner Secondary Email
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Zweite E-Mail für alle Kontakte.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./partner
 # Partner Secondary Email
 ![](attachments/icon_oms_box.png)
 
-Zweite E-Mail für alle Kontakte.
+{{ $frontmatter.description }}
 
 Technischer Name: `partner_secondary_email`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/partner_secondary_email>

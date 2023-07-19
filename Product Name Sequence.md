@@ -1,6 +1,6 @@
 ---
 title: Product Name Sequence
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Generate product names based on a sequence.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./product
 # Product Name Sequence
 ![](attachments/icon_product_name_sequence.png)
 
-Generate product names based on a sequence.
+{{ $frontmatter.description }}
 
 Technischer Name: `product_name_sequence`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/15.0/product_name_sequence>

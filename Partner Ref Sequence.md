@@ -1,6 +1,6 @@
 ---
 title: Partner Ref Sequence
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Automatische Vergabe der Kontakt-Referenz.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./partner
 # Partner Ref Sequence
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Automatische Vergabe der Kontakt-Referenz.
+{{ $frontmatter.description }}
 
 Technischer Name: `partner_ref_sequence`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/partner_ref_sequence>

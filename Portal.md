@@ -1,6 +1,6 @@
 ---
 title: Portal
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kunden mit Odoo verbinden.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Portal
 ![](attachments/icons_odoo_website_membership.png)
 
-Kunden mit Odoo verbinden.
+{{ $frontmatter.description }}
 
 ## Abonnements
 

@@ -1,6 +1,6 @@
 ---
 title: Projekt
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Agiles Projektmanagement. Schön. Einfach. Open Source.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Projekt
 ![icons_odoo_project](attachments/icons_odoo_project.png)
 
-Agiles Projektmanagement. Schön. Einfach. Open Source.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/project>
 

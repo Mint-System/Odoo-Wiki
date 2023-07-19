@@ -1,6 +1,6 @@
 ---
 title: Product Sequence
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lebenszyklus von Produkten festlegen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./manufacture
 # Product Sequence
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Lebenszyklus von Produkten festlegen.
+{{ $frontmatter.description }}
 
 Technischer Name: `product_state`\
 Repository: <https://github.com/OCA/product-attribute/tree/15.0/product_state>

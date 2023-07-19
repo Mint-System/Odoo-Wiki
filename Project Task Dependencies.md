@@ -1,6 +1,6 @@
 ---
 title: Project Task Dependencies
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Projektaufgaben mit Abhängigkeiten.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./project
 # Project Task Dependencies
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Projektaufgaben mit Abhängigkeiten.
+{{ $frontmatter.description }}
 
 Technischer Name: `project_task_dependency`\
 Repository: <https://github.com/OCA/project/tree/14.0/project_task_dependency>

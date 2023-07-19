@@ -1,6 +1,6 @@
 ---
 title: Partner Hide Address
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Addressen auf Berichten ausblenden.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./partner
 # Partner Hide Address
 ![](attachments/icon_oms_box.png)
 
-Addressen auf Berichten ausblenden.
+{{ $frontmatter.description }}
 
 Technischer Name: `partner_hide_address`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/partner_hide_address>

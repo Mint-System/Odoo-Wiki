@@ -1,6 +1,6 @@
 ---
 title: Partner Secondary Name
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Zweitname für Unternehmen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./partner
 # Partner Secondary Name
 ![](attachments/icon_oms_box.png)
 
-Zweitname für Unternehmen.
+{{ $frontmatter.description }}
 
 Technischer Name: `partner_secondary_name`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/partner_secondary_name>

@@ -1,6 +1,6 @@
 ---
 title: Partner Contact Location in Name
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: PLZ und Stadt in Kontaktauswahl anzeigen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./partner
 # Partner Contact Location in Name
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-PLZ und Stadt in Kontaktauswahl anzeigen.
+{{ $frontmatter.description }}
 
 Technischer Name: `partner_contact_location_in_name`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/partner_contact_location_in_name>

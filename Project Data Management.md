@@ -1,6 +1,6 @@
 ---
 title: Projekt Datenmanagement
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Daten zu Projekte exportieren und importieren.
 tags:
 - HowTo
 prev: ./project
@@ -8,7 +8,7 @@ prev: ./project
 # Projekt Datenmanagement
 ![icons_odoo_website_sale_options](attachments/icons_odoo_website_sale_options.png)
 
-Daten zu Projekte exportieren und importieren.
+{{ $frontmatter.description }}
 
 ## Export
 

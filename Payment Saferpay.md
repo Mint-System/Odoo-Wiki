@@ -1,6 +1,6 @@
 ---
 title: Saferpay Payment Gateway
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Zahlungsanbieter für Saferpay (ohne Zahlungstokens).
 tags:
 - HowTo
 - Drittanbieter
@@ -10,7 +10,7 @@ prev: ./website-ecommerce
 # Saferpay Payment Gateway
 ![](attachments/odoo_icons_payment_saferpay.png)
 
-Zahlungsanbieter für Saferpay (ohne Zahlungstokens).
+{{ $frontmatter.description }}
 
 Technischer Name: `payment_saferpay`\
 Website: <https://apps.odoo.com/apps/modules/16.0/payment_saferpay/>\

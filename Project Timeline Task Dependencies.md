@@ -1,6 +1,6 @@
 ---
 title: Project Timeline Task Dependencies
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./project
 # Project Timeline Task Dependencies
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten.
+{{ $frontmatter.description }}
 
 Technischer Name: `project_timeline_task_dependency`\
 Repository: <https://github.com/OCA/project/tree/14.0/project_timeline_task_dependency>

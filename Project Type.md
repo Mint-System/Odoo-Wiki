@@ -1,6 +1,6 @@
 ---
 title: Project Type
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Projekte nach Typ verwalten.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./project
 # Project Type
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Projekte nach Typ verwalten.
+{{ $frontmatter.description }}
 
 Technischer Name: `project_type`\
 Repository: <https://github.com/OCA/project/tree/14.0/project_type>

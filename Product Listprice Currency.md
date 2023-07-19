@@ -1,6 +1,6 @@
 ---
 title: Product Listprice Currency
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Listenpreise in verschiedenen Währungen für Preislisten-Formeln.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale
 # Product Listprice Currency
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Listenpreise in verschiedenen Währungen für Preislisten-Formeln.
+{{ $frontmatter.description }}
 
 Technischer Name: `product_listprice_currency`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/14.0/product_listprice_currency>

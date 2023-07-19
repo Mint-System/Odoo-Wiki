@@ -1,6 +1,6 @@
 ---
 title: Product Country of Origin
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Bestimmen Sie für jedes Produkt ein Herkunftsland.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./manufacture
 # Product Country of Origin
 ![](attachments/odoo_icon_product_country_of_origin.png)
 
-Bestimmen Sie für jedes Produkt ein Herkunftsland.
+{{ $frontmatter.description }}
 
 Technischer Name: `product_country_of_origin`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/14.0/product_country_of_origin>

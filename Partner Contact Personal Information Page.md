@@ -1,6 +1,6 @@
 ---
 title: Personal information page for contacts
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Tab in Kontakt-Formular für persönliche Informationen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./partner
 # Personal information page for contacts
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Tab in Kontakt-Formular für persönliche Informationen.
+{{ $frontmatter.description }}
 
 Technischer Name: `partner_contact_personal_information_page`\
 Repository: <https://github.com/OCA/partner-contact/tree/16.0/partner_contact_personal_information_page>

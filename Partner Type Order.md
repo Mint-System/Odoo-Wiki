@@ -1,6 +1,6 @@
 ---
 title: Partner Type Order
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./partner
 # Partner Type Order
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.
+{{ $frontmatter.description }}
 
 Technischer Name: `partner_type_order`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/15.0/partner_type_order>
