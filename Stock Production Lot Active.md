@@ -1,6 +1,6 @@
 ---
 title: Stock Production Lot Active
-description:Erlaubt die Archivierung von Los/Chargen.
+description: "Erlaubt die Archivierung von Los/Chargen."
 tags:
 - HowTo
 - OCA

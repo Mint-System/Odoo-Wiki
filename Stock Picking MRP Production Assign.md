@@ -1,6 +1,6 @@
 ---
 title: Stock Picking MRP Production Assign
-description: Reservierung für Make-To-Order Aufträge gleichzeitig durchführen.
+description: "Reservierung für Make-To-Order Aufträge gleichzeitig durchführen."
 tags:
 - HowTo
 - Drittanbieter

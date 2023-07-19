@@ -1,6 +1,6 @@
 ---
 title: Stock Move Line Position
-description: Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen.
+description: "Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen."
 tags:
 - HowTo
 - Drittanbieter

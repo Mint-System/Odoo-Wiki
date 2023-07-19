@@ -1,6 +1,6 @@
 ---
 title: Stock Product Last Move
-description: Letztes Datum zu ein- und ausgehender Lagerbewegung anzeigen.
+description: "Letztes Datum zu ein- und ausgehender Lagerbewegung anzeigen."
 tags:
 - HowTo
 - Drittanbieter

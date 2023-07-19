@@ -1,6 +1,6 @@
 ---
 title: Stock Picking Notes
-description: Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.
+description: "Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden."
 tags:
 - HowTo
 - Drittanbieter

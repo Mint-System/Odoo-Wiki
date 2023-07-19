@@ -1,6 +1,6 @@
 ---
 title: Stock Barcode MRP
-description: Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen.
+description: "Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen."
 tags:
 - HowTo
 - Drittanbieter
