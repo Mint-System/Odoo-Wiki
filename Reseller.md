@@ -11,7 +11,7 @@ prev: ./
 {{ $frontmatter.description }}
 
 ::: tip
-Reseller und Partner werden in diesem HowTo synonym verwendet. Komissionen sind als Bestellungen bei Resellern zu verstehen
+Reseller und Partner werden in diesem HowTo synonym verwendet. Komissionen sind als Bestellungen bei Resellern zu verstehen.
 :::
 
 ## Konfiguration

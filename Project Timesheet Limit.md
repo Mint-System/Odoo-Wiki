@@ -13,3 +13,9 @@ prev: ./hr-timesheet
 
 Technischer Name: `project_timesheet_limit`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/project_timesheet_limit>
+
+## Verwendung
+
+### Erfassbare Zeit limitieren
+
+Zeigen Sie den Tab *Einstellungen* eines Projekts via *Projekt > Konfiguration > Projekte* an. Aktivieren Sie die Option *Erfassbare Zeit limitieren*.
