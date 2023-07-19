@@ -1,6 +1,6 @@
 ---
 title: Stock Move Weight UoM
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Move Weight UoM
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_move_weight_uom`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_move_weight_uom>

@@ -1,6 +1,6 @@
 ---
 title: Stock Move Location
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Warenbestände zwischen Lagerorte verschieben.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./warehouse
 # Stock Move Location
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Warenbestände zwischen Lagerorte verschieben.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_move_location`\
 Repository: <https://github.com/OCA/stock-logistics-warehouse/tree/14.0/stock_move_location>

@@ -1,6 +1,6 @@
 ---
 title: Stock Account Location Valued
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lagerort zur Bewertung markieren.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Account Location Valued
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Lagerort zur Bewertung markieren.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_account_location_valued`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_account_location_valued>

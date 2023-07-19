@@ -1,6 +1,6 @@
 ---
 title: Stock Aggregated Move Lines
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Zugriff auf Lieferung in aggregierten Zeilen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Aggregated Move Lines
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Zugriff auf Lieferung in aggregierten Zeilen.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_aggregated_move_line`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_aggregated_move_line>

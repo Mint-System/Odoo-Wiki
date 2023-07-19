@@ -1,6 +1,6 @@
 ---
 title: Switzerland Disable Default Reports
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Generierung der QR- und ISR-Berichte deaktivieren.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./finance
 # Switzerland Disable Default Reports
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Generierung der QR- und ISR-Berichte deaktivieren.
+{{ $frontmatter.description }}
 
 Technischer Name: `l10n_ch_disable_default_reports`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/l10n_ch_disable_default_reports>

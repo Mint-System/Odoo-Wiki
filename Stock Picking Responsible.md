@@ -1,6 +1,6 @@
 ---
 title: Stock Picking Responsible
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Picking Responsible
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_picking_responsible`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_picking_responsible>

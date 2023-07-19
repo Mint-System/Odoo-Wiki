@@ -1,6 +1,6 @@
 ---
 title: Stock Barcode Packaging
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verpackung auf Strichcode-Vorgang anzeigen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Barcode Packaging
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Verpackung auf Strichcode-Vorgang anzeigen.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_barcode_packaging`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_barcode_packaging>

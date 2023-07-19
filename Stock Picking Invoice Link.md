@@ -1,6 +1,6 @@
 ---
 title: Stock Picking Invoice Link
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verlinkt Rechnungen und Transfers.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Picking Invoice Link
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Verlinkt Rechnungen und Transfers.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_picking_invoice_link`\
 Repository: <https://github.com/OCA/stock-logistics-workflow/tree/15.0/stock_picking_invoice_link>

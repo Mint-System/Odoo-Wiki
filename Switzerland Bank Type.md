@@ -1,6 +1,6 @@
 ---
 title: Switzerland Bank Type
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lokalisierung für Schweizer Banken und Bankkontos.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./finance
 # Switzerland Bank Type
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Lokalisierung für Schweizer Banken und Bankkontos.
+{{ $frontmatter.description }}
 
 Technischer Name: `l10n_ch_base_bank`\
 Repository: <https://github.com/OCA/l10n-switzerland/tree/14.0/l10n_ch_base_bank>

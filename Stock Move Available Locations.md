@@ -1,6 +1,6 @@
 ---
 title: Stock Move Available Locations
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Nur Lagerorte mit Besand in Auswahl anzeigen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Move Available Locations
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Nur Lagerorte mit Besand in Auswahl anzeigen.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_move_available_locations`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_move_available_locations>

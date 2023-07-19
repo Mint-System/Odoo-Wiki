@@ -1,6 +1,6 @@
 ---
 title: Stock Move Line Auto Fill
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Die erledigte Menge auf einem Transfer automatisch ausfüllen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Move Line Auto Fill
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Die erledigte Menge auf einem Transfer automatisch ausfüllen.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_move_line_auto_fill`\
 Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/stock_move_line_auto_fill>

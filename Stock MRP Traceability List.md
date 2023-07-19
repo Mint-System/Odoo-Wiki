@@ -1,6 +1,6 @@
 ---
 title: Stock MRP Traceability List
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Daten aus Lieferverfolgungsbericht als Liste anzeigen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./manufacture
 # Stock MRP Traceability List
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Daten aus Lieferverfolgungsbericht als Liste anzeigen.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_mrp_traceability_list`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/stock_mrp_traceability_list>

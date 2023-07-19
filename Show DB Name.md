@@ -1,6 +1,6 @@
 ---
 title: Show DB Name
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Zeigt den Datenbanknamen oben rechts an.   
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./settings
 # Show DB Name
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Zeigt den Datenbanknamen oben rechts an.   
+{{ $frontmatter.description }}
 
 Technischer Name: `show_db_name`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/show_db_name>

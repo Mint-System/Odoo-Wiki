@@ -1,6 +1,6 @@
 ---
 title: Stock Picking Notes
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Picking Notes
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_picking_notes`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_picking_notes>

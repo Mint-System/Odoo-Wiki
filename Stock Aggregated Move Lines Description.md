@@ -1,6 +1,6 @@
 ---
 title: Stock Aggregated Move Lines Description
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Beschreibungsfeld auf aggregierten Zeilen anzeigen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Aggregated Move Lines Description
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Beschreibungsfeld auf aggregierten Zeilen anzeigen.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_aggregated_move_lines_description`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_aggregated_move_lines_description>

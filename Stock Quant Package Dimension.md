@@ -1,6 +1,6 @@
 ---
 title: Stock Quant Package Dimension
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Dimensionen und geschätztes Gewicht auf Paket.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Quant Package Dimension
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Dimensionen und geschätztes Gewicht auf Paket.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_quant_package_dimension`\
 Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/stock_quant_package_dimension>

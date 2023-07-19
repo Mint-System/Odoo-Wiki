@@ -1,6 +1,6 @@
 ---
 title: Stock Critical Forecast Link Replenish
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Aktionsdatum berücksichtigt aktive Bestandsregeln von Produkten.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock-critical-forecast
 # Stock Critical Forecast Link Replenish
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Aktionsdatum berücksichtigt aktive Bestandsregeln von Produkten.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_critical_forecast_link_replenish`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_critical_forecast_link_replenish>

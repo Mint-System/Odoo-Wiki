@@ -1,6 +1,6 @@
 ---
 title: Stock Picking MRP Production Done
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lieferung mit Fertigungsauftrag gleichzeitig abschliessen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Picking MRP Production Done
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Lieferung mit Fertigungsauftrag gleichzeitig abschliessen.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_picking_mrp_production_done`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_picking_mrp_production_done>

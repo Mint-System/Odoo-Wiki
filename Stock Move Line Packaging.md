@@ -1,6 +1,6 @@
 ---
 title: Stock Move Line Packaging
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verknüpfen der Verpackung von Verkaufsauftrag.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Move Line Packaging
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Verknüpfen der Verpackung von Verkaufsauftrag.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_move_line_packaging`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_move_line_packaging>

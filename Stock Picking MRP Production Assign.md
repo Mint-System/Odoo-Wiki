@@ -1,6 +1,6 @@
 ---
 title: Stock Picking MRP Production Assign
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Reservierung für Make-To-Order Aufträge gleichzeitig durchführen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Picking MRP Production Assign
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Reservierung für Make-To-Order Aufträge gleichzeitig durchführen.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_picking_mrp_production_assing`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_picking_mrp_production_assing>

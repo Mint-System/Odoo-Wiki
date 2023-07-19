@@ -1,6 +1,6 @@
 ---
 title: Stock Critical Forecast
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzeigen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Critical Forecast
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzeigen.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_critical_forecast`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_critical_forecast>

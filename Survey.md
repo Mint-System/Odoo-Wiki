@@ -1,6 +1,6 @@
 ---
 title: Umfragen
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Umfragen
 ![icons_odoo_survey](attachments/icons_odoo_survey.png)
 
-Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/surveys>
 

@@ -1,6 +1,6 @@
 ---
 title: Stock Production Lot Active
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description:Erlaubt die Archivierung von Los/Chargen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Production Lot Active
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Erlaubt die Archivierung von Los/Chargen.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_production_lot_active`\
 Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/stock_production_lot_active>

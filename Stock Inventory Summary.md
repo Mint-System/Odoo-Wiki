@@ -1,6 +1,6 @@
 ---
 title: Stock Inventory Summary
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lagerbestand gruppiert nach Lagerort und Produkt.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Inventory Summary
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Lagerbestand gruppiert nach Lagerort und Produkt.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_inventory_summary`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_inventory_summary>

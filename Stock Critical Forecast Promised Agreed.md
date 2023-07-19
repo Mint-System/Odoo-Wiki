@@ -1,6 +1,6 @@
 ---
 title: Stock Critical Forecast Promised Agreed
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Erweitert den Bericht mit Mengen aus Rahmenauftrag und Kaufvertrag.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock-critical-forecast
 # Stock Critical Forecast Promised Agreed
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Erweitert den Bericht mit Mengen aus Rahmenauftrag und Kaufvertrag.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_critical_forecast_promised_agreed`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_critical_forecast_promised_agreed>

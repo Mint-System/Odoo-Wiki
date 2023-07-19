@@ -1,6 +1,6 @@
 ---
 title: Studio Beispiele
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Beispiele für Anpassungen mit Odoo Studio.
 tags:
 - HowTo
 prev: ./studio
@@ -8,7 +8,7 @@ prev: ./studio
 # Studio Beispiele
 ![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
-Beispiele für Anpassungen mit Odoo Studio.
+{{ $frontmatter.description }}
 
 ## Beispiele
 

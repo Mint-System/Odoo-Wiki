@@ -1,6 +1,6 @@
 ---
 title: Stock Vendor Evaluation
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lieferungen bewerten und Lieferanten auswerten.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Vendor Evaluation
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Lieferungen bewerten und Lieferanten auswerten.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_vendor_evaluation`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/15.0/stock_vendor_evaluation>

@@ -1,6 +1,6 @@
 ---
 title: Studio
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Studio
 ![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
-Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/studio>
 

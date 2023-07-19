@@ -1,6 +1,6 @@
 ---
 title: Stock Barcode MRP
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./barcode
 # Stock Barcode MRP
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_barcode_mrp`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_barcode_mrp>

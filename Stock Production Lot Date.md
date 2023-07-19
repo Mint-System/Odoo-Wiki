@@ -1,6 +1,6 @@
 ---
 title: Stock Production Lot Date
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Datum auf Losnummer festlegen und Ablaufdatum relativ setzen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Production Lot Date
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Datum auf Losnummer festlegen und Ablaufdatum relativ setzen.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_production_lot_date`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_production_lot_date>

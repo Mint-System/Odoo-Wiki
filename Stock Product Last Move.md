@@ -1,6 +1,6 @@
 ---
 title: Stock Product Last Move
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Letztes Datum zu ein- und ausgehender Lagerbewegung anzeigen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./stock
 # Stock Product Last Move
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Letztes Datum zu ein- und ausgehender Lagerbewegung anzeigen.
+{{ $frontmatter.description }}
 
 Technischer Name: `stock_product_last_move`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_product_last_move>
