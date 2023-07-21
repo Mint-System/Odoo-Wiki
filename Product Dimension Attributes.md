@@ -1,0 +1,21 @@
+---
+title: Product Dimension Attributes
+description: Product dimension attributes.
+tags:
+- HowTo
+- Drittanbieter
+prev: ./product
+---
+# Product Dimension Attributes
+![icon_oms_box](attachments/icon_oms_box.png)
+
+{{ $frontmatter.description }}
+
+Technischer Name: `product_dimension_attributes`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/16.0/product_dimension_attributes>
+
+## Verwendung
+
+### Produkt-Dimensionen definieren
+
+Navigieren Sie nach *Verkauf > Produkte > Produkte* und zeigen Sie ein Produkt. Zeigen Sie den Tab *Merkmale & Varianten* an. In der Liste *Dimension* können Sie einen Namen und einen Wert hinzufügen.

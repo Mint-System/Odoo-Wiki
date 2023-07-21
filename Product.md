@@ -16,6 +16,8 @@ prev: ./
 | Erweiterung                                                                       | Beschreibung                                                                |
 | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [Product Barcode Generator](Product%20Barcode%20Generator.md)                     | Autogenerate EAN13 product barcodes.                                        |
+| [Product Dimension Attributes](Product%20Dimension%20Attributes.md)               | Product dimension attributes.                                               |
+| [Product Material Attributes](Product%20Material%20Attributes.md)                 | Product material attributes.                                                |
 | [Product Name Sequence](Product%20Name%20Sequence.md)                             | Generate product names based on a sequence.                                 |
 | [Product Packaging Parent](Product%20Packaging%20Parent.md)                       | Übergeordnete Verpackung für Produktverpackung definieren.                  |
 | [Product Pricelist Fixed Discount](Product%20Pricelist%20Fixed%20Discount.md)     | Festpreise in Preisliste mit Rabatt.                                        |

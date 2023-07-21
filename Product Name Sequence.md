@@ -7,7 +7,7 @@ tags:
 prev: ./product
 ---
 # Product Name Sequence
-![](attachments/icon_product_name_sequence.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
