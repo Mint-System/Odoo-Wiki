@@ -202,6 +202,30 @@ Gemäss [Steuersätze anpassen](#Steuersätze%20anpassen) können Sie eine Kopie
 
 Für Bezugssteuer für Investition können Sie ebenfalls eine Kopie erstellen und im Steuerraster jeweils den Tag 405 statt 400 verwenden.
 
+## Saldosteuersätze
+
+### Saldosteuersatz erfassen
+
+Wenn Sie mit Saldosteuersätzen die Mehrwersteuer abrechnen, müssen Sie die ausgewählten Saldosteuersätze manuell erfassen. Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern* und kopieren Sie den Standardsteuersatz *UST 7.7% Lief./DL (exkl. MWST)*. Bearbeiten Sie den Steuersatz wie folgt um beispielsweise Beratung 5,9% abzurechnen:
+
+* **Name**: UST 7.7% Lief./DL (exkl. MWST) Beratung
+* **Verteilung für Rechnungen**:
+	* Zeile 2 %: 76.62
+	* Zeile 3 %: 23.38
+* **Verteilung für Gutschriften**:
+	* Zeile 2 %: 76.62
+	* Zeile 3 %: 23.38
+
+![](attachments/Finanzen%20Mehrwertsteuer%20Saldosteuersatz%20Beratung.png)
+
+Auf einer Rechnung mit einer Beratungsdienstleistung zu 160 CHF sieht das wie folgt aus:
+
+![](attachments/Finanzen%20Mehrwertsteuer%20Saldosteuersatz%20Rechnung%20Beratung.png)
+
+::: tip
+Die Differenz von 5.9% zu 7.7% wird als Erlös gut geschrieben. Auf dem Steuerbericht erscheint nur der Betrag von 5.9% als geschuldete Mehrwertsteuer.
+:::
+
 ## Buchhaltung
 
 ### Vorsteuerabzug auf Buchungszeile machen
