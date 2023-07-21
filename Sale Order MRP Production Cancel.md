@@ -1,6 +1,6 @@
 ---
 title: Sale Order MRP Production Cancel
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verlinkter Fertigungsauftrag bei Abbruch Verkaufsauftrag ebenfalls abbrechen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Order MRP Production Cancel
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Verlinkter Fertigungsauftrag bei Abbruch Verkaufsauftrag ebenfalls abbrechen.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_mrp_production_cancel`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_mrp_production_cancel>

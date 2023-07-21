@@ -1,6 +1,6 @@
 ---
 title: Sale Order Default Commitment Date
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Standardlieferdatum festlegen. 
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Order Default Commitment Date
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Standardlieferdatum festlegen. 
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_default_commitment_date`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_default_commitment_date>

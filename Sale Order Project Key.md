@@ -1,6 +1,6 @@
 ---
 title: Sale Order Project Key
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Angebotsname von verlinkter Projektnummer übernehmen. 
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Order Project Key
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Angebotsname von verlinkter Projektnummer übernehmen. 
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_project_key`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/15.0/sale_order_project_key>

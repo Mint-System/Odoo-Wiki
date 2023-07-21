@@ -1,6 +1,6 @@
 ---
 title: Sale Blanket Order Comment
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kommentar auf Rahmenauftrag.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 # Sale Blanket Order Comment
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Kommentar auf Rahmenauftrag.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_comment`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_comment>

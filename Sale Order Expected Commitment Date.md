@@ -1,6 +1,6 @@
 ---
 title: Sale Order Expected Commitment Date
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Das Standardlieferdatum ist das erwartete Datum.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Order Expected Commitment Date
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Das Standardlieferdatum ist das erwartete Datum.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_expected_commitment_date`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_expected_commitment_date>

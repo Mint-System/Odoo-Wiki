@@ -1,6 +1,6 @@
 ---
 title: Sale Invoice Carrier
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus Verkaufsaufträgen übertragen.
 tags:
 - HowTo
 - Drittanbieter
@@ -10,7 +10,7 @@ prev: ./invoicing
 
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus Verkaufsaufträgen übertragen.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_invoice_carrier`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/sale_invoice_carrier>

@@ -1,6 +1,6 @@
 ---
 title: Sale Invoice Prepare Bank
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Bankkonto anhand Währung auswählen.
 tags:
 - HowTo
 - Drittanbieter
@@ -10,7 +10,7 @@ prev: ./invoicing
 
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Bankkonto anhand Währung auswählen.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_invoice_prepare_bank`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/sale_invoice_prepare_bank>

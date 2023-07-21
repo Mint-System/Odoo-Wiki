@@ -1,6 +1,6 @@
 ---
 title: Verkauf Projekt
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Dienstleistungen mit Verkauf und Projekt abwickeln.
 tags:
 - HowTo
 prev: ./sale
@@ -8,7 +8,7 @@ prev: ./sale
 # Verkauf Projekt
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
-Dienstleistungen mit Verkauf und Projekt abwickeln.
+{{ $frontmatter.description }}
 
 ## Abrechnung
 

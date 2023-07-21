@@ -1,6 +1,6 @@
 ---
 title: Sale Order Default Carrier
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Auslieferungsmethode von Kontakt übernehmen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Order Default Carrier
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Auslieferungsmethode von Kontakt übernehmen.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_default_carrier`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_default_carrier>

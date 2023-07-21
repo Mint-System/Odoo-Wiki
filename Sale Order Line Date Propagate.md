@@ -1,6 +1,6 @@
 ---
 title: Sale Order Line Date Propagate
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lieferfristen auf dem Verkaufsautrag und dessen Zeilen werden auf den Lieferauftrag übertragen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,8 +9,7 @@ prev: ./sale
 # Sale Order Line Date Propagate
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Lieferfristen auf dem Verkaufsautrag und dessen Zeilen werden auf den Lieferauftrag übertragen.
-
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_line_date_propagate`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_date_propagate>

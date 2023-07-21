@@ -1,6 +1,6 @@
 ---
 title: Sale Blanket Order Line Description
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Beschreibungsfeld von Rahmenauftragszeile auf die Verkaufsauftragszeile kopieren.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 # Sale Blanket Order Line Description
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Beschreibungsfeld von Rahmenauftragszeile auf die Verkaufsauftragszeile kopieren.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_line_description`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_line_description>

@@ -1,6 +1,6 @@
 ---
 title: Sale Blanket Order Template
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Vorlagen für Rahmenaufträge.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 # Sale Blanket Order Template
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Vorlagen für Rahmenaufträge.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_template`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_template>

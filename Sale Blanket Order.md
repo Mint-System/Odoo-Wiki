@@ -1,6 +1,6 @@
 ---
 title: Verkauf Rahmenverträge
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Rahmenverträge für Verkäufe erstellen.
 tags:
 - HowTo
 - OCA
@@ -10,7 +10,7 @@ prev: ./
 # Verkauf Rahmenverträge
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Rahmenverträge für Verkäufe erstellen.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order`\
 Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_blanket_order>

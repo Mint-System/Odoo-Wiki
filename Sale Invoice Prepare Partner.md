@@ -1,6 +1,6 @@
 ---
 title: Sale Invoice Prepare Partner
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kontakte aus Verkaufsauftrag auf Rechnung kopieren.
 tags:
 - HowTo
 - Drittanbieter
@@ -10,7 +10,7 @@ prev: ./invoicing
 
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Kontakte aus Verkaufsauftrag auf Rechnung kopieren.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_invoice_prepare_partner`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/sale_invoice_prepare_partner>

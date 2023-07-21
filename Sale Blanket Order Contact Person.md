@@ -1,6 +1,6 @@
 ---
 title: Sale Blanket Order Contact Person
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kontaktperson auf Rahmenauftrag festlegen. 
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 # Sale Blanket Order Contact Person
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Kontaktperson auf Rahmenauftrag festlegen. 
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_contact_person`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_contact_person>

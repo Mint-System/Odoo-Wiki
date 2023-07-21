@@ -12,7 +12,7 @@ prev: ./sale
 
 ## Verwendung
 
-Diese App gibt es ab #Odoo16 .
+Diese App gibt es ab #Odoo16.
 
 ### Rabatt bei Mindestbestellung von Produkt erstellen
 

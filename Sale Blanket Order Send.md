@@ -1,6 +1,6 @@
 ---
 title: Sale Blanket Order Send
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Workflow mit Rahmenauftrag per E-Mail. 
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 # Sale Blanket Order Send
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Workflow mit Rahmenauftrag per E-Mail. 
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_send`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_send>

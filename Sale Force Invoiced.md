@@ -1,6 +1,6 @@
 ---
 title: Sale Force Invoiced
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Markieren Sie den Verkaufsauftrag als abgerechnet.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Force Invoiced
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Markieren Sie den Verkaufsauftrag als abgerechnet.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_force_invoiced`\
 Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_force_invoiced>

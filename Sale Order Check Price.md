@@ -1,6 +1,6 @@
 ---
 title: Sale Order Check Price
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Preis vor Bestätigung des Angebots prüfen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Order Check Price
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Preis vor Bestätigung des Angebots prüfen.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_check_price`\
 Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_order_check_price>

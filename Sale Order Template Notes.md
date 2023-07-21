@@ -1,6 +1,6 @@
 ---
 title: Sale Order Template Notes
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Notizen auf Angebotsvorlage.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Order Template Notes
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Notizen auf Angebotsvorlage.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_template_notes`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_template_notes>

@@ -1,6 +1,6 @@
 ---
 title: Sale Blanket Order Notes
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 # Sale Blanket Order Notes
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_notes`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_notes>

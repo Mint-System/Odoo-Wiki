@@ -1,6 +1,6 @@
 ---
 title: Sale Order Archive
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Abgebrochene Verkaufsaufträge archivieren.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Order Archive
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Abgebrochene Verkaufsaufträge archivieren.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_archive`\
 Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_order_archive>

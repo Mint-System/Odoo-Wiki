@@ -1,6 +1,6 @@
 ---
 title: Verkauf Abrechnung
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verkaufsaufträge unkompliziert abrechnen.
 tags:
 - HowTo
 prev: ./sale
@@ -8,7 +8,7 @@ prev: ./sale
 # Verkauf Abrechnung
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
-Verkaufsaufträge unkompliziert abrechnen.
+{{ $frontmatter.description }}
 
 ## Konfiguration
 

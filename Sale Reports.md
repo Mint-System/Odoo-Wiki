@@ -1,6 +1,6 @@
 ---
 title: Verkauf Berichte
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verkaufsdaten immer aktuell.
 tags:
 - HowTo
 prev: ./sale
@@ -8,7 +8,7 @@ prev: ./sale
 # Verkauf Berichte
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
-Verkaufsdaten immer aktuell.
+{{ $frontmatter.description }}
 
 ## Auswertung
 

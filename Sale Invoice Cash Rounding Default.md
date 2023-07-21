@@ -1,6 +1,6 @@
 ---
 title: Sale Invoice Cash Rounding Default
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./invoicing
 # Sale Invoice Cash Rounding Default
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.            
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_invoice_cash_rounding_default`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.0/sale_invoice_cash_rounding_default>

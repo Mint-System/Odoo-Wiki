@@ -1,6 +1,6 @@
 ---
 title: Verkauf Lager
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lieferungen aus Verkaufsaufträge erstellen.
 tags:
 - HowTo
 prev: ./sale
@@ -8,7 +8,7 @@ prev: ./sale
 # Verkauf Lager
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
-Lieferungen aus Verkaufsaufträge erstellen.
+{{ $frontmatter.description }}
 
 ## Konfiguration
 

@@ -1,6 +1,6 @@
 ---
 title: Sale Blanket Order Date Confirmed
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Setze ein Bestätigungsdatum auf dem Verkaufsauftrag.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 # Sale Blanket Order Date Confirmed
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Setze ein Bestätigungsdatum auf dem Verkaufsauftrag.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_date_confirmed`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_date_confirmed>

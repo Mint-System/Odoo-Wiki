@@ -1,6 +1,6 @@
 ---
 title: Sale Order Contact Person
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kontaktperson auf Verkaufsauftrag festlegen. 
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Order Contact Person
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Kontaktperson auf Verkaufsauftrag festlegen. 
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_contact_person`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/15.0/sale_order_contact_person>

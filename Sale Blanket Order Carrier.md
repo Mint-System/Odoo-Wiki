@@ -1,6 +1,6 @@
 ---
 title: Sale Blanket Order Carrier
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Legen Sie die Auslieferungsmethode auf dem Rahmenvertrag fest.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 # Sale Blanket Order Carrier
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Legen Sie die Auslieferungsmethode auf dem Rahmenvertrag fest.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_carrier`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_carrier>

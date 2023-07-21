@@ -1,6 +1,6 @@
 ---
 title: Sale Invoice Line Description
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Buchungszeilen generiert aus Verkaufsaufträgen enhalten nur den Anzeigenamen des Produkts.
 tags:
 - HowTo
 - Drittanbieter
@@ -10,7 +10,7 @@ prev: ./invoicing
 
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Buchungszeilen generiert aus Verkaufsaufträgen enhalten nur den Anzeigenamen des Produkts.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_invoice_line_description`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/sale_invoice_line_description>

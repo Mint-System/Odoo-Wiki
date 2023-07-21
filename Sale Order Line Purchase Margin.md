@@ -1,6 +1,6 @@
 ---
 title: Sale Order Line Purchase Margin
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kalkulation der Marge basierend auf verlinkter Bestellung.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 # Sale Order Line Purchase Margin
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Kalkulation der Marge basierend auf verlinkter Bestellung.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_line_purchase_margin`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_purchase_margin>

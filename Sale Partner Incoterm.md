@@ -1,6 +1,6 @@
 ---
 title: Default sales incoterm per partner
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Standardlieferbedingungen für Kunden.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./sale
 # Default sales incoterm per partner
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Standardlieferbedingungen für Kunden.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_partner_incoterm`\
 Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_partner_incoterm>

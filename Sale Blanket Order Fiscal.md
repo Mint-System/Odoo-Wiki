@@ -1,6 +1,6 @@
 ---
 title: Sale Blanket Order Fiscal
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Steuerzuordnung von Rahmenauftrag auf den Verkaufsauftrag kopieren.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 # Sale Blanket Order Fiscal
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Steuerzuordnung von Rahmenauftrag auf den Verkaufsauftrag kopieren.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_fiscal`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_fiscal>

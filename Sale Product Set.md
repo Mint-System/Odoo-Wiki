@@ -1,6 +1,6 @@
 ---
 title: Sale Product Set
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Produktsets definieren und einfach hinzufügen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Product Set
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Produktsets definieren und einfach hinzufügen.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_product_set`\
 Repository: <https://github.com/OCA/sale-workflow/tree/15.0/sale_product_set>

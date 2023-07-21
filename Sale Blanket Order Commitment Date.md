@@ -1,6 +1,6 @@
 ---
 title: Sale Blanket Order Commitment Date
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kopiert das geplante Datum der Rahmenauftragszeile in das Lieferdatum der Verkaufsauftragszeile.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 # Sale Blanket Order Commitment Date
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Kopiert das geplante Datum der Rahmenauftragszeile in das Lieferdatum der Verkaufsauftragszeile.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_commitment_date`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_commitment_date>

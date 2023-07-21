@@ -1,6 +1,6 @@
 ---
 title: Sale Order Unsubscribe
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Alle Abonnenten nach Bestätigung des Angebots entfernen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./discuss
 # Sale Order Unsubscribe
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Alle Abonnenten nach Bestätigung des Angebots entfernen.
+{{ $frontmatter.description }}
  
 Technischer Name: `sale_order_unsubscribe`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/sale_order_unsubscribe>

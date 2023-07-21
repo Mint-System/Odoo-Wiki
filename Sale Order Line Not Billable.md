@@ -1,6 +1,6 @@
 ---
 title: Sale Order Line Not Billable
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Produkt als nicht verrechbar festlegen und bei Abrechnunung filtern.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Order Line Not Billable
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Produkt als nicht verrechbar festlegen und bei Abrechnunung filtern.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_line_not_billable`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_not_billable>

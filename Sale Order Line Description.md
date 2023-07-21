@@ -1,6 +1,6 @@
 ---
 title: Sale Order Line Description
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Nur Verkausbeschreibung im Feld Beschreibung übertragen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Order Line Description
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Nur Verkausbeschreibung im Feld Beschreibung übertragen.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_line_description`\
 Repository: <https://github.com/OCA/sale-workflow/tree/15.0/sale_order_line_description>

@@ -1,6 +1,6 @@
 ---
 title: Sale Blanket Order Stock Terms
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Legen Sie Lieferbedingungen auf dem Rahmenauftrag fest. 
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 # Sale Blanket Order Stock Terms
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Legen Sie Lieferbedingungen auf dem Rahmenauftrag fest. 
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_stock_terms`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_stock_terms>

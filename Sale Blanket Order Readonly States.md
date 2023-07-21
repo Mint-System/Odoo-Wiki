@@ -1,6 +1,6 @@
 ---
 title: Sale Blanket Order Readonly States
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Bestätigte Rahmenaufträge bearbeiten.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 # Sale Blanket Order Readonly States
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Bestätigte Rahmenaufträge bearbeiten.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_readonly_states`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_readonly_states>

@@ -1,6 +1,6 @@
 ---
 title: Sale Order Line Default Packaging
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Standardverpackung auf Position setzen.  
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Order Line Default Packaging
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Standardverpackung auf Position setzen.  
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_line_default_packaging`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_default_packaging>

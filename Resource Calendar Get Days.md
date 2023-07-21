@@ -1,6 +1,6 @@
 ---
 title: Resource Calendar Get Days
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Die Anzahl Tage in Abwesenheiten relativ zu den Arbeitszeiten des Unternehmens berechnen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./hr
 # Resource Calendar Get Days
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Die Anzahl Tage in Abwesenheiten relativ zu den Arbeitszeiten des Unternehmens berechnen.
+{{ $frontmatter.description }}
 
 Technischer Name: `resource_calendar_get_days`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/resource_calendar_get_days>

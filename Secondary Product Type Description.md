@@ -1,6 +1,6 @@
 ---
 title: Secondary Product Type Description
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Zu jedem Produkt ein Beschreibungsfeld.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./manufacture
 # Secondary Product Type Description
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Zu jedem Produkt ein Beschreibungsfeld.
+{{ $frontmatter.description }}
 
 Technischer Name: `product_type_description2`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/14.0/product_type_description2>

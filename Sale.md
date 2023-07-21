@@ -1,6 +1,6 @@
 ---
 title: Verkauf
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung. 
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Verkauf
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
-Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung. 
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/sales>
 

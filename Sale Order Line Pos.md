@@ -1,6 +1,6 @@
 ---
 title: Sale Order Line Po
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verkaufsaufträge mit Positionsnummern. 
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./order-positions
 # Sale Order Line Po
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Verkaufsaufträge mit Positionsnummern. 
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_line_pos`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_pos>

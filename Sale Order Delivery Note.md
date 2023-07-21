@@ -1,6 +1,6 @@
 ---
 title: Sale Order Delivery Note
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Notiz auf Verkaufsauftrag für Lieferung hinzufügen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Order Delivery Note
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Notiz auf Verkaufsauftrag für Lieferung hinzufügen.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_delivery_note`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_delivery_note>

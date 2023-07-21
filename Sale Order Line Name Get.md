@@ -1,6 +1,6 @@
 ---
 title: Sale Order Line Name Get
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Produktname als Anzeigename für Verkaufspositionen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Order Line Name Get
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Produktname als Anzeigename für Verkaufspositionen.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_line_name_get`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_name_get>

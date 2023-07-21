@@ -1,6 +1,6 @@
 ---
 title: Sale Product Set Layout
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Produktset mit Notizen und Abschnitten.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Product Set Layout
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Produktset mit Notizen und Abschnitten.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_product_set_layout`\
 Repository: <https://github.com/OCA/sale-workflow/tree/15.0/sale_product_set_layout>

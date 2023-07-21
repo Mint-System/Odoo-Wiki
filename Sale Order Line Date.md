@@ -1,6 +1,6 @@
 ---
 title: Sale Order Line Date
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lieferdatum pro Position.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Order Line Date
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Lieferdatum pro Position.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_order_line_date`\
 Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_order_line_date>

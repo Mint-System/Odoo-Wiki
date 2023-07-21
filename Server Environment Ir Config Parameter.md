@@ -1,6 +1,6 @@
 ---
 title: Server Environment Ir Config Parameter
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Systemparameter aus Umgebungsvariablen laden.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./development
 # Server Environment Ir Config Parameter
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Systemparameter aus Umgebungsvariablen laden.
+{{ $frontmatter.description }}
 
 Technischer Name: `server_environment_ir_config_parameter`\
 Repository: <https://github.com/OCA/server-env/tree/14.0/server_environment_ir_config_parameter>

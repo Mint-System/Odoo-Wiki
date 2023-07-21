@@ -1,6 +1,6 @@
 ---
 title: Sale Blanket Order Invoice Shipping Partner
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Liefer- und Rechnungsadresse auf Rahmenauftrag definieren.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 # Sale Blanket Order Invoice Shipping Partner
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Liefer- und Rechnungsadresse auf Rahmenauftrag definieren.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_invoice_shipping_partner`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_invoice_shipping_partner>

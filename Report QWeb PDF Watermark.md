@@ -1,6 +1,6 @@
 ---
 title: Report QWeb PDF Watermark
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Wasserzeichen auf PDF-Berichte hinzufügen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./settings
 # Report QWeb PDF Watermark
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Wasserzeichen auf PDF-Berichte hinzufügen.
+{{ $frontmatter.description }}
 
 Technischer Name: `report_qweb_pdf_watermark`\
 Repository: <https://github.com/OCA/reporting-engine/tree/15.0/report_qweb_pdf_watermark>

@@ -1,6 +1,6 @@
 ---
 title: Sale Stock Picking Note
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Interne und externe Notiz für Lieferungen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./sale
 # Sale Stock Picking Note
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Interne und externe Notiz für Lieferungen.
+{{ $frontmatter.description }}
 
 Technischer Name: `sale_stock_picking_note`\
 Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_stock_picking_note>

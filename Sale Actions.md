@@ -1,6 +1,6 @@
 ---
 title: Verkauf Aktionen
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Arbeitsflüsse in Verkauf automatisieren.
 tags:
 - HowTo
 - Aktionen
@@ -9,7 +9,7 @@ prev: ./sale
 # Verkauf Aktionen
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
-Arbeitsflüsse in Verkauf automatisieren.
+{{ $frontmatter.description }}
 
 ## Aktionen
 
