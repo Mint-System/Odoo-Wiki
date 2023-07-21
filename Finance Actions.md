@@ -98,7 +98,8 @@ Modell: `account.move`\
 Folgeaktion: `Python-Code ausführen`
 
 ```python
-records.filtered(lambda r: r.state == "draft").with_context(check_move_validity=False)._move_autocomplete_invoice_lines_values()
+for rec in records.filtered(lambda r: r.state == 'draft'):
+  rec.with_context(check_move_validity=False)._move_autocomplete_invoice_lines_values()
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
@@ -214,6 +215,26 @@ Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
 ```python
 for rec in records:
 	rec.line_ids.write({'analytic_account_id': False})
+```
+
+Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+
+### Steuersätze aktualisieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Steuersätze aktualisieren`\
+Modell: `account.move`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+
+```python
+for rec in records:
+	rec.button_draft()
+	for line in rec.line_ids.filtered(lambda l: l.product_id):
+		line.write({'tax_ids': [line.product_id.taxes_id.id]})
+	rec.action_post()
 ```
 
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.

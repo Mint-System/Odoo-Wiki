@@ -24,13 +24,13 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-SaaS/tree/16.0/li
 
 ### License Type erfassen
 
-Navigieren Sie nach *License > Configurations > License Type* und erstellen Sie einen neuen Eintrag. Den *License Type* können Sie Lizenzen und Lizenzprodukten zuordnen.
+Navigieren Sie nach *Lizenz > Konfigurationen > Lizenztyp* und erstellen Sie einen neuen Eintrag. Den *Lizenztyp* können Sie Lizenzen und Lizenzprodukten zuordnen.
 
 ## Verwendung
 
 ### Lizenz erstellen
 
-Zeigen Sie *License* an und erstellen Sie einen neuen Eintrag. Wählen Sie einen *Partner* aus und speichern Sie den neuen Eintrag. Es wird ein Lizenzname und ein Schlüssel generiert. Legen Sie als Status *Assigned* fest.
+Zeigen Sie *Lizenzen* an und erstellen Sie einen neuen Eintrag. Wählen Sie einen *Partner* aus und speichern Sie den neuen Eintrag. Es wird ein Lizenzname und ein Schlüssel generiert.
 
 ::: tip
 Sie können auch einen benutzerdefinierten Lizenznamen und Schlüssel vergeben.
