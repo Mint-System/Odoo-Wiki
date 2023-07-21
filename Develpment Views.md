@@ -151,7 +151,7 @@ Wählen Sie auf der Listenansicht *Entwicklertools > Filter verwalten* und klick
 
 Rufen Sie die Übersicht der Filter auf *Entwicklertools > Filter verwalten* und entfernen Sie *Eigene Filter*. Bearbeiten Sie den Filter, welcher für alle Benutzer verfügbar sein soll. Entfernen Sie Einträge in *Für Benutzer verfügbar*.
 
-### Benutzerdefinierter Filter fürStandardfilter freigeben
+### Benutzerdefinierter Filter für Standardfilter freigeben
 
 Rufen Sie die Übersicht der Filter auf *Entwicklertools > Filter verwalten* und entfernen Sie *Eigene Filter*. Bearbeiten Sie den Filter, welcher als Standard festgelegt werden soll. Markieren Sie die Option *Standardfilter*.
 
