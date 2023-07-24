@@ -373,7 +373,7 @@ Probleme und Lösungen rund um Odoo.
 
 Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
 
-### [Update](Update.md)
+### [Upgrade](Upgrade.md)
 
 ![icons_odoo_website_enterprise](attachments/icons_odoo_website_enterprise.png)
 
