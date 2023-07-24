@@ -119,9 +119,9 @@ Für jedes Geschäftsobjekt können Sie in der Einzelansicht die Metadaten anzei
 
 ![](attachments/Entwicklung%20Metadaten%20anzeigen.png)
 
-### Externe IDs anzeigen
+### Externe ID anzeigen
 
-Odoo speichert alle externen IDs in einer Tabelle. Öffnen Sie *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Externe Identifikationen*.
+Odoo speichert alle externen IDs in einer Tabelle. Öffnen Sie *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Externe Identifikationen*. Suchen Sie nach einer externen ID anhand des Schlüssels.
 
 ### Externe ID erfassen
 

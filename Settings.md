@@ -137,3 +137,13 @@ Damit die Sequenz-Nummer auf ein bestimmtes Datum, beipsielweise Ende Jahr, zur�
 Wenn eine Datenbank abgelaufen ist, erscheine eine entsprechende Meldung. Diese ist aber nur symbolisch, mit der richtigen URL können Sie in den *Systemparameter* von Odoo das Ablaufdatum der Datenbank verlängern. Am einfachsten ist es, wenn das Testsystem und das produktive System unter einer ähnlichen URL erreichbar sind.
 
 ![Einstellungen Odoo-Datenbank verlängern](attachments/Einstellungen%20Odoo-Datenbank%20verlängern.gif)
+
+### Synchronisation mit Lizenzserver deaktivieren
+
+Nach der Installation der Datenbank registriert Odoo eine eindeutige Nummer (UUID) auf den Lizenzserver von Odoo S.A. . Damit werden die Lizenzinformationen abgeglichen. Die automatische Synchronisation der Informationen können Sie wie folgt ausschalten. 
+
+[Zeigen Sie die Externe ID](Development.md#Externe%20ID%20anzeigen) mit Schlüssel `ir_cron_module_update_notification` an. Klicken Sie auf den verlinkten Datensatz. Sie gelangen zur geplanten Aktion *Veröffentlicher: Benachrichtigung aktualisieren*. Deaktivieren Sie diese Aktion.
+
+::: warning
+Deaktivieren Sie die Synchronisation mit dem Lizenzserver nur für Testumgebungen.
+:::
