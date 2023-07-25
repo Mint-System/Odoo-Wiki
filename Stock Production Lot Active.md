@@ -16,22 +16,21 @@ Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/stock_pro
 
 ## Verwendung
 
-### Los/Charge archivieren
+### Los-/Seriennummern archivieren
 
-Öffnen Sie *Lager > Stammdaten > Chargen-/ Seriennummern* und wählen Sie die zu archivierenden Chargen-/Seriennummern aus.
-Wählen Sie *Aktion > Archiv*.
+Öffnen Sie *Lager > Stammdaten > Los-/Seriennummern* und wählen Sie die zu archivierenden Los-/Seriennummern aus. Wählen Sie *Aktion > Archiv*.
 
 ![](attachments/Stock%20Production%20Lot%20Active%20Aktion.png)
 
 ## Geplante Aktionen
 
-### Los automatisch archivieren
+### Los-/Seriennummern archivieren
 
 Mit dieser Aktionen werden Los/Chargen archiviert, wenn Sie eine Menge von 0 haben und werden dearchiviert wenn die Menge grösser 0 ist. Diese Aktion bötigt die Erweiterung [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md).
 
 Navigeren nach *Einstellungen > Technisch > Geplante Aktionen* und einen neuen Eintrag erstellen:
 
-* Name der Aktion: `Los automatisch archivieren`
+* Name der Aktion: `Los-/Seriennummern archivieren`
 * Modell: `Serveraktion`
 * Ausführen alle: `1 Tage`
 * Anzahl aufrufe: `-1`
