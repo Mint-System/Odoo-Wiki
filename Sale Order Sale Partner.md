@@ -18,4 +18,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/15.0/sa
 
 ### Verkaufsadresse hinzufügen
 
-Öffnen Sie *Verkauf* und wählen Sie einen Verkaufsauftrag aus. Im Feld *Verkaufsadresse* können Sie einen bliegen Kontakt auswählen.
+Öffnen Sie *Verkauf* und wählen Sie einen Verkaufsauftrag aus. Im Feld *Verkaufsadresse* können Sie einen beliebigen Kontakt auswählen.
