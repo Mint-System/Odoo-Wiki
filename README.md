@@ -49,7 +49,7 @@ Online Rechnungsstellung leicht gemacht.
 
 Verwaltung von Mitarbeiterurlauben & Abwesenheit.
 
-### [Aero Base](Aero%20Base.md)
+### [Aero](Aero%20Base.md)
 
 ![](attachments/icons_odoo_aero_base.png)
 
