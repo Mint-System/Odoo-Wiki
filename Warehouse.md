@@ -3,6 +3,7 @@ title: Warenhaus
 description: Werkhallen und Warenhäuser effizient verwalten.
 tags:
 - HowTo
+- OCA
 prev: ./
 ---
 # Warenhaus

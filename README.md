@@ -253,6 +253,12 @@ Software verkaufen und lizenzieren.
 
 Web-Kampagnen und E-Mails verfolgen.
 
+### [Management System](Management%20System.md)
+
+![](attachments/icons_odoo_mgmtsystem.svg)
+
+Odoo for Management Systems (ISO, IEC, BS).
+
 ### [Marketing-Automatisierung](Marketing-Automation.md)
 
 ![icons_odoo_marketing_automation](attachments/icons_odoo_marketing_automation.png)
