@@ -143,7 +143,7 @@ Reply-To: "My Company" <catchall@example.com>
 ```
 
 ::: warning
-Abhängig vom Mail-Provider darf die Absender-Adresse nicht von der Adresse des Postfachs abweichen und die sogennanten *Senden als*-Freigaben müssen explizit konfiguriert werden. 
+Abhängig vom Mail-Provider darf die Absender-Adresse nicht von der Adresse des Postfachs abweichen und die sogenannten *Senden als*-Freigaben müssen explizit konfiguriert werden. 
 :::
 
 ### Antwort-Adresse mit Konfiguration von E-Mail-Vorlage überschreiben
