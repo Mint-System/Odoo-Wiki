@@ -79,6 +79,12 @@ Spesen erfassen und abrechnen.
 
 Bieten Sie Ihren Kunden überall ausgezeichnete Dienstleistungen an.
 
+### [Bewertungen](HR%20Appraisal.md)
+
+![icons_odoo_hr_appraisal](attachments/icons_odoo_hr_appraisal.png)
+
+Führen Sie Mitarbeiterbeurteilungen transparent durch.
+
 ### [Brand](Brand.md)
 
 ![](attachments/icons_odoo_brand.png)
