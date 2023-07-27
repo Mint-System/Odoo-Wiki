@@ -23,6 +23,7 @@ prev: ./
 | [Product Pricelist Fixed Discount](Product%20Pricelist%20Fixed%20Discount.md)     | Festpreise in Preisliste mit Rabatt.                                        |
 | [Product Supplierinfo for Customers](Product%20Supplierinfo%20for%20Customers.md) | Produktspezifische Informationen für ausgewählte Kunden erfassen.           |
 | [Product Variant Description](Product%20Variant%20Description.md)                 | Verkaufs-, Einkaufs- und Lieferbeschreibung auf Produktvarianten festlegen. |
+| [Product Information Management](Product%20Information%20Management.md)           | Verwalten Sie Produktinformationen ganz flexibel.                                                                            |
 
 ## Verwendung
 
