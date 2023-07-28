@@ -11,8 +11,8 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_dimension_attributes`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/16.0/product_dimension_attributes>
+Technischer Name: `product_information_management`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/16.0/product_information_management>
 
 ## Verwendung
 

@@ -49,7 +49,7 @@ Navigieren Sie nach *Personal > Abteilungen*.
 
 Navigieren Sie nach *Personal* und wählen Sie *+ Anlegen*. Geben Sie den Vor- und Nachnamen des Mitarbeiters ein und öffnen Sie den Tab *HR Einstelungen*. Wählen Sie unter *Verknüpfter Benutzer* einen bestehenden Benutzer aus, falls der Mitarbeiter Zugriff auf Odoo haben soll. Schliessen Sie den Vorgang mit *Speichern* ab.
 
-### Mitarbeit aus Benutzer anlegen
+### Mitarbeiter aus Benutzer anlegen
 
 Alternativ zu [Mitarbeiter erfassen](#Mitarbeiter%20erfassen) können Sie nach *Einstellungen > Benutzer > Benutzer verwalten* navigieren und hier den Odoo-Benutzer auswählen. Über den Knopf *Mitarbeiter anlegen* können Sie den Mitarbeiter erfassen. Dieser wird über den Smart-Link verknüpft.
 
