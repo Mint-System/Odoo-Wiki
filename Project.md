@@ -120,6 +120,14 @@ Dazu ein Beispiel:
 
 ## Berechtigungen
 
+### Zugriff auf Projekte steuern
+
+Zeigen Sie den Tab *Einstellungen* eines Projekts *Projekt > Konfiguration > Projekte* an. Im Feld *Sichtbarkeit* können Sie den Zugriff auf das Projekt steuern.
+
+* **Laden Sie Angestellte ein**: Nur ausgewählte Mitarbeitende sehen Projekte und Aufgaben
+* **Alle Mitarbeiter**: Alle Mitarbeitenden sehen alle Projekte und Aufgaben
+* **Eingeladene Portalnutzer und alle Mitarbeiter**: Nur eingeladene Odoo-Benutzer sehen Projekte und Aufgaben
+
 ### Benutzer dürfen keine Aufgaben erstellen
 
 Wenn Sie verhindern möchten, dass Mitglieder der Gruppe *Projekt / Benutzer* Projektaufgaben erstellen können, gehen Sie wie folgt vor.
@@ -129,6 +137,22 @@ Wenn Sie verhindern möchten, dass Mitglieder der Gruppe *Projekt / Benutzer* Pr
 Weil die Berechtigung von *Projekt / Benutzer* nach *Projekt / Administrator* vererbt wird, braucht es eine Anpassung. Zeiten Sie den Tab *Zugriffsrechte* der Gruppe *Projekt / Administrator* und erstellen Sie einen neuen Eintrag:
 
 ![](attachments/Projekt%20Berechtigung%20Administrator%20Aufgabe.png)
+
+### Projekt mit Odoo-Benutzer teilen
+
+Zeigen Sie ein Projekt via *Projekt > Konfiguration > Projekte* an. Wählen Sie *Aktion > Projekt freigeben*. Legen Sie den *Zugriffsmodus* fest und tragen Sie die Odoo-Benutzer (interne und externe) bei *Leute einladen* ein.
+
+::: tip
+Die Sichtbarkeit des Projekts muss für diesen Vorgang auf *Eingeladene Portalnutzer und alle Mitarbeiter* eingestellt sein.
+:::
+
+### Projekt für Mitarbeitende explizit freigeben
+
+Zeigen Sie ein Projekt via *Projekt > Konfiguration > Projekte* an. Die Mitarbeitenden, welche Zugriff auf das Projekt erhalten sollen, können Sie nun als [Abonnement hinzufügen](Discuss.md#Abonnement%20hinzufügen).
+
+::: tip
+Die Sichtbarkeit des Projekts muss für diesen Vorgang auf *Laden Sie Angestellte ein.* eingestellt sein.
+:::
 
 ## Diskussion
 

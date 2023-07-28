@@ -12,7 +12,7 @@ prev: ./hr-timesheet
 {{ $frontmatter.description }}
 
 Technischer Name: `sh_portal_timesheet`\
-Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/15.0/sh_portal_timesheet>\
+Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/15.0/sh_portal_timesheet>
 
 ## Konfiguration
 
