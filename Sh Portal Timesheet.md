@@ -24,7 +24,9 @@ Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen*. Kopier
 
 ### Portal-Benutzer mit Mitarbeiter erstellen
 
-Sie können für den ausgewählten Kontakt den [Portal-Zugriff gewähren](Partner.md#Portal-Zugriff%20gewähren). Dann [erfassen Sie einen Mitarbeiter](HR.md#Mitarbeiter%20erfassen) und anschliessen dkönnen Sie den [Portal-Benutzer mit dem Mitarbeiter verknüpfen](HR.md#Benutzer%20mit%20Mitarbeiter%20verknüpfen). Erteilen Sie die Berechtigung *Zeiterfassung / Eigene Zeiterfassung (Portal)* dem Portal-Benutz
+Sie können für den ausgewählten Kontakt den [Portal-Zugriff gewähren](Partner.md#Portal-Zugriff%20gewähren). 
+Dann [erfassen Sie einen Mitarbeiter](HR.md#Mitarbeiter%20erfassen) und anschliessend können
+Sie den [Portal-Benutzer mit dem Mitarbeiter verknüpfen](HR.md#Benutzer%20mit%20Mitarbeiter%20verknüpfen). Erteilen Sie die Berechtigung *Zeiterfassung / Eigene Zeiterfassung (Portal)* dem Portal-Benutzer.
 
 ::: tip
 Damit Sie Portal-Benutzer mit Mitarbeitenden verknüpfen können, müssen Sie das Snippet <https://odoo.build/snippets/hr.html#user-id-domain> installieren.
