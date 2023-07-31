@@ -15,10 +15,11 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-SaaS/tree/16.0/li
 
 ## Erweiterungen
 
-| Erweiterung                             | Beschreibung                           |
-| --------------------------------------- | -------------------------------------- |
-| [License Sale](License%20Sale.md)       | Lizenz aus Verkaufsauftrag generieren. |
-| [License Website](License%20Website.md) | Kundenportal zur Lizenzverwaltung.     |
+| Erweiterung                             | Beschreibung                                                    |
+| --------------------------------------- | --------------------------------------------------------------- |
+| [License OCAD](License%20OCAD.md)       | Synchronisation Lizenzen mit dem OCAD Lizenzaktivierungsdienst. |
+| [License Sale](License%20Sale.md)       | Lizenz aus Verkaufsauftrag generieren.                          |
+| [License Website](License%20Website.md) | Kundenportal zur Lizenzverwaltung.                              |
 
 ## Konfiguration
 
