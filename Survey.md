@@ -10,7 +10,8 @@ prev: ./
 
 {{ $frontmatter.description }}
 
-Website: <https://www.odoo.com/de_DE/app/surveys>
+Website: <https://www.odoo.com/de_DE/app/surveys>\
+Odoo documentation: <https://www.odoo.com/documentation/16.0/applications/marketing/surveys/create.html>
 
 ## Verwendung
 
