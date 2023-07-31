@@ -21,9 +21,9 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/16.
 Navigieren Sie nach *Verkauf > Konfiguration > Product Informations* und erstellen Sie einen neuen Eintrag. Wählen Sie einen *Key* aus und erfassen Sie einen *Value*.
 
 ::: tip
-Produkinformationen können für mehrere Produkte verwendet werden. Werte in Produktinformationen können für mehrere Einträge verwendet, wenn der Attributtyp der gleiche ist.
+Produktinformationen können für mehrere Produkte verwendet werden. Werte in Produktinformationen können für mehrere Einträge verwendet, wenn der Attributtyp der gleiche ist.
 :::
 
-### Produkt-Informationen hinterlegen
+### Produktinformationen hinterlegen
 
-Navigieren Sie nach *Verkauf > Produkte > Produkte* und zeigen Sie ein Produkt an. Im Tab *Mermlale & Varianten* können Sie unter *Product Infromations* die Produkinformationen dem Produkt zuweisen.
+Navigieren Sie nach *Verkauf > Produkte > Produkte* und zeigen Sie ein Produkt an. Im Tab *Product Information* können Sie die Produktinformationen dem Produkt zuweisen.

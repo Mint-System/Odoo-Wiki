@@ -21,5 +21,6 @@
     "en-US",
     "de-DE"
   ],
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "spellcheck": true
 }
