@@ -54,6 +54,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order Template Notes](Sale%20Order%20Template%20Notes.md)                                   | Notizen auf Angebotsvorlage.                                                  |
 | [Sale Partner Incoterm](Sale%20Partner%20Incoterm.md)                                             | Standardlieferbedingungen für Kunden.                                         |
 | [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                                       | Produktset mit Notizen und Abschnitten.                                       |
+| [Sale Product Set Search](Sale%20Product%20Set%20Search.md)                                       | Produkset anhand Name und Referenz suchen.                                    |
 | [Sale Product Set](Sale%20Product%20Set.md)                                                       | Produktsets definieren und einfach hinzufügen.                                |
 | [Sale Timesheet Total Validated](Sale%20Timesheet%20Total%20Validated.md)                         | Nur bestätige Zeiterfassungs-Einträge in Verkaufsauftrag anzeigen.            |
 
