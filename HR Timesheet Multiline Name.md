@@ -7,7 +7,7 @@ tags:
 prev: ./hr-timesheet
 ---
 # HR Timesheet Multiline Name
-![icons_odoo_hr_timesheet](attachments/icons_odoo_hr_timesheet.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 

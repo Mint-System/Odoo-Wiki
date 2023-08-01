@@ -808,7 +808,7 @@ for line in update_move_lines:
     
     # Update with newer quantity
     if quants and quants[0].lot_id != line.lot_id:
-      messages.append('Update move line %s.' % (line.reference))
+      messages.append('Update move line: %s' % (line.reference))
       line.write({
         'lot_id': quants[0].lot_id.id
       })
@@ -889,7 +889,6 @@ now = datetime.datetime.now()
 # Lookup marked lots
 lots = env['stock.production.lot'].search([
 	('x_autoremove', '=', True),
-	('product_expiry_alert', '=', True),
 	('removal_date', '<=', now)
 ])
 lots = lots.filtered(lambda l: l.product_qty > 0.0)

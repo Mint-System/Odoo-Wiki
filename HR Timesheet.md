@@ -22,13 +22,14 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 
 ## Erweiterungen
 
-| Erweiterung                                                      | Beschreibung                                  |
-| ---------------------------------------------------------------- | --------------------------------------------- |
-| [HR Timesheet From Until](HR%20Timesheet%20From%20Until.md)      | Berechnung Dauer anhand Start- und Endzeit.   |
-| [HR Timesheet Multiline Name](HR%20Timesheet%20Multiline%20Name) | Mehrzeilige Beschreibung in Zeiterfassung.    |
-| [Project Timesheet Limit](Project%20Timesheet%20Limit.md)        | Erfassbare Zeit auf geplante Zeit limitieren. |
-| [Portal Timesheet](Sh%20Portal%20Timesheet.md)                | Zeiterfassung im Portal.                      |
-| [Task Timer Advance](Sh%20Task%20Time%20Adv.md)                  | Aufgaben-Timer einfacher starten und beenden. |
+| Erweiterung                                                         | Beschreibung                                            |
+| ------------------------------------------------------------------- | ------------------------------------------------------- |
+| [HR Timesheet From Until](HR%20Timesheet%20From%20Until.md)         | Berechnung Dauer anhand Start- und Endzeit.             |
+| [HR Timesheet Multiline Name](HR%20Timesheet%20Multiline%20Name)    | Mehrzeilige Beschreibung in Zeiterfassung.              |
+| [Portal Timesheet](Sh%20Portal%20Timesheet.md)                      | Zeiterfassung im Portal.                                |
+| [Project Timesheet Limit](Project%20Timesheet%20Limit.md)           | Erfassbare Zeit auf geplante Zeit limitieren.           |
+| [Sale Timesheet Line Exclude](Sale%20Timesheet%20Line%20Exclude.md) | Zeiterfassungseinträge als nicht abrechenbar markieren. |
+| [Task Timer Advance](Sh%20Task%20Time%20Adv.md)                     | Aufgaben-Timer einfacher starten und beenden.           |
 
 ## Konfiguration
 
