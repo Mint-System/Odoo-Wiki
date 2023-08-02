@@ -63,6 +63,8 @@ Basierend auf einer Vorlage können Sie eine Vereinbarung erstellen. Öffnen sie
 
 Um die Stufen der Vereinbarungen anzupassen, wählen Sie *Agreements > Configuration > Stages*. Hier können sie bestehende Stufen anpassen, löschen oder neue erstellen.
 
+## Berechtigungen
+
 ### Berechtigungen anhand Agreement Type filtern
 
 Im folgenden Beispiel werden die abrufbaren Verträge anhand des *Agreement Type* gefiltert. Für Mitglieder der Gruppe *Agreement IT* sind nur Verträge mit der Type Bezeichnung *IT* sichtbar. Die Gruppe erstellen Sie unter *Einstellungen > Benutzer und Unternehmen > Gruppen*.

@@ -17,10 +17,7 @@
     "task.js",
     "node_modules/"
   ],
-  "spellcheckLanguages": [
-    "en-US",
-    "de-DE"
-  ],
+  "spellcheckLanguages": null,
   "showInlineTitle": false,
   "spellcheck": true
 }

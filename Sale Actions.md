@@ -67,3 +67,26 @@ for rec in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 In der Liste der Verkaufsaufträge können Sie die Einträge markieren und *Aktion > Verkaufsauftrag abbrechen* auswählen.
+
+## Automatische Aktionen
+
+### Bestellung bestätigen und Rechnungen erstellen
+
+Mit dieser automatischen Aktion wird ein Angebot mit einem bestimmten Attribut (Beispiel: `x_as4import`) automatisch bestätigt. Rechnungen werden erstellt und ebenfalls bestätigt.
+
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
+
+Name der Aktion: `Bestellung bestätigen und Rechnungen erstellen`\
+Modell: `stock.order`\
+Triggerbedingung: Bei Erstellung und Aktualisierung\
+Trigger-Felder: `x_as4import`\
+Abgrenzung vor Aktualisierung: `[("x_as4import", "!=", True)]`\
+Anzuwenden auf: `[("x_as4import", "=", True)]`\
+Python Code:
+
+```python
+records.action_confirm()
+records._create_invoices()
+for invoice in records.invoice_ids:
+  invoice.action_post()
+```

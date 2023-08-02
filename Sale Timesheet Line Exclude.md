@@ -16,20 +16,20 @@ Repository: <https://github.com/OCA/timesheet/tree/15.0/sale_timesheet_line_excl
 
 ## Aktionen
 
-### Von Abrechnung ausschliessen
+### Von Abrechnung aus-/einschliessen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Von Abrechnung ausschliessen`\
+Name der Aktion: `Von Abrechnung aus-/einschliessen`\
 Modell: `account.analytic.line`\
 Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-for record in records:
-	record.write({
-	  '​exclude_from_sale_order': True
+for rec in records:
+	rec.write({
+	  'exclude_from_sale_order': False if rec.exclude_from_sale_order else True
 	})
 ```
 
