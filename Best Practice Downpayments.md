@@ -42,7 +42,7 @@ Mit der Anzahlung wird der Betrag auf das Konto *2030 Erhaltene Anzahlungen* bla
 | Re.:/2023/00006 | 1100 Forderungen aus Lieferungen und Leistungen (Debitoren) |                      | CHF 2'154.00 | CHF 0.00     |
 
 ### Gutschrift
- Auf der Rechnung ist ein Hinweis, ass die Rechnung bereits bezahlt wurde, ist ersichtlich Auf der Rechnung ist ein Hinweis, ass die Rechnung bereits bezahlt wurde, ist ersichtlich
+
 Sobald der Kunde die Rechnung bezahlt, erhalten Sie über das eBanking einen entsprechenden Beleg zum Abgleich. Diesen Beleg gleichen Sie mit der Anzahlungsrechnung ab und erstellen eine [Gutschrift](Invoicing.md#Gutschrift%20erstellen). Mit der Gutschrift wird das Konto *2030 Erhaltene Anzahlungen* wieder ausgeglichen.
 
 | Buchungssatz                                      | Konto                                                       | Buchungstext         | Soll         | Haben        |
