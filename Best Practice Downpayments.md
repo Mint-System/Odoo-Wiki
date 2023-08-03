@@ -15,7 +15,7 @@ In diesem Szenario verkaufen Sie eine Dienstleistung auf Stundenbasis an einen K
 
 Damit Anzahlungen für Angebote erfasst werden können, führen Sie diese Schritte durchführen:
 
-* [Produkt für Anzahlung auswählen](Sale%20Invoicing.md#Produkt%20für%20Anzahlung%20auswählen)
+* [Produkt für Anzahlungen erstellen](Sale%20Invoicing.md#Produkt%20für%20Anzahlungen%20erstellen)
 * [Konto für Anzahlungen festlegen](Finance%20Payments.md#Konto%20für%20Anzahlungen%20festlegen)
 
 ### Anzahlung

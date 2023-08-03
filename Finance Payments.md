@@ -160,7 +160,7 @@ Buchen Sie die Zahlung mit *Bestätigung*.
 
 ### Konto für Anzahlungen festlegen
 
-Navigieren Sie nach *Einstellungen > Verkauf > Abrechnung* und öffnen Sie das Produkt in der Auswahl von *Anzahlungen*. Im Tab *Finanzen* wählen Sie im Feld *Erlöskonto* ein Konto aus den kurzfristigen Verbindlichkeiten, beispielsweise *2030 Erhaltene Anzahlungen*, aus.
+Navigieren Sie nach *Einstellungen > Verkauf > Abrechnung* und öffnen Sie das Produkt in der Auswahl von *Anzahlungen*. Im Tab *Finanzen* wählen Sie im Feld *Erlöskonto* ein Konto aus den kurzfristigen Verbindlichkeiten aus, beispielsweise *2030 Erhaltene Anzahlungen*.
 
 ## Ansichten
 

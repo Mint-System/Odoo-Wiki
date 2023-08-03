@@ -12,13 +12,18 @@ prev: ./sale
 
 ## Konfiguration
 
-### Produkt für Anzahlung auswählen
+### Produkt für Anzahlungen erstellen
 
-Navigieren Sie nach *Einstellungen > Verkauf > Abrechnung* und wählen Sie im Feld *Anzahlungen* das entsprechende Produkt aus. Zegien Sie das Produkt an und wählen Sie im Tab *Finanzen* das Erlöskonto festlegen.
+Zeigen Sie *Verkauf > Produkte > Produkte* an und erstellen Sie einenen neuen Eintrag *Anzahlungen*. Stellen Sie sicher, dass die *Steuern (Verkauf)* korrekt ist.
+
+Navigieren Sie nach *Einstellungen > Verkauf > Abrechnung* und wählen Sie im Feld *Anzahlungen* das erstellte Produkt aus.
 
 ::: warning
-Damit Anzahlungen korrekt gebucht werden, müssen das [Konto für Anzahlungen festlegen](Finance%20Payments.md#Konto%20für%20Anzahlungen%20festlegen).
+Damit Anzahlungen korrekt gebucht werden, müssen Sie das [Konto für Anzahlungen festlegen](Finance%20Payments.md#Konto%20für%20Anzahlungen%20festlegen).
 :::
+
+### Produkt für Anzahlung auswählen
+
 
 ## Abrechnung
 
