@@ -77,7 +77,7 @@ Mit dieser automatischen Aktion wird ein Angebot mit einem bestimmten Attribut (
 Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Bestellung bestätigen und Rechnungen erstellen`\
-Modell: `stock.order`\
+Modell: `sale.order`\
 Triggerbedingung: Bei Erstellung und Aktualisierung\
 Trigger-Felder: `x_as4import`\
 Abgrenzung vor Aktualisierung: `[("x_as4import", "!=", True)]`\
