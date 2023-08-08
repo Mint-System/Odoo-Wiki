@@ -16,7 +16,7 @@ prev: ./finance
 
 Damit SEPA-Zahlungen exportiert werden können, müssen unter *Einstellungen > Finanzen > Zahlung des Lieferant* die folgenden Einstellungen vorgenommen werden:
 
-* Unternehmensname: Name des Unternehmesn
+* Unternehmensname: Name des Unternehmens
 * Identifikation: Mwst. oder andere eindeutige Identifikationsnummer
 * Veranlasser: Name des Buchhalters
 * SEPA PAIN Version: Schweizer Version
