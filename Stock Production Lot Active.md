@@ -38,25 +38,22 @@ Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstelle
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-# Search for all lots
-all_lots = env['stock.production.lot'].search([])
+# Get all lots including archived
+lot_ids = env['stock.lot'].search([]).with_context(active_test=False)
 
-# Search for lots with product qty less than zero
-archive_lots = all_lots.filtered(lambda lot : lot.active is True and lot.product_qty < 0.0)
+# Get active lots with zero or less quantity
+archive_lots = lot_ids.filtered(lambda l: l.active is True and l.product_qty <= 0.0)
 
 # Archive the filtered lots
 if archive_lots:
-    filtered_lots.write({'active': False})
-    log('Archived lots: %s' % archive_lots._name)
+    archive_lots.write({'active': False})
+    log('Archived lots: %s' % archive_lots.name)
 
 # Search for archived lots with product qty 1 or greater
-unarchive_lots = all_lots.filtered(lambda lot : lot.active is False and lot.product_qty > 0.0)
+unarchive_lots = lot_ids.filtered(lambda l: l.active is False and l.product_qty > 0.0)
 
-# Unarchive lots
+# Unarchive filtered lots
 if unarchive_lots:
-    filtered_lots.write({'active': True})
-    log('Unarchived lots: %s' % archive_lots._name)
-
-# Commit changs
-env.cr.commit()
+    unarchive_lots.write({'active': True})
+    log('Unarchived lots: %s' % unarchive_lots.name)
 ```

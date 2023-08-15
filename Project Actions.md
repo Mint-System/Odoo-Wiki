@@ -12,13 +12,13 @@ prev: ./project
 
 ## Geplante Aktionen
 
-### Projektmenü aktualisieren
+### Schnellzugriff für Projekte generieren
 
 Mit dieser geplanten Aktion generiert Odoo für jedes Projekt einen Menüeintrag. Damit können Sie schneller zwischen Projektaufgaben navigieren.
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Projektmenü aktualisieren`\
+Name der Aktion: `Schnellzugriff für Projekte generieren`\
 Modell: `ir.actions.server`\
 Ausführen alle: `1` Tage\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
@@ -33,7 +33,6 @@ parent_menu_id = 218
 
 # Get all projects
 project_ids = env['project.project'].search([])
-# raise Warning([project_ids.mapped('name')])
 
 new_menus = []
 for project in project_ids:
@@ -45,8 +44,7 @@ for project in project_ids:
 
   # Check if action entry exists
   action = env['ir.actions.act_window'].search([('name', '=', name)], limit=1)
-  # raise Warning([action])
-  
+ 
   # Create action if it does not exist otherwise update
   if not action:
     action = env['ir.actions.act_window'].create({
@@ -65,14 +63,12 @@ for project in project_ids:
       'context': "{ 'default_project_id': %s, 'search_default_my_tasks': True }" % (project.id)
     })
 
-  
   # Set action reference
   action_ref = 'ir.actions.act_window,' + str(action.id)
   
   # Check if menu entry exists
   menu = env['ir.ui.menu'].search([('name', '=', name)], limit=1)
-  # raise Warning([menu])
-  
+
   # Create menu if does not exist otherwise update
   if not menu:
     menu = env['ir.ui.menu'].create({
@@ -93,6 +89,7 @@ for project in project_ids:
 # Get all archived projects
 project_ids = env['project.project'].search([('active','=',False)])
 
+removed_menus = []
 for project in project_ids:
 
   # Set name for action and view
@@ -103,15 +100,19 @@ for project in project_ids:
   # Check if menu entry exists and remove it if found
   menu = env['ir.ui.menu'].search([('name', '=', name)], limit=1)
   if menu:
+    removed_menus.append(menu.name)
     menu.unlink()
-  
+
+    
   # Check if action entry exists and remove it if found
   action = env['ir.actions.act_window'].search([('name', '=', name)], limit=1)
   if action:
     action.unlink()
-  
+
 if new_menus:
   log('Created new menus: %s' % (', '.join(new_menus)))
+if removed_menus:
+  log('Removed menus: %s' % (', '.join(removed_menus)))
 ```
 
 Legen Sie den Wert für `parent_menu_id` fest. Damit bestimmen Sie unter welchem Menüpunkt die Projektmenüs erscheinen sollen.
