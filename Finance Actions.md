@@ -108,11 +108,11 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *
 
 ![Finanzen Buchungszeilen aktualisieren](attachments/Finanzen%20Buchungszeilen%20aktualisieren.gif)
 
-### Auf Entwurf setzen
+### Auf Entwurf zurücksetzen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Auf Entwurf setzen`
+Name der Aktion: `Auf Entwurf zurücksetzen`
 Modell: `account.move`
 Folgeaktion: `Python-Code ausführen`
 
@@ -125,7 +125,7 @@ for record in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Auf Entwurf setzen.
+In der Liste der Buchungssätze erscheint nun die Auswahl *Aktion > Auf Entwurf zurücksetzen*.
 
 ### Abstimmung zurücksetzen
 
