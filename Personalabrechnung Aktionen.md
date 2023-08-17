@@ -21,7 +21,7 @@ Name der Aktion: `Lohnabrechnung zurücksetzen`\
 Modell: `hr.payslip`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for record in records:  
@@ -40,7 +40,7 @@ Name der Aktion: `Lohnabrechnung versenden`\
 Modell: `hr.payslip`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for record in records:  
@@ -60,7 +60,7 @@ Name der Aktion: `Batch zurücksetzen`\
 Modell: `hr.payslip.run`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for record in records:
@@ -81,7 +81,7 @@ Name der Aktion: `Lohnbuchung zurücksetzen`\
 Modell: `hr.payslip`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for rec in records.filtered(lambda r: not r.payslip_run_id):
@@ -103,7 +103,7 @@ Name der Aktion: `Lohnbuchung entfernen`\
 Modell: `hr.payslip`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for rec in records.filtered(lambda r: not r.payslip_run_id):

@@ -38,7 +38,7 @@ Name der Aktion: `Positionsnummer festlegen`\
 Modell: `mrp.bom`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for record in records:  

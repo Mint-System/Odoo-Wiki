@@ -20,7 +20,7 @@ Name der Aktion: `Auslagenbericht zurücksetzen`\
 Modell: `hr.expense.sheet`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for rec in records:  

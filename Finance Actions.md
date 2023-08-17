@@ -57,7 +57,7 @@ Name der Aktion: `Bankauszug zurücksetzen`\
 Modell: `account.bank.statement`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for record in records:  
@@ -76,7 +76,7 @@ Name der Aktion: `Bankauszug bestätigen`\
 Modell: `account.bank.statement`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for record in records:  
@@ -116,7 +116,7 @@ Name der Aktion: `Auf Entwurf zurücksetzen`
 Modell: `account.move`
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for record in records:  
@@ -135,7 +135,7 @@ Name der Aktion: `Abstimmung zurücksetzen`\
 Modell: `account.bank.statement.line`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for record in records:  
@@ -154,7 +154,7 @@ Name der Aktion: `Als gebucht markieren`
 Modell: `account.move`
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for record in records:
@@ -173,7 +173,7 @@ Name der Aktion: `Zahlung gesendet zurücksetzen`\
 Modell: `account.payment`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for record in records:  
@@ -192,7 +192,7 @@ Name der Aktion: `Mahnstufe anzeigen`\
 Modell: `res.partner`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 records.ensure_one()
@@ -210,7 +210,7 @@ Name der Aktion: `Analysekonto entfernen`\
 Modell: `account.move`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for rec in records:
@@ -227,7 +227,7 @@ Name der Aktion: `Steuersätze aktualisieren`\
 Modell: `account.move`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for rec in records:
