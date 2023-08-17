@@ -14,6 +14,10 @@ prev: ./sale
 Technischer Name: `sale_timesheet_line_exclude`\
 Repository: <https://github.com/OCA/timesheet/tree/15.0/sale_timesheet_line_exclude>
 
+::: warning
+This module extends the `_timesheet_determine_sale_line` method, which is called depending on the installation order of the moduls extending this method as well.   
+:::
+
 ## Aktionen
 
 ### Von Abrechnung aus-/einschliessen
