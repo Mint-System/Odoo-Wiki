@@ -1,12 +1,12 @@
 ---
-title: Sale Order Line Po
+title: Sale Order Line Pos
 description: Verkaufsaufträge mit Positionsnummern. 
 tags:
 - HowTo
 - Drittanbieter
 prev: ./order-positions
 ---
-# Sale Order Line Po
+# Sale Order Line Pos
 ![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
