@@ -190,7 +190,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 07:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 ## Get deliveries due in 3 days
@@ -240,7 +240,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 05:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 printnode_scenario = env.ref("printnode_base.print_picking_document_after_so_confirmation_scenario")

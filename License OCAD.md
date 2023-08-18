@@ -12,3 +12,9 @@ prev: ./license
 
 Technischer Name: `license_ocad`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-SaaS/tree/16.0/license_ocad>
+
+## Konfiguration
+
+### Benutzer und Passwort festlegen
+
+Navigieren Sie nach *Einstellungen > Verkauf > Konnektoren* und tragen Sie bei *License OCAD* den Benutzernamen und das Passwort für die Verbindung zum OCAD Lizenzaktivierungsdienst ein.

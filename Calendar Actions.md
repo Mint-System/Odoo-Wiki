@@ -20,7 +20,7 @@ Name der Aktion: `Outlook Kalender synchronisieren`\
 Modell: `res.users`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Pythoncode*:
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for rec in records:
