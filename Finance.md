@@ -65,6 +65,15 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 
 ## Konfiguration
 
+### Zahlungsbedingungen definieren
+
+Um spezielle Zahlungsbedingungen zu formulieren navigieren Sie nach *Einstellungen > Finanzen > Zahlungsbedingungen* . Dort können Sie einen vorhandenen Eintrag kopieren oder neu anlegen und nach den eigenen Wünschen konfigurieren.
+
+::: tip
+Zahlungsbedingungen können den Kontakten hinterlegt werden. Für neue *Angebote/Verkaufsaufträge* werden sie dann als Vorgabewert übernommen.
+:::
+
+
 ### Kontenrahmen festlegen
 
 Wenn Sie ein neues Unternehmen erstellt haben, können Sie unter *Einstellungen > Finanzen > Steuerliche Lokalisierung* ein Lokalisierungspaket im Feld *Kontenrahmen* auswählen und installieren. Damit werden die länderspezifischen Journale, Steuersätze und Kontenplan angelegt.
