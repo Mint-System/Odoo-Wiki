@@ -70,7 +70,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 Um spezielle Zahlungsbedingungen zu formulieren navigieren Sie nach *Einstellungen > Finanzen > Zahlungsbedingungen* . Dort können Sie einen vorhandenen Eintrag kopieren oder neu anlegen und nach den eigenen Wünschen konfigurieren.
 
 ::: tip
-Zahlungsbedingungen können den Kontakten hinterlegt werden. Für neue *Angebote/Verkaufsaufträge* werden sie dann als Vorgabewert übernommen.
+Zahlungsbedingungen können den Kontakten für den Verkauf und den Einkauf hinterlegt werden. Für neue *Angebote/Verkaufsaufträge* und *Bestellungen* werden sie dann als Vorgabewert übernommen.
 :::
 
 
