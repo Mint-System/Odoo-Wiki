@@ -467,7 +467,7 @@ Unterstützer des Odoo Wiki werden hier mit Logo aufgeführt:
 
 [![logo](attachments/logo.svg)](https://www.mint-system.ch/)
 
-Es sind Dokumente von diesen Drittanbietern enthalten:
+Es sind Lösungen und Dokumente von diesen Drittanbietern enthalten:
 
 * [nivels GmbH](https://www.nivels.ch/)
 * [giordano.ch](https://www.giordano.ch/)
