@@ -19,9 +19,9 @@ tags:
 
 # Odoo Wiki
 
-Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) auf zwei Ebenen. Die **Best Practice** beschreiben wie Anwendungsfälle in Odoo allgemein umgesetzt werden. Die **HowTos** sind detailliert beschriebene Arbeitsschritte zur Konfiguration und Verwendung von Odoo.
+Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus zwei Sichten. In den **Best Practice** werden konkrete Anwendungsfälle in Odoo umgesetzt und mit den **HowTos** wird die Konfiguration und Verwendung von Odoo vermittelt.
 
-Die [Mint System GmbH](https://www.mint-system.ch/) unterhält das Odoo Wiki.
+Die [Mint System GmbH](https://www.mint-system.ch/) ist Odoo Partner und unterhält das Odoo Wiki.
 
 ## [Best Practice](Best%20Practice.md)
 
@@ -29,7 +29,7 @@ Die [Mint System GmbH](https://www.mint-system.ch/) unterhält das Odoo Wiki.
 
 ## HowTos
 
-Für jede Odoo App finden Sie hier HowTos.
+Zu jeder Odoo App finden Sie hier die HowTos.
 
 ### [Abonnements](Subscriptions.md)
 
@@ -459,11 +459,11 @@ Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
 ## [Mitarbeit](Contribution.md)
 
-Sie können eine Kopie des Wiki erstellen und für eigene Zwecke nutzen. Ebenfalls können Sie Änderungen mitteilen und mit dem offizielen Wiki zusammenführen. Mehr dazu unter [Mitarbeit](Contribution.md).
+Sie können eine Kopie des Odoo Wiki erstellen und für eigene Zwecke nutzen. Ebenfalls können Sie Änderungen mitteilen und mit dem offiziellen Odoo Wiki zusammenführen. Mehr dazu unter [Mitarbeit](Contribution.md).
 
 ### Unterstützer
 
-Authoren werden hier mit Logo aufgeführt:
+Unterstützer des Odoo Wiki werden hier mit Logo aufgeführt:
 
 [![logo](attachments/logo.svg)](https://www.mint-system.ch/)
 
