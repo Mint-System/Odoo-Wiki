@@ -55,8 +55,8 @@ Sie können dieses Konto (1021 Bank - Durchlaufskonto) nicht in diesem Journal b
 
 **Ursache**
 
-Auf dem genannKonto ist ist das Bank-Journal nicht als zulässiges Journal hinterlegt.
+Auf dem genannten Konto ist ist das Bank-Journal nicht als zulässiges Journal hinterlegt.
 
 **Lösung**
 
-Sie müssen das Bank-Journal als [zuslässiges Journal auf dem Konto festlegen](Finance.md#Zulässige%20Journale%20auf%20Konto%20festlegen).
+Sie müssen das Bank-Journal als [zulässiges Journal auf dem Konto festlegen](Finance.md#Zulässige%20Journale%20auf%20Konto%20festlegen).
