@@ -31,7 +31,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 
 | Erweiterung                                                                                                | Beschreibung                                                                |
 | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| [Account Move Accounting Description](Account%20Move%20Accounting%20Description.md)                      | Beschreibungsfeld für Rechnungszeile.                                       |
+| [Account Move Accounting Description](Account%20Move%20Accounting%20Description.md)                        | Beschreibungsfeld für Rechnungszeile.                                       |
 | [Account Financial Report Contra Accounts](Account%20Financial%20Report%20Contra%20Accounts.md)            | Gegenkontos für Hauptbuch OCA-Finanzbericht bereitstellen.                  |
 | [Account Financial Report Reverse Move Lines](Account%20Financial%20Report%20Reverse%20Move%20Lines.md)    | Ordnet die Buchungszeilen von neu zu alt.                                   |
 | [Account Financial Report Show Grouped None](Account%20Financial%20Report%20Show%20Grouped%20None.md)      | Alle Buchungszeilen bei Auswahl "nicht gruppiert" anzeigen.                 |
@@ -49,7 +49,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                      | Zeigt für eine Rechnung das definitive Abgleichsdatum an.                   |
 | [Account Statement Import Base](Account%20Statement%20Import%20Base.md)                                    | Basismodul für Import Bankauszüge.                                          |
 | [Account Statement Import CAMT](Account%20Statement%20Import%20CAMT.md)                                    | Support Import Bankauszug im Camt-Format.                                   |
-| [Account Statement Import Camt54](Account%20Statement%20Import%20Camt54.md)                                | Camt54 Bankauszug mit den Details zu Einzahlungen importieren.              |
+| [Account Statement Import Camt54](Account%20Statement%20Import%20Camt54.md)                                | Camt54 Bankauszug mit Details zu Einzahlungen importieren.                  |
 | [Account statement Import](Account%20statement%20Import.md)                                                | Bankauszüge importieren.                                                    |
 | [Contract Sale Generation](Contract%20Sale%20Generation.md)                                                | Aus wiederholenden Verträge Verkaufsangebote generieren.                    |
 | [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                      | PDF-Dokumenten von Rechnungen zusammenführen.                               |
@@ -73,7 +73,6 @@ Um spezielle Zahlungsbedingungen zu formulieren navigieren Sie nach *Einstellung
 Zahlungsbedingungen können den Kontakten für den Verkauf und den Einkauf hinterlegt werden. Für neue *Angebote/Verkaufsaufträge* und *Bestellungen* werden sie dann als Vorgabewert übernommen.
 :::
 
-
 ### Kontenrahmen festlegen
 
 Wenn Sie ein neues Unternehmen erstellt haben, können Sie unter *Einstellungen > Finanzen > Steuerliche Lokalisierung* ein Lokalisierungspaket im Feld *Kontenrahmen* auswählen und installieren. Damit werden die länderspezifischen Journale, Steuersätze und Kontenplan angelegt.
@@ -88,8 +87,11 @@ Navigieren Sie nach *Finanzen > Konfiguration > Konten Tags*. Hier finden Sie di
 Konten Tags werden zur Generierung des Umsatzsteuerbericht verwendet und sind mit den Steuersätzen eng verknüpft.
 :::
 
-## Bank-Jounal
+### Zulässige Journale auf Konto festlegen
 
+Navigieren Sie nach *Finanzen > Konfiguration > Kontenplan* und wählen Sie ein Konto aus. Im Feld *Zugelassene Journale* können Sie festlegen in welchem Journal dieses Konto verwendet darf.
+
+## Bank-Jounal
 
 ### Bank-Journal einrichten
 
@@ -97,7 +99,7 @@ Konten Tags werden zur Generierung des Umsatzsteuerbericht verwendet und sind mi
 
 Unter *Bankverbindung* fügen Sie das Bankkonto ihres Unternehmens hinzu. Legen Sie *Bank Datenübertrag* gemäss Anforderungen fest.
 
-Im Tab *Payments Configuration* legen Sie die Konten für ausstehende Ein- und Auzahlungen fest.
+Im Tab *Payments Configuration* legen Sie die Konten für ausstehende Ein- und Auszahlungen fest.
 
 ::: tip
 Ein Beispiel wie der Kontenplan nach der Konfiguration ausseiht

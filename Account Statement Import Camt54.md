@@ -1,6 +1,6 @@
 ---
 title: Account Statement Import Camt54
-description: Camt54 Bankauszug mit den Details zu Einzahlungen importieren.
+description: Camt54 Bankauszug mit Details zu Einzahlungen importieren.
 tags:
 - HowTo
 prev: ./finance
@@ -40,3 +40,23 @@ Zeigen Sie dei App *Finanzen* an und wählen Sie *Import Statement (OCA)*. Im Di
 ::: tip
 Die IBAN des Bankauszugs muss mit der IBAN des Bankjournals übereinstimmen.
 :::
+
+## Troubleshooting
+
+### Camt54-Datei kann nicht importiert werden
+
+**Problem**
+
+Beim Importieren der Camt54-Datei wird ein Fehler geworfen:
+
+```
+Sie können dieses Konto (1021 Bank - Durchlaufskonto) nicht in diesem Journal benutzen. Prüfen Sie den Abschnitt "Zulässige Journale" auf der Registerkarte "Erweiterte Einstellungen" im entsprechenden Journal.
+```
+
+**Ursache**
+
+Auf dem genannKonto ist ist das Bank-Journal nicht als zulässiges Journal hinterlegt.
+
+**Lösung**
+
+Sie müssen das Bank-Journal als [zuslässiges Journal auf dem Konto festlegen](Finance.md#Zulässige%20Journale%20auf%20Konto%20festlegen).
