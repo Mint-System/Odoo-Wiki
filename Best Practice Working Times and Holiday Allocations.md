@@ -1,13 +1,13 @@
 ---
-title: Arbeitszeiten und Abwesenheitsansprüche
+title: Arbeitszeiten und Urlaubsansprüche
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Arbeitszeiten und Abwesenheitsansprüche
+# Arbeitszeiten und Urlaubsansprüche
 
-Die Berechnung der Arbeitszeiten und Abwesenheitsansprüche ist eine komplexe Angelegenheit. Um die Systematik von Odoo zu verstehen wurde ein Anwendungsfall definiert.
+Die Berechnung der Arbeitszeiten und Urlaubsansprüche ist eine komplexe Angelegenheit. Um die Systematik von Odoo zu verstehen wurde ein Anwendungsfall definiert.
 
 ## Szenario
 

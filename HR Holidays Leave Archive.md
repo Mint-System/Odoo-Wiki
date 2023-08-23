@@ -16,27 +16,27 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_holidays_l
 
 ## Verwendung
 
-### Abwesenheitszeiten archivieren
+### Abwesenheiten archivieren
 
-Ist diese Erweiterung installiert können Abwesenheitszeiten archiviert werden. Navigieren Sie nach *Abwesenheitszeiten > Vorgesetzte > Abwesenheitszeiten*. Filtern Sie die Listen nach Einträgen und markieren Sie jene, die archivieren möchten. Wählen Sie *Aktion > Archiv*.
-
-::: warning
-<!--Im Archivierungsvorgang wird der Status von Abwesenheitszeiten auf *Abgebrochen* gesetzt.-->
-Archivierte Abwesenheiten werden weiterhin in den Abwesenheitsanspruch eingerechnet.
-:::
-
-### Archivierte Abwesenheitszeiten anzeigen
-
-Zeigen Sie die Listenansicht *Abwesenheitszeiten > Vorgesetzte > Abwesenheitszeiten* an und wählen Sie *Filter*. Aktivieren Sie den Filter *Archived*. Mit *Aktion > Archivierung aufheben* können Sie ausgewählte Einträge wieder aktivieren.
-
-### Abwesenheitsansprüche archivieren
-
-Ist diese Erweiterung installiert können Abwesenheitsansprüche archiviert werden. Navigieren Sie nach *Abwesenheitszeiten > Vorgesetzte > Abwesenheitsansprüche*. Filtern Sie die Listen nach Einträgen und markieren Sie jene, die archivieren möchten. Wählen Sie *Aktion > Archiv*.
+Ist diese Erweiterung installiert können Abwesenheiten archiviert werden. Navigieren Sie nach *Abwesenheiten > Genehmigungen > Abwesenheiten*. Filtern Sie die Listen nach Einträgen und markieren Sie jene, die archivieren möchten. Wählen Sie *Aktion > Archiv*.
 
 ::: warning
-Im Archivierungsvorgang werden alle verknüpften Abwesenheitszeiten ebenfalls archiviert.
+<!--Im Archivierungsvorgang wird der Status von Abwesenheiten auf *Abgebrochen* gesetzt.-->
+Archivierte Abwesenheiten werden weiterhin in den Urlaubsanspruch eingerechnet.
 :::
 
-### Archivierte Abwesenheitsansprüche anzeigen
+### Archivierte Abwesenheiten anzeigen
 
-Zeigen Sie die Listenansicht *Abwesenheitszeiten > Vorgesetzte > Abwesenheitsansprüche* an und wählen Sie *Filter*. Aktivieren Sie den Filter *Archived*. Mit *Aktion > Archivierung aufheben* können Sie ausgewählte Einträge wieder aktivieren.
+Zeigen Sie die Listenansicht *Abwesenheiten > Genehmigungen > Abwesenheiten* an und wählen Sie *Filter*. Aktivieren Sie den Filter *Archived*. Mit *Aktion > Archivierung aufheben* können Sie ausgewählte Einträge wieder aktivieren.
+
+### Urlaubsansprüche archivieren
+
+Ist diese Erweiterung installiert können Urlaubsansprüche archiviert werden. Navigieren Sie nach *Abwesenheiten > Genehmigungen > Urlaubsansprüche*. Filtern Sie die Listen nach Einträgen und markieren Sie jene, die archivieren möchten. Wählen Sie *Aktion > Archiv*.
+
+::: warning
+Im Archivierungsvorgang werden alle verknüpften Abwesenheiten ebenfalls archiviert.
+:::
+
+### Archivierte Urlaubsansprüche anzeigen
+
+Zeigen Sie die Listenansicht *Abwesenheiten > Genehmigungen > Urlaubsansprüche* an und wählen Sie *Filter*. Aktivieren Sie den Filter *Archived*. Mit *Aktion > Archivierung aufheben* können Sie ausgewählte Einträge wieder aktivieren.

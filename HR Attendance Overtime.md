@@ -37,7 +37,7 @@ Als Personaldministrator können Sie alle Überstunden im Bericht *Anwesenheit >
 
 Auf Abwesenheitstypen können Sie festlegen, ob Überstunden abgezogen werden können bzw. ob Überstunden mit der Abwesenheit kompensiert werden können.
 
-Öffnen Sie den Abwesenheitstyp via *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Mit der Option *Zusätzliche Stunden abziehen* können Sie festlegen, ob Überstunden abgezogen werden.
+Öffnen Sie den Abwesenheitstyp via *Abwesenheiten > Konfiguration > Abwesenheitstypen*. Mit der Option *Zusätzliche Stunden abziehen* können Sie festlegen, ob Überstunden abgezogen werden.
 
 Dazu ein Beispiel mit dem Abwesenheitstyp *Überstunden*:
 

@@ -16,7 +16,7 @@ Repository: <https://github.com/OCA/web/tree/13.0/web_timeline>
 
 ## Verwendung
 
-### Timeline für Abwesenheitszeiten anzeigen
+### Timeline für Abwesenheiten anzeigen
 
 Damit der Ansichtstyp *Timeline* für die App *Abwesenheitszeiten* angezeigt werden kann, müssen folgende Anpassungen vorgenommen werden:
 
@@ -67,7 +67,7 @@ Den `view_mode` mit `timeline` bei diesen Fenster-Aktionen `ir.actions.act_windo
 * Abwesenheitsanträge `hr_holidays.hr_leave_action_my`
 * Dashboard `hr_holidays.hr_leave_action_new_request`
 * Alle Abwesenheiten `hr_holidays.action_hr_holidays_dashboard`
-* Abwesenheitszeiten `hr_holidays.hr_leave_action_all`
+* Abwesenheiten `hr_holidays.hr_leave_action_all`
 
 Das Resultat sieht etwa so aus:
 

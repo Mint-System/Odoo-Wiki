@@ -28,16 +28,16 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 | [HR Holidays .ics Attachment](HR%20Holidays%20ics%20Attachment.md)                        | An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.                                                  |
 | [HR Holidays Calendar Department](HR%20Holidays%20Calendar%20Department.md)               | Erweitert den Anwesenheitsbericht mit neuen Felder.                                                                |
 | [HR Holidays Leave Archive](HR%20Holidays%20Leave%20Archive.md)                           | Archivierungsfunktion für Abwesenheitseinträge aktivieren.                                                         |
-| [HR Holidays Public](HR%20Holidays%20Public.md)                                           | Erstellen Sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.                          |
-| [HR Holidays Remaining Leaves](HR%20Holidays%20Remaining%20Leaves.md)                     | Verbleibende Anwesenheitsansprüche der Mitarbeitenden anzeigen.                                                    |
+| [HR Holidays Public](HR%20Holidays%20Public.md)                                           | Erstellen Sie einen Feiertagskalender, der in der Abwesenheiten berücksichtigt wird.                          |
+| [HR Holidays Remaining Leaves](HR%20Holidays%20Remaining%20Leaves.md)                     | Verbleibende Urlaubsansprüche der Mitarbeitenden anzeigen.                                                    |
 | [HR Leave Custom Hour Interval](HR%20Leave%20Custom%20Hour%20Interval.md)                 | Start- und End-Zeit für Abwesenheiten eintragen.                                                                   |
 | [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. |
 
 ## Dashboard
 
-###  Verfügbare Abwesenheitsansprüche anzeigen
+###  Verfügbare Urlaubsansprüche anzeigen
 
-Öffnen Sie die App *Abwesenheit*. Auf dem Dashboard werden oberhalb des Kalender die verbleibenden Abwesenheitsansprüche angezeigt.
+Öffnen Sie die App *Abwesenheit*. Auf dem Dashboard werden oberhalb des Kalender die verbleibenden Urlaubsansprüche angezeigt.
 
 ![](attachments/Abwesenheit%20Dashboard.png)
 
@@ -49,22 +49,22 @@ Die verfügbaren Überstunden werden nur angezeigt, wenn der Wert positiv ist.
 
 ### Abwesenheitstyp erfassen
 
-Jede Abwesenheit und Abwesenheitsanspruch wird einem Abwesenheitstyp zugeordnet. Damit Sie jährliche Feriensaldis korrekt erfassen, müssen Sie für jedes Jahr einen Abwesenheitstyp erfassen. Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und duplizieren Sie einen bestehenden Typ. Legen Sie diese Werte fest:
+Jede Abwesenheit und Urlaubsanspruch wird einem Abwesenheitstyp zugeordnet. Damit Sie jährliche Feriensaldis korrekt erfassen, müssen Sie für jedes Jahr einen Abwesenheitstyp erfassen. Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitstypen* und duplizieren Sie einen bestehenden Typ. Legen Sie diese Werte fest:
 
 * **Name**: Anzeigenamen des Abwesenheitstyp.
 * **Abwesenheitsanträge Genehmigung**: Bestimmen Sie ob die Abwesenheitseinträge genehmigt werden muss.
 * **Einheit der Abwesenheit**: Wählen Sie hier Stunden, Halbtage oder Tage als Einheit.
 * **Zusätzliche Stunden abziehen**: Wenn die Abwesenheit nicht als Arbeitszeit gerechnet werden soll, aktivieren Sie diese Option.
-* **Erfordert Zuweisung**: Bestimmen Sie ob der Abwesenheitsanspruch genehmigt werden muss.
-* **Urlaubsanspruch Genehmigung**: Bestimmen Sie wie der Abwesenheitsanspruch genehmigt wird.
+* **Erfordert Zuweisung**: Bestimmen Sie ob der Urlaubsanspruch genehmigt werden muss.
+* **Urlaubsanspruch Genehmigung**: Bestimmen Sie wie der Urlaubsanspruch genehmigt wird.
 
 ### Abwesenheitstyp konfigurieren
 
-Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Wählen Sie hier den Abwesenheitstyp aus und bearbeiten Sie diesen gemäss den Anforderungen.
+Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitstypen*. Wählen Sie hier den Abwesenheitstyp aus und bearbeiten Sie diesen gemäss den Anforderungen.
 
 ### Einheit für Abwesenheitstyp festlegen
 
-Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen*. Wählen Sie hier den Abwesenheitstyp aus. Im Feld *Einheit der Abwesenheit* können Sie wählen, ob der Typ in Stunden, Halbtage oder Tagen dargestellt wird.
+Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitstypen*. Wählen Sie hier den Abwesenheitstyp aus. Im Feld *Einheit der Abwesenheit* können Sie wählen, ob der Typ in Stunden, Halbtage oder Tagen dargestellt wird.
 
 ::: tip
 Odoo rechnet intern immer in Stunden. Diese Option legt die Darstellung der verbleibenden Ansprüche fest.
@@ -90,25 +90,25 @@ Stellen Sie sicher, dass zwischen Start- und Endatum die effektive Anzahl Stunde
 
 ## Vorgänge
 
-### Abwesenheitsanspruch melden
+### Urlaubsanspruch melden
 
-Damit Sie Anspruch auf Abwesenheit haben, müssen Sie diesen Anspruch geltend machen. Öffnen Sie die App *Abwesenheitszeiten* und wählen Sie *Neuer Abwesenheitsanspruch*. Wählen Sie den Typ, die Anzahl Tage und fügen Sie eine Beschreibung hinzu.
+Damit Sie Anspruch auf Abwesenheit haben, müssen Sie diesen Anspruch geltend machen. Öffnen Sie die App *Abwesenheitszeiten* und wählen Sie *Neuer Urlaubsanspruch*. Wählen Sie den Typ, die Anzahl Tage und fügen Sie eine Beschreibung hinzu.
 
 ![](attachments/Abwesenheitszeiten%20Anspruch%20melden.png)
 
 Schliessen Sie den Dialog nach *Speichern*.
 
-### Abwesenheitsanspruch validieren
+### Urlaubsanspruch validieren
 
-Wenn Sie eine Mail zur Validierung eines Abwesenheitsanspruches erhalten, können Sie direkt auf den Link klicken.
+Wenn Sie eine Mail zur Validierung eines Urlaubsanspruches erhalten, können Sie direkt auf den Link klicken.
 
 ![](attachments/Abwesenheitszeiten%20Anspruch%20Mail.png)
 
-Abwesenheitsansprüche zur Validierung werden auch über Odoo-Aktivitäten angezeigt.
+Urlaubsansprüche zur Validierung werden auch über Odoo-Aktivitäten angezeigt.
 
 ![](attachments/Abwesenheitszeiten%20Aktivität.png)
 
-Klicken Sie auf *Genehmigen* oder *Ablehnen* um den Abwesenheitsanspruch zu validieren.
+Klicken Sie auf *Genehmigen* oder *Ablehnen* um den Urlaubsanspruch zu validieren.
 
 Mitarbeitende erhalten nach der Validierung eine entsprechende Mail.
 
@@ -118,9 +118,9 @@ Mitarbeitende erhalten nach der Validierung eine entsprechende Mail.
 Odoo versendet keine Nachrichten, wenn die Genehmigung alls Massenbearbeitung erfolgt.
 :::
 
-### Abwesenheitsanspruch anpassen
+### Urlaubsanspruch anpassen
 
-Wenn Sie einen genehmigten Abwesenheitsanspruch anpassen wollen, wählen Sie diesen aus *Abwesenheitszeiten > Vorgesetzte > Abwesenheitsansprüche* und klicken auf *Ablehnen*. Anschliessend klicken Sie auf *Zurücksetzen* und bearbeiten den Anspruch.
+Wenn Sie einen genehmigten Urlaubsanspruch anpassen wollen, wählen Sie diesen aus *Abwesenheiten > Genehmigungen > Urlaubsansprüche* und klicken auf *Ablehnen*. Anschliessend klicken Sie auf *Zurücksetzen* und bearbeiten den Anspruch.
 
 ::: warning
 Damit die Aktion *Zurücksetzen* ausgewählt werden kann, muss Ihr Odoo-Benutzer die Rolle *Abwesenheitszeiten: Administrator* haben.
@@ -144,7 +144,7 @@ Abwesenheitseinträge, die im Zustand *Zur Genehmigung* sind, können nicht mehr
 
 ### Abwesenheit validieren
 
-Nach demselben Verfahren wie [Abwesenheitsanspruch validieren](#Abwesenheitsanspruch%20validieren) können Sie Abwesenheiten validieren. Sie erhalten entweder eine Mail oder sehen die zugewiesene Odoo-Aktivität.
+Nach demselben Verfahren wie [Urlaubsanspruch validieren](#Urlaubsanspruch%20validieren) können Sie Abwesenheiten validieren. Sie erhalten entweder eine Mail oder sehen die zugewiesene Odoo-Aktivität.
 
 ![](attachments/Anwesenheitszeiten%20Mail%20Abwesenheit.png)
 
@@ -157,3 +157,7 @@ Wurde eine Abwesenheit einmal erfasst, kann Sie nicht mehr gelöscht werden (ass
 ### Verantwortliche festlegen
 
 Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen Sie den Tab *Arbeitsinformationen* und wählen Sie *Bearbeiten*. Tragen Sie den Vorgesetzten im Feld *Abwesenheitszeiten* ein. Standardmässig wird der *Manager* übernommen.
+
+### Urlaubsanspruch ausblenden
+
+Wenn Sie einen genehmigten Urlaubsanspruch ausblenden wollen, wählen Sie diesen unter *Abwesenheiten > Genehmigungen > Urlaubsansprüche* aus und geben im Feld *Gültigkeitsdauer* ein Enddatum ein.

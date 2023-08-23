@@ -12,9 +12,9 @@ prev: ./hr-holidays
 
 ## Export
 
-### Abwesenheitsansprüche exportieren
+### Urlaubsansprüche exportieren
 
-Listenansicht: *Abwesenheitszeiten > Vorgesetzte > Abwesenheitsansprüche*
+Listenansicht: *Abwesenheiten > Genehmigungen > Urlaubsansprüche*
 
 Felder:
 ```

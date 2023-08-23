@@ -27,7 +27,7 @@ for rec in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Liste der Abwesenheitszeiten erscheint nun in der Auswahl *Aktion* das Menu *Ablehnen*.
+In der Liste der Abwesenheiten erscheint nun in der Auswahl *Aktion* das Menu *Ablehnen*.
 
 ![](attachments/Aktionen%20Abwesenheitszeiten%20Ablehnen.png)
 

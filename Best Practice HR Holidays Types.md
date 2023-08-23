@@ -18,8 +18,8 @@ Wir empfehlen, dass Sie für jedes jährliche Feriensaldo einen [Abwesenheitstyp
 | Ferien 2023 | 01.01.2023 | 31.12.2023 |
 | Ferien 2024 | 01.01.2024 | 31.12.2024 |
 
-Am Ende des Jahres können Sie die [verbleibenden Anwesenheitsansprüche anzeigen](HR%20Holidays%20Remaining%20Leaves.md#Verbleibende%20Anwesenheitsansprüche%20anzeigen)
-und die [Abwesenheitsansprüche exportieren](HR%20Holidays%20Data%20Management.md#Abwesenheitsansprüche%20exportieren). Passen Sie die exportierte Datei an und importieren Sie diese Abwesenheitsansprüche für das neue Jahr.
+Am Ende des Jahres können Sie die [verbleibenden Urlaubsansprüche anzeigen](HR%20Holidays%20Remaining%20Leaves.md#Verbleibende%20Urlaubsansprüche%20anzeigen)
+und die [Urlaubsansprüche exportieren](HR%20Holidays%20Data%20Management.md#Urlaubsansprüche%20exportieren). Passen Sie die exportierte Datei an und importieren Sie diese Urlaubsansprüche für das neue Jahr.
 
 ## Vorlage für Abwesenheitstypen
 
@@ -47,7 +47,7 @@ Damit Mitarbeitende ihre Abwesenheiten sauber erfassen können, empfehlen wir di
 ## Feiertagssaldo
 
 Wenn Sie für Mitarbeitende unterschiedliche [Arbeitszeiten festlegen](HR.md#Arbeitszeiten%20festlegen) wird die Situation bezl. Ferien- und Feiertage etwas schwieriger. 
-Wir empfehlen einerseits einen Feiertagskalender zu führen (siehe [Feiertage einrichten](HR%20Holidays%20Public.md#Feiertage%20einrichten)) und andererseits einen Abwesenheitstyp *Feiertage 20XX* für jedes Jahr bereitzustellen. Damit können Feiertage als Abwesenheitsansprüche geltend gemacht werden. 
+Wir empfehlen einerseits einen Feiertagskalender zu führen (siehe [Feiertage einrichten](HR%20Holidays%20Public.md#Feiertage%20einrichten)) und andererseits einen Abwesenheitstyp *Feiertage 20XX* für jedes Jahr bereitzustellen. Damit können Feiertage als Urlaubsansprüche geltend gemacht werden. 
 
 
 

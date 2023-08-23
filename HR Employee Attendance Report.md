@@ -28,7 +28,7 @@ Eine Zusammenfassung des Monats:
 
 ![](attachments/HR%20Employee%20Attendance%20Report%20Summary.png)
 
-Eine Übersicht der Abwesenheitsansprüche:
+Eine Übersicht der Urlaubsansprüche:
 
 ![](attachments/HR%20Employee%20Attendance%20Report%20Allocations.png)
 

@@ -1,6 +1,6 @@
 ---
 title: HR Holidays Public
-description: Erstellen Sie einen Feiertagskalender, der in der Abwesenheitszeiten berücksichtigt wird.
+description: Erstellen Sie einen Feiertagskalender, der in der Abwesenheiten berücksichtigt wird.
 tags:
 - HowTo
 - OCA
@@ -20,11 +20,11 @@ Repository: <https://github.com/OCA/hr-holidays/tree/15.0/hr_holidays_public>
 
 Damit Feiertage bei der Eingabe von Abwesenheiten abegzogen werden, muss der ausgewählte Abwesenheitstyp konfiguriert werden. Standardmässig werden Feiertage für Abwesenheitstypen berücksichtigt.
 
-Navigieren Sie nach *Abwesenheitszeiten > Konfiguration > Abwesenheitstypen* und wählen Sie hier den Typ zur Bearbeitung aus. Entfernen Sie das Häkchen  von*Feiertage ausschliessen*, falls Sie die Feiertage für diesen Abwesenheitstyp ignorieren möchten.
+Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitstypen* und wählen Sie hier den Typ zur Bearbeitung aus. Entfernen Sie das Häkchen  von*Feiertage ausschliessen*, falls Sie die Feiertage für diesen Abwesenheitstyp ignorieren möchten.
 
 ### Feiertage einrichten
 
-Feiertage können für alle Mitarbeiter zentral festgelegt werden. Navigieren Sie nach *Abwesenheitszeiten > Feiertage > Feiertage des neues Jahres erstellen*. Klicken Sie auf *Erstellen* und navigieren Sie nach *Abwesenheitszeiten > Feiertage > Feiertage*. Wählen Sie den neuen Feiertagskalender aus und geben Sie die Feiertage ein. Schliessen Sie den Vorgang mit *Speichern* ab.
+Feiertage können für alle Mitarbeiter zentral festgelegt werden. Navigieren Sie nach *Abwesenheiten > Feiertage > Feiertage des neues Jahres erstellen*. Klicken Sie auf *Erstellen* und navigieren Sie nach *Abwesenheiten > Feiertage > Feiertage*. Wählen Sie den neuen Feiertagskalender aus und geben Sie die Feiertage ein. Schliessen Sie den Vorgang mit *Speichern* ab.
 
 ![](attachments/HR%20Holidays%20Public%20Beispiel%20Feiertagskalender.png)
 

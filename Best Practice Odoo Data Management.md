@@ -105,8 +105,8 @@ Datei: `mrp.workcenter.csv`
 
 
 
-### Abwesenheitszeiten
-Listenansicht: *Abwesenheitszeiten > Abwesenheiten*
+### Abwesenheiten
+Listenansicht: *Abwesenheiten > Abwesenheiten*
 
 Felder:
 ```

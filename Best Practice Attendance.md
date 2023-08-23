@@ -23,7 +23,7 @@ Damit die Vorgesetzten und Verantworltichen die Abwesenheit der Mitarbeitenden v
 
 **Vorgesetzte und Verantwortliche**
 
-Damit Abwesenheitseinträge vom Vorgesetzten oder den HR-Verantwortlichen validiert werden können, muss der *Vorgesetzte* und *Verantwortliche Abwesenheitszeiten* registriert werden. Siehe [Vorgesetzte hinterlegen](HR.md#Vorgesetzte%20hinterlegen)
+Damit Abwesenheitseinträge vom Vorgesetzten oder den HR-Verantwortlichen validiert werden können, muss der *Vorgesetzte* und *Verantwortliche Abwesenheiten* registriert werden. Siehe [Vorgesetzte hinterlegen](HR.md#Vorgesetzte%20hinterlegen)
 und [Verantwortliche festlegen](HR%20Holidays.md#Verantwortliche%20festlegen).
 
 **Abwesenheitstyp**

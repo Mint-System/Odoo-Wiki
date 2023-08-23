@@ -18,6 +18,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/hr_holidays_i
 
 ### .ics-Datei an Abwesenheit anhängen
 
-Ist diese Erweiterung installiert wird an der Genehmigungsnachricht einer Abwesenheit unter *Abwesenheitszeiten > Vorgesetzte > Abwesenheitszeiten* eine .ics-Datei mit dem Termin angehängt.
+Ist diese Erweiterung installiert wird an der Genehmigungsnachricht einer Abwesenheit unter *Abwesenheiten > Genehmigungen > Abwesenheiten* eine .ics-Datei mit dem Termin angehängt.
 
 ![](attachments/HR%20Holidays%20.ics%20Attachment%20Chatter.png)
