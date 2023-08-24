@@ -53,7 +53,7 @@ Legen Sie für die einen Zeilen den neuen Lagerort und die zu übertragende Meng
 
 ### Inventur vorbereiten
 
-Navigieren Sie zum Menu *Lager > Vorgänge > Inventur*. Mit dem Knopf *Anlegen* erstellen Sie einen Inventurauftrag. Befüllen Sie die Felder gemäss untenstehender Tabelle.
+Navigieren Sie zum Menu *Lager > Vorgänge > Inventur*. Mit dem Knopf *Neu* erstellen Sie einen Inventurauftrag. Befüllen Sie die Felder gemäss untenstehender Tabelle.
 
 | Bezeichnung                       | Beschreibung                                                                                    |
 | --------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -67,7 +67,7 @@ Navigieren Sie zum Menu *Lager > Vorgänge > Inventur*. Mit dem Knopf *Anlegen* 
 
 ### Inventur durchführen
 
-Starten Sie die vorbereitete Inventur mit *Inventur Starten*. Falls ein nicht gelistetes Produkt gezählt wird, kann über *Anlegen* eine neue Position eingefügt werden.
+Starten Sie die vorbereitete Inventur mit *Inventur Starten*. Falls ein nicht gelistetes Produkt gezählt wird, kann über *Neu* eine neue Position eingefügt werden.
 
 Befüllen Sie nun die Spalte *Gezählt* entsprechend der gezählten Quantität pro Produkt. Nach der abgeschlossenen Zählung wird mit *Bestandsbuchung Durchführen* der korrigierte Bestand gebucht. Das Protokoll kann über *Print Count Sheet* erstellt werden.
 

@@ -27,7 +27,7 @@ Navigieren Sie nach *Finanzen >  Kunden > Kundenverträge*.
 
 ### Kundenvertrag erstellen
 
-Rufen Sie *Finanzen >  Kunden > Kundenverträge* auf und wählen Sie *Anlegen*. Füllen mindestens diese Felder aus:
+Rufen Sie *Finanzen >  Kunden > Kundenverträge* auf und wählen Sie *Neu*. Füllen mindestens diese Felder aus:
 
 * **Vertragsname**: Titel des Vertrags
 * **Kunde**: Das ist der Vertragspartner
@@ -53,7 +53,7 @@ Navigieren Sie nach *Finanzen >  Lieferanten > Lieferantenverträge*.
 
 ### Lieferantenvertrag erstellen
 
-Rufen Sie *Finanzen >  Lieferanten > Lieferantenverträge* auf und wählen Sie *Anlegen*. Füllen mindestens diese Felder aus:
+Rufen Sie *Finanzen >  Lieferanten > Lieferantenverträge* auf und wählen Sie *Neu*. Füllen mindestens diese Felder aus:
 
 * **Vertragsname**: Titel des Vertrags
 * **Lieferant**: Das ist der Vertragspartner

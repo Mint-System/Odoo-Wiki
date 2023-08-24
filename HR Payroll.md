@@ -58,7 +58,7 @@ Regeln für die Sie keine Verwendung haben, können Sie archivieren.
 
 ### Lohnart erstellen
 
-Navigierne Sie nach *Personalabrechnung > Konfiguration > Regeln* und klicken Sie auf *Anlegen*.
+Navigierne Sie nach *Personalabrechnung > Konfiguration > Regeln* und klicken Sie auf *Neu*.
 
 * **Regelbezeichnung**: Name der auf der Lohnabrechnung erscheint
 * **Kategorie**: Zur Berechnung des Nettolohns werden die Lohnarten über die Kategorie summiert. Wählen Sie eine passende Kategorie aus.
@@ -107,7 +107,7 @@ Navigieren Sie nach *Personalabrechnung > Arbeitseinträge >Arbeitseinträge* un
 
 Lohnabrechnung können für mehre oder einzelne Mitarbeiter ausgeführt werden.
 
-Um eine einzelne Lohnabrechnung zu erzeugen wählen Sie den Mitarbeiter aus *Personal > Mitarbeiter auswählen* und klicken auf den Link *Abrechnungen Mitarbeiterverfügung* und wählen *Anlegen*.
+Um eine einzelne Lohnabrechnung zu erzeugen wählen Sie den Mitarbeiter aus *Personal > Mitarbeiter auswählen* und klicken auf den Link *Abrechnungen Mitarbeiterverfügung* und wählen *Neu*.
 
 ![Personalabrechnung Einzeln anlegen](attachments/Personalabrechnung%20Einzeln%20anlegen.gif)
 

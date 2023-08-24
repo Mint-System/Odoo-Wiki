@@ -23,7 +23,7 @@ Rufen Sie die Ansicht *Abonnements > Konfiguration > Vorlage für Abonnements* a
 
 ### Abonnement erstellen
 
-Im Normalfall wird beim [Angebot bestätigen](Sale.md#Angebot%20bestätigen) ein Abonnement generiert. Wenn Sie ein Abonnment ohne Verkaufsauftrag erstellen möchten, navigieren Sie nach *Abonnement* und klicken auf *Anlegen*.
+Im Normalfall wird beim [Angebot bestätigen](Sale.md#Angebot%20bestätigen) ein Abonnement generiert. Wenn Sie ein Abonnment ohne Verkaufsauftrag erstellen möchten, navigieren Sie nach *Abonnement* und klicken auf *Neu*.
 
 ### Abonnement-Laufzeit mit Produktvariante verknüpfen
 

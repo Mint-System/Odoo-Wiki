@@ -39,7 +39,7 @@ Navigieren Sie nach *Einstellungen > API > Overview > Traffic* und zeigen Sie di
 
 ### Benutzerdefinierten Endpoint mit Python-Code anlegen
 
-Zeigen Sie *Einstellungen > API > Configuration > Endpoints* an und wählen Sie *Anlegen*. Im folgenden die wichtigsten Parameter zur Erstellung eines Endpoint, welcher die Anfrage-Parameter in einem Python-Skript ausführt:
+Zeigen Sie *Einstellungen > API > Configuration > Endpoints* an und wählen Sie *Neu*. Im folgenden die wichtigsten Parameter zur Erstellung eines Endpoint, welcher die Anfrage-Parameter in einem Python-Skript ausführt:
 
 * **Name**: Name des Endpoints, beispielsweise *Create new product*
 * **Custom Endpoint**: Pfad des Enpoints, beispielsweise `product/create`

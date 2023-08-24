@@ -81,7 +81,7 @@ Nachdem Sie den Browser-Tab aktualisiert haben, ist der Menüeintrag umbenannt.
 
 ### Menüeintrag erstellen
 
-Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und wählen Sie *Anlegen*.
+Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und wählen Sie *Neu*.
 
 ### Menüeintrag bearbeiten
 

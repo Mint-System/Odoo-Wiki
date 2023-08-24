@@ -137,7 +137,7 @@ Ansichtsbezeichnung: `mint_system.hr_holidays.hr_leave_view_tree.remove_payslip`
 
 ### Filter manuell anlegen
 
-Wählen Sie auf der Listenansicht *Entwicklertools > Filter verwalten* und klicken Sie auf *Anlegen*. Geben Sie diese Informationen ein:
+Wählen Sie auf der Listenansicht *Entwicklertools > Filter verwalten* und klicken Sie auf *Neu*. Geben Sie diese Informationen ein:
 
 * **Filterbezeichnung**: Name des Filters ersichtlich unter Favoriten
 * **Modell**: Datenmodell der Listenansicht

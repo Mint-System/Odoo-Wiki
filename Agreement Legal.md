@@ -31,13 +31,13 @@ Die Vereinbarungstypen können weiter in Untergruppen gegliedert werden. Navigie
 
 ### Vorlage für Vereinbarung erstellen
 
-Navigieren Sie nach *Agreements > Configuration > Templates* und klicken sie auf *Anlegen*. Geben Sie Informationen zur Vereinbarungsvorlage ein und beenden sie den Vorgang mit Speichern.
+Navigieren Sie nach *Agreements > Configuration > Templates* und klicken sie auf *Neu*. Geben Sie Informationen zur Vereinbarungsvorlage ein und beenden sie den Vorgang mit Speichern.
 
 ![](attachments/Agreement%20Legal%20Template.png)
 
 ### Vereinbarung erstellen
 
-Basierend auf einer Vorlage können Sie eine Vereinbarung erstellen. Öffnen sie die *Agreements* App und klicken Sie auf *Anlegen*. Wählen Sie die Vorlage aus und geben sie einen Namen an. Anschliessen wählen Sie den Vertragspartner aus und geben ein Start- und Enddatum ein.
+Basierend auf einer Vorlage können Sie eine Vereinbarung erstellen. Öffnen sie die *Agreements* App und klicken Sie auf *Neu*. Wählen Sie die Vorlage aus und geben sie einen Namen an. Anschliessen wählen Sie den Vertragspartner aus und geben ein Start- und Enddatum ein.
 
 ![Agreement Legal Vereinbarung erstellen](attachments/Agreement%20Legal%20Vereinbarung%20erstellen.gif)
 

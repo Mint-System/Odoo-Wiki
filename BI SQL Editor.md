@@ -20,7 +20,7 @@ Repository: <https://github.com/OCA/reporting-engine/tree/14.0/bi_sql_editor>
 
 Mit dem BI SQL Editor erstellen Sie ganz einfach SQL-Abfragen und die nötigen Einstellungen um diese als Ansicht in Odoo anzuzeigen.
 
-Navigieren Sie nach *Einstellungen > Technisch > Datenbankstruktur > SQL Views* und wählen Sie *Anlegen*. Als Beispiel erstellen wir eine Abfage der kommenden Geburtstage aller Mitarbeitenden ohne den Jahrgang anzuzeigen.
+Navigieren Sie nach *Einstellungen > Technisch > Datenbankstruktur > SQL Views* und wählen Sie *Neu*. Als Beispiel erstellen wir eine Abfage der kommenden Geburtstage aller Mitarbeitenden ohne den Jahrgang anzuzeigen.
 
 Füllen Sie die Felder wie folgt aus:
 

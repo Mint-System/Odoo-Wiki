@@ -54,7 +54,7 @@ Unterschiedliche Steuern der einzelnen Line-Items werden im Formular und im Beri
 
 ### Angebotsanfrage erstellen
 
-Über *Anlegen* wird eine Angebotsanfrage eröffnet. Die Felder der Eingabemaske sind gemäss folgender Tabelle zu editieren:
+Über *Neu* wird eine Angebotsanfrage eröffnet. Die Felder der Eingabemaske sind gemäss folgender Tabelle zu editieren:
 
 | Bezeichnung         | Beschreibung                                                                                                                             |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |

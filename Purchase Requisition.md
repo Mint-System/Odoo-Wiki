@@ -33,6 +33,6 @@ prev: ./
 
 Navigieren Sie nach *Einkauf > Aufträge > Kaufverträge*.
 
-Legen Sie mit einem Klick auf *Anlegen* einen neuen Kaufvertrag an.
+Legen Sie mit einem Klick auf *Neu* einen neuen Kaufvertrag an.
 
 ![Einkauf Kaufverträge Kaufvertrag anlegen](attachments/Einkauf%20Kaufverträge%20Kaufvertrag%20anlegen.png)

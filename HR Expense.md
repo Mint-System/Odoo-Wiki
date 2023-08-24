@@ -57,7 +57,7 @@ Rufen Sie einen Mitarbeitenden unter *Personal* auf und zeigen Sie den Tab *Arbe
 
 ### Spesen erfassen
 
-Navigieren Sie nach *Aufwand* und klicken Sie auf *Anlegen*. Erfassen Sie eine neue Auslage und beachten Sie diesse Felder:
+Navigieren Sie nach *Aufwand* und klicken Sie auf *Neu*. Erfassen Sie eine neue Auslage und beachten Sie diesse Felder:
 
 * **Produkte**: Wählen Sie hier ein bestehendes Auslagenprodukt aus.
 * **Ausgabendatum**: Der Tag an dem die Spese angefallen ist.

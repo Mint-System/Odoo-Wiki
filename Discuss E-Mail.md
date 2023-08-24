@@ -93,7 +93,7 @@ Im Feld *Report Dateiname* können Sie einen alternativen Dateinamen für den An
 
 Um sicherzustellen, dass Odoo Nachrichten am richtigen Ort platziert, kann man als Administrator des Systems Testnachrichten erstellen und verschicken.
 
-Öffnen Sie *Einstellungen > Diskussion > Externe E-Mail-Server > Eintrag auswählen > Aktion > Nachrichten*. Mit *Anlegen* könne Sie nun ein Nachricht erfassen und verschicken.
+Öffnen Sie *Einstellungen > Diskussion > Externe E-Mail-Server > Eintrag auswählen > Aktion > Nachrichten*. Mit *Neu* könne Sie nun ein Nachricht erfassen und verschicken.
 
 ### E-Mail an Kontakt senden
 

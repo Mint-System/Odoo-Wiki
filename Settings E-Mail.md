@@ -16,7 +16,7 @@ prev: ./settings
 
 Damit Odoo Mails empfangen und verarbeiten kann, muss ein eingehender Mail-Server konfiguriert werden.
 
-Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten. Dazu ein Beispiel mit Infomaniak:
+Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Neu* um eine Verbindung zu einem Mail-Account einzurichten. Dazu ein Beispiel mit Infomaniak:
 
 * **Beschreibung**: Infomaniak Incoming
 * **Servertyp**: IMAP Server
@@ -58,7 +58,7 @@ Der Empfänger der eingehenden E-Mails werden mit der Liste der Aliase vergliche
 
 Damit Odoo Mail verschicken kann, muss ein ausgehender Mail-Server konfiguriert werden.
 
-Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Ausgehender Mail-Server*. Klicken Sie auf *Anlegen* um eine Verbindung zu einem Mail-Account einzurichten. Dazu ein Beispiel für Infomaniak:
+Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Ausgehender Mail-Server*. Klicken Sie auf *Neu* um eine Verbindung zu einem Mail-Account einzurichten. Dazu ein Beispiel für Infomaniak:
 
 * **Beschreibung**: Infomaniak Outgoing
 * **SMTP Server**: `mail.infomaniak.com`

@@ -18,7 +18,7 @@ Repository: <https://github.com/OCA/business-requirement/tree/14.0/business_requ
 
 ### Projektanforderung erfassen
 
-Öffnen sie  die App *Business Requirement* und klicken sie auf *Anlegen*. Geben sie einen Titel ein und füllen sie die Felder wie nötig aus.
+Öffnen sie  die App *Business Requirement* und klicken sie auf *Neu*. Geben sie einen Titel ein und füllen sie die Felder wie nötig aus.
 
 ![](attachments/Business%20Requirement%20erstellen.png)
 

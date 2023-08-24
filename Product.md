@@ -29,7 +29,7 @@ prev: ./
 
 ### Produkt erfassen
 
-Produkte sind Dreh- und Angelpunkt im Wertschöpfungsprozess des Unternehmens. Die korrekte Erfassung der Produkte ist entscheidend. Navigieren Sie nach *Verkauf > Produkte > Produkte* und wählen Sie *Anlegen*. Füllen Sie wichtigsten Felder aus:
+Produkte sind Dreh- und Angelpunkt im Wertschöpfungsprozess des Unternehmens. Die korrekte Erfassung der Produkte ist entscheidend. Navigieren Sie nach *Verkauf > Produkte > Produkte* und wählen Sie *Neu*. Füllen Sie wichtigsten Felder aus:
 
 * **Produktname**: Anzeigename des Produkts
 * **Optionen**: Bestimmen Sie wie das Produkt verwendet werden kann

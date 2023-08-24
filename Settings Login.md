@@ -26,6 +26,22 @@ Wenn sich neue Portal-Benutzer registrieren oder erstellt werden, verwendet Odoo
 
 Benutzer verwalten Sie unter *Einstellungen > Benutzer und Unternehmen > Benutzer*.
 
+### Benutzer anlegen
+
+Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie *Neu*. Geben Sie einen Namen und eine E-Mail-Adresse ein. Legen Sie Berechtigungen fest und speichern Sie den Eintrag. Odoo verschickt automatisch eine Einladung an die E-Mail-Adresse mit der Aufforderung das Passwort festzulegen.
+
+::: tip
+Wenn Sie die Berechtigungen eines bestehenden Benutzers übernehmen wollen, können Sie den Benutzer duplizieren.
+:::
+
+::: warning
+Wenn ein Benutzerwechsel stattfindet, sollten Sie nicht den Namen eines bestehenden Benutzer anpassen. Stattdessen Duplizieren Sie den bestehenden Benutzer, passen Sie den Namen auf dem neuen Benutzer an und archivieren Sie den alten Benutzer.
+:::
+
+### Benutzer entfernen
+
+Wenn Sie Benutzer entfernen möchten, müssen Sie diesen archivieren. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie den zu entfernen Benutzer aus. Kicken Sie auf *Aktion > Archiv*.
+
 ### Benutzertyp festlegen
 
 Odoo unterscheidet zwischen internen und externen Benutzer. Den Benutzertyp legen Sie unter Einstellungen > Benutzer und Unternehmen > Benutzer* im Feld *Benutzertyp* fest:

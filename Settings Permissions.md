@@ -24,7 +24,7 @@ Diese Anleitung erfordert das Modul `base_user_role`.
 
 Die Gruppenrechte können mit Benutzerrollen zusammengefasst werden. Mit der entsprechenden Erweiterung kann man Rollen erstellen, Gruppen hinzufügen und diese für einen Benutzer aktivieren.
 
-Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Roles* und wählen Sie *Anlegen*. Erstellen Sie zur Initiierung eine Administratoren-Rolle mit diesen Angaben:
+Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Roles* und wählen Sie *Neu*. Erstellen Sie zur Initiierung eine Administratoren-Rolle mit diesen Angaben:
 
 ![](attachments/Odoo%20Einstellungen%20Benutzerrolle%20Administrator.png)
 

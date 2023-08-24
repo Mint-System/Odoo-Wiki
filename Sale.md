@@ -76,7 +76,7 @@ Unterschiedliche Steuern der einzelnen Line-Items werden im Formular und im Beri
 
 ### Angebot erstellen
 
-Erstellen Sie mit dem Knopf *Anlegen* ein neues Angebot. Befüllen Sie die Kopfdaten gemäss folgender Tabelle:
+Erstellen Sie mit dem Knopf *Neu* ein neues Angebot. Befüllen Sie die Kopfdaten gemäss folgender Tabelle:
 
 | Bezeichnung         | Beschreibung                                         |
 | ------------------- | ---------------------------------------------------- |

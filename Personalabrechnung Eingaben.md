@@ -42,7 +42,7 @@ Im Falle von Kurzarbeit kann man die variablen Abzüge mit einer neuen Eingabe u
 
 Navigieren Sie nach *Personalabrechnung > Konfiguration > Other Input Types*. Erstellen Sie dort einen Eintrag mit *Beschreibung* `Lohnabzug Kurzarbeit` und *Code* `KURZ`.
 
-Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln* und wählen Sie *Anlegen*. Erstellen Sie eine Lohnart mit folgenden Definitionen:
+Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln* und wählen Sie *Neu*. Erstellen Sie eine Lohnart mit folgenden Definitionen:
 
 Name: `Lohnabzug Kurzarbeit`\
 Kategorie: `Freie Zuwendung`\
@@ -65,7 +65,7 @@ Speichern Sie die Lohnart,  fügen Sie einer ausgewählte Lohnabrechnung mit der
 
 Spesen können als variable Eingabe in der Lohnabrechnung hinzugefügt werden. Navigieren Sie nach *Personalabrechnung > Konfiguration > Other Input Types*. Erstellen Sie dort einen Eintrag mit *Beschreibung* `Spesen` und *Code* `SPESEN`.
 
-Damit die Eingabe in der Lohnabrechnung berücksichtigt wird, muss eine neue Lohnart definiert werden. Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln* und wählen Sie *Anlegen*. Erstellen Sie eine Lohnart mit folgenden Definitionen:
+Damit die Eingabe in der Lohnabrechnung berücksichtigt wird, muss eine neue Lohnart definiert werden. Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln* und wählen Sie *Neu*. Erstellen Sie eine Lohnart mit folgenden Definitionen:
 
 Name: `Spesen`\
 Kategorie: `Freie Zuwendung`\
@@ -90,7 +90,7 @@ Machen Sie Lohnabzüge nach Berechnung des Nettolohn, muss die Lohnabrechnung et
 
 Navigieren Sie nach *Personalabrechnung > Konfiguration > Other Input Types*. Erstellen Sie dort einen Eintrag mit *Beschreibung* `Lohnakonto` und *Code* `LNKT`.
 
-Damit die Eingabe in der Lohnabrechnung berücksichtigt wird, muss eine neue Lohnart definiert werden. Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln* und wählen Sie *Anlegen*. Erstellen Sie eine Lohnart mit folgenden Definitionen:
+Damit die Eingabe in der Lohnabrechnung berücksichtigt wird, muss eine neue Lohnart definiert werden. Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln* und wählen Sie *Neu*. Erstellen Sie eine Lohnart mit folgenden Definitionen:
 
 Name: `Lohnakonto`\
 Kategorie: `Nachberechnung`\

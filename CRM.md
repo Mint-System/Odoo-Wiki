@@ -32,7 +32,7 @@ Wählen Sie einen Interessenten unter *Kundenverwaltung > Interessenten* aus und
 
 ### Chance erstellen
 
-Öffnen Sie die App *Kundenverwaltung* und klicken Sie auf *Anlegen*. Wählen Sie als erstes einen Kunden aus und geben Sie einen passenden Titel ein.
+Öffnen Sie die App *Kundenverwaltung* und klicken Sie auf *Neu*. Wählen Sie als erstes einen Kunden aus und geben Sie einen passenden Titel ein.
 
 ![](attachments/Kundenverwaltung.png)
 

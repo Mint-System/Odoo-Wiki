@@ -18,7 +18,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/16.0/project_
 
 ### Projekt-Phase anlegen
 
-Navigieren Sie nach *Projekt > Project Phases > Project Phases* und wählen Sie *Anlegen*. Legen Sie einen Namen fest, alle anderen Felder sind optional.
+Navigieren Sie nach *Projekt > Project Phases > Project Phases* und wählen Sie *Neu*. Legen Sie einen Namen fest, alle anderen Felder sind optional.
 
 ### Aufgabe an Phase zuordnen
 
