@@ -27,3 +27,7 @@ Produktinformationen können für mehrere Produkte verwendet werden. Werte in Pr
 ### Produktinformationen hinterlegen
 
 Navigieren Sie nach *Verkauf > Produkte > Produkte* und zeigen Sie ein Produkt an. Im Tab *Product Information* können Sie die Produktinformationen dem Produkt zuweisen.
+
+::: warning
+Wenn Sie die Produktinformationen auf einer Produkt-Vorlage hinzufügen, werden gleichzeitig den Produktvarianten hinzugefügt.
+:::
