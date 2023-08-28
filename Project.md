@@ -146,13 +146,46 @@ Zeigen Sie ein Projekt via *Projekt > Konfiguration > Projekte* an. Wählen Sie 
 Die Sichtbarkeit des Projekts muss für diesen Vorgang auf *Eingeladene Portalnutzer und alle Mitarbeiter* eingestellt sein.
 :::
 
-### Projekt für Mitarbeitende explizit freigeben
+### Projekt für ausgewählte Mitarbeitende freigeben
 
 Zeigen Sie ein Projekt via *Projekt > Konfiguration > Projekte* an. Die Mitarbeitenden, welche Zugriff auf das Projekt erhalten sollen, können Sie nun als [Abonnement hinzufügen](Discuss.md#Abonnement%20hinzufügen).
 
 ::: tip
 Die Sichtbarkeit des Projekts muss für diesen Vorgang auf *Laden Sie Angestellte ein.* eingestellt sein.
 :::
+
+### Projekt für ausgewählte Mitarbeitende und Portal-Benutzer freigeben
+
+Wenn Sie ein [Projekt für ausgewählte Mitarbeitende freigeben](#Projekt%20für%20ausgewählte%20Mitarbeitende%20freigeben) können Sie dieses standardmässig nicht mit Portal-Benutzer teilen.
+Mit einer neuen Regel für *Rechte auf Daten* können Sie Projekte auch für Portal-Benutzer eilen. Führen Sie dazu [Rechte für Daten auf Gruppe vergeben](Settings%20Permissions.md#Rechte%20für%20Daten%20auf%20Gruppe%20vergeben) für Gruppe *Benutzertypen / Portal* mit diesen Angaben aus:
+
+* **Name**: Project: portal users: followers and following
+* **Modell**: `project.project`
+* **Berechtigung**: Leserecht
+* **Domain**: 
+
+```python
+[
+'&',
+    ('privacy_visibility', '=', 'followers'),
+    ('message_partner_ids', 'child_of', [user.partner_id.commercial_partner_id.id]),
+]
+```
+
+* **Name**: Project/Task: portal users: followers and following
+* **Modell**: `project.task`
+* **Berechtigung**: Leserecht
+* **Domain**: 
+
+```python
+[
+('project_id.privacy_visibility', '=', 'followers'),
+('active', '=', True),
+'|',
+    ('project_id.message_partner_ids', 'child_of', [user.partner_id.commercial_partner_id.id]),
+    ('message_partner_ids', 'child_of', [user.partner_id.commercial_partner_id.id]),
+]
+```
 
 ## Diskussion
 

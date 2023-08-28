@@ -13,6 +13,12 @@ prev: ./
 Website: <https://www.odoo.com/de_DE/app/surveys>\
 Odoo documentation: <https://www.odoo.com/documentation/16.0/applications/marketing/surveys/create.html>
 
+## Erweiterungen
+
+| Erweiterung                                                   | Beschreibung                        |
+| ------------------------------------------------------------- | ----------------------------------- |
+| [Survey Question Type NPS](Survey%20Question%20Type%20NPS.md) | Zusätzlicher Feldtyp für NPS-Score. |
+
 ## Verwendung
 
 ### Umfrage erstellen

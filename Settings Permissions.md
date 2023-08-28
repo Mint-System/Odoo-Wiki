@@ -90,10 +90,10 @@ Wenn Sie einer augwewählten Gruppe Rechte für Daten auf einem Datenmodell verg
 
 ### Rechte für Daten auf Gruppe vergeben
 
-Wenn Sie einer Rechte für Daten für eine Gruppe vergeben möchten, navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und zeigen die ausgewählte Gruppe an. Navigieren Siezum Tab *Rechte für Daten* und Erstellen Sie einen neuen Eintrag mit diesen Angaben:
+Wenn Sie einer Rechte für Daten für eine Gruppe vergeben möchten, navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und zeigen die ausgewählte Gruppe an. Navigieren Sie zum Tab *Rechte für Daten* und Erstellen Sie einen neuen Eintrag mit diesen Angaben:
 
 * **Name**: Geben Sie hier den Namen des Datenmodell mit Beschreibung der Berechtigung ein.
-* **Modell**: Wählen Sie hier das Datenmodell aus .
+* **Modell**: Wählen Sie hier das Datenmodell aus.
 * **Domain**: Legen Sie den Zugriffs-Filter für die Daten fest.
 * **Berechtigung**: Wählen Sie die passenden Berechtigungen aus.
 
