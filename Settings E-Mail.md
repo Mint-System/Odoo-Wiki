@@ -40,11 +40,7 @@ Und anschliessen die Aktion [Outlook OAuth-Verbindung einrichten](Settings%20OAu
 Das verwendete Outlook-Postfach darf keine Shared Mailbox sein. Der Benutzer und Postfach müssen lizenziert sein.
 :::
 
-### Eingehende E-Mails erneut empfangen
-
-Odoo markiert empfangene und verarbeitete E-Mails im Postfach als gelesen. Markieren Sie die E-Mails im Postfach als ungelesen damit Odoo beim der nächsten Ausführung zur Verarbeitung der eingehenden E-Mails die markierten E-Mails erneut verarbeitet.
-
-### Aliase anzeigen
+### E-Mail Aliase anzeigen
 
 Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase*. Hier sehen Sie alle die von Odoo registrierten Aliase und verknüpften Dokumente.
 

@@ -136,3 +136,17 @@ Wenn [Nicht versendete E-Mails anzeigen](#Nicht%20versendete%20E-Mails%20anzeige
 ::: warning
 Auf bestimmte Nachrichten habe nur der Author Zugriff. Kontaktieren Sie den Author über den Chatter und teilen Sie mit, dass die Nachricht erneut versendet werden soll. 
 :::
+
+## Empfang
+
+### Verarbeiten von eingehenden E-Mails ausführen
+
+Odoo prüft regelmässig die Postfächer der konfigurierten eingehenden E-Mail-Server. Den Vorgang können Sie manuell ausführen. Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Eingehende Mail-Server* und wählen Sie einen Eintrag aus. Klicken Sie auf *Nachrichten Abrufen*
+
+::: tip
+Odoo verarbeitet in diesem Vorgang ungelesene E-Mails im Postfach. Anhand eines E-Mail-Headers fügt Odoo die Nachricht an das dazugehörige Geschäftsobjekt.
+:::
+
+### Eingehende E-Mails erneut empfangen
+
+Odoo markiert empfangene und verarbeitete E-Mails im Postfach als gelesen. Markieren Sie die E-Mails im Postfach als ungelesen damit Odoo beim der nächsten Ausführung zur Verarbeitung der eingehenden E-Mails die markierten E-Mails erneut verarbeitet.

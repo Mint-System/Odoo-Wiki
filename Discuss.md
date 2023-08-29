@@ -55,10 +55,6 @@ Wurde die Nachricht als Mail versendet, können Sie im Tab *Empfänger* die Kont
 
 ![](attachments/Diskussion%20Empfänger.png)
 
-### Nachrichten abrufen
-
-Führen Sie folgendes aus  *Einstellungen > Diskussion > Externe E-Mail-Server > Eintrag auswählen*. Führen Sie die Aktion *Nachrichten abrufen* aus. Im Feld *Letztes Abholdatum* sehen ob die E-Mails abgerufen werden konnten.
-
 ## Abonnieren
 
 ### Eigenes Abonnement hinzufügen
