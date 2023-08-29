@@ -83,7 +83,7 @@ Beispiele von Rechnungen zum Importieren gibt es hier: <https://github.com/swico
 
 ## Sprache
 
-Die Artikel sind in der Sprache Deutsch und in der [Höflichkeitsform](https://de.wikipedia.org/wiki/H%C3%B6flichkeitsform) verfasst.
+Die Artikel sind in der Sprache Deutsch und in der [Höflichkeitsform](https://de.wikipedia.org/wiki/H%C3%B6flichkeitsform/) verfasst.
 
 Die Beschreibungen und Anleitungen sind ausführlich und kommen ohne Abkürzungen aus.
 

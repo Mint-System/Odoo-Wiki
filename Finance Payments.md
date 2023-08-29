@@ -125,7 +125,7 @@ Wählen Sie die gebuchte Rechnung unter *Finanzen > Lieferanten > Rechnung* und 
 
 ### Zahlungsdatei validieren
 
-Falls die Zahlung nach dem Hochladen ins eBanking nicht ausgeführt werden kann, können Sie die Zahlungsdatei validieren lassen. Registrieren Sie sich im [Swiss Pyament Standards Validation Portal](https://validation.iso-payments.ch).
+Falls die Zahlung nach dem Hochladen ins eBanking nicht ausgeführt werden kann, können Sie die Zahlungsdatei validieren lassen. Registrieren Sie sich im [Swiss Pyament Standards Validation Portal](https://validation.iso-payments.ch/).
 
 Laden Sie die Datei hoch und wählen Sie den Standard aus. Drücken Sie *Nachricht Hochladen* und anschliessen *Jetzt validieren* um den Validierungsvorgang zustarten.
 
