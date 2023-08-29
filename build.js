@@ -96,7 +96,7 @@ function convert(content,file) {
 
     // convert markdown links
     // [Title](Content.md#link to heading) -> [Title](Content.html#link-to-heading)
-    const mdLink = /(?<!!)(\[.*\]\([^\)]*[\.md|#]*\))/g
+    const mdLink = /(?<!!)(\[.*\]\(.*(#|.md).*\))/g
     const mdHref = /.+\]\(([^\)|#]*)/
     const mdTitle = /\[(.*)\]\(/
     const mdAnchor = /#(.*)\)/
