@@ -18,8 +18,6 @@ Damit SEPA-Zahlungen exportiert werden können, müssen unter *Einstellungen > F
 
 * Unternehmensname: Name des Unternehmens
 * Identifikation: Mwst. oder andere eindeutige Identifikationsnummer
-* Veranlasser: Name des Buchhalters
-* SEPA PAIN Version: Schweizer Version
 
 ### SEPA-Zahlmethode aktiveren
 
@@ -177,3 +175,4 @@ Aktion: `ir.actions.act_window` `Zahlungsmethoden`\
 Nummernfolge: `10`
 
 Laden Sie die Odoo-App neu. Anschliessend finden Sie unter *Finanzen > Konfiguration > Zahlungsmethoden* eine Übersicht der Zahlungsmethoden.
+
