@@ -314,6 +314,22 @@ Die Buchung des Kontoauszug ist im Entwurfsstatus.
 
 Vor der Abstimmung muss der Kontoauszug gebucht werden.
 
+### Zahlung kann nicht erstellt werden
+
+**Problem**
+
+```
+Sie können keine neue Zahlung erstellen, ohne dass ein Konto für ausstehende Zahlungen/Eingänge entweder für die Firma oder die SEPA Kreditübertragung Zahlung im Bank Journal eingerichtet ist.
+```
+
+**Ursache**
+
+Die Buchung der Zahlung erfordert ein Zwischenkonto.
+
+**Lösung**
+
+Navigieren Sie nach *Einstellungen > Finanzen > Standardkonto* und legen Sie bei *Konto für ausstehende Zahlungen* ein Konto fest.
+
 ## Personalabrechnung
 
 ### Batch in Personalabrechnung kann nicht abgeschlossen werden

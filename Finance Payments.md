@@ -18,8 +18,6 @@ Damit SEPA-Zahlungen exportiert werden können, müssen unter *Einstellungen > F
 
 * Unternehmensname: Name des Unternehmens
 * Identifikation: Mwst. oder andere eindeutige Identifikationsnummer
-* Veranlasser: Name des Buchhalters
-* SEPA PAIN Version: Schweizer Version
 
 ### SEPA-Zahlmethode aktiveren
 
@@ -61,11 +59,11 @@ Falls Sie beim Neugenerieren der Zahlung einen Fehler erhalten, müssen Sie die 
 
 ### Zahlungsbetrag korrigieren
 
-Angenommen Sie möchten eine Zahlung korrigeren und anschliessen erneut zur Zahlung hochladen. Gehen Sie wie folgt vor. Rufen Sie die Zahlung unter *Finanzen > Lieferanten > Zahlungen* auf. Wählen Sie *Stornieren* und passen Sie die Zahlung an. *Bestätigen* Sie anschliessend die Zahlung klicken Sie auf *Abstimmung Rechnungen & Zahlungen*.
+Angenommen Sie möchten eine Zahlung korrigieren und anschliessend erneut zur Zahlung hochladen. Gehen Sie wie folgt vor. Rufen Sie die Zahlung unter *Finanzen > Lieferanten > Zahlungen* auf. Wählen Sie *Stornieren* und passen Sie die Zahlung an. *Bestätigen* Sie anschliessend die Zahlung klicken Sie auf *Abstimmung Rechnungen & Zahlungen*.
 
 ![](attachments/Finanzen%20Zahlungen%20Abstimmen.png)
 
-Hat sich der Betrag genändert muss nun die Differenz entsprechend verbucht werden.
+Hat sich der Betrag geändert muss nun die Differenz entsprechend verbucht werden.
 
 ![](attachments/Finanzen%20Zahlungen%20Zahlungsbetrag%20korrigieren.png)
 
@@ -177,3 +175,4 @@ Aktion: `ir.actions.act_window` `Zahlungsmethoden`\
 Nummernfolge: `10`
 
 Laden Sie die Odoo-App neu. Anschliessend finden Sie unter *Finanzen > Konfiguration > Zahlungsmethoden* eine Übersicht der Zahlungsmethoden.
+
