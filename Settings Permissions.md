@@ -67,13 +67,17 @@ Um die Rechte auf Daten für eine bestimmte Gruppe anzupassen, navigieren Sie na
 
 ## Zugriffsrechte
 
+### Zugriffsrechte anzeigen
+
+Wenn Sie den [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivieren) können Sie im Kontext einer Ansicht die vergebenen Zugriffsrechte prüfen. Rufen Sie eine Ansicht auf, beispielsweise *Kontakte* und wählen Sie *Entwicklertools > Zugriffsrechte anzeigen*. Nun erhalten Sie eine Liste der aktiven Zugriffsrechte.
+
 ### Zugriffsrechte anpassen
 
 Navigieren Sie nach *Einstellungen > Technisch > Zugriffsrechte* und suchen Sie den Eintrag anhand es Namens. Passen Sie die Berechtigungen auf dieser Ansicht an.
 
 ### Zugriffsrechte auf Datenmodell vergeben
 
-Wenn Sie einer ausgwewählten Gruppe Zugriffsrechte auf ein Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Datenmodelle*. Rufen Sie hier das ausgewählten Datenmodell auf und zeigen Sie den Tab *Zugriffsrechte* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
+Wenn Sie einer ausgewählten Gruppe Zugriffsrechte auf ein Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Datenmodelle*. Rufen Sie hier das ausgewählten Datenmodell auf und zeigen Sie den Tab *Zugriffsrechte* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
 
 * **Name**: Geben Sie einen namen im Schema `$COMPANY.$.$MODUL.$XML_ID.$OPERATION` ein. Dazu ein Beispiel: `mint_system.sale.order.read`.
 * **Gruppe**: Wählen Sie die Gruppe aus, welche die Zugriffsrechte erhält.
