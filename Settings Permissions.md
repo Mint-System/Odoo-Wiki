@@ -14,7 +14,7 @@ prev: ./settings
 
 ### Kundenregistration erlauben
 
-Damit sich Besucher der Website im Odoo-Portal registrieren können, muss die Option *Einstellungen > Allgemeine Einstellungen > Berechtigungen > Kundenkontro > Kostenlose Anmeldung* aktiviert sein.
+Damit sich Besucher der Website im Odoo-Portal registrieren können, muss die Option *Einstellungen > Allgemeine Einstellungen > Berechtigungen > Kundenkonto > Kostenlose Anmeldung* aktiviert sein.
 
 ### Rollen erstellen
 
