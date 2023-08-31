@@ -88,7 +88,7 @@ Nachdem Sie den Browser-Tab aktualisiert haben, ist der Menüposten umbenannt.
 Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüposten* und wählen Sie ein bestehenden Menüposten aus. Bearbeiten Sie die Sichtbarkeit des Menüs im Tab *Zugriffsrechte* oder steuern Sie die Reihenfolge der Untermenüs im Tab *Untermenüs*.
 
 :::
-Bei einer Aktualisierung der Odoo App, werden die verlinkten Menüposten zurückgesetzt.
+Bei einer Aktualisierung der Odoo App werden die verlinkten Menüposten zurückgesetzt.
 :::
 
 ### Menüposten entfernen
