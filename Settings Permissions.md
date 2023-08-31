@@ -65,6 +65,10 @@ Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und ers
 
 Um die Rechte auf Daten für eine bestimmte Gruppe anzupassen, navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen*. Zeiten Sie Gruppe an und öffnen Sie den den Tab *Rechte auf Daten*.
 
+### Gruppe auf Menüposten hinzufügen
+
+Wenn Sie auf einem Menüeintrag bestimmte Zugriffsrechte vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Menüposten*. Zeigen Sie einen einen Menüposten an, beispielsweise *Apps* und fügen Sie im Tab *Zugriffsrechte* eine Gruppe hinzu.
+
 ## Zugriffsrechte
 
 ### Zugriffsrechte anzeigen
