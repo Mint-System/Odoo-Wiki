@@ -89,7 +89,7 @@ Navigieren Sie nach *Verkauf > Produkte > Preislisten* und erstellen Sie einen n
 * **Enddatum**: Gemäss Laufzeit
 * **Ermittle Preis**: Formel
 * **Basiert auf**: Andere Preisliste
-* **Stardatum**: Preisliste auswählen
+* **Startdatum**: Preisliste auswählen
 * **Rabatt**: Rabatt in Prozent
 
 Dazu ein Beispiel:
@@ -98,6 +98,14 @@ Dazu ein Beispiel:
 
 Beim Auswahl der Preisliste im Angebot wird anschliessend der Preis mit Rabatt berechnet und eingetragen.
 
+### Preisliste mit Preis für eine bestimmte Periode einrichten
+
+Wenn Sie auf eine bestehenden Preisliste in einem bestimmten Zeitraum einen anderen Preis haben wollen, navigieren Sie nach *Verkauf > Produkte > Preisregeln* und erstellen einen neuen Eintrag. Wählen Sie die bestehende Preisliste aus, konfigurieren Sie das Produkt und den Preis und legen Sie das Start- und Enddatum der Periode fest.
+
+::: tip
+Preisregeln mit einem aktiven Start- und Enddatum übersteuern Preisregeln ohne Datu
+:::
+
 ### Preisliste mit Rabatt für eine bestimmte Periode einrichten
 
 Wenn Sie die [Erweiterte Preisregeln aktivieren](#Erweiterte%20Preisregeln%20aktivieren) können Sie eine Preisliste erstellen, die auf einer bestehenden Preisliste Rabatt gewährt.
@@ -105,7 +113,7 @@ Wenn Sie die [Erweiterte Preisregeln aktivieren](#Erweiterte%20Preisregeln%20akt
 Wenn Sie auf eine bestehenden Preisliste in einem bestimmten Zeitraum Rabatt gewähren möchten, müssen Sie eine neue Preisliste mit zwei Preisregeln einrichten. Navigieren Sie nach *Verkauf > Produkte > Preislisten* und erstellen Sie einen neuen Eintrag mit dem Prozentsatz im Namen. Erstellen Sie eine für den Rabatt:
 
 * **Anzuwenden auf**: Alle Produkte
-* **Enddatum**: Ende der Kampange
+* **Enddatum**: Ende der Kampagne
 * **Ermittle Preis**: Formel
 * **Basiert auf**: Andere Preisliste
 * **Andere Preisliste**: Preisliste auswählen
@@ -114,7 +122,7 @@ Wenn Sie auf eine bestehenden Preisliste in einem bestimmten Zeitraum Rabatt gew
 Erstellen Sie eine zweite Preisregel für den normalen Preis:
 
 * **Anzuwenden auf**: Alle Produkte
-* **Startdatum**: Ende der Kampange
+* **Startdatum**: Ende der Kampagne
 * **Ermittle Preis**: Formel
 * **Basiert auf**: Andere Preisliste
 * **Andere Preisliste**: Preisliste auswählen
@@ -145,5 +153,4 @@ Menü: `Preisregeln`\
 Obermenü: `Verkauf/Produkte`\
 Aktion: `ir.actions.act_window` `Preisregeln`\
 Nummernfolge: `5`
-
 
