@@ -83,9 +83,13 @@ Wenn Sie einer ausgewählten Gruppe Zugriffsrechte auf ein Datenmodell vergeben 
 * **Gruppe**: Wählen Sie die Gruppe aus, welche die Zugriffsrechte erhält.
 * **Berechtigung**: Wählen Sie die passende Berechtigungen aus.
 
+### Rechte für Daten anzeigen
+
+Wenn Sie den [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivieren) können Sie im Kontext einer Ansicht die Rechte für Daten anzeigen. ufen Sie eine Ansicht auf, beispielsweise *Kontakte* und wählen Sie *Entwicklertools > Datensatzregeln anzeigen*. Nun erhalten Sie eine Liste der aktiven Rechte für Daten.
+
 ### Rechte für Daten auf Datenmodell vergeben
 
-Wenn Sie einer augwewählten Gruppe Rechte für Daten auf einem Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Datenmodelle*. Rufen Sie hier das ausgewählten Datenmodell auf und zeigen Sie den Tab *Rechte für Daten* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
+Wenn Sie einer ausgewählten Gruppe Rechte für Daten auf einem Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Datenmodelle*. Rufen Sie hier das ausgewählten Datenmodell auf und zeigen Sie den Tab *Rechte für Daten* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
 
 * **Name**: Geben Sie hier den ganzen Namen der Anwendung und Gruppe ein.
 * **Gruppe**: Wählen Sie ein oder mehrere Gruppen aus.
@@ -107,7 +111,7 @@ Wenn Sie einer Rechte für Daten für eine Gruppe vergeben möchten, navigieren 
 
 Bei einem Modul- oder Odoo-Upgrade können sich die Berechtigungsstrukturen ändern. Falls sich diese nicht korrekt verhalten, kann man die Berechtigungen zurücksetzen. Als Anwendungsfall nehmen wir die Berechtigungen für [HR Attendance](HR%20Attendance.md).
 
-Eine Fehlerhafte Struktur wird in der Ansicht Benutzerberechtiung beispielsweise so darsgestellt:
+Eine Fehlerhafte Struktur wird in der Ansicht Benutzerberechtigung beispielsweise so dargestellt:
 
 ![](attachments/Einstellungen%20fehlerhafte%20Berechtigungsstruktur.png)
 
