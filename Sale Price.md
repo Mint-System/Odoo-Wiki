@@ -139,7 +139,7 @@ In einem *Angebot / Verkaufsauftrag* werden die Preise entsprechend unterschiedl
 
 ### Preisregeln anzeigen
 
-Damit Sie eine Übersicht der Preisregeln erhalten, folgen Sie dem HowTo [Menüeintrag erstellen](Development.md#Menüeintrag%20erstellen) und verwenden diese Werte:
+Damit Sie eine Übersicht der Preisregeln erhalten, folgen Sie dem HowTo [Menüposten erstellen](Development.md#Menüposten%20erstellen) und verwenden diese Werte:
 
 Menü: `Preisregeln`\
 Obermenü: `Verkauf/Produkte`\

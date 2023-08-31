@@ -14,7 +14,7 @@ prev: ./project
 
 ### Schnellzugriff für Projekte generieren
 
-Mit dieser geplanten Aktion generiert Odoo für jedes Projekt einen Menüeintrag. Damit können Sie schneller zwischen Projektaufgaben navigieren.
+Mit dieser geplanten Aktion generiert Odoo für jedes Projekt einen Menüposten. Damit können Sie schneller zwischen Projektaufgaben navigieren.
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 

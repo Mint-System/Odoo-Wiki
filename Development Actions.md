@@ -15,7 +15,7 @@ prev: ./development
 
 ### Neue Ansicht mit Aktion hinzufügen
 
-Fehlen bestimmte Ansichten, können diese ganz einfach mit einer Aktion und einem Menüeintrag erstellt werden. In diesem Bespiel wollen wir die die Komponenten aller Stücklisten in einer Tabelle darstellen.
+Fehlen bestimmte Ansichten, können diese ganz einfach mit einer Aktion und einem Menüposten erstellt werden. In diesem Bespiel wollen wir die die Komponenten aller Stücklisten in einer Tabelle darstellen.
 
 Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Fenster öffnen/schliessen ...* und erstellen Sie einen neuen Eintrag:
 
@@ -25,7 +25,7 @@ Ansichtsreferenz: Gemäss Angaben\
 Wertebereich: Gemäss Angaben\
 Wert aus Kontext: Gemäss Angaben
 
-Navigieren Sie nach *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Benutzer-Interface > Menüposten* und erstellen Sie einen neuen Eintrag:
 
 Menü: `BoM Komponenenten`\
 Obermenü: `Fertigung/Produkte`\

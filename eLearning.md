@@ -16,7 +16,7 @@ Website: <https://www.odoo.com/de_DE/app/elearning>
 
 ### eLearning für interne Benutzer
 
-Damit die App *eLearning* für alle Benutzer sichtar ist, müssen Sie den entsprechenden [Menüeintrag bearbeiten](Development.md#Menüeintrag%20bearbeiten). Fügen Sie die Gruppe *Interner Benutzer* im Tab *Zugriffsrechte* hinzu.
+Damit die App *eLearning* für alle Benutzer sichtar ist, müssen Sie den entsprechenden [Menüposten bearbeiten](Development.md#Menüposten%20bearbeiten). Fügen Sie die Gruppe *Interner Benutzer* im Tab *Zugriffsrechte* hinzu.
 
 ## Verwaltung
 

@@ -67,7 +67,7 @@ Um die Rechte auf Daten für eine bestimmte Gruppe anzupassen, navigieren Sie na
 
 ### Gruppe auf Menüposten hinzufügen
 
-Wenn Sie auf einem Menüeintrag bestimmte Zugriffsrechte vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Menüposten*. Zeigen Sie einen einen Menüposten an, beispielsweise *Apps* und fügen Sie im Tab *Zugriffsrechte* eine Gruppe hinzu.
+Wenn Sie auf einem Menüposten bestimmte Zugriffsrechte vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Menüposten*. Zeigen Sie einen einen Menüposten an, beispielsweise *Apps* und fügen Sie im Tab *Zugriffsrechte* eine Gruppe hinzu.
 
 ## Zugriffsrechte
 

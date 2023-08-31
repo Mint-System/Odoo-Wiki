@@ -63,37 +63,37 @@ Rufen Sie die *Einstellungen* auf und scrollen Sie auf der Ansicht nach ganz unt
 
 ## Navigation
 
-### Menüeinträge anordnen
+### Menüposten anordnen
 
-Im Entwicklermodus navigieren Sie nach  *Einstellungen > Technisch >  Benutzer-Interface > Menüeinträge*. Erstellen Sie einen Filter *Obermenü* mit dem Wert *ist nicht gesetzt*. Nun können Sie die Menüeinträge mit dem Handler in der Liste anordnen.
+Im Entwicklermodus navigieren Sie nach  *Einstellungen > Technisch >  Benutzer-Interface > Menüposten*. Erstellen Sie einen Filter *Obermenü* mit dem Wert *ist nicht gesetzt*. Nun können Sie die Menüposten mit dem Handler in der Liste anordnen.
 
-### Menüeinträge umbennen
+### Menüposten umbennen
 
-Im Entwicklermodus können Sie ganz einfach Menüeinträge umbennen. Angenommen Sie möchten diesen Punkt umbennen:
+Im Entwicklermodus können Sie ganz einfach Menüposten umbennen. Angenommen Sie möchten diesen Punkt umbennen:
 
-![](attachments/Entwicklung%20Menüeinträge%20umbennen.png)
+![](attachments/Entwicklung%20Menüposten%20umbennen.png)
 
-Gehen Sie wie folgt vor. Navigieren Sie nach *Einstellungen > Technisch >  Benutzer-Interface > Menüeinträge* und suchen Sie nach *Alle Angestellte*. Bearbeiten Sie den Eintrag und setzen Sie für das Feld *Menü* einen neuen Wert.
+Gehen Sie wie folgt vor. Navigieren Sie nach *Einstellungen > Technisch >  Benutzer-Interface > Menüposten* und suchen Sie nach *Alle Angestellte*. Bearbeiten Sie den Eintrag und setzen Sie für das Feld *Menü* einen neuen Wert.
 
-![](attachments/Einstellungen%20Menüeintrag%20bearbeiten.png)
+![](attachments/Einstellungen%20Menüposten%20bearbeiten.png)
 
-Nachdem Sie den Browser-Tab aktualisiert haben, ist der Menüeintrag umbenannt.
+Nachdem Sie den Browser-Tab aktualisiert haben, ist der Menüposten umbenannt.
 
-### Menüeintrag erstellen
+### Menüposten erstellen
 
-Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und wählen Sie *Neu*.
+Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüposten* und wählen Sie *Neu*.
 
-### Menüeintrag bearbeiten
+### Menüposten bearbeiten
 
-Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und wählen Sie ein bestehenden Menüeintrag aus. Bearbeiten Sie die Sichtbarkeit des Menüs im Tab *Zugriffsrechte* oder steuern Sie die Reihenfolge der Untermenüs im Tab *Untermenüs*.
+Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüposten* und wählen Sie ein bestehenden Menüposten aus. Bearbeiten Sie die Sichtbarkeit des Menüs im Tab *Zugriffsrechte* oder steuern Sie die Reihenfolge der Untermenüs im Tab *Untermenüs*.
 
 :::
-Bei einer Aktualisierung der Odoo App, werden die verlinkten Menüeinträge zurückgesetzt.
+Bei einer Aktualisierung der Odoo App, werden die verlinkten Menüposten zurückgesetzt.
 :::
 
-### Menüeintrag entfernen
+### Menüposten entfernen
 
-Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge* und suchen Sie den entsprechende Menüeintrag. Markieren Sie diesen und wählen Sie *Aktion > Löschen* oder *Aktion > Archiv*.
+Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüposten* und suchen Sie den entsprechende Menüposten. Markieren Sie diesen und wählen Sie *Aktion > Löschen* oder *Aktion > Archiv*.
 
 ::: warning
 Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.

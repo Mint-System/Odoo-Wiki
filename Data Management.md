@@ -94,7 +94,7 @@ Architektur:
 </tree>
 ```
 
-Anschliessend erstellen Sie einen neuen Menüeintrag mit einer neuen Aktion gemäss [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Angaben:
+Anschliessend erstellen Sie einen neuen Menüposten mit einer neuen Aktion gemäss [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Angaben:
 
 Name der Aktion: `Importzuordnung`\
 Objekt: `base_import.mapping`\
