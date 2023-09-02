@@ -18,7 +18,7 @@ Wenn Sie beispielsweise eine Buchhaltung per 01.01.2023 starten und Rechnungen a
 
 ### Buchungszeilen ohne Entwicklermodus anzeigen
 
-Das Menü *Buchungszeilen* wird nur im Entwicklermodus angezeigt. Um das Verhalten zu ändern, öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge*, zeigen den Menüeintrag *Buchungszeilen* an und entfernen im Tab *Zugriffsrechte* die Gruppe. Aktualisieren Sie den Browser und verlassen Sie den Entwicklermodus. Sie sollten den Menüeintrag nun sehen.
+Das Menü *Buchungszeilen* wird nur im Entwicklermodus angezeigt. Um das Verhalten zu ändern, öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüposten*, zeigen den Menüposten *Buchungszeilen* an und entfernen im Tab *Zugriffsrechte* die Gruppe. Aktualisieren Sie den Browser und verlassen Sie den Entwicklermodus. Sie sollten den Menüposten nun sehen.
 
 ## Buchhaltung
 
@@ -148,7 +148,7 @@ Navigieren Sie nach *Finanzen > Konfiguration > Kontengruppen* und fügen eine K
 
 ### Kontoarten anzeigen
 
-Standardmässig werden die Kontoarten nicht angezeigt. Damit diese angezeigt werden, müssen Sie ein [Menüeintrag erstellen](Development.md#Entwicklung#Menüeintrag%20erstellen).
+Standardmässig werden die Kontoarten nicht angezeigt. Damit diese angezeigt werden, müssen Sie ein [Menüposten erstellen](Development.md#Entwicklung#Menüposten%20erstellen).
 
 * **Menü**: Kontoarten
 * **Obermenü**: Finanzen/Konfiguration/Finanzen

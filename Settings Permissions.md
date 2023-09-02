@@ -14,7 +14,7 @@ prev: ./settings
 
 ### Kundenregistration erlauben
 
-Damit sich Besucher der Website im Odoo-Portal registrieren können, muss die Option *Einstellungen > Allgemeine Einstellungen > Berechtigungen > Kundenkontro > Kostenlose Anmeldung* aktiviert sein.
+Damit sich Besucher der Website im Odoo-Portal registrieren können, muss die Option *Einstellungen > Allgemeine Einstellungen > Berechtigungen > Kundenkonto > Kostenlose Anmeldung* aktiviert sein.
 
 ### Rollen erstellen
 
@@ -65,7 +65,15 @@ Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und ers
 
 Um die Rechte auf Daten für eine bestimmte Gruppe anzupassen, navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen*. Zeiten Sie Gruppe an und öffnen Sie den den Tab *Rechte auf Daten*.
 
+### Gruppe auf Menüposten hinzufügen
+
+Wenn Sie auf einem Menüposten bestimmte Zugriffsrechte vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Menüposten*. Zeigen Sie einen einen Menüposten an, beispielsweise *Apps* und fügen Sie im Tab *Zugriffsrechte* eine Gruppe hinzu.
+
 ## Zugriffsrechte
+
+### Zugriffsrechte anzeigen
+
+Wenn Sie den [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivieren) können Sie im Kontext einer Ansicht die vergebenen Zugriffsrechte prüfen. Rufen Sie eine Ansicht auf, beispielsweise *Kontakte* und wählen Sie *Entwicklertools > Zugriffsrechte anzeigen*. Nun erhalten Sie eine Liste der aktiven Zugriffsrechte.
 
 ### Zugriffsrechte anpassen
 
@@ -73,15 +81,21 @@ Navigieren Sie nach *Einstellungen > Technisch > Zugriffsrechte* und suchen Sie 
 
 ### Zugriffsrechte auf Datenmodell vergeben
 
-Wenn Sie einer ausgwewählten Gruppe Zugriffsrechte auf ein Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Datenmodelle*. Rufen Sie hier das ausgewählten Datenmodell auf und zeigen Sie den Tab *Zugriffsrechte* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
+Wenn Sie einer ausgewählten Gruppe Zugriffsrechte auf ein Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Datenmodelle*. Rufen Sie hier das ausgewählten Datenmodell auf und zeigen Sie den Tab *Zugriffsrechte* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
 
 * **Name**: Geben Sie einen namen im Schema `$COMPANY.$.$MODUL.$XML_ID.$OPERATION` ein. Dazu ein Beispiel: `mint_system.sale.order.read`.
 * **Gruppe**: Wählen Sie die Gruppe aus, welche die Zugriffsrechte erhält.
 * **Berechtigung**: Wählen Sie die passende Berechtigungen aus.
 
+## Datensatzregeln
+
+### Rechte für Daten anzeigen
+
+Wenn Sie den [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivieren) können Sie im Kontext einer Ansicht die Rechte für Daten anzeigen. ufen Sie eine Ansicht auf, beispielsweise *Kontakte* und wählen Sie *Entwicklertools > Datensatzregeln anzeigen*. Nun erhalten Sie eine Liste der aktiven Rechte für Daten.
+
 ### Rechte für Daten auf Datenmodell vergeben
 
-Wenn Sie einer augwewählten Gruppe Rechte für Daten auf einem Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Datenmodelle*. Rufen Sie hier das ausgewählten Datenmodell auf und zeigen Sie den Tab *Rechte für Daten* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
+Wenn Sie einer ausgewählten Gruppe Rechte für Daten auf einem Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Datenmodelle*. Rufen Sie hier das ausgewählten Datenmodell auf und zeigen Sie den Tab *Rechte für Daten* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
 
 * **Name**: Geben Sie hier den ganzen Namen der Anwendung und Gruppe ein.
 * **Gruppe**: Wählen Sie ein oder mehrere Gruppen aus.
@@ -103,7 +117,7 @@ Wenn Sie einer Rechte für Daten für eine Gruppe vergeben möchten, navigieren 
 
 Bei einem Modul- oder Odoo-Upgrade können sich die Berechtigungsstrukturen ändern. Falls sich diese nicht korrekt verhalten, kann man die Berechtigungen zurücksetzen. Als Anwendungsfall nehmen wir die Berechtigungen für [HR Attendance](HR%20Attendance.md).
 
-Eine Fehlerhafte Struktur wird in der Ansicht Benutzerberechtiung beispielsweise so darsgestellt:
+Eine Fehlerhafte Struktur wird in der Ansicht Benutzerberechtigung beispielsweise so dargestellt:
 
 ![](attachments/Einstellungen%20fehlerhafte%20Berechtigungsstruktur.png)
 

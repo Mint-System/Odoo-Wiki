@@ -197,8 +197,8 @@ Aktionsart
 ```
 Datei: `ir.actions.act_window.csv`
 
-### Menüeinträge
-Listenansicht: *Einstellungen > Technisch > Benutzer-Interface > Menüeinträge*
+### Menüposten
+Listenansicht: *Einstellungen > Technisch > Benutzer-Interface > Menüposten*
 
 Felder:
 ```

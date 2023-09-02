@@ -82,10 +82,10 @@ Wählen Sie die neue Standardansicht an und klicken auf das Menu und auf *Als St
 
 ### Benutzerdefinierte App entfernen
 
-Eine App erstellt mit Odoo Studio generiert im Hintergrund Menüeinträge, Datenmodelle und Ansichten. Damit die App entfernt werden kann, müssen diese Einträge von Hand gelöscht werden. Gehen Sie folgt vor:
+Eine App erstellt mit Odoo Studio generiert im Hintergrund Menüposten, Datenmodelle und Ansichten. Damit die App entfernt werden kann, müssen diese Einträge von Hand gelöscht werden. Gehen Sie folgt vor:
 
 * [Ansicht entfernen](Develpment%20Views.md#Ansicht%20entfernen)
-* [Menüeintrag entfernen](Development.md#Menüeintrag%20entfernen)
+* [Menüposten entfernen](Development.md#Menüposten%20entfernen)
 * [Datenmodell entfernen](Development.md#Datenmodell%20entfernen)
 
 ## Datenbank

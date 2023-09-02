@@ -137,7 +137,7 @@ Abigail Peterson:
 
 Wenn Sie den Bericht für bestimmte Mitarbeitende deaktivieren möchten, müssen Sie eine [Flexible Arbeitszeit erfassen](HR.md#Flexible%20Arbeitszeit%20erfassen) und den entsprechenden Mitarbeitenden hinterlegen.
 
-Benutzer können den Bericht aufrufen, wenn Sie mit den folgenden Informationen einen [Menüeintrag erstellen](Development.md#Entwicklung#Menüeintrag%20erstellen).
+Benutzer können den Bericht aufrufen, wenn Sie mit den folgenden Informationen einen [Menüposten erstellen](Development.md#Entwicklung#Menüposten%20erstellen).
 
 * **Menü**: 	`Fehlende Anwesenheitseinträge anzeigen`
 * **Obermenü**: `Abwesenheitszeiten/Berichtswesen`
