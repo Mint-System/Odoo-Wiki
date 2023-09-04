@@ -47,7 +47,7 @@ archive_lots = lot_ids.filtered(lambda l: l.active is True and l.product_qty <= 
 # Archive the filtered lots
 if archive_lots:
     archive_lots.write({'active': False})
-    log('Archived lots: %s' % archive_lots.name)
+    log('Archived lots: %s' % archive_lots.mapped('name'))
 
 # Search for archived lots with product qty 1 or greater
 unarchive_lots = lot_ids.filtered(lambda l: l.active is False and l.product_qty > 0.0)
@@ -55,5 +55,5 @@ unarchive_lots = lot_ids.filtered(lambda l: l.active is False and l.product_qty 
 # Unarchive filtered lots
 if unarchive_lots:
     unarchive_lots.write({'active': True})
-    log('Unarchived lots: %s' % unarchive_lots.name)
+    log('Unarchived lots: %s' % unarchive_lots.mapped('name'))
 ```
