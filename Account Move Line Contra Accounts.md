@@ -12,7 +12,7 @@ prev: ./finance
 {{ $frontmatter.description }}
 
 Technischer Name: `account_move_line_contra_accounts`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_move_line_contra_accounts>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/15.0/account_move_line_contra_accounts>
 
 ## Verwendung
 
