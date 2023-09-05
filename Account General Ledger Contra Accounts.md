@@ -1,5 +1,5 @@
 ---
-title:Account General Ledger Contra Accounts
+title: Account General Ledger Contra Accounts
 description: Spalte Gegenkontos in Hauptbuch.
 tags:
 - HowTo
