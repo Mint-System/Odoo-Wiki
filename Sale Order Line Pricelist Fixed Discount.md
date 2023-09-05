@@ -12,13 +12,14 @@ prev: ./sale
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_order_line_pricelist_fixed_discount`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_pricelist_fixed_discount>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_order_line_pricelist_fixed_discount>
 
 ## Konfiguration
 
 ### Optionen aktivieren
 
-Damit diese Erweiterung korrekt funktioniert müssen Sie [Erweiterte Preisregeln aktivieren](Sale%20Price.md#Erweiterte%20Preisregeln%20aktivieren) und [Rabatte aktivieren](Sale%20Price.md#Rabatte%20aktivieren).
+Damit diese Erweiterung korrekt funktioniert müssen Sie [Erweiterte Preisregeln aktivieren](Sale%20Price.md#Erweiterte%20Preisregeln%20aktivieren) und 
+[Rabatte aktivieren](Sale%20Price.md#Rabatte%20aktivieren).
 
 ## Verwendung
 
