@@ -21,3 +21,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reportin
 Mit dieser Erweiterung wird auf jeder Buchungszeile eine Liste der Gegenkontos aus dem Buchungssatz geführt. Navigieren Sie nach *Finanzen > Finanzen > Buchungszeilen* und öffnen Sie eine Buchungszeile. Im Feld *Gegenkontos* sehen Sie eine Liste der Gegenkontos.
 
 ![](attachments/Account%20Move%20Line%20Contra%20Accounts.png)
+
+::: tip
+Das Feld *Gegenkontos* erscheint auch in den Listenansichten der Buchungszeilen.
+:::
