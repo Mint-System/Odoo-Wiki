@@ -1,6 +1,6 @@
 ---
 title: Strichcode
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Strichcode
 ![icons_odoo_stock_barcode](attachments/icons_odoo_stock_barcode.png)
 
-Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
+{{ $frontmatter.description }}
 
 ## Bereiche
 

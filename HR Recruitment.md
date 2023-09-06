@@ -1,6 +1,6 @@
 ---
 title: Personalbeschaffung
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Einstellungsprozess leicht gemacht.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Personalbeschaffung
 ![icons_odoo_hr_recruitment](attachments/icons_odoo_hr_recruitment.png)
 
-Einstellungsprozess leicht gemacht.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/recruitment>
 

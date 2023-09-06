@@ -1,6 +1,6 @@
 ---
 title: Personal
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Personalmanagement für moderne Unternehmen.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Personal
 ![icons_odoo_hr](attachments/icons_odoo_hr.png)
 
-Personalmanagement für moderne Unternehmen.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/employees>
 

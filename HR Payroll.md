@@ -1,6 +1,6 @@
 ---
 title: Personalabrechnung
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Personalbrechnungen schnell und einfach erstellen.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Personalabrechnung
 ![icons_odoo_hr_payroll](attachments/icons_odoo_hr_payroll.png)
 
-Personalbrechnungen schnell und einfach erstellen.
+{{ $frontmatter.description }}
 
 ## Erweiterungen
 

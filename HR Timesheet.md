@@ -1,6 +1,6 @@
 ---
 title: Zeiterfassung
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 tags:
 - HowTo
 prev: ./
@@ -8,7 +8,7 @@ prev: ./
 # Zeiterfassung
 ![icons_odoo_hr_timesheet](attachments/icons_odoo_hr_timesheet.png)
 
-Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
+{{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/timesheet>
 

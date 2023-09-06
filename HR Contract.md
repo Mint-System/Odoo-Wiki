@@ -1,6 +1,6 @@
 ---
 title: Personal Verträge
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Personalverträge zentral verwalten.
 tags:
 - HowTo
 prev: ./hr
@@ -8,7 +8,7 @@ prev: ./hr
 # Personal Verträge
 ![icons_odoo_hr](attachments/icons_odoo_hr.png)
 
-Personalverträge zentral verwalten.
+{{ $frontmatter.description }}
 
 ## Vertragsmanagement
 
