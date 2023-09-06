@@ -1,6 +1,6 @@
 ---
 title: Purchase order lines with discounts
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Rabatte auf Einkaufspositionen festlegen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./purchase
 # Purchase order lines with discounts
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Rabatte auf Einkaufspositionen festlegen.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_discount`\
 Repository: <https://github.com/OCA/purchase-workflow/tree/14.0/purchase_discount>

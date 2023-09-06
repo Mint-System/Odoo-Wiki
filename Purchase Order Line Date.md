@@ -1,6 +1,6 @@
 ---
 title: Purchase Order Line Date
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lieferdatum im Wareneingang automatisch nachtragen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase
 # Purchase Order Line Date
 ![](attachments/icon_oms_box.png)
 
-Lieferdatum im Wareneingang automatisch nachtragen.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_order_line_date`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_line_date>

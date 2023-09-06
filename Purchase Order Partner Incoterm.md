@@ -1,6 +1,6 @@
 ---
 title: Purchase Order Partner Incoterm
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Für jedem Partner die Incoterms festlegen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase
 # Purchase Order Partner Incoterm
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Für jedem Partner die Incoterms festlegen.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_order_partner_incoterm`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_partner_incoterm>

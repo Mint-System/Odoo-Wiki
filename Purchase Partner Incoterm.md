@@ -1,6 +1,6 @@
 ---
 title: Purchase Partner Incoterm
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Standardlieferbedingungen für Lieferanten.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./purchase
 # Purchase Partner Incoterm
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Standardlieferbedingungen für Lieferanten.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_partner_incoterm`\
 Repository: <https://github.com/OCA/purchase-workflow/tree/14.0/purchase_partner_incoterm>

@@ -1,6 +1,6 @@
 ---
 title: Purchase Requisition Send
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kaufverträge per E-Mail versenden.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase-requisition
 # Purchase Requisition Send
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Kaufverträge per E-Mail versenden.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_requisition_send`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_send>

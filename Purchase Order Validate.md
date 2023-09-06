@@ -1,6 +1,6 @@
 ---
 title: Purchase Order Validate
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Bestellung vor Versenden oder Bestätigen überprüfen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase
 # Purchase Order Validate
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Bestellung vor Versenden oder Bestätigen überprüfen.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_order_validate`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_validate>

@@ -20,23 +20,24 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 
 ## Erweiterungen
 
-| Erweiterung                                                                           | Beschreibung                                                                              |
-| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| [Pruchase Order Line Position](Purchase%20Order%20Line%20Position.md)                 | Einkaufsaufträge mit Positionsnummern.                                                    |
-| [Purchase Order Address](Purchase%20Order%20Address.md)                               | Bestelladresse von Kunden auf Angebotsanfrage gespeichert.                                |
-| [Purchase Order Comment](Purchase%20Order%20Comment.md)                               | Kommentar-Feld für Einkaufsaufträge.                                                      |
-| [Purchase Order Line Date](Purchase%20Order%20Line%20Date.md)                         | Lieferdatum im Wareneingang automatisch nachtragen.                                       |
-| [Purchase Order Line Description](Purchase%20Order%20Line%20Description.md)           | Nur die Einkaufsbeschreibung in die Einkaufsposition übernehmen.                          |
-| [Purchase Order Line Price Default](Purchase%20Order%20Line%20Price%20Default.md)     | Standardpreis einer Einkaufsposition überschreiben.                                       |
-| [Purchase Order Line Relay Price](Purchase%20Order%20Line%20Relay%20Price.md)         | Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den Verkäufter. |
-| [Purchase Order Notes](Purchase%20Order%20Notes.md)                                   | Einkaufsaufträge mit Notizfelder.                                                         |
-| [Purchase Order Partner Incoterm](Purchase%20Order%20Partner%20Incoterm.md)           | Für jedem Partner die Incoterms festlegen.                                                |
-| [Purchase Order Partner Shipping](Purchase%20Order%20Partner%20Shipping.md)           | Alternative Lieferadresse für Bestellungen.                                               |
-| [Purchase Order Validate](Purchase%20Order%20Validate.md)                             | Bestellung vor Versenden oder Bestätigen überprüfen.                                      |
-| [Purchase Partner Incoterm](Purchase%20Partner%20Incoterm.md)                         | Standardlieferbedingungen für Lieferanten.                                                |
-| [Purchase Stock Sale Owner](Purchase%20Stock%20Sale%20Owner.md)                       | Eigentümer auf Wareneingang aus Verkaufsauftrag zuordnen.                                 |
-| [Purchase Tags](Purchase%20Tags.md)                                                   | Einkaufsbestellungen mit Stichwörter.                                                     |
-| [Purchase order lines with discounts](Purchase%20order%20lines%20with%20discounts.md) | Rabatte auf Einkaufspositionen festlegen.                                                 |
+| Erweiterung                                                                             | Beschreibung                                                                              |
+| --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| [Pruchase Order Line Position](Purchase%20Order%20Line%20Position.md)                   | Einkaufsaufträge mit Positionsnummern.                                                    |
+| [Purchase Order Address](Purchase%20Order%20Address.md)                                 | Bestelladresse von Kunden auf Angebotsanfrage gespeichert.                                |
+| [Purchase Order Comment](Purchase%20Order%20Comment.md)                                 | Kommentar-Feld für Einkaufsaufträge.                                                      |
+| [Purchase Order Line Date](Purchase%20Order%20Line%20Date.md)                           | Lieferdatum im Wareneingang automatisch nachtragen.                                       |
+| [Purchase Order Line Description](Purchase%20Order%20Line%20Description.md)             | Nur die Einkaufsbeschreibung in die Einkaufsposition übernehmen.                          |
+| [Purchase Order Line Price Default](Purchase%20Order%20Line%20Price%20Default.md)       | Standardpreis einer Einkaufsposition überschreiben.                                       |
+| [Purchase Order Line Relay Price](Purchase%20Order%20Line%20Relay%20Price.md)           | Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den Verkäufter. |
+| [Purchase Order Notes](Purchase%20Order%20Notes.md)                                     | Einkaufsaufträge mit Notizfelder.                                                         |
+| [Purchase Order Partner Incoterm](Purchase%20Order%20Partner%20Incoterm.md)             | Für jedem Partner die Incoterms festlegen.                                                |
+| [Purchase Order Partner Shipping](Purchase%20Order%20Partner%20Shipping.md)             | Alternative Lieferadresse für Bestellungen.                                               |
+| [Purchase Order Validate](Purchase%20Order%20Validate.md)                               | Bestellung vor Versenden oder Bestätigen überprüfen.                                      |
+| [Purchase Partner Incoterm](Purchase%20Partner%20Incoterm.md)                           | Standardlieferbedingungen für Lieferanten.                                                |
+| [Purchase Sale Order Analytic Account](Purchase%20Sale%20Order%20Analytic%20Account.md) | Kostenstelle von verlinkten Verkaufsauftrag auf Bestellung übertragen.                    |
+| [Purchase Stock Sale Owner](Purchase%20Stock%20Sale%20Owner.md)                         | Eigentümer auf Wareneingang aus Verkaufsauftrag zuordnen.                                 |
+| [Purchase Tags](Purchase%20Tags.md)                                                     | Einkaufsbestellungen mit Stichwörter.                                                     |
+| [Purchase order lines with discounts](Purchase%20order%20lines%20with%20discounts.md)   | Rabatte auf Einkaufspositionen festlegen.                                                 |
 
 ## Produkte
 

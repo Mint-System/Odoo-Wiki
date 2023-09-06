@@ -1,6 +1,6 @@
 ---
 title: Purchase Tags
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Einkaufsbestellungen mit Stichwörter.
 tags:
 - HowTo
 - OCA
@@ -10,7 +10,7 @@ prev: ./purchase-requisition
 
 ![](attachments/icon_oca_agreement.png)
 
-Einkaufsbestellungen mit Stichwörter.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_tag`\
 Repository: <https://github.com/OCA/purchase-workflow/tree/14.0/purchase_tag>

@@ -1,6 +1,6 @@
 ---
 title: Purchase Requisition Fiscal
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Steuerzuordnung auf Kaufverträgen festlegen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase-requisition
 # Purchase Requisition Fiscal
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Steuerzuordnung auf Kaufverträgen festlegen.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_requisition_fiscal`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_fiscal>

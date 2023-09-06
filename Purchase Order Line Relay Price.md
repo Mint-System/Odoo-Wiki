@@ -1,6 +1,6 @@
 ---
 title: Purchase Order Line Relay Price
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den Verkäufer.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase
 # Purchase Order Line Relay Price
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den Verkäufer.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_order_line_relay_price`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_line_relay_price>

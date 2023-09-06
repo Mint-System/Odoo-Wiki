@@ -1,6 +1,6 @@
 ---
 title: Purchase Requisition Notes
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kaufverträge mit Notizfelder.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase-requisition
 # Purchase Requisition Notes
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Kaufverträge mit Notizfelder.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_requisition_notes`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_notes>

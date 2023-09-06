@@ -1,6 +1,6 @@
 ---
 title: Purchase Requisition Line Description
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Nur die Einkaufsbeschreibung in die Einkaufsposition übernehmen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase-requisition
 # Purchase Requisition Line Description
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Nur die Einkaufsbeschreibung in die Einkaufsposition übernehmen.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_requisition_line_description`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_line_description>

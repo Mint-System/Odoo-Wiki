@@ -1,6 +1,6 @@
 ---
 title: Purchase Order Comment
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kommentar-Feld für Einkaufsaufträge.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase
 # Purchase Order Comment
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Kommentar-Feld für Einkaufsaufträge.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_order_comment`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_comment>

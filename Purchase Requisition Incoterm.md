@@ -1,6 +1,6 @@
 ---
 title: Purchase Requisition Incoterm
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Lieferbedingungen auf Kaufverträgen festlegen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase-requisition
 # Purchase Requisition Incoterm
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Lieferbedingungen auf Kaufverträgen festlegen.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_requisition_incoterm`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_incoterm>

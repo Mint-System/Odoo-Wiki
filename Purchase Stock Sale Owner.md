@@ -1,6 +1,6 @@
 ---
 title: Purchase Stock Sale Owner
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Eigentümer auf Wareneingang aus Verkaufsauftrag zuordnen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase
 # Purchase Stock Sale Owner
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Eigentümer auf Wareneingang aus Verkaufsauftrag zuordnen.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_stock_sale_owner`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/15.0/purchase_stock_sale_owner>

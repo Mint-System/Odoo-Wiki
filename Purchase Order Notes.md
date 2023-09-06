@@ -1,6 +1,6 @@
 ---
 title: Purchase Order Notes
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Einkaufsaufträge mit Notizfelder.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase
 # Purchase Order Notes
 ![icon_oms_box](attachments/icon_oms_box.png)
 
- Einkaufsaufträge mit Notizfelder.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_order_notes`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_notes>

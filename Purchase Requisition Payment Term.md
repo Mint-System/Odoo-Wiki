@@ -1,6 +1,6 @@
 ---
 title: Purchase Requisition Payment Term
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kaufverträge mit Zahlungsbedingungen.
 tags:
 - HowTo
 - OCA
@@ -9,7 +9,7 @@ prev: ./purchase
 # Purchase Requisition Payment Term
 ![icon_oca_app](attachments/icon_oca_app.png)
 
-Kaufverträge mit Zahlungsbedingungen.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_requisition_payment_term`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_payment_term>

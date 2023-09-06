@@ -1,6 +1,6 @@
 ---
 title: Purchase Order Unsubscribe
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Alle Abonnenten nach Bestätigung der Bestellung entfernen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./discuss
 # Purchase Order Unsubscribe
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Alle Abonnenten nach Bestätigung der Bestellung entfernen.
+{{ $frontmatter.description }}
  
 Technischer Name: `purchase_order_unsubscribe`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/purchase_order_unsubscribe>

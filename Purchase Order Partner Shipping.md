@@ -1,6 +1,6 @@
 ---
 title: Purchase Order Partner Shipping
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Alternative Lieferadresse für Bestellungen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase
 # Purchase Order Partner Shipping
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Alternative Lieferadresse für Bestellungen.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_order_partner_shipping`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_partner_shipping>

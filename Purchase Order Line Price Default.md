@@ -1,6 +1,6 @@
 ---
 title: Purchase Order Line Price Default
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Standardpreis einer Einkaufsposition überschreiben.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase
 # Purchase Order Line Price Default
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Standardpreis einer Einkaufsposition überschreiben.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_order_line_price_default`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_line_price_default>

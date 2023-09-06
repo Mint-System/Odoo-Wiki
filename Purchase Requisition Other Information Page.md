@@ -1,6 +1,6 @@
 ---
 title: Purchase Requisition Other Information Page
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Fügt einen "Weitere Informationen" Tab der Formularansicht hinzu.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase-requisition
 # Purchase Requisition Other Information Page
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Fügt einen "Weitere Informationen" Tab der Formularansicht hinzu.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_requisition_other_information_page`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_other_information_page>

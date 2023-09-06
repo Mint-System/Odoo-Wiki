@@ -1,6 +1,6 @@
 ---
 title: Purchase Order Address
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Bestelladresse von Kunden auf Angebotsanfrage gespeichert.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase
 # Purchase Order Address
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Bestelladresse von Kunden auf Angebotsanfrage gespeichert.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_order_address`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_address>

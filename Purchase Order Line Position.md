@@ -1,6 +1,6 @@
 ---
 title: Purchase Order Line Position
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Einkaufsaufträge mit Positionsnummern.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./order-positions
 # Purchase Order Line Position
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Einkaufsaufträge mit Positionsnummern. 
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_order_line_position`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/15.0/purchase_order_line_position>

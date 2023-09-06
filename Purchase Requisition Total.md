@@ -1,6 +1,6 @@
 ---
 title: Purchase Requisition Total
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Kaufvertrag mit Steuern, Zwischensummen und Total.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase-requisition
 # Purchase Requisition Total
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Kaufvertrag mit Steuern, Zwischensummen und Total.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_requisition_total`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_total>

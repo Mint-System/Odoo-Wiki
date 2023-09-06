@@ -1,6 +1,6 @@
 ---
 title: Purchase Requisition Order Address
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Bestelladresse auf Kaufverträge.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase-requisition
 # Purchase Requisition Order Address
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Bestelladresse auf Kaufverträge.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_requisition_order_address`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_order_address>

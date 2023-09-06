@@ -1,6 +1,6 @@
 ---
 title: Purchase Requisition User
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Einkaufsbeauftragte von Kaufvertrag auf Bestellung übertragen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase-requisition
 # Purchase Requisition User
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Einkaufsbeauftragte von Kaufvertrag auf Bestellung übertragen.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_requisition_user`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_user>

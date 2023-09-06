@@ -1,6 +1,6 @@
 ---
 title: Purchase Requisition Reference
-description: Eine einfache und umfassende Odoo-Dokumentation.
+description: Feld Lieferantenreferenz auf Kaufvertrag hinzufügen.
 tags:
 - HowTo
 - Drittanbieter
@@ -9,7 +9,7 @@ prev: ./purchase-requisition
 # Purchase Requisition Reference
 ![icon_oms_box](attachments/icon_oms_box.png)
 
-Feld Lieferantenreferenz auf Kaufvertrag hinzufügen.
+{{ $frontmatter.description }}
 
 Technischer Name: `purchase_requisition_reference`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_reference>
