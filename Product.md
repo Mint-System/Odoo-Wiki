@@ -17,6 +17,7 @@ prev: ./
 | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [Product Barcode Generator](Product%20Barcode%20Generator.md)                     | Autogenerate EAN13 product barcodes.                                        |
 | [Product Dimension Attributes](Product%20Dimension%20Attributes.md)               | Product dimension attributes.                                               |
+| [Product End Of Life Dates](Product%20End%20Of%20Life%20Dates.md)                 | Datum für Ende Support, Verkauf und Bestand auf Produkt festlegen.          |
 | [Product Information Management](Product%20Information%20Management.md)           | Verwalten Sie Produktinformationen ganz flexibel.                           |
 | [Product Material Attributes](Product%20Material%20Attributes.md)                 | Product material attributes.                                                |
 | [Product Name Sequence](Product%20Name%20Sequence.md)                             | Generate product names based on a sequence.                                 |
