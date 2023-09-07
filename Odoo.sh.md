@@ -64,6 +64,26 @@ Auf dem Branch wählen Sie *Exit upgrade mode*. Damit wird die ursprüngliche Ve
 
 Mergen Sie den Staging-Branch in den Production-Branch und wählen Sie die Aktion *Upgrade* aus. Bestätigen Sie den Dialog und Odoo.sh führt das produktive Upgrade aus.
 
+### GitHub-Repository einbinden
+
+Angenommen Sie möchten die OCA-Module von <https://github.com/OCA/partner-contact> auf ihrer Odoo.sh Umgebung zur Verfügung stellen, gehen Sie wie folgt vor. Rufen Sie GitHub-Seite auf und kopieren Sie den SSH-Link zum Repository.
+
+![](attachments/GitHub%20OCA%20Copy%20SSH-Link.png)
+
+Rufen Sie ihr Odoo.sh Projekt auf und wählen Sie den Staging-Branch aus. Klicken Sie oben rechts auf *Submodule > Run on Odoo.sh*.
+
+![](attachments/Odoo.sh%20Submodule.png)
+
+Im Dialog geben Sie den SSH-Link ein, wählen den Branch gemäss Odoo Version und klicken auf *Add Submodule*.
+
+![](attachments/Odoo.sh%20Submodule%20Dialog.png)
+
+Nun wird das Submodule und die darin enthaltenen Module auf der Staging-Umgebung zur Verfügung gestellt.
+
+::: tip
+Um die Submodule zu aktualisieren, müssen Sie das Odoo.sh Projekt als Git-Repository auschecken und die Git-Referenzen auf die Submodule aktualisieren. 
+:::
+
 ## Berechtigungen
 
 ### Projekt mit Github-Benutzer teilen
