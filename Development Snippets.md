@@ -18,13 +18,13 @@ Zeigen Sie die Website <https://odoo.build/snippets.html> an. Hier finden Sie ei
 
 ### Snippet hinzufügen
 
-Unter <https://odoo.build/snippets.html> finden Sie verschiedene Snippets um Ansichten und Berichte anzupassen. Anhand der Referenz auf den Bericht und dem Link auf das Snippet können Sie das Snippet installieren.
+Unter <https://odoo.build/snippets.html> finden Sie verschiedene Snippets um Ansichten und Berichte von Odoo anzupassen. Anhand der Referenz aus dem Attribut`inherit_id` können Sie das Snippet auf der Odoo Umgebung installieren.
 
-Zeigen Sie die Formularansicht des Geschäftsobjekt an und erstellen Sie im Tab *Vererbte Ansichten* einen neuen Eintrag mit diesen Werten:
+Navigieren Sie nach *Einstellungen > Technisch > Ansichten* und Suchen Sie nach der Ansicht wobei *Schlüssel* gleich `inherit_id` ist. Öffnen Sie die Ansicht und erstellen Sie im Tab *Vererbte Ansichten* einen neuen Eintrag mit diesen Werten:
 
 * **Ansichtsbezeichnung**: ID des Snippet
-* **Nummernfolge**: Priorität des Snippet
-* **Architektur**: Inhalt des Snippet
+* **Nummernfolge**: Priorität des Snippet anhand Attribut `priority`
+* **Architektur**: XML-Code des Snippet
 
 ![](attachments/Entwicklung%20Snippet%20hinzufügen.gif)
 
