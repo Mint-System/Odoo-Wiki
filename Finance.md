@@ -95,21 +95,19 @@ Navigieren Sie nach *Finanzen > Konfiguration > Kontenplan* und wählen Sie ein 
 
 ## Bank-Jounal
 
+### Bank-Journal erfassen
+
+Um ein ein neues Journal zu erstelle, navigieren Sie nach *Finanzen > Konfiguration > Journale* und erstellen einen neuen Eintrag mit diesen Parametern:
+
+* **Journalbezeichnung**: Name des Journal
+* **Typ**: Wählen Sie Bank
+* **Kurzzeichen**: Abkürzung Name in Grossbuchstaben
+
 ### Bank-Journal einrichten
 
-Öffnen Sie das Bank-Journal via *Finanzen > Dashboard > Kontextmenü Bank > Konfiguration*. Im Tab *Buchungssätze* geben legen Sie im Feld *Bankkonto* das entsprechende Konto aus dem Kontenplan fest.
+Öffnen Sie das Bank-Journal via *Finanzen > Konfiguration > Journale*. Im Tab *Buchungssätze* legen Sie bei *Bankkonto* und *Zwischenkonto* die entsprechenden Konten aus dem Kontenplan fest.
 
-Unter *Bankverbindung* fügen Sie das Bankkonto ihres Unternehmens hinzu. Legen Sie *Bank Datenübertrag* gemäss Anforderungen fest.
-
-Im Tab *Payments Configuration* legen Sie die Konten für ausstehende Ein- und Auszahlungen fest.
-
-::: tip
-Ein Beispiel wie der Kontenplan nach der Konfiguration ausseiht
-* 1031 Transferkonto Bank (Umlaufvermögen)
-* 1032 Bank (Liquide Mittel)
-* 1033 Ausstehende Auszahlungen (Umlaufvermögen)
-* 1034 Ausstehende Einzahlungen (Umlaufvermögen)
-:::
+Unter *Bankverbindung* fügen Sie das Bankkonto ihres Unternehmens hinzu. Legen Sie *Kontonummer* gemäss Anforderungen fest.
 
 ### Bank-Synchronisation konfigurieren
 
@@ -121,7 +119,7 @@ Hinterlegen Sie eine Telefonnummer zur Wiederherstellung des Synchronisations-Ac
 
 ![](attachments/Finanzen%20Account%20Recovery.png)
 
-Geben Sie den Bestätigungcode ein. Nun werden Sie auf die Website von <https://www.saltedge.com> umgeleitet. Geben Sie ihre Login-Informationen ein.
+Geben Sie den Bestätigunsgcode ein. Nun werden Sie auf die Website von <https://www.saltedge.com> umgeleitet. Geben Sie ihre Login-Informationen ein.
 
 ![](attachments/Finanzen%20Saltedge%20Account.png)
 

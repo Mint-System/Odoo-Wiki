@@ -54,6 +54,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Buchung Gewinn-/Verlustvortrag](Best%20Practice%20Posting%20of%20Profit%20or%20Loss%20Carried%20Forward.md)
 * [Devisenhandel](Best%20Practice%20Foreign%20Exchange.md)
 * [Buchung Zahlungsdifferenzen](Best%20Practice%20Posting%20Payment%20Differences.md)
+* [Kreditkartenabrechnung](Best%20Practice%20Creditcard%20Payment.md)
 
 ### Personalabrechung
 

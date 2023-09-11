@@ -105,6 +105,10 @@ Auf Kontakten können Sie Warnungs-Text hinterlegen, welche bei der Ertellung ei
 
 Öffnen Sie *Abrechnung > Lieferanten > Rechnungen* und fügen Sie einen Eintrag hinzu.
 
+### Zahlung erfassen
+
+Öffnen Sie *Abrechnung > Lieferanten > Rechnungen* und wählen Sie eine zu bezahlende Rechnung aus. Klicken Sie auf *Zahlung Registrieren*. Im Dialog wählen Sie das *Journal* und die *Zahlungsmethode* aus. Prüfen Sie die Angaben und wählen Sie *Zahlung Erstellen*.
+
 ### Rechnungen digitalisieren
 
 Mit Odoo können PDF-Rechnung einfach gescannt und verarbeitet werden. Die Rechnungsdigitalisierung liest die Zahlungsinformationen aus dem PDF und erstellt eine Lieferantenrechnung.

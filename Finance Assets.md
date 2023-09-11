@@ -15,7 +15,7 @@ prev: ./finance
 
 ### Journal Inventur erstellen
 
-Zur Verwaltung und Abschreibung der Anlagen soll ein eigenes Journal erstellt werden. Navigieren Sie nach *Finanzen > Konfiugration > Journale* und erstellen Sie ein neues Journal vom Typ *Sonstiges*.
+Zur Verwaltung und Abschreibung der Anlagen soll ein eigenes Journal erstellt werden. Navigieren Sie nach *Finanzen > Konfiguration > Journale* und erstellen Sie ein neues Journal vom Typ *Sonstiges*.
 
 ### Anlagevermögen erstellen
 
