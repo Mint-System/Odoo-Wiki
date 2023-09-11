@@ -109,6 +109,12 @@ Um ein ein neues Journal zu erstelle, navigieren Sie nach *Finanzen > Konfigurat
 
 Unter *Bankverbindung* fügen Sie das Bankkonto ihres Unternehmens hinzu. Legen Sie *Kontonummer* gemäss Anforderungen fest.
 
+In den Tabs *Zahlungseingänge* und *Zahlungsausgänge* können Sie die Zahlungsmethoden konfigurieren.
+
+::: tip
+Die Spalten *Ausstehende Zahlungseingänge* und *Konto für ausstehende Zahlungen* werden standardmässig nicht eingeblendet.
+:::
+
 ### Bank-Synchronisation konfigurieren
 
 Fügen Sie ihre Bank via *Konfiguration > Bankverzeichnis > Eine Bank hinzufügen* hinzu.

@@ -41,7 +41,7 @@ Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Beweb
 
 ### Abstimmung durchführen
 
-Öffnen Sie die Übersicht der Journale via *Finanzen* und klicken auf den Knopf *Abstimmen X Artikel* des entsprechenden Journals.
+Öffnen Sie die Übersicht der Journale via *Finanzen* und klicken auf den Knopf *Abstimmung X Positionen* des entsprechenden Journals.
 
 ### Überfällige Forderungen abstimmen
 

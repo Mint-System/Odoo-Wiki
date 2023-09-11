@@ -117,9 +117,20 @@ Im Dialog *Finanzen > Finanzen > Aktion > Sperrdaten* können Sie Sperrdaten fü
 
 ## Kontenplan
 
+### Konto erfassen
+
+Navigieren Sie nach *Finanzen > Konfiguration > Kontenplan* und erstellen Sie einen neuen Eintrag.
+
+* **Code**: Kontonummer
+* **Name**: Bezeichnung des Konto
+* **Typ**: Position in der Bilanz
+* **Erlaube Abstimmung**: Buchungszeilen können mit Bankbeleg abgeglichen werden
+
 ### Kontenplan einrichten
 
 Öffnen Sie die Finanz-App und richten Sie den Standard-Kontenplan ein. Navigieren Sie nach *Finanzen > Konfiguration > Finanzen > Kontenplan*.
+
+Gilt bis #Odoo14.
 
 Konten für welche Sie keine Verwendung haben, können Sie anwählen und die Checkbox *Nicht mehr verwenden* markieren.
 
