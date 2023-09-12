@@ -12,12 +12,12 @@ prev: ./
 
 ## Erweiterungen
 
-| Erweiterung                                                | Beschreibung                                   |
-| ---------------------------------------------------------- | ---------------------------------------------- |
-| [Base Search Fuzzy](Base%20Search%20Fuzzy.md)              | Aktivieren Trigram-Index auf Datenbank-Felder. |
-| [Database Anonymization HR](Smile%20Anonymization%20HR.md) | HR-Datensätze in Backup anonymisieren.         |
-| [Database Anonymization](Smile%20Anonymization.md)         | Datensätze in Backup anonymisieren.            |
-| [Smile Anonymize Partner](Smile%20Anonymize%20Partner.md)  | Partner-Datensätze in Backup anonymisieren.    |
+| Erweiterung                                                      | Beschreibung                                   |
+| ---------------------------------------------------------------- | ---------------------------------------------- |
+| [Base Search Fuzzy](Base%20Search%20Fuzzy.md)                    | Aktivieren Trigram-Index auf Datenbank-Felder. |
+| [Database Anonymization HR](Smile%20Anonymization%20HR.md)       | HR-Datensätze in Backup anonymisieren.         |
+| [Database Anonymization Partner](Smile%20Anonymize%20Partner.md) | Partner-Datensätze in Backup anonymisieren.    |
+| [Database Anonymization](Smile%20Anonymization.md)               | Datensätze in Backup anonymisieren.            |
 
 ## Datenbank
 
