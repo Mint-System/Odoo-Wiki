@@ -24,7 +24,15 @@ Website: <https://www.odoo.com/de_DE/app/documents>
 | ------------- | ------------------------------------------ |
 | [Agreement Legal](Agreement%20Legal.md) | Verträge und Vereinbarungen dokumentieren. |
 
-## Verwaltung
+## Konfiguration
+
+### Aktion zur Verknüpfung mit Datensatz erstellen
+
+Navigieren Sie nach *Dokumente > Konfiguration > Aktionen* und erstellen Sie einen neuen Eintrag. Als *Name der Aktion* geben Sie beispielsweise *Mit Wareneingang verknüpfen* ein. Im Feld *Zugehöriger Arbeitsbereich* wählen Sie den Arbeitsbereich aus, wo die Aktion verfügbar ist. Im Tab *Aktionen* wählen Sie für *Erstellen* die Option *Verknüpfung mit Datensatz* aus. Im Feld *Spezifisches Modell verlinkt?* geben Sie beispielsweise *stock.picking* ein.
+
+Nun können Sie im gewählten Arbeitsbereich ein Dokument anzeigen und finden auf der rechten Seite die erstellt Aktion.
+
+## Verwendung
 
 ### E-Mail-Hochladen für Arbeitsbereich einrichten
 
