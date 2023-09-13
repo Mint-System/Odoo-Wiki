@@ -11,6 +11,59 @@ prev: ./documents
 
 {{ $frontmatter.description }}
 
+## Aktionen
+
+### Dokumente aus Wareneingang taggen
+
+Navigieren Sie nach *Einstellungen > Technisch > Serveraktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Dokumente aus Wareneingang taggen`\
+Modell: `mrp.production`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+
+```python
+tag_name ='Dokumente aus Wareneingang'
+document_tag = env['documents.tag'].search([('name', '=', tag_name)], limit=1)
+
+# Remove tag from tagged documents
+tagged_documents = env['documents.document'].search([('tag_ids', '=', document_tag.id)])
+for tagged_document in tagged_documents:
+      tagged_document.write({
+      'tag_ids': tagged_document.tag_ids - document_tag
+    })
+
+for production in records:
+  
+  # Get incoming picking ids
+  traceability_lines = production.traceability_line_ids
+  incoming_lines = traceability_lines.filtered(lambda l: l.picking_id.picking_type_id.code == 'incoming')
+  incoming_picking_ids = list(set(incoming_lines.mapped('picking_id.id')))
+  
+  # Search document linked to the picking ids
+  documents = env['documents.document'].search([('res_model', '=', 'stock.picking'), ('res_id', 'in', incoming_picking_ids)])
+  
+  # Tag these documents
+  for document in documents:
+    document.write({
+      'tag_ids': document.tag_ids + document_tag
+    })
+    
+  message = 'Tagged %s documents with tag "%s".' % (len(documents), tag_name)
+
+  action = {
+    'type': 'ir.actions.client',
+    'tag': 'display_notification',
+    'params': {
+      'message': message,
+      'sticky': True
+    }
+  }
+```
+
+Die Aktion mit *Kontextuelle Aktion Erstellen* bestätigen.
+
 ## Geplante Aktionen
 
 ### Dokumente an Wareneingang zuordnen
