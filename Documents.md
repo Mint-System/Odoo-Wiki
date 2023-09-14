@@ -34,6 +34,14 @@ Nun können Sie im gewählten Arbeitsbereich ein Dokument anzeigen und finden au
 
 ## Verwendung
 
+### Dokumente auswählen
+
+Zeigen Sie *Dokumente* an und wählen Sie auf der linken Seite einen Arbeitsbereich und ggf. Stichwörter aus. Mit einem Klick oben rechts können Sie ein Dokument markieren und eine Aktion auf der rechten Seite auswählen.
+
+::: tip
+Um mehrere Dokumente auswählen, markieren Sie das erste Dokumente, halten <kbd>Shift</kbd> gedrückt und wählen das letzte Dokumente aus. Alle Dokumente innerhalb der Auswahl werden ebenfalls markiert.
+:::
+
 ### E-Mail-Hochladen für Arbeitsbereich einrichten
 
 Wählen Sie einen Arbeitsbereich via *Dokumente* aus und klicken Sie auf *Teilen*. Wählen Sie die Option *Erlaubt es: Hoch- und runterladen* und geben Sie rechts den E-Mail-Alias ein. Speichern Sie den Vorgang.
