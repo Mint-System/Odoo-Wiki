@@ -14,14 +14,14 @@ Website: <https://www.odoo.com/de_DE/app/documents>
 
 ## Bereiche
 
-| Bereich                                       | Beschreibung |
-| -------------------------------------------- | ------------ |
-| [Dokumente Aktionen](Documents%20Actions.md) | Arbeitsflüsse mit Dokumenten automatisieren.             |
+| Bereich                                      | Beschreibung                                 |
+| -------------------------------------------- | -------------------------------------------- |
+| [Dokumente Aktionen](Documents%20Actions.md) | Arbeitsflüsse mit Dokumenten automatisieren. |
 
 ## Erweiterungen
 
-| Erweiterung   | Beschreibung                               |
-| ------------- | ------------------------------------------ |
+| Erweiterung                             | Beschreibung                               |
+| --------------------------------------- | ------------------------------------------ |
 | [Agreement Legal](Agreement%20Legal.md) | Verträge und Vereinbarungen dokumentieren. |
 
 ## Konfiguration
