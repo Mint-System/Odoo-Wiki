@@ -24,3 +24,33 @@ Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatische Aktio
 * Folgeaktion: `Den Datensatz aktualisieren`
 * Feld: `Order Deadline (purchase.order)`
 * Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
+
+## Automatische Aktionen
+
+### Aktivität Rechnung prüfen für Käufer erstellen
+
+Mit dieser automatischen Aktion wird beim anwählen der Option *Zum Überprüfen* auf einer Rechnung mit einem Einkauf eine Aktivität zur Prüfung der Rechnung dem Käufer zugeordnet.
+
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
+
+Name der Aktion: `Aktivität Rechnung prüfen für Käufer erstellen`\
+Modell: `acclount.move`\
+Triggerbedingung: Bei Aktualisieren\
+Trigger-Felder: `to_check`
+Anzuwenden auf: `[("to_check", "=", True),("purchase_order_count",">",0)]`
+Folgeaktion: Python-Code ausführen\
+Python-Code:
+
+```python
+for rec in records:
+  user_id = rec.line_ids.purchase_line_id.order_id.user_id[0]
+  if user_id:
+    env['mail.activity'].create({
+      'activity_type_id': env.ref('mail.mail_activity_data_todo').id,
+      'summary': 'Rechnung prüfen',
+      'note': 'Das ist eine Rechnung zu einer Bestellung von Ihnen. Bitte überprüfen die Rechunung und wählen Sie "Als geprüft markieren".',
+      'res_id': rec.id,
+      'res_model_id': env.ref('account.model_account_move').id,
+      'user_id': user_id.id,
+    })
+```

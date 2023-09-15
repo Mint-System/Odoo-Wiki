@@ -953,7 +953,7 @@ Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktio
 Name der Aktion: `Liefergewicht von Verpackung berechnen`\
 Modell: `stock.quant.package`\
 Triggerbedingung: Bei Erstellung und Aktualisierung\
-Trigger-Feld:
+Trigger-Felder:
 
 * `​estimated_pack_weight_kg`
 * `pack_weight`
@@ -961,7 +961,8 @@ Trigger-Feld:
 * `single_product_qty`
 * `single_product_id`
 
-Anzuwenden auf:
+Folgeaktion: Python-Code ausführen\
+Python-Code:
 
 ```python
 for rec in records:
