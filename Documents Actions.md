@@ -38,7 +38,7 @@ for production in records:
   
   # Get incoming picking ids
   traceability_lines = production.traceability_line_ids
-  incoming_lines = traceability_lines.filtered(lambda l: l.picking_id.picking_type_id.code == 'incoming')
+  incoming_lines = traceability_lines.filtered(lambda l: l.picking_id.picking_type_id.code == 'incoming' and l.product_id.tracking in ['serial', 'lot'])
   incoming_picking_ids = list(set(incoming_lines.mapped('picking_id.id')))
   
   # Search document linked to the picking ids
