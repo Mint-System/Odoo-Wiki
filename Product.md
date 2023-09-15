@@ -41,3 +41,9 @@ Produkte sind Dreh- und Angelpunkt im Wertschöpfungsprozess des Unternehmens. D
 * **Steuern (Verkauf)**: Wählen Sie hier die Standardsteuern für den Verkauf
 * **Produktkategorie**: Erstellen Sie nach Bedarf Produktkategorien und weisen Sie das Produkt der entsprechenden Kategorie zu.
 * **Interne Referenz**: Die interne Referenz ist ein eindeutiger Code bestimmt von ihrem Unternehmen
+
+## Berechtigungen
+
+### Produkte nur anzeigen
+
+Wenn Sie bestimmten Benutzer nur die Anzeige von Produkte, aber nicht die Erstellung erlaube nöchten. Müssen Sie sicherstellen, dass diese in er richtigen Anwendungs-Gruppe Mitglied sind. Navigieren Sie nach *Einstellungen > Technisch > Datenmodelle* und zeigen Sie den Eintrag *product.template* an. Im Tab *Zugriffsrechte* werden die Anwendungsgruppen und deren Zugriffe aufgelistet. Fügen Sie die ausgewählten Benutzer einer Gruppe mit Leseberechtigungen hinzu.
