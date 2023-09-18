@@ -12,6 +12,12 @@ prev: ./
 
 Website: <https://www.odoo.com/de_DE/app/appraisals>
 
+## Konfiguration
+
+### Feedback-Vorlagen definieren
+
+Navigieren Sie nach *Einstellungen > Bewertung > Feedback-Vorlagen*. Sie finden hier die zwei Eingabe-Felder für das Mitarbeiter- und das Vorgesetzten-Feedback. Überschreiben Sie den Inhalt der Felder.
+
 ## Verwendung
 
 ### Mitarbeiterbewertung erstellen
