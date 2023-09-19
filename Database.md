@@ -136,12 +136,18 @@ Navigieren Sie auf dem Testsystem nach *Einstellungen > Technisch > Systemparame
 
 ![Einstellungen Odoo-Datenbank verlängern](attachments/Einstellungen%20Odoo-Datenbank%20verlängern.gif)
 
+### Synchronisation mit Lizenzserver durchführen
+
+Odoo registriert eine eindeutige Nummer (UUID) auf dem Lizenzserver von Odoo S.A. und lädt die Lizenzinformationen herunter. Die automatische Synchronisation der Informationen können Sie wie folgt ausführen. 
+
+[Zeigen Sie die Externe ID](Development.md#Externe%20ID%20anzeigen) mit Schlüssel `mail.ir_cron_module_update_notification` an. Klicken Sie auf den verlinkten Datensatz. Sie gelangen zur geplanten Aktion *Veröffentlicher: Benachrichtigung aktualisieren*. Führen Sie die Aktion aus.
+
 ### Synchronisation mit Lizenzserver deaktivieren
 
-Nach der Installation der Datenbank registriert Odoo eine eindeutige Nummer (UUID) auf den Lizenzserver von Odoo S.A. . Damit werden die Lizenzinformationen abgeglichen. Die automatische Synchronisation der Informationen können Sie wie folgt ausschalten. 
+Nach der Installation der Datenbank registriert Odoo eine eindeutige Nummer (UUID) auf dem Lizenzserver von Odoo S.A..Damit werden die Lizenzinformationen abgeglichen. Die automatische Synchronisation der Informationen können Sie wie folgt ausschalten. 
 
-[Zeigen Sie die Externe ID](Development.md#Externe%20ID%20anzeigen) mit Schlüssel `ir_cron_module_update_notification` an. Klicken Sie auf den verlinkten Datensatz. Sie gelangen zur geplanten Aktion *Veröffentlicher: Benachrichtigung aktualisieren*. Deaktivieren Sie diese Aktion.
+[Zeigen Sie die Externe ID](Development.md#Externe%20ID%20anzeigen) mit Schlüssel `mail.ir_cron_module_update_notification` an. Klicken Sie auf den verlinkten Datensatz. Sie gelangen zur geplanten Aktion *Veröffentlicher: Benachrichtigung aktualisieren*. Deaktivieren Sie diese Aktion.
 
 ::: warning
-Deaktivieren Sie die Synchronisation mit dem Lizenzserver nur für Testumgebungen.
+Deaktivieren Sie die Synchronisation mit dem Lizenzserver nur auf Testumgebungen.
 :::
