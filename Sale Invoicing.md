@@ -37,7 +37,7 @@ Navigieren Sie nach *Verkauf > Aufträge > Aufträge* und öffnen Sie einen Verk
 
 ### Verkaufsauftrag mit Anzahlungen abrechnen
 
-Navigieren Sie nach *Verkauf > Aufträge > Aufträge* und öffnen Sie einen Verkaufsaufstag mit einer Vorauszahlung. Klicken Sie auf *Rechnung erstellen*. Wenn Sie Option *Abzug von Anzahlung* aktivieren, wird Odoo den Rechnungsbetrag den vorausbezahlte Betrag abziehen. Wenn Sie die Option deaktivieren, erstellt eine normale Rechnung.
+Navigieren Sie nach *Verkauf > Aufträge > Aufträge* und öffnen Sie einen Verkaufsaufstag mit einer Vorauszahlung. Klicken Sie auf *Rechnung erstellen*. Wenn Sie Option *Abzug von Anzahlung* aktivieren, wird Odoo den Rechnungsbetrag den vorausbezahltem Betrag abziehen. Wenn Sie die Option deaktivieren, erstellt Odoo eine normale Rechnung.
 
 ::: warning
 Wenn die Option *Abzug von Anzahlung* aktiviert ist und der vorausbezahlte Betrag den Rechnungsbetrag übersteigt, erstellt Odoo eine Kunden-Gutschrift.
