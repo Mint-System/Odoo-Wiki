@@ -40,7 +40,7 @@ Navigieren Sie nach *Verkauf > Aufträge > Aufträge* und öffnen Sie einen Verk
 Navigieren Sie nach *Verkauf > Aufträge > Aufträge* und öffnen Sie einen Verkaufsaufstag mit einer Vorauszahlung. Klicken Sie auf *Rechnung erstellen*. Wenn Sie Option *Abzug von Anzahlung* aktivieren, wird Odoo den Rechnungsbetrag den vorausbezahltem Betrag abziehen. Wenn Sie die Option deaktivieren, erstellt Odoo eine normale Rechnung.
 
 ::: warning
-Wenn die Option *Abzug von Anzahlung* aktiviert ist und der vorausbezahlte Betrag den Rechnungsbetrag übersteigt, erstellt Odoo eine Kunden-Gutschrift.
+Wenn die Option *Abzug von Anzahlung* aktiviert ist und der vorausbezahlten Betrag den Rechnungsbetrag übersteigt, erstellt Odoo eine Kunden-Gutschrift.
 :::
 
 ### Upselling auflösen
