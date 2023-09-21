@@ -38,7 +38,6 @@ Auf der Seite [SIX - Download Bankenstamm](https://www.six-group.com/de/products
 * Postal Address
 * Zip Code
 * Place
-* Phone
 * BIC
 
 Entfernen Sie alle Bankeinträge ohne BIC/SWIFT-Eintrag.
@@ -48,3 +47,17 @@ In zeigen Sie *Kontakte > Konfiguration > Bankkonten > Bankverzeichnis* an und w
 ![](attachments/Import%20Bankenstamm.png)
 
 Führen Sie einen Test aus und importieren Sie die Daten.
+
+::: tip
+Wenn Sie die Banken eindeutig identifizieren möchten können Sie die Spalten wie folgt umbennen:
+
+* id
+* name
+* street
+* street2
+* zip
+* city
+* bic
+
+Für die Spalte `id` verwenden Sie Werte aus *SIC-IID*.
+:::
