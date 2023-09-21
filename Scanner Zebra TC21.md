@@ -1,6 +1,6 @@
 ---
 title: Scanner Zebra TC21
-description: Handscanner für Odoo.
+description: Mobiler Scanner für Odoo.
 tags:
 - HowTo
 prev: ./barcode

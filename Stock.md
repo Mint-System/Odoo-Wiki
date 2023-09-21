@@ -22,7 +22,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Lager Verpackungen](Stock%20Packaging.md)            | Verpackungen effizient verwalten.           |
 | [Lager Vorgänge](Stock%20Operations.md)               | Vorgänge im Lager ausführen.                |
 | [Scanner Zebra DS22](Scanner%20Zebra%20DS22.md)       | Handscanner für Odoo.                       |
-| [Scanner Zebra TC21](Scanner%20Zebra%20TC21.md)       | Handscanner für Odoo.                       |
+| [Scanner Zebra TC21](Scanner%20Zebra%20TC21.md)       | Mobiler Scanner für Odoo.                       |
 
 ## Erweiterungen
 
@@ -40,6 +40,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Critical Forecast](Stock%20Critical%20Forecast.md)                                     | Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzeigen.                         |
 | [Stock Delivery Note](Stock%20Delivery%20Note.md)                                             | Notiz auf Lieferschein.                                                                                     |
 | [Stock Inventory Summary](Stock%20Inventory%20Summary.md)                                     | Lagerbestand gruppiert nach Lagerort und Produkt.                                                           |
+| [Stock Lot Traceability List](Stock%20Lot%20Traceability%20List.md)                           | Daten aus Lieferverfolgungsbericht als Liste anzeigen.                                                      |
 | [Stock Move Available Locations](Stock%20Move%20Available%20Locations.md)                     | Nur Lagerorte mit Besand in Auswahl anzeigen.                                                               |
 | [Stock Move Line Auto Fill](Stock%20Move%20Line%20Auto%20Fill.md)                             | Die erledigte Menge auf einem Transfer automatisch ausfüllen.                                               |
 | [Stock Move Line Lot Done](Stock%20Move%20Line%20Lot%20Done.md)                               | Erledigte Menge bei Zuweisung von Los festlegen.                                                            |

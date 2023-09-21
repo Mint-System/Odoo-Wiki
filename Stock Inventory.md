@@ -10,6 +10,12 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
+## Konfiguration
+
+### GS1-Barcodes aktivieren
+
+Navigieren Sie nach *Einstellungen > Lager > Rückverfolgbarkeit* und aktivieren Sie die Option *GS1-Barcodes für Los- & Seriennummern drucken*. Wenn Sie die Standardetiketten drucken, wird statt dem 
+
 ## Bestand
 
 ### Reservierter Bestand zurücksetzen

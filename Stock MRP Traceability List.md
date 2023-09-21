@@ -25,7 +25,7 @@ Die Lieferverfolgungsliste:
 
 ![](attachments/Stock%20MRP%20Traceability%20List.png)
 
-Der Lieferverfolungsbericht:
+Der Lieferverfolungsbericht zum Verlgeich:
 
 ![](attachments/Stock%20MRP%20Traceability%20List%20Report.png)
 
