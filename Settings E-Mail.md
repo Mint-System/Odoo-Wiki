@@ -166,7 +166,7 @@ Nach dem Versand der E-Mail können Sie die [E-Mail anzeigen](Discuss%20E-Mail.m
 Sie haben eine E-Mail an das Odoo Postfach geschickt und diese Antwort erhalten:
 
 ```
-Hallo ,
+Hallo,
 
 Die E-Mail senden an Odoo Demo <odoo@example.com> kann nicht verarbeitet werden. Diese Adresse wird verwendet, um Antworten zu sammeln und sollte nicht zur direkten Kontaktaufnahme verwendet werden example.com.
 
@@ -184,3 +184,17 @@ Odoo bounced die E-Mail, wenn diese direkt an den Catchall- oder den Bounce-Alia
 **Lösung**
 
 Sie müssen den [Catchall-Alias anpassen](#Catchall-Alias%20anpassen) oder den [Bounce-Alias anpassen](#Bounce-Alias%20anpassen), damit die E-Mail nicht gebounced wird.
+
+### Weitergeleitetes Mail via Exchange wird von Odoo nicht verarbeitet
+
+**Problem**
+
+Sie haben eine E-Mail innerhalb der Exchange-Domäne an einen Odoo Mail-Alias weitergeleitet. Der Alias wird von Odoo nicht erkannt und das Mail wird nicht verarbeitet.
+
+**Ursache**
+
+Microsoft Exchange Alias-Adressen werden bei internen Absendern aufgelöst und im Header wird das `to:`-Attribut überschrieben.
+
+**Lösung**
+
+Verwenden Sie als Odoo-Postfach einen externen Mail-Provider und konfigurieren Sie die Mail-Domain als *Internal Relay*.
