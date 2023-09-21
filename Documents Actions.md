@@ -15,10 +15,12 @@ prev: ./documents
 
 ### Dokumente aus Wareneingang taggen
 
+Diese Serveraktion erfordert die Installation von [Stock Lot Traceability List](Stock%20Lot%20Traceability%20List.md) oder [Stock MRP Traceability List](Stock%20MRP%20Traceability%20List.md).
+
 Navigieren Sie nach *Einstellungen > Technisch > Serveraktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Dokumente aus Wareneingang taggen`\
-Modell: `mrp.production`\
+Modell: `stock.lot` oder `mrp.production`\
 Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
@@ -34,10 +36,10 @@ for tagged_document in tagged_documents:
       'tag_ids': tagged_document.tag_ids - document_tag
     })
 
-for production in records:
+for rec in records:
   
   # Get incoming picking ids
-  traceability_lines = production.traceability_line_ids
+  traceability_lines = rec.traceability_line_ids
   incoming_lines = traceability_lines.filtered(lambda l: l.picking_id.picking_type_id.code == 'incoming' and l.product_id.tracking in ['serial', 'lot'])
   incoming_picking_ids = list(set(incoming_lines.mapped('picking_id.id')))
   
