@@ -129,7 +129,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Automatische Aktione
 
 **Name**: `Lohnstuktur zuweisen`\
 **Modell**: `hr.payslip`\
-**Triggerbedingung**: `Bei Erstellung`\
+**Auslöser**: `Bei Erstellung`\
 **Folgeaktion**: `Den Datensatz aktualisieren`
 
 Zu schreibende Daten:

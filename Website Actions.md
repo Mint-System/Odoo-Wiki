@@ -20,7 +20,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Automatische Aktione
 
 **Name**: `Website Zahlungsreferenz entfernen`\
 **Modell**: `sale.order`\
-**Triggerbedingung**: `Bei Erstellung und Aktualisierung`\
+**Auslöser**: `Bei Erstellung und Aktualisierung`\
 **Trigger-Felder**: `reference`
 **Folgeaktion**: `Den Datensatz aktualisieren`
 

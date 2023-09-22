@@ -178,8 +178,8 @@ Mit *Automatischen Aktionen* kann ein Datensatz, der aktualisiert wurde, zusätz
 Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatische Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Modell: `Qualitätsalarm`\
-Triggerbedingung: `Beim Aktualisieren`\
-Beobachtete Felder: `Stufe (quality.alert)`\
+Auslöser: Beim Aktualisieren\
+Trigger-Felder: `Stufe (quality.alert)`\
 Python Code:
 
 ```python

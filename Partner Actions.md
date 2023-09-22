@@ -46,3 +46,27 @@ if partner_ids:
 ::: tip
 Die Aktivität auf dem Kontakt wird im Archivierungsvorgang gelöscht.
 :::
+
+## Automatische Aktionen
+
+### Bankkonto mit Bank verknüpfen
+
+Mit dieser Aktion versucht Odoo anhand des *Bank Code* in der IBAN eine passende Bank im Bank-Verzeichnis zu finden. Die Aktion erfordert die Installation von [Partner Bank Code](Partner%20Bank%20Code.md).
+
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
+
+Name der Aktion: `Bankkonto mit Bank verknüpfen`\
+Modell: `res.partner.bank`\
+Trigger-Felder: `acc_number`
+Auslöser: Bei Erstellung und Aktualisierung\
+Abgrenzung vor Aktualisierung: `[("sanitized_acc_number", "!=", False)]`\
+Folgeaktion: Python-Code ausführen\
+Python Code:
+
+```python
+for rec in records:
+  bank_code = rec.sanitized_acc_number[4:9]
+  bank = env['res.bank'].search([('bank_code', '=ilike', bank_code+'%')], limit=1)
+  if bank:
+    rec['bank_id'] = bank.id
+```

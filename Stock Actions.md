@@ -927,13 +927,14 @@ Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktio
 
 Name der Aktion: `Lieferung erledigen wenn bereit`\
 Modell: `stock.picking`\
-Triggerbedingung: Beim Aktualisieren\
+Auslöser: Beim Aktualisieren\
 Anzuwenden auf:
 
 ```python
 ["&",["picking_type_code","=","outgoing"],["state","=","assigned"]]
 ```
 
+Folgeaktion: Python-Code ausführen\
 Python Code:
 
 ```python
@@ -952,7 +953,7 @@ Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktio
 
 Name der Aktion: `Liefergewicht von Verpackung berechnen`\
 Modell: `stock.quant.package`\
-Triggerbedingung: Bei Erstellung und Aktualisierung\
+Auslöser: Bei Erstellung und Aktualisierung\
 Trigger-Felder:
 
 * `​estimated_pack_weight_kg`

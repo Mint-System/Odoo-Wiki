@@ -78,7 +78,7 @@ Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktio
 
 Name der Aktion: `Bestellung bestätigen und Rechnungen erstellen`\
 Modell: `sale.order`\
-Triggerbedingung: Bei Erstellung und Aktualisierung\
+Auslöser: Bei Erstellung und Aktualisierung\
 Trigger-Felder: `x_as4import`\
 Abgrenzung vor Aktualisierung: `[("x_as4import", "!=", True)]`\
 Anzuwenden auf: `[("x_as4import", "=", True)]`\

@@ -100,8 +100,8 @@ Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktio
 
 Name der Aktion: `Lot-Nummer generieren`\
 Modell: `mrp.production`\
-Triggerbedingung: Beim Aktualisieren\
-Beobachtete Felder: `state`\
+Auslöser: Beim Aktualisieren\
+Trigger-Felder: `state`\
 Anzuwenden auf:
 
 ```txt

@@ -35,7 +35,7 @@ Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktio
 
 Name der Aktion: `Aktivität Rechnung prüfen für Käufer erstellen`\
 Modell: `acclount.move`\
-Triggerbedingung: Bei Aktualisieren\
+Auslöser: Beim Aktualisieren\
 Trigger-Felder: `to_check`
 Anzuwenden auf: `[("to_check", "=", True),("purchase_order_count",">",0)]`
 Folgeaktion: Python-Code ausführen\
