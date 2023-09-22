@@ -48,6 +48,10 @@ Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase*. Hier sehen Si
 Der Empfänger der eingehenden E-Mails werden mit der Liste der Aliase verglichen. Wenn das E-Mail keine Antwort auf einen bestehenden Chatter-Thread ist, wird die Aktion des registrierten Aliases ausgelöst.
 :::
 
+### E-Mail Alias erstellen
+
+Sie können für eine Ressource, beispielsweise Kundendienst Team, mehrere Alias haben. Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase* und zeigen Sie einen bestehenden Alias an. Wählen Sie *Aktion > Duplizieren* und passen Sie die Adresse des Alias an. 
+
 ## Versand
 
 ### Ausgehender Mail-Server konfigurieren
