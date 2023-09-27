@@ -8,13 +8,13 @@ prev: ./best-practice
 
 # Odoo übersetzen
 
-Odoo wird in 50 Sprachen übersetzt. Der Prozess von der Übersetzung eines Begriffs bis zur Anzeige auf der Bentuzeroberfläche kann lange dauern.
+Odoo wird in 50 Sprachen übersetzt. Der Prozess von der Übersetzung eines Begriffs bis zur Anzeige auf der Benutzeroberfläche kann lange dauern.
 
-Als Anwender von Odoo treffen Sie immer wieder fehlende Übersetzungen oder falsch übersetzte Begriffe an. Sie können die Übersetzung anpassen, jedoch wir diese nicht automatisch der Odoo-Community bereitgestellt.
+Als Anwender von Odoo treffen Sie immer wieder fehlende Übersetzungen oder falsch übersetzte Begriffe an. Sie können die Übersetzung anpassen, jedoch wird diese nicht automatisch der Odoo-Community bereitgestellt.
 
 Mit jedem Update von Odoo erhalten Sie neue Übersetzungen. Odoo verwendet das Übersetzungs-System Transifex. Dort sind alle Begriff mit Übersetzungen gespeichert. Nicht dazu gehören die Übersetzungen von nicht-Standard Modulen.
 
-Wenn Sie Odoo übersetzen wollen, haben Sie zwei Optionen. Entweder passen Sie den Begriff direkt in ihrer Odoo-Instanzen an oder Sie machen eine Übersetzung auf Transifex und warten auf die Aktualisieriung.
+Wenn Sie Odoo übersetzen wollen, haben Sie zwei Optionen. Entweder passen Sie den Begriff direkt in ihrer Odoo-Instanzen an oder Sie machen eine Übersetzung auf Transifex und warten auf die Aktualisierung.
 
 Als Anwendungsfall wollen wir den Begriff *Abschaltung* anpassen. Der Quellbegriff ist *Cut-Off* und worde nicht korrekt übersetzt:
 
