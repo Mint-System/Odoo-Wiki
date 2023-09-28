@@ -54,7 +54,7 @@ Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine 
 
 ### Login mit Keycloak konfigurieren
 
-Damit Sie mit einem Keycloak-Account in Odoo einloggen können, müssen Sie als erstes ein OAuth-Client in einem ausgewählten Keycloak Realm erstellen. Im folgenden Beispiel ist Odoo-Installation unter <https://sozialinfo.16.odoo.build> und eine Keycloak-Instanz unter <https://login.mintsys.ch> verügbar.
+Damit Sie mit einem Keycloak-Account in Odoo einloggen können, müssen Sie als erstes ein OAuth-Client in einem ausgewählten Keycloak Realm erstellen. Im folgenden Beispiel ist Odoo-Installation unter <https://sozialinfo.16.odoo.build> und eine Keycloak-Instanz unter <https://login.mintsys.ch> mit dem realm "Demo" verügbar.
 
 Loggen Sie sich bei Keycloak ein und erstellen Sie einen neuen Client mit diesen Informationen:
 
@@ -74,10 +74,10 @@ Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine 
 * **Client Secret**: Fügen Sie das notierte *Client secret* ein
 * **Allowed**: `[x]`
 * **Body**: `Login with Keycloak`
-* **Authorization URL**: `https://gitlab.com/oauth/authorize`
+* **Authorization URL**: `https://login.mintsys.ch/realms/Demo/protocol/openid-connect/auth`
 * **Scope**: `openid`
-* **Token URL**: `https://gitlab.com/oauth/token`
-* **JWKS URL**: `https://gitlab.com/-/jwks`
+* **Token URL**: `https://login.mintsys.ch/realms/Demo/protocol/openid-connect/token`
+* **JWKS URL**: `https://login.mintsys.ch/realms/Demo/protocol/openid-connect/jwks`
 
 ## Verwendung
 
