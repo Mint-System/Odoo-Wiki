@@ -77,7 +77,7 @@ Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine 
 * **Authorization URL**: `https://login.mintsys.ch/realms/Demo/protocol/openid-connect/auth`
 * **Scope**: `openid`
 * **Token URL**: `https://login.mintsys.ch/realms/Demo/protocol/openid-connect/token`
-* **JWKS URL**: `https://login.mintsys.ch/realms/Demo/protocol/openid-connect/jwks`
+* **JWKS URL**: `https://login.mintsys.ch/realms/Demo/protocol/openid-connect/certs`
 
 ## Verwendung
 
