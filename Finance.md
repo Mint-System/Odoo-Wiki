@@ -56,6 +56,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Contract Sale Generation](Contract%20Sale%20Generation.md)                                                | Aus wiederholenden Verträge Verkaufsangebote generieren.                    |
 | [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                      | PDF-Dokumenten von Rechnungen zusammenführen.                               |
 | [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                | Allow discount deduction on vendor bills.                                   |
+| [Sales Order Invoicing Grouping Criteria](Sales%20Order%20Invoicing%20Grouping%20Criteria.md)              | Kriterien zur Gruppierung in der Rechnungstellung festlegen.                |
 | [Switzerland Bank type](Switzerland%20Bank%20Type.md)                                                      | Lokalisierung für Schweizer Banken und Bankkontos.                          |
 | [Switzerland Disable Default Reports](Switzerland%20Disable%20Default%20Reports.md)                        | Generierung der QR- und ISR-Berichte deaktivieren.                          |
 | [l10n CH Invoice Reports with Payments](l10n%20CH%20Invoice%20Reports%20with%20Payments.md)                | Rechnung mit Zahlungsschein und Zahlungsdetails drucken.                    |
