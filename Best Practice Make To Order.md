@@ -17,6 +17,6 @@ Wenn Sie dieses Produkt verkaufen, legt Odoo eine Lieferung und ein Fertigungsau
 
 ![](attachments/Best%20Practice%20Make%20To%20Order%20Smart-Links.png)
 
-Wenn Sie mehrere Verkäufe für das Produkt anlegen, werden bestehende Bestellungen aktualisiert. Falls Sie für jeden Verkauf einen neuen Fertigungsauftrag möchten müssen Sie die [Beschaffungsgruppe weitergeben](Stock%20Operations.md#Beschaffungsgruppe%20weitergeben).
+Wenn Sie mehrere Verkäufe für das Produkt anlegen, werden bestehende Bestellungen aktualisiert. Falls Sie für jeden Verkauf einen neuen Fertigungsauftrag möchten, müssen Sie die [Beschaffungsgruppe weitergeben](Stock%20Operations.md#Beschaffungsgruppe%20weitergeben).
 
 Damit beim Verkauf der Lagerbestand nicht berücksichtigt wird, müssen Sie den [Bestand bei Fertigung ignorieren](Stock%20Operations.md#Bestand%20bei%20Fertigung%20ignorieren).
