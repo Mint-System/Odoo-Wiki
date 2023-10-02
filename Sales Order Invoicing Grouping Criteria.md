@@ -22,7 +22,6 @@ Zeigen Sie die *Einstellungen > Finanzen > Sales Order Invoicing* an. Im Feld *D
 
 * **Name**: Default
 * **Grouping Fields**: `company_id`, `currency_id`, `partner_invoice_id`
-
 * **Name**: Unique
 * **Grouping Fields**: `id`
 
