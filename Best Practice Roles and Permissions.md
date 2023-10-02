@@ -10,7 +10,7 @@ prev: ./best-practice
 
 Mit der Odoo App [User roles](Base%20User%20Role.md) können Sie Benutzer statt Gruppen mit bestimmten Rollen ausstatten. Die wichtigste Abgrenzung ist Finanzen und HR.
 
-![[Rollen.svg]]
+![Rollen](attachments/Rollen.svg)
 
 **Benutzer**
 
