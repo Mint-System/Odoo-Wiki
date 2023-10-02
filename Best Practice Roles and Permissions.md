@@ -12,7 +12,7 @@ Mit der Odoo App [User roles](Base%20User%20Role.md) können Sie Benutzer statt 
 
 ![Rollen](attachments/Rollen.svg)
 
-**Benutzer**
+**Mitarbeitende**
 
 Alle internen Benutzer erhalten diese Rolle. Benutzer-Gruppen aus Apps werden standardmässig dieser Rolle hinzugefügt. Es wird ein *Access by Default*-Ansatz für neue Apps verfolgt.
 
@@ -22,8 +22,4 @@ Benutzer mit dieser Rolle erhalten Zugriff auf die Finanzen.
 
 **Administratoren**
 
-Benutzer mit dieser Rolle können Apps installieren und Einstellungen verwalten. 
-
-**Sysadmin**
-
-Der Sysadmin verwaltet die Benutzerberechtigungen und hat vollen Zugriff auf das System.
+Benutzer mit dieser Rolle können Apps installieren und Einstellungen verwalten. Sie verwalten die Benutzerberechtigungen und haben vollen Zugriff auf das System.
