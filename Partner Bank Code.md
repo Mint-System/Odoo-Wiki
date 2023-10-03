@@ -30,8 +30,8 @@ Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktio
 
 Name der Aktion: `Bankkonto mit Bank verknüpfen`\
 Modell: `res.partner.bank`\
-Trigger-Felder: `acc_number`
 Auslöser: Bei Erstellung und Aktualisierung\
+Trigger-Felder: `acc_number`\
 Abgrenzung vor Aktualisierung: `[("sanitized_acc_number", "!=", False)]`\
 Folgeaktion: Python-Code ausführen\
 Python Code:

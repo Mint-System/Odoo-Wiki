@@ -56,7 +56,7 @@ Dazu die Buchungen:
 | 999999 Unverteilte Gewinne/Verluste   |   0.00 CHF | 15'000 CHF |
 | 2979 Jahresgewinn oder Jahresverlust| 15'000 CHF |   0.00 CHF |
 
-Im neuen Jahr wirder Gewinn/Verlust als Vortrag verbuch.
+Im neuen Jahr wir der Gewinn/Verlust als Vortrag verbucht.
 
 * **Referenz**: Vortrag
 * **Buchungsdatum**: 01.01.2023

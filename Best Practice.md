@@ -60,6 +60,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 * [Lohnrekapitulation](Best%20Practice%20Salary%20Recap.md)
 * [Stundenlohn abrechnen](Best%20Practice%20Settle%20Hourly%20Wages.md)
+* [Rückvergütung Spesen](Best%20Practice%20Expense%20Compensation.md)
 
 ### Kaufverträge
 
@@ -71,7 +72,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Auftragszeilen auswerten](Best%20Practice%20Analyse%20Sale%20Order%20Lines.md)
 * [Abonnements](Best%20Practice%20Subscriptions.md)
 * [Dienstleistungen mit Nachtzuschlag](Best%20Practice%20Services%20with%20Night%20Surcharge.md)
-* [Best Practice Charge Expenses](Best%20Practice%20Charge%20Expenses.md)
+* [Verrechnung Spesen](Best%20Practice%20Charge%20Expenses.md)
 
 ### Einkauf
 

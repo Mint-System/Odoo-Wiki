@@ -1,11 +1,11 @@
 ---
-title: Spesen verrechnen
+title: Verrechnung Spesen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Spesen verrechnen
+# Verrechnung Spesen
 
 Die Mitarbeitenden ihres Unternehmen können mit Odoo [Spesen erfassen](HR%20Expense.md#Spesen%20erfassen) und abrechnen lassen. Wenn Mitarbeitende auf Projekten arbeiten und dort ihre Aufwände erfassen, stellt sich die Frage wie angefallene Spesen weiter verrechnet werden können.
 

@@ -169,7 +169,7 @@ Für jede Odoo-App existiert eine Seite. Beispielsweise gibt es die Seite [Notiz
 
 **Appname.md**
 
-```
+```markdown
 ## Appname
 ![](/assets/icon.png)
 
