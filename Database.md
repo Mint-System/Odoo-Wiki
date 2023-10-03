@@ -144,7 +144,7 @@ Odoo registriert eine eindeutige Nummer (UUID) auf dem Lizenzserver von Odoo S.A
 
 ### Synchronisation mit Lizenzserver deaktivieren
 
-Nach der Installation der Datenbank registriert Odoo eine eindeutige Nummer (UUID) auf dem Lizenzserver von Odoo S.A..Damit werden die Lizenzinformationen abgeglichen. Die automatische Synchronisation der Informationen können Sie wie folgt ausschalten. 
+Nach der Installation der Datenbank registriert Odoo eine eindeutige Nummer (UUID) auf dem Lizenzserver von Odoo S.A. Damit werden die Lizenzinformationen abgeglichen. Die automatische Synchronisation der Informationen können Sie wie folgt ausschalten. 
 
 [Zeigen Sie die Externe ID](Development.md#Externe%20ID%20anzeigen) mit Schlüssel `mail.ir_cron_module_update_notification` an. Klicken Sie auf den verlinkten Datensatz. Sie gelangen zur geplanten Aktion *Veröffentlicher: Benachrichtigung aktualisieren*. Deaktivieren Sie diese Aktion.
 
