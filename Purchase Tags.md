@@ -7,8 +7,7 @@ tags:
 prev: ./purchase-requisition
 ---
 # Purchase Tags
-
-![](attachments/icon_oca_agreement.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 

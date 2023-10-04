@@ -32,6 +32,7 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 | [Purchase Order Notes](Purchase%20Order%20Notes.md)                                     | Einkaufsaufträge mit Notizfelder.                                                         |
 | [Purchase Order Partner Incoterm](Purchase%20Order%20Partner%20Incoterm.md)             | Für jedem Partner die Incoterms festlegen.                                                |
 | [Purchase Order Partner Shipping](Purchase%20Order%20Partner%20Shipping.md)             | Alternative Lieferadresse für Bestellungen.                                               |
+| [Purchase Order Type](Purchase%20Order%20Type.md)                                       | Bestellungen nach Typen organisieren.                                                     |
 | [Purchase Order Validate](Purchase%20Order%20Validate.md)                               | Bestellung vor Versenden oder Bestätigen überprüfen.                                      |
 | [Purchase Partner Incoterm](Purchase%20Partner%20Incoterm.md)                           | Standardlieferbedingungen für Lieferanten.                                                |
 | [Purchase Sale Order Analytic Account](Purchase%20Sale%20Order%20Analytic%20Account.md) | Kostenstelle von verlinkten Verkaufsauftrag auf Bestellung übertragen.                    |
