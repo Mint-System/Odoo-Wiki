@@ -26,4 +26,4 @@ Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer*, wähl
 
 ### Impersonierung beenden
 
-Den Impersionieruns-Vorgang können Sie beenden indem Sie oben Rechts auf *Benutzer-Menü > Abmeldung* klicken. Statt direkt abgemeldet zu werden, werden Sie stattdessen als ihren ursprünglichen Benutzer eingeloggt. Wenn Sie nochmals auf *Abmeldung* klicken, werden Sie ausgeloggt. 
+Den Impersionierungs-Vorgang können Sie beenden indem Sie oben Rechts auf *Benutzer-Menü > Abmeldung* klicken. Statt direkt abgemeldet zu werden, werden Sie stattdessen als ihren ursprünglichen Benutzer eingeloggt. Wenn Sie nochmals auf *Abmeldung* klicken, werden Sie ausgeloggt. 

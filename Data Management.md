@@ -25,21 +25,29 @@ prev: ./
 
 ### Daten exportieren
 
-In den verschiedenen Apps besteht immer die Möglichkeit Daten zu exportieren. Folgende Abbildung zeigt das Beispiel in der Maske Fertigung > Stammdaten > Produkte.
+In allen Apps mit Listenansichten haben die Möglichkeit Daten zu exportieren. Die folgende Abbildung zeigt ein Beispiel der Ansicht *Lager > Produkte > Produkte*.
 
 ::: tip
 Damit die Auswahl *Aktion* erscheint, müssen die Daten in der Listenansicht angezeigt werden.
 :::
 
+Markieren Sie Einträge und wählen Sie die Aktion *Export*.
+
 ![Datenmanagement Daten exportieren Aktion](attachments/Datenmanagement%20Daten%20exportieren%20Aktion.png)
 
-Wählen Sie die Aktion *Export*. Anschliessend erscheint die Maske zur Definition der zu exportierenden Felder.
+Anschliessend erscheint ein Dialog zur Definition der zu exportierenden Felder.
 
 ![Datenmanagement Daten exportieren Felder](attachments/Datenmanagement%20Daten%20exportieren%20Felder.png)
 
-::: tip
-Die zu exportierenden Felder müssen für jeden Zweck sorgfältig ausgewählt werden. Beachten Sie hierzu die Angaben im Abschnitt Datenstruktur Export.
-:::
+Bestimmen Sie die Felder auf linken Seite und wählen Sie *Export* um den Vorgang auszuführen.
+
+### Export-Vorlage definieren
+
+Wenn Sie [Daten exportieren](#Daten%20exportieren) und im Dialog Felder ausgewählten haben, können Sie die Auswahl als Vorlage speichern. Klicken Sie auf *Vorlage:* und wählen Sie *Neue Vorlage*.
+
+![](attachments/Data%20Management%20Export%20Template.png)
+
+Geben Sie einen passenden Namen ein und wählen Sie den Speichern-Knopf. Nun haben Sie die Export-Vorlage auf diesem Datenmodell zur Verfügung.
 
 ### Daten importieren
 
