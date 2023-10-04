@@ -12,7 +12,7 @@ prev: ./settings-login
 {{ $frontmatter.description }}
 
 Technischer Name: `auth_impersonate_user`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/15.0/auth_impersonate_user>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/auth_impersonate_user>
 
 ## Verwendung
 
