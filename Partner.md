@@ -109,6 +109,10 @@ Wenn Sie Unternehmen mit Kontakten haben, können Sie auf den Kontakten einen Ty
 
 ![](attachments/Partner%20Select%20Type.png)
 
+### Kontaktandreden verwalten
+
+Navigieren Sie nach *Kontakte > Konfiguration > Kontaktanreden*. Hier können Sie die Auswahl für das Feld *Kontaktanrede* verwalten.
+
 ## Adressen
 
 ### Adressformat ändern
