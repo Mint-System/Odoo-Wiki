@@ -20,9 +20,9 @@ Repository: <https://github.com/OCA/account-invoicing/tree/16.0/sale_order_invoi
 
 Zeigen Sie die *Einstellungen > Finanzen > Sales Order Invoicing* an. Im Feld *Default Grouping Criteria* können Sie ein Kriterium erfassen. Dazu zwei Beispiele:
 
-* **Name**: Default
+* **Name**: Sammelrechnung
 * **Grouping Fields**: `company_id`, `currency_id`, `partner_invoice_id`
-* **Name**: Unique
+* **Name**: Einzelrechnung
 * **Grouping Fields**: `id`
 
 ## Verwendung

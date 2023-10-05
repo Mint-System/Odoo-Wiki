@@ -37,6 +37,6 @@ Zeigen Sie die E-Mail-Vorlagen unter *Einstellungen > Technisch > Vorlagen* an. 
 
 ### Domain-Filter auf E-Mail-Vorlage festlegen
 
-Rufen Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > Vorlagen* auf. Legen Sie eien Filter im *Domain* für die ausgewählten Geschäftsobjekte fest.
+Rufen Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > Vorlagen* auf. Legen Sie einen Filter im *Domain* für die ausgewählten Geschäftsobjekte fest.
 
 ![](attachments/Mail%20Composer%20Default%20Template%20Domain.png)
