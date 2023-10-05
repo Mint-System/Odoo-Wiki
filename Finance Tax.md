@@ -210,11 +210,17 @@ Wenn Sie mit Saldosteuersätzen die Mehrwersteuer abrechnen, müssen Sie die aus
 
 * **Name**: UST 7.7% Lief./DL (exkl. MWST) Beratung
 * **Verteilung für Rechnungen**:
-	* Zeile 2 %: 76.62
-	* Zeile 3 %: 23.38
+	* Zeile 2 %: 76.66
+	* Zeile 3 %: 23.34
 * **Verteilung für Gutschriften**:
-	* Zeile 2 %: 76.62
-	* Zeile 3 %: 23.38
+	* Zeile 2 %: 76.66
+	* Zeile 3 %: 23.34
+
+::: tip
+Die Berechnung der Prozente ist wie folgt:
+76.66% = 5.9/7.7
+23.34% = (7.7-5.9)/7.7
+:::
 
 ![](attachments/Finanzen%20Mehrwertsteuer%20Saldosteuersatz%20Beratung.png)
 
