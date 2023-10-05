@@ -45,12 +45,36 @@ Python-Code:
 for rec in records:
   user_id = rec.line_ids.purchase_line_id.order_id.user_id[0]
   if user_id:
-    env['mail.activity'].create({
+    env['mail.activity'].with_context(mail_notify_force_send=True).create({
       'activity_type_id': env.ref('mail.mail_activity_data_todo').id,
       'summary': 'Rechnung prüfen',
-      'note': 'Das ist eine Rechnung zu einer Bestellung von Ihnen. Bitte überprüfen die Rechunung und wählen Sie "Als geprüft markieren".',
+      'note': 'Das ist eine Rechnung zu einer Bestellung von Ihnen. Bitte überprüfen Sie die Rechunung und wählen Sie "Als geprüft markieren".',
       'res_id': rec.id,
       'res_model_id': env.ref('account.model_account_move').id,
       'user_id': user_id.id,
+    })
+```
+
+### Gelieferte Menge eintragen
+
+Name der Aktion: `Gelieferte Menge eintragen`\
+Modell: `purchase.order`\
+Auslöser: Bei Erstellung und Aktualisierung\
+Trigger-Felder: `state`
+Anzuwenden auf: `[("state", "=", "purchase")]`
+Folgeaktion: Python-Code ausführen\
+Python-Code:
+
+```python
+for rec in records:
+  if rec.user_id:
+    activity = env['mail.activity'].with_context(mail_notify_force_send=True).create({
+      'activity_type_id': env.ref('mail.mail_activity_data_email').id,
+      'date_deadline': rec.date_planned,
+      'summary': 'Gelieferte Menge eintragen',
+      'note': 'Bitte tragen Sie die gelieferte Menge nach der Leistungserbringung ein.',
+      'res_id': rec.id,
+      'res_model_id': env.ref('purchase.model_purchase_order').id,
+      'user_id': rec.user_id.id,
     })
 ```
