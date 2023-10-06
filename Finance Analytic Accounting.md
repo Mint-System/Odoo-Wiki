@@ -40,7 +40,7 @@ Zeigen Sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an. Auf der Rechnu
 
 Navigieren Sie Nach *Finanzen > Finanzen > Budgets* und erstellen Sie einen neuen Eintrag. Legen Sie einen Namen und die Periode fest. Anschliessen können Sie [Budgezeile anlegen](#Budgezeile%20anlegen)
 
-### Budgezeile anlegen
+### Budgetzeile anlegen
 
 Öffnen Sie ein Budget in der Formularansicht unter *Finanzen > Finanzen > Budgets* und wählen im Tab *Budgetposition* die Aktion *Eintrag Hinzufügen*. Wählen Sie eine bestehende Budgetposition aus oder [erfassen Sie eine neue Budgetpositoin](#Budgeposition%20erfassen)
 
