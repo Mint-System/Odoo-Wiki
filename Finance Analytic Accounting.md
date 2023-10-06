@@ -44,6 +44,6 @@ Navigieren Sie Nach *Finanzen > Finanzen > Budgets* und erstellen Sie einen neue
 
 Öffnen Sie ein Budget in der Formularansicht unter *Finanzen > Finanzen > Budgets* und wählen im Tab *Budgetposition* die Aktion *Eintrag Hinzufügen*. Wählen Sie eine bestehende Budgetposition aus oder [erfassen Sie eine neue Budgetpositoin](#Budgeposition%20erfassen)
 
-### Budgeposition erfassen
+### Budgetposition erfassen
 
 Navigieren Sie nach *Finanzen > Konfiguration > Budgetpositionen* und erstellen Sie einen neuen Eintrag. Geben Sie dem Position einen Namen und fügen ein oder mehrere Konten hinzu.
