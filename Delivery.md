@@ -14,6 +14,7 @@ Versandmethoden und Logistik definieren.
 
 | Erweiterung                                                                           | Beschreibung                                                                                    |     |
 | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --- |
+| [DPD for Switzerland](Delivery%20DPDch.md)                                            | Versand mit DPD.                                                                                |     |
 | [Sale Order Default Carrier](Sale%20Order%20Default%20Carrier.md)                     | Auslieferungsmethode von Kontakt übernehmen.                                                    |     |
 | [Sale Order Default Commitment Date](Sale%20Order%20Default%20Commitment%20Date.md)   | Standardlieferdatum festlegen.                                                                  |     |
 | [Sale Order Delivery Note](Sale%20Order%20Delivery%20Note.md)                         | Notiz auf Verkaufsauftrag für Lieferung hinzufügen.                                             |     |
