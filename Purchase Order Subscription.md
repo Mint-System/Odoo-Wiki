@@ -23,3 +23,7 @@ Mit dieser Erweiterung können Sie Bestellungen als Einkaufsabonnements konfigur
 ### Wiederkehrende Bestellung erfassen
 
 Zeigen Sie eine Bestellung via *Einkauf* an oder erstellen Sie eine Neue. Im Feld *Wiederholung* wählen Sie den entsprechenden Intervall aus. Wenn Sie das Angebot bestätigen, erscheint das Feld *Nächstes Rechnungsdatum*.
+
+### Geplante Aktion für wiederkehrende Bestellungen manuell ausführen
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und suchen Sie nach der Aktion *Einkaufsabonnement: Aktualisiere wiederkehrende Bestellungen*. Klicken Sie auf *Manuell Ausführen*.
