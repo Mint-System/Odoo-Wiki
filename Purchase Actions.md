@@ -48,7 +48,7 @@ for rec in records:
     env['mail.activity'].with_context(mail_notify_force_send=True).create({
       'activity_type_id': env.ref('mail.mail_activity_data_todo').id,
       'summary': 'Rechnung prüfen',
-      'note': 'Das ist eine Rechnung zu einer Bestellung von Ihnen. Bitte überprüfen Sie die Rechunung und wählen Sie "Als geprüft markieren".',
+      'note': 'Das ist eine Rechnung zu einer Bestellung von Ihnen. Bitte überprüfen Sie die Rechnung und wählen Sie "Als geprüft markieren".',
       'res_id': rec.id,
       'res_model_id': env.ref('account.model_account_move').id,
       'user_id': user_id.id,
