@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/16.
 
 ## Beschreibung
 
-Mit dieser Erweiterung können Sie Bestellungen als Einkaufsabonnements konfigurieren. Odoo prüft täglich das Abrechnungsdatum der Einkaufsabonnements und erhöht die erhaltene Menge der Bestellzeilen und die bestellte Menge. Wenn Sie eine Lieferantenrechnung erfassen, können Sie das Einkaufsabonnment wieder auswählen.
+Mit dieser Erweiterung können Sie Bestellungen als Einkaufsabonnements konfigurieren. Odoo prüft täglich das Abrechnungsdatum der Einkaufsabonnements und erhöht die erhaltene Menge der Bestellzeilen und die bestellte Menge. Wenn Sie eine Lieferantenrechnung erfassen, können Sie das Einkaufsabonnement wieder auswählen.
 
 ## Verwendung
 
