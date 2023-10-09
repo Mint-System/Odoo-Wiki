@@ -22,4 +22,4 @@ Mit dieser Erweiterung erfolgt die Zuweisung der Preisliste auf einem Kontakt au
 
 ### Abonnement-Preisliste auf Produkt festlegen
 
-Zeigen Sie ein wiederkehrendes Produkt unter *Verkauf > Produkte > Produkte* an. Öffnen Sie den Tab *Verkauf* und legen Sie im Feld *Abonnement-Preisliste* die entsprechende Preisliste fest. Wenn Sie dieses Produkt als Abonnement verkaufen, wird die Preisliste in neuen Verkaufsaufträgen verwendet.
+Zeigen Sie ein wiederkehrendes Produkt unter *Verkauf > Produkte > Produkte* an. Öffnen Sie den Tab *Verkauf* und legen Sie im Bereich *Abonnement-Preisliste* die entsprechende Preisliste fest. Wenn Sie dieses Produkt als Abonnement verkaufen, wird die Preisliste in neuen Verkaufsaufträgen verwendet.
