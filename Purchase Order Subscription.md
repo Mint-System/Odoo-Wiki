@@ -6,7 +6,7 @@ tags:
 - Drittanbieter
 prev: ./purchase
 ---
-# Purchase Stock Sale Owner
+# Purchase Order Subscription
 ![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
