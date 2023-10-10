@@ -22,4 +22,4 @@ Zeigen Sie *Abonnements > Konfiguration > Wiederholungszeiträume* an und wähle
 
 ### Zeitbasierter Rabat anwenden
 
-Der zeitbasierte Rabatt wird automatisch auf einem Abonnement abhängig vom Startdatum. Wenn Sie das Abonnement bestätigen, ein Startdatum wählen, welches nach dem nächsten Abrechnungsdatum abzüglich der Wiederholung liegt und eine Rechnung erstellen, wendet Odoo den zeitbasierten Rabatt auf die Rechnungszeilen an.
+Der zeitbasierte Rabatt wird automatisch auf einem Abonnement abhängig vom Startdatum angewendet. Wenn Sie ein Abonnement bestätigen, ein Startdatum wählen, welches nach dem nächsten Abrechnungsdatum abzüglich der Wiederholung liegt und eine Rechnung erstellen, wendet Odoo den zeitbasierten Rabatt auf die Rechnungszeilen an.
