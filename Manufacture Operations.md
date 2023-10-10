@@ -32,5 +32,5 @@ Bestätigen Sie den Vorgang mit *Anwenden*. Klicken Sie anschliessend auf den Sm
 
 
 ::: warning
-Dieser Vorgang funktioniert auch für Fertigungsaufträge mit Arbeitsvorgängen. Wenn die Fertigungsaufträge aus Lieferrückständen direkt erledigen,  berechnet Odoo die Arbeitszeit gemäss der Zeitvorgabe.
+Dieser Vorgang funktioniert auch für Fertigungsaufträge mit Arbeitsvorgängen. Wenn die Fertigungsaufträge aus Lieferrückständen direkt erledigen, berechnet Odoo die Arbeitszeit gemäss der Zeitvorgabe.
 ::::
