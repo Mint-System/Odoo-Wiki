@@ -4,7 +4,7 @@ description: Erste Abonnementrechnung mit zeitbasiertem Rabatt.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./sale
+prev: ./subscription
 ---
 # Sale Subscription Period Discount
 ![icon_oms_box](attachments/icon_oms_box.png)

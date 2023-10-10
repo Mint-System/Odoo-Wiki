@@ -7,12 +7,12 @@ tags:
 prev: ./manufacture
 ---
 # Product Country of Origin
-![](attachments/odoo_icon_product_country_of_origin.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `product_country_of_origin`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/14.0/product_country_of_origin>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/16.0/product_country_of_origin>
 
 ## Verwendung
 

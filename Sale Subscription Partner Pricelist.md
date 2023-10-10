@@ -4,7 +4,7 @@ description: Preislisten-Zugriff mit Abonnements steuern.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./sale
+prev: ./subscription
 ---
 # Sale Subscription Partner Pricelist
 ![icon_oms_box](attachments/icon_oms_box.png)
