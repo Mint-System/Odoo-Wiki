@@ -20,6 +20,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sa
 
 Zeigen Sie *Abonnements > Konfiguration > Wiederholungszeiträume* an und wählen Sie einen Zeitraum aus. Fügen Sie der Liste *Zeitbasierter Rabatt* einen Eintrag hinzu.
 
-### Zeitbasierter Rabat anwenden
+### Zeitbasierter Rabatt anwenden
 
 Der zeitbasierte Rabatt wird automatisch auf einem Abonnement abhängig vom Startdatum angewendet. Wenn Sie ein Abonnement bestätigen, ein Startdatum wählen, welches nach dem nächsten Abrechnungsdatum abzüglich der Wiederholung liegt und eine Rechnung erstellen, wendet Odoo den zeitbasierten Rabatt auf die Rechnungszeilen an.
