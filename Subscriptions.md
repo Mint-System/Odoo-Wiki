@@ -13,17 +13,25 @@ prev: ./
 
 Website: <https://www.odoo.com/de_DE/app/subscriptions>
 
+## Erweiterungen
+
+| Erweiterung                                                                         | Beschreibung                                       |
+| ----------------------------------------------------------------------------------- | -------------------------------------------------- |
+| [Sale Subscription Partner Pricelist](Sale%20Subscription%20Partner%20Pricelist.md) | Preislisten-Zugriff mit Abonnements steuern.       |
+| [Sale Subscription Period Discount](Sale%20Subscription%20Period%20Discount.md)     | Erste Abonnementrechnung mit zeitbasiertem Rabatt. |
+
+
 ## Verwendung
 
 ### Abonnement-Vorlage erstellen
 
-Rufen Sie die Ansicht *Abonnements > Konfiguration > Vorlage für Abonnements* auf. Erstellen Sie einen neuen Eintrag. Geben Sie einen Namen beispielsweise *Jahresabonnment* ein. Legen Sie den *Abrechnungszeitraum* und einen *Code* fest.
+Rufen Sie die Ansicht *Abonnements > Konfiguration > Vorlage für Abonnements* auf. Erstellen Sie einen neuen Eintrag. Geben Sie einen Namen beispielsweise *Jahresabonnement* ein. Legen Sie den *Abrechnungszeitraum* und einen *Code* fest.
 
 ![](attachments/Abonnements%20Vorlage.png)
 
 ### Abonnement erstellen
 
-Im Normalfall wird beim [Angebot bestätigen](Sale.md#Angebot%20bestätigen) ein Abonnement generiert. Wenn Sie ein Abonnment ohne Verkaufsauftrag erstellen möchten, navigieren Sie nach *Abonnement* und klicken auf *Neu*.
+Im Normalfall wird beim [Angebot bestätigen](Sale.md#Angebot%20bestätigen) ein Abonnement generiert. Wenn Sie ein Abonnement ohne Verkaufsauftrag erstellen möchten, navigieren Sie nach *Abonnement* und klicken auf *Neu*.
 
 ### Abonnement-Laufzeit mit Produktvariante verknüpfen
 
@@ -33,6 +41,6 @@ Im Normalfall wird beim [Angebot bestätigen](Sale.md#Angebot%20bestätigen) ein
 
 ### Abonnement-Laufzeit mit Produktvariante und Preisliste verknüpfen
 
-Wenn Sie [Preislisten aktivieren](Sale%20Price.md#Preislisten%20aktivieren) und eine [Abonnement-Laufzeit mit ein Produktvariante verknüpfen](#Abonnement-Laufzeit%20mit%20Produktvariante%20verknüpfen), können Sie zusätzlich eine Preislisteliste auswählen.
+Wenn Sie [Preislisten aktivieren](Sale%20Price.md#Preislisten%20aktivieren) und eine [Abonnement-Laufzeit mit ein Produktvariante verknüpfen](#Abonnement-Laufzeit%20mit%20Produktvariante%20verknüpfen), können Sie zusätzlich eine Preisliste auswählen.
 
 Wenn Sie die ausgewählte [Preisliste anzeigen](Sale%20Price.md#Preisliste%20anzeigen) sehen Sie im Tab *Zeitbasierte Regel* die erstellten Verknüpfungen.

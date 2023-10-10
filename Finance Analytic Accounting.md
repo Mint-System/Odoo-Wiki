@@ -16,7 +16,11 @@ prev: ./finance
 
 Damit ein Benutzer Zugriff auf die Kostenrechnung und die damit verbunden Felder (wie die Kostentelle) sehen kann, muss in *Einstellungen > Benutzer > Benutzer auswählen* die Berechtigung *Kostenrechnung* erteilt werden.
 
-### Kostenstellengruppen erstellen
+### Kostenstellenkonto erstellen
+
+Öffnen Sie *Finanzen > Konfiguration > Kostenrechnung > Kostenstellenkonten* und erstellen Sie eine einen neuen Eintrag.
+
+### Kostenstellengruppe erstellen
 
 Öffnen Sie *Finanzen > Konfiguration > Kostenrechnung > Kostenstellengruppen* und erstellen Sie eine Gruppe.
 
@@ -38,11 +42,11 @@ Zeigen Sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an. Auf der Rechnu
 
 ### Budget anlegen
 
-Navigieren Sie Nach *Finanzen > Finanzen > Budgets* und erstellen Sie einen neuen Eintrag. Legen Sie einen Namen und die Periode fest. Anschliessen können Sie [Budgezeile anlegen](#Budgezeile%20anlegen)
+Navigieren Sie Nach *Finanzen > Finanzen > Budgets* und erstellen Sie einen neuen Eintrag. Legen Sie einen Namen und die Periode fest. Anschliessen können Sie [Budgezeile anlegen](#Budgezeile%20anlegen).
 
 ### Budgetzeile anlegen
 
-Öffnen Sie ein Budget in der Formularansicht unter *Finanzen > Finanzen > Budgets* und wählen im Tab *Budgetposition* die Aktion *Eintrag Hinzufügen*. Wählen Sie eine bestehende Budgetposition aus oder [erfassen Sie eine neue Budgetpositoin](#Budgeposition%20erfassen)
+Öffnen Sie ein Budget in der Formularansicht unter *Finanzen > Finanzen > Budgets* und wählen im Tab *Budgetposition* die Aktion *Eintrag Hinzufügen*. Wählen Sie eine bestehende Budgetposition aus oder [erfassen Sie eine neue Budgetpositoin](#Budgeposition%20erfassen).
 
 ### Budgetposition erfassen
 
