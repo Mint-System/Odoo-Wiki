@@ -6,7 +6,7 @@ tags:
 - Drittanbieter
 prev: ./sale
 ---
-# Sale Subscription Partner Pricelist
+# Sale Subscription Period Discount
 ![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
