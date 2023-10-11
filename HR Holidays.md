@@ -161,3 +161,34 @@ Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen Sie den Tab *Arbei
 ### Urlaubsanspruch ausblenden
 
 Wenn Sie einen genehmigten Urlaubsanspruch ausblenden wollen, wählen Sie diesen unter *Abwesenheiten > Genehmigungen > Urlaubsansprüche* aus und geben im Feld *Gültigkeitsdauer* ein Enddatum ein.
+
+## Berechtigungen
+
+### Zugriff auf  erteilen
+
+Damit Benutzer die [Anwesenheit und Zeiterfassung vergleichen](#Anwesenheit%20und%20Zeiterfassung%20vergleichen) können, müssen Sie Zugriffsrechte auf Menüposten anpasst werden.
+
+Als erstes müssen Sie die folgenden [Menüposten bearbeiten](Development.md#Menüposten%20bearbeiten):
+
+* *Zeiterfassung/Berichtswesen*
+* *Zeiterfassung/Berichtswesen/Zeiterfassung / Anwesenheit*
+
+Fügen Sie im Tab *Zugriffsrechte* die Gruppe *Zeiterfassung / Benutzer: nur eigene Stundenzettel* hinzu. 
+
+Anschliessend müssen Sie für *Zeiterfassung Anwesenheitsnachweis* die [Rechte für Daten auf Datenmodell vergeben](Settings%20Permissions.md#Rechte%20für%20Daten%20auf%20Datenmodell%20vergeben):
+
+Für die Benutzer:
+
+* **Name**: *Zeiterfassung / Benutzer: nur eigene Stundenzettel*
+* **Gruppe**: *Zeiterfassung / Benutzer: nur eigene Stundenzettel*
+* **Filter**: `[('user_id', '=', user.id)]`
+* **Berechtigung**: Leseberechtigung
+
+Für die Vorgesetzten:
+
+* **Name**: *Zeiterfassung / Benutzer: Alle Stundenzettel*
+* **Gruppe**: *Zeiterfassung / Benutzer: Alle Stundenzettel*
+* **Filter**: `[]`
+* **Berechtigung**: Leseberechtigung
+
+Nun sollten Benutzer, die nur ihren eigenen Stundenzettel sehen, den Bericht aufrufen können.

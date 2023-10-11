@@ -140,3 +140,17 @@ In der Kontaktauswahl wird der Adresstyp so sichtbar:
 ### Partner Autovervollständigung deaktivieren
 
 Wenn Sie nicht möchten, dass Odoo Kontaktdaten beim Erfassen vorschlägt und ihre Odoo Kontakt-Daten nicht hochgeladen werden, müssen Sie die *Partner Partner Autovervollständigung* unter *Einstellungen > Allgemeine Einstellungen > Kontakte* deaktivieren.
+
+## Ansichten
+
+### Aktivitätsliste anzeigen
+
+Damit Sie eine Übersicht der Aktivitäten erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+
+Name der Aktion: `Aktivitätsliste`\
+Objekt: `mail.activity`\
+Ansichtsmodus: `tree,form`\
+Menü: `Aktivitätsliste`\
+Obermenü: `Kontakte`\
+Aktion: `ir.actions.act_window` `Aktivitätsliste`\
+Nummernfolge: `10`
