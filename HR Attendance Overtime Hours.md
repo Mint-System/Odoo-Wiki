@@ -1,6 +1,6 @@
 ---
 title: HR Attendance Overtime Hours
-description: Geplante und gearbeitete Stunden auf Anischt Überstunden anzeigen.
+description: Geplante und gearbeitete Stunden auf Ansicht Überstunden anzeigen.
 tags:
 - HowTo
 - Drittanbieter
