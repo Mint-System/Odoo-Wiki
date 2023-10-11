@@ -35,4 +35,4 @@ Wenn mehrere Urlaubsansprüche vom selben Abwesenheitstyp existieren und die Abw
 
 Wenn Mitarbeitende Ende des Jahres bestimmte Mengen an verbleibenden Abwesenheiten in das neue Jahr übertragen möchten gehen Sie wie folgt vor.
 
-Zeigen Sie die Abweseneitsansprüche unter *Abwesenheiten > Genehmigungen > Urlaubsansprüche* an, filter Sie die Ansprüche welche übertragen werden sollen. Erstellen Sie einen Export mit den Felder `remaining_leaves_hours` oder `remaining_leaves_days`. Passen Sie in der exportieren Datei die Abwesenheitstypen an und importieren Sie die Daten als neue Abwesenheitsansprüche.
+Zeigen Sie die Abwesenheitsansprüche unter *Abwesenheiten > Genehmigungen > Urlaubsansprüche* an, filter Sie die Ansprüche welche übertragen werden sollen. Erstellen Sie einen Export mit den Felder `remaining_leaves_hours` oder `remaining_leaves_days`. Passen Sie in der exportieren Datei die Abwesenheitstypen an und importieren Sie die Daten als neue Abwesenheitsansprüche.
