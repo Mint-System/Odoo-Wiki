@@ -86,6 +86,7 @@ Python Code:
 
 ```python
 records.action_confirm()
+records._compute_amounts()
 records._create_invoices()
 for invoice in records.invoice_ids:
   invoice.action_post()
