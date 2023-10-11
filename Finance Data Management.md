@@ -26,7 +26,6 @@ reconcile
 deprecated
 ```
 
-
 ## Import
 
 ### Bankenstamm importieren
@@ -61,3 +60,7 @@ Wenn Sie die Banken eindeutig identifizieren möchten können Sie die Spalten wi
 
 Für die Spalte `id` verwenden Sie Werte aus *SIC-IID*.
 :::
+
+### Bilanzpositionen aus Kontenplan erstellen
+
+Exportieren Sie den den Kontenplan mit den Felder `Name` und `Code`.  Erstellen Sie eine Spalte `Bezeichnung` an der ersten Position mit der Formel `=CONCAT(B2," ",C2)`. Importieren Sie die Datei als Budgetposition. Als Namen verwenden Sie das Feld `Bezeichnung` und als Konto das Feld `Code`. Ignorieren Sie die Spalte `Name`.

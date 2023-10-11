@@ -22,7 +22,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Finanzen Berichte](Finance%20Reports.md)                     | Finanzberichte erstellen.                                   |
 | [Finanzen Buchhaltung](Finance%20Accounting.md)               | Kontenplan einrichten und Buchungen erstellen.              |
 | [Finanzen Datenmanagement](Finance%20Data%20Management.md)    | Daten zu Finanzen exportieren und importieren.              |
-| [Finanzen Kostenrechnung](Finance%20Analytic%20Accounting.md) | Kosten analysieren und Budget plannen.                      |
+| [Finanzen Kostenrechnung](Finance%20Analytic%20Accounting.md) | Kosten analysieren und Budget planen.                      |
 | [Finanzen Mehrere Währungen](Finance%20Multicurrency.md)      | Unterschiedliche Währungen mit Odoo Finanzen verarbeiten.   |
 | [Finanzen Mehrwertsteuer](Finance%20Tax.md)                   | Mehrwertsteuer einfach abrechnen mit Odoo.                  |
 | [Finanzen Snippets](Finance%20Snippets.md)                    | Einfache Anpassungen mit Odoo Snippets.                     |
