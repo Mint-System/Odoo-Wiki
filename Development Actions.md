@@ -188,3 +188,28 @@ if record.stage_id.sequence in [0,1,2]:
 ```
 
 ![Aktionen Stufe nicht erlaubt](attachments/Aktionen%20Stufe%20nicht%20erlaubt.gif)
+
+
+### Recipient Bank (Empfängerbank) zuordnen
+
+In diesem Beispiel wird bei Erzeugen einer Rechnung aus einem Verkaufsauftrag automatisch das Feld _Recipient Bank (Empfängerbank)_ in der Rechnung ausgefüllt.
+
+Modell: `Buchungssatz`\
+Auslöser: Bei Erstellung und Aktualisierung\
+Python Code:
+
+```python
+for rec in records:
+  if rec.sale_order_id: # Überprüfen, ob es sich um eine Kundenrechnung handelt
+    if rec.currency_id.name == 'CHF':
+        account = rec.company_id.bank_ids.filtered(lambda r: r.id == 40)
+    elif rec.currency_id.name == 'EUR':
+        account = rec.company_id.bank_ids.filtered(lambda r: r.id == 1)
+    elif rec.currency_id.name == 'USD':
+        account = rec.company_id.bank_ids.filtered(lambda r: r.id == 41)
+    else:
+        account = False
+
+    if account:
+        rec.write({'partner_bank_id': account})
+```
