@@ -27,9 +27,11 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Fertigungsauftrag         | `/report/html/mrp.report_mrporder/$ID`                                          |
 | Kaufvertrag               | `/report/html/purchase_requisition.report_purchaserequisitions/$ID`             |
 | Lieferschein              | `/report/html/stock.report_deliveryslip/$ID`                                    |
+| Lieferschein (Aufgabe)    | `/report/html/forestry_timesheet.report_project_task_deliveryslip/$ID`          |
 | Lohnabrechnung            | `/report/html/hr_payroll.report_payslip_lang/$ID`                               |
 | Packvorgänge              | `/report/html/stock.report_picking/$ID`                                         |
 | QR-Rechnung               | `/report/html/l10n_ch.qr_report_main/$ID`                                       |
+| QR-Rechnung Header        | `/report/html/l10n_ch.qr_report_header/$ID`                                     |
 | Rahmenauftrag             | `/report/html/sale_blanket_order.report_blanketorder/$ID`                       |
 | Rechnung mit Zeitnachweis | `/report/html/account_sale_timesheet_report.report_invoice_with_timesheets/$ID` |
 | Rechnungen                | `/report/html/account.report_invoice/$ID`                                       |
@@ -37,17 +39,16 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Vorschau externer Bericht | `/report/html/web.preview_externalreport/$ID`                                   |
 | Vorschau interner Bericht | `/report/html/web.preview_internalreport/$ID`                                   |
 | Zeitnachweis              | `/report/html/account_sale_timesheet_report.timesheet_report/$ID`               |
-| Lieferschein (Aufgabe)    | `/report/html/forestry_timesheet.report_project_task_deliveryslip/$ID`          |
 
 ::: tip
-Bestimmte Bericht können mehere Dokumente anzeigen. Für die HTML-Anzeige können Sie die Dokument-IDs Komma-getrennt übergeben: /report/html/**stock.report_deliveryslip**/**3,4,5**
+Bestimmte Bericht können mehrere Dokumente anzeigen. Für die HTML-Anzeige können Sie die Dokument-IDs Komma-getrennt übergeben: /report/html/**stock.report_deliveryslip**/**3,4,5**
 :::
 
 ### Berichte als HTML anzeigen
 
 Alle von Odoo generierten Berichte können unter einer bestimmten URL als HTML angezeigt werden. Diese URL besteht aus dem technischen Berichtsnamen und der ID des anzuzeigenden Geschäftsobjekt. Dazu ein Beispiel anhand des Lieferscheins.
 
-Öffnen Sie einen Lieferschein via *Lager > Vorgänge > Transfers* und merken Sie sich die folgenden Elemente der angezeigeigten URL: /web#**id=3**&action=348&**model=stock.picking**&view_type=form&cids=1&menu_id=208
+Öffnen Sie einen Lieferschein via *Lager > Vorgänge > Transfers* und merken Sie sich die folgenden Elemente der angezeigten URL: /web#**id=3**&action=348&**model=stock.picking**&view_type=form&cids=1&menu_id=208
 
 Navigieren Sie nun zu **Einstellungen > Technisch > Aktionen > Berichte**. Filtern Sie die Liste nach dem *Name* des Berichts oder dem *Modellname*.
 
