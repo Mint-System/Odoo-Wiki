@@ -18,7 +18,11 @@ Alle internen Benutzer erhalten diese Rolle. Benutzer-Gruppen aus Apps werden st
 
 **Finanzen**
 
-Benutzer mit dieser Rolle erhalten Zugriff auf Finanz- und Personaldaten.
+Benutzer mit dieser Rolle erhalten Zugriff auf Finanzdaten.
+
+**Personal**
+
+Benutzer mit dieser Rolle erhalten Zugriff auf Personal- und Lohndaten.
 
 **Administratoren**
 
