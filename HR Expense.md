@@ -127,7 +127,7 @@ Bis #Odoo15 : Navigieren Sie nach *Auslagen > Auslagen Abrechnung > Alle Abrechn
 
 Ab #Odoo15 : Navigieren Sie nach *Aufwand > Auslagenberichte > Alle Berichte*.
 
-## Buchhhaltung
+## Buchhaltung
 
 ### Journalbuchung aus Spesenabrechnung neu erstellen
 
