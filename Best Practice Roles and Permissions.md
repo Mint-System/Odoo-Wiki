@@ -18,8 +18,12 @@ Alle internen Benutzer erhalten diese Rolle. Benutzer-Gruppen aus Apps werden st
 
 **Finanzen**
 
-Benutzer mit dieser Rolle erhalten Zugriff auf die Finanzen.
+Benutzer mit dieser Rolle erhalten Zugriff auf Finanz- und Personaldaten.
 
 **Administratoren**
 
 Benutzer mit dieser Rolle können Apps installieren und Einstellungen verwalten. Sie verwalten die Benutzerberechtigungen und haben vollen Zugriff auf das System.
+
+**Audit**
+
+Wenn Änderungen in den Benutzerberechtigungen protokolliert werden, dann dürfen die Protokolle nur von einem Auditor eingesehen und verwaltet werden. 
