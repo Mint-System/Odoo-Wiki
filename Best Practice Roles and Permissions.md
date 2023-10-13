@@ -26,4 +26,4 @@ Benutzer mit dieser Rolle können Apps installieren und Einstellungen verwalten.
 
 **Audit**
 
-Wenn Änderungen in den Benutzerberechtigungen protokolliert werden, dann dürfen die Protokolle nur von einem Auditor eingesehen und verwaltet werden. 
+Wenn Änderungen in den Benutzerberechtigungen protokolliert werden, dann dürfen die Protokolle nur von einem Auditor eingesehen und verwaltet werden.
