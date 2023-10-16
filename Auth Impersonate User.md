@@ -20,7 +20,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/aut
 
 Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und öffnen Sie einen Benutzer. Aktivieren Sie Berechtigung *Impersonate User*.
 
-### Mit einen anderen Benutzer einloggen
+### Mit einem anderen Benutzer einloggen
 
 Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer*, wählen Sie einen Benutzer aus und klicken Sie auf *Impersonate*. Sie werden anschliessend als den gewählten Benutzer eingeloggt.
 
