@@ -161,6 +161,12 @@ Damit E-Mail nach dem Versand nicht aus der Odoo-Datenbank und dem Postfach gel�
 
 Nach dem Versand der E-Mail können Sie die [E-Mail anzeigen](Discuss%20E-Mail.md#E-Mail%20anzeigen).
 
+## Testen
+
+### DKIM-Signatur verifizieren
+
+Öffnen Sie die Webapp <https://www.appmaildev.com/en/dkim/> und klicken Sie auf *Next Step*. Kopieren Sie die generierte E-Mail-Adresse und erstellen Sie in Odoo einen neuen Kontakt *DKIM*. Fügen Sie die E-Mail-Adresse dem Kontakt hinzu und verschicken Sie über den Chatter eine Nachricht. Kehren Sie zur Webapp zurück und prüfen Sie den generierten Bericht.
+
 ## Troubleshooting
 
 ### Bounce-Nachricht erhalten
