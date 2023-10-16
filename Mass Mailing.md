@@ -24,6 +24,7 @@ Website: <https://www.odoo.com/de_DE/app/email-marketing>
 | ---------------------------------------------------------------- | ---------------------------------------------- |
 | [Dynamic Mass Mailing Lists](Mass%20Mailing%20List%20Dynamic.md) | Mailingiste mit Kontakt-Liste synchronisieren. |
 | [Link partners with mass-mailing](Mass%20Mailing%20Partner.md)   | Mailinglisten-Kontakte und Kontakte verküpfen. |
+| [[Survey Send To List]]                                                                 |                                                |
 
 ## Abonnieren
 
