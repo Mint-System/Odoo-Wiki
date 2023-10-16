@@ -60,3 +60,7 @@ Dieses Ausgleichsmodell können im Abgleichsvorgang mit einem Knopfdruck anwende
 ### Buchungsatz von Vorgang aus Bankauszug anzeigen
 
 Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge* aus. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Öffnen Sie den Vorgang und wählen Sie *Buchungssatz*.
+
+### Währungsbetrag in Bankauszug korrigieren
+
+Zeigen Sie das Dashboard *Finanzen* an und wählen Sie für ein Bank-Journal *Kontext-Menü > Vorgänge*. Suchen Sie hier nach der Zeile mit dem falschen Währungsbetrag und öffnen Sie diese Zeile. Bearbeiten Sie den Betrag.
