@@ -53,11 +53,23 @@ Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Beweg
 
 ### Abstimmung durchführen
 
-Öffnen Sie die Übersicht der Journale via *Finanzen* und klicken auf den Knopf *Abstimmung X Positionen* des entsprechenden Journals.
+Öffnen Sie die Übersicht der Journale via *Finanzen* und klicken auf den Knopf *Abstimmung X Positionen* des entsprechenden Journals. Wählen Sie eine Konto-Bewegung aus und bestimmen Sie die zu verknüpfende Buchungszeile. Bestätigen Sie Abstimmung.
+
+::: tip
+Entfernen Sie den Partner-Filter, wenn die gesuchte Buchungszeile nicht vorhanden ist.
+:::
+
+### Abstimmung mit manueller Buchung durchführen
+
+Öffnen Sie die Übersicht der Journale via *Finanzen* und klicken auf den Knopf *Abstimmung X Positionen* des entsprechenden Journals. Wählen Sie eine Konto-Bewegung aus und zeigen Sie den Tab *Manuelle Abarbeitung* an. Erstellen Sie eine manuelle Buchung mit Journal, Konto und Buchungstext.
 
 ### Überfällige Forderungen abstimmen
 
 Navigieren Sie nach *Finanzen > FInanzen > Überfällige Forderungen* und erweitern Sie den Eintrag zu einem Partner. Wählen Sie Ausgleich und anschliessend den offenen Betrag. Erstellen Sie eine Gegenbuchung und schliessend Sie den Vorgang mit *Abstimmung* ab.
+
+### Buchungszeile abstimmen
+
+Zeigen Sie die Buchungszeilen *Finanzen > Finanzen > Buchungszeilen* an. Filtern Sie die Buchungszeilen nach nicht abgestimmt und markieren Sie die Buchungszeilen zur Abstimmung. Wählen Sie *Aktion > Abstimmen*. Wählen Sie die Gegenbuchung aus.
 
 ### Ausgleichsmodell erstellen
 
@@ -71,7 +83,7 @@ Dieses Ausgleichsmodell können im Abgleichsvorgang mit einem Knopfdruck anwende
 
 ### Buchungsatz von Vorgang aus Bankauszug anzeigen
 
-Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge* aus. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Öffnen Sie den Vorgang und wählen Sie *Buchungssatz*.
+Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge*. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Öffnen Sie den Vorgang und wählen Sie *Buchungssatz*.
 
 ### Währungsbetrag in Bankauszug korrigieren
 
