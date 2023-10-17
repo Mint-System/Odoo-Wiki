@@ -1,0 +1,25 @@
+---
+title: Entwicklung Website
+description: Website-Templates anpassen und erweitern.
+tags:
+- HowTo
+prev: ./development
+---
+# Entwicklung Snippets
+![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
+
+{{ $frontmatter.description }}
+
+## Verwendung
+
+### Ansicht anhand Website-Block suchen
+
+Von der Website gibt es keinen direkten Link zur Ansicht-Definition. Starten Sie den Entwicklermodus in ihrem Browser und wählen Sie ein Element aus für welches Sie die Ansicht finden wollen.
+
+![](attachments/Entwicklung%20Website%20Inspector.png)
+
+In diesem Beispiel wurde die CSS-Klasse `o_website_sale_subscription_pricing_id` gefunden. Suche Sie unter *Einstellungen > Technisch > Ansichten* im Feld *Arch Blob* nach dieser Klasse.
+
+![](attachments/Entwicklung%20Website%20Arch%20Blob.png)
+
+Sie erhalten im besten Fall ein Suchresultat. Diese Ansicht enthält die Definition für den Website-Block.
