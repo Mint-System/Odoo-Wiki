@@ -109,11 +109,13 @@ Auf Kontakten können Sie Warnungs-Text hinterlegen, welche bei der Ertellung ei
 
 Öffnen Sie *Abrechnung > Lieferanten > Rechnungen* und wählen Sie eine zu bezahlende Rechnung aus. Klicken Sie auf *Zahlung Registrieren*. Im Dialog wählen Sie das *Journal* und die *Zahlungsmethode* aus. Prüfen Sie die Angaben und wählen Sie *Zahlung Erstellen*.
 
-### Rechnungen digitalisieren
+### Guthaben für Rechnungsdigitalisierung kaufen
 
 Mit Odoo können PDF-Rechnung einfach gescannt und verarbeitet werden. Die Rechnungsdigitalisierung liest die Zahlungsinformationen aus dem PDF und erstellt eine Lieferantenrechnung.
 
 Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits können als In-App-Purchase (IAP) erworben werden. Klicken Sie auf *Einstellungen > Finanzen > Eingangsrechnungen > Guthaben kaufen*. Loggen Sie sich mit dem Odoo-Account ein und erwerben Sie ein IAP-Paket. Die Credits werden an ihrer Datenbank gut geschrieben und fortan steht der Digitalisierungsprozess zur Verfügung.
+
+### Rechnungen digitalisieren
 
 Zur Digitalisierung einer Rechnung laden Sie als erstes die PDF-Datei via *Finanzen > Lieferanten > Rechnungen > Hochladen* hoch. Öffnen Sie die Rechnung und starten Sie dann die Aktion *Send for digitalization*. Nach wenigen Sekunden sollte die Rechnungsangaben aus dem PDF ausgelesen und abgefüllt werden.
 
