@@ -16,9 +16,9 @@ prev: ./finance
 
 Um die Abstimmung für Buchungszeilen eines bestimmten Kontos zu erlauben, navigieren Sie nach *Finanzen > Konfiguration > Kontenplan*. Suchen Sie das bestimmte Konto und aktivieren Sie Option *Erlaube Abstimmung*.
 
-### Bankauszug
+## Bankauszug
 
-### Bankauszug erfassen
+### Bankauszug manuell erfassen
 
 Navigieren Sie nach *Finanzen* und klicken Sie auf das Bankjoural. Erfassen Sie einen neuen Bankauszug:
 
@@ -29,13 +29,25 @@ Navigieren Sie nach *Finanzen* und klicken Sie auf das Bankjoural. Erfassen Sie 
 
 Bestätigen Sie den Bankauszug.
 
+### Kontoauszug Raiffeisen erstellen
+
+Loggen Sie sich ins eBanking <https://ebanking.raiffeisen.ch> der Raiffeisen ein. Wählen Sie *Vermögen > Kontoauszug* und anschliessend *Download-Icon > Kontodaten-Download*.
+
+![](attachments/Finance%20Reconcile%20eBanking%20Kontodaten%20Raiffeisen.png)
+
+Im Dialog wählen Sie als Format XML (camt.053) und wenn möglich mit Details.
+
+![](attachments/Finance%20Reconcile%20Kontodaten-Download%20Raiffeisen.png)
+
+Klicken Sie auf *Herunterladen* und Sie erhalten eine Datei, die Sie in Odoo importieren können.
+
 ### Kontoauszug importieren
 
 Zeigen Sie das Dashboard von *Finanzen* an. Wählen Sie *Import* unter dem Name des Bankjournals. Laden Sie im Dialog die Datei mit den Kontoauszügen hoch.
 
 ![](attachments/Finanzen%20Kontoauszug%20importieren.png)
 
-Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Bewebungen wird angezeigt.
+Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Bewegungen wird angezeigt.
 
 ## Abstimmung
 
