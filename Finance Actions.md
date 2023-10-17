@@ -302,13 +302,13 @@ for invoice in invoice_ids:
 
 ## Automatische Aktionen
 
-### Lieferantenrechnung zum Überprüfen markieren
+### Lieferantenrechnung zur Prüfung markieren
 
 Mit dieser automatischen Aktion wird die Option *Zum Überprüfen* bei der Erstellung einer Lieferantenrechnung  aktiviert.
 
 Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
 
-Name der Aktion: `Lieferantenrechnung zum Überprüfen markieren`\
+Name der Aktion: `Lieferantenrechnung zur Prüfung markieren`\
 Modell: `account.move`\
 Auslöser: Bei Erstellung\
 Anzuwenden auf:
