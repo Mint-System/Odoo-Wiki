@@ -89,6 +89,12 @@ Zeigen Sie ein Unternehmenskontakt via *Kontakte* an. Im Tab *Kontakte & Adresse
 Ändern Sie den Typ von Unterkontakten nicht auf Unternehmen. Wird beispielsweise die Rechnungsadresse als Kontakt vom Typ Unternehmen festgelegt, erfolgt eine kommerzielle Trennung des Haupt- und Unterkonakt.
 :::
 
+### Kontakte anhand Stichwort filtern
+
+Navigieren Sie nach *Kontakte* und geben Sie das Stichwort im Feld *Suche* ein. Drücken Sie noch nicht <kbd>Enter</kbd>, sondern navigieren mit Pfeiltasten zur Auswahl *Suchen Stichwörter für:* und drücken Sie dann <kbd>Enter</kbd>
+
+![](attachments/Partner%20Search%20Tags.png)
+
 ### Bezeichnung Umsatzsteuer festlegen
 
 Wenn keine Bezeichnung für die Umsatzsteuer festgelegt ist, verwendet Odoo *Tax ID*. Das ist beispielsweise im Footer eines Dokuments ersichtlich.
