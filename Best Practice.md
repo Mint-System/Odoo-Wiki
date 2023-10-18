@@ -95,7 +95,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 ### Kontakte
 
-* [Kontakte](Best%20Practice%20Contacts.md)
+* [Verwaltung Kontakte](Best%20Practice%20Contacts%20Management.md)
 * [Incoterms](Best%20Practice%20Incoterms.md)
 
 ### Einstellungen
