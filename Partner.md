@@ -91,7 +91,7 @@ Zeigen Sie ein Unternehmenskontakt via *Kontakte* an. Im Tab *Kontakte & Adresse
 
 ### Kontakte anhand Stichwort filtern
 
-Navigieren Sie nach *Kontakte* und geben Sie das Stichwort im Feld *Suche* ein. Drücken Sie noch nicht <kbd>Enter</kbd>, sondern navigieren mit Pfeiltasten zur Auswahl *Suchen Stichwörter für:* und drücken Sie dann <kbd>Enter</kbd>
+Navigieren Sie nach *Kontakte* und geben Sie das Stichwort im Feld *Suche* ein. Drücken Sie noch nicht <kbd>Enter</kbd>, sondern navigieren mit Pfeiltasten zur Auswahl *Suchen Stichwörter für:* und drücken Sie dann <kbd>Enter</kbd>.
 
 ![](attachments/Partner%20Search%20Tags.png)
 
