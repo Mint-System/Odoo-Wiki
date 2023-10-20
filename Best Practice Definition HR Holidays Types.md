@@ -1,15 +1,15 @@
 ---
-title: Abwesenheitstypen
+title: Definition Abwesenheitstypen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Abwesenheitstypen
+# Definition Abwesenheitstypen
 
-## Ferien als Abwesenheitsypen abbilden
+## Urlaub als Abwesenheitsypen abbilden
 
-Wir empfehlen, dass Sie für jedes jährliche Feriensaldo einen [Abwesenheitstypen erfassen](HR%20Holidays.md#Abwesenheitstypen%20erfassen).
+Wir empfehlen, dass Sie für jedes jährliche Urlaubssaldo einen [Abwesenheitstyp erfassen](HR%20Holidays.md#Abwesenheitstypen%20erfassen).
 
 | Name        | Von        | Bis        |
 | ----------- | ---------- | ---------- |
