@@ -48,7 +48,13 @@ Standardmässig zeigt Odoo 80 Einträge auf einer Listenseite an. Diese Einstell
 
 ![](attachments/Navigation%20Versteckte%20Spalten.png)
 
-Odoo merkt sich die Einstellungen für ihren Benuzter und zeigt beim Aufruf der Listenansicht die Spalten wie gewählt an.
+Odoo merkt sich die Einstellungen für ihren Benutzer und zeigt beim Aufruf der Listenansicht die Spalten wie gewählt an.
+
+### Archivierte Einträge anzeigen
+
+Bestimmte Einträge wie Kontakte oder Produkte können archiviert und so ausgeblendet werden. Um die archivierten Einträge anzuzeigen rufen Sie die entsprechende Listen-Ansicht auf und wählen *Filter > Archiviert*. Es werden alle archivierten Einträge angezeigt.
+
+![](attachments/Navigation%20Archivierte%20Einträge.png)
 
 ## Dashboard
 
