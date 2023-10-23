@@ -40,6 +40,7 @@ prev: ./
 | [Partner Secondary Name](Partner%20Secondary%20Name.md)                                           | Zweitname für Unternehmen.                                        |
 | [Partner Type Order](Partner%20Type%20Order.md)                                                   | Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.     |
 | [Partner Type Sale](Partner%20Type%20Sale.md)                                                     | Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.    |
+| [Base Country Sequence](Base%20Country%20Sequence.md)                                             | Länder-Liste manuell sortieren.                                                                  |
 
 ## Portal
 
