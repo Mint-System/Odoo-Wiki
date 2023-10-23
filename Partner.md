@@ -21,6 +21,7 @@ prev: ./
 
 | Erweiterung                                                                                       | Beschreibung                                                      |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| [Base Country Sequence](Base%20Country%20Sequence.md)                                             | Länder-Liste manuell sortieren.                                   |
 | [Base Partner Sequence](Base%20Partner%20Sequence.md)                                             | Sequenz auf Kundenreferenz.                                       |
 | [Contact Birthdate](Contact%20Birthdate.md)                                                       | Geburtstag bei Kontakten speichern für tolle Erinnerungen.        |
 | [Partner Bank Code](Partner%20Bank%20Code.md)                                                     | Eindeutige Nummer auf Bank festlegen.                             |
@@ -40,7 +41,6 @@ prev: ./
 | [Partner Secondary Name](Partner%20Secondary%20Name.md)                                           | Zweitname für Unternehmen.                                        |
 | [Partner Type Order](Partner%20Type%20Order.md)                                                   | Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.     |
 | [Partner Type Sale](Partner%20Type%20Sale.md)                                                     | Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.    |
-| [Base Country Sequence](Base%20Country%20Sequence.md)                                             | Länder-Liste manuell sortieren.                                                                  |
 
 ## Portal
 
