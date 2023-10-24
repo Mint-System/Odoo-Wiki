@@ -36,9 +36,9 @@ Website: <https://www.odoo.com/de_DE/app/website>
 
 ### Registration erlauben
 
-Navigieren Sie nach *Einstellungen > Bwebsite > Berechtigung* und wählen Sie eine Option bei *Kundenkonto* aus:
+Navigieren Sie nach *Einstellungen > Website > Berechtigung* und wählen Sie eine Option bei *Kundenkonto* aus:
 
-* **Auf Einladung**: Portal-Benutzer müssen eigeladen werden, damit Sie Zugriff erhalten
+* **Auf Einladung**: Portal-Benutzer müssen eingeladen werden, damit Sie Zugriff erhalten
 * **Kostenlose Anmeldung**: Benutzer können sich selber im Portal registrieren.
 
 ### Zugriff Menu beschränken

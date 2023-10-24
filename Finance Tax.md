@@ -38,7 +38,7 @@ Wird der entsprechende Steuersatz auf der Rechnungszeile verwendet, wird die MWS
 * **Bezeichnung auf Rechnungen**: 8.1%
 * **Steuergruppe**: MwSt. 8.1%
 
-### Steuersätze anpassen
+### Steuersatz anpassen
 
 Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern*. Hier werden alle Steuersätze festgelegt. Öffnen Sie einen Eintrag und passen Sie diese Felder an:
 

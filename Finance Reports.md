@@ -82,6 +82,10 @@ Wenn Sie die Ausgaben des Umsatzsteuerberichts prüfen, müssen Sie beachten, da
 
 Der Umsatzsteuerbericht wird in regelmässigen Abständen generiert. Die Einstellung dazu finden Sie unter *Einstellungen > Finanzen > Steuern > regelmässige Steuernrückzahlungen*.
 
+### Umsatzsteuerbericht nach Steuersatz anzeigen
+
+Klicken Sie auf *Finanzen > Berichtswesen > Prüfungsberichte > Umstatzsteuerbericht* und anschliessend wählen Sie den Filter *Bericht: Gruppieren nach: Steuern > Konto*.
+
 ### Abgeschlossene Umsatzsteuerberichte anzeigen
 
 Zeigen Sie *Finanzen > Finanzen > Buchungssätze* an und wählen Sie *Gruppieren nach > Benutzerdefinierte Gruppe hinzufügen* und wählen Sie *Tax Closing End Date* aus. Nun werden alle Buchungssätze mit einem Mehrwersteuer Bericht angezeigt. Wählen Sie einen Buchungssatz aus und klicken Sie auf den Smart-Link *Umsatzsteuerbericht*.
