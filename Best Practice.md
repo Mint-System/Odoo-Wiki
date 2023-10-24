@@ -15,8 +15,8 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 ### Abwesenheit
 
-* [Abwesenheitstypen](Best%20Practice%20HR%20Holidays%20Types.md)
-* [Abwesenheit](Best%20Practice%20Attendance.md)
+* [Definition Abwesenheitstypen](Best%20Practice%20Definition%20HR%20Holidays%20Types.md)
+* [Setup Abwesenheit](Best%20Practice%20Setup%20Attendance.md)
 * [Arbeitszeiten und Urlaubsansprüche](Best%20Practice%20Working%20Times%20and%20Holiday%20Allocations.md)
 * [Ferien- und Überstundensaldo](Best%20Practice%20Holiday%20and%20Vacation%20Balance.md)
 
@@ -55,6 +55,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Devisenhandel](Best%20Practice%20Foreign%20Exchange.md)
 * [Buchung Zahlungsdifferenzen](Best%20Practice%20Posting%20Payment%20Differences.md)
 * [Kreditkartenabrechnung](Best%20Practice%20Creditcard%20Payment.md)
+* [Migration Buchhaltung](Best%20Practice%20Accounting%20Migration.md)
 
 ### Personalabrechung
 
@@ -95,7 +96,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 ### Kontakte
 
-* [Kontakte](Best%20Practice%20Contacts.md)
+* [Verwaltung Kontakte](Best%20Practice%20Contacts%20Management.md)
 * [Incoterms](Best%20Practice%20Incoterms.md)
 
 ### Einstellungen

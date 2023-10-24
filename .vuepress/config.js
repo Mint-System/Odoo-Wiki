@@ -1,8 +1,9 @@
 import { defaultTheme } from 'vuepress'
-import { searchPlugin } from '@vuepress/plugin-search'
 import { plausiblePlugin } from './plausible'
 import { defineUserConfig } from 'vuepress'
 import sidebar from './sidebar'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 
 
 export default defineUserConfig({
@@ -33,8 +34,13 @@ export default defineUserConfig({
         }
     }),
     plugins: [
-        searchPlugin({
-            maxSuggestions: 20
+        // searchPlugin({
+        //     maxSuggestions: 20
+        // }),
+        docsearchPlugin({
+            appId: '3RXF11ZPBA',
+            apiKey: '541477132dec8df8d1b72f17c60b8a7a',
+            indexName: 'odoo-org',
         }),
         plausiblePlugin({
             'domain': 'odoo-wiki.org'

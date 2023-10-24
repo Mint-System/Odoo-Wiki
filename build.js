@@ -384,11 +384,27 @@ if (!firstArg || ['all', 'sitemap'].indexOf(firstArg) > 0) {
     content = []
     loopMdFiles().forEach((file) => {
         href = sanitizeName(file.replace('\.md', ''))
-        content.push(`${scheme}${hostname}${basePath}${href}${uriSuffix}\n`)
+        loc = `${scheme}${hostname}${basePath}${href}${uriSuffix}`
+        stats = fs.statSync(file)
+        date = new Date(stats.mtime)
+        lastmod = date.toISOString().substring(0, 10)
+
+        content.push(`<url>
+<loc>${loc}</loc>
+<lastmod>${lastmod}</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>`)
     })
+
+    xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${content.join('\n')}
+</urlset> 
+    `
     
     // write content to index file
-    fs.writeFileSync('.vuepress/public/sitemap.txt', content.join(''), 'utf8')
+    fs.writeFileSync('.vuepress/public/sitemap.xml', xml, 'utf8')
 
     // log
     console.log('Building sitemap finished.')

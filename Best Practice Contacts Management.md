@@ -1,11 +1,11 @@
 ---
-title: Kontakte
+title: Verwaltung Kontakte
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Kontakte
+# Verwaltung Kontakte
 
 Odoo unterscheidet *Einzelperson* und *Unternehmen*. Eine Person kann einem Unternehmen zugeordnet werden. Einem Unternehmen können mehrere Personen zugeordnet werden.
 

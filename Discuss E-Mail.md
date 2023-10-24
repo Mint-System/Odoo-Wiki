@@ -17,7 +17,7 @@ prev: ./discuss
 Wenn Sie alle von Odoo gesendeten E-Mails anzeigen möchten, navigieren Sie nach *Einstellungen > Technisch > Nachrichten* und nehmen in der Suche diese Einstellung vor:
 
 * Gruppiert: *Datum: Monat > Datum: Woche > Datum: Tag*
-* Filter: Typ ist "E-MAil"
+* Filter: Typ ist *E-Mail*
 
 ![](attachments/Diskussion%20E-Mail%20Empfang.png)
 
@@ -35,11 +35,11 @@ Wenn Sie alle von Odoo verarbeiteten E-Mails anzeigen möchten, navigieren Sie n
 
 ### E-Mail-Vorlagen anzeigen
 
-Odoo verwaltet alle E-mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > Vorlagen*.
+Odoo verwaltet alle E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > Vorlagen*.
 
-### E-Mail-Vorlagen verwalten
+### E-Mail-Vorlage duplieren
 
-Zu jedem Geschäftsobjekt können E-Mail-Vorlagen mit Parameter angelegt werden. Navigieren Sie nach *Einstellungen > Technisch > Vorlagen* um die bestehenden E-Mail-Vorlagen anzuzeigen.
+Navigieren Sie nach *Einstellungen > Technisch > Vorlagen* und suchen Sie in der Liste nach der zu duplizierenden E-Mail-Vorlage. Öffnen Sie diese und wählen Sie *Aktion > Duplizieren*.
 
 ### E-Mail-Vorlage erfassen
 
@@ -86,6 +86,10 @@ Wenn Sie beim Aufruf der Mail-Voralge einen Bericht als Hinzufügen möchten, ru
 ::: tip
 Im Feld *Report Dateiname* können Sie einen alternativen Dateinamen für den Anhang definieren.
 :::
+
+### Mail-Server auf E-Mail-Vorlage festlegen
+
+Zeigen Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > E-mail > Vorlagen* an und öffen Sie den Tab *Erweiterte Einstellungen*. Im Feld *Postausgangsserver* wählen Sie den entsprechenden Mail-Server aus.
 
 ## Testen
 

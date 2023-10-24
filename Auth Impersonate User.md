@@ -14,15 +14,21 @@ prev: ./settings-login
 Technischer Name: `auth_impersonate_user`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/auth_impersonate_user>
 
-## Verwendung
+## Konfiguration
 
 ### Berechtigung zum Einloggen als anderen Benutzer vergeben
 
 Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und öffnen Sie einen Benutzer. Aktivieren Sie Berechtigung *Impersonate User*.
 
-### Mit einen anderen Benutzer einloggen
+## Verwendung
+
+### Mit einem anderen Benutzer einloggen
 
 Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer*, wählen Sie einen Benutzer aus und klicken Sie auf *Impersonate*. Sie werden anschliessend als den gewählten Benutzer eingeloggt.
+
+::: tip
+Sie können sich so auch als Portal-Benutzer einloggen.
+:::
 
 ### Impersonierung beenden
 

@@ -14,9 +14,9 @@ Website: <https://www.odoo.com/de_DE/app/expenses>
 
 ## Bereiche
 
-| Bereich                                                 | Beschreibung                             |
-| ------------------------------------------------------- | ---------------------------------------- |
-| [Aufwand Aktionen](HR%20Expense%20Actions.md)       | Aktionen für Aufwand App einrichten. |
+| Bereich                                       | Beschreibung                         |
+| --------------------------------------------- | ------------------------------------ |
+| [Aufwand Aktionen](HR%20Expense%20Actions.md) | Aktionen für Aufwand App einrichten. |
 
 ## Erweiterungen
 
@@ -126,6 +126,12 @@ Ab #Odoo15 : Navigieren Sie nach *Aufwand > Auslagenberichte > Berichte zu zahle
 Bis #Odoo15 : Navigieren Sie nach *Auslagen > Auslagen Abrechnung > Alle Abrechnungen*.
 
 Ab #Odoo15 : Navigieren Sie nach *Aufwand > Auslagenberichte > Alle Berichte*.
+
+## Buchhaltung
+
+### Journalbuchung aus Spesenabrechnung neu erstellen
+
+Um die Journalbuchung einer Spesenabrechnung neu zu erstellen, zeigen Sie eine Spesenabrechnung unter *Spesenabrechnung > Spesenabrechnungen* an. Klicken Sie auf den Smart-Link *Journalbuchung* und setzen Sie diese zurück. Kehren Sie auf die Spesenabrechnung zurücke und wählen Sie *Auf Entwurf Zurücksetzen*. Genehmigen Sie die Spesenabrechnung und wählen Sie *Journalbuchung Buchen*. Nun erstellt Odoo die Lieferantenrechnung neu.
 
 ## Berechtigungen
 

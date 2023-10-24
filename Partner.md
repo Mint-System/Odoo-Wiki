@@ -21,6 +21,7 @@ prev: ./
 
 | Erweiterung                                                                                       | Beschreibung                                                      |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| [Base Country Sequence](Base%20Country%20Sequence.md)                                             | Länder-Liste manuell sortieren.                                   |
 | [Base Partner Sequence](Base%20Partner%20Sequence.md)                                             | Sequenz auf Kundenreferenz.                                       |
 | [Contact Birthdate](Contact%20Birthdate.md)                                                       | Geburtstag bei Kontakten speichern für tolle Erinnerungen.        |
 | [Partner Bank Code](Partner%20Bank%20Code.md)                                                     | Eindeutige Nummer auf Bank festlegen.                             |
@@ -88,6 +89,12 @@ Zeigen Sie ein Unternehmenskontakt via *Kontakte* an. Im Tab *Kontakte & Adresse
 ::: warning
 Ändern Sie den Typ von Unterkontakten nicht auf Unternehmen. Wird beispielsweise die Rechnungsadresse als Kontakt vom Typ Unternehmen festgelegt, erfolgt eine kommerzielle Trennung des Haupt- und Unterkonakt.
 :::
+
+### Kontakte anhand Stichwort filtern
+
+Navigieren Sie nach *Kontakte* und geben Sie das Stichwort im Feld *Suche* ein. Drücken Sie noch nicht <kbd>Enter</kbd>, sondern navigieren mit Pfeiltasten zur Auswahl *Suchen Stichwörter für:* und drücken Sie dann <kbd>Enter</kbd>.
+
+![](attachments/Partner%20Search%20Tags.png)
 
 ### Bezeichnung Umsatzsteuer festlegen
 

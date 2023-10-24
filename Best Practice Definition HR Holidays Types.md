@@ -1,15 +1,15 @@
 ---
-title: Abwesenheitstypen
+title: Definition Abwesenheitstypen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Abwesenheitstypen
+# Definition Abwesenheitstypen
 
-## Ferien als Abwesenheitsypen abbilden
+## Urlaub als Abwesenheitsypen abbilden
 
-Wir empfehlen, dass Sie für jedes jährliche Feriensaldo einen [Abwesenheitstypen erfassen](HR%20Holidays.md#Abwesenheitstypen%20erfassen).
+Wir empfehlen, dass Sie für jedes jährliche Urlaubssaldo einen [Abwesenheitstyp erfassen](HR%20Holidays.md#Abwesenheitstypen%20erfassen).
 
 | Name        | Von        | Bis        |
 | ----------- | ---------- | ---------- |
@@ -25,7 +25,7 @@ und die [Urlaubsansprüche exportieren](HR%20Holidays%20Data%20Management.md#Url
 
 Damit Mitarbeitende ihre Abwesenheiten sauber erfassen können, empfehlen wir diese Typen als Standard:
 
-| Name                   | Genehmigung Abwesenheit     | Genehmeigung Anspruch |
+| Name                   | Genehmigung Abwesenheit     | Genehmigung Anspruch |
 | ---------------------- | --------------------------- | --------------------- |
 | Ausgleichstage         | Genehmiger des Mitarbeiters | Abwesenheitsmanager   |
 | Berufschule            | Genehmiger des Mitarbeiters | Keine                 |
@@ -42,7 +42,7 @@ Damit Mitarbeitende ihre Abwesenheiten sauber erfassen können, empfehlen wir di
 | Unfall                 | Genehmiger des Mitarbeiters | Keine                 |
 | Vaterschaft            | Genehmiger des Mitarbeiters | Keine                 |
 | Weiterbildung          | Genehmiger des Mitarbeiters | Keine                 |
-| Überstundensaldo       | Keine                       | ABwesenheitsmanager   |
+| Überstundensaldo       | Keine                       | Abwesenheitsmanager   |
 
 ## Feiertagssaldo
 

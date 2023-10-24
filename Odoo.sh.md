@@ -84,6 +84,10 @@ Nun wird das Submodule und die darin enthaltenen Module auf der Staging-Umgebung
 Um die Submodule zu aktualisieren, müssen Sie das Odoo.sh Projekt als Git-Repository auschecken und die Git-Referenzen auf die Submodule aktualisieren. 
 :::
 
+### Modul-Code bearbeiten
+
+Auf den Staging- und Entwicklungsbranches kann der Code von Modulen direkt bearbeitet werden. Wählen Sie einen Branch aus und klicken Sie auf *Editor*. Nun öffnet sich in einem neues Fenster *JupyterLab*. Navigieren Sie nach `/src/user`. Hie finden Sie den Modul-Code aus dem GitHub-Repository. 
+
 ## Berechtigungen
 
 ### Projekt mit Github-Benutzer teilen
