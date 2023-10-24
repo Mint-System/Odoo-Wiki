@@ -23,7 +23,8 @@ Name der Aktion: `BoM Komponenenten`\
 Objekt: `mrp.bom.line`\
 Ansichtsreferenz: Gemäss Angaben\
 Wertebereich: Gemäss Angaben\
-Wert aus Kontext: Gemäss Angaben
+Wert aus Kontext: Gemäss Angaben\
+Ansichten: Gemäss Angaben
 
 Navigieren Sie nach *Einstellungen > Technisch > Benutzer-Interface > Menüposten* und erstellen Sie einen neuen Eintrag:
 

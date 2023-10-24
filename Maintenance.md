@@ -37,3 +37,42 @@ Navigieren Sie nach *Wartung > Inventar* und erstellen Sie einen neuen Eintrag. 
 ### Wartungsanfrage manuell erstellen
 
 Navigieren Sie nach *Wartung > Wartung > Wartungsanfragen* und erstellen Sie einen neuen Eintrag. 
+
+## Entwicklung
+
+### Ansicht Prüf- und Messmittel erstellen
+
+Erstellen Sie eine neue Ansicht gemäss [Ansicht erstellen](Develpment%20Views.md#Ansicht%20erstellen) mit diesen Attributen:
+
+**Ansichtsbezeichnung**: `mint_system.maintenance.hr_equipment_view_tree.calibration_overview`
+**Modell**: `maintenance.equipment`\
+**Sequenz**: `50`\
+**Ansichtstyp**: `tree`\
+**Architektur**:
+
+```xml
+<tree>
+	<field name="name"/>
+	<field name="owner_user_id" string="Owner" invisible="1"/>
+	<field name="x_lead_time_recovery_work" optional="show"/>
+	<field name="x_calibrated_until"/>
+	<field string="Action required on" name="x_date_action_required" widget="badge" optional="show"/>
+	<field name="x_schedule_date" widget="date" optional="show"/>
+	<field name="x_next_maintenance_request" optional="show"/>
+	<field name="x_maintenance_kind_id" optional="show"/>
+	<field name="x_stage_id" optional="show"/>
+	<field string="Responsible" name="technician_user_id"/>
+</tree>
+```
+
+
+Folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+
+Name der Aktion: `Prüf- und Messmittel`\
+Objekt: `maintenance.equipment`\
+Ansichtsmodus: `tree,form`\
+Menü: `Prüf- und Messmittel`\
+Obermenü: `Verkauf/Aufträge`\
+Aktion: `ir.actions.act_window` `Prüf- und Messmittel`\
+Nummernfolge: `10`\
+Ansichten: `tree` `mint_system.maintenance.hr_equipment_view_tree.calibration_overview`
