@@ -70,13 +70,31 @@ In der Liste der Verkaufsaufträge können Sie die Einträge markieren und *Akti
 
 ## Automatische Aktionen
 
-### Bestellung bestätigen und Rechnungen erstellen
+### Angebot automatisch bestätigen
+
+Mit dieser automatischen Aktion wird ein Angebot mit einem bestimmten Attribut (Beispiel: `partner_id.address_checked`) automatisch bestätigt.
+
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
+
+Name der Aktion: `Angebot automatisch bestätigen`\
+Modell: `sale.order`\
+Auslöser: Bei Erstellung und Aktualisierung\
+Trigger-Felder: `partner_id`\
+Abgrenzung vor Aktualisierung: `[("partner_id.address_checked", "!=", True)]`\
+Anzuwenden auf: `[("partner_id.address_checked", "=", True)]`\
+Python Code:
+
+```python
+records.action_confirm()
+```
+
+### Angebot bestätigen und Rechnungen erstellen
 
 Mit dieser automatischen Aktion wird ein Angebot mit einem bestimmten Attribut (Beispiel: `x_as4import`) automatisch bestätigt. Rechnungen werden erstellt und ebenfalls bestätigt.
 
 Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
 
-Name der Aktion: `Bestellung bestätigen und Rechnungen erstellen`\
+Name der Aktion: `Angebot bestätigen und Rechnungen erstellen`\
 Modell: `sale.order`\
 Auslöser: Bei Erstellung und Aktualisierung\
 Trigger-Felder: `x_as4import`\
