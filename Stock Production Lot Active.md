@@ -39,7 +39,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 # Get all lots including archived
-lot_ids = env['stock.lot'].search([]).with_context(active_test=False)
+lot_ids = env['stock.lot'].with_context(active_test=False).search([])
 
 # Get active lots with zero or less quantity
 archive_lots = lot_ids.filtered(lambda l: l.active is True and l.product_qty <= 0.0)
@@ -51,6 +51,8 @@ if archive_lots:
 
 # Search for archived lots with product qty 1 or greater
 unarchive_lots = lot_ids.filtered(lambda l: l.active is False and l.product_qty > 0.0)
+
+# raise Warning(unarchive_lots.mapped('name'))
 
 # Unarchive filtered lots
 if unarchive_lots:
