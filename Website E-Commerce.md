@@ -1,11 +1,11 @@
 ---
-title: Website eCommerce
+title: Website E-Commerce
 description: Webshop ohne Integrationsaufwand.
 tags:
 - HowTo
 prev: ./
 ---
-# Website eCommerce
+# Website E-Commerce
 ![](attachments/icons_odoo_website_sale.png)
 
 {{ $frontmatter.description }}
@@ -20,6 +20,7 @@ Website: <https://www.odoo.com/de_DE/app/ecommerce>
 | [Payment Saferpay](Payment%20Saferpay.md)                                                 | Zahlungsanbieter für Saferpay (ohne Zahlungstokens).                 |
 | [Sale Subscription Disable Tokenization](Sale%20Subscription%20Disable%20Tokenization.md) | Abonnements mit Zahlungsanbieter ohne wiederkehrende Zahlung kaufen. |
 | [Website Berichte](Website%20Berichte.md)                                                 | Verkaufszahlen analysieren.                                          |
+| [Website Sale Firstname](Website%20Sale%20Firstname.md)                                   | Vor- und Nachname auf Adressformular.                                |
 | [Website Sale Float Qty](Website%20Sale%20Float%20Qty.md)                                 | Teilmengen von Produkten in Webshop bestellen.                       |
 | [Website Shop Coupons](Website%20Shop%20Coupons.md)                                       | Website Coupons & Gutscheine im Odoo Shop.                           |
 

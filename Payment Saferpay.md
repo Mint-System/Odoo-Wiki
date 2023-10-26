@@ -4,7 +4,7 @@ description: Zahlungsanbieter für Saferpay (ohne Zahlungstokens).
 tags:
 - HowTo
 - Drittanbieter
-prev: ./website-ecommerce
+prev: ./website-e-commerce
 ---
 
 # Saferpay Payment Gateway

@@ -4,7 +4,7 @@ description: Abonnements mit Zahlungsanbieter ohne wiederkehrende Zahlung kaufen
 tags:
 - HowTo
 - Drittanbieter
-prev: ./website-ecommerce
+prev: ./website-e-commerce
 ---
 
 # Sale Subscription Disable Tokenization

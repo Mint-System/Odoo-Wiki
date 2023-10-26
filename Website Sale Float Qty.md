@@ -4,7 +4,7 @@ description: Teilmengen von Produkten in Webshop bestellen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./website-ecommerce
+prev: ./website-e-commerce
 ---
 
 # Website Sale Float Qty

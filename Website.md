@@ -18,8 +18,8 @@ Website: <https://www.odoo.com/de_DE/app/website>
 | ------------------------------------------- | -------------------------------------------------------------- |
 | [Website Aktionen](Website%20Actions.md)    | Automatisierung der Website-Vorgänge.                          |
 | [Website Partner](Website%20Partner.md)     | Partner auf Website publizieren.                               |
-| [Website eCommerce](Website%20eCommerce.md) | Webshop ohne Integrationsaufwand.                              |
-| [Verkauf True](Sale%20Loyalty.md)           | Kundentreue mit Rabatten, Coupons und Geschenkkarten belohnen. |
+| [Website E-Commerce](Website%20E-Commerce.md) | Webshop ohne Integrationsaufwand.                              |
+| [Verkauf Treue](Sale%20Loyalty.md)           | Kundentreue mit Rabatten, Coupons und Geschenkkarten belohnen. |
 
 ## Erweiterungen
 

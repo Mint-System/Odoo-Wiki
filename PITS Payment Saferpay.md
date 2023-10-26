@@ -4,7 +4,7 @@ description: Saferpay Payment Provider Plugin von PIT Solutions.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./website-ecommerce
+prev: ./website-e-commerce
 ---
 
 # PITS Payment Saferpay
