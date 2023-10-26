@@ -74,7 +74,6 @@ IBAN: CH35 0900 0000 85105462 4\
 Bank: Postfinance AG\
 BIC: POFICHBEXXX
 
-
 ### Dateien
 
 Camt.053 für Import Kontoauszug: [camt053_example](https://raw.githubusercontent.com/Mint-System/Odoo-Wiki/master/assets/camt053_example.xml)[](attachments/camt053_example.xml)
@@ -165,46 +164,61 @@ Informationen eines Kunden dürfen auf den Bildern nicht sichtbar sein.
 
 ## Struktur
 
-Für jede Odoo-App existiert eine Seite. Beispielsweise gibt es die Seite [Notizen](Note.md) für die Notiz-App. Auf dieser Seite werden Abläufe aus Kundensicht beschrieben. Dazu existiert diese Vorlage:
+Für jede Odoo-App existiert eine Seite. Beispielsweise gibt es die Seite [Notizen](Note.md) für die Notiz-App. Der folgende Markdown-Code ist eine Zusammenfassung alle verwendbaren Blöcke in einer Seite:
 
-**Appname.md**
+**App Name.md**
 
 ```markdown
+---
+title: App Name
+description: Description about the App.
+tags:
+- HowTo
+- OCA
+- Best-Practice
+- Drittanbieter
+prev: ./finance
+---
 ## Appname
 ![](/assets/icon.png)
 
-Informationen zur App
+{{ $frontmatter.description }}
+
+Website: <https://www.odoo.com/de_DE/app/accounting>\
+Technischer Name: `account_financial_report_reverse_move_lines`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/15.0/account_financial_report_reverse_move_lines>
 
 ## Bereiche
 
-| Bereich  | Beschreibung |
+| Bereich | Beschreibung |
 | --- | --- |
-| [Appname Stammdaten](Appname%20Stammdaten.md) | Daten zentral pflegen. |
+| [App Name Stammdaten](Appname%20Stammdaten.md) | Daten zentral pflegen. |
 
 ## Erweiterungen
 
-| Bereich  | Beschreibung |
+| Erweiterung | Beschreibung |
 | --- | --- |
-| [Appname Erweiterung](Appname%Erweiterung.md) | App erweitern. |
+| [App Name Erweiterung](Appname%Erweiterung.md) | App erweitern. |
 
-## Abschnitt
+## Beschreibung
 
-### Aufgabenbeschreibung
-Aufgabenträger: ![](Rollen#Rollenname)
+Summary of the App.
 
-Beschreibung zur Interaktion mit der App
+## Section
+
+### Object action
+
+The actual HowTo content.
 
 ```
 
 ### Unterseiten
 
-Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist die App Fertigung sehr umfangreich. Deshalb kann die App in Unterseiten (Bereiche) aufgeteilt werden.
-
-* [Manufacture](Manufacture.md)
+Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist die App [Fertigung](Manufacture.md) sehr umfangreich. Deshalb kann die App in Unterseiten (Bereiche) aufgeteilt werden.
 
 | Bereich                                         | Beschreibung                                   |
 | ----------------------------------------------- | ---------------------------------------------- |
-| [Manufacture Data Management](Manufacture%20Data%20Management.md) | Produkte und Dienstleistungen zentral pflegen. |
+| [Fertigung Datenmanagement](Manufacture%20Data%20Management.md) | Produkte und Dienstleistungen zentral pflegen. |
 
 Die Bereiche bzw. Unterseite werden in der Hauptseite aufgelistet.
 
@@ -216,15 +230,6 @@ Dokumentation zu den OCA-Apps müssen diese Vorgaben erfüllen:
 * Standard OCA-Icon
 * Titel ist gleich dem Titel im Repository
 * Repository-Link zeigt auf die aktuellste Version
-
-### Namensbereiche
-
-Die foglenden Namensbereiche sind reserviert:
-
-* Prozess
-* Best-Practice
-* Odoo-App
-* OCA-App
 
 ## Tags
 
