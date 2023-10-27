@@ -73,7 +73,13 @@ Für Steuersätze von eingehenden Rechnungen verwenden Sie das Vorsteuerkonto 11
 
 Klicken Sie auf *Einstellungen > Finanzen > Steuern > Konfigurieren der Steuerkonten*. Hier können Sie die Konten pro Steuersatz für die Bezahlung der Mehrwertsteuer hinterlegen.
 
-![](attachments/Finanzen%20Mehrwertsteuer%20Abrechnung.png)
+| Name       | Tax Payable Account    | Tax Receivable Account |
+| ---------- | ---------------------- | ---------------------- |
+| MwSt. 0%   | 2201 Zu zahlende MwSt. | 2201 Zu zahlende MwSt. |
+| MwSt. 2,5% | 2201 Zu zahlende MwSt. | 2201 Zu zahlende MwSt. |
+| MwSt. 3,7% | 2201 Zu zahlende MwSt. | 2201 Zu zahlende MwSt. |
+| MwSt. 7,7% | 2201 Zu zahlende MwSt. | 2201 Zu zahlende MwSt. |
+| MwSt. 100% | 2201 Zu zahlende MwSt. | 2201 Zu zahlende MwSt. |
 
 ::: tip
 Normalerweise werden in den Spalten *Steuer aktuelles Konto (bezahlen)* und *Steuer aktuelles Konto (empfangen)* das Konto *2201 Abrechnungskonto MWST* hinterlegt.
@@ -167,7 +173,9 @@ Das Menü *Konten-Tags* wird nur im Entwicklermodus angezeigt. Um das Verhalten 
 
 ### Steuergruppen anzeigen
 
-Damit Sie eine Übersicht der Steuergruppen erhalten,müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüposten* einen neuen Eintrag anlegen.
+Ab #Odoo15 : Navigieren Sie nach *Finanzen > Konfiguration > Steuergruppen*.
+
+Bis #Odoo15: Damit Sie eine Übersicht der Steuergruppen erhalten,müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüposten* einen neuen Eintrag anlegen.
 
 Menü: `Steuergruppen`\
 Obermenü: `Finanzen/Konfiguration/Finanzen`\

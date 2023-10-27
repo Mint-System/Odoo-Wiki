@@ -45,6 +45,14 @@ Der Obsidian Vault und das Git Repository werden mit dem Obisidian Git Plugin sy
 
 Das Odoo Wiki hat zum Ziel den Anwender eine einfache und kompakte Hilfestellung anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best Practice](Best%20Practice.md) abgebildet. Konkrete Arbeitsschritte zur Konfiguration und Verwendung von Odoo werden als [HowTos](README.md#HowTos) dokumentiert.
 
+## Markdown
+
+Alle Dokumente des Odoo Wiki sind Markdown-Dokumente. Markdown ist eine [Auszeichnungssprache](https://de.wikipedia.org/wiki/Auszeichnungssprache) mit der Dokument-Formatierungen mit Anweisungen im Text angibt. Mehr zu Markdown gibt es hier <https://www.markdownguide.org/>.
+
+### Tabellen erstellen
+
+Verwenden Sie <https://www.tablesgenerator.com/markdown_tables> um ganz Markdown-Tabellen zu generieren.
+
 ## Demo-Daten
 
 Zur Erläuterung der Instruktionen wird ein fiktives Unternehmen mit diesen Informationen verwendet:
