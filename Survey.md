@@ -39,7 +39,7 @@ Teilnehmer müssen als Kontakt erfasst sein und müssen einen Portalzugriff habe
 
 Umfrage-Teilnehmer können Sie mit der Aktion *Teilen* einladen. Navigieren Sie zu ihrer Umfrage und wählen Sie die Aktion. 
 
-## Mail-Vorlage für Einladung erstellen
+### Mail-Vorlage für Einladung erstellen
 
 Führen Sie [E-Mail-Vorlage erfassen](Discuss%20E-Mail.md#E-Mail-Vorlage%20erfassen) mit diesen Angaben aus:
 
@@ -77,3 +77,14 @@ Führen Sie [E-Mail-Vorlage erfassen](Discuss%20E-Mail.md#E-Mail-Vorlage%20erfas
     
 </div>
 ```
+
+## Berechtigung
+
+### Bearbeitung für alle Benutzer erlauben
+
+Wenn Sie möchten, dass Benutzer andere Umfragen bearbeiten können, müssten Sie diese [Rechte für Daten deaktivieren](Settings%20Permissions.md#Rechte%20für%20Daten%20deaktivieren):
+
+* Survey: officer: create/write/unlink own only
+* Survey question: officer: create/write/unlink linked to own survey only
+* Survey question answer: officer: create/write/unlink linked to own survey only
+

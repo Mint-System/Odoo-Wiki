@@ -91,7 +91,11 @@ Wenn Sie einer ausgewählten Gruppe Zugriffsrechte auf ein Datenmodell vergeben 
 
 ### Rechte für Daten anzeigen
 
-Wenn Sie den [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivieren) können Sie im Kontext einer Ansicht die Rechte für Daten anzeigen. ufen Sie eine Ansicht auf, beispielsweise *Kontakte* und wählen Sie *Entwicklertools > Datensatzregeln anzeigen*. Nun erhalten Sie eine Liste der aktiven Rechte für Daten.
+Wenn Sie den [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivieren) können Sie im Kontext einer Ansicht die Rechte für Daten anzeigen. Rufen Sie eine Ansicht auf, beispielsweise *Kontakte* und wählen Sie *Entwicklertools > Datensatzregeln anzeigen*. Nun erhalten Sie eine Liste der aktiven Rechte für Daten.
+
+### Rechte für Daten deaktivieren
+
+Zeigen Sie *Einstellungen > Technisch > Sicherheit > Rechte für Daten* an und öffnen Sie den ausgewählten Eintrag. Wählen Sie *Aktion > Archiv* um die Datensatzregel zu deaktivieren.
 
 ### Rechte für Daten auf Datenmodell vergeben
 
