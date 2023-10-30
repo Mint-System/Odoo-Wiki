@@ -45,7 +45,7 @@ Wenn Sie beim Starten des Terminal automatisch den Browser starten möchten, geh
 nano ~/.config/autostart/chromiumstart.desktop
 ```
 
-Kopieren oder fügen Sie diesen Ihnalt in die Datei:
+Kopieren oder fügen Sie diesen Inhalt in die Datei:
 
 ```
 [Desktop Entry]
