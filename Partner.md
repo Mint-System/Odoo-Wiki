@@ -142,6 +142,14 @@ In der Kontaktauswahl wird der Adresstyp so sichtbar:
 
 ![](attachments/Kontakt%20Auswahl%20mit%20Adresstyp.png)
 
+## Bundesland bearbeiten
+
+Navigieren Sie nach *Einstellungen > Konfiguration > Bundesländer / Regionen*. Gruppieren Sie die Liste nach *Land* und bearbeiten Sie einen Eintrag.
+
+## Ländergruppe bearbeiten
+
+Navigieren Sie nach *Einstellungen > Konfiguration > Ländergruppe* und zeigen Sie einen Eintrag an.
+
 ## Einstellungen
 
 ### Partner Autovervollständigung deaktivieren

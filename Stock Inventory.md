@@ -88,12 +88,12 @@ Objekt: `stock.picking`\
 Ansichtsmodus: `tree,form,pivot`\
 Wertebereich:
 
-```
+```json
 [
 "&",
 ["carrier_id", "in", ["Bordereau", "Bordereau Migros"]],
 ["state", "in", ["assigned","done"]],
-["scheduled_date", ">=", (datetime.datetime.now().replace(hour=12, minute=30))],
+["scheduled_date", ">=", (datetime.datetime.now().replace(hour=08, minute=00))],
 ["scheduled_date", "<=", (datetime.datetime.now() + datetime.timedelta(days=3)).strftime('%Y-%m-%d')]
 ]
 ```
