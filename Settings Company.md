@@ -16,9 +16,13 @@ prev: ./settings
 
 Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Unternehmen* und erstellen Sie einen neuen Eintrag. Wählen Sie im Feld *Mutterkonzern* ein bestehendes Unternehmen aus, wenn es ich beim neuen Unternehmen um eine Tochtergesellschaft handelt.
 
+### Aktuelles Unternehmen bearbeiten
+
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Unternehmen* und klicken Sie auf *Update Info*.
+
 ### Unternehmen auswählen
 
-Wenn Sie mehrere Unternehmen haben, können Sie oben rechts in der Menüleitste auf den aktiven Unternehmensname klicken und ein anderes Unternehmen auswählen.
+Wenn Sie mehrere Unternehmen haben, können Sie oben rechts in der Menüleiste auf den aktiven Unternehmensname klicken und ein anderes Unternehmen auswählen.
 
 ![](attachments/Einstellungen%20Unternehmen%20Auswahl.png)
 

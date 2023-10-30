@@ -97,14 +97,6 @@ Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und legen Sie im Feld *
 
 ## International
 
-### Mehrwertsteuer für EU-Ausland aktivieren
-
-Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und aktivieren Sie die Option *Innergemeinschaftlicher Fernabsatz der EU*. Anschliessend erscheint die Aktion *Refresh tax mappings*. Damit wird die Steuerzuordnung aktualisiert.
-
-::: warning
-Diese Option funktioniert nur für EU-Länder.
-:::
-
 ### MwSt-Identifikationsnr. überprüfen
 
 Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und aktivieren Sie die Option *MwSt-Identifikationsnr. überprüfen*.
@@ -131,6 +123,20 @@ Zeigen Sie *Finanzen > Lieferanten > Lieferanten* an. Öffnen Sie einen bestimmt
 ### Steuerzuordnung auf Kunde festlegen
 
 Zeigen Sie *Finanzen > Kunden > Kunden* an. Öffnen Sie einen bestimmten Kunden und zeigen Sie den Tab *Verkauf & Einkauf* an. Wählen Sie im Feld *Steuerzuordnung* einen Wert aus.
+
+## One Stop Shop
+
+### Mehrwertsteuer für EU-Ausland aktivieren
+
+Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und aktivieren Sie die Option *Innergemeinschaftlicher Fernabsatz der EU*. Anschliessend erscheint die Aktion *Refresh tax mappings*. Damit wird die Steuerzuordnung aktualisiert.
+
+::: tip
+Diese Option funktioniert nur für EU-Länder. Damit die OSS-Steuersätze einem Schweizer Unternehmen hinzufügen können, müssen Sie das Land des Unternehmen temporär auf *Deutschland* festlegen.
+:::
+
+### Steuerzuordnung für EU-Ausland aktualisieren
+
+Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und führen Sie die Aktion *Refresh tax mappings* aus.
 
 ## Abrechnung
 
