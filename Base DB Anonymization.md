@@ -20,6 +20,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/bas
 
 Navigieren Sie nach *Einstellungen > Technisch > Fields Anonymize*. Erstellen und verwalten Sie hier die Anonymisierungs-Einträge.
 
+* **Model**: Auswahl Datenbankmodell um Auswahl Felder zu filtern
 * **Field**: Ausgewähltes Feld, dessen Inhalt anonymisiert werden soll
 * **Anonymize Strategy**: Methode um Feldinhalt zu anonymisieren
 * **Domain**: Filter zur Auswahl der Datenbank-Einträge
