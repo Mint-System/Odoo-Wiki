@@ -22,12 +22,12 @@ Navigieren Sie nach *Einstellungen > Technisch > Fields Anonymize*. Erstellen un
 
 * **Field**: Ausgewähltes Feld, dessen Inhalt anonymisiert werden soll
 * **Anonymize Strategy**: Methode um Feldinhalt zu anonymisieren
-* **Domain**: Filter zur Auswahl der Einträge
-* **Output New Value**: Aktivieren wenn neuer Feldinhalt bei Durchführung von Anonymisierung in Server-Log ausgegeben werden soll
-* **Is Anonymized**: Ist aktiviert, wenn Anonymisierung wurde für dieses Feld durchgeführt wurde
+* **Domain**: Filter zur Auswahl der Datenbank-Einträge
+* **Output New Value**: Aktivieren falls der neue Feldinhalt bei der Anonymisierung im Server-Log ausgegeben werden soll
+* **Is Anonymized**: Ist aktiviert wenn Anonymisierung für dieses Feld durchgeführt wurde
 
 ::: warning
-Wenn das Feld **Is Anonymized** gesetzt ist, wird der Anonymisierung-Eintrag ignoriert.
+Wenn das Feld **Is Anonymized** gesetzt ist, wird der Anonymisierungs-Eintrag ignoriert.
 :::
 
 ## Verwendung
