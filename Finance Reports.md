@@ -84,7 +84,7 @@ Der Umsatzsteuerbericht wird in regelmässigen Abständen generiert. Die Einstel
 
 ### Umsatzsteuerbericht nach Steuersatz anzeigen
 
-Klicken Sie auf *Finanzen > Berichtswesen > Prüfungsberichte > Umstatzsteuerbericht* und anschliessend wählen Sie den Filter *Bericht: Gruppieren nach: Steuern > Konto*.
+Klicken Sie auf *Finanzen > Berichtswesen > Umstatzsteuerbericht* und anschliessend wählen Sie den Filter *Bericht: Gruppieren nach: Steuern > Konto*.
 
 ### Abgeschlossene Umsatzsteuerberichte anzeigen
 
@@ -101,6 +101,10 @@ Zeigen Sie *Finanzen > Finanzen > Buchungssätze* an und filtern Sie wie folgt u
 Möchten Sie die Buchungszeilen des Umsatzsteuerberichts anzeigen, öffnen Sie *Finanzen > Finanzen > Buchungszeilen* und filtern die Einträge wie folgt:
 
 ![](attachments/Finanzen%20Berichte%20Umsatzsteuer%20Buchungszeilen.png)
+
+### One-Stop-Shop Import und Verkauf anzeigen
+
+Klicken Sie auf *Finanzen > Berichtswesen > Umstatzsteuerbericht*. Wählen Sie den Filter *Bericht: OSS Sales* für die Verkaufsstatistik und *Bericht: OSS Sales* für die Importstatistik.
 
 ## Mahnwesen
 

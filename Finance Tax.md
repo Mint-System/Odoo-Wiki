@@ -97,9 +97,13 @@ Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und legen Sie im Feld *
 
 ## International
 
-### MwSt-Identifikationsnr. überprüfen
+### MwSt.-Nummern überprüfen
 
 Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und aktivieren Sie die Option *MwSt-Identifikationsnr. überprüfen*.
+
+::: tip
+Um die Funktion zu testen, finden Sie hier Beispieldaten <https://viesapi.eu/test-vies-api/>.
+:::
 
 ### Steuerzurodnung anzeigen
 
@@ -131,7 +135,7 @@ Zeigen Sie *Finanzen > Kunden > Kunden* an. Öffnen Sie einen bestimmten Kunden 
 Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und aktivieren Sie die Option *Innergemeinschaftlicher Fernabsatz der EU*. Anschliessend erscheint die Aktion *Refresh tax mappings*. Damit wird die Steuerzuordnung aktualisiert.
 
 ::: tip
-Diese Option funktioniert nur für EU-Länder. Damit die OSS-Steuersätze einem Schweizer Unternehmen hinzufügen können, müssen Sie das Land des Unternehmen temporär auf *Deutschland* festlegen.
+Diese Option funktioniert nur für EU-Länder. Damit die OSS-Steuersätze einem Schweizer Unternehmen hinzufügen können, müssen Sie das Land des Unternehmen temporär auf *Deutschland* festlegen oder Schweiz der Ländergruppe *Europa* hinzufügen.
 :::
 
 ### Steuerzuordnung für EU-Ausland aktualisieren
