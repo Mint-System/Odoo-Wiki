@@ -41,7 +41,7 @@ Navigieren Sie nach *Einstellungen > Zeiterfassung > Abrechnung* und wählen Sie
 
 ### Eintrag manuell erstellen
 
-Damit ein Odoo Benutzer ein Zeiterfassungs-Eintrag machen kann, müssen die foglenden Bedingungen erfüllt sein:
+Damit ein Odoo Benutzer einen Zeiterfassungs-Eintrag machen kann, müssen die folgenden Bedingungen erfüllt sein:
 * Dem Benutzer ist ein Mitarbeiter zugewiesen
 * Der Benutzer hat Zugriff auf ein Projekt und auf eine Projektaufgabe
 
@@ -49,9 +49,9 @@ Zur manuellen Erfassung folgende Aktion ausführen *Zeiterfassung > + Anlegen*. 
 
 ### Verrechnungstyp anpassen
 
-Jeder Zeiterfassungseintrag ist ein Verrechnungstyp zugeweisen. Dieser wird beim Erstellen des Eintrag abhängig von Konfiguration des Projekts und der Projektaufgabe festgelegt. In der Listenansicht des Stundenzettels kann nach dem Attribut *Abrechenbarer Typ* gruppiert werden. Falsche Einträge können so identifiziert werden.
+Jedem Zeiterfassungseintrag ist ein Verrechnungstyp zugeweisen. Dieser wird beim Erstellen des Eintrags abhängig von der Konfiguration des Projekts und der Projektaufgabe festgelegt. In der Listenansicht des Stundenzettels kann nach dem Attribut *Abrechenbarer Typ* gruppiert werden. Falsche Einträge können so identifiziert werden.
 
-Wenn Sie den Abrechnungstyp von bestehenden Eintägen ändern möchten, müssen Sie die verknüpfte Aufgaben ändern und wieder zuweisen.
+Wenn Sie den Abrechnungstyp von bestehenden Einträgen ändern möchten, müssen Sie die verknüpfte Aufgaben ändern und wieder zuweisen.
 
 ![](attachments/Zeiterfassung%20Verrechnungstyp%20ändern.gif)
 
@@ -130,7 +130,7 @@ Navigieren Sie nach *Zeiterfassung > Berichtswesen > Zeiterfassung / Anwesenheit
 
 Damit Benutzer die [Anwesenheit und Zeiterfassung vergleichen](#Anwesenheit%20und%20Zeiterfassung%20vergleichen) können, müssen Sie Zugriffsrechte auf Menüposten anpasst werden.
 
-Als erstes müssen Sie die folgenden [Menüposten bearbeiten](Development.md#Menüposten%20bearbeiten):
+Als Erstes müssen Sie die folgenden [Menüposten bearbeiten](Development.md#Menüposten%20bearbeiten):
 
 * *Zeiterfassung/Berichtswesen*
 * *Zeiterfassung/Berichtswesen/Zeiterfassung / Anwesenheit*
