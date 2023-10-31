@@ -128,7 +128,7 @@ Zeigen Sie *Finanzen > Lieferanten > Lieferanten* an. Öffnen Sie einen bestimmt
 
 Zeigen Sie *Finanzen > Kunden > Kunden* an. Öffnen Sie einen bestimmten Kunden und zeigen Sie den Tab *Verkauf & Einkauf* an. Wählen Sie im Feld *Steuerzuordnung* einen Wert aus.
 
-## One Stop Shop
+## One-Stop-Shop
 
 ### Mehrwertsteuer für EU-Ausland aktivieren
 
