@@ -17,6 +17,7 @@ prev: ./
 | [Entwicklung Aktionen](Development%20Actions.md)  | Eigene Odoo Aktionen erstellen.                             |
 | [Entwicklung Ansichten](Develpment%20Views.md)    | Odoo Ansichten anpassen.                                    |
 | [Entwicklung Berichte](Development%20Reports.md)  | Eigene Berichte mit QWeb erstellen.                         |
+| [Entwicklung Runbot](Entwicklung%20Runbot.md)     | Odoo Entwicklungsumgebungen.                                |
 | [Entwicklung Snippets](Development%20Snippets.md) | Einfache Anpassungen mit den Mint System Snippets umsetzen. |
 | [Entwicklung Website](Entwicklung%20Website.md)   | Website-Templates anpassen und erweitern.                   |
 
