@@ -87,6 +87,10 @@ Zeigen Sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an und öffnen Sie
 
 ## Ausgehende Zahlungen
 
+### Zahlungsmethode für Lieferantenrechnungen hinzufügen
+
+Zeigen Sie ein Bank-Journal via *Finanzen > Konfiguration > Journale* an. Fügen Sie einen Eintrag unter *Zahlungsausgänge* hinzu um eine neue Zahlungsmethode für Lieferantenrechnungen zu erhalten. Optional können Sie das Standardkonto für Zahlungen im Feld *Konten für ausstehende Zahlungen* übersteuern.
+
 ### Zahlungsreferenz von Lieferant hinterlegen
 
 Auf einer Lieferantenrechnung unter *Finanzen > Lieferanten > Rechnung* geben Sie im Feld *Zahlungsreferenz* die Rechnungsnummer des Lieferanten ein. Dazu ein Beispiel:
