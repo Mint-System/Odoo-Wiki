@@ -156,8 +156,9 @@ Legen Sie auf dem Datenmodell diese *Rechte für Daten* fest:
 **Name**: Purchase Confidential\
 **Gruppen**: Interne Benutzer\
 **Domain**: `[('x_group_ids', 'in', [g.id for g in user.groups_id])]`\
-
+**Berechtigung**: Lesen
 
 **Name**: Purchase Public\
 **Gruppen**: Interne Benutzer\
 **Domain**: `[('x_group_ids', '=',False)]`\
+**Berechtigung**: Lesen
