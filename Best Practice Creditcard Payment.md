@@ -14,7 +14,7 @@ In diesem Best Practice wird der Umgang mit Kreditkartenabrechnungen erläutert.
 
 Die Kreditkartenzahlungen sollen auf bestimmtes Konto verbucht werden. Dazu können Sie ein neues [Konto erfassen](Finance%20Accounting.md#Konto%20erfassen):
 
-* **Code**: 1030
+* **Code**: 1023k
 * **Name**: Kreditkarte Zahlungen
 * **Typ**: Umlaufvermögen
 * **Erlaube Abstimmung**: Aktivieren
