@@ -250,6 +250,10 @@ Auf einer Rechnung mit einer Beratungsdienstleistung zu 160 CHF sieht das wie fo
 Die Differenz von 5.9% zu 7.7% wird als Erlös gut geschrieben. Auf dem Steuerbericht erscheint nur der Betrag von 5.9% als geschuldete Mehrwertsteuer.
 :::
 
+::: warning
+Damit keine Vorsteuer-Buchungen gemacht werden, muss auf allen Steuersätzen vom Steuertyp *Einkauf* das vorsteuer-Konto entfernt werden.
+:::
+
 ## Buchhaltung
 
 ### Vorsteuerabzug auf Buchungszeile machen
