@@ -145,3 +145,19 @@ Nummernfolge: `90`
 Das Ergebnis sollte so aussehen:
 
 ![](attachments/Einkauf%20Einkaufszeilen.png)
+
+
+### Berechtigungen anhand von Gruppen filtern
+
+Im folgenden Beispiel werden ausgewählte Bestellungen nur für eine bestimmte Gruppe angezeigt.
+
+Legen Sie auf dem Datenmodell diese *Rechte für Daten* fest:
+
+**Name**: Purchase Confidential\
+**Gruppen**: Interne Benutzer\
+**Domain**: `[('x_group_ids', 'in', [g.id for g in user.groups_id])]`\
+
+
+**Name**: Purchase Public\
+**Gruppen**: Interne Benutzer\
+**Domain**: `[('x_group_ids', '=',False)]`\
