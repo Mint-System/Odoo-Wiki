@@ -20,6 +20,10 @@ Wenn Sie beispielsweise eine Buchhaltung per 01.01.2023 starten und Rechnungen a
 
 Das Menü *Buchungszeilen* wird nur im Entwicklermodus angezeigt. Um das Verhalten zu ändern, öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüposten*, zeigen den Menüposten *Buchungszeilen* an und entfernen im Tab *Zugriffsrechte* die Gruppe. Aktualisieren Sie den Browser und verlassen Sie den Entwicklermodus. Sie sollten den Menüposten nun sehen.
 
+### Gebuchte Buchungen in Journal sperren
+
+Wenn Sie verhindern möchten, dass einmal gebuchte Buchungen zurückgesetzt und verändert werden können, können Sie eine Option auf dem Journal festlegen. Navigieren Sie nach *Finanzen > Konfiguration > Journale* und öffnen Sie das ausgewählte Journal. Im Tab *Erweiterte Einstellungen* aktivieren Sie die Option *Gebuchte Einträge mit "Hash" sperren*.
+
 ## Buchhaltung
 
 ### Buchungsatz erstellen

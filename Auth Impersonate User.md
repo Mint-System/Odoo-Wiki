@@ -36,4 +36,4 @@ Sie können sich so auch als Portal-Benutzer einloggen.
 
 ### Identitätswechsel beenden
 
-Den Identitätswechsel-Vorgang können Sie beenden indem Sie oben Rechts auf *Benutzer-Menü > Abmeldung* klicken. Statt direkt abgemeldet zu werden, werden Sie stattdessen als ihren ursprünglichen Benutzer eingeloggt. Wenn Sie nochmals auf *Abmeldung* klicken, werden Sie ausgeloggt. 
+Den Identitätswechsel-Vorgang können Sie beenden indem Sie oben Rechts auf *Benutzer-Menü > Abmeldung* klicken. Statt direkt abgemeldet zu werden, werden Sie stattdessen als ihren ursprünglichen Benutzer eingeloggt. Wenn Sie nochmals auf *Abmeldung* klicken, werden Sie ausgeloggt.
