@@ -16,20 +16,24 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/aut
 
 ## Konfiguration
 
-### Berechtigung zum Einloggen als anderen Benutzer vergeben
+### Einloggen durch andere Benutzer erlauben
 
-Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und öffnen Sie einen Benutzer. Aktivieren Sie Berechtigung *Impersonate User*.
+Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und öffnen Sie einen Benutzer. Aktivieren Sie Berechtigung *Kann impersoniert werden*.
+
+### Einloggen als andere Benutzer erlauben
+
+Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und öffnen Sie einen Benutzer. Aktivieren Sie Berechtigung *Kann Benutzer impersonieren*.
 
 ## Verwendung
 
 ### Mit einem anderen Benutzer einloggen
 
-Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer*, wählen Sie einen Benutzer aus und klicken Sie auf *Impersonate*. Sie werden anschliessend als den gewählten Benutzer eingeloggt.
+Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer*, wählen Sie einen Benutzer aus und klicken Sie auf *Als Benutzer einloggen*. Sie werden anschliessend als den gewählten Benutzer eingeloggt.
 
 ::: tip
 Sie können sich so auch als Portal-Benutzer einloggen.
 :::
 
-### Impersonierung beenden
+### Identitätswechsel beenden
 
-Den Impersionierungs-Vorgang können Sie beenden indem Sie oben Rechts auf *Benutzer-Menü > Abmeldung* klicken. Statt direkt abgemeldet zu werden, werden Sie stattdessen als ihren ursprünglichen Benutzer eingeloggt. Wenn Sie nochmals auf *Abmeldung* klicken, werden Sie ausgeloggt. 
+Den Identitätswechsel-Vorgang können Sie beenden indem Sie oben Rechts auf *Benutzer-Menü > Abmeldung* klicken. Statt direkt abgemeldet zu werden, werden Sie stattdessen als ihren ursprünglichen Benutzer eingeloggt. Wenn Sie nochmals auf *Abmeldung* klicken, werden Sie ausgeloggt. 
