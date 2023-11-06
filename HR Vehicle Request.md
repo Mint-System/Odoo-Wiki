@@ -35,3 +35,24 @@ Navigieren Sie nach *Personal > Fahrzeuganfrage > Fahrzeuganfrage* und filtern S
 ### Fahrzeug retournieren
 
 Öffnen Sie ihre *Fahrzeuganfrage* unter Personal > Fahrzeuganfrage > Fahrzeuganfrage* und klicken Sie auf *Retournieren*.
+
+## Automatische Aktionen
+
+### Fahrzeuganfrage automatisch bestätigen
+
+Mit dieser automatischen Aktion wird eine Fahrzeuganfrage mit einem bestimmten Attribut (Beispiel: `vehicle_id.model_id.vehicle_type`) automatisch bestätigt.
+
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
+
+Name der Aktion: `Angebot automatisch bestätigen`\
+Modell: `employee.fleet`\
+Auslöser: Beim Aktualisieren\
+Trigger-Felder: `state`\\
+Anzuwenden auf: `["&",["state","=","waiting"],["vehicle_id.model_id.vehicle_type","=","cable_car"]]`\
+Folgeaktion: Python-Code ausführen\
+Python Code:
+
+```python
+for rec in records:
+  rec.approve()
+```
