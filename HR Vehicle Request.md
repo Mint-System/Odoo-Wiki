@@ -44,7 +44,7 @@ Mit dieser automatischen Aktion wird eine Fahrzeuganfrage mit einem bestimmten A
 
 Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
 
-Name der Aktion: `Angebot automatisch bestätigen`\
+Name der Aktion: `Fahrzeuganfrage automatisch bestätigen`\
 Modell: `employee.fleet`\
 Auslöser: Beim Aktualisieren\
 Trigger-Felder: `state`\\

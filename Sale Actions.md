@@ -87,7 +87,7 @@ Python Code:
 ```python
 for rec in records:
   rec.action_confirm()
-  rec.message_post(body="Die Kundenadresse ist geprüft, der Verkaufsauftrag wurde bestätigt.")
+  rec.message_post(body="Die Kundenadresse ist geprüft, der Verkaufsauftrag wurde automatisch bestätigt.")
 ```
 
 ### Angebot bestätigen und Rechnungen erstellen
