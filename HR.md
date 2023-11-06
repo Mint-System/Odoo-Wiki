@@ -95,9 +95,13 @@ Navigieren Sie nach *Einstellungen > Technisch > Arbeitszeit* und erstellen Sie 
 
 ### Arbeitszeiten festlegen
 
-Um die Arbeitszeiten für einen Mitarbeiter zu ändern, öffnen Sie das App *Personal* und wählen den Mitarbieter aus. Wählen Sie *Bearbeiten* und legen Sie im Tab *Arbeitsinformation* unter *Arbeitsplan* die *Arbeitsstunden* fest.
+Um die Arbeitszeiten für einen Mitarbeiter festzulegen, öffnen Sie das App *Personal* und wählen den Mitarbeiten aus. Wählen Sie *Bearbeiten* und legen Sie im Tab *Arbeitsinformation* unter *Arbeitsplan* die *Arbeitsstunden* fest.
 
 ![](attachments/Personal%20Arbeitsstunden.png)
+
+### Arbeitszeiten auf Vertrag festlegen
+
+Um die Arbeitszeiten für einen Mitarbeiter via Arbeitsvertrag festzulegen, zeigen Sie *Mitarbeiter > Mitarbeiter > Alle Verträge* und wählen einen Vertrag aus. Legen Sie unter *Arbeitsplan* die Arbeitszeiten fest.
 
 ### Arbeitspensum wechseln
 
