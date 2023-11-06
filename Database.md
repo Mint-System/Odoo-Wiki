@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Datenbank
-![icons_odoo_website_version](attachments/icons_odoo_website_version.png)
+![icons_odoo_apps](attachments/icons_odoo_apps.png)
 
 {{ $frontmatter.description }}
 

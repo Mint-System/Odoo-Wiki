@@ -105,7 +105,7 @@ Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 
 ### [Datenbank](Database.md)
 
-![icons_odoo_website_version](attachments/icons_odoo_website_version.png)
+![icons_odoo_apps](attachments/icons_odoo_apps.png)
 
 Odoo-Instanzen mit dem Datenbankmanager verwalten.
 
@@ -147,7 +147,7 @@ Kaufverträge für Rahmenbestellungen erstellen.
 
 ### [Einstellungen](Settings.md)
 
-![icons_odoo_settings](attachments/icons_odoo_settings.png)
+![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 Odoo-Einstellungen aktivieren und konfigurieren.
 
@@ -201,7 +201,7 @@ Richten Sie ihre Odoo-Umgebung ein.
 
 ### [Installation](Installation.md)
 
-![icons_odoo_website_version](attachments/icons_odoo_website_version.png)
+![icons_odoo_website_hr_recruitment](attachments/icons_odoo_website_hr_recruitment.png)
 
 Odoo installieren und konfigurieren.
 

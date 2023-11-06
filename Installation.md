@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Installation
-![icons_odoo_website_version](attachments/icons_odoo_website_version.png)
+![icons_odoo_website_hr_recruitment](attachments/icons_odoo_website_hr_recruitment.png)
 
 {{ $frontmatter.description }}
 

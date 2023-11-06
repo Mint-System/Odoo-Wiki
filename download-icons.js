@@ -21,7 +21,9 @@ https.get(url, (response) => {
         const folderNames = []
         let match
         while ((match = folderNamePattern.exec(htmlResponse))) {
-            folderNames.push(match[1])
+            if (!match[1].startsWith('-') && !match[1].startsWith('_') && !match[1].includes(".")) {
+                folderNames.push(match[1])
+            }
         }
 
         const baseURL = 'https://download.odoocdn.com/icons/'
@@ -30,8 +32,8 @@ https.get(url, (response) => {
         folderNames.forEach((folderName) => {
             const imageURL = `${baseURL}${folderName}/static/description/icon.png`
             const saveFileName = `${savePath}${folderName}.png`
-            const saveFilePath = path.join(__dirname, 'assets/' + saveFileName)
-            const resizedFilePath = path.join(__dirname, 'assets/resized_' + saveFileName)
+            const saveFilePath = path.join(__dirname, 'attachments/' + saveFileName)
+            const resizedFilePath = path.join(__dirname, 'attachments/resized_' + saveFileName)
 
             https.get(imageURL, (response) => {
                 const fileStream = fs.createWriteStream(saveFilePath)
