@@ -85,7 +85,9 @@ Anzuwenden auf: `[("partner_id.address_checked", "=", True)]`\
 Python Code:
 
 ```python
-records.action_confirm()
+for rec in records:
+  rec.action_confirm()
+  rec.message_post(body="Die Kundenadresse ist geprüft, der Verkaufsauftrag wurde bestätigt.")
 ```
 
 ### Angebot bestätigen und Rechnungen erstellen
