@@ -261,7 +261,7 @@ Web-Kampagnen und E-Mails verfolgen.
 
 ### [Management System](Management%20System.md)
 
-![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.svg)
+![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.png)
 
 Odoo for Management Systems (ISO, IEC, BS).
 
