@@ -7,6 +7,8 @@ tags:
 prev: ./
 ---
 # Management System
-![](attachments/icons_odoo_mgmtsystem.svg)
+![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.svg)
 
 {{ $frontmatter.description }}
+
+Repository: <https://github.com/OCA/management-system>
