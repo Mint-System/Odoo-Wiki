@@ -87,6 +87,10 @@ Navigieren Sie nach *Einstellungen > Technisch > Arbeitszeit* und erstellen Sie 
 
 ![](attachments/Personal%20Arbeitszeit.png)
 
+::: warning
+Stellen Sie sicher, dass die Anzahl Stunden am Vor- und Nachmittag gleich sind. Bei Abwesenheitseinträgen mit Halbtagen wird diese Anzahl Stunden verwendet.
+:::
+
 ### Flexible Arbeitszeit erfassen
 
 Navigieren Sie nach *Einstellungen > Technisch > Arbeitszeit* und erstellen Sie einen neuen Eintrag mit Namen *Standard 0 hours/week*. Entfernen Sie alle Einträge in *Arbeitsstunden* und tragen Sie als *Durchschnittliche Stundenzahl pro Tag* den Wert `0` ein. 
