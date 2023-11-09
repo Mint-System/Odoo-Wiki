@@ -120,7 +120,7 @@ for employee in env['hr.employee'].search(employee_domain):
 raise UserError(report)
 ```
 
-Diese Serveraktion produziert ein Bericht in folgenden Format:
+Diese Serveraktion produziert ein Bericht in folgendem Format:
 
 ```markdown
 # Missing attendances
@@ -135,9 +135,9 @@ Abigail Peterson:
 ...
 ```
 
-Wenn Sie den Bericht für bestimmte Mitarbeitende deaktivieren möchten, müssen Sie eine [Flexible Arbeitszeit erfassen](HR.md#Flexible%20Arbeitszeit%20erfassen) und den entsprechenden Mitarbeitenden hinterlegen.
+Wenn Sie den Bericht für bestimmte Mitarbeitende deaktivieren möchten, müssen Sie eine [Flexible Arbeitszeit erfassen](HR.md#Flexible%20Arbeitszeit%20erfassen) und dem ausgewählten Mitarbeitenden hinterlegen.
 
-Benutzer können den Bericht aufrufen, wenn Sie mit den folgenden Informationen einen [Menüposten erstellen](Development.md#Entwicklung#Menüposten%20erstellen).
+Manager können den Bericht aufrufen, wenn Sie mit den folgenden Informationen einen [Menüposten erstellen](Development.md#Entwicklung#Menüposten%20erstellen).
 
 * **Menü**: 	`Fehlende Anwesenheitseinträge anzeigen`
 * **Obermenü**: `Abwesenheitszeiten/Berichtswesen`
