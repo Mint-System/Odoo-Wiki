@@ -2,11 +2,9 @@
 title: Odoo Wiki
 description: Umfassende Dokumentation der Odoo-Funktionen.
 head:
-  - - meta
-    - name: title
-      content: Odoo Wiki
-    - name: description
-      content: Umfassende Dokumentation der Odoo-Funktionen.
+  - - link
+    - rel: canonical
+      href: https://www.odoo-wiki.org
 tags: 
   - odoo
   - wiki
