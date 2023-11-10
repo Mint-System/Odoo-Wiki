@@ -13,3 +13,9 @@ prev: ./hr-holidays
 
 Technischer Name: `hr_attendance_overtime_negative_hours`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_attendance_overtime_negative_hours>
+
+## Beschreibung
+
+Mit dieser Erweiterung werden negativen Überstunden auf der Abwesenheitsübersicht angezeigt.
+
+![](attachments/HR%20Attendance%20Overtime%20Negative%20Hours.png)
