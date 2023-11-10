@@ -67,12 +67,6 @@ Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 
 Neue Apps installieren und aktualisieren.
 
-### [Aufwand](HR%20Expense.md)
-
-![icons_odoo_hr_expense](attachments/icons_odoo_hr_expense.png)
-
-Spesen erfassen und abrechnen.
-
 ### [Aussendienst](FSM%20Industry.md)
 
 ![](attachments/icons_odoo_industry_fsm.png)
@@ -360,6 +354,12 @@ Für moderne Hersteller.
 ![icons_odoo_website_crm_partner_assign](attachments/icons_odoo_website_crm_partner_assign.png)
 
 Partnerschaften mit Wiederverkäufer pflegen.
+
+### [Spesen](HR%20Expense.md)
+
+![icons_odoo_hr_expense](attachments/icons_odoo_hr_expense.png)
+
+Spesen erfassen und abrechnen.
 
 ### [Strichcode](Barcode.md)
 

@@ -1,11 +1,11 @@
 ---
-title: Aufwand Aktionen
-description: Aktionen für Aufwand App einrichten.
+title: Spesen Aktionen
+description: Aktionen für Spesen App einrichten.
 tags:
 - HowTo
 prev: ./hr-attendance
 ---
-# Aufwand Aktionen
+# Spesen Aktionen
 ![icons_odoo_hr_expense](attachments/icons_odoo_hr_expense.png)
 
 {{ $frontmatter.description }}

@@ -1,11 +1,11 @@
 ---
-title: Aufwand
+title: Spesen
 description: Spesen erfassen und abrechnen.
 tags:
 - HowTo
 prev: ./
 ---
-# Aufwand
+# Spesen
 ![icons_odoo_hr_expense](attachments/icons_odoo_hr_expense.png)
 
 {{ $frontmatter.description }}
@@ -16,7 +16,7 @@ Website: <https://www.odoo.com/de_DE/app/expenses>
 
 | Bereich                                       | Beschreibung                         |
 | --------------------------------------------- | ------------------------------------ |
-| [Aufwand Aktionen](HR%20Expense%20Actions.md) | Aktionen für Aufwand App einrichten. |
+| [Spesen Aktionen](HR%20Expense%20Actions.md) | Aktionen für Spesen App einrichten. |
 
 ## Erweiterungen
 
@@ -24,26 +24,30 @@ Website: <https://www.odoo.com/de_DE/app/expenses>
 | ----------------------------------------------------------------------- | -------------------------------------------------------------- |
 | [HR Expense Vehicle Request](HR%20Expense%20Vehicle%20Request.md)       | Brückenmodul für Fahrzeuganfrage und Auslage.                  |
 | [Sale Expense Description Date](Sale%20Expense%20Description%20Date.md) | Fügt das Datum der Auslage der Kundenauftragszeile hinzu.      |
-| [Sale Expense Link](Sale%20Expense%20Link.md)                           | Verlinkt die Auslagen mit der Kundenauftragszeile.             |
-| [Sale Expense Unlink](Sale%20Expense%20Unlink.md)                       | Bei Abbruch Auslagenbericht wird Kundenauftragszeile entfernt. |
+| [Sale Expense Link](Sale%20Expense%20Link.md)                           | Verlinkt die Spesen mit der Kundenauftragszeile.             |
+| [Sale Expense Unlink](Sale%20Expense%20Unlink.md)                       | Bei Abbruch Spesenbericht wird Kundenauftragszeile entfernt. |
+
+## Beschreibung
+
+Die Spesen-App von Odoo wurde in den Versionen 14.0, 15.0 und 16.0 immer weider überarbeitet. Dementsprechend haben sich die Begriffe in der Menüstruktur verändert. Diese Dokumentation bezieht sich immer auf die aktuellste Version der Spesen-App.
 
 ## Konfiguration
 
-### Auslagenprodukt erfassen
+### Spesenprodukt erfassen
 
-Zeigen Sie *Aufwand > Konfiguration > Auslagenprodukte* an. Erstellen Sie eines Produkt und geben Sie die Kosten an.
+Zeigen Sie *Spesenabrechnung > Konfiguration > Spesenkategorien* an. Erstellen Sie eines Produkt und geben Sie die Kosten an.
 
-### Bestehendes Produkt als Auslagenprodukt definieren
+### Bestehendes Produkt als Spesenprodukt definieren
 
-Damit ein bestehendes Produkt in der Auswahl der Auslagenprodukte erscheint, muss man auf dem Produkt *Verkauf > Produkte > Produkte* die Option *Als Ausgabe verwendbar* aktivieren.
+Damit ein bestehendes Produkt in der Auswahl der Spesenprodukte erscheint, muss man auf dem Produkt *Verkauf > Produkte > Produkte* die Option *Als Ausgabe verwendbar* aktivieren.
 
 ::: warning
 Die Option ist standardmässig nicht sichtbar und muss über ein entsprechendes [Snippet](Development%20Snippets.md) eingeblendet werden.
 :::
 
-### Auslagen zur Weiterverrechnung markieren
+### Spese zur Weiterverrechnung markieren
 
-Zeigen Sie ein Auslagenprodukt unter *Verkauf > Produkte > Produkte* an. Wählen Sie eine Option im Feld *Auslagen weiterberechnen* aus. Damit wird festgelegt zu welchem Preis die Auslage weiter verrechnet werden kann.
+Zeigen Sie ein Spesenprodukt unter *Verkauf > Produkte > Produkte* an. Wählen Sie eine Option im Feld *Auslagen weiterberechnen* aus. Damit wird festgelegt zu welchem Preis die Auslage weiter verrechnet werden kann.
 
 ::: tip
 Wählen Sie die Option *Nach Aufwand*, wenn der Verkaufspreis gleich der Kosten ist.
@@ -59,21 +63,21 @@ Rufen Sie einen Mitarbeitenden unter *Personal* auf und zeigen Sie den Tab *Arbe
 
 Navigieren Sie nach *Aufwand* und klicken Sie auf *Neu*. Erfassen Sie eine neue Auslage und beachten Sie diesse Felder:
 
-* **Produkte**: Wählen Sie hier ein bestehendes Auslagenprodukt aus.
+* **Produkte**: Wählen Sie hier ein bestehendes Spesenprodukt aus.
 * **Ausgabendatum**: Der Tag an dem die Spese angefallen ist.
-* **An Kunden berechnen**: Wählen Sie hier einen besthenden Verkaufsauftrag. Diese Option wird angezeigt, wenn auf dem Auslagenproduk die Option *Auslagen weiterberechnen* ausgewählt wurde.
+* **An Kunden berechnen**: Wählen Sie hier einen besthenden Verkaufsauftrag. Diese Option wird angezeigt, wenn auf dem Spesenprodukt die Option *Auslagen weiterberechnen* ausgewählt wurde.
 
 ### Spesenabrechnung erstellen
 
 Bis #Odoo15 : Öffnen Sie eine Auslage via *Auslagen > Meine Auslagen > Meine zu abzurechnenden Auslagen*. Drücken Sie auf *Abrechnung erstellen*.
 
-Ab #Odoo15 : Öffnen Sie eine Auslage via *Aufwand > Meine Auslagen > Meine zu meldenden Auslagen*. Drücken Sie auf *Bericht erstellen*.
+Ab #Odoo15 : Öffnen Sie eine Auslage via *Spesenabrechnung > Meine Auslagen > Meine zu meldenden Auslagen*. Drücken Sie auf *Bericht erstellen*.
 
 ### Spesenabrechnung vorlegen
 
 Bis #Odoo15 : Öffnen Sie eine Abrechnung via *Auslagen > Meine Auslagen > Meine Abrechnung* und klicken Sie auf *Dem Manager vorlegen*.
 
-Ab #Odoo15 : Öffnen Sie eine Abrechnung via *Aufwand > Meine Auslagen > Meine Berichte* und klicken Sie auf *Dem Manager vorlegen*.
+Ab #Odoo15 : Öffnen Sie eine Abrechnung via *Spesenabrechnung > Meine Auslagen > Meine Berichte* und klicken Sie auf *Dem Manager vorlegen*.
 
 ## Freigabe
 
@@ -81,13 +85,13 @@ Ab #Odoo15 : Öffnen Sie eine Abrechnung via *Aufwand > Meine Auslagen > Meine B
 
 Bis #Odoo15 : Navigieren Sie nach *Auslagen > Auslagen Abrechnung > Freizugebende Abrechnungen*. Wählen Sie eine Abrechnung aus klicken Sie auf *Genehmigen*
 
-Ab #Odoo15 : Navigieren Sie nach *Aufwand > Auslagenberichte > zu genehmigende Berichte*. Wählen Sie einen Bericht aus klicken Sie auf *Genehmigen*.
+Ab #Odoo15 : Navigieren Sie nach *Spesenabrechnung > Auslagenberichte > zu genehmigende Berichte*. Wählen Sie einen Bericht aus klicken Sie auf *Genehmigen*.
 
 ### Spesenabrechnung ablehnen
 
 Bis #Odoo15 : Navigieren Sie nach *Auslagen > Auslagen Abrechnung > Freizugebende Abrechnungen*. Wählen Sie eine Abrechnung aus klicken Sie auf *Ablehnen*.
 
-Ab #Odoo15 : Navigieren Sie nach *Aufwand > Auslagenberichte > zu genehmigende Berichte*. Wählen Sie einen Bericht aus klicken Sie auf *Ablehnen*.
+Ab #Odoo15 : Navigieren Sie nach *Spesenabrechnung > Auslagenberichte > zu genehmigende Berichte*. Wählen Sie einen Bericht aus klicken Sie auf *Ablehnen*.
 
 ## Abrechnung
 
@@ -95,14 +99,14 @@ Ab #Odoo15 : Navigieren Sie nach *Aufwand > Auslagenberichte > zu genehmigende B
 
 Bis #Odoo15 : Navigieren Sie nach *Auslagen > Auslagen Abrechnung > Zu buchende Abrechnungen*. Wählen Sie *Journal Einträge buchen*.
 
-Ab #Odoo15 : Navigieren Sie nach *Aufwand > Auslagenberichte> Zu buchende Berichte*. Wählen Sie *Buchungen Quittieren*.
+Ab #Odoo15 : Navigieren Sie nach *Spesenabrechnung > Auslagenberichte> Zu buchende Berichte*. Wählen Sie *Buchungen Quittieren*.
 
 ::: tip
 Wurden die Spesen vom Unternehmen bezahlt, wechselt die Abrechnung direkt in den Status *Bezahlt*.
 :::
 
 ::: tip
-Wurden das Auslagenprodukt zur Weiterverrechnung markiert, wird das Auslagenprodukt mit der gelieferten Menge beim Buchen der Abrechnung auf dem verlinkten Verkaufsauftrag hinzugefügt.
+Wurden das Spesenprodukt zur Weiterverrechnung markiert, wird das Spesenprodukt mit der gelieferten Menge beim Buchen der Abrechnung auf dem verlinkten Verkaufsauftrag hinzugefügt.
 
 ![](attachments/Aufwand%20Verkaufsauftrags.png)
 
@@ -119,13 +123,13 @@ Der Mitarbeitende braucht eine private Adresse, damit die Spesenabrechung erstel
 
 Bis #Odoo15 : Navigieren Sie nach *Auslagen > Auslagen Abrechnung > Auszuzahlende Abrechnungen*. Wählen Sie *Zahlung erfassen*. Wählen Sie das Journal aus und erfassen Sie bei Bedarf das Bankkonto des Empfängers.
 
-Ab #Odoo15 : Navigieren Sie nach *Aufwand > Auslagenberichte > Berichte zu zahlen*. Wählen Sie *Zahlung erfassen*. Wählen Sie das Journal aus und erfassen Sie bei Bedarf das Bankkonto des Empfängers.
+Ab #Odoo15 : Navigieren Sie nach *Spesenabrechnung > Auslagenberichte > Berichte zu zahlen*. Wählen Sie *Zahlung erfassen*. Wählen Sie das Journal aus und erfassen Sie bei Bedarf das Bankkonto des Empfängers.
 
 ### Alle Spesenabrechnungen anzeigen
 
 Bis #Odoo15 : Navigieren Sie nach *Auslagen > Auslagen Abrechnung > Alle Abrechnungen*.
 
-Ab #Odoo15 : Navigieren Sie nach *Aufwand > Auslagenberichte > Alle Berichte*.
+Ab #Odoo15 : Navigieren Sie nach *Spesenabrechnung > Auslagenberichte > Alle Berichte*.
 
 ## Buchhaltung
 

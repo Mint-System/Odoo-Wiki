@@ -29,6 +29,8 @@ prev: ./
 | [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. |
 | [Syscoon HR Attendance](Syscoon%20HR%20Attendance.md)                                           | Verwalten Sie die Überzeiten der Mitarbeitenden.                                                                   |
 
+## Beschreibung
+
 ::: tip
 Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheit. Für das Erfassen der Projektzeit nutzt man die App Zeiterfassung.
 :::
