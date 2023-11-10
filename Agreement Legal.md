@@ -41,7 +41,7 @@ Basierend auf einer Vorlage können Sie eine Vereinbarung erstellen. Öffnen sie
 
 ![Agreement Legal Vereinbarung erstellen](attachments/Agreement%20Legal%20Vereinbarung%20erstellen.gif)
 
-### Unterschiebene Vereinbarung hochladen
+### Unterschriebene Vereinbarung hochladen
 
 Öffnen sie die *Agreements* App und wählen Sie eine bestehende Vereinbarung. Bearbeiten Sie die Vereinbarung und laden sie das unterschriebene Dokument im Tab *Signatures* hoch.
 
