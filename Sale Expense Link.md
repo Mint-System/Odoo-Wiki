@@ -18,4 +18,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/15.0/sa
 
 ### Verlinkte Kundenauftragszeile anzeigen
 
-Navigieren Sie nach *Spesenabrechnung > Auslagenberichte > Alle Berichte* und zeigen Sie einen Bericht an. Wählen Sie den Smart-Link *Kundenauftragszeilen* an. Nun werden die verlinkten Auftragszeilen angezeigt.
+Navigieren Sie nach *Spesenabrechnung > Spesenabrechnungen > Alle Abrechnungen* und zeigen Sie einen Bericht an. Wählen Sie den Smart-Link *Kundenauftragszeilen* an. Nun werden die verlinkten Auftragszeilen angezeigt.

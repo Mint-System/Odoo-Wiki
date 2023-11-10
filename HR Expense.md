@@ -129,7 +129,7 @@ Ab #Odoo15 : Navigieren Sie nach *Spesenabrechnung > Auslagenberichte > Berichte
 
 Bis #Odoo15 : Navigieren Sie nach *Auslagen > Auslagen Abrechnung > Alle Abrechnungen*.
 
-Ab #Odoo15 : Navigieren Sie nach *Spesenabrechnung > Auslagenberichte > Alle Berichte*.
+Ab #Odoo15 : Navigieren Sie nach *Spesenabrechnung > Spesenabrechnung > Alle Abrechnungen*.
 
 ## Buchhaltung
 
@@ -166,4 +166,4 @@ Wenn der Spesen-Eintrag bereits mit einem Bericht verknüpft ist.
 
 **Lösung**
 
-Filtern Sie die Spesen mit Filter *Auslagenabrechnung ist nicht gesetzt*.
+Filtern Sie die Spesen mit Filter *Spesenabrechnung ist nicht gesetzt*.

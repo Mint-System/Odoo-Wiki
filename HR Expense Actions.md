@@ -12,11 +12,11 @@ prev: ./hr-attendance
 
 ## Aktionen
 
-### Auslagenbericht zurücksetzen
+### Spesenabrechnung zurücksetzen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Auslagenbericht zurücksetzen`\
+Name der Aktion: `Spesenabrechnung zurücksetzen`\
 Modell: `hr.expense.sheet`\
 Folgeaktion: `Python-Code ausführen`
 
@@ -27,4 +27,4 @@ for rec in records:
   rec.action_unpost()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern. In der Ansicht der Auslagenberichte können Sie *Aktion > Auslagenbericht zurücksetzen* anwählen.
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern. In der Ansicht der Spesenabrechnungen können Sie *Aktion > Spesenabrechnung zurücksetzen* anwählen.
