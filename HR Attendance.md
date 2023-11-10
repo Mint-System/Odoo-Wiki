@@ -101,9 +101,11 @@ Es erscheint eine Verabschiedung mit Angabe der geleisteten Arbeitszeit.
 
 ### Manuelle Erfassung Anwesenheit erlauben
 
-Damit Mitarbeitende ihre Anwesenheit manuell erfassen können Navigieren Sie nach *Einstellungen > Technisch > Ansichten* und zeigen die Ansicht *hr.attendance.tree.inherit* an. Im Tab *Zugriffsrechte* fügen Sie die Gruppe *Anwesenheiten / Manuelle Anwesenheit* hinzu.
+Die Berechtigung zur Bearbeitung der Anwesenheits-Einträge wird über die Fenster-Aktion gestuert. [Bearbeiten Sie Fenster-Aktion](Development%20Actions.md#Fenster-Aktion%20bearbeiten) *Anwesenheit* und legen Sie für *Wert aus Kontext* den Wert auf `{'create': True}`.
 
-Als weiterer Schritt müssen Sie die *Anwesenheit* [Fenster-Aktion bearbeiten](Development%20Actions.md#Fenster-Aktion%20bearbeiten) und den Wert *Wert aus Kontext* auf `{'create': True}` setzen.
+Gilt bis #Odoo15:
+
+Damit Mitarbeitende ihre Anwesenheit manuell erfassen können Navigieren Sie nach *Einstellungen > Technisch > Ansichten* und zeigen die Ansicht *hr.attendance.tree.inherit* an. Im Tab *Zugriffsrechte* fügen Sie die Gruppe *Anwesenheiten / Manuelle Anwesenheit* hinzu.
 
 ### Löschen von Anwesenheiten erlauben
 
