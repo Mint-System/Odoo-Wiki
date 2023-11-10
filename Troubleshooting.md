@@ -397,3 +397,25 @@ In der Definition des Dashboards gibt es ungültige Elemente.
 **Lösung**
 
 Sie müssen die [Dashboard-Definition anzeigen](Dashboards.md#Dashboard-Definition%20anzeigen) und bearbeiten. Falls nötig Löschen Sie die Definition.
+
+## Datenbank
+
+### Database backup error
+
+**Problem**
+
+Beim Erstellen des Backup via Datenbankmanager erscheint diese Fehlermeldung:
+
+```
+Database backup error: Postgres subprocess ('/usr/bin/pg_dump', '--no-owner', '--file=/tmp/tmp8ron8tnq/dump.sql', 'odoo') error 1
+```
+
+**Ursache**
+
+Die psql Version auf dem Datenbank- und Odoo-Container sind unterschiedlich.
+
+Quelle: <https://stackoverflow.com/questions/53989761/odoo12-database-backup-no-owner>
+
+**Lösung**
+
+Aktualisieren Sie die Version des Datenbank-Containers oder Downgraden Sie den Client im Odoo-Container.
