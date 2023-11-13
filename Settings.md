@@ -49,7 +49,6 @@ prev: ./
 | [Web Editor Show Code](Web%20Editor%20Show%20Code.md)           | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |
 | [Web Responsive](Web%20Responsive.md)                           | Responsive Anzeige der Odoo-Oberfläche.                              |
 | [Web Theme Classic](Web%20Theme%20Classic.md)                   | Kontrast auf Benutzeroberfläche verbessern.                          |
-| [[]]                                                                |                                                                      |
 
 ## Entwicklung
 
