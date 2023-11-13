@@ -142,7 +142,7 @@ Wenn Apps verwaltet sind können Sie diese Markierung verwenden:
 
 ```
 ::: warning
-Diese App ist veraltet und wird aufgrund von Aktualisierungen in Odoo nicht mehr benötigt.
+Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscribe) zu verwenden.
 #deprecated
 :::
 ```

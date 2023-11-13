@@ -15,6 +15,11 @@ Technischer Name: `impersonate`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/impersonate>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/impersonate/>
 
+::: warning
+Diese App ist veraltet. Wir empfehlen die App [Auth Impersonate User](Auth%20Impersonate%20User.md) zu verwenden.
+#deprecated
+:::
+
 ## Verwendung
 
 ### Impersonierung freigeben
