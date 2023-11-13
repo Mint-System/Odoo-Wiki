@@ -201,3 +201,20 @@ Für jedes Produkt können Sie definieren, ob es nach der Lieferung oder nach de
 ::: warning
 Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzurechendende Menge des Verkaufsauftrag aktualisiert werden. Nur dann wird das zusätzliche Produkt auf die Rechnung übertragen.
 :::
+
+
+### Berechtigungen anhand von Gruppen filtern
+
+Im folgenden Beispiel werden ausgewählte Rechnungen nur für eine bestimmte Gruppe angezeigt.
+
+Legen Sie auf dem Datenmodell diese *Rechte für Daten* fest:
+
+**Name**: Invoicing Confidential\
+**Gruppen**: Interne Benutzer\
+**Domain**: `[('x_group_ids', 'in', [g.id for g in user.groups_id])]`\
+**Berechtigung**: Lesen
+
+**Name**: Invoicing Public\
+**Gruppen**: Interne Benutzer\
+**Domain**: `[('x_group_ids', '=',False)]`\
+**Berechtigung**: Lesen
