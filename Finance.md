@@ -41,7 +41,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account General Ledger Contra Accounts](Account%20General%20Ledger%20Contra%20Accounts.md)                | Spalte Gegenkontos in Hauptbuch.                                            |
 | [Account Invoice Description](Account%20Invoice%20Description.md)                                          | Beschreibungsfeld auf Rechnung.                                             |
 | [Account Journal Items Report](Account%20Journal%20Items%20Report.md)                                      | Kontoauszug basierend auf Buchungszeilen erstellen.                         |
-| [Account Missing Menus](Account%20Missing%20Menus.md)                                                      | Zusätzliche Menu-Punkte von Finanzen anzeigen.                              |
+| [Account Menu](Account%20Menu.md)                                                                          | Navigation für die OCA Finanzbuchhaltung.                                   |
 | [Account Move Accounting Description](Account%20Move%20Accounting%20Description.md)                        | Beschreibungsfeld für Rechnungszeile.                                       |
 | [Account Move Line Accounting Description Stock](Account%20Move%20Line%20Accounting%20Description%20Stock) | Beschreibung Lagerbuchung auf Rechnung übertragen.                          |
 | [Account Move Line Contra Accounts](Account%20Move%20Line%20Contra%20Accounts.md)                          | Gegenkontos auf Buchungszeilen anzeigen.                                    |

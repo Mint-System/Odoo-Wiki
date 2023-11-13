@@ -1,9 +1,8 @@
 ---
 title: Account Missing Menus
-description: Zusätzliche Menu-Punkte von Finanzen anzeigen.
+description: Navigation für die OCA Finanzbuchhaltung.
 tags:
 - HowTo
-- OCA
 prev: ./finance
 ---
 # Account Missing Menus
@@ -11,12 +10,10 @@ prev: ./finance
 
 {{ $frontmatter.description }}
 
-Technischer Name: `contract`\
-Repository: <https://github.com/OCA/contract/tree/14.0/contract>
+Technischer Name: `account_menu`\
+Repository: <https://github.com/OCA/account-financial-tools/tree/14.0/account_menu>
 
-## Verwendung
-
-### Zusätzliche Menus Finanzen anzeigen
+## Beschreibung
 
 Mit dieser Erweiterungen werden Menus für die folgenden Geschäftsobjekte sichtbar:
 

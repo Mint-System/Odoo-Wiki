@@ -57,6 +57,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Kreditkartenabrechnung](Best%20Practice%20Creditcard%20Payment.md)
 * [Migration Buchhaltung](Best%20Practice%20Accounting%20Migration.md)
 * [VAT-Abrechnung](Best%20Practice%20VAT%20Billing.md)
+* [OCA Finanzbuchhaltung](Best%20Practice%20OCA%20Finanzbuchhaltung.md)
 
 ### Personalabrechung
 
