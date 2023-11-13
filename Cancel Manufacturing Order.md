@@ -25,29 +25,29 @@ In den Benutzereinstellungen aktivieren Sie die Option *Cancel Manufacturing Ord
 
 ### Fertigungsauftrag zurücksetzen
 
-Damit ein Fertgigungsauftrag zurückgesetzt werden kann, muss sichergestellt werden, dass die Produkte an Lager sind.
+Damit ein Fertigungsauftrag zurückgesetzt werden kann muss sichergestellt werden, dass die Produkte an Lager sind.
 
 ![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Menge.png)
 
-Der Fertgiungsauftrag muss im Zustand *Erledigt* sein. Dann kann man über den Knopf *Cancel* den Fertigungsauftrag abbrechen.
+Der Fertigungsauftrag muss im Zustand *Erledigt* sein. Dann kann man über den Knopf *Cancel* den Fertigungsauftrag abbrechen.
 
 ![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Knopf.png)
 
- Entsprechen weden die konsumierten Materialien angepasst.
+ Entsprechend werden die konsumierten Materialien angepasst.
 
 ![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Menge%20aktuaisiert.png)
 
-Beim Klick auf *Cancel* werden die Lagerbewebung zurückgesetzt und der Fertigungsaufrag wird abgebrochen.
+Beim Klick auf *Cancel* werden die Lagerbewegungen zurückgesetzt und der Fertigungsaufrag wird abgebrochen.
 
 Im Status *Abgebrochen* kann der Fertigungsauftrag in den Entwurfs-Status gesetzt werden.
 
 ![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Zurücksetzen.png)
 
-Nach Abbruch des Fertgiungsauftrag werden die Bestände der konsumierten Materialien angepasst.
+Nach Abbruch des Fertigungsauftrags werden die Bestände der konsumierten Materialien angepasst.
 
 ![](attachments/Fertigung%20Fertigungsauftrag%20Abbrechen%20Menge%20konsumiert.png)
 
-Setzt man den Fertgigungsauftrag in den Entwurfsstatus, werden alle Lagerbewebungen und Arbeitsaufträge abgebrochen.
+Setzt man den Fertigungsauftrag in den Entwurfsstatus, werden alle Lagerbewegungen und Arbeitsaufträge abgebrochen.
 
 ![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Entwurf%20erstellen.png)
 
