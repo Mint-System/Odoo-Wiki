@@ -96,7 +96,17 @@ Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzu
 
 Dieser Zahlungsanbieter simuliert Online-Zahlungen. Navigieren Sie nach  *Website > Konfiguration > Zahlungsanbieter* und wählen Sie den Eintrag *Demo* aus. Klicken Sie auf *Installieren*, wenn der Anbieter nicht zur Verfügung steht. Anschliessend wählen Sie für *Status* die Option *Testmodus* aus.
 
-Nun können Sie im Bezahlungs-Vorgang im Webshop eine Testzahlung auslösen. Der Demo-Anbieter simuliert eine Verbindung mit einem externen Zahlungsanbeiter.
+Nun können Sie im Bezahlungs-Vorgang im Webshop eine Testzahlung auslösen. Der Demo-Anbieter simuliert eine Verbindung mit einem externen Zahlungsanbieter.
+
+### Bestellung auf Rechnung einrichten
+
+Damit eine Bestellung auf Rechnung möglich ist, können Sie den Zahlungsanbieter *Banküberweisung* unter   *Website > Konfiguration > Zahlungsanbieter* kopieren und auf *Rechnung* umbenennen. Passen Sie im Tab *Nachrichten* den Inhalt von *noch nicht erledigt Nachricht* an.
+
+Auf den Produkte müssen Sie die [Fakturierungsregel](#Fakturierungsregel%20festlegen) *Rechnung bei Auftrag* festlegen.
+
+::: warning
+Für den automatischen Versand der Rechnung sind zusätzliche Konfigurationen nötig. 
+:::
 
 ## Benachrichtigung
 
