@@ -211,15 +211,20 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
                 sidebarTopic = []
                 for (let line of lines) {
 
-                    if (line.startsWith('## Bereiche')) { isTopic = true, isExtension = false}
-                    if (line.startsWith('## Erweiterungen')) { isExtension = true, isTopic = false}
+                    try {
+                        if (line.startsWith('## Bereiche')) { isTopic = true, isExtension = false}
+                        if (line.startsWith('## Erweiterungen')) { isExtension = true, isTopic = false}
 
-                    if (line.startsWith('| [')) {
-                        // Add file name to content list
-                        subfilename = line.split('](')[1].split(')')[0].replace(/%20/g,' ')
-                        if (isExtension) { sidebarExtension.push(sanitizeName(subfilename)) }
-                        if (isTopic) { sidebarTopic.push(sanitizeName(subfilename)) }
-                    }                    
+                        if (line.startsWith('| [')) {
+                            // Add file name to content list
+                            subfilename = line.split('](')[1].split(')')[0].replace(/%20/g,' ')
+                            if (isExtension) { sidebarExtension.push(sanitizeName(subfilename)) }
+                            if (isTopic) { sidebarTopic.push(sanitizeName(subfilename)) }
+                        }       
+                    } catch(error) {
+                        console.log(filename)
+                        console.error(error)                        
+                    }
                 }
 
                 if (sidebarExtension.length > 0) {
