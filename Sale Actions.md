@@ -111,3 +111,18 @@ records._create_invoices()
 for invoice in records.invoice_ids:
   invoice.action_post()
 ```
+
+### Abonementen auf Angebot entfernen
+
+Name der Aktion: `Abonementen auf Angebot entfernen`\
+Modell: `sale.order`\
+Auslöser: Bei Erstellung und Aktualisierung\
+Python Code:
+
+```python
+for rec in records:
+  allow_ids = rec.team_id.member_ids.partner_id
+  unsubscribe_ids = rec.message_partner_ids.filtered(lambda p: p not in allow_ids)
+  if unsubscribe_ids:
+    rec.message_unsubscribe(unsubscribe_ids.ids)
+```
