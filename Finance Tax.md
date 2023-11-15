@@ -153,14 +153,14 @@ Wenn Sie die VAT-Steuersätze manuell erfassen möchten, gehen Sie folgt vor. Na
 
 |      % | Basiert auf | Konto                     | Steuerraster |
 | ------:| ----------- | ------------------------- | ------------ |
-|        | Basis       |                           |              |
+|        | Basis       |                           | OSS          |
 | 100.00 | der Steuer  | 2202 Geschuldete VAT (EU) | OSS          |
 
 * **Verteilung für Gutschriften**:
 
 |      % | Basiert auf | Konto                     | Steuerraster |
 | ------:| ----------- | ------------------------- | ------------ |
-|        | Basis       |                           |              |
+|        | Basis       |                           | OSS          |
 | 100.00 | der Steuer  | 2202 Geschuldete VAT (EU) | OSS          |
 
 * **Bezeichnung auf Rechnungen**: 20%
