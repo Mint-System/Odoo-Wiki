@@ -142,6 +142,32 @@ Diese Option funktioniert nur für EU-Länder. Damit die OSS-Steuersätze einem 
 
 Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und führen Sie die Aktion *Refresh tax mappings* aus.
 
+### VAT-Steuersatz manuell erfassen
+
+Wenn Sie die VAT-Steuersätze manuell erfassen möchten, gehen Sie folgt vor. Navigieren Sie nach *Finanzen > Konfiguration > Steuern* und erstellen Sie einen neuen Eintrag:
+
+* **Steuerbezeichnung**: 20.0% FR VAT
+* **Steuertyp**: Verkauf
+* **Betrag**: 20.0000
+* **Verteilung für Rechnungen**:
+
+|      % | Basiert auf | Konto                     | Steuerraster |
+| ------:| ----------- | ------------------------- | ------------ |
+|        | Basis       |                           |              |
+| 100.00 | der Steuer  | 2202 Geschuldete VAT (EU) | OSS          |
+
+* **Verteilung für Gutschriften**:
+
+|      % | Basiert auf | Konto                     | Steuerraster |
+| ------:| ----------- | ------------------------- | ------------ |
+|        | Basis       |                           |              |
+| 100.00 | der Steuer  | 2202 Geschuldete VAT (EU) | OSS          |
+
+* **Bezeichnung auf Rechnungen**: 20%
+* **Steuergruppe**: VAT 20.0%
+
+Wiederholgen Sie diesen Vorgang für jedes EU-Land.
+
 ## Abrechnung
 
 ### Abschlussbuchung Steuererklärung erstellen

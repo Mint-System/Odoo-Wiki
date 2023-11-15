@@ -1,4 +1,4 @@
-****---
+---
 title: Verkauf Aktionen
 description: Arbeitsflüsse in Verkauf automatisieren.
 tags:
