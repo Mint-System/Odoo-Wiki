@@ -164,7 +164,7 @@ Wenn Sie die VAT-Steuersätze manuell erfassen möchten, gehen Sie folgt vor. Na
 | 100.00 | der Steuer  | 2202 Geschuldete VAT (EU) | OSS          |
 
 * **Bezeichnung auf Rechnungen**: 20%
-* **Steuergruppe**: VAT 20.0%
+* **Steuergruppe**: OSS 20.0%
 
 Wiederholgen Sie diesen Vorgang für jedes EU-Land.
 
