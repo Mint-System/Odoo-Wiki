@@ -68,3 +68,23 @@ Die Liste der Odoo-Apps ist ein Abbild der Modul-Struktur auf dem Odoo-Server. W
 Wenn die App-Liste aktualisiert wird, sollte die gelöschte App nicht mehr erscheinen.
 :::
 
+## Berechtigungen
+
+### Zugriffsrechte zur Verwaltung von Apps erteilen
+
+Wenn Sie für eine bestimmte Gruppe, beispielsweise *Administration / Zugriffsrechte* die Installation von Apps erlauben möchten, müssen [Zugriffsrechte auf Datenmodell vergeben](Settings%20Permissions.md#Zugriffsrechte%20auf%20Datenmodell%20vergeben):
+
+* **Datenmodell**: `ir.module.module.dependency`
+* **Name**: `ir_module_module_dependency erp_manager`
+* **Gruppe**: *Administration / Zugriffsrechte*
+* **Berechtigung**: Alle
+
+* **Datenmodell**: `ir.module.module.exclusion`
+* **Name**: `ir_module_module_exclusion erp_manager`
+* **Gruppe**: *Administration / Zugriffsrechte*
+* **Berechtigung**: Alle
+
+* **Datenmodell**: `ir.actions.todo`
+* **Name**: `ir_actions_todo erp_manager`
+* **Gruppe**: *Administration / Zugriffsrechte*
+* **Berechtigung**: Alle

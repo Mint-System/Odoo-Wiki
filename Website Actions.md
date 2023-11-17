@@ -10,6 +10,21 @@ prev: ./website
 
 {{ $frontmatter.description }}
 
+## Aktionen
+
+### Zahlungstransaktion zurücksetzen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Zahlungstransaktion zurücksetzen`\
+Modell: `payment.transaction`\
+Folgeaktion: `Python-Code ausführen`
+
+```python
+records.write({'state': 'draft', 'last_state_change': False})
+```
+
+
 ## Automatische Aktionen
 
 ### Website Zahlungsreferenz entfernen
@@ -28,3 +43,6 @@ Zu schreibende Daten:
 * **Feld**: `reference`
 * **Bewertungstyp**: Python Ausdruck
 * **Wert**: `''`
+
+
+

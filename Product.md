@@ -46,4 +46,4 @@ Produkte sind Dreh- und Angelpunkt im Wertschöpfungsprozess des Unternehmens. D
 
 ### Produkte nur anzeigen
 
-Wenn Sie bestimmten Benutzer nur die Anzeige von Produkte, aber nicht die Erstellung erlaube nöchten. Müssen Sie sicherstellen, dass diese in er richtigen Anwendungs-Gruppe Mitglied sind. Navigieren Sie nach *Einstellungen > Technisch > Datenmodelle* und zeigen Sie den Eintrag *product.template* an. Im Tab *Zugriffsrechte* werden die Anwendungsgruppen und deren Zugriffe aufgelistet. Fügen Sie die ausgewählten Benutzer einer Gruppe mit Leseberechtigungen hinzu.
+Wenn Sie bestimmten Benutzer nur die Anzeige von Produkte, aber nicht die Erstellung erlaube nöchten. Müssen Sie sicherstellen, dass diese in er richtigen Anwendungs-Gruppe Mitglied sind. Navigieren Sie nach *Einstellungen > Technisch > Modelle* und zeigen Sie den Eintrag *product.template* an. Im Tab *Zugriffsrechte* werden die Anwendungsgruppen und deren Zugriffe aufgelistet. Fügen Sie die ausgewählten Benutzer einer Gruppe mit Leseberechtigungen hinzu.
