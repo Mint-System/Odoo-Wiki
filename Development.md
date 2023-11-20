@@ -105,11 +105,11 @@ Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitge
 
 ### Datenmodell anzeigen
 
-Öffnen Sie *Einstellungen > Technisch > Datenbankstruktur > Datenmodelle* und suchen Sie das entsprechende Datenmodell.
+Öffnen Sie *Einstellungen > Technisch > Datenbankstruktur > Modelle* und suchen Sie das entsprechende Datenmodell.
 
 ### Datenmodell entfernen
 
-Öffnen Sie *Einstellungen > Technisch > Datenbankstruktur > Datenmodelle* und suchen Sie das entsprechende Datenmodell. Markieren Sie dieses und wählen Sie *Aktion > Löschen*.
+Öffnen Sie *Einstellungen > Technisch > Datenbankstruktur > Modelle* und suchen Sie das entsprechende Datenmodell. Markieren Sie dieses und wählen Sie *Aktion > Löschen*.
 
 ::: warning
 Diese Vorgang kann die Integrität und Verfügbarkeit des Systems beeinträchtigen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
@@ -211,6 +211,10 @@ Erstellen Sie ein neues Feld unter *Einstellungen > Technisch > Datenbankstruktu
 ![](attachments/Entwicklung%20Neues%20Beziehungs-Feld%20hinzufügen.png)
 
 Dieses Feld können Sie nun in Berichten oder Listenansichten anzeigen.
+
+### Datenmodell für Webfomulare freischalten
+
+Navigieren Sie nach *Einstellungen > Technisch > Modelle* und zeigen Sie das Datenmodell an, welche Sie für Webformulare freischalten möchten. Im Tab *Webformulare* aktivieren Sie die Option *Nutzbar in Formularen*. Optional geben Sie eine Bezeichnung im Feld *Bezeichnung für die Formularaktion* ein und schränken die verfügbaren Felder mit *Feld für benutzerdefinierte Formulardaten* ein.
 
 ## Berechtigungen
 
