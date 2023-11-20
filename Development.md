@@ -214,7 +214,7 @@ Dieses Feld können Sie nun in Berichten oder Listenansichten anzeigen.
 
 ### Datenmodell für Webfomulare freischalten
 
-Navigieren Sie nach *Einstellungen > Technisch > Modelle* und zeigen Sie das Datenmodell an, welche Sie für Webformulare freischalten möchten. Im Tab *Webformulare* aktivieren Sie die Option *Nutzbar in Formularen*. Optional geben Sie eine Bezeichnung im Feld *Bezeichnung für die Formularaktion* ein und schränken die verfügbaren Felder mit *Feld für benutzerdefinierte Formulardaten* ein.
+Navigieren Sie nach *Einstellungen > Technisch > Modelle* und zeigen Sie das Datenmodell an, welche Sie für Webformulare freischalten möchten. Im Tab *Webformulare* aktivieren Sie die Option *Nutzbar in Formularen*. Geben Sie eine passe Bezeichnung im Feld *Bezeichnung für die Formularaktion* ein und schränken die verfügbaren Felder mit *Feld für benutzerdefinierte Formulardaten* ein.
 
 ## Berechtigungen
 
