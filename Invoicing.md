@@ -71,6 +71,18 @@ Wurde die erstellte Rechnung bereits auf Status *Gebucht* gesetzt, so kann diese
 
 Schliessen Sie den Vorgang mit *Gutschrift Erstellen* ab.
 
+#### Beispiel
+
+Eine Rechnung *Rechn/2023/08/0001* mit dem Betrag CHF 455.00 wurde bezahlt. Jetzt wird sie mit *Gutschrift Erstellen* in die Gutschrift* RRechn/2023/11/0001* umgewandelt und mit *Bestätigen* gebucht.
+Eine neue Rechnung *Rechn/2023/11/0001* vom gleichen Kunden wird erfasst. Der Betrag aus der Gutschrift erscheint als noch *Noch nicht ausgeglichene Zahlungen*:
+
+![](attachments/Pasted%20image%2020231120101808.png)
+
+Mit *Hinzufügen* wird der fällige Betrag um den Wert der Gutschrift reduziert:
+
+![](attachments/Pasted%20image%2020231120102432.png)
+
+
 ## Abrechnung
 
 ### Bank hinzufügen
