@@ -29,13 +29,13 @@ Zur Erfassung der Keditkartenzahlungen können Sie optional ein Bank-Journal ers
 
 Im Tab *Zahlungsausgänge* wählen Sie bei *Konto für ausstehende Zahlungen* das Konto *Kreditkarte Zahlungen* aus.
 
-## Zahlungsmethode Kreditkarte erstelle
+## Zahlungsmethode Kreditkarte erstellen
 
 Damit Sie Kreditkarten-Zahlungen erfassen können, braucht es eine neue [Zahlungsmethode](Finance%20Payments.md#Zahlungsmethode%20für%20Lieferantenrechnungen%20hinzufügen) *Kreditkarte* auf dem ausgewählten Bank-Journal. Wählen Sie bei *Konto für ausstehende Zahlungen* das Kreditkarten-Konto aus. Bei *Konto für ausstehende Zahlungen* wählen Sie das Konto *Kreditkarte Zahlungen* aus.
 
 ## Kreditkartenzahlung erfassen
 
-Wenn Sie eine Rechnung mit der Kreditkarte bezahlt haben, rufen Sie die entsprechende Rechnung auf und [erfassen eine Zahlung](Invoicing.md#Zahlung%20erfassen). Dabei wählen Sie *Kreditkarte* als *Zahlungsmethode*.
+Wenn Sie eine Rechnung mit der Kreditkarte bezahlt haben, rufen Sie die entsprechende Rechnung auf und [erfassen Sie eine Zahlung](Invoicing.md#Zahlung%20erfassen). Wählen Sie *Kreditkarte* als *Zahlungsmethode*.
 
 Die Rechnung wird als *In Zahlung* markiert und erwartet den Abgleich der Zahlung.
 
