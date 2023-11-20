@@ -18,6 +18,13 @@ Website: <https://www.odoo.com/de_DE/app/helpdesk>
 | ----------------------------------------------------------------- | -------------------------------------------------- |
 | [Kundendienst Datenmanagement](Helpdesk%20Data%20Management.md) | Daten zu Kundendienst exportieren und importieren. |
 
+## Erweiterungen
+
+
+| Erweiterung                                     | Beschreibung                |
+| ----------------------------------------------- | --------------------------- |
+| [Helpdesk Management](Helpdesk%20Management.md) | Helpdesk Community Edition. |
+
 ## Organisation
 
 ### Team anlegen
