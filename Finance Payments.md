@@ -87,6 +87,21 @@ Zeigen Sie eine Rechnung via *Finanzen > Kunden > Rechnungen* an und öffnen Sie
 
 ## Ausgehende Zahlungen
 
+### Ausgehende Zahlung erfassen
+
+Navigieren Sie nach *Finanzen > Lieferanten > Zahlungen* und erstellen Sie einen Eintrag
+
+* **Zahlungsart**: Wählen Sie hier *Ausgehend*
+* **Kunde**: Wählen Sie den Lieferanten welcher die Zahlung erhält
+* **Betrag**: Geben Sie hier den zu schuldenden Betrag ein
+* **Datum**: Das ist das Datum an dem die Zahlung erfolgt ist
+* **Memo**: Tragen Sie hier die Zahlungsreferenz des Lieferanten ein
+* **Journal**: Hier wählen Sie das passende Journal (Bank oder Kasse) aus
+* **Zahlungsmethode**: Wählen Sie die passende Zahlungsmethode aus
+* **Bankkonto des Lieferanten**: Ist erforderlich, wenn es sich um eine SEPA-Zahlung handelt
+
+Buchen Sie die Zahlung mit *Bestätigung*.
+
 ### Zahlungsmethode für Lieferantenrechnungen hinzufügen
 
 Zeigen Sie ein Bank-Journal via *Finanzen > Konfiguration > Journale* an. Fügen Sie einen Eintrag unter *Zahlungsausgänge* hinzu um eine neue Zahlungsmethode für Lieferantenrechnungen zu erhalten. Optional können Sie das Standardkonto für Zahlungen im Feld *Konten für ausstehende Zahlungen* übersteuern.

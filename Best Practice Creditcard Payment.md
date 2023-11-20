@@ -43,6 +43,10 @@ Die Rechnung wird als *In Zahlung* markiert und erwartet den Abgleich der Zahlun
 Die können die Kreditkartennummer als *Bankkonto des Lieferanten* festlegen.
 :::
 
+## Kreditkartenzahlung ohne Rechnung erfassen
+
+Wenn Sie keine Rechnung zur Kreditkartenzahlung haben, können Sie [[]] 
+
 ## Kreditkartenzahlungen abgleichen
 
 Ihre Kreditkarte wurde abgerechnet und Sie haben den Kontoauszug importiert. Wenn Sie die [Abstimmung durchführen](Finance%20Reconcile.md#Abstimmung%20durchführen) wählen Sie für die Position Kreditkartenabrechnung alle mit der Kreditkarte getätigten Zahlungen aus.
