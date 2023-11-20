@@ -62,6 +62,10 @@ Loggen Sie sich mit ihrem Google-Konto ein. Falls nun eine Warnung *Google hasn'
 
 Erlbauen Sie den Zugriff auf ihren Kalender. Anschliessend werden Sie zu Odoo zurückgeleitet.
 
+::: tip
+Der Google-Account und der Odoo-Account sollten die gleiche E-Mail-Adresse haben.
+:::
+
 ### Outlook-Kalender-Synchronisation einrichten
 
 Wenn Sie die [Outlook-Kalender-Synchronisation aktivieren](#Outlook-Kalender-Synchronisation%20aktivieren), können Mitarbeitende den Odoo Kalender mit dem Outlook Kalender synchronsieren.
@@ -83,3 +87,7 @@ Anschliessend werden Sie zurück nach Odoo umgleitet und die Termine werden sync
 Für jeden Odoo-Benutzer, der die Kalender-Synchronisation einrichtet, speichert Odoo sog. Tokens ab. Zeigen Sie einen Benutzer via *Einstellungen > Benutzer und Unternehmen > Benutzer* an und öffnen Sie den Tab *Kalender*. Hier sehen Sie die Tokens, die Odoo für die Benutzer speichert, um auf die Schnittstelle des Kalender-Anbieter zuzugreifen.
 
 ![](attachments/Kalender%20Benutzer%20Outlook%20Tokens.png)
+
+### Google-Kalender-Synchronisation zurücksetzen
+
+Rufen Sie die ihren Benutzer unter *Einstellungen > Benutzer und Unternehmen > Benutzer*  auf und zeigen Sie den Tab *Kalender* an. Wählen Sie die Aktion *Account Zurücksetzen*

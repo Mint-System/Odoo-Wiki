@@ -419,3 +419,36 @@ Quelle: <https://stackoverflow.com/questions/53989761/odoo12-database-backup-no-
 **Lösung**
 
 Aktualisieren Sie die Version des Datenbank-Containers oder Downgraden Sie den Client im Odoo-Container.
+
+## Kalender
+
+### Google Synchronisation schlägt fehl
+
+**Problem**
+
+Termine werden nur noch beim anlegen mit dem Google-Kalender synchronisiert. Umgekehrt erfolgt keine Synchronisation.
+
+**Ursache**
+
+**Lösung**
+
+Sie müssen die [Google-Kalender-Synchronisation zurücksetzen](Calendar.md#Google-Kalender-Synchronisation%20zurücksetzen).
+
+### Fehler Kalender mit Wiederholungstermin
+
+**Problem**
+
+Beim Aufruf des Kalenders erscheint diese Meldung:
+
+```
+Sie müssen mindestens einen Tag der Woche auswählen.
+You have to choose at least one day in the week
+```
+
+**Ursache**
+
+Ein Termin mit Wiederholung konnte nicht korrekt synchronisiert werden.
+
+**Lösung**
+
+Sie müssen die [Google-Kalender-Synchronisation zurücksetzen](Calendar.md#Google-Kalender-Synchronisation%20zurücksetzen).

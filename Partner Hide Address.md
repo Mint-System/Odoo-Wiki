@@ -1,6 +1,6 @@
 ---
 title: Partner Hide Address
-description: Addressen auf Berichten ausblenden.
+description: Adressen auf Berichten ausblenden.
 tags:
 - HowTo
 - Drittanbieter

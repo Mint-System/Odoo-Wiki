@@ -33,7 +33,7 @@ prev: ./
 | [Partner Contact Personal Information Page](Partner%20Contact%20Personal%20Information%20Page.md) | Tab in Kontakt-Formular für persönliche Informationen.            |
 | [Partner Duplicate Acc Number](Partner%20Duplicate%20Acc%20Number)                                | Kontonummer für mehrere Bankkonten verwenden                      |
 | [Partner Firstname](Partner%20Firstname.md)                                                       | Unterscheidet Vor- und Nachnamen.                                 |
-| [Partner Hide Address](Partner%20Hide%20Address.md)                                               | Addressen auf Berichten ausblenden.                               |
+| [Partner Hide Address](Partner%20Hide%20Address.md)                                               | Adressen auf Berichten ausblenden.                               |
 | [Partner Multi Pricelist](Partner%20Multi%20Pricelist.md)                                         | Mehrere Preislisten mit Start- und Enddatum auf Kunden festlegen. |
 | [Partner Multiline Street2](Partner%20Multiline%20Street2.md)                                     | Mehrzeiliger Text in zweiter Strasse hinzufügen.                  |
 | [Partner Ref Sequence](Partner%20Ref%20Sequence.md)                                               | Automatische Vergabe der Kontakt-Referenz.                        |
@@ -115,6 +115,10 @@ Auf jedem Odoo-Kontakt ist eine gewerbliche Einheit hinterlegt. Diese definiert 
 Wenn Sie Unternehmen mit Kontakten haben, können Sie auf den Kontakten einen Typ festlegen. Zeigen Sie unter *Kontakte* ein Unternehmen an und klicken Sie im Tab *Kontakte & Adresse* auf eine Eintrag. Im Kontakformular erscheint nun ein Feld um den Kontakttyp auszuwählen.
 
 ![](attachments/Partner%20Select%20Type.png)
+
+::: warnung
+Der Kontakttyp *Privatadresse* darf nur für die private Adresse im Personal verwendet werden. Siehe [Private Adresse hinterlegen](HR.md#Private%20Adresse%20hinterlegen).
+:::
 
 ### Kontaktandreden verwalten
 
