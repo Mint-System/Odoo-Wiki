@@ -45,7 +45,7 @@ Die können die Kreditkartennummer als *Bankkonto des Lieferanten* festlegen.
 
 ## Kreditkartenzahlung ohne Rechnung erfassen
 
-Wenn Sie keine Rechnung zur Kreditkartenzahlung haben, können Sie [[]] 
+Wenn Sie keine Rechnung zur Kreditkartenzahlung haben, können Sie direkt eine [ausgehende Zahlung erfassen](Finance%20Payments.md#Ausgehende%20Zahlung%20erfassen). Wählen Sie *Kreditkarte* als *Zahlungsmethode*.
 
 ## Kreditkartenzahlungen abgleichen
 
