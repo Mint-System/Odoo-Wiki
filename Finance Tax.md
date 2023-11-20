@@ -14,7 +14,7 @@ prev: ./finance
 
 ### Nach vereinnahmten Entgelten verrechnen
 
-Wenn Sie die Mehrwertsteuer nach vereinnahmten Entgelten abrechnen wolle, navigieren Sie nach *Einstellungen > Finanzen > Steuern* und aktivieren Sie die Option *Nach vereinnahmten Entgelten*. Legen Sie anschliessen ein Journal im Feld *Journal für die Besteuerung nach vereinnahmten Entgelten* und ein Konto im Feld *Konto für erhaltenen Steuerbetrag* fest.
+Wenn Sie die Mehrwertsteuer nach vereinnahmten Entgelten abrechnen wolle, navigieren Sie nach *Einstellungen > Finanzen > Steuern* und aktivieren Sie die Option *Nach vereinnahmten Entgelten*. Legen Sie anschliessend ein Journal im Feld *Journal für die Besteuerung nach vereinnahmten Entgelten* und ein Konto im Feld *Konto für erhaltenen Steuerbetrag* fest.
 
 * **Journal**: Steuern
 * **Konto**: 2202 Umsatzsteuerausgleich Abrechnungsmethode 
@@ -141,6 +141,32 @@ Diese Option funktioniert nur für EU-Länder. Damit die OSS-Steuersätze einem 
 ### Steuerzuordnung für EU-Ausland aktualisieren
 
 Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und führen Sie die Aktion *Refresh tax mappings* aus.
+
+### VAT-Steuersatz manuell erfassen
+
+Wenn Sie die VAT-Steuersätze manuell erfassen möchten, gehen Sie folgt vor. Navigieren Sie nach *Finanzen > Konfiguration > Steuern* und erstellen Sie einen neuen Eintrag:
+
+* **Steuerbezeichnung**: 20.0% FR VAT
+* **Steuertyp**: Verkauf
+* **Betrag**: 20.0000
+* **Verteilung für Rechnungen**:
+
+|      % | Basiert auf | Konto                     | Steuerraster |
+| ------:| ----------- | ------------------------- | ------------ |
+|        | Basis       |                           | OSS          |
+| 100.00 | der Steuer  | 2202 Geschuldete VAT (EU) | OSS          |
+
+* **Verteilung für Gutschriften**:
+
+|      % | Basiert auf | Konto                     | Steuerraster |
+| ------:| ----------- | ------------------------- | ------------ |
+|        | Basis       |                           | OSS          |
+| 100.00 | der Steuer  | 2202 Geschuldete VAT (EU) | OSS          |
+
+* **Bezeichnung auf Rechnungen**: 20%
+* **Steuergruppe**: OSS 20.0%
+
+Wiederholgen Sie diesen Vorgang für jedes EU-Land.
 
 ## Abrechnung
 

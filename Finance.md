@@ -52,6 +52,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Statement Import Base](Account%20Statement%20Import%20Base.md)                                    | Basismodul für Import Bankauszüge.                                          |
 | [Account Statement Import CAMT](Account%20Statement%20Import%20CAMT.md)                                    | Support Import Bankauszug im Camt-Format.                                   |
 | [Account Statement Import Camt54](Account%20Statement%20Import%20Camt54.md)                                | Camt54 Bankauszug mit Details zu Einzahlungen importieren.                  |
+| [Account Usability](Account%20Usability.md)                                                                | Menüs der Enterprise Finanzbuchhaltung für Community.                       |
 | [Account statement Import](Account%20statement%20Import.md)                                                | Bankauszüge importieren.                                                    |
 | [Contract Sale Generation](Contract%20Sale%20Generation.md)                                                | Aus wiederholenden Verträge Verkaufsangebote generieren.                    |
 | [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                      | PDF-Dokumenten von Rechnungen zusammenführen.                               |

@@ -50,7 +50,7 @@ Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und 
 
 ### Entfernen von Abonnenten für Datenmodell deaktivieren
 
-Wenn Sie für bestimmten Geschäftsobjekte verhindern möchten, dass die Abonnenten vor dem Versenden einer Nachricht entfernt werden, navigieren Sie nach *Einstellungen > Technisch > Datenmodelle* und suchen das entsprechende Datenmodell. Entfernen Sie die Markierung bei *Unsubscribe before Message Post*.
+Wenn Sie für bestimmten Geschäftsobjekte verhindern möchten, dass die Abonnenten vor dem Versenden einer Nachricht entfernt werden, navigieren Sie nach *Einstellungen > Technisch > Modelle* und suchen das entsprechende Datenmodell. Entfernen Sie die Markierung bei *Unsubscribe before Message Post*.
 
 ## Verwendung
 
