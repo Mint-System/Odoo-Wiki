@@ -18,7 +18,7 @@ Repository: <https://github.com/OCA/bank-payment/tree/16.0/account_payment_mode>
 
 Diese Erweiterung ermöglicht die Verwaltung von Zahlungsmodis.
 
-## Verwendung
+## Konfiguration
 
 ### Zahlungsmodus erfassen
 
@@ -28,6 +28,12 @@ Navigieren Sie nach *Finanzen > Konfiguration > Verwaltung > Zahlungsmodi*. Erst
 * **Zahlungsmethode**: Zahlungsmethode auswählen, beispielsweise *\[manual\] Manuell (outbound)*
 * **Verbindung zum Bankkonto**: Wählen Sie hier *Variable*
 * **Erlaubte Banken Logbuch**: Wählen Sie hier ein bestimmtes Bankjournal aus
+
+## Verwendung
+
+### Zahlungsmodus auf Lieferantenrechnung festlegen
+
+Navigieren Sie nach *Finanzen > Lieferanten > Rechnungen* und zeigen Sie eine Lieferantenrechnung an. Treffen Sie im Feld *Zahlungsmodus* eine Auswahl.
 
 ## Automatisierte Aktionen
 
