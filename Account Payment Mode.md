@@ -24,7 +24,7 @@ Diese Erweiterung ermöglicht die Verwaltung von Zahlungsmodis.
 
 Navigieren Sie nach *Finanzen > Konfiguration > Verwaltung > Zahlungsmodi*. Erstellen Sie eine neuen ### Zahlungsmodus erfassen:
 
-* **Name**: Name des Zahlungsmodus, beispielsweise *Kreditkarte (Bank)*
+* **Name**: Name des Zahlungsmodus, beispielsweise *Manuell Bank*
 * **Zahlungsmethode**: Zahlungsmethode auswählen, beispielsweise *\[manual\] Manuell (outbound)*
 * **Verbindung zum Bankkonto**: Wählen Sie hier *Variable*
 * **Erlaubte Banken Logbuch**: Wählen Sie hier ein bestimmtes Bankjournal aus
