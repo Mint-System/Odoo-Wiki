@@ -68,13 +68,13 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Verkaufsaufträge können Sie die Einträge markieren und *Aktion > Verkaufsauftrag abbrechen* auswählen.
 
-## Automatische Aktionen
+## Automatisierte Aktionen
 
 ### Angebot automatisch bestätigen
 
 Mit dieser automatischen Aktion wird ein Angebot mit einem bestimmten Attribut (Beispiel: `partner_id.address_checked`) automatisch bestätigt.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Angebot automatisch bestätigen`\
 Modell: `sale.order`\
@@ -94,7 +94,7 @@ for rec in records:
 
 Mit dieser automatischen Aktion wird ein Angebot mit einem bestimmten Attribut (Beispiel: `x_as4import`) automatisch bestätigt. Rechnungen werden erstellt und ebenfalls bestätigt.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Angebot bestätigen und Rechnungen erstellen`\
 Modell: `sale.order`\

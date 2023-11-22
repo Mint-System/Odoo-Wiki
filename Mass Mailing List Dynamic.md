@@ -18,7 +18,7 @@ Repository: <https://github.com/OCA/social/tree/16.0/mass_mailing_partner>
 
 ### Synchronisierte Mailingliste erstellen
 
-Mit dieser Erweiterung können Sie beispielsweise anhand ausgewählter Stichwörter die Einträge aus Kontakte mit den Kontakten einer Mailingliste synchronisieren. Dazu müssen Sie als erstes [Kontakt-Stichwörter anlegen](Partner.md#Kontakt-Stichwörter%20anlegen).
+Mit dieser Erweiterung können Sie beispielsweise anhand ausgewählter Stichwörter die Einträge aus Kontakte mit den Kontakten einer Mailingliste synchronisieren. Dazu müssen Sie als erstes [Kontakt-Stichwörter anlegen](Contacts.md#Kontakt-Stichwörter%20anlegen).
 
 Navigieren Sie nach *E-Mail-Marketing > Mailinglisten > Mailinglisten* und erstellen Sie eine neue Liste. Aktivieren Sie die Option *Dynamic*. Im Feld *Synchronization critera* können Sie den Kontakt-Filter definieren. Die Filterung der Kontakte anhand eines Stichworts sieht wie folgt aus:
 

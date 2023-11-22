@@ -4,7 +4,7 @@ description: Zweite E-Mail für alle Kontakte.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./partner
+prev: ./contacts
 ---
 # Partner Secondary Email
 ![](attachments/icon_oms_box.png)

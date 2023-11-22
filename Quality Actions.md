@@ -12,13 +12,13 @@ prev: ./quality
 
 {{ $frontmatter.description }}
 
-## Automatische Aktionen
+## Automatisierte Aktionen
 
 ### Qualitätskontrolle archivieren
 
 Mit dieser Aktion werden Qualitätskontrolle vom Typ *Register Consumed Materials* bei Erstellung archiviert.
 
-Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatische Aktionen* und erstellen Sie den folgenden Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatisierte Aktionen* und erstellen Sie den folgenden Eintrag:
 
 * Name der Aktion: `Qualitätskontrolle entfernen`
 * Modell: `quality.check`

@@ -4,7 +4,7 @@ description: Adressen auf Berichten ausblenden.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./partner
+prev: ./contacts
 ---
 # Partner Hide Address
 ![](attachments/icon_oms_box.png)

@@ -22,6 +22,7 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 
 | Erweiterung                                                                             | Beschreibung                                                                              |
 | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| [Account Payment Purchase](Account%20Payment%20Purchase.md)                             | Zahlungsmodus auf Bestellung festlegen.                                                   |
 | [Pruchase Order Line Position](Purchase%20Order%20Line%20Position.md)                   | Einkaufsaufträge mit Positionsnummern.                                                    |
 | [Purchase Order Address](Purchase%20Order%20Address.md)                                 | Bestelladresse von Kunden auf Angebotsanfrage gespeichert.                                |
 | [Purchase Order Comment](Purchase%20Order%20Comment.md)                                 | Kommentar-Feld für Einkaufsaufträge.                                                      |

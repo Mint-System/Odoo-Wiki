@@ -300,13 +300,13 @@ for invoice in invoice_ids:
     # raise UserError([invoice.name, refs, invoice_date, last_date,  invoice_date <= last_date, add_month(invoice_date)])
 ```
 
-## Automatische Aktionen
+## Automatisierte Aktionen
 
 ### Lieferantenrechnung zur Prüfung markieren
 
 Mit dieser automatischen Aktion wird die Option *Zum Überprüfen* bei der Erstellung einer Lieferantenrechnung  aktiviert.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Lieferantenrechnung zur Prüfung markieren`\
 Modell: `account.move`\

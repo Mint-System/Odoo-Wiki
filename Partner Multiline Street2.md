@@ -4,7 +4,7 @@ description: Mehrzeiliger Text in zweiter Strasse hinzufügen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./partner
+prev: ./contacts
 ---
 # Partner Multiline Street2
 ![icon_oms_box](attachments/icon_oms_box.png)

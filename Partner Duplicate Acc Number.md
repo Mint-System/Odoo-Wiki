@@ -4,7 +4,7 @@ description: Kontonummer für mehrere Bankkonten verwenden
 tags:
 - HowTo
 - Drittanbieter
-prev: ./partner
+prev: ./contacts
 ---
 # Partner Duplicate Acc Number
 ![](attachments/icon_oms_box.png)

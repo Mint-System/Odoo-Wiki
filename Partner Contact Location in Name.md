@@ -4,7 +4,7 @@ description: PLZ und Stadt in Kontaktauswahl anzeigen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./partner
+prev: ./contacts
 ---
 # Partner Contact Location in Name
 ![icon_oms_box](attachments/icon_oms_box.png)

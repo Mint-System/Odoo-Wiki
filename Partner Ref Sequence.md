@@ -4,7 +4,7 @@ description: Automatische Vergabe der Kontakt-Referenz.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./partner
+prev: ./contacts
 ---
 # Partner Ref Sequence
 ![icon_oms_box](attachments/icon_oms_box.png)

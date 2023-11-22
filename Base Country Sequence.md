@@ -4,7 +4,7 @@ description: Länder-Liste manuell sortieren.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./partner
+prev: ./contacts
 ---
 # Base Country Sequence
 ![icon_oms_box](attachments/icon_oms_box.png)

@@ -4,7 +4,7 @@ description: Unterscheidet Vor- und Nachnamen.
 tags:
 - HowTo
 - OCA
-prev: ./partner
+prev: ./contacts
 ---
 # Partner first name and last name
 ![icon_oca_app](attachments/icon_oca_app.png)

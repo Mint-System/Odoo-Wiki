@@ -3,7 +3,7 @@ title: Kontakte Datenmanagement
 description: Daten zu Kontakte exportieren und importieren.
 tags:
 - HowTo
-prev: ./partner
+prev: ./contacts
 ---
 # Kontakte Datenmanagement
 ![icons_odoo_website_sale_options](attachments/icons_odoo_website_sale_options.png)

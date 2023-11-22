@@ -917,13 +917,13 @@ if error_msg:
 ```
 
 
-## Automatische Aktionen
+## Automatisierte Aktionen
 
 ### Lieferung erledigen wenn bereit
 
 Mit dieser automatischen Aktion wird eine Lieferung im Status *Bereit* die erledigte Menge gleich der Bedarfsmenge gesetzt und erledigt.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Lieferung erledigen wenn bereit`\
 Modell: `stock.picking`\
@@ -949,7 +949,7 @@ for picking in records:
 
 Mit dieser automatischen Aktion wird auf Verpackung das Liefergewicht aus dem geschäftzten Produktgewicht und dem Gewicht der Verpackung berechnet.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Liefergewicht von Verpackung berechnen`\
 Modell: `stock.quant.package`\

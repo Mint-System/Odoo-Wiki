@@ -176,7 +176,7 @@ Für Angebote können Sie eine separate Rechnungs- und Lieferadresse festlegen. 
 
 ### Kunde anhand Adresstyp auswählen
 
-Wenn Sie eine Rechnungs- oder Lieferadresse mit gleichen Anzeigename wie der Hauptkontakt gespeichert haben, können diese im Feld *Kunde* nicht unterschieden werden. Um sicherzustellen, dass die korrekte Adresse gewählt wurde, können Sie die [Rechnungsadresse in Anzeigenamen einblenden](Partner.md#Rechnungsadresse%20in%20Anzeigenamen%20einblenden) oder über die erweiterte Suche anzeigen:
+Wenn Sie eine Rechnungs- oder Lieferadresse mit gleichen Anzeigename wie der Hauptkontakt gespeichert haben, können diese im Feld *Kunde* nicht unterschieden werden. Um sicherzustellen, dass die korrekte Adresse gewählt wurde, können Sie die [Rechnungsadresse in Anzeigenamen einblenden](Contacts.md#Rechnungsadresse%20in%20Anzeigenamen%20einblenden) oder über die erweiterte Suche anzeigen:
 
 ![](attachments/Verkauf%20Kontakt-Suche.png)
 

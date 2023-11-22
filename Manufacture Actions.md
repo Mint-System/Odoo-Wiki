@@ -90,13 +90,13 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 Im Fertigungsauftrag erscheint nun in der Auswahl *Aktion* das Menu *Material-Reservation entfernen*.
 
-## Automatische Aktionen
+## Automatisierte Aktionen
 
 ### Lot-Nummer generieren
 
 Mit dieser automatischen Aktion wird bei der Bestätigung des Fertigungsauftrag automatisch eine Seriennummmer für das zu fertigende Produkt generiert.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Lot-Nummer generieren`\
 Modell: `mrp.production`\

@@ -4,7 +4,7 @@ description: Eindeutige Nummer auf Bank festlegen.
 tags:
 - HowTo
 - OCA
-prev: ./partner
+prev: ./contacts
 ---
 # Partner Bank Code
 ![icon_oca_app](attachments/icon_oca_app.png)
@@ -20,13 +20,13 @@ Repository: <https://github.com/OCA/partner-contact/tree/16.0/partner_bank_code>
 
 Navigieren Sie nach *Kontakte > Konfiguration > Bankverzeichnis* und zeigen Sie einen Eintrag an. Im Feld *Bank Code* können Sie eine eindeutige Nummer, beispielsweise die *SIC*,  hinterlegen.
 
-## Automatische Aktionen
+## Automatisierte Aktionen
 
 ### Bankkonto mit Bank verknüpfen
 
 Mit dieser Aktion versucht Odoo anhand des *Bank Code* in der IBAN eine passende Bank im Bank-Verzeichnis zu finden.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatische Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Bankkonto mit Bank verknüpfen`\
 Modell: `res.partner.bank`\

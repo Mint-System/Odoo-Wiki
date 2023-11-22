@@ -4,7 +4,7 @@ description: Abteilung auf Kontakten speichern.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./partner
+prev: ./contacts
 ---
 # Partner Contact Department Note
 ![icon_oms_box](attachments/icon_oms_box.png)

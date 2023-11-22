@@ -170,13 +170,13 @@ Mit diesem Knopf können Sie den E-Mail-Dialog öffnen.
 
 ![Entwicklung Aktionen Compose E-Mail](attachments/Entwicklung%20Aktionen%20Compose%20E-Mail.gif)
 
-## Automatische Aktionen
+## Automatisierte Aktionen
 
 ### Beim Aktualisieren eine Validierung ausführen
 
 Mit *Automatischen Aktionen* kann ein Datensatz, der aktualisiert wurde, zusätzlich validiert werden. In unserem Beispiel wollen wir unterbinden, dass Qualitätsalarme auf bestimmte Stufen gesetzt werden.
 
-Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatische Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatisierte Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Modell: `Qualitätsalarm`\
 Auslöser: Beim Aktualisieren\

@@ -215,7 +215,7 @@ Termine Team- und Anwendungs-übergreifend organisieren.
 
 In wenigen Minuten einrichten, innerhalb von Sekunden verkaufen. 
 
-### [Kontakte](Partner.md)
+### [Kontakte](Contacts.md)
 
 ![icons_odoo_contacts](attachments/icons_odoo_contacts.png)
 

@@ -4,7 +4,7 @@ description: Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./partner
+prev: ./contacts
 ---
 # Partner Type Order
 ![icon_oms_box](attachments/icon_oms_box.png)

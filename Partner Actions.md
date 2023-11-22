@@ -3,7 +3,7 @@ title: Kontakte Aktionen
 description: Arbeitsflüsse mit Kontakte automatisieren.
 tags:
 - HowTo
-prev: ./partner
+prev: ./contacts
 ---
 # Kontakte Aktionen
 ![icons_odoo_website_sale_options](attachments/icons_odoo_website_sale_options.png)

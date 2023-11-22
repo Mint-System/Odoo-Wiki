@@ -49,6 +49,8 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Move Line Position](Account%20Move%20Line%20Position.md)                                          | Positionsnummer anzeigen und aus Verkaufs- oder Einkaufsauftrag verlinken.  |
 | [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                                                  | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt. |
 | [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                      | Zeigt für eine Rechnung das definitive Abgleichsdatum an.                   |
+| [Account Payment Mode](Account%20Payment%20Mode.md)                                                        | Bezahlmethoden definieren.                                                  |
+| [Account Payment Order](Account%20Payment%20Order.md)                                                      | Stapelzahlungen für die Odoo Community Edition.                             |
 | [Account Statement Import Base](Account%20Statement%20Import%20Base.md)                                    | Basismodul für Import Bankauszüge.                                          |
 | [Account Statement Import CAMT](Account%20Statement%20Import%20CAMT.md)                                    | Support Import Bankauszug im Camt-Format.                                   |
 | [Account Statement Import Camt54](Account%20Statement%20Import%20Camt54.md)                                | Camt54 Bankauszug mit Details zu Einzahlungen importieren.                  |

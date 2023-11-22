@@ -4,7 +4,7 @@ description: Erweitert das Adressbuch mit Abteilungen.
 tags:
 - HowTo
 - OCA
-prev: ./partner
+prev: ./contacts
 ---
 # Partner Contact Department
 ![icon_oca_app](attachments/icon_oca_app.png)

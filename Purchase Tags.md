@@ -24,4 +24,4 @@ Navigieren Sie nach *Einkauf > Konfiguration  > Tags*. Hie können Sie die auf d
 
 ### Stichwörter hinzufügen
 
-Zeigen Sie eine Bestellung in *Einkauf* an. Im Feld *Tags* können Sie ein oder mehrere Stichwörter auswählen.  
+Zeigen Sie eine Bestellung in *Einkauf* an. Im Feld *Tags* können Sie ein oder mehrere Stichwörter auswählen.

@@ -4,7 +4,7 @@ description: Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./partner
+prev: ./contacts
 ---
 # Partner Type Sale
 ![icon_oms_box](attachments/icon_oms_box.png)

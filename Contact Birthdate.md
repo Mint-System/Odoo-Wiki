@@ -4,7 +4,7 @@ description: Geburtstag bei Kontakten speichern für tolle Erinnerungen.
 tags:
 - HowTo
 - OCA
-prev: ./partner
+prev: ./contacts
 ---
 # Contact Birthdate
 ![icon_oca_app](attachments/icon_oca_app.png)

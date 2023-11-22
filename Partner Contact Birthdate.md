@@ -4,7 +4,7 @@ description: Feld Geburtstag und Alter auf Kontakt vom Typ Einzelperson.
 tags:
 - HowTo
 - OCA
-prev: ./partner
+prev: ./contacts
 ---
 # Contact's birthdate
 ![icon_oca_app](attachments/icon_oca_app.png)

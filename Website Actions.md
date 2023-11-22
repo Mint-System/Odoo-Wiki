@@ -25,7 +25,7 @@ records.write({'state': 'draft', 'last_state_change': False})
 ```
 
 
-## Automatische Aktionen
+## Automatisierte Aktionen
 
 ### Website Zahlungsreferenz entfernen
 

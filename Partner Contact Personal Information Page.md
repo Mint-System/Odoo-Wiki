@@ -4,7 +4,7 @@ description: Tab in Kontakt-Formular für persönliche Informationen.
 tags:
 - HowTo
 - OCA
-prev: ./partner
+prev: ./contacts
 ---
 # Personal information page for contacts
 ![icon_oca_app](attachments/icon_oca_app.png)

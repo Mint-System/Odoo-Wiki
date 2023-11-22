@@ -4,7 +4,7 @@ description: Zweitname für Unternehmen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./partner
+prev: ./contacts
 ---
 # Partner Secondary Name
 ![](attachments/icon_oms_box.png)
