@@ -14,10 +14,14 @@ prev: ./purchase-requisition
 Technischer Name: `purchase_tag`\
 Repository: <https://github.com/OCA/purchase-workflow/tree/14.0/purchase_tag>
 
+## Konfiguration
+
+### Stichwörter verwalten
+
+Navigieren Sie nach *Einkauf > Konfiguration  > Tags*. Hie können Sie die auf der Bestellung verfügbaren Stichwörter verwalten.
+
 ## Verwendung
 
 ### Stichwörter hinzufügen
 
-Mit dieser Erweiterung können Sie auf Bestellungen im Tab *Weitere Informationen* Stichwörter hinzufügen.
-
-![](attachments/Purchase%20Tags.png)
+Zeigen Sie eine Bestellung in *Einkauf* an. Im Feld *Tags* können Sie ein oder mehrere Stichwörter auswählen.  
