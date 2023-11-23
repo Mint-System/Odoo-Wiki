@@ -1,12 +1,12 @@
 ---
-title: Hr Attendance Delta
+title: HR Attendance Delta
 description: Berechnet Zeitspanne zwischen Anwesenheitseinträgen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./hr-holidays
+prev: ./hr-attendance
 ---
-# Hr Attendance Delta
+# HR Attendance Delta
 ![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
