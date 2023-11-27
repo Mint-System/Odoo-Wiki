@@ -14,6 +14,10 @@ prev: ./sale
 
 Diese App gibt es ab #Odoo16.
 
+### Gutschein für Verkaufsauftrag erstellen
+
+Navigieren Sie nach *Verkauf > Produkte > Rabatt & Treue* und klicken Sie auf *Gutscheine für nächsten Einkauf*.
+
 ### Rabatt bei Mindestbestellung von Produkt erstellen
 
 Zeigen Sie *Verkauf > Produkte > Rabatt & Treue* an und erstellen Sie einen neuen Eintrag.
