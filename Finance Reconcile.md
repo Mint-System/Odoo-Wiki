@@ -88,3 +88,8 @@ Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journal
 ### Währungsbetrag in Bankauszug korrigieren
 
 Zeigen Sie das Dashboard *Finanzen* an und wählen Sie für ein Bank-Journal *Kontext-Menü > Vorgänge*. Suchen Sie hier nach der Zeile mit dem falschen Währungsbetrag und öffnen Sie diese Zeile. Bearbeiten Sie den Betrag.
+
+### Abstimmung zurücksetzen
+
+Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge*. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Wechseln Sie über *Ansicht* in den Dialog für den Abgleich und wählen Sie *Zurücksetzen*.
+![](attachments/Abstimmung%20zurücksetzen.gif)
