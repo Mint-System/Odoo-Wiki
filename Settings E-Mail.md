@@ -151,15 +151,13 @@ Abhängig vom Mail-Provider darf die Absender-Adresse nicht von der Adresse des 
 Damit die Antwort-Adresse aus der Konfiguration der Mail-Vorlage übernommen wird, muss 
 der Eintrag `mail.catchall.domain` unter *Einstellungen > Technisch > Parameter > Systemparameter* entfernt werden.
 
-In der E-Mail-Vorlage muss im Tab *E-Mail-Konfiguration* das feld *Antwort an* gesetzt sein.
+In der E-Mail-Vorlage muss im Tab *E-Mail-Konfiguration* das Feld *Antwort an* gesetzt sein.
 
 ![](attachments/Einstellungen%20E-Mail%20Konfiguration.png)
 
 ### E-Mail nach Versand nicht löschen
 
 Damit E-Mail nach dem Versand nicht aus der Odoo-Datenbank und dem Postfach gelöscht wird, können Sie in den E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > Vorlagen > Vorlage auswählen > Tab Erweiterte Einstellungen* die Option *Autom. Löschen* deaktivieren.
-
-Nach dem Versand der E-Mail können Sie die [E-Mail anzeigen](Discuss%20E-Mail.md#E-Mail%20anzeigen).
 
 ## Testen
 

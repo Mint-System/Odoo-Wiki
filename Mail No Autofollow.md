@@ -20,7 +20,7 @@ Die Funktionen dieser App sind limitiert, verwenden Sie [Mail Unsubscribe](Mail%
 
 ## Verwendung
 
-### Automatische Abonnierung beim Erstellen Nachricht verhindern
+### Automatische Abonnement beim Erstellen einer Nachricht verhindern
 
 Mit dieser Erweiterungen werden die Empfänger beim Erstellen einer Nachricht nicht automatisch abonniert.
 
