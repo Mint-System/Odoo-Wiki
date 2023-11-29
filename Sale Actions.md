@@ -112,9 +112,9 @@ for invoice in records.invoice_ids:
   invoice.action_post()
 ```
 
-### Abonementen auf Angebot entfernen
+### Abonnemente auf Angebot entfernen
 
-Name der Aktion: `Abonementen auf Angebot entfernen`\
+Name der Aktion: `Abonemente auf Angebot entfernen`\
 Modell: `sale.order`\
 Auslöser: Bei Erstellung und Aktualisierung\
 Python Code:
@@ -125,4 +125,43 @@ for rec in records:
   unsubscribe_ids = rec.message_partner_ids.filtered(lambda p: p not in allow_ids)
   if unsubscribe_ids:
     rec.message_unsubscribe(unsubscribe_ids.ids)
+```
+
+### Abonnement für Kontakt anlegen und bestätigen
+
+Mit dieser automatisierten Aktion wird für einen Kontakt automatisch ein Abonnement angelegt.
+
+Name der Aktion: `Abonnement für Kontakt anlegen und bestätigen`\
+Modell: `res.partner`\
+Auslöser: Bei Erstellung und Aktualisierung\
+Auslöser-Felder: `backup_membership`\
+Anwenden auf: `[("backup_membership", "!=", False)]`
+Python Code:
+
+```python
+for rec in records:
+
+  if rec.backup_membership.lower() in ["basic", "plus"]:
+    xml_id = "job_portal_sale.product_template_13"
+    if rec.backup_membership.lower() == "plus":
+      xml_id = "job_portal_sale.product_template_14"
+      
+    product = env.ref(xml_id, raise_if_not_found=False)
+    
+    # raise UserError(product)
+
+    if product:
+      order_lines = [(0,0,{
+        "product_id": product.id,
+        "order_partner_id": rec.id,
+        "name": product.name,
+        "product_uom_qty": 1,
+        "price_unit": product.list_price,
+      })]
+      
+      sale_order = env["sale.order"].create({
+        "partner_id": rec.id,
+        "order_line": order_lines,
+        "recurrence_id": env.ref("sale_temporal.recurrence_yearly").id
+      })
 ```
