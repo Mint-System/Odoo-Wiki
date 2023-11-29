@@ -145,7 +145,6 @@ Auf bestimmte Nachrichten habe nur der Author Zugriff. Kontaktieren Sie den Auth
 
 Abhängig von der Konfiguration der E-Mail-Vorlage löscht Odoo versendete E-Mails um Speicherplatz zu sparen. Um die Löschung zu verhindern, navigieren Sie nach *Einstellungen > Technisch > E-Mail-Voralgen*. Zeigen Sie eine Vorlage an und navigieren Sie zum Tab *Einstellungen*. Entfernen Sie die Option *Autom. Löschen*.
 
-
 ## Empfang
 
 ### Verarbeiten von eingehenden E-Mails ausführen
