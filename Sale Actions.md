@@ -139,29 +139,27 @@ Anwenden auf: `[("backup_membership", "!=", False)]`
 Python Code:
 
 ```python
-for rec in records:
-
-  if rec.backup_membership.lower() in ["basic", "plus"]:
-    xml_id = "job_portal_sale.product_template_13"
-    if rec.backup_membership.lower() == "plus":
-      xml_id = "job_portal_sale.product_template_14"
-      
-    product = env.ref(xml_id, raise_if_not_found=False)
+default_pricelist_id = env.ref("product.list0")
+for rec in records.filtered(lambda r: r.property_product_pricelist.id == default_pricelist_id.id):
+  xml_id = "job_portal_sale.product_template_13"
+  if rec.backup_membership.lower() == "plus":
+    xml_id = "job_portal_sale.product_template_14"
     
-    # raise UserError(product)
+  product = env.ref(xml_id, raise_if_not_found=False)
+  
+  # raise UserError(product)
 
-    if product:
-      order_lines = [(0,0,{
+  if product:
+
+    sale_order = env["sale.order"].create({
+      "partner_id": rec.id,
+      "order_line": [(0,0,{
         "product_id": product.id,
         "order_partner_id": rec.id,
         "name": product.name,
         "product_uom_qty": 1,
         "price_unit": product.list_price,
-      })]
-      
-      sale_order = env["sale.order"].create({
-        "partner_id": rec.id,
-        "order_line": order_lines,
-        "recurrence_id": env.ref("sale_temporal.recurrence_yearly").id
-      })
+      })],
+      "recurrence_id": env.ref("sale_temporal.recurrence_yearly").id
+    })
 ```
