@@ -20,11 +20,12 @@ Website: <https://www.odoo.com/de_DE/app/email-marketing>
 
 ## Erweiterungen
 
-| Erweiterung                                                      | Beschreibung                                   |
-| ---------------------------------------------------------------- | ---------------------------------------------- |
-| [Dynamic Mass Mailing Lists](Mass%20Mailing%20List%20Dynamic.md) | Mailingiste mit Kontakt-Liste synchronisieren. |
-| [Link partners with mass-mailing](Mass%20Mailing%20Partner.md)   | Mailinglisten-Kontakte und Kontakte verküpfen. |
-| [Survey Send To List](Survey%20Send%20To%20List.md)              | Versand Umfrage an Mailing-Liste.              |
+| Erweiterung                                                         | Beschreibung                                   |
+| ------------------------------------------------------------------- | ---------------------------------------------- |
+| [Dynamic Mass Mailing Lists](Mass%20Mailing%20List%20Dynamic.md)    | Mailingiste mit Kontakt-Liste synchronisieren. |
+| [Link partners with mass-mailing](Mass%20Mailing%20Partner.md)      | Mailinglisten-Kontakte und Kontakte verküpfen. |
+| [Mass Mailing Contact Active](Mass%20Mailing%20Contact%20Active.md) | Mailkontakte und Abonnements archivieren.      |
+| [Survey Send To List](Survey%20Send%20To%20List.md)                 | Versand Umfrage an Mailing-Liste.              |
 
 ## Abonnieren
 
