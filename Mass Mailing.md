@@ -31,7 +31,7 @@ Website: <https://www.odoo.com/de_DE/app/email-marketing>
 
 ### Wöchentliche Statistik abmelden
 
-Odoo versendet jede Woche Übersicht zum Unternehmen. Wenn Sie diesen Newsletter deaktiveren möchten gehen Sie wie folgt vor: Navigieren im Entwicklermodus nach *Einstellunen > Technisch > E-Mail > Übersicht E-Mails*.
+Odoo versendet jede Woche Übersicht zum Unternehmen. Wenn Sie diesen Newsletter deaktiveren möchten gehen Sie wie folgt vor: Navigieren im Entwicklermodus nach *Einstellungen > Technisch > E-Mail > Übersicht E-Mails*.
 
 Öffnen Sie den Eintrag *Wöchentliche Statistiken in Odoo* und wählen sie, ob Sie sich selber abmelden möchte oder für alle den Versand beenden wollen.
 
