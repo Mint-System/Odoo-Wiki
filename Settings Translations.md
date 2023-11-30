@@ -34,6 +34,10 @@ Dann kann man die Übersetzungen über die Einstellungen anzeigen.
 
 ### Übersetzung anpassen
 
+Ab #Odoo16 .
+
+Zur Übersetzung von Ansichten und Felder müssen Sie mindestens eine [Sprache aktivieren](#Sprache%20aktivieren). Wenn Sie eine andere Sprache als `en_US` aktiviert haben und nur diese Sprache, beispielsweise `de_CH` aktiviert haben wollen, können Sie die zusätzliche Sprache nach Anpassung der Übersetzungen wieder deaktivieren. 
+
 Bis #Odoo15.
 
 Navigieren Sie nach *Einstellungen > Übersetzungen > Übersetzte Begriffe* und suchen Sie nach dem übersetzten Begriff. Ändern Sie die Übersetzung direkt im Feld *Übersetzungswert*.
@@ -41,10 +45,6 @@ Navigieren Sie nach *Einstellungen > Übersetzungen > Übersetzte Begriffe* und 
 ::: warning
 Wenn Sie ein Modul aktualisieren, können angepasste Übersetzungen verloren gehen. Notieren Sie sich die angepassten Übersetzungen.
 :::
-
-Ab #Odoo16 .
-
-Zur Übersetzung von Ansichten und Felder müssen Sie mindestens eine [Sprache aktivieren](#Sprache%20aktivieren). Wenn Sie eine andere Sprache als `en_US` aktiviert haben und nur diese Sprache, beispielsweise `de_CH` aktiviert haben wollen, können Sie die zusätzliche Sprache nach Anpassung der Übersetzungen wieder deaktivieren. 
 
 ### Übersetzung auf Ansicht anpassen
 
