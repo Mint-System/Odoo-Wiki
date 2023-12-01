@@ -1,6 +1,6 @@
 ---
 title: Stock Production Lot Qty Storable
-description: Produkmenge auf Los als Wert speichern.
+description: Produktmenge auf Los als Wert speichern.
 tags:
 - HowTo
 - Drittanbieter
