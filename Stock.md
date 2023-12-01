@@ -54,7 +54,9 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Picking MRP Production Assign](Stock%20Picking%20MRP%20Production%20Assign.md)         | Reservierung für Make-To-Order Aufträge gleichzeitig durchführen.                                           |
 | [Stock Picking MRP Production Done](Stock%20Picking%20MRP%20Production%20Done.md)             | Lieferung mit Fertigungsauftrag gleichzeitig abschliessen.                                                  |
 | [Stock Picking Notes](Stock%20Picking%20Notes)                                                | Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.        |
+| [Stock Picking Progress](Stock%20Picking%20Progress.md)                                       | Fortschrittsanzeige für Transfer.                                                                           |
 | [Stock Picking Responsible](Stock%20Picking%20Responsible.md)                                 | Verantworliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.                                  |
+| [Stock Picking Start](Stock%20Picking%20Start.md)                                             | Transfer als gestartet markieren.                                                                           |
 | [Stock Product Last Move](Stock%20Product%20Last%20Move.md)                                   | Letztes Datum zu ein- und ausgehender Lagerbewegung anzeigen.                                               |
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md)                           | Erlaubt die Archivierung von Los/Chargen.                                                                   |
 | [Stock Production Lot Date](Stock%20Production%20Lot%20Date.md)                               | Datum auf Losnummer festlegen und Ablaufdatum relativ setzen.                                               |
