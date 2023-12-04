@@ -231,11 +231,10 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for rec in records:
-	rec.line_ids._compute_tax_ids()
-	# rec.button_draft()
-	# for line in rec.line_ids.filtered(lambda l: l.product_id):
-		# line.write({'tax_ids': [line.product_id.taxes_id.id]})
-	# rec.action_post()
+	rec.button_draft()
+	for line in rec.line_ids.filtered(lambda l: l.product_id):
+		line.write({'tax_ids': [line.product_id.taxes_id.id]})
+	rec.action_post()
 ```
 
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
