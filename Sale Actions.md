@@ -70,6 +70,8 @@ In der Liste der Verkaufsaufträge können Sie die Einträge markieren und *Akti
 
 ### Beschaffung starten
 
+Mit dieser Serveraktion können Sie die Beschaffungsregeln auf den Autragszeilen für einen Verkaufsauftrag manuell auslösen.
+
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Beschaffung starten`\
