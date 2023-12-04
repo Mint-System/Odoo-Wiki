@@ -181,4 +181,5 @@ for rec in records.filtered(lambda r: r.property_product_pricelist.id == default
       })],
       "recurrence_id": env.ref("sale_temporal.recurrence_yearly").id
     })
+    sale_order.action_confirm()
 ```
