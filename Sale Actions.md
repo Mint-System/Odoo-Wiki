@@ -160,7 +160,9 @@ Python Code:
 ```python
 default_pricelist_id = env.ref("product.list0")
 for rec in records.filtered(lambda r: r.property_product_pricelist.id == default_pricelist_id.id):
-  xml_id = "job_portal_sale.product_template_13"
+  xml_id = ""
+  if rec.backup_membership.lower() == "basic":
+	  xml_id = "job_portal_sale.product_template_13"
   if rec.backup_membership.lower() == "plus":
     xml_id = "job_portal_sale.product_template_14"
     
