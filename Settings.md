@@ -36,6 +36,7 @@ prev: ./
 | [Base Optional Quick Create](Base%20Optional%20Quick%20Create.md) | Quick Create Option für Datenmodelle deaktivieren.                   |
 | [Base Recursion Limit](Base%20Recursion%20Limit.md)               | Limit für Python-Rekursionen erhöhen.                                |
 | [Base User Role](Base%20User%20Role.md)                           | Gruppenberechtigungen mit Benutzer-Rollen verwalten.                 |
+| [Date Range](Date%20Range.md)                                     | Verwaltung von Datums-Bereichen zur Filterung von Daten.             |
 | [Fetchmail Incoming Log](Fetchmail%20Incoming%20Log.md)           | Loggt Informationen zu eingehenden E-Mails.                          |
 | [Home Background Image](Home%20Background%20Image.md)             | Den Odoo-Startbildschirm gestalten.                                  |
 | [Impersonate](Impersonate.md)                                     | Schnelles Wechseln zwischen Benutzer-Accounts.                       |
@@ -50,7 +51,6 @@ prev: ./
 | [Web Editor Show Code](Web%20Editor%20Show%20Code.md)             | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |
 | [Web Responsive](Web%20Responsive.md)                             | Responsive Anzeige der Odoo-Oberfläche.                              |
 | [Web Theme Classic](Web%20Theme%20Classic.md)                     | Kontrast auf Benutzeroberfläche verbessern.                          |
-| [Date Range](Date%20Range.md)                                     | Verwaltung von Datums-Bereichen zur Filterung von Daten.             |
 
 ## Entwicklung
 

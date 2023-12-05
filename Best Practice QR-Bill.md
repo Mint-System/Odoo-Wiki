@@ -19,7 +19,9 @@ Sind diese Bedingungen erfüllt, kann mit der *Print QR-Bill* Aktion eine QR-Rec
 
 ## Rechnung und QR-Rechnung zusammen drucken
 
-Out-of-the-box generiert Odoo eine Rechnung eine QR-Rechnung separat sobald man die Aktion *Senden & Drucken* auf einer Rechnung ausführt. Damit dieses Verhalten unterdrückt werden kann müssen diese Module installiert werden:
+Gilt bis #Odoo15 .
+
+Out-of-the-box generiert Odoo eine Rechnung eine QR-Rechnung separat sobald man die Aktion *Senden & Drucken* auf einer Rechnung ausführt. Damit dieses Verhalten unterdrückt werden kann, müssen diese Module installiert werden:
 
 | Erweiterung                                                                         | Beschreibung                                       |
 | ----------------------------------------------------------------------------------- | -------------------------------------------------- |
