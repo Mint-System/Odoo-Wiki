@@ -38,3 +38,4 @@ Damit die Rechnungsdokumente nicht automatisch generiert und an das Rechnungsobj
 | QR-bill                 | `'QR-bill-' + object.name + '.pdf'`                                               |
 | Rechnungen              | `(object.state == 'posted') and ((object.name or 'INV').replace('/','_')+'.pdf')` |
 | Rechnungen ohne Zahlung | `(object.state == 'posted') and ((object.name or 'INV').replace('/','_')+'.pdf')` |
+	
