@@ -18,6 +18,8 @@ Repository: <https://github.com/OCA/contract/tree/15.0/contract>
 | Erweiterung                                                         | Beschreibung                                                  |
 | ------------------------------------------------------------------- | ------------------------------------------------------------- |
 | [Contract Format Date Marker](Contract%20Format%20Date%20Marker.md) | Datum aus Vertragszeile in Rechnung anzeigen und formatieren. |
+| [Contract Sale Generation](Contract%20Sale%20Generation.md)         | Aus wiederholenden Verträge Verkaufsangebote generieren.      |
+| [Contract Sale](Contract%20Sale.md)                                 | Zugriff auf Verträge für Verkaufsmitarbeitende.                                                              |
 
 ## Verwendung
 
