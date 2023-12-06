@@ -87,6 +87,21 @@ for rec in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
+### Steuersätze aktualisieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Steuersätze aktualisieren`\
+Modell: `sale.order`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+
+```python
+for line in records.order_line:
+	line._compute_tax_id()
+```
+
 ## Automatisierte Aktionen
 
 ### Angebot automatisch bestätigen
