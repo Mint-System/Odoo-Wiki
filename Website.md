@@ -32,6 +32,16 @@ Website: <https://www.odoo.com/de_DE/app/website>
 | [Website Sale Minimum Order Quantity](Website%20Sale%20Minimum%20Order%20Quantity.md)     | Legen Sie Mindestbestellmengen für Produkte und Produktvarianten fest. |
 | [Website Sale Pricelist Fixed Discount](Website%20Sale%20Pricelist%20Fixed%20Discount.md) | Warenkorb mit Rabatten aus Preisliste mit Festpreis.                   |
 
+## Verwendung
+
+### Website-Domain festlegen
+
+Navigieren Sie nach *Website > Konfiguration > Websites* und zeigen Sie eine Website an. Im Feld *Website Domain* legen Sie die Url fest.
+
+::: tip
+Wenn die Domain mit dem Datenbanknamen gekoppelt ist, können Sie das Feld leer lassen.
+:::
+
 ## Berechtigung
 
 ### Registration erlauben
