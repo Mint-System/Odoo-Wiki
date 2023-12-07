@@ -4,7 +4,7 @@ description: Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./settings-login
+prev: ./settings
 ---
 # Auth TOTP IP Check
 ![icon_oms_box](attachments/icon_oms_box.png)
