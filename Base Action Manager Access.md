@@ -6,13 +6,13 @@ tags:
 - Drittanbieter
 prev: ./settings
 ---
-# Auth Impersonate User
+# Base Action Manager Access
 ![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
-Technischer Name: `auth_impersonate_user`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/auth_impersonate_user>
+Technischer Name: `base_action_manager_access`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/base_action_manager_access>
 
 ## Beschreibung
 
