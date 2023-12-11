@@ -218,6 +218,10 @@ Obermenü: `Finanzen/Konfiguration/Finanzen`\
 Aktion: `ir.actions.act_window` `Steuergruppen`\
 Nummernfolge: `10`
 
+###  Aktivitätstyp für Umsatzsteuerbericht konfigurieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Aktivitätstypen* und zeigen Sie den Typ *Umsatzsteuerbericht* an. Hier können Sie die Standardwerte für den Aktivitätstyp festlegen.
+
 ## Bezugssteuer
 
 ### Bezugssteuer einrichten
