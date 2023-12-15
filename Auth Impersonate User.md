@@ -4,7 +4,7 @@ description: Mit einem anderen Benutzer einloggen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./settings-login
+prev: ./settings
 ---
 # Auth Impersonate User
 ![icon_oms_box](attachments/icon_oms_box.png)

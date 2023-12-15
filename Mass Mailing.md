@@ -20,17 +20,18 @@ Website: <https://www.odoo.com/de_DE/app/email-marketing>
 
 ## Erweiterungen
 
-| Erweiterung                                                      | Beschreibung                                   |
-| ---------------------------------------------------------------- | ---------------------------------------------- |
-| [Dynamic Mass Mailing Lists](Mass%20Mailing%20List%20Dynamic.md) | Mailingiste mit Kontakt-Liste synchronisieren. |
-| [Link partners with mass-mailing](Mass%20Mailing%20Partner.md)   | Mailinglisten-Kontakte und Kontakte verküpfen. |
-| [Survey Send To List](Survey%20Send%20To%20List.md)              | Versand Umfrage an Mailing-Liste.              |
+| Erweiterung                                                         | Beschreibung                                   |
+| ------------------------------------------------------------------- | ---------------------------------------------- |
+| [Dynamic Mass Mailing Lists](Mass%20Mailing%20List%20Dynamic.md)    | Mailingiste mit Kontakt-Liste synchronisieren. |
+| [Link partners with mass-mailing](Mass%20Mailing%20Partner.md)      | Mailinglisten-Kontakte und Kontakte verküpfen. |
+| [Mass Mailing Contact Active](Mass%20Mailing%20Contact%20Active.md) | Mailkontakte und Abonnements archivieren.      |
+| [Survey Send To List](Survey%20Send%20To%20List.md)                 | Versand Umfrage an Mailing-Liste.              |
 
 ## Abonnieren
 
 ### Wöchentliche Statistik abmelden
 
-Odoo versendet jede Woche Übersicht zum Unternehmen. Wenn Sie diesen Newsletter deaktiveren möchten gehen Sie wie folgt vor: Navigieren im Entwicklermodus nach *Einstellunen > Technisch > E-Mail > Übersicht E-Mails*.
+Odoo versendet jede Woche Übersicht zum Unternehmen. Wenn Sie diesen Newsletter deaktiveren möchten gehen Sie wie folgt vor: Navigieren im Entwicklermodus nach *Einstellungen > Technisch > E-Mail > Übersicht E-Mails*.
 
 Öffnen Sie den Eintrag *Wöchentliche Statistiken in Odoo* und wählen sie, ob Sie sich selber abmelden möchte oder für alle den Versand beenden wollen.
 

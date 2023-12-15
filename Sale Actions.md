@@ -68,6 +68,40 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Verkaufsaufträge können Sie die Einträge markieren und *Aktion > Verkaufsauftrag abbrechen* auswählen.
 
+### Beschaffung starten
+
+Mit dieser Serveraktion können Sie die Beschaffungsregeln auf den Autragszeilen für einen Verkaufsauftrag manuell auslösen.
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Beschaffung starten`\
+Modell: `sale.order`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for rec in records:  
+  rec.order_line._action_launch_stock_rule()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+### Steuersätze aktualisieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Steuersätze aktualisieren`\
+Modell: `sale.order`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+
+```python
+for line in records.order_line:
+	line._compute_tax_id()
+```
+
 ## Automatisierte Aktionen
 
 ### Angebot automatisch bestätigen
@@ -112,9 +146,9 @@ for invoice in records.invoice_ids:
   invoice.action_post()
 ```
 
-### Abonementen auf Angebot entfernen
+### Abonnemente auf Angebot entfernen
 
-Name der Aktion: `Abonementen auf Angebot entfernen`\
+Name der Aktion: `Abonemente auf Angebot entfernen`\
 Modell: `sale.order`\
 Auslöser: Bei Erstellung und Aktualisierung\
 Python Code:
@@ -125,4 +159,45 @@ for rec in records:
   unsubscribe_ids = rec.message_partner_ids.filtered(lambda p: p not in allow_ids)
   if unsubscribe_ids:
     rec.message_unsubscribe(unsubscribe_ids.ids)
+```
+
+### Abonnement für Kontakt anlegen und bestätigen
+
+Mit dieser automatisierten Aktion wird für einen Kontakt automatisch ein Abonnement angelegt.
+
+Name der Aktion: `Abonnement für Kontakt anlegen und bestätigen`\
+Modell: `res.partner`\
+Auslöser: Bei Erstellung und Aktualisierung\
+Auslöser-Felder: `backup_membership`\
+Anwenden auf: `[("backup_membership", "!=", False)]`
+Python Code:
+
+```python
+default_pricelist_id = env.ref("product.list0")
+for rec in records.filtered(lambda r: r.property_product_pricelist.id == default_pricelist_id.id):
+  xml_id = ""
+  if rec.backup_membership.lower() == "basic":
+	  xml_id = "job_portal_sale.product_template_13"
+  if rec.backup_membership.lower() == "plus":
+    xml_id = "job_portal_sale.product_template_14"
+    
+  product = env.ref(xml_id, raise_if_not_found=False)
+  
+  # raise UserError(product)
+
+  if product:
+
+    sale_order = env["sale.order"].create({
+      "partner_id": rec.id,
+      "order_line": [(0,0,{
+        "product_id": product.id,
+        "order_partner_id": rec.id,
+        "name": product.name,
+        "product_uom_qty": 1,
+        "price_unit": product.list_price,
+      })],
+      "recurrence_id": env.ref("sale_temporal.recurrence_yearly").id
+    })
+    sale_order.action_confirm()
+    sale_order.message_post(body="Dieser Verkaufsauftrag wurde automatisch erstellt und bestätigt.")
 ```

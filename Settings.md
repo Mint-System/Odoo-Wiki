@@ -33,9 +33,11 @@ prev: ./
 | [Auth OAuth Keycloak](Auth%20OAuth%20Keycloak)                    | Ermöglich Keycloak Integration mit Odoo OAuth.                       |
 | [Auth OIDC](Auth%20OIDC.md)                                       | Login mit OpenID Connect Provider.                                   |
 | [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)                 | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.   |
+| [Base Action Manager Access](Base%20Action%20Manager%20Access.md) | Zugriff auf Aktionen für Gruppe Administration / Zugriffsrechte.     |
 | [Base Optional Quick Create](Base%20Optional%20Quick%20Create.md) | Quick Create Option für Datenmodelle deaktivieren.                   |
 | [Base Recursion Limit](Base%20Recursion%20Limit.md)               | Limit für Python-Rekursionen erhöhen.                                |
 | [Base User Role](Base%20User%20Role.md)                           | Gruppenberechtigungen mit Benutzer-Rollen verwalten.                 |
+| [Date Range](Date%20Range.md)                                     | Verwaltung von Datums-Bereichen zur Filterung von Daten.             |
 | [Fetchmail Incoming Log](Fetchmail%20Incoming%20Log.md)           | Loggt Informationen zu eingehenden E-Mails.                          |
 | [Home Background Image](Home%20Background%20Image.md)             | Den Odoo-Startbildschirm gestalten.                                  |
 | [Impersonate](Impersonate.md)                                     | Schnelles Wechseln zwischen Benutzer-Accounts.                       |

@@ -218,16 +218,20 @@ Obermenü: `Finanzen/Konfiguration/Finanzen`\
 Aktion: `ir.actions.act_window` `Steuergruppen`\
 Nummernfolge: `10`
 
+###  Aktivitätstyp für Umsatzsteuerbericht konfigurieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Aktivitätstypen* und zeigen Sie den Typ *Umsatzsteuerbericht* an. Hier können Sie die Standardwerte für den Aktivitätstyp festlegen.
+
 ## Bezugssteuer
 
 ### Bezugssteuer einrichten
 
 Die bestehende Bezugssteuer *UST 7.7% Bezugssteuer* von Odoo ist für den Umsatzsteuerbericht unzureichend.
 
-Gemäss [Steuersätze anpassen](#Steuersätze%20anpassen) können Sie eine Kopie von *UST 7.7% Bezugssteuer* und wie folgt anpassen:
+Gemäss [Steuersätze anpassen](#Steuersätze%20anpassen) können Sie eine Kopie von *UST 8,1% Bezugssteuer* und wie folgt anpassen:
 
-* **Steuerbezeichnung**: Bezugssteuer 7.7%
-* **Betrag**: 7.7000
+* **Steuerbezeichnung**: Bezugssteuer 8,1%
+* **Betrag**: 8.1000
 * **Verteilung für Rechnungen**:
 
 |       % | Basiert auf | Konto                                                   | Steuerraster |
@@ -250,34 +254,26 @@ Für Bezugssteuer für Investition können Sie ebenfalls eine Kopie erstellen un
 
 ### Saldosteuersatz erfassen
 
-Wenn Sie mit Saldosteuersätzen die Mehrwersteuer abrechnen, müssen Sie die ausgewählten Saldosteuersätze manuell erfassen. Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern* und kopieren Sie den Standardsteuersatz *UST 7.7% Lief./DL (exkl. MWST)*. Bearbeiten Sie den Steuersatz wie folgt um beispielsweise Beratung 5,9% abzurechnen:
+Wenn Sie mit Saldosteuersätzen die Mehrwersteuer abrechnen, müssen Sie die ausgewählten Saldosteuersätze manuell erfassen. Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern* und kopieren Sie den Standardsteuersatz *UST 8,1% Lief./DL (exkl. MWST)*. Bearbeiten Sie den Steuersatz wie folgt um beispielsweise Beratung 6,3% abzurechnen:
 
-* **Name**: UST 7.7% Lief./DL (exkl. MWST) Beratung
+* **Name**: UST 8,1% Lief./DL (exkl. MWST) Beratung
 * **Verteilung für Rechnungen**:
-	* Zeile 2 %: 76.66
-	* Zeile 3 %: 23.34
+	* Zeile 2 %: 84.08
+	* Zeile 3 %: 15.92
 * **Verteilung für Gutschriften**:
-	* Zeile 2 %: 76.66
-	* Zeile 3 %: 23.34
+	* Zeile 2 %: 84.08
+	* Zeile 3 %: 15.92
+
+Auf einer Kundenrechnung wird die Differenz von 6,3% zu 8,1% wird als Erlös gut geschrieben. Auf dem Steuerbericht erscheint nur der Betrag von 6,3% als geschuldete Mehrwertsteuer.
 
 ::: tip
 Die Berechnung der Prozente ist wie folgt:
-* 76.66% = 5.9/7.7
-* 23.34% = (7.7-5.9)/7.7
-:::
-
-![](attachments/Finanzen%20Mehrwertsteuer%20Saldosteuersatz%20Beratung.png)
-
-Auf einer Rechnung mit einer Beratungsdienstleistung zu 160 CHF sieht das wie folgt aus:
-
-![](attachments/Finanzen%20Mehrwertsteuer%20Saldosteuersatz%20Rechnung%20Beratung.png)
-
-::: tip
-Die Differenz von 5.9% zu 7.7% wird als Erlös gut geschrieben. Auf dem Steuerbericht erscheint nur der Betrag von 5.9% als geschuldete Mehrwertsteuer.
+* 84.08% = (6.3*1.081)/8.1
+* 15.92% = 100-84.08
 :::
 
 ::: warning
-Damit keine Vorsteuer-Buchungen gemacht werden, muss auf allen Steuersätzen vom Steuertyp *Einkauf* das vorsteuer-Konto entfernt werden.
+Damit keine Vorsteuer-Buchungen gemacht werden, muss auf allen Steuersätzen vom Steuertyp *Einkauf* das Vorsteuer-Konto und der Steuertag entfernt werden.
 :::
 
 ## Buchhaltung

@@ -4,7 +4,7 @@ description: Aus wiederholenden Verträge Verkaufsangebote generieren.
 tags:
 - HowTo
 - OCA
-prev: ./finance
+prev: ./contract
 ---
 # Contracts Management Recurring Sales
 ![icon_oca_app](attachments/icon_oca_app.png)

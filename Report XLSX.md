@@ -12,4 +12,4 @@ prev: ./apps
 {{ $frontmatter.description }}
 
 Technischer Name: `report_xlsx`\
-Repository: <https://github.com/OCA/reporting-engine/tree/14.0/report_xlsx>
+Repository: <https://github.com/OCA/reporting-engine/tree/16.0/report_xlsx>

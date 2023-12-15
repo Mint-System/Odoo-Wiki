@@ -1,18 +1,18 @@
 ---
-title: Sale Blanket Order Comment
+title: Sale Order Comment
 description: Kommentar auf Verkaufsauftrag.
 tags:
 - HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---
-# Sale Blanket Order Comment
+# Sale Order Comment
 ![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_order_comment`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_comment>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_order_comment>
 
 ## Verwendung
 
