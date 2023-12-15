@@ -190,7 +190,7 @@ for rec in records.filtered(lambda r: r.property_product_pricelist.id == default
     sale_order = env["sale.order"].create({
       "partner_id": rec.id,
       "order_line": [(0,0,{
-        "product_id": product.id,
+        "product_id": product.product_variant_id.id,
         "order_partner_id": rec.id,
         "name": product.name,
         "product_uom_qty": 1,
