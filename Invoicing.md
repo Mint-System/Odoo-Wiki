@@ -97,6 +97,10 @@ Navigieren Sie nach *Kontakte > Konfiguration > Bankkonten* und erstellen Sie ei
 
 Wählen Sie *Kontakte*  zeigen Sie den Lieferanten in der Formularansicht an. Klicken Sie auf *Bearbeiten* und fügen Sie im Tab *Finanzen* ein Bankkonto hinzu.
 
+::: tip
+Der Benutzer muss hierfür die Berechtigung *Kontakt erstellen* haben (Zugriffsrechte > Extra Rights)
+::
+
 ### Bankkonten anzeigen
 
 Wenn Sie alle erfassten Bankkonten in einer Listen anzeigen möchten, navigieren Sie nach *Kontakte > Konfiguration > Bankkonten*.
