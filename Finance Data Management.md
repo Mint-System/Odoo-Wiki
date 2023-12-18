@@ -41,6 +41,18 @@ Auf der Seite [SIX - Download Bankenstamm](https://www.six-group.com/de/products
 
 Entfernen Sie alle Bankeinträge ohne BIC/SWIFT-Eintrag.
 
+::: tip
+Die Liste von SIX umfasst auch Filialen und enthält BIC-Codes teilweise mehrfach. In Odoo braucht es pro BIC-Code nur eine Bank und Filialen sind nicht nötig.
+
+Um die Daten zu bereinigen, können Sie die Liste in Excel wie folgt filtern:
+
+* IID-Art = 1 (Hauptsitz)
+* SIC-IID beginnt nicht mit "3" (die 3-er SIC-IID ist für QR-Rechnungen, hat aber die gleiche BIC und führt somit zu Duplikaten)
+* BIC ist nicht leer
+
+Löschen Sie im Excel alle Einträge, die **nicht** diesen Kriterien entsprechen.
+:::
+
 In zeigen Sie *Kontakte > Konfiguration > Bankkonten > Bankverzeichnis* an und wählen *Favoriten > Datensätze importieren*. Laden Sie die Datei und ordnen Sie die Spalten wie folgt zu.
 
 ![](attachments/Import%20Bankenstamm.png)
@@ -48,7 +60,7 @@ In zeigen Sie *Kontakte > Konfiguration > Bankkonten > Bankverzeichnis* an und w
 Führen Sie einen Test aus und importieren Sie die Daten.
 
 ::: tip
-Wenn Sie die Banken eindeutig identifizieren möchten können Sie die Spalten wie folgt umbennen:
+Um den Import zu vereinfachen, können Sie die Spalten wie folgt umbennen:
 
 * id
 * name
