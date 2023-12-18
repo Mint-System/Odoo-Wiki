@@ -229,14 +229,19 @@ Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
+Gilt bis #Odoo15 .
+
+```python
+for rec in records:
+	for line in rec.line_ids.filtered(lambda l: l.product_id):
+		line.write({'tax_ids': [line.product_id.taxes_id.id]})
+```
+
+Gilt ab #Odoo16.
+
 ```python
 for line in records.invoice_line_ids:
 	line._compute_tax_ids()
-# for rec in records:
-# 	rec.button_draft()
-# 	for line in rec.line_ids.filtered(lambda l: l.product_id):
-# 		line.write({'tax_ids': [line.product_id.taxes_id.id]})
-# 	rec.action_post()
 ```
 
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
