@@ -49,4 +49,5 @@ Anzuwenden auf: `[("move_type", "=", "out_invoice")]`\
 Folgeaktion: Den Datensatz aktualisieren\
 Zu schreibende Daten:
 * Feld: `payment_mode_id`
+* Bewertungstyp: Referenz
 * Wert: *PostFinance*
