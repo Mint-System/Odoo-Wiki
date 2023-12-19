@@ -91,6 +91,8 @@ In der Liste der Belege erscheint nun in der Auswahl *Aktion* das Menu *Bankausz
 
 ### Buchungszeilen aktualisieren
 
+Gilt bis #Odoo15.
+
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Buchungszeilen aktualisieren`\
