@@ -48,5 +48,5 @@ Abgrenzung vor Aktualisierung: `[("partner_id.address_checked", "!=", True)]`\
 Anzuwenden auf: `[("move_type", "=", "out_invoice")]`\
 Folgeaktion: Den Datensatz aktualisieren\
 Zu schreibende Daten:
-* Feld: `payment_method_id`
+* Feld: `payment_mode_id`
 * Wert: *PostFinance*
