@@ -248,6 +248,21 @@ for line in records.invoice_line_ids:
 
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
 
+### Steuersatz entfernen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Steuersatz entfernen`\
+Modell: `account.move.line`\
+Folgeaktion: `Python-Code ausführen`\
+Python-Code:
+
+```python
+records.write({'tax_ids': False})
+```
+
+Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+
 ## Geplante Aktionen
 
 ### Rechnung mit Abrechnungsinterval generieren
