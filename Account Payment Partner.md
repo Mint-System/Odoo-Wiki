@@ -14,6 +14,19 @@ prev: ./contacts
 Technischer Name: `account_payment_partner`\
 Repository: <https://github.com/OCA/bank-payment/tree/16.0/account_payment_partner>
 
+## Konfiguration
+
+### Zahlungsmodus für Empfängerbank erstellen
+
+Navigieren Sie nach *Finanzen > Konfiguration > Zahlungsmethoden* und zeigen Sie den Eintrag *Manuell (inbound)* an. Aktivieren Sie die Option *Bankkonto erforderlich*.
+
+Navigieren Sie nach *Finanzen > Konfiguration > Zahlungsmodi* und erstellen Sie einen neuen Eintrag:
+
+* **Name**: Name des Bankjournals
+* **Zahlungsmethode**: *Manuell (inbound)*
+* **Verbindung zum Bankkonto**: fixed
+* **Fixed Bank Journal**: Name des Bankjournals
+
 ## Verwendung
 
 ### Zahlungsmodus auf Kontakt festlegen
