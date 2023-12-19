@@ -37,11 +37,11 @@ Navigieren Sie nach *Finanzen > Lieferanten > Rechnungen* und zeigen Sie eine Li
 
 ## Automatisierte Aktionen
 
-### Zahlungsmethode von Rechnung übertragen
+### Zahlungsmethode von Rechnung auf Rechnung übertragen
 
 Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
 
-Name der Aktion: `Zahlungsmethode von Rechnung übertragen`\
+Name der Aktion: `Zahlungsmethode von Rechnung auf Rechnung übertragen`\
 Modell: `account.payment.register`\
 Auslöser: *Auf Basis von Formularanpassungen*\
 Auslöser-Felder: `journal_id`\
