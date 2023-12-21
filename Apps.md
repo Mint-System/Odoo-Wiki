@@ -75,7 +75,7 @@ Wenn die App-Liste aktualisiert wird, sollte die gelöschte App nicht mehr ersch
 Wenn Sie für eine bestimmte Gruppe, beispielsweise *Administration / Zugriffsrechte* die Installation von Apps erlauben möchten, müssen [Zugriffsrechte auf Datenmodell vergeben](Settings%20Permissions.md#Zugriffsrechte%20auf%20Datenmodell%20vergeben):
 
 * **Datenmodell**: `ir.module.module`
-* **Name**: `ir_module_module group_user`
+* **Name**: `ir_module_module erp_manager`
 * **Gruppe**: *Administration / Zugriffsrechte*
 * **Berechtigung**: Alle
 
@@ -91,5 +91,10 @@ Wenn Sie für eine bestimmte Gruppe, beispielsweise *Administration / Zugriffsre
 
 * **Datenmodell**: `ir.actions.todo`
 * **Name**: `ir_actions_todo erp_manager`
+* **Gruppe**: *Administration / Zugriffsrechte*
+* **Berechtigung**: Alle
+
+* **Datenmodell**: `base.module.uninstall`
+* **Name**: `access.base.module.uninstall erp_manager`
 * **Gruppe**: *Administration / Zugriffsrechte*
 * **Berechtigung**: Alle
