@@ -14,15 +14,15 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 
 ## Bereiche
 
-| Bereich                                   | Beschreibung                                         |
-| ----------------------------------------- | ---------------------------------------------------- |
-| [Verkauf Abrechnung](Sale%20Invoicing.md) | Verkaufsaufträge unkompliziert abrechnen.            |
-| [Verkauf Aktionen](Sale%20Actions.md)     | Arbeitsflüsse in Verkauf automatisieren.             |
-| [Verkauf Berichte](Sale%20Reports.md)     | Verkaufsdaten immer aktuell.                         |
-| [Verkauf Lager](Sale%20Stock.md)          | Lieferungen aus Verkaufsaufträge erstellen.          |
-| [Verkauf Preise](Sale%20Price.md)         | Produkte, Preislisten und Varianten zentral pflegen. |
-| [Verkauf Projekt](Sale%20Project.md)      | Dienstleistungen mit Verkauf und Projekt abwickeln.  |
-| [Verkauf Treue](Sale%20Loyalty.md)         |  Kundentrue mit Rabatten, Coupons und Geschenkkarten belohnen.                                                     |
+| Bereich                                   | Beschreibung                                                  |
+| ----------------------------------------- | ------------------------------------------------------------- |
+| [Verkauf Abrechnung](Sale%20Invoicing.md) | Verkaufsaufträge unkompliziert abrechnen.                     |
+| [Verkauf Aktionen](Sale%20Actions.md)     | Arbeitsflüsse in Verkauf automatisieren.                      |
+| [Verkauf Berichte](Sale%20Reports.md)     | Verkaufsdaten immer aktuell.                                  |
+| [Verkauf Lager](Sale%20Stock.md)          | Lieferungen aus Verkaufsaufträge erstellen.                   |
+| [Verkauf Preise](Sale%20Price.md)         | Produkte, Preislisten und Varianten zentral pflegen.          |
+| [Verkauf Projekt](Sale%20Project.md)      | Dienstleistungen mit Verkauf und Projekt abwickeln.           |
+| [Verkauf Treue](Sale%20Loyalty.md)        | Kundentrue mit Rabatten, Coupons und Geschenkkarten belohnen. |
 
 ## Erweiterungen
 
@@ -34,11 +34,13 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Product Supplierinfo for Customer Sale](Product%20Supplierinfo%20for%20Customer%20Sale.md)       | Produktspezifische Informationen für ausgewählte Kunden erfassen.             |
 | [Sale Automatic Workflow](Sale%20Automatic%20Workflow.md)                                         | Verkaufsprozess automatisieren.                                               |
 | [Sale Blanket Order Comment](Sale%20Blanket%20Order%20Comment.md)                                 | Kommentar auf Rahmenauftrag.                                                  |
+| [Sale Company Currency](Sale%20Company%20Currency.md)                                             | Total der Verkaufsaufträge in Unternehmenswährung.                            |
 | [Sale Force Invoiced](Sale%20Force%20Invoiced.md)                                                 | Markieren Sie den Verkaufsauftrag als abgerechnet.                            |
 | [Sale Order Archive](Sale%20Order%20Archive.md)                                                   | Abgebrochene Verkaufsaufträge archivieren.                                    |
 | [Sale Order Check Price](Sale%20Order%20Check%20Price.md)                                         | Preis vor Bestätigung des Angebots prüfen.                                    |
 | [Sale Order Comment](Sale%20Order%20Comment.md)                                                   | Kommentar auf Verkaufsauftrag.                                                |
 | [Sale Order Contact Person](Sale%20Order%20Contact%20Person.md)                                   | Kontaktperson auf Verkaufsauftrag festlegen.                                  |
+| [Sale Order Currency Rate](Sale%20Order%20Currency%20Rate.md)                                     | Anzeige Währungskurs auf Angebot.                                             |
 | [Sale Order Line Description Name](Sale%20Order%20Line%20Description%20Name.md)                   | Produktname in Beschreibung ohne interne Referenz.                            |
 | [Sale Order Line Description](Sale%20Order%20Line%20Description.md)                               | Nur Verkausbeschreibung im Feld Beschreibung übertragen.                      |
 | [Sale Order Line Form Action](Sale%20Order%20Line%20Form%20Action.md)                             | Auftragszeile in Formularansicht öffnen.                                      |
