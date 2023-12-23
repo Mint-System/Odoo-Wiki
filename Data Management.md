@@ -72,6 +72,15 @@ Mit der Funktion *Testbetrieb* wird festgestellt, ob die Stuktur der Datei den V
 
 Nun können Sie mit dem Knopf *Import* den Datentransfer ausführen.
 
+::: tip
+Sie können Daten auch in Tabellen importieren, die über keinen eigenen Menupunkt verfügen.
+
+Hängen Sie dazu diesen Teil an die URL Ihrer Odoo-Instanz an: ``web?debug=1#action=import&cids=1&model=``
+und füllen Sie den Parameter ``model`` mit dem Datenmodell, das Sie importieren möchten.
+
+zum Beispiel für den Import von Aktivitäten: https://demo.odoo.com/web?debug=1#action=import&cids=1&model=mail.activity
+:::
+
 ### Daten aktualisieren
 
 Den Entwicklermodus aktivieren.  
