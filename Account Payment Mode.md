@@ -49,11 +49,18 @@ Folgeaktion: Python-Code ausführen\
 Python-Code:
 
 ```python
+# Get current move
 move_id = record.line_ids.move_id[0]
+# Set journal and method line if payment mode is set
 if move_id and move_id.payment_mode_id:
-  mode_id = move_id.payment_mode_id
-  record.update({'payment_method_line_id': mode_id.payment_method_id.id})
+  # Get journal from payment mode
   journal_id = move_id.payment_mode_id.variable_journal_ids[0]
-  if journal_id:
-    record.update({'journal_id': journal_id.id})
+  # Get payment method from mode
+  method_id = move_id.payment_mode_id.payment_method_id
+  # Filter available lines
+  line_id = journal_id.outbound_payment_method_line_ids.filtered(lambda l: l.payment_method_id == method_id)[0]
+  record.update({
+    'journal_id': journal_id.id,
+    'payment_method_line_id': line_id.id
+  })
 ```
