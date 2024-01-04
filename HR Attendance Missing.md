@@ -6,7 +6,7 @@ tags:
 - Drittanbieter
 prev: ./hr-attendance
 ---
-# HR Attendance Delta
+# HR Attendance Missing
 ![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
