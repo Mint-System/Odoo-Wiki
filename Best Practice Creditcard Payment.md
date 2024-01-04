@@ -43,9 +43,13 @@ Die Rechnung wird als *In Zahlung* markiert und erwartet den Abgleich der Zahlun
 
 Wenn Sie keine Rechnung zur Kreditkartenzahlung haben, können Sie direkt eine [ausgehende Zahlung erfassen](Finance%20Payments.md#Ausgehende%20Zahlung%20erfassen). Wählen Sie *Kreditkarte* als *Zahlungsmethode*.
 
-## Kreditkartenzahlungen abgleichen
+## Kreditkartenzahlungen direkt abgleichen
 
 Ihre Kreditkarte wurde abgerechnet und Sie haben den Kontoauszug importiert. Wenn Sie die [Abstimmung durchführen](Finance%20Reconcile.md#Abstimmung%20durchführen) wählen Sie für die Position Kreditkartenabrechnung alle mit der Kreditkarte getätigten Zahlungen aus.
 Die Position der Abrechnung und Positionen der Kreditkartenzahlungen müssen sich ausgleichen. Bei Zahlungsdifferenzen und Gebühren erstellen Sie eine manuelle Buchung.
 
 ![](attachments/Best%20Practice%20Creditcard%20Payment%20Reconcile.png)
+
+## Kreditkartenzahlungen indirekt abgleichen
+
+Sie können die Position der Kreditkartenabrechnung auf das Konto *Kreditkarte Zahlungen* buchen. Dann haben Sie auf diesem Konto die Zahlungen und die Abrechnung und können diese [Buchungszeilen abstimmen](Finance%20Reconcile.md#Buchungszeilen%20abstimmen).
