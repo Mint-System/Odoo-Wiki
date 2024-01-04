@@ -65,7 +65,7 @@ Entfernen Sie den Partner-Filter, wenn die gesuchte Buchungszeile nicht vorhande
 
 ### Überfällige Forderungen abstimmen
 
-Navigieren Sie nach *Finanzen > FInanzen > Überfällige Forderungen* und erweitern Sie den Eintrag zu einem Partner. Wählen Sie Ausgleich und anschliessend den offenen Betrag. Erstellen Sie eine Gegenbuchung und schliessend Sie den Vorgang mit *Abstimmung* ab.
+Navigieren Sie nach *Finanzen > FInanzen > Überfällige Forderungen* und erweitern Sie den Eintrag zu einem Partner. Wählen Sie Ausgleich und anschliessend den offenen Betrag. Erstellen Sie eine Gegenbuchung und schliessen Sie den Vorgang mit *Abstimmung* ab.
 
 ### Buchungszeilen abstimmen
 
