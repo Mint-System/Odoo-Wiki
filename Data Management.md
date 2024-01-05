@@ -14,12 +14,13 @@ prev: ./
 
 | Bereich                                                             | Beschreibung                                        |
 | ------------------------------------------------------------------- | --------------------------------------------------- |
-| [Einstellungen Datenmanagement](Settings%20Data%20Management.md)     | Daten zu Einstellungen exportieren und importieren. |
-| [Kontakte Datenmanagement](Partner%20Data%20Management.md)          | Daten zu Kontakte exportieren und importieren.      |
-| [Projekt Datenmanagement](Project%20Data%20Management.md)           | Daten zu Projekte exportieren und importieren.      |
-| [Kundendienst Datenmanagement](Helpdesk%20Data%20Management.md)     | Daten zu Kundendienst exportieren und importieren.  |
-| [Fertigung Datenmanagement](Manufacture%20Data%20Management.md)     | Produkte und Dienstleistungen zentral pflegen.      |
 | [Abwesenheit Datenmanagement](HR%20Holidays%20Data%20Management.md) | Daten zu Abwesenheit exportieren und importieren.   |
+| [Einstellungen Datenmanagement](Settings%20Data%20Management.md)    | Daten zu Einstellungen exportieren und importieren. |
+| [Fertigung Datenmanagement](Manufacture%20Data%20Management.md)     | Produkte und Dienstleistungen zentral pflegen.      |
+| [Kontakte Datenmanagement](Partner%20Data%20Management.md)          | Daten zu Kontakte exportieren und importieren.      |
+| [Kundendienst Datenmanagement](Helpdesk%20Data%20Management.md)     | Daten zu Kundendienst exportieren und importieren.  |
+| [Projekt Datenmanagement](Project%20Data%20Management.md)           | Daten zu Projekte exportieren und importieren.      |
+| [Umfragen Datenmanagement](Survey%20Datamanagement.md)              | Daten zu Umfragen exportieren und importieren.      |
 
 ## Vorgänge
 
@@ -70,6 +71,15 @@ Mit der Funktion *Testbetrieb* wird festgestellt, ob die Stuktur der Datei den V
 ![Datenmanagement Daten importieren ok](attachments/Datenmanagement%20Daten%20importieren%20ok.png)
 
 Nun können Sie mit dem Knopf *Import* den Datentransfer ausführen.
+
+::: tip
+Sie können Daten auch in Tabellen importieren, die über keinen eigenen Menupunkt verfügen.
+
+Hängen Sie dazu diesen Teil an die URL Ihrer Odoo-Instanz an: ``web?debug=1#action=import&cids=1&model=``
+und füllen Sie den Parameter ``model`` mit dem Datenmodell, das Sie importieren möchten.
+
+zum Beispiel für den Import von Aktivitäten: https://demo.odoo.com/web?debug=1#action=import&cids=1&model=mail.activity
+:::
 
 ### Daten aktualisieren
 

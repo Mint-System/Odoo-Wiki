@@ -22,6 +22,7 @@ prev: ./
 
 | Erweiterung                                                                               | Beschreibung                                                                       |
 | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [HR Attendance Calendar View](HR%20Attendance%20Calendar%20View.md)                       | Kalenderansicht für Anwesenheiten.                                                 |
 | [HR Attendance Delta](HR%20Attendance%20Delta.md)                                         | Berechnet Zeitspanne zwischen Anwesenheitseinträgen.                               |
 | [HR Attendance IP Check](HR%20Attendance%20IP%20Check.md)                                 | IP-Prüfung bei Anmeldung der Anwesenheit.                                          |
 | [HR Attendance Kiosk Mode Color](HR%20Attendance%20Kiosk%20Mode%20Color.md)               | An- und Abmelden bei Anwesenheit farblich markieren.                               |

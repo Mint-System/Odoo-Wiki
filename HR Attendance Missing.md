@@ -6,7 +6,7 @@ tags:
 - Drittanbieter
 prev: ./hr-attendance
 ---
-# HR Attendance Delta
+# HR Attendance Missing
 ![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
@@ -16,9 +16,9 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_attendance
 
 ## Beschreibung
 
-Wenn Mitarbeitende vergessen ihre Anwesenheit zu registrieren, registriert Odoo keine Minusstunden. Mit dieser Erweiterung wird in einem ausgewählten Zeitraum für jeden Tag geprüft, ob der Mitarbeitende Soll-Arbeitszeit hat und ob keine Abwesenheiten (Urlaub, Feiertag, Krank ...) registriert sind. Wenn dies der Fall ist, wird für den Tag eine Anwesenheit mit 0 Stunden erstellt und dementsprechend Überstunden berechnet.
+Wenn Mitarbeitende vergessen ihre Anwesenheit zu erfassen, registriert Odoo keine Minusstunden. Mit dieser Erweiterung wird in einem ausgewählten Zeitraum für jeden Tag geprüft, ob der Mitarbeitende Soll-Arbeitszeit hat und ob keine Abwesenheiten (Urlaub, Feiertag, Krank ...) registriert wurden. Wenn dies der Fall ist, wird für den jeweiligen Tag eine Anwesenheit mit 0 Stunden erstellt und dementsprechend Überstunden berechnet.
 
-Standardmässig wird mit der Erweiterung eine geplante Aktion installiert, die täglich für alle Mitarbeitenden fehlende Anwesenheiten zum Vortag generiert.
+Die Erweiterung instaliert eine geplante Aktion, die täglich für alle Mitarbeitenden fehlende Anwesenheiten zum Vortag generiert.
 
 ## Verwendung
 

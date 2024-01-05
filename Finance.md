@@ -56,6 +56,8 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Statement Import Camt54](Account%20Statement%20Import%20Camt54.md)                                | Camt54 Bankauszug mit Details zu Einzahlungen importieren.                  |
 | [Account Usability](Account%20Usability.md)                                                                | Menüs der Enterprise Finanzbuchhaltung für Community.                       |
 | [Account statement Import](Account%20statement%20Import.md)                                                | Bankauszüge importieren.                                                    |
+| [Base VAT Optional VIES](Base%20VAT%20Optional%20VIES.md)                                                  | Resultat der VIES-Prüfung speichern.                                        |
+| [Base VAT Required VIES](Base%20VAT%20Required%20VIES.md)                                                  | Die VIES-VAT-Prüfung als obligatorisch festlegen.                           |
 | [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                      | PDF-Dokumenten von Rechnungen zusammenführen.                               |
 | [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                | Allow discount deduction on vendor bills.                                   |
 | [Sales Order Invoicing Grouping Criteria](Sales%20Order%20Invoicing%20Grouping%20Criteria.md)              | Kriterien zur Gruppierung in der Rechnungstellung festlegen.                |

@@ -91,6 +91,8 @@ In der Liste der Belege erscheint nun in der Auswahl *Aktion* das Menu *Bankausz
 
 ### Buchungszeilen aktualisieren
 
+Gilt bis #Odoo15.
+
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Buchungszeilen aktualisieren`\
@@ -229,14 +231,34 @@ Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
+Gilt bis #Odoo15 .
+
+```python
+for rec in records:
+	for line in rec.line_ids.filtered(lambda l: l.product_id):
+		line.write({'tax_ids': [line.product_id.taxes_id.id]})
+```
+
+Gilt ab #Odoo16.
+
 ```python
 for line in records.invoice_line_ids:
 	line._compute_tax_ids()
-# for rec in records:
-# 	rec.button_draft()
-# 	for line in rec.line_ids.filtered(lambda l: l.product_id):
-# 		line.write({'tax_ids': [line.product_id.taxes_id.id]})
-# 	rec.action_post()
+```
+
+Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+
+### Steuersatz entfernen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Steuersatz entfernen`\
+Modell: `account.move.line`\
+Folgeaktion: `Python-Code ausführen`\
+Python-Code:
+
+```python
+records.write({'tax_ids': False})
 ```
 
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
@@ -262,23 +284,29 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 today = datetime.datetime.today()
 
 def add_month(date):
-  
     # Determine the year and month for the new date
-    new_year = date.year
-    new_month = date.month + 1
-
-    # If the new month is greater than 12, subtract 12 and increment the year
-    if new_month > 12:
-        new_month -= 12
-        new_year += 1
+    new_year = date.year + (date.month + 1) // 12
+    new_month = (date.month % 12) + 1
 
     # Return the new date
-    return datetime.datetime(new_year, new_month, date.day)
+    return datetime.date(new_year, new_month, date.day)
+    
+def subtract_month(date):
+    # Determine the year and month for the new date
+    new_year = date.year - 1 if date.month == 1 else date.year
+    new_month = 12 if date.month == 1 else date.month - 1
+
+    # Return the new date
+    # Find the number of days in the previous month to handle edge cases
+    days_in_previous_month = (date.replace(day=1) - datetime.timedelta(days=1)).day
+    new_day = min(date.day, days_in_previous_month)
+
+    return datetime.date(new_year, new_month, new_day)
 
 # Get posted invoices with recurring interval within the last 40 days
 invoice_ids = env['account.move'].search([
   ('x_recurring_inverval', 'in', ['monthly']),
-  ('invoice_date', '>=', (today - datetime.timedelta(days=32)).strftime('%Y-%m-%d'))
+  ('invoice_date', '>=', (today - datetime.timedelta(days=35)).strftime('%Y-%m-%d'))
 ], order='invoice_date desc')
 
 # Foreach invoice check if is due
@@ -291,7 +319,7 @@ for invoice in invoice_ids:
     
     # Duplicate invoice
     invoice_date = invoice.invoice_date
-    last_date = datetime.date(today.year, abs(today.month-1), today.day)
+    last_date = subtract_month(today)
     if invoice_date <= last_date:
       new_invoice = invoice.copy({
         'invoice_date': add_month(invoice_date),

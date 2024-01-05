@@ -13,6 +13,12 @@ prev: ./
 Website: <https://www.odoo.com/de_DE/app/surveys>\
 Odoo documentation: <https://www.odoo.com/documentation/16.0/applications/marketing/surveys/create.html>
 
+## Bereiche
+
+| Bereich                                                | Beschreibung                                   |
+| ------------------------------------------------------ | ---------------------------------------------- |
+| [Umfragen Datenmanagement](Survey%20Datamanagement.md) | Daten zu Umfragen exportieren und importieren. |
+
 ## Erweiterungen
 
 | Erweiterung                                                   | Beschreibung                        |
