@@ -16,31 +16,41 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Management/tree/16.0/mgmt>
 
 ## Description
 
-### Audit
+## Paragraphs
 
-Audits can be planned and carried out.
+![](attachments/management_paragraphs.png)
+
+
+## Requirements
+
+![](attachments/management_requirements.png)
+
+![](attachments/management_paragraphs_requirements.png)
+
+
+## Audits
 
 ### Master data
 
 Define who carries out which audit and when. What the content is, how the audit team is composed and who is involved.
 
-![](attachments/Pasted%20image%2020240107195613.png)
+![](attachments/management_audits_masterdata.png)
 
 ### Preparation
 
 The document list defines the scope.
 
-![](attachments/Pasted%20image%2020240107195642.png)
+![](attachments/management_audits_preparation.png)
 
 Close the preparation with the "Close Preparation" button.
 
 The audit program created in this way can be sent out as an invitation.
 
-![](attachments/Pasted%20image%2020240107195715.png)
+![](attachments/management_audits_report.png)
 
-## Paragraphs and requirements
 
-Example of the relationship between paragraphs and requirements.
+## Compliancestatements
 
-![](attachments/Pasted%20image%2020240107195810.png)
+![](attachments/management_compliancestatements.png)
+
 
