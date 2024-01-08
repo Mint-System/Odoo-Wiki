@@ -12,6 +12,15 @@ prev: ./
 
 Website: <https://ventor.app/>
 
+## Installation
+
+Die Installations-Datei muss von der offiziellen der Seite https://ventor.app/your-account heruntergeladen werden.
+
+::: tip
+Die über Google Play installierte Ventor-App ist funktional identisch. In dieser Version gibt es aber keinen Zugriff auf die Lizenzerwaltung.
+:::
+
+
 ## Konfiguration
 
 ### Option "Mehr Liefern als benötigt" aktivieren
