@@ -14,7 +14,6 @@ prev: ./development
 Technischer Name: `mgmt`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Management/tree/16.0/mgmt>
 
-## Description
 
 ## Paragraphs
 
@@ -30,26 +29,16 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Management/tree/16.0/mgmt>
 
 ## Audits
 
-### Master data
-
-Define who carries out which audit and when. What the content is, how the audit team is composed and who is involved.
+### Stammdaten
 
 ![](attachments/management_audits_masterdata.png)
 
-### Preparation
-
-The document list defines the scope.
+### Vorbereitung
 
 ![](attachments/management_audits_preparation.png)
 
-Close the preparation with the "Close Preparation" button.
 
-The audit program created in this way can be sent out as an invitation.
-
-![](attachments/management_audits_report.png)
-
-
-## Compliancestatements
+## Compliance Statements
 
 ![](attachments/management_compliancestatements.png)
 
