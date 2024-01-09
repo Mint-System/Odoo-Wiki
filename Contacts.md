@@ -27,6 +27,7 @@ prev: ./
 | [Contact Birthdate](Contact%20Birthdate.md)                                                       | Geburtstag bei Kontakten speichern für tolle Erinnerungen.        |
 | [Partner Bank Code](Partner%20Bank%20Code.md)                                                     | Eindeutige Nummer auf Bank festlegen.                             |
 | [Partner Color Codes](Partner%20Color%20Codes.md)                                                 | Kontakte mit Farben und Stichwörter markieren.                    |
+| [Partner Contact Access Link](Partner%20Contact%20Access%20Link.md)                               | Unterkontakte in Formular öffnen.                                 |
 | [Partner Contact Birthdate](Partner%20Contact%20Birthdate.md)                                     | Feld Geburtstag und Alter auf Kontakt vom Typ Einzelperson.       |
 | [Partner Contact Department Note](Partner%20Contact%20Department%20Note.md)                       | Abteilung auf Kontakten speichern.                                |
 | [Partner Contact Department](OCA%20Partner%20Contact%20Department.md)                             | Erweitert das Adressbuch mit Abteilungen.                         |

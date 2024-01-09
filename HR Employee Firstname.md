@@ -1,18 +1,18 @@
 ---
-title: Partner first name and last name
-description: Unterscheidet Vor- und Nachnamen.
+title: HR Employee Firstname
+description: Vor- und Nachname auf Mitarbeitenden.
 tags:
 - HowTo
 - OCA
-prev: ./contacts
+prev: ./hr
 ---
-# Partner first name and last name
+# HR Employee Firstname
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_firstname`\
-Repository: <https://github.com/OCA/partner-contact/tree/16.0/partner_firstname>
+Technischer Name: `hr_employee_firstname`\
+Repository: <https://github.com/OCA/hr/tree/16.0/hr_employee_firstname>
 
 ## Konfiguration
 
@@ -22,6 +22,8 @@ Die Reihenfolge des Vor- und Nachnamen kann explizit festgelegt werden. Navigier
 
 ![](attachments/Partner%20first%20name%20and%20last%20name%20Namensbestandteile%20festlegen.png)
 
+## Verwendung
+
 ### Vor- und Nachname festlegen
 
-Öffnen Sie einen Kontakt unter *Kontakte* und geben Sie einen Vor- und einen Nachnamen in die entsprechenden Felder ein.
+Öffnen Sie einen Mitarbeitenden unter *Mitarbeiter* und geben Sie einen Vor- und einen Nachnamen in die entsprechenden Felder ein.

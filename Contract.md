@@ -62,3 +62,24 @@ Rufen Sie *Finanzen >  Lieferanten > Lieferantenverträge* auf und wählen Sie *
 * **Abrechnugsintervall**: Gemäss Vertrag festlegen
 * **Startdatum**: Datum Vertragsbeginn
 * **Periodische Rechnungen**: Dienstleistungen und Produkte die es zur verrechnen gilt
+
+## Aktionen
+
+### Rechnung anlegen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Rechnung anlegen`\
+Modell: `contract.contract`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for record in records:
+	record.recurring_create_invoice()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+
+![](attachments/Contract%20Aktion%20Rechnung%20anlegen.png)
