@@ -14,10 +14,14 @@ prev: ./contacts
 Technischer Name: `partner_firstname`\
 Repository: <https://github.com/OCA/partner-contact/tree/16.0/partner_firstname>
 
-## Verwendung
+## Konfiguration
 
 ### Reihenfolge Namensbestandteile festlegen
 
-Die Reihenfolge des Vor- und Nachnamen kann explizit festgelegt werden. Gehen Sie im Entwicklermodus zu *Einstellungen > Allgemeine Einstellungen > Reihenfolge Partner-Namensbestandteile*. Wählen Sie hier den gewünschten Eintrag aus.
+Die Reihenfolge des Vor- und Nachnamen kann explizit festgelegt werden. Navigiere Sie nach *Einstellungen > Allgemeine Einstellungen > Reihenfolge Partner-Namensbestandteile*. Wählen Sie hier den gewünschten Eintrag aus.
 
 ![](attachments/Partner%20first%20name%20and%20last%20name%20Namensbestandteile%20festlegen.png)
+
+### Vor- und Nachname festlegen
+
+Öffnen Sie einen Kontakt unter *Kontakte* und geben Sie einen Vor- und einen Nachnamen in die entsprechenden Felder ein.
