@@ -63,6 +63,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Production Lot Qty Storable](Stock%20Production%20Lot%20Qty%20Storable.md)             | Produktmenge auf Los als Wert speichern.                                                                    |
 | [Stock Quant Package Dimension](Stock%20Quant%20Package%20Dimension.md)                       | Dimensionen und geschätztes Gewicht auf Paket.                                                              |
 | [Stock Vendor Evaluation](Stock%20Vendor%20Evaluation.md)                                     | Lieferungen bewerten und Lieferanten auswerten.                                                             |
+| [Ventor Base](Ventor%20Base.md)                                                               | Basismodul für Ventor-Apps.                                                                                 |
 
 ## Vorgänge
 

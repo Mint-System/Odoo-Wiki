@@ -20,7 +20,7 @@ Um die Abstimmung für Buchungszeilen eines bestimmten Kontos zu erlauben, navig
 
 ### Bankauszug manuell erfassen
 
-Navigieren Sie nach *Finanzen* und klicken Sie auf das Bankjoural. Erfassen Sie einen neuen Bankauszug:
+Navigieren Sie nach *Finanzen* und klicken Sie auf das Bankjournal. Erfassen Sie einen neuen Bankauszug:
 
 * **Referenz**: Eindeutige Kennzeichnung des Belegs
 * **Anfangssaldo**: Banksaldo vor Begin der Transkationen
