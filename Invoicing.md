@@ -101,6 +101,12 @@ Wählen Sie *Kontakte*  zeigen Sie den Lieferanten in der Formularansicht an. Kl
 Der Benutzer muss hierfür die Berechtigung *Kontakt erstellen* haben (Zugriffsrechte > Extra Rights)
 ::
 
+### Geld schicken für Bankkonto erlauben
+
+Gilt ab #Odoo16.
+
+Damit Lieferanten bezahlt werden können, muss dies explizit auf dem Bankkonto angegeben werden. Zeiten Sie einen Lieferanten unter *Kontakte* an und wählen Sie den den Tab *Finanzen*. Bei der Liste der Bankkonten aktivieren Sie die Option *Geld schicken*. 
+
 ### Bankkonten anzeigen
 
 Wenn Sie alle erfassten Bankkonten in einer Listen anzeigen möchten, navigieren Sie nach *Kontakte > Konfiguration > Bankkonten*.
