@@ -18,4 +18,4 @@ Repository: <https://github.com/OCA/server-tools/tree/16.0/dbfilter_from_header>
 
 ### Datenbank-Filter in Proxy Header definieren
 
-In der `odoo.conf` Datei, müssen Sie die Zeile `server_wide_modules = "web, dbfilter_from_header"` und `proxy_mode = True` hinzufügen. In der Proxy-Konfiguration können Sie mit dem Header `X-Odoo-dbfilte` die Datenbank definieren, welche geladen werden soll. Für Nginx legen beispielsweise `proxy_set_header r database_name;` fest.
+In der `odoo.conf` Datei, müssen Sie die Zeile `server_wide_modules = "web, dbfilter_from_header"` und `proxy_mode = True` hinzufügen. In der Proxy-Konfiguration können Sie mit dem Header `X-Odoo-dbfilter` die Datenbank definieren, welche geladen werden soll. Für Nginx legen beispielsweise `proxy_set_header X-Odoo-dbfilter database_name;` fest.
