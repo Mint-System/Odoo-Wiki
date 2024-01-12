@@ -32,9 +32,12 @@ Möchten Sie eine Datenbank für ihre Odoo-Installation erstellen, öffnen Sie d
 * Master Password: Dieses Passwort ist vordefiniert
 * Database Name: `erp`
 
+::: tip
 Der Name der Datenbank muss gleich der Subdomain/Domain sein. Beispiel:  
-https://erp.example.com -> `erp`  
-https://www.example.com -> `example`  Das *www* wird ignoriert
+
+<https://erp.example.com> -> `erp`  
+<https://www.example.com> -> `example`  (das *www* wird ignoriert)
+:::
 
 * Email: `admin@example.com`
 * Password: Passwort des Odoo Administrators
