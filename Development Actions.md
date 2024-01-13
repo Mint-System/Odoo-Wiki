@@ -127,6 +127,22 @@ env["res.groups"]._update_user_groups_view()
 
 Speichern Sie die Aktion und führen Sie diese direkt mit *Starten* aus.
 
+### Vererbte Ansichten entfernen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Vererbte Ansichten entfernen`\
+Modell: `ir.ui.view`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+
+```python
+records.inherit_children_ids.unlink()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
 ### Compose E-Mail
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:

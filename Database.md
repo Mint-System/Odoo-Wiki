@@ -16,6 +16,7 @@ prev: ./
 | ------------------------------------------------------------ | ------------------------------------------------------- |
 | [Base DB Anonymization](Base%20DB%20Anonymization.md)        | Inhalt von ausgewählten Datenbank-Felder anonmyisieren. |
 | [Base Search Fuzzy](Base%20Search%20Fuzzy.md)                | Aktivieren Trigram-Index auf Datenbank-Felder.          |
+| [DBFilter From Header](DBFilter%20From%20Header.md)          | Datenbank mit Proxy-Header auswählen.                   |
 | [Database Anonymization HR](Smile%20Anonymization%20HR.md)   | HR-Datensätze in Backup anonymisieren.                  |
 | [Database Anonymize Partner](Smile%20Anonymize%20Partner.md) | Partner-Datensätze in Backup anonymisieren.             |
 | [Database Anonymize](Smile%20Anonymization.md)               | Datensätze in Backup anonymisieren.                     |
@@ -31,9 +32,12 @@ Möchten Sie eine Datenbank für ihre Odoo-Installation erstellen, öffnen Sie d
 * Master Password: Dieses Passwort ist vordefiniert
 * Database Name: `erp`
 
+::: tip
 Der Name der Datenbank muss gleich der Subdomain/Domain sein. Beispiel:  
-https://erp.example.com -> `erp`  
-https://www.example.com -> `example`  Das *www* wird ignoriert
+
+<https://erp.example.com> -> `erp`  
+<https://www.example.com> -> `example`  (das *www* wird ignoriert)
+:::
 
 * Email: `admin@example.com`
 * Password: Passwort des Odoo Administrators
