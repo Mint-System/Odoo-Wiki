@@ -26,7 +26,7 @@ Mit dem Systemparameter `purchase.order.line.hide_ref` können Sie festlegen, ob
 
 Mit dieser Erweiterung wird beim Hinzufügen eines Produkts in einer Bestellung statt *Referenz + Name + Einkaufsbeschreibung* die folgende Formel angewendet:
 
-*Verkäufer Produktcode + Einkaufsbeschreibung + Verkäufer Produktname*
+*Lieferant Produktcode + Einkaufsbeschreibung + Lieferant Produktname*
 
 Falls *Produktcode* oder *Produktname* nicht vorhanden sind wird die Einkaufsbeschreibung übernommen.
 
