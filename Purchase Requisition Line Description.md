@@ -24,8 +24,33 @@ Mit dem Systemparameter `purchase.requisition.line.hide_ref` können Sie festleg
 
 Mit dieser Erweiterung wird beim Hinzufügen eines Produkts in einer Bestellung statt *Referenz + Name + Einkaufsbeschreibung* die folgende Formel angewendet:
 
-*Verkäufer Produktcode + Einkaufsbeschreibung + Verkäufer Produktname*
+*Lieferant Produktcode + Einkaufsbeschreibung + Lieferant Produktname*
 
 Falls *Produktcode* oder *Produktname* nicht vorhanden sind wird die Einkaufsbeschreibung übernommen.
 
 ![](attachments/Purchase%20Requisition%20Line%20Description.png)
+
+
+#### Beispiel
+Produktname: 6kt-Schraube M6x30 A4\
+Interne Referenz: 072001/04\
+Lieferant Produktname: Schraube M6x30 A4\
+Lieferant Produktcode: ISO 4014 M6x30 A4\
+Einkaufsbeschreibung: Packet à 100 Stk
+
+
+Systemparameter `purchase.requisition.line.hide_ref` ist False
+
+Variante 1: Ohne Einkaufsbeschreibung
+![](attachments/Purchase%20Requisition%20Line%20Description%20Variante%201.png)
+
+Variante 2: Mit Einkaufsbeschreibung *Packet à 100 Stk*
+![](attachments/Purchase%20Requisition%20Line%20Description%20Variante%202.png)
+
+Systemparameter `purchase.requisition.line.hide_ref` ist True
+
+Variante 3: Ohne Einkaufsbeschreibung
+![](attachments/Purchase%20Requisition%20Line%20Description%20Variante%203.png)
+
+Variante 4: Mit Einkaufsbeschreibung *Packet à 100 Stk*
+![](attachments/Purchase%20Requisition%20Line%20Description%20Variante%204.png)

@@ -18,7 +18,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/
 
 ### Mehrere Preislisten auf Partner festlegen
 
-Navigieren Sie nach *Kontakte* und wählen Sie ein Unternehmen aus. Im Tab *Verkafu & Einkauf* finden Sie den Abschnitt *Partner-Preislisten*. Erstellen Sie hier neue Einträge. Aktive Einträge überschreiben das Feld *Preisliste*.
+Navigieren Sie nach *Kontakte* und wählen Sie ein Unternehmen aus. Im Tab *Verkauf & Einkauf* finden Sie den Abschnitt *Partner-Preislisten*. Erstellen Sie hier neue Einträge. Aktive Einträge überschreiben das Feld *Preisliste*.
 
 ::: tip
 Partner-Preislisten mit aktiven Perioden haben erste Priorität. Als zweites Kriterium wird die Sequenz verwendet.
