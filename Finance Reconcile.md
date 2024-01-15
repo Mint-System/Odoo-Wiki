@@ -18,6 +18,8 @@ Um die Abstimmung für Buchungszeilen eines bestimmten Kontos zu erlauben, navig
 
 ## Bankauszug
 
+Bankauszug und Kontoauszug werden hier synonym verwendet.
+
 ### Bankauszug manuell erfassen
 
 Navigieren Sie nach *Finanzen* und klicken Sie auf das Bankjournal. Erfassen Sie einen neuen Bankauszug:
@@ -49,6 +51,18 @@ Zeigen Sie das Dashboard von *Finanzen* an. Wählen Sie *Import* unter dem Name 
 
 Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Bewegungen wird angezeigt.
 
+### Bankauszug anzeigen
+
+Zeigen Sie die App *Finanzen* an. Klicken Sie rechts vom Bank-Journals auf das Kontext-Menü und wählen Sie *Ansicht > Belege*. Hier werden die importierten Bankauszüge anzeigt.
+
+### Bankauszug entfernen
+
+Zeigen Sie die App *Finanzen* an. Klicken Sie rechts vom Bank-Journals auf das Kontext-Menü und wählen Sie *Ansicht > Belege*. Markieren Sie den Bankauszug und wählen Sie *Aktion > Löschen*.
+
+::: warning
+Bereits abgestimmte Positionen müssen zurückgesetzt werden.
+:::
+
 ## Abstimmung
 
 ### Abstimmung durchführen
@@ -65,7 +79,7 @@ Entfernen Sie den Partner-Filter, wenn die gesuchte Buchungszeile nicht vorhande
 
 ### Überfällige Forderungen abstimmen
 
-Navigieren Sie nach *Finanzen > FInanzen > Überfällige Forderungen* und erweitern Sie den Eintrag zu einem Partner. Wählen Sie Ausgleich und anschliessend den offenen Betrag. Erstellen Sie eine Gegenbuchung und schliessen Sie den Vorgang mit *Abstimmung* ab.
+Navigieren Sie nach *Finanzen > Finanzen > Überfällige Forderungen* und erweitern Sie den Eintrag zu einem Partner. Wählen Sie Ausgleich und anschliessend den offenen Betrag. Erstellen Sie eine Gegenbuchung und schliessen Sie den Vorgang mit *Abstimmung* ab.
 
 ### Buchungszeilen abstimmen
 
@@ -81,7 +95,7 @@ Dieses Ausgleichsmodell können im Abgleichsvorgang mit einem Knopfdruck anwende
 
 ![](attachments/Finanzen%20Abstimmung%20Ausgleichsmodell%20anwenden.png)
 
-### Buchungsatz von Vorgang aus Bankauszug anzeigen
+### Buchungssatz von Vorgang aus Bankauszug anzeigen
 
 Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge*. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Öffnen Sie den Vorgang und wählen Sie *Buchungssatz*.
 
@@ -92,4 +106,5 @@ Zeigen Sie das Dashboard *Finanzen* an und wählen Sie für ein Bank-Journal *Ko
 ### Abstimmung zurücksetzen
 
 Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge*. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Wechseln Sie über *Ansicht* in den Dialog für den Abgleich und wählen Sie *Zurücksetzen*.
+
 ![](attachments/Abstimmung%20zurücksetzen.gif)
