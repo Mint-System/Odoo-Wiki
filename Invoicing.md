@@ -99,7 +99,7 @@ Wählen Sie *Kontakte*  zeigen Sie den Lieferanten in der Formularansicht an. Kl
 
 ::: tip
 Der Benutzer muss hierfür die Berechtigung *Kontakt erstellen* haben (Zugriffsrechte > Extra Rights)
-::
+:::
 
 ### Geld schicken für Bankkonto erlauben
 
