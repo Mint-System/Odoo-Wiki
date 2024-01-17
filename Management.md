@@ -14,8 +14,9 @@ prev: ./development
 Technischer Name: `mgmt`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Management/tree/16.0/mgmt>
 
+## Stammdaten
 
-## Paragraphs
+## Paragraphs erfassen
 
 Regulatorien werden in der Struktur ihrer Kapitel und Paragraphen in der Datenbank erfasst. (Bestimmte Dokumente wie zum Beispiel EASA Part 21 und 145 für die Luftfahrt oder EN 9001 für das Qualitätsmanagement können als Tabellen für den Import von der Mint System GmbH zur Verfügung gestellt werden.)
 Dadurch hat jeder Abschnitt eine eindeutige Identifizierung.
@@ -23,7 +24,7 @@ Dadurch hat jeder Abschnitt eine eindeutige Identifizierung.
 ![](attachments/management_paragraphs.png)
 
 
-## Requirements
+## Requirements erfassen
 
 Alle Paragraphen werden in Requirements abgebildet. Mit der Funktion *Approve* wird mit einem Statement die Vollständigkeit bestätigt.
 
@@ -33,22 +34,22 @@ Alle Requirements erscheinen in einer übersichtlichen Liste.
 
 ![](attachments/management_requirements.png)
 
+## Audit
 
-## Audits
-
-### Stammdaten
+### Audit erfassen
 
 Mittels Audits werden Compliancestatement zu den Requirements erstellt.
 Zunächst wird ein Audit geplant indem Stammdaten erfasst werden.
 
 ![](attachments/management_audits_masterdata.png)
 
-### Vorbereitung
+### Audit vorbereiten
 
 ![](attachments/management_audits_preparation.png)
 
-
 ## Compliance Statements
+
+## Statement erfassen
 
 ![](attachments/management_compliancestatements.png)
 

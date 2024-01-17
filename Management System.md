@@ -12,3 +12,9 @@ prev: ./
 {{ $frontmatter.description }}
 
 Repository: <https://github.com/OCA/management-system>
+
+## Erweiterungen
+
+| Erweiterung                 | Beschreibung                                          |
+| --------------------------- | ----------------------------------------------------- |
+| [Management](Management.md) | Various functionalities in the context of management. |
