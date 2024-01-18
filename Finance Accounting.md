@@ -115,7 +115,7 @@ Entfernen Sie den Steuersatz in der Spalte *Steuern*, wenn Sie keine Mehrwertste
 
 ### Sperrdatum festlegen
 
-Im Dialog *Finanzen > Finanzen > Aktion > Sperrdaten* können Sie Sperrdaten für die Geschäfts- und Steuerperiode definieren.
+Im Dialog *Finanzen > Finanzen > Aktionen > Sperrdaten* können Sie Sperrdaten für die Geschäfts- und Steuerperiode definieren.
 
 ![](attachments/Finanzen%20Sperrdatum%20festlegen.png)
 
