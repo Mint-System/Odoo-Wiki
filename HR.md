@@ -74,6 +74,10 @@ Bestimmte Unterlagen wie die Lohnabrechnung werden an die private Adresse des Mi
 
 Erstellen Sie eine private Adresse folgendermassen: *Personal > Mitarbeiter auswählen > Tab Private Information > Bearbeiten* und legen Sie private Adresse im Feld *Adresse* fest.
 
+::: warning
+Das Feld heisst Adresse, aber effektiv ist damit ein privater Kontakt-Eintrag verbunden. 
+:::
+
 ## Abrechnung
 
 ### Bankverbindung einrichten
