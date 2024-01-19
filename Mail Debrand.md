@@ -1,5 +1,5 @@
 ---
-title: User roles
+title: Mail Debrand
 description: Odoo Promotion aus E-Mail-Vorlagen entfernen.
 tags:
 - HowTo
