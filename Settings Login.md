@@ -57,11 +57,19 @@ Für Kunden, Teilnehmer und Partner kann ein Odoo-Zugang eingerichtet werden. Un
 * **Auf Einladung**: Benutzer werden explizit mit einer E-Mail eingeladen.
 * **Kostenlose Anmeldung**: Benutzer können sich über die Odoo-Website selber anmelden und erhalten standardmässig einen Portal-Benutzer.
 
-### Passwort zurücksetzen
+### Passwort ändern
 
 Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen Sie den Benutzer, dessen Passwort Sie zurücksetzen möchten.
  
 Wählen Sie *Aktion* und *Passwort ändern*. Geben Sie im Feld *Neues Passwort* das neue Passwort ein.
+
+### Passwort für mehrere Benutzer ändern
+
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und markieren Sie alle Benutzer, die ein neues Passwort erhalten sollen. Klicken Sie auf *Aktion > Passwort ändern*. Im Neuen Dialog können Sie in der Spalte *Neues Passwort*, die neuen Passwörter eingeben. Bestätigen Sie den Vorgang mit *Passwort ändern*.
+
+::: tip
+Teilen Sie den Benutzer das Passwort als Link mit. Sie können einen Passwort-Link mit <https://kpaste.infomaniak.com/> generieren.
+:::
 
 ### Start-Aktion für Benutzer definieren
 
