@@ -13,3 +13,9 @@ prev: ./settings
 
 Technischer Name: `web_enterprise_admin_expiration_panel`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/web_enterprise_admin_expiration_panel>
+
+## Beschreibung
+
+Mit dieser Erweiterung ist die Meldung zum Ablauf der Datenbank nur noch für Administratoren sichtbar.
+
+![](attachments/Web%20Enterprise%20Admin%20Expiration%20Panel.png)
