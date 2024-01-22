@@ -16,9 +16,9 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 
 | Bereich                                           | Beschreibung                                 |
 | ------------------------------------------------- | -------------------------------------------- |
+| [Diskussion Aktionen](Discuss%20Actions.md)       | Arbeitsflüsse für Diskussion automatisieren. |
 | [Diskussion Aktivitäten](Discuss%20Activities.md) | Arbeitsplanung mit Odoo Aktivitäten.         |
 | [Diskussion E-Mail](Discuss%20E-Mail.md)          | E-Mail mit Odoo versenden.                   |
-| [Diskussion Aktivitäten](Discuss%20Actions.md)    | Arbeitsflüsse für Diskussion automatisieren. |
 
 ## Erweiterungen
 

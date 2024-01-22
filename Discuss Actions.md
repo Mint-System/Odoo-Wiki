@@ -1,11 +1,11 @@
 ---
-title: Diskussion Aktivitäten
+title: Diskussion Aktionen
 description: Arbeitsflüsse für Diskussion automatisieren.
 tags:
 - HowTo
 prev: ./discuss
 ---
-# Diskussion Aktivitäten
+# Diskussion Aktionen
 ![icons_odoo_mail](attachments/icons_odoo_mail.png)
 
 {{ $frontmatter.description }}
