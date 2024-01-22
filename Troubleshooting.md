@@ -346,7 +346,7 @@ Model: Salary Rule (hr.salary.rule), Einschränkung: hr_salary_rule_struct_id_fk
 
 **Ursache**
 
-Das [Gio Payroll Custom](Gio%20Payroll%20Custom.md) App ist nicht akutell und muss aktualisiert werden.
+Das [Swiss Payroll](Gio%20Payroll%20Custom.md) App ist nicht aktuell und muss aktualisiert werden.
 
 **Lösung**
 

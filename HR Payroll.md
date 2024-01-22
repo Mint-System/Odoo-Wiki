@@ -14,11 +14,11 @@ prev: ./
 
 | Erweiterung                                                     | Beschreibung                                |
 | --------------------------------------------------------------- | ------------------------------------------- |
-| [Gio Payroll Custom](Gio%20Payroll%20Custom.md)                 | Lohnarten für die Schweizer Lohnabrechnung. |
 | [Lohnmeldung](Lohnmeldung.md)                                   | Lohnmeldungen ganz einfach generieren.      |
 | [Personalabrechnung Aktionen](Personalabrechnung%20Aktionen.md) | Lohnabrechnung automatisieren.              |
 | [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md) | Berichte für Lohnbuchhaltung erstellen.     |
 | [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md) | Lohnabrechnungen mit variablen Eingaben.    |
+| [Swiss Payroll](Gio%20Payroll%20Custom.md)                      | Lohnarten für die Schweizer Lohnabrechnung. |
 
 ## Konfiguration
 

@@ -1,5 +1,5 @@
 ---
-title: Gio Payroll Custom
+title: Swiss Payroll
 description: Lohnarten für die Schweizer Lohnabrechnung.
 tags:
 - HowTo
