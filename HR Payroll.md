@@ -46,19 +46,19 @@ Die Gehaltsinformationen der Mitarbeiter legen Sie via *Pesonal > Mitarbeiter au
 
 Zur Auszahlung des Lohns über SEPA müssen Sie den Mitarbeiter ein Bankkonto hinterlegen. Navigieren Sie nach *Pesonal > Mitarbeiter auswählen > Bearbeiten > Tab Private Information* und erfassen Sie ein Bankkonto unter *Bankverbindung*.
 
-### Lohnarten definieren
-
-::: tip
-Das sind die Regeln, die Informationen über die Gehaltsberechnung liefern. Diese Regeln werden von odoo gemäss der Reihenfolge ihrer Sequenznummer interpretiert. Die Regeln können verwendet werden, um Buchungen zu erzeugen, ohne dass diese in der Gehaltsliste sichtbar sind.
-:::
+### Lohnarten prüfen
 
 Die Lohnregel sind unter *Personalabrechnung > Konfiguration > Regeln* definiert. Überprüfen Sie alle Regeln und legen Sie fest welche auf der Lohnabrechnung erscheinen sollen.
 
 Regeln für die Sie keine Verwendung haben, können Sie archivieren.
 
+::: tip
+Das sind die Regeln, die Informationen über die Gehaltsberechnung liefern. Diese Regeln werden von odoo gemäss der Reihenfolge ihrer Sequenznummer interpretiert. Die Regeln können verwendet werden, um Buchungen zu erzeugen, ohne dass diese in der Gehaltsliste sichtbar sind.
+:::
+
 ### Lohnart erstellen
 
-Navigierne Sie nach *Personalabrechnung > Konfiguration > Regeln* und klicken Sie auf *Neu*.
+Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln* und klicken Sie auf *Neu*.
 
 * **Regelbezeichnung**: Name der auf der Lohnabrechnung erscheint
 * **Kategorie**: Zur Berechnung des Nettolohns werden die Lohnarten über die Kategorie summiert. Wählen Sie eine passende Kategorie aus.
@@ -73,9 +73,9 @@ Im Tab *Allgemein* machen Sie diese Angaben:
 * **Berechnungsart**: Python Code
 * **Python Code**: Geben Sie hier die Formel zur Berechnung der Lohnart ein.
 
-### Lohnart anpassen
+### Lohnart bearbeiten
 
-Sie Lohnarten müssen unter bestimmten Bedingungen angepasst werden. Navigierne Sie nach *Personalabrechnung > Konfiguration > Regeln* und öffnen Sie die Lohnart, welche Sie ändern möchten. 
+Sie Lohnarten müssen unter bestimmten Bedingungen angepasst werden. Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln* und öffnen Sie die Lohnart, welche Sie ändern möchten. 
 
 ### Finanzkonten den Lohnarten zuweisen
 
