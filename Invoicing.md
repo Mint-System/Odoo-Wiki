@@ -67,7 +67,7 @@ Wurde die erstellte Rechnung bereits auf Status *Gebucht* gesetzt, so kann diese
 	* Komplette Rückerstattung: Es wird eine Gegenbuchung erstellt
 	* Komplette Rückerstattung und neuer Rechnungsentwurf: Es wird eine Gegenbuchung erstellt und die Rechnung kopiert.
 * **Begründung**: Geben Sie einen Text für die Gegenbuchung ein
-* **Stornodatum**: Wenn Sie *Spezifisch* wählen, treffen Sie für das *Rückerstattungsdatum* eine Auswahl 
+* **Stornodatum**: Wenn Sie *Spezifisch* wählen, treffen Sie für das *Rückerstattungsdatum* eine Auswahl
 
 Schliessen Sie den Vorgang mit *Gutschrift Erstellen* ab.
 

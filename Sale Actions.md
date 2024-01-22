@@ -122,6 +122,34 @@ for line in records.order_line:
 	line._compute_tax_id()
 ```
 
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+### Beschreibung Auftragszeile generieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Beschreibung Auftragszeile generieren`\
+Modell: `sale.order`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+
+```python
+for rec in records.filtered(lambda r: r.joboffer_id):
+	joboffer_id = rec.joboffer_id
+	for line in rec.order_line.filtered(lambda l: l.product_id):
+		description = line.product_id.name
+		if joboffer_id.ref:
+			description += ('\nIhr Auftrag %s vom %s') % (joboffer_id.ref, joboffer_id.publication_start_date.date().strftime('%d.%m.%y'))
+		if joboffer_id.name:
+			description += '\n' + joboffer_id.name
+		if joboffer_id.reference:
+			description += '\nIhre Referenz: ' + joboffer_id.reference
+		line.write({'name': description})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
 ## Automatisierte Aktionen
 
 ### Angebot automatisch bestätigen

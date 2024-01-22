@@ -28,7 +28,7 @@ Zeigen Sie *Verkauf > Produkte > Rabatt & Treue* an und erstellen Sie einen neue
 Im Tab *Rules & Rewards* bearbeiten Sie die *Conditional rules*:
 
 * **Minimalbestand**: Geben Sie die Mindestbestellmenge ein
-* **Produkte**: Wählen Sie die Produke aus, die den Rabatt erhalten
+* **Produkte**: Wählen Sie die Produkte aus, die den Rabatt erhalten
 
 Für *Boni* bearbeiten Sie dein Eintrag wie folgt:
 
