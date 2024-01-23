@@ -136,7 +136,7 @@ Der Download-Vorgang kann abhängig von der Datenbankgrösse Zeit in Anspruch ne
 
 ### Odoo-Datenbank verlängern
 
-Wenn eine Datenbank abgelaufen ist, erscheint eine entsprechende Meldung. Diese ist aber nur symbolisch, mit der richtigen URL können Sie das Ablaufdatum der ODoo Datenbank verlängern. Am einfachsten ist es, wenn das Testsystem und das produktive System unter einer ähnlichen URL erreichbar sind.
+Wenn eine Datenbank abgelaufen ist, erscheint eine entsprechende Meldung. Diese ist aber nur symbolisch, mit der richtigen URL können Sie das Ablaufdatum der Odoo Datenbank verlängern. Am einfachsten ist es, wenn das Testsystem und das produktive System unter einer ähnlichen URL erreichbar sind.
 
 Navigieren Sie auf dem Testsystem nach *Einstellungen > Technisch > Systemparameter*. Ersetzen Sie die Domain des Testsystem in der URL mit der Domain des produktiven System. Nun können Sie den Wert des Schlüssel `database.expiration_date` mit einem Datum in der Zukunft ersetzen.
 
