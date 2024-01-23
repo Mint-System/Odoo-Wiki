@@ -5,10 +5,13 @@ tags:
 - HowTo
 prev: ./
 ---
+
 # Reseller
 ![icons_odoo_website_crm_partner_assign](attachments/icons_odoo_website_crm_partner_assign.png)
 
 {{ $frontmatter.description }}
+
+Technischer Name: `partner_commission`
 
 ::: tip
 Reseller und Partner werden in diesem HowTo synonym verwendet. Komissionen sind als Bestellungen bei Resellern zu verstehen.
