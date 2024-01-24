@@ -10,6 +10,27 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
+## Aktionen
+
+### Kontakt als Privat festlegen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Kontakt als Privat festlegen`\
+Modell: `res.partner`\
+Folgeaktion: Den Datensatz aktualiseren
+Im Tab *Zu schreibende Daten*:
+
+* **Feld**: Adresstyp
+* **Bewertungstyp**: Wert
+* **Wert**: `private`
+
+Im Tab *Zu schreibende Daten*:
+
+* **Gruppenname**: Technisch / Zugriff auf private Adressen
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+
 ## Geplante Aktionen
 
 ### Kontakte mit geplanter Aktivität archivieren
