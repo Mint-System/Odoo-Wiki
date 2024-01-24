@@ -1,6 +1,6 @@
 ---
 title: Entwicklung Runbot
-description: Odoo Entwicklungsumgebungen.
+description: Odoo Testumgebungen.
 tags:
 - HowTo
 prev: ./development
