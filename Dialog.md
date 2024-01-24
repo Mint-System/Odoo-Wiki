@@ -1,11 +1,11 @@
 ---
-title: Diskussion
+title: Dialog
 description: In alle Module integrierter privater Chat und Gruppen-Chat.
 tags:
 - HowTo
 prev: ./
 ---
-# Diskussion
+# Dialog
 ![icons_odoo_mail](attachments/icons_odoo_mail.png)
 
 {{ $frontmatter.description }}
@@ -16,9 +16,9 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 
 | Bereich                                           | Beschreibung                                 |
 | ------------------------------------------------- | -------------------------------------------- |
-| [Diskussion Aktionen](Discuss%20Actions.md)       | Arbeitsflüsse für Diskussion automatisieren. |
-| [Diskussion Aktivitäten](Discuss%20Activities.md) | Arbeitsplanung mit Odoo Aktivitäten.         |
-| [Diskussion E-Mail](Discuss%20E-Mail.md)          | E-Mail mit Odoo versenden.                   |
+| [Dialog Aktionen](Dialog%20Actions.md)       | Arbeitsflüsse für Dialog automatisieren. |
+| [Dialog Aktivitäten](Dialog%20Activities.md) | Arbeitsplanung mit Odoo Aktivitäten.         |
+| [Dialog E-Mail](Dialog%20E-Mail.md)          | E-Mail mit Odoo versenden.                   |
 
 ## Erweiterungen
 
@@ -41,43 +41,57 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 | [Sale Order Unsubscribe](Sale%20Order%20Unsubscribe.md)                             | Alle Abonnenten nach Bestätigung des Angebots entfernen.               |
 | [URL Attachment](URL%20Attachment.md)                                               | Url als Dokument anhängen.                                             |
 
+## Beschreibung
+
+Die App Dialog ist mit allen Odoo-Geschäftsobjekten intgeriert. Sie ermöglicht die interne und externe Kommunikation im Kontext eines Dokuments. Bis #Odoo15 hat die *Diskussion* geheissen und *Follower* waren *Abonnemente*.
+
 ## Auswertung
 
 ### Versendete Nachrichten betrachten
 
 Nachrichten, die von Odoo versendet werden, werden zentral gespeichert. Im Entwicklermodus sehen Sie diese unter *Einstellungen > Technisch > E-Mail > Nachrichten*. Hier sehen Sie alle versendeten Nachrichten aufgelistet. In der Detailansicht sieht man den *Nachrichtentext* und die Metadaten.
 
-![](attachments/Diskussion%20Detailansicht.png)
+![](attachments/Dialog%20Detailansicht.png)
 
 Jede versendete Nachricht erhält eine eindeutige *Nachrichten-ID*.
 
-![](attachments/Diskussion%20Nachrichten-ID.png)
+![](attachments/Dialog%20Nachrichten-ID.png)
 
 Wurde die Nachricht als Mail versendet, können Sie im Tab *Empfänger* die Kontakte sehen.
 
-![](attachments/Diskussion%20Empfänger.png)
+![](attachments/Dialog%20Empfänger.png)
 
-## Abonnieren
+## Follower
 
-### Eigenes Abonnement hinzufügen
+### Eigener Follower hinzufügen
 
-Wenn Sie einen Chatter zum Odoo-Geschäftsobjekt sehen, können Sie mit einem Klick auf *Abonnieren*, das eigene Abonnement hinzufügen.
+Wenn Sie den Chatter zu einem Odoo-Geschäftsobjekt sehen, können Sie mit einem Klick auf *Folgen* das Objekt abonnieren.
 
-### Abonnement hinzufügen
+### Follower hinzufügen
 
-Fügen Sie einen Abonnent dem Odoo-Objekt hinzu indem Sie rechts von *Abonnieren* auf das Icon klicken und *Followers hinzufügen* wählen.
+Fügen Sie einen Follower dem Odoo-Objekt hinzu indem Sie rechts von *Folgen* auf das Icon klicken und *Follower hinzufügen* wählen.
 
-![Diskussion Abonnent hinzufügen](attachments/Diskussion%20Abonnent%20hinzufügen.gif)
+![](attachments/Dialog%20Follower%20hinzufügen.gif)
 
-### Abonnement bearbeiten
+### Follower bearbeiten
 
-Wählen Sie ein Abonnement auf dem Odoo-Gschäftsobjekts aus, indem Sie rechts von *Abonnieren* auf das Icon klicken und ein Abonnement auswählen.
+Wählen Sie einen Follower auf dem Odoo-Geschäftsobjekts aus, indem Sie rechts von *Folgen* auf das Icon klicken und ein Follower auswählen.
 
-### Abonnement entfernen
+### Follower entfernen
 
-Entfernen Sie einen Abonnent vom Odoo-Objekt indem Sie rechts von *Abonnieren* auf das Icon klicken.
+Entfernen Sie einen Follower vom Odoo-Objekt indem Sie rechts von *Folgen* auf das Icon klicken.
 
-![Diskussion Abonnent entfernen](attachments/Diskussion%20Abonnent%20entfernen.gif)
+![](attachments/Dialog%20Follower%20entfernen.gif)
+
+### Alle Follower löschen
+
+Wenn Sie oder ein anderer Benutzer einem Dokument folgen, speichert das Odoo in einer technischen Tabelle. Diese Einträge können Sie via *Einstellungen > Technisch > Dialog > Abonnenten* löschen. Filtern Sie die Einträge nach einem bestimmten Modellname. Dazu ein Beispiel mit dem Verkaufsaufträgen (`sale.order`):
+
+![](attachments/Dialog%20Follower%20löschen.gif)
+
+::: warning
+Das löschen von Follower kann die Kommunikation in der App Dialog beeinflussen.
+:::
 
 ## Benachrichtigungen
 
@@ -89,7 +103,7 @@ Wenn Odoo Nachrichten versendet, werden abonnierte Benutzer benachrichtigt. Dies
 
 Navigieren Sie nach *Einstellungen > Technisch > Subtypen* und zeigen Sie beispielsweise den Subtyp *Bestätigt* an.
 
-![](attachments/Diskussion%20Subtyp%20Bestätigt.png)
+![](attachments/Dialog%20Subtyp%20Bestätigt.png)
 
 Konfigurieren Sie den Subtypen gemäss Anforderungen:
 
@@ -101,7 +115,7 @@ Konfigurieren Sie den Subtypen gemäss Anforderungen:
 
 Zeigen Sie ein Odoo Dokument an und beareiten Sie ein Abonnement.
 
-![](attachments/Diskussion%20Abonnement%20bearbeiten.png)
+![](attachments/Dialog%20Follower%20bearbeiten.png)
 
 Wählen Sie die Subtypen aus, welche für das Abonnement aktiv sein sollen.
 

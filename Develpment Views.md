@@ -40,14 +40,14 @@ So sollte es dann aussehen:
 
 ### Ansicht Anhänge erstellen
 
-Damit Sie eine Übersicht der Anhänte erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+Damit Sie eine Übersicht der Anhänge erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
 
 Name der Aktion: `Attachments`\
 Objekt: `ir.attachments`\
 Ansichtsmodus: `tree,form`\
 Menü: `Anhänge`\
-Obermenü: `Einstellungen/Technisch/Diskussion`\
-Aktion: `ir.actions.act_window` `Einkaufszeilen`\
+Obermenü: `Einstellungen/Technisch/Dialog`\
+Aktion: `ir.actions.act_window` `Attachments`\
 Nummernfolge: `10`
 
 Das Ergebnis sollte so aussehen:

@@ -113,17 +113,17 @@ Die Datenqualität ganz einfach verbessern.
 
 Importieren und Exportieren Sie alle Odoo Daten.
 
+### [Dialog](Dialog.md)
+
+![icons_odoo_mail](attachments/icons_odoo_mail.png)
+
+In alle Module integrierter privater Chat und Gruppen-Chat.
+
 ### [Dokumente](Documents.md)
 
 ![icons_odoo_documents](attachments/icons_odoo_documents.png)
 
 Sparen Sie Zeit beim Erfassen von Rechnungen, Scannen von Verträgen und bei der Freigabe von Dokumenten.
-
-### [Diskussion](Discuss.md)
-
-![icons_odoo_mail](attachments/icons_odoo_mail.png)
-
-In alle Module integrierter privater Chat und Gruppen-Chat.
 
 ### [Einkauf](Purchase.md)
 

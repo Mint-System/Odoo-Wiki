@@ -34,13 +34,3 @@ Nachher:
 ![Mail Thread Context Notiz nachher](attachments/Mail%20Thread%20Context%20Notiz%20nachher.gif)
 
 Dasselbe funktioniert auch für *Sende Nachricht*. Der Empfänger wird nicht automatisch als Abonnent hinzugefügt.
-
-### Alle Abonnenten löschen
-
-Wenn Sie oder ein anderer Benutzer einem Dokument folgen, speichert das Odoo in einer technischen Tabelle. Diese Einträge können Sie via *Einstellungen > Technisch > Diskussion > Abonnenten* löschen. Filtern Sie die Einträge nach einem bestimmten Modellname. Dazu ein Beispiel mit dem Verkaufsaufträgen (`sale.order`):
-
-![Diskussion Abonnenten löschen](attachments/Diskussion%20Abonnenten%20löschen.gif)
-
-::: warning
-Das löschen von Abonnenten kann die Kommunikation in der App Diskussion beeinflussen.
-:::

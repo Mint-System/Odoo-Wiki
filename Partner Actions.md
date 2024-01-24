@@ -14,7 +14,7 @@ prev: ./contacts
 
 ### Kontakte mit geplanter Aktivität archivieren
 
-Erfassen Sie einen [neuen Aktivitätstyp](Discuss%20Activities.md#Neuer%20Aktivitätstyp%20erfassen). Mit dieser geplanten Aktion können Sie Kontakte, welche diese Aktivität haben archivieren lassen.
+Erfassen Sie einen [neuen Aktivitätstyp](Dialog%20Activities.md#Neuer%20Aktivitätstyp%20erfassen). Mit dieser geplanten Aktion können Sie Kontakte, welche diese Aktivität haben archivieren lassen.
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 

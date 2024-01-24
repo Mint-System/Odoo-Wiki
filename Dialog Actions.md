@@ -1,22 +1,22 @@
 ---
-title: Diskussion Aktionen
-description: Arbeitsflüsse für Diskussion automatisieren.
+title: Dialog Aktionen
+description: Arbeitsflüsse für Dialog automatisieren.
 tags:
 - HowTo
 prev: ./discuss
 ---
-# Diskussion Aktionen
+# Dialog Aktionen
 ![icons_odoo_mail](attachments/icons_odoo_mail.png)
 
 {{ $frontmatter.description }}
 
 ## Aktionen
 
-### Alle Abonnenten entfernen
+### Alle Follower entfernen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Alle Abonnenten entfernen`\
+Name der Aktion: `Alle Follower entfernen`\
 Modell: `project.task` (oder ein anderes Datenmodell)\
 Folgeaktion: `Python-Code ausführen`
 
@@ -29,4 +29,4 @@ for record in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-Auf der Listenansicht des Datenmodell markieren Sie ausgewählte Einträge und wählen *Aktion > Alle Abonnenten entfernen*.
+Auf der Listenansicht des Datenmodell markieren Sie ausgewählte Einträge und wählen *Aktion > Alle Follower entfernen*.

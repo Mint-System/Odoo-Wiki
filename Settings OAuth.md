@@ -40,7 +40,7 @@ Kopieren Sie das Feld *Wert*, es handelt sich hierbei um das *Client Secret*.
 
 ![](attachments/Einstellungen%20OAuth%20Copy%20Secret.png)
 
-Öffnen Sie jetzt Odoo und navigieren Sie nach *Einstellungen > Diskussion > Outlook Credentials*. Geben Sie hier die *Client ID* und das *Client Secret* ein.
+Öffnen Sie jetzt Odoo und navigieren Sie nach *Einstellungen > Dialog > Outlook Credentials*. Geben Sie hier die *Client ID* und das *Client Secret* ein.
 
 ![](attachments/Einstellungen%20OAuth%20Paste%20Client%20ID%20and%20Secret.png)
 

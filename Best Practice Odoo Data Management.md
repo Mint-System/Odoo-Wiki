@@ -32,7 +32,7 @@ user_id/id
 Datei: `hr.employee.csv`
 
 ### E-Mail-Server
-Listenansicht: *Einstellungen > Diskussion > Externe E-Mail-Server > Ausgehender Mail-Server*
+Listenansicht: *Einstellungen > Dialog > Externe E-Mail-Server > Ausgehender Mail-Server*
 
 Felder:
 ```
@@ -46,7 +46,7 @@ smtp_port
 ```
 Datei: `ir.mail_server.csv`
 
-Listenansicht: *Einstellungen > Diskussion > Externe E-Mail-Server > Eingehender Mail-Server*
+Listenansicht: *Einstellungen > Dialog > Externe E-Mail-Server > Eingehender Mail-Server*
 
 Felder:
 ```

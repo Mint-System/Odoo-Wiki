@@ -24,7 +24,7 @@ Ist diese Erweiterung installiert, werden vor dem Versenden einer Nachricht alle
 
 Ab #Odoo16.
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und aktivieren Sie die Option *Ignore Current Partner*. Damit werden vor dem Versand einer Nachricht alle Abonnenten ausser des aktuellen Benutzer entfernt. 
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und aktivieren Sie die Option *Ignore Current Partner*. Damit werden vor dem Versand einer Nachricht alle Abonnenten ausser des aktuellen Benutzer entfernt. 
 
 Bis #Odoo15.
 
@@ -34,7 +34,7 @@ Wenn Sie den [Systemparameter](Development.md#Systemparameter%20anlegen) mit Sch
 
 Ab #Odoo16.
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und aktivieren Sie die Option *Mail Post Autofollow*. Damit werden die Empfänger der Nachricht nach dem Versenden der Nachricht als Abonnenten hinzugefügt.
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und aktivieren Sie die Option *Mail Post Autofollow*. Damit werden die Empfänger der Nachricht nach dem Versenden der Nachricht als Abonnenten hinzugefügt.
 
 Bis #Odoo15.
 
@@ -44,7 +44,7 @@ Wenn Sie möchten, dass die Empfänger der Nachricht nach dem Versenden der Nach
 
 Ab #Odoo16.
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und aktivieren Sie die Option *Mail Create Nosubscribe*. Damit wird verhindert, dass der eigene Benutzer nach dem Versenden einer Nachricht als Abonnent hinzugefügt wird.
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und aktivieren Sie die Option *Mail Create Nosubscribe*. Damit wird verhindert, dass der eigene Benutzer nach dem Versenden einer Nachricht als Abonnent hinzugefügt wird.
 
 Bis #Odoo15.
 

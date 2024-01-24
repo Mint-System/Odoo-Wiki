@@ -1,11 +1,11 @@
 ---
-title: Diskussion E-Mail
+title: Dialog E-Mail
 description: E-Mail mit Odoo versenden.
 tags:
 - HowTo
 prev: ./discuss
 ---
-# Diskussion E-Mail
+# Dialog E-Mail
 ![icons_odoo_mail](attachments/icons_odoo_mail.png)
 
 {{ $frontmatter.description }}
@@ -19,7 +19,7 @@ Wenn Sie alle von Odoo gesendeten E-Mails anzeigen möchten, navigieren Sie nach
 * Gruppiert: *Datum: Monat > Datum: Woche > Datum: Tag*
 * Filter: Typ ist *E-Mail*
 
-![](attachments/Diskussion%20E-Mail%20Empfang.png)
+![](attachments/Dialog%20E-Mail%20Empfang.png)
 
 ### Alle versendeten E-Mails anzeigen
 
@@ -29,7 +29,7 @@ Wenn Sie alle von Odoo verarbeiteten E-Mails anzeigen möchten, navigieren Sie n
 * Filter: Typ ist "Kommentar"
 * Filter: Betreff ist gesetzt
 
-![](attachments/Diskussion%20E-Mail%20Gesendet.png)
+![](attachments/Dialog%20E-Mail%20Gesendet.png)
 
 ## Vorlagen
 
@@ -45,11 +45,11 @@ Navigieren Sie nach *Einstellungen > Technisch > Vorlagen* und suchen Sie in der
 
 Navigieren Sie nach *Einstellungen > Technisch > Vorlagen* und erstellen Sie einen neuen Eintrag. Im Feld *Gilt für* wählen das Geschäftsobjekt, das mit der Voralge verknüpft werden soll.
 
-![](attachments/Diskussion%20E-Mail%20Gilt%20für.png)
+![](attachments/Dialog%20E-Mail%20Gilt%20für.png)
 
 Im ersten Tab *Inhalt* können Sie mit dem HTML-Editor den Vorlage-Text mit Platzhaltern definieren. 
 
-![](attachments/Diskussion%20E-Mail%20HTML.png)
+![](attachments/Dialog%20E-Mail%20HTML.png)
 
 Im Tab *E-Mail-Konfiguration* finden Sie diese Parameter:
 
@@ -97,7 +97,7 @@ Zeigen Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > E-mail > Vorla
 
 Um sicherzustellen, dass Odoo Nachrichten am richtigen Ort platziert, kann man als Administrator des Systems Testnachrichten erstellen und verschicken.
 
-Öffnen Sie *Einstellungen > Diskussion > Externe E-Mail-Server > Eintrag auswählen > Aktion > Nachrichten*. Mit *Neu* könne Sie nun ein Nachricht erfassen und verschicken.
+Öffnen Sie *Einstellungen > Dialog > Externe E-Mail-Server > Eintrag auswählen > Aktion > Nachrichten*. Mit *Neu* könne Sie nun ein Nachricht erfassen und verschicken.
 
 ### E-Mail an Kontakt senden
 
@@ -105,7 +105,7 @@ Mit dem Odoo-Chatter können auf jedem Geschäftsobjekt interne Notizen hinzugef
 
 Zum versenden einer Nachricht an einen Kontakt wählen Sie *Kontakte > Kontakte* und navigieren zum *Chatter*. Wählen Sie *Sende Nachricht* und vergrössern Sie das Eingabefeld. Wählen Sie die Empfänger, den Betreff, geben Sie ihre Nachricht ein und klicken Sie auf *Senden.*
 
-![Diskussion Nachricht versenden](attachments/Diskussion%20Nachricht%20versenden.gif)
+![Dialog Nachricht versenden](attachments/Dialog%20Nachricht%20versenden.gif)
 
 ## Versand
 
@@ -113,15 +113,15 @@ Zum versenden einer Nachricht an einen Kontakt wählen Sie *Kontakte > Kontakte*
 
 Wenn man eine Odoo-Nachricht als E-Mail versendet, wird die Nachricht im Chatter geloggt. Man findet dort das Mail-Icon.
 
-![](attachments/Diskussion%20Mail%20Fehlschlag.png)
+![](attachments/Dialog%20Mail%20Fehlschlag.png)
 
 Ist das Mail-Icon rot markiert (und nicht weiss), konnte die E-Mail nicht versendet werden. Wenn Sie auf Icon klicken werden Details zum fehlerhaften Mail-Versand angezeigt.
 
-![Diskussion Mail Fehlschlag Beispiel](attachments/Diskussion%20Mail%20Fehlschlag%20Beispiel.png)
+![](attachments/Dialog%20Mail%20Fehlschlag%20Beispiel.png)
 
 Ein weiteres Bespiel:
 
-![](attachments/Diskussion%20E-Mail%20Fehler%20Single%20Domains.png)
+![](attachments/Dialog%20E-Mail%20Fehler%20Single%20Domains.png)
 
 ### Alle E-Mails anzeigen
 
@@ -131,7 +131,7 @@ Odoo speichert E-Mails in der Datenbank. Sie können diese im Entwicklermodus un
 
 Wenn Sie den Entwicklermodus eingeschaltet haben, finden Sie unter *Einstellungen > Technisch > E-Mails* eine Liste der nicht versendeten E-Mails. Odoo registiert wenn die E-Mail-Zustellung nicht erfolgreich war.
 
-![](attachments/Diskussion%20nicht%20versendete%20E-Mails.png)
+![](attachments/Dialog%20nicht%20versendete%20E-Mails.png)
 
 ### E-Mail erneut versenden
 

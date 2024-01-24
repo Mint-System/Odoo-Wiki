@@ -47,7 +47,7 @@ Umfrage-Teilnehmer können Sie mit der Aktion *Teilen* einladen. Navigieren Sie 
 
 ### Mail-Vorlage für Einladung erstellen
 
-Führen Sie [E-Mail-Vorlage erfassen](Discuss%20E-Mail.md#E-Mail-Vorlage%20erfassen) mit diesen Angaben aus:
+Führen Sie [E-Mail-Vorlage erfassen](Dialog%20E-Mail.md#E-Mail-Vorlage%20erfassen) mit diesen Angaben aus:
 
 * **Name**: Umfrage: Einladung\
 * **Gilt für**: Benutzereingaben\

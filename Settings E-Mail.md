@@ -16,7 +16,7 @@ prev: ./settings
 
 Damit Odoo Mails empfangen und verarbeiten kann, muss ein eingehender Mail-Server konfiguriert werden.
 
-Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Neu* um eine Verbindung zu einem Mail-Account einzurichten. Dazu ein Beispiel mit Infomaniak:
+Unter *Einstellungen > Dialog > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Neu* um eine Verbindung zu einem Mail-Account einzurichten. Dazu ein Beispiel mit Infomaniak:
 
 * **Beschreibung**: Infomaniak Incoming
 * **Servertyp**: IMAP Server
@@ -58,7 +58,7 @@ Sie können für eine Ressource, beispielsweise Kundendienst Team, mehrere Alias
 
 Damit Odoo Mail verschicken kann, muss ein ausgehender Mail-Server konfiguriert werden.
 
-Unter *Einstellungen > Diskussion > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Ausgehender Mail-Server*. Klicken Sie auf *Neu* um eine Verbindung zu einem Mail-Account einzurichten. Dazu ein Beispiel für Infomaniak:
+Unter *Einstellungen > Dialog > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Ausgehender Mail-Server*. Klicken Sie auf *Neu* um eine Verbindung zu einem Mail-Account einzurichten. Dazu ein Beispiel für Infomaniak:
 
 * **Beschreibung**: Infomaniak Outgoing
 * **SMTP Server**: `mail.infomaniak.com`
@@ -100,10 +100,10 @@ Navigieren Sie nach *Einstellungen* und klicken Sie bei *Unternehmen* auf *Info 
 
 ### Aktion für eingehende nicht zuordbare E-Mails konfigurieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server* und zeigen Sie einen aktiven Eintrag an. Im Feld *Einen neuen Datensatz erzeugen?* können Sie ein Datenmodell auswählen. Wenn Odoo eine E-Mail verarbeitet und dieses nicht einer bestehenden Diskussion erzeugen kann, erstellt es einen Datensatz des ausgewählten Datenmodells.
+Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server* und zeigen Sie einen aktiven Eintrag an. Im Feld *Einen neuen Datensatz erzeugen* können Sie ein Datenmodell auswählen. Wenn Odoo eine E-Mail verarbeitet und dieses nicht einem laufenden Dialog zugeordnet werden kann, erstellt Odoo einen Datensatz im ausgewählten Datenmodell.
 
 ::: tip
-Als ausgewähltes Datenmodell empfehlen wir *Diskussionskanal* oder *Notiz*. 
+Als ausgewähltes Datenmodell empfehlen wir *Kanal* oder *Notiz*. 
 :::
 
 ### Catchall-Alias anpassen

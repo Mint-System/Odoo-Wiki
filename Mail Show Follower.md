@@ -18,7 +18,7 @@ Repository: <https://github.com/OCA/social/tree/15.0/mail_show_follower>
 
 ### Format für CC-Hinweis definieren
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion*. Im Bereich *Show Followers on mails* können Sie das Format des CC-Hinweis festlegen. Wählen Sie für *Text 'Sent to'* den Text `Diese Nachricht wurde an folgende Empfänger geschickt:`.
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog*. Im Bereich *Show Followers on mails* können Sie das Format des CC-Hinweis festlegen. Wählen Sie für *Text 'Sent to'* den Text `Diese Nachricht wurde an folgende Empfänger geschickt:`.
 
 ![](attachments/Mail%20Show%20Follower.png)
 
