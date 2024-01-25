@@ -4,7 +4,7 @@ description: Listenpreise in verschiedenen Währungen für Preislisten-Formeln.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./sale
+prev: ./product
 ---
 # Product Listprice Currency
 ![icon_oms_box](attachments/icon_oms_box.png)

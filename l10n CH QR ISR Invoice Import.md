@@ -5,7 +5,7 @@ tags:
 - HowTo
 - OCA
 - Drittanbieter
-prev: ./invoicing
+prev: ./l10n-ch
 ---
 # Swiss QR/ESR scan
 ![](attachments/icon_camp_to_camp.png)

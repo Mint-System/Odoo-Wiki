@@ -28,10 +28,6 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 
 | Erweiterung                                                                                       | Beschreibung                                                                  |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| [Contract Sale Generation](Contract%20Sale%20Generation.md)                                       | Aus wiederholenden Verträge Verkaufsangebote generieren.                      |
-| [Packaging UOM](Packaging%20UOM.md)                                                               | Mengeneinheit für Produktverpackung festlegen.                                |
-| [Product Listprice Currency](Product%20Listprice%20Currency.md)                                   | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.              |
-| [Product Supplierinfo for Customer Sale](Product%20Supplierinfo%20for%20Customer%20Sale.md)       | Produktspezifische Informationen für ausgewählte Kunden erfassen.             |
 | [Sale Automatic Workflow](Sale%20Automatic%20Workflow.md)                                         | Verkaufsprozess automatisieren.                                               |
 | [Sale Blanket Order Comment](Sale%20Blanket%20Order%20Comment.md)                                 | Kommentar auf Rahmenauftrag.                                                  |
 | [Sale Company Currency](Sale%20Company%20Currency.md)                                             | Total der Verkaufsaufträge in Unternehmenswährung.                            |
@@ -60,7 +56,6 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                                       | Produktset mit Notizen und Abschnitten.                                       |
 | [Sale Product Set Search](Sale%20Product%20Set%20Search.md)                                       | Produkset anhand Name und Referenz suchen.                                    |
 | [Sale Product Set](Sale%20Product%20Set.md)                                                       | Produktsets definieren und einfach hinzufügen.                                |
-| [Sale Timesheet Total Validated](Sale%20Timesheet%20Total%20Validated.md)                         | Nur bestätige Zeiterfassungs-Einträge in Verkaufsauftrag anzeigen.            |
 
 ## Produkte
 

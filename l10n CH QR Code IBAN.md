@@ -4,7 +4,7 @@ description: Generierung der QR-Rechnung ohne ISR-Nummer.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./l10n-ch
 ---
 # Switzerland QR IBAN
 ![icon_oms_box](attachments/icon_oms_box.png)

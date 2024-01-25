@@ -51,24 +51,14 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                      | Zeigt für eine Rechnung das definitive Abgleichsdatum an.                   |
 | [Account Payment Mode](Account%20Payment%20Mode.md)                                                        | Bezahlmethoden definieren.                                                  |
 | [Account Payment Order](Account%20Payment%20Order.md)                                                      | Stapelzahlungen für die Odoo Community Edition.                             |
+| [Account Payment Partner](Account%20Payment%20Partner.md)                                                  | Zahlungsmodus auf Kontakt festlegen.                                        |
+| [Account Payment Purchase](Account%20Payment%20Purchase.md)                                                | Zahlungsmodus auf Bestellung festlegen.                                     |
 | [Account Statement Import Base](Account%20Statement%20Import%20Base.md)                                    | Basismodul für Import Bankauszüge.                                          |
 | [Account Statement Import CAMT](Account%20Statement%20Import%20CAMT.md)                                    | Support Import Bankauszug im Camt-Format.                                   |
 | [Account Statement Import Camt54](Account%20Statement%20Import%20Camt54.md)                                | Camt54 Bankauszug mit Details zu Einzahlungen importieren.                  |
+| [Account Statement Import](Account%20Statement%20Import.md)                                                | Bankauszüge importieren.                                                    |
 | [Account Usability](Account%20Usability.md)                                                                | Menüs der Enterprise Finanzbuchhaltung für Community.                       |
-| [Account statement Import](Account%20statement%20Import.md)                                                | Bankauszüge importieren.                                                    |
-| [Base VAT Optional VIES](Base%20VAT%20Optional%20VIES.md)                                                  | Resultat der VIES-Prüfung speichern.                                        |
-| [Base VAT Required VIES](Base%20VAT%20Required%20VIES.md)                                                  | Die VIES-VAT-Prüfung als obligatorisch festlegen.                           |
-| [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                                      | PDF-Dokumenten von Rechnungen zusammenführen.                               |
 | [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                | Allow discount deduction on vendor bills.                                   |
-| [Sales Order Invoicing Grouping Criteria](Sales%20Order%20Invoicing%20Grouping%20Criteria.md)              | Kriterien zur Gruppierung in der Rechnungstellung festlegen.                |
-| [Switzerland Bank type](Switzerland%20Bank%20Type.md)                                                      | Lokalisierung für Schweizer Banken und Bankkontos.                          |
-| [Switzerland Disable Default Reports](Switzerland%20Disable%20Default%20Reports.md)                        | Generierung der QR- und ISR-Berichte deaktivieren.                          |
-| [l10n CH Invoice Reports with Payments](l10n%20CH%20Invoice%20Reports%20with%20Payments.md)                | Rechnung mit Zahlungsschein und Zahlungsdetails drucken.                    |
-| [l10n CH Invoice Reports](l10n%20CH%20Invoice%20Reports.md)                                                | Rechnung mit ISR- und/oder QR-Zahlung drucken.                              |
-| [l10n CH QR Bill Scan](l10n%20CH%20QR%20Bill%20Scan.md)                                                    | Daten aus QR-Code bei Rechnungsimport auslesen.                             |
-| [l10n CH QR Code IBAN](l10n%20CH%20QR%20Code%20IBAN.md)                                                    | Generierung der QR-Rechnung ohne ISR-Nummer.                                |
-| [l10n CH QR Code Ref](l10n%20CH%20QR%20Code%20Ref.md)                                                      | Rechnungsname als zusätzliche Information in QR-Code festlegen.             |
-| [l10n CH QR ISR Invoice Import](l10n%20CH%20QR%20ISR%20Invoice%20Import.md)                                | Rechnung anhand QR-Daten erstellen.                                         |
 
 ## Konfiguration
 

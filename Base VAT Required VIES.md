@@ -4,7 +4,7 @@ description: Die VIES-VAT-Prüfung als obligatorisch festlegen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./database
 ---
 # Base VAT Required VIES
 ![icon_oms_box](attachments/icon_oms_box.png)

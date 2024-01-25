@@ -16,6 +16,8 @@ prev: ./
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | [Base DB Anonymization](Base%20DB%20Anonymization.md)                                     | Inhalt von ausgewählten Datenbank-Felder anonmyisieren. |
 | [Base Search Fuzzy](Base%20Search%20Fuzzy.md)                                             | Aktivieren Trigram-Index auf Datenbank-Felder.          |
+| [Base VAT Optional VIES](Base%20VAT%20Optional%20VIES.md)                                 | Resultat der VIES-Prüfung speichern.                    |
+| [Base VAT Required VIES](Base%20VAT%20Required%20VIES.md)                                 | Die VIES-VAT-Prüfung als obligatorisch festlegen.       |
 | [DBFilter From Header](DBFilter%20From%20Header.md)                                       | Datenbank mit Proxy-Header auswählen.                   |
 | [Database Anonymization HR](Smile%20Anonymization%20HR.md)                                | HR-Datensätze in Backup anonymisieren.                  |
 | [Database Anonymize Partner](Smile%20Anonymize%20Partner.md)                              | Partner-Datensätze in Backup anonymisieren.             |

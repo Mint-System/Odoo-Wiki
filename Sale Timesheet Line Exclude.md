@@ -4,7 +4,7 @@ description: Zeiterfassungseinträge als nicht abrechenbar markieren.
 tags:
 - HowTo
 - OCA
-prev: ./sale
+prev: ./hr-timesheet
 ---
 # Sale Timesheet Line Exclude
 ![icon_oca_app](attachments/icon_oca_app.png)

@@ -353,6 +353,12 @@ Für moderne Hersteller.
 
 Partnerschaften mit Wiederverkäufer pflegen.
 
+### [Schweizer Lokalisierung](l10n%20CH.md)
+
+![icons_odoo_l10n_ch](attachments/icons_odoo_l10n_ch.png)
+
+Übersicht zur Schweizer Lokalisierung von Odoo.
+
 ### [Spesen](HR%20Expense.md)
 
 ![icons_odoo_hr_expense](attachments/icons_odoo_hr_expense.png)

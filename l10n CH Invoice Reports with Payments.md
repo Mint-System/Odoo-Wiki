@@ -4,7 +4,7 @@ description: Rechnung mit Zahlungsschein und Zahlungsdetails drucken.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./l10n-ch
 ---
 # l10n CH Invoice Reports with Payments
 ![icon_oms_box](attachments/icon_oms_box.png)

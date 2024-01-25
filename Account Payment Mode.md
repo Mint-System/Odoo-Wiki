@@ -4,7 +4,7 @@ description: Bezahlmethoden definieren.
 tags:
 - HowTo
 - OCA
-prev: ./account
+prev: ./finance
 ---
 # Account Payment Mode
 ![icon_oca_app](attachments/icon_oca_app.png)

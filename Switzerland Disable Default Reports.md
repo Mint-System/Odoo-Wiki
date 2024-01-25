@@ -4,7 +4,7 @@ description: Generierung der QR- und ISR-Berichte deaktivieren.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./l10n-ch
 ---
 # Switzerland Disable Default Reports
 ![icon_oms_box](attachments/icon_oms_box.png)

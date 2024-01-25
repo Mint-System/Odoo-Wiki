@@ -13,18 +13,21 @@ prev: ./
 
 ## Erweiterungen
 
-| Erweiterung                                                                       | Beschreibung                                                                |
-| --------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| [Product Barcode Generator](Product%20Barcode%20Generator.md)                     | Autogenerate EAN13 product barcodes.                                        |
-| [Product Dimension Attributes](Product%20Dimension%20Attributes.md)               | Product dimension attributes.                                               |
-| [Product End Of Life Dates](Product%20End%20Of%20Life%20Dates.md)                 | Datum für Ende Support, Verkauf und Bestand auf Produkt festlegen.          |
-| [Product Information Management](Product%20Information%20Management.md)           | Verwalten Sie Produktinformationen ganz flexibel.                           |
-| [Product Material Attributes](Product%20Material%20Attributes.md)                 | Product material attributes.                                                |
-| [Product Name Sequence](Product%20Name%20Sequence.md)                             | Generate product names based on a sequence.                                 |
-| [Product Packaging Parent](Product%20Packaging%20Parent.md)                       | Übergeordnete Verpackung für Produktverpackung definieren.                  |
-| [Product Pricelist Fixed Discount](Product%20Pricelist%20Fixed%20Discount.md)     | Festpreise in Preisliste mit Rabatt.                                        |
-| [Product Supplierinfo for Customers](Product%20Supplierinfo%20for%20Customers.md) | Produktspezifische Informationen für ausgewählte Kunden erfassen.           |
-| [Product Variant Description](Product%20Variant%20Description.md)                 | Verkaufs-, Einkaufs- und Lieferbeschreibung auf Produktvarianten festlegen. |
+| Erweiterung                                                                                 | Beschreibung                                                                |
+| ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [Packaging UOM](Packaging%20UOM.md)                                                         | Mengeneinheit für Produktverpackung festlegen.                              |
+| [Product Barcode Generator](Product%20Barcode%20Generator.md)                               | Autogenerate EAN13 product barcodes.                                        |
+| [Product Dimension Attributes](Product%20Dimension%20Attributes.md)                         | Product dimension attributes.                                               |
+| [Product End Of Life Dates](Product%20End%20Of%20Life%20Dates.md)                           | Datum für Ende Support, Verkauf und Bestand auf Produkt festlegen.          |
+| [Product Information Management](Product%20Information%20Management.md)                     | Verwalten Sie Produktinformationen ganz flexibel.                           |
+| [Product Listprice Currency](Product%20Listprice%20Currency.md)                             | Listenpreise in verschiedenen Währungen für Preislisten-Formeln.            |
+| [Product Material Attributes](Product%20Material%20Attributes.md)                           | Product material attributes.                                                |
+| [Product Name Sequence](Product%20Name%20Sequence.md)                                       | Generate product names based on a sequence.                                 |
+| [Product Packaging Parent](Product%20Packaging%20Parent.md)                                 | Übergeordnete Verpackung für Produktverpackung definieren.                  |
+| [Product Pricelist Fixed Discount](Product%20Pricelist%20Fixed%20Discount.md)               | Festpreise in Preisliste mit Rabatt.                                        |
+| [Product Supplierinfo for Customer Sale](Product%20Supplierinfo%20for%20Customer%20Sale.md) | Produktspezifische Informationen für ausgewählte Kunden erfassen.           |
+| [Product Supplierinfo for Customers](Product%20Supplierinfo%20for%20Customers.md)           | Produktspezifische Informationen für ausgewählte Kunden erfassen.           |
+| [Product Variant Description](Product%20Variant%20Description.md)                           | Verkaufs-, Einkaufs- und Lieferbeschreibung auf Produktvarianten festlegen. |
 
 ## Verwendung
 

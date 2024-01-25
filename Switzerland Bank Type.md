@@ -4,7 +4,7 @@ description: Lokalisierung für Schweizer Banken und Bankkontos.
 tags:
 - HowTo
 - OCA
-prev: ./finance
+prev: ./l10n-ch
 ---
 # Switzerland Bank Type
 ![icon_oca_app](attachments/icon_oca_app.png)

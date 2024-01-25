@@ -4,7 +4,7 @@ description: Rechnungsname als zusätzliche Information in QR-Code festlegen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./l10n-ch
 ---
 # l10n CH QR Code Ref
 ![icon_oms_box](attachments/icon_oms_box.png)

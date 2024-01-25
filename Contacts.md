@@ -21,7 +21,6 @@ prev: ./
 
 | Erweiterung                                                                                       | Beschreibung                                                      |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| [Account Payment Partner](Account%20Payment%20Partner.md)                                         | Zahlungsmodus auf Kontakt festlegen.                              |
 | [Base Country Sequence](Base%20Country%20Sequence.md)                                             | Länder-Liste manuell sortieren.                                   |
 | [Base Partner Sequence](Base%20Partner%20Sequence.md)                                             | Sequenz auf Kundenreferenz.                                       |
 | [Contact Birthdate](Contact%20Birthdate.md)                                                       | Geburtstag bei Kontakten speichern für tolle Erinnerungen.        |

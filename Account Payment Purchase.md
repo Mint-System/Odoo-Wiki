@@ -4,7 +4,7 @@ description: Zahlungsmodus auf Bestellung festlegen.
 tags:
 - HowTo
 - OCA
-prev: ./purchase
+prev: ./finance
 ---
 # Account Payment Purchase
 ![icon_oca_app](attachments/icon_oca_app.png)

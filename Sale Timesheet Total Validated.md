@@ -4,7 +4,7 @@ description: Nur bestätige Zeiterfassungs-Einträge in Verkaufsauftrag anzeigen
 tags:
 - HowTo
 - Drittanbieter
-prev: ./sale
+prev: ./hr-timesheet
 ---
 # Sale Timesheet Total Validated
 ![icon_oms_box](attachments/icon_oms_box.png)

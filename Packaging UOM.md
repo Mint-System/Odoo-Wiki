@@ -4,7 +4,7 @@ description: Mengeneinheit für Produktverpackung festlegen.
 tags:
 - HowTo
 - OCA
-prev: ./sale
+prev: ./product
 ---
 # Packaging UOM
 ![icon_oca_app](attachments/icon_oca_app.png)

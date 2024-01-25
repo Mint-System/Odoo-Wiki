@@ -4,7 +4,7 @@ description: Zahlungsmodus auf Kontakt festlegen.
 tags:
 - HowTo
 - OCA
-prev: ./contacts
+prev: ./finance
 ---
 # Account Payment Partner
 ![icon_oca_app](attachments/icon_oca_app.png)

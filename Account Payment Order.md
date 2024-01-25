@@ -4,7 +4,7 @@ description: Stapelzahlungen für die Odoo Community Edition.
 tags:
 - HowTo
 - OCA
-prev: ./account
+prev: ./finance
 ---
 # Account Payment Order
 ![icon_oca_app](attachments/icon_oca_app.png)

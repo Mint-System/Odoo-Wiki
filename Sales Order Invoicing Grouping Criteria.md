@@ -4,7 +4,7 @@ description: Kriterien zur Gruppierung in der Rechnungstellung festlegen.
 tags:
 - HowTo
 - OCA
-prev: ./finance
+prev: ./invoicing
 ---
 # Sales Order Invoicing Grouping Criteria
 ![icon_oca_app](attachments/icon_oca_app.png)
