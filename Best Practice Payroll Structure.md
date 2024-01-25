@@ -30,16 +30,17 @@ Für ein kleines Unternehmen, braucht es keine komplexe Lohnabrechnung. Für jed
 
 | Name                          | Code  | Kategorie          | Berechnungsart | Prozent basierend auf | Prozent (%) | Menge | Python Code                                                                       |
 | ----------------------------- | ----- | ------------------ | -------------- | --------------------- | ----------- | ----- | --------------------------------------------------------------------------------- |
-| Bruttolohn                    | BASIC | Basisstufe         | Python Code    |                       | 0           | 1.0   | `result = payslip.paid_amount + (inputs.BASIC13.amount if inputs.BASIC13 else 0)` |
-| AHV/IV/EO-Beiträge            | AHVAN | Abzüge             | Prozent (%)    | BASIC                 | 5.275       | -1.0  |                                                                                   |
-| AHV/IV/EO-Beiträg Arbeitgeber | AHVAG | Arbeitgeberanteile | Prozent (%)    | BASIC                 | 5.275       | -1.0  |                                                                                   |
+| Bruttolohn                    | BASIC | Basisstufe         | Python Code    |                       |             |       | `result = payslip.paid_amount + (inputs.BASIC13.amount if inputs.BASIC13 else 0)` |
+| AHV/IV/EO-Beiträge            | AHVAN | Abzüge             | Prozent (%)    | BASIC                 | 5.3         | -1.0  |                                                                                   |
+| AHV/IV/EO-Beiträg Arbeitgeber | AHVAG | Arbeitgeberanteile | Prozent (%)    | BASIC                 | 5.3         | -1.0  |                                                                                   |
 | ALV-Beiträge                  | ALVAN | Abzüge             | Prozent (%)    | BASIC                 | 1.1         | -1.0  |                                                                                   |
 | ALV-Beiträge Arbeitgeber      | ALVAG | Arbeitgeberanteile | Prozent (%)    | BASIC                 | 1.1         | -1.0  |                                                                                   |
 | UVG/NBU-Beiträge              | UVGAN | Abzüge             | Prozent (%)    | BASIC                 | 1.057       | -1.0  |                                                                                   |
 | UVG/NBU-Beiträge Arbeitgeber  | UVGAG | Arbeitgeberanteile | Prozent (%)    | BASIC                 | 1.057       | -1.0  |                                                                                   |
-| PK/BVG-Beiträge               | BVGAN | Abzüge             | Fester Betrag  | BASIC                 | 2.04        | -1.0  |                                                                                   |
-| PK/BVG-Beiträge Arbeitgeber   | BVGAG | Arbeitgeberanteile | Fester Betrag  |                       | 0           | -1.0  |                                                                                   |
-| Kinderzulagen                 | KIZU  | Zuwendung          | Fester Betrag  |                       | 0           | 1.0   |                                                                                   |
+| PK/BVG-Beiträge               | BVGAN | Abzüge             | Python Code    |                       |             | 1.0   | `result = inputs.BVGAN.amount / 2`                                                |
+| PK/BVG-Beiträge Arbeitgeber   | BVGAG | Arbeitgeberanteile | Python Code    |                       |             |       | `result = inputs.BVGAN.amount / 2`                                                |
+| Kinderzulagen                 | KIZU  | Zuschuss           | Python Code    |                       |             |       | `result = inputs.CHILD_SUPPORT.amount`                                            |
+| Spesen                        | 2000  | Zuschuss           | Python Code    |                       |             |       | `result = inputs.SPESEN.amount if inputs.SPESEN else 0`                           |
 | Nettolohn                     | NET   | Netto              | Python Code    |                       | 0           | 1.0   | `result = categories.BASIC + categories.ALW + categories.DED`                     |
 
 ## Lohnbuchhaltung
