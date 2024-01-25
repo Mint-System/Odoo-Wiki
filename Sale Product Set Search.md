@@ -1,6 +1,6 @@
 ---
 title: Sale Product Set Search
-description: Produkset anhand Name und Referenz suchen.
+description: Produktset anhand Name und Referenz suchen.
 tags:
 - HowTo
 - Drittanbieter
