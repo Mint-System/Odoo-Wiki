@@ -16,7 +16,7 @@ Repository: <https://github.com/OCA/sale-workflow/tree/15.0/sale_order_line_desc
 
 ## Konfiguration
 
-### Übertragung Verkausbeschreibung aktivieren
+### Übertragung Verkaufsbeschreibung aktivieren
 
 Damit die Erweiterung für Unternehmen aktiv ist, navigieren Sie nach *Einstellungen > Verkauf > Angebote und Aufträge* und aktivieren Sie die Option *Verkaufsbeschreibung des Produktes*.
 
@@ -26,12 +26,12 @@ Für Benutzer navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Be
 
 ## Verwendung
 
-### Verkaufsbeschreibung ohne Produkname übertragen
+### Verkaufsbeschreibung ohne Produktname übertragen
 
-Ist die Option aktiviert, wird beim Ausfwählen eines Produkts nur die Verkaufsbeschreibung übernommen.
+Ist die Option aktiviert, wird beim Auswählen eines Produkts nur die Verkaufsbeschreibung übernommen.
 
 ![Sale Order Line Description](attachments/Sale%20Order%20Line%20Description.gif)
 
 ::: warning
-Wenn die Verkaufsbeschreibung auf dem Produk nicht gesetzt ist, wird der Produkname übernommen.
+Wenn die Verkaufsbeschreibung auf dem Produkt nicht gesetzt ist, wird der Produktname übernommen.
 :::
