@@ -263,6 +263,12 @@ Odoo for Management Systems (ISO, IEC, BS).
 
 Setzen Sie das Marketing auf Autopilot.
 
+### [Mitgliedschaft](Membership.md)
+
+![icons_odoo_membership](attachments/icons_odoo_membership.png)
+
+Mitglieder und Mitgliedschaften verwalten.
+
 ### [Navigation](Navigation.md)
 
 ![icons_odoo_website_partner](attachments/icons_odoo_website_partner.png)
