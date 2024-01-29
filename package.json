@@ -1,8 +1,9 @@
 {
   "name": "odoo-wiki",
   "scripts": {
-    "dev": "vuepress dev .",
     "build": "node build.js && vuepress build .",
+    "vue-build": "vuepress build .",
+    "vue-dev": "vuepress dev .",
     "download-icons": "node download-icons.js"
   },
   "devDependencies": {

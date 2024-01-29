@@ -18,7 +18,8 @@ function help() {
     echo
 command_list="install;;Install build dependencies.
 build;;Build project.
-dev;;Start development server."
+vue-build;;Create vuepress build.
+vue-dev;;Start vuepress development server."
 command_list=$(echo "$command_list" | tr '\n' ';')
 IFS=';' read -r -a commands <<< "$command_list"
 printf "%-10s  %-10s  %-30s\n" "Command" "Option" "Description"
@@ -40,10 +41,14 @@ case "$1" in
         npm install
         ;;
     build)
-        npm run build
+        node build.js
         ;;
-    dev)
-        npm run dev
+    vue-build)
+        npm run vue-build
+        ;;
+    serve-build
+    vue-dev)
+        npm run vue-dev
         ;;
     *)
         help
