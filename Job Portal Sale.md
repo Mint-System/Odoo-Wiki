@@ -88,7 +88,7 @@ Modell: `sale.order`\
 Auslöser: Bei Erstellung und Aktualisierung\
 Trigger-Felder: `partner_id`\
 Abgrenzung vor Aktualisierung: `[("partner_id.address_checked", "!=", True)]`\
-Anzuwenden auf: `["&", ("partner_invoice_id.address_checked", "=", True), "&", ("joboffer_id", "!=", False), ("joboffer_id.is_created_by_gsi", "=", True)]`\
+Anzuwenden auf: `["&", ("partner_invoice_id.address_checked", "=", True), "&", ("joboffer_id", "!=", False), ("joboffer_id.is_created_by_gsi", "=", True), ("joboffer_id.discount", "!=", False)]`\
 Python Code:
 
 ```python
