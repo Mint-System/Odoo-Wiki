@@ -1,4 +1,4 @@
-import { defineClientConfig } from '@vuepress/client'
+import { defineClientConfig } from 'vuepress/client'
 
 const { domain = undefined } = __PLAUSIBLE_OPTIONS__
 

@@ -4,297 +4,400 @@ export default [
     "link": "best-practice.md",
     "collapsible": true,
     "children": [
-      "best-practice-abonnements.md",
-      "best-practice-abwesenheit.md",
-      "best-practice-aufgabenphasen.md",
-      "best-practice-auftragszeilen-auswerten.md",
-      "best-practice-berücksichtigung-lead-time.md",
-      "best-practice-buchung-gewinn-verlust-vortrag.md",
+      "best-practice-accounting-migration.md",
+      "best-practice-analyse-sale-order-lines.md",
+      "best-practice-change-purchase-quantity.md",
+      "best-practice-changing-the-route-during-purchasing-process.md",
+      "best-practice-charge-expenses.md",
       "best-practice-chatter.md",
-      "best-practice-datumsfelder.md",
-      "best-practice-definition-beispiel-fahrrad.md",
-      "best-practice-devisenhandel.md",
+      "best-practice-communication-with-odoo.md",
+      "best-practice-consideration-lead-time.md",
+      "best-practice-contacts-management.md",
+      "best-practice-creditcard-payment.md",
+      "best-practice-date-fields.md",
+      "best-practice-define-unit-price.md",
+      "best-practice-definition-example-bicycle.md",
+      "best-practice-definition-hr-holidays-types.md",
       "best-practice-direct-print.md",
-      "best-practice-e-mail-vorlagen.md",
-      "best-practice-e-mails-verarbeiten.md",
-      "best-practice-einkauf-bestellmenge-ändern.md",
-      "best-practice-externe-id.md",
-      "best-practice-fertigungsauftrag.md",
-      "best-practice-fertigungsplanung.md",
-      "best-practice-finanzen-journale.md",
+      "best-practice-downpayments.md",
+      "best-practice-e-mail-processing.md",
+      "best-practice-e-mail-templates.md",
+      "best-practice-expense-compensation.md",
+      "best-practice-external-id.md",
+      "best-practice-foreign-exchange.md",
+      "best-practice-holiday-and-vacation-balance.md",
       "best-practice-incoterms.md",
-      "best-practice-kontakte.md",
-      "best-practice-lager-konfigurieren.md",
-      "best-practice-lager-vorgangstypen.md",
-      "best-practice-liefertermin-verschieben.md",
-      "best-practice-lohnbuchhaltung.md",
-      "best-practice-lohnrekapitulation.md",
+      "best-practice-kit-provision.md",
       "best-practice-make-to-order.md",
-      "best-practice-material-reservierung.md",
-      "best-practice-materialbezug-in-vorgängen.md",
-      "best-practice-mehrwertsteuer.md",
-      "best-practice-mengeneinheiten.md",
-      "best-practice-odoo-datenmanagement.md",
-      "best-practice-projekte.md",
+      "best-practice-manufacturing-order.md",
+      "best-practice-manufacturing-with-subcontractor.md",
+      "best-practice-material-consumption-in-operations.md",
+      "best-practice-material-demand.md",
+      "best-practice-material-reservations.md",
+      "best-practice-multiple-currencies.md",
+      "best-practice-oca-finanzbuchhaltung.md",
+      "best-practice-odoo-data-management.md",
+      "best-practice-odoo-translation.md",
+      "best-practice-packaging.md",
+      "best-practice-payroll-structure.md",
+      "best-practice-portal-and-backend.md",
+      "best-practice-posting-of-profit-or-loss-carried-forward.md",
+      "best-practice-posting-payment-differences.md",
+      "best-practice-postpone-delivery-date.md",
+      "best-practice-production-planning.md",
+      "best-practice-projects.md",
       "best-practice-purchase-to-order.md",
-      "best-practice-qr-rechnung.md",
+      "best-practice-qr-bill.md",
       "best-practice-replenishment.md",
+      "best-practice-roles-and-permissions.md",
+      "best-practice-salary-recap.md",
+      "best-practice-sale-and-assembly-groups.md",
       "best-practice-scheduler.md",
-      "best-practice-stückpreis-definieren.md",
-      "best-practice-subunternehmer-beauftragen.md",
-      "best-practice-verkauf-kit-bereitstellen.md",
-      "best-practice-verkaufsgruppen-und-baugruppen.md",
-      "best-practice-verpackungen.md",
-      "best-practice-verschiedene-währungen.md",
-      "best-practice-warenbedarf.md",
-      "best-practice-zustände-von-einkauf-und-verkaufsauträgen.md",
-      "best-practice-änderung-der-route-während-dem-einkaufsprozess.md",
-      "best-pratice-kostenrechnung.md",
-      "best-pratice-sepa-zahlung.md",
-      "best-pratice-zahlungsabgleich.md"
+      "best-practice-services-with-night-surcharge.md",
+      "best-practice-settle-hourly-wages.md",
+      "best-practice-setup-attendance.md",
+      "best-practice-states-of-purchase-and-sales-orders.md",
+      "best-practice-stock-configuration.md",
+      "best-practice-stock-operation-types.md",
+      "best-practice-subscriptions.md",
+      "best-practice-task-types.md",
+      "best-practice-ticket-management.md",
+      "best-practice-units-of-quantity.md",
+      "best-practice-value-added-tax.md",
+      "best-practice-vat-billing.md",
+      "best-practice-working-times-and-holiday-allocations.md",
+      "best-pratice-cost-accounting.md",
+      "best-pratice-payment-reconciliation.md",
+      "best-pratice-sepa-payment.md"
     ]
   },
-  "abonnements.md",
-  "abrechnung.md",
-  "abwesenheit.md",
-  "aero-base.md",
-  "anwesenheit.md",
+  "subscriptions.md",
+  "invoicing.md",
+  "hr-holidays.md",
+  "hr-attendance.md",
   "apps.md",
-  "auslagen.md",
-  "certificate-planner.md",
+  "fsm-industry.md",
+  "hr-appraisal.md",
   "dashboards.md",
+  "database.md",
   "data-cleaning.md",
-  "datenbankmanager.md",
-  "datenmanagement.md",
-  "dokumente.md",
-  "diskussion.md",
-  "einkauf.md",
-  "einkauf-kaufverträge.md",
-  "einstellungen.md",
+  "data-management.md",
+  "dialog.md",
+  "documents.md",
+  "purchase.md",
+  "settings.md",
   "elearning.md",
-  "e-mail-marketing.md",
-  "entwicklung.md",
-  "fertigung.md",
-  "finanzen.md",
-  "fahrzeugflotte.md",
-  "forestry-base.md",
-  "initialisierung.md",
+  "mass-mailing.md",
+  "development.md",
+  "manufacture.md",
+  "finance.md",
+  "fleet.md",
+  "initialisation.md",
   "installation.md",
   "iot.md",
-  "kalender.md",
-  "knowledge.md",
-  "kontakte.md",
-  "kundendienst.md",
-  "kundenverwaltung.md",
-  "lager.md",
+  "calendar.md",
+  "point-of-sale.md",
+  "contacts.md",
+  "helpdesk.md",
+  "crm.md",
+  "stock.md",
   "link-tracker.md",
+  "marketing-automation.md",
+  "membership.md",
   "navigation.md",
-  "notizen.md",
+  "note.md",
   "odoo-mobile-app.md",
+  "hr.md",
+  "hr-payroll.md",
+  "hr-recruitment.md",
+  "user.md",
+  "plm.md",
+  "portal.md",
+  "product.md",
+  "project.md",
+  "quality.md",
+  "reseller.md",
+  "l10n-ch.md",
+  "hr-expense.md",
+  "barcode.md",
+  "studio.md",
+  "survey.md",
+  "upgrade.md",
+  "sale.md",
+  "delivery.md",
+  "maintenance.md",
+  "website.md",
+  "website-e-commerce.md",
+  "knowledge.md",
+  "hr-timesheet.md",
+  "aero-base.md",
+  "brand.md",
+  "certificate-planner.md",
+  "purchase-requisition.md",
+  "forestry-base.md",
+  "license.md",
+  "management-system.md",
   "odoo.sh.md",
   "order-positions.md",
-  "personal.md",
-  "personalabrechnung.md",
-  "personalbeschaffung.md",
-  "persönliche-einstellungen.md",
-  "plm.md",
-  "point-of-sale.md",
-  "projekt.md",
-  "strichcode.md",
-  "studio.md",
   "troubleshooting.md",
-  "umfragen.md",
-  "update.md",
   "ventor-pro.md",
-  "verkauf.md",
-  "verkauf-rahmenverträge.md",
-  "versand.md",
-  "wartung.md",
-  "website.md",
-  "website-ecommerce.md",
-  "zeiterfassung.md",
+  "sale-blanket-order.md",
+  "contract.md",
+  "warehouse.md",
   {
     "text": "Bereiche",
     "collapsible": true,
     "children": [
       {
-        "text": "Abwesenheit",
+        "text": "Invoicing",
         "collapsible": true,
         "children": [
-          "abwesenheit-datenmanagement.md"
+          "invoicing-reminder.md"
         ]
       },
       {
-        "text": "Anwesenheit",
+        "text": "HR Holidays",
         "collapsible": true,
         "children": [
-          "anwesenheit-überstunden.md"
+          "hr-holidays-actions.md",
+          "hr-holidays-data-management.md"
         ]
       },
       {
-        "text": "Datenmanagement",
+        "text": "HR Attendance",
         "collapsible": true,
         "children": [
-          "einstellungen-datenmanagement.md",
-          "kontakte-datenmanagement.md",
-          "projekt-datenmanagement.md",
-          "kundendiesnt-datenmanagement.md"
+          "hr-attendance-actions.md",
+          "hr-attendance-overtime.md"
         ]
       },
       {
-        "text": "Dokumente",
+        "text": "Apps",
         "collapsible": true,
         "children": [
-          "dokumente-aktionen.md"
+          "apps-actions.md"
         ]
       },
       {
-        "text": "Diskussion",
+        "text": "Data Management",
         "collapsible": true,
         "children": [
-          "diskussion-aktivitäten.md",
-          "diskussion-e-mail.md"
+          "hr-holidays-data-management.md",
+          "settings-data-management.md",
+          "manufacture-data-management.md",
+          "partner-data-management.md",
+          "helpdesk-data-management.md",
+          "project-data-management.md",
+          "survey-datamanagement.md"
         ]
       },
       {
-        "text": "Einstellungen",
+        "text": "Dialog",
         "collapsible": true,
         "children": [
-          "einstellungen-aktionen.md",
-          "einstellungen-berechtigungen.md",
-          "einstellungen-datenmanagement.md",
-          "einstellungen-e-mail.md",
-          "einstellungen-login.md",
-          "einstellungen-oauth.md",
-          "einstellungen-technisch.md",
-          "einstellungen-übersetzung.md"
+          "dialog-actions.md",
+          "dialog-activities.md",
+          "dialog-e-mail.md"
         ]
       },
       {
-        "text": "Entwicklung",
+        "text": "Documents",
         "collapsible": true,
         "children": [
-          "entwicklung-aktionen.md",
-          "entwicklung-ansichten.md",
-          "entwicklung-qweb-berichte.md",
-          "entwicklung-snippets.md"
+          "documents-actions.md"
         ]
       },
       {
-        "text": "Fertigung",
+        "text": "Purchase",
         "collapsible": true,
         "children": [
-          "fertigung-aktionen.md",
-          "fertigung-stammdaten.md"
+          "purchase-actions.md"
         ]
       },
       {
-        "text": "Finanzen",
+        "text": "Settings",
         "collapsible": true,
         "children": [
-          "finanzen-abstimmung.md",
-          "finanzen-aktionen.md",
-          "finanzen-anlagenverwaltung.md",
-          "finanzen-berichte.md",
-          "finanzen-buchhaltung.md",
-          "finanzen-kostenrechnung.md",
-          "finanzen-mehrere-währungen.md",
-          "finanzen-mehrwertsteuer.md",
-          "finanzen-snippets.md",
-          "finanzen-zahlungen.md"
+          "settings-actions.md",
+          "settings-permissions.md",
+          "settings-data-management.md",
+          "settings-e-mail.md",
+          "settings-login.md",
+          "settings-oauth.md",
+          "settings-technical.md",
+          "settings-translations.md",
+          "settings-company.md"
+        ]
+      },
+      {
+        "text": "Mass Mailing",
+        "collapsible": true,
+        "children": [
+          "mass-mailing-action.md"
+        ]
+      },
+      {
+        "text": "Development",
+        "collapsible": true,
+        "children": [
+          "development-actions.md",
+          "develpment-views.md",
+          "development-reports.md",
+          "entwicklung-datenmodelle.md",
+          "entwicklung-runbot.md",
+          "development-snippets.md",
+          "entwicklung-website.md"
+        ]
+      },
+      {
+        "text": "Manufacture",
+        "collapsible": true,
+        "children": [
+          "manufacture-actions.md",
+          "manufacture-data-management.md",
+          "manufacture-operations.md"
+        ]
+      },
+      {
+        "text": "Finance",
+        "collapsible": true,
+        "children": [
+          "finance-reconcile.md",
+          "finance-actions.md",
+          "finance-assets.md",
+          "finance-reports.md",
+          "finance-accounting.md",
+          "finance-data-management.md",
+          "finance-analytic-accounting.md",
+          "finance-multicurrency.md",
+          "finance-tax.md",
+          "finance-snippets.md",
+          "finance-payments.md"
         ]
       },
       {
         "text": "IoT",
         "collapsible": true,
         "children": [
-          "etikettendrucker-zebra-zd410.md"
+          "labelprinter-zebra-zd410.md"
         ]
       },
       {
-        "text": "Kontakte",
+        "text": "Calendar",
         "collapsible": true,
         "children": [
-          "kontakte-aktionen.md",
-          "kontakte-datenmanagement.md"
+          "calendar-actions.md"
         ]
       },
       {
-        "text": "Kundendienst",
+        "text": "Contacts",
         "collapsible": true,
         "children": [
-          "kundendiesnt-datenmanagement.md"
+          "partner-actions.md",
+          "partner-data-management.md"
         ]
       },
       {
-        "text": "Lager",
+        "text": "Helpdesk",
         "collapsible": true,
         "children": [
-          "handscanner-zebra-ds22.md",
-          "handscanner-zebra-tc21.md",
-          "lager-aktionen.md",
-          "lager-bestand.md",
-          "lager-datenmanagement.md",
-          "lager-verpackungen.md",
-          "lager-vorgänge.md"
+          "helpdesk-data-management.md"
         ]
       },
       {
-        "text": "Personal",
+        "text": "Stock",
         "collapsible": true,
         "children": [
-          "personal-aktivitäten.md",
-          "personal-verträge.md"
+          "stock-actions.md",
+          "stock-inventory.md",
+          "stock-data-management.md",
+          "stock-packaging.md",
+          "stock-operations.md",
+          "scanner-zebra-ds22.md",
+          "scanner-zebra-tc21.md"
         ]
       },
       {
-        "text": "Projekt",
+        "text": "HR",
         "collapsible": true,
         "children": [
-          "projekt-aktionen.md",
-          "projekt-datenmanagement.md"
+          "hr-activities.md",
+          "hr-contract.md"
         ]
       },
       {
-        "text": "Strichcode",
+        "text": "Project",
         "collapsible": true,
         "children": [
-          "handscanner-zebra-tc21.md"
+          "project-actions.md",
+          "project-data-management.md"
+        ]
+      },
+      {
+        "text": "Quality",
+        "collapsible": true,
+        "children": [
+          "quality-actions.md"
+        ]
+      },
+      {
+        "text": "HR Expense",
+        "collapsible": true,
+        "children": [
+          "hr-expense-actions.md"
+        ]
+      },
+      {
+        "text": "Barcode",
+        "collapsible": true,
+        "children": [
+          "scanner-zebra-tc21.md"
         ]
       },
       {
         "text": "Studio",
         "collapsible": true,
         "children": [
-          "studio-beispiele.md"
+          "studio-examples.md"
         ]
       },
       {
-        "text": "Verkauf",
+        "text": "Survey",
         "collapsible": true,
         "children": [
-          "verkauf-abrechnung.md",
-          "verkauf-berichte.md",
-          "verkauf-projekt.md",
-          "verkauf-stammdaten.md"
+          "survey-datamanagement.md"
+        ]
+      },
+      {
+        "text": "Sale",
+        "collapsible": true,
+        "children": [
+          "sale-invoicing.md",
+          "sale-actions.md",
+          "sale-reports.md",
+          "sale-stock.md",
+          "sale-price.md",
+          "sale-project.md",
+          "sale-loyalty.md"
         ]
       },
       {
         "text": "Website",
         "collapsible": true,
         "children": [
-          "website-aktionen.md",
+          "website-actions.md",
           "website-partner.md",
-          "website-ecommerce.md"
+          "website-e-commerce.md",
+          "sale-loyalty.md"
         ]
       },
       {
-        "text": "Zeiterfassung",
+        "text": "HR Timesheet",
         "collapsible": true,
         "children": [
           "awesome-timesheet.md",
-          "terminal-zeiterfassung.md",
-          "zeiterfassung-ansichten.md"
+          "terminal-hr-timesheet.md",
+          "timesheet-views.md"
         ]
       }
     ]
@@ -304,60 +407,73 @@ export default [
     "collapsible": true,
     "children": [
       {
-        "text": "Abrechnung",
+        "text": "Subscriptions",
+        "collapsible": true,
+        "children": [
+          "sale-subscription-partner-pricelist.md",
+          "sale-subscription-period-discount.md"
+        ]
+      },
+      {
+        "text": "Invoicing",
         "collapsible": true,
         "children": [
           "account-invoice-carrier.md",
           "account-invoice-comment.md",
           "account-invoice-detail.md",
+          "account-invoice-multiline-ref.md",
           "account-invoice-notes.md",
+          "account-invoice-overdue-reminder.md",
           "account-invoice-sale-partner.md",
           "account-invoice-select-bank.md",
           "account-move-invoice-partner.md",
+          "account-move-line-description.md",
+          "account-sale-timesheet-report.md",
+          "invoice-merge-pdf-attachment.md",
           "purchase-invoice-prepare-partner.md",
           "sale-invoice-carrier.md",
           "sale-invoice-cash-rounding-default.md",
           "sale-invoice-line-description.md",
           "sale-invoice-prepare-bank.md",
           "sale-invoice-prepare-partner.md",
-          "swiss-qr-esr-scan.md"
+          "sales-order-invoicing-grouping-criteria.md"
         ]
       },
       {
-        "text": "Abwesenheit",
+        "text": "HR Holidays",
         "collapsible": true,
         "children": [
+          "hr-attendance-overtime-negative-hours.md",
           "hr-holidays-ics-attachment.md",
           "hr-holidays-calendar-department.md",
           "hr-holidays-leave-archive.md",
+          "hr-holidays-leave-repeated.md",
           "hr-holidays-public.md",
           "hr-holidays-remaining-leaves.md",
+          "hr-leave-custom-hour-interval.md",
           "theoretical-vs-attended-time-analysis.md"
         ]
       },
       {
-        "text": "Anwesenheit",
+        "text": "HR Attendance",
         "collapsible": true,
         "children": [
-          "theoretical-vs-attended-time-analysis.md",
-          "überzeitenmanagement.md",
-          "hr-attendance-kiosk-mode-color.md"
+          "hr-attendance-calendar-view.md",
+          "hr-attendance-delta.md",
+          "hr-attendance-ip-check.md",
+          "hr-attendance-kiosk-mode-color.md",
+          "hr-attendance-missing.md",
+          "hr-attendance-overtime-hours.md",
+          "hr-employee-attendance-report.md",
+          "syscoon-hr-attendance.md",
+          "theoretical-vs-attended-time-analysis.md"
         ]
       },
       {
-        "text": "Apps",
+        "text": "FSM Industry",
         "collapsible": true,
         "children": [
-          "cancel-manufacturing-order.md",
-          "product-barcode-generator.md",
-          "product-name-sequence.md"
-        ]
-      },
-      {
-        "text": "Auslagen",
-        "collapsible": true,
-        "children": [
-          "hr-expense-vehicle-request.md"
+          "industry-fsm-sale-default-task.md"
         ]
       },
       {
@@ -370,22 +486,33 @@ export default [
         ]
       },
       {
-        "text": "Dokumente",
+        "text": "Database",
         "collapsible": true,
         "children": [
-          "agreement-legal.md"
+          "base-db-anonymization.md",
+          "base-search-fuzzy.md",
+          "base-vat-optional-vies.md",
+          "base-vat-required-vies.md",
+          "dbfilter-from-header.md",
+          "smile-anonymization-hr.md",
+          "smile-anonymize-partner.md",
+          "smile-anonymization.md",
+          "web-enterprise-admin-expiration-panel.md"
         ]
       },
       {
-        "text": "Diskussion",
+        "text": "Dialog",
         "collapsible": true,
         "children": [
           "account-move-mail-thread.md",
           "account-move-send-unsubscribe.md",
           "account-move-unsubscribe.md",
+          "mail-activity-datetime.md",
           "mail-composer-default-template.md",
+          "mail-debrand.md",
           "mail-no-autofollow.md",
           "mail-optional-follower-notification.md",
+          "mail-show-follower.md",
           "mail-thread-context.md",
           "mail-unsubscribe.md",
           "purchase-order-send-unsubscribe.md",
@@ -396,7 +523,14 @@ export default [
         ]
       },
       {
-        "text": "Einkauf",
+        "text": "Documents",
+        "collapsible": true,
+        "children": [
+          "agreement-legal.md"
+        ]
+      },
+      {
+        "text": "Purchase",
         "collapsible": true,
         "children": [
           "purchase-order-line-position.md",
@@ -409,63 +543,82 @@ export default [
           "purchase-order-notes.md",
           "purchase-order-partner-incoterm.md",
           "purchase-order-partner-shipping.md",
+          "purchase-order-subscription.md",
+          "purchase-order-type.md",
           "purchase-order-validate.md",
           "purchase-partner-incoterm.md",
+          "purchase-sale-order-analytic-account.md",
+          "purchase-stock-sale-owner.md",
           "purchase-tags.md",
           "purchase-order-lines-with-discounts.md"
         ]
       },
       {
-        "text": "Einkauf Kaufverträge",
+        "text": "Settings",
         "collapsible": true,
         "children": [
-          "purchase-requisition-fiscal.md",
-          "purchase-requisition-incoterm.md",
-          "purchase-requisition-line-description.md",
-          "purchase-requisition-order-address.md",
-          "purchase-requisition-other-information-page.md",
-          "purchase-requisition-payment-term.md",
-          "purchase-requisition-reference.md",
-          "purchase-requisition-send.md",
-          "purchase-requisition-tag.md",
-          "purchase-requisition-total.md",
-          "purchase-requistion-notes.md"
-        ]
-      },
-      {
-        "text": "Einstellungen",
-        "collapsible": true,
-        "children": [
+          "audit-log.md",
           "auth-impersonate-user.md",
           "auth-oauth-keycloak",
+          "auth-oidc.md",
           "auth-totp-ip-check.md",
-          "authentication-openid-connect.md",
+          "base-action-manager-access.md",
+          "base-optional-quick-create.md",
+          "base-recursion-limit.md",
+          "base-user-role.md",
+          "date-range.md",
+          "fetchmail-incoming-log.md",
           "home-background-image.md",
           "impersonate.md",
+          "mail-manual-routing.md",
+          "mail-server-filter.md",
           "mail-service-users.md",
+          "odoo-microsoft-account.md",
+          "report-qweb-pdf-watermark.md",
           "show-db-name.md",
+          "web-company-color.md",
+          "web-dark-mode.md",
           "web-editor-show-code.md",
           "web-responsive.md",
-          "audit-log.md"
+          "web-theme-classic.md"
         ]
       },
       {
-        "text": "Entwicklung",
+        "text": "Mass Mailing",
+        "collapsible": true,
+        "children": [
+          "mass-mailing-list-dynamic.md",
+          "mass-mailing-partner.md",
+          "mass-mailing-contact-active.md",
+          "survey-send-to-list.md"
+        ]
+      },
+      {
+        "text": "Development",
         "collapsible": true,
         "children": [
           "bi-sql-editor.md",
           "mass-editing.md",
+          "mass-operation-abstract.md",
+          "muk-rest.md",
+          "onchange-helper.md",
           "project-timeline.md",
           "prometheus-exporter.md",
+          "report-xlsx.md",
+          "server-environment-ir-config-parameter.md",
+          "server-environment.md",
+          "web-domain-field.md",
+          "web-environment-ribbon.md",
           "web-timeline.md"
         ]
       },
       {
-        "text": "Fertigung",
+        "text": "Manufacture",
         "collapsible": true,
         "children": [
           "cancel-manufacturing-order.md",
           "mrp-bom-consumption.md",
+          "mrp-bom-list.md",
           "mrp-bom-position.md",
           "mrp-documents-share.md",
           "mrp-production-assign-lot.md",
@@ -487,84 +640,100 @@ export default [
           "product-sequence.md",
           "product-state.md",
           "product-type-description.md",
-          "secondary-product-type-description.md"
+          "secondary-product-type-description.md",
+          "stock-mrp-traceability-list.md"
         ]
       },
       {
-        "text": "Finanzen",
+        "text": "Finance",
         "collapsible": true,
         "children": [
-          "acccount-move-accounting-description.md",
+          "account-financial-report-contra-accounts.md",
+          "account-financial-report-reverse-move-lines.md",
+          "account-financial-report-show-grouped-none.md",
+          "account-financial-report.md",
+          "account-followup-email-from.md",
           "account-followup-hide-communication.md",
+          "account-general-ledger-contra-accounts.md",
           "account-invoice-description.md",
-          "account-missing-menus.md",
+          "account-journal-items-report.md",
+          "account-menu.md",
+          "account-move-accounting-description.md",
           "account-move-line-accounting-description-stock",
+          "account-move-line-contra-accounts.md",
           "account-move-line-link-pickings.md",
           "account-move-line-position.md",
           "account-move-post-warn.md",
           "account-move-reconciled-date.md",
-          "bank-account-camt54-import.md",
-          "contract-sale-generation.md",
-          "contracts-management-recurring.md",
-          "invoice-merge-pdf-attachment.md",
-          "nivels-deduct-supplier-discount.md",
-          "swiss-qr-esr-scan.md",
-          "switzerland-bank-type.md",
-          "switzerland-disable-default-reports.md",
-          "switzerland-invoice-reports-with-payment-option.md",
-          "switzerland-qr-iban.md",
-          "switzerland-qr-bill-scan.md"
+          "account-payment-mode.md",
+          "account-payment-order.md",
+          "account-payment-partner.md",
+          "account-payment-purchase.md",
+          "account-statement-import-base.md",
+          "account-statement-import-camt.md",
+          "account-statement-import-camt54.md",
+          "account-statement-import.md",
+          "account-usability.md",
+          "nivels-deduct-supplier-discount.md"
         ]
       },
       {
-        "text": "Fahrzeugflotte",
+        "text": "Fleet",
         "collapsible": true,
         "children": [
           "fleet-hr-vehicle-request.md"
         ]
       },
       {
-        "text": "Forestry Base",
-        "collapsible": true,
-        "children": [
-          "forestry-project.md",
-          "forestry-stock.md",
-          "forestry-timesheet.md"
-        ]
-      },
-      {
         "text": "IoT",
         "collapsible": true,
         "children": [
-          "odoo-direct-print.md"
+          "printnode-base.md"
         ]
       },
       {
-        "text": "Kontakte",
+        "text": "Contacts",
         "collapsible": true,
         "children": [
+          "base-country-sequence.md",
           "base-partner-sequence.md",
           "contact-birthdate.md",
-          "oca-partner-contact-department.md",
+          "partner-bank-code.md",
+          "partner-color-codes.md",
+          "partner-contact-access-link.md",
+          "partner-contact-birthdate.md",
           "partner-contact-department-note.md",
+          "oca-partner-contact-department.md",
           "partner-contact-location-in-name.md",
+          "partner-contact-personal-information-page.md",
           "partner-duplicate-acc-number",
+          "partner-firstname.md",
           "partner-hide-address.md",
+          "partner-multi-pricelist.md",
+          "partner-multiline-street2.md",
           "partner-ref-sequence.md",
           "partner-secondary-email.md",
           "partner-secondary-name.md",
           "partner-type-order.md",
           "partner-type-sale.md",
-          "partner-first-name-and-last-name.md"
+          "partner-type-membership.md"
         ]
       },
       {
-        "text": "Lager",
+        "text": "Helpdesk",
+        "collapsible": true,
+        "children": [
+          "helpdesk-management.md"
+        ]
+      },
+      {
+        "text": "Stock",
         "collapsible": true,
         "children": [
           "amqp-base.md",
           "demand-planner.md",
           "product-logistics-uom.md",
+          "stock-account-location-valued.md",
           "stock-aggregated-move-line.md",
           "stock-aggregated-move-lines-description.md",
           "stock-barcode-packaging.md",
@@ -572,8 +741,11 @@ export default [
           "stock-critical-forecast-promised-agreed.md",
           "stock-critical-forecast.md",
           "stock-delivery-note.md",
+          "stock-inventory-summary.md",
+          "stock-lot-traceability-list.md",
           "stock-move-available-locations.md",
           "stock-move-line-auto-fill.md",
+          "stock-move-line-lot-done.md",
           "stock-move-line-packaging.md",
           "stock-move-line-position.md",
           "stock-move-sale-order-name.md",
@@ -581,11 +753,19 @@ export default [
           "stock-move-upstream-state.md",
           "stock-move-weight-uom.md",
           "stock-picking-invoice-link.md",
+          "stock-picking-mrp-production-assign.md",
           "stock-picking-mrp-production-done.md",
           "stock-picking-notes",
+          "stock-picking-progress.md",
           "stock-picking-responsible.md",
+          "stock-picking-start.md",
+          "stock-product-last-move.md",
           "stock-production-lot-active.md",
-          "stock-vendor-evaluation.md"
+          "stock-production-lot-date.md",
+          "stock-production-lot-qty-storable.md",
+          "stock-quant-package-dimension.md",
+          "stock-vendor-evaluation.md",
+          "ventor-base.md"
         ]
       },
       {
@@ -596,55 +776,70 @@ export default [
         ]
       },
       {
-        "text": "Order Positions",
-        "collapsible": true,
-        "children": [
-          "account-move-line-position.md",
-          "mrp-bom-position.md",
-          "purchase-order-line-position.md",
-          "sale-order-line-pos.md",
-          "stock-move-line-position.md"
-        ]
-      },
-      {
-        "text": "Personal",
+        "text": "HR",
         "collapsible": true,
         "children": [
           "employee-vehicle-request.md",
           "hr-activity-date.md",
           "hr-birthday-calender.md",
           "hr-employee-employ-like.md",
+          "hr-employee-firstname.md",
+          "hr-employee-id.md",
           "hr-employee-skill.md",
           "hr-shortname.md",
           "hr-vehicle-request-calendar.md",
-          "hr-vehicle-request.md"
+          "hr-vehicle-request.md",
+          "hr-work-entry-profile.md",
+          "resource-calendar-get-days.md"
         ]
       },
       {
-        "text": "Personalabrechnung",
+        "text": "HR Payroll",
         "collapsible": true,
         "children": [
           "lohnmeldung.md",
           "personalabrechnung-aktionen.md",
           "personalabrechnung-berichte.md",
           "personalabrechnung-eingaben.md",
-          "swiss-payroll.md"
+          "gio-payroll-custom.md"
         ]
       },
       {
-        "text": "Personalbeschaffung",
+        "text": "HR Recruitment",
         "collapsible": true,
         "children": [
           "hr-recruitment-firstname.md"
         ]
       },
       {
-        "text": "Projekt",
+        "text": "Product",
+        "collapsible": true,
+        "children": [
+          "packaging-uom.md",
+          "product-barcode-generator.md",
+          "product-dimension-attributes.md",
+          "product-end-of-life-dates.md",
+          "product-information-management.md",
+          "product-listprice-currency.md",
+          "product-material-attributes.md",
+          "product-name-sequence.md",
+          "product-packaging-parent.md",
+          "product-pricelist-fixed-discount.md",
+          "product-supplierinfo-for-customer-sale.md",
+          "product-supplierinfo-for-customers.md",
+          "product-variant-description.md"
+        ]
+      },
+      {
+        "text": "Project",
         "collapsible": true,
         "children": [
           "business-requirement.md",
           "project-key-link-type.md",
           "project-key.md",
+          "project-partner-open-tasks.md",
+          "project-phase-estimate.md",
+          "project-phase.md",
           "project-task-all-menu.md",
           "project-task-default-stage.md",
           "project-task-dependencies.md",
@@ -653,73 +848,90 @@ export default [
           "project-templates.md",
           "project-timeline-task-dependencies.md",
           "project-timeline.md",
-          "project-type.md",
           "project-timesheet-time-control.md",
+          "project-type.md",
           "sequential-code-for-tasks.md"
         ]
       },
       {
-        "text": "Strichcode",
+        "text": "l10n CH",
         "collapsible": true,
         "children": [
-          "stock-barcode-mrp.md"
+          "switzerland-bank-type.md",
+          "switzerland-disable-default-reports.md",
+          "l10n-ch-invoice-reports-with-payments.md",
+          "l10n-ch-invoice-reports.md",
+          "l10n-ch-qr-bill-scan.md",
+          "l10n-ch-qr-code-iban.md",
+          "l10n-ch-qr-code-ref.md",
+          "l10n-ch-qr-isr-invoice-import.md"
         ]
       },
       {
-        "text": "Verkauf",
+        "text": "HR Expense",
         "collapsible": true,
         "children": [
-          "contract-sale-generation.md",
-          "packaging-uom.md",
-          "product-listprice-currency.md",
+          "hr-expense-vehicle-request.md",
+          "sale-expense-description-date.md",
+          "sale-expense-link.md",
+          "sale-expense-unlink.md"
+        ]
+      },
+      {
+        "text": "Barcode",
+        "collapsible": true,
+        "children": [
+          "stock-barcode-mrp.md",
+          "stock-barcode-maintenance.md"
+        ]
+      },
+      {
+        "text": "Survey",
+        "collapsible": true,
+        "children": [
+          "survey-question-type-nps.md"
+        ]
+      },
+      {
+        "text": "Sale",
+        "collapsible": true,
+        "children": [
+          "sale-automatic-workflow.md",
           "sale-blanket-order-comment.md",
+          "sale-company-currency.md",
           "sale-force-invoiced.md",
           "sale-order-archive.md",
           "sale-order-check-price.md",
           "sale-order-comment.md",
           "sale-order-contact-person.md",
+          "sale-order-currency-rate.md",
           "sale-order-line-description-name.md",
           "sale-order-line-description.md",
+          "sale-order-line-form-action.md",
           "sale-order-line-name-get.md",
           "sale-order-line-not-billable.md",
           "sale-order-line-pos.md",
+          "sale-order-line-position.md",
+          "sale-order-line-pricelist-fixed-discount.md",
           "sale-order-line-purchase-margin.md",
           "sale-order-mrp-production-cancel.md",
+          "sale-order-multi-pricelist.md",
           "sale-order-notes.md",
+          "sale-order-partner-membership.md",
           "sale-order-project-key.md",
+          "sale-order-sale-partner.md",
           "sale-order-template-notes.md",
           "sale-partner-incoterm.md",
           "sale-product-set-layout.md",
+          "sale-product-set-search.md",
           "sale-product-set.md"
         ]
       },
       {
-        "text": "Verkauf Rahmenverträge",
+        "text": "Delivery",
         "collapsible": true,
         "children": [
-          "sale-blanket-order-crm-tags.md",
-          "sale-blanket-order-cancel-state.md",
-          "sale-blanket-order-carrier.md",
-          "sale-blanket-order-comment.md",
-          "sale-blanket-order-commitment-date.md",
-          "sale-blanket-order-contact-person.md",
-          "sale-blanket-order-date-confirmed.md",
-          "sale-blanket-order-discount.md",
-          "sale-blanket-order-extended.md",
-          "sale-blanket-order-invoice-shipping-partner.md",
-          "sale-blanket-order-line-description.md",
-          "sale-blanket-order-notes.md",
-          "sale-blanket-order-readonly-states-extended.md",
-          "sale-blanket-order-readonly-states.md",
-          "sale-blanket-order-send.md",
-          "sale-blanket-order-stock-terms.md",
-          "sale-blanket-order-template.md"
-        ]
-      },
-      {
-        "text": "Versand",
-        "collapsible": true,
-        "children": [
+          "delivery-dpdch.md",
           "sale-order-default-carrier.md",
           "sale-order-default-commitment-date.md",
           "sale-order-delivery-note.md",
@@ -731,30 +943,164 @@ export default [
         ]
       },
       {
+        "text": "Maintenance",
+        "collapsible": true,
+        "children": [
+          "maintenance-equipment-image.md",
+          "maintenance-equipments-hierarchy.md",
+          "maintenance-plan-activity.md",
+          "maintenance-plan.md",
+          "maintenance-product.md",
+          "maintenance-request-repair.md",
+          "stock-barcode-maintenance.md"
+        ]
+      },
+      {
         "text": "Website",
         "collapsible": true,
         "children": [
           "website-date-of-birth.md",
-          "website-product-description",
-          "website-sale-default-country-ch.md"
+          "website-font-hco-mercury-ssm.md",
+          "website-product-description.md",
+          "website-sale-default-country-ch.md",
+          "website-sale-minimum-order-quantity.md",
+          "website-sale-pricelist-fixed-discount.md"
         ]
       },
       {
-        "text": "Website eCommerce",
+        "text": "Website E-Commerce",
         "collapsible": true,
         "children": [
-          "website-shop-coupons.md",
-          "website-berichte.md"
+          "pits-payment-saferpay.md",
+          "payment-saferpay.md",
+          "sale-subscription-disable-tokenization.md",
+          "website-berichte.md",
+          "website-sale-firstname.md",
+          "website-sale-float-qty.md",
+          "website-shop-coupons.md"
         ]
       },
       {
-        "text": "Zeiterfassung",
+        "text": "HR Timesheet",
         "collapsible": true,
         "children": [
-          "hr-timesheet-from-until.md"
+          "hr-timesheet-from-until.md",
+          "hr-timesheet-multiline-name",
+          "sh-portal-timesheet.md",
+          "project-timesheet-limit.md",
+          "sale-timesheet-line-exclude.md",
+          "sale-timesheet-total-validated.md",
+          "sh-task-time-adv.md"
+        ]
+      },
+      {
+        "text": "Brand",
+        "collapsible": true,
+        "children": [
+          "brand-account.md",
+          "brand-external-report-layout.md"
+        ]
+      },
+      {
+        "text": "Purchase Requisition",
+        "collapsible": true,
+        "children": [
+          "purchase-requisition-fiscal.md",
+          "purchase-requisition-incoterm.md",
+          "purchase-requisition-line-description.md",
+          "purchase-requisition-order-address.md",
+          "purchase-requisition-other-information-page.md",
+          "purchase-requisition-payment-term.md",
+          "purchase-requisition-reference.md",
+          "purchase-requisition-send.md",
+          "purchase-requisition-tag.md",
+          "purchase-requisition-total.md",
+          "purchase-requisition-user.md",
+          "purchase-requisition-notes.md"
+        ]
+      },
+      {
+        "text": "Forestry Base",
+        "collapsible": true,
+        "children": [
+          "forestry-stock.md",
+          "forestry-project.md",
+          "forestry-timesheet.md"
+        ]
+      },
+      {
+        "text": "License",
+        "collapsible": true,
+        "children": [
+          "license-ocad.md",
+          "license-sale.md",
+          "license-website.md"
+        ]
+      },
+      {
+        "text": "Management System",
+        "collapsible": true,
+        "children": [
+          "management.md"
+        ]
+      },
+      {
+        "text": "Order Positions",
+        "collapsible": true,
+        "children": [
+          "account-move-line-position.md",
+          "mrp-bom-position.md",
+          "purchase-order-line-position.md",
+          "sale-order-line-pos.md",
+          "sale-order-line-position.md",
+          "stock-move-line-position.md"
+        ]
+      },
+      {
+        "text": "Sale Blanket Order",
+        "collapsible": true,
+        "children": [
+          "sale-blanket-order-crm-tags.md",
+          "sale-blanket-order-cancel-state.md",
+          "sale-blanket-order-carrier.md",
+          "sale-blanket-order-comment.md",
+          "sale-blanket-order-commitment-date.md",
+          "sale-blanket-order-contact-person.md",
+          "sale-blanket-order-date-confirmed.md",
+          "sale-blanket-order-discount.md",
+          "sale-blanket-order-fiscal.md",
+          "sale-blanket-order-invoice-shipping-partner.md",
+          "sale-blanket-order-line-description.md",
+          "sale-blanket-order-notes.md",
+          "sale-blanket-order-readonly-states-extended.md",
+          "sale-blanket-order-readonly-states.md",
+          "sale-blanket-order-reference.md",
+          "sale-blanket-order-send.md",
+          "sale-blanket-order-stock-terms.md",
+          "sale-blanket-order-template.md"
+        ]
+      },
+      {
+        "text": "Contract",
+        "collapsible": true,
+        "children": [
+          "contract-format-date-marker.md",
+          "contract-sale-generation.md",
+          "contract-sale.md"
+        ]
+      },
+      {
+        "text": "Warehouse",
+        "collapsible": true,
+        "children": [
+          "stock-available-immediately.md",
+          "stock-available-mrp.md",
+          "stock-available.md",
+          "stock-move-location.md"
         ]
       }
     ]
   },
-  "glossary.md"
+  "glossary.md",
+  "contribution.md"
 ]

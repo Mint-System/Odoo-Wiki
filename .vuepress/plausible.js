@@ -1,4 +1,4 @@
-import { path } from '@vuepress/utils'
+import { path } from 'vuepress/utils'
 
 const name = '@mint-system/plugin-plausible'
 
