@@ -25,9 +25,9 @@ Die [Mint System GmbH](https://www.mint-system.ch/) ist Odoo Partner und unterh�
 
 [Hier](Best%20Practice.md) geht es zu den Best Practice.
 
-## HowTos
+## Basis
 
-Zu jeder Odoo App finden Sie hier die HowTos.
+Die folgenden HowTos beschreiben die Basis-Funktionen von Odoo.
 
 ### [Abonnements](Subscriptions.md)
 
@@ -46,12 +46,6 @@ Online Rechnungsstellung leicht gemacht.
 ![icons_odoo_hr_holidays](attachments/icons_odoo_hr_holidays.png)
 
 Verwaltung von Mitarbeiterurlauben & Abwesenheit.
-
-### [Aero](Aero%20Base.md)
-
-![](attachments/icons_odoo_aero_base.png)
-
-Odoo für die Luftfahrt.
 
 ### [Anwesenheit](HR%20Attendance.md)
 
@@ -76,18 +70,6 @@ Bieten Sie Ihren Kunden überall ausgezeichnete Dienstleistungen an.
 ![icons_odoo_hr_appraisal](attachments/icons_odoo_hr_appraisal.png)
 
 Führen Sie Mitarbeiterbeurteilungen transparent durch.
-
-### [Brand](Brand.md)
-
-![](attachments/icons_odoo_brand.png)
-
-Mehrere Marken für ihr Unternehmen präsentieren.
-
-### [Certificate Planner](Certificate%20Planner.md)
-
-![icon_odoo_certificate_planer](attachments/icon_odoo_certificate_planer.png)
-
-Anleitung zur Odoo-App Certificate Planner.
 
 ### [Dashboards](Dashboards.md)
 
@@ -131,12 +113,6 @@ Sparen Sie Zeit beim Erfassen von Rechnungen, Scannen von Verträgen und bei der
 
 Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands.
 
-### [Einkauf Kaufverträge](Purchase%20Requisition.md)
-
-![icons_odoo_purchase](attachments/icons_odoo_purchase.png)
-
-Kaufverträge für Rahmenbestellungen erstellen.
-
 ### [Einstellungen](Settings.md)
 
 ![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
@@ -178,12 +154,6 @@ Ihre Buchhaltung einfach und korrekt.
 ![icons_odoo_fleet](attachments/icons_odoo_fleet.png)
 
 Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträge.
-
-### [Holzwirtschaft](Forestry%20Base.md)
-
-![icons_odoo_forestry_base](attachments/icons_odoo_forestry_base.png)
-
-Odoo für die Holzwirtschaft.
 
 ### [Initialisierung](Initialisation.md)
 
@@ -239,23 +209,11 @@ Verfolgen Sie Leads, schließen Sie Chancen ab und erhalten Sie genaue Prognosen
 
 Maximieren Sie die Effizienz Ihres Lagers.
 
-### [Lizenz](License.md)
-
-![](attachments/odoo_icons_license.png)
-
-Software verkaufen und lizenzieren.
-
 ### [Link Tracker](Link%20Tracker.md)
 
 ![icons_odoo_website_partner](attachments/icons_odoo_website_partner.png)
 
 Web-Kampagnen und E-Mails verfolgen.
-
-### [Management System](Management%20System.md)
-
-![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.png)
-
-Odoo for Management Systems (ISO, IEC, BS).
 
 ### [Marketing-Automatisierung](Marketing-Automation.md)
 
@@ -287,12 +245,6 @@ Notizen zentral verwalten.
 
 Alle Odoo-Funktionen auf ihrem Smartphone und Tablet.
 
-### [Odoo.sh](Odoo.sh.md)
-
-![](attachments/icons_odoo_server.png)
-
-The Odoo Cloud Platform.
-
 ### [Personal](HR.md)
 
 ![icons_odoo_hr](attachments/icons_odoo_hr.png)
@@ -322,12 +274,6 @@ Einstellungen für ihren persönlichen Odoo-Benutzer.
 ![icons_odoo_mrp_plm](attachments/icons_odoo_mrp_plm.png)
 
 Management des Produktlebenszyklus für moderne Firmen.
-
-### [Positionsnummern](Order%20Positions.md)
-
-![icons_odoo_sale](attachments/icons_odoo_sale.png)
-
-Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen.
 
 ### [Portal](Portal.md)
 
@@ -383,12 +329,6 @@ Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
 
 Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.
 
-### [Troubleshooting](Troubleshooting.md)
-
-![icons_odoo_website_forum](attachments/icons_odoo_website_forum.png)
-
-Probleme und Lösungen rund um Odoo.
-
 ### [Umfragen](Survey.md)
 
 ![icons_odoo_survey](attachments/icons_odoo_survey.png)
@@ -401,41 +341,17 @@ Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
 
 Aktualisieren Sie ihre Odoo Enterprise Installation ohne Mehrkosten.
 
-### [Ventor PRO](Ventor%20PRO.md)
-
-![](attachments/odoo_icon_ventor.png)
-
-Android-App für die Lagerbewirtschaftung.
-
 ### [Verkauf](Sale.md)
 
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
 Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung. 
 
-### [Verkauf Rahmenverträge](Sale%20Blanket%20Order.md)
-
-![icons_odoo_sale](attachments/icons_odoo_sale.png)
-
-Rahmenverträge für Verkäufe erstellen.
-
 ### [Versand](Delivery.md)
 
 ![icons_odoo_website_sale_delivery](attachments/icons_odoo_website_sale_delivery.png)
 
 Versandmethoden und Logistik definieren.
-
-### [Verträge](Contract.md)
-
-![icon_oca_agreement](attachments/icon_oca_agreement.png)
-
-Wiederholende Verträge verwalten und automatisch verrechnen.
-
-### [Warenhaus](Warehouse.md)
-
-![](attachments/icon_odoo_warehouse.png)
-
-Werkhallen und Warenhäuser effizient verwalten.
 
 ### [Wartung](Maintenance.md)
 
@@ -466,6 +382,100 @@ Wissenstransfer für Teams vereinfachen.
 ![icons_odoo_hr_timesheet](attachments/icons_odoo_hr_timesheet.png)
 
 Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
+
+## Erweiterungen
+
+Die folgenden HowTos beschreiben spezialisierte Funktionen von Odoo.
+
+### [Aero](Aero%20Base.md)
+
+![](attachments/icons_odoo_aero_base.png)
+
+Odoo für die Luftfahrt.
+
+### [Brand](Brand.md)
+
+![](attachments/icons_odoo_brand.png)
+
+Mehrere Marken für ihr Unternehmen präsentieren.
+
+### [Certificate Planner](Certificate%20Planner.md)
+
+![icon_odoo_certificate_planer](attachments/icon_odoo_certificate_planer.png)
+
+Anleitung zur Odoo-App Certificate Planner.
+
+### [Einkauf Kaufverträge](Purchase%20Requisition.md)
+
+![icons_odoo_purchase](attachments/icons_odoo_purchase.png)
+
+Kaufverträge für Rahmenbestellungen erstellen.
+
+### [Holzwirtschaft](Forestry%20Base.md)
+
+![icons_odoo_forestry_base](attachments/icons_odoo_forestry_base.png)
+
+Odoo für die Holzwirtschaft.
+
+### [[Job Portal Base]]
+
+![](attachments/icons_odoo_job_portal_base.png)
+
+Stelleninserate verwalten.
+
+### [Lizenz](License.md)
+
+![](attachments/odoo_icons_license.png)
+
+Software verkaufen und lizenzieren.
+
+### [Management System](Management%20System.md)
+
+![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.png)
+
+Odoo for Management Systems (ISO, IEC, BS).
+
+### [Odoo.sh](Odoo.sh.md)
+
+![](attachments/icons_odoo_server.png)
+
+The Odoo Cloud Platform.
+
+### [Positionsnummern](Order%20Positions.md)
+
+![icons_odoo_sale](attachments/icons_odoo_sale.png)
+
+Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen.
+
+### [Troubleshooting](Troubleshooting.md)
+
+![icons_odoo_website_forum](attachments/icons_odoo_website_forum.png)
+
+Probleme und Lösungen rund um Odoo.
+
+### [Ventor PRO](Ventor%20PRO.md)
+
+![](attachments/odoo_icon_ventor.png)
+
+Android-App für die Lagerbewirtschaftung.
+
+### [Verkauf Rahmenverträge](Sale%20Blanket%20Order.md)
+
+![icons_odoo_sale](attachments/icons_odoo_sale.png)
+
+Rahmenverträge für Verkäufe erstellen.
+
+### [Verträge](Contract.md)
+
+![icon_oca_agreement](attachments/icon_oca_agreement.png)
+
+Wiederholende Verträge verwalten und automatisch verrechnen.
+
+### [Warenhaus](Warehouse.md)
+
+![](attachments/icon_odoo_warehouse.png)
+
+Werkhallen und Warenhäuser effizient verwalten.
 
 ## [Mitarbeit](Contribution.md)
 
