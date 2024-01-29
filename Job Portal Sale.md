@@ -16,6 +16,25 @@ Repository: <https://github.com/Sozialinfo/Odoo-Apps-Vertical-Job-Portal/tree/16
 
 ## Aktionen
 
+### Verkaufsauftrag erstellen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Verkaufsauftrag erstellen`\
+Modell: `job_portal.joboffer`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+
+```python
+for rec in records:
+	rec._create_sale_order()
+```
+
+Im Tab *Sicherheit* fügen Sie die Gruppe *Stellenportal / Administrator* hinzu.
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
 ### Beschreibung Auftragszeile generieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:

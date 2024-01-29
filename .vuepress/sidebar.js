@@ -135,6 +135,7 @@ export default [
   "certificate-planner.md",
   "purchase-requisition.md",
   "forestry-base.md",
+  "job-portal-base.md",
   "license.md",
   "management-system.md",
   "odoo.sh.md",
@@ -1026,6 +1027,13 @@ export default [
           "forestry-stock.md",
           "forestry-project.md",
           "forestry-timesheet.md"
+        ]
+      },
+      {
+        "text": "Job Portal Base",
+        "collapsible": true,
+        "children": [
+          "job-portal-sale.md"
         ]
       },
       {
