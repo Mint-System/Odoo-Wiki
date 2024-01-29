@@ -1,10 +1,9 @@
-import { defaultTheme } from 'vuepress'
-import { plausiblePlugin } from './plausible'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
-import sidebar from './sidebar'
-import { searchPlugin } from '@vuepress/plugin-search'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
-
+import { plausiblePlugin } from './plausible'
+import sidebar from './sidebar'
 
 export default defineUserConfig({
     lang: 'de-CH',
@@ -13,6 +12,7 @@ export default defineUserConfig({
     head: [
         ['link', { rel: 'icon', href: '/icon.png' }]
     ],
+    bundler: viteBundler(),
     theme: defaultTheme({
         logo: '/icon.png',
         repo: 'mint-system/odoo-wiki',
@@ -34,9 +34,6 @@ export default defineUserConfig({
         }
     }),
     plugins: [
-        // searchPlugin({
-        //     maxSuggestions: 20
-        // }),
         docsearchPlugin({
             appId: '3RXF11ZPBA',
             apiKey: '541477132dec8df8d1b72f17c60b8a7a',

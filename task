@@ -1,0 +1,51 @@
+#!/bin/bash
+set -e
+
+if [[ -a ".env" ]]; then
+    export $(cat .env | sed 's/^#.*//g' | xargs)
+fi
+
+: "${DOCKER_TAG:=odoo:16.0-ci}"
+
+cat << EOF
+ 
+EOF
+function help() {
+    echo
+    echo "task <command> [options]"
+    echo
+    echo "commands:"
+    echo
+command_list="install;;Install build dependencies.
+build;;Build project.
+dev;;Start development server."
+command_list=$(echo "$command_list" | tr '\n' ';')
+IFS=';' read -r -a commands <<< "$command_list"
+printf "%-10s  %-10s  %-30s\n" "Command" "Option" "Description"
+printf "%-10s  %-10s  %-30s\n" "-------" "------" "-----------"
+for ((i = 0; i < ${#commands[@]}; i+=3)); do
+  cmd="${commands[i]}"
+  option="${commands[i + 1]}"
+  description="${commands[i + 2]}"
+  printf "%-10s  %-10s  %-30s\n" "$cmd" "$option" "$description"
+done
+    echo
+}
+
+case "$1" in
+    help)
+        help
+        ;;
+    install)
+        npm install
+        ;;
+    build)
+        npm run build
+        ;;
+    dev)
+        npm run dev
+        ;;
+    *)
+        help
+        exit 1;
+esac
