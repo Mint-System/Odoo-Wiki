@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/16.0/mail_unsu
 
 ## Beschreibung
 
-Ist diese Erweiterung installiert, werden vor dem Versenden einer Nachricht alle Abonnenten des Geschäftsobjekts entfernt. Damit ist sichergestellt, dass nur die ausgewählten Empfänger die Nachricht erhalten.
+Ist diese Erweiterung installiert, werden vor dem Versenden einer Nachricht alle Follower auf dem Dokument entfernt. Damit ist sichergestellt, dass nur die ausgewählten Empfänger die Nachricht erhalten.
 
 ## Konfiguration
 

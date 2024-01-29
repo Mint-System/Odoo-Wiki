@@ -43,23 +43,29 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 
 ## Beschreibung
 
-Die App Dialog ist mit allen Odoo-Geschäftsobjekten intgeriert. Sie ermöglicht die interne und externe Kommunikation im Kontext eines Dokuments. Bis #Odoo15 hat die *Diskussion* geheissen und *Follower* waren *Abonnemente*.
+Die App Dialog ist mit allen Odoo-Dokumente integriert. Sie ermöglicht die interne und externe Kommunikation im Kontext eines Dokuments. Bis #Odoo15 hat die *Diskussion* geheissen und *Follower* waren *Abonnemente*.
 
-## Auswertung
+## Nachrichten
 
-### Versendete Nachrichten betrachten
+### Nachricht verschicken
 
-Nachrichten, die von Odoo versendet werden, werden zentral gespeichert. Im Entwicklermodus sehen Sie diese unter *Einstellungen > Technisch > E-Mail > Nachrichten*. Hier sehen Sie alle versendeten Nachrichten aufgelistet. In der Detailansicht sieht man den *Nachrichtentext* und die Metadaten.
+Im Chatter des Dokument wählen Sie den Tab *Sende Nachricht*. Geben Sie eine Nachricht eine und wählen Sie *Senden* um die Nachricht an den Empfänger zu schicken.
 
-![](attachments/Dialog%20Detailansicht.png)
+::: warning
+Die Empfänger sind alle Follower des Dokuments.
+:::
 
-Jede versendete Nachricht erhält eine eindeutige *Nachrichten-ID*.
+### Nachricht aus Mail-Vorlage verschicken
 
-![](attachments/Dialog%20Nachrichten-ID.png)
+Im Chatter des Dokument wählen Sie den Tab *Sende Nachricht*. Klicken Sie auf das Icon unten rechts im Eingabe-Fenster um den Dialog zu vergrössern.
 
-Wurde die Nachricht als Mail versendet, können Sie im Tab *Empfänger* die Kontakte sehen.
+![](attachments/Dialog%20Extend%20Editor.png)
 
-![](attachments/Dialog%20Empfänger.png)
+Wählen Sie im Feld *Benutze Vorlage* ein Mail-Vorlage aus. Odoo füllt die Platzhalter aus und Sie können die Nachricht mit *Senden* an den Empfänger verschicken.
+
+::: warning
+Die Eingaben in *Empfänger* werden mit den Follower des Dokuments kumuliert.
+:::
 
 ## Follower
 
@@ -75,7 +81,7 @@ Fügen Sie einen Follower dem Odoo-Objekt hinzu indem Sie rechts von *Folgen* au
 
 ### Follower bearbeiten
 
-Wählen Sie einen Follower auf dem Odoo-Geschäftsobjekts aus, indem Sie rechts von *Folgen* auf das Icon klicken und ein Follower auswählen.
+Wählen Sie einen Follower auf dem Odoo-Dokument aus, indem Sie rechts von *Folgen* auf das Icon klicken und ein Follower auswählen.
 
 ### Follower entfernen
 
@@ -128,3 +134,19 @@ Um einen Kanal zu löschen navigieren Sie nach *Einstellungen > Technisch > Kan�
 ::: warning
 Alle mit dem Kanal verknüpften Nachrichten werden mit dieser Aktion gelöscht.
 :::
+
+## Auswertung
+
+### Versendete Nachrichten betrachten
+
+Nachrichten, die von Odoo versendet werden, werden zentral gespeichert. Im Entwicklermodus sehen Sie diese unter *Einstellungen > Technisch > E-Mail > Nachrichten*. Hier sehen Sie alle versendeten Nachrichten aufgelistet. In der Detailansicht sieht man den *Nachrichtentext* und die Metadaten.
+
+![](attachments/Dialog%20Detailansicht.png)
+
+Jede versendete Nachricht erhält eine eindeutige *Nachrichten-ID*.
+
+![](attachments/Dialog%20Nachrichten-ID.png)
+
+Wurde die Nachricht als Mail versendet, können Sie im Tab *Empfänger* die Kontakte sehen.
+
+![](attachments/Dialog%20Empfänger.png)

@@ -15,7 +15,7 @@ prev: ./development
 
 ### Formularansicht bearbeiten
 
-Rufen Sie die Formularansicht des Geschäftsobjekts auf und wählen Sie *Entwicklertools > Ansicht bearbeiten: Formular*.
+Rufen Sie die Formularansicht des Dokuments auf und wählen Sie *Entwicklertools > Ansicht bearbeiten: Formular*.
 
 ### Ansicht erstellen
 

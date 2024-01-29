@@ -115,7 +115,7 @@ Im Entwicklermodus öffnen Sie *Einstellungen > Technisch > Berichtswesen > Beri
 
 ### Standardwerte setzen
 
-Für jedes Geschäftsobjekt können Sie Standardwerte mit Bedingungen festlegen. Öffnen Sie im Entwicklermodus ein Objekt, beispielsweise ein Angbot und legen Sie für ein Feld einen neuen Wert fest. Bevor Sie das Angebot speichern, navigieren Sie zum Entwicklermenu und wählen *Standardwert setzen*. Im Dialog wählen Sie das Feld und den Wert sowie die passende Bedingung. Wenn Sie den Standardwert gespeichert haben, wir dieser bei der Erstellung eines neuen Geschäftsobjekts angwendet.
+Für jedes Geschäftsobjekt können Sie Standardwerte mit Bedingungen festlegen. Öffnen Sie im Entwicklermodus ein Objekt, beispielsweise ein Angbot und legen Sie für ein Feld einen neuen Wert fest. Bevor Sie das Angebot speichern, navigieren Sie zum Entwicklermenu und wählen *Standardwert setzen*. Im Dialog wählen Sie das Feld und den Wert sowie die passende Bedingung. Wenn Sie den Standardwert gespeichert haben, wir dieser bei der Erstellung eines neuen Dokuments angwendet.
 
 ![Einstellungen Standardwerte festlegen](attachments/Einstellungen%20Standardwerte%20festlegen.gif)
 
