@@ -56,7 +56,27 @@ for rec in records.filtered(lambda r: r.joboffer_id):
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 
-## Automatisierte Aktionen 
+## Automatisierte Aktionen
+
+### Angebot automatisch bestätigen
+
+Mit dieser automatischen Aktion wird ein Angebot mit einem bestimmten Attribut (Beispiel: `partner_id.address_checked`) automatisch bestätigt.
+
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+
+Name der Aktion: `Angebot automatisch bestätigen`\
+Modell: `sale.order`\
+Auslöser: Bei Erstellung und Aktualisierung\
+Trigger-Felder: `partner_id`\
+Abgrenzung vor Aktualisierung: `[("partner_id.address_checked", "!=", True)]`\
+Anzuwenden auf: `["&", ("partner_invoice_id.address_checked", "=", True), "&", ("joboffer_id", "!=", False), ("joboffer_id.is_created_by_gsi", "=", True)]`\
+Python Code:
+
+```python
+for rec in records:
+  rec.action_confirm()
+  rec.message_post(body="Die Kundenadresse ist geprüft, der Verkaufsauftrag wurde automatisch bestätigt.")
+```
 
 ### Abonnement für Kontakt anlegen und bestätigen
 

@@ -4,7 +4,8 @@ default.vim
 .obsidian/appearance.json
 node_modules
 tmp
-.vercel
+src
 .vuepress/.temp
 .vuepress/.cache
 .vuepress/dist
+.vercel

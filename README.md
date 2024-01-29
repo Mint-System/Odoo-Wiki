@@ -417,7 +417,7 @@ Kaufverträge für Rahmenbestellungen erstellen.
 
 Odoo für die Holzwirtschaft.
 
-### [[Job Portal Base]]
+### [Job Portal Base](Job%20Portal%20Base.md)
 
 ![](attachments/icons_odoo_job_portal_base.png)
 
