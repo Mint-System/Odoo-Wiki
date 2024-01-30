@@ -32,7 +32,7 @@ Navigieren Sie nach *Einstellungen > Certificate Planner > Umfragen*. Wählen Si
 
 ### Change-Umfrage starten
 
-Wenn Sie einen Change unter *Certificate Planner > Certificate > Changes* anzeigens, können Sie im Tab die *Survey* die Aktion *Start Survey* wählen. Es öffnet sich eine neue Seite mit der Umfrage. Nach dem Ausfüllen der Umfrage kehren Sie zurück und wählen die Aktion *Reload Survey Result Lists*. Bearbeiten Sie den Change und wählen Sie das neue Antwort-Set aus.
+Wenn Sie einen Change unter *Certificate Planner > Certificate > Changes* anzeigen, können Sie im Tab die *Survey* die Aktion *Start Survey* wählen. Es öffnet sich eine neue Seite mit der Umfrage. Nach dem Ausfüllen der Umfrage kehren Sie zurück und wählen die Aktion *Reload Survey Result Lists*. Bearbeiten Sie den Change und wählen Sie das neue Antwort-Set aus.
 
 ![](attachments/Certificate%20Planner%20Umfrage%20ausfüllen.gif)
 
@@ -75,7 +75,7 @@ Als erstes gilt es eine Tabelle mit folgenden Aufbau azulegen:
 | __export__.certificate_planer_document_9999999 | 001-9999999 | Seat Adapter Assy. | ADWG    |             | __export__.certificate_planer_part_9999999_1,__export__.certificate_planer_part_9999999_2 | __export__.certificate_planer_part_9999999_1 | 001-9999999-501 | Seat Adapter Assy. |
 |                                                |             |                    |         |             |                                                                                           | __export__.certificate_planer_part_9999999_2 | 001-9999999-502 | Seat Adapter Assy. |
 
-Auf der linken Seite der Tabelle von `id` bis `description` sind die Dokumente. Auf der rechten Seite von `id` bis `designation` sind die Parts. Anhand des Feldes `id` kann man Beziehungen erstellen. Im Feld `part_ids/id` gilt es mit der Formel `=TEXTJOIN(",",1,G2:G3)` die Part IDs als kommagetrennter Text darzustellen.
+Auf der linken Seite der Tabelle von `id` bis `description` sind die Dokumente. Auf der rechten Seite von `id` bis `designation` sind die Parts. Anhand des Feldes `id` kann man Beziehungen erstellen. Im Feld `part_ids/id` gilt es mit der Formel `=TEXTJOIN(",",1,G2:G3)` die Part IDs als Komma-getrennter Text darzustellen.
 
 Im ersten Schritt importiert man die Parts:
 
@@ -94,3 +94,17 @@ Natürlich kann man weitere Felder und Beziehungen hinzufügen. Mit dem Feld `id
 Haben Sie eine Rückmeldung zur App, können Sie diese als Notiz dem Entwickler mitteilen.
 
 ![](attachments/Certificate%20Planner%20Feedback%20erstellen.gif)
+
+## Berechtigungen
+
+### Zugriff auf Certificate Planner Umfrage-Antworten erteilen 
+
+Damit Benutzer der Gruppe *Certificate Planner - Document Manager*, Zugriff auf Umfrage-Antworten erhalten, braucht es eine Anpassung der Berechtigungen. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und zeigen Sie Gruppe *Certificate Planner / Manager - Document* an. Führen Sie die Aktion [Zugriffsrechte auf Gruppe vergeben](Settings%20Permissions.md#Zugriffsrechte%20auf%20Gruppe%20vergeben) mit diesen Parametern aus:
+
+* **Name**: `mint_system.survey.user_input.read`
+* **Objekt**: `survey.user_input`
+* **Berechtigung**: Setze Leseberechtigung
+
+* **Name**: `mint_system.survey.user_input.line.read`
+* **Objekt**: `survey.user_input.line`
+* **Berechtigung**: Setze Leseberechtigung

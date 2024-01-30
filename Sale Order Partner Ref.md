@@ -16,4 +16,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sa
 
 ## Beschreibung
 
-Diese Erweiterung fügt das Feld *Kunden Nr.* in der Listen- und Such-Ansicht der Verkaufsaufträge ein. Die *Kunden Nr.* ist ein Referenzfeld auf *Kunde > Tab Verkauf & Einkauf > Referenz*. 
+Diese Erweiterung fügt das Feld *Kunden Nr.* in der Listen- und Such-Ansicht der Verkaufsaufträge ein. Die *Kunden Nr.* ist ein Referenzfeld auf *Kunde > Tab Verkauf & Einkauf > Referenz*.

@@ -87,6 +87,14 @@ Wenn Sie einer ausgewählten Gruppe Zugriffsrechte auf ein Datenmodell vergeben 
 * **Gruppe**: Wählen Sie die Gruppe aus, welche die Zugriffsrechte erhält.
 * **Berechtigung**: Wählen Sie die passende Berechtigungen aus.
 
+### Zugriffsrechte auf Gruppe vergeben
+
+Wenn Sie einer ausgewählten Gruppe Zugriffsrechte auf ein Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Gruppen*. Rufen Sie hier die ausgewählte Gruppe auf und zeigen Sie den Tab *Zugriffsrechte* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
+
+* **Name**: Geben Sie einen namen im Schema `$COMPANY.$.$MODUL.$XML_ID.$OPERATION` ein. Dazu ein Beispiel: `mint_system.sale.order.read`.
+* **Objekt**: Wählen Sie das Datenmodell aus.
+* **Berechtigung**: Wählen Sie die passende Berechtigungen aus.
+
 ## Datensatzregeln
 
 ### Rechte für Daten anzeigen
