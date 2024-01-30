@@ -99,7 +99,7 @@ Haben Sie eine Rückmeldung zur App, können Sie diese als Notiz dem Entwickler 
 
 ### Zugriff auf Certificate Planner Umfrage-Antworten erteilen 
 
-Damit Benutzer der Gruppe *Certificate Planner - Document Manager*, Zugriff auf Umfrage-Antworten erhalten, braucht es eine Anpassung der Berechtigungen. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und zeigen Sie Gruppe *Certificate Planner / Manager - Document* an. Führen Sie die Aktion [Zugriffsrechte auf Gruppe vergeben](Settings%20Permissions.md#Zugriffsrechte%20auf%20Gruppe%20vergeben) mit diesen Parametern aus:
+Damit Benutzer der Gruppe *Certificate Planner Document Manager* Zugriff auf Umfrage-Antworten erhalten braucht es eine Anpassung der Berechtigungen. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und zeigen Sie die Gruppe *Certificate Planner / Manager - Document* an. Führen Sie die Aktion [Zugriffsrechte auf Gruppe vergeben](Settings%20Permissions.md#Zugriffsrechte%20auf%20Gruppe%20vergeben) mit diesen Parametern aus:
 
 * **Name**: `mint_system.survey.user_input.read`
 * **Objekt**: `survey.user_input`
