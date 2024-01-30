@@ -50,6 +50,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order Multi Pricelist](Sale%20Order%20Multi%20Pricelist.md)                                 | Partner-Preisliste anhand Lieferdatum filtern.                                |
 | [Sale Order Notes](Sale%20Order%20Notes.md)                                                       | Verkaufsaufträge mit Notizfelder.                                             |
 | [Sale Order Partner Membership](Sale%20Order%20Partner%20Membership.md)                           | Kontaktperson Mitgliedschaft auf Verkaufsauftrag festlegen                    |
+| [Sale Order Partner Ref](Sale%20Order%20Partner%20Ref.md)                                         | Kunden-Nr. auf Verkaufsaufträge filtern.                                      |
 | [Sale Order Project Key](Sale%20Order%20Project%20Key.md)                                         | Angebotsname von verlinkter Projektnummer übernehmen.                         |
 | [Sale Order Sale Partner](Sale%20Order%20Sale%20Partner.md)                                       | Verkaufsadresse auf Verkaufsauftrag festlegen.                                |
 | [Sale Order Template Notes](Sale%20Order%20Template%20Notes.md)                                   | Notizen auf Angebotsvorlage.                                                  |
