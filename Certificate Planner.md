@@ -68,7 +68,7 @@ Berichte zu einem Dokument können Sie mit der Aktion *Document Report* erstelle
 
 Mit der richtigen Vorbereitung können Dokumente, Parts und deren Beziehung in zwei Schritten importiert werden.
 
-Als erstes gilt es eine Tabelle mit folgenden Aufbau azulegen:
+Als erstes gilt es eine Tabelle mit folgenden Aufbau anzulegen:
 
 | id                                             | name        | title              | type_id | description | part_ids/id                                                                               | id                                           | name            | designation        |
 | ---------------------------------------------- | ----------- | ------------------ | ------- | ----------- | ----------------------------------------------------------------------------------------- | -------------------------------------------- | --------------- | ------------------ |
