@@ -22,7 +22,7 @@ Navigieren Sie nach *Dashboard > Activities*. Hier sehen Sie alle erstellen Akti
 
 ![](attachments/Mail%20Activity%20Board%20Alle.png)
 
-Wenn Sie sich auf einem Geschäftsobjekt befinden, können Sie die dazugehörgen Aktivitäten über diesen Button anzeigen lassen:
+Wenn Sie sich auf einem Dokument befinden, können Sie die dazugehörgen Aktivitäten über diesen Button anzeigen lassen:
 
 ![](attachments/Mail%20Activity%20Board%20List.png)
 

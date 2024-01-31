@@ -71,7 +71,7 @@ Die Eingaben in *Empfänger* werden mit den Follower des Dokuments kumuliert.
 
 ### Eigener Follower hinzufügen
 
-Wenn Sie den Chatter zu einem Odoo-Geschäftsobjekt sehen, können Sie mit einem Klick auf *Folgen* das Objekt abonnieren.
+Wenn Sie den Chatter zu einem Odoo-Dokumente sehen, können Sie mit einem Klick auf *Folgen* Aktivitäten auf dem Dokument abonnieren.
 
 ### Follower hinzufügen
 

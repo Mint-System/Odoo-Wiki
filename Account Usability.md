@@ -15,7 +15,7 @@ Repository: <https://github.com/OCA/account-financial-tools/tree/16.0/account_us
 
 ## Beschreibung
 
-Mit dieser Erweiterungen werden Menus für die folgenden Geschäftsobjekte sichtbar:
+Mit dieser Erweiterungen werden Menus für die folgenden Dokumente sichtbar:
 
 - Account Types
 - Account Tags

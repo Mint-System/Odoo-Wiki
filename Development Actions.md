@@ -148,7 +148,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Compose E-Mail`\
-Modell: Referenz gemäss Geschäftsobjekt\
+Modell: Referenz gemäss Dokument\
 Folgeaktion: `Python-Code ausführen`
 
 ```python

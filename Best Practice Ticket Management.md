@@ -8,7 +8,7 @@ prev: ./best-practice
 
 # Tickets verwalten
 
-Die Tickets der Kundendienst App können mit verschiedenen Geschäftsobjekten verknüpft werden.
+Die Tickets der Kundendienst App können mit verschiedenen Dokumenten verknüpft werden.
 
 ## Verkaufsauftrag
 

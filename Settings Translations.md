@@ -48,7 +48,7 @@ Wenn Sie ein Modul aktualisieren, können angepasste Übersetzungen verloren geh
 
 ### Übersetzung auf Ansicht anpassen
 
-Auf der Ansicht, welche die Übersetzung enthält, die Sie anpassen möchten, wählen *Entwickler-Tool > Bearbeitungsansicht:List|Form*. Klicken im Tab *Architektur* rechts auf den *EN*-Link. Nun öffnet sich ein Dialog mit den übersetzten und übersetzbaren Begriffen der Ansicht. Nehmen Sie die Anpassungen vor und Speichern Sie den Vorgang.
+Auf der Ansicht, welche die Übersetzung enthält, die Sie anpassen möchten, wählen *Entwicklertool > Bearbeitungsansicht:List|Form*. Klicken im Tab *Architektur* rechts auf den *EN*-Link. Nun öffnet sich ein Dialog mit den übersetzten und übersetzbaren Begriffen der Ansicht. Nehmen Sie die Anpassungen vor und Speichern Sie den Vorgang.
 
 ![](attachments/Einstellungen%20Übersetzung%20Ansicht%20übersetzen.gif)
 

@@ -43,7 +43,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Vorlagen* und suchen Sie in der
 
 ### E-Mail-Vorlage erfassen
 
-Navigieren Sie nach *Einstellungen > Technisch > Vorlagen* und erstellen Sie einen neuen Eintrag. Im Feld *Gilt für* wählen das Geschäftsobjekt, das mit der Voralge verknüpft werden soll.
+Navigieren Sie nach *Einstellungen > Technisch > Vorlagen* und erstellen Sie einen neuen Eintrag. Im Feld *Gilt für* wählen das Dokument, das mit der Vorlage verknüpft werden soll.
 
 ![](attachments/Dialog%20E-Mail%20Gilt%20für.png)
 
@@ -101,7 +101,7 @@ Um sicherzustellen, dass Odoo Nachrichten am richtigen Ort platziert, kann man a
 
 ### E-Mail an Kontakt senden
 
-Mit dem Odoo-Chatter können auf jedem Geschäftsobjekt interne Notizen hinzugefügt werden, aber auch Mails für Externe.
+Mit dem Odoo-Chatter können auf jedem Dokument interne Notizen hinzugefügt werden, aber auch Mails für Externe.
 
 Zum versenden einer Nachricht an einen Kontakt wählen Sie *Kontakte > Kontakte* und navigieren zum *Chatter*. Wählen Sie *Sende Nachricht* und vergrössern Sie das Eingabefeld. Wählen Sie die Empfänger, den Betreff, geben Sie ihre Nachricht ein und klicken Sie auf *Senden.*
 
@@ -152,7 +152,7 @@ Abhängig von der Konfiguration der E-Mail-Vorlage löscht Odoo versendete E-Mai
 Odoo prüft regelmässig die Postfächer der konfigurierten eingehenden E-Mail-Server. Den Vorgang können Sie manuell ausführen. Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Eingehende Mail-Server* und wählen Sie einen Eintrag aus. Klicken Sie auf *Nachrichten Abrufen*
 
 ::: tip
-Odoo verarbeitet in diesem Vorgang ungelesene E-Mails im Postfach. Anhand eines E-Mail-Headers fügt Odoo die Nachricht an das dazugehörige Geschäftsobjekt.
+Odoo verarbeitet in diesem Vorgang ungelesene E-Mails im Postfach. Anhand eines E-Mail-Headers fügt Odoo die Nachricht an das dazugehörige Dokument.
 :::
 
 ### Eingehende E-Mails erneut empfangen

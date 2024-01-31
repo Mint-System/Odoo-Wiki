@@ -13,17 +13,17 @@ Auf bestimmten Odoo-Objekten können Sie E-Mail-Adressen einrichten. Wenn E-Mail
 
 ### E-Mail Kopfzeilen
 
-Odoo koordiniert die Kommunikation zwischen Geschäftsobjekten und den E-Mail-Empfängen mit Headern im E-Mail. Dazu die wichtigsten:
+Odoo koordiniert die Kommunikation zwischen Dokumenten und den E-Mail-Empfängen mit Headern im E-Mail. Dazu die wichtigsten:
 
 * **reply-to**: Antworten an den E-Mail-Absender werden an diese Adresse umgeleitet. Es handelt sich um die sog. Catchall-Adresse.
 * **from**: Normalerweise der/die BenutzerIn, welche die E-Mail verschickt hat.
-* **x-odoo-objects**: Eindeutige Referenz auf das Geschäftsobjekt.
+* **x-odoo-objects**: Eindeutige Referenz auf das Dokument.
 
  Dazu ein Beispiel:
 
 ![](attachments/Infomaniak%20Kopfzeilen.png)
 
-Diese Header werden beim Empfang der Antwort-Mail von Odoo verarbeitet und dem entsprechenden Geschäftsobjekt zugeordnet.
+Diese Header werden beim Empfang der Antwort-Mail von Odoo verarbeitet und dem entsprechenden Dokument zugeordnet.
 
 ## Rechnungen empfangen
 

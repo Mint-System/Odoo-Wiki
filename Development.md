@@ -106,7 +106,7 @@ Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitge
 
 ### Metadaten anzeigen
 
-Für jedes Geschäftsobjekt können Sie in der Einzelansicht die Metadaten anzeigen. Rufen Sie ein Odoo-Objekt im Entwicklermodus auf, beispielsweise einen Benutzer und klicken Sie auf *Entwicklertools > Metadaten anzeigen*.
+Für jedes Dokument können Sie in der Einzelansicht die Metadaten anzeigen. Rufen Sie ein Odoo-Objekt im Entwicklermodus auf, beispielsweise einen Benutzer und klicken Sie auf *Entwicklertools > Metadaten anzeigen*.
 
 ![](attachments/Entwicklung%20Metadaten%20anzeigen.png)
 
