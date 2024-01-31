@@ -53,7 +53,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speiche
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Verkaufsauftrag bestätigen`\
+Name der Aktion: `Angebot bestätigen`\
 Modell: `sale.order`\
 Folgeaktion: `Python-Code ausführen`
 
