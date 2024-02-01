@@ -130,6 +130,20 @@ Zeigen Sie *Finanzen > Kunden > Kunden* an. Öffnen Sie einen bestimmten Kunden 
 
 ## One-Stop-Shop
 
+### VAT-Konten anlegen
+
+Navigieren Sie nach *Finanzen > Konfiguration > Kontenplan* und erstellen Sie diese neuen Einträge.
+
+Geschuldete VAT:
+* **Code**: 2202:
+* **Name**: Geschuldete VAT (EU)
+* **Typ**: Kurzfristige Verbindlichkeiten
+
+Zu zahlende VAT:
+* **Code**: 2203
+* **Name**: Zu zahlende VAT (EU)
+* **Typ**: Umlaufvermögen
+
 ### Mehrwertsteuer für EU-Ausland aktivieren
 
 Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und aktivieren Sie die Option *Innergemeinschaftlicher Fernabsatz der EU*. Anschliessend erscheint die Aktion *Refresh tax mappings*. Damit wird die Steuerzuordnung aktualisiert.
@@ -144,7 +158,7 @@ Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und führen Sie die Akt
 
 ### VAT-Steuersatz manuell erfassen
 
-Wenn Sie die VAT-Steuersätze manuell erfassen möchten, gehen Sie folgt vor. Navigieren Sie nach *Finanzen > Konfiguration > Steuern* und erstellen Sie einen neuen Eintrag:
+Wenn Sie VAT-Steuersätze manuell erfassen möchten, gehen Sie wie folgt vor. Navigieren Sie nach *Finanzen > Konfiguration > Steuern* und erstellen Sie einen neuen Eintrag:
 
 * **Steuerbezeichnung**: 20.0% FR VAT
 * **Steuertyp**: Verkauf
@@ -166,7 +180,7 @@ Wenn Sie die VAT-Steuersätze manuell erfassen möchten, gehen Sie folgt vor. Na
 * **Bezeichnung auf Rechnungen**: 20%
 * **Steuergruppe**: OSS 20.0%
 
-Wiederholgen Sie diesen Vorgang für jedes EU-Land.
+Wiederholen Sie diesen Vorgang für jedes EU-Land.
 
 ## Abrechnung
 
