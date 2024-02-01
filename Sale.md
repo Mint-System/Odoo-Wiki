@@ -111,7 +111,7 @@ Das Angebot wird über folgende alternativen Aktionen zum Verkaufsauftrag:
 
 Damit wechselt das Angebot in den Status *Verkaufsauftrag*.
 
-Die Option Einstellungen > Verkauf > Angebote und Aufträge > Angebotsvorlagen ermöglicht das Einrichten eines automatischen Bestätigungs-eMail.
+Die Option Einstellungen > Verkauf > Angebote und Aufträge > Angebotsvorlagen ermöglicht das Einrichten eines automatischen Bestätigungs-Mail.
 
 Mit der Aktion *Per E-Mail Versenden* wird automatisch ein e-Mail Entwurf für das Versenden der Auftragsbestätigung generiert.
 

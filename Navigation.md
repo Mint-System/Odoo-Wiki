@@ -20,7 +20,7 @@ Die Startseite von Odoo listet alle verfügbaren Apps auf. Die Apps und deren An
 
 ### Smart-Links aufrufen
 
-Die Smart-Links erlauben einen direkten Wechsel in verküpfte Geschäftsobjekte und Apps. Dazu ein Beispiel der Smart-Links in der Projekt-Übersicht:
+Die Smart-Links erlauben einen direkten Wechsel zu verknüpften Dokumenten und Apps. Dazu ein Beispiel der Smart-Links in der Projekt-Übersicht:
 
 ![](attachments/Navigation%20Smart-Links.png)
 
@@ -28,7 +28,7 @@ Klicken Sie auf *Zeiterfassung* werden alle Zeiterfassungs-Einträge des Projekt
 
 ### Mit Links navigieren
 
-Odoo-Verknüpft die Geschäftsobjekte über diverse Links. Dies erlaubt eine flexible Navigation. Beispielsweise kann man über die Kontakte-App in die Verkauf-App gelangen ohne dass sich der Navigations-Titell ändert.
+Odoo-Verknüpft die Dokumente über diverse Links. Dies erlaubt eine flexible Navigation. Beispielsweise kann man über die Kontakte-App in die Verkauf-App gelangen ohne dass sich der Navigations-Titell ändert.
 
 ![](attachments/Navigation%20Pfad.png)
 

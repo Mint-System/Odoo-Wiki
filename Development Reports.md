@@ -46,7 +46,7 @@ Bestimmte Bericht können mehrere Dokumente anzeigen. Für die HTML-Anzeige kön
 
 ### Berichte als HTML anzeigen
 
-Alle von Odoo generierten Berichte können unter einer bestimmten URL als HTML angezeigt werden. Diese URL besteht aus dem technischen Berichtsnamen und der ID des anzuzeigenden Geschäftsobjekt. Dazu ein Beispiel anhand des Lieferscheins.
+Alle von Odoo generierten Berichte können unter einer bestimmten URL als HTML angezeigt werden. Diese URL besteht aus dem technischen Berichtsnamen und der ID des anzuzeigenden Dokuments. Dazu ein Beispiel anhand des Lieferscheins.
 
 Öffnen Sie einen Lieferschein via *Lager > Vorgänge > Transfers* und merken Sie sich die folgenden Elemente der angezeigten URL: /web#**id=3**&action=348&**model=stock.picking**&view_type=form&cids=1&menu_id=208
 
@@ -179,7 +179,7 @@ Odoo verlinkt das Ansichts- und Berichtsobjekt über die externe ID bzw. XML ID.
 
 ### Option "Als Anhang speichern" deaktivieren
 
-Verschiedene Standardberichte werden beim Erzeugen als das Geschäftsobjekt angehängt. Dies geschieht aufgrund der Option *Als Anhangsprefix speichern* auf dem Berichtsobjekt. Rufen Sie einen Bericht auf *Einstellungen > Technisch > Berichtswesen > Berichte* und entfernen Sie im Tab *Erweiterte Eigenschaften* den Eintrag im Feld *Als Anhangsprefix speichern*.
+Verschiedene Standardberichte werden beim Erzeugen an das Dokument angehängt. Dies geschieht aufgrund der Option *Als Anhangsprefix speichern* auf dem Berichtsobjekt. Rufen Sie einen Bericht auf *Einstellungen > Technisch > Berichtswesen > Berichte* und entfernen Sie im Tab *Erweiterte Eigenschaften* den Eintrag im Feld *Als Anhangsprefix speichern*.
 
 ### Dateinamen für Berichte festlegen
 
