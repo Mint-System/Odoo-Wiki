@@ -108,3 +108,7 @@ Damit Benutzer der Gruppe *Certificate Planner Document Manager* Zugriff auf Umf
 * **Name**: `mint_system.survey.user_input.line.read`
 * **Objekt**: `survey.user_input.line`
 * **Berechtigung**: Setze Leseberechtigung
+
+* **Name**: `mint_system.survey.survey.read`
+* **Objekt**: `survey.survey`
+* **Berechtigung**: Setze Leseberechtigung
