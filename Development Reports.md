@@ -177,6 +177,41 @@ Wurde das Kontext-Menü mit der Aktion *Zum Druckmenü hinzufügen* erstellt, ka
 Odoo verlinkt das Ansichts- und Berichtsobjekt über die externe ID bzw. XML ID.
 :::
 
+### Bestehender Bericht für verlinktes Datenmodell verfügbar machen
+
+In diesem Szenario wird gezeigt wie Sie einen bestehenden Bericht für ein anderes Datenmodell zur Verfügung stellen. Den Bericht *Zeitnachweis-Einträge* soll in diesem Beispiel auf den Rechnungen erstellt werden können.
+
+Öffnen Sie *Einstellungen > Technisch > Berichtswesen > Berichte* und kopieren Sie den Bericht *Zeitnachweis-Einträge* mit dem Datenmodell `account.analytic.line`.
+
+In der Kopie geben Sie für *Modellname* den Wert `account.move` ein und als *Vorlagenname* w¨áhlen `account.report_timesheet` ein.
+
+Navigieren Sie nun nach *Einstellungen > Technisch > Benutzer-Interface > Ansichten* und erstellen Sie einen neue Ansicht `account.report_timesheet`
+
+* **Ansichtsbezeichnung**: `account.report_timesheet`
+* **Ansichtstyp**: QWeb
+* **Architektur**:
+
+```xml
+<?xml version="1.0"?>
+<t t-name="account.report_timesheet">
+    <t t-call="web.html_container">
+        <t t-foreach="docs" t-as="doc">
+			  <t t-call="hr_timesheet.report_timesheet" t-lang="doc.partner_id.lang">
+		            <t t-set="docs" t-value="doc.timesheet_ids" />
+	          </t>
+        </t>
+    </t>
+</t>
+```
+
+Notieren Sie sich die `id` der erstellten Ansicht. Diese Ansicht ruft die Ansicht mit der externen ID `hr_timesheet.report_timesheet` auf. Damit die erstellte Ansicht vom Bericht aufgerufen werden kann, braucht es eine externe ID. Führen [Externe ID erfassen](Development.md#Externe%20ID%20erfassen) mit diesen Angaben aus:
+
+* **Modul**: `account`
+* **Externe Identifikation**: `report_timesheet`
+* **Modellname**: `ir.ui.view`
+* **Datensatz-ID**: `id` der erstellten Ansicht
+
+
 ### Option "Als Anhang speichern" deaktivieren
 
 Verschiedene Standardberichte werden beim Erzeugen an das Dokument angehängt. Dies geschieht aufgrund der Option *Als Anhangsprefix speichern* auf dem Berichtsobjekt. Rufen Sie einen Bericht auf *Einstellungen > Technisch > Berichtswesen > Berichte* und entfernen Sie im Tab *Erweiterte Eigenschaften* den Eintrag im Feld *Als Anhangsprefix speichern*.

@@ -36,7 +36,7 @@ Speichern Sie den Buchungssatz und wählen Sie *Buchen*, wenn alle Angaben stimm
 
 ### Eröffnungsbuchung anpassen
 
-Mit der Ausführung des Assisten wird eine Eröffungsbuchung erstellt. Navigieren Sie nach *Finanzen > Sonstiges > Buchungssätze* und öffnen Sie den Eintrag mit Bezeichnung *Journal-Eintrag wird geöffnet*.
+Mit der Ausführung des Assistenten wird eine Eröffnungsbuchung erstellt. Navigieren Sie nach *Finanzen > Sonstiges > Buchungssätze* und öffnen Sie den Eintrag mit Bezeichnung *Journal-Eintrag wird geöffnet*.
 
 ![](attachments/Odoo%20Buchhaltung%20Eröffnungsbuchung%20anpassen.png)
 
