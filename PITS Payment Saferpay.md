@@ -20,7 +20,7 @@ Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/16.0/pits_p
 
 ### Zahlungsanbieter Saferpay konfigurieren
 
-Navigieren Sie nach *Abrechnung > Konfiguration > Saferpay Provider Configuration* und zeigen Sie den Eintrag *Saferpay Provider Configuration* an. Tragen Sie die Daten aus dem Saferpay-Portal wie folgt ein:
+Navigieren Sie nach *Rechnungsstellung > Konfiguration > Saferpay Provider Configuration* und zeigen Sie den Eintrag *Saferpay Provider Configuration* an. Tragen Sie die Daten aus dem Saferpay-Portal wie folgt ein:
 
 * **Customer ID**: Ihre Kundennummer
 * **Terminal ID**: Die Terminal-ID zu finden unter *Einstellungen > Zahlungsmittel / Terminals*

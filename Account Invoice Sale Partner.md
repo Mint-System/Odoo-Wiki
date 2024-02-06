@@ -19,6 +19,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.
 
 ### Verkaufsadresse auf Rechnung festlegen
 
-Rufen Sie eine Kundenrechnung via *Abrechnung > Kunden > Rechnungen* auf. Sie finden ein neues Feld *Verkaufsadresse* unterhalb von *Kunde*. Legen Sie einen Kontakt des Kunden-Kontakt als  Verkaufsadresse fest, so wird dieser Kontakt bei der Auswahl des Kunden übernommen. 
+Rufen Sie eine Kundenrechnung via *Rechnungsstellung > Kunden > Rechnungen* auf. Sie finden ein neues Feld *Verkaufsadresse* unterhalb von *Kunde*. Legen Sie einen Kontakt des Kunden-Kontakt als  Verkaufsadresse fest, so wird dieser Kontakt bei der Auswahl des Kunden übernommen. 
 
 ![](attachments/Account%20Invoice%20Sale%20Partner.png)

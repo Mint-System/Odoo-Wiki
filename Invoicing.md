@@ -1,11 +1,11 @@
 ---
-title: Abrechnung
+title: Rechnungsstellung
 description: Online Rechnungsstellung leicht gemacht.
 tags:
 - HowTo
 prev: ./
 ---
-# Abrechnung
+# Rechnungsstellung
 ![icons_odoo_account](attachments/icons_odoo_account.png)
 
 {{ $frontmatter.description }}
@@ -14,9 +14,9 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 ## Bereiche
 
-| Erweiterung                                       | Beschreibung                           |
-| ------------------------------------------------- | -------------------------------------- |
-| [Abrechnung Mahnungen](Invoicing%20Reminder.md) | Mahnberichte erstellen und verschicken |
+| Erweiterung                                     | Beschreibung                           |
+| ----------------------------------------------- | -------------------------------------- |
+| [Rechnungsstellung Mahnungen](Invoicing%20Reminder.md) | Mahnberichte erstellen und verschicken |
 
 ## Erweiterungen
 
@@ -46,19 +46,23 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 ### Ausgangsrechnung erfassen
 
-Öffnen Sie *Abrechnung > Kunden > Rechnungen* und fügen Sie einen Eintrag hinzu.
+Öffnen Sie *Rechnungsstellung > Kunden > Rechnungen* und fügen Sie einen Eintrag hinzu.
 
 ### Rechnung zurücksetzen
 
-Um eine gebucht Rechnung zurückzusetzen navigieren Sie nach nach Abrechnung > Kunden > Rechnungen* und zeigen eine augewählte Rechnung an. Wählen Sie die Aktion *Zurücksetzen* damit die Rechnung in den Status *Entwurf* gesetzt wird.
+Um eine gebucht Rechnung zurückzusetzen navigieren Sie nach nach *Rechnungsstellung > Kunden > Rechnungen* und zeigen eine augewählte Rechnung an. Wählen Sie die Aktion *Zurücksetzen* damit die Rechnung in den Status *Entwurf* gesetzt wird.
 
 ::: tip
 Wurde die erstellte Rechnung bereits auf Status *Gebucht* gesetzt, so kann diese Rechnung nur teilweise korrigiert oder gelöscht werden.
 :::
 
-### Gutschrift erstellen
+### Gutschrift erfassen
 
-Öffnen Sie *Abrechnung > Kunden > Rechnungen* und zeigen Sie die Rechnung an, welche vergütet werden soll. Wählen Sie die Aktion *Gutschrift Erstellen* und aktivieren die passenden Optionen:
+Navigieren Sie nach *Rechnungsstellung > Kunden > Gutschriften* und erfassen Sie eine Gutschrift. 
+
+### Gutschrift für Rechnung erfassen
+
+Öffnen Sie *Rechnungsstellung > Kunden > Rechnungen* und zeigen Sie die Rechnung an, welche vergütet werden soll. Wählen Sie die Aktion *Gutschrift Erstellen* und aktivieren die passenden Optionen:
 
 * **Kreditmethode**:
 	* Teilweise Rückerstattung:  
@@ -71,15 +75,14 @@ Schliessen Sie den Vorgang mit *Gutschrift Erstellen* ab.
 
 #### Beispiel
 
-Eine Rechnung *Rechn/2023/08/0001* mit dem Betrag CHF 455.00 wurde bezahlt. Jetzt wird sie mit *Gutschrift Erstellen* in die Gutschrift* RRechn/2023/11/0001* umgewandelt und mit *Bestätigen* gebucht.
+Eine Rechnung *Rechn/2023/08/0001* mit dem Betrag CHF 455.00 wurde bezahlt. Jetzt wird sie mit *Gutschrift Erstellen* in die Gutschrift* RRechn/2023/11/0001* umgewandelt und mit  Bestätigen* gebucht.
 Eine neue Rechnung *Rechn/2023/11/0001* vom gleichen Kunden wird erfasst. Der Betrag aus der Gutschrift erscheint als noch *Noch nicht ausgeglichene Zahlungen*:
 
-![](attachments/Pasted%20image%2020231120101808.png)
+![](attachments/Rechnungsstellung%20Nicht%20Ausgeglichen.png)
 
 Mit *Hinzufügen* wird der fällige Betrag um den Wert der Gutschrift reduziert:
 
-![](attachments/Pasted%20image%2020231120102432.png)
-
+![](attachments/Rechnungsstellung%20Bezahlt%20am.png)
 
 ## Abrechnung
 
@@ -117,17 +120,17 @@ Angenommen Sie möchten die Empfängeradresse einer gebuchten Rechnung ändern, 
 
 Auf Kontakten können Sie Warnungs-Text hinterlegen, welche bei der Ertellung einer Rechnung angezeigt werden. Damit die entprechenden Felder auf dem Kontakt angezeigt werden, müssen Sie in den Benutzer-Einstellungen die Berechtigung *Eine Warnung kann auf einem Partner (Konto) gelegt werden* aktivieren. Unter *Kontakte > Eintrag auswählen > Tab Interne Notizen* finden Sie das entsprechende Feld.
 
-![](attachments/Abrechnung%20Warnung.png)
+![](attachments/Rechnungsstellung%20Warnung.png)
 
 ## Empfang
 
 ### Eingangsrechnung erfassen
 
-Öffnen Sie *Abrechnung > Lieferanten > Rechnungen* und fügen Sie einen Eintrag hinzu.
+Öffnen Sie *Rechnungsstellung > Lieferanten > Rechnungen* und fügen Sie einen Eintrag hinzu.
 
 ### Zahlung erfassen
 
-Öffnen Sie *Abrechnung > Lieferanten > Rechnungen* und wählen Sie eine zu bezahlende Rechnung aus. Klicken Sie auf *Zahlung Registrieren*. Im Dialog wählen Sie das *Journal* und die *Zahlungsmethode* aus. Prüfen Sie die Angaben und wählen Sie *Zahlung Erstellen*.
+Öffnen Sie *Rechnungsstellung > Lieferanten > Rechnungen* und wählen Sie eine zu bezahlende Rechnung aus. Klicken Sie auf *Zahlung Registrieren*. Im Dialog wählen Sie das *Journal* und die *Zahlungsmethode* aus. Prüfen Sie die Angaben und wählen Sie *Zahlung Erstellen*.
 
 ### Guthaben für Rechnungsdigitalisierung kaufen
 
@@ -139,15 +142,29 @@ Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits könn
 
 Zur Digitalisierung einer Rechnung laden Sie als erstes die PDF-Datei via *Finanzen > Lieferanten > Rechnungen > Hochladen* hoch. Öffnen Sie die Rechnung und starten Sie dann die Aktion *Send for digitalization*. Nach wenigen Sekunden sollte die Rechnungsangaben aus dem PDF ausgelesen und abgefüllt werden.
 
-![](attachments/Abrechnung%20Rechnung%20digitalisieren.png)
+![](attachments/Rechnungsstellung%20Rechnung%20digitalisieren.png)
 
 Der Digitalisierungsprozess dauert wenige Sekunden. Sie können den Status mit *Aktualisieren* überprüfen.
 
-![](attachments/Abrechnung%20Digitalisierung%20überprüfen.png)
+![](attachments/Rechnungsstellung%20Digitalisierung%20überprüfen.png)
 
 ### Lieferantenrechnung mit Bestellung verknüpfen
 
-Wenn Sie eine Lieferantenrechnung unter *Abrechnung > Lieferanten > Rechnung* haben, können Sie diese mit dem Feld *Autovervollständigung* mit einer Bestellung verknüpfen.
+Wenn Sie eine Lieferantenrechnung unter *Rechnungsstellung > Lieferanten > Rechnung* haben, können Sie diese mit dem Feld *Autovervollständigung* mit einer Bestellung verknüpfen.
+
+## Abstimmung
+
+### Gutschrift zu Rechnung hinzufügen
+
+Wenn Sie für einen Kunden eine Gutschrift haben, können Sie diese einer offenen Rechnung hinzufügen. Zeigen Sie die offene Rechnung via *Rechnungsstellung > Kunden > Rechnungen* an. Auf der Rechnung erscheint die Meldung:
+
+> Sie haben ausstehendes Haben für diesen Kunden. Sie können diese zuordnen, um die Rechnung als bezahlt zu kennzeichnen
+
+Am Ende der Rechnung können Sie bei der entsprechenden Gutschrift auf *Hinzufügen* drücken.
+
+::: warning
+Die Gutschrift und Rechnung müssen den gleichen Kunden haben.
+:::
 
 ## Vorlagen
 
@@ -171,7 +188,7 @@ Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generie
 
 * Auf dem Bankkonto des Unternehmens muss das Feld `CHF ISR Subscription Number` ausgefüllt sein
 
-![](attachments/Abrechnung%20ESR-Nummern.png)
+![](attachments/Rechnungsstellung%20ESR-Nummern.png)
 
 * Das auf der Rechnung hinterlegte Konto muss mit diesem Unternehmenskonto übereinstimmen
 * Die Rechnung ist im Status *Gebucht*
@@ -214,14 +231,13 @@ Wenn Sie eine neue Rechnung schreiben und die Rundungsmethode festgelegt ist, we
 
 ### Fakturierungsregel festlegen
 
-Für jedes Produkt können Sie definieren, ob es nach der Lieferung oder nach der Bestellung verrechnet werden soll. Navigieren Sie nach *Abrechnung > Produkte > Produkte* und zeigen Sie ein Produkt an. Im Feld *Fakturierungsregel* können Sie bestimmen Sie Verrechnungsart bestimmen.
+Für jedes Produkt können Sie definieren, ob es nach der Lieferung oder nach der Bestellung verrechnet werden soll. Navigieren Sie nach *Rechnungsstellung > Produkte > Produkte* und zeigen Sie ein Produkt an. Im Feld *Fakturierungsregel* können Sie bestimmen Sie Verrechnungsart bestimmen.
 
 ![](attachments/eCommerce%20Fakturierungsregel%20auf%20Produkt.png)
 
 ::: warning
 Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzurechendende Menge des Verkaufsauftrag aktualisiert werden. Nur dann wird das zusätzliche Produkt auf die Rechnung übertragen.
 :::
-
 
 ### Berechtigungen anhand von Gruppen filtern
 

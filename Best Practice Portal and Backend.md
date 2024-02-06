@@ -21,7 +21,7 @@ Das Portal von Odoo kann auf verschiedenen Wegen von Kunden, Partnern und Liefer
 * **Projektmanagement**: Zugriff auf Projekt und Dokumente an Externe vergeben
 * **Webshop**: Kunden können ihre Adressen, Bestellungen, Abonnements und Rechnungen einsehen
 * **Verkauf**: Potenzielle Kunden sehen das Verkaufsangebot im Browser
-* **Abrechnung**: Kunden können ihre Rechnung mit verschiedenen Zahlungsanbietern über das Portal bezahlen
+* **Rechnungsstellung**: Kunden können ihre Rechnung mit verschiedenen Zahlungsanbietern über das Portal bezahlen
 
 ## Kontakte
 

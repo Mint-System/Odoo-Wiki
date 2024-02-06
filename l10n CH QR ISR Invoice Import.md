@@ -20,7 +20,7 @@ Odoo App Store: <https://apps.odoo.com/apps/modules/15.0/l10n_ch_qr_isr_invoice_
 
 ### Rechnung aus QR-Daten erstellen
 
-Mit dieser Erweiterung können Sie anhand QR-Daten eine Rechnung erstellen. Klicken Sie auf *Abrechnung > Scan QR Bill* um den Vorgang zustarten.
+Mit dieser Erweiterung können Sie anhand QR-Daten eine Rechnung erstellen. Klicken Sie auf *Rechnungsstellung > Scan QR Bill* um den Vorgang zustarten.
 
 ![](attachments/Swiss%20QR-ESR%20Scan%20Scan%20Button.png)
 
@@ -60,11 +60,11 @@ Starten Sie den nächsten Scan-Vorgang mit *Scan Next QR Bill*.
 
 ### Rechung anhand QR-Daten aktualisieren
 
-Legen Sie eine neue Rechnung unter *Abrechnung > Kunden > Rechnungen* oder *Abrechnung > Lieferanten > Rechnungen* an. Klicken Sie auf den Knopf *Scan QR* und geben Sie die QR-Daten ein. Aktualisieren Sie die Rechnung mit der Aktion *Update Invoice*.
+Legen Sie eine neue Rechnung unter *Rechnungsstellung > Kunden > Rechnungen* oder *Rechnungsstellung > Lieferanten > Rechnungen* an. Klicken Sie auf den Knopf *Scan QR* und geben Sie die QR-Daten ein. Aktualisieren Sie die Rechnung mit der Aktion *Update Invoice*.
 
 ### Standard-Aufwandskonto auf Kontakt hinterlegen
 
-Bearbeiten Sie den Kontakt und navigieren Sie zum Tab *Abrechnung*. Auf der rechten Seite sehen Sie die Standardkonten für die Buchhaltung. Legen Sie im Feld *Expense Import Account* das Aufwandskonto für den Kontakt fest.
+Bearbeiten Sie den Kontakt und navigieren Sie zum Tab *Rechnungsstellung*. Auf der rechten Seite sehen Sie die Standardkonten für die Buchhaltung. Legen Sie im Feld *Expense Import Account* das Aufwandskonto für den Kontakt fest.
 
 ![](attachments/Swiss%20QR-ESR%20Scan%20Buchungen.png)
 

@@ -35,12 +35,6 @@ Die folgenden HowTos beschreiben die Basis-Funktionen von Odoo.
 
 Wiederkehrende Rechnungsstellung und Management von Abonnenten auf einfache Art und Weise.
 
-### [Abrechnung](Invoicing.md)
-
-![icons_odoo_account](attachments/icons_odoo_account.png)
-
-Online Rechnungsstellung leicht gemacht.
-
 ### [Abwesenheit](HR%20Holidays.md)
 
 ![icons_odoo_hr_holidays](attachments/icons_odoo_hr_holidays.png)
@@ -298,6 +292,12 @@ Agiles Projektmanagement. Schön. Einfach. Open Source.
 ![icons_odoo_quality_control](attachments/icons_odoo_quality_control.png)
 
 Für moderne Hersteller.
+
+### [Rechnungsstellung](Invoicing.md)
+
+![icons_odoo_account](attachments/icons_odoo_account.png)
+
+Online Rechnungsstellung leicht gemacht.
 
 ### [Reseller](Reseller.md)
 

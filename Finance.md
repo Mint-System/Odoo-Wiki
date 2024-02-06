@@ -182,4 +182,4 @@ Navigieren Sie nach *Finanzen > Konfiguration > Abrechnung > Zahlungsbedingungen
 
 ### Portal-Ansicht von Rechnung anzeigen
 
-Um die Portal-Ansicht einer Rechnung anzuzeigen gehen Sie wie folgt vor *Abrechnung > Kunden > Rechnungen > Rechnung auswählen* und dann auf *Vorschau* klicken. Nun öffnet sich die Portal-Ansicht in einem neuen Tab.
+Um die Portal-Ansicht einer Rechnung anzuzeigen gehen Sie wie folgt vor *Rechnungsstellung > Kunden > Rechnungen > Rechnung auswählen* und dann auf *Vorschau* klicken. Nun öffnet sich die Portal-Ansicht in einem neuen Tab.
