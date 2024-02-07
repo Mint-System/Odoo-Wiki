@@ -115,7 +115,7 @@ Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands.
 
 ### [Einstellungen](Settings.md)
 
-![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
+![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 Odoo-Einstellungen aktivieren und konfigurieren.
 

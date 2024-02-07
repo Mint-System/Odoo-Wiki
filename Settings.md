@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Einstellungen
-![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
+![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 {{ $frontmatter.description }}
 
