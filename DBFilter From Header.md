@@ -4,7 +4,7 @@ description: Datenbank mit Proxy-Header auswählen.
 tags:
 - HowTo
 - OCA
-prev: ./development
+prev: ./database
 ---
 # DBFilter From Header
 ![icon_oca_app](attachments/icon_oca_app.png)

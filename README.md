@@ -59,6 +59,12 @@ Neue Apps installieren und aktualisieren.
 
 Bieten Sie Ihren Kunden überall ausgezeichnete Dienstleistungen an.
 
+### [Benutzer](User.md)
+
+![icons_odoo_membership](attachments/icons_odoo_membership.png)
+
+Einstellungen für ihren persönlichen Odoo-Benutzer.
+
 ### [Bewertungen](HR%20Appraisal.md)
 
 ![icons_odoo_hr_appraisal](attachments/icons_odoo_hr_appraisal.png)
@@ -75,7 +81,7 @@ Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 
 ![icons_odoo_apps](attachments/icons_odoo_apps.png)
 
-Odoo-Instanzen mit dem Datenbankmanager verwalten.
+Odoo Datenbanken verwalten
 
 ### [Datenbereinigung](Data%20Cleaning.md)
 
@@ -149,18 +155,6 @@ Ihre Buchhaltung einfach und korrekt.
 
 Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträge.
 
-### [Initialisierung](Initialisation.md)
-
-![icons_odoo_survey](attachments/icons_odoo_survey.png)
-
-Richten Sie ihre Odoo-Umgebung ein.
-
-### [Installation](Installation.md)
-
-![icons_odoo_website_hr_recruitment](attachments/icons_odoo_website_hr_recruitment.png)
-
-Odoo installieren und konfigurieren.
-
 ### [IoT](IoT.md)
 
 ![icons_odoo_iot](attachments/icons_odoo_iot.png)
@@ -225,7 +219,7 @@ Mitglieder und Mitgliedschaften verwalten.
 
 ![icons_odoo_website_partner](attachments/icons_odoo_website_partner.png)
 
-Alles zur Navigation in Odoo.
+Navigation in der Benutzeroberfläche von Odoo.
 
 ### [Notizen](Note.md)
 
@@ -256,12 +250,6 @@ Personalbrechnungen schnell und einfach erstellen.
 ![icons_odoo_hr_recruitment](attachments/icons_odoo_hr_recruitment.png)
 
 Einstellungsprozess leicht gemacht.
-
-### [Persönliche Einstellungen](User.md)
-
-![icons_odoo_membership](attachments/icons_odoo_membership.png)
-
-Einstellungen für ihren persönlichen Odoo-Benutzer.
 
 ### [PLM](PLM.md)
 
@@ -313,9 +301,9 @@ Partnerschaften mit Wiederverkäufer pflegen.
 
 ### [Server](Base.md)
 
-![icons_odoo_apps](attachments/icons_odoo_apps.png)
+![icons_odoo_website_enterprise](attachments/icons_odoo_website_enterprise.png)
 
-Konfiguration des Odoo Server.
+Odoo installieren und konfigurieren.
 
 ### [Spesen](HR%20Expense.md)
 
@@ -340,12 +328,6 @@ Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.
 ![icons_odoo_survey](attachments/icons_odoo_survey.png)
 
 Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
-
-### [Upgrade](Upgrade.md)
-
-![icons_odoo_website_enterprise](attachments/icons_odoo_website_enterprise.png)
-
-Aktualisieren Sie ihre Odoo Enterprise Installation ohne Mehrkosten.
 
 ### [Verkauf](Sale.md)
 

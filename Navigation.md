@@ -1,6 +1,6 @@
 ---
 title: Navigation
-description: Alles zur Navigation in Odoo.
+description: Navigation in der Benutzeroberfläche von Odoo.
 tags:
 - HowTo
 prev: ./

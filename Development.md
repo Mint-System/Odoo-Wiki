@@ -28,13 +28,13 @@ prev: ./
 | Erweiterung                                                                                 | Beschreibung                                                        |
 | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | [BI SQL Editor](BI%20SQL%20Editor.md)                                                       | Ganz einfach SQL-basierte Berichte erstellen.                       |
+| [Date Range](Date%20Range.md)                                                               | Verwaltung von Datums-Bereichen zur Filterung von Daten.            |
 | [Mass Editing](Mass%20Editing.md)                                                           | Mühelos mehrere Einträge auf einmal bearbeiten.                     |
 | [Mass Operation Abstract](Mass%20Operation%20Abstract.md)                                   | Bietet Werkzeuge zur Massenbearbeitung.                             |
 | [MuK REST](MuK%20REST.md)                                                                   | Stellt eine REST API für den Odoo Server bereit.                    |
 | [Onchange Helper](Onchange%20Helper.md)                                                     | Vereinfacht den Aufruf von Onchange-Methoden im Python Code.        |
-| [Project timeline](Project%20Timeline.md)                                                   | Timeline-Ansicht für Projektaufgaben.                               |
 | [Prometheus Exporter](Prometheus%20Exporter.md)                                             | Odoo-Metriken mit Prometheus monitoren.                             |
-| [Report XLSX](Report%20XLSX.md)                                                             | Klasse zur Etnwicklung von XLSX-Berichten.                           |
+| [Report XLSX](Report%20XLSX.md)                                                             | Klasse zur Etnwicklung von XLSX-Berichten.                          |
 | [Server Environment Ir Config Parameter](Server%20Environment%20Ir%20Config%20Parameter.md) | Systemparameter aus Umgebungsvariablen laden.                       |
 | [Server Environment](Server%20Environment.md)                                               | Systemkonfigurationen aus Umgebungsvariablen laden.                 |
 | [Web Domain Field](Web%20Domain%20Field.md)                                                 | Dynamische Definitionen für Domain-Attribute auf Felder generieren. |
@@ -54,6 +54,28 @@ Damit Software von Dritten Zugriff auf die Daten von Odoo hat, ohne dass dabei d
 Öffenen Sie die Sicherheitseinstellungen des eingeloggten Benutzers *Menüleiste > Mein Profil > Tab Acccount Security* und klicken auf *New API Key*.
 
 ## Verwendung
+
+### Assets-Bundel neu generieren
+
+Wird Odoo im Browser angezeigt, werden sogenannte Assets im Hintergrund geladen (JavaScript- und CSS-Dateien). Diese Assets können nach einem Odoo-Update veraltet sein und müss neu generiert werden. Wählen Sie *Entwicklertool > Bündel von Assets regenerieren*.
+
+![](attachments/Entwicklung%20Assets-Bundel%20neu%20generieren.png)
+
+### Browser-Cache in Firefox löschen
+
+Damit Odoo nach einem Update einwandfrei funktioniert. Müssen Sie den Browser-Cache für Odoo entfernen. In Firefox klicken Sie dazu auf das Häcken in der Browserleiste und wählen *Cookies und Website-Daten löschen...*. Bestätigen Sie den Dialog.
+
+![](attachments/Clear%20Browser%20Cache%20Firefox.png)
+
+### Browser-Cache in Chrome löschen
+
+Damit Odoo nach einem Update einwandfrei funktioniert. Müssen Sie den Browser-Cache für Odoo entfernen. In Firefox klicken Sie dazu auf das Häcken in der Browserleiste und wählen *Site settings*.
+
+![](attachments/Clear%20Browser%20Cache%20Chrome%201.png)
+
+Im neuen Fenster wählen Sie *Clear Data*.
+
+![](attachments/Clear%20Browser%20Cache%20Chrome%202.png)
 
 ### Demo-Daten neu laden
 

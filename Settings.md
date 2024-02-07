@@ -26,22 +26,41 @@ prev: ./
 
 ## Erweiterungen
 
-| Erweiterung                                                     | Beschreibung                                                       |
-| --------------------------------------------------------------- | ------------------------------------------------------------------ |
-| [Auth Impersonate User](Auth%20Impersonate%20User.md)           | Mit einem anderen Benutzer einloggen.                              |
-| [Auth OAuth Keycloak](Auth%20OAuth%20Keycloak)                  | Ermöglich Keycloak Integration mit Odoo OAuth.                     |
-| [Auth OIDC](Auth%20OIDC.md)                                     | Login mit OpenID Connect Provider.                                 |
-| [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)               | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren. |
-| [Base User Role](Base%20User%20Role.md)                         | Gruppenberechtigungen mit Benutzer-Rollen verwalten.               |
-| [Home Background Image](Home%20Background%20Image.md)           | Den Odoo-Startbildschirm gestalten.                                |
-| [Impersonate](Impersonate.md)                                   | Schnelles Wechseln zwischen Benutzer-Accounts.                     |
-| [Odoo Microsoft Account](Odoo%20Microsoft%20Account.md)         | Login mit Microsoft-Account.                                       |
-| [Report QWeb PDF Watermark](Report%20QWeb%20PDF%20Watermark.md) | Wasserzeichen auf PDF-Berichte hinzufügen.                         |
-| [Show DB Name](Show%20DB%20Name.md)                             | Zeigt den Datenbanknamen oben rechts an.                           |
-| [Web Company Color](Web%20Company%20Color.md)                   | Farben des Odoo Backend Theme anpassen.                            |
-| [Web Theme Classic](Web%20Theme%20Classic.md)                   | Kontrast auf Benutzeroberfläche verbessern.                        |
+| Erweiterung                                                                               | Beschreibung                                                       |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [Auth Impersonate User](Auth%20Impersonate%20User.md)                                     | Mit einem anderen Benutzer einloggen.                              |
+| [Auth OAuth Keycloak](Auth%20OAuth%20Keycloak)                                            | Ermöglich Keycloak Integration mit Odoo OAuth.                     |
+| [Auth OIDC](Auth%20OIDC.md)                                                               | Login mit OpenID Connect Provider.                                 |
+| [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)                                         | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren. |
+| [Base User Role](Base%20User%20Role.md)                                                   | Gruppenberechtigungen mit Benutzer-Rollen verwalten.               |
+| [Home Background Image](Home%20Background%20Image.md)                                     | Den Odoo-Startbildschirm gestalten.                                |
+| [Impersonate](Impersonate.md)                                                             | Schnelles Wechseln zwischen Benutzer-Accounts.                     |
+| [Odoo Microsoft Account](Odoo%20Microsoft%20Account.md)                                   | Login mit Microsoft-Account.                                       |
+| [Report QWeb PDF Watermark](Report%20QWeb%20PDF%20Watermark.md)                           | Wasserzeichen auf PDF-Berichte hinzufügen.                         |
+| [Show DB Name](Show%20DB%20Name.md)                                                       | Zeigt den Datenbanknamen oben rechts an.                           |
+| [Web Company Color](Web%20Company%20Color.md)                                             | Farben des Odoo Backend Theme anpassen.                            |
+| [Web Enterprise Admin Expiration Panel](Web%20Enterprise%20Admin%20Expiration%20Panel.md) | Meldung Ablauf der Datenbank nur für Admins anzeigen.              |
+| [Web Theme Classic](Web%20Theme%20Classic.md)                                             | Kontrast auf Benutzeroberfläche verbessern.                        |
 
-## Entwicklung
+## Konfiguration
+
+### Unternehmensdaten eintragen
+
+Die Unternehmensdaten werden an vielen Stellen im System verwendet. Unter anderem für die Rechnung, für Angebote, für E-Mails und weiteres. Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Unternehmen* und wählen Sie *Update Info*. Füllen Sie bitte diese Daten aus und verwenden Sie ein Logo mit folgenden Details:
+
+* **Datenformat**: JPG oder PNG
+* **Grösse**: Empfehlung Breite 300 pixel
+
+Und füllen Sie mindestens diese Felder aus:
+
+* **Adresse**: Anschrift ihres Unternehmens
+* **Tax ID**: Die Steuernummer
+* **Unternehmens ID**: Das ist die Handelregister-Nummer ihres Unternehmen
+* **E-Mail**: Allgemeine Kontaktadresse
+* **Website**: Webauftritt des Unternehmen
+* **Währung**: Basis-Währung des Unternehmens
+
+## Technisch
 
 ### Entwicklermodus aktivieren
 

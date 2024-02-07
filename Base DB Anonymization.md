@@ -4,7 +4,7 @@ description: Inhalt von ausgewählten Datenbank-Felder anonmyisieren.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./settings
+prev: ./database
 ---
 # Base DB Anonymization
 ![icon_oms_box](attachments/icon_oms_box.png)

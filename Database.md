@@ -1,6 +1,6 @@
 ---
 title: Datenbank
-description: Odoo-Instanzen mit dem Datenbankmanager verwalten.
+description: Odoo Datenbanken verwalten.
 tags:
 - HowTo
 prev: ./
@@ -20,7 +20,6 @@ prev: ./
 | [Database Anonymization HR](Smile%20Anonymization%20HR.md)                                | HR-Datensätze in Backup anonymisieren.                  |
 | [Database Anonymize Partner](Smile%20Anonymize%20Partner.md)                              | Partner-Datensätze in Backup anonymisieren.             |
 | [Database Anonymize](Smile%20Anonymization.md)                                            | Datensätze in Backup anonymisieren.                     |
-| [Web Enterprise Admin Expiration Panel](Web%20Enterprise%20Admin%20Expiration%20Panel.md) | Meldung Ablauf der Datenbank nur für Admins anzeigen.   |
 
 ## Datenbank
 
@@ -134,7 +133,15 @@ Der Download-Vorgang kann abhängig von der Datenbankgrösse Zeit in Anspruch ne
 
 ## Lizenz
 
-### Odoo-Datenbank verlängern
+### Odoo Enterprise Abonnement aktivieren
+
+Nach dem Login erscheint die Meldung, dass die Odoo-Installation nicht aktiviert ist. 
+
+![](attachments/Intialisierung%20Odoo%20Enterprise%20aktivieren.png)
+
+Tragen Sie in diesem Dialog ihren Odoo Enterprise Abonnement Code ein.
+
+### Odoo Datenbank verlängern
 
 Wenn eine Datenbank abgelaufen ist, erscheint eine entsprechende Meldung. Diese ist aber nur symbolisch, mit der richtigen URL können Sie das Ablaufdatum der Odoo Datenbank verlängern. Am einfachsten ist es, wenn das Testsystem und das produktive System unter einer ähnlichen URL erreichbar sind.
 
