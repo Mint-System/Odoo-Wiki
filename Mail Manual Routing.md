@@ -4,7 +4,7 @@ description: Erlaubt Zuordnung von empfangenen E-Mails.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./settings
+prev: ./base
 ---
 # Mail Manual Routing
 ![](attachments/odoo_icon_mail_manual_routing.png)

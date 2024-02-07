@@ -4,7 +4,7 @@ description: Responsive Anzeige der Odoo-Oberfläche.
 tags:
 - HowTo
 - OCA
-prev: ./settings
+prev: ./base
 ---
 # Web Responsive
 ![icon_oca_app](attachments/icon_oca_app.png)

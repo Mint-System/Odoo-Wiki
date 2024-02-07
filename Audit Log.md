@@ -4,7 +4,7 @@ description: Operationen auf Daten loggen.
 tags:
 - HowTo
 - OCA
-prev: ./settings
+prev: ./base
 ---
 # Audit Log
 ![icon_oca_app](attachments/icon_oca_app.png)

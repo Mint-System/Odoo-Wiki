@@ -4,7 +4,7 @@ description: Limit für Python-Rekursionen erhöhen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./settings
+prev: ./base
 ---
 # Base Recursion Limit
 ![icon_oms_box](attachments/icon_oms_box.png)

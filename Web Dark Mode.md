@@ -1,10 +1,10 @@
 ---
 title: Web Dark Mode
-description: Dark mode für Weboberfläche.
+description: Dark mode für Web-Oberfläche.
 tags:
 - HowTo
 - OCA
-prev: ./settings
+prev: ./base
 ---
 # Web Dark Mode
 ![icon_oca_app](attachments/icon_oca_app.png)

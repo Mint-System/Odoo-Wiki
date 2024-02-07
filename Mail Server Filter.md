@@ -4,7 +4,7 @@ description: Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern
 tags:
 - HowTo
 - Drittanbieter
-prev: ./development
+prev: ./base
 ---
 # Mail Server Filter
 ![icon_oms_box](attachments/icon_oms_box.png)

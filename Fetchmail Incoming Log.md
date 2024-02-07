@@ -4,7 +4,7 @@ description: Loggt Informationen zu eingehenden E-Mails.
 tags:
 - HowTo
 - OCA
-prev: ./settings
+prev: ./base
 ---
 # Fetchmail Incoming Log
 ![icon_oca_app](attachments/icon_oca_app.png)

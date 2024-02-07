@@ -23,6 +23,8 @@ prev: ./
 | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [Base Country Sequence](Base%20Country%20Sequence.md)                                             | Länder-Liste manuell sortieren.                                             |
 | [Base Partner Sequence](Base%20Partner%20Sequence.md)                                             | Sequenz auf Kundenreferenz.                                                 |
+| [Base VAT Optional VIES](Base%20VAT%20Optional%20VIES.md)                                         | Resultat der VIES-Prüfung speichern.                                        |
+| [Base VAT Required VIES](Base%20VAT%20Required%20VIES.md)                                         | Die VIES-VAT-Prüfung als obligatorisch festlegen.                           |
 | [Contact Birthdate](Contact%20Birthdate.md)                                                       | Geburtstag bei Kontakten speichern für tolle Erinnerungen.                  |
 | [Partner Bank Code](Partner%20Bank%20Code.md)                                                     | Eindeutige Nummer auf Bank festlegen.                                       |
 | [Partner Color Codes](Partner%20Color%20Codes.md)                                                 | Kontakte mit Farben und Stichwörter markieren.                              |
@@ -40,9 +42,9 @@ prev: ./
 | [Partner Ref Sequence](Partner%20Ref%20Sequence.md)                                               | Automatische Vergabe der Kontakt-Referenz.                                  |
 | [Partner Secondary Email](Partner%20Secondary%20Email.md)                                         | Zweite E-Mail für alle Kontakte.                                            |
 | [Partner Secondary Name](Partner%20Secondary%20Name.md)                                           | Zweitname für Unternehmen.                                                  |
+| [Partner Type Membership](Partner%20Type%20Membership.md)                                         | Legen Sie einen Unternehmens-Kontakt als Kontaktperson Mitgliedschaft fest. |
 | [Partner Type Order](Partner%20Type%20Order.md)                                                   | Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.               |
 | [Partner Type Sale](Partner%20Type%20Sale.md)                                                     | Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.              |
-| [Partner Type Membership](Partner%20Type%20Membership.md)                                         | Legen Sie einen Unternehmens-Kontakt als Kontaktperson Mitgliedschaft fest. |
 
 ## Portal
 

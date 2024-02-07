@@ -4,7 +4,7 @@ description: Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen
 tags:
 - HowTo
 - Drittanbieter
-prev: ./settings
+prev: ./base
 ---
 # Web Editor Show Code
 ![icon_oms_box](attachments/icon_oms_box.png)

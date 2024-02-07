@@ -13,5 +13,8 @@
     "@vuepress/theme-default": "^2.0.0-rc.2",
     "sass-loader": "^14.0.0",
     "vuepress": "^2.0.0-rc.2"
+  },
+  "dependencies": {
+    "sharp": "^0.33.2"
   }
 }

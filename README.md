@@ -311,6 +311,12 @@ Partnerschaften mit Wiederverkäufer pflegen.
 
 Übersicht zur Schweizer Lokalisierung von Odoo.
 
+### [Server](Base.md)
+
+![icons_odoo_apps](attachments/icons_odoo_apps.png)
+
+Konfiguration des Odoo Server.
+
 ### [Spesen](HR%20Expense.md)
 
 ![icons_odoo_hr_expense](attachments/icons_odoo_hr_expense.png)
