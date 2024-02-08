@@ -282,7 +282,7 @@ Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätig
 
 ### Rechnung mit Abrechnungsinterval generieren
 
-Das ist eine einfach Lösung um wiederholgende Rechnung zu generieren. Mit dem zusätzlichen Feld `x_recurring_inverval` wird geprüft ob die Rechnung wieder fällig ist.
+Das ist eine einfach Lösung um wiederholende Rechnung zu generieren. Mit dem zusätzlichen Feld `x_recurring_inverval` wird geprüft ob die Rechnung wieder fällig ist.
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -343,6 +343,26 @@ for invoice in invoice_ids:
       env.cr.commit()
     
     # raise UserError([invoice.name, refs, invoice_date, last_date,  invoice_date <= last_date, add_month(invoice_date)])
+```
+
+### PDF-Datei von Kundenrechnungen vorbereiten
+
+Diese geplante Aktion erstellt die PDF-Dateien von Kundenrechnungen, die noch keinen Anhang haben.
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `PDF-Datei von Kundenrechnungen vorbereiten`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Tage\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+invoices = env['account.move'].search([('attachment_ids','=',False),('move_type','=','out_invoice')])
+invocies.action_invoice_print()
 ```
 
 ## Automatisierte Aktionen
