@@ -263,6 +263,21 @@ records.write({'tax_ids': False})
 
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
 
+### Anhang entfernen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Anhang entfernen`\
+Modell: `account.move`\
+Folgeaktion: `Python-Code ausführen`\
+Python-Code:
+
+```python
+records.attachment_ids.unlink()
+```
+
+Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+
 ## Geplante Aktionen
 
 ### Rechnung mit Abrechnungsinterval generieren

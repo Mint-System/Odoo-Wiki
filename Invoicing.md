@@ -182,7 +182,19 @@ Damit wird beim Aufruf der Aktion *Senden & Drucken* auf der Rechnung die Standa
 
 ## Berichte
 
+### PDF-Datei von Kundenrechnungen vorbereiten
+
+Gilt ab #Odoo16.
+
+Navigieren Sie nach *Rechnungsstellung > Kunden > Rechnungen*. Markieren Sie die entsprechenden Kundenrechnungen und wählen Sie *Aktion > Print QR invoices*. Nun erstellt Odoo die PDF-Dateien für die ausgewählten Rechnungen.
+
+::: tip
+Damit die PDF-Datei beim Versenden der Rechnung aus dem Anhang geladen wird, müssen Sie die Aktion [Bericht beim Drucken aus Anhang laden](Development%20Reports.md#Bericht%20beim%20Drucken%20aus%20Anhang%20laden) für den *Rechnungen*-Bericht aktivieren.
+:::
+
 ### Einzahlungsschein drucken
+
+Gilt bits #Odoo14.
 
 Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generierung von Einzahlungsscheinen enthalten. Damit Einzahlungsscheine erstellt werden können, müssen die folgenden Bedingungen erfüllt sein:
 
@@ -201,6 +213,8 @@ Damit Einzahlungsscheine für bereits erstellte Rechnungen generiert werden kön
 :::
 
 ### QR-Rechnung drucken
+
+Gilt bits #Odoo14.
 
 Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generierung von QR-Rechnungen enthalten. Damit Einzahlungsscheine erstellt werden können, müssen die folgenden Bedingungen erfüllt sein:
 
