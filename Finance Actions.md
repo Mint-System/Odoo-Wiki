@@ -231,7 +231,7 @@ Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
-Gilt bis #Odoo15 .
+Gilt bis #Odoo15.
 
 ```python
 for rec in records:
