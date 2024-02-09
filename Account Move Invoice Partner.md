@@ -19,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 ### Erweiterung konfigurieren
 
-Damit die Rechnungsadresse als Empfängeradresse für die E-Mail übernommen wird, muss auf der E-Mail-Vorlage der Eintrag im Feld *An (Partner)* angepasst werden. Zur Bearbeitung rufen Sie die entsprechenden E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > Vorlagen* auf. Setzen Sie im Tab *E-Mail Konfiguration* im Feld *An (Partner)* den Wert `${object.partner_invoice_id.id}` ein.
+Damit die Rechnungsadresse als Empfängeradresse für die E-Mail übernommen wird, muss auf der E-Mail-Vorlage der Eintrag im Feld *An (Partner)* angepasst werden. Zur Bearbeitung rufen Sie die entsprechenden E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > E-Mail-Vorlagen* auf. Setzen Sie im Tab *E-Mail Konfiguration* im Feld *An (Partner)* den Wert `${object.partner_invoice_id.id}` ein.
 
 ### Rechnungsadresse festlegen
 

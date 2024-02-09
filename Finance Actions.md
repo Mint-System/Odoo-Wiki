@@ -353,7 +353,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstelle
 
 Name der Aktion: `PDF-Datei von Kundenrechnungen vorbereiten`\
 Modell: `ir.actions.server`\
-Ausführen alle: `1` Tage\
+Ausführen alle: `1` Woche\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
@@ -361,8 +361,13 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-invoices = env['account.move'].search([('attachment_ids','=',False),('move_type','=','out_invoice')])
-invocies.action_invoice_print()
+invoices_report = env.ref('account.account_invoices')
+invoices = env['account.move'].search([('attachment_ids','=',False),('move_type','=','out_invoice'),('id','=',28)])
+
+log('Create pdf files for invoices: %s' % invoices)
+
+for invoice in invoices:
+  content, _content_type = env['ir.actions.report']._render_qweb_pdf(invoices_report, res_ids=[invoice.id])
 ```
 
 ## Automatisierte Aktionen

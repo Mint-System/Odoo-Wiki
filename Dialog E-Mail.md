@@ -35,7 +35,7 @@ Wenn Sie alle von Odoo verarbeiteten E-Mails anzeigen möchten, navigieren Sie n
 
 ### E-Mail-Vorlagen anzeigen
 
-Odoo verwaltet alle E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > Vorlagen*.
+Odoo verwaltet alle E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > E-Mail-Vorlagen*.
 
 ### E-Mail-Vorlage duplieren
 
@@ -81,7 +81,7 @@ Rufe Sie eine importierte E-Mail-Vorlage unter *Einstellungen > Technisch > Vorl
 
 ### Bericht als Anhang hinzufügen
 
-Wenn Sie beim Aufruf der Mail-Voralge einen Bericht als Hinzufügen möchten, rufen Sie die Einstellungen der Mail-Vorlage unter *Einstellungen > Technisch > Vorlagen > Vorlage auswählen* auf. Im Tab *Erweiterte Einstellungen* wählen Sie im Feld *Optionaler zu druckender und anzuhängender Report* den Bericht aus.
+Wenn Sie beim Aufruf der Mail-Vorlage einen Bericht als Hinzufügen möchten, rufen Sie die Einstellungen der Mail-Vorlage unter *Einstellungen > Technisch > Vorlagen > Vorlage auswählen* auf. Im Tab *Erweiterte Einstellungen* wählen Sie im Feld *Optionaler zu druckender und anzuhängender Report* den Bericht aus.
 
 ::: tip
 Im Feld *Report Dateiname* können Sie einen alternativen Dateinamen für den Anhang definieren.
@@ -89,7 +89,15 @@ Im Feld *Report Dateiname* können Sie einen alternativen Dateinamen für den An
 
 ### Mail-Server auf E-Mail-Vorlage festlegen
 
-Zeigen Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > E-mail > Vorlagen* an und öffen Sie den Tab *Erweiterte Einstellungen*. Im Feld *Postausgangsserver* wählen Sie den entsprechenden Mail-Server aus.
+Zeigen Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > E-Mail > E-Mail-Vorlagen* an und öffnen Sie den Tab *Einstellungen*. Im Feld *Postausgangsserver* wählen Sie den entsprechenden Mail-Server aus.
+
+### Absender-Adresse auf E-Mail-Vorlage festlegen
+
+Zeigen Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > E-Mail > E-Mail-Vorlagen* an und öffnen Sie den Tab *E-Mail-Konfiguration*. Im Feld *Von* geben Sie den Namen und die E-Mail-Adresse im Format `Name <alias@example.com>` ein.
+
+::: warning
+Stellen Sie sicher, dass der Postausgangsserver die *VON-Filterung* zulässt.
+:::
 
 ## Testen
 
@@ -143,7 +151,7 @@ Auf bestimmte Nachrichten habe nur der Author Zugriff. Kontaktieren Sie den Auth
 
 ### Löschung von E-Mails nach Versand verhindern 
 
-Abhängig von der Konfiguration der E-Mail-Vorlage löscht Odoo versendete E-Mails um Speicherplatz zu sparen. Um die Löschung zu verhindern, navigieren Sie nach *Einstellungen > Technisch > E-Mail-Voralgen*. Zeigen Sie eine Vorlage an und navigieren Sie zum Tab *Einstellungen*. Entfernen Sie die Option *Autom. Löschen*.
+Abhängig von der Konfiguration der E-Mail-Vorlage löscht Odoo versendete E-Mails um Speicherplatz zu sparen. Um die Löschung zu verhindern, navigieren Sie nach *Einstellungen > Technisch > E-Mail-Vorlage*. Zeigen Sie eine Vorlage an und navigieren Sie zum Tab *Einstellungen*. Entfernen Sie die Option *Autom. Löschen*.
 
 ## Empfang
 

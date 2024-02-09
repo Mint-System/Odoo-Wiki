@@ -18,7 +18,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.
 
 ### Erweiterung konfigurieren
 
-Damit die Bestelladresse als Empfängeradresse für die E-Mail übernommen wird, darf auf der E-Mail-Vorlage kein Eintrag im Feld *An (Partner)* sein. Zur Bearbeitung rufen Sie die entsprechenden E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > Vorlagen* auf. Entfernen Sie den hier markierten Eintrag:
+Damit die Bestelladresse als Empfängeradresse für die E-Mail übernommen wird, darf auf der E-Mail-Vorlage kein Eintrag im Feld *An (Partner)* sein. Zur Bearbeitung rufen Sie die entsprechenden E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > E-Mail-Vorlagen* auf. Entfernen Sie den hier markierten Eintrag:
 
 ![](attachments/Purchase%20Order%20Address%20Konfiguration.png)
 

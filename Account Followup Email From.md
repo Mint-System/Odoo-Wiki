@@ -16,6 +16,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.
 
 ## Verwendung
 
-### Versandadresse für E-Mail Mahnbericht definieren
+### Absenderadresse für E-Mail Mahnbericht definieren
 
 Mit dem Systemparameter `account_followup_email_from.email_from` können Sie eine alternative E-Mail-Adresse als Absender von Mahnberichten festlegen. Legen Sie als Wert die E-Mail-Adresse im  Format `invoicing@example.com` fest.
