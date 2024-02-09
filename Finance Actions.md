@@ -141,7 +141,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for record in records:  
-  record.button_undo_reconciliation()
+  record.action_undo_reconciliation()
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
