@@ -70,7 +70,7 @@ Die einzelenen Mehrwertsteuersätze können mittels *Prüfung* einzeln kontrolli
 
 ## Unterschiedliche MWST für In- und Ausland
 
-Alle anwendbaren MWST-Sätze werden in der Liste *Abrechnung > Konfiguration > Finanzen > Steuern* eingetragen. Unterschieden werden die Einträge für *Verkauf* und *Einkauf*.
+Alle anwendbaren MWST-Sätze werden in der Liste *Rechnungsstellung > Konfiguration > Finanzen > Steuern* eingetragen. Unterschieden werden die Einträge für *Verkauf* und *Einkauf*.
 
 Beispiel:
 
@@ -79,7 +79,7 @@ Beispiel:
 
 Auf den Produkten ist im Tab *Allgemeine Informationen* im Feld *Steuern (Verkauf)* der Standard MWST-Satz hinterlegt. Zum Beispiel *Zu zahlende MwSt. bei 7.7%*.
 
-In der Liste *Abrechnung > Konfiguration > Finanzen > Steuerzuordnung*  können Regeln hinterlegt werden.
+In der Liste *Rechnungsstellung > Konfiguration > Finanzen > Steuerzuordnung*  können Regeln hinterlegt werden.
 
 Beispiel:
 

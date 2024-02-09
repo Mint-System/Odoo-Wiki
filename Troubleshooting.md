@@ -57,7 +57,7 @@ Im Zahlungsvorgang von Rechnungen wurde eine Zahlungsmethode gelöscht.
 
 **Lösung**
 
-Aktualisieren Sie die App *Abrechnung* (`account`).
+Aktualisieren Sie die App *Rechnungsstellung* (`account`).
 
 ## Einstellungen
 

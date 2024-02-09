@@ -211,10 +211,13 @@ Notieren Sie sich die `id` der erstellten Ansicht. Diese Ansicht ruft die Ansich
 * **Modellname**: `ir.ui.view`
 * **Datensatz-ID**: `id` der erstellten Ansicht
 
+### Bericht beim Drucken aus Anhang laden
 
-### Option "Als Anhang speichern" deaktivieren
+Navigieren Sie nach *Einstellungen > Technisch > Berichtswesen > Berichte* und zeigen Sie den bericht an, den Sie nach dem ersten Druckvorgang aus dem Anhang des Dokuments laden möchten. Im Tab *Erweiterte Eigenschaften* aktivieren Sie Option *Erneut aus Anhang laden*.
 
-Verschiedene Standardberichte werden beim Erzeugen an das Dokument angehängt. Dies geschieht aufgrund der Option *Als Anhangsprefix speichern* auf dem Berichtsobjekt. Rufen Sie einen Bericht auf *Einstellungen > Technisch > Berichtswesen > Berichte* und entfernen Sie im Tab *Erweiterte Eigenschaften* den Eintrag im Feld *Als Anhangsprefix speichern*.
+### Option "Als Anhangspräfix speichern" deaktivieren
+
+Verschiedene Standardberichte werden beim Erzeugen an das Dokument angehängt. Dies geschieht aufgrund der Option *Als Anhangspräfix speichern* auf dem Berichts-Objekt. Rufen Sie einen Bericht unter *Einstellungen > Technisch > Berichtswesen > Berichte* auf und entfernen Sie im Tab *Erweiterte Eigenschaften* den Eintrag im Feld *Als Anhangspräfix speichern*.
 
 ### Dateinamen für Berichte festlegen
 

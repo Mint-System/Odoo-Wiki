@@ -4,7 +4,7 @@ description: Verwaltung von Datums-Bereichen zur Filterung von Daten.
 tags:
 - HowTo
 - OCA
-prev: ./settings
+prev: ./development
 ---
 # Date Range
 ![icon_oca_app](attachments/icon_oca_app.png)

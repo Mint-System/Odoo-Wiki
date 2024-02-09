@@ -32,13 +32,13 @@ Navigieren Sie nach *Einstellungen > Abrechnung > Overdue Invoice Reminder* und 
 
 ### Auswahl Ergebnis Zahlungserinnerung festlegen
 
-Navigieren Sie nach *Abrechnung > Konfiguration > Invoice Reminder Results*. Hier legen Sie Auswahl für mögliche Ergebnisse aus der Zahlungserinnerung fest.
+Navigieren Sie nach *Rechnungsstellung > Konfiguration > Invoice Reminder Results*. Hier legen Sie Auswahl für mögliche Ergebnisse aus der Zahlungserinnerung fest.
 
 ## Verwendung
 
 ### Assistent Zahlungserinnerung starten
 
-Der Versand der Zahlungserinnerung erfolgt über einen Assistenten. Den Assisten rufen Sie unter *Abrechnung > Kunden > Overdue Invoice Remind* auf. Filtern Sie nach Bedarf die Kunden im Feld *Customers* oder Verkäufer im Feld *Salesman*.
+Der Versand der Zahlungserinnerung erfolgt über einen Assistenten. Den Assisten rufen Sie unter *Rechnungsstellung > Kunden > Overdue Invoice Remind* auf. Filtern Sie nach Bedarf die Kunden im Feld *Customers* oder Verkäufer im Feld *Salesman*.
 
 Um den Vorgang zu starten aktivieren Sie die Option *I consider that payments are up-to-date*. Damit bestätigen Sie, dass die neusten Zahlungen importiert wurden. Klicken Sie anschliessend auf *Start*.
 
@@ -58,7 +58,7 @@ Wenn mehrere Rechnungen des gleichen Kontakts überfällig sind, werden diese im
 
 ### Status Zahlungserinnerung anzeigen
 
-Navigieren Sie nach *Abrechnung > Kunden > Rechnung* und zeigen Sie die Spalte *Overdue Reminder Count* an. Öffnen Sie eine Rechnung mit einem Wert von mindestes 1 und zeigen Sie den Tab *Overdue Reminder* an. Hier erhalten Sie die Angaben zu den versendeten Zahlungserinnerungen.
+Navigieren Sie nach *Rechnungsstellung > Kunden > Rechnung* und zeigen Sie die Spalte *Overdue Reminder Count* an. Öffnen Sie eine Rechnung mit einem Wert von mindestes 1 und zeigen Sie den Tab *Overdue Reminder* an. Hier erhalten Sie die Angaben zu den versendeten Zahlungserinnerungen.
 
 ### Resultat der Zahlungserinnerung festhalten
 
@@ -68,4 +68,4 @@ Wenn Sie den [Status Zahlungserinnerung anzeigen](#Status%20Zahlungserinnerung%2
 
 ### Assistent Zahlungserinnerung auf Rechnung starten
 
-Haben Sie eine überfällige Rechnung geöffnet *Abrechnung > Kunden > Rechnungen* so erscheint die Meldung *This customer invoice is overdue.* und dazu ein Link *Send an overdue reminder*. Klicken Sie auf den Link und Sie gelangen zum Aisstenten. Der Kunde wird als Filter für das Feld *Customers* übertragen.
+Haben Sie eine überfällige Rechnung geöffnet *Rechnungsstellung > Kunden > Rechnungen* so erscheint die Meldung *This customer invoice is overdue.* und dazu ein Link *Send an overdue reminder*. Klicken Sie auf den Link und Sie gelangen zum Aisstenten. Der Kunde wird als Filter für das Feld *Customers* übertragen.

@@ -4,7 +4,7 @@ description: Quick Create Option für Datenmodelle deaktivieren.
 tags:
 - HowTo
 - OCA
-prev: ./settings
+prev: ./base
 ---
 # Base Optional Quick Create
 ![icon_oca_app](attachments/icon_oca_app.png)

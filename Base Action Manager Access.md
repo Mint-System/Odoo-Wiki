@@ -4,7 +4,7 @@ description: "Zugriff auf Aktionen für Gruppe Administration / Zugriffsrechte."
 tags:
 - HowTo
 - Drittanbieter
-prev: ./settings
+prev: ./base
 ---
 # Base Action Manager Access
 ![icon_oms_box](attachments/icon_oms_box.png)

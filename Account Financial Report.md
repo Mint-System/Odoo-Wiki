@@ -19,7 +19,7 @@ Mit dieser Erweiterung erhalten Sie Zugriff auf neue Finanzberichte und Dialoge 
 
 ### Buchungen aus bestimmten Kontobereich anzeigen
 
-Navigieren Sie nach *Abrechnung > Berichtswesen > OCA Finanzberichte > Hauptbuch*. Es wird ein Dialog mit Filteroptionen angezeigt.
+Navigieren Sie nach *Rechnungsstellung > Berichtswesen > OCA Finanzberichte > Hauptbuch*. Es wird ein Dialog mit Filteroptionen angezeigt.
 
 ![](attachments/Account%20Financial%20Report%20Dialog.png)
 

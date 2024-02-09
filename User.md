@@ -1,11 +1,11 @@
 ---
-title: Persönliche Einstellungen
+title: Benutzer
 description: Einstellungen für ihren persönlichen Odoo-Benutzer.
 tags:
 - HowTo
 prev: ./
 ---
-# Persönliche Einstellungen
+# Benutzer
 ![icons_odoo_membership](attachments/icons_odoo_membership.png)
 
 {{ $frontmatter.description }}

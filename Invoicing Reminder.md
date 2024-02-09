@@ -1,11 +1,11 @@
 ---
-title: Abrechnung Mahnungen
+title: Rechnungsstellung Mahnungen
 description: Mahnberichte erstellen und verschicken.
 tags:
 - HowTo
 prev: ./invoicing
 ---
-# Abrechnung Mahnungen
+# Rechnungsstellung Mahnungen
 ![icons_odoo_account](attachments/icons_odoo_account.png)
 
 {{ $frontmatter.description }}
@@ -14,7 +14,7 @@ prev: ./invoicing
 
 ### Mahnstufe konfigurieren
 
-Navigieren Sie nach *Abrechnung > Konfiguration > Mahnstufen*. Hier können Sie bestehende Mahnstufen konfigurieren oder neue Erstellen. Entscheidend bei den Mahnstufen ist das Feld *Nach X bei fällig, tun Sie folgendes:*. Hier können Sie Anzahl Tage (+/-) für den Zeitabstand zur Mahnung erstellen.
+Navigieren Sie nach *Rechnungsstellung > Konfiguration > Mahnstufen*. Hier können Sie bestehende Mahnstufen konfigurieren oder neue Erstellen. Entscheidend bei den Mahnstufen ist das Feld *Nach X bei fällig, tun Sie folgendes:*. Hier können Sie Anzahl Tage (+/-) für den Zeitabstand zur Mahnung erstellen.
 
 ### Offene Rechnung als Nachrichtenanhang hinzufügen
 
@@ -32,7 +32,7 @@ Unbezahlte Rechnung, welche die Zahlungsfrist überschritten haben, können Sie 
 
 Anschliessend klicken Sie auf *Erledigen*. Damit wird die Rechnung in die nächste Mahnstufe versetzt und der Mahnstatus angepasst.
 
-![](attachments/Abrechnung%20Mahnungen%20Erledigt.png)
+![](attachments/Rechnungsstellung%20Mahnungen%20Erledigt.png)
 
 ### Text Mahnbericht anpassen
 

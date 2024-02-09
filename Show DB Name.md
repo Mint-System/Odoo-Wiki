@@ -4,7 +4,7 @@ description: Zeigt den Datenbanknamen oben rechts an.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./settings
+prev: ./base
 ---
 # Show DB Name
 ![icon_oms_box](attachments/icon_oms_box.png)

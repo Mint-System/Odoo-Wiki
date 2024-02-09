@@ -5,7 +5,7 @@ tags:
 - HowTo
 prev: ./development
 ---
-# Entwicklung Snippets
+# Entwicklung Website
 ![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 {{ $frontmatter.description }}

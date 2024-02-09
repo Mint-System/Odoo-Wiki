@@ -35,12 +35,6 @@ Die folgenden HowTos beschreiben die Basis-Funktionen von Odoo.
 
 Wiederkehrende Rechnungsstellung und Management von Abonnenten auf einfache Art und Weise.
 
-### [Abrechnung](Invoicing.md)
-
-![icons_odoo_account](attachments/icons_odoo_account.png)
-
-Online Rechnungsstellung leicht gemacht.
-
 ### [Abwesenheit](HR%20Holidays.md)
 
 ![icons_odoo_hr_holidays](attachments/icons_odoo_hr_holidays.png)
@@ -65,6 +59,12 @@ Neue Apps installieren und aktualisieren.
 
 Bieten Sie Ihren Kunden überall ausgezeichnete Dienstleistungen an.
 
+### [Benutzer](User.md)
+
+![icons_odoo_membership](attachments/icons_odoo_membership.png)
+
+Einstellungen für ihren persönlichen Odoo-Benutzer.
+
 ### [Bewertungen](HR%20Appraisal.md)
 
 ![icons_odoo_hr_appraisal](attachments/icons_odoo_hr_appraisal.png)
@@ -81,7 +81,7 @@ Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 
 ![icons_odoo_apps](attachments/icons_odoo_apps.png)
 
-Odoo-Instanzen mit dem Datenbankmanager verwalten.
+Odoo Datenbanken verwalten
 
 ### [Datenbereinigung](Data%20Cleaning.md)
 
@@ -115,7 +115,7 @@ Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands.
 
 ### [Einstellungen](Settings.md)
 
-![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
+![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 Odoo-Einstellungen aktivieren und konfigurieren.
 
@@ -154,18 +154,6 @@ Ihre Buchhaltung einfach und korrekt.
 ![icons_odoo_fleet](attachments/icons_odoo_fleet.png)
 
 Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträge.
-
-### [Initialisierung](Initialisation.md)
-
-![icons_odoo_survey](attachments/icons_odoo_survey.png)
-
-Richten Sie ihre Odoo-Umgebung ein.
-
-### [Installation](Installation.md)
-
-![icons_odoo_website_hr_recruitment](attachments/icons_odoo_website_hr_recruitment.png)
-
-Odoo installieren und konfigurieren.
 
 ### [IoT](IoT.md)
 
@@ -231,7 +219,7 @@ Mitglieder und Mitgliedschaften verwalten.
 
 ![icons_odoo_website_partner](attachments/icons_odoo_website_partner.png)
 
-Alles zur Navigation in Odoo.
+Navigation in der Benutzeroberfläche von Odoo.
 
 ### [Notizen](Note.md)
 
@@ -263,12 +251,6 @@ Personalbrechnungen schnell und einfach erstellen.
 
 Einstellungsprozess leicht gemacht.
 
-### [Persönliche Einstellungen](User.md)
-
-![icons_odoo_membership](attachments/icons_odoo_membership.png)
-
-Einstellungen für ihren persönlichen Odoo-Benutzer.
-
 ### [PLM](PLM.md)
 
 ![icons_odoo_mrp_plm](attachments/icons_odoo_mrp_plm.png)
@@ -299,6 +281,12 @@ Agiles Projektmanagement. Schön. Einfach. Open Source.
 
 Für moderne Hersteller.
 
+### [Rechnungsstellung](Invoicing.md)
+
+![icons_odoo_account](attachments/icons_odoo_account.png)
+
+Online Rechnungsstellung leicht gemacht.
+
 ### [Reseller](Reseller.md)
 
 ![icons_odoo_website_crm_partner_assign](attachments/icons_odoo_website_crm_partner_assign.png)
@@ -310,6 +298,12 @@ Partnerschaften mit Wiederverkäufer pflegen.
 ![icons_odoo_l10n_ch](attachments/icons_odoo_l10n_ch.png)
 
 Übersicht zur Schweizer Lokalisierung von Odoo.
+
+### [Server](Base.md)
+
+![icons_odoo_website_enterprise](attachments/icons_odoo_website_enterprise.png)
+
+Odoo installieren und konfigurieren.
 
 ### [Spesen](HR%20Expense.md)
 
@@ -334,12 +328,6 @@ Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.
 ![icons_odoo_survey](attachments/icons_odoo_survey.png)
 
 Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
-
-### [Upgrade](Upgrade.md)
-
-![icons_odoo_website_enterprise](attachments/icons_odoo_website_enterprise.png)
-
-Aktualisieren Sie ihre Odoo Enterprise Installation ohne Mehrkosten.
 
 ### [Verkauf](Sale.md)
 

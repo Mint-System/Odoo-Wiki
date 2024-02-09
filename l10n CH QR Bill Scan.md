@@ -31,7 +31,7 @@ Mit der Option *Auto-create Bank Account of Supplier* können Sie festlegen, ob 
 
 ### QR-Rechnung importieren
 
-Mit dieser Erweiterung können Sie PDF-Rechnungen mit einem QR-Code importieren und die enthaltenen Daten auslesen lassen. Rufen Sie dazu *Abrechnung > Lieferanten > Rechnung importieren* auf und laden Sie das PDF-Dokument hoch.
+Mit dieser Erweiterung können Sie PDF-Rechnungen mit einem QR-Code importieren und die enthaltenen Daten auslesen lassen. Rufen Sie dazu *Rechnungsstellung > Lieferanten > Rechnung importieren* auf und laden Sie das PDF-Dokument hoch.
 
 ![](attachments/Switzerland%20QR-bill%20scan%20Import.png)
 
@@ -48,7 +48,7 @@ Für jeden Lieferant muss eine Definition für den Rechnungsimport vorhanden sei
 
 ![](attachments/Switzerland%20QR-bill%20scan%20Fehler%20Rechnungsimport.png)
 
-Legen Sie für den Lieferant einen Eintrag unter *Abrechnung > Konfiguration > Rechnungen importieren* an.
+Legen Sie für den Lieferant einen Eintrag unter *Rechnungsstellung > Konfiguration > Rechnungen importieren* an.
 
 ![](attachments/Switzerland%20QR-bill%20scan%20Konfiguration%20Rechnungsimport.png)
 

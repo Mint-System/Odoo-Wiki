@@ -4,7 +4,7 @@ description: Service-Benutzer von Lizenzvertrag ausschliessen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./settings
+prev: ./base
 ---
 # Mail Service Users
 ![icon_oms_box](attachments/icon_oms_box.png)
