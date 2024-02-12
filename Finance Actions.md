@@ -278,6 +278,47 @@ records.attachment_ids.unlink()
 
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
 
+### Zahlung suchen und abgleichen
+
+Diese Aktion sucht anhand der Zahlungsreferenz der Rechnung eine Zahlung und gleich diese ab.
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Anhang entfernen`\
+Modell: `account.move`\
+Folgeaktion: `Python-Code ausführen`\
+Python-Code:
+
+```python
+moves_reconciled = []
+for move in records.filtered(lambda m: m.payment_state == 'not_paid'):
+  payment = env['account.payment'].search([('ref', '=', move.payment_reference)])
+  if payment:
+    move_line = move.line_ids.filtered(lambda l: l.name == move.payment_reference)[0]
+    payment_line = payment.line_ids.filtered(lambda l: l.account_id == move_line.account_id)[0]
+    if move_line and payment_line:
+      lines = move_line + payment_line
+      lines.reconcile()
+      moves_reconciled.append(move.name)
+  #   else:
+  #     raise UserError('No move lines found to reconcile for %s and %s' % (move_line, payment_line))
+  # else:
+  #   raise UserError('No payment found for %s with payment ref %s' % (move.name, move.payment_reference))
+
+notification = False
+if moves_reconciled:
+  action = {
+    'type': 'ir.actions.client',
+    'tag': 'display_notification',
+    'params': {
+      'message': 'These invoices have been reconciled: ' + ', '.join(moves_reconciled),
+      'sticky': True
+    }
+  }
+```
+
+Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+
 ## Geplante Aktionen
 
 ### Rechnung mit Abrechnungsinterval generieren
