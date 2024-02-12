@@ -124,7 +124,7 @@ Eine Liste von Mail-Provider und ob diese die *catchall* und *no-reply* E-Mail-A
 
 ### Bounce-Alias anpassen
 
-Wenn Odoo eine E-Mail erhält, dessen Empfänger-Adresse nicht mit dem Catchall-Alias übereinstimmt, versendet Odoo eine Nachricht. Der Absender dieser Nachricht verwendet den Bounce-Alias.
+In jeder versendeten E-Mail wird im Header `Return-Path` die Mail-Adresse für Retouren mitgeteilt. Diese setzt sich aus dem Bounce-Alias und der Mail-Domain zusammen, beispielsweise `bounce@example.com`.
 
 Falls Sie den Bounce-Alias ändern möchten, öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und passen den Wert für `mail.bounce.alias` an.
 
