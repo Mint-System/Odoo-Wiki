@@ -231,7 +231,7 @@ Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
-Gilt bis #Odoo15 .
+Gilt bis #Odoo15.
 
 ```python
 for rec in records:
@@ -274,6 +274,47 @@ Python-Code:
 
 ```python
 records.attachment_ids.unlink()
+```
+
+Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+
+### Zahlung suchen und abgleichen
+
+Diese Aktion sucht anhand der Zahlungsreferenz der Rechnung eine Zahlung und gleich diese ab.
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Anhang entfernen`\
+Modell: `account.move`\
+Folgeaktion: `Python-Code ausführen`\
+Python-Code:
+
+```python
+moves_reconciled = []
+for move in records.filtered(lambda m: m.payment_state == 'not_paid'):
+  payment = env['account.payment'].search([('ref', '=', move.payment_reference)])
+  if payment:
+    move_line = move.line_ids.filtered(lambda l: l.name == move.payment_reference)[0]
+    payment_line = payment.line_ids.filtered(lambda l: l.account_id == move_line.account_id)[0]
+    if move_line and payment_line:
+      lines = move_line + payment_line
+      lines.reconcile()
+      moves_reconciled.append(move.name)
+  #   else:
+  #     raise UserError('No move lines found to reconcile for %s and %s' % (move_line, payment_line))
+  # else:
+  #   raise UserError('No payment found for %s with payment ref %s' % (move.name, move.payment_reference))
+
+notification = False
+if moves_reconciled:
+  action = {
+    'type': 'ir.actions.client',
+    'tag': 'display_notification',
+    'params': {
+      'message': 'These invoices have been reconciled: ' + ', '.join(moves_reconciled),
+      'sticky': True
+    }
+  }
 ```
 
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
@@ -353,7 +394,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstelle
 
 Name der Aktion: `PDF-Datei von Kundenrechnungen vorbereiten`\
 Modell: `ir.actions.server`\
-Ausführen alle: `1` Tage\
+Ausführen alle: `1` Woche\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
@@ -361,8 +402,13 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-invoices = env['account.move'].search([('attachment_ids','=',False),('move_type','=','out_invoice')])
-invocies.action_invoice_print()
+invoices_report = env.ref('account.account_invoices')
+invoices = env['account.move'].search([('attachment_ids','=',False),('move_type','=','out_invoice'),('id','=',28)])
+
+log('Create pdf files for invoices: %s' % invoices)
+
+for invoice in invoices:
+  content, _content_type = env['ir.actions.report']._render_qweb_pdf(invoices_report, res_ids=[invoice.id])
 ```
 
 ## Automatisierte Aktionen

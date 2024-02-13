@@ -111,7 +111,7 @@ Für den automatischen Versand der Rechnung sind zusätzliche Konfigurationen n�
 
 ### Bericht in Bestätigungsmail festlegen
 
-Standardmässig versenden Odoo mit der Bestätigungsmail zur Bestellung eine Proformarechnung. Sie können auch das Angebot/Auftrag versenden. Öffnen Sie *Einstellungen > Technisch > E-Mail > Vorlagen* und zeigen Sie die die Vorlage *Sales Order: Confirmation Email* an. Im Tab *Erweiterte Einstellungen* können Sie den Bericht im Anhang festlegen.
+Standardmässig versenden Odoo mit der Bestätigungsmail zur Bestellung eine Proformarechnung. Sie können auch das Angebot/Auftrag versenden. Öffnen Sie *Einstellungen > Technisch > E-Mail > E-Mail-Vorlagen* und zeigen Sie die die Vorlage *Sales Order: Confirmation Email* an. Im Tab *Erweiterte Einstellungen* können Sie den Bericht im Anhang festlegen.
 
 ![](attachments/eCommerce%20Anhang%20Bestätigung.png)
 

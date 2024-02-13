@@ -47,7 +47,7 @@ Navivigieren Sie nach *Lager > Produkte > Produkte* und zeigen Sie ein Produkt a
 Es wird angeommen, dass Sie den gesamten Produktbestand von einem Lagerort zu einem anderen transferieren möchten.
 
 Dazu müssen Sie die [Verfügbare Menge anzeigen](#Verfügbare%20Menge%20anzeigen) und expotieren.\
-Dazu können Sie die Voralge [Bestand exportieren](Stock%20Data%20Management.md#Bestand%20exportieren) verwenden.
+Dazu können Sie die Vorlage [Bestand exportieren](Stock%20Data%20Management.md#Bestand%20exportieren) verwenden.
 
 Anschliessend müssen Sie eine [Inventur vorbereiten](#Inventur%20vorbereiten). Starten Sie die Inventur und importieren Sie die Bestandsliste 2 Mal.
 

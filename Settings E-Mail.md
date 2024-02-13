@@ -66,7 +66,7 @@ Unter *Einstellungen > Dialog > Externe E-Mail-Server* aktivieren Sie das Featur
 * **Verbindungssicherheit**: TLS
 * **Benutzername**: Mail-Adresse von Odoo Postfach
 * **Passwort**: Passwort des Odoo Postfach
-* **Aus Filter**: Mail-Adresse von Odoo Postfach (gilt ab #Odoo15)
+* **Von-Filter**: Mail-Adresse von Odoo Postfach oder Mail-Domain
 
 ::: tip
 Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladung, versendet Odoo die E-Mail im Namen des Unternehmens und verwendet dazu die E-Mail-Adresse aus den Unternehmenseinstellungen.
@@ -124,11 +124,11 @@ Eine Liste von Mail-Provider und ob diese die *catchall* und *no-reply* E-Mail-A
 
 ### Bounce-Alias anpassen
 
-Wenn Odoo eine E-Mail erhält, dessen Empfänger-Adresse nicht mit dem Catchall-Alias übereinstimmt, versendet Odoo eine Nachricht. Der Absender dieser Nachricht verwendet den Bounce-Alias.
+In jeder versendeten E-Mail wird im Header `Return-Path` die Mail-Adresse für Retouren mitgeteilt. Diese setzt sich aus dem Bounce-Alias und der Mail-Domain zusammen, beispielsweise `bounce@example.com`.
 
 Falls Sie den Bounce-Alias ändern möchten, öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und passen den Wert für `mail.bounce.alias` an.
 
-### Absender-Adresse überschreiben
+### Allgemeine Absender-Adresse festlegen
 
 Wenn Odoo eine E-Mail versendet, wird im E-Mail eine Von- und Antwort-Adresse hinterlegt. In den E-Mail-Kopfzeilen sieht das so aus:
 
@@ -163,7 +163,7 @@ In der E-Mail-Vorlage muss im Tab *E-Mail-Konfiguration* das Feld *Antwort an* g
 
 ### E-Mail nach Versand nicht löschen
 
-Damit E-Mail nach dem Versand nicht aus der Odoo-Datenbank und dem Postfach gelöscht wird, können Sie in den E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > Vorlagen > Vorlage auswählen > Tab Erweiterte Einstellungen* die Option *Autom. Löschen* deaktivieren.
+Damit E-Mail nach dem Versand nicht aus der Odoo-Datenbank und dem Postfach gelöscht wird, können Sie in den E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > E-Mail-Vorlagen > Vorlage auswählen > Tab Einstellungen* die Option *Autom. Löschen* deaktivieren.
 
 ## Testen
 
