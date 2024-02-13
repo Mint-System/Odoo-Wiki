@@ -179,3 +179,40 @@ for rec in records:
   if unsubscribe_ids:
     rec.message_unsubscribe(unsubscribe_ids.ids)
 ```
+
+### Angebot bestätigen
+
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+
+Name der Aktion: `Angebot bestätigen`\
+Modell: `sale.order`\
+Auslöser: Beim Aktualisieren\
+Trigger-Felder: `x_as4import`\
+Abgrenzung vor Aktualisierung: `[("x_as4import", "!=", True)]`\
+Anzuwenden auf: `[("x_as4import", "=", True)]`\
+Python Code:
+
+```python
+records.action_confirm()
+records._compute_amounts()
+```
+
+### Rechnung erstellen
+
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+
+Name der Aktion: `Rechnung erstellen`\
+Modell: `sale.order`\
+Auslöser: Beim Aktualisieren\
+Trigger-Felder: `x_as4import`\
+Abgrenzung vor Aktualisierung: `[("invoice_status", "!=", "invoiced")]`\
+Anzuwenden auf: `["&", ("x_as4import", "=", True), ("invoice_status", "=", "to invoice")]`\
+Python Code:
+
+```python
+records._create_invoices()
+for invoice in records.invoice_ids:
+  if invoice.state != 'posted':
+    invoice.action_post()
+records._compute_invoice_status()
+```
