@@ -24,7 +24,7 @@ Ist diese Erweiterung installiert, werden vor dem Versenden einer Nachricht alle
 
 Ab #Odoo16.
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und aktivieren Sie die Option *Eigener Kontakt Ignorieren*. Damit werden vor dem Versand einer Nachricht alle Abonnenten ausser des eigenen Benutzer entfernt. 
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und aktivieren Sie die Option *Eigener Benutzer ignorieren*. Damit werden vor dem Versand einer Nachricht alle Abonnenten ausser des eigenen Benutzer entfernt. 
 
 Bis #Odoo15.
 
@@ -34,7 +34,7 @@ Wenn Sie den [Systemparameter](Development.md#Systemparameter%20anlegen) mit Sch
 
 Ab #Odoo16.
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und aktivieren Sie die Option *Automatisch Abonnieren*. Damit werden die Empfänger nach dem Versand der Nachricht als Abonnenten hinzugefügt.
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und aktivieren Sie die Option *Empfänger automatisch abonnieren*. Damit werden die Empfänger nach dem Versand der Nachricht als Abonnenten hinzugefügt.
 
 Bis #Odoo15.
 
@@ -44,7 +44,7 @@ Wenn Sie möchten, dass die Empfänger der Nachricht nach dem Versenden der Nach
 
 Ab #Odoo16.
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und aktivieren Sie die Option *Nicht Abonnieren*. Damit wird verhindert, dass der eigene Benutzer nach dem Versenden einer Nachricht als Abonnent hinzugefügt wird.
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und aktivieren Sie die Option *Eigener Bentuzer nicht abonnieren*. Damit wird verhindert, dass der eigene Benutzer nach dem Versenden einer Nachricht als Abonnent hinzugefügt wird.
 
 Bis #Odoo15.
 
