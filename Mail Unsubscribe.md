@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/16.0/mail_unsu
 
 ## Beschreibung
 
-Ist diese Erweiterung installiert, werden vor dem Versenden einer Nachricht alle Follower auf dem Dokument entfernt. Damit ist sichergestellt, dass nur die ausgewählten Empfänger die Nachricht erhalten.
+Ist diese Erweiterung installiert, werden vor dem Versenden einer Nachricht alle Follower auf dem Dokument entfernt. Damit ist sichergestellt, dass nur ausgewählte Empfänger die Nachricht erhalten.
 
 ## Konfiguration
 
@@ -24,7 +24,7 @@ Ist diese Erweiterung installiert, werden vor dem Versenden einer Nachricht alle
 
 Ab #Odoo16.
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und aktivieren Sie die Option *Ignore Current Partner*. Damit werden vor dem Versand einer Nachricht alle Abonnenten ausser des aktuellen Benutzer entfernt. 
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und aktivieren Sie die Option *Eigener Kontakt Ignorieren*. Damit werden vor dem Versand einer Nachricht alle Abonnenten ausser des eigenen Benutzer entfernt. 
 
 Bis #Odoo15.
 
@@ -34,7 +34,7 @@ Wenn Sie den [Systemparameter](Development.md#Systemparameter%20anlegen) mit Sch
 
 Ab #Odoo16.
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und aktivieren Sie die Option *Mail Post Autofollow*. Damit werden die Empfänger der Nachricht nach dem Versenden der Nachricht als Abonnenten hinzugefügt.
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und aktivieren Sie die Option *Automatisch Abonnieren*. Damit werden die Empfänger nach dem Versand der Nachricht als Abonnenten hinzugefügt.
 
 Bis #Odoo15.
 
@@ -44,12 +44,14 @@ Wenn Sie möchten, dass die Empfänger der Nachricht nach dem Versenden der Nach
 
 Ab #Odoo16.
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und aktivieren Sie die Option *Mail Create Nosubscribe*. Damit wird verhindert, dass der eigene Benutzer nach dem Versenden einer Nachricht als Abonnent hinzugefügt wird.
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und aktivieren Sie die Option *Nicht Abonnieren*. Damit wird verhindert, dass der eigene Benutzer nach dem Versenden einer Nachricht als Abonnent hinzugefügt wird.
 
 Bis #Odoo15.
 
 Wenn Sie möchten, dass der eigene Benutzer nach dem Versenden einer Nachricht nicht als Abonnent hinzugefügt wird, legen Sie einen Systemparameter mit Schlüssel `mail_unsubscribe.mail_create_nosubscribe` und Wert `True` an. 
 
 ### Entfernen von Abonnenten für Datenmodell deaktivieren
+
+Bis #Odoo15.
 
 Wenn Sie für bestimmte Dokumente verhindern möchten, dass die Abonnenten vor dem Versenden einer Nachricht entfernt werden, navigieren Sie nach *Einstellungen > Technisch > Modelle* und suchen das entsprechende Datenmodell. Entfernen Sie die Markierung bei *Unsubscribe before Message Post*.

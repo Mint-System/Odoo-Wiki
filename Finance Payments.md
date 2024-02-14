@@ -52,7 +52,7 @@ Angenommen Sie haben Stammdaten oder Kontoangaben der Lieferanten angepasst und 
 ![](attachments/Finanzen%20Zahlungen%20Datei%20herunterladen.png)
 
 ::: warning
-Falls Sie beim Neugenerieren der Zahlung einen Fehler erhalten, müssen Sie die Zahlungen zurücksetzen.
+Falls Sie beim Neu generieren der Zahlung einen Fehler erhalten, müssen Sie die Zahlungen zurücksetzen.
 
 ![](attachments/Finanzen%20Zahlung%20gesendet%20Fehler.png)
 :::
