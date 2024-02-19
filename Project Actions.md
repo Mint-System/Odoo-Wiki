@@ -29,7 +29,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 # Settings
-parent_menu_id = 218
+parent_menu_id = 865
 lang = 'de_CH'
 
 # Get all projects
