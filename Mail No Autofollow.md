@@ -4,7 +4,7 @@ description: Beim Erstellen von Nachrichten erfolgt keine automatische Abonnieru
 tags:
 - HowTo
 - Drittanbieter
-prev: ./discuss
+prev: ./dialog
 ---
 # Mail No Autofollow
 ![icon_oms_box](attachments/icon_oms_box.png)

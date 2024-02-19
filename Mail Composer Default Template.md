@@ -4,7 +4,7 @@ description: Standardvorlage für Mail-Dialog festlegen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./discuss
+prev: ./dialog
 ---
 # Mail Composer Default Template
 ![icon_oms_box](attachments/icon_oms_box.png)

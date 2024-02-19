@@ -3,7 +3,7 @@ title: Dialog Aktivitäten
 description: Arbeitsplanung mit Odoo Aktivitäten.
 tags:
 - HowTo
-prev: ./discuss
+prev: ./dialog
 ---
 # Dialog Aktivitäten
 ![icons_odoo_mail](attachments/icons_odoo_mail.png)

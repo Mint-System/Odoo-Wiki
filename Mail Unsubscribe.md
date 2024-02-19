@@ -4,7 +4,7 @@ description: Automatische Abmeldung der Follower vor dem Versand einer Nachricht
 tags:
 - HowTo
 - Drittanbieter
-prev: ./discuss
+prev: ./dialog
 ---
 # Mail Unsubscribe
 ![icon_oms_box](attachments/icon_oms_box.png)

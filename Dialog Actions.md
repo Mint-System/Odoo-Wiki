@@ -3,7 +3,7 @@ title: Dialog Aktionen
 description: Arbeitsflüsse für Dialog automatisieren.
 tags:
 - HowTo
-prev: ./discuss
+prev: ./dialog
 ---
 # Dialog Aktionen
 ![icons_odoo_mail](attachments/icons_odoo_mail.png)

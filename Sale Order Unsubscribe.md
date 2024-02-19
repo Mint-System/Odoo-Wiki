@@ -4,7 +4,7 @@ description: Alle Abonnenten nach Bestätigung des Angebots entfernen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./discuss
+prev: ./dialog
 ---
 # Sale Order Unsubscribe
 ![icon_oms_box](attachments/icon_oms_box.png)

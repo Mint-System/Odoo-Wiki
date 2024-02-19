@@ -4,7 +4,7 @@ description: Alle Abonnenten nach Buchung eines Buchungssatzes entfernen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./discuss
+prev: ./dialog
 ---
 # Account Move Unsubscribe
 ![icon_oms_box](attachments/icon_oms_box.png)

@@ -4,7 +4,7 @@ description: Automatisches Abonnieren deaktiveren.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./discuss
+prev: ./dialog
 ---
 # Mail Thread Context
 ![icon_oms_box](attachments/icon_oms_box.png)
