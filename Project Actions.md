@@ -30,10 +30,10 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 ```python
 # Settings
 parent_menu_id = 218
+lang = 'de_CH'
 
 # Get all projects
-project_ids = env['project.project'].search([])
-
+project_ids = env['project.project'].with_context(lang=lang).search([])
 new_menus = []
 for project in project_ids:
 
@@ -43,11 +43,11 @@ for project in project_ids:
     name += ' (' + project.key + ')'
 
   # Check if action entry exists
-  action = env['ir.actions.act_window'].search([('name', '=', name)], limit=1)
+  action = env['ir.actions.act_window'].with_context(lang=lang).search([('name', '=', name)], limit=1)
  
-  # Create action if it does not exist otherwise update
+  # Create action if it does not exist otherwise update the action
   if not action:
-    action = env['ir.actions.act_window'].create({
+    action = env['ir.actions.act_window'].with_context(lang=lang).create({
       'name': name,
       'res_model': 'project.task',
       'view_mode': 'kanban,tree,form,calendar,pivot,graph,gantt,activity,map',
@@ -55,7 +55,7 @@ for project in project_ids:
       'context': "{ 'default_project_id': %s, 'search_default_my_tasks': True }" % (project.id)
     })
   else:
-    action.update({
+    action.with_context(lang=lang).update({
       'name': name,
       'res_model': 'project.task',
       'view_mode': 'kanban,tree,form,calendar,pivot,graph,gantt,activity,map',
@@ -67,11 +67,11 @@ for project in project_ids:
   action_ref = 'ir.actions.act_window,' + str(action.id)
   
   # Check if menu entry exists
-  menu = env['ir.ui.menu'].search([('name', '=', name)], limit=1)
+  menu = env['ir.ui.menu'].with_context(lang=lang).search([('name', '=', name)], limit=1)
 
   # Create menu if does not exist otherwise update
   if not menu:
-    menu = env['ir.ui.menu'].create({
+    menu = env['ir.ui.menu'].with_context(lang=lang).create({
       'name': name,
       'action': action_ref,
       'parent_id': parent_menu_id,
@@ -79,16 +79,16 @@ for project in project_ids:
     })
     new_menus.append(menu.name)
   else:
-    menu.update({
+    menu.with_context(lang=lang).update({
       'name': name,
       'action': action_ref,
       'parent_id': parent_menu_id,
       'sequence': project.id,
     })
 
-# Get all archived projects
-project_ids = env['project.project'].search([('active','=',False)])
 
+# Get all archived projects
+project_ids = env['project.project'].with_context(lang=lang).search([('active','=',False)])
 removed_menus = []
 for project in project_ids:
 
@@ -98,16 +98,17 @@ for project in project_ids:
     name += ' (' + project.key + ')'
 
   # Check if menu entry exists and remove it if found
-  menu = env['ir.ui.menu'].search([('name', '=', name)], limit=1)
+  menu = env['ir.ui.menu'].with_context(lang=lang).search([('name', '=', name)], limit=1)
   if menu:
     removed_menus.append(menu.name)
     menu.unlink()
 
     
   # Check if action entry exists and remove it if found
-  action = env['ir.actions.act_window'].search([('name', '=', name)], limit=1)
+  action = env['ir.actions.act_window'].with_context(lang=lang).search([('name', '=', name)], limit=1)
   if action:
     action.unlink()
+
 
 if new_menus:
   log('Created new menus: %s' % (', '.join(new_menus)))
