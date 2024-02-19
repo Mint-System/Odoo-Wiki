@@ -45,6 +45,6 @@ Wenn Sie eine Nachricht versendet haben, wird der Mailgun-Status im Chatter ange
 
 Klicken Sie auf das Icon um Details zu sehen.
 
-### Getrackte E-Mails anzeigen
+### Verfolgte E-Mails anzeigen
 
-Navigieren Sie nach *Einstellungen > Technisch > E-Mails > Tracking mails*. Hier erhalten Sie eine Liste aller getrackter E-Mails.
+Navigieren Sie nach *Einstellungen > Technisch > E-Mails > Tracking mails*. Hier erhalten Sie eine Liste aller verfolgten E-Mails.
