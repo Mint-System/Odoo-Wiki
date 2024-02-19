@@ -39,7 +39,7 @@ Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und wäh
 
 ### Mailgun-Status von Nachricht anzeigen
 
-Wenn Sie eine Nachricht versendet haben, wird der Mailgun-Status im Chatter angzeigt:
+Wenn Sie eine Nachricht versendet haben, wird der Mailgun-Status im Chatter angezeigt:
 
 ![](attachments/Mail%20Tracking%20Mailgun%20Status.png)
 
