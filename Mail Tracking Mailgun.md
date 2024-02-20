@@ -23,7 +23,7 @@ Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und akti
 Wenn Sie einen Fehler erhalten und ihre Mailgun-Domain in der EU liegt, müssen Sie zusätzlich diese Informationen eingeben:
 
 * **Mailgun domain**: Mailgun-Domain `mg.example.com`
-* **Mailgun API endpoint**:  EU API-Endpunkt`https://api.eu.mailgun.net`
+* **Mailgun API endpoint**:  EU API-Endpunkt `https://api.eu.mailgun.net`
 
 Wenn die Aktion erfolgreich war, können Sie *Webhooks*-Seite in der Maigun App neu laden.
 
@@ -45,6 +45,10 @@ Wenn Sie eine Nachricht versendet haben, wird der Mailgun-Status im Chatter ange
 
 Klicken Sie auf das Icon um Details zu sehen.
 
-### Verfolgte E-Mails anzeigen
+### Status von verfolgten E-Mails anzeigen
 
-Navigieren Sie nach *Einstellungen > Technisch > E-Mails > Tracking mails*. Hier erhalten Sie eine Liste aller verfolgten E-Mails.
+Navigieren Sie nach *Einstellungen > Technisch > E-Mails > Tracking mails*. Hier erhalten Sie eine Liste der Statis aller verfolgten E-Mails.
+
+### Events von von verfolgten E-Mails anzeigen
+
+Navigieren Sie nach *Einstellungen > Technisch > E-Mails > Verfolge Vorkommnisse*. Hier erhalten Sie eine Liste der Events aller verfolgten E-Mails.
