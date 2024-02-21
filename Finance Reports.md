@@ -75,12 +75,8 @@ Eine Buchungszeile enthählt immer noch nur ein Konto. Der Buchungssatz kann meh
 Klicken Sie auf *Finanzen > Berichtswesen > Steuerbericht*.
 
 :::tip
-Wenn Sie die Ausgaben des Steuerbericht prüfen, müssen Sie beachten, dass die Buchungszeilen gefiltert werden müssen, damit der korrekte Nettobetrag erscheint.
-
-![](attachments/Finanzen%20Berichte%20Steuerbericht%20Prüfen.gif)
-:::
-
 Der Steuerbericht wird in regelmässigen Abständen generiert. Die Einstellung dazu finden Sie unter *Einstellungen > Finanzen > Steuern > Periodizität der Steuererklärung*.
+:::
 
 ### Steuerbericht nach Steuersatz anzeigen
 
