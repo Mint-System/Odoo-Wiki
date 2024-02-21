@@ -70,25 +70,25 @@ Eine Buchungszeile enthählt immer noch nur ein Konto. Der Buchungssatz kann meh
 
 ## Mehrwertsteuer
 
-### Umsatzsteuerbericht anzeigen
+### Steuerbericht anzeigen
 
-Klicken Sie auf *Finanzen > Berichtswesen > Prüfungsberichte > Umstatzsteuerbericht*.
+Klicken Sie auf *Finanzen > Berichtswesen > Steuerbericht*.
 
 :::tip
-Wenn Sie die Ausgaben des Umsatzsteuerberichts prüfen, müssen Sie beachten, dass die Buchungszeilen gefiltert werden müssen, damit der korrekte Nettobetrag erscheint.
+Wenn Sie die Ausgaben des Steuerbericht prüfen, müssen Sie beachten, dass die Buchungszeilen gefiltert werden müssen, damit der korrekte Nettobetrag erscheint.
 
-![Finanzen Berichte Umsatzsteuerbericht Prüfen](attachments/Finanzen%20Berichte%20Umsatzsteuerbericht%20Prüfen.gif)
+![](attachments/Finanzen%20Berichte%20Steuerbericht%20Prüfen.gif)
 :::
 
-Der Umsatzsteuerbericht wird in regelmässigen Abständen generiert. Die Einstellung dazu finden Sie unter *Einstellungen > Finanzen > Steuern > regelmässige Steuernrückzahlungen*.
+Der Steuerbericht wird in regelmässigen Abständen generiert. Die Einstellung dazu finden Sie unter *Einstellungen > Finanzen > Steuern > Periodizität der Steuererklärung*.
 
-### Umsatzsteuerbericht nach Steuersatz anzeigen
+### Steuerbericht nach Steuersatz anzeigen
 
-Klicken Sie auf *Finanzen > Berichtswesen > Umstatzsteuerbericht* und anschliessend wählen Sie den Filter *Bericht: Gruppieren nach: Steuern > Konto*.
+Klicken Sie auf *Finanzen > Berichtswesen > Steuerbericht* und anschliessend wählen Sie den Filter *Bericht: Gruppieren nach: Steuern > Konto*.
 
-### Abgeschlossene Umsatzsteuerberichte anzeigen
+### Abgeschlossene Steuerbericht anzeigen
 
-Zeigen Sie *Finanzen > Finanzen > Buchungssätze* an und wählen Sie *Gruppieren nach > Benutzerdefinierte Gruppe hinzufügen* und wählen Sie *Tax Closing End Date* aus. Nun werden alle Buchungssätze mit einem Mehrwersteuer Bericht angezeigt. Wählen Sie einen Buchungssatz aus und klicken Sie auf den Smart-Link *Umsatzsteuerbericht*.
+Zeigen Sie *Finanzen > Finanzen > Buchungssätze* an und wählen Sie *Gruppieren nach > Benutzerdefinierte Gruppe hinzufügen* und wählen Sie *Tax Closing End Date* aus. Nun werden alle Buchungssätze mit einem Steuerbericht angezeigt. Wählen Sie einen Buchungssatz aus und klicken Sie auf den Smart-Link *Steuerbericht*.
 
 ### Versteuerbare Buchungssätze anzeigen
 
@@ -96,11 +96,11 @@ Zeigen Sie *Finanzen > Finanzen > Buchungssätze* an und filtern Sie wie folgt u
 
 ![](attachments/Finanzen%20Berichte%20Steuerbare%20Buchungssätze.png)
 
-### Buchungszeilen aus Umsatzsteuerbericht anzeigen
+### Buchungszeilen aus Steuerbericht anzeigen
 
-Möchten Sie die Buchungszeilen des Umsatzsteuerberichts anzeigen, öffnen Sie *Finanzen > Finanzen > Buchungszeilen* und filtern die Einträge wie folgt:
+Möchten Sie die Buchungszeilen des Steuerbericht anzeigen, öffnen Sie *Finanzen > Finanzen > Buchungszeilen* und filtern die Einträge wie folgt:
 
-![](attachments/Finanzen%20Berichte%20Umsatzsteuer%20Buchungszeilen.png)
+![](attachments/Finanzen%20Berichte%20Steuerbericht%20Buchungszeilen.png)
 
 ### One-Stop-Shop Import und Verkauf anzeigen
 

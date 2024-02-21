@@ -24,7 +24,7 @@ Beispiel: Sie haben ein Architekturbüro und haben Arbeiten im Wert von CHF 1’
 Der Kunde bezahlt die Rechnung in 30 Tagen nach Rechnungserhalt. Als Unternehmer müssen Sie die MwSt von CHF 77 vorfinanzieren und nach Abschluss des laufenden Quartals, also Anfang Juli, der Steuerverwaltung abliefern.
 :::
 
-## Abrechnung nach vereinahmten Entgelten
+## Abrechnung nach vereinnahmten Entgelten
 
 Die MwSt-Abrechnung nach vereinnahmten Entgelten muss schriftlich bei der eidg. Steuerverwaltung beantragt werden. So ist die MwSt erst fällig, nachdem Sie die Zahlung des Kunden erhalten haben.
 

@@ -8,7 +8,7 @@ prev: ./best-practice
 
 # OCA Finanzbuchhaltung
 
-Mit Odoo Enterprise erhalten Sie Zugriff auf die Lokalisierungen der Finanzbuchhaltung. Das beinhaltet vor allem die Finanzberichte Bilanz, Erfolgsrechnung und Umsatzsteuerbericht. Wenn Sie auf Odoo Enterprise verzichten möchten und dennoch eine Schweizer Finanzbuchhaltung mit Odoo machen möchten, müssen Sie ausgewählte OCA-Module installieren.
+Mit Odoo Enterprise erhalten Sie Zugriff auf die Lokalisierungen der Finanzbuchhaltung. Das beinhaltet vor allem die Finanzberichte Bilanz, Erfolgsrechnung und Steuerbericht. Wenn Sie auf Odoo Enterprise verzichten möchten und dennoch eine Schweizer Finanzbuchhaltung mit Odoo machen möchten, müssen Sie ausgewählte OCA-Module installieren.
 
 ## Erweiterungen
 
