@@ -173,11 +173,11 @@ Damit die Lohnabrechnung als Anhang hinzufugefügt wird, können Sie die E-Mail-
 
 Wenn Sie die Lohnabrechnung manuell versenden möchten, deaktivieren Sie die geplante Aktion und für die Aktion [Lohnabrechnung versenden](Personalabrechnung%20Aktionen.md#Lohnabrechnung%20versenden) hinzu.
 
-## Abgleich
+## Abstimmung
 
-### Lohnbuchungen abgleichen
+### Lohnbuchungen abstimmen
 
-Standardmässig werden die auszuzahlenden Löhne auf dem *Lohndurchlaufkonto* und dem Konto *Ausstehende Zahlungen* verbucht. Haben Sie für einen Lohnlauf eine Zahlung erfasst, diese ins eBanking importiert und als Beleg zum Abgleich in Odoo importiert, müssen Sie den Beleg mit dem Konto *Ausstehende Zahlungen* abgleichen.
+Standardmässig werden die auszuzahlenden Löhne auf dem *Lohndurchlaufkonto* und dem Konto *Ausstehende Zahlungen* verbucht. Haben Sie für einen Lohnlauf eine Zahlung erfasst, diese ins eBanking importiert und als Beleg zur Abstimmung in Odoo importiert, müssen Sie den Beleg mit dem Konto *Ausstehende Zahlungen* abgleichen.
 
 ## Auswertung
 

@@ -42,4 +42,4 @@ Wir empfehlen Ihnen diesen Ansatz nicht zu verfolgen. Dies aus folgenden Gründe
 * Der Gewinn- und Verlust-Vortrag setzt die Verwendung von bestimmten Konten voraus
 * Die Schweizer Finanzberichte von Odoo enthalten Filter für Konten im Bereich 1000, 2000 und 9000
 
-Eine Migration der gesamten Buchhaltung würde bedeuten, dass Sie die Logik der Finanzberichte, Mehrwertsteuer und Bankjournale anpassen müssen.
+Eine Migration der gesamten Buchhaltung würde bedeuten, dass Sie die Logik der Finanzberichte, Mehrwertsteuer und Bank-Journale anpassen müssen.

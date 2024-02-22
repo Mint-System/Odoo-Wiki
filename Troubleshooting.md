@@ -300,7 +300,7 @@ More details here: https://curl.se/docs/sslcerts.html
 
 **Problem**
 
-Bei der Bestätigung eines Abgleichs erscheint dieser Fehler:
+Bei der Bestätigung einer Abstimmung erscheint dieser Fehler:
 
 ```
 Fehler: You can only reconcile posted entries.

@@ -148,9 +148,9 @@ Mit dem Datumsfilter können Sie die Verbindlichkeiten zu einem bestimmten Zeitp
 
 ## Kontoauszug
 
-### Bericht Bank-Abgleich anzeigen
+### Bericht Bank-Abstimmung anzeigen
 
-Klicken Sie auf *Finanzen* und wählen Sie ein Bank-Journal aus. Klicken Sie auf das Kontext-Menü und wählen Sie *Offne-Posten Ausgleichsbericht*.
+Klicken Sie auf *Finanzen* und wählen Sie ein Bank-Journal aus. Klicken Sie auf das Kontext-Menü und wählen Sie *Abstimmungsbericht*.
 
 ![](attachments/Finanzen%20Berichte%20Ausgleichsbericht.png)
 
@@ -160,7 +160,7 @@ Oberhalb des Berichts kann diese Meldung erscheinen:
 
 ![](attachments/Finanzen%20Berichte%20Balance%20Off.png)
 
-Klicken Sie *journal items* um die Buchungen anzuzeigen.
+Klicken Sie *ungebuchte Journalbuchungen* um die Buchungen anzuzeigen.
 
 ### Beleg drucken
 

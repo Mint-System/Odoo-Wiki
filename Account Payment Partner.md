@@ -22,10 +22,10 @@ Navigieren Sie nach *Finanzen > Konfiguration > Zahlungsmethoden* und zeigen Sie
 
 Navigieren Sie nach *Finanzen > Konfiguration > Zahlungsmodi* und erstellen Sie einen neuen Eintrag:
 
-* **Name**: Name des Bankjournals
+* **Name**: Name des Bank-Journals
 * **Zahlungsmethode**: *Manuell (inbound)*
 * **Verbindung zum Bankkonto**: fixed
-* **Fixed Bank Journal**: Name des Bankjournals
+* **Fixed Bank Journal**: Name des Bank-Journals
 
 ## Verwendung
 

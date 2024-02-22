@@ -18,15 +18,15 @@ Um die Abstimmung für Buchungszeilen eines bestimmten Kontos zu erlauben, navig
 
 ## Bankauszug
 
-Bankauszug und Kontoauszug werden hier synonym verwendet.
+Bank-Beleg und Kontoauszug werden hier synonym verwendet.
 
-### Bankauszug manuell erfassen
+### Bank-Belege manuell erfassen
 
-Navigieren Sie nach *Finanzen* und klicken Sie auf das Bankjournal. Erfassen Sie einen neuen Bankauszug:
+Navigieren Sie nach *Finanzen* und klicken Sie auf das Bank-Journal. Erfassen Sie einen neuen Bankauszug:
 
 * **Referenz**: Eindeutige Kennzeichnung des Belegs
-* **Anfangssaldo**: Banksaldo vor Begin der Transkationen
-* **Endsaldo**: Banksaldo nach Ende der Transkationen
+* **Anfangssaldo**: Banksaldo vor Begin der Transaktionen
+* **Endsaldo**: Banksaldo nach Ende der Transaktionen
 * **Transaktionen**: Erfassen Sie die Banktransaktionen mit Datum, Buchungstext, Partner und Betrag
 
 Bestätigen Sie den Bankauszug.
@@ -45,17 +45,17 @@ Klicken Sie auf *Herunterladen* und Sie erhalten eine Datei, die Sie in Odoo imp
 
 ### Kontoauszug importieren
 
-Zeigen Sie das Dashboard von *Finanzen* an. Wählen Sie *Import* unter dem Name des Bankjournals. Laden Sie im Dialog die Datei mit den Kontoauszügen hoch.
+Zeigen Sie das Dashboard von *Finanzen* an. Wählen Sie *Import* unter dem Name des Bank-Journal. Laden Sie im Dialog die Datei mit den Kontoauszügen hoch.
 
 ![](attachments/Finanzen%20Kontoauszug%20importieren.png)
 
-Anschliessen wird die Datei validiert und Ansicht zum Abgleichen der Konto-Bewegungen wird angezeigt.
+Anschliessend wird die Datei validiert und die Ansicht zur Abstimmung der Konto-Bewegungen angezeigt.
 
-### Bankauszug anzeigen
+### Bank-Belege anzeigen
 
-Zeigen Sie die App *Finanzen* an. Klicken Sie rechts vom Bank-Journals auf das Kontext-Menü und wählen Sie *Ansicht > Belege*. Hier werden die importierten Bankauszüge anzeigt.
+Zeigen Sie die App *Finanzen* an. Klicken Sie rechts vom Bank-Journals auf das Kontext-Menü und wählen Sie *Ansicht > Belege*. Hier werden die importierten Kontoauszüge anzeigt.
 
-### Bankauszug entfernen
+### Bank-Beleg entfernen
 
 Zeigen Sie die App *Finanzen* an. Klicken Sie rechts vom Bank-Journals auf das Kontext-Menü und wählen Sie *Ansicht > Belege*. Markieren Sie den Bankauszug und wählen Sie *Aktion > Löschen*.
 
@@ -91,20 +91,20 @@ Navigieren Sie nach *Finanzen > Konfiguration > Ausgleichsmodelle* und erstellen
 
 ![](attachments/Finanzen%20Abstimmung%20Rundungsdifferenz.png)
 
-Dieses Ausgleichsmodell können im Abgleichsvorgang mit einem Knopfdruck anwenden:
+Dieses Ausgleichsmodell können Sie in der Abstimmung mit einem Knopfdruck anwenden:
 
 ![](attachments/Finanzen%20Abstimmung%20Ausgleichsmodell%20anwenden.png)
 
-### Buchungssatz von Vorgang aus Bankauszug anzeigen
+### Buchungssatz von Vorgang aus Bank-Beleg anzeigen
 
 Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge*. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Öffnen Sie den Vorgang und wählen Sie *Buchungssatz*.
 
-### Währungsbetrag in Bankauszug korrigieren
+### Währungsbetrag in Bank-Beleg korrigieren
 
 Zeigen Sie das Dashboard *Finanzen* an und wählen Sie für ein Bank-Journal *Kontext-Menü > Vorgänge*. Suchen Sie hier nach der Zeile mit dem falschen Währungsbetrag und öffnen Sie diese Zeile. Bearbeiten Sie den Betrag.
 
 ### Abstimmung zurücksetzen
 
-Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge*. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Wechseln Sie über *Ansicht* in den Dialog für den Abgleich und wählen Sie *Zurücksetzen*.
+Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge*. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Wechseln Sie über *Ansicht* in den Dialog für die Abstimmung und wählen Sie *Zurücksetzen*.
 
 ![](attachments/Abstimmung%20zurücksetzen.gif)

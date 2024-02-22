@@ -58,7 +58,7 @@ Zeigen Sie *Finanzen > Konfiguration > Finanzen > Währungen* an wählen Sie ein
 
 Registieren Sie als erstes den Bank-Transfer via *Finanzen > Bank > Kontext-Menü > Interne Überweisungen*. Stellen Sie sicher, dass im Dialog *Is Internal Transfer* markiert ist. Geben Sie als *Bankkonto des Empfängers* das Bankkonto mit der Zielwährung an. Bestätigen Sie den Transfer. Sie können diese Transfer als Zahlung via Stapelbuchungen verarbeiten lassen.
 
-Der Abgleich erfolgt anschliessend doppelt. Einmal der Zahlungsausgang auf dem Ursprungskonto und einmal der Zahlungseingang auf dem Zielkonto.
+Die Abstimmung erfolgt anschliessend doppelt. Einmal der Zahlungsausgang auf dem Ursprungskonto und einmal der Zahlungseingang auf dem Zielkonto.
 
 ## Buchhaltung
 

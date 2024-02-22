@@ -37,7 +37,7 @@ Damit Sie Kreditkarten-Zahlungen erfassen können, braucht es eine neue [Zahlung
 
 Wenn Sie eine Rechnung mit der Kreditkarte bezahlt haben, rufen Sie die entsprechende Rechnung auf und [erfassen Sie eine Zahlung](Invoicing.md#Zahlung%20erfassen). Wählen Sie *Kreditkarte* als *Zahlungsmethode*.
 
-Die Rechnung wird als *In Zahlung* markiert und erwartet den Abgleich der Zahlung.
+Die Rechnung wird als *In Zahlung* markiert und erwartet die Abstimmung der Zahlung.
 
 ## Kreditkartenzahlung ohne Rechnung erfassen
 

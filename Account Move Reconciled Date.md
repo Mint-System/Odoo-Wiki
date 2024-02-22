@@ -1,6 +1,6 @@
 ---
 title: Sale Move Reconciled Date
-description: Zeigt für eine Rechnung das definitive Abgleichsdatum an.
+description: Zeigt für eine Rechnung das definitive Abstimmungsdatum an.
 tags:
 - HowTo
 - Drittanbieter
@@ -16,8 +16,8 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 ## Verwendung
 
-### Definitives Abgleichsdatum anzeigen
+### Definitives Abstimmungsdatum anzeigen
 
-Mit dieser Erweiterung wird in der Liste der Rechnung zusätzlich zum Zahlungsstatus das definitive Abgleichsdatum angezeigt. Navigieren Sie nach *Finanzen > Lieferanten > Rechnungen* und blenden Sie das Feld *Reconcile Date* ein.
+Mit dieser Erweiterung wird in der Liste der Rechnung zusätzlich zum Zahlungsstatus das definitive Abstimmungsdatum angezeigt. Navigieren Sie nach *Finanzen > Lieferanten > Rechnungen* und blenden Sie das Feld *Reconcile Date* ein.
 
 ![Sale Move Reconciled Date](attachments/Sale%20Move%20Reconciled%20Date.png)

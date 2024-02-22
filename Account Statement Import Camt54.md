@@ -17,7 +17,7 @@ Repository: <https://github.com/OCA/bank-statement-import/tree/15.0/account_stat
 
 ### Bank-Datenübertragung festlegen
 
-Navigieren Sie nach *Finanzen > Konfiguration > Journale* und zeigen Sie das Bankjournal an. Im Tab *Buchungssätze* wählen Sie im Feld *Bank Datenübertragung* die entsprechende Option aus.
+Navigieren Sie nach *Finanzen > Konfiguration > Journale* und zeigen Sie das Bank-Jrounal an. Im Tab *Buchungssätze* wählen Sie im Feld *Bank Datenübertragung* die entsprechende Option aus.
 
 ## Verwendung
 
@@ -31,14 +31,14 @@ Navigieren Sie nach *Finanzen* wählen beim abzugleichenden Konto *Import Auszü
 
 Klicken Sie auf *Import* und anschliessend *Buchen*. Nun stehen die Belege zum Abgleich bereit. Wählen Sie *Abgleichen* und starten Sie den Vorgang.
 
-### Camt54 importieren und abgleichen
+### Camt54 importieren und abstimmen
 
 Gilt ab #Odoo15.
 
 Zeigen Sie dei App *Finanzen* an und wählen Sie *Import Statement (OCA)*. Im Dialog wählen Sie die XML-Datei oder die Zip-Datei im Camt54-Format aus. Klicken Sie auf *Import and View*. Wählen Sie *Buchen* und anschliessend *Abstimmung*.
 
 ::: tip
-Die IBAN des Bankauszugs muss mit der IBAN des Bankjournals übereinstimmen.
+Die IBAN des Bankauszugs muss mit der IBAN des Bank-Journals übereinstimmen.
 :::
 
 ## Troubleshooting
