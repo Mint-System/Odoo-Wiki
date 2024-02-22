@@ -98,13 +98,13 @@ Den abgebrochenen Buchungssatz können Sie mit *Zurücksetzen* wieder in den Ent
 
 ### Buchungsnummer neu sequenzieren
 
-Die Buchungssnummer oder Bezeichnung einer Buchung kann innerhalb eines Journals neu sequenziert werden. Wählen Sie *Finanzen > Finanzen > Buchungssätze* und filtern Sie die Buchungssätze, die Sie neu sequenzieren möchten. Markieren Sie die Einträge und wählen Sie *Aktion > Resequence*.
+Die Buchungssnummer oder Bezeichnung einer Buchung kann innerhalb eines Journals neu sequenziert werden. Wählen Sie *Finanzen > Finanzen > Buchungssätze* und filtern Sie die Buchungssätze, die Sie neu sequenzieren möchten. Markieren Sie die Einträge und wählen Sie *Aktion > Resequenzierung*.
 
-![](attachments/Finance%20Buchhaltung%20Resequence.png)
+![](attachments/Finance%20Buchhaltung%20Resequenzierung.png)
 
 Im Dialog geben Sie die Start-Sequenz ein. Die Start-Sequenz kann beispielweise `BNK1/2023/06/0349` sein. Odoo nummeriert die ausgewählten Buchungen abhängig vom jeweiligen Monat und der Anzahl Buchungen innerhalb des Monats.
 
-![](attachments/Finance%20Buchhaltung%20Resequence%20Dialog.png)
+![](attachments/Finance%20Buchhaltung%20Resequenzierung%20Dialog.png)
 
 Führen Sie die Sequenzierung mit *Bestätigen* aus.
 
