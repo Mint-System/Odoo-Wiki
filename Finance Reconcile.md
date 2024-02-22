@@ -63,6 +63,16 @@ Zeigen Sie die App *Finanzen* an. Klicken Sie rechts vom Bank-Journals auf das K
 Bereits abgestimmte Positionen müssen zurückgesetzt werden.
 :::
 
+### Ausgleichsmodell erstellen
+
+Navigieren Sie nach *Finanzen > Konfiguration > Ausgleichsmodelle* und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel zur Rundungsdifferenz:
+
+![](attachments/Finanzen%20Abstimmung%20Rundungsdifferenz.png)
+
+Dieses Ausgleichsmodell können Sie in der Abstimmung mit einem Knopfdruck anwenden:
+
+![](attachments/Finanzen%20Abstimmung%20Ausgleichsmodell%20anwenden.png)
+
 ## Abstimmung
 
 ### Abstimmung durchführen
@@ -85,15 +95,17 @@ Navigieren Sie nach *Finanzen > Finanzen > Überfällige Forderungen* und erweit
 
 Zeigen Sie die Buchungszeilen *Finanzen > Finanzen > Buchungszeilen* an. Filtern Sie die Buchungszeilen nach nicht abgestimmt und markieren Sie die Buchungszeilen zur Abstimmung. Wählen Sie *Aktion > Abstimmen*. Wählen Sie die Gegenbuchung aus.
 
-### Ausgleichsmodell erstellen
+### Bank-Beleg bestätigen
 
-Navigieren Sie nach *Finanzen > Konfiguration > Ausgleichsmodelle* und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel zur Rundungsdifferenz:
+Gilt bis #Odoo15.
 
-![](attachments/Finanzen%20Abstimmung%20Rundungsdifferenz.png)
+Wenn alle Vorgänge eines Bank-Belegs abgestimmt sind, können Sie den Bank-Beleg bestätigen. Zeigen Sie den Beleg an und wählen Sie die Aktion *Bestätigen*. Odoo prüft die Vorgänge und generiert einen Bericht analog des Kontoauszug.
 
-Dieses Ausgleichsmodell können Sie in der Abstimmung mit einem Knopfdruck anwenden:
+### Abstimmung zurücksetzen
 
-![](attachments/Finanzen%20Abstimmung%20Ausgleichsmodell%20anwenden.png)
+Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge*. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Wechseln Sie über *Ansicht* in den Dialog für die Abstimmung und wählen Sie *Zurücksetzen*.
+
+![](attachments/Abstimmung%20zurücksetzen.gif)
 
 ### Buchungssatz von Vorgang aus Bank-Beleg anzeigen
 
@@ -103,8 +115,3 @@ Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journal
 
 Zeigen Sie das Dashboard *Finanzen* an und wählen Sie für ein Bank-Journal *Kontext-Menü > Vorgänge*. Suchen Sie hier nach der Zeile mit dem falschen Währungsbetrag und öffnen Sie diese Zeile. Bearbeiten Sie den Betrag.
 
-### Abstimmung zurücksetzen
-
-Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge*. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Wechseln Sie über *Ansicht* in den Dialog für die Abstimmung und wählen Sie *Zurücksetzen*.
-
-![](attachments/Abstimmung%20zurücksetzen.gif)
