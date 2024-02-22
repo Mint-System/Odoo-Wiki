@@ -24,4 +24,4 @@ Navigieren Sie nach *Wartung > Konfiguration > Inventarkategorie* und öffnen Si
 
 ### Produkt und Inventar verküpfen
 
-Mit dieser Erweiterung können Sie ein Produkt erstellen und ein Inventar verknüpfen. Navigieren Sie nach *Lager > Produkte > Produkte* und erstellen Sie ein neues Produkt. Wählen Sie die Option *Can be Maintenance* aus. Erstellen Sie ein neues Inventaur und wählen Sie eine Inventarkategorie, die mit einer Produktkategorie verknüpft wurde. Im Feld *Product* wählen Sie nun das vorher erstellte Produkt.
+Mit dieser Erweiterung können Sie ein Produkt erstellen und ein Inventar verknüpfen. Navigieren Sie nach *Lager > Produkte > Produkte* und erstellen Sie ein neues Produkt. Wählen Sie die Option *Can be Maintenance* aus. Erstellen Sie ein neues Inventar und wählen Sie eine Inventarkategorie, die mit einer Produktkategorie verknüpft wurde. Im Feld *Product* wählen Sie nun das vorher erstellte Produkt.
