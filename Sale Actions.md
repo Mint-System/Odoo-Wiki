@@ -47,7 +47,23 @@ for rec in records:
   rec.update({'is_downpayment': True })
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+### Auf Angebot setzen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Auf Angebot setzen`\
+Modell: `sale.order`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for rec in records:
+  rec.with_context({'disable_cancel_warning': True}).action_cancel()
+  rec.action_draft()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 ### Angebot bestätigen
 
