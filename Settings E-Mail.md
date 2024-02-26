@@ -10,86 +10,6 @@ prev: ./settings
 
 {{ $frontmatter.description }}
 
-## Empfang
-
-### Eingehender Mail-Server konfigurieren
-
-Damit Odoo Mails empfangen und verarbeiten kann, muss ein eingehender Mail-Server konfiguriert werden.
-
-Unter *Einstellungen > Dialog > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Neu* um eine Verbindung zu einem Mail-Account einzurichten. Dazu ein Beispiel mit Infomaniak:
-
-* **Beschreibung**: Infomaniak Incoming
-* **Servertyp**: IMAP Server
-* **Servername**: `mail.infomaniak.com`
-* **Port**: 993
-* **SSL/TLS**: Option aktivieren
-* **Benutzername**: Mail-Adresse des Odoo Postfach
-* **Passwort**: Passwort des Odoo Postfach
-
-### Eingehender Mail-Server Office 365 konfigurieren
-
-Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen:
-
-* **Beschreibung**: Office 365 Incoming
-* **Outlook**: Option markieren
-* **Benutzername**: Mail-Adresse des Odoo Postfach
-
-Und anschliessen die Aktion [Outlook OAuth-Verbindung einrichten](Settings%20OAuth.md#Outlook%20OAuth-Verbindung%20einrichten) ausführen.
-
-::: warning
-Das verwendete Outlook-Postfach darf keine Shared Mailbox sein. Der Benutzer und Postfach müssen lizenziert sein.
-:::
-
-### E-Mail Aliase anzeigen
-
-Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase*. Hier sehen Sie alle die von Odoo registrierten Aliase und verknüpften Dokumente.
-
-::: tip
-Der Empfänger der eingehenden E-Mails werden mit der Liste der Aliase verglichen. Wenn das E-Mail keine Antwort auf einen bestehenden Chatter-Thread ist, wird die Aktion des registrierten Aliases ausgelöst.
-:::
-
-### E-Mail Alias erstellen
-
-Sie können für eine Ressource, beispielsweise Kundendienst Team, mehrere Alias haben. Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase* und zeigen Sie einen bestehenden Alias an. Wählen Sie *Aktion > Duplizieren* und passen Sie die Adresse des Alias an. 
-
-## Versand
-
-### Ausgehender Mail-Server konfigurieren
-
-Damit Odoo Mail verschicken kann, muss ein ausgehender Mail-Server konfiguriert werden.
-
-Unter *Einstellungen > Dialog > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Ausgehender Mail-Server*. Klicken Sie auf *Neu* um eine Verbindung zu einem Mail-Account einzurichten. Dazu ein Beispiel für Infomaniak:
-
-* **Beschreibung**: Infomaniak Outgoing
-* **SMTP Server**: `mail.infomaniak.com`
-* **SMTP Port**: 587
-* **Verbindungssicherheit**: TLS
-* **Benutzername**: Mail-Adresse von Odoo Postfach
-* **Passwort**: Passwort des Odoo Postfach
-* **Von-Filter**: Mail-Adresse von Odoo Postfach oder Mail-Domain
-
-::: tip
-Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladung, versendet Odoo die E-Mail im Namen des Unternehmens und verwendet dazu die E-Mail-Adresse aus den Unternehmenseinstellungen.
-:::
-
-### Ausgehender Mail-Server Office 365 konfigurieren
-
-Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen:
-
-* **Beschreibung**: Office 365 Outgoing
-* **Outlook**: Option markieren
-* **Benutzername**: Mail-Adresse des Odoo Postfach
-
-Und anschliessen die Aktion [Outlook OAuth-Verbindung einrichten](Settings%20OAuth.md#Outlook%20OAuth-Verbindung%20einrichten) ausführen.
-
-::: warning
-Das verwendete Outlook-Postfach darf keine Shared Mailbox sein. Der Benutzer und Postfach müssen lizenziert sein.
-:::
-
-::: warning
-Die Relay-Funktion von Odoo funktioniert mit Office 365 nicht. Sie müssen eine feste Absender-Adresse gemäss [Absender-Adresse überschreiben](#Absender-Adresse%20überschreiben) wählen.
-:::
-
 ## Konfiguration
 
 ### E-Mail-Domain festlegen
@@ -101,14 +21,6 @@ Navigieren Sie nach *Einstellungen > Dialog* und aktivieren Sie die Option *Benu
 Gilt ab #odoo17.
 
 Navigieren Sie nach *Einstellungen* und klicken Sie bei *Unternehmen* auf *Info aktualisieren*. Im Feld *E-Mail-Domain* geben Sie ihre Domain ein, beispielsweise `example.com`. Odoo generiert die zum Versand benötigten Systemparameter.
-
-### Aktion für eingehende nicht zuordbare E-Mails konfigurieren
-
-Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server* und zeigen Sie einen aktiven Eintrag an. Im Feld *Einen neuen Datensatz erzeugen* können Sie ein Datenmodell auswählen. Wenn Odoo eine E-Mail verarbeitet und dieses nicht einem laufenden Dialog zugeordnet werden kann, erstellt Odoo einen Datensatz im ausgewählten Datenmodell.
-
-::: tip
-Als ausgewähltes Datenmodell empfehlen wir *Kanal* oder *Notiz*. 
-:::
 
 ### Catchall-Alias anpassen
 
@@ -154,6 +66,98 @@ Reply-To: "My Company" <catchall@example.com>
 
 ::: warning
 Abhängig vom Mail-Provider darf die Absender-Adresse nicht von der Adresse des Postfachs abweichen und die sogenannten *Senden als*-Freigaben müssen explizit konfiguriert werden. 
+:::
+
+## Empfang
+
+### Eingehender Mail-Server konfigurieren
+
+Damit Odoo Mails empfangen und verarbeiten kann, muss ein eingehender Mail-Server konfiguriert werden.
+
+Unter *Einstellungen > Dialog > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Eingehender Mail-Server*. Klicken Sie auf *Neu* um eine Verbindung zu einem Mail-Account einzurichten. Dazu ein Beispiel mit Infomaniak:
+
+* **Beschreibung**: Infomaniak Incoming
+* **Servertyp**: IMAP Server
+* **Servername**: `mail.infomaniak.com`
+* **Port**: 993
+* **SSL/TLS**: Option aktivieren
+* **Benutzername**: Mail-Adresse des Odoo Postfach
+* **Passwort**: Passwort des Odoo Postfach
+
+### Eingehender Mail-Server Office 365 konfigurieren
+
+Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen:
+
+* **Beschreibung**: Office 365 Incoming
+* **Outlook**: Option markieren
+* **Benutzername**: Mail-Adresse des Odoo Postfach
+
+Und anschliessen die Aktion [Outlook OAuth-Verbindung einrichten](Settings%20OAuth.md#Outlook%20OAuth-Verbindung%20einrichten) ausführen.
+
+::: warning
+Das verwendete Outlook-Postfach darf keine Shared Mailbox sein. Der Benutzer und Postfach müssen lizenziert sein.
+:::
+
+## Versand
+
+### Ausgehender Mail-Server konfigurieren
+
+Damit Odoo Mail verschicken kann, muss ein ausgehender Mail-Server konfiguriert werden.
+
+Unter *Einstellungen > Dialog > Externe E-Mail-Server* aktivieren Sie das Feature, wenn noch nicht erledigt und wählen *Ausgehender Mail-Server*. Klicken Sie auf *Neu* um eine Verbindung zu einem Mail-Account einzurichten. Dazu ein Beispiel für Infomaniak:
+
+* **Beschreibung**: Infomaniak Outgoing
+* **SMTP Server**: `mail.infomaniak.com`
+* **SMTP Port**: 587
+* **Verbindungssicherheit**: TLS
+* **Benutzername**: Mail-Adresse von Odoo Postfach
+* **Passwort**: Passwort des Odoo Postfach
+* **Von-Filter**: Mail-Adresse von Odoo Postfach oder Mail-Domain
+
+::: tip
+Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladung, versendet Odoo die E-Mail im Namen des Unternehmens und verwendet dazu die E-Mail-Adresse aus den Unternehmenseinstellungen.
+:::
+
+## Alias
+
+### E-Mail Aliase anzeigen
+
+Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase*. Hier sehen Sie alle die von Odoo registrierten Aliase und verknüpften Dokumente.
+
+::: tip
+Der Empfänger der eingehenden E-Mails werden mit der Liste der Aliase verglichen. Wenn das E-Mail keine Antwort auf einen bestehenden Chatter-Thread ist, wird die Aktion des registrierten Aliases ausgelöst.
+:::
+
+### E-Mail Alias erstellen
+
+Sie können für eine Ressource, beispielsweise Kundendienst Team, mehrere Alias haben. Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase* und zeigen Sie einen bestehenden Alias an. Wählen Sie *Aktion > Duplizieren* und passen Sie die Adresse des Alias an. 
+
+### Ausgehender Mail-Server Office 365 konfigurieren
+
+Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen:
+
+* **Beschreibung**: Office 365 Outgoing
+* **Outlook**: Option markieren
+* **Benutzername**: Mail-Adresse des Odoo Postfach
+
+Und anschliessen die Aktion [Outlook OAuth-Verbindung einrichten](Settings%20OAuth.md#Outlook%20OAuth-Verbindung%20einrichten) ausführen.
+
+::: warning
+Das verwendete Outlook-Postfach darf keine Shared Mailbox sein. Der Benutzer und Postfach müssen lizenziert sein.
+:::
+
+::: warning
+Die Relay-Funktion von Odoo funktioniert mit Office 365 nicht. Sie müssen eine feste Absender-Adresse gemäss [Absender-Adresse überschreiben](#Absender-Adresse%20überschreiben) wählen.
+:::
+
+## Erweitert
+
+### Aktion für eingehende nicht zuordbare E-Mails konfigurieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server* und zeigen Sie einen aktiven Eintrag an. Im Feld *Einen neuen Datensatz erzeugen* können Sie ein Datenmodell auswählen. Wenn Odoo eine E-Mail verarbeitet und dieses nicht einem laufenden Dialog zugeordnet werden kann, erstellt Odoo einen Datensatz im ausgewählten Datenmodell.
+
+::: tip
+Als ausgewähltes Datenmodell empfehlen wir *Kanal* oder *Notiz*. 
 :::
 
 ### Antwort-Adresse mit Konfiguration von E-Mail-Vorlage überschreiben
