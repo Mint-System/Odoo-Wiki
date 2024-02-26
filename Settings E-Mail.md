@@ -94,6 +94,10 @@ Die Relay-Funktion von Odoo funktioniert mit Office 365 nicht. Sie müssen eine 
 
 ### E-Mail-Domain festlegen
 
+Gilt bis #Odoo16.
+
+Navigieren Sie nach *Einstellungen > Dialog* und aktivieren Sie die Option *Benutzerdefinierte E-Mail-Server*. Geben Sie im Feld *Alias-Domain* die E-Mail-Domain ein.
+
 Gilt ab #odoo17.
 
 Navigieren Sie nach *Einstellungen* und klicken Sie bei *Unternehmen* auf *Info aktualisieren*. Im Feld *E-Mail-Domain* geben Sie ihre Domain ein, beispielsweise `example.com`. Odoo generiert die zum Versand benötigten Systemparameter.
