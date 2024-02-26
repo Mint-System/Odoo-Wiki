@@ -126,7 +126,7 @@ Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20ko
 * **Outlook**: Option markieren
 * **Benutzername**: Mail-Adresse des Odoo Postfach
 
-Und anschliessen die Aktion [Outlook OAuth-Verbindung einrichten](Settings%20OAuth.md#Outlook%20OAuth-Verbindung%20einrichten) ausführen.
+Und anschliessend die Aktion [Outlook OAuth-Verbindung einrichten](Settings%20OAuth.md#Outlook%20OAuth-Verbindung%20einrichten) ausführen.
 
 ::: warning
 Das verwendete Outlook-Postfach darf keine Shared Mailbox sein. Der Benutzer und Postfach müssen lizenziert sein.
