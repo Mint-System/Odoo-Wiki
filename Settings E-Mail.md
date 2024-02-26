@@ -118,20 +118,6 @@ Unter *Einstellungen > Dialog > Externe E-Mail-Server* aktivieren Sie das Featur
 Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladung, versendet Odoo die E-Mail im Namen des Unternehmens und verwendet dazu die E-Mail-Adresse aus den Unternehmenseinstellungen.
 :::
 
-## Alias
-
-### E-Mail Aliase anzeigen
-
-Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase*. Hier sehen Sie alle die von Odoo registrierten Aliase und verknüpften Dokumente.
-
-::: tip
-Der Empfänger der eingehenden E-Mails werden mit der Liste der Aliase verglichen. Wenn das E-Mail keine Antwort auf einen bestehenden Chatter-Thread ist, wird die Aktion des registrierten Aliases ausgelöst.
-:::
-
-### E-Mail Alias erstellen
-
-Sie können für eine Ressource, beispielsweise Kundendienst Team, mehrere Alias haben. Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase* und zeigen Sie einen bestehenden Alias an. Wählen Sie *Aktion > Duplizieren* und passen Sie die Adresse des Alias an. 
-
 ### Ausgehender Mail-Server Office 365 konfigurieren
 
 Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen:
@@ -149,6 +135,20 @@ Das verwendete Outlook-Postfach darf keine Shared Mailbox sein. Der Benutzer und
 ::: warning
 Die Relay-Funktion von Odoo funktioniert mit Office 365 nicht. Sie müssen eine feste Absender-Adresse gemäss [Absender-Adresse überschreiben](#Absender-Adresse%20überschreiben) wählen.
 :::
+
+## Alias
+
+### E-Mail Aliase anzeigen
+
+Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase*. Hier sehen Sie alle die von Odoo registrierten Aliase und verknüpften Dokumente.
+
+::: tip
+Der Empfänger der eingehenden E-Mails werden mit der Liste der Aliase verglichen. Wenn das E-Mail keine Antwort auf einen bestehenden Chatter-Thread ist, wird die Aktion des registrierten Aliases ausgelöst.
+:::
+
+### E-Mail Alias erstellen
+
+Sie können für eine Ressource, beispielsweise Kundendienst Team, mehrere Alias haben. Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase* und zeigen Sie einen bestehenden Alias an. Wählen Sie *Aktion > Duplizieren* und passen Sie die Adresse des Alias an. 
 
 ## Erweitert
 
