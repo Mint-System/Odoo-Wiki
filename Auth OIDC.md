@@ -21,7 +21,7 @@ Repository: <https://github.com/OCA/server-auth/tree/16.0/auth_oidc>
 Damit Sie mit einem GitLab-Account in Odoo einloggen können, müssen Sie als erstes eine OAuth-Applikation unter <https://gitlab.com/oauth/applications> erstellen. In diesem Beispiel ist die Odoo-Installation unter <https://odoo.example.com> erreichbar.
 
 * **Name**: `Odoo Example`
-* **Redirect URI**:\
+* **Redirect URI**:
 ```
 http://localhost:8069/auth_oauth/signin
 https://odoo.example.com/auth_oauth/signin
