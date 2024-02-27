@@ -11,6 +11,12 @@ prev: ./
 
 {{ $frontmatter.description }}
 
+## Bereiche
+
+| Bereich                                  | Beschreibung                                            |
+| ---------------------------------------- | ------------------------------------------------------- |
+| [Produkt Aktionen](Product%20Actions.md) | Arbeitsflüsse in der Produkteverwaltung automatisieren. |
+
 ## Erweiterungen
 
 | Erweiterung                                                                                 | Beschreibung                                                                |
