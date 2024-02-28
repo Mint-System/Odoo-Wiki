@@ -1,5 +1,5 @@
 ---
-title: Sale Invoice Prepare Partner
+title: Sale Invoice Ignore Ref
 description: Zahlungsreferen bei Abrechnung nicht auf Rechnung übertragen.
 tags:
 - HowTo
