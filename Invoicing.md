@@ -37,6 +37,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Purchase Invoice Prepare Partner](Purchase%20Invoice%20Prepare%20Partner.md)                 | Kontakte aus Bestellung auf Rechnung kopieren.                                                     |
 | [Sale Invoice Carrier](Sale%20Invoice%20Carrier.md)                                           | Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus Verkaufsaufträgen übertragen. |
 | [Sale Invoice Cash Rounding Default](Sale%20Invoice%20Cash%20Rounding%20Default.md)           | Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.              |
+| [Sale Invoice Ignore Ref](Sale%20Invoice%20Ignore%20Ref.md)                                   | Zahlungsreferen bei Abrechnung nicht auf Rechnung übertragen.                                      |
 | [Sale Invoice Line Description](Sale%20Invoice%20Line%20Description.md)                       | Buchungszeilen generiert aus Verkaufsaufträgen enhalten nur den Anzeigenamen des Produkts.         |
 | [Sale Invoice Prepare Bank](Sale%20Invoice%20Prepare%20Bank.md)                               | Bankkonto anhand Währung auswählen.                                                                |
 | [Sale Invoice Prepare Partner](Sale%20Invoice%20Prepare%20Partner.md)                         | Kontakte aus Verkaufsauftrag auf Rechnung kopieren.                                                |
@@ -50,7 +51,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 ### Rechnung zurücksetzen
 
-Um eine gebucht Rechnung zurückzusetzen navigieren Sie nach nach *Rechnungsstellung > Kunden > Rechnungen* und zeigen eine augewählte Rechnung an. Wählen Sie die Aktion *Zurücksetzen* damit die Rechnung in den Status *Entwurf* gesetzt wird.
+Um eine gebucht Rechnung zurückzusetzen navigieren Sie nach nach *Rechnungsstellung > Kunden > Rechnungen* und zeigen eine ausgewählte Rechnung an. Wählen Sie die Aktion *Zurücksetzen* damit die Rechnung in den Status *Entwurf* gesetzt wird.
 
 ::: tip
 Wurde die erstellte Rechnung bereits auf Status *Gebucht* gesetzt, so kann diese Rechnung nur teilweise korrigiert oder gelöscht werden.
@@ -92,7 +93,7 @@ Navigieren Sie nach *Kontakte > Konfiguration > Bankverzeichnis* und erstellen S
 
 ### Bankkonto erfassen
 
-Navigieren Sie nach *Kontakte > Konfiguration > Bankkonten* und erstellen Sie einen neuen Eintrag. Geben Sie *Kontonummber* (IBAN) und den *Kontoinhaber* ein. Wählen oder erstellen Sie eine Bank im Feld *Bank*.
+Navigieren Sie nach *Kontakte > Konfiguration > Bankkonten* und erstellen Sie einen neuen Eintrag. Geben Sie *Kontonummer* (IBAN) und den *Kontoinhaber* ein. Wählen oder erstellen Sie eine Bank im Feld *Bank*.
 
 ### Bankkonto zu Lieferant hinzufügen
 
@@ -114,7 +115,7 @@ Wenn Sie alle erfassten Bankkonten in einer Listen anzeigen möchten, navigieren
 
 ### Rechnungsadresse ändern
 
-Angenommen Sie möchten die Empfängeradresse einer gebuchten Rechnung ändern, so setzen Sie diese Rechnung mit *Zurücksetzen* in den Entwurfsstatus. Anschliessen können Sie das Feld *Kunde* wieder bearbeiten. Passen Sie die Adresse an und buchen Sie die Rechnung wieder.
+Angenommen Sie möchten die Empfängeradresse einer gebuchten Rechnung ändern, so setzen Sie diese Rechnung mit *Zurücksetzen* in den Entwurfsstatus. Anschliessend können Sie das Feld *Kunde* wieder bearbeiten. Passen Sie die Adresse an und buchen Sie die Rechnung wieder.
 
 ### Warnung für den Rechnungskontakt festlegen
 
