@@ -13,7 +13,3 @@ prev: ./sale
 
 Technischer Name: `sale_partner_shipping_group`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_partner_shipping_group
-
-## Beschreibung
-
-Zum Benutzer zur Gruppe hinzuefüege göh Si zu *Einstellungen > Benutzer und Unternehmen > Gruppen > Technisch/Zugriffsgruppe für Lieferadresse* 

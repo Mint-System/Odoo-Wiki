@@ -11,5 +11,5 @@ prev: ./invoicing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_invoice_detail`\
+Technischer Name: `account_invoice_outstanding_credit`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/account_invoice_outstanding_credit>

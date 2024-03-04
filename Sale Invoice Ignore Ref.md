@@ -1,6 +1,6 @@
 ---
 title: Sale Invoice Ignore Ref
-description: Zahlungsreferen bei Abrechnung nicht auf Rechnung übertragen.
+description: Zahlungsreferenz bei Abrechnung nicht auf Rechnung übertragen.
 tags:
 - HowTo
 - Drittanbieter

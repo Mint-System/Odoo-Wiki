@@ -27,6 +27,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Account Invoice Detail](Account%20Invoice%20Detail.md)                                       | Verkaufskontakt auf Rechnung einblenden.                                                           |
 | [Account Invoice Multiline Ref](Account%20Invoice%20Multiline%20Ref.md)                       | Kundenreferenz auf Verkaufsauftrag und Rechnung mit mehreren Zeilen.                               |
 | [Account Invoice Notes](Account%20Invoice%20Notes.md)                                         | Zusätzliche Header und Footer Notizen kopiert von Verkaufsauftrag.                                 |
+| [Account Invoice Outstanding Credit](Account%20Invoice%20Outstanding%20Credit.md)             | Filtern Sie Kundenrechnungen mit offenen Gutschriften.                                             |
 | [Account Invoice Overdue Reminder](Account%20Invoice%20Overdue%20Reminder.md)                 | Einfache Lösung zum Versenden von Zahlungserinnerungen.                                            |
 | [Account Invoice Sale Partner](Account%20Invoice%20Sale%20Partner.md)                         | Verkaufsadresse auf Rechnung festlegen.                                                            |
 | [Account Invoice Select Bank](Account%20Invoice%20Select%20Bank.md)                           | Bankkonto anhand Währung auswählen.                                                                |
@@ -37,7 +38,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Purchase Invoice Prepare Partner](Purchase%20Invoice%20Prepare%20Partner.md)                 | Kontakte aus Bestellung auf Rechnung kopieren.                                                     |
 | [Sale Invoice Carrier](Sale%20Invoice%20Carrier.md)                                           | Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus Verkaufsaufträgen übertragen. |
 | [Sale Invoice Cash Rounding Default](Sale%20Invoice%20Cash%20Rounding%20Default.md)           | Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.              |
-| [Sale Invoice Ignore Ref](Sale%20Invoice%20Ignore%20Ref.md)                                   | Zahlungsreferen bei Abrechnung nicht auf Rechnung übertragen.                                      |
+| [Sale Invoice Ignore Ref](Sale%20Invoice%20Ignore%20Ref.md)                                   | Zahlungsreferenz bei Abrechnung nicht auf Rechnung übertragen.                                     |
 | [Sale Invoice Line Description](Sale%20Invoice%20Line%20Description.md)                       | Buchungszeilen generiert aus Verkaufsaufträgen enhalten nur den Anzeigenamen des Produkts.         |
 | [Sale Invoice Prepare Bank](Sale%20Invoice%20Prepare%20Bank.md)                               | Bankkonto anhand Währung auswählen.                                                                |
 | [Sale Invoice Prepare Partner](Sale%20Invoice%20Prepare%20Partner.md)                         | Kontakte aus Verkaufsauftrag auf Rechnung kopieren.                                                |

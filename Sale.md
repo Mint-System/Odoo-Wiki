@@ -37,6 +37,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order Comment](Sale%20Order%20Comment.md)                                                   | Kommentar auf Verkaufsauftrag.                                                |
 | [Sale Order Contact Person](Sale%20Order%20Contact%20Person.md)                                   | Kontaktperson auf Verkaufsauftrag festlegen.                                  |
 | [Sale Order Currency Rate](Sale%20Order%20Currency%20Rate.md)                                     | Anzeige Währungskurs auf Angebot.                                             |
+| [Sale Order Invoice Amount](Sale%20Order%20Invoice%20Amount.md)                                   | Abgerechnete und zu abrechnende Beträge anzeigen.                             |
 | [Sale Order Line Description Name](Sale%20Order%20Line%20Description%20Name.md)                   | Produktname in Beschreibung ohne interne Referenz.                            |
 | [Sale Order Line Description](Sale%20Order%20Line%20Description.md)                               | Nur Verkausbeschreibung im Feld Beschreibung übertragen.                      |
 | [Sale Order Line Form Action](Sale%20Order%20Line%20Form%20Action.md)                             | Auftragszeile in Formularansicht öffnen.                                      |
@@ -56,6 +57,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order Sale Partner](Sale%20Order%20Sale%20Partner.md)                                       | Verkaufsadresse auf Verkaufsauftrag festlegen.                                |
 | [Sale Order Template Notes](Sale%20Order%20Template%20Notes.md)                                   | Notizen auf Angebotsvorlage.                                                  |
 | [Sale Partner Incoterm](Sale%20Partner%20Incoterm.md)                                             | Standardlieferbedingungen für Kunden.                                         |
+| [Sale Partner Shipping Group](Sale%20Partner%20Shipping%20Group.md)                               | Zugriffsgruppe für die Lieferadresse bei Verkaufsaufträgen und Rechnungen.    |
 | [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                                       | Produktset mit Notizen und Abschnitten.                                       |
 | [Sale Product Set Search](Sale%20Product%20Set%20Search.md)                                       | Produktset anhand Name und Referenz suchen.                                   |
 | [Sale Product Set](Sale%20Product%20Set.md)                                                       | Produktsets definieren und einfach hinzufügen.                                |
