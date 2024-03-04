@@ -1,6 +1,6 @@
 ---
 title: Sale Order Invoice Amount
-description: Abgerechnete und zu abrechnende Beträge anzeigen.
+description: Verrechnete und nicht verrechnete Beträge von Verkaufsaufträgen anzeigen.
 tags:
 - HowTo
 - OCA

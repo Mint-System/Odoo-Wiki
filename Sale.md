@@ -37,7 +37,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order Comment](Sale%20Order%20Comment.md)                                                   | Kommentar auf Verkaufsauftrag.                                                |
 | [Sale Order Contact Person](Sale%20Order%20Contact%20Person.md)                                   | Kontaktperson auf Verkaufsauftrag festlegen.                                  |
 | [Sale Order Currency Rate](Sale%20Order%20Currency%20Rate.md)                                     | Anzeige Währungskurs auf Angebot.                                             |
-| [Sale Order Invoice Amount](Sale%20Order%20Invoice%20Amount.md)                                   | Abgerechnete und zu abrechnende Beträge anzeigen.                             |
+| [Sale Order Invoice Amount](Sale%20Order%20Invoice%20Amount.md)                                   | Verrechnete und nicht verrechnete Beträge von Verkaufsaufträgen anzeigen.     |
 | [Sale Order Line Description Name](Sale%20Order%20Line%20Description%20Name.md)                   | Produktname in Beschreibung ohne interne Referenz.                            |
 | [Sale Order Line Description](Sale%20Order%20Line%20Description.md)                               | Nur Verkausbeschreibung im Feld Beschreibung übertragen.                      |
 | [Sale Order Line Form Action](Sale%20Order%20Line%20Form%20Action.md)                             | Auftragszeile in Formularansicht öffnen.                                      |
