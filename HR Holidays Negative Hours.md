@@ -13,7 +13,7 @@ prev: ./hr-holidays
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_holidays_negative_hours`\
-Repository: <https://github.com/OCA/hr-holidays/tree/16.0/hr_holidays_negative_hours>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_holidays_negative_hours>
 
 ## Konfiguration
 
