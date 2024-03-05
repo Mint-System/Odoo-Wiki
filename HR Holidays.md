@@ -33,6 +33,7 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 | [HR Holidays Remaining Leaves](HR%20Holidays%20Remaining%20Leaves.md)                     | Verbleibende Urlaubsansprüche der Mitarbeitenden anzeigen.                           |
 | [HR Leave Custom Hour Interval](HR%20Leave%20Custom%20Hour%20Interval.md)                 | Start- und End-Zeit für Abwesenheiten eintragen.                                     |
 | [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden.   |
+|  [HR Holidays Negative Hours](HR%20Holidays%20Negative%20Hours.md)                                         | Erstellen Sie einen Abwesenheitstyp „Kompensation“, der es ermöglicht, Abwesenheitsanträge zu erstellen, die zu negativen Überstunden führen |                                                                                          |                                                                                      |
 
 ## Dashboard
 
