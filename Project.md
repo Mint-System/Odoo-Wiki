@@ -194,3 +194,9 @@ Mit einer neuen Regel für *Rechte auf Daten* können Sie Projekte auch für Por
 Um eine Benachrichtigung zu erhalten, wenn eine Aufgabe in einem bestimmten Projekt erstellt, müssen Sie das Projekt via *Projekt > Konfiguration > Projekte* bearbeiten. Nun müssen Sie ein [eigenes Abonnement hinzufügen](Dialog.md#Eigenes%20Abonnement%20hinzufügen). 
 
 ![](attachments/Projekt%20Subscription%20bearbeiten.png)
+
+## Zeiterfassung
+
+### Geplante Stunden auf Aufgabe festlegen
+
+Zeigen Sie *Projekt* an und klicken Sie auf ein Projekt. Öffnen Sie ein Aufgabe und zeigen Sie den Tab *Zeiterfassung* an. Im Feld *Zugewiesene Stunden* geben Sie die Anzahl Stunden ein.
