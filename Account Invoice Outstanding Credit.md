@@ -12,3 +12,10 @@ prev: ./invoicing
 
 Technischer Name: `account_invoice_outstanding_credit`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/account_invoice_outstanding_credit>
+
+## Verwendung
+
+### Rechnungen mit ausstehenden Guthaben anzeigen
+
+Zeigen Sie die Kundenrechnungen über *Buchhaltung > Kunden > Rechnungen* an. Wählen Sie *Filter > Ausstehende Guthaben*.
+
