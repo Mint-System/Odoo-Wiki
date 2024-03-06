@@ -88,13 +88,13 @@ Im Chatter des Dokument wählen Sie den Tab *Sende Nachricht*. Geben Sie eine Na
 Die Empfänger sind alle Follower des Dokuments.
 :::
 
-### Nachricht aus Mail-Vorlage verschicken
+### Nachricht aus E-Mail-Vorlage verschicken
 
 Im Chatter des Dokument wählen Sie den Tab *Sende Nachricht*. Klicken Sie auf das Icon unten rechts im Eingabe-Fenster um den Dialog zu vergrössern.
 
 ![](attachments/Dialog%20Extend%20Editor.png)
 
-Wählen Sie im Feld *Benutze Vorlage* ein Mail-Vorlage aus. Odoo füllt die Platzhalter aus und Sie können die Nachricht mit *Senden* an den Empfänger verschicken.
+Wählen Sie im Feld *Benutze Vorlage* ein E-Mail-Vorlage aus. Odoo füllt die Platzhalter aus und Sie können die Nachricht mit *Senden* an den Empfänger verschicken.
 
 ::: warning
 Die Eingaben in *Empfänger* werden mit den Follower des Dokuments kumuliert.

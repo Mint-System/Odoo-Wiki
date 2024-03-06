@@ -161,7 +161,7 @@ Anhänge an E-Mails mit diesem Alias aus dem Odoo-Postfach werden fortan als Rec
 
 ### Mehrere Rechnung versenden
 
-Zeigen Sie *Finanzen > Kunden > Rechnung* an und filtern Sie die Rechnung nach *Status* und *Zahlung*. Markieren Sie die Rechnungen, die Sie versenden möchten und wählen Sie *Aktion > Senden & Drucken*. Wählen Sie für E-Mail eine Mail-Vorlage aus und drücken Sie auf *Senden*.
+Zeigen Sie *Finanzen > Kunden > Rechnung* an und filtern Sie die Rechnung nach *Status* und *Zahlung*. Markieren Sie die Rechnungen, die Sie versenden möchten und wählen Sie *Aktion > Senden & Drucken*. Wählen Sie für E-Mail eine E-Mail-Vorlage aus und drücken Sie auf *Senden*.
 
 ### Unversendete Rechnungen anzeigen
 

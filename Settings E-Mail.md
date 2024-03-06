@@ -162,7 +162,7 @@ Als ausgewähltes Datenmodell empfehlen wir *Kanal* oder *Notiz*.
 
 ### Antwort-Adresse mit Konfiguration von E-Mail-Vorlage überschreiben
 
-Damit die Antwort-Adresse aus der Konfiguration der Mail-Vorlage übernommen wird, muss 
+Damit die Antwort-Adresse aus der Konfiguration der E-Mail-Vorlage übernommen wird, muss 
 der Eintrag `mail.catchall.domain` unter *Einstellungen > Technisch > Parameter > Systemparameter* entfernt werden.
 
 In der E-Mail-Vorlage muss im Tab *E-Mail-Konfiguration* das Feld *Antwort an* gesetzt sein.
