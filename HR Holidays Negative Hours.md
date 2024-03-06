@@ -1,6 +1,6 @@
 ---
 title: HR Holidays Negative Hours
-description: Erstellen Sie einen Abwesenheitstyp „Vergütung“, der es ermöglicht, Abwesenheitsanträge zu erstellen, die zu negativen Überstunden führen
+description: Abwesenheitsart zur Kompensierung von Überstunden.
 tags:
 - HowTo
 - OCA
@@ -17,6 +17,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_holidays_n
 
 ## Konfiguration
 
-### Richten Sie Abwesenheitstyp Kompensation
+### Abwesenheitsart Kompensation einrichten
 
-Konfigurieren Sie eine Abwesenheitsart über *Abwesenheit > Konfiguration > Abwesenheitsarten > Compensation*
+Zeigen Sie *Abwesenheit > Konfiguration > Abwesenheitsarten* an und öffnen Sie die Abwesenheitsart *Kompenstation*.
