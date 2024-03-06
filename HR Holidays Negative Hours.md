@@ -8,7 +8,7 @@ prev: ./hr-holidays
 ---
 
 # HR Holidays Negative Hours
-![icon_oca_app](attachments/icon_oca_app.png)
+![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
 

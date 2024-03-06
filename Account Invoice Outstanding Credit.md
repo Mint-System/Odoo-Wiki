@@ -6,7 +6,6 @@ tags:
 prev: ./invoicing
 ---
 # Account Invoice Outstanding Credit
-
 ![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
