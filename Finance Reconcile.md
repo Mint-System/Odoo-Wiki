@@ -95,17 +95,19 @@ Wenn alle Vorgänge eines Bank-Belegs abgestimmt sind, können Sie den Bank-Bele
 
 Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge*. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Wechseln Sie über *Ansicht* in den Dialog für die Abstimmung und wählen Sie *Zurücksetzen*.
 
-![](attachments/Abstimmung%20zurücksetzen.gif)
+![](attachments/Abstimmung%20zurücksetzen.gif)\
+
+## Buchungen
 
 ### Buchungssatz von Vorgang aus Bank-Beleg anzeigen
 
-Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge*. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Öffnen Sie den Vorgang und wählen Sie *Buchungssatz*.
+Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge*. Suchen Sie hier nach einem bestimmten Vorgang. Öffnen Sie den Vorgang und wählen Sie *Buchungssatz*.
 
 ### Währungsbetrag in Bank-Beleg korrigieren
 
 Zeigen Sie das Dashboard *Finanzen* an und wählen Sie für ein Bank-Journal *Kontext-Menü > Vorgänge*. Suchen Sie hier nach der Zeile mit dem falschen Währungsbetrag und öffnen Sie diese Zeile. Bearbeiten Sie den Betrag.
 
-## Bankverzeichnis
+## Ausgleichsmodell
 
 ### Ausgleichsmodell erstellen
 
