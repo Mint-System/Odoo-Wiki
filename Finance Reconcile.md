@@ -63,16 +63,6 @@ Zeigen Sie die App *Finanzen* an. Klicken Sie rechts vom Bank-Journals auf das K
 Bereits abgestimmte Positionen müssen zurückgesetzt werden.
 :::
 
-### Ausgleichsmodell erstellen
-
-Navigieren Sie nach *Finanzen > Konfiguration > Ausgleichsmodelle* und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel zur Rundungsdifferenz:
-
-![](attachments/Finanzen%20Abstimmung%20Rundungsdifferenz.png)
-
-Dieses Ausgleichsmodell können Sie in der Abstimmung mit einem Knopfdruck anwenden:
-
-![](attachments/Finanzen%20Abstimmung%20Ausgleichsmodell%20anwenden.png)
-
 ## Abstimmung
 
 ### Abstimmung durchführen
@@ -115,3 +105,42 @@ Navigieren Sie nach *Finanzen* und wählen Sie im Kontext-Menü des Bank-Journal
 
 Zeigen Sie das Dashboard *Finanzen* an und wählen Sie für ein Bank-Journal *Kontext-Menü > Vorgänge*. Suchen Sie hier nach der Zeile mit dem falschen Währungsbetrag und öffnen Sie diese Zeile. Bearbeiten Sie den Betrag.
 
+## Bankverzeichnis
+
+### Ausgleichsmodell erstellen
+
+Gilt bis #Odoo15:
+
+Navigieren Sie nach *Finanzen > Konfiguration > Ausgleichsmodelle* und erstellen Sie einen neuen Eintrag.
+
+Dazu ein Beispiel zur Rundungsdifferenz:
+
+![](attachments/Finanzen%20Abstimmung%20Rundungsdifferenz.png)
+
+Dieses Ausgleichsmodell können Sie in der Abstimmung mit einem Knopfdruck anwenden:
+
+![](attachments/Finanzen%20Abstimmung%20Ausgleichsmodell%20anwenden.png)
+
+### Ausgleichsmodell 10% Unterbezahlung erstellen
+
+Gilt bis #Odoo16:
+
+Navigieren Sie nach *Finanzen > Konfiguration > Ausgleichsmodelle* und erstellen Sie einen neuen Eintrag.
+
+* **Name**: Rechnung bis 10% Unterbezahlung
+* **Typ**: Regel zum Abgleich von Rechnungen
+* **Zahlungstoleranz**: 10%
+* **Match Invoice/bill with**: Buchungstext und Referenz
+
+## Auswertung
+
+### Offene Rechnungen nach Abgleich anzeigen
+
+Navigieren Sie nach *Finanzen > Finanzen > Buchungszeilen. Filtern Sie die Zeilen gemäss diesen Bedingungen:
+
+* Abgleich Nr. ist gesetzt
+* Offener Betrag ist grösser 0
+
+Sie erhalten so eine Übersicht der Rechnungen mit Unterbezahlung.
+
+![](attachments/Offene%20Rechnungszeilen%20nach%20Abgleich%20anzeigen.png)
