@@ -123,15 +123,15 @@ Dieses Ausgleichsmodell können Sie in der Abstimmung mit einem Knopfdruck anwen
 
 ![](attachments/Finanzen%20Abstimmung%20Ausgleichsmodell%20anwenden.png)
 
-### Ausgleichsmodell 10% Unterbezahlung erstellen
+### Ausgleichsmodell 5% Unterbezahlung erstellen
 
 Gilt bis #Odoo16:
 
 Navigieren Sie nach *Finanzen > Konfiguration > Ausgleichsmodelle* und erstellen Sie einen neuen Eintrag.
 
-* **Name**: Rechnung bis 10% Unterbezahlung
+* **Name**: Rechnung bis 5% Unterbezahlung
 * **Typ**: Regel zum Abgleich von Rechnungen
-* **Zahlungstoleranz**: 10%
+* **Zahlungstoleranz**: 5%
 * **Match Invoice/bill with**: Buchungstext und Referenz
 
 ## Auswertung
