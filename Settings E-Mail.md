@@ -138,7 +138,7 @@ Die Relay-Funktion von Odoo funktioniert mit Office 365 nicht. Sie müssen eine 
 
 ## Alias
 
-### E-Mail Aliase anzeigen
+### E-Mail-Aliasse anzeigen
 
 Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase*. Hier sehen Sie alle die von Odoo registrierten Aliase und verknüpften Dokumente.
 
@@ -146,9 +146,23 @@ Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase*. Hier sehen Si
 Der Empfänger der eingehenden E-Mails werden mit der Liste der Aliase verglichen. Wenn das E-Mail keine Antwort auf einen bestehenden Chatter-Thread ist, wird die Aktion des registrierten Aliases ausgelöst.
 :::
 
-### E-Mail Alias erstellen
+### E-Mail-Alias erstellen
 
 Sie können für eine Ressource, beispielsweise Kundendienst Team, mehrere Alias haben. Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase* und zeigen Sie einen bestehenden Alias an. Wählen Sie *Aktion > Duplizieren* und passen Sie die Adresse des Alias an. 
+
+### E-Mail Alias im Postfach erstellen
+
+Damit der Odoo E-Mail-Alias funktioniert müssen Sie diese im E-Mail-Postfach ebenfalls erstellen. Dazu ein Beispiel vom Mail-Provider Infomaniak:
+
+![](attachments/Settings%20E-Mail%20Aliasse.png)
+
+::: tip
+Wenn Subaddressing "+" aktiviert ist, wird eine E-Mail mit einem "+" nach dem Alias, beispielsweise <project+xy@mint-system.ch> aufgrund des Mail-Alias <project@mint-system.ch>, ebenfalls zugestellt.
+:::
+
+::: warning
+Der Wildcard-E-Mail-Alias *catchall* wird noch von allen Mail-Provider unterstützt.
+:::
 
 ## Erweitert
 
