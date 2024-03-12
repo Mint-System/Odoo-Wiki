@@ -291,8 +291,9 @@ Python-Code:
 
 ```python
 moves_reconciled = []
+moves_without_payment = []
 for move in records.filtered(lambda m: m.payment_state == 'not_paid'):
-  payment = env['account.payment'].search([('ref', '=', move.payment_reference)])
+  payment = env['account.payment'].search([('ref', '=', move.payment_reference)], limit=1)
   if payment:
     move_line = move.line_ids.filtered(lambda l: l.name == move.payment_reference)[0]
     payment_line = payment.line_ids.filtered(lambda l: l.account_id == move_line.account_id)[0]
@@ -300,18 +301,20 @@ for move in records.filtered(lambda m: m.payment_state == 'not_paid'):
       lines = move_line + payment_line
       lines.reconcile()
       moves_reconciled.append(move.name)
+  else:
+    moves_without_payment.append(move.name)
   #   else:
   #     raise UserError('No move lines found to reconcile for %s and %s' % (move_line, payment_line))
   # else:
   #   raise UserError('No payment found for %s with payment ref %s' % (move.name, move.payment_reference))
 
-notification = False
 if moves_reconciled:
   action = {
     'type': 'ir.actions.client',
     'tag': 'display_notification',
     'params': {
-      'message': 'These invoices have been reconciled: ' + ', '.join(moves_reconciled),
+      'type': 'success',
+      'message': len(moves_reconciled) + ' invoices have been reconciled: ' + ', '.join(moves_reconciled),
       'sticky': True
     }
   }

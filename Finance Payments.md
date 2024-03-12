@@ -173,6 +173,14 @@ Navigieren Sie nach *Finanzen > Kunden > Zahlung* und erfassen Sie eine Zahlung:
 
 Buchen Sie die Zahlung mit *Bestätigung*.
 
+### Sammelzahlung von Kunde erfassen
+
+Wenn Sie eine Anzeige für eine Sammelzahlung eines Kunden erhalten, können Sie diese auf zwei Wege erfassen und abstimmen. Entweder erfassen Sie die Sammelzahlung als eingehende Zahlung und gleichen diese mit den Kundenrechnungen ab oder Sie markieren die Kundenrechnungen und erfassen eine Zahlung.
+
+::: tip
+Wenn auf der Sammelrechnung eine Unter oder Überzahlung gemacht wurde, können Sie die Differenz im Abstimmungs-Dialog als manuelle Buchung ausgleichen.
+:::
+
 ## Anzahlungen
 
 ### Konto für Anzahlungen festlegen
