@@ -1,6 +1,6 @@
 ---
 title: Sale Invoice Line Description
-description: Buchungszeilen generiert aus Verkaufsaufträgen enhalten nur den Anzeigenamen des Produkts.
+description: Buchungszeilen generiert aus Verkaufsaufträgen enthalten nur den Anzeigenamen des Produkts.
 tags:
 - HowTo
 - Drittanbieter
