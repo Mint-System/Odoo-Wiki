@@ -25,6 +25,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Account Invoice Carrier](Account%20Invoice%20Carrier.md)                                     | Auslieferungsmethode auf Rechnung hinterlegen.                                                     |
 | [Account Invoice Comment](Account%20Invoice%20Comment.md)                                     | Kommentarfeld auf Rechnung.                                                                        |
 | [Account Invoice Detail](Account%20Invoice%20Detail.md)                                       | Verkaufskontakt auf Rechnung einblenden.                                                           |
+| [Account Invoice Move Date](Account%20Invoice%20Move%20Date.md)                               | Buchungs- und Rechnungsdatum unabhängig definieren.                                                |
 | [Account Invoice Multiline Ref](Account%20Invoice%20Multiline%20Ref.md)                       | Kundenreferenz auf Verkaufsauftrag und Rechnung mit mehreren Zeilen.                               |
 | [Account Invoice Notes](Account%20Invoice%20Notes.md)                                         | Zusätzliche Header und Footer Notizen kopiert von Verkaufsauftrag.                                 |
 | [Account Invoice Outstanding Credit](Account%20Invoice%20Outstanding%20Credit.md)             | Filtern Sie Kundenrechnungen mit offenen Gutschriften.                                             |
