@@ -199,7 +199,7 @@ for group in order_to_invoice_groups:
     env['ir.actions.report']._render_qweb_pdf(invoice_report, res_ids=orders.invoice_ids.ids)
   invoiced_order_names += orders.mapped('name')
 
-message = 'These sale orders have been invoiced: ' + ', '.join(invoiced_order_names)
+message = 'These sale orders have been invoiced: ' + ', '.join(invoiced_order_names) if invoiced_order_names else 'No sale orders have been invoiced'
 log(message)
 
 # action = {
