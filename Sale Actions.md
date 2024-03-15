@@ -157,6 +157,65 @@ for line in records.order_line:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
+## Geplante Aktionen
+
+
+### Verkaufsaufträge abrechnen
+
+Diese geplante Aktion erstellt die Rechnungen der zu abzurechnenden Verkaufsaufträge und berücksichtigt dabei [Sale Invoice Frequency](Sale%20Invoice%20Frequency.md).
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Verkaufsaufträge abrechnen`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Woche\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+frequency_id = env.ref('sale_invoice_frequency.sale_invoice_frequency_weekly')
+invoice_report = env.ref('account.account_invoices')
+post_invoices = True
+print_invoices = True
+
+order_to_invoice_groups = env['sale.order']._read_group(
+  domain=[('invoice_status','=','to invoice'),('invoice_frequency_id','=',frequency_id.id)],
+  fields=['partner_id'],
+  groupby=['partner_id']
+)
+
+# Create invoices grouped by partner
+invoiced_order_names = []
+for group in order_to_invoice_groups:
+  domain = group.get('__domain')
+  orders = env['sale.order'].search(domain)
+  orders._create_invoices()
+  orders.invoice_ids.write({'to_check': True})
+  if post_invoices:
+    orders.invoice_ids.action_post()
+  if print_invoices:
+    env['ir.actions.report']._render_qweb_pdf(invoice_report, res_ids=orders.invoice_ids.ids)
+  invoiced_order_names += orders.mapped('name')
+
+message = 'These sale orders have been invoiced: ' + ', '.join(invoiced_order_names)
+if invoiced_order_names:
+   log(message)
+  
+# action = {
+# 	'type': 'ir.actions.client',
+# 	'tag': 'display_notification',
+# 	'params': {
+# 		'type': 'success',
+# 		'message': message,
+# 		'sticky': True
+# 	}
+# }
+```
+
+
 ## Automatisierte Aktionen
 
 ### Angebot bestätigen und Rechnungen erstellen
