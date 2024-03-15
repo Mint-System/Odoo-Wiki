@@ -51,19 +51,27 @@ Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach *Eisntel
 
 ## Entwicklung
 
-### Aktion bearbeiten
+Odoo unterscheidet im wesentlichen zwischen vier Aktionen.
 
-Odoo unterscheidet im wesentlichen zwischen drei Aktionen.
+**Fensteraktionen**: Verwendet zum anzeigen von Ansichten. Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Fensteraktionen*.
 
-**Fenster-Aktion**: Verwendet zum anzeigen von Ansichten. Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Fenster öffnen/schliessen*.
+**Serveraktionen**: Für Aktionen verknüpft mit Datenmodellen. Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Serveraktionen*.
 
-**Server-Aktion**: Für geplante Aktionen und Aktionen verknüpft mit Datenmodelle. Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Server Aktionen*.
+**Geplante Aktionen**: Zeitlich geplante Serveraktionen. Navigieren Sie nach *Einstellungen > Technisch > Automatisierung > Geplante Aktionen*.
 
-**Automatische Aktion**: Aktion bei bestimmten Zuständen auslösen. Navigieren Sie nach *Einstellungen > Technisch > Automation > Server Aktionen*.
+**Automatisierte Aktionen**: Aktion bei bestimmten Zuständen auslösen. Navigieren Sie nach *Einstellungen > Technisch > Automatisierung > Automatisierte Aktionen*.
 
-### Fenster-Aktion bearbeiten
+### Serverkaktion erstellen
 
-Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Fenster öffnen/schliessen* und suchen Sie anhand *Namen der Aktion*. Mehrere Aktionen können den gleichen Namen haben. Die wichtigsten Felder sind:
+Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Serveraktionen* und erstellen Sie einen neuen Eintrag. Wenn Sie als Modell *Serveraktion* wählen, erhalten Sie eine Aktion *Manuell Ausführen*. Wenn Sie ein anderes Datenmodell wählen, müssen Sie *Kontextuelle Aktion Erstellen* ausführen, damit die Aktion auf der Formular- und Listenansicht des gewählten Datenmodell erscheint.
+
+### Serveraktion manuell ausführen
+
+Rufen Sie eine Serverkation mit Modell *Serverkation* unter *Einstellungen > Technisch > Aktionen > Serveraktionen* auf. Führen Sie die Serveraktion mit dem Knopf *Manuell Ausführen* aus.
+
+### Fensteraktion bearbeiten
+
+Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Fensteraktionen* und suchen Sie anhand *Namen der Aktion*. Mehrere Aktionen können den gleichen Namen haben. Die wichtigsten Felder sind:
 
 * **Ansichtsmodus**: Verfügbare Ansichten nach Aufruf der Aktion.
 * **Wertebereich**: Filter für die angezeigten Daten.
@@ -72,7 +80,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Fenster öffnen/schl
 
 ### Aktuelle Aktion bearbeiten
 
-Mit jedem Klick auf ein Menü oder Knopf wird in Odoo eine Aktion ausgeührt. Die ausgeführte Aktion können Sie mit *Entwicklertools > Aktion bearbeiten* anzeigen und bearbeiten.
+Mit jedem Klick auf ein Menü oder Knopf wird in Odoo eine Aktion ausgeüfhrt. Die ausgeführte Aktion können Sie mit *Entwicklertools > Aktion bearbeiten* anzeigen und bearbeiten.
 
 ### Standardwert auf Aktion definieren
 
