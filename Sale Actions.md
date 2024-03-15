@@ -159,7 +159,6 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 ## Geplante Aktionen
 
-
 ### Verkaufsaufträge abrechnen
 
 Diese geplante Aktion erstellt die Rechnungen der zu abzurechnenden Verkaufsaufträge und berücksichtigt dabei [Sale Invoice Frequency](Sale%20Invoice%20Frequency.md).
@@ -169,7 +168,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstelle
 Name der Aktion: `Verkaufsaufträge abrechnen`\
 Modell: `ir.actions.server`\
 Ausführen alle: `1` Woche\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 02:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
