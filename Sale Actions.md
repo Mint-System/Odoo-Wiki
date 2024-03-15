@@ -200,9 +200,8 @@ for group in order_to_invoice_groups:
   invoiced_order_names += orders.mapped('name')
 
 message = 'These sale orders have been invoiced: ' + ', '.join(invoiced_order_names)
-if invoiced_order_names:
-   log(message)
-  
+log(message)
+
 # action = {
 # 	'type': 'ir.actions.client',
 # 	'tag': 'display_notification',
