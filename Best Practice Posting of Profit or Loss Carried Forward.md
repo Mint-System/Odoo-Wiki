@@ -11,7 +11,7 @@ In diesem Artikel wird anhand eines einfachen Beispiels erläutert wie man den G
 
 ## Bilanz altes Jahr
 
-Es wird angenommen das Unternehmen hat im Jahr 2022 mit einem Eigenkapital von 20'000 CHF gestartet ist und einen Verlust von 15'000.00 CHF gemacht hat. Dazu die Buchungen: 
+Es wird angenommen das Unternehmen hat im Jahr 2022 mit einem Eigenkapital von 20'000 CHF gestartet ist und einen Gewinn von 15'000.00 CHF gemacht hat. Dazu die Buchungen: 
 
 * **Referenz**: Gründung
 * **Buchungsdatum**: 01.01.2022
@@ -51,10 +51,10 @@ Dazu die Buchungen:
 * **Buchungsdatum**: 31.12.2022
 * **Journal**: Sonstige Operationen
 
-| Konto                               |       Soll |      Haben |
-| ----------------------------------- | ----------:| ----------:|
-| 999999 Unverteilte Gewinne/Verluste   |   0.00 CHF | 15'000 CHF |
-| 2979 Jahresgewinn oder Jahresverlust| 15'000 CHF |   0.00 CHF |
+| Konto                                |       Soll |      Haben |
+| ------------------------------------ | ----------:| ----------:|
+| 999999 Unverteilte Gewinne/Verluste  |   0.00 CHF | 15'000 CHF |
+| 2979 Jahresgewinn oder Jahresverlust | 15'000 CHF |   0.00 CHF |
 
 Im neuen Jahr wir der Gewinn/Verlust als Vortrag verbucht.
 

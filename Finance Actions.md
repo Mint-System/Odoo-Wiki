@@ -314,10 +314,11 @@ if moves_reconciled:
     'tag': 'display_notification',
     'params': {
       'type': 'success',
-      'message': len(moves_reconciled) + ' invoices have been reconciled: ' + ', '.join(moves_reconciled),
+      'message': str(len(moves_reconciled)) + ' invoices have been reconciled: ' + ', '.join(moves_reconciled),
       'sticky': True
     }
   }
+
 ```
 
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
