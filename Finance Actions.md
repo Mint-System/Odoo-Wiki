@@ -479,9 +479,9 @@ invoices = env['account.move'].search([
 invoices_sent = []
 try:
   for invoice in invoices:
-      invoice.with_context(lang=invoice.partner_id.lang).message_post_with_template(template_id.id, composition_mode='comment')
-      invoice.write({'is_move_sent': True})
-      invoices_sent += invoice.mapped('name')
+    invoice.with_context(lang=invoice.partner_id.lang).message_post_with_template(template_id.id, composition_mode='comment')
+    invoice.write({'is_move_sent': True})
+    invoices_sent += invoice.mapped('name')
 except Exception as err:
   message = 'Sending of the checked invoices failed, the following error occured: ' + str(err)
   log(message, level='error')
