@@ -479,7 +479,7 @@ invoices = env['account.move'].search([
 invoices_sent = []
 try:
   for invoice in invoices:
-    invoice.with_context(lang=invoice.partner_id.lang).message_post_with_template(template_id.id, composition_mode='comment')
+    invoice.with_context(lang=invoice.partner_id.lang, mail_notify_force_send=True).message_post_with_template(template_id.id)
     invoice.write({'is_move_sent': True})
     invoices_sent += invoice.mapped('name')
 except Exception as err:
@@ -493,15 +493,15 @@ except Exception as err:
 message = 'These checked invoices have been sent: ' + ', '.join(invoices_sent) if invoices_sent else 'No checked invoices have been sent'
 log(message)
 
-action = {
-	'type': 'ir.actions.client',
-	'tag': 'display_notification',
-	'params': {
-		'type': 'success',
-		'message': message,
-		'sticky': True
-	}
-}
+# action = {
+# 	'type': 'ir.actions.client',
+# 	'tag': 'display_notification',
+# 	'params': {
+# 		'type': 'success',
+# 		'message': message,
+# 		'sticky': True
+# 	}
+# }
 ```
 
 ## Automatisierte Aktionen
