@@ -192,7 +192,7 @@ invoiced_order_names = []
 order_last_week_groups = env['sale.order']._read_group(
   domain=[
     ('joboffer_id','!=',False),
-    ('date_order', '>=', last_week_start),
+    # ('date_order', '>=', last_week_start),
     ('date_order', '<=', last_week_end),
     ('invoice_status','=','to invoice'),
     ('invoice_frequency_id','=',frequency_weekly_id.id)
@@ -200,6 +200,7 @@ order_last_week_groups = env['sale.order']._read_group(
   fields=['partner_id'],
   groupby=['partner_id']
 )
+# raise UserError([order_last_week_groups])
 try:
   for group in order_last_week_groups:
     domain = group.get('__domain')
@@ -211,18 +212,21 @@ try:
     if print_invoices:
       env['ir.actions.report']._render_qweb_pdf(invoice_report, res_ids=orders.invoice_ids.ids)
     invoiced_order_names += orders.mapped('name')
+    log('Created invoices for: ' + ', '.join(orders.mapped('name')))
+    env.cr.commit()
 except Exception as err:
   message = 'The invoicing of weekly sale orders failed, the following error occured: ' + str(err)
   log(message, level='error')
   env['mail.mail'].create({
     'subject': 'Error in weekly sale order invoicing',
     'body_html': message,
-    'email_to': 'sysadmin@sozlialinfo.ch',
+    'email_to': 'sysadmin@sozialinfo.ch',
   }).send()
 message = 'The sale orders of last week have been invoiced: ' + ', '.join(invoiced_order_names) if invoiced_order_names else 'No weekly sale orders have been invoiced'
 log(message)
 
 # Calculate start and end of montly period.
+today = datetime.datetime.now().date()
 frequency_monthly_id = env.ref('sale_invoice_frequency.sale_invoice_frequency_monthly')
 first_day_of_this_month = today.replace(day=1)
 last_month_end = first_day_of_this_month - datetime.timedelta(days=1)
@@ -234,7 +238,7 @@ invoiced_order_names = []
 order_last_month_groups = env['sale.order']._read_group(
   domain=[
     ('joboffer_id','!=',False),
-    ('date_order', '>=', last_month_start),
+    # ('date_order', '>=', last_month_start),
     ('date_order', '<=', last_month_end),
     ('invoice_status','=','to invoice'),
     ('invoice_frequency_id','=',frequency_monthly_id.id)
@@ -242,6 +246,7 @@ order_last_month_groups = env['sale.order']._read_group(
   fields=['partner_id'],
   groupby=['partner_id']
 )
+# raise UserError([order_last_month_groups])
 try:
   for group in order_last_month_groups:
     domain = group.get('__domain')
@@ -253,13 +258,15 @@ try:
     if print_invoices:
       env['ir.actions.report']._render_qweb_pdf(invoice_report, res_ids=orders.invoice_ids.ids)
     invoiced_order_names += orders.mapped('name')
+    log('Created invoices for: ' + ', '.join(orders.mapped('name')))
+    env.cr.commit()
 except Exception as err:
   message = 'The invoicing of monthly sale orders failed, the following error occured: ' + str(err)
   log(message, level='error')
   env['mail.mail'].create({
     'subject': 'Error in monthly sale order invoicing',
     'body_html': message,
-    'email_to': 'sysadmin@sozlialinfo.ch',
+    'email_to': 'sysadmin@sozialinfo.ch',
   }).send()
 message = 'The sale orders of last month have been invoiced: ' + ', '.join(invoiced_order_names) if invoiced_order_names else 'No monthly sale orders have been invoiced'
 log(message)
