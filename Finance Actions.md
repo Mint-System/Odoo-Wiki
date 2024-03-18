@@ -338,6 +338,21 @@ records.button_set_checked()
 
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
 
+### Als ungeprüft markieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Als geprüft markieren`\
+Modell: `account.move`\
+Folgeaktion: `Python-Code ausführen`\
+Python-Code:
+
+```python
+records.write({'to_check': True})
+```
+
+Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+
 
 ## Geplante Aktionen
 
@@ -429,6 +444,64 @@ log('Create pdf files for invoices: %s' % invoices)
 
 for invoice in invoices:
   content, _content_type = env['ir.actions.report']._render_qweb_pdf(invoices_report, res_ids=[invoice.id])
+```
+
+### Geprüfte Kundenrechnungen versenden
+
+Diese geplante Aktion versendet alle gebuchten und geprüften Rechnungen mit der Standard-E-Mail-Vorlage.
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Geprüfte Kundenrechnungen versenden`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Woche\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Settings
+template_id = env.ref('account.email_template_edi_invoice')
+
+# Get all checked, posted and not sent customer invoices
+invoices = env['account.move'].search([
+  ('to_check','=',False),
+  ('move_type','=','out_invoice'),
+  ('state','=','posted'),
+  ('is_move_sent','=',False),
+  ('payment_state','in',['not_paid','partial'])
+])
+# raise UserError(invoices)
+
+# Send customer invoices using the default template
+invoices_sent = []
+try:
+  for invoice in invoices:
+      invoice.with_context(lang=invoice.partner_id.lang).message_post_with_template(template_id.id, composition_mode='comment')
+      invoice.write({'is_move_sent': True})
+      invoices_sent += invoice.mapped('name')
+except Exception as err:
+  message = 'Sending of the checked invoices failed, the following error occured: ' + str(err)
+  log(message, level='error')
+  env['mail.mail'].create({
+    'subject': 'Error while sending checked invoices',
+    'body_html': message,
+    'email_to': 'sysadmin@sozlialinfo.ch',
+  }).send()
+message = 'These checked invoices have been sent: ' + ', '.join(invoices_sent) if invoices_sent else 'No checked invoices have been sent'
+log(message)
+
+action = {
+	'type': 'ir.actions.client',
+	'tag': 'display_notification',
+	'params': {
+		'type': 'success',
+		'message': message,
+		'sticky': True
+	}
+}
 ```
 
 ## Automatisierte Aktionen
