@@ -341,13 +341,13 @@ Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätig
 
 ## Geplante Aktionen
 
-### Rechnung mit Abrechnungsinterval generieren
+### Rechnung mit Abrechnungsintervall generieren
 
 Das ist eine einfach Lösung um wiederholende Rechnung zu generieren. Mit dem zusätzlichen Feld `x_recurring_inverval` wird geprüft ob die Rechnung wieder fällig ist.
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Rechnung mit Abrechnungsinterval generieren`\
+Name der Aktion: `Rechnung mit Abrechnungsintervall generieren`\
 Modell: `ir.actions.server`\
 Ausführen alle: `1` Tage\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\

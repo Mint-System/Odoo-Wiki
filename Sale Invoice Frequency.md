@@ -22,14 +22,14 @@ Rufen Sie *Verkauf > Konfiguration > Invoicing frequency* auf. Hier verwalten Si
 
 ## Verwendung
 
-### Verrechnungsinvervall auf Kontakt festlegen
+### Verrechnungsintervall auf Kontakt festlegen
 
-Zeigen Sie den Tab *Verkauf & Einkauf* eines Kontakts an. Legen Sie im Feld *Invoicing frequency* den Verrechnungsinvervall fest.
+Zeigen Sie den Tab *Verkauf & Einkauf* eines Kontakts an. Legen Sie im Feld *Invoicing frequency* den Verrechnungsintervall fest.
 
-### Verrechnungsinvervall auf Verkaufsauftrag festlegen
+### Verrechnungsintervall auf Verkaufsauftrag festlegen
 
-Beim Erstellen eines Verkaufsauftrags wird der Verrechnungsinvervall vom Kunden übernommen. Sie können den Verrechnungsinvervall im Tab *Weitere Informationen* im Feld *Invoicing frequency* festlegen.
+Beim Erstellen eines Verkaufsauftrags wird der Verrechnungsintervall vom Kunden übernommen. Sie können den Verrechnungsintervall im Tab *Weitere Informationen* im Feld *Invoicing frequency* festlegen.
 
-### Verkaufsaufträge nach Verrechnungsinvervall gruppieren
+### Verkaufsaufträge nach Verrechnungsintervall gruppieren
 
 Navigieren Sie nach *Verkauf > Abzurechnen* und wählen Sie *Gruppieren nach > Invoicing frequency*
