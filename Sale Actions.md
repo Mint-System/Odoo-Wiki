@@ -159,7 +159,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 ## Geplante Aktionen
 
-### Verkaufsaufträge abrechnen
+### Verkaufsaufträge wöchentlich abrechnen
 
 Diese geplante Aktion erstellt die Rechnungen der zu abzurechnenden Verkaufsaufträge und berücksichtigt dabei [Sale Invoice Frequency](Sale%20Invoice%20Frequency.md).
 
