@@ -482,6 +482,8 @@ try:
     invoice.with_context(lang=invoice.partner_id.lang, mail_notify_force_send=True).message_post_with_template(template_id.id)
     invoice.write({'is_move_sent': True})
     invoices_sent += invoice.mapped('name')
+    log('Invoice has been sent: ' + invoice.name)
+    env.cr.commit()
 except Exception as err:
   message = 'Sending of the checked invoices failed, the following error occured: ' + str(err)
   log(message, level='error')
