@@ -67,7 +67,7 @@ Bereits abgestimmte Positionen müssen zurückgesetzt werden.
 
 ### Abstimmung durchführen
 
-Öffnen Sie die Übersicht der Journale via *Finanzen* und klicken auf den Knopf *Abstimmung X Positionen* des entsprechenden Journals. Wählen Sie eine Konto-Bewegung aus und bestimmen Sie die zu verknüpfende Buchungszeile. Bestätigen Sie Abstimmung.
+Öffnen Sie die Übersicht der Journale via *Finanzen* und klicken auf den Knopf *Abstimmung X Positionen* des entsprechenden Journals. Wählen Sie eine Kontobewegung aus und bestimmen Sie die zu verknüpfende Buchungszeile. Bestätigen Sie Abstimmung.
 
 ::: tip
 Entfernen Sie den Partner-Filter, wenn die gesuchte Buchungszeile nicht vorhanden ist.
@@ -75,7 +75,13 @@ Entfernen Sie den Partner-Filter, wenn die gesuchte Buchungszeile nicht vorhande
 
 ### Abstimmung mit manueller Buchung durchführen
 
-Öffnen Sie die Übersicht der Journale via *Finanzen* und klicken auf den Knopf *Abstimmung X Positionen* des entsprechenden Journals. Wählen Sie eine Konto-Bewegung aus und zeigen Sie den Tab *Manuelle Abarbeitung* an. Erstellen Sie eine manuelle Buchung mit Journal, Konto und Buchungstext.
+Öffnen Sie die Übersicht der Journale via *Finanzen* und klicken auf den Knopf *Abstimmung X Positionen* des entsprechenden Journals. Wählen Sie eine Konto-Bewegung aus und zeigen Sie den Tab *Manuelle Bearbeitung* an. Erstellen Sie eine manuelle Buchung mit Journal, Konto und Buchungstext.
+
+### Abstimmung mit Überzahlung durchführen
+
+Wenn Sie eine Gutschrift erhalten haben und deren Betrag höher ist als der Rechnungsbetrag, müssen Sie zur Abstimmung eine manuelle Buchung erstellen. Wählen Sie dazu die Kontobewegung aus, bestimmen Sie die Buchungszeile der Rechung und wählen Sie den Tab *Manuell Bearbeitung*. Bei Differenzen wird dieser Dialog mit dem verbleibenden Betrag vorbereitet. Wählen Sie ein Ausgleichsmodell oder wählen Sie ein passendes *Konto* aus. Bestätigen Sie den Vorgang. 
+
+![](attachments/Finanzen%20Abstimmung%20mit%20Differenz.png)
 
 ### Überfällige Forderungen abstimmen
 
