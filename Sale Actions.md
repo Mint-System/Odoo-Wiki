@@ -197,8 +197,8 @@ order_last_week_groups = env['sale.order']._read_group(
     ('invoice_status','=','to invoice'),
     ('invoice_frequency_id','=',frequency_weekly_id.id)
   ],
-  fields=['partner_id'],
-  groupby=['partner_id']
+  fields=['partner_invoice_id'],
+  groupby=['partner_invoice_id']
 )
 # raise UserError([order_last_week_groups])
 try:
@@ -243,8 +243,8 @@ order_last_month_groups = env['sale.order']._read_group(
     ('invoice_status','=','to invoice'),
     ('invoice_frequency_id','=',frequency_monthly_id.id)
   ],
-  fields=['partner_id'],
-  groupby=['partner_id']
+  fields=['partner_invoice_id'],
+  groupby=['partner_invoice_id']
 )
 # raise UserError([order_last_month_groups])
 try:
