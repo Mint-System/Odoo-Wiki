@@ -282,7 +282,6 @@ log(message)
 # }
 ```
 
-
 ## Automatisierte Aktionen
 
 ### Angebot bestätigen und Rechnungen erstellen
