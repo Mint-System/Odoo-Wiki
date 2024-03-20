@@ -204,7 +204,7 @@ order_last_week_groups = env['sale.order']._read_group(
 try:
   for group in order_last_week_groups:
     domain = group.get('__domain')
-    orders = env['sale.order'].search(domain)
+    orders = env['sale.order'].search(domain).sorted(lambda o: o.joboffer_id.ref)
     orders._create_invoices()
     orders.invoice_ids.write({'to_check': True})
     if post_invoices:
@@ -250,7 +250,7 @@ order_last_month_groups = env['sale.order']._read_group(
 try:
   for group in order_last_month_groups:
     domain = group.get('__domain')
-    orders = env['sale.order'].search(domain)
+    orders = env['sale.order'].search(domain).sorted(lambda o: o.joboffer_id.ref)
     orders._create_invoices()
     orders.invoice_ids.write({'to_check': True})
     if post_invoices:
