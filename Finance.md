@@ -145,6 +145,8 @@ Dann gehen Sie nach *Finanznen > Konfiguration > Online Synchronisation* und wä
 
 ### Kommunikationsstandard festlegen
 
+Gilt bis #Odoo15.
+
 Der Kommunikationsstandard ist entscheidend bei der Generierung von Zahlungsreferenzen. Öffnen Sie ein Journal via *Finanzen > Konfiguration > Journale* und zeigen Sie den Tab *Erweiterte Einstellungen* an. Legen Sie im Feld *Kommunikationsstandard* den passenden Wert fest.
 
 ## Empfang
