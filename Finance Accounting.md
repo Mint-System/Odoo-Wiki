@@ -177,6 +177,10 @@ Navigieren Sie nach *Finanzen > Konfiguration > Kontengruppen* und fügen eine K
 * **Name**: Name der Kontengruppe
 * **Code-Präfix Von bis**: Bereich der Kontennummer welche dieser Gruppe hinzugefügt werden
 
+::: tip
+Das Feld *Gruppe* muss möglicherweise noch eingeschaltet werden damit die so erstellte Kontogruppe einen Nutzen bringt.
+
+
 ### Kontoarten anzeigen
 
 Standardmässig werden die Kontoarten nicht angezeigt. Damit diese angezeigt werden, müssen Sie ein [Menüposten erstellen](Development.md#Entwicklung#Menüposten%20erstellen).
