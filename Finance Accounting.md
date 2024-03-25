@@ -144,7 +144,7 @@ Navigieren Sie nach *Finanzen > Konfiguration > Kontenplan* und erstellen Sie ei
 
 ::: tip
 Falls die Meldung *Prüfungsfehler* erscheint und Sie ein neues Konto mit einer bestimmten Kurzbezeichnung nicht erstellen können, dann ist es vielleicht schon vorhanden aber wegen dem Standardfilter *Aktiver Account* nicht sichtbar. Schalten Sie ihn aus um auch Konten anzuzeigen die das Attribut *Nicht mehr verwenden* eingeschaltet haben.
-
+:::
 
 ### Kontenplan einrichten
 
@@ -179,7 +179,7 @@ Navigieren Sie nach *Finanzen > Konfiguration > Kontengruppen* und fügen eine K
 
 ::: tip
 Das Feld *Gruppe* muss möglicherweise noch eingeschaltet werden damit die so erstellte Kontogruppe einen Nutzen bringt.
-
+:::
 
 ### Kontoarten anzeigen
 
