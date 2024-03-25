@@ -48,13 +48,14 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)                              | Lieferaufträge mit Rechnungszeile verlinken.                                |
 | [Account Move Line Position](Account%20Move%20Line%20Position.md)                                          | Positionsnummer anzeigen und aus Verkaufs- oder Einkaufsauftrag verlinken.  |
 | [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                                                  | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt. |
-| [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                      | Zeigt für eine Rechnung das definitive Abgleichsdatum an.                   |
+| [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                      | Zeigt für eine Rechnung das definitive Abstimmungsdatum an.                 |
 | [Account Payment Mode](Account%20Payment%20Mode.md)                                                        | Bezahlmethoden definieren.                                                  |
 | [Account Payment Order](Account%20Payment%20Order.md)                                                      | Stapelzahlungen für die Odoo Community Edition.                             |
 | [Account Payment Partner](Account%20Payment%20Partner.md)                                                  | Zahlungsmodus auf Kontakt festlegen.                                        |
 | [Account Payment Purchase](Account%20Payment%20Purchase.md)                                                | Zahlungsmodus auf Bestellung festlegen.                                     |
+| [Account Reports Hide Ref](Account%20Reports%20Hide%20Ref.md)                                              | Zahlungsreferenz in Spalte Kommunikation in Finanzberichten ausblenden.     |
 | [Account Statement Import Base](Account%20Statement%20Import%20Base.md)                                    | Basismodul für Import Bankauszüge.                                          |
-| [Account Statement Import CAMT](Account%20Statement%20Import%20CAMT.md)                                    | Support Import Bankauszug im Camt-Format.                                   |
+| [Account Statement Import Camt](Account%20Statement%20Import%20Camt.md)                                    | Support Import Bankauszug im Camt-Format.                                   |
 | [Account Statement Import Camt54](Account%20Statement%20Import%20Camt54.md)                                | Camt54 Bankauszug mit Details zu Einzahlungen importieren.                  |
 | [Account Statement Import](Account%20Statement%20Import.md)                                                | Bankauszüge importieren.                                                    |
 | [Account Usability](Account%20Usability.md)                                                                | Menüs der Enterprise Finanzbuchhaltung für Community.                       |
@@ -81,7 +82,7 @@ Wenn Sie ein neues Unternehmen erstellt haben, können Sie unter *Einstellungen 
 Navigieren Sie nach *Finanzen > Konfiguration > Konten Tags*. Hier finden Sie die auf Buchungszeilen und Steuersätzen auswählbaren Konten Tags. Erstellen Sie einen neuen Eintrag oder bearbeiten Sie einen Bestehenden.
 
 ::: warning
-Konten Tags werden zur Generierung des Umsatzsteuerbericht verwendet und sind mit den Steuersätzen eng verknüpft.
+Konten Tags werden zur Generierung des Steuerberichts verwendet und sind mit den Steuersätzen eng verknüpft.
 :::
 
 ### Zulässige Journale auf Konto festlegen
@@ -144,6 +145,8 @@ Dann gehen Sie nach *Finanznen > Konfiguration > Online Synchronisation* und wä
 
 ### Kommunikationsstandard festlegen
 
+Gilt bis #Odoo15.
+
 Der Kommunikationsstandard ist entscheidend bei der Generierung von Zahlungsreferenzen. Öffnen Sie ein Journal via *Finanzen > Konfiguration > Journale* und zeigen Sie den Tab *Erweiterte Einstellungen* an. Legen Sie im Feld *Kommunikationsstandard* den passenden Wert fest.
 
 ## Empfang
@@ -160,7 +163,7 @@ Anhänge an E-Mails mit diesem Alias aus dem Odoo-Postfach werden fortan als Rec
 
 ### Mehrere Rechnung versenden
 
-Zeigen Sie *Finanzen > Kunden > Rechnung* an und filtern Sie die Rechnung nach *Status* und *Zahlung*. Markieren Sie die Rechnungen, die Sie versenden möchten und wählen Sie *Aktion > Senden & Drucken*. Wählen Sie für E-Mail eine Mail-Vorlage aus und drücken Sie auf *Senden*.
+Zeigen Sie *Finanzen > Kunden > Rechnung* an und filtern Sie die Rechnung nach *Status* und *Zahlung*. Markieren Sie die Rechnungen, die Sie versenden möchten und wählen Sie *Aktion > Senden & Drucken*. Wählen Sie für E-Mail eine E-Mail-Vorlage aus und drücken Sie auf *Senden*.
 
 ### Unversendete Rechnungen anzeigen
 

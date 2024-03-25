@@ -48,11 +48,19 @@ Wurde ein Transfer einmal erledigt, kann er nicht mehr bearbeitet werden. Jedoch
 
 ### Erledigte Menge korrigieren
 
-Wurde ein Transfer einmal erledigt, ist die Bearbeitung gespeert. Wenn Sie dennoch die *Erledigte Menge* korrigieren möchten. Wählen Sie auf dem Transfer *Entsperren* und passen die Menge in den detaillierten Vorgänge in der Spalte *Erledigt* an. Anschliessend wählen Sie wieder *Sperren*.
+Wurde ein Transfer einmal erledigt, ist die Bearbeitung gesperrt. Wenn Sie dennoch die *Erledigte Menge* korrigieren möchten. Wählen Sie auf dem Transfer *Entsperren* und passen die Menge in den detaillierten Vorgänge in der Spalte *Erledigt* an. Anschliessend wählen Sie wieder *Sperren*.
 
 ::: tip
 Wird die erledigte Menge verändert, wird der Bestand des Produkts entsprechend angepasst.
 :::
+
+### Produkt auf Transfer entsorgen
+
+Mit der Aktion *Ausschuss Melden* können Sie auf Transfers *Lager > Vorgänge > Bewegungen* bestimme Produkte entsorgen. Wenn Sie die Aktion ausführen wählen Sie im Dialog das Produkt und die Menge, die entsorgt werden soll.
+
+### Produkt an Lagerort entsorgen
+
+Wenn Sie an bestimmten Lagerort ein Produkt entsorgen möchten, wählen Sie *Lager > Vorgänge > Ausschuss melden*. Im Dialog geben Sie Produkt, Menge und Lagerort ein. Bestätigen Sie den Vorgang um das Produkt zu entsorgen.
 
 ## Scheduler
 

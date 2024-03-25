@@ -3,7 +3,7 @@ title: Dialog E-Mail
 description: E-Mail mit Odoo versenden.
 tags:
 - HowTo
-prev: ./discuss
+prev: ./dialog
 ---
 # Dialog E-Mail
 ![icons_odoo_mail](attachments/icons_odoo_mail.png)

@@ -27,7 +27,7 @@ Navigieren Sie nach *Finanzen > Konfiguration > Verwaltung > Zahlungsmodi*. Erst
 * **Name**: Name des Zahlungsmodus, beispielsweise *Manuell Bank*
 * **Zahlungsmethode**: Zahlungsmethode auswählen, beispielsweise *\[manual\] Manuell (outbound)*
 * **Verbindung zum Bankkonto**: Wählen Sie hier *Variable*
-* **Erlaubte Banken Logbuch**: Wählen Sie hier ein bestimmtes Bankjournal aus
+* **Erlaubte Banken Logbuch**: Wählen Sie hier ein bestimmtes Bank-Journal aus
 
 ## Verwendung
 

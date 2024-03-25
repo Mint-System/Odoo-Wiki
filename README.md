@@ -251,6 +251,12 @@ Personalbrechnungen schnell und einfach erstellen.
 
 Einstellungsprozess leicht gemacht.
 
+### [Planung](planning.md)
+
+![icons_odoo_planning](attachments/icons_odoo_planning.png)
+
+Ressourcen auf Projekte und Aufgaben planen.
+
 ### [PLM](PLM.md)
 
 ![icons_odoo_mrp_plm](attachments/icons_odoo_mrp_plm.png)

@@ -22,7 +22,7 @@ Navigieren Sie nach *Wartung > Inventar > Inventar* und zeigen Sie einen Eintrag
 
 ### Strichcode von Inventar scannen
 
-Öffnen Sie die App *Strichcode* und scannen Sie den Strichcode des Inventaur. Die App zeigt die Formularansicht des Inventar an.
+Öffnen Sie die App *Strichcode* und scannen Sie den Strichcode des Inventar. Die App zeigt die Formularansicht des Inventar an.
 
 Dazu ein Beispiel mit einer Handscanner-Simulation. Der Befehl auf der Kommandozeile simuliert den Scan eines Barcodes.
 

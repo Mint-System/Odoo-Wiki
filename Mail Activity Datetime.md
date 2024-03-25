@@ -4,7 +4,7 @@ description: Datum mit Zeit für Fälligkeit von Aktivität.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./discuss
+prev: ./dialog
 ---
 # Mail Activity Datetime
 ![icon_oms_box](attachments/icon_oms_box.png)

@@ -4,7 +4,7 @@ description: CC-Hinweis in E-Mail-Header einfügen.
 tags:
 - HowTo
 - OCA
-prev: ./discuss
+prev: ./dialog
 ---
 # Mail Show Follower
 ![icon_oca_app](attachments/icon_oca_app.png)

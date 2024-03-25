@@ -47,7 +47,23 @@ for rec in records:
   rec.update({'is_downpayment': True })
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+### Auf Angebot setzen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Auf Angebot setzen`\
+Modell: `sale.order`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for rec in records:
+  rec.with_context({'disable_cancel_warning': True}).action_cancel()
+  rec.action_draft()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 ### Angebot bestätigen
 
@@ -140,6 +156,131 @@ for line in records.order_line:
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+## Geplante Aktionen
+
+### Verkaufsaufträge nach Invervall abrechnen
+
+Diese geplante Aktion erstellt die Rechnungen der zu abzurechnenden Verkaufsaufträge und berücksichtigt dabei [Sale Invoice Frequency](Sale%20Invoice%20Frequency.md).
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Verkaufsaufträge nach Invervall abrechnen`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Woche\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 02:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Settings
+post_invoices = True
+print_invoices = True
+invoice_report = env.ref('account.account_invoices')
+
+# Calculate start and end of weekly period.
+today = datetime.datetime.now().date()
+frequency_weekly_id = env.ref('sale_invoice_frequency.sale_invoice_frequency_weekly')
+last_week_start = datetime.datetime.combine(today - datetime.timedelta(days=today.weekday() + 7), datetime.datetime.min.time())
+last_week_end = datetime.datetime.combine(last_week_start + datetime.timedelta(days=6), datetime.datetime.max.time())
+# raise UserError([last_week_start, last_week_end])
+
+# Invoice sale orders of last week
+invoiced_order_names = []
+order_last_week_groups = env['sale.order']._read_group(
+  domain=[
+    ('joboffer_id','!=',False),
+    # ('date_order', '>=', last_week_start),
+    ('date_order', '<=', last_week_end),
+    ('invoice_status','=','to invoice'),
+    ('invoice_frequency_id','=',frequency_weekly_id.id)
+  ],
+  fields=['partner_invoice_id'],
+  groupby=['partner_invoice_id']
+)
+# raise UserError([order_last_week_groups])
+try:
+  for group in order_last_week_groups:
+    domain = group.get('__domain')
+    orders = env['sale.order'].search(domain).sorted(lambda o: o.joboffer_id.ref)
+    orders._create_invoices()
+    orders.invoice_ids.write({'to_check': True})
+    if post_invoices:
+      orders.invoice_ids.action_post()
+    if print_invoices:
+      env['ir.actions.report']._render_qweb_pdf(invoice_report, res_ids=orders.invoice_ids.ids)
+    invoiced_order_names += orders.mapped('name')
+    log('Created invoices for: ' + ', '.join(orders.mapped('name')))
+    env.cr.commit()
+except Exception as err:
+  message = 'The invoicing of weekly sale orders failed, the following error occured: ' + str(err)
+  log(message, level='error')
+  env['mail.mail'].create({
+    'subject': 'Error in weekly sale order invoicing',
+    'body_html': message,
+    'email_to': 'sysadmin@sozialinfo.ch',
+  }).send()
+message = 'The sale orders of last week have been invoiced: ' + ', '.join(invoiced_order_names) if invoiced_order_names else 'No weekly sale orders have been invoiced'
+log(message)
+
+# Calculate start and end of montly period.
+today = datetime.datetime.now().date()
+frequency_monthly_id = env.ref('sale_invoice_frequency.sale_invoice_frequency_monthly')
+first_day_of_this_month = today.replace(day=1)
+last_month_end = first_day_of_this_month - datetime.timedelta(days=1)
+last_month_start = last_month_end.replace(day=1)
+# raise UserError([last_month_start, last_month_end])
+
+# Invoice sale orders of last month
+invoiced_order_names = []
+order_last_month_groups = env['sale.order']._read_group(
+  domain=[
+    ('joboffer_id','!=',False),
+    # ('date_order', '>=', last_month_start),
+    ('date_order', '<=', last_month_end),
+    ('invoice_status','=','to invoice'),
+    ('invoice_frequency_id','=',frequency_monthly_id.id)
+  ],
+  fields=['partner_invoice_id'],
+  groupby=['partner_invoice_id']
+)
+# raise UserError([order_last_month_groups])
+try:
+  for group in order_last_month_groups:
+    domain = group.get('__domain')
+    orders = env['sale.order'].search(domain).sorted(lambda o: o.joboffer_id.ref)
+    orders._create_invoices()
+    orders.invoice_ids.write({'to_check': True})
+    if post_invoices:
+      orders.invoice_ids.action_post()
+    if print_invoices:
+      env['ir.actions.report']._render_qweb_pdf(invoice_report, res_ids=orders.invoice_ids.ids)
+    invoiced_order_names += orders.mapped('name')
+    log('Created invoices for: ' + ', '.join(orders.mapped('name')))
+    env.cr.commit()
+except Exception as err:
+  message = 'The invoicing of monthly sale orders failed, the following error occured: ' + str(err)
+  log(message, level='error')
+  env['mail.mail'].create({
+    'subject': 'Error in monthly sale order invoicing',
+    'body_html': message,
+    'email_to': 'sysadmin@sozialinfo.ch',
+  }).send()
+message = 'The sale orders of last month have been invoiced: ' + ', '.join(invoiced_order_names) if invoiced_order_names else 'No monthly sale orders have been invoiced'
+log(message)
+
+# action = {
+# 	'type': 'ir.actions.client',
+# 	'tag': 'display_notification',
+# 	'params': {
+# 		'type': 'success',
+# 		'message': message,
+# 		'sticky': True
+# 	}
+# }
+```
 
 ## Automatisierte Aktionen
 

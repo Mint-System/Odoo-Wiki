@@ -12,7 +12,7 @@ Odoo ist auch ein Kommunikationssystem. Mit Odoo können Sie den internen und ex
 
 Zum besseren Verständnis zeigt die folgende Grafik wie Odoo die Kommunikations-Tools abgebildet hat:
 
-## Odoo Mail Workflow
+## Odoo Mail Flow
 
 Typischerweise läuft die Odoo Mail-Kommunikation in diesem Schema ab:
 

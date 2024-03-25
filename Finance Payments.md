@@ -52,7 +52,7 @@ Angenommen Sie haben Stammdaten oder Kontoangaben der Lieferanten angepasst und 
 ![](attachments/Finanzen%20Zahlungen%20Datei%20herunterladen.png)
 
 ::: warning
-Falls Sie beim Neugenerieren der Zahlung einen Fehler erhalten, müssen Sie die Zahlungen zurücksetzen.
+Falls Sie beim Neu generieren der Zahlung einen Fehler erhalten, müssen Sie die Zahlungen zurücksetzen.
 
 ![](attachments/Finanzen%20Zahlung%20gesendet%20Fehler.png)
 :::
@@ -79,7 +79,9 @@ Wählen Sie *Zahlung Erfassen*. Schliessen Sie den Dialog. Nun wird für jede Re
 
 ### QR-IBAN speichern
 
-Zur Speicherung der QR-IBAN gibt es auf dem Bankkonto ein entsprechendes Feld. Navigieren Sie nach *Finanzen > Konfiguration > Bankkonten*, wählen Sie das Bankkonto aus und tragen Sie im Feld *QR-IBAN* die Nummer ein.
+Zur Speicherung der QR-IBAN gibt es auf dem Bankkonto ein entsprechendes Feld. Navigieren Sie nach *Kontakte > Konfiguration > Bankkonten*, wählen Sie das Bankkonto aus und tragen Sie im Feld *Kontonummer* die Nummer ein. Odoo prüft dann, ob es sich um eine QR-IBAN handelt und kopiert die Kontonummer zusätzlich im Feld *QR-IBAN* ein.
+
+::: warning Geben Sie *nicht* unterschiedliche Kontonummern in den beiden Feldern ein. Ansonsten erkennt Odoo das Konto nicht als QR-IBAN und die Erstellung von QR-Rechnungen ist dann für dieses Bankkonto nicht möglich.  :::
 
 ### QR-Code Zahlungstyp festlegen
 
@@ -172,6 +174,14 @@ Navigieren Sie nach *Finanzen > Kunden > Zahlung* und erfassen Sie eine Zahlung:
 * **Journal**: Hier wählen Sie das passende Journal (Bank oder Kasse) aus
 
 Buchen Sie die Zahlung mit *Bestätigung*.
+
+### Sammelzahlung von Kunde erfassen
+
+Wenn Sie eine Anzeige für eine Sammelzahlung eines Kunden erhalten, können Sie diese auf zwei Wege erfassen und abstimmen. Entweder erfassen Sie die Sammelzahlung als eingehende Zahlung und gleichen diese mit den Kundenrechnungen ab oder Sie markieren die Kundenrechnungen und erfassen eine Zahlung.
+
+::: tip
+Wenn auf der Sammelrechnung eine Unter oder Überzahlung gemacht wurde, können Sie die Differenz im Abstimmungs-Dialog als manuelle Buchung ausgleichen.
+:::
 
 ## Anzahlungen
 

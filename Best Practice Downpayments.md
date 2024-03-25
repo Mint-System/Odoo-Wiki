@@ -43,7 +43,7 @@ Mit der Anzahlung wird der Betrag auf das Konto *2030 Erhaltene Anzahlungen* bla
 
 ### Gutschrift
 
-Sobald der Kunde die Rechnung bezahlt, erhalten Sie über das eBanking einen entsprechenden Beleg zum Abgleich. Diesen Beleg gleichen Sie mit der Anzahlungsrechnung ab und erstellen eine [Gutschrift](Invoicing.md#Gutschrift%20erstellen). Mit der Gutschrift wird das Konto *2030 Erhaltene Anzahlungen* wieder ausgeglichen.
+Sobald der Kunde die Rechnung bezahlt, erhalten Sie über das eBanking einen entsprechenden Beleg zur Abstimmung. Diesen Beleg gleichen Sie mit der Anzahlungsrechnung ab und erstellen eine [Gutschrift](Invoicing.md#Gutschrift%20erstellen). Mit der Gutschrift wird das Konto *2030 Erhaltene Anzahlungen* wieder ausgeglichen.
 
 | Buchungssatz                                      | Konto                                                       | Buchungstext         | Soll         | Haben        |
 | ------------------------------------------------- | ----------------------------------------------------------- | -------------------- | ------------ | ------------ |

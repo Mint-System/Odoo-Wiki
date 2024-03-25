@@ -14,8 +14,8 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 ## Bereiche
 
-| Erweiterung                                     | Beschreibung                           |
-| ----------------------------------------------- | -------------------------------------- |
+| Erweiterung                                            | Beschreibung                           |
+| ------------------------------------------------------ | -------------------------------------- |
 | [Rechnungsstellung Mahnungen](Invoicing%20Reminder.md) | Mahnberichte erstellen und verschicken |
 
 ## Erweiterungen
@@ -25,8 +25,10 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Account Invoice Carrier](Account%20Invoice%20Carrier.md)                                     | Auslieferungsmethode auf Rechnung hinterlegen.                                                     |
 | [Account Invoice Comment](Account%20Invoice%20Comment.md)                                     | Kommentarfeld auf Rechnung.                                                                        |
 | [Account Invoice Detail](Account%20Invoice%20Detail.md)                                       | Verkaufskontakt auf Rechnung einblenden.                                                           |
+| [Account Invoice Move Date](Account%20Invoice%20Move%20Date.md)                               | Buchungs- und Rechnungsdatum unabhängig definieren.                                                |
 | [Account Invoice Multiline Ref](Account%20Invoice%20Multiline%20Ref.md)                       | Kundenreferenz auf Verkaufsauftrag und Rechnung mit mehreren Zeilen.                               |
 | [Account Invoice Notes](Account%20Invoice%20Notes.md)                                         | Zusätzliche Header und Footer Notizen kopiert von Verkaufsauftrag.                                 |
+| [Account Invoice Outstanding Credit](Account%20Invoice%20Outstanding%20Credit.md)             | Filtern Sie Kundenrechnungen mit offenen Gutschriften.                                             |
 | [Account Invoice Overdue Reminder](Account%20Invoice%20Overdue%20Reminder.md)                 | Einfache Lösung zum Versenden von Zahlungserinnerungen.                                            |
 | [Account Invoice Sale Partner](Account%20Invoice%20Sale%20Partner.md)                         | Verkaufsadresse auf Rechnung festlegen.                                                            |
 | [Account Invoice Select Bank](Account%20Invoice%20Select%20Bank.md)                           | Bankkonto anhand Währung auswählen.                                                                |
@@ -37,7 +39,9 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Purchase Invoice Prepare Partner](Purchase%20Invoice%20Prepare%20Partner.md)                 | Kontakte aus Bestellung auf Rechnung kopieren.                                                     |
 | [Sale Invoice Carrier](Sale%20Invoice%20Carrier.md)                                           | Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus Verkaufsaufträgen übertragen. |
 | [Sale Invoice Cash Rounding Default](Sale%20Invoice%20Cash%20Rounding%20Default.md)           | Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.              |
-| [Sale Invoice Line Description](Sale%20Invoice%20Line%20Description.md)                       | Buchungszeilen generiert aus Verkaufsaufträgen enhalten nur den Anzeigenamen des Produkts.         |
+| [Sale Invoice Frequency](Sale%20Invoice%20Frequency.md)                                       | Verrechnungsintervalle auf Kontakte und Verkaufsaufträge.                                          |
+| [Sale Invoice Ignore Ref](Sale%20Invoice%20Ignore%20Ref.md)                                   | Zahlungsreferenz bei Abrechnung nicht auf Rechnung übertragen.                                     |
+| [Sale Invoice Line Description](Sale%20Invoice%20Line%20Description.md)                       | Buchungszeilen generiert aus Verkaufsaufträgen enthalten nur den Anzeigenamen des Produkts.        |
 | [Sale Invoice Prepare Bank](Sale%20Invoice%20Prepare%20Bank.md)                               | Bankkonto anhand Währung auswählen.                                                                |
 | [Sale Invoice Prepare Partner](Sale%20Invoice%20Prepare%20Partner.md)                         | Kontakte aus Verkaufsauftrag auf Rechnung kopieren.                                                |
 | [Sales Order Invoicing Grouping Criteria](Sales%20Order%20Invoicing%20Grouping%20Criteria.md) | Kriterien zur Gruppierung in der Rechnungstellung festlegen.                                       |
@@ -50,7 +54,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 ### Rechnung zurücksetzen
 
-Um eine gebucht Rechnung zurückzusetzen navigieren Sie nach nach *Rechnungsstellung > Kunden > Rechnungen* und zeigen eine augewählte Rechnung an. Wählen Sie die Aktion *Zurücksetzen* damit die Rechnung in den Status *Entwurf* gesetzt wird.
+Um eine gebucht Rechnung zurückzusetzen navigieren Sie nach nach *Rechnungsstellung > Kunden > Rechnungen* und zeigen eine ausgewählte Rechnung an. Wählen Sie die Aktion *Zurücksetzen* damit die Rechnung in den Status *Entwurf* gesetzt wird.
 
 ::: tip
 Wurde die erstellte Rechnung bereits auf Status *Gebucht* gesetzt, so kann diese Rechnung nur teilweise korrigiert oder gelöscht werden.
@@ -92,7 +96,7 @@ Navigieren Sie nach *Kontakte > Konfiguration > Bankverzeichnis* und erstellen S
 
 ### Bankkonto erfassen
 
-Navigieren Sie nach *Kontakte > Konfiguration > Bankkonten* und erstellen Sie einen neuen Eintrag. Geben Sie *Kontonummber* (IBAN) und den *Kontoinhaber* ein. Wählen oder erstellen Sie eine Bank im Feld *Bank*.
+Navigieren Sie nach *Kontakte > Konfiguration > Bankkonten* und erstellen Sie einen neuen Eintrag. Geben Sie *Kontonummer* (IBAN) und den *Kontoinhaber* ein. Wählen oder erstellen Sie eine Bank im Feld *Bank*.
 
 ### Bankkonto zu Lieferant hinzufügen
 
@@ -114,7 +118,7 @@ Wenn Sie alle erfassten Bankkonten in einer Listen anzeigen möchten, navigieren
 
 ### Rechnungsadresse ändern
 
-Angenommen Sie möchten die Empfängeradresse einer gebuchten Rechnung ändern, so setzen Sie diese Rechnung mit *Zurücksetzen* in den Entwurfsstatus. Anschliessen können Sie das Feld *Kunde* wieder bearbeiten. Passen Sie die Adresse an und buchen Sie die Rechnung wieder.
+Angenommen Sie möchten die Empfängeradresse einer gebuchten Rechnung ändern, so setzen Sie diese Rechnung mit *Zurücksetzen* in den Entwurfsstatus. Anschliessend können Sie das Feld *Kunde* wieder bearbeiten. Passen Sie die Adresse an und buchen Sie die Rechnung wieder.
 
 ### Warnung für den Rechnungskontakt festlegen
 

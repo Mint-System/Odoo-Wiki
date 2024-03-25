@@ -14,6 +14,10 @@ Website: <https://www.odoo.com/de_DE/app/point-of-sale-shop>
 
 ## Konfiguration
 
+### Produkte für Kassensystem verfügbar machen
+
+Um bestehende Produkte für das Kassensystem verfügbar zu machen, navigieren Sie nach *Verkauf > Produkte > Produkte* und öffnen ein Produkt. Im Tab *Verkauf* aktivieren Sie die Option *Verfügbar im Kassensystem*.
+
 ### Zahlungsmethode mit Six-Terminal erfassen
 
 Naivigieren Sie nach *Point of Sale > Konfiguration > Zahlungsmethoden* und wählen Sie einen bestehenden Eintrag aus. Wählen Sie *Aktion > Duplizieren* und vergeben Sie einen neuen Namen, beispielsweise *Six*. Treffen Sie im Feld *Zahlungsterminal verwenden* eine Auswahl und geben Sie im Feld *Six Terminal IP* eine IP-Adresse ein.

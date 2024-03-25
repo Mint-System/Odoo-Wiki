@@ -4,7 +4,7 @@ description: Alle Abonnenten nach Versenden der Bestellung entfernen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./discuss
+prev: ./dialog
 ---
 # Purchase Order Send Unsubscribe
 ![icon_oms_box](attachments/icon_oms_box.png)

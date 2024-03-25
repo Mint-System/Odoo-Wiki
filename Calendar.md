@@ -24,7 +24,7 @@ Damit die Kalender-Synchronisation möglich ist, müssen Sie [Odoo als OAuth-App
 
 * **Name**: Odoo Kalender
 * **Unterstützte Kontentypen**: Konten in einem beliebigen Organisationsverziechnis (mehrinstanzenfähig)
-* **Redirect URI** `https://odoo.example.com/microsoft_account/authentication`
+* **Redirect URI**: `https://odoo.example.com/microsoft_account/authentication`
 
 Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Integration*. Aktivieren Sie die Option *Outlook-Kalender*. Füllen Sie die Felder *Client ID* und *Client Secret* mit den Werten aus der Registration der OAuth-app aus.
 

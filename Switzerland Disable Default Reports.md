@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 ## Verwendung
 
-### Rechung ohne Standardberichte versenden
+### Rechnung ohne Standardberichte versenden
 
 Mit dieser Erweiterung wird die Generierung der Standardberichte deaktiviert. Es wird nur der Bericht, der in der E-Mail-Vorlage definiert ist, geladen.
 

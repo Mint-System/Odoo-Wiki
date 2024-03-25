@@ -20,6 +20,27 @@ Repository: <https://github.com/OCA/partner-contact/tree/16.0/partner_bank_code>
 
 Navigieren Sie nach *Kontakte > Konfiguration > Bankverzeichnis* und zeigen Sie einen Eintrag an. Im Feld *Bank Code* können Sie eine eindeutige Nummer, beispielsweise die *SIC*,  hinterlegen.
 
+## Aktionen
+
+### Bank verknüpfen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Bank verknüpfen`\
+Modell: `res.partner.bank`\
+Folgeaktion: `Python-Code ausführen`\
+Python-Code:
+
+```python
+	for rec in records:
+	  bank_code = rec.sanitized_acc_number[4:9]
+	  bank = env['res.bank'].search([('bank_code', '=ilike', bank_code+'%')], limit=1)
+	  if bank:
+	    rec['bank_id'] = bank.id
+```
+
+Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+
 ## Automatisierte Aktionen
 
 ### Bankkonto mit Bank verknüpfen
@@ -33,6 +54,7 @@ Modell: `res.partner.bank`\
 Auslöser: Bei Erstellung und Aktualisierung\
 Trigger-Felder: `acc_number`\
 Abgrenzung vor Aktualisierung: `[("sanitized_acc_number", "!=", False)]`\
+Anzuwenden auf: `[("bank_id", "=", False)]`\
 Folgeaktion: Python-Code ausführen\
 Python Code:
 

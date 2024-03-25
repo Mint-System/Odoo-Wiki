@@ -32,6 +32,25 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Transfers erscheint nun in der Auswahl *Aktion* das Menu *Transfer zurücksetzen*.
 
+### Transfer zurücksetzen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Transfer zurücksetzen`\
+Modell: `stock.picking`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for record in records:
+  record.move_lines.write({'state': 'draft'})
+  record.move_line_ids.unlink()
+  record.write({'state': 'draft'})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
 ### Lagerbuchung abbrechen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
@@ -50,23 +69,6 @@ for record in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
-
-### Produktbewegung abbrechen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Produktbewegung abbrechen`\
-Modell: `stock.move.line`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
-
-```python
-for record in records:  
-  record.write({'state': 'cancel'})
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 ### Lagerbuchung zurücksetzen
 
@@ -89,11 +91,11 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *
 
 ![](attachments/Lager%20Aktion%20%20Lagerbuchung%20Zurücksetzen%20erstellen.png)
 
-### Als verfügbar markieren
+### Lagerbuchung als verfügbar markieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Als verfügbar markieren`\
+Name der Aktion: `Lagerbuchung als verfügbar markieren`\
 Modell: `stock.move`\
 Folgeaktion: `Python-Code ausführen`
 
@@ -128,6 +130,23 @@ for record in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung erledigen*.
+
+### Produktbewegung abbrechen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Produktbewegung abbrechen`\
+Modell: `stock.move.line`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for record in records:  
+  record.write({'state': 'cancel'})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 ### Reservationsdatum aktualisieren
 
@@ -301,7 +320,7 @@ In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Reser
 
 ### Nicht reserverierte Mengen anzeigen
 
-Dieser Serveraktion erstellt eine Prüfbericht zu den Material-Reservationen.
+Dieser Aktion erstellt eine Prüfbericht zu den Material-Reservationen.
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -393,7 +412,7 @@ There is no exiting quants despite its `reserved_quantity`
 
 ### Nicht reservierte Mengen korrigieren
 
-Diese Serveraktion korrigiert die falsch reservierten Mengen.
+Diese Aktion korrigiert die falsch reservierten Mengen.
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 

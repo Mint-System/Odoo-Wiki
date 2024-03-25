@@ -4,7 +4,7 @@ description: Odoo Promotion aus E-Mail-Vorlagen entfernen.
 tags:
 - HowTo
 - OCA
-prev: ./discuss
+prev: ./dialog
 ---
 # Mail Debrand
 ![icon_oca_app](attachments/icon_oca_app.png)

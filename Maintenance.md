@@ -14,15 +14,16 @@ Website: <https://www.odoo.com/de_DE/app/maintenance>
 
 ## Erweiterungen
 
-| Erweiterung                                                                 | Beschreibung                             |
-| --------------------------------------------------------------------------- | ---------------------------------------- |
-| [Maintenance Equipment Image](Maintenance%20Equipment%20Image.md)           | Bild auf Inventar hinzufügen.            |
-| [Maintenance Equipments Hierarchy](Maintenance%20Equipments%20Hierarchy.md) | Inventar hierarchisch gliedern.          |
-| [Maintenance Plan Activity](Maintenance%20Plan%20Activity.md)               | Wartungspläne mit Aktivitäten erstellen. |
-| [Maintenance Plan](Maintenance%20Plan.md)                                   | Wartungspläne für Inventar erstellen.    |
-| [Maintenance Product](Maintenance%20Product.md)                             | Produkt und Inventar verknüpfen.         |
-| [Maintenance Request Repair](Maintenance%20Request%20Repair.md)             | Reparatur aus Wartung erstellen.         |
-| [Stock Barcode Maintenance](Stock%20Barcode%20Maintenance.md)               | Barcode scannen und Inventar anzeigen.   |
+| Erweiterung                                                                 | Beschreibung                                        |
+| --------------------------------------------------------------------------- | --------------------------------------------------- |
+| [Maintenance Equipment Image](Maintenance%20Equipment%20Image.md)           | Bild auf Inventar hinzufügen.                       |
+| [Maintenance Equipments Hierarchy](Maintenance%20Equipments%20Hierarchy.md) | Inventar hierarchisch gliedern.                     |
+| [Maintenance Plan Activity](Maintenance%20Plan%20Activity.md)               | Wartungspläne mit Aktivitäten erstellen.            |
+| [Maintenance Plan Request Name](Maintenance%20Plan%20Request%20Name.md)     | Name von Wartungsplan in Wartungsanfrage übernehmen |
+| [Maintenance Plan](Maintenance%20Plan.md)                                   | Wartungspläne für Inventar erstellen.               |
+| [Maintenance Product](Maintenance%20Product.md)                             | Produkt und Inventar verknüpfen.                    |
+| [Maintenance Request Repair](Maintenance%20Request%20Repair.md)             | Reparatur aus Wartung erstellen.                    |
+| [Stock Barcode Maintenance](Stock%20Barcode%20Maintenance.md)               | Barcode scannen und Inventar anzeigen.              |
 
 ## Verwendung
 

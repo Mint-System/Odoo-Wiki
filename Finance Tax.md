@@ -48,7 +48,7 @@ Wird der entsprechende Steuersatz auf der Rechnungszeile verwendet, wird die MWS
 * **Steuergültigkeit**: Steuern nur für bestimmte Produktarten zulassen
 * **Betrag**: Der Prozentsatz
 
-Im Tab *Definition* werden die Konten für die Buchung und die Ziffer für den Umsatzsteuerbericht festlegt. Einmal für die Rechnung und einmal für die Gutschrift.
+Im Tab *Definition* werden die Konten für die Buchung und die Ziffer für den Steuerbericht festlegt. Einmal für die Rechnung und einmal für die Gutschrift.
 
 Im Tab *Erweiterte Optionen* haben Sie diese wichtigen Felder:
 
@@ -184,14 +184,34 @@ Wiederholen Sie diesen Vorgang für jedes EU-Land.
 
 ## Abrechnung
 
-### Abschlussbuchung Steuererklärung erstellen
+### Steuerbericht anzeigen
 
-Wenn Sie eine Abschlussbuchung für die Mehrwertsteuer vornehmen wollen, öffnen Sie *Finanzen > Berichtswesen > Umsatzsteuerbericht* und klicken auf *Abschlussbuchung*. Nun wird eine Buchung für die Steuererklärung gemäss Steuerperiode (siehe [Steuerperiode festlegen](#Steuerperiode%20festlegen)) erstellt. Dabei wird der Steuerbetrag aus dem zu schuldenden Steuerbetrag sowie Vorsteuerabzug gemäss Steuerkonten berechnet.
+Wenn Sie den Steuerbericht anzeigen möchten, wählen Sie *Buchhaltung > Berichtswesen > Steuerbericht*.
+
+::: tip
+Die Steuererklärung ist für Odoo ein Steuerbericht.
+:::
+
+### Steuererklärung anzeigen
+
+Odoo erstellt gemäss Seuerperiode automatisch die Steuererklärung. Zeigen Sie das Dashboard von *Buchhaltung* an und klicken Sie bei der Kachel *Sonstige* auf die Steuererklärung.
+
+![](attachments/Finance%20Tax%20Aktuelle%20Steuererklärung.png)
+
+### Steuerabschlussbuchung erstellen
+
+Wenn Sie eine Abschlussbuchung für die Steuererklärung vornehmen wollen, öffnen Sie *Finanzen > Berichtswesen > Steuerbericht* und klicken auf *Abschlussbuchung*.
+
+Odoo erstellt eine Buchung für die Steuererklärung gemäss Steuerperiode (siehe [Steuerperiode festlegen](#Steuerperiode%20festlegen)). Dabei wird der Steuerbetrag aus dem zu schuldenden Steuerbetrag sowie Vorsteuerabzug gemäss Steuerkonten berechnet.
 
 ![](attachments/Finanzen%20Mehrwertsteuer%20Abschlussbuchung.png)
 
+### Steuerabschlussbuchung aktualisieren
+
+Die Abschlussbuchung der Steuererklärung kann, sofern nicht gebucht, aktualisier werden. Zeigen Sie die Abschlussbuchung an und wählen Sie *-> Aktualisieren*.
+
 ::: tip
-Standardmässig ist die Übersicht der Steuerkonten in der Navigation nicht sichtbar. Führen Sie die Aktion [Steuergruppen anzeigen](#Steuergruppen%20anzeigen) aus um einen entsprechenden Menü-Eintrag zu erstellen.
+Die Abschlussbuchung ist mit dem entsprechenden Steuerbericht über den Smart-Button verlinkt.
 :::
 
 ### Vereinnahmte Buchungen aufgrund von Zahlungen anzeigen
@@ -202,7 +222,7 @@ Wenn Sie [nach vereinnahmten Entgelten verrechnen](#Nach%20vereinnahmten%20Entge
 
 ### Steueranpassung vornehmen
 
-Angenommen Sie haben auf einer Lieferantenrechnung eine falsche Steuer verrechnet und der Umsatzsteuerbericht ist bereits verbucht, so können Sie mit der Aktion *Finanzen > Finanzen > Steueranpassung* eine Korrekturbuchung erstellen. Geben Sie als Betrag den Steuerbetrag ein.
+Angenommen Sie haben auf einer Lieferantenrechnung eine falsche Steuer verrechnet und der Steuerbericht ist bereits verbucht, so können Sie mit der Aktion *Finanzen > Finanzen > Steueranpassung* eine Korrekturbuchung erstellen. Geben Sie als Betrag den Steuerbetrag ein.
 
 Hier ein Beispiel einer Lieferantenrechung zur Korrektur:
 ![](attachments/Finanzen%20Mehrwertsteuer%20Steueranpassung%20Rechnung.png)
@@ -225,24 +245,24 @@ Das Menü *Konten-Tags* wird nur im Entwicklermodus angezeigt. Um das Verhalten 
 
 Ab #Odoo15 : Navigieren Sie nach *Finanzen > Konfiguration > Steuergruppen*.
 
-Bis #Odoo15: Damit Sie eine Übersicht der Steuergruppen erhalten,müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüposten* einen neuen Eintrag anlegen.
+Bis #Odoo15: Damit Sie eine Übersicht der Steuergruppen erhalten,müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüposten* einen neuen Eintrag anlegen:
 
-Menü: `Steuergruppen`\
-Obermenü: `Finanzen/Konfiguration/Finanzen`\
-Aktion: `ir.actions.act_window` `Steuergruppen`\
-Nummernfolge: `10`
+* **Menü**: `Steuergruppen`
+* **Obermenü**: `Finanzen/Konfiguration/Finanzen`
+* **Aktion**: `ir.actions.act_window` `Steuergruppen`
+* **Nummernfolge**: `10`
 
-###  Aktivitätstyp für Umsatzsteuerbericht konfigurieren
+###  Aktivitätstyp für Steuerbericht konfigurieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Aktivitätstypen* und zeigen Sie den Typ *Umsatzsteuerbericht* an. Hier können Sie die Standardwerte für den Aktivitätstyp festlegen.
+Navigieren Sie nach *Einstellungen > Technisch > Aktivitätstypen* und zeigen Sie den Typ *Steuerbericht* an. Hier können Sie die Standardwerte für den Aktivitätstyp festlegen.
 
 ## Bezugssteuer
 
 ### Bezugssteuer einrichten
 
-Die bestehende Bezugssteuer *UST 7.7% Bezugssteuer* von Odoo ist für den Umsatzsteuerbericht unzureichend.
+Die bestehende Bezugssteuer *UST 8,1% Bezugssteuer* von Odoo ist für den Steuerbericht unzureichend.
 
-Gemäss [Steuersätze anpassen](#Steuersätze%20anpassen) können Sie eine Kopie von *UST 8,1% Bezugssteuer* und wie folgt anpassen:
+Gemäss [Steuersätze anpassen](#Steuersätze%20anpassen) können Sie eine Kopie von *UST 8,1% Bezugssteuer* machen und wie folgt anpassen:
 
 * **Steuerbezeichnung**: Bezugssteuer 8,1%
 * **Betrag**: 8.1000

@@ -4,7 +4,7 @@ description: Auswahl Nachrichen an Abonnenten verschicken.
 tags:
 - HowTo
 - OCA
-prev: ./discuss
+prev: ./dialog
 ---
 # Mail Optional Follower Notification
 ![icon_oca_app](attachments/icon_oca_app.png)

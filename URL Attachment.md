@@ -4,7 +4,7 @@ description: Url als Dokument anhängen.
 tags:
 - HowTo
 - OCA
-prev: ./discuss
+prev: ./dialog
 ---
 # URL Attachment
 ![icon_oca_app](attachments/icon_oca_app.png)

@@ -34,6 +34,7 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 | [Mail Optional Follower Notification](Mail%20Optional%20Follower%20Notification.md) | Auswahl Nachrichen an Abonnenten verschicken.                          |
 | [Mail Show Follower](Mail%20Show%20Follower.md)                                     | CC-Hinweis in E-Mail-Header einfügen.                                  |
 | [Mail Thread Context](Mail%20Thread%20Context.md)                                   | Automatisches Abonnieren deaktiveren.                                  |
+| [Mail Tracking Mailgun](Mail%20Tracking%20Mailgun.md)                               | Mailgun Events mit Webhook in Odoo empfangen.                          |
 | [Mail Unsubscribe](Mail%20Unsubscribe.md)                                           | Automatische Abmeldung der Follower vor dem Versand einer Nachricht.   |
 | [Purchase Order Send Unsubscribe](Purchase%20Order%20Send%20Unsubscribe.md)         | Alle Abonnenten nach Versenden der Bestellung entfernen.               |
 | [Purchase Order Unsubscribe](Purchase%20Order%20Unsubscribe.md)                     | Alle Abonnenten nach Bestätigung der Bestellung entfernen.             |
@@ -44,28 +45,6 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 ## Beschreibung
 
 Die App Dialog ist mit allen Odoo-Dokumente integriert. Sie ermöglicht die interne und externe Kommunikation im Kontext eines Dokuments. Bis #Odoo15 hat die *Diskussion* geheissen und *Follower* waren *Abonnemente*.
-
-## Nachrichten
-
-### Nachricht verschicken
-
-Im Chatter des Dokument wählen Sie den Tab *Sende Nachricht*. Geben Sie eine Nachricht eine und wählen Sie *Senden* um die Nachricht an den Empfänger zu schicken.
-
-::: warning
-Die Empfänger sind alle Follower des Dokuments.
-:::
-
-### Nachricht aus Mail-Vorlage verschicken
-
-Im Chatter des Dokument wählen Sie den Tab *Sende Nachricht*. Klicken Sie auf das Icon unten rechts im Eingabe-Fenster um den Dialog zu vergrössern.
-
-![](attachments/Dialog%20Extend%20Editor.png)
-
-Wählen Sie im Feld *Benutze Vorlage* ein Mail-Vorlage aus. Odoo füllt die Platzhalter aus und Sie können die Nachricht mit *Senden* an den Empfänger verschicken.
-
-::: warning
-Die Eingaben in *Empfänger* werden mit den Follower des Dokuments kumuliert.
-:::
 
 ## Follower
 
@@ -99,11 +78,33 @@ Wenn Sie oder ein anderer Benutzer einem Dokument folgen, speichert das Odoo in 
 Das löschen von Follower kann die Kommunikation in der App Dialog beeinflussen.
 :::
 
-## Benachrichtigungen
+## Nachrichten
+
+### Nachricht verschicken
+
+Im Chatter des Dokument wählen Sie den Tab *Sende Nachricht*. Geben Sie eine Nachricht eine und wählen Sie *Senden* um die Nachricht an den Empfänger zu schicken.
+
+::: warning
+Die Empfänger sind alle Follower des Dokuments.
+:::
+
+### Nachricht aus E-Mail-Vorlage verschicken
+
+Im Chatter des Dokument wählen Sie den Tab *Sende Nachricht*. Klicken Sie auf das Icon unten rechts im Eingabe-Fenster um den Dialog zu vergrössern.
+
+![](attachments/Dialog%20Extend%20Editor.png)
+
+Wählen Sie im Feld *Benutze Vorlage* ein E-Mail-Vorlage aus. Odoo füllt die Platzhalter aus und Sie können die Nachricht mit *Senden* an den Empfänger verschicken.
+
+::: warning
+Die Eingaben in *Empfänger* werden mit den Follower des Dokuments kumuliert.
+:::
 
 ### Benachrichtigungen anzeigen
 
 Wenn Odoo Nachrichten versendet, werden abonnierte Benutzer benachrichtigt. Diese Benachrichtigungen können via *Einstellungen > Technisch > Benachrichtigungen* angezeigt werden.
+
+## Subtypen
 
 ### Subtypen verwalten
 
@@ -114,16 +115,24 @@ Navigieren Sie nach *Einstellungen > Technisch > Subtypen* und zeigen Sie beispi
 Konfigurieren Sie den Subtypen gemäss Anforderungen:
 
 * **Standard**: Wird beim Abonnieren automatisch ausgewählt.
-* **Nur interne**: Nur für interne Benutzer sichtbar.
+* **Nur interne**: Nachrichten nur für interne Benutzer sichtbar.
 * **Versteckt**: Subtyp wird auf Abonnement-Formular ausgeblendet.
 
 ### Subtyp auf Abonnement aktivieren
 
-Zeigen Sie ein Odoo Dokument an und beareiten Sie ein Abonnement.
+Zeigen Sie ein Odoo Dokument an und bearbeiten Sie ein Abonnement.
 
 ![](attachments/Dialog%20Follower%20bearbeiten.png)
 
 Wählen Sie die Subtypen aus, welche für das Abonnement aktiv sein sollen.
+
+### Nachrichten nur an interne Benutzer schicken
+
+Benutzer werden standardmässig mit dem Subtyp *Diskussion* abonniert. Damit Nachrichten ohne expliziten Emfänger nur an interne Kontakte verschickt werden können, müssen Sie diesen Subtyp anpassen. Navigieren Sie nach *Einstellungen > Technisch > Subtypen* und zeigen Sie den Subtypen *Diskussion* an. Aktivieren Sie die Option *Nur interne*.
+
+::: tip
+Um eine Nachricht explizit an externe Benutzer zu schicken, wählen Sie beim Nachrichten versenden eine E-Mail-Vorlage aus oder fügen den Empfänger manuell hinzu.
+:::
 
 ## Kanäle
 

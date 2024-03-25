@@ -1,11 +1,11 @@
 ---
-title: Account Statement Import CAMT
-description: Support Import Bankauszug im CAMT-Format.
+title: Account Statement Import Camt
+description: Support Import Bankauszug im Camt-Format.
 tags:
 - HowTo
 prev: ./finance
 ---
-# Account Statement Import CAMT
+# Account Statement Import Camt
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
