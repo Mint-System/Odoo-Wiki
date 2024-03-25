@@ -15,7 +15,11 @@ Zur Generierung einer QR-Rechnung müssen verschiedene Bedingungen erfüllt sien
 * Die Währung der Rechnung ist *EUR* oder *CHF*: [Währung auf Rechnung festlegen](Finance%20Multicurrency.md#Währung%20auf%20Rechnung%20festlegen)
 * Der *Payment QR-code* ist *Swiss QR bill*: [QR-Code Zahlungstyp festlegen](Finance%20Payments.md#QR-Code%20Zahlungstyp%20festlegen)
 
-Sind diese Bedingungen erfüllt, kann mit der *Print QR-Bill* Aktion eine QR-Rechnung generiert werden. 
+Sind diese Bedingungen erfüllt, kann mit der *Print QR-Bill* Aktion eine QR-Rechnung generiert werden.
+
+::: tip
+Um den QR-Code der QR-Rechnung zu validieren, können Sie die PDF-Datei auf <https://www.swiss-qr-invoice.org/validator/> hochladen und validieren.
+:::
 
 ## Rechnung und QR-Rechnung zusammen drucken
 
