@@ -175,7 +175,7 @@ Den Kontenplan können Sie nach beliebigen Merkmalen gruppieren und die Gruppier
 Navigieren Sie nach *Finanzen > Konfiguration > Kontengruppen* und fügen eine Kontengruppe hinzu.
 
 * **Name**: Name der Kontengruppe
-* **Code-Präfix Von bis**: Bereiech der Kontennummer welche dieser Gruppe hinzugefügt werden
+* **Code-Präfix Von bis**: Bereich der Kontennummer welche dieser Gruppe hinzugefügt werden
 
 ### Kontoarten anzeigen
 
