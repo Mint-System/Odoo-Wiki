@@ -142,6 +142,10 @@ Navigieren Sie nach *Finanzen > Konfiguration > Kontenplan* und erstellen Sie ei
 * **Typ**: Position in der Bilanz
 * **Erlaube Abstimmung**: Buchungszeilen können mit Bankbeleg abgeglichen werden
 
+::: tip
+Falls die Meldung *Prüfungsfehler* erscheint und Sie ein neues Konto mit einer bestimmten Kurzbezeichnung nicht erstellen können, dann ist es vielleicht schon vorhanden aber wegen dem Standardfilter *Aktiver Account* nicht sichtbar. Schalten Sie ihn aus um auch Konten anzuzeigen die das Attribut *Nicht mehr verwenden* eingeschaltet haben.
+
+
 ### Kontenplan einrichten
 
 Öffnen Sie die Finanz-App und richten Sie den Standard-Kontenplan ein. Navigieren Sie nach *Finanzen > Konfiguration > Finanzen > Kontenplan*.
