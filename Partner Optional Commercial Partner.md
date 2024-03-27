@@ -28,3 +28,7 @@ Standardmässig wird auf Kontakten, die einem Unternehmen zugeordnet sind, als H
 Wenn Sie eine Rechnung mit einem konfigurierten Kontakt erstellen, wird als Handelsgesellschaft der Kunde und nicht das Unternehmen verwendet.
 ![](attachments/Partner%20Optional%20Commercial%20Partner.png)
 :::
+
+::: warning
+Auf der Aktion *Mahnberichte* muss der Inhalt des Felds *Wertebereich* entfernt werden. Ansonsten sind Kontakte, die als Handelsgesellschaft markiert sind und einem Unternehmen zugeordnet sind, nicht sichtbar.
+:::
