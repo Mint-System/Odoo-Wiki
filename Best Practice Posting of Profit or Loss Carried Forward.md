@@ -7,7 +7,7 @@ prev: ./best-practice
 ---
 # Buchung Gewinn-/Verlustvortrag
 
-In diesem Artikel wird anhand eines einfachen Beispiels erläutert wie man den Gewinn-/Verlustvortrag mit Odoo verbucht.
+In diesem Artikel wird anhand eines einfachen Beispiels erläutert wie man den Gewinn-/Verlustvortrag mit #Odoo15 verbucht.
 
 ## Bilanz altes Jahr
 
@@ -17,10 +17,10 @@ Es wird angenommen das Unternehmen hat im Jahr 2022 mit einem Eigenkapital von 2
 * **Buchungsdatum**: 01.01.2022
 * **Journal**: Sonstige Operationen
 
-| Konto             |     Soll |     Haben |
-| ----------------- | --------:| ---------:|
-| 2800 Grundkapital | 0.00 CHF |  20'000 CHF |
-| 1024 Bank         | 20'000 CHF | 0.00 CHF |
+| Konto             |       Soll |      Haben |
+| ----------------- | ----------:| ----------:|
+| 2800 Grundkapital |            | 20'000 CHF |
+| 1024 Bank         | 20'000 CHF |            |
 
 
 * **Referenz**: Lohnzahlung
@@ -29,8 +29,8 @@ Es wird angenommen das Unternehmen hat im Jahr 2022 mit einem Eigenkapital von 2
 
 | Konto                   |       Soll |      Haben |
 | ----------------------- | ----------:| ----------:|
-| 5000 Löhne und Gehälter | 15'000 CHF |   0.00 CHF |
-| 1024 Bank               |   0.00 CHF | 15'000 CHF |
+| 5000 Löhne und Gehälter | 15'000 CHF |            |
+| 1024 Bank               |            | 15'000 CHF |
 
 Am Ende des Jahres sieht die Bilanz wie folgt aus:
 
@@ -53,8 +53,8 @@ Dazu die Buchungen:
 
 | Konto                                |       Soll |      Haben |
 | ------------------------------------ | ----------:| ----------:|
-| 999999 Unverteilte Gewinne/Verluste  |   0.00 CHF | 15'000 CHF |
-| 2979 Jahresgewinn oder Jahresverlust | 15'000 CHF |   0.00 CHF |
+| 999999 Unverteilte Gewinne/Verluste  |            | 15'000 CHF |
+| 2979 Jahresgewinn oder Jahresverlust | 15'000 CHF |            |
 
 Im neuen Jahr wir der Gewinn/Verlust als Vortrag verbucht.
 
@@ -64,8 +64,8 @@ Im neuen Jahr wir der Gewinn/Verlust als Vortrag verbucht.
 
 | Konto                                |       Soll |      Haben |     |
 | ------------------------------------ | ----------:| ----------:| --- |
-| 2979 Jahresgewinn oder Jahresverlust |   0.00 CHF | 15'000 CHF |     |
-| 2970 Gewinnvortrag / Verlustvortrag  | 15'000 CHF |   0.00 CHF |     |
+| 2979 Jahresgewinn oder Jahresverlust |            | 15'000 CHF |     |
+| 2970 Gewinnvortrag / Verlustvortrag  | 15'000 CHF |            |     |
 
 Der Jahresverlust ist auf 0.00 CHF und das Eigenkapital angepasst.
 
@@ -81,8 +81,8 @@ Verbuchen Sie im neuen Jahr wieder Aufwände:
 
 | Konto                   |      Soll |     Haben |
 | ----------------------- | ---------:| ---------:|
-| 5000 Löhne und Gehälter | 5'000 CHF |  0.00 CHF |
-| 1024 Bank               |  0.00 CHF | 5'000 CHF |
+| 5000 Löhne und Gehälter | 5'000 CHF |           |
+| 1024 Bank               |           | 5'000 CHF |
 
 Werden diese wieder als Jahresgewinn oder Jahresverlust aufgeführt.
 
