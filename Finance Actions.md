@@ -351,8 +351,26 @@ Python-Code:
 records.write({'to_check': True})
 ```
 
+
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
 
+### Abstimmung zurücksetzen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Abstimmung zurücksetzen`\
+Modell: `account.move.line`\
+Folgeaktion: Den Datensatz aktualisieren\
+Zu schreibende Daten:
+
+* Feld: `matching_number`
+* Bewertungstyp: Python Ausdruck
+* Wert: `None`
+* Feld: `reconciled`
+* Bewertungstyp: Python Ausdruck
+* Wert: `False`
+
+Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
 
 ## Geplante Aktionen
 
