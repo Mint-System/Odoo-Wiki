@@ -178,7 +178,7 @@ Navigieren Sie nach *Finanzen > Konfiguration > Kontengruppen* und fügen eine K
 * **Code-Präfix Von bis**: Bereich der Kontennummer welche dieser Gruppe hinzugefügt werden
 
 ::: tip
-Das Feld *Gruppe* muss möglicherweise noch eingeschaltet werden damit die so erstellte Kontogruppe einen Nutzen bringt.
+Das Feld *Gruppe* muss eingeschaltet sein damit die erstellte Kontogruppe einen Nutzen bringt.
 :::
 
 ### Kontoarten anzeigen
