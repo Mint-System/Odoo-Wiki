@@ -18,7 +18,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/15.0/
 
 ### Verkaufsadresse festlegen
 
-Mit dieser Erweiterung erhalten Sie als zusätzlichen Adresstype *Verkaufsadresse*.
+Mit dieser Erweiterung erhalten Sie als zusätzlichen Adresstyp *Verkaufsadresse*.
 
 ![](attachments/Partner%20Type%20Sale.png)
 
