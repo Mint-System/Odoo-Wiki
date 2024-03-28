@@ -109,10 +109,9 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
-records.ensure_one()
-field = records
-obj = env[field.model_id.model]
-env.add_to_compute(obj._fields[field.name], obj.search([]))
+for field in records:
+  obj = env[field.model_id.model]
+  env.add_to_compute(obj._fields[field.name], obj.search([]))
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
