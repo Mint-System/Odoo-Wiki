@@ -248,21 +248,6 @@ for line in records.invoice_line_ids:
 
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
 
-### Steuersatz entfernen
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Steuersatz entfernen`\
-Modell: `account.move.line`\
-Folgeaktion: `Python-Code ausführen`\
-Python-Code:
-
-```python
-records.write({'tax_ids': False})
-```
-
-Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
-
 ### Anhang entfernen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
@@ -369,6 +354,37 @@ Zu schreibende Daten:
 * Feld: `reconciled`
 * Bewertungstyp: Python Ausdruck
 * Wert: `False`
+
+Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+
+### Steuersatz entfernen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Steuersatz entfernen`\
+Modell: `account.move.line`\
+Folgeaktion: `Python-Code ausführen`\
+Python-Code:
+
+```python
+records.write({'tax_ids': False})
+```
+
+Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+
+### Konto aktualisieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Konto aktualisieren`\
+Modell: `account.move.line`\
+Folgeaktion: `Python-Code ausführen`\
+Python-Code:
+
+```python
+account_id = env.ref('l10n_ch.1_ch_coa_3400')
+records.write({'account_id': account_id.id})
+```
 
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
 
