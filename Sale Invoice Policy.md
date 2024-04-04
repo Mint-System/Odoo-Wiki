@@ -22,4 +22,4 @@ Navigieren Sie nach *Verkauf > Produkte > Produkte* und zeigen Sie ein Produkt a
 
 ### Abrechnungsregel auf Angebot festlegen
 
-Navigieren Sie nach *Verkauf* und zeigen Sie ein Angebot an.
+Navigieren Sie nach *Verkauf* und zeigen Sie ein Angebot an. Im Feld *Invoice Policy* wählen Sie die passende Abrechnungsregel aus.
