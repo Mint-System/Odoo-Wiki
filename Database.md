@@ -115,6 +115,10 @@ Jede Odoo Datenbank wird mit einem Universally unique Identifier (UUID) identifi
 
 Im Entwicklermodus navigieren Sie nach *Einstellungen > Technisch > Parameter > Systemparameter*. Auf der Kommandozeile geben Sie den Befehl `uuidgen` ein und legen die generierte UUID als Wert für den Parameter `database.uuid` fest.
 
+### Datenbank URL festlegen
+
+Im Entwicklermodus navigieren Sie nach *Einstellungen > Technisch > Parameter > Systemparameter*. Legen Sie für den Schlüssel `web.base.url` den Wert `	https://odoo.example.com` fest. 
+
 ## Infrastruktur
 
 ### Odoo Online Datenbank herunterladen
