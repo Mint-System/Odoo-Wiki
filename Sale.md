@@ -32,6 +32,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Blanket Order Comment](Sale%20Blanket%20Order%20Comment.md)                                 | Kommentar auf Rahmenauftrag.                                                  |
 | [Sale Company Currency](Sale%20Company%20Currency.md)                                             | Total der Verkaufsaufträge in Unternehmenswährung.                            |
 | [Sale Force Invoiced](Sale%20Force%20Invoiced.md)                                                 | Markieren Sie den Verkaufsauftrag als abgerechnet.                            |
+| [Sale Invoice Policy](Sale%20Invoice%20Policy.md)                                                 | Abrechnungsregel auf Produkte und Angebot festlegen.                          |
 | [Sale Order Archive](Sale%20Order%20Archive.md)                                                   | Abgebrochene Verkaufsaufträge archivieren.                                    |
 | [Sale Order Check Price](Sale%20Order%20Check%20Price.md)                                         | Preis vor Bestätigung des Angebots prüfen.                                    |
 | [Sale Order Comment](Sale%20Order%20Comment.md)                                                   | Kommentar auf Verkaufsauftrag.                                                |
