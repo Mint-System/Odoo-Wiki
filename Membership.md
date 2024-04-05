@@ -38,4 +38,3 @@ Wenn Sie die Option *Freie Mitglieder* deaktivieren, muss der Kontakt eine Mitgl
 ### Mitgliedschaft erwerben
 
 Zeigen Sie die App *Mitglieder* und entfernen Sie den Filter *Mitglieder*. Wählen Sie einen Kontakt aus und klicken Sie im Tab *Mitgliedschaft* auf *Mitgliedschaft erwerben*. Wählen Sie das Mitgliedschaftsprodukt aus und passen Sie wenn nötig den Preis an. Bestätigen Sie den Vorgang *Mitgliedsbeitragsrechnung* und Odoo erstellt eine Rechnung. Sobald die Rechnung gebucht ist, wird die Mitgliedschaft aktiviert.
-
