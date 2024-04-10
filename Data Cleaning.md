@@ -25,7 +25,7 @@ Suchen Sie nach Duplikaten mit *Deduplizieren*.
 Mit der Aktion *Zusammenführen* können Sie erkannten Duplikate bereinigt werden.
 
 ::: warning
-Der Bereinigungsvorgang berücksichtigt die Verknüpftung der Daten. In der Spalte *Verwendet bei* werden die verlinkten Objekte angezeigt.
+Der Bereinigungsvorgang berücksichtigt die Verknüpfung der Daten. In der Spalte *Verwendet bei* werden die verlinkten Objekte angezeigt.
 :::
 
 ### Odoo Bot Mail-Adresse ändern
