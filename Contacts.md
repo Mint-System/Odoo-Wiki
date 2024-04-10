@@ -159,6 +159,18 @@ Navigieren Sie nach *Einstellungen > Konfiguration > Bundesländer / Regionen*. 
 
 Navigieren Sie nach *Einstellungen > Konfiguration > Ländergruppe* und zeigen Sie einen Eintrag an.
 
+## Bereinigung
+
+### Kontakte zusammenführen
+
+Wenn Sie Duplikate in den Kontakten haben, können Sie diese markieren und mit *Aktion > Zusammenführen* entfernen. Im Zusammenführen-Dialog wählen Sie den originalen Kontakt aus und bestätigen den Vorgang mit *Kontakte Zusammenführen*.
+
+![](attachments/Contacts%20Merge.png)
+
+::: tip
+Odoo aktualisiert auch die verlinkten Dokumente wie Rechnungen und Verkaufsaufträge.
+:::
+
 ## Einstellungen
 
 ### Partner Autovervollständigung deaktivieren
