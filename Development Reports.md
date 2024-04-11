@@ -20,7 +20,7 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 |:--------------------------------- |:------------------------------------------------------------------------------- |
 | Angebot / Auftrag                 | `/report/html/sale.report_saleorder/$ID`                                        |
 | Angebotsanfrage                   | `/report/html/purchase.report_purchasequotation/$ID`                            |
-| Arbeitsraport (Rechnungsstellung) | `/report/html/account_sale_timesheet_report.timesheet_report/$ID`               | 
+| Arbeitsraport (Rechnungsstellung) | `/report/html/account_sale_timesheet_report.timesheet_report/$ID`               |
 | Arbeitsrapport (Verkauf)          | `/report/html/account_sale_timesheet_report.report_sale/$ID`                    |
 | Attendance and Leave              | `/report/html/hr_employee_attendance_report.res_users/$ID`                      |
 | Barcode EAN-13                    | `/report/barcode/?type=EAN13&value=0769503968353width=600&height=150`           |
@@ -32,7 +32,7 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Lieferschein (Aufgabe)            | `/report/html/forestry_timesheet.report_project_task_deliveryslip/$ID`          |
 | Lohnabrechnung                    | `/report/html/hr_payroll.report_payslip_lang/$ID`                               |
 | Packvorgänge                      | `/report/html/stock.report_picking/$ID`                                         |
-| QR-Rechnung                       | `/report/html/l10n_ch.qr_report_main/$ID`                                       |
+| QR-Rechnung                       | `/report/html/l10n_ch.qr_report_main/$ID`                                       | 
 | QR-Rechnung Header                | `/report/html/l10n_ch.qr_report_header/$ID`                                     |
 | Rahmenauftrag                     | `/report/html/sale_blanket_order.report_blanketorder/$ID`                       |
 | Rechnung mit Zeitnachweis         | `/report/html/account_sale_timesheet_report.report_invoice_with_timesheets/$ID` |

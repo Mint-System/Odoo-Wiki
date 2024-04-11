@@ -13,3 +13,11 @@ prev: ./contacts
 
 Technischer Name: `partner_contact_access_link`\
 Repository: <https://github.com/OCA/partner-contact/tree/16.0/partner_contact_access_link>
+
+## Beschreibung
+
+Diese Erweiterung fügt einen Link bei der Kachel der Unterkontakte hinzu.
+
+![](attachments/Partner%20Contact%20Access%20Link.png)
+
+Wenn Sie auf diesen Link klicken, wird der Unterkontakt in einem neuen Formular geöffnet.
