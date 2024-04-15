@@ -67,7 +67,7 @@ Als Personaldministrator können Sie alle Überstunden im Bericht *Anwesenheiten
 
 ### Alle Überstunden anzeigen
 
-Ab #Odoo15: Damit Sie eine Übersicht alle Überstunden erhalten, müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüposten* einen neuen Eintrag anlegen:
+Damit Sie eine Übersicht alle Überstunden erhalten, müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüposten* einen neuen Eintrag anlegen:
 
 * **Menü**: `Überstunden`
 * **Obermenü**: `Anwesenheiten`
