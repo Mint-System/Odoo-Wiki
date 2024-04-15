@@ -245,11 +245,20 @@ Das Menü *Konten-Tags* wird nur im Entwicklermodus angezeigt. Um das Verhalten 
 
 Ab #Odoo15 : Navigieren Sie nach *Finanzen > Konfiguration > Steuergruppen*.
 
-Bis #Odoo15: Damit Sie eine Übersicht der Steuergruppen erhalten,müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüposten* einen neuen Eintrag anlegen:
+Bis #Odoo15: Damit Sie eine Übersicht der Steuergruppen erhalten, müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüposten* einen neuen Eintrag anlegen:
 
 * **Menü**: `Steuergruppen`
 * **Obermenü**: `Finanzen/Konfiguration/Finanzen`
 * **Aktion**: `ir.actions.act_window` `Steuergruppen`
+* **Nummernfolge**: `10`
+
+### Steuertags anzeigen
+
+Damit Sie eine Übersicht der Steuertags erhalten, müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüposten* einen neuen Eintrag anlegen:
+
+* **Menü**: `Steuertags`
+* **Obermenü**: `Finanzen/Konfiguration/Finanzen`
+* **Aktion**: `ir.actions.act_window` `Konten Tags`
 * **Nummernfolge**: `10`
 
 ###  Aktivitätstyp für Steuerbericht konfigurieren
