@@ -119,6 +119,10 @@ Im Entwicklermodus navigieren Sie nach *Einstellungen > Technisch > Parameter > 
 
 Im Entwicklermodus navigieren Sie nach *Einstellungen > Technisch > Parameter > Systemparameter*. Legen Sie für den Schlüssel `web.base.url` den Wert `	https://odoo.example.com` fest. 
 
+::: tip
+Dieser Parameter wird von Odoo automatisch festgelegt. Um den Wert zu übersteuern, muss der Parameter `web.base.url.freeze` auf `True` gesetzt werden.
+:::
+
 ## Infrastruktur
 
 ### Odoo Online Datenbank herunterladen
