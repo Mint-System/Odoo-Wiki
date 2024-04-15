@@ -21,17 +21,13 @@ Gilt ab #Odoo15.
 
 ![](attachments/Anwesenheitszeiten%20Überstunden.png)
 
-Unter *Anwesenheitszweiten > Berichtswesen* können Sie die Überstunden der Mitarbeitenden anzeigen.
+Unter *Anwesenheitszeiten > Berichtswesen* können Sie die Überstunden der Mitarbeitenden anzeigen.
 
 ## Verwendung
 
 ### Eigene Überstunden anzeigen
 
 Mitarbeitende können Ihre Überstunden unter *Account > Mein Profil* anzeigen lassen. Die Summe der Überstunden wird über den gleichnamigen Smart-Link angezeigt.
-
-### Alle Überstunden anzeigen
-
-Als Personaldministrator können Sie alle Überstunden im Bericht *Anwesenheit > Berichtswesen* anzeigen lassen. Wählen Sie dazu *Werte > Überstunden*.
 
 ### Überstunden bei Abwesenheit abziehen
 
@@ -60,3 +56,21 @@ Wenn man die Abwesenheit rückgängig macht, löscht Odoo die betroffenen Übers
 Angenommen Sie haben Mitarbeiten im Stundenlohn und möchten für diese die Berechnung der Überstunden deaktiveren. Dazu müssen Sie eine [Flexible Arbeitszeit erfassen](HR.md#Flexible%20Arbeitszeit%20erfassen) und diese den entsprechenden Mitarbeitenden hinterlegen. Jede Arbeitsstunde wird mit deser Konfiguration als Überstunde gerechnet.
 
 Zusätzlich können Sie mit der geplanten Aktion die angefallenen [Überstunden entfernen](HR%20Attendance%20Actions.md#Überstunden%20entfernen).
+
+## Berichte
+
+### Überstunden in Bericht Anwesenheiten anzeigen
+
+Als Personaldministrator können Sie alle Überstunden im Bericht *Anwesenheiten > Berichtswesen* anzeigen lassen. Wählen Sie dazu *Werte > Überstunden*.
+
+## Technisch
+
+### Alle Überstunden anzeigen
+
+Ab #Odoo15: Damit Sie eine Übersicht alle Überstunden erhalten, müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüposten* einen neuen Eintrag anlegen:
+
+* **Menü**: `Überstunden`
+* **Obermenü**: `Anwesenheiten`
+* **Aktion**: `ir.actions.act_window` `Überstunden`
+* **Nummernfolge**: `20`
+* **Zugriffsrechte**: `Personal / Sachbearbeiter: Alle Mitarbeiter verwalten`

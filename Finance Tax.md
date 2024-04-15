@@ -239,6 +239,8 @@ Und daraus wird diese Buchung generiert.
 
 ### Konten-Tags ohne Entwicklermodus anzeigen
 
+Bis #Odoo15.
+
 Das Menü *Konten-Tags* wird nur im Entwicklermodus angezeigt. Um das Verhalten zu ändern, öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüposten*, zeigen den Menüposten *Konten-Tags* an und entfernen im Tab *Zugriffsrechte* die Gruppe. Aktualisieren Sie den Browser und verlassen Sie den Entwicklermodus. Sie sollten den Menüposten nun sehen.
 
 ### Steuergruppen anzeigen
