@@ -117,5 +117,5 @@ In diesem Fall würde man den Link mit diesen Inhalt ersetzen:
 ```
 
 ::: tip
-Eine weitere Möglichkeit zur Übersetzung ist den externen Link mit einer Umleitung zu übersetzen. Dazu können Sie eine [Umleitung einrichten](#Umleitung%20einrichten), einmal `/de_CH/example` und  `/fr/example`. 
+Eine weitere Möglichkeit zur Übersetzung von externen Links sind Umleitungen. Sie eine können den Inhalt mit einem internen Link `/example` verlinken und dazu zwei [Umleitungen einrichten](#Umleitung%20einrichten). Für den original Link leiten `/example` um und für den übersetzen Link leiten Sie  `/fr/example` um. 
 :::
