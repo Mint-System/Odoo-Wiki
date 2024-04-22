@@ -88,6 +88,10 @@ Die Eingabe des neues Feldes ist im Backend ersichtlich:
 
 ## Technisch
 
+### Umleitung einrichten
+
+Für bestimmte URL-Pfade, beispielsweise `/promo` können Sie eine Umleitung auf eine andere Seite einrichten. Navigieren Sie nach *Website > Konfiguration > Umleitungen* und erstellen Sie einen neuen Eintrag.
+
 ### Seiteninhalt in Backend bearbeiten
 
 Odoo speichert Seiteninhalte in QWeb-Ansichten. Aktivieren Sie den Entwicklermodus und navigieren Sie nach *Website > Site > Seiten*. Klicken Sie auf auf der ausgewählten Seite auf das Entwicklertools-Icon in der letzten Spalte.
@@ -111,3 +115,7 @@ In diesem Fall würde man den Link mit diesen Inhalt ersetzen:
 ```html
 <a t-if="request.context.get('lang') == 'de_CH'" href="https://clubofrome.de/die-grenzen-des-wachstums/" data-bs-original-title="" title="">Die Grenzen des Wachstums</a><a t-if="request.context.get('lang') == 'fr'" href="https://fr.wikipedia.org/wiki/Les_Limites_%C3%A0_la_croissance" data-bs-original-title="" title="">Les limites à la Croissance</a>
 ```
+
+::: tip
+Eine weitere Möglichkeit zur Übersetzung ist den externen Link mit einer Umleitung zu übersetzen. Dazu können Sie eine [Umleitung einrichten](#Umleitung%20einrichten), einmal `/de_CH/example` und  `/fr/example`. 
+:::
