@@ -104,17 +104,13 @@ Nun öffnet sich die Definition der QWeb-Ansicht und Sie können den Code direkt
 
 Eine Übersetzung der Link-Urls ist mit dem Odoo Website-Editor nicht möglich. Wenn Sie jedoch den [Seiteninhalt in Backend bearbeiten](#Seiteninhalt%20in%20Backend%20bearbeiten), können Sie eine Übersetzung mit einer Bedingung machen. Im folgenden Beispiel ist im Seiteinhalt dieser Link enthalten:
 
-```html
-<a href="https://clubofrome.de/die-grenzen-des-wachstums/" data-bs-original-title="" title="">Die Grenzen des Wachstums</a>`
-```
+`<a href="https://clubofrome.de/die-grenzen-des-wachstums/" data-bs-original-title="" title="">Die Grenzen des Wachstums</a>`
 
 Der Link soll auf Französisch übersetzt werden. Mithilfe einer Bedingung kann die aktive Sprache geprüft werden: `t-if="request.context.get('lang') == 'de_CH'"`
 
 In diesem Fall würde man den Link mit diesen Inhalt ersetzen:
 
-```html
-<a t-if="request.context.get('lang') == 'de_CH'" href="https://clubofrome.de/die-grenzen-des-wachstums/" data-bs-original-title="" title="">Die Grenzen des Wachstums</a><a t-if="request.context.get('lang') == 'fr'" href="https://fr.wikipedia.org/wiki/Les_Limites_%C3%A0_la_croissance" data-bs-original-title="" title="">Les limites à la Croissance</a>
-```
+`<a t-if="request.context.get('lang') == 'de_CH'" href="https://clubofrome.de/die-grenzen-des-wachstums/" data-bs-original-title="" title="">Die Grenzen des Wachstums</a><a t-if="request.context.get('lang') == 'fr'" href="https://fr.wikipedia.org/wiki/Les_Limites_%C3%A0_la_croissance" data-bs-original-title="" title="">Les limites à la Croissance</a>`
 
 ::: tip
 Eine weitere Möglichkeit zur Übersetzung von externen Links sind Umleitungen. Sie eine können den Inhalt mit einem internen Link `/example` verlinken und dazu zwei [Umleitungen einrichten](#Umleitung%20einrichten). Für den original Link leiten `/example` um und für den übersetzen Link leiten Sie  `/fr/example` um. 
