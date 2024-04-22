@@ -84,3 +84,30 @@ Dem Formular wurde das bestehende Feld *Datenschutz* hinzufgefügt:
 Die Eingabe des neues Feldes ist im Backend ersichtlich:
 
 ![](attachments/Website%20Backend%20Feld.png)
+
+
+## Technisch
+
+### Seiteninhalt in Backend bearbeiten
+
+Odoo speichert Seiteninhalte in QWeb-Ansichten. Aktivieren Sie den Entwicklermodus und navigieren Sie nach *Website > Site > Seiten*. Klicken Sie auf auf der ausgewählten Seite auf das Entwicklertools-Icon in der letzten Spalte.
+
+![](attachments/Website%20Entwicklermodus.png)
+
+Nun öffnet sich die Definition der QWeb-Ansicht und Sie können den Code direkt bearbeiten.
+
+### Externen Link übersetzen
+
+Eine Übersetzung der Link-Urls ist mit dem Odoo Website-Editor nicht möglich. Wenn Sie jedoch den [Seiteninhalt in Backend bearbeiten](#Seiteninhalt%20in%20Backend%20bearbeiten), können Sie eine Übersetzung mit einer Bedingung machen. Im folgenden Beispiel ist im Seiteinhalt dieser Link enthalten:
+
+```html
+<a href="https://clubofrome.de/die-grenzen-des-wachstums/" data-bs-original-title="" title="">Die Grenzen des Wachstums</a>`
+```
+
+Der Link soll auf Französisch übersetzt werden. Mithilfe einer Bedingung kann die aktive Sprache geprüft werden: `t-if="request.context.get('lang') == 'de_CH'"`
+
+In diesem Fall würde man den Link mit diesen Inhalt ersetzen:
+
+```html
+<a t-if="request.context.get('lang') == 'de_CH'" href="https://clubofrome.de/die-grenzen-des-wachstums/" data-bs-original-title="" title="">Die Grenzen des Wachstums</a><a t-if="request.context.get('lang') == 'fr'" href="https://fr.wikipedia.org/wiki/Les_Limites_%C3%A0_la_croissance" data-bs-original-title="" title="">Les limites à la Croissance</a>
+```

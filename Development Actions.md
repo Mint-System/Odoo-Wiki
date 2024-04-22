@@ -80,7 +80,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Fensteraktionen* und
 
 ### Aktuelle Aktion bearbeiten
 
-Mit jedem Klick auf ein Menü oder Knopf wird in Odoo eine Aktion ausgeüfhrt. Die ausgeführte Aktion können Sie mit *Entwicklertools > Aktion bearbeiten* anzeigen und bearbeiten.
+Mit jedem Klick auf ein Menü oder Knopf wird in Odoo eine Aktion ausgeführt. Die ausgeführte Aktion können Sie mit *Entwicklertools > Aktion bearbeiten* anzeigen und bearbeiten.
 
 ### Standardwert auf Aktion definieren
 

@@ -14,6 +14,6 @@ Website: <https://www.odoo.com/de_DE/app/quality>
 
 ## Bereiche
 
-| Bereich                                     | Beschreibung                                         |
-| ------------------------------------------- | ---------------------------------------------------- |
+| Bereich                                   | Beschreibung                                         |
+| ----------------------------------------- | ---------------------------------------------------- |
 | [Qualität Aktionen](Quality%20Actions.md) | Arbeitsflüsse im Qualitätsmanagement automatisieren. |
