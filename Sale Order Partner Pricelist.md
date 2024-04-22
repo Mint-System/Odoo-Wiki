@@ -1,6 +1,6 @@
 ---
 title: Sale Order Partner Pricelist
-description: Preislisten-Zugriff mit Abonnements steuern.
+description: Preislisten-Zugriff mit Verkaufsaufträgen erteilen.
 tags:
 - HowTo
 - Drittanbieter
