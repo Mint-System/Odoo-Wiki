@@ -34,6 +34,7 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 | [Mail Optional Follower Notification](Mail%20Optional%20Follower%20Notification.md) | Auswahl Nachrichen an Abonnenten verschicken.                          |
 | [Mail Show Follower](Mail%20Show%20Follower.md)                                     | CC-Hinweis in E-Mail-Header einfügen.                                  |
 | [Mail Thread Context](Mail%20Thread%20Context.md)                                   | Automatisches Abonnieren deaktiveren.                                  |
+| [Mail Tracking Helpdesk Bounce Ticket ](Mail%20Tracking%20Helpdesk%20Bounce%20Ticket.md)                               | Für E-Mails mit dem Status "Bounced" wird ein Helpdesk-Ticket erstellt.                          |
 | [Mail Tracking Mailgun](Mail%20Tracking%20Mailgun.md)                               | Mailgun Events mit Webhook in Odoo empfangen.                          |
 | [Mail Unsubscribe](Mail%20Unsubscribe.md)                                           | Automatische Abmeldung der Follower vor dem Versand einer Nachricht.   |
 | [Purchase Order Send Unsubscribe](Purchase%20Order%20Send%20Unsubscribe.md)         | Alle Abonnenten nach Versenden der Bestellung entfernen.               |
