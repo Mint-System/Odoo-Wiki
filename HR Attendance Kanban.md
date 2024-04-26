@@ -1,5 +1,5 @@
 ---
-title: HR Attendance Calendar View
+title: HR Attendance Kanban
 description: Ein- und Auschecken mit Kanban-Board.
 tags:
 - HowTo
