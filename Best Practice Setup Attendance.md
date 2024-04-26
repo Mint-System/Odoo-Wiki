@@ -26,9 +26,9 @@ Damit die Vorgesetzten und Verantworltichen die Abwesenheit der Mitarbeitenden v
 Damit Abwesenheitseinträge vom Vorgesetzten oder den HR-Verantwortlichen validiert werden können, muss der *Vorgesetzte* und *Verantwortliche Abwesenheiten* registriert werden. Siehe [Vorgesetzte hinterlegen](HR.md#Vorgesetzte%20hinterlegen)
 und [Verantwortliche festlegen](HR%20Holidays.md#Verantwortliche%20festlegen).
 
-**Abwesenheitstyp**
+**Abwesenheitsart**
 
-Damit der Genehmigungs-Prozess korrekt funktioniert, müssen die Abwesenheitstypen konfiguriert werden. Stellen Sie die *Genehmigung* auf *Abwesenheits Officer*. [Abwesenheitstyp konfigurieren](HR%20Holidays.md#Abwesenheitstyp%20konfigurieren).
+Damit der Genehmigungs-Prozess korrekt funktioniert, müssen die Abwesenheitsarten konfiguriert werden. Stellen Sie die *Genehmigung* auf *Abwesenheits Officer*. [Abwesenheitsart konfigurieren](HR%20Holidays.md#Abwesenheitsart%20konfigurieren).
 
 Setzen Sie die *Einheit der Abwesenheit* von *Bezahlter Urlaub* auf *Halber Tag*.
 
@@ -36,4 +36,4 @@ Setzen Sie die *Einheit der Abwesenheit* von *Bezahlter Urlaub* auf *Halber Tag*
 
 Der genaue Ablauf zur Abwesenheit ist [hier](Prozess%20Abwesenheit.md) dokumentiert.
 
-Je nach Konfiguration des Abwesenheitstyp muss kein Anspruch bezogen werden.
+Je nach Konfiguration des Abwesenheitsart muss kein Anspruch bezogen werden.

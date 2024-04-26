@@ -16,11 +16,11 @@ Repository: <https://github.com/OCA/hr-holidays/tree/15.0/hr_holidays_public>
 
 ## Verwendung
 
-### Feiertage für Abwesenheitstyp ignorieren
+### Feiertage für Abwesenheitsart ignorieren
 
-Damit Feiertage bei der Eingabe von Abwesenheiten abegzogen werden, muss der ausgewählte Abwesenheitstyp konfiguriert werden. Standardmässig werden Feiertage für Abwesenheitstypen berücksichtigt.
+Damit Feiertage bei der Eingabe von Abwesenheiten abegzogen werden, muss der ausgewählte Abwesenheitsart konfiguriert werden. Standardmässig werden Feiertage für Abwesenheitsarten berücksichtigt.
 
-Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitstypen* und wählen Sie hier den Typ zur Bearbeitung aus. Entfernen Sie das Häkchen  von*Feiertage ausschliessen*, falls Sie die Feiertage für diesen Abwesenheitstyp ignorieren möchten.
+Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitsarten* und wählen Sie hier den Typ zur Bearbeitung aus. Entfernen Sie das Häkchen  von*Feiertage ausschliessen*, falls Sie die Feiertage für diesen Abwesenheitsart ignorieren möchten.
 
 ### Feiertage einrichten
 

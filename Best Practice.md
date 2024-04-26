@@ -15,7 +15,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 ### Abwesenheit
 
-* [Definition Abwesenheitstypen](Best%20Practice%20Definition%20HR%20Holidays%20Types.md)
+* [Definition Abwesenheitsarten](Best%20Practice%20Definition%20HR%20Holidays%20Types.md)
 * [Setup Abwesenheit](Best%20Practice%20Setup%20Attendance.md)
 * [Arbeitszeiten und Urlaubsansprüche](Best%20Practice%20Working%20Times%20and%20Holiday%20Allocations.md)
 * [Ferien- und Überstundensaldo](Best%20Practice%20Holiday%20and%20Vacation%20Balance.md)

@@ -49,24 +49,24 @@ Die verfügbaren Überstunden werden nur angezeigt, wenn der Wert positiv ist.
 
 ## Konfiguration
 
-### Abwesenheitstyp erfassen
+### Abwesenheitsart erfassen
 
-Jede Abwesenheit und Urlaubsanspruch wird einem Abwesenheitstyp zugeordnet. Damit Sie jährliche Feriensaldis korrekt erfassen, müssen Sie für jedes Jahr einen Abwesenheitstyp erfassen. Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitstypen* und duplizieren Sie einen bestehenden Typ. Legen Sie diese Werte fest:
+Jede Abwesenheit und Urlaubsanspruch wird einem Abwesenheitsart zugeordnet. Damit Sie jährliche Feriensaldis korrekt erfassen, müssen Sie für jedes Jahr einen Abwesenheitsart erfassen. Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitsarten* und duplizieren Sie einen bestehenden Typ. Legen Sie diese Werte fest:
 
-* **Name**: Anzeigenamen des Abwesenheitstyp.
+* **Name**: Anzeigenamen des Abwesenheitsart.
 * **Abwesenheitsanträge Genehmigung**: Bestimmen Sie ob die Abwesenheitseinträge genehmigt werden muss.
 * **Einheit der Abwesenheit**: Wählen Sie hier Stunden, Halbtage oder Tage als Einheit.
 * **Zusätzliche Stunden abziehen**: Wenn die Abwesenheit nicht als Arbeitszeit gerechnet werden soll, aktivieren Sie diese Option.
 * **Erfordert Zuweisung**: Bestimmen Sie ob der Urlaubsanspruch genehmigt werden muss.
 * **Urlaubsanspruch Genehmigung**: Bestimmen Sie wie der Urlaubsanspruch genehmigt wird.
 
-### Abwesenheitstyp konfigurieren
+### Abwesenheitsart konfigurieren
 
-Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitstypen*. Wählen Sie hier den Abwesenheitstyp aus und bearbeiten Sie diesen gemäss den Anforderungen.
+Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitsarten*. Wählen Sie hier den Abwesenheitsart aus und bearbeiten Sie diesen gemäss den Anforderungen.
 
-### Einheit für Abwesenheitstyp festlegen
+### Einheit für Abwesenheitsart festlegen
 
-Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitstypen*. Wählen Sie hier den Abwesenheitstyp aus. Im Feld *Einheit der Abwesenheit* können Sie wählen, ob der Typ in Stunden, Halbtage oder Tagen dargestellt wird.
+Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitsarten*. Wählen Sie hier den Abwesenheitsart aus. Im Feld *Einheit der Abwesenheit* können Sie wählen, ob der Typ in Stunden, Halbtage oder Tagen dargestellt wird.
 
 ::: tip
 Odoo rechnet intern immer in Stunden. Diese Option legt die Darstellung der verbleibenden Ansprüche fest.
@@ -136,7 +136,7 @@ Damit die Aktion *Zurücksetzen* ausgewählt werden kann, muss Ihr Odoo-Benutzer
 
 Bestätigen Sie den Vorgang mit *Speichern*.
 
-Wurde die Abwesenheit genehmigt, sehen Sie die verleibenden Tage des Abwesenheitstyps in der Übersicht *Abwesenheitszeiten*.
+Wurde die Abwesenheit genehmigt, sehen Sie die verleibenden Tage des Abwesenheitsarts in der Übersicht *Abwesenheitszeiten*.
 
 ![](attachments/Abwesenheitszeiten%20Verleibend.png)
 

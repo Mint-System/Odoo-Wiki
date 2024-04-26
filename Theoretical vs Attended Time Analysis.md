@@ -28,13 +28,13 @@ Legen Sie als erstes pro Mitarbeiter das Startdatum der theoretischen Stunden fe
 
 ![](attachments/Theoretical-vs-Attenden-Time-Analysis-Offset.png)
 
-### Abwesenheitstyp in theoretischen Stunden einbeziehen
+### Abwesenheitsart in theoretischen Stunden einbeziehen
 
 ::: tip
-Damit der Abwesenheitstyp in der Auswertung [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) berücksichtigt wird, muss dies explizit festgelegt werden.
+Damit der Abwesenheitsart in der Auswertung [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) berücksichtigt wird, muss dies explizit festgelegt werden.
 :::
 
-Öffnen Sie den Abwesenheitstyp mit *Abwesenheiten > Konfiguration > Abwesenheitstypen*. Bearbeiten Sie den Typ und wählen Sie die Checkbox *in theoretische Stunden einbeziehen* unter *Optionen*. Schliessen Sie den Vorgang ab. Nun wird der Abwesenheitstyp in der theoretischen Stunden berücksichtigt.
+Öffnen Sie den Abwesenheitsart mit *Abwesenheiten > Konfiguration > Abwesenheitsarten*. Bearbeiten Sie den Typ und wählen Sie die Checkbox *in theoretische Stunden einbeziehen* unter *Optionen*. Schliessen Sie den Vorgang ab. Nun wird der Abwesenheitsart in der theoretischen Stunden berücksichtigt.
 
 ### Theoretische und tatsächliche Anwesenheitszeiten vergleichen
 
@@ -44,11 +44,11 @@ Falls Sie direkt den eigenen Vergleich sehen möchten wählen Sie direkt *Alle A
 
 ![](attachments/Odoo%20Anwesenheitszeiten%20Vergleich.png)
 
-### Abwesenheitstyp "Überstunden kompensieren" anlegen
+### Abwesenheitsart "Überstunden kompensieren" anlegen
 
-Damit Mitarbeiter ihre Überstunden kompensieren können, braucht es einen entsprechenden Abwesenheitstyp.
+Damit Mitarbeiter ihre Überstunden kompensieren können, braucht es einen entsprechenden Abwesenheitsart.
 
-Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitstypen* und erstellen einen neuen Eintrag. Wählen Sie als *Work Entry Type*: *Anwesend* und für *Einheit der Abwesenheit*: *Stunden*.
+Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitsarten* und erstellen einen neuen Eintrag. Wählen Sie als *Work Entry Type*: *Anwesend* und für *Einheit der Abwesenheit*: *Stunden*.
 
 Über den normalen Genemigungsprozess können so Mitarbeiter ihre Überstunden als Anwesenheit registrieren lassen.
 

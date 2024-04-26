@@ -41,7 +41,7 @@ Beide Urlaubsanträge wurden genehmigt.
 
 ## Anzeige Dashboard
 
-Wenn Sie die [Einheit für Abwesenheitstyp festlegen](HR%20Holidays.md#Einheit%20für%20Abwesenheitstyp%20festlegen) erhalten Sie unterschiedliche Ergebnisse auf dem Dashboard der Benutzer.
+Wenn Sie die [Einheit für Abwesenheitsart festlegen](HR%20Holidays.md#Einheit%20für%20Abwesenheitsart%20festlegen) erhalten Sie unterschiedliche Ergebnisse auf dem Dashboard der Benutzer.
 
 **Anzeige in Stunden**
 

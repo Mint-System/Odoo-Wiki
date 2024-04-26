@@ -21,4 +21,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_holidays_c
 Ist diese Erweiterung installiert stehen auf dem Bericht *Abwesenheiten > Alle Benutzer* diese Felder neu zur Verfügung:
 
 * **Abteilung**: Abteilung des Benutzers des Abwesenheitseintrags
-* **Abwesenheitstyp**: Abwesenheitstyp des Abwesenheitseintrags
+* **Abwesenheitsart**: Abwesenheitsart des Abwesenheitseintrags

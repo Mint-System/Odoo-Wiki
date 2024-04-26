@@ -31,13 +31,13 @@ Mitarbeitende können Ihre Überstunden unter *Account > Mein Profil* anzeigen l
 
 ### Überstunden bei Abwesenheit abziehen
 
-Auf Abwesenheitstypen können Sie festlegen, ob Überstunden abgezogen werden können bzw. ob Überstunden mit der Abwesenheit kompensiert werden können.
+Auf Abwesenheitsarten können Sie festlegen, ob Überstunden abgezogen werden können bzw. ob Überstunden mit der Abwesenheit kompensiert werden können.
 
-Öffnen Sie den Abwesenheitstyp via *Abwesenheiten > Konfiguration > Abwesenheitstypen*. Mit der Option *Zusätzliche Stunden abziehen* können Sie festlegen, ob Überstunden abgezogen werden.
+Öffnen Sie den Abwesenheitsart via *Abwesenheiten > Konfiguration > Abwesenheitsarten*. Mit der Option *Zusätzliche Stunden abziehen* können Sie festlegen, ob Überstunden abgezogen werden.
 
-Dazu ein Beispiel mit dem Abwesenheitstyp *Überstunden*:
+Dazu ein Beispiel mit dem Abwesenheitsart *Überstunden*:
 
-![](attachments/Anwesenheitszeiten%20Überstunden%20Abwesenheitstyp.png)
+![](attachments/Anwesenheitszeiten%20Überstunden%20Abwesenheitsart.png)
 
 Legt man für den Mitarbeitenden eine Abwesenheit von diesem Typ an, prüft Odoo ob genug Überstunden vorhanden sind.
 

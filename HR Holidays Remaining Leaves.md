@@ -28,11 +28,11 @@ Läuft eine Abwesenheit von Mittwoch bis Dienstag der nächsten Woche, dann lieg
 :::
 
 ::: warning
-Wenn mehrere Urlaubsansprüche vom selben Abwesenheitstyp existieren und die Abwesenheiten an keinem Urlaubsanspruch zugeordnet sind, wird die Dauer für alle Urlaubsansprüche minus berechnet.
+Wenn mehrere Urlaubsansprüche vom selben Abwesenheitsart existieren und die Abwesenheiten an keinem Urlaubsanspruch zugeordnet sind, wird die Dauer für alle Urlaubsansprüche minus berechnet.
 :::
 
 ### Verbleibende Urlaubsansprüche übertragen
 
 Wenn Mitarbeitende Ende des Jahres bestimmte Mengen an verbleibenden Abwesenheiten in das neue Jahr übertragen möchten gehen Sie wie folgt vor.
 
-Zeigen Sie die Abwesenheitsansprüche unter *Abwesenheiten > Genehmigungen > Urlaubsansprüche* an, filter Sie die Ansprüche welche übertragen werden sollen. Erstellen Sie einen Export mit den Felder `remaining_leaves_hours` oder `remaining_leaves_days`. Passen Sie in der exportieren Datei die Abwesenheitstypen an und importieren Sie die Daten als neue Abwesenheitsansprüche.
+Zeigen Sie die Abwesenheitsansprüche unter *Abwesenheiten > Genehmigungen > Urlaubsansprüche* an, filter Sie die Ansprüche welche übertragen werden sollen. Erstellen Sie einen Export mit den Felder `remaining_leaves_hours` oder `remaining_leaves_days`. Passen Sie in der exportieren Datei die Abwesenheitsarten an und importieren Sie die Daten als neue Abwesenheitsansprüche.
