@@ -1,6 +1,6 @@
 ---
 title: Mail Tracking Helpdesk Bounce Ticket
-description:Für E-Mails mit dem Status "Bounced" wird ein Helpdesk-Ticket erstellt.
+description: Für E-Mails mit dem Status Bounced ein Helpdesk-Ticket erstellen.
 tags:
 - HowTo
 - Drittanbieter
@@ -11,5 +11,5 @@ prev: ./subscription
 
 {{ $frontmatter.description }}
 
-Technischer Name: `# mail_tracking_helpdesk_bounce_ticket`\
+Technischer Name: `mail_tracking_helpdesk_bounce_ticket`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/mail_tracking_helpdesk_bounce_ticket>

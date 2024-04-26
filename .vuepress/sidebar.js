@@ -38,6 +38,7 @@ export default [
       "best-practice-oca-finanzbuchhaltung.md",
       "best-practice-odoo-data-management.md",
       "best-practice-odoo-translation.md",
+      "best-practice-open-accounting.md",
       "best-practice-packaging.md",
       "best-practice-payroll-structure.md",
       "best-practice-portal-and-backend.md",
@@ -72,11 +73,11 @@ export default [
     ]
   },
   "subscriptions.md",
-  "invoicing.md",
   "hr-holidays.md",
   "hr-attendance.md",
   "apps.md",
   "fsm-industry.md",
+  "user.md",
   "hr-appraisal.md",
   "dashboards.md",
   "database.md",
@@ -92,8 +93,6 @@ export default [
   "manufacture.md",
   "finance.md",
   "fleet.md",
-  "initialisation.md",
-  "installation.md",
   "iot.md",
   "calendar.md",
   "point-of-sale.md",
@@ -110,19 +109,20 @@ export default [
   "hr.md",
   "hr-payroll.md",
   "hr-recruitment.md",
-  "user.md",
+  "planning.md",
   "plm.md",
   "portal.md",
   "product.md",
   "project.md",
   "quality.md",
+  "invoicing.md",
   "reseller.md",
   "l10n-ch.md",
+  "base.md",
   "hr-expense.md",
   "barcode.md",
   "studio.md",
   "survey.md",
-  "upgrade.md",
   "sale.md",
   "delivery.md",
   "maintenance.md",
@@ -149,13 +149,6 @@ export default [
     "text": "Bereiche",
     "collapsible": true,
     "children": [
-      {
-        "text": "Invoicing",
-        "collapsible": true,
-        "children": [
-          "invoicing-reminder.md"
-        ]
-      },
       {
         "text": "HR Holidays",
         "collapsible": true,
@@ -245,6 +238,7 @@ export default [
           "develpment-views.md",
           "development-reports.md",
           "entwicklung-datenmodelle.md",
+          "entwicklung-performance.md",
           "entwicklung-runbot.md",
           "development-snippets.md",
           "entwicklung-website.md"
@@ -327,6 +321,13 @@ export default [
         ]
       },
       {
+        "text": "Product",
+        "collapsible": true,
+        "children": [
+          "product-actions.md"
+        ]
+      },
+      {
         "text": "Project",
         "collapsible": true,
         "children": [
@@ -339,6 +340,13 @@ export default [
         "collapsible": true,
         "children": [
           "quality-actions.md"
+        ]
+      },
+      {
+        "text": "Invoicing",
+        "collapsible": true,
+        "children": [
+          "invoicing-reminder.md"
         ]
       },
       {
@@ -411,33 +419,9 @@ export default [
         "text": "Subscriptions",
         "collapsible": true,
         "children": [
+          "sale-subscription-disable-tokenization.md",
           "sale-subscription-partner-pricelist.md",
           "sale-subscription-period-discount.md"
-        ]
-      },
-      {
-        "text": "Invoicing",
-        "collapsible": true,
-        "children": [
-          "account-invoice-carrier.md",
-          "account-invoice-comment.md",
-          "account-invoice-detail.md",
-          "account-invoice-multiline-ref.md",
-          "account-invoice-notes.md",
-          "account-invoice-overdue-reminder.md",
-          "account-invoice-sale-partner.md",
-          "account-invoice-select-bank.md",
-          "account-move-invoice-partner.md",
-          "account-move-line-description.md",
-          "account-sale-timesheet-report.md",
-          "invoice-merge-pdf-attachment.md",
-          "purchase-invoice-prepare-partner.md",
-          "sale-invoice-carrier.md",
-          "sale-invoice-cash-rounding-default.md",
-          "sale-invoice-line-description.md",
-          "sale-invoice-prepare-bank.md",
-          "sale-invoice-prepare-partner.md",
-          "sales-order-invoicing-grouping-criteria.md"
         ]
       },
       {
@@ -449,6 +433,7 @@ export default [
           "hr-holidays-calendar-department.md",
           "hr-holidays-leave-archive.md",
           "hr-holidays-leave-repeated.md",
+          "hr-holidays-negative-hours.md",
           "hr-holidays-public.md",
           "hr-holidays-remaining-leaves.md",
           "hr-leave-custom-hour-interval.md",
@@ -465,6 +450,7 @@ export default [
           "hr-attendance-kiosk-mode-color.md",
           "hr-attendance-missing.md",
           "hr-attendance-overtime-hours.md",
+          "hr-attendance-policy.md",
           "hr-employee-attendance-report.md",
           "syscoon-hr-attendance.md",
           "theoretical-vs-attended-time-analysis.md"
@@ -492,13 +478,10 @@ export default [
         "children": [
           "base-db-anonymization.md",
           "base-search-fuzzy.md",
-          "base-vat-optional-vies.md",
-          "base-vat-required-vies.md",
           "dbfilter-from-header.md",
           "smile-anonymization-hr.md",
           "smile-anonymize-partner.md",
-          "smile-anonymization.md",
-          "web-enterprise-admin-expiration-panel.md"
+          "smile-anonymization.md"
         ]
       },
       {
@@ -515,6 +498,8 @@ export default [
           "mail-optional-follower-notification.md",
           "mail-show-follower.md",
           "mail-thread-context.md",
+          "mail-tracking-helpdesk-bounce-ticket.md",
+          "mail-tracking-mailgun.md",
           "mail-unsubscribe.md",
           "purchase-order-send-unsubscribe.md",
           "purchase-order-unsubscribe.md",
@@ -558,29 +543,18 @@ export default [
         "text": "Settings",
         "collapsible": true,
         "children": [
-          "audit-log.md",
           "auth-impersonate-user.md",
           "auth-oauth-keycloak",
           "auth-oidc.md",
           "auth-totp-ip-check.md",
-          "base-action-manager-access.md",
-          "base-optional-quick-create.md",
-          "base-recursion-limit.md",
           "base-user-role.md",
-          "date-range.md",
-          "fetchmail-incoming-log.md",
           "home-background-image.md",
           "impersonate.md",
-          "mail-manual-routing.md",
-          "mail-server-filter.md",
-          "mail-service-users.md",
           "odoo-microsoft-account.md",
           "report-qweb-pdf-watermark.md",
           "show-db-name.md",
           "web-company-color.md",
-          "web-dark-mode.md",
-          "web-editor-show-code.md",
-          "web-responsive.md",
+          "web-enterprise-admin-expiration-panel.md",
           "web-theme-classic.md"
         ]
       },
@@ -599,11 +573,11 @@ export default [
         "collapsible": true,
         "children": [
           "bi-sql-editor.md",
+          "date-range.md",
           "mass-editing.md",
           "mass-operation-abstract.md",
           "muk-rest.md",
           "onchange-helper.md",
-          "project-timeline.md",
           "prometheus-exporter.md",
           "report-xlsx.md",
           "server-environment-ir-config-parameter.md",
@@ -670,6 +644,7 @@ export default [
           "account-payment-order.md",
           "account-payment-partner.md",
           "account-payment-purchase.md",
+          "account-reports-hide-ref.md",
           "account-statement-import-base.md",
           "account-statement-import-camt.md",
           "account-statement-import-camt54.md",
@@ -698,6 +673,8 @@ export default [
         "children": [
           "base-country-sequence.md",
           "base-partner-sequence.md",
+          "base-vat-optional-vies.md",
+          "base-vat-required-vies.md",
           "contact-birthdate.md",
           "partner-bank-code.md",
           "partner-color-codes.md",
@@ -712,12 +689,13 @@ export default [
           "partner-hide-address.md",
           "partner-multi-pricelist.md",
           "partner-multiline-street2.md",
+          "partner-optional-commercial-partner.md",
           "partner-ref-sequence.md",
           "partner-secondary-email.md",
           "partner-secondary-name.md",
+          "partner-type-membership.md",
           "partner-type-order.md",
-          "partner-type-sale.md",
-          "partner-type-membership.md"
+          "partner-type-sale.md"
         ]
       },
       {
@@ -855,6 +833,35 @@ export default [
         ]
       },
       {
+        "text": "Invoicing",
+        "collapsible": true,
+        "children": [
+          "account-invoice-carrier.md",
+          "account-invoice-comment.md",
+          "account-invoice-detail.md",
+          "account-invoice-move-date.md",
+          "account-invoice-multiline-ref.md",
+          "account-invoice-notes.md",
+          "account-invoice-outstanding-credit.md",
+          "account-invoice-overdue-reminder.md",
+          "account-invoice-sale-partner.md",
+          "account-invoice-select-bank.md",
+          "account-move-invoice-partner.md",
+          "account-move-line-description.md",
+          "account-sale-timesheet-report.md",
+          "invoice-merge-pdf-attachment.md",
+          "purchase-invoice-prepare-partner.md",
+          "sale-invoice-carrier.md",
+          "sale-invoice-cash-rounding-default.md",
+          "sale-invoice-frequency.md",
+          "sale-invoice-ignore-ref.md",
+          "sale-invoice-line-description.md",
+          "sale-invoice-prepare-bank.md",
+          "sale-invoice-prepare-partner.md",
+          "sales-order-invoicing-grouping-criteria.md"
+        ]
+      },
+      {
         "text": "l10n CH",
         "collapsible": true,
         "children": [
@@ -866,6 +873,24 @@ export default [
           "l10n-ch-qr-code-iban.md",
           "l10n-ch-qr-code-ref.md",
           "l10n-ch-qr-isr-invoice-import.md"
+        ]
+      },
+      {
+        "text": "Base",
+        "collapsible": true,
+        "children": [
+          "audit-log.md",
+          "base-action-manager-access.md",
+          "base-optional-quick-create.md",
+          "base-recursion-limit.md",
+          "fetchmail-incoming-log.md",
+          "mail-format-with-parent.md",
+          "mail-manual-routing.md",
+          "mail-server-filter.md",
+          "mail-service-users.md",
+          "web-dark-mode.md",
+          "web-editor-show-code.md",
+          "web-responsive.md"
         ]
       },
       {
@@ -901,11 +926,13 @@ export default [
           "sale-blanket-order-comment.md",
           "sale-company-currency.md",
           "sale-force-invoiced.md",
+          "sale-invoice-policy.md",
           "sale-order-archive.md",
           "sale-order-check-price.md",
           "sale-order-comment.md",
           "sale-order-contact-person.md",
           "sale-order-currency-rate.md",
+          "sale-order-invoice-amount.md",
           "sale-order-line-description-name.md",
           "sale-order-line-description.md",
           "sale-order-line-form-action.md",
@@ -919,10 +946,13 @@ export default [
           "sale-order-multi-pricelist.md",
           "sale-order-notes.md",
           "sale-order-partner-membership.md",
+          "sale-order-partner-pricelist.md",
+          "sale-order-partner-ref.md",
           "sale-order-project-key.md",
           "sale-order-sale-partner.md",
           "sale-order-template-notes.md",
           "sale-partner-incoterm.md",
+          "sale-partner-shipping-group.md",
           "sale-product-set-layout.md",
           "sale-product-set-search.md",
           "sale-product-set.md"
@@ -950,6 +980,7 @@ export default [
           "maintenance-equipment-image.md",
           "maintenance-equipments-hierarchy.md",
           "maintenance-plan-activity.md",
+          "maintenance-plan-request-name.md",
           "maintenance-plan.md",
           "maintenance-product.md",
           "maintenance-request-repair.md",
@@ -974,7 +1005,6 @@ export default [
         "children": [
           "pits-payment-saferpay.md",
           "payment-saferpay.md",
-          "sale-subscription-disable-tokenization.md",
           "website-berichte.md",
           "website-sale-firstname.md",
           "website-sale-float-qty.md",

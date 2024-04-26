@@ -16,21 +16,18 @@ function help() {
     echo
     echo "commands:"
     echo
-command_list="install;;Install build dependencies.
-build;;Build project.
-vue-dev;;Start vuepress development server.
-vue-build;;Create vuepress build.
-serve-vue-build;;Serve vuepress build."
-command_list=$(echo "$command_list" | tr '\n' ';')
-IFS=';' read -r -a commands <<< "$command_list"
-printf "%-10s  %-10s  %-30s\n" "Command" "Option" "Description"
-printf "%-10s  %-10s  %-30s\n" "-------" "------" "-----------"
-for ((i = 0; i < ${#commands[@]}; i+=3)); do
-  cmd="${commands[i]}"
-  option="${commands[i + 1]}"
-  description="${commands[i + 2]}"
-  printf "%-10s  %-10s  %-30s\n" "$cmd" "$option" "$description"
-done
+
+    cmd_width=15
+    opt_width=6
+    desc_width=35
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "Command" "Option" "Description"
+    echo "|$(printf '%*s' $((cmd_width + 2)) '' | tr ' ' '-')|$(printf '%*s' $((opt_width + 2)) '' | tr ' ' '-')|$(printf '%*s' $((desc_width + 2)) '' | tr ' ' '-')|"
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "install" "" "Install build dependencies."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "build" "" "Build project."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vue-dev" "" "Start vuepress development server."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vue-build" "" "Create vuepress build."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "serve-vue-build" "" "Serve vuepress build."
+
     echo
 }
 
