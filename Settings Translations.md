@@ -20,13 +20,17 @@ Damit Odoo in mehreren Sprachen verfügbar ist, müssen Sie die entsprechenden S
 
 ### Übersetzungen aktualisieren
 
-Mit jeder Odoo Version und den dazugehörigen Modulen werden neue Übersetzungen hinzugefügt. Um die aktuellsten Übersetzungen zu erhalten müssen Sie folgende Aktion ausführen: Öffnen Sie *Einstellungen > Sprachen > Sprachen verwalten > Sprache auswählen* und klicken auf *Active / Update*. Bestätigen Sie den Dialog. Mit der Option *Bisherige Übersetzungen ändern* werden manuell erstelle Übersetzungen überschrieben.
+Mit jeder Odoo Version und den dazugehörigen Modulen werden neue Übersetzungen hinzugefügt. Um die aktuellsten Übersetzungen zu erhalten müssen Sie folgende Aktion ausführen: Öffnen Sie *Einstellungen > Sprachen > Sprachen verwalten > Sprache auswählen* und klicken auf *Active / Update*. Bestätigen Sie den Dialog.
+
+::: warning
+Mit der Option *Bisherige Übersetzungen ändern* werden manuell erstellte Übersetzungen überschrieben.
+:::
 
 ### Fehlende Begriffe generieren
 
 Bis #Odoo15.
 
-Damit Begriffe überesetzt werden können, muss als erstes die Liste, der zu übersetzenden Begriffe aktualisiert werden.  Im [Entwicklermodus](Settings.md#Entwicklermodus%20aktivieren) folgende Aktionen ausführen:
+Damit Begriffe übersetzt werden können, muss als erstes die Liste, der zu übersetzenden Begriffe aktualisiert werden.  Im [Entwicklermodus](Settings.md#Entwicklermodus%20aktivieren) folgende Aktionen ausführen:
 
 *Einstellungen > Übersetzungen > Fehlende Begriffe generieren*.
 
