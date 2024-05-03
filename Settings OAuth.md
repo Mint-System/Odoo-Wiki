@@ -79,7 +79,7 @@ Damit eine Verbindung mit Outlook aufbaut werden kann, müsssen Sie [Odoo als OA
 
 ### OAuth-Token regenerieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server* oder *Einstellungen > Technisch > Ausgehender Mail-Server*. Öffnen Sie einen Eintrag mit einer OAuth-Verbindung. Klicken Sie auf *Edit settings*. Der OAuth-Authorisierungsflow wird gestartet. Loggin Sie sich mit dem Postfach-Benutzer ein. Anschliessend werden Sie wieder nach Odoo zurückgeführt. Damit wurden das OAuth-Token regeneriert.
+Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server* oder *Einstellungen > Technisch > Ausgehender Mail-Server*. Öffnen Sie einen Eintrag mit einer OAuth-Verbindung. Klicken Sie auf *Edit settings*. Der OAuth-Authorisierungsflow wird gestartet. Loggen Sie sich mit dem Postfach-Benutzer ein. Anschliessend werden Sie wieder nach Odoo zurückgeführt. Damit wurden das OAuth-Token regeneriert.
 
 ::: warning
 Wenn Sie bei den Microsoft-Diensten bereits eingeloggt sind, müssen Sie diesen Vorgang entweder in einem privaten Browser-Tab ausführen oder Sie müssen sich bei den Microsoft-Diensten via <https://login.microsoftonline.com> ausloggen.
