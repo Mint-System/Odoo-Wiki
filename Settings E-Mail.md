@@ -26,9 +26,15 @@ Navigieren Sie nach *Einstellungen* und klicken Sie bei *Unternehmen* auf *Info 
 
 Unter der Catchall-Mail-Adresse versendet Odoo Nachrichten. Auf diese Adresse können die Empfänger antworten und Odoo kann die eingegangenen Nachrichten verarbeiten.
 
+Gilt bis #Odoo16.
+
 Falls Sie die Adresse ändern möchten, öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und passen den Wert für `mail.catchall.alias` an.
 
 Angenommen Sie geben als Wert `erp` ein, so ist die resultierende Absender-Aresse `From: "FIRSTNAME LASTNAME" <erp@example.com>`.
+
+Gilt ab #odoo17.
+
+Im Entwicklermodus navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und öffnen Sie den Eintrag bei *Alias-Domain*. Im Feld *Catchall-Alias* geben Sie den gewünschten Wert ein.
 
 ::: tip
 Eine Liste von Mail-Provider und ob diese die *catchall* und *no-reply* E-Mail-Aliase erlauben:
@@ -42,7 +48,13 @@ Eine Liste von Mail-Provider und ob diese die *catchall* und *no-reply* E-Mail-A
 
 In jeder versendeten E-Mail wird im Header `Return-Path` die Mail-Adresse für Retouren mitgeteilt. Diese setzt sich aus dem Bounce-Alias und der Mail-Domain zusammen, beispielsweise `bounce@example.com`.
 
+Gilt bis #Odoo16.
+
 Falls Sie den Bounce-Alias ändern möchten, öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und passen den Wert für `mail.bounce.alias` an.
+
+Gilt ab #odoo17.
+
+Im Entwicklermodus navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und öffnen Sie den Eintrag bei *Alias-Domain*. Im Feld *Zuzustellbarkeitsalias* geben Sie den gewünschten Wert ein.
 
 ### Allgemeine Absender-Adresse festlegen
 
@@ -176,8 +188,7 @@ Als ausgewähltes Datenmodell empfehlen wir *Kanal* oder *Notiz*.
 
 ### Antwort-Adresse mit Konfiguration von E-Mail-Vorlage überschreiben
 
-Damit die Antwort-Adresse aus der Konfiguration der E-Mail-Vorlage übernommen wird, muss 
-der Eintrag `mail.catchall.domain` unter *Einstellungen > Technisch > Parameter > Systemparameter* entfernt werden.
+Damit die Antwort-Adresse aus der Konfiguration der E-Mail-Vorlage übernommen wird, muss der Eintrag `mail.catchall.domain` unter *Einstellungen > Technisch > Parameter > Systemparameter* entfernt werden.
 
 In der E-Mail-Vorlage muss im Tab *E-Mail-Konfiguration* das Feld *Antwort an* gesetzt sein.
 
