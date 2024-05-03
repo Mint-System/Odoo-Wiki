@@ -16,7 +16,7 @@ prev: ./settings
 
 Damit sich Odoo-Benutzer den OAuth-Authorisierungsflow mit Azure abwickeln können, muss Odoo auf Azure registriert werden.
 
-Klicken Sie auf <https://portal.azure.com/> um in das Azure-Portal zu gelangen. Navigieren Sie nach *Azure Active Directory > App-Registrierungen* und erstellen Sie eine neue App mit *Neue Registrierung*.
+Klicken Sie auf <https://portal.azure.com/> um in das Azure-Portal zu gelangen. Navigieren Sie nach *Microsoft Entra ID > App-Registrierungen* und erstellen Sie eine neue App mit *Neue Registrierung*.
 
 ![](attachments/Einstellungen%20OAuth%20App-Registrierungen.png)
 
@@ -46,7 +46,7 @@ Kopieren Sie das Feld *Wert*, es handelt sich hierbei um das *Client Secret*.
 
 ### OAuth-App auf Azure als einzelner Mandant konfigurieren
 
-Standardmässig ist die OAuth-App mehrinstanzenfähig. Wenn Sie dies ändern möchten, öffnen Sie den Link <https://portal.azure.com/>, navigieren nach *Azure Active Directory > App-Registrierungen* und zeigen Sie OAuth-App an. Anschliessend klicken Sie auf *Mehrere Organisationen* und wählen bei *Unterstützte Kontotypen* die Option *Nur Konten in diesem Organisationsverzeichnis (einzelner Mandant)*. Öffnen Sie die Übersicht und kopieren Sie die *Verzeichnis-ID (Mandant)*. 
+Standardmässig ist die OAuth-App mehrinstanzenfähig. Wenn Sie dies ändern möchten, öffnen Sie den Link <https://portal.azure.com/>, navigieren nach *Microsoft Entra ID > App-Registrierungen* und zeigen Sie OAuth-App an. Anschliessend klicken Sie auf *Mehrere Organisationen* und wählen bei *Unterstützte Kontotypen* die Option *Nur Konten in diesem Organisationsverzeichnis (einzelner Mandant)*. Öffnen Sie die Übersicht und kopieren Sie die *Verzeichnis-ID (Mandant)*. 
 
 Legen Sie [Systemparameter](Development.md#Systemparameter%20anlegen) mit Schlüssel `microsoft_outlook.endpoint` und Wert `https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0` an. Wobei `TENANT_ID` gleich *Verzeichnis-ID (Mandant)* ist.
 
@@ -56,7 +56,7 @@ Wenn Sie die [Outlook OAuth-Verbindung einrichten](#Outlook%20OAuth-Verbindung%2
 
 Wenn Sie die OAuth-App als einzelner Mandant verwenden, müssen Sie die OAuth-Endpunkte in Odoo anpassen.
 
-Öffnen Sie den Link <https://portal.azure.com/>, navigieren nach *Azure Active Directory > App-Registrierungen* und zeigen Sie OAuth-App an. Öffnen Sie die Übersicht und klicken Sie auf *Endpunkte*. Notieren Sie sich die Werte aus *OAuth 2.0-Autorisierungsendpunkt (v2)* und *OAuth 2.0-Token-Endpunkt (v2*.
+Öffnen Sie den Link <https://portal.azure.com/>, navigieren nach *Microsoft Entra ID > App-Registrierungen* und zeigen Sie OAuth-App an. Öffnen Sie die Übersicht und klicken Sie auf *Endpunkte*. Notieren Sie sich die Werte aus *OAuth 2.0-Autorisierungsendpunkt (v2)* und *OAuth 2.0-Token-Endpunkt (v2*.
 
 ![](attachments/Settings%20OAuth%20Azure%20Endpunkte.png)
 
@@ -72,6 +72,10 @@ Für diese Werte müssen Sie in Odoo zwei [Systemparameter anlegen](Development.
 Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server*. Markieren Sie den Eintrag *Outlook* auf dem Mail-Server. Klicken Sie auf *Connect your Outlook account* und loggen Sie sich mit dem Postfach-Benutzer ein.
 
 ![](attachments/Einstellungen%20OAuth%20Outlook.png)
+
+::: warning
+Damit eine Verbindung mit Outlook aufbaut werden kann, müsssen Sie [Odoo als OAuth-App auf Azure registrieren](#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren).
+:::
 
 ### OAuth-Token regenerieren
 
