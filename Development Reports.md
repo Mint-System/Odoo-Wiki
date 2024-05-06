@@ -225,11 +225,11 @@ Verschiedene Standardberichte werden beim Erzeugen an das Dokument angehängt. D
 
 Navigieren Sie nach  *Einstellungen > Technisch > Berichtswesen > Berichte* und legen Sie die Dateinamen gemäss folgender Tabelle fest:
 
-| Name                  | Name des gedruckten Berichtes                                                 | Als Anhangsprefix speichern                        |
-| --------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------- |
-| Originalrechnungen    | `'Rechnung_%s.pdf' % object.name.replace("/","_")`                            | `'original_vendor_bill.pdf'`                                                   |
-| QR-Rechnung           | `'QR-Rechnung_%s' % object.name`                                              | `'QR-Rechnung_%s' % object.name`                   |
-| Rechnung ohne Zahlung | `'Rechnung_%s.pdf' % object.name.replace("/","_")`                            | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
-| Rechnungen            | `'Rechnung_%s.pdf' % object.name.replace("/","_")`                            | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
-| Zeitnachweis-Einträge | `(str(object.date.year)+'-'+str(object.date.month)+' Zeitnachweis-Einträge')` |                                                    |
+| Name                  | Name des gedruckten Berichtes                              | Als Anhangsprefix speichern                        |
+| --------------------- | ---------------------------------------------------------- | -------------------------------------------------- |
+| Originalrechnungen    | `'Rechnung_%s.pdf' % object.name.replace("/","_")`         | `'original_vendor_bill.pdf'`                       |
+| QR-Rechnung           | `'QR-Rechnung_%s' % object.name`                           | `'QR-Rechnung_%s' % object.name`                   |
+| Rechnung ohne Zahlung | `'Rechnung_%s.pdf' % object.name.replace("/","_")`         | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
+| Rechnungen            | `'Rechnung_%s.pdf' % object.name.replace("/","_")`         | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
+| Zeitnachweis-Einträge | `(object.date.strftime('%Y-%m')+' Zeitnachweis-Einträge')` |                                                    |
 
