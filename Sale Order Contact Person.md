@@ -15,7 +15,7 @@ Technischer Name: `sale_order_contact_person`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/15.0/sale_order_contact_person>
 
 ::: warning
-Dieses Modul wird nicht weiterentwickelt. Verwenden Sie das Modul [Sale Order Sale Partner](Sale%20Order%20Sale%20Partner.md) stattdessen.
+Dieses Modul wird nicht weiterentwickelt. Verwenden Sie das Modul [Sale Order Sale Partner](Sale%20Order%20Sale%20Partner.md) stattdessen. #deprecated 
 :::
 
 ## Konfiguration
