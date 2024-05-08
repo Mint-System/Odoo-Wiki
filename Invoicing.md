@@ -22,6 +22,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 | Erweiterung                                                                                   | Beschreibung                                                                                       |
 | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| [Account Followup Manual Reminder](Account%20Followup%20Manual%20Reminder.md)                 | Standardwert für Mahnungserinnerungen auf Manuell setzen.                                          |
 | [Account Invoice Carrier](Account%20Invoice%20Carrier.md)                                     | Auslieferungsmethode auf Rechnung hinterlegen.                                                     |
 | [Account Invoice Comment](Account%20Invoice%20Comment.md)                                     | Kommentarfeld auf Rechnung.                                                                        |
 | [Account Invoice Detail](Account%20Invoice%20Detail.md)                                       | Verkaufskontakt auf Rechnung einblenden.                                                           |
