@@ -110,6 +110,8 @@ Die Berechtigung zur Bearbeitung der Anwesenheits-Einträge wird über die Fenst
 
 ![](attachments/HR%20Attendance%20Aktionen%20Awesenheiten.png)
 
+Nun wird für Benutzer- und Administratoren die gleiche Aktion aufgerufen und die gleiche Ansicht angzeigt.
+
 Gilt bis #Odoo15:
 
 Damit Mitarbeitende ihre Anwesenheit manuell erfassen können Navigieren Sie nach *Einstellungen > Technisch > Ansichten* und zeigen die Ansicht *hr.attendance.tree.inherit* an. Im Tab *Zugriffsrechte* fügen Sie die Gruppe *Anwesenheiten / Manuelle Anwesenheit* hinzu.
