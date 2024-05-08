@@ -29,6 +29,7 @@ prev: ./
 | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | [BI SQL Editor](BI%20SQL%20Editor.md)                                                       | Ganz einfach SQL-basierte Berichte erstellen.                       |
 | [Date Range](Date%20Range.md)                                                               | Verwaltung von Datums-Bereichen zur Filterung von Daten.            |
+| [FastAPI](FastAPI.md)                                                                       |                                                                     |
 | [Mass Editing](Mass%20Editing.md)                                                           | Mühelos mehrere Einträge auf einmal bearbeiten.                     |
 | [Mass Operation Abstract](Mass%20Operation%20Abstract.md)                                   | Bietet Werkzeuge zur Massenbearbeitung.                             |
 | [MuK REST](MuK%20REST.md)                                                                   | Stellt eine REST API für den Odoo Server bereit.                    |
