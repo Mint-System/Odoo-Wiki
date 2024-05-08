@@ -106,7 +106,9 @@ Es erscheint eine Verabschiedung mit Angabe der geleisteten Arbeitszeit.
 
 ### Manuelle Erfassung Anwesenheit erlauben
 
-Die Berechtigung zur Bearbeitung der Anwesenheits-Einträge wird über die Fenster-Aktion gestuert. [Bearbeiten Sie Fenster-Aktion](Development%20Actions.md#Fenster-Aktion%20bearbeiten) *Anwesenheit* und legen Sie für *Wert aus Kontext* den Wert auf `{'create': True}`.
+Die Berechtigung zur Bearbeitung der Anwesenheits-Einträge wird über die Fenster-Aktion gesteuert. Nun gibt es eine gleichnamige Fensteraktion für Awesenheiten-Benutzer und -Administratoren. Navigieren Sie nach *Einstellungen > Technisch > Menüpunkte* und suchen Sie nach *Anwesenheiten*. Öffnen Sie den ersten Eintrag und wählen Sie im Feld *Aktion* den ersten Eintrag *Anwesenheiten* aus.
+
+![](attachments/HR%20Attendance%20Aktionen%20Awesenheiten.png)
 
 Gilt bis #Odoo15:
 
