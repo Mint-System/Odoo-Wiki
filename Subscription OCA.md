@@ -1,5 +1,5 @@
 ---
-	title: Subscription OCA
+title: Subscription OCA
 description: OCA-Alternative für Abonnemente.
 tags:
 - HowTo
