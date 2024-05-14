@@ -12,4 +12,4 @@ prev: ./hr-attendance
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_attendance_calendar_view`\
-Repository: <https://github.com/sozialinfo/hr-attendance/tree/16.0/hr_attendance_calendar_view>
+Repository: <https://github.com/oca/hr-attendance/tree/16.0/hr_attendance_calendar_view>

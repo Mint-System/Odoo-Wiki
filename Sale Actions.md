@@ -220,7 +220,7 @@ except Exception as err:
   env['mail.mail'].create({
     'subject': 'Error in weekly sale order invoicing',
     'body_html': message,
-    'email_to': 'sysadmin@sozialinfo.ch',
+    'email_to': 'sysadmin@example.com',
   }).send()
 message = 'The sale orders of last week have been invoiced: ' + ', '.join(invoiced_order_names) if invoiced_order_names else 'No weekly sale orders have been invoiced'
 log(message)
@@ -266,7 +266,7 @@ except Exception as err:
   env['mail.mail'].create({
     'subject': 'Error in monthly sale order invoicing',
     'body_html': message,
-    'email_to': 'sysadmin@sozialinfo.ch',
+    'email_to': 'sysadmin@example.com',
   }).send()
 message = 'The sale orders of last month have been invoiced: ' + ', '.join(invoiced_order_names) if invoiced_order_names else 'No monthly sale orders have been invoiced'
 log(message)

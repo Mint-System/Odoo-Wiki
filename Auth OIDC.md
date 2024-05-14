@@ -32,8 +32,6 @@ Single-Tenant-Anbieter beschränken den Zugang auf die Nutzer Ihres Tenants, wä
 
 Aktivieren Sie den Eintrag mit *Erlauben* und füllen Sie die Felder *Client-ID* und *Secret Key* aus. Wenn Sie *Azure AD Single Tenant* gewählt haben, müssen Sie in den Feldern *Autorisierungs-URL*, *Token URL* und *JWKS URL* den Platzhalter `{tenant_id}` mit ihrer Tenant-ID ersetzen.
 
-
-
 ### Login mit GitLab konfigurieren
 
 Damit Sie mit einem GitLab-Account in Odoo einloggen können, müssen Sie als erstes eine OAuth-Applikation unter <https://gitlab.com/oauth/applications> erstellen. In diesem Beispiel ist die Odoo-Installation unter <https://odoo.example.com> erreichbar.
@@ -73,14 +71,14 @@ Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine 
 
 ### Login mit Keycloak konfigurieren
 
-Damit Sie mit einem Keycloak-Account in Odoo einloggen können, müssen Sie als erstes ein OAuth-Client in einem ausgewählten Keycloak Realm erstellen. Im folgenden Beispiel ist Odoo-Installation unter <https://sozialinfo.16.odoo.build> und eine Keycloak-Instanz unter <https://login.mintsys.ch> mit dem realm "Demo" verügbar.
+Damit Sie mit einem Keycloak-Account in Odoo einloggen können, müssen Sie als erstes ein OAuth-Client in einem ausgewählten Keycloak Realm erstellen. Im folgenden Beispiel ist Odoo-Installation unter <https://odoo.example.com> und eine Keycloak-Instanz unter <https://login.example.com> mit dem realm "Demo" verügbar.
 
 Loggen Sie sich bei Keycloak ein und erstellen Sie einen neuen Client mit diesen Informationen:
 
 * **Client type**: OpenID Connect
-* **Client ID**: `sozialinfo.16.odoo.build`
+* **Client ID**: `odoo.example.com`
 * **Client authentication**: On
-* **Root URL**: <https://sozialinfo.16.odoo.build>
+* **Root URL**: <https://odoo.example.com>
 
 Öffnen Sie den *Credentials* Tab des Client und notieren Sie sich den Wert von *Client secret*.
 
@@ -89,14 +87,14 @@ Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine 
 * **Provider Name**: `Login with Keycloak`
 * **Auth Flow**: `OpenID Connect (authorization code flow)`
 * **Token Map**: `sub:user_id`
-* **Client ID**: `sozialinfo.16.odoo.build`
+* **Client ID**: `odoo.example.com`
 * **Client Secret**: Fügen Sie das notierte *Client secret* ein
 * **Allowed**: `[x]`
 * **Body**: `Login with Keycloak`
-* **Authorization URL**: `https://login.mintsys.ch/realms/Demo/protocol/openid-connect/auth`
+* **Authorization URL**: `https://login.example.com/realms/Demo/protocol/openid-connect/auth`
 * **Scope**: `openid`
-* **Token URL**: `https://login.mintsys.ch/realms/Demo/protocol/openid-connect/token`
-* **JWKS URL**: `https://login.mintsys.ch/realms/Demo/protocol/openid-connect/certs`
+* **Token URL**: `https://login.example.com/realms/Demo/protocol/openid-connect/token`
+* **JWKS URL**: `https://login.example.com/realms/Demo/protocol/openid-connect/certs`
 
 ## Verwendung
 

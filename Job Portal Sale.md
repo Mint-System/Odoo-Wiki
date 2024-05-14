@@ -12,7 +12,7 @@ prev: ./
 {{ $frontmatter.description }}
 
 Technischer Name: `job_portal_sale`\
-Repository: <https://github.com/Sozialinfo/Odoo-Apps-Vertical-Job-Portal/tree/16.0/job_portal_sale>
+Repository: <https://github.com/Sozialinfo/Odoo-Apps-Sozialinfo/tree/16.0/job_portal_sale>
 
 ## Aktionen
 
