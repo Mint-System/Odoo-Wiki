@@ -18,10 +18,19 @@ Repository: <https://github.com/OCA/server-auth/tree/16.0/auth_oidc>
 
 ### Login mit Microsoft Azure einrichten
 
-Damit der OAuth-Flow mit Microsoft Azure funktioniert, müssen Sie [Odoo als OAuth-App auf Azure registrieren](Settings%20OAuth.md#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren). Verwenden Sie zusätzliche diese Angaben:
+Damit der OAuth-Flow mit Microsoft Azure funktioniert, müssen Sie einen [OpenID Connect Provider mit Microsoft Entra ID einrichten](https://learn.microsoft.com/en-us/power-pages/security/authentication/openid-settings). Verwenden Sie diese Angaben:
 
 * **Name**: Odoo Login
 * **Redirect URI**: `https://odoo.example.com/auth_oauth/signin`
+* **Unterstützte Kontentypen**: Nur Konten in diesem Organisationsverzeichnis (einzelner Mandant)
+
+Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Integrationen*. Klicken Sie auf *OAuth-Provider* und wählen Sie den Eintrag *Azure AD Single Tenant*.
+
+::: tip
+Single-Tenant-Anbieter beschränken den Zugang auf die Nutzer Ihres Tenants, während Multitenants den Zugang für alle Azure-AD-Nutzer erlauben, so dass Nutzer fremder Unternehmen ihren Azure-AD-Login ohne Gastkonto nutzen können.
+:::
+
+Aktivieren Sie den Eintrag mit *Erlauben* und füllen Sie die Felder *Client-ID* und *Secret Key* aus. Wenn Sie *Azure AD Single Tenant* gewählt haben, müssen Sie in den Feldern *Autorisierungs-URL*, *Token URL* und *JWKS URL* den Platzhalter `{tenant_id}` mit ihrer Tenant-ID ersetzen.
 
 ### Login mit GitLab konfigurieren
 
@@ -29,6 +38,7 @@ Damit Sie mit einem GitLab-Account in Odoo einloggen können, müssen Sie als er
 
 * **Name**: `Odoo Example`
 * **Redirect URI**:
+
 ```
 http://localhost:8069/auth_oauth/signin
 https://odoo.example.com/auth_oauth/signin
@@ -45,7 +55,7 @@ Speichern sie die Applikation und kopieren Sie diese Informationen:
 
 Sie brauchen diese Information um die Verbindung zwischen Odoo und GitLab im nächsten Schritt zu erstellen.
 
-Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Integration*. Klicken Sie auf *OAuth-Provider* und erstellen Sie einen neuen Eintrag:
+Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Integrationen*. Klicken Sie auf *OAuth-Provider* und erstellen Sie einen neuen Eintrag:
 
 * **Provider Name**: `Login with GitLab`
 * **Auth Flow**: `OpenID Connect (authorization code flow)`
@@ -88,9 +98,9 @@ Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine 
 
 ## Verwendung
 
-### Login freigeben
-
 Es gibt zwei Registrationsverfahren für neue Benuter: Freigeben und Einrichten.
+
+### Login freigeben
 
 Im Freigababeverfahren loggt sich der Benutzer ein:
 
