@@ -181,3 +181,11 @@ Sie können den Zugriff für benutzerdefinierte Felder einschränken. Dazu müss
 
 </data>
 ```
+
+## Technisch
+
+### Netzwerk-Zugriffe mit Firefox analysieren
+
+Im Firefox-Browser drücken <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>i</kbd> um die Entwickler-Werzeuge zu öffnen. Wählen Sie den Tab *Netzwerk* aus. Öffnen Sie nun die Odoo Webapplikation oder führen Sie in Odoo eine bestimmte Aktion aus. Firefox protokolliert die Zugriffe des Client zum Server. Für jeden Eintrag ist können Sie die Anfrage und Antwort anzeigen.
+
+![](attachments/Firefox%20Netzwerk-Zugriffe.png)

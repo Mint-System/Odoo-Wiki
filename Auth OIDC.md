@@ -16,6 +16,13 @@ Repository: <https://github.com/OCA/server-auth/tree/16.0/auth_oidc>
 
 ## Konfiguration
 
+### Login mit Microsoft Azure einrichten
+
+Damit der OAuth-Flow mit Microsoft Azure funktioniert, müssen Sie [Odoo als OAuth-App auf Azure registrieren](Settings%20OAuth.md#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren). Verwenden Sie zusätzliche diese Angaben:
+
+* **Name**: Odoo Login
+* **Redirect URI**: `https://odoo.example.com/auth_oauth/signin`
+
 ### Login mit GitLab konfigurieren
 
 Damit Sie mit einem GitLab-Account in Odoo einloggen können, müssen Sie als erstes eine OAuth-Applikation unter <https://gitlab.com/oauth/applications> erstellen. In diesem Beispiel ist die Odoo-Installation unter <https://odoo.example.com> erreichbar.
