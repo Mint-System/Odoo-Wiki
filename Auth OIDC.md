@@ -18,7 +18,7 @@ Repository: <https://github.com/OCA/server-auth/tree/16.0/auth_oidc>
 
 ### Login mit Microsoft Azure einrichten
 
-Damit der OAuth-Flow mit Microsoft Azure funktioniert, müssen Sie einen [OpenID Connect Provider mit Microsoft Entra ID einrichten](https://learn.microsoft.com/en-us/power-pages/security/authentication/openid-settings#set-up-microsoft-entra-in-power-pages) und [Odoo als OAuth-App auf Azure registrieren](Settings%20OAuth.md#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren). Verwenden Sie diese Angaben:
+Damit der OAuth-Flow mit Microsoft Azure funktioniert, müssen Sie [Odoo als OAuth-App auf Azure registrieren](Settings%20OAuth.md#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren) und [Berechtigungen und Tokens konfigurieren](https://github.com/OCA/server-auth/tree/16.0/auth_oidc#setup-for-microsoft-azure). Verwenden Sie diese Angaben:
 
 * **Name**: Odoo Login
 * **Redirect URI**: `https://odoo.example.com/auth_oauth/signin`
@@ -31,6 +31,10 @@ Single-Tenant-Anbieter beschränken den Zugang auf die Nutzer Ihres Tenants, wä
 :::
 
 Aktivieren Sie den Eintrag mit *Erlauben* und füllen Sie die Felder *Client-ID* und *Secret Key* aus. Wenn Sie *Azure AD Single Tenant* gewählt haben, müssen Sie in den Feldern *Autorisierungs-URL*, *Token URL* und *JWKS URL* den Platzhalter `{tenant_id}` mit ihrer Tenant-ID ersetzen.
+
+::: tip
+Wenn die OpenID Connect Tokens nicht mitgegeben werden, kann im OAuth-Provider der *Token Map* von `upn:user_id upn:email` zu `preferred_username:user_id preferred_username:email` umgestellt werden.
+::::
 
 ### Login mit GitLab konfigurieren
 

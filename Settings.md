@@ -35,6 +35,7 @@ prev: ./
 | [Base User Role](Base%20User%20Role.md)                                                   | Gruppenberechtigungen mit Benutzer-Rollen verwalten.               |
 | [Home Background Image](Home%20Background%20Image.md)                                     | Den Odoo-Startbildschirm gestalten.                                |
 | [Impersonate](Impersonate.md)                                                             | Schnelles Wechseln zwischen Benutzer-Accounts.                     |
+| [OAuth Multi Token](Auth%20OAuth%20Multi%20Token.md)                                      | Unterstützung für mehrere Geräteabhängigke OAuth-Tokens.           |
 | [Odoo Microsoft Account](Odoo%20Microsoft%20Account.md)                                   | Login mit Microsoft-Account.                                       |
 | [Report QWeb PDF Watermark](Report%20QWeb%20PDF%20Watermark.md)                           | Wasserzeichen auf PDF-Berichte hinzufügen.                         |
 | [Show DB Name](Show%20DB%20Name.md)                                                       | Zeigt den Datenbanknamen oben rechts an.                           |
