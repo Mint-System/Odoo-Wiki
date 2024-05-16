@@ -22,6 +22,7 @@ export default defineUserConfig({
         navbar: [
             { text: 'Home', link: '/' },
             { text: 'Glossary', link: '/glossary' },
+            { text: 'OCA Apps', link: 'https://odoo-community.org/shop' },
             { text: 'Mint System', link: 'https://www.mint-system.ch/odoo' }
         ],
         sidebar: {
