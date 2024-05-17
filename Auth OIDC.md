@@ -34,7 +34,7 @@ Single-Tenant-Anbieter beschränken den Zugang auf die Nutzer Ihres Tenants, wä
 Aktivieren Sie den Eintrag mit *Erlauben* und füllen Sie die Felder *Client-ID* und *Secret Key* aus. Wenn Sie *Azure AD Single Tenant* gewählt haben, müssen Sie in den Feldern *Autorisierungs-URL*, *Token URL* und *JWKS URL* den Platzhalter `{tenant_id}` mit ihrer Tenant-ID ersetzen.
 
 ::: tip
-Wenn die OpenID Connect Tokens nicht mitgegeben werden, kann im OAuth-Provider der *Token Map* von `upn:user_id upn:email` zu `preferred_username:user_id preferred_username:email` umgestellt werden.
+Wenn die OpenID Connect Tokens nicht mitgegeben werden, kann im OAuth-Provider das Feld *Token Map* von `upn:user_id upn:email` zu `preferred_username:user_id preferred_username:email` angepasst werden.
 ::::
 
 ### Login mit GitLab konfigurieren
