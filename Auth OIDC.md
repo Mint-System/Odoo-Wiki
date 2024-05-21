@@ -102,9 +102,9 @@ Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine 
 
 ## Verwendung
 
-Es gibt zwei Registrationsverfahren für neue Benuter: Freigeben und Einrichten.
+Es gibt zwei Registrationsverfahren für neue Benuter: Freigeben oder Einrichten.
 
-### Login freigeben
+### GitLab-Login freigeben
 
 Im Freigababeverfahren loggt sich der Benutzer ein:
 
@@ -116,7 +116,7 @@ Nun wird ein Benutzer-Account in Odoo erstellt und der Administrator muss diesen
 
 Wurde die Freigabe erteilt, kann sich der Benutzer nochmals einloggen.
 
-### Login einrichten
+### GitLab-Login einrichten
 
 Möchte man die Logins vorgängig einrichten, kann man die Odoo-Accounts anlegen und die muss nur noch die *OAuth User ID* hinterlegen. Diese ID erhlält bei GitLab in dem man diesen Link aufruft: <https://gitlab.com/api/v4/users?username=$USERNAME>.
 
