@@ -95,4 +95,4 @@ Bei der Eröffnung der Buchhaltung müssen Kreditoren aus der alten System nach 
 
 Ersetzen Sie `$XML_ID_99999` mit dem entsprechenden Wert.
 
-Navigieren Sie nach *Buchhaltung > Buchhaltung > Journalbuchungen* und importieren Sie die Datei 
+Navigieren Sie nach *Buchhaltung > Buchhaltung > Journalbuchungen* und importieren Sie die Datei.
