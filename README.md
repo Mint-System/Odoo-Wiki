@@ -471,6 +471,10 @@ Wiederholende Verträge verwalten und automatisch verrechnen.
 
 Werkhallen und Warenhäuser effizient verwalten.
 
+### [Zync](Zync.md)
+
+Umfassende Daten-Synchronisation-Lösung basierend auf Odoo.
+
 ## [Mitarbeit](Contribution.md)
 
 Sie können eine Kopie des Odoo Wiki erstellen und für eigene Zwecke nutzen. Ebenfalls können Sie Änderungen mitteilen und mit dem offiziellen Odoo Wiki zusammenführen. Mehr dazu unter [Mitarbeit](Contribution.md).
@@ -489,3 +493,4 @@ Es sind Lösungen und Dokumente von diesen Drittanbietern enthalten:
 * [Odoo Community Association](https://odoo-community.org/)
 * [VentorTech](https://ventor.tech/)
 * [Zebra](https://www.zebra.com)
+* [Zebroo](https://www.zebroo.de)
