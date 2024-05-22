@@ -473,7 +473,7 @@ Werkhallen und Warenhäuser effizient verwalten.
 
 ### [Zebroo Sync](Zebroo%20Sync.md)
 
-Umfassende Daten-Synchronisation-Lösung basierend auf Odoo.
+Umfassende Synchronisationslösung basierend auf Odoo.
 
 ## [Mitarbeit](Contribution.md)
 

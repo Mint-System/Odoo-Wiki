@@ -76,3 +76,23 @@ Für die Spalte `id` verwenden Sie Werte aus *SIC-IID*.
 ### Bilanzpositionen aus Kontenplan erstellen
 
 Exportieren Sie den den Kontenplan mit den Felder `Name` und `Code`.  Erstellen Sie eine Spalte `Bezeichnung` an der ersten Position mit der Formel `=CONCAT(B2," ",C2)`. Importieren Sie die Datei als Budgetposition. Als Namen verwenden Sie das Feld `Bezeichnung` und als Konto das Feld `Code`. Ignorieren Sie die Spalte `Name`.
+
+### Offene Kreditoren importieren
+
+Bei der Eröffnung der Buchhaltung müssen Kreditoren aus der alten System nach Odoo importiert werden damit Sie die Zahlungen im neuen Jahr abgleiche können. Erstellen Sie einen Export der Kreditoren (Offenen Posten) und generieren Sei eine CSV-Datei `account_move.csv` im folgenden Format:
+
+| id                          | journal_id | ref               | date     | line_ids/id                     | line_ids/name | line_ids/partner_id        | line_ids/account_id/id | line_ids/credit | line_ids/debit |
+| --------------------------- | ---------- | ----------------- | -------- | ------------------------------- | ------------- | -------------------------- | ---------------------- | --------------- | -------------- |
+| account_move_open_creditors | Sonstiges  | Offene Kreditoren | 01.01.24 | account_move_line_open_credit_1 | 9093006875466 | Einwohnergemeinde Dubis    | l10n_ch.1_ch_coa_2000  |                 | 231.55         |
+|                             |            |                   |          | account_move_line_open_credit_2 | 9238006875518 | Stadt Bernach              | l10n_ch.1_ch_coa_2000  |                 | 199.25         |
+|                             |            |                   |          | account_move_line_open_credit_3 | 8958006875445 | Soziale Dienste Stadt Bern | l10n_ch.1_ch_coa_2000  |                 | 360.8          |
+|                             |            |                   |          | account_move_line_open_credit_4 |               |                            | `$XML_ID_99999`        | 791.6           |                |
+|                             |            |                   |          |                                 |               |                            |                        |                 |                |
+|                             |            |                   |          |                                 |               |                            |                        |                 |                |
+|                             |            |                   |          |                                 |               |                            |                        |                 |                |
+|                             |            |                   |          |                                 |               |                            |                        |                 |                |
+|                             |            |                   |          |                                 |               |                            |                        |                 |                |
+
+Ersetzen Sie `$XML_ID_99999` mit dem entsprechenden Wert.
+
+Navigieren Sie nach *Buchhaltung > Buchhaltung > Journalbuchungen* und importieren Sie die Datei 
