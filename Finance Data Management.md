@@ -88,10 +88,6 @@ Bei der Eröffnung der Buchhaltung müssen Kreditoren aus der alten System nach 
 |                             |            |                   |          | account_move_line_open_credit_3 | 8958006875445 | Soziale Dienste Stadt Bern | l10n_ch.1_ch_coa_2000  |                 | 360.8          |
 |                             |            |                   |          | account_move_line_open_credit_4 |               |                            | `$XML_ID_99999`        | 791.6           |                |
 |                             |            |                   |          |                                 |               |                            |                        |                 |                |
-|                             |            |                   |          |                                 |               |                            |                        |                 |                |
-|                             |            |                   |          |                                 |               |                            |                        |                 |                |
-|                             |            |                   |          |                                 |               |                            |                        |                 |                |
-|                             |            |                   |          |                                 |               |                            |                        |                 |                |
 
 Ersetzen Sie `$XML_ID_99999` mit dem entsprechenden Wert.
 
