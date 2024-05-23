@@ -1,0 +1,31 @@
+---
+title: SQL Sync
+description: Mit SQL-Abfragen Daten empfangen und senden.
+tags:
+- HowTo
+- Drittanbieter
+prev: ./zebroo-sync
+---
+# SQL Sync
+
+{{ $frontmatter.description }}
+
+Technischer Name: `zbsync_sql`\
+Repository: <https://github.com/Odoo-Ninjas/zync-stable/tree/16.0/zbsync_sql>
+
+## Verwendung
+
+### SQL-Verbindung hinzufügen
+
+Navigieren Sie nach *Zebroo Sync > Connections > SQL* und erstellen Sie einen neuen Eintrag. 
+
+* **Type**: Typ des Datenbankssystems
+* **DBName**: Name der Datenbank
+* **Host**: Hostname des Datenbankservers
+* **Port**: Port abhängig vom Typ
+* **Username**: Login von Datenbank-Benutzer
+* **Passwort**: Passwort von Datenbank-Benutzer
+
+### SQL-Grabber einrichten
+
+

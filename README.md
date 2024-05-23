@@ -471,7 +471,7 @@ Wiederholende Verträge verwalten und automatisch verrechnen.
 
 Werkhallen und Warenhäuser effizient verwalten.
 
-### [Zebroo Sync](Zebroo%20Sync.md)
+### [Zebroo Zync](Zebroo%20Zync.md)
 
 Umfassende Synchronisationslösung basierend auf Odoo.
 
