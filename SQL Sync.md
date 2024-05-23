@@ -28,7 +28,7 @@ Navigieren Sie nach *Zebroo Sync > Connections > SQL* und erstellen Sie einen ne
 
 ### SQL-Grabber einrichten
 
-Öffnen Sie eine Pipeline via *Zebroo Sync* und fügen Sie einen Worker hinzu. Wählen Sie *SQL Grabber* als *Type* aus. Anschliessend wählen Sie die SQL-Verbindung in *Connection* aus. Im Feld *SQL* fügen Sie die SQL-Abfrage hinzu.
+Öffnen Sie eine Pipeline via *Zebroo Sync* und fügen Sie einen Worker hinzu. Wählen Sie *SQL Grabber* als *Type* aus. Anschliessend wählen Sie die SQL-Verbindung in *Connection* aus. Im Feld *SQL* fügen Sie die SQL-Abfrage hinzu. Erstellen Sie unter *Domain* einen Eintrag mit diesem Wert `[('write_date','>=',last_execution_date)]`. 
 
 ::: tip
 Der SQL-Tabellenname der Odoo-Datenmodelle ist gleich dem Name des Datenmodells ohne Punkte: `SELECT * FROM job_portal_joboffer`

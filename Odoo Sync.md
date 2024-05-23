@@ -25,7 +25,7 @@ Geben Sie den Hostnamen ohne `https://` ein. Wählen Sie *SSL* und *Port* 443 au
 
 ### Odoo Grabber hinzufügen
 
-Navigieren Sie nach *Zebroo > Grabbers > Odoo* und erstellen Sie einen neuen Eintrag. Geben Sie einen passenden Namen, beispielsweise *Remote Odoo Contacts*, ein und wählen Sie bei *Connection* eine Verbindung aus. Geben Sie im Feld *Model* den Namen des Datenmodells ein. Im Fall der Kontakte ist es `res.partner`.
+Navigieren Sie nach *Zebroo > Grabbers > Odoo* und erstellen Sie einen neuen Eintrag. Geben Sie einen passenden Namen, beispielsweise *Remote Odoo Contacts*, ein und wählen Sie bei *Connection* eine Verbindung aus. Geben Sie im Feld *Model* den Namen des Datenmodells ein. Im Fall der Kontakte ist es `res.partner`. Erstellen Sie unter *Domain* einen Eintrag mit diesem Wert `[('write_date','>=',last_execution_date)]`. 
 
 ### Odoo zu Odoo Synchronisation einrichten
 
