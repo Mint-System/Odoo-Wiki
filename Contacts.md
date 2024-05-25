@@ -34,6 +34,7 @@ prev: ./
 | [Partner Contact Department](OCA%20Partner%20Contact%20Department.md)                             | Erweitert das Adressbuch mit Abteilungen.                                   |
 | [Partner Contact Location in Name](Partner%20Contact%20Location%20in%20Name.md)                   | PLZ und Stadt in Kontaktauswahl anzeigen.                                   |
 | [Partner Contact Personal Information Page](Partner%20Contact%20Personal%20Information%20Page.md) | Tab in Kontakt-Formular für persönliche Informationen.                      |
+| [Partner Deduplication ACL](Partner%20Deduplication%20ACL.md)                                     | Zugriff auf Deduplizierung der Kontakte steuern.                            |
 | [Partner Duplicate Acc Number](Partner%20Duplicate%20Acc%20Number)                                | Kontonummer für mehrere Bankkonten verwenden                                |
 | [Partner Firstname](Partner%20Firstname.md)                                                       | Unterscheidet Vor- und Nachnamen.                                           |
 | [Partner Hide Address](Partner%20Hide%20Address.md)                                               | Adressen auf Berichten ausblenden.                                          |
