@@ -67,7 +67,7 @@ Wenn Sie den Meilisearch Dumper ausführen. Können Sie prüfen, ob das Dokument
 ```bash
 curl --location 'https://edge.meilisearch.com/indexes/$INDEX_NAME/documents/$DOCUMENT_ID' \
 --header 'Content-Type: application/json' \
---header 'Authorization: Bearer `3709c365b146b1c116599815ae6e967baa3652c04c7baad1eff56d6d0257ff52`' \
+--header 'Authorization: Bearer `3709c365b146b1c116599815ae6e967baa3652c04c7baad1eff56d6d0257ff52`'
 ```
 
 Ersetzen Sie `$INDEX_NAME` mit dem Namen des Meilisearch-Index und `$DOCUMENT_ID`mit der ID des Dokuments.
