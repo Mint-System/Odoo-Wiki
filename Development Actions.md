@@ -213,7 +213,6 @@ if record.stage_id.sequence in [0,1,2]:
 
 ![Aktionen Stufe nicht erlaubt](attachments/Aktionen%20Stufe%20nicht%20erlaubt.gif)
 
-
 ### Recipient Bank (Empfängerbank) zuordnen
 
 In diesem Beispiel wird bei Erzeugen einer Rechnung aus einem Verkaufsauftrag automatisch das Feld _Recipient Bank (Empfängerbank)_ in der Rechnung ausgefüllt.
