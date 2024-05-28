@@ -15,14 +15,15 @@ Repository: <https://github.com/Odoo-Ninjas/zync-stable/tree/16.0/zbsync>
 
 ## Erweiterungen
 
-| Erweiterung                                         | Beschreibung                                 |
-| --------------------------------------------------- | -------------------------------------------- |
-| [Odoo Sync Mapper](Odoo%20Sync%20Mapper.md)         | Odoo Attribute mappen.                       |
-| [Odoo Sync](Odoo%20Sync.md)                         | Odoo nach Odoo synchronisieren.              |
-| [SQL Sync](SQL%20Sync.md)                           | Mit SQL-Abfragen Daten empfangen und senden. |
-| [Sync Mapper](Sync%20Mapper.md)                     | Attribute von empfangenen Daten mappen.      |
-| [Sync Trigger Methods](Sync%20Trigger%20Methods.md) | Bei Methoden-Aufruf einen Sync auslösen.     |
-| [Web Sync](Web%20Sync.md)                           | Daten mit Web-Requests empfangen und senden. |
+| Erweiterung                                               | Beschreibung                                 |
+| --------------------------------------------------------- | -------------------------------------------- |
+| [Odoo Sync Mapper](Odoo%20Sync%20Mapper.md)               | Odoo Attribute mappen.                       |
+| [Odoo Sync](Odoo%20Sync.md)                               | Odoo nach Odoo synchronisieren.              |
+| [SQL Sync](SQL%20Sync.md)                                 | Mit SQL-Abfragen Daten empfangen und senden. |
+| [Sync Mapper](Sync%20Mapper.md)                           | Attribute von empfangenen Daten mappen.      |
+| [Sync Transformer Helper](Sync%20Transformer%20Helper.md) | Transformierung der Daten vereinfachen.      |
+| [Sync Trigger Methods](Sync%20Trigger%20Methods.md)       | Bei Methoden-Aufruf einen Sync auslösen.     |
+| [Web Sync](Web%20Sync.md)                                 | Daten mit Web-Requests empfangen und senden. |
 
 ## Verwendung
 
