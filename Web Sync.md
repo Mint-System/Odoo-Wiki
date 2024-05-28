@@ -4,7 +4,7 @@ description: Daten mit Web-Requests empfangen und senden.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./zebroo-sync
+prev: ./zebroo-zync
 ---
 # Web Sync
 

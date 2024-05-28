@@ -4,7 +4,7 @@ description: Odoo Attribute mappen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./zebroo-sync
+prev: ./zebroo-zync
 ---
 # Odoo Sync
 

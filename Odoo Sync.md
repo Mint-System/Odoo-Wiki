@@ -4,7 +4,7 @@ description: Odoo nach Odoo synchronisieren.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./zebroo-sync
+prev: ./zebroo-zync
 ---
 # Odoo Sync
 
