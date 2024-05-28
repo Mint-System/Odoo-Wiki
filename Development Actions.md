@@ -30,7 +30,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Benutzer-Interface > Menüposte
 
 Menü: `BoM Komponenenten`\
 Obermenü: `Fertigung/Produkte`\
-Aktion: `ir.actions.act_window` `BoM Komponenenten`
+Aktion: `ir.actions.act_window` `BoM Komponenenten`\
 Nummernfolge: `3`
 
 Nachdem der Browser aktualisiert haben Sie Zugriff auf das neue Menü und Ansicht.
