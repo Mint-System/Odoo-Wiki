@@ -33,6 +33,10 @@ Repository: <https://github.com/Odoo-Ninjas/zync-stable/tree/16.0/zbsync>
 
 Öffnen Sie *Zebroo Sync* und zeigen Sie eine Pipeline an. Wählen Sie die Aktion *Test Run*. Odoo erstellt eine Instanz der Pipeline. Klicken Sie auf *Heartbeat* um die einzelnen Worker-Schritte ausführen.
 
+### Pipeline Normal ausführen
+
+Öffnen Sie *Zebroo Sync* und zeigen Sie eine Pipeline an. Wählen Sie die Aktion *Start Normal*. Odoo erstellt eine Instanz der Pipeline und führt alle Worker-Schritte aus.
+
 ### Instanzen anzeigen
 
 Öffnen Sie *Zebroo Sync > Pipelines > Instances*. Hier sehen Sie alle Instanzen von allen Pipelines. Wenn Sie eine Pipeline anzeigen können Sie mit *Show Instances* alle Instanzen dieser Pipeline anzeigen.

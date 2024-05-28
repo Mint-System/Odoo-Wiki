@@ -50,8 +50,6 @@ curl --location 'https://edge.meilisearch.com/indexes/$INDEX_NAME/documents' \
 
 Zur Autorisierung können Sie das [Bearer-Token hinzufügen](#Bearer-Token%20hinzufügen). Die Adresse fügen Sie als [Web URL hinzu](#Web%20URL%20hinzufügen).
 
-
-
 Anschliessend können Sie einen [Web Grabber / Dumper Worker hinzufügen](#Web%20Grabber%20/%20Dumper%20Worker%20hinzufügen). Wählen Sie erstellte Url aus und machen Sie folgende Angaben.
 
 * URL: `https://edge.meilisearch.com`
@@ -60,4 +58,16 @@ Anschliessend können Sie einen [Web Grabber / Dumper Worker hinzufügen](#Web%2
 * Response Content Type: application/json
 * Path: `/indexes/$INDEX_NAME/documents`
 
-Ersetzen Sie `$INDEX_NAME` und speichern Sie den Dumper.
+Ersetzen Sie `$INDEX_NAME` mit dem Namen des Meilisearch-Index und speichern Sie den Dumper.
+
+### Meilisearch Dumper testen
+
+Wenn Sie den Meilisearch Dumper ausführen. Können Sie prüfen, ob das Dokument im Index gespeichert wurde.
+
+```bash
+curl --location 'https://edge.meilisearch.com/indexes/$INDEX_NAME/documents/$DOCUMENT_ID' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer `3709c365b146b1c116599815ae6e967baa3652c04c7baad1eff56d6d0257ff52`' \
+```
+
+Ersetzen Sie `$INDEX_NAME` mit dem Namen des Meilisearch-Index und `$DOCUMENT_ID`mit der ID des Dokuments.
