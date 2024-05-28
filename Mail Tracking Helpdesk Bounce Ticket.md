@@ -4,7 +4,7 @@ description: Für E-Mails mit dem Status Bounced ein Helpdesk-Ticket erstellen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./subscription
+prev: ./dialog
 ---
 # Mail Tracking Helpdesk Bounce Ticket
 ![icon_oms_box](attachments/icon_oms_box.png)
