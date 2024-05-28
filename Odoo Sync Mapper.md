@@ -6,7 +6,7 @@ tags:
 - Drittanbieter
 prev: ./zebroo-zync
 ---
-# Odoo Sync
+# Odoo Sync Mapper
 
 {{ $frontmatter.description }}
 
