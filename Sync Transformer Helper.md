@@ -4,7 +4,7 @@ description: Transformierung der Daten vereinfachen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./zebroo-zync
+prev: ./zebroo-sync
 ---
 # Sync Transformer Helper
 ![](attachments/icon_odoo_zbsync.jpg)

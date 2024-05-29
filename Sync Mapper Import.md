@@ -4,7 +4,7 @@ description: Mapper aus Grabber importieren.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./zebroo-zync
+prev: ./zebroo-sync
 ---
 # Sync Mapper Import
 ![](attachments/icon_odoo_zbsync.jpg)

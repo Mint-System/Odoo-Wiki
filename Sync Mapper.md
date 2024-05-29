@@ -4,7 +4,7 @@ description: Attribute von empfangenen Daten mappen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./zebroo-zync
+prev: ./zebroo-sync
 ---
 # Sync Mapper
 ![](attachments/icon_odoo_zbsync.jpg)

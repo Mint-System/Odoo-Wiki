@@ -4,7 +4,7 @@ description: Bei Methoden-Aufruf einen Sync auslösen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./zebroo-zync
+prev: ./zebroo-sync
 ---
 # Sync Trigger Methods
 ![](attachments/icon_odoo_zbsync.jpg)

@@ -471,7 +471,7 @@ Wiederholende Verträge verwalten und automatisch verrechnen.
 
 Werkhallen und Warenhäuser effizient verwalten.
 
-### [Zebroo Zync](Zebroo%20Zync.md)
+### [Zebroo Sync](Zebroo%20Sync.md)
 
 ![](attachments/icon_odoo_zbsync.jpg)
 

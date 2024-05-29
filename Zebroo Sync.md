@@ -1,12 +1,12 @@
 ---
-title: Zebroo Zync
+title: Zebroo Sync
 description: Umfassende DSynchronisationslösung basierend auf Odoo.
 tags:
 - HowTo
 - Drittanbieter
 prev: ./
 ---
-# Zebroo Zync
+# Zebroo Sync
 ![](attachments/icon_odoo_zbsync.jpg)
 
 {{ $frontmatter.description }}

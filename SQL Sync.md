@@ -4,7 +4,7 @@ description: Mit SQL-Abfragen Daten empfangen und senden.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./zebroo-zync
+prev: ./zebroo-sync
 ---
 # SQL Sync
 ![](attachments/icon_odoo_zbsync.jpg)
