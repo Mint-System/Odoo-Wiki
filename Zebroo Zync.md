@@ -46,7 +46,7 @@ Repository: <https://github.com/Odoo-Ninjas/zync-stable/tree/16.0/zbsync>
 
 ### Worker-Resultate anzeigen
 
-Öffnen Sie eine Instanz *Zebroo Sync > Pipelines > Instances*. Klicken Sie in der Spalte *Batches* ein einen Worker.
+Öffnen Sie eine Instanz *Zebroo Sync > Pipelines > Instances*. Klicken Sie in der Spalte *Batches* auf einen Worker.
  
 ### Cron-Job für Pipeline einrichten
 
