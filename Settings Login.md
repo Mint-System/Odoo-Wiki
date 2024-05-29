@@ -26,7 +26,7 @@ Wenn sich neue Portal-Benutzer registrieren oder erstellt werden, verwendet Odoo
 
 Benutzer verwalten Sie unter *Einstellungen > Benutzer und Unternehmen > Benutzer*.
 
-### Benutzer anlegen
+### Benutzer erstellen
 
 Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie *Neu*. Geben Sie einen Namen und eine E-Mail-Adresse ein. Legen Sie Berechtigungen fest und speichern Sie den Eintrag. Odoo verschickt automatisch eine Einladung an die E-Mail-Adresse mit der Aufforderung das Passwort festzulegen.
 
