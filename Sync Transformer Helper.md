@@ -7,6 +7,7 @@ tags:
 prev: ./zebroo-zync
 ---
 # Sync Transformer Helper
+![](attachments/icon_odoo_zbsync.jpg)
 
 {{ $frontmatter.description }}
 

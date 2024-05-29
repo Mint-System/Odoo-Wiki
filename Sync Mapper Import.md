@@ -7,6 +7,7 @@ tags:
 prev: ./zebroo-zync
 ---
 # Sync Mapper Import
+![](attachments/icon_odoo_zbsync.jpg)
 
 {{ $frontmatter.description }}
 

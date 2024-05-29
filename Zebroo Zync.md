@@ -7,6 +7,7 @@ tags:
 prev: ./
 ---
 # Zebroo Zync
+![](attachments/icon_odoo_zbsync.jpg)
 
 {{ $frontmatter.description }}
 

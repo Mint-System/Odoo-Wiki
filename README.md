@@ -473,6 +473,8 @@ Werkhallen und Warenhäuser effizient verwalten.
 
 ### [Zebroo Zync](Zebroo%20Zync.md)
 
+![](attachments/icon_odoo_zbsync.jpg)
+
 Umfassende Synchronisationslösung basierend auf Odoo.
 
 ## [Mitarbeit](Contribution.md)

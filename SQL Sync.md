@@ -7,6 +7,7 @@ tags:
 prev: ./zebroo-zync
 ---
 # SQL Sync
+![](attachments/icon_odoo_zbsync.jpg)
 
 {{ $frontmatter.description }}
 
