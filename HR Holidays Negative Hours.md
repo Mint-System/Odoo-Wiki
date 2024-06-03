@@ -19,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_holidays_n
 
 ### Abwesenheitsart Kompensation einrichten
 
-Zeigen Sie *Abwesenheit > Konfiguration > Abwesenheitsarten* an und öffnen Sie die Abwesenheitsart *Kompenstation*.
+Zeigen Sie *Abwesenheit > Konfiguration > Abwesenheitsarten* an und öffnen Sie die Abwesenheitsart *Kompensation*.
