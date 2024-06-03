@@ -59,11 +59,11 @@ Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und ers
 * **Menüs**: Sichtbarkeit von Menu-Einträgen.
 * **Ansichten**: Sichtbarkeit von von Ansichten.
 * **Zugriffsrechte**: Zugriffsrechte auf Datenmodelle.
-* **Rechte für Daten**: Filterung von Daten. Übersteuert Zugriffsrechte.
+* **Datensatzregeln**: Filterung von Daten. Übersteuert Zugriffsrechte.
 
 ### Rechte auf Daten für Gruppe anpassen
 
-Um die Rechte auf Daten für eine bestimmte Gruppe anzupassen, navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen*. Zeiten Sie Gruppe an und öffnen Sie den den Tab *Rechte auf Daten*.
+Um die Rechte auf Daten für eine bestimmte Gruppe anzupassen, navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen*. Zeiten Sie Gruppe an und öffnen Sie den den Tab *Datensatzregeln*.
 
 ### Gruppe auf Menüposten hinzufügen
 
@@ -103,11 +103,11 @@ Wenn Sie den [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivier
 
 ### Rechte für Daten deaktivieren
 
-Zeigen Sie *Einstellungen > Technisch > Sicherheit > Rechte für Daten* an und öffnen Sie den ausgewählten Eintrag. Wählen Sie *Aktion > Archiv* um die Datensatzregel zu deaktivieren.
+Zeigen Sie *Einstellungen > Technisch > Sicherheit > Datensatzregeln* an und öffnen Sie den ausgewählten Eintrag. Wählen Sie *Aktion > Archiv* um die Datensatzregel zu deaktivieren.
 
 ### Rechte für Daten auf Datenmodell vergeben
 
-Wenn Sie einer ausgewählten Gruppe Rechte für Daten auf einem Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Modelle*. Rufen Sie hier das ausgewählten Datenmodell auf und zeigen Sie den Tab *Rechte für Daten* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
+Wenn Sie einer ausgewählten Gruppe Rechte für Daten auf einem Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Modelle*. Rufen Sie hier das ausgewählten Datenmodell auf und zeigen Sie den Tab *Datensatzregeln* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
 
 * **Name**: Geben Sie hier den ganzen Namen der Anwendung und Gruppe ein.
 * **Gruppe**: Wählen Sie ein oder mehrere Gruppen aus.
@@ -116,7 +116,7 @@ Wenn Sie einer ausgewählten Gruppe Rechte für Daten auf einem Datenmodell verg
 
 ### Rechte für Daten auf Gruppe vergeben
 
-Wenn Sie einer Rechte für Daten für eine Gruppe vergeben möchten, navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und zeigen die ausgewählte Gruppe an. Navigieren Sie zum Tab *Rechte für Daten* und Erstellen Sie einen neuen Eintrag mit diesen Angaben:
+Wenn Sie einer Rechte für Daten für eine Gruppe vergeben möchten, navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und zeigen die ausgewählte Gruppe an. Navigieren Sie zum Tab *Datensatzregeln* und Erstellen Sie einen neuen Eintrag mit diesen Angaben:
 
 * **Name**: Geben Sie hier den Namen des Datenmodell mit Beschreibung der Berechtigung ein.
 * **Modell**: Wählen Sie hier das Datenmodell aus.
