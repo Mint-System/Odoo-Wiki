@@ -138,7 +138,7 @@ Als Erstes müssen Sie die folgenden [Menüposten bearbeiten](Development.md#Men
 
 Fügen Sie im Tab *Zugriffsrechte* die Gruppe *Zeiterfassung / Benutzer: nur eigene Stundenzettel* hinzu. 
 
-Anschliessend müssen Sie für *Zeiterfassung Anwesenheitsnachweis* die [Rechte für Daten auf Datenmodell vergeben](Settings%20Permissions.md#Rechte%20für%20Daten%20auf%20Datenmodell%20vergeben):
+Anschliessend müssen Sie für *Zeiterfassung Anwesenheitsnachweis* die [Datensatzregeln auf Datenmodell vergeben](Settings%20Permissions.md#Datensatzregeln%20auf%20Datenmodell%20vergeben):
 
 Für die Benutzer:
 

@@ -88,7 +88,7 @@ Führen Sie [E-Mail-Vorlage erfassen](Dialog%20E-Mail.md#E-Mail-Vorlage%20erfass
 
 ### Bearbeitung für alle Benutzer erlauben
 
-Wenn Sie möchten, dass Benutzer andere Umfragen bearbeiten können, müssten Sie diese [Rechte für Daten deaktivieren](Settings%20Permissions.md#Rechte%20für%20Daten%20deaktivieren):
+Wenn Sie möchten, dass Benutzer andere Umfragen bearbeiten können, müssten Sie diese [Datensatzregeln deaktivieren](Settings%20Permissions.md#Datensatzregeln%20deaktivieren):
 
 * Survey: officer: create/write/unlink own only
 * Survey question: officer: create/write/unlink linked to own survey only

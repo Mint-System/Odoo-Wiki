@@ -30,7 +30,7 @@ Beim Speichern wird gemäss Sequenz eine ID generiert. Sie können diese [Sequen
 
 ### Portal-Zugriff für Stakeholder erlauben
 
-Damit Stakeholder im Portal das Business Requirement sehen, braucht es eine Anpassung der Berechtigungen. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und zeigen Sie Gruppe *Benutzertypen / Portal* an. Führen Sie [Rechte für Daten auf Gruppe vergeben](Settings%20Permissions.md#Rechte%20für%20Daten%20auf%20Gruppe%20vergeben) mit diesen Parameter aus:
+Damit Stakeholder im Portal das Business Requirement sehen, braucht es eine Anpassung der Berechtigungen. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und zeigen Sie Gruppe *Benutzertypen / Portal* an. Führen Sie [Datensatzregeln auf Gruppe vergeben](Settings%20Permissions.md#Datensatzregeln%20auf%20Gruppe%20vergeben) mit diesen Parameter aus:
 
 * **Name**: Business Requirement portal access
 * **Modell**: `business.requirement`

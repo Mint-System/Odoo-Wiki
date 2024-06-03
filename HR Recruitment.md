@@ -90,9 +90,9 @@ Anschliessend können Sie Onboarding-Pläne für den Mitarbeitenden starten.
 
 ### Neue Berechtigungsgruppe Verantwortlich anlegen
 
-Gehen Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und erstellen Sie eine Kopie von *Personalbeschaffung / Personalsachbearbeiter*. Geben Sie als Namen *Verantwortlich* ein und entfernen Sie die Einträge im Tab *Benutzer*, *Vererbt* und *Rechte für Daten*.
+Gehen Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und erstellen Sie eine Kopie von *Personalbeschaffung / Personalsachbearbeiter*. Geben Sie als Namen *Verantwortlich* ein und entfernen Sie die Einträge im Tab *Benutzer*, *Vererbt* und *Datensatzregeln*.
 
-Legen Sie auf dem Datenmodell diese *Rechte für Daten* fest:
+Legen Sie auf dem Datenmodell diese *Datensatzregeln* fest:
 
 **Name**: Stelle Verantwortlich\
 **Objekt**: `hr.job`\

@@ -157,7 +157,7 @@ Die Sichtbarkeit des Projekts muss für diesen Vorgang auf *Laden Sie Angestellt
 ### Projekt für ausgewählte Mitarbeitende und Portal-Benutzer freigeben
 
 Wenn Sie ein [Projekt für ausgewählte Mitarbeitende freigeben](#Projekt%20für%20ausgewählte%20Mitarbeitende%20freigeben) können Sie dieses standardmässig nicht mit Portal-Benutzer teilen.
-Mit einer neuen Regel für *Rechte auf Daten* können Sie Projekte auch für Portal-Benutzer eilen. Führen Sie dazu [Rechte für Daten auf Gruppe vergeben](Settings%20Permissions.md#Rechte%20für%20Daten%20auf%20Gruppe%20vergeben) für Gruppe *Benutzertypen / Portal* mit diesen Angaben aus:
+Mit einer neuen Regel für *Datensatzregeln* können Sie Projekte auch für Portal-Benutzer eilen. Führen Sie dazu [Datensatzregeln auf Gruppe vergeben](Settings%20Permissions.md#Datensatzregeln%20auf%20Gruppe%20vergeben) für Gruppe *Benutzertypen / Portal* mit diesen Angaben aus:
 
 * **Name**: Project: portal users: followers and following
 * **Modell**: `project.project`

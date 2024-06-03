@@ -75,7 +75,7 @@ Im folgenden Beispiel werden die abrufbaren Verträge anhand des *Agreement Type
 
 Haben Sie das Feld `x_user_ids` und `x_group_ids` auf dem Datenmodell *Agreement* zur Verfügung können Sie den Zugriff auf die Objekte damit filtern.
 
-Legen Sie auf dem Datenmodell diese *Rechte für Daten* fest:
+Legen Sie auf dem Datenmodell diese *Datensatzregeln* fest:
 
 **Name**: Agreement Gruppen\
 **Gruppen**: Interne Benutzer\

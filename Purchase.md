@@ -151,7 +151,7 @@ Das Ergebnis sollte so aussehen:
 
 Im folgenden Beispiel werden ausgewählte Bestellungen nur für eine bestimmte Gruppe angezeigt.
 
-Legen Sie auf dem Datenmodell diese *Rechte für Daten* fest:
+Legen Sie auf dem Datenmodell diese *Datensatzregeln* fest:
 
 **Name**: Purchase Confidential\
 **Gruppen**: Interne Benutzer\

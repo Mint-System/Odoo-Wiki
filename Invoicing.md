@@ -263,7 +263,7 @@ Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzu
 
 Im folgenden Beispiel werden ausgewählte Rechnungen nur für eine bestimmte Gruppe angezeigt.
 
-Legen Sie auf dem Datenmodell diese *Rechte für Daten* fest:
+Legen Sie auf dem Datenmodell diese *Datensatzregeln* fest:
 
 **Name**: Invoicing Confidential\
 **Gruppen**: Interne Benutzer\

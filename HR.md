@@ -134,4 +134,4 @@ Ein Mitarbeiteraustritt bedeutet für Odoo eine Archivierung des Mitarbeitenden 
 
 ### Neue Berechtigungsgruppe Personalmanager anlegen
 
-Gehen Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und erstellen Sie eine Kopie von *Personal / Personalsachbearbeiter*. Geben Sie als Namen *Personalmanager* ein und entfernen Sie die Einträge im Tab *Benutzer*, *Vererbt*, *Menüs* und *Rechte für Daten*. Benutzer in dieser Gruppe erhalten Zugriff auf Aktivitäten auf dem Mitarbeiter-Objekt.
+Gehen Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und erstellen Sie eine Kopie von *Personal / Personalsachbearbeiter*. Geben Sie als Namen *Personalmanager* ein und entfernen Sie die Einträge im Tab *Benutzer*, *Vererbt*, *Menüs* und *Datensatzregeln*. Benutzer in dieser Gruppe erhalten Zugriff auf Aktivitäten auf dem Mitarbeiter-Objekt.
