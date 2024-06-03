@@ -7,45 +7,45 @@ prev: ./best-practice
 ---
 # Mehrwertsteuer
 
-Bevor Sie im System die erste Rechnung erstellen sollten Sie die Abklärungen machen ob Sie überhaupt MwSt. pflichtig sind oder nicht. Es gilt die Regel:
+Bevor Sie im System die erste Rechnung erstellen sollten Sie die Abklärungen machen ob Sie überhaupt MWST-pflichtig sind oder nicht. Es gilt die Regel:
 
-**Ab einem Jahresumsatz von CHF 100’000 sind Sie steuerpflichtig und müssen die MwSt. quartalsweise abrechnen. Sind Sie noch nicht steuerpflichtig, können Sie alle Rechnungen ohne Steuer erzeugen. Aufs neue Buchhaltungsjahr hin, schätzen Sie ihren Umsatz ein.**
+**Ab einem Jahresumsatz von CHF 100’000 sind Sie steuerpflichtig und müssen die MWST quartalsweise abrechnen. Sind Sie noch nicht steuerpflichtig, können Sie alle Rechnungen ohne Steuer erzeugen. Aufs neue Buchhaltungsjahr hin, schätzen Sie ihren Umsatz ein.**
 
-Sind Sie noch nicht Steuerpflichtig, können Sie direkt mit dem Verbuchen von Rechnungen beginnen und tragen bei der Steuer nichts ein. Sind Sie Steuerpflichtig, dann arbeiten Sie am besten nach der Methode Effektive
+Sind Sie noch nicht steuerpflichtig, können Sie direkt mit dem Verbuchen von Rechnungen beginnen und tragen bei der Steuer nichts ein. Sind Sie Steuerpflichtig, dann arbeiten Sie am besten nach der Methode Effektive
 Steuerverrechnung und vereinbarten Entgelten. So ist auch die Buchhaltung eingestellt.
 Weiterführende Informationen finden Sie unter <https://fedlex.data.admin.ch/eli/cc/2009/615>
 
 ## Abrechnung nach vereinbarten Entgelten
 
-DIe Abrechnung nach vereinbarten Entgelten ist das Standardverfahren der eidgenössischen Steuerverwaltung. Bei dieser Methode wird die MwSt fällig, sobald die Rechnung dem Kunden gestellt ist. Bezahlt dieser die Rechnung erst in einem späteren Quartal, finanzieren Sie als Unternehmer die MwSt vor.
+Die Abrechnung nach vereinbarten Entgelten ist das Standardverfahren der eidgenössischen Steuerverwaltung. Bei dieser Methode wird die MWST fällig, sobald die Rechnung dem Kunden gestellt ist. Bezahlt dieser die Rechnung erst in einem späteren Quartal, finanzieren Sie als Unternehmer die MWST vor.
 
 ::: tip
-Beispiel: Sie haben ein Architekturbüro und haben Arbeiten im Wert von CHF 1’000 ausgeführt. Am 28. Juni stellen Sie dem Kunden eine Rechnung über CHF 1’077 aus (Rechnungsbetrag plus 7.7% MwSt). 
-Der Kunde bezahlt die Rechnung in 30 Tagen nach Rechnungserhalt. Als Unternehmer müssen Sie die MwSt von CHF 77 vorfinanzieren und nach Abschluss des laufenden Quartals, also Anfang Juli, der Steuerverwaltung abliefern.
+Beispiel: Sie haben ein Architekturbüro und haben Arbeiten im Wert von CHF 1’000 ausgeführt. Am 28. Juni stellen Sie dem Kunden eine Rechnung über CHF 1’077 aus (Rechnungsbetrag plus 8.1% MWST). 
+Der Kunde bezahlt die Rechnung in 30 Tagen nach Rechnungserhalt. Als Unternehmer müssen Sie die MWST von CHF 77 vorfinanzieren und nach Abschluss des laufenden Quartals, also Anfang Juli, der Steuerverwaltung abliefern.
 :::
 
 ## Abrechnung nach vereinnahmten Entgelten
 
-Die MwSt-Abrechnung nach vereinnahmten Entgelten muss schriftlich bei der eidg. Steuerverwaltung beantragt werden. So ist die MwSt erst fällig, nachdem Sie die Zahlung des Kunden erhalten haben.
+Die MWST-Abrechnung nach vereinnahmten Entgelten muss schriftlich bei der eidg. Steuerverwaltung beantragt werden. So ist die MWST erst fällig, nachdem Sie die Zahlung des Kunden erhalten haben.
 
 ::: tip
-Beispiel: Wie im Beispiel oben stellen Sie dem Kunden eine Rechnung über CHF 1’077 aus (Rechnungsbetrag plus 7.7% MwSt). Die MwSt im Wert von CHF 77 bezahlen Sie der Steuerverwaltung erst in dem Quartal, in dem der Kunde die Rechnung bezahlt hat. Zahlt der Kunde die Rechnung erst im Juli, müssen Sie die MwSt erst nach Ablauf dieses Quartals abliefern, d.h. Anfang Oktober.
+Beispiel: Wie im Beispiel oben stellen Sie dem Kunden eine Rechnung über CHF 1’077 aus (Rechnungsbetrag plus 8.1% MWST). Die MWST im Wert von CHF 77 bezahlen Sie der Steuerverwaltung erst in dem Quartal, in dem der Kunde die Rechnung bezahlt hat. Zahlt der Kunde die Rechnung erst im Juli, müssen Sie die MWST erst nach Ablauf dieses Quartals abliefern, d.h. Anfang Oktober.
 :::
 
 ## Steuersätze
 
-Im System sind die wichtigsten Steuersätze bereits erfasst. Sind Sie in der Schweiz MwSt. pflichtig, arbeiten Sie mit 7.7%, wenn nicht dann lassen Sie die Steuer leer.
+Im System sind die wichtigsten Steuersätze bereits erfasst. Sind Sie in der Schweiz MWST- pflichtig, arbeiten Sie mit 8.1%, wenn nicht dann lassen Sie die Steuer leer.
 
 **Ausgangsrechnungen**
 
-nicht MwST pflichtig: leer  
-MwSt. pflichtig:  7.7% MwSt. inkl. VK  
+nicht MWST pflichtig: leer  
+MWST-pflichtig:  8.1% MWST inkl. VK  
 
 **Eingangsrechnungen**
 
-Eingangsrechnungen von Lieferanten haben in der Regel MwSt. drauf. Auf diesen Rechnungen prüfen Sie jeweils ob der Betrag inkl. oder exkl. angegeben ist und tragen einfach genau diese Regelung ein.  
-nicht MwST pflichtig: leer  
-MwSt. pflichtig:  7.7% MwSt. exkl. EK / 7.7% MwSt. inkl. EK
+Eingangsrechnungen von Lieferanten haben in der Regel MWST drauf. Auf diesen Rechnungen prüfen Sie jeweils ob der Betrag inkl. oder exkl. angegeben ist und tragen einfach genau diese Regelung ein.  
+nicht MWST pflichtig: leer  
+MWST-pflichtig:  8.1% MWST. exkl. EK / 8.1% MWST inkl. EK
 
 | Bezeichnung auf Rechnungen | Steuerbezeichnung                                | Steuergültigkeit | Steuerkonto | Steuerkonto für Erstattungen / Gutschriften |
 | -------------------------- | ------------------------------------------------ | ---------------- | ----------- | ------------------------------------------- |
