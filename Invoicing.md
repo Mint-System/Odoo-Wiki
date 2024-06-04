@@ -34,6 +34,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Account Invoice Overdue Reminder](Account%20Invoice%20Overdue%20Reminder.md)                 | Einfache Lösung zum Versenden von Zahlungserinnerungen.                                            |
 | [Account Invoice Sale Partner](Account%20Invoice%20Sale%20Partner.md)                         | Verkaufsadresse auf Rechnung festlegen.                                                            |
 | [Account Invoice Select Bank](Account%20Invoice%20Select%20Bank.md)                           | Bankkonto anhand Währung auswählen.                                                                |
+| [Account Invoice Triple Discount](Account%20Invoice%20Triple%20Discount.md)                   | Mehrere Rabatte auf der Rechungszeile.                                                             |
 | [Account Move Invoice Partner](Account%20Move%20Invoice%20Partner.md)                         | Separate Rechnungsadresse auf Rechnung festlegen.                                                  |
 | [Account Move Line Description](Account%20Move%20Line%20Description.md)                       | Produktname ohne Referenz in Beschreibung Rechnungszeile übertragen.                               |
 | [Account Sale Timesheet Report](Account%20Sale%20Timesheet%20Report.md)                       | Zeiterfassungsbericht für Rechnung.                                                                |
