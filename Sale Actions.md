@@ -76,7 +76,8 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-for rec in records:  
+for rec in records:
+  # rec.write({'state': 'sale'})
   rec.action_confirm()
 ```
 
