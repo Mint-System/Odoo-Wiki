@@ -1,12 +1,12 @@
 ---
-title: Sales Order Invoicing Grouping Criteria
+title: Sale Order Invoicing Grouping Criteria
 description: Kriterien zur Gruppierung in der Rechnungstellung festlegen.
 tags:
 - HowTo
 - OCA
 prev: ./invoicing
 ---
-# Sales Order Invoicing Grouping Criteria
+# Sale Order Invoicing Grouping Criteria
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
