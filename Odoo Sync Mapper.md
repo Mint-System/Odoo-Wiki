@@ -7,7 +7,7 @@ tags:
 prev: ./zebroo-sync
 ---
 # Odoo Sync Mapper
-![](attachments/icon_odoo_zbsync.jpg)
+![](attachments/icon_odoo_zbsync.png)
 
 {{ $frontmatter.description }}
 

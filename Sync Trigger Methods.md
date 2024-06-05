@@ -7,7 +7,7 @@ tags:
 prev: ./zebroo-sync
 ---
 # Sync Trigger Methods
-![](attachments/icon_odoo_zbsync.jpg)
+![](attachments/icon_odoo_zbsync.png)
 
 {{ $frontmatter.description }}
 
