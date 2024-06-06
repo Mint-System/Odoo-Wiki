@@ -31,3 +31,38 @@ Wählen Sie das Optionsfeld der Listenansicht an und blenden Sie die Felder *Act
 ### Mapping in Listenansicht anzeigen
 
 Öffnen Sie *Zebroo Sync* und zeigen Sie eine Pipeline an. Wählen Sie unter *Worker* einen Mapper aus. Klicken Sie auf *Open in Tree* um die Listenansicht der Mappings anzuzeigen. Wählen Sie das Optionsfeld der Listenansicht an und blenden Sie die Felder *Active* und *Is Key* ein.
+
+### Mapping mit verschachtelten Attributen erstellen
+
+Mit den Mapper-Aktionen können Sie JSON-Schemas mit verschalteten Attributen abbilden. Dazu ein Beispiel:
+
+```json
+{
+  "id": 13486,
+  "ref": "ST-569580",
+  "author": {
+    "id": 19572,
+    "name": "Christian Bollinger",
+  },
+  "organisation": {
+    "id": 958,
+    "name": "Gemeinde Hünenberg",
+  },
+  "customer_organisation": {
+  },
+  "qualifications": [
+    "Hochschulbildung",
+    "Höhere Berufsbildung"
+  ],
+  "working_areas": [
+    "Altersarbeit",
+    "Sozialraum / Soziokultur"
+  ]  
+}
+```
+
+Diese Struktur kann mit dem Mapper wie folgt abgebildet werden:
+
+![](attachments/Sync%20Mapper%20Nested%20Attributes.png)
+
+Die können die Struktur analog mit den Aktionen `[]` und `{}` abbilden.
