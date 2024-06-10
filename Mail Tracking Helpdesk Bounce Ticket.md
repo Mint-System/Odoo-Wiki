@@ -21,3 +21,24 @@ Vor der Installation dieses Moduls wird empfohlen alle E-Mails im Status *Bounce
 ## Beschreibung
 
 Mit dieser Erweiterung wird für E-Mails im Status *Bounced* ein Kundendienst-Ticket erstellt.
+
+## Aktionen
+
+### Auf Bounced setzen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Auf Bounced setzen`\
+Modell: `mail.message`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for rec in records:
+	rec.write({
+	  'is_bounced_message': True
+	})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
