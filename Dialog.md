@@ -36,6 +36,7 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 | [Mail Thread Context](Mail%20Thread%20Context.md)                                        | Automatisches Abonnieren deaktiveren.                                  |
 | [Mail Tracking Helpdesk Bounce Ticket ](Mail%20Tracking%20Helpdesk%20Bounce%20Ticket.md) | Für E-Mails mit dem Status Bounced ein Helpdesk-Ticket erstellen.      |
 | [Mail Tracking Mailgun](Mail%20Tracking%20Mailgun.md)                                    | Mailgun Events mit Webhook in Odoo empfangen.                          |
+| [Mail Tracking](Mail%20Tracking.md)                                                      | Tracking-Status für jede versendete E-Mail.                            |
 | [Mail Unsubscribe](Mail%20Unsubscribe.md)                                                | Automatische Abmeldung der Follower vor dem Versand einer Nachricht.   |
 | [Purchase Order Send Unsubscribe](Purchase%20Order%20Send%20Unsubscribe.md)              | Alle Abonnenten nach Versenden der Bestellung entfernen.               |
 | [Purchase Order Unsubscribe](Purchase%20Order%20Unsubscribe.md)                          | Alle Abonnenten nach Bestätigung der Bestellung entfernen.             |

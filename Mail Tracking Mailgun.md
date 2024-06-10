@@ -44,11 +44,3 @@ Wenn Sie eine Nachricht versendet haben, wird der Mailgun-Status im Chatter ange
 ![](attachments/Mail%20Tracking%20Mailgun%20Status.png)
 
 Klicken Sie auf das Icon um Details zu sehen.
-
-### Status von verfolgten E-Mails anzeigen
-
-Navigieren Sie nach *Einstellungen > Technisch > E-Mails > Tracking mails*. Hier erhalten Sie eine Liste der Statis aller verfolgten E-Mails.
-
-### Events von von verfolgten E-Mails anzeigen
-
-Navigieren Sie nach *Einstellungen > Technisch > E-Mails > Verfolge Vorkommnisse*. Hier erhalten Sie eine Liste der Events aller verfolgten E-Mails.

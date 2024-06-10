@@ -29,7 +29,7 @@ Mit dieser Erweiterung wird für E-Mails im Status *Bounced* ein Kundendienst-Ti
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Auf Bounced setzen`\
-Modell: `mail.message`\
+Modell: `mail.tracking.email`\
 Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
@@ -37,7 +37,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 ```python
 for rec in records:
 	rec.write({
-	  'is_bounced_message': True
+	  'state': 'bounced'
 	})
 ```
 
