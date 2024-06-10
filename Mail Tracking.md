@@ -18,7 +18,7 @@ Repository: <https://github.com/OCA/social/tree/16.0/mail_tracking>
 
 ### Status von verfolgten E-Mails anzeigen
 
-Navigieren Sie nach *Einstellungen > Technisch > E-Mails > Tracking mails*. Hier erhalten Sie eine Liste der Statis aller verfolgten E-Mails.
+Navigieren Sie nach *Einstellungen > Technisch > E-Mails > Tracking emails*. Hier erhalten Sie eine Liste der Statis aller verfolgten E-Mails.
 
 ### Events von von verfolgten E-Mails anzeigen
 
