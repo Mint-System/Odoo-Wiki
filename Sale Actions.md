@@ -379,3 +379,23 @@ for invoice in records.invoice_ids:
     invoice.action_post()
 records._compute_invoice_status()
 ```
+
+### Verkäufter entfernen
+
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+
+Name der Aktion: `Verkäufter entfernen`\
+Modell: `sale.order`\
+Auslöser: Bei Erstellung und Aktualisierung\
+Trigger-Felder: `x_as4import`\
+Abgrenzung vor Aktualisierung: `[("x_as4import", "!=", True)]`\
+Anzuwenden auf: `[("x_as4import", "=", True)]`\
+Python Code:
+
+```python
+records.action_confirm()
+records._compute_amounts()
+records._create_invoices()
+for invoice in records.invoice_ids:
+  invoice.action_post()
+```
