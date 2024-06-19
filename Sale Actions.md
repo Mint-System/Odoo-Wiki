@@ -1,6 +1,6 @@
 ---
 title: Verkauf Aktionen
-description: Arbeitsflüsse in Verkauf automatisieren.
+description: Arbeitsflüsse im Verkauf automatisieren.
 tags:
 - HowTo
 - Aktionen

@@ -17,7 +17,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | Bereich                                   | Beschreibung                                                  |
 | ----------------------------------------- | ------------------------------------------------------------- |
 | [Verkauf Abrechnung](Sale%20Invoicing.md) | Verkaufsaufträge unkompliziert abrechnen.                     |
-| [Verkauf Aktionen](Sale%20Actions.md)     | Arbeitsflüsse in Verkauf automatisieren.                      |
+| [Verkauf Aktionen](Sale%20Actions.md)     | Arbeitsflüsse im Verkauf automatisieren.                      |
 | [Verkauf Berichte](Sale%20Reports.md)     | Verkaufsdaten immer aktuell.                                  |
 | [Verkauf Lager](Sale%20Stock.md)          | Lieferungen aus Verkaufsaufträge erstellen.                   |
 | [Verkauf Preise](Sale%20Price.md)         | Produkte, Preislisten und Varianten zentral pflegen.          |
