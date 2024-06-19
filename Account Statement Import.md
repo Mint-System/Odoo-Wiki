@@ -12,3 +12,7 @@ prev: ./accounting
 
 Technischer Name: `account_statement_import`\
 Repository: <https://github.com/OCA/bank-statement-import/tree/15.0/account_statement_import>
+
+::: warning
+Wird ab #Odoo16 nicht mehr benötigt.
+:::
