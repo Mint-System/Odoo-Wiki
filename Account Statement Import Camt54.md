@@ -17,7 +17,7 @@ Repository: <https://github.com/OCA/bank-statement-import/tree/16.0/account_stat
 
 ### Bank-Datenübertragung festlegen
 
-Navigieren Sie nach *Buchhaltung > Konfiguration > Journale* und zeigen Sie das Bank-Jrounal an. Im Tab *Buchungssätze* wählen Sie im Feld *Bank Datenübertragung* die entsprechende Option aus.
+Navigieren Sie nach *Buchhaltung > Konfiguration > Journale* und zeigen Sie das Bank-Journal an. Im Tab *Buchungssätze* wählen Sie im Feld *Bank-Feeds* die entsprechende Option aus.
 
 ## Verwendung
 
