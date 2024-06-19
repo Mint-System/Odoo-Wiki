@@ -1,6 +1,6 @@
 ---
 title: Mail Composer Default Template
-description: Standardvorlage für Mail-Dialog festlegen.
+description: Standardvorlage für den E-Mail-Dialog festlegen.
 tags:
 - HowTo
 - Drittanbieter
@@ -16,14 +16,14 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_comp
 
 ## Verwendung
 
-### Standardvorlage für Mail-Dialog definieren
+### Standardvorlage für den E-Mail-Dialog definieren
 
-Wenn Sie diese Erweiterung installiert haben und den Mail-Dialog auf einem Dokument öffnen, wird die erste E-Mail-Vorlage gemäss Sequenz und Filter geladen.
+Wenn Sie diese Erweiterung installiert haben und den E-Mail-Dialog auf einem Dokument öffnen, wird die erste E-Mail-Vorlage gemäss Sequenz und Filter geladen.
 
 ![Mail Composer Default Template](attachments/Mail%20Composer%20Default%20Template.gif)
 
 ::: tip
-Beim Aufruf des Mail-Dialog wird die Vorlage in folgender Reihenfolge ausgewählt:
+Beim Aufruf des E-Mail-Dialog wird die Vorlage in folgender Reihenfolge ausgewählt:
 * Filterung nach Dokument
 * Filterung nach Sequenz
 * Filterung nach Domain

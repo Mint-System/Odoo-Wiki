@@ -27,8 +27,9 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 | [Account Move Mail Thread](Account%20Move%20Mail%20Thread.md)                            | Verhindert das versenden von Nachrichten beim Erstellen einer Buchung. |
 | [Account Move Send Unsubscribe](Account%20Move%20Send%20Unsubscribe.md)                  | Alle Abonnenten nach Versenden der Rechnung entfernen.                 |
 | [Account Move Unsubscribe](Account%20Move%20Unsubscribe.md)                              | Alle Abonnenten nach Buchung eines Buchungssatzes entfernen.           |
+| [Email CC and BCC](Mail%20Composer%20Cc%20Bcc.md)                                        | Im E-Mail-Dialog Cc und Bcc festlegen.                                 |
 | [Mail Activity Datetime](Mail%20Activity%20Datetime.md)                                  | Datum mit Zeit für Fälligkeit von Aktivität.                           |
-| [Mail Composer Default Template](Mail%20Composer%20Default%20Template.md)                | Standardvorlage für Mail-Dialog festlegen.                             |
+| [Mail Composer Default Template](Mail%20Composer%20Default%20Template.md)                | Standardvorlage für E-Mail-Dialog festlegen.                             |
 | [Mail Debrand](Mail%20Debrand.md)                                                        | Odoo Promotion aus E-Mail-Vorlagen entfernen.                          |
 | [Mail No Autofollow](Mail%20No%20Autofollow.md)                                          | Beim Erstellen von Nachrichten erfolgt keine automatische Abonnierung. |
 | [Mail Optional Follower Notification](Mail%20Optional%20Follower%20Notification.md)      | Auswahl Nachrichen an Abonnenten verschicken.                          |
@@ -90,9 +91,13 @@ Im Chatter des Dokument wählen Sie den Tab *Sende Nachricht*. Geben Sie eine Na
 Die Empfänger sind alle Follower des Dokuments.
 :::
 
-### Nachricht aus E-Mail-Vorlage verschicken
+## E-Mail-Dialog anzeigen
 
-Im Chatter des Dokument wählen Sie den Tab *Sende Nachricht*. Klicken Sie auf das Icon unten rechts im Eingabe-Fenster um den Dialog zu vergrössern.
+Im Chatter des Dokument wählen Sie den Tab *Sende Nachricht*. Klicken Sie auf das Icon unten rechts im Eingabe-Fenster um den Dialog zu anzuzeigen.
+
+### E-Mail aus E-Mail-Vorlage verschicken
+
+Im Chatter des Dokument wählen Sie den Tab *Sende Nachricht*. Klicken Sie auf das Icon unten rechts im Eingabe-Fenster um den Dialog zu vergrößern.
 
 ![](attachments/Dialog%20Extend%20Editor.png)
 

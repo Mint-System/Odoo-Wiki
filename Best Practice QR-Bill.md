@@ -27,12 +27,12 @@ Gilt bis #Odoo15.
 
 Out-of-the-box generiert Odoo eine Rechnung eine QR-Rechnung separat sobald man die Aktion *Senden & Drucken* auf einer Rechnung ausführt. Damit dieses Verhalten unterdrückt werden kann, müssen diese Module installiert werden:
 
-| Erweiterung                                                                         | Beschreibung                                       |
-| ----------------------------------------------------------------------------------- | -------------------------------------------------- |
-| [Mail Composer Default Template](Mail%20Composer%20Default%20Template.md)           | Standardvorlage für Mail-Dialog festlegen.         |
+| Erweiterung                                                                   | Beschreibung                                       |
+| ----------------------------------------------------------------------------- | -------------------------------------------------- |
+| [Mail Composer Default Template](Mail%20Composer%20Default%20Template.md)     | Standardvorlage für den E-Mail-Dialog festlegen.   |
 | [l10n CH Disable Default Reports](l10n%20CH%20Disable%20Default%20Reports.md) | Generierung der QR- und ISR-Berichte deaktivieren. |
-| [l10n CH QR Code IBAN](l10n%20CH%20QR%20Code%20IBAN.md)                                   | Generierung der QR-Rechnung ohne ISR-Nummer.       |
-| [l10n CH Invoice Reports](l10n%20CH%20Invoice%20Reports.md)                         | Rechnung mit ISR- und/oder QR-Zahlung drucken.     |
+| [l10n CH QR Code IBAN](l10n%20CH%20QR%20Code%20IBAN.md)                       | Generierung der QR-Rechnung ohne ISR-Nummer.       |
+| [l10n CH Invoice Reports](l10n%20CH%20Invoice%20Reports.md)                   | Rechnung mit ISR- und/oder QR-Zahlung drucken.     |
 
 Damit die Rechnungsdokumente nicht automatisch generiert und an das Rechnungsobjekt angehägt werden, müssen Sie für die folgenden Rechnungs-Berichte die [Option Als Anhang speichern deaktivieren](Development%20Reports.md#Option%20Als%20Anhang%20speichern%20deaktivieren):
 
