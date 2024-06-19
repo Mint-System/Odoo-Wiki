@@ -4,7 +4,7 @@ description: Mahnbericht von definierter E-Mail-Adresse verschicken.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./accounting
 ---
 # Account Followup Email From
 ![icon_oms_box](attachments/icon_oms_box.png)

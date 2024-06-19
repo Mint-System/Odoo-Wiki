@@ -54,7 +54,7 @@ Python Bedinung: `result = inputs.KURZ.amount > 0.0 if inputs.KURZ else False`\
 Berechnungsart: `Python Code`\
 Python Code: `result = -inputs.KURZ.amount if inputs.KURZ else 0`
 
-Im Tab *Finanzen* wählen sie:
+Im Tab *Buchhaltung*  wählen sie:
 
 Sollkonto: `1098 Durchlaufkonto Löhne`\
 Habenkonto: `5000 Löhne`
@@ -77,7 +77,7 @@ Python Bedinung: `result = inputs.SPESEN.amount > 0.0 if inputs.SPESEN else Fals
 Berechnungsart: `Python Code`\
 Python Code: `result = inputs.SPESEN.amount if inputs.SPESEN else 0`
 
-Im Tab *Finanzen* wählen sie:
+Im Tab *Buchhaltung* wählen sie:
 
 Sollkonto: `5082 Spesen`\
 Habenkonto: `1098 Durchlaufkonto Löhne`

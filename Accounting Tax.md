@@ -1,11 +1,11 @@
 ---
-title: Finanzen Mehrwertsteuer
+title: Buchhaltung Mehrwertsteuer
 description: Mehrwertsteuer einfach abrechnen mit Odoo.
 tags:
 - HowTo
-prev: ./finance
+prev: ./accounting
 ---
-# Finanzen Mehrwertsteuer
+# Buchhaltung Mehrwertsteuer
 ![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}
@@ -14,24 +14,24 @@ prev: ./finance
 
 ### Nach vereinnahmten Entgelten verrechnen
 
-Wenn Sie die Mehrwertsteuer nach vereinnahmten Entgelten abrechnen wolle, navigieren Sie nach *Einstellungen > Finanzen > Steuern* und aktivieren Sie die Option *Nach vereinnahmten Entgelten*. Legen Sie anschliessend ein Journal im Feld *Journal für die Besteuerung nach vereinnahmten Entgelten* und ein Konto im Feld *Konto für erhaltenen Steuerbetrag* fest.
+Wenn Sie die Mehrwertsteuer nach vereinnahmten Entgelten abrechnen wolle, navigieren Sie nach *Einstellungen > Buchhaltung > Steuern* und aktivieren Sie die Option *Nach vereinnahmten Entgelten*. Legen Sie anschliessend ein Journal im Feld *Journal für die Besteuerung nach vereinnahmten Entgelten* und ein Konto im Feld *Konto für erhaltenen Steuerbetrag* fest.
 
 * **Journal**: Steuern
 * **Konto**: 2202 Umsatzsteuerausgleich Abrechnungsmethode 
 
 ### Steuerfälligkeit für Steuersatz festlegen
 
-Wenn Sie [nach vereinnahmten Entgelten verrechnen](#Nach%20vereinnahmten%20Entgelten%20verrechnen), können Sie für jeden Steuersatz die Steuerfälligkeit festlegen. Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern* und öffnen Sie einen Steuersatz. Im Tab *Erweiterte Optionen* finden Sie das Feld *Steuerfälligkeit*. Wählen Sie *Auf der Grundlage einer Zahlung* und legen Sie ein Übergangskonto fest, wenn Sie für diesen Steuersatz nach vereinnahmten Entgelt abrechnen möchten.
+Wenn Sie [nach vereinnahmten Entgelten verrechnen](#Nach%20vereinnahmten%20Entgelten%20verrechnen), können Sie für jeden Steuersatz die Steuerfälligkeit festlegen. Öffnen Sie *Buchhaltung > Konfiguration > Buchhaltung > Steuern* und öffnen Sie einen Steuersatz. Im Tab *Erweiterte Optionen* finden Sie das Feld *Steuerfälligkeit*. Wählen Sie *Auf der Grundlage einer Zahlung* und legen Sie ein Übergangskonto fest, wenn Sie für diesen Steuersatz nach vereinnahmten Entgelt abrechnen möchten.
 
-![](attachments/Finanzen%20Mehrwertsteuer%20Grundlage%20Zahlung.png)
+![](attachments/Buchhaltung%20Mehrwertsteuer%20Grundlage%20Zahlung.png)
 
 Wird der entsprechende Steuersatz auf der Rechnungszeile verwendet, wird die MWST-Buchung entsprechend angepasst:
 
-![](attachments/Finanzen%20Mehrwertsteuer%20Grundlage%20Zahlung%20Buchung.png)
+![](attachments/Buchhaltung%20Mehrwertsteuer%20Grundlage%20Zahlung%20Buchung.png)
 
 ### Steuersatz erfassen
 
-Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern*. Zeigen Sie einen bestehenden Steuersatz an und duplizieren Sie diesen. Dazu ein Beispiel für einem neuen Steuersatz auf Basis von *UST 7.7% Lief./DL (exkl. MWST)*:
+Öffnen Sie *Buchhaltung > Konfiguration > Buchhaltung > Steuern*. Zeigen Sie einen bestehenden Steuersatz an und duplizieren Sie diesen. Dazu ein Beispiel für einem neuen Steuersatz auf Basis von *UST 7.7% Lief./DL (exkl. MWST)*:
 
 * **Steuerbezeichnung**: UST 8.1% Lief./DL (exkl. MWST)
 * **Betrag**: 8.1000%
@@ -40,7 +40,7 @@ Wird der entsprechende Steuersatz auf der Rechnungszeile verwendet, wird die MWS
 
 ### Steuersatz anpassen
 
-Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern*. Hier werden alle Steuersätze festgelegt. Öffnen Sie einen Eintrag und passen Sie diese Felder an:
+Öffnen Sie *Buchhaltung > Konfiguration > Buchhaltung > Steuern*. Hier werden alle Steuersätze festgelegt. Öffnen Sie einen Eintrag und passen Sie diese Felder an:
 
 * **Steuerbezeichnung**: Ist die interne Bezeichnung
 * **Steuerberechnung**: Legt fest wie die Steuer berechnet wird
@@ -57,9 +57,9 @@ Im Tab *Erweiterte Optionen* haben Sie diese wichtigen Felder:
 
 ### Mehrwertsteuer-Konto festlegen
 
-Für jeden Steuersatz können Sie ein Mehrwertsteuer-Konto festlegen. Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern* und zeigen Sie einen Steuersatz an. Im Tab *Definition* legen Sie das Mehrwertsteuer-Konto für Rechnungen und Rückerstattungen fest.
+Für jeden Steuersatz können Sie ein Mehrwertsteuer-Konto festlegen. Öffnen Sie *Buchhaltung > Konfiguration > Buchhaltung > Steuern* und zeigen Sie einen Steuersatz an. Im Tab *Definition* legen Sie das Mehrwertsteuer-Konto für Rechnungen und Rückerstattungen fest.
 
-![](attachments/Finanzen%20Mehrwertsteuer%20Abrechnungskonto.png)
+![](attachments/Buchhaltung%20Mehrwertsteuer%20Abrechnungskonto.png)
 
 ::: tip
 Für Steuersätze von eingehenden Rechnungen verwenden Sie das Vorsteuerkonto 1170 oder 1171 und für ausgehende Rechnungen das Konto 2200.
@@ -67,11 +67,11 @@ Für Steuersätze von eingehenden Rechnungen verwenden Sie das Vorsteuerkonto 11
 
 ### Steuerperiode festlegen
 
-Öffnen Sie *Finanzen > Konfiguration > Einstellungen > Steuern*. Legen Sie im Bereich *regelmässige Steuernrückzahlungen* die Periode für die Steuerrückzahlungen fest.
+Öffnen Sie *Buchhaltung > Konfiguration > Einstellungen > Steuern*. Legen Sie im Bereich *regelmässige Steuernrückzahlungen* die Periode für die Steuerrückzahlungen fest.
 
 ### Steuerkonten konfigurieren
 
-Klicken Sie auf *Einstellungen > Finanzen > Steuern > Konfigurieren der Steuerkonten*. Hier können Sie die Konten pro Steuersatz für die Bezahlung der Mehrwertsteuer hinterlegen.
+Klicken Sie auf *Einstellungen > Buchhaltung > Steuern > Konfigurieren der Steuerkonten*. Hier können Sie die Konten pro Steuersatz für die Bezahlung der Mehrwertsteuer hinterlegen.
 
 | Name       | Tax Payable Account    | Tax Receivable Account |
 | ---------- | ---------------------- | ---------------------- |
@@ -89,17 +89,17 @@ Normalerweise werden in den Spalten *Steuer aktuelles Konto (bezahlen)* und *Ste
 
 Für jedes Konto können Sie einen Standard-Steuersatz hinterlegen. Rufen Sie das Konto in der Formularansicht auf und legen Sie den Steuersatz im Feld *Standard Steuern* fest.
 
-![](attachments/Finanzen%20Mehrwertsteuer%20Standard%20Steuern.png)
+![](attachments/Buchhaltung%20Mehrwertsteuer%20Standard%20Steuern.png)
 
 ### Standard-Steuer für Verkauf und Einkauf festlegen
 
-Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und legen Sie im Feld *Umsatzsteuer* und *Vorsteuer* die Steuer für *Einkauf* resp. *Verkauf* fest.
+Navigieren Sie nach *Einstellungen > Buchhaltung > Steuern* und legen Sie im Feld *Umsatzsteuer* und *Vorsteuer* die Steuer für *Einkauf* resp. *Verkauf* fest.
 
 ## International
 
 ### MwSt.-Nummern überprüfen
 
-Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und aktivieren Sie die Option *MwSt-Identifikationsnr. überprüfen*.
+Navigieren Sie nach *Einstellungen > Buchhaltung > Steuern* und aktivieren Sie die Option *MwSt-Identifikationsnr. überprüfen*.
 
 ::: tip
 Um die Funktion zu testen, finden Sie hier Beispieldaten <https://viesapi.eu/test-vies-api/>.
@@ -107,7 +107,7 @@ Um die Funktion zu testen, finden Sie hier Beispieldaten <https://viesapi.eu/tes
 
 ### Steuerzurodnung anzeigen
 
-Navigieren Sie nach *Finanzen > Konfiguration > Steuerzuordnung*. Hier finden Sie standardmässig zwei Einträge:
+Navigieren Sie nach *Buchhaltung > Konfiguration > Steuerzuordnung*. Hier finden Sie standardmässig zwei Einträge:
 
 * **Schweiz national**: Diese Steuerzuordnung wird für Rechnung mit Partner aus der Schweiz angewendet.
 * **Import/Export**: Diese Steuerzuordnung wird für alle Rechnungen (sprich ohne Schweizer Partner) angewendet.
@@ -118,21 +118,21 @@ Die Standardkonfiguration von Odoo sieht vor, dass alle Internationalen Import/E
 
 ### Steuerzuordnung für ausgewähltes Land festlegen
 
-Erstellen oder Kopieren Sie unter *Finanzen > Konfiguration > Steuerzuordnung* einen neuen Eintrag. Im Feld *Land* oder *Ländergruppe* können Sie das ausewählte Land eintragen. Im Tab *Steuerzuordnung* fügen Sie die ursprünglichen und neuen Steuersätze hinzu.
+Erstellen oder Kopieren Sie unter *Buchhaltung > Konfiguration > Steuerzuordnung* einen neuen Eintrag. Im Feld *Land* oder *Ländergruppe* können Sie das ausewählte Land eintragen. Im Tab *Steuerzuordnung* fügen Sie die ursprünglichen und neuen Steuersätze hinzu.
 
 ### Steuerzuordnung auf Lieferant festlegen
 
-Zeigen Sie *Finanzen > Lieferanten > Lieferanten* an. Öffnen Sie einen bestimmten Lieferanten und zeigen Sie den Tab *Verkauf & Einkauf* an. Wählen Sie im Feld *Steuerzuordnung* einen Wert aus.
+Zeigen Sie *Buchhaltung > Lieferanten > Lieferanten* an. Öffnen Sie einen bestimmten Lieferanten und zeigen Sie den Tab *Verkauf & Einkauf* an. Wählen Sie im Feld *Steuerzuordnung* einen Wert aus.
 
 ### Steuerzuordnung auf Kunde festlegen
 
-Zeigen Sie *Finanzen > Kunden > Kunden* an. Öffnen Sie einen bestimmten Kunden und zeigen Sie den Tab *Verkauf & Einkauf* an. Wählen Sie im Feld *Steuerzuordnung* einen Wert aus.
+Zeigen Sie *Buchhaltung > Kunden > Kunden* an. Öffnen Sie einen bestimmten Kunden und zeigen Sie den Tab *Verkauf & Einkauf* an. Wählen Sie im Feld *Steuerzuordnung* einen Wert aus.
 
 ## One-Stop-Shop
 
 ### VAT-Konten anlegen
 
-Navigieren Sie nach *Finanzen > Konfiguration > Kontenplan* und erstellen Sie diese neuen Einträge.
+Navigieren Sie nach *Buchhaltung > Konfiguration > Kontenplan* und erstellen Sie diese neuen Einträge.
 
 Geschuldete VAT:
 * **Code**: 2202:
@@ -146,7 +146,7 @@ Zu zahlende VAT:
 
 ### Mehrwertsteuer für EU-Ausland aktivieren
 
-Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und aktivieren Sie die Option *Innergemeinschaftlicher Fernabsatz der EU*. Anschliessend erscheint die Aktion *Refresh tax mappings*. Damit wird die Steuerzuordnung aktualisiert.
+Navigieren Sie nach *Einstellungen > Buchhaltung > Steuern* und aktivieren Sie die Option *Innergemeinschaftlicher Fernabsatz der EU*. Anschliessend erscheint die Aktion *Refresh tax mappings*. Damit wird die Steuerzuordnung aktualisiert.
 
 ::: tip
 Diese Option funktioniert nur für EU-Länder. Damit die OSS-Steuersätze einem Schweizer Unternehmen hinzufügen können, müssen Sie das Land des Unternehmen temporär auf *Deutschland* festlegen oder Schweiz der Ländergruppe *Europa* hinzufügen.
@@ -154,11 +154,11 @@ Diese Option funktioniert nur für EU-Länder. Damit die OSS-Steuersätze einem 
 
 ### Steuerzuordnung für EU-Ausland aktualisieren
 
-Navigieren Sie nach *Einstellungen > Finanzen > Steuern* und führen Sie die Aktion *Refresh tax mappings* aus.
+Navigieren Sie nach *Einstellungen > Buchhaltung > Steuern* und führen Sie die Aktion *Refresh tax mappings* aus.
 
 ### VAT-Steuersatz manuell erfassen
 
-Wenn Sie VAT-Steuersätze manuell erfassen möchten, gehen Sie wie folgt vor. Navigieren Sie nach *Finanzen > Konfiguration > Steuern* und erstellen Sie einen neuen Eintrag:
+Wenn Sie VAT-Steuersätze manuell erfassen möchten, gehen Sie wie folgt vor. Navigieren Sie nach *Buchhaltung > Konfiguration > Steuern* und erstellen Sie einen neuen Eintrag:
 
 * **Steuerbezeichnung**: 20.0% FR VAT
 * **Steuertyp**: Verkauf
@@ -196,15 +196,15 @@ Die Steuererklärung ist für Odoo ein Steuerbericht.
 
 Odoo erstellt gemäss Seuerperiode automatisch die Steuererklärung. Zeigen Sie das Dashboard von *Buchhaltung* an und klicken Sie bei der Kachel *Sonstige* auf die Steuererklärung.
 
-![](attachments/Finance%20Tax%20Aktuelle%20Steuererklärung.png)
+![](attachments/Accounting%20Tax%20Aktuelle%20Steuererklärung.png)
 
 ### Steuerabschlussbuchung erstellen
 
-Wenn Sie eine Abschlussbuchung für die Steuererklärung vornehmen wollen, öffnen Sie *Finanzen > Berichtswesen > Steuerbericht* und klicken auf *Abschlussbuchung*.
+Wenn Sie eine Abschlussbuchung für die Steuererklärung vornehmen wollen, öffnen Sie *Buchhaltung > Berichtswesen > Steuerbericht* und klicken auf *Abschlussbuchung*.
 
 Odoo erstellt eine Buchung für die Steuererklärung gemäss Steuerperiode (siehe [Steuerperiode festlegen](#Steuerperiode%20festlegen)). Dabei wird der Steuerbetrag aus dem zu schuldenden Steuerbetrag sowie Vorsteuerabzug gemäss Steuerkonten berechnet.
 
-![](attachments/Finanzen%20Mehrwertsteuer%20Abschlussbuchung.png)
+![](attachments/Buchhaltung%20Mehrwertsteuer%20Abschlussbuchung.png)
 
 ### Steuerabschlussbuchung aktualisieren
 
@@ -218,22 +218,22 @@ Die Abschlussbuchung ist mit dem entsprechenden Steuerbericht über den Smart-Bu
 
 Wenn Sie [nach vereinnahmten Entgelten verrechnen](#Nach%20vereinnahmten%20Entgelten%20verrechnen) und eine Abstimmung für eine Rechnung mit einer Steuerfälligkeit *Auf der Grundlage einer Zahlung* durchführen, wird eine Umbuchung vom Übergangskonto auf das effektive MWST-Konto erstellt. Öffnen Sie das Steuer-Journal um diese Buchungen anzueigen.
 
-![](attachments/Finanzen%20Mehrwertsteuer%20Buchung%20Übergangskonto.png)
+![](attachments/Buchhaltung%20Mehrwertsteuer%20Buchung%20Übergangskonto.png)
 
 ### Steueranpassung vornehmen
 
-Angenommen Sie haben auf einer Lieferantenrechnung eine falsche Steuer verrechnet und der Steuerbericht ist bereits verbucht, so können Sie mit der Aktion *Finanzen > Finanzen > Steueranpassung* eine Korrekturbuchung erstellen. Geben Sie als Betrag den Steuerbetrag ein.
+Angenommen Sie haben auf einer Lieferantenrechnung eine falsche Steuer verrechnet und der Steuerbericht ist bereits verbucht, so können Sie mit der Aktion *Buchhaltung > Buchhaltung > Steueranpassung* eine Korrekturbuchung erstellen. Geben Sie als Betrag den Steuerbetrag ein.
 
 Hier ein Beispiel einer Lieferantenrechung zur Korrektur:
-![](attachments/Finanzen%20Mehrwertsteuer%20Steueranpassung%20Rechnung.png)
+![](attachments/Buchhaltung%20Mehrwertsteuer%20Steueranpassung%20Rechnung.png)
 
 Der Fehlbetrag wird im Aktionsformular eingetragen.
 
-![](attachments/Finanzen%20Mehrwertsteuer%20Steueranpassung.png)
+![](attachments/Buchhaltung%20Mehrwertsteuer%20Steueranpassung.png)
 
 Und daraus wird diese Buchung generiert.
 
-![](attachments/Finanzen%20Mehrwertsteuer%20Steueranpassung%20Buchung.png)
+![](attachments/Buchhaltung%20Mehrwertsteuer%20Steueranpassung%20Buchung.png)
 
 ## Technisch
 
@@ -245,12 +245,12 @@ Das Menü *Konten-Tags* wird nur im Entwicklermodus angezeigt. Um das Verhalten 
 
 ### Steuergruppen anzeigen
 
-Ab #Odoo15 : Navigieren Sie nach *Finanzen > Konfiguration > Steuergruppen*.
+Ab #Odoo15 : Navigieren Sie nach *Buchhaltung > Konfiguration > Steuergruppen*.
 
 Bis #Odoo15: Damit Sie eine Übersicht der Steuergruppen erhalten, müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüposten* einen neuen Eintrag anlegen:
 
 * **Menü**: `Steuergruppen`
-* **Obermenü**: `Finanzen/Konfiguration/Finanzen`
+* **Obermenü**: `Buchhaltung/Konfiguration/Buchhaltung`
 * **Aktion**: `ir.actions.act_window` `Steuergruppen`
 * **Nummernfolge**: `10`
 
@@ -259,7 +259,7 @@ Bis #Odoo15: Damit Sie eine Übersicht der Steuergruppen erhalten, müssen Sie v
 Damit Sie eine Übersicht der Steuertags erhalten, müssen Sie via *Einstellungen > Technisch > Benutzer-Interface > Menüposten* einen neuen Eintrag anlegen:
 
 * **Menü**: `Steuertags`
-* **Obermenü**: `Finanzen/Konfiguration/Finanzen`
+* **Obermenü**: `Buchhaltung/Konfiguration/Buchhaltung`
 * **Aktion**: `ir.actions.act_window` `Konten Tags`
 * **Nummernfolge**: `10`
 
@@ -299,7 +299,7 @@ Für Bezugssteuer für Investition können Sie ebenfalls eine Kopie erstellen un
 
 ### Saldosteuersatz erfassen
 
-Wenn Sie mit Saldosteuersätzen die Mehrwersteuer abrechnen, müssen Sie die ausgewählten Saldosteuersätze manuell erfassen. Öffnen Sie *Finanzen > Konfiguration > Finanzen > Steuern* und kopieren Sie den Standardsteuersatz *UST 8,1% Lief./DL (exkl. MWST)*. Bearbeiten Sie den Steuersatz wie folgt um beispielsweise Beratung 6,3% abzurechnen:
+Wenn Sie mit Saldosteuersätzen die Mehrwersteuer abrechnen, müssen Sie die ausgewählten Saldosteuersätze manuell erfassen. Öffnen Sie *Buchhaltung > Konfiguration > Buchhaltung > Steuern* und kopieren Sie den Standardsteuersatz *UST 8,1% Lief./DL (exkl. MWST)*. Bearbeiten Sie den Steuersatz wie folgt um beispielsweise Beratung 6,3% abzurechnen:
 
 * **Name**: UST 8,1% Lief./DL (exkl. MWST) Beratung
 * **Verteilung für Rechnungen**:
@@ -325,4 +325,4 @@ Damit keine Vorsteuer-Buchungen gemacht werden, muss auf allen Steuersätzen vom
 
 ### Vorsteuerabzug auf Buchungszeile machen
 
-Navigieren Sie nach *Finanzen > Finanzen > Buchungssätze* und wählen zeigen Sie die Buchung an auf der ein Vorsteuerabzug geltend gemacht werden soll.
+Navigieren Sie nach *Buchhaltung > Buchhaltung > Buchungssätze* und wählen zeigen Sie die Buchung an auf der ein Vorsteuerabzug geltend gemacht werden soll.

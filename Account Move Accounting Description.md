@@ -4,7 +4,7 @@ description: Beschreibungsfeld für Rechnungszeile.
 tags:
 - HowTo
 - OCA
-prev: ./finance
+prev: ./accounting
 ---
 # Account Move Accounting Description
 ![icon_oca_app](attachments/icon_oca_app.png)
@@ -18,7 +18,7 @@ Repository: <https://github.com/OCA/account-invoicing/tree/14.0/account_move_lin
 
 ### Buchhaltungsbeschreibung erfassen
 
-Mit dieser Erweiterungen erhalten Sie auf dem Produkte ein zusätzliches Beschreibungsfeld *Accounting description*. Navigieren Sie nach *Finanzen > Kunden > Produkte > Produkt auswählen > Tab Finanzen*.
+Mit dieser Erweiterungen erhalten Sie auf dem Produkte ein zusätzliches Beschreibungsfeld *Accounting description*. Navigieren Sie nach *Buchhaltung > Kunden > Produkte > Produkt auswählen > Tab Buchhaltung*.
 
 ![](attachments/Acccount%20Move%20Accounting%20Description%20Product.png)
 

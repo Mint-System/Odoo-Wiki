@@ -4,7 +4,7 @@ description: Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt an
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./accounting
 ---
 # Sale Move Reconciled Date
 

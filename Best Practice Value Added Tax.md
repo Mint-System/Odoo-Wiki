@@ -63,14 +63,14 @@ MWST-pflichtig:  8.1% MWST. exkl. EK / 8.1% MWST inkl. EK
 
 Die MWST-Abrechnung wird je nach Vorgabe der Eidgenössischer Steuerverwaltung quartalsweise oder halbjährlich abgerechnet.
 
-Für das Erstellen der Aberechung gehen Sie im App Finanzen im Menü Berichtswesen und rufen das Menü Berichtswesen auf. Hier wählen Sie die Aberechungsperiode ab. Zum Beispiel von 01.01 bis 31.03.
+Für das Erstellen der Aberechung gehen Sie im App Buchhaltung im Menü Berichtswesen und rufen das Menü Berichtswesen auf. Hier wählen Sie die Aberechungsperiode ab. Zum Beispiel von 01.01 bis 31.03.
 Lassen Sie sich nur die gebuchten Posten anzeigen und wählen bei *Tax report* die Option *Global Summary*. Die mehrwertsteuerrelevante Umsätze werden angeziegt und können als PDF-Datei oder XLSX exportiert werden.
 
 Die einzelenen Mehrwertsteuersätze können mittels *Prüfung* einzeln kontrolliert werden. Beachten sie, das in dieser ansicht alle Rechnungen inkl. Gutschriften angezeigt werden. Die Summe kan somit zum effektiven MWST-Betrag differieren.
 
 ## Unterschiedliche MWST für In- und Ausland
 
-Alle anwendbaren MWST-Sätze werden in der Liste *Rechnungsstellung > Konfiguration > Finanzen > Steuern* eingetragen. Unterschieden werden die Einträge für *Verkauf* und *Einkauf*.
+Alle anwendbaren MWST-Sätze werden in der Liste *Rechnungsstellung > Konfiguration > Buchhaltung > Steuern* eingetragen. Unterschieden werden die Einträge für *Verkauf* und *Einkauf*.
 
 Beispiel:
 
@@ -79,7 +79,7 @@ Beispiel:
 
 Auf den Produkten ist im Tab *Allgemeine Informationen* im Feld *Steuern (Verkauf)* der Standard MWST-Satz hinterlegt. Zum Beispiel *Zu zahlende MwSt. bei 7.7%*.
 
-In der Liste *Rechnungsstellung > Konfiguration > Finanzen > Steuerzuordnung*  können Regeln hinterlegt werden.
+In der Liste *Rechnungsstellung > Konfiguration > Buchhaltung > Steuerzuordnung*  können Regeln hinterlegt werden.
 
 Beispiel:
 

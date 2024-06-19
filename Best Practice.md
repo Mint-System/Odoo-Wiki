@@ -47,7 +47,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 * [Tickets verwalten](Best%20Practice%20Ticket%20Management.md)
 
-### Finanzen
+### Buchhaltung
 
 * [Zahlungsabgleich](Best%20Pratice%20Payment%20Reconciliation.md)
 * [Kostenrechnung](Best%20Pratice%20Cost%20Accounting.md)

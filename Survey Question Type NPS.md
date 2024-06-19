@@ -4,7 +4,7 @@ description: Zusätzlicher Feldtyp für NPS-Score.
 tags:
 - HowTo
 - OCA
-prev: ./finance
+prev: ./accounting
 ---
 # Survey Question Type NPS
 ![icon_oca_app](attachments/icon_oca_app.png)

@@ -24,15 +24,15 @@ Falls eine Zuordnung mit einer Logik *Pro Lieferant/Kunde* gewünscht ist, empfe
 
 ## Funktion einschalten
 
-Die Verwendung von Incoterms wird über die Einstellungen in *Finanzen* freigeschaltet.
+Die Verwendung von Incoterms wird über die Einstellungen in *Buchhaltung*  freigeschaltet.
 Wählen Sie ihre Standard-Lieferbedingung hier:
-- Einstellungen > Finanzen > Ausgangsrechnungen > Standard-Incoterm
+- Einstellungen > Buchhaltung > Ausgangsrechnungen > Standard-Incoterm
 
 Damit die Auswahl in den Dokumenten *Angebot/Verkaufsauftrag* und *Angebotsanfrage/Beschaffungsauftrag* sichtbar wird, muss die Option *Lieferbedingungen für Aufträgen und Rechnungen anzeigen* in der folgenden Einstellung aktiviert werden:
 - Einstellungen > Verkauf > Versand > Lieferbedingungen
 
 ::: tip
-Die Auswahl *Standard-Incoterm* (Einstellung in der App *Finance*) wird in den Dokumenten *Angebot/Verkaufsauftrag* und *Angebotsanfrage/Beschaffungsauftrag* nicht als Default-Wert eingetragen
+Die Auswahl *Standard-Incoterm* (Einstellung in der App *Buchhaltung*) wird in den Dokumenten *Angebot/Verkaufsauftrag* und *Angebotsanfrage/Beschaffungsauftrag* nicht als Default-Wert eingetragen
 :::
 
 ::: tip

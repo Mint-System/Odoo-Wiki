@@ -87,7 +87,7 @@ Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzu
 
 ### Zahlungsanbieter aktivieren
 
-Öffnen Sie die Übersicht *Finanzen > Konfiguration > Zahlungsanbieter* und aktivieren Sie einen Zahlungsanbieter.
+Öffnen Sie die Übersicht *Buchhaltung > Konfiguration > Zahlungsanbieter* und aktivieren Sie einen Zahlungsanbieter.
 
 ![](attachments/eCommerce%20Zahlungsanbieter.png)
 

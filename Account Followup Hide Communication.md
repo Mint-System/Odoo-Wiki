@@ -4,7 +4,7 @@ description: Spalte Kommunikation in Mahnbericht ausblenden.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./accounting
 ---
 # Account Followup Hide Communication
 ![icon_oms_box](attachments/icon_oms_box.png)

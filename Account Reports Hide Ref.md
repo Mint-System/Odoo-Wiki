@@ -4,7 +4,7 @@ description: Zahlungsreferenz in Spalte Kommunikation in Finanzberichten ausblen
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./accounting
 ---
 # Account Reports Hide Ref
 ![icon_oms_box](attachments/icon_oms_box.png)

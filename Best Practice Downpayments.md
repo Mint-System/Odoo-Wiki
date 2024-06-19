@@ -16,7 +16,7 @@ In diesem Szenario verkaufen Sie eine Dienstleistung auf Stundenbasis an einen K
 Damit Anzahlungen für Angebote erfasst werden können, führen Sie diese Schritte durchführen:
 
 * [Produkt für Anzahlungen erstellen](Sale%20Invoicing.md#Produkt%20für%20Anzahlungen%20erstellen)
-* [Konto für Anzahlungen festlegen](Finance%20Payments.md#Konto%20für%20Anzahlungen%20festlegen)
+* [Konto für Anzahlungen festlegen](Accounting%20Payments.md#Konto%20für%20Anzahlungen%20festlegen)
 
 ### Anzahlung
 
@@ -52,7 +52,7 @@ Sobald der Kunde die Rechnung bezahlt, erhalten Sie über das eBanking einen ent
 | RRe.:/2023/00001 (Umkehrung von: Re.:/2023/00006) | 2030 Erhaltene Anzahlungen                                  | Anzahlung von 100.0% | CHF 2'154.00 | CHF 0.00     |
 | RRe.:/2023/00001 (Umkehrung von: Re.:/2023/00006) | 1100 Forderungen aus Lieferungen und Leistungen (Debitoren) |                      | HF 0.00      | CHF 2'154.00 |
 
-Für dieses Beispiel können Sie einen [Bankauszug](Finance%20Reconcile.md#Bankauszug%20erfassen) mit dem Betrag von 2'154.00 erfassen.
+Für dieses Beispiel können Sie einen [Bankauszug](Accounting%20Reconcile.md#Bankauszug%20erfassen) mit dem Betrag von 2'154.00 erfassen.
 
 ### Abrechnung
 

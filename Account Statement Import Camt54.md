@@ -3,7 +3,7 @@ title: Account Statement Import Camt54
 description: Camt54 Bankauszug mit Details zu Einzahlungen importieren.
 tags:
 - HowTo
-prev: ./finance
+prev: ./accounting
 ---
 # Account Statement Import Camt54
 ![icon_oca_app](attachments/icon_oca_app.png)
@@ -17,7 +17,7 @@ Repository: <https://github.com/OCA/bank-statement-import/tree/15.0/account_stat
 
 ### Bank-Datenübertragung festlegen
 
-Navigieren Sie nach *Finanzen > Konfiguration > Journale* und zeigen Sie das Bank-Jrounal an. Im Tab *Buchungssätze* wählen Sie im Feld *Bank Datenübertragung* die entsprechende Option aus.
+Navigieren Sie nach *Buchhaltung > Konfiguration > Journale* und zeigen Sie das Bank-Jrounal an. Im Tab *Buchungssätze* wählen Sie im Feld *Bank Datenübertragung* die entsprechende Option aus.
 
 ## Verwendung
 
@@ -25,7 +25,7 @@ Navigieren Sie nach *Finanzen > Konfiguration > Journale* und zeigen Sie das Ban
 
 Gilt bis #Odoo14.
 
-Navigieren Sie nach *Finanzen* wählen beim abzugleichenden Konto *Import Auszüge* aus. Laden Sie im Dialog die XML-Datei hoch. Nach Bedarf können Sie den Namen der Datei anpassen.
+Navigieren Sie nach *Buchhaltung* wählen beim abzugleichenden Konto *Import Auszüge* aus. Laden Sie im Dialog die XML-Datei hoch. Nach Bedarf können Sie den Namen der Datei anpassen.
 
 ![](attachments/Bank%20Account%20Camt54%20Import%20hochladen.png)
 
@@ -35,7 +35,7 @@ Klicken Sie auf *Import* und anschliessend *Buchen*. Nun stehen die Belege zum A
 
 Gilt ab #Odoo15.
 
-Zeigen Sie dei App *Finanzen* an und wählen Sie *Import Statement (OCA)*. Im Dialog wählen Sie die XML-Datei oder die Zip-Datei im Camt54-Format aus. Klicken Sie auf *Import and View*. Wählen Sie *Buchen* und anschliessend *Abstimmung*.
+Zeigen Sie dei App *Buchhaltung* an und wählen Sie *Import Statement (OCA)*. Im Dialog wählen Sie die XML-Datei oder die Zip-Datei im Camt54-Format aus. Klicken Sie auf *Import and View*. Wählen Sie *Buchen* und anschliessend *Abstimmung*.
 
 ::: tip
 Die IBAN des Bankauszugs muss mit der IBAN des Bank-Journals übereinstimmen.
@@ -59,4 +59,4 @@ Auf dem genannten Konto ist ist das Bank-Journal nicht als zulässiges Journal h
 
 **Lösung**
 
-Sie müssen das Bank-Journal als [zulässiges Journal auf dem Konto festlegen](Finance.md#Zulässige%20Journale%20auf%20Konto%20festlegen).
+Sie müssen das Bank-Journal als [zulässiges Journal auf dem Konto festlegen](Accounting.md#Zulässige%20Journale%20auf%20Konto%20festlegen).

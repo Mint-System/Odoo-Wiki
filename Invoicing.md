@@ -103,7 +103,7 @@ Navigieren Sie nach *Kontakte > Konfiguration > Bankkonten* und erstellen Sie ei
 
 ### Bankkonto zu Lieferant hinzufügen
 
-Wählen Sie *Kontakte*  zeigen Sie den Lieferanten in der Formularansicht an. Klicken Sie auf *Bearbeiten* und fügen Sie im Tab *Finanzen* ein Bankkonto hinzu.
+Wählen Sie *Kontakte*  zeigen Sie den Lieferanten in der Formularansicht an. Klicken Sie auf *Bearbeiten* und fügen Sie im Tab *Buchhaltung*  ein Bankkonto hinzu.
 
 ::: tip
 Der Benutzer muss hierfür die Berechtigung *Kontakt erstellen* haben (Zugriffsrechte > Extra Rights)
@@ -113,7 +113,7 @@ Der Benutzer muss hierfür die Berechtigung *Kontakt erstellen* haben (Zugriffsr
 
 Gilt ab #Odoo16.
 
-Damit Lieferanten bezahlt werden können, muss dies explizit auf dem Bankkonto angegeben werden. Zeiten Sie einen Lieferanten unter *Kontakte* an und wählen Sie den den Tab *Finanzen*. Bei der Liste der Bankkonten aktivieren Sie die Option *Geld schicken*. 
+Damit Lieferanten bezahlt werden können, muss dies explizit auf dem Bankkonto angegeben werden. Zeiten Sie einen Lieferanten unter *Kontakte* an und wählen Sie den den Tab *Buchhaltung* . Bei der Liste der Bankkonten aktivieren Sie die Option *Geld schicken*. 
 
 ### Bankkonten anzeigen
 
@@ -143,11 +143,11 @@ Auf Kontakten können Sie Warnungs-Text hinterlegen, welche bei der Ertellung ei
 
 Mit Odoo können PDF-Rechnung einfach gescannt und verarbeitet werden. Die Rechnungsdigitalisierung liest die Zahlungsinformationen aus dem PDF und erstellt eine Lieferantenrechnung.
 
-Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits können als In-App-Purchase (IAP) erworben werden. Klicken Sie auf *Einstellungen > Finanzen > Eingangsrechnungen > Guthaben kaufen*. Loggen Sie sich mit dem Odoo-Account ein und erwerben Sie ein IAP-Paket. Die Credits werden an ihrer Datenbank gut geschrieben und fortan steht der Digitalisierungsprozess zur Verfügung.
+Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits können als In-App-Purchase (IAP) erworben werden. Klicken Sie auf *Einstellungen > Buchhaltung > Eingangsrechnungen > Guthaben kaufen*. Loggen Sie sich mit dem Odoo-Account ein und erwerben Sie ein IAP-Paket. Die Credits werden an ihrer Datenbank gut geschrieben und fortan steht der Digitalisierungsprozess zur Verfügung.
 
 ### Rechnungen digitalisieren
 
-Zur Digitalisierung einer Rechnung laden Sie als erstes die PDF-Datei via *Finanzen > Lieferanten > Rechnungen > Hochladen* hoch. Öffnen Sie die Rechnung und starten Sie dann die Aktion *Send for digitalization*. Nach wenigen Sekunden sollte die Rechnungsangaben aus dem PDF ausgelesen und abgefüllt werden.
+Zur Digitalisierung einer Rechnung laden Sie als erstes die PDF-Datei via *Buchhaltung > Lieferanten > Rechnungen > Hochladen* hoch. Öffnen Sie die Rechnung und starten Sie dann die Aktion *Send for digitalization*. Nach wenigen Sekunden sollte die Rechnungsangaben aus dem PDF ausgelesen und abgefüllt werden.
 
 ![](attachments/Rechnungsstellung%20Rechnung%20digitalisieren.png)
 
@@ -211,7 +211,7 @@ Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generie
 
 * Das auf der Rechnung hinterlegte Konto muss mit diesem Unternehmenskonto übereinstimmen
 * Die Rechnung ist im Status *Gebucht*
-* Die Einstellung *Einstellungen > Finanzen > Ausgangsrechnungen > Print bank on ISR* ist aktiviert, jedoch nicht dessen Unteroption *Preprinted account*
+* Die Einstellung *Einstellungen > Buchhaltung > Ausgangsrechnungen > Print bank on ISR* ist aktiviert, jedoch nicht dessen Unteroption *Preprinted account*
 
 Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die Aktion *Print ISR*.
 
@@ -229,7 +229,7 @@ Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generie
 * Das QR-Konto ist auf dem Rechnungskonto eingetragen
 * Die Zahlungsreferenz muss QR-kompatibel sein (Referenz gemäss ISR)
 * Die Rechnung ist im Status *Gebucht*
-* Die Einstellung *Einstellungen > Finanzen > Ausgangsrechnungen > Print Swiss QR Code* ist aktiviert (optional)
+* Die Einstellung *Einstellungen > Buchhaltung > Ausgangsrechnungen > Print Swiss QR Code* ist aktiviert (optional)
 
 Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die Aktion *QR-Rechnung Drucken*.
 
@@ -239,7 +239,7 @@ Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die A
 
 Damit Frankenbeträge in Rechnungen auf 0.05 gerundet werden, müssen Sie die Bargeldrundung aktivieren.
 
-Navigieren Sie nach *Finanzen > Konfiguration > Bargeld-Runden* und erstellen Sie einen neuen Eintrag wie folgt:
+Navigieren Sie nach *Buchhaltung > Konfiguration > Bargeld-Runden* und erstellen Sie einen neuen Eintrag wie folgt:
 
 * **Name**: CHF auf 0.05
 * **Rundungsgenauigkeit**: 0.05

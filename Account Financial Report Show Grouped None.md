@@ -4,7 +4,7 @@ description: Alle Buchungszeilen bei Auswahl "nicht gruppiert" anzeigen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./accounting
 ---
 # Account Financial Report Show Grouped None
 ![icon_oms_box](attachments/icon_oms_box.png)

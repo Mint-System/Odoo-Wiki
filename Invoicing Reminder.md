@@ -28,7 +28,7 @@ Wenn Sie den Text des Mahnberichts anpassen möchten, müssen Sie eine [Überset
 
 ### Mahnung versenden
 
-Unbezahlte Rechnung, welche die Zahlungsfrist überschritten haben, können Sie unter *Finanzen > Kunden > Mahnberichte* anzeigen. Wählen Sie einen Eintrag aus und klicken Sie auf *Sende Per E-Mail*.
+Unbezahlte Rechnung, welche die Zahlungsfrist überschritten haben, können Sie unter *Buchhaltung > Kunden > Mahnberichte* anzeigen. Wählen Sie einen Eintrag aus und klicken Sie auf *Sende Per E-Mail*.
 
 Anschliessend klicken Sie auf *Erledigen*. Damit wird die Rechnung in die nächste Mahnstufe versetzt und der Mahnstatus angepasst.
 
@@ -44,4 +44,4 @@ Beim Bearbeiten des Texts gehen die Zeilenumbrüche verloren.
 
 ### Rechnung von Mahnung auschliessen
 
-Öffnen Sie einen Mahnbericht unter *Finanzen > Kunden > Mahnberichte*. Aktivieren Sie die Option *Ausgeschlossen* bei Rechnungen, die im Mahnbericht nicht erscheinen sollen.
+Öffnen Sie einen Mahnbericht unter *Buchhaltung > Kunden > Mahnberichte*. Aktivieren Sie die Option *Ausgeschlossen* bei Rechnungen, die im Mahnbericht nicht erscheinen sollen.

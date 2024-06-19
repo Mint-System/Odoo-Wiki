@@ -9,7 +9,7 @@ prev: ./best-practice
 
 Gilt für #Odoo13 
 
-Für die Finanzbuchhaltung müssen vor der ersten Buchung Journale definiert werden. Navigieren Sie nach *Finanzen > Konfiguration > Abrechnung > Journale*. Passen Sie die bestehenden Journale an.
+Für die Finanzbuchhaltung müssen vor der ersten Buchung Journale definiert werden. Navigieren Sie nach *Buchhaltung > Konfiguration > Abrechnung > Journale*. Passen Sie die bestehenden Journale an.
 
 ## Verkauf
 

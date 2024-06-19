@@ -19,7 +19,7 @@ Man unterscheidet folgende camt-Nachrichten:
 - camt.054 für Details zu Sammelbuchungen (vorher DTI)
 - camt.056 für Recall im Überweisungssystem bei Fehlern und irregulären Vorgängen
  
-Die Dateien camt053 und camt054 kann durch Odoo im App Finanzen eingelesen und verarbeitet werden. 
+Die Dateien camt053 und camt054 kann durch Odoo im App Buchhaltung eingelesen und verarbeitet werden. 
 
 Durch die Angabe von Detailinformationen wie Bankdaten der Buchungs-Gegenseite, Mandat-ID und EndToEndId ist die Zuordnung von Zahlungen zu "Offene Posten" einfacher als mit den alten Formaten.
 
@@ -36,7 +36,7 @@ In Odoo wird für die das Erstellen des Zahlungsfile die Methode SEPA eingesetzt
 
 ### Rechnung (Kreditor) erfassen
 
-Damit ein Zahlungsausgleich durchgeführt werden kann, müssen zuerst die   Kreditoren-Rechnungen über das App Finanzen erfasst werden. Für eine einfache Archivierung lohnt es sich, die Rechnung vorgängig als PDF-Datei zu scannen und mit der Buchung abzulegen. Eine neue Rechnung (Kreditor) wird über das *App > Finanzen > Dashboard im Journal Eingangsrechnungen* den Befehl *Erstellen* erfasst.
+Damit ein Zahlungsausgleich durchgeführt werden kann, müssen zuerst die   Kreditoren-Rechnungen über das App Buchhaltung erfasst werden. Für eine einfache Archivierung lohnt es sich, die Rechnung vorgängig als PDF-Datei zu scannen und mit der Buchung abzulegen. Eine neue Rechnung (Kreditor) wird über das *App > Buchhaltung > Dashboard im Journal Eingangsrechnungen* den Befehl *Erstellen* erfasst.
 
 ![](attachments/Best%20Practice%20Zahlungsabgleich%20Dashboard.png)
 

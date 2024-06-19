@@ -1,12 +1,12 @@
 ---
-title: Finanzen Aktionen
+title: Buchhaltung Aktionen
 description: Neue Aktionen für Buchungen und Abstimmungen.
 tags:
 - HowTo
 - Aktionen
-prev: ./finance
+prev: ./accounting
 ---
-# Finanzen Aktionen
+# Buchhaltung Aktionen
 ![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}
@@ -87,7 +87,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Belege erscheint nun in der Auswahl *Aktion* das Menu *Bankauszug bestätigen*.
 
-![Finanzen Aktionen Bankauszug bestätigen](attachments/Finanzen%20Aktionen%20Bankauszug%20bestätigen.gif)
+![Buchhaltung Aktionen Bankauszug bestätigen](attachments/Buchhaltung%20Aktionen%20Bankauszug%20bestätigen.gif)
 
 ### Buchungszeilen aktualisieren
 
@@ -108,7 +108,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Buchungszeilen aktualisieren*.
 
-![Finanzen Buchungszeilen aktualisieren](attachments/Finanzen%20Buchungszeilen%20aktualisieren.gif)
+![Buchhaltung Buchungszeilen aktualisieren](attachments/Buchhaltung%20Buchungszeilen%20aktualisieren.gif)
 
 ### Auf Entwurf zurücksetzen
 

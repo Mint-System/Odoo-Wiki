@@ -222,7 +222,7 @@ Export ID/Feldname
 Datei: `ir.exports.csv`
 
 ### Produktkategorien
-Listenansciht: *Finanzen > Konfiguration > Finanzen > Produktkategorien*
+Listenansciht: *Buchhaltung > Konfiguration > Buchhaltung > Produktkategorien*
 
 Felder:
 ```
@@ -285,7 +285,7 @@ item_ids/fixed_price
 Datei: `product.pricelist.csv`
 
 ### Buchungssätze
-Listenansicht: *Fertigung > Finanzen > Buchungssätze*
+Listenansicht: *Fertigung > Buchhaltung > Buchungssätze*
 
 Felder: 
 ```

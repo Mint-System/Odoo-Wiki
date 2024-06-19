@@ -4,7 +4,7 @@ description: Ordnet die Buchungszeilen von neu zu alt.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./accounting
 ---
 # Account Financial Report Reverse Move Lines
 ![icon_oms_box](attachments/icon_oms_box.png)

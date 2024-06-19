@@ -4,7 +4,7 @@ description: Bezahlmethoden definieren.
 tags:
 - HowTo
 - OCA
-prev: ./finance
+prev: ./accounting
 ---
 # Account Payment Mode
 ![icon_oca_app](attachments/icon_oca_app.png)
@@ -22,7 +22,7 @@ Diese Erweiterung ermöglicht die Verwaltung von Zahlungsmodis.
 
 ### Zahlungsmodus erfassen
 
-Navigieren Sie nach *Finanzen > Konfiguration > Verwaltung > Zahlungsmodi*. Erstellen Sie eine neuen ### Zahlungsmodus erfassen:
+Navigieren Sie nach *Buchhaltung > Konfiguration > Verwaltung > Zahlungsmodi*. Erstellen Sie eine neuen ### Zahlungsmodus erfassen:
 
 * **Name**: Name des Zahlungsmodus, beispielsweise *Manuell Bank*
 * **Zahlungsmethode**: Zahlungsmethode auswählen, beispielsweise *\[manual\] Manuell (outbound)*
@@ -33,7 +33,7 @@ Navigieren Sie nach *Finanzen > Konfiguration > Verwaltung > Zahlungsmodi*. Erst
 
 ### Zahlungsmodus auf Lieferantenrechnung festlegen
 
-Navigieren Sie nach *Finanzen > Lieferanten > Rechnungen* und zeigen Sie eine Lieferantenrechnung an. Treffen Sie im Feld *Zahlungsmodus* eine Auswahl.
+Navigieren Sie nach *Buchhaltung > Lieferanten > Rechnungen* und zeigen Sie eine Lieferantenrechnung an. Treffen Sie im Feld *Zahlungsmodus* eine Auswahl.
 
 ## Automatisierte Aktionen
 

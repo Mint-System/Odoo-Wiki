@@ -4,7 +4,7 @@ description: Allow discount deduction on vendor bills.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./accounting
 ---
 # Nivels Deduct Supplier Discount
 ![](attachments/icon-nivels.png)

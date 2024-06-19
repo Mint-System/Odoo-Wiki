@@ -4,7 +4,7 @@ description: Spalte Gegenkontos in Hauptbuch.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./accounting
 ---
 # Account General Ledger Contra Accounts
 ![icon_oms_box](attachments/icon_oms_box.png)
@@ -18,4 +18,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reportin
 
 ### Gegenkontos in Hauptbuch anzeigen
 
-Navigieren Sie zum Bericht *Hauptbuch* unter *Finanzen > Berichtswesen*. Sie finden eine Spalte *Gegenkontos*, welche die Kontos des verknüpften Buchungssatzes der Buchungszeile anzeigt.
+Navigieren Sie zum Bericht *Hauptbuch* unter *Buchhaltung > Berichtswesen*. Sie finden eine Spalte *Gegenkontos*, welche die Kontos des verknüpften Buchungssatzes der Buchungszeile anzeigt.

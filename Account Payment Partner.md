@@ -4,7 +4,7 @@ description: Zahlungsmodus auf Kontakt festlegen.
 tags:
 - HowTo
 - OCA
-prev: ./finance
+prev: ./accounting
 ---
 # Account Payment Partner
 ![icon_oca_app](attachments/icon_oca_app.png)
@@ -18,9 +18,9 @@ Repository: <https://github.com/OCA/bank-payment/tree/16.0/account_payment_partn
 
 ### Zahlungsmodus für Empfängerbank erstellen
 
-Navigieren Sie nach *Finanzen > Konfiguration > Zahlungsmethoden* und zeigen Sie den Eintrag *Manuell (inbound)* an. Aktivieren Sie die Option *Bankkonto erforderlich*.
+Navigieren Sie nach *Buchhaltung > Konfiguration > Zahlungsmethoden* und zeigen Sie den Eintrag *Manuell (inbound)* an. Aktivieren Sie die Option *Bankkonto erforderlich*.
 
-Navigieren Sie nach *Finanzen > Konfiguration > Zahlungsmodi* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Buchhaltung > Konfiguration > Zahlungsmodi* und erstellen Sie einen neuen Eintrag:
 
 * **Name**: Name des Bank-Journals
 * **Zahlungsmethode**: *Manuell (inbound)*

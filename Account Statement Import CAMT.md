@@ -3,7 +3,7 @@ title: Account Statement Import Camt
 description: Support Import Bankauszug im Camt-Format.
 tags:
 - HowTo
-prev: ./finance
+prev: ./accounting
 ---
 # Account Statement Import Camt
 ![icon_oca_app](attachments/icon_oca_app.png)

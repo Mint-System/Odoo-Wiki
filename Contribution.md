@@ -185,7 +185,7 @@ tags:
 - OCA
 - Best-Practice
 - Drittanbieter
-prev: ./finance
+prev: ./accounting
 ---
 ## Appname
 ![](/assets/icon.png)

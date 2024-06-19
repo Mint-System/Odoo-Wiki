@@ -4,7 +4,7 @@ description: Lieferaufträge mit Rechnungszeile verlinken.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./accounting
 ---
 # Account Move Line Link Pickings
 ![icon_oms_box](attachments/icon_oms_box.png)

@@ -32,7 +32,7 @@ Oder die Codes der Lohnarten nach *B*.
 
 ### Buchhaltung Lohn anzeigen
 
-Öffnen Sie *Finanzen > Berichtswesen > Hauptbuch* und filtern die Journale nach dem Lohnjournal.
+Öffnen Sie *Buchhaltung > Berichtswesen > Hauptbuch* und filtern die Journale nach dem Lohnjournal.
 
 ![](attachments/Personalabrechnung%20Berichte%20Lohnjournal.png)
 

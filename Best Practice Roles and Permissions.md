@@ -8,7 +8,7 @@ prev: ./best-practice
 
 # Rollen und Berechtigungen
 
-Mit der Odoo App [User roles](Base%20User%20Role.md) können Sie Benutzer statt Gruppen mit bestimmten Rollen ausstatten. Die wichtigste Abgrenzung ist Finanzen und HR.
+Mit der Odoo App [User roles](Base%20User%20Role.md) können Sie Benutzer statt Gruppen mit bestimmten Rollen ausstatten. Die wichtigste Abgrenzung ist Buchhaltung und HR.
 
 ![Rollen](attachments/Rollen.svg)
 
@@ -16,7 +16,7 @@ Mit der Odoo App [User roles](Base%20User%20Role.md) können Sie Benutzer statt 
 
 Alle internen Benutzer erhalten diese Rolle. Benutzer-Gruppen aus Apps werden standardmässig dieser Rolle hinzugefügt. Es wird ein *Access by Default*-Ansatz für neue Apps verfolgt.
 
-**Finanzen**
+**Buchhaltung* *
 
 Benutzer mit dieser Rolle erhalten Zugriff auf Finanzdaten.
 

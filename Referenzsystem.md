@@ -23,7 +23,7 @@ Prozesse:
 * [Abwesenheit](Prozess%20Abwesenheit.md)
 * [Versand](Prozess%20Versand.md)
 * [Abrechnung](Prozess%20Abrechnung.md)
-* [Finanzen](Prozess%20Finanzen.md)
+* [Buchhaltung](Prozess%20Buchhaltung.md)
 
 ## Rollen
 

@@ -4,7 +4,7 @@ description: Einfache Lösung zum Versenden von Zahlungserinnerungen.
 tags:
 - HowTo
 - OCA
-prev: ./finance
+prev: ./accounting
 ---
 # Overdue Invoice Reminder
 ![icon_oca_app](attachments/icon_oca_app.png)

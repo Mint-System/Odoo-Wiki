@@ -42,7 +42,7 @@ Wenn Sie *Create Partner* gedrückt haben, wird der Vorgang nochmals bestätigt.
 
 Nun wird die Rechnung generiert und validiert.
 
-Wenn die folgende Meldung erscheint, fehlt entweder ein Standard-Aufwandskonto auf dem Kontakt (Mehr dazu unter [Standard-Aufwandskonto auf Kontakt hinterlegen](#Standard-Aufwandskonto%20auf%20Kontakt%20hinterlegen)) oder die Standard-Steuern müssen entfernt werden (Mehr dazu unter [Standard-Steuer für Verkauf und Einkauf festlegen](Finance%20Tax.md#Standard-Steuer%20für%20Verkauf%20und%20Einkauf%20festlegen)).
+Wenn die folgende Meldung erscheint, fehlt entweder ein Standard-Aufwandskonto auf dem Kontakt (Mehr dazu unter [Standard-Aufwandskonto auf Kontakt hinterlegen](#Standard-Aufwandskonto%20auf%20Kontakt%20hinterlegen)) oder die Standard-Steuern müssen entfernt werden (Mehr dazu unter [Standard-Steuer für Verkauf und Einkauf festlegen](Accounting%20Tax.md#Standard-Steuer%20für%20Verkauf%20und%20Einkauf%20festlegen)).
 
 ![](attachments/Swiss%20QR-ESR%20Scan%20Error%20Missing%20Account.png)
 
@@ -51,7 +51,7 @@ Konnte die Rechnung erfolgreich importiert werden, werden Sie auf die Formularan
 ![](attachments/Swiss%20QR-ESR%20Scan%20Imported%20Invoice.png)
 
 ::: tip
-Die Standardsteuern der Rechnungszeile wird von der [Standard-Steuer auf dem Konto](Finance%20Tax.md#Standard-Steuer%20auf%20Konto%20hinterlegen) übernommen.
+Die Standardsteuern der Rechnungszeile wird von der [Standard-Steuer auf dem Konto](Accounting%20Tax.md#Standard-Steuer%20auf%20Konto%20hinterlegen) übernommen.
 
 ![](attachments/Swiss%20QR-ESR%20Scan%20Standard%20Steuern.png)
 :::

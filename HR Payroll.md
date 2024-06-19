@@ -81,7 +81,7 @@ Sie Lohnarten müssen unter bestimmten Bedingungen angepasst werden. Navigieren 
 
 Damit  die Lohnabrechnung auch in der Finanzbuchhaltung ersichtlich ist, müssen Sie für alle Lohnregeln die entsprechenden Soll- und Habenkonten hinterlegen.
 
-Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln > Regel auswählen > Beareiten > Tab Finanzen* und weisen Sie dort die Konten zu.
+Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln > Regel auswählen > Beareiten > Tab Buchhaltung* und weisen Sie dort die Konten zu.
 
 ![](attachments/Personalbrechnung%20Finanzkonten.png)
 
@@ -139,7 +139,7 @@ Navigieren Sie nach *Personalabrechnung > Abrechnung Mitarbeitervergütung > Bat
 
 ### Lohnabrechnung buchen
 
-Wählen Sie eine aktuelle Lohnabrechnung, die im Status *Erledigt* ist: *Personalabrechnung > Abrechnung Mitarbeitervergütung > All Payslips > Payslip auswählen*. Öffnen Sie den Tab *Finanzen* und klicken auf den Link unter *Buchung*.
+Wählen Sie eine aktuelle Lohnabrechnung, die im Status *Erledigt* ist: *Personalabrechnung > Abrechnung Mitarbeitervergütung > All Payslips > Payslip auswählen*. Öffnen Sie den Tab *Buchhaltung*  und klicken auf den Link unter *Buchung*.
 
 ![](attachments/Personalbrechnung%20Buchung.png)
 

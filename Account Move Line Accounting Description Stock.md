@@ -4,7 +4,7 @@ description: Beschreibung Lagerbuchung auf Rechnung übertragen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./accounting
 ---
 # Account Move Line Accounting Description Stock
 

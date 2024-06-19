@@ -19,6 +19,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 ### Notizen hinzufügen
 
-Mit dier Erweiterung haben Sie auf Rechnungen zwei zusätzliche Notizfelder *Finanzen > Kunden / Lieferante > Rechnungen > Rechnung auswählen* im Tab *Notes*. Wird eine Rechnung aus dem Verkaufsauftrag generiert, werden die Notizfelder kopiert.
+Mit dier Erweiterung haben Sie auf Rechnungen zwei zusätzliche Notizfelder *Buchhaltung > Kunden / Lieferante > Rechnungen > Rechnung auswählen* im Tab *Notes*. Wird eine Rechnung aus dem Verkaufsauftrag generiert, werden die Notizfelder kopiert.
 
 ![Account Invoice Notes](attachments/Account%20Invoice%20Notes.gif)

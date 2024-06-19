@@ -71,6 +71,12 @@ Einstellungen für ihren persönlichen Odoo-Benutzer.
 
 Führen Sie Mitarbeiterbeurteilungen transparent durch.
 
+### [Buchhaltung](Accounting.md)
+
+![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
+
+Ihre Buchhaltung einfach und korrekt.
+
 ### [Dashboards](Dashboards.md)
 
 ![icons_odoo_board](attachments/icons_odoo_board.png)
@@ -142,12 +148,6 @@ Odoo mühelos anpassen und erweitern.
 ![icons_odoo_mrp](attachments/icons_odoo_mrp.png)
 
 Eine moderne Lösung für ein altes Problem.
-
-### [Finanzen](Finance.md)
-
-![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
-
-Ihre Buchhaltung einfach und korrekt.
 
 ### [Fahrzeugflotte](Fleet.md)
 

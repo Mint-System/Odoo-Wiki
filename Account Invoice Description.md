@@ -4,7 +4,7 @@ description: Beschreibungsfeld auf Rechnung.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./accounting
 ---
 # Account Invoice Description
 ![icon_oms_box](attachments/icon_oms_box.png)
@@ -18,4 +18,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.
 
 ### Beschreibung auf Rechnung hinzufügen
 
-Mit dieser Erweiterung erhalten Sie auf Rechnungen *Finanzen > Kunden > Rechnungen* ein zusätzliches Feld *Beschreibung*. Der mehrzeilige Text wird unterhalb des Rechnungstitel angezeigt.
+Mit dieser Erweiterung erhalten Sie auf Rechnungen *Buchhaltung > Kunden > Rechnungen* ein zusätzliches Feld *Beschreibung*. Der mehrzeilige Text wird unterhalb des Rechnungstitel angezeigt.

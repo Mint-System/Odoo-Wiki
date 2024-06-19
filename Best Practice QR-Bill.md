@@ -9,11 +9,11 @@ prev: ./best-practice
 
 Zur Generierung einer QR-Rechnung müssen verschiedene Bedingungen erfüllt sien.
 
-* Der Kommunikationsstandard muss *Schweiz* sein: [Kommunikationsstandard festlegen](Finance.md#Kommunikationsstandard%20festlegen)
-* Auf dem Bankkonto muss eine QR-IBAN hinterlegt sein: [QR-IBAN speichern](Finance%20Payments.md#QR-IBAN%20speichern)
+* Der Kommunikationsstandard muss *Schweiz* sein: [Kommunikationsstandard festlegen](Accounting.md#Kommunikationsstandard%20festlegen)
+* Auf dem Bankkonto muss eine QR-IBAN hinterlegt sein: [QR-IBAN speichern](Accounting%20Payments.md#QR-IBAN%20speichern)
 * Auf der Adresse des Kunden und Unternehmen muss als Land *Schweiz* festgelegt sein
-* Die Währung der Rechnung ist *EUR* oder *CHF*: [Währung auf Rechnung festlegen](Finance%20Multicurrency.md#Währung%20auf%20Rechnung%20festlegen)
-* Der *Payment QR-code* ist *Swiss QR bill*: [QR-Code Zahlungstyp festlegen](Finance%20Payments.md#QR-Code%20Zahlungstyp%20festlegen)
+* Die Währung der Rechnung ist *EUR* oder *CHF*: [Währung auf Rechnung festlegen](Accounting%20Multicurrency.md#Währung%20auf%20Rechnung%20festlegen)
+* Der *Payment QR-code* ist *Swiss QR bill*: [QR-Code Zahlungstyp festlegen](Accounting%20Payments.md#QR-Code%20Zahlungstyp%20festlegen)
 
 Sind diese Bedingungen erfüllt, kann mit der *Print QR-Bill* Aktion eine QR-Rechnung generiert werden.
 

@@ -294,7 +294,7 @@ curl: (60) SSL certificate problem: certificate has expired
 More details here: https://curl.se/docs/sslcerts.html
 ```
 
-## Finanzen
+## Buchhaltung
 
 ### Abstimmungsvorgang kann nicht bestätigt werden
 
@@ -328,7 +328,7 @@ Die Buchung der Zahlung erfordert ein Zwischenkonto.
 
 **Lösung**
 
-Navigieren Sie nach *Einstellungen > Finanzen > Standardkonto* und legen Sie bei *Konto für ausstehende Zahlungen* ein Konto fest.
+Navigieren Sie nach *Einstellungen > Buchhaltung > Standardkonto* und legen Sie bei *Konto für ausstehende Zahlungen* ein Konto fest.
 
 ## Personalabrechnung
 

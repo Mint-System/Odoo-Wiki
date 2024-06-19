@@ -4,7 +4,7 @@ description: Kontoauszug basierend auf Buchungszeilen erstellen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./accounting
 ---
 # Account Journal Items Report
 ![icon_oms_box](attachments/icon_oms_box.png)
@@ -18,7 +18,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 ### Kontoauszug für Buchungszeilen drucken
 
-Navigieren Sie nach *Finanzen > Finanzen > Buchungszeilen*. Markieren Sie die alle Buchungszeilen, welche auf dem Bericht *Kontoauszug* erscheinen sollen. Wählen Sie *Drucken > Kontoauszug* um die PDF-Datei zu erstellen.
+Navigieren Sie nach *Buchhaltung > Buchhaltung > Buchungszeilen*. Markieren Sie die alle Buchungszeilen, welche auf dem Bericht *Kontoauszug* erscheinen sollen. Wählen Sie *Drucken > Kontoauszug* um die PDF-Datei zu erstellen.
 
 ![](attachments/Account%20Journal%20Items%20Report%20Beispiel.png)
 

@@ -19,13 +19,13 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.
 
 ### Option Kopieren Kommentar von Verkaufsauftrag aktivieren
 
-Navigieren Sie nach *Einstellungen > Finanzen > Kundenrechnung* und aktivieren Sie die Option *Kopieren Kommentar Verkaufsauftrag*.
+Navigieren Sie nach *Einstellungen > Buchhaltung > Kundenrechnung* und aktivieren Sie die Option *Kopieren Kommentar Verkaufsauftrag*.
 
 ## Verwendung
 
 ### Kommentar hinzufügen
 
-Öffnen Sie eine Rechnung via *Finanzen > Kunden > Rechnungen*. Im Tab *Weitere Informationen* finden Sie das Feld *o*.
+Öffnen Sie eine Rechnung via *Buchhaltung > Kunden > Rechnungen*. Im Tab *Weitere Informationen* finden Sie das Feld *Referenz*.
 
 ![](attachments/Account%20Invoice%20Comment.png)
 

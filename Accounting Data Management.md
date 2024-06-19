@@ -1,11 +1,11 @@
 ---
-title: Finanzen Datenmanagement
-description: Daten zu Finanzen exportieren und importieren.
+title: Buchhaltung Datenmanagement
+description: Daten zur Buchhaltung exportieren und importieren.
 tags:
 - HowTo
-prev: ./finance
+prev: ./accounting
 ---
-# Finanzen Datenmanagement
+# Buchhaltung Datenmanagement
 ![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}
@@ -14,7 +14,7 @@ prev: ./finance
 
 ### Kontenplan exportieren
 
-Listenansicht: *Finanzen > Konfiguration > Kontenplan*
+Listenansicht: *Buchhaltung > Konfiguration > Kontenplan*
 
 Felder:
 

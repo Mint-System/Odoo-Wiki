@@ -67,7 +67,7 @@ Ein neuer Eintrag im Adressbuch können Sie über *Kontakte > Anliegen* erstelle
 
 ![Kontakte anlegen](attachments/Kontakte%20anlegen.png)
 
-Odoo verwendet Kontakte als zentrales Adressbuch. Verschiedene Apps wie Verkauf, CRM oder Finanzen greifen auf das Adressbuch zu. Eine Aufstellung der wichtigsten Felder:
+Odoo verwendet Kontakte als zentrales Adressbuch. Verschiedene Apps wie Verkauf, CRM oder Buchhaltung greifen auf das Adressbuch zu. Eine Aufstellung der wichtigsten Felder:
 
 | Bezeichnung    | Beschreibung                                                                                       |
 | ------------- | -------------------------------------------------------------------------------------------------- |

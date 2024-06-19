@@ -3,7 +3,7 @@ title: Account Missing Menus
 description: Navigation für die OCA Finanzbuchhaltung.
 tags:
 - HowTo
-prev: ./finance
+prev: ./accounting
 ---
 # Account Missing Menus
 ![icon_oca_app](attachments/icon_oca_app.png)

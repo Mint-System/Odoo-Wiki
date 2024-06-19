@@ -19,7 +19,7 @@ Zeigen Sie *Verkauf > Produkte > Produkte* an und erstellen Sie einenen neuen Ei
 Navigieren Sie nach *Einstellungen > Verkauf > Abrechnung* und wählen Sie im Feld *Anzahlungen* das erstellte Produkt aus.
 
 ::: warning
-Damit Anzahlungen korrekt gebucht werden, müssen Sie das [Konto für Anzahlungen festlegen](Finance%20Payments.md#Konto%20für%20Anzahlungen%20festlegen).
+Damit Anzahlungen korrekt gebucht werden, müssen Sie das [Konto für Anzahlungen festlegen](Accounting%20Payments.md#Konto%20für%20Anzahlungen%20festlegen).
 :::
 
 ### Produkt für Anzahlung auswählen

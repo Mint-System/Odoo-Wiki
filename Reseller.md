@@ -55,7 +55,7 @@ Zeigen Sie einen Verkaufsauftrag unter *Verkauf* an und wählen Sie im Feld *Emp
 
 ### Reseller auf Rechnung festlegen
 
-Zeigen Sie eine Rechnung unter *Finanzen > Kunden > Rechnung* an und navigieren Sie zum Tab *Weitere Informationen*. Wählen Sie im Feld *Empfehler* einen Reseller aus.
+Zeigen Sie eine Rechnung unter *Buchhaltung > Kunden > Rechnung* an und navigieren Sie zum Tab *Weitere Informationen*. Wählen Sie im Feld *Empfehler* einen Reseller aus.
 
 ### Kommission aus Verkaufsauftrag generieren
 

@@ -4,7 +4,7 @@ description: Gegenkontos für Hauptbuch OCA-Finanzbericht bereitstellen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./accounting
 ---
 # Account Financial Report Contra Accounts
 ![icon_oms_box](attachments/icon_oms_box.png)

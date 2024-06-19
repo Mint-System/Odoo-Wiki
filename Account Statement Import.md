@@ -3,7 +3,7 @@ title: Account Statement Import
 description: Bankauszüge importieren.
 tags:
 - HowTo
-prev: ./finance
+prev: ./accounting
 ---
 # Account Statement Import
 ![icon_oca_app](attachments/icon_oca_app.png)

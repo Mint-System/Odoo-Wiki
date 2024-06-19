@@ -4,7 +4,7 @@ description: Kontakte mit Farben und Stichwörter markieren.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./finance
+prev: ./accounting
 ---
 # Partner Color Codes
 ![](attachments/odoo_icon_partner_color_codes.png)

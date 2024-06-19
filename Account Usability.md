@@ -3,7 +3,7 @@ title: Account Missing Menus
 description: Menüs der Enterprise Finanzbuchhaltung für Community.
 tags:
 - HowTo
-prev: ./finance
+prev: ./accounting
 ---
 # Account Usability
 ![icon_oca_app](attachments/icon_oca_app.png)

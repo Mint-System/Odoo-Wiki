@@ -26,11 +26,11 @@ Repository: <https://github.com/OCA/contract/tree/15.0/contract>
 
 ### Kundenverträge anzeigen
 
-Navigieren Sie nach *Finanzen >  Kunden > Kundenverträge*.
+Navigieren Sie nach *Buchhaltung >  Kunden > Kundenverträge*.
 
 ### Kundenvertrag erstellen
 
-Rufen Sie *Finanzen >  Kunden > Kundenverträge* auf und wählen Sie *Neu*. Füllen mindestens diese Felder aus:
+Rufen Sie *Buchhaltung >  Kunden > Kundenverträge* auf und wählen Sie *Neu*. Füllen mindestens diese Felder aus:
 
 * **Vertragsname**: Titel des Vertrags
 * **Kunde**: Das ist der Vertragspartner
@@ -52,11 +52,11 @@ Wenn Sie den Entwicklermodus aktivieren, werden auf den Zeilen *Periodische Buch
 
 ### Lieferantenverträge anzeigen
 
-Navigieren Sie nach *Finanzen >  Lieferanten > Lieferantenverträge*.
+Navigieren Sie nach *Buchhaltung >  Lieferanten > Lieferantenverträge*.
 
 ### Lieferantenvertrag erstellen
 
-Rufen Sie *Finanzen >  Lieferanten > Lieferantenverträge* auf und wählen Sie *Neu*. Füllen mindestens diese Felder aus:
+Rufen Sie *Buchhaltung >  Lieferanten > Lieferantenverträge* auf und wählen Sie *Neu*. Füllen mindestens diese Felder aus:
 
 * **Vertragsname**: Titel des Vertrags
 * **Lieferant**: Das ist der Vertragspartner
