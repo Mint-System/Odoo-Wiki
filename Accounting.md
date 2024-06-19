@@ -14,19 +14,19 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 
 ## Bereiche
 
-| Bereich                                                       | Beschreibung                                                |
-| ------------------------------------------------------------- | ----------------------------------------------------------- |
-| [Buchhaltung Abstimmung](Accounting%20Reconcile.md)                 | Bankkonto mit Odoo abgleichen.                              |
-| [Buchhaltung Aktionen](Accounting%20Actions.md)                     | Neue Aktionen für Buchungen und Abstimmungen.               |
-| [Buchhaltung Anlagenverwaltung](Accounting%20Assets.md)             | Anlagen verwalten und automatisch Abschreibungen erstellen. |
-| [Buchhaltung Berichte](Accounting%20Reports.md)                     | Finanzberichte erstellen.                                   |
-| [Buchhaltung Finanzbuchhaltung](Accounting%20Finance.md)               | Kontenplan einrichten und Buchungen erstellen.              |
-| [Buchhaltung Datenmanagement](Accounting%20Data%20Management.md)    | Daten zur Buchhaltung exportieren und importieren.              |
-| [Buchhaltung Kostenrechnung](Accounting%20Analytic%20Accounting.md) | Kosten analysieren und Budget planen.                      |
-| [Buchhaltung Mehrere Währungen](Accounting%20Multicurrency.md)      | Unterschiedliche Währungen mit Odoo Buchhaltung verarbeiten.   |
-| [Buchhaltung Mehrwertsteuer](Accounting%20Tax.md)                   | Mehrwertsteuer einfach abrechnen mit Odoo.                  |
-| [Buchhaltung Snippets](Accounting%20Snippets.md)                    | Einfache Anpassungen mit Odoo Snippets.                     |
-| [Buchhaltung Zahlungen](Accounting%20Payments.md)                   | SEPA- und QR-Zahlungen mit Odoo Buchhaltung abwickeln.         |
+| Bereich                                                             | Beschreibung                                                 |
+| ------------------------------------------------------------------- | ------------------------------------------------------------ |
+| [Buchhaltung Abstimmung](Accounting%20Reconcile.md)                 | Bankkonto mit Odoo abgleichen.                               |
+| [Buchhaltung Aktionen](Accounting%20Actions.md)                     | Neue Aktionen für Buchungen und Abstimmungen.                |
+| [Buchhaltung Anlagenverwaltung](Accounting%20Assets.md)             | Anlagen verwalten und automatisch Abschreibungen erstellen.  |
+| [Buchhaltung Berichte](Accounting%20Reports.md)                     | Finanzberichte erstellen.                                    |
+| [Buchhaltung Finanzbuchhaltung](Accounting%20Finance.md)            | Kontenplan einrichten und Buchungen erstellen.               |
+| [Buchhaltung Datenmanagement](Accounting%20Data%20Management.md)    | Daten zur Buchhaltung exportieren und importieren.           |
+| [Buchhaltung Kostenrechnung](Accounting%20Analytic%20Accounting.md) | Kosten analysieren und Budget planen.                        |
+| [Buchhaltung Mehrere Währungen](Accounting%20Multicurrency.md)      | Unterschiedliche Währungen mit Odoo Buchhaltung verarbeiten. |
+| [Buchhaltung Mehrwertsteuer](Accounting%20Tax.md)                   | Mehrwertsteuer einfach abrechnen mit Odoo.                   |
+| [Buchhaltung Snippets](Accounting%20Snippets.md)                    | Einfache Anpassungen mit Odoo Snippets.                      |
+| [Buchhaltung Zahlungen](Accounting%20Payments.md)                   | SEPA- und QR-Zahlungen mit Odoo Buchhaltung abwickeln.       |
 
 ## Erweiterungen
 
