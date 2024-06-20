@@ -1,6 +1,6 @@
 ---
 title: Module Auto Update
-description: Installiert neue Versionen von Odoo Modulen automatisch. 
+description: Aktualisiert automatisch neue Versionen von Odoo Modulen. 
 tags:
 - HowTo
 - OCA
