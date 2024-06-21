@@ -18,7 +18,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/15.
 
 ### EOL-Daten auf Produkt festlegen
 
-Navigieren Sie nach *Lager > Produkte > Produkte* und zeigen Sie ein Produkt an. In den Felder *End of Support*, *End of Sale* und *End of Life* können Sie ein entsprechendes Datum festlegen.  
+Navigieren Sie nach *Lager > Produkte > Produkte* und zeigen Sie ein Produkt an. In den Felder *EoS*, *EoL Announcment* und *EoL/S* können Sie ein entsprechendes Datum festlegen.  
 
 ### Lagerbericht mit EOL-Daten anzeigen
 
