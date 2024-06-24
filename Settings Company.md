@@ -33,3 +33,9 @@ Wenn Sie ein [Unternehmen auswählen](#Unternehmen%20auswählen), können Sie f�
 ![](attachments/Einstellungen%20Unternehmen%20Multi.png)
 
 Damit werden die Datenbankeinträge aller Unternehmen sichtbar.
+
+## Technisch
+
+### Unternehmensspezifische Felder anzeigen
+
+Navigieren Sie nach *Einstellungen > Technisch > Parameter > Eigenschaften des Unternehmens*.
