@@ -1,6 +1,6 @@
 ---
 title: HR Holidays Type Note
-description: Hinweis zum Abwesenheitstyp auf Abwesenheit anzeigen.
+description: Hinweis zur Abwesenheitsart auf Abwesenheit anzeigen.
 tags:
 - HowTo
 - Drittanbieter
@@ -11,5 +11,11 @@ prev: ./hr-holidays
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_holidays_type_ntoe`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_holidays_type_ntoe>
+Technischer Name: `hr_holidays_type_note`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_holidays_type_note>
+
+## Verwendung
+
+### Hinweis auf Abwesenheitsart erfassen
+
+Öffnen Sie eine eine Abwesenheitsart unter *Abwesenheiten > Konfiguration > Abwesenheitsarten*. Im Feld *Hinweis* können Sie einen Text erfassen, welcher beim Erfassen der Abwesenheit angezeigt wird.
