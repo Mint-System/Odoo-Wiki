@@ -21,7 +21,7 @@ Repository: <https://github.com/OCA/server-tools/tree/16.0/module_auto_update>
 Rufen Sie die Aktion *Apps > Auto-Upgrade Modules*.
 
 ::: warning
-Die erste Ausführung der Aktion aktualisiert alle Module. Odoo berechnet einen Fingerabdruck aller installierten Module, wenn dieser noch nicht existiert oder sich verändert hat, wird das Modul aktualisiert.
+Die erste Ausführung der Aktion aktualisiert alle Module. Odoo berechnet einen Fingerabdruck aller installierten Module. Wenn dieser noch nicht existiert oder sich verändert hat, wird das Modul aktualisiert.
 :::
 
 ## Entwicklung
