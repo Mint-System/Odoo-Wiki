@@ -18,7 +18,7 @@ Repository: <https://github.com/OCA/server-tools/tree/16.0/module_auto_update>
 
 ### Veränderte Odoo Module aktualisieren
 
-Rufen Sie die Aktion *Apps > Auto-Upgrade Modules*.
+Rufen Sie die Aktion *Apps > Auto-Upgrade Modules* auf.
 
 ::: warning
 Die erste Ausführung der Aktion aktualisiert alle Module. Odoo berechnet einen Fingerabdruck aller installierten Module. Wenn dieser noch nicht existiert oder sich verändert hat, wird das Modul aktualisiert.
