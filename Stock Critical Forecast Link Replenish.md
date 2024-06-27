@@ -12,10 +12,10 @@ prev: ./stock-critical-forecast
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_critical_forecast_link_replenish`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_critical_forecast_link_replenish>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/16.0/stock_critical_forecast_link_replenish>
 
 ## Produkte mit Bestandsregeln auf Bericht anzeigen
 
-Mit dieser Erweiterung werden Bestandsregeln auf Produkten im Bericht *Kritsiche Vorhersage* berücksichtigt. Mit dem entsprechenden Aktion gelangen Sie direkt zur Ansicht *Aufüllen*.
+Mit dieser Erweiterung werden Bestandsregeln auf Produkten im Bericht *Kritische Vorhersage* berücksichtigt. Mit dem entsprechenden Aktion gelangen Sie direkt zur Ansicht *Aufüllen*.
 
 ![Stock Critical Forecast Link Replenish](attachments/Stock%20Critical%20Forecast%20Link%20Replenish.gif)
