@@ -31,8 +31,9 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Lieferschein                      | `/report/html/stock.report_deliveryslip/$ID`                                    |
 | Lieferschein (Aufgabe)            | `/report/html/forestry_timesheet.report_project_task_deliveryslip/$ID`          |
 | Lohnabrechnung                    | `/report/html/hr_payroll.report_payslip_lang/$ID`                               |
+| Mitarbeiterabrechnung             | `/report/html/bt_swissdec.report_payslip/$ID`                                   |
 | Packvorgänge                      | `/report/html/stock.report_picking/$ID`                                         |
-| QR-Rechnung                       | `/report/html/l10n_ch.qr_report_main/$ID`                                       | 
+| QR-Rechnung                       | `/report/html/l10n_ch.qr_report_main/$ID`                                       |
 | QR-Rechnung Header                | `/report/html/l10n_ch.qr_report_header/$ID`                                     |
 | Rahmenauftrag                     | `/report/html/sale_blanket_order.report_blanketorder/$ID`                       |
 | Rechnung mit Zeitnachweis         | `/report/html/account_sale_timesheet_report.report_invoice_with_timesheets/$ID` |
