@@ -44,8 +44,12 @@ Navigieren Sie nach *Einstellungen > Technisch > Meilisearch Indexes* und erstel
 
 ### Indexierte Dokumente anzeigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Meilisearch Indexes* und wählen Sie einen Index aus. Klicken Sie auf den Smart-Button *View Documents*. Hier sehen Sie gruppiert nach Index-Status die Dokumente.
+Navigieren Sie nach *Einstellungen > Technisch > Meilisearch Indexes* und wählen Sie einen Index aus. Klicken Sie auf den Smart-Button *Index Documents*. Hier sehen Sie gruppiert nach Index-Status die Dokumente.
 
 ### Dokument aus Index abrufen
 
-Navigieren Sie nach *Einstellungen > Technisch > Meilisearch Indexes* und wählen Sie einen Index aus. Klicken Sie auf den Smart-Button *View Documents*. Öffnen oder markieren Sie ein Dokument und wählen Sie *Aktion > Check Index Document*.
+Navigieren Sie nach *Einstellungen > Technisch > Meilisearch Indexes* und wählen Sie einen Index aus. Klicken Sie auf den Smart-Button *Index Documents*. Öffnen oder markieren Sie ein Dokument und wählen Sie *Aktion > Check Index Document*.
+
+::: tip
+Wenn das Dokument aus dem Index abgerufen werden konnte, wechselt der Index-Status des Dokuments auf *Indexed*. In der *Index-Response* wird das Dokument aus dem Index gespeichert. Dieses sollte mit dem *Index Document* von Odoo übereinstimmen. 
+:::
