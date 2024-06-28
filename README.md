@@ -77,6 +77,12 @@ Führen Sie Mitarbeiterbeurteilungen transparent durch.
 
 Ihre Buchhaltung einfach und korrekt.
 
+### [Connector](Connector.md)
+
+![](attachments/icons_odoo_utm.png)
+
+Odoo mit anderen Systemen verbinden.
+
 ### [Dashboards](Dashboards.md)
 
 ![icons_odoo_board](attachments/icons_odoo_board.png)
