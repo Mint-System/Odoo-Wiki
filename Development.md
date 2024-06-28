@@ -52,7 +52,7 @@ prev: ./
 
 Damit Software von Dritten Zugriff auf die Daten von Odoo hat, ohne dass dabei das Passwort eines Benutzers geteilt werden muss, kann man einen Zugriffsschlüssel bereitstellen.
 
-Öffenen Sie die Sicherheitseinstellungen des eingeloggten Benutzers *Menüleiste > Mein Profil > Tab Acccount Security* und klicken auf *New API Key*.
+Öffnen Sie die Sicherheitseinstellungen des eingeloggten Benutzers *Menüleiste > Mein Profil > Tab Account Security* und klicken auf *New API Key*.
 
 ## Verwendung
 
