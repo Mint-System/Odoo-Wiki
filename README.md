@@ -29,7 +29,7 @@ Die [Mint System GmbH](https://www.mint-system.ch/) ist Odoo Partner und unterh√
 
 Die folgenden HowTos beschreiben die Basis-Funktionen von Odoo.
 
-### [Abonnements](Subscriptions.md)
+### [Abonnements](Subscription.md)
 
 ![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.png)
 
