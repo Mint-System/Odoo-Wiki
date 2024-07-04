@@ -1,17 +1,23 @@
 ---
-title: Abonnements
+title: Abonnemente
 description: Wiederkehrende Rechnungsstellung und Management von Abonnenten auf einfache Art und Weise.
 tags:
 - HowTo
 prev: ./
 ---
-# Abonnements
+# Abonnemente
 
 ![icons_odoo_account_invoicing](attachments/icons_odoo_account_invoicing.png)
 
 {{ $frontmatter.description }}
 
 Website: <https://www.odoo.com/de_DE/app/subscriptions>
+
+## Bereiche
+
+| Bereich                                          | Beschreibung                                  |
+| ------------------------------------------------ | --------------------------------------------- |
+| [Abonnemente Aktionen](Subsciption%20Actions.md) | Arbeitsflüsse für Abonnemente automatisieren. |
 
 ## Erweiterungen
 
