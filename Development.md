@@ -146,10 +146,14 @@ Zeigen Sie einen beliebigen Datensatz in der Formularansicht an. Als Beispiel ve
 
 Navigieren Sie nun nach *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Externe Identifikationen* und legen Sie einen Eintrag an:
 
-* **Modul**: Technischer Name des Odoo-Moduls
+* **Modul**: Kennung des Odoo Partners bsp. `mint_system`
 * **Externe Identifikation**: Eindeutiger Bezeichner
 * **Modellname**: Angabe Gemäss Url
 * **Datensatz-ID**: Angabe Gemäss Url
+
+::: warning
+Verwenden Sei bei Modul keinen existierenden Modulnamen wie `base` oder `account`. Bei einem Modul-Update entfernt Odoo alle externen IDs und verknüpften Datensätze, wenn diese nicht im entsprechenden Modul definiert sind. 
+:::
 
 Dazu die Angaben aus dem Beispiel:
 

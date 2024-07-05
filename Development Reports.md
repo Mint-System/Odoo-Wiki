@@ -118,7 +118,7 @@ Navigieren Sie nun nach *Einstellungen > Technisch > Benutzer-Interface > Ansich
 
 Kopieren Sie die *ID* der Ansicht via *Entwicklertools > Metadaten anzeigen* und erstellen Sie eine externe ID gemäss [Externe ID erfassen](Development.md#Externe%20ID%20erfassen) mit diesen Attributen:
 
-* **Modul**: `documents`
+* **Modul**: `mint_system`
 * **Externe Identifikation**: `report_customer_standards`
 * **Modellname**: `ir.ui.view`
 * **Datensatz-ID**: `$ID`
@@ -186,11 +186,11 @@ In diesem Szenario wird gezeigt wie Sie einen bestehenden Bericht für ein ander
 
 Öffnen Sie *Einstellungen > Technisch > Berichtswesen > Berichte* und kopieren Sie den Bericht *Zeitnachweis-Einträge* mit dem Datenmodell `account.analytic.line`.
 
-In der Kopie geben Sie für *Modellname* den Wert `account.move` ein und als *Vorlagenname* w¨áhlen `account.report_timesheet` ein.
+In der Kopie geben Sie für *Modellname* den Wert `account.move` ein, als *Vorlagenname* wählen Sie `mint_system.account.report_timesheet` und für *Name des gedruckten Berichts* geben Sie `(object.date.strftime('%Y-%m')+' Zeitnachweis-Einträge')` ein.
 
 Navigieren Sie nun nach *Einstellungen > Technisch > Benutzer-Interface > Ansichten* und erstellen Sie einen neue Ansicht `account.report_timesheet`
 
-* **Ansichtsbezeichnung**: `account.report_timesheet`
+* **Ansichtsbezeichnung**: `mint_system.account.report_timesheet`
 * **Ansichtstyp**: QWeb
 * **Architektur**:
 
@@ -209,8 +209,8 @@ Navigieren Sie nun nach *Einstellungen > Technisch > Benutzer-Interface > Ansich
 
 Notieren Sie sich die `id` der erstellten Ansicht. Diese Ansicht ruft die Ansicht mit der externen ID `hr_timesheet.report_timesheet` auf. Damit die erstellte Ansicht vom Bericht aufgerufen werden kann, braucht es eine externe ID. Führen [Externe ID erfassen](Development.md#Externe%20ID%20erfassen) mit diesen Angaben aus:
 
-* **Modul**: `account`
-* **Externe Identifikation**: `report_timesheet`
+* **Modul**: `mint_system`
+* **Externe Identifikation**: `account.report_timesheet`
 * **Modellname**: `ir.ui.view`
 * **Datensatz-ID**: `id` der erstellten Ansicht
 
