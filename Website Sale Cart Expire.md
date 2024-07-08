@@ -16,7 +16,7 @@ Repository: <https://github.com/OCA/e-commerce/tree/16.0/website_sale_cart_expir
 
 ## Konfiguration
 
-### Anzahl Stunden für automatische Löschung von Warenkörben festlegen
+### Anzahl Stunden für automatisches Abbrechen von verlassenen Warenkörben festlegen
 
 Navigieren Sie nach *Einstellungen > Website > E-Mail & Marketing*. Geben Sie bei *Expire Carts* die Anzahl Stunden ein.
 
