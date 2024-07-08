@@ -31,3 +31,15 @@ for line in records.invoice_line_ids:
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+
+## Geplante Aktionen
+
+Die Aktionen deren Namen mit *Verkaufsabonnment: * beginnt, sind bereits definierte Aktionen. Deren Funktionsweise wird hier erläutert.
+
+### Verkaufsabonnement: Ablauf des Abonnements
+
+#FIXME 
+
+### Verkaufsabonnement: wiederkehrende Rechnungen und Zahlungen erstellen
+
+#FIXME 

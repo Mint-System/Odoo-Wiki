@@ -17,9 +17,6 @@ prev: ./
 | [Base DB Anonymization](Base%20DB%20Anonymization.md)                                     | Inhalt von ausgewählten Datenbank-Felder anonmyisieren. |
 | [Base Search Fuzzy](Base%20Search%20Fuzzy.md)                                             | Aktivieren Trigram-Index auf Datenbank-Felder.          |
 | [DBFilter From Header](DBFilter%20From%20Header.md)                                       | Datenbank mit Proxy-Header auswählen.                   |
-| [Database Anonymization HR](Smile%20Anonymization%20HR.md)                                | HR-Datensätze in Backup anonymisieren.                  |
-| [Database Anonymize Partner](Smile%20Anonymize%20Partner.md)                              | Partner-Datensätze in Backup anonymisieren.             |
-| [Database Anonymize](Smile%20Anonymization.md)                                            | Datensätze in Backup anonymisieren.                     |
 
 ## Datenbank
 
