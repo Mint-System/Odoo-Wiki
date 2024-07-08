@@ -17,6 +17,7 @@ Website: <https://www.odoo.com/de_DE/app/ecommerce>
 | Erweiterung                                                   | Beschreibung                                                |
 | ------------------------------------------------------------- | ----------------------------------------------------------- |
 | [PITS Payment Saferpay](PITS%20Payment%20Saferpay.md)         | Saferpay Payment Provider Plugin von PIT Solutions.         |
+| [Payment Payrexx](Payment%20Payrexx.md)                       | Payrexx Payment Provider Plugin von Soludoo.                |
 | [Payment Saferpay](Payment%20Saferpay.md)                     | Zahlungsanbieter für Saferpay (ohne Zahlungstokens).        |
 | [Website Berichte](Website%20Berichte.md)                     | Verkaufszahlen analysieren.                                 |
 | [Website Sale Cart Expire](Website%20Sale%20Cart%20Expire.md) | Warenkörbe nach einer bestimmten Zeit automatisch abbrechen |
