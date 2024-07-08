@@ -12,7 +12,7 @@ prev: ./website-e-commerce
 {{ $frontmatter.description }}
 
 Technischer Name: `website_sale_firstname`\
-Repository: <https://github.com/OCA/e-commerce/tree/16.0/website_sale_firstname>
+Repository: <https://github.com/OCA/e-commerce/tree/11.0/website_sale_firstname>
 
 ## Beschreibung
 
