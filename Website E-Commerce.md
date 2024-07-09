@@ -1,4 +1,4 @@
-									---
+---
 title: Website E-Commerce
 description: Webshop ohne Integrationsaufwand.
 tags:
