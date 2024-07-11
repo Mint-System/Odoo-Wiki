@@ -25,7 +25,6 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 | Erweiterung                                                                               | Beschreibung                                                                         |
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | [HR Attendance Overtime Negative Hours](HR%20Attendance%20Overtime%20Negative%20Hours.md) | Anzeige negative Überstunden auf Dashboard Abwesenheit.                              |
-| [HR Attendance User Acl](HR%20Attendance%20User%20Acl.md)                                 | Manuelle Erfassung der Anwesenheit für Gruppe Benutzer erlauben.                     |
 | [HR Holidays .ics Attachment](HR%20Holidays%20ics%20Attachment.md)                        | An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.                    |
 | [HR Holidays Calendar Department](HR%20Holidays%20Calendar%20Department.md)               | Erweitert den Anwesenheitsbericht mit neuen Felder.                                  |
 | [HR Holidays Leave Archive](HR%20Holidays%20Leave%20Archive.md)                           | Archivierungsfunktion für Abwesenheitseinträge aktivieren.                           |
