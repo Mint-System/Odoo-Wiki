@@ -13,9 +13,9 @@ prev: ./
 
 ## Bereiche
 
-| Bereich                                                 | Beschreibung                             |
-| ------------------------------------------------------- | ---------------------------------------- |
-| [Anwesenheit Aktionen](HR%20Attendance%20Actions.md)       | Aktionen für Anwesenheit App einrichten. |
+| Bereich                                                  | Beschreibung                             |
+| -------------------------------------------------------- | ---------------------------------------- |
+| [Anwesenheit Aktionen](HR%20Attendance%20Actions.md)     | Aktionen für Anwesenheit App einrichten. |
 | [Anwesenheit Überstunden](HR%20Attendance%20Overtime.md) | Überstundenmanagement ganz einfach.      |
 
 ## Erweiterungen
@@ -41,7 +41,7 @@ prev: ./
 Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheit. Für das Erfassen der Projektzeit nutzt man die App Zeiterfassung.
 :::
 
-![Anwesenheitszeiten An- und Abmelden](attachments/Anwesenheitszeiten%20An-%20und%20Abmelden.png)
+![](attachments/Anwesenheiten%20An-%20und%20Abmelden.png)
 
 ## Konfiguration
 
@@ -49,7 +49,7 @@ Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenhe
 
 Für jeden Mitarbeitenden kann eine Ausweis ID hinterlegt werden. Navigieren Sie dazu nach *Personal > Mitarbeitende auswählen > Tab HR Einstellungen*. Geben Sie im Feld *Ausweis ID* die gewünschte Nummer ein oder wählen Sie *Erzeugen.*
 
-![](attachments/Anwesenheitszeiten%20Ausweis%20ID.png)
+![](attachments/Anwesenheiten%20Ausweis%20ID.png)
 
 ::: warning
 Die Ausweis ID ist ist für die Anmeldung im Kioskmodus relevant.
@@ -59,7 +59,7 @@ Die Ausweis ID ist ist für die Anmeldung im Kioskmodus relevant.
 
 Wenn Sie die Anmeldung der Anwesenheit mit einem PIN Code validieren möchten, können Sie diesen auf den Mitarbeitenden hinterlegen. Navigieren Sie dazu nach *Personal > Mitarbeitende auswählen > Tab HR Einstellungen*. Geben Sie den PIN im Feld *PIN Code* ein.
 
-![](attachments/Anwesenheitszeiten%20PIN%20Code.png)
+![](attachments/Anwesenheiten%20PIN%20Code.png)
 
 ::: warning
 Der PIN Code wird bei der Anmeldung über den Kioskmodus abgefragt.
@@ -73,9 +73,9 @@ Navigieren Sie nach *Einstellungen > Personal > Personal*. Bei Feld *Anwesenheit
 
 ### Kioskmodus starten
 
-Starten Sie den Kioskmodus von Odoo über *Anwesenheitszeiten > Kioskmodus*.
+Starten Sie den Kioskmodus von Odoo über *Anwesenheiten > Kioskmodus*.
 
-![](attachments/Anwesenheitszeiten%20Kioskmodus.png)
+![](attachments/Anwesenheiten%20Kioskmodus.png)
 
 Mitarbeitende können nun ohne Odoo-Benutzer die Anwesenheit registrieren.
 
@@ -85,23 +85,23 @@ Stellen Sie sicher, dass der verwendete Benutzer für den Kioskmodus eingeschrä
 
 ### Anwesenheit anmelden
 
-Navigieren Sie nach *Anwesenheitszeiten* und klicken Sie auf den Knopf *Anmelden*.
+Navigieren Sie nach *Anwesenheiten > An- und Abmelden* und klicken Sie auf den Knopf *Anmelden*.
 
-![Anwesenheitszeiten Anmeldung](attachments/Anwesenheitszeiten%20Anmeldung.png)
+![](attachments/Anwesenheiten%20Anmeldung.png)
 
 Es erscheint ein Willkommensgruss mit Angabe der Uhrzeit.
 
-![Anwesenheitszeiten Bestätigung Anmeldung](attachments/Anwesenheitszeiten%20Bestätigung%20Anmeldung.png)
+![](attachments/Anwesenheiten%20Bestätigung%20Anmeldung.png)
 
 ### Anwesenheit abmelden
 
-Navigieren Sie nach *Anwesenheitszeiten* und klicken Sie auf den Knopf *Abmelden*.
+Navigieren Sie nach *Anwesenheiten > An- und Abmelden* und klicken Sie auf den Knopf *Abmelden*.
 
-![Anwesenheitszeiten Abmeldung](attachments/Anwesenheitszeiten%20Abmeldung.png)
+![](attachments/Anwesenheiten%20Abmeldung.png)
 
 Es erscheint eine Verabschiedung mit Angabe der geleisteten Arbeitszeit.
 
-![Anwesenheitszeiten Bestätigung Abmeldung](attachments/Anwesenheitszeiten%20Bestätigung%20Abmeldung.png)
+![](attachments/Anwesenheiten%20Bestätigung%20Abmeldung.png)
 
 ## Berechtigungen
 
@@ -125,17 +125,17 @@ Zusätzlich müssen Sie auf den Zugriffsrechten *hr.attendance.system.user* das 
 
 ## Auswertung
 
-### Anwesenheitszeiten anzeigen
+### Anwesenheiten anzeigen
 
 Der kürzeste Weg zur Anzeige der rapportierten Arbeitszeit führt über *Mein Profil*.
 Navigieren Sie zum Knopf mit ihrem Namen auf dem Bildschirm oben rechts.
 Dort wählen Sie *Vorname Nachname > Mein Profil*. Es erscheint die folgende Maske:
 
-![Anwesenheitszeiten Zeitrapport](attachments/Anwesenheitszeiten%20Zeitrapport.png)
+![](attachments/Anwesenheiten%20Zeitrapport.png)
 
 Ein Klick auf den Smart-Link *XX.XX Stunden* zeigt eine Tabelle mit den Details.
 
-![Anwesenheitszeiten Zeitrapport Detail](attachments/Anwesenheitszeiten%20Zeitrapport%20Detail.png)
+![](attachments/Anwesenheiten%20Zeitrapport%20Detail.png)
 
 Ausführlichere Informationen bietet das Berichtswesen in der App Zeiterfassung.
 Navigieren Sie nach *Zeiterfassung > Berichtswesen* und wählen Sie das Menü *Zeiterfassung / Anwesenheit*.
@@ -145,23 +145,23 @@ Navigieren Sie nach *Zeiterfassung > Berichtswesen* und wählen Sie das Menü *Z
 Mit dem Knopf *Werte* können Spalten ein- und ausgeblendet werden.
 
 ::: tip
-Das detaillierte Protokoll der An- und Abmeldungen zeigt die Übersicht *Anwesenheitszeiten > Manager > Anwesenheitszeiten*. (Die Berechtigung Personalsachbearbeiter ist notwendig.)
+Das detaillierte Protokoll der An- und Abmeldungen zeigt die Übersicht *Anwesenheiten > Anwesenheiten*. (Die Berechtigung Personalsachbearbeiter ist notwendig.)
 :::
 
-### Anwesenheitszeiten bearbeiten
+### Anwesenheiten bearbeiten
 
-Mitarbeiter können standardmässig ihre Anwesenheitszeiten nachbessern. Dazu navigieren Sie über das Menu oben-rechts nach *Vorname Nachname > Mein Profil > Smart-Link XX.XX Stunden*. Hier werden die Checkins und Checkouts aufgelistet.
+Mitarbeiter können standardmässig ihre Anwesenheiten korrigieren. Dazu navigieren Sie über das Menu oben-rechts nach *Vorname Nachname > Mein Profil > Smart-Link XX.XX Stunden*. Hier werden die An- und Abmeldungen aufgelistet.
 
 Um einen Eintrag zu bearbeiten, klick man entweder auf *Einchecken* oder *Abmeldung*.
 
-![](attachments/Anwesenheitszeiten%20bearbeiten.png)
+![](attachments/Anwesenheiten%20bearbeiten.png)
 
 ### Zeitüberschreitungen filtern
 
-Wenn Sie wissen möchten, welche Mitarbeitenden nicht korrekt ausgestempelt oder zu viel Zeit gestempelt haben, können Sie die Einträge via *Anwesenheitszeiten > Manager > Anwesenheitszeiten* filtern. Erstellen Sie einen Filter für das Feld *Arbeitsstunden*:
+Wenn Sie wissen möchten, welche Mitarbeitenden nicht korrekt ausgestempelt oder zu viel Zeit gestempelt haben, können Sie die Einträge via *Anwesenheiten > Anwesenheiten* filtern. Erstellen Sie einen Filter für das Feld *Arbeitsstunden*:
 
-![](attachments/Anwesenheitszeiten%20Arbeitsstunden%20filtern.png)
+![](attachments/Anwesenheiten%20Arbeitsstunden%20filtern.png)
 
 Natürlich können Sie die Auswertung auf ihrem Dashboard hinzufügen und sehen so, ob eine Fehlbuchung entstanden ist.
 
-![](attachments/Anwesenheitszeiten%20Dashboard.png)
+![](attachments/Anwesenheiten%20Dashboard.png)

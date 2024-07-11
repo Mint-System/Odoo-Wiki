@@ -6,7 +6,7 @@ tags:
 prev: ./hr-attendance
 ---
 
-# Anwesenheit Überstunden
+# Anwesenheiten Überstunden
 ![icons_odoo_hr_attendance](attachments/icons_odoo_hr_attendance.png)
 
 {{ $frontmatter.description }}
@@ -15,13 +15,25 @@ Gilt ab #Odoo15.
 
 ## Konfiguration
 
-### Überstunden berechnen
+### Überstunden Startdatum festlegen
 
-Öffnen Sie die *Einstellungen* und markieren Sie die Option *Anwesenheitszeiten > Überstunden > Überstunden zählen*. Setzen Sie ein Startdatum und Speichern Sie die Einstellungen.
+Öffnen Sie die *Einstellungen* und markieren Sie die Option *Anwesenheiten > Überstunden > Überstunden zählen*. Setzen Sie ein Startdatum und Speichern Sie die Einstellungen.
 
-![](attachments/Anwesenheitszeiten%20Überstunden.png)
+![](attachments/Anwesenheiten%20Überstunden.png)
 
-Unter *Anwesenheitszeiten > Berichtswesen* können Sie die Überstunden der Mitarbeitenden anzeigen.
+Unter *Anwesenheiten > Berichtswesen* können Sie die Überstunden der Mitarbeitenden anzeigen.
+
+### Überstunden-Saldo festlegen
+
+Ein Überstunden-Saldo für Mitarbeitende legen mit manuellen Überstunden-Einträgen fest, dessen Datum vor dem Startdatum der Überstunden-Berechnung liegt.
+
+Damit Sie manuelle Überstunden-Einträge erstelle können, müssen Sie die Aktion [Alle Überstunden anzeigen](#Alle%20Überstunden%20anzeigen) ausführen.
+
+Angenommen dass Startdatum ist der *01.07.2024*, dann erstellen Sie unter *Anwesenheiten > Überstunden* die Überstunden-Einträge mit Datum *30.06.2024*.
+
+::: info
+Bei der Berechnung und Aktualisierung der Überstunden ignoriert Odoo alle Einträge vor dem Startdatum.
+:::
 
 ## Verwendung
 
@@ -37,15 +49,15 @@ Auf Abwesenheitsarten können Sie festlegen, ob Überstunden abgezogen werden k�
 
 Dazu ein Beispiel mit dem Abwesenheitsart *Überstunden*:
 
-![](attachments/Anwesenheitszeiten%20Überstunden%20Abwesenheitsart.png)
+![](attachments/Anwesenheiten%20Überstunden%20Abwesenheitsart.png)
 
 Legt man für den Mitarbeitenden eine Abwesenheit von diesem Typ an, prüft Odoo ob genug Überstunden vorhanden sind.
 
-![](attachments/Anwesenheitszeiten%20Überstunden%20Abwesenheit.png)
+![](attachments/Anwesenheiten%20Überstunden%20Abwesenheit.png)
 
 Werden die Überstunden genehmigt, verbucht Odoo am Tag der Erstellung dementsprechend die Überstunden.
 
-![](attachments/Anwesenheitszeiten%20Überstunden%20kompensiert.png)
+![](attachments/Anwesenheiten%20Überstunden%20kompensiert.png)
 
 ::: warning
 Wenn man die Abwesenheit rückgängig macht, löscht Odoo die betroffenen Überstunden-Einträge.
@@ -73,4 +85,8 @@ Damit Sie eine Übersicht alle Überstunden erhalten, müssen Sie via *Einstellu
 * **Obermenü**: `Anwesenheiten`
 * **Aktion**: `ir.actions.act_window` `Überstunden`
 * **Nummernfolge**: `20`
-* **Zugriffsrechte**: `Personal / Sachbearbeiter: Alle Mitarbeiter verwalten`
+* **Zugriffsrechte**: `Anwesesenheiten / Sachbearbeiter: Alle Anwesenheiten verwalten`
+
+::: info
+Damit Überstunden-Einträge bearbeiten werden können, muss die Definition der Überstunden-Liste mit einem [Snippet](Development%20Snippets.md) angepasst werden.
+:::

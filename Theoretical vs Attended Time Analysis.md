@@ -36,13 +36,13 @@ Damit der Abwesenheitsart in der Auswertung [Theoretical vs Attended Time Analys
 
 Öffnen Sie den Abwesenheitsart mit *Abwesenheiten > Konfiguration > Abwesenheitsarten*. Bearbeiten Sie den Typ und wählen Sie die Checkbox *in theoretische Stunden einbeziehen* unter *Optionen*. Schliessen Sie den Vorgang ab. Nun wird der Abwesenheitsart in der theoretischen Stunden berücksichtigt.
 
-### Theoretische und tatsächliche Anwesenheitszeiten vergleichen
+### Theoretische und tatsächliche Anwesenheiten vergleichen
 
-Navigieren Sie nach *Anwesenheitszeiten > Berichtswesen > Theoretische vs. tatsächliche Anwesenheitszeiten > Angestellt wählen*. Fügen Sie die Mitarbeiter deren Zeiten Sie auswerten wollen der Liste *Angestellte* hinzu. Zeigen Sie den Bericht mit *Bericht ansehen* an.
+Navigieren Sie nach *Anwesenheiten > Berichtswesen > Theoretische vs. tatsächliche Anwesenheitszeiten > Angestellt wählen*. Fügen Sie die Mitarbeiter deren Zeiten Sie auswerten wollen der Liste *Angestellte* hinzu. Zeigen Sie den Bericht mit *Bericht ansehen* an.
 
 Falls Sie direkt den eigenen Vergleich sehen möchten wählen Sie direkt *Alle Angestellte*. Standardmässig wird die Ansicht nach dem eigenen Benutzer gefiltert.
 
-![](attachments/Odoo%20Anwesenheitszeiten%20Vergleich.png)
+![](attachments/Odoo%20Anwesenheiten%20Vergleich.png)
 
 ### Abwesenheitsart "Überstunden kompensieren" anlegen
 

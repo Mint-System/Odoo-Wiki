@@ -149,7 +149,7 @@ Abwesenheitseinträge, die im Zustand *Zur Genehmigung* sind, können nicht mehr
 
 Nach demselben Verfahren wie [Urlaubsanspruch validieren](#Urlaubsanspruch%20validieren) können Sie Abwesenheiten validieren. Sie erhalten entweder eine Mail oder sehen die zugewiesene Odoo-Aktivität.
 
-![](attachments/Anwesenheitszeiten%20Mail%20Abwesenheit.png)
+![](attachments/Anwesenheiten%20Mail%20Abwesenheit.png)
 
 Klicken Sie auf den Link und validieren Sie die Abwesenheit.
 
