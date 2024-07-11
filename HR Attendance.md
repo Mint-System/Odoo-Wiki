@@ -33,6 +33,7 @@ prev: ./
 | [HR Employee Attendance Report](HR%20Employee%20Attendance%20Report.md)                   | Stundenzettel mit Anwesenheit, Abwesenheiten und Überstunden.                      |
 | [Syscoon HR Attendance](Syscoon%20HR%20Attendance.md)                                     | Verwalten Sie die Überzeiten der Mitarbeitenden.                                   |
 | [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. |
+|                                                                                           |                                                                                    |
 
 ## Beschreibung
 
