@@ -38,8 +38,15 @@ Die Aktionen deren Namen mit *Verkaufsabonnment: * beginnt, sind bereits definie
 
 ### Verkaufsabonnement: Ablauf des Abonnements
 
-#FIXME 
+Diese Aktion prüft das Enddatum der Abonnmente. Standardmässig wird diese Aktion jede Woche ausgeführt.
+
+Wenn das Enddatum zwischen heute und in einem Monat liegt, wird das Abonnement mit *Zu erneuern* markiert.
+
+Wenn das Enddatum vor dem heutigen Tag liegt, wird das Abonnement geschlossen. Hat das Abonnment unbezahlte Rechnungen wird dies im Chatter vermerkt.
 
 ### Verkaufsabonnement: wiederkehrende Rechnungen und Zahlungen erstellen
 
-#FIXME 
+Diese Aktion prüft das nächste Abrechnungsdatum der Abonnmente. Standardmässig wird diese Aktion jeden Tag ausgeführt.
+
+Wenn das Enddatum vor dem heutigen Tag liegt, wird das Abonnement geschlossen.
+

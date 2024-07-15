@@ -22,6 +22,8 @@ prev: ./
 | Erweiterung                                                                                       | Beschreibung                                                                |
 | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [Base Country Sequence](Base%20Country%20Sequence.md)                                             | Länder-Liste manuell sortieren.                                             |
+| [Base Location City](Base%20Location%20City.md)                                                   | Orte mit Längen- und Breitengrad.                                           |
+| [Base Location](Base%20Location.md)                                                               | Postleitzahl und Ort automatisch ausfüllen.                                 |
 | [Base Partner Sequence](Base%20Partner%20Sequence.md)                                             | Sequenz auf Kundenreferenz.                                                 |
 | [Base VAT Optional VIES](Base%20VAT%20Optional%20VIES.md)                                         | Resultat der VIES-Prüfung speichern.                                        |
 | [Base VAT Required VIES](Base%20VAT%20Required%20VIES.md)                                         | Die VIES-VAT-Prüfung als obligatorisch festlegen.                           |
