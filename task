@@ -17,7 +17,7 @@ function help() {
     echo "commands:"
     echo
 
-    cmd_width=15
+    cmd_width=20
     opt_width=6
     desc_width=35
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "Command" "Option" "Description"
@@ -27,8 +27,56 @@ function help() {
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vue-dev" "" "Start vuepress development server."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vue-build" "" "Create vuepress build."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "serve-vue-build" "" "Serve vuepress build."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "update-repo-versions" "" "Check repository urls."
 
     echo
+}
+
+function update-repo-versions() {
+
+    VERSIONS=("13.0" "14.0" "15.0" "16.0" "17.0")
+
+    # for FILE in ./*.md; do
+
+    FILE="./Purchase Order Notes.md"
+
+    echo "Processing $FILE"
+    
+    BASE_URL=$(cat "$FILE" | sed -n 's|Repository: <https:\/\/github\.com.+?||p')
+
+    if [[ -n "$BASE_URL" ]]; then
+
+        echo "Found base url: $BASE_URL"
+    
+        SUPPORTED_VERSIONS=""
+        
+        for VERSION in "${VERSIONS[@]}"; do
+            URL="$BASE_URL/$VERSION"
+
+            echo "Checking url $URL"
+
+            RESPONSE=$(curl --write-out "%{http_code}" --silent --output /dev/null "$URL")
+            if [[ "$RESPONSE" -eq 200 ]]; then
+                if [[ -z "$SUPPORTED_VERSIONS" ]]; then
+                    SUPPORTED_VERSIONS="$VERSION"
+                else
+                    SUPPORTED_VERSIONS="$SUPPORTED_VERSIONS,$VERSION"
+                fi
+            fi
+        done
+
+        if [[ -n "$SUPPORTED_VERSIONS" ]]; then
+
+            LATEST_VERSION=$(echo "$SUPPORTED_VERSIONS" | awk -F, '{print $NF}')
+            NEW_LINE="Repository: <https://github.com/${BASE_URL}/$LATEST_VERSION> ($SUPPORTED_VERSIONS)"
+            echo "Updating $FILE with: $NEW_LINE"
+            sed -i "s|^Repository: <https://github.com/.*/tree/[0-9]\+\.[0-9]\+/.\+>$|$NEW_LINE|" "$FILE"
+            
+        else
+            echo "No supported versions found for $FILE"
+        fi
+    fi
+    # done
 }
 
 case "$1" in
@@ -50,6 +98,9 @@ case "$1" in
     serve-vue-build)
         cd ./src/.vuepress/dist
         npx serve
+        ;;
+    update-repo-versions)
+        update-repo-versions
         ;;
     *)
         help
