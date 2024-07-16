@@ -42,10 +42,14 @@ Diese Aktion prüft das Enddatum der Abonnmente. Standardmässig wird diese Akti
 
 Wenn das Enddatum zwischen heute und in einem Monat liegt, wird das Abonnement mit *Zu erneuern* markiert.
 
-Wenn das Enddatum vor dem heutigen Tag liegt, wird das Abonnement geschlossen. Hat das Abonnment unbezahlte Rechnungen wird dies im Chatter vermerkt.
+Wenn das Enddatum vor dem heutigen Tag liegt, wird das Abonnement geschlossen. Hat das Abonnement unbezahlte Rechnungen wird dies im Chatter vermerkt.
+
+#FIXME 
 
 ### Verkaufsabonnement: wiederkehrende Rechnungen und Zahlungen erstellen
 
 Diese Aktion prüft das nächste Abrechnungsdatum der Abonnmente. Standardmässig wird diese Aktion jeden Tag ausgeführt.
 
 Wenn das Enddatum vor dem heutigen Tag liegt, wird das Abonnement geschlossen.
+
+#FIXME 
