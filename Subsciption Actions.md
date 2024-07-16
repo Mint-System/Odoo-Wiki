@@ -49,4 +49,3 @@ Wenn das Enddatum vor dem heutigen Tag liegt, wird das Abonnement geschlossen. H
 Diese Aktion prüft das nächste Abrechnungsdatum der Abonnmente. Standardmässig wird diese Aktion jeden Tag ausgeführt.
 
 Wenn das Enddatum vor dem heutigen Tag liegt, wird das Abonnement geschlossen.
-
