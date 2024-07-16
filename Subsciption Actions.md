@@ -34,7 +34,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speiche
 
 ## Geplante Aktionen
 
-Die Aktionen deren Namen mit *Verkaufsabonnment: * beginnt, sind bereits definierte Aktionen. Deren Funktionsweise wird hier erläutert.
+Die Aktionen deren Namen mit *Verkaufsabonnment:* beginnt, sind bereits definierte Aktionen. Deren Funktionsweise wird hier erläutert.
 
 ### Verkaufsabonnement: Ablauf des Abonnements
 
