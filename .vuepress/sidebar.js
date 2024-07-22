@@ -72,13 +72,15 @@ export default [
       "best-pratice-sepa-payment.md"
     ]
   },
-  "subscriptions.md",
+  "subscription.md",
   "hr-holidays.md",
   "hr-attendance.md",
   "apps.md",
   "fsm-industry.md",
   "user.md",
   "hr-appraisal.md",
+  "accounting.md",
+  "connector.md",
   "dashboards.md",
   "database.md",
   "data-cleaning.md",
@@ -91,7 +93,6 @@ export default [
   "mass-mailing.md",
   "development.md",
   "manufacture.md",
-  "finance.md",
   "fleet.md",
   "iot.md",
   "calendar.md",
@@ -145,10 +146,18 @@ export default [
   "sale-blanket-order.md",
   "contract.md",
   "warehouse.md",
+  "zebroo-sync.md",
   {
     "text": "Bereiche",
     "collapsible": true,
     "children": [
+      {
+        "text": "Subscription",
+        "collapsible": true,
+        "children": [
+          "subsciption-actions.md"
+        ]
+      },
       {
         "text": "HR Holidays",
         "collapsible": true,
@@ -170,6 +179,23 @@ export default [
         "collapsible": true,
         "children": [
           "apps-actions.md"
+        ]
+      },
+      {
+        "text": "Accounting",
+        "collapsible": true,
+        "children": [
+          "accounting-reconcile.md",
+          "accounting-actions.md",
+          "accounting-assets.md",
+          "accounting-reports.md",
+          "accounting-finance.md",
+          "accounting-data-management.md",
+          "accounting-analytic-accounting.md",
+          "accounting-multicurrency.md",
+          "accounting-tax.md",
+          "accounting-snippets.md",
+          "accounting-payments.md"
         ]
       },
       {
@@ -251,23 +277,6 @@ export default [
           "manufacture-actions.md",
           "manufacture-data-management.md",
           "manufacture-operations.md"
-        ]
-      },
-      {
-        "text": "Finance",
-        "collapsible": true,
-        "children": [
-          "finance-reconcile.md",
-          "finance-actions.md",
-          "finance-assets.md",
-          "finance-reports.md",
-          "finance-accounting.md",
-          "finance-data-management.md",
-          "finance-analytic-accounting.md",
-          "finance-multicurrency.md",
-          "finance-tax.md",
-          "finance-snippets.md",
-          "finance-payments.md"
         ]
       },
       {
@@ -416,7 +425,7 @@ export default [
     "collapsible": true,
     "children": [
       {
-        "text": "Subscriptions",
+        "text": "Subscription",
         "collapsible": true,
         "children": [
           "sale-subscription-disable-tokenization.md",
@@ -436,6 +445,7 @@ export default [
           "hr-holidays-negative-hours.md",
           "hr-holidays-public.md",
           "hr-holidays-remaining-leaves.md",
+          "hr-holidays-type-note.md",
           "hr-leave-custom-hour-interval.md",
           "theoretical-vs-attended-time-analysis.md"
         ]
@@ -447,10 +457,12 @@ export default [
           "hr-attendance-calendar-view.md",
           "hr-attendance-delta.md",
           "hr-attendance-ip-check.md",
+          "hr-attendance-kanban.md",
           "hr-attendance-kiosk-mode-color.md",
           "hr-attendance-missing.md",
           "hr-attendance-overtime-hours.md",
           "hr-attendance-policy.md",
+          "hr-attendance-user-acl.md",
           "hr-employee-attendance-report.md",
           "syscoon-hr-attendance.md",
           "theoretical-vs-attended-time-analysis.md"
@@ -461,6 +473,50 @@ export default [
         "collapsible": true,
         "children": [
           "industry-fsm-sale-default-task.md"
+        ]
+      },
+      {
+        "text": "Accounting",
+        "collapsible": true,
+        "children": [
+          "account-financial-report-contra-accounts.md",
+          "account-financial-report-reverse-move-lines.md",
+          "account-financial-report-show-grouped-none.md",
+          "account-financial-report.md",
+          "account-followup-email-from.md",
+          "account-followup-hide-communication.md",
+          "account-general-ledger-contra-accounts.md",
+          "account-invoice-description.md",
+          "account-journal-items-report.md",
+          "account-menu.md",
+          "account-move-accounting-description.md",
+          "account-move-line-accounting-description-stock",
+          "account-move-line-contra-accounts.md",
+          "account-move-line-link-pickings.md",
+          "account-move-line-position.md",
+          "account-move-post-warn.md",
+          "account-move-reconciled-date.md",
+          "account-payment-mode.md",
+          "account-payment-order.md",
+          "account-payment-partner.md",
+          "account-payment-purchase.md",
+          "account-reconcile-oca.md",
+          "account-reports-hide-ref.md",
+          "account-statement-base.md",
+          "account-statement-import-base.md",
+          "account-statement-import-camt54.md",
+          "account-statement-import-camt.md",
+          "account-statement-import-file.md",
+          "account-statement-import.md",
+          "account-usability.md",
+          "nivels-deduct-supplier-discount.md"
+        ]
+      },
+      {
+        "text": "Connector",
+        "collapsible": true,
+        "children": [
+          "meilisearch-base.md"
         ]
       },
       {
@@ -478,10 +534,7 @@ export default [
         "children": [
           "base-db-anonymization.md",
           "base-search-fuzzy.md",
-          "dbfilter-from-header.md",
-          "smile-anonymization-hr.md",
-          "smile-anonymize-partner.md",
-          "smile-anonymization.md"
+          "dbfilter-from-header.md"
         ]
       },
       {
@@ -491,6 +544,7 @@ export default [
           "account-move-mail-thread.md",
           "account-move-send-unsubscribe.md",
           "account-move-unsubscribe.md",
+          "mail-composer-cc-bcc.md",
           "mail-activity-datetime.md",
           "mail-composer-default-template.md",
           "mail-debrand.md",
@@ -500,6 +554,7 @@ export default [
           "mail-thread-context.md",
           "mail-tracking-helpdesk-bounce-ticket.md",
           "mail-tracking-mailgun.md",
+          "mail-tracking.md",
           "mail-unsubscribe.md",
           "purchase-order-send-unsubscribe.md",
           "purchase-order-unsubscribe.md",
@@ -550,6 +605,7 @@ export default [
           "base-user-role.md",
           "home-background-image.md",
           "impersonate.md",
+          "auth-oauth-multi-token.md",
           "odoo-microsoft-account.md",
           "report-qweb-pdf-watermark.md",
           "show-db-name.md",
@@ -574,6 +630,7 @@ export default [
         "children": [
           "bi-sql-editor.md",
           "date-range.md",
+          "fastapi.md",
           "mass-editing.md",
           "mass-operation-abstract.md",
           "muk-rest.md",
@@ -620,40 +677,6 @@ export default [
         ]
       },
       {
-        "text": "Finance",
-        "collapsible": true,
-        "children": [
-          "account-financial-report-contra-accounts.md",
-          "account-financial-report-reverse-move-lines.md",
-          "account-financial-report-show-grouped-none.md",
-          "account-financial-report.md",
-          "account-followup-email-from.md",
-          "account-followup-hide-communication.md",
-          "account-general-ledger-contra-accounts.md",
-          "account-invoice-description.md",
-          "account-journal-items-report.md",
-          "account-menu.md",
-          "account-move-accounting-description.md",
-          "account-move-line-accounting-description-stock",
-          "account-move-line-contra-accounts.md",
-          "account-move-line-link-pickings.md",
-          "account-move-line-position.md",
-          "account-move-post-warn.md",
-          "account-move-reconciled-date.md",
-          "account-payment-mode.md",
-          "account-payment-order.md",
-          "account-payment-partner.md",
-          "account-payment-purchase.md",
-          "account-reports-hide-ref.md",
-          "account-statement-import-base.md",
-          "account-statement-import-camt.md",
-          "account-statement-import-camt54.md",
-          "account-statement-import.md",
-          "account-usability.md",
-          "nivels-deduct-supplier-discount.md"
-        ]
-      },
-      {
         "text": "Fleet",
         "collapsible": true,
         "children": [
@@ -672,6 +695,8 @@ export default [
         "collapsible": true,
         "children": [
           "base-country-sequence.md",
+          "base-location-city.md",
+          "base-location.md",
           "base-partner-sequence.md",
           "base-vat-optional-vies.md",
           "base-vat-required-vies.md",
@@ -679,11 +704,13 @@ export default [
           "partner-bank-code.md",
           "partner-color-codes.md",
           "partner-contact-access-link.md",
+          "partner-contact-association.md",
           "partner-contact-birthdate.md",
           "partner-contact-department-note.md",
           "oca-partner-contact-department.md",
           "partner-contact-location-in-name.md",
           "partner-contact-personal-information-page.md",
+          "partner-deduplication-acl.md",
           "partner-duplicate-acc-number",
           "partner-firstname.md",
           "partner-hide-address.md",
@@ -836,6 +863,8 @@ export default [
         "text": "Invoicing",
         "collapsible": true,
         "children": [
+          "account-followup-mail-layout.md",
+          "account-followup-manual-reminder.md",
           "account-invoice-carrier.md",
           "account-invoice-comment.md",
           "account-invoice-detail.md",
@@ -846,6 +875,7 @@ export default [
           "account-invoice-overdue-reminder.md",
           "account-invoice-sale-partner.md",
           "account-invoice-select-bank.md",
+          "account-invoice-triple-discount.md",
           "account-move-invoice-partner.md",
           "account-move-line-description.md",
           "account-sale-timesheet-report.md",
@@ -858,15 +888,15 @@ export default [
           "sale-invoice-line-description.md",
           "sale-invoice-prepare-bank.md",
           "sale-invoice-prepare-partner.md",
-          "sales-order-invoicing-grouping-criteria.md"
+          "sale-order-invoicing-grouping-criteria.md"
         ]
       },
       {
         "text": "l10n CH",
         "collapsible": true,
         "children": [
-          "switzerland-bank-type.md",
-          "switzerland-disable-default-reports.md",
+          "l10n-ch-base-bank.md",
+          "l10n-ch-disable-default-reports.md",
           "l10n-ch-invoice-reports-with-payments.md",
           "l10n-ch-invoice-reports.md",
           "l10n-ch-qr-bill-scan.md",
@@ -888,6 +918,7 @@ export default [
           "mail-manual-routing.md",
           "mail-server-filter.md",
           "mail-service-users.md",
+          "module-auto-update.md",
           "web-dark-mode.md",
           "web-editor-show-code.md",
           "web-responsive.md"
@@ -942,6 +973,7 @@ export default [
           "sale-order-line-position.md",
           "sale-order-line-pricelist-fixed-discount.md",
           "sale-order-line-purchase-margin.md",
+          "sale-order-line-temporary-price.md",
           "sale-order-mrp-production-cancel.md",
           "sale-order-multi-pricelist.md",
           "sale-order-notes.md",
@@ -955,7 +987,8 @@ export default [
           "sale-partner-shipping-group.md",
           "sale-product-set-layout.md",
           "sale-product-set-search.md",
-          "sale-product-set.md"
+          "sale-product-set.md",
+          "sale-triple-discount.md"
         ]
       },
       {
@@ -1004,8 +1037,10 @@ export default [
         "collapsible": true,
         "children": [
           "pits-payment-saferpay.md",
+          "payment-payrexx.md",
           "payment-saferpay.md",
           "website-berichte.md",
+          "website-sale-cart-expire.md",
           "website-sale-firstname.md",
           "website-sale-float-qty.md",
           "website-shop-coupons.md"
@@ -1124,7 +1159,8 @@ export default [
         "children": [
           "contract-format-date-marker.md",
           "contract-sale-generation.md",
-          "contract-sale.md"
+          "contract-sale.md",
+          "subscription-oca.md"
         ]
       },
       {
@@ -1135,6 +1171,20 @@ export default [
           "stock-available-mrp.md",
           "stock-available.md",
           "stock-move-location.md"
+        ]
+      },
+      {
+        "text": "Zebroo Sync",
+        "collapsible": true,
+        "children": [
+          "odoo-sync-mapper.md",
+          "odoo-sync.md",
+          "sql-sync.md",
+          "sync-mapper-import.md",
+          "sync-mapper.md",
+          "sync-transformer-helper.md",
+          "sync-trigger-methods.md",
+          "web-sync.md"
         ]
       }
     ]

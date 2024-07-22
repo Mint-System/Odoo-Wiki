@@ -5,11 +5,6 @@ if [[ -a ".env" ]]; then
     export $(cat .env | sed 's/^#.*//g' | xargs)
 fi
 
-: "${DOCKER_TAG:=odoo:16.0-ci}"
-
-cat << EOF
- 
-EOF
 function help() {
     echo
     echo "task <command> [options]"
