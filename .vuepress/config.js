@@ -6,13 +6,13 @@ import { plausiblePlugin } from './plausible'
 import sidebar from './sidebar'
 
 export default defineUserConfig({
+    bundler: viteBundler(),
     lang: 'de-CH',
     title: 'Odoo Wiki',
     description: 'Eine einfache und umfassende Odoo-Dokumentation.',
     head: [
         ['link', { rel: 'icon', href: '/icon.png' }]
     ],
-    bundler: viteBundler(),
     theme: defaultTheme({
         logo: '/icon.png',
         repo: 'mint-system/odoo-wiki',
