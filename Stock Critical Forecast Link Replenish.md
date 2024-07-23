@@ -16,6 +16,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 ## Produkte mit Bestandsregeln auf Bericht anzeigen
 
-Mit dieser Erweiterung werden Bestandsregeln auf Produkten im Bericht *Kritische Vorhersage* berücksichtigt. Mit dem entsprechenden Aktion gelangen Sie direkt zur Ansicht *Aufüllen*.
+Mit dieser Erweiterung werden Bestandsregeln auf Produkten im Bericht *Kritische Vorhersage* angezeigt. Mit dem entsprechenden Aktion gelangen Sie direkt zur Ansicht *Aufüllen*.
 
 ![Stock Critical Forecast Link Replenish](attachments/Stock%20Critical%20Forecast%20Link%20Replenish.gif)
