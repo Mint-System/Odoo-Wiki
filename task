@@ -84,13 +84,13 @@ case "$1" in
     build)
         node build.js
         ;;
-    vue-dev)
-        npm run vue-dev
+    dev)
+        npm run dev
         ;;
     vue-build)
         npm run vue-build
         ;;
-    serve-vue-build)
+    serve-build)
         cd ./src/.vuepress/dist
         npx serve
         ;;

@@ -382,10 +382,10 @@ if (!firstArg || ['all', 'attachments'].indexOf(firstArg) > 0) {
     // Loop all asset files
     fs.readdirSync(path.join(__dirname, attachmentsFolder)).forEach((file) => {
         
-        // set new file name
+        // Set new file name
         newfile = targetPath + sanitizeAssetname(file)
 
-        // move asset file
+        // Copy asset file
         fs.copyFileSync(path.join(__dirname, attachmentsFolder,file), path.join(__dirname, newfile))
     })
  

@@ -3,7 +3,7 @@
   "scripts": {
     "build": "node build.js && vuepress build src",
     "vue-build": "vuepress build src",
-    "vue-dev": "vuepress dev src",
+    "dev": "vuepress dev src",
     "download-icons": "node download-icons.js"
   },
   "devDependencies": {
