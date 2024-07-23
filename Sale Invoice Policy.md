@@ -1,6 +1,6 @@
 ---
 title: Sale Invoice Policy
-description: Abrechnungsregel auf Produkte und Angebot festlegen.
+description: Abrechnungsregel auf Produkt und Angebot festlegen.
 tags:
 - HowTo
 - OCA
