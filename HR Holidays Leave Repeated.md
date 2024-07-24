@@ -18,4 +18,4 @@ Repository: <https://github.com/OCA/hr-holidays/tree/14.0/hr_holidays_leave_repe
 
 ### Abwesenheitsart als wiederkehrend markieren
 
-Zeigen Sie einen Abwesenheitsart via *Abwesenheit > Konfiguration > Abwesenheitsarten* an und aktivieren Sie die Option *Repeat*.
+Zeigen Sie einen Abwesenheitsart via *Abwesenheiten > Konfiguration > Abwesenheitsarten* an und aktivieren Sie die Option *Repeat*.
