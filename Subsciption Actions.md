@@ -53,3 +53,58 @@ Diese Aktion prüft das nächste Abrechnungsdatum der Abonnmente. Standardmässi
 Wenn das Enddatum vor dem heutigen Tag liegt, wird das Abonnement geschlossen.
 
 #FIXME 
+
+### Abonnemente vor Ablauf in Stufe verschieben
+
+Diese geplante Aktion prüft das nächste Abrechnungsdatum und verschiebt die Abonnement abhängig von der verbleibenden Wochen in eine entsprechende Stufe.
+
+Erstellen Sie eine externe ID `__custom__.reminder_stage1` und `__custom__.reminder_stage2` für die ausgewählten Spalten.
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Abonnemente vor Ablauf in Spalte verschieben`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Tage\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Settings
+stage1_ref = "__custom__.reminder_stage1"
+stage2_ref = "__custom__.reminder_stage2"
+stage1_weeks = 6
+stage2_weeks = 2
+
+# Get references
+stage1_id = env.ref(stage1_ref)
+stage2_id = env.ref(stage2_ref)
+stage_running_id = env.ref("sale_subscription.sale_subscription_stage_in_progress")
+
+# Get expiring dates
+today = datetime.datetime.today()
+stage1_date = today + datetime.timedelta(weeks=stage1_weeks)
+stage2_date = today + datetime.timedelta(weeks=stage2_weeks)
+
+# Search and move stage 1
+stage1_subscriptions = env["sale.order"].search([
+   ('is_subscription', '=', True),
+   ('stage_id', '=', stage_running_id.id),
+   ('next_invoice_date', '<=', stage1_date),
+   ('next_invoice_date', '>', stage2_date),
+])
+# raise UserError(stage1_subscriptions)
+stage1_subscriptions.write({'stage_id': stage1_id.id})
+
+# Search and move stage 2
+stage2_subscriptions = env["sale.order"].search([
+   ('is_subscription', '=', True),
+   ('stage_id', '=', stage_running_id.id),
+   ('next_invoice_date', '<=', stage2_date),
+   ('next_invoice_date', '>', today),
+])
+# raise UserError(stage2_subscriptions)
+stage2_subscriptions.write({'stage_id': stage2_id.id})
+```
