@@ -429,11 +429,11 @@ Stelleninserate verwalten.
 
 Software verkaufen und lizenzieren.
 
-### [Management System](Management%20System.md)
+### [Management Systems](Management%20Systems.md)
 
 ![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.png)
 
-Odoo for Management Systems (ISO, IEC, BS).
+Odoo for Management Systems (ISO, IEC, BS, EASA).
 
 ### [Odoo.sh](Odoo.sh.md)
 
