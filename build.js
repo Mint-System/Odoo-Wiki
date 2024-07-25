@@ -57,12 +57,24 @@ function loopMdFiles() {
     return fs.readdirSync(__dirname).filter(file => (file.slice(-3) === '.md') && (ignoreFiles.indexOf(file) != 0))
 }
 
-const groupBy = key => array =>
-    array.reduce((objectsByKeyValue, obj) => {
-        const value = obj[key];
-        objectsByKeyValue[value] = (objectsByKeyValue[value] || []).concat(obj);
-        return objectsByKeyValue;
-    }, {});
+const groupBy = (key, sort = false) => array => {
+    const grouped = array.reduce((objectsByKeyValue, obj) => {
+        const value = obj[key]
+        objectsByKeyValue[value] = (objectsByKeyValue[value] || []).concat(obj)
+        return objectsByKeyValue
+    }, {})
+
+    if (sort) {
+        return Object.keys(grouped)
+            .sort((a, b) => a.localeCompare(b))
+            .reduce((acc, sortedKey) => {
+                acc[sortedKey] = grouped[sortedKey]
+                return acc
+            }, {})
+    }
+
+    return grouped
+}
 
 function removeDuplicates(arr) {
     return [...new Set(arr)];
@@ -351,7 +363,7 @@ if (!firstArg || ['all', 'index'].indexOf(firstArg) > 0) {
     console.log('Build glossary ...')
 
     // Group files by first letter
-    groupedFiles = groupBy('firstLetter')(files)
+    groupedFiles = groupBy('firstLetter', true)(files)
     content = [
         '# Glossary',
         '\n'
