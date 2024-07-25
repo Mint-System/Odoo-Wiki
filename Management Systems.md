@@ -13,7 +13,8 @@ prev: ./
 
 ## Erweiterungen
 
-| Erweiterung                        | Beschreibung                      |
-| ---------------------------------- | --------------------------------- |
-| [Management System](Mgmtsystem.md) | Management System by OCA.         |
-| [Management](mgmt.md)              | Management System by Mint System. |
+| Erweiterung                               | Beschreibung                            |
+| ----------------------------------------- | --------------------------------------- |
+| [Management System](Mgmtsystem.md)        | Management System by OCA.               |
+| [Management](mgmt.md)                     | Management System by Mint System.       |
+| [Mgmtsystem Audit](Mgmtsystem%20Audit.md) | Audit-Module for the Management System. |
