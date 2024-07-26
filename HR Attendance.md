@@ -103,6 +103,10 @@ Es erscheint eine Verabschiedung mit Angabe der geleisteten Arbeitszeit.
 
 ![](attachments/Anwesenheiten%20Bestätigung%20Abmeldung.png)
 
+### Awesenheit manuell erfassen
+
+Wenn die manuelle Erfassung der Anwesenheit erlaubt ist, navigieren Sie nach *Anwesenheiten > Anweseheiten* und erstellen einen neuen Eintrag. Wählen Sie bei *Anmeldung* das Startdatum mit Uhrzeit und bei Abmeldung das Enddatum mit Uhrzeit. 
+
 ## Berechtigungen
 
 ### Manuelle Erfassung Anwesenheit erlauben

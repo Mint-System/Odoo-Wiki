@@ -1,11 +1,11 @@
 ---
-title: Bestellmenge ändern
+title: Bestellmenge Einkauf
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Bestellmenge ändern
+# Bestellmenge Einkauf
 
 ## Allgemein
 

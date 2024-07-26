@@ -1,11 +1,11 @@
 ---
-title: Lager konfigurieren
+title: Konfiguration Lager
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Lager konfigurieren
+# Konfiguration Lager
 
 In den Grundeinstellungen ist ein Lager mit dem Namen *San Francisco*, dem Kurznamen *WH* und der Adresse der Firma angelegt.
 

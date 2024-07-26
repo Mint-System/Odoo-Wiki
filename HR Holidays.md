@@ -15,10 +15,11 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 
 ## Bereiche
 
-| Bereich                                                         | Beschreibung                                      |
-| --------------------------------------------------------------- | ------------------------------------------------- |
-| [Abwesenheit Aktionen](HR%20Holidays%20Actions.md)               | Aktionen für Abwesenheit App einrichten.          |
+| Bereich                                                             | Beschreibung                                      |
+| ------------------------------------------------------------------- | ------------------------------------------------- |
+| [Abwesenheit Aktionen](HR%20Holidays%20Actions.md)                  | Aktionen für Abwesenheit App einrichten.          |
 | [Abwesenheit Datenmanagement](HR%20Holidays%20Data%20Management.md) | Daten zu Abwesenheit exportieren und importieren. |
+| [Abwesenheit Dokumentation](HR%20Holidays%20Documentation.md)       | Mehr zur Funktionsweise der App Abwesenheit.      | 
 
 ## Erweiterungen
 
@@ -56,11 +57,12 @@ Die verfügbaren Überstunden werden nur angezeigt, wenn der Wert positiv ist.
 Jede Abwesenheit und Urlaubsanspruch wird einem Abwesenheitsart zugeordnet. Damit Sie jährliche Feriensaldis korrekt erfassen, müssen Sie für jedes Jahr einen Abwesenheitsart erfassen. Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitsarten* und duplizieren Sie einen bestehenden Typ. Legen Sie diese Werte fest:
 
 * **Name**: Anzeigenamen des Abwesenheitsart.
-* **Abwesenheitsanträge Genehmigung**: Bestimmen Sie ob die Abwesenheitseinträge genehmigt werden muss.
+* **Abwesenheitsanträge / Genehmigung**: Bestimmen Sie ob die Abwesenheitseinträge genehmigt werden muss.
 * **Einheit der Abwesenheit**: Wählen Sie hier Stunden, Halbtage oder Tage als Einheit.
 * **Zusätzliche Stunden abziehen**: Wenn die Abwesenheit nicht als Arbeitszeit gerechnet werden soll, aktivieren Sie diese Option.
-* **Erfordert Zuweisung**: Bestimmen Sie ob der Urlaubsanspruch genehmigt werden muss.
-* **Urlaubsanspruch Genehmigung**: Bestimmen Sie wie der Urlaubsanspruch genehmigt wird.
+* **Abwesenheitsart**: Legen Sie fest, ob die Zeit der Abwesenheit als gearbeitete Zeit oder Abwesend gilt.
+* **Anträge auf Urlaubsanspruch / Erfordert Anspruch**: Bestimmen Sie ob der Urlaubsanspruch genehmigt werden muss.
+* **Anträge auf Urlaubsanspruch / Genehmigung**: Bestimmen Sie wie der Urlaubsanspruch genehmigt wird.
 
 ### Abwesenheitsart konfigurieren
 
@@ -130,7 +132,7 @@ Wenn Sie einen genehmigten Urlaubsanspruch anpassen wollen, wählen Sie diesen a
 Damit die Aktion *Zurücksetzen* ausgewählt werden kann, muss Ihr Odoo-Benutzer die Rolle *Abwesenheitszeiten: Administrator* haben.
 :::
 
-### Abwesenheit melden
+### Abwesenheit erstellen
 
 Öffnen Sie die App *Abwesenheitszeiten* und wählen Sie *Neuer Abwesenheitsantrag*. Geben Sie den Typ und die Dauer ein.
 

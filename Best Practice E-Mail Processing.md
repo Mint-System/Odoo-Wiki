@@ -1,11 +1,11 @@
 ---
-title: E-Mails verarbeiten
+title: E-Mail Verarbeitung
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# E-Mails verarbeiten
+# E-Mail Verarbeitung
 
 ## Allgemein
 

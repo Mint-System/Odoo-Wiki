@@ -13,28 +13,6 @@ prev: ./
 
 Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best Practices verweisen zur Implementation auf die HowTos.
 
-### Abwesenheit
-
-* [Definition Abwesenheitsarten](Best%20Practice%20Definition%20HR%20Holidays%20Types.md)
-* [Setup Abwesenheit](Best%20Practice%20Setup%20Attendance.md)
-* [Arbeitszeiten und Urlaubsansprüche](Best%20Practice%20Working%20Times%20and%20Holiday%20Allocations.md)
-* [Ferien- und Überstundensaldo](Best%20Practice%20Holiday%20and%20Vacation%20Balance.md)
-
-### Fertigung
-
-* [Fertigungsplanung](Best%20Practice%20Production%20Planning.md)
-* [Fertigungsauftrag](Best%20Practice%20Manufacturing%20Order.md)
-* [Verkaufsgruppen und Baugruppen](Best%20Practice%20Sale%20and%20Assembly%20Groups.md)
-* [Materialbezug in Vorgängen](Best%20Practice%20Material%20Consumption%20in%20Operations.md)
-* [Material-Reservierung](Best%20Practice%20Material%20Reservations.md)
-* [Make To Order](Best%20Practice%20Make%20To%20Order.md)
-* [Fertigung mit Subunternehmer](Best%20Practice%20Manufacturing%20with%20Subcontractor.md)
-
-### Projekte
-
-* [Projekte](Best%20Practice%20Projects.md)
-* [Aufgabenphasen](Best%20Practice%20Task%20Types.md)
-
 ### Abrechnung
 
 * [Verschiedene Währungen](Best%20Practice%20Multiple%20Currencies.md)
@@ -43,9 +21,12 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [SEPA Zahlung](Best%20Pratice%20SEPA%20Payment.md)
 * [Anzahlungen](Best%20Practice%20Downpayments.md)
 
-### Kundendienst
+### Abwesenheit
 
-* [Tickets verwalten](Best%20Practice%20Ticket%20Management.md)
+* [Definition Abwesenheitsarten](Best%20Practice%20Definition%20HR%20Holidays%20Types.md)
+* [Setup Abwesenheit](Best%20Practice%20Setup%20Attendance.md)
+* [Arbeitszeiten und Urlaubsansprüche](Best%20Practice%20Working%20Times%20and%20Holiday%20Allocations.md)
+* [Ferien- und Überstundensaldo](Best%20Practice%20Holiday%20and%20Vacation%20Balance.md)
 
 ### Buchhaltung
 
@@ -60,47 +41,12 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [OCA Finanzbuchhaltung](Best%20Practice%20OCA%20Finanzbuchhaltung.md)
 * [Eröffnung Buchhaltung](Best%20Practice%20Open%20Accounting.md)
 
-### Personalabrechung
-
-* [Lohnrekapitulation](Best%20Practice%20Salary%20Recap.md)
-* [Stundenlohn abrechnen](Best%20Practice%20Settle%20Hourly%20Wages.md)
-* [Rückvergütung Spesen](Best%20Practice%20Expense%20Compensation.md)
-
-### Kaufverträge
-
-* [Zustände von Einkaufs- und Verkaufsaufträgen](Best%20Practice%20States%20of%20Purchase%20and%20Sales%20Orders.md)
-
-### Verkauf
-
-* [Kit Bereitstellung](Best%20Practice%20Kit%20Provision.md)
-* [Auftragszeilen auswerten](Best%20Practice%20Analyse%20Sale%20Order%20Lines.md)
-* [Abonnements](Best%20Practice%20Subscriptions.md)
-* [Dienstleistungen mit Nachtzuschlag](Best%20Practice%20Services%20with%20Night%20Surcharge.md)
-* [Verrechnung Spesen](Best%20Practice%20Charge%20Expenses.md)
-
 ### Einkauf
 
 * [Änderung der Route während dem Einkaufsprozess](Best%20Practice%20Changing%20the%20Route%20During%20Purchasing%20Process.md)
-* [Einkauf Bestellmenge ändern](Best%20Practice%20Change%20Purchase%20Quantity.md)
-* [Stückpreis definieren](Best%20Practice%20Define%20Unit%20Price.md)
+* [Bestellmenge Einkauf](Best%20Practice%20Purchase%20Quantity.md)
+* [Definition Stückpreis](Best%20Practice%20Define%20Unit%20Price.md)
 * [Purchase To Order](Best%20Practice%20Purchase%20To%20Order.md)
-
-### Lager
-
-* [Replenishment](Best%20Practice%20Replenishment.md)
-* [Warenbedarf](Best%20Practice%20Material%20demand.md)
-* [Liefertermin verschieben](Best%20Practice%20Postpone%20Delivery%20Date.md)
-* [Berücksichtigung Lead-Time](Best%20Practice%20Consideration%20Lead%20Time.md)
-* [Mengeneinheiten](Best%20Practice%20Units%20of%20Quantity.md)
-* [Lager konfigurieren](Best%20Practice%20Stock%20Configuration.md)
-* [Verpackungen](Best%20Practice%20Packaging.md)
-* [Scheduler](Best%20Practice%20Scheduler.md)
-* [Lager Vorgangstypen](Best%20Practice%20Stock%20Operation%20Types.md)
-
-### Kontakte
-
-* [Verwaltung Kontakte](Best%20Practice%20Contacts%20Management.md)
-* [Incoterms](Best%20Practice%20Incoterms.md)
 
 ### Einstellungen
 
@@ -114,13 +60,67 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 ### Einstellungen E-Mail
 
-* [E-Mails verarbeiten](Best%20Practice%20E-Mail%20Processing.md)
+* [E-Mail Verarbeitung](Best%20Practice%20E-Mail%20Processing.md)
 * [E-Mail Vorlagen](Best%20Practice%20E-Mail%20Templates.md)
 * [Kommunikation mit Odoo](Best%20Practice%20Communication%20with%20Odoo.md)
 
 ### Entwicklung
 
 * [Odoo übersetzen](Best%20Practice%20Odoo%20Translation.md)
+
+### Fertigung
+
+* [Fertigungsplanung](Best%20Practice%20Production%20Planning.md)
+* [Fertigungsauftrag](Best%20Practice%20Manufacturing%20Order.md)
+* [Verkaufsgruppen und Baugruppen](Best%20Practice%20Sale%20and%20Assembly%20Groups.md)
+* [Materialbezug in Vorgängen](Best%20Practice%20Material%20Consumption%20in%20Operations.md)
+* [Material-Reservierung](Best%20Practice%20Material%20Reservations.md)
+* [Make To Order](Best%20Practice%20Make%20To%20Order.md)
+* [Fertigung mit Subunternehmer](Best%20Practice%20Manufacturing%20with%20Subcontractor.md)
+
+### Kaufverträge
+
+* [Zustände von Einkaufs- und Verkaufsaufträgen](Best%20Practice%20States%20of%20Purchase%20and%20Sales%20Orders.md)
+
+### Kontakte
+
+* [Verwaltung Kontakte](Best%20Practice%20Contacts%20Management.md)
+* [Incoterms](Best%20Practice%20Incoterms.md)
+
+### Kundendienst
+
+* [Ticket Verrwaltung](Best%20Practice%20Ticket%20Management.md)
+
+### Lager
+
+* [Replenishment](Best%20Practice%20Replenishment.md)
+* [Warenbedarf](Best%20Practice%20Material%20demand.md)
+* [Verschiebung Liefertermin](Best%20Practice%20Postpone%20Delivery%20Date.md)
+* [Berücksichtigung Lead-Time](Best%20Practice%20Consideration%20Lead%20Time.md)
+* [Mengeneinheiten](Best%20Practice%20Units%20of%20Quantity.md)
+* [Konfiguration Lager](Best%20Practice%20Stock%20Configuration.md)
+* [Verpackungen](Best%20Practice%20Packaging.md)
+* [Scheduler](Best%20Practice%20Scheduler.md)
+* [Lager Vorgangstypen](Best%20Practice%20Stock%20Operation%20Types.md)
+
+### Projekte
+
+* [Projekte](Best%20Practice%20Projects.md)
+* [Aufgabenphasen](Best%20Practice%20Task%20Types.md)
+
+### Personalabrechung
+
+* [Lohnrekapitulation](Best%20Practice%20Salary%20Recap.md)
+* [Abrechnung Stundenlohn](Best%20Practice%20Settle%20Hourly%20Wages.md)
+* [Rückvergütung Spesen](Best%20Practice%20Expense%20Compensation.md)
+
+### Verkauf
+
+* [Kit Bereitstellung](Best%20Practice%20Kit%20Provision.md)
+* [Auswertung Auftragszeilen](Best%20Practice%20Analyse%20Sale%20Order%20Lines.md)
+* [Abonnements](Best%20Practice%20Subscriptions.md)
+* [Dienstleistungen mit Nachtzuschlag](Best%20Practice%20Services%20with%20Night%20Surcharge.md)
+* [Verrechnung Spesen](Best%20Practice%20Charge%20Expenses.md)
 
 ## Use Cases
 

@@ -1,11 +1,11 @@
 ---
-title: Liefertermin verschieben
+title: Verschiebung Liefertermin
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Liefertermin verschieben
+# Verschiebung Liefertermin
 
 ## Beispiel (Liefertermin A)
 
