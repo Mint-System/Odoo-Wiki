@@ -23,6 +23,3 @@ Es wird angenommen, dass ein Mitarbeitende mit einem 80% Pensum 7h Stunden arbei
 [Abwesenheitsart erfassen](HR%20Holidays.md#Abwesenheitsart%20erfassen): Die Abwesenheitsart Arztbesuch muss vom Typ *Gearbeitete Zeit* sein.
 
 [Abwesenheit erstellen](HR%20Holidays.md#Abwesenheit%20erstellen): Der 1h Arztbesuch wird als Abwesenheit mit Stunden, beispielsweise von 16:00 bis 17:00, erfasst. 
-
-
-
