@@ -19,7 +19,6 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 | ------------------------------------------------------------------- | ------------------------------------------------- |
 | [Abwesenheit Aktionen](HR%20Holidays%20Actions.md)                  | Aktionen für Abwesenheit App einrichten.          |
 | [Abwesenheit Datenmanagement](HR%20Holidays%20Data%20Management.md) | Daten zu Abwesenheit exportieren und importieren. |
-| [Abwesenheit Dokumentation](HR%20Holidays%20Documentation.md)       | Mehr zur Funktionsweise der App Abwesenheit.      | 
 
 ## Erweiterungen
 
