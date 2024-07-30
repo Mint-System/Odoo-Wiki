@@ -12,7 +12,7 @@ prev: ./dialog
 {{ $frontmatter.description }}
  
 Technischer Name: `mail_composer_default_template`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_composer_default_template>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/15.0/mail_composer_default_template>
 
 ## Verwendung
 

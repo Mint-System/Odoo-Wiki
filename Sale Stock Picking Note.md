@@ -12,7 +12,7 @@ prev: ./sale
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_stock_picking_note`\
-Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_stock_picking_note>
+Repository: <https://github.com/OCA/sale-workflow/tree/17.0/sale_stock_picking_note>
 
 ## Verwendung
 

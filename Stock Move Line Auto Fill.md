@@ -12,7 +12,7 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_move_line_auto_fill`\
-Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/stock_move_line_auto_fill>
+Repository: <https://github.com/OCA/stock-logistics-workflow/tree/16.0/stock_move_line_auto_fill>
 
 ## Verwendung
 

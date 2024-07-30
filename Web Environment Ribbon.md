@@ -12,7 +12,7 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `web_environment_ribbon`\
-Repository: <https://github.com/OCA/web/tree/14.0/web_environment_ribbon>
+Repository: <https://github.com/OCA/web/tree/17.0/web_environment_ribbon>
 
 ## Verwendung
 

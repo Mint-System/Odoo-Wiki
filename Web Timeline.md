@@ -12,7 +12,7 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `web_timeline`\
-Repository: <https://github.com/OCA/web/tree/13.0/web_timeline>
+Repository: <https://github.com/OCA/web/tree/16.0/web_timeline>
 
 ## Verwendung
 

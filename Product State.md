@@ -12,7 +12,7 @@ prev: ./manufacture
 {{ $frontmatter.description }}
 
 Technischer Name: `product_state`\
-Repository: <https://github.com/OCA/product-attribute/tree/15.0/product_state>
+Repository: <https://github.com/OCA/product-attribute/tree/17.0/product_state>
 
 ## Verwendung
 

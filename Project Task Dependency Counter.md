@@ -12,7 +12,7 @@ prev: ./project
 {{ $frontmatter.description }}
 
 Technischer Name: `project_task_dependency_counter`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/13.0/project_task_dependency_counter>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/15.0/project_task_dependency_counter>
 
 ## Verwendung
 

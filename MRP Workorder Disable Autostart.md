@@ -12,7 +12,7 @@ prev: ./manufacture
 {{ $frontmatter.description }}
 
 Technischer Name: `mrp_workorder_disable_autostart`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_workorder_disable_autostart>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/16.0/mrp_workorder_disable_autostart>
 
 ## Verwendung
 

@@ -12,7 +12,7 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_move_reconciled_date`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_move_reconciled_date>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/account_move_reconciled_date>
 
 ## Verwendung
 

@@ -12,7 +12,7 @@ prev: ./contract
 {{ $frontmatter.description }}
 
 Technischer Name: `contract_sale_generation`\
-Repository: <https://github.com/OCA/contract/tree/14.0/contract_sale_generation>
+Repository: <https://github.com/OCA/contract/tree/16.0/contract_sale_generation>
 
 ## Verwendung
 

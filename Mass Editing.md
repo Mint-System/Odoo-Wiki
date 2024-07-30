@@ -12,7 +12,7 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `mass_editing`\
-Repository: <https://github.com/OCA/server-ux/tree/14.0/mass_editing>
+Repository: <https://github.com/OCA/server-ux/tree/15.0/mass_editing>
 
 ## Verwendung
 

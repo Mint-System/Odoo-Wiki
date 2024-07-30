@@ -12,4 +12,4 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `date_range`\
-Repository: <https://github.com/OCA/server-ux/tree/16.0/date_range>
+Repository: <https://github.com/OCA/server-ux/tree/17.0/date_range>

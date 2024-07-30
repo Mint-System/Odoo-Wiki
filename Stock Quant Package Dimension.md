@@ -12,7 +12,7 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_quant_package_dimension`\
-Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/stock_quant_package_dimension>
+Repository: <https://github.com/OCA/stock-logistics-workflow/tree/16.0/stock_quant_package_dimension>
 
 ## Verwendung
 

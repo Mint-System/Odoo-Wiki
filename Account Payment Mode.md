@@ -12,7 +12,7 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_payment_mode`\
-Repository: <https://github.com/OCA/bank-payment/tree/16.0/account_payment_mode>
+Repository: <https://github.com/OCA/bank-payment/tree/17.0/account_payment_mode>
 
 ## Beschreibung
 

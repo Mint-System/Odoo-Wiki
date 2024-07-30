@@ -12,7 +12,7 @@ prev: ./manufacture
 {{ $frontmatter.description }}
 
 Technischer Name: `product_feeder_id`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/14.0/product_feeder_id>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/16.0/product_feeder_id>
 
 ## Verwendung
 

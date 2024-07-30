@@ -12,7 +12,7 @@ prev: ./settings
 {{ $frontmatter.description }}
 
 Technischer Name: `auth_totp_ip_check`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/auth_totp_ip_check>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/17.0/auth_totp_ip_check>
 
 ## Verwendung
 

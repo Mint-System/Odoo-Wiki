@@ -12,4 +12,4 @@ prev: ./management-systems
 {{ $frontmatter.description }}
 
 Technischer Name: `mgmtsystem`\
-Repository: <https://github.com/OCA/management-system/tree/16.0/mgmtsystem>
+Repository: <https://github.com/OCA/management-system/tree/17.0/mgmtsystem>

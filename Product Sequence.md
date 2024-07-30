@@ -12,7 +12,7 @@ prev: ./manufacture
 {{ $frontmatter.description }}
 
 Technischer Name: `product_sequence`\
-Repository: <https://github.com/OCA/product-attribute/tree/13.0/product_sequence>
+Repository: <https://github.com/OCA/product-attribute/tree/17.0/product_sequence>
 
 ## Verwendung
 

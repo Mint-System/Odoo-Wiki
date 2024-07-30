@@ -12,4 +12,4 @@ prev: ./contacts
 {{ $frontmatter.description }}
 
 Technischer Name: `base_location`\
-Repository: <https://github.com/OCA/partner-contact/tree/16.0/base_location>
+Repository: <https://github.com/OCA/partner-contact/tree/17.0/base_location>

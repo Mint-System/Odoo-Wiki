@@ -11,7 +11,7 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_usability`\
-Repository: <https://github.com/OCA/account-financial-tools/tree/16.0/account_usability>
+Repository: <https://github.com/OCA/account-financial-tools/tree/17.0/account_usability>
 
 ## Beschreibung
 

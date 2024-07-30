@@ -12,7 +12,7 @@ prev: ./project
 {{ $frontmatter.description }}
 
 Technischer Name: `business_requirement`\
-Repository: <https://github.com/OCA/business-requirement/tree/14.0/business_requirement>
+Repository: <https://github.com/OCA/business-requirement/tree/16.0/business_requirement>
 
 ## Verwendung
 

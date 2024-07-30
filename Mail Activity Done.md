@@ -12,7 +12,7 @@ prev: ./dashboards
 {{ $frontmatter.description }}
 
 Technischer Name: `mail_activity_done`\
-Repository: <https://github.com/OCA/social/tree/14.0/mail_activity_done>
+Repository: <https://github.com/OCA/social/tree/17.0/mail_activity_done>
 
 ## Verwendung
 

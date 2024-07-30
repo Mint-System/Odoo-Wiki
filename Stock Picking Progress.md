@@ -12,4 +12,4 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_picking_progress`\
-Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/stock_picking_progress>
+Repository: <https://github.com/OCA/stock-logistics-workflow/tree/16.0/stock_picking_progress>

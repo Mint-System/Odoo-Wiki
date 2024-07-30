@@ -12,4 +12,4 @@ prev: ./project
 {{ $frontmatter.description }}
 
 Technischer Name: `project_task_material`\
-Repository: <https://github.com/OCA/project/tree/15.0/project_task_material>
+Repository: <https://github.com/OCA/project/tree/16.0/project_task_material>

@@ -12,7 +12,7 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `survey_question_type_nps`\
-Repository: <https://github.com/OCA/survey/tree/16.0/survey_question_type_nps>
+Repository: <https://github.com/OCA/survey/tree/14.0/survey_question_type_nps>
 
 ## Verwendung
 
