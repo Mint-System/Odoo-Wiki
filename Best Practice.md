@@ -30,7 +30,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 ### Anwesenheit
 
-[Kombination An- und Abwesenheit](Best%20Practice%20Kombination%20An-%20und%20Abwesenheit.md)
+* [Kombination An- und Abwesenheit](Best%20Practice%20Kombination%20An-%20und%20Abwesenheit.md)
 
 ### Buchhaltung
 

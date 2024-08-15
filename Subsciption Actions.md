@@ -101,7 +101,7 @@ stage1_subscriptions.write({'stage_id': stage1_id.id})
 # Search and move stage 2
 stage2_subscriptions = env["sale.order"].search([
    ('is_subscription', '=', True),
-   ('stage_id', '=', stage_running_id.id),
+   ('stage_id', 'in', [stage1_id.id, stage_running_id.id]),
    ('next_invoice_date', '<=', stage2_date),
    ('next_invoice_date', '>', today),
 ])
