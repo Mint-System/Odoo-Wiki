@@ -25,6 +25,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Account Followup Mail Layout](Account%20Followup%20Mail%20Layout.md)                       | Standard E-Mail-Vorlage für Mahnungserinnerungen verwenden.                                        |
 | [Account Followup Manual Reminder](Account%20Followup%20Manual%20Reminder.md)               | Standardwert für Mahnungserinnerungen auf Manuell setzen.                                          |
 | [Account Invoice Carrier](Account%20Invoice%20Carrier.md)                                   | Auslieferungsmethode auf Rechnung hinterlegen.                                                     |
+| [Account Invoice Change Currency](Account%20Invoice%20Change%20Currency.md)                 | Rechnungsbeträge und andere Währung umrechnen.                                                     |
 | [Account Invoice Comment](Account%20Invoice%20Comment.md)                                   | Kommentarfeld auf Rechnung.                                                                        |
 | [Account Invoice Detail](Account%20Invoice%20Detail.md)                                     | Verkaufskontakt auf Rechnung einblenden.                                                           |
 | [Account Invoice Move Date](Account%20Invoice%20Move%20Date.md)                             | Buchungs- und Rechnungsdatum unabhängig definieren.                                                |
