@@ -13,3 +13,13 @@ prev: ./accounting
 
 Technischer Name: `account_acountant_reconcile`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Reconcile/tree/16.0/account_acountant_reconcile>
+
+## Beschreibung
+
+Beim Import von Kontoauszügen versucht Odoo die Kontoauszugszeilen automatisch abzustimmen. Diese Erweiterung führt eine zusätzlicher definierten Abstimmung aus. Diese Abstimmung sucht die passende Rechnungszeilen anhand der Zahlungsreferenz und Betrags und gleicht diese bei einer eindeutigen Übereinstimmung ab. 
+
+## Verwendung
+
+### Automatische Abstimmung manuell ausführen
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und rufen Sie die Aktion *Versuchen Sie, Ihre Kontoauszugszeilen automatisch abzustimmen* auf. Führen Sie diese Aktion mit *Manuell Ausführen* aus.
