@@ -371,6 +371,12 @@ Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 
 Webshop ohne Integrationsaufwand.
 
+### [Werkstatt](Shoopfloor.md)
+
+![](attachments/icons_odoo_shopfloor.png)
+
+Die ganze Fertigung auf einen Blick.
+
 ### [Wissen](Knowledge.md)
 
 ![icons_odoo_knowledge](attachments/icons_odoo_knowledge.png)
