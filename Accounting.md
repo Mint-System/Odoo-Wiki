@@ -32,6 +32,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 
 | Erweiterung                                                                                                | Beschreibung                                                                |     |
 | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --- |
+| [Account Accountant Reconcile](Account%20Accountant%20Reconcile.md)                                        | Bank-Gutschriften anhand Referenz und Betrag abgleichen.                    |     |
 | [Account Financial Report Contra Accounts](Account%20Financial%20Report%20Contra%20Accounts.md)            | Gegenkontos für Hauptbuch OCA-Finanzbericht bereitstellen.                  |     |
 | [Account Financial Report Reverse Move Lines](Account%20Financial%20Report%20Reverse%20Move%20Lines.md)    | Ordnet die Buchungszeilen von neu zu alt.                                   |     |
 | [Account Financial Report Show Grouped None](Account%20Financial%20Report%20Show%20Grouped%20None.md)      | Alle Buchungszeilen bei Auswahl "nicht gruppiert" anzeigen.                 |     |
