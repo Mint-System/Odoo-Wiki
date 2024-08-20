@@ -372,6 +372,18 @@ Es gibt höchstwahrscheinlich ungültige Produktlieferungen für das genannte Pr
 
 Zeigen Sie die offenen Produktlieferungen des Produkts an, identifizieren und entfernen Sie die Lieferungen, welche den Lagertransfer blockieren.
 
+### Anlieferung mit Subunternehmer kann nicht abgeschlossen werden
+
+**Problem**
+
+```
+Sie müssen die Qualitätsprüfungen in der Tablet-Ansicht abschließen, bevor Sie den Arbeitsauftrag als erledigt markieren.
+```
+
+**Lösung**
+
+Erledigen Sei die Fertigungsaufträge des Subunternehmers vor der Anlieferung.
+
 ## Dashboard
 
 ### Fehler in Dashboard-Definition
