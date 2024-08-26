@@ -380,26 +380,6 @@ for invoice in records.invoice_ids:
 records._compute_invoice_status()
 ```
 
-### Verkäufter entfernen
-
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
-
-Name der Aktion: `Verkäufter entfernen`\
-Modell: `sale.order`\
-Auslöser: Bei Erstellung und Aktualisierung\
-Trigger-Felder: `x_as4import`\
-Abgrenzung vor Aktualisierung: `[("x_as4import", "!=", True)]`\
-Anzuwenden auf: `[("x_as4import", "=", True)]`\
-Python Code:
-
-```python
-records.action_confirm()
-records._compute_amounts()
-records._create_invoices()
-for invoice in records.invoice_ids:
-  invoice.action_post()
-```
-
 ### Standardwerte festlegen
 
 Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
@@ -410,7 +390,6 @@ Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Akt
 * **Folgeaktion**: Den Datensatz aktualisieren
 * **Zu schreibende Daten**:
 
-| Feld                | Bewertungstyp     | Wert    |
-| ------------------- | ----------------- | ------- |
-| `require_signature` | Python Expression | `False` |
-| `require_payment`   | Python Expression | `True`  |
+| Feld      | Bewertungstyp     | Wert    |
+| --------- | ----------------- | ------- |
+| `user_id` | Python Expression | `False` |

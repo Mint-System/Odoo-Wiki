@@ -153,7 +153,10 @@ for subscription in extend_subscriptions:
 	res = subscription.prepare_renewal_order()
 	res_id = res["res_id"]
 	renewal_so = env["sale.order"].browse(res_id)
-	renewal_so.with_context(force_send=True).message_post_with_template(
+	renewal_so.write({
+	  "validity_date": subscription.next_invoice_date
+	})
+	renewal_so.with_context(force_send=True, mark_so_as_sent=True).message_post_with_template(
     template.id,
     composition_mode="comment",
     email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
