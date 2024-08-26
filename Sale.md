@@ -75,6 +75,16 @@ Unterschiedliche Steuern der einzelnen Line-Items werden im Formular und im Beri
 
 ![](attachments/Verkauf%20Steuer-Gruppen.png)
 
+## Konfiguration
+
+### Angebote mit Online-Unterschrift bestätigen lassen
+
+Wenn Sie ihre Angebote von Kunden mit einer Online-Unterschrift bestätigen lassen wollen, aktivieren Sie die Option *Einstellungen > Verkauf > Angebot & Auftrage > Online-Unterschrift*.
+
+### Angebote mit Online-Zahlung bestätigen lassen
+
+Wenn Sie ihre Angebote von Kunden mit einer Online-Zahlung bestätigen lassen wollen, aktivieren Sie die Option *Einstellungen > Verkauf > Angebot & Auftrage > Online-Zahlung*.
+
 ## Aufträge
 
 ### Verkauf Dashboard anzeigen

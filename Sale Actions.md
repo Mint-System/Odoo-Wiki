@@ -399,3 +399,18 @@ records._create_invoices()
 for invoice in records.invoice_ids:
   invoice.action_post()
 ```
+
+### Standardwerte festlegen
+
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+
+* **Name der Aktion**: `Standardwerte festlegen`
+* **Modell**: `sale.order`
+* **Auslöser**: Bei Erstellung
+* **Folgeaktion**: Den Datensatz aktualisieren
+* **Zu schreibende Daten**:
+
+| Feld                | Bewertungstyp     | Wert    |
+| ------------------- | ----------------- | ------- |
+| `require_signature` | Python Expression | `False` |
+| `require_payment`   | Python Expression | `True`  |
