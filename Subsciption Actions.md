@@ -111,7 +111,12 @@ stage2_subscriptions.write({"stage_id": stage2_id.id})
 
 ### Abonnemente vor Abrechnung verlängern
 
-Diese geplante Aktion prüft das nächste Abrechnungsdatum der Abonnemente, erstellt ein Angebot zur Verlängerung und sendet dieses an den Kunden. 
+Diese geplante Aktion prüft das nächste Abrechnungsdatum der Abonnemente, erstellt ein Angebot zur Verlängerung und sendet dieses an den Kunden. Die folgenden Kriterien müssten für eine automatische Verlängerung stimmen:
+
+* Der Verkaufsaufrag ist ein Abonnement
+* Das Abonnement ist in der Stufe *Laufend*
+* Der Verkaufsauftrag ist im Status *Verkaufsauftrag*
+* Das nächste Abrechnungsdatum liegt vor dem heutigen Datum in 6 Wochen
 
 Definieren Sie für die ausgewählte Mail-Vorlage *Verkauf: Abonnement verlängern* mit einer externen ID `__custom__.mail_template_extend_subscription`.
 
@@ -134,6 +139,8 @@ mail_template = "__custom__.mail_template_extend_subscription"
 # Get references
 template = env.ref(mail_template)
 stage_running_id = env.ref("sale_subscription.sale_subscription_stage_in_progress")
+stage_closed_id = env.ref("sale_subscription.sale_subscription_stage_closed")
+# close_reason_id = env.ref("sale_subscription.close_reason_renew")
 
 # Get extend date
 today = datetime.datetime.today()
@@ -143,6 +150,7 @@ extend_date = today + datetime.timedelta(weeks=weeks_before_invoice_date)
 extend_subscriptions = env["sale.order"].search([
   ("is_subscription", "=", True),
   ("stage_id", "=", stage_running_id.id),
+  ("state", "=", "sale"),
   ("next_invoice_date", "<=", extend_date),
 ])
 
@@ -150,15 +158,19 @@ extend_subscriptions = env["sale.order"].search([
 
 # Create and send renewal order
 for subscription in extend_subscriptions:
-	res = subscription.prepare_renewal_order()
-	res_id = res["res_id"]
-	renewal_so = env["sale.order"].browse(res_id)
-	renewal_so.write({
-	  "validity_date": subscription.next_invoice_date
-	})
-	renewal_so.with_context(force_send=True, mark_so_as_sent=True).message_post_with_template(
+  res = subscription.prepare_renewal_order()
+  res_id = res["res_id"]
+  renewal_so = env["sale.order"].browse(res_id)
+  renewal_so.write({
+    "validity_date": subscription.next_invoice_date
+  })
+  renewal_so.with_context(mark_so_as_sent=True, force_send=True).message_post_with_template(
     template.id,
     composition_mode="comment",
     email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
   )
+  subscription.write({
+    "stage_id": stage_closed_id.id
+  })
+  # subscription.set_close()
 ```
