@@ -118,8 +118,6 @@ Diese geplante Aktion prüft das nächste Abrechnungsdatum der Abonnemente, erst
 * Der Verkaufsauftrag ist im Status *Verkaufsauftrag*
 * Das nächste Abrechnungsdatum liegt vor dem heutigen Datum in 6 Wochen
 
-Definieren Sie für die ausgewählte Mail-Vorlage *Verkauf: Abonnement verlängern* mit einer externen ID `__custom__.mail_template_extend_subscription`.
-
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Abonnemente vor Abrechnung verlängern`\
@@ -134,7 +132,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 ```python
 # Settings
 weeks_before_invoice_date = 6
-mail_template = "__custom__.mail_template_extend_subscription"
+mail_template = "license_website_sale.mail_template_extend_subscription"
 
 # Get references
 template = env.ref(mail_template)
@@ -172,5 +170,4 @@ for subscription in extend_subscriptions:
   subscription.write({
     "stage_id": stage_closed_id.id
   })
-  # subscription.set_close()
 ```
