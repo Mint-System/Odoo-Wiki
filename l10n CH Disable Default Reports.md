@@ -20,7 +20,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.
 
 Gilt ab #Odoo16 .
 
-Zeigen Sie eine Kundenrechnung unter *Buchhaltung > Kunden > Rechnungen* an. Aktivieren Sie die Option *Enable Swiss QR-bill*.
+Zeigen Sie eine Kundenrechnung unter *Buchhaltung > Kunden > Rechnungen* an. Aktivieren Sie die Option *Schweizer QR-Rechnung aktivieren*.
 
 ### Rechnung ohne Standardberichte versenden
 
