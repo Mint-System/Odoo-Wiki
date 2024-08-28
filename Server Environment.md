@@ -18,4 +18,4 @@ Repository: <https://github.com/OCA/server-env/tree/17.0/server_environment>
 
 ### Server-Konfiguration anzeigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Parameter > Server Environment*. Hier finden Sie die Konfigurationen, die Odoo aus der Server-Umgebung lädt.
+Navigieren Sie nach *Einstellungen > Technisch > Parameter > Server-Umgebung*. Hier finden Sie die Konfigurationen, die Odoo aus der Server-Umgebung lädt.
