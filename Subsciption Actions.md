@@ -132,13 +132,12 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 ```python
 # Settings
 weeks_before_invoice_date = 6
-mail_template = "license_website_sale.mail_template_extend_subscription"
+mail_template = "license_ocad.mail_template_extend_subscription"
 
 # Get references
 template = env.ref(mail_template)
 stage_running_id = env.ref("sale_subscription.sale_subscription_stage_in_progress")
 stage_closed_id = env.ref("sale_subscription.sale_subscription_stage_closed")
-# close_reason_id = env.ref("sale_subscription.close_reason_renew")
 
 # Get extend date
 today = datetime.datetime.today()
@@ -159,15 +158,10 @@ for subscription in extend_subscriptions:
   res = subscription.prepare_renewal_order()
   res_id = res["res_id"]
   renewal_so = env["sale.order"].browse(res_id)
-  renewal_so.write({
-    "validity_date": subscription.next_invoice_date
-  })
   renewal_so.with_context(mark_so_as_sent=True, force_send=True).message_post_with_template(
     template.id,
     composition_mode="comment",
     email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
   )
-  subscription.write({
-    "stage_id": stage_closed_id.id
-  })
+  subscription.set_close()
 ```
