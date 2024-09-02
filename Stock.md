@@ -57,6 +57,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Picking Progress](Stock%20Picking%20Progress.md)                                       | Fortschrittsanzeige für Transfer.                                                                           |
 | [Stock Picking Responsible](Stock%20Picking%20Responsible.md)                                 | Verantwortliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.                                 |
 | [Stock Picking Start](Stock%20Picking%20Start.md)                                             | Transfer als gestartet markieren.                                                                           |
+| [Stock Picking Valued](Stock%20Picking%20Valued.md)                                           | Preise, Steuern und Preisliste auf Lieferung.                                                               |
 | [Stock Product Last Move](Stock%20Product%20Last%20Move.md)                                   | Letztes Datum zu ein- und ausgehender Lagerbewegung anzeigen.                                               |
 | [Stock Production Lot Active](Stock%20Production%20Lot%20Active.md)                           | Erlaubt die Archivierung von Los/Chargen.                                                                   |
 | [Stock Production Lot Date](Stock%20Production%20Lot%20Date.md)                               | Datum auf Losnummer festlegen und Ablaufdatum relativ setzen.                                               |
