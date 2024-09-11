@@ -11,8 +11,18 @@ prev: ./base
 
 {{ $frontmatter.description }}
 
-	Technischer Name: `module_auto_update`\
+Technischer Name: `module_auto_update`\
 Repository: <https://github.com/OCA/server-tools/tree/17.0/module_auto_update>
+
+## Beschreibung
+
+Diese Erweiterung erstellt zu jedem installierten Odoo-Modul einen Hash vom Modul-Code und speichert diesen in der Datenbank. Wenn die "Auto-Upgrade Modules"-Aktion ausgeführt wird, erstellt Odoo wieder einen Hash und vergleich diesen mit der Datenbank. Wenn der Hash abweicht wird das Modul aktualisiert.
+
+Es gibt verschiedene Szenarien wo die Auto-Upgrade Modules"-Aktion nicht funktioniert:
+
+* Ein Modul wird in der Code-Base gelöscht, aber auf den Deployment-Umgebungen nicht deinstalliert.
+* Ein Feld wird umbenannt und hat in den Deployment-Umgebungen bereits Daten.  
+* Es werden Abhängigkeiten zu Modulen gemacht, die auf den Deployment-Umgebungen nicht installiert sind.
 
 ## Verwendung
 
