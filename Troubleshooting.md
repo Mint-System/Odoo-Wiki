@@ -59,6 +59,20 @@ Im Zahlungsvorgang von Rechnungen wurde eine Zahlungsmethode gelöscht.
 
 Aktualisieren Sie die App *Rechnungsstellung* (`account`).
 
+## Buchhaltung
+
+### Zahlungsanbieter können nicht aufgerufen werden
+
+**Problem**
+
+Beim Versucht einen Zahlungsanbieter anzuzeigen erscheint dieser Fehler:
+
+> Einige Zahlungsmethoden, die einzigartig sein sollen, gibt es bereits an anderer Stelle.
+
+**Lösung**
+
+In der Liste der Zahlungsmethoden sind Duplikate vorhanden. Bereinigen Sie die Liste der Zahlungsmethoden.
+
 ## Einstellungen
 
 ### Fehlermeldung - Something went wrong

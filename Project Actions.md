@@ -10,6 +10,23 @@ prev: ./project
 
 {{ $frontmatter.description }}
 
+### Projekt-Mail-Alias aktualisieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Projekt-Mail-Adressen aktualisieren`\
+Modell: `project.project`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+
+```python
+for record in records:
+	record["alias_name"] = "project+" + record.key
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
 ## Geplante Aktionen
 
 ### Schnellzugriff für Projekte generieren

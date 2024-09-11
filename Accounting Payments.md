@@ -199,7 +199,7 @@ Damit Sie eine Übersicht der Zahlungsmethoden erhalten, folgen Sie dem HowTo [N
 Name der Aktion: `Zahlungsmethoden`\
 Objekt: `account.payment.method`\
 Ansichtsmodus: `tree,form`\
-Menü: `Auftragszeilen`\
+Menü: `Zahlungsmethoden`\
 Obermenü: `Buchhaltung/Konfiguration/Buchhaltung`\
 Aktion: `ir.actions.act_window` `Zahlungsmethoden`\
 Nummernfolge: `10`
