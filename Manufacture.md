@@ -48,7 +48,7 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 
 ### Vergabe an Subunternehmer aktivieren
 
-Naivigieren Sie nach *Einstellungen > Fertigung > Vorgänge* und aktivieren Sie die Option *An Subunternehmer vergeben*.
+Navigieren Sie nach *Einstellungen > Fertigung > Vorgänge* und aktivieren Sie die Option *An Subunternehmer vergeben*.
 
 ## Aufträge
 
