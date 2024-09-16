@@ -34,6 +34,7 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 | [HR Holidays Public](HR%20Holidays%20Public.md)                                           | Erstellen Sie einen Feiertagskalender, der in der Abwesenheiten berücksichtigt wird. |
 | [HR Holidays Remaining Leaves](HR%20Holidays%20Remaining%20Leaves.md)                     | Verbleibende Urlaubsansprüche der Mitarbeitenden anzeigen.                           |
 | [HR Holidays Type Note](HR%20Holidays%20Type%20Note.md)                                   | Hinweis zur Abwesenheitsart auf Abwesenheit anzeigen.                                |
+| [HR Holidays Working Time](HR%20Holidays%20Working%20Time.md)                             | Aus Abwesenheiten Anwesenheiten erstellen.                                           |
 | [HR Leave Custom Hour Interval](HR%20Leave%20Custom%20Hour%20Interval.md)                 | Start- und End-Zeit für Abwesenheiten eintragen.                                     |
 | [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden.   |
 
