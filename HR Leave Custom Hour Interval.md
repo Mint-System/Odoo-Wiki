@@ -1,12 +1,12 @@
 ---
-title: Custom Hour Interval for Holidays
+title: HR Leave Custom Hour Interval
 description: Start- und End-Zeit für Abwesenheiten eintragen.
 tags:
 - HowTo
 - OCA
 prev: ./hr-holidays
 ---
-# Custom Hour Interval for Holidays
+# HR Leave Custom Hour Interval
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
