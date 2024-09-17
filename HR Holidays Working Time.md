@@ -31,7 +31,7 @@ Navigieren Sie nach *Anwesenheiten > Konfiguration > Abwesenheitsarten* und öff
 
 ### Anwesenheiten von Abwesenheit anzeigen
 
-Zeigen Sie eine bestätige Abwesenheit an, die eine Abwesenheitart mit Option *Erstelle als Anwesenheit* hat. Klicken Sie auf *Ansicht Anwesenheiten*.
+Zeigen Sie eine bestätige Abwesenheit an, die eine Abwesenheitsart mit Option *Erstelle als Anwesenheit* hat. Klicken Sie auf *Ansicht Anwesenheiten*.
 
 ### Anwesenheiten ohne Abwesenheit anzeigen
 
