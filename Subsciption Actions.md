@@ -132,7 +132,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 ```python
 # Settings
 weeks_before_invoice_date = 6
-mail_template = "license_ocad.mail_template_extend_subscription"
+mail_template = "license_ocad_mail.mail_template_extend_subscription"
 
 # Get references
 template = env.ref(mail_template)
