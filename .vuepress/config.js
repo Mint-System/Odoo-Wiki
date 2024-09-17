@@ -1,9 +1,10 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
-import { defineUserConfig } from 'vuepress'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { plausiblePlugin } from './plausible'
+import { mermaidPlugin } from './mermaid'
 import sidebar from './sidebar'
+import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
     bundler: viteBundler(),
@@ -42,6 +43,7 @@ export default defineUserConfig({
         }),
         plausiblePlugin({
             'domain': 'odoo-wiki.org'
-        })
+        }),
+        mermaidPlugin()
     ],
 })
