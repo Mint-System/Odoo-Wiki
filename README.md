@@ -429,6 +429,12 @@ Odoo für die Holzwirtschaft.
 
 Stelleninserate verwalten.
 
+### [Legal Advice Base](Legal%20Advice%20Base.md)
+
+![](attachments/icons_odoo_legal_advice_base.png)
+
+Rechtsberatungen mit Kunden und Experten abwickeln.
+
 ### [Lizenz](License.md)
 
 ![](attachments/odoo_icons_license.png)
