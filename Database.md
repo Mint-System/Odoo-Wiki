@@ -10,6 +10,12 @@ prev: ./
 
 {{ $frontmatter.description }}
 
+## Bereiche
+
+| Bereich                                     | Beschreibung                        |
+| ------------------------------------------- | ----------------------------------- |
+| [Datenbank Aktionen](Database%20Actions.md) | Aktion für die Datenbank ausführen. |
+
 ## Erweiterungen
 
 | Erweiterung                                                                               | Beschreibung                                            |
