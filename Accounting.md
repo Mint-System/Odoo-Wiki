@@ -30,40 +30,41 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 
 ## Erweiterungen
 
-| Erweiterung                                                                                                | Beschreibung                                                                |     |
-| ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --- |
-| [Account Accountant Reconcile](Account%20Accountant%20Reconcile.md)                                        | Bank-Gutschriften anhand Referenz und Betrag abgleichen.                    |     |
-| [Account Financial Report Contra Accounts](Account%20Financial%20Report%20Contra%20Accounts.md)            | Gegenkontos für Hauptbuch OCA-Finanzbericht bereitstellen.                  |     |
-| [Account Financial Report Reverse Move Lines](Account%20Financial%20Report%20Reverse%20Move%20Lines.md)    | Ordnet die Buchungszeilen von neu zu alt.                                   |     |
-| [Account Financial Report Show Grouped None](Account%20Financial%20Report%20Show%20Grouped%20None.md)      | Alle Buchungszeilen bei Auswahl "nicht gruppiert" anzeigen.                 |     |
-| [Account Financial Report](Account%20Financial%20Report.md)                                                | Finanzberichte der Odoo Community Assocation.                               |     |
-| [Account Followup Email From](Account%20Followup%20Email%20From.md)                                        | Mahnbericht von definierter E-Mail-Adresse verschicken.                     |     |
-| [Account Followup Hide Communication](Account%20Followup%20Hide%20Communication.md)                        | Spalte Kommunikation in Mahnbericht ausblenden.                             |     |
-| [Account General Ledger Contra Accounts](Account%20General%20Ledger%20Contra%20Accounts.md)                | Spalte Gegenkontos in Hauptbuch.                                            |     |
-| [Account Invoice Description](Account%20Invoice%20Description.md)                                          | Beschreibungsfeld auf Rechnung.                                             |     |
-| [Account Journal Items Report](Account%20Journal%20Items%20Report.md)                                      | Kontoauszug basierend auf Buchungszeilen erstellen.                         |     |
-| [Account Menu](Account%20Menu.md)                                                                          | Navigation für die OCA Finanzbuchhaltung.                                   |     |
-| [Account Move Accounting Description](Account%20Move%20Accounting%20Description.md)                        | Beschreibungsfeld für Rechnungszeile.                                       |     |
-| [Account Move Line Accounting Description Stock](Account%20Move%20Line%20Accounting%20Description%20Stock) | Beschreibung Lagerbuchung auf Rechnung übertragen.                          |     |
-| [Account Move Line Contra Accounts](Account%20Move%20Line%20Contra%20Accounts.md)                          | Gegenkontos auf Buchungszeilen anzeigen.                                    |     |
-| [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)                              | Lieferaufträge mit Rechnungszeile verlinken.                                |     |
-| [Account Move Line Position](Account%20Move%20Line%20Position.md)                                          | Positionsnummer anzeigen und aus Verkaufs- oder Einkaufsauftrag verlinken.  |     |
-| [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                                                  | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt. |     |
-| [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                      | Das letzte Abstimmungsdatum von Rechnungen anzeigen.                        |     |
-| [Account Payment Mode](Account%20Payment%20Mode.md)                                                        | Bezahlmethoden definieren.                                                  |     |
-| [Account Payment Order](Account%20Payment%20Order.md)                                                      | Stapelzahlungen für die Odoo Community Edition.                             |     |
-| [Account Payment Partner](Account%20Payment%20Partner.md)                                                  | Zahlungsmodus auf Kontakt festlegen.                                        |     |
-| [Account Payment Purchase](Account%20Payment%20Purchase.md)                                                | Zahlungsmodus auf Bestellung festlegen.                                     |     |
-| [Account Reconcile OCA](Account%20Reconcile%20OCA.md)                                                      | OCA-Lösung für die Bank-Abstimmung.                                         |     |
-| [Account Reports Hide Ref](Account%20Reports%20Hide%20Ref.md)                                              | Zahlungsreferenz in Spalte Kommunikation in Finanzberichten ausblenden.     |     |
-| [Account Statement Base](Account%20Statement%20Base.md)                                                    | Basismodul für Bankauszüge.                                                 |     |
-| [Account Statement Import Base](Account%20Statement%20Import%20Base.md)                                    | Basismodul für Import Bankauszüge.                                          |     |
-| [Account Statement Import Camt54](Account%20Statement%20Import%20Camt54.md)                                | Camt54 Bankauszug mit Details zu Einzahlungen importieren.                  |     |
-| [Account Statement Import Camt](Account%20Statement%20Import%20Camt.md)                                    | Support Import Bankauszug im Camt-Format.                                   |     |
-| [Account Statement Import File](Account%20Statement%20Import%20File.md)                                    | Bankauszüge importieren.                                                    |     |
-| [Account Statement Import](Account%20Statement%20Import.md)                                                | Bankauszüge importieren.                                                    |     |
-| [Account Usability](Account%20Usability.md)                                                                | Menüs der Enterprise Finanzbuchhaltung für Community.                       |     |
-| [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                | Allow discount deduction on vendor bills.                                   |     |
+| Erweiterung                                                                                                | Beschreibung                                                                      |     |
+| ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --- |
+| [Account Accountant Reconcile](Account%20Accountant%20Reconcile.md)                                        | Bank-Gutschriften anhand Referenz und Betrag abgleichen.                          |     |
+| [Account Financial Report Contra Accounts](Account%20Financial%20Report%20Contra%20Accounts.md)            | Gegenkontos für Hauptbuch OCA-Finanzbericht bereitstellen.                        |     |
+| [Account Financial Report Reverse Move Lines](Account%20Financial%20Report%20Reverse%20Move%20Lines.md)    | Ordnet die Buchungszeilen von neu zu alt.                                         |     |
+| [Account Financial Report Show Grouped None](Account%20Financial%20Report%20Show%20Grouped%20None.md)      | Alle Buchungszeilen bei Auswahl "nicht gruppiert" anzeigen.                       |     |
+| [Account Financial Report](Account%20Financial%20Report.md)                                                | Finanzberichte der Odoo Community Assocation.                                     |     |
+| [Account Followup Email From](Account%20Followup%20Email%20From.md)                                        | Mahnbericht von definierter E-Mail-Adresse verschicken.                           |     |
+| [Account Followup Hide Communication](Account%20Followup%20Hide%20Communication.md)                        | Spalte Kommunikation in Mahnbericht ausblenden.                                   |     |
+| [Account General Ledger Contra Accounts](Account%20General%20Ledger%20Contra%20Accounts.md)                | Spalte Gegenkontos in Hauptbuch.                                                  |     |
+| [Account Invoice Description](Account%20Invoice%20Description.md)                                          | Beschreibungsfeld auf Rechnung.                                                   |     |
+| [Account Journal Items Report](Account%20Journal%20Items%20Report.md)                                      | Kontoauszug basierend auf Buchungszeilen erstellen.                               |     |
+| [Account Menu](Account%20Menu.md)                                                                          | Navigation für die OCA Finanzbuchhaltung.                                         |     |
+| [Account Move Accounting Description](Account%20Move%20Accounting%20Description.md)                        | Beschreibungsfeld für Rechnungszeile.                                             |     |
+| [Account Move Line Accounting Description Stock](Account%20Move%20Line%20Accounting%20Description%20Stock) | Beschreibung Lagerbuchung auf Rechnung übertragen.                                |     |
+| [Account Move Line Contra Accounts](Account%20Move%20Line%20Contra%20Accounts.md)                          | Gegenkontos auf Buchungszeilen anzeigen.                                          |     |
+| [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)                              | Lieferaufträge mit Rechnungszeile verlinken.                                      |     |
+| [Account Move Line Position](Account%20Move%20Line%20Position.md)                                          | Positionsnummer anzeigen und aus Verkaufs- oder Einkaufsauftrag verlinken.        |     |
+| [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                                                  | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt.       |     |
+| [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                      | Das letzte Abstimmungsdatum von Rechnungen anzeigen.                              |     |
+| [Account Payment Mode](Account%20Payment%20Mode.md)                                                        | Bezahlmethoden definieren.                                                        |     |
+| [Account Payment Order](Account%20Payment%20Order.md)                                                      | Stapelzahlungen für die Odoo Community Edition.                                   |     |
+| [Account Payment Partner](Account%20Payment%20Partner.md)                                                  | Zahlungsmodus auf Kontakt festlegen.                                              |     |
+| [Account Payment Purchase](Account%20Payment%20Purchase.md)                                                | Zahlungsmodus auf Bestellung festlegen.                                           |     |
+| [Account Reconcile OCA](Account%20Reconcile%20OCA.md)                                                      | OCA-Lösung für die Bank-Abstimmung.                                               |     |
+| [Account Reports Hide Ref](Account%20Reports%20Hide%20Ref.md)                                              | Zahlungsreferenz in Spalte Kommunikation in Finanzberichten ausblenden.           |     |
+| [Account Show Invoice Date](Account%20Show%20Invoice%20Date.md)                                            | Rechnungsdatum auf dem Bericht für überfällige Forderungen und Verbindlichkeiten. |     |
+| [Account Statement Base](Account%20Statement%20Base.md)                                                    | Basismodul für Bankauszüge.                                                       |     |
+| [Account Statement Import Base](Account%20Statement%20Import%20Base.md)                                    | Basismodul für Import Bankauszüge.                                                |     |
+| [Account Statement Import Camt54](Account%20Statement%20Import%20Camt54.md)                                | Camt54 Bankauszug mit Details zu Einzahlungen importieren.                        |     |
+| [Account Statement Import Camt](Account%20Statement%20Import%20Camt.md)                                    | Support Import Bankauszug im Camt-Format.                                         |     |
+| [Account Statement Import File](Account%20Statement%20Import%20File.md)                                    | Bankauszüge importieren.                                                          |     |
+| [Account Statement Import](Account%20Statement%20Import.md)                                                | Bankauszüge importieren.                                                          |     |
+| [Account Usability](Account%20Usability.md)                                                                | Menüs der Enterprise Finanzbuchhaltung für Community.                             |     |
+| [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                | Allow discount deduction on vendor bills.                                         |     |
 
 ## Konfiguration
 
