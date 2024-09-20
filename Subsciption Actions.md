@@ -44,15 +44,13 @@ Wenn das Enddatum zwischen heute und in einem Monat liegt, wird das Abonnement m
 
 Wenn das Enddatum vor dem heutigen Tag liegt, wird das Abonnement geschlossen. Hat das Abonnement unbezahlte Rechnungen wird dies im Chatter vermerkt.
 
-#FIXME 
-
 ### Verkaufsabonnement: wiederkehrende Rechnungen und Zahlungen erstellen
 
-Diese Aktion prüft das nächste Abrechnungsdatum der Abonnmente. Standardmässig wird diese Aktion jeden Tag ausgeführt.
+Diese Aktion prüft das nächste Abrechnungsdatum und Enddatum der Abonnmente. Standardmässig wird diese Aktion jeden Tag ausgeführt.
 
 Wenn das Enddatum vor dem heutigen Tag liegt, wird das Abonnement geschlossen.
 
-#FIXME 
+Wenn das Abrechnungsdatum erreicht wurde, wird eine Rechnung erstellt und das nächste Abrechnungsdatum aktualisiert. Die Rechnung wird automatisch gebucht und verschickt.
 
 ### Abonnemente vor Ablauf in Stufe verschieben
 
@@ -114,6 +112,7 @@ stage2_subscriptions.write({"stage_id": stage2_id.id})
 Diese geplante Aktion prüft das nächste Abrechnungsdatum der Abonnemente, erstellt ein Angebot zur Verlängerung und sendet dieses an den Kunden. Die folgenden Kriterien müssten für eine automatische Verlängerung stimmen:
 
 * Der Verkaufsaufrag ist ein Abonnement
+* Das Abonnement hat eine bestimmte Preisliste
 * Das Abonnement ist in der Stufe *Laufend*
 * Der Verkaufsauftrag ist im Status *Verkaufsauftrag*
 * Das nächste Abrechnungsdatum liegt vor dem heutigen Datum in 6 Wochen
@@ -133,9 +132,11 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 # Settings
 weeks_before_invoice_date = 6
 mail_template = "license_ocad_mail.mail_template_extend_subscription"
+default_price_list = "product.list0"
 
 # Get references
 template = env.ref(mail_template)
+pricelist_id = env.ref(default_price_list)
 stage_running_id = env.ref("sale_subscription.sale_subscription_stage_in_progress")
 stage_closed_id = env.ref("sale_subscription.sale_subscription_stage_closed")
 
@@ -146,6 +147,7 @@ extend_date = today + datetime.timedelta(weeks=weeks_before_invoice_date)
 # Search subscriptions
 extend_subscriptions = env["sale.order"].search([
   ("is_subscription", "=", True),
+  ("pricelist_id", "=", pricelist_id.id),
   ("stage_id", "=", stage_running_id.id),
   ("state", "=", "sale"),
   ("next_invoice_date", "<=", extend_date),
