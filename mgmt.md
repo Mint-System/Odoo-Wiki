@@ -1,11 +1,12 @@
 ---
 title: Management
-description:  Risk Management by Mint System.
+description: Risk Management by Mint System.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./development
+prev: ./management-systems
 ---
+
 # Management (Requirements, Compliance, Audits)
 ![icon_oms_box](attachments/icon_oms_box.png)
 
@@ -13,6 +14,11 @@ prev: ./development
 
 Technischer Name: `mgmt`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Management/tree/16.0/mgmt>
+
+::: warning
+Diese App ist veraltet. Wir empfehlen die App [Mgmt Base](Mgmt%20Base.md) zu verwenden.
+#deprecated
+:::
 
 ## Stammdaten
 
