@@ -24,5 +24,5 @@ prev: ./
 | [Mgmt Hazard Risk](Mgmt%20Hazard%20Risk.md)     | Risiko-Kalkulation basieren auf Gefahren.                          |
 | [Mgmt Requirement](Mgmt%20Requirement.md)       | Verwalten Sie Anforderungen and die Organisation.                  |
 | [Mgmt Risk](Mgmt%20Risk.md)                     | Verwaltung von ISO27001 Risiken.                                   |
-| [Mgmtsystem Audit](Mgmtsystem%20Audit.md)       | Audit-Module for the Management System.                            |
+| [Mgmtsystem Audit](Mgmtsystem%20Audit.md)       | Audit-Module for the OCA Management System.                            |
 | [Mmgt Asset](Mmgt%20Asset.md)                   | Asset-Verwaltung für das Management-System.                        |
