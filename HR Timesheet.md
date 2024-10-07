@@ -14,11 +14,12 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 
 ## Bereiche
 
-| Bereich                                                 | Beschreibung                                        |
-| ------------------------------------------------------- | --------------------------------------------------- |
-| [Awesome Timesheet](Awesome%20Timesheet.md)             | Mobile Zeiterfassung.                               |
-| [Terminal Zeiterfassung](Terminal%20HR%20Timesheet.md)   | Ein- und auschecken mit dem Terminal Zeiterfassung. |
-| [Zeiterfassung Ansichten](Timesheet%20Views.md) | Ansichten der Zeiterfassung anpassen.                                                    |
+| Bereich                                                | Beschreibung                                        |
+| ------------------------------------------------------ | --------------------------------------------------- |
+| [Awesome Timesheet](Awesome%20Timesheet.md)            | Mobile Zeiterfassung.                               |
+| [Terminal Zeiterfassung](Terminal%20HR%20Timesheet.md) | Ein- und auschecken mit dem Terminal Zeiterfassung. |
+| [Zeiterfassung Aktionen](HR%20Timesheet%20Actions.md)  | Arbeitsflüsse in der Zeiterfassung automatisieren.  |
+| [Zeiterfassung Ansichten](Timesheet%20Views.md)        | Ansichten der Zeiterfassung anpassen.               |
 
 ## Erweiterungen
 
@@ -34,15 +35,16 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 
 ## Konfiguration
 
-### Fakturierungsregeln festlegen
+### Abrechnungspolitik festlegen
 
-Navigieren Sie nach *Einstellungen > Zeiterfassung > Abrechnung* und wählen Sie eine Option bei *Fakturierungsregel*. Ist die Fakturierungsregel *Nur bestätigte Stundenzettel* aktiviert, müssen die Stundenzettel zur Verrechnung vorgängit validiert werden.
+Navigieren Sie nach *Einstellungen > Zeiterfassung > Abrechnung* und wählen Sie eine Option bei *Abrechnungspolitik*. Ist die Auswahl *Nur validierte Zeiterfassungen* aktiviert, müssen die Zeiterfassungen zur Verrechnung zuerst validiert werden.
 
 ## Erfassung
 
 ### Eintrag manuell erstellen
 
 Damit ein Odoo Benutzer einen Zeiterfassungs-Eintrag machen kann, müssen die folgenden Bedingungen erfüllt sein:
+
 * Dem Benutzer ist ein Mitarbeiter zugewiesen
 * Der Benutzer hat Zugriff auf ein Projekt und auf eine Projektaufgabe
 
@@ -56,68 +58,33 @@ Wenn Sie den Abrechnungstyp von bestehenden Einträgen ändern möchten, müssen
 
 ![](attachments/Zeiterfassung%20Verrechnungstyp%20ändern.gif)
 
-### Auftragselement von Aufgabe entfernen
-*Gilt ab #Odoo14.*
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Auftragselement von Aufgabe entfernen`\
-Modell: `Kostenstellen-Buchungen`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
-
-```python
-for record in records:
-	record.task_id.write({'sale_line_id': False})
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl *Aktion* das Menu *Validierung zurücksetzen*.
-
 ## Validierung
 
-### Stundenzettel bis Datum validieren
+### Zeiterfassung validieren
+
+Der Zeiterfassung-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Validieren > letzter Monat*. Es werden Standardmässig die eigenen Zeiterfassungseinträge und die des Teams aufgelistet. Eine Validierung der Einträge erfolgt mit Knopf *Validiere*.
+
+### Zeiterfassung bis Datum validieren
+
 *Gilt für #Odoo13.*
 
 Der Stundenzettel-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Validieren* und wählt den entsprechenden Zeitraum aus. Mit *Bestätigen* wird ein Validierungsdatum festgelegt. Alle Zeitnachweise vor dem Validierungsdatum gelten als validiert.
 
 ![](attachments/Zeiterfassung%20Validierungsdatum.png)
 
-### Stundenzettel validieren
-*Gilt ab #Odoo14.*
+### Auf Entwurf zurücksetzen
 
-Der Stundenzettel-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Validieren* und wählt den entsprechenden Zeitraum aus. Mit *Bestätigen* wird ein Validierungsdatum festgelegt.
+Wenn Sie validieren Zeiterfassungs-Einträge zurücksetzen möchten, navigieren Sie nach *Zeiterfassung > Zeiterfassung > Alle Zeiterfassungen*. Wechseln Sie in die Listen-Ansicht und wählen Sie *Filter > Validiert. Markieren Sie Einträgen und wählen Sie *Aktion > Auf Entwurf zurücksetzen*.
 
 ### Validierung zurücksetzen
+
 *Gilt für #Odoo13.*
 
-Einmal validierte Stundeneinträge können nicht mehr verändert werden. Benötigen Sie dennoch eine korrektur, müssen Sie für jeden Mitarbeitenden folgende Aktion ausführen: *Personal > Mitarbeitenden auswählen > Tab HR Einstellungen öffnen* und dort das Feld *Stundenzettel-Validierungsdatum* anpassen.
+Einmal validierte Stunden-Einträge können nicht mehr verändert werden. Benötigen Sie dennoch eine Korrektur, müssen Sie für jeden Mitarbeitenden folgende Aktion ausführen: *Personal > Mitarbeitenden auswählen > Tab HR Einstellungen öffnen* und dort das Feld *Stundenzettel-Validierungsdatum* anpassen.
 
 ![](attachments/Zeiterfassung%20Stundenzettel-Validierungsdatum%20anpassen.png)
 
-Nach der Korrektur der Stundeinträge müssen Sie diese wieder validieren.
-
-### Validierung zurücksetzen
-*Gilt ab #Odoo14.*
-
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Validierung zurücksetzen`\
-Modell: `Kostenstellen-Buchungen`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
-
-```python
-for record in records:
-	records.write({'validated': False})
-```
-
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl *Aktion* das Menu *Validierung zurücksetzen*.
+Nach der Korrektur der Stunden-Einträge müssen Sie diese wieder validieren.
 
 ## Berichte
 
