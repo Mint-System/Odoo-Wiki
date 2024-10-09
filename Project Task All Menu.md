@@ -12,7 +12,7 @@ prev: ./project
 {{ $frontmatter.description }}
 
 Technischer Name: `project_task_all_menu`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/16.0/project_task_all_menu>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/17.0/project_task_all_menu>
 
 ## Verwendung
 

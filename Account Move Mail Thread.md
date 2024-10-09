@@ -12,7 +12,7 @@ prev: ./dialog
 {{ $frontmatter.description }}
  
 Technischer Name: `account_move_mail_thread`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/account_move_mail_thread>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/15.0/account_move_mail_thread>
 
 ## Verwendung
 

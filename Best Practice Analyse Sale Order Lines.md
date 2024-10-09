@@ -1,12 +1,12 @@
 ---
-title: Auftragszeilen auswerten
+title: Auswertung Auftragszeilen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
 
-# Auftragszeilen auswerten
+# Auswertung Auftragszeilen
 
 Statt die Aufträge oder den Verkaufsbericht zu verwenden, empfehlen wir die Auftragszeilen auswertungen. Damit sind beispielsweise solche Auswertungen möglich:
 

@@ -31,9 +31,3 @@ und [Verantwortliche festlegen](HR%20Holidays.md#Verantwortliche%20festlegen).
 Damit der Genehmigungs-Prozess korrekt funktioniert, müssen die Abwesenheitsarten konfiguriert werden. Stellen Sie die *Genehmigung* auf *Abwesenheits Officer*. [Abwesenheitsart konfigurieren](HR%20Holidays.md#Abwesenheitsart%20konfigurieren).
 
 Setzen Sie die *Einheit der Abwesenheit* von *Bezahlter Urlaub* auf *Halber Tag*.
-
-## Prozess
-
-Der genaue Ablauf zur Abwesenheit ist [hier](Prozess%20Abwesenheit.md) dokumentiert.
-
-Je nach Konfiguration des Abwesenheitsart muss kein Anspruch bezogen werden.

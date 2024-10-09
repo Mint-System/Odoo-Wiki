@@ -12,13 +12,15 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_critical_forecast`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/16.0/stock_critical_forecast>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_critical_forecast>
+
+## Beschreibung
+
+Mit dieser Erweiterung haben Sie Zugriff auf einen neuen Bericht, der das kritische Datum aus dem *Forecasted Report* für alle Produkte in Lieferungen und Fertigung anzeigt.
 
 ## Verwendung
 
 ### Kritische Vorhersage anzeigen
-
-Mit dieser Erweiterung haben Sie Zugriff auf einen neuen Bericht, der das kritische Datum aus dem *Forecasted Report* für alle Produkte in Lieferungen und Fertigung anzeigt.
 
 Öffnen Sie *Lager > Berichtswesen > Kritische Vorhersage*. Klicken Sie auf *Aktualisieren* um die Daten anzuzeigen. Nun haben Sie verschiedene Möglichkeit um die kritischen Produkte genauer anzuschauen, Aktivitäten zu planen oder weitere Aktionen auszuführen.
 

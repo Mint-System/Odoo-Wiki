@@ -12,7 +12,7 @@ prev: ./base
 {{ $frontmatter.description }}
 
 Technischer Name: `mail_service_users`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/15.0/mail_service_users>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/17.0/mail_service_users>
 
 ## Verwendung
 

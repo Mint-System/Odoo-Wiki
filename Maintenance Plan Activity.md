@@ -12,7 +12,7 @@ prev: ./maintenance
 {{ $frontmatter.description }}
 
 Technischer Name: `maintenance_plan_activity`\
-Repository: <https://github.com/OCA/maintenance/tree/14.0/maintenance_plan_activity>
+Repository: <https://github.com/OCA/maintenance/tree/16.0/maintenance_plan_activity>
 
 ## Verwendung
 

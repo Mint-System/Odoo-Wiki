@@ -10,6 +10,12 @@ prev: ./
 
 {{ $frontmatter.description }}
 
+## Bereiche
+
+| Bereich                                     | Beschreibung                        |
+| ------------------------------------------- | ----------------------------------- |
+| [Datenbank Aktionen](Database%20Actions.md) | Aktion für die Datenbank ausführen. |
+
 ## Erweiterungen
 
 | Erweiterung                                                                               | Beschreibung                                            |
@@ -120,9 +126,9 @@ Im Entwicklermodus navigieren Sie nach *Einstellungen > Technisch > Parameter > 
 Dieser Parameter wird von Odoo automatisch festgelegt. Um den Wert zu übersteuern, muss der Parameter `web.base.url.freeze` auf `True` gesetzt werden.
 :::
 
-## Infrastruktur
+## Odoo Online
 
-### Odoo Online Datenbank herunterladen
+### Datenbank herunterladen
 
 Damit Sie die Odoo Online Datenbank herunterladen können, öffnen Sie <https://www.odoo.com/de_DE/my/databases>. Hier haben Sie eine Übersicht iherer Odoo Online Datenbanken.
 

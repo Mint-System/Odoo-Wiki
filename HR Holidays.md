@@ -15,9 +15,9 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 
 ## Bereiche
 
-| Bereich                                                         | Beschreibung                                      |
-| --------------------------------------------------------------- | ------------------------------------------------- |
-| [Abwesenheit Aktionen](HR%20Holidays%20Actions.md)               | Aktionen für Abwesenheit App einrichten.          |
+| Bereich                                                             | Beschreibung                                      |
+| ------------------------------------------------------------------- | ------------------------------------------------- |
+| [Abwesenheit Aktionen](HR%20Holidays%20Actions.md)                  | Aktionen für Abwesenheit App einrichten.          |
 | [Abwesenheit Datenmanagement](HR%20Holidays%20Data%20Management.md) | Daten zu Abwesenheit exportieren und importieren. |
 
 ## Erweiterungen
@@ -27,12 +27,14 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 | [HR Attendance Overtime Negative Hours](HR%20Attendance%20Overtime%20Negative%20Hours.md) | Anzeige negative Überstunden auf Dashboard Abwesenheit.                              |
 | [HR Holidays .ics Attachment](HR%20Holidays%20ics%20Attachment.md)                        | An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.                    |
 | [HR Holidays Calendar Department](HR%20Holidays%20Calendar%20Department.md)               | Erweitert den Anwesenheitsbericht mit neuen Felder.                                  |
+| [HR Holidays Custom Hours](HR%20Holidays%20Custom%20Hours.md)                             | Benutzerdefinierte Anzahl Stunden auf Abwesenheit eintragen.                         |
 | [HR Holidays Leave Archive](HR%20Holidays%20Leave%20Archive.md)                           | Archivierungsfunktion für Abwesenheitseinträge aktivieren.                           |
 | [HR Holidays Leave Repeated](HR%20Holidays%20Leave%20Repeated.md)                         | Wiederkehrende Abwesenheitseinträge erstellen.                                       |
 | [HR Holidays Negative Hours](HR%20Holidays%20Negative%20Hours.md)                         | Abwesenheitsart zur Kompensierung von Überstunden.                                   |
 | [HR Holidays Public](HR%20Holidays%20Public.md)                                           | Erstellen Sie einen Feiertagskalender, der in der Abwesenheiten berücksichtigt wird. |
 | [HR Holidays Remaining Leaves](HR%20Holidays%20Remaining%20Leaves.md)                     | Verbleibende Urlaubsansprüche der Mitarbeitenden anzeigen.                           |
 | [HR Holidays Type Note](HR%20Holidays%20Type%20Note.md)                                   | Hinweis zur Abwesenheitsart auf Abwesenheit anzeigen.                                |
+| [HR Holidays Working Time](HR%20Holidays%20Working%20Time.md)                             | Aus Abwesenheiten Anwesenheiten erstellen.                                           |
 | [HR Leave Custom Hour Interval](HR%20Leave%20Custom%20Hour%20Interval.md)                 | Start- und End-Zeit für Abwesenheiten eintragen.                                     |
 | [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden.   |
 
@@ -55,11 +57,12 @@ Die verfügbaren Überstunden werden nur angezeigt, wenn der Wert positiv ist.
 Jede Abwesenheit und Urlaubsanspruch wird einem Abwesenheitsart zugeordnet. Damit Sie jährliche Feriensaldis korrekt erfassen, müssen Sie für jedes Jahr einen Abwesenheitsart erfassen. Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitsarten* und duplizieren Sie einen bestehenden Typ. Legen Sie diese Werte fest:
 
 * **Name**: Anzeigenamen des Abwesenheitsart.
-* **Abwesenheitsanträge Genehmigung**: Bestimmen Sie ob die Abwesenheitseinträge genehmigt werden muss.
+* **Abwesenheitsanträge / Genehmigung**: Bestimmen Sie ob die Abwesenheitseinträge genehmigt werden muss.
 * **Einheit der Abwesenheit**: Wählen Sie hier Stunden, Halbtage oder Tage als Einheit.
 * **Zusätzliche Stunden abziehen**: Wenn die Abwesenheit nicht als Arbeitszeit gerechnet werden soll, aktivieren Sie diese Option.
-* **Erfordert Zuweisung**: Bestimmen Sie ob der Urlaubsanspruch genehmigt werden muss.
-* **Urlaubsanspruch Genehmigung**: Bestimmen Sie wie der Urlaubsanspruch genehmigt wird.
+* **Abwesenheitsart**: Legen Sie fest, ob die Zeit der Abwesenheit als gearbeitete Zeit oder Abwesend gilt.
+* **Anträge auf Urlaubsanspruch / Erfordert Anspruch**: Bestimmen Sie ob der Urlaubsanspruch genehmigt werden muss.
+* **Anträge auf Urlaubsanspruch / Genehmigung**: Bestimmen Sie wie der Urlaubsanspruch genehmigt wird.
 
 ### Abwesenheitsart konfigurieren
 
@@ -83,7 +86,7 @@ Diese Anpassung geht bei der Aktualisierung oder Neuinstallation des Abwesenheit
 
 ### Gesetzliche Feiertage festlegen
 
-Navigieren Sie nach *Abwesenheit > Konfiguration > Gesetzliche Feiertage*. Erstellen Sie hier einen neuen Eintrag für jeden Feiertag und optional für bestimmte Arbeitszeiten.
+Navigieren Sie nach *Abwesenheiten > Konfiguration > Gesetzliche Feiertage*. Erstellen Sie hier einen neuen Eintrag für jeden Feiertag und optional für bestimmte Arbeitszeiten.
 
 ![](attachments/Abwesenheit%20Feiertage.png)
 
@@ -129,7 +132,7 @@ Wenn Sie einen genehmigten Urlaubsanspruch anpassen wollen, wählen Sie diesen a
 Damit die Aktion *Zurücksetzen* ausgewählt werden kann, muss Ihr Odoo-Benutzer die Rolle *Abwesenheitszeiten: Administrator* haben.
 :::
 
-### Abwesenheit melden
+### Abwesenheit erstellen
 
 Öffnen Sie die App *Abwesenheitszeiten* und wählen Sie *Neuer Abwesenheitsantrag*. Geben Sie den Typ und die Dauer ein.
 

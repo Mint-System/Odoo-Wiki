@@ -12,7 +12,7 @@ prev: ./product
 {{ $frontmatter.description }}
 
 Technischer Name: `product_pricelist_fixed_discount`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/14.0/product_pricelist_fixed_discount>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/16.0/product_pricelist_fixed_discount>
 
 ## Verwendung
 

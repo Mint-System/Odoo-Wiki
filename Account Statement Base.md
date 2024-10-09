@@ -11,4 +11,4 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_statement_base`\
-Repository: <https://github.com/OCA/account-reconcile/tree/16.0/account_statement_base>
+Repository: <https://github.com/OCA/account-reconcile/tree/17.0/account_statement_base>

@@ -12,7 +12,7 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_aggregated_move_lines_description`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_aggregated_move_lines_description>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/16.0/stock_aggregated_move_lines_description>
 
 ## Verwendung
 

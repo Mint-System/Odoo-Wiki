@@ -5,11 +5,6 @@ if [[ -a ".env" ]]; then
     export $(cat .env | sed 's/^#.*//g' | xargs)
 fi
 
-: "${DOCKER_TAG:=odoo:16.0-ci}"
-
-cat << EOF
- 
-EOF
 function help() {
     echo
     echo "task <command> [options]"
@@ -17,7 +12,7 @@ function help() {
     echo "commands:"
     echo
 
-    cmd_width=15
+    cmd_width=20
     opt_width=6
     desc_width=35
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "Command" "Option" "Description"
@@ -27,8 +22,52 @@ function help() {
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vue-dev" "" "Start vuepress development server."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vue-build" "" "Create vuepress build."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "serve-vue-build" "" "Serve vuepress build."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "update-repo-url" "" "Check and update repository urls."
 
     echo
+}
+
+function update-repo-url() {
+
+    VERSIONS=("14.0" "15.0" "16.0" "17.0")
+
+    TOTAL_FILES=$(find . -maxdepth 1 -name "*.md" -type f | wc -l)
+    FILE_COUNT=0
+
+    find . -maxdepth 1 -name "*.md" -type f -print0 | while IFS= read -r -d '' FILE; do
+        FILE_COUNT=$((FILE_COUNT+1))
+
+        echo "Processing file '$FILE' ($FILE_COUNT/$TOTAL_FILES)"
+    
+        LINK=$(grep -Eom 1 'Repository: <https://github.com/[^>]*>' "$FILE" || echo "")
+
+        if [[ -n "$LINK" ]]; then
+            
+            REPO_URL=$(echo "$LINK" | grep -oP 'https://github.com/\K[^>]*')
+            
+            NEWEST_URL=""
+            for VERSION in "${VERSIONS[@]}"; do
+
+                NEW_URL="https://github.com/$(echo "$REPO_URL" | sed -E "s|tree/[0-9]+\.[0-9]+|tree/$VERSION|")"
+                HTTP_STATUS=$(curl -o /dev/null -s -w "%{http_code}" "$NEW_URL")
+
+                # echo "Response for version $VERSION is $HTTP_STATUS"
+
+                if [[ "$HTTP_STATUS" == "200" ]]; then
+                    NEWEST_URL="$NEW_URL"
+                fi
+                sleep 0.2
+            done
+
+            if [[ -n "$NEWEST_URL" ]]; then
+
+                echo "Update file '$FILE' with url: '$NEWEST_URL"
+
+                UPDATED_LINE="Repository: <$NEWEST_URL>"
+                sed -i "s|$LINK|$UPDATED_LINE|" "$FILE"
+            fi
+        fi
+    done
 }
 
 case "$1" in
@@ -41,15 +80,18 @@ case "$1" in
     build)
         node build.js
         ;;
-    vue-dev)
-        npm run vue-dev
+    dev)
+        npm run dev
         ;;
     vue-build)
         npm run vue-build
         ;;
-    serve-vue-build)
+    serve-build)
         cd ./src/.vuepress/dist
         npx serve
+        ;;
+    update-repo-url)
+        update-repo-url
         ;;
     *)
         help

@@ -12,7 +12,7 @@ prev: ./contacts
 {{ $frontmatter.description }}
 
 Technischer Name: `partner_ref_sequence`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/partner_ref_sequence>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/partner_ref_sequence>
 
 ## Verwendung
 

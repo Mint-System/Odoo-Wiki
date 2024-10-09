@@ -12,7 +12,7 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_delivery_note`\
-Repository: <https://github.com/OCA/stock-logistics-workflow/tree/14.0/stock_delivery_note>
+Repository: <https://github.com/OCA/stock-logistics-workflow/tree/16.0/stock_delivery_note>
 
 ## Verwendung
 

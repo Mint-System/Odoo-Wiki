@@ -12,7 +12,7 @@ prev: ./sale-blanket-order
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_stock_terms`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_blanket_order_stock_terms>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_blanket_order_stock_terms>
 
 ## Verwendung
 

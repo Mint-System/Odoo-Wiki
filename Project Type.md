@@ -12,7 +12,7 @@ prev: ./project
 {{ $frontmatter.description }}
 
 Technischer Name: `project_type`\
-Repository: <https://github.com/OCA/project/tree/14.0/project_type>
+Repository: <https://github.com/OCA/project/tree/17.0/project_type>
 
 ## Verwendung
 

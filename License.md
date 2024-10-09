@@ -15,15 +15,32 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-SaaS/tree/16.0/li
 
 ## Erweiterungen
 
-| Erweiterung                             | Beschreibung                                                    |
-| --------------------------------------- | --------------------------------------------------------------- |
-| [License OCAD](License%20OCAD.md)       | Synchronisation Lizenzen mit dem OCAD Lizenzaktivierungsdienst. |
-| [License Sale](License%20Sale.md)       | Lizenz aus Verkaufsauftrag generieren.                          |
-| [License Website](License%20Website.md) | Kundenportal zur Lizenzverwaltung.                              |
+| Erweiterung                                         | Beschreibung                                                    |
+| --------------------------------------------------- | --------------------------------------------------------------- |
+| [License OCAD](License%20OCAD.md)                   | Synchronisation Lizenzen mit dem OCAD Lizenzaktivierungsdienst. |
+| [License Sale](License%20Sale.md)                   | Lizenz aus Verkaufsauftrag generieren.                          |
+| [License Subscription](License%20Subscription.md)   | Lizenzen mit Abonnementen erneuern.                             |
+| [License Website Sale](License%20Website%20Sale.md) | Im Webshop gekaufte Lizenzen aktivieren.                        |
+| [License Website](License%20Website.md)             | Kundenportal zur Lizenzverwaltung.                              |
+
+## Beschreibung
+
+```mermaid
+flowchart TD
+	A[Draft] -->|action_assign| B(Assigned)
+	B -->|action_draft| A
+	B -->|action_activate| C(Active)
+	C -->|action_reset| B
+	C -->|action_disable| D(Disabled)
+	D -->|action_enable| C
+	C -->|action_cancel| E(Cancelled)
+	D -->|action_cancel| E
+	E -->|action_draft| A
+```
 
 ## Konfiguration
 
-### License Type erfassen
+### Lizenztyp erfassen
 
 Navigieren Sie nach *Lizenz > Konfigurationen > Lizenztyp* und erstellen Sie einen neuen Eintrag. Den *Lizenztyp* können Sie Lizenzen und Lizenzprodukten zuordnen.
 

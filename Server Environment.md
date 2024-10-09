@@ -12,4 +12,10 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `server_environment`\
-Repository: <https://github.com/OCA/server-env/tree/14.0/server_environment>
+Repository: <https://github.com/OCA/server-env/tree/17.0/server_environment>
+
+## Verwendung
+
+### Server-Konfiguration anzeigen
+
+Navigieren Sie nach *Einstellungen > Technisch > Parameter > Server-Umgebung*. Hier finden Sie die Konfigurationen, die Odoo aus der Server-Umgebung lädt.

@@ -15,8 +15,7 @@
     "default.vim",
     "package-lock.json",
     "task.js",
-    "node_modules/",
-    "src/"
+    "node_modules/"
   ],
   "spellcheckLanguages": null,
   "showInlineTitle": false,

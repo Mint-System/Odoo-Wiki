@@ -12,7 +12,7 @@ prev: ./purchase-requisition
 {{ $frontmatter.description }}
 
 Technischer Name: `purchase_tag`\
-Repository: <https://github.com/OCA/purchase-workflow/tree/14.0/purchase_tag>
+Repository: <https://github.com/OCA/purchase-workflow/tree/17.0/purchase_tag>
 
 ## Konfiguration
 

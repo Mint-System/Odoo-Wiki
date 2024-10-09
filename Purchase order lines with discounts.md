@@ -12,7 +12,7 @@ prev: ./purchase
 {{ $frontmatter.description }}
 
 Technischer Name: `purchase_discount`\
-Repository: <https://github.com/OCA/purchase-workflow/tree/14.0/purchase_discount>
+Repository: <https://github.com/OCA/purchase-workflow/tree/16.0/purchase_discount>
 
 ## Verwendung
 

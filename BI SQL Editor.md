@@ -12,7 +12,7 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `bi_sql_editor`\
-Repository: <https://github.com/OCA/reporting-engine/tree/14.0/bi_sql_editor>
+Repository: <https://github.com/OCA/reporting-engine/tree/17.0/bi_sql_editor>
 
 ## Verwendung
 

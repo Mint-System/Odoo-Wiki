@@ -86,7 +86,15 @@ Um die Submodule zu aktualisieren, müssen Sie das Odoo.sh Projekt als Git-Repos
 
 ### Modul-Code bearbeiten
 
-Auf den Staging- und Entwicklungsbranches kann der Code von Modulen direkt bearbeitet werden. Wählen Sie einen Branch aus und klicken Sie auf *Editor*. Nun öffnet sich in einem neues Fenster *JupyterLab*. Navigieren Sie nach `/src/user`. Hie finden Sie den Modul-Code aus dem GitHub-Repository. 
+Auf den Staging- und Entwicklungsbranches kann der Code von Modulen direkt bearbeitet werden. Wählen Sie einen Branch aus und klicken Sie auf *Editor*. Nun öffnet sich in einem neues Fenster *JupyterLab*. Navigieren Sie nach `/src/user`. Hie finden Sie den Modul-Code aus dem GitHub-Repository.
+
+### Betriebssystem wählen
+
+Das Odoo.sh Projekt wird für ein bestimmtes Betriebssystem eingerichtet. Wenn dieses veraltet ist, können Sie unter *Settings* ein neueres Betriebssystem wählen.
+
+::: warning
+Die entsprechende Einstellung wird nur angezeigt, wenn das Betriebssystem veraltet ist.
+:::
 
 ## Berechtigungen
 

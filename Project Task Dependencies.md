@@ -12,7 +12,7 @@ prev: ./project
 {{ $frontmatter.description }}
 
 Technischer Name: `project_task_dependency`\
-Repository: <https://github.com/OCA/project/tree/14.0/project_task_dependency>
+Repository: <https://github.com/OCA/project/tree/15.0/project_task_dependency>
 
 ## Verwendung
 

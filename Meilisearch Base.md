@@ -29,7 +29,7 @@ Um ein Odoo Datenmodell mit Meilisearch zu synchronisieren, muss das *Meilisearc
 
 ### Meilisearch-API-Verbindung einrichten
 
-Navigieren Sie nach *Einstellungen > Technisch > Meilisearch APIs* und erstellen Sie einen neuen Eintrag. Geben Sie einen passenden Namen, die Base-URL inkl. Port und den API-Key ein.
+	Navigieren Sie nach *Einstellungen > Integration* und aktivieren Sie die Option *Meilisearch*. Geben Sie die entsprechenden Werte in *Meilisearch API Url* und *Meilisearch API Key* ein.
 
 ### Meilisearch-Index erstellen
 

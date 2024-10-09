@@ -12,7 +12,7 @@ prev: ./purchase-requisition
 {{ $frontmatter.description }}
 
 Technischer Name: `purchase_requisition_other_information_page`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_other_information_page>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/16.0/purchase_requisition_other_information_page>
 
 ## Verwendung
 

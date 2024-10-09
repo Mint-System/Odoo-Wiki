@@ -12,7 +12,7 @@ prev: ./base
 {{ $frontmatter.description }}
 
 Technischer Name: `auditlog`\
-Repository: <https://github.com/OCA/server-tools/tree/15.0/auditlog>
+Repository: <https://github.com/OCA/server-tools/tree/17.0/auditlog>
 
 ## Konfiguration
 

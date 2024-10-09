@@ -12,7 +12,7 @@ prev: ./hr-holidays
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_attendance_overtime_negative_hours`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_attendance_overtime_negative_hours>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_attendance_overtime_negative_hours>
 
 ## Beschreibung
 

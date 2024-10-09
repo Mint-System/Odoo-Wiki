@@ -234,3 +234,25 @@ Navigieren Sie nach  *Einstellungen > Technisch > Berichtswesen > Berichte* und 
 | Rechnungen            | `'Rechnung_%s.pdf' % object.name.replace("/","_")`         | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
 | Zeitnachweis-Einträge | `(object.date.strftime('%Y-%m')+' Zeitnachweis-Einträge')` |                                                    |
 
+## Troubleshooting
+
+### Cannot convert into barcode
+
+**Problem**
+
+Der Barcode in Berichten kann nicht generiert werden. Wenn man den Barcode direkt aufruft erhält man:
+
+```
+Unknown Error
+
+Cannot convert into barcode.
+```
+
+**Lösung**
+
+Aktualisieren Sie die folgenden Python-Bibliotheken:
+
+```bash
+ pip install reportlab --upgrade
+ pip install rlPyCairo
+```

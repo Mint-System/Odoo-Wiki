@@ -1,19 +1,19 @@
 import { viteBundler } from '@vuepress/bundler-vite'
-import { webpackBundler } from '@vuepress/bundler-webpack'
 import { defaultTheme } from '@vuepress/theme-default'
-import { defineUserConfig } from 'vuepress'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { plausiblePlugin } from './plausible'
+import { mermaidPlugin } from './mermaid'
 import sidebar from './sidebar'
+import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
+    bundler: viteBundler(),
     lang: 'de-CH',
     title: 'Odoo Wiki',
     description: 'Eine einfache und umfassende Odoo-Dokumentation.',
     head: [
         ['link', { rel: 'icon', href: '/icon.png' }]
     ],
-    bundler: webpackBundler(),
     theme: defaultTheme({
         logo: '/icon.png',
         repo: 'mint-system/odoo-wiki',
@@ -43,6 +43,7 @@ export default defineUserConfig({
         }),
         plausiblePlugin({
             'domain': 'odoo-wiki.org'
-        })
+        }),
+        mermaidPlugin()
     ],
 })

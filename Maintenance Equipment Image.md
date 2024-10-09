@@ -12,7 +12,7 @@ prev: ./maintenance
 {{ $frontmatter.description }}
 
 Technischer Name: `maintenance_equipment_image`\
-Repository: <https://github.com/OCA/maintenance/tree/14.0/maintenance_equipment_image>
+Repository: <https://github.com/OCA/maintenance/tree/16.0/maintenance_equipment_image>
 
 ## Verwendung
 

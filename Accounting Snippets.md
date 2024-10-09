@@ -3,7 +3,6 @@ title: Buchhaltung Snippets
 description: Einfache Anpassungen mit Odoo Snippets.
 tags:
 - HowTo
-- Aktionen
 prev: ./accounting
 ---
 # Buchhaltung Snippets

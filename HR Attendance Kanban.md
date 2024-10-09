@@ -25,6 +25,10 @@ Mit diesem Modul können Mitarbeiter ein- oder auschecken, indem sie ihre Kachel
 
 ## Konfiguraiton
 
+### Mitarbeitende auf Kanban-Ansicht anzeigen
+
+Damit Mitarbeitende ihre Kachel auf der Kanban-Ansicht haben, muss auf dem Mitarbeiter-Eintrag eine Option aktiviert werden. Zeigen Sie einen Mitarbeitenden unter *Mitarbeiter* an aktivieren Sie die Option *Mitarbeiter-Kanban*.
+
 ### Anwesenheitsarten verwalten
 
 Navigieren Sie nach *Anwesenheiten > Konfiguration > Anwesenheitsarten*. Hier önnen Sie die Spalten des Kanban-Boards verwalten. Die Einträge können sortiert werden, damit ändert sich die Spalten-Reihenfolge auf dem Board.

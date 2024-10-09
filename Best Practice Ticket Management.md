@@ -1,12 +1,12 @@
 ---
-title: Tickets verwalten
+title: Ticket Verwaltung
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
 
-# Tickets verwalten
+# Ticket Verwaltung
 
 Die Tickets der Kundendienst App können mit verschiedenen Dokumenten verknüpft werden.
 

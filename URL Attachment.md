@@ -12,7 +12,7 @@ prev: ./dialog
 {{ $frontmatter.description }}
 
 Technischer Name: `document_url`\
-Repository: <https://github.com/OCA/knowledge/tree/14.0/document_url>
+Repository: <https://github.com/OCA/knowledge/tree/17.0/document_url>
 
 ## Verwendung
 

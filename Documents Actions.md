@@ -15,7 +15,20 @@ prev: ./documents
 
 ### Dokumente aus Wareneingang taggen
 
-Diese Serveraktion erfordert die Installation von [Stock Lot Traceability List](Stock%20Lot%20Traceability%20List.md) oder [Stock MRP Traceability List](Stock%20MRP%20Traceability%20List.md).
+Diese Serveraktion erfordert die Installation von [Stock Lot Traceability List](Stock%20Lot%20Traceability%20List.md) oder [Stock MRP Traceability List](Stock%20MRP%20Traceability%20List.md). Die Aktion führt diese Schritte aus:
+
+- Für die ausgewählte Seriennummern die Traceability List anzeigen
+- Alle Wareneingänge aus der Traceability List filtern
+- Alle Dokument mit Verknüpfung auf einen gefilterten Wareneingang anzeigen
+- Diese Dokumente mit "Dokumente aus Wareneingang" taggen
+
+```mermaid
+flowchart TD
+    A[Seriennummer] -->|in| B(Traceability List)
+    B -->|enthält| C(Wareneingänge)
+    E(Dokumente Wareingang) -->|tag| D[Dokumente]
+    D -->|verknüpft| C
+```
 
 Navigieren Sie nach *Einstellungen > Technisch > Serveraktionen* und erstellen Sie einen neuen Eintrag:
 

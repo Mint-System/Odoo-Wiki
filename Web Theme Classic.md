@@ -12,4 +12,4 @@ prev: ./settings
 {{ $frontmatter.description }}
 
 Technischer Name: `web_theme_classic`\
-Repository: <https://github.com/OCA/web/tree/16.0/web_theme_classic>
+Repository: <https://github.com/OCA/web/tree/17.0/web_theme_classic>

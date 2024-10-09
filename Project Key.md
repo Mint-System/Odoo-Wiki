@@ -12,7 +12,7 @@ prev: ./project
 {{ $frontmatter.description }}
 
 Technischer Name: `project_key`\
-Repository: <https://github.com/OCA/project/tree/14.0/project_key>
+Repository: <https://github.com/OCA/project/tree/16.0/project_key>
 
 ## Verwendung
 

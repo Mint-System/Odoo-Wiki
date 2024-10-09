@@ -38,24 +38,17 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 | [MRP Production Unplan Move](MRP%20Production%20Unplan%20Move.md)                               | Zukünftiges Datum auf Lagerbuchung bei Planungsabruch festlegen.                 |
 | [MRP Production Update Upstream Move](MRP%20Production%20Update%20Upstream%20Move.md)           | Aktualisiere offene Pickings von Fertigungsaufträgen bei Änderungen.             |
 | [MRP Production Upstream State](MRP%20Production%20Upstream%20State.md)                         | Status von Upstream Lagerbuchung auf Komponentenliste anzeigen.                  |
+| [MRP Sale Info](MRP%20Sale%20Info.md)                                                           | Verkaufsbezogene Informationen auf Fertigungsaufträgen anzeigen.                 |
 | [MRP Workorder Disable Autostart](MRP%20Workorder%20Disable%20Autostart.md)                     | Bei Aufruf von Arbeitsaufträgen in der Tablet-Ansicht nicht automatisch starten. |
 | [MRP Workorder Set Producing Qty](MRP%20Workorder%20Set%20Producing%20Qty.md)                   | Arbeitsauftrag startet ohne erledigte Menge.                                     |
 | [Manufacture Production Move Date](Manufacture%20Production%20Move%20Date.md)                   | Lieferdatum auf Fertigungsauftrag bearbeiten.                                    |
-| [Product Barcode Generator](Product%20Barcode%20Generator.md)                                   | Autogenerate EAN13 product barcodes.                                             |
-| [Product Country of Origin](Product%20Country%20of%20Origin.md)                                 | Bestimmen Sie für jedes Produkt ein Herkunftsland                                |
-| [Product Feeder ID](Product%20Feeder%20ID.md)                                                   | Feeder-Textfeld auf dem Produkt.                                                 |
-| [Product Name Sequence](Product%20Name%20Sequence.md)                                           | Generate product names based on a sequence.                                      |
-| [Product Sequence](Product%20Sequence.md)                                                       | Produkreferenzen anhand einer Sequenz generieren lassen.                         |
-| [Product State](Product%20State.md)                                                             | Lebenszyklus von Produkten festlegen.                                            |
-| [Product Type Description](Product%20Type%20Description.md)                                     | Zu jedem Produkt ein Beschreibungsfeld.                                          |
-| [Secondary Product Type Description](Secondary%20Product%20Type%20Description.md)               | Zu jedem Produkt ein zweites Beschreibungsfeld.                                  |
 | [Stock MRP Traceability List](Stock%20MRP%20Traceability%20List.md)                             | Daten aus Lieferverfolgungsbericht als Liste anzeigen.                           |
 
 ## Konfiguration
 
 ### Vergabe an Subunternehmer aktivieren
 
-Naivigieren Sie nach *Einstellungen > Fertigung > Vorgänge* und aktivieren Sie die Option *An Subunternehmer vergeben*.
+Navigieren Sie nach *Einstellungen > Fertigung > Vorgänge* und aktivieren Sie die Option *An Subunternehmer vergeben*.
 
 ## Aufträge
 

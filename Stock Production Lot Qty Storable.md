@@ -12,4 +12,4 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_production_lot_qty_storable`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_production_lot_qty_storable>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/16.0/stock_production_lot_qty_storable>

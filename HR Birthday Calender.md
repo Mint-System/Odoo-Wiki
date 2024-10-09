@@ -12,7 +12,7 @@ prev: ./hr
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_birthday_calendar`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/13.0/hr_birthday_calendar>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_birthday_calendar>
 
 ## Verwendung
 

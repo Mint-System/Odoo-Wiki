@@ -12,4 +12,4 @@ prev: ./dialog
 {{ $frontmatter.description }}
 
 Technischer Name: `mail_debrand`\
-Repository: <https://github.com/OCA/social/tree/16.0/mail_debrand>
+Repository: <https://github.com/OCA/social/tree/17.0/mail_debrand>

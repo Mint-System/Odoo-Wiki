@@ -12,7 +12,7 @@ prev: ./dialog
 {{ $frontmatter.description }}
 
 Technischer Name: `mail_composer_cc_bcc`\
-Repository: <https://github.com/OCA/social/tree/16.0/mail_composer_cc_bcc>
+Repository: <https://github.com/OCA/social/tree/17.0/mail_composer_cc_bcc>
 
 ## Verwendung
 

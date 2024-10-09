@@ -12,7 +12,7 @@ prev: ./hr
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_employee_firstname`\
-Repository: <https://github.com/OCA/hr/tree/16.0/hr_employee_firstname>
+Repository: <https://github.com/OCA/hr/tree/17.0/hr_employee_firstname>
 
 ## Konfiguration
 

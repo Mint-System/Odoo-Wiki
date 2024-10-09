@@ -12,4 +12,4 @@ prev: ./contacts
 {{ $frontmatter.description }}
 
 Technischer Name: `partner_contact_personal_information_page`\
-Repository: <https://github.com/OCA/partner-contact/tree/16.0/partner_contact_personal_information_page>
+Repository: <https://github.com/OCA/partner-contact/tree/17.0/partner_contact_personal_information_page>

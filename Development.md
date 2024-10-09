@@ -94,6 +94,8 @@ Rufen Sie die *Einstellungen* auf und scrollen Sie auf der Ansicht nach ganz unt
 
 Im Entwicklermodus navigieren Sie nach  *Einstellungen > Technisch >  Benutzer-Interface > Menüposten*. Erstellen Sie einen Filter *Obermenü* mit dem Wert *ist nicht gesetzt*. Nun können Sie die Menüposten mit dem Handler in der Liste anordnen.
 
+![](attachments/Entwicklung%20Menüposten%20anordnen.png)
+
 ### Menüposten umbennen
 
 Im Entwicklermodus können Sie ganz einfach Menüposten umbennen. Angenommen Sie möchten diesen Punkt umbennen:

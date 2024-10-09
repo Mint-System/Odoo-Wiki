@@ -12,7 +12,7 @@ prev: ./
 {{ $frontmatter.description }}
 
 Website: <https://github.com/OCA/brand>\
-Repository: <https://github.com/OCA/brand/tree/16.0/brand>
+Repository: <https://github.com/OCA/brand/tree/17.0/brand>
 
 ## Erweiterungen
 

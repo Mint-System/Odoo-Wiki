@@ -1,12 +1,12 @@
 ---
-title: Stundenlohn abrechnen
+title: Abrechnung Stundenlohn
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
 
-# Stundenlohn abrechnen
+# Abrechnung Stundenlohn
 
 Wenn Sie die Erweiterung [Swiss Payroll](Gio%20Payroll%20Custom.md) für Schweizer Lohnabrechnung verwenden, können Sie damit auch Stundenlöhner abrechnen.
 

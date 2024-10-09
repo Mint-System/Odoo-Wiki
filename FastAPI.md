@@ -12,4 +12,4 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `fastapi`\
-Repository: <https://github.com/OCA/rest-framework/tree/16.0/fastapi>
+Repository: <https://github.com/OCA/rest-framework/tree/17.0/fastapi>

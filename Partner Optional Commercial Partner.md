@@ -12,7 +12,7 @@ prev: ./contacts
 {{ $frontmatter.description }}
 
 Technischer Name: `partner_optional_commercial_partner`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/15.0/partner_optional_commercial_partner>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/partner_optional_commercial_partner>
 
 ## Beschreibung
 

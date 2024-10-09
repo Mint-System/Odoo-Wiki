@@ -371,6 +371,12 @@ Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 
 Webshop ohne Integrationsaufwand.
 
+### [Werkstatt](Shoopfloor.md)
+
+![](attachments/icons_odoo_shopfloor.png)
+
+Die ganze Fertigung auf einen Blick.
+
 ### [Wissen](Knowledge.md)
 
 ![icons_odoo_knowledge](attachments/icons_odoo_knowledge.png)
@@ -423,17 +429,23 @@ Odoo für die Holzwirtschaft.
 
 Stelleninserate verwalten.
 
+### [Legal Advice Base](Legal%20Advice%20Base.md)
+
+![](attachments/icons_odoo_legal_advice_base.png)
+
+Rechtsberatungen mit Kunden und Experten abwickeln.
+
 ### [Lizenz](License.md)
 
 ![](attachments/odoo_icons_license.png)
 
 Software verkaufen und lizenzieren.
 
-### [Management System](Management%20System.md)
+### [Management Systems](Management%20Systems.md)
 
 ![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.png)
 
-Odoo for Management Systems (ISO, IEC, BS).
+Odoo for Management Systems (ISO, IEC, BS, EASA).
 
 ### [Odoo.sh](Odoo.sh.md)
 

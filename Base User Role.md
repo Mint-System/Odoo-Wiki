@@ -12,7 +12,7 @@ prev: ./settings
 {{ $frontmatter.description }}
 
 Technischer Name: `base_user_role`\
-Repository: <https://github.com/OCA/server-backend/tree/16.0/base_user_role>
+Repository: <https://github.com/OCA/server-backend/tree/17.0/base_user_role>
 
 ## Verwendung
 

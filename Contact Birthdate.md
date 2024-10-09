@@ -12,7 +12,7 @@ prev: ./contacts
 {{ $frontmatter.description }}
 
 Technischer Name: `partner_contact_birthdate`\
-Repository: <https://github.com/OCA/partner-contact/tree/14.0/partner_contact_birthdate>
+Repository: <https://github.com/OCA/partner-contact/tree/17.0/partner_contact_birthdate>
 
 ::: warning
 Diese Dokumentation wurde durch [Partner Contact Birthdate](Partner%20Contact%20Birthdate.md) ersetzt.

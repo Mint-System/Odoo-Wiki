@@ -13,7 +13,7 @@ prev: ./dashboards
 {{ $frontmatter.description }}
 
 Technischer Name: `board_users`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/board_users>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/15.0/board_users>
 
 ## Verwendung
 

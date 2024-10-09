@@ -388,6 +388,22 @@ records.write({'account_id': account_id.id})
 
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
 
+### Informationen der Zahlungsmethode anzeigen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Informationen der Zahlungsmethode anzeigen`\
+Modell: `account.payment.method`\
+Folgeaktion: `Python-Code ausführen`\
+Python-Code:
+
+```python
+_data = records._get_payment_method_information()  
+raise UserError(str(data))_
+```
+
+Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+
 ## Geplante Aktionen
 
 ### Rechnung mit Abrechnungsintervall generieren

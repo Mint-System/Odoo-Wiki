@@ -12,4 +12,4 @@ prev: ./contract
 {{ $frontmatter.description }}
 
 Technischer Name: `subscription_oca`\
-Repository: <https://github.com/OCA/contract/tree/16.0/subscription_oca>
+Repository: <https://github.com/OCA/contract/tree/17.0/subscription_oca>

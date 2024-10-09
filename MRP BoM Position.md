@@ -12,7 +12,7 @@ prev: ./order-positions
 {{ $frontmatter.description }}
 
 Technischer Name: `mrp_bom_position`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_bom_position>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/16.0/mrp_bom_position>
 
 ## Verwendung
 

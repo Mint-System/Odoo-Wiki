@@ -12,7 +12,7 @@ prev: ./settings
 {{ $frontmatter.description }}
 
 Technischer Name: `auth_oidc`\
-Repository: <https://github.com/OCA/server-auth/tree/16.0/auth_oidc>
+Repository: <https://github.com/OCA/server-auth/tree/17.0/auth_oidc>
 
 ## Konfiguration
 

@@ -1,12 +1,12 @@
 ---
-title: Stückpreis definieren
+title: Definition Stückpreis
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
 
-# Best-Practice Stückpreis definieren
+# Definition Stückpreis
 
 Für die Definition des Stückpreises stehen verschiedene Funktionen zur Verfügung
 

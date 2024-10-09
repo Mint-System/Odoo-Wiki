@@ -32,7 +32,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Blanket Order Comment](Sale%20Blanket%20Order%20Comment.md)                                 | Kommentar auf Rahmenauftrag.                                                  |
 | [Sale Company Currency](Sale%20Company%20Currency.md)                                             | Total der Verkaufsaufträge in Unternehmenswährung.                            |
 | [Sale Force Invoiced](Sale%20Force%20Invoiced.md)                                                 | Markieren Sie den Verkaufsauftrag als abgerechnet.                            |
-| [Sale Invoice Policy](Sale%20Invoice%20Policy.md)                                                 | Abrechnungsregel auf Produkte und Angebot festlegen.                          |
+| [Sale Invoice Policy](Sale%20Invoice%20Policy.md)                                                 | Abrechnungsregel auf Produkt und Angebot festlegen.                           |
 | [Sale Order Archive](Sale%20Order%20Archive.md)                                                   | Abgebrochene Verkaufsaufträge archivieren.                                    |
 | [Sale Order Check Price](Sale%20Order%20Check%20Price.md)                                         | Preis vor Bestätigung des Angebots prüfen.                                    |
 | [Sale Order Comment](Sale%20Order%20Comment.md)                                                   | Kommentar auf Verkaufsauftrag.                                                |
@@ -74,6 +74,16 @@ Die Standard-Steuer für ein bestimmtes Produkt wird in den Produkt-Stammdaten u
 Unterschiedliche Steuern der einzelnen Line-Items werden im Formular und im Bericht gruppiert dargestellt. Die Zuordnung erfolgt über die *Steuergruppe* gemäss dem Feld *Steuergruppe* im Tab *Erweiterte Optionen*.
 
 ![](attachments/Verkauf%20Steuer-Gruppen.png)
+
+## Konfiguration
+
+### Angebote mit Online-Unterschrift bestätigen lassen
+
+Wenn Sie ihre Angebote von Kunden mit einer Online-Unterschrift bestätigen lassen wollen, aktivieren Sie die Option *Einstellungen > Verkauf > Angebot & Auftrage > Online-Unterschrift*.
+
+### Angebote mit Online-Zahlung bestätigen lassen
+
+Wenn Sie ihre Angebote von Kunden mit einer Online-Zahlung bestätigen lassen wollen, aktivieren Sie die Option *Einstellungen > Verkauf > Angebot & Auftrage > Online-Zahlung*.
 
 ## Aufträge
 

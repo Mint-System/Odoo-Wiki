@@ -13,7 +13,7 @@ prev: ./
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order`\
-Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_blanket_order>
+Repository: <https://github.com/OCA/sale-workflow/tree/16.0/sale_blanket_order>
 
 ## Erweiterungen
 

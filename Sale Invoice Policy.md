@@ -1,6 +1,6 @@
 ---
 title: Sale Invoice Policy
-description: Abrechnungsregel auf Produkte und Angebot festlegen.
+description: Abrechnungsregel auf Produkt und Angebot festlegen.
 tags:
 - HowTo
 - OCA
@@ -12,13 +12,17 @@ prev: ./sale
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_invoice_policy`\
-Repository: <https://github.com/OCA/sale-workflow/tree/15.0/sale_invoice_policy>
+Repository: <https://github.com/OCA/sale-workflow/tree/17.0/sale_invoice_policy>
 
 ## Verwendung
 
 ### Abrechnungsregel auf Produkt festlegen
 
 Navigieren Sie nach *Verkauf > Produkte > Produkte* und zeigen Sie ein Produkt an. Im Feld *Default Invoicing Policy* wählen Sie die passende Abrechnungsregel aus.
+
+::: warning
+Diese Erweiterung ersetzt das Feld *Abrechnungspolitik*.
+:::
 
 ### Abrechnungsregel auf Angebot festlegen
 

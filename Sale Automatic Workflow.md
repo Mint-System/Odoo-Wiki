@@ -12,7 +12,7 @@ prev: ./sale
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_automatic_workflow`\
-Repository: <https://github.com/OCA/sale-workflow/tree/16.0/sale_automatic_workflow>
+Repository: <https://github.com/OCA/sale-workflow/tree/17.0/sale_automatic_workflow>
 
 ## Konfiguration
 

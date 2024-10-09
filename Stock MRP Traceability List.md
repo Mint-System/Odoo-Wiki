@@ -12,7 +12,7 @@ prev: ./manufacture
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_mrp_traceability_list`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/16.0/stock_mrp_traceability_list>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/stock_mrp_traceability_list>
 
 
 ## Verwendung

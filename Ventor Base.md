@@ -12,4 +12,4 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `ventor_base`\
-Repository: <https://github.com/ventor-tech/merp/tree/16.0/ventor_base>
+Repository: <https://github.com/ventor-tech/merp/tree/17.0/ventor_base>
