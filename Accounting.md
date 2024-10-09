@@ -66,6 +66,10 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 
 ## Konfiguration
 
+::: tip
+Das Onboarding-Panel kann über das Menu Technisch > Benutzerschnittstelle > Einführungen > Einführung ins Buchhaltungsdashboard und die Funktion *Sichtbarkeit ein/aus* eingeschaltet werden.
+:::
+
 ### Zahlungsbedingungen definieren
 
 Um spezielle Zahlungsbedingungen zu formulieren navigieren Sie nach *Einstellungen > Buchhaltung > Zahlungsbedingungen* . Dort können Sie einen vorhandenen Eintrag kopieren oder neu anlegen und nach den eigenen Wünschen konfigurieren.
