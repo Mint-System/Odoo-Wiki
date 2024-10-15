@@ -31,7 +31,7 @@ Damit Sie manuelle Überstunden-Einträge erstelle können, müssen Sie die Akti
 
 Angenommen dass Startdatum ist der *01.07.2024*, dann erstellen Sie unter *Anwesenheiten > Überstunden* die Überstunden-Einträge mit Datum *30.06.2024*.
 
-::: info
+::: tip
 Bei der Berechnung und Aktualisierung der Überstunden ignoriert Odoo alle Einträge vor dem Startdatum.
 :::
 

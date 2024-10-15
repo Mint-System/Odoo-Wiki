@@ -160,7 +160,7 @@ for record in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-Im Formular der Anwesenheiten erscheint nun in der Auswahl *Aktion* das Menu *Überstunden aktualisieren*.
+In der Listenansicht der Anwesenheiten erscheint nun in der Auswahl *Aktion* das Menu *Überstunden aktualisieren*.
 
 ## Geplante Aktionen 
 
