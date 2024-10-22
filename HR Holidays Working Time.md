@@ -22,7 +22,7 @@ Mit dieser Erweiterungen werden für bestätigte Abwesenheiten von ausgewählten
 
 ### Abwesenheitsart für Anwesenheiten konfigurieren
 
-Navigieren Sie nach *Anwesenheiten > Konfiguration > Abwesenheitsarten* und öffnen Sie eine Abwesenheitsart, für welche die Abwesenheiten als Anwesenheiten erfasst werden soll. Bei *Abwesenheitsart* wählen Sie *Gearbeitet Zeit* aus. Anschliessend aktivieren Sie die Option *Erstelle als Anwesenheit*. Optional konfigurieren Sie diese Felder:
+Navigieren Sie nach *Anwesenheiten > Konfiguration > Abwesenheitsarten* und öffnen Sie eine Abwesenheitsart, für welche die Abwesenheiten als Anwesenheiten erfasst werden soll. Aktivieren Sie die Option *Erstelle als Anwesenheit*. Optional konfigurieren Sie diese Felder:
 
 * **Kalender**: Bestimmen Sie die Arbeitszeit zur Berechnung der Anwesenheiten. Wenn die Auswahl leer ist, wird die Arbeitszeit des Mitarbeitenden verwendet.
 * **Maximale Stunden Abwesenheit**: Bei Überschreitung dieser Stundenzahl der Abwesenheit werden keine Anwesenheiten erstellt. Wenn die Eingabe leer ist, wird kein Maximum definiert.

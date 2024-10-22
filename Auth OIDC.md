@@ -76,7 +76,7 @@ Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine 
 
 ### Login mit Keycloak konfigurieren
 
-Damit Sie mit einem Keycloak-Account in Odoo einloggen können, müssen Sie als erstes ein OAuth-Client in einem ausgewählten Keycloak Realm erstellen. Im folgenden Beispiel ist Odoo-Installation unter <https://odoo.example.com> und eine Keycloak-Instanz unter <https://login.example.com> mit dem realm "Demo" verügbar.
+Damit Sie mit einem Keycloak-Account in Odoo einloggen können, müssen Sie als erstes ein OAuth-Client in einem ausgewählten Keycloak Realm erstellen. Im folgenden Beispiel ist Odoo-Installation unter <https://odoo.example.com> und eine Keycloak-Instanz unter <https://login.example.com> mit dem realm *Demo* bereits verfügbar.
 
 Loggen Sie sich bei Keycloak ein und erstellen Sie einen neuen Client mit diesen Informationen:
 
@@ -86,6 +86,8 @@ Loggen Sie sich bei Keycloak ein und erstellen Sie einen neuen Client mit diesen
 * **Root URL**: <https://odoo.example.com>
 
 Öffnen Sie den *Credentials* Tab des Client und notieren Sie sich den Wert von *Client secret*.
+
+Zeigen Sie die OpenID Konfigurationen ihres Realms an: <https://login.example.com/realms/Demo/.well-known/openid-configuration>. Hier finden Sie Endpoint-URLs, die Sie für die Konfiguration in Odoo brauchen.
 
 Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Integration*. Klicken Sie auf *OAuth Provider* und erstellen Sie einen neuen Eintrag:
 
@@ -98,8 +100,11 @@ Loggen Sie sich in Odoo ein und navigieren Sie nach *Einstellungen > Allgemeine 
 * **Body**: `Login with Keycloak`
 * **Authorization URL**: `https://login.example.com/realms/Demo/protocol/openid-connect/auth`
 * **Scope**: `openid`
+* **Benutzerinfo-URL**: `https://login.example.com/realms/Demo/protocol/openid-connect/userinfo`
 * **Token URL**: `https://login.example.com/realms/Demo/protocol/openid-connect/token`
 * **JWKS URL**: `https://login.example.com/realms/Demo/protocol/openid-connect/certs`
+
+Passen Sie die Domains `odoo.example.com` und `login.example.com` sowie den Realm `Demo` gemäss ihrer Umgebung an.
 
 ## Verwendung
 
