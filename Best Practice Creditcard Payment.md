@@ -12,7 +12,7 @@ In diesem Best Practice wird der Umgang mit Kreditkartenabrechnungen erläutert.
 
 ## Konto Kreditkarte Zahlungen erstellen
 
-Die Kreditkartenzahlungen sollen auf bestimmtes Konto verbucht werden. Dazu können Sie ein neues [Konto erfassen](Accounting%20Finance.md#Konto%20erfassen):
+Die Kreditkartenzahlungen sollen auf ein bestimmtes Konto verbucht werden. Dazu können Sie ein neues [Konto erfassen](Accounting%20Finance.md#Konto%20erfassen):
 
 * **Code**: 1023k
 * **Name**: Kreditkarte Zahlungen
