@@ -44,11 +44,11 @@ Wenn die Domain mit dem Datenbanknamen gekoppelt ist, können Sie das Feld leer 
 
 ## Berechtigung
 
-### Shop-Registration verhindern
+### Kunden-Registration verhindern
 
 Navigieren Sie nach *Einstellungen > Website > Shop - Kassiervorgang* und wählen Sie die Option *Deaktiviert (als Gast einkaufen)* bei *Anmelden/Registrieren bei Kassiervorgang*.
 
-### Shop-Registration erlauben
+### Kunden-Registration erlauben
 
 Navigieren Sie nach *Einstellungen > Website > Shop - Kassiervorgang* und wählen Sie eine Option bei *Anmelden/Registrieren bei Kassiervorgang* aus:
 
