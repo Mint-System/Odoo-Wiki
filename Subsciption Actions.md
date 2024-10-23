@@ -52,7 +52,7 @@ Wenn das Enddatum vor dem heutigen Tag liegt, wird das Abonnement geschlossen.
 
 Wenn das Abrechnungsdatum erreicht wurde, wird eine Rechnung erstellt und das nächste Abrechnungsdatum aktualisiert. Die Rechnung wird automatisch gebucht und verschickt.
 
-### Abonnemente vor Ablauf in Stufe verschieben
+### Verkaufsabonnement: Vor Ablauf in Stufe verschieben
 
 Diese geplante Aktion prüft das nächste Abrechnungsdatum und verschiebt die Abonnement abhängig von der verbleibenden Wochen in eine entsprechende Stufe.
 
@@ -60,7 +60,7 @@ Erstellen Sie eine externe ID `__custom__.reminder_stage1` und `__custom__.remin
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Abonnemente vor Ablauf in Spalte verschieben`\
+Name der Aktion: `Verkaufsabonnement: Vor Ablauf in Spalte verschieben`\
 Modell: `ir.actions.server`\
 Ausführen alle: `1` Tage\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
@@ -107,7 +107,7 @@ stage2_subscriptions = env["sale.order"].search([
 stage2_subscriptions.write({"stage_id": stage2_id.id})
 ```
 
-### Abonnemente vor Abrechnung verlängern
+### Verkaufsabonnement: Vor Abrechnung verlängern
 
 Diese geplante Aktion prüft das nächste Abrechnungsdatum der Abonnemente, erstellt ein Angebot zur Verlängerung und sendet dieses an den Kunden. Die folgenden Kriterien müssten für eine automatische Verlängerung stimmen:
 
@@ -115,11 +115,11 @@ Diese geplante Aktion prüft das nächste Abrechnungsdatum der Abonnemente, erst
 * Das Abonnement hat eine bestimmte Preisliste
 * Das Abonnement ist in der Stufe *Laufend*
 * Der Verkaufsauftrag ist im Status *Verkaufsauftrag*
-* Das nächste Abrechnungsdatum liegt vor dem heutigen Datum in 6 Wochen
+* Das nächste Abrechnungsdatum liegt zwischen Heute und plus 6 Wochen
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Abonnemente vor Abrechnung verlängern`\
+Name der Aktion: `Verkaufsabonnement: Vor Abrechnung verlängern`\
 Modell: `ir.actions.server`\
 Ausführen alle: `1` Tage\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
@@ -151,6 +151,7 @@ extend_subscriptions = env["sale.order"].search([
   ("stage_id", "=", stage_running_id.id),
   ("state", "=", "sale"),
   ("next_invoice_date", "<=", extend_date),
+  ("next_invoice_date", ">=", today),
 ])
 
 # raise UserError([extend_subscriptions, extend_date])

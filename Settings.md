@@ -61,6 +61,16 @@ Und füllen Sie mindestens diese Felder aus:
 * **Website**: Webauftritt des Unternehmen
 * **Währung**: Basis-Währung des Unternehmens
 
+## Berechtigung
+
+### Benutzer-Registration verhindern
+
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Berechtigungen* und wählen Sie bei *Kundenkonto* die Option *Auf Einladung* aus.
+
+### Benutzer-Registration erlauben
+
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Berechtigungen* und wählen Sie bei *Kundenkonto* die Option *Kostenlose Anmeldung* aus.
+
 ## Technisch
 
 ### Entwicklermodus aktivieren

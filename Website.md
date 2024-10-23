@@ -44,12 +44,16 @@ Wenn die Domain mit dem Datenbanknamen gekoppelt ist, können Sie das Feld leer 
 
 ## Berechtigung
 
-### Registration erlauben
+### Shop-Registration verhindern
 
-Navigieren Sie nach *Einstellungen > Website > Berechtigung* und wählen Sie eine Option bei *Kundenkonto* aus:
+Navigieren Sie nach *Einstellungen > Website > Shop - Kassiervorgang* und wählen Sie die Option *Deaktiviert (als Gast einkaufen)* bei *Anmelden/Registrieren bei Kassiervorgang*.
 
-* **Auf Einladung**: Portal-Benutzer müssen eingeladen werden, damit Sie Zugriff erhalten
-* **Kostenlose Anmeldung**: Benutzer können sich selber im Portal registrieren.
+### Shop-Registration erlauben
+
+Navigieren Sie nach *Einstellungen > Website > Shop - Kassiervorgang* und wählen Sie eine Option bei *Anmelden/Registrieren bei Kassiervorgang* aus:
+
+* **Optional**: Benutzer können sich registrieren
+* **Erforderlich**: Benutzer müssen sich registrieren
 
 ### Zugriff Menu beschränken
 
