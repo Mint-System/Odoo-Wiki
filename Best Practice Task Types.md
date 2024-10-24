@@ -20,7 +20,7 @@ Als Orientierung zur Definition der Aufgabenphasen wurd
 * **Backlog 🎒**: Hier werden alle Aufgaben gesammelt und verifiziert. Die Aufgaben werden noch keiner Person zugewiesen.
 * **Bereit 🏁**: Die Aufgabe ist zur Bearbeitung bereit und kann zugewiesen werden.
 * **In Arbeit 🧑‍💻**: Die Aufgabe ist in Bearbeitung.
-* **Zur Verifizierung 🔍**: Die Aufgabe wurde erledigt und wird von einer dritten Person validiert.
+* **Feedback 💬**: Die Aufgabe wurde erledigt und wird von einer dritten Person validiert.
 * **Erledigt ✅**: Die Aufgabe ist erledigt und kann archiviert werden.
 * **Postlog ♻️**: Aufgaben in dieser Stufe sind nie erledigt und werden fortlaufen bearbeitet, beispielsweise Projektadministration oder Kulanzleistungen.
 
