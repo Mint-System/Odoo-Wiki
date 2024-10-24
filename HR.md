@@ -31,6 +31,7 @@ Website: <https://www.odoo.com/de_DE/app/employees>
 | [HR Employee ID](HR%20Employee%20ID.md)                             | Identifikationsnummer für Mitarbeitende.                                                  |
 | [HR Employee Skill](HR%20Employee%20Skill.md)                       | Übersicht der Mitarbeiterfähigkeiten.                                                     |
 | [HR Employee User ACL](HR%20Employee%20User%20ACL.md)               | Zugriffsrechte auf Mitarbeitende festlegen.                                               |
+| [HR Holidays User ACL](HR%20Holidays%20User%20ACL.md)               | Zugriffsrechte auf Abwesenheiten festlegen.                                               |
 | [HR Shortname](HR%20Shortname.md)                                   | Zu jedem Mitarbeitenden ein Kürzel speichern.                                             |
 | [HR Vehicle Request Calendar](HR%20Vehicle%20Request%20Calendar.md) | Kalenderansicht und Terminbestätigung für Fahrzeuganfragen.                               |
 | [HR Vehicle Request](HR%20Vehicle%20Request.md)                     | Fahrzeuganfragen für Mitarbeitende verwalten.                                             |
