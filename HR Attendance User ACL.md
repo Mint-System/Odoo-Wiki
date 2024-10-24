@@ -1,12 +1,12 @@
 ---
-title: HR Attendance User Acl
+title: HR Attendance User ACL
 description: Manuelle Erfassung der Anwesenheit für Gruppe Benutzer erlauben.
 tags:
 - HowTo
 - Drittanbieter
 prev: ./hr-holidays
 ---
-# HR Attendance User Acl
+# HR Attendance User ACL
 ![icon_oms_box](attachments/icon_oms_box.png)
 
 {{ $frontmatter.description }}
