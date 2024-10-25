@@ -323,6 +323,12 @@ Odoo installieren und konfigurieren.
 
 Spesen erfassen und abrechnen.
 
+### [Spreadsheet](Spreadsheet.md)
+
+![icons_odoo_spreadsheet_dashboard](attachments/icons_odoo_spreadsheet_dashboard.png)
+
+Schöne Dashboards mit Odoo Spreadsheets.
+
 ### [Strichcode](Barcode.md)
 
 ![icons_odoo_stock_barcode](attachments/icons_odoo_stock_barcode.png)

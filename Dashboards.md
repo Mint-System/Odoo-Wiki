@@ -12,11 +12,12 @@ prev: ./
 
 ## Erweiterungen
 
-| Erweiterung                                       | Beschreibung                            |
-| ------------------------------------------------- | --------------------------------------- |
-| [Board Users](Board%20Users.md)                   | Dashboars von allen Benutzer anzeigen.  |
-| [Mail Activity Board](Mail%20Activity%20Board.md) | Übersicht aller erstellten Aktivitäten. |
-| [Mail Activity Done](Mail%20Activity%20Done.md)   | Aktivitäten als erledigt markieren.     |
+| Erweiterung                                       | Beschreibung                             |
+| ------------------------------------------------- | ---------------------------------------- |
+| [Board User ACL](Board%20User%20ACL.md)           | Zugriffsrechte auf Dashbaords festlegen. |
+| [Board Users](Board%20Users.md)                   | Dashboars von allen Benutzer anzeigen.   |
+| [Mail Activity Board](Mail%20Activity%20Board.md) | Übersicht aller erstellten Aktivitäten.  |
+| [Mail Activity Done](Mail%20Activity%20Done.md)   | Aktivitäten als erledigt markieren.      |
 
 ## Verwendung
 
