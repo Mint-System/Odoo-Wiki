@@ -1,6 +1,6 @@
 ---
 title: Spreadsheet Board User ACL
-description: Zugriffsrechte auf Spreadsheet Dashbaords festlegen.
+description: Zugriffsrechte auf Spreadsheet Dashboards festlegen.
 tags:
 - HowTo
 - Drittanbieter
@@ -16,6 +16,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Spreadsheet/tree/16.0/spre
 
 ## Verwendung
 
-### Zugriff auf App-Menü Dashbaords erteilen
+### Zugriff auf App-Menü Dashboards erteilen
 
-Navigieren Sie nach *Einstellungen > Benutzer & Unternehmen > Gruppen* und zeigen Sie Gruppe *Zugriffsrechte / Menü Spreadsheet Dashbaords*. Fügen Sie die Benutzer hinzu, welche Zugriff auf das Menü *Dashbaords* erhalten sollen.
+Navigieren Sie nach *Einstellungen > Benutzer & Unternehmen > Gruppen* und zeigen Sie Gruppe *Zugriffsrechte / Menü Spreadsheet Dashboards*. Fügen Sie die Benutzer hinzu, welche Zugriff auf das Menü *Dashboards* erhalten sollen.

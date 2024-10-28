@@ -1,6 +1,6 @@
 ---
 title: Board User ACL
-description: Zugriffsrechte auf Dashbaords festlegen.
+description: Zugriffsrechte auf Dashboards festlegen.
 tags:
 - HowTo
 - Drittanbieter
@@ -16,6 +16,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/boa
 
 ## Verwendung
 
-### Zugriff auf App-Menü Dashbaords erteilen
+### Zugriff auf App-Menü Dashboards erteilen
 
-Navigieren Sie nach *Einstellungen > Benutzer & Unternehmen > Gruppen* und zeigen Sie Gruppe *Zugriffsrechte / Menü Dashbaords*. Fügen Sie die Benutzer hinzu, welche Zugriff auf das Menü *Dashbaords* erhalten sollen.
+Navigieren Sie nach *Einstellungen > Benutzer & Unternehmen > Gruppen* und zeigen Sie Gruppe *Zugriffsrechte / Menü Dashboards*. Fügen Sie die Benutzer hinzu, welche Zugriff auf das Menü *Dashboards* erhalten sollen.

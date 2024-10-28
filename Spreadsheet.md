@@ -14,4 +14,4 @@ prev: ./
 
 | Erweiterung                                                       | Beschreibung                                         |
 | ----------------------------------------------------------------- | ---------------------------------------------------- |
-| [Spreadsheet Board User ACL](Spreadsheet%20Board%20User%20ACL.md) | Zugriffsrechte auf Spreadsheet Dashbaords festlegen. |
+| [Spreadsheet Board User ACL](Spreadsheet%20Board%20User%20ACL.md) | Zugriffsrechte auf Spreadsheet Dashboards festlegen. |
