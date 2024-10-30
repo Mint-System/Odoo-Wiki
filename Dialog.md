@@ -29,7 +29,8 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 | [Account Move Unsubscribe](Account%20Move%20Unsubscribe.md)                              | Alle Abonnenten nach Buchung eines Buchungssatzes entfernen.           |
 | [Email CC and BCC](Mail%20Composer%20Cc%20Bcc.md)                                        | Im E-Mail-Dialog Cc und Bcc festlegen.                                 |
 | [Mail Activity Datetime](Mail%20Activity%20Datetime.md)                                  | Datum mit Zeit für Fälligkeit von Aktivität.                           |
-| [Mail Composer Default Template](Mail%20Composer%20Default%20Template.md)                | Standardvorlage für E-Mail-Dialog festlegen.                             |
+| [Mail Composer Default Template](Mail%20Composer%20Default%20Template.md)                | Standardvorlage für E-Mail-Dialog festlegen.                           |
+| [Mail Composer Mass Layout](Mail%20Composer%20Mass%20Layout.md)                          | Mail-Layout beim Versand von mehreren Mails anwenden.                  |
 | [Mail Debrand](Mail%20Debrand.md)                                                        | Odoo Promotion aus E-Mail-Vorlagen entfernen.                          |
 | [Mail No Autofollow](Mail%20No%20Autofollow.md)                                          | Beim Erstellen von Nachrichten erfolgt keine automatische Abonnierung. |
 | [Mail Optional Follower Notification](Mail%20Optional%20Follower%20Notification.md)      | Auswahl Nachrichen an Abonnenten verschicken.                          |
