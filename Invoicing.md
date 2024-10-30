@@ -56,6 +56,10 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 Öffnen Sie *Rechnungsstellung > Kunden > Rechnungen* und fügen Sie einen Eintrag hinzu.
 
+### Rechnungen versenden
+
+Zeigen Sie *Rechnungsstellung > Kunden > Rechnungen* und markieren Sie die gebuchten Rechnungen, die Sie versenden möchten. Wählen Sie *Aktion > Rechnung versenden*, ändern Sie optional die Mail-Vorlage im Dialog und bestätigen Sie den Versand mit *Senden*.
+
 ### Rechnung zurücksetzen
 
 Um eine gebucht Rechnung zurückzusetzen navigieren Sie nach nach *Rechnungsstellung > Kunden > Rechnungen* und zeigen eine ausgewählte Rechnung an. Wählen Sie die Aktion *Zurücksetzen* damit die Rechnung in den Status *Entwurf* gesetzt wird.
