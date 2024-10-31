@@ -19,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 ### Rückverfolgbarkeit als Liste anzeigen
 
-Zeigen Sie eine *Los-/Seriennummern* via *Lager > Produkte > Los-/Seriennummern* an und klicken Sie auf den Smart-Link *Rückverfolgbarkeitsliste*. Sie erhalten eine Listenansicht der Zeilen aus dem Lieferverfolgungsbericht.
+Zeigen Sie eine *Los-/Seriennummern* via *Lager > Produkte > Los-/Seriennummern* an und klicken Sie auf den Smart-Link *Rückverfolgbarkeitsliste*. Sie erhalten eine Listenansicht der Zeilen aus dem Rückverfolgbarkeitsbericht.
 
 Die Rückverfolgbarkeitsliste:
 

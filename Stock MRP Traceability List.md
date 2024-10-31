@@ -17,15 +17,15 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/stoc
 
 ## Verwendung
 
-### Lieferverfolgung als Liste anzeigen
+### ### Rückverfolgbarkeit als Liste anzeigen
 
-Zeigen Sie einen erledigten Fertigungsauftrag via *Fertigung > Vorgänge > Fertigungsaufträge* an und klicken Sie auf den Smart-Link *Lieferverfolgungsliste*. Sie erhalten eine Listenansicht der Zeilen aus dem Lieferverfolgungsbericht.
+Zeigen Sie einen erledigten Fertigungsauftrag via *Fertigung > Vorgänge > Fertigungsaufträge* an und klicken Sie auf den Smart-Link *_Rückverfolgbarkeitsliste_*. Sie erhalten eine Listenansicht der Zeilen aus dem Rückverfolgbarkeitsbericht.
 
 Die Lieferverfolgungsliste:
 
 ![](attachments/Stock%20MRP%20Traceability%20List.png)
 
-Der Lieferverfolungsbericht zum Verlgeich:
+Der Rückverfolgbarkeitsbericht zum Verlgeich:
 
 ![](attachments/Stock%20MRP%20Traceability%20List%20Report.png)
 
