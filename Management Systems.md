@@ -26,3 +26,27 @@ prev: ./
 | [Mgmt Risk](Mgmt%20Risk.md)                     | Verwaltung von ISO27001 Risiken.                                   |
 | [Mgmtsystem Audit](Mgmtsystem%20Audit.md)       | Audit-Module for the OCA Management System.                            |
 | [Mmgt Asset](Mmgt%20Asset.md)                   | Asset-Verwaltung für das Management-System.                        |
+
+## Beschreibung
+
+Das Mint System Mangement System besteht aus verschiedenen Modulen. Die folgende Grafik zeigt die Abhängigkeit der Module:
+
+```mermaid
+graph TD
+  mgmt_asset --> mgmt_base
+  mgmt_asset --> product
+  mgmt_asset --> maintenance
+  mgmt_asset_risk --> mgmt_asset
+  mgmt_asset_risk --> mgmt_risk
+  mgmt_audit --> mgmt_requirement
+  mgmt_audit --> mgmt_risk
+  mgmt_auditlog --> mgmt_base
+  mgmt_auditlog --> auditlog
+  mgmt_audit_project --> mgmt_audit
+  mgmt_audit_project --> project
+  mgmt_base --> base
+  mgmt_hazard_risk --> mgmt_risk
+  mgmt_requirement --> mgmt_risk
+  mgmt_risk --> mgmt_base
+  mgmt_risk --> hr
+```
