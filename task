@@ -22,6 +22,7 @@ function help() {
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vue-dev" "" "Start vuepress development server."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vue-build" "" "Create vuepress build."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "serve-vue-build" "" "Serve vuepress build."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "download-icons" "" "Download module icons from Odoo assets."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "update-repo-url" "" "Check and update repository urls."
 
     echo
@@ -92,6 +93,9 @@ case "$1" in
         ;;
     update-repo-url)
         update-repo-url
+        ;;
+    download-icons)
+        npm run download-icons
         ;;
     *)
         help
