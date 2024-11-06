@@ -30,7 +30,7 @@ Zur Verwaltung der Odoo-Instanzen gibt es den Datenbankmanager. Dieses Tool erla
 
 ### Datenbank erstellen
 
-Möchten Sie eine Datenbank für ihre Odoo-Installation erstellen, öffnen Sie den Datenbankmanager unter https://erp.example.com/web/database/manager und geben die folgenden Daten ein.
+Möchten Sie eine Datenbank für ihre Odoo-Installation erstellen, öffnen Sie den Datenbankmanager unter https://$HOSTNAME/web/database/manager und geben die folgenden Daten ein:
 
 * Master Password: Dieses Passwort ist vordefiniert
 * Database Name: `erp`
@@ -38,7 +38,7 @@ Möchten Sie eine Datenbank für ihre Odoo-Installation erstellen, öffnen Sie d
 ::: tip
 Der Name der Datenbank muss gleich der Subdomain/Domain sein. Beispiel:  
 
-<https://erp.example.com> -> `erp`  
+<https://odoo.example.com> -> `odoo`  
 <https://www.example.com> -> `example`  (das *www* wird ignoriert)
 :::
 
@@ -60,7 +60,7 @@ Die Funktion "Restore Database" führt Sie zu einem Dialog um eine bestehende Da
 
 ### Backup erstellen
 
-Der Datenbank Manager kann unter der URL https://erp.example.com/web/database/manager aufgerufen werden. Hier werden die Odoo-Instanzen aufgelistet. Beim Klick auf *Backup* wird man aufgefordert das *Odoo Master Password* einzugeben. Nach Eingabe des Password und abschliessen des Dialogs erhält man eine ZIP-Datei zum herunterladen.
+Der Datenbank Manager kann unter der URL https://odoo.example.com/web/database/manager aufgerufen werden. Hier werden die Odoo-Instanzen aufgelistet. Beim Klick auf *Backup* wird man aufgefordert das *Odoo Master Password* einzugeben. Nach Eingabe des Password und abschliessen des Dialogs erhält man eine ZIP-Datei zum herunterladen.
 
 Wählen Sie auf der folgenden Maske die Funktion *Manage Databases*.
 

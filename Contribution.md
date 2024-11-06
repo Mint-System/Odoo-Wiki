@@ -88,6 +88,29 @@ Camt.053 für Import Kontoauszug: [camt053_example](https://raw.githubuserconten
 
 Beispiele von Rechnungen zum Importieren gibt es hier: <https://github.com/swico/qr-bill>.
 
+### Hostname und Mail-Adressen
+
+Anleitungen werden mit fiktiven Hostnamen, Domains und Mail-Adressen beschrieben. Die Verwendung dieser Namen sollte konsistent sein.
+
+Hostnames:
+
+* Haupt-Domain: example.com
+* Produktive Odoo-Instanz: odoo.example.com
+* Odoo Entwicklungsumgebung: odoo-dev.example.com
+* Mailgun: mg.example.com
+* Externe API: api.example.com
+
+Mail-Adressen:
+
+* Support: support@example.com
+* Catchall: catchall@example.com
+* Odoo Bot: odoobot@example.com
+* Administrator: admin@example.com
+* Odoo Postfach: erp@example.com
+* Bounce-Adresse: bounce@example.com
+* Kontakt-Adresse: contact@example.com
+* Empfang Rechnungen: invoice@example.com
+
 ## Sprache
 
 Die Artikel sind in der Sprache Deutsch und in der [Höflichkeitsform](https://de.wikipedia.org/wiki/H%C3%B6flichkeitsform/) verfasst.

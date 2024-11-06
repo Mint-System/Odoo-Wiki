@@ -24,7 +24,11 @@ Verwenden Sie diese Angaben:
 
 * **Name**: Odoo
 * **Unterstützte Kontentypen**: Konten in einem beliebigen Organisationsverziechnis (mehrinstanzenfähig)
-* **Redirect URI**: Web `https://odoo.example.com/microsoft_outlook/confirm`
+* **Redirect URI**: Web `https://$HOSTNAME/microsoft_outlook/confirm`
+
+::: warning
+Bitten ersetzen Sie `$HOSTNAME` mit dem Hostnamen ihrer Odoo-Installation.
+:::
 
 Ist die App erstellt erhalten Sie diese Zusammenfassung:
 

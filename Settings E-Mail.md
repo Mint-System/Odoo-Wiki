@@ -219,9 +219,9 @@ Die E-Mail senden an Odoo Demo <odoo@example.com> kann nicht verarbeitet werden.
 
 Bitte kontaktieren Sie uns stattdessen unter Verwendung von contact@example.com
 
-Grüße,
+Grüsse,
 
-Der example.com Team.
+Das example.com Team.
 ```
 
 **Ursache**

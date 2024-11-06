@@ -24,7 +24,11 @@ Damit die Kalender-Synchronisation möglich ist, müssen Sie [Odoo als OAuth-App
 
 * **Name**: Odoo Kalender
 * **Unterstützte Kontentypen**: Konten in einem beliebigen Organisationsverziechnis (mehrinstanzenfähig)
-* **Redirect URI**: `https://odoo.example.com/microsoft_account/authentication`
+* **Redirect URI**: `https://$HOSTNAME/microsoft_account/authentication`
+
+::: warning
+Bitten ersetzen Sie `$HOSTNAME` mit dem Hostnamen ihrer Odoo-Installation.
+:::
 
 Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Integration*. Aktivieren Sie die Option *Outlook-Kalender*. Füllen Sie die Felder *Client ID* und *Client Secret* mit den Werten aus der Registration der OAuth-app aus.
 
@@ -56,7 +60,7 @@ Wurde die Google-Kalender-Synchronisation in den Einstellungen aktiviert, könne
 
 ![](attachments/Calendar%20Redirect.png)
 
-Loggen Sie sich mit ihrem Google-Konto ein. Falls nun eine Warnung *Google hasn't verified this app* erscheint klicken Sie auf *Advanced* und anschliessen auf *Go to example.com (unsafe)*.
+Loggen Sie sich mit ihrem Google-Konto ein. Falls nun eine Warnung *Google hasn't verified this app* erscheint klicken Sie auf *Advanced* und anschliessend auf *Go to example.com (unsafe)*.
 
 ![](attachments/Calendar%20Unverified.png)
 
