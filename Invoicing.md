@@ -22,8 +22,10 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 | Erweiterung                                                                                 | Beschreibung                                                                                       |
 | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| [Account Followup Due Filter](Account%20Followup%20Due%20Filter.md)                         | Im Mahnbericht werden nur übefällige Rechnungen angezeigt.                                         |
 | [Account Followup Mail Layout](Account%20Followup%20Mail%20Layout.md)                       | Standard E-Mail-Vorlage für Mahnungserinnerungen verwenden.                                        |
 | [Account Followup Manual Reminder](Account%20Followup%20Manual%20Reminder.md)               | Standardwert für Mahnungserinnerungen auf Manuell setzen.                                          |
+| [Account Followup Print False](Account%20Followup%20Print%20False.md)                       | Im Dialog zum Versand der Manhnung Druckoption deaktivieren.                                       |
 | [Account Invoice Carrier](Account%20Invoice%20Carrier.md)                                   | Auslieferungsmethode auf Rechnung hinterlegen.                                                     |
 | [Account Invoice Change Currency](Account%20Invoice%20Change%20Currency.md)                 | Rechnungsbeträge und andere Währung umrechnen.                                                     |
 | [Account Invoice Comment](Account%20Invoice%20Comment.md)                                   | Kommentarfeld auf Rechnung.                                                                        |
