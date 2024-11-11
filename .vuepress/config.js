@@ -3,6 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { plausiblePlugin } from './plausible'
 import { mermaidPlugin } from './mermaid'
+import { shikiPlugin } from '@vuepress/plugin-shiki'
 import sidebar from './sidebar'
 import { defineUserConfig } from 'vuepress'
 
@@ -44,6 +45,9 @@ export default defineUserConfig({
         plausiblePlugin({
             'domain': 'odoo-wiki.org'
         }),
-        mermaidPlugin()
+        mermaidPlugin(),
+        shikiPlugin({
+            theme: 'dark-plus'
+        }),
     ],
 })
