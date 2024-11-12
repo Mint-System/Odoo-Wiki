@@ -37,8 +37,6 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Financial Report Reverse Move Lines](Account%20Financial%20Report%20Reverse%20Move%20Lines.md)    | Ordnet die Buchungszeilen von neu zu alt.                                         |     |
 | [Account Financial Report Show Grouped None](Account%20Financial%20Report%20Show%20Grouped%20None.md)      | Alle Buchungszeilen bei Auswahl "nicht gruppiert" anzeigen.                       |     |
 | [Account Financial Report](Account%20Financial%20Report.md)                                                | Finanzberichte der Odoo Community Assocation.                                     |     |
-| [Account Followup Email From](Account%20Followup%20Email%20From.md)                                        | Mahnbericht von definierter E-Mail-Adresse verschicken.                           |     |
-| [Account Followup Hide Communication](Account%20Followup%20Hide%20Communication.md)                        | Spalte Kommunikation in Mahnbericht ausblenden.                                   |     |
 | [Account General Ledger Contra Accounts](Account%20General%20Ledger%20Contra%20Accounts.md)                | Spalte Gegenkontos in Hauptbuch.                                                  |     |
 | [Account Invoice Description](Account%20Invoice%20Description.md)                                          | Beschreibungsfeld auf Rechnung.                                                   |     |
 | [Account Journal Items Report](Account%20Journal%20Items%20Report.md)                                      | Kontoauszug basierend auf Buchungszeilen erstellen.                               |     |
