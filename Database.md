@@ -180,4 +180,4 @@ Deaktivieren Sie die Synchronisation mit dem Lizenzserver nur auf Testumgebungen
 
 Ein temporärer Benutzer ist für Externe beispielsweise Finanz-Auditoren bestimmt, die nur für eine bestimmte Zeit Zugriff auf das Odoo System brauchen. Aktive Benutzer auf Odoo Enterprise müssen innerhalb von 30 Tagen lizenziert werden.
 
-Teilen Sie ihrem Odoo Kontakt mit, dass ein neuer aktiver Benutzer erstellt wird und dieser nur temporär zum Einsatz kommt. Der Odoo Kontakt kann die Lizenzprüfung für die gewünschte Zeit unterbrechen. Nach Ablauf der Zeitspanne archivieren Sie den Benutzer. Sie können den Benutzer zu einem späteren Zeitpunkt beispielsweise im Falle einer jährlichen Finanzprüfung wieder aktivieren und den Vorgang wiederholen. 
+Teilen Sie ihrem Odoo Kontakt mit, dass ein neuer aktiver Benutzer erstellt wird und dieser nur temporär zum Einsatz kommt. Der Odoo Kontakt kann die Lizenzprüfung für die gewünschte Zeit unterbrechen. Nach Ablauf der Zeitspanne archivieren Sie den Benutzer. Sie können den Benutzer zu einem späteren Zeitpunkt beispielsweise im Falle einer jährlichen Finanzprüfung wieder aktivieren und den Vorgang wiederholen.
