@@ -40,6 +40,7 @@ prev: ./
 | [Partner Contact User ACL](Partner%20Contact%20User%20ACL.md)                                     | Zugriffsrechte auf Kontakte festlegen.                                      |
 | [Partner Deduplication ACL](Partner%20Deduplication%20ACL.md)                                     | Zugriff auf Deduplizierung der Kontakte steuern.                            |
 | [Partner Duplicate Acc Number](Partner%20Duplicate%20Acc%20Number)                                | Kontonummer für mehrere Bankkonten verwenden                                |
+| [Partner Email History](Partner%20Email%20History.md)                                             | Alle versendeten und empfangen E-Mails eines Kontakts anzeigen.             |
 | [Partner Firstname](Partner%20Firstname.md)                                                       | Unterscheidet Vor- und Nachnamen.                                           |
 | [Partner Hide Address](Partner%20Hide%20Address.md)                                               | Adressen auf Berichten ausblenden.                                          |
 | [Partner Multi Pricelist](Partner%20Multi%20Pricelist.md)                                         | Mehrere Preislisten mit Start- und Enddatum auf Kunden festlegen.           |
