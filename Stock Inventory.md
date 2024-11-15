@@ -55,6 +55,12 @@ Legen Sie für die einen Zeilen den neuen Lagerort und die zu übertragende Meng
 
 ![](attachments/Lager%20Bestand%20Bestand%20verschoben.png)
 
+## Vorgänge
+
+### Nachbestellregeln auslösen
+
+Um die Nachbestellregeln auszulösen, wählen Sie *Lager > Vorgänge > Planer starten*. Bestätigen Sie den Dialog mit *Planer starten*.
+
 ## Inventur
 
 ### Inventur vorbereiten

@@ -953,7 +953,6 @@ if error_msg:
   log(' '.join(error_msg), level='error')
 ```
 
-
 ## Automatisierte Aktionen
 
 ### Lieferung erledigen wenn bereit
