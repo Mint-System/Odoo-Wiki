@@ -71,6 +71,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 ### Entwicklung
 
 * [Odoo übersetzen](Best%20Practice%20Odoo%20Translation.md)
+* [Datenbank Concurrency Locks und Cursor](Best%20Practice%20Datenbank%20Concurrency%20Locks%20und%20Cursor.md)
 
 ### Fertigung
 

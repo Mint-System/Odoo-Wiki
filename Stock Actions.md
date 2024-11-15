@@ -953,6 +953,10 @@ if error_msg:
   log(' '.join(error_msg), level='error')
 ```
 
+### Beschaffung: Planer starten
+
+Diese geplante Aktion führt täglich die die [Nachbestellregeln aus](Stock%20Inventory.md#Nachbestellregeln%20auslösen). Die Aktion wird im Hintergrund in einem separaten Datenbank-Cursor ausgeführt.
+
 ## Automatisierte Aktionen
 
 ### Lieferung erledigen wenn bereit
