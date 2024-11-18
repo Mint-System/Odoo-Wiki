@@ -22,29 +22,30 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 
 ## Erweiterungen
 
-| Erweiterung                                                                              | Beschreibung                                                           |
-| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [Account Move Mail Thread](Account%20Move%20Mail%20Thread.md)                            | Verhindert das versenden von Nachrichten beim Erstellen einer Buchung. |
-| [Account Move Send Unsubscribe](Account%20Move%20Send%20Unsubscribe.md)                  | Alle Abonnenten nach Versenden der Rechnung entfernen.                 |
-| [Account Move Unsubscribe](Account%20Move%20Unsubscribe.md)                              | Alle Abonnenten nach Buchung eines Buchungssatzes entfernen.           |
-| [Email CC and BCC](Mail%20Composer%20Cc%20Bcc.md)                                        | Im E-Mail-Dialog Cc und Bcc festlegen.                                 |
-| [Mail Activity Datetime](Mail%20Activity%20Datetime.md)                                  | Datum mit Zeit für Fälligkeit von Aktivität.                           |
-| [Mail Composer Default Template](Mail%20Composer%20Default%20Template.md)                | Standardvorlage für E-Mail-Dialog festlegen.                           |
-| [Mail Composer Mass Layout](Mail%20Composer%20Mass%20Layout.md)                          | Mail-Layout beim Versand von mehreren Mails anwenden.                  |
-| [Mail Debrand](Mail%20Debrand.md)                                                        | Odoo Promotion aus E-Mail-Vorlagen entfernen.                          |
-| [Mail No Autofollow](Mail%20No%20Autofollow.md)                                          | Beim Erstellen von Nachrichten erfolgt keine automatische Abonnierung. |
-| [Mail Optional Follower Notification](Mail%20Optional%20Follower%20Notification.md)      | Auswahl Nachrichen an Abonnenten verschicken.                          |
-| [Mail Show Follower](Mail%20Show%20Follower.md)                                          | CC-Hinweis in E-Mail-Header einfügen.                                  |
-| [Mail Thread Context](Mail%20Thread%20Context.md)                                        | Automatisches Abonnieren deaktiveren.                                  |
-| [Mail Tracking Helpdesk Bounce Ticket ](Mail%20Tracking%20Helpdesk%20Bounce%20Ticket.md) | Für E-Mails mit dem Status Bounced ein Helpdesk-Ticket erstellen.      |
-| [Mail Tracking Mailgun](Mail%20Tracking%20Mailgun.md)                                    | Mailgun Events mit Webhook in Odoo empfangen.                          |
-| [Mail Tracking](Mail%20Tracking.md)                                                      | Tracking-Status für jede versendete E-Mail.                            |
-| [Mail Unsubscribe](Mail%20Unsubscribe.md)                                                | Automatische Abmeldung der Follower vor dem Versand einer Nachricht.   |
-| [Purchase Order Send Unsubscribe](Purchase%20Order%20Send%20Unsubscribe.md)              | Alle Abonnenten nach Versenden der Bestellung entfernen.               |
-| [Purchase Order Unsubscribe](Purchase%20Order%20Unsubscribe.md)                          | Alle Abonnenten nach Bestätigung der Bestellung entfernen.             |
-| [Sale Order Send Unsubscribe](Sale%20Order%20Send%20Unsubscribe.md)                      | Alle Abonnenten nach Versenden des Angebots entfernen.                 |
-| [Sale Order Unsubscribe](Sale%20Order%20Unsubscribe.md)                                  | Alle Abonnenten nach Bestätigung des Angebots entfernen.               |
-| [URL Attachment](URL%20Attachment.md)                                                    | Url als Dokument anhängen.                                             |
+| Erweiterung                                                                              | Beschreibung                                                             |
+| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [Account Move Mail Thread](Account%20Move%20Mail%20Thread.md)                            | Verhindert das versenden von Nachrichten beim Erstellen einer Buchung.   |
+| [Account Move Send Unsubscribe](Account%20Move%20Send%20Unsubscribe.md)                  | Alle Abonnenten nach Versenden der Rechnung entfernen.                   |
+| [Account Move Unsubscribe](Account%20Move%20Unsubscribe.md)                              | Alle Abonnenten nach Buchung eines Buchungssatzes entfernen.             |
+| [Email CC and BCC](Mail%20Composer%20Cc%20Bcc.md)                                        | Im E-Mail-Dialog Cc und Bcc festlegen.                                   |
+| [Mail Activity Datetime](Mail%20Activity%20Datetime.md)                                  | Datum mit Zeit für Fälligkeit von Aktivität.                             |
+| [Mail Composer Default Template](Mail%20Composer%20Default%20Template.md)                | Standardvorlage für E-Mail-Dialog festlegen.                             |
+| [Mail Composer Mass Layout](Mail%20Composer%20Mass%20Layout.md)                          | Mail-Layout beim Versand von mehreren Mails anwenden.                    |
+| [Mail Debrand](Mail%20Debrand.md)                                                        | Odoo Promotion aus E-Mail-Vorlagen entfernen.                            |
+| [Mail No Autofollow](Mail%20No%20Autofollow.md)                                          | Beim Erstellen von Nachrichten erfolgt keine automatische Abonnierung.   |
+| [Mail Optional Follower Notification](Mail%20Optional%20Follower%20Notification.md)      | Auswahl Nachrichen an Abonnenten verschicken.                            |
+| [Mail Show Follower](Mail%20Show%20Follower.md)                                          | CC-Hinweis in E-Mail-Header einfügen.                                    |
+| [Mail Template Subscribe](Mail%20Template%20Subscribe.md)                                | Beim Versenden einer Nachricht Kontakte gemäss Domain-Filter abonnieren. |
+| [Mail Thread Context](Mail%20Thread%20Context.md)                                        | Automatisches Abonnieren deaktiveren.                                    |
+| [Mail Tracking Helpdesk Bounce Ticket ](Mail%20Tracking%20Helpdesk%20Bounce%20Ticket.md) | Für E-Mails mit dem Status Bounced ein Helpdesk-Ticket erstellen.        |
+| [Mail Tracking Mailgun](Mail%20Tracking%20Mailgun.md)                                    | Mailgun Events mit Webhook in Odoo empfangen.                            |
+| [Mail Tracking](Mail%20Tracking.md)                                                      | Tracking-Status für jede versendete E-Mail.                              |
+| [Mail Unsubscribe](Mail%20Unsubscribe.md)                                                | Automatische Abmeldung der Follower vor dem Versand einer Nachricht.     |
+| [Purchase Order Send Unsubscribe](Purchase%20Order%20Send%20Unsubscribe.md)              | Alle Abonnenten nach Versenden der Bestellung entfernen.                 |
+| [Purchase Order Unsubscribe](Purchase%20Order%20Unsubscribe.md)                          | Alle Abonnenten nach Bestätigung der Bestellung entfernen.               |
+| [Sale Order Send Unsubscribe](Sale%20Order%20Send%20Unsubscribe.md)                      | Alle Abonnenten nach Versenden des Angebots entfernen.                   |
+| [Sale Order Unsubscribe](Sale%20Order%20Unsubscribe.md)                                  | Alle Abonnenten nach Bestätigung des Angebots entfernen.                 |
+| [URL Attachment](URL%20Attachment.md)                                                    | Url als Dokument anhängen.                                               |
 
 ## Beschreibung
 
