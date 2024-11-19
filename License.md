@@ -76,3 +76,22 @@ for rec in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 In der Liste der Lizenzen können Sie die Einträge markieren und *Aktion > Lizenz abbrechen* auswählen.
+
+### Lizenz aktivieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Lizenz aktivieren`\
+Modell: `license.license`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for rec in records:
+  rec.action_activate()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
+In der Liste der Lizenzen können Sie die Einträge markieren und *Aktion > Lizenz aktivieren* auswählen.
