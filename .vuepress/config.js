@@ -47,7 +47,7 @@ export default defineUserConfig({
         }),
         mermaidPlugin(),
         shikiPlugin({
-            theme: 'dark-plus'
+            langs: ['bash', 'yml', 'yaml', 'json', 'css', 'html', 'xml', 'groovy', 'py', 'python', 'sql', 'powershell', 'txt', 'csv'],
         }),
     ],
 })
