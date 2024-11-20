@@ -14,7 +14,7 @@ const mermaidPlugin = () => {
                 const code = token.content.trim()
 
                 if (token.info === 'mermaid') {
-                    return `<pre class="mermaid">${md.utils.escapeHtml(code)}</pre>`
+                    return `<pre style="background-color:#fff;" class="mermaid">${md.utils.escapeHtml(code)}</pre>`
                 }
 
                 return defaultFence(tokens, idx, options, env, self)
