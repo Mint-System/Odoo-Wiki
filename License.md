@@ -13,8 +13,6 @@ prev: ./
 Technischer Name: `license`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-SaaS/tree/16.0/license>
 
-
-
 ## Erweiterungen
 
 | Erweiterung                                         | Beschreibung                                                    |
