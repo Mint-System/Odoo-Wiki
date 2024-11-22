@@ -13,6 +13,23 @@ prev: ./sale
 
 ## Aktionen
 
+### Abonnement schliessen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Abonnement schliessen`\
+Modell: `sale.order`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+records.set_close()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+
+
 ### Start- und Enddatum Abonnement aktualisieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
