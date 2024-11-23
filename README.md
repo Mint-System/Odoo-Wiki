@@ -423,6 +423,12 @@ Anleitung zur Odoo-App Certificate Planner.
 
 Kaufverträge für Rahmenbestellungen erstellen.
 
+### [Git](Git%20Base.md)
+
+![icons_odoo_git_base](attachments/icons_odoo_git_base.png)
+
+Git Repositories mit Odoo verwalten.
+
 ### [Holzwirtschaft](Forestry%20Base.md)
 
 ![icons_odoo_forestry_base](attachments/icons_odoo_forestry_base.png)
