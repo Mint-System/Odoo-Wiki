@@ -29,13 +29,13 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 ## Geplante Aktionen
 
-### Schnellzugriff für Projekte generieren
+### Navigation: Menüpunkte für Projekte generieren
 
-Mit dieser geplanten Aktion generiert Odoo für jedes Projekt einen Menüposten. Damit können Sie schneller zwischen Projektaufgaben navigieren.
+Mit dieser geplanten Aktion generiert Odoo für jedes Projekt einen Menüpunkt. Damit können Sie schneller zwischen Projektaufgaben navigieren.
 
 Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Schnellzugriff für Projekte generieren`\
+Name der Aktion: `Navigation: Menüpunkte für Projekte generieren`\
 Modell: `ir.actions.server`\
 Ausführen alle: `1` Tage\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
