@@ -39,12 +39,38 @@ Navigieren Sie nach *Git > Repos* und erstellen einen Eintrag. Wählen Sie einen
 
 ### Git-Repository initialisieren oder klonen
 
-Öffnen Sie unter *Git > Repos* ein Repository, das sich im Status *Draft* oder *Deleted* befindet. Wählen Sie den Befehl `git init`, wenn das Git-Repo nicht als Remote existiert. Wählen Sie den Befehl `git clone`, wenn ein Remote existiert.
+Öffnen Sie unter *Git > Repos* ein Repository, das sich im Status *Draft* oder *Deleted* befindet. Wählen Sie den Befehl `Init`, wenn das Git-Repo nicht als Remote existiert. Wählen Sie den Befehl `Clone`, wenn ein Remote existiert.
+
+![](attachments/Git%20Base%20Initalized%20Repo.png)
 
 ### Branch auf Git-Repository anlegen
 
+Öffnen Sie unter *Git > Repos* ein Repository, das sich im Status *Initialized* oder *Connected* befindet. Zeigen Sie den Tab *Branches* an und erstellen Sie einen neuen Eintrag.
+
 ### Datei zu Git-Repository hinzufügen und committen
+
+Öffnen Sie unter *Git > Repos* ein Repository, das sich im Status *Initialized* oder *Connected* befindet. Fügen Sie über den Datei-Upload eine Datei hinzu. Führen Sie den Befehl `Add All` aus. Nun ist die Datei im Staging, Sie können diese mit dem Befehl `Commit` und mit der Eingabe einer Nachricht committen.
+
+::: tip
+Wenn Sie eine Zip-Datei hochladen wird diese entpackt.
+:::
+
+### Remote für Git-Repository registrieren
+
+Wenn Sie einen Remote für ein initialisiertes Git-Repository angelegt haben, können Sie diesen mit dem Befehl `Add Remote` registrieren.
 
 ### Git-Repository pullen und pushen
 
+Damit Sie ein Repository mit einem Remote synchronisieren können, muss dieses im Status *Connected* sein.
+
+Mit dem Befehl `Pull` werden Änderungen auf dem Remote-Branch heruntergeladen. Wenn auf dem lokalen Branch noch keine Upstream registriert ist, wird dies erledigt.
+
+Mit dem Befehl `Push` können Sie lokale Änderungen auf den Remote laden. Wenn der Remote-Branch noch nicht existiert, wählen Sie `Push Upstream`.
+
+::: warning
+Mit dem Befehl `Push Force` können Sie einen Remote-Branch überschreiben.
+:::
+
 ### Git-Repository entfernen
+
+Wählen Sie den Befehl `Remove` um den Ordner des Git-Repository zu löschen. Anschliessend können Sie die *Aktion > Löschen* ausführen. 
