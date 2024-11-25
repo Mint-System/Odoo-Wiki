@@ -50,3 +50,19 @@ Im Normalfall wird beim [Angebot bestätigen](Sale.md#Angebot%20bestätigen) ein
 Wenn Sie [Preislisten aktivieren](Sale%20Price.md#Preislisten%20aktivieren) und eine [Abonnement-Laufzeit mit ein Produktvariante verknüpfen](#Abonnement-Laufzeit%20mit%20Produktvariante%20verknüpfen), können Sie zusätzlich eine Preisliste auswählen.
 
 Wenn Sie die ausgewählte [Preisliste anzeigen](Sale%20Price.md#Preisliste%20anzeigen) sehen Sie im Tab *Zeitbasierte Regel* die erstellten Verknüpfungen.
+
+## Filter
+
+#### Filter Erneuerungsangebote einrichten
+
+Mit dem Filter *Erneuerungsangebote* können Sie alle Abonnemente, die aus der Aktion *Erneuern* entstanden und im Zustand *Angebot* sind, anzeigen.
+
+Führen Sie [Filter manuell anlegen](Develpment%20Views.md#Filter%20manuell%20anlegen) mit diesen Angaben aus:
+
+| Feld              | Wert                                                                                                               |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Filterbezeichnung | Erneuerungsangebote                                                                                                |
+| Modell            | Bestellungen                                                                                                       |
+| Aktion            | Abonnements                                                                                                        |
+| Domain            | `["&", ("renew_state", "=", "renewing"), "&", ("state", "=", "draft"), ("subscription_management", "=", "renew")]` |
+| Kontext           | `{'group_by': []}`                                                                                                               |

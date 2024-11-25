@@ -43,8 +43,8 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 ```python
 for line in records.invoice_line_ids:
   if line.subscription_id:
-    line["subscription_start_date"] = datetime.date(2024, 1, 1)
-    line["subscription_end_date"] = datetime.date(2024, 12, 31)
+    line["subscription_start_date"] = datetime.date(2024, 1, 1) # Startdatum
+    line["subscription_end_date"] = datetime.date(2024, 12, 31) # Nächstes Abrechnungsdatum
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
@@ -166,6 +166,7 @@ extend_subscriptions = env["sale.order"].search([
   ("is_subscription", "=", True),
   ("pricelist_id", "=", pricelist_id.id),
   ("stage_id", "=", stage_running_id.id),
+  ("subscription_child_ids", "=", False),
   ("state", "=", "sale"),
   ("next_invoice_date", "<=", extend_date),
   ("next_invoice_date", ">=", today),
