@@ -49,7 +49,7 @@ Diese SSH-Schlüssel können Sie als *Deploy keys* auf Remote Repositories hinte
 
 Öffnen Sie unter *Git > Repos* ein Repository, das sich im Status *Draft* oder *Deleted* befindet. Wählen Sie den Befehl `Init`, wenn das Git-Repo nicht als Remote existiert. Wählen Sie den Befehl `Clone`, wenn ein Remote existiert.
 
-![](attachments/Git%20Base%20Initalized%20Repo.png)
+![](attachments/Git%20Base%20Project-MCC.png)
 
 ### Branch auf Repository anlegen
 
