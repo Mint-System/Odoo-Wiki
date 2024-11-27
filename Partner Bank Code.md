@@ -53,7 +53,7 @@ Name der Aktion: `Bankkonto mit Bank verknüpfen`\
 Modell: `res.partner.bank`\
 Auslöser: Bei Erstellung und Aktualisierung\
 Trigger-Felder: `acc_number`\
-Abgrenzung vor Aktualisierung: `[("sanitized_acc_number", "!=", False)]`\
+Domain vor Aktualisierung: `[("sanitized_acc_number", "!=", False)]`\
 Anzuwenden auf: `[("bank_id", "=", False)]`\
 Folgeaktion: Python-Code ausführen\
 Python Code:

@@ -44,7 +44,7 @@ Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Akt
 Name der Aktion: `Zahlungsmodus auf Kundenrechnung festlegen`\
 Modell: `account.move`\
 Auslöser: Beim Erstellen\
-Abgrenzung vor Aktualisierung: `[("partner_id.address_checked", "!=", True)]`\
+Domain vor Aktualisierung: `[("partner_id.address_checked", "!=", True)]`\
 Anzuwenden auf: `[("move_type", "=", "out_invoice")]`\
 Folgeaktion: Den Datensatz aktualisieren\
 Zu schreibende Daten:

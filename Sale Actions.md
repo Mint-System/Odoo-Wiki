@@ -316,7 +316,7 @@ Name der Aktion: `Angebot bestätigen und Rechnungen erstellen`\
 Modell: `sale.order`\
 Auslöser: Bei Erstellung und Aktualisierung\
 Trigger-Felder: `x_as4import`\
-Abgrenzung vor Aktualisierung: `[("x_as4import", "!=", True)]`\
+Domain vor Aktualisierung: `[("x_as4import", "!=", True)]`\
 Anzuwenden auf: `[("x_as4import", "=", True)]`\
 Python Code:
 
@@ -351,7 +351,7 @@ Name der Aktion: `Angebot bestätigen`\
 Modell: `sale.order`\
 Auslöser: Beim Aktualisieren\
 Trigger-Felder: `x_as4import`\
-Abgrenzung vor Aktualisierung: `[("x_as4import", "!=", True)]`\
+Domain vor Aktualisierung: `[("x_as4import", "!=", True)]`\
 Anzuwenden auf: `[("x_as4import", "=", True)]`\
 Python Code:
 
@@ -368,7 +368,7 @@ Name der Aktion: `Rechnung erstellen`\
 Modell: `sale.order`\
 Auslöser: Beim Aktualisieren\
 Trigger-Felder: `x_as4import`\
-Abgrenzung vor Aktualisierung: `[("invoice_status", "!=", "invoiced")]`\
+Domain vor Aktualisierung: `[("invoice_status", "!=", "invoiced")]`\
 Anzuwenden auf: `["&", ("x_as4import", "=", True), ("invoice_status", "=", "to invoice")]`\
 Python Code:
 

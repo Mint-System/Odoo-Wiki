@@ -87,7 +87,7 @@ Name der Aktion: `Angebot automatisch bestätigen`\
 Modell: `sale.order`\
 Auslöser: Bei Erstellung und Aktualisierung\
 Trigger-Felder: `partner_id`\
-Abgrenzung vor Aktualisierung: `[("partner_id.stage_id.code", "!=", "checked")]`\
+Domain vor Aktualisierung: `[("partner_id.stage_id.code", "!=", "checked")]`\
 Anzuwenden auf: `["&", ("partner_invoice_id.stage_id.code", "=", "checked"), "&", ("joboffer_id", "!=", False), "&", ("joboffer_id.is_created_by_gsi", "!=", True), ("joboffer_id.discount", "=", False)]`\
 Python Code:
 
