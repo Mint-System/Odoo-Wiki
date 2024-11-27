@@ -81,4 +81,23 @@ Mit dem Befehl `Push Force` können Sie einen Remote-Branch überschreiben.
 
 ### Repository entfernen
 
-Wählen Sie den Befehl `Remove` um den Ordner des Git-Repository zu löschen. Anschliessend können Sie die *Aktion > Löschen* ausführen. 
+Wählen Sie den Befehl `Remove` um den Ordner des Git-Repository zu löschen. Anschliessend können Sie die *Aktion > Löschen* ausführen.
+
+## Entwicklung
+
+### Umgebung auf Branch festlegen
+
+Öffnen Sie unter *Git > Repos* ein Repository, das sich im Status *Initialized* oder *Connected* befindet. Zeigen Sie den Tab *Branches* an. Verknüpfen Sie in der Spalte *Environment* den Branch mit der Umgebung.
+
+### Auf Branch der aktiven Umgebung wechseln
+
+Wenn Sie ein Odoo Modul entwickeln und dieses eine Git-Repository definiert, können Sie mit den folgenden Instruktionen in den Branch der aktiven Umgebung wechseln: 
+
+```python
+repo_id = self.ref("project_github.project_repo")
+repo_id.switch_to_environment_branch()
+```
+
+::: warning
+Diese Methode wirft einen Fehler, wenn kein Branch anhand der aktiven Umgebung gefunden werden konnte. Stellen Sie sicher, dass die aktive Umgebung mit einem Branch verknüpft ist.
+:::
