@@ -79,14 +79,11 @@ Wählen Sie *Zahlung Erfassen*. Schliessen Sie den Dialog. Nun wird für jede Re
 
 ### QR-IBAN speichern
 
-Zur Speicherung der QR-IBAN gibt es auf dem Bankkonto ein entsprechendes Feld. Navigieren Sie nach *Kontakte > Konfiguration > Bankkonten*, wählen Sie das Bankkonto aus und tragen Sie im Feld *Kontonummer* die Nummer ein. Odoo prüft dann, ob es sich um eine QR-IBAN handelt und kopiert die Kontonummer zusätzlich im Feld *QR-IBAN* ein.
-
-::: warning Geben Sie *nicht* unterschiedliche Kontonummern in den beiden Feldern ein. Ansonsten erkennt Odoo das Konto nicht als QR-IBAN und die Erstellung von QR-Rechnungen ist dann für dieses Bankkonto nicht möglich.
-:::
+Zur Speicherung der QR-IBAN gibt es auf dem Bankkonto ein entsprechendes Feld. Navigieren Sie nach *Kontakte > Konfiguration > Bankkonten*, wählen Sie das Bankkonto aus und tragen Sie im Feld *QR-IBAN* die Nummer ein.
 
 ### QR-Code Zahlungstyp festlegen
 
-Zeigen Sie eine Rechnung via *Buchhaltung > Kunden > Rechnungen* an und öffnen Sie den Tab *Weitere Informationen*. Im Feld *Payment QR-code* ist die Methode zum Generieren des QR-Codes festgelegt.
+Zeigen Sie eine Rechnung via *Buchhaltung > Kunden > Rechnungen* an und öffnen Sie den Tab *Weitere Informationen*. Im Feld *Payment QR-code* ist die Methode zur Generierung des QR-Codes festgelegt.
 
 ## Ausgehende Zahlungen
 
