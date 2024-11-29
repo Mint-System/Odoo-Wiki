@@ -30,11 +30,11 @@ records.set_close()
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
 
 
-### Start- und Enddatum Abonnement aktualisieren
+### Start- und Enddatum von Abonnement übernehmen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Start- und Enddatum Abonnement aktualisieren`\
+Name der Aktion: `Start- und Enddatum von Abonnement übernehmen`\
 Modell: `account.move`\
 Folgeaktion: `Python-Code ausführen`
 
@@ -43,8 +43,10 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 ```python
 for line in records.invoice_line_ids:
   if line.subscription_id:
-    line["subscription_start_date"] = datetime.date(2024, 1, 1) # Startdatum
-    line["subscription_end_date"] = datetime.date(2024, 12, 31) # Nächstes Abrechnungsdatum
+    end_date = line.subscription_id.next_invoice_date - datetime.timedelta(days=1)
+    start_date = end_date - dateutil.relativedelta.relativedelta(years=line.subscription_id.recurrence_id.duration) + datetime.timedelta(days=1)
+    line["subscription_start_date"] = start_date
+    line["subscription_end_date"] = end_date
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
