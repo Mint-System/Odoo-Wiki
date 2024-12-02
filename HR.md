@@ -122,8 +122,8 @@ Erstellen Sie eine neues Pensum *Personal > Mitarbeiter auswählen > Tab Arbeits
 
 ![](attachments/Personal%20Arbeitszeiten%20mit%20Enddatum.png)
 
-::: tip
-Heute ist es die Norm, dass Mitarbeiter unterhalb des Jahres ein Arbeitspensum reduzieren oder erhöhen können. Es muss sichergestellt werden, dass die Entlohnung, Feriensaldos und Überstunden entsprechend angepasst werden.
+::: warning
+Wenn Mitarbeitende unterhalb des Jahres ein Arbeitspensum reduzieren oder erhöhen, muss sichergestellt werden, dass die Entlohnung, Feriensaldos und Überstunden entsprechend angepasst werden.
 :::
 
 ## Offboarding
