@@ -7,7 +7,7 @@ tags:
 prev: ./purchase
 ---
 # Purchase Order Line Date
-![](attachments/icon_oms_box.png)
+![](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 

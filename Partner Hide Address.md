@@ -7,7 +7,7 @@ tags:
 prev: ./contacts
 ---
 # Partner Hide Address
-![](attachments/icon_oms_box.png)
+![](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 

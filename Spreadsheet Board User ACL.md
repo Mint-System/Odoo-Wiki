@@ -7,7 +7,7 @@ tags:
 prev: ./dashboards
 ---
 # Spreadsheet Board User ACL
-![](attachments/icon_oms_box.png)
+![](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 

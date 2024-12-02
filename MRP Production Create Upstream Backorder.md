@@ -7,7 +7,7 @@ tags:
 prev: ./manufacture
 ---
 # MRP Production Create Upstream Backorder
-![icon_oms_box](attachments/icon_oms_box.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 

@@ -7,7 +7,7 @@ tags:
 prev: ./contacts
 ---
 # Partner Duplicate Acc Number
-![](attachments/icon_oms_box.png)
+![](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 

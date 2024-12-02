@@ -7,7 +7,7 @@ tags:
 prev: ./sale
 ---
 # Sale Order Line Pricelist Fixed Discount
-![icon_oms_box](attachments/icon_oms_box.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
