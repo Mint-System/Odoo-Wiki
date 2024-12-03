@@ -21,16 +21,13 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [SEPA Zahlung](Best%20Pratice%20SEPA%20Payment.md)
 * [Anzahlungen](Best%20Practice%20Downpayments.md)
 
-### Abwesenheit
+### Anwesenheit und Abwesenheit
 
 * [Definition Abwesenheitsarten](Best%20Practice%20Definition%20HR%20Holidays%20Types.md)
 * [Setup Abwesenheit](Best%20Practice%20Setup%20Attendance.md)
 * [Arbeitszeiten und Urlaubsansprüche](Best%20Practice%20Working%20Times%20and%20Holiday%20Allocations.md)
 * [Ferien- und Überstundensaldo](Best%20Practice%20Holiday%20and%20Vacation%20Balance.md)
 * [Arbeitszeit über Zeitraum reduzieren](Best%20Practice%20Arbeitszeit%20über%20Zeitraum%20reduzieren.md)
-
-### Anwesenheit
-
 * [Kombination An- und Abwesenheit](Best%20Practice%20Kombination%20An-%20und%20Abwesenheit.md)
 
 ### Buchhaltung
