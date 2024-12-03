@@ -73,6 +73,14 @@ Bereits abgestimmte Positionen müssen zurückgesetzt werden.
 Entfernen Sie den Partner-Filter, wenn die gesuchte Buchungszeile nicht vorhanden ist.
 :::
 
+::: warning
+Automatismen im Abstimmungs-Dialog können einen Vorschlag für "Offener Saldo" generieren:
+
+![](attachments/Account%20Reconcile%20Offener%20Saldo.png)
+
+Diese Abstimmungen sind nicht mit einer Rechnungszeile verbunden, sondern werden lediglich auf das Debitoren-Konto transferiert.
+:::
+
 ### Abstimmung mit manueller Buchung durchführen
 
 Öffnen Sie die Übersicht der Journale via *Buchhaltung*  und klicken auf den Knopf *Abstimmung X Positionen* des entsprechenden Journals. Wählen Sie eine Konto-Bewegung aus und zeigen Sie den Tab *Manuelle Bearbeitung* an. Erstellen Sie eine manuelle Buchung mit Journal, Konto und Buchungstext.
