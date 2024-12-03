@@ -111,12 +111,14 @@ Um die Arbeitszeiten für einen Mitarbeiter festzulegen, öffnen Sie das App *Pe
 ![](attachments/Personal%20Arbeitsstunden.png)
 
 ### Arbeitszeiten auf Vertrag festlegen
+### Arbeitspensum über Zeitraum reduzieren
+
 
 Um die Arbeitszeiten für einen Mitarbeiter via Arbeitsvertrag festzulegen, zeigen Sie *Mitarbeiter > Mitarbeiter > Alle Verträge* und wählen einen Vertrag aus. Legen Sie unter *Arbeitsplan* die Arbeitszeiten fest.
 
 ### Arbeitspensum wechseln
 
-Um das Pensum eines Mitarbeits zu wechseln, muss ein Endatum für die bestehenden Arbeitszeiten eingetragen werden und die neuen Arbeitszeiten werden im Arbeitspensum erfasst.
+Um das Pensum eines Mitarbeiten zu wechseln, muss ein Endatum für die bestehenden Arbeitszeiten eingetragen werden und die neuen Arbeitszeiten werden im Arbeitspensum erfasst.
 
 Erstellen Sie eine neues Pensum *Personal > Mitarbeiter auswählen > Tab Arbeitsinformation > Ausführungsplan > Anlegen und Bearbeiten*. Definieren Sie einen passenden Titel und legen Sie bei den bestehenden Arbeitszeiten das Enddatum fest.
 

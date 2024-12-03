@@ -27,6 +27,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [Setup Abwesenheit](Best%20Practice%20Setup%20Attendance.md)
 * [Arbeitszeiten und Urlaubsansprüche](Best%20Practice%20Working%20Times%20and%20Holiday%20Allocations.md)
 * [Ferien- und Überstundensaldo](Best%20Practice%20Holiday%20and%20Vacation%20Balance.md)
+* [[Best Practice Arbeitszeit über Zeitraum reduzieren]]
 
 ### Anwesenheit
 
