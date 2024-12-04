@@ -347,6 +347,12 @@ Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.
 
 Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
 
+### [Veranstaltungen](Event.md)
+
+![icons_odoo_event](attachments/icons_odoo_event.png)
+
+Verwaltung von Sponsoren, Ständen, Vorträgen, virtuellen Veranstaltungen und vieles mehr.
+
 ### [Verkauf](Sale.md)
 
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
