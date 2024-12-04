@@ -16,20 +16,16 @@ prev: ./accounting
 
 Um die Abstimmung für Buchungszeilen eines bestimmten Kontos zu erlauben, navigieren Sie nach *Buchhaltung > Konfiguration > Kontenplan*. Suchen Sie das bestimmte Konto und aktivieren Sie Option *Erlaube Abstimmung*.
 
-## Bankauszug
+### Kontoauszüge manuell erfassen
 
-Bank-Beleg und Kontoauszug werden hier synonym verwendet.
+Navigieren Sie nach *Buchhaltung*  und klicken Sie auf das Bank-Journal. Erfassen Sie einen neuen Kontoauszug:
 
-### Bank-Belege manuell erfassen
-
-Navigieren Sie nach *Buchhaltung*  und klicken Sie auf das Bank-Journal. Erfassen Sie einen neuen Bankauszug:
-
-* **Referenz**: Eindeutige Kennzeichnung des Belegs
+* **Referenz**: Eindeutige Kennzeichnung des Kontoauszugs
 * **Anfangssaldo**: Banksaldo vor Begin der Transaktionen
 * **Endsaldo**: Banksaldo nach Ende der Transaktionen
 * **Transaktionen**: Erfassen Sie die Banktransaktionen mit Datum, Buchungstext, Partner und Betrag
 
-Bestätigen Sie den Bankauszug.
+Bestätigen Sie den Kontoauszug.
 
 ### Kontoauszug Raiffeisen erstellen
 
@@ -51,13 +47,13 @@ Zeigen Sie das Dashboard von *Buchhaltung*  an. Wählen Sie *Import* unter dem N
 
 Anschliessend wird die Datei validiert und die Ansicht zur Abstimmung der Konto-Bewegungen angezeigt.
 
-### Bank-Belege anzeigen
+### Kontoauszüge anzeigen
 
-Zeigen Sie die App *Buchhaltung*  an. Klicken Sie rechts vom Bank-Journals auf das Kontext-Menü und wählen Sie *Ansicht > Belege*. Hier werden die importierten Kontoauszüge anzeigt.
+Zeigen Sie die App *Buchhaltung*  an. Klicken Sie rechts vom Bank-Journals auf das Kontext-Menü und wählen Sie *Ansicht > Kontoauszüge*. Hier werden die importierten Kontoauszüge anzeigt.
 
-### Bank-Beleg entfernen
+### Kontoauszug entfernen
 
-Zeigen Sie die App *Buchhaltung*  an. Klicken Sie rechts vom Bank-Journals auf das Kontext-Menü und wählen Sie *Ansicht > Belege*. Markieren Sie den Bankauszug und wählen Sie *Aktion > Löschen*.
+Zeigen Sie die App *Buchhaltung*  an. Klicken Sie rechts vom Bank-Journals auf das Kontext-Menü und wählen Sie *Ansicht > Kontoauszüge*. Markieren Sie den Kontoauszug und wählen Sie *Aktion > Löschen*.
 
 ::: warning
 Bereits abgestimmte Positionen müssen zurückgesetzt werden.
@@ -99,25 +95,25 @@ Navigieren Sie nach *Buchhaltung > Buchhaltung > Überfällige Forderungen* und 
 
 Zeigen Sie die Buchungszeilen *Buchhaltung > Buchhaltung > Buchungszeilen* an. Filtern Sie die Buchungszeilen nach nicht abgestimmt und markieren Sie die Buchungszeilen zur Abstimmung. Wählen Sie *Aktion > Abstimmen*. Wählen Sie die Gegenbuchung aus.
 
-### Bank-Beleg bestätigen
+### Kontoauszug bestätigen
 
 Gilt bis #Odoo15.
 
-Wenn alle Vorgänge eines Bank-Belegs abgestimmt sind, können Sie den Bank-Beleg bestätigen. Zeigen Sie den Beleg an und wählen Sie die Aktion *Bestätigen*. Odoo prüft die Vorgänge und generiert einen Bericht analog des Kontoauszug.
+Wenn alle Vorgänge eines Kontoauszugs abgestimmt sind, können Sie den Kontoauszug bestätigen. Zeigen Sie den Kontoauszug an und wählen Sie die Aktion *Bestätigen*. Odoo prüft die Vorgänge und generiert einen Bericht analog des Kontoauszug.
 
 ### Abstimmung zurücksetzen
 
-Navigieren Sie nach *Buchhaltung*  und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge*. Suchen Sie hier nach einem bestimmten Bankauszug-Vorgang. Wechseln Sie über *Ansicht* in den Dialog für die Abstimmung und wählen Sie *Zurücksetzen*.
+Navigieren Sie nach *Buchhaltung*  und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge*. Suchen Sie hier nach einem bestimmten Kontoauszug-Vorgang. Wechseln Sie über *Ansicht* in den Dialog für die Abstimmung und wählen Sie *Zurücksetzen*.
 
 ![](attachments/Abstimmung%20zurücksetzen.gif)\
 
 ## Buchungen
 
-### Buchungssatz von Vorgang aus Bank-Beleg anzeigen
+### Buchungssatz von Vorgang aus Kontoauszug anzeigen
 
 Navigieren Sie nach *Buchhaltung*  und wählen Sie im Kontext-Menü des Bank-Journals *Ansicht > Vorgänge*. Suchen Sie hier nach einem bestimmten Vorgang. Öffnen Sie den Vorgang und wählen Sie *Buchungssatz*.
 
-### Währungsbetrag in Bank-Beleg korrigieren
+### Währungsbetrag in Kontoauszug korrigieren
 
 Zeigen Sie das Dashboard *Buchhaltung*  an und wählen Sie für ein Bank-Journal *Kontext-Menü > Vorgänge*. Suchen Sie hier nach der Zeile mit dem falschen Währungsbetrag und öffnen Sie diese Zeile. Bearbeiten Sie den Betrag.
 
