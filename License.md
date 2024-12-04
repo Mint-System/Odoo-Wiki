@@ -73,7 +73,7 @@ for rec in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Liste der Lizenzen können Sie die Einträge markieren und *Aktion > Lizenz abbrechen* auswählen.
+In der Liste der Lizenzen können Sie die Einträge markieren und *Aktionen > Lizenz abbrechen* auswählen.
 
 ### Lizenz aktivieren
 
@@ -92,4 +92,4 @@ for rec in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Liste der Lizenzen können Sie die Einträge markieren und *Aktion > Lizenz aktivieren* auswählen.
+In der Liste der Lizenzen können Sie die Einträge markieren und *Aktionen > Lizenz aktivieren* auswählen.

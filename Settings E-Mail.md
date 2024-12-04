@@ -160,7 +160,7 @@ Der Empfänger der eingehenden E-Mails werden mit der Liste der Aliase vergliche
 
 ### E-Mail-Alias erstellen
 
-Sie können für eine Ressource, beispielsweise Kundendienst Team, mehrere Alias haben. Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase* und zeigen Sie einen bestehenden Alias an. Wählen Sie *Aktion > Duplizieren* und passen Sie die Adresse des Alias an. 
+Sie können für eine Ressource, beispielsweise Kundendienst Team, mehrere Alias haben. Navigieren Sie nach *Einstellungen > Technisch > E-Mail > Aliase* und zeigen Sie einen bestehenden Alias an. Wählen Sie *Aktionen > Duplizieren* und passen Sie die Adresse des Alias an. 
 
 ### E-Mail Alias im Postfach erstellen
 

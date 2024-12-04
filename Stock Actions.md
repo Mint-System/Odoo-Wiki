@@ -167,7 +167,7 @@ for rec in records.filtered(lambda r: r.state in ['assigned', 'confirmed', 'part
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-Zeigen Sie die Liste der Lagebuchungen an, markieren Sie die Einträge und wählen Sie *Aktion > Reservationsdatum aktualisieren*.
+Zeigen Sie die Liste der Lagebuchungen an, markieren Sie die Einträge und wählen Sie *Aktionen > Reservationsdatum aktualisieren*.
 
 ### Reservierungen aufheben
 
@@ -215,7 +215,7 @@ for product_id in records:
 
 Beide Aktionen mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
 
-In der Ansicht der Produkte haben Sie nun die Auswahl *Aktion > Reservierungen aufheben*.
+In der Ansicht der Produkte haben Sie nun die Auswahl *Aktionen > Reservierungen aufheben*.
 
 ### Reservierungen zurücksetzen
 

@@ -40,7 +40,7 @@ Wenn ein Benutzerwechsel stattfindet, sollten Sie nicht den Namen eines bestehen
 
 ### Benutzer entfernen
 
-Wenn Sie Benutzer entfernen möchten, müssen Sie diesen archivieren. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie den zu entfernen Benutzer aus. Kicken Sie auf *Aktion > Archiv*.
+Wenn Sie Benutzer entfernen möchten, müssen Sie diesen archivieren. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie den zu entfernen Benutzer aus. Kicken Sie auf *Aktionen > Archiv*.
 
 ### Benutzertyp festlegen
 
@@ -65,7 +65,7 @@ Wählen Sie *Aktion* und *Passwort ändern*. Geben Sie im Feld *Neues Passwort* 
 
 ### Passwort für mehrere Benutzer ändern
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und markieren Sie alle Benutzer, die ein neues Passwort erhalten sollen. Klicken Sie auf *Aktion > Passwort ändern*. Im Neuen Dialog können Sie in der Spalte *Neues Passwort*, die neuen Passwörter eingeben. Bestätigen Sie den Vorgang mit *Passwort ändern*.
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und markieren Sie alle Benutzer, die ein neues Passwort erhalten sollen. Klicken Sie auf *Aktionen > Passwort ändern*. Im Neuen Dialog können Sie in der Spalte *Neues Passwort*, die neuen Passwörter eingeben. Bestätigen Sie den Vorgang mit *Passwort ändern*.
 
 ::: tip
 Teilen Sie den Benutzer das Passwort als Link mit. Sie können einen Passwort-Link mit <https://kpaste.infomaniak.com/> generieren.
@@ -97,7 +97,7 @@ Wenn Benutzer sich über das Portal bzw. Login-Fenster registrieren wird ein Por
 
 ### Portalzugriff gewähren
 
-Damit mehrere Kontakte Zugriff auf Odoo haben, brauchen Sie einen Portal-Zugriff. Navigieren Sie nach *Kontakte* und wählen Sie in der Listen-Ansicht die Kontakte aus. Wählen Sie *Aktion > Portalzugriff gewähren* und klicken für jeden Kontakt auf die *Im Portal*-Checkbox. Bestätigen Sie den Vorgang und jeder Benutzer erhält eine Einladung.
+Damit mehrere Kontakte Zugriff auf Odoo haben, brauchen Sie einen Portal-Zugriff. Navigieren Sie nach *Kontakte* und wählen Sie in der Listen-Ansicht die Kontakte aus. Wählen Sie *Aktionen > Portalzugriff gewähren* und klicken für jeden Kontakt auf die *Im Portal*-Checkbox. Bestätigen Sie den Vorgang und jeder Benutzer erhält eine Einladung.
 
 Die Einladung Sie wie folgt aus:
 
@@ -138,7 +138,7 @@ Führen Sie diese Aktivierung auf dem Desktop. Odoo generiert für die Zwei-Fakt
 
 ### Einladung zur Zwei-Faktor-Authentisierung verschicken
 
-Für jeden Benutzer können Sie eine Einladung zur Zwei-Faktor-Authentisierung verschicken. Markieren Sie dazu die Benutzer unter *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie *Aktion > Einladung zur Verwendung der Zwei-Faktor-Authentifizierung*.
+Für jeden Benutzer können Sie eine Einladung zur Zwei-Faktor-Authentisierung verschicken. Markieren Sie dazu die Benutzer unter *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie *Aktionen > Einladung zur Verwendung der Zwei-Faktor-Authentifizierung*.
 
 ![](attachments/Einstellungen%20Login%20Einladung%20zur%20Zwei-Faktor-Authentisierung%20verschicken.png)
 

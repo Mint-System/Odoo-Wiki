@@ -42,4 +42,4 @@ Die Aktion *Herunterladen* auf dem Dialog erlaubt das Herunterladen des Berichts
 
 ### Bericht Anwesenheit für bestimmte Mitarbeitende drucken
 
-Navigieren Sie nach *Personal* und wählen Sie die Listen-Ansicht. Markieren Sie die Mitarbeitenden für welche Sie den Bericht erstellen wollen und klicken Sie auf *Aktion > Bericht Anwesenheit*.
+Navigieren Sie nach *Personal* und wählen Sie die Listen-Ansicht. Markieren Sie die Mitarbeitenden für welche Sie den Bericht erstellen wollen und klicken Sie auf *Aktionen > Bericht Anwesenheit*.

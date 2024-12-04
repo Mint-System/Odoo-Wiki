@@ -22,4 +22,4 @@ Mit dieser Erweiterung können Benutzer der Gruppe *Anwesenheit / Benutzer* ihre
 
 ### Anwesenheit löschen
 
-Im Weiteren können Benutzer ihre Anwesenheits-Einträge löschen. Navigieren Sie nach *Anwesenheiten > Anwesenheiten*, markieren Sie die zu löschenden Einträge und wählen Sie *Aktion > Löschen*.
+Im Weiteren können Benutzer ihre Anwesenheits-Einträge löschen. Navigieren Sie nach *Anwesenheiten > Anwesenheiten*, markieren Sie die zu löschenden Einträge und wählen Sie *Aktionen > Löschen*.

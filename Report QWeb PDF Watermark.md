@@ -36,4 +36,4 @@ Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Berichte* und zeigen
 
 ### Beispiel-Bericht mit Wasserzeichen generieren
 
-Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und öffnen Sie einen Benutzer. Wählen Sie *Aktion > Waktermark Demo report* um einen Beispiel-Bericht zu erstellen.
+Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und öffnen Sie einen Benutzer. Wählen Sie *Aktionen > Waktermark Demo report* um einen Beispiel-Bericht zu erstellen.

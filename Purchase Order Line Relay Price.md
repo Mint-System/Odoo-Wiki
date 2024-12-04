@@ -30,7 +30,7 @@ Diese Erweiterung rechnet für ein Produkt die möglichen Staffelpreise durch un
 
 ### Bester Einkaufspreis berechnen
 
-Öffnen Sie eine Bestellung und wählen Sie *Aktion > Prüfe Preise* oder bestätigen Sie die Angebotsanfrage.
+Öffnen Sie eine Bestellung und wählen Sie *Aktionen > Prüfe Preise* oder bestätigen Sie die Angebotsanfrage.
 
 ![Purchase Order Line Relay Price Prüfe Preise](attachments/Purchase%20Order%20Line%20Relay%20Price%20Prüfe%20Preise.gif)
 

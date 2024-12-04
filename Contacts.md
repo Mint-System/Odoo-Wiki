@@ -57,7 +57,7 @@ prev: ./
 
 ### Portal-Zugriff gewähren
 
-Wählen Sie einen Kontakt mit Mail-Adresse aus. Klicken Sie auf *Aktion > Grant portal access*. Im folgenden Dialog das Kächstchen *Portal* anklicken und bestätigen. Nun erhält der Benutzer eine Einladungs-Email, sofern der Benutzer eine gültige Mail-Adresse hinterlegt hat.
+Wählen Sie einen Kontakt mit Mail-Adresse aus. Klicken Sie auf *Aktionen > Grant portal access*. Im folgenden Dialog das Kächstchen *Portal* anklicken und bestätigen. Nun erhält der Benutzer eine Einladungs-Email, sofern der Benutzer eine gültige Mail-Adresse hinterlegt hat.
 
 ## Verwendung
 
@@ -169,7 +169,7 @@ Navigieren Sie nach *Einstellungen > Konfiguration > Ländergruppe* und zeigen S
 
 ### Kontakte zusammenführen
 
-Wenn Sie Duplikate in den Kontakten haben, können Sie diese markieren und mit *Aktion > Zusammenführen* entfernen. Im Zusammenführen-Dialog wählen Sie den originalen Kontakt aus und bestätigen den Vorgang mit *Kontakte Zusammenführen*.
+Wenn Sie Duplikate in den Kontakten haben, können Sie diese markieren und mit *Aktionen > Zusammenführen* entfernen. Im Zusammenführen-Dialog wählen Sie den originalen Kontakt aus und bestätigen den Vorgang mit *Kontakte Zusammenführen*.
 
 ![](attachments/Contacts%20Merge.png)
 

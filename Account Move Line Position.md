@@ -31,7 +31,7 @@ Wenn Sie zusätzliche Zeilen ohne Verlinkung der Rechnungen hinzufügen, versuch
 Mit dieser Erweiterung werden Positionsnummern auf Transfers automatisch vom Verkaufs- oder Einkaufsauftrag verknüpft.
 
 ::: tip
-Wenn Positionsnummern leer sind, können Sie *Aktion > Positionsnummern festlegen* ausführen.
+Wenn Positionsnummern leer sind, können Sie *Aktionen > Positionsnummern festlegen* ausführen.
 :::
 
 ## Berichte

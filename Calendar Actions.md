@@ -29,4 +29,4 @@ for rec in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Formularansicht der Benutzer wählen Sie *Aktion > Outlook Kalender synchronisieren*.
+In der Formularansicht der Benutzer wählen Sie *Aktionen > Outlook Kalender synchronisieren*.

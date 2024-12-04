@@ -122,7 +122,7 @@ Bei einer Aktualisierung der Odoo App werden die verlinkten Menüposten zurückg
 
 ### Menüposten entfernen
 
-Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüposten* und suchen Sie den entsprechende Menüposten. Markieren Sie diesen und wählen Sie *Aktion > Löschen* oder *Aktion > Archiv*.
+Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüposten* und suchen Sie den entsprechende Menüposten. Markieren Sie diesen und wählen Sie *Aktionen > Löschen* oder *Aktionen > Archiv*.
 
 ::: warning
 Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.

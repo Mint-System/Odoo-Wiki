@@ -98,7 +98,7 @@ Den abgebrochenen Buchungssatz können Sie mit *Zurücksetzen* wieder in den Ent
 
 ### Buchungsnummer neu sequenzieren
 
-Die Buchungssnummer oder Bezeichnung einer Buchung kann innerhalb eines Journals neu sequenziert werden. Wählen Sie *Buchhaltung > Buchhaltung > Buchungssätze* und filtern Sie die Buchungssätze, die Sie neu sequenzieren möchten. Markieren Sie die Einträge und wählen Sie *Aktion > Resequenzierung*.
+Die Buchungssnummer oder Bezeichnung einer Buchung kann innerhalb eines Journals neu sequenziert werden. Wählen Sie *Buchhaltung > Buchhaltung > Buchungssätze* und filtern Sie die Buchungssätze, die Sie neu sequenzieren möchten. Markieren Sie die Einträge und wählen Sie *Aktionen > Resequenzierung*.
 
 ![](attachments/Buchhaltung%20Resequenzierung.png)
 
@@ -156,7 +156,7 @@ Konten für welche Sie keine Verwendung haben, können Sie anwählen und die Che
 
 ### Kontenplan exportieren
 
-Öffnen Sie die Übersicht der Konten *Buchhaltung > Konfiguration > Buchhaltung > Kontenplan* und filtern Sie die Konten gemäss ihren Anforderungen. Markieren Sie die Konten und wählen Sie *Select all ...*. Führen Sie *Aktion > Export* aus.
+Öffnen Sie die Übersicht der Konten *Buchhaltung > Konfiguration > Buchhaltung > Kontenplan* und filtern Sie die Konten gemäss ihren Anforderungen. Markieren Sie die Konten und wählen Sie *Select all ...*. Führen Sie *Aktionen > Export* aus.
 
 ![](attachments/Buchhaltung%20Kontenplan%20exportieren.png)
 

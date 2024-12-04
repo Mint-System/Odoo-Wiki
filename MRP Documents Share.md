@@ -76,7 +76,7 @@ for rec in records:
     })
 ```
 
-Schliessen Sie die Aktion mit *Kontextuelle Aktion Erstellen* ab. Markieren Sie die Produkte unter *Fertigung > Produkte > Produkte* und wählen Sie *Aktion > Produktionsdokumente mit Produkt verknüpfen*.
+Schliessen Sie die Aktion mit *Kontextuelle Aktion Erstellen* ab. Markieren Sie die Produkte unter *Fertigung > Produkte > Produkte* und wählen Sie *Aktionen > Produktionsdokumente mit Produkt verknüpfen*.
 
 Dasselbe können Sie für Produktvarianten einrichten:
 
@@ -100,4 +100,4 @@ for rec in records.product_tmpl_id:
     })
 ```
 
-Schliessen Sie die Aktion mit *Kontextuelle Aktion Erstellen* ab. Markieren Sie die Produkte unter *Fertigung > Produkte > Produkte* und wählen Sie *Aktion > Produktionsdokumente mit Produkt verknüpfen*.
+Schliessen Sie die Aktion mit *Kontextuelle Aktion Erstellen* ab. Markieren Sie die Produkte unter *Fertigung > Produkte > Produkte* und wählen Sie *Aktionen > Produktionsdokumente mit Produkt verknüpfen*.

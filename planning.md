@@ -37,4 +37,4 @@ Wählen Sie Speichern.
 
 ### Planung veröffentlichen
 
-Rufen Sie Die App *Planung* auf und wechseln Sie in die Listenansicht. Markieren Sie die Planungen im Entwurf und wählen Sie *Aktion > Veröffentlichen*.
+Rufen Sie Die App *Planung* auf und wechseln Sie in die Listenansicht. Markieren Sie die Planungen im Entwurf und wählen Sie *Aktionen > Veröffentlichen*.

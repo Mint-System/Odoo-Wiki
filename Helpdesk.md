@@ -65,6 +65,6 @@ Bearbeiten Sie diese Tickets und wählen Sie entweder *Mir Zuweisen* oder geben 
 
 ### Helpdesk-Tickets zusammenführen
 
-Ist die App [Datenbereinigung](Data%20Cleaning.md) installiert, können Sie Tickets zusammenfünren. Navigieren Sie nach *Kundendienst > Tickets > Alle Tickets* und suchen Sie die Tickets, die Sie zusammenführen möchten. Markieren Sie die Einträge und wählen Sie *Aktion > Zusammenführen*.  Im neuen Dialog erhaltne Sie eine Übersicht beiden Einträge. Klicken Sie auf *Zusammenführen* und bestätien Sie Warnung mit *Ok*. Im Chatter hält Odoo die ursprünglichen Informationen des Tickets fest.
+Ist die App [Datenbereinigung](Data%20Cleaning.md) installiert, können Sie Tickets zusammenfünren. Navigieren Sie nach *Kundendienst > Tickets > Alle Tickets* und suchen Sie die Tickets, die Sie zusammenführen möchten. Markieren Sie die Einträge und wählen Sie *Aktionen > Zusammenführen*.  Im neuen Dialog erhaltne Sie eine Übersicht beiden Einträge. Klicken Sie auf *Zusammenführen* und bestätien Sie Warnung mit *Ok*. Im Chatter hält Odoo die ursprünglichen Informationen des Tickets fest.
 
 ![](attachments/Helpdesk%20Merged.png)

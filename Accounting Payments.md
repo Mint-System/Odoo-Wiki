@@ -41,7 +41,7 @@ Oft macht es Sinn Zahlungen nach Währung oder einem anderen Attribut zu gruppie
 
 ### Stapelzahlung anlegen
 
-Um eine Zahlung zu exportieren, klicken Sie auf *Buchhaltung > X Über SEPA zu sendende Zahlungen*, markieren die offenen Zahlungen und wählen *Aktion > Stapelzahlung anlegen*. Im neuen Dialog wählen Sie *Bestätigen* und erhalten so die generierte Zahlungsdatei, die Sie exportieren können.
+Um eine Zahlung zu exportieren, klicken Sie auf *Buchhaltung > X Über SEPA zu sendende Zahlungen*, markieren die offenen Zahlungen und wählen *Aktionen > Stapelzahlung anlegen*. Im neuen Dialog wählen Sie *Bestätigen* und erhalten so die generierte Zahlungsdatei, die Sie exportieren können.
 
 Im Menüpunkt *Buchhaltung > Lieferanten > Stapel-Überweisungen* sehen Sie alle Stapelzahlungen.
 

@@ -76,7 +76,7 @@ Der Scheduler wird im Hintergrund ausgeführt. Sind viele Vorgänge am laufen, k
 
 ### Route "Auffüllung nach Auftrag (MTO)" wiederherstellen
 
-Rufen Sie die Ansicht der Routen auf *Lager > Konfiguration > Routen* und wählen Sie *Filter > Archiviert*. Klicken Sie auf die Route *Auffüllung nach Auftrag (MTO)* und wählen anschliessend *Aktion > Archivierung aufheben*.
+Rufen Sie die Ansicht der Routen auf *Lager > Konfiguration > Routen* und wählen Sie *Filter > Archiviert*. Klicken Sie auf die Route *Auffüllung nach Auftrag (MTO)* und wählen anschliessend *Aktionen > Archivierung aufheben*.
 
 ## Beschaffung
 

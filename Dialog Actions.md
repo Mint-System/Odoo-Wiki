@@ -29,4 +29,4 @@ for record in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-Auf der Listenansicht des Datenmodell markieren Sie ausgewählte Einträge und wählen *Aktion > Alle Follower entfernen*.
+Auf der Listenansicht des Datenmodell markieren Sie ausgewählte Einträge und wählen *Aktionen > Alle Follower entfernen*.

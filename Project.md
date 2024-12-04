@@ -140,7 +140,7 @@ Weil die Berechtigung von *Projekt / Benutzer* nach *Projekt / Administrator* ve
 
 ### Projekt mit Odoo-Benutzer teilen
 
-Zeigen Sie ein Projekt via *Projekt > Konfiguration > Projekte* an. Wählen Sie *Aktion > Projekt freigeben*. Legen Sie den *Zugriffsmodus* fest und tragen Sie die Odoo-Benutzer (interne und externe) bei *Leute einladen* ein.
+Zeigen Sie ein Projekt via *Projekt > Konfiguration > Projekte* an. Wählen Sie *Aktionen > Projekt freigeben*. Legen Sie den *Zugriffsmodus* fest und tragen Sie die Odoo-Benutzer (interne und externe) bei *Leute einladen* ein.
 
 ::: tip
 Die Sichtbarkeit des Projekts muss für diesen Vorgang auf *Eingeladene Portalnutzer und alle Mitarbeiter* eingestellt sein.

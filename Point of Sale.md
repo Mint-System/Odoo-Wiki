@@ -20,7 +20,7 @@ Um bestehende Produkte für das Kassensystem verfügbar zu machen, navigieren Si
 
 ### Zahlungsmethode mit Six-Terminal erfassen
 
-Naivigieren Sie nach *Point of Sale > Konfiguration > Zahlungsmethoden* und wählen Sie einen bestehenden Eintrag aus. Wählen Sie *Aktion > Duplizieren* und vergeben Sie einen neuen Namen, beispielsweise *Six*. Treffen Sie im Feld *Zahlungsterminal verwenden* eine Auswahl und geben Sie im Feld *Six Terminal IP* eine IP-Adresse ein.
+Naivigieren Sie nach *Point of Sale > Konfiguration > Zahlungsmethoden* und wählen Sie einen bestehenden Eintrag aus. Wählen Sie *Aktionen > Duplizieren* und vergeben Sie einen neuen Namen, beispielsweise *Six*. Treffen Sie im Feld *Zahlungsterminal verwenden* eine Auswahl und geben Sie im Feld *Six Terminal IP* eine IP-Adresse ein.
 
 ## Verwendung
 

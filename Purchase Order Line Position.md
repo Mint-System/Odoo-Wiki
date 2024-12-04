@@ -21,7 +21,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/16.
 Die Positionsnummern auf einem Einkaufsauftrag werden mit dieser Erweiterung automatisch generiert.
 
 ::: tip
-Wenn Positionsnummern leer sind, können Sie *Aktion > Positionsnummern festlegen* ausführen.
+Wenn Positionsnummern leer sind, können Sie *Aktionen > Positionsnummern festlegen* ausführen.
 :::
 
 ## Berichte

@@ -20,7 +20,7 @@ Navigieren Sie nach *Einstellungen > Lager > Rückverfolgbarkeit* und aktivieren
 
 ### Reservierter Bestand zurücksetzen
 
-Für jeden Lagerort wird ein Bestand geführt *Lager > Konfiguration > Lagerorte > Lagerort auswählen > Smart-Link Bestand*. Wenn Sie die Aktion [Reservierter Bestand zurücksetzen](Stock%20Actions.md#Reservierter%20Bestand%20zurücksetzen) erstellen, können Sie die Bestände markieren und die *Aktion > Reservierter Bestand zurücksetzen* ausführen.
+Für jeden Lagerort wird ein Bestand geführt *Lager > Konfiguration > Lagerorte > Lagerort auswählen > Smart-Link Bestand*. Wenn Sie die Aktion [Reservierter Bestand zurücksetzen](Stock%20Actions.md#Reservierter%20Bestand%20zurücksetzen) erstellen, können Sie die Bestände markieren und die *Aktionen > Reservierter Bestand zurücksetzen* ausführen.
 
 ::: warning
 Damit Sie diese Aktion ausführen können, müssen Sie [Superuser werden](Settings.md#Superuser%20werden)

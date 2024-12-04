@@ -53,7 +53,7 @@ Zeigen Sie die App *Buchhaltung*  an. Klicken Sie rechts vom Bank-Journals auf d
 
 ### Kontoauszug entfernen
 
-Zeigen Sie die App *Buchhaltung*  an. Klicken Sie rechts vom Bank-Journals auf das Kontext-Menü und wählen Sie *Ansicht > Kontoauszüge*. Markieren Sie den Kontoauszug und wählen Sie *Aktion > Löschen*.
+Zeigen Sie die App *Buchhaltung*  an. Klicken Sie rechts vom Bank-Journals auf das Kontext-Menü und wählen Sie *Ansicht > Kontoauszüge*. Markieren Sie den Kontoauszug und wählen Sie *Aktionen > Löschen*.
 
 ::: warning
 Bereits abgestimmte Positionen müssen zurückgesetzt werden.
@@ -93,7 +93,7 @@ Navigieren Sie nach *Buchhaltung > Buchhaltung > Überfällige Forderungen* und 
 
 ### Buchungszeilen abstimmen
 
-Zeigen Sie die Buchungszeilen *Buchhaltung > Buchhaltung > Buchungszeilen* an. Filtern Sie die Buchungszeilen nach nicht abgestimmt und markieren Sie die Buchungszeilen zur Abstimmung. Wählen Sie *Aktion > Abstimmen*. Wählen Sie die Gegenbuchung aus.
+Zeigen Sie die Buchungszeilen *Buchhaltung > Buchhaltung > Buchungszeilen* an. Filtern Sie die Buchungszeilen nach nicht abgestimmt und markieren Sie die Buchungszeilen zur Abstimmung. Wählen Sie *Aktionen > Abstimmen*. Wählen Sie die Gegenbuchung aus.
 
 ### Kontoauszug bestätigen
 

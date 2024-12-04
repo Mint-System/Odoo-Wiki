@@ -147,7 +147,7 @@ Um eine Nachricht explizit an externe Benutzer zu schicken, wählen Sie beim Nac
 
 ### Kanal löschen
 
-Um einen Kanal zu löschen navigieren Sie nach *Einstellungen > Technisch > Kanäle*, wechseln in die Listenansicht und wählen die Kanäle die gelöscht werden sollen. Klicken Sie auf *Aktion > Löschen*.
+Um einen Kanal zu löschen navigieren Sie nach *Einstellungen > Technisch > Kanäle*, wechseln in die Listenansicht und wählen die Kanäle die gelöscht werden sollen. Klicken Sie auf *Aktionen > Löschen*.
 
 ::: warning
 Alle mit dem Kanal verknüpften Nachrichten werden mit dieser Aktion gelöscht.

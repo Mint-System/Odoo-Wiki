@@ -18,7 +18,7 @@ Repository: <https://github.com/OCA/stock-logistics-workflow/tree/16.0/stock_pro
 
 ### Los-/Seriennummern archivieren
 
-Öffnen Sie *Lager > Stammdaten > Los-/Seriennummern* und wählen Sie die zu archivierenden Los-/Seriennummern aus. Wählen Sie *Aktion > Archiv*.
+Öffnen Sie *Lager > Stammdaten > Los-/Seriennummern* und wählen Sie die zu archivierenden Los-/Seriennummern aus. Wählen Sie *Aktionen > Archiv*.
 
 ![](attachments/Stock%20Production%20Lot%20Active%20Aktion.png)
 

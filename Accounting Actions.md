@@ -127,7 +127,7 @@ for record in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Liste der Buchungssätze erscheint nun die Auswahl *Aktion > Auf Entwurf zurücksetzen*.
+In der Liste der Buchungssätze erscheint nun die Auswahl *Aktionen > Auf Entwurf zurücksetzen*.
 
 ### Abstimmung zurücksetzen
 

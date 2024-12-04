@@ -153,7 +153,7 @@ Werden die Lohnzahlung als Batch verarbeitet, müssen alle Lohnabrechnungen best
 
 Eine verbuche Lohnabrechnung lässt sich nicht mehr löschen oder abbrechen. Zumindest ist das im Status *Erledigt* nicht möglich. Wurde eine Lohnzahlung als bezahlt markiert, kann Sie jedoch wieder entfernt werden.
 
-Öffnen Sie die zu löschende Lohnabrechung *Personalabrechung > Abrechnungen Mitarbeitervergütung > All Paylips*. Ist die Abrechnung im Status *Erledigt*, wählen Sie *Erfasse Zahlung*. Odoo erstellt eine Zahlungsdatei, die Sie ignorieren können. Wählen Sie *Aktion > Abbrechen*. Nun ist ist die Abrechnung im Status *Abgelehnt*. Nun können Sie den Eintrag mit *Aktion > Löschen* entfernen.
+Öffnen Sie die zu löschende Lohnabrechung *Personalabrechung > Abrechnungen Mitarbeitervergütung > All Paylips*. Ist die Abrechnung im Status *Erledigt*, wählen Sie *Erfasse Zahlung*. Odoo erstellt eine Zahlungsdatei, die Sie ignorieren können. Wählen Sie *Aktionen > Abbrechen*. Nun ist ist die Abrechnung im Status *Abgelehnt*. Nun können Sie den Eintrag mit *Aktionen > Löschen* entfernen.
 
 ::: warning
 Falls es auf dem Eintrag eine verknüpfte Buchung gibt, wird diese ebenfalls gelöscht.
@@ -161,7 +161,7 @@ Falls es auf dem Eintrag eine verknüpfte Buchung gibt, wird diese ebenfalls gel
 
 ### Lohnabrechnung neu berechnen
 
-Haben Sie einen Fehler in einer erledigten Lohanbrechnung können Sie diese wie folgt neu berechnen. Erfassen Sie eine Zahlung, wenn dies nicht bereit getan ist. Wählen Sie *Aktion > Abbrechen*. Nun ist die Lohnabrechnung im Status Abgelehnt. Wählen Sie nun *Auf Entwurf Setzen* und nehmen Sie die Anpassungen vor. Ist alles erledigt, können Sie wie gewohnt die Lohnabrechnung berechnen lassen und bestätigen.
+Haben Sie einen Fehler in einer erledigten Lohanbrechnung können Sie diese wie folgt neu berechnen. Erfassen Sie eine Zahlung, wenn dies nicht bereit getan ist. Wählen Sie *Aktionen > Abbrechen*. Nun ist die Lohnabrechnung im Status Abgelehnt. Wählen Sie nun *Auf Entwurf Setzen* und nehmen Sie die Anpassungen vor. Ist alles erledigt, können Sie wie gewohnt die Lohnabrechnung berechnen lassen und bestätigen.
 
 ### PDF Lohnabrechnung versenden
 

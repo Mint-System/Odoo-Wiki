@@ -81,7 +81,7 @@ Mit dem Befehl `Push Force` können Sie einen Remote-Branch überschreiben.
 
 ### Repository entfernen
 
-Wählen Sie den Befehl `Remove` um den Ordner des Git-Repository zu löschen. Anschliessend können Sie die *Aktion > Löschen* ausführen.
+Wählen Sie den Befehl `Remove` um den Ordner des Git-Repository zu löschen. Anschliessend können Sie die *Aktionen > Löschen* ausführen.
 
 ## Entwicklung
 

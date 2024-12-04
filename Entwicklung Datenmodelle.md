@@ -18,7 +18,7 @@ prev: ./development
 
 ### Datenmodell entfernen
 
-Öffnen Sie *Einstellungen > Technisch > Datenbankstruktur > Modelle* und suchen Sie das entsprechende Datenmodell. Markieren Sie dieses und wählen Sie *Aktion > Löschen*.
+Öffnen Sie *Einstellungen > Technisch > Datenbankstruktur > Modelle* und suchen Sie das entsprechende Datenmodell. Markieren Sie dieses und wählen Sie *Aktionen > Löschen*.
 
 ::: warning
 Diese Vorgang kann die Integrität und Verfügbarkeit des Systems beeinträchtigen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.

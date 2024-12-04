@@ -94,7 +94,7 @@ Die Aktion "Send Reminder" wird mit dem Aktivieren der Option *Ask confirmation*
 
 Die Portal-Ansicht einer Bestellung können Sie wie folgt anzeigen:
 * Öffnen Angebotsanfrage
-* Ausführen *Aktion > Teilen > Text kopieren*
+* Ausführen *Aktionen > Teilen > Text kopieren*
 * Neues privates Browser-Fenster öffnen
 * Link in Adressleiste einfügen
 

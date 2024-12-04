@@ -91,7 +91,7 @@ for rec in records.filtered(lambda r: not r.payslip_run_id):
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-Im Formular der Lohnabrechnung erscheint nun die Auswahl *Aktion > Lohnbuchung zurücksetzen*.
+Im Formular der Lohnabrechnung erscheint nun die Auswahl *Aktionen > Lohnbuchung zurücksetzen*.
 
 ### Lohnbuchung entfernen
 
@@ -116,7 +116,7 @@ for rec in records.filtered(lambda r: not r.payslip_run_id):
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-Im Formular der Lohnabrechnung erscheint nun die Auswahl *Aktion > Lohnbuchung entfernen*.
+Im Formular der Lohnabrechnung erscheint nun die Auswahl *Aktionen > Lohnbuchung entfernen*.
 
 
 ## Automatisierte Aktionen

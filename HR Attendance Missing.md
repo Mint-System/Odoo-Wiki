@@ -24,7 +24,7 @@ Die Erweiterung instaliert eine geplante Aktion, die täglich für alle Mitarbei
 
 ### Fehlende Anwesenheit für ausgewählten Zeitraum generieren
 
-Navigieren Sie nach *Personal* und öffnen Sie einen Mitarbeitenden-Eintrag. Wählen Sie *Aktion > Fehlende Anwesenheiten erstellen* und legen Sie im Dialog ein Start- und Enddatum fest. Erstellen Sie die Einträge mit *Erstellen*.
+Navigieren Sie nach *Personal* und öffnen Sie einen Mitarbeitenden-Eintrag. Wählen Sie *Aktionen > Fehlende Anwesenheiten erstellen* und legen Sie im Dialog ein Start- und Enddatum fest. Erstellen Sie die Einträge mit *Erstellen*.
 
 ### Generierte fehlende Anwesenheiten anzeigen
 

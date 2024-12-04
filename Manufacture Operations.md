@@ -28,7 +28,7 @@ Wenn Sie mehrere serialisierte Produkte in einem Vorgang fertigen möchten, müs
 
 ![](attachments/Manufacture%20Operations%20Seriennummer%20generieren.png)
 
-Bestätigen Sie den Vorgang mit *Anwenden*. Klicken Sie anschliessend auf den Smart-Button *X Lieferrückstände*. Markieren Sie alle Fertigungsaufträge und wählen Sie *Aktion > Als erledigt markieren*.
+Bestätigen Sie den Vorgang mit *Anwenden*. Klicken Sie anschliessend auf den Smart-Button *X Lieferrückstände*. Markieren Sie alle Fertigungsaufträge und wählen Sie *Aktionen > Als erledigt markieren*.
 
 ::: warning
 Dieser Vorgang funktioniert auch für Fertigungsaufträge mit Arbeitsvorgängen. Wenn die Fertigungsaufträge aus Lieferrückständen direkt erledigen, berechnet Odoo die Arbeitszeit gemäss der Zeitvorgabe.

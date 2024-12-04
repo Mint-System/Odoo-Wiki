@@ -47,4 +47,4 @@ for record in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Listen- und Formularansicht der Stücklisten haben Sie nun *Aktion > Positionsnummer festlegen* zur Auswahl.
+In der Listen- und Formularansicht der Stücklisten haben Sie nun *Aktionen > Positionsnummer festlegen* zur Auswahl.

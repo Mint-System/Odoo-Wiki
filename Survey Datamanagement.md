@@ -14,7 +14,7 @@ prev: ./survey
 
 ### Umfrage-Antworten exportieren
 
-Navigeren Sie nach *Umfragen > Fragen & Antworten > Detaillierte Antworten*. Entfernen Sie die bestehenden Filter und filtern Sie das Feld *Umfrage*.  Markieren Sie alle Elemente und wählen Sie *Aktion > Exportieren*.
+Navigeren Sie nach *Umfragen > Fragen & Antworten > Detaillierte Antworten*. Entfernen Sie die bestehenden Filter und filtern Sie das Feld *Umfrage*.  Markieren Sie alle Elemente und wählen Sie *Aktionen > Exportieren*.
 
 Wählen Sie diese Felder aus:
 

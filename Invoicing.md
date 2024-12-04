@@ -62,7 +62,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 ### Rechnungen versenden
 
-Zeigen Sie *Rechnungsstellung > Kunden > Rechnungen* und markieren Sie die gebuchten Rechnungen, die Sie versenden möchten. Wählen Sie *Aktion > Rechnung versenden*, ändern Sie optional die Mail-Vorlage im Dialog und bestätigen Sie den Versand mit *Senden*.
+Zeigen Sie *Rechnungsstellung > Kunden > Rechnungen* und markieren Sie die gebuchten Rechnungen, die Sie versenden möchten. Wählen Sie *Aktionen > Rechnung versenden*, ändern Sie optional die Mail-Vorlage im Dialog und bestätigen Sie den Versand mit *Senden*.
 
 ### Rechnung zurücksetzen
 
@@ -202,7 +202,7 @@ Damit wird beim Aufruf der Aktion *Senden & Drucken* auf der Rechnung die Standa
 
 Gilt ab #Odoo16.
 
-Navigieren Sie nach *Rechnungsstellung > Kunden > Rechnungen*. Markieren Sie die entsprechenden Kundenrechnungen und wählen Sie *Aktion > Print QR invoices*. Nun erstellt Odoo die PDF-Dateien für die ausgewählten Rechnungen.
+Navigieren Sie nach *Rechnungsstellung > Kunden > Rechnungen*. Markieren Sie die entsprechenden Kundenrechnungen und wählen Sie *Aktionen > Print QR invoices*. Nun erstellt Odoo die PDF-Dateien für die ausgewählten Rechnungen.
 
 ::: tip
 Damit die PDF-Datei beim Versenden der Rechnung aus dem Anhang geladen wird, müssen Sie die Aktion [Bericht beim Drucken aus Anhang laden](Development%20Reports.md#Bericht%20beim%20Drucken%20aus%20Anhang%20laden) für den *Rechnungen*-Bericht aktivieren.

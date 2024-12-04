@@ -30,4 +30,4 @@ raise Warning(url)
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Formularansicht der Mailing-Statistiken wählen Sie *Aktion > Anzeigen Unsubscribe URL*.
+In der Formularansicht der Mailing-Statistiken wählen Sie *Aktionen > Anzeigen Unsubscribe URL*.

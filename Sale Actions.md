@@ -121,7 +121,7 @@ for rec in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Liste der Verkaufsaufträge können Sie die Einträge markieren und *Aktion > Verkaufsauftrag bestätigen* auswählen.
+In der Liste der Verkaufsaufträge können Sie die Einträge markieren und *Aktionen > Verkaufsauftrag bestätigen* auswählen.
 
 ### Verkaufsauftrag abbrechen
 
@@ -141,7 +141,7 @@ for rec in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Liste der Verkaufsaufträge können Sie die Einträge markieren und *Aktion > Verkaufsauftrag abbrechen* auswählen.
+In der Liste der Verkaufsaufträge können Sie die Einträge markieren und *Aktionen > Verkaufsauftrag abbrechen* auswählen.
 
 ### Beschaffung starten
 

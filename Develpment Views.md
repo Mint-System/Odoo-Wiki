@@ -62,7 +62,7 @@ Alle Listen, Formulare und Berichte werden von Odoo in einer Tabelle verwaltet. 
 
 ### Ansicht entfernen
 
-Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Ansichten* und suchen Sie die entsprechende Ansicht. Markieren Sie diese und wählen Sie *Aktion > Löschen* oder *Aktion > Archiv*.
+Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Ansichten* und suchen Sie die entsprechende Ansicht. Markieren Sie diese und wählen Sie *Aktionen > Löschen* oder *Aktionen > Archiv*.
 
 ::: warning
 Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.

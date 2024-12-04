@@ -51,7 +51,7 @@ Bei Käufe aus dem Webshop kann der Status *Zusatzverkaufschance* entstehen, wen
 
 ### Mehrere Verkaufsaufträge abrechnen
 
-Öffnen Sie *Verkauf*, gruppieren Sie die Aufträge nach Kunde und setzen Sie als Filter *Abzurechnen*. Öffnen Sie einen Kunden, markieren Sie die Einträge und wählen Sie *Aktion > Rechnung erzeugen*.
+Öffnen Sie *Verkauf*, gruppieren Sie die Aufträge nach Kunde und setzen Sie als Filter *Abzurechnen*. Öffnen Sie einen Kunden, markieren Sie die Einträge und wählen Sie *Aktionen > Rechnung erzeugen*.
 
 ![](attachments/Verkauf%20Rechnung%20erzeugen.png)
 

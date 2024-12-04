@@ -74,7 +74,7 @@ Der Stundenzettel-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Va
 
 ### Auf Entwurf zurücksetzen
 
-Wenn Sie validieren Zeiterfassungs-Einträge zurücksetzen möchten, navigieren Sie nach *Zeiterfassung > Zeiterfassung > Alle Zeiterfassungen*. Wechseln Sie in die Listen-Ansicht und wählen Sie *Filter > Validiert. Markieren Sie Einträgen und wählen Sie *Aktion > Auf Entwurf zurücksetzen*.
+Wenn Sie validieren Zeiterfassungs-Einträge zurücksetzen möchten, navigieren Sie nach *Zeiterfassung > Zeiterfassung > Alle Zeiterfassungen*. Wechseln Sie in die Listen-Ansicht und wählen Sie *Filter > Validiert. Markieren Sie Einträgen und wählen Sie *Aktionen > Auf Entwurf zurücksetzen*.
 
 ### Validierung zurücksetzen
 

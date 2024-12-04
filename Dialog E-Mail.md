@@ -39,7 +39,7 @@ Odoo verwaltet alle E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > 
 
 ### E-Mail-Vorlage duplieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Vorlagen* und suchen Sie in der Liste nach der zu duplizierenden E-Mail-Vorlage. Öffnen Sie diese und wählen Sie *Aktion > Duplizieren*.
+Navigieren Sie nach *Einstellungen > Technisch > Vorlagen* und suchen Sie in der Liste nach der zu duplizierenden E-Mail-Vorlage. Öffnen Sie diese und wählen Sie *Aktionen > Duplizieren*.
 
 ### E-Mail-Vorlage erfassen
 

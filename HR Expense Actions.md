@@ -27,4 +27,4 @@ for rec in records:
   rec.action_unpost()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern. In der Ansicht der Spesenabrechnungen können Sie *Aktion > Spesenabrechnung zurücksetzen* anwählen.
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern. In der Ansicht der Spesenabrechnungen können Sie *Aktionen > Spesenabrechnung zurücksetzen* anwählen.

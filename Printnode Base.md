@@ -121,7 +121,7 @@ In diesem Beispiel wird der Lieferschein ausgedruck, sobald auf einem Liefersche
 
 ### Produktlabel von Lieferauftrag drucken
 
-Öffnen Sie eine Lieferung via *Lager > Lieferaufträge > Lieferauftrag auswählen* und klicken Sie auf *Aktion > Print Product Labels*
+Öffnen Sie eine Lieferung via *Lager > Lieferaufträge > Lieferauftrag auswählen* und klicken Sie auf *Aktionen > Print Product Labels*
 
 ![](attachments/Odoo%20Direct%20Print%20Producut%20LAbels.png)
 
@@ -173,7 +173,7 @@ Odoo Direct Print gibt eine Warnung aus, wenn das Papieformat nicht mit dem verk
 
 ### Produktetiketten drucken
 
-Auf Transfers *Lager > Vorgänge > Transfers* können Sie eine bestimmte Anzahl Produktetiketten drucken. Öffnen Sie einen Transfer und wählen Sie *Aktion > Print Product Labels*. Im Dialog wählen Sie den Bericht aus, bestimmen die Produkte und Anzahl der Etiketten, die Sie drucken möchten, wählen den Drucker aus und führen den Vorgang mit *Print* aus.
+Auf Transfers *Lager > Vorgänge > Transfers* können Sie eine bestimmte Anzahl Produktetiketten drucken. Öffnen Sie einen Transfer und wählen Sie *Aktionen > Print Product Labels*. Im Dialog wählen Sie den Bericht aus, bestimmen die Produkte und Anzahl der Etiketten, die Sie drucken möchten, wählen den Drucker aus und führen den Vorgang mit *Print* aus.
 
 ![](attachments/Odoo%20Direct%20Print%20Print%20Product%20Labels.png)
 

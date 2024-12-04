@@ -22,7 +22,7 @@ Navigieren Sie nach *Kontakte > Konfiguration > Länder*. Sortieren Sie die Län
 
 #### Länder-Sortierung zurücksetzen
 
-Navigieren Sie nach *Kontakte > Konfiguration > Länder* und markieren Sie ein Land. Wählen Sie *Aktion > Reset sequence*.
+Navigieren Sie nach *Kontakte > Konfiguration > Länder* und markieren Sie ein Land. Wählen Sie *Aktionen > Reset sequence*.
 
 ::: warning
 Umlauten werden im Sortiervorgang an die letzte Position geschoben. Passen Sie die Sequenz für Länder wie beispielsweise *Österreich* manuell an.

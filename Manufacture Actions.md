@@ -30,7 +30,7 @@ for rec in records:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
-In der Liste der Fertigungsauftrag können Sie die Einträge markieren und *Aktion > Fertigungsauftrag abbrechen* auswählen.
+In der Liste der Fertigungsauftrag können Sie die Einträge markieren und *Aktionen > Fertigungsauftrag abbrechen* auswählen.
 
 ### Reload BoM
 

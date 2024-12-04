@@ -103,7 +103,7 @@ Wenn Sie den [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivier
 
 ### Datensatzregeln deaktivieren
 
-Zeigen Sie *Einstellungen > Technisch > Sicherheit > Datensatzregeln* an und öffnen Sie den ausgewählten Eintrag. Wählen Sie *Aktion > Archiv* um die Datensatzregel zu deaktivieren.
+Zeigen Sie *Einstellungen > Technisch > Sicherheit > Datensatzregeln* an und öffnen Sie den ausgewählten Eintrag. Wählen Sie *Aktionen > Archiv* um die Datensatzregel zu deaktivieren.
 
 ### Datensatzregeln auf Datenmodell vergeben
 
