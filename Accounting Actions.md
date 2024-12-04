@@ -140,8 +140,7 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
-for record in records:  
-  record.action_undo_reconciliation()
+records.action_undo_reconciliation()
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
@@ -339,11 +338,13 @@ records.write({'to_check': True})
 
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
 
-### Abstimmung zurücksetzen
+### Buchungszeile Abstimmung zurücksetzen
+
+Mit dieser Aktion können Sie die Abstimmungen auf der Listenansicht der Buchungszeilen aufheben. 
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Abstimmung zurücksetzen`\
+Name der Aktion: `Buchungszeile Abstimmung zurücksetzen`\
 Modell: `account.move.line`\
 Folgeaktion: Den Datensatz aktualisieren\
 Zu schreibende Daten:
