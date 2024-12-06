@@ -12,4 +12,4 @@ prev: ./sale
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_order_line_form_action`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/15.0/sale_order_line_form_action>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_order_line_form_action>

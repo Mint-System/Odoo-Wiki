@@ -12,4 +12,4 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_financial_report_show_grouped_none`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/14.0/account_financial_report_show_grouped_none>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/16.0/account_financial_report_show_grouped_none>

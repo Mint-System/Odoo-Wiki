@@ -13,7 +13,7 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_move_post_warn`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_move_post_warn>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/account_move_post_warn>
 
 ## Verwendung
 

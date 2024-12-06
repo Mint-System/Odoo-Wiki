@@ -12,7 +12,7 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_lot_traceability_list`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/16.0/stock_lot_traceability_list>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_lot_traceability_list>
 
 
 ## Verwendung

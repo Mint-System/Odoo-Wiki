@@ -12,7 +12,7 @@ prev: ./project
 {{ $frontmatter.description }}
 
 Technischer Name: `project_timeline`\
-Repository: <https://github.com/OCA/project/tree/16.0/project_timeline>
+Repository: <https://github.com/OCA/project/tree/17.0/project_timeline>
 
 ## Verwendung
 

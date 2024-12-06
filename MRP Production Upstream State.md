@@ -12,7 +12,7 @@ prev: ./manufacture
 {{ $frontmatter.description }}
 
 Technischer Name: `mrp_production_upstream_state`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_production_upstream_state>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/16.0/mrp_production_upstream_state>
 
 ## Verwendung
 

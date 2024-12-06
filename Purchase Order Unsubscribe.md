@@ -12,7 +12,7 @@ prev: ./dialog
 {{ $frontmatter.description }}
  
 Technischer Name: `purchase_order_unsubscribe`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/purchase_order_unsubscribe>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/16.0/purchase_order_unsubscribe>
 
 ## Verwendung
 

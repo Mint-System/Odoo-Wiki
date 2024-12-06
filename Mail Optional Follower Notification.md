@@ -12,7 +12,7 @@ prev: ./dialog
 {{ $frontmatter.description }}
 
 Technischer Name: `mail_optional_follower_notification`\
-Repository: <https://github.com/OCA/social/tree/16.0/mail_optional_follower_notification>
+Repository: <https://github.com/OCA/social/tree/17.0/mail_optional_follower_notification>
 
 ## Verwendung
 

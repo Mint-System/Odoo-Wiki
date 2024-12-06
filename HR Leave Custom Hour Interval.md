@@ -12,7 +12,7 @@ prev: ./hr-holidays
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_leave_custom_hour_interval`\
-Repository: <https://github.com/OCA/hr-holidays/tree/15.0/hr_leave_custom_hour_interval>
+Repository: <https://github.com/OCA/hr-holidays/tree/17.0/hr_leave_custom_hour_interval>
 
 ## Konfiguration
 

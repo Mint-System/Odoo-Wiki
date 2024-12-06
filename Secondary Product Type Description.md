@@ -12,7 +12,7 @@ prev: ./manufacture
 {{ $frontmatter.description }}
 
 Technischer Name: `product_type_description2`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/14.0/product_type_description2>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/17.0/product_type_description2>
 
 ## Verwendung
 
