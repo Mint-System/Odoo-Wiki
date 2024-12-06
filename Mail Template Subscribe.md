@@ -10,12 +10,12 @@ prev: ./dialog
 # Mail Template Subscribe
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
-\{\{ $frontmatter.description \}\}
+{{ $frontmatter.description }}
 
 Technischer Name: `mail_template_subscribe`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/16.0/mail_template_subscribe>
 
-## Verwendung
+## Konfiguration
 
 ### Ausgewählte Kontakte als Follower hinzufügen
 

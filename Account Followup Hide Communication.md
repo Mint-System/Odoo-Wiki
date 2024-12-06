@@ -4,7 +4,7 @@ description: Spalte Kommunikation in Mahnbericht ausblenden.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./accounting
+prev: ./invoicing
 ---
 # Account Followup Hide Communication
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
