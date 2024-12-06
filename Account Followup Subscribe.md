@@ -16,4 +16,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.
 
 ## Beschreibung
 
-Dieses Modul erweitert die Funktionalität von [Mail Template Subscribe](Mail%20Template%20Subscribe.md) auf das Mahnugnswesen.
+Dieses Modul erweitert die Funktionalität von [Mail Template Subscribe](Mail%20Template%20Subscribe.md) auf das Mahnwesen.
