@@ -23,6 +23,7 @@ const anchorPrefix = '#'
 const attachmentsFolder = 'attachments'
 const gitUrl = 'https://github.com/Mint-System/Odoo-Handbuch/blob/master/'
 const sidebarAppend = ['glossary.md','contribution.md']
+const ignoreLinks = 'TOC'
 
 function sanitizeName(name) {
     return name.toLocaleLowerCase()

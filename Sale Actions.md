@@ -11,6 +11,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
+[[TOC]]
+
 ## Aktionen
 
 ### Auf Erledigt setzen
