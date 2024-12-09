@@ -24,3 +24,4 @@ Technischer Name: `l10n_ch`\
 | [l10n CH QR Code IBAN](l10n%20CH%20QR%20Code%20IBAN.md)                                     | Generierung der QR-Rechnung ohne ISR-Nummer.                    |
 | [l10n CH QR Code Ref](l10n%20CH%20QR%20Code%20Ref.md)                                       | Rechnungsname als zusätzliche Information in QR-Code festlegen. |
 | [l10n CH QR ISR Invoice Import](l10n%20CH%20QR%20ISR%20Invoice%20Import.md)                 | Rechnung anhand QR-Daten erstellen.                             |
+| [l10n CH Reports](l10n%20CH%20Reports.md)                                                   | Schweizer Lokalisierung der Buchhaltung.                        |

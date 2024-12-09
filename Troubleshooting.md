@@ -478,3 +478,34 @@ Ein Termin mit Wiederholung konnte nicht korrekt synchronisiert werden.
 **Lösung**
 
 Sie müssen die [Google-Kalender-Synchronisation zurücksetzen](Calendar.md#Google-Kalender-Synchronisation%20zurücksetzen).
+
+## Abwesenheiten
+
+### Mitarbeiter sollen in Zeitraum nicht arbeiten
+
+***Problem**
+
+Beim Bestätigen einer Anwesenheit mit benutzerdefinierten Stunden, erscheint dieser Fehler:
+
+```
+Die folgenden Mitarbeiter sollen in diesem Zeitraum nicht arbeiten:
+Mitchell Admin
+```
+
+**Ursache**
+
+Validierung des "Number of Days" Felds. Der Wert wird auf 0 abgerundet.
+
+**Lösung**
+
+Das Modul [HR Holidays Working Time](HR%20Holidays%20Working%20Time.md) deaktiviert den Check.
+
+## Abwesenheiten
+
+### Es kann kein Anwesenheitseintrag angelegt werden
+
+
+
+```
+Es kann kein neuer Anwesenheitseintrag für Mitchel Admin angelegt werden. Der Mitarbeiter ist seit 26.11.2024 02:00:00 angemeldet.
+```
