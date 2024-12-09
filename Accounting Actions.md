@@ -375,6 +375,8 @@ Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätig
 
 ### Konto aktualisieren
 
+Mit dieser Aktion können Sie das Konto für ausgewählte Buchungszeilen aktualisieren.
+
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Konto aktualisieren`\

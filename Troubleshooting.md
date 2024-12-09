@@ -11,6 +11,8 @@ prev: ./
 
 {{ $frontmatter.description }}
 
+[[TOC]]
+
 ## Abrechnung
 
 ### QR-Code Rechnung kann nicht erstellt werden
@@ -343,6 +345,24 @@ Die Buchung der Zahlung erfordert ein Zwischenkonto.
 **Lösung**
 
 Navigieren Sie nach *Einstellungen > Buchhaltung > Standardkonto* und legen Sie bei *Konto für ausstehende Zahlungen* ein Konto fest.
+
+### Nur eine Konto für ausstehende Zahlungen und Eingänge
+
+**Problem**
+
+Wenn Sie versuchen auf einem Buchhungssatz ein anderes Zahlungs-Konto zu definieren erscheint diese Fehlermeludng?
+
+```
+Die Journalbuchung Entwurfsbuchung DIV/2024/10/0001 (201740) ist nicht gültig. Um fortzufahren, dürfen die Buchungszeilen genau ein Konto für ausstehende Zahlungen und Eingänge enthalten.
+```
+
+**Ursache**
+
+Für jedes Journal ist definiert welche Konto als Liquiditäts-Konten verwendet werden dürfen.
+
+**Lösung**
+
+Korrigieren Sie die verfügbaren Konten in den Journalkonfigurationen.
 
 ## Personalabrechnung
 
