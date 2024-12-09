@@ -25,7 +25,8 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 query = "SELECT * FROM pg_locks WHERE relation = (SELECT oid FROM pg_class WHERE relname = 'ir_cron');"
-res = env.cr.execute(query)            
+env.cr.execute(query)
+res = env.cr.fetchall()
 raise UserError(["Result", res])
 ```
 
