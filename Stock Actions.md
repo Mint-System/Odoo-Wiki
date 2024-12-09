@@ -11,6 +11,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
+[[TOC]]
+
 ## Aktionen
 
 ### Transfer abbrechen
