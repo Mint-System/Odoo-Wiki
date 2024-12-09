@@ -11,6 +11,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
+[[TOC]]
+
 ## Aktionen
 
 ### Als gesendet markieren
