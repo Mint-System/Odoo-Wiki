@@ -159,9 +159,9 @@ Wenn der Seiteninhalt nicht mehr überschaubar ist, kann ein Inhaltsverzeichnis 
 
 [[TOC]]
 
-### Veraltet
+## Veraltet
 
-Wenn Apps verwaltet sind können Sie diese Markierung verwenden:
+Wenn Apps verwaltet sind, können Sie diese wie folgt markieren:
 
 ```
 ::: warning
@@ -169,6 +169,13 @@ Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscr
 #deprecated
 :::
 ```
+
+Output:
+
+::: warning
+Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscribe) zu verwenden.
+#deprecated
+:::
 
 ## Konventionen
 
