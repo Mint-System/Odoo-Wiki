@@ -33,13 +33,7 @@ git clone git@github.com:Mint-System/Odoo-Wiki.git
 
 Der Obsidian Vault und das Git Repository werden mit dem Obisidian Git Plugin synchronisiert.
 
-**Pull** - Das lokale Git Repository aktualisieren:
-* <kbd>ctrl + p</kbd> drücken
-* Befehl `Obisdian Git: Pull from remote repository` ausführen
-
-**Push** - Änderungen speichern und auf <https://github.com/Mint-System/Odoo-Wiki> hochladen:
-* <kbd>ctrl + p</kbd> drücken
-* Befehl `Obisdian Git: Create backup` ausführen
+![](attachments/Obsidian%20Git%20Plugin.png)
 
 ## Philosophie
 
@@ -159,6 +153,12 @@ Info
 Warnung
 :::
 
+## Inhaltsverzeichnis
+
+Wenn der Seiteninhalt nicht mehr überschaubar ist, kann ein Inhaltsverzeichnis eingefügt werden. Dazu gibt man vor der ersten Überschrift (nach Titel) den Inhalt `[[TOC]]` ein. Vuepress generiert an dieser Stelle das Inhaltsverzeichnis. Dazu das Inhaltsverzeichnis dieser Seite:
+
+[[TOC]]
+
 ### Veraltet
 
 Wenn Apps verwaltet sind können Sie diese Markierung verwenden:
@@ -195,7 +195,7 @@ Informationen eines Kunden dürfen auf den Bildern nicht sichtbar sein.
 
 ## Struktur
 
-Für jede Odoo-App existiert eine Seite. Beispielsweise gibt es die Seite [Notizen](Note.md) für die Notiz-App. Der folgende Markdown-Code ist eine Zusammenfassung alle verwendbaren Blöcke in einer Seite:
+Für jede Odoo-App existiert eine Seite. Beispielsweise gibt es die Seite [Notizen](Note.md) für die Notiz-App. Der folgende Markdown-Code ist eine Zusammenfassung alle verwendbarer Elemente in einer Seite:
 
 **App Name.md**
 
@@ -210,7 +210,7 @@ tags:
 - Drittanbieter
 prev: ./accounting
 ---
-## Appname
+# Appname
 ![](/assets/icon.png)
 
 {{ $frontmatter.description }}
@@ -253,14 +253,18 @@ Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist di
 
 Die Bereiche bzw. Unterseite werden in der Hauptseite aufgelistet.
 
-Genauso werden *Erweiterungen* und *Videos* verlinkt.
+Genauso werden *Erweiterungen* verlinkt.
 
 ### OCA-Apps
 
 Dokumentation zu den OCA-Apps müssen diese Vorgaben erfüllen:
 * Standard OCA-Icon
+![icon_oca_app](attachments/icon_oca_app.png)
+
 * Titel ist gleich dem Titel im Repository
 * Repository-Link zeigt auf die aktuellste Version
+
+Mit `task update-repo-url` können die Repository-Links aktualisiert werden.
 
 ## Tags
 
