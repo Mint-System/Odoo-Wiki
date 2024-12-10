@@ -39,6 +39,7 @@ prev: ./
 | [Product Type Description](Product%20Type%20Description.md)                                 | Zu jedem Produkt ein Beschreibungsfeld.                                     |
 | [Product Variant Description](Product%20Variant%20Description.md)                           | Verkaufs-, Einkaufs- und Lieferbeschreibung auf Produktvarianten festlegen. |
 | [Secondary Product Type Description](Secondary%20Product%20Type%20Description.md)           | Zu jedem Produkt ein zweites Beschreibungsfeld.                             |
+| [[Product Usability]]                                                                                            |                                                                             |
 
 ## Verwendung
 
