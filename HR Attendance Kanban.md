@@ -23,6 +23,8 @@ Mit diesem Modul können Mitarbeiter ein- oder auschecken, indem sie ihre Kachel
 * 🏠 Home-Office
 * 🚋 Reisend
 
+![](attachments/HR%20Attendance%20Kanban.png)
+
 ## Konfiguraiton
 
 ### Mitarbeitende auf Kanban-Ansicht anzeigen
