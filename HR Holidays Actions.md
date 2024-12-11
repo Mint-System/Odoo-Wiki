@@ -36,5 +36,4 @@ In der Liste der Abwesenheiten erscheint nun in der Auswahl *Aktion* das Menu *A
 ```js
 for rec in records:
   rec['number_of_hours_display'] = rec.number_of_days * rec.employee_id.sudo().resource_id.calendar_id.hours_per_day
-
 ```
