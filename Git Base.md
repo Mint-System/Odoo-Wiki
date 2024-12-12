@@ -15,7 +15,14 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/16.0/git_ba
 
 ## Konfiguration
 
-### SSH-Schlüssel hinterlegen
+Damit Git sich auf das Remote-Repository verbinden kann, muss ein SSH-Schlüssel hinterlegt werden. Die SSH-Schlüssel können an mehreren Stellen erfasst werden. Das Modul wählt den SSH-Schlüssel nach folgender Priorität aus:
+
+1. **Deploy Keys**: Schüssel generiert für das Repository
+2. **Repo User Keys**: Schlüssel hinterlegt auf dem Repository-Benutzer
+3. **Current User Keys**: Schlüssel hinterlegt auf dem eigenen Benutzer
+4. **Company Keys**: Schlüssel definiert in den Einstellungen des Unternehmens
+
+### Persönlicher SSH-Schlüssel festlegen
 
 Klicken Sie *Benutzer-Menu > Präferenzen* und zeigen Sie den Tab *SSH* an. Hier können Sie ihren privaten und öffentlichen SSH-Schlüssel hinterlegen. Wenn der private SSH-Schlüssel verschlüssel ist, geben im entsprechenden Feld das Passwort ein.
 
@@ -27,6 +34,10 @@ Die SSH-Schlüssel werden unverschlüsselt in der Datenbank gespeichert und kön
 
 Navigieren Sie nach *Einstellungen > Benutzer und Gruppen > Benutzer* und zeigen Sie einen Benutzer an. Im Tab *SSH* können Sie die SSH-Schlüssel für den Benutzer festlegen.
 
+### SSH-Schlüssel für Unternehmen festlegen
+
+Zeigen Sie *Einstellungen > Allgemeine Einstellungen > Integrationen* an. Unter der Option *Git* finden Sie die Felder um den SSH-Schlüssel einzutragen.
+
 ## Verwendung
 
 ### Account anlegen
@@ -35,14 +46,18 @@ Navigieren Sie nach *Git > Account* und erstellen Sie einen neuen Eintrag. Wähl
 
 ### Repository anlegen
 
-Navigieren Sie nach *Git > Repos* und erstellen einen Eintrag. Wählen Sie einen Git-Account aus und geben Sie validen Namen ein.
+Navigieren Sie nach *Git > Repos* und erstellen einen Eintrag. Wählen Sie einen Git-Account aus und geben Sie einen validen Namen ein.
+
+### Repository-Benutzer auswählen
+
+Der Author der Commits ist standardmässig der eingeloggte Benutzer. Wenn Sie einen bestimmten Benutzer auswählen möchten, können Sie im Git Repo *Git > Repos* im Tab *Configuration* den Benutzer auswählen.
 
 ### SSH-Schlüssel für Repository generieren
 
 Öffnen Sie unter *Git > Repos* ein Repository. Im Tab *Configuration* führen Sie die Aktion *Generate Deploy Keys*.
 
 ::: tip
-Diese SSH-Schlüssel können Sie als *Deploy keys* auf Remote Repositories hinterlegen.
+Diesen SSH-Schlüssel hinterlegen Sie als *Deploy key* auf den Remote Repository.
 :::
 
 ### Repository initialisieren oder klonen
@@ -81,7 +96,7 @@ Mit dem Befehl `Push Force` können Sie einen Remote-Branch überschreiben.
 
 ### Repository entfernen
 
-Wählen Sie den Befehl `Remove` um den Ordner des Git-Repository zu löschen. Anschliessend können Sie die *Aktionen > Löschen* ausführen.
+Wählen Sie den Befehl `Remove` um den Ordner des Git-Repository zu löschen. Anschliessend können Sie *Aktionen > Löschen* ausführen.
 
 ## Entwicklung
 
