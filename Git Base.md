@@ -38,6 +38,14 @@ Navigieren Sie nach *Einstellungen > Benutzer und Gruppen > Benutzer* und zeigen
 
 Zeigen Sie *Einstellungen > Allgemeine Einstellungen > Integrationen* an. Unter der Option *Git* finden Sie die Felder um den SSH-Schlüssel einzutragen.
 
+::: warning
+Der private SSH-Schlüssel muss Base64-Kodiert sein.
+
+```bash
+cat ~/.ssh/id_ed25519 | base64 -w0
+```
+:::
+
 ## Verwendung
 
 ### Account anlegen
