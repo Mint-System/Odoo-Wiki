@@ -281,8 +281,8 @@ moves_without_payment = []
 for move in records.filtered(lambda m: m.payment_state == 'not_paid'):
   payment = env['account.payment'].search([('ref', '=', move.payment_reference)], limit=1)
   if payment:
-    move_line = move.line_ids.filtered(lambda l: l.name == move.payment_reference)[0]
-    payment_line = payment.line_ids.filtered(lambda l: l.account_id == move_line.account_id)[0]
+    move_line = move.line_ids.filtered(lambda l: l.name == move.payment_reference)[:1]
+    payment_line = payment.line_ids.filtered(lambda l: l.account_id == move_line.account_id)[:1]
     if move_line and payment_line:
       lines = move_line + payment_line
       lines.reconcile()
@@ -304,7 +304,6 @@ if moves_reconciled:
       'sticky': True
     }
   }
-
 ```
 
 Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
