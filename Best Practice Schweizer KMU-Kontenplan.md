@@ -83,6 +83,14 @@ Wenn Sie die Mehrwertsteuer-Abrechnung verbuchen, wird der zu zahlende Betrag au
 
 Siehe [Steuergruppen anzeigen](Accounting%20Tax.md#Steuergruppen%20anzeigen).
 
+## 28XX Eigenkapital
+
+Bereich wird als Konto für die Kapitaleinlage in der Bilanz verwendet.
+
+## 290X Gewinnvortrag / Verlustvortrag
+
+Wird für Gewinn- und Verlust-Vortrag in der Bilanz verwendet.
+
 ## 3200 Warenverkauf (Handel)
 
 Ist das Standard-Ertragskonto für das Journal "Kundenrechnungen".
@@ -130,3 +138,7 @@ Siehe [Bank-Journal anzeigen](Accounting.md#Bank-Journal%20anzeigen).
 Verlustkonto für Währungsdifferenzen des Journals "Bargeld", "Bank" und weitere Journale dieses Typs.
 
 Siehe [Bank-Journal anzeigen](Accounting.md#Bank-Journal%20anzeigen).
+
+## 999999 Unverteilte Gewinne/Verluste
+
+Konto ausserhalb der Bilanz. Wird für Gewinn- und Verlust-Vortrag verwendet.
