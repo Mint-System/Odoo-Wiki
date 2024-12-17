@@ -15,7 +15,7 @@ Hier folgt eine Übersicht der wichtigsten Konten und Konten-Gruppen, die von Od
 
 ## 1001 Bargeld
 
-Das Bargeld-Konto wird vom gleichnamigen Journal "Bargeld" verwaltet.
+Das Bargeld-Konto wird vom gleichnamigen Journal "Bargeld" verwaltet. Wenn Sie keine Kasse oder Bargeld-Einlagen für ihr Unternehmen führen, hat dieses Konto keine Bedeutung.
 
 ## 1021 Bankzwischenkonto
 
@@ -37,7 +37,7 @@ Siehe [Standardkonten verwalten](Accounting.md#Standardkonten%20verwalten).
 
 ## 1024 Bank
 
-Dieses Konto ist mit dem Journal "Bank" verknüpft.
+Dieses Konto ist mit dem Journal "Bank" verknüpft. Wenn Sie die Bank-Transaktionen importieren, werden alle Gutschriften und Belastungen auf dieses Konto verbucht. Mit der Abstimmung ordnen Sie alle Buchungen auf diesem Konto einer Buchungszeile auf einem Konto, das eine Abstimmung erlaubt, zu.
 
 Siehe [Bank-Journal anzeigen](Accounting.md#Bank-Journal%20anzeigen).
 
@@ -49,13 +49,13 @@ Siehe [Bank-Journal erfassen](Accounting.md#Bank-Journal%20erfassen).
 
 ## 10901 Liquiditätstransfer
 
-Das ist das "Internes Transferkonto".
+Dieses Konto wird für interne Transfers, also von Konto zu Konto verwendet. Dieses Konto versteht sich auch als Hilfskonto, beispielsweise um Rückleitungen in der Abstimmung miteinander abzugleichen.
 
 Siehe [Standardkonten verwalten](Accounting.md#Standardkonten%20verwalten).
 
 ## 1100 Debitoren
 
-Wenn Sie eine Kunden-Rechnung erfassen, wird der Rechnungsbetrag auf dieses Konto verbucht.
+Wenn Sie eine Kunden-Rechnung erfassen, wird der Rechnungsbetrag auf diesem Konto verbucht.
 
 ::: tip
 Es gibt nur ein Debitoren-Konto für Journale vom Typ *Verkauf*.
@@ -75,7 +75,7 @@ Siehe [Steuergruppen anzeigen](Accounting%20Tax.md#Steuergruppen%20anzeigen).
 
 ## 2000 Kreditoren
 
-Wenn Sie eine Lieferanten-Rechnung erfassen, wird der Rechnungsbetrag auf dieses Konto verbucht.
+Wenn Sie eine Lieferanten-Rechnung erfassen, wird der Rechnungsbetrag auf diesem Konto verbucht.
 
 ::: tip
 Es gibt nur ein Kreditoren-Konto für Journale vom Typ *Einkauf*.
