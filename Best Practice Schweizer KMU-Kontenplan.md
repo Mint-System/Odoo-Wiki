@@ -11,6 +11,8 @@ Odoo bietet eine Vorlage für den Schweizer KMU-Kontenplan. Wenn die Vorlage akt
 
 Hier folgt eine Übersicht der wichtigsten Konten und Konten-Gruppen, die von Odoo verwaltet werden.
 
+[[TOC]]
+
 ## 1001 Bargeld
 
 Das Bargeld-Konto wird vom gleichnamigen Journal "Bargeld" verwaltet.
