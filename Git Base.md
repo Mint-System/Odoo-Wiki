@@ -6,7 +6,7 @@ tags:
 prev: ./
 ---
 # Git
-![icons_odoo_git_base](attachments/icons_odoo_git_base.png)
+![](attachments/icons_odoo_git_base_2.png)
 
 {{ $frontmatter.description }}
 

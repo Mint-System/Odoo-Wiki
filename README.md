@@ -431,7 +431,7 @@ Kaufverträge für Rahmenbestellungen erstellen.
 
 ### [Git](Git%20Base.md)
 
-![icons_odoo_git_base](attachments/icons_odoo_git_base.png)
+![](attachments/icons_odoo_git_base_2.png)
 
 Git Repositories mit Odoo verwalten.
 
