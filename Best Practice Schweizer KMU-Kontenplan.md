@@ -9,7 +9,7 @@ prev: ./best-practice
 
 Odoo bietet eine Vorlage für den Schweizer KMU-Kontenplan. Wenn die Vorlage aktiviert wird, werden ausgewählte Konten von Odoo verwaltet.
 
-Hier folgt eine Übersicht der wichtigsten Konten, die von Odoo verwaltet werden.
+Hier folgt eine Übersicht der wichtigsten Konten und Konten-Gruppen, die von Odoo verwaltet werden.
 
 ## 1001 Bargeld
 
