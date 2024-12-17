@@ -159,12 +159,16 @@ pricelist_id = env.ref(default_price_list)
 stage_running_id = env.ref("sale_subscription.sale_subscription_stage_in_progress")
 stage_closed_id = env.ref("sale_subscription.sale_subscription_stage_closed")
 
+# Get resellers
+reseller_ids = env["res.partner"].search([("grade_id","!=",False)])
+
 # Get extend date
 today = datetime.datetime.today()
 extend_date = today + datetime.timedelta(weeks=weeks_before_invoice_date)
 
 # Search subscriptions
 extend_subscriptions = env["sale.order"].search([
+  ("partner_id", "not in", reseller_ids.ids),
   ("is_subscription", "=", True),
   ("pricelist_id", "=", pricelist_id.id),
   ("stage_id", "=", stage_running_id.id),

@@ -42,6 +42,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 * [VAT-Abrechnung](Best%20Practice%20VAT%20Billing.md)
 * [OCA Finanzbuchhaltung](Best%20Practice%20OCA%20Finanzbuchhaltung.md)
 * [Eröffnung Buchhaltung](Best%20Practice%20Open%20Accounting.md)
+* [Schweizer KMU-Kontenplan](Best%20Practice%20Schweizer%20KMU-Kontenplan.md)
 
 ### Einkauf
 

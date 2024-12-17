@@ -96,7 +96,15 @@ Konten Tags werden zur Generierung des Steuerberichts verwendet und sind mit den
 
 Navigieren Sie nach *Buchhaltung > Konfiguration > Kontenplan* und wählen Sie ein Konto aus. Im Feld *Zugelassene Journale* können Sie festlegen in welchem Journal dieses Konto verwendet darf.
 
+### Standardkonten verwalten
+
+Navigieren Sie nach *Einstellungen > Buchhaltung > Standardkonten*. Hier finden Sie die Standardkonten der Buchhaltung.
+
 ## Bank-Jounal
+
+### Bank-Journal anzeigen
+
+Zeigen Sie *Buchhaltung > Konfiguration > Journale* an und öffnen Sie das Journal *Bank*.
 
 ### Bank-Journal erfassen
 

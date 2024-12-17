@@ -57,6 +57,10 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 ## Versand
 
+### Journal Kundenrechnungen anzeigen
+
+Navigieren Sie nach *Rechnungsstellung > Konfiguration > Journale* und zeigen Sie das Journal *Kundenrechnugen* an.
+
 ### Ausgangsrechnung erfassen
 
 Öffnen Sie *Rechnungsstellung > Kunden > Rechnungen* und fügen Sie einen Eintrag hinzu.
@@ -140,6 +144,10 @@ Auf Kontakten können Sie Warnungs-Text hinterlegen, welche bei der Ertellung ei
 ![](attachments/Rechnungsstellung%20Warnung.png)
 
 ## Empfang
+
+### Journal Lieferantenrechnungen anzeigen
+
+Navigieren Sie nach *Rechnungsstellung > Konfiguration > Journale* und zeigen Sie das Journal *Lieferantenrechnungen* an.
 
 ### Eingangsrechnung erfassen
 
