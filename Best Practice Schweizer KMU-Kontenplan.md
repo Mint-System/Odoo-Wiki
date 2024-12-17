@@ -89,7 +89,7 @@ Siehe [Steuergruppen anzeigen](Accounting%20Tax.md#Steuergruppen%20anzeigen).
 
 Bereich wird als Konto für die Kapitaleinlage in der Bilanz verwendet.
 
-## 290X Gewinnvortrag / Verlustvortrag
+## 29XX Gewinnvortrag / Verlustvortrag
 
 Wird für Gewinn- und Verlust-Vortrag in der Bilanz verwendet.
 
