@@ -22,7 +22,7 @@ Diese Erweiterung ermöglicht die Verwaltung von Zahlungsmodis.
 
 ### Zahlungsmodus erfassen
 
-Navigieren Sie nach *Buchhaltung > Konfiguration > Verwaltung > Zahlungsmodi*. Erstellen Sie eine neuen ### Zahlungsmodus erfassen:
+Navigieren Sie nach *Buchhaltung > Konfiguration > Verwaltung > Zahlungsmodi*. Erstellen Sie eine neuen *Zahlungsmodus* erfassen:
 
 * **Name**: Name des Zahlungsmodus, beispielsweise *Manuell Bank*
 * **Zahlungsmethode**: Zahlungsmethode auswählen, beispielsweise *\[manual\] Manuell (outbound)*
