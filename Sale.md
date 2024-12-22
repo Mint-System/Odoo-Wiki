@@ -29,7 +29,6 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | Erweiterung                                                                                       | Beschreibung                                                                  |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | [Sale Automatic Workflow](Sale%20Automatic%20Workflow.md)                                         | Verkaufsprozess automatisieren.                                               |
-| [Sale Blanket Order Comment](Sale%20Blanket%20Order%20Comment.md)                                 | Kommentar auf Rahmenauftrag.                                                  |
 | [Sale Company Currency](Sale%20Company%20Currency.md)                                             | Total der Verkaufsaufträge in Unternehmenswährung.                            |
 | [Sale Force Invoiced](Sale%20Force%20Invoiced.md)                                                 | Markieren Sie den Verkaufsauftrag als abgerechnet.                            |
 | [Sale Invoice Policy](Sale%20Invoice%20Policy.md)                                                 | Abrechnungsregel auf Produkt und Angebot festlegen.                           |
