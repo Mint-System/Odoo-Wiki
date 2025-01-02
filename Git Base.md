@@ -106,6 +106,10 @@ Mit dem Befehl `Push Force` können Sie einen Remote-Branch überschreiben.
 
 Wählen Sie den Befehl `Remove` um den Ordner des Git-Repository zu löschen. Anschliessend können Sie *Aktionen > Löschen* ausführen.
 
+### Repositories von lokalem Pfad importieren
+
+Sie können den lokalen Pfad der Forge nach Repositories durchsuchen lassen und importieren. Zeigen Sie eine Forge unter *Git > Forges* an. Klicken Sie auf *Import Repos from Local Path*.
+
 ## Entwicklung
 
 ### Umgebung auf Branch festlegen
