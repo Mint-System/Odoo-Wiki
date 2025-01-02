@@ -69,6 +69,18 @@ Angenommen Sie haben Mitarbeiten im Stundenlohn und möchten für diese die Bere
 
 Zusätzlich können Sie mit der geplanten Aktion die angefallenen [Überstunden entfernen](HR%20Attendance%20Actions.md#Überstunden%20entfernen).
 
+### Überstunden auszahlen
+
+Wenn Sie Überstunden auszahlen, müssen Sie diese manuell abziehen. Damit Sie manuelle Korrekturen vornehmen können, richten Sie [Alle Überstunden anzeigen](#Alle%20Überstunden%20anzeigen) ein und erlauben die manuelle Bearbeitung mit [Snippet hinzufügen](Development%20Snippets.md#Snippet%20hinzufügen).
+
+Anschliessend können Sie unter *Anwesenheiten > Überstunden* manuelle Einträge erstellen.
+
+![](attachments/Anwesenheiten%20Überstunden%20Korrektur.png)
+
+::: tip
+Erfassen Sie die Korrektur-Einträge an einem Wochenende oder Feiertag, damit der Eintrag nicht von Überstunden-Berechnungen überschrieben.
+:::
+
 ## Berichte
 
 ### Überstunden in Bericht Anwesenheiten anzeigen
