@@ -205,6 +205,30 @@ raise UserError(followup_level.items())
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
+### Mahngebühren hinzufügen
+
+Mit dieser Aktion wird einer gebuchten Rechnung eine Mahngebühr hinzugefügt. Damit diese Aktion funktioniert, müssen Sie ein [Produkt Mahngebühren einrichten](Invoicing%20Reminder.md#Produkt%20Mahngebühren%20einrichten).
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Mahngebühren hinzufügen`\
+Modell: `account.move`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+
+```python
+product_templ_id = env.ref("__custom__.product_follwup_fees")
+if not product_templ_id:
+	raise UserError("No product for follwup fees found.")
+for rec in records:
+	rec.write({
+		'line_ids': [(0, 0, {'product_id': product_templ_id.product_variant_id.id})]
+	})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+
 ### Analysekonto entfernen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:

@@ -24,6 +24,20 @@ Wenn Sie eine [Mahnstufe konfigurieren](#Mahnstufe%20konfigurieren) können Sie 
 
 Wenn Sie den Text des Mahnberichts anpassen möchten, müssen Sie eine [Übersetzung anpassen](Settings%20Translations.md#Übersetzung%20anpassen). Suchen Sie in den übersetzen Begriffen nach dem Modul `account_followup` und Sie finden den Text zum Mahnbericht. 
 
+### Produkt Mahngebühren einrichten
+
+Führen Sie [Produkt erfassen](Product.md#Produkt%20erfassen) mit diesen Informationen aus:
+
+* **Produktname**: Mahngebühren
+* **Optionen**: Verkauf
+* **Produktart**: Dienstleistung
+* **Fakturierungsregel**: Vorkasse/Festpreis
+* **Verkaufspreis**: Gemäss ihren Angaben
+* **Steuern**: Gemäss ihrer Abrechnungsmethode
+* **Erlöskonto**: 3804 Inkassoaufwand
+
+Anschliessend müssen Sie eine [Externe ID in Metadaten erfassen](Development.md#Externe%20ID%20in%20Metadaten%20erfassen). Verwenden Sie als Bezeichnung `__custom__.product_follwup_fees`
+
 ## Verwendung
 
 ### Mahnung versenden

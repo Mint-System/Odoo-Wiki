@@ -57,6 +57,12 @@ Produkte sind Dreh- und Angelpunkt im Wertschöpfungsprozess des Unternehmens. D
 * **Produktkategorie**: Erstellen Sie nach Bedarf Produktkategorien und weisen Sie das Produkt der entsprechenden Kategorie zu.
 * **Interne Referenz**: Die interne Referenz ist ein eindeutiger Code bestimmt von ihrem Unternehmen
 
+Wenn Sie die Buchhaltung aktiv haben, konfigurieren Sie zusätzlich diese Felder im Tab *Finanzen:
+
+* **Erlöskonto**: Standard-Erlöskonto für Rechnungszeile 
+* **Aufwandskonto**: Standard-Aufwandskonto für Rechnungszeile
+
+
 ## Berechtigungen
 
 ### Produkte nur anzeigen
