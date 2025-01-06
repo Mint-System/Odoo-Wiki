@@ -21,5 +21,5 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_
 Mit dieser Erweiterung wird beim Bestätigen eines Fertigungsauftrag das dazugehörige Los auf die Lieferung übertragen.
 
 ::: warning
-Die Verknüpfung von  Produktlieferung und Lieferung funktioniert nicht wenn [Automatische Reservierung deaktivieren](Stock%20Operations.md#Automatische%20Reservierung%20deaktivieren) aktiv ist.
+Die Verknüpfung von  Produktlieferung und Lieferung funktioniert nicht, wenn [Automatische Reservierung deaktivieren](Stock%20Operations.md#Automatische%20Reservierung%20deaktivieren) vorgenommen wurde.
 :::
