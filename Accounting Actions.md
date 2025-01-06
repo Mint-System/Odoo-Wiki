@@ -222,9 +222,11 @@ product_templ_id = env.ref("__custom__.product_follwup_fees")
 if not product_templ_id:
 	raise UserError("No product for follwup fees found.")
 for rec in records:
+	date_maturity = datetime.datetime.now() + datetime.timedelta(days=30)
 	rec.write({
-		'line_ids': [(0, 0, {'product_id': product_templ_id.product_variant_id.id})]
+		'line_ids': [(0, 0, {'product_id': product_templ_id.product_variant_id.id, 'date_maturity': date_maturity })]
 	})
+
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
