@@ -40,6 +40,8 @@ Im Chatter wird die Zuweisung entsprechend vermerkt:
 
 ### Los von erstem Backorder zuweisen
 
+Gilt bis #Odoo15.
+
 Mit dieser Erweiterung wird das Los der der Arbeitsaufträge aus dem ersten Backorder auf die neuen Backorders übertragen.
 
 ![MRP Production Assign Lot Backorder](attachments/MRP%20Production%20Assign%20Lot%20Backorder.gif)

@@ -34,8 +34,9 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 | [MRP Production Downstream Lot](MRP%20Production%20Downstream%20Lot.md)                         | Los auf verknüpfte Lieferung übertragen.                                         |
 | [MRP Production Generate Lot](MRP%20Production%20Generate%20Lot.md)                             | Los für zu fertigende Produkte automatisch generieren.                           |
 | [MRP Production Note](MRP%20Production%20Note.md)                                               | Notiz auf Fertigungsauftrag hinzufügen.                                          |
+| [MRP Production Preserve Lot](MRP%20Production%20Preserve%20Lot.md)                             | Los-Nummern bei Aufteilung von Fertigungsauftrag beibehalten.                    |
 | [MRP Production Release](MRP%20Production%20Release.md)                                         | Fertigungsaufträge können zurückgesetzt und freigegebenen werden.                |
-| [MRP Production Restrict Lot](MRP%20Production%20Restrict%20Lot.md)                         | Auswahl der Los-Nummer auf der Tablet-Ansicht einschränken.                      |
+| [MRP Production Restrict Lot](MRP%20Production%20Restrict%20Lot.md)                             | Auswahl der Los-Nummer auf der Tablet-Ansicht einschränken.                      |
 | [MRP Production Unplan Move](MRP%20Production%20Unplan%20Move.md)                               | Zukünftiges Datum auf Lagerbuchung bei Planungsabruch festlegen.                 |
 | [MRP Production Update Upstream Move](MRP%20Production%20Update%20Upstream%20Move.md)           | Aktualisiere offene Pickings von Fertigungsaufträgen bei Änderungen.             |
 | [MRP Production Upstream State](MRP%20Production%20Upstream%20State.md)                         | Status von Upstream Lagerbuchung auf Komponentenliste anzeigen.                  |
