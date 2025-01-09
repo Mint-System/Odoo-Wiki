@@ -592,16 +592,40 @@ Mit dieser automatischen Aktion wird die Option *Zum Überprüfen* bei der Erste
 
 Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
 
-Name der Aktion: `Lieferantenrechnung zur Prüfung markieren`\
-Modell: `account.move`\
-Auslöser: Bei Erstellung\
-Anzuwenden auf:
+* **Name der Aktion**: `Lieferantenrechnung zur Prüfung markieren`
+* **Modell**: `account.move`
+* **Auslöser**: Bei Erstellung
+* **Anzuwenden auf**:
 
 ```python
 [("move_type", "=", "in_invoice")]
 ```
 
-Folgeaktion: Den Datensatz aktualisieren\
-Zu schreibende Daten:
-* Feld: `to_check`
-* Wert: `True`
+* **Folgeaktion**: Den Datensatz aktualisieren
+* **Zu schreibende Daten**:
+	* Feld: `to_check`
+	* Wert: `True`
+
+### Notizen und Abschnitte enfernen
+
+Mit dieser automatischen Aktion werden beim Erstellen einer Kundenrechnung alle Notiz- und Abschnittszeilen entfernt.
+
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+
+* **Name der Aktion**: `Notizen und Abschnitte enfernen`
+* **Modell**: `account.move`
+* **Auslöser**: Bei Erstellung
+* **Anzuwenden auf**:
+
+```python
+[["move_type","=","out_invoice"]]
+```
+
+* **Folgeaktion**: Python-Code ausführen
+* **Python-Code**:
+
+```python
+for rec in records:
+  line_note_ids = rec.invoice_line_ids.filtered(lambda l: l.display_type in ['line_section', 'line_note'])
+  line_note_ids.unlink()
+```
