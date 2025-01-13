@@ -6,7 +6,7 @@ tags:
 prev: ./helpdesk
 ---
 # Kundendienst Datenmanagement
-![icons_odoo_website_sale_options](attachments/icons_odoo_website_sale_options.png)
+![icons_odoo_helpdesk](attachments/icons_odoo_helpdesk.png)
 
 {{ $frontmatter.description }}
 
