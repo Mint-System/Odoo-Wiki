@@ -26,6 +26,34 @@ reconcile
 deprecated
 ```
 
+### Steuern exportieren
+
+Listenansicht *Buchhaltung > Konfiguration > Steuern*
+
+Felder:
+
+```
+name
+amount_type
+type_tax_use
+amount
+invoice_repartition_line_ids/id
+invoice_repartition_line_ids/sequence
+invoice_repartition_line_ids/factor_percent
+invoice_repartition_line_ids/repartition_type
+invoice_repartition_line_ids/account_id/id
+invoice_repartition_line_ids/tag_ids/id
+refund_repartition_line_ids/id
+refund_repartition_line_ids/sequence
+refund_repartition_line_ids/factor_percent
+refund_repartition_line_ids/repartition_type
+refund_repartition_line_ids/account_id/id
+refund_repartition_line_ids/tag_ids/id
+description
+tax_group_id/id
+price_include
+```
+
 ## Import
 
 ### Bankenstamm importieren
@@ -87,7 +115,6 @@ Bei der Eröffnung der Buchhaltung müssen Kreditoren aus der alten System nach 
 |                             |            |                   |          | account_move_line_open_credit_2 | 9238006875518 | Stadt Bernach              | l10n_ch.1_ch_coa_2000  |                 | 199.25         |
 |                             |            |                   |          | account_move_line_open_credit_3 | 8958006875445 | Soziale Dienste Stadt Bern | l10n_ch.1_ch_coa_2000  |                 | 360.8          |
 |                             |            |                   |          | account_move_line_open_credit_4 |               |                            | `$XML_ID_99999`        | 791.6           |                |
-|                             |            |                   |          |                                 |               |                            |                        |                 |                |
 
 Ersetzen Sie `$XML_ID_99999` mit dem entsprechenden Wert.
 
