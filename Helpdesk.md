@@ -14,8 +14,9 @@ Website: <https://www.odoo.com/de_DE/app/helpdesk>
 
 ## Bereiche
 
-| Bereich                                                           | Beschreibung                                       |
-| ----------------------------------------------------------------- | -------------------------------------------------- |
+| Bereich                                                         | Beschreibung                                       |
+| --------------------------------------------------------------- | -------------------------------------------------- |
+| [Kundendienst Aktionen](Helpdesk%20Actions.md)                       | Arbeitsflüsse im Kundendienst automatisieren.      |
 | [Kundendienst Datenmanagement](Helpdesk%20Data%20Management.md) | Daten zu Kundendienst exportieren und importieren. |
 
 ## Erweiterungen

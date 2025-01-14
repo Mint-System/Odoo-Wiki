@@ -111,3 +111,12 @@ Fügen Sie die Gruppe *Verantwortlich* im Tab *Vererbt* von *Personalbeschaffung
 Legen Sie auf einer Stelle einen Benutzer als *Verantwortlich* fest. Jene Benutzer mit der Berechtigung *Verantwortlich* sehen nur noch ihre Stellen und Bewerbungen.
 
 ![](attachments/Personalbeschaffung%20Verantworltich.png)
+
+## Benachrichtigung
+
+### Bei neuen Bewerbungen benarichtigen 
+
+Damit Sie eine Benachrichtigung beim Eingang einer Bewertung erhalten, müssen Sie die entpsrechende Stelle abonnieren. Navigieren Sie nach *Personalbeschaffung* und bearbeiten Sie eine Stelle. Führen Sie [Eigener Follower hinzufügen](Dialog.md#Eigener%20Follower%20hinzufügen) und [Follower bearbeiten](Dialog.md#Follower%20bearbeiten) aus. Aktivieren Sie die Option *Neue Bewerbung*.
+
+
+![](attachments/Pasted%20image%2020250113145130.png)

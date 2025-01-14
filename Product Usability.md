@@ -1,6 +1,6 @@
 ---
 title: Product Usability
-description: Ansichten und Gr.
+description: Ansichten Produktverwaltung.
 tags:
 - HowTo
 - OCA

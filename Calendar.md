@@ -40,7 +40,7 @@ Auf jedem Odoo-Eintrag können Sie als Aktivität einen Termin erstellen. Dieser
 
 ![Kalender Terminserie](attachments/Kalender%20Terminserie.gif)
 
-## Benachrichtigungen
+## Benachrichtigung
 
 ### Versand Einladungen verhindern
 

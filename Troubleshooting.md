@@ -139,6 +139,8 @@ Der Server hat die Absenderadresse (﻿﻿[odoo@example.com)](https://odoo@local
 
 **Lösung**
 
+SMTP muss auf der Organisation und dem Postfach-Konto erlaubt werden: [https://aka.ms/smtp_auth_disabled](https://aka.ms/smtp_auth_disabled)
+
 Prüfen Sie die SMTP-Einstellungen für den Benutzer und den Nachrichtenfluss von Exchange Online.
 
 ![](attachments/Troubleshooting%20Exchange%20Mail.png)
