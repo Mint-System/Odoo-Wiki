@@ -20,6 +20,7 @@ Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Akt
 * **Modell**: `sale.order`
 * **Auslöser**: Beim Aktualisieren
 * **Tigger-Felder**: `state`
+* **Anzuwenden auf**: `["&", ("state", "=", "sale"), ("subscription_child_ids", "=", False)]`
 * **Folgeaktion**: Einen neuen Datensatz erzeugen
 * **Ziel-Modell**: `helpdesk.ticket`
 * **Zu schreibende Daten**:

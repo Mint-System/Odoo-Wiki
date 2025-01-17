@@ -61,7 +61,7 @@ Für Kunden, Teilnehmer und Partner kann ein Odoo-Zugang eingerichtet werden. Un
 
 Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen Sie den Benutzer, dessen Passwort Sie zurücksetzen möchten.
  
-Wählen Sie *Aktion* und *Passwort ändern*. Geben Sie im Feld *Neues Passwort* das neue Passwort ein.
+Wählen Sie *Aktion > Passwort ändern*. Geben Sie im Feld *Neues Passwort* das neue Passwort ein und bestätigen Sie den Dialog.
 
 ### Passwort für mehrere Benutzer ändern
 
