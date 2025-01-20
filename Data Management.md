@@ -14,7 +14,7 @@ prev: ./
 
 | Bereich                                                             | Beschreibung                                        |
 | ------------------------------------------------------------------- | --------------------------------------------------- |
-| [Abwesenheit Datenmanagement](HR%20Holidays%20Data%20Management.md) | Daten zu Abwesenheit exportieren und importieren.   |
+| [Abwesenheiten Datenmanagement](HR%20Holidays%20Data%20Management.md) | Daten zu Abwesenheiten exportieren und importieren.   |
 | [Einstellungen Datenmanagement](Settings%20Data%20Management.md)    | Daten zu Einstellungen exportieren und importieren. |
 | [Fertigung Datenmanagement](Manufacture%20Data%20Management.md)     | Produkte und Dienstleistungen zentral pflegen.      |
 | [Kontakte Datenmanagement](Partner%20Data%20Management.md)          | Daten zu Kontakte exportieren und importieren.      |

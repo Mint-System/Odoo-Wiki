@@ -88,20 +88,20 @@ Nach der Korrektur der Stunden-Einträge müssen Sie diese wieder validieren.
 
 ## Berichte
 
-### Anwesenheit und Zeiterfassung vergleichen
+### Anwesenheiten und Zeiterfassung vergleichen
 
-Navigieren Sie nach *Zeiterfassung > Berichtswesen > Zeiterfassung / Anwesenheit*. In diesem Bericht wird die Differenz zwischen Anwesenheit und erfasster Projektzeit berechnet.
+Navigieren Sie nach *Zeiterfassung > Berichtswesen > Zeiterfassung / Anwesenheiten*. In diesem Bericht wird die Differenz zwischen Anwesenheit und erfasster Projektzeit berechnet.
 
 ## Berechtigungen
 
-### Zugriff Bericht Anwesenheit und Zeiterfassung erteilen
+### Zugriff Bericht Anwesenheiten und Zeiterfassung erteilen
 
 Damit Benutzer die [Anwesenheit und Zeiterfassung vergleichen](#Anwesenheit%20und%20Zeiterfassung%20vergleichen) können, müssen Sie Zugriffsrechte auf Menüposten anpasst werden.
 
 Als Erstes müssen Sie die folgenden [Menüposten bearbeiten](Development.md#Menüposten%20bearbeiten):
 
 * *Zeiterfassung/Berichtswesen*
-* *Zeiterfassung/Berichtswesen/Zeiterfassung / Anwesenheit*
+* *Zeiterfassung/Berichtswesen/Zeiterfassung / Anwesenheiten*
 
 Fügen Sie im Tab *Zugriffsrechte* die Gruppe *Zeiterfassung / Benutzer: nur eigene Stundenzettel* hinzu. 
 

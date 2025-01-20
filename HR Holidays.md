@@ -1,12 +1,12 @@
 ---
-title: Abwesenheit
-description: Verwaltung von Mitarbeiterurlauben & Abwesenheit.
+title: Abwesenheiten
+description: Verwaltung von Mitarbeiterurlauben & Abwesenheiten.
 tags:
 - HowTo
 prev: ./
 ---
 
-# Abwesenheit
+# Abwesenheiten
 ![icons_odoo_hr_holidays](attachments/icons_odoo_hr_holidays.png)
 
 {{ $frontmatter.description }}
@@ -17,23 +17,23 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 
 | Bereich                                                             | Beschreibung                                      |
 | ------------------------------------------------------------------- | ------------------------------------------------- |
-| [Abwesenheit Aktionen](HR%20Holidays%20Actions.md)                  | Aktionen für Abwesenheit App einrichten.          |
-| [Abwesenheit Datenmanagement](HR%20Holidays%20Data%20Management.md) | Daten zu Abwesenheit exportieren und importieren. |
+| [Abwesenheiten Aktionen](HR%20Holidays%20Actions.md)                  | Aktionen für Abwesenheiten App einrichten.          |
+| [Abwesenheiten Datenmanagement](HR%20Holidays%20Data%20Management.md) | Daten zu Abwesenheiten exportieren und importieren. |
 
 ## Erweiterungen
 
 | Erweiterung                                                                               | Beschreibung                                                                         |
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| [HR Attendance Overtime Negative Hours](HR%20Attendance%20Overtime%20Negative%20Hours.md) | Anzeige negative Überstunden auf Dashboard Abwesenheit.                              |
+| [HR Attendance Overtime Negative Hours](HR%20Attendance%20Overtime%20Negative%20Hours.md) | Anzeige negative Überstunden auf Dashboard Abwesenheiten.                              |
 | [HR Holidays .ics Attachment](HR%20Holidays%20ics%20Attachment.md)                        | An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.                    |
 | [HR Holidays Calendar Department](HR%20Holidays%20Calendar%20Department.md)               | Erweitert den Anwesenheitsbericht mit neuen Felder.                                  |
-| [HR Holidays Custom Hours](HR%20Holidays%20Custom%20Hours.md)                             | Benutzerdefinierte Anzahl Stunden auf Abwesenheit eintragen.                         |
+| [HR Holidays Custom Hours](HR%20Holidays%20Custom%20Hours.md)                             | Benutzerdefinierte Anzahl Stunden auf Abwesenheiten eintragen.                       |
 | [HR Holidays Leave Archive](HR%20Holidays%20Leave%20Archive.md)                           | Archivierungsfunktion für Abwesenheitseinträge aktivieren.                           |
 | [HR Holidays Leave Repeated](HR%20Holidays%20Leave%20Repeated.md)                         | Wiederkehrende Abwesenheitseinträge erstellen.                                       |
 | [HR Holidays Negative Hours](HR%20Holidays%20Negative%20Hours.md)                         | Abwesenheitsart zur Kompensierung von Überstunden.                                   |
 | [HR Holidays Public](HR%20Holidays%20Public.md)                                           | Erstellen Sie einen Feiertagskalender, der in der Abwesenheiten berücksichtigt wird. |
 | [HR Holidays Remaining Leaves](HR%20Holidays%20Remaining%20Leaves.md)                     | Verbleibende Urlaubsansprüche der Mitarbeitenden anzeigen.                           |
-| [HR Holidays Type Note](HR%20Holidays%20Type%20Note.md)                                   | Hinweis zur Abwesenheitsart auf Abwesenheit anzeigen.                                |
+| [HR Holidays Type Note](HR%20Holidays%20Type%20Note.md)                                   | Hinweis zur Abwesenheitsart auf Abwesenheiten anzeigen.                              |
 | [HR Holidays Working Time](HR%20Holidays%20Working%20Time.md)                             | Aus Abwesenheiten Anwesenheiten erstellen.                                           |
 | [HR Leave Custom Hour Interval](HR%20Leave%20Custom%20Hour%20Interval.md)                 | Start- und End-Zeit für Abwesenheiten eintragen.                                     |
 | [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden.   |
@@ -44,7 +44,7 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 
 Öffnen Sie die App *Abwesenheit*. Auf dem Dashboard werden oberhalb des Kalender die verbleibenden Urlaubsansprüche angezeigt.
 
-![](attachments/Abwesenheit%20Dashboard.png)
+![](attachments/Abwesenheiten%20Dashboard.png)
 
 ::: warning
 Die verfügbaren Überstunden werden nur angezeigt, wenn der Wert positiv ist.
@@ -88,7 +88,7 @@ Diese Anpassung geht bei der Aktualisierung oder Neuinstallation des Abwesenheit
 
 Navigieren Sie nach *Abwesenheiten > Konfiguration > Gesetzliche Feiertage*. Erstellen Sie hier einen neuen Eintrag für jeden Feiertag und optional für bestimmte Arbeitszeiten.
 
-![](attachments/Abwesenheit%20Feiertage.png)
+![](attachments/Abwesenheiten%20Feiertage.png)
 
 ::: tip
 Lassen Sie das Feld *Arbeitsstunden* leer, damit der Feiertag für alle Arbeitszeiten aktiv ist.
@@ -172,12 +172,12 @@ Wenn Sie einen genehmigten Urlaubsanspruch ausblenden wollen, wählen Sie diesen
 
 ### Zugriff auf  erteilen
 
-Damit Benutzer die [Anwesenheit und Zeiterfassung vergleichen](#Anwesenheit%20und%20Zeiterfassung%20vergleichen) können, müssen Sie Zugriffsrechte auf Menüposten anpasst werden.
+Damit Benutzer die [Anwesenheiten und Zeiterfassung vergleichen](#Anwesenheiten%20und%20Zeiterfassung%20vergleichen) können, müssen Sie Zugriffsrechte auf Menüposten anpasst werden.
 
 Als erstes müssen Sie die folgenden [Menüposten bearbeiten](Development.md#Menüposten%20bearbeiten):
 
 * *Zeiterfassung/Berichtswesen*
-* *Zeiterfassung/Berichtswesen/Zeiterfassung / Anwesenheit*
+* *Zeiterfassung/Berichtswesen/Zeiterfassung / Anwesenheiten*
 
 Fügen Sie im Tab *Zugriffsrechte* die Gruppe *Zeiterfassung / Benutzer: nur eigene Stundenzettel* hinzu. 
 

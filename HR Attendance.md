@@ -1,12 +1,12 @@
 ---
-title: Anwesenheit
+title: Anwesenheiten
 description: Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 tags:
 - HowTo
 prev: ./
 ---
 
-# Anwesenheit
+# Anwesenheiten
 ![icons_odoo_hr_attendance](attachments/icons_odoo_hr_attendance.png)
 
 {{ $frontmatter.description }}
@@ -15,8 +15,8 @@ prev: ./
 
 | Bereich                                                  | Beschreibung                             |
 | -------------------------------------------------------- | ---------------------------------------- |
-| [Anwesenheit Aktionen](HR%20Attendance%20Actions.md)     | Aktionen für Anwesenheit App einrichten. |
-| [Anwesenheit Überstunden](HR%20Attendance%20Overtime.md) | Überstundenmanagement ganz einfach.      |
+| [Anwesenheiten Aktionen](HR%20Attendance%20Actions.md)     | Aktionen für Anwesenheiten App einrichten. |
+| [Anwesenheiten Überstunden](HR%20Attendance%20Overtime.md) | Überstundenmanagement ganz einfach.      |
 
 ## Erweiterungen
 
@@ -24,12 +24,12 @@ prev: ./
 | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | [HR Attendance Calendar View](HR%20Attendance%20Calendar%20View.md)                       | Kalenderansicht für Anwesenheiten.                                                 |
 | [HR Attendance Delta](HR%20Attendance%20Delta.md)                                         | Berechnet Zeitspanne zwischen Anwesenheitseinträgen.                               |
-| [HR Attendance IP Check](HR%20Attendance%20IP%20Check.md)                                 | IP-Prüfung bei Anmeldung der Anwesenheit.                                          |
+| [HR Attendance IP Check](HR%20Attendance%20IP%20Check.md)                                 | IP-Prüfung bei Anmeldung der Anwesenheiten.                                        |
 | [HR Attendance Kanban](HR%20Attendance%20Kanban.md)                                       | Ein- und Auschecken mit Kanban-Board.                                              |
 | [HR Attendance Kiosk Mode Color](HR%20Attendance%20Kiosk%20Mode%20Color.md)               | An- und Abmelden bei Anwesenheit farblich markieren.                               |
 | [HR Attendance Missing](HR%20Attendance%20Missing.md)                                     | Fehlende Anwesenheiten erstellen.                                                  |
 | [HR Attendance Overtime Hours](HR%20Attendance%20Overtime%20Hours.md)                     | Geplante und gearbeitete Stunden auf Ansicht Überstunden anzeigen.                 |
-| [HR Attendance Policy](HR%20Attendance%20Policy.md)                                       | Richtlinien für die Anwesenheit festlegen.                                         |
+| [HR Attendance Policy](HR%20Attendance%20Policy.md)                                       | Richtlinien für die Anwesenheiten festlegen.                                       |
 | [HR Attendance User ACL](HR%20Attendance%20User%20ACL.md)                                 | Manuelle Erfassung der Anwesenheit für Gruppe Benutzer erlauben.                   |
 | [HR Employee Attendance Report](HR%20Employee%20Attendance%20Report.md)                   | Stundenzettel mit Anwesenheit, Abwesenheiten und Überstunden.                      |
 | [Syscoon HR Attendance](Syscoon%20HR%20Attendance.md)                                     | Verwalten Sie die Überzeiten der Mitarbeitenden.                                   |
@@ -38,7 +38,7 @@ prev: ./
 ## Beschreibung
 
 ::: tip
-Odoo unterscheidet Anwesenheit und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheit. Für das Erfassen der Projektzeit nutzt man die App Zeiterfassung.
+Odoo unterscheidet zwischen Anwesenheits- und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheiten. Für das Erfassen der Projektzeit nutzt man die App Zeiterfassung.
 :::
 
 ![](attachments/Anwesenheiten%20An-%20und%20Abmelden.png)
@@ -120,8 +120,6 @@ Es erscheint eine Verabschiedung mit Angabe der geleisteten Arbeitszeit.
 ![](attachments/Anwesenheiten%20Bestätigung%20Abmeldung.png)
 
 ### Anwesenheit manuell erfassen
-
-
 
 Gilt bis #odoo17:
 

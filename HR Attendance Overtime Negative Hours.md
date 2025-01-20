@@ -1,6 +1,6 @@
 ---
 title: HR Attendance Overtime Negative Hours
-description: Anzeige negative Überstunden auf Dashboard Abwesenheit.
+description: Anzeige negative Überstunden auf Dashboard Abwesenheiten.
 tags:
 - HowTo
 - Drittanbieter

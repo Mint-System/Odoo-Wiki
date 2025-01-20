@@ -1,11 +1,11 @@
 ---
-title: Abwesenheit Aktionen
+title: Abwesenheiten Aktionen
 description: Aktionen für Abwesenheit App einrichten.
 tags:
 - HowTo
 prev: ./hr-holidays
 ---
-# Abwesenheit Aktionen
+# Abwesenheiten Aktionen
 ![icons_odoo_hr_holidays](attachments/icons_odoo_hr_holidays.png)
 
 {{ $frontmatter.description }}

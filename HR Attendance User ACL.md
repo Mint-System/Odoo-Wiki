@@ -18,7 +18,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_attendance
 
 ### Anwesenheit manuell erfassen
 
-Mit dieser Erweiterung können Benutzer der Gruppe *Anwesenheit / Benutzer* ihre Anwesenheit manuell und nachträglich erfassen. Navigieren Sie nach *Anwesenheiten > Anwesenheiten* und klicken Sie auf *Neu*.
+Mit dieser Erweiterung können Benutzer der Gruppe *Anwesenheiten / Benutzer* ihre Anwesenheiten manuell und nachträglich erfassen. Navigieren Sie nach *Anwesenheiten > Anwesenheiten* und klicken Sie auf *Neu*.
 
 ### Anwesenheit löschen
 

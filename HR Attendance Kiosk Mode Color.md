@@ -20,7 +20,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_attendance
 
 Mit dieser Erweiterung wird beim An- und Abmelden im Kioskmodus der Hintergrund der Infobox grün oder rot markiert.
 
-Eigene Anwesenheit:
+Eigene Anwesenheiten:
 
 ![HR Attendance Kiosk Mode Color](attachments/HR%20Attendance%20Kiosk%20Mode%20Color%20MyAttendance.gif)
 

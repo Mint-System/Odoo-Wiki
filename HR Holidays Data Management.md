@@ -1,11 +1,11 @@
 ---
-title: Abwesenheit Datenmanagement
+title: Abwesenheiten Datenmanagement
 description: Daten zu Abwesenheit exportieren und importieren.
 tags:
 - HowTo
 prev: ./hr-holidays
 ---
-# Abwesenheit Datenmanagement
+# Abwesenheiten Datenmanagement
 ![icons_odoo_hr_holidays](attachments/icons_odoo_hr_holidays.png)
 
 {{ $frontmatter.description }}

@@ -35,13 +35,13 @@ Die folgenden HowTos beschreiben die Basis-Funktionen von Odoo.
 
 Wiederkehrende Rechnungsstellung und Management von Abonnenten auf einfache Art und Weise.
 
-### [Abwesenheit](HR%20Holidays.md)
+### [Abwesenheiten](HR%20Holidays.md)
 
 ![icons_odoo_hr_holidays](attachments/icons_odoo_hr_holidays.png)
 
-Verwaltung von Mitarbeiterurlauben & Abwesenheit.
+Verwaltung von Mitarbeiterurlauben & Abwesenheiten.
 
-### [Anwesenheit](HR%20Attendance.md)
+### [Anwesenheiten](HR%20Attendance.md)
 
 ![icons_odoo_hr_attendance](attachments/icons_odoo_hr_attendance.png)
 

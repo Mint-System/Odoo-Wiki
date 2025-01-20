@@ -1,12 +1,12 @@
 ---
-title: Kombination An- und Abwesenheit
+title: Kombination An- und Abwesenheiten
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
 
-# Kombination An- und Abwesenheit
+# Kombination An- und Abwesenheiten
 
 Hier werden verschiedene Szenarion erläutert, die zeigen wie Odoo die An- und Abwesenheit kombiniert.
 

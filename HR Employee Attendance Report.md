@@ -40,6 +40,6 @@ Klicken Sie auf das Account-Menü und wählen Sie *Mein Profil*. Wählen Sie nun
 Die Aktion *Herunterladen* auf dem Dialog erlaubt das Herunterladen des Berichts, wenn die Erweiterung [Printnode Base](Printnode%20Base.md) installiert ist.
 :::
 
-### Bericht Anwesenheit für bestimmte Mitarbeitende drucken
+### Bericht Anwesenheiten für bestimmte Mitarbeitende drucken
 
-Navigieren Sie nach *Personal* und wählen Sie die Listen-Ansicht. Markieren Sie die Mitarbeitenden für welche Sie den Bericht erstellen wollen und klicken Sie auf *Aktionen > Bericht Anwesenheit*.
+Navigieren Sie nach *Personal* und wählen Sie die Listen-Ansicht. Markieren Sie die Mitarbeitenden für welche Sie den Bericht erstellen wollen und klicken Sie auf *Aktionen > Bericht Anwesenheiten*.

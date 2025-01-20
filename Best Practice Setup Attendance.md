@@ -1,11 +1,11 @@
 ---
-title: Setup Abwesenheit
+title: Setup Abwesenheiten
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
 - Best-Practice
 prev: ./best-practice
 ---
-# Setup Abwesenheit
+# Setup Abwesenheiten
 
 Mit der App Abwesenheit können Mitarbeitende ihre Abwesenheit registrieren. Damit der Workflow einwandfrei funktioniert, müssen bestimmte Vorbereitungen getroffen werden.
 

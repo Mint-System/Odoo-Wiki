@@ -33,10 +33,10 @@ Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitsarten* und öff
 
 ## Verwendung
 
-### Anwesenheiten von Abwesenheit anzeigen
+### Anwesenheiten von Abwesenheiten anzeigen
 
 Zeigen Sie eine bestätige Abwesenheit an, die eine Abwesenheitsart mit Option *Erstelle als Anwesenheit* hat. Klicken Sie auf *Ansicht Anwesenheiten*.
 
-### Anwesenheiten ohne Abwesenheit anzeigen
+### Anwesenheiten ohne Abwesenheiten anzeigen
 
 Rufen Sie *Anwesenheiten > Anwesenheiten* auf. Wählen Sie *Filter > Ohne Abwesenheiten*. Nun werden die Anwesenheiten, die mit einer Abwesenheit verknüpft sind, ausgeblendet.

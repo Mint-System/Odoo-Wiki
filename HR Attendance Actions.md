@@ -1,11 +1,11 @@
 ---
-title: Anwesenheit Aktionen
+title: Anwesenheiten Aktionen
 description: Aktionen für Anwesenheit App einrichten.
 tags:
 - HowTo
 prev: ./hr-attendance
 ---
-# Anwesenheit Aktionen
+# Anwesenheiten Aktionen
 ![icons_odoo_hr_attendance](attachments/icons_odoo_hr_attendance.png)
 
 {{ $frontmatter.description }}
