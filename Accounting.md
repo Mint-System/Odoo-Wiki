@@ -48,6 +48,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Move Line Position](Account%20Move%20Line%20Position.md)                                          | Positionsnummer anzeigen und aus Verkaufs- oder Einkaufsauftrag verlinken.        |     |
 | [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                                                  | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt.       |     |
 | [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                      | Das letzte Abstimmungsdatum von Rechnungen anzeigen.                              |     |
+| [Account OSS Report](Account%20OSS%20Report.md)                                                            | Bericht zur Deklarierung der OSS Umsatzsteuer.                                    |     |
 | [Account Payment Mode](Account%20Payment%20Mode.md)                                                        | Bezahlmethoden definieren.                                                        |     |
 | [Account Payment Order](Account%20Payment%20Order.md)                                                      | Stapelzahlungen für die Odoo Community Edition.                                   |     |
 | [Account Payment Partner](Account%20Payment%20Partner.md)                                                  | Zahlungsmodus auf Kontakt festlegen.                                              |     |
@@ -62,7 +63,6 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Statement Import File](Account%20Statement%20Import%20File.md)                                    | Bankauszüge importieren.                                                          |     |
 | [Account Statement Import](Account%20Statement%20Import.md)                                                | Bankauszüge importieren.                                                          |     |
 | [Account Usability](Account%20Usability.md)                                                                | Menüs der Enterprise Finanzbuchhaltung für Community.                             |     |
-| [Nivels Deduct Supplier Discount](Nivels%20Deduct%20Supplier%20Discount.md)                                | Allow discount deduction on vendor bills.                                         |     |
 
 ## Konfiguration
 

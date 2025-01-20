@@ -525,7 +525,6 @@ Unterstützer des Odoo Wiki werden hier mit Logo aufgeführt:
 
 Es sind Lösungen und Dokumente von diesen Drittanbietern enthalten:
 
-* [nivels GmbH](https://www.nivels.ch/)
 * [giordano.ch](https://www.giordano.ch/)
 * [syscoon GmbH](https://syscoon.com/)
 * [Odoo Community Association](https://odoo-community.org/)
