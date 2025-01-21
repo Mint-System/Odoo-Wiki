@@ -6,7 +6,7 @@ tags:
 - OCA
 prev: ./settings
 ---
-# Authentication OpenID Connect
+# OAuth Multi Token
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
