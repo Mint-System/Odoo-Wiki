@@ -15,7 +15,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.
 
 ## Verwendung
 
-### Rechnungen mit ausstehenden Guthaben anzeigen
+### Rechnungen mit ausstehendem Guthaben anzeigen
 
 Zeigen Sie die Kundenrechnungen über *Buchhaltung > Kunden > Rechnungen* an. Wählen Sie *Filter > Ausstehende Guthaben*.
 
