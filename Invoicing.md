@@ -24,6 +24,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --- |
 | [Account Followup Due Filter](Account%20Followup%20Due%20Filter.md)                         | Im Mahnbericht werden nur übefällige Rechnungen angezeigt.                                         |     |
 | [Account Followup Email From](Account%20Followup%20Email%20From.md)                         | Mahnbericht von definierter E-Mail-Adresse verschicken.                                            |     |
+| [Account Followup Filter Blocked](Account%20Followup%20Filter%20Blocked.md)                 | Zeige Kontakte mit blockierten Rechnungen in der Mahnliste.                                        |     |
 | [Account Followup Hide Communication](Account%20Followup%20Hide%20Communication.md)         | Spalte Kommunikation in Mahnbericht ausblenden.                                                    |     |
 | [Account Followup Mail Layout](Account%20Followup%20Mail%20Layout.md)                       | Standard E-Mail-Vorlage für Mahnungserinnerungen verwenden.                                        |     |
 | [Account Followup Manual Reminder](Account%20Followup%20Manual%20Reminder.md)               | Standardwert für Mahnungserinnerungen auf Manuell setzen.                                          |     |
