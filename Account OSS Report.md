@@ -17,7 +17,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reportin
 
 ## Beschreibung
 
-Mit dieser Erweiterung kann eine CSV-Datei in folgenden Format erstellt werden:
+Diese Erweiterung stellt eine neue Ansicht "Account OSS Report" für Buchungszeilen bereit. Sie zeigt die für One-Stop-Shop (OSS) Abrechnung relevanten Zeilen an. Über eine Aktion können die Zeilen gruppiert nach Land als CSV-Datei heruntergeladen werden. Das Format der CSV-Datei ist:
 
 ```csv
 #v1.0
@@ -29,10 +29,10 @@ SE,STANDARD,25.00,311.21,77.80
 
 ## Verwendung
 
-### OSS-Bericht erstellen
+### OSS-Bericht anzeigen
 
 Navigieren Sie nach *Buchhaltung > Berichtswesen > Account OSS Report*. Filtern Sie die Einträge nach Datum.
 
 ### OSS-Bericht herunterladen
 
-Wenn Sie den [OSS-Bericht erstellen](#OSS-Bericht%20erstellen) markieren Sie alle Einträge und wählen *Aktion > Download OSS Report*.
+Wenn Sie den [OSS-Bericht anzeigen](#OSS-Bericht%20anzeigen), markieren Sie alle Einträge und wählen *Aktion > Download OSS Report*.
