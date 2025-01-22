@@ -44,6 +44,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Move Accounting Description](Account%20Move%20Accounting%20Description.md)                        | Beschreibungsfeld für Rechnungszeile.                                             |     |
 | [Account Move Line Accounting Description Stock](Account%20Move%20Line%20Accounting%20Description%20Stock) | Beschreibung Lagerbuchung auf Rechnung übertragen.                                |     |
 | [Account Move Line Contra Accounts](Account%20Move%20Line%20Contra%20Accounts.md)                          | Gegenkontos auf Buchungszeilen anzeigen.                                          |     |
+| [Account Move Line Date Order](Account%20Move%20Line%20Date%20Order.md)                                    | Auftragsdatum von Verkaufsauftrag auf Liste Buchungszeilen anzeigen.              |     |
 | [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)                              | Lieferaufträge mit Rechnungszeile verlinken.                                      |     |
 | [Account Move Line Position](Account%20Move%20Line%20Position.md)                                          | Positionsnummer anzeigen und aus Verkaufs- oder Einkaufsauftrag verlinken.        |     |
 | [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                                                  | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt.       |     |
