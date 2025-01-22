@@ -32,14 +32,6 @@ Rufen Sie die Liste der verfügbaren Apps auf. Suchen Sie die App, die Sie insta
 
 ![](attachments/Apps%20installieren%20und%20aktualisieren.png)
 
-### Themes in Liste anzeigen
-
-Website Themes sind auch Odoo-Apps, werden aber standardmässig nicht angezeigt. Verwantwortlich für die Filterung ist die Aktion, welche beim Anlicken von *Apps* aufgerufen wird.
-
-Damit auch Apps in der Theme-Liste angezeigt werden, klicken Sie erstmals auf *Apps*. Wählen Sie dann *Entwicklertools > Aktion bearbeiten*. Im Dialog entfernen Sie den Eintrag unter *Filter > Wertebereich* und speichern. Nun werden beim Aufruf von *Apps* auch Themes angezeigt.
-
-![Apps Themes anzeigen](attachments/Apps%20Themes%20anzeigen.gif)
-
 ### App aktualisieren
 
 Wählen Sie *Apps* und entfernen Sie den Standardfilter *Apps*. Suchen Sie nach der gewünschten App, klicken Sie auf das Kontext-Menü und wählen Sie *Modul Information*.
@@ -64,9 +56,15 @@ Die Liste der Odoo-Apps ist ein Abbild der Modul-Struktur auf dem Odoo-Server. W
 
 ![](attachments/Apps%20App%20entfernen.png)
 
-::: tip
-Wenn die App-Liste aktualisiert wird, sollte die gelöschte App nicht mehr erscheinen.
-:::
+## Technisch
+
+### Themes in Liste anzeigen
+
+Website Themes sind auch Odoo-Apps, werden aber standardmässig nicht angezeigt. Verwantwortlich für die Filterung ist die Aktion, welche beim Anlicken von *Apps* aufgerufen wird.
+
+Damit auch Apps in der Theme-Liste angezeigt werden, klicken Sie erstmals auf *Apps*. Wählen Sie dann *Entwicklertools > Aktion bearbeiten*. Im Dialog entfernen Sie den Eintrag unter *Filter > Wertebereich* und speichern. Nun werden beim Aufruf von *Apps* auch Themes angezeigt.
+
+![Apps Themes anzeigen](attachments/Apps%20Themes%20anzeigen.gif)
 
 ## Berechtigungen
 
