@@ -68,7 +68,7 @@ Eine Buchungszeile enthählt immer noch nur ein Konto. Der Buchungssatz kann meh
 
 ![](attachments/Buchhaltung%20Berichte%20Buchungszeilen%20mit%20Gegenkonto%20anzeigen.png)
 
-## Mehrwertsteuer
+## Steuerbericht
 
 ### Steuerbericht anzeigen
 
@@ -88,7 +88,13 @@ Zeigen Sie *Buchhaltung > Buchhaltung > Buchungssätze* an und wählen Sie *Grup
 
 ### Versteuerbare Buchungssätze anzeigen
 
-Zeigen Sie *Buchhaltung > Buchhaltung > Buchungssätze* an und filtern Sie wie folgt um alle Buchungssätze des ersten Quartals mit einem Steuerbetrag anzuzeigen.
+Zeigen Sie *Buchhaltung > Buchhaltung > Buchungssätze* an und filtern Sie wie folgt um alle Buchungssätze des ersten Quartals mit einem Steuerbetrag anzuzeigen:
+
+Filter:
+
+* Steuer ist grösser als "0"
+* Datum: QX YYYY
+* Gebucht
 
 ![](attachments/Buchhaltung%20Berichte%20Steuerbare%20Buchungssätze.png)
 
@@ -96,11 +102,38 @@ Zeigen Sie *Buchhaltung > Buchhaltung > Buchungssätze* an und filtern Sie wie f
 
 Möchten Sie die Buchungszeilen des Steuerbericht anzeigen, öffnen Sie *Buchhaltung > Buchhaltung > Buchungszeilen* und filtern die Einträge wie folgt:
 
+Filter:
+
+* Gebucht
+* Datum: QX YYYY
+* Urheber Steuergruppe ist gesetzt
+
+Gruppe:
+
+* Urheber Steuergruppe
+
 ![](attachments/Buchhaltung%20Berichte%20Steuerbericht%20Buchungszeilen.png)
 
 ### One-Stop-Shop Import und Verkauf anzeigen
 
 Klicken Sie auf *Buchhaltung > Berichtswesen > Umstatzsteuerbericht*. Wählen Sie den Filter *Bericht: OSS Sales* für die Verkaufsstatistik und *Bericht: OSS Sales* für die Importstatistik.
+
+### Saldosteuersätze in Schweizer Steuerbericht anzeigen
+
+Wenn Sie die Saldosteuersätze ausweisen möchhten, müssen Sie für jeden Saldosteuersatz eine [Zeile im Buchhaltungsbericht hinzufügen](Entwicklung%20Buchhaltung.md#Zeile%20in%20Buchhaltungsbericht%20hinzufügen). Verwenden Sie dabei die folgenden Definitionen:
+
+* **Berichtszeile**: 303a - Saldosteuersatz (6.1%): Online Stellenportal
+* **Übergeordnete Zeile**: 303a - Normalsatz (8.1%): Leistungen CHF ab 01.01.2024 
+* **Code**: tax_ch_303a_$ID
+* **Ausdrücke**:
+	* **Ausdruck**: balance
+	* **Berechnungsmaschine**: Odoo-Bereich
+	* **Formel**: `[("tax_ids", "ilike", "Online Stellenportal")]`
+	* **Unterformel**: -sum
+
+Auf dem Steuerbericht sieht das wie folgt aus:
+
+![](attachments/Schweizer%20Steuerbericht%20mit%20Saldosteuersatz.png)
 
 ## Mahnwesen
 

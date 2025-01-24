@@ -12,16 +12,17 @@ prev: ./
 
 ## Bereiche
 
-| Bereich                                                   | Beschreibung                                                |
-| --------------------------------------------------------- | ----------------------------------------------------------- |
-| [Entwicklung Aktionen](Development%20Actions.md)          | Eigene Odoo Aktionen erstellen.                             |
-| [Entwicklung Ansichten](Develpment%20Views.md)            | Odoo Ansichten anpassen.                                    |
-| [Entwicklung Berichte](Development%20Reports.md)          | Eigene Berichte mit QWeb erstellen.                         |
-| [Entwicklung Datenmodelle](Entwicklung%20Datenmodelle.md) | Odoo Datenmodell erweitern.                                 |
-| [Entwicklung Performance](Entwicklung%20Performance.md)   | Performance-Probleme analysieren.                           |
-| [Entwicklung Runbot](Entwicklung%20Runbot.md)             | Odoo Testumgebungen.                                        |
-| [Entwicklung Snippets](Development%20Snippets.md)         | Einfache Anpassungen mit den Mint System Snippets umsetzen. |
-| [Entwicklung Website](Entwicklung%20Website.md)           | Website-Templates anpassen und erweitern.                   |
+| Bereich                                                 | Beschreibung                                                |
+| ------------------------------------------------------- | ----------------------------------------------------------- |
+| [Entwicklung Aktionen](Development%20Actions.md)        | Eigene Odoo Aktionen erstellen.                             |
+| [Entwicklung Ansichten](Develpment%20Views.md)          | Odoo Ansichten anpassen.                                    |
+| [Entwicklung Berichte](Development%20Reports.md)        | Eigene Berichte mit QWeb erstellen.                         |
+| [Entwicklung Buchhaltung](Entwicklung%20Buchhaltung.md) | Buchhaltungs-Berichte anpassen und erweitern.               |
+| [Entwicklung Datenmodelle](Development%20Models.md)     | Odoo Datenmodell erweitern.                                 |
+| [Entwicklung Performance](Development%20Performance.md) | Performance-Probleme analysieren.                           |
+| [Entwicklung Runbot](Development%20Runbot.md)           | Odoo Testumgebungen.                                        |
+| [Entwicklung Snippets](Development%20Snippets.md)       | Einfache Anpassungen mit den Mint System Snippets umsetzen. |
+| [Entwicklung Website](Development%20Website.md)         | Website-Templates anpassen und erweitern.                   |
 
 ## Erweiterungen
 

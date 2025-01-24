@@ -14,9 +14,10 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 ## Bereiche
 
-| Erweiterung                                            | Beschreibung                           |
-| ------------------------------------------------------ | -------------------------------------- |
-| [Rechnungsstellung Mahnungen](Invoicing%20Reminder.md) | Mahnberichte erstellen und verschicken |
+| Erweiterung                                            | Beschreibung                                      |
+| ------------------------------------------------------ | ------------------------------------------------- |
+| [Rechnungsstellung Mahnungen](Invoicing%20Reminder.md) | Mahnberichte erstellen und verschicken            |
+| [Rechnungsstellung Aktionen](Invoicing%20Actions.md)   | Neue Aktionen für Rechnungstellung und Mahnungen. |
 
 ## Erweiterungen
 

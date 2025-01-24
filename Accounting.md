@@ -17,7 +17,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | Bereich                                                             | Beschreibung                                                 |
 | ------------------------------------------------------------------- | ------------------------------------------------------------ |
 | [Buchhaltung Abstimmung](Accounting%20Reconcile.md)                 | Bankkonto mit Odoo abgleichen.                               |
-| [Buchhaltung Aktionen](Accounting%20Actions.md)                     | Neue Aktionen für Buchungen und Abstimmungen.                |
+| [Buchhaltung Aktionen](Accounting%20Actions.md)                     | Neue Aktionen für Buchungen, Zahlungen und Abstimmungen.     |
 | [Buchhaltung Anlagenverwaltung](Accounting%20Assets.md)             | Anlagen verwalten und automatisch Abschreibungen erstellen.  |
 | [Buchhaltung Berichte](Accounting%20Reports.md)                     | Finanzberichte erstellen.                                    |
 | [Buchhaltung Finanzbuchhaltung](Accounting%20Finance.md)            | Kontenplan einrichten und Buchungen erstellen.               |

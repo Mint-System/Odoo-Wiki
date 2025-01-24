@@ -86,7 +86,7 @@ Eine App erstellt mit Odoo Studio generiert im Hintergrund Menüposten, Datenmod
 
 * [Ansicht entfernen](Develpment%20Views.md#Ansicht%20entfernen)
 * [Menüposten entfernen](Development.md#Menüposten%20entfernen)
-* [Datenmodell entfernen](Entwicklung%20Datenmodelle.md#Datenmodell%20entfernen)
+* [Datenmodell entfernen](Development%20Models.md#Datenmodell%20entfernen)
 
 ## Datenbank
 
