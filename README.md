@@ -511,25 +511,25 @@ Umfassende Synchronisationslösung basierend auf Odoo.
 
 ### [Odoo.com](Odoo.com.md)
 
-![](attachments/icons_odoo_server.png)
+![](attachments/icons_odoo_app.png)
 
 Das Software-as-a-Service Angebot von Odoo.
 
 ### [Odoo.sh](Odoo.sh.md)
 
-![](attachments/icons_odoo_server.png)
+![](attachments/icons_odoo_app.png)
 
 Das Platform-as-a-Service Angebot von Odoo.
 
 ### [Mint Cloud](Mint%20Cloud.md)
 
-![](attachments/icons_odoo_server.png)
+![](attachments/mint-system-favicon.png)
 
 Das managed Odoo Hosting von Mint System.
 
 ## [On-Premise](On-Premise.md)
 
-![](attachments/icons_odoo_server.png)
+![](attachments/mint-system-favicon.png)
 
 Managed Server mit Odoo Plattform von Mint System.
 

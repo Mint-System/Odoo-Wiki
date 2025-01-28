@@ -6,8 +6,8 @@ tags:
 prev: ./
 ---
 # Mint Cloud
-![](attachments/icons_odoo_server.png)
+![](attachments/mint-system-favicon.png)
 
 {{ $frontmatter.description }}
 
-Website: <https://www.mint-system.ch/odoo>
+Website: <https://wiki.mint-system.ch/odoo-hosting-mint-cloud.html>
