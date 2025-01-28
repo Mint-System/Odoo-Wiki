@@ -465,12 +465,6 @@ Software verkaufen und lizenzieren.
 
 Odoo for Management Systems (ISO, IEC, BS, EASA).
 
-### [Odoo.sh](Odoo.sh.md)
-
-![](attachments/icons_odoo_server.png)
-
-The Odoo Cloud Platform.
-
 ### [Positionsnummern](Order%20Positions.md)
 
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
@@ -512,6 +506,32 @@ Werkhallen und Warenhäuser effizient verwalten.
 ![](attachments/icon_odoo_zbsync.png)
 
 Umfassende Synchronisationslösung basierend auf Odoo.
+
+## Hostings
+
+### [Odoo.com](Odoo.com.md)
+
+![](attachments/icons_odoo_server.png)
+
+Das Software-as-a-Service Angebot von Odoo.
+
+### [Odoo.sh](Odoo.sh.md)
+
+![](attachments/icons_odoo_server.png)
+
+Das Platform-as-a-Service Angebot von Odoo.
+
+### [Mint Cloud](Mint%20Cloud.md)
+
+![](attachments/icons_odoo_server.png)
+
+Das managed Odoo Hosting von Mint System.
+
+## [On-Premise](On-Premise.md)
+
+![](attachments/icons_odoo_server.png)
+
+Managed Server mit Odoo Plattform von Mint System.
 
 ## [Mitarbeit](Contribution.md)
 

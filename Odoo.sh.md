@@ -1,6 +1,6 @@
 ---
 title: Odoo.sh
-description: The Odoo Cloud Platform.
+description: Das Platform-as-a-Service Angebot von Odoo.
 tags:
 - HowTo
 prev: ./
