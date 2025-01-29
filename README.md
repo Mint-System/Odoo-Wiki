@@ -527,7 +527,7 @@ Das Platform-as-a-Service Angebot von Odoo.
 
 Das managed Odoo Hosting von Mint System.
 
-## [On-Premise](On-Premise.md)
+### [On-Premise](On-Premise.md)
 
 ![](attachments/mint-system-favicon.png)
 
