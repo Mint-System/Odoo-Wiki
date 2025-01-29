@@ -15,7 +15,7 @@ Repository: <https://github.com/OCA/account-financial-tools/tree/14.0/account_me
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [Account Usability](Account%20Usability.md) zu verwenden.
-#deprecated
+#DEPRECATED
 :::
 
 ## Beschreibung

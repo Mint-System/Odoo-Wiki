@@ -17,7 +17,7 @@ Odoo App Store: <https://apps.odoo.com/apps/modules/16.0/odoo_microsoft_account/
 
 ::: warning
 Diese App ist veraltet. Es wird empfohlen die App [Auth OIDC](Auth%20OIDC.md) zu verwenden.
-#deprecated
+#DEPRECATED
 :::
 
 ## Konfiguration

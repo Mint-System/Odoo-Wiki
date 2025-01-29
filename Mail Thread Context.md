@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_thre
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [Mail No Autofollow](Mail%20No%20Autofollow.md) zu verwenden.
-#deprecated
+#DEPRECATED
 :::
 
 ## Verwendung

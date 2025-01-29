@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.
 
 ::: warning
 Diese App ist veraltet und wird aufgrund von Aktualisierungen in Odoo nicht mehr benötigt.
-#deprecated
+#DEPRECATED
 :::
 
 ## Verwendung

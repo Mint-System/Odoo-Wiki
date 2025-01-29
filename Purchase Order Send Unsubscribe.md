@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/purchase_
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscribe) zu verwenden.
-#deprecated
+#DEPRECATED
 :::
 
 ## Verwendung

@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/15.0/aut
 
 ::: warning
 Diese App ist veraltet. Es wird empfohlen die App [Auth OIDC](Auth%20OIDC.md) zu verwenden.
-#deprecated
+#DEPRECATED
 :::
 
 ## Verwendung
