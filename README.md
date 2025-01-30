@@ -405,12 +405,6 @@ Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
 Die folgenden HowTos beschreiben spezialisierte Funktionen von Odoo.
 
-### [Aero](Aero%20Base.md)
-
-![](attachments/icons_odoo_aero_base.png)
-
-Odoo für die Luftfahrt.
-
 ### [Brand](Brand.md)
 
 ![](attachments/icons_odoo_brand.png)
