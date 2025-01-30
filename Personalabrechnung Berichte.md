@@ -1,11 +1,11 @@
 ---
-title: Personalabrechnung Eingaben
+title: Personalabrechnung Berichte
 description: Berichte für Lohnbuchhaltung erstellen.
 tags:
 - HowTo
 prev: ./hr-payroll
 ---
-# Personalabrechnung Eingaben
+# Personalabrechnung Berichte
 ![icons_odoo_hr_payroll](attachments/icons_odoo_hr_payroll.png)
 
 {{ $frontmatter.description }}

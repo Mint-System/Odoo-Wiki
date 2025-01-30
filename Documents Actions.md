@@ -96,7 +96,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 tag = env['documents.tag'].search([ ('name','=','WE zugeordnet') ],limit=1)
-folder = env['documents.folder'].search([ ('name','=','Wareneingang') ],limit=1)
+folder = env['documents.document'].search([ ('name','=','Wareneingang') ],limit=1)
 documents = env['documents.document'].search([ ('folder_id','=',folder.id),('res_model','=','documents.document') ])
 pickings = env['stock.picking'].search([ ('picking_type_code', '=', 'incoming'),('state','in',['done']) ])
 
