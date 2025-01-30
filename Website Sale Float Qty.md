@@ -13,7 +13,7 @@ prev: ./website-e-commerce
 {{ $frontmatter.description }}
 
 Technischer Name: `website_sale_float_qty`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/website_sale_float_qty>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Website/tree/16.0/website_sale_float_qty>
 
 ## Konfiguration
 
