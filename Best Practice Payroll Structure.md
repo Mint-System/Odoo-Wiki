@@ -40,7 +40,7 @@ Für ein kleines Unternehmen, braucht es keine komplexe Lohnabrechnung. Für jed
 | PK/BVG-Beiträge               | BVGAN | Abzüge             | Python Code    |                       |             |       | `result = -inputs.BVGAN.amount / 2`                                                |
 | PK/BVG-Beiträge Arbeitgeber   | BVGAG | Arbeitgeberanteile | Python Code    |                       |             |       | `result = -inputs.BVGAN.amount / 2`                                                |
 | Kinderzulagen                 | KIZU  | Zuschuss           | Python Code    |                       |             |       | `result = inputs.CHILD_SUPPORT.amount`                                            |
-| Spesen                        | 2000  | Zuschuss           | Python Code    |                       |             |       | `result = inputs.SPESEN.amount if inputs.SPESEN else 0`                           |
+| Spesen                        | 2000  | Zuschuss           | Python Code    |                       |             |       | `result = inputs["SPESEN"].amount if inputs.inputs.get("SPESEN") else 0`                           |
 | Nettolohn                     | NET   | Netto              | Python Code    |                       |             |       | `result = categories.BASIC + categories.ALW + categories.DED`                     |
 
 ## Lohnbuchhaltung

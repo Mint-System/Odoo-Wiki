@@ -28,9 +28,9 @@ Code: `2280`\
 Reihenfolge: `190`\
 Vergütungsstruktur: `Lohnabrechnung`\
 Bedinung basiert auf: `Python Ausdruck`\
-Python Bedinung: `result = inputs["QUELLEN"].amount > 0.0 if inputs["QUELLEN"] else False` \
+Python Bedinung: `result = inputs["QUELLEN"].amount > 0.0 if inputs.get("QUELLEN") else False` \
 Berechnungsart: `Python Code`\
-Python Code: `result = inputs["QUELLEN"].amount if inputs["QUELLEN"] else 0`
+Python Code: `result = inputs["QUELLEN"].amount if inputs.get("QUELLEN") else 0`
 
 ![](attachments/Personalabrechnung%20Lohnart%20von%20Inputs.png)
 
@@ -50,9 +50,9 @@ Code: `KURZ`\
 Reihenfolge: `15`\
 Vergütungsstruktur: `Lohnabrechnung`\
 Bedinung basiert auf: `Python Ausdruck`
-Python Bedinung: `result = inputs["KURZ"].amount > 0.0 if inputs["KURZ"] else False`\
+Python Bedinung: `result = inputs["KURZ"].amount > 0.0 if inputs.get("KURZ") else False`\
 Berechnungsart: `Python Code`\
-Python Code: `result = -inputs["KURZ"].amount if inputs["KURZ"] else 0`
+Python Code: `result = -inputs["KURZ"].amount if inputs.get("KURZ") else 0`
 
 Im Tab *Buchhaltung*  wählen sie:
 
@@ -73,9 +73,9 @@ Code: `2000`\
 Reihenfolge: `10`\
 Vergütungsstruktur: `Lohnabrechnung`\
 Bedinung basiert auf: `Python Ausdruck`
-Python Bedinung: `result = inputs["SPESEN"].amount > 0.0 if inputs["SPESEN"] else False`\
+Python Bedinung: `result = inputs["SPESEN"].amount > 0.0 if inputs.get("SPESEN") else False`\
 Berechnungsart: `Python Code`\
-Python Code: `result = inputs["SPESEN"].amount if inputs["SPESEN"] else 0`
+Python Code: `result = inputs["SPESEN"].amount if inputs.get("SPESEN") else 0`
 
 Im Tab *Buchhaltung* wählen sie:
 
@@ -99,7 +99,7 @@ Reihenfolge: `205`\
 Vergütungsstruktur: `Lohnabrechnung`\
 Berechnungsart: `Python Code`\
 Bedinung basiert auf: `Python Ausdruck`
-Python Bedinung: `result = inputs["LNKT"].amount != 0.0 if inputs["LNKT"] else False`\
+Python Bedinung: `result = inputs["LNKT"].amount != 0.0 if inputs.get("LNKT") else False`\
 Berechnungsart: `Python Code`\
 Python Code: `result = inputs["LNKT"].amount if inputs["LNKT"] else 0`
 
@@ -123,11 +123,11 @@ Navigieren Sie nach *Personalabrechnung > Konfiguration > Other Input Types*. Er
 
 Damit die Eingabe in der Lohnabrechnung berücksichtigt wird, muss eine bestehende Lohnart angepasst werden. Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln* und wählen Sie die Lohnart mit Code *BASIC*. Passen Sie die Lohnart wie folgt an:
 
-Python Code: `result = payslip.paid_amount + (inputs["BASIC13"].amount if inputs["BASIC13"] else 0)`
+Python Code: `result = payslip.paid_amount + (inputs["BASIC13"].amount if inputs.get("BASIC13") else 0)`
 
 Speichern Sie die Lohnart,  fügen Sie einer ausgewählte Lohnabrechnung mit der zugehörigen Lohnstruktur eine Spesen-Eingabe hinzu und berechnen die Abrechnung neu.
 
 ::: tip
-Falls Sie für den 13en Monatslohn eine eigene Lohnart aufführen, können Sie diesen Python Code verwenden: `result = inputs["BASIC13"].amount if inputs["BASIC13"] else 0`
-Als Bedinung verwenden Sie diesen Code: `result = inputs["BASIC13"].amount != 0.0 if inputs["BASIC13"] else False`
+Falls Sie für den 13en Monatslohn eine eigene Lohnart aufführen, können Sie diesen Python Code verwenden: `result = inputs["BASIC13"].amount if inputs.get("BASIC13") else 0`
+Als Bedinung verwenden Sie diesen Code: `result = inputs["BASIC13"].amount != 0.0 if inputs.get("BASIC13") else False`
 :::
