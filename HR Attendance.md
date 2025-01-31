@@ -91,7 +91,7 @@ Klicken Sie oben rechts im Benutzer-Menü auf den roten Punkt. Wählen Sie *Anme
 
 ![](attachments/Anwesenheiten%20Anmelden.png)
 
-Gilt bis #odoo17:
+Gilt bis #Odoo17:
 
 Navigieren Sie nach *Anwesenheiten > An- und Abmelden* und klicken Sie auf den Knopf *Anmelden*.
 
@@ -109,7 +109,7 @@ Klicken Sie oben rechts im Benutzer-Menü auf den grünen Punkt. Wählen Sie *Ab
 
 ![](attachments/Anwesenheiten%20Abmelden.png)
 
-Gilt bis #odoo17:
+Gilt bis #Odoo17:
 
 Navigieren Sie nach *Anwesenheiten > An- und Abmelden* und klicken Sie auf den Knopf *Abmelden*.
 
@@ -121,7 +121,7 @@ Es erscheint eine Verabschiedung mit Angabe der geleisteten Arbeitszeit.
 
 ### Anwesenheit manuell erfassen
 
-Gilt bis #odoo17:
+Gilt bis #Odoo17:
 
 Wenn die manuelle Erfassung der Anwesenheit erlaubt ist, navigieren Sie nach *Anwesenheiten > Anweseheiten* und erstellen einen neuen Eintrag. Wählen Sie bei *Anmeldung* das Startdatum mit Uhrzeit und bei Abmeldung das Enddatum mit Uhrzeit. 
 
@@ -176,7 +176,7 @@ Gilt ab #odoo18:
 
 Klicken Sie auf die App *Anwesenheiten* und anschliessend auf einen Eintrag. Setzen Sie die Genehmigung des Eintrags zurück indem Sie auf das Statusfeld *Zu gengemigen* klicken. Bearbeiten Sie den Eintrag und bestätigen Sie die Eingaben mit einem Klick auf *Genehmigen*.
 
-Gilt bis #odoo17:
+Gilt bis #Odoo17:
 
 Mitarbeiteende können standardmässig ihre Anwesenheiten korrigieren. Dazu navigieren Sie über das Menu oben-rechts nach *Vorname Nachname > Mein Profil > Smart-Link XX.XX Stunden*. Hier werden die An- und Abmeldungen aufgelistet.
 

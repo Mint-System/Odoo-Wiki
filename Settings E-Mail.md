@@ -18,7 +18,7 @@ Gilt bis #Odoo16.
 
 Navigieren Sie nach *Einstellungen > Dialog* und aktivieren Sie die Option *Benutzerdefinierte E-Mail-Server*. Geben Sie im Feld *Alias-Domain* die E-Mail-Domain ein.
 
-Gilt ab #odoo17.
+Gilt ab #Odoo17.
 
 Navigieren Sie nach *Einstellungen* und klicken Sie bei *Unternehmen* auf *Info aktualisieren*. Im Feld *E-Mail-Domain* geben Sie ihre Domain ein, beispielsweise `example.com`. Odoo generiert die zum Versand benötigten Systemparameter.
 
@@ -32,7 +32,7 @@ Falls Sie die Adresse ändern möchten, öffnen Sie *Einstellungen > Technisch >
 
 Angenommen Sie geben als Wert `erp` ein, so ist die resultierende Absender-Aresse `From: "FIRSTNAME LASTNAME" <erp@example.com>`.
 
-Gilt ab #odoo17.
+Gilt ab #Odoo17.
 
 Im Entwicklermodus navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und öffnen Sie den Eintrag bei *Alias-Domain*. Im Feld *Catchall-Alias* geben Sie den gewünschten Wert ein.
 
@@ -52,7 +52,7 @@ Gilt bis #Odoo16.
 
 Falls Sie den Bounce-Alias ändern möchten, öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und passen den Wert für `mail.bounce.alias` an.
 
-Gilt ab #odoo17.
+Gilt ab #Odoo17.
 
 Im Entwicklermodus navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und öffnen Sie den Eintrag bei *Alias-Domain*. Im Feld *Zuzustellbarkeitsalias* geben Sie den gewünschten Wert ein.
 
