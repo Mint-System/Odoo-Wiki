@@ -34,6 +34,11 @@ Ist die App erstellt erhalten Sie diese Zusammenfassung:
 
 ![](attachments/Einstellungen%20OAuth%20Odoo%20App.png)
 
+Erteilen Sie der OAuth-App diese Berechtigungen:
+
+* SMTP.Send
+* IMAP.AccessAsUser.All
+
 Kopieren Sie die *Anwendungs-ID (Client)*, es handelt sich hierbei um die *Client ID* der registrierten App.
 
 Klicken anschliessend auf *Ein Zertifikat oder Geheimnis hinzufügen*. Erstellen Sie diesen Eintrag.
@@ -60,7 +65,7 @@ Wenn Sie die [Outlook OAuth-Verbindung einrichten](#Outlook%20OAuth-Verbindung%2
 
 Wenn Sie die OAuth-App als einzelner Mandant verwenden, müssen Sie die OAuth-Endpunkte in Odoo anpassen.
 
-Öffnen Sie den Link <https://portal.azure.com/>, navigieren nach *Microsoft Entra ID > App-Registrierungen* und zeigen Sie OAuth-App an. Öffnen Sie die Übersicht und klicken Sie auf *Endpunkte*. Notieren Sie sich die Werte aus *OAuth 2.0-Autorisierungsendpunkt (v2)* und *OAuth 2.0-Token-Endpunkt (v2*.
+Öffnen Sie den Link <https://portal.azure.com/>, navigieren nach *Microsoft Entra ID > App-Registrierungen* und zeigen Sie OAuth-App an. Öffnen Sie die Übersicht und klicken Sie auf *Endpunkte*. Notieren Sie sich die Werte aus *OAuth 2.0-Autorisierungsendpunkt (v2)* und *OAuth 2.0-Token-Endpunkt (v2)*.
 
 ![](attachments/Settings%20OAuth%20Azure%20Endpunkte.png)
 
