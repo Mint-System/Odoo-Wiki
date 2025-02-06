@@ -61,3 +61,13 @@ odoo-dev.example.com ALIAS server1.example.org
 ```
 
 Alternativ können auch Einträge vom Typ CNAME statt ALIAS erstellt werden.
+
+### DNS-Auflösung prüfen
+
+Wenn Sie prüfen möchten mit welcher IP-Adresse ein DNS-Eintrag aufgelöst wird, können Sie das mit dem Kommandozeilenwerkzeug `nslookup` prüfen.
+
+Drücken Sie <kbd>Windows</kbd> + <kdb>R</kbd> und geben Sie `cmd` ein. Tippen Sie den Befehl mit dem entsprechenden DNS-Namen ein: `nslookup odoo.example.com`
+
+![](attachments/cmd%20nslookup.png)
+
+Als Antwort erhalten Sie die IP-Adresse vom Server, Router oder Firewall.
