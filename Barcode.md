@@ -91,11 +91,11 @@ Auf einem Linux-Computer kann man ganz einfach eine Strichcode-Eingabe mit [xdot
 BARCODE="WH/OUT/00017"
 
 # Dieser Befehl sucht die Identifikationsnummer des Firefox Browserfenster
-WID=`xdotool search --title "Mozilla Firefox" | head -1`
+WID=$(xdotool search --title "Mozilla Firefox" | head -1)
 
 # Das Browserfenster wird angezeigt und der Barcode eingegeben
-xdotool windowfocus $WID
-xdotool type $BARCODE
+xdotool windowfocus "$WID"
+xdotool type "$BARCODE"
 ```
 
 Passen Sie die `BARCODE`-Variable entsprechend an. Dazu ein Beispiel der Ausführung:
