@@ -235,6 +235,10 @@ Navigieren Sie nach  *Einstellungen > Technisch > Berichtswesen > Berichte* und 
 | Rechnungen            | `'Rechnung_%s.pdf' % object.name.replace("/","_")`         | `'Rechnung_%s.pdf' % object.name.replace("/","_")` |
 | Zeitnachweis-Einträge | `(object.date.strftime('%Y-%m')+' Zeitnachweis-Einträge')` |                                                    |
 
+### Dateinamen mit Kundenname für Berichte festlegen
+
+Navigieren Sie nach  *Einstellungen > Technisch > Berichtswesen > Berichte* und zeigen Sie einen Bericht an. Geben Sie im Feld *Name des gedruckten Berichts* `('Rechnung '+object.partner_id.name+' '+object.name)` ein.
+
 ## Troubleshooting
 
 ### Cannot convert into barcode
