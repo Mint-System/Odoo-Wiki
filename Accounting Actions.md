@@ -94,11 +94,11 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Vorgänge erscheint nun in der Auswahl *Aktion* das Menu *Abstimmung zurücksetzen*.
 
-### Zahlung gesendet zurücksetzen
+### Zahlung auf nicht gesendet setzen 
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Zahlung gesendet zurücksetzen`\
+Name der Aktion: `Zahlung auf nicht gesendet setzen`\
 Modell: `account.payment`\
 Folgeaktion: `Python-Code ausführen`
 
@@ -112,6 +112,22 @@ for record in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 In der Liste der Zahlung erscheint nun in der Auswahl *Aktion* das Menu *Zahlung gesendet zurücksetzen*.
+
+### Zahlungen zurücksetzen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Zahlungen zurücksetzen`\
+Modell: `account.payment`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+
+```python
+records.action_draft()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
 
 ### Mahnstufe anzeigen
 
