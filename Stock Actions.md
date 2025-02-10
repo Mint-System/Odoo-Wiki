@@ -34,6 +34,10 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Transfers erscheint nun in der Auswahl *Aktion* das Menu *Transfer zurücksetzen*.
 
+::: warning
+Der Lagerbestand wird durch den Abbruch des Transfers nicht bereinigt.
+:::
+
 ### Transfer zurücksetzen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
