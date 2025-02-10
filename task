@@ -20,7 +20,7 @@ function help() {
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "install" "" "Install build dependencies."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "build" "" "Build project."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "dev" "" "Start vuepress development server."
-    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vue-build" "" "Create vuepress build."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vuepress-build" "" "Create vuepress build."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "serve-vue-build" "" "Serve vuepress build."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "download-icons" "" "Download module icons from Odoo assets."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "update-repo-url" "" "Check and update repository urls."
@@ -76,16 +76,16 @@ case "$1" in
         help
         ;;
     install)
-        npm install
+        pnpm install
         ;;
     build)
         node build.js
         ;;
     dev)
-        npm run dev
+        pnpm run dev
         ;;
-    vue-build)
-        npm run vue-build
+    vuepress-build)
+        pnpm run vuepress-build
         ;;
     serve-build)
         cd ./src/.vuepress/dist
@@ -95,7 +95,7 @@ case "$1" in
         update-repo-url
         ;;
     download-icons)
-        npm run download-icons
+        pnpm run download-icons
         ;;
     *)
         help

@@ -2,19 +2,23 @@
   "name": "odoo-wiki",
   "scripts": {
     "build": "node build.js && vuepress build src",
-    "vue-build": "vuepress build src",
+    "vuepress-build": "vuepress build src",
     "dev": "vuepress dev src",
     "download-icons": "node download-icons.js"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "^2.0.0-rc.14",
-    "@vuepress/plugin-docsearch": "^2.0.0-rc.39",
-    "@vuepress/plugin-shiki": "^2.0.0-rc.39",
-    "@vuepress/theme-default": "^2.0.0-rc.39",
+    "@vuepress/bundler-vite": "2.0.0-rc.19",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.74",
+    "@vuepress/plugin-shiki": "2.0.0-rc.74",
+    "@vuepress/theme-default": "2.0.0-rc.74",
     "mermaid": "^11.2.1",
-    "vuepress": "^2.0.0-rc.14"
+    "sass-embedded": "^1.83.4",
+    "vuepress": "2.0.0-rc.19"
   },
   "dependencies": {
-    "sharp": "^0.33.2"
+    "@vuepress/client": "2.0.0-rc.19",
+    "@vuepress/utils": "2.0.0-rc.19",
+    "sharp": "^0.33.2",
+    "vue": "3"
   }
 }
