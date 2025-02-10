@@ -21,7 +21,7 @@ function help() {
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "build" "" "Build project."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "dev" "" "Start vuepress development server."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vuepress-build" "" "Create vuepress build."
-    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "serve-vue-build" "" "Serve vuepress build."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "serve-build" "" "Serve vuepress build."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "download-icons" "" "Download module icons from Odoo assets."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "update-repo-url" "" "Check and update repository urls."
 
