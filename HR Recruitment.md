@@ -114,9 +114,9 @@ Legen Sie auf einer Stelle einen Benutzer als *Verantwortlich* fest. Jene Benutz
 
 ## Benachrichtigung
 
-### Bei neuen Bewerbungen benarichtigen 
+### Bei neuen Bewerbungen benachrichtigen 
 
 Damit Sie eine Benachrichtigung beim Eingang einer Bewertung erhalten, müssen Sie die entpsrechende Stelle abonnieren. Navigieren Sie nach *Personalbeschaffung* und bearbeiten Sie eine Stelle. Führen Sie [Eigener Follower hinzufügen](Dialog.md#Eigener%20Follower%20hinzufügen) und [Follower bearbeiten](Dialog.md#Follower%20bearbeiten) aus. Aktivieren Sie die Option *Neue Bewerbung*.
 
 
-![](attachments/Pasted%20image%2020250113145130.png)
+![](attachments/personalbeschaffung%20benachrichtigung.png)
