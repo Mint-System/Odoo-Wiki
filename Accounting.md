@@ -165,6 +165,10 @@ Gilt bis #Odoo15.
 
 Der Kommunikationsstandard ist entscheidend bei der Generierung von Zahlungsreferenzen. Öffnen Sie ein Journal via *Buchhaltung > Konfiguration > Journale* und zeigen Sie den Tab *Erweiterte Einstellungen* an. Legen Sie im Feld *Kommunikationsstandard* den passenden Wert fest.
 
+### Interne Überweisung vornehmen
+
+Um eine Überweisung von einem Bankkonto auf ein anderes Bankkonto vorzuenhmen, wählen Sie *Buchhaltung > Dashboard* und klicken bei der Bank-Journal-Kachel auf das Kontext-Menü. Dann wählen Sie *Neu > Interne Überweisung*. Geben Sie den Betrag ein und wählen Sie im *Zieljournal* das empfangende Bankkonto aus.
+
 ## Empfang
 
 ### Rechnung per E-Mail empfangen
