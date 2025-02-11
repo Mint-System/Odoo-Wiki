@@ -2,6 +2,7 @@
 default.vim
 .obsidian/workspace.json
 .obsidian/appearance.json
+.obsidian/graph.json
 node_modules
 tmp
 src
