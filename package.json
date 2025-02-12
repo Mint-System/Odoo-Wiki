@@ -8,17 +8,16 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.19",
+    "@vuepress/client": "2.0.0-rc.19",
     "@vuepress/plugin-docsearch": "2.0.0-rc.74",
+    "@vuepress/plugin-search": "^1.9.10",
     "@vuepress/plugin-shiki": "2.0.0-rc.74",
     "@vuepress/theme-default": "2.0.0-rc.74",
-    "mermaid": "^11.2.1",
-    "sass-embedded": "^1.83.4",
-    "vuepress": "2.0.0-rc.19"
-  },
-  "dependencies": {
-    "@vuepress/client": "2.0.0-rc.19",
     "@vuepress/utils": "2.0.0-rc.19",
-    "sharp": "^0.33.2",
-    "vue": "3"
+    "mermaid": "^11.4.1",
+    "sass-embedded": "^1.83.4",
+    "sharp": "^0.33.5",
+    "vue": "^3.5.13",
+    "vuepress": "2.0.0-rc.19"
   }
 }
