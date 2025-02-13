@@ -20,11 +20,12 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reportin
 Diese Erweiterung stellt eine neue Ansicht "Account OSS Report" für Buchungszeilen bereit. Sie zeigt die für One-Stop-Shop (OSS) Abrechnung relevanten Zeilen an. Über eine Aktion können die Zeilen gruppiert nach Land als CSV-Datei heruntergeladen werden. Das Format der CSV-Datei ist:
 
 ```csv
-#v1.0
-#ve1.1.0
-Land des Verbrauchs,Umsatzsteuertyp,Umsatzsteuersatz,Nettobetrag,Umsatzsteuerbetrag
-EE,STANDARD,22.00,255.08,56.12
-SE,STANDARD,25.00,311.21,77.80
+#v2.0
+#ve2.2.1
+1,EE
+1,SE
+2,EE,STANDARD,22.00,614.75,135.25
+2,SE,STANDARD,25.00,1500.00,375.00
 ```
 
 ## Verwendung
