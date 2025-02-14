@@ -27,10 +27,11 @@ Website: <https://www.odoo.com/de_DE/app/website>
 | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | [Website Date of Birth](Website%20Date%20of%20Birth.md)                                   | Geburtsdatum auf Anmeldeformular.                                      |
 | [Website Font HCo Mercury SSm](Website%20Font%20HCo%20Mercury%20SSm.md)                   | Benutzerdefinierte Schriftart "HCo Mercury SSm".                       |
-| [Website Product Description](Website%20Product%20Description.md)                        | Separates Feld für Produktbeschreibungen.                              |
+| [Website Product Description](Website%20Product%20Description.md)                         | Separates Feld für Produktbeschreibungen.                              |
 | [Website Sale Default Country CH](Website%20Sale%20Default%20Country%20CH.md)             | Schweiz als Standardland im Webshop festlegen.                         |
 | [Website Sale Minimum Order Quantity](Website%20Sale%20Minimum%20Order%20Quantity.md)     | Legen Sie Mindestbestellmengen für Produkte und Produktvarianten fest. |
 | [Website Sale Pricelist Fixed Discount](Website%20Sale%20Pricelist%20Fixed%20Discount.md) | Warenkorb mit Rabatten aus Preisliste mit Festpreis.                   |
+|                                                                                           |                                                                        |
 
 ## Verwendung
 

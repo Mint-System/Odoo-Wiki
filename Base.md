@@ -31,6 +31,7 @@ prev: ./
 | [Web Dark Mode](Web%20Dark%20Mode.md)                                             | Dark mode für Web-Oberfläche.                                        |
 | [Web Editor Disable Convert Inline](Web%20Editor%20Disable%20Convert%20Inline.md) | Konvertierung der Inline-Styles im Odoo Editor verhindern.           |
 | [Web Editor Show Code](Web%20Editor%20Show%20Code.md)                             | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |
+| [Web Font Arial](Web%20Font%20Arial.md)                                           | Fügt Schriftart Arial der Auswahl hinzu.                             |
 | [Web Responsive](Web%20Responsive.md)                                             | Responsive Anzeige der Odoo-Oberfläche.                              |
 
 ## Infrastruktur
