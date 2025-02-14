@@ -13,4 +13,4 @@ prev: ./server
 {{ $frontmatter.description }}
 
 Technischer Name: `web_font_arial`\
-Repository: <https://gitlab.com/mint-system/odoo-apps-server-tools/-/tree/16.0/web_font_arial>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/17.0/web_font_arial>
