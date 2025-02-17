@@ -16,7 +16,6 @@ prev: ./
 | Erweiterung                                     | Beschreibung                                                       |
 | ----------------------------------------------- | ------------------------------------------------------------------ |
 | [Management System](Mgmtsystem.md)              | Management System by OCA.                                          |
-| [Management](mgmt.md)                           | Management System by Mint System.                                  |
 | [Mgmt Asset Risk](Mgmt%20Asset%20Risk.md)       | Verbinde Risiken und Assets.                                       |
 | [Mgmt Audit Project](Mgmt%20Audit%20Project.md) | Erstellen Sie Projektaufgaben für Empfehlungen und Nonconformties. |
 | [Mgmt Audit](Mgmt%20Audit.md)                   | Auditieren Sie ihr Unternehmen.                                    |

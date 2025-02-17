@@ -1,5 +1,5 @@
 ---
-title: Management
+title: Mgmt
 description: Risk Management by Mint System.
 tags:
 - HowTo
@@ -7,7 +7,7 @@ tags:
 prev: ./management-systems
 ---
 
-# Management (Requirements, Compliance, Audits)
+# Mgmt
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}

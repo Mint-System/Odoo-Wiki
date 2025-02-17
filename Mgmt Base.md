@@ -14,3 +14,9 @@ prev: ./management-systems
 
 Technischer Name: `mgmt_base`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/17.0/mgmt_base>
+
+## Verwendung
+
+### Management System erfassen
+
+Navigieren Sie nach *Management System > Configuration > Systems*. Erfassen Sie hier die Bezeichnung des Management System.
