@@ -455,7 +455,7 @@ Rechtsberatungen mit Kunden und Experten abwickeln.
 
 Software verkaufen und lizenzieren.
 
-### [Management Systems](Management%20Systems.md)
+### [Management System](Management%20System.md)
 
 ![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.png)
 

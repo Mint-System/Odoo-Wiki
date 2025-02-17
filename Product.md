@@ -37,6 +37,7 @@ prev: ./
 | [Product Set](Product%20Set.md)                                                             | Produkte-Sets definieren.                                                   |
 | [Product State](Product%20State.md)                                                         | Lebenszyklus von Produkten festlegen.                                       |
 | [Product Supplierinfo for Customer Sale](Product%20Supplierinfo%20for%20Customer%20Sale.md) | Produktspezifische Informationen für ausgewählte Kunden erfassen.           |
+| [Product Supplierinfo for Customers](Product%20Supplierinfo%20for%20Customers.md)           | Produktspezifische Informationen für ausgewählte Kunden erfassen.           |
 | [Product Type Description](Product%20Type%20Description.md)                                 | Zu jedem Produkt ein Beschreibungsfeld.                                     |
 | [Product Usability](Product%20Usability.md)                                                 | Ansichten Produktverwaltung.                                                |
 | [Product Variant Description](Product%20Variant%20Description.md)                           | Verkaufs-, Einkaufs- und Lieferbeschreibung auf Produktvarianten festlegen. |
