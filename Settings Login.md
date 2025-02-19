@@ -40,7 +40,11 @@ Wenn ein Benutzerwechsel stattfindet, sollten Sie nicht den Namen eines bestehen
 
 ### Benutzer entfernen
 
-Wenn Sie Benutzer entfernen möchten, müssen Sie diesen archivieren. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie den zu entfernen Benutzer aus. Kicken Sie auf *Aktionen > Archiv*.
+Wenn Sie Benutzer entfernen möchten, müssen Sie diesen archivieren. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie den zu entfernden Benutzer aus. Kicken Sie auf *Aktionen > Archiv*.
+
+::: tip
+Der Benutzer wird mit dieser Aktion nicht gelöscht, sondern nur ausgeblendet.
+:::
 
 ### Benutzertyp festlegen
 
