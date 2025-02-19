@@ -101,6 +101,10 @@ Wenn Sie einer ausgewählten Gruppe Zugriffsrechte auf ein Datenmodell vergeben 
 
 Wenn Sie den [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivieren) können Sie im Kontext einer Ansicht die Datensatzregeln anzeigen. Rufen Sie eine Ansicht auf, beispielsweise *Kontakte* und wählen Sie *Entwicklertools > Datensatzregeln anzeigen*. Nun erhalten Sie eine Liste der aktiven Datensatzregeln.
 
+### Datensatzregel anpassen
+
+Wenn Sie eine bestehende Datensatzregel anpassen möchten, ist es am einfachsten wenn Sie diese duplizieren und das Original archivieren. Navigieren Sie nach *Einstellungen > Technisch > Datensatzregeln* wählen Sie eine bestimmte Regel aus. Wählen Sie *Aktion > Duplizieren* und passen Sie den Namen der Regel an. Kehren Sie auf die Listenansicht zurück und wählen Sie die originale Regel aus. Klicken Sie auf *Aktion > Archiv*.
+
 ### Datensatzregeln deaktivieren
 
 Zeigen Sie *Einstellungen > Technisch > Sicherheit > Datensatzregeln* an und öffnen Sie den ausgewählten Eintrag. Wählen Sie *Aktionen > Archiv* um die Datensatzregel zu deaktivieren.

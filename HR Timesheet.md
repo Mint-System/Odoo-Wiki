@@ -122,3 +122,19 @@ Für die Vorgesetzten:
 * **Berechtigung**: Leseberechtigung
 
 Nun sollten Benutzer, die nur ihren eigenen Stundenzettel sehen, den Bericht aufrufen können.
+
+### Zugriff Genehmiger Zeiterfassung auf Team erteilen
+
+Führen Sie [Datensatzregel anpassen](Settings%20Permissions.md#Datensatzregel%20anpassen) für `Timesheets Analysis Report approver` aus. Geben Sie den folgenden Code als Regeldefinition ein:
+
+```python
+[
+	('project_id', '!=', False),
+	('employee_id.timesheet_manager_id', '=', user.id),
+	'|',
+		('project_id.privacy_visibility', '!=', 'followers'),
+		('project_id.message_partner_ids', 'in', [user.partner_id.id])
+]
+```
+
+Damit haben Genehmiger von Zeiterfassungseinträgen nur Zugriff auf ihr Team.
