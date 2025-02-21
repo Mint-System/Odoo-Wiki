@@ -509,19 +509,19 @@ Umfassende Synchronisationslösung basierend auf Odoo.
 
 ![](attachments/icons_odoo_app.png)
 
-Das Software-as-a-Service Angebot von Odoo.
+Software-as-a-Service Angebot von Odoo.
 
 ### [Odoo.sh](Odoo.sh.md)
 
 ![](attachments/icons_odoo_app.png)
 
-Das Platform-as-a-Service Angebot von Odoo.
+Platform-as-a-Service Angebot von Odoo.
 
 ### [Mint Cloud](Mint%20Cloud.md)
 
 ![](attachments/mint-system-favicon.png)
 
-Das managed Odoo Hosting von Mint System.
+Managed Odoo Hosting von Mint System.
 
 ### [On-Premise](On-Premise.md)
 
@@ -539,11 +539,11 @@ Unterstützer des Odoo Wiki werden hier mit Logo aufgeführt:
 
 [![logo](attachments/logo.svg)](https://www.mint-system.ch/)
 
-Es sind Lösungen und Dokumente von diesen Drittanbietern enthalten:
+Es sind Lösungen und Dokumente von diesen Anbieter enthalten:
 
 * [giordano.ch](https://www.giordano.ch/)
-* [syscoon GmbH](https://syscoon.com/)
 * [Odoo Community Association](https://odoo-community.org/)
+* [Odoo S.A.](https://www.odoo.com/)
 * [VentorTech](https://ventor.tech/)
 * [Zebra](https://www.zebra.com)
 * [Zebroo](https://www.zebroo.de)

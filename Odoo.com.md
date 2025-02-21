@@ -1,6 +1,6 @@
 ---
 title: Odoo.com
-description: Das Software-as-a-Service Angebot von Odoo.
+description: Software-as-a-Service Angebot von Odoo.
 tags:
 - HowTo
 prev: ./
