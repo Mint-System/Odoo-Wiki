@@ -4,7 +4,7 @@ description: Risk Management by Mint System.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./management-systems
+prev: ./management-system
 ---
 
 # Mgmt

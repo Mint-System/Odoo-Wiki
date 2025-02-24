@@ -4,7 +4,7 @@ description: Asset-Verwaltung für das Management-System.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./management-systems
+prev: ./management-system
 ---
 
 # Mmgt Asset

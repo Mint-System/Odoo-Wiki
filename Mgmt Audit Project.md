@@ -4,7 +4,7 @@ description: Erstellen Sie Projektaufgaben für Empfehlungen und Nonconformties.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./management-systems
+prev: ./management-system
 ---
 
 # Mgmt Audit Project

@@ -4,7 +4,7 @@ description: Verwalten Sie Anforderungen and die Organisation.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./management-systems
+prev: ./management-system
 ---
 
 # Mgmt Requirement

@@ -4,7 +4,7 @@ description: Risiko-Kalkulation basieren auf Gefahren.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./management-systems
+prev: ./management-system
 ---
 
 # Mgmt Hazard Risk

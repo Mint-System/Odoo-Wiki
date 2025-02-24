@@ -4,7 +4,7 @@ description: Audit-Module for the OCA Management System.
 tags:
 - HowTo
 - OCA
-prev: ./management-systems
+prev: ./management-system
 ---
 # Management System - Audit
 ![icon_oca_app](attachments/icon_oca_app.png)

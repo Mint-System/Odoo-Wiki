@@ -4,7 +4,7 @@ description: Log-Regeln für OCA Auditlog.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./management-systems
+prev: ./management-system
 ---
 
 # Mmgt Auditlog

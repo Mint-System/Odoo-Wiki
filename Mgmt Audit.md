@@ -4,7 +4,7 @@ description: Auditieren Sie ihr Unternehmen.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./management-systems
+prev: ./management-system
 ---
 
 # Mgmt Audit

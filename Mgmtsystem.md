@@ -4,7 +4,7 @@ description: Management System by OCA.
 tags:
 - HowTo
 - OCA
-prev: ./management-systems
+prev: ./management-system
 ---
 # Management System
 ![icon_oca_app](attachments/icon_oca_app.png)

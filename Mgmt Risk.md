@@ -4,7 +4,7 @@ description: Verwaltung von ISO27001 Risiken.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./management-systems
+prev: ./management-system
 ---
 
 # Mgmt Risk

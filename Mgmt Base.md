@@ -4,7 +4,7 @@ description: Basis für die Management-System Module.
 tags:
 - HowTo
 - Drittanbieter
-prev: ./management-systems
+prev: ./management-system
 ---
 
 # Mgmt Base

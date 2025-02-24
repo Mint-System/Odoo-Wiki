@@ -2,9 +2,9 @@
 title: Mmgt Asset Risk
 description: Verbinde Risiken und Assets.
 tags:
-- HowTo
-- Drittanbieter
-prev: ./management-systems
+  - HowTo
+  - Drittanbieter
+prev: ./management-system
 ---
 
 # Mmgt Asset Risk
