@@ -149,7 +149,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
 # Settings
-weeks_before_invoice_date = 6
+weeks_before_invoice_date = 3
 mail_template = "license_ocad_mail.mail_template_extend_subscription"
 default_price_list = "product.list0"
 
@@ -158,6 +158,7 @@ template = env.ref(mail_template)
 pricelist_id = env.ref(default_price_list)
 stage_running_id = env.ref("sale_subscription.sale_subscription_stage_in_progress")
 stage_closed_id = env.ref("sale_subscription.sale_subscription_stage_closed")
+tag_id = env.ref("__custom__.tag_missing_mail")
 
 # Get resellers
 reseller_ids = env["res.partner"].search([("grade_id","!=",False)])
@@ -168,7 +169,7 @@ extend_date = today + datetime.timedelta(weeks=weeks_before_invoice_date)
 
 # Search subscriptions
 extend_subscriptions = env["sale.order"].search([
-  ("partner_id", "not in", reseller_ids.ids),
+  # ("partner_id", "not in", reseller_ids.ids),
   ("is_subscription", "=", True),
   ("pricelist_id", "=", pricelist_id.id),
   ("stage_id", "=", stage_running_id.id),
@@ -176,6 +177,7 @@ extend_subscriptions = env["sale.order"].search([
   ("state", "=", "sale"),
   ("next_invoice_date", "<=", extend_date),
   ("next_invoice_date", ">=", today),
+  ("license_count", ">", 0)
 ])
 
 # raise UserError([extend_subscriptions, extend_date])
@@ -185,10 +187,17 @@ for subscription in extend_subscriptions:
   res = subscription.prepare_renewal_order()
   res_id = res["res_id"]
   renewal_so = env["sale.order"].browse(res_id)
-  renewal_so.with_context(mark_so_as_sent=True, force_send=True).message_post_with_template(
-    template.id,
-    composition_mode="comment",
-    email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
-  )
+  if renewal_so.partner_id.email:
+    renewal_so.with_context(mark_so_as_sent=True, force_send=True).message_post_with_template(
+      template.id,
+      composition_mode="comment",
+      email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
+    )
+  else:
+    renewal_so["tag_ids"] = [tag_id.id]
+    env["helpdesk.ticket"].create({
+      "name": "Verlängerung: E-Mail fehlt",
+      "description": "Das Abonnement " + renewal_so.name + "konnte nich verlängert werden, weil der Kunde keine E-Mail-Adresse hat."
+    })
   subscription.set_close()
 ```
