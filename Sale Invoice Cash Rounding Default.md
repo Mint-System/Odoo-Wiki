@@ -12,7 +12,7 @@ prev: ./invoicing
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_invoice_cash_rounding_default`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/sale_invoice_cash_rounding_default>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/17.0/sale_invoice_cash_rounding_default>
 
 ## Konfiguration
 

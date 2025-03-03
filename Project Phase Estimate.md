@@ -12,7 +12,7 @@ prev: ./project
 {{ $frontmatter.description }}
 
 Technischer Name: `project_phase_estimate`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/15.0/project_phase_estimate>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/16.0/project_phase_estimate>
 
 ## Verwendung
 

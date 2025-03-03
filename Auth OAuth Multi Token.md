@@ -12,7 +12,7 @@ prev: ./settings
 {{ $frontmatter.description }}
 
 Technischer Name: `auth_oauth_multi_token`\
-Repository: <https://github.com/OCA/server-auth/tree/16.0/auth_oauth_multi_token>
+Repository: <https://github.com/OCA/server-auth/tree/17.0/auth_oauth_multi_token>
 
 ## Beschreibung
 

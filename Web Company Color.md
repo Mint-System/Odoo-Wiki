@@ -12,7 +12,7 @@ prev: ./settings
 {{ $frontmatter.description }}
 
 Technischer Name: `web_company_color`\
-Repository: <https://github.com/OCA/web/tree/16.0/web_company_color>
+Repository: <https://github.com/OCA/web/tree/17.0/web_company_color>
 
 ## Verwendung
 

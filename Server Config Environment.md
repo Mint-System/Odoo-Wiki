@@ -12,7 +12,7 @@ prev: ./base
 {{ $frontmatter.description }}
 
 Technischer Name: `server_config_environment`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/server_config_environment>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/17.0/server_config_environment>
 
 ## Verwendung
 

@@ -12,7 +12,7 @@ prev: ./product
 {{ $frontmatter.description }}
 
 Technischer Name: `product_end_of_life_dates`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/15.0/product_end_of_life_dates>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/17.0/product_end_of_life_dates>
 
 ## Verwendung
 

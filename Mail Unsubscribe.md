@@ -12,7 +12,7 @@ prev: ./dialog
 {{ $frontmatter.description }}
  
 Technischer Name: `mail_unsubscribe`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/16.0/mail_unsubscribe>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/17.0/mail_unsubscribe>
 
 ## Beschreibung
 

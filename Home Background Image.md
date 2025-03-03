@@ -12,7 +12,7 @@ prev: ./base
 {{ $frontmatter.description }}
 
 Technischer Name: `home_background_image`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/15.0/home_background_image>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/home_background_image>
 
 ## Verwendung
 

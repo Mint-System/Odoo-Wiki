@@ -12,7 +12,7 @@ prev: ./hr-timesheet
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_timesheet_from_until`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_timesheet_from_until>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/17.0/hr_timesheet_from_until>
 
 ## Verwendung
 

@@ -12,7 +12,7 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_invoice_description`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.0/account_invoice_description>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/17.0/account_invoice_description>
 
 ## Verwendung
 

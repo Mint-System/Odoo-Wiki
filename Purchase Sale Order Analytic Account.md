@@ -12,7 +12,7 @@ prev: ./purchase
 {{ $frontmatter.description }}
 
 Technischer Name: `purchase_sale_order_analytic_account`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/15.0/purchase_sale_order_analytic_account>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.0/purchase_sale_order_analytic_account>
 
 ## Verwendung
 

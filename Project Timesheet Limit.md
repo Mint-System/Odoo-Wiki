@@ -12,7 +12,7 @@ prev: ./hr-timesheet
 {{ $frontmatter.description }}
 
 Technischer Name: `project_timesheet_limit`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/project_timesheet_limit>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/17.0/project_timesheet_limit>
 
 ## Verwendung
 

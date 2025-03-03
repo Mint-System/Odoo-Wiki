@@ -12,4 +12,4 @@ prev: ./hr-timesheet
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_timesheet_total_validated`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/15.0/sale_timesheet_total_validated>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_timesheet_total_validated>
