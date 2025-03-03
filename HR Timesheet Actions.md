@@ -34,7 +34,7 @@ In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl *Aktion*
 
 ### Validierung zurücksetzen
 
-*Gilt ab #Odoo14.*
+*Benötigt bis #Odoo18.*
 
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
