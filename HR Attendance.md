@@ -13,10 +13,10 @@ prev: ./
 
 ## Bereiche
 
-| Bereich                                                  | Beschreibung                             |
-| -------------------------------------------------------- | ---------------------------------------- |
+| Bereich                                                    | Beschreibung                               |
+| ---------------------------------------------------------- | ------------------------------------------ |
 | [Anwesenheiten Aktionen](HR%20Attendance%20Actions.md)     | Aktionen für Anwesenheiten App einrichten. |
-| [Anwesenheiten Überstunden](HR%20Attendance%20Overtime.md) | Überstundenmanagement ganz einfach.      |
+| [Anwesenheiten Überstunden](HR%20Attendance%20Overtime.md) | Überstundenmanagement ganz einfach.        |
 
 ## Erweiterungen
 
@@ -30,7 +30,7 @@ prev: ./
 | [HR Attendance Missing](HR%20Attendance%20Missing.md)                                     | Fehlende Anwesenheiten erstellen.                                                  |
 | [HR Attendance Overtime Hours](HR%20Attendance%20Overtime%20Hours.md)                     | Geplante und gearbeitete Stunden auf Ansicht Überstunden anzeigen.                 |
 | [HR Attendance Policy](HR%20Attendance%20Policy.md)                                       | Richtlinien für die Anwesenheiten festlegen.                                       |
-| [HR Attendance User ACL](HR%20Attendance%20User%20ACL.md)                                 | Manuelle Erfassung der Anwesenheit für Gruppe Benutzer erlauben.                   |
+| [HR Attendance User ACL](HR%20Attendance%20User%20ACL.md)                                 | Zugriff auf Anwesenheiten für Benutzer steuern.                   |
 | [HR Employee Attendance Report](HR%20Employee%20Attendance%20Report.md)                   | Stundenzettel mit Anwesenheit, Abwesenheiten und Überstunden.                      |
 | [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. |
 
