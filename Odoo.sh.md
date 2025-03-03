@@ -105,3 +105,11 @@ Odoo.sh Projekte sind an ein Github-Repository gekoppelt, wenn Sie einem Benutze
 Öffnen Sie das Odoo.sh Projekt und navigieren Sie nach *Settings > Collaborators*. Tragen Sie hier den Benutzernamen und die enstprechenden Berechtigungen ein.
 
 ![](attachments/Odoo.sh%20Benutzer%20hinzufügen.png)
+
+### GitHub-Repository mit Benutzer teilen
+
+Odoo.sh Projekte sind an ein Github-Repository gekoppelt, wenn Sie einem Benutzer Zugriff auf das Repository geben möchten, müssen Sie das via GitHub machen.
+
+Klicken Sie auf der Projekt-Kachel-Ansicht von Odoo.sh auf den GitHub-Link. Auf der GitHub-Seite wählen Sie *Settings > Collaborators and teams > Manage access > Add people*. Geben Sie den GitHub-Benutzernamen ein. Wählen Sie anschliessend eine Rolle aus (*Writer* ist empfohlen).
+
+Der Benutzer erhält eine Einladung via E-Mail und GitHub-Benachrichtigung. Erst wenn die Einladung angenommen ist, wird der Zugriff erteilt.
