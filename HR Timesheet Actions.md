@@ -18,7 +18,7 @@ prev: ./hr-timesheet
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Auftragselement von Aufgabe entfernen`\
-Modell: `Kostenstellen-Buchungen`\
+Modell: `account.analytic.line`\
 Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
@@ -39,14 +39,13 @@ In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl *Aktion*
 Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Validierung zurücksetzen`\
-Modell: `Kostenstellen-Buchungen`\
+Modell: `account.analytic.line`\
 Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
 
 ```python
-for record in records:
-	records.write({'validated': False})
+records.write({'validated': False})
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
