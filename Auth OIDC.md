@@ -137,3 +137,19 @@ Die hier angezeigte ID hinterlegt man im Benutzer-Account von Odoo:
 Nun kann sich der Benutzer einloggen.
 
 ![Authentication OpenID Connect Login Success](attachments/Authentication%20OpenID%20Connect%20Login%20Success.gif)
+
+## Troubleshooting
+
+### OpenID Connect scope must contain
+
+**Problem**
+
+Im Server-Log von Odoo erscheint diese Meldung:
+
+```
+ERROR erp odoo.addons.auth_oidc.controllers.main: openid connect scope must contain 'openid'
+```
+
+**Lösung**
+
+Stellen Sie sicher, dass im *Bereich* ihres OAuth-Providers der Wert `openid` steht.
