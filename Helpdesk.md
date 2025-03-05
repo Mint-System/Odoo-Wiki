@@ -69,3 +69,31 @@ Bearbeiten Sie diese Tickets und wählen Sie entweder *Mir Zuweisen* oder geben 
 Ist die App [Datenbereinigung](Data%20Cleaning.md) installiert, können Sie Tickets zusammenfünren. Navigieren Sie nach *Kundendienst > Tickets > Alle Tickets* und suchen Sie die Tickets, die Sie zusammenführen möchten. Markieren Sie die Einträge und wählen Sie *Aktionen > Zusammenführen*.  Im neuen Dialog erhaltne Sie eine Übersicht beiden Einträge. Klicken Sie auf *Zusammenführen* und bestätien Sie Warnung mit *Ok*. Im Chatter hält Odoo die ursprünglichen Informationen des Tickets fest.
 
 ![](attachments/Helpdesk%20Merged.png)
+
+## Website
+
+### Support-Formular auf Website erstellen
+
+Führen Sie [App installieren](Apps.md#App%20installieren) für *Online Ticket Submission* `website_helpdesk_form` aus.
+
+Navigieren Sie nach *Kundendienst > Konfiguration > Kundendienstteams* und zeigen Sie ein Team an. Aktivieren Sie die Option *Website-Formular*. Klicken Sie auf den Smart-Button *Gehe zu Website*.
+
+Bearbeiten Sie das Formular und aktivieren Sie die Option *Beschreibung* auf dem gleichnamigen Feld. Fügen Sie diesen Text ein:
+
+```
+Please answer these questions in the description:
+
+> What are the steps to reproduce the issue?
+> What is the current behavior you observe?
+> What would you like the behavior/result to be?
+```
+
+Übersetzen Sie die Seite und verwenden Sie diesen Text für die Beschreibung:
+
+```
+Bitte beantworte in der Beschreibung diese Fragen:
+
+> Wie kann das Problem reproduziert werden?
+> Welches Verhalten kannst du derzeit beobachten?
+> Welches Verhalten/Ergebnis würdest du ohne das Problem erwarten?
+```

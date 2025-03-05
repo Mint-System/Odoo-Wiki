@@ -64,7 +64,11 @@ Der Zugriff auf die verfügbaren Seite in der Menu-Struktur kann ganz einfach an
 
 ### Seite hinzufügen
 
-Mit dem Odoo Website-Editor können Sie ganz einfach neue Seiten hinzufügen.
+Mit dem Odoo Website-Editor können Sie ganz einfach neue Seiten hinzufügen. Klicken Sie auf *+ Neu* und wählen Sie *Seite* aus. Geben Sie den Titel der Seite ein.
+
+::: tip
+Wenn die Seite auf zwei oder mehrere Sprachen übersetzt wird, geben Sie den Titel in der Sprache der Odoo-Installation ein.
+:::
 
 ![](attachments/Website%20Neue%20Seite%20hinzufügen.gif)
 
