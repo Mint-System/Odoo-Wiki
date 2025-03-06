@@ -31,6 +31,12 @@ Mit Odoo können Sie E-Mails verschicken. Wie in Mail-Programmen können Sie ein
 
 ![](attachments/Persönliche%20Einstellungen%20Signatur.png)
 
+### Dark-Mode aktivieren
+
+Gilt ab #Odoo17.
+
+Klicken Sie oben rechts auf ihren Namen. Sie finden eine Option *Dunkelmodus*. Aktivieren diese Option damit die Odoo-Oberfläche im Dark-Mode erscheint.
+
 ## Benachrichtigung
 
 ### Benachrichtigungs-Kanal festlegen
