@@ -1,5 +1,5 @@
 ---
-title: Project Templates
+title: Project Template
 description: Projekt aus Projektvorlage erstellen.
 tags:
 - HowTo

@@ -12,7 +12,7 @@ prev: ./project
 {{ $frontmatter.description }}
 
 Technischer Name: `project_key_link_type`\
-Repository: <https://github.com/OCA/project/tree/15.0/project_key_link_type>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/15.0/project_key_link_type>
 
 ## Verwendung
 

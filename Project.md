@@ -34,7 +34,7 @@ Website: <https://www.odoo.com/de_DE/app/project>
 | [Project Task Dependencies](Project%20Task%20Dependencies.md)                     | Projektaufgaben mit Abhängigkeiten.                      |
 | [Project Task Dependency Counter](Project%20Task%20Dependency%20Counter.md)       | Smart Button für abhängige Aufgaben.                     |
 | [Project Task Material](Project%20Task%20Material.md)                             | Liste von verbrauchten Materialien auf Projektaufgabe.   |
-| [Project Templates](Project%20Templates.md)                                       | Projekt aus Projektvorlage erstellen.                    |
+| [Project Template](Project%20Template.md)                                       | Projekt aus Projektvorlage erstellen.                    |
 | [Project Timeline Task Dependencies](Project%20Timeline%20Task%20Dependencies.md) | Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten. |
 | [Project Timeline](Project%20Timeline.md)                                         | Timeline-Ansicht für Projektaufgaben.                    |
 | [Project Timesheet Time Control](Project%20Timesheet%20Time%20Control.md)         | Zeiterfassung auf Projektaufgabe starten.                |
