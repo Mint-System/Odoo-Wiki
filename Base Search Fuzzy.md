@@ -23,10 +23,17 @@ Mit der Trigramm-Indexierung können Sie sog. *Fuzzy Search* ausführen.
 Navigieren Sie nach *Einstellungen > Technisch > Datenbankstruktur > Trigram Index* und erstellen Sie einen neuen Eintrag:
 
 * **Feld**: Wählen Sie das Feld aus für welches ein Trigram-Index erstellt werden soll.
-* **Index Name**: Vergeben Sie optional einen Index-Namen.
+* **Index Name**: Wird automatisch vergeben.
 * **Index Typ**: Wählen Sie den Index-Typ aus.
 
 ## Entwicklung
+
+### Trigram-Index für Kontaktnamen erstellen
+
+Legen Sie gemäss [Trigram-Indexierung für ausgewähltes Feld aktivieren](#Trigram-Indexierung%20für%20ausgewähltes%20Feld%20aktivieren) einen Index mit diesen Werten an:
+
+* **Feld**: `display_name (res.partner)`
+* **Index Typ**: GIN
 
 ### Suchfilter anpassen
 
