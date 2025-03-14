@@ -6,45 +6,12 @@ tags:
 prev: ./
 ---
 # Git
-![](attachments/icons_odoo_git_base_2.png)
+![icons_odoo_git_base_modern](attachments/icons_odoo_git_base_modern.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `git_base`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/17.0/git_base>
-
-## Konfiguration
-
-Damit Git sich auf das Remote-Repository verbinden kann, muss ein SSH-Schlüssel hinterlegt werden. Die SSH-Schlüssel können an mehreren Stellen erfasst werden. Das Modul wählt den SSH-Schlüssel nach folgender Priorität aus:
-
-1. **Deploy Keys**: Schüssel generiert für das Repository
-2. **Repo User Keys**: Schlüssel hinterlegt auf dem Repository-Benutzer
-3. **Current User Keys**: Schlüssel hinterlegt auf dem eigenen Benutzer
-4. **Company Keys**: Schlüssel definiert in den Einstellungen des Unternehmens
-
-### Persönlicher SSH-Schlüssel festlegen
-
-Klicken Sie *Benutzer-Menu > Präferenzen* und zeigen Sie den Tab *SSH* an. Hier können Sie ihren privaten und öffentlichen SSH-Schlüssel hinterlegen. Wenn der private SSH-Schlüssel verschlüssel ist, geben im entsprechenden Feld das Passwort ein.
-
-::: warning
-Die SSH-Schlüssel werden unverschlüsselt in der Datenbank gespeichert und können vom Systemadministrator gelesen werden.
-:::
-
-### SSH-Schlüssel auf Benutzer hinterlegen
-
-Navigieren Sie nach *Einstellungen > Benutzer und Gruppen > Benutzer* und zeigen Sie einen Benutzer an. Im Tab *SSH* können Sie die SSH-Schlüssel für den Benutzer festlegen.
-
-### SSH-Schlüssel für Unternehmen festlegen
-
-Zeigen Sie *Einstellungen > Allgemeine Einstellungen > Integrationen* an. Unter der Option *Git* finden Sie die Felder um den SSH-Schlüssel einzutragen.
-
-::: warning
-Der private SSH-Schlüssel muss Base64-Kodiert sein.
-
-```bash
-cat ~/.ssh/id_ed25519 | base64 -w0
-```
-:::
 
 ## Verwendung
 
