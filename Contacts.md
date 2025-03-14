@@ -35,6 +35,7 @@ prev: ./
 | [Partner Contact Birthdate](Partner%20Contact%20Birthdate.md)                                     | Feld Geburtstag und Alter auf Kontakt vom Typ Einzelperson.                 |
 | [Partner Contact Department Note](Partner%20Contact%20Department%20Note.md)                       | Abteilung auf Kontakten speichern.                                          |
 | [Partner Contact Department](OCA%20Partner%20Contact%20Department.md)                             | Erweitert das Adressbuch mit Abteilungen.                                   |
+| [Partner Contact External Ref](Partner%20Contact%20External%20Ref.md)                             | Kunden-Referenz für die externe Kommunikation.                              |
 | [Partner Contact Location in Name](Partner%20Contact%20Location%20in%20Name.md)                   | PLZ und Stadt in Kontaktauswahl anzeigen.                                   |
 | [Partner Contact Personal Information Page](Partner%20Contact%20Personal%20Information%20Page.md) | Tab in Kontakt-Formular für persönliche Informationen.                      |
 | [Partner Contact User ACL](Partner%20Contact%20User%20ACL.md)                                     | Zugriffsrechte auf Kontakte festlegen.                                      |
