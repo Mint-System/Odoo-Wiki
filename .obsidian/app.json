@@ -4,7 +4,7 @@
   "attachmentFolderPath": "./attachments",
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
-  "trashOption": "local",
+  "trashOption": "none",
   "promptDelete": false,
   "legacyEditor": false,
   "livePreview": false,
