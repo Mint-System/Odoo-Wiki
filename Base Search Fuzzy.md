@@ -28,6 +28,23 @@ Navigieren Sie nach *Einstellungen > Technisch > Datenbankstruktur > Trigram Ind
 
 ## Entwicklung
 
+### Prüfen ob `pg_trgm`-Erweiterung installiert ist
+
+Führen Sie den folgenden SQL-Befehl auf der Odoo-Datenbank aus:
+
+```sql
+SELECT * FROM pg_extension WHERE extname = 'pg_trgm';
+```
+
+Wenn die Erweiterung installier ist, erhalten Sie diesen Output:
+
+```
+  oid   | extname | extowner | extnamespace | extrelocatable | extversion | extconfig | extcondition
+--------+---------+----------+--------------+----------------+------------+-----------+--------------
+ 861553 | pg_trgm |       10 |         2200 | t              | 1.4        |           |
+(1 row)
+```
+
 ### Trigram-Index für Kontaktnamen erstellen
 
 Legen Sie gemäss [Trigram-Indexierung für ausgewähltes Feld aktivieren](#Trigram-Indexierung%20für%20ausgewähltes%20Feld%20aktivieren) einen Index mit diesen Werten an:
