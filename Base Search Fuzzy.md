@@ -41,7 +41,7 @@ Wenn die Erweiterung installier ist, erhalten Sie diesen Output:
 ```
   oid   | extname | extowner | extnamespace | extrelocatable | extversion | extconfig | extcondition
 --------+---------+----------+--------------+----------------+------------+-----------+--------------
- 861553 | pg_trgm |       10 |         2200 | t              | 1.4        |           |
+ 861553 | pg_trgm |       10 |         2200 | t              | 1.6        |           |
 (1 row)
 ```
 
