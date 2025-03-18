@@ -281,16 +281,16 @@ Gemäss [Steuersätze anpassen](#Steuersätze%20anpassen) können Sie eine Kopie
 
 |       % | Basiert auf | Konto                                                   | Steuerraster |
 | -------:| ----------- | ------------------------------------------------------- | ------------ |
-|         | Basis       |                                                         | +382a        |
-| -100.00 | der Steuer  | 2200 Geschuldete Mehrwertsteuer                         | -382b        |
+|         | Basis       |                                                         | +383a        |
+| -100.00 | der Steuer  | 2200 Geschuldete Mehrwertsteuer                         | +383b        |
 |  100.00 | der Steuer  | 1170 Vorsteuer auf Materialaufwand und Dienstleistungen | +400         |
 
 * **Verteilung für Gutschriften**:
 
 |       % | Basiert auf | Konto                                                   | Steuerraster |
 | -------:| ----------- | ------------------------------------------------------- | ------------ |
-|         | Basis       |                                                         | -382a        |
-| -100.00 | der Steuer  | 2200 Geschuldete Mehrwertsteuer                         | +382b        |
+|         | Basis       |                                                         | -383a        |
+| -100.00 | der Steuer  | 2200 Geschuldete Mehrwertsteuer                         | -383b        |
 |  100.00 | der Steuer  | 1170 Vorsteuer auf Materialaufwand und Dienstleistungen | -400         |
 
 Für Bezugssteuer für Investition können Sie ebenfalls eine Kopie erstellen und im Steuerraster jeweils den Tag 405 statt 400 verwenden.
@@ -320,6 +320,27 @@ Die Berechnung der Prozente ist wie folgt:
 ::: warning
 Damit keine Vorsteuer-Buchungen gemacht werden, muss auf allen Steuersätzen vom Steuertyp *Einkauf* das Vorsteuer-Konto und der Steuertag entfernt werden.
 :::
+
+### Bezugssteuer für Saldosteuersätze erfassen
+
+Führen Sie [Bezugssteuer einrichten](#Bezugssteuer%20einrichten) aus. Für die Verteilung wählen Sie diese Vorlage:
+
+* **Verteilung für Rechnungen**:
+
+|       % | Basiert auf | Konto                           | Steuerraster |
+| -------:| ----------- | ------------------------------- | ------------ |
+|         | Basis       |                                 | +383a        |
+| -100.00 | der Steuer  | 2200 Geschuldete Mehrwertsteuer | +383b        |
+|  100.00 | der Steuer  |                                 |              |
+
+* **Verteilung für Gutschriften**:
+
+|       % | Basiert auf | Konto                           | Steuerraster |
+| -------:| ----------- | ------------------------------- | ------------ |
+|         | Basis       |                                 | -383a        |
+| -100.00 | der Steuer  | 2200 Geschuldete Mehrwertsteuer | -383b        |
+|  100.00 | der Steuer  |                                 |              |
+
 
 ## Buchhaltung
 
