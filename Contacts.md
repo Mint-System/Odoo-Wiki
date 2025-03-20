@@ -45,6 +45,7 @@ prev: ./
 | [Partner Firstname](Partner%20Firstname.md)                                                       | Unterscheidet Vor- und Nachnamen.                                           |
 | [Partner Hide Address](Partner%20Hide%20Address.md)                                               | Adressen auf Berichten ausblenden.                                          |
 | [Partner Multi Pricelist](Partner%20Multi%20Pricelist.md)                                         | Mehrere Preislisten mit Start- und Enddatum auf Kunden festlegen.           |
+| [Partner Multi Relation](Partner%20Multi%20Relation)                                              | Beziehungen zwischen Kontakten definieren.                                  |
 | [Partner Multiline Street2](Partner%20Multiline%20Street2.md)                                     | Mehrzeiliger Text in zweiter Strasse hinzufügen.                            |
 | [Partner Optional Commercial Partner](Partner%20Optional%20Commercial%20Partner.md)               | Kontakt selbst als Handelsgesellschaft festzulegen.                         |
 | [Partner Ref Sequence](Partner%20Ref%20Sequence.md)                                               | Automatische Vergabe der Kontakt-Referenz.                                  |

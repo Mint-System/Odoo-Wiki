@@ -1,6 +1,6 @@
 ---
 title: Personal information page for contacts
-description: Tab in Kontakt-Formular für persönliche Informationen.
+description: Fügt eine Ansicht zum Teilen von persönlichen Informationen hinzu.
 tags:
 - HowTo
 - OCA
