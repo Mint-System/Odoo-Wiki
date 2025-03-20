@@ -12,7 +12,7 @@ prev: ./
 
 Website: <https://www.odoo.com/>
 
-## Technisch
+## Datenbank
 
 ### Datenbank herunterladen
 

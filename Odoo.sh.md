@@ -113,3 +113,12 @@ Odoo.sh Projekte sind an ein Github-Repository gekoppelt, wenn Sie einem Benutze
 Klicken Sie auf der Projekt-Kachel-Ansicht von Odoo.sh auf den GitHub-Link. Auf der GitHub-Seite wählen Sie *Settings > Collaborators and teams > Manage access > Add people*. Geben Sie den GitHub-Benutzernamen ein. Wählen Sie anschliessend eine Rolle aus (*Writer* ist empfohlen).
 
 Der Benutzer erhält eine Einladung via E-Mail und GitHub-Benachrichtigung. Erst wenn die Einladung angenommen ist, wird der Zugriff erteilt.
+
+## Datenbank
+
+### Datenbank importieren
+
+Loggen Sie sich in ihr Odoo.sh Projekt ein. Wählen Sie den auf linken Seiten den Branch aus und klicken Sie auf den Tab *Backups*. Anschliessend klicken Sie auf *Import Database*. Es öffent sich ein Dialog mit Informationen zum Import-Vorgang. Klicken Sie auf *Next*. Abhängig von der Grösse der Zip-Datei wählen Sie die entsprechende Option.
+
+1. Wählen Sie die Zip-Datei aus und klicken Sie auf *Import*.
+2. Führen Sie den Kommandozeilen-Befehl aus. Starten Sie nach dem Upload  den Vorgang mit *Import*.
