@@ -33,6 +33,7 @@ prev: ./
 | [Auth OIDC](Auth%20OIDC.md)                                                               | Login mit OpenID Connect Provider.                                 |
 | [Auth Session Timeout](Auth%20Session%20Timeout.md)                                       | Session-Timeout festlegen.                                         |
 | [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)                                         | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren. |
+| [Base User Role Company](Base%20User%20Role%20Company.md)                                 | Benutzer-Rollen in Abhängigkeit vom Unternehmen aktivieren.        |
 | [Base User Role](Base%20User%20Role.md)                                                   | Gruppenberechtigungen mit Benutzer-Rollen verwalten.               |
 | [Home Background Image](Home%20Background%20Image.md)                                     | Den Odoo-Startbildschirm gestalten.                                |
 | [OAuth Multi Token](Auth%20OAuth%20Multi%20Token.md)                                      | Unterstützung für mehrere Geräteabhängigke OAuth-Tokens.           |
