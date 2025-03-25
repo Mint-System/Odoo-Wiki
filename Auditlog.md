@@ -32,11 +32,13 @@ Wenn Sie das Logging für mehrere Datenmodell aktivieren möchten, dann können 
 
 Für den Import der Audit-Regeln können Sie diese Vorlage verwenden:
 
-| id                               | name                                 | model_id/id                          | log_type       | state     | log_create | log_read | log_unlink | log_write |
-| -------------------------------- | ------------------------------------ | ------------------------------------ | -------------- | --------- | ---------- | -------- | ---------- | --------- |
-| \_\_import\_\_.model_account_move    | sale_subscription.model_account_move | sale_subscription.model_account_move | Kurz-Protokoll | Aktiviert | True       |          | True       | True      |
-| \_\_import\_\_.model_account_account | account.model_account_account        | account.model_account_account        | Kurz-Protokoll | Aktiviert | True       |          | True       | True      |
-| \_\_import\_\_.model_account_asset   | account_asset.model_account_asset    | account_asset.model_account_asset    | Kurz-Protokoll | Aktiviert | True       |          | True       | True      |
+| id                                  | name                                       | model_id/id                             | log_type       | state   | action_id           | log_create | log_read | log_unlink | log_write |
+|-------------------------------------|--------------------------------------------|-----------------------------------------|---------------|---------|---------------------|------------|----------|------------|-----------|
+| \_\_import\_\_.model\_account\_move     | sale\_subscription.model\_account\_move     | sale\_subscription.model\_account\_move | Kurz-Protokoll | Entwurf | Protokolle sichten | True       |          | True       | True      |
+| \_\_import\_\_.model\_account\_account | account.model\_account\_account       | account.model\_account\_account    | Kurz-Protokoll | Entwurf | Protokolle sichten | True       |          | True       | True      |
+| \_\_import\_\_.model\_account\_asset    | account\_asset.model\_account\_asset       | account\_asset.model\_account\_asset    | Kurz-Protokoll | Entwurf | Protokolle sichten | True       |          | True       | True      |
+
+Aktivieren Sie jede Regel nach dem Import.
 
 ## Verwendung
 
