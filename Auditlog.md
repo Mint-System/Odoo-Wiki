@@ -48,4 +48,4 @@ Navigieren Sie nach *Einstellungen > Technisch > Audit > Protokolle*. Hier finde
 
 ### Feld-Operationen anzeigen
 
-Jeder Log-Eintrag ist mit ein oder mehreren Feld-Operationen verknüpft. Navigieren Sie nach *Einstellungen > Technisch > Audit > Log Lines* um alle Operationen in einer Liste anzuzeigen. 
+Jeder Log-Eintrag ist mit ein oder mehreren Feld-Operationen verknüpft. Navigieren Sie nach *Einstellungen > Technisch > Audit > Log Lines* um alle Operationen in einer Liste anzuzeigen.
