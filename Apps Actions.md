@@ -14,7 +14,7 @@ prev: ./apps
 
 ### Modul aktualisieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Modul aktualisieren`\
 Modell: `ir.module.module`\

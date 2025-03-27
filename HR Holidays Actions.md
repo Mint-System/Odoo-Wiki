@@ -14,7 +14,7 @@ prev: ./hr-holidays
 
 ### Ablehnen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Ablehnen`\
 Modell: `hr.leave`\

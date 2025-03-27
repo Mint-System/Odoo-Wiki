@@ -14,7 +14,7 @@ prev: ./hr-attendance
 
 ### Fehlende Anwesenheitseinträge anzeigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Fehlende Anwesenheitseinträge anzeigen`\
 Modell: `ir.actions.server`\
@@ -145,7 +145,7 @@ Manager können den Bericht aufrufen, wenn Sie mit den folgenden Informationen e
 
 ### Überstunden aktualisieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Überstunden aktualisieren`\
 Modell: `hr.attendance`\

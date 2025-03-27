@@ -15,7 +15,7 @@ prev: ./manufacture
 
 ### Fertigungsauftrag abbrechen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Fertigungsauftrag abbrechen`\
 Modell: `mrp.production`\
@@ -34,7 +34,7 @@ In der Liste der Fertigungsauftrag können Sie die Einträge markieren und *Akti
 
 ### Reload BoM
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reload BoM`\
 Modell: `mrp.production`\
@@ -56,7 +56,7 @@ Im Fertigungsauftrag erscheint nun in der Auswahl *Aktion* das Menu *Reload BoM*
 
 ### Aktion  "Material-Reservationen entfernen" erstellen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Material-Reservationen entfernen`\
 Modell: `mrp.production`\
@@ -74,7 +74,7 @@ Im Fertigungsauftrag erscheint nun in der Auswahl *Aktion* das Menu *Material-Re
 
 ### Aktion  "Material-Reservationen erstellen" erstellen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Material-Reservationen erstellen`\
 Modell: `mrp.production`\

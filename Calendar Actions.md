@@ -14,7 +14,7 @@ prev: ./kalender
 
 ### Outlook Kalender synchronisieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Outlook Kalender synchronisieren`\
 Modell: `res.users`\

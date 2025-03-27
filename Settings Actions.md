@@ -14,7 +14,7 @@ prev: ./settings
 
 ### Sofort senden
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Sofort senden`\
 Modell: `mail.mail`\

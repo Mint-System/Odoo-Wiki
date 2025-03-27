@@ -57,3 +57,40 @@ Legen Sie gemäss [Trigram-Indexierung für ausgewähltes Feld aktivieren](#Trig
 Damit eine *Fuzzy Search* funktioniert muss auf der Suchmaske der Suchfilter  angepasst werden. Statt den Operator `ilike`, gibt es neu den Operator `%`. Mit einer *Fuzzy Search* werden Suchergebnisse zuverlässiger gefiltert. Hier ein Beispiel mit einem Rechtschreibefehler:
 
 ![](attachments/Base%20Search%20Fuzzy.png)
+
+### Kontakt Anzeigename indexieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Kontakt Anzeigename indexieren`\
+Modell: `server.actions`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+env.cr.execute("REINDEX INDEX display_name_gin_idx;")
+env.cr.commit()
+```
+
+### Kontakt Such-Query analysieren
+
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Kontakt Such-Query analyisieren`\
+Modell: `server.actions`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+env.cr.execute("""
+SELECT id, name, email, similarity(name, 'Raul Ferra') AS score
+FROM res_partner
+WHERE similarity(name, 'Raul Ferra') > 0.3
+ORDER BY score DESC;
+""")
+result = env.cr.fetchall()
+
+raise UserError("\n".join([f"ID: {row[0]}, Name: {row[1]}, Email: {row[2]}, Score: {row[3]}" for row in result]))
+```

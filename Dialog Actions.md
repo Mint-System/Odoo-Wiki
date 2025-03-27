@@ -14,7 +14,7 @@ prev: ./dialog
 
 ### Alle Follower entfernen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Alle Follower entfernen`\
 Modell: `project.task` (oder ein anderes Datenmodell)\
@@ -33,7 +33,7 @@ Auf der Listenansicht des Datenmodell markieren Sie ausgewählte Einträge und w
 
 ### Als Follower hinzufügen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Als Follower hinzufügen`\
 Modell: `project.task` (oder ein anderes Datenmodell)\

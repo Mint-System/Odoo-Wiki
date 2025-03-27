@@ -15,7 +15,7 @@ prev: ./mass_mailing
 
 ### Anzeigen Unsubscribe URL
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Anzeigen Unsubscribe URL`\
 Modell: `mailing.trace`\

@@ -18,7 +18,7 @@ Repository: <https://github.com/Sozialinfo/Odoo-Apps-Sozialinfo/tree/16.0/job_po
 
 ### Verkaufsauftrag erstellen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Verkaufsauftrag erstellen`\
 Modell: `job_portal.joboffer`\
@@ -37,7 +37,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 ### Beschreibung Auftragszeile generieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Beschreibung Auftragszeile generieren`\
 Modell: `sale.order`\

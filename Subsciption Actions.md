@@ -15,7 +15,7 @@ prev: ./sale
 
 ### Abonnement schliessen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Abonnement schliessen`\
 Modell: `sale.order`\
@@ -32,7 +32,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speiche
 
 ### Start- und Enddatum von Abonnement übernehmen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Start- und Enddatum von Abonnement übernehmen`\
 Modell: `account.move`\

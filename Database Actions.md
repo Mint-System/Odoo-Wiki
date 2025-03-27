@@ -15,7 +15,7 @@ prev: ./database
 
 Diese Aktion zeigt die Datenbank-Locks auf der `ir_cron`-Tabelle.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Cron-Lock anzeigen`\
 Modell: `ir.actions.server`\
@@ -34,7 +34,7 @@ raise UserError(["Result", res])
 
 Diese Aktion entfernt Datenbank-Locks auf der `ir_cron`-Tabelle.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Cron-Lock entfernen`\
 Modell: `ir.actions.server`\

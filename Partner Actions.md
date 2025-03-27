@@ -14,7 +14,7 @@ prev: ./contacts
 
 ### Kontakt als Privat festlegen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Kontakt als Privat festlegen`\
 Modell: `res.partner`\
@@ -33,7 +33,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
 
 ### Kontakt als Kontakt festlegen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Kontakt als Kontakt festlegen`\
 Modell: `res.partner`\

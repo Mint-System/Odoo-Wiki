@@ -14,7 +14,7 @@ prev: ./website
 
 ### Zahlungstransaktion zurücksetzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Zahlungstransaktion zurücksetzen`\
 Modell: `payment.transaction`\

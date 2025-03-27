@@ -15,7 +15,7 @@ prev: ./hr-timesheet
 
 *Gilt ab #Odoo14.*
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Auftragselement von Aufgabe entfernen`\
 Modell: `account.analytic.line`\
@@ -36,7 +36,7 @@ In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl *Aktion*
 
 *Benötigt bis #Odoo18.*
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Validierung zurücksetzen`\
 Modell: `account.analytic.line`\

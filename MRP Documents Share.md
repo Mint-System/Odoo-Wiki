@@ -54,7 +54,7 @@ Die hinterlegten Zeichnungen und Step-Dateien können Sie auf einer Listenanisch
 
 Damit die Produktionsdokumente und Produkte in beide Richtigungen verknüpft werden, kann diese Aktion auf den Produkten ausgeführt werden.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Produktionsdokumente mit Produkt verknüpfen`\
 Modell: `product.template`\

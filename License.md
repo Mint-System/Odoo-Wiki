@@ -58,7 +58,7 @@ Sie können auch einen benutzerdefinierten Lizenznamen und Schlüssel vergeben.
 
 ### Lizenz abbrechen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lizenz abbrechen`\
 Modell: `license.license`\
@@ -77,7 +77,7 @@ In der Liste der Lizenzen können Sie die Einträge markieren und *Aktionen > Li
 
 ### Lizenz aktivieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lizenz aktivieren`\
 Modell: `license.license`\

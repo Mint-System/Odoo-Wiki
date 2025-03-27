@@ -17,7 +17,7 @@ prev: ./accounting
 
 ### Bankauszug zurücksetzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Bankauszug zurücksetzen`\
 Modell: `account.bank.statement`\
@@ -36,7 +36,7 @@ In der Liste der Belege erscheint nun in der Auswahl *Aktion* das Menu *Bankausz
 
 ### Bankauszug bestätigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Bankauszug bestätigen`\
 Modell: `account.bank.statement`\
@@ -59,7 +59,7 @@ In der Liste der Belege erscheint nun in der Auswahl *Aktion* das Menu *Bankausz
 
 Gilt bis #Odoo15.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Buchungszeilen aktualisieren`\
 Modell: `account.move`\
@@ -78,7 +78,7 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *
 
 ### Abstimmung zurücksetzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Abstimmung zurücksetzen`\
 Modell: `account.bank.statement.line`\
@@ -96,7 +96,7 @@ In der Liste der Vorgänge erscheint nun in der Auswahl *Aktion* das Menu *Absti
 
 ### Zahlung auf nicht gesendet setzen 
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Zahlung auf nicht gesendet setzen`\
 Modell: `account.payment`\
@@ -115,7 +115,7 @@ In der Liste der Zahlung erscheint nun in der Auswahl *Aktion* das Menu *Zahlung
 
 ### Zahlungen zurücksetzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Zahlungen zurücksetzen`\
 Modell: `account.payment`\
@@ -131,7 +131,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 ### Mahnstufe anzeigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Mahnstufe anzeigen`\
 Modell: `res.partner`\
@@ -149,7 +149,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 ### Analysekonto entfernen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Analysekonto entfernen`\
 Modell: `account.move`\
@@ -168,7 +168,7 @@ Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätig
 
 Diese Aktion sucht anhand der Zahlungsreferenz der Rechnung eine Zahlung und gleich diese ab.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Anhang entfernen`\
 Modell: `account.move`\
@@ -210,7 +210,7 @@ Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätig
 
 ### Als geprüft markieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Als geprüft markieren`\
 Modell: `account.move`\
@@ -225,7 +225,7 @@ Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätig
 
 ### Als ungeprüft markieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Als geprüft markieren`\
 Modell: `account.move`\
@@ -243,7 +243,7 @@ Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätig
 
 Mit dieser Aktion können Sie die Abstimmungen auf der Listenansicht der Buchungszeilen aufheben. 
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Abstimmung mit Kontoauszug zurücksetzen`\
 Modell: `account.move.line`\
@@ -261,7 +261,7 @@ Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätig
 
 Mit dieser Aktion können Sie das Konto für ausgewählte Buchungszeilen aktualisieren.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Konto aktualisieren`\
 Modell: `account.move.line`\
@@ -277,7 +277,7 @@ Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätig
 
 ### Informationen der Zahlungsmethode anzeigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Informationen der Zahlungsmethode anzeigen`\
 Modell: `account.payment.method`\

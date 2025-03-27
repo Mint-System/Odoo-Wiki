@@ -32,7 +32,7 @@ Unter <https://odoo.build/snippets.html> finden Sie Snippets mit der Bezeichnung
 
 ### Positionsnummer festlegen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Positionsnummer festlegen`\
 Modell: `mrp.bom`\

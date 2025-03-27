@@ -26,7 +26,7 @@ Mit dieser Erweiterung wird für E-Mails im Status *Bounced* ein Kundendienst-Ti
 
 ### Auf Bounced setzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Auf Bounced setzen`\
 Modell: `mail.tracking.email`\

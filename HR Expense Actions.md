@@ -14,7 +14,7 @@ prev: ./hr-attendance
 
 ### Spesenabrechnung zurücksetzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Spesenabrechnung zurücksetzen`\
 Modell: `hr.expense.sheet`\

@@ -22,7 +22,7 @@ Diese App erweitert die `_timesheet_determine_sale_line` Methode. Abhängig von 
 
 ### Von Abrechnung aus-/einschliessen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Von Abrechnung aus-/einschliessen`\
 Modell: `account.analytic.line`\

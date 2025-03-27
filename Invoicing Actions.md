@@ -15,7 +15,7 @@ prev: ./accounting
 
 ### Auf Entwurf zurücksetzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Auf Entwurf zurücksetzen`
 Modell: `account.move`
@@ -34,7 +34,7 @@ In der Liste der Buchungssätze erscheint nun die Auswahl *Aktionen > Auf Entwur
 
 ### Als gesendet markieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Als gesendet markieren`\
 Modell: `account.move`\
@@ -51,7 +51,7 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *
 
 ### Als ungebucht markieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Als ungebucht markieren`\
 Modell: `account.move`\
@@ -70,7 +70,7 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *
 
 ### Als gebucht markieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Als gebucht markieren`
 Modell: `account.move`
@@ -92,7 +92,7 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *
 
 Mit dieser Aktion wird einer gebuchten Rechnung eine Mahngebühr hinzugefügt. Damit diese Aktion funktioniert, müssen Sie ein [Produkt Mahngebühren einrichten](Invoicing%20Reminder.md#Produkt%20Mahngebühren%20einrichten).
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Mahngebühren hinzufügen`\
 Modell: `account.move`\
@@ -117,7 +117,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 ### Steuersätze aktualisieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Steuersätze aktualisieren`\
 Modell: `account.move`\
@@ -144,7 +144,7 @@ Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätig
 
 ### Steuersatz entfernen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Steuersatz entfernen`\
 Modell: `account.move.line`\
@@ -159,7 +159,7 @@ Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätig
 
 ### Anhang entfernen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Anhang entfernen`\
 Modell: `account.move`\
@@ -175,7 +175,7 @@ Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätig
 ### Empfänger für Mahnungen ausgeben
 
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Empfänger für Mahnungen ausgeben`\
 Modell: `account.move`\

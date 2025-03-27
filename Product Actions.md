@@ -15,7 +15,7 @@ prev: ./product
 
 ### Übersetzung von Name anpassen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Übersetzung von Name anpassen`\
 Modell: `product.template`\
