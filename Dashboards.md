@@ -18,6 +18,7 @@ prev: ./
 | [Board Users](Board%20Users.md)                   | Dashboars von allen Benutzer anzeigen.   |
 | [Mail Activity Board](Mail%20Activity%20Board.md) | Übersicht aller erstellten Aktivitäten.  |
 | [Mail Activity Done](Mail%20Activity%20Done.md)   | Aktivitäten als erledigt markieren.      |
+| [MIS Builder](MIS%20Builder.md) |                                                         |                                                                     |
 
 ## Verwendung
 

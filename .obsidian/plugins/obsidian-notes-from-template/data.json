@@ -1,5 +1,5 @@
 {
-  "outputDirectory": ".",
+  "outputDirectory": "",
   "templateFilename": "{{title}}",
   "inputFieldList": "title,body",
   "textReplacementTemplates": [
