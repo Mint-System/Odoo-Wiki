@@ -12,15 +12,15 @@ prev: ./
 
 ## Erweiterungen
 
-| Erweiterung                                                             | Beschreibung                                    |     |
-| ----------------------------------------------------------------------- | ----------------------------------------------- | --- |
-| [Board User ACL](Board%20User%20ACL.md)                                 | Zugriffsrechte auf Dashboards festlegen.        |     |
-| [Board Users](Board%20Users.md)                                         | Dashboars von allen Benutzer anzeigen.          |     |
-| [MIS Builder Cash Flow](MIS%20Builder%20Cash%20Flow.md)                 | Geldfluss-Bericht für Odoo Community.           |     |
-| [MIS Builder](MIS%20Builder.md)                                         | Build Management Information System dashboards. |     |
-| [MIS Template Financial Report](MIS%20Template%20Financial%20Report.md) | Bilanz und Erfolgsrechnung für Odoo Community.  |     |
-| [Mail Activity Board](Mail%20Activity%20Board.md)                       | Übersicht aller erstellten Aktivitäten.         |     |
-| [Mail Activity Done](Mail%20Activity%20Done.md)                         | Aktivitäten als erledigt markieren.             |     |
+| Erweiterung                                                             | Beschreibung                                    |
+| ----------------------------------------------------------------------- | ----------------------------------------------- |
+| [Board User ACL](Board%20User%20ACL.md)                                 | Zugriffsrechte auf Dashboards festlegen.        |
+| [Board Users](Board%20Users.md)                                         | Dashboars von allen Benutzer anzeigen.          |
+| [MIS Builder Cash Flow](MIS%20Builder%20Cash%20Flow.md)                 | Geldfluss-Bericht für Odoo Community.           |
+| [MIS Builder](MIS%20Builder.md)                                         | Build Management Information System dashboards. |
+| [MIS Template Financial Report](MIS%20Template%20Financial%20Report.md) | Bilanz und Erfolgsrechnung für Odoo Community.  |
+| [Mail Activity Board](Mail%20Activity%20Board.md)                       | Übersicht aller erstellten Aktivitäten.         |
+| [Mail Activity Done](Mail%20Activity%20Done.md)                         | Aktivitäten als erledigt markieren.             |
 
 ## Verwendung
 

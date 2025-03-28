@@ -14,6 +14,6 @@ prev: ./dashboards
 Technischer Name: `mis_template_financial_report`\
 Repository: <https://github.com/OCA/account-financial-reporting/tree/16.0/mis_template_financial_report>
 
-### Geldfluss-Bericht erstellen
+### Bilanz-Bericht erstellen
 
-Wenn Sie einen [MIS-Bericht erstellen](MIS%20Builder.md#MIS-Bericht%20erstellen) wählen Sie als *Cash Flow* als *Template*.
+Wenn Sie einen [MIS-Bericht erstellen](MIS%20Builder.md#MIS-Bericht%20erstellen) wählen Sie als *Balance* als *Template*.
