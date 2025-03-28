@@ -13,3 +13,15 @@ prev: ./dashboards
 
 Technischer Name: `mass_editing`\
 Repository: <https://github.com/OCA/mis-builder/tree/16.0/mis_builder>
+
+## Verwendung
+
+### MIS-Bericht erstellen
+
+Navigieren Sie nach*Rechnungsstellung > Berichtswesen > MIS Reports* und klicken Sie auf *Neu*. Geben Sie die folgenden Informationen ein:
+
+* **Name**: Anzeigename des Berichts.
+* **Template**: Bericht anhand einer Vorlage erstellen. 
+* **Daterange**: Standard-Datumsbereich für den Bericht.
+	* **From**: Bei Verwendung eines Datumsbereichs wird dieses Feld abgefüllt.
+	* **To**: Bei Verwendung eines Datumsbereichs wird dieses Feld abgefüllt.

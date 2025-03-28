@@ -1,0 +1,21 @@
+---
+title: MIS Builder Cash Flow
+description: Geldfluss-Bericht für Odoo Community.
+tags:
+- HowTo
+- OCA
+prev: ./dashboards
+---
+# MIS Builder Cash Flow
+![icon_oca_app](attachments/icon_oca_app.png)
+
+{{ $frontmatter.description }}
+
+Technischer Name: `mis_builder_cash_flow`\
+Repository: <https://github.com/OCA/account-financial-reporting/tree/16.0/mis_builder_cash_flow>
+
+## Verwendung
+
+### Geldfluss-Bericht erstellen
+
+Wenn Sie einen [MIS-Bericht erstellen](MIS%20Builder.md#MIS-Bericht%20erstellen) wählen Sie als *Cash Flow* als *Template*.
