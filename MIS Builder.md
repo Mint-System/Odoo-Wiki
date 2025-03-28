@@ -25,3 +25,7 @@ Navigieren Sie nach*Rechnungsstellung > Berichtswesen > MIS Reports* und klicken
 * **Daterange**: Standard-Datumsbereich für den Bericht.
 	* **From**: Bei Verwendung eines Datumsbereichs wird dieses Feld abgefüllt.
 	* **To**: Bei Verwendung eines Datumsbereichs wird dieses Feld abgefüllt.
+
+### MIS-Vorlagen verwalten
+
+Navigieren Sie nach*Rechnungsstellung > Konfiguration > MIS Report Templates*. Hier finden Sie alle MIS-Vorlagen. 
