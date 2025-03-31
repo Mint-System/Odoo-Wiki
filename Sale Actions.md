@@ -180,7 +180,7 @@ for line in records.order_line:
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
+	
 ### Markieren der Offerte als gesendet
 
 Das ist eine Standard-Serveraktion von Odoo. Der Status "Angebot gesendet" wird nur gesetzt, wenn Dialog zum Versand aufgerufen werden. Mit dieser Aktion können Sie den Status explizit setzen.
