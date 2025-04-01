@@ -141,12 +141,11 @@ export default [
   "brand.md",
   "certificate-planner.md",
   "purchase-requisition.md",
-  "git-base.md",
   "forestry-base.md",
   "job-portal-base.md",
   "legal-advice-base.md",
   "license.md",
-  "management-systems.md",
+  "management-system.md",
   "order-positions.md",
   "troubleshooting.md",
   "ventor-pro.md",
@@ -488,7 +487,6 @@ export default [
           "hr-attendance-policy.md",
           "hr-attendance-user-acl.md",
           "hr-employee-attendance-report.md",
-          "syscoon-hr-attendance.md",
           "theoretical-vs-attended-time-analysis.md"
         ]
       },
@@ -541,7 +539,9 @@ export default [
         "text": "Connector",
         "collapsible": true,
         "children": [
-          "meilisearch-base.md"
+          "git-base.md",
+          "meilisearch-base.md",
+          "ssh.md"
         ]
       },
       {
@@ -550,6 +550,9 @@ export default [
         "children": [
           "board-user-acl.md",
           "board-users.md",
+          "mis-builder-cash-flow.md",
+          "mis-builder.md",
+          "mis-template-financial-report.md",
           "mail-activity-board.md",
           "mail-activity-done.md"
         ]
@@ -631,6 +634,7 @@ export default [
           "auth-oidc.md",
           "auth-session-timeout.md",
           "auth-totp-ip-check.md",
+          "base-user-role-company.md",
           "base-user-role.md",
           "home-background-image.md",
           "auth-oauth-multi-token.md",
@@ -732,6 +736,7 @@ export default [
           "partner-contact-birthdate.md",
           "partner-contact-department-note.md",
           "oca-partner-contact-department.md",
+          "partner-contact-external-ref.md",
           "partner-contact-location-in-name.md",
           "partner-contact-personal-information-page.md",
           "partner-contact-user-acl.md",
@@ -741,6 +746,7 @@ export default [
           "partner-firstname.md",
           "partner-hide-address.md",
           "partner-multi-pricelist.md",
+          "partner-multi-relation",
           "partner-multiline-street2.md",
           "partner-optional-commercial-partner.md",
           "partner-ref-sequence.md",
@@ -866,6 +872,7 @@ export default [
           "product-set.md",
           "product-state.md",
           "product-supplierinfo-for-customer-sale.md",
+          "product-supplierinfo-for-customers.md",
           "product-type-description.md",
           "product-usability.md",
           "product-variant-description.md",
@@ -887,7 +894,7 @@ export default [
           "project-task-dependencies.md",
           "project-task-dependency-counter.md",
           "project-task-material.md",
-          "project-templates.md",
+          "project-template.md",
           "project-timeline-task-dependencies.md",
           "project-timeline.md",
           "project-timesheet-time-control.md",
@@ -971,6 +978,7 @@ export default [
           "web-dark-mode.md",
           "web-editor-disable-convert-inline.md",
           "web-editor-show-code.md",
+          "web-font-arial.md",
           "web-responsive.md"
         ]
       },
@@ -1170,11 +1178,9 @@ export default [
         ]
       },
       {
-        "text": "Management Systems",
+        "text": "Management System",
         "collapsible": true,
         "children": [
-          "mgmtsystem.md",
-          "mgmt.md",
           "mgmt-asset-risk.md",
           "mgmt-audit-project.md",
           "mgmt-audit.md",
@@ -1183,7 +1189,6 @@ export default [
           "mgmt-hazard-risk.md",
           "mgmt-requirement.md",
           "mgmt-risk.md",
-          "mgmtsystem-audit.md",
           "mmgt-asset.md"
         ]
       },

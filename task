@@ -12,18 +12,24 @@ function help() {
     echo "commands:"
     echo
 
-    cmd_width=20
-    opt_width=6
-    desc_width=40
-    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "Command" "Option" "Description"
-    echo "|$(printf '%*s' $((cmd_width + 2)) '' | tr ' ' '-')|$(printf '%*s' $((opt_width + 2)) '' | tr ' ' '-')|$(printf '%*s' $((desc_width + 2)) '' | tr ' ' '-')|"
-    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "install" "" "Install build dependencies."
-    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "build" "" "Build project."
-    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "dev" "" "Start vuepress development server."
-    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vuepress-build" "" "Create vuepress build."
-    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "serve-build" "" "Serve vuepress build."
-    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "download-icons" "" "Download module icons from Odoo assets."
-    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "update-repo-url" "" "Check and update repository urls."
+    CMD_WIDTH=20
+    OPT_WIDTH=6
+    DESC_WIDTH=40
+    COLUMN="| %-${CMD_WIDTH}s | %-${OPT_WIDTH}s | %-${DESC_WIDTH}s |\n"
+
+    # Print table header
+    printf "$COLUMN" "Command" "Option" "Description"
+    echo "|$(printf '%*s' $((CMD_WIDTH + 2)) '' | tr ' ' '-')|$(printf '%*s' $((OPT_WIDTH + 2)) '' | tr ' ' '-')|$(printf '%*s' $((DESC_WIDTH + 2)) '' | tr ' ' '-')|"
+
+    # Print table rows
+
+    printf "$COLUMN" "install" "" "Install build dependencies."
+    printf "$COLUMN" "build" "" "Build project."
+    printf "$COLUMN" "dev" "" "Start vuepress development server."
+    printf "$COLUMN" "vuepress-build" "" "Create vuepress build."
+    printf "$COLUMN" "serve-build" "" "Serve vuepress build."
+    printf "$COLUMN" "download-icons" "" "Download module icons from Odoo assets."
+    printf "$COLUMN" "update-repo-url" "" "Check and update repository urls."
 
     echo
 }
@@ -70,33 +76,40 @@ function update-repo-url() {
     done
 }
 
-case "$1" in
-    help)
-        help
-        ;;
-    install)
-        pnpm install
-        ;;
-    build)
-        node build.js
-        ;;
-    dev)
-        pnpm run dev
-        ;;
-    vuepress-build)
-        pnpm run vuepress-build
-        ;;
-    serve-build)
-        cd ./src/.vuepress/dist
-        npx serve
-        ;;
-    update-repo-url)
-        update-repo-url
-        ;;
-    download-icons)
-        pnpm run download-icons
-        ;;
-    *)
-        help
-        exit 1;
-esac
+
+function install() {
+    pnpm install
+}
+
+function build() {
+    node build.js
+}
+
+function dev() {
+    pnpm run dev
+}
+
+function vuepress-build() {
+    pnpm run vuepress-build
+}
+
+function serve-build() {
+    cd ./src/.vuepress/dist
+    npx serve
+}
+
+function download-icons() {
+    pnpm run download-icons
+}
+
+if declare -f "$1" > /dev/null; then
+    "$1" "${@:2}"
+else
+    case "$1" in
+        *)
+            echo "Unknown command: $1"
+            help
+            exit 1
+            ;;
+    esac
+fi

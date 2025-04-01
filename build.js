@@ -84,7 +84,7 @@ function removeDuplicates(arr) {
 function convert(content,file) {
 
     // convert markdown video links
-    // ![](Video.webm) -> <video width="560" height="240" controls><source src="./attachments/video.webm"></video> 
+    // ![](attachments/Video.webm) -> <video width="560" height="240" controls><source src="./video.webm"></video> 
     const mdVideo = /(!\[.*\]\(.*\.(webm|mp4)\))/g
     matches = content.match(mdVideo) || []
     for (i = 0; i < matches.length; i++) {
@@ -97,8 +97,8 @@ function convert(content,file) {
     }
 
     // convert markdown image links
-    // ![title](Image.png) -> ![](./attachments/image.png)
-    const mdImage = /(^!\[.*?\]\(.*?\..*?\))/g
+    // ![title](attachments/Image.png) -> ![](./image.png)
+    const mdImage = /(!\[.*?\]\(attachments.*?\..*?\))/g
     matches = content.match(mdImage) || []
     for (i = 0; i < matches.length; i++) {
         let match = matches[i]
