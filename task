@@ -25,9 +25,9 @@ function help() {
 
     printf "$COLUMN" "install" "" "Install build dependencies."
     printf "$COLUMN" "build" "" "Build project."
-    printf "$COLUMN" "dev" "" "Start vuepress development server."
-    printf "$COLUMN" "vuepress-build" "" "Create vuepress build."
-    printf "$COLUMN" "serve-build" "" "Serve vuepress build."
+    printf "$COLUMN" "dev-vuepress" "" "Start vuepress development server."
+    printf "$COLUMN" "build-vuepress" "" "Create vuepress build."
+    printf "$COLUMN" "serve-vuepress" "" "Serve vuepress build."
     printf "$COLUMN" "download-icons" "" "Download module icons from Odoo assets."
     printf "$COLUMN" "update-repo-url" "" "Check and update repository urls."
 
@@ -85,15 +85,15 @@ function build() {
     node build.js
 }
 
-function dev() {
+function dev-vuepress() {
     pnpm run dev
 }
 
-function vuepress-build() {
+function build-vuepress() {
     pnpm run vuepress-build
 }
 
-function serve-build() {
+function serve-vuepress() {
     cd ./src/.vuepress/dist
     npx serve
 }

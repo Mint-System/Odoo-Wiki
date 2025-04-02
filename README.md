@@ -259,7 +259,7 @@ Personalbrechnungen schnell und einfach erstellen.
 
 Einstellungsprozess leicht gemacht.
 
-### [Planung](planning.md)
+### [Planung](Planning.md)
 
 ![icons_odoo_planning](attachments/icons_odoo_planning.png)
 
