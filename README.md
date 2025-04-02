@@ -17,7 +17,7 @@ tags:
 
 # Odoo Wiki
 
-[![matrix-badge](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/#odoo-wiki:mint-system.ch)
+[![matrix-badge](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/!KrqriCmWfsDJxdWNtE:mint-system.ch?via=mint-system.ch&via=matrix.org)
 
 Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus zwei Sichten. In den **Best Practice** werden konkrete Anwendungsfälle in Odoo umgesetzt und mit den **HowTos** wird die Konfiguration und Verwendung von Odoo vermittelt.
 
