@@ -25,7 +25,7 @@ export default defineUserConfig({
             { text: 'Glossary', link: '/glossary' },
             { text: 'OCA Apps', link: 'https://odoo-community.org/shop' },
             { text: 'Mint System', link: 'https://www.mint-system.ch/odoo' },
-            { text: 'Chat', link: 'https://matrix.to/#/#odoo-wiki:mint-system.ch' }
+            { text: 'Chat', link: 'https://matrix.to/#/!KrqriCmWfsDJxdWNtE:mint-system.ch?via=mint-system.ch&via=matrix.org' }
         ],
         sidebar: {
             '/': [
