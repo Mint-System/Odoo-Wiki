@@ -513,7 +513,7 @@ Platform-as-a-Service Angebot von Odoo.
 
 ### [Mint Cloud](Mint%20Cloud.md)
 
-![](attachments/mint-system-favicon.png)
+![](attachments/mint-cloud-favicon.png)
 
 Managed Odoo Hosting von Mint System.
 
