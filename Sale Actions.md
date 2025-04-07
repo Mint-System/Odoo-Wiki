@@ -386,13 +386,30 @@ for invoice in records.invoice_ids:
 records._compute_invoice_status()
 ```
 
-### Standardwerte festlegen
+### Standard-Zahlungsbedingungen festlegen
 
 Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
 
-* **Name der Aktion**: `Standardwerte festlegen`
+* **Name der Aktion**: `Standard-Zahlungsbedingungen festlegen`
 * **Modell**: `sale.order`
 * **Auslöser**: Bei Erstellung
+* **Anzuwenden auf**: `[("payment_term_id", "=", False)]`
+* **Folgeaktion**: Den Datensatz aktualisieren
+* **Zu schreibende Daten**:
+
+| Feld              | Bewertungstyp | Datensatz |
+| ----------------- | ------------- | --------- |
+| `payment_term_id` | Referenz      | 21 Tage   |
+	
+
+### Verkäufer entfernen
+
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+
+* **Name der Aktion**: `Verkäufer entfernen`
+* **Modell**: `sale.order`
+* **Auslöser**: Bei Erstellung und Aktualisierung
+* **Anzuwenden auf**: `[("user_id", "!=", False)]`
 * **Folgeaktion**: Den Datensatz aktualisieren
 * **Zu schreibende Daten**:
 
