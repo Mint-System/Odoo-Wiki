@@ -126,6 +126,12 @@ Im Entwicklermodus navigieren Sie nach *Einstellungen > Technisch > Parameter > 
 Dieser Parameter wird von Odoo automatisch festgelegt. Um den Wert zu übersteuern, muss der Parameter `web.base.url.freeze` auf `True` gesetzt werden.
 :::
 
+### Odoo Version anzeigen
+
+Rufen Sie die App *Einstellungen* auf. Scrollen Sie bis ans Ende. Im Abschnitt *Über* ist die Odoo Version ersichtlich:
+
+![](attachments/Odoo%20Version%20anzeigen.png)
+
 ## Odoo Online
 
 ### Datenbank herunterladen
