@@ -526,8 +526,28 @@ Das Modul [HR Holidays Working Time](HR%20Holidays%20Working%20Time.md) deaktivi
 
 ### Es kann kein Anwesenheitseintrag angelegt werden
 
-
+**Problem**
 
 ```
 Es kann kein neuer Anwesenheitseintrag für Mitchel Admin angelegt werden. Der Mitarbeiter ist seit 26.11.2024 02:00:00 angemeldet.
 ```
+
+**Lösung**
+
+Der Mitarbeitende hat einen nicht abgeschlossen Anwesenheitseintrag.
+
+## Kontakte
+
+### Der Datenbankabfrage fehlen IDs
+
+**Problem**
+
+Bei der Erstellung oder Bearbeitung eines Kontakts erscheint diese Fehlermeldung:
+
+```
+Der Datenbankabfrage fehlen IDs ((<NewId origin=29672>,)) und hat zusätzliche IDs ((29672,)), kann durch eine Typinkohärenz in einer früheren Abfrage verursacht worden sein
+```
+
+**Lösung**
+
+Prüfen die Fehlermeldung in den Entwicklertools des Browser. Sie sollte mehr Details zur Fehler-Rückverfolgung enthalten. Wenn automatische Server-Aktionen involviert sind, wird empfohlen diese zu deaktiveiren.
