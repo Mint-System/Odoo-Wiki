@@ -113,27 +113,36 @@ default_pricelist_id = env.ref("product.list0")
 for rec in records.filtered(lambda r: r.property_product_pricelist.id == default_pricelist_id.id):
   xml_id = ""
   if rec.backup_membership.lower() == "basic":
-    xml_id = "job_portal_sale.product_template_13"
-  if rec.backup_membership.lower() == "plus":
-    xml_id = "job_portal_sale.product_template_14"
+	  xml_id = "job_portal_sale.product_template_membership_basic"
+  if rec.backup_membership.lower() == "jobplus":
+    xml_id = "job_portal_sale.product_template_membership_plus"
     
   product = env.ref(xml_id, raise_if_not_found=False)
+  team = env.ref("__custom__.sale_team_membership")
   
   # raise UserError(product)
 
   if product:
+      # Check if a subscription sale order already exists for the partner
+      existing_sale_order = env["sale.order"].search([
+          ("partner_id", "=", rec.id),
+          ("state", "in", ["draft", "sent", "sale"]),
+          ("order_line.product_id", "=", product.product_variant_id.id),
+      ], limit=1)
 
-    sale_order = env["sale.order"].create({
-      "partner_id": rec.id,
-      "order_line": [(0,0,{
-        "product_id": product.product_variant_id.id,
-        "order_partner_id": rec.id,
-        "name": product.name,
-        "product_uom_qty": 1,
-        "price_unit": product.list_price,
-      })],
-      "recurrence_id": env.ref("sale_temporal.recurrence_yearly").id
-    })
-    sale_order.action_confirm()
-    sale_order.message_post(body="Dieser Verkaufsauftrag wurde automatisch erstellt und bestätigt.")
+      if not existing_sale_order:
+        sale_order = env["sale.order"].create({
+          "partner_id": rec.id,
+          "order_line": [(0,0,{
+            "product_id": product.product_variant_id.id,
+            "order_partner_id": rec.id,
+            "name": product.name,
+            "product_uom_qty": 1,
+            "price_unit": product.list_price,
+            "team_id": team.id
+          })],
+          "recurrence_id": env.ref("sale_temporal.recurrence_yearly").id
+        })
+        # sale_order.action_confirm()
+        # sale_order.message_post(body="Dieser Verkaufsauftrag wurde automatisch erstellt und bestätigt.")
 ```
