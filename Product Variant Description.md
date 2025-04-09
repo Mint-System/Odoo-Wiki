@@ -12,7 +12,7 @@ prev: ./product
 {{ $frontmatter.description }}
 
 Technischer Name: `product_variant_description`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/15.0/product_variant_description>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/17.0/product_variant_description>
 
 ## Verwendung
 

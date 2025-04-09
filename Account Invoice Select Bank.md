@@ -13,7 +13,7 @@ prev: ./invoicing
 {{ $frontmatter.description }}
 
 Technischer Name: `account_invoice_select_bank`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/account_invoice_select_bank>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/17.0/account_invoice_select_bank>
 
 ## Verwendung
 

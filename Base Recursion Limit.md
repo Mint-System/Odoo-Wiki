@@ -12,4 +12,4 @@ prev: ./base
 {{ $frontmatter.description }}
 
 Technischer Name: `base_recursion_limit`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/15.0/base_recursion_limit>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/17.0/base_recursion_limit>

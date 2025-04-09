@@ -12,7 +12,7 @@ prev: ./database
 {{ $frontmatter.description }}
 
 Technischer Name: `base_search_fuzzy`\
-Repository: <https://github.com/OCA/server-tools/tree/16.0/base_search_fuzzy>
+Repository: <https://github.com/OCA/server-tools/tree/17.0/base_search_fuzzy>
 
 ## Verwendung
 

@@ -12,7 +12,7 @@ prev: ./dashboards
 {{ $frontmatter.description }}
 
 Technischer Name: `mis_builder_cash_flow`\
-Repository: <https://github.com/OCA/account-financial-reporting/tree/16.0/mis_builder_cash_flow>
+Repository: <https://github.com/OCA/account-financial-reporting/tree/17.0/mis_builder_cash_flow>
 
 ## Verwendung
 

@@ -12,7 +12,7 @@ prev: ./dashboards
 {{ $frontmatter.description }}
 
 Technischer Name: `mass_editing`\
-Repository: <https://github.com/OCA/mis-builder/tree/16.0/mis_builder>
+Repository: <https://github.com/OCA/mis-builder/tree/17.0/mis_builder>
 
 ## Verwendung
 

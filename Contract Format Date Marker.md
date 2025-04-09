@@ -11,7 +11,7 @@ prev: ./contract
 {{ $frontmatter.description }}
 
 Technischer Name: `contract_format_date_marker`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Contract/tree/15.0/contract_format_date_marker>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Contract/tree/17.0/contract_format_date_marker>
 
 ## Verwendung
 
