@@ -50,6 +50,10 @@ prev: ./
 
 Öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und erstellen einen Eintrag mit *Schlüssel* und *Wert*.
 
+### Systemparameter bearbeiten
+
+Öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und suchen Sie nach einem Eintrag anhand des *Schlüssels*. Bearbeiten Sie den *Wert* des Parameter im gleichnamigen Feld.
+
 ### Developer API Key generieren
 
 Damit Software von Dritten Zugriff auf die Daten von Odoo hat, ohne dass dabei das Passwort eines Benutzers geteilt werden muss, kann man einen Zugriffsschlüssel bereitstellen.

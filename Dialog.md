@@ -34,6 +34,7 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 | [Mail Debrand](Mail%20Debrand.md)                                                        | Odoo Promotion aus E-Mail-Vorlagen entfernen.                            |
 | [Mail No Autofollow](Mail%20No%20Autofollow.md)                                          | Beim Erstellen von Nachrichten erfolgt keine automatische Abonnierung.   |
 | [Mail Optional Follower Notification](Mail%20Optional%20Follower%20Notification.md)      | Auswahl Nachrichen an Abonnenten verschicken.                            |
+| [Mail Restrict Follower Selection](Mail%20Restrict%20Follower%20Selection.md)            | Auswahl der Follower einschränken.                                       |
 | [Mail Show Follower](Mail%20Show%20Follower.md)                                          | CC-Hinweis in E-Mail-Header einfügen.                                    |
 | [Mail Template Subscribe](Mail%20Template%20Subscribe.md)                                | Beim Versenden einer Nachricht Kontakte gemäss Domain-Filter abonnieren. |
 | [Mail Thread Context](Mail%20Thread%20Context.md)                                        | Automatisches Abonnieren deaktiveren.                                    |
