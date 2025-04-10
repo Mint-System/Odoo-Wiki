@@ -580,6 +580,7 @@ export default [
           "mail-debrand.md",
           "mail-no-autofollow.md",
           "mail-optional-follower-notification.md",
+          "mail-restrict-follower-selection.md",
           "mail-show-follower.md",
           "mail-template-subscribe.md",
           "mail-thread-context.md",
@@ -1260,6 +1261,15 @@ export default [
           "sync-transformer-helper.md",
           "sync-trigger-methods.md",
           "web-sync.md"
+        ]
+      },
+      {
+        "text": "Mint Cloud",
+        "collapsible": true,
+        "children": [
+          "helm.md",
+          "kubectl",
+          "website-sale-helm.md"
         ]
       }
     ]

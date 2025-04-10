@@ -366,6 +366,20 @@ Für jedes Journal ist definiert welche Konto als Liquiditäts-Konten verwendet 
 
 Korrigieren Sie die verfügbaren Konten in den Journalkonfigurationen.
 
+### Journalbuchung muss ein Fälligkeitsdatum haben
+
+**Problem**
+
+Wenn Sie eine Lieferantrechnung  buchen wollen erscheint diese Fehlermeldung:
+
+```
+Jede Journalbuchung in einem Kreditorenkonto muss ein Fälligkeitsdatum haben und umgekehrt.
+```
+
+**Lösung**
+
+Prüfen Sie den Typ des Kreditoren-Kontos. Dieser muss auf *Verbindlichkeit* sein.
+
 ## Personalabrechnung
 
 ### Batch in Personalabrechnung kann nicht abgeschlossen werden
