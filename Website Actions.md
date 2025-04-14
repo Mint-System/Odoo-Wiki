@@ -46,7 +46,7 @@ last_week = datetime.datetime.now().date() - datetime.timedelta(days=7)
 
 delete_cart_ids = env["sale.order"].search([
     ("partner_id", "=", "Public user"),
-    ("validity_date", "<=", last_week),
+    ("date_order", "<=", last_week),
     ("state", "=", "draft"),
 ])
 log("Delete sale order carts: %s" %  delete_cart_ids.mapped("name"), level='info')
