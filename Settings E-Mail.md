@@ -98,6 +98,10 @@ Unter *Einstellungen > Dialog > Externe E-Mail-Server* aktivieren Sie das Featur
 
 ### Eingehender Mail-Server Office 365 konfigurieren
 
+::: tip
+Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+:::
+
 Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen:
 
 * **Beschreibung**: Office 365 Incoming
@@ -131,6 +135,10 @@ Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladun
 :::
 
 ### Ausgehender Mail-Server Office 365 konfigurieren
+
+::: tip
+Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+:::
 
 Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen:
 
@@ -233,6 +241,10 @@ Odoo bounced die E-Mail, wenn diese direkt an den Catchall- oder den Bounce-Alia
 Sie müssen den [Catchall-Alias anpassen](#Catchall-Alias%20anpassen) oder den [Bounce-Alias anpassen](#Bounce-Alias%20anpassen), damit die E-Mail nicht gebounced wird.
 
 ### Weitergeleitetes Mail via Exchange wird von Odoo nicht verarbeitet
+
+::: tip
+Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+:::
 
 **Problem**
 

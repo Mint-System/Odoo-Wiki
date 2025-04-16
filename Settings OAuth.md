@@ -14,6 +14,10 @@ prev: ./settings
 
 ### Odoo als OAuth-App auf Azure registrieren
 
+::: tip
+Wir empfehlen Produkte von [Infomaniak](https://www.infomaniak.com/goto/de/home?utm_term=67ff9acbaabca) anstatt Microsoft zu verwenden.
+:::
+
 Damit sich Odoo-Benutzer den OAuth-Authorisierungsflow mit Azure abwickeln können, muss Odoo auf Azure registriert werden.
 
 Klicken Sie auf <https://portal.azure.com/> um in das Azure-Portal zu gelangen. Navigieren Sie nach *Microsoft Entra ID > App-Registrierungen* und erstellen Sie eine neue App mit *Neue Registrierung*.
@@ -77,6 +81,10 @@ Für diese Werte müssen Sie in Odoo zwei [Systemparameter anlegen](Development.
 ## Verwendung
 
 ### Outlook OAuth-Verbindung einrichten
+
+::: tip
+Wir empfehlen Produkte von [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hosting.mail?utm_term=67ff9acbaabca) anstatt Outlook zu verwenden.
+:::
 
 Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server*. Markieren Sie den Eintrag *Outlook* auf dem Mail-Server. Klicken Sie auf *Connect your Outlook account* und loggen Sie sich mit dem Postfach-Benutzer ein.
 

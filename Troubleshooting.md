@@ -129,6 +129,10 @@ Prüfen Sie die Systemparameter und stellen Sie sicher sich, dass die Schlüssel
 
 ### Office 365 SMTP-Auth deaktiviert
 
+::: tip
+Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+:::
+
 **Problem**
 
 Beim Testen der SMTP-Verbindung mit Office 365 erscheint dieser Fehler:
@@ -167,6 +171,10 @@ Konfigurieren Sie den ausgehenden E-Mail-Server mit einem Anbieter, der eine hö
 
 ### Office 365 Zugangstoken abgelaufen
 
+::: tip
+Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+:::
+
 **Problem**
 
 E-Mails können nicht versendet werden. Als Fehlerursache werden folgende Angaben gemacht:
@@ -186,6 +194,10 @@ Das Client-Secret der Azure-App ist abglaufen.
 Erstellen Sie ein neues Client-Secret und speichern Sie es in den Odoo EInstellungen.
 
 ### Office 365 Refreshtoken abgelaufen
+
+::: tip
+Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+:::
 
 **Problem**
 
