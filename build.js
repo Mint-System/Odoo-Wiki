@@ -111,8 +111,8 @@ function convert(content,file) {
 
     // convert markdown links
     // [Title](Content.md#link to heading) -> [Title](Content.html#link-to-heading)
-    // Ignore [![Title](Link)](Link) and ![title](attachments/Image.png)
-    const mdLink = /(?<!!)(\[(?!!).+\])(\(.+[.md#|\.md].+?\))/g
+    // Ignore [![Title](Link)](Link) and ![title](attachments/Image.png) and [title](https:)
+    const mdLink = /(?<!!)(\[(?!!).+\])(\((?!https:).+[.md#|\.md].+?\))/g
     const mdHref = /.+\]\(([^\)|#]*)/
     const mdTitle = /\[(.*)\]\(/
     const mdAnchor = /#(.*)\)/
@@ -348,7 +348,7 @@ if (!firstArg || ['all', 'convert'].indexOf(firstArg) >= 0) {
             '[📝 Edit on GitHub](' + gitUrl + file.replace(/\s+/g, '%20') + ')',
             '\n\n',
             '<footer>',
-            'Copyright © <a href="https://www.mint-system.ch/">Mint System GmbH</a>',
+            'This page is maintained by © <a href="https://www.mint-system.ch/">Mint System GmbH</a>',
             '</footer>'
         ].join('')
   
