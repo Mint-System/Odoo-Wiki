@@ -428,7 +428,7 @@ Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Akt
 * **Folgeaktion**: Den Datensatz aktualisieren
 * **Zu schreibende Daten**:
 
-| Feld      | Bewertungstyp | Datensatz       |
-| --------- | ------------- | --------------- |
-| `team_id` | Referenz      | Digitalisierung |
+| Feld      | Bewertungstyp | Datensatz        |
+| --------- | ------------- | ---------------- |
+| `team_id` | Referenz      | Mitgliedschaften |
 	
