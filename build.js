@@ -348,7 +348,7 @@ if (!firstArg || ['all', 'convert'].indexOf(firstArg) >= 0) {
             '[📝 Edit on GitHub](' + gitUrl + file.replace(/\s+/g, '%20') + ')',
             '\n\n',
             '<footer>',
-            'This page is maintained by © <a href="https://www.mint-system.ch/">Mint System GmbH</a>',
+            'This page is maintained by <a href="https://www.mint-system.ch/">Mint System GmbH</a>',
             '</footer>'
         ].join('')
   
