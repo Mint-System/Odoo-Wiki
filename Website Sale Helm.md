@@ -1,6 +1,6 @@
 ---
 title: Website Sale Helm
-description: Kubernetes-Konfigurationen verwalten.
+description: Services über Webshop verkaufen.
 tags:
 - HowTo
 prev: ./mint-cloud
