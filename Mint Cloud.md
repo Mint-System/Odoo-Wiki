@@ -17,7 +17,7 @@ Website: <https://wiki.mint-system.ch/odoo-hosting-mint-cloud.html>
 | Erweiterung                                   | Beschreibung                                 |
 | --------------------------------------------- | -------------------------------------------- |
 | [Helm](Helm.md)                               | Helm-Repos und Charts deployen.              |
-| [Sale Helm](Sale%20Helm.md)                   | Bei Verkauf einen Helm-Release installieren. |
+| [Sale Helm](Sale%20Helm.md)                   | Bei Verkauf ein Helm-Release installieren. |
 | [Website Sale Helm](Website%20Sale%20Helm.md) | Services über Webshop verkaufen.             |
 | [kubectl](kubectl)                            | Kubernetes-Konfigurationen verwalten.        |
 
