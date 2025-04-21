@@ -6,7 +6,7 @@ tags:
 prev: ./mint-cloud
 ---
 # Helm
-![icon_oms_box](attachments/icons_odoo_mint_system.png)
+![](attachments/odoo_icons_helm.png)
 
 {{ $frontmatter.description }}
 
