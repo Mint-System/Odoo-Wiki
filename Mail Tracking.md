@@ -16,6 +16,12 @@ Repository: <https://github.com/OCA/social/tree/17.0/mail_tracking>
 
 ## Verwendung
 
+### Nachrichten-Status im Chatter anzeigen
+
+Wenn Sie aus dem Chatter eine Nachricht versendet haben, können Sie den Tracking-Status anzeigen. Klicken Sie dazu im Chatter bei der Nachricht auf das Häckchen neben dem Empfänger.
+
+![](attachments/Mail%20Tracking%20Status.png)
+
 ### Status von verfolgten E-Mails anzeigen
 
 Navigieren Sie nach *Einstellungen > Technisch > E-Mails > Tracking emails*. Hier erhalten Sie eine Liste der Statis aller verfolgten E-Mails.

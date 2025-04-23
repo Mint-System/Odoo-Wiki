@@ -34,7 +34,7 @@ Angenommen Sie geben als Wert `erp` ein, so ist die resultierende Absender-Aress
 
 Gilt ab #Odoo17.
 
-Im Entwicklermodus navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und öffnen Sie den Eintrag bei *Alias-Domain*. Im Feld *Catchall-Alias* geben Sie den gewünschten Wert ein.
+Im Entwicklermodus navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und öffnen Sie den Eintrag bei *Alias-Domain*. Im Feld *Catchall-Alias* geben Sie den gewünschten Wert ein.
 
 ::: tip
 Eine Liste von Mail-Provider und ob diese die *catchall* und *no-reply* E-Mail-Aliase erlauben:
@@ -54,7 +54,7 @@ Falls Sie den Bounce-Alias ändern möchten, öffnen Sie *Einstellungen > Techni
 
 Gilt ab #Odoo17.
 
-Im Entwicklermodus navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und öffnen Sie den Eintrag bei *Alias-Domain*. Im Feld *Zuzustellbarkeitsalias* geben Sie den gewünschten Wert ein.
+Im Entwicklermodus navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und öffnen Sie den Eintrag bei *Alias-Domain*. Im Feld *Zuzustellbarkeitsalias* geben Sie den gewünschten Wert ein.
 
 ### Allgemeine Absender-Adresse festlegen
 
