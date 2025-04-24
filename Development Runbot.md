@@ -20,7 +20,7 @@ Auf Odoo Runbot <https://runbot.odoo.com> stehen die Testumgebungen von Odoo S.A
 
 ## Verwendung
 
-### Auf einer Odoo Runbot Datenbank einloggen
+### Auf Odoo Runbot Testumgebung einloggen
 
 Rufen Sie Sie Website <https://runbot.odoo.com> auf und bestimmen Sie die Odoo Version, welche Sie testen möchten. Navigieren Sie zur entsprechenden Zeile und suchen Sie einen grünen Build. 
 

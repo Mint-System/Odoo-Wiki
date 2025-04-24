@@ -22,7 +22,7 @@ Auf Runboat stehen die Testumgebungen der Odoo Community Association (OCA) zur V
 
 ## Verwendung
 
-### Auf einer Odoo Runboat Datenbank einloggen
+### Auf Odoo Runboat Testumgebung einloggen
 
 Für jedes OCA-Repository und jede Odoo Version gibt es eine Runboat-Ansicht. Wählen Sie ein Repository unter <https://github.com/OCA/> aus und klicken sie auf den entsprechenden Branch. Als Beispiel verwenden wir <https://github.com/OCA/sale-workflow/tree/17.0>.
 
