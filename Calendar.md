@@ -16,6 +16,12 @@ prev: ./
 | ------------------------------------------- | --------------------------------- |
 | [Kalender Aktionen](Calendar%20Actions.md) | Kalender-Prozesse automatisieren. |
 
+## Erweiterungen
+
+| Erweiterung                     | Beschreibung                              |
+| ------------------------------- | ----------------------------------------- |
+| [CalDAV Sync](CalDAV%20Sync.md) | Odoo Kalender mit CalDav synchronisieren. |
+
 ## Konfiguration
 
 ### Outlook-Kalender-Synchronisation aktivieren
