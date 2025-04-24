@@ -12,6 +12,10 @@ prev: ./development
 
 ## Beschreibung
 
+::: warning
+Nicht zu verwechseln mit [Entwicklung Runboat](Development%20Runboat.md).
+:::
+
 Auf Odoo Runbot <https://runbot.odoo.com> stehen die Testumgebungen von Odoo S.A. zur Verfügung. Für jeden Commit auf den Version-Branches (15.0, 16.0, 17.0, ...) wird eine Odoo-Build generiert.
 
 ## Verwendung
