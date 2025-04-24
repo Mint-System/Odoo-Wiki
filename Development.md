@@ -20,7 +20,8 @@ prev: ./
 | [Entwicklung Buchhaltung](Entwicklung%20Buchhaltung.md) | Buchhaltungs-Berichte anpassen und erweitern.               |
 | [Entwicklung Datenmodelle](Development%20Models.md)     | Odoo Datenmodell erweitern.                                 |
 | [Entwicklung Performance](Development%20Performance.md) | Performance-Probleme analysieren.                           |
-| [Entwicklung Runbot](Development%20Runbot.md)           | Odoo Testumgebungen.                                        |
+| [Entwicklung Runboat](Development%20Runboat.md)         | Testumgebungen der Odoo Community Association .             |
+| [Entwicklung Runbot](Development%20Runbot.md)           | Testumgebungen von Odoo S.A.                                |
 | [Entwicklung Snippets](Development%20Snippets.md)       | Einfache Anpassungen mit den Mint System Snippets umsetzen. |
 | [Entwicklung Website](Development%20Website.md)         | Website-Templates anpassen und erweitern.                   |
 

@@ -12,7 +12,7 @@ prev: ./development
 
 ## Beschreibung
 
-Auf Odoo Runbot <https://runbot.odoo.com> stehen die Entwicklungsumgebungen von Odoo S.A. zur Verfügung. Für jeden Commit auf den Version-Branches (15.0, 16.0, 17.0, ...) wird eine Odoo-Build generiert.
+Auf Odoo Runbot <https://runbot.odoo.com> stehen die Testumgebungen von Odoo S.A. zur Verfügung. Für jeden Commit auf den Version-Branches (15.0, 16.0, 17.0, ...) wird eine Odoo-Build generiert.
 
 ## Verwendung
 
