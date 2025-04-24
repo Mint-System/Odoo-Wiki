@@ -14,7 +14,7 @@ Statt die Aufträge oder den Verkaufsbericht zu verwenden, empfehlen wir die Auf
 
 Standardmässig sind Auftragszeilen nicht sichtbar, Sie müssen dazu das HowTo [Auftragszeilen anzeigen](Sale.md#Auftragszeilen%20anzeigen) ausführen.
 
-In der entsprechenden Ansicht können Sie einen [Filter manuell anlegen](Develpment%20Views.md#Filter%20manuell%20anlegen). Diese Filter bzw. Auswertungen sind unter den Favoriten verfügbar. Mit [Ansicht zu Dashboard hinzufügen](Dashboards.md#Ansicht%20zu%20Dashboard%20hinzufügen) kann die gefilterte Ansicht zum Dashboard hinzgefügt werden.
+In der entsprechenden Ansicht können Sie einen [Filter manuell anlegen](Development%20Views.md#Filter%20manuell%20anlegen). Diese Filter bzw. Auswertungen sind unter den Favoriten verfügbar. Mit [Ansicht zu Dashboard hinzufügen](Dashboards.md#Ansicht%20zu%20Dashboard%20hinzufügen) kann die gefilterte Ansicht zum Dashboard hinzgefügt werden.
 
 Als Einstieg können Sie diese Auswertungen erstellen:
 

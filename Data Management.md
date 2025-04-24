@@ -99,7 +99,7 @@ In der Listenansicht können Datensätze ausgewählt und als Sammelmutation geä
 
 ### Importzuordnung anzeigen
 
-Damit Sie eine Übersicht der Importzuordnung erhalten, erstellen Sie als erstes eine neue Ansicht gemäss [Ansicht erstellen](Develpment%20Views.md#Ansicht%20erstellen) mit diesen Angaben:
+Damit Sie eine Übersicht der Importzuordnung erhalten, erstellen Sie als erstes eine neue Ansicht gemäss [Ansicht erstellen](Development%20Views.md#Ansicht%20erstellen) mit diesen Angaben:
 
 Ansichtsbezeichnung: `mint_system.base_import.mapping.tree`
 Modell: `base_import.mapping`\

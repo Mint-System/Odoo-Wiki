@@ -15,7 +15,7 @@ prev: ./
 | Bereich                                                 | Beschreibung                                                |
 | ------------------------------------------------------- | ----------------------------------------------------------- |
 | [Entwicklung Aktionen](Development%20Actions.md)        | Eigene Odoo Aktionen erstellen.                             |
-| [Entwicklung Ansichten](Develpment%20Views.md)          | Odoo Ansichten anpassen.                                    |
+| [Entwicklung Ansichten](Development%20Views.md)          | Odoo Ansichten anpassen.                                    |
 | [Entwicklung Berichte](Development%20Reports.md)        | Eigene Berichte mit QWeb erstellen.                         |
 | [Entwicklung Buchhaltung](Entwicklung%20Buchhaltung.md) | Buchhaltungs-Berichte anpassen und erweitern.               |
 | [Entwicklung Datenmodelle](Development%20Models.md)     | Odoo Datenmodell erweitern.                                 |

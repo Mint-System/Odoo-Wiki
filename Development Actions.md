@@ -181,7 +181,7 @@ if record:
 
 Speichern Sie die Serveraktion und zeigen Sie die [Metadaten an](Development.md#Metadaten%20anzeigen). Notieren Sie sich die *ID* des Datensatzes.
 
-Als nächtes müssen Sie die [Formularansicht bearbeiten](Develpment%20Views.md#Formularansicht%20bearbeiten) und ein [Snippet hinzufügen](Development%20Snippets.md#Snippet%20hinzufügen) um diesen Knopf einzufügen:
+Als nächtes müssen Sie die [Formularansicht bearbeiten](Development%20Views.md#Formularansicht%20bearbeiten) und ein [Snippet hinzufügen](Development%20Snippets.md#Snippet%20hinzufügen) um diesen Knopf einzufügen:
 
 ```xml
 <button name="$ID" type="action" string="Compose E-Mail"/>
