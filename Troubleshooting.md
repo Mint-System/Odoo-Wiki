@@ -139,7 +139,7 @@ Die E-Mails im Office 365 Odoo Postfach werden nicht abgeraufen. Bei Erneuerung 
 
 **Lösung**
 
-Erstellen Sie ein neues Client-Secret und speichern Sie es in den Odoo EInstellungen.
+Erstellen Sie gemäss [Azure OAuth-App Client-Secret neu erstellen](Settings%20OAuth.md#Azure%20OAuth-App%20Client-Secret%20neu%20erstellen) ein neues Client-Secret und speichern Sie es in den Odoo EInstellungen.
 
 ### Office 365 SMTP-Auth deaktiviert
 
@@ -205,7 +205,7 @@ Das Client-Secret der Entra-App ist abglaufen.
 
 **Lösung**
 
-Erstellen Sie ein neues Client-Secret und speichern Sie es in den Odoo EInstellungen.
+Erstellen Sie gemäss [Azure OAuth-App Client-Secret neu erstellen](Settings%20OAuth.md#Azure%20OAuth-App%20Client-Secret%20neu%20erstellen) ein neues Client-Secret und speichern Sie es in den Odoo EInstellungen.
 
 ### Office 365 Refreshtoken abgelaufen
 
