@@ -30,6 +30,7 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 | [Purchase Order Line Price Default](Purchase%20Order%20Line%20Price%20Default.md)       | Standardpreis einer Einkaufsposition überschreiben.                                       |
 | [Purchase Order Line Relay Price](Purchase%20Order%20Line%20Relay%20Price.md)           | Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den Verkäufter. |
 | [Purchase Order Notes](Purchase%20Order%20Notes.md)                                     | Einkaufsaufträge mit Notizfelder.                                                         |
+| [Purchase Order Owner](Purchase%20Order%20Owner.md)                                     | Besitzer für Bestellungen festlegen.                                                      |
 | [Purchase Order Partner Incoterm](Purchase%20Order%20Partner%20Incoterm.md)             | Für jedem Partner die Incoterms festlegen.                                                |
 | [Purchase Order Partner Shipping](Purchase%20Order%20Partner%20Shipping.md)             | Alternative Lieferadresse für Bestellungen.                                               |
 | [Purchase Order Subscription](Purchase%20Order%20Subscription.md)                       | Wiederkehrende Bestellungen verwalten.                                                    |
