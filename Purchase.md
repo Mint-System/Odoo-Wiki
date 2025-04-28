@@ -22,7 +22,7 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 
 | Erweiterung                                                                             | Beschreibung                                                                              |
 | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| [Pruchase Order Line Position](Purchase%20Order%20Line%20Position.md)                   | Einkaufsaufträge mit Positionsnummern.                                                    |
+| [Purchase Order Line Position](Purchase%20Order%20Line%20Position.md)                   | Einkaufsaufträge mit Positionsnummern.                                                    |
 | [Purchase Order Address](Purchase%20Order%20Address.md)                                 | Bestelladresse von Kunden auf Angebotsanfrage gespeichert.                                |
 | [Purchase Order Comment](Purchase%20Order%20Comment.md)                                 | Kommentar-Feld für Einkaufsaufträge.                                                      |
 | [Purchase Order Line Date](Purchase%20Order%20Line%20Date.md)                           | Lieferdatum im Wareneingang automatisch nachtragen.                                       |
