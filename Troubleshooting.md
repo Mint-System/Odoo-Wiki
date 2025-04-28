@@ -121,11 +121,25 @@ Antworten auf E-Mails, die mit Odoo versendet werden, werden von Odoo nicht vera
 
 **Ursache**
 
-Werden die ausgehenden E-Mail Server bearbeitet oder zurückgesetzt, werden in den Systemparameter die Einstellungen für den Mail-Alias verändert.
+Wenn die ausgehenden E-Mail Server bearbeitet oder zurückgesetzt werden, werden in den Systemparameter die Einstellungen für den Mail-Alias verändert.
 
 **Lösung**
 
 Prüfen Sie die Systemparameter und stellen Sie sicher sich, dass die Schlüssel `mail.catchall.domain` und `mail.catchall.alias` festgelegt sind.
+
+### Eingehende Office 365 Mails werden nicht verarbeitet
+
+**Problem**
+
+Die E-Mails im Office 365 Odoo Postfach werden nicht abgeraufen. Bei Erneuerung des Zugriffs-Token erscheint diese Fehlermeldung:
+
+```
+ Beim Abrufen des Zugriffstokens ist ein Fehler aufgetreten. AADSTS7000222: The provided client secret keys for app 'a06c1e36-dd3f-4240-94d1-1bb4dd78a5fa' are expired. Visit the Azure portal to create new keys for your app: https://aka.ms/NewClientSecret, or consider using certificate credentials for added security: https://aka.ms/certCreds. Trace ID: dbf54f8e-c294-4b29-bc08-2f4e66153f00 Correlation ID: c275ea40-8426-45cd-917d-04c812744798 Timestamp: 2025-04-28 06:18:12Z 
+```
+
+**Lösung**
+
+Erstellen Sie ein neues Client-Secret und speichern Sie es in den Odoo EInstellungen.
 
 ### Office 365 SMTP-Auth deaktiviert
 
@@ -185,7 +199,7 @@ Beim Abrufen des Zugangstokens ist ein Fehler aufgetreten. AADSTS7000222: The pr
 
 **Ursache**
 
-Das Client-Secret der Azure-App ist abglaufen.
+Das Client-Secret der Entra-App ist abglaufen.
 
 ![](attachments/Office%20365%20Token%20abgelaufen.png)
 
