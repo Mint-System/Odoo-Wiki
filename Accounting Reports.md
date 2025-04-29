@@ -30,7 +30,11 @@ Ein Jahresauszug einer Buchhaltung kann mehrere hundert Seiten produzieren. Beim
 
 ### Kontenblatt erstellen
 
-Öffnen Sie  *Buchhaltung > Berichtswesen > Hauptbuch* und geben Sie in der Suchmaske die Kontonummer ein. Wählen Sie in der Filterleiste *Alle auffalten* und filtern Sie die Buchungszeilen nach Geschäftsjahr. Mit der Aktion *Vorschau Drucken* oder *Speichern* erhalten Sie eine PDF-Datei der Ansicht.
+Öffnen Sie  *Buchhaltung > Berichtswesen > Hauptbuch*. Geben Sie in der Suchmaske optional ein Kontonummer ein und filtern Sie die Buchungszeilen nach Geschäftsjahr. Wählen Sie in der Filterleiste *Alle auffalten*. Mit der Aktion *PDF* oder *XLSX* können Sie den Bericht als entsprechende Datei speichern.
+
+::: warning
+Die Erstellung der PDF-Datei kann bei umfangreichen Kontenblätter lange dauern. Als Alternative wird empfohlen den Bericht als XLSX-Datei zu speichern und anschliessend als PDF-Datei abzuspeichern.
+:::
 
 ### Kumulierte Buchungszeilen anzeigen
 
@@ -38,7 +42,7 @@ Ein Jahresauszug einer Buchhaltung kann mehrere hundert Seiten produzieren. Beim
 
 ![](attachments/Buchhaltung%20Berichte%20Saldenliste.png)
 
-:::
+::: tip
 Das Feld *Cumulated Balance* kumuliert fortlaufend das Saldo. Sie können das Feld über das Kontext-Menü ein- und ausblenden.
 :::
 
