@@ -8,7 +8,7 @@ prev: ./website-e-commerce
 ---
 
 # Meilisearch Base
-![icon_oms_box](attachments/icons_odoo_mint_system.png)
+![](attachments/icons_odoo_meiliserch_base.png)
 
 {{ $frontmatter.description }}
 
