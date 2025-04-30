@@ -32,7 +32,7 @@ prev: ./
 * 📊: Graph-Ansicht
 * 📋: Listen-Ansicht
 
-Dies ist ein Indikator, welcher Ansichtstyp verwerden werden muss, damit der Favorit korrekt dargestellt wird.
+Dies ist ein Indikator, welcher Ansichtstyp verwendet werden muss, damit der Favorit korrekt dargestellt wird.
 
 Legen Sie fest, ob der Favorit als Standard verwendet werden soll und ob dieser allen Benutzer zur Verfügung steht.
 
@@ -40,7 +40,7 @@ Legen Sie fest, ob der Favorit als Standard verwendet werden soll und ob dieser 
 
 Gilt bis #Odoo15.
 
-Jede Odoo-Ansicht mit oder ohne aktive Filter kann auf dem Dahsboard gespeichert werden. Navigieren Sie auf eine beliebige Ansicht, Filtern Sie die Daten und anschliessend wählen Sie *Favoriten > Zu meinem Dashboard hinzüfgen*. Geben Sie einen Namen und schliessend den Vorgang mit *Hinzufügen* ab. Laden Sie den Browser-Tab neu und öffnen Sie *Dashboard*.
+Jede Odoo-Ansicht mit oder ohne aktive Filter kann auf dem Dashboard gespeichert werden. Navigieren Sie auf eine beliebige Ansicht, Filtern Sie die Daten und anschliessend wählen Sie *Favoriten > Zu meinem Dashboard hinzufügen*. Geben Sie einen Namen und schliessen den Vorgang mit *Hinzufügen* ab. Laden Sie den Browser-Tab neu und öffnen Sie *Dashboard*.
 
 ![Dashboards Beispiel Speichern](attachments/Dashboards%20Beispiel%20Speichern.gif)
 
@@ -48,7 +48,11 @@ Jede Odoo-Ansicht mit oder ohne aktive Filter kann auf dem Dahsboard gespeichert
 
 Sie können jeden HTTP-Link auf der Startseite von Odoo hinzufügen. Öffnen Sie dazu *Einstellungen > Technisch > Menüposten* und legen Sie einen Menüposten vom Typ *ir.actions.act_url* an.
 
+<<<<<<< HEAD
 ![Externer Link auf Startseite hinzufüge](attachments/Externer%20Link%20auf%20Startseite%20hinzufügen.gif)
+=======
+![Externer Link auf Startseite hinzufügen](attachments/Externer%20Link%20auf%20Startseite%20hinzufüge.gif)
+>>>>>>> origin/main
 
 ## Entwicklung
 
