@@ -38,6 +38,8 @@ Legen Sie fest, ob der Favorit als Standard verwendet werden soll und ob dieser 
 
 ### Ansicht zu Dashboard hinzufügen
 
+Gilt bis #Odoo15.
+
 Jede Odoo-Ansicht mit oder ohne aktive Filter kann auf dem Dashboard gespeichert werden. Navigieren Sie auf eine beliebige Ansicht, Filtern Sie die Daten und anschliessend wählen Sie *Favoriten > Zu meinem Dashboard hinzufügen*. Geben Sie einen Namen und schliessen den Vorgang mit *Hinzufügen* ab. Laden Sie den Browser-Tab neu und öffnen Sie *Dashboard*.
 
 ![Dashboards Beispiel Speichern](attachments/Dashboards%20Beispiel%20Speichern.gif)
