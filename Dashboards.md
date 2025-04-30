@@ -48,7 +48,7 @@ Jede Odoo-Ansicht mit oder ohne aktive Filter kann auf dem Dahsboard gespeichert
 
 Sie können jeden HTTP-Link auf der Startseite von Odoo hinzufügen. Öffnen Sie dazu *Einstellungen > Technisch > Menüposten* und legen Sie einen Menüposten vom Typ *ir.actions.act_url* an.
 
-![Externer Link auf Startseite hinzufüge](attachments/Externer%20Link%20auf%20Startseite%20hinzufüge.gif)
+![Externer Link auf Startseite hinzufüge](attachments/Externer%20Link%20auf%20Startseite%20hinzufügen.gif)
 
 ## Entwicklung
 
