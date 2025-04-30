@@ -425,6 +425,7 @@ Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Akt
 * **Modell**: `sale.order`
 * **Auslöser**: Bei Erstellung und Aktualisierung
 * **Auslöser-Feld**: `recurrence_id`
+* **Auzuwenden auf**: `[("recurrence_id", "!=", False)]`
 * **Folgeaktion**: Den Datensatz aktualisieren
 * **Zu schreibende Daten**:
 
