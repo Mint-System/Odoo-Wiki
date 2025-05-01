@@ -176,7 +176,7 @@ Ansichtsmodus: `tree,form,pivot`\
 Menü: `Auftragszeilen`\
 Obermenü: `Verkauf/Aufträge`\
 Aktion: `ir.actions.act_window` `Auftragszeilen`\
-Nummernfolge: `2`
+Nummernfolge: `50`
 
 Das Ergebnis sollte so aussehen:
 
@@ -191,7 +191,7 @@ Damit Sie eine Übersicht der Verkaufsauftragszeilen erhalten, folgen Sie dem Ho
 Menü: `Verkaufsauftragszeilen`\
 Obermenü: `Verkauf/Aufträge`\
 Aktion: `ir.actions.act_window` `Verkaufsauftragszeilen`\
-Sequenz: 25
+Sequenz: `50`
 
 ## Kontakte
 
