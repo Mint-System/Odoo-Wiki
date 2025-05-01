@@ -10,6 +10,12 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
+## Erweiterungen
+
+| Erweiterung                                 | Beschreibung                                              |
+| ------------------------------------------- | --------------------------------------------------------- |
+| [Sale Stock Owner](Sale%20Stock%20Owner.md) | Kunde als Besitzer an Lieferungen und Beständen zuordnen. |
+
 ## Konfiguration
 
 ### Lagerroute für Verkaufsauftrag erlauben
