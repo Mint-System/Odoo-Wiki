@@ -24,4 +24,4 @@ Wenn die Lieferung bestätigt wird, wird bei der Anpassung des Bestandes im Abga
 
 Der Eigentümer des Bestands im Kundenlager bleibt erhalten.
 
-![](attachments/Sale%20Stock%20Owner%20Partzner%20Location.png)
+![](attachments/Sale%20Stock%20Owner%20Customer%20Location.png)
