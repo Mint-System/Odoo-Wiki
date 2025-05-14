@@ -116,7 +116,7 @@ Um die Arbeitszeiten für einen Mitarbeitenden auf dem Arbeitsvertrag festzulege
 
 ### Arbeitspensum wechseln
 
-Um das Pensum eines Mitarbeiten zu wechseln, muss ein Endatum für die bestehenden Arbeitszeiten eingetragen werden und die neuen Arbeitszeiten werden darunte erfasst.
+Um das Pensum eines Mitarbeiten zu wechseln, muss ein Enddatum für die bestehenden Arbeitszeiten eingetragen werden und die neuen Arbeitszeiten werden darunter erfasst.
 
 Erstellen Sie eine neues Pensum *Personal > Mitarbeiter auswählen > Tab Arbeitsinformation > Ausführungsplan > Anlegen und Bearbeiten*. Definieren Sie einen passenden Titel und legen Sie bei den bestehenden Arbeitszeiten das Enddatum fest.
 
