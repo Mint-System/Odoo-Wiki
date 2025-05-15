@@ -132,6 +132,10 @@ Rufen Sie die App *Einstellungen* auf. Scrollen Sie bis ans Ende. Im Abschnitt *
 
 ![](attachments/Odoo%20Version%20anzeigen.png)
 
+### Dateianhänge anzeigen
+
+In der Odoo-Datenbank werden Referenzen auf Dateien gespeichert. Navigieren Sie nach *Einstellungen > Technisch > Datenbankstruktur > Dateianhänge*. Wählen Sie einen Dateianhang aus. Sie können die Datei herunterladen und sofern mit einer Ressource verknüpft auf das entsprechende Dokument zugeifen. 
+
 ## Odoo Online
 
 ### Datenbank herunterladen
