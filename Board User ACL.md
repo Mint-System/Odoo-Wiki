@@ -1,8 +1,8 @@
 ---
 title: Board User ACL
 description: Zugriffsrechte auf Dashboards festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./dashboards
 ---

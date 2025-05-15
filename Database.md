@@ -1,8 +1,7 @@
 ---
 title: Datenbank
 description: Odoo Datenbanken verwalten.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Datenbank

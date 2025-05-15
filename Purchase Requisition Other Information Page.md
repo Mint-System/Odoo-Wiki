@@ -1,8 +1,8 @@
 ---
 title: Purchase Requisition Other Information Page
 description: Fügt einen "Weitere Informationen" Tab der Formularansicht hinzu.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase-requisition
 ---

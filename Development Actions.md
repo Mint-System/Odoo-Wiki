@@ -1,9 +1,9 @@
 ---
 title: Entwicklung Aktionen
 description: Eigene Odoo Aktionen erstellen.
+kind: howto
 tags:
-- HowTo
-- Aktionen
+- Actions
 prev: ./development
 ---
 # Entwicklung Aktionen

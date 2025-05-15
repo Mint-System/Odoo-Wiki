@@ -1,8 +1,8 @@
 ---
 title: Server Config Environment
 description: Umgebungen für die Server-Konfiguration definieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./base
 ---

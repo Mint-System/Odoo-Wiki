@@ -1,8 +1,8 @@
 ---
 title: Sync Mapper Import
 description: Mapper aus Grabber importieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./zebroo-sync
 ---

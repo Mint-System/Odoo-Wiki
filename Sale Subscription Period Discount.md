@@ -1,8 +1,8 @@
 ---
 title: Sale Subscription Period Discount
 description: Erste Abonnementrechnung mit zeitbasiertem Rabatt.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./subscription
 ---

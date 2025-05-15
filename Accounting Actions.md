@@ -1,9 +1,9 @@
 ---
 title: Buchhaltung Aktionen
 description: Neue Aktionen für Buchungen, Zahlungen und Abstimmungen.
+kind: howto
 tags:
-- HowTo
-- Aktionen
+- Actions
 prev: ./accounting
 ---
 # Buchhaltung Aktionen

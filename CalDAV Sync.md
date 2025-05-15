@@ -1,8 +1,7 @@
 ---
 title: CalDAV Sync
 description: Odoo Kalender mit CalDav synchronisieren.
-tags:
-- HowTo
+kind: howto
 prev: ./calendar
 ---
 # CalDAV Sync

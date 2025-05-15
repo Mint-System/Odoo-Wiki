@@ -1,9 +1,9 @@
 ---
 title: E-Mail-Marketing Aktionen
 description: Arbeitsflüsse in E-Mail-Marketing automatisieren.
+kind: howto
 tags:
-- HowTo
-- Aktionen
+- Actions
 prev: ./mass_mailing
 ---
 # E-Mail-Marketing Aktionen

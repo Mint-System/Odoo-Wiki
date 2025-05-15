@@ -1,8 +1,7 @@
 ---
 title: Verkauf Projekt
 description: Dienstleistungen mit Verkauf und Projekt abwickeln.
-tags:
-- HowTo
+kind: howto
 prev: ./sale
 ---
 # Verkauf Projekt

@@ -1,8 +1,7 @@
 ---
 title: License Website Sale
 description: Im Webshop gekaufte Lizenzen aktivieren.
-tags:
-- HowTo
+kind: howto
 prev: ./license
 ---
 # License Website Sale

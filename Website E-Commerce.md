@@ -1,8 +1,7 @@
 ---
 title: Website E-Commerce
 description: Webshop ohne Integrationsaufwand.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Website E-Commerce

@@ -1,9 +1,9 @@
 ---
 title: Lager Aktionen
 description: Arbeitsflüsse im Lager automatisieren.
+kind: howto
 tags:
-- HowTo
-- Aktionen
+- Actions
 prev: ./stock
 ---
 # Lager Aktionen

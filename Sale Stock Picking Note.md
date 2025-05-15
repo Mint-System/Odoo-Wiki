@@ -1,8 +1,8 @@
 ---
 title: Sale Stock Picking Note
 description: Interne und externe Notiz für Lieferungen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./sale
 ---

@@ -1,8 +1,7 @@
 ---
 title: PLM
 description: Management des Produktlebenszyklus für moderne Firmen.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # PLM

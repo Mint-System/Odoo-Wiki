@@ -1,8 +1,7 @@
 ---
 title: OCA Finanzbuchhaltung
 description: Finanzbuchhaltung mit OCA-Modulen.
-tags:
-- Best-Practice
+kind: explain
 prev: ./best-practice
 ---
 

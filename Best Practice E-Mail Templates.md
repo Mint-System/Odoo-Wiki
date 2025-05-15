@@ -1,8 +1,7 @@
 ---
 title: E-Mail-Vorlagen
 description: Eine einfache und umfassende Odoo-Dokumentation.
-tags:
-- Best-Practice
+kind: explain
 prev: ./best-practice
 ---
 

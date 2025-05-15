@@ -1,8 +1,7 @@
 ---
 title: Dialog
 description: In alle Module integrierter privater Chat und Gruppen-Chat.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Dialog

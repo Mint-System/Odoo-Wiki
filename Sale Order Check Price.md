@@ -1,8 +1,8 @@
 ---
 title: Sale Order Check Price
 description: Preis vor Bestätigung des Angebots prüfen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./sale
 ---

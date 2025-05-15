@@ -1,8 +1,8 @@
 ---
 title: Purchase Requisition Tag
 description: Kaufverträge mit Stichwörter.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase-requisition
 ---

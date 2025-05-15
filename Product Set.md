@@ -1,8 +1,8 @@
 ---
 title: Product Set
 description: Produkte-Sets definieren.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./product
 ---

@@ -1,8 +1,8 @@
 ---
 title: Product Packaging Parent
 description: Übergeordnete Verpackung für Produktverpackung definieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

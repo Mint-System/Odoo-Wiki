@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Date Confirmed
 description: Setze ein Bestätigungsdatum auf dem Verkaufsauftrag.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

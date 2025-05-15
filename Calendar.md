@@ -1,8 +1,7 @@
 ---
 title: Kalender
 description: Termine Team- und Anwendungs-übergreifend organisieren.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Kalender

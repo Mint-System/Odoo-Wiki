@@ -1,8 +1,7 @@
 ---
 title: Troubleshooting
 description: Probleme und Lösungen rund um Odoo.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 

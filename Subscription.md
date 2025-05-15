@@ -1,8 +1,7 @@
 ---
 title: Abonnemente
 description: Wiederkehrende Rechnungsstellung und Management von Abonnenten auf einfache Art und Weise.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Abonnemente

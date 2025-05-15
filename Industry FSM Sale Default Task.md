@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Comment
 description: Verknüpfte Aufgabe der Auftragszeile als Standardwert verwenden
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./fsm-industry
 ---

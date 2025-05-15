@@ -1,8 +1,7 @@
 ---
 title: Kontakte
 description: Alle Kontaktdaten an einem Ort.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Kontakte

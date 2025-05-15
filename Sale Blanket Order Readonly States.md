@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Readonly States
 description: Bestätigte Rahmenaufträge bearbeiten.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

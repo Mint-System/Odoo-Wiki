@@ -1,8 +1,7 @@
 ---
 title: Server
 description: Odoo installieren und konfigurieren.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Server

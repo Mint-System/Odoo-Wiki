@@ -1,8 +1,8 @@
 ---
 title: Mail Show Follower
 description: CC-Hinweis in E-Mail-Header einfügen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./dialog
 ---

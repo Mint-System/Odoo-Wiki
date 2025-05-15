@@ -1,8 +1,8 @@
 ---
 title: Sale Order Expected Commitment Date
 description: Das Standardlieferdatum ist das erwartete Datum.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

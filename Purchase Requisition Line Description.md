@@ -1,8 +1,8 @@
 ---
 title: Purchase Requisition Line Description
 description: Nur die Einkaufsbeschreibung in die Einkaufsposition übernehmen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase-requisition
 ---

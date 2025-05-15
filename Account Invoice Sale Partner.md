@@ -1,8 +1,8 @@
 ---
 title: Account Invoice Sale Partner
 description: Verkaufsadresse auf Rechnung festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

@@ -1,8 +1,7 @@
 ---
 title: Verkauf
 description: Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung. 
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Verkauf

@@ -1,8 +1,7 @@
 ---
 title: Anwesenheiten Aktionen
 description: Aktionen für Anwesenheit App einrichten.
-tags:
-- HowTo
+kind: howto
 prev: ./hr-attendance
 ---
 # Anwesenheiten Aktionen

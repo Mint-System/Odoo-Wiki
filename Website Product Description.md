@@ -1,8 +1,8 @@
 ---
 title: Website Product Description
 description: Separates Feld für Produktbeschreibungen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./website
 ---

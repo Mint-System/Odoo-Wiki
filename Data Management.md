@@ -1,8 +1,7 @@
 ---
 title: Datenmanagement
 description: Importieren und Exportieren Sie alle Odoo Daten.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Datenmanagement

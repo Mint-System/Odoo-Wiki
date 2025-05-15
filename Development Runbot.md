@@ -1,8 +1,7 @@
 ---
 title: Entwicklung Runbot
 description: Odoo Testumgebungen.
-tags:
-- HowTo
+kind: howto
 prev: ./development
 ---
 # Entwicklung Runbot

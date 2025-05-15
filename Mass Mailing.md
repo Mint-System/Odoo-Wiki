@@ -1,8 +1,7 @@
 ---
 title: E-Mail-Marketing
 description: E-Mail-Marketing leicht gemacht.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # E-Mail-Marketing

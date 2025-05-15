@@ -1,8 +1,7 @@
 ---
 title: Lager
 description: Maximieren Sie die Effizienz Ihres Lagers.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Lager

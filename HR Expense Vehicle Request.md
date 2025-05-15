@@ -1,8 +1,8 @@
 ---
 title: HR Expense Vehicle Request
 description: Brückenmodul für Fahrzeuganfrage und Auslage.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-expense
 ---

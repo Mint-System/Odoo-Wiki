@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Reference
 description: Kundenreferenz von Rahmenauftrag auf den Verkaufsauftrag kopieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

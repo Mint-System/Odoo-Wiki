@@ -1,8 +1,8 @@
 ---
 title: Mail Thread Context
 description: Automatisches Abonnieren deaktiveren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./dialog
 ---

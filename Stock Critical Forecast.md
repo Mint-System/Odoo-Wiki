@@ -1,8 +1,8 @@
 ---
 title: Stock Critical Forecast
 description: Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

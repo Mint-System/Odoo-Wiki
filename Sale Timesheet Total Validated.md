@@ -1,8 +1,8 @@
 ---
 title: Sale Timesheet Total Validated
 description: Nur bestätige Zeiterfassungs-Einträge in Verkaufsauftrag anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-timesheet
 ---

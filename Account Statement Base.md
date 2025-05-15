@@ -1,8 +1,7 @@
 ---
 title: Account Statement Base
 description: Basismodul für Bankauszüge.
-tags:
-- HowTo
+kind: howto
 prev: ./accounting
 ---
 # Account Statement Base

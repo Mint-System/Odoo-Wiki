@@ -1,8 +1,7 @@
 ---
 title: Buchhaltung Mehrwertsteuer
 description: Mehrwertsteuer einfach abrechnen mit Odoo.
-tags:
-- HowTo
+kind: howto
 prev: ./accounting
 ---
 # Buchhaltung Mehrwertsteuer

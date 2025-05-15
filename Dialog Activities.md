@@ -1,8 +1,7 @@
 ---
 title: Dialog Aktivitäten
 description: Arbeitsplanung mit Odoo Aktivitäten.
-tags:
-- HowTo
+kind: howto
 prev: ./dialog
 ---
 # Dialog Aktivitäten

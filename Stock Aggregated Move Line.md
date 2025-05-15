@@ -1,8 +1,8 @@
 ---
 title: Stock Aggregated Move Lines
 description: Zugriff auf Lieferung in aggregierten Zeilen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

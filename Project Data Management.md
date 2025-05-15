@@ -1,8 +1,7 @@
 ---
 title: Projekt Datenmanagement
 description: Daten zu Projekte exportieren und importieren.
-tags:
-- HowTo
+kind: howto
 prev: ./project
 ---
 # Projekt Datenmanagement

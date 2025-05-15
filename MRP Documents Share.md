@@ -1,8 +1,8 @@
 ---
 title: MRP Documents Share
 description: Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

@@ -1,8 +1,7 @@
 ---
 title: Apps Aktionen
 description: Aktionen für Apps einrichten.
-tags:
-- HowTo
+kind: howto
 prev: ./apps
 ---
 # Apps Aktionen

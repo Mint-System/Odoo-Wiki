@@ -1,8 +1,7 @@
 ---
 title: Einstellungen Berechtigungen
 description: Einstellungen zu Zugriffsrechten und Gruppen.
-tags:
-- HowTo
+kind: howto
 prev: ./settings
 ---
 # Einstellungen Berechtigungen

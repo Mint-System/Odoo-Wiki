@@ -1,8 +1,7 @@
 ---
 title: Notizen
 description: Notizen zentral verwalten.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Notizen

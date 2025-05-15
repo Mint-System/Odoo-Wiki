@@ -1,8 +1,7 @@
 ---
 title: Navigation
 description: Navigation in der Benutzeroberfläche von Odoo.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Navigation

@@ -1,8 +1,8 @@
 ---
 title: HR Attendance Delta
 description: Berechnet Zeitspanne zwischen Anwesenheitseinträgen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-attendance
 ---

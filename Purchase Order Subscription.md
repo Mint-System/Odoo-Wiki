@@ -1,8 +1,8 @@
 ---
 title: Purchase Order Subscription
 description: Wiederkehrende Bestellungen verwalten.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase
 ---

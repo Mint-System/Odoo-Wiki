@@ -1,8 +1,8 @@
 ---
 title: Cancel Manufacturing Order
 description: Fertigungsauftrag rückgängig machen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

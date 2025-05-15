@@ -1,8 +1,8 @@
 ---
 title: Mgmt Audit
 description: Auditieren Sie ihr Unternehmen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./management-system
 ---

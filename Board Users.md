@@ -1,8 +1,8 @@
 ---
 title: Board Users
 description: Dashboars von allen Benutzer anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./dashboards
 ---

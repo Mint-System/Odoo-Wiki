@@ -1,8 +1,7 @@
 ---
 title: Personalabrechnung Berichte
 description: Berichte für Lohnbuchhaltung erstellen.
-tags:
-- HowTo
+kind: howto
 prev: ./hr-payroll
 ---
 # Personalabrechnung Berichte

@@ -1,9 +1,9 @@
 ---
 title: Abonnement Aktionen
 description: Arbeitsflüsse für Abonnemente automatisieren.
+kind: howto
 tags:
-- HowTo
-- Aktionen
+- Actions
 prev: ./sale
 ---
 # Abonnemente Aktionen

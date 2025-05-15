@@ -1,8 +1,8 @@
 ---
 title: Partner Bank Code
 description: Eindeutige Nummer auf Bank festlegen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./contacts
 ---

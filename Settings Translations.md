@@ -1,8 +1,7 @@
 ---
 title: Einstellungen Übersetzungen
 description: Einstellungen zu Sprachpakete und Übersetzungen.
-tags:
-- HowTo
+kind: howto
 prev: ./settings
 ---
 # Einstellungen Übersetzungen

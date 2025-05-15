@@ -1,8 +1,7 @@
 ---
 title: Datenbereinigung
 description: Die Datenqualität ganz einfach verbessern.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Datenbereinigung

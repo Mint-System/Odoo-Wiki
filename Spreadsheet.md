@@ -1,8 +1,7 @@
 ---
 title: Spreadsheet
 description: Schöne Dashboards mit Odoo Spreadsheets.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Spreadsheet

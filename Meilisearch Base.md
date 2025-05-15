@@ -1,8 +1,8 @@
 ---
 title: Meilisearch Base
 description: Meilisearch Index mit Odoo Dokumenten synchronisieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./website-e-commerce
 ---

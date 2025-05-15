@@ -1,8 +1,7 @@
 ---
 title: Umfragen Datenmanagement
 description: Daten zu Umfragen exportieren und importieren.
-tags:
-- HowTo
+kind: howto
 prev: ./survey
 ---
 # Umfragen Datenmanagement

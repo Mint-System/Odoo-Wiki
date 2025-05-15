@@ -1,8 +1,8 @@
 ---
 title: Mail Tracking Mailgun
 description: Mailgun Events mit Webhook in Odoo empfangen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./dialog
 ---

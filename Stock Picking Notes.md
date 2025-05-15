@@ -1,8 +1,8 @@
 ---
 title: Stock Picking Notes
 description: "Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden."
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

@@ -1,8 +1,8 @@
 ---
 title: Sale Order Archive
 description: Abgebrochene Verkaufsaufträge archivieren.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./sale
 ---

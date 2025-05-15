@@ -1,8 +1,8 @@
 ---
 title: Sale Order Project Key
 description: Angebotsname von verlinkter Projektnummer übernehmen. 
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

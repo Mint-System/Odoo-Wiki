@@ -1,8 +1,8 @@
 ---
 title: Account Invoice Multiline Ref
 description: Kundenreferenz auf Verkaufsauftrag und Rechnung mit mehreren Zeilen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

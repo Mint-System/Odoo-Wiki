@@ -1,8 +1,8 @@
 ---
 title: Authentication OpenID Connect
 description: Login mit OpenID Connect Provider.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./settings
 ---

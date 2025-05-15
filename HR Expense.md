@@ -1,8 +1,7 @@
 ---
 title: Spesen
 description: Spesen erfassen und abrechnen.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Spesen

@@ -1,8 +1,8 @@
 ---
 title: Account Payment Mode
 description: Stapelzahlungen für die Odoo Community Edition.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./accounting
 ---

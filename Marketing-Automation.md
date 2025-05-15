@@ -1,8 +1,7 @@
 ---
 title: Marketing-Automatisierung
 description: Setzen Sie das Marketing auf Autopilot.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Marketing-Automatisierung

@@ -1,8 +1,8 @@
 ---
 title: HR Expense User ACL
 description: Zugriffsrechte auf Spesenabrechnung festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

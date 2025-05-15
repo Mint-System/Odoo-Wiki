@@ -1,8 +1,7 @@
 ---
 title: Werkstatt
 description: Die ganze Fertigung auf einen Blick.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Werkstatt

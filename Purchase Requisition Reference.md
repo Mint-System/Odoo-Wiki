@@ -1,8 +1,8 @@
 ---
 title: Purchase Requisition Reference
 description: Feld Lieferantenreferenz auf Kaufvertrag hinzufügen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase-requisition
 ---

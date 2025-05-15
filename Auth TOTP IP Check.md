@@ -1,8 +1,8 @@
 ---
 title: Auth TOTP IP Check
 description: Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./settings
 ---

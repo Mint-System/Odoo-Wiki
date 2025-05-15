@@ -1,8 +1,7 @@
 ---
 title: Zeiterfassung Ansichten
 description: Ansichten der Zeiterfassung anpassen.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Zeiterfassung Ansichten

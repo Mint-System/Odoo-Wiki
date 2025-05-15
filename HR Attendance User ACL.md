@@ -1,8 +1,8 @@
 ---
 title: HR Attendance User ACL
 description: Zugriff auf Anwesenheiten für Benutzer steuern.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-holidays
 ---

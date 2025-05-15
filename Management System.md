@@ -1,8 +1,8 @@
 ---
 title: Management System
 description: Odoo für Management Systeme (ISO, IEC, BS, EASA).
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./
 ---

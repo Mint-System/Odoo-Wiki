@@ -1,8 +1,8 @@
 ---
 title: Connector
 description: Odoo mit anderen Systemen verbinden.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./
 ---

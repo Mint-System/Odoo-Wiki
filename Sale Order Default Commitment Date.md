@@ -1,8 +1,8 @@
 ---
 title: Sale Order Default Commitment Date
 description: Standardlieferdatum festlegen. 
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

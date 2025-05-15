@@ -1,8 +1,7 @@
 ---
 title: Kontakte Aktionen
 description: Arbeitsflüsse mit Kontakte automatisieren.
-tags:
-- HowTo
+kind: howto
 prev: ./contacts
 ---
 # Kontakte Aktionen

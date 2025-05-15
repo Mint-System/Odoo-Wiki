@@ -1,8 +1,7 @@
 ---
 title: Account Invoice Outstanding Credit
 description: Filtern Sie Kundenrechnungen mit offenen Gutschriften.
-tags:
-- HowTo
+kind: howto
 prev: ./invoicing
 ---
 # Account Invoice Outstanding Credit

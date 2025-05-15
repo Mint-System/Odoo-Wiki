@@ -1,8 +1,8 @@
 ---
 title: Website Sale Firstname
 description: Vor- und Nachname auf Adressformular.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./website-e-commerce
 ---

@@ -1,8 +1,7 @@
 ---
 title: Studio
 description: Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Studio

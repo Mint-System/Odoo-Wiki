@@ -1,8 +1,8 @@
 ---
 title: Purchase Order Address
 description: Bestelladresse von Kunden auf Angebotsanfrage gespeichert.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase
 ---

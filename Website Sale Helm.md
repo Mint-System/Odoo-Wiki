@@ -1,8 +1,7 @@
 ---
 title: Website Sale Helm
 description: Services über Webshop verkaufen.
-tags:
-- HowTo
+kind: howto
 prev: ./mint-cloud
 ---
 # Website Sale Helm

@@ -1,8 +1,8 @@
 ---
 title: Purchase Requisition User
 description: Einkaufsbeauftragte von Kaufvertrag auf Bestellung übertragen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase-requisition
 ---

@@ -1,8 +1,8 @@
 ---
 title: Purchase Requisition Fiscal
 description: Steuerzuordnung auf Kaufverträgen festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase-requisition
 ---

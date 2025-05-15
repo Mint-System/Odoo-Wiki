@@ -1,8 +1,8 @@
 ---
 title: Stock available to promise
 description: Verfügbare Bestände zur Zusage berechnen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./warehouse
 ---

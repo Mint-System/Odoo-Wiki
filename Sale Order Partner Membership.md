@@ -1,8 +1,8 @@
 ---
 title: Sale Order Partner Membership
 description: Kontaktperson Mitgliedschaft auf Verkaufsauftrag festlegen. 
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

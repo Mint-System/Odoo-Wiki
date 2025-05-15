@@ -1,8 +1,8 @@
 ---
 title: Product Listprice Currency
 description: Listenpreise in verschiedenen Währungen für Preislisten-Formeln.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./product
 ---

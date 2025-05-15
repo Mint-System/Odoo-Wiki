@@ -1,8 +1,7 @@
 ---
 title: Konfiguration Lager
 description: Eine einfache und umfassende Odoo-Dokumentation.
-tags:
-- Best-Practice
+kind: explain
 prev: ./best-practice
 ---
 # Konfiguration Lager

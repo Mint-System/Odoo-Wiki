@@ -1,8 +1,8 @@
 ---
 title: Account Show Invoice Date
 description: Rechnungsdatum auf dem Bericht für überfällige Forderungen und Verbindlichkeiten.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./accounting
 ---

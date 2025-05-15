@@ -1,8 +1,7 @@
 ---
 title: Apps
 description: Neue Apps installieren und aktualisieren.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Apps

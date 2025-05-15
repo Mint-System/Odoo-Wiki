@@ -1,8 +1,8 @@
 ---
 title: Web Enterprise Admin Expiration Panel
 description: Meldung Ablauf der Datenbank nur für Admins anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./settings
 ---

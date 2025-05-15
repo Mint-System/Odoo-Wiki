@@ -1,8 +1,8 @@
 ---
 title: Sale Order Line Position
 description: Verkaufsaufträge mit Positionsnummern. 
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./order-positions
 ---

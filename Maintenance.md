@@ -1,8 +1,7 @@
 ---
 title: Wartung
 description: Wartungs-Software für moderne Hersteller.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Wartung

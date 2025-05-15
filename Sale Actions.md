@@ -1,9 +1,9 @@
 ---
 title: Verkauf Aktionen
 description: Arbeitsflüsse im Verkauf automatisieren.
+kind: howto
 tags:
-- HowTo
-- Aktionen
+- Actions
 prev: ./sale
 ---
 # Verkauf Aktionen

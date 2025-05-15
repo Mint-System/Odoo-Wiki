@@ -1,8 +1,8 @@
 ---
 title: Account Sale Timesheet Report
 description: Zeiterfassungsbericht für Rechnung.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

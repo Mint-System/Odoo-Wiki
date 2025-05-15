@@ -1,8 +1,7 @@
 ---
 title: Dialog E-Mail
 description: E-Mail mit Odoo versenden.
-tags:
-- HowTo
+kind: howto
 prev: ./dialog
 ---
 # Dialog E-Mail

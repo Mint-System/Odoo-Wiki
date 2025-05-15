@@ -1,8 +1,8 @@
 ---
 title: Base Recursion Limit
 description: Limit für Python-Rekursionen erhöhen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./base
 ---

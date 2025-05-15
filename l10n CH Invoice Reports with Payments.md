@@ -1,8 +1,8 @@
 ---
 title: l10n CH Invoice Reports with Payments
 description: Rechnung mit Zahlungsschein und Zahlungsdetails drucken.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./l10n-ch
 ---

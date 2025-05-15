@@ -1,8 +1,8 @@
 ---
 title: Partner Contact User ACL
 description: Zugriffsrechte auf Kontakte festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

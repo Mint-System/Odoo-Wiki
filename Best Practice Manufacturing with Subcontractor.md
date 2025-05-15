@@ -1,8 +1,7 @@
 ---
 title: Fertigung mit Subunternehmer
 description: Eine einfache und umfassende Odoo-Dokumentation.
-tags:
-- Best-Practice
+kind: explain
 prev: ./best-practice
 ---
 # Fertigung mit Subunternehmer

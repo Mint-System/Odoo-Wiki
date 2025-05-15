@@ -1,8 +1,8 @@
 ---
 title: Product Sequence
 description: Lebenszyklus von Produkten festlegen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./manufacture
 ---

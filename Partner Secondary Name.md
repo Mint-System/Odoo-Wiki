@@ -1,8 +1,8 @@
 ---
 title: Partner Secondary Name
 description: Zweitname für Unternehmen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

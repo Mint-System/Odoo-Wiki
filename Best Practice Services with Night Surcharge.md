@@ -1,8 +1,7 @@
 ---
 title: Dienstleistungen mit Nachtzuschlag
 description: Eine einfache und umfassende Odoo-Dokumentation.
-tags:
-- Best-Practice
+kind: explain
 prev: ./best-practice
 ---
 # Dienstleistungen mit Nachtzuschlag

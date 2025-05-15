@@ -1,8 +1,7 @@
 ---
 title: Studio Beispiele
 description: Beispiele für Anpassungen mit Odoo Studio.
-tags:
-- HowTo
+kind: howto
 prev: ./studio
 ---
 # Studio Beispiele

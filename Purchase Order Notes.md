@@ -1,8 +1,8 @@
 ---
 title: Purchase Order Notes
 description: Einkaufsaufträge mit Notizfelder.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase
 ---

@@ -1,8 +1,8 @@
 ---
 title: Project Phase Estimate
 description: Aufwandsschätzung pro Projekt und Phase.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./project
 ---

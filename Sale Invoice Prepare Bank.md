@@ -1,8 +1,8 @@
 ---
 title: Sale Invoice Prepare Bank
 description: Bankkonto anhand Währung auswählen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

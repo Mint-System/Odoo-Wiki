@@ -1,8 +1,8 @@
 ---
 title: Project Task Dependency Counter
 description: Smart Button für abhängige Aufgaben.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./project
 ---

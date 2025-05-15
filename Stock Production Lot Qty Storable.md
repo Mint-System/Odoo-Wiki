@@ -1,8 +1,8 @@
 ---
 title: Stock Production Lot Qty Storable
 description: Produktmenge auf Los als Wert speichern.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

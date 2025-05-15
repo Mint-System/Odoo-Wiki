@@ -1,8 +1,8 @@
 ---
 title: Manufacture Production Move Date
 description: Lieferdatum auf Fertigungsauftrag bearbeiten.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

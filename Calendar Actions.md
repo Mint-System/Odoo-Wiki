@@ -1,8 +1,7 @@
 ---
 title: Kalender Aktionen
 description: Kalender-Prozesse automatisieren.
-tags:
-- HowTo
+kind: howto
 prev: ./kalender
 ---
 # Kalender Aktionen

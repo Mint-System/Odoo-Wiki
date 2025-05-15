@@ -1,8 +1,8 @@
 ---
 title: Project Timesheet Limit
 description: Erfassbare Zeit auf geplante Zeit limitieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-timesheet
 ---

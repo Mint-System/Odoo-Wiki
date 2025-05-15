@@ -1,8 +1,8 @@
 ---
 title: Project Phase
 description: Projektaufgaben mit Projektphasen verwalten.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./project
 ---

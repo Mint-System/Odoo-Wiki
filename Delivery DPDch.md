@@ -1,8 +1,8 @@
 ---
 title: DPD for Switzerland
 description: Versand mit DPD.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./delivery
 ---

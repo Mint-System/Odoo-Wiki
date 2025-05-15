@@ -1,8 +1,8 @@
 ---
 title: Mass Editing
 description: Mühelos mehrere Einträge auf einmal bearbeiten.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./development
 ---

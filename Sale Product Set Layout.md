@@ -1,8 +1,8 @@
 ---
 title: Sale Product Set Layout
 description: Produktset mit Notizen und Abschnitten.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./sale
 ---

@@ -1,8 +1,7 @@
 ---
 title: Abwesenheiten Aktionen
 description: Aktionen für Abwesenheit App einrichten.
-tags:
-- HowTo
+kind: howto
 prev: ./hr-holidays
 ---
 # Abwesenheiten Aktionen

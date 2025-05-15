@@ -1,8 +1,8 @@
 ---
 title: Sale Order Partner Ref
 description: Kunden-Nr. auf Verkaufsaufträge filtern.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

@@ -1,8 +1,8 @@
 ---
 title: Sequential Code for Tasks
 description: Sequenznummer für Projektaufgaben.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./project
 ---

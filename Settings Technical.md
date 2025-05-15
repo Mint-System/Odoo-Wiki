@@ -1,8 +1,7 @@
 ---
 title: Einstellungen Technisch
 description: Technische Einstellungen zur Odoo-Datenbank.
-tags:
-- HowTo
+kind: howto
 prev: ./settings
 ---
 # Einstellungen Technisch

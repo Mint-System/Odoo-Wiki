@@ -1,8 +1,7 @@
 ---
 title: IoT
 description: Alles, was das "Internet der Dinge (IoT)" bietet.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # IoT

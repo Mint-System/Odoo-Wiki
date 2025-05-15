@@ -1,8 +1,8 @@
 ---
 title: Lohnmeldung
 description: Lohnmeldungen ganz einfach generieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-payroll
 ---

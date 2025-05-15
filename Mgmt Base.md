@@ -1,8 +1,8 @@
 ---
 title: Mgmt Base
 description: Basis für die Management-System Module.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./management-system
 ---

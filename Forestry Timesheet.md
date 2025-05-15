@@ -1,8 +1,7 @@
 ---
 title: Holzwirtschaft Zeiterfassung
 description: Erweiterung Zeiterfassung für die Holzwirtschaft.
-tags:
-- HowTo
+kind: howto
 prev: ./forestry-base
 ---
 # Holzwirtschaft Zeiterfassung

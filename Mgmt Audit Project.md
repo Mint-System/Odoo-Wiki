@@ -1,8 +1,8 @@
 ---
 title: Mgmt Audit Project
 description: Erstellen Sie Projektaufgaben für Empfehlungen und Nonconformties.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./management-system
 ---

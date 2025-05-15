@@ -1,8 +1,7 @@
 ---
 title: SSH
 description: SSH-Schlüssel verwalten.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # SSH

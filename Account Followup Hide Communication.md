@@ -1,8 +1,8 @@
 ---
 title: Account Followup Hide Communication
 description: Spalte Kommunikation in Mahnbericht ausblenden.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

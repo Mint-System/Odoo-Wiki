@@ -1,8 +1,8 @@
 ---
 title: Base Optional Quick Create
 description: Quick Create Option für Datenmodelle deaktivieren. 
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./base
 ---

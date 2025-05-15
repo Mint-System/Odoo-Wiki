@@ -1,8 +1,7 @@
 ---
 title: Einkauf Aktionen
 description: Arbeitsflüsse in Einkauf automatisieren.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Einkauf Aktionen

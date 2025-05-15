@@ -1,8 +1,8 @@
 ---
 title: Partner Secondary Email
 description: Zweite E-Mail für alle Kontakte.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

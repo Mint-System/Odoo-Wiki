@@ -1,8 +1,8 @@
 ---
 title: Product Supplierinfo for Customers
 description: Produktspezifische Informationen für ausgewählte Kunden erfassen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./product
 ---

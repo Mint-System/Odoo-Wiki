@@ -1,8 +1,8 @@
 ---
 title: Contact's birthdate
 description: Feld Geburtstag und Alter auf Kontakt vom Typ Einzelperson.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./contacts
 ---

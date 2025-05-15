@@ -1,8 +1,8 @@
 ---
 title: Sale Invoice Frequency
 description: Verrechnungsintervalle auf Kontakte und Verkaufsaufträge.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./invoicing
 ---

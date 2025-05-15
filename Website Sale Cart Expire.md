@@ -1,8 +1,8 @@
 ---
 title: Website Sale Cart Expire
 description: Warenkörbe nach einer bestimmten Zeit automatisch abbrechen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./website-e-commerce
 ---

@@ -1,8 +1,7 @@
 ---
 title: Account Statement Import Camt
 description: Support Import Bankauszug im Camt-Format.
-tags:
-- HowTo
+kind: howto
 prev: ./accounting
 ---
 # Account Statement Import Camt

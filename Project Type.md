@@ -1,8 +1,8 @@
 ---
 title: Project Type
 description: Projekte nach Typ verwalten.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./project
 ---

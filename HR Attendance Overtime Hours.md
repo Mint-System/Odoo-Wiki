@@ -1,8 +1,8 @@
 ---
 title: HR Attendance Overtime Hours
 description: Geplante und gearbeitete Stunden auf Ansicht Überstunden anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-holidays
 ---

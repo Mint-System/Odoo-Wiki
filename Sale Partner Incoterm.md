@@ -1,8 +1,8 @@
 ---
 title: Default sales incoterm per partner
 description: Standardlieferbedingungen für Kunden.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./sale
 ---

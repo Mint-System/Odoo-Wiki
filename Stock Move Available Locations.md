@@ -1,8 +1,8 @@
 ---
 title: Stock Move Available Locations
 description: Nur Lagerorte mit Besand in Auswahl anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

@@ -1,8 +1,8 @@
 ---
 title: Purchase Requisition Payment Term
 description: Kaufverträge mit Zahlungsbedingungen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./purchase
 ---

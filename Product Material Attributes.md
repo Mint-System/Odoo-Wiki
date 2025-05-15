@@ -1,8 +1,8 @@
 ---
 title: Product Material Attributes
 description: Product material attributes.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./product
 ---

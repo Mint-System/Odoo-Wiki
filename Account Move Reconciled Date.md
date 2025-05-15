@@ -1,8 +1,8 @@
 ---
 title: Account Move Reconciled Date
 description: Das letzte Abstimmungsdatum von Rechnungen anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./accounting
 ---

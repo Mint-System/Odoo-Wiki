@@ -1,8 +1,8 @@
 ---
 title: Payment Payrexx
 description: Payrexx Payment Provider Plugin von Soludoo.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./website-e-commerce
 ---

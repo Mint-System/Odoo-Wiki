@@ -1,8 +1,7 @@
 ---
 title: Verkauf Lager
 description: Lieferungen aus Verkaufsaufträge erstellen.
-tags:
-- HowTo
+kind: howto
 prev: ./sale
 ---
 # Verkauf Lager

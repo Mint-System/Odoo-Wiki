@@ -1,8 +1,7 @@
 ---
 title: Fertigung
 description: Eine moderne Lösung für ein altes Problem.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Fertigung

@@ -1,8 +1,7 @@
 ---
 title: Personalabrechnung
 description: Personalbrechnungen schnell und einfach erstellen.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Personalabrechnung

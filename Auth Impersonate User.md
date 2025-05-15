@@ -1,8 +1,8 @@
 ---
 title: Auth Impersonate User
 description: Mit einem anderen Benutzer einloggen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./settings
 ---

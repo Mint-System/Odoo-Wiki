@@ -1,8 +1,7 @@
 ---
 title: Zeiterfassung
 description: Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Zeiterfassung

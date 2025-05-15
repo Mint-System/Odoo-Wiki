@@ -1,8 +1,7 @@
 ---
 title: Dokumente
 description: Sparen Sie Zeit beim Erfassen von Rechnungen, Scannen von Verträgen und bei der Freigabe von Dokumenten.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Dokumente

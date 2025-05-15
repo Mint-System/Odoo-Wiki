@@ -1,8 +1,8 @@
 ---
 title: Stock Move Sale Order Name
 description: Beschreibung der Auftragsposition wird auf die Lieferung kopiert.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

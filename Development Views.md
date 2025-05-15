@@ -1,8 +1,7 @@
 ---
 title: Entwicklung Ansichten
 description: Odoo Ansichten anpassen.
-tags:
-- HowTo
+kind: howto
 prev: ./development
 ---
 

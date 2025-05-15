@@ -1,8 +1,8 @@
 ---
 title: MRP Production Assign Lot
 description: Los aus eingehenden Lagerbuchungen an unreservierte Komponenten zuweisen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

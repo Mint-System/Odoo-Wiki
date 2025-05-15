@@ -1,8 +1,8 @@
 ---
 title: Overdue Invoice Reminder
 description: Einfache Lösung zum Versenden von Zahlungserinnerungen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./accounting
 ---

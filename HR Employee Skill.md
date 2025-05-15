@@ -1,8 +1,8 @@
 ---
 title: HR Employee Skill
 description: Übersicht der Mitarbeiterfähigkeiten.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr
 ---

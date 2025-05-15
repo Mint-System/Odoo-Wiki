@@ -1,8 +1,8 @@
 ---
 title: Partner Hide Address
 description: Adressen auf Berichten ausblenden.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

@@ -1,9 +1,9 @@
 ---
 title: Rechnungsstellung Aktionen
 description: Neue Aktionen für Rechnungstellung und Mahnungen.
+kind: howto
 tags:
-- HowTo
-- Aktionen
+- Actions
 prev: ./accounting
 ---
 # Rechnungsstellung Aktionen

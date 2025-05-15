@@ -1,8 +1,8 @@
 ---
 title: Account Invoice Select Bank
 description: Bankkonto anhand Währung auswählen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

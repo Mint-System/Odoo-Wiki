@@ -1,8 +1,8 @@
 ---
 title: HR Timesheet From Until
 description: Berechnung Dauer anhand Start- und Endzeit.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-timesheet
 ---

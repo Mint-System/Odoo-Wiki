@@ -1,8 +1,7 @@
 ---
 title: Portal
 description: Kunden mit Odoo verbinden.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Portal

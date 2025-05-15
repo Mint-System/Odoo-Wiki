@@ -1,8 +1,8 @@
 ---
 title: Partner Multi Pricelist
 description: Mehrere Preislisten mit Start- und Enddatum auf Kunden festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

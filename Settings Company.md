@@ -1,8 +1,7 @@
 ---
 title: Einstellungen Unternehmen
 description: Mehrere Unternehmen mit Odoo verwalten.
-tags:
-- HowTo
+kind: howto
 prev: ./settings
 ---
 # Einstellungen Unternehmen

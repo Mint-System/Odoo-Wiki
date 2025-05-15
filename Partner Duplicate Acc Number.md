@@ -1,8 +1,8 @@
 ---
 title: Partner Duplicate Acc Number
 description: Kontonummer für mehrere Bankkonten verwenden
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

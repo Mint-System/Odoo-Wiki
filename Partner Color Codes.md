@@ -1,8 +1,8 @@
 ---
 title: Partner Color Codes
 description: Kontakte mit Farben und Stichwörter markieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./accounting
 ---

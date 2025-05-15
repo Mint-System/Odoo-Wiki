@@ -1,8 +1,8 @@
 ---
 title: Product Pricelist Fixed Discount
 description: Festpreise in Preisliste mit Rabatt.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./product
 ---

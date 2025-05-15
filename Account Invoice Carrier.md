@@ -1,8 +1,8 @@
 ---
 title: Account Invoice Carrier
 description: Auslieferungsmethode auf Rechnung hinterlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

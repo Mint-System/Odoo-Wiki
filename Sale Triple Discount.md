@@ -1,8 +1,8 @@
 ---
 title: Sale Triple Discount
 description: Mehrere Rabatte auf der Auftragszeile.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./sale
 ---

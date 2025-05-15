@@ -1,8 +1,7 @@
 ---
 title: Dialog Aktionen
 description: Arbeitsflüsse für Dialog automatisieren.
-tags:
-- HowTo
+kind: howto
 prev: ./dialog
 ---
 # Dialog Aktionen

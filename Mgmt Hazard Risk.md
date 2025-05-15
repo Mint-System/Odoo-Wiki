@@ -1,8 +1,8 @@
 ---
 title: Mgmt Hazard Risk
 description: Risiko-Kalkulation basieren auf Gefahren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./management-system
 ---

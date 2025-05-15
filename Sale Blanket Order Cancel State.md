@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Cancel State
 description: Beim Abbrechen wird der Verkaufsautrag in den entsprechendne Status versetzt.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

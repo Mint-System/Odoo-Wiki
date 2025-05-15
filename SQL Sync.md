@@ -1,8 +1,8 @@
 ---
 title: SQL Sync
 description: Mit SQL-Abfragen Daten empfangen und senden.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./zebroo-sync
 ---

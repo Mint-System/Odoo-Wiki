@@ -1,8 +1,8 @@
 ---
 title: Account Followup Due Filter
 description: Im Mahnbericht werden nur übefällige Rechnungen angezeigt.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

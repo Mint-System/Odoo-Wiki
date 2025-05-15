@@ -1,8 +1,7 @@
 ---
 title: Wissen
 description: Wissenstransfer für Teams vereinfachen.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Wissen

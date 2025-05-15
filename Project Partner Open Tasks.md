@@ -1,8 +1,8 @@
 ---
 title: Project Partner Open Tasks
 description: Offene Aufgaben von Kunde anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./project
 ---

@@ -1,8 +1,8 @@
 ---
 title: Sale Expense Description Date
 description: Fügt das Datum der Auslage der Kundenauftragszeile hinzu.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-expense
 ---

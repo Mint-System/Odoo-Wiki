@@ -1,8 +1,8 @@
 ---
 title: Sale Order Line Temporary Price
 description: Benutzerdeinierter Preis für erste Abrechnung festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

@@ -1,8 +1,7 @@
 ---
 title: Personal Aktivitäten
 description: Aktivitäten für Personal verwalten.
-tags:
-- HowTo
+kind: howto
 prev: ./hr
 ---
 # Personal Aktivitäten

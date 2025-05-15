@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Comment
 description: Kommentar auf Rahmenauftrag.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

@@ -1,8 +1,8 @@
 ---
 title: Base VAT Required VIES
 description: Die VIES-VAT-Prüfung als obligatorisch festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./database
 ---

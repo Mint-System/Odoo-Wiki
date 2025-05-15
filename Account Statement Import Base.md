@@ -1,8 +1,7 @@
 ---
 title: Account Statement Import Base
 description: Basismodul für Import Bankauszüge.
-tags:
-- HowTo
+kind: howto
 prev: ./accounting
 ---
 # Account Statement Import Base

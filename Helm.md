@@ -1,8 +1,7 @@
 ---
 title: Helm
 description: Helm-Repos und Charts deployen.
-tags:
-- HowTo
+kind: howto
 prev: ./mint-cloud
 ---
 # Helm

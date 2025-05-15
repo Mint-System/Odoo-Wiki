@@ -1,8 +1,8 @@
 ---
 title: Subscription OCA
 description: OCA-Alternative für Abonnemente.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./contract
 ---

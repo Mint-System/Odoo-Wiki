@@ -1,8 +1,8 @@
 ---
 title: Sync Mapper
 description: Attribute von empfangenen Daten mappen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./zebroo-sync
 ---

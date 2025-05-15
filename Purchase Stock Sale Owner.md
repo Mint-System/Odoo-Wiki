@@ -1,8 +1,8 @@
 ---
 title: Purchase Stock Sale Owner
 description: Eigentümer auf Wareneingang aus Verkaufsauftrag zuordnen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase
 ---

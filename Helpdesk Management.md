@@ -1,8 +1,7 @@
 ---
 title: Helpdesk Management
 description: Helpdesk Community Edition.
-tags:
-- HowTo
+kind: howto
 prev: ./helpdesk
 ---
 # Helpdesk Management

@@ -1,8 +1,8 @@
 ---
 title: Account Payment Partner
 description: Zahlungsmodus auf Kontakt festlegen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./accounting
 ---

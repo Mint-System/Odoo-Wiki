@@ -1,8 +1,8 @@
 ---
 title: HR Employee Employ Like
 description: Neues Feld Anstellung wie auf Mitarbeitenden.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr
 ---

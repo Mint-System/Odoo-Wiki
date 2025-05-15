@@ -1,8 +1,7 @@
 ---
 title: Entwicklung Berichte
 description: Eigene Berichte mit QWeb erstellen.
-tags:
-- HowTo
+kind: howto
 prev: ./development
 ---
 # Entwicklung Berichte

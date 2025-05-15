@@ -1,8 +1,7 @@
 ---
 title: VAT-Abrechnung
 description: Wie Sie am einfachsten die VAT abrechnen.
-tags:
-- Best-Practice
+kind: explain
 prev: ./best-practice
 ---
 

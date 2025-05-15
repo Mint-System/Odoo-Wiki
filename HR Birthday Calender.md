@@ -1,8 +1,8 @@
 ---
 title: HR Birthday Calender
 description: Kalenderansicht aller Geburtstage.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr
 ---

@@ -1,9 +1,9 @@
 ---
 title: Personalabrechnung Aktionen
 description: Lohnabrechnung automatisieren.
+kind: howto
 tags:
-- HowTo
-- Aktionen
+- Actions
 prev: ./hr-payroll
 ---
 # Personalabrechnung Aktionen

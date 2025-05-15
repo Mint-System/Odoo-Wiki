@@ -1,8 +1,8 @@
 ---
 title: Server Environment Ir Config Parameter
 description: Systemparameter aus Umgebungsvariablen laden.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./development
 ---

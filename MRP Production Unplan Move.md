@@ -1,8 +1,8 @@
 ---
 title: MRP Production Unplan Move
 description: Zukünftiges Datum auf Lagerbuchung bei Planungsabruch festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

@@ -1,8 +1,8 @@
 ---
 title: Stock Move Location
 description: Warenbestände zwischen Lagerorte verschieben.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./warehouse
 ---

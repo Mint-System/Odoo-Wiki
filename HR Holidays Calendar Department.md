@@ -1,8 +1,8 @@
 ---
 title: HR Holidays Calendar Department
 description: Erweitert den Anwesenheitsbericht mit neuen Felder.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr
 ---

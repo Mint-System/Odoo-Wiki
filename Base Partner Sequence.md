@@ -1,8 +1,8 @@
 ---
 title: Base Partner Sequence
 description: Sequenz auf Kundenreferenz.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./contacts
 ---

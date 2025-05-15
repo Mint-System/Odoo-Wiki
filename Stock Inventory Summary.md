@@ -1,8 +1,8 @@
 ---
 title: Stock Inventory Summary
 description: Lagerbestand gruppiert nach Lagerort und Produkt.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

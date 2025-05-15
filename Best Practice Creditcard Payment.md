@@ -1,8 +1,7 @@
 ---
 title: Kreditkartenabrechnung
 description: Erfassen und abgleichen von Kreditkartenzahlungen
-tags:
-- Best-Practice
+kind: explain
 prev: ./best-practice
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: Web Company Color
 description: Farben des Odoo Backend Theme anpassen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./settings
 ---

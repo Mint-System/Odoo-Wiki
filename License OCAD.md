@@ -1,8 +1,7 @@
 ---
 title: License OCAD
 description: Synchronisation Lizenzen mit dem OCAD Lizenzaktivierungsdienst.
-tags:
-- HowTo
+kind: howto
 prev: ./license
 ---
 # License OCAD

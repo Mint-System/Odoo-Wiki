@@ -1,8 +1,8 @@
 ---
 title: Mail Environment
 description: Mail-Server aus Umgebungsvariablen laden.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./development
 ---

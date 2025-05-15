@@ -1,8 +1,7 @@
 ---
 title: License Subscription
 description: Lizenzen mit Abonnementen erneuern.
-tags:
-- HowTo
+kind: howto
 prev: ./license
 ---
 # License Subscription

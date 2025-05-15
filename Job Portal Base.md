@@ -1,8 +1,8 @@
 ---
 title: Job Portal
 description: Stelleninserate verwalten.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./
 ---

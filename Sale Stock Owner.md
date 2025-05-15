@@ -1,8 +1,8 @@
 ---
 title: Sale Stock Owner
 description: Kunde als Besitzer an Lieferungen und Beständen zuordnen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-stock
 ---

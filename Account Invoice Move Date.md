@@ -1,8 +1,8 @@
 ---
 title: Account Invoice Move Date
 description: Buchungs- und Rechnungsdatum unabhängig definieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

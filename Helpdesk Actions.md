@@ -1,8 +1,7 @@
 ---
 title: Kundendienst Aktionen
 description: Arbeitsflüsse im Kundendienst automatisieren.
-tags:
-- HowTo
+kind: howto
 prev: ./helpdesk
 ---
 # Kundendienst Aktionen

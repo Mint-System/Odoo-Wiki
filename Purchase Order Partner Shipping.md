@@ -1,8 +1,8 @@
 ---
 title: Purchase Order Partner Shipping
 description: Alternative Lieferadresse für Bestellungen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase
 ---

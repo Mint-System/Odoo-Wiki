@@ -1,8 +1,8 @@
 ---
 title: Sale Order Multi Pricelist
 description: Partner-Preisliste anhand Auftragsdatum filtern.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

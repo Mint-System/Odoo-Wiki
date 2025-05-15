@@ -1,8 +1,8 @@
 ---
 title: Account Payment Mode
 description: Bezahlmethoden definieren.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./accounting
 ---

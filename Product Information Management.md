@@ -1,8 +1,8 @@
 ---
 title: Product Information Management
 description: Verwalten Sie Produktinformationen ganz flexibel.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./product
 ---

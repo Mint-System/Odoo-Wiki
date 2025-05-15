@@ -1,8 +1,7 @@
 ---
 title: Personalabrechnung Eingaben
 description: Lohnabrechnungen mit variablen Eingaben.
-tags:
-- HowTo
+kind: howto
 prev: ./hr-payroll
 ---
 # Personalabrechnung Eingaben

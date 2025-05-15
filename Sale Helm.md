@@ -1,8 +1,7 @@
 ---
 title: Sale Helm
 description: Bei Verkauf ein Helm-Release installieren.
-tags:
-- HowTo
+kind: howto
 prev: ./mint-cloud
 ---
 # Sale Helm

@@ -1,8 +1,7 @@
 ---
 title: Verkauf Berichte
 description: Verkaufsdaten immer aktuell.
-tags:
-- HowTo
+kind: howto
 prev: ./sale
 ---
 # Verkauf Berichte

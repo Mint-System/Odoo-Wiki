@@ -1,8 +1,8 @@
 ---
 title: Sale Order Default Carrier
 description: Auslieferungsmethode von Kontakt übernehmen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

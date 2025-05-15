@@ -1,8 +1,8 @@
 ---
 title: Prometheus Exporter
 description: Odoo-Metriken mit Prometheus monitoren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./development
 ---

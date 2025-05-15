@@ -1,8 +1,8 @@
 ---
 title: Partner Contact Department
 description: Erweitert das Adressbuch mit Abteilungen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./contacts
 ---

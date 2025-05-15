@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Contact Person
 description: Kontaktperson auf Rahmenauftrag festlegen. 
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

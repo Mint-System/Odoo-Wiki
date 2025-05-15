@@ -1,8 +1,8 @@
 ---
 title: Account Followup Manual Reminder
 description: Standardwert für Mahnungserinnerungen auf Manuell setzen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

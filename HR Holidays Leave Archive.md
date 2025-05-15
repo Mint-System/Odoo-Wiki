@@ -1,8 +1,8 @@
 ---
 title: HR Holidays Leave Archive
 description: Archivierungsfunktion für Abwesenheitseinträge aktivieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-holidays
 ---

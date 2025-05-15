@@ -1,8 +1,7 @@
 ---
 title: Anwesenheiten
 description: Mitarbeitende erfassen selbständig ihre Präsenzzeit.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 

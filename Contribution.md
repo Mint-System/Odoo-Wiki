@@ -210,8 +210,8 @@ Für jede Odoo-App existiert eine Seite. Beispielsweise gibt es die Seite [Notiz
 ---
 title: App Name
 description: Description about the App.
+kind: howto
 tags:
-- HowTo
 - OCA
 - Best-Practice
 - Drittanbieter

@@ -1,8 +1,8 @@
 ---
 title: HR Holidays Remining Leaves
 description: Verbleibende Urlaubsansprüche der Mitarbeitenden anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-holidays
 ---

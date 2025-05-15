@@ -1,8 +1,8 @@
 ---
 title: Account Invoice Change Currency
 description: Rechnungsbeträge und andere Währung umrechnen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./invoicing
 ---

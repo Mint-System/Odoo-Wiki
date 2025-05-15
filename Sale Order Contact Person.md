@@ -1,8 +1,8 @@
 ---
 title: Sale Order Contact Person
 description: Kontaktperson auf Verkaufsauftrag festlegen. 
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

@@ -1,9 +1,9 @@
 ---
 title: Lager Aktionen
 description: Arbeitsflüsse in der Produkteverwaltung automatisieren.
+kind: howto
 tags:
-- HowTo
-- Aktionen
+- Actions
 prev: ./product
 ---
 # Produkt Aktionen

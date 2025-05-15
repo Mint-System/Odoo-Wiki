@@ -1,8 +1,8 @@
 ---
 title: HR Recruitment Firstname
 description: Vor- und Nachname auf Bewerbung.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-recruitment
 ---

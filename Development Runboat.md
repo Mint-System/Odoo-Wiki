@@ -1,8 +1,7 @@
 ---
 title: Entwicklung Runboat
 description: Odoo Community Association Testumgebungen.
-tags:
-- HowTo
+kind: howto
 prev: ./development
 ---
 # Entwicklung Runboat

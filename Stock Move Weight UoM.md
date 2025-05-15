@@ -1,8 +1,8 @@
 ---
 title: Stock Move Weight UoM
 description: Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

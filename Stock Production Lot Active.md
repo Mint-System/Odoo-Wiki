@@ -1,8 +1,8 @@
 ---
 title: Stock Production Lot Active
 description: "Erlaubt die Archivierung von Los/Chargen."
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./stock
 ---

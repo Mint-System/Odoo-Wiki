@@ -1,8 +1,8 @@
 ---
 title: Fleet HR Vehicle Request
 description: Brückenmodul für Fahrzeugflotte und Fahrzeuganfrage.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr
 ---

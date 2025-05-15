@@ -1,8 +1,8 @@
 ---
 title: Sale Order Comment
 description: Kommentar auf Verkaufsauftrag.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

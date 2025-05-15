@@ -1,8 +1,8 @@
 ---
 title: Mail Activity Done
 description: Aktivitäten als erledigt markieren.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./dashboards
 ---

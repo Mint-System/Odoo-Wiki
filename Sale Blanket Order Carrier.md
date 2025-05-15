@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Carrier
 description: Legen Sie die Auslieferungsmethode auf dem Rahmenvertrag fest.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

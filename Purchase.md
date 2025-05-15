@@ -1,8 +1,7 @@
 ---
 title: Einkauf
 description: Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Einkauf

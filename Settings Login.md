@@ -1,8 +1,7 @@
 ---
 title: Einstellungen Login
 description: Odoo-Einstellungen zum Benutzer und Anmeldeverfahren.
-tags:
-- HowTo
+kind: howto
 prev: ./settings
 ---
 # Einstellungen Login

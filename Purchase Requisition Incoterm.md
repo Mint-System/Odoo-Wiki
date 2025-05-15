@@ -1,8 +1,8 @@
 ---
 title: Purchase Requisition Incoterm
 description: Lieferbedingungen auf Kaufverträgen festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase-requisition
 ---

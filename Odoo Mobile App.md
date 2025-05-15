@@ -1,8 +1,7 @@
 ---
 title: Odoo Mobile App
 description: Alle Odoo-Funktionen sind als mobile App verfügbar.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Odoo Mobile App

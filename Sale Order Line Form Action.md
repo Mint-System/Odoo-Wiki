@@ -1,8 +1,8 @@
 ---
 title: Sale Order Line Form Action
 description: Auftragszeile in Formularansicht öffnen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

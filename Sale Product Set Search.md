@@ -1,8 +1,8 @@
 ---
 title: Sale Product Set Search
 description: Produktset anhand Name und Referenz suchen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

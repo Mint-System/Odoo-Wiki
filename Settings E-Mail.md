@@ -1,8 +1,7 @@
 ---
 title: Einstellungen E-Mail
 description: Odoo mit Plattformen von Dritten integrieren.
-tags:
-- HowTo
+kind: howto
 prev: ./settings
 ---
 # Einstellungen E-Mail

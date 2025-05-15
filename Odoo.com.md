@@ -1,8 +1,7 @@
 ---
 title: Odoo.com
 description: Software-as-a-Service Angebot von Odoo.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Odoo.com

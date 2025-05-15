@@ -1,8 +1,8 @@
 ---
 title: Purchase Invoice Prepare Partner
 description: Kontakte aus Bestellung auf Rechnung kopieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

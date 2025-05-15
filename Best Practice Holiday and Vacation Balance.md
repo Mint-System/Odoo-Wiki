@@ -1,8 +1,7 @@
 ---
 title: Ferien- und Überstundensaldo
 description: Eine einfache und umfassende Odoo-Dokumentation.
-tags:
-- Best-Practice
+kind: explain
 prev: ./best-practice
 ---
 # Ferien- und Überstundensaldo

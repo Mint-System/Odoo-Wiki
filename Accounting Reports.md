@@ -1,8 +1,7 @@
 ---
 title: Buchhaltung Berichte
 description: Finanzberichte erstellen.
-tags:
-- HowTo
+kind: howto
 prev: ./accounting
 ---
 # Buchhaltung Berichte

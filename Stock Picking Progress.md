@@ -1,8 +1,8 @@
 ---
 title: Stock Picking Progress
 description: Fortschrittsanzeige für Transfer.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./stock
 ---

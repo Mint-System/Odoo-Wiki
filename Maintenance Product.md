@@ -1,8 +1,8 @@
 ---
 title: Maintenance Product
 description: Produkt und Inventar verknüpfen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./maintenance
 ---

@@ -1,8 +1,8 @@
 ---
 title: Contracts Management Recurring Sales
 description: Aus wiederholenden Verträge Verkaufsangebote generieren.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./contract
 ---

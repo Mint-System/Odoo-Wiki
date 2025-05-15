@@ -1,8 +1,7 @@
 ---
 title: Entwicklung Buchhalung
 description: Buchhaltungs-Berichte anpassen und erweitern.
-tags:
-- HowTo
+kind: howto
 prev: ./development
 ---
 # Entwicklung Buchhaltung

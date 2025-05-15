@@ -1,8 +1,7 @@
 ---
 title: Einstellungen OAuth
 description: OAuth-Integration mit Odoo.
-tags:
-- HowTo
+kind: howto
 prev: ./settings
 ---
 # Einstellungen OAuth

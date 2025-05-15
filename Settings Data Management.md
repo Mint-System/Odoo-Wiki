@@ -1,8 +1,7 @@
 ---
 title: Einstellungen Datenmanagement
 description: Daten zu Einstellungen exportieren und importieren.
-tags:
-- HowTo
+kind: howto
 prev: ./settings
 ---
 # Einstellungen Datenmanagement

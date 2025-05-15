@@ -1,8 +1,8 @@
 ---
 title: AMQP Stock
 description: Lagervorgänge als AMQP-Nachrichten empfangen und versenden.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

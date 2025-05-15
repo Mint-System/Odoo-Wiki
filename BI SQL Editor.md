@@ -1,8 +1,8 @@
 ---
 title: BI SQL Editor
 description: Ganz einfach SQL-basierte Berichte erstellen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./development
 ---

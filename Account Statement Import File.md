@@ -1,8 +1,7 @@
 ---
 title: Account Statement Import File
 description: Bankauszüge importieren.
-tags:
-- HowTo
+kind: howto
 prev: ./accounting
 ---
 # Account Statement Import File

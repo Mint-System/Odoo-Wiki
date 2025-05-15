@@ -1,8 +1,7 @@
 ---
 title: Personal
 description: Personalmanagement für moderne Unternehmen.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Personal

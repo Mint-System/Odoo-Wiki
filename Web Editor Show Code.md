@@ -1,8 +1,8 @@
 ---
 title: Web Editor Show Code
 description: Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen.   
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./base
 ---

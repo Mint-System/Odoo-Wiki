@@ -1,8 +1,8 @@
 ---
 title: Mail Manual Routing
 description: Erlaubt Zuordnung von empfangenen E-Mails.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./base
 ---

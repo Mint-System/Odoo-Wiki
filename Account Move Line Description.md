@@ -1,8 +1,8 @@
 ---
 title: Account Move Line Description
 description: Produktname ohne Referenz in Beschreibung Rechnungszeile übertragen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

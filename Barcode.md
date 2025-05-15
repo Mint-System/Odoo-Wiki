@@ -1,8 +1,7 @@
 ---
 title: Strichcode
 description: Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Strichcode

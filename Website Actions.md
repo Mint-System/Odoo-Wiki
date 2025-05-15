@@ -1,8 +1,7 @@
 ---
 title: Website Aktionen
 description: Automatisierung der Website-Vorgänge.
-tags:
-- HowTo
+kind: howto
 prev: ./website
 ---
 # Website Aktionen

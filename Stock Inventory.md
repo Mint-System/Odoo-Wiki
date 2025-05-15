@@ -1,8 +1,7 @@
 ---
 title: Lager Bestand
 description: Den Lagerbestand optimal verwalten.
-tags:
-- HowTo
+kind: howto
 prev: ./stock
 ---
 # Lager Bestand

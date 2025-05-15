@@ -1,8 +1,7 @@
 ---
 title: Benutzer
 description: Einstellungen für ihren persönlichen Odoo-Benutzer.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Benutzer

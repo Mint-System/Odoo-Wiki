@@ -1,8 +1,7 @@
 ---
 title: Buchhaltung
 description: Ihre Buchhaltung einfach und korrekt.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Buchhaltung

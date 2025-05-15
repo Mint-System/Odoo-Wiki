@@ -1,8 +1,8 @@
 ---
 title: Sync Trigger Methods
 description: Bei Methoden-Aufruf einen Sync auslösen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./zebroo-sync
 ---

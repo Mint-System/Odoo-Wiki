@@ -1,8 +1,7 @@
 ---
 title: Abwesenheiten
 description: Verwaltung von Mitarbeiterurlauben & Abwesenheiten.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 

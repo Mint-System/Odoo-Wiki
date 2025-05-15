@@ -1,8 +1,8 @@
 ---
 title: Sale Order Notes
 description: Verkaufsaufträge mit Notizfelder.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

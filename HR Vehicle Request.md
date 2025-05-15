@@ -1,8 +1,8 @@
 ---
 title: HR Vehicle Request
 description: Fahrzeuganfragen für Mitarbeitende verwalten.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr
 ---

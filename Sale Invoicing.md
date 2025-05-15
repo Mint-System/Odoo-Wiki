@@ -1,8 +1,7 @@
 ---
 title: Verkauf Abrechnung
 description: Verkaufsaufträge unkompliziert abrechnen.
-tags:
-- HowTo
+kind: howto
 prev: ./sale
 ---
 # Verkauf Abrechnung

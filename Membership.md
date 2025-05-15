@@ -1,8 +1,7 @@
 ---
 title: Mitgliedschaft
 description: Mitglieder und Mitgliedschaften verwalten.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 

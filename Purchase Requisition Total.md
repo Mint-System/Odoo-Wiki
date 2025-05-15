@@ -1,8 +1,8 @@
 ---
 title: Purchase Requisition Total
 description: Kaufvertrag mit Steuern, Zwischensummen und Total.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase-requisition
 ---

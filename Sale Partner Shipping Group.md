@@ -1,8 +1,8 @@
 ---
 title: Sale Partner Shipping Group
 description: Zugriffsgruppe für die Lieferadresse bei Verkaufsaufträgen und Rechnungen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

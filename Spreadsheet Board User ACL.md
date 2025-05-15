@@ -1,8 +1,8 @@
 ---
 title: Spreadsheet Board User ACL
 description: Zugriffsrechte auf Spreadsheet Dashboards festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./dashboards
 ---

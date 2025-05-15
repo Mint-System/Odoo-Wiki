@@ -1,8 +1,8 @@
 ---
 title: Account Move Mail Thread
 description: Verhindert das versenden von Nachrichten beim Erstellen einer Buchung.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./dialog
 ---

@@ -1,8 +1,8 @@
 ---
 title: Web Theme Classic
 description: Kontrast auf Benutzeroberfläche verbessern.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./settings
 ---

@@ -1,8 +1,7 @@
 ---
 title: Veranstaltungen
 description: Verwaltung von Sponsoren, Ständen, Vorträgen, virtuellen Veranstaltungen und vieles mehr.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Veranstaltungen

@@ -1,8 +1,8 @@
 ---
 title: Sale Order Delivery Note
 description: Notiz auf Verkaufsauftrag für Lieferung hinzufügen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---
