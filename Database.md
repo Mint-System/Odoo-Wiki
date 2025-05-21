@@ -75,6 +75,10 @@ Im unten dargestellten Dialog ist das *Odoo Master Password* notwendig.
 
 Nach der Bestätigung mit dem Knopf *Backup* wird der Inhalt der Datenbank lokal auf dem Computer in eine zip-Datei gespeichert.
 
+::: tip
+Um das Datenbank-Backup zu versenden können Sie <https://www.swisstransfer.com> verwenden.
+:::
+
 ### Datenbank wiederherstellen
 
 Falls eine Datenbank mit einem Backup überschrieben werden soll, muss im nächsten Schritt die bestehende Datenbank gelöscht werden.
