@@ -11,15 +11,16 @@ prev: ./
 
 ## Bereiche
 
-| Bereich                                                             | Beschreibung                                        |
-| ------------------------------------------------------------------- | --------------------------------------------------- |
-| [Abwesenheiten Datenmanagement](HR%20Holidays%20Data%20Management.md) | Daten zu Abwesenheiten exportieren und importieren.   |
-| [Einstellungen Datenmanagement](Settings%20Data%20Management.md)    | Daten zu Einstellungen exportieren und importieren. |
-| [Fertigung Datenmanagement](Manufacture%20Data%20Management.md)     | Produkte und Dienstleistungen zentral pflegen.      |
-| [Kontakte Datenmanagement](Partner%20Data%20Management.md)          | Daten zu Kontakte exportieren und importieren.      |
-| [Kundendienst Datenmanagement](Helpdesk%20Data%20Management.md)     | Daten zu Kundendienst exportieren und importieren.  |
-| [Projekt Datenmanagement](Project%20Data%20Management.md)           | Daten zu Projekte exportieren und importieren.      |
-| [Umfragen Datenmanagement](Survey%20Datamanagement.md)              | Daten zu Umfragen exportieren und importieren.      |
+| Bereich                                                               | Beschreibung                                        |
+| --------------------------------------------------------------------- | --------------------------------------------------- |
+| [Abwesenheiten Datenmanagement](HR%20Holidays%20Data%20Management.md) | Daten zu Abwesenheiten exportieren und importieren. |
+| [Dialog Datenmanagement](Dialog%20Datenmanagement.md)                 | Daten zu Dialog exportieren und importieren.        |
+| [Einstellungen Datenmanagement](Settings%20Data%20Management.md)      | Daten zu Einstellungen exportieren und importieren. |
+| [Fertigung Datenmanagement](Manufacture%20Data%20Management.md)       | Produkte und Dienstleistungen zentral pflegen.      |
+| [Kontakte Datenmanagement](Partner%20Data%20Management.md)            | Daten zu Kontakte exportieren und importieren.      |
+| [Kundendienst Datenmanagement](Helpdesk%20Data%20Management.md)       | Daten zu Kundendienst exportieren und importieren.  |
+| [Projekt Datenmanagement](Project%20Data%20Management.md)             | Daten zu Projekte exportieren und importieren.      |
+| [Umfragen Datenmanagement](Survey%20Datamanagement.md)                | Daten zu Umfragen exportieren und importieren.      |
 
 ## Vorgänge
 
