@@ -29,7 +29,7 @@ Gilt bis #Odoo16.
 
 Falls Sie die Adresse ändern möchten, öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und passen den Wert für `mail.catchall.alias` an.
 
-Angenommen Sie geben als Wert `erp` ein, so ist die resultierende Absender-Aresse `From: "FIRSTNAME LASTNAME" <erp@example.com>`.
+Angenommen Sie geben als Wert `reply` ein, so ist die resultierende Reply-Aresse `From: "FIRSTNAME LASTNAME" <reply@example.com>`.
 
 Gilt ab #Odoo17.
 
@@ -62,7 +62,7 @@ Wenn Odoo eine E-Mail versendet, wird im E-Mail eine Von- und Antwort-Adresse hi
 ```txt
 ...
 From: "FIRSTNAME LASTNAME" <firstname.lastname@example.com>
-Reply-To: "My Company" <catchall@example.com>
+Reply-To: "My Company" <odoo@example.com>
 ...
 ```
 
@@ -71,7 +71,7 @@ Wenn Sie die Von-Adresse überschreiben möchten, öffnen Sie *Einstellungen > T
 ```txt
 ...
 From: "FIRSTNAME LASTNAME" <erp@example.com>
-Reply-To: "My Company" <catchall@example.com>
+Reply-To: "My Company" <reply@example.com>
 ...
 ```
 
@@ -180,7 +180,7 @@ Wenn Subaddressing "+" aktiviert ist, wird eine E-Mail mit einem "+" nach dem Al
 :::
 
 ::: warning
-Der Wildcard-E-Mail-Alias *catchall* wird noch von allen Mail-Provider unterstützt.
+Der Wildcard-E-Mail-Alias *catchall* wird nicht von allen Mail-Provider unterstützt.
 :::
 
 ## Erweitert
