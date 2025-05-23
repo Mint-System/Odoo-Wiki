@@ -201,3 +201,51 @@ for subscription in extend_subscriptions:
     })
   subscription.set_close()
 ```
+
+### Verkaufsabonnement: Reminder Verlängerung versenden
+
+Diese geplante Aktion versendet eine bestimmte Anzahl Tage vor Erreichung des Ablaufdatum einen Reminder zur Verlängerung des Abonnements. Die folgenden Bedingungen müssen zutreffen:
+
+* Der Verkaufsaufrag ist ein Abonnement
+* Der Verkaufsauftrag ist in der Stufe *Angebot versendet*
+* Das Ablaufdatum ist Heute in 2 Wochen
+* Der Verkaufsauftrag hat Lizenzen
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Verkaufsabonnement: Reminder Verlängerung versenden`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Tage\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Settings
+weeks_before_validity_date = 2
+mail_template = "__custom__.mail_template_reminder_extend_subscription"
+
+# Get extend date
+today = datetime.datetime.today()
+remind_date = (today + datetime.timedelta(weeks=weeks_before_validity_date)).date()
+
+# Search subscriptions
+remind_subscriptions = env["sale.order"].search([
+  ("is_subscription", "=", True),
+  ("state", "=", "sent"),
+  ("validity_date", "=", remind_date),
+  ("license_count", ">", 0)
+])
+
+# raise UserError([remind_subscriptions, remind_date])
+
+# Create and send renewal order
+for subscription in remind_subscriptions:
+    subscription.message_post_with_template(
+      env.ref(mail_template).id,
+      composition_mode="comment",
+email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
+    )
+```
