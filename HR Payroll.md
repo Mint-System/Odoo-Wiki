@@ -32,6 +32,7 @@ prev: ./
 Damit Sie die Personalabrechnung für ihre Mitarbeiter erstellen können, müssen einige vorbereitungen getroffen werden.
 
 Dazu eine Übersicht:
+
 * [Mitarbeiter erfassen](HR.md#Personal#Mitarbeiter%20erfassen)
 * [Arbeitsvertrag hinzufügen](HR.md#Arbeitsvertrag%20hinzufügen)
 * [Private Adresse hinterlegen](HR.md#Private%20Adresse%20hinterlegen)
