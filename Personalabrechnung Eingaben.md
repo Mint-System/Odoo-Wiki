@@ -25,7 +25,7 @@ if payslip.contract_id.wage_type == 'hourly':
 		('date', '>=', payslip.date_from),
 		('date', '<=', payslip.date_to),
 	])
-	result = payslip.hourly_wage*sum(lines.mapped('unit_amount'))
+	result = payslip.contract_id.hourly_wage*sum(lines.mapped('unit_amount'))
 else:
 	result = payslip.paid_amount + (inputs.BASIC13.amount if inputs.BASIC13 else 0)
 ```
@@ -158,6 +158,6 @@ Navigieren Sie nach *Personalabrechnung > Konfiguration > Other Input Types*. Er
 
 Damit die Eingabe in der Lohnabrechnung berücksichtigt wird, muss eine bestehende Lohnart angepasst werden. Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln* und wählen Sie die Lohnart mit Code *BASIC*. Passen Sie die Lohnart wie folgt an:
 
-Python Code: `result = payslip.hourly_wage*inputs.BILLABLE_HOURS.amount if inputs.BILLABLE_HOURS else 0`
+Python Code: `result = payslip.contract_id.hourly_wage*inputs.BILLABLE_HOURS.amount if inputs.BILLABLE_HOURS else 0`
 
 Speichern Sie die Lohnart,  fügen Sie einer ausgewählte Lohnabrechnung mit der zugehörigen Lohnstruktur eine Eingabe hinzu und berechnen die Abrechnung neu.
