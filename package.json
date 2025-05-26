@@ -7,17 +7,17 @@
     "download-icons": "node download-icons.js"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.19",
-    "@vuepress/client": "2.0.0-rc.19",
-    "@vuepress/plugin-docsearch": "2.0.0-rc.74",
-    "@vuepress/plugin-search": "^1.9.10",
-    "@vuepress/plugin-shiki": "2.0.0-rc.74",
-    "@vuepress/theme-default": "2.0.0-rc.74",
-    "@vuepress/utils": "2.0.0-rc.19",
-    "mermaid": "^11.4.1",
-    "sass-embedded": "^1.83.4",
+    "@vuepress/bundler-vite": "2.0.0-rc.23",
+    "@vuepress/client": "2.0.0-rc.23",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.106",
+    "@vuepress/plugin-search": "2.0.0-rc.106",
+    "@vuepress/plugin-shiki": "2.0.0-rc.106",
+    "@vuepress/theme-default": "2.0.0-rc.106",
+    "@vuepress/utils": "2.0.0-rc.23",
+    "mermaid": "^11.6.0",
+    "sass-embedded": "^1.89.0",
     "sharp": "^0.33.5",
-    "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.19"
+    "vue": "^3.5.15",
+    "vuepress": "2.0.0-rc.23"
   }
 }
