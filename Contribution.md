@@ -97,7 +97,7 @@ Hostnames:
 Mail-Adressen:
 
 * Support: support@example.com
-* Catchall: catchall@example.com
+* Catchall: reply@example.com
 * Odoo Bot: odoobot@example.com
 * Administrator: admin@example.com
 * Odoo Postfach: erp@example.com
