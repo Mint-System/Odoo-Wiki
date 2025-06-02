@@ -28,6 +28,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | Erweiterung                                                                                   | Beschreibung                                                                                                |
 | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | [AMQP Base](AMQP%20Base.md)                                                                   | AMQP Zielhosts verwalten.                                                                                   |
+| [Anb Stock Picking Valued](Anb%20Stock%20Picking%20Valued.md)                                 | Preislisten für Bestandsbewertung                                                                           |
 | [Demand Planner](Demand%20Planner.md)                                                         | Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen. |
 | [Product Logistics UoM](Product%20Logistics%20UoM.md)                                         | Individuelle Mengenheit für Produkte festlegen.                                                             |
 | [Stock Account Location Valued](Stock%20Account%20Location%20Valued.md)                       | Lagerort zur Bewertung markieren.                                                                           |
