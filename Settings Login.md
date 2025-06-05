@@ -37,6 +37,14 @@ Wenn Sie die Berechtigungen eines bestehenden Benutzers übernehmen wollen, kön
 Wenn ein Benutzerwechsel stattfindet, sollten Sie nicht den Namen eines bestehenden Benutzer anpassen. Stattdessen duplizieren Sie den bestehenden Benutzer, passen Sie den Namen auf dem neuen Benutzer an und archivieren Sie den alten Benutzer.
 :::
 
+### Benutzername ändern
+
+Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie einen bestehenden Benutzer aus. Im Feld *E-Mail-Adresse* können Sie das Login ändern.
+
+::: warning
+Benutzer für welche das Benutzernamen geändert wurde, werden von Odoo augeloggt und müssen sich dem neuen Benutzernamen einloggen.
+:::
+
 ### Benutzer entfernen
 
 Wenn Sie Benutzer entfernen möchten, müssen Sie diesen archivieren. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie den zu entfernden Benutzer aus. Kicken Sie auf *Aktionen > Archiv*.
@@ -65,6 +73,10 @@ Für Kunden, Teilnehmer und Partner kann ein Odoo-Zugang eingerichtet werden. Un
 Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen Sie den Benutzer, dessen Passwort Sie zurücksetzen möchten.
  
 Wählen Sie *Aktion > Passwort ändern*. Geben Sie im Feld *Neues Passwort* das neue Passwort ein und bestätigen Sie den Dialog.
+
+::: warning
+Die Bentuzer für welche das Passwort geändert wurde, werden von Odoo ausgeloggt und müssen sich mit dem neuen Passwort einloggen.
+:::
 
 ### Passwort für mehrere Benutzer ändern
 
