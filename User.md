@@ -24,6 +24,10 @@ Nach dem Login klicken Sie oben rechts auf ihren Benutzer und wählen *Einstellu
 
 Klicken Sie oben rechts auf ihen Benutzer und wählen Sie *Einstellungen*. Öffnen Sie den Tab *Account Sicherheit* und klicken Sie auf *Passwort Ändern*.
 
+::: warning
+Wenn Sie das Passwort geändert haben, werden Sie von Odoo ausgeloggt und müssen sich mit dem neuen Passwort einloggen.
+:::
+
 ### E-Mail-Signatur hinterlegen
 
 Mit Odoo können Sie E-Mails verschicken. Wie in Mail-Programmen können Sie eine E-Mail-Signatur hinterlegen. Klicken Sie oben rechts auf ihren Benutzernamen und wählen Sie *Einstellungen* oder *Profil*. Im Feld *E-mail Signatur* können Sie eine Signatur definieren.
