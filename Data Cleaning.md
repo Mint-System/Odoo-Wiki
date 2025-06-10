@@ -34,3 +34,9 @@ Der Odoo Bot verschickt unter der E-Mail-Adresse `odoobot@example.com` Informati
 ![](attachments/Einstellungen%20OdooBot%20Mail.png)
 
 Wenn wie die Absender-Adresse ändern möchten, öffnen Sie *Kontakt* und wählen *Filter > Archiviert*. Nun erscheint der Kontakt-Eintrag *OdooBot* und Sie können dort die Mail-Adresse ändern.
+
+## Benachrichtigung
+
+### Benachrichtigung "Zusammenzuführende Duplikate" deaktivieren
+
+Unter *Datenbereinigung > Konfiguration > Deduplizierung* finden Sie die Deduplizierungsregeln. Zeigen Sie eine Regeln an. Im Feld *Benutzer benachrichtigen* finden Sie die Benutzer, welche eine Benachrichtigung für diese Regeln erhalten. Entfernen Sie die gewünschten Benutzer. 
