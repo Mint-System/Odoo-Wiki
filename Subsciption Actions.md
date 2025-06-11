@@ -226,6 +226,7 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 # Settings
 weeks_before_validity_date = 2
 mail_template = "__custom__.mail_template_reminder_extend_subscription"
+stage_draft_id = env.ref("sale_subscription.sale_subscription_stage_draft")
 
 # Get extend date
 today = datetime.datetime.today()
@@ -235,6 +236,7 @@ remind_date = (today + datetime.timedelta(weeks=weeks_before_validity_date)).dat
 remind_subscriptions = env["sale.order"].search([
   ("is_subscription", "=", True),
   ("state", "=", "sent"),
+  ("stage_id", "=", stage_draft_id.id),
   ("validity_date", "=", remind_date),
   ("license_count", ">", 0)
 ])
@@ -246,6 +248,6 @@ for subscription in remind_subscriptions:
     subscription.message_post_with_template(
       env.ref(mail_template).id,
       composition_mode="comment",
-email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
+      email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
     )
 ```
