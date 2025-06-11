@@ -17,3 +17,23 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-SaaS/tree/16.0/li
 ### Benutzer und Passwort festlegen
 
 Navigieren Sie nach *Einstellungen > Verkauf > Konnektoren* und tragen Sie bei *License OCAD* den Benutzernamen und das Passwort für die Verbindung zum OCAD Lizenzaktivierungsdienst ein.
+
+## Aktionen
+
+### Lizenzinformationen kopieren
+
+
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Lizenzinformationen kopieren`\
+Modell: `license.license`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+output = "License name: " + record.client_order_ref
+output += "\nLicense number: " + record.name 
+
+raise UserError(output)
+```
