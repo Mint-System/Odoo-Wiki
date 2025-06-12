@@ -138,6 +138,18 @@ Auf dem Steuerbericht sieht das wie folgt aus:
 
 ![](attachments/Schweizer%20Steuerbericht%20mit%20Saldosteuersatz.png)
 
+### Unstimmigkeiten in Bericht bereinigen
+
+Wenn Sie den [Steuerbericht anzeigen](#Steuerbericht%20anzeigen) kann die folgenden Meldung angezeigt werden:
+
+> Dieser Bericht enthält Unstimmigkeiten. Die betroffenen Zeilen sind mit einer Warnung gekennzeichnet.
+
+Wenn Sie zu den betroffenen Zeilen navigieren sehen Sie ein Warnung-Icon. Weitere Details zur Unstimmigkeit werden nicht angezeigt. Sie können über das Kontext-Menü die Buchungszeilen anzeigen.
+
+::: tip
+Technisch werden die Berichtzeilen von der Methode `_check_line_consistency` geprüft und markiert. Diese Methode prüft ob der berechnete Steuerbetrag mit dem Bruttobetrag übereinstimmt.
+:::
+
 ## Mahnwesen
 
 ### Mahnstufen einrichten
