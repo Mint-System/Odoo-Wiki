@@ -302,14 +302,13 @@ Mit der neuen externen ID bestimmen Sie einen anderen Bentuzer als Administrator
 Wenn wkhtmltopdf die PDF-Datei erstellt, wird dieser Fehler geworfen:
 
 ```
-2022-06-13 20:03:37,244 1 WARNING odoo odoo.addons.base.models.ir_actions_report: wkhtmltopdf: b'Exit with code 1 due to network error: ConnectionRefusedError\n'
+wkhtmltopdf: b'Exit with code 1 due to network error: ConnectionRefusedError\n'
 ```
 
 Oder dieser Fehler:
 
 ```
-2022-06-20 16:43:05,267 1 WARNING odoo odoo.addons.base.models.ir_actions_report: wkhtmltopdf: b'Exit with code 1 due to network error: ContentNotFoundError\n'
-2
+wkhtmltopdf: Exit with code 1 due to network error: ContentNotFoundError
 ```
 
 Das generierte PDF enthält keine Formatierungen.
@@ -324,17 +323,14 @@ Eine weitere Ursache kann auch sein, dass die Host-Adresse von Odoo innerhalb de
 
 **Lösung**
 
-In den Systemparameter von Odoo muss beim Eintrag `web.base.url`  die URL von https auf http gewechselt werden.
-
-Stellen Sie sicher, dass der Systemparameter `report.url` nicht existiert.
+Legen Sie in den Systemparameter von Odoo den Wert von  `web.base.url` fest und fixieren Sie die Url `https://`  die URL von `https` auf `http` gewechselt werden. Alternativ kann der Systemparameter  `report.url` angelegt und konfiguriert werden.
 
 Verifizieren Sie, dass die Host-Adresse von Odoo korrekt aufgelöst wird.
 
-```
-docker exec -it odoo28 bash
-odoo@0e915a4496a8:/$ curl https://odoo.example.com
-curl: (60) SSL certificate problem: certificate has expired
-More details here: https://curl.se/docs/sslcerts.html
+```bash
+docker exec -it odoo01 bash
+odoo@0e915a4496a8:/$ getent hosts odoo.example.com
+192.168.5.228   odoo.example.ch
 ```
 
 ## Buchhaltung
