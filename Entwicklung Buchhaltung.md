@@ -19,7 +19,10 @@ Navigieren Sie nach *Buchhalung > Konfiguration > Buchhalungsberichte*. Rufen Si
 
 Wenn Sie die [Definition Buchhaltungsbericht anzeigen](#Definition%20Buchhaltungsbericht%20anzeigen) fügen Sie eine Zeile hinzu:
 
-* **Berichtszeile**: Geben Sie einen Namen im folgenden Schema: "Steuerziffer - Typ Steusatz (Steuersatz in Prozent): Bezeichnung"
+* **Berichtszeile**: Geben Sie einen Namen im folgenden Schema:
+
+	Steuerziffer - Typ Steuersatz (Steuersatz in Prozent): Bezeichnung
+
 * **Übergeordnete Zeile**: Zur hierarchischen Gleiderung wählen Sie die überliegende Zeile aus.
 * **Code**: Geben Sie einen eindeutigen Code ein.
 * **Ausdrücke**:
