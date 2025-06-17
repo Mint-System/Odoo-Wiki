@@ -21,7 +21,7 @@ Wenn Sie die [Definition Buchhaltungsbericht anzeigen](#Definition%20Buchhaltung
 
 * **Berichtszeile**: Geben Sie einen Namen im folgenden Schema:
 
-	Steuerziffer - Typ Steuersatz (Steuersatz in Prozent): Bezeichnung
+> Steuerziffer - Typ Steuersatz (Steuersatz in Prozent): Bezeichnung
 
 * **Übergeordnete Zeile**: Zur hierarchischen Gleiderung wählen Sie die überliegende Zeile aus.
 * **Code**: Geben Sie einen eindeutigen Code ein.
