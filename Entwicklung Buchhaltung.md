@@ -23,7 +23,7 @@ Wenn Sie die [Definition Buchhaltungsbericht anzeigen](#Definition%20Buchhaltung
 
 > Steuerziffer - Typ Steuersatz (Steuersatz in Prozent): Bezeichnung
 
-* **Übergeordnete Zeile**: Zur hierarchischen Gleiderung wählen Sie die überliegende Zeile aus.
+* **Übergeordnete Zeile**: Zur hierarchischen Gliederung wählen Sie die überliegende Zeile aus.
 * **Code**: Geben Sie einen eindeutigen Code ein.
 * **Ausdrücke**:
 	* **Ausdruck**: Verwenden Sie hier `balance`.
