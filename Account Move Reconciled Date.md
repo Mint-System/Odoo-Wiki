@@ -1,6 +1,6 @@
 ---
 title: Account Move Reconciled Date
-description: Das letzte Abstimmungsdatum von Rechnungen anzeigen.
+description: Das letzte Zahlungs- und Abstimmungsdatum von Rechnungen anzeigen.
 kind: howto
 tags:
 - Drittanbieter
@@ -16,14 +16,12 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Reconcile/tree/16.
 
 ## Verwendung
 
-### Letzte Abstimmungsdatum anzeigen
+### Letztes Zahlungs- und Abstimmungsdatum anzeigen
 
-Mit dieser Erweiterung wird in der Liste der Rechnung zusätzlich zum Zahlungsstatus das letzte Abstimmungsdatum angezeigt. Navigieren Sie nach *Buchhaltung > Lieferanten > Rechnungen* und blenden Sie das Feld *Reconcile Date* ein.
-
-![Sale Move Reconciled Date](attachments/Account%20Move%20Reconciled%20Date.png)
+Mit dieser Erweiterung wird in der Liste der Rechnung zusätzlich zum Zahlungsstatus das letzte Zahlungs- und Absteimmungsdatum angezeigt. Navigieren Sie nach *Buchhaltung > Lieferanten > Rechnungen* und blenden Sie das Feld *Payment Date* und/oder *Reconcile Date* ein.
 
 ::: tip
-Wenn es mehrere Abstimmungen für die Rechnungen gibt, wird das jüngste Datum ausgewählt. 
+Wenn es mehrere Abstimmungen für eine Rechnungen gibt, wird das jüngste Datum ausgewählt. 
 :::
 
 ::: warning
