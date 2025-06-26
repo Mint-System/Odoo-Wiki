@@ -51,6 +51,33 @@ for line in records.invoice_line_ids:
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
 
+### Abonnement-Informationen migrieren
+
+Mit dieser Aktion können nach einer Migration von Odoo 15.0 auf 16.0 und höher die Abonnement-Informationen von den archivierten Verkaufsaufträgen auf die aktiven übertragen werden. 
+
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Abonnement-Informationen migrieren`\
+Modell: `sale.order`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for order in records:
+    origin_order_id = order.origin_order_id
+    if origin_order_id:
+        order.write({
+            "plan_id": origin_order_id.plan_id,
+            "next_invoice_date": origin_order_id.next_invoice_date,
+            "start_date": origin_order_id.start_date,
+            "subscription_state": origin_order_id.subscription_state
+        })
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+
+
 ## Geplante Aktionen
 
 Die Aktionen deren Namen mit *Verkaufsabonnment:* beginnt, sind bereits definierte Aktionen. Deren Funktionsweise wird hier erläutert.
