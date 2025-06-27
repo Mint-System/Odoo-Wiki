@@ -1,8 +1,8 @@
 ---
 title: User roles
 description: Gruppenberechtigungen mit Benutzer-Rollen verwalten.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./settings
 ---

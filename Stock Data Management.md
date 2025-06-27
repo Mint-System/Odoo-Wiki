@@ -1,8 +1,7 @@
 ---
 title: Lager Datenmanagement
 description: Daten zu Lager exportieren und importieren.
-tags:
-- HowTo
+kind: howto
 prev: ./stock
 ---
 # Lager Datenmanagement

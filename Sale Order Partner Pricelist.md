@@ -1,8 +1,8 @@
 ---
 title: Sale Order Partner Pricelist
 description: Preislisten-Zugriff mit Verkaufsaufträgen erteilen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./subscription
 ---

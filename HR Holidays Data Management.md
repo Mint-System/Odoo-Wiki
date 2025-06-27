@@ -1,8 +1,7 @@
 ---
 title: Abwesenheiten Datenmanagement
 description: Daten zu Abwesenheit exportieren und importieren.
-tags:
-- HowTo
+kind: howto
 prev: ./hr-holidays
 ---
 # Abwesenheiten Datenmanagement

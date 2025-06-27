@@ -1,8 +1,8 @@
 ---
 title: Stock Production Lot Date
 description: Datum auf Losnummer festlegen und Ablaufdatum relativ setzen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

@@ -1,8 +1,7 @@
 ---
 title: Versand
 description: Versandmethoden und Logistik definieren.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Versand

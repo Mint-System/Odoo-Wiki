@@ -1,8 +1,8 @@
 ---
 title: Sale Order Line Purchase Margin
 description: Kalkulation der Marge basierend auf verlinkter Bestellung.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

@@ -1,8 +1,8 @@
 ---
 title: Mail Activity Board
 description: Übersicht aller erstellten Aktivitäten.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./dashboards
 ---

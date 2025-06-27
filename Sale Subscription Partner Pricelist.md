@@ -1,8 +1,8 @@
 ---
 title: Sale Subscription Partner Pricelist
 description: Preislisten-Zugriff mit Abonnements erteilen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./subscription
 ---

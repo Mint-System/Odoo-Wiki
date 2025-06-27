@@ -1,8 +1,8 @@
 ---
 title: MRP Production Release
 description: Fertigungsaufträge können zurückgesetzt und freigegebenen werden.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

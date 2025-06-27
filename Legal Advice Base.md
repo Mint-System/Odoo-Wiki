@@ -1,8 +1,8 @@
 ---
 title: Legal Advice Base
 description: Rechtsberatungen mit Kunden und Experten abwickeln.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./
 ---

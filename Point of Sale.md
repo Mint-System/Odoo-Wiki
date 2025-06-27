@@ -1,8 +1,7 @@
 ---
 title: Kassensystem
 description: In wenigen Minuten einrichten, innerhalb von Sekunden verkaufen.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Kassensystem

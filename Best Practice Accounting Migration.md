@@ -1,8 +1,7 @@
 ---
 title: Migration Buchhaltung
 description: Wie Sie am besten ihre Buchhaltung nach Odoo migirieren.
-tags:
-- Best-Practice
+kind: explain
 prev: ./best-practice
 ---
 

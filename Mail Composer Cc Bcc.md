@@ -1,8 +1,8 @@
 ---
 title: Email Cc and BCC
 description: Im E-Mail-Dialog Cc und Bcc festlegen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./dialog
 ---

@@ -1,8 +1,7 @@
 ---
 title: Bewertungen
 description: Führen Sie Mitarbeiterbeurteilungen transparent durch.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Bewertungen

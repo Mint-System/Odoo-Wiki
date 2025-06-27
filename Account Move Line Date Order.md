@@ -1,8 +1,8 @@
 ---
 title: Account Move Line Date Order
 description: Auftragsdatum von Verkaufsauftrag auf Liste Buchungszeilen anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./order-positions
 ---

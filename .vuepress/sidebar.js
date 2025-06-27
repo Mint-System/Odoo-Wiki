@@ -220,6 +220,7 @@ export default [
         "collapsible": true,
         "children": [
           "hr-holidays-data-management.md",
+          "dialog-datenmanagement.md",
           "settings-data-management.md",
           "manufacture-data-management.md",
           "partner-data-management.md",
@@ -234,6 +235,7 @@ export default [
         "children": [
           "dialog-actions.md",
           "dialog-activities.md",
+          "dialog-datenmanagement.md",
           "dialog-e-mail.md"
         ]
       },
@@ -278,11 +280,12 @@ export default [
         "collapsible": true,
         "children": [
           "development-actions.md",
-          "develpment-views.md",
+          "development-views.md",
           "development-reports.md",
           "entwicklung-buchhaltung.md",
           "development-models.md",
           "development-performance.md",
+          "development-runboat.md",
           "development-runbot.md",
           "development-snippets.md",
           "development-website.md"
@@ -346,6 +349,15 @@ export default [
         "children": [
           "hr-activities.md",
           "hr-contract.md"
+        ]
+      },
+      {
+        "text": "HR Payroll",
+        "collapsible": true,
+        "children": [
+          "personalabrechnung-aktionen.md",
+          "personalabrechnung-berichte.md",
+          "personalabrechnung-eingaben.md"
         ]
       },
       {
@@ -614,6 +626,7 @@ export default [
           "purchase-order-line-price-default.md",
           "purchase-order-line-relay-price.md",
           "purchase-order-notes.md",
+          "purchase-order-owner.md",
           "purchase-order-partner-incoterm.md",
           "purchase-order-partner-shipping.md",
           "purchase-order-subscription.md",
@@ -670,6 +683,8 @@ export default [
           "muk-rest.md",
           "onchange-helper.md",
           "prometheus-exporter.md",
+          "queue-job-cron.md",
+          "queue-job.md",
           "report-xlsx.md",
           "server-environment-ir-config-parameter.md",
           "server-environment.md",
@@ -720,6 +735,13 @@ export default [
         ]
       },
       {
+        "text": "Calendar",
+        "collapsible": true,
+        "children": [
+          "caldav-sync.md"
+        ]
+      },
+      {
         "text": "Contacts",
         "collapsible": true,
         "children": [
@@ -746,6 +768,7 @@ export default [
           "partner-email-history.md",
           "partner-firstname.md",
           "partner-hide-address.md",
+          "partner-manual-rank.md",
           "partner-multi-pricelist.md",
           "partner-multi-relation",
           "partner-multiline-street2.md",
@@ -840,9 +863,6 @@ export default [
         "collapsible": true,
         "children": [
           "lohnmeldung.md",
-          "personalabrechnung-aktionen.md",
-          "personalabrechnung-berichte.md",
-          "personalabrechnung-eingaben.md",
           "gio-payroll-custom.md"
         ]
       },
@@ -1268,8 +1288,9 @@ export default [
         "collapsible": true,
         "children": [
           "helm.md",
-          "kubectl",
-          "website-sale-helm.md"
+          "sale-helm.md",
+          "website-sale-helm.md",
+          "kubectl"
         ]
       }
     ]

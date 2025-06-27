@@ -1,8 +1,8 @@
 ---
 title: Account Invoice Comment
 description: Kommentarfeld auf Rechnung.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

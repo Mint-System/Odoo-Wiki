@@ -1,8 +1,7 @@
 ---
 title: Verkauf Preise
 description: Produkte, Preislisten und Varianten zentral pflegen.
-tags:
-- HowTo
+kind: howto
 prev: ./sale
 ---
 # Verkauf Preise

@@ -1,8 +1,7 @@
 ---
 title: Terminal Zeiterfassung
 description: Ein- und auschecken mit dem Terminal Zeiterfassung.
-tags:
-- HowTo
+kind: howto
 prev: ./hr-timesheet
 ---
 # Terminal Zeiterfassung

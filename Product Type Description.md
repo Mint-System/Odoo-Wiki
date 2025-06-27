@@ -1,8 +1,8 @@
 ---
 title: Product Type Description
 description: Zu jedem Produkt ein Beschreibungsfeld.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

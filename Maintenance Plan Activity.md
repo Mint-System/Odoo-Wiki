@@ -1,8 +1,8 @@
 ---
 title: Maintenance Plan Activity
 description: Wartungspläne mit Aktivitäten erstellen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./maintenance
 ---

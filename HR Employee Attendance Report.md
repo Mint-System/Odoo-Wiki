@@ -1,8 +1,8 @@
 ---
 title: HR Employee Attendance Report
 description: Stundenzettel mit Anwesenheit, Abwesenheiten und Überstunden.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-holidays
 ---

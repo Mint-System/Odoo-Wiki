@@ -1,8 +1,8 @@
 ---
 title: HR Holidays User ACL
 description: Zugriffsrechte auf Abwesenheiten festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

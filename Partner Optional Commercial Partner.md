@@ -1,8 +1,8 @@
 ---
 title: Partner Optional Commercial Partner
 description: Kontakt selbst als Handelsgesellschaft festzulegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

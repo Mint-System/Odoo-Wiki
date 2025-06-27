@@ -1,8 +1,8 @@
 ---
 title: Mail Debrand
 description: Odoo Promotion aus E-Mail-Vorlagen entfernen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./dialog
 ---

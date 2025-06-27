@@ -1,14 +1,19 @@
 ---
 title: Verkauf Lager
 description: Lieferungen aus Verkaufsaufträge erstellen.
-tags:
-- HowTo
+kind: howto
 prev: ./sale
 ---
 # Verkauf Lager
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
 {{ $frontmatter.description }}
+
+## Erweiterungen
+
+| Erweiterung                                 | Beschreibung                                              |
+| ------------------------------------------- | --------------------------------------------------------- |
+| [Sale Stock Owner](Sale%20Stock%20Owner.md) | Kunde als Besitzer an Lieferungen und Beständen zuordnen. |
 
 ## Konfiguration
 

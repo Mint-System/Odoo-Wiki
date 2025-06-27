@@ -1,8 +1,8 @@
 ---
 title: Partner Ref Sequence
 description: Automatische Vergabe der Kontakt-Referenz.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

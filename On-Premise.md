@@ -1,8 +1,7 @@
 ---
 title: On-Premise
 description: Managed Server mit Odoo Plattform von Mint System.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # On-Premise

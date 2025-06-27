@@ -1,8 +1,8 @@
 ---
 title: Stock Quant Package Dimension
 description: Dimensionen und geschätztes Gewicht auf Paket.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./stock
 ---

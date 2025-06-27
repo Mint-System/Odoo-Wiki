@@ -1,8 +1,8 @@
 ---
 title: Sale Invoice Prepare Partner
 description: Kontakte aus Verkaufsauftrag auf Rechnung kopieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

@@ -1,8 +1,8 @@
 ---
 title: Zebroo Sync
 description: Umfassende Synchronisationslösung basierend auf Odoo.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./
 ---

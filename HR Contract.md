@@ -1,8 +1,7 @@
 ---
 title: Personal Verträge
 description: Personalverträge zentral verwalten.
-tags:
-- HowTo
+kind: howto
 prev: ./hr
 ---
 # Personal Verträge

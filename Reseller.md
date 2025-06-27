@@ -1,8 +1,7 @@
 ---
 title: Reseller
 description: Partnerschaften mit Wiederverkäufer pflegen.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 

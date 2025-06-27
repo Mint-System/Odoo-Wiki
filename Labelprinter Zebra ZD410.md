@@ -1,8 +1,7 @@
 ---
 title: Etikettendrucker Zebra ZD410
 description: Etikettendrucker für Odoo.
-tags:
-- HowTo
+kind: howto
 prev: ./iot
 ---
 # Etikettendrucker Zebra ZD410

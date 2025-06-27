@@ -1,8 +1,8 @@
 ---
 title: Partner Type Sale
 description: Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

@@ -1,8 +1,8 @@
 ---
 title: Base DB Anonymization
 description: Inhalt von ausgewählten Datenbank-Felder anonmyisieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./database
 ---

@@ -1,8 +1,8 @@
 ---
 title: Mail Server Filter
 description: Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./base
 ---

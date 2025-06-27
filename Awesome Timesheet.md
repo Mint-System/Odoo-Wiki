@@ -1,8 +1,7 @@
 ---
 title: Awesome Timesheet
 description: Mobile Zeiterfassung.
-tags:
-- HowTo
+kind: howto
 prev: ./hr-timesheet
 ---
 # Awesome Timesheet

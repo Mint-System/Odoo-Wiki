@@ -1,8 +1,7 @@
 ---
 title: Lager Verpackungen
 description: Verpackungen effizient verwalten.
-tags:
-- HowTo
+kind: howto
 prev: ./stock
 ---
 # Lager Verpackungen

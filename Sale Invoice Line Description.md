@@ -1,8 +1,8 @@
 ---
 title: Sale Invoice Line Description
 description: Buchungszeilen generiert aus Verkaufsaufträgen enthalten nur den Anzeigenamen des Produkts.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

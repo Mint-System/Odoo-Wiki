@@ -1,8 +1,7 @@
 ---
 title: Datenmanagement
 description: Importieren und Exportieren Sie alle Odoo Daten.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Datenmanagement
@@ -12,15 +11,16 @@ prev: ./
 
 ## Bereiche
 
-| Bereich                                                             | Beschreibung                                        |
-| ------------------------------------------------------------------- | --------------------------------------------------- |
-| [Abwesenheiten Datenmanagement](HR%20Holidays%20Data%20Management.md) | Daten zu Abwesenheiten exportieren und importieren.   |
-| [Einstellungen Datenmanagement](Settings%20Data%20Management.md)    | Daten zu Einstellungen exportieren und importieren. |
-| [Fertigung Datenmanagement](Manufacture%20Data%20Management.md)     | Produkte und Dienstleistungen zentral pflegen.      |
-| [Kontakte Datenmanagement](Partner%20Data%20Management.md)          | Daten zu Kontakte exportieren und importieren.      |
-| [Kundendienst Datenmanagement](Helpdesk%20Data%20Management.md)     | Daten zu Kundendienst exportieren und importieren.  |
-| [Projekt Datenmanagement](Project%20Data%20Management.md)           | Daten zu Projekte exportieren und importieren.      |
-| [Umfragen Datenmanagement](Survey%20Datamanagement.md)              | Daten zu Umfragen exportieren und importieren.      |
+| Bereich                                                               | Beschreibung                                        |
+| --------------------------------------------------------------------- | --------------------------------------------------- |
+| [Abwesenheiten Datenmanagement](HR%20Holidays%20Data%20Management.md) | Daten zu Abwesenheiten exportieren und importieren. |
+| [Dialog Datenmanagement](Dialog%20Datenmanagement.md)                 | Daten zu Dialog exportieren und importieren.        |
+| [Einstellungen Datenmanagement](Settings%20Data%20Management.md)      | Daten zu Einstellungen exportieren und importieren. |
+| [Fertigung Datenmanagement](Manufacture%20Data%20Management.md)       | Produkte und Dienstleistungen zentral pflegen.      |
+| [Kontakte Datenmanagement](Partner%20Data%20Management.md)            | Daten zu Kontakte exportieren und importieren.      |
+| [Kundendienst Datenmanagement](Helpdesk%20Data%20Management.md)       | Daten zu Kundendienst exportieren und importieren.  |
+| [Projekt Datenmanagement](Project%20Data%20Management.md)             | Daten zu Projekte exportieren und importieren.      |
+| [Umfragen Datenmanagement](Survey%20Datamanagement.md)                | Daten zu Umfragen exportieren und importieren.      |
 
 ## Vorgänge
 
@@ -99,7 +99,7 @@ In der Listenansicht können Datensätze ausgewählt und als Sammelmutation geä
 
 ### Importzuordnung anzeigen
 
-Damit Sie eine Übersicht der Importzuordnung erhalten, erstellen Sie als erstes eine neue Ansicht gemäss [Ansicht erstellen](Develpment%20Views.md#Ansicht%20erstellen) mit diesen Angaben:
+Damit Sie eine Übersicht der Importzuordnung erhalten, erstellen Sie als erstes eine neue Ansicht gemäss [Ansicht erstellen](Development%20Views.md#Ansicht%20erstellen) mit diesen Angaben:
 
 Ansichtsbezeichnung: `mint_system.base_import.mapping.tree`
 Modell: `base_import.mapping`\

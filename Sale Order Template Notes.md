@@ -1,8 +1,8 @@
 ---
 title: Sale Order Template Notes
 description: Notizen auf Angebotsvorlage.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

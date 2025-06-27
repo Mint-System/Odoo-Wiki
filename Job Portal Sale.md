@@ -1,8 +1,8 @@
 ---
 title: Job Portal Sale
 description: Stelleninserate verrechnen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./
 ---

@@ -1,8 +1,8 @@
 ---
 title: Purchase Tags
 description: Einkaufsbestellungen mit Stichwörter.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./purchase-requisition
 ---

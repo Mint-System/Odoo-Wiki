@@ -1,8 +1,8 @@
 ---
 title: Product Dimension Attributes
 description: Product dimension attributes.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./product
 ---

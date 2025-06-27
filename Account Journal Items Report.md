@@ -1,8 +1,8 @@
 ---
 title: Account Journal Items Report
 description: Kontoauszug basierend auf Buchungszeilen erstellen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./accounting
 ---

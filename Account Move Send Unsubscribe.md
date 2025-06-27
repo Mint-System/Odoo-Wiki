@@ -1,8 +1,8 @@
 ---
 title: Account Move Send Unsubscribe
 description: Alle Abonnenten nach Versenden der Rechnung entfernen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./dialog
 ---

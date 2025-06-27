@@ -1,8 +1,7 @@
 ---
 title: Odoo.sh
 description: Platform-as-a-Service Angebot von Odoo.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Odoo.sh

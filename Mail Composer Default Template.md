@@ -1,8 +1,8 @@
 ---
 title: Mail Composer Default Template
 description: Standardvorlage für den E-Mail-Dialog festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./dialog
 ---

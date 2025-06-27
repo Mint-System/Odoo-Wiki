@@ -1,8 +1,7 @@
 ---
 title: Contract Format Date Marker
 description: Datum aus Vertragszeile in Rechnung anzeigen und formatieren.
-tags:
-- HowTo
+kind: howto
 prev: ./contract
 ---
 # Contract Format Date Marker

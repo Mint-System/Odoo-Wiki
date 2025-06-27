@@ -1,8 +1,8 @@
 ---
 title: Mmgt Asset
 description: Asset-Verwaltung für das Management-System.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./management-system
 ---

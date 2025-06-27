@@ -1,8 +1,8 @@
 ---
 title: MRP Workorder Disable Autostart
 description: Bei Aufruf von Arbeitsaufträgen in der Tablet-Ansicht nicht automatisch starten.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

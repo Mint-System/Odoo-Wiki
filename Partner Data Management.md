@@ -1,8 +1,7 @@
 ---
 title: Kontakte Datenmanagement
 description: Daten zu Kontakte exportieren und importieren.
-tags:
-- HowTo
+kind: howto
 prev: ./contacts
 ---
 # Kontakte Datenmanagement

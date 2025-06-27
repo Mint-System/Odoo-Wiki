@@ -1,8 +1,8 @@
 ---
 title: Website Shop Coupons
 description: Website Coupons & Gutscheine im Odoo Shop.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./website-e-commerce
 ---

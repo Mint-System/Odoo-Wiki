@@ -1,8 +1,7 @@
 ---
 title: Website Berichte
 description: Verkaufszahlen analysieren.
-tags:
-- HowTo
+kind: howto
 prev: ./website
 ---
 # Website Berichte

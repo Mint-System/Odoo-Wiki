@@ -1,8 +1,8 @@
 ---
 title: Invoice Merge PDF Attachment
 description: PDF-Dokumenten von Rechnungen zusammenführen.     
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

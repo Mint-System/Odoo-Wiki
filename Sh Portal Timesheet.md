@@ -1,8 +1,8 @@
 ---
 title: Portal Timesheet
 description: Zeiterfassung im Portal.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-timesheet
 ---

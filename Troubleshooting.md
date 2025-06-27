@@ -1,8 +1,7 @@
 ---
 title: Troubleshooting
 description: Probleme und Lösungen rund um Odoo.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 
@@ -121,13 +120,31 @@ Antworten auf E-Mails, die mit Odoo versendet werden, werden von Odoo nicht vera
 
 **Ursache**
 
-Werden die ausgehenden E-Mail Server bearbeitet oder zurückgesetzt, werden in den Systemparameter die Einstellungen für den Mail-Alias verändert.
+Wenn die ausgehenden E-Mail Server bearbeitet oder zurückgesetzt werden, werden in den Systemparameter die Einstellungen für den Mail-Alias verändert.
 
 **Lösung**
 
 Prüfen Sie die Systemparameter und stellen Sie sicher sich, dass die Schlüssel `mail.catchall.domain` und `mail.catchall.alias` festgelegt sind.
 
+### Eingehende Office 365 Mails werden nicht verarbeitet
+
+**Problem**
+
+Die E-Mails im Office 365 Odoo Postfach werden nicht abgeraufen. Bei Erneuerung des Zugriffs-Token erscheint diese Fehlermeldung:
+
+```
+ Beim Abrufen des Zugriffstokens ist ein Fehler aufgetreten. AADSTS7000222: The provided client secret keys for app 'a06c1e36-dd3f-4240-94d1-1bb4dd78a5fa' are expired. Visit the Azure portal to create new keys for your app: https://aka.ms/NewClientSecret, or consider using certificate credentials for added security: https://aka.ms/certCreds. Trace ID: dbf54f8e-c294-4b29-bc08-2f4e66153f00 Correlation ID: c275ea40-8426-45cd-917d-04c812744798 Timestamp: 2025-04-28 06:18:12Z 
+```
+
+**Lösung**
+
+Erstellen Sie gemäss [Azure OAuth-App Client-Secret neu erstellen](Settings%20OAuth.md#Azure%20OAuth-App%20Client-Secret%20neu%20erstellen) ein neues Client-Secret und speichern Sie es in den Odoo EInstellungen.
+
 ### Office 365 SMTP-Auth deaktiviert
+
+::: tip
+Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+:::
 
 **Problem**
 
@@ -167,6 +184,10 @@ Konfigurieren Sie den ausgehenden E-Mail-Server mit einem Anbieter, der eine hö
 
 ### Office 365 Zugangstoken abgelaufen
 
+::: tip
+Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+:::
+
 **Problem**
 
 E-Mails können nicht versendet werden. Als Fehlerursache werden folgende Angaben gemacht:
@@ -177,15 +198,19 @@ Beim Abrufen des Zugangstokens ist ein Fehler aufgetreten. AADSTS7000222: The pr
 
 **Ursache**
 
-Das Client-Secret der Azure-App ist abglaufen.
+Das Client-Secret der Entra-App ist abglaufen.
 
 ![](attachments/Office%20365%20Token%20abgelaufen.png)
 
 **Lösung**
 
-Erstellen Sie ein neues Client-Secret und speichern Sie es in den Odoo EInstellungen.
+Erstellen Sie gemäss [Azure OAuth-App Client-Secret neu erstellen](Settings%20OAuth.md#Azure%20OAuth-App%20Client-Secret%20neu%20erstellen) ein neues Client-Secret und speichern Sie es in den Odoo EInstellungen.
 
 ### Office 365 Refreshtoken abgelaufen
+
+::: tip
+Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+:::
 
 **Problem**
 
@@ -277,14 +302,13 @@ Mit der neuen externen ID bestimmen Sie einen anderen Bentuzer als Administrator
 Wenn wkhtmltopdf die PDF-Datei erstellt, wird dieser Fehler geworfen:
 
 ```
-2022-06-13 20:03:37,244 1 WARNING odoo odoo.addons.base.models.ir_actions_report: wkhtmltopdf: b'Exit with code 1 due to network error: ConnectionRefusedError\n'
+wkhtmltopdf: b'Exit with code 1 due to network error: ConnectionRefusedError\n'
 ```
 
 Oder dieser Fehler:
 
 ```
-2022-06-20 16:43:05,267 1 WARNING odoo odoo.addons.base.models.ir_actions_report: wkhtmltopdf: b'Exit with code 1 due to network error: ContentNotFoundError\n'
-2
+wkhtmltopdf: Exit with code 1 due to network error: ContentNotFoundError
 ```
 
 Das generierte PDF enthält keine Formatierungen.
@@ -299,17 +323,14 @@ Eine weitere Ursache kann auch sein, dass die Host-Adresse von Odoo innerhalb de
 
 **Lösung**
 
-In den Systemparameter von Odoo muss beim Eintrag `web.base.url`  die URL von https auf http gewechselt werden.
-
-Stellen Sie sicher, dass der Systemparameter `report.url` nicht existiert.
+Legen Sie in den Systemparameter von Odoo den Wert von  `web.base.url` fest und fixieren Sie die Url `https://`  die URL von `https` auf `http` gewechselt werden. Alternativ kann der Systemparameter  `report.url` angelegt und konfiguriert werden.
 
 Verifizieren Sie, dass die Host-Adresse von Odoo korrekt aufgelöst wird.
 
-```
-docker exec -it odoo28 bash
-odoo@0e915a4496a8:/$ curl https://odoo.example.com
-curl: (60) SSL certificate problem: certificate has expired
-More details here: https://curl.se/docs/sslcerts.html
+```bash
+docker exec -it odoo01 bash
+odoo@0e915a4496a8:/$ getent hosts odoo.example.com
+192.168.5.228   odoo.example.ch
 ```
 
 ## Buchhaltung

@@ -1,8 +1,8 @@
 ---
 title: Odoo Sync
 description: Odoo nach Odoo synchronisieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./zebroo-sync
 ---

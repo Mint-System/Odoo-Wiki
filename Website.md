@@ -1,8 +1,7 @@
 ---
 title: Website
 description: Website Builder für Unternehmen. Einfach. Mobil. Open Source.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Website

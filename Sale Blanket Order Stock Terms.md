@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Stock Terms
 description: Legen Sie Lieferbedingungen auf dem Rahmenauftrag fest. 
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

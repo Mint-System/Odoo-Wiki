@@ -97,7 +97,7 @@ Hostnames:
 Mail-Adressen:
 
 * Support: support@example.com
-* Catchall: catchall@example.com
+* Catchall: reply@example.com
 * Odoo Bot: odoobot@example.com
 * Administrator: admin@example.com
 * Odoo Postfach: erp@example.com
@@ -210,8 +210,8 @@ Für jede Odoo-App existiert eine Seite. Beispielsweise gibt es die Seite [Notiz
 ---
 title: App Name
 description: Description about the App.
+kind: howto
 tags:
-- HowTo
 - OCA
 - Best-Practice
 - Drittanbieter
@@ -293,3 +293,36 @@ Odoo Version:
 * #Odoo16: Tag für Odoo Version 16.
 * #Odoo17: Tag für Odoo Version 17.
 
+## Externe Links
+
+### Affiliate Links
+
+Zu bestimmten Themen und Stichwörter werden Affiliate-Links platziert.
+
+**Office 365**
+
+Verwandt: Exchange
+
+```
+::: tip
+Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+:::
+```
+
+**Microsoft**
+
+Verwandt: Azure, Entra
+
+```
+::: tip
+Wir empfehlen Produkte von [Infomaniak](https://www.infomaniak.com/goto/de/home?utm_term=67ff9acbaabca) anstatt Microsoft zu verwenden.
+:::
+```
+
+**Outlook**
+
+```
+::: tip
+Wir empfehlen [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hosting.mail?utm_term=67ff9acbaabca) anstatt Outlook zu verwenden.
+:::
+```

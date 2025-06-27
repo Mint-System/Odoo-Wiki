@@ -1,8 +1,8 @@
 ---
 title: Project Template
 description: Projekt aus Projektvorlage erstellen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./project
 ---

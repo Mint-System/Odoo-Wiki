@@ -1,8 +1,8 @@
 ---
 title: Stock MRP Traceability List
 description: Daten aus Lieferverfolgungsbericht als Liste anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

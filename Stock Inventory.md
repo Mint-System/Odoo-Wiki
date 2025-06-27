@@ -1,8 +1,7 @@
 ---
 title: Lager Bestand
 description: Den Lagerbestand optimal verwalten.
-tags:
-- HowTo
+kind: howto
 prev: ./stock
 ---
 # Lager Bestand
@@ -14,7 +13,11 @@ prev: ./stock
 
 ### GS1-Barcodes aktivieren
 
-Navigieren Sie nach *Einstellungen > Lager > Rückverfolgbarkeit* und aktivieren Sie die Option *GS1-Barcodes für Los- & Seriennummern drucken*. Wenn Sie die Standardetiketten drucken, wird statt dem 
+Navigieren Sie nach *Einstellungen > Lager > Rückverfolgbarkeit* und aktivieren Sie die Option *GS1-Barcodes für Los- & Seriennummern drucken*. Wenn Sie die Standardetiketten drucken, wird statt dem
+
+### Konsignationslager aktivieren
+
+Mit dem Konsignationslager können Bestände an Kontakte zugeordnet werden. Navigieren Sie nach *Einstellungen > Lager > Rückverfolgbarkeit* und aktivieren Sie dei Option *Konsignationslager*.
 
 ## Bestand
 

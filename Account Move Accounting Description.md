@@ -1,8 +1,8 @@
 ---
 title: Account Move Accounting Description
 description: Beschreibungsfeld für Rechnungszeile.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./accounting
 ---

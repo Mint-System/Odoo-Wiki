@@ -1,8 +1,8 @@
 ---
 title: Ventor Base
 description: Basismodul für Ventor-Apps.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

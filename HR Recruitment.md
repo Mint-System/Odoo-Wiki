@@ -1,8 +1,7 @@
 ---
 title: Personalbeschaffung
 description: Einstellungsprozess leicht gemacht.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Personalbeschaffung

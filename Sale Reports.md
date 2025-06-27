@@ -1,8 +1,7 @@
 ---
 title: Verkauf Berichte
 description: Verkaufsdaten immer aktuell.
-tags:
-- HowTo
+kind: howto
 prev: ./sale
 ---
 # Verkauf Berichte
@@ -26,7 +25,7 @@ Wählen Sie ganz einfach die entsprechenden Felder:
 
 ### Auftragszeilen mit dynamischen Filter auswerten
 
-Wenn Sie [Auftragszeilen anzeigen](Sale.md#Auftragszeilen%20anzeigen) können Sie in der Pivot-Ansicht einen [Filter mit dynamischen Datum erstellen](Develpment%20Views.md#Filter%20mit%20dynamischen%20Datum%20erstellen). Verwenden Sie diese Paramter zur Konfiguration des Filters für die Auftragszeilen:
+Wenn Sie [Auftragszeilen anzeigen](Sale.md#Auftragszeilen%20anzeigen) können Sie in der Pivot-Ansicht einen [Filter mit dynamischen Datum erstellen](Development%20Views.md#Filter%20mit%20dynamischen%20Datum%20erstellen). Verwenden Sie diese Paramter zur Konfiguration des Filters für die Auftragszeilen:
 
 * **Domain**: 
 

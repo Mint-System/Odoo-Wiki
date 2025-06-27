@@ -1,8 +1,8 @@
 ---
 title: Sale Move Reconciled Date
 description: Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./accounting
 ---

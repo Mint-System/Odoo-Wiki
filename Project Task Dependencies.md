@@ -1,8 +1,8 @@
 ---
 title: Project Task Dependencies
 description: Projektaufgaben mit Abhängigkeiten.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./project
 ---

@@ -1,8 +1,7 @@
 ---
 title: Spesen Aktionen
 description: Aktionen für Spesen App einrichten.
-tags:
-- HowTo
+kind: howto
 prev: ./hr-attendance
 ---
 # Spesen Aktionen

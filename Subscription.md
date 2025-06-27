@@ -1,8 +1,7 @@
 ---
 title: Abonnemente
 description: Wiederkehrende Rechnungsstellung und Management von Abonnenten auf einfache Art und Weise.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Abonnemente
@@ -57,7 +56,7 @@ Wenn Sie die ausgewählte [Preisliste anzeigen](Sale%20Price.md#Preisliste%20anz
 
 Mit dem Filter *Erneuerungsangebote* können Sie alle Abonnemente, die aus der Aktion *Erneuern* entstanden und im Zustand *Angebot* sind, anzeigen.
 
-Führen Sie [Filter manuell anlegen](Develpment%20Views.md#Filter%20manuell%20anlegen) mit diesen Angaben aus:
+Führen Sie [Filter manuell anlegen](Development%20Views.md#Filter%20manuell%20anlegen) mit diesen Angaben aus:
 
 | Feld              | Wert                                                                                                               |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------ |

@@ -1,8 +1,8 @@
 ---
 title: HR Shortname
 description: Zu jedem Mitarbeitenden ein Kürzel speichern.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr
 ---

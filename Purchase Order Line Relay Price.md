@@ -1,8 +1,8 @@
 ---
 title: Purchase Order Line Relay Price
 description: Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den Verkäufer.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase
 ---

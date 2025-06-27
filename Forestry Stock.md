@@ -1,8 +1,7 @@
 ---
 title: Holzwirtschaft Lager
 description: Erweiterung Lager für die Holzwirtschaft.
-tags:
-- HowTo
+kind: howto
 prev: ./forestry-base
 ---
 # Holzwirtschaft Lager

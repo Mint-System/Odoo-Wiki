@@ -1,8 +1,8 @@
 ---
 title: Survey Send To List
 description: Versand Umfrage an Mailing-Liste.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./mass-mailing
 ---

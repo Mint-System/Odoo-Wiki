@@ -1,8 +1,8 @@
 ---
 title: Account Followup Email From
 description: Mahnbericht von definierter E-Mail-Adresse verschicken.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

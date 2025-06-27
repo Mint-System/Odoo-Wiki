@@ -1,8 +1,7 @@
 ---
 title: Maintenance Plan Request Name
 description: Name von Wartungsplan in Wartungsanfrage übernehmen
-tags:
-- HowTo
+kind: howto
 prev: ./manufacture
 ---
 # Maintenance Plan Request Name

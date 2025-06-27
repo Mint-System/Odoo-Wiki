@@ -1,8 +1,7 @@
 ---
 title: Wartung
 description: Wartungs-Software für moderne Hersteller.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Wartung
@@ -43,7 +42,7 @@ Navigieren Sie nach *Wartung > Wartung > Wartungsanfragen* und erstellen Sie ein
 
 ### Ansicht Prüf- und Messmittel erstellen
 
-Erstellen Sie eine neue Ansicht gemäss [Ansicht erstellen](Develpment%20Views.md#Ansicht%20erstellen) mit diesen Attributen:
+Erstellen Sie eine neue Ansicht gemäss [Ansicht erstellen](Development%20Views.md#Ansicht%20erstellen) mit diesen Attributen:
 
 **Ansichtsbezeichnung**: `mint_system.maintenance.hr_equipment_view_tree.calibration_overview`
 **Modell**: `maintenance.equipment`\

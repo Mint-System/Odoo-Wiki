@@ -1,8 +1,7 @@
 ---
 title: Buchhaltung Mehrere Währungen
 description: Unterschiedliche Währungen mit Odoo Buchhaltung verarbeiten.
-tags:
-- HowTo
+kind: howto
 prev: ./accounting
 ---
 # Buchhaltung Mehrere Währungen

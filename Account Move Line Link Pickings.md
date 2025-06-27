@@ -1,8 +1,8 @@
 ---
 title: Account Move Line Link Pickings
 description: Lieferaufträge mit Rechnungszeile verlinken.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./accounting
 ---

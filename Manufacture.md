@@ -1,8 +1,7 @@
 ---
 title: Fertigung
 description: Eine moderne Lösung für ein altes Problem.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Fertigung
@@ -97,3 +96,14 @@ Damit die mehrstufige Fertigungs-Route direkt den Produkten zugewiesen werden ka
 
 ![](attachments/Fertigung%20Lager%20Auswahlmöglichkeit.png)
 :::
+
+## Berichte
+
+### Work Entries anzeigen
+
+Damit Sie eine Übersicht der *Work Entries* erhalten, folgen Sie dem HowTo [Menüposten erstellen](Development.md#Men%C3%BCposten%20erstellen) und verwenden diese Werte:
+
+Menü: `Work Entries`  
+Obermenü: `Fertigung/Berichtswesen`  
+Aktion: `ir.actions.act_window` `Work Entries`  
+Sequenz: 3

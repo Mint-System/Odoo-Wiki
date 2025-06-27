@@ -1,8 +1,7 @@
 ---
 title: Umfragen
 description: Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Umfragen

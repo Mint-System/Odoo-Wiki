@@ -1,8 +1,8 @@
 ---
 title: Audit Log
 description: Operationen auf Daten loggen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./base
 ---

@@ -1,8 +1,8 @@
 ---
 title: Inactive Sessions Timeout
 description: Session-Timeout festlegen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./settings
 ---

@@ -1,8 +1,8 @@
 ---
 title: Url Slug
 description: Mixin zur Generierung von Url-Slugs.   
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./base
 ---

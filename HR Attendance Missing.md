@@ -1,8 +1,8 @@
 ---
 title: HR Attendance Missing
 description: Fehlende Anwesenheiten erstellen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-attendance
 ---

@@ -1,8 +1,8 @@
 ---
 title: AMQP Base
 description: AMQP Zielhosts verwalten.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

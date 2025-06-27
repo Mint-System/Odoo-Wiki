@@ -1,8 +1,8 @@
 ---
 title: MRP Production Note
 description: Notiz auf Fertigungsauftrag hinzufügen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

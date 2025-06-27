@@ -1,8 +1,7 @@
 ---
 title: Personalabrechnung Eingaben
 description: Lohnabrechnungen mit variablen Eingaben.
-tags:
-- HowTo
+kind: howto
 prev: ./hr-payroll
 ---
 # Personalabrechnung Eingaben
@@ -11,6 +10,26 @@ prev: ./hr-payroll
 {{ $frontmatter.description }}
 
 ## Abrechung
+
+### Bruttolohn basierend auf Zeiterfassung berechnen
+
+Öffnen Sie die Regel *Bruttolohn* der Gehaltsstruktur für Stundenlohn. Passen Sie die Formel  zur Berechnung des Bruttolohns wie folgt an:
+
+**Python Code**
+
+```python
+if payslip.contract_id.wage_type == 'hourly':
+	lines = env['account.analytic.line'].search([
+		('employee_id', '=', payslip.employee_id.id),
+		('x_timesheet_invoice_type', '=', 'billable_time'),
+		('date', '>=', payslip.date_from),
+		('date', '<=', payslip.date_to),
+	])
+	result = payslip.contract_id.hourly_wage*sum(lines.mapped('unit_amount'))
+else:
+	result = payslip.paid_amount + (inputs.BASIC13.amount if inputs.BASIC13 else 0)
+```
+
 
 ### Variable Eingaben mit Lohnart verbuchen
 
@@ -84,6 +103,7 @@ Habenkonto: `1098 Durchlaufkonto Löhne`
 
 Speichern Sie die Lohnart,  fügen Sie einer ausgewählte Lohnabrechnung mit der zugehörigen Lohnstruktur eine Spesen-Eingabe hinzu und berechnen die Abrechnung neu.
 
+
 ### Lohnakonto mit Nachberechnung konfigurieren
 
 Machen Sie Lohnabzüge nach Berechnung des Nettolohn, muss die Lohnabrechnung etwas umstrukturiert werden. Einerseits muss wieder ein variabler Lohntyp konfiguriert werden und anderer
@@ -131,3 +151,13 @@ Speichern Sie die Lohnart,  fügen Sie einer ausgewählte Lohnabrechnung mit der
 Falls Sie für den 13en Monatslohn eine eigene Lohnart aufführen, können Sie diesen Python Code verwenden: `result = inputs["BASIC13"].amount if inputs.get("BASIC13") else 0`
 Als Bedinung verwenden Sie diesen Code: `result = inputs["BASIC13"].amount != 0.0 if inputs.get("BASIC13") else False`
 :::
+
+### Bruttolohn basierend auf abrechenbaren Stunden berechnen
+
+Navigieren Sie nach *Personalabrechnung > Konfiguration > Other Input Types*. Erstellen Sie dort einen Eintrag mit *Beschreibung* `Abrechenbare Stunden` und *Code* `BILLABLE_HOURS`.
+
+Damit die Eingabe in der Lohnabrechnung berücksichtigt wird, muss eine bestehende Lohnart angepasst werden. Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln* und wählen Sie die Lohnart mit Code *BASIC*. Passen Sie die Lohnart wie folgt an:
+
+Python Code: `result = payslip.contract_id.hourly_wage*inputs.BILLABLE_HOURS.amount if inputs.BILLABLE_HOURS else 0`
+
+Speichern Sie die Lohnart,  fügen Sie einer ausgewählte Lohnabrechnung mit der zugehörigen Lohnstruktur eine Eingabe hinzu und berechnen die Abrechnung neu.

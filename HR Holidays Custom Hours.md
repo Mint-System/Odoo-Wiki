@@ -1,8 +1,8 @@
 ---
 title: HR Holidays Custom Hours
 description: Benutzerdefinierte Anzahl Stunden auf Abwesenheit eintragen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./hr-holidays
 ---

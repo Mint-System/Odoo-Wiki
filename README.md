@@ -1,6 +1,7 @@
 ---
 title: Odoo Wiki
 description: Umfassende Dokumentation der Odoo-Funktionen.
+kind: reference
 head:
   - - link
     - rel: canonical
@@ -8,11 +9,13 @@ head:
 tags: 
   - odoo
   - wiki
-  - dokumentation
+  - documentation
   - howto
-  - referenz
-  - prozesse
   - best-practice
+  - tutorial
+  - explanation
+  - references
+  - processes
 ---
 
 # Odoo Wiki

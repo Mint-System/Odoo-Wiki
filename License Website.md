@@ -1,8 +1,7 @@
 ---
 title: License Website
 description: Kundenportal zur Lizenzverwaltung.
-tags:
-- HowTo
+kind: howto
 prev: ./license
 ---
 # License Sale

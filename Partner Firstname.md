@@ -1,8 +1,8 @@
 ---
 title: Partner first name and last name
 description: Unterscheidet Vor- und Nachnamen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./contacts
 ---

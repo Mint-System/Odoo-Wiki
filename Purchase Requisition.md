@@ -1,8 +1,7 @@
 ---
 title: Einkauf Kaufverträge
 description: Kaufverträge für Rahmenbestellungen erstellen.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Einkauf Kaufverträge

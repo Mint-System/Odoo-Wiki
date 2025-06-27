@@ -1,8 +1,7 @@
 ---
 title: Qualität
 description: Für moderne Hersteller.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Qualität

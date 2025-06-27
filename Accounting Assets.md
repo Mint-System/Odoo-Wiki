@@ -1,8 +1,7 @@
 ---
 title: Buchhaltung Anlagenverwaltung
 description: Anlagen verwalten und automatisch Abschreibungen erstellen.
-tags:
-- HowTo
+kind: howto
 prev: ./accounting
 ---
 # Buchhaltung Anlagenverwaltung

@@ -1,8 +1,8 @@
 ---
 title: Show DB Name
 description: Zeigt den Datenbanknamen oben rechts an.   
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./base
 ---

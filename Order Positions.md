@@ -1,8 +1,7 @@
 ---
 title: Positionsnummern
 description: Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Positionsnummern

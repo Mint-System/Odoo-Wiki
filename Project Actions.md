@@ -1,8 +1,7 @@
 ---
 title: Projekt Aktionen
 description: Aktionen für Projekt App einrichten.
-tags:
-- HowTo
+kind: howto
 prev: ./project
 ---
 # Projekt Aktionen

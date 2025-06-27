@@ -1,8 +1,8 @@
 ---
 title: HR Vehicle Request Calendar
 description: Kalenderansicht und Terminbestätigung für Fahrzeuganfragen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr
 ---

@@ -1,8 +1,8 @@
 ---
 title: HR Attendance Policy
 description: Richtlinien für die Anwesenheit festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-attendance
 ---

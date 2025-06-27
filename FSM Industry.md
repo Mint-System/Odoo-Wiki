@@ -1,8 +1,7 @@
 ---
 title: Aussendienst
 description: Bieten Sie Ihren Kunden überall ausgezeichnete Dienstleistungen an.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Aussendienst

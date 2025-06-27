@@ -1,8 +1,7 @@
 ---
 title: Navigation
 description: Navigation in der Benutzeroberfläche von Odoo.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Navigation
@@ -50,11 +49,20 @@ Standardmässig zeigt Odoo 80 Einträge auf einer Listenseite an. Diese Einstell
 
 Odoo merkt sich die Einstellungen für ihren Benutzer und zeigt beim Aufruf der Listenansicht die Spalten wie gewählt an.
 
+
+### Einträge archivieren
+
+Bestimmte Einträge wie Kontakte oder Produkte können archiviert und so ausgeblendet werden. Um Einträge zu archivieren, rufen Sie die entsprechende Listen-Ansicht auf und wählen *Aktion > Archivieren*. 
+
 ### Archivierte Einträge anzeigen
 
 Bestimmte Einträge wie Kontakte oder Produkte können archiviert und so ausgeblendet werden. Um die archivierten Einträge anzuzeigen rufen Sie die entsprechende Listen-Ansicht auf und wählen *Filter > Archiviert*. Es werden alle archivierten Einträge angezeigt.
 
 ![](attachments/Navigation%20Archivierte%20Einträge.png)
+
+### Archivieren Einträge wiederherstellen
+
+Wenn Sie [Archivierte Einträge anzeigen](#Archivierte%20Einträge%20anzeigen) können Sie mit *Aktion > Archivierung aufheben* die Archivierung des gewählten Eintrags rückgängi machen.
 
 ## Dashboard
 

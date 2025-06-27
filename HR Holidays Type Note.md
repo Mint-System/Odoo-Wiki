@@ -1,8 +1,8 @@
 ---
 title: HR Holidays Type Note
 description: Hinweis zur Abwesenheitsart auf Abwesenheit anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-holidays
 ---

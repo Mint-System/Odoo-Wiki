@@ -1,8 +1,8 @@
 ---
 title: Mgmt
 description: Risk Management by Mint System.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./management-system
 ---

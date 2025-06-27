@@ -1,8 +1,8 @@
 ---
 title: Purchase Order Validate
 description: Bestellung vor Versenden oder Bestätigen überprüfen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase
 ---

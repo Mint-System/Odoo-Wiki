@@ -1,8 +1,8 @@
 ---
 title: Sale Invoice Cash Rounding Default
 description: Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

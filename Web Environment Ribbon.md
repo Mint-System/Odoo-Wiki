@@ -1,8 +1,8 @@
 ---
 title: Web Environment Ribbon
 description: Odoo Umgebung mit Banner markieren.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./development
 ---

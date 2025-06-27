@@ -1,8 +1,8 @@
 ---
 title: Mail Service Users
 description: Service-Benutzer von Lizenzvertrag ausschliessen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./base
 ---

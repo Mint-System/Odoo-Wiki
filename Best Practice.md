@@ -1,8 +1,7 @@
 ---
 title: Best Practice
 description: Beschreibt wie man bestimmte Anwendungsfälle in Odoo implementiert.
-tags:
-- Best-Practice
+kind: explain
 prev: ./
 ---
 # Best Practice

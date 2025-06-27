@@ -1,8 +1,8 @@
 ---
 title: Purchase Order Line Position
 description: Einkaufsaufträge mit Positionsnummern.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./order-positions
 ---

@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Discount
 description: Definiere einen Rabatt auf der Rahmenauftragszeile.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

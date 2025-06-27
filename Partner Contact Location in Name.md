@@ -1,8 +1,8 @@
 ---
 title: Partner Contact Location in Name
 description: PLZ und Stadt in Kontaktauswahl anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

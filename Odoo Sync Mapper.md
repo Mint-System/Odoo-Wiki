@@ -1,8 +1,8 @@
 ---
 title: Odoo Sync Mapper
 description: Odoo Attribute mappen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./zebroo-sync
 ---

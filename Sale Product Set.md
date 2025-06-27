@@ -1,8 +1,8 @@
 ---
 title: Sale Product Set
 description: Produktsets definieren und einfach hinzufügen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./sale
 ---

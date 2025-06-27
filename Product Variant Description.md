@@ -1,8 +1,8 @@
 ---
 title: Product Variant Description
 description: Verkaufs-, Einkaufs- und Lieferbeschreibung auf Produktvarianten festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./product
 ---

@@ -1,8 +1,8 @@
 ---
 title: Account Followup Mail Layout
 description: Standard E-Mail-Vorlage für Mahnungserinnerungen verwenden.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

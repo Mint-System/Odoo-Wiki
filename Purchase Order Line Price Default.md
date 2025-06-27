@@ -1,8 +1,8 @@
 ---
 title: Purchase Order Line Price Default
 description: Standardpreis einer Einkaufsposition überschreiben.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase
 ---

@@ -1,8 +1,8 @@
 ---
 title: Partner Multi Relation
 description: Beziehungen zwischen Kontakten definieren.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./contacts
 ---

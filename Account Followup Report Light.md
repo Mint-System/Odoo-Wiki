@@ -1,8 +1,8 @@
 ---
 title: Account Followup Report Light
 description: Minimales Layout für die Tabelle des Mahnberichts.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

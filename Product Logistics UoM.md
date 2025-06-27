@@ -1,8 +1,8 @@
 ---
 title: Product Logistics UoM
 description: Individuelle Mengenheit für Produkte festlegen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./stock
 ---

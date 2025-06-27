@@ -1,8 +1,8 @@
 ---
 title: Sync Transformer Helper
 description: Transformierung der Daten vereinfachen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./zebroo-sync
 ---

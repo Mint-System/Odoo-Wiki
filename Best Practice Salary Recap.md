@@ -1,8 +1,7 @@
 ---
 title: Lohnrekapitulation
 description: Eine einfache und umfassende Odoo-Dokumentation.
-tags:
-- Best-Practice
+kind: explain
 prev: ./best-practice
 ---
 
@@ -12,7 +11,7 @@ Für die Lohndeklaration können Sie eine Auswertung basierend auf den Lohnabrec
 
 Standardmässig sind Lohnabrechnungszeilen nicht sichtbar, Sie müssen dazu das HowTo [Lohnabrechnungszeilen anzeigen](HR%20Payroll.md#Lohnabrechnungszeilen%20anzeigen) ausführen.
 
-In der entsprechenden Ansicht können Sie diesen [Filter manuell anlegen](Develpment%20Views.md#Filter%20manuell%20anlegen):
+In der entsprechenden Ansicht können Sie diesen [Filter manuell anlegen](Development%20Views.md#Filter%20manuell%20anlegen):
 
 | Feld              | Wert                                                                                                                                          |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |

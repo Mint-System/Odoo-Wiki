@@ -1,8 +1,8 @@
 ---
 title: Stock Critical Forecast Link Replenish
 description: Aktionsdatum berücksichtigt aktive Bestandsregeln von Produkten.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock-critical-forecast
 ---

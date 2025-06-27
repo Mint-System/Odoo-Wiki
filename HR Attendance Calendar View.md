@@ -1,8 +1,8 @@
 ---
 title: HR Attendance Calendar View
 description: Kalenderansicht für Anwesenheiten.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./hr-attendance
 ---

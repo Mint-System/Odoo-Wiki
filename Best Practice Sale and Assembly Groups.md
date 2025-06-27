@@ -1,8 +1,7 @@
 ---
 title: Verkaufsgruppen und Baugruppen
 description: Eine einfache und umfassende Odoo-Dokumentation.
-tags:
-- Best-Practice
+kind: explain
 prev: ./best-practice
 ---
 # Verkaufsgruppen und Baugruppen

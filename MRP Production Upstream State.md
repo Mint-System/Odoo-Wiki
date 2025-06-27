@@ -1,8 +1,8 @@
 ---
 title: MRP Production Upstream State
 description: Status von Upstream Lagerbuchung auf Komponentenliste anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

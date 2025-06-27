@@ -1,8 +1,7 @@
 ---
 title: Buchhaltung Zahlungen
 description: SEPA- und QR-Zahlungen mit Odoo Buchhaltung abwickeln.
-tags:
-- HowTo
+kind: howto
 prev: ./accounting
 ---
 # Buchhaltung Zahlungen

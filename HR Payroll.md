@@ -1,8 +1,7 @@
 ---
 title: Personalabrechnung
 description: Personalbrechnungen schnell und einfach erstellen.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Personalabrechnung
@@ -10,14 +9,20 @@ prev: ./
 
 {{ $frontmatter.description }}
 
+
+## Bereiche
+
+| Bereich                                                         | Beschreibung                                |
+| --------------------------------------------------------------- | ------------------------------------------- |
+| [Personalabrechnung Aktionen](Personalabrechnung%20Aktionen.md) | Lohnabrechnung automatisieren.              |
+| [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md) | Berichte für Lohnbuchhaltung erstellen.     |
+| [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md) | Lohnabrechnungen mit variablen Eingaben.    |
+
 ## Erweiterungen
 
 | Erweiterung                                                     | Beschreibung                                |
 | --------------------------------------------------------------- | ------------------------------------------- |
 | [Lohnmeldung](Lohnmeldung.md)                                   | Lohnmeldungen ganz einfach generieren.      |
-| [Personalabrechnung Aktionen](Personalabrechnung%20Aktionen.md) | Lohnabrechnung automatisieren.              |
-| [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md) | Berichte für Lohnbuchhaltung erstellen.     |
-| [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md) | Lohnabrechnungen mit variablen Eingaben.    |
 | [Swiss Payroll](Gio%20Payroll%20Custom.md)                      | Lohnarten für die Schweizer Lohnabrechnung. |
 
 ## Konfiguration
@@ -27,6 +32,7 @@ prev: ./
 Damit Sie die Personalabrechnung für ihre Mitarbeiter erstellen können, müssen einige vorbereitungen getroffen werden.
 
 Dazu eine Übersicht:
+
 * [Mitarbeiter erfassen](HR.md#Personal#Mitarbeiter%20erfassen)
 * [Arbeitsvertrag hinzufügen](HR.md#Arbeitsvertrag%20hinzufügen)
 * [Private Adresse hinterlegen](HR.md#Private%20Adresse%20hinterlegen)

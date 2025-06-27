@@ -1,8 +1,8 @@
 ---
 title: Stock Picking Invoice Link
 description: Verlinkt Rechnungen und Transfers.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./stock
 ---

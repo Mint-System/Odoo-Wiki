@@ -1,8 +1,8 @@
 ---
 title: Stock Move Line Packaging
 description: Verknüpfen der Verpackung von Verkaufsauftrag.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

@@ -1,8 +1,8 @@
 ---
 title: Maintenance Equipments Image
 description: Bild auf Inventar hinzufügen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./maintenance
 ---

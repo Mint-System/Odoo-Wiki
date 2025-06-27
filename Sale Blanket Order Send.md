@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Send
 description: Workflow mit Rahmenauftrag per E-Mail. 
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

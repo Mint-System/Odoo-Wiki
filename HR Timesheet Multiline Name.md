@@ -1,8 +1,8 @@
 ---
 title: HR Timesheet Multiline Name
 description: Mehrzeilige Beschreibung in Zeiterfassung.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-timesheet
 ---

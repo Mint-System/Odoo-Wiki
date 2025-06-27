@@ -1,8 +1,8 @@
 ---
 title: MIS Builder
 description: Build Management Information System dashboards. 
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./dashboards
 ---

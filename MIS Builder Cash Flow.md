@@ -1,8 +1,8 @@
 ---
 title: MIS Builder Cash Flow
 description: Geldfluss-Bericht für Odoo Community.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./dashboards
 ---

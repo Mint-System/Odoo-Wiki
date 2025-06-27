@@ -1,9 +1,9 @@
 ---
 title: Lager Vorgänge
 description: Vorgänge im Lager ausführen.
+kind: howto
 tags:
-- HowTo
-- Aktionen
+- Actions
 prev: ./stock
 ---
 # Lager Vorgänge

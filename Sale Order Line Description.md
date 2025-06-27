@@ -1,8 +1,8 @@
 ---
 title: Sale Order Line Description
 description: Nur Verkausbeschreibung im Feld Beschreibung übertragen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./sale
 ---

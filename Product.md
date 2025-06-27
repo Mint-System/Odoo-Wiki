@@ -1,8 +1,8 @@
 ---
 title: Produkt
 description: Produkte und Preise.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./
 ---

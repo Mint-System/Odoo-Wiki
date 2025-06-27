@@ -1,8 +1,8 @@
 ---
 title: Brand External Report Layout
 description: Dokument-Layout mit Marke verknüpfen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./
 ---

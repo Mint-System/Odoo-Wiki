@@ -1,8 +1,8 @@
 ---
 title: URL Attachment
 description: Url als Dokument anhängen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./dialog
 ---

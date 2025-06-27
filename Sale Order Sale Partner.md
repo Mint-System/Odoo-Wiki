@@ -1,8 +1,8 @@
 ---
 title: Sale Order Sale Partner
 description: Verkaufsadresse auf Verkaufsauftrag festlegen. 
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

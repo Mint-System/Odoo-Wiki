@@ -1,8 +1,7 @@
 ---
 title: License Sale
 description: Lizenz aus Verkaufsauftrag generieren.
-tags:
-- HowTo
+kind: howto
 prev: ./license
 ---
 # License Sale

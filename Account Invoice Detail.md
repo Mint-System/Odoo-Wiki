@@ -1,8 +1,8 @@
 ---
 title: Account Invoice Detail
 description: Verkaufskontakt auf Rechnung einblenden.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

@@ -1,8 +1,8 @@
 ---
 title: Purchase Requisition Send
 description: Kaufverträge per E-Mail versenden.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase-requisition
 ---

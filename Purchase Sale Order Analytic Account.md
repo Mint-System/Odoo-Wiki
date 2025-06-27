@@ -1,8 +1,8 @@
 ---
 title: Purchase Sale Order Analytic Account
 description: Kostenstelle von verlinkten Verkaufsauftrag auf Bestellung übertragen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase
 ---

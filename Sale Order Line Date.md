@@ -1,8 +1,8 @@
 ---
 title: Sale Order Line Date
 description: Lieferdatum pro Position.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./sale
 ---

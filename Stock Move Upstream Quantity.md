@@ -1,8 +1,8 @@
 ---
 title: Stock Move Upstream Quantity
 description: Aktualisiert die erledigte Menge auf verlinkten Lagerbuchungen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

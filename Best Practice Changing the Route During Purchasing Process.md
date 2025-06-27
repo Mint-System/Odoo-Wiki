@@ -1,8 +1,7 @@
 ---
 title: Änderung der Route während dem Einkaufsprozess
 description: Eine einfache und umfassende Odoo-Dokumentation.
-tags:
-- Best-Practice
+kind: explain
 prev: ./best-practice
 ---
 # Änderung der Route während dem Einkaufsprozess

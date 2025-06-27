@@ -1,8 +1,8 @@
 ---
 title: {{ name }}
 description: {{ description }}
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./{{ prev }}
 ---

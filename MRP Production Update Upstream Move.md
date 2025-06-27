@@ -1,8 +1,8 @@
 ---
 title: MRP Production Update Upstream Move
 description: Aktualisiere offene Pickings von Fertigungsaufträgen bei Änderungen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

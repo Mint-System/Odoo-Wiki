@@ -1,8 +1,8 @@
 ---
 title: Project Timeline
 description: Timeline-Ansicht für Projektaufgaben.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./project
 ---

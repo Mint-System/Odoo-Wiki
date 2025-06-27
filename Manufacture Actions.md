@@ -1,9 +1,9 @@
 ---
 title: Fertigung Aktionen
 description: Fertigungs-Prozesse automatisieren.
+kind: howto
 tags:
-- HowTo
-- Aktionen
+- Actions
 prev: ./manufacture
 ---
 # Fertigung Aktionen

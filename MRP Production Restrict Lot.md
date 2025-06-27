@@ -1,8 +1,8 @@
 ---
 title: MRP Production Restrict Lot
 description: Auswahl der Los-Nummer auf der Tablet-Ansicht einschränken.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

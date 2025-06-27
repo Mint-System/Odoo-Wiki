@@ -1,8 +1,7 @@
 ---
 title: Account Missing Menus
 description: Menüs der Enterprise Finanzbuchhaltung für Community.
-tags:
-- HowTo
+kind: howto
 prev: ./accounting
 ---
 # Account Usability

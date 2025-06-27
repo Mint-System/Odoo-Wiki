@@ -1,8 +1,8 @@
 ---
 title: Base Country Sequence
 description: Länder-Liste manuell sortieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

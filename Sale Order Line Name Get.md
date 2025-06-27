@@ -1,8 +1,8 @@
 ---
 title: Sale Order Line Name Get
 description: Produktname als Anzeigename für Verkaufspositionen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

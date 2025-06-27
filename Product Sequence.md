@@ -1,8 +1,8 @@
 ---
 title: Product Sequence
 description: Produkreferenzen anhand einer Sequenz generieren lassen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./manufacture
 ---

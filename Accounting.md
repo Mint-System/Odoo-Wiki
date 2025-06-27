@@ -1,8 +1,7 @@
 ---
 title: Buchhaltung
 description: Ihre Buchhaltung einfach und korrekt.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Buchhaltung
@@ -48,7 +47,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Move Line Link Pickings](Account%20Move%20Line%20Link%20Pickings.md)                              | Lieferaufträge mit Rechnungszeile verlinken.                                      |     |
 | [Account Move Line Position](Account%20Move%20Line%20Position.md)                                          | Positionsnummer anzeigen und aus Verkaufs- oder Einkaufsauftrag verlinken.        |     |
 | [Account Move Post Warn](Account%20Move%20Post%20Warn.md)                                                  | Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt.       |     |
-| [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                      | Das letzte Abstimmungsdatum von Rechnungen anzeigen.                              |     |
+| [Account Move Reconciled Date](Account%20Move%20Reconciled%20Date.md)                                      | Das letzte Zahlungs- und Abstimmungsdatum von Rechnungen anzeigen.                |     |
 | [Account OSS Report](Account%20OSS%20Report.md)                                                            | Bericht zur Deklarierung der OSS Umsatzsteuer.                                    |     |
 | [Account Payment Mode](Account%20Payment%20Mode.md)                                                        | Bezahlmethoden definieren.                                                        |     |
 | [Account Payment Order](Account%20Payment%20Order.md)                                                      | Stapelzahlungen für die Odoo Community Edition.                                   |     |

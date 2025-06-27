@@ -1,8 +1,8 @@
 ---
 title: Account Financial Report Reverse Move Lines
 description: Ordnet die Buchungszeilen von neu zu alt.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./accounting
 ---

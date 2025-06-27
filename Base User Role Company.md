@@ -1,8 +1,8 @@
 ---
 title: Base User Role Company
 description: Benutzer-Rollen in Abhängigkeit vom Unternehmen aktivieren.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./settings
 ---

@@ -1,8 +1,7 @@
 ---
 title: Lizenz
 description: Software verkaufen und lizenzieren
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Lizenz

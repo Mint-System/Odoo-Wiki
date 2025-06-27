@@ -1,8 +1,7 @@
 ---
 title: Buchhaltung Finanzbuchhaltung
 description: Kontenplan einrichten und Buchungen erstellen.
-tags:
-- HowTo
+kind: howto
 prev: ./accounting
 ---
 # Buchhaltung Finanzbuchhaltung

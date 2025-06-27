@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order CRM Tags
 description: Setze Stichwörter auf dem Rahmenauftrag.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

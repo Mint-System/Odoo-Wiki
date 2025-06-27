@@ -1,8 +1,8 @@
 ---
 title: Purchase Order Line Date
 description: Lieferdatum im Wareneingang automatisch nachtragen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase
 ---

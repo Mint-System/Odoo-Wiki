@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Invoice Shipping Partner
 description: Liefer- und Rechnungsadresse auf Rahmenauftrag definieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

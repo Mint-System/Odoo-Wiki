@@ -1,8 +1,8 @@
 ---
 title: Base Location
 description: Postleitzahl und Ort automatisch ausfüllen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./contacts
 ---

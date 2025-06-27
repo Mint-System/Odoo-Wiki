@@ -1,8 +1,8 @@
 ---
 title: Product Country of Origin
 description: Bestimmen Sie für jedes Produkt ein Herkunftsland.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

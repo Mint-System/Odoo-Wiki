@@ -1,8 +1,8 @@
 ---
 title: Base Location City
 description: Orte mit Längen- und Breitengrad.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

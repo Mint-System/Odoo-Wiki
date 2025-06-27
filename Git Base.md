@@ -1,8 +1,7 @@
 ---
 title: Git
 description: Git Repositories mit Odoo verwalten.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Git

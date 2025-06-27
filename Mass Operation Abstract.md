@@ -1,8 +1,8 @@
 ---
 title: Mass Operation Abstract
 description: Bietet Werkzeuge zur Massenbearbeitung.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./development
 ---

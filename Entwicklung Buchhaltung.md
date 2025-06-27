@@ -1,8 +1,7 @@
 ---
 title: Entwicklung Buchhalung
 description: Buchhaltungs-Berichte anpassen und erweitern.
-tags:
-- HowTo
+kind: howto
 prev: ./development
 ---
 # Entwicklung Buchhaltung
@@ -20,8 +19,11 @@ Navigieren Sie nach *Buchhalung > Konfiguration > Buchhalungsberichte*. Rufen Si
 
 Wenn Sie die [Definition Buchhaltungsbericht anzeigen](#Definition%20Buchhaltungsbericht%20anzeigen) fügen Sie eine Zeile hinzu:
 
-* **Berichtszeile**: Geben Sie einen Namen im folgenden Schema: "Steuerziffer - Typ Steusatz (Steuersatz in Prozent): Bezeichnung"
-* **Übergeordnete Zeile**: Zur hierarchischen Gleiderung wählen Sie die überliegende Zeile aus.
+* **Berichtszeile**: Geben Sie einen Namen im folgenden Schema:
+
+> Steuerziffer - Typ Steuersatz (Steuersatz in Prozent): Bezeichnung
+
+* **Übergeordnete Zeile**: Zur hierarchischen Gliederung wählen Sie die überliegende Zeile aus.
 * **Code**: Geben Sie einen eindeutigen Code ein.
 * **Ausdrücke**:
 	* **Ausdruck**: Verwenden Sie hier `balance`.

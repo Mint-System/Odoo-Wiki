@@ -1,8 +1,8 @@
 ---
 title: Web Sync
 description: Daten mit Web-Requests empfangen und senden.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./zebroo-sync
 ---

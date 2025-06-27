@@ -1,8 +1,7 @@
 ---
 title: Planung
 description: Ressourcen auf Projekte und Aufgaben planen.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Planung

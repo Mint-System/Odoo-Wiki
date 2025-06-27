@@ -1,8 +1,7 @@
 ---
 title: Kundendienst
 description: Für einen fantastischen Kundenservice.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Kundendienst

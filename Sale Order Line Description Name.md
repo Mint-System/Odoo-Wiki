@@ -1,8 +1,8 @@
 ---
 title: Sale Order Line Description Name
 description: Produktname in Beschreibung ohne interne Referenz.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-order-line-description
 ---

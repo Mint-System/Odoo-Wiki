@@ -1,8 +1,7 @@
 ---
 title: Website Partner
 description: Partner auf Website publizieren.
-tags:
-- HowTo
+kind: howto
 prev: ./website
 ---
 # Website Partner

@@ -1,8 +1,8 @@
 ---
 title: Odoo FastAPI
 description: FastAPI-Integration für Odoo.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./development
 ---

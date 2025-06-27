@@ -1,8 +1,8 @@
 ---
 title: Mgmt Requirement
 description: Verwalten Sie Anforderungen and die Organisation.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./management-system
 ---

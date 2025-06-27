@@ -1,8 +1,8 @@
 ---
 title: Purchase Requisition Order Address
 description: Bestelladresse auf Kaufverträge.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase-requisition
 ---

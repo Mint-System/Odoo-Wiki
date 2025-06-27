@@ -1,8 +1,7 @@
 ---
 title: Holzwirtschaft
 description: Odoo für die Holzwirtschaft.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Holzwirtschaft

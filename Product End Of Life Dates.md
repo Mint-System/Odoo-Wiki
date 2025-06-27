@@ -1,8 +1,8 @@
 ---
 title: Product End Of Life Dates
 description: Datum für Ende Support, Verkauf und Bestand auf Produkt festlegen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./product
 ---

@@ -1,8 +1,8 @@
 ---
 title: Sale Force Invoiced
 description: Markieren Sie den Verkaufsauftrag als abgerechnet.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./sale
 ---

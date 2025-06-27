@@ -1,8 +1,8 @@
 ---
 title: Website Sale Float Qty
 description: Teilmengen von Produkten in Webshop bestellen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./website-e-commerce
 ---

@@ -1,8 +1,8 @@
 ---
 title: Ignore planned receptions in quantity available to promise
 description: Verfügbare Bestände aus geplanten Aufträge ignorieren.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./warehouse
 ---

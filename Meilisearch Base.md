@@ -1,14 +1,14 @@
 ---
 title: Meilisearch Base
 description: Meilisearch Index mit Odoo Dokumenten synchronisieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./website-e-commerce
 ---
 
 # Meilisearch Base
-![icon_oms_box](attachments/icons_odoo_mint_system.png)
+![](attachments/icons_odoo_meiliserch_base.png)
 
 {{ $frontmatter.description }}
 
@@ -33,7 +33,7 @@ Navigieren Sie nach *Einstellungen > Integration* und aktivieren Sie die Option 
 
 ### Meilisearch-Index erstellen
 
-Navigieren Sie nach *Einstellungen > Technisch > Meilisearch Indexes* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach *Meilisearch > Indexes* und erstellen Sie einen neuen Eintrag:
 
 * **Name**: Geben eine Bezeichnung für den Index ein
 * **API**: Wählen Sie die API-Verbindung für den Index aus
@@ -44,11 +44,11 @@ Navigieren Sie nach *Einstellungen > Technisch > Meilisearch Indexes* und erstel
 
 ### Indexierte Dokumente anzeigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Meilisearch Indexes* und wählen Sie einen Index aus. Klicken Sie auf den Smart-Button *Index Documents*. Hier sehen Sie gruppiert nach Index-Status die Dokumente.
+Navigieren Sie nach *Meilisearch > Indexes* und wählen Sie einen Index aus. Klicken Sie auf den Smart-Button *Index Documents*. Hier sehen Sie gruppiert nach Index-Status die Dokumente.
 
 ### Dokument aus Index abrufen
 
-Navigieren Sie nach *Einstellungen > Technisch > Meilisearch Indexes* und wählen Sie einen Index aus. Klicken Sie auf den Smart-Button *Index Documents*. Öffnen oder markieren Sie ein Dokument und wählen Sie *Aktionen > Check Index Document*.
+Navigieren Sie nach *Meilisearch > Indexes* und wählen Sie einen Index aus. Klicken Sie auf den Smart-Button *Index Documents*. Öffnen oder markieren Sie ein Dokument und wählen Sie *Aktionen > Check Index Document*.
 
 ::: tip
 Wenn das Dokument aus dem Index abgerufen werden konnte, wechselt der Index-Status des Dokuments auf *Indexed*. In der *Index-Response* wird das Dokument aus dem Index gespeichert. Dieses sollte mit dem *Index Document* von Odoo übereinstimmen. 

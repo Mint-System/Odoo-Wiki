@@ -1,8 +1,8 @@
 ---
 title: Base User ACL
 description: Basis für Zugriffsrechte-Module.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./base
 ---

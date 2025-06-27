@@ -1,8 +1,8 @@
 ---
 title: MRP Production Create Upstream Backorder
 description: Erstelle Nachlieferungen für Pickings von Fertigungsaufträgen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

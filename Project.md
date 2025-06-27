@@ -1,8 +1,7 @@
 ---
 title: Projekt
 description: Agiles Projektmanagement. Schön. Einfach. Open Source.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Projekt

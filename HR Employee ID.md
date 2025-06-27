@@ -1,8 +1,8 @@
 ---
 title: HR Employee ID
 description: Identifikationsnummer für Mitarbeitende.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./hr
 ---

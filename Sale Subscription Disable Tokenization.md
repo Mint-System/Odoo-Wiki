@@ -1,8 +1,8 @@
 ---
 title: Sale Subscription Disable Tokenization
 description: Abonnements mit Zahlungsanbieter ohne wiederkehrende Zahlung kaufen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./website-e-commerce
 ---

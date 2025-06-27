@@ -1,8 +1,8 @@
 ---
 title: Account Financial Report Show Grouped None
 description: Alle Buchungszeilen bei Auswahl "nicht gruppiert" anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./accounting
 ---

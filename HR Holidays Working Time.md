@@ -1,8 +1,8 @@
 ---
 title: HR Holidays Working Time
 description: Aus Abwesenheiten Anwesenheiten erstellen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-holidays
 ---

@@ -1,8 +1,8 @@
 ---
 title: Report XLSX
 description: Klasse zur Entwicklung von XLSX-Berichten.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./apps
 ---

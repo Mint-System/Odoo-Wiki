@@ -1,8 +1,8 @@
 ---
 title: Stock Barcode Maintenance
 description: Barcode scannen und Inventar anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./barcode
 ---

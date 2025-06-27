@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Line Description
 description: Beschreibungsfeld von Rahmenauftragszeile auf die Verkaufsauftragszeile kopieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

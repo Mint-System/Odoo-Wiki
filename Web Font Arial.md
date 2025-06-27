@@ -1,8 +1,8 @@
 ---
 title: Web Font Arial
 description: Fügt Schriftart Arial der Auswahl hinzu.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./server
 ---

@@ -1,8 +1,8 @@
 ---
 title: Contact Birthdate
 description: Geburtstag bei Kontakten speichern für tolle Erinnerungen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./contacts
 ---

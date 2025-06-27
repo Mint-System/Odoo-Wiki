@@ -1,8 +1,7 @@
 ---
 title: mERP Mobile App
 description: Alternative zur Odoo Mobile App.
-tags:
-- HowTo
+kind: howto
 prev: ./odoo-mobile-app
 ---
 # mERP Mobile App

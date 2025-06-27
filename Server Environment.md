@@ -1,8 +1,8 @@
 ---
 title: Server Environment
 description: Systemkonfigurationen aus Umgebungsvariablen laden.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./development
 ---

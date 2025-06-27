@@ -1,8 +1,8 @@
 ---
 title: Account Invoice Description
 description: Beschreibungsfeld auf Rechnung.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./accounting
 ---

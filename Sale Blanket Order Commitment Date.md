@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Commitment Date
 description: Kopiert das geplante Datum der Rahmenauftragszeile in das Lieferdatum der Verkaufsauftragszeile.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

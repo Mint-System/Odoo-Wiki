@@ -1,8 +1,8 @@
 ---
 title: Product Feeder ID
 description: Feeder-Textfeld auf dem Produkt.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./manufacture
 ---

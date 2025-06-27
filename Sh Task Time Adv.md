@@ -1,8 +1,8 @@
 ---
 title: Task Timer Advance
 description: Aufgaben-Timer einfacher starten und beenden.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-timesheet
 ---

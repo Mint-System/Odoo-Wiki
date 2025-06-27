@@ -1,8 +1,7 @@
 ---
 title: Entwicklung Performance
 description: Performance-Probleme analysieren.
-tags:
-- HowTo
+kind: howto
 prev: ./development
 ---
 # Entwicklung Performance

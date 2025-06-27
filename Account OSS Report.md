@@ -1,8 +1,8 @@
 ---
 title: Account OSS Report
 description: Bericht zur Deklarierung der OSS Umsatzsteuer.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./accounting
 ---

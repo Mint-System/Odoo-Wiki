@@ -1,8 +1,8 @@
 ---
 title: Partner Deduplication ACL
 description: Zugriff auf Deduplizierung der Kontakte steuern.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./contacts
 ---

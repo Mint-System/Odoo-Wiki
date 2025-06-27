@@ -1,8 +1,8 @@
 ---
 title: MRP BoM Position
 description: Jede Komponente in der Stückliste erhält eine Positionsnummer.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./order-positions
 ---

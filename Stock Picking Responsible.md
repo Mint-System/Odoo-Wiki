@@ -1,8 +1,8 @@
 ---
 title: Stock Picking Responsible
 description: Verantwortliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

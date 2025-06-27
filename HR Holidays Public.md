@@ -1,8 +1,8 @@
 ---
 title: HR Holidays Public
 description: Erstellen Sie einen Feiertagskalender, der in der Abwesenheiten berücksichtigt wird.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./hr-holidays
 ---

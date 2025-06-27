@@ -1,8 +1,7 @@
 ---
 title: Datenbank
 description: Odoo Datenbanken verwalten.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Datenbank
@@ -76,6 +75,10 @@ Im unten dargestellten Dialog ist das *Odoo Master Password* notwendig.
 
 Nach der Bestätigung mit dem Knopf *Backup* wird der Inhalt der Datenbank lokal auf dem Computer in eine zip-Datei gespeichert.
 
+::: tip
+Um das Datenbank-Backup zu versenden können Sie <https://www.swisstransfer.com> verwenden.
+:::
+
 ### Datenbank wiederherstellen
 
 Falls eine Datenbank mit einem Backup überschrieben werden soll, muss im nächsten Schritt die bestehende Datenbank gelöscht werden.
@@ -131,6 +134,10 @@ Dieser Parameter wird von Odoo automatisch festgelegt. Um den Wert zu übersteue
 Rufen Sie die App *Einstellungen* auf. Scrollen Sie bis ans Ende. Im Abschnitt *Über* ist die Odoo Version ersichtlich:
 
 ![](attachments/Odoo%20Version%20anzeigen.png)
+
+### Dateianhänge anzeigen
+
+In der Odoo-Datenbank werden Referenzen auf Dateien gespeichert. Navigieren Sie nach *Einstellungen > Technisch > Datenbankstruktur > Dateianhänge*. Wählen Sie einen Dateianhang aus. Sie können die Datei herunterladen und sofern mit einer Ressource verknüpft auf das entsprechende Dokument zugeifen. 
 
 ## Odoo Online
 

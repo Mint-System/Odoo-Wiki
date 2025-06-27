@@ -1,8 +1,8 @@
 ---
 title: Date Range
 description: Verwaltung von Datums-Bereichen zur Filterung von Daten.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./development
 ---

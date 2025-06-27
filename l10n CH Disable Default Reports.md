@@ -1,8 +1,8 @@
 ---
 title: Switzerland Disable Default Reports
 description: Generierung der QR- und ISR-Berichte deaktivieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./l10n-ch
 ---

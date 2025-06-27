@@ -1,8 +1,8 @@
 ---
 title: HR Employee Firstname
 description: Vor- und Nachname auf Mitarbeitenden.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./hr
 ---

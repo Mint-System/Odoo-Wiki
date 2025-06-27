@@ -1,8 +1,7 @@
 ---
 title: eLearning
 description: Teilen Sie ihr Wissen mit der eLearning-Plattform.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # eLearning

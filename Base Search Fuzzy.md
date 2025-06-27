@@ -1,8 +1,8 @@
 ---
 title: Base Search Fuzzy
 description: Aktivieren Trigram-Index auf Datenbank-Felder.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./database
 ---

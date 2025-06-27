@@ -1,8 +1,8 @@
 ---
 title: Stock Account Location Valued
 description: Lagerort zur Bewertung markieren.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

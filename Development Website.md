@@ -1,8 +1,7 @@
 ---
 title: Entwicklung Website
 description: Website-Templates anpassen und erweitern.
-tags:
-- HowTo
+kind: howto
 prev: ./development
 ---
 # Entwicklung Website

@@ -1,8 +1,8 @@
 ---
 title: Partner Contact Association
 description: Vereine verwalten und Mitglieder zuordnen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

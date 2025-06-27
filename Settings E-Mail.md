@@ -1,8 +1,7 @@
 ---
 title: Einstellungen E-Mail
 description: Odoo mit Plattformen von Dritten integrieren.
-tags:
-- HowTo
+kind: howto
 prev: ./settings
 ---
 # Einstellungen E-Mail
@@ -30,11 +29,11 @@ Gilt bis #Odoo16.
 
 Falls Sie die Adresse ändern möchten, öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und passen den Wert für `mail.catchall.alias` an.
 
-Angenommen Sie geben als Wert `erp` ein, so ist die resultierende Absender-Aresse `From: "FIRSTNAME LASTNAME" <erp@example.com>`.
+Angenommen Sie geben als Wert `reply` ein, so ist die resultierende Reply-Aresse `From: "FIRSTNAME LASTNAME" <reply@example.com>`.
 
 Gilt ab #Odoo17.
 
-Im Entwicklermodus navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und öffnen Sie den Eintrag bei *Alias-Domain*. Im Feld *Catchall-Alias* geben Sie den gewünschten Wert ein.
+Im Entwicklermodus navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und öffnen Sie den Eintrag bei *Alias-Domain*. Im Feld *Catchall-Alias* geben Sie den gewünschten Wert ein.
 
 ::: tip
 Eine Liste von Mail-Provider und ob diese die *catchall* und *no-reply* E-Mail-Aliase erlauben:
@@ -54,7 +53,7 @@ Falls Sie den Bounce-Alias ändern möchten, öffnen Sie *Einstellungen > Techni
 
 Gilt ab #Odoo17.
 
-Im Entwicklermodus navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Dialog* und öffnen Sie den Eintrag bei *Alias-Domain*. Im Feld *Zuzustellbarkeitsalias* geben Sie den gewünschten Wert ein.
+Im Entwicklermodus navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und öffnen Sie den Eintrag bei *Alias-Domain*. Im Feld *Zuzustellbarkeitsalias* geben Sie den gewünschten Wert ein.
 
 ### Allgemeine Absender-Adresse festlegen
 
@@ -63,7 +62,7 @@ Wenn Odoo eine E-Mail versendet, wird im E-Mail eine Von- und Antwort-Adresse hi
 ```txt
 ...
 From: "FIRSTNAME LASTNAME" <firstname.lastname@example.com>
-Reply-To: "My Company" <catchall@example.com>
+Reply-To: "My Company" <odoo@example.com>
 ...
 ```
 
@@ -72,7 +71,7 @@ Wenn Sie die Von-Adresse überschreiben möchten, öffnen Sie *Einstellungen > T
 ```txt
 ...
 From: "FIRSTNAME LASTNAME" <erp@example.com>
-Reply-To: "My Company" <catchall@example.com>
+Reply-To: "My Company" <reply@example.com>
 ...
 ```
 
@@ -97,6 +96,10 @@ Unter *Einstellungen > Dialog > Externe E-Mail-Server* aktivieren Sie das Featur
 * **Passwort**: Passwort des Odoo Postfach
 
 ### Eingehender Mail-Server Office 365 konfigurieren
+
+::: tip
+Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+:::
 
 Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen:
 
@@ -131,6 +134,10 @@ Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladun
 :::
 
 ### Ausgehender Mail-Server Office 365 konfigurieren
+
+::: tip
+Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+:::
 
 Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen:
 
@@ -173,7 +180,7 @@ Wenn Subaddressing "+" aktiviert ist, wird eine E-Mail mit einem "+" nach dem Al
 :::
 
 ::: warning
-Der Wildcard-E-Mail-Alias *catchall* wird noch von allen Mail-Provider unterstützt.
+Der Wildcard-E-Mail-Alias *catchall* wird nicht von allen Mail-Provider unterstützt.
 :::
 
 ## Erweitert
@@ -233,6 +240,10 @@ Odoo bounced die E-Mail, wenn diese direkt an den Catchall- oder den Bounce-Alia
 Sie müssen den [Catchall-Alias anpassen](#Catchall-Alias%20anpassen) oder den [Bounce-Alias anpassen](#Bounce-Alias%20anpassen), damit die E-Mail nicht gebounced wird.
 
 ### Weitergeleitetes Mail via Exchange wird von Odoo nicht verarbeitet
+
+::: tip
+Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+:::
 
 **Problem**
 

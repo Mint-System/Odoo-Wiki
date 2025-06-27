@@ -1,8 +1,7 @@
 ---
 title: Entwicklung Datenmodelle
 description: Odoo Datenmodell erweitern.
-tags:
-- HowTo
+kind: howto
 prev: ./development
 ---
 # Entwicklung Datenmodelle

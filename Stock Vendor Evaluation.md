@@ -1,8 +1,8 @@
 ---
 title: Stock Vendor Evaluation
 description: Lieferungen bewerten und Lieferanten auswerten.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

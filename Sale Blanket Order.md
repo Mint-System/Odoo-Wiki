@@ -1,8 +1,8 @@
 ---
 title: Verkauf Rahmenverträge
 description: Rahmenverträge für Verkäufe erstellen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./
 ---

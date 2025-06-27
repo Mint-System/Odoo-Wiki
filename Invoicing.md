@@ -1,8 +1,7 @@
 ---
 title: Rechnungsstellung
 description: Online Rechnungsstellung leicht gemacht.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Rechnungsstellung

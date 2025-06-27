@@ -1,8 +1,8 @@
 ---
 title: Stock Barcode Packaging
 description: Verpackung auf Strichcode-Vorgang anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

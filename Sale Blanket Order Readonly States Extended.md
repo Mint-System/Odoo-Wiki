@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Cancel States Extended
 description: Bearbeiten von Feldern aus weiteren Rahmenauftrags-Modulen im bestätigen Zustand.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

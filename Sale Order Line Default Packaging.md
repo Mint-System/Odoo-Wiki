@@ -1,8 +1,8 @@
 ---
 title: Sale Order Line Default Packaging
 description: Standardverpackung auf Position setzen.  
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale
 ---

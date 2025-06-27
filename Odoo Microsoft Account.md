@@ -1,8 +1,8 @@
 ---
 title: Odoo Microsoft Account
 description: Login mit Microsoft-Account.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./settings
 ---

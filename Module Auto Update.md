@@ -1,8 +1,8 @@
 ---
 title: Module Auto Update
 description: Aktualisiert automatisch neue Versionen von Odoo Modulen. 
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./base
 ---

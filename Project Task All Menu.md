@@ -1,8 +1,8 @@
 ---
 title: Project Task All Menu
 description: Menu Alle Aufgaben hinzufügen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./project
 ---

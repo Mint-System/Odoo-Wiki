@@ -1,8 +1,8 @@
 ---
 title: Partner Email History
 description: Alle versendeten und empfangen E-Mails eines Kontakts anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

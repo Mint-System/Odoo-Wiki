@@ -1,8 +1,8 @@
 ---
 title: Mmgt Auditlog
 description: Log-Regeln für OCA Auditlog.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./management-system
 ---

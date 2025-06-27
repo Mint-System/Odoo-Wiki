@@ -1,8 +1,8 @@
 ---
 title: Management System
 description: Management System by OCA.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./management-system
 ---

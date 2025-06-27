@@ -1,8 +1,7 @@
 ---
 title: Rechnungsstellung Mahnungen
 description: Mahnberichte erstellen und verschicken.
-tags:
-- HowTo
+kind: howto
 prev: ./invoicing
 ---
 # Rechnungsstellung Mahnungen

@@ -1,8 +1,8 @@
 ---
 title: Website Date of Birth
 description: Geburtsdatum auf Anmeldeformular.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./website
 ---

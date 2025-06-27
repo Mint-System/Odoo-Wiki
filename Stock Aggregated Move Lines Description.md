@@ -1,8 +1,8 @@
 ---
 title: Stock Aggregated Move Lines Description
 description: Beschreibungsfeld auf aggregierten Zeilen anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

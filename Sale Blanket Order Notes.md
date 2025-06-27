@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Notes
 description: Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

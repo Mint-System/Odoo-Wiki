@@ -1,8 +1,8 @@
 ---
 title: Stock Lot Traceability List
 description: Daten aus Lieferverfolgungsbericht als Liste anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

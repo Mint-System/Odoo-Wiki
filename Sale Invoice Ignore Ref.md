@@ -1,8 +1,8 @@
 ---
 title: Sale Invoice Ignore Ref
 description: Zahlungsreferenz bei Abrechnung nicht auf Rechnung übertragen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./invoicing
 ---

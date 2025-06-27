@@ -1,8 +1,7 @@
 ---
 title: Dialog
 description: In alle Module integrierter privater Chat und Gruppen-Chat.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Dialog
@@ -14,11 +13,12 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 
 ## Bereiche
 
-| Bereich                                           | Beschreibung                                 |
-| ------------------------------------------------- | -------------------------------------------- |
-| [Dialog Aktionen](Dialog%20Actions.md)       | Arbeitsflüsse für Dialog automatisieren. |
-| [Dialog Aktivitäten](Dialog%20Activities.md) | Arbeitsplanung mit Odoo Aktivitäten.         |
-| [Dialog E-Mail](Dialog%20E-Mail.md)          | E-Mail mit Odoo versenden.                   |
+| Bereich                                               | Beschreibung                                 |
+| ----------------------------------------------------- | -------------------------------------------- |
+| [Dialog Aktionen](Dialog%20Actions.md)                | Arbeitsflüsse für Dialog automatisieren.     |
+| [Dialog Aktivitäten](Dialog%20Activities.md)          | Arbeitsplanung mit Odoo Aktivitäten.         |
+| [Dialog Datenmanagement](Dialog%20Datenmanagement.md) | Daten zu Dialog exportieren und importieren. |
+| [Dialog E-Mail](Dialog%20E-Mail.md)                   | E-Mail mit Odoo versenden.                   |
 
 ## Erweiterungen
 

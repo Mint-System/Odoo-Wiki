@@ -1,8 +1,8 @@
 ---
 title: Mail Activity Datetime
 description: Datum mit Zeit für Fälligkeit von Aktivität.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./dialog
 ---

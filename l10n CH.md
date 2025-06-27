@@ -1,8 +1,7 @@
 ---
 title: Schweizer Lokalisierung
 description: Übersicht zur Schweizer Lokalisierung von Odoo.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Schweizer Lokalisierung

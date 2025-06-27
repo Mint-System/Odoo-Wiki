@@ -1,8 +1,8 @@
 ---
 title: Employee Vehicle Request
 description: Fahrzeug-Reservationen für Mitarbeitende verwalten.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./fahrzeugflotte
 ---

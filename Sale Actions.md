@@ -1,9 +1,9 @@
 ---
 title: Verkauf Aktionen
 description: Arbeitsflüsse im Verkauf automatisieren.
+kind: howto
 tags:
-- HowTo
-- Aktionen
+- Actions
 prev: ./sale
 ---
 # Verkauf Aktionen
@@ -416,3 +416,20 @@ Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Akt
 | Feld      | Bewertungstyp     | Wert    |
 | --------- | ----------------- | ------- |
 | `user_id` | Python Expression | `False` |
+
+### Standard-Verkaufsteam festlegen
+
+Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+
+* **Name der Aktion**: `Standard-Verkaufsteam festlegen`
+* **Modell**: `sale.order`
+* **Auslöser**: Bei Erstellung und Aktualisierung
+* **Auslöser-Feld**: `recurrence_id`
+* **Anzuwenden auf**: `[("recurrence_id", "!=", False)]`
+* **Folgeaktion**: Den Datensatz aktualisieren
+* **Zu schreibende Daten**:
+
+| Feld      | Bewertungstyp | Datensatz        |
+| --------- | ------------- | ---------------- |
+| `team_id` | Referenz      | Mitgliedschaften |
+	

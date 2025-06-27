@@ -1,9 +1,9 @@
 ---
 title: Abonnement Aktionen
 description: Arbeitsflüsse für Abonnemente automatisieren.
+kind: howto
 tags:
-- HowTo
-- Aktionen
+- Actions
 prev: ./sale
 ---
 # Abonnemente Aktionen
@@ -47,6 +47,32 @@ for line in records.invoice_line_ids:
     start_date = end_date - dateutil.relativedelta.relativedelta(years=line.subscription_id.recurrence_id.duration) + datetime.timedelta(days=1)
     line["subscription_start_date"] = start_date
     line["subscription_end_date"] = end_date
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+
+### Abonnement-Informationen migrieren
+
+Mit dieser Aktion können nach einer Migration von Odoo 15.0 auf 16.0 und höher die Abonnement-Informationen von den archivierten Verkaufsaufträgen auf die aktiven übertragen werden. 
+
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Abonnement-Informationen migrieren`\
+Modell: `sale.order`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+for order in records:
+    origin_order_id = order.origin_order_id
+    if origin_order_id:
+        order.write({
+            "plan_id": origin_order_id.plan_id,
+            "next_invoice_date": origin_order_id.next_invoice_date,
+            "start_date": origin_order_id.start_date,
+            "subscription_state": origin_order_id.subscription_state
+        })
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
@@ -200,4 +226,54 @@ for subscription in extend_subscriptions:
       "description": "Das Abonnement " + renewal_so.name + "konnte nich verlängert werden, weil der Kunde keine E-Mail-Adresse hat."
     })
   subscription.set_close()
+```
+
+### Verkaufsabonnement: Reminder Verlängerung versenden
+
+Diese geplante Aktion versendet eine bestimmte Anzahl Tage vor Erreichung des Ablaufdatum einen Reminder zur Verlängerung des Abonnements. Die folgenden Bedingungen müssen zutreffen:
+
+* Der Verkaufsaufrag ist ein Abonnement
+* Der Verkaufsauftrag ist in der Stufe *Angebot versendet*
+* Das Ablaufdatum ist Heute in 2 Wochen
+* Der Verkaufsauftrag hat Lizenzen
+
+Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Verkaufsabonnement: Reminder Verlängerung versenden`\
+Modell: `ir.actions.server`\
+Ausführen alle: `1` Tage\
+Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
+Anzahl der Anrufe: `-1`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+# Settings
+weeks_before_validity_date = 2
+mail_template = "__custom__.mail_template_reminder_extend_subscription"
+stage_draft_id = env.ref("sale_subscription.sale_subscription_stage_draft")
+
+# Get extend date
+today = datetime.datetime.today()
+remind_date = (today + datetime.timedelta(weeks=weeks_before_validity_date)).date()
+
+# Search subscriptions
+remind_subscriptions = env["sale.order"].search([
+  ("is_subscription", "=", True),
+  ("state", "=", "sent"),
+  ("stage_id", "=", stage_draft_id.id),
+  ("validity_date", "=", remind_date),
+  ("license_count", ">", 0)
+])
+
+# raise UserError([remind_subscriptions, remind_date])
+
+# Create and send renewal order
+for subscription in remind_subscriptions:
+    subscription.message_post_with_template(
+      env.ref(mail_template).id,
+      composition_mode="comment",
+      email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
+    )
 ```

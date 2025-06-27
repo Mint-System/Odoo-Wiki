@@ -1,8 +1,8 @@
 ---
 title: Account General Ledger Contra Accounts
 description: Spalte Gegenkontos in Hauptbuch.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./accounting
 ---

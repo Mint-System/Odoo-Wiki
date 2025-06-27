@@ -1,8 +1,7 @@
 ---
 title: Kalender
 description: Termine Team- und Anwendungs-übergreifend organisieren.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Kalender
@@ -16,9 +15,19 @@ prev: ./
 | ------------------------------------------- | --------------------------------- |
 | [Kalender Aktionen](Calendar%20Actions.md) | Kalender-Prozesse automatisieren. |
 
+## Erweiterungen
+
+| Erweiterung                     | Beschreibung                              |
+| ------------------------------- | ----------------------------------------- |
+| [CalDAV Sync](CalDAV%20Sync.md) | Odoo Kalender mit CalDav synchronisieren. |
+
 ## Konfiguration
 
 ### Outlook-Kalender-Synchronisation aktivieren
+
+::: tip
+Wir empfehlen [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hosting.mail?utm_term=67ff9acbaabca) anstatt Outlook zu verwenden.
+:::
 
 Damit die Kalender-Synchronisation möglich ist, müssen Sie [Odoo als OAuth-App auf Azure registrieren](Settings%20OAuth.md#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren). Verwenden Sie diese Angaben:
 
@@ -71,6 +80,10 @@ Der Google-Account und der Odoo-Account sollten die gleiche E-Mail-Adresse haben
 :::
 
 ### Outlook-Kalender-Synchronisation einrichten
+
+::: tip
+Wir empfehlen [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hosting.mail?utm_term=67ff9acbaabca) anstatt Outlook zu verwenden.
+:::
 
 Wenn Sie die [Outlook-Kalender-Synchronisation aktivieren](#Outlook-Kalender-Synchronisation%20aktivieren), können Mitarbeitende den Odoo Kalender mit dem Outlook Kalender synchronsieren.
 

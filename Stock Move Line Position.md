@@ -1,8 +1,8 @@
 ---
 title: Stock Move Line Position
 description: "Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen."
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./order-positions
 ---

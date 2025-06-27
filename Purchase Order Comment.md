@@ -1,8 +1,8 @@
 ---
 title: Purchase Order Comment
 description: Kommentar-Feld für Einkaufsaufträge.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase
 ---

@@ -1,8 +1,8 @@
 ---
 title: Stock Move Upstream State
 description: Zugriff auf Status von Upstream Lagerbuchung.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

@@ -1,8 +1,7 @@
 ---
 title: Einstellungen Übersetzungen
 description: Einstellungen zu Sprachpakete und Übersetzungen.
-tags:
-- HowTo
+kind: howto
 prev: ./settings
 ---
 # Einstellungen Übersetzungen
@@ -16,11 +15,15 @@ prev: ./settings
 
 Damit Odoo in mehreren Sprachen verfügbar ist, müssen Sie die entsprechenden Sprachpakete installieren. Navigieren Sie nach *Einstellungen > Sprachen* und wählen Sie *Sprachen verwalten*. Suchen Sie die zu installierende Sprache, öffnen Sie diese und wählen *Aktivieren und Übersetzen*.
 
+::: tip
+Alle Übersetzungen basieren auf der Sprache *English (US)* mit dem Code `en`.
+:::
+
 ## Übersetzung
 
 ### Übersetzungen aktualisieren
 
-Mit jeder Odoo Version und den dazugehörigen Modulen werden neue Übersetzungen hinzugefügt. Um die aktuellsten Übersetzungen zu erhalten müssen Sie folgende Aktion ausführen: Öffnen Sie *Einstellungen > Sprachen > Sprachen verwalten > Sprache auswählen* und klicken auf *Active / Update*. Bestätigen Sie den Dialog.
+Mit jeder Odoo Version und den dazugehörigen Modulen werden neue Übersetzungen hinzugefügt. Um die aktuellsten Übersetzungen zu erhalten müssen Sie folgende Aktion ausführen: Öffnen Sie *Einstellungen > Sprachen > Sprachen verwalten > Sprache auswählen* und klicken auf *Aktiveren / Aktualisieren*. Bestätigen Sie den Dialog.
 
 ::: warning
 Mit der Option *Bisherige Übersetzungen ändern* werden manuell erstellte Übersetzungen überschrieben.

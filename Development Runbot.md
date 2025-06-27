@@ -1,8 +1,7 @@
 ---
 title: Entwicklung Runbot
 description: Odoo Testumgebungen.
-tags:
-- HowTo
+kind: howto
 prev: ./development
 ---
 # Entwicklung Runbot
@@ -12,11 +11,15 @@ prev: ./development
 
 ## Beschreibung
 
-Auf Odoo Runbot <https://runbot.odoo.com> stehen die Entwicklungsumgebungen von Odoo S.A. zur Verfügung. Für jeden Commit auf den Version-Branches (15.0, 16.0, 17.0, ...) wird eine Odoo-Build generiert.
+::: warning
+Nicht zu verwechseln mit [Entwicklung Runboat](Development%20Runboat.md).
+:::
+
+Auf Odoo Runbot <https://runbot.odoo.com> stehen die Testumgebungen von Odoo S.A. zur Verfügung. Für jeden Commit auf den Version-Branches (15.0, 16.0, 17.0, ...) wird eine Odoo-Build generiert.
 
 ## Verwendung
 
-### Auf einer Odoo Runbot Datenbank einloggen
+### Auf Odoo Runbot Testumgebung einloggen
 
 Rufen Sie Sie Website <https://runbot.odoo.com> auf und bestimmen Sie die Odoo Version, welche Sie testen möchten. Navigieren Sie zur entsprechenden Zeile und suchen Sie einen grünen Build. 
 

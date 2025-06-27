@@ -1,8 +1,8 @@
 ---
 title: Brand Account
 description: Rechnung mit Marke verknüpfen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./
 ---

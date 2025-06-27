@@ -1,8 +1,8 @@
 ---
 title: Mail Tracking Helpdesk Bounce Ticket
 description: Für E-Mails mit dem Status Bounced ein Helpdesk-Ticket erstellen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./dialog
 ---

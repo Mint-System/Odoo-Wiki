@@ -1,8 +1,7 @@
 ---
 title: Einstellungen OAuth
 description: OAuth-Integration mit Odoo.
-tags:
-- HowTo
+kind: howto
 prev: ./settings
 ---
 # Einstellungen OAuth
@@ -13,6 +12,10 @@ prev: ./settings
 ## Konfiguration
 
 ### Odoo als OAuth-App auf Azure registrieren
+
+::: tip
+Wir empfehlen Produkte von [Infomaniak](https://www.infomaniak.com/goto/de/home?utm_term=67ff9acbaabca) anstatt Microsoft zu verwenden.
+:::
 
 Damit sich Odoo-Benutzer den OAuth-Authorisierungsflow mit Azure abwickeln können, muss Odoo auf Azure registriert werden.
 
@@ -78,6 +81,10 @@ Für diese Werte müssen Sie in Odoo zwei [Systemparameter anlegen](Development.
 
 ### Outlook OAuth-Verbindung einrichten
 
+::: tip
+Wir empfehlen Produkte von [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hosting.mail?utm_term=67ff9acbaabca) anstatt Outlook zu verwenden.
+:::
+
 Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server*. Markieren Sie den Eintrag *Outlook* auf dem Mail-Server. Klicken Sie auf *Connect your Outlook account* und loggen Sie sich mit dem Postfach-Benutzer ein.
 
 ![](attachments/Einstellungen%20OAuth%20Outlook.png)
@@ -85,6 +92,20 @@ Navigieren Sie nach *Einstellungen > Technisch > Eingehender Mail-Server*. Marki
 ::: warning
 Damit eine Verbindung mit Outlook aufbaut werden kann, müsssen Sie [Odoo als OAuth-App auf Azure registrieren](#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren).
 :::
+
+### Azure OAuth-App Client-Secret neu erstellen
+
+Wenn ihr Client-Secret abgelaufen ist, können Sie einfach ein Neue erstellen. Loggen Sie sich auf <https://portal.azure.com/> ein in das Azure-Portal zu gelangen. Navigieren Sie nach *Microsoft Entra ID > App-Registrierungen* und rufen Sie die Odoo OAuth-App auf.
+
+Klicken anschliessend auf *Ein Zertifikat oder Geheimnis hinzufügen*. Erstellen Sie diesen Eintrag.
+
+![](attachments/Einstellungen%20OAuth%20Client%20Secret.png)
+
+Kopieren Sie das Feld *Wert*, es handelt sich hierbei um das *Client Secret*.
+
+![](attachments/Einstellungen%20OAuth%20Copy%20Secret.png)
+
+Öffnen Sie jetzt Odoo und navigieren Sie nach *Einstellungen > Dialog > Outlook Credentials*. Überschreiben Sie das bestehende *Client Secret*.
 
 ### OAuth-Token regenerieren
 

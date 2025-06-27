@@ -1,8 +1,7 @@
 ---
 title: Holzwirtschaft Projekt
 description: Erweiterung Projektmanagement für die Holzwirtschaft.
-tags:
-- HowTo
+kind: howto
 prev: ./forestry-base
 ---
 # Holzwirtschaft Projekt

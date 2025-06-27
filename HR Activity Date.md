@@ -1,8 +1,8 @@
 ---
 title: HR Activity Date
 description: Plannungstypen mit Aktivitätsdatum basierend auf Arbeitsverträgen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr
 ---

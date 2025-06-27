@@ -1,8 +1,8 @@
 ---
 title: Product Name Sequence
 description: Generate product names based on a sequence.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./product
 ---

@@ -1,8 +1,8 @@
 ---
 title: Sale Expense Unlink
 description: Bei Abbruch Spesenbericht wird Kundenauftragszeile entfernt.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-expense
 ---

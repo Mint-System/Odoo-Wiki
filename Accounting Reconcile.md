@@ -1,8 +1,7 @@
 ---
 title: Buchhaltung Abstimmung
 description: Bankkonto mit Odoo abgleichen.
-tags:
-- HowTo
+kind: howto
 prev: ./accounting
 ---
 # Buchhaltung Abstimmung

@@ -1,8 +1,7 @@
 ---
 title: Odoo.com
 description: Software-as-a-Service Angebot von Odoo.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Odoo.com
@@ -22,6 +21,9 @@ Wenn Sie ihre Odoo Datenbank auf Odoo.com herunterladen möchten, rufen Sie die 
 
 Der Download wird sofort gestartet. Abhängig von der Grösse ihrer Datenbank dauert der Vorgang länger.
 
+::: tip
+Um den Datenbank-Dump zu versenden, können Sie <https://www.swisstransfer.com> verwenden.
+:::
 
 ### Datenbank löschen
 

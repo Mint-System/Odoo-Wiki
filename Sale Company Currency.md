@@ -1,8 +1,8 @@
 ---
 title: Sale Company Currency
 description: Total der Verkaufsaufträge in Unternehmenswährung.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./sale
 ---

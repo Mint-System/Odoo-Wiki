@@ -1,8 +1,7 @@
 ---
 title: Buchhaltung Berichte
 description: Finanzberichte erstellen.
-tags:
-- HowTo
+kind: howto
 prev: ./accounting
 ---
 # Buchhaltung Berichte
@@ -30,7 +29,11 @@ Ein Jahresauszug einer Buchhaltung kann mehrere hundert Seiten produzieren. Beim
 
 ### Kontenblatt erstellen
 
-Öffnen Sie  *Buchhaltung > Berichtswesen > Hauptbuch* und geben Sie in der Suchmaske die Kontonummer ein. Wählen Sie in der Filterleiste *Alle auffalten* und filtern Sie die Buchungszeilen nach Geschäftsjahr. Mit der Aktion *Vorschau Drucken* oder *Speichern* erhalten Sie eine PDF-Datei der Ansicht.
+Öffnen Sie  *Buchhaltung > Berichtswesen > Hauptbuch*. Geben Sie in der Suchmaske optional ein Kontonummer ein und filtern Sie die Buchungszeilen nach Geschäftsjahr. Wählen Sie in der Filterleiste *Alle auffalten*. Mit der Aktion *PDF* oder *XLSX* können Sie den Bericht als entsprechende Datei speichern.
+
+::: warning
+Die Erstellung der PDF-Datei kann bei umfangreichen Kontenblätter lange dauern. Als Alternative wird empfohlen den Bericht als XLSX-Datei zu speichern und anschliessend als PDF-Datei abzuspeichern.
+:::
 
 ### Kumulierte Buchungszeilen anzeigen
 
@@ -38,7 +41,7 @@ Ein Jahresauszug einer Buchhaltung kann mehrere hundert Seiten produzieren. Beim
 
 ![](attachments/Buchhaltung%20Berichte%20Saldenliste.png)
 
-:::
+::: tip
 Das Feld *Cumulated Balance* kumuliert fortlaufend das Saldo. Sie können das Feld über das Kontext-Menü ein- und ausblenden.
 :::
 
@@ -134,6 +137,18 @@ Wenn Sie die Saldosteuersätze ausweisen möchhten, müssen Sie für jeden Saldo
 Auf dem Steuerbericht sieht das wie folgt aus:
 
 ![](attachments/Schweizer%20Steuerbericht%20mit%20Saldosteuersatz.png)
+
+### Unstimmigkeiten in Bericht bereinigen
+
+Wenn Sie den [Steuerbericht anzeigen](#Steuerbericht%20anzeigen) kann die folgenden Meldung angezeigt werden:
+
+> Dieser Bericht enthält Unstimmigkeiten. Die betroffenen Zeilen sind mit einer Warnung gekennzeichnet.
+
+Wenn Sie zu den betroffenen Zeilen navigieren sehen Sie ein Warnung-Icon. Weitere Details zur Unstimmigkeit werden nicht angezeigt. Sie können über das Kontext-Menü die Buchungszeilen anzeigen.
+
+::: tip
+Technisch werden die Berichtzeilen von der Methode `_check_line_consistency` geprüft und markiert. Diese Methode prüft ob der berechnete Steuerbetrag mit dem Bruttobetrag übereinstimmt.
+:::
 
 ## Mahnwesen
 

@@ -1,8 +1,8 @@
 ---
 title: Partner Contact Department Note
 description: Abteilung auf Kontakten speichern. 
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./contacts
 ---

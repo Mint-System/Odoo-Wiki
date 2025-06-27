@@ -1,8 +1,7 @@
 ---
 title: Verkauf Treue
 description: Kundentreue mit Rabatten, Coupons und Geschenkkarten belohnen.
-tags:
-- HowTo
+kind: howto
 prev: ./sale
 ---
 # Verkauf Treue

@@ -1,8 +1,8 @@
 ---
 title: Account Move Line Contra Accounts
 description: Gegenkontos auf Buchungszeilen anzeigen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./accounting
 ---

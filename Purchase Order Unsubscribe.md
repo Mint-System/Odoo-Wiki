@@ -1,8 +1,8 @@
 ---
 title: Purchase Order Unsubscribe
 description: Alle Abonnenten nach Bestätigung der Bestellung entfernen.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./dialog
 ---

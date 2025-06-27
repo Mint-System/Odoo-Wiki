@@ -1,8 +1,8 @@
 ---
 title: Sale Blanket Order Template
 description: Vorlagen für Rahmenaufträge.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./sale-blanket-order
 ---

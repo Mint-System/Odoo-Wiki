@@ -1,8 +1,7 @@
 ---
 title: Benutzer
 description: Einstellungen für ihren persönlichen Odoo-Benutzer.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Benutzer
@@ -24,6 +23,10 @@ Nach dem Login klicken Sie oben rechts auf ihren Benutzer und wählen *Einstellu
 ### Passwort ändern
 
 Klicken Sie oben rechts auf ihen Benutzer und wählen Sie *Einstellungen*. Öffnen Sie den Tab *Account Sicherheit* und klicken Sie auf *Passwort Ändern*.
+
+::: warning
+Wenn Sie das Passwort geändert haben, werden Sie von Odoo ausgeloggt und müssen sich mit dem neuen Passwort einloggen.
+:::
 
 ### E-Mail-Signatur hinterlegen
 

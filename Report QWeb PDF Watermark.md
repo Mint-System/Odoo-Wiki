@@ -1,8 +1,8 @@
 ---
 title: Report QWeb PDF Watermark
 description: Wasserzeichen auf PDF-Berichte hinzufügen.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./settings
 ---

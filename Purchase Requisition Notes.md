@@ -1,8 +1,8 @@
 ---
 title: Purchase Requisition Notes
 description: Kaufverträge mit Notizfelder.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./purchase-requisition
 ---

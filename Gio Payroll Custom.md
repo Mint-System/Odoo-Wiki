@@ -1,8 +1,8 @@
 ---
 title: Swiss Payroll
 description: Lohnarten für die Schweizer Lohnabrechnung.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./hr-payroll
 ---

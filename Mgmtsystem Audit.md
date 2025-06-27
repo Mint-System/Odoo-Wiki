@@ -1,8 +1,8 @@
 ---
 title: Management System - Audit
 description: Audit-Module for the OCA Management System.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./management-system
 ---

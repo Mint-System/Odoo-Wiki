@@ -1,8 +1,7 @@
 ---
 title: Arbeitszeiten und Urlaubsansprüche
 description: Eine einfache und umfassende Odoo-Dokumentation.
-tags:
-- Best-Practice
+kind: explain
 prev: ./best-practice
 ---
 # Arbeitszeiten und Urlaubsansprüche

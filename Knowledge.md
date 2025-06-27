@@ -1,8 +1,7 @@
 ---
 title: Wissen
 description: Wissenstransfer für Teams vereinfachen.
-tags:
-- HowTo
+kind: howto
 prev: ./
 ---
 # Wissen
@@ -43,3 +42,13 @@ In einem Mail Dialog können Sie mit der Eingabe von <kbd>/</kbd> + *Artikel* na
 Sie können anhand Vorlagen in Artikeln Nachrichten erstellen lassen. Klicken Sie auf das Knowledge-Icon im Chatter-Fenster. Suchen Sie den Artikel und Vorlagen-Abschnitt. Klicken Sie auf das ✉️ Zeichen. Sie werden zum Chatter zurückgeführt und der Nachrichten-Dialog öffnet sich mit der ausgewählten Vorlage als Inhalt.
 
 ![Knowledge Vorlage verschicken](attachments/Knowledge%20Vorlage%20verschicken.gif)
+
+### Ansicht in Artikel einfügen
+
+Alle Ansichten in Odoo können gespeichert und auf einem Knowledge Artikel hinzufgügt werden. Navigieren Sie zur ausgewählten Ansicht, beispielsweise *Projekt > Projekte*, und filtern Sie die Ansicht. Wählen Sie anschliessend *Favoriten > Ansicht in Artikel einfügen* und klicken auf einen Artikel. Odoo fügt die Ansicht in den Arikel ein.
+
+![](attachments/Knowledge%20Meine%20Projekte%20Ansicht.png)
+
+::: tip
+Die Ansicht und Filter ist dynamisch. Es wird immer der aktuelle Zustand dargestellt. Sie können auf die Inhalte klicken und landen in der Detailansicht.
+:::

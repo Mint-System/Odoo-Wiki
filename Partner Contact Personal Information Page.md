@@ -1,8 +1,8 @@
 ---
 title: Personal information page for contacts
 description: Fügt eine Ansicht zum Teilen von persönlichen Informationen hinzu.
+kind: howto
 tags:
-- HowTo
 - OCA
 prev: ./contacts
 ---

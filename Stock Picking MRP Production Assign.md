@@ -1,8 +1,8 @@
 ---
 title: Stock Picking MRP Production Assign
 description: "Reservierung für Make-To-Order Aufträge gleichzeitig durchführen."
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./stock
 ---

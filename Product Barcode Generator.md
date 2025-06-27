@@ -1,8 +1,8 @@
 ---
 title: Product Barcode Generator
 description: Autogenerate EAN13 product barcodes.
+kind: howto
 tags:
-- HowTo
 - Drittanbieter
 prev: ./product
 ---
