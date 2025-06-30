@@ -13,8 +13,8 @@ Website: <https://www.odoo.com/de_DE/app/email-marketing>
 
 ## Bereiche
 
-| Bereich                                             | Beschreibung                           |
-| --------------------------------------------------- | -------------------------------------- |
+| Bereich                                                 | Beschreibung                                      |
+| ------------------------------------------------------- | ------------------------------------------------- |
 | [E-Mail-Marketing Aktionen](Mass%20Mailing%20Action.md) | Arbeitsflüsse in E-Mail-Marketing automatisieren. |
 
 ## Erweiterungen
@@ -26,17 +26,11 @@ Website: <https://www.odoo.com/de_DE/app/email-marketing>
 | [Mass Mailing Contact Active](Mass%20Mailing%20Contact%20Active.md) | Mailkontakte und Abonnements archivieren.      |
 | [Survey Send To List](Survey%20Send%20To%20List.md)                 | Versand Umfrage an Mailing-Liste.              |
 
-## Abonnieren
+## Konfiguration
 
-### Wöchentliche Statistik abmelden
+### Dedizierter Mail-Server festlegen
 
-Odoo versendet jede Woche Übersicht zum Unternehmen. Wenn Sie diesen Newsletter deaktiveren möchten gehen Sie wie folgt vor: Navigieren im Entwicklermodus nach *Einstellungen > Technisch > E-Mail > Übersicht E-Mails*.
-
-Öffnen Sie den Eintrag *Wöchentliche Statistiken in Odoo* und wählen sie, ob Sie sich selber abmelden möchte oder für alle den Versand beenden wollen.
-
-![](attachments/E-Mail-Marketing%20Versand%20beenden.png)
-
-## Einstellungen
+Zum Versenden der Marketing-Mails sollten Sie einen separate Mail-Domain verwenden. Zur Konfiguration des dedizierten Mail-Server navigieren Sie nach *Einstellungen > E-Mail-Marketing* und aktivieren die Option *Dedizierter Server*. Erstellen oder wählen Sie einen ausgehenden Mail-Server aus.
 
 ### Mail-Provider Brevo konfigurieren
 
@@ -51,3 +45,27 @@ Die Zugangsdaten können Sie unter <https://app.brevo.com/settings/keys/smtp> ab
 
 * **Benutzername**: Ist das Feld *Login* aus den Angaben.
 * **Passwort**: SMTP-Schlüssel mit Bezeichnung *Odoo*.
+
+## Verwendung
+
+### Mailing erstellen
+
+Klicken Sie auf *E-Mail-Marketing* und erstellen Sie einen Eintrag. Geben Sie einen Namen ein und bestimmen Sie den Empfänger des Mailings. Im Tab *E-Mail-Text* wählen Sie eine Vorlage für den Inhalt aus. 
+
+### Mailing versenden
+
+Rufen Sie das Mailing, dass Sie versenden möchten, unter *E-Mail-Marketing* auf. Wählen Sie die Aktion *Senden* aus und bestätigen Sie den Dialog. Das Mailing wird in die Warteschlange gestellt und wartet auf den Versand.
+
+### Test-Mail versenden
+
+Rufen Sie das Mailing, dass Sie testen möchten, unter *E-Mail-Marketing* auf. Klicken Sie auf *Testbetrieb* und geben Sie im Dialog eine Mail-Adresse ein. Klicken Sie auf *Senden* um das Mailing an diese Adressse zu senden.
+
+### Wöchentliche Statistik abmelden
+
+Odoo versendet jede Woche Übersicht zum Unternehmen. Wenn Sie diesen Newsletter deaktiveren möchten gehen Sie wie folgt vor: Navigieren im Entwicklermodus nach *Einstellungen > Technisch > E-Mail > Übersicht E-Mails*.
+
+Öffnen Sie den Eintrag *Wöchentliche Statistiken in Odoo* und wählen sie, ob Sie sich selber abmelden möchte oder für alle den Versand beenden wollen.
+
+![](attachments/E-Mail-Marketing%20Versand%20beenden.png)
+
+
