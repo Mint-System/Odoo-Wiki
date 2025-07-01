@@ -134,6 +134,16 @@ Benutzername und Passwort können gewählt werden.
 
 ## Zwei-Faktor-Authentisierung
 
+### Einladung zur 2-Faktor-Authentisierung verschicken
+
+Für jeden Benutzer können Sie eine Einladung zur Zwei-Faktor-Authentisierung verschicken. Markieren Sie dazu die Benutzer unter *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie *Aktionen > Einladung zur Verwendung der Zwei-Faktor-Authentifizierung*.
+
+![](attachments/Einstellungen%20Login%20Einladung%20zur%20Zwei-Faktor-Authentisierung%20verschicken.png)
+
+### 2-Faktor-Authentisierung für einen Benutzer aktivieren
+
+Sie können die Zwei-Faktor-Authentisierung auch für bestimmte Benutzer aktivieren. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie einen Benutzer aus. Anschliessen klicken Sie auf *Tab Account Sicherheit > Zwei-Faktor-Authentifizierung* und befolgen den Dialog.
+
 ### OTP-App installieren
 
 Für die Zwei-FAktor-Authentisierung benötigen Sie eine OTP-App auf ihrem Smartphone. Installieren Sie abhängig von ihrem Betriebssystem eine entsprechende App:
@@ -141,22 +151,20 @@ Für die Zwei-FAktor-Authentisierung benötigen Sie eine OTP-App auf ihrem Smart
 iOS: [OTP Auth](https://apps.apple.com/ch/app/otp-auth/id659877384)\
 Android: [Aegis Authenticator](https://getaegis.app/)
 
-### Zwei-Faktor-Authentisierung aktivieren
+### 2-Faktor-Authentisierung aktivieren
 
 Sie können für Ihren Odoo-Benutzer jederzeit die Zwei-Faktor-Authentisierung einrichten. Klicken Sie dazu auf *Account > Mein Profil / Einstellungen* und im Tab *Account Sicherheit* wählen Sie *Aktiviere Zwei-Faktor-Authentifizierung*. Geben Sie das Passwort des Odoo-Account ein. Befolgen Sie die Anweisungen im Dialog.
 
-![](attachments/Einstellungen%20Login%20Zwei-Faktor-Authentisierung.png)
-
-:::
-Führen Sie diese Aktivierung auf dem Desktop. Odoo generiert für die Zwei-Faktor-Authentisierung eine QR-Code, den Sie mit dem Smartphone scannen müssen.
+::: warning
+Führen Sie diese Aktivierung auf dem Desktop durch. Odoo generiert für die Zwei-Faktor-Authentisierung eine QR-Code, den Sie mit dem Smartphone scannen müssen.
 :::
 
-### Einladung zur Zwei-Faktor-Authentisierung verschicken
+::: tip
+Sie können das 2-Faktor-Geheimnis zur Generierung des TOTP-Codes exportieren. Klicken Sie auf *Scannen klappt nicht?* und speichern Sie das Gehemeinis in ihrere TOTP-App.
+:::
 
-Für jeden Benutzer können Sie eine Einladung zur Zwei-Faktor-Authentisierung verschicken. Markieren Sie dazu die Benutzer unter *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie *Aktionen > Einladung zur Verwendung der Zwei-Faktor-Authentifizierung*.
+### 2-Faktor-Authentisierung von Einladung aktivieren
 
-![](attachments/Einstellungen%20Login%20Einladung%20zur%20Zwei-Faktor-Authentisierung%20verschicken.png)
+WEn Sie eine Einladung zur Aktivierung der 2-Faktor-Authentisierung erhalten haben, dann klicken Sie auf den Link *Meine 2-Faktor-Authentifizierung aktivieren*. Sie werden entweder in das Odoo Backend oder Portal weitergeleitet. Im Backend können Sie gemäss [2-Faktor-Authentisierung aktivieren](#2-Faktor-Authentisierung%20aktivieren) vorgehen.
 
-### Zwei-Faktor-Authentisierung für einen Benutzer aktivieren
-
-Sie können die Zwei-Faktor-Authentisierung auch für bestimmte Benutzer aktivieren. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und wählen Sie einen Benutzer aus. Anschliessen klicken Sie auf *Tab Account Sicherheit > Zwei-Faktor-Authentifizierung* und befolgen den Dialog.
+Im Odoo Portal loggin sich sich mit ihrem Benutzer ein. Anschliessend klicken Sie auf *Enable two-factor authentication*. Geben Sie nochmals das Passwort zu ihrem Odoo Account ein. Befolgen Sie die Anweisungen im Dialog.
