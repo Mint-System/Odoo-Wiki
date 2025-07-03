@@ -145,6 +145,14 @@ Navigieren Sie nach *Buchhaltung > Konfiguration > Kontenplan* und erstellen Sie
 Falls die Meldung *Prüfungsfehler* erscheint und Sie ein neues Konto mit einer bestimmten Kurzbezeichnung nicht erstellen können, dann ist es vielleicht schon vorhanden aber wegen dem Standardfilter *Aktiver Account* nicht sichtbar. Schalten Sie ihn aus um auch Konten anzuzeigen die das Attribut *Nicht mehr verwenden* eingeschaltet haben.
 :::
 
+### Konto archivieren
+
+Wenn Sie ein Konto nicht benötigen, können Sie dieses archivieren. Navigieren Sie nach *Buchhaltung > Konfiguration > Kontenplan* und klicken Sie beim entsprechende Konto auf *Ansicht*. Aktivieren Sie die Option *Nicht mehr verwendet* um das Konto zu archivieren.
+
+::: warning
+Es ist nicht empfohlen die nicht benötigten Konten zu löschen. Die Konten werden vom Kontenplan definiert und werden bei einem Update wieder angelegt.
+:::
+
 ### Kontenplan einrichten
 
 Öffnen Sie die Finanz-App und richten Sie den Standard-Kontenplan ein. Navigieren Sie nach *Buchhaltung > Konfiguration > Buchhaltung > Kontenplan*.
