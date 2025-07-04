@@ -70,7 +70,8 @@ Zusätzlich können Sie mit der geplanten Aktion die angefallenen [Überstunden 
 
 ### Überstunden auszahlen
 
-Wenn Sie Überstunden auszahlen, müssen Sie diese manuell abziehen. Damit Sie manuelle Korrekturen vornehmen können, richten Sie [Alle Überstunden anzeigen](#Alle%20Überstunden%20anzeigen) ein und erlauben die manuelle Bearbeitung mit [Snippet hinzufügen](Development%20Snippets.md#Snippet%20hinzufügen).
+Wenn Sie Überstunden auszahlen, müssen Sie diese manuell abziehen. Damit Sie manuelle Korrekturen vornehmen können, richten Sie [Alle Überstunden anzeigen](#Alle%20Überstunden%20anzeigen) ein und 
+erlauben die manuelle Bearbeitung mit [Snippet hinzufügen](Development%20Snippets.md#Snippet%20hinzufügen).
 
 Anschliessend können Sie unter *Anwesenheiten > Überstunden* manuelle Einträge erstellen.
 
