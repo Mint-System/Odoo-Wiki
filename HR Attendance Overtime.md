@@ -78,7 +78,7 @@ Anschliessend können Sie unter *Anwesenheiten > Überstunden* manuelle Einträg
 ![](attachments/Anwesenheiten%20Überstunden%20Korrektur.png)
 
 ::: tip
-Erfassen Sie die Korrektur-Einträge an einem Wochenende oder Feiertag, damit der Eintrag nicht von Überstunden-Berechnungen überschrieben.
+Erfassen Sie die Korrektur-Einträge an einem Wochenende oder Feiertag, damit wird der Eintrag nicht von der Überstunden-Berechnungen überschrieben.
 :::
 
 ## Berichte
