@@ -51,13 +51,11 @@ Verwenden Sie <https://www.tablesgenerator.com/markdown_tables> um ganz Markdown
 
 Zur Erläuterung der Instruktionen wird ein fiktives Unternehmen mit diesen Informationen verwendet:
 
-![logo-velo-manufaktur-ag](attachments/logo-velo-manufaktur-ag.svg)
-
-Name: Velo Manufaktur AG\
-Website: <https://www.velo-manufaktur.ch>\
-Mail: <mailto:info@velo-manufaktur.ch>\
-Odoo: <https://erp.velo-manufaktur.ch>\
-Standort: Fahrradstrasse 46, 6460 Altdorf, Schweiz\
+Name: Restic GmbH\
+Website: <https://www.restic.ch>\
+Mail: <mailto:info@restic.ch>\
+Odoo: <https://odoo.restic.ch>\
+Standort: Milchstrase 2, 6460 Altdorf, Schweiz\
 Mitarbeiter: Kurt Gisler, Janik von Rotz, Marco Roeleven\
 MWST: CHE-103.800.167\
 IBAN: CH4080808008919700926\
@@ -67,9 +65,9 @@ BIC: RAIFCH22XXX
 
 ### Lieferanten
 
-Name: Velo Zürich GmbH\
-Website: <https://www.velo-zuerich.ch>\
-Standort: Rautistrasse 33, 8047 Zürich, Schweiz\
+Name: Totonic GmbH\
+Website: <https://www.pi-shop.ch/>\
+Standort: Bernerstrasse Nord 150, 8064 Zürich, Schweiz\
 MWST: CHE-113.887.810\
 Handelsregister: CH-020.4.036.470-7\
 IBAN: CH3509000000851054624\
