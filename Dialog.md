@@ -144,6 +144,14 @@ Benutzer werden standardmässig mit dem Subtyp *Diskussion* abonniert. Damit Nac
 Um eine Nachricht explizit an externe Benutzer zu schicken, wählen Sie beim Nachrichten versenden eine E-Mail-Vorlage aus oder fügen den Empfänger manuell hinzu.
 :::
 
+### Nachrichten nicht an Follower schicken
+
+Wenn Sie verhindern, möchten dass Nachrichten an die Follower des Dokuments verschickt werden, dann müssen Sie den entsprechenden Subtypen bearbeiten. Navigieren Sie nach *Einstellungen > Technisch > Subtypen* und zeigen Sie den Subtypen *Diskussion* an. Deaktiveren die Option *Standard*. 
+
+::: warning
+Für ausgewählte Dokumenten wie das *Helpdesk-Team* gibt es zusätzliche Subtypen, beispielsweise *Ticket erstellt*, welche die Option *Standard* aktiv haben.
+:::
+
 ## Kanäle
 
 ### Kanal löschen

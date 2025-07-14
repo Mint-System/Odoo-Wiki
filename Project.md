@@ -190,9 +190,7 @@ Mit einer neuen Regel für *Datensatzregeln* können Sie Projekte auch für Port
 
 ### Benachrichtigung bei Erstellung von Aufgabe erhalten
 
-Um eine Benachrichtigung zu erhalten, wenn eine Aufgabe in einem bestimmten Projekt erstellt, müssen Sie das Projekt via *Projekt > Konfiguration > Projekte* bearbeiten. Nun müssen Sie ein [eigenes Abonnement hinzufügen](Dialog.md#Eigenes%20Abonnement%20hinzufügen). 
-
-![](attachments/Projekt%20Subscription%20bearbeiten.png)
+Um eine Benachrichtigung zu erhalten, wenn eine Aufgabe in einem bestimmten Projekt erstellt, müssen Sie das Projekt via *Projekt > Konfiguration > Projekte* bearbeiten. Nun müssen Sie ein [Eigener Follower hinzufügen](Dialog.md#Eigener%20Follower%20hinzufügen). Aktivieren Sie die Option *Erstellen Sie eine Aufgabe*.
 
 ## Zeiterfassung
 

@@ -42,6 +42,10 @@ Navigieren Sie nach *Einstellungen > Zeiterfassung > Abrechnung* und wählen Sie
 Um die Option zu aktivieren kann auch das Modul `sale_timesheet_enterprise` installiert werden.
 :::
 
+### Benachrichtigung "Erinnerung an Ihre Zeiterfassung" deaktivieren
+
+Wenn Sie die Benachrichtigung *Erinnerung an Ihre Zeiterfassung* nicht mehr erhalten möchten, müssen sie ihren Mitarbeiter-Eintrag archivieren oder die geplante Aktion *Zeiterfassung: E-Mail-Erinnerung an Mitarbeiter* deaktivieren.
+
 ## Erfassung
 
 ### Eintrag manuell erstellen
@@ -141,9 +145,3 @@ Führen Sie [Datensatzregel anpassen](Settings%20Permissions.md#Datensatzregel%2
 ```
 
 Damit haben Genehmiger von Zeiterfassungseinträgen nur Zugriff auf ihr Team.
-
-## Benachrichtigungen
-
-## Benachrichtigung "Erinnerung an Ihre Zeiterfassung" deaktivieren
-
-Wenn Sie die Benachrichtigung *Erinnerung an Ihre Zeiterfassung* nicht mehr erhalten möchten, müssen sie ihren Mitarbeiter-Eintrag archivieren oder die geplante Aktion *Zeiterfassung: E-Mail-Erinnerung an Mitarbeiter* deaktivieren.
