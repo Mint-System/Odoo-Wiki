@@ -136,6 +136,8 @@ Zeigen Sie ein Odoo Dokument an und bearbeiten Sie ein Abonnement.
 
 Wählen Sie die Subtypen aus, welche für das Abonnement aktiv sein sollen.
 
+## Benachrichtigung
+
 ### Nachrichten nur an interne Benutzer schicken
 
 Benutzer werden standardmässig mit dem Subtyp *Diskussion* abonniert. Damit Nachrichten ohne expliziten Emfänger nur an interne Kontakte verschickt werden können, müssen Sie diesen Subtyp anpassen. Navigieren Sie nach *Einstellungen > Technisch > Subtypen* und zeigen Sie den Subtypen *Diskussion* an. Aktivieren Sie die Option *Nur interne*.
