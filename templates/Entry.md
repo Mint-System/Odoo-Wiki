@@ -1,15 +1,15 @@
 ---
-title: {{ name }}
-description: {{ description }}
+title: {{VALUE:name}}
+description: {{VALUE:description}}
 kind: howto
 tags:
 - Drittanbieter
-prev: {{ prev }}
+prev: {{VALUE:prev|./contacts}}
 ---
-# {{ name }}
+# {{VALUE:name}}
 ![icon_oms_box](../attachments/icons_odoo_mint_system.png)
 
-$frontmatter.description
+{{VALUE:description}}
 
-Technischer Name: `{{ module_name }}`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-{{ repo_suffix }}/tree/{{ odoo_version }}/{{ module_name }}>
+Technischer Name: `{{VALUE:module_name}}`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-{{VALUE:repo_name}}/tree/{{VALUE:odoo_version}}/{{VALUE:module_name}}>
