@@ -9,7 +9,7 @@ prev: {{VALUE:prev|./contacts}}
 # {{VALUE:name}}
 ![icon_oms_box](../attachments/icons_odoo_mint_system.png)
 
-{{VALUE:description}}
+{{ $frontmatter.description }}
 ```js quickadd
 const odoo_version = await this.quickAddApi.suggester(
     ["16.0", "17.0", "18.0"],
