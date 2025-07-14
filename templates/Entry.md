@@ -4,7 +4,7 @@ description: {{ description }}
 kind: howto
 tags:
 - Drittanbieter
-prev: ./{{ prev }}
+prev: {{ prev }}
 ---
 # {{ name }}
 ![icon_oms_box](../attachments/icons_odoo_mint_system.png)
