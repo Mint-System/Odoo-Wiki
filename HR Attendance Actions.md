@@ -172,8 +172,8 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
-for record in records:  
-  record.attendance_ids._update_overtime()
+for rec in records:
+  rec.attendance_ids._update_overtime()
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
