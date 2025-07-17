@@ -3,7 +3,7 @@ title: Product Listprice Currency
 description: Listenpreise in verschiedenen Währungen für Preislisten-Formeln.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./product
 ---
 # Product Listprice Currency

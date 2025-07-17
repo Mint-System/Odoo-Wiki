@@ -3,7 +3,7 @@ title: Account Sale Timesheet Report
 description: Zeiterfassungsbericht für Rechnung.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./invoicing
 ---
 # Account Sale Timesheet Report

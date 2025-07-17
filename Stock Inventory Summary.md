@@ -3,7 +3,7 @@ title: Stock Inventory Summary
 description: Lagerbestand gruppiert nach Lagerort und Produkt.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./stock
 ---
 # Stock Inventory Summary

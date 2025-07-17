@@ -3,7 +3,7 @@ title: Sale Blanket Order Reference
 description: Kundenreferenz von Rahmenauftrag auf den Verkaufsauftrag kopieren.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Reference

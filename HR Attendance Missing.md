@@ -3,7 +3,7 @@ title: HR Attendance Missing
 description: Fehlende Anwesenheiten erstellen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr-attendance
 ---
 # HR Attendance Missing

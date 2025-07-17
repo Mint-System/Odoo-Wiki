@@ -3,7 +3,7 @@ title: Purchase Stock Sale Owner
 description: Eigentümer auf Wareneingang aus Verkaufsauftrag zuordnen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./purchase
 ---
 # Purchase Stock Sale Owner

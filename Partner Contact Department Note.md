@@ -1,9 +1,9 @@
 ---
 title: Partner Contact Department Note
-description: Abteilung auf Kontakten speichern. 
+description: Abteilung auf Kontakten speichern.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./contacts
 ---
 # Partner Contact Department Note

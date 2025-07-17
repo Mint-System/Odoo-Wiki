@@ -1,9 +1,9 @@
 ---
 title: Sale Order Contact Person
-description: Kontaktperson auf Verkaufsauftrag festlegen. 
+description: Kontaktperson auf Verkaufsauftrag festlegen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale
 ---
 # Sale Order Contact Person
@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/15.0/sa
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [Sale Order Sale Partner](Sale%20Order%20Sale%20Partner.md) zu verwenden.
-#DEPRECATED 
+#DEPRECATED
 :::
 
 ## Konfiguration

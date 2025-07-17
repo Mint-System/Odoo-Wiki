@@ -3,7 +3,7 @@ title: Mgmt Audit
 description: Auditieren Sie ihr Unternehmen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./management-system
 ---
 

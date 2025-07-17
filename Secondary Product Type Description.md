@@ -3,7 +3,7 @@ title: Secondary Product Type Description
 description: Zu jedem Produkt ein Beschreibungsfeld.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./manufacture
 ---
 # Secondary Product Type Description

@@ -3,7 +3,7 @@ title: HR Timesheet From Until
 description: Berechnung Dauer anhand Start- und Endzeit.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr-timesheet
 ---
 # HR Timesheet From Until

@@ -3,7 +3,7 @@ title: Account Invoice Notes
 description: Zusätzliche Header und Footer Notizen kopiert von Verkaufsauftrag.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./invoicing
 ---
 # Account Invoice Notes

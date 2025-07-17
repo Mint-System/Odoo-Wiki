@@ -3,7 +3,7 @@ title: Partner Duplicate Acc Number
 description: Kontonummer für mehrere Bankkonten verwenden
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./contacts
 ---
 # Partner Duplicate Acc Number
@@ -18,6 +18,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/
 
 ### Kontonummer für mehrere Bankkonten verwenden
 
-Mit dieser Erweiterung können mehrere Bankkontos mit derselben Kontonummer erfasst werden. 
+Mit dieser Erweiterung können mehrere Bankkontos mit derselben Kontonummer erfasst werden.
 
 ![](attachments/Partner%20Duplicate%20Acc%20Number.png)

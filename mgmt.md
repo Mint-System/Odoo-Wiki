@@ -3,7 +3,7 @@ title: Mgmt
 description: Risk Management by Mint System.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./management-system
 ---
 
@@ -57,5 +57,3 @@ Zunächst wird ein Audit geplant indem Stammdaten erfasst werden.
 ### Statement erfassen
 
 ![](attachments/management_compliancestatements.png)
-
-

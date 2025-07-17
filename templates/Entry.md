@@ -3,11 +3,11 @@ title: {{VALUE:name}}
 description: {{VALUE:description}}
 kind: howto
 tags:
-- Drittanbieter
-prev: {{VALUE:prev|./contacts}}
+- {{VALUE:org_name}}
+prev: {{VALUE:prev}}
 ---
 # {{VALUE:name}}
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+{{VALUE:module_icon}}
 
 {{ $frontmatter.description }}
 ```js quickadd
@@ -16,6 +16,19 @@ const odoo_version = await this.quickAddApi.suggester(
     ["16.0", "17.0", "18.0"]
 );
 this.variables.odoo_version = odoo_version;
+
+const org_name = await this.quickAddApi.suggester(
+    ["OCA", "Mint-System"],
+    ["OCA", "Mint-System"]
+);
+this.variables.org_name = org_name;
+
+module_icon = "![icon_oms_box](../attachments/icons_odoo_mint_system.png)"
+if (org_name == "OCA") {
+	mdoule_icon = "![icon_oca_app](../attachments/icon_oca_app.png)"
+}
+
+this.variables.module_icon = module_icon;
 ````
 Technischer Name: `{{VALUE:module_name}}`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-{{VALUE:repo_name}}/tree/{{VALUE:odoo_version}}/{{VALUE:module_name}}>
+Repository: <https://github.com/{{VALUE:org_name}}/{{VALUE:repo_name}}/tree/{{VALUE:odoo_version}}/{{VALUE:module_name}}>

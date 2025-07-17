@@ -3,7 +3,7 @@ title: Base Location City
 description: Orte mit Längen- und Breitengrad.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./contacts
 ---
 # Base Location City

@@ -8,7 +8,7 @@
       "templatePath": "templates/Entry.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{name}}"
+        "format": "{{VALUE:name}}"
       },
       "folder": {
         "enabled": true,

@@ -3,7 +3,7 @@ title: Stock Lot Traceability List
 description: Daten aus Lieferverfolgungsbericht als Liste anzeigen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./stock
 ---
 # Stock Lot Traceability List

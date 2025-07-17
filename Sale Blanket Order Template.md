@@ -3,7 +3,7 @@ title: Sale Blanket Order Template
 description: Vorlagen für Rahmenaufträge.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Template

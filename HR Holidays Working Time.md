@@ -3,7 +3,7 @@ title: HR Holidays Working Time
 description: Aus Abwesenheiten Anwesenheiten erstellen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr-holidays
 ---
 # HR Holidays Working Time
@@ -16,10 +16,10 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_holidays_w
 
 ## Beschreibung
 
-Mit dieser Erweiterungen werden für bestätigte Abwesenheiten von ausgewählten Abwesenheitsarten Anwesenheiten erstellt. Damit können Abwesenheiten wie der Besuch einer Konferenz oder bezahlte Krankheit an Mitarbeitende mit Arbeitszeit vergütet werden. 
+Mit dieser Erweiterungen werden für bestätigte Abwesenheiten von ausgewählten Abwesenheitsarten Anwesenheiten erstellt. Damit können Abwesenheiten wie der Besuch einer Konferenz oder bezahlte Krankheit an Mitarbeitende mit Arbeitszeit vergütet werden.
 
 ::: warning
-Die Anwesenheiten werden bei Klick auf *Genehmigen* erstellt. Der Schritt Genehmigung ist nicht aktiv wenn die Genehmigung der Abwesenheitsart auf *Keine Validierung* eingestellt ist. 
+Die Anwesenheiten werden bei Klick auf *Genehmigen* erstellt. Der Schritt Genehmigung ist nicht aktiv wenn die Genehmigung der Abwesenheitsart auf *Keine Validierung* eingestellt ist.
 :::
 
 ## Konfiguration

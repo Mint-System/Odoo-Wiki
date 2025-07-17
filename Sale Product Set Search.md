@@ -3,7 +3,7 @@ title: Sale Product Set Search
 description: Produktset anhand Name und Referenz suchen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale
 ---
 # Sale Product Set Search

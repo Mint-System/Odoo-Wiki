@@ -3,7 +3,7 @@ title: Stock Account Location Valued
 description: Lagerort zur Bewertung markieren.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./stock
 ---
 # Stock Account Location Valued

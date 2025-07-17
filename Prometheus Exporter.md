@@ -3,7 +3,7 @@ title: Prometheus Exporter
 description: Odoo-Metriken mit Prometheus monitoren.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./development
 ---
 # Prometheus Exporter

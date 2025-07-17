@@ -3,7 +3,7 @@ title: Sale Order Line Pricelist Fixed Discount
 description: Auftragszeilen mit Rabatt aus Preisliste mit Festpreis.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale
 ---
 # Sale Order Line Pricelist Fixed Discount
@@ -18,7 +18,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sa
 
 ### Optionen aktivieren
 
-Damit diese Erweiterung korrekt funktioniert müssen Sie [Erweiterte Preisregeln aktivieren](Sale%20Price.md#Erweiterte%20Preisregeln%20aktivieren) und 
+Damit diese Erweiterung korrekt funktioniert müssen Sie [Erweiterte Preisregeln aktivieren](Sale%20Price.md#Erweiterte%20Preisregeln%20aktivieren) und
 [Rabatte aktivieren](Sale%20Price.md#Rabatte%20aktivieren).
 
 ## Verwendung

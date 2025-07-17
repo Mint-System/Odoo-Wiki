@@ -3,7 +3,7 @@ title: MRP Production Create Upstream Backorder
 description: Erstelle Nachlieferungen für Pickings von Fertigungsaufträgen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./manufacture
 ---
 # MRP Production Create Upstream Backorder
@@ -25,4 +25,3 @@ Mit dieser Erweiterungen wird bei positiver Änderung der zu produzierende Menge
 Wird die zu produzierende Menge reduziert und ist der Materialbedarf gedeckt, werden offene Nachlieferungen gelöscht.
 
 ![](attachments/MRP%20Production%20Create%20Upstream%20Backorder%20Entfernen.gif)
-

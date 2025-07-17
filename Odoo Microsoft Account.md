@@ -3,7 +3,7 @@ title: Odoo Microsoft Account
 description: Login mit Microsoft-Account.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./settings
 ---
 # Odoo Microsoft Account

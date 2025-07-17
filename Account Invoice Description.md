@@ -3,7 +3,7 @@ title: Account Invoice Description
 description: Beschreibungsfeld auf Rechnung.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./accounting
 ---
 # Account Invoice Description

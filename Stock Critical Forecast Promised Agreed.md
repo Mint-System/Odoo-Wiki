@@ -3,7 +3,7 @@ title: Stock Critical Forecast Promised Agreed
 description: Erweitert den Bericht mit Mengen aus Rahmenauftrag und Kaufvertrag.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./stock-critical-forecast
 ---
 # Stock Critical Forecast Promised Agreed

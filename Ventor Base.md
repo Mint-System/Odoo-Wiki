@@ -3,7 +3,7 @@ title: Ventor Base
 description: Basismodul für Ventor-Apps.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./stock
 ---
 # Ventor Base

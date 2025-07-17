@@ -3,7 +3,7 @@ title: Connector
 description: Odoo mit anderen Systemen verbinden.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./
 ---
 # Connector

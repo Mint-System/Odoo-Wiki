@@ -3,7 +3,7 @@ title: HR Employee Attendance Report
 description: Stundenzettel mit Anwesenheit, Abwesenheiten und Überstunden.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr-holidays
 ---
 # HR Employee Attendance Report

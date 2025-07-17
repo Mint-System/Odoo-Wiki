@@ -3,7 +3,7 @@ title: Sync Mapper Import
 description: Mapper aus Grabber importieren.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./zebroo-sync
 ---
 # Sync Mapper Import

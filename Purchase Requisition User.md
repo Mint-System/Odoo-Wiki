@@ -3,7 +3,7 @@ title: Purchase Requisition User
 description: Einkaufsbeauftragte von Kaufvertrag auf Bestellung übertragen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./purchase-requisition
 ---
 # Purchase Requisition User

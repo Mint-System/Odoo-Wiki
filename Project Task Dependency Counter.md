@@ -3,7 +3,7 @@ title: Project Task Dependency Counter
 description: Smart Button für abhängige Aufgaben.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./project
 ---
 # Project Task Dependency Counter
@@ -23,4 +23,3 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/15.0/project_
 ![](attachments/Project%20Task%20Dependency%20Counter%20Button.png)
 
 Mit einem Klick darauf werden die abhängigen Aufgaben in der Kanban-Ansicht angezeigt.
-

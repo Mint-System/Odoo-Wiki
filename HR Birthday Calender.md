@@ -3,7 +3,7 @@ title: HR Birthday Calender
 description: Kalenderansicht aller Geburtstage.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr
 ---
 # HR Birthday Calender

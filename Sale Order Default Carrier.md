@@ -3,7 +3,7 @@ title: Sale Order Default Carrier
 description: Auslieferungsmethode von Kontakt übernehmen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale
 ---
 # Sale Order Default Carrier

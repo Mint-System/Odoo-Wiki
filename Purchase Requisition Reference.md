@@ -3,7 +3,7 @@ title: Purchase Requisition Reference
 description: Feld Lieferantenreferenz auf Kaufvertrag hinzufügen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./purchase-requisition
 ---
 # Purchase Requisition Reference
@@ -26,4 +26,3 @@ Mit dem Systemparameter `purchase_requisition_reference.copy_reference` können 
 Mit diesem Modul erhält der Kaufvertrag ein Feld *Lieferantenreferenz*.
 
 ![](attachments/Purchase%20Requisition%20Reference.png)
-

@@ -3,7 +3,7 @@ title: Partner Type Sale
 description: Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./contacts
 ---
 # Partner Type Sale
@@ -23,4 +23,3 @@ Mit dieser Erweiterung erhalten Sie als zusätzlichen Adresstyp *Verkaufsadresse
 ![](attachments/Partner%20Type%20Sale.png)
 
 Unterkontakte dieses Typs werden entsprechend mit einem Icon markiert.
-

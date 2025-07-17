@@ -3,7 +3,7 @@ title: Partner Secondary Email
 description: Zweite E-Mail für alle Kontakte.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./contacts
 ---
 # Partner Secondary Email

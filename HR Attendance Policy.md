@@ -3,7 +3,7 @@ title: HR Attendance Policy
 description: Richtlinien für die Anwesenheit festlegen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr-attendance
 ---
 # HR Attendance Policy
@@ -16,7 +16,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_attendance
 
 ## Beschreibung
 
-Wenn diese Erweiterung und die Berechnung der Überstunden aktiv ist, wird bei der Berechnung der Überstunden geprüft, ob die erfasste Anwesenheit den Anwesenheitsrichtlinien entsprechen. 
+Wenn diese Erweiterung und die Berechnung der Überstunden aktiv ist, wird bei der Berechnung der Überstunden geprüft, ob die erfasste Anwesenheit den Anwesenheitsrichtlinien entsprechen.
 
 Ein Beispiel: Die folgende Richtlinie erfordert 30 Minuten Pause nach 7:00 Stunden Arbeit:
 

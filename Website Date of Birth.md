@@ -3,7 +3,7 @@ title: Website Date of Birth
 description: Geburtsdatum auf Anmeldeformular.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./website
 ---
 # Website Date of Birth

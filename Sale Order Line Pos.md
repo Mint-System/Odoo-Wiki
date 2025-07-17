@@ -1,9 +1,9 @@
 ---
 title: Sale Order Line Pos
-description: Verkaufsaufträge mit Positionsnummern. 
+description: Verkaufsaufträge mit Positionsnummern.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./order-positions
 ---
 # Sale Order Line Pos

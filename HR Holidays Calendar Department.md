@@ -3,7 +3,7 @@ title: HR Holidays Calendar Department
 description: Erweitert den Anwesenheitsbericht mit neuen Felder.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr
 ---
 # HR Holidays Calendar Department

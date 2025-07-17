@@ -3,7 +3,7 @@ title: Resource Calendar Get Days
 description: Die Anzahl Tage in Abwesenheiten relativ zu den Arbeitszeiten des Unternehmens berechnen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr
 ---
 # Resource Calendar Get Days

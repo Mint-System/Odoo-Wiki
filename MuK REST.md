@@ -3,7 +3,7 @@ title: MuK REST API for Odoo
 description: Stellt eine REST API für den Odoo Server bereit.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./iot
 ---
 # MuK REST API for Odoo
@@ -52,13 +52,13 @@ Zeigen Sie *Einstellungen > API > Configuration > Endpoints* an und wählen Sie 
 result = model.name_create(params.get('name'))
 ```
 
-**Parameters** (Docs): 
+**Parameters** (Docs):
 
 ```json
 [{
-	"name": "name", 
-	"in": "query", 
-	"description": "Product Name", 
+	"name": "name",
+	"in": "query",
+	"description": "Product Name",
 	"schema": {"type": "string"}
 }]
 ```

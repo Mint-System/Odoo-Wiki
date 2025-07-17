@@ -3,7 +3,7 @@ title: MRP Production Downstream Lot
 description: Los auf verknüpfte Lieferung übertragen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./manufacture
 ---
 # MRP Production Downstream Lot

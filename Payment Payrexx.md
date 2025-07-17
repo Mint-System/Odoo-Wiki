@@ -3,7 +3,7 @@ title: Payment Payrexx
 description: Payrexx Payment Provider Plugin von Soludoo.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./website-e-commerce
 ---
 

@@ -3,7 +3,7 @@ title: Project Task All Menu
 description: Menu Alle Aufgaben hinzufügen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./project
 ---
 # Project Task All Menu

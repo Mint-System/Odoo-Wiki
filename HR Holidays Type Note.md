@@ -3,7 +3,7 @@ title: HR Holidays Type Note
 description: Hinweis zur Abwesenheitsart auf Abwesenheit anzeigen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr-holidays
 ---
 # HR Holidays Type Note

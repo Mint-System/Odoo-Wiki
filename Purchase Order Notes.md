@@ -3,7 +3,7 @@ title: Purchase Order Notes
 description: Einkaufsaufträge mit Notizfelder.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./purchase
 ---
 # Purchase Order Notes

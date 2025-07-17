@@ -3,7 +3,7 @@ title: Sale Blanket Order Comment
 description: Kommentar auf Rahmenauftrag.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Comment

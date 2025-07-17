@@ -3,7 +3,7 @@ title: Anb Stock Picking Valued
 description: Preislisten für Bestandsbewertung
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./stock
 ---
 # Anb Stock Picking Valued

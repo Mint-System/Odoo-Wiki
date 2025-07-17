@@ -3,7 +3,7 @@ title: Mgmt Requirement
 description: Verwalten Sie Anforderungen and die Organisation.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./management-system
 ---
 
@@ -29,7 +29,7 @@ Requirements können via Paragraphen mit Dokumenten verknüpft werden. Unter *Ma
 
 ### Paragraphen erfassen
 
-Unter *Management System > Inventory > Paragraphs* können Sie Paragraphen aus Dokumenten erfassen. Geben Sie eine Titel und eine Beschreibung ein. Im Feld *Reference* geben Sie eine eindeutige Bezeichnung zur Identifizierung des Paragraphen ein. Im Feld *Document* verlinken Sie den Paragaphen mit dem entsprechenden Dokument. 
+Unter *Management System > Inventory > Paragraphs* können Sie Paragraphen aus Dokumenten erfassen. Geben Sie eine Titel und eine Beschreibung ein. Im Feld *Reference* geben Sie eine eindeutige Bezeichnung zur Identifizierung des Paragraphen ein. Im Feld *Document* verlinken Sie den Paragaphen mit dem entsprechenden Dokument.
 
 ### Requirement erfassen
 
@@ -39,4 +39,3 @@ Zeigen Sie *Management System > Audit > Requirements* an. Erstellen Sie einen ne
 * **Tag**: Ordnen Sie ausgewählte Tags zur Filterung hinzu.
 
 Im  Tab *Paragraphs* verlinken Sie das Requirement mit den Dokument-Paragraphen.
-

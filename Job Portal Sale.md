@@ -3,7 +3,7 @@ title: Job Portal Sale
 description: Stelleninserate verrechnen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./
 ---
 # Job Portal Sale
@@ -50,25 +50,25 @@ for rec in records.filtered(lambda r: r.joboffer_id):
 	joboffer_id = rec.joboffer_id
 	for line in rec.order_line.filtered(lambda l: l.product_id):
 		description = line.product_id.name
-		
+
 		if joboffer_id.ref:
 			description += (' %s vom %s') % (joboffer_id.ref, joboffer_id.publication_start_date.date().strftime('%d.%m.%y'))
-			
+
 		if joboffer_id.name:
 			description += '\n' + joboffer_id.name
-			
+
 		if joboffer_id.author or joboffer_id.reference:
 			description += '\n'
-			
+
 		if joboffer_id.author:
 			description += joboffer_id.author.name
-			
+
 		if joboffer_id.author and joboffer_id.reference:
 			description += ' / '
-			
+
 		if joboffer_id.reference:
 			description += 'Ihre Referenz: ' + joboffer_id.reference
-		
+
 		line.write({'name': description})
 ```
 
@@ -116,10 +116,10 @@ for rec in records.filtered(lambda r: r.property_product_pricelist.id == default
 	  xml_id = "job_portal_sale.product_template_membership_basic"
   if rec.backup_membership.lower() == "jobplus":
     xml_id = "job_portal_sale.product_template_membership_plus"
-    
+
   product = env.ref(xml_id, raise_if_not_found=False)
   team = env.ref("__custom__.sale_team_membership")
-  
+
   # raise UserError(product)
 
   if product:

@@ -3,7 +3,7 @@ title: Partner Color Codes
 description: Kontakte mit Farben und Stichwörter markieren.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./accounting
 ---
 # Partner Color Codes

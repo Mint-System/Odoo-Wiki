@@ -3,7 +3,7 @@ title: Mmgt Auditlog
 description: Log-Regeln für OCA Auditlog.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./management-system
 ---
 
@@ -27,4 +27,3 @@ Die Auditlog-Regeln sind unter *Einstellungen > Technisch > Audit > Regeln* verf
 ### Auditlog-Protokolle anzeigen
 
 Jede Bearbeitung von Risk, Audit und Statement wird unter *Einstellungen > Technisch > Audit > Log Lines* protokolliert.
-

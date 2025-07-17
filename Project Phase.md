@@ -3,7 +3,7 @@ title: Project Phase
 description: Projektaufgaben mit Projektphasen verwalten.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./project
 ---
 # Project Phase

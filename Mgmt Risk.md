@@ -3,7 +3,7 @@ title: Mgmt Risk
 description: Verwaltung von ISO27001 Risiken.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./management-system
 ---
 

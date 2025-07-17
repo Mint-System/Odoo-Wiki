@@ -3,7 +3,7 @@ title: Base DB Anonymization
 description: Inhalt von ausgewählten Datenbank-Felder anonmyisieren.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./database
 ---
 # Base DB Anonymization
@@ -36,4 +36,3 @@ Wenn das Feld **Is Anonymized** gesetzt ist, wird der Anonymisierungs-Eintrag ig
 ### Datenbank-Felder anonymisieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Fields Anonymize* und markieren Sie die Anonymisierungs-Einträge, die Sie ausführen möchten. Wählen Sie die Aktion *Anonymize Records*.
-

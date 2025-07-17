@@ -3,7 +3,7 @@ title: Portal Timesheet
 description: Zeiterfassung im Portal.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr-timesheet
 ---
 # Portal Timesheet
@@ -24,7 +24,7 @@ Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen*. Kopier
 
 ### Portal-Benutzer mit Mitarbeiter erstellen
 
-Sie können für den ausgewählten Kontakt den [Portal-Zugriff gewähren](Contacts.md#Portal-Zugriff%20gewähren). 
+Sie können für den ausgewählten Kontakt den [Portal-Zugriff gewähren](Contacts.md#Portal-Zugriff%20gewähren).
 Dann [erfassen Sie einen Mitarbeiter](HR.md#Mitarbeiter%20erfassen) und anschliessend können
 Sie den [Portal-Benutzer mit dem Mitarbeiter verknüpfen](HR.md#Benutzer%20mit%20Mitarbeiter%20verknüpfen). Erteilen Sie die Berechtigung *Zeiterfassung / Eigene Zeiterfassung (Portal)* dem Portal-Benutzer.
 

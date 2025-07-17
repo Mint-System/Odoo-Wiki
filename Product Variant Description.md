@@ -3,7 +3,7 @@ title: Product Variant Description
 description: Verkaufs-, Einkaufs- und Lieferbeschreibung auf Produktvarianten festlegen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./product
 ---
 # Product Variant Description

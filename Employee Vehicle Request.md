@@ -3,7 +3,7 @@ title: Employee Vehicle Request
 description: Fahrzeug-Reservationen für Mitarbeitende verwalten.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./fahrzeugflotte
 ---
 # Employee Vehicle Request

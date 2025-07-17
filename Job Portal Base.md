@@ -3,7 +3,7 @@ title: Job Portal
 description: Stelleninserate verwalten.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./
 ---
 # Job Portal

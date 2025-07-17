@@ -3,7 +3,7 @@ title: Partner Contact Location in Name
 description: PLZ und Stadt in Kontaktauswahl anzeigen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./contacts
 ---
 # Partner Contact Location in Name

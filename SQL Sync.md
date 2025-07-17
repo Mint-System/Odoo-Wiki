@@ -3,7 +3,7 @@ title: SQL Sync
 description: Mit SQL-Abfragen Daten empfangen und senden.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./zebroo-sync
 ---
 # SQL Sync
@@ -18,7 +18,7 @@ Repository: <https://github.com/Odoo-Ninjas/zync-stable/tree/16.0/zbsync_sql>
 
 ### SQL-Verbindung hinzufügen
 
-Navigieren Sie nach *Zebroo Sync > Connections > SQL* und erstellen Sie einen neuen Eintrag. 
+Navigieren Sie nach *Zebroo Sync > Connections > SQL* und erstellen Sie einen neuen Eintrag.
 
 * **Type**: Typ des Datenbankssystems
 * **DBName**: Name der Datenbank
@@ -29,7 +29,7 @@ Navigieren Sie nach *Zebroo Sync > Connections > SQL* und erstellen Sie einen ne
 
 ### SQL-Grabber einrichten
 
-Öffnen Sie eine Pipeline via *Zebroo Sync* und fügen Sie einen Worker hinzu. Wählen Sie *SQL Grabber* als *Type* aus. Anschliessend wählen Sie die SQL-Verbindung in *Connection* aus. Im Feld *SQL* fügen Sie die SQL-Abfrage hinzu. Erstellen Sie unter *Domain* einen Eintrag mit diesem Wert `[('write_date','>=',last_execution_date)]`. 
+Öffnen Sie eine Pipeline via *Zebroo Sync* und fügen Sie einen Worker hinzu. Wählen Sie *SQL Grabber* als *Type* aus. Anschliessend wählen Sie die SQL-Verbindung in *Connection* aus. Im Feld *SQL* fügen Sie die SQL-Abfrage hinzu. Erstellen Sie unter *Domain* einen Eintrag mit diesem Wert `[('write_date','>=',last_execution_date)]`.
 
 ::: tip
 Der SQL-Tabellenname der Odoo-Datenmodelle ist gleich dem Name des Datenmodells ohne Punkte: `SELECT * FROM job_portal_joboffer`

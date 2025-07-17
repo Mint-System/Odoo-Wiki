@@ -3,7 +3,7 @@ title: Stock Vendor Evaluation
 description: Lieferungen bewerten und Lieferanten auswerten.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./stock
 ---
 # Stock Vendor Evaluation

@@ -3,7 +3,7 @@ title: Sale Order Line Temporary Price
 description: Benutzerdeinierter Preis für erste Abrechnung festlegen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale
 ---
 # Sale Order Line Temporary Price

@@ -3,7 +3,7 @@ title: MRP Workorder Disable Autostart
 description: Bei Aufruf von Arbeitsaufträgen in der Tablet-Ansicht nicht automatisch starten.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./manufacture
 ---
 # MRP Workorder Disable Autostart

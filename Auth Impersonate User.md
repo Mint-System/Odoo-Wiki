@@ -3,7 +3,7 @@ title: Auth Impersonate User
 description: Mit einem anderen Benutzer einloggen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./settings
 ---
 # Auth Impersonate User

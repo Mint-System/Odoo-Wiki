@@ -3,7 +3,7 @@ title: HR Attendance IP Check
 description: IP-Prüfung bei Anmeldung der Anwesenheit.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr-holidays
 ---
 # HR Attendance IP Check

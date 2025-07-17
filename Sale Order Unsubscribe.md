@@ -3,14 +3,14 @@ title: Sale Order Unsubscribe
 description: Alle Abonnenten nach Bestätigung des Angebots entfernen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./dialog
 ---
 # Sale Order Unsubscribe
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
- 
+
 Technischer Name: `sale_order_unsubscribe`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/17.0/sale_order_unsubscribe>
 

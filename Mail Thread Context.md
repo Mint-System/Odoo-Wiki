@@ -3,14 +3,14 @@ title: Mail Thread Context
 description: Automatisches Abonnieren deaktiveren.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./dialog
 ---
 # Mail Thread Context
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
- 
+
 Technischer Name: `mail_thread_context`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_thread_context>
 

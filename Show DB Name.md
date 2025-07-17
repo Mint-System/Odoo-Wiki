@@ -1,9 +1,9 @@
 ---
 title: Show DB Name
-description: Zeigt den Datenbanknamen oben rechts an.   
+description: Zeigt den Datenbanknamen oben rechts an.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./base
 ---
 # Show DB Name

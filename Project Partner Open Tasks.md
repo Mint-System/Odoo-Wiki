@@ -3,7 +3,7 @@ title: Project Partner Open Tasks
 description: Offene Aufgaben von Kunde anzeigen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./project
 ---
 # Project Partner Open Tasks

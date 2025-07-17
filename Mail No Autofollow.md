@@ -3,14 +3,14 @@ title: Mail No Autofollow
 description: Beim Erstellen von Nachrichten erfolgt keine automatische Abonnierung.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./dialog
 ---
 # Mail No Autofollow
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
- 
+
 Technischer Name: `mail_no_autofollow`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/16.0/mail_no_autofollow>
 

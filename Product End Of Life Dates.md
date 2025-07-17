@@ -3,7 +3,7 @@ title: Product End Of Life Dates
 description: Datum für Ende Support, Verkauf und Bestand auf Produkt festlegen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./product
 ---
 # Product Name Sequence
@@ -18,7 +18,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/17.
 
 ### EOL-Daten auf Produkt festlegen
 
-Navigieren Sie nach *Lager > Produkte > Produkte* und zeigen Sie ein Produkt an. In den Felder *EoS*, *EoL Announcment* und *EoL/S* können Sie ein entsprechendes Datum festlegen.  
+Navigieren Sie nach *Lager > Produkte > Produkte* und zeigen Sie ein Produkt an. In den Felder *EoS*, *EoL Announcment* und *EoL/S* können Sie ein entsprechendes Datum festlegen.
 
 ### Lagerbericht mit EOL-Daten anzeigen
 

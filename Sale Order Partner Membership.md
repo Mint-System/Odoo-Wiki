@@ -1,9 +1,9 @@
 ---
 title: Sale Order Partner Membership
-description: Kontaktperson Mitgliedschaft auf Verkaufsauftrag festlegen. 
+description: Kontaktperson Mitgliedschaft auf Verkaufsauftrag festlegen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale
 ---
 # Sale Order Partner Membership

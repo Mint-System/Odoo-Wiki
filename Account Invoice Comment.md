@@ -3,7 +3,7 @@ title: Account Invoice Comment
 description: Kommentarfeld auf Rechnung.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./invoicing
 ---
 # Account Invoice Comment

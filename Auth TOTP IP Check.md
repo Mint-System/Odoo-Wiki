@@ -3,7 +3,7 @@ title: Auth TOTP IP Check
 description: Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./settings
 ---
 # Auth TOTP IP Check
@@ -25,4 +25,3 @@ Zeigen Sie *Einstellungen > Technisch > Sicherheit > Disable TOTP Check* an. Geb
 ### Login ohne Zwei-Faktor-Authentisierung für unbestimmte Netzwerke verhindern
 
 Wenn Sie den [Systemparameter](Development.md#Systemparameter%20anlegen) mit Schlüssel `auth_totp.prevent_login_without_2fa` und Wert `True` anlegen, können Benutzer ohne Zwei-Faktor-Authentisierung aus unbestimmten Netzwerken nicht mehr einloggen.
-

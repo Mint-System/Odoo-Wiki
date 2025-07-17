@@ -3,14 +3,14 @@ title: Mail Unsubscribe
 description: Automatische Abmeldung der Follower vor dem Versand einer Nachricht.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./dialog
 ---
 # Mail Unsubscribe
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
- 
+
 Technischer Name: `mail_unsubscribe`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/17.0/mail_unsubscribe>
 
@@ -24,7 +24,7 @@ Ist diese Erweiterung installiert, werden vor dem Versenden einer Nachricht alle
 
 Ab #Odoo16.
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und aktivieren Sie die Option *Eigener Benutzer ignorieren*. Damit werden vor dem Versand einer Nachricht alle Abonnenten ausser des eigenen Benutzer entfernt. 
+Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und aktivieren Sie die Option *Eigener Benutzer ignorieren*. Damit werden vor dem Versand einer Nachricht alle Abonnenten ausser des eigenen Benutzer entfernt.
 
 Bis #Odoo15.
 
@@ -38,7 +38,7 @@ Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und 
 
 Bis #Odoo15.
 
-Wenn Sie möchten, dass die Empfänger der Nachricht nach dem Versenden der Nachricht als Abonnenten hinzugefügt werden, legen Sie einen Systemparameter mit Schlüssel `mail_unsubscribe.mail_post_autofollow` und Wert `True` an. 
+Wenn Sie möchten, dass die Empfänger der Nachricht nach dem Versenden der Nachricht als Abonnenten hinzugefügt werden, legen Sie einen Systemparameter mit Schlüssel `mail_unsubscribe.mail_post_autofollow` und Wert `True` an.
 
 ### Abonnieren von eigenem Benutzer verhindern
 
@@ -48,7 +48,7 @@ Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und 
 
 Bis #Odoo15.
 
-Wenn Sie möchten, dass der eigene Benutzer nach dem Versenden einer Nachricht nicht als Abonnent hinzugefügt wird, legen Sie einen Systemparameter mit Schlüssel `mail_unsubscribe.mail_create_nosubscribe` und Wert `True` an. 
+Wenn Sie möchten, dass der eigene Benutzer nach dem Versenden einer Nachricht nicht als Abonnent hinzugefügt wird, legen Sie einen Systemparameter mit Schlüssel `mail_unsubscribe.mail_create_nosubscribe` und Wert `True` an.
 
 ### Entfernen von Abonnenten für Datenmodell deaktivieren
 

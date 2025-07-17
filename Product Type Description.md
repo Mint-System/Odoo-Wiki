@@ -3,7 +3,7 @@ title: Product Type Description
 description: Zu jedem Produkt ein Beschreibungsfeld.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./manufacture
 ---
 # Product Type Description

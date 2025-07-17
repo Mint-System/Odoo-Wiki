@@ -3,7 +3,7 @@ title: Stock Move Available Locations
 description: Nur Lagerorte mit Besand in Auswahl anzeigen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./stock
 ---
 # Stock Move Available Locations

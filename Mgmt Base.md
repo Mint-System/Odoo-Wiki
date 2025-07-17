@@ -3,7 +3,7 @@ title: Mgmt Base
 description: Basis für die Management-System Module.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./management-system
 ---
 

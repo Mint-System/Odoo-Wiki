@@ -1,9 +1,9 @@
 ---
 title: Partner Multiline Street2
-description: Mehrzeiliger Text in zweiter Strasse hinzufügen. 
+description: Mehrzeiliger Text in zweiter Strasse hinzufügen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./contacts
 ---
 # Partner Multiline Street2

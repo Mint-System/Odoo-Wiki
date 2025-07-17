@@ -3,7 +3,7 @@ title: Account Followup Email From
 description: Mahnbericht von definierter E-Mail-Adresse verschicken.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./invoicing
 ---
 # Account Followup Email From

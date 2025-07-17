@@ -3,7 +3,7 @@ title: Account Move Line Link Pickings
 description: Lieferaufträge mit Rechnungszeile verlinken.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./accounting
 ---
 # Account Move Line Link Pickings
@@ -30,4 +30,4 @@ Mit dem Snippet <https://odoo.build/snippets/account.html#group-by-pickings> und
 
 Für die Implementation müssen Sie Folgendes berücksichtigen:
 * [Snippet hinzufügen](Development%20Snippets.md#Snippet%20hinzufügen)
-* [Für mehrere Verkaufsaufträge eine Rechnung generieren](Sale.md#Für%20mehrere%20Verkaufsaufträge%20eine%20Rechnung%20generieren) 
+* [Für mehrere Verkaufsaufträge eine Rechnung generieren](Sale.md#Für%20mehrere%20Verkaufsaufträge%20eine%20Rechnung%20generieren)

@@ -3,7 +3,7 @@ title: Stock Aggregated Move Lines
 description: Zugriff auf Lieferung in aggregierten Zeilen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./stock
 ---
 # Stock Aggregated Move Lines

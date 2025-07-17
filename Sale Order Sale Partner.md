@@ -1,9 +1,9 @@
 ---
 title: Sale Order Sale Partner
-description: Verkaufsadresse auf Verkaufsauftrag festlegen. 
+description: Verkaufsadresse auf Verkaufsauftrag festlegen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale
 ---
 # Sale Order Sale Partner

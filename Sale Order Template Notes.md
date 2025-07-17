@@ -3,7 +3,7 @@ title: Sale Order Template Notes
 description: Notizen auf Angebotsvorlage.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale
 ---
 # Sale Order Template Notes

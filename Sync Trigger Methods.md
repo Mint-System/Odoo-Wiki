@@ -3,7 +3,7 @@ title: Sync Trigger Methods
 description: Bei Methoden-Aufruf einen Sync auslösen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./zebroo-sync
 ---
 # Sync Trigger Methods

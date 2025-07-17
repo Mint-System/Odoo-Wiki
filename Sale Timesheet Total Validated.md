@@ -3,7 +3,7 @@ title: Sale Timesheet Total Validated
 description: Nur bestätige Zeiterfassungs-Einträge in Verkaufsauftrag anzeigen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr-timesheet
 ---
 # Sale Timesheet Total Validated

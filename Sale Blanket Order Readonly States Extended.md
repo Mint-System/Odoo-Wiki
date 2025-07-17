@@ -3,7 +3,7 @@ title: Sale Blanket Order Cancel States Extended
 description: Bearbeiten von Feldern aus weiteren Rahmenauftrags-Modulen im bestätigen Zustand.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Cancel States Extended

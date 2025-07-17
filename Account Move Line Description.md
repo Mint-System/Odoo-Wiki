@@ -3,7 +3,7 @@ title: Account Move Line Description
 description: Produktname ohne Referenz in Beschreibung Rechnungszeile übertragen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./invoicing
 ---
 # Account Move Line Description

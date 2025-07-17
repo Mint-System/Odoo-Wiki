@@ -3,7 +3,7 @@ title: Home Backround Image
 description: Den Odoo-Startbildschirm gestalten.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./base
 ---
 # Home Backround Image

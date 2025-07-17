@@ -3,7 +3,7 @@ title: Product Dimension Attributes
 description: Product dimension attributes.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./product
 ---
 # Product Dimension Attributes

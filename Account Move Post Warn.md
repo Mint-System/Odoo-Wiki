@@ -3,7 +3,7 @@ title: Sale Move Reconciled Date
 description: Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./accounting
 ---
 # Sale Move Reconciled Date
@@ -21,4 +21,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.
 
 Mit dieser Erweiterung wird beim Buchen einer Rechnung die Warnung, die auf dem Rechnungskontakt hinterlegt ist, im Chatter angezeigt. Als erstes müssen Sie eine [Warnung für den Rechnungskontakt festlegen](Invoicing.md#Warnung%20für%20den%20Rechnungskontakt%20festlegen).
 
-![Account Move Post Warn](attachments/Account%20Move%20Post%20Warn.gif) 
+![Account Move Post Warn](attachments/Account%20Move%20Post%20Warn.gif)

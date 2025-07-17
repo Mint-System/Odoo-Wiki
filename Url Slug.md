@@ -1,9 +1,9 @@
 ---
 title: Url Slug
-description: Mixin zur Generierung von Url-Slugs.   
+description: Mixin zur Generierung von Url-Slugs.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./base
 ---
 # Url Slug

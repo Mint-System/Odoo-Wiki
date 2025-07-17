@@ -3,7 +3,7 @@ title: Account Invoice Move Date
 description: Buchungs- und Rechnungsdatum unabhängig definieren.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./invoicing
 ---
 # Account Invoice Move Date

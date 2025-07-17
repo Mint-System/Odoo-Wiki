@@ -3,7 +3,7 @@ title: Switzerland QR IBAN
 description: Generierung der QR-Rechnung ohne ISR-Nummer.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./l10n-ch
 ---
 # Switzerland QR IBAN

@@ -3,7 +3,7 @@ title: Sync Transformer Helper
 description: Transformierung der Daten vereinfachen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./zebroo-sync
 ---
 # Sync Transformer Helper

@@ -3,7 +3,7 @@ title: Stock Move Upstream State
 description: Zugriff auf Status von Upstream Lagerbuchung.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./stock
 ---
 # Stock Move Upstream State

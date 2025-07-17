@@ -3,7 +3,7 @@ title: MRP BoM Position
 description: Jede Komponente in der Stückliste erhält eine Positionsnummer.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./order-positions
 ---
 # MRP BoM Position
@@ -41,7 +41,7 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
-for record in records:  
+for record in records:
   record.set_position()
 ```
 

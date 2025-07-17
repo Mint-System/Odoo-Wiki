@@ -1,9 +1,9 @@
 ---
 title: Sale Order Project Key
-description: Angebotsname von verlinkter Projektnummer übernehmen. 
+description: Angebotsname von verlinkter Projektnummer übernehmen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale
 ---
 # Sale Order Project Key

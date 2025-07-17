@@ -3,7 +3,7 @@ title: Partner Type Order
 description: Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./contacts
 ---
 # Partner Type Order

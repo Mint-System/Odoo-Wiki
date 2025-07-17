@@ -3,7 +3,7 @@ title: Web Font Arial
 description: Fügt Schriftart Arial der Auswahl hinzu.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./server
 ---
 

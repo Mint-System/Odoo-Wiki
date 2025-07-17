@@ -3,7 +3,7 @@ title: Sale Order Partner Ref
 description: Kunden-Nr. auf Verkaufsaufträge filtern.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale
 ---
 # Sale Order Partner Ref

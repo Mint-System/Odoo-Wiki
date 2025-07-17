@@ -1,9 +1,9 @@
 ---
 title: Invoice Merge PDF Attachment
-description: PDF-Dokumenten von Rechnungen zusammenführen.     
+description: PDF-Dokumenten von Rechnungen zusammenführen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./invoicing
 ---
 # Invoice Merge PDF Attachment

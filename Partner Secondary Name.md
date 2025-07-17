@@ -3,7 +3,7 @@ title: Partner Secondary Name
 description: Zweitname für Unternehmen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./contacts
 ---
 # Partner Secondary Name

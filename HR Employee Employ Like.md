@@ -3,7 +3,7 @@ title: HR Employee Employ Like
 description: Neues Feld Anstellung wie auf Mitarbeitenden.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr
 ---
 # HR Employee Employ Like

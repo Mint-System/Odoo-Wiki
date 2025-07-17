@@ -3,14 +3,14 @@ title: Purchase Order Send Unsubscribe
 description: Alle Abonnenten nach Versenden der Bestellung entfernen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./dialog
 ---
 # Purchase Order Send Unsubscribe
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
- 
+
 Technischer Name: `purchase_order_send_unsubscribe`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/purchase_order_send_unsubscribe>
 

@@ -3,7 +3,7 @@ title: Sync Mapper
 description: Attribute von empfangenen Daten mappen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./zebroo-sync
 ---
 # Sync Mapper
@@ -57,7 +57,7 @@ Mit den Mapper-Aktionen können Sie JSON-Schemas mit verschalteten Attributen ab
   "working_areas": [
     "Altersarbeit",
     "Sozialraum / Soziokultur"
-  ]  
+  ]
 }
 ```
 

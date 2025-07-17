@@ -3,7 +3,7 @@ title: HR Activity Date
 description: Plannungstypen mit Aktivitätsdatum basierend auf Arbeitsverträgen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr
 ---
 # HR Activity Date

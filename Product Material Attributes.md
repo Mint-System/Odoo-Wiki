@@ -3,7 +3,7 @@ title: Product Material Attributes
 description: Product material attributes.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./product
 ---
 # Product Material Attributes

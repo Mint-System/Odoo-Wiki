@@ -3,7 +3,7 @@ title: Switzerland Disable Default Reports
 description: Generierung der QR- und ISR-Berichte deaktivieren.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./l10n-ch
 ---
 # Switzerland Disable Default Reports

@@ -3,7 +3,7 @@ title: Zebroo Sync
 description: Umfassende Synchronisationslösung basierend auf Odoo.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./
 ---
 # Zebroo Sync
@@ -48,7 +48,7 @@ Repository: <https://github.com/Odoo-Ninjas/zync-stable/tree/16.0/zbsync>
 ### Worker-Resultate anzeigen
 
 Öffnen Sie eine Instanz *Zebroo Sync > Pipelines > Instances*. Klicken Sie in der Spalte *Batches* auf einen Worker.
- 
+
 ### Cron-Job für Pipeline einrichten
 
 Öffnen Sie *Zebroo Sync* und wählen Sie eine Pipeline. Zeigen Sie den Tab *Cronjobs* an und erstellen Sie einen neuen Eintrag. Geben Sie den Namen des Cron-Job ein und fügen Sie eine Zeile für den Intervall hinzu. Bestimmen Sie in welchem Intervall die Pipeline ausgeführt werden soll.

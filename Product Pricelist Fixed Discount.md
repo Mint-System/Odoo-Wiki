@@ -3,7 +3,7 @@ title: Product Pricelist Fixed Discount
 description: Festpreise in Preisliste mit Rabatt.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./product
 ---
 # Product Pricelist Fixed Discount

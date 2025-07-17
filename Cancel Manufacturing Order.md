@@ -3,7 +3,7 @@ title: Cancel Manufacturing Order
 description: Fertigungsauftrag rückgängig machen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./manufacture
 ---
 # Cancel Manufacturing Order

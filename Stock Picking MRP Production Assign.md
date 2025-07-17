@@ -3,7 +3,7 @@ title: Stock Picking MRP Production Assign
 description: "Reservierung für Make-To-Order Aufträge gleichzeitig durchführen."
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./stock
 ---
 # Stock Picking MRP Production Assign

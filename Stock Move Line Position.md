@@ -3,7 +3,7 @@ title: Stock Move Line Position
 description: "Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen."
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./order-positions
 ---
 # Stock Move Line Position

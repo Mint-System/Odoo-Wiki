@@ -3,7 +3,7 @@ title: HR Vehicle Request
 description: Fahrzeuganfragen für Mitarbeitende verwalten.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr
 ---
 # HR Vehicle Request

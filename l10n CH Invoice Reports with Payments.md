@@ -3,7 +3,7 @@ title: l10n CH Invoice Reports with Payments
 description: Rechnung mit Zahlungsschein und Zahlungsdetails drucken.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./l10n-ch
 ---
 # l10n CH Invoice Reports with Payments

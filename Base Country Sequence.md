@@ -3,7 +3,7 @@ title: Base Country Sequence
 description: Länder-Liste manuell sortieren.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./contacts
 ---
 # Base Country Sequence

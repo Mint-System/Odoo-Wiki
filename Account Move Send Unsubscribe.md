@@ -3,14 +3,14 @@ title: Account Move Send Unsubscribe
 description: Alle Abonnenten nach Versenden der Rechnung entfernen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./dialog
 ---
 # Account Move Send Unsubscribe
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
- 
+
 Technischer Name: `account_move_send_unsubscribe`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/account_move_send_unsubscribe>
 

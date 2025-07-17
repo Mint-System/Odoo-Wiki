@@ -3,14 +3,14 @@ title: Mail Composer Default Template
 description: Standardvorlage für den E-Mail-Dialog festlegen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./dialog
 ---
 # Mail Composer Default Template
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
- 
+
 Technischer Name: `mail_composer_default_template`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/15.0/mail_composer_default_template>
 

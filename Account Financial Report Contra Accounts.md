@@ -3,7 +3,7 @@ title: Account Financial Report Contra Accounts
 description: Gegenkontos für Hauptbuch OCA-Finanzbericht bereitstellen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./accounting
 ---
 # Account Financial Report Contra Accounts

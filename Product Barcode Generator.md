@@ -3,7 +3,7 @@ title: Product Barcode Generator
 description: Autogenerate EAN13 product barcodes.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./product
 ---
 # Product Barcode Generator
@@ -40,7 +40,7 @@ def ean_checksum(eancode):
     """returns the checksum of an ean string of length 13, returns -1 if the string has the wrong length"""
     if len(eancode) != 13:
         return -1
-        
+
     oddsum = 0
     evensum = 0
     eanvalue = eancode
@@ -84,7 +84,7 @@ for product in product_ids:
             barcode_id += 1
         else:
             barcode_search = True
-    
+
     product.write({'barcode': ean})
 ```
 

@@ -3,7 +3,7 @@ title: Sale Blanket Order Fiscal
 description: Steuerzuordnung von Rahmenauftrag auf den Verkaufsauftrag kopieren.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Fiscal
@@ -22,6 +22,6 @@ Mit dem Systemparameter `sale_blanket_order_fiscal.copy_fiscal` können Sie fest
 
 ### Steuerzuordnung festlegen
 
-Mit dieser Erweiterung können Sie auf dem Verkaufsauftrag die *Steuerzuordnung* festlegen. 
+Mit dieser Erweiterung können Sie auf dem Verkaufsauftrag die *Steuerzuordnung* festlegen.
 
 ![](attachments/Sale%20Blanket%20Order%20Extended.png)

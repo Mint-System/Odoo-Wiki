@@ -3,7 +3,7 @@ title: Purchase Requisition Incoterm
 description: Lieferbedingungen auf Kaufverträgen festlegen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./purchase-requisition
 ---
 # Purchase Requisition Incoterm

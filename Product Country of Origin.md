@@ -3,7 +3,7 @@ title: Product Country of Origin
 description: Bestimmen Sie für jedes Produkt ein Herkunftsland.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./manufacture
 ---
 # Product Country of Origin

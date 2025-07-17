@@ -3,7 +3,7 @@ title: Web Sync
 description: Daten mit Web-Requests empfangen und senden.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./zebroo-sync
 ---
 # Web Sync
@@ -23,7 +23,7 @@ Navigieren Sie nach *Zebroo Sync > Grabber > Web-URLs* und erstellen Sie einen n
 * URL: `https://api.example.com`
 * Path: `/api/v1`
 
-Legen Sie den *Request Content Type* und *Response Content Type* fest und speichern Sie den Eintrag. 
+Legen Sie den *Request Content Type* und *Response Content Type* fest und speichern Sie den Eintrag.
 
 ### Bearer-Token hinzufügen
 

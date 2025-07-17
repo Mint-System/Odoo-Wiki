@@ -3,7 +3,7 @@ title: Stock Picking Valued
 description: Preise, Steuern und Preisliste auf Lieferung.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./stock
 ---
 # Stock Picking Valued

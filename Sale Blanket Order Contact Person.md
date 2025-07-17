@@ -1,9 +1,9 @@
 ---
 title: Sale Blanket Order Contact Person
-description: Kontaktperson auf Rahmenauftrag festlegen. 
+description: Kontaktperson auf Rahmenauftrag festlegen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Contact Person

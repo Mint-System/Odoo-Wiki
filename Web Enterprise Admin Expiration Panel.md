@@ -3,7 +3,7 @@ title: Web Enterprise Admin Expiration Panel
 description: Meldung Ablauf der Datenbank nur für Admins anzeigen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./settings
 ---
 # Web Enterprise Admin Expiration Panel

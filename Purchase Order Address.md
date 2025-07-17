@@ -3,7 +3,7 @@ title: Purchase Order Address
 description: Bestelladresse von Kunden auf Angebotsanfrage gespeichert.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./purchase
 ---
 # Purchase Order Address

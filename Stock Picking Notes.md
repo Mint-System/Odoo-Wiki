@@ -3,7 +3,7 @@ title: Stock Picking Notes
 description: "Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden."
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./stock
 ---
 # Stock Picking Notes
@@ -18,6 +18,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 ### Notiz hinzufügen
 
-Mit dieser Erweiterung erhalten Sie zwei zusätzliche Felder auf dem Lager-Transfer. Diese Notizfelder stehen auch für den Verkaufsautrag zur Verfügung. Bestätigt man einen Verkaufsauftrag werden die Notizen auf den Lager-Transfer kopiert. 
+Mit dieser Erweiterung erhalten Sie zwei zusätzliche Felder auf dem Lager-Transfer. Diese Notizfelder stehen auch für den Verkaufsautrag zur Verfügung. Bestätigt man einen Verkaufsauftrag werden die Notizen auf den Lager-Transfer kopiert.
 
 ![](attachments/Stock%20Picking%20Notes.png)

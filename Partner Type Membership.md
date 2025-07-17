@@ -3,7 +3,7 @@ title: Partner Type Membership
 description: Legen Sie einen Unternehmens-Kontakt als Kontaktperson Mitgliedschaft fest.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./contacts
 ---
 # Partner Type Membership

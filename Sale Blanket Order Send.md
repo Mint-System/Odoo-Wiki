@@ -1,9 +1,9 @@
 ---
 title: Sale Blanket Order Send
-description: Workflow mit Rahmenauftrag per E-Mail. 
+description: Workflow mit Rahmenauftrag per E-Mail.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Send

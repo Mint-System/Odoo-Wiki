@@ -3,7 +3,7 @@ title: Purchase Order Comment
 description: Kommentar-Feld für Einkaufsaufträge.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./purchase
 ---
 # Purchase Order Comment
@@ -31,6 +31,3 @@ Mit dem Systemparameter `purchase.order.copy_requisition_comment` können Sie fe
 Öffnen Sie einen Kaufvertrag via *Einkauf > Aufträge > Kaufverträge. Im Tab *Weitere Informationen* finden Sie das Feld *Kommentar*.
 
 ![](attachments/Purchase%20Order%20Comment%20Kaufvertrag.png)
-
-
-

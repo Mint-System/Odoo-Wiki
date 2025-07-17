@@ -3,7 +3,7 @@ title: DPD for Switzerland
 description: Versand mit DPD.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./delivery
 ---
 # DPD for Switzerland

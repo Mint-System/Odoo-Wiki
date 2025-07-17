@@ -3,7 +3,7 @@ title: HR Expense Vehicle Request
 description: Brückenmodul für Fahrzeuganfrage und Auslage.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./hr-expense
 ---
 # HR Expense Vehicle Request

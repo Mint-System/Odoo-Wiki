@@ -3,7 +3,7 @@ title: Partner Optional Commercial Partner
 description: Kontakt selbst als Handelsgesellschaft festzulegen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./contacts
 ---
 # Partner Optional Commercial Partner

@@ -3,7 +3,7 @@ title: Purchase Invoice Prepare Partner
 description: Kontakte aus Bestellung auf Rechnung kopieren.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./invoicing
 ---
 # Purchase Invoice Prepare Partner

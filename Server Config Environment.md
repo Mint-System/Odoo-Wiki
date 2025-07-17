@@ -3,7 +3,7 @@ title: Server Config Environment
 description: Umgebungen für die Server-Konfiguration definieren.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./base
 ---
 # Server Config Environment

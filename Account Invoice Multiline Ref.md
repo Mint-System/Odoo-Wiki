@@ -3,7 +3,7 @@ title: Account Invoice Multiline Ref
 description: Kundenreferenz auf Verkaufsauftrag und Rechnung mit mehreren Zeilen.
 kind: howto
 tags:
-- Drittanbieter
+- Mint-System
 prev: ./invoicing
 ---
 # Account Invoice Multiline Ref
@@ -22,9 +22,9 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/17.
 Navigieren Sie nach *Verkauf*, zeigen Sie ein Angebot an und Öffnen Sie den Tab *Weitere Informationen*. Im Feld *Kundenreferenz* können Sie nun mehrere Zeile erfassen.
 
 ::: tip
-Wenn Sie eine Rechnung erstellen wird das Feld übertragen. Im Anzeigenamen der Rechnungen werden die Zeilenumbrüche Kundenreferenz mit Leerschlägen ersetzt. 
+Wenn Sie eine Rechnung erstellen wird das Feld übertragen. Im Anzeigenamen der Rechnungen werden die Zeilenumbrüche Kundenreferenz mit Leerschlägen ersetzt.
 :::
 
 ::: warning
-Die Referenz wird im Anzeigennamen nur für nicht-ausgehende Rechnung angezeigt.  
+Die Referenz wird im Anzeigennamen nur für nicht-ausgehende Rechnung angezeigt.
 :::
