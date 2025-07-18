@@ -22,4 +22,3 @@ Um eine Odoo Enterprise Lizenz zu erwerben, rufen Sie die Preiskalkulation <http
 * **Implementierungsservice**: Wählen Sie die Option mit einem lokalen Partner und anschliessend suchen Sie nach *Mint System GmbH*
 
 Fahren Sie weiter mit *Jetzt Kaufen*. Geben Sie die Unternehmens- und Kontakt-Informationen ein und bestätigen Sie die Bestellung.
-
