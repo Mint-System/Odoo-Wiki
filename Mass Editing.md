@@ -41,7 +41,7 @@ Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und klicken au
 * **Name der Aktion**: Aufgaben aktualiseren
 * **Modell**: `project.task`
 * **Folgeaktion**: Mass Edit Recoreds
-* **Fields**:
-	* **Felder**: Status
+* **Felder**:
+	* **Name**: Project Phase (project.task)
 
 Speichern Sie den Eintrag mit *Kontextuelle Aktion Erstellen*.
