@@ -42,6 +42,6 @@ Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und klicken au
 * **Modell**: `project.task`
 * **Folgeaktion**: Mass Edit Recoreds
 * **Felder**:
-	* **Name**: Project Phase (project.task)
+	* **Name**: Phase (project.task)
 
 Speichern Sie den Eintrag mit *Kontextuelle Aktion Erstellen*.
