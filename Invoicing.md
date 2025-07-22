@@ -22,6 +22,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 | Erweiterung                                                                                 | Beschreibung                                                                                       |     |
 | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --- |
+| [Account Currency Communication](Account%20Currency%20Communication.md)                     | Legt den Kommunikations-Standard auf der Währung fest.                                             |     |
 | [Account Followup Due Filter](Account%20Followup%20Due%20Filter.md)                         | Im Mahnbericht werden nur übefällige Rechnungen angezeigt.                                         |     |
 | [Account Followup Email From](Account%20Followup%20Email%20From.md)                         | Mahnbericht von definierter E-Mail-Adresse verschicken.                                            |     |
 | [Account Followup Filter Blocked](Account%20Followup%20Filter%20Blocked.md)                 | Zeige Kontakte mit blockierten Rechnungen in der Mahnliste.                                        |     |
