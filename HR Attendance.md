@@ -26,10 +26,11 @@ prev: ./
 | [HR Attendance IP Check](HR%20Attendance%20IP%20Check.md)                                 | IP-Prüfung bei Anmeldung der Anwesenheiten.                                        |
 | [HR Attendance Kanban](HR%20Attendance%20Kanban.md)                                       | Ein- und Auschecken mit Kanban-Board.                                              |
 | [HR Attendance Kiosk Mode Color](HR%20Attendance%20Kiosk%20Mode%20Color.md)               | An- und Abmelden bei Anwesenheit farblich markieren.                               |
+| [HR Attendance Missing Contract](HR%20Attendance%20Missing%20Contract.md)                 | Fehlende Anwesenheite nur für Mitarbeitende mit laufendem Vertrag erstellen.       |
 | [HR Attendance Missing](HR%20Attendance%20Missing.md)                                     | Fehlende Anwesenheiten erstellen.                                                  |
 | [HR Attendance Overtime Hours](HR%20Attendance%20Overtime%20Hours.md)                     | Geplante und gearbeitete Stunden auf Ansicht Überstunden anzeigen.                 |
 | [HR Attendance Policy](HR%20Attendance%20Policy.md)                                       | Richtlinien für die Anwesenheiten festlegen.                                       |
-| [HR Attendance User ACL](HR%20Attendance%20User%20ACL.md)                                 | Zugriff auf Anwesenheiten für Benutzer steuern.                   |
+| [HR Attendance User ACL](HR%20Attendance%20User%20ACL.md)                                 | Zugriff auf Anwesenheiten für Benutzer steuern.                                    |
 | [HR Employee Attendance Report](HR%20Employee%20Attendance%20Report.md)                   | Stundenzettel mit Anwesenheit, Abwesenheiten und Überstunden.                      |
 | [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden. |
 
