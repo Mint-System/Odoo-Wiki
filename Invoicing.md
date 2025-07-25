@@ -45,6 +45,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Account Invoice Select Bank](Account%20Invoice%20Select%20Bank.md)                         | Bankkonto anhand Währung auswählen.                                                                |     |
 | [Account Invoice Show Currency Rate](Account%20Invoice%20Show%20Currency%20Rate.md)         | Währungskurs auf Rechnungszeile anzeigen.                                                          |     |
 | [Account Invoice Triple Discount](Account%20Invoice%20Triple%20Discount.md)                 | Mehrere Rabatte auf der Rechungszeile.                                                             |     |
+| [Account Invoicing Prepare](Account%20Invoice%20Prepare.md)                   | Die PDF Rechnung im Anhang speichern und laden.                                                    |     |
 | [Account Move Invoice Partner](Account%20Move%20Invoice%20Partner.md)                       | Separate Rechnungsadresse auf Rechnung festlegen.                                                  |     |
 | [Account Move Line Description](Account%20Move%20Line%20Description.md)                     | Produktname ohne Referenz in Beschreibung Rechnungszeile übertragen.                               |     |
 | [Account Sale Timesheet Report](Account%20Sale%20Timesheet%20Report.md)                     | Zeiterfassungsbericht für Rechnung.                                                                |     |
