@@ -20,6 +20,7 @@ Repository: <https://github.com/OCA/contract/tree/17.0/contract>
 | [Contract Sale Generation](Contract%20Sale%20Generation.md)         | Aus wiederholenden Verträge Verkaufsangebote generieren.      |
 | [Contract Sale](Contract%20Sale.md)                                 | Zugriff auf Verträge für Verkaufsmitarbeitende.               |
 | [Subscription OCA](Subscription%20OCA.md)                           | OCA-Alternative für Abonnemente.                              |
+| [Product Contract](Product%20Contract.md)                           | Verknüpfung von Verkaufsaufträgen mit Kundenverträgen (OCA).         |                                                                    |                                                               |
 
 ## Verwendung
 
