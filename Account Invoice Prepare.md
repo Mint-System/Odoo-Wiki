@@ -44,9 +44,11 @@ invoices = env['account.move'].search([
   ('payment_state','not in',['draft', 'paid']),
 ])
 
+# raise UserError(invoices)
+
 for invoice in invoices:
     if not invoice.print_date or (invoice.write_date > invoice.print_date):
-        log("Unlink and recreate invoice pdf file for: "+invoice.name)
+        log("Unlink and recreate invoice pdf file for: " + invoice.name)
         invoice.message_post(body="Unlink and recreate invoice pdf file.")
         invoice.attachment_ids.unlink()
         invoice.action_prepare_pdf()
