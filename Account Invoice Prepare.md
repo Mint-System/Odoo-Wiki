@@ -36,10 +36,18 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
 
 ```python
-invoices = env['account.move'].search([('attachment_ids','!=',False),('move_type','=','out_invoice')])
+invoices = env['account.move'].search([
+  ('attachment_ids','!=',False),
+  ('move_type','=','out_invoice'),
+  ('print_date','!=',False),
+  ('state','=','posted'),
+  ('payment_state','not in',['draft', 'paid']),
+])
 
 for invoice in invoices:
-    # raise UserError([invoice.write_date, invoice.print_date])
-    if invoice.write_date > invoice.print_date:
+    if not invoice.print_date or (invoice.write_date > invoice.print_date):
+        log("Unlink and recreate invoice pdf file for: "+invoice.name)
+        invoice.message_post(body="Unlink and recreate invoice pdf file.")
+        invoice.attachment_ids.unlink()
         invoice.action_prepare_pdf()
 ```
