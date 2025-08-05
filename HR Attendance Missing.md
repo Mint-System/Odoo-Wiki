@@ -20,6 +20,12 @@ Wenn Mitarbeitende vergessen ihre Anwesenheit zu erfassen, registriert Odoo kein
 
 Die Erweiterung instaliert eine geplante Aktion, die täglich für alle Mitarbeitenden fehlende Anwesenheiten zum Vortag generiert.
 
+## Konfugration
+
+### Abwesenheitsart ignorieren
+
+Wenn Sie bestimmte Abwesenheitsart bei der Prüfung der fehlenden Anwesenheiten ignorieren wollen, dann können Sie die Abwesenheitsart entsprechend anpassen. Zeigen Sie die Abwesenheitsart unter *Abwesenheiten > Konfiguration > Abwesenheitsarten* an und aktivieren Sie die Option *Fehlende Abwesenheit ignorieren*.
+
 ## Verwendung
 
 ### Fehlende Anwesenheit für ausgewählten Zeitraum generieren
