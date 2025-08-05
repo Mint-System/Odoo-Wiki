@@ -7,13 +7,19 @@ prev: ./
 ---
 # Mitarbeit
 
+Das Odoo Wiki hat zum Ziel den Anwender eine einfache und kompakte Hilfestellung anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best Practice](Best%20Practice.md) abgebildet. Konkrete Arbeitsschritte zur Konfiguration und Verwendung von Odoo werden als [HowTos](README.md#HowTos) dokumentiert.
+
 In diesem Dokument werden die Vorgaben zur Mitarbeit am Odoo Wiki erläutert.
+
+## Markdown
+
+Alle Dokumente des Odoo Wiki sind Markdown-Dokumente. Markdown ist eine [Auszeichnungssprache](https://de.wikipedia.org/wiki/Auszeichnungssprache) mit der Dokument-Formatierungen mit Anweisungen im Text angibt. Mehr zu Markdown gibt es hier <https://www.markdownguide.org/>.
 
 ## Verwendung
 
-Technische Konfigurationen damit Sie an der Wissensdatenbank mitarbeiten können.
+Hier finden Sie technische Konfigurationen damit Sie an der Wissensdatenbank mitarbeiten können.
 
-### Initialisierung
+### Initialisieren
 
 1. Erstellen Sie einen Account auf <https://github.com/>
 2. Werden Sie Mitglied bei <https://github.com/Mint-System/> (optional)
@@ -29,87 +35,43 @@ git clone git@github.com:Mint-System/Odoo-Wiki.git
 
 8. Öffnen Sie den Ordner mit Obsidian
 
-### Synchronisierung
+### Synchronisieren
 
 Der Obsidian Vault und das Git Repository werden mit dem Obisidian Git Plugin synchronisiert.
 
 ![](attachments/Obsidian%20Git%20Plugin.png)
 
-## Philosophie
+### Eintrag erstellen
 
-Das Odoo Wiki hat zum Ziel den Anwender eine einfache und kompakte Hilfestellung anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best Practice](Best%20Practice.md) abgebildet. Konkrete Arbeitsschritte zur Konfiguration und Verwendung von Odoo werden als [HowTos](README.md#HowTos) dokumentiert.
+Mit Obsidian wir das *QuickAdd* Plugin aktiv. Dieses Plugin führt Sie durch die Erfassung eines neuen Wiki-Eintrags. Machen Sie sich mit bestehnden Einträgen vertraut. 
 
-## Markdown
+Zur Erstellung eines Eintrags rufen Sie die Befehls-Pallete mit <kbd>ctrl</kbd> + <kbd>p</kbd> auf und suchen nach `QuickAdd: Run QuickAdd`. Drücken Sie <kbd>Enter</kbd> und wählen Sie anschliessend `Entry`. Sie werden nun durch die Eingabe geführst.
 
-Alle Dokumente des Odoo Wiki sind Markdown-Dokumente. Markdown ist eine [Auszeichnungssprache](https://de.wikipedia.org/wiki/Auszeichnungssprache) mit der Dokument-Formatierungen mit Anweisungen im Text angibt. Mehr zu Markdown gibt es hier <https://www.markdownguide.org/>.
+## Konventionen
 
-### Tabellen erstellen
+Für die Inhalte des Odoo-Wiki gibt es verschiedene Vorschriften. Die folgenden Abschnitte erläutern diese mit Beispielen.
 
-Verwenden Sie <https://www.tablesgenerator.com/markdown_tables> um ganz Markdown-Tabellen zu generieren.
+### Dateinamen
 
-## Demo-Daten
+**Keine Leerschläge**
 
-Zur Erläuterung der Instruktionen wird ein fiktives Unternehmen mit diesen Informationen verwendet:
+Die Dateinamen der Artikel dürfen keine Leerschläge enthalten. Dies führt dazu das die generierte URL korrekt kopiert und eingefügt werden kann.
 
-Name: Restic GmbH\
-Website: <https://www.restic.ch>\
-Mail: <mailto:info@restic.ch>\
-Odoo: <https://odoo.restic.ch>\
-Standort: Milchstrase 2, 6460 Altdorf, Schweiz\
-Mitarbeiter: Kurt Gisler, Janik von Rotz, Marco Roeleven\
-MWST: CHE-103.800.167\
-IBAN: CH4080808008919700926\
-QR-IBAN: CH6830808008919700926\
-Bank: Raiffeisen\
-BIC: RAIFCH22XXX
+`Persönliche Einstellungen` -> `persönliche-einstellungen`
 
-### Lieferanten
+**Dateinamen Prefix**
 
-Name: Totonic GmbH\
-Website: <https://www.pi-shop.ch/>\
-Standort: Bernerstrasse Nord 150, 8064 Zürich, Schweiz\
-MWST: CHE-113.887.810\
-Handelsregister: CH-020.4.036.470-7\
-IBAN: CH3509000000851054624\
-Bank: Postfinance AG\
-BIC: POFICHBEXXX
+Der Name eines Bildes beginnt mit dem Namen der Odoo App.
 
-### Dateien
+`Produkt anlegen.png` -> `Verkauf Produkt anlegen.png`
 
-Camt.053 für Import Kontoauszug: [camt053_example](https://raw.githubusercontent.com/Mint-System/Odoo-Wiki/master/assets/camt053_example.xml)[](attachments/camt053_example.xml)
-
-Beispiele von Rechnungen zum Importieren gibt es hier: <https://github.com/swico/qr-bill>.
-
-### Hostname und Mail-Adressen
-
-Anleitungen werden mit fiktiven Hostnamen, Domains und Mail-Adressen beschrieben. Die Verwendung dieser Namen sollte konsistent sein.
-
-Hostnames:
-
-* Haupt-Domain: example.com
-* Produktive Odoo-Instanz: odoo.example.com
-* Odoo Entwicklungsumgebung: odoo-dev.example.com
-* Mailgun: mg.example.com
-* Externe API: api.example.com
-
-Mail-Adressen:
-
-* Support: support@example.com
-* Catchall: reply@example.com
-* Odoo Bot: odoobot@example.com
-* Administrator: admin@example.com
-* Odoo Postfach: erp@example.com
-* Bounce-Adresse: bounce@example.com
-* Kontakt-Adresse: contact@example.com
-* Empfang Rechnungen: invoice@example.com
-
-## Sprache
+### Sprache
 
 Die Artikel sind in der Sprache Deutsch und in der [Höflichkeitsform](https://de.wikipedia.org/wiki/H%C3%B6flichkeitsform/) verfasst.
 
 Die Beschreibungen und Anleitungen sind ausführlich und kommen ohne Abkürzungen aus.
 
-## Formvorschriften
+### Navigations-Anweisungen
 
 Die Navigations-Anweisungen müssen genauso erstellt werden:
 
@@ -126,7 +88,7 @@ Bezeichnungen die gross geschrieben sind, werden nur mit Anfangsbuchstanden gros
 🚫 Drücken Sie auf *ALS ERLEDIGT MARKIEREN*
 ✅ Drücken Sie auf *Als Erledigt Markieren*
 
-## Markierungen
+### Info-Boxen
 
 Um Inhalte speziell zu markieren gibt es diese Optionen.
 
@@ -151,13 +113,13 @@ Info
 Warnung
 :::
 
-## Inhaltsverzeichnis
+### Inhaltsverzeichnis
 
 Wenn der Seiteninhalt nicht mehr überschaubar ist, kann ein Inhaltsverzeichnis eingefügt werden. Dazu gibt man vor der ersten Überschrift (nach Titel) den Inhalt `[[TOC]]` ein. Vuepress generiert an dieser Stelle das Inhaltsverzeichnis. Dazu das Inhaltsverzeichnis dieser Seite:
 
 [[TOC]]
 
-## Veraltet
+### Veraltete Inhalte
 
 Wenn Apps verwaltet sind, können Sie diese wie folgt markieren:
 
@@ -175,21 +137,7 @@ Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscr
 #DEPRECATED
 :::
 
-## Konventionen
-
-**Keine Leerschläge**
-
-Die Dateinamen der Artikel dürfen keine Leerschläge enthalten. Dies führt dazu das die generierte URL korrekt kopiert und eingefügt werden kann.
-
-`Persönliche Einstellungen` -> `persönliche-einstellungen`
-
-**Dateinamen Prefix**
-
-Der Name eines Bildes beginnt mit dem Namen der Odoo App.
-
-`Produkt anlegen.png` -> `Verkauf Produkt anlegen.png`
-
-## Bilder
+### Bilder
 
 Bilder sind im optimal im PNG-Format und mit Auflösung 800x500 gespeichert.  
 Für Animationen kann das GIF-Format verwendet werden.
@@ -198,59 +146,9 @@ Bilder sollen Ausschnitte und Fragmente aus der Odoo Oberfläche zeigen. Nicht e
 
 Informationen eines Kunden dürfen auf den Bildern nicht sichtbar sein.
 
-## Struktur
-
-Für jede Odoo-App existiert eine Seite. Beispielsweise gibt es die Seite [Notizen](Note.md) für die Notiz-App. Der folgende Markdown-Code ist eine Zusammenfassung alle verwendbarer Elemente in einer Seite:
-
-**App Name.md**
-
-```markdown
----
-title: App Name
-description: Description about the App.
-kind: howto
-tags:
-- OCA
-- Best-Practice
-- Drittanbieter
-prev: ./accounting
----
-# Appname
-![](/assets/icon.png)
-
-{{ $frontmatter.description }}
-
-Website: <https://www.odoo.com/de_DE/app/accounting>\
-Technischer Name: `account_financial_report_reverse_move_lines`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/15.0/account_financial_report_reverse_move_lines>
-
-## Bereiche
-
-| Bereich | Beschreibung |
-| --- | --- |
-| [App Name Stammdaten](Appname%20Stammdaten.md) | Daten zentral pflegen. |
-
-## Erweiterungen
-
-| Erweiterung | Beschreibung |
-| --- | --- |
-| [App Name Erweiterung](Appname%Erweiterung.md) | App erweitern. |
-
-## Beschreibung
-
-Summary of the App.
-
-## Section
-
-### Object action
-
-The actual HowTo content.
-
-```
-
 ### Unterseiten
 
-Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist die App [Fertigung](Manufacture.md) sehr umfangreich. Deshalb kann die App in Unterseiten (Bereiche) aufgeteilt werden.
+Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist die App [Fertigung](Manufacture.md) sehr umfangreich. Deshalb wurde die App in Unterseiten (Bereiche) aufgeteilt.
 
 | Bereich                                         | Beschreibung                                   |
 | ----------------------------------------------- | ---------------------------------------------- |
@@ -258,20 +156,9 @@ Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist di
 
 Die Bereiche bzw. Unterseite werden in der Hauptseite aufgelistet.
 
-Genauso werden *Erweiterungen* verlinkt.
+Genau gleich werden *Erweiterungen* verlinkt.
 
-### OCA-Apps
-
-Dokumentation zu den OCA-Apps müssen diese Vorgaben erfüllen:
-* Standard OCA-Icon
-![icon_oca_app](attachments/icon_oca_app.png)
-
-* Titel ist gleich dem Titel im Repository
-* Repository-Link zeigt auf die aktuellste Version
-
-Mit `task update-repo-url` können die Repository-Links aktualisiert werden.
-
-## Tags
+### Tags
 
 Mit Obsidian können Artikel getagged `#tagname` werden. Tags werden von Vuepress nicht verarbeitet, daher werden diese nur zur Verwaltung der Artikel verwendet. Folgende Tags stehen zur Verfügung:
 
@@ -291,9 +178,32 @@ Odoo Version:
 * #Odoo16: Tag für Odoo Version 16.
 * #Odoo17: Tag für Odoo Version 17.
 
-## Externe Links
+### Hostname und Mail-Adressen
 
-### Affiliate Links
+Anleitungen werden mit fiktiven Hostnamen, Domains und Mail-Adressen beschrieben. Die Verwendung dieser Namen sollte konsistent sein.
+
+Hostnames:
+
+* Haupt-Domain: example.com
+* Produktive Odoo-Instanz: odoo.example.com
+* Odoo Entwicklungsumgebung: odoo-dev.example.com
+* Mailgun: mg.example.com
+* Externe API: api.example.com
+
+Mail-Adressen:
+
+* Support: support@example.com
+* Catchall: reply@example.com
+* Odoo Bot: odoobot@example.com
+* Administrator: admin@example.com
+* Odoo Postfach: erp@example.com
+* Bounce-Adresse: bounce@example.com
+* Kontakt-Adresse: contact@example.com
+* Empfang Rechnungen: invoice@example.co
+
+### Externe Links
+
+#### Affiliate Links
 
 Zu bestimmten Themen und Stichwörter werden Affiliate-Links platziert.
 
@@ -324,3 +234,38 @@ Wir empfehlen Produkte von [Infomaniak](https://www.infomaniak.com/goto/de/home?
 Wir empfehlen [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hosting.mail?utm_term=67ff9acbaabca) anstatt Outlook zu verwenden.
 :::
 ```
+
+### Demo-Daten
+
+Zur Erläuterung der Instruktionen wird ein fiktives Unternehmen verwendet.
+
+#### Unternehmen
+
+Name: Restic GmbH\
+Website: <https://www.restic.ch>\
+Mail: <mailto:info@restic.ch>\
+Odoo: <https://odoo.restic.ch>\
+Standort: Milchstrase 2, 6460 Altdorf, Schweiz\
+Mitarbeiter: Kurt Gisler, Janik von Rotz, Marco Roeleven\
+MWST: CHE-103.800.167\
+IBAN: CH4080808008919700926\
+QR-IBAN: CH6830808008919700926\
+Bank: Raiffeisen\
+BIC: RAIFCH22XXX
+
+#### Lieferant
+
+Name: Totonic GmbH\
+Website: <https://www.pi-shop.ch/>\
+Standort: Bernerstrasse Nord 150, 8064 Zürich, Schweiz\
+MWST: CHE-113.887.810\
+Handelsregister: CH-020.4.036.470-7\
+IBAN: CH3509000000851054624\
+Bank: Postfinance AG\
+BIC: POFICHBEXXX
+
+#### Dateien
+
+Camt.053 für Import Kontoauszug: [camt053_example](https://raw.githubusercontent.com/Mint-System/Odoo-Wiki/master/assets/camt053_example.xml)[](attachments/camt053_example.xml)
+
+Beispiele von Rechnungen zum Importieren gibt es hier: <https://github.com/swico/qr-bill>.
