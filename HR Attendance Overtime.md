@@ -34,6 +34,15 @@ Angenommen dass Startdatum ist der *01.07.2024*, dann erstellen Sie unter *Anwes
 Bei der Berechnung und Aktualisierung der Überstunden ignoriert Odoo alle Einträge vor dem Startdatum.
 :::
 
+### Abwesenheitsprüfung aktivieren
+
+Gilt ab #odoo18 .
+
+Die Abwesenheitsprüfung erstellt fehlende Anwesenheitseinträge damit die Überstunden korrekte berechnet werden. Navigieren Sie nach *Einstellungen > Anwesenheit* und aktivieren Sie die Option *Abwesenheitsveraltung.*
+
+::: tip
+Die geplante Aktion heisst *Anwesenheit: Abwesenheiten für Mitarbeiter entdecken*.
+
 ## Verwendung
 
 ### Eigene Überstunden anzeigen
