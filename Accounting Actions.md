@@ -358,31 +358,6 @@ for invoice in invoice_ids:
     # raise UserError([invoice.name, refs, invoice_date, last_date,  invoice_date <= last_date, add_month(invoice_date)])
 ```
 
-### PDF-Datei von Kundenrechnungen vorbereiten
-
-Diese geplante Aktion erstellt die PDF-Dateien von Kundenrechnungen, die noch keinen Anhang haben.
-
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `PDF-Datei von Kundenrechnungen vorbereiten`\
-Modell: `ir.actions.server`\
-Ausführen alle: `1` Woche\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
-Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
-
-```python
-invoices_report = env.ref('account.account_invoices')
-invoices = env['account.move'].search([('attachment_ids','=',False),('move_type','=','out_invoice'),('id','=',28)])
-
-log('Create pdf files for invoices: %s' % invoices)
-
-for invoice in invoices:
-  content, _content_type = env['ir.actions.report']._render_qweb_pdf(invoices_report, res_ids=[invoice.id])
-```
-
 ### Geprüfte Kundenrechnungen versenden
 
 Diese geplante Aktion versendet alle gebuchten und geprüften Rechnungen mit der Standard-E-Mail-Vorlage.
