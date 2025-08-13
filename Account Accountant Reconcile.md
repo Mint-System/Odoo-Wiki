@@ -11,8 +11,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_acountant_reconcile`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Reconcile/tree/16.0/account_acountant_reconcile>
+Technischer Name: `account_accountant_reconcile`\
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Reconcile/tree/16.0/account_accountant_reconcile>
 
 ## Beschreibung
 
