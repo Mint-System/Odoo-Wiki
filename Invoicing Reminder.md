@@ -58,7 +58,6 @@ Rufe die App *Kontakte* auf und wähle *Filter > Mahnung erforderlich*. Zeig ein
 
 ### Text Mahnbericht anpassen
 
-
 Gilt bis #Odoo16.
 
 Wenn Sie den Mahnbericht geöffnet haben und auf den Text klicken, können Sie diesen direkt bearbeiten. Schliessen Sie den Vorgang mit *Speichern* ab.
