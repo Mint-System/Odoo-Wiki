@@ -38,6 +38,10 @@ export default defineUserConfig({
         }
     }),
     plugins: [
+        slimsearchPlugin({
+            indexContent: true,
+            suggestion: false
+        }),
         plausiblePlugin({
             'domain': 'odoo-wiki.org'
         }),
@@ -46,9 +50,5 @@ export default defineUserConfig({
             theme: 'catppuccin-latte',
             langs: ['bash', 'yml', 'yaml', 'json', 'css', 'html', 'xml', 'groovy', 'py', 'python', 'sql', 'powershell', 'txt', 'csv', 'mermaid', 'md', 'markdown', 'toml', 'php'],
         }),
-        slimsearchPlugin({
-            indexContent: true,
-            suggestion: false
-        })
     ],
 })
