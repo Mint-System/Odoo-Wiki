@@ -17,12 +17,8 @@ function help() {
     DESC_WIDTH=40
     COLUMN="| %-${CMD_WIDTH}s | %-${OPT_WIDTH}s | %-${DESC_WIDTH}s |\n"
 
-    # Print table header
     printf "$COLUMN" "Command" "Option" "Description"
     echo "|$(printf '%*s' $((CMD_WIDTH + 2)) '' | tr ' ' '-')|$(printf '%*s' $((OPT_WIDTH + 2)) '' | tr ' ' '-')|$(printf '%*s' $((DESC_WIDTH + 2)) '' | tr ' ' '-')|"
-
-    # Print table rows
-
     printf "$COLUMN" "install" "" "Install build dependencies."
     printf "$COLUMN" "update" "" "Update build dependencies."
     printf "$COLUMN" "build" "" "Build project."
@@ -31,9 +27,15 @@ function help() {
     printf "$COLUMN" "serve-vuepress" "" "Serve vuepress build."
     printf "$COLUMN" "download-icons" "" "Download module icons from Odoo assets."
     printf "$COLUMN" "update-repo-url" "" "Check and update repository urls."
-
-    echo
 }
+
+if [ -d "$HOME/taskfile.build/bin" ]; then
+    for file in "$HOME/taskfile.build/bin/"*; do
+        if [ -f "$file" ]; then
+            source "$file"
+        fi
+    done
+fi
 
 function update-repo-url() {
 
@@ -46,13 +48,13 @@ function update-repo-url() {
         FILE_COUNT=$((FILE_COUNT+1))
 
         echo "Processing file '$FILE' ($FILE_COUNT/$TOTAL_FILES)"
-    
+
         LINK=$(grep -Eom 1 'Repository: <https://github.com/[^>]*>' "$FILE" || echo "")
 
         if [[ -n "$LINK" ]]; then
-            
+
             REPO_URL=$(echo "$LINK" | grep -oP 'https://github.com/\K[^>]*')
-            
+
             NEWEST_URL=""
             for VERSION in "${VERSIONS[@]}"; do
 

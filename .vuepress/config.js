@@ -1,6 +1,6 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
-import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
 import { plausiblePlugin } from './plausible'
 import { mermaidPlugin } from './mermaid'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
@@ -38,11 +38,6 @@ export default defineUserConfig({
         }
     }),
     plugins: [
-        docsearchPlugin({
-            appId: '3RXF11ZPBA',
-            apiKey: '541477132dec8df8d1b72f17c60b8a7a',
-            indexName: 'odoo-org',
-        }),
         plausiblePlugin({
             'domain': 'odoo-wiki.org'
         }),
@@ -51,5 +46,9 @@ export default defineUserConfig({
             theme: 'catppuccin-latte',
             langs: ['bash', 'yml', 'yaml', 'json', 'css', 'html', 'xml', 'groovy', 'py', 'python', 'sql', 'powershell', 'txt', 'csv', 'mermaid', 'md', 'markdown', 'toml', 'php'],
         }),
+        slimsearchPlugin({
+            indexContent: true,
+            suggestion: false
+        })
     ],
 })

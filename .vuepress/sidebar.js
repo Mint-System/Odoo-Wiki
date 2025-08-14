@@ -494,6 +494,7 @@ export default [
           "hr-attendance-ip-check.md",
           "hr-attendance-kanban.md",
           "hr-attendance-kiosk-mode-color.md",
+          "hr-attendance-missing-contract.md",
           "hr-attendance-missing.md",
           "hr-attendance-overtime-hours.md",
           "hr-attendance-policy.md",
@@ -793,6 +794,7 @@ export default [
         "collapsible": true,
         "children": [
           "amqp-base.md",
+          "anb-stock-picking-valued.md",
           "demand-planner.md",
           "product-logistics-uom.md",
           "stock-account-location-valued.md",
@@ -804,6 +806,7 @@ export default [
           "stock-critical-forecast.md",
           "stock-delivery-note.md",
           "stock-inventory-summary.md",
+          "stock-kardex.md",
           "stock-lot-traceability-list.md",
           "stock-move-available-locations.md",
           "stock-move-line-auto-fill.md",
@@ -927,6 +930,7 @@ export default [
         "text": "Invoicing",
         "collapsible": true,
         "children": [
+          "account-currency-communication.md",
           "account-followup-due-filter.md",
           "account-followup-email-from.md",
           "account-followup-filter-blocked.md",
@@ -947,7 +951,9 @@ export default [
           "account-invoice-overdue-reminder.md",
           "account-invoice-sale-partner.md",
           "account-invoice-select-bank.md",
+          "account-invoice-show-currency-rate.md",
           "account-invoice-triple-discount.md",
+          "account-invoice-prepare.md",
           "account-move-invoice-partner.md",
           "account-move-line-description.md",
           "account-sale-timesheet-report.md",
@@ -1256,6 +1262,7 @@ export default [
           "contract-format-date-marker.md",
           "contract-sale-generation.md",
           "contract-sale.md",
+          "product-contract.md",
           "subscription-oca.md"
         ]
       },
