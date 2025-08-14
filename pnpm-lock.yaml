@@ -14,9 +14,6 @@ importers:
       '@vuepress/client':
         specifier: 2.0.0-rc.23
         version: 2.0.0-rc.23
-      '@vuepress/plugin-search':
-        specifier: 2.0.0-rc.106
-        version: 2.0.0-rc.106(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0))(vue@3.5.15))
       '@vuepress/plugin-shiki':
         specifier: 2.0.0-rc.106
         version: 2.0.0-rc.106(@vueuse/core@13.2.0(vue@3.5.15))(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0))(vue@3.5.15))
@@ -892,11 +889,6 @@ packages:
 
   '@vuepress/plugin-prismjs@2.0.0-rc.106':
     resolution: {integrity: sha512-1AoYRjctTuMeypIAJUeTcSvTtGtG+Nt/eedxvxIC1BWEmObEVcyWXxz8QCsM8/8O5lajesgDMO2Bi2CqetcfuA==}
-    peerDependencies:
-      vuepress: 2.0.0-rc.23
-
-  '@vuepress/plugin-search@2.0.0-rc.106':
-    resolution: {integrity: sha512-Bgz7ar19v2WtXb5fMps9Uvc46vUYSYX1HFp2texZ8/vkVhVW6xjpZeNc5abUqzi7Xh/dcGAI7/fzqyTcYnFO7Q==}
     peerDependencies:
       vuepress: 2.0.0-rc.23
 
@@ -3243,15 +3235,6 @@ snapshots:
       vuepress: 2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0))(vue@3.5.15)
     transitivePeerDependencies:
       - '@vueuse/core'
-      - typescript
-
-  '@vuepress/plugin-search@2.0.0-rc.106(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0))(vue@3.5.15))':
-    dependencies:
-      '@vuepress/helper': 2.0.0-rc.106(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0))(vue@3.5.15))
-      chokidar: 3.6.0
-      vue: 3.5.15
-      vuepress: 2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0))(vue@3.5.15)
-    transitivePeerDependencies:
       - typescript
 
   '@vuepress/plugin-seo@2.0.0-rc.106(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0))(vue@3.5.15))':
