@@ -19,8 +19,8 @@ Repository: <https://github.com/OCA/contract/tree/17.0/contract>
 | [Contract Format Date Marker](Contract%20Format%20Date%20Marker.md) | Datum aus Vertragszeile in Rechnung anzeigen und formatieren. |
 | [Contract Sale Generation](Contract%20Sale%20Generation.md)         | Aus wiederholenden Verträge Verkaufsangebote generieren.      |
 | [Contract Sale](Contract%20Sale.md)                                 | Zugriff auf Verträge für Verkaufsmitarbeitende.               |
+| [Product Contract](Product%20Contract.md)                           | Verknüpfung von Verkaufsaufträgen mit Kundenverträgen (OCA).  |
 | [Subscription OCA](Subscription%20OCA.md)                           | OCA-Alternative für Abonnemente.                              |
-| [Product Contract](Product%20Contract.md)                           | Verknüpfung von Verkaufsaufträgen mit Kundenverträgen (OCA).         |                                                                    |                                                               |
 
 ## Verwendung
 
