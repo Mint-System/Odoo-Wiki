@@ -6,7 +6,7 @@ tags:
 - OCA
 prev: ./contract
 ---
-# Contract from Sales
+# Contract from Sale
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
