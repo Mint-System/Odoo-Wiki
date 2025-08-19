@@ -25,7 +25,7 @@ this.variables.org_name = org_name;
 
 module_icon = "![icon_oms_box](../attachments/icons_odoo_mint_system.png)"
 if (org_name == "OCA") {
-	mdoule_icon = "![icon_oca_app](../attachments/icon_oca_app.png)"
+	module_icon = "![icon_oca_app](../attachments/icon_oca_app.png)"
 }
 
 this.variables.module_icon = module_icon;

@@ -1,0 +1,15 @@
+---
+title: Auth API Key
+description: HTTP-Anfragen mit API-Key authentifizieren.
+kind: howto
+tags:
+- OCA
+prev: ./settings
+---
+# Auth API Key
+![icon_oca_app](attachments/icon_oca_app.png)
+
+{{ $frontmatter.description }}
+
+Technischer Name: `auth_api_key`\
+Repository: <https://github.com/OCA/server-auth/tree/18.0/auth_api_key>
