@@ -12,7 +12,7 @@ prev: ./invoicing
 {{ $frontmatter.description }}
 
 Technischer Name: `account_followup_email_from`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/15.0/account_followup_email_from>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/17.0/account_followup_email_from>
 
 ## Verwendung
 

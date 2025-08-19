@@ -13,7 +13,7 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_kardex`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/18.0/stock_kardex>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/17.0/stock_kardex>
 
 ## Beschreibung
 

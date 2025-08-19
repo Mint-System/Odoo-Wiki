@@ -10,4 +10,4 @@ prev: ./manufacture
 {{ $frontmatter.description }}
 
 Technischer Name: `maintenance_plan_request_name`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/15.0/maintenance_plan_request_name>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/maintenance_plan_request_name>

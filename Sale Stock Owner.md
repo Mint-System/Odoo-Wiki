@@ -12,7 +12,7 @@ prev: ./sale-stock
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_stock_owner`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/15.0/sale_stock_owner>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_stock_owner>
 
 ## Beschreibung
 

@@ -12,7 +12,7 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_general_ledger_contra_accounts`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/16.0/account_general_ledger_contra_accounts>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/17.0/account_general_ledger_contra_accounts>
 
 ## Verwendung
 

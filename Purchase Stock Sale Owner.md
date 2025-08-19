@@ -12,7 +12,7 @@ prev: ./purchase
 {{ $frontmatter.description }}
 
 Technischer Name: `purchase_stock_sale_owner`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/15.0/purchase_stock_sale_owner>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.0/purchase_stock_sale_owner>
 
 ## Verwendung
 

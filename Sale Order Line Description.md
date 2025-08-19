@@ -12,7 +12,7 @@ prev: ./sale
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_order_line_description`\
-Repository: <https://github.com/OCA/sale-workflow/tree/15.0/sale_order_line_description>
+Repository: <https://github.com/OCA/sale-workflow/tree/16.0/sale_order_line_description>
 
 ## Konfiguration
 

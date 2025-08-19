@@ -12,7 +12,7 @@ prev: ./purchase
 {{ $frontmatter.description }}
 
 Technischer Name: `purchase_order_partner_incoterm`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_partner_incoterm>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.0/purchase_order_partner_incoterm>
 
 ::: warning
 Die Installation von [Purchase Partner Incoterm](Purchase%20Partner%20Incoterm.md) übersteuert das Standardverhalten dieses Moduls. Sie sollten entweder dieses oder das andere Modul installiert haben.
