@@ -154,7 +154,10 @@ Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
 for record in records:  
-  record._update_overtime()
+    record.write({
+        'check_out': record.check_out
+    })
+	record._update_overtime()
 ```
 
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
