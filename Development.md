@@ -30,7 +30,8 @@ prev: ./
 | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | [BI SQL Editor](BI%20SQL%20Editor.md)                                                       | Ganz einfach SQL-basierte Berichte erstellen.                       |
 | [Date Range](Date%20Range.md)                                                               | Verwaltung von Datums-Bereichen zur Filterung von Daten.            |
-| [FastAPI](FastAPI.md)                                                                       |                                                                     |
+| [Endpoint route handler](Endpoint%20route%20handler.md)                                     | Web-Routen während Ausführung hinzufügen und entfernen              |
+| [FastAPI](FastAPI.md)                                                                       | FastAPI-Integration für Odoo.                                       |
 | [Mail Environment](Mail%20Environment.md)                                                   | Mail-Server aus Umgebungsvariablen laden.                           |
 | [Mass Editing](Mass%20Editing.md)                                                           | Mühelos mehrere Einträge auf einmal bearbeiten.                     |
 | [Mass Operation Abstract](Mass%20Operation%20Abstract.md)                                   | Bietet Werkzeuge zur Massenbearbeitung.                             |
