@@ -325,7 +325,6 @@ Damit keine Vorsteuer-Buchungen gemacht werden, muss auf allen Steuersätzen vom
 Führen Sie [Bezugssteuer einrichten](#Bezugssteuer%20einrichten) aus. Für die Verteilung wählen Sie diese Angaben:
 
 * **Betrag**: -8.1000
-
 * **Verteilung für Rechnungen**:
 
 |       % | Basiert auf | Konto                           | Steuerraster |
