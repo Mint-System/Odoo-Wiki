@@ -19,12 +19,16 @@ Website: <https://www.odoo.com/de_DE/app/email-marketing>
 
 ## Erweiterungen
 
-| Erweiterung                                                         | Beschreibung                                   |
-| ------------------------------------------------------------------- | ---------------------------------------------- |
-| [Dynamic Mass Mailing Lists](Mass%20Mailing%20List%20Dynamic.md)    | Mailingiste mit Kontakt-Liste synchronisieren. |
-| [Link partners with mass-mailing](Mass%20Mailing%20Partner.md)      | Mailinglisten-Kontakte und Kontakte verküpfen. |
-| [Mass Mailing Contact Active](Mass%20Mailing%20Contact%20Active.md) | Mailkontakte und Abonnements archivieren.      |
-| [Survey Send To List](Survey%20Send%20To%20List.md)                 | Versand Umfrage an Mailing-Liste.              |
+| Erweiterung                                                                              | Beschreibung                                                      |
+| ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| [Dynamic Mass Mailing Lists](Mass%20Mailing%20List%20Dynamic.md)                         | Mailingiste mit Kontakt-Liste synchronisieren.                    |
+| [Link partners with mass-mailing](Mass%20Mailing%20Partner.md)                           | Mailinglisten-Kontakte und Kontakte verküpfen.                    |
+| [Mail Tracking Helpdesk Bounce Ticket ](Mail%20Tracking%20Helpdesk%20Bounce%20Ticket.md) | Für E-Mails mit dem Status Bounced ein Helpdesk-Ticket erstellen. |
+| [Mail Tracking Mailgun](Mail%20Tracking%20Mailgun.md)                                    | Mailgun Events mit Webhook in Odoo empfangen.                     |
+| [Mail Tracking](Mail%20Tracking.md)                                                      | Tracking-Status für jede versendete E-Mail.                       |
+| [Mail tracking for mass mailing](Mail%20tracking%20for%20mass%20mailing.md)              | Mail-Statistik basierend auf Mail-Tracking.                       |
+| [Mass Mailing Contact Active](Mass%20Mailing%20Contact%20Active.md)                      | Mailkontakte und Abonnements archivieren.                         |
+| [Survey Send To List](Survey%20Send%20To%20List.md)                                      | Versand Umfrage an Mailing-Liste.                                 |
 
 ## Konfiguration
 

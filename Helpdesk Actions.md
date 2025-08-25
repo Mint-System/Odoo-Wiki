@@ -2,7 +2,7 @@
 title: Kundendienst Aktionen
 description: Arbeitsflüsse im Kundendienst automatisieren.
 kind: howto
-prev: ./helpdesk
+prev: ./dialog
 ---
 # Kundendienst Aktionen
 ![icons_odoo_helpdesk](attachments/icons_odoo_helpdesk.png)
