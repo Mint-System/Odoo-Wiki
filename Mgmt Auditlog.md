@@ -2,8 +2,7 @@
 title: Mmgt Auditlog
 description: Log-Regeln für OCA Auditlog.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./management-system
 ---
 

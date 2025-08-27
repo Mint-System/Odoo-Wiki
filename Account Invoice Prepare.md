@@ -2,8 +2,7 @@
 title: Account Invoice Prepare
 description: Die PDF Rechnung im Anhang speichern und laden.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./invoicing
 ---
 # Account Invoice Prepare

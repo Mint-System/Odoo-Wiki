@@ -2,8 +2,7 @@
 title: Project Task Dependencies
 description: Projektaufgaben mit Abhängigkeiten.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./project
 ---
 # Project Task Dependencies

@@ -2,8 +2,7 @@
 title: Web Domain Field
 description: Dynamische Definitionen für Domain-Attribute auf Felder generieren.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./development
 ---
 # Web Domain Field

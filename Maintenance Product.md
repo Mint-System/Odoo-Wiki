@@ -2,8 +2,7 @@
 title: Maintenance Product
 description: Produkt und Inventar verknüpfen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./maintenance
 ---
 # Maintenance Product

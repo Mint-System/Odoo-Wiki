@@ -2,8 +2,7 @@
 title: Account Invoice Description
 description: Beschreibungsfeld auf Rechnung.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./accounting
 ---
 # Account Invoice Description

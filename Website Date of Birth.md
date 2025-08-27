@@ -2,8 +2,7 @@
 title: Website Date of Birth
 description: Geburtsdatum auf Anmeldeformular.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./website
 ---
 # Website Date of Birth

@@ -2,8 +2,7 @@
 title: Sale Expense Description Date
 description: Fügt das Datum der Auslage der Kundenauftragszeile hinzu.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./hr-expense
 ---
 # Sale Expense Description Date

@@ -2,8 +2,7 @@
 title: Purchase Order Line Description
 description: Nur die Einkaufsbeschreibung in die Einkaufsposition übernehmen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./purchase
 ---
 # Purchase Order Line Description

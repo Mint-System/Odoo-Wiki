@@ -2,8 +2,7 @@
 title: Endpoint route handler
 description: Web-Routen während Ausführung hinzufügen und entfernen
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./development
 ---
 # Endpoint route handler

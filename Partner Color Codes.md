@@ -2,8 +2,7 @@
 title: Partner Color Codes
 description: Kontakte mit Farben und Stichwörter markieren.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./accounting
 ---
 # Partner Color Codes

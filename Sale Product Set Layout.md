@@ -2,8 +2,7 @@
 title: Sale Product Set Layout
 description: Produktset mit Notizen und Abschnitten.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./sale
 ---
 # Sale Product Set Layout

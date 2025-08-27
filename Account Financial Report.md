@@ -2,6 +2,7 @@
 title: Account Financial Report
 description: Finanzberichte der Odoo Community Assocation.
 kind: howto
+partner: Mint-System
 prev: ./accounting
 ---
 # Account Financial Report

@@ -2,8 +2,7 @@
 title: HR Employee ID
 description: Identifikationsnummer für Mitarbeitende.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./hr
 ---
 # HR Employee ID

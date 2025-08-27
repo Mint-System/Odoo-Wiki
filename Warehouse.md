@@ -2,8 +2,7 @@
 title: Warenhaus
 description: Werkhallen und Warenhäuser effizient verwalten.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./
 ---
 # Warenhaus

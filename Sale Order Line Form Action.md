@@ -2,8 +2,7 @@
 title: Sale Order Line Form Action
 description: Auftragszeile in Formularansicht öffnen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale
 ---
 # Sale Order Line Form Action

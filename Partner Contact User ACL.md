@@ -2,8 +2,7 @@
 title: Partner Contact User ACL
 description: Zugriffsrechte auf Kontakte festlegen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./contacts
 ---
 # Partner Contact User ACL

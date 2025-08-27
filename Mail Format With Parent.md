@@ -2,8 +2,7 @@
 title: Mail Format with Parent
 description: Unternehmensname des Kontakts alternativ für E-Mails verwenden.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./base
 ---
 # Mail Format with Parent

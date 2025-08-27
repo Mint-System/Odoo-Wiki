@@ -2,8 +2,7 @@
 title: Project Template
 description: Projekt aus Projektvorlage erstellen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./project
 ---
 # Project Templates

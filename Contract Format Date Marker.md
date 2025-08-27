@@ -2,6 +2,7 @@
 title: Contract Format Date Marker
 description: Datum aus Vertragszeile in Rechnung anzeigen und formatieren.
 kind: howto
+partner: Mint-System
 prev: ./contract
 ---
 # Contract Format Date Marker

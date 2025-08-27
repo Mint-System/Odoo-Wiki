@@ -2,8 +2,7 @@
 title: Base Action Manager Access
 description: "Zugriff auf Aktionen für Gruppe Administration / Zugriffsrechte."
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./base
 ---
 # Base Action Manager Access

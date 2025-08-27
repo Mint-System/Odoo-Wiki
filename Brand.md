@@ -2,8 +2,7 @@
 title: Marke
 description: Mehrere Marken für ihr Unternehmen präsentieren.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./
 ---
 # Marke

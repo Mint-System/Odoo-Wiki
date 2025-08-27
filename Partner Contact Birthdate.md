@@ -2,8 +2,7 @@
 title: Contact's birthdate
 description: Feld Geburtstag und Alter auf Kontakt vom Typ Einzelperson.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./contacts
 ---
 # Contact's birthdate

@@ -2,8 +2,7 @@
 title: Sale Automatic Workflow
 description: Verkaufsprozess automatisieren.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./sale
 ---
 # Sale Automatic Workflow

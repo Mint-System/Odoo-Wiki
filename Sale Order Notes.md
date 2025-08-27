@@ -2,8 +2,7 @@
 title: Sale Order Notes
 description: Verkaufsaufträge mit Notizfelder.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale
 ---
 # Sale Order Notes

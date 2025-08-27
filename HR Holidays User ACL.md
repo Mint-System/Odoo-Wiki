@@ -2,8 +2,7 @@
 title: HR Holidays User ACL
 description: Zugriffsrechte auf Abwesenheiten festlegen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./contacts
 ---
 # HR Holidays User ACL

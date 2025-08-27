@@ -2,8 +2,7 @@
 title: Product Contract
 description: Verbindet Produkte mit Kundenverträgen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./contract
 ---
 # Product Contract
@@ -35,7 +34,7 @@ Das Modul erlaubt nur, Produkte vom Typ *Dienstleistung* als Vertragsprodukt aus
 
 Wird ein neuer Verkaufsauftrag mit einem Vertragsprodukt angelegt und bestätigt, wird gleichzeitig ein Kundenvertrag generiert. Die Details des Kundenvertrags können auf Produktebene oder auf Vertragsebene geändert werden.
 
-Enthält ein Verkaufsautrag mehrere Vertragsprodukte, wird ein gemeinsamer Kundenvertrag angelegt. 
+Enthält ein Verkaufsautrag mehrere Vertragsprodukte, wird ein gemeinsamer Kundenvertrag angelegt.
 
 ::: tip
 Wird nachträglich einem Verkaufsauftrag mit Kundenvertrag ein weiteres Vertragsprodukt hinzugefügt, wird ein neuer Kundenvertrag angelegt.
@@ -46,7 +45,3 @@ Per Smart Button kann man von einem Verkaufsauftrag zum zugehörigen Kundenvertr
 ### Rechnungsstellung
 
 Die Rechnung zu einem Verkaufsauftrag enthält nur die Nicht-Vertragsprodukte.
-
-
-
-

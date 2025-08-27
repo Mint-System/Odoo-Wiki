@@ -2,8 +2,7 @@
 title: Sale Invoice Prepare Bank
 description: Bankkonto anhand Währung auswählen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./invoicing
 ---
 # Sale Invoice Prepare Bank

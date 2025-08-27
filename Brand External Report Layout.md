@@ -2,9 +2,8 @@
 title: Brand External Report Layout
 description: Dokument-Layout mit Marke verknüpfen.
 kind: howto
-tags:
-- OCA
-prev: ./
+partner: OCA
+prev: ./brand
 ---
 # Brand External Report Layout
 ![](attachments/icons_odoo_brand.png)

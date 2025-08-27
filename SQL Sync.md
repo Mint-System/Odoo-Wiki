@@ -2,12 +2,11 @@
 title: SQL Sync
 description: Mit SQL-Abfragen Daten empfangen und senden.
 kind: howto
-tags:
-- Mint-System
+partner: Thirdparty
 prev: ./zebroo-sync
 ---
 # SQL Sync
-![](attachments/icon_odoo_zbsync.png)
+![icons_odoo_thirdparty](attachments/icons_odoo_thirdparty.png)
 
 {{ $frontmatter.description }}
 

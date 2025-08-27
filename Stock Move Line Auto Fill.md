@@ -2,8 +2,7 @@
 title: Stock Move Line Auto Fill
 description: Die erledigte Menge auf einem Transfer automatisch ausfüllen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./stock
 ---
 # Stock Move Line Auto Fill

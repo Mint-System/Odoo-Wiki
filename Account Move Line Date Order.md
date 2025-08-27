@@ -2,8 +2,7 @@
 title: Account Move Line Date Order
 description: Auftragsdatum von Verkaufsauftrag auf Liste Buchungszeilen anzeigen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./order-positions
 ---
 # Account Move Line Date Order

@@ -2,8 +2,7 @@
 title: HR Holidays Leave Archive
 description: Archivierungsfunktion für Abwesenheitseinträge aktivieren.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./hr-holidays
 ---
 # HR Holidays Leave Archive

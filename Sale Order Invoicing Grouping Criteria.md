@@ -2,8 +2,7 @@
 title: Sale Order Invoicing Grouping Criteria
 description: Kriterien zur Gruppierung in der Rechnungstellung festlegen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./invoicing
 ---
 # Sale Order Invoicing Grouping Criteria

@@ -2,8 +2,7 @@
 title: Account Invoice Sale Partner
 description: Verkaufsadresse auf Rechnung festlegen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./invoicing
 ---
 # Account Invoice Sale Partner

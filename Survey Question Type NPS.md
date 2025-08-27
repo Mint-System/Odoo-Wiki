@@ -2,8 +2,7 @@
 title: Survey Question Type NPS
 description: Zusätzlicher Feldtyp für NPS-Score.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./accounting
 ---
 # Survey Question Type NPS

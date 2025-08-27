@@ -2,8 +2,7 @@
 title: Website Sale Pricelist Fixed Discount
 description: Warenkorb mit Rabatten aus Preisliste mit Festpreis.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./website
 ---
 

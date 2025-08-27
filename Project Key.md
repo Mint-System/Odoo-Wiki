@@ -2,8 +2,7 @@
 title: Project Key
 description: Projektkürzel für Aufgabenbezeichnung.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./project
 ---
 # Project Key

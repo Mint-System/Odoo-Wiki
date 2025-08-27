@@ -2,8 +2,7 @@
 title: Sale Order MRP Production Cancel
 description: Verlinkter Fertigungsauftrag bei Abbruch Verkaufsauftrag ebenfalls abbrechen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale
 ---
 # Sale Order MRP Production Cancel

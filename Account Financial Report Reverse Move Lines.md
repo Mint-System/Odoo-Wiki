@@ -2,8 +2,7 @@
 title: Account Financial Report Reverse Move Lines
 description: Ordnet die Buchungszeilen von neu zu alt.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./accounting
 ---
 # Account Financial Report Reverse Move Lines

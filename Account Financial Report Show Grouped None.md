@@ -2,8 +2,7 @@
 title: Account Financial Report Show Grouped None
 description: Alle Buchungszeilen bei Auswahl "nicht gruppiert" anzeigen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./accounting
 ---
 # Account Financial Report Show Grouped None

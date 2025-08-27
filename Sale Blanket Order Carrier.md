@@ -2,8 +2,7 @@
 title: Sale Blanket Order Carrier
 description: Legen Sie die Auslieferungsmethode auf dem Rahmenvertrag fest.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Carrier

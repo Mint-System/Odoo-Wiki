@@ -2,8 +2,7 @@
 title: Stock Move Upstream Quantity
 description: Aktualisiert die erledigte Menge auf verlinkten Lagerbuchungen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./stock
 ---
 # Stock Move Upstream Quantity

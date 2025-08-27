@@ -2,8 +2,7 @@
 title: Sale Blanket Order Stock Terms
 description: Legen Sie Lieferbedingungen auf dem Rahmenauftrag fest.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Stock Terms

@@ -2,6 +2,7 @@
 title: Account Statement Import Base
 description: Basismodul für Import Bankauszüge.
 kind: howto
+partner: OCA
 prev: ./accounting
 ---
 # Account Statement Import Base

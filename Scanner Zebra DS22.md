@@ -2,6 +2,7 @@
 title: Scanner Zebra DS22
 description: Handscanner für Odoo.
 kind: howto
+partner: Zebra
 prev: ./stock
 ---
 # Scanner Zebra DS22

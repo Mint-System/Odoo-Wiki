@@ -2,8 +2,7 @@
 title: Purchase Requisition Payment Term
 description: Kaufverträge mit Zahlungsbedingungen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./purchase
 ---
 # Purchase Requisition Payment Term
@@ -18,7 +17,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.
 
 ### Zahlungsbedingungen auf Kaufvertrag festlegen
 
-Mit dieser Erweiterung können Sie auf Kaufverträge Zahlungsbedingungen definieren. Bei der Auswahl eines Lieferanten wird dessen Standardbedingungen auf den Kaufvertrag übertragen. 
+Mit dieser Erweiterung können Sie auf Kaufverträge Zahlungsbedingungen definieren. Bei der Auswahl eines Lieferanten wird dessen Standardbedingungen auf den Kaufvertrag übertragen.
 
 ![](attachments/Purchase%20Requisition%20Payment%20Term.png)
 

@@ -47,7 +47,7 @@ Zeigen Sie eine Anlage mit Abschreibungen an *Buchhaltung > Buchhaltung > Anlage
 
 ### Anlageklasse erfassen
 
-Anlageklasse (Abschreibungsmodelle) können Sie unter *Buchhaltung > Konfiguration > Anlageklasse* vorerfassen. Mit diesen Modellen können Sie schneller neue Anlagen mit Abschreibungen erfassen. Dazu ein Beispiel mit 10% Abschreibung über 10 Jahre: 
+Anlageklasse (Abschreibungsmodelle) können Sie unter *Buchhaltung > Konfiguration > Anlageklasse* vorerfassen. Mit diesen Modellen können Sie schneller neue Anlagen mit Abschreibungen erfassen. Dazu ein Beispiel mit 10% Abschreibung über 10 Jahre:
 
 ![](attachments/Buchhaltung%20Anlagenverwaltung%20Asset%20Modell.png)
 

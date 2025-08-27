@@ -2,8 +2,7 @@
 title: Mail No Autofollow
 description: Beim Erstellen von Nachrichten erfolgt keine automatische Abonnierung.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./dialog
 ---
 # Mail No Autofollow

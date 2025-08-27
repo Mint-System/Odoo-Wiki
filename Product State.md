@@ -2,8 +2,7 @@
 title: Product Sequence
 description: Lebenszyklus von Produkten festlegen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./manufacture
 ---
 # Product Sequence

@@ -2,8 +2,7 @@
 title: Purchase Order Partner Shipping
 description: Alternative Lieferadresse für Bestellungen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./purchase
 ---
 # Purchase Order Partner Shipping

@@ -2,8 +2,7 @@
 title: Mass Editing
 description: Mühelos mehrere Einträge auf einmal bearbeiten.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./development
 ---
 # Mass Editing
@@ -25,7 +24,7 @@ Geben Sie im Feld *Name der Aktion* eine für die Aktion passende Bezeichung ein
 In der Tabelle *Fields* können Sie nun die Felder, welche im Dialog der Massenbearbeitung zur Verfügung stehen sollen hinzufügen. Im Tab *Message* können Sie eine optionale Nachricht für den Bearbeitungs-Dialog hinterlegen und im Tab *Sicherheit* können Sie die Aktion auf bestimmte Gruppen einschränken.
 
 ::: warning
-Im Dialog der Massenbearbeitung werden für die Felder keine Client-Validierungen durchgeführt. Beispielsweise werden Konfigurationen ignoriert, die ein Feld aufgrund des Status lesbar machen. 
+Im Dialog der Massenbearbeitung werden für die Felder keine Client-Validierungen durchgeführt. Beispielsweise werden Konfigurationen ignoriert, die ein Feld aufgrund des Status lesbar machen.
 :::
 
 ### Massenbeearbeitung ausführen

@@ -2,12 +2,11 @@
 title: Anb Stock Picking Valued
 description: Preislisten für Bestandsbewertung
 kind: howto
-tags:
-- Mint-System
+partner: Thirdparty
 prev: ./stock
 ---
 # Anb Stock Picking Valued
-![](attachments/odoo_icons_anb.png)
+![icons_odoo_thirdparty](attachments/icons_odoo_thirdparty.png)
 
 {{ $frontmatter.description }}
 

@@ -1,8 +1,7 @@
 ---
 title: Base Kardex
 description: Verbindung zu externer MSSQL-Datenbank herstellen.
-tags:
-- HowTo
+kind: howto
 prev: ./development
 ---
 # Base Kardex

@@ -2,8 +2,6 @@
 title: Buchhaltung Aktionen
 description: Neue Aktionen für Buchungen, Zahlungen und Abstimmungen.
 kind: howto
-tags:
-- Actions
 prev: ./accounting
 ---
 # Buchhaltung Aktionen
@@ -26,7 +24,7 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
-for record in records:  
+for record in records:
   record.button_reopen()
 ```
 
@@ -45,7 +43,7 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
-for record in records:  
+for record in records:
   record.button_validate_or_action()
 ```
 
@@ -94,7 +92,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 In der Liste der Vorgänge erscheint nun in der Auswahl *Aktion* das Menu *Abstimmung zurücksetzen*.
 
-### Zahlung auf nicht gesendet setzen 
+### Zahlung auf nicht gesendet setzen
 
 Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -105,7 +103,7 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
 
 ```python
-for record in records:  
+for record in records:
   record.write({'is_move_sent': False})
 ```
 
@@ -241,7 +239,7 @@ Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätig
 
 ### Abstimmung mit Kontoauszug zurücksetzen
 
-Mit dieser Aktion können Sie die Abstimmungen auf der Listenansicht der Buchungszeilen aufheben. 
+Mit dieser Aktion können Sie die Abstimmungen auf der Listenansicht der Buchungszeilen aufheben.
 
 Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
 
@@ -285,7 +283,7 @@ Folgeaktion: `Python-Code ausführen`\
 Python-Code:
 
 ```python
-_data = records._get_payment_method_information()  
+_data = records._get_payment_method_information()
 raise UserError(str(data))_
 ```
 
@@ -318,7 +316,7 @@ def add_month(date):
 
     # Return the new date
     return datetime.date(new_year, new_month, date.day)
-    
+
 def subtract_month(date):
     # Determine the year and month for the new date
     new_year = date.year - 1 if date.month == 1 else date.year
@@ -340,11 +338,11 @@ invoice_ids = env['account.move'].search([
 # Foreach invoice check if is due
 refs = []
 for invoice in invoice_ids:
-  
+
   if invoice.x_recurring_inverval == 'monthly' and invoice.ref not in refs:
     # Update ref list to avoid multiple duplicates
     refs.append(invoice.ref)
-    
+
     # Duplicate invoice
     invoice_date = invoice.invoice_date
     last_date = subtract_month(today)
@@ -354,7 +352,7 @@ for invoice in invoice_ids:
         'ref': invoice.ref,
       })
       env.cr.commit()
-    
+
     # raise UserError([invoice.name, refs, invoice_date, last_date,  invoice_date <= last_date, add_month(invoice_date)])
 ```
 

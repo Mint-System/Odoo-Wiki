@@ -2,8 +2,7 @@
 title: Theoretical vs Attended Time Analysis
 description: Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./hr-attendance
 ---
 # Theoretical vs Attended Time Analysis

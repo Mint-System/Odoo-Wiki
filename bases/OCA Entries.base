@@ -1,9 +1,12 @@
 views:
   - type: table
     name: Table
+    filters:
+      and:
+        - partner == "OCA"
     order:
       - file.name
-      - tags
+      - partner
     sort:
       - property: tags
         direction: DESC

@@ -2,8 +2,7 @@
 title: URL Attachment
 description: Url als Dokument anhängen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./dialog
 ---
 # URL Attachment
@@ -22,7 +21,7 @@ Mit dieser Erweiterungen können sie, nicht nur Dokumente im Chatter anhängen, 
 
 ![](attachments/URL%20Attachment%20Add.png)
 
-Geben Sie einen Link-Namen und die Url ein. 
+Geben Sie einen Link-Namen und die Url ein.
 
 ![](attachments/URL%20Attachment%20Example.png)
 

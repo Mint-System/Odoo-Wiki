@@ -2,8 +2,7 @@
 title: Purchase Order Line Relay Price
 description: Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den Verkäufer.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./purchase
 ---
 # Purchase Order Line Relay Price

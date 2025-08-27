@@ -2,8 +2,7 @@
 title: Maintenance Request Repair
 description: Reparatur aus Wartung erstellen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./maintenance
 ---
 # Maintenance Request Repair

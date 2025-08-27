@@ -2,8 +2,7 @@
 title: BI SQL Editor
 description: Ganz einfach SQL-basierte Berichte erstellen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./development
 ---
 # BI SQL Editor
@@ -32,15 +31,15 @@ SQL Query:
 ```sql
 SELECT
     name as x_name,
-	to_char(birthday, '2021-MM-DD') as x_birthday 
-FROM hr_employee 
+	to_char(birthday, '2021-MM-DD') as x_birthday
+FROM hr_employee
 WHERE active = True and birthday is not NULL and to_char(birthday,'MMDD') > to_char(now() - INTERVAL '4 DAY','MMDD')
 ORDER BY to_char(birthday,'MMDD')
 ```
 
 Anschliessend klicken Sie auf *Validate SQL Expression*. Konnte die Abfrage erfolgreich validiert werden, klicken Sie auf *Create SQL View, Indexes and Models*.
 
-Im Tab *Sicherheit* entfernen Sie den Standard-Gruppeneintrag und fügen *User types / Interner Benutzer* hinzu. Damit wird die Ansicht für alle Benutzer sichtbar. 
+Im Tab *Sicherheit* entfernen Sie den Standard-Gruppeneintrag und fügen *User types / Interner Benutzer* hinzu. Damit wird die Ansicht für alle Benutzer sichtbar.
 
 Bestätigen Sie den Vorgang mit *Create UI*. Im Tab *Extra Information* werden die erstellten UI-Elemente und Einträge verlinkt.
 

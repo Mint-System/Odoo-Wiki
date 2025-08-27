@@ -2,10 +2,11 @@
 title: Ventor PRO
 description: Android-App für die Lagerbewirtschaftung.
 kind: howto
+partner: VentorTech
 prev: ./
 ---
 # Ventor PRO
-![](attachments/odoo_icon_ventor.png)
+![icons_odoo_thirdparty](attachments/icons_odoo_thirdparty.png)
 
 {{ $frontmatter.description }}
 

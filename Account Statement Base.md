@@ -2,6 +2,7 @@
 title: Account Statement Base
 description: Basismodul für Bankauszüge.
 kind: howto
+partner: OCA
 prev: ./accounting
 ---
 # Account Statement Base

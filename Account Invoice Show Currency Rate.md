@@ -2,8 +2,7 @@
 title: Account Invoice Show Currency Rate
 description: Währungskurs auf Rechnungszeile anzeigen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./invoicing
 ---
 # Account Invoice Show Currency Rate

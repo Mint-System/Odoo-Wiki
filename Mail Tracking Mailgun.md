@@ -2,8 +2,7 @@
 title: Mail Tracking Mailgun
 description: Mailgun Events mit Webhook in Odoo empfangen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./dialog
 ---
 # Mail Tracking Mailgun
@@ -38,7 +37,7 @@ Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und 
 
 ### Mailgun-Status synchronisieren
 
-Wenn Sie den [Nachrichten-Status im Chatter anzeigen](Mail%20Tracking.md#Nachrichten-Status%20im%20Chatter%20anzeigen) finden Sie eine Aktion *Re-Sync Mailgun*. 
+Wenn Sie den [Nachrichten-Status im Chatter anzeigen](Mail%20Tracking.md#Nachrichten-Status%20im%20Chatter%20anzeigen) finden Sie eine Aktion *Re-Sync Mailgun*.
 
 ## Troubleshooting
 

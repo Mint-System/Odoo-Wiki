@@ -2,8 +2,7 @@
 title: Stock Picking Start
 description: Transfer als gestartet markieren.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./stock
 ---
 # Stock Picking Start

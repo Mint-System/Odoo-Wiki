@@ -2,8 +2,7 @@
 title: Website Sale Float Qty
 description: Teilmengen von Produkten in Webshop bestellen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./website-e-commerce
 ---
 

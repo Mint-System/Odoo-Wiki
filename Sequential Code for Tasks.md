@@ -2,8 +2,7 @@
 title: Sequential Code for Tasks
 description: Sequenznummer für Projektaufgaben.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./project
 ---
 # Sequential Code for Tasks

@@ -2,8 +2,7 @@
 title: Sale Timesheet Line Exclude
 description: Zeiterfassungseinträge als nicht abrechenbar markieren.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./hr-timesheet
 ---
 # Sale Timesheet Line Exclude

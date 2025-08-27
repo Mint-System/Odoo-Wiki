@@ -2,8 +2,7 @@
 title: Sale Expense Link
 description: Verlinkt die Spesen mit der Kundenauftragszeile.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./hr-expense
 ---
 # Sale Expense Link

@@ -2,8 +2,7 @@
 title: Stock Vendor Evaluation
 description: Lieferungen bewerten und Lieferanten auswerten.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./stock
 ---
 # Stock Vendor Evaluation

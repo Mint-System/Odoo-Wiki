@@ -2,8 +2,7 @@
 title: Purchase Order Unsubscribe
 description: Alle Abonnenten nach Bestätigung der Bestellung entfernen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./dialog
 ---
 # Purchase Order Unsubscribe

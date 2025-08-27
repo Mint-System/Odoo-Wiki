@@ -2,8 +2,7 @@
 title: Stock Picking Responsible
 description: Verantwortliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./stock
 ---
 # Stock Picking Responsible

@@ -2,8 +2,7 @@
 title: Account Payment Purchase
 description: Zahlungsmodus auf Bestellung festlegen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./accounting
 ---
 # Account Payment Purchase

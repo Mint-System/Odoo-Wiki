@@ -2,8 +2,7 @@
 title: Overdue Invoice Reminder
 description: Einfache Lösung zum Versenden von Zahlungserinnerungen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./accounting
 ---
 # Overdue Invoice Reminder
@@ -26,7 +25,7 @@ Navigieren Sie nach *Einstellungen > Abrechnung > Erinnerung an überfällige Re
 
 * **Hängen Sie Rechnungen an überfällige Erinnerungs-E-Mails an**: Aktivieren wenn die Rechnung als Anhang zur Erinenrungsmail hinzugefügt werden soll.
 * **Kontakt zur Erinnerung**: Filter aufgrund welcher Information die Erinnerung versendet werden soll.
-* **Standardschnittstelle Assistent**: E-Mails einzeln oder alle gleichzeitig versenden. 
+* **Standardschnittstelle Assistent**: E-Mails einzeln oder alle gleichzeitig versenden.
 * **Standardverzögerung für Erinnerungsauslöser**: Nach wie vielen Tagen eine Erinnerung versendet werden kann.
 * **Standard Mindestintervall für Erinnerungen**: Nach wie vielen Tagen eine neue Erinnerung versendet werden kann.
 

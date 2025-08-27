@@ -2,8 +2,7 @@
 title: Packaging UOM
 description: Mengeneinheit für Produktverpackung festlegen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./product
 ---
 # Packaging UOM

@@ -2,8 +2,7 @@
 title: Account Followup Filter Blocked
 description: Zeige Kontakte mit blockierten Rechnungen in der Mahnliste.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./invoicing
 ---
 # Account Followup Filter Blocked

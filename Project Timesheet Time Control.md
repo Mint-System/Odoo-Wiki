@@ -2,8 +2,7 @@
 title: Project Timesheet Time Control
 description: Zeiterfassung auf Projektaufgabe starten.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./project
 ---
 # Project Timesheet Time Control

@@ -2,8 +2,7 @@
 title: Inactive Sessions Timeout
 description: Session-Timeout festlegen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./settings
 ---
 # Inactive Sessions Timeout

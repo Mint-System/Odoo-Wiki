@@ -2,8 +2,7 @@
 title: Product Packaging Parent
 description: Übergeordnete Verpackung für Produktverpackung definieren.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./stock
 ---
 # Product Packaging Parent

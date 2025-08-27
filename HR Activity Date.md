@@ -2,8 +2,7 @@
 title: HR Activity Date
 description: Plannungstypen mit Aktivitätsdatum basierend auf Arbeitsverträgen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./hr
 ---
 # HR Activity Date

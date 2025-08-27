@@ -2,12 +2,11 @@
 title: Sync Transformer Helper
 description: Transformierung der Daten vereinfachen.
 kind: howto
-tags:
-- Mint-System
+partner: Thirdparty
 prev: ./zebroo-sync
 ---
 # Sync Transformer Helper
-![](attachments/icon_odoo_zbsync.png)
+![icons_odoo_thirdparty](attachments/icons_odoo_thirdparty.png)
 
 {{ $frontmatter.description }}
 

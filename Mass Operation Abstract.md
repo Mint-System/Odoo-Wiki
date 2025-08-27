@@ -2,8 +2,7 @@
 title: Mass Operation Abstract
 description: Bietet Werkzeuge zur Massenbearbeitung.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./development
 ---
 # Mass Operation Abstract

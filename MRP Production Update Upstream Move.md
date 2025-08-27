@@ -2,8 +2,7 @@
 title: MRP Production Update Upstream Move
 description: Aktualisiere offene Pickings von Fertigungsaufträgen bei Änderungen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./manufacture
 ---
 # MRP Production Update Upstream Move

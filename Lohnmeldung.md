@@ -2,8 +2,7 @@
 title: Lohnmeldung
 description: Lohnmeldungen ganz einfach generieren.
 kind: howto
-tags:
-- Mint-System
+partner: Giordano
 prev: ./hr-payroll
 ---
 # Lohnmeldung

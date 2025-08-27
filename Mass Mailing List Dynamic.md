@@ -2,8 +2,7 @@
 title: Dynamic Mass Mailing Lists
 description: Mailingiste mit Kontakt-Liste synchronisieren.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./mass-mailing
 ---
 # Dynamic Mass Mailing Lists

@@ -2,8 +2,7 @@
 title: MRP Sale Info
 description: Verkaufsbezogene Informationen auf Fertigungsaufträgen anzeigen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./manufacture
 ---
 # MRP Sale Info

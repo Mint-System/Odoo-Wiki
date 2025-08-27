@@ -2,8 +2,7 @@
 title: Account Move Invoice Partner
 description: Separate Rechnungsadresse auf Rechnung festlegen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./invoicing
 ---
 # Account Move Invoice Partner

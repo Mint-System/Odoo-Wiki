@@ -2,8 +2,7 @@
 title: Product Usability
 description: Ansichten Produktverwaltung.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./product
 ---
 # Product Usability

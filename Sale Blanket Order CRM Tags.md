@@ -2,8 +2,7 @@
 title: Sale Blanket Order CRM Tags
 description: Setze Stichwörter auf dem Rahmenauftrag.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order CRM Tags

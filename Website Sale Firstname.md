@@ -2,8 +2,7 @@
 title: Website Sale Firstname
 description: Vor- und Nachname auf Adressformular.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./website-e-commerce
 ---
 # Website Sale Firstname

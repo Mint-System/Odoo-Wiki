@@ -2,8 +2,7 @@
 title: Mail Server Filter
 description: Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./base
 ---
 # Mail Server Filter

@@ -2,8 +2,7 @@
 title: Account OSS Report
 description: Bericht zur Deklarierung der OSS Umsatzsteuer.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./accounting
 ---
 # Account OSS Report

@@ -2,8 +2,7 @@
 title: HR Attendance Policy
 description: Richtlinien für die Anwesenheit festlegen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./hr-attendance
 ---
 # HR Attendance Policy

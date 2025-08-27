@@ -2,8 +2,7 @@
 title: Sale Order Line Position
 description: Verkaufsaufträge mit Positionsnummern.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./order-positions
 ---
 # Sale Order Line Position

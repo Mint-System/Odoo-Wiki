@@ -2,10 +2,11 @@
 title: CalDAV Sync
 description: Odoo Kalender mit CalDav synchronisieren.
 kind: howto
+partner: Thirdparty
 prev: ./calendar
 ---
 # CalDAV Sync
-![icon_oms_box](attachments/icons_odoo_mint_system.png)
+![icons_odoo_thirdparty](attachments/icons_odoo_thirdparty.png)
 
 {{ $frontmatter.description }}
 

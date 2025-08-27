@@ -2,8 +2,7 @@
 title: Auth TOTP IP Check
 description: Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./settings
 ---
 # Auth TOTP IP Check

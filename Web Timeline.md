@@ -2,8 +2,7 @@
 title: Web Timeline
 description: Die Timeline-Ansicht für alle Objekte.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./development
 ---
 # Web Timeline

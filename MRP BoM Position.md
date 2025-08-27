@@ -2,8 +2,7 @@
 title: MRP BoM Position
 description: Jede Komponente in der Stückliste erhält eine Positionsnummer.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./order-positions
 ---
 # MRP BoM Position

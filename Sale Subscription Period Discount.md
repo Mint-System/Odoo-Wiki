@@ -2,8 +2,7 @@
 title: Sale Subscription Period Discount
 description: Erste Abonnementrechnung mit zeitbasiertem Rabatt.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./subscription
 ---
 # Sale Subscription Period Discount

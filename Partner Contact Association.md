@@ -2,8 +2,7 @@
 title: Partner Contact Association
 description: Vereine verwalten und Mitglieder zuordnen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./contacts
 ---
 # Partner Contact Association

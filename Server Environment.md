@@ -2,8 +2,7 @@
 title: Server Environment
 description: Systemkonfigurationen aus Umgebungsvariablen laden.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./development
 ---
 # Server Environment

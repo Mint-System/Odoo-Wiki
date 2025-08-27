@@ -2,8 +2,7 @@
 title: HR Holidays Negative Hours
 description: Abwesenheitsart zur Kompensierung von Überstunden.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./hr-holidays
 ---
 

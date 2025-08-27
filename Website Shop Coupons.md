@@ -2,8 +2,7 @@
 title: Website Shop Coupons
 description: Website Coupons & Gutscheine im Odoo Shop.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./website-e-commerce
 ---
 # Website Shop Coupons

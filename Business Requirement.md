@@ -2,8 +2,7 @@
 title: Business Requirement
 description: Projektanforderungen erfassen und verknüpfen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./project
 ---
 # Business Requirement

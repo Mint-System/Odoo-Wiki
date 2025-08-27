@@ -2,8 +2,7 @@
 title: Product Name Sequence
 description: Generate product names based on a sequence.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./product
 ---
 # Product Name Sequence

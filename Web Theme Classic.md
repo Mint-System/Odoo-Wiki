@@ -2,8 +2,7 @@
 title: Web Theme Classic
 description: Kontrast auf Benutzeroberfläche verbessern.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./settings
 ---
 # Web Theme Classic

@@ -2,8 +2,7 @@
 title: MRP Production Restrict Lot
 description: Auswahl der Los-Nummer auf der Tablet-Ansicht einschränken.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./manufacture
 ---
 # MRP Production Restrict Lot

@@ -2,8 +2,7 @@
 title: Swiss Payroll
 description: Lohnarten für die Schweizer Lohnabrechnung.
 kind: howto
-tags:
-- Mint-System
+partner: Giordano
 prev: ./hr-payroll
 ---
 # Gio Payroll Custom

@@ -2,8 +2,7 @@
 title: Sale Order Comment
 description: Kommentar auf Verkaufsauftrag.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale-blanket-order
 ---
 # Sale Order Comment

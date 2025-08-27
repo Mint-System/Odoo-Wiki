@@ -2,8 +2,7 @@
 title: Mail Composer Default Template
 description: Standardvorlage für den E-Mail-Dialog festlegen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./dialog
 ---
 # Mail Composer Default Template

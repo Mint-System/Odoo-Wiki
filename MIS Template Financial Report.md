@@ -2,8 +2,7 @@
 title: MIS Template Financial Report
 description: Bilanz und Erfolgsrechnung für Odoo Community.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./dashboards
 ---
 # MIS Template Financial Report

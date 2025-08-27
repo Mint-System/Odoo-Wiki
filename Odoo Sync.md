@@ -2,12 +2,11 @@
 title: Odoo Sync
 description: Odoo nach Odoo synchronisieren.
 kind: howto
-tags:
-- Mint-System
+partner: Thirdparty
 prev: ./zebroo-sync
 ---
 # Odoo Sync
-![](attachments/icon_odoo_zbsync.png)
+![icons_odoo_thirdparty](attachments/icons_odoo_thirdparty.png)
 
 {{ $frontmatter.description }}
 

@@ -2,8 +2,7 @@
 title: Account Invoice Multiline Ref
 description: Kundenreferenz auf Verkaufsauftrag und Rechnung mit mehreren Zeilen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./invoicing
 ---
 # Account Invoice Multiline Ref

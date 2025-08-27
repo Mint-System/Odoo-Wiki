@@ -18,14 +18,17 @@ const odoo_version = await this.quickAddApi.suggester(
 this.variables.odoo_version = odoo_version;
 
 const org_name = await this.quickAddApi.suggester(
-    ["OCA", "Mint-System"],
-    ["OCA", "Mint-System"]
+    ["OCA", "Mint-System", "Thirdparty"],
+    ["OCA", "Mint-System", "Thirdparty"]
 );
 this.variables.org_name = org_name;
 
 module_icon = "![icon_oms_box](../attachments/icons_odoo_mint_system.png)"
 if (org_name == "OCA") {
 	module_icon = "![icon_oca_app](../attachments/icon_oca_app.png)"
+}
+if (org_name == "Thirdparty") {
+	module_icon = "![icon_oca_app](../attachments/icons_odoo_thirdparty.png)"
 }
 
 this.variables.module_icon = module_icon;

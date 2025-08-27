@@ -2,8 +2,7 @@
 title: Project Task Material
 description: Liste von verbrauchten Materialien auf Projektaufgabe.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./project
 ---
 # Project Task Material

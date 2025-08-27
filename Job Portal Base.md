@@ -2,8 +2,7 @@
 title: Job Portal
 description: Stelleninserate verwalten.
 kind: howto
-tags:
-- Mint-System
+partner: Sozialinfo
 prev: ./
 ---
 # Job Portal

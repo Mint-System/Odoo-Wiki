@@ -2,8 +2,7 @@
 title: Sale Blanket Order Fiscal
 description: Steuerzuordnung von Rahmenauftrag auf den Verkaufsauftrag kopieren.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Fiscal

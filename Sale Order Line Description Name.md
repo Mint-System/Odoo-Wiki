@@ -2,8 +2,7 @@
 title: Sale Order Line Description Name
 description: Produktname in Beschreibung ohne interne Referenz.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale-order-line-description
 ---
 # Sale Order Line Description Name

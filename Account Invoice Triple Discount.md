@@ -2,8 +2,7 @@
 title: Account Invoice Triple Discount
 description: Mehrere Rabatte auf der Rechungszeile.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./invoicing
 ---
 # Account Invoice Triple Discount

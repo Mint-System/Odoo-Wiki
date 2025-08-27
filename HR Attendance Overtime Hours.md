@@ -2,8 +2,7 @@
 title: HR Attendance Overtime Hours
 description: Geplante und gearbeitete Stunden auf Ansicht Überstunden anzeigen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./hr-holidays
 ---
 

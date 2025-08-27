@@ -2,12 +2,11 @@
 title: Ventor Base
 description: Basismodul für Ventor-Apps.
 kind: howto
-tags:
-- Mint-System
+partner: VentorTech
 prev: ./stock
 ---
 # Ventor Base
-![](attachments/odoo_icons_ventor_base.png)
+![icons_odoo_thirdparty](attachments/icons_odoo_thirdparty.png)
 
 {{ $frontmatter.description }}
 

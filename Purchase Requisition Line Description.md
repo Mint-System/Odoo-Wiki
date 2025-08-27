@@ -2,8 +2,7 @@
 title: Purchase Requisition Line Description
 description: Nur die Einkaufsbeschreibung in die Einkaufsposition übernehmen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./purchase-requisition
 ---
 # Purchase Requisition Line Description

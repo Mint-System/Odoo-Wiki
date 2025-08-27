@@ -2,8 +2,7 @@
 title: Account Followup Report Light
 description: Minimales Layout für die Tabelle des Mahnberichts.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./invoicing
 ---
 # Account Followup Report Light

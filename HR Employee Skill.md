@@ -2,8 +2,7 @@
 title: HR Employee Skill
 description: Übersicht der Mitarbeiterfähigkeiten.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./hr
 ---
 # HR Employee Skill

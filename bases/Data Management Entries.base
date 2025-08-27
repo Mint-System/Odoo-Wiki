@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.name.endsWith("Data Management")
+    order:
+      - file.name
+      - prev
+    sort:
+      - property: tags
+        direction: DESC

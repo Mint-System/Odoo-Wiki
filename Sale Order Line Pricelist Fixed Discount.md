@@ -2,8 +2,7 @@
 title: Sale Order Line Pricelist Fixed Discount
 description: Auftragszeilen mit Rabatt aus Preisliste mit Festpreis.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale
 ---
 # Sale Order Line Pricelist Fixed Discount

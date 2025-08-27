@@ -2,8 +2,7 @@
 title: HR Leave Custom Hour Interval
 description: Start- und End-Zeit für Abwesenheiten eintragen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./hr-holidays
 ---
 # HR Leave Custom Hour Interval

@@ -2,8 +2,7 @@
 title: AMQP Base
 description: AMQP Zielhosts verwalten.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./stock
 ---
 # AMQP Base

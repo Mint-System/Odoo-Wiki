@@ -2,8 +2,7 @@
 title: AMQP Stock
 description: Lagervorgänge als AMQP-Nachrichten empfangen und versenden.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./stock
 ---
 # AMQP Stock

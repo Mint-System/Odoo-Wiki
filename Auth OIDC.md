@@ -2,8 +2,7 @@
 title: Authentication OpenID Connect
 description: Login mit OpenID Connect Provider.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./settings
 ---
 # Authentication OpenID Connect
@@ -18,7 +17,7 @@ Repository: <https://github.com/OCA/server-auth/tree/17.0/auth_oidc>
 
 ### Login mit Microsoft Azure einrichten
 
-Damit der OAuth-Flow mit Microsoft Azure funktioniert, müssen Sie [Odoo als OAuth-App auf Azure registrieren](Settings%20OAuth.md#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren) und 
+Damit der OAuth-Flow mit Microsoft Azure funktioniert, müssen Sie [Odoo als OAuth-App auf Azure registrieren](Settings%20OAuth.md#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren) und
 [Berechtigungen und Tokens konfigurieren](https://github.com/OCA/server-auth/tree/16.0/auth_oidc#setup-for-microsoft-azure). Verwenden Sie diese Angaben:
 
 * **Name**: Odoo Login

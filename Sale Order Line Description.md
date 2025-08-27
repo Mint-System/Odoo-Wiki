@@ -2,8 +2,7 @@
 title: Sale Order Line Description
 description: Nur Verkausbeschreibung im Feld Beschreibung übertragen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./sale
 ---
 # Sale Order Line Description

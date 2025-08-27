@@ -2,8 +2,7 @@
 title: Product Supplierinfo for Customer Sale
 description: Produktspezifische Informationen für ausgewählte Kunden erfassen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./product
 ---
 # Product Supplierinfo for Customer Sale

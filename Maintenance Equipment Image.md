@@ -2,8 +2,7 @@
 title: Maintenance Equipments Image
 description: Bild auf Inventar hinzufügen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./maintenance
 ---
 # Maintenance Equipment Image
@@ -16,6 +15,6 @@ Repository: <https://github.com/OCA/maintenance/tree/16.0/maintenance_equipment_
 
 ## Verwendung
 
-### Inventar-Anzeigebild hinzufügen 
+### Inventar-Anzeigebild hinzufügen
 
-Öffnen Sie einen Inventar unter *Wartung > Inventar* und fügen Sie über den entsprechenden Dialog ein Anzeigebild hinzu. 
+Öffnen Sie einen Inventar unter *Wartung > Inventar* und fügen Sie über den entsprechenden Dialog ein Anzeigebild hinzu.

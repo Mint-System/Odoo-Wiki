@@ -2,8 +2,7 @@
 title: Website Sale Minimum Order Quantity
 description: Legen Sie Mindestbestellmengen für Produkte und Produktvarianten fest.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./website
 ---
 

@@ -2,8 +2,7 @@
 title: Product End Of Life Dates
 description: Datum für Ende Support, Verkauf und Bestand auf Produkt festlegen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./product
 ---
 # Product Name Sequence

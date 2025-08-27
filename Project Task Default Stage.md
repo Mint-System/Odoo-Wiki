@@ -2,8 +2,7 @@
 title: Project Task Default Stage
 description: Standardstufen für Projektaufgaben.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./project
 ---
 # Project Task Default Stage

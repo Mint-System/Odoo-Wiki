@@ -2,8 +2,7 @@
 title: Mail Tracking Helpdesk Bounce Ticket
 description: Für E-Mails mit dem Status Bounced ein Helpdesk-Ticket erstellen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./dialog
 ---
 # Mail Tracking Helpdesk Bounce Ticket

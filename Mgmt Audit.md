@@ -2,8 +2,7 @@
 title: Mgmt Audit
 description: Auditieren Sie ihr Unternehmen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./management-system
 ---
 

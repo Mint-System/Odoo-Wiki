@@ -2,8 +2,7 @@
 title: Mail Composer Default Template
 description: Mail-Layout beim Versand von mehreren Mails anwenden.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./dialog
 ---
 # Mail Composer Mass Layout

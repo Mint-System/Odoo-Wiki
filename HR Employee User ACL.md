@@ -2,8 +2,7 @@
 title: HR Employee User ACL
 description: Zugriffsrechte auf Mitarbeitende festlegen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./contacts
 ---
 # HR Employee User ACL
