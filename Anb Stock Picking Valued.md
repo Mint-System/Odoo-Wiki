@@ -2,8 +2,7 @@
 title: Anb Stock Picking Valued
 description: Preislisten für Bestandsbewertung
 kind: howto
-tags:
-- Thirdparty
+partner: Thirdparty
 prev: ./stock
 ---
 # Anb Stock Picking Valued

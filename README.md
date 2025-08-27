@@ -6,7 +6,7 @@ head:
   - - link
     - rel: canonical
       href: https://www.odoo-wiki.org
-tags: 
+tags:
   - odoo
   - wiki
   - documentation
@@ -182,7 +182,7 @@ Termine Team- und Anwendungs-übergreifend organisieren.
 
 ![icons_odoo_point_of_sale](attachments/icons_odoo_point_of_sale.png)
 
-In wenigen Minuten einrichten, innerhalb von Sekunden verkaufen. 
+In wenigen Minuten einrichten, innerhalb von Sekunden verkaufen.
 
 ### [Kontakte](Contacts.md)
 
@@ -362,7 +362,7 @@ Verwaltung von Sponsoren, Ständen, Vorträgen, virtuellen Veranstaltungen und v
 
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
-Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung. 
+Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung.
 
 ### [Versand](Delivery.md)
 
@@ -472,7 +472,7 @@ Probleme und Lösungen rund um Odoo.
 
 ### [Ventor PRO](Ventor%20PRO.md)
 
-![](attachments/odoo_icon_ventor.png)
+![](attachments/icons_odoo_thirdparty.png)
 
 Android-App für die Lagerbewirtschaftung.
 
@@ -496,7 +496,7 @@ Werkhallen und Warenhäuser effizient verwalten.
 
 ### [Zebroo Sync](Zebroo%20Sync.md)
 
-![](attachments/icon_odoo_zbsync.png)
+![](attachments/icons_odoo_thirdparty.png)
 
 Umfassende Synchronisationslösung basierend auf Odoo.
 
@@ -541,6 +541,7 @@ Es sind Lösungen und Dokumente von diesen Anbieter enthalten:
 * [giordano.ch](https://www.giordano.ch/)
 * [Odoo Community Association](https://odoo-community.org/)
 * [Odoo S.A.](https://www.odoo.com/)
+* [Sozialinfo](https://www.sozialinfo.ch)
 * [VentorTech](https://ventor.tech/)
 * [Zebra](https://www.zebra.com)
 * [Zebroo](https://www.zebroo.de)

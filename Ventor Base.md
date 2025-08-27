@@ -2,8 +2,7 @@
 title: Ventor Base
 description: Basismodul für Ventor-Apps.
 kind: howto
-tags:
-- Thirdparty
+partner: VentorTech
 prev: ./stock
 ---
 # Ventor Base
