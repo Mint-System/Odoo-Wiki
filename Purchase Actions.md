@@ -2,7 +2,7 @@
 title: Einkauf Aktionen
 description: Arbeitsflüsse in Einkauf automatisieren.
 kind: howto
-prev: ./
+prev: ./purchase
 ---
 # Einkauf Aktionen
 ![icons_odoo_purchase](attachments/icons_odoo_purchase.png)

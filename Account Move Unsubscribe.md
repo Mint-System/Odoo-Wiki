@@ -2,8 +2,7 @@
 title: Account Move Unsubscribe
 description: Alle Abonnenten nach Buchung eines Buchungssatzes entfernen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./dialog
 ---
 # Account Move Unsubscribe

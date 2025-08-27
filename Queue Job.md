@@ -2,8 +2,7 @@
 title: Queue Job
 description: Asynchrone Ausführung von Jobs.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./development
 ---
 

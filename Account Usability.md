@@ -2,6 +2,7 @@
 title: Account Missing Menus
 description: Menüs der Enterprise Finanzbuchhaltung für Community.
 kind: howto
+partner: OCA
 prev: ./accounting
 ---
 # Account Usability

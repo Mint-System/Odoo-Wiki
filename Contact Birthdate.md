@@ -2,8 +2,7 @@
 title: Contact Birthdate
 description: Geburtstag bei Kontakten speichern für tolle Erinnerungen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./contacts
 ---
 # Contact Birthdate
@@ -40,7 +39,7 @@ SELECT
     name as x_name,
 	to_char( birthdate_date, '2021-MM-DD') as x_birthday,
 	EXTRACT(YEAR from AGE(birthdate_date)) as x_age
-FROM res_partner 
+FROM res_partner
 WHERE birthdate_date is not NULL and to_char(birthdate_date,'MMDD') > to_char(now() - INTERVAL '4 DAY','MMDD')
 ORDER BY to_char(birthdate_date,'MMDD')
 ```

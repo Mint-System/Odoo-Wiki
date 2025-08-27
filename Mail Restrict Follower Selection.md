@@ -2,8 +2,7 @@
 title: Mail Restrict Follower Selection
 description: Auswahl der Follower einschränken.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./dialog
 ---
 # Mail Restrict Follower Selection

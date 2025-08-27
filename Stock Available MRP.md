@@ -2,8 +2,7 @@
 title: Consider the production potential is available to promise
 description: Verfügbare Bestände zur Produktion berechnen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./warehouse
 ---
 # Consider the production potential is available to promise

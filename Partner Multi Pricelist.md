@@ -2,8 +2,7 @@
 title: Partner Multi Pricelist
 description: Mehrere Preislisten mit Start- und Enddatum auf Kunden festlegen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./contacts
 ---
 # Partner Multi Pricelist

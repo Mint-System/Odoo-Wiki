@@ -2,8 +2,7 @@
 title: Manufacture Production Move Date
 description: Lieferdatum auf Fertigungsauftrag bearbeiten.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./manufacture
 ---
 # Manufacture Production Move Date

@@ -2,8 +2,7 @@
 title: Certificate Planner
 description: Anleitung zur Odoo-App Certificate Planner.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./
 ---
 # Certificate Planner

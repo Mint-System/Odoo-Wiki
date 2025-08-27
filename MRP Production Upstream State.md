@@ -2,8 +2,7 @@
 title: MRP Production Upstream State
 description: Status von Upstream Lagerbuchung auf Komponentenliste anzeigen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./manufacture
 ---
 # MRP Production Upstream State

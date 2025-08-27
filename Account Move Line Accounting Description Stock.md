@@ -2,8 +2,7 @@
 title: Account Move Line Accounting Description Stock
 description: Beschreibung Lagerbuchung auf Rechnung übertragen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./accounting
 ---
 # Account Move Line Accounting Description Stock

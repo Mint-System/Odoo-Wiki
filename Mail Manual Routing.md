@@ -2,8 +2,7 @@
 title: Mail Manual Routing
 description: Erlaubt Zuordnung von empfangenen E-Mails.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./base
 ---
 # Mail Manual Routing

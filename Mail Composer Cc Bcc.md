@@ -2,8 +2,7 @@
 title: Email Cc and BCC
 description: Im E-Mail-Dialog Cc und Bcc festlegen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./dialog
 ---
 # Email Cc and Bcc

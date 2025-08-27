@@ -2,8 +2,7 @@
 title: Queue Job Cron
 description: Cron Jobs asynchron ausführen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./development
 ---
 

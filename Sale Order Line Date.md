@@ -2,8 +2,7 @@
 title: Sale Order Line Date
 description: Lieferdatum pro Position.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./sale
 ---
 # Sale Order Line Date

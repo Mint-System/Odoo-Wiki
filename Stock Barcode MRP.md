@@ -2,8 +2,7 @@
 title: Stock Barcode MRP
 description: "Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen."
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./barcode
 ---
 # Stock Barcode MRP

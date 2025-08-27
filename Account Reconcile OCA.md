@@ -2,6 +2,7 @@
 title: Account Reconcile OCA
 description: OCA-Lösung für die Bank-Abstimmung.
 kind: howto
+partner: OCA
 prev: ./accounting
 ---
 # Account Reconcile OCA

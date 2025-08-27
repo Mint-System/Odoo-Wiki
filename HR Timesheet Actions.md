@@ -2,8 +2,6 @@
 title: Zeiterfassung Aktionen
 description: Arbeitsflüsse in der Zeiterfassung automatisieren.
 kind: howto
-tags:
-- Actions
 prev: ./hr-timesheet
 ---
 # Zeiterfassung Aktionen

@@ -2,8 +2,7 @@
 title: Purchase order lines with discounts
 description: Rabatte auf Einkaufspositionen festlegen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./purchase
 ---
 # Purchase order lines with discounts

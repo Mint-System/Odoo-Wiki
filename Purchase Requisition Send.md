@@ -2,8 +2,7 @@
 title: Purchase Requisition Send
 description: Kaufverträge per E-Mail versenden.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./purchase-requisition
 ---
 # Purchase Requisition Send

@@ -2,8 +2,7 @@
 title: Web Font Arial
 description: Fügt Schriftart Arial der Auswahl hinzu.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./server
 ---
 

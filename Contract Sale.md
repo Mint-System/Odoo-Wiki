@@ -2,8 +2,7 @@
 title: Contract from Sales
 description: Zugriff auf Verträge für Verkaufsmitarbeitende.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./contract
 ---
 # Contract from Sale

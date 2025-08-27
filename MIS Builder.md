@@ -1,9 +1,8 @@
 ---
 title: MIS Builder
-description: Build Management Information System dashboards. 
+description: Build Management Information System dashboards.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./dashboards
 ---
 # MIS Builder
@@ -21,11 +20,11 @@ Repository: <https://github.com/OCA/mis-builder/tree/17.0/mis_builder>
 Navigieren Sie nach*Rechnungsstellung > Berichtswesen > MIS Reports* und klicken Sie auf *Neu*. Geben Sie die folgenden Informationen ein:
 
 * **Name**: Anzeigename des Berichts.
-* **Template**: Bericht anhand einer Vorlage erstellen. 
+* **Template**: Bericht anhand einer Vorlage erstellen.
 * **Daterange**: Standard-Datumsbereich für den Bericht.
 	* **From**: Bei Verwendung eines Datumsbereichs wird dieses Feld abgefüllt.
 	* **To**: Bei Verwendung eines Datumsbereichs wird dieses Feld abgefüllt.
 
 ### MIS-Vorlagen verwalten
 
-Navigieren Sie nach*Rechnungsstellung > Konfiguration > MIS Report Templates*. Hier finden Sie alle MIS-Vorlagen. 
+Navigieren Sie nach*Rechnungsstellung > Konfiguration > MIS Report Templates*. Hier finden Sie alle MIS-Vorlagen.

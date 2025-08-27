@@ -2,8 +2,7 @@
 title: Sale Invoice Ignore Ref
 description: Zahlungsreferenz bei Abrechnung nicht auf Rechnung übertragen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./invoicing
 ---
 # Sale Invoice Ignore Ref

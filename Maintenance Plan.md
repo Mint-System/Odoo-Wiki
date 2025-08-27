@@ -2,8 +2,7 @@
 title: Maintenance Plan
 description: Wartungspläne für Inventar erstellen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./maintenance
 ---
 # Maintenance Plan

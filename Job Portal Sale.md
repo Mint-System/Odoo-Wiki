@@ -2,8 +2,7 @@
 title: Job Portal Sale
 description: Stelleninserate verrechnen.
 kind: howto
-tags:
-- Mint-System
+partner: Sozialinfo
 prev: ./
 ---
 # Job Portal Sale

@@ -2,8 +2,7 @@
 title: Sale Blanket Order Invoice Shipping Partner
 description: Liefer- und Rechnungsadresse auf Rahmenauftrag definieren.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale-blanket-order
 ---
 # Sale Blanket Order Invoice Shipping Partner

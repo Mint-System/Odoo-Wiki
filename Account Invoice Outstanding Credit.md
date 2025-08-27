@@ -2,6 +2,7 @@
 title: Account Invoice Outstanding Credit
 description: Filtern Sie Kundenrechnungen mit offenen Gutschriften.
 kind: howto
+partner: Mint-System
 prev: ./invoicing
 ---
 # Account Invoice Outstanding Credit
@@ -17,4 +18,3 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.
 ### Rechnungen mit ausstehendem Guthaben anzeigen
 
 Zeigen Sie die Kundenrechnungen über *Buchhaltung > Kunden > Rechnungen* an. Wählen Sie *Filter > Ausstehende Guthaben*.
-

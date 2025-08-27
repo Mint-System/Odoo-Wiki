@@ -2,8 +2,7 @@
 title: Purchase Tags
 description: Einkaufsbestellungen mit Stichwörter.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./purchase-requisition
 ---
 # Purchase Tags

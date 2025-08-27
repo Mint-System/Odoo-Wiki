@@ -2,8 +2,7 @@
 title: Partner Hide Address
 description: Adressen auf Berichten ausblenden.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./contacts
 ---
 # Partner Hide Address

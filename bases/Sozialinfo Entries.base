@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - partner == "Sozialinfo"
+    order:
+      - file.name
+      - partner
+    sort:
+      - property: tags
+        direction: DESC

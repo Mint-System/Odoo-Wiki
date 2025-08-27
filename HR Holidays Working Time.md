@@ -2,8 +2,7 @@
 title: HR Holidays Working Time
 description: Aus Abwesenheiten Anwesenheiten erstellen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./hr-holidays
 ---
 # HR Holidays Working Time

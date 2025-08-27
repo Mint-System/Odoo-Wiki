@@ -2,8 +2,7 @@
 title: Report XLSX
 description: Klasse zur Entwicklung von XLSX-Berichten.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./apps
 ---
 # Report XLSX

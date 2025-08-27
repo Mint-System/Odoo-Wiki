@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - prev == "./"
+    order:
+      - file.name
+      - partner
+      - prev
+    sort:
+      - property: tags
+        direction: DESC
+    columnSize:
+      note.partner: 263

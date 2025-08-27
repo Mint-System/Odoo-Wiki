@@ -2,8 +2,7 @@
 title: Board Users
 description: Dashboars von allen Benutzer anzeigen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./dashboards
 ---
 # Board Users

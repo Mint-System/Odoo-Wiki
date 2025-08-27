@@ -2,8 +2,7 @@
 title: Switzerland Bank Type
 description: Lokalisierung für Schweizer Banken und Bankkontos.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./l10n-ch
 ---
 # Switzerland Bank Type

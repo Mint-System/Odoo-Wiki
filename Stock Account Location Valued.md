@@ -2,8 +2,7 @@
 title: Stock Account Location Valued
 description: Lagerort zur Bewertung markieren.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./stock
 ---
 # Stock Account Location Valued

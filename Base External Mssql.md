@@ -1,8 +1,7 @@
 ---
 title: Base External Mssql
 description: Verbindung zu externer MSSQL-Datenbank herstellen.
-tags:
-- HowTo
+kind: howto
 prev: ./development
 ---
 # Base External Mssql
@@ -20,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/17.0/bas
 Navigieren Sie nach *Einstellungen > Technisch > Ext. Datenbank* und erstellen Sie einen neuen Eintrag.
 Angegeben werden müssen Server, Name, User und Passwort der externen Datenbank.
 
-Als Python-Interfaces stehen `pymssql` (default) und `pyodbc` zur Verfügung. 
+Als Python-Interfaces stehen `pymssql` (default) und `pyodbc` zur Verfügung.
 
 
 ### Datenbank-Verbindung testen

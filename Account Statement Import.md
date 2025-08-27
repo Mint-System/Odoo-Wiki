@@ -2,6 +2,7 @@
 title: Account Statement Import
 description: Bankauszüge importieren.
 kind: howto
+partner: OCA
 prev: ./accounting
 ---
 # Account Statement Import

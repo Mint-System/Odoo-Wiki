@@ -2,8 +2,7 @@
 title: Account Invoice Select Bank
 description: Bankkonto anhand Währung auswählen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./invoicing
 ---
 # Account Invoice Select Bank

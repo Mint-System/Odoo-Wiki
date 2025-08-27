@@ -2,8 +2,7 @@
 title: Sale Order Line Purchase Margin
 description: Kalkulation der Marge basierend auf verlinkter Bestellung.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale-blanket-order
 ---
 # Sale Order Line Purchase Margin

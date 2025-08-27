@@ -2,8 +2,7 @@
 title: Sale Invoice Carrier
 description: Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus Verkaufsaufträgen übertragen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./invoicing
 ---
 # Sale Invoice Carrier

@@ -2,8 +2,7 @@
 title: Sale Product Set
 description: Produktsets definieren und einfach hinzufügen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./sale
 ---
 # Sale Product Set

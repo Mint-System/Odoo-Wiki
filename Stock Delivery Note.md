@@ -2,8 +2,7 @@
 title: Stock Delivery Note
 description: Notiz auf Lieferschein.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./stock
 ---
 # Stock Delivery Note

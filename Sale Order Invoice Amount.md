@@ -2,8 +2,7 @@
 title: Sale Order Invoice Amount
 description: Verrechnete und nicht verrechnete Beträge von Verkaufsaufträgen anzeigen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./sale
 ---
 # Sale Order Invoice Amount

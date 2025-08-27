@@ -2,9 +2,8 @@
 title: Brand Account
 description: Rechnung mit Marke verknüpfen.
 kind: howto
-tags:
-- OCA
-prev: ./
+partner: OCA
+prev: ./brand
 ---
 # Brand Account
 ![](attachments/icons_odoo_brand.png)

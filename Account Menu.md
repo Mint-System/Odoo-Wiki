@@ -2,6 +2,7 @@
 title: Account Missing Menus
 description: Navigation für die OCA Finanzbuchhaltung.
 kind: howto
+partner: OCA
 prev: ./accounting
 ---
 # Account Missing Menus

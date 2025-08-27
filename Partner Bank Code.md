@@ -2,8 +2,7 @@
 title: Partner Bank Code
 description: Eindeutige Nummer auf Bank festlegen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./contacts
 ---
 # Partner Bank Code

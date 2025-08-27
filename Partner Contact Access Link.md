@@ -2,8 +2,7 @@
 title: Partner Contact Access Link
 description: Unterkontakte in Formular öffnen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./contacts
 ---
 # Partner Contact Access Link

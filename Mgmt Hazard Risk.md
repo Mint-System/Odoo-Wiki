@@ -2,8 +2,7 @@
 title: Mgmt Hazard Risk
 description: Risiko-Kalkulation basieren auf Gefahren.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./management-system
 ---
 

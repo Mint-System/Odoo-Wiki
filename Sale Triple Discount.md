@@ -2,8 +2,7 @@
 title: Sale Triple Discount
 description: Mehrere Rabatte auf der Auftragszeile.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./sale
 ---
 # Sale Triple Discount

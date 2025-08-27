@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.name.startsWith("Best Practice")
+        - file.ext == "md"
+    order:
+      - file.name
+      - prev
+    sort:
+      - property: tags
+        direction: DESC
+    columnSize:
+      file.name: 573

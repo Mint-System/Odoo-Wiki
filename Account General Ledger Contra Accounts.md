@@ -2,8 +2,7 @@
 title: Account General Ledger Contra Accounts
 description: Spalte Gegenkontos in Hauptbuch.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./accounting
 ---
 # Account General Ledger Contra Accounts

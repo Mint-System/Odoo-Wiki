@@ -2,8 +2,7 @@
 title: Mail Service Users
 description: Service-Benutzer von Lizenzvertrag ausschliessen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./base
 ---
 # Mail Service Users

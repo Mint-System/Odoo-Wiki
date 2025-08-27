@@ -2,8 +2,7 @@
 title: Mass Mailing Contact Active
 description: Mailkontakte und Abonnements archivieren.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./mass-mailing
 ---
 # Mass Mailing Contact Active

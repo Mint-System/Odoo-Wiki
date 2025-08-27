@@ -2,8 +2,6 @@
 title: Produkt
 description: Produkte und Preise.
 kind: howto
-tags:
-- OCA
 prev: ./
 ---
 # Produkt
@@ -61,7 +59,7 @@ Produkte sind Dreh- und Angelpunkt im Wertschöpfungsprozess des Unternehmens. D
 
 Wenn Sie die Buchhaltung aktiv haben, konfigurieren Sie zusätzlich diese Felder im Tab *Finanzen:
 
-* **Erlöskonto**: Standard-Erlöskonto für Rechnungszeile 
+* **Erlöskonto**: Standard-Erlöskonto für Rechnungszeile
 * **Aufwandskonto**: Standard-Aufwandskonto für Rechnungszeile
 
 

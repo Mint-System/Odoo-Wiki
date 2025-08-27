@@ -2,8 +2,7 @@
 title: Product Sequence
 description: Produkreferenzen anhand einer Sequenz generieren lassen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./manufacture
 ---
 # Product Sequence
@@ -29,4 +28,3 @@ Damit die Referenz beim Erstellen eines Produkts automatisch generiert wird müs
 Falls Sie eine Unterkategorie auswählen möchten und dabei der Prefix der übergeordneten Kategorie verwendet werden soll, müssen Sie die Option *Use parent categories to determine the prefix* unter *Einstellungen > Allgemeine Einstellungen > Produkte* aktivieren.
 
 ![Product Sequence Erstellen](attachments/Product%20Sequence%20Erstellen.gif)
-

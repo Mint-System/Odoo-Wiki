@@ -2,8 +2,7 @@
 title: HR Attendance Kanban
 description: Ein- und Auschecken mit Kanban-Board.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./hr-attendance
 ---
 # HR Attendance Kanban

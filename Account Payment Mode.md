@@ -2,8 +2,7 @@
 title: Account Payment Mode
 description: Bezahlmethoden definieren.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./accounting
 ---
 # Account Payment Mode
@@ -61,17 +60,17 @@ if move_id and move_id.payment_mode_id:
   if move_id.payment_mode_id.bank_account_link == 'fixed':
     journal_id = move_id.payment_mode_id.fixed_journal_id
   # raise UserError(journal_id)
-  
+
   # Get payment method from mode
   method_id = move_id.payment_mode_id.payment_method_id
-  
+
   # Filter available lines
   if method_id.payment_type == 'outbound':
     line_id = journal_id.outbound_payment_method_line_ids.filtered(lambda l: l.payment_method_id == method_id)[0]
   if method_id.payment_type == 'inbound':
     line_id = journal_id.inbound_payment_method_line_ids.filtered(lambda l: l.payment_method_id == method_id)[0]
   # raise UserError([line_id, method_id])
-  
+
   record.update({
     'journal_id': journal_id.id,
     'payment_method_line_id': line_id.id

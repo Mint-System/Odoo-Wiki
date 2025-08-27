@@ -2,8 +2,7 @@
 title: Sale Order Sale Partner
 description: Verkaufsadresse auf Verkaufsauftrag festlegen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale
 ---
 # Sale Order Sale Partner

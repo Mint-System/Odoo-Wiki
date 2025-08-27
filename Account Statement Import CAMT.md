@@ -2,6 +2,7 @@
 title: Account Statement Import Camt
 description: Support Import Bankauszug im Camt-Format.
 kind: howto
+partner: OCA
 prev: ./accounting
 ---
 # Account Statement Import Camt

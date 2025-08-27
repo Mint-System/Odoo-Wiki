@@ -2,8 +2,7 @@
 title: Stock Production Lot Qty Storable
 description: Produktmenge auf Los als Wert speichern.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./stock
 ---
 # Stock Production Lot Qty Storable

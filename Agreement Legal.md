@@ -2,8 +2,7 @@
 title: Agreement Legal
 description: Verträge und Vereinbarungen dokumentieren.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./documents
 ---
 # Agreement Legal

@@ -2,8 +2,7 @@
 title: Sale Order Currency Rate
 description: Anzeige Währungskurs auf Angebot.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./sale
 ---
 # Sale Order Currency Rate

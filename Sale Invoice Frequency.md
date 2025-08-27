@@ -2,8 +2,7 @@
 title: Sale Invoice Frequency
 description: Verrechnungsintervalle auf Kontakte und Verkaufsaufträge.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./invoicing
 ---
 # Sale Invoice Frequency
@@ -18,7 +17,7 @@ Repository: <https://github.com/OCA/sale-workflow/tree/17.0/sale_invoice_frequen
 
 ### Verrechnungsintervalle verwalten
 
-Rufen Sie *Verkauf > Konfiguration > Invoicing frequency* auf. Hier verwalten Sie die Auswahl der Verrechnungsintervalle. 
+Rufen Sie *Verkauf > Konfiguration > Invoicing frequency* auf. Hier verwalten Sie die Auswahl der Verrechnungsintervalle.
 
 ## Verwendung
 

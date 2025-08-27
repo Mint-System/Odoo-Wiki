@@ -2,8 +2,7 @@
 title: Mmgt Asset
 description: Asset-Verwaltung für das Management-System.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./management-system
 ---
 

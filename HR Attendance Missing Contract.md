@@ -2,8 +2,7 @@
 title: HR Attendance Missing Contract
 description: Fehlende Anwesenheite nur für Mitarbeitende mit laufendem Vertrag erstellen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./hr-attendance
 ---
 # HR Attendance Missing Contract

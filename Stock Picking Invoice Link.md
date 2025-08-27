@@ -2,8 +2,7 @@
 title: Stock Picking Invoice Link
 description: Verlinkt Rechnungen und Transfers.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./stock
 ---
 # Stock Picking Invoice Link

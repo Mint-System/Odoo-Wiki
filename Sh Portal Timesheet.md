@@ -2,8 +2,7 @@
 title: Portal Timesheet
 description: Zeiterfassung im Portal.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./hr-timesheet
 ---
 # Portal Timesheet

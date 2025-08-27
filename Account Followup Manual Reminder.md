@@ -2,8 +2,7 @@
 title: Account Followup Manual Reminder
 description: Standardwert für Mahnungserinnerungen auf Manuell setzen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./invoicing
 ---
 # Account Followup Manual Reminder

@@ -2,8 +2,7 @@
 title: Project Phase Estimate
 description: Aufwandsschätzung pro Projekt und Phase.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./project
 ---
 # Project Phase Estimate

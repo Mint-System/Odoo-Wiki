@@ -2,8 +2,7 @@
 title: Sale Order Contact Person
 description: Kontaktperson auf Verkaufsauftrag festlegen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale
 ---
 # Sale Order Contact Person

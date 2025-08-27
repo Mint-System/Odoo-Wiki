@@ -2,8 +2,7 @@
 title: Sale Order Line Default Packaging
 description: Standardverpackung auf Position setzen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale
 ---
 # Sale Order Line Default Packaging

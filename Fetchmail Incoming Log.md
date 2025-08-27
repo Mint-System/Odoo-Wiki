@@ -2,8 +2,7 @@
 title: Fetchmail Incoming Log
 description: Loggt Informationen zu eingehenden E-Mails.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./base
 ---
 # Fetchmail Incoming Log

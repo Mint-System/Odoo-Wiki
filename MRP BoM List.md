@@ -2,8 +2,7 @@
 title: MRP BoM List
 description: Stücklisten-Struktur als Liste anzeigen
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./manufacture
 ---
 # MRP BoM List

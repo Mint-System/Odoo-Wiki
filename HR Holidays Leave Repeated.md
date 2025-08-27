@@ -2,8 +2,7 @@
 title: HR Holidays Leave Repeated
 description: Wiederkehrende Abwesenheitseinträge erstellen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./hr-holidays
 ---
 # HR Holidays Leave Repeated

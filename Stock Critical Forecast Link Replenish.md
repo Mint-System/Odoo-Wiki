@@ -2,8 +2,7 @@
 title: Stock Critical Forecast Link Replenish
 description: Aktionsdatum berücksichtigt aktive Bestandsregeln von Produkten.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./stock-critical-forecast
 ---
 # Stock Critical Forecast Link Replenish

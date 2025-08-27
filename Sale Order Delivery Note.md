@@ -2,8 +2,7 @@
 title: Sale Order Delivery Note
 description: Notiz auf Verkaufsauftrag für Lieferung hinzufügen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale
 ---
 # Sale Order Delivery Note

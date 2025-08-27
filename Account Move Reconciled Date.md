@@ -2,8 +2,7 @@
 title: Account Move Reconciled Date
 description: Das letzte Zahlungs- und Abstimmungsdatum von Rechnungen anzeigen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./accounting
 ---
 # Account Move Reconciled Date

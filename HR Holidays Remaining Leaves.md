@@ -2,8 +2,7 @@
 title: HR Holidays Remining Leaves
 description: Verbleibende Urlaubsansprüche der Mitarbeitenden anzeigen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./hr-holidays
 ---
 # HR Holidays Remining Leaves

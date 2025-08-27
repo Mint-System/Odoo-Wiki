@@ -2,8 +2,7 @@
 title: Purchase Order Type
 description: Bestellungen nach Typen organisieren.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./purchase
 ---
 # Purchase Order Type

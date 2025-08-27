@@ -2,8 +2,7 @@
 title: Purchase Partner Incoterm
 description: Standardlieferbedingungen für Lieferanten.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./purchase
 ---
 # Purchase Partner Incoterm

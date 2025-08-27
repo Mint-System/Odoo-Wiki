@@ -2,8 +2,7 @@
 title: DBFilter From Header
 description: Datenbank mit Proxy-Header auswählen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./database
 ---
 # DBFilter From Header

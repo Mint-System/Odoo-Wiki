@@ -2,8 +2,7 @@
 title: Purchase Order Owner
 description: Besitzer für Bestellungen festlegen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./purchase
 ---
 # Purchase Order Owner

@@ -2,8 +2,7 @@
 title: Date Range
 description: Verwaltung von Datums-Bereichen zur Filterung von Daten.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./development
 ---
 # Date Range

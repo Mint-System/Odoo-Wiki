@@ -2,8 +2,7 @@
 title: Account Move Accounting Description
 description: Beschreibungsfeld für Rechnungszeile.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./accounting
 ---
 # Account Move Accounting Description
@@ -24,6 +23,6 @@ Mit dieser Erweiterungen erhalten Sie auf dem Produkte ein zusätzliches Beschre
 
 ### Zusätzliche Beschreibung erfassen
 
-Nach der Installation der Erweiterung haben Sie auf der Rechnungszeile ein neues Feld *External Name*. 
+Nach der Installation der Erweiterung haben Sie auf der Rechnungszeile ein neues Feld *External Name*.
 
 ![](attachments/Acccount%20Move%20Accounting%20Description.png)

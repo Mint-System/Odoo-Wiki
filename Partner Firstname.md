@@ -2,8 +2,7 @@
 title: Partner first name and last name
 description: Unterscheidet Vor- und Nachnamen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./contacts
 ---
 # Partner first name and last name

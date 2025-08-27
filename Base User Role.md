@@ -2,8 +2,7 @@
 title: User roles
 description: Gruppenberechtigungen mit Benutzer-Rollen verwalten.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./settings
 ---
 # User roles
@@ -21,7 +20,7 @@ Repository: <https://github.com/OCA/server-backend/tree/17.0/base_user_role>
 Navigieren Sie nach *Einstellungen > Benutzer und Gruppen > Roles* und erstellen Sie einen neuen Eintrag. Vergeben Sie einen Namen und fügen Sie im Tab *Groups* die Gruppen hinzu, welche die Benutzer mit der Rolle erhalten sollen. Im Tab *Benutzer* wählen Sie die Benutzer aus, welche die Rollen erhalten.
 
 ::: warning
-Die Zuweisung von Rollen überschreibt die bestehenden Gruppenzugehörigkeiten des Benutzers. 
+Die Zuweisung von Rollen überschreibt die bestehenden Gruppenzugehörigkeiten des Benutzers.
 :::
 
 ### Rolle an Benutzer hinzufügen

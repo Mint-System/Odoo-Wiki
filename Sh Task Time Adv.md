@@ -2,8 +2,7 @@
 title: Task Timer Advance
 description: Aufgaben-Timer einfacher starten und beenden.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./hr-timesheet
 ---
 # Task Timer Advance

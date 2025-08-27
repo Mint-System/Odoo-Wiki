@@ -2,8 +2,7 @@
 title: Mail tracking for mass mailing
 description: Mail-Statistik basierend auf Mail-Tracking.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./mass-mailing
 ---
 # Mail tracking for mass mailing

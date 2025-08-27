@@ -2,8 +2,7 @@
 title: Product Feeder ID
 description: Feeder-Textfeld auf dem Produkt.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./manufacture
 ---
 # Product Feeder ID

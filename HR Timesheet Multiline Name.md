@@ -2,8 +2,7 @@
 title: HR Timesheet Multiline Name
 description: Mehrzeilige Beschreibung in Zeiterfassung.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./hr-timesheet
 ---
 # HR Timesheet Multiline Name

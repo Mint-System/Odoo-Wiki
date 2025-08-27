@@ -2,8 +2,7 @@
 title: Sale Invoice Policy
 description: Abrechnungsregel auf Produkt und Angebot festlegen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./sale
 ---
 # Sale Invoice Policy

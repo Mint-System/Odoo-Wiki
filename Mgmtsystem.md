@@ -2,8 +2,7 @@
 title: Management System
 description: Management System by OCA.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./management-system
 ---
 # Management System

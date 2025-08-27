@@ -2,8 +2,7 @@
 title: Audit Log
 description: Operationen auf Daten loggen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./base
 ---
 # Audit Log

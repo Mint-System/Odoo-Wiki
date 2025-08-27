@@ -2,8 +2,7 @@
 title: HR Recruitment Firstname
 description: Vor- und Nachname auf Bewerbung.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./hr-recruitment
 ---
 # HR Recruitment Firstname

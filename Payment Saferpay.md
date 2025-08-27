@@ -2,8 +2,7 @@
 title: Saferpay Payment Gateway
 description: Zahlungsanbieter für Saferpay (ohne Zahlungstokens).
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./website-e-commerce
 ---
 

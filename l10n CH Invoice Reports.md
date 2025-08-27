@@ -2,8 +2,7 @@
 title: Switzerland Invoice Reports with payment option
 description: Rechnung mit ISR- und/oder QR-Zahlung drucken.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./l10n-ch
 ---
 # Switzerland Invoice Reports with payment option

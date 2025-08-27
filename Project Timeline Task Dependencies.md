@@ -2,8 +2,7 @@
 title: Project Timeline Task Dependencies
 description: Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./project
 ---
 # Project Timeline Task Dependencies

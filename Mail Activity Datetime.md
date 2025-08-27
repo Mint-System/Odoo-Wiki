@@ -2,8 +2,7 @@
 title: Mail Activity Datetime
 description: Datum mit Zeit für Fälligkeit von Aktivität.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./dialog
 ---
 # Mail Activity Datetime

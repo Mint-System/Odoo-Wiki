@@ -2,8 +2,7 @@
 title: Base Search Fuzzy
 description: Aktivieren Trigram-Index auf Datenbank-Felder.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./database
 ---
 # Base Search Fuzzy
@@ -16,7 +15,7 @@ Repository: <https://github.com/OCA/server-tools/tree/17.0/base_search_fuzzy>
 
 ## Verwendung
 
-Mit der Trigramm-Indexierung können Sie sog. *Fuzzy Search* ausführen. 
+Mit der Trigramm-Indexierung können Sie sog. *Fuzzy Search* ausführen.
 
 ### Trigram-Indexierung für ausgewähltes Feld aktivieren
 

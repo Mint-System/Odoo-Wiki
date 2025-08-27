@@ -2,12 +2,11 @@
 title: Sync Trigger Methods
 description: Bei Methoden-Aufruf einen Sync auslösen.
 kind: howto
-tags:
-- Mint-System
+partner: Thirdparty
 prev: ./zebroo-sync
 ---
 # Sync Trigger Methods
-![](attachments/icon_odoo_zbsync.png)
+![icons_odoo_thirdparty](attachments/icons_odoo_thirdparty.png)
 
 {{ $frontmatter.description }}
 

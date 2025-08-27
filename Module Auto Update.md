@@ -1,9 +1,8 @@
 ---
 title: Module Auto Update
-description: Aktualisiert automatisch neue Versionen von Odoo Modulen. 
+description: Aktualisiert automatisch neue Versionen von Odoo Modulen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./base
 ---
 # Module Auto Update
@@ -21,7 +20,7 @@ Diese Erweiterung erstellt zu jedem installierten Odoo-Modul einen Hash vom Modu
 Es gibt verschiedene Szenarien wo die Auto-Upgrade Modules"-Aktion nicht funktioniert:
 
 * Ein Modul wird in der Code-Base gelöscht, aber auf den Deployment-Umgebungen nicht deinstalliert.
-* Ein Feld wird umbenannt und hat in den Deployment-Umgebungen bereits Daten.  
+* Ein Feld wird umbenannt und hat in den Deployment-Umgebungen bereits Daten.
 * Es werden Abhängigkeiten zu Modulen gemacht, die auf den Deployment-Umgebungen nicht installiert sind.
 
 ## Verwendung

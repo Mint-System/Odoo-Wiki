@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - partner == "Thirdparty"
+    order:
+      - file.name
+      - partner
+    sort:
+      - property: tags
+        direction: DESC

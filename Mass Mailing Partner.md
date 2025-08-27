@@ -2,8 +2,7 @@
 title: Link partners with mass-mailing
 description: Mailinglisten-Kontakte und Kontakte verküpfen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./mass-mailing
 ---
 # Link partners with mass-mailing

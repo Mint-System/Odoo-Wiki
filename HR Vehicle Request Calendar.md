@@ -2,8 +2,7 @@
 title: HR Vehicle Request Calendar
 description: Kalenderansicht und Terminbestätigung für Fahrzeuganfragen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./hr
 ---
 # HR Vehicle Request Calendar

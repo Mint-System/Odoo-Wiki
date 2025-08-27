@@ -2,8 +2,7 @@
 title: Account Move Mail Thread
 description: Verhindert das versenden von Nachrichten beim Erstellen einer Buchung.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./dialog
 ---
 # Account Move Mail Thread

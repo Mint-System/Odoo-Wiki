@@ -2,8 +2,7 @@
 title: HR Attendance Calendar View
 description: Kalenderansicht für Anwesenheiten.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./hr-attendance
 ---
 # HR Attendance Calendar View

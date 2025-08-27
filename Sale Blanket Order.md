@@ -2,8 +2,7 @@
 title: Verkauf Rahmenverträge
 description: Rahmenverträge für Verkäufe erstellen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./
 ---
 

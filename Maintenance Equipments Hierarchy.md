@@ -2,8 +2,7 @@
 title: Maintenance Equipments Hierarchy
 description: Inventar hierarchisch gliedern.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./maintenance
 ---
 # Maintenance Equipments Hierarchy

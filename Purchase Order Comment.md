@@ -2,8 +2,7 @@
 title: Purchase Order Comment
 description: Kommentar-Feld für Einkaufsaufträge.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./purchase
 ---
 # Purchase Order Comment

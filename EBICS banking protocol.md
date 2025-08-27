@@ -2,8 +2,7 @@
 title: EBICS banking protocol
 description: Connect Odoo with bank account through EBICS.
 kind: howto
-tags:
-- Thirdparty
+partner: Thirdparty
 prev: ./accounting
 ---
 # EBICS banking protocol

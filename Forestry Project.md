@@ -2,6 +2,7 @@
 title: Holzwirtschaft Projekt
 description: Erweiterung Projektmanagement für die Holzwirtschaft.
 kind: howto
+partner: Mint-System
 prev: ./forestry-base
 ---
 # Holzwirtschaft Projekt

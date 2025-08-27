@@ -2,6 +2,7 @@
 title: Git
 description: Git Repositories mit Odoo verwalten.
 kind: howto
+partner: Mint-System
 prev: ./
 ---
 # Git
@@ -84,7 +85,7 @@ Sie können den lokalen Pfad der Forge nach Repositories durchsuchen lassen und 
 
 ### Auf Branch der aktiven Umgebung wechseln
 
-Wenn Sie ein Odoo Modul entwickeln und dieses eine Git-Repository definiert, können Sie mit den folgenden Instruktionen in den Branch der aktiven Umgebung wechseln: 
+Wenn Sie ein Odoo Modul entwickeln und dieses eine Git-Repository definiert, können Sie mit den folgenden Instruktionen in den Branch der aktiven Umgebung wechseln:
 
 ```python
 repo_id = self.ref("project_github.project_repo")

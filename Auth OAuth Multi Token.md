@@ -2,8 +2,7 @@
 title: OAuth Multi Token
 description: Unterstützung für mehrere Geräteabhängigke OAuth-Tokens.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./settings
 ---
 # OAuth Multi Token

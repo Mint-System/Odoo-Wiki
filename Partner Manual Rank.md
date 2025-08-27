@@ -2,8 +2,7 @@
 title: Partner Manual Rank
 description: Kontakt als Lieferant oder Kunde manuell festlegen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./contacts
 ---
 # Partner Manual Rank

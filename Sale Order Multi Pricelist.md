@@ -2,8 +2,7 @@
 title: Sale Order Multi Pricelist
 description: Partner-Preisliste anhand Auftragsdatum filtern.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./sale
 ---
 # Sale Order Multi Pricelist

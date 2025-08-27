@@ -2,8 +2,7 @@
 title: Website Sale Default Country CH
 description: Schweiz als Standardland im Webshop festlegen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./website
 ---
 # Website Sale Default Country CH

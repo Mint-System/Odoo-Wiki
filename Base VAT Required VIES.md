@@ -2,8 +2,7 @@
 title: Base VAT Required VIES
 description: Die VIES-VAT-Prüfung als obligatorisch festlegen.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./database
 ---
 # Base VAT Required VIES

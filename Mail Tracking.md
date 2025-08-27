@@ -2,8 +2,7 @@
 title: Mail Tracking
 description: Tracking-Status für jede versendete E-Mail.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./dialog
 ---
 # Mail Tracking

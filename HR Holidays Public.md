@@ -2,8 +2,7 @@
 title: HR Holidays Public
 description: Erstellen Sie einen Feiertagskalender, der in der Abwesenheiten berücksichtigt wird.
 kind: howto
-tags:
-- OCA
+partner: OCA
 prev: ./hr-holidays
 ---
 # HR Holidays Public

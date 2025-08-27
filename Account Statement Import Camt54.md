@@ -2,6 +2,7 @@
 title: Account Statement Import Camt54
 description: Camt54 Bankauszug mit Details zu Einzahlungen importieren.
 kind: howto
+partner: OCA
 prev: ./accounting
 ---
 # Account Statement Import Camt54

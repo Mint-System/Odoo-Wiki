@@ -2,8 +2,7 @@
 title: Swiss QR/ESR scan
 description: Rechnung anhand QR-Daten erstellen.
 kind: howto
-tags:
-- OCA
+partner: OCA
 - Drittanbieter
 prev: ./l10n-ch
 ---
