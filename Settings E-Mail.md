@@ -155,6 +155,19 @@ Das verwendete Outlook-Postfach darf keine Shared Mailbox sein. Der Benutzer und
 Die Relay-Funktion von Odoo funktioniert mit Office 365 nicht. Sie müssen eine feste Absender-Adresse gemäss [Absender-Adresse überschreiben](#Absender-Adresse%20überschreiben) wählen.
 :::
 
+### Ausgehender Mail-Server Mailgun konfigurieren
+
+Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20konfigurieren) und Mailgun verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen:
+
+* **Beschreibung**: Mailgun Outgoing
+* **Von-Filterung**: Leer lassen oder Absender-Adresse mit `mail@example.com` fixieren.
+* **Authentifizierung mit**: Benutzername
+* **Verschlüsselung der Verbindung**: TLS (STARTTLS)
+* **SMTP-Server**: smtp.eu.mailgun.org
+* **SMTP-Port**: 587
+* **Benutzername**: Gemäss *SMTP credentials* aus Mailgun
+* **Passwort**: Gemäss *SMTP credentials* aus Mailgun
+
 ## Alias
 
 ### E-Mail-Aliasse anzeigen
