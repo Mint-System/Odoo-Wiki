@@ -2,8 +2,7 @@
 title: Web Font Dobra Book
 description: Fügt Schriftart Dobro Book der Auswahl hinzu.
 kind: howto
-tags:
-- Mint-System
+partner: Mint-System
 prev: ./server
 ---
 # Web Font Dobra Book
