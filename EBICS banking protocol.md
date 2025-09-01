@@ -11,6 +11,7 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_ebics`\
+Website: <https://apps.odoo.com/apps/modules/18.0/account_ebics>\
 Repository: <https://gitlab.com/Mint-System/Odoo-Apps-Thirdparty/tree/16.0/account_ebics>
 
 ## Konfiguration
