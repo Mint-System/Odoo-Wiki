@@ -34,6 +34,7 @@ prev: ./
 | [FastAPI](FastAPI.md)                                                                       | FastAPI-Integration für Odoo.                                       |
 | [Mail Environment](Mail%20Environment.md)                                                   | Mail-Server aus Umgebungsvariablen laden.                           |
 | [Mass Editing](Mass%20Editing.md)                                                           | Mühelos mehrere Einträge auf einmal bearbeiten.                     |
+| [Mass Editing](Server%20Action%20Mass%20Edit.md)                                            | Aktionen zur Bearbeitung von mehreren Einträgen erstellen.          |
 | [Mass Operation Abstract](Mass%20Operation%20Abstract.md)                                   | Bietet Werkzeuge zur Massenbearbeitung.                             |
 | [MuK REST](MuK%20REST.md)                                                                   | Stellt eine REST API für den Odoo Server bereit.                    |
 | [Onchange Helper](Onchange%20Helper.md)                                                     | Vereinfacht den Aufruf von Onchange-Methoden im Python Code.        |

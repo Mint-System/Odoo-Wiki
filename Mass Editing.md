@@ -13,6 +13,11 @@ prev: ./development
 Technischer Name: `mass_editing`\
 Repository: <https://github.com/OCA/server-ux/tree/15.0/mass_editing>
 
+::: warning
+Diese App ist veraltet. Wir empfehlen die App [Mass Editing](Server%20Action%20Mass%20Edit.md) zu verwenden.
+#deprecated
+:::
+
 ## Verwendung
 
 ### Aktion Massenbearbeitung hinzufügen
