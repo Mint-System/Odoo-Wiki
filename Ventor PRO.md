@@ -2,7 +2,7 @@
 title: Ventor PRO
 description: Android-App für die Lagerbewirtschaftung.
 kind: howto
-partner: VentorTech
+partner: Thirdparty
 prev: ./
 ---
 # Ventor PRO
