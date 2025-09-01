@@ -33,9 +33,10 @@ Wählen Sie *Rechnungsstellung > Konfiguration > EBICS Configuration* und Erstel
 
 Im Tab **EBICS UserID** erstellen Sie einen Eintrag mit diesen Angaben
 
-
 * **EBICS UserID**: Parameter heisst Teilnehmer-ID/Partner ID
 * **EBICS Passphrase**: Gib ein Password zur Verschlüsselung der Zertifikatsdaten ein
+
+![](attachments/EBICS%20Configuration.png)
 
 Wählen Sie die Aktion **EBICS Initialisation**. Laden Sie den Brief im Feld *EBICS INI Letter* herunter.
 
