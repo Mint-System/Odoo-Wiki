@@ -11,7 +11,7 @@ prev: ./hr-holidays
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_attendance_user_acl`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_attendance_user_acl>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/18.0/hr_attendance_user_acl>
 
 ## Verwendung
 
@@ -29,6 +29,6 @@ Im Weiteren können Benutzer ihre Anwesenheits-Einträge löschen. Navigieren Si
 
 ### Erfassung Anwesenheit erlauben
 
-Gilt ab #odoo18.
+Gilt ab #Odoo18.
 
 Mit dieser Erweiterung können Benutzer der Gruppe *Anwesenheiten / Benutzer* ihre Anwesenheit erfassen.

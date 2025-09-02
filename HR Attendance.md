@@ -84,7 +84,7 @@ Stellen Sie sicher, dass der verwendete Benutzer für den Kioskmodus eingeschrä
 
 ### Anwesenheit anmelden
 
-Gilt ab #odoo18:
+Gilt ab #Odoo18:
 
 Klicken Sie oben rechts im Benutzer-Menü auf den roten Punkt. Wählen Sie *Anmelden*.
 
@@ -102,7 +102,7 @@ Es erscheint ein Willkommensgruss mit Angabe der Uhrzeit.
 
 ### Anwesenheit abmelden
 
-Gilt ab #odoo18:
+Gilt ab #Odoo18:
 
 Klicken Sie oben rechts im Benutzer-Menü auf den grünen Punkt. Wählen Sie *Abmelden*.
 
@@ -171,7 +171,7 @@ Das detaillierte Protokoll der An- und Abmeldungen zeigt die Übersicht *Anwesen
 
 ### Anwesenheiten bearbeiten
 
-Gilt ab #odoo18:
+Gilt ab #Odoo18:
 
 Klicken Sie auf die App *Anwesenheiten* und anschliessend auf einen Eintrag. Setzen Sie die Genehmigung des Eintrags zurück indem Sie auf das Statusfeld *Zu gengemigen* klicken. Bearbeiten Sie den Eintrag und bestätigen Sie die Eingaben mit einem Klick auf *Genehmigen*.
 

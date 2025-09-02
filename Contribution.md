@@ -177,6 +177,7 @@ Odoo Version:
 * #Odoo15: Tag für Odoo Version 15.
 * #Odoo16: Tag für Odoo Version 16.
 * #Odoo17: Tag für Odoo Version 17.
+* #Odoo18: Tag für Odoo Version 18.
 
 ### Hostname und Mail-Adressen
 

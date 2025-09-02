@@ -36,7 +36,7 @@ Bei der Berechnung und Aktualisierung der Überstunden ignoriert Odoo alle Eintr
 
 ### Abwesenheitsprüfung aktivieren
 
-Gilt ab #odoo18 .
+Gilt ab #Odoo18 .
 
 Die Abwesenheitsprüfung erstellt fehlende Anwesenheitseinträge damit die Überstunden korrekte berechnet werden. Navigieren Sie nach *Einstellungen > Anwesenheit* und aktivieren Sie die Option *Abwesenheitsveraltung.*
 
