@@ -88,7 +88,7 @@ Navigieren Sie nach *Lager > Konfiguration > Route* und Route *Fertigung* auswä
 
 ### Bestand beim Einkauf ignorieren
 
-Wenn Sie beim Einkauf das Lager nicht berücksichtigen wollen. Müssen Sie auf der Route *Auffüllung nach Auftrag (MTO)* die Beschaffungsregel anpassen:
+Wenn Sie beim Einkauf das Lager nicht berücksichtigen wollen. Müssen Sie auf der Route *Auffüllung nach Auftrag (MTO)* die Beschaffungsregel *WH: Stock → Customers (MTO)* anpassen. Legen Sie als *Beschaffungsmethode* die Option *Andere Regel auslösen* aus.
 
 ![Lager Vorgänge Stock ignorieren](attachments/Lager%20Vorgänge%20Stock%20ignorieren.gif)
 
