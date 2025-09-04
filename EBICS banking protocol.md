@@ -78,14 +78,21 @@ Wählen Sie *Rechnungstellung > EBICS Processing > EBICS Download*. Wählen Sie 
 
 Wenn der Download erfolgreich ist, erhalten Sie ein Aufstellung der heruntergeladenen Camt.053-Dateien.
 
-> EBICS File 'RAIFCHEC_3924015679_2025-08-26_Z53_CH4080808008919700926_CHF_024219.xml.c53.xml' is available for further processing.
+```
+EBICS File 'RAIFCHEC_3924015679_2025-08-26_Z53_CH4080808008919700926_CHF_024219.xml.c53.xml' is available for further processing.
+```
 
 Mit der Aktion *View EBICS File(s)* gelangen zur Ansicht *Rechnungsstellung > EBICS Processing > EBICS Files > Download*.
+
+::: warning
+Der Download-Vorgang lädt die Dateien aller verfübaren Konten herunter.
+:::
 
 ### EBICS-Download-Datei verarbeiten
 
 Um die heruntergeladenen Camt.053-Dateien zu verarbeiten, rufen Sie *Rechnungsstellung > EBICS Processing > EBICS Files > Download* auf und wählen einen Eintrag aus. Klicken Sie auf *Process* um die Transaktions-Daten zu verabeiten. 
 
+Im Tab *Bank Statements* sehen Sie den importierten Bankauszug. Klicken Sie auf den Bankauszug um die Abstimmung zu starten.
 
 ## Troubleshooting
 
