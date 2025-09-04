@@ -83,8 +83,7 @@ Mit der Aktion *View EBICS File(s)* gelangen zur Ansicht *Rechnungsstellung > EB
 
 ### EBICS-Download-Datei verarbeiten
 
-Um die heruntergeladenen Camt.053-Dateien zu verarbeiten, rufen Sie *Rechnungsstellung > EBICS Processing > EBICS Files > Download* auf und wählen einen Eintrag aus.
-
+Um die heruntergeladenen Camt.053-Dateien zu verarbeiten, rufen Sie *Rechnungsstellung > EBICS Processing > EBICS Files > Download* auf und wählen einen Eintrag aus. Klicken Sie auf *Process* um die Transaktions-Daten zu verabeiten. 
 
 
 ## Troubleshooting
