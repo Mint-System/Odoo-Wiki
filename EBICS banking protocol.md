@@ -26,7 +26,7 @@ Sie werden dazu aufgefordert einen INI/HIA-Brief zu erstellen, zu unterzeichnen 
 
 Damit ein Benutzer Zugriff auf die EBICS-Konfigurationen erhält, muss dieser Mitglied in der Gruppe *EBICS Manager* sein.
 
-### EBICS-Konfiugration erstellen
+### EBICS-Konfiguration erstellen
 
 Wählen Sie *Rechnungsstellung > Konfiguration > EBICS Configuration* und Erstellen Sie einen neuen Eintrag.
 
@@ -50,6 +50,7 @@ Rufen Sie eine bestehende EBICS-Konfiguration auf. Im Tab EBICS UserID* erstelle
 
 * **EBICS UserID**: Parameter heisst auch Teilnehmer-ID/Partner ID
 * **EBICS Passphrase**: Gib ein Password zur Verschlüsselung der Zertifikatsdaten ein
+* **USers**: Diese Odoo-Benutzer erhalten Zugriff auf den Teilnehmer
 
 ![](attachments/EBICS%20Configuration.png)
 
