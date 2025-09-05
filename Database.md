@@ -139,22 +139,6 @@ Rufen Sie die App *Einstellungen* auf. Scrollen Sie bis ans Ende. Im Abschnitt *
 
 In der Odoo-Datenbank werden Referenzen auf Dateien gespeichert. Navigieren Sie nach *Einstellungen > Technisch > Datenbankstruktur > Dateianhänge*. Wählen Sie einen Dateianhang aus. Sie können die Datei herunterladen und sofern mit einer Ressource verknüpft auf das entsprechende Dokument zugeifen. 
 
-## Odoo Online
-
-### Datenbank herunterladen
-
-Damit Sie die Odoo Online Datenbank herunterladen können, öffnen Sie <https://www.odoo.com/de_DE/my/databases>. Hier haben Sie eine Übersicht iherer Odoo Online Datenbanken.
-
-Öffnen Sie bei der zu exportierenden Datenbank das Kontext-Menü neben dem Datebanknamen. 
-
-![](attachments/Datenbankmanager%20Odoo%20Online%20Datebanken.png)
-
-Anschliessend wählen Sie *Herunterladen*.
-
-![](attachments/Datenbankmanager%20Odoo%20Online%20Herunterladen.png)
-
-Der Download-Vorgang kann abhängig von der Datenbankgrösse Zeit in Anspruch nehmen. Als erstes sollte die Datei `UNTERNEHMENSNAME.dump.zip` zum Download angeboten werden. Mit *Speichern* laden Sie die Datei auf den lokalen Computer.
-
 ## Lizenz
 
 ### Odoo Enterprise Abonnement aktivieren

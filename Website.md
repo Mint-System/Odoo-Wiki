@@ -123,3 +123,16 @@ In diesem Fall würde man den Link mit diesen Inhalt ersetzen:
 ::: tip
 Eine weitere Möglichkeit zur Übersetzung von externen Links sind Umleitungen. Sie eine können den Inhalt mit einem internen Link `/example` verlinken und dazu zwei [Umleitungen einrichten](#Umleitung%20einrichten). Für den original Link leiten `/example` um und für den übersetzen Link leiten Sie  `/fr/example` um. 
 :::
+
+## Menü-Eintrag ausblenden
+
+Der Home-Eintrag mit dem Pfad `/` darf man nicht entfernen. Wenn man diesen ausblenden möchte kann man dieses HTML-Snippet mit dem Website-Editor im Website-Body einfügen:
+
+```html
+<style>
+div.dropdown-menu li:first-child,
+li.nav-item:first-child {
+    display: none;
+}
+</style>
+```

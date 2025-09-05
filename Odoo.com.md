@@ -17,9 +17,15 @@ Website: <https://www.odoo.com/>
 
 Wenn Sie ihre Odoo Datenbank auf Odoo.com herunterladen möchten, rufen Sie die Url <https://www.odoo.com/de_DE/my/databases> auf. Klicken Sie auf die Einstellungen ihrer Datenbank und wählen Sie *Herunterladen*.
 
-![](attachments/odoo.com%20datenbank%20herunterladen.png)
+Öffnen Sie bei der zu exportierenden Datenbank das Kontext-Menü neben dem Datebanknamen. 
 
-Der Download wird sofort gestartet. Abhängig von der Grösse ihrer Datenbank dauert der Vorgang länger.
+![](attachments/Odoo.com%20Datebanken.png)
+
+Anschliessend wählen Sie *Herunterladen*.
+
+![](attachments/Odoo.com%20Herunterladen.png)
+
+Der Download-Vorgang kann abhängig von der Datenbankgrösse Zeit in Anspruch nehmen. Als erstes sollte die Datei `UNTERNEHMENSNAME.dump.zip` zum Download angeboten werden. Mit *Speichern* laden Sie die Datei auf den lokalen Computer.
 
 ::: tip
 Um den Datenbank-Dump zu versenden, können Sie <https://www.swisstransfer.com> verwenden.
