@@ -18,7 +18,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Website/tree/16.0/website_
 
 ### Preisliste mit Rabatt einrichten
 
-Damit Rabatte auf aus der Preisliste auf den Warenkorb / Angebot übertragen wird, müssen Sie einen [Rabatt auf Preisregel mit Festpreise festlegen](Product%20Pricelist%20Fixed%20Discount.md#Rabatt%20auf%20Preisregel%20mit%20Festpreise%20festlegen). Dazu ein Beispiel:
+Damit Rabatte auf aus der Preisliste auf den Warenkorb / Angebot übertragen werden, müssen Sie einen [Rabatt auf Preisregel mit Festpreise festlegen](Product%20Pricelist%20Fixed%20Discount.md#Rabatt%20auf%20Preisregel%20mit%20Festpreise%20festlegen). Dazu ein Beispiel:
 
 ![](attachments/Website%20Sale%20Pricelist%20Fixed%20Discount%20Preisliste.png)
 
