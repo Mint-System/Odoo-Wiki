@@ -11,7 +11,7 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_report_referrer`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/16.0/account_financial_reporting>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/16.0/account_report_referrer>
 
 ## Beschreibung
 
