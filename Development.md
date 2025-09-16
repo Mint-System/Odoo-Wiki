@@ -28,10 +28,13 @@ prev: ./
 
 | Erweiterung                                                                                 | Beschreibung                                                        |
 | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| [2D matrix for x2many fields](2D%20matrix%20for%20x2many%20fields.md)                       | Matrix-Auswahl für Many2Many-Feld.                                  |
 | [BI SQL Editor](BI%20SQL%20Editor.md)                                                       | Ganz einfach SQL-basierte Berichte erstellen.                       |
+| [Components](Components.md)                                                                 | Kompontent-System für das Connector-Framework.                      |
 | [Date Range](Date%20Range.md)                                                               | Verwaltung von Datums-Bereichen zur Filterung von Daten.            |
 | [Endpoint route handler](Endpoint%20route%20handler.md)                                     | Web-Routen während Ausführung hinzufügen und entfernen              |
 | [FastAPI](FastAPI.md)                                                                       | FastAPI-Integration für Odoo.                                       |
+| [Fs Folder](Fs%20Folder.md)                                                                 | Dateien und Ordner mit externem Dateisystem verlinken.              |
 | [Mail Environment](Mail%20Environment.md)                                                   | Mail-Server aus Umgebungsvariablen laden.                           |
 | [Mass Editing](Mass%20Editing.md)                                                           | Mühelos mehrere Einträge auf einmal bearbeiten.                     |
 | [Mass Editing](Server%20Action%20Mass%20Edit.md)                                            | Aktionen zur Bearbeitung von mehreren Einträgen erstellen.          |
