@@ -21,9 +21,10 @@ Website: <https://www.odoo.com/de_DE/app/helpdesk>
 ## Erweiterungen
 
 
-| Erweiterung                                     | Beschreibung                |
-| ----------------------------------------------- | --------------------------- |
-| [Helpdesk Management](Helpdesk%20Management.md) | Helpdesk Community Edition. |
+| Erweiterung                                           | Beschreibung                                    |
+| ----------------------------------------------------- | ----------------------------------------------- |
+| [Helpdesk Management](Helpdesk%20Management.md)       | Helpdesk Community Edition.                     |
+| [Helpdesk Project Task](Helpdesk%20Project%20Task.md) | Projektaufgaben und Helpdesk-Tickets verlinken. |
 
 ## Organisation
 
