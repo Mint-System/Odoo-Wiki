@@ -11,7 +11,7 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_critical_forecast`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_critical_forecast>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/18.0/stock_critical_forecast>
 
 ## Beschreibung
 

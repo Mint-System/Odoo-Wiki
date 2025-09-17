@@ -10,7 +10,7 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `base_external_mssql`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/17.0/base_external_mssql>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/18.0/base_external_mssql>
 
 ## Verwendung
 

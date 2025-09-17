@@ -11,7 +11,7 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `server_environment`\
-Repository: <https://github.com/OCA/server-env/tree/17.0/server_environment>
+Repository: <https://github.com/OCA/server-env/tree/18.0/server_environment>
 
 ## Verwendung
 

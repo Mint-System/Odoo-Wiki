@@ -11,4 +11,4 @@ prev: ./invoicing
 {{ $frontmatter.description }}
 
 Technischer Name: `account_invoice_triple_discount`\
-Repository: <https://github.com/OCA/account-invoicing/tree/16.0/account_invoice_triple_discount>
+Repository: <https://github.com/OCA/account-invoicing/tree/18.0/account_invoice_triple_discount>

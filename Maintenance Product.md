@@ -11,7 +11,7 @@ prev: ./maintenance
 {{ $frontmatter.description }}
 
 Technischer Name: `maintenance_product`\
-Repository: <https://github.com/OCA/maintenance/tree/17.0/maintenance_product>
+Repository: <https://github.com/OCA/maintenance/tree/18.0/maintenance_product>
 
 ## Konfiguration
 

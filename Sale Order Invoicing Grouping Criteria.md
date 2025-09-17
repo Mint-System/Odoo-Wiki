@@ -11,7 +11,7 @@ prev: ./invoicing
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_order_invoicing_grouping_criteria`\
-Repository: <https://github.com/OCA/account-invoicing/tree/17.0/sale_order_invoicing_grouping_criteria>
+Repository: <https://github.com/OCA/account-invoicing/tree/18.0/sale_order_invoicing_grouping_criteria>
 
 ## Konfiguration
 

@@ -12,7 +12,7 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `queue_job_cron`\
-Repository: <https://github.com/OCA/queue/tree/17.0/queue_job_cron>
+Repository: <https://github.com/OCA/queue/tree/18.0/queue_job_cron>
 
 ## Verwendung
 

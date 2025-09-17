@@ -11,7 +11,7 @@ prev: ./base
 {{ $frontmatter.description }}
 
 Technischer Name: `module_auto_update`\
-Repository: <https://github.com/OCA/server-tools/tree/17.0/module_auto_update>
+Repository: <https://github.com/OCA/server-tools/tree/18.0/module_auto_update>
 
 ## Beschreibung
 
