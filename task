@@ -39,7 +39,7 @@ fi
 
 function update-repo-url() {
 
-    VERSIONS=("14.0" "15.0" "16.0" "17.0")
+    VERSIONS=("14.0" "15.0" "16.0" "17.0" "18.0")
 
     TOTAL_FILES=$(find . -maxdepth 1 -name "*.md" -type f | wc -l)
     FILE_COUNT=0
@@ -60,8 +60,6 @@ function update-repo-url() {
 
                 NEW_URL="https://github.com/$(echo "$REPO_URL" | sed -E "s|tree/[0-9]+\.[0-9]+|tree/$VERSION|")"
                 HTTP_STATUS=$(curl -o /dev/null -s -w "%{http_code}" "$NEW_URL")
-
-                # echo "Response for version $VERSION is $HTTP_STATUS"
 
                 if [[ "$HTTP_STATUS" == "200" ]]; then
                     NEWEST_URL="$NEW_URL"
