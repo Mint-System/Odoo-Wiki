@@ -13,3 +13,13 @@ prev: ./helpdesk
 
 Technischer Name: `helpdesk_project_task`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/16.0/helpdesk_project_task>
+
+## Verwendung
+
+### Ticket mit Projektaufgabe verlinken
+
+Wenn Sie ein Ticket in der Formularansicht anzeigen, haben Sie unterhalb der Beschreibung einen Tab *Tickets*. Hier können Sie bestehende Aufgaben hinzügen oder direkt eine Aufgabe erstellen. Verlinkte Aufgaben werden als Smart-Button angezeigt.
+
+### Projektaufgabe mit Ticket verlinken
+
+Wenn Sie eine Projektaufgabe in der Formularansicht anzeigen, finden Sie einen Tab *Tickets*. In der Tabelle können Sie bestehende Tickets verlinken.
