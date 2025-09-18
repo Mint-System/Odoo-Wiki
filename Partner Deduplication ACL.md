@@ -11,7 +11,7 @@ prev: ./contacts
 {{ $frontmatter.description }}
 
 Technischer Name: `partner_deduplicate_acl`\
-Repository: <https://github.com/OCA/partner-contact/tree/17.0/partner_deduplicate_acl>
+Repository: <https://github.com/OCA/partner-contact/tree/18.0/partner_deduplicate_acl>
 
 ## Verwendung
 

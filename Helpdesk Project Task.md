@@ -18,7 +18,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/16.0/helpdesk
 
 ### Ticket mit Projektaufgabe verlinken
 
-Wenn Sie ein Ticket in der Formularansicht anzeigen, haben Sie unterhalb der Beschreibung einen Tab *Tickets*. Hier können Sie bestehende Aufgaben hinzügen oder direkt eine Aufgabe erstellen. Verlinkte Aufgaben werden als Smart-Button angezeigt.
+Wenn Sie ein Ticket in der Formularansicht anzeigen, finden Sie einen Tab *Tickets*. Hier können Sie bestehende Aufgaben hinzügen oder direkt eine Aufgabe erstellen. Verlinkte Aufgaben werden als Smart-Button angezeigt.
 
 ### Projektaufgabe mit Ticket verlinken
 

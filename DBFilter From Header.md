@@ -11,7 +11,7 @@ prev: ./database
 {{ $frontmatter.description }}
 
 Technischer Name: `dbfilter_from_header`\
-Repository: <https://github.com/OCA/server-tools/tree/17.0/dbfilter_from_header>
+Repository: <https://github.com/OCA/server-tools/tree/18.0/dbfilter_from_header>
 
 ## Konfiguration
 

@@ -11,7 +11,7 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_financial_report`\
-Repository: <https://github.com/OCA/account-financial-reporting/tree/17.0/account_financial_report>
+Repository: <https://github.com/OCA/account-financial-reporting/tree/18.0/account_financial_report>
 
 ## Berichte
 

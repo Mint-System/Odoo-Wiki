@@ -11,7 +11,7 @@ prev: ./contacts
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_expense_user_acl`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_expense_user_acl>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/18.0/hr_expense_user_acl>
 
 ## Verwendung
 

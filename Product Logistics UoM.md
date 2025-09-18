@@ -11,7 +11,7 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `product_logistics_uom`\
-Repository: <https://github.com/OCA/product-attribute/tree/17.0/product_logistics_uom>
+Repository: <https://github.com/OCA/product-attribute/tree/18.0/product_logistics_uom>
 
 ## Verwendung
 

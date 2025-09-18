@@ -11,7 +11,7 @@ prev: ./invoicing
 {{ $frontmatter.description }}
 
 Technischer Name: `account_invoice_prepare`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/account_invoice_prepare>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/18.0/account_invoice_prepare>
 
 ## Verwendung
 

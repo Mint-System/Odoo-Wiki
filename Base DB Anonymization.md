@@ -11,7 +11,7 @@ prev: ./database
 {{ $frontmatter.description }}
 
 Technischer Name: `base_db_anonymization`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/base_db_anonymization>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/18.0/base_db_anonymization>
 
 ## Konfiguration
 

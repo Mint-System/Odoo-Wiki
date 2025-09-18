@@ -11,7 +11,7 @@ prev: ./contacts
 {{ $frontmatter.description }}
 
 Technischer Name: `base_location_city`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/base_location_city>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/18.0/base_location_city>
 
 ## Verwendung
 

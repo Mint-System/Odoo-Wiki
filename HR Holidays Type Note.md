@@ -11,7 +11,7 @@ prev: ./hr-holidays
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_holidays_type_note`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_holidays_type_note>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/18.0/hr_holidays_type_note>
 
 ## Verwendung
 

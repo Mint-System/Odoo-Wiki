@@ -11,4 +11,4 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `onchange_helper`\
-Repository: <https://github.com/OCA/server-tools/tree/17.0/onchange_helper>
+Repository: <https://github.com/OCA/server-tools/tree/18.0/onchange_helper>

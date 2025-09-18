@@ -11,7 +11,7 @@ prev: ./settings
 {{ $frontmatter.description }}
 
 Technischer Name: `report_qweb_pdf_watermark`\
-Repository: <https://github.com/OCA/reporting-engine/tree/17.0/report_qweb_pdf_watermark>
+Repository: <https://github.com/OCA/reporting-engine/tree/18.0/report_qweb_pdf_watermark>
 
 ## Konfiguration
 

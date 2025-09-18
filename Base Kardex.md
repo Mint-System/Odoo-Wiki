@@ -10,7 +10,7 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `base_kardex`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/17.0/base_kardex>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/18.0/base_kardex>
 
 ## Verwendung
 

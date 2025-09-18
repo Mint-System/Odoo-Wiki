@@ -11,7 +11,7 @@ prev: ./
 {{ $frontmatter.description }}
 
 Technischer Name: `git_base`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/17.0/git_base>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/18.0/git_base>
 
 ## Verwendung
 

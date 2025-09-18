@@ -11,7 +11,7 @@ prev: ./maintenance
 {{ $frontmatter.description }}
 
 Technischer Name: `maintenance_request_repair`\
-Repository: <https://github.com/OCA/maintenance/tree/16.0/maintenance_request_repair>
+Repository: <https://github.com/OCA/maintenance/tree/18.0/maintenance_request_repair>
 
 ## Verwendung
 

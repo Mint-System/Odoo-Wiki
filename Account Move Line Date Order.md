@@ -11,7 +11,7 @@ prev: ./order-positions
 {{ $frontmatter.description }}
 
 Technischer Name: `account_move_line_date_order`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/account_move_line_date_order>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/18.0/account_move_line_date_order>
 
 ## Verwendung
 

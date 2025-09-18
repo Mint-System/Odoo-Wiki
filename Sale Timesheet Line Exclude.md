@@ -11,7 +11,7 @@ prev: ./hr-timesheet
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_timesheet_line_exclude`\
-Repository: <https://github.com/OCA/timesheet/tree/17.0/sale_timesheet_line_exclude>
+Repository: <https://github.com/OCA/timesheet/tree/18.0/sale_timesheet_line_exclude>
 
 ::: warning
 Diese App erweitert die `_timesheet_determine_sale_line` Methode. Abhängig von der Installations-Reihenfolge der anderen Module, welche diese Methode erweitern, kann der Methoden-Aufruf blockiert werden.

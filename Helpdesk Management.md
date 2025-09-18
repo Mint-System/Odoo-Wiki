@@ -10,5 +10,5 @@ prev: ./helpdesk
 {{ $frontmatter.description }}
 
 Technischer Name: `helpdesk_mgmt`\
-Repository: <https://github.com/OCA/helpdesk/tree/17.0/helpdesk_mgmt>
+Repository: <https://github.com/OCA/helpdesk/tree/18.0/helpdesk_mgmt>
 

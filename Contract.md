@@ -10,7 +10,7 @@ prev: ./
 {{ $frontmatter.description }}
 
 Technischer Name: `contract`\
-Repository: <https://github.com/OCA/contract/tree/17.0/contract>
+Repository: <https://github.com/OCA/contract/tree/18.0/contract>
 
 ## Erweiterungen
 

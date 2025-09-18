@@ -11,7 +11,7 @@ prev: ./dialog
 {{ $frontmatter.description }}
 
 Technischer Name: `mail_tracking`\
-Repository: <https://github.com/OCA/social/tree/18.0/mail_tracking>
+Repository: <https://github.com/OCA/social/tree/17.0/mail_tracking>
 
 ## Verwendung
 

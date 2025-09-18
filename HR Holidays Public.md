@@ -11,7 +11,7 @@ prev: ./hr-holidays
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_holidays_public`\
-Repository: <https://github.com/OCA/hr-holidays/tree/17.0/hr_holidays_public>
+Repository: <https://github.com/OCA/hr-holidays/tree/18.0/hr_holidays_public>
 
 ## Verwendung
 
