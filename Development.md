@@ -3,6 +3,7 @@ title: Entwicklung
 description: Odoo mühelos anpassen und erweitern.
 kind: howto
 prev: ./
+partner: Mint-System
 ---
 # Entwicklung
 ![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)

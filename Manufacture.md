@@ -3,6 +3,7 @@ title: Fertigung
 description: Eine moderne Lösung für ein altes Problem.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Fertigung
 ![icons_odoo_mrp](attachments/icons_odoo_mrp.png)

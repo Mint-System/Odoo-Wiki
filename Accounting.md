@@ -3,6 +3,7 @@ title: Buchhaltung
 description: Ihre Buchhaltung einfach und korrekt.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Buchhaltung
 ![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)

@@ -3,6 +3,7 @@ title: Wissen
 description: Wissenstransfer für Teams vereinfachen.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Wissen
 ![icons_odoo_knowledge](attachments/icons_odoo_knowledge.png)

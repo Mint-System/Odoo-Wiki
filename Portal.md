@@ -3,6 +3,7 @@ title: Portal
 description: Kunden mit Odoo verbinden.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Portal
 ![](attachments/icons_odoo_website_membership.png)

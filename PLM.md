@@ -3,6 +3,7 @@ title: PLM
 description: Management des Produktlebenszyklus für moderne Firmen.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # PLM
 ![icons_odoo_mrp_plm](attachments/icons_odoo_mrp_plm.png)

@@ -3,6 +3,7 @@ title: Aussendienst
 description: Bieten Sie Ihren Kunden überall ausgezeichnete Dienstleistungen an.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Aussendienst
 ![](attachments/icons_odoo_industry_fsm.png)

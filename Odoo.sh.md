@@ -3,6 +3,7 @@ title: Odoo.sh
 description: Platform-as-a-Service Angebot von Odoo.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Odoo.sh
 ![](attachments/icons_odoo_server.png)

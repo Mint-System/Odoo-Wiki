@@ -3,6 +3,7 @@ title: Spesen
 description: Spesen erfassen und abrechnen.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Spesen
 ![icons_odoo_hr_expense](attachments/icons_odoo_hr_expense.png)

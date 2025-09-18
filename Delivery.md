@@ -3,6 +3,7 @@ title: Versand
 description: Versandmethoden und Logistik definieren.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Versand
 ![icons_odoo_website_sale_delivery](attachments/icons_odoo_website_sale_delivery.png)

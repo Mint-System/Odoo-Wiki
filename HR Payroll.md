@@ -3,6 +3,7 @@ title: Personalabrechnung
 description: Personalbrechnungen schnell und einfach erstellen.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Personalabrechnung
 ![icons_odoo_hr_payroll](attachments/icons_odoo_hr_payroll.png)

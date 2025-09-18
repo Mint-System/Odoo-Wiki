@@ -3,6 +3,7 @@ title: Apps
 description: Neue Apps installieren und aktualisieren.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Apps
 ![icons_odoo_hr_appraisal](attachments/icons_odoo_hr_appraisal.png)

@@ -3,6 +3,7 @@ title: Kontakte
 description: Alle Kontaktdaten an einem Ort.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Kontakte
 ![icons_odoo_contacts](attachments/icons_odoo_contacts.png)

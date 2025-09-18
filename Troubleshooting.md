@@ -3,6 +3,7 @@ title: Troubleshooting
 description: Probleme und Lösungen rund um Odoo.
 kind: howto
 prev: ./
+partner: Mint-System
 ---
 
 # Troubleshooting

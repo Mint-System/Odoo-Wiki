@@ -3,6 +3,7 @@ title: Marketing-Automatisierung
 description: Setzen Sie das Marketing auf Autopilot.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Marketing-Automatisierung
 ![icons_odoo_marketing_automation](attachments/icons_odoo_marketing_automation.png)

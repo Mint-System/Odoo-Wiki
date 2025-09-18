@@ -2,7 +2,8 @@
 title: SSH
 description: SSH-Schlüssel verwalten.
 kind: howto
-prev: ./
+prev: ./connector
+partner: Mint-System
 ---
 # SSH
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)

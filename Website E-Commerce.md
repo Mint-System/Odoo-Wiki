@@ -3,6 +3,7 @@ title: Website E-Commerce
 description: Webshop ohne Integrationsaufwand.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Website E-Commerce
 ![](attachments/icons_odoo_website_sale.png)

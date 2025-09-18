@@ -3,6 +3,7 @@ title: Einstellungen
 description: Odoo-Einstellungen aktivieren und konfigurieren.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Einstellungen
 ![icons_odoo_settings](attachments/icons_odoo_settings.png)

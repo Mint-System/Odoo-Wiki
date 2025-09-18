@@ -3,6 +3,7 @@ title: Dokumente
 description: Sparen Sie Zeit beim Erfassen von Rechnungen, Scannen von Verträgen und bei der Freigabe von Dokumenten.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Dokumente
 ![icons_odoo_documents](attachments/icons_odoo_documents.png)

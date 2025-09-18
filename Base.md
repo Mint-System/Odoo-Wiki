@@ -3,6 +3,7 @@ title: Server
 description: Odoo installieren und konfigurieren.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Server
 ![icons_odoo_website_enterprise](attachments/icons_odoo_website_enterprise.png)

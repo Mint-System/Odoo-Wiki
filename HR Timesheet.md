@@ -3,6 +3,7 @@ title: Zeiterfassung
 description: Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Zeiterfassung
 ![icons_odoo_hr_timesheet](attachments/icons_odoo_hr_timesheet.png)

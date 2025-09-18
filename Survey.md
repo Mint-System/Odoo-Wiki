@@ -3,6 +3,7 @@ title: Umfragen
 description: Verbessern Sie mit Odoo Umfragen die Performance Ihrer Organisation.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Umfragen
 ![icons_odoo_survey](attachments/icons_odoo_survey.png)

@@ -3,6 +3,7 @@ title: Strichcode
 description: Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Strichcode
 ![icons_odoo_stock_barcode](attachments/icons_odoo_stock_barcode.png)

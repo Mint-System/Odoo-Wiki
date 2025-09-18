@@ -3,6 +3,7 @@ title: eLearning
 description: Teilen Sie ihr Wissen mit der eLearning-Plattform.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # eLearning
 ![icons_odoo_website_slides](attachments/icons_odoo_website_slides.png)

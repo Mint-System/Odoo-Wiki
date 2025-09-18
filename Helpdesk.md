@@ -3,6 +3,7 @@ title: Kundendienst
 description: Für einen fantastischen Kundenservice.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Kundendienst
 ![icons_odoo_helpdesk](attachments/icons_odoo_helpdesk.png)

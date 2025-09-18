@@ -3,6 +3,7 @@ title: Dialog
 description: In alle Module integrierter privater Chat und Gruppen-Chat.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Dialog
 ![icons_odoo_mail](attachments/icons_odoo_mail.png)

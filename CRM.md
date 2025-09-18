@@ -3,6 +3,7 @@ title: Kundenverwaltung
 description: Verfolgen Sie Leads, schließen Sie Chancen ab und erhalten Sie genaue Prognosen.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Kundenverwaltung
 ![icons_odoo_crm](attachments/icons_odoo_crm.png)

@@ -3,6 +3,7 @@ title: Rechnungsstellung
 description: Online Rechnungsstellung leicht gemacht.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Rechnungsstellung
 ![icons_odoo_account](attachments/icons_odoo_account.png)

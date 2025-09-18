@@ -3,6 +3,7 @@ title: Einkauf Kaufverträge
 description: Kaufverträge für Rahmenbestellungen erstellen.
 kind: howto
 prev: ./
+partner: OCA
 ---
 # Einkauf Kaufverträge
 ![icons_odoo_purchase](attachments/icons_odoo_purchase.png)

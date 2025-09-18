@@ -3,6 +3,7 @@ title: Mitgliedschaft
 description: Mitglieder und Mitgliedschaften verwalten.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 
 # Mitgliedschaft

@@ -3,6 +3,7 @@ title: Anwesenheiten
 description: Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 
 # Anwesenheiten

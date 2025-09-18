@@ -3,6 +3,7 @@ title: Lizenz
 description: Software verkaufen und lizenzieren
 kind: howto
 prev: ./
+partner: Mint-System
 ---
 # Lizenz
 ![odoo_icons_license](attachments/odoo_icons_license.png)

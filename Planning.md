@@ -3,6 +3,7 @@ title: Planung
 description: Ressourcen auf Projekte und Aufgaben planen.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Planung
 ![icons_odoo_planning](attachments/icons_odoo_planning.png)

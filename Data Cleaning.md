@@ -3,6 +3,7 @@ title: Datenbereinigung
 description: Die Datenqualität ganz einfach verbessern.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Datenbereinigung
 ![icons_odoo_data_cleaning](attachments/icons_odoo_data_cleaning.png)

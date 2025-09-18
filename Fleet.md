@@ -3,6 +3,7 @@ title: Fahrzeugflotte
 description: Verwalten Sie mühelos Fahrzeuge, Verträge, Kosten, Versicherungen und Aufträge.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Fahrzeugflotte
 ![icons_odoo_fleet](attachments/icons_odoo_fleet.png)

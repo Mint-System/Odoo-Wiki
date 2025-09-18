@@ -3,6 +3,7 @@ title: Kalender
 description: Termine Team- und Anwendungs-übergreifend organisieren.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Kalender
 ![icons_odoo_calendar](attachments/icons_odoo_calendar.png)

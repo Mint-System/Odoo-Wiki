@@ -1,8 +1,9 @@
 ---
 title: Verkauf
-description: Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung. 
+description: Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Verkauf
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)

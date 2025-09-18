@@ -3,6 +3,7 @@ title: Odoo.com
 description: Software-as-a-Service Angebot von Odoo.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Odoo.com
 ![](attachments/icons_odoo_server.png)

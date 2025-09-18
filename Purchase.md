@@ -3,6 +3,7 @@ title: Einkauf
 description: Verbessern Sie die Leistung Ihrer Lieferkette und Ihres Bestands.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Einkauf
 ![icons_odoo_purchase](attachments/icons_odoo_purchase.png)

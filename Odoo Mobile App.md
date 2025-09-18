@@ -3,6 +3,7 @@ title: Odoo Mobile App
 description: Alle Odoo-Funktionen sind als mobile App verfügbar.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Odoo Mobile App
 ![](attachments/icons_odoo_app.png)

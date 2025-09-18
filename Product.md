@@ -3,6 +3,7 @@ title: Produkt
 description: Produkte und Preise.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Produkt
 ![](attachments/icons_odoo_product.png)

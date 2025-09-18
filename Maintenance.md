@@ -3,6 +3,7 @@ title: Wartung
 description: Wartungs-Software für moderne Hersteller.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Wartung
 ![icons_odoo_maintenance](attachments/icons_odoo_maintenance.png)

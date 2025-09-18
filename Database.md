@@ -3,6 +3,7 @@ title: Datenbank
 description: Odoo Datenbanken verwalten.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Datenbank
 ![icons_odoo_apps](attachments/icons_odoo_apps.png)

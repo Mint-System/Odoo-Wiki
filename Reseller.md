@@ -3,6 +3,7 @@ title: Reseller
 description: Partnerschaften mit Wiederverkäufer pflegen.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 
 # Reseller

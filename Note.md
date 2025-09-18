@@ -3,6 +3,7 @@ title: Notizen
 description: Notizen zentral verwalten.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Notizen
 ![icons_odoo_note](attachments/icons_odoo_note.png)

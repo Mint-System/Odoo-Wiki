@@ -3,6 +3,7 @@ title: Werkstatt
 description: Die ganze Fertigung auf einen Blick.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Werkstatt
 ![](attachments/icons_odoo_shopfloor.png)

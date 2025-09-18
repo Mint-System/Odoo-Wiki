@@ -3,6 +3,7 @@ title: Dashboards
 description: Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Dashboards
 ![icons_odoo_board](attachments/icons_odoo_board.png)

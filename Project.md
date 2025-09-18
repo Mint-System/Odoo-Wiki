@@ -3,6 +3,7 @@ title: Projekt
 description: Agiles Projektmanagement. Schön. Einfach. Open Source.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Projekt
 ![icons_odoo_project](attachments/icons_odoo_project.png)

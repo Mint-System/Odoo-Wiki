@@ -3,6 +3,7 @@ title: Abonnemente
 description: Wiederkehrende Rechnungsstellung und Management von Abonnenten auf einfache Art und Weise.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Abonnemente
 

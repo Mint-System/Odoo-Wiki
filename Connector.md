@@ -2,7 +2,7 @@
 title: Connector
 description: Odoo mit anderen Systemen verbinden.
 kind: howto
-partner: Mint-System
+partner: OCA
 prev: ./
 ---
 # Connector

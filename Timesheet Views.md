@@ -2,7 +2,7 @@
 title: Zeiterfassung Ansichten
 description: Ansichten der Zeiterfassung anpassen.
 kind: howto
-prev: ./
+prev: ./hr-timesheet
 ---
 # Zeiterfassung Ansichten
 ![icons_odoo_hr_timesheet](attachments/icons_odoo_hr_timesheet.png)

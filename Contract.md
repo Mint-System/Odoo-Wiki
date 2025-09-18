@@ -3,6 +3,7 @@ title: Verträge
 description: Wiederholende Verträge verwalten und automatisch verrechnen.
 kind: howto
 prev: ./
+partner: OCA
 ---
 # Verträge
 ![icon_oca_agreement](attachments/icon_oca_agreement.png)

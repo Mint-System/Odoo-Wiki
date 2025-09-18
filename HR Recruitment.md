@@ -3,6 +3,7 @@ title: Personalbeschaffung
 description: Einstellungsprozess leicht gemacht.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Personalbeschaffung
 ![icons_odoo_hr_recruitment](attachments/icons_odoo_hr_recruitment.png)

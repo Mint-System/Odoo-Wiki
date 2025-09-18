@@ -3,6 +3,7 @@ title: Personal
 description: Personalmanagement für moderne Unternehmen.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Personal
 ![icons_odoo_hr](attachments/icons_odoo_hr.png)

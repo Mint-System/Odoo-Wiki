@@ -3,6 +3,7 @@ title: Website
 description: Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Website
 ![icons_odoo_website](attachments/icons_odoo_website.png)

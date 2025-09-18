@@ -3,6 +3,7 @@ title: Lager
 description: Maximieren Sie die Effizienz Ihres Lagers.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Lager
 ![icons_odoo_stock](attachments/icons_odoo_stock.png)

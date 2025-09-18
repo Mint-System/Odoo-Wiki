@@ -3,6 +3,7 @@ title: Bewertungen
 description: Führen Sie Mitarbeiterbeurteilungen transparent durch.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Bewertungen
 ![icons_odoo_hr_appraisal](attachments/icons_odoo_hr_appraisal.png)

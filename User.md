@@ -3,6 +3,7 @@ title: Benutzer
 description: Einstellungen für ihren persönlichen Odoo-Benutzer.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Benutzer
 ![icons_odoo_membership](attachments/icons_odoo_membership.png)

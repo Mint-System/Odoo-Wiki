@@ -3,6 +3,7 @@ title: Positionsnummern
 description: Sammlung von Erweiterungen und Snippets um Positionsnummern auf Aufträge, Rechnungen und Lieferungen anzuzeigen.
 kind: howto
 prev: ./
+partner: Mint-System
 ---
 # Positionsnummern
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)

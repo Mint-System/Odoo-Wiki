@@ -3,6 +3,7 @@ title: Studio
 description: Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Studio
 ![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)

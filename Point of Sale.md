@@ -3,6 +3,7 @@ title: Kassensystem
 description: In wenigen Minuten einrichten, innerhalb von Sekunden verkaufen.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Kassensystem
 ![icons_odoo_point_of_sale](attachments/icons_odoo_point_of_sale.png)

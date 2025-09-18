@@ -3,6 +3,7 @@ title: Abwesenheiten
 description: Verwaltung von Mitarbeiterurlauben & Abwesenheiten.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 
 # Abwesenheiten

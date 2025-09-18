@@ -3,6 +3,7 @@ title: Qualität
 description: Für moderne Hersteller.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Qualität
 ![icons_odoo_quality_control](attachments/icons_odoo_quality_control.png)

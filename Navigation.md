@@ -3,6 +3,7 @@ title: Navigation
 description: Navigation in der Benutzeroberfläche von Odoo.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # Navigation
 ![icons_odoo_website_partner](attachments/icons_odoo_website_partner.png)

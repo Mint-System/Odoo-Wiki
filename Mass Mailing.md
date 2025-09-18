@@ -3,6 +3,7 @@ title: E-Mail-Marketing
 description: E-Mail-Marketing leicht gemacht.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # E-Mail-Marketing
 ![icons_odoo_mass_mailing](attachments/icons_odoo_mass_mailing.png)

@@ -3,6 +3,7 @@ title: IoT
 description: Alles, was das "Internet der Dinge (IoT)" bietet.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 # IoT
 ![icons_odoo_iot](attachments/icons_odoo_iot.png)
