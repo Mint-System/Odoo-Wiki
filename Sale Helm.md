@@ -10,4 +10,4 @@ prev: ./mint-cloud
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_helm`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/18.0/sale_helm>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-SaaS/tree/18.0/sale_helm>
