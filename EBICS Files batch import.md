@@ -25,7 +25,7 @@ Kopieren Sie den folgenden Code in das Feld *Python-Code*:
 ```python
 ebics_config_ids = 1
 date_from = datetime.datetime.today() - datetime.timedelta(days=1)
-date_to = datetime.datetime.today()
+date_to = datetime.datetime.today() - datetime.timedelta(days=1)
 model._batch_import(ebics_config_ids=ebics_config_ids, date_from=date_from , date_to=date_to)
 ```
 

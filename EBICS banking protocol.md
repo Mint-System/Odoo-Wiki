@@ -94,6 +94,24 @@ Um die heruntergeladenen Camt.053-Dateien zu verarbeiten, rufen Sie *Rechnungsst
 
 Im Tab *Bank Statements* sehen Sie den importierten Bankauszug. Klicken Sie auf den Bankauszug um die Abstimmung zu starten.
 
+## Aktionen
+
+### Zurücksetzen
+
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Zurücksetzen`\
+Modell: `ebics.file`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+records.set_to_draft()
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+
 ## Troubleshooting
 
 ### No bank defined
