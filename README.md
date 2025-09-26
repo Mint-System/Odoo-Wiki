@@ -422,6 +422,12 @@ Mehrere Marken für ihr Unternehmen präsentieren.
 
 Anleitung zur Odoo-App Certificate Planner.
 
+### [EBICS](EBICS.md)
+
+![](attachments/icons_odoo_ebics.png)
+
+Odoo direkt mit der Bank verbinden.
+
 ### [Einkauf Kaufverträge](Purchase%20Requisition.md)
 
 ![icons_odoo_purchase](attachments/icons_odoo_purchase.png)

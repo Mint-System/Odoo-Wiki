@@ -6,7 +6,7 @@ partner: Thirdparty
 prev: ./accounting
 ---
 # EBICS banking protocol
-![](attachments/icons_odoo_thirdparty.png)
+![](attachments/icons_odoo_ebics.png)
 
 {{ $frontmatter.description }}
 

@@ -65,10 +65,6 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Statement Import File](Account%20Statement%20Import%20File.md)                                    | Bankauszüge importieren.                                                          |
 | [Account Statement Import](Account%20Statement%20Import.md)                                                | Bankauszüge importieren.                                                          |
 | [Account Usability](Account%20Usability.md)                                                                | Menüs der Enterprise Finanzbuchhaltung für Community.                             |
-| [EBICS Files batch export](EBICS%20Files%20batch%20export.md)                                              | EBICS-Dateien automatisch hochladen.                                              |
-| [EBICS Files batch import](EBICS%20Files%20batch%20import.md)                                              | EBICS-Dateien automatisch herunterladen.                                          |
-| [EBICS banking Odoo Enterprise](EBICS%20banking%20Odoo%20Enterprise.md)                                    | EBICS-Apps mit Odoo Enterprise Buchhaltung integrieren.                           |
-| [EBICS banking protocol](EBICS%20banking%20protocol.md)                                                    | Connect Odoo with bank account through EBICS.                                     |
 
 ## Konfiguration
 
