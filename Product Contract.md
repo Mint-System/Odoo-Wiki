@@ -45,3 +45,39 @@ Per Smart Button kann man von einem Verkaufsauftrag zum zugehörigen Kundenvertr
 ### Rechnungsstellung
 
 Die Rechnung zu einem Verkaufsauftrag enthält nur die Nicht-Vertragsprodukte.
+
+## Aktionen
+
+### Wiederkehrendes Produkt in Vertrag umwandeln
+
+Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Wiederkehrendes Produkt in Vertrag umwandeln`\
+Modell: `product.template`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+
+```python
+mapping = {
+	"1M": "monthly",
+	"1J": "yearly",
+	"1Q": "quarterly",
+	"3J": "yearly",
+	"5J": "yearly",
+	"2J": "yearly",
+	"10J": "yearly",
+	"7J": "yearly",
+	"4J": "yearly",
+}
+for record in records:  
+  record.write({
+	  'recurring_invoice': False,
+	  'is_contract': True,
+	  'is_auto_renew': True,
+	  'auto_renew_interval': int(record.subscription_template_id.code.replace("J", "").replace("Q", "").replace("M", "")),
+	  'recurring_rule_type': mapping[record.subscription_template_id.code]
+	})
+```
+
+Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
