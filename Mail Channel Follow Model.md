@@ -25,3 +25,5 @@ Erstellen Sie beispielsweise für ihr Verkaufsteam einen Kanal *Verkauf* und abo
 ### Datenmodell auf Kanal abonnieren
 
 Öffnen Sie die App *Dialog* und klicken Sie neben dem Kanal-Namen auf das Konfigurations-Icons. Wählen Sie den Tab *Follower* und fügen Sie einen neuen Eintrag hinzu. Wählen Sie das zu abonnierende Datenmodell aus.
+
+Optional können Sie mit dem Feld *Subtype* einen Nachrichten-Typ zur Filterung wählen. Wenn Sie *External Only* aktivieren, werden Sie nur benachrichtigt, wenn der Author ein externer Absender ist.
