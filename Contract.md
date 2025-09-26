@@ -85,3 +85,14 @@ for record in records:
 Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
 
 ![](attachments/Contract%20Aktion%20Rechnung%20anlegen.png)
+
+## Auswertung
+
+### Kundenvertragszeilen anzeigen
+
+Damit Sie eine Übersicht der Kundenvertragszeilen erhalten, folgen Sie dem HowTo [Menüposten erstellen](Development.md#Menüposten%20erstellen) und verwenden diese Werte:
+
+Menü: `Kundenvertragszeilen`\
+Obermenü: `Buchhlatung/Kunden`\
+Aktion: `ir.actions.act_window` `Customer Contract Lines`\
+Sequenz: `99`
