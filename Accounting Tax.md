@@ -306,11 +306,11 @@ Wenn Sie mit Saldosteuersätzen die Mehrwersteuer abrechnen, müssen Sie die aus
 
 - **Name**: UST 8,1% Lief./DL (exkl. MWST) Beratung
 - **Verteilung für Rechnungen**:
-    - Zeile 2 %: 84.08
-    - Zeile 3 %: 15.92
+  - Zeile 2 %: 84.08
+  - Zeile 3 %: 15.92
 - **Verteilung für Gutschriften**:
-    - Zeile 2 %: 84.08
-    - Zeile 3 %: 15.92
+  - Zeile 2 %: 84.08
+  - Zeile 3 %: 15.92
 
 Auf einer Kundenrechnung wird die Differenz von 6,3% zu 8,1% wird als Erlös gut geschrieben. Auf dem Steuerbericht erscheint nur der Betrag von 6,3% als geschuldete Mehrwertsteuer.
 

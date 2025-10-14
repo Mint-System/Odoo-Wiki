@@ -132,9 +132,9 @@ Der Home-Eintrag mit dem Pfad `/` darf man nicht entfernen. Wenn man diesen ausb
 
 ```html
 <style>
-    div.dropdown-menu li:first-child,
-    li.nav-item:first-child {
-        display: none;
-    }
+  div.dropdown-menu li:first-child,
+  li.nav-item:first-child {
+    display: none;
+  }
 </style>
 ```

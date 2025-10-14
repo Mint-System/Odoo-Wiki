@@ -131,10 +131,10 @@ Wenn Sie die Saldosteuersätze ausweisen möchhten, müssen Sie für jeden Saldo
 - **Übergeordnete Zeile**: 303a - Normalsatz (8.1%): Leistungen CHF ab 01.01.2024
 - **Code**: tax*ch_303a*$ID
 - **Ausdrücke**:
-    - **Ausdruck**: balance
-    - **Berechnungsmaschine**: Odoo-Bereich
-    - **Formel**: `[("tax_ids", "ilike", "Online Stellenportal")]`
-    - **Unterformel**: -sum
+  - **Ausdruck**: balance
+  - **Berechnungsmaschine**: Odoo-Bereich
+  - **Formel**: `[("tax_ids", "ilike", "Online Stellenportal")]`
+  - **Unterformel**: -sum
 
 Auf dem Steuerbericht sieht das wie folgt aus:
 

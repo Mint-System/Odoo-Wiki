@@ -3,7 +3,7 @@ title: Stock Move Analysis Value
 description: Fügt des Standardpreis eines Produkts der Buchungsanalyse hinzu.
 kind: howto
 tags:
-    - Mint-System
+  - Mint-System
 prev: ./stock
 ---
 

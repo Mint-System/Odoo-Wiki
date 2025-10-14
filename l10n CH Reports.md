@@ -2,8 +2,8 @@
 title: Schweizer Buchhaltungsauswertungen
 description: Schweizer Lokalisierung der Buchhaltung.
 tags:
-    - HowTo
-    - CommunityEdition
+  - HowTo
+  - CommunityEdition
 prev: ./l10n-ch
 ---
 

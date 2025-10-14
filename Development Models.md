@@ -50,8 +50,8 @@ Erstellen Sie ein neues Feld unter _Einstellungen > Technisch > Datenbankstruktu
 - **Modell**: Lagerbuchung (technischer Name ist `stock.move`)
 - **Typfeld-Text**: Ganzzahl
 - **Basiseigenschaften**:
-    - Nur Lesen
-    - Gespeichert
+  - Nur Lesen
+  - Gespeichert
 - **Abhängigkeiten**: `quantity_done`
 - **Berechnen**:
 
@@ -79,8 +79,8 @@ Erstellen Sie ein neues Feld unter _Einstellungen > Technisch > Datenbankstruktu
 - **Modell**: Auftragsposition (technischer Name ist `sale.order.line`)
 - **Typfeld-Text**: Text
 - **Basiseigenschaften**:
-    - Nur Lesen
-    - Gespeichert
+  - Nur Lesen
+  - Gespeichert
 - **Beziehungs-Feld**: `order_id.client_order_ref`
 
 ![](attachments/Entwicklung%20Neues%20Beziehungs-Feld%20hinzufügen.png)

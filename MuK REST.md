@@ -57,12 +57,12 @@ result = model.name_create(params.get('name'))
 
 ```json
 [
-    {
-        "name": "name",
-        "in": "query",
-        "description": "Product Name",
-        "schema": { "type": "string" }
-    }
+  {
+    "name": "name",
+    "in": "query",
+    "description": "Product Name",
+    "schema": { "type": "string" }
+  }
 ]
 ```
 

@@ -3,19 +3,19 @@ title: Odoo Wiki
 description: Umfassende Dokumentation der Odoo-Funktionen.
 kind: reference
 head:
-    - - link
-      - rel: canonical
-        href: https://www.odoo-wiki.org
+  - - link
+    - rel: canonical
+      href: https://www.odoo-wiki.org
 tags:
-    - odoo
-    - wiki
-    - documentation
-    - howto
-    - best-practice
-    - tutorial
-    - explanation
-    - references
-    - processes
+  - odoo
+  - wiki
+  - documentation
+  - howto
+  - best-practice
+  - tutorial
+  - explanation
+  - references
+  - processes
 ---
 
 # Odoo Wiki

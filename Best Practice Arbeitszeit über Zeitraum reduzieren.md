@@ -2,7 +2,7 @@
 title: Arbeitszeit über Zeitraum reduzieren
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
-    - Best-Practice
+  - Best-Practice
 prev: ./best-practice
 draft: false
 ---

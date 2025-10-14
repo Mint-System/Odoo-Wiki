@@ -436,8 +436,8 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Akt
 
 - **Folgeaktion**: Den Datensatz aktualisieren
 - **Zu schreibende Daten**:
-    - Feld: `to_check`
-    - Wert: `True`
+  - Feld: `to_check`
+  - Wert: `True`
 
 ### Notizen und Abschnitte enfernen
 

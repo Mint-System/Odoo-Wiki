@@ -3,7 +3,7 @@ title: Rechnungsstellung Aktionen
 description: Neue Aktionen für Rechnungstellung und Mahnungen.
 kind: howto
 tags:
-    - Actions
+  - Actions
 prev: ./accounting
 ---
 

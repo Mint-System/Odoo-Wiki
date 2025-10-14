@@ -2,7 +2,7 @@
 title: Use Case - Schokoladenfabrik
 description: Use Case für mehrstufige Qualitätskontrollen.
 tags:
-    - Use-Case
+  - Use-Case
 prev: ./best-practice
 ---
 
@@ -85,67 +85,67 @@ Im folgenden sind die Produkte und deren Konfiguration gruppiert nach Produktkat
 Rohstoffe QC:
 
 - **Kakaobohnen** kg
-    - Route: Einkauf Rohstoff mit Q-Prüfung
-    - Lieferant: Kakao ACME, 1CHF
-    - Kategorie: Rohstoff QC
-    - Nachverfolgung: mittels Chargen
+  - Route: Einkauf Rohstoff mit Q-Prüfung
+  - Lieferant: Kakao ACME, 1CHF
+  - Kategorie: Rohstoff QC
+  - Nachverfolgung: mittels Chargen
 - **Kakaobutter** kg
-    - Route: Einkauf Rohstoff mit Q-Prüfung
-    - Lieferant: Kakao ACME, 1CHF
-    - Kategorie: Rohstoff QC
+  - Route: Einkauf Rohstoff mit Q-Prüfung
+  - Lieferant: Kakao ACME, 1CHF
+  - Kategorie: Rohstoff QC
 
 Rohstoffe (Input):
 
 - **Zucker** kg
-    - Route: Einkauf Rohstoff direkt
-    - Lieferant: Kakao ACME, 1CHF
-    - Kategorie: Rohstoffe
+  - Route: Einkauf Rohstoff direkt
+  - Lieferant: Kakao ACME, 1CHF
+  - Kategorie: Rohstoffe
 - **Flüssigkeit** L
-    - Kategorie: Rohstoffe
+  - Kategorie: Rohstoffe
 
 Halbfabrikat QC:
 
 - **Kakaopulver** 1kg
-    - Route: Fertigung Halbfabrikat mit Q-Prüfung
-    - Katgeorie: Halbfabrikat QC
-    - BoM:
-        - Route:
-        - Komponenten:
-            - 2kg Kakaobohnen
+  - Route: Fertigung Halbfabrikat mit Q-Prüfung
+  - Katgeorie: Halbfabrikat QC
+  - BoM:
+    - Route:
+    - Komponenten:
+      - 2kg Kakaobohnen
 
 Halbfabrikat:
 
 - **Karamell** 1kg
+  - Route: Fertigung Halbfabrikat direkt
+  - Kategorie: Halbfabrikat
+  - BoM:
     - Route: Fertigung Halbfabrikat direkt
-    - Kategorie: Halbfabrikat
-    - BoM:
-        - Route: Fertigung Halbfabrikat direkt
-        - Komponenten:
-        - 1kg Zucker
+    - Komponenten:
+    - 1kg Zucker
 
 Fertigprodukt QC:
 
 - **Schokoladentafel** 1 Einheit (100g)
-    - Route: Fertigung Fertigprodukt mit Q-Prüfung
-    - Kategorie: Fertigprodukt QC
-    - Nachverfolgung: mittels Chargen
-    - BoM:
-        - Route:
-        - Komponenten:
-        - 50g Kakaobutter
-        - 40g Kakaopulver
-        - 10g Zucker
+  - Route: Fertigung Fertigprodukt mit Q-Prüfung
+  - Kategorie: Fertigprodukt QC
+  - Nachverfolgung: mittels Chargen
+  - BoM:
+    - Route:
+    - Komponenten:
+    - 50g Kakaobutter
+    - 40g Kakaopulver
+    - 10g Zucker
 
 Fertigprodukt:
 
 - **Karamellcreme** 1kg
-    - Route: Fertigung Fertigprodukt direkt
-    - Kategorie: Fertigprodukt
-    - BoM:
-        - Route:
-        - Komponenten:
-        - 500g Karamell
-        - 0.5L Flüssigkeit
+  - Route: Fertigung Fertigprodukt direkt
+  - Kategorie: Fertigprodukt
+  - BoM:
+    - Route:
+    - Komponenten:
+    - 500g Karamell
+    - 0.5L Flüssigkeit
 
 ### Routen
 
@@ -156,45 +156,45 @@ Ein Beispiel wie mehrstufige Routen aussehen:
 Konfigurieren Sie diese Routen:
 
 - **Einkauf Rohstoff direkt**
-    - Name: WH: QC1 (buy)
-        - Einkaufen: → WH/Stock
-        - Vorgangstyp: Zürch: **Anlieferung**
-        - Lager: Zürch
+  - Name: WH: QC1 (buy)
+    - Einkaufen: → WH/Stock
+    - Vorgangstyp: Zürch: **Anlieferung**
+    - Lager: Zürch
 - **Einkauf Rohstoff mit Q-Prüfung**
-    - Name: WH: QC1 (Buy)
-        - Einkaufen: → WH/QC1
-        - Vorgangstyp: Zürch: **Anlieferungen Q1**
-        - Lager: Zürch
-    - Name:
-        - Holen & Schieben nach: WH/QC1 → WH/Stock
-        - Vorgangstyp: Zürch: **Interne Transfers Q1**
-        - Lager: Zürch
+  - Name: WH: QC1 (Buy)
+    - Einkaufen: → WH/QC1
+    - Vorgangstyp: Zürch: **Anlieferungen Q1**
+    - Lager: Zürch
+  - Name:
+    - Holen & Schieben nach: WH/QC1 → WH/Stock
+    - Vorgangstyp: Zürch: **Interne Transfers Q1**
+    - Lager: Zürch
 - **Fertigung Fertigprodukt direkt**
-    - Name: WH: Post-Production (Production)
-        - Fertigung: → WH/Stock
-        - Vorgangstyp: Zürch: **Manufacturing**
-        - Lager: Zürch
+  - Name: WH: Post-Production (Production)
+    - Fertigung: → WH/Stock
+    - Vorgangstyp: Zürch: **Manufacturing**
+    - Lager: Zürch
 - **Fertigung Fertigprodukt mit Q-Prüfung**
-    - Name: WH: QC5 (Production)
-        - Fertigung: WH Stock → WH/QC5
-        - Vorgangstyp: Zürch: **Manufacturing Q5**
-        - Lager: Zürch
-    - Name:
-        - Holen & Schieben nach: WH/QC5 → WH/Stock
-        - Vorgangstyp: Zürch: **Store Finished Product Q5**
-        - Lager: Zürch
+  - Name: WH: QC5 (Production)
+    - Fertigung: WH Stock → WH/QC5
+    - Vorgangstyp: Zürch: **Manufacturing Q5**
+    - Lager: Zürch
+  - Name:
+    - Holen & Schieben nach: WH/QC5 → WH/Stock
+    - Vorgangstyp: Zürch: **Store Finished Product Q5**
+    - Lager: Zürch
 
 Optional konfigurieren Sie diese Routen:
 
 - **Fertigung Halbfabrikat mit Q-Prüfung**
-    - Name:
-        - Fertigung: -> WH/QC5
-        - Holen & Schieben nach: WH/QC5 -> WH/Stock
-        - Lager: Zürch
+  - Name:
+    - Fertigung: -> WH/QC5
+    - Holen & Schieben nach: WH/QC5 -> WH/Stock
+    - Lager: Zürch
 - **Fertigung Halbfabrikat direkt**
-    - Name:
-        - Fertigung: -> WH/Stock
-        - Lager: Zürch
+  - Name:
+    - Fertigung: -> WH/Stock
+    - Lager: Zürch
 
 ### Arbeitsplätze
 

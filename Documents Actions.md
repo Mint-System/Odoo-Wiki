@@ -3,7 +3,7 @@ title: Dokumente Aktionen
 description: Arbeitsflüsse mit Dokumenten automatisieren.
 kind: howto
 tags:
-    - Actions
+  - Actions
 prev: ./documents
 ---
 

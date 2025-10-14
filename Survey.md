@@ -57,26 +57,26 @@ Führen Sie [E-Mail-Vorlage erfassen](Dialog%20E-Mail.md#E-Mail-Vorlage%20erfass
 
 ```html
 <div style="margin:0px;padding:0px; ">
-    <p style="padding:0px; ">
-        Guten Tag ${object.partner_id.name or 'participant'}<br /><br />
-        % if object.survey_id.certificate: Sie wurden eingeladen eine
-        Zertifizierung durchzuführen. % else: Wir machen eine Umfrage und ihre
-        Teilnahme ist Willkommen. % endif
-    </p>
+  <p style="padding:0px; ">
+    Guten Tag ${object.partner_id.name or 'participant'}<br /><br />
+    % if object.survey_id.certificate: Sie wurden eingeladen eine Zertifizierung
+    durchzuführen. % else: Wir machen eine Umfrage und ihre Teilnahme ist
+    Willkommen. % endif
+  </p>
 
-    <div style="margin:16px 0px 16px 0px">
-        <a
-            href="${('%s?answer_token=%s' % (object.survey_id.public_url, object.token)) | safe}"
-            style="background-color:#875A7B;padding:8px 16px 8px 16px; text-decoration:none; color:#fff; border-radius:5px; font-size:13px"
-        >
-            % if object.survey_id.certificate: Zertifizierung starten % else:
-            Umfrage starten % endif
-        </a>
-    </div>
+  <div style="margin:16px 0px 16px 0px">
+    <a
+      href="${('%s?answer_token=%s' % (object.survey_id.public_url, object.token)) | safe}"
+      style="background-color:#875A7B;padding:8px 16px 8px 16px; text-decoration:none; color:#fff; border-radius:5px; font-size:13px"
+    >
+      % if object.survey_id.certificate: Zertifizierung starten % else: Umfrage
+      starten % endif
+    </a>
+  </div>
 
-    % if object.deadline: Beantworten Sie die Umfrage bis
-    ${format_date(object.deadline)}.<br /><br />
-    % endif Vielen Danke für ihre Teilnahme.
+  % if object.deadline: Beantworten Sie die Umfrage bis
+  ${format_date(object.deadline)}.<br /><br />
+  % endif Vielen Danke für ihre Teilnahme.
 </div>
 ```
 

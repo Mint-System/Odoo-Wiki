@@ -35,7 +35,7 @@ Für korrekte Buchungen geben Sie im Abschnitt _Buchhaltung_ diese Werte an:
 - **Aktivkonto der Anlage**: Konto vom Typ Anlagevermögen. Beispiel: 1500 Maschinen und Apparate
 - **Kum. Wertberichtigungskonto**: Konto vom Typ Anlagevermögen. Beispiel: 1509 Abschreibungen auf Maschinen und Apparate
 - **Aktivkonto der Anlage**: Aufwandskonto. Beispiel: 6800 Abschreibungen und Wertberichtigungen auf Positionen des Anlagevermögens
--   - **Journal**: Siehe [Journal Inventur erstellen](#Journal%20Inventur%20erstellen)
+- - **Journal**: Siehe [Journal Inventur erstellen](#Journal%20Inventur%20erstellen)
 
 ![](attachments/Buchhaltung%20Anlagenverwaltung%20Beispiel%20Drehbank.png)
 

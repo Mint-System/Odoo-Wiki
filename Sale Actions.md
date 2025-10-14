@@ -3,7 +3,7 @@ title: Verkauf Aktionen
 description: Arbeitsflüsse im Verkauf automatisieren.
 kind: howto
 tags:
-    - Actions
+  - Actions
 prev: ./sale
 ---
 

@@ -3,7 +3,7 @@ title: Components
 description: Kompontent-System für das Connector-Framework.
 kind: howto
 tags:
-    - OCA
+  - OCA
 prev: ./development
 ---
 

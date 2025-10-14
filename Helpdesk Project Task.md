@@ -3,7 +3,7 @@ title: Helpdesk Project Task
 description: Projektaufgaben und Helpdesk-Tickets verlinken.
 kind: howto
 tags:
-    - Mint-System
+  - Mint-System
 prev: ./helpdesk
 ---
 

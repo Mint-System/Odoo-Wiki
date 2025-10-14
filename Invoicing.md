@@ -94,9 +94,9 @@ Navigieren Sie nach _Rechnungsstellung > Kunden > Gutschriften_ und erfassen Sie
 Öffnen Sie _Rechnungsstellung > Kunden > Rechnungen_ und zeigen Sie die Rechnung an, welche vergütet werden soll. Wählen Sie die Aktion _Gutschrift Erstellen_ und aktivieren die passenden Optionen:
 
 - **Kreditmethode**:
-    - Teilweise Rückerstattung:
-    - Komplette Rückerstattung: Es wird eine Gegenbuchung erstellt
-    - Komplette Rückerstattung und neuer Rechnungsentwurf: Es wird eine Gegenbuchung erstellt und die Rechnung kopiert.
+  - Teilweise Rückerstattung:
+  - Komplette Rückerstattung: Es wird eine Gegenbuchung erstellt
+  - Komplette Rückerstattung und neuer Rechnungsentwurf: Es wird eine Gegenbuchung erstellt und die Rechnung kopiert.
 - **Begründung**: Geben Sie einen Text für die Gegenbuchung ein
 - **Stornodatum**: Wenn Sie _Spezifisch_ wählen, treffen Sie für das _Rückerstattungsdatum_ eine Auswahl
 

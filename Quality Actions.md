@@ -3,7 +3,7 @@ title: Qualität Aktionen
 description: Arbeitsflüsse im Qualitätsmanagement automatisieren.
 kind: howto
 tags:
-    - Actions
+  - Actions
 prev: ./quality
 ---
 

@@ -3,7 +3,7 @@ title: Mail Channel Follow Model
 description: Kanäle können Datenmodell abonnieren und zeigen Benachrichtigungen an.
 kind: howto
 tags:
-    - Mint-System
+  - Mint-System
 prev: ./dialog
 ---
 

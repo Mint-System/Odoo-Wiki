@@ -1,123 +1,123 @@
 {
-    "templates": {
-        "common": {
-            "main": "title",
-            "fallback": "fallback_title"
-        },
-        "explorer": {
-            "main": null,
-            "fallback": null
-        },
-        "explorer:sort": {
-            "main": null,
-            "fallback": null
-        },
-        "graph": {
-            "main": null,
-            "fallback": null
-        },
-        "header": {
-            "main": null,
-            "fallback": null
-        },
-        "starred": {
-            "main": null,
-            "fallback": null
-        },
-        "search": {
-            "main": null,
-            "fallback": null
-        },
-        "tab": {
-            "main": null,
-            "fallback": null
-        },
-        "alias": {
-            "main": null,
-            "fallback": null
-        },
-        "suggest": {
-            "main": null,
-            "fallback": null
-        },
-        "inlineTitle": {
-            "main": null,
-            "fallback": null
-        },
-        "canvas": {
-            "main": null,
-            "fallback": null
-        },
-        "backlink": {
-            "main": null,
-            "fallback": null
-        },
-        "noteLink": {
-            "main": null,
-            "fallback": null
-        }
+  "templates": {
+    "common": {
+      "main": "title",
+      "fallback": "fallback_title"
     },
-    "rules": {
-        "paths": {
-            "mode": "black",
-            "values": []
-        },
-        "delimiter": {
-            "enabled": false,
-            "value": ""
-        }
+    "explorer": {
+      "main": null,
+      "fallback": null
     },
-    "debug": false,
-    "boot": {
-        "delay": 1000
+    "explorer:sort": {
+      "main": null,
+      "fallback": null
     },
-    "features": {
-        "alias": {
-            "enabled": true,
-            "strategy": "ensure",
-            "validator": "fr"
-        },
-        "explorer": {
-            "enabled": false
-        },
-        "explorer:sort": {
-            "enabled": false
-        },
-        "tab": {
-            "enabled": false
-        },
-        "header": {
-            "enabled": false
-        },
-        "graph": {
-            "enabled": false
-        },
-        "starred": {
-            "enabled": false
-        },
-        "search": {
-            "enabled": false
-        },
-        "suggest": {
-            "enabled": false
-        },
-        "inlineTitle": {
-            "enabled": false
-        },
-        "canvas": {
-            "enabled": false
-        },
-        "backlink": {
-            "enabled": false
-        },
-        "noteLink": {
-            "enabled": false,
-            "approval": true,
-            "strategy": "onlyEmpty"
-        }
+    "graph": {
+      "main": null,
+      "fallback": null
     },
-    "processor": {
-        "args": [],
-        "type": null
+    "header": {
+      "main": null,
+      "fallback": null
+    },
+    "starred": {
+      "main": null,
+      "fallback": null
+    },
+    "search": {
+      "main": null,
+      "fallback": null
+    },
+    "tab": {
+      "main": null,
+      "fallback": null
+    },
+    "alias": {
+      "main": null,
+      "fallback": null
+    },
+    "suggest": {
+      "main": null,
+      "fallback": null
+    },
+    "inlineTitle": {
+      "main": null,
+      "fallback": null
+    },
+    "canvas": {
+      "main": null,
+      "fallback": null
+    },
+    "backlink": {
+      "main": null,
+      "fallback": null
+    },
+    "noteLink": {
+      "main": null,
+      "fallback": null
     }
+  },
+  "rules": {
+    "paths": {
+      "mode": "black",
+      "values": []
+    },
+    "delimiter": {
+      "enabled": false,
+      "value": ""
+    }
+  },
+  "debug": false,
+  "boot": {
+    "delay": 1000
+  },
+  "features": {
+    "alias": {
+      "enabled": true,
+      "strategy": "ensure",
+      "validator": "fr"
+    },
+    "explorer": {
+      "enabled": false
+    },
+    "explorer:sort": {
+      "enabled": false
+    },
+    "tab": {
+      "enabled": false
+    },
+    "header": {
+      "enabled": false
+    },
+    "graph": {
+      "enabled": false
+    },
+    "starred": {
+      "enabled": false
+    },
+    "search": {
+      "enabled": false
+    },
+    "suggest": {
+      "enabled": false
+    },
+    "inlineTitle": {
+      "enabled": false
+    },
+    "canvas": {
+      "enabled": false
+    },
+    "backlink": {
+      "enabled": false
+    },
+    "noteLink": {
+      "enabled": false,
+      "approval": true,
+      "strategy": "onlyEmpty"
+    }
+  },
+  "processor": {
+    "args": [],
+    "type": null
+  }
 }

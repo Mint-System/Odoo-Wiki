@@ -56,8 +56,8 @@ Im Tab _E-Mail-Konfiguration_ finden Sie diese Parameter:
 
 - **Von**: ID des Absender-Kontakt. Standard: `${(object.user_id.email_formatted or user.email_formatted) | safe}`
 - **Standardempfänger**: Wenn markiert wird Standardempfänge `partner_id` von Objekt verwendet.
-    - **An (E-Mails)**: E-Mail-Adressen als Text. Standard: `${object.work_email | safe}`
-    - **An (Partner)**: ID des Empfänger-Kontakt. Standard: `${object.partner_id.id}`
+  - **An (E-Mails)**: E-Mail-Adressen als Text. Standard: `${object.work_email | safe}`
+  - **An (Partner)**: ID des Empfänger-Kontakt. Standard: `${object.partner_id.id}`
 - **CC**: E-Mail-Adressen als CC.
 - **Antwort an**: Überschreiben der Antworten-Adresse.
 - **Geplantes Sendedatum**: Dynamisches Datum für das geplante Versenden.

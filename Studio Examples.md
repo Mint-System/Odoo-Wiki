@@ -59,12 +59,12 @@ An jedem Odoo-Objekt kann ein Anhang vom Typ Datei oder URL hinzugefügt werden.
 In diesem Beispiel wurde mit Odoo Studio dem Modell _product.product_ zwei Felder hinzugefügt:
 
 - Name: x_studio_drawing
-    - Typ: Many2One Produktionsdokument
-    - Bezeichnung: Zeichnung
+  - Typ: Many2One Produktionsdokument
+  - Bezeichnung: Zeichnung
 
 - Name: x_studio_step_file
-    - Typ: Man2One Produktionsdokument
-    - Bezeichnung: STEP-Datei
+  - Typ: Man2One Produktionsdokument
+  - Bezeichnung: STEP-Datei
 
 ![](attachments/Studio%20Produkt%20Variante%20zusätzliche%20Felder.png)
 

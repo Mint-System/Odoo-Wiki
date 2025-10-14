@@ -39,19 +39,19 @@ Mit den Mapper-Aktionen können Sie JSON-Schemas mit verschalteten Attributen ab
 
 ```json
 {
-    "id": 13486,
-    "ref": "ST-569580",
-    "author": {
-        "id": 19572,
-        "name": "Christian Bollinger"
-    },
-    "organisation": {
-        "id": 958,
-        "name": "Gemeinde Hünenberg"
-    },
-    "customer_organisation": {},
-    "qualifications": ["Hochschulbildung", "Höhere Berufsbildung"],
-    "working_areas": ["Altersarbeit", "Sozialraum / Soziokultur"]
+  "id": 13486,
+  "ref": "ST-569580",
+  "author": {
+    "id": 19572,
+    "name": "Christian Bollinger"
+  },
+  "organisation": {
+    "id": 958,
+    "name": "Gemeinde Hünenberg"
+  },
+  "customer_organisation": {},
+  "qualifications": ["Hochschulbildung", "Höhere Berufsbildung"],
+  "working_areas": ["Altersarbeit", "Sozialraum / Soziokultur"]
 }
 ```
 

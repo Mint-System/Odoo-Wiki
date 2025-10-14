@@ -1,24 +1,24 @@
 {
-    "strictLineBreaks": true,
-    "alwaysUpdateLinks": true,
-    "attachmentFolderPath": "./attachments",
-    "newLinkFormat": "relative",
-    "useMarkdownLinks": true,
-    "trashOption": "none",
-    "promptDelete": false,
-    "legacyEditor": false,
-    "livePreview": false,
-    "userIgnoreFilters": [
-        "build.js",
-        "package.json",
-        "obsidian.css",
-        "default.vim",
-        "package-lock.json",
-        "task.js",
-        "node_modules/",
-        "src/"
-    ],
-    "spellcheckLanguages": null,
-    "showInlineTitle": false,
-    "spellcheck": true
+  "strictLineBreaks": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./attachments",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "trashOption": "none",
+  "promptDelete": false,
+  "legacyEditor": false,
+  "livePreview": false,
+  "userIgnoreFilters": [
+    "build.js",
+    "package.json",
+    "obsidian.css",
+    "default.vim",
+    "package-lock.json",
+    "task.js",
+    "node_modules/",
+    "src/"
+  ],
+  "spellcheckLanguages": null,
+  "showInlineTitle": false,
+  "spellcheck": true
 }

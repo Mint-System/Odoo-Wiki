@@ -3,7 +3,7 @@ title: Mass Editing
 description: Aktionen zur Bearbeitung von mehreren Einträgen erstellen.
 kind: howto
 tags:
-    - OCA
+  - OCA
 prev: ./development
 ---
 
