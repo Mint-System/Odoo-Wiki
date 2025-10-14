@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Zeiterfassung
+
 ![icons_odoo_hr_timesheet](attachments/icons_odoo_hr_timesheet.png)
 
 {{ $frontmatter.description }}
@@ -37,7 +39,7 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 
 ### Abrechnungspolitik festlegen
 
-Navigieren Sie nach *Einstellungen > Zeiterfassung > Abrechnung* und wählen Sie eine Option bei *Abrechnungspolitik*. Ist die Auswahl *Nur validierte Zeiterfassungen* aktiviert, müssen die Zeiterfassungen zur Verrechnung zuerst validiert werden.
+Navigieren Sie nach _Einstellungen > Zeiterfassung > Abrechnung_ und wählen Sie eine Option bei _Abrechnungspolitik_. Ist die Auswahl _Nur validierte Zeiterfassungen_ aktiviert, müssen die Zeiterfassungen zur Verrechnung zuerst validiert werden.
 
 ::: tip
 Um die Option zu aktivieren kann auch das Modul `sale_timesheet_enterprise` installiert werden.
@@ -45,7 +47,7 @@ Um die Option zu aktivieren kann auch das Modul `sale_timesheet_enterprise` inst
 
 ### Benachrichtigung "Erinnerung an Ihre Zeiterfassung" deaktivieren
 
-Wenn Sie die Benachrichtigung *Erinnerung an Ihre Zeiterfassung* nicht mehr erhalten möchten, müssen sie ihren Mitarbeiter-Eintrag archivieren oder die geplante Aktion *Zeiterfassung: E-Mail-Erinnerung an Mitarbeiter* deaktivieren.
+Wenn Sie die Benachrichtigung _Erinnerung an Ihre Zeiterfassung_ nicht mehr erhalten möchten, müssen sie ihren Mitarbeiter-Eintrag archivieren oder die geplante Aktion _Zeiterfassung: E-Mail-Erinnerung an Mitarbeiter_ deaktivieren.
 
 ## Erfassung
 
@@ -53,14 +55,14 @@ Wenn Sie die Benachrichtigung *Erinnerung an Ihre Zeiterfassung* nicht mehr erha
 
 Damit ein Odoo Benutzer einen Zeiterfassungs-Eintrag machen kann, müssen die folgenden Bedingungen erfüllt sein:
 
-* Dem Benutzer ist ein Mitarbeiter zugewiesen
-* Der Benutzer hat Zugriff auf ein Projekt und auf eine Projektaufgabe
+- Dem Benutzer ist ein Mitarbeiter zugewiesen
+- Der Benutzer hat Zugriff auf ein Projekt und auf eine Projektaufgabe
 
-Zur manuellen Erfassung folgende Aktion ausführen *Zeiterfassung > + Anlegen*. Anschliessend die Beschreibung eingeben, Projekt wählen, Aufgabe wählen und die Zeitdauer eintragen.
+Zur manuellen Erfassung folgende Aktion ausführen _Zeiterfassung > + Anlegen_. Anschliessend die Beschreibung eingeben, Projekt wählen, Aufgabe wählen und die Zeitdauer eintragen.
 
 ### Verrechnungstyp anpassen
 
-Jedem Zeiterfassungseintrag ist ein Verrechnungstyp zugeweisen. Dieser wird beim Erstellen des Eintrags abhängig von der Konfiguration des Projekts und der Projektaufgabe festgelegt. In der Listenansicht des Stundenzettels kann nach dem Attribut *Abrechenbarer Typ* gruppiert werden. Falsche Einträge können so identifiziert werden.
+Jedem Zeiterfassungseintrag ist ein Verrechnungstyp zugeweisen. Dieser wird beim Erstellen des Eintrags abhängig von der Konfiguration des Projekts und der Projektaufgabe festgelegt. In der Listenansicht des Stundenzettels kann nach dem Attribut _Abrechenbarer Typ_ gruppiert werden. Falsche Einträge können so identifiziert werden.
 
 Wenn Sie den Abrechnungstyp von bestehenden Einträgen ändern möchten, müssen Sie die verknüpfte Aufgaben ändern und wieder zuweisen.
 
@@ -70,25 +72,25 @@ Wenn Sie den Abrechnungstyp von bestehenden Einträgen ändern möchten, müssen
 
 ### Zeiterfassung validieren
 
-Der Zeiterfassung-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Validieren > letzter Monat*. Es werden Standardmässig die eigenen Zeiterfassungseinträge und die des Teams aufgelistet. Eine Validierung der Einträge erfolgt mit Knopf *Validiere*.
+Der Zeiterfassung-Manager des Mitarbeiters navigiert nach _Zeiterfassung > Zu Validieren > letzter Monat_. Es werden Standardmässig die eigenen Zeiterfassungseinträge und die des Teams aufgelistet. Eine Validierung der Einträge erfolgt mit Knopf _Validiere_.
 
 ### Zeiterfassung bis Datum validieren
 
-*Gilt für #Odoo13.*
+_Gilt für #Odoo13._
 
-Der Stundenzettel-Manager des Mitarbeiters navigiert nach *Zeiterfassung > Zu Validieren* und wählt den entsprechenden Zeitraum aus. Mit *Bestätigen* wird ein Validierungsdatum festgelegt. Alle Zeitnachweise vor dem Validierungsdatum gelten als validiert.
+Der Stundenzettel-Manager des Mitarbeiters navigiert nach _Zeiterfassung > Zu Validieren_ und wählt den entsprechenden Zeitraum aus. Mit _Bestätigen_ wird ein Validierungsdatum festgelegt. Alle Zeitnachweise vor dem Validierungsdatum gelten als validiert.
 
 ![](attachments/Zeiterfassung%20Validierungsdatum.png)
 
 ### Auf Entwurf zurücksetzen
 
-Wenn Sie validieren Zeiterfassungs-Einträge zurücksetzen möchten, navigieren Sie nach *Zeiterfassung > Zeiterfassung > Alle Zeiterfassungen*. Wechseln Sie in die Listen-Ansicht und wählen Sie *Filter > Validiert. Markieren Sie Einträgen und wählen Sie *Aktionen > Auf Entwurf zurücksetzen*.
+Wenn Sie validieren Zeiterfassungs-Einträge zurücksetzen möchten, navigieren Sie nach _Zeiterfassung > Zeiterfassung > Alle Zeiterfassungen_. Wechseln Sie in die Listen-Ansicht und wählen Sie *Filter > Validiert. Markieren Sie Einträgen und wählen Sie *Aktionen > Auf Entwurf zurücksetzen\*.
 
 ### Validierung zurücksetzen
 
-*Gilt für #Odoo13.*
+_Gilt für #Odoo13._
 
-Einmal validierte Stunden-Einträge können nicht mehr verändert werden. Benötigen Sie dennoch eine Korrektur, müssen Sie für jeden Mitarbeitenden folgende Aktion ausführen: *Personal > Mitarbeitenden auswählen > Tab HR Einstellungen öffnen* und dort das Feld *Stundenzettel-Validierungsdatum* anpassen.
+Einmal validierte Stunden-Einträge können nicht mehr verändert werden. Benötigen Sie dennoch eine Korrektur, müssen Sie für jeden Mitarbeitenden folgende Aktion ausführen: _Personal > Mitarbeitenden auswählen > Tab HR Einstellungen öffnen_ und dort das Feld _Stundenzettel-Validierungsdatum_ anpassen.
 
 ![](attachments/Zeiterfassung%20Stundenzettel-Validierungsdatum%20anpassen.png)
 
@@ -98,7 +100,7 @@ Nach der Korrektur der Stunden-Einträge müssen Sie diese wieder validieren.
 
 ### Anwesenheiten und Zeiterfassung vergleichen
 
-Navigieren Sie nach *Zeiterfassung > Berichtswesen > Zeiterfassung / Anwesenheiten*. In diesem Bericht wird die Differenz zwischen Anwesenheit und erfasster Projektzeit berechnet.
+Navigieren Sie nach _Zeiterfassung > Berichtswesen > Zeiterfassung / Anwesenheiten_. In diesem Bericht wird die Differenz zwischen Anwesenheit und erfasster Projektzeit berechnet.
 
 ## Berechtigungen
 
@@ -108,26 +110,26 @@ Damit Benutzer die [Anwesenheit und Zeiterfassung vergleichen](#Anwesenheit%20un
 
 Als Erstes müssen Sie die folgenden [Menüposten bearbeiten](Development.md#Menüposten%20bearbeiten):
 
-* *Zeiterfassung/Berichtswesen*
-* *Zeiterfassung/Berichtswesen/Zeiterfassung / Anwesenheiten*
+- _Zeiterfassung/Berichtswesen_
+- _Zeiterfassung/Berichtswesen/Zeiterfassung / Anwesenheiten_
 
-Fügen Sie im Tab *Zugriffsrechte* die Gruppe *Zeiterfassung / Benutzer: nur eigene Stundenzettel* hinzu. 
+Fügen Sie im Tab _Zugriffsrechte_ die Gruppe _Zeiterfassung / Benutzer: nur eigene Stundenzettel_ hinzu.
 
-Anschliessend müssen Sie für *Zeiterfassung Anwesenheitsnachweis* die [Datensatzregeln auf Datenmodell vergeben](Settings%20Permissions.md#Datensatzregeln%20auf%20Datenmodell%20vergeben):
+Anschliessend müssen Sie für _Zeiterfassung Anwesenheitsnachweis_ die [Datensatzregeln auf Datenmodell vergeben](Settings%20Permissions.md#Datensatzregeln%20auf%20Datenmodell%20vergeben):
 
 Für die Benutzer:
 
-* **Name**: *Zeiterfassung / Benutzer: nur eigene Stundenzettel*
-* **Gruppe**: *Zeiterfassung / Benutzer: nur eigene Stundenzettel*
-* **Filter**: `[('user_id', '=', user.id)]`
-* **Berechtigung**: Leseberechtigung
+- **Name**: _Zeiterfassung / Benutzer: nur eigene Stundenzettel_
+- **Gruppe**: _Zeiterfassung / Benutzer: nur eigene Stundenzettel_
+- **Filter**: `[('user_id', '=', user.id)]`
+- **Berechtigung**: Leseberechtigung
 
 Für die Vorgesetzten:
 
-* **Name**: *Zeiterfassung / Benutzer: Alle Stundenzettel*
-* **Gruppe**: *Zeiterfassung / Benutzer: Alle Stundenzettel*
-* **Filter**: `[]`
-* **Berechtigung**: Leseberechtigung
+- **Name**: _Zeiterfassung / Benutzer: Alle Stundenzettel_
+- **Gruppe**: _Zeiterfassung / Benutzer: Alle Stundenzettel_
+- **Filter**: `[]`
+- **Berechtigung**: Leseberechtigung
 
 Nun sollten Benutzer, die nur ihren eigenen Stundenzettel sehen, den Bericht aufrufen können.
 

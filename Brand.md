@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./
 ---
+
 # Marke
+
 ![](attachments/icons_odoo_brand.png)
 
 {{ $frontmatter.description }}
@@ -24,10 +26,10 @@ Repository: <https://github.com/OCA/brand/tree/18.0/brand>
 
 ### Verwendung von Marken aktivieren
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Unternehmen* und wählen Sie eine Option im Feld *Brand Use Level* aus. Speichern Sie den Vorgang.
+Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Unternehmen_ und wählen Sie eine Option im Feld _Brand Use Level_ aus. Speichern Sie den Vorgang.
 
 ## Verwendung
 
 ### Marke anlegen
 
-Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Marken* und erstellen Sie hier einen neuen Eintrag.
+Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Marken_ und erstellen Sie hier einen neuen Eintrag.

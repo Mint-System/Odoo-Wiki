@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./dialog
 ---
+
 # Mail Optional Follower Notification
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

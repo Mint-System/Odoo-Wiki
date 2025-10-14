@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Einkauf
+
 ![icons_odoo_purchase](attachments/icons_odoo_purchase.png)
 
 {{ $frontmatter.description }}
@@ -46,19 +48,19 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 
 ### Standard-Steuern für Einkauf auf Produkt festlegen
 
-Öffnen Sie ein Produkt *Einkauf > Produkte > Produkte* und zeigen Sie den Tab *Einkauf*. Legen Sie im Feld *Steuern (Einkauf)* die Standard-Steuern fest. 
+Öffnen Sie ein Produkt _Einkauf > Produkte > Produkte_ und zeigen Sie den Tab _Einkauf_. Legen Sie im Feld _Steuern (Einkauf)_ die Standard-Steuern fest.
 
-Unterschiedliche Steuern der einzelnen Line-Items werden im Formular und im Bericht gruppiert dargestellt (ab Version 15). Die Zuordnung erfolgt über die *Steuergruppe* gemäss dem Feld *Steuergruppe* im Tab *Erweiterte Optionen*.
+Unterschiedliche Steuern der einzelnen Line-Items werden im Formular und im Bericht gruppiert dargestellt (ab Version 15). Die Zuordnung erfolgt über die _Steuergruppe_ gemäss dem Feld _Steuergruppe_ im Tab _Erweiterte Optionen_.
 
 ### Lieferant auf Produkt hinzufügen
 
-Öffnen Sie ein Produkt *Einkauf > Produkte > Produkte* und zeigen Sie den Tab *Einkauf*. Fügen Sie der Lieferanten-Liste einen neuen Eintag hinzu. Wählen Sie den Lieferant aus und legen Details wie *Preis* und *Tage bis Lieferung* fest.
+Öffnen Sie ein Produkt _Einkauf > Produkte > Produkte_ und zeigen Sie den Tab _Einkauf_. Fügen Sie der Lieferanten-Liste einen neuen Eintag hinzu. Wählen Sie den Lieferant aus und legen Details wie _Preis_ und _Tage bis Lieferung_ fest.
 
 ## Aufträge
 
 ### Angebotsanfrage erstellen
 
-Über *Neu* wird eine Angebotsanfrage eröffnet. Die Felder der Eingabemaske sind gemäss folgender Tabelle zu editieren:
+Über _Neu_ wird eine Angebotsanfrage eröffnet. Die Felder der Eingabemaske sind gemäss folgender Tabelle zu editieren:
 
 | Bezeichnung         | Beschreibung                                                                                                                             |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -73,20 +75,20 @@ Im Register Produkte werden die gewünschten Artikel gelistet.
 
 ### Angebotsanfrage senden
 
-Mit dem Knopf *Per E-Mail Versenden* wird eine PDF-Datei generiert und per eMail an den Lieferanten gesendet.
+Mit dem Knopf _Per E-Mail Versenden_ wird eine PDF-Datei generiert und per eMail an den Lieferanten gesendet.
 
 ### Angebotsanfrage nachfassen
 
-Falls man beim Lieferanten bezüglich einem fehlenden Angebot nachfassen will, verwendet man den Knopf *Per e-Mail erneut senden*. Damit öffnet sich ein Dialog für den Versand eines e-Mails an den Lieferanten mit der Angebotsanfrage als Beilage.
+Falls man beim Lieferanten bezüglich einem fehlenden Angebot nachfassen will, verwendet man den Knopf _Per e-Mail erneut senden_. Damit öffnet sich ein Dialog für den Versand eines e-Mails an den Lieferanten mit der Angebotsanfrage als Beilage.
 
 ## Benachrichtigung
 
 ### An Beschaffungsauftrag erinnern
 
-Wenn der Lieferant an die Erfüllung des Beschaffungsauftrags erinnert werden soll, dann verwendet man hierzu die Aktion *Send Reminder*. Damit wird vollautomatisch eine e-Mail an den Lieferanten mit vordefiniertem Text und dem Beschaffungsauftrag als Beilage versendet.
+Wenn der Lieferant an die Erfüllung des Beschaffungsauftrags erinnert werden soll, dann verwendet man hierzu die Aktion _Send Reminder_. Damit wird vollautomatisch eine e-Mail an den Lieferanten mit vordefiniertem Text und dem Beschaffungsauftrag als Beilage versendet.
 
 ::: tip
-Die Aktion "Send Reminder" wird mit dem Aktivieren der Option *Ask confirmation* zum festgelegten Zeitpunkt automatisch ausgeführt.
+Die Aktion "Send Reminder" wird mit dem Aktivieren der Option _Ask confirmation_ zum festgelegten Zeitpunkt automatisch ausgeführt.
 :::
 
 ## Portal
@@ -94,10 +96,11 @@ Die Aktion "Send Reminder" wird mit dem Aktivieren der Option *Ask confirmation*
 ### Portal-Ansicht Bestellung anzeigen
 
 Die Portal-Ansicht einer Bestellung können Sie wie folgt anzeigen:
-* Öffnen Angebotsanfrage
-* Ausführen *Aktionen > Teilen > Text kopieren*
-* Neues privates Browser-Fenster öffnen
-* Link in Adressleiste einfügen
+
+- Öffnen Angebotsanfrage
+- Ausführen _Aktionen > Teilen > Text kopieren_
+- Neues privates Browser-Fenster öffnen
+- Link in Adressleiste einfügen
 
 ::: tip
 In einem privaten Browser werden die Cookies nicht geladen und somit wird man nicht automatisch bei Odoo angemeldet.
@@ -106,7 +109,8 @@ In einem privaten Browser werden die Cookies nicht geladen und somit wird man ni
 ## Adressen
 
 ### Lieferadresse ändern
-Auf einer Bestellung ist die Lieferadresse standardmässig die Adresse der eigenen Firma gemäss *Einstellungen > Unternehmen*.
+
+Auf einer Bestellung ist die Lieferadresse standardmässig die Adresse der eigenen Firma gemäss _Einstellungen > Unternehmen_.
 Falls eine andere Lieferadresse gewünscht ist, lässt sich das über das Einrichten eines entsprechendes Lagers/Vorgangstyp erreichen.
 
 Jedes Lager hat eine Adresse.
@@ -117,7 +121,7 @@ Die Adresse kann auch eine spezielle Lieferandresse sein.
 
 ![Einkauf Lager Adresse Lieferadresse](attachments/Einkauf%20Lager%20Adresse%20Lieferadresse.png)
 
-Falls also für eine Bestellung verschiedene Lieferadressen zur Verfügung stehen sollen,  muss für jede Adresse ein Lager eingerichtet werden.
+Falls also für eine Bestellung verschiedene Lieferadressen zur Verfügung stehen sollen, muss für jede Adresse ein Lager eingerichtet werden.
 
 ![Einkauf Lager Anlieferung](attachments/Einkauf%20Lager%20Anlieferung.png)
 
@@ -147,12 +151,11 @@ Das Ergebnis sollte so aussehen:
 
 ![](attachments/Einkauf%20Einkaufszeilen.png)
 
-
 ### Berechtigungen anhand von Gruppen filtern
 
 Im folgenden Beispiel werden ausgewählte Bestellungen nur für eine bestimmte Gruppe angezeigt.
 
-Legen Sie auf dem Datenmodell diese *Datensatzregeln* fest:
+Legen Sie auf dem Datenmodell diese _Datensatzregeln_ fest:
 
 **Name**: Purchase Confidential\
 **Gruppen**: Interne Benutzer\

@@ -4,7 +4,9 @@ description: Kundenportal zur Lizenzverwaltung.
 kind: howto
 prev: ./license
 ---
+
 # License Sale
+
 ![odoo_icons_license](attachments/odoo_icons_license.png)
 
 {{ $frontmatter.description }}

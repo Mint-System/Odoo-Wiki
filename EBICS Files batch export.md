@@ -5,7 +5,9 @@ kind: howto
 partner: Thirdparty
 prev: ./accounting
 ---
+
 # EBICS Files batch export
+
 ![](attachments/icons_odoo_ebics.png)
 
 {{ $frontmatter.description }}
@@ -18,7 +20,7 @@ Repository: <https://github.com/Noviat/account_ebics/tree/18.0/account_ebics_bat
 
 ### EBICS-Batch-Import-Logs anzeigen
 
-Navigieren Sie nach *Rechnungsstelung > EBICS Processing > EBICS Batch Import Logs*. Hier finden Sie die letzten Ausführungen des EBICS-Batch-Import.
+Navigieren Sie nach _Rechnungsstelung > EBICS Processing > EBICS Batch Import Logs_. Hier finden Sie die letzten Ausführungen des EBICS-Batch-Import.
 
 ## Geplante Aktionen
 

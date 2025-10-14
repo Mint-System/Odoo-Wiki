@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./purchase-requisition
 ---
+
 # Purchase Requisition Order Address
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.
 
 ### Bestelladresse auf Kaufvertrag erfassen
 
-Mit dieser Erweiterung wird bei der Auswahl des Kontakts der Unterkontakt vom Typ *Bestelladresse* auf das gleichnamige Feld im Kaufvertrag übertragen. Beim Erstellen einer Bestellung wird die *Bestelladresse* übertragen.
+Mit dieser Erweiterung wird bei der Auswahl des Kontakts der Unterkontakt vom Typ _Bestelladresse_ auf das gleichnamige Feld im Kaufvertrag übertragen. Beim Erstellen einer Bestellung wird die _Bestelladresse_ übertragen.
 
 ![](attachments/Purchase%20Requisition%20Order%20Address.png)
 

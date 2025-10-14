@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./stock
 ---
+
 # Stock Production Lot Date
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -19,7 +21,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 Mit dieser Erweiterung können Sie auf einem Los zusätzlich zum Namen ein Datum definieren. Das Datum wird im Anzeigenamen des Los angefügt. Los-Nummern sind eindeutig, wenn das Unternehmen, Produkt, Name und Datum unterschiedlch sind.
 
-Navigieren Sie nach *Lager > Produkte > Chargen-/Seriennummern* und erstellen Sie ein Los. Legen Sie im Feld *Datum* das entsprechende Datum fest.
+Navigieren Sie nach _Lager > Produkte > Chargen-/Seriennummern_ und erstellen Sie ein Los. Legen Sie im Feld _Datum_ das entsprechende Datum fest.
 
 ![](attachments/Stock%20Production%20Lot%20Date.png)
 

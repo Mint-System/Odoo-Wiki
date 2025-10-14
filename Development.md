@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Mint-System
 ---
+
 # Entwicklung
+
 ![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 {{ $frontmatter.description }}
@@ -15,7 +17,7 @@ partner: Mint-System
 | Bereich                                                 | Beschreibung                                                |
 | ------------------------------------------------------- | ----------------------------------------------------------- |
 | [Entwicklung Aktionen](Development%20Actions.md)        | Eigene Odoo Aktionen erstellen.                             |
-| [Entwicklung Ansichten](Development%20Views.md)          | Odoo Ansichten anpassen.                                    |
+| [Entwicklung Ansichten](Development%20Views.md)         | Odoo Ansichten anpassen.                                    |
 | [Entwicklung Berichte](Development%20Reports.md)        | Eigene Berichte mit QWeb erstellen.                         |
 | [Entwicklung Buchhaltung](Entwicklung%20Buchhaltung.md) | Buchhaltungs-Berichte anpassen und erweitern.               |
 | [Entwicklung Datenmodelle](Development%20Models.md)     | Odoo Datenmodell erweitern.                                 |
@@ -56,49 +58,49 @@ partner: Mint-System
 
 ### Systemparameter anlegen
 
-Öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und erstellen einen Eintrag mit *Schlüssel* und *Wert*.
+Öffnen Sie _Einstellungen > Technisch > Parameter > Systemparameter_ und erstellen einen Eintrag mit _Schlüssel_ und _Wert_.
 
 ### Systemparameter bearbeiten
 
-Öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und suchen Sie nach einem Eintrag anhand des *Schlüssels*. Bearbeiten Sie den *Wert* des Parameter im gleichnamigen Feld.
+Öffnen Sie _Einstellungen > Technisch > Parameter > Systemparameter_ und suchen Sie nach einem Eintrag anhand des _Schlüssels_. Bearbeiten Sie den _Wert_ des Parameter im gleichnamigen Feld.
 
 ### Developer API Key generieren
 
 Damit Software von Dritten Zugriff auf die Daten von Odoo hat, ohne dass dabei das Passwort eines Benutzers geteilt werden muss, kann man einen Zugriffsschlüssel bereitstellen.
 
-Öffnen Sie die Sicherheitseinstellungen des eingeloggten Benutzers *Menüleiste > Mein Profil > Tab Account Security* und klicken auf *New API Key*.
+Öffnen Sie die Sicherheitseinstellungen des eingeloggten Benutzers _Menüleiste > Mein Profil > Tab Account Security_ und klicken auf _New API Key_.
 
 ## Verwendung
 
 ### Assets-Bundel neu generieren
 
-Wird Odoo im Browser angezeigt, werden sogenannte Assets im Hintergrund geladen (JavaScript- und CSS-Dateien). Diese Assets können nach einem Odoo-Update veraltet sein und müss neu generiert werden. Wählen Sie *Entwicklertool > Bündel von Assets regenerieren*.
+Wird Odoo im Browser angezeigt, werden sogenannte Assets im Hintergrund geladen (JavaScript- und CSS-Dateien). Diese Assets können nach einem Odoo-Update veraltet sein und müss neu generiert werden. Wählen Sie _Entwicklertool > Bündel von Assets regenerieren_.
 
 ![](attachments/Entwicklung%20Assets-Bundel%20neu%20generieren.png)
 
 ### Browser-Cache in Firefox löschen
 
-Damit Odoo nach einem Update einwandfrei funktioniert. Müssen Sie den Browser-Cache für Odoo entfernen. In Firefox klicken Sie dazu auf das Häcken in der Browserleiste und wählen *Cookies und Website-Daten löschen...*. Bestätigen Sie den Dialog.
+Damit Odoo nach einem Update einwandfrei funktioniert. Müssen Sie den Browser-Cache für Odoo entfernen. In Firefox klicken Sie dazu auf das Häcken in der Browserleiste und wählen _Cookies und Website-Daten löschen..._. Bestätigen Sie den Dialog.
 
 ![](attachments/Clear%20Browser%20Cache%20Firefox.png)
 
 ### Browser-Cache in Chrome löschen
 
-Damit Odoo nach einem Update einwandfrei funktioniert. Müssen Sie den Browser-Cache für Odoo entfernen. In Firefox klicken Sie dazu auf das Häcken in der Browserleiste und wählen *Site settings*.
+Damit Odoo nach einem Update einwandfrei funktioniert. Müssen Sie den Browser-Cache für Odoo entfernen. In Firefox klicken Sie dazu auf das Häcken in der Browserleiste und wählen _Site settings_.
 
 ![](attachments/Clear%20Browser%20Cache%20Chrome%201.png)
 
-Im neuen Fenster wählen Sie *Clear Data*.
+Im neuen Fenster wählen Sie _Clear Data_.
 
 ![](attachments/Clear%20Browser%20Cache%20Chrome%202.png)
 
 ### Demo-Daten neu laden
 
-Navigieren Sie nach *Einstellungen > Entwicklertools* und klicken Sie auf *Demo Daten laden* um die Daten in die aktuelle Datenbank zu laden.
+Navigieren Sie nach _Einstellungen > Entwicklertools_ und klicken Sie auf _Demo Daten laden_ um die Daten in die aktuelle Datenbank zu laden.
 
 ### Odoo Revision anzeigen
 
-Rufen Sie die *Einstellungen* auf und scrollen Sie auf der Ansicht nach ganz unten. Beim Abschnitt *Über* finden Sie Angaben zur Odoo Revision.
+Rufen Sie die _Einstellungen_ auf und scrollen Sie auf der Ansicht nach ganz unten. Beim Abschnitt _Über_ finden Sie Angaben zur Odoo Revision.
 
 ![](attachments/Einstellungen%20Odoo%20Revision.png)
 
@@ -106,7 +108,7 @@ Rufen Sie die *Einstellungen* auf und scrollen Sie auf der Ansicht nach ganz unt
 
 ### Menüposten anordnen
 
-Im Entwicklermodus navigieren Sie nach  *Einstellungen > Technisch >  Benutzer-Interface > Menüposten*. Erstellen Sie einen Filter *Obermenü* mit dem Wert *ist nicht gesetzt*. Nun können Sie die Menüposten mit dem Handler in der Liste anordnen.
+Im Entwicklermodus navigieren Sie nach _Einstellungen > Technisch > Benutzer-Interface > Menüposten_. Erstellen Sie einen Filter _Obermenü_ mit dem Wert _ist nicht gesetzt_. Nun können Sie die Menüposten mit dem Handler in der Liste anordnen.
 
 ![](attachments/Entwicklung%20Menüposten%20anordnen.png)
 
@@ -116,7 +118,7 @@ Im Entwicklermodus können Sie ganz einfach Menüposten umbennen. Angenommen Sie
 
 ![](attachments/Entwicklung%20Menüposten%20umbennen.png)
 
-Gehen Sie wie folgt vor. Navigieren Sie nach *Einstellungen > Technisch >  Benutzer-Interface > Menüposten* und suchen Sie nach *Alle Angestellte*. Bearbeiten Sie den Eintrag und setzen Sie für das Feld *Menü* einen neuen Wert.
+Gehen Sie wie folgt vor. Navigieren Sie nach _Einstellungen > Technisch > Benutzer-Interface > Menüposten_ und suchen Sie nach _Alle Angestellte_. Bearbeiten Sie den Eintrag und setzen Sie für das Feld _Menü_ einen neuen Wert.
 
 ![](attachments/Einstellungen%20Menüposten%20bearbeiten.png)
 
@@ -124,11 +126,11 @@ Nachdem Sie den Browser-Tab aktualisiert haben, ist der Menüposten umbenannt.
 
 ### Menüposten erstellen
 
-Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüposten* und wählen Sie *Neu*.
+Öffnen Sie _Einstellungen > Technisch > Benutzer-Interface > Menüposten_ und wählen Sie _Neu_.
 
 ### Menüposten bearbeiten
 
-Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüposten* und wählen Sie ein bestehenden Menüposten aus. Bearbeiten Sie die Sichtbarkeit des Menüs im Tab *Zugriffsrechte* oder steuern Sie die Reihenfolge der Untermenüs im Tab *Untermenüs*.
+Öffnen Sie _Einstellungen > Technisch > Benutzer-Interface > Menüposten_ und wählen Sie ein bestehenden Menüposten aus. Bearbeiten Sie die Sichtbarkeit des Menüs im Tab _Zugriffsrechte_ oder steuern Sie die Reihenfolge der Untermenüs im Tab _Untermenüs_.
 
 :::
 Bei einer Aktualisierung der Odoo App werden die verlinkten Menüposten zurückgesetzt.
@@ -136,7 +138,7 @@ Bei einer Aktualisierung der Odoo App werden die verlinkten Menüposten zurückg
 
 ### Menüposten entfernen
 
-Öffnen Sie *Einstellungen > Technisch > Benutzer-Interface > Menüposten* und suchen Sie den entsprechende Menüposten. Markieren Sie diesen und wählen Sie *Aktionen > Löschen* oder *Aktionen > Archiv*.
+Öffnen Sie _Einstellungen > Technisch > Benutzer-Interface > Menüposten_ und suchen Sie den entsprechende Menüposten. Markieren Sie diesen und wählen Sie _Aktionen > Löschen_ oder _Aktionen > Archiv_.
 
 ::: warning
 Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
@@ -146,42 +148,42 @@ Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitge
 
 ### Metadaten anzeigen
 
-Für jedes Dokument können Sie in der Einzelansicht die Metadaten anzeigen. Rufen Sie ein Odoo-Objekt im Entwicklermodus auf, beispielsweise einen Benutzer und klicken Sie auf *Entwicklertools > Metadaten anzeigen*.
+Für jedes Dokument können Sie in der Einzelansicht die Metadaten anzeigen. Rufen Sie ein Odoo-Objekt im Entwicklermodus auf, beispielsweise einen Benutzer und klicken Sie auf _Entwicklertools > Metadaten anzeigen_.
 
 ![](attachments/Entwicklung%20Metadaten%20anzeigen.png)
 
 ### Externe ID anzeigen
 
-Odoo speichert alle externen IDs in einer Tabelle. Öffnen Sie *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Externe Identifikationen*. Suchen Sie nach einer externen ID anhand des Schlüssels.
+Odoo speichert alle externen IDs in einer Tabelle. Öffnen Sie _Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Externe Identifikationen_. Suchen Sie nach einer externen ID anhand des Schlüssels.
 
 ### Externe ID erfassen
 
-Zeigen Sie einen beliebigen Datensatz in der Formularansicht an. Als Beispiel verwenden wir eine Ansicht. Entnehmen Sie anhand der Url die *ID* und das *Datenmodell*.
+Zeigen Sie einen beliebigen Datensatz in der Formularansicht an. Als Beispiel verwenden wir eine Ansicht. Entnehmen Sie anhand der Url die _ID_ und das _Datenmodell_.
 
 /web#id=**1639**&action=28&model=**ir.ui.view**&view_type=form&cids=1&menu_id=4
 
-Navigieren Sie nun nach *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Externe Identifikationen* und legen Sie einen Eintrag an:
+Navigieren Sie nun nach _Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Externe Identifikationen_ und legen Sie einen Eintrag an:
 
-* **Modul**: Kennung des Odoo Partners bsp. `mint_system`
-* **Externe Identifikation**: Eindeutiger Bezeichner
-* **Modellname**: Angabe Gemäss Url
-* **Datensatz-ID**: Angabe Gemäss Url
+- **Modul**: Kennung des Odoo Partners bsp. `mint_system`
+- **Externe Identifikation**: Eindeutiger Bezeichner
+- **Modellname**: Angabe Gemäss Url
+- **Datensatz-ID**: Angabe Gemäss Url
 
 ::: warning
-Verwenden Sei bei Modul keinen existierenden Modulnamen wie `base` oder `account`. Bei einem Modul-Update entfernt Odoo alle externen IDs und verknüpften Datensätze, wenn diese nicht im entsprechenden Modul definiert sind. 
+Verwenden Sei bei Modul keinen existierenden Modulnamen wie `base` oder `account`. Bei einem Modul-Update entfernt Odoo alle externen IDs und verknüpften Datensätze, wenn diese nicht im entsprechenden Modul definiert sind.
 :::
 
 Dazu die Angaben aus dem Beispiel:
 
 ![](attachments/Entwicklung%20Externe%20ID%20erfassen.png)
 
-Ist die *Externe Identifikation* gespeichert, wird Sie auf Datensatz angezeigt.
+Ist die _Externe Identifikation_ gespeichert, wird Sie auf Datensatz angezeigt.
 
 ![](attachments/Entwicklung%20Externe%20Ansicht%20Beispiel.png)
 
 ### Externe ID in Metadaten erfassen
 
-Ab #Odoo16 können Sie [Metadaten anzeigen](#Metadaten%20anzeigen) und direkt eine externe ID erfassen. Wählen Sie dazu die Aktion *create* auf der Ansicht der Metadaten. Der Modellname und die Datensatz-ID werden übernommen.
+Ab #Odoo16 können Sie [Metadaten anzeigen](#Metadaten%20anzeigen) und direkt eine externe ID erfassen. Wählen Sie dazu die Aktion _create_ auf der Ansicht der Metadaten. Der Modellname und die Datensatz-ID werden übernommen.
 
 ![](attachments/Development%20Metadaten.png)
 
@@ -206,6 +208,6 @@ Sie können den Zugriff für benutzerdefinierte Felder einschränken. Dazu müss
 
 ### Netzwerk-Zugriffe mit Firefox analysieren
 
-Im Firefox-Browser drücken <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>i</kbd> um die Entwickler-Werkzeuge zu öffnen. Wählen Sie den Tab *Netzwerk* aus. Öffnen Sie nun die Odoo Webapplikation oder führen Sie in Odoo eine bestimmte Aktion aus. Firefox protokolliert die Zugriffe des Client zum Server. Für jeden Eintrag ist können Sie die Anfrage und Antwort anzeigen.
+Im Firefox-Browser drücken <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>i</kbd> um die Entwickler-Werkzeuge zu öffnen. Wählen Sie den Tab _Netzwerk_ aus. Öffnen Sie nun die Odoo Webapplikation oder führen Sie in Odoo eine bestimmte Aktion aus. Firefox protokolliert die Zugriffe des Client zum Server. Für jeden Eintrag ist können Sie die Anfrage und Antwort anzeigen.
 
 ![](attachments/Firefox%20Netzwerk-Zugriffe.png)

@@ -5,7 +5,9 @@ kind: howto
 partner: Thirdparty
 prev: ./zebroo-sync
 ---
+
 # Odoo Sync Mapper
+
 ![icons_odoo_thirdparty](attachments/icons_odoo_thirdparty.png)
 
 {{ $frontmatter.description }}

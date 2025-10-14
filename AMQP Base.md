@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./stock
 ---
+
 # AMQP Base
+
 ![](attachments/odoo_icon_amqp.png)
 
 {{ $frontmatter.description }}
@@ -23,7 +25,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 ### AMQP Host anlegen
 
-Navigieren Sie nach *Einstellungen > Technisch > AMQP > Hosts* und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel:
+Navigieren Sie nach _Einstellungen > Technisch > AMQP > Hosts_ und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel:
 
-* **Name**: RabbitMQ
-* **URL**: `amqp://admin:admin@127.0.0.1:5672`
+- **Name**: RabbitMQ
+- **URL**: `amqp://admin:admin@127.0.0.1:5672`

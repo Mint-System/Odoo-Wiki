@@ -5,6 +5,7 @@ kind: howto
 partner: Mint-System
 prev: ./accounting
 ---
+
 # Sale Move Reconciled Date
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)

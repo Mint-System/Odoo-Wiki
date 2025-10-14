@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./contacts
 ---
+
 # Partner Email History
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/
 
 ### Versendete und empfangene E-Mails eines Kontakts anzeigen
 
-Öffnen Sie einen Kontakt unter *Kontakte*. Klicken Sie auf den Smart-Button *E-Mail History*.
+Öffnen Sie einen Kontakt unter _Kontakte_. Klicken Sie auf den Smart-Button _E-Mail History_.

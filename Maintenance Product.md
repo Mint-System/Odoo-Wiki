@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./maintenance
 ---
+
 # Maintenance Product
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,10 +19,10 @@ Repository: <https://github.com/OCA/maintenance/tree/18.0/maintenance_product>
 
 ### Inventarkategorie und Produktkategorie verknüpfen
 
-Navigieren Sie nach *Wartung > Konfiguration > Inventarkategorie* und öffnen Sie einen Eintrag. Legen Sie auf *Product Category* einen Wert fest.
+Navigieren Sie nach _Wartung > Konfiguration > Inventarkategorie_ und öffnen Sie einen Eintrag. Legen Sie auf _Product Category_ einen Wert fest.
 
 ## Verwendung
 
 ### Produkt und Inventar verküpfen
 
-Mit dieser Erweiterung können Sie ein Produkt erstellen und ein Inventar verknüpfen. Navigieren Sie nach *Lager > Produkte > Produkte* und erstellen Sie ein neues Produkt. Wählen Sie die Option *Can be Maintenance* aus. Erstellen Sie ein neues Inventar und wählen Sie eine Inventarkategorie, die mit einer Produktkategorie verknüpft wurde. Im Feld *Product* wählen Sie nun das vorher erstellte Produkt.
+Mit dieser Erweiterung können Sie ein Produkt erstellen und ein Inventar verknüpfen. Navigieren Sie nach _Lager > Produkte > Produkte_ und erstellen Sie ein neues Produkt. Wählen Sie die Option _Can be Maintenance_ aus. Erstellen Sie ein neues Inventar und wählen Sie eine Inventarkategorie, die mit einer Produktkategorie verknüpft wurde. Im Feld _Product_ wählen Sie nun das vorher erstellte Produkt.

@@ -27,6 +27,7 @@ function help() {
     printf "$COLUMN" "serve-vuepress" "" "Serve vuepress build."
     printf "$COLUMN" "download-icons" "" "Download module icons from Odoo assets."
     printf "$COLUMN" "update-repo-url" "" "Check and update repository urls."
+    printf "$COLUMN" "lint" "" "Lint code with prettier."
 }
 
 if [ -d "$HOME/taskfile.build/bin" ]; then
@@ -77,7 +78,6 @@ function update-repo-url() {
     done
 }
 
-
 function install() {
     pnpm install
 }
@@ -112,6 +112,10 @@ function serve-vuepress() {
 
 function download-icons() {
     pnpm run download-icons
+}
+
+function lint() {
+    pnpm exec prettier . --write
 }
 
 if declare -f "$1" > /dev/null; then

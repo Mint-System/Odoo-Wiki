@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./website-e-commerce
 ---
+
 # Website Sale Cart Expire
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/OCA/e-commerce/tree/16.0/website_sale_cart_expir
 
 ### Anzahl Stunden für automatisches Abbrechen von verlassenen Warenkörben festlegen
 
-Navigieren Sie nach *Einstellungen > Website > E-Mail & Marketing*. Geben Sie bei *Expire Carts* die Anzahl Stunden ein.
+Navigieren Sie nach _Einstellungen > Website > E-Mail & Marketing_. Geben Sie bei _Expire Carts_ die Anzahl Stunden ein.
 
 ::: tip
 Standardwert für die automatische Versendung des Erinnerungsmails für verlassene Warenkörbe ist 10 Stunden.

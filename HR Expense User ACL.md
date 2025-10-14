@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./contacts
 ---
+
 # HR Expense User ACL
+
 ![](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/18.0/hr_expense_us
 
 ### Zugriff auf App-Menü Spesenabrechnung erteilen
 
-Navigieren Sie nach *Einstellungen > Benutzer & Unternehmen > Gruppen* und zeigen Sie Gruppe *Zugriffsrechte / Menü Spesenabrechnung*. Fügen Sie die Benutzer hinzu, welche Zugriff auf das Menü *Spesenabrechnung* erhalten sollen.
+Navigieren Sie nach _Einstellungen > Benutzer & Unternehmen > Gruppen_ und zeigen Sie Gruppe _Zugriffsrechte / Menü Spesenabrechnung_. Fügen Sie die Benutzer hinzu, welche Zugriff auf das Menü _Spesenabrechnung_ erhalten sollen.

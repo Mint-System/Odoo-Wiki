@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./accounting
 ---
+
 # Account Statement Import Camt54
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/OCA/bank-statement-import/tree/18.0/account_stat
 
 ### Bank-Datenübertragung festlegen
 
-Navigieren Sie nach *Buchhaltung > Konfiguration > Journale* und zeigen Sie das Bank-Journal an. Im Tab *Buchungssätze* wählen Sie im Feld *Bank-Feeds* die entsprechende Option aus.
+Navigieren Sie nach _Buchhaltung > Konfiguration > Journale_ und zeigen Sie das Bank-Journal an. Im Tab _Buchungssätze_ wählen Sie im Feld _Bank-Feeds_ die entsprechende Option aus.
 
 ## Verwendung
 
@@ -25,17 +27,17 @@ Navigieren Sie nach *Buchhaltung > Konfiguration > Journale* und zeigen Sie das 
 
 Gilt bis #Odoo14.
 
-Navigieren Sie nach *Buchhaltung* wählen beim abzugleichenden Konto *Import Auszüge* aus. Laden Sie im Dialog die XML-Datei hoch. Nach Bedarf können Sie den Namen der Datei anpassen.
+Navigieren Sie nach _Buchhaltung_ wählen beim abzugleichenden Konto _Import Auszüge_ aus. Laden Sie im Dialog die XML-Datei hoch. Nach Bedarf können Sie den Namen der Datei anpassen.
 
 ![](attachments/Bank%20Account%20Camt54%20Import%20hochladen.png)
 
-Klicken Sie auf *Import* und anschliessend *Buchen*. Nun stehen die Belege zum Abgleich bereit. Wählen Sie *Abgleichen* und starten Sie den Vorgang.
+Klicken Sie auf _Import_ und anschliessend _Buchen_. Nun stehen die Belege zum Abgleich bereit. Wählen Sie _Abgleichen_ und starten Sie den Vorgang.
 
 ### Camt54 importieren und abstimmen
 
 Gilt ab #Odoo15.
 
-Zeigen Sie dei App *Buchhaltung* an und wählen Sie *Import Statement (OCA)*. Im Dialog wählen Sie die XML-Datei oder die Zip-Datei im Camt54-Format aus. Klicken Sie auf *Import and View*. Wählen Sie *Buchen* und anschliessend *Abstimmung*.
+Zeigen Sie dei App _Buchhaltung_ an und wählen Sie _Import Statement (OCA)_. Im Dialog wählen Sie die XML-Datei oder die Zip-Datei im Camt54-Format aus. Klicken Sie auf _Import and View_. Wählen Sie _Buchen_ und anschliessend _Abstimmung_.
 
 ::: tip
 Die IBAN des Bankauszugs muss mit der IBAN des Bank-Journals übereinstimmen.

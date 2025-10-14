@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./sale
 ---
+
 # Sale Order Archive
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

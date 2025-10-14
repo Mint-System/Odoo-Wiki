@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./contacts
 ---
+
 # Partner Secondary Name
+
 ![](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/
 
 ### Zweitname einfügen
 
-Navigieren Sie nach *Kontakte* und zeigen Sie ein Unternehmen an. Gleich unter dem Anzeigenamen finden Sie das Feld *Secondary Name*.
+Navigieren Sie nach _Kontakte_ und zeigen Sie ein Unternehmen an. Gleich unter dem Anzeigenamen finden Sie das Feld _Secondary Name_.

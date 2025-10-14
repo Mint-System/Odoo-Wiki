@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale-blanket-order
 ---
+
 # Sale Blanket Order Stock Terms
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,6 +19,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sa
 
 ### Standard-Lieferbediengungen festlegen
 
-Öffnen Sie *Verkauf > Aufträge > Rahmenaufträge* und wählen Sie einen Rahmenauftrag aus. Im Tab *Weitere Informationen* finden Sie die Felder *Incoterm* und *Shipping Policy*.
+Öffnen Sie _Verkauf > Aufträge > Rahmenaufträge_ und wählen Sie einen Rahmenauftrag aus. Im Tab _Weitere Informationen_ finden Sie die Felder _Incoterm_ und _Shipping Policy_.
 
 ![](attachments/Sale%20Blanket%20Order%20Stock%20Terms.png)

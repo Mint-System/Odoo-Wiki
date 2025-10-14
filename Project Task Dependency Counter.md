@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./project
 ---
+
 # Project Task Dependency Counter
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/15.0/project_
 
 ### Abhängige Aufgaben anzeigen
 
-Öffnen Sie eine Aufgabe mit abhängigken Aufgaben über *Projekt > Alle Aufgaben > Aufgabe wählen*. Oben rechts finden Sie einen Smart Button mit der Anzahl der abhängigen Aufgaben.
+Öffnen Sie eine Aufgabe mit abhängigken Aufgaben über _Projekt > Alle Aufgaben > Aufgabe wählen_. Oben rechts finden Sie einen Smart Button mit der Anzahl der abhängigen Aufgaben.
 
 ![](attachments/Project%20Task%20Dependency%20Counter%20Button.png)
 

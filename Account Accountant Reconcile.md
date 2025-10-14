@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./accounting
 ---
+
 # Account Accountant Reconcile
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -21,4 +23,4 @@ Beim Import von Kontoauszügen versucht Odoo die Kontoauszugszeilen automatisch 
 
 ### Automatische Abstimmung manuell ausführen
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und rufen Sie die Aktion *Versuchen Sie, Ihre Kontoauszugszeilen automatisch abzustimmen* auf. Führen Sie diese Aktion mit *Manuell Ausführen* aus.
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und rufen Sie die Aktion _Versuchen Sie, Ihre Kontoauszugszeilen automatisch abzustimmen_ auf. Führen Sie diese Aktion mit _Manuell Ausführen_ aus.

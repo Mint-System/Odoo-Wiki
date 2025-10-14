@@ -5,7 +5,9 @@ kind: howto
 partner: Thirdparty
 prev: ./zebroo-sync
 ---
+
 # Web Sync
+
 ![icons_odoo_thirdparty](attachments/icons_odoo_thirdparty.png)
 
 {{ $frontmatter.description }}
@@ -17,20 +19,20 @@ Repository: <https://github.com/Odoo-Ninjas/zync-stable/tree/16.0/zbsync_web>
 
 ### Web URL hinzufügen
 
-Navigieren Sie nach *Zebroo Sync > Grabber > Web-URLs* und erstellen Sie einen neuen Eintrag. Fügen Sie den Hostname der Web-API-Url in das Feld *URL* ein. Der Pfad der Url geben Sie im Feld *Path* ein. Ein Beispel für die Url `https://api.example.com/api/v1`:
+Navigieren Sie nach _Zebroo Sync > Grabber > Web-URLs_ und erstellen Sie einen neuen Eintrag. Fügen Sie den Hostname der Web-API-Url in das Feld _URL_ ein. Der Pfad der Url geben Sie im Feld _Path_ ein. Ein Beispel für die Url `https://api.example.com/api/v1`:
 
-* URL: `https://api.example.com`
-* Path: `/api/v1`
+- URL: `https://api.example.com`
+- Path: `/api/v1`
 
-Legen Sie den *Request Content Type* und *Response Content Type* fest und speichern Sie den Eintrag.
+Legen Sie den _Request Content Type_ und _Response Content Type_ fest und speichern Sie den Eintrag.
 
 ### Bearer-Token hinzufügen
 
-Navigieren Sie nach *Zebroo Sync > Connections > Web-Authentications* und erstellen Sie einen neuen Eintrag. Wählen Sie *Bearer Token* als *Auth Type* und geben Sie das Token im Feld *Token* ein.
+Navigieren Sie nach _Zebroo Sync > Connections > Web-Authentications_ und erstellen Sie einen neuen Eintrag. Wählen Sie _Bearer Token_ als _Auth Type_ und geben Sie das Token im Feld _Token_ ein.
 
 ### Web Grabber / Dumper Worker hinzufügen
 
-Fügen Sie einen Worker einer ausgewählten Pipeline unter *Zebroo Sync > Pipelines* hinzu. Wählen Sie für *Type* den Eintrag *Web Grabber / Dumper* aus. Klicken Sie auf den so erstellten Worker. Wählen Sie eine *URL* und *Method* aus.
+Fügen Sie einen Worker einer ausgewählten Pipeline unter _Zebroo Sync > Pipelines_ hinzu. Wählen Sie für _Type_ den Eintrag _Web Grabber / Dumper_ aus. Klicken Sie auf den so erstellten Worker. Wählen Sie eine _URL_ und _Method_ aus.
 
 ### Meilisearch Dumper einrichten
 
@@ -52,11 +54,11 @@ Zur Autorisierung können Sie das [Bearer-Token hinzufügen](#Bearer-Token%20hin
 
 Anschliessend können Sie einen [Web Grabber / Dumper Worker hinzufügen](#Web%20Grabber%20/%20Dumper%20Worker%20hinzufügen). Wählen Sie erstellte Url aus und machen Sie folgende Angaben.
 
-* URL: `https://edge.meilisearch.com`
-* Method: POST
-* Request Content Type: application/json
-* Response Content Type: application/json
-* Path: `/indexes/$INDEX_NAME/documents`
+- URL: `https://edge.meilisearch.com`
+- Method: POST
+- Request Content Type: application/json
+- Response Content Type: application/json
+- Path: `/indexes/$INDEX_NAME/documents`
 
 Ersetzen Sie `$INDEX_NAME` mit dem Namen des Meilisearch-Index und speichern Sie den Dumper.
 

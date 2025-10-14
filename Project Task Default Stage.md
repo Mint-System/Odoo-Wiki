@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./project
 ---
+
 # Project Task Default Stage
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/OCA/project/tree/18.0/project_task_default_stage
 
 ### Standard-Aufgabenphasen festlegen
 
-Navigieren Sie nach *Projekt > Konfiguration > Aufgabenphasen* und markieren Sie jene Phasen mit *Standard für neue Projekt*, die beim Erstellen eines neuen Projekts hinzugefügt werden sollen.
+Navigieren Sie nach _Projekt > Konfiguration > Aufgabenphasen_ und markieren Sie jene Phasen mit _Standard für neue Projekt_, die beim Erstellen eines neuen Projekts hinzugefügt werden sollen.

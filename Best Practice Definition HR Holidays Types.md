@@ -4,6 +4,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Definition Abwesenheitsarten
 
 ## Urlaub als Abwesenheitsypen abbilden
@@ -25,36 +26,25 @@ und die [Urlaubsansprüche exportieren](HR%20Holidays%20Data%20Management.md#Url
 Damit Mitarbeitende ihre Abwesenheiten sauber erfassen können, empfehlen wir diese Typen als Standard:
 
 | Name                   | Genehmigung Abwesenheit     | Genehmigung Anspruch |
-| ---------------------- | --------------------------- | --------------------- |
-| Ausgleichstage         | Genehmiger des Mitarbeiters | Abwesenheitsmanager   |
-| Berufschule            | Genehmiger des Mitarbeiters | Keine                 |
-| Bezahlte Absenz        | Genehmiger des Mitarbeiters | Keine                 |
-| Ferien 20XX            | Genehmiger des Mitarbeiters | Abwesenheitsmanager   |
-| Home Office            | Genehmiger des Mitarbeiters | Keine                 |
-| Kompensation / Gleiten | Keine                       | Keine                 |
-| Krankheit              | Genehmiger des Mitarbeiters | Keine                 |
-| Kundentermin           | Genehmiger des Mitarbeiters | Keine                 |
-| Messe                  | Genehmiger des Mitarbeiters | Keine                 |
-| Militär / Zivilschutz  | Genehmiger des Mitarbeiters | Keine                 |
-| Mutterschutz           | Genehmiger des Mitarbeiters | Keine                 |
-| Unbezahlter Urlaub     | Genehmiger des Mitarbeiters | Keine                 |
-| Unfall                 | Genehmiger des Mitarbeiters | Keine                 |
-| Vaterschaft            | Genehmiger des Mitarbeiters | Keine                 |
-| Weiterbildung          | Genehmiger des Mitarbeiters | Keine                 |
-| Überstundensaldo       | Keine                       | Abwesenheitsmanager   |
+| ---------------------- | --------------------------- | -------------------- |
+| Ausgleichstage         | Genehmiger des Mitarbeiters | Abwesenheitsmanager  |
+| Berufschule            | Genehmiger des Mitarbeiters | Keine                |
+| Bezahlte Absenz        | Genehmiger des Mitarbeiters | Keine                |
+| Ferien 20XX            | Genehmiger des Mitarbeiters | Abwesenheitsmanager  |
+| Home Office            | Genehmiger des Mitarbeiters | Keine                |
+| Kompensation / Gleiten | Keine                       | Keine                |
+| Krankheit              | Genehmiger des Mitarbeiters | Keine                |
+| Kundentermin           | Genehmiger des Mitarbeiters | Keine                |
+| Messe                  | Genehmiger des Mitarbeiters | Keine                |
+| Militär / Zivilschutz  | Genehmiger des Mitarbeiters | Keine                |
+| Mutterschutz           | Genehmiger des Mitarbeiters | Keine                |
+| Unbezahlter Urlaub     | Genehmiger des Mitarbeiters | Keine                |
+| Unfall                 | Genehmiger des Mitarbeiters | Keine                |
+| Vaterschaft            | Genehmiger des Mitarbeiters | Keine                |
+| Weiterbildung          | Genehmiger des Mitarbeiters | Keine                |
+| Überstundensaldo       | Keine                       | Abwesenheitsmanager  |
 
 ## Feiertagssaldo
 
-Wenn Sie für Mitarbeitende unterschiedliche [Arbeitszeiten festlegen](HR.md#Arbeitszeiten%20festlegen) wird die Situation bezl. Ferien- und Feiertage etwas schwieriger. 
-Wir empfehlen einerseits einen Feiertagskalender zu führen (siehe [Feiertage einrichten](HR%20Holidays%20Public.md#Feiertage%20einrichten)) und andererseits einen Abwesenheitsart *Feiertage 20XX* für jedes Jahr bereitzustellen. Damit können Feiertage als Urlaubsansprüche geltend gemacht werden. 
-
-
-
-
-
-
-
-
-
-
-
+Wenn Sie für Mitarbeitende unterschiedliche [Arbeitszeiten festlegen](HR.md#Arbeitszeiten%20festlegen) wird die Situation bezl. Ferien- und Feiertage etwas schwieriger.
+Wir empfehlen einerseits einen Feiertagskalender zu führen (siehe [Feiertage einrichten](HR%20Holidays%20Public.md#Feiertage%20einrichten)) und andererseits einen Abwesenheitsart _Feiertage 20XX_ für jedes Jahr bereitzustellen. Damit können Feiertage als Urlaubsansprüche geltend gemacht werden.

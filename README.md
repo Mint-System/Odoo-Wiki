@@ -3,19 +3,19 @@ title: Odoo Wiki
 description: Umfassende Dokumentation der Odoo-Funktionen.
 kind: reference
 head:
-  - - link
-    - rel: canonical
-      href: https://www.odoo-wiki.org
+    - - link
+      - rel: canonical
+        href: https://www.odoo-wiki.org
 tags:
-  - odoo
-  - wiki
-  - documentation
-  - howto
-  - best-practice
-  - tutorial
-  - explanation
-  - references
-  - processes
+    - odoo
+    - wiki
+    - documentation
+    - howto
+    - best-practice
+    - tutorial
+    - explanation
+    - references
+    - processes
 ---
 
 # Odoo Wiki
@@ -544,10 +544,10 @@ Unterstützer des Odoo Wiki werden hier mit Logo aufgeführt:
 
 Es sind Lösungen und Dokumente von diesen Anbieter enthalten:
 
-* [giordano.ch](https://www.giordano.ch/)
-* [Odoo Community Association](https://odoo-community.org/)
-* [Odoo S.A.](https://www.odoo.com/)
-* [Sozialinfo](https://www.sozialinfo.ch)
-* [VentorTech](https://ventor.tech/)
-* [Zebra](https://www.zebra.com)
-* [Zebroo](https://www.zebroo.de)
+- [giordano.ch](https://www.giordano.ch/)
+- [Odoo Community Association](https://odoo-community.org/)
+- [Odoo S.A.](https://www.odoo.com/)
+- [Sozialinfo](https://www.sozialinfo.ch)
+- [VentorTech](https://ventor.tech/)
+- [Zebra](https://www.zebra.com)
+- [Zebroo](https://www.zebroo.de)

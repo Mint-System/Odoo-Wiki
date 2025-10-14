@@ -5,6 +5,7 @@ kind: howto
 partner: Mint-System
 prev: ./accounting
 ---
+
 # Account OSS Report
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
@@ -33,8 +34,8 @@ Link zum Standard: <https://www.elster.de/bportal/helpGlobal?themaGlobal=iossst_
 
 ### OSS-Bericht anzeigen
 
-Navigieren Sie nach *Buchhaltung > Berichtswesen > Account OSS Report*. Filtern Sie die Einträge nach Datum.
+Navigieren Sie nach _Buchhaltung > Berichtswesen > Account OSS Report_. Filtern Sie die Einträge nach Datum.
 
 ### OSS-Bericht herunterladen
 
-Wenn Sie den [OSS-Bericht anzeigen](#OSS-Bericht%20anzeigen), markieren Sie alle Einträge und wählen *Aktion > Download OSS Report*.
+Wenn Sie den [OSS-Bericht anzeigen](#OSS-Bericht%20anzeigen), markieren Sie alle Einträge und wählen _Aktion > Download OSS Report_.

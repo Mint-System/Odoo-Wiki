@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./contacts
 ---
+
 # Base Partner Sequence
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,6 +19,6 @@ Repository: <https://github.com/OCA/partner-contact/tree/18.0/base_partner_seque
 
 ### Kontakt-Referenz automatisch vergeben
 
-Mit dieser Erweiterung werden beim Erstellen eines Kontakt automatisch eine Referenz vergeben. Öffnen Sie *Kontakte* und erstellen Sie einen Eintrag.
+Mit dieser Erweiterung werden beim Erstellen eines Kontakt automatisch eine Referenz vergeben. Öffnen Sie _Kontakte_ und erstellen Sie einen Eintrag.
 
-Im Tab *Verkauf & Einkauf* ist nun die generierte Referenz sichtbar.
+Im Tab _Verkauf & Einkauf_ ist nun die generierte Referenz sichtbar.

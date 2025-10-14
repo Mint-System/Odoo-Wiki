@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./manufacture
 ---
+
 # Secondary Product Type Description
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/17.
 
 ### Zweite Beschreibung hinzufügen
 
-Öffnen Sie ein Produkt via *Lager > Produkte > Produkte* und zeigen Sie den Tab *Allgemeine Informationen* an. Unter dem Feld *Type Description* finden das Feld *Secondary Type Description*.
+Öffnen Sie ein Produkt via _Lager > Produkte > Produkte_ und zeigen Sie den Tab _Allgemeine Informationen_ an. Unter dem Feld _Type Description_ finden das Feld _Secondary Type Description_.

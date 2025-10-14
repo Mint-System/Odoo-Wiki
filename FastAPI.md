@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./development
 ---
+
 # Odoo FastAPI
+
 ![](attachments/icon_oca_fastapi.png)
 
 {{ $frontmatter.description }}

@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./website-e-commerce
 ---
+
 # Website Sale Firstname
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

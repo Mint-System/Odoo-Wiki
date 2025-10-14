@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./settings
 ---
+
 # Base User Role Company
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

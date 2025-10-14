@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./contacts
 ---
+
 # Partner Optional Commercial Partner
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -21,7 +23,7 @@ Standardmässig wird auf Kontakten, die einem Unternehmen zugeordnet sind, als H
 
 ### Kontakt als Handelsgesellschaft festlegen
 
-Öffnen Sie einen Kontakt und zeigen Sie den Tab *Verkauf & Einkauf* an. Aktivieren Sie die Option *Is Commercial Partner*.
+Öffnen Sie einen Kontakt und zeigen Sie den Tab _Verkauf & Einkauf_ an. Aktivieren Sie die Option _Is Commercial Partner_.
 
 ::: tip
 Wenn Sie eine Rechnung mit einem konfigurierten Kontakt erstellen, wird als Handelsgesellschaft der Kunde und nicht das Unternehmen verwendet.
@@ -29,5 +31,5 @@ Wenn Sie eine Rechnung mit einem konfigurierten Kontakt erstellen, wird als Hand
 :::
 
 ::: warning
-Auf der Aktion *Mahnberichte* muss der Inhalt des Felds *Wertebereich* entfernt werden. Ansonsten sind Kontakte, die als Handelsgesellschaft markiert sind und einem Unternehmen zugeordnet sind, nicht sichtbar.
+Auf der Aktion _Mahnberichte_ muss der Inhalt des Felds _Wertebereich_ entfernt werden. Ansonsten sind Kontakte, die als Handelsgesellschaft markiert sind und einem Unternehmen zugeordnet sind, nicht sichtbar.
 :::

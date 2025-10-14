@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./development
 ---
+
 # Web Timeline
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,9 +19,9 @@ Repository: <https://github.com/OCA/web/tree/18.0/web_timeline>
 
 ### Timeline für Abwesenheiten anzeigen
 
-Damit der Ansichtstyp *Timeline* für die App *Abwesenheitszeiten* angezeigt werden kann, müssen folgende Anpassungen vorgenommen werden:
+Damit der Ansichtstyp _Timeline_ für die App _Abwesenheitszeiten_ angezeigt werden kann, müssen folgende Anpassungen vorgenommen werden:
 
-Die Timeline-Ansicht für *hr.leave* erfassen:
+Die Timeline-Ansicht für _hr.leave_ erfassen:
 
 ```xml
 <?xml version='1.0' encoding='UTF-8' ?>
@@ -40,7 +42,7 @@ Die Timeline-Ansicht für *hr.leave* erfassen:
 </odoo>
 ```
 
-Für den Bericht *Alle Benutzer* diese Timeline-Ansicht erfassen:
+Für den Bericht _Alle Benutzer_ diese Timeline-Ansicht erfassen:
 
 ```xml
 <?xml version='1.0' encoding='UTF-8' ?>
@@ -63,10 +65,10 @@ Für den Bericht *Alle Benutzer* diese Timeline-Ansicht erfassen:
 
 Den `view_mode` mit `timeline` bei diesen Fenster-Aktionen `ir.actions.act_window` ergänzen:
 
-* Abwesenheitsanträge `hr_holidays.hr_leave_action_my`
-* Dashboard `hr_holidays.hr_leave_action_new_request`
-* Alle Abwesenheiten `hr_holidays.action_hr_holidays_dashboard`
-* Abwesenheiten `hr_holidays.hr_leave_action_all`
+- Abwesenheitsanträge `hr_holidays.hr_leave_action_my`
+- Dashboard `hr_holidays.hr_leave_action_new_request`
+- Alle Abwesenheiten `hr_holidays.action_hr_holidays_dashboard`
+- Abwesenheiten `hr_holidays.hr_leave_action_all`
 
 Das Resultat sieht etwa so aus:
 
@@ -74,7 +76,7 @@ Das Resultat sieht etwa so aus:
 
 ## Timeline für Kalender anzeigen
 
-Die Timeline-Ansicht für *calendar.event* erfassen:
+Die Timeline-Ansicht für _calendar.event_ erfassen:
 
 ```xml
 <?xml version='1.0' encoding='UTF-8' ?>
@@ -97,4 +99,4 @@ Die Timeline-Ansicht für *calendar.event* erfassen:
 
 Den `view_mode` mit `timeline` bei diesen Fenster-Aktionen `ir.actions.act_window` ergänzen:
 
-* Meetings `calendar.action_calendar_event`
+- Meetings `calendar.action_calendar_event`

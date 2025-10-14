@@ -3,10 +3,12 @@ title: Street3 in addresses
 description: Drittes Adressfeld für Strasse.
 kind: howto
 tags:
-- OCA
+    - OCA
 prev: ./contacts
 ---
+
 # Street3 in addresses
+
 ![icon_oca_app](../attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./contacts
 ---
+
 # Partner Ref Sequence
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,9 +19,9 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/
 
 ### Kontakt-Referenz automatisch vergeben
 
-Mit dieser Erweiterung werden beim Erstellen eines Kontakt automatisch eine Referenz vergeben. Öffnen Sie *Kontakte* und erstellen Sie einen Eintrag.
+Mit dieser Erweiterung werden beim Erstellen eines Kontakt automatisch eine Referenz vergeben. Öffnen Sie _Kontakte_ und erstellen Sie einen Eintrag.
 
-Im Tab *Verkauf & Einkauf* ist nun die generierte Referenz sichtbar.
+Im Tab _Verkauf & Einkauf_ ist nun die generierte Referenz sichtbar.
 
 ![](attachments/Partner%20Ref%20Sequence.png)
 

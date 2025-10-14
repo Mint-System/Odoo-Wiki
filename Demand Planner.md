@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./stock
 ---
+
 # Demand Planner
+
 ![](attachments/odoo_icon_demand_planner.png)
 
 {{ $frontmatter.description }}
@@ -17,8 +19,8 @@ Repository: <https://github.com/Mint-System/Demand-Planner>
 
 ### Nachfragekalkulation für Vorgangstyp aktivieren
 
-Damit Bestellvorschläge generiert werden, muss dies explizit auf dem Vorgangstyp festgelegt werden. Navigieren Sie nach *Lager > Konfiguration > Vorgangstyp* und wählen Sie den entsprechenden Typen aus. Aktivieren Sie die Option *Calculate demand for orders of this type*.
+Damit Bestellvorschläge generiert werden, muss dies explizit auf dem Vorgangstyp festgelegt werden. Navigieren Sie nach _Lager > Konfiguration > Vorgangstyp_ und wählen Sie den entsprechenden Typen aus. Aktivieren Sie die Option _Calculate demand for orders of this type_.
 
 ### Bestellvorschläge anzeigen
 
-Öffnen Sie *Lager > Berichtswesen > Demand Planner* und klicken Sie auf *Refresh*. Für Aufträge von aktivierten Vorgangstypen werden nun Bestellvorschläge generiert und angezeigt.
+Öffnen Sie _Lager > Berichtswesen > Demand Planner_ und klicken Sie auf _Refresh_. Für Aufträge von aktivierten Vorgangstypen werden nun Bestellvorschläge generiert und angezeigt.

@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale-blanket-order
 ---
+
 # Sale Blanket Order Commitment Date
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sa
 
 ### Lieferdatum kopieren
 
-Beim Erstellen eines Verkaufsauftrag aus einem Rahmenauftrag wird mit dieser Erweiterung das *Geplantes Datum* der Rahmenauftragszeile in das *Lieferdatum* der Verkaufsauftragszeile kopiert.
+Beim Erstellen eines Verkaufsauftrag aus einem Rahmenauftrag wird mit dieser Erweiterung das _Geplantes Datum_ der Rahmenauftragszeile in das _Lieferdatum_ der Verkaufsauftragszeile kopiert.
 
 Rahmenauftragszeile:
 

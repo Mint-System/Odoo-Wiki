@@ -9,5 +9,5 @@ export default defineClientConfig({
                 mermaid.contentLoaded()
             })
         }
-    }
+    },
 })

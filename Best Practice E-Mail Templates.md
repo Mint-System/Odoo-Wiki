@@ -46,7 +46,7 @@ Inhalt:
 	<br><br>
 	Gerne möchten wir unsere Aufwände von <b>MM</b> bis <b>MM</b> verrechnen.
 	<br><br>
-	Anbei finden Sie die 
+	Anbei finden Sie die
 	% if object.name:
 	    Rechnung <strong>${object.name}</strong>
 	% else:
@@ -130,7 +130,7 @@ Inhalt:
 ```xml
 <div style="margin: 0px; padding: 0px;">
     <p style="margin: 0px; padding: 0px; font-size: 13px;">
-        Liebe Kundin, Lieber Kunde 
+        Liebe Kundin, Lieber Kunde
         <br><br>
         Anbei erhalten Sie ihre Gutschrift.
         <br><br>

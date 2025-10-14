@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./forestry-base
 ---
+
 # Holzwirtschaft Projekt
+
 ![icons_odoo_forestry_base](attachments/icons_odoo_forestry_base.png)
 
 {{ $frontmatter.description }}
@@ -21,15 +23,15 @@ Mit dieser Erweiterungen erhalten Sie zusätzliche Felder auf dem Projekt und de
 
 Auf dem Projektformular:
 
-* **Projektnummer**: Fortlaufende Nummerierung
-* **Auftragstyp**: Bestimmt die Bezeichnung der Aufgaben
+- **Projektnummer**: Fortlaufende Nummerierung
+- **Auftragstyp**: Bestimmt die Bezeichnung der Aufgaben
 
 Auf der Projektaufgabe:
 
-* **Produkt**: Polter oder Holz
-* **Abgangsort**: Standard-Abgangsort
-* **Abgangsort-Link**: Karten-Link des Abgangsort
-* **Zielort**: Standard-Zielort
-* **Zielort-Link**: Karten-Link des Zielort
-* **Fahrzeug**: Zugewiesenes Fahrzeug
-* **Anhänger**: Mit Anhänger oder ohne
+- **Produkt**: Polter oder Holz
+- **Abgangsort**: Standard-Abgangsort
+- **Abgangsort-Link**: Karten-Link des Abgangsort
+- **Zielort**: Standard-Zielort
+- **Zielort-Link**: Karten-Link des Zielort
+- **Fahrzeug**: Zugewiesenes Fahrzeug
+- **Anhänger**: Mit Anhänger oder ohne

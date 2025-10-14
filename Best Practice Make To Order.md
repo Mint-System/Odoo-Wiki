@@ -4,13 +4,14 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Make to Order
 
 Damit beim Verkauf von zu fertigenden Produkten direkt ein Fertigungsauftrag erstellt wird, müssen für die Produkte zwei Lagerrouten aktiviert werden. Diese Routen sind im System bereits hinterlegt, müssen aber sichtbar gemacht werden.
 
 1. Als erstes müssen Sie die [mehrstufige Routen aktivieren](Stock.md#Mehrstufige%20Routen%20aktivieren).
 2. Anschliessend können Sie die [Route Auffüllung nach Auftrag MTO wiederherstellen](Stock%20Operations.md#Route%20Auffüllung%20nach%20Auftrag%20MTO%20wiederherstellen).
-3. 3. Nun können Sie ein [Produkt für "Make to Order" konfigurieren](Stock.md#Produkt%20für%20"Make%20to%20Order"%20konfigurieren).
+3.  3. Nun können Sie ein [Produkt für "Make to Order" konfigurieren](Stock.md#Produkt%20für%20"Make%20to%20Order"%20konfigurieren).
 
 Wenn Sie dieses Produkt verkaufen, legt Odoo eine Lieferung und ein Fertigungsauftrag an. Die Aufträge werden mit den Smart-Buttons verlinkt.
 

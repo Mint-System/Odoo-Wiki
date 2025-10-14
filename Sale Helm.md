@@ -4,7 +4,9 @@ description: Bei Verkauf ein Helm-Release installieren.
 kind: howto
 prev: ./mint-cloud
 ---
+
 # Sale Helm
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}

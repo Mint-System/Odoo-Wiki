@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./contacts
 ---
+
 # Partner Multiline Street2
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/
 
 ### Mehrzeilige Adresse in zweiter Strasse hinzufügen
 
-Zeiten Sie *Kontakte* an und öffnen Sie einen Eintrag. Im Feld *Strasse 2* können Sie nun Zeilenumbrüche hinzufügen.
+Zeiten Sie _Kontakte_ an und öffnen Sie einen Eintrag. Im Feld _Strasse 2_ können Sie nun Zeilenumbrüche hinzufügen.

@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./dashboards
 ---
+
 # Mail Activity Done
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -21,6 +23,6 @@ Ist diese Erweiterung installiert, können erledigte Aktivitäten auf dem Dashbo
 
 ![](attachments/Mail%20Activity%20Done.png)
 
-In der Ansichten von Aktivitäten, steht der Filter *Completed Activities* zur Verfügung:
+In der Ansichten von Aktivitäten, steht der Filter _Completed Activities_ zur Verfügung:
 
 ![](attachments/Mail%20Activity%20Done%20Filter.png)

@@ -3,10 +3,12 @@ title: Entwicklung Aktionen
 description: Eigene Odoo Aktionen erstellen.
 kind: howto
 tags:
-- Actions
+    - Actions
 prev: ./development
 ---
+
 # Entwicklung Aktionen
+
 ![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ prev: ./development
 
 Fehlen bestimmte Ansichten, können diese ganz einfach mit einer Aktion und einem Menüposten erstellt werden. In diesem Bespiel wollen wir die die Komponenten aller Stücklisten in einer Tabelle darstellen.
 
-Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Fenster öffnen/schliessen ...* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Fenster öffnen/schliessen ..._ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `BoM Komponenenten`\
 Objekt: `mrp.bom.line`\
@@ -26,7 +28,7 @@ Wertebereich: Gemäss Angaben\
 Wert aus Kontext: Gemäss Angaben\
 Ansichten: Gemäss Angaben
 
-Navigieren Sie nach *Einstellungen > Technisch > Benutzer-Interface > Menüposten* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Benutzer-Interface > Menüposten_ und erstellen Sie einen neuen Eintrag:
 
 Menü: `BoM Komponenenten`\
 Obermenü: `Fertigung/Produkte`\
@@ -39,13 +41,13 @@ Nachdem der Browser aktualisiert haben Sie Zugriff auf das neue Menü und Ansich
 
 ### Ansicht einer Aktion hinzufügen
 
-Wenn eine [Aktion bearbeiten](#Aktion%20bearbeiten), können Sie die verfügbaren Ansichtstypen im Feld *Ansichtmodus* festlegen. Ebenfalls können Sie steuern welche Ansicht abhängig vom Type aufgerufen werden. Auf der selben Bearbeitungsansicht können Sie unter *Ansichten* eine Liste bearbeiten.
+Wenn eine [Aktion bearbeiten](#Aktion%20bearbeiten), können Sie die verfügbaren Ansichtstypen im Feld _Ansichtmodus_ festlegen. Ebenfalls können Sie steuern welche Ansicht abhängig vom Type aufgerufen werden. Auf der selben Bearbeitungsansicht können Sie unter _Ansichten_ eine Liste bearbeiten.
 
 ![](attachments/Entwicklung%20Aktionen%20Ansichten.png)
 
 ### Fenstername umbennen
 
-Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach *Eisntellungen > Technisch > Aktionen > Fesnter öffnen/schliessen ...*. Suchen Sie im Feld *Name der Aktion* nach dem Fensternamen und passen Sie den Namen an.
+Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach _Eisntellungen > Technisch > Aktionen > Fesnter öffnen/schliessen ..._. Suchen Sie im Feld _Name der Aktion_ nach dem Fensternamen und passen Sie den Namen an.
 
 ![Einstellungen Fenster umbennen](attachments/Einstellungen%20Fenster%20umbennen.gif)
 
@@ -53,38 +55,38 @@ Um den angezeigten Namen eines Fenster anzuspassen, navigieren Sie nach *Eisntel
 
 Odoo unterscheidet im wesentlichen zwischen vier Aktionen.
 
-**Fensteraktionen**: Verwendet zum anzeigen von Ansichten. Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Fensteraktionen*.
+**Fensteraktionen**: Verwendet zum anzeigen von Ansichten. Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Fensteraktionen_.
 
-**Serveraktionen**: Für Aktionen verknüpft mit Datenmodellen. Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Serveraktionen*.
+**Serveraktionen**: Für Aktionen verknüpft mit Datenmodellen. Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Serveraktionen_.
 
-**Geplante Aktionen**: Zeitlich geplante Serveraktionen. Navigieren Sie nach *Einstellungen > Technisch > Automatisierung > Geplante Aktionen*.
+**Geplante Aktionen**: Zeitlich geplante Serveraktionen. Navigieren Sie nach _Einstellungen > Technisch > Automatisierung > Geplante Aktionen_.
 
-**Automatisierte Aktionen**: Aktion bei bestimmten Zuständen auslösen. Navigieren Sie nach *Einstellungen > Technisch > Automatisierung > Automatisierte Aktionen*.
+**Automatisierte Aktionen**: Aktion bei bestimmten Zuständen auslösen. Navigieren Sie nach _Einstellungen > Technisch > Automatisierung > Automatisierte Aktionen_.
 
 ### Serverkaktion erstellen
 
-Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Serveraktionen* und erstellen Sie einen neuen Eintrag. Wenn Sie als Modell *Serveraktion* wählen, erhalten Sie eine Aktion *Manuell Ausführen*. Wenn Sie ein anderes Datenmodell wählen, müssen Sie *Kontextuelle Aktion Erstellen* ausführen, damit die Aktion auf der Formular- und Listenansicht des gewählten Datenmodell erscheint.
+Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Serveraktionen_ und erstellen Sie einen neuen Eintrag. Wenn Sie als Modell _Serveraktion_ wählen, erhalten Sie eine Aktion _Manuell Ausführen_. Wenn Sie ein anderes Datenmodell wählen, müssen Sie _Kontextuelle Aktion Erstellen_ ausführen, damit die Aktion auf der Formular- und Listenansicht des gewählten Datenmodell erscheint.
 
 ### Serveraktion manuell ausführen
 
-Rufen Sie eine Serverkation mit Modell *Serverkation* unter *Einstellungen > Technisch > Aktionen > Serveraktionen* auf. Führen Sie die Serveraktion mit dem Knopf *Manuell Ausführen* aus.
+Rufen Sie eine Serverkation mit Modell _Serverkation_ unter _Einstellungen > Technisch > Aktionen > Serveraktionen_ auf. Führen Sie die Serveraktion mit dem Knopf _Manuell Ausführen_ aus.
 
 ### Fensteraktion bearbeiten
 
-Navigieren Sie nach *Einstellungen > Technisch > Aktionen > Fensteraktionen* und suchen Sie anhand *Namen der Aktion*. Mehrere Aktionen können den gleichen Namen haben. Die wichtigsten Felder sind:
+Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Fensteraktionen_ und suchen Sie anhand _Namen der Aktion_. Mehrere Aktionen können den gleichen Namen haben. Die wichtigsten Felder sind:
 
-* **Ansichtsmodus**: Verfügbare Ansichten nach Aufruf der Aktion.
-* **Wertebereich**: Filter für die angezeigten Daten.
-* **Wert aus Kontext**: Kontext-Definitionen.
-* **Ansichten**: Ordnet und spezifiziert die Auswahl der verfügbaren Ansichten.
+- **Ansichtsmodus**: Verfügbare Ansichten nach Aufruf der Aktion.
+- **Wertebereich**: Filter für die angezeigten Daten.
+- **Wert aus Kontext**: Kontext-Definitionen.
+- **Ansichten**: Ordnet und spezifiziert die Auswahl der verfügbaren Ansichten.
 
 ### Aktuelle Aktion bearbeiten
 
-Mit jedem Klick auf ein Menü oder Knopf wird in Odoo eine Aktion ausgeführt. Die ausgeführte Aktion können Sie mit *Entwicklertools > Aktion bearbeiten* anzeigen und bearbeiten.
+Mit jedem Klick auf ein Menü oder Knopf wird in Odoo eine Aktion ausgeführt. Die ausgeführte Aktion können Sie mit _Entwicklertools > Aktion bearbeiten_ anzeigen und bearbeiten.
 
 ### Standardwert auf Aktion definieren
 
-Wenn Sie die [aktuelle Aktion bearbeiten](#Aktuelle%20Aktion%20bearbeiten) können Sie im Feld *Wert aus Kontext* einen Standardwert für das aktuelle Datenmodell festlegen. Dazu ein paar Bespiele:
+Wenn Sie die [aktuelle Aktion bearbeiten](#Aktuelle%20Aktion%20bearbeiten) können Sie im Feld _Wert aus Kontext_ einen Standardwert für das aktuelle Datenmodell festlegen. Dazu ein paar Bespiele:
 
 Heutiges Datum als Standardwert für das Feld `ordering_date`.
 
@@ -100,13 +102,13 @@ Dokumentieren Sie die Anpassung von Aktionen. Bei einer Aktualisierung der Modul
 
 ### Feld neu berechnen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Feld neu berechnen`\
 Modell: `ir.model.fields`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 for field in records:
@@ -114,45 +116,45 @@ for field in records:
   env.add_to_compute(obj._fields[field.name], obj.search([]))
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Felder erscheint nun in der Auswahl *Aktion* das Menu *Feld neu berechnen*.
+In der Liste der Felder erscheint nun in der Auswahl _Aktion_ das Menu _Feld neu berechnen_.
 
 ### Ansicht Zugriffsrechte aktualisieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Ansicht Zugriffsrechte aktualisieren`\
 Modell: `ir.actions.server`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 env["res.groups"]._update_user_groups_view()
 ```
 
-Speichern Sie die Aktion und führen Sie diese direkt mit *Starten* aus.
+Speichern Sie die Aktion und führen Sie diese direkt mit _Starten_ aus.
 
 ### Vererbte Ansichten entfernen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Vererbte Ansichten entfernen`\
 Modell: `ir.ui.view`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 records.inherit_children_ids.unlink()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 ### Compose E-Mail
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Compose E-Mail`\
 Modell: Referenz gemäss Dokument\
@@ -179,7 +181,7 @@ if record:
   }
 ```
 
-Speichern Sie die Serveraktion und zeigen Sie die [Metadaten an](Development.md#Metadaten%20anzeigen). Notieren Sie sich die *ID* des Datensatzes.
+Speichern Sie die Serveraktion und zeigen Sie die [Metadaten an](Development.md#Metadaten%20anzeigen). Notieren Sie sich die _ID_ des Datensatzes.
 
 Als nächtes müssen Sie die [Formularansicht bearbeiten](Development%20Views.md#Formularansicht%20bearbeiten) und ein [Snippet hinzufügen](Development%20Snippets.md#Snippet%20hinzufügen) um diesen Knopf einzufügen:
 
@@ -187,7 +189,7 @@ Als nächtes müssen Sie die [Formularansicht bearbeiten](Development%20Views.md
 <button name="$ID" type="action" string="Compose E-Mail"/>
 ```
 
-Wobei `$ID` der notierten *ID* der Serveraktion entspricht.
+Wobei `$ID` der notierten _ID_ der Serveraktion entspricht.
 
 Mit diesem Knopf können Sie den E-Mail-Dialog öffnen.
 
@@ -197,9 +199,9 @@ Mit diesem Knopf können Sie den E-Mail-Dialog öffnen.
 
 ### Beim Aktualisieren eine Validierung ausführen
 
-Mit *Automatischen Aktionen* kann ein Datensatz, der aktualisiert wurde, zusätzlich validiert werden. In unserem Beispiel wollen wir unterbinden, dass Qualitätsalarme auf bestimmte Stufen gesetzt werden.
+Mit _Automatischen Aktionen_ kann ein Datensatz, der aktualisiert wurde, zusätzlich validiert werden. In unserem Beispiel wollen wir unterbinden, dass Qualitätsalarme auf bestimmte Stufen gesetzt werden.
 
-Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatisierte Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Modell: `Qualitätsalarm`\
 Auslöser: Beim Aktualisieren\

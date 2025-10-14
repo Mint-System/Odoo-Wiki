@@ -1,26 +1,20 @@
 {
-  "file-explorer:reveal-active-file": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ],
-  "insert-template": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "T"
-    }
-  ],
-  "quickadd:runQuickAdd": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Q"
-    }
-  ]
+    "file-explorer:reveal-active-file": [
+        {
+            "modifiers": ["Mod"],
+            "key": "N"
+        }
+    ],
+    "insert-template": [
+        {
+            "modifiers": ["Alt"],
+            "key": "T"
+        }
+    ],
+    "quickadd:runQuickAdd": [
+        {
+            "modifiers": ["Mod"],
+            "key": "Q"
+        }
+    ]
 }

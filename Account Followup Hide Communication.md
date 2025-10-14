@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./invoicing
 ---
+
 # Account Followup Hide Communication
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,6 +19,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reportin
 
 ### Spalte Kommunikation ausblenden
 
-Mit dieser Erweiterung wird die Spalte *Kommunikation* im Mahnbericht ausgeblendet.
+Mit dieser Erweiterung wird die Spalte _Kommunikation_ im Mahnbericht ausgeblendet.
 
 ![](attachments/Account%20Followup%20Hide%20Communication.png)

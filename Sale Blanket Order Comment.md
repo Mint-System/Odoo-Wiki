@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale-blanket-order
 ---
+
 # Sale Blanket Order Comment
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -21,7 +23,7 @@ Mit dem Systemparameter `sale_blanket_order_comment.copy_comment` können Sie fe
 
 ### Kommentar hinzufügen
 
-Öffnen Sie einen Rahmenauftrag via *Verkäufe > Aufträge > Rahmenaufträge*. Im Tab *Weitere Informationen* finden Sie das Feld *Kommentar*.
+Öffnen Sie einen Rahmenauftrag via _Verkäufe > Aufträge > Rahmenaufträge_. Im Tab _Weitere Informationen_ finden Sie das Feld _Kommentar_.
 
 ![](attachments/Sale%20Blanket%20Order%20Comment%20Feld.png)
 

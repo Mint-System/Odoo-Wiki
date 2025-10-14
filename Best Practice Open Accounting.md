@@ -4,6 +4,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Eröffnung Buchhaltung
 
 In diesem Artikel wird anhand eines einfachen Beispiels erläutert wie man eine laufende Buchhaltung in Odoo eröffnet.
@@ -12,12 +13,12 @@ In diesem Artikel wird anhand eines einfachen Beispiels erläutert wie man eine 
 
 Per Ende der Buchhaltungsperiode, standardmässig der 31.12, muss eine Schlussbilanz in Odoo erstellt werden.
 
-* **Referenz**: Schlussbilanz YYYY
-* **Buchungsdatum**: 31.12.YYYY
-* **Journal**: Sonstiges
+- **Referenz**: Schlussbilanz YYYY
+- **Buchungsdatum**: 31.12.YYYY
+- **Journal**: Sonstiges
 
 | Konto                               | Buchungstext          |      Soll |     Haben |
-| ----------------------------------- | --------------------- | ---------:| ---------:|
+| ----------------------------------- | --------------------- | --------: | --------: |
 | 1024 Bank                           | Eröffnung             | 236250.00 |           |
 | 1029 Festgelder                     | Eröffnung             | 400000.00 |           |
 | 2000 Verbindlichkeiten              | Eröffnung             |           |     30000 |
@@ -27,6 +28,7 @@ Per Ende der Buchhaltungsperiode, standardmässig der 31.12, muss eine Schlussbi
 | 999999 Unverteilte Gewinne/Verluste | Jahresgewinn Vorjahr  |           |  85000.00 |
 | 999999 Unverteilte Gewinne/Verluste | Offene Debitoren      |           |  50000.00 |
 |                                     |                       | 636250.00 | 636250.00 |
+
 <!-- TBLFM: @>$3=sum(@I..@-1);%.2f -->
 <!-- TBLFM: @>$4=sum(@I..@-1);%.2f -->
 
@@ -34,18 +36,19 @@ Per Ende der Buchhaltungsperiode, standardmässig der 31.12, muss eine Schlussbi
 
 Die offenen Debitoren werden zur Abstimmung als einzelne Buchungszeilen angelegt.
 
-* **Referenz**: Offene Debitoren
-* **Buchungsdatum**: 31.12.YYYY
-* **Journal**: Sonstiges
+- **Referenz**: Offene Debitoren
+- **Buchungsdatum**: 31.12.YYYY
+- **Journal**: Sonstiges
 
 | Konto                               | Buchungstext          |     Soll |    Haben |
-| ----------------------------------- | --------------------- | --------:| --------:|
+| ----------------------------------- | --------------------- | -------: | -------: |
 | 1100 Forderungen                    | 32640                 | 10000.00 |          |
 | 1100 Forderungen                    | 32693                 | 30000.00 |          |
 | 1100 Forderungen                    | 32728                 |  7000.00 |          |
 | 1100 Forderungen                    | 32582                 |  3000.00 |          |
 | 999999 Unverteilte Gewinne/Verluste | Gewinnvortrag Vorjahr |          | 50000.00 |
 |                                     |                       | 50000.00 | 50000.00 |
+
 <!-- TBLFM: @>$3=sum(@I..@-1);%.2f -->
 <!-- TBLFM: @>$4=sum(@I..@-1);%.2f -->
 
@@ -53,14 +56,15 @@ Die offenen Debitoren werden zur Abstimmung als einzelne Buchungszeilen angelegt
 
 Im neuen Jahr werden aus den unverteilten Gewinne/Verluste die gesetzlichen Reserven zugeordnet.
 
-* **Referenz**: Zuweisung gesetzliche Reserven
-* **Buchungsdatum**: 01.01.YYYY
-* **Journal**: Sonstiges
+- **Referenz**: Zuweisung gesetzliche Reserven
+- **Buchungsdatum**: 01.01.YYYY
+- **Journal**: Sonstiges
 
 | Konto                                       |    Soll |   Haben |
-| ------------------------------------------- | -------:| -------:|
+| ------------------------------------------- | ------: | ------: |
 | 2950 Gesetzliche Gewinnrücklagen (Reserven) |         | 4300.00 |
 | 999999 Unverteilte Gewinne/Verluste         | 4300.00 |         |
 |                                             | 4300.00 | 4300.00 |
+
 <!-- TBLFM: @>$2=sum(@I..@-1);%.2f -->
 <!-- TBLFM: @>$3=sum(@I..@-1);%.2f -->

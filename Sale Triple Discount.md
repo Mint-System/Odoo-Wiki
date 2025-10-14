@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./sale
 ---
+
 # Sale Triple Discount
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./hr
 ---
+
 # HR Birthday Calender
+
 ![](attachments/icon_hr_birthday_calendar.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_birthday_c
 
 ### Geburtstagskalender anzeigen
 
-Navigieren Sie nach *Personal > Mitarbeiterverzeichnis* und klicken Sie auf die Kalender-Ansicht. Nun erscheinen alle eingetragenen Geburtstage ohne Jahreszahl.
+Navigieren Sie nach _Personal > Mitarbeiterverzeichnis_ und klicken Sie auf die Kalender-Ansicht. Nun erscheinen alle eingetragenen Geburtstage ohne Jahreszahl.
 
 ![](attachments/Kalender-Symbol.png)
 

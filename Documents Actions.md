@@ -3,10 +3,12 @@ title: Dokumente Aktionen
 description: Arbeitsflüsse mit Dokumenten automatisieren.
 kind: howto
 tags:
-- Actions
+    - Actions
 prev: ./documents
 ---
+
 # Dokumente Aktionen
+
 ![icons_odoo_documents](attachments/icons_odoo_documents.png)
 
 {{ $frontmatter.description }}
@@ -30,13 +32,13 @@ flowchart TD
     D -->|verknüpft| C
 ```
 
-Navigieren Sie nach *Einstellungen > Technisch > Serveraktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Dokumente aus Wareneingang taggen`\
 Modell: `stock.lot` oder `mrp.production`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 tag_name ='Dokumente aus Wareneingang'
@@ -50,21 +52,21 @@ for tagged_document in tagged_documents:
     })
 
 for rec in records:
-  
+
   # Get incoming picking ids
   traceability_lines = rec.traceability_line_ids
   incoming_lines = traceability_lines.filtered(lambda l: l.picking_id.picking_type_id.code == 'incoming' and l.product_id.tracking in ['serial', 'lot'])
   incoming_picking_ids = list(set(incoming_lines.mapped('picking_id.id')))
-  
+
   # Search document linked to the picking ids
   documents = env['documents.document'].search([('res_model', '=', 'stock.picking'), ('res_id', 'in', incoming_picking_ids)])
-  
+
   # Tag these documents
   for document in documents:
     document.write({
       'tag_ids': document.tag_ids + document_tag
     })
-    
+
   message = 'Tagged %s documents with tag "%s".' % (len(documents), tag_name)
 
   action = {
@@ -77,13 +79,13 @@ for rec in records:
   }
 ```
 
-Die Aktion mit *Kontextuelle Aktion Erstellen* bestätigen.
+Die Aktion mit _Kontextuelle Aktion Erstellen_ bestätigen.
 
 ## Geplante Aktionen
 
 ### Dokumente an Wareneingang zuordnen
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Dokumente an Wareneingang zuordnen`\
 Modell: `ir.actions.server`\
@@ -92,7 +94,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 tag = env['documents.tag'].search([ ('name','=','WE zugeordnet') ],limit=1)

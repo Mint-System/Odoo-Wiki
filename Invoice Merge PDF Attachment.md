@@ -5,6 +5,7 @@ kind: howto
 partner: Mint-System
 prev: ./invoicing
 ---
+
 # Invoice Merge PDF Attachment
 
 ![](attachments/icon_odoo_sv.png)
@@ -21,7 +22,7 @@ Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/sh_inv_merge_pdf>
 
 Mit dieser Erweiterung können Sie Die Anhänge einer Rechnung eineem bestimmten Rechnungsbericht anfügen.
 
-In den Einstellunge unter *Buchhaltung > Invoice Attachment Merge*, bestimmen Sie den Hauptbericht.
+In den Einstellunge unter _Buchhaltung > Invoice Attachment Merge_, bestimmen Sie den Hauptbericht.
 
 ![](attachments/Invoice%20Merge%20PDF%20Attachment.png)
 

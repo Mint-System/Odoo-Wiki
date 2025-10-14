@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./accounting
 ---
+
 # Account Payment Mode
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -21,28 +23,28 @@ Diese Erweiterung ermöglicht die Verwaltung von Zahlungsmodis.
 
 ### Zahlungsmodus erfassen
 
-Navigieren Sie nach *Buchhaltung > Konfiguration > Verwaltung > Zahlungsmodi*. Erstellen Sie eine neuen *Zahlungsmodus* erfassen:
+Navigieren Sie nach _Buchhaltung > Konfiguration > Verwaltung > Zahlungsmodi_. Erstellen Sie eine neuen _Zahlungsmodus_ erfassen:
 
-* **Name**: Name des Zahlungsmodus, beispielsweise *Manuell Bank*
-* **Zahlungsmethode**: Zahlungsmethode auswählen, beispielsweise *\[manual\] Manuell (outbound)*
-* **Verbindung zum Bankkonto**: Wählen Sie hier *Variable*
-* **Erlaubte Banken Logbuch**: Wählen Sie hier ein bestimmtes Bank-Journal aus
+- **Name**: Name des Zahlungsmodus, beispielsweise _Manuell Bank_
+- **Zahlungsmethode**: Zahlungsmethode auswählen, beispielsweise _\[manual\] Manuell (outbound)_
+- **Verbindung zum Bankkonto**: Wählen Sie hier _Variable_
+- **Erlaubte Banken Logbuch**: Wählen Sie hier ein bestimmtes Bank-Journal aus
 
 ## Verwendung
 
 ### Zahlungsmodus auf Lieferantenrechnung festlegen
 
-Navigieren Sie nach *Buchhaltung > Lieferanten > Rechnungen* und zeigen Sie eine Lieferantenrechnung an. Treffen Sie im Feld *Zahlungsmodus* eine Auswahl.
+Navigieren Sie nach _Buchhaltung > Lieferanten > Rechnungen_ und zeigen Sie eine Lieferantenrechnung an. Treffen Sie im Feld _Zahlungsmodus_ eine Auswahl.
 
 ## Automatisierte Aktionen
 
 ### Zahlungsmethode von Rechnung auf Zahlung übertragen
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Zahlungsmethode von Rechnung auf Zahlung übertragen`\
 Modell: `account.payment.register`\
-Auslöser: *Auf Basis von Formularanpassungen*\
+Auslöser: _Auf Basis von Formularanpassungen_\
 Auslöser-Felder: `journal_id`\
 Folgeaktion: Python-Code ausführen\
 Python-Code:

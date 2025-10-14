@@ -4,7 +4,9 @@ description: Arbeitsflüsse in Einkauf automatisieren.
 kind: howto
 prev: ./purchase
 ---
+
 # Einkauf Aktionen
+
 ![icons_odoo_purchase](attachments/icons_odoo_purchase.png)
 
 {{ $frontmatter.description }}
@@ -13,24 +15,24 @@ prev: ./purchase
 
 ### Bestellfrist festlegen
 
-Mit Aktionen können Felder mit einem bestimmten Default-Wert beschrieben werden. Im folgenden Beispiel wird das Feld *Order Deadline* auf Angebotsanfragen auf das Datum *heute + 5 Tage* gesetzt.
+Mit Aktionen können Felder mit einem bestimmten Default-Wert beschrieben werden. Im folgenden Beispiel wird das Feld _Order Deadline_ auf Angebotsanfragen auf das Datum _heute + 5 Tage_ gesetzt.
 
-Navigieren Sie nach *Einstellungen > Technisch > Automation > Automatisierte Aktionen* und erstellen Sie den folgenden Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ und erstellen Sie den folgenden Eintrag:
 
-* Name der Aktion: `Bestellfrist festlegen`
-* Modell: `Beschaffungsauftrag`
-* Auslöser: `Bei Erstellung`
-* Folgeaktion: `Den Datensatz aktualisieren`
-* Feld: `Order Deadline (purchase.order)`
-* Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
+- Name der Aktion: `Bestellfrist festlegen`
+- Modell: `Beschaffungsauftrag`
+- Auslöser: `Bei Erstellung`
+- Folgeaktion: `Den Datensatz aktualisieren`
+- Feld: `Order Deadline (purchase.order)`
+- Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
 
 ## Automatisierte Aktionen
 
 ### Aktivität Rechnung prüfen für Käufer erstellen
 
-Mit dieser automatischen Aktion wird beim anwählen der Option *Zum Überprüfen* auf einer Rechnung mit einem Einkauf eine Aktivität zur Prüfung der Rechnung dem Käufer zugeordnet.
+Mit dieser automatischen Aktion wird beim anwählen der Option _Zum Überprüfen_ auf einer Rechnung mit einem Einkauf eine Aktivität zur Prüfung der Rechnung dem Käufer zugeordnet.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Aktivität Rechnung prüfen für Käufer erstellen`\
 Modell: `acclount.move`\

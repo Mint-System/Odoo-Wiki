@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./hr-timesheet
 ---
+
 # Project Timesheet Limit
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/17.0/project_times
 
 ### Erfassbare Zeit limitieren
 
-Zeigen Sie den Tab *Einstellungen* eines Projekts via *Projekt > Konfiguration > Projekte* an. Aktivieren Sie die Option *Erfassbare Zeit limitieren*.
+Zeigen Sie den Tab _Einstellungen_ eines Projekts via _Projekt > Konfiguration > Projekte_ an. Aktivieren Sie die Option _Erfassbare Zeit limitieren_.
 
 ::: tip
 Wenn die Option aktiv ist, können die Stunden der Zeiterfassung auf den Aufgaben des Projekts die geplante Zeit der Aufgabe nicht überschreiten.

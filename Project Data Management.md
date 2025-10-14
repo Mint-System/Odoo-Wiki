@@ -4,7 +4,9 @@ description: Daten zu Projekte exportieren und importieren.
 kind: howto
 prev: ./project
 ---
+
 # Projekt Datenmanagement
+
 ![icons_odoo_website_sale_options](attachments/icons_odoo_website_sale_options.png)
 
 {{ $frontmatter.description }}
@@ -13,37 +15,42 @@ prev: ./project
 
 ### Projektstufen exportieren
 
-Listenansicht: *Projekt > Konfiguration > Stufen*
+Listenansicht: _Projekt > Konfiguration > Stufen_
 
 Felder:
+
 ```
 Sequenz
 Stufenbezeichnung
 In Kanban eingeklappt
 Beschreibung
-Projekte/Externe ID 
+Projekte/Externe ID
 ```
+
 File: `project.task.type.csv`
 
 ### Projekte exportieren
 
-Listenansicht: *Projekt > Konfiguration > Projekte*
+Listenansicht: _Projekt > Konfiguration > Projekte_
 
 Felder:
+
 ```
 Sequenz
 Name
 Projektmanager
 Kunde
-Zeiterfassung 
+Zeiterfassung
 ```
+
 Datei: `project.project.csv`
 
 ### Aufgaben exportieren
 
-Listenansicht: *Projekt > Alle Aufgaben*
+Listenansicht: _Projekt > Alle Aufgaben_
 
 Felder:
+
 ```
 Titel
 Projekt
@@ -51,4 +58,5 @@ Zugewiesen an
 Geplante Stunden
 Stufe
 ```
+
 Datei: `project.task.csv`

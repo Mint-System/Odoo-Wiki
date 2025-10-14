@@ -5,7 +5,9 @@ kind: howto
 partner: Thirdparty
 prev: ./accounting
 ---
+
 # EBICS banking Odoo Enterprise
+
 ![](attachments/icons_odoo_ebics.png)
 
 {{ $frontmatter.description }}

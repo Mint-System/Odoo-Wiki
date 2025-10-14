@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Aussendienst
+
 ![](attachments/icons_odoo_industry_fsm.png)
 
 {{ $frontmatter.description }}
@@ -14,19 +16,19 @@ Website: <https://www.odoo.com/de_DE/app/field-service>
 
 ## Erweiterungen
 
-| Erweiterung                                                                 | Beschreibung                                                                                   |
-| --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Erweiterung                                                                 | Beschreibung                                                    |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | [Industry FSM Sale Default Task](Industry%20FSM%20Sale%20Default%20Task.md) | Verknüpfte Aufgabe der Auftragszeile als Standardwert verwenden |
 
 ## Verwendung
 
 ### Projekt für Produkte auf Aufgaben konfigurieren
 
-Navigieren Sie nach *Projekt > Konfiguration > Projekte* und wählen Sie ein Projekt aus. Zeigen Sie den Tab *Einstellungen* an und aktivieren Sie die Option *Abrechenbar* und *Produkte auf Aufgaben*.
+Navigieren Sie nach _Projekt > Konfiguration > Projekte_ und wählen Sie ein Projekt aus. Zeigen Sie den Tab _Einstellungen_ an und aktivieren Sie die Option _Abrechenbar_ und _Produkte auf Aufgaben_.
 
 ### Produkt auf Aufgabe erfassen
 
-Zeigen Sie eine Projektaufgabe an, die zu einem Projekt gehört, welches die Erfassung von Produkten auf Aufgaben erlaubt. Klicken Sie auf den Smart-Button *X Produkte* und fügen Sie die entsprechenden Produkte hinzu.
+Zeigen Sie eine Projektaufgabe an, die zu einem Projekt gehört, welches die Erfassung von Produkten auf Aufgaben erlaubt. Klicken Sie auf den Smart-Button _X Produkte_ und fügen Sie die entsprechenden Produkte hinzu.
 
 ::: tip
 Die Produkte werden dem Verkaufsauftrag hinzugefügt und abhängig von der Fakturierungsregel wird eine Lieferung erstellt.

@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./maintenance
 ---
+
 # Maintenance Equipment Image
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/OCA/maintenance/tree/16.0/maintenance_equipment_
 
 ### Inventar-Anzeigebild hinzufügen
 
-Öffnen Sie einen Inventar unter *Wartung > Inventar* und fügen Sie über den entsprechenden Dialog ein Anzeigebild hinzu.
+Öffnen Sie einen Inventar unter _Wartung > Inventar_ und fügen Sie über den entsprechenden Dialog ein Anzeigebild hinzu.

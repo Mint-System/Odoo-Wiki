@@ -4,7 +4,9 @@ description: Lizenzen mit Abonnementen erneuern.
 kind: howto
 prev: ./license
 ---
+
 # License Subscription
+
 ![odoo_icons_license](attachments/odoo_icons_license.png)
 
 {{ $frontmatter.description }}

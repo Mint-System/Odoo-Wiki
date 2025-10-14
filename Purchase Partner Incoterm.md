@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./purchase
 ---
+
 # Purchase Partner Incoterm
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

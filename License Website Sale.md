@@ -4,7 +4,9 @@ description: Im Webshop gekaufte Lizenzen aktivieren.
 kind: howto
 prev: ./license
 ---
+
 # License Website Sale
+
 ![odoo_icons_license](attachments/odoo_icons_license.png)
 
 {{ $frontmatter.description }}

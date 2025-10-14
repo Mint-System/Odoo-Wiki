@@ -3,10 +3,12 @@ title: Lager Aktionen
 description: Arbeitsflüsse im Lager automatisieren.
 kind: howto
 tags:
-- Actions
+    - Actions
 prev: ./stock
 ---
+
 # Lager Aktionen
+
 ![icons_odoo_stock](attachments/icons_odoo_stock.png)
 
 {{ $frontmatter.description }}
@@ -17,22 +19,22 @@ prev: ./stock
 
 ### Transfer abbrechen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Transfer abbrechen`\
 Modell: `stock.picking`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
-for record in records:  
+for record in records:
   record.write({'state': 'cancel'})
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Transfers erscheint nun in der Auswahl *Aktion* das Menu *Transfer zurücksetzen*.
+In der Liste der Transfers erscheint nun in der Auswahl _Aktion_ das Menu _Transfer zurücksetzen_.
 
 ::: warning
 Der Lagerbestand wird durch den Abbruch des Transfers nicht bereinigt.
@@ -40,13 +42,13 @@ Der Lagerbestand wird durch den Abbruch des Transfers nicht bereinigt.
 
 ### Transfer zurücksetzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Transfer zurücksetzen`\
 Modell: `stock.picking`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for record in records:
@@ -55,77 +57,78 @@ for record in records:
   record.write({'state': 'draft'})
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 ### Lagerbuchung abbrechen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lagerbuchung abbrechen`\
 Modell: `stock.move`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
-for record in records:  
+for record in records:
   record.write({'state': 'cancel'})
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
+In der Liste der Lagerbuchungen erscheint nun in der Auswahl _Aktion_ das Menu _Lagerbuchung zurücksetzen_.
 
 ### Lagerbuchung zurücksetzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lagerbuchung zurücksetzen`\
 Modell: `stock.move`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
-for record in records:  
+for record in records:
   record.write({'state': 'draft'})
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung zurücksetzen*.
+In der Liste der Lagerbuchungen erscheint nun in der Auswahl _Aktion_ das Menu _Lagerbuchung zurücksetzen_.
 
 ![](attachments/Lager%20Aktion%20%20Lagerbuchung%20Zurücksetzen%20erstellen.png)
 
 ### Lagerbuchung als verfügbar markieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lagerbuchung als verfügbar markieren`\
 Modell: `stock.move`\
 Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
+
 ```python
-for record in records:  
+for record in records:
   record.write({
 	  'state': 'assigned'
   })
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-Auf der Lagerbuchung erscheint nun in der Auswahl *Aktion* das Menu *Als verfügbar markieren*.
+Auf der Lagerbuchung erscheint nun in der Auswahl _Aktion_ das Menu _Als verfügbar markieren_.
 
 ### Lagerbuchung erledigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lagerbuchung erledigen`\
 Modell: `stock.move`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for record in records:
@@ -133,36 +136,36 @@ for record in records:
   # record.write({'state': 'done'})
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Lagerbuchungen erscheint nun in der Auswahl *Aktion* das Menu *Lagerbuchung erledigen*.
+In der Liste der Lagerbuchungen erscheint nun in der Auswahl _Aktion_ das Menu _Lagerbuchung erledigen_.
 
 ### Produktbewegung abbrechen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Produktbewegung abbrechen`\
 Modell: `stock.move.line`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
-for record in records:  
+for record in records:
   record.write({'state': 'cancel'})
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 ### Reservationsdatum aktualisieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reservationsdatum aktualisieren`\
 Modell: `stock.move`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for rec in records.filtered(lambda r: r.state in ['assigned', 'confirmed', 'partially_available']):
@@ -171,22 +174,22 @@ for rec in records.filtered(lambda r: r.state in ['assigned', 'confirmed', 'part
 	})
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-Zeigen Sie die Liste der Lagebuchungen an, markieren Sie die Einträge und wählen Sie *Aktionen > Reservationsdatum aktualisieren*.
+Zeigen Sie die Liste der Lagebuchungen an, markieren Sie die Einträge und wählen Sie _Aktionen > Reservationsdatum aktualisieren_.
 
 ### Reservierungen aufheben
 
 Mit dieser Aktion können Sie alle Reservierungen für ausgewählte Produkte aufheben und das Reservationsdatum der verknüpften Lagerbuchungen aktualisieren.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reservierungen zurücksetzen`\
 Modell: `product.template`\
 Folgeaktion: `Python-Code ausführen`\
 Sicherheit-Gruppennamen: `Lager \ Administrator`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for product_id in records.product_variant_id:
@@ -219,19 +222,19 @@ for product_id in records:
 	  		})
 ```
 
-Beide Aktionen mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+Beide Aktionen mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speichern.
 
-In der Ansicht der Produkte haben Sie nun die Auswahl *Aktionen > Reservierungen aufheben*.
+In der Ansicht der Produkte haben Sie nun die Auswahl _Aktionen > Reservierungen aufheben_.
 
 ### Reservierungen zurücksetzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reservierungen zurücksetzen`\
 Modell: `ir.actions.server`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Get outgoing pickings with reservations
@@ -242,17 +245,17 @@ pickings.do_unreserve()
 log('Unreserved these pickings: %s' % (pickings.mapped('name')))
 ```
 
-Speichern Sie die Aktion und führen Sie diese mit *Starten* aus.
+Speichern Sie die Aktion und führen Sie diese mit _Starten_ aus.
 
 ### Bestand zurücksetzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Bestand zurücksetzen`\
 Modell: `stock.quant`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for record in records:
@@ -261,19 +264,19 @@ for record in records:
 	})
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Bestand zurücksetzen*.
+In der Liste der Bestände erscheint nun in der Auswahl _Aktion_ das Menu _Bestand zurücksetzen_.
 
 ### Reservierter Bestand zurücksetzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reservierter Bestand zurücksetzen`
 Modell: `stock.quant`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for record in records:
@@ -282,37 +285,37 @@ for record in records:
 	})
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Reservierter Bestand*.
+In der Liste der Bestände erscheint nun in der Auswahl _Aktion_ das Menu _Reservierter Bestand_.
 
 ### Ablaufende Los-Nummern aktualisieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Ablaufende Los-Nummern aktualisieren`
 Modell: `stock.picking`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 now = datetime.datetime.now()
 
 for picking in records:
-  
+
   lines = picking.move_line_ids.filtered(lambda l: l.tracking)
-  
+
   for line in lines:
-    
+
     # Check expiring quantities
-    quants = line.product_id.stock_quant_ids.filtered(lambda q: 
+    quants = line.product_id.stock_quant_ids.filtered(lambda q:
       q.lot_id and
       q.quantity > 0 and
       q.removal_date and
       q.removal_date > now
     ).sorted(key=lambda r: r.removal_date)
-    
+
     # Update with newer quantity
     if quants and quants[0].lot_id != line.lot_id:
       line.write({
@@ -320,15 +323,15 @@ for picking in records:
       })
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Bestände erscheint nun in der Auswahl *Aktion* das Menu *Reservierter Bestand*.
+In der Liste der Bestände erscheint nun in der Auswahl _Aktion_ das Menu _Reservierter Bestand_.
 
 ### Nicht reserverierte Mengen anzeigen
 
 Dieser Aktion erstellt eine Prüfbericht zu den Material-Reservationen.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Nicht reserverierte Mengen anzeigen`
 Modell: `ir.actions.server`\
@@ -387,11 +390,11 @@ for move_line in move_lines:
         move_lines_to_unreserve.append(move_line.id)
 
 if len(move_lines_to_unreserve) > 1:
-    env.cr.execute(""" 
+    env.cr.execute("""
             UPDATE stock_move_line SET product_uom_qty = 0, product_qty = 0 WHERE id in %s ;
         """ % (tuple(move_lines_to_unreserve), ))
 elif len(move_lines_to_unreserve) == 1:
-    env.cr.execute(""" 
+    env.cr.execute("""
         UPDATE stock_move_line SET product_uom_qty = 0, product_qty = 0 WHERE id = %s ;
         """ % move_lines_to_unreserve[0])
 
@@ -420,7 +423,7 @@ There is no exiting quants despite its `reserved_quantity`
 
 Diese Aktion korrigiert die falsch reservierten Mengen.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Nicht reservierte Mengen korrigieren`
 Modell: `ir.actions.server`\
@@ -479,11 +482,11 @@ for move_line in move_lines:
         move_lines_to_unreserve.append(move_line.id)
 
 if len(move_lines_to_unreserve) > 1:
-    env.cr.execute(""" 
+    env.cr.execute("""
             UPDATE stock_move_line SET product_uom_qty = 0, product_qty = 0 WHERE id in %s ;
         """ % (tuple(move_lines_to_unreserve), ))
 elif len(move_lines_to_unreserve) == 1:
-    env.cr.execute(""" 
+    env.cr.execute("""
         UPDATE stock_move_line SET product_uom_qty = 0, product_qty = 0 WHERE id = %s ;
         """ % move_lines_to_unreserve[0])
 ```
@@ -496,7 +499,7 @@ Zur Ausführung dieses Berichts müssen Sie [Superuser werden](Settings.md#Super
 
 Die Aktion lädt alle Produklieferungen, welche noch keine Losnummer haben und vergleicht diese mit Produktzugängen. Wenn es einen Produkteingang gibt, der bis einer Woche vor der Lieferung eingeht, wird die Losnummer des Zugang auf die Lieferung übertragen.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Los aus Anlieferung zuweisen`\
 Modell: `ir.actions.server`\
@@ -505,7 +508,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Settings
@@ -517,7 +520,7 @@ scope_days = 7
 # Get confirmed incoming pickings
 date_now = datetime.datetime.now()
 scheduled_from = date_now - datetime.timedelta(days=scope_days)
-pickings_in = env['stock.picking'].search(["&", 
+pickings_in = env['stock.picking'].search(["&",
   ("picking_type_code", "=", "incoming"),
   ("state", "in", ["confirmed", "assigned", "partially_available", "done"]),
   ("scheduled_date", ">=", scheduled_from)
@@ -525,7 +528,7 @@ pickings_in = env['stock.picking'].search(["&",
 
 # Lookup unfinished manufacturing orders
 production_ids = env['mrp.production'].search([('state', 'in', ['confirmed','progress','to_close'])])
-        
+
 # Get move lines with lot and tracking enabled
 lot_move_lines = pickings_in.move_line_ids.filtered(lambda l: l.lot_id and l.tracking)
 
@@ -560,7 +563,7 @@ if messages:
 
 Die Aktion lädt alle Produklieferungen, welche noch keine Losnummer haben und vergleicht diese mit Produktzugängen. Wenn es einen Produkteingang gibt, der bis einer Woche vor der Lieferung eingeht, wird die Losnummer des Zugang auf die Lieferung übertragen.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reservierung für Lieferperiode aktualisieren`\
 Modell: `ir.actions.server`\
@@ -569,7 +572,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 09:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Settings
@@ -620,7 +623,7 @@ if messages:
 
 Diese Aktion prüft ausgehende Lieferungen und setzt die erledigte Menge gemäss Bedarf ohne Berücksichtigung von Materialreservationen.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Erledigte Menge aktualisieren`\
 Modell: `ir.actions.server`\
@@ -629,7 +632,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Set products to ignore
@@ -657,11 +660,11 @@ for move in fix_moves:
         move.write({'quantity_done': move.product_uom_qty})
     except:
         log('While writing move %s an error occured.' % (move.reference), level='error')
-      
+
 # Get lines where qty done is not equal to demand and no move line has been created
 fix_move_lines = fix_moves.mapped('move_line_ids').filtered(lambda l: l.qty_done != l.product_uom_qty)
 
-# Set qty done with reservation value 
+# Set qty done with reservation value
 if fix_move_lines:
 	log('Fix qty done on move lines: %s' % (', '.join(fix_move_lines.mapped('reference'))))
 for line in fix_move_lines:
@@ -672,9 +675,9 @@ for line in fix_move_lines:
 
 ### Wartende Aufträge bestätigen
 
-Diese Aktion versetzt Lieferungen im Status *Waiting* in den Status *Assigned.*
+Diese Aktion versetzt Lieferungen im Status _Waiting_ in den Status _Assigned._
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Wartende Aufträge bestätigen`\
 Modell: `ir.actions.server`\
@@ -683,7 +686,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Get outgoing pickings in waiting state
@@ -703,7 +706,7 @@ pickings.write({'state': 'assigned'})
 
 Diese Aktion prüft ausgehende Lieferungen und setzt die erledigte Menge gemäss Bedarf ohne Berücksichtigung von Materialreservationen.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Versandprodukte aktualisieren`\
 Modell: `ir.actions.server`\
@@ -712,7 +715,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Get pickings to be processed
@@ -737,7 +740,7 @@ if transport_moves:
 
 ### Los aus Vorhersage zuweisen
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lot aus Vorhersage zuweisen`\
 Modell: `ir.actions.server`\
@@ -746,7 +749,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Get outgoing pickings
@@ -763,12 +766,12 @@ replenish_data = env['report.stock.report_product_product_replenishment']._get_r
 
 # Get incoming move for each fix move line
 for move_line in fix_move_lines:
-  incoming_lines = list(filter(lambda l: 
+  incoming_lines = list(filter(lambda l:
     (l['product']['id'] == move_line.product_id.id) and
     (l['move_out'] == move_line.move_id) and
     (l['move_in'] != None),
   replenish_data['lines']))
-  
+
   # Assign the lot of the first incoming line
   if incoming_lines:
     move_in = incoming_lines[0]['move_in']
@@ -779,7 +782,7 @@ for move_line in fix_move_lines:
 
 ### Negativer Bestand bereinigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Negativer Bestand bereinigen`\
 Modell: `ir.actions.server`\
@@ -788,7 +791,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Get negative quants
@@ -810,7 +813,7 @@ if quant_ids:
 
 Diese geplante Aktion aktualisiert regelmässig das Los in Produktlieferungen für ausgewählte Produkte. Dabei wird die erledigte Menge beibehalten.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Los in Produktlieferungen aktualisieren`\
 Modell: `ir.actions.server`\
@@ -819,7 +822,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 09:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Settings
@@ -842,13 +845,13 @@ error_messages = []
 for line in update_move_lines:
   try:
 	  # Check expiring quantities
-    quants = line.product_id.stock_quant_ids.filtered(lambda q: 
+    quants = line.product_id.stock_quant_ids.filtered(lambda q:
       q.lot_id and
       q.quantity > 0 and
       q.removal_date and
       q.removal_date > now
     ).sorted(key=lambda r: r.removal_date)
-    
+
     # Update with newer quantity
     if quants and quants[0].lot_id != line.lot_id:
       messages.append('Update move line: %s' % (line.reference))
@@ -868,7 +871,7 @@ if error_messages:
 
 Diese geplante Aktion erledigt markierte Aufträge sobald die geplante Zeit eingetroffen ist.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Transfers auf geplantes Datum erledigen`\
 Modell: `ir.actions.server`\
@@ -877,7 +880,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 09:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Settings
@@ -914,7 +917,7 @@ if error_messages:
 
 Diese geplante Aktion setzt die Menge von markierte Chargen auf Null sobald das Ablaufdatum erreicht ist.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Abgelaufene Bestände entfernen`\
 Modell: `ir.actions.server`\
@@ -923,7 +926,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 09:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Settings
@@ -967,9 +970,9 @@ Diese geplante Aktion führt täglich die die [Nachbestellregeln aus](Stock%20In
 
 ### Lieferung erledigen wenn bereit
 
-Mit dieser automatischen Aktion wird eine Lieferung im Status *Bereit* die erledigte Menge gleich der Bedarfsmenge gesetzt und erledigt.
+Mit dieser automatischen Aktion wird eine Lieferung im Status _Bereit_ die erledigte Menge gleich der Bedarfsmenge gesetzt und erledigt.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Lieferung erledigen wenn bereit`\
 Modell: `stock.picking`\
@@ -995,18 +998,18 @@ for picking in records:
 
 Mit dieser automatischen Aktion wird auf Verpackung das Liefergewicht aus dem geschäftzten Produktgewicht und dem Gewicht der Verpackung berechnet.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Liefergewicht von Verpackung berechnen`\
 Modell: `stock.quant.package`\
 Auslöser: Bei Erstellung und Aktualisierung\
 Trigger-Felder:
 
-* `​estimated_pack_weight_kg`
-* `pack_weight`
-* `quant_ids`
-* `single_product_qty`
-* `single_product_id`
+- `​estimated_pack_weight_kg`
+- `pack_weight`
+- `quant_ids`
+- `single_product_qty`
+- `single_product_id`
 
 Folgeaktion: Python-Code ausführen\
 Python-Code:

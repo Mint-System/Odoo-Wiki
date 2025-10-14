@@ -5,7 +5,9 @@ kind: howto
 partner: Sozialinfo
 prev: ./
 ---
+
 # Job Portal Sale
+
 ![](attachments/icons_odoo_job_portal_base.png)
 
 {{ $frontmatter.description }}
@@ -17,32 +19,32 @@ Repository: <https://github.com/Sozialinfo/Odoo-Apps-Sozialinfo/tree/16.0/job_po
 
 ### Verkaufsauftrag erstellen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Verkaufsauftrag erstellen`\
 Modell: `job_portal.joboffer`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 for rec in records:
 	rec._create_sale_order()
 ```
 
-Im Tab *Sicherheit* fügen Sie die Gruppe *Stellenportal / Administrator* hinzu.
+Im Tab _Sicherheit_ fügen Sie die Gruppe _Stellenportal / Administrator_ hinzu.
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 ### Beschreibung Auftragszeile generieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Beschreibung Auftragszeile generieren`\
 Modell: `sale.order`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 for rec in records.filtered(lambda r: r.joboffer_id):
@@ -71,8 +73,7 @@ for rec in records.filtered(lambda r: r.joboffer_id):
 		line.write({'name': description})
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 ## Automatisierte Aktionen
 
@@ -80,7 +81,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 Mit dieser automatischen Aktion wird ein Angebot mit einem bestimmten Attribut (Beispiel: `partner_id.address_checked`) automatisch bestätigt.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Angebot automatisch bestätigen`\
 Modell: `sale.order`\

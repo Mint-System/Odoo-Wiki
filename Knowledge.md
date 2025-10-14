@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Wissen
+
 ![icons_odoo_knowledge](attachments/icons_odoo_knowledge.png)
 
 {{ $frontmatter.description }}
@@ -16,7 +18,7 @@ Website: <https://www.odoo.com/de_DE/app/knowledge>
 
 ### Arbeitsbereich erstellen
 
-Öffnen Sie die App *Knowledge* und klicken Sie auf das ➕ Zeichen rechts von *Arbeitsbereich*. Der neue Arbeitsbereich öffnet sich und Sie können direkt einen Titel eingeben.
+Öffnen Sie die App _Knowledge_ und klicken Sie auf das ➕ Zeichen rechts von _Arbeitsbereich_. Der neue Arbeitsbereich öffnet sich und Sie können direkt einen Titel eingeben.
 
 ::: tip
 Der Titel des Artikels wird vom ersten Satz des Artikels abgeleitet. Klicken Sie auf Header des Artikels um den Titel zu aktualisieren.
@@ -24,17 +26,17 @@ Der Titel des Artikels wird vom ersten Satz des Artikels abgeleitet. Klicken Sie
 
 ### Artikel erstellen
 
-Zeigen Sie die App *Knowledge* and klicken Sie auf das ➕ Zeichen rechts von einem Arbeitsbereich oder Artikel. Geben Sie einen passendenTitel ein.
+Zeigen Sie die App _Knowledge_ and klicken Sie auf das ➕ Zeichen rechts von einem Arbeitsbereich oder Artikel. Geben Sie einen passendenTitel ein.
 
 ![](attachments/Knowledge%20Artikel.png)
 
 ### Vorlage erstellen
 
-Öffnen Sie einen Artikel in der *Knowledge* App. Geben Sie <kbd>/</kbd> + *Vorlage* ein. Nun wird ein Abschnitt erstellt. Fügen Sie die Inhalte, welche Sie wiederverwenden möchten, in diesen Abschnitt.
+Öffnen Sie einen Artikel in der _Knowledge_ App. Geben Sie <kbd>/</kbd> + _Vorlage_ ein. Nun wird ein Abschnitt erstellt. Fügen Sie die Inhalte, welche Sie wiederverwenden möchten, in diesen Abschnitt.
 
 ### Artikel verlinken
 
-In einem Mail Dialog können Sie mit der Eingabe von <kbd>/</kbd> + *Artikel* nach einem Artikel suchen und diesen als Link einfügen.
+In einem Mail Dialog können Sie mit der Eingabe von <kbd>/</kbd> + _Artikel_ nach einem Artikel suchen und diesen als Link einfügen.
 
 ![Knowledge Artike-Link](attachments/Knowledge%20Artikel%20verlinken.gif)
 
@@ -46,7 +48,7 @@ Sie können anhand Vorlagen in Artikeln Nachrichten erstellen lassen. Klicken Si
 
 ### Ansicht in Artikel einfügen
 
-Alle Ansichten in Odoo können gespeichert und auf einem Knowledge Artikel hinzufgügt werden. Navigieren Sie zur ausgewählten Ansicht, beispielsweise *Projekt > Projekte*, und filtern Sie die Ansicht. Wählen Sie anschliessend *Favoriten > Ansicht in Artikel einfügen* und klicken auf einen Artikel. Odoo fügt die Ansicht in den Arikel ein.
+Alle Ansichten in Odoo können gespeichert und auf einem Knowledge Artikel hinzufgügt werden. Navigieren Sie zur ausgewählten Ansicht, beispielsweise _Projekt > Projekte_, und filtern Sie die Ansicht. Wählen Sie anschliessend _Favoriten > Ansicht in Artikel einfügen_ und klicken auf einen Artikel. Odoo fügt die Ansicht in den Arikel ein.
 
 ![](attachments/Knowledge%20Meine%20Projekte%20Ansicht.png)
 

@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale-blanket-order
 ---
+
 # Sale Blanket Order Carrier
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sa
 
 ### Auslieferungsmethode festlegen
 
-Öffnen Sie einen Rahmenvertrag via *Verkauf > Aufträge > Rahmenaufträge*. Unterhalb der *Zahlungsbedingungen* können Sie die Auslieferungsmethode festlegen.
+Öffnen Sie einen Rahmenvertrag via _Verkauf > Aufträge > Rahmenaufträge_. Unterhalb der _Zahlungsbedingungen_ können Sie die Auslieferungsmethode festlegen.
 
 ![](attachments/Sale%20Blanket%20Order%20Carrier.png)
 

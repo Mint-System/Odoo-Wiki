@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale
 ---
+
 # Sale Order Line Not Billable
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 ### Lieferbares Produkt in Abrechnung ausschliessen
 
-Mit dieser Erweiterung können Sie unter *Verkauf > Produkte > Produkte > Produkt auswählen > Tab Verkauf* mit dem Feld *Verrechenbar* festlegen, ob das Produkt beim Abrechnen eines Verkaufsauftrags enthalten sein soll.
+Mit dieser Erweiterung können Sie unter _Verkauf > Produkte > Produkte > Produkt auswählen > Tab Verkauf_ mit dem Feld _Verrechenbar_ festlegen, ob das Produkt beim Abrechnen eines Verkaufsauftrags enthalten sein soll.
 
 ![](attachments/Sale%20Order%20Line%20Not%20Billable.png)
 

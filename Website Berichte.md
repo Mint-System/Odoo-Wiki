@@ -4,7 +4,9 @@ description: Verkaufszahlen analysieren.
 kind: howto
 prev: ./website
 ---
+
 # Website Berichte
+
 ![](attachments/icons_odoo_website_sale.png)
 
 {{ $frontmatter.description }}
@@ -13,6 +15,6 @@ prev: ./website
 
 ### Verkaufszahlen auswerten
 
-Zeigen Sie *Website > Berichtswesen > Online-Verkäufe* an und filtern Sie die Pivot-Ansicht gemäss ihren Anforderungen. Dazu ein Beispiel der meistverkauften Produkte:
+Zeigen Sie _Website > Berichtswesen > Online-Verkäufe_ an und filtern Sie die Pivot-Ansicht gemäss ihren Anforderungen. Dazu ein Beispiel der meistverkauften Produkte:
 
 ![](attachments/Website%20Berichte.png)

@@ -4,7 +4,9 @@ description: Arbeitsflüsse mit Kontakte automatisieren.
 kind: howto
 prev: ./contacts
 ---
+
 # Kontakte Aktionen
+
 ![icons_odoo_website_sale_options](attachments/icons_odoo_website_sale_options.png)
 
 {{ $frontmatter.description }}
@@ -13,41 +15,41 @@ prev: ./contacts
 
 ### Kontakt als Privat festlegen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Kontakt als Privat festlegen`\
 Modell: `res.partner`\
 Folgeaktion: Den Datensatz aktualiseren
-Im Tab *Zu schreibende Daten*:
+Im Tab _Zu schreibende Daten_:
 
-* **Feld**: Adresstyp
-* **Bewertungstyp**: Wert
-* **Wert**: `private`
+- **Feld**: Adresstyp
+- **Bewertungstyp**: Wert
+- **Wert**: `private`
 
-Im Tab *Zu schreibende Daten*:
+Im Tab _Zu schreibende Daten_:
 
-* **Gruppenname**: Technisch / Zugriff auf private Adressen
+- **Gruppenname**: Technisch / Zugriff auf private Adressen
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
 ### Kontakt als Kontakt festlegen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Kontakt als Kontakt festlegen`\
 Modell: `res.partner`\
 Folgeaktion: Den Datensatz aktualiseren
-Im Tab *Zu schreibende Daten*:
+Im Tab _Zu schreibende Daten_:
 
-* **Feld**: Adresstyp
-* **Bewertungstyp**: Wert
-* **Wert**: `contact`
+- **Feld**: Adresstyp
+- **Bewertungstyp**: Wert
+- **Wert**: `contact`
 
-Im Tab *Zu schreibende Daten*:
+Im Tab _Zu schreibende Daten_:
 
-* **Gruppenname**: Technisch / Zugriff auf private Adressen
+- **Gruppenname**: Technisch / Zugriff auf private Adressen
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
 ## Geplante Aktionen
 
@@ -55,7 +57,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
 
 Erfassen Sie einen [neuen Aktivitätstyp](Dialog%20Activities.md#Neuer%20Aktivitätstyp%20erfassen). Mit dieser geplanten Aktion können Sie Kontakte, welche diese Aktivität haben archivieren lassen.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Kontakte mit geplanter Aktivität archivieren`\
 Modell: `ir.actions.server`\
@@ -64,7 +66,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 name = 'Zur Archivierung und Requalifikation'

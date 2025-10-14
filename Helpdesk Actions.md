@@ -4,7 +4,9 @@ description: Arbeitsflüsse im Kundendienst automatisieren.
 kind: howto
 prev: ./dialog
 ---
+
 # Kundendienst Aktionen
+
 ![icons_odoo_helpdesk](attachments/icons_odoo_helpdesk.png)
 
 {{ $frontmatter.description }}
@@ -13,16 +15,16 @@ prev: ./dialog
 
 ### Bei Verkaufsauftrag ein Ticket erstellen
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-* **Name der Aktion**: `Bei Verkaufsauftrag ein Ticket erstellen`
-* **Modell**: `sale.order`
-* **Auslöser**: Beim Aktualisieren
-* **Tigger-Felder**: `state`
-* **Anzuwenden auf**: `["&", ("state", "=", "sale"), ("subscription_child_ids", "=", False)]`
-* **Folgeaktion**: Einen neuen Datensatz erzeugen
-* **Ziel-Modell**: `helpdesk.ticket`
-* **Zu schreibende Daten**:
+- **Name der Aktion**: `Bei Verkaufsauftrag ein Ticket erstellen`
+- **Modell**: `sale.order`
+- **Auslöser**: Beim Aktualisieren
+- **Tigger-Felder**: `state`
+- **Anzuwenden auf**: `["&", ("state", "=", "sale"), ("subscription_child_ids", "=", False)]`
+- **Folgeaktion**: Einen neuen Datensatz erzeugen
+- **Ziel-Modell**: `helpdesk.ticket`
+- **Zu schreibende Daten**:
 
 | Feld      | Bewertungstyp     | Wert                           |
 | --------- | ----------------- | ------------------------------ |

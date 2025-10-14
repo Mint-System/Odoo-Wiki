@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Kontakte
+
 ![icons_odoo_contacts](attachments/icons_odoo_contacts.png)
 
 {{ $frontmatter.description }}
@@ -61,33 +63,33 @@ partner: Odoo S.A.
 
 ### Portal-Zugriff gewähren
 
-Wählen Sie einen Kontakt mit Mail-Adresse aus. Klicken Sie auf *Aktionen > Grant portal access*. Im folgenden Dialog das Kächstchen *Portal* anklicken und bestätigen. Nun erhält der Benutzer eine Einladungs-Email, sofern der Benutzer eine gültige Mail-Adresse hinterlegt hat.
+Wählen Sie einen Kontakt mit Mail-Adresse aus. Klicken Sie auf _Aktionen > Grant portal access_. Im folgenden Dialog das Kächstchen _Portal_ anklicken und bestätigen. Nun erhält der Benutzer eine Einladungs-Email, sofern der Benutzer eine gültige Mail-Adresse hinterlegt hat.
 
 ## Verwendung
 
 ### Kontakt-Stichwörter anlegen
 
-Navigieren Sie nach *Kontakte > Konfiguration > Kontakt Tag*. Hier können Sie Stichwörter verwalten, die auf dem Kontaktformular ausgewählt werden können.
+Navigieren Sie nach _Kontakte > Konfiguration > Kontakt Tag_. Hier können Sie Stichwörter verwalten, die auf dem Kontaktformular ausgewählt werden können.
 
 ### Kontakte anlegen
 
-Ein neuer Eintrag im Adressbuch können Sie über *Kontakte > Anliegen* erstellen.
+Ein neuer Eintrag im Adressbuch können Sie über _Kontakte > Anliegen_ erstellen.
 
 ![Kontakte anlegen](attachments/Kontakte%20anlegen.png)
 
 Odoo verwendet Kontakte als zentrales Adressbuch. Verschiedene Apps wie Verkauf, CRM oder Buchhaltung greifen auf das Adressbuch zu. Eine Aufstellung der wichtigsten Felder:
 
-| Bezeichnung    | Beschreibung                                                                                       |
-| ------------- | -------------------------------------------------------------------------------------------------- |
-| Strasse       |                                                                                                    |
-| Strasse 2     |                                                                                                    |
-| Stadt         |                                                                                                    |
-| Bundesland    | Wird für die Schweiz nicht verwendet                                                               |
-| PLZ           |                                                                                                    |
-| Land          | Muss immer einen Eintrag haben, weil für bestimmte Berechnungen die Information notwendig ist.     |
-| Ust-IdNr.     | Unternehmens-Identifikationsnummer (UID). Mit dem Zusatz MWST ist sie gleichzeitig die MWST-Nummer |
+| Bezeichnung | Beschreibung                                                                                       |
+| ----------- | -------------------------------------------------------------------------------------------------- |
+| Strasse     |                                                                                                    |
+| Strasse 2   |                                                                                                    |
+| Stadt       |                                                                                                    |
+| Bundesland  | Wird für die Schweiz nicht verwendet                                                               |
+| PLZ         |                                                                                                    |
+| Land        | Muss immer einen Eintrag haben, weil für bestimmte Berechnungen die Information notwendig ist.     |
+| Ust-IdNr.   | Unternehmens-Identifikationsnummer (UID). Mit dem Zusatz MWST ist sie gleichzeitig die MWST-Nummer |
 
-Tab *Verkauf & Einkauf*.
+Tab _Verkauf & Einkauf_.
 
 | Bezeichnung         | Beschreibung                                                                                                  |
 | ------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -97,7 +99,7 @@ Tab *Verkauf & Einkauf*.
 
 ### Unterkontakte erfassen
 
-Zeigen Sie ein Unternehmenskontakt via *Kontakte* an. Im Tab *Kontakte & Adressen* können Sie Unterkontakte erfassen. Diese Unterkontkakte werden als *Einzelpersonen* angelegt.
+Zeigen Sie ein Unternehmenskontakt via _Kontakte_ an. Im Tab _Kontakte & Adressen_ können Sie Unterkontakte erfassen. Diese Unterkontkakte werden als _Einzelpersonen_ angelegt.
 
 ![](attachments/Unterkontakte.png)
 
@@ -107,37 +109,37 @@ Zeigen Sie ein Unternehmenskontakt via *Kontakte* an. Im Tab *Kontakte & Adresse
 
 ### Kontakte anhand Stichwort filtern
 
-Navigieren Sie nach *Kontakte* und geben Sie das Stichwort im Feld *Suche* ein. Drücken Sie noch nicht <kbd>Enter</kbd>, sondern navigieren mit Pfeiltasten zur Auswahl *Suchen Stichwörter für:* und drücken Sie dann <kbd>Enter</kbd>.
+Navigieren Sie nach _Kontakte_ und geben Sie das Stichwort im Feld _Suche_ ein. Drücken Sie noch nicht <kbd>Enter</kbd>, sondern navigieren mit Pfeiltasten zur Auswahl _Suchen Stichwörter für:_ und drücken Sie dann <kbd>Enter</kbd>.
 
 ![](attachments/Partner%20Search%20Tags.png)
 
 ### Bezeichnung Umsatzsteuer festlegen
 
-Wenn keine Bezeichnung für die Umsatzsteuer festgelegt ist, verwendet Odoo *Tax ID*. Das ist beispielsweise im Footer eines Dokuments ersichtlich.
+Wenn keine Bezeichnung für die Umsatzsteuer festgelegt ist, verwendet Odoo _Tax ID_. Das ist beispielsweise im Footer eines Dokuments ersichtlich.
 
-Wenn Sie die Bezeichnung ändern wollen, gehen Sie folgt vor. Öffnen Sie die Ansicht *Kontakte > Konfiguration > Lokalisierung > Länder* und wählen Sie ihr Land aus. Nun können Sie die Bezeichnung im Feld *USt.-Bezeichnung* festlegen.
+Wenn Sie die Bezeichnung ändern wollen, gehen Sie folgt vor. Öffnen Sie die Ansicht _Kontakte > Konfiguration > Lokalisierung > Länder_ und wählen Sie ihr Land aus. Nun können Sie die Bezeichnung im Feld _USt.-Bezeichnung_ festlegen.
 
 ![](attachments/Kontakte%20Bezeichnung%20Umsatzsteuer.png)
 
 ### Gewerbliche Einheit festlegen
 
-Auf jedem Odoo-Kontakt ist eine gewerbliche Einheit hinterlegt. Diese definiert über welchen Kontakt die Abrechnung erfolgen soll. Der Zugriff auf die gewerbliche Einheit erfordert, dass Sie das entsprechende [Snippet hinzufügen](Development%20Snippets.md#Snippet%20hinzufügen). Nur dann wird das Feld *Gewerbliche Einheit* auf der Formularansicht sichtbar.
+Auf jedem Odoo-Kontakt ist eine gewerbliche Einheit hinterlegt. Diese definiert über welchen Kontakt die Abrechnung erfolgen soll. Der Zugriff auf die gewerbliche Einheit erfordert, dass Sie das entsprechende [Snippet hinzufügen](Development%20Snippets.md#Snippet%20hinzufügen). Nur dann wird das Feld _Gewerbliche Einheit_ auf der Formularansicht sichtbar.
 
 ![](attachments/Kontakt%20Gewerbliche%20EInheit.png)
 
 ### Kontakttyp festlegen
 
-Wenn Sie Unternehmen mit Kontakten haben, können Sie auf den Kontakten einen Typ festlegen. Zeigen Sie unter *Kontakte* ein Unternehmen an und klicken Sie im Tab *Kontakte & Adresse* auf eine Eintrag. Im Kontakformular erscheint nun ein Feld um den Kontakttyp auszuwählen.
+Wenn Sie Unternehmen mit Kontakten haben, können Sie auf den Kontakten einen Typ festlegen. Zeigen Sie unter _Kontakte_ ein Unternehmen an und klicken Sie im Tab _Kontakte & Adresse_ auf eine Eintrag. Im Kontakformular erscheint nun ein Feld um den Kontakttyp auszuwählen.
 
 ![](attachments/Partner%20Select%20Type.png)
 
 ::: warnung
-Der Kontakttyp *Privatadresse* darf nur für die private Adresse im Personal verwendet werden. Siehe [Private Adresse hinterlegen](HR.md#Private%20Adresse%20hinterlegen).
+Der Kontakttyp _Privatadresse_ darf nur für die private Adresse im Personal verwendet werden. Siehe [Private Adresse hinterlegen](HR.md#Private%20Adresse%20hinterlegen).
 :::
 
 ### Kontaktandreden verwalten
 
-Navigieren Sie nach *Kontakte > Konfiguration > Kontaktanreden*. Hier können Sie die Auswahl für das Feld *Kontaktanrede* verwalten.
+Navigieren Sie nach _Kontakte > Konfiguration > Kontaktanreden_. Hier können Sie die Auswahl für das Feld _Kontaktanrede_ verwalten.
 
 ## Adressen
 
@@ -147,13 +149,13 @@ Standardmässig druckt Odoo die Adresse mit dem jeweiligen Land des Kontakts ab.
 
 ![](attachments/Einstellungen%20Adressformat.png)
 
-Damit das Land nicht abgedruckt wird, öffnen Sie die Ansicht *Kontakte > Konfiguration > Lokalisierung > Länder* und wählen ihr Land aus. Nun können Sie das *Layout in Berichten* festlegen.
+Damit das Land nicht abgedruckt wird, öffnen Sie die Ansicht _Kontakte > Konfiguration > Lokalisierung > Länder_ und wählen ihr Land aus. Nun können Sie das _Layout in Berichten_ festlegen.
 
 ![](attachments/Kontakte%20Layout%20in%20Berichten.png)
 
-### Rechnungsadresse in Anzeigenamen  einblenden
+### Rechnungsadresse in Anzeigenamen einblenden
 
-Damit die Bezeichnung *Rechnungsadresse* im Anzeigenamen der Kontakte eingelendet wird, muss der Kontakt als *Einzelperson* festgelegt werden und das Namensfeld muss leer gelassen werden.
+Damit die Bezeichnung _Rechnungsadresse_ im Anzeigenamen der Kontakte eingelendet wird, muss der Kontakt als _Einzelperson_ festgelegt werden und das Namensfeld muss leer gelassen werden.
 
 ![](attachments/Kontak%20Rechnungsadresse.png)
 
@@ -163,17 +165,17 @@ In der Kontaktauswahl wird der Adresstyp so sichtbar:
 
 ### Bundesland bearbeiten
 
-Navigieren Sie nach *Einstellungen > Konfiguration > Bundesländer / Regionen*. Gruppieren Sie die Liste nach *Land* und bearbeiten Sie einen Eintrag.
+Navigieren Sie nach _Einstellungen > Konfiguration > Bundesländer / Regionen_. Gruppieren Sie die Liste nach _Land_ und bearbeiten Sie einen Eintrag.
 
 ### Ländergruppe bearbeiten
 
-Navigieren Sie nach *Einstellungen > Konfiguration > Ländergruppe* und zeigen Sie einen Eintrag an.
+Navigieren Sie nach _Einstellungen > Konfiguration > Ländergruppe_ und zeigen Sie einen Eintrag an.
 
 ## Bereinigung
 
 ### Kontakte zusammenführen
 
-Wenn Sie Duplikate in den Kontakten haben, können Sie diese markieren und mit *Aktionen > Zusammenführen* entfernen. Im Zusammenführen-Dialog wählen Sie den originalen Kontakt aus und bestätigen den Vorgang mit *Kontakte Zusammenführen*.
+Wenn Sie Duplikate in den Kontakten haben, können Sie diese markieren und mit _Aktionen > Zusammenführen_ entfernen. Im Zusammenführen-Dialog wählen Sie den originalen Kontakt aus und bestätigen den Vorgang mit _Kontakte Zusammenführen_.
 
 ![](attachments/Contacts%20Merge.png)
 
@@ -185,7 +187,7 @@ Odoo aktualisiert auch die verlinkten Dokumente wie Rechnungen und Verkaufsauftr
 
 ### Partner Autovervollständigung deaktivieren
 
-Wenn Sie nicht möchten, dass Odoo Kontaktdaten beim Erfassen vorschlägt und ihre Odoo-Kontakt-Daten nicht hochgeladen werden, müssen Sie die *Partner Partner Autovervollständigung* unter *Einstellungen > Allgemeine Einstellungen > Kontakte* deaktivieren.
+Wenn Sie nicht möchten, dass Odoo Kontaktdaten beim Erfassen vorschlägt und ihre Odoo-Kontakt-Daten nicht hochgeladen werden, müssen Sie die _Partner Partner Autovervollständigung_ unter _Einstellungen > Allgemeine Einstellungen > Kontakte_ deaktivieren.
 
 ## Ansichten
 

@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./contacts
 ---
+
 # Base Location City
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/18.0/
 
 ### Längen und Breiten-Grad von Ort festlegen
 
-Mit dieser Erweiterung können Sie für einen Ort den Längen- und Breitengrad eintragen. Navigieren Sie nach *Kontakte > Konfiguration > Städte* und öffnen Sie einen Eintrag. Geben Sie Koordinaten im Feld *Breitengrad* und *Längengrad* ein.
+Mit dieser Erweiterung können Sie für einen Ort den Längen- und Breitengrad eintragen. Navigieren Sie nach _Kontakte > Konfiguration > Städte_ und öffnen Sie einen Eintrag. Geben Sie Koordinaten im Feld _Breitengrad_ und _Längengrad_ ein.

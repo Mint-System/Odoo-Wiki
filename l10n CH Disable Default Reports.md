@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./l10n-ch
 ---
+
 # Switzerland Disable Default Reports
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -19,7 +21,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.
 
 Gilt ab #Odoo16 .
 
-Zeigen Sie eine Kundenrechnung unter *Buchhaltung > Kunden > Rechnungen* an. Aktivieren Sie die Option *Schweizer QR-Rechnung aktivieren*.
+Zeigen Sie eine Kundenrechnung unter _Buchhaltung > Kunden > Rechnungen_ an. Aktivieren Sie die Option _Schweizer QR-Rechnung aktivieren_.
 
 ### Rechnung ohne Standardberichte versenden
 

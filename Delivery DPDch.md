@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./delivery
 ---
+
 # DPD for Switzerland
+
 ![](attachments/odoo_icons_delivery_dpdch.png)
 
 {{ $frontmatter.description }}

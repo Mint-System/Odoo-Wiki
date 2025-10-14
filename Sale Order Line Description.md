@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./sale
 ---
+
 # Sale Order Line Description
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,11 +19,11 @@ Repository: <https://github.com/OCA/sale-workflow/tree/16.0/sale_order_line_desc
 
 ### Übertragung Verkaufsbeschreibung aktivieren
 
-Damit die Erweiterung für Unternehmen aktiv ist, navigieren Sie nach *Einstellungen > Verkauf > Angebote und Aufträge* und aktivieren Sie die Option *Verkaufsbeschreibung des Produktes*.
+Damit die Erweiterung für Unternehmen aktiv ist, navigieren Sie nach _Einstellungen > Verkauf > Angebote und Aufträge_ und aktivieren Sie die Option _Verkaufsbeschreibung des Produktes_.
 
 ### Übertragung Verkaufsbeschreibung für Benutzer aktivieren
 
-Für Benutzer navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer wählen > Tab Zugriffsrechte* und aktivieren Sie  hier die Option *Nur die Verkaufsbeschreibung des Produktes in Auftragszeilen verwenden*.
+Für Benutzer navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Benutzer wählen > Tab Zugriffsrechte_ und aktivieren Sie hier die Option _Nur die Verkaufsbeschreibung des Produktes in Auftragszeilen verwenden_.
 
 ## Verwendung
 

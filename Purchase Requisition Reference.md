@@ -5,14 +5,15 @@ kind: howto
 partner: Mint-System
 prev: ./purchase-requisition
 ---
+
 # Purchase Requisition Reference
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `purchase_requisition_reference`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.0/purchase_requisition_reference>
-
 
 ## Verwendung
 
@@ -22,6 +23,6 @@ Mit dem Systemparameter `purchase_requisition_reference.copy_reference` können 
 
 ### Feld Lieferantenreferenz auf Kaufvertrag hinzufügen
 
-Mit diesem Modul erhält der Kaufvertrag ein Feld *Lieferantenreferenz*.
+Mit diesem Modul erhält der Kaufvertrag ein Feld _Lieferantenreferenz_.
 
 ![](attachments/Purchase%20Requisition%20Reference.png)

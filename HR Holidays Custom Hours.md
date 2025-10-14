@@ -7,6 +7,7 @@ prev: ./hr-holidays
 ---
 
 # HR Holidays Custom Hours
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -18,13 +19,13 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_holidays_c
 
 ### Benutzerdefinierte Stunden für Abwesenheitsart erlauben
 
-Zeigen Sie *Abwesenheiten > Konfiguration > Abwesenheitsarten* an und öffnen Sie eine ausgewählte Abwesenheitsart. Aktivieren Sie die Option *Benutzerdefinierte Stunden Erlauben*.
+Zeigen Sie _Abwesenheiten > Konfiguration > Abwesenheitsarten_ an und öffnen Sie eine ausgewählte Abwesenheitsart. Aktivieren Sie die Option _Benutzerdefinierte Stunden Erlauben_.
 
 ## Verwendung
 
 ### Benutzerdefinierte Anzahl Stunden auf Abwesenheit eintragen
 
-Öffnen Sie *Abwesenheiten* und erstellen Sie einen neuen Eintrag. Wählen Sie die Abwesenheitsart aus, die eine benutzerdefinierte Anzahl Stunden erlaubt. Tragen Sie im Feld *Benutzerdefinierte Stunden* die effektiven Stunden ein.
+Öffnen Sie _Abwesenheiten_ und erstellen Sie einen neuen Eintrag. Wählen Sie die Abwesenheitsart aus, die eine benutzerdefinierte Anzahl Stunden erlaubt. Tragen Sie im Feld _Benutzerdefinierte Stunden_ die effektiven Stunden ein.
 
 ::: tip
 Eine positive Differenz der benutzerdefinierten Anzahl Stunden zu Anzahl Stunden der Abwesenheit werden als Überstunden hinzugefügt.

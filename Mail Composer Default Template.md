@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./dialog
 ---
+
 # Mail Composer Default Template
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -23,19 +25,20 @@ Wenn Sie diese Erweiterung installiert haben und den E-Mail-Dialog auf einem Dok
 
 ::: tip
 Beim Aufruf des E-Mail-Dialog wird die Vorlage in folgender Reihenfolge ausgewählt:
-* Filterung nach Dokument
-* Filterung nach Sequenz
-* Filterung nach Domain
-:::
+
+- Filterung nach Dokument
+- Filterung nach Sequenz
+- Filterung nach Domain
+  :::
 
 ### Sequenz der E-Mail-Vorlagen festlegen
 
-Zeigen Sie die E-Mail-Vorlagen unter *Einstellungen > Technisch > Vorlagen* an. Sortieren Sie die Vorlagen mit dem *Handler*.
+Zeigen Sie die E-Mail-Vorlagen unter _Einstellungen > Technisch > Vorlagen_ an. Sortieren Sie die Vorlagen mit dem _Handler_.
 
 ![Mail Composer Default Template Sequence](attachments/Mail%20Composer%20Default%20Template%20Sequence.gif)
 
 ### Domain-Filter auf E-Mail-Vorlage festlegen
 
-Rufen Sie eine E-Mail-Vorlage unter *Einstellungen > Technisch > Vorlagen* auf. Legen Sie einen Filter im *Domain* für die ausgewählten Dokumente fest.
+Rufen Sie eine E-Mail-Vorlage unter _Einstellungen > Technisch > Vorlagen_ auf. Legen Sie einen Filter im _Domain_ für die ausgewählten Dokumente fest.
 
 ![](attachments/Mail%20Composer%20Default%20Template%20Domain.png)

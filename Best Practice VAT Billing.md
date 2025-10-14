@@ -11,19 +11,19 @@ Damit Sie die Steuersätze der EU-Länder erhalten, müssen Sie die [Mehrwertste
 
 Damit die Leistungen im Ausland korrekt im Schweizer Steuerbericht angezeigt wird, muss der Steuertag `221` und das VAT-Abrechnungskonto auf den EU-Steuersätzen festgelegt werden. Dazu können Sie gemäss Beispiel die [Steuersätze anpassen](Accounting%20Tax.md#Steuersatz%20anpassen):
 
-* **Verteilung für Rechnungen**:
+- **Verteilung für Rechnungen**:
 
 |      % | Basiert auf | Konto                        | Steuerraster |
-| ------:| ----------- | ---------------------------- | ------------ |
-|        | Basis       |                              | +OSSa, +221         |
-| 100.00 | der Steuer  | 2202 Geschuldete VAT Ausland | +OSSb             |
+| -----: | ----------- | ---------------------------- | ------------ |
+|        | Basis       |                              | +OSSa, +221  |
+| 100.00 | der Steuer  | 2202 Geschuldete VAT Ausland | +OSSb        |
 
-* **Verteilung für Gutschriften**:
+- **Verteilung für Gutschriften**:
 
 |      % | Basiert auf | Konto                        | Steuerraster |
-| ------:| ----------- | ---------------------------- | ------------ |
-|        | Basis       |                              | -OSSa, -221   |
-| 100.00 | der Steuer  | 2202 Geschuldete VAT Ausland | -OSSb         |
+| -----: | ----------- | ---------------------------- | ------------ |
+|        | Basis       |                              | -OSSa, -221  |
+| 100.00 | der Steuer  | 2202 Geschuldete VAT Ausland | -OSSb        |
 
 Wenn Sie den [Steuerbericht anzeigen](Accounting%20Reports.md#Steuerbericht%20anzeigen), erhalten Sie alle Informationen zur Abrechnung mit der Eidgenössischen Steuerverwaltung.
 

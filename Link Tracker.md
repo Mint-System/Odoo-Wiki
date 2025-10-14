@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Link Tracker
+
 ![icons_odoo_website_partner](attachments/icons_odoo_website_partner.png)
 
 {{ $frontmatter.description }}

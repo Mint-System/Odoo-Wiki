@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./hr-attendance
 ---
+
 # HR Attendance Missing
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -23,14 +25,14 @@ Die Erweiterung instaliert eine geplante Aktion, die täglich für alle Mitarbei
 
 ### Abwesenheitsart ignorieren
 
-Wenn Sie bestimmte Abwesenheitsart bei der Prüfung der fehlenden Anwesenheiten ignorieren wollen, dann können Sie die Abwesenheitsart entsprechend anpassen. Zeigen Sie die Abwesenheitsart unter *Abwesenheiten > Konfiguration > Abwesenheitsarten* an und aktivieren Sie die Option *Fehlende Abwesenheit ignorieren*.
+Wenn Sie bestimmte Abwesenheitsart bei der Prüfung der fehlenden Anwesenheiten ignorieren wollen, dann können Sie die Abwesenheitsart entsprechend anpassen. Zeigen Sie die Abwesenheitsart unter _Abwesenheiten > Konfiguration > Abwesenheitsarten_ an und aktivieren Sie die Option _Fehlende Abwesenheit ignorieren_.
 
 ## Verwendung
 
 ### Fehlende Anwesenheit für ausgewählten Zeitraum generieren
 
-Navigieren Sie nach *Personal* und öffnen Sie einen Mitarbeitenden-Eintrag. Wählen Sie *Aktionen > Fehlende Anwesenheiten erstellen* und legen Sie im Dialog ein Start- und Enddatum fest. Erstellen Sie die Einträge mit *Erstellen*.
+Navigieren Sie nach _Personal_ und öffnen Sie einen Mitarbeitenden-Eintrag. Wählen Sie _Aktionen > Fehlende Anwesenheiten erstellen_ und legen Sie im Dialog ein Start- und Enddatum fest. Erstellen Sie die Einträge mit _Erstellen_.
 
 ### Generierte fehlende Anwesenheiten anzeigen
 
-Navigieren Sie nach *Anwesenheiten > Anwesenheiten* und wählen Sie *Filter > Fehlende Anwesenheit*. Die angezeigten Einträge sind generierte Anwesenheiten.
+Navigieren Sie nach _Anwesenheiten > Anwesenheiten_ und wählen Sie _Filter > Fehlende Anwesenheit_. Die angezeigten Einträge sind generierte Anwesenheiten.

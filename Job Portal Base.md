@@ -5,7 +5,9 @@ kind: howto
 partner: Sozialinfo
 prev: ./
 ---
+
 # Job Portal
+
 ![](attachments/icons_odoo_job_portal_base.png)
 
 {{ $frontmatter.description }}

@@ -7,6 +7,7 @@ partner: Odoo S.A.
 ---
 
 # Abwesenheiten
+
 ![icons_odoo_hr_holidays](attachments/icons_odoo_hr_holidays.png)
 
 {{ $frontmatter.description }}
@@ -15,8 +16,8 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 
 ## Bereiche
 
-| Bereich                                                             | Beschreibung                                      |
-| ------------------------------------------------------------------- | ------------------------------------------------- |
+| Bereich                                                               | Beschreibung                                        |
+| --------------------------------------------------------------------- | --------------------------------------------------- |
 | [Abwesenheiten Aktionen](HR%20Holidays%20Actions.md)                  | Aktionen für Abwesenheiten App einrichten.          |
 | [Abwesenheiten Datenmanagement](HR%20Holidays%20Data%20Management.md) | Daten zu Abwesenheiten exportieren und importieren. |
 
@@ -24,7 +25,7 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 
 | Erweiterung                                                                               | Beschreibung                                                                         |
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| [HR Attendance Overtime Negative Hours](HR%20Attendance%20Overtime%20Negative%20Hours.md) | Anzeige negative Überstunden auf Dashboard Abwesenheiten.                              |
+| [HR Attendance Overtime Negative Hours](HR%20Attendance%20Overtime%20Negative%20Hours.md) | Anzeige negative Überstunden auf Dashboard Abwesenheiten.                            |
 | [HR Holidays .ics Attachment](HR%20Holidays%20ics%20Attachment.md)                        | An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.                    |
 | [HR Holidays Calendar Department](HR%20Holidays%20Calendar%20Department.md)               | Erweitert den Anwesenheitsbericht mit neuen Felder.                                  |
 | [HR Holidays Custom Hours](HR%20Holidays%20Custom%20Hours.md)                             | Benutzerdefinierte Anzahl Stunden auf Abwesenheiten eintragen.                       |
@@ -40,9 +41,9 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 
 ## Dashboard
 
-###  Verfügbare Urlaubsansprüche anzeigen
+### Verfügbare Urlaubsansprüche anzeigen
 
-Öffnen Sie die App *Abwesenheit*. Auf dem Dashboard werden oberhalb des Kalender die verbleibenden Urlaubsansprüche angezeigt.
+Öffnen Sie die App _Abwesenheit_. Auf dem Dashboard werden oberhalb des Kalender die verbleibenden Urlaubsansprüche angezeigt.
 
 ![](attachments/Abwesenheiten%20Dashboard.png)
 
@@ -54,23 +55,23 @@ Die verfügbaren Überstunden werden nur angezeigt, wenn der Wert positiv ist.
 
 ### Abwesenheitsart erfassen
 
-Jede Abwesenheit und Urlaubsanspruch wird einem Abwesenheitsart zugeordnet. Damit Sie jährliche Feriensaldis korrekt erfassen, müssen Sie für jedes Jahr einen Abwesenheitsart erfassen. Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitsarten* und duplizieren Sie einen bestehenden Typ. Legen Sie diese Werte fest:
+Jede Abwesenheit und Urlaubsanspruch wird einem Abwesenheitsart zugeordnet. Damit Sie jährliche Feriensaldis korrekt erfassen, müssen Sie für jedes Jahr einen Abwesenheitsart erfassen. Navigieren Sie nach _Abwesenheiten > Konfiguration > Abwesenheitsarten_ und duplizieren Sie einen bestehenden Typ. Legen Sie diese Werte fest:
 
-* **Name**: Anzeigenamen des Abwesenheitsart.
-* **Abwesenheitsanträge / Genehmigung**: Bestimmen Sie ob die Abwesenheitseinträge genehmigt werden muss.
-* **Einheit der Abwesenheit**: Wählen Sie hier Stunden, Halbtage oder Tage als Einheit.
-* **Zusätzliche Stunden abziehen**: Wenn die Abwesenheit nicht als Arbeitszeit gerechnet werden soll, aktivieren Sie diese Option.
-* **Abwesenheitsart**: Legen Sie fest, ob die Zeit der Abwesenheit als gearbeitete Zeit oder Abwesend gilt.
-* **Anträge auf Urlaubsanspruch / Erfordert Anspruch**: Bestimmen Sie ob der Urlaubsanspruch genehmigt werden muss.
-* **Anträge auf Urlaubsanspruch / Genehmigung**: Bestimmen Sie wie der Urlaubsanspruch genehmigt wird.
+- **Name**: Anzeigenamen des Abwesenheitsart.
+- **Abwesenheitsanträge / Genehmigung**: Bestimmen Sie ob die Abwesenheitseinträge genehmigt werden muss.
+- **Einheit der Abwesenheit**: Wählen Sie hier Stunden, Halbtage oder Tage als Einheit.
+- **Zusätzliche Stunden abziehen**: Wenn die Abwesenheit nicht als Arbeitszeit gerechnet werden soll, aktivieren Sie diese Option.
+- **Abwesenheitsart**: Legen Sie fest, ob die Zeit der Abwesenheit als gearbeitete Zeit oder Abwesend gilt.
+- **Anträge auf Urlaubsanspruch / Erfordert Anspruch**: Bestimmen Sie ob der Urlaubsanspruch genehmigt werden muss.
+- **Anträge auf Urlaubsanspruch / Genehmigung**: Bestimmen Sie wie der Urlaubsanspruch genehmigt wird.
 
 ### Abwesenheitsart konfigurieren
 
-Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitsarten*. Wählen Sie hier den Abwesenheitsart aus und bearbeiten Sie diesen gemäss den Anforderungen.
+Navigieren Sie nach _Abwesenheiten > Konfiguration > Abwesenheitsarten_. Wählen Sie hier den Abwesenheitsart aus und bearbeiten Sie diesen gemäss den Anforderungen.
 
 ### Einheit für Abwesenheitsart festlegen
 
-Navigieren Sie nach *Abwesenheiten > Konfiguration > Abwesenheitsarten*. Wählen Sie hier den Abwesenheitsart aus. Im Feld *Einheit der Abwesenheit* können Sie wählen, ob der Typ in Stunden, Halbtage oder Tagen dargestellt wird.
+Navigieren Sie nach _Abwesenheiten > Konfiguration > Abwesenheitsarten_. Wählen Sie hier den Abwesenheitsart aus. Im Feld _Einheit der Abwesenheit_ können Sie wählen, ob der Typ in Stunden, Halbtage oder Tagen dargestellt wird.
 
 ::: tip
 Odoo rechnet intern immer in Stunden. Diese Option legt die Darstellung der verbleibenden Ansprüche fest.
@@ -78,7 +79,7 @@ Odoo rechnet intern immer in Stunden. Diese Option legt die Darstellung der verb
 
 ### Verworfene Abwesenheiten auf Dashboard ausblenden
 
-Auf der Dashboard-Ansicht von *Abwesenheiten* werden alle Abwesenheiten unabhängig ihres Status angezeigt. Um Abwesenheiten im Zustand *Verworfen* auszublenden, wählen Sie *Entwicklertools > Aktion bearbeiten*. Überschreiben Sie das Feld *Wertebereich* mit dem Wert `[('user_id', '=', uid),('state', 'not in', ['refuse'])]`. Laden Sie den Browser-Tab neu.
+Auf der Dashboard-Ansicht von _Abwesenheiten_ werden alle Abwesenheiten unabhängig ihres Status angezeigt. Um Abwesenheiten im Zustand _Verworfen_ auszublenden, wählen Sie _Entwicklertools > Aktion bearbeiten_. Überschreiben Sie das Feld _Wertebereich_ mit dem Wert `[('user_id', '=', uid),('state', 'not in', ['refuse'])]`. Laden Sie den Browser-Tab neu.
 
 ::: warning
 Diese Anpassung geht bei der Aktualisierung oder Neuinstallation des Abwesenheits-Moduls verloren.
@@ -86,23 +87,23 @@ Diese Anpassung geht bei der Aktualisierung oder Neuinstallation des Abwesenheit
 
 ### Gesetzliche Feiertage festlegen
 
-Navigieren Sie nach *Abwesenheiten > Konfiguration > Gesetzliche Feiertage*. Erstellen Sie hier einen neuen Eintrag für jeden Feiertag und optional für bestimmte Arbeitszeiten.
+Navigieren Sie nach _Abwesenheiten > Konfiguration > Gesetzliche Feiertage_. Erstellen Sie hier einen neuen Eintrag für jeden Feiertag und optional für bestimmte Arbeitszeiten.
 
 ![](attachments/Abwesenheiten%20Feiertage.png)
 
 ::: tip
-Lassen Sie das Feld *Arbeitsstunden* leer, damit der Feiertag für alle Arbeitszeiten aktiv ist.
+Lassen Sie das Feld _Arbeitsstunden_ leer, damit der Feiertag für alle Arbeitszeiten aktiv ist.
 :::
 
 ## Vorgänge
 
 ### Urlaubsanspruch melden
 
-Damit Sie Anspruch auf Abwesenheit haben, müssen Sie diesen Anspruch geltend machen. Öffnen Sie die App *Abwesenheitszeiten* und wählen Sie *Neuer Urlaubsanspruch*. Wählen Sie den Typ, die Anzahl Tage und fügen Sie eine Beschreibung hinzu.
+Damit Sie Anspruch auf Abwesenheit haben, müssen Sie diesen Anspruch geltend machen. Öffnen Sie die App _Abwesenheitszeiten_ und wählen Sie _Neuer Urlaubsanspruch_. Wählen Sie den Typ, die Anzahl Tage und fügen Sie eine Beschreibung hinzu.
 
 ![](attachments/Abwesenheitszeiten%20Anspruch%20melden.png)
 
-Schliessen Sie den Dialog nach *Speichern*.
+Schliessen Sie den Dialog nach _Speichern_.
 
 ### Urlaubsanspruch validieren
 
@@ -114,7 +115,7 @@ Urlaubsansprüche zur Validierung werden auch über Odoo-Aktivitäten angezeigt.
 
 ![](attachments/Abwesenheitszeiten%20Aktivität.png)
 
-Klicken Sie auf *Genehmigen* oder *Ablehnen* um den Urlaubsanspruch zu validieren.
+Klicken Sie auf _Genehmigen_ oder _Ablehnen_ um den Urlaubsanspruch zu validieren.
 
 Mitarbeitende erhalten nach der Validierung eine entsprechende Mail.
 
@@ -126,26 +127,26 @@ Odoo versendet keine Nachrichten, wenn die Genehmigung alls Massenbearbeitung er
 
 ### Urlaubsanspruch anpassen
 
-Wenn Sie einen genehmigten Urlaubsanspruch anpassen wollen, wählen Sie diesen aus *Abwesenheiten > Genehmigungen > Urlaubsansprüche* und klicken auf *Ablehnen*. Anschliessend klicken Sie auf *Zurücksetzen* und bearbeiten den Anspruch.
+Wenn Sie einen genehmigten Urlaubsanspruch anpassen wollen, wählen Sie diesen aus _Abwesenheiten > Genehmigungen > Urlaubsansprüche_ und klicken auf _Ablehnen_. Anschliessend klicken Sie auf _Zurücksetzen_ und bearbeiten den Anspruch.
 
 ::: warning
-Damit die Aktion *Zurücksetzen* ausgewählt werden kann, muss Ihr Odoo-Benutzer die Rolle *Abwesenheitszeiten: Administrator* haben.
+Damit die Aktion _Zurücksetzen_ ausgewählt werden kann, muss Ihr Odoo-Benutzer die Rolle _Abwesenheitszeiten: Administrator_ haben.
 :::
 
 ### Abwesenheit erstellen
 
-Öffnen Sie die App *Abwesenheitszeiten* und wählen Sie *Neuer Abwesenheitsantrag*. Geben Sie den Typ und die Dauer ein.
+Öffnen Sie die App _Abwesenheitszeiten_ und wählen Sie _Neuer Abwesenheitsantrag_. Geben Sie den Typ und die Dauer ein.
 
 ![](attachments/Abwesenheitszeiten%20Abwesenheit%20melden.png)
 
-Bestätigen Sie den Vorgang mit *Speichern*.
+Bestätigen Sie den Vorgang mit _Speichern_.
 
-Wurde die Abwesenheit genehmigt, sehen Sie die verleibenden Tage des Abwesenheitsarts in der Übersicht *Abwesenheitszeiten*.
+Wurde die Abwesenheit genehmigt, sehen Sie die verleibenden Tage des Abwesenheitsarts in der Übersicht _Abwesenheitszeiten_.
 
 ![](attachments/Abwesenheitszeiten%20Verleibend.png)
 
 ::: tip
-Abwesenheitseinträge, die im Zustand *Zur Genehmigung* sind, können nicht mehr gelöscht werden.
+Abwesenheitseinträge, die im Zustand _Zur Genehmigung_ sind, können nicht mehr gelöscht werden.
 :::
 
 ### Abwesenheit validieren
@@ -158,43 +159,43 @@ Klicken Sie auf den Link und validieren Sie die Abwesenheit.
 
 ### Abwesenheit entfernen
 
-Wurde eine Abwesenheit einmal erfasst, kann Sie nicht mehr gelöscht werden (asser vom Administator). Möchte man dennoch eine Abwesenheit entfernen, muss der Vorgesetzte diese ablehnen. Im Status *Verworfen* wird der Kalendereintrag des Mitarbeiters entfernt..
+Wurde eine Abwesenheit einmal erfasst, kann Sie nicht mehr gelöscht werden (asser vom Administator). Möchte man dennoch eine Abwesenheit entfernen, muss der Vorgesetzte diese ablehnen. Im Status _Verworfen_ wird der Kalendereintrag des Mitarbeiters entfernt..
 
 ### Verantwortliche festlegen
 
-Navigieren sich zum Mitarbeitenden im App *Personal*, öffnen Sie den Tab *Arbeitsinformationen* und wählen Sie *Bearbeiten*. Tragen Sie den Vorgesetzten im Feld *Abwesenheitszeiten* ein. Standardmässig wird der *Manager* übernommen.
+Navigieren sich zum Mitarbeitenden im App _Personal_, öffnen Sie den Tab _Arbeitsinformationen_ und wählen Sie _Bearbeiten_. Tragen Sie den Vorgesetzten im Feld _Abwesenheitszeiten_ ein. Standardmässig wird der _Manager_ übernommen.
 
 ### Urlaubsanspruch ausblenden
 
-Wenn Sie einen genehmigten Urlaubsanspruch ausblenden wollen, wählen Sie diesen unter *Abwesenheiten > Genehmigungen > Urlaubsansprüche* aus und geben im Feld *Gültigkeitsdauer* ein Enddatum ein.
+Wenn Sie einen genehmigten Urlaubsanspruch ausblenden wollen, wählen Sie diesen unter _Abwesenheiten > Genehmigungen > Urlaubsansprüche_ aus und geben im Feld _Gültigkeitsdauer_ ein Enddatum ein.
 
 ## Berechtigungen
 
-### Zugriff auf  erteilen
+### Zugriff auf erteilen
 
 Damit Benutzer die [Anwesenheiten und Zeiterfassung vergleichen](#Anwesenheiten%20und%20Zeiterfassung%20vergleichen) können, müssen Sie Zugriffsrechte auf Menüposten anpasst werden.
 
 Als erstes müssen Sie die folgenden [Menüposten bearbeiten](Development.md#Menüposten%20bearbeiten):
 
-* *Zeiterfassung/Berichtswesen*
-* *Zeiterfassung/Berichtswesen/Zeiterfassung / Anwesenheiten*
+- _Zeiterfassung/Berichtswesen_
+- _Zeiterfassung/Berichtswesen/Zeiterfassung / Anwesenheiten_
 
-Fügen Sie im Tab *Zugriffsrechte* die Gruppe *Zeiterfassung / Benutzer: nur eigene Stundenzettel* hinzu. 
+Fügen Sie im Tab _Zugriffsrechte_ die Gruppe _Zeiterfassung / Benutzer: nur eigene Stundenzettel_ hinzu.
 
-Anschliessend müssen Sie für *Zeiterfassung Anwesenheitsnachweis* die [Datensatzregeln auf Datenmodell vergeben](Settings%20Permissions.md#Datensatzregeln%20auf%20Datenmodell%20vergeben):
+Anschliessend müssen Sie für _Zeiterfassung Anwesenheitsnachweis_ die [Datensatzregeln auf Datenmodell vergeben](Settings%20Permissions.md#Datensatzregeln%20auf%20Datenmodell%20vergeben):
 
 Für die Benutzer:
 
-* **Name**: *Zeiterfassung / Benutzer: nur eigene Stundenzettel*
-* **Gruppe**: *Zeiterfassung / Benutzer: nur eigene Stundenzettel*
-* **Filter**: `[('user_id', '=', user.id)]`
-* **Berechtigung**: Leseberechtigung
+- **Name**: _Zeiterfassung / Benutzer: nur eigene Stundenzettel_
+- **Gruppe**: _Zeiterfassung / Benutzer: nur eigene Stundenzettel_
+- **Filter**: `[('user_id', '=', user.id)]`
+- **Berechtigung**: Leseberechtigung
 
 Für die Vorgesetzten:
 
-* **Name**: *Zeiterfassung / Benutzer: Alle Stundenzettel*
-* **Gruppe**: *Zeiterfassung / Benutzer: Alle Stundenzettel*
-* **Filter**: `[]`
-* **Berechtigung**: Leseberechtigung
+- **Name**: _Zeiterfassung / Benutzer: Alle Stundenzettel_
+- **Gruppe**: _Zeiterfassung / Benutzer: Alle Stundenzettel_
+- **Filter**: `[]`
+- **Berechtigung**: Leseberechtigung
 
 Nun sollten Benutzer, die nur ihren eigenen Stundenzettel sehen, den Bericht aufrufen können.

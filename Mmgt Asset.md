@@ -7,6 +7,7 @@ prev: ./management-system
 ---
 
 # Mmgt Asset
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -18,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/18.
 
 ### Asset erfassen
 
-Navigieren Sie nach *Management System > Inventory > Assets*. Klicken Sie auf *Neu* und wählen Sie als erstes im Feld *Reference* ein Datenmodell aus. Für das ausgewählte Datenmodell wählen Sie einen Eintrag aus. Der Titel des Assets wird generiert. Speichern Sie den Eintrag.
+Navigieren Sie nach _Management System > Inventory > Assets_. Klicken Sie auf _Neu_ und wählen Sie als erstes im Feld _Reference_ ein Datenmodell aus. Für das ausgewählte Datenmodell wählen Sie einen Eintrag aus. Der Titel des Assets wird generiert. Speichern Sie den Eintrag.

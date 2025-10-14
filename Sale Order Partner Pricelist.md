@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./subscription
 ---
+
 # Sale Order Partner Pricelist
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -21,4 +23,4 @@ Mit dieser Erweiterung erfolgt die Zuweisung der Preisliste auf einem Kontakt au
 
 ### Partner-Preisliste auf Produkt festlegen
 
-Zeigen Sie ein wiederkehrendes Produkt unter *Verkauf > Produkte > Produkte* an. Öffnen Sie den Tab *Verkauf* und legen Sie im Bereich *Partner-Preisliste* die entsprechende Preisliste fest. Wenn Sie dieses Produkt als Abonnement verkaufen, wird die Preisliste in neuen Verkaufsaufträgen verwendet.
+Zeigen Sie ein wiederkehrendes Produkt unter _Verkauf > Produkte > Produkte_ an. Öffnen Sie den Tab _Verkauf_ und legen Sie im Bereich _Partner-Preisliste_ die entsprechende Preisliste fest. Wenn Sie dieses Produkt als Abonnement verkaufen, wird die Preisliste in neuen Verkaufsaufträgen verwendet.

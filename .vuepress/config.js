@@ -13,9 +13,7 @@ export default defineUserConfig({
     lang: 'de-CH',
     title: 'Odoo Wiki',
     description: 'Eine einfache und umfassende Odoo-Dokumentation.',
-    head: [
-        ['link', { rel: 'icon', href: '/icon.png' }]
-    ],
+    head: [['link', { rel: 'icon', href: '/icon.png' }]],
     theme: defaultTheme({
         logo: '/icon.png',
         repo: 'mint-system/odoo-wiki',
@@ -26,7 +24,10 @@ export default defineUserConfig({
             { text: 'Glossary', link: '/glossary' },
             { text: 'OCA Apps', link: 'https://odoo-community.org/shop' },
             { text: 'Mint System', link: 'https://www.mint-system.ch/odoo' },
-            { text: 'Chat', link: 'https://matrix.to/#/!KrqriCmWfsDJxdWNtE:mint-system.ch?via=mint-system.ch&via=matrix.org' }
+            {
+                text: 'Chat',
+                link: 'https://matrix.to/#/!KrqriCmWfsDJxdWNtE:mint-system.ch?via=mint-system.ch&via=matrix.org',
+            },
         ],
         sidebar: {
             '/': [
@@ -35,8 +36,8 @@ export default defineUserConfig({
                     collapsable: false,
                     children: sidebar,
                 },
-            ]
-        }
+            ],
+        },
     }),
     plugins: [
         // slimsearchPlugin({
@@ -44,15 +45,35 @@ export default defineUserConfig({
         //     suggestion: false
         // }),
         searchPlugin({
-            maxSuggestions: 10
+            maxSuggestions: 10,
         }),
         plausiblePlugin({
-            'domain': 'odoo-wiki.org'
+            domain: 'odoo-wiki.org',
         }),
         mermaidPlugin(),
         shikiPlugin({
             theme: 'catppuccin-latte',
-            langs: ['bash', 'yml', 'yaml', 'json', 'css', 'html', 'xml', 'groovy', 'py', 'python', 'sql', 'powershell', 'txt', 'csv', 'mermaid', 'md', 'markdown', 'toml', 'php'],
+            langs: [
+                'bash',
+                'yml',
+                'yaml',
+                'json',
+                'css',
+                'html',
+                'xml',
+                'groovy',
+                'py',
+                'python',
+                'sql',
+                'powershell',
+                'txt',
+                'csv',
+                'mermaid',
+                'md',
+                'markdown',
+                'toml',
+                'php',
+            ],
         }),
     ],
 })

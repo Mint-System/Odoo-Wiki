@@ -15,7 +15,7 @@ Mit jedem Update von Odoo erhalten Sie neue Übersetzungen. Odoo verwendet das �
 
 Wenn Sie Odoo übersetzen wollen, haben Sie zwei Optionen. Entweder passen Sie den Begriff direkt in ihrer Odoo-Instanzen an oder Sie machen eine Übersetzung auf Transifex und warten auf die Aktualisierung.
 
-Als Anwendungsfall wollen wir den Begriff *Abschaltung* anpassen. Der Quellbegriff ist *Cut-Off* und worde nicht korrekt übersetzt:
+Als Anwendungsfall wollen wir den Begriff _Abschaltung_ anpassen. Der Quellbegriff ist _Cut-Off_ und worde nicht korrekt übersetzt:
 
 ![](attachments/Best%20Practice%20Odoo%20übersetzen%20Abschaltung.png)
 
@@ -33,7 +33,7 @@ Ob die Übersetzung angenommen wird, entscheiden die Reviewer.
 
 Mit Odoo 16 wurde die Erstellung von Übersetzung etwas komplizierter. Führen Sie als erstes diese Schritte aus:
 
-* [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivieren)
-* Mindestens 2 [Sprachen aktivieren](Settings%20Translations.md#Sprache%20aktivieren)
+- [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivieren)
+- Mindestens 2 [Sprachen aktivieren](Settings%20Translations.md#Sprache%20aktivieren)
 
 Nun können Sie [Übersetzungen auf Ansichten anpassen](Settings%20Translations.md#Übersetzung%20auf%20Ansicht%20anpassen).

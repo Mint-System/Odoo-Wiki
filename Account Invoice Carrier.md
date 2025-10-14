@@ -5,6 +5,7 @@ kind: howto
 partner: Mint-System
 prev: ./invoicing
 ---
+
 # Account Invoice Carrier
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
@@ -18,6 +19,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.
 
 ### Auslieferungsmethode auf Rechnung hinterlegen
 
-Mit dieser Erweiterung erhalten Sie auf der Formularansicht der Rechnungen ein neues Feld *Auslieferungsmethode*.
+Mit dieser Erweiterung erhalten Sie auf der Formularansicht der Rechnungen ein neues Feld _Auslieferungsmethode_.
 
 ![](attachments/Account%20Invoice%20Carrier.png)

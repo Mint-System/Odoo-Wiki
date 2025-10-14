@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./purchase-requisition
 ---
+
 # Purchase Requisition Incoterm
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.
 
 ### Lieferbedingungen festlegen
 
-Mit dieser Erweiterungen können Sie auf Kaufverträgen die Lieferbedingungen für Lieferanten festlegen. Zeigen Sie einen Kaufvertrag via *Einkauf > Aufträge > Kaufverträge* an und bearbeiten Sie das Feld *Lieferbedingung*.
+Mit dieser Erweiterungen können Sie auf Kaufverträgen die Lieferbedingungen für Lieferanten festlegen. Zeigen Sie einen Kaufvertrag via _Einkauf > Aufträge > Kaufverträge_ an und bearbeiten Sie das Feld _Lieferbedingung_.
 
 ::: tip
 Wenn Sie auf dem Lieferant eine Standard-Lieferbedingung hinterlegt haben, wird bei der Auswahl des Lieferanten im Kaufvertrag diese Lieferbedingung übernommen.

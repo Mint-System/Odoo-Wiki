@@ -4,7 +4,9 @@ description: USt-Id im Umsatzsteuerbericht anzeigen
 partner: Mint-System
 prev: ./accounting
 ---
+
 # Account Tax Report Show Vat
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}

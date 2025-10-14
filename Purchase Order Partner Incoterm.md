@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./purchase
 ---
+
 # Purchase Order Partner Incoterm
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -21,4 +23,4 @@ Die Installation von [Purchase Partner Incoterm](Purchase%20Partner%20Incoterm.m
 
 ### Standard-Incoterm für Einkauf festlegen
 
-Damit automatisch die korrekten Incoterms für eine Einkaufsbestellung ausgewählt werden, können Sie auf jedem Kontakt die Standard-Incoterm festlegen. Gehen Sie nach *Kontakte > Kontakt auswählen > Tab Verkauf & Einkauf* und legen Sie im Feld *Default Purchase Incoterm* den passenden Wert fest.
+Damit automatisch die korrekten Incoterms für eine Einkaufsbestellung ausgewählt werden, können Sie auf jedem Kontakt die Standard-Incoterm festlegen. Gehen Sie nach _Kontakte > Kontakt auswählen > Tab Verkauf & Einkauf_ und legen Sie im Feld _Default Purchase Incoterm_ den passenden Wert fest.

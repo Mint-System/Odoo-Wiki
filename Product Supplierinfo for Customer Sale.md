@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./product
 ---
+
 # Product Supplierinfo for Customer Sale
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

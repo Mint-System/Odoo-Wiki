@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./accounting
 ---
+
 # Survey Question Type NPS
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/OCA/survey/tree/16.0/survey_question_type_nps>
 
 ### NPS-Feld hinzufügen
 
-Zeigen *Umfragen* an und wählen Sie eine Umfrage aus. Fügen Sie ein Feld hinzu und wählen Sie im Dialog *NPS Rating* aus.
+Zeigen _Umfragen_ an und wählen Sie eine Umfrage aus. Fügen Sie ein Feld hinzu und wählen Sie im Dialog _NPS Rating_ aus.

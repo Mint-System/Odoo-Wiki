@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./accounting
 ---
+
 # Account Statement Base
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

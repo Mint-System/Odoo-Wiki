@@ -1,11 +1,13 @@
 ---
 title: Account Report Referrer
-description: Fügt den Ansprechpartner einer Rechnung der Rechnungsanalyse hinzu. 
+description: Fügt den Ansprechpartner einer Rechnung der Rechnungsanalyse hinzu.
 kind: howto
 partner: Mint-System
 prev: ./accounting
 ---
+
 # Account Report Referrer
+
 ![icon_oms_box](../attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -15,4 +17,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reportin
 
 ## Beschreibung
 
-Diese Erweiterung fügt den Ansprechpartner (*Referrer*) eines Verkaufsauftrags der Rechnungsanalyse (*Buchhaltung > Berichtswesen > Rechnungsanalyse*) hinzu. Er kann als Filter oder zur Gruppierung des Berichts verwendet werden.
+Diese Erweiterung fügt den Ansprechpartner (_Referrer_) eines Verkaufsauftrags der Rechnungsanalyse (_Buchhaltung > Berichtswesen > Rechnungsanalyse_) hinzu. Er kann als Filter oder zur Gruppierung des Berichts verwendet werden.

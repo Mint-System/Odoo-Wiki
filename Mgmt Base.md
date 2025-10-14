@@ -7,6 +7,7 @@ prev: ./management-system
 ---
 
 # Mgmt Base
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -18,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/18.
 
 ### Management System erfassen
 
-Navigieren Sie nach *Management System > Configuration > Systems*. Erfassen Sie hier die Bezeichnung des Management System.
+Navigieren Sie nach _Management System > Configuration > Systems_. Erfassen Sie hier die Bezeichnung des Management System.

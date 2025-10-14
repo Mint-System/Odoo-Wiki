@@ -4,7 +4,9 @@ description: Verbindung zu externer MSSQL-Datenbank herstellen.
 kind: howto
 prev: ./development
 ---
+
 # Base Kardex
+
 ![](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}

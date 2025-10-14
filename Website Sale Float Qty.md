@@ -7,6 +7,7 @@ prev: ./website-e-commerce
 ---
 
 # Website Sale Float Qty
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -18,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Website/tree/16.0/website_
 
 ### Teilmenge auf Mengeneinheit aktivieren
 
-Navigieren Sie nach *Verkauf > Konfiguration > Masseinheiten* und wählen Sie die Masseinheit aus für welche die Teilmengen aktiviert werden sollen. Aktivieren Sie die Option *Float Qty*.
+Navigieren Sie nach _Verkauf > Konfiguration > Masseinheiten_ und wählen Sie die Masseinheit aus für welche die Teilmengen aktiviert werden sollen. Aktivieren Sie die Option _Float Qty_.
 
 ## Verwendung
 

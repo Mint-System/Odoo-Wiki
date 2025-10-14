@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./contacts
 ---
+
 # Partner Secondary Email
+
 ![](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/
 
 ### Zweite E-mail einfügen
 
-Navigieren Sie nach *Kontakte* und wählen Sie einen Kontakt aus. Unter dem Feld *E-Mail* finden Sie das zusätzliche Feld *Secondary E-Mail*.
+Navigieren Sie nach _Kontakte_ und wählen Sie einen Kontakt aus. Unter dem Feld _E-Mail_ finden Sie das zusätzliche Feld _Secondary E-Mail_.

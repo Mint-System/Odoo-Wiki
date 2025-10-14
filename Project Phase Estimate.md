@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./project
 ---
+
 # Project Phase Estimate
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,12 +19,12 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/16.0/project_
 
 ### Aufwandsschätzung für Projektphase erstellen
 
-Navigieren Sie nach *Projekt > Project Phases > Project Estimates* und erstellen Sie einen neuen Eintrag.
+Navigieren Sie nach _Projekt > Project Phases > Project Estimates_ und erstellen Sie einen neuen Eintrag.
 
 ### Alle Aufwandsschätzungen anzeigen
 
-Navigieren Sie nach *Projekt > Project Phases > Project Estimates*.
+Navigieren Sie nach _Projekt > Project Phases > Project Estimates_.
 
 ### Aufwandsschätzung auf Projekt anzeigen
 
-Navigieren Sie nach *Projekt > Konfigurationen > Projekte* und zeigen Sie ein Projekt an. Im Tab *Project Estimates* sehen Sie die Aufwandsschätzungen für dieses Projekt.
+Navigieren Sie nach _Projekt > Konfigurationen > Projekte_ und zeigen Sie ein Projekt an. Im Tab _Project Estimates_ sehen Sie die Aufwandsschätzungen für dieses Projekt.

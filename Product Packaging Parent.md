@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./stock
 ---
+
 # Product Packaging Parent
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/14.
 
 ### Übergeordnete Verpackung festlegen
 
-Navigieren Sie nach *Lager > Konfiguration > Produkte > Produktverpackungen* und wählen Sie eine Produktverpackung aus. Im Feld *Parent Packaging* können Sie eine Produktverpackung als übergeordnete Verpackung festlegen.
+Navigieren Sie nach _Lager > Konfiguration > Produkte > Produktverpackungen_ und wählen Sie eine Produktverpackung aus. Im Feld _Parent Packaging_ können Sie eine Produktverpackung als übergeordnete Verpackung festlegen.

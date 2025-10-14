@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./base
 ---
+
 # Base Optional Quick Create
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -15,10 +17,10 @@ Repository: <https://github.com/OCA/server-ux/tree/18.0/base_optional_quick_crea
 
 ## Beschreibung
 
-Mit dieser Erweiterung können Sie verhindern, dass für ein bestimmtes Datenmodell, beispielsweise *Konto*, in Auswahl-Feldern direkt neue Einträge erstellt werden können.
+Mit dieser Erweiterung können Sie verhindern, dass für ein bestimmtes Datenmodell, beispielsweise _Konto_, in Auswahl-Feldern direkt neue Einträge erstellt werden können.
 
 ## Verwendung
 
 ### Schnellanlagen für ausgewähltes Datenmodell verhindern
 
-Navigieren Sie nach *Einstellungen > Technisch > Modelle* und zeigen Sie das ausgewählte Datenmodell an. Aktivieren Sie die Option *Unterbinde Schnellanlage*.
+Navigieren Sie nach _Einstellungen > Technisch > Modelle_ und zeigen Sie das ausgewählte Datenmodell an. Aktivieren Sie die Option _Unterbinde Schnellanlage_.

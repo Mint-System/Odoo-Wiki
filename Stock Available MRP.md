@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./warehouse
 ---
+
 # Consider the production potential is available to promise
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,6 +19,6 @@ Repository: <https://github.com/OCA/stock-logistics-warehouse/tree/15.0/stock_av
 
 ### Produktionskapzitäten für Produkt anzeigen
 
-Zeigen Sie das Produkt unter *Fertigung > Produkte > Produkte* an. In der Formularansicht wird ein Smart-Button angezeigt, welcher das Produktionspotenzial berechnet.
+Zeigen Sie das Produkt unter _Fertigung > Produkte > Produkte_ an. In der Formularansicht wird ein Smart-Button angezeigt, welcher das Produktionspotenzial berechnet.
 
 ![](attachments/Stock%20Available%20MRP.png)

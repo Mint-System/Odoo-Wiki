@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale-blanket-order
 ---
+
 # Sale Blanket Order Fiscal
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -21,6 +23,6 @@ Mit dem Systemparameter `sale_blanket_order_fiscal.copy_fiscal` können Sie fest
 
 ### Steuerzuordnung festlegen
 
-Mit dieser Erweiterung können Sie auf dem Verkaufsauftrag die *Steuerzuordnung* festlegen.
+Mit dieser Erweiterung können Sie auf dem Verkaufsauftrag die _Steuerzuordnung_ festlegen.
 
 ![](attachments/Sale%20Blanket%20Order%20Extended.png)

@@ -12,9 +12,9 @@ Wenn Sie die Erweiterung [Swiss Payroll](Gio%20Payroll%20Custom.md) für Schweiz
 ## Vorbereitung
 
 Lohntyp auf Arbeitsvertrag auf Stundenlohn setzen.
-Auf dem Arbeitsvertrag der Stundenlöhner, müssen Sie *Stundenlohn* als [Lohntyp festlegen](Gio%20Payroll%20Custom.md#Lohntyp%20festlegen)
+Auf dem Arbeitsvertrag der Stundenlöhner, müssen Sie _Stundenlohn_ als [Lohntyp festlegen](Gio%20Payroll%20Custom.md#Lohntyp%20festlegen)
 
-Damit die gearbeiteten Stunden automatisch aus der Lohnabrechnung ausgelesen werden muss auf der Lohnart *Monatslohn* die Berechnung ersetzt werden. Sie können die [Lohnart anpassen](HR%20Payroll.md#Lohnart%20anpassen) und diesen Code verwenden:
+Damit die gearbeiteten Stunden automatisch aus der Lohnabrechnung ausgelesen werden muss auf der Lohnart _Monatslohn_ die Berechnung ersetzt werden. Sie können die [Lohnart anpassen](HR%20Payroll.md#Lohnart%20anpassen) und diesen Code verwenden:
 
 **Python Code**
 

@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./accounting
 ---
+
 # Account Payment Purchase
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/OCA/bank-payment/tree/18.0/account_payment_purch
 
 ### Zahlungsmodus auf Bestellung festlegen
 
-Navigieren Sie nach *Einkauf* und zeigen Sie eine Bestellung an. Im Tab *Weitere Informationen* finden Sie das Feld *Zahlweise*. Wählen Sie hier den Zahlungsmodus für die Bestellung aus.
+Navigieren Sie nach _Einkauf_ und zeigen Sie eine Bestellung an. Im Tab _Weitere Informationen_ finden Sie das Feld _Zahlweise_. Wählen Sie hier den Zahlungsmodus für die Bestellung aus.

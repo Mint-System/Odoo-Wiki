@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./stock
 ---
+
 # Stock Quant Package Dimension
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,12 +19,12 @@ Repository: <https://github.com/OCA/stock-logistics-workflow/tree/17.0/stock_qua
 
 ### Geschäftztes Gewicht von Verpackung anzeigen
 
-Wenn Sie unter *Lager > Übersicht > Lieferaufträge* eine [Produktlieferung verpacken](Stock%20Packaging.md#Produktlieferung%20verpacken) wird mit dieser Erweiterung eine Gewichtsschätzung erstellt.
+Wenn Sie unter _Lager > Übersicht > Lieferaufträge_ eine [Produktlieferung verpacken](Stock%20Packaging.md#Produktlieferung%20verpacken) wird mit dieser Erweiterung eine Gewichtsschätzung erstellt.
 
-Zeigen Sie die [Verpackungen](Stock%20Packaging.md#Verpackungen%20anzeigen) an, im Feld  *Estimated weight (in kg)* ist die Gewichtsschätzung ersichtlich.
+Zeigen Sie die [Verpackungen](Stock%20Packaging.md#Verpackungen%20anzeigen) an, im Feld _Estimated weight (in kg)_ ist die Gewichtsschätzung ersichtlich.
 
-Wenn Sie die  [Mengenheit Logistik festlegen](Product%20Logistics%20UoM.md#Mengenheit%20Logistik%20festlegen)) wird diese in der Berechnung der Gewichtsschätzung berücksichtigt.
+Wenn Sie die [Mengenheit Logistik festlegen](Product%20Logistics%20UoM.md#Mengenheit%20Logistik%20festlegen)) wird diese in der Berechnung der Gewichtsschätzung berücksichtigt.
 
 ::: warning
-Andere Feld auf der Verpackung wie *Liefergewicht* und *Pack Weight* berücksichtigen die Mengeneinheit Logistik des Produkts nicht.
+Andere Feld auf der Verpackung wie _Liefergewicht_ und _Pack Weight_ berücksichtigen die Mengeneinheit Logistik des Produkts nicht.
 :::

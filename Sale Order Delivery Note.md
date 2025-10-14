@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale
 ---
+
 # Sale Order Delivery Note
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sa
 
 ### Liefernotiz auf Verkaufsauftrag hinzufügen
 
-Wenn Sie einen Verkaufsauftrag unter *Verkauf* erstellen oder einen bestehenden bearbeiten, wird unter der Positionstabelle ein Feld *Delivery Note* angezeigt.
+Wenn Sie einen Verkaufsauftrag unter _Verkauf_ erstellen oder einen bestehenden bearbeiten, wird unter der Positionstabelle ein Feld _Delivery Note_ angezeigt.
 
 ![](attachments/Sale%20Order%20Delivery%20Note%20note.png)
 

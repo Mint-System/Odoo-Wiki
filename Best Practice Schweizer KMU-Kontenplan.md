@@ -4,6 +4,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Schweizer KMU-Kontenplan
 
 Odoo bietet eine Vorlage für den Schweizer KMU-Kontenplan. Wenn die Vorlage aktiviert wird, werden ausgewählte Konten von Odoo verwaltet.
@@ -57,7 +58,7 @@ Siehe [Standardkonten verwalten](Accounting.md#Standardkonten%20verwalten).
 Wenn Sie eine Kunden-Rechnung erfassen, wird der Rechnungsbetrag auf diesem Konto verbucht.
 
 ::: tip
-Es gibt nur ein Debitoren-Konto für Journale vom Typ *Verkauf*.
+Es gibt nur ein Debitoren-Konto für Journale vom Typ _Verkauf_.
 :::
 
 ## 1170 Vorsteuer (MwSt.) auf Material, Waren, Dienstleistungen, Energie
@@ -77,7 +78,7 @@ Siehe [Steuergruppen anzeigen](Accounting%20Tax.md#Steuergruppen%20anzeigen).
 Wenn Sie eine Lieferanten-Rechnung erfassen, wird der Rechnungsbetrag auf diesem Konto verbucht.
 
 ::: tip
-Es gibt nur ein Kreditoren-Konto für Journale vom Typ *Einkauf*.
+Es gibt nur ein Kreditoren-Konto für Journale vom Typ _Einkauf_.
 :::
 
 ## 2200 Geschuldete MwSt. (Umsatzsteuer)

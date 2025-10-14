@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./development
 ---
+
 # Server Environment
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/OCA/server-env/tree/18.0/server_environment>
 
 ### Server-Konfiguration anzeigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Parameter > Server-Umgebung*. Hier finden Sie die Konfigurationen, die Odoo aus der Server-Umgebung lädt.
+Navigieren Sie nach _Einstellungen > Technisch > Parameter > Server-Umgebung_. Hier finden Sie die Konfigurationen, die Odoo aus der Server-Umgebung lädt.

@@ -4,6 +4,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Verrechnung Spesen
 
 Die Mitarbeitenden ihres Unternehmen können mit Odoo [Spesen erfassen](HR%20Expense.md#Spesen%20erfassen) und abrechnen lassen. Wenn Mitarbeitende auf Projekten arbeiten und dort ihre Aufwände erfassen, stellt sich die Frage wie angefallene Spesen weiter verrechnet werden können.
@@ -25,11 +26,13 @@ Ansonsten werden die Spesenprodukte dem Verkaufsauftrag hinzugefügt und können
 ![](attachments/Best%20Practice%20Spesen%20verrechnen%20Auftrag%20mit%20Menge.png)
 
 Vorteile:
-* Einfache Erfassung der Spesenprodukte
+
+- Einfache Erfassung der Spesenprodukte
 
 Nachteil:
-* Validierung der Spesen nur mit Lieferung möglich
-* Verkaufsauftrag wird verändert
+
+- Validierung der Spesen nur mit Lieferung möglich
+- Verkaufsauftrag wird verändert
 
 ### Spesen mit Zeiterfassung erfassen
 
@@ -39,7 +42,7 @@ Dazu ein Beispiel eines Dienstleistungsprojekt:
 
 ![](attachments/Best%20Practice%20Spesen%20verrechnen%20Auftragszeilen.png)
 
-Die einzelnen Spesenprodukte müssen als *Dienstleistung* konfiguriert sein.
+Die einzelnen Spesenprodukte müssen als _Dienstleistung_ konfiguriert sein.
 
 In der Zeiterfassung gilt es die entsprechende Auftragsposition auszuwählen.
 
@@ -50,8 +53,10 @@ Die Abrechnung erfolgt wie alle Dienstleistungen.
 ![](attachments/Best%20Practice%20Spesen%20verrechnen%20Rechnung.png)
 
 Vorteile:
-* Wie alle Zeitnachweise, können auch die Spesen validiert werden
-* Mitarbeiter erfassen die Zeit und Spesen auf die gleiche Art
+
+- Wie alle Zeitnachweise, können auch die Spesen validiert werden
+- Mitarbeiter erfassen die Zeit und Spesen auf die gleiche Art
 
 Nachteil:
-* Die gesamte Stundenzahl auf einer Aufgabe oder einem Auftrag wird verfälscht
+
+- Die gesamte Stundenzahl auf einer Aufgabe oder einem Auftrag wird verfälscht

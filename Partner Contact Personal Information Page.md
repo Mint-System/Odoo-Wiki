@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./contacts
 ---
+
 # Personal information page for contacts
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

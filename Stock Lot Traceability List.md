@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./stock
 ---
+
 # Stock Lot Traceability List
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -13,12 +15,11 @@ prev: ./stock
 Technischer Name: `stock_lot_traceability_list`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/18.0/stock_lot_traceability_list>
 
-
 ## Verwendung
 
 ### Rückverfolgbarkeit als Liste anzeigen
 
-Zeigen Sie eine *Los-/Seriennummern* via *Lager > Produkte > Los-/Seriennummern* an und klicken Sie auf den Smart-Link *Rückverfolgbarkeitsliste*. Sie erhalten eine Listenansicht der Zeilen aus dem Rückverfolgbarkeitsbericht.
+Zeigen Sie eine _Los-/Seriennummern_ via _Lager > Produkte > Los-/Seriennummern_ an und klicken Sie auf den Smart-Link _Rückverfolgbarkeitsliste_. Sie erhalten eine Listenansicht der Zeilen aus dem Rückverfolgbarkeitsbericht.
 
 Die Rückverfolgbarkeitsliste:
 

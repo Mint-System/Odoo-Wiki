@@ -4,7 +4,9 @@ description: Einfache Anpassungen mit den Mint System Snippets umsetzen.
 kind: howto
 prev: ./development
 ---
+
 # Entwicklung Snippets
+
 ![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 {{ $frontmatter.description }}
@@ -19,17 +21,17 @@ Zeigen Sie die Website <https://odoo.build/snippets.html> an. Hier finden Sie ei
 
 Unter <https://odoo.build/snippets.html> finden Sie verschiedene Snippets um Ansichten und Berichte von Odoo anzupassen. Anhand der Referenz aus dem Attribut`inherit_id` können Sie das Snippet auf der Odoo Umgebung installieren.
 
-Navigieren Sie nach *Einstellungen > Technisch > Ansichten* und Suchen Sie nach der Ansicht wobei *Schlüssel* gleich `inherit_id` ist. Öffnen Sie die Ansicht und erstellen Sie im Tab *Vererbte Ansichten* einen neuen Eintrag mit diesen Werten:
+Navigieren Sie nach _Einstellungen > Technisch > Ansichten_ und Suchen Sie nach der Ansicht wobei _Schlüssel_ gleich `inherit_id` ist. Öffnen Sie die Ansicht und erstellen Sie im Tab _Vererbte Ansichten_ einen neuen Eintrag mit diesen Werten:
 
-* **Ansichtsbezeichnung**: ID des Snippet
-* **Nummernfolge**: Priorität des Snippet anhand Attribut `priority`
-* **Architektur**: XML-Code des Snippet
+- **Ansichtsbezeichnung**: ID des Snippet
+- **Nummernfolge**: Priorität des Snippet anhand Attribut `priority`
+- **Architektur**: XML-Code des Snippet
 
 ![](attachments/Entwicklung%20Snippet%20hinzufügen.gif)
 
 ### Snippet-Inhalte übersetzen
 
-Öffnen Sie ein Snippet via *Einstellungen > Technisch > Benutzer-Interface > Ansichten*. Klicken Sie im Tab *Architektur* auf * Übersetzungen bearbeiten*.
+Öffnen Sie ein Snippet via _Einstellungen > Technisch > Benutzer-Interface > Ansichten_. Klicken Sie im Tab _Architektur_ auf _ Übersetzungen bearbeiten_.
 
 ![](attachments/Snippet%20Übersetzung.png)
 
@@ -46,7 +48,7 @@ In bestimmten Fällen möchte man Texte in Berichten direkt anpassen. Damit Anwe
 </t>
 ```
 
-Unter *Einstellungen > Technisch > Systemparameter* erstellen Sie einen neuen Eintrag mit Schlüssel `stock.report_bordero.basis57.footer` und diesem Wert:
+Unter _Einstellungen > Technisch > Systemparameter_ erstellen Sie einen neuen Eintrag mit Schlüssel `stock.report_bordero.basis57.footer` und diesem Wert:
 
 ```txt
 Bitte die Gebinde beim Kunden sofort zurücknehmen und beim Abholen in Erstfeld die Gebinde retournieren.<br/>
@@ -71,10 +73,10 @@ In bestimmten Fällen möchte man Texte in Berichten direkt anpassen. Damit Anwe
 </t>
 ```
 
-Unter *Einstellungen > Übersetzungen > Übersetzte Begriffe* erstellen Sie einen neuen Eintrag mit diesen Werten:
+Unter _Einstellungen > Übersetzungen > Übersetzte Begriffe_ erstellen Sie einen neuen Eintrag mit diesen Werten:
 
-* **Interne Quelle**: `stock.report_bordero.basis57.footer`
-* **Übersetzungswert**:
+- **Interne Quelle**: `stock.report_bordero.basis57.footer`
+- **Übersetzungswert**:
 
 ```txt
 Bitte die Gebinde beim Kunden sofort zurücknehmen und beim Abholen in Erstfeld die Gebinde retournieren.<br/>
@@ -84,12 +86,12 @@ Bitte die Gebinde beim Kunden sofort zurücknehmen und beim Abholen in Erstfeld 
 Vielen Dank
 ```
 
-* **Übersetztes Feld**: `snippet`
-* **Sprache**: German (CH) / Deutsch (CH)
+- **Übersetztes Feld**: `snippet`
+- **Sprache**: German (CH) / Deutsch (CH)
 
 ![](attachments/Entwicklung%20Snippets%20Begriff.png)
 
-Beim Erstellen des Bericht wird der Platzhalter mit dem *Übersetzungswert* ersetzt.
+Beim Erstellen des Bericht wird der Platzhalter mit dem _Übersetzungswert_ ersetzt.
 
 ### Feld oder Button nur in Entwicklermodus anzeigen
 

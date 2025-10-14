@@ -1,11 +1,13 @@
 ---
 title: Stock Barcode MRP
-description: "Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen."
+description: 'Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen.'
 kind: howto
 partner: Mint-System
 prev: ./barcode
 ---
+
 # Stock Barcode MRP
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -21,6 +23,6 @@ Mit dieser Erweiterung können Sie den Strichcode auf Fertigungsaufträgen scann
 
 ![Stock Barcode MRP Arbeitsauftrag](attachments/Stock%20Barcode%20MRP%20Arbeitsauftrag.gif)
 
-Dieser Vorgang funktioniert auch mit *Backorders* und dem Barcode des originalen Fertigungsauftrag.
+Dieser Vorgang funktioniert auch mit _Backorders_ und dem Barcode des originalen Fertigungsauftrag.
 
 ![Stock Barcode MRP Backorder](attachments/Stock%20Barcode%20MRP%20Backorder.gif)

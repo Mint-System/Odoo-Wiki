@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./mass-mailing
 ---
+
 # Survey Send To List
+
 ![](attachments/odoo_icons_survey_send_to_list.png)
 
 {{ $frontmatter.description }}

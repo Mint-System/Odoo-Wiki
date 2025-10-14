@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./
 ---
+
 # Legal Advice Base
+
 ![](attachments/icons_odoo_legal_advice_base.png)
 
 {{ $frontmatter.description }}

@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./settings
 ---
+
 # Auth Impersonate User
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,17 +19,17 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/18.0/aut
 
 ### Einloggen durch andere Benutzer erlauben
 
-Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und öffnen Sie einen Benutzer. Aktivieren Sie Berechtigung *Kann impersoniert werden*.
+Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Benutzer_ und öffnen Sie einen Benutzer. Aktivieren Sie Berechtigung _Kann impersoniert werden_.
 
 ### Einloggen als andere Benutzer erlauben
 
-Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und öffnen Sie einen Benutzer. Aktivieren Sie Berechtigung *Kann Benutzer impersonieren*.
+Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Benutzer_ und öffnen Sie einen Benutzer. Aktivieren Sie Berechtigung _Kann Benutzer impersonieren_.
 
 ## Verwendung
 
 ### Mit einem anderen Benutzer einloggen
 
-Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer*, wählen Sie einen Benutzer aus und klicken Sie auf *Als Benutzer einloggen*. Sie werden anschliessend als den gewählten Benutzer eingeloggt.
+Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Benutzer_, wählen Sie einen Benutzer aus und klicken Sie auf _Als Benutzer einloggen_. Sie werden anschliessend als den gewählten Benutzer eingeloggt.
 
 ::: tip
 Sie können sich so auch als Portal-Benutzer einloggen.
@@ -35,4 +37,4 @@ Sie können sich so auch als Portal-Benutzer einloggen.
 
 ### Identitätswechsel beenden
 
-Den Identitätswechsel-Vorgang können Sie beenden indem Sie oben Rechts auf *Benutzer-Menü > Abmeldung* klicken. Statt direkt abgemeldet zu werden, werden Sie stattdessen als ihren ursprünglichen Benutzer eingeloggt. Wenn Sie nochmals auf *Abmeldung* klicken, werden Sie ausgeloggt.
+Den Identitätswechsel-Vorgang können Sie beenden indem Sie oben Rechts auf _Benutzer-Menü > Abmeldung_ klicken. Statt direkt abgemeldet zu werden, werden Sie stattdessen als ihren ursprünglichen Benutzer eingeloggt. Wenn Sie nochmals auf _Abmeldung_ klicken, werden Sie ausgeloggt.

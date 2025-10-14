@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./product
 ---
+
 # Packaging UOM
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/OCA/product-attribute/tree/14.0/packaging_uom>
 
 ### Mengeneinheit auf Produktverpackung festlegen
 
-Öffnen Sie *Lager > Konfiguration > Produkte > Produkverpackungen* und zeigen Sie Produktverpackung an. Legen Sie Mengeneinheit unter *Verpackungseinheit* fest.
+Öffnen Sie _Lager > Konfiguration > Produkte > Produkverpackungen_ und zeigen Sie Produktverpackung an. Legen Sie Mengeneinheit unter _Verpackungseinheit_ fest.

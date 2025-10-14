@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./
 ---
+
 # Holzwirtschaft
+
 ![icons_odoo_forestry_base](attachments/icons_odoo_forestry_base.png)
 
 {{ $frontmatter.description }}
@@ -25,12 +27,12 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-Forestry/tree/15.
 
 ### Kontakt als Ort markieren
 
-Zeigen Sie einen Kontakt via *Kontakte* an und aktivieren Sie die Checkbox *Ort*.
+Zeigen Sie einen Kontakt via _Kontakte_ an und aktivieren Sie die Checkbox _Ort_.
 
 ### Lagerort-Link auf Kontakt einfügen
 
-Zeigen Sie einen Kontakt via *Kontakte* an und fügen Sie den Link im Feld *Lagerort-Link* ein.
+Zeigen Sie einen Kontakt via _Kontakte_ an und fügen Sie den Link im Feld _Lagerort-Link_ ein.
 
 ### Details auf Polter erfassen
 
-Zeigen Sie eine Polter via *Lager > Produkte > Produkte* an und erfassen Sie Details im unteren Bereich vom Tab *Allgemeine Informationen*.
+Zeigen Sie eine Polter via _Lager > Produkte > Produkte_ an und erfassen Sie Details im unteren Bereich vom Tab _Allgemeine Informationen_.

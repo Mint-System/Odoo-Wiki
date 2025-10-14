@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Website
+
 ![icons_odoo_website](attachments/icons_odoo_website.png)
 
 {{ $frontmatter.description }}
@@ -14,12 +16,12 @@ Website: <https://www.odoo.com/de_DE/app/website>
 
 ## Bereiche
 
-| Bereich                                     | Beschreibung                                                   |
-| ------------------------------------------- | -------------------------------------------------------------- |
-| [Website Aktionen](Website%20Actions.md)    | Automatisierung der Website-Vorgänge.                          |
-| [Website Partner](Website%20Partner.md)     | Partner auf Website publizieren.                               |
+| Bereich                                       | Beschreibung                                                   |
+| --------------------------------------------- | -------------------------------------------------------------- |
+| [Website Aktionen](Website%20Actions.md)      | Automatisierung der Website-Vorgänge.                          |
+| [Website Partner](Website%20Partner.md)       | Partner auf Website publizieren.                               |
 | [Website E-Commerce](Website%20E-Commerce.md) | Webshop ohne Integrationsaufwand.                              |
-| [Verkauf Treue](Sale%20Loyalty.md)           | Kundentreue mit Rabatten, Coupons und Geschenkkarten belohnen. |
+| [Verkauf Treue](Sale%20Loyalty.md)            | Kundentreue mit Rabatten, Coupons und Geschenkkarten belohnen. |
 
 ## Erweiterungen
 
@@ -37,7 +39,7 @@ Website: <https://www.odoo.com/de_DE/app/website>
 
 ### Website-Domain festlegen
 
-Navigieren Sie nach *Website > Konfiguration > Websites* und zeigen Sie eine Website an. Im Feld *Website Domain* legen Sie die Url fest.
+Navigieren Sie nach _Website > Konfiguration > Websites_ und zeigen Sie eine Website an. Im Feld _Website Domain_ legen Sie die Url fest.
 
 ::: tip
 Wenn die Domain mit dem Datenbanknamen gekoppelt ist, können Sie das Feld leer lassen.
@@ -47,24 +49,24 @@ Wenn die Domain mit dem Datenbanknamen gekoppelt ist, können Sie das Feld leer 
 
 ### Kunden-Registration verhindern
 
-Navigieren Sie nach *Einstellungen > Website > Shop - Kassiervorgang* und wählen Sie die Option *Deaktiviert (als Gast einkaufen)* bei *Anmelden/Registrieren bei Kassiervorgang*.
+Navigieren Sie nach _Einstellungen > Website > Shop - Kassiervorgang_ und wählen Sie die Option _Deaktiviert (als Gast einkaufen)_ bei _Anmelden/Registrieren bei Kassiervorgang_.
 
 ### Kunden-Registration erlauben
 
-Navigieren Sie nach *Einstellungen > Website > Shop - Kassiervorgang* und wählen Sie eine Option bei *Anmelden/Registrieren bei Kassiervorgang* aus:
+Navigieren Sie nach _Einstellungen > Website > Shop - Kassiervorgang_ und wählen Sie eine Option bei _Anmelden/Registrieren bei Kassiervorgang_ aus:
 
-* **Optional**: Benutzer können sich registrieren
-* **Erforderlich**: Benutzer müssen sich registrieren
+- **Optional**: Benutzer können sich registrieren
+- **Erforderlich**: Benutzer müssen sich registrieren
 
 ### Zugriff Menu beschränken
 
-Der Zugriff auf die verfügbaren Seite in der Menu-Struktur kann ganz einfach angepasst werden. Navigieren Sie nach *Website > Konfiguration > Menüs*. In der Spalte *Visible Groups* können die Benutzer-Gruppen hinterlegt werden für welche das Menu angezeigt werden soll.
+Der Zugriff auf die verfügbaren Seite in der Menu-Struktur kann ganz einfach angepasst werden. Navigieren Sie nach _Website > Konfiguration > Menüs_. In der Spalte _Visible Groups_ können die Benutzer-Gruppen hinterlegt werden für welche das Menu angezeigt werden soll.
 
 ## Bearbeitung
 
 ### Seite hinzufügen
 
-Mit dem Odoo Website-Editor können Sie ganz einfach neue Seiten hinzufügen. Klicken Sie auf *+ Neu* und wählen Sie *Seite* aus. Geben Sie den Titel der Seite ein.
+Mit dem Odoo Website-Editor können Sie ganz einfach neue Seiten hinzufügen. Klicken Sie auf _+ Neu_ und wählen Sie _Seite_ aus. Geben Sie den Titel der Seite ein.
 
 ::: tip
 Wenn die Seite auf zwei oder mehrere Sprachen übersetzt wird, geben Sie den Titel in der Sprache der Odoo-Installation ein.
@@ -76,17 +78,17 @@ Wenn die Seite auf zwei oder mehrere Sprachen übersetzt wird, geben Sie den Tit
 
 Auf jeden beliebigen Abschnitt auf einer Seite kann ein Link gesetzt werden. Die Namensgebung können Sie verändern. (Hinweis: Auf Leerzeichen verzichten)
 
-Über *Menu bearbeiten* kann die URL unter Verwendung des Sonderzeichens *#* schnell gefunden und einfach eingefügt werden.
+Über _Menu bearbeiten_ kann die URL unter Verwendung des Sonderzeichens _#_ schnell gefunden und einfach eingefügt werden.
 
 ![Website Link auf Abschnitt einfügen](attachments/Website%20Link%20auf%20Abschnitt%20einfügen.gif)
 
 ### Formular erweitern
 
-Website-Formulare können mit bestehenden Feldern aus dem Datenbankmodell erweitert werden. Im folgenden Beispiel wurd dem Formular für *Bewerbungen* ein neus Feld hinzugefügt. In der Auswahl des Feldtyps können Sie ein bestehendes Feld auswählen:
+Website-Formulare können mit bestehenden Feldern aus dem Datenbankmodell erweitert werden. Im folgenden Beispiel wurd dem Formular für _Bewerbungen_ ein neus Feld hinzugefügt. In der Auswahl des Feldtyps können Sie ein bestehendes Feld auswählen:
 
 ![](attachments/Website%20Form%20Existing%20Fields.png)
 
-Dem Formular wurde das bestehende Feld *Datenschutz* hinzufgefügt:
+Dem Formular wurde das bestehende Feld _Datenschutz_ hinzufgefügt:
 
 ![](attachments/Website%20Form%20Datenschutz.png)
 
@@ -94,16 +96,15 @@ Die Eingabe des neues Feldes ist im Backend ersichtlich:
 
 ![](attachments/Website%20Backend%20Feld.png)
 
-
 ## Technisch
 
 ### Umleitung einrichten
 
-Für bestimmte URL-Pfade, beispielsweise `/promo` können Sie eine Umleitung auf eine andere Seite einrichten. Navigieren Sie nach *Website > Konfiguration > Umleitungen* und erstellen Sie einen neuen Eintrag.
+Für bestimmte URL-Pfade, beispielsweise `/promo` können Sie eine Umleitung auf eine andere Seite einrichten. Navigieren Sie nach _Website > Konfiguration > Umleitungen_ und erstellen Sie einen neuen Eintrag.
 
 ### Seiteninhalt in Backend bearbeiten
 
-Odoo speichert Seiteninhalte in QWeb-Ansichten. Aktivieren Sie den Entwicklermodus und navigieren Sie nach *Website > Site > Seiten*. Klicken Sie auf auf der ausgewählten Seite auf das Entwicklertools-Icon in der letzten Spalte.
+Odoo speichert Seiteninhalte in QWeb-Ansichten. Aktivieren Sie den Entwicklermodus und navigieren Sie nach _Website > Site > Seiten_. Klicken Sie auf auf der ausgewählten Seite auf das Entwicklertools-Icon in der letzten Spalte.
 
 ![](attachments/Website%20Entwicklermodus.png)
 
@@ -122,7 +123,7 @@ In diesem Fall würde man den Link mit diesen Inhalt ersetzen:
 `<a t-if="request.context.get('lang') == 'de_CH'" href="https://clubofrome.de/die-grenzen-des-wachstums/" data-bs-original-title="" title="">Die Grenzen des Wachstums</a><a t-if="request.context.get('lang') == 'fr'" href="https://fr.wikipedia.org/wiki/Les_Limites_%C3%A0_la_croissance" data-bs-original-title="" title="">Les limites à la Croissance</a>`
 
 ::: tip
-Eine weitere Möglichkeit zur Übersetzung von externen Links sind Umleitungen. Sie eine können den Inhalt mit einem internen Link `/example` verlinken und dazu zwei [Umleitungen einrichten](#Umleitung%20einrichten). Für den original Link leiten `/example` um und für den übersetzen Link leiten Sie  `/fr/example` um. 
+Eine weitere Möglichkeit zur Übersetzung von externen Links sind Umleitungen. Sie eine können den Inhalt mit einem internen Link `/example` verlinken und dazu zwei [Umleitungen einrichten](#Umleitung%20einrichten). Für den original Link leiten `/example` um und für den übersetzen Link leiten Sie `/fr/example` um.
 :::
 
 ## Menü-Eintrag ausblenden
@@ -131,9 +132,9 @@ Der Home-Eintrag mit dem Pfad `/` darf man nicht entfernen. Wenn man diesen ausb
 
 ```html
 <style>
-div.dropdown-menu li:first-child,
-li.nav-item:first-child {
-    display: none;
-}
+    div.dropdown-menu li:first-child,
+    li.nav-item:first-child {
+        display: none;
+    }
 </style>
 ```

@@ -4,7 +4,9 @@ description: Helm-Repos und Charts deployen.
 kind: howto
 prev: ./mint-cloud
 ---
+
 # Helm
+
 ![](attachments/odoo_icons_helm.png)
 
 {{ $frontmatter.description }}

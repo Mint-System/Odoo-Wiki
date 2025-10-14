@@ -4,9 +4,11 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Verpackungen
 
 Folgende zwei Bedeutungen sind im Zusammenhang mit dem Verpacken zu beachten:
+
 - **Produktverpackungen**: Produkte nach Einheiten pro Paket verwalten und verpacken)
 - **Versandverpackungen**: Produkte für interne Transfers in Pakete, Kisten usw. verpacken
 
@@ -20,7 +22,7 @@ Folgende Option muss eingeschaltet sein (Verkauf > Produktkatalog):
 
 Damit Produktverpackungen verfügbar sind, müssen diese erfasst werden: [Produktverpackung erfassen](Stock%20Packaging.md#Produktverpackung%20erfassen).
 
-Den Produkten können im Register *Lager* die Produktverpackungen zugeordnet werden.
+Den Produkten können im Register _Lager_ die Produktverpackungen zugeordnet werden.
 
 ![Lager Produktverpackung Zuordnung Produkt](attachments/Lager%20Produktverpackung%20Zuordnung%20Produkt.png)
 

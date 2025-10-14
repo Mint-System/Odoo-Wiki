@@ -5,7 +5,9 @@ kind: howto
 partner: Thirdparty
 prev: ./stock
 ---
+
 # Anb Stock Picking Valued
+
 ![icons_odoo_thirdparty](attachments/icons_odoo_thirdparty.png)
 
 {{ $frontmatter.description }}

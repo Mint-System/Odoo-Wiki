@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./project
 ---
+
 # Project Key Link Type
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/17.0/project_
 
 ### Sequenz auf Projekttyp festlegen
 
-Öffnen Sie einen Projekttyp unter *Projekt > Konfiguration > Project Types* und legen Sie im Feld *Sequenz* den die Sequenz fest.
+Öffnen Sie einen Projekttyp unter _Projekt > Konfiguration > Project Types_ und legen Sie im Feld _Sequenz_ den die Sequenz fest.
 
 ### Projekt mit Projektnummer erstellen
 

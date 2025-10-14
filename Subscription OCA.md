@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./contract
 ---
+
 # Subscription OCA
+
 ![](attachments/oca_icons_subscription_oca.png)
 
 {{ $frontmatter.description }}

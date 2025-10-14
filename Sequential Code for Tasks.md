@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./project
 ---
+
 # Sequential Code for Tasks
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

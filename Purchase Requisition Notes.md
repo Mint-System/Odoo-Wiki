@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./purchase-requisition
 ---
+
 # Purchase Requisition Notes
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/16.
 
 ### Notizen hinzufügen
 
-Mit dieser Erweiterung haben Sie auf Kaufverträgen zwei zusätzliche Notizfelder *Einkauf > Aufträge > Kaufverträge*. Wählen Sie einen Auftrag aus und öffnen Sie den Tab *Notizen*. Hier können Sie die Notizen hinzufügen und ändern.
+Mit dieser Erweiterung haben Sie auf Kaufverträgen zwei zusätzliche Notizfelder _Einkauf > Aufträge > Kaufverträge_. Wählen Sie einen Auftrag aus und öffnen Sie den Tab _Notizen_. Hier können Sie die Notizen hinzufügen und ändern.
 
 ![](attachments/Purchase%20Requistion%20Notes.png)
 

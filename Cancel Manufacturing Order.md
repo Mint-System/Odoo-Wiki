@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./manufacture
 ---
+
 # Cancel Manufacturing Order
+
 ![](attachments/icons_odoo_eq.png)
 
 {{ $frontmatter.description }}
@@ -18,7 +20,7 @@ Odoo App Store: <https://gitlab.com/mint-system/odoo-app-cancel-manufacturing-or
 
 ### Berechtigung festlegen
 
-In den Benutzereinstellungen aktivieren Sie die Option *Cancel Manufacturing Orders*. Benutzer mit dieser Berechtigung können Fertigungsaufträge abbrechen.
+In den Benutzereinstellungen aktivieren Sie die Option _Cancel Manufacturing Orders_. Benutzer mit dieser Berechtigung können Fertigungsaufträge abbrechen.
 
 ![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Berechtigung.png)
 
@@ -28,17 +30,17 @@ Damit ein Fertigungsauftrag zurückgesetzt werden kann muss sichergestellt werde
 
 ![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Menge.png)
 
-Der Fertigungsauftrag muss im Zustand *Erledigt* sein. Dann kann man über den Knopf *Cancel* den Fertigungsauftrag abbrechen.
+Der Fertigungsauftrag muss im Zustand _Erledigt_ sein. Dann kann man über den Knopf _Cancel_ den Fertigungsauftrag abbrechen.
 
 ![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Knopf.png)
 
- Entsprechend werden die konsumierten Materialien angepasst.
+Entsprechend werden die konsumierten Materialien angepasst.
 
 ![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Menge%20aktuaisiert.png)
 
-Beim Klick auf *Cancel* werden die Lagerbewegungen zurückgesetzt und der Fertigungsaufrag wird abgebrochen.
+Beim Klick auf _Cancel_ werden die Lagerbewegungen zurückgesetzt und der Fertigungsaufrag wird abgebrochen.
 
-Im Status *Abgebrochen* kann der Fertigungsauftrag in den Entwurfs-Status gesetzt werden.
+Im Status _Abgebrochen_ kann der Fertigungsauftrag in den Entwurfs-Status gesetzt werden.
 
 ![](attachments/Odoo%20App%20Fertigung%20Fertigungsauftrag%20Abbrechen%20Zurücksetzen.png)
 

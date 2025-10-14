@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./subscription
 ---
+
 # Sale Subscription Period Discount
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,10 +19,10 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sa
 
 ### Zeitbasierter Rabatt für Abonnement erstellen
 
-Zeigen Sie *Abonnements > Konfiguration > Wiederholungszeiträume* an und wählen Sie einen Zeitraum aus. Fügen Sie der Liste *Zeitbasierter Rabatt* einen Eintrag hinzu.
+Zeigen Sie _Abonnements > Konfiguration > Wiederholungszeiträume_ an und wählen Sie einen Zeitraum aus. Fügen Sie der Liste _Zeitbasierter Rabatt_ einen Eintrag hinzu.
 
 ::: tip
-Der Wert im Feld *Jahr* wird dem aktuell Jahr hinzugerechnet.
+Der Wert im Feld _Jahr_ wird dem aktuell Jahr hinzugerechnet.
 :::
 
 ### Zeitbasierter Rabatt anwenden

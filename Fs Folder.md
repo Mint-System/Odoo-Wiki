@@ -3,10 +3,12 @@ title: Fs Folder
 description: Dateien und Ordner mit externem Dateisystem verlinken.
 kind: howto
 tags:
-- OCA
+    - OCA
 prev: ./development
 ---
+
 # Fs Folder
+
 ![icon_oca_app](../attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

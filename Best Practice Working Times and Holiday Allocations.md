@@ -4,6 +4,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Arbeitszeiten und Urlaubsansprüche
 
 Die Berechnung der Arbeitszeiten und Urlaubsansprüche ist eine komplexe Angelegenheit. Um die Systematik von Odoo zu verstehen wurde ein Anwendungsfall definiert.
@@ -14,7 +15,7 @@ Im Unternehmen der Velo Manufaktur AG haben Mitarbeitende 25 Tage Urlaub und arb
 
 **Michel Admin 40% Pensum**
 
-Mitchell Admin arbeitet 40%.  Er hat 10 Tage Urlaub im Jahr. Das sind 80 Stunden.
+Mitchell Admin arbeitet 40%. Er hat 10 Tage Urlaub im Jahr. Das sind 80 Stunden.
 
 ![](attachments/Best%20Practice%20Arbeitszeiten%2040.png)
 

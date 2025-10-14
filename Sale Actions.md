@@ -3,10 +3,12 @@ title: Verkauf Aktionen
 description: Arbeitsflüsse im Verkauf automatisieren.
 kind: howto
 tags:
-- Actions
+    - Actions
 prev: ./sale
 ---
+
 # Verkauf Aktionen
+
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
 {{ $frontmatter.description }}
@@ -17,13 +19,13 @@ prev: ./sale
 
 ### Auf Erledigt setzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Auf Erledigt setzen`\
 Modell: `sale.order`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for record in records:
@@ -32,17 +34,17 @@ for record in records:
 	})
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speichern.
 
 ### Als Anzahlung markieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Als Anzahlung markieren`\
 Modell: `sale.order.line`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for rec in records:
@@ -51,13 +53,13 @@ for rec in records:
 
 ### Auf Angebot setzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Auf Angebot setzen`\
 Modell: `sale.order`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for rec in records:
@@ -65,17 +67,17 @@ for rec in records:
   rec.action_draft()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 ### Angebot bestätigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Angebot bestätigen`\
 Modell: `sale.order`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for rec in records:
@@ -83,17 +85,17 @@ for rec in records:
   rec.action_confirm()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 ### Verkaufsauftrag abbrechen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Verkaufsauftrag abbrechen`\
 Modell: `sale.order`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for rec in records:
@@ -101,39 +103,37 @@ for rec in records:
   rec.action_cancel()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-
-
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 ### Verkaufsauftrag bestätigen und Rechnung erstellen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Verkaufsauftrag bestätigen`\
 Modell: `sale.order`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
-for rec in records:  
+for rec in records:
   rec.action_confirm()
   rec._create_invoices()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Verkaufsaufträge können Sie die Einträge markieren und *Aktionen > Verkaufsauftrag bestätigen* auswählen.
+In der Liste der Verkaufsaufträge können Sie die Einträge markieren und _Aktionen > Verkaufsauftrag bestätigen_ auswählen.
 
 ### Verkaufsauftrag abbrechen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Verkaufsauftrag abbrechen`\
 Modell: `sale.order`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for rec in records:
@@ -141,46 +141,46 @@ for rec in records:
   rec.with_context({'disable_cancel_warning': True}).action_cancel()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Verkaufsaufträge können Sie die Einträge markieren und *Aktionen > Verkaufsauftrag abbrechen* auswählen.
+In der Liste der Verkaufsaufträge können Sie die Einträge markieren und _Aktionen > Verkaufsauftrag abbrechen_ auswählen.
 
 ### Beschaffung starten
 
 Mit dieser Serveraktion können Sie die Beschaffungsregeln auf den Autragszeilen für einen Verkaufsauftrag manuell auslösen.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Beschaffung starten`\
 Modell: `sale.order`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
-for rec in records:  
+for rec in records:
   rec.order_line._action_launch_stock_rule()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 ### Steuersätze aktualisieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Steuersätze aktualisieren`\
 Modell: `sale.order`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 for line in records.order_line:
 	line._compute_tax_id()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
-	
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
+
 ### Markieren der Offerte als gesendet
 
 Das ist eine Standard-Serveraktion von Odoo. Der Status "Angebot gesendet" wird nur gesetzt, wenn Dialog zum Versand aufgerufen werden. Mit dieser Aktion können Sie den Status explizit setzen.
@@ -191,7 +191,7 @@ Das ist eine Standard-Serveraktion von Odoo. Der Status "Angebot gesendet" wird 
 
 Diese geplante Aktion erstellt die Rechnungen der zu abzurechnenden Verkaufsaufträge und berücksichtigt dabei [Sale Invoice Frequency](Sale%20Invoice%20Frequency.md).
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Verkaufsaufträge nach Invervall abrechnen`\
 Modell: `ir.actions.server`\
@@ -200,7 +200,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 02:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Settings
@@ -316,7 +316,7 @@ log(message)
 
 Mit dieser automatischen Aktion wird ein Angebot mit einem bestimmten Attribut (Beispiel: `x_as4import`) automatisch bestätigt. Rechnungen werden erstellt und ebenfalls bestätigt.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Angebot bestätigen und Rechnungen erstellen`\
 Modell: `sale.order`\
@@ -351,7 +351,7 @@ for rec in records:
 
 ### Angebot bestätigen
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Angebot bestätigen`\
 Modell: `sale.order`\
@@ -368,7 +368,7 @@ records._compute_amounts()
 
 ### Rechnung erstellen
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Rechnung erstellen`\
 Modell: `sale.order`\
@@ -388,30 +388,29 @@ records._compute_invoice_status()
 
 ### Standard-Zahlungsbedingungen festlegen
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-* **Name der Aktion**: `Standard-Zahlungsbedingungen festlegen`
-* **Modell**: `sale.order`
-* **Auslöser**: Bei Erstellung
-* **Anzuwenden auf**: `[("payment_term_id", "=", False)]`
-* **Folgeaktion**: Den Datensatz aktualisieren
-* **Zu schreibende Daten**:
+- **Name der Aktion**: `Standard-Zahlungsbedingungen festlegen`
+- **Modell**: `sale.order`
+- **Auslöser**: Bei Erstellung
+- **Anzuwenden auf**: `[("payment_term_id", "=", False)]`
+- **Folgeaktion**: Den Datensatz aktualisieren
+- **Zu schreibende Daten**:
 
 | Feld              | Bewertungstyp | Datensatz |
 | ----------------- | ------------- | --------- |
 | `payment_term_id` | Referenz      | 21 Tage   |
-	
 
 ### Verkäufer entfernen
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-* **Name der Aktion**: `Verkäufer entfernen`
-* **Modell**: `sale.order`
-* **Auslöser**: Bei Erstellung und Aktualisierung
-* **Anzuwenden auf**: `[("user_id", "!=", False)]`
-* **Folgeaktion**: Den Datensatz aktualisieren
-* **Zu schreibende Daten**:
+- **Name der Aktion**: `Verkäufer entfernen`
+- **Modell**: `sale.order`
+- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Anzuwenden auf**: `[("user_id", "!=", False)]`
+- **Folgeaktion**: Den Datensatz aktualisieren
+- **Zu schreibende Daten**:
 
 | Feld      | Bewertungstyp     | Wert    |
 | --------- | ----------------- | ------- |
@@ -419,17 +418,16 @@ Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Akt
 
 ### Standard-Verkaufsteam festlegen
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-* **Name der Aktion**: `Standard-Verkaufsteam festlegen`
-* **Modell**: `sale.order`
-* **Auslöser**: Bei Erstellung und Aktualisierung
-* **Auslöser-Feld**: `recurrence_id`
-* **Anzuwenden auf**: `[("recurrence_id", "!=", False)]`
-* **Folgeaktion**: Den Datensatz aktualisieren
-* **Zu schreibende Daten**:
+- **Name der Aktion**: `Standard-Verkaufsteam festlegen`
+- **Modell**: `sale.order`
+- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Auslöser-Feld**: `recurrence_id`
+- **Anzuwenden auf**: `[("recurrence_id", "!=", False)]`
+- **Folgeaktion**: Den Datensatz aktualisieren
+- **Zu schreibende Daten**:
 
 | Feld      | Bewertungstyp | Datensatz        |
 | --------- | ------------- | ---------------- |
 | `team_id` | Referenz      | Mitgliedschaften |
-	

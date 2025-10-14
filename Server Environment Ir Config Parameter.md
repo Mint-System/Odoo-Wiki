@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./development
 ---
+
 # Server Environment Ir Config Parameter
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -15,4 +17,4 @@ Repository: <https://github.com/OCA/server-env/tree/18.0/server_environment_ir_c
 
 ## Systemparamter aus Umgebung anzeigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Systemparameter*. Parameter, die  *Defined by environment* aktiv haben, wurden aus der Odoo Konfigurations-Datei geladen und können nicht verändert werden.
+Navigieren Sie nach _Einstellungen > Technisch > Systemparameter_. Parameter, die _Defined by environment_ aktiv haben, wurden aus der Odoo Konfigurations-Datei geladen und können nicht verändert werden.

@@ -5,6 +5,7 @@ kind: howto
 partner: Mint-System
 prev: ./invoicing
 ---
+
 # Account Sale Timesheet Report
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
@@ -18,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.
 
 ### Arbeitsrapport für Rechnung erstellen
 
-Mit dieser Erweiterung können Sie einen Arbeitsrapport direkt auf der Rechnung drucken. Navigieren Sie zu einer Rechnung via *Rechnungsstellung > Kunden > Rechnungen* und klicken Sie auf *Drucken > Arbeitsrapport*.
+Mit dieser Erweiterung können Sie einen Arbeitsrapport direkt auf der Rechnung drucken. Navigieren Sie zu einer Rechnung via _Rechnungsstellung > Kunden > Rechnungen_ und klicken Sie auf _Drucken > Arbeitsrapport_.
 
 ![](attachments/Account%20Sale%20Timesheet%20Report%20Example.png)
 
@@ -28,4 +29,4 @@ Derselbe Bericht wird an die Rechnung angehängt, sofern die Rechnung mit Zeiter
 
 ### Arbeitsrapport für Verkaufsauftrag erstellen
 
-Mit dieser Erweiterung können Sie einen Arbeitsrapport direkt auf der Rechnung drucken. Navigieren Sie zu einer Rechnung via *Rechnungsstellung > Kunden > Rechnungen* und klicken Sie auf *Drucken > Arbeitsrapport*.
+Mit dieser Erweiterung können Sie einen Arbeitsrapport direkt auf der Rechnung drucken. Navigieren Sie zu einer Rechnung via _Rechnungsstellung > Kunden > Rechnungen_ und klicken Sie auf _Drucken > Arbeitsrapport_.

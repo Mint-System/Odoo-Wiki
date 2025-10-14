@@ -5,7 +5,9 @@ kind: howto
 partner: Thirdparty
 prev: ./zebroo-sync
 ---
+
 # Sync Transformer Helper
+
 ![icons_odoo_thirdparty](attachments/icons_odoo_thirdparty.png)
 
 {{ $frontmatter.description }}

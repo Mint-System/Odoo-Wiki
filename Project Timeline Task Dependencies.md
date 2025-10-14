@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./project
 ---
+
 # Project Timeline Task Dependencies
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/OCA/project/tree/14.0/project_timeline_task_depe
 
 ### Projektaufgaben Timeline-Ansicht mit Abhängigkeiten anzeigen
 
-Öffnen Sie die *Timeline*-Ansicht via *Projekt > Alle Aufgaben*.
+Öffnen Sie die _Timeline_-Ansicht via _Projekt > Alle Aufgaben_.
 
 ![](attachments/Project%20Timeline%20View%20task%20timeline.png)
 

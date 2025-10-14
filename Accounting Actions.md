@@ -4,7 +4,9 @@ description: Neue Aktionen für Buchungen, Zahlungen und Abstimmungen.
 kind: howto
 prev: ./accounting
 ---
+
 # Buchhaltung Aktionen
+
 ![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}
@@ -15,41 +17,41 @@ prev: ./accounting
 
 ### Bankauszug zurücksetzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Bankauszug zurücksetzen`\
 Modell: `account.bank.statement`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 for record in records:
   record.button_reopen()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Belege erscheint nun in der Auswahl *Aktion* das Menu *Bankauszug zurücksetzen*.
+In der Liste der Belege erscheint nun in der Auswahl _Aktion_ das Menu _Bankauszug zurücksetzen_.
 
 ### Bankauszug bestätigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Bankauszug bestätigen`\
 Modell: `account.bank.statement`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 for record in records:
   record.button_validate_or_action()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Belege erscheint nun in der Auswahl *Aktion* das Menu *Bankauszug bestätigen*.
+In der Liste der Belege erscheint nun in der Auswahl _Aktion_ das Menu _Bankauszug bestätigen_.
 
 ![Buchhaltung Aktionen Bankauszug bestätigen](attachments/Buchhaltung%20Aktionen%20Bankauszug%20bestätigen.gif)
 
@@ -57,7 +59,7 @@ In der Liste der Belege erscheint nun in der Auswahl *Aktion* das Menu *Bankausz
 
 Gilt bis #Odoo15.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Buchungszeilen aktualisieren`\
 Modell: `account.move`\
@@ -68,74 +70,74 @@ for rec in records.filtered(lambda r: r.state == 'draft'):
   rec.with_context(check_move_validity=False)._move_autocomplete_invoice_lines_values()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Buchungssätze erscheint nun in der Auswahl *Aktion* das Menu *Buchungszeilen aktualisieren*.
+In der Liste der Buchungssätze erscheint nun in der Auswahl _Aktion_ das Menu _Buchungszeilen aktualisieren_.
 
 ![Buchhaltung Buchungszeilen aktualisieren](attachments/Buchhaltung%20Buchungszeilen%20aktualisieren.gif)
 
 ### Abstimmung zurücksetzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Abstimmung zurücksetzen`\
 Modell: `account.bank.statement.line`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 records.action_undo_reconciliation()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Vorgänge erscheint nun in der Auswahl *Aktion* das Menu *Abstimmung zurücksetzen*.
+In der Liste der Vorgänge erscheint nun in der Auswahl _Aktion_ das Menu _Abstimmung zurücksetzen_.
 
 ### Zahlung auf nicht gesendet setzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Zahlung auf nicht gesendet setzen`\
 Modell: `account.payment`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 for record in records:
   record.write({'is_move_sent': False})
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Zahlung erscheint nun in der Auswahl *Aktion* das Menu *Zahlung gesendet zurücksetzen*.
+In der Liste der Zahlung erscheint nun in der Auswahl _Aktion_ das Menu _Zahlung gesendet zurücksetzen_.
 
 ### Zahlungen zurücksetzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Zahlungen zurücksetzen`\
 Modell: `account.payment`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 records.action_draft()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 ### Mahnstufe anzeigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Mahnstufe anzeigen`\
 Modell: `res.partner`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 records.ensure_one()
@@ -143,30 +145,30 @@ followup_level = records._query_followup_level()
 raise UserError(followup_level.items())
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 ### Analysekonto entfernen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Analysekonto entfernen`\
 Modell: `account.move`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 for rec in records:
 	rec.line_ids.write({'analytic_account_id': False})
 ```
 
-Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
 ### Zahlung suchen und abgleichen
 
 Diese Aktion sucht anhand der Zahlungsreferenz der Rechnung eine Zahlung und gleich diese ab.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Anhang entfernen`\
 Modell: `account.move`\
@@ -204,11 +206,11 @@ if moves_reconciled:
   }
 ```
 
-Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
 ### Als geprüft markieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Als geprüft markieren`\
 Modell: `account.move`\
@@ -219,11 +221,11 @@ Python-Code:
 records.button_set_checked()
 ```
 
-Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
 ### Als ungeprüft markieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Als geprüft markieren`\
 Modell: `account.move`\
@@ -234,32 +236,31 @@ Python-Code:
 records.write({'to_check': True})
 ```
 
-
-Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
 ### Abstimmung mit Kontoauszug zurücksetzen
 
 Mit dieser Aktion können Sie die Abstimmungen auf der Listenansicht der Buchungszeilen aufheben.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Abstimmung mit Kontoauszug zurücksetzen`\
 Modell: `account.move.line`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 records.statement_line_id.action_undo_reconciliation()
 ```
 
-Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
 ### Konto aktualisieren
 
 Mit dieser Aktion können Sie das Konto für ausgewählte Buchungszeilen aktualisieren.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Konto aktualisieren`\
 Modell: `account.move.line`\
@@ -271,11 +272,11 @@ account_id = env.ref('l10n_ch.1_ch_coa_3400')
 records.write({'account_id': account_id.id})
 ```
 
-Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
 ### Informationen der Zahlungsmethode anzeigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Informationen der Zahlungsmethode anzeigen`\
 Modell: `account.payment.method`\
@@ -287,7 +288,7 @@ _data = records._get_payment_method_information()
 raise UserError(str(data))_
 ```
 
-Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
 ## Geplante Aktionen
 
@@ -295,7 +296,7 @@ Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätig
 
 Das ist eine einfach Lösung um wiederholende Rechnung zu generieren. Mit dem zusätzlichen Feld `x_recurring_inverval` wird geprüft ob die Rechnung wieder fällig ist.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Rechnung mit Abrechnungsintervall generieren`\
 Modell: `ir.actions.server`\
@@ -304,7 +305,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 today = datetime.datetime.today()
@@ -360,7 +361,7 @@ for invoice in invoice_ids:
 
 Diese geplante Aktion versendet alle gebuchten und geprüften Rechnungen mit der Standard-E-Mail-Vorlage.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Geprüfte Kundenrechnungen versenden`\
 Modell: `ir.actions.server`\
@@ -369,7 +370,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Settings
@@ -420,41 +421,41 @@ log(message)
 
 ### Lieferantenrechnung zur Prüfung markieren
 
-Mit dieser automatischen Aktion wird die Option *Zum Überprüfen* bei der Erstellung einer Lieferantenrechnung  aktiviert.
+Mit dieser automatischen Aktion wird die Option _Zum Überprüfen_ bei der Erstellung einer Lieferantenrechnung aktiviert.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-* **Name der Aktion**: `Lieferantenrechnung zur Prüfung markieren`
-* **Modell**: `account.move`
-* **Auslöser**: Bei Erstellung
-* **Anzuwenden auf**:
+- **Name der Aktion**: `Lieferantenrechnung zur Prüfung markieren`
+- **Modell**: `account.move`
+- **Auslöser**: Bei Erstellung
+- **Anzuwenden auf**:
 
 ```python
 [("move_type", "=", "in_invoice")]
 ```
 
-* **Folgeaktion**: Den Datensatz aktualisieren
-* **Zu schreibende Daten**:
-	* Feld: `to_check`
-	* Wert: `True`
+- **Folgeaktion**: Den Datensatz aktualisieren
+- **Zu schreibende Daten**:
+    - Feld: `to_check`
+    - Wert: `True`
 
 ### Notizen und Abschnitte enfernen
 
 Mit dieser automatischen Aktion werden beim Erstellen einer Kundenrechnung alle Notiz- und Abschnittszeilen entfernt.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-* **Name der Aktion**: `Notizen und Abschnitte enfernen`
-* **Modell**: `account.move`
-* **Auslöser**: Bei Erstellung
-* **Anzuwenden auf**:
+- **Name der Aktion**: `Notizen und Abschnitte enfernen`
+- **Modell**: `account.move`
+- **Auslöser**: Bei Erstellung
+- **Anzuwenden auf**:
 
 ```python
 [["move_type","=","out_invoice"]]
 ```
 
-* **Folgeaktion**: Python-Code ausführen
-* **Python-Code**:
+- **Folgeaktion**: Python-Code ausführen
+- **Python-Code**:
 
 ```python
 for rec in records:

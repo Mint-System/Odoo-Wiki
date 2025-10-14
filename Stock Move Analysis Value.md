@@ -3,10 +3,12 @@ title: Stock Move Analysis Value
 description: Fügt des Standardpreis eines Produkts der Buchungsanalyse hinzu.
 kind: howto
 tags:
-  - Mint-System
+    - Mint-System
 prev: ./stock
 ---
+
 # Stock Move Analysis Value
+
 ![icon_oms_box](../attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -18,6 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 Mit dieser Erweiterung wird einer Buchungszeile die Grösse _Planungskosten_ hinzugefügt. Sie ist das Produkt aus Bedarf und Standardpreis des entsprechenden Produkts.
 
-Das Feld ist in der Pivot-Ansicht der Buchungsasnalyse unter der Bezeichung _Kosten_ verfügbar. 
-
-
+Das Feld ist in der Pivot-Ansicht der Buchungsasnalyse unter der Bezeichung _Kosten_ verfügbar.

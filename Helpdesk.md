@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Kundendienst
+
 ![icons_odoo_helpdesk](attachments/icons_odoo_helpdesk.png)
 
 {{ $frontmatter.description }}
@@ -21,7 +23,6 @@ Website: <https://www.odoo.com/de_DE/app/helpdesk>
 
 ## Erweiterungen
 
-
 | Erweiterung                                           | Beschreibung                                    |
 | ----------------------------------------------------- | ----------------------------------------------- |
 | [Helpdesk Management](Helpdesk%20Management.md)       | Helpdesk Community Edition.                     |
@@ -31,15 +32,15 @@ Website: <https://www.odoo.com/de_DE/app/helpdesk>
 
 ### Team anlegen
 
-Zeigen Sie *Kundendienst > Konfiguration > Kundendienst Teams* an. Erstellen Sie einen neuen Eintrag. Geben Sie einen *Namen*, *Beschreibung* und einen gültigen E-Mail-Alias ein.
+Zeigen Sie _Kundendienst > Konfiguration > Kundendienst Teams_ an. Erstellen Sie einen neuen Eintrag. Geben Sie einen _Namen_, _Beschreibung_ und einen gültigen E-Mail-Alias ein.
 
 ![](attachments/Kundendiesnt%20Programmierung.png)
 
-Kehren Sie zur *Übersicht* zurück um das Team-Dashboard zu sehen.
+Kehren Sie zur _Übersicht_ zurück um das Team-Dashboard zu sehen.
 
 ### Ticket-Stufen festlegen
 
-Navigieren Sie nach *Kundendienst > Konfiguration > Stufen* und legen Sie fest welche Stufen für welche Teams zur Verfügung stehen. Ebenfalls können Sie im Feld *E-Mail Vorlage* festlegen, ob ein Mail beim Erreichen der Stufe versendet wird.
+Navigieren Sie nach _Kundendienst > Konfiguration > Stufen_ und legen Sie fest welche Stufen für welche Teams zur Verfügung stehen. Ebenfalls können Sie im Feld _E-Mail Vorlage_ festlegen, ob ein Mail beim Erreichen der Stufe versendet wird.
 
 ## Ticketverwaltung
 
@@ -55,11 +56,11 @@ Und erhalten eine Bestätigung bei der Verarbeitung der E-Mail.
 
 ### Tickets zuweisen
 
-Auf dem Dashboard von *Kundendienst* sehen Sie, die nicht zugewiesenen Tickets.
+Auf dem Dashboard von _Kundendienst_ sehen Sie, die nicht zugewiesenen Tickets.
 
 ![](attachments/Kundendiest%20Tickets%20ohne%20Bearbeiter.png)
 
-Bearbeiten Sie diese Tickets und wählen Sie entweder *Mir Zuweisen* oder geben Sie im Feld *Zugewiesen an* einen Mitarbeitenden an.
+Bearbeiten Sie diese Tickets und wählen Sie entweder _Mir Zuweisen_ oder geben Sie im Feld _Zugewiesen an_ einen Mitarbeitenden an.
 
 ![](attachments/Kundendiesnt%20Zugewiesen.png)
 
@@ -67,7 +68,7 @@ Bearbeiten Sie diese Tickets und wählen Sie entweder *Mir Zuweisen* oder geben 
 
 ### Helpdesk-Tickets zusammenführen
 
-Ist die App [Datenbereinigung](Data%20Cleaning.md) installiert, können Sie Tickets zusammenfünren. Navigieren Sie nach *Kundendienst > Tickets > Alle Tickets* und suchen Sie die Tickets, die Sie zusammenführen möchten. Markieren Sie die Einträge und wählen Sie *Aktionen > Zusammenführen*.  Im neuen Dialog erhaltne Sie eine Übersicht beiden Einträge. Klicken Sie auf *Zusammenführen* und bestätien Sie Warnung mit *Ok*. Im Chatter hält Odoo die ursprünglichen Informationen des Tickets fest.
+Ist die App [Datenbereinigung](Data%20Cleaning.md) installiert, können Sie Tickets zusammenfünren. Navigieren Sie nach _Kundendienst > Tickets > Alle Tickets_ und suchen Sie die Tickets, die Sie zusammenführen möchten. Markieren Sie die Einträge und wählen Sie _Aktionen > Zusammenführen_. Im neuen Dialog erhaltne Sie eine Übersicht beiden Einträge. Klicken Sie auf _Zusammenführen_ und bestätien Sie Warnung mit _Ok_. Im Chatter hält Odoo die ursprünglichen Informationen des Tickets fest.
 
 ![](attachments/Helpdesk%20Merged.png)
 
@@ -75,11 +76,11 @@ Ist die App [Datenbereinigung](Data%20Cleaning.md) installiert, können Sie Tick
 
 ### Support-Formular auf Website erstellen
 
-Führen Sie [App installieren](Apps.md#App%20installieren) für *Online Ticket Submission* `website_helpdesk_form` aus.
+Führen Sie [App installieren](Apps.md#App%20installieren) für _Online Ticket Submission_ `website_helpdesk_form` aus.
 
-Navigieren Sie nach *Kundendienst > Konfiguration > Kundendienstteams* und zeigen Sie ein Team an. Aktivieren Sie die Option *Website-Formular*. Klicken Sie auf den Smart-Button *Gehe zu Website*.
+Navigieren Sie nach _Kundendienst > Konfiguration > Kundendienstteams_ und zeigen Sie ein Team an. Aktivieren Sie die Option _Website-Formular_. Klicken Sie auf den Smart-Button _Gehe zu Website_.
 
-Bearbeiten Sie das Formular und aktivieren Sie die Option *Beschreibung* auf dem gleichnamigen Feld. Fügen Sie diesen Text ein:
+Bearbeiten Sie das Formular und aktivieren Sie die Option _Beschreibung_ auf dem gleichnamigen Feld. Fügen Sie diesen Text ein:
 
 ```
 Please answer these questions in the description:

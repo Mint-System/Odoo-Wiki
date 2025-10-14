@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./hr
 ---
+
 # HR Shortname
+
 ![](attachments/icon_odoo_hr_shortname.png)
 
 {{ $frontmatter.description }}

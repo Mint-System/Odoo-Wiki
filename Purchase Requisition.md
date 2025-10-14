@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: OCA
 ---
+
 # Einkauf Kaufverträge
+
 ![icons_odoo_purchase](attachments/icons_odoo_purchase.png)
 
 {{ $frontmatter.description }}
@@ -31,8 +33,8 @@ partner: OCA
 
 ### Kaufvertrag anlegen
 
-Navigieren Sie nach *Einkauf > Aufträge > Kaufverträge*.
+Navigieren Sie nach _Einkauf > Aufträge > Kaufverträge_.
 
-Legen Sie mit einem Klick auf *Neu* einen neuen Kaufvertrag an.
+Legen Sie mit einem Klick auf _Neu_ einen neuen Kaufvertrag an.
 
 ![Einkauf Kaufverträge Kaufvertrag anlegen](attachments/Einkauf%20Kaufverträge%20Kaufvertrag%20anlegen.png)

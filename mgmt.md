@@ -7,6 +7,7 @@ prev: ./management-system
 ---
 
 # Mgmt
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -30,7 +31,7 @@ Dadurch hat jeder Abschnitt eine eindeutige Identifizierung.
 
 ### Requirements erfassen
 
-Alle Paragraphen werden in Requirements abgebildet. Mit der Funktion *Approve* wird mit einem Statement die Vollständigkeit bestätigt.
+Alle Paragraphen werden in Requirements abgebildet. Mit der Funktion _Approve_ wird mit einem Statement die Vollständigkeit bestätigt.
 
 ![](attachments/management_paragraph_requirement_approve.gif)
 

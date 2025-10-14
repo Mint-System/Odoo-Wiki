@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./dialog
 ---
+
 # Mail Show Follower
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,12 +19,12 @@ Repository: <https://github.com/OCA/social/tree/17.0/mail_show_follower>
 
 ### Format für CC-Hinweis definieren
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion*. Im Bereich *Show Followers on mails* können Sie das Format des CC-Hinweis festlegen. Verwenden Sie die folgenden Angaben:
+Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Diskussion_. Im Bereich _Show Followers on mails_ können Sie das Format des CC-Hinweis festlegen. Verwenden Sie die folgenden Angaben:
 
-* **Text 'Sent to'**: `Diese Nachricht wurde an folgende Empfänger geschickt:`
-* **Partner format**: `%(partner_name)s`
-* **Text 'Replies'**: `Hinweis: Bei einer Antwort erhalten alle Empfänger eine Beanchrichtigung.`
-* **Models to exclude**: `blog.blog,blog.post,slide.slide,slide.channel,forum.forum,forum.post`
+- **Text 'Sent to'**: `Diese Nachricht wurde an folgende Empfänger geschickt:`
+- **Partner format**: `%(partner_name)s`
+- **Text 'Replies'**: `Hinweis: Bei einer Antwort erhalten alle Empfänger eine Beanchrichtigung.`
+- **Models to exclude**: `blog.blog,blog.post,slide.slide,slide.channel,forum.forum,forum.post`
 
 ![](attachments/Mail%20Show%20Follower.png)
 

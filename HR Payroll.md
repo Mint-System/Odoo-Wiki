@@ -5,26 +5,27 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Personalabrechnung
+
 ![icons_odoo_hr_payroll](attachments/icons_odoo_hr_payroll.png)
 
 {{ $frontmatter.description }}
 
-
 ## Bereiche
 
-| Bereich                                                         | Beschreibung                                |
-| --------------------------------------------------------------- | ------------------------------------------- |
-| [Personalabrechnung Aktionen](Personalabrechnung%20Aktionen.md) | Lohnabrechnung automatisieren.              |
-| [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md) | Berichte für Lohnbuchhaltung erstellen.     |
-| [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md) | Lohnabrechnungen mit variablen Eingaben.    |
+| Bereich                                                         | Beschreibung                             |
+| --------------------------------------------------------------- | ---------------------------------------- |
+| [Personalabrechnung Aktionen](Personalabrechnung%20Aktionen.md) | Lohnabrechnung automatisieren.           |
+| [Personalabrechnung Berichte](Personalabrechnung%20Berichte.md) | Berichte für Lohnbuchhaltung erstellen.  |
+| [Personalabrechnung Eingaben](Personalabrechnung%20Eingaben.md) | Lohnabrechnungen mit variablen Eingaben. |
 
 ## Erweiterungen
 
-| Erweiterung                                                     | Beschreibung                                |
-| --------------------------------------------------------------- | ------------------------------------------- |
-| [Lohnmeldung](Lohnmeldung.md)                                   | Lohnmeldungen ganz einfach generieren.      |
-| [Swiss Payroll](Gio%20Payroll%20Custom.md)                      | Lohnarten für die Schweizer Lohnabrechnung. |
+| Erweiterung                                | Beschreibung                                |
+| ------------------------------------------ | ------------------------------------------- |
+| [Lohnmeldung](Lohnmeldung.md)              | Lohnmeldungen ganz einfach generieren.      |
+| [Swiss Payroll](Gio%20Payroll%20Custom.md) | Lohnarten für die Schweizer Lohnabrechnung. |
 
 ## Konfiguration
 
@@ -34,28 +35,28 @@ Damit Sie die Personalabrechnung für ihre Mitarbeiter erstellen können, müsse
 
 Dazu eine Übersicht:
 
-* [Mitarbeiter erfassen](HR.md#Personal#Mitarbeiter%20erfassen)
-* [Arbeitsvertrag hinzufügen](HR.md#Arbeitsvertrag%20hinzufügen)
-* [Private Adresse hinterlegen](HR.md#Private%20Adresse%20hinterlegen)
-* [Bankverbindung hinterlegen](#Bankverbindung%20hinterlegen)
-* [Anteile Arbeitgeber Arbeitnehmer konfigurieren](Gio%20Payroll%20Custom.md#Anteile%20Arbeitgeber%20Arbeitnehmer%20konfigurieren)
-* [Lohnarten definieren](#Lohnarten%20definieren)
-* [Finanzkonten den Lohnarten zuweisen](#Finanzkonten%20den%20Lohnarten%20zuweisen)
-* [Gehaltsinformationen eingeben](#Gehaltsinformationen%20eingeben)
+- [Mitarbeiter erfassen](HR.md#Personal#Mitarbeiter%20erfassen)
+- [Arbeitsvertrag hinzufügen](HR.md#Arbeitsvertrag%20hinzufügen)
+- [Private Adresse hinterlegen](HR.md#Private%20Adresse%20hinterlegen)
+- [Bankverbindung hinterlegen](#Bankverbindung%20hinterlegen)
+- [Anteile Arbeitgeber Arbeitnehmer konfigurieren](Gio%20Payroll%20Custom.md#Anteile%20Arbeitgeber%20Arbeitnehmer%20konfigurieren)
+- [Lohnarten definieren](#Lohnarten%20definieren)
+- [Finanzkonten den Lohnarten zuweisen](#Finanzkonten%20den%20Lohnarten%20zuweisen)
+- [Gehaltsinformationen eingeben](#Gehaltsinformationen%20eingeben)
 
 Konfigurieren Sie diese Punkte, erst dann können Sie die [Lohnabrechnung erstellen](#Lohnabrechnung%20erstellen).
 
 ### Gehaltsinformationen eingeben
 
-Die Gehaltsinformationen der Mitarbeiter legen Sie via *Pesonal > Mitarbeiter auswählen > Link Verträge > Arbeitsvertrag auswählen > Bearbeiten > Tab Gehaltsinformationen* fest.
+Die Gehaltsinformationen der Mitarbeiter legen Sie via _Pesonal > Mitarbeiter auswählen > Link Verträge > Arbeitsvertrag auswählen > Bearbeiten > Tab Gehaltsinformationen_ fest.
 
 ### Bankverbindung hinterlegen
 
-Zur Auszahlung des Lohns über SEPA müssen Sie den Mitarbeiter ein Bankkonto hinterlegen. Navigieren Sie nach *Pesonal > Mitarbeiter auswählen > Bearbeiten > Tab Private Information* und erfassen Sie ein Bankkonto unter *Bankverbindung*.
+Zur Auszahlung des Lohns über SEPA müssen Sie den Mitarbeiter ein Bankkonto hinterlegen. Navigieren Sie nach _Pesonal > Mitarbeiter auswählen > Bearbeiten > Tab Private Information_ und erfassen Sie ein Bankkonto unter _Bankverbindung_.
 
 ### Lohnarten prüfen
 
-Die Lohnregel sind unter *Personalabrechnung > Konfiguration > Regeln* definiert. Überprüfen Sie alle Regeln und legen Sie fest welche auf der Lohnabrechnung erscheinen sollen.
+Die Lohnregel sind unter _Personalabrechnung > Konfiguration > Regeln_ definiert. Überprüfen Sie alle Regeln und legen Sie fest welche auf der Lohnabrechnung erscheinen sollen.
 
 Regeln für die Sie keine Verwendung haben, können Sie archivieren.
 
@@ -65,30 +66,30 @@ Das sind die Regeln, die Informationen über die Gehaltsberechnung liefern. Dies
 
 ### Lohnart erstellen
 
-Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln* und klicken Sie auf *Neu*.
+Navigieren Sie nach _Personalabrechnung > Konfiguration > Regeln_ und klicken Sie auf _Neu_.
 
-* **Regelbezeichnung**: Name der auf der Lohnabrechnung erscheint
-* **Kategorie**: Zur Berechnung des Nettolohns werden die Lohnarten über die Kategorie summiert. Wählen Sie eine passende Kategorie aus.
-* **Code**: Nummer zur Identifizierung der Lohnart
-* **Vergütungsstruktur**: Standardmässig gibt es hier nur eine Auswahl.
-* **Erscheint in der Lohnabrechnung**: Aktivieren oder deaktivieren.
-* **Reihenfolge**: Bestimmte die Abfolge der Berechnung der Lohnzeilen.
+- **Regelbezeichnung**: Name der auf der Lohnabrechnung erscheint
+- **Kategorie**: Zur Berechnung des Nettolohns werden die Lohnarten über die Kategorie summiert. Wählen Sie eine passende Kategorie aus.
+- **Code**: Nummer zur Identifizierung der Lohnart
+- **Vergütungsstruktur**: Standardmässig gibt es hier nur eine Auswahl.
+- **Erscheint in der Lohnabrechnung**: Aktivieren oder deaktivieren.
+- **Reihenfolge**: Bestimmte die Abfolge der Berechnung der Lohnzeilen.
 
-Im Tab *Allgemein* machen Sie diese Angaben:
+Im Tab _Allgemein_ machen Sie diese Angaben:
 
-* **Bedingung basiert auf**: Immer Wahr
-* **Berechnungsart**: Python Code
-* **Python Code**: Geben Sie hier die Formel zur Berechnung der Lohnart ein.
+- **Bedingung basiert auf**: Immer Wahr
+- **Berechnungsart**: Python Code
+- **Python Code**: Geben Sie hier die Formel zur Berechnung der Lohnart ein.
 
 ### Lohnart bearbeiten
 
-Sie Lohnarten müssen unter bestimmten Bedingungen angepasst werden. Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln* und öffnen Sie die Lohnart, welche Sie ändern möchten. 
+Sie Lohnarten müssen unter bestimmten Bedingungen angepasst werden. Navigieren Sie nach _Personalabrechnung > Konfiguration > Regeln_ und öffnen Sie die Lohnart, welche Sie ändern möchten.
 
 ### Finanzkonten den Lohnarten zuweisen
 
-Damit  die Lohnabrechnung auch in der Finanzbuchhaltung ersichtlich ist, müssen Sie für alle Lohnregeln die entsprechenden Soll- und Habenkonten hinterlegen.
+Damit die Lohnabrechnung auch in der Finanzbuchhaltung ersichtlich ist, müssen Sie für alle Lohnregeln die entsprechenden Soll- und Habenkonten hinterlegen.
 
-Navigieren Sie nach *Personalabrechnung > Konfiguration > Regeln > Regel auswählen > Beareiten > Tab Buchhaltung* und weisen Sie dort die Konten zu.
+Navigieren Sie nach _Personalabrechnung > Konfiguration > Regeln > Regel auswählen > Beareiten > Tab Buchhaltung_ und weisen Sie dort die Konten zu.
 
 ![](attachments/Personalbrechnung%20Finanzkonten.png)
 
@@ -102,11 +103,11 @@ Wenn die Berechnung der Lohnart einen Minusbetrag ergibt, werden die Soll- und H
 
 Anhand der Anwesenheit und Abwesenheit erstellt Odoo für jeden Mitarbeitenden entsprechende Arbeitseinträge. Diese sind relevant für die Stundenbasierten Lohnabrechnungen.
 
-Die Arbeitseinträge zeigen Sie via *Personalabrechnung > Arbeitseinträge >Arbeitseinträge* an. Hier sehen Sie, ob Mitarbeitende ungeklärte Lücken haben.
+Die Arbeitseinträge zeigen Sie via _Personalabrechnung > Arbeitseinträge >Arbeitseinträge_ an. Hier sehen Sie, ob Mitarbeitende ungeklärte Lücken haben.
 
 ### Arbeitseinträge neu generieren
 
-Navigieren Sie nach *Personalabrechnung > Arbeitseinträge >Arbeitseinträge* und wählen Sie Aktion *Arbeitseinträge Neu Generieren*. Im Dialog wählen Sie den Mitarbeitenden und definieren den Zeitraum zur Berechnung. Führen Sie die Erstellung der Arbeitseinträge mit *Arbeitseinträge Neu Generieren* aus.
+Navigieren Sie nach _Personalabrechnung > Arbeitseinträge >Arbeitseinträge_ und wählen Sie Aktion _Arbeitseinträge Neu Generieren_. Im Dialog wählen Sie den Mitarbeitenden und definieren den Zeitraum zur Berechnung. Führen Sie die Erstellung der Arbeitseinträge mit _Arbeitseinträge Neu Generieren_ aus.
 
 ## Lohnabrechnung
 
@@ -114,39 +115,39 @@ Navigieren Sie nach *Personalabrechnung > Arbeitseinträge >Arbeitseinträge* un
 
 Lohnabrechnung können für mehre oder einzelne Mitarbeiter ausgeführt werden.
 
-Um eine einzelne Lohnabrechnung zu erzeugen wählen Sie den Mitarbeiter aus *Personal > Mitarbeiter auswählen* und klicken auf den Link *Abrechnungen Mitarbeiterverfügung* und wählen *Neu*.
+Um eine einzelne Lohnabrechnung zu erzeugen wählen Sie den Mitarbeiter aus _Personal > Mitarbeiter auswählen_ und klicken auf den Link _Abrechnungen Mitarbeiterverfügung_ und wählen _Neu_.
 
 ![Personalabrechnung Einzeln anlegen](attachments/Personalabrechnung%20Einzeln%20anlegen.gif)
 
-Legen Sie die Zeitperiode fest, speichern Sie den Eintrag und drücken *Berechnen*. Nun wird die Lohnabrechnung erstellt und ist bereit zur Verbuchung.
+Legen Sie die Zeitperiode fest, speichern Sie den Eintrag und drücken _Berechnen_. Nun wird die Lohnabrechnung erstellt und ist bereit zur Verbuchung.
 
 ### Lohnabrechnungen mit Batch erstellen
 
 Um mehrere Lohnabrechnungen zu erstellen, müssen Sie einen Lohhnabrechnungslauf starten.
 
-Navigieren Sie nach *Personalabrechnung > Arbeitseinträge > Arbeitseinträge* und wählen den aktuellen Monat. Starten Sie den Batch-Vorgang mit *Lohnabrechnung Generieren*. Für jeden angezeigten Mitarbeiter wird nun eine Lohnabrechnung erzeugt und steht zur Prüfung bereit.
+Navigieren Sie nach _Personalabrechnung > Arbeitseinträge > Arbeitseinträge_ und wählen den aktuellen Monat. Starten Sie den Batch-Vorgang mit _Lohnabrechnung Generieren_. Für jeden angezeigten Mitarbeiter wird nun eine Lohnabrechnung erzeugt und steht zur Prüfung bereit.
 
 ![](attachments/Personalbrechung%20Lohnabrechnung%20überprüfen.png)
 
 Öffnen Sie die einzelnen Lohnabrechnung um Sie zu validieren.
 
-Mit *Bestätigen* werden alle Lohnabrechungen des Batchs bestätigt.
+Mit _Bestätigen_ werden alle Lohnabrechungen des Batchs bestätigt.
 
 ### Zahlungsdatei für Batch generieren
 
-Für erledigte oder bezahlte Lohhnabrechnungsläufe können Sie eine Zahlungsdatei erstellen oder neu generieren. Öffnen Sie einen Lohnabrechnungslauf unter *Personalabrechnung > Abrechnung Mitarbeitervergütung > Batches* und klicken Sie auf *Erfasse Zahlung*. Wählen Sie ein Bankkonto aus bestätigen Sie den Dialog mit *Bestätigen*. Es wird nun ein Feld *SEPA File* ersichtlich, klicken Sie darauf um die Zahlungsdatei herunterzuladen.
+Für erledigte oder bezahlte Lohhnabrechnungsläufe können Sie eine Zahlungsdatei erstellen oder neu generieren. Öffnen Sie einen Lohnabrechnungslauf unter _Personalabrechnung > Abrechnung Mitarbeitervergütung > Batches_ und klicken Sie auf _Erfasse Zahlung_. Wählen Sie ein Bankkonto aus bestätigen Sie den Dialog mit _Bestätigen_. Es wird nun ein Feld _SEPA File_ ersichtlich, klicken Sie darauf um die Zahlungsdatei herunterzuladen.
 
 ### Zu bezahlende Lohnabrechnungen anzeigen
 
-Navigieren Sie nach *Personalabrechnung > Abrechnung Mitarbeitervergütung > Zu Bezahlen*.
+Navigieren Sie nach _Personalabrechnung > Abrechnung Mitarbeitervergütung > Zu Bezahlen_.
 
 ### Batches anzeigen
 
-Navigieren Sie nach *Personalabrechnung > Abrechnung Mitarbeitervergütung > Batches*.
+Navigieren Sie nach _Personalabrechnung > Abrechnung Mitarbeitervergütung > Batches_.
 
 ### Lohnabrechnung buchen
 
-Wählen Sie eine aktuelle Lohnabrechnung, die im Status *Erledigt* ist: *Personalabrechnung > Abrechnung Mitarbeitervergütung > All Payslips > Payslip auswählen*. Öffnen Sie den Tab *Buchhaltung*  und klicken auf den Link unter *Buchung*.
+Wählen Sie eine aktuelle Lohnabrechnung, die im Status _Erledigt_ ist: _Personalabrechnung > Abrechnung Mitarbeitervergütung > All Payslips > Payslip auswählen_. Öffnen Sie den Tab _Buchhaltung_ und klicken auf den Link unter _Buchung_.
 
 ![](attachments/Personalbrechnung%20Buchung.png)
 
@@ -158,9 +159,9 @@ Werden die Lohnzahlung als Batch verarbeitet, müssen alle Lohnabrechnungen best
 
 ### Lohnabrechnung entfernen
 
-Eine verbuche Lohnabrechnung lässt sich nicht mehr löschen oder abbrechen. Zumindest ist das im Status *Erledigt* nicht möglich. Wurde eine Lohnzahlung als bezahlt markiert, kann Sie jedoch wieder entfernt werden.
+Eine verbuche Lohnabrechnung lässt sich nicht mehr löschen oder abbrechen. Zumindest ist das im Status _Erledigt_ nicht möglich. Wurde eine Lohnzahlung als bezahlt markiert, kann Sie jedoch wieder entfernt werden.
 
-Öffnen Sie die zu löschende Lohnabrechung *Personalabrechung > Abrechnungen Mitarbeitervergütung > All Paylips*. Ist die Abrechnung im Status *Erledigt*, wählen Sie *Erfasse Zahlung*. Odoo erstellt eine Zahlungsdatei, die Sie ignorieren können. Wählen Sie *Aktionen > Abbrechen*. Nun ist ist die Abrechnung im Status *Abgelehnt*. Nun können Sie den Eintrag mit *Aktionen > Löschen* entfernen.
+Öffnen Sie die zu löschende Lohnabrechung _Personalabrechung > Abrechnungen Mitarbeitervergütung > All Paylips_. Ist die Abrechnung im Status _Erledigt_, wählen Sie _Erfasse Zahlung_. Odoo erstellt eine Zahlungsdatei, die Sie ignorieren können. Wählen Sie _Aktionen > Abbrechen_. Nun ist ist die Abrechnung im Status _Abgelehnt_. Nun können Sie den Eintrag mit _Aktionen > Löschen_ entfernen.
 
 ::: warning
 Falls es auf dem Eintrag eine verknüpfte Buchung gibt, wird diese ebenfalls gelöscht.
@@ -168,11 +169,11 @@ Falls es auf dem Eintrag eine verknüpfte Buchung gibt, wird diese ebenfalls gel
 
 ### Lohnabrechnung neu berechnen
 
-Haben Sie einen Fehler in einer erledigten Lohanbrechnung können Sie diese wie folgt neu berechnen. Erfassen Sie eine Zahlung, wenn dies nicht bereit getan ist. Wählen Sie *Aktionen > Abbrechen*. Nun ist die Lohnabrechnung im Status Abgelehnt. Wählen Sie nun *Auf Entwurf Setzen* und nehmen Sie die Anpassungen vor. Ist alles erledigt, können Sie wie gewohnt die Lohnabrechnung berechnen lassen und bestätigen.
+Haben Sie einen Fehler in einer erledigten Lohanbrechnung können Sie diese wie folgt neu berechnen. Erfassen Sie eine Zahlung, wenn dies nicht bereit getan ist. Wählen Sie _Aktionen > Abbrechen_. Nun ist die Lohnabrechnung im Status Abgelehnt. Wählen Sie nun _Auf Entwurf Setzen_ und nehmen Sie die Anpassungen vor. Ist alles erledigt, können Sie wie gewohnt die Lohnabrechnung berechnen lassen und bestätigen.
 
 ### PDF Lohnabrechnung versenden
 
-Beim Bestätigen der Lohnabrechnung wird das Feld *In Warteschlange für PDF* aktiviert. Die geplante Aktion *Lohnbuchhaltung: PDFs generieren* erstellt und versendet die markierten Lohnabrechnung an den Mitarbeitenden. Dazu wird die E-Mail-Vorlage *Payroll: Neue Gehaltsabrechnung* verwendet.
+Beim Bestätigen der Lohnabrechnung wird das Feld _In Warteschlange für PDF_ aktiviert. Die geplante Aktion _Lohnbuchhaltung: PDFs generieren_ erstellt und versendet die markierten Lohnabrechnung an den Mitarbeitenden. Dazu wird die E-Mail-Vorlage _Payroll: Neue Gehaltsabrechnung_ verwendet.
 
 Um die Lohnabrechnungen in der Warteschleife direkt zu versenden, können Sie die geplante Aktion manuell ausführen.
 
@@ -184,7 +185,7 @@ Wenn Sie die Lohnabrechnung manuell versenden möchten, deaktivieren Sie die gep
 
 ### Lohnbuchungen abstimmen
 
-Standardmässig werden die auszuzahlenden Löhne auf dem *Lohndurchlaufkonto* und dem Konto *Ausstehende Zahlungen* verbucht. Haben Sie für einen Lohnlauf eine Zahlung erfasst, diese ins eBanking importiert und als Beleg zur Abstimmung in Odoo importiert, müssen Sie den Beleg mit dem Konto *Ausstehende Zahlungen* abgleichen.
+Standardmässig werden die auszuzahlenden Löhne auf dem _Lohndurchlaufkonto_ und dem Konto _Ausstehende Zahlungen_ verbucht. Haben Sie für einen Lohnlauf eine Zahlung erfasst, diese ins eBanking importiert und als Beleg zur Abstimmung in Odoo importiert, müssen Sie den Beleg mit dem Konto _Ausstehende Zahlungen_ abgleichen.
 
 ## Auswertung
 
@@ -204,5 +205,5 @@ Das Ergebnis sollte so aussehen:
 ![](attachments/Personalabrechnung%20Lohnabrechnungszeilen.png)
 
 ::: tip
-Auf der Aktion *Lohnabrechnungszeilen* als *Ansichtsmodus* den Wert `pivot` anfügen.
+Auf der Aktion _Lohnabrechnungszeilen_ als _Ansichtsmodus_ den Wert `pivot` anfügen.
 :::

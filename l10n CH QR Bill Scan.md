@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./l10n-ch
 ---
+
 # Switzerland QR-Bill Scan
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -22,32 +24,31 @@ Diese App ist veraltet. Wir empfehlen die App [l10n CH QR ISR Invoice Import](l1
 
 ### Rechnungsimport konfigurieren
 
-Rufen Sie *Einstellungen > Abrechnung* auf legen Sie die gemäss Kontenplan die folgenden Einstellungen fest:
+Rufen Sie _Einstellungen > Abrechnung_ auf legen Sie die gemäss Kontenplan die folgenden Einstellungen fest:
 
 ![](attachments/Switzerland%20QR-bill%20scan%20Einstellungen.png)
 
-Mit der Option *Auto-create Bank Account of Supplier* können Sie festlegen, ob beim Importvorgang die Bankdaten des Lieferanten ausgelesen und ein entsprechendes Bankkonto angelegt werden soll.
+Mit der Option _Auto-create Bank Account of Supplier_ können Sie festlegen, ob beim Importvorgang die Bankdaten des Lieferanten ausgelesen und ein entsprechendes Bankkonto angelegt werden soll.
 
 ### QR-Rechnung importieren
 
-Mit dieser Erweiterung können Sie PDF-Rechnungen mit einem QR-Code importieren und die enthaltenen Daten auslesen lassen. Rufen Sie dazu *Rechnungsstellung > Lieferanten > Rechnung importieren* auf und laden Sie das PDF-Dokument hoch.
+Mit dieser Erweiterung können Sie PDF-Rechnungen mit einem QR-Code importieren und die enthaltenen Daten auslesen lassen. Rufen Sie dazu _Rechnungsstellung > Lieferanten > Rechnung importieren_ auf und laden Sie das PDF-Dokument hoch.
 
 ![](attachments/Switzerland%20QR-bill%20scan%20Import.png)
 
-
-Mit *Import* bestätigen Sie den Importvorgang.
+Mit _Import_ bestätigen Sie den Importvorgang.
 
 Ist der Kontakt des Lieferanten nicht vorhanden, erscheint diese Fehlermeldung:
 
 ![](attachments/Switzerland%20QR-bill%20scan%20Fehler%20Vendor.png)
 
-Klicken Sie auf *Create* um den Lieferanten-Kontakt zu erfassen. Starten Sie anschliessend den Importvorgang erneut.
+Klicken Sie auf _Create_ um den Lieferanten-Kontakt zu erfassen. Starten Sie anschliessend den Importvorgang erneut.
 
 Für jeden Lieferant muss eine Definition für den Rechnungsimport vorhanden sein. Ist dies nicht der Fall, erscheint diese Fehlermelung:
 
 ![](attachments/Switzerland%20QR-bill%20scan%20Fehler%20Rechnungsimport.png)
 
-Legen Sie für den Lieferant einen Eintrag unter *Rechnungsstellung > Konfiguration > Rechnungen importieren* an.
+Legen Sie für den Lieferant einen Eintrag unter _Rechnungsstellung > Konfiguration > Rechnungen importieren_ an.
 
 ![](attachments/Switzerland%20QR-bill%20scan%20Konfiguration%20Rechnungsimport.png)
 

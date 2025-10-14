@@ -13,34 +13,34 @@ In diesem Best Practice wird der Umgang mit Kreditkartenabrechnungen erläutert.
 
 Die Kreditkartenzahlungen sollen auf ein bestimmtes Konto verbucht werden. Dazu können Sie ein neues [Konto erfassen](Accounting%20Finance.md#Konto%20erfassen):
 
-* **Code**: 1023k
-* **Name**: Kreditkarte Zahlungen
-* **Typ**: Umlaufvermögen
-* **Erlaube Abstimmung**: Aktivieren
+- **Code**: 1023k
+- **Name**: Kreditkarte Zahlungen
+- **Typ**: Umlaufvermögen
+- **Erlaube Abstimmung**: Aktivieren
 
 ## Journal Kreditkarte erstellen
 
 Zur Erfassung der Keditkartenzahlungen können Sie optional ein Bank-Journal erstellen. Erstellen Sie ein [Bank-Journal](Accounting.md#Bank-Journal%20erfassen) mit diesen Angaben:
 
-* **Journalbezeichnung**: Kreditkarte
-* **Typ**: Bank
-* **Kurzzeichen**: KRED
+- **Journalbezeichnung**: Kreditkarte
+- **Typ**: Bank
+- **Kurzzeichen**: KRED
 
-Im Tab *Zahlungsausgänge* wählen Sie bei *Konto für ausstehende Zahlungen* das Konto *Kreditkarte Zahlungen* aus.
+Im Tab _Zahlungsausgänge_ wählen Sie bei _Konto für ausstehende Zahlungen_ das Konto _Kreditkarte Zahlungen_ aus.
 
 ## Zahlungsmethode Kreditkarte erstellen
 
-Damit Sie Kreditkarten-Zahlungen erfassen können, braucht es eine neue [Zahlungsmethode](Accounting%20Payments.md#Zahlungsmethode%20für%20Lieferantenrechnungen%20hinzufügen) *Kreditkarte* auf dem ausgewählten Bank-Journal. Wählen Sie bei *Konto für ausstehende Zahlungen* das Kreditkarten-Konto aus. Bei *Konto für ausstehende Zahlungen* wählen Sie das Konto *Kreditkarte Zahlungen* aus.
+Damit Sie Kreditkarten-Zahlungen erfassen können, braucht es eine neue [Zahlungsmethode](Accounting%20Payments.md#Zahlungsmethode%20für%20Lieferantenrechnungen%20hinzufügen) _Kreditkarte_ auf dem ausgewählten Bank-Journal. Wählen Sie bei _Konto für ausstehende Zahlungen_ das Kreditkarten-Konto aus. Bei _Konto für ausstehende Zahlungen_ wählen Sie das Konto _Kreditkarte Zahlungen_ aus.
 
 ## Kreditkartenzahlung erfassen
 
-Wenn Sie eine Rechnung mit der Kreditkarte bezahlt haben, rufen Sie die entsprechende Rechnung auf und [erfassen Sie eine Zahlung](Invoicing.md#Zahlung%20erfassen). Wählen Sie *Kreditkarte* als *Zahlungsmethode*.
+Wenn Sie eine Rechnung mit der Kreditkarte bezahlt haben, rufen Sie die entsprechende Rechnung auf und [erfassen Sie eine Zahlung](Invoicing.md#Zahlung%20erfassen). Wählen Sie _Kreditkarte_ als _Zahlungsmethode_.
 
-Die Rechnung wird als *In Zahlung* markiert und erwartet die Abstimmung der Zahlung.
+Die Rechnung wird als _In Zahlung_ markiert und erwartet die Abstimmung der Zahlung.
 
 ## Kreditkartenzahlung ohne Rechnung erfassen
 
-Wenn Sie keine Rechnung zur Kreditkartenzahlung haben, können Sie direkt eine [ausgehende Zahlung erfassen](Accounting%20Payments.md#Ausgehende%20Zahlung%20erfassen). Wählen Sie *Kreditkarte* als *Zahlungsmethode*.
+Wenn Sie keine Rechnung zur Kreditkartenzahlung haben, können Sie direkt eine [ausgehende Zahlung erfassen](Accounting%20Payments.md#Ausgehende%20Zahlung%20erfassen). Wählen Sie _Kreditkarte_ als _Zahlungsmethode_.
 
 ## Kreditkartenzahlungen direkt abgleichen
 
@@ -51,4 +51,4 @@ Die Position der Abrechnung und Positionen der Kreditkartenzahlungen müssen sic
 
 ## Kreditkartenzahlungen indirekt abgleichen
 
-Sie können die Position der Kreditkartenabrechnung auf das Konto *Kreditkarte Zahlungen* buchen. Dann haben Sie auf diesem Konto die Zahlungen und die Abrechnung und können diese [Buchungszeilen abstimmen](Accounting%20Reconcile.md#Buchungszeilen%20abstimmen).
+Sie können die Position der Kreditkartenabrechnung auf das Konto _Kreditkarte Zahlungen_ buchen. Dann haben Sie auf diesem Konto die Zahlungen und die Abrechnung und können diese [Buchungszeilen abstimmen](Accounting%20Reconcile.md#Buchungszeilen%20abstimmen).

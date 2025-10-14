@@ -5,6 +5,7 @@ kind: howto
 partner: Mint-System
 prev: ./accounting
 ---
+
 # Account Move Line Accounting Description Stock
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
@@ -18,6 +19,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.
 
 ### Beschreibung Lagerbuchung auf Rechnung übertragen
 
-Diese Erweiterung kopiert die Beschreibung der Lagerbuchung auf das Feld *External Name* auf der Rechnungszeile, wenn aus einem Verkausauftrag eine Rechnung generiert wird.
+Diese Erweiterung kopiert die Beschreibung der Lagerbuchung auf das Feld _External Name_ auf der Rechnungszeile, wenn aus einem Verkausauftrag eine Rechnung generiert wird.
 
 ![Account Move Line Accounting Description Stock](attachments/Account%20Move%20Line%20Accounting%20Description%20Stock.gif)

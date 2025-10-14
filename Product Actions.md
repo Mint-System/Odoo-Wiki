@@ -3,10 +3,12 @@ title: Lager Aktionen
 description: Arbeitsflüsse in der Produkteverwaltung automatisieren.
 kind: howto
 tags:
-- Actions
+    - Actions
 prev: ./product
 ---
+
 # Produkt Aktionen
+
 ![](attachments/icons_odoo_product.png)
 
 {{ $frontmatter.description }}
@@ -15,13 +17,13 @@ prev: ./product
 
 ### Übersetzung von Name anpassen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Übersetzung von Name anpassen`\
 Modell: `product.template`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 src_lang = 'de_CH'
@@ -45,4 +47,4 @@ action = {
 }
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speichern.

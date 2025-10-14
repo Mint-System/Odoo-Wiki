@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./accounting
 ---
+
 # Account Statement Import Camt
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/OCA/bank-statement-import/tree/18.0/account_stat
 
 ### Bankauszug importieren
 
-Klicken Sie auf *Rechnungsstellung > Buchhaltung > Bankauszug importieren*.
+Klicken Sie auf _Rechnungsstellung > Buchhaltung > Bankauszug importieren_.

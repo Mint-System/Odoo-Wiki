@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./hr-timesheet
 ---
+
 # HR Timesheet From Until
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/17.0/hr_timesheet_
 
 ### Start- und Endzeit eingeben
 
-Mit dieser Erweiterung wir die Dauer auf einem Stundenzettel anhand der End- und Startzeit berechnet. Navigieren Sie nach *Zeiterfassung* und wählen Sie die Listenansicht aus. Erstellen Sie einen neuen Eintrag und geben Sie Start- und Endzeit in den entsprechenden Felder ein.
+Mit dieser Erweiterung wir die Dauer auf einem Stundenzettel anhand der End- und Startzeit berechnet. Navigieren Sie nach _Zeiterfassung_ und wählen Sie die Listenansicht aus. Erstellen Sie einen neuen Eintrag und geben Sie Start- und Endzeit in den entsprechenden Felder ein.
 
 ::: tip
 Für eine schnelle Eingabe der Uhrzeit, können Sie eine Ganzzahl oder Kommazahl in eine Uhrzeit umwandeln lassen:

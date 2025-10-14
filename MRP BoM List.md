@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./manufacture
 ---
+
 # MRP BoM List
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,9 +19,9 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_
 
 ### Stücklisten-Struktur als Liste anzeigen
 
-Mit dieser Erweiterung können Sie gesamte Stückliste eines Produkts als Liste anzeigen. Navigieren Sie nach *Fertigung > Produkte > Stückliste* und wählen Sie eine Stückliste aus. Klicken Sie auf den Smart-Link *Komponenten-Liste* und Sie erhalten eine Listenansicht aller Komponenten.
+Mit dieser Erweiterung können Sie gesamte Stückliste eines Produkts als Liste anzeigen. Navigieren Sie nach _Fertigung > Produkte > Stückliste_ und wählen Sie eine Stückliste aus. Klicken Sie auf den Smart-Link _Komponenten-Liste_ und Sie erhalten eine Listenansicht aller Komponenten.
 
-Mit der Aktion *Komponenten-Liste zu Zeitpunk* können Sie den Bestand der Komponenenten-Liste zu einem bestimmten Zeitpunkt anzeigen.
+Mit der Aktion _Komponenten-Liste zu Zeitpunk_ können Sie den Bestand der Komponenenten-Liste zu einem bestimmten Zeitpunkt anzeigen.
 
 ![MRP BoM List](attachments/MRP%20BoM%20List.gif)
 

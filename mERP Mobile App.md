@@ -4,7 +4,9 @@ description: Alternative zur Odoo Mobile App.
 kind: howto
 prev: ./odoo-mobile-app
 ---
+
 # mERP Mobile App
+
 ![](attachments/odoo_icon_merp.png)
 
 {{ $frontmatter.description }}

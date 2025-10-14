@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Mint-System
 ---
+
 # Positionsnummern
+
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
 {{ $frontmatter.description }}
@@ -25,4 +27,4 @@ partner: Mint-System
 
 ### Positionen auf Berichten anzeigen
 
-Haben Sie die benötigten Erweiterungen installiert können Sie mit den Snippets von <https://odoo.build/snippets.html> mit Bezeichnung *Get Position* die Positionsnummer einblenden.
+Haben Sie die benötigten Erweiterungen installiert können Sie mit den Snippets von <https://odoo.build/snippets.html> mit Bezeichnung _Get Position_ die Positionsnummer einblenden.

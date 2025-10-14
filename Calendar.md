@@ -5,15 +5,17 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Kalender
+
 ![icons_odoo_calendar](attachments/icons_odoo_calendar.png)
 
 {{ $frontmatter.description }}
 
 ## Bereiche
 
-| Bereich                                     | Beschreibung                      |
-| ------------------------------------------- | --------------------------------- |
+| Bereich                                    | Beschreibung                      |
+| ------------------------------------------ | --------------------------------- |
 | [Kalender Aktionen](Calendar%20Actions.md) | Kalender-Prozesse automatisieren. |
 
 ## Erweiterungen
@@ -32,15 +34,15 @@ Wir empfehlen [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hos
 
 Damit die Kalender-Synchronisation möglich ist, müssen Sie [Odoo als OAuth-App auf Azure registrieren](Settings%20OAuth.md#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren). Verwenden Sie diese Angaben:
 
-* **Name**: Odoo Kalender
-* **Unterstützte Kontentypen**: Konten in einem beliebigen Organisationsverziechnis (mehrinstanzenfähig)
-* **Redirect URI**: `https://$HOSTNAME/microsoft_account/authentication`
+- **Name**: Odoo Kalender
+- **Unterstützte Kontentypen**: Konten in einem beliebigen Organisationsverziechnis (mehrinstanzenfähig)
+- **Redirect URI**: `https://$HOSTNAME/microsoft_account/authentication`
 
 ::: warning
 Bitten ersetzen Sie `$HOSTNAME` mit dem Hostnamen ihrer Odoo-Installation.
 :::
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Integration*. Aktivieren Sie die Option *Outlook-Kalender*. Füllen Sie die Felder *Client ID* und *Client Secret* mit den Werten aus der Registration der OAuth-app aus.
+Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Integration_. Aktivieren Sie die Option _Outlook-Kalender_. Füllen Sie die Felder _Client ID_ und _Client Secret_ mit den Werten aus der Registration der OAuth-app aus.
 
 ## Verwendung
 
@@ -56,7 +58,7 @@ Auf jedem Odoo-Eintrag können Sie als Aktivität einen Termin erstellen. Dieser
 
 Standardmässig versendet Odoo beim Hinzufügen von Teilnehmer an einen Termin an jeden Teilnehmer eine Einladung. Dieses Verhalten kann mit einer Einstellung in den Systemparameter verhindert werden.
 
-Öffnen Sie *Einstellungen > Technisch > Parameter > Systemparameter* und erstellen Sie einen Eintrag mit Schlüssel `calendar.block_mail` und Wert `True` an.
+Öffnen Sie _Einstellungen > Technisch > Parameter > Systemparameter_ und erstellen Sie einen Eintrag mit Schlüssel `calendar.block_mail` und Wert `True` an.
 
 ::: warning
 Werden Termine beispielsweise mit dem Google-Kalender synchronisiert, ist mit dieser Einstellung nicht ausgeschlossen, dass Google eine Einladungsmail verschickt.
@@ -66,11 +68,11 @@ Werden Termine beispielsweise mit dem Google-Kalender synchronisiert, ist mit di
 
 ### Google-Kalender-Synchronisation einrichten
 
-Wurde die Google-Kalender-Synchronisation in den Einstellungen aktiviert, können Sie ihren *Kalender* aufrufen und auf *Synchronsieren mit Google* klicken. Bestätigen Sie den Dialog mit *Ok*.
+Wurde die Google-Kalender-Synchronisation in den Einstellungen aktiviert, können Sie ihren _Kalender_ aufrufen und auf _Synchronsieren mit Google_ klicken. Bestätigen Sie den Dialog mit _Ok_.
 
 ![](attachments/Calendar%20Redirect.png)
 
-Loggen Sie sich mit ihrem Google-Konto ein. Falls nun eine Warnung *Google hasn't verified this app* erscheint klicken Sie auf *Advanced* und anschliessend auf *Go to example.com (unsafe)*.
+Loggen Sie sich mit ihrem Google-Konto ein. Falls nun eine Warnung _Google hasn't verified this app_ erscheint klicken Sie auf _Advanced_ und anschliessend auf _Go to example.com (unsafe)_.
 
 ![](attachments/Calendar%20Unverified.png)
 
@@ -89,10 +91,10 @@ Wir empfehlen [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hos
 Wenn Sie die [Outlook-Kalender-Synchronisation aktivieren](#Outlook-Kalender-Synchronisation%20aktivieren), können Mitarbeitende den Odoo Kalender mit dem Outlook Kalender synchronsieren.
 
 ::: warning
-Entfernen Sie vor der Synchronisation alle Termine mit Teilnehmer aus ihrem Odoo-Kalender. Die Aktivierung der Kalender-Synchronisation führt dazu, dass Outlook Einladung für Termine mit Teilnehmer versendet. 
+Entfernen Sie vor der Synchronisation alle Termine mit Teilnehmer aus ihrem Odoo-Kalender. Die Aktivierung der Kalender-Synchronisation führt dazu, dass Outlook Einladung für Termine mit Teilnehmer versendet.
 :::
 
-Als Mitarbeitenden öffnen Sie die *Kalender* App und klicken auf *🔃 Outlook*. Sie werden zur Microsoft-Login-Seite umgeleitet. Loggen Sie sich mit ihrem Microsoft-Account ein und erlauben Sie den Zugriff von Odoo auf ihr Profil.
+Als Mitarbeitenden öffnen Sie die _Kalender_ App und klicken auf _🔃 Outlook_. Sie werden zur Microsoft-Login-Seite umgeleitet. Loggen Sie sich mit ihrem Microsoft-Account ein und erlauben Sie den Zugriff von Odoo auf ihr Profil.
 
 ![](attachments/Kalender%20Microsoft%20Zugriff.png)
 
@@ -102,10 +104,10 @@ Anschliessend werden Sie zurück nach Odoo umgleitet und die Termine werden sync
 
 ### Kalender-Synchronisation Zugriff-Tokens anzeigen
 
-Für jeden Odoo-Benutzer, der die Kalender-Synchronisation einrichtet, speichert Odoo sog. Tokens ab. Zeigen Sie einen Benutzer via *Einstellungen > Benutzer und Unternehmen > Benutzer* an und öffnen Sie den Tab *Kalender*. Hier sehen Sie die Tokens, die Odoo für die Benutzer speichert, um auf die Schnittstelle des Kalender-Anbieter zuzugreifen.
+Für jeden Odoo-Benutzer, der die Kalender-Synchronisation einrichtet, speichert Odoo sog. Tokens ab. Zeigen Sie einen Benutzer via _Einstellungen > Benutzer und Unternehmen > Benutzer_ an und öffnen Sie den Tab _Kalender_. Hier sehen Sie die Tokens, die Odoo für die Benutzer speichert, um auf die Schnittstelle des Kalender-Anbieter zuzugreifen.
 
 ![](attachments/Kalender%20Benutzer%20Outlook%20Tokens.png)
 
 ### Google-Kalender-Synchronisation zurücksetzen
 
-Rufen Sie die ihren Benutzer unter *Einstellungen > Benutzer und Unternehmen > Benutzer*  auf und zeigen Sie den Tab *Kalender* an. Wählen Sie die Aktion *Account Zurücksetzen*
+Rufen Sie die ihren Benutzer unter _Einstellungen > Benutzer und Unternehmen > Benutzer_ auf und zeigen Sie den Tab _Kalender_ an. Wählen Sie die Aktion _Account Zurücksetzen_

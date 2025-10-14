@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./hr
 ---
+
 # HR Employee Firstname
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/OCA/hr/tree/18.0/hr_employee_firstname>
 
 ### Reihenfolge Namensbestandteile festlegen
 
-Die Reihenfolge des Vor- und Nachnamen kann explizit festgelegt werden. Navigiere Sie nach *Einstellungen > Allgemeine Einstellungen > Reihenfolge Partner-Namensbestandteile*. Wählen Sie hier den gewünschten Eintrag aus.
+Die Reihenfolge des Vor- und Nachnamen kann explizit festgelegt werden. Navigiere Sie nach _Einstellungen > Allgemeine Einstellungen > Reihenfolge Partner-Namensbestandteile_. Wählen Sie hier den gewünschten Eintrag aus.
 
 ![](attachments/Partner%20first%20name%20and%20last%20name%20Namensbestandteile%20festlegen.png)
 
@@ -25,4 +27,4 @@ Die Reihenfolge des Vor- und Nachnamen kann explizit festgelegt werden. Navigier
 
 ### Vor- und Nachname festlegen
 
-Öffnen Sie einen Mitarbeitenden unter *Mitarbeiter* und geben Sie einen Vor- und einen Nachnamen in die entsprechenden Felder ein.
+Öffnen Sie einen Mitarbeitenden unter _Mitarbeiter_ und geben Sie einen Vor- und einen Nachnamen in die entsprechenden Felder ein.

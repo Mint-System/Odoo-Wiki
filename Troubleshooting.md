@@ -7,6 +7,7 @@ partner: Mint-System
 ---
 
 # Troubleshooting
+
 ![icons_odoo_website_forum](attachments/icons_odoo_website_forum.png)
 
 {{ $frontmatter.description }}
@@ -19,7 +20,7 @@ partner: Mint-System
 
 **Problem**
 
-Beim Erstellen  einer QR-Rechnung werden diese Fehlermeldungen angezeigt:
+Beim Erstellen einer QR-Rechnung werden diese Fehlermeldungen angezeigt:
 
 ![](attachments/Troubleshooting%20Swiss%20QR%20bill%20error%201.png)
 
@@ -41,11 +42,11 @@ Es wird dasselbe Verfahren wie für eine ISR-Zahlungsschein verwendet.
 
 **Lösung**
 
-Stellen Sie sicher, dass auf dem Journal die Einstellung *Kommunkationsstandard* auf *Schweiz* eingestellt ist.
+Stellen Sie sicher, dass auf dem Journal die Einstellung _Kommunkationsstandard_ auf _Schweiz_ eingestellt ist.
 
 ![](attachments/Troubleshooting%20QR-IBAN%20Lösung%202.png)
 
-Entfernen Sie auf dem Bankkonto die *ISR Client Identification Number*. Wird diese gesetzt, kann eine mit QR-Bill inkompatible Referenz generiert werden.
+Entfernen Sie auf dem Bankkonto die _ISR Client Identification Number_. Wird diese gesetzt, kann eine mit QR-Bill inkompatible Referenz generiert werden.
 
 ### Zahlungsmethode gelöscht
 
@@ -59,7 +60,7 @@ Im Zahlungsvorgang von Rechnungen wurde eine Zahlungsmethode gelöscht.
 
 **Lösung**
 
-Aktualisieren Sie die App *Rechnungsstellung* (`account`).
+Aktualisieren Sie die App _Rechnungsstellung_ (`account`).
 
 ## Buchhaltung
 
@@ -134,7 +135,7 @@ Prüfen Sie die Systemparameter und stellen Sie sicher sich, dass die Schlüssel
 Die E-Mails im Office 365 Odoo Postfach werden nicht abgeraufen. Bei Erneuerung des Zugriffs-Token erscheint diese Fehlermeldung:
 
 ```
- Beim Abrufen des Zugriffstokens ist ein Fehler aufgetreten. AADSTS7000222: The provided client secret keys for app 'a06c1e36-dd3f-4240-94d1-1bb4dd78a5fa' are expired. Visit the Azure portal to create new keys for your app: https://aka.ms/NewClientSecret, or consider using certificate credentials for added security: https://aka.ms/certCreds. Trace ID: dbf54f8e-c294-4b29-bc08-2f4e66153f00 Correlation ID: c275ea40-8426-45cd-917d-04c812744798 Timestamp: 2025-04-28 06:18:12Z 
+ Beim Abrufen des Zugriffstokens ist ein Fehler aufgetreten. AADSTS7000222: The provided client secret keys for app 'a06c1e36-dd3f-4240-94d1-1bb4dd78a5fa' are expired. Visit the Azure portal to create new keys for your app: https://aka.ms/NewClientSecret, or consider using certificate credentials for added security: https://aka.ms/certCreds. Trace ID: dbf54f8e-c294-4b29-bc08-2f4e66153f00 Correlation ID: c275ea40-8426-45cd-917d-04c812744798 Timestamp: 2025-04-28 06:18:12Z
 ```
 
 **Lösung**
@@ -194,7 +195,7 @@ Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=
 E-Mails können nicht versendet werden. Als Fehlerursache werden folgende Angaben gemacht:
 
 ```
-Beim Abrufen des Zugangstokens ist ein Fehler aufgetreten. AADSTS7000222: The provided client secret keys for app '8cccc1f5-0e91-4b8d-885f-2345c10ca415' are expired. Visit the Azure portal to create new keys for your app: https://aka.ms/NewClientSecret, or consider using certificate credentials for added security: https://aka.ms/certCreds. Trace ID: 3786a52f-0991-40c1-899e-f7c8182c4500 Correlation ID: c922836e-efe6-4bee-becc-257b575557ef Timestamp: 2023-04-17 11:47:22Z 
+Beim Abrufen des Zugangstokens ist ein Fehler aufgetreten. AADSTS7000222: The provided client secret keys for app '8cccc1f5-0e91-4b8d-885f-2345c10ca415' are expired. Visit the Azure portal to create new keys for your app: https://aka.ms/NewClientSecret, or consider using certificate credentials for added security: https://aka.ms/certCreds. Trace ID: 3786a52f-0991-40c1-899e-f7c8182c4500 Correlation ID: c922836e-efe6-4bee-becc-257b575557ef Timestamp: 2023-04-17 11:47:22Z
 ```
 
 **Ursache**
@@ -231,7 +232,7 @@ Sie müssen das [OAuth-Token regenerieren](Settings%20OAuth.md#OAuth-Token%20reg
 
 ## Entwicklung
 
-###  Kein Zugriff auf Ansicht
+### Kein Zugriff auf Ansicht
 
 **Problem**
 
@@ -271,7 +272,7 @@ Geben Sie den Benutzern Leserechte auf das Datenmodell `ir.ui.view`.
 
 ### Externe ID User Admin nicht gefunden
 
-**Problem** 
+**Problem**
 
 Beim Einloggen oder Ausführen einer Aktion erscheint diese Fehlermeldung:
 
@@ -287,10 +288,10 @@ Der Admin-Benutzer wurde gelöscht oder dessen externe ID entfernt.
 
 Sie müssen eine [Externe ID erfassen](Development.md#Externe%20ID%20erfassen) mit diesen Parameter erfassen:
 
-* **Modul**: `base`
-* **Externe Identifkation**: `user_admin`
-* **Modellname**: `res.users`
-* **Datensatz-ID**: Tragen Sie hier die *ID* aus den [Metadaten anzeigen](Development.md#Metadaten%20anzeigen) eines Benutzers ein.
+- **Modul**: `base`
+- **Externe Identifkation**: `user_admin`
+- **Modellname**: `res.users`
+- **Datensatz-ID**: Tragen Sie hier die _ID_ aus den [Metadaten anzeigen](Development.md#Metadaten%20anzeigen) eines Benutzers ein.
 
 Mit der neuen externen ID bestimmen Sie einen anderen Bentuzer als Administrator.
 
@@ -324,7 +325,7 @@ Eine weitere Ursache kann auch sein, dass die Host-Adresse von Odoo innerhalb de
 
 **Lösung**
 
-Legen Sie in den Systemparameter von Odoo den Wert von  `web.base.url` fest und fixieren Sie die Url `https://`  die URL von `https` auf `http` gewechselt werden. Alternativ kann der Systemparameter  `report.url` angelegt und konfiguriert werden.
+Legen Sie in den Systemparameter von Odoo den Wert von `web.base.url` fest und fixieren Sie die Url `https://` die URL von `https` auf `http` gewechselt werden. Alternativ kann der Systemparameter `report.url` angelegt und konfiguriert werden.
 
 Verifizieren Sie, dass die Host-Adresse von Odoo korrekt aufgelöst wird.
 
@@ -368,7 +369,7 @@ Die Buchung der Zahlung erfordert ein Zwischenkonto.
 
 **Lösung**
 
-Navigieren Sie nach *Einstellungen > Buchhaltung > Standardkonto* und legen Sie bei *Konto für ausstehende Zahlungen* ein Konto fest.
+Navigieren Sie nach _Einstellungen > Buchhaltung > Standardkonto_ und legen Sie bei _Konto für ausstehende Zahlungen_ ein Konto fest.
 
 ### Nur eine Konto für ausstehende Zahlungen und Eingänge
 
@@ -392,7 +393,7 @@ Korrigieren Sie die verfügbaren Konten in den Journalkonfigurationen.
 
 **Problem**
 
-Wenn Sie eine Lieferantrechnung  buchen wollen erscheint diese Fehlermeldung:
+Wenn Sie eine Lieferantrechnung buchen wollen erscheint diese Fehlermeldung:
 
 ```
 Jede Journalbuchung in einem Kreditorenkonto muss ein Fälligkeitsdatum haben und umgekehrt.
@@ -400,7 +401,7 @@ Jede Journalbuchung in einem Kreditorenkonto muss ein Fälligkeitsdatum haben un
 
 **Lösung**
 
-Prüfen Sie den Typ des Kreditoren-Kontos. Dieser muss auf *Verbindlichkeit* sein.
+Prüfen Sie den Typ des Kreditoren-Kontos. Dieser muss auf _Verbindlichkeit_ sein.
 
 ## Personalabrechnung
 
@@ -422,7 +423,7 @@ Das [Swiss Payroll](Gio%20Payroll%20Custom.md) App ist nicht aktuell und muss ak
 
 **Lösung**
 
-Löschen Sie die Lohnstruktur *Stundenlohn* in der Personalabrechnung und aktualisieren Sie die App.
+Löschen Sie die Lohnstruktur _Stundenlohn_ in der Personalabrechnung und aktualisieren Sie die App.
 
 ## Lager
 
@@ -541,7 +542,7 @@ Sie müssen die [Google-Kalender-Synchronisation zurücksetzen](Calendar.md#Goog
 
 ### Mitarbeiter sollen in Zeitraum nicht arbeiten
 
-***Problem**
+**\*Problem**
 
 Beim Bestätigen einer Anwesenheit mit benutzerdefinierten Stunden, erscheint dieser Fehler:
 

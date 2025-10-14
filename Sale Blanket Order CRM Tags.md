@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale-blanket-order
 ---
+
 # Sale Blanket Order CRM Tags
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,6 +19,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sa
 
 ### Stichwörter auf Rahmenauftrag erfassen
 
-Ist diese Erweiterung installiert können Sie Stichwörter auf dem Rahmenauftrag erfassen. Öffnen Sie einen Auftrag via *Verkauf > Aufträge > Rahmenaufträge*.
+Ist diese Erweiterung installiert können Sie Stichwörter auf dem Rahmenauftrag erfassen. Öffnen Sie einen Auftrag via _Verkauf > Aufträge > Rahmenaufträge_.
 
 ![Sale Blanket Order CRM Tags](attachments/Sale%20Blanket%20Order%20CRM%20Tags.gif)

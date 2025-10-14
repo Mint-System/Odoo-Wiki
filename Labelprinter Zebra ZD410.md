@@ -4,7 +4,9 @@ description: Etikettendrucker für Odoo.
 kind: howto
 prev: ./iot
 ---
+
 # Etikettendrucker Zebra ZD410
+
 ![icons_odoo_iot](attachments/icons_odoo_iot.png)
 
 {{ $frontmatter.description }}
@@ -26,9 +28,9 @@ Der maximale Durchmesser der Rolle ist 127mm.
 
 Damit Sie den Etikettendrucker verwenden können, müssen folgende Vorbereitungen getroffen werden:
 
-* Etikettendrucker ist per USB verbunden
-* Etikettendrucker ist mit dem Netzteil verbunden
-* Etikettenrolle ist eingesetzt
+- Etikettendrucker ist per USB verbunden
+- Etikettendrucker ist mit dem Netzteil verbunden
+- Etikettenrolle ist eingesetzt
 
 Führen Sie als erstes eine Kalibrierung des Gerätes durch.
 

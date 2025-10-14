@@ -7,6 +7,7 @@ prev: ./website
 ---
 
 # Website Sale Pricelist Fixed Discount
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -23,5 +24,5 @@ Damit Rabatte auf aus der Preisliste auf den Warenkorb / Angebot übertragen wer
 ![](attachments/Website%20Sale%20Pricelist%20Fixed%20Discount%20Preisliste.png)
 
 ::: warning
-Die Anwendung von Rabatten funktioniert auch für wiederkehrende Produkte. Dazu müssen Sie die Produktpreise doppelt erfassen, einmal in den *Preisregeln* und einmal in den *Time-based rules*.
+Die Anwendung von Rabatten funktioniert auch für wiederkehrende Produkte. Dazu müssen Sie die Produktpreise doppelt erfassen, einmal in den _Preisregeln_ und einmal in den _Time-based rules_.
 :::

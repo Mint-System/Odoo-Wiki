@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./stock
 ---
+
 # Stock Move Available Locations
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,11 +19,11 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 ### Lagerort immer anzeigen
 
-Zeigen Sie *Lager > Konfiguration > Lageorte* an und wählen Sie ein Lageort aus, der immer in Transfer angezeigt werden soll. Markieren Sie das Feld *Lageort für Transfer?*.
+Zeigen Sie _Lager > Konfiguration > Lageorte_ an und wählen Sie ein Lageort aus, der immer in Transfer angezeigt werden soll. Markieren Sie das Feld _Lageort für Transfer?_.
 
 ### Lagerorte nach Verfügbarkeit filtern
 
-Mit dieser Erweiterung wird die Auswahl der Lageort anhand des Produktbestands eingeschränkt. Lagerorte mit einem postivien Bestand oder dem Attribut *Lageort für Transfer?* werden angezeigt.
+Mit dieser Erweiterung wird die Auswahl der Lageort anhand des Produktbestands eingeschränkt. Lagerorte mit einem postivien Bestand oder dem Attribut _Lageort für Transfer?_ werden angezeigt.
 
 Auf Operationen:
 

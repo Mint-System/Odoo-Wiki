@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./purchase
 ---
+
 # Purchase Order Line Date
+
 ![](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}

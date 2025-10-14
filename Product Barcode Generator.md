@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./product
 ---
+
 # Product Barcode Generator
+
 ![](attachments/icon_odoo_product_barcode.png)
 
 {{ $frontmatter.description }}
@@ -26,13 +28,13 @@ Once the app is installed Odoo will automtically create EAN13 standard barcodes.
 
 Mit dieser Server-Aktion können Sie für alle Produkte einen EAN13-Barcode generieren.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Barcode generieren`\
 Modell: `ir.actions.server`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 def ean_checksum(eancode):
@@ -87,4 +89,4 @@ for product in product_ids:
     product.write({'barcode': ean})
 ```
 
-Speichern Sie die Aktion führen Sie diese mit *Starten* aus.
+Speichern Sie die Aktion führen Sie diese mit _Starten_ aus.

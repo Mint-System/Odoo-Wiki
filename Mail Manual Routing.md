@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./base
 ---
+
 # Mail Manual Routing
+
 ![](attachments/odoo_icon_mail_manual_routing.png)
 
 {{ $frontmatter.description }}
@@ -18,4 +20,4 @@ Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/mail_manual_routing/>
 
 ### Nicht-verknüpfte E-Mails anzeigen
 
-Klicken Sie auf die App *Lost Messages* und öffnen Sie einen Eintrag.
+Klicken Sie auf die App _Lost Messages_ und öffnen Sie einen Eintrag.

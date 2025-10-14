@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./manufacture
 ---
+
 # Product Sequence
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/OCA/product-attribute/tree/18.0/product_sequence
 
 ### Prefix festlegen
 
-Navigieren Sie nach *Lager > Konfiguration > Produktkategorie* und wählen Sie eine Kategorie aus. Geben Sie den Prefix im Feld *Prefix for Product Internal Reference* ein. Wenn die Kategorie gespeichert wird, wird zugleich eine Sequenz angelegt.
+Navigieren Sie nach _Lager > Konfiguration > Produktkategorie_ und wählen Sie eine Kategorie aus. Geben Sie den Prefix im Feld _Prefix for Product Internal Reference_ ein. Wenn die Kategorie gespeichert wird, wird zugleich eine Sequenz angelegt.
 
 ![](attachments/Product%20Sequence%20Prefix%20erstellt.png)
 
@@ -25,6 +27,6 @@ Navigieren Sie nach *Lager > Konfiguration > Produktkategorie* und wählen Sie e
 
 Damit die Referenz beim Erstellen eines Produkts automatisch generiert wird müssen Sie eine Kategorie mit Prefix auswählen.
 
-Falls Sie eine Unterkategorie auswählen möchten und dabei der Prefix der übergeordneten Kategorie verwendet werden soll, müssen Sie die Option *Use parent categories to determine the prefix* unter *Einstellungen > Allgemeine Einstellungen > Produkte* aktivieren.
+Falls Sie eine Unterkategorie auswählen möchten und dabei der Prefix der übergeordneten Kategorie verwendet werden soll, müssen Sie die Option _Use parent categories to determine the prefix_ unter _Einstellungen > Allgemeine Einstellungen > Produkte_ aktivieren.
 
 ![Product Sequence Erstellen](attachments/Product%20Sequence%20Erstellen.gif)

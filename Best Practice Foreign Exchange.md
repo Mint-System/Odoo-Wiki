@@ -4,15 +4,16 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Devisenhandel
 
 ## Geld von einem Bankkonto mit unterschiedlicher Währung auf ein anderes transferieren
 
 Haben Sie [Mehrere Währungen aktiviert](Accounting%20Multicurrency.md#Mehrere%20Währungen%20aktivieren) und möchten beispielsweise vom USD-Bankkonto zum CHF-Bankkonto Geld transferieren, können Sie das mit internen Überweisungen erledigen.
 
-Als erstes müssen Sie auf dem CHF-Bank-Journal eine [interne Überweisung erstellen](Accounting%20Finance.md#Interne%20Überweisung%20erstellen). Wählen Sie als *Zahlungsart* die Option *Geld schicken*.
+Als erstes müssen Sie auf dem CHF-Bank-Journal eine [interne Überweisung erstellen](Accounting%20Finance.md#Interne%20Überweisung%20erstellen). Wählen Sie als _Zahlungsart_ die Option _Geld schicken_.
 
-Auf dem USD-Bank-Journal erstellen Sie eine interne Überweisung mit der Optional *Geld erhalten* als *Zahlungsart*.
+Auf dem USD-Bank-Journal erstellen Sie eine interne Überweisung mit der Optional _Geld erhalten_ als _Zahlungsart_.
 
 Nun führen Sie die entsprechende Überweisung im eBanking bzw. Portal für den Devisenhandel aus.
 

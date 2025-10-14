@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./settings
 ---
+
 # Web Company Color
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/OCA/web/tree/18.0/web_company_color>
 
 ### Farben für Navigationsleiste definieren
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Unternehmen* und wählen Sie *Update Info*. Im Tab *Unternehmensstil* können Sie Farben für die Navigationselemente auswählen. Dazu ein Beispiel:
+Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Unternehmen_ und wählen Sie _Update Info_. Im Tab _Unternehmensstil_ können Sie Farben für die Navigationselemente auswählen. Dazu ein Beispiel:
 
 ![](attachments/Web%20Company%20Color.png)
 

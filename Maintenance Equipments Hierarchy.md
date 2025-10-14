@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./maintenance
 ---
+
 # Maintenance Equipments Hierarchy
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/OCA/maintenance/tree/18.0/maintenance_equipment_
 
 ### Übergeordnetes Inventar festlegen
 
-Mit dieser Erweiterung können Sie auf bestehenden Inventar-Einträgen *Wartung > Inventar* im Feld *Parent Equipment* das übergeordnete Inventar festlegen.
+Mit dieser Erweiterung können Sie auf bestehenden Inventar-Einträgen _Wartung > Inventar_ im Feld _Parent Equipment_ das übergeordnete Inventar festlegen.

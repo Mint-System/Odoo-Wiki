@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./contacts
 ---
+
 # Partner Duplicate Acc Number
+
 ![](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}

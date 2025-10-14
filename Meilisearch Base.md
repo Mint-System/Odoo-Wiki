@@ -7,6 +7,7 @@ prev: ./website-e-commerce
 ---
 
 # Meilisearch Base
+
 ![](attachments/icons_odoo_meiliserch_base.png)
 
 {{ $frontmatter.description }}
@@ -22,33 +23,33 @@ Diese Erweiterung bietet zwei Funktionalitäten. Sie können in Odoo Verbindunge
 
 ### Meilisearch Document Mixin implementieren
 
-Um ein Odoo Datenmodell mit Meilisearch zu synchronisieren, muss das *Meilisearch Document Mixin* in der entsprechende Klasse implementiert werden. Die Details sind hier verfügbar: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/16.0/meilisearch_base#configuration>
+Um ein Odoo Datenmodell mit Meilisearch zu synchronisieren, muss das _Meilisearch Document Mixin_ in der entsprechende Klasse implementiert werden. Die Details sind hier verfügbar: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/16.0/meilisearch_base#configuration>
 
 ## Konfiguration
 
 ### Meilisearch-API-Verbindung einrichten
 
-Navigieren Sie nach *Einstellungen > Integration* und aktivieren Sie die Option *Meilisearch*. Geben Sie die entsprechenden Werte in *Meilisearch API Url* und *Meilisearch API Key* ein.
+Navigieren Sie nach _Einstellungen > Integration_ und aktivieren Sie die Option _Meilisearch_. Geben Sie die entsprechenden Werte in _Meilisearch API Url_ und _Meilisearch API Key_ ein.
 
 ### Meilisearch-Index erstellen
 
-Navigieren Sie nach *Meilisearch > Indexes* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Meilisearch > Indexes_ und erstellen Sie einen neuen Eintrag:
 
-* **Name**: Geben eine Bezeichnung für den Index ein
-* **API**: Wählen Sie die API-Verbindung für den Index aus
-* **Database Filter**: Geben Sie optional den Namen der Datenbank ein für welche der Index aktiv sein soll
-* **Model**: Wählen Sie das Odoo-Datenmodell aus
+- **Name**: Geben eine Bezeichnung für den Index ein
+- **API**: Wählen Sie die API-Verbindung für den Index aus
+- **Database Filter**: Geben Sie optional den Namen der Datenbank ein für welche der Index aktiv sein soll
+- **Model**: Wählen Sie das Odoo-Datenmodell aus
 
 ## Verwendung
 
 ### Indexierte Dokumente anzeigen
 
-Navigieren Sie nach *Meilisearch > Indexes* und wählen Sie einen Index aus. Klicken Sie auf den Smart-Button *Index Documents*. Hier sehen Sie gruppiert nach Index-Status die Dokumente.
+Navigieren Sie nach _Meilisearch > Indexes_ und wählen Sie einen Index aus. Klicken Sie auf den Smart-Button _Index Documents_. Hier sehen Sie gruppiert nach Index-Status die Dokumente.
 
 ### Dokument aus Index abrufen
 
-Navigieren Sie nach *Meilisearch > Indexes* und wählen Sie einen Index aus. Klicken Sie auf den Smart-Button *Index Documents*. Öffnen oder markieren Sie ein Dokument und wählen Sie *Aktionen > Check Index Document*.
+Navigieren Sie nach _Meilisearch > Indexes_ und wählen Sie einen Index aus. Klicken Sie auf den Smart-Button _Index Documents_. Öffnen oder markieren Sie ein Dokument und wählen Sie _Aktionen > Check Index Document_.
 
 ::: tip
-Wenn das Dokument aus dem Index abgerufen werden konnte, wechselt der Index-Status des Dokuments auf *Indexed*. In der *Index-Response* wird das Dokument aus dem Index gespeichert. Dieses sollte mit dem *Index Document* von Odoo übereinstimmen.
+Wenn das Dokument aus dem Index abgerufen werden konnte, wechselt der Index-Status des Dokuments auf _Indexed_. In der _Index-Response_ wird das Dokument aus dem Index gespeichert. Dieses sollte mit dem _Index Document_ von Odoo übereinstimmen.
 :::

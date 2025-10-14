@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./project
 ---
+
 # Project Type
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,6 +19,6 @@ Repository: <https://github.com/OCA/project/tree/18.0/project_type>
 
 ### Typ für Projekte und Aufgaben erfassen
 
-Navigieren Sie nach *Projekt > Konfiguration > Projekt Types* und erstellen Sie einen neuen Eintrag.
+Navigieren Sie nach _Projekt > Konfiguration > Projekt Types_ und erstellen Sie einen neuen Eintrag.
 
 ![](attachments/Project%20Type.png)

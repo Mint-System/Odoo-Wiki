@@ -5,7 +5,9 @@ kind: howto
 partner: Zebra
 prev: ./barcode
 ---
+
 # Scanner Zebra TC21
+
 ![icons_odoo_stock](attachments/icons_odoo_stock.png)
 
 {{ $frontmatter.description }}
@@ -22,9 +24,9 @@ Es kann sein, dass der Handscanner ohne USB-C Kabel geliefert wird.
 
 Damit Sie den Handscanner in Betrieb nehmen können, müssen Sie folgende Vorbereitungen treffen:
 
-* Gerät ist zur Stromversorgung mit einem USB-C Kabel verbunden
-* Wifi-Netzwerk ist vorhanden und Zugangsdaten sind bekannt 
-* Sie haben einen Google Account
+- Gerät ist zur Stromversorgung mit einem USB-C Kabel verbunden
+- Wifi-Netzwerk ist vorhanden und Zugangsdaten sind bekannt
+- Sie haben einen Google Account
 
 Schaltet Sie das Gerät ein und starten Sie das Setup.
 
@@ -42,7 +44,6 @@ Nur wenn Sie eingeloggt sind, können Sie später Apps aus dem Play Store instal
 
 ### Barcode scannen
 
-Starten Sie die Odoo Mobile App und öffnen Sie App *Strichcode*. Wählen Sie *Strichode scannen*. Das Gerät schaltet die Kamera ein, nun können Sie beispielsweise den Code auf einem Lieferschein scannen.
+Starten Sie die Odoo Mobile App und öffnen Sie App _Strichcode_. Wählen Sie _Strichode scannen_. Das Gerät schaltet die Kamera ein, nun können Sie beispielsweise den Code auf einem Lieferschein scannen.
 
 ![](attachments/Handscanner%20Zebra%20TC21%20Scan.jpg)
-

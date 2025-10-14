@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./manufacture
 ---
+
 # MRP Sale Info
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

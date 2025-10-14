@@ -1,11 +1,13 @@
 ---
 title: Stock Move Line Position
-description: "Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen."
+description: 'Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen.'
 kind: howto
 partner: Mint-System
 prev: ./order-positions
 ---
+
 # Stock Move Line Position
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}

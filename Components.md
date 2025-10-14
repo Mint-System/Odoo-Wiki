@@ -3,10 +3,12 @@ title: Components
 description: Kompontent-System für das Connector-Framework.
 kind: howto
 tags:
-- OCA
+    - OCA
 prev: ./development
 ---
+
 # Components
+
 ![icon_oca_app](../attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

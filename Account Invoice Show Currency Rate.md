@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./invoicing
 ---
+
 # Account Invoice Show Currency Rate
+
 ![icon_oca_app](../attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

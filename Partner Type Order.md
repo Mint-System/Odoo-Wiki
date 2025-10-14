@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./contacts
 ---
+
 # Partner Type Order
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/17.0/
 
 ### Bestelladresse festlegen
 
-Mit dieser Erweiterung erhalten Sie als zusätzlichen Adresstype *Bestelladresse*.
+Mit dieser Erweiterung erhalten Sie als zusätzlichen Adresstype _Bestelladresse_.
 
 ![](attachments/Partner%20Type%20Order.png)
 

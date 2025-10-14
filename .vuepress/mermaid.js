@@ -6,7 +6,7 @@ const mermaidPlugin = () => {
     return {
         name,
         clientConfigFile: path.resolve(__dirname, 'mermaidClient.js'),
-        extendsMarkdown: md => {
+        extendsMarkdown: (md) => {
             const defaultFence = md.renderer.rules.fence
 
             md.renderer.rules.fence = (tokens, idx, options, env, self) => {
@@ -19,7 +19,7 @@ const mermaidPlugin = () => {
 
                 return defaultFence(tokens, idx, options, env, self)
             }
-        }
+        },
     }
 }
 

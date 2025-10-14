@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./sale
 ---
+
 # Sale Stock Picking Note
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/OCA/sale-workflow/tree/18.0/sale_stock_picking_n
 
 ### Kommentar für Packvorgang und Lieferung hinterlassen.
 
-Zeigen Sie *Verkauf > Angebot auswählen > Tab Weitere Information* an. Hier finden Sie die zwei Felder *Picking Internal Note* und *Picking Customer Comments*.
+Zeigen Sie _Verkauf > Angebot auswählen > Tab Weitere Information_ an. Hier finden Sie die zwei Felder _Picking Internal Note_ und _Picking Customer Comments_.
 
 ![](attachments/Sale%20Stock%20Picking%20Note.png)
 

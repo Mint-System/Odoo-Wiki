@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Lager
+
 ![icons_odoo_stock](attachments/icons_odoo_stock.png)
 
 {{ $frontmatter.description }}
@@ -22,12 +24,12 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Lager Verpackungen](Stock%20Packaging.md)            | Verpackungen effizient verwalten.           |
 | [Lager Vorgänge](Stock%20Operations.md)               | Vorgänge im Lager ausführen.                |
 | [Scanner Zebra DS22](Scanner%20Zebra%20DS22.md)       | Handscanner für Odoo.                       |
-| [Scanner Zebra TC21](Scanner%20Zebra%20TC21.md)       | Mobiler Scanner für Odoo.                       |
+| [Scanner Zebra TC21](Scanner%20Zebra%20TC21.md)       | Mobiler Scanner für Odoo.                   |
 
 ## Erweiterungen
 
 | Erweiterung                                                                                   | Beschreibung                                                                                                |
-| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | --- | --- |
 | [AMQP Base](AMQP%20Base.md)                                                                   | AMQP Zielhosts verwalten.                                                                                   |
 | [Anb Stock Picking Valued](Anb%20Stock%20Picking%20Valued.md)                                 | Preislisten für Bestandsbewertung                                                                           |
 | [Demand Planner](Demand%20Planner.md)                                                         | Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen. |
@@ -43,7 +45,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Inventory Summary](Stock%20Inventory%20Summary.md)                                     | Lagerbestand gruppiert nach Lagerort und Produkt.                                                           |
 | [Stock Kardex](Stock%20Kardex.md)                                                             | Kommunikation mit externem Kardex-Produktionssystem.                                                        |
 | [Stock Lot Traceability List](Stock%20Lot%20Traceability%20List.md)                           | Daten aus Lieferverfolgungsbericht als Liste anzeigen.                                                      |
-| [Stock Move Analysis Value](Stock%20Move%20Analysis%20Value.md)                               | Planungskosten in der Buchungsanalyse anzeigen.                                                             |                                                                                      |                                                                                                             |
+| [Stock Move Analysis Value](Stock%20Move%20Analysis%20Value.md)                               | Planungskosten in der Buchungsanalyse anzeigen.                                                             |     |     |
 | [Stock Move Available Locations](Stock%20Move%20Available%20Locations.md)                     | Nur Lagerorte mit Bestand in Auswahl anzeigen.                                                              |
 | [Stock Move Line Auto Fill](Stock%20Move%20Line%20Auto%20Fill.md)                             | Die erledigte Menge auf einem Transfer automatisch ausfüllen.                                               |
 | [Stock Move Line Lot Done](Stock%20Move%20Line%20Lot%20Done.md)                               | Erledigte Menge bei Zuweisung von Los festlegen.                                                            |
@@ -73,7 +75,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 
 ### Lieferung ausführen
 
-Navigieren Sie nach *Lager* und wählen Sie die Kachel *Lieferaufträge* an. Nun erscheinen die zu erledigenden Lieferaufträge. Klicken Sie auf *Verfügbarkeit Prüfen* und erledigen Sie den Auftrag mit *Bestätigen*.
+Navigieren Sie nach _Lager_ und wählen Sie die Kachel _Lieferaufträge_ an. Nun erscheinen die zu erledigenden Lieferaufträge. Klicken Sie auf _Verfügbarkeit Prüfen_ und erledigen Sie den Auftrag mit _Bestätigen_.
 
 ::: warning
 Für Produkte mit Nachverfolgung müssen Sie eine Lot-Nummer auswählen.
@@ -81,7 +83,7 @@ Für Produkte mit Nachverfolgung müssen Sie eine Lot-Nummer auswählen.
 
 ### Anlieferung bestätigen
 
-Navigieren Sie nach *Lager* und wählen Sie die Kachel *Anlieferung* an. Nun erscheinen die zu erledigenden Anlieferungen. Bestätigen Sie den Erhalt der Produkte mit *Bestätigen*.
+Navigieren Sie nach _Lager_ und wählen Sie die Kachel _Anlieferung_ an. Nun erscheinen die zu erledigenden Anlieferungen. Bestätigen Sie den Erhalt der Produkte mit _Bestätigen_.
 
 ::: warning
 Für Produkte mit Nachverfolgung müssen Sie eine Lot-Nummer auswählen.
@@ -91,7 +93,7 @@ Für Produkte mit Nachverfolgung müssen Sie eine Lot-Nummer auswählen.
 
 ### Ablaufdatum aktivieren
 
-Für Produkte in Lots oder Produkte mit Seriennummer könne Sie ein Ablaufdatum festlegen. Öffnen Sie das Produkt via *Lager > Produkte > Produkte* und zeigen Sie den Tab *Lager* an. Unter Lieferfolgung müssen Sie eine Option für *Nachverfolgung* auswählen. Nun erscheint die Checkbox *Ablaudatum*. Aktivieren Sie diese und konfigurieren Sie die Ablaufzeiten.
+Für Produkte in Lots oder Produkte mit Seriennummer könne Sie ein Ablaufdatum festlegen. Öffnen Sie das Produkt via _Lager > Produkte > Produkte_ und zeigen Sie den Tab _Lager_ an. Unter Lieferfolgung müssen Sie eine Option für _Nachverfolgung_ auswählen. Nun erscheint die Checkbox _Ablaudatum_. Aktivieren Sie diese und konfigurieren Sie die Ablaufzeiten.
 
 ![](attachments/Lager%20Ablaufdatum%20konfiguriert.png)
 
@@ -99,13 +101,13 @@ Für Produkte in Lots oder Produkte mit Seriennummer könne Sie ein Ablaufdatum 
 
 ### Sicherheitsvorlaufzeiten definieren
 
-Die Sicherheitsvorlaufzeiten können Sie zentral unter *Einstellungen > Lager > Erweiterte Planung* festlegen. Aktivieren Sie für jeweilige Vorlaufzeit die Checkbox und tragen Sie die gewünschten Zeiten ein
+Die Sicherheitsvorlaufzeiten können Sie zentral unter _Einstellungen > Lager > Erweiterte Planung_ festlegen. Aktivieren Sie für jeweilige Vorlaufzeit die Checkbox und tragen Sie die gewünschten Zeiten ein
 
 ## Datenbank
 
 ### Rundungsgenauigkeit einer Mengeneinheit ändern
 
-Wenn Sie die Rundungsgenauigkeit (Stellen nach dem Komma) einer Mengeneinheit ändern möchten, öffnen Sie *Lager > Konfiguration > Mengeneinheiten > UoM* und wählen hier die Einheit aus. Im Feld *Rundungsgenauigkeit* geben Sie den entsprechenden Wert ein. 
+Wenn Sie die Rundungsgenauigkeit (Stellen nach dem Komma) einer Mengeneinheit ändern möchten, öffnen Sie _Lager > Konfiguration > Mengeneinheiten > UoM_ und wählen hier die Einheit aus. Im Feld _Rundungsgenauigkeit_ geben Sie den entsprechenden Wert ein.
 
 ::: warning
 Hier können Sie [Dezimalstellen festlegen](Settings%20Technical.md#Dezimalstellen%20festlegen).
@@ -117,7 +119,7 @@ Die hier gemachten Einstellung haben Einfluss auf die Darstellung der Zahl.
 
 ### Lagerort Lagerschwund mit externer ID ergänzen
 
-Erfassen Sie für das Lagerort *Virtual Locations/Scrap* eine externe ID gemäss [Externe ID erfassen](Development.md#Externe%20ID%20erfassen). Die Definition ist wie folgt:
+Erfassen Sie für das Lagerort _Virtual Locations/Scrap_ eine externe ID gemäss [Externe ID erfassen](Development.md#Externe%20ID%20erfassen). Die Definition ist wie folgt:
 
 ![](attachments/Lager%20Lagerschwund%20externe%20ID.png)
 
@@ -125,14 +127,14 @@ Erfassen Sie für das Lagerort *Virtual Locations/Scrap* eine externe ID gemäss
 
 ### Mehrstufige Routen aktivieren
 
-Aktivieren Sie die Option *Mehrstufige Routen* unter *Einstellungen > Lager > Lager*.
+Aktivieren Sie die Option _Mehrstufige Routen_ unter _Einstellungen > Lager > Lager_.
 
 ### Produkt für "Purchase to Order" konfigurieren
 
-Navigieren Sie nach *Lager > Produkte* und wählen Sie ein Produkt aus. Im Tab *Lager* aktivieren Sie die Routen *Einkaufen* und *Auffüllung nach Auftrag (MTO)*.
+Navigieren Sie nach _Lager > Produkte_ und wählen Sie ein Produkt aus. Im Tab _Lager_ aktivieren Sie die Routen _Einkaufen_ und _Auffüllung nach Auftrag (MTO)_.
 
 ![](attachments/Lager%20Purchase%20to%20Order.png)
 
 ### Produkt für "Make to Order" konfigurieren
 
-Navigieren Sie nach *Lager > Produkte* und wählen Sie ein Produkt aus. Im Tab *Lager* aktivieren Sie die Routen *Fertigung* und *Auffüllung nach Auftrag (MTO)*.
+Navigieren Sie nach _Lager > Produkte_ und wählen Sie ein Produkt aus. Im Tab _Lager_ aktivieren Sie die Routen _Fertigung_ und _Auffüllung nach Auftrag (MTO)_.

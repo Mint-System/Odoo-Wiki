@@ -4,7 +4,9 @@ description: Performance-Probleme analysieren.
 kind: howto
 prev: ./development
 ---
+
 # Entwicklung Performance
+
 ![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 {{ $frontmatter.description }}
@@ -13,9 +15,9 @@ prev: ./development
 
 ### Profiling aktivieren
 
-Klicken Sie auf *Entwickler-Tools > Profiling aktiveren*. Im Dialog wählen Sie für *Profiling aktivieren für* eine Zeitdauer aus und bestätigen mit *Profiling Aktivieren*.
+Klicken Sie auf _Entwickler-Tools > Profiling aktiveren_. Im Dialog wählen Sie für _Profiling aktivieren für_ eine Zeitdauer aus und bestätigen mit _Profiling Aktivieren_.
 
-Wählen Sie nochmals *Entwickler-Tools > Profiling aktiveren* und nun wird das Profiling aktiv. 
+Wählen Sie nochmals _Entwickler-Tools > Profiling aktiveren_ und nun wird das Profiling aktiv.
 
 ![](attachments/Entwicklung%20Performance%20Profiling%20Aktiv.png)
 
@@ -23,8 +25,8 @@ Odoo zeichnet nun alle Methoden- und Daten-Zugriffe auf. Sie können wie gewohnt
 
 ### Profiling beenden
 
-Wenn das Profiling aktiv ist, klicken Sie auf *Entwickler-Tools > Profiling aktiveren* um es zu beenden.
+Wenn das Profiling aktiv ist, klicken Sie auf _Entwickler-Tools > Profiling aktiveren_ um es zu beenden.
 
 ### Profiling-Daten anzeigen
 
-Klicken Sie rechts von *Entwickler-Tools > Profiling aktiveren* auf das Icon. Sie sehen nun die von Odoo gesammelten Profiling-Daten gruppiert nach Session. Zu jedem Zugriff wird die Dauer gespeichert.
+Klicken Sie rechts von _Entwickler-Tools > Profiling aktiveren_ auf das Icon. Sie sehen nun die von Odoo gesammelten Profiling-Daten gruppiert nach Session. Zu jedem Zugriff wird die Dauer gespeichert.

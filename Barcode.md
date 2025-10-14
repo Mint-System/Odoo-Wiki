@@ -5,15 +5,17 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Strichcode
+
 ![icons_odoo_stock_barcode](attachments/icons_odoo_stock_barcode.png)
 
 {{ $frontmatter.description }}
 
 ## Bereiche
 
-| Bereich                                             | Beschreibung          |
-| --------------------------------------------------- | --------------------- |
+| Bereich                                         | Beschreibung          |
+| ----------------------------------------------- | --------------------- |
 | [Scanner Zebra TC21](Scanner%20Zebra%20TC21.md) | Handscanner für Odoo. |
 
 ## Erweiterungen
@@ -27,7 +29,7 @@ partner: Odoo S.A.
 
 ### Produktstrichcode generieren
 
-Öffnen Sie *Einstellungen > Lager > Strichcode* und wählen Sie die Aktion *Konfigurieren der Produkt-Barcodes*. In dieser Liste tragen Sie für jedes Produkt einen Strichcode ein.
+Öffnen Sie _Einstellungen > Lager > Strichcode_ und wählen Sie die Aktion _Konfigurieren der Produkt-Barcodes_. In dieser Liste tragen Sie für jedes Produkt einen Strichcode ein.
 
 ::: tip
 Für jedes Produkt verwaltet Odoo einen Strichcode. Ähnlich der internen Referenz kann für jede Produkt-Variante ein Strichcode festgelegt werden.
@@ -54,7 +56,7 @@ Hier zwei Strichcodes im Vergleich:
 
 ### Barcode-Befehle drucken
 
-Mit Barcode-Befehlen können Sie bestimmte Vorgänge starten oder abschliessen. Drücken Sie auf *Einstellungen > Lager > Strichcode > Drucken Sie die Barcode-Befehle* und drucken Sie dieses Dokument aus.
+Mit Barcode-Befehlen können Sie bestimmte Vorgänge starten oder abschliessen. Drücken Sie auf _Einstellungen > Lager > Strichcode > Drucken Sie die Barcode-Befehle_ und drucken Sie dieses Dokument aus.
 
 ![](attachments/Strichcode%20Barcode-Befehle.png)
 
@@ -62,7 +64,7 @@ Auf der ersten Seite finden die die Befehle, auf der zweiten die Vorgangstypen u
 
 ### Rütschein/Packvorgang scannen und verarbeiten
 
-Öffnen Sie *Strichcode* im Browser auf ihrem Computer oder auf der App auf ihrem mobilen Gerät. Scannen Sie den Barcode auf dem Packvorgang mit dem angeschlossen Scanner, dem integrierten Scanner oder Geräte-Kamera.
+Öffnen Sie _Strichcode_ im Browser auf ihrem Computer oder auf der App auf ihrem mobilen Gerät. Scannen Sie den Barcode auf dem Packvorgang mit dem angeschlossen Scanner, dem integrierten Scanner oder Geräte-Kamera.
 
 ![](attachments/Strichcode%20scannen.png)
 
@@ -70,11 +72,11 @@ Sobald der Dokument-Code (immer oben rechs) gescannt wurde, werden die Positione
 
 ![](attachments/Strichcode%20Positionen%20Scanvorgang.png)
 
-Nun können Sie einzelnen Positionen bestätigen und den Vorgang mit dem Barcode-Befehl *Validate* abschliessen.
+Nun können Sie einzelnen Positionen bestätigen und den Vorgang mit dem Barcode-Befehl _Validate_ abschliessen.
 
 ### Zusätzliche Produkte hinzufügen
 
-Im Transfer können Sie Produkte anhand des Produktbarcodes hinzufügen. Öffnen Sie die App *Strichcode* und halten Sie den Scanner, das Dokument und den Produktbarcode bereit.
+Im Transfer können Sie Produkte anhand des Produktbarcodes hinzufügen. Öffnen Sie die App _Strichcode_ und halten Sie den Scanner, das Dokument und den Produktbarcode bereit.
 
 Mit jedem Scan des Produktbarcodes wird 1 Stück dem Transfer hinzugefügt.
 
@@ -84,7 +86,7 @@ Mit jedem Scan des Produktbarcodes wird 1 Stück dem Transfer hinzugefügt.
 
 ### Strichcode-Eingabe simulieren
 
-Auf einem Linux-Computer kann man ganz einfach eine Strichcode-Eingabe mit [xdotool](https://www.semicomplete.com/projects/xdotool/) simulieren. Öffnen Sie ein Terminal-Fenster installieren Sie das xdotool mit dem Befehl `sudo apt install xdotool`. Öffnen Sie den Firefox-Browser und zeigen Sie das *Strichcode* App an. Führen Sie das folgende Skript im Terminal aus:
+Auf einem Linux-Computer kann man ganz einfach eine Strichcode-Eingabe mit [xdotool](https://www.semicomplete.com/projects/xdotool/) simulieren. Öffnen Sie ein Terminal-Fenster installieren Sie das xdotool mit dem Befehl `sudo apt install xdotool`. Öffnen Sie den Firefox-Browser und zeigen Sie das _Strichcode_ App an. Führen Sie das folgende Skript im Terminal aus:
 
 ```bash
 # Name des Transfers

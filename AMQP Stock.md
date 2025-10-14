@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./stock
 ---
+
 # AMQP Stock
+
 ![](attachments/odoo_icon_amqp.png)
 
 {{ $frontmatter.description }}

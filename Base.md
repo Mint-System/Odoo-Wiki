@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Server
+
 ![icons_odoo_website_enterprise](attachments/icons_odoo_website_enterprise.png)
 
 {{ $frontmatter.description }}
@@ -13,7 +15,7 @@ partner: Odoo S.A.
 ## Erweiterungen
 
 | Erweiterung                                                                       | Beschreibung                                                         |     |     |
-| --------------------------------------------------------------------------------- | -------------------------------------------------------------------- | --- | --- |
+| --------------------------------------------------------------------------------- | -------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
 | [Auditlog](Auditlog.md)                                                           | Operationen auf Daten loggen.                                        |     |     |
 | [Base Action Manager Access](Base%20Action%20Manager%20Access.md)                 | Zugriff auf Aktionen für Gruppe Administration / Zugriffsrechte.     |     |     |
 | [Base Module User ACL](Base%20Module%20User%20ACL.md)                             | Zugriffsrechte auf Apps festlegen.                                   |     |     |
@@ -22,7 +24,7 @@ partner: Odoo S.A.
 | [Base User ACL](Base%20User%20ACL.md)                                             | Basis für Zugriffsrechte-Module.                                     |     |     |
 | [Extended view inheritance](Extended%20view%20inheritance.md)                     | Benutzerdefinierte Operatoren auf vererbten Ansichten.               |     |     |
 | [Fetchmail Incoming Log](Fetchmail%20Incoming%20Log.md)                           | Loggt Informationen zu eingehenden E-Mails.                          |     |     |
-| [Float Align At Decimal](Float%20Align%20At%20Decimal.md)                         | Widget für Formatierung und Ausrichtung von Floats.                  |     |     |                                                                               |                                                                      |     |     |
+| [Float Align At Decimal](Float%20Align%20At%20Decimal.md)                         | Widget für Formatierung und Ausrichtung von Floats.                  |     |     |     |     |     |     |
 | [Mail Format with Parent](Mail%20Format%20With%20Parent.md)                       | Unternehmensname des Kontakts alternativ für E-Mails verwenden.      |     |     |
 | [Mail Manual Routing](Mail%20Manual%20Routing.md)                                 | Erlaubt Zuordnung von empfangenen E-Mails.                           |     |     |
 | [Mail Server Filter](Mail%20Server%20Filter.md)                                   | Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern. |     |     |
@@ -41,16 +43,16 @@ partner: Odoo S.A.
 
 ### Mail-Account bereitstellen
 
-Odoo benötigt zum Empfang und Versand von E-Mails einen exklusiven Mail-Account. Im  Normalfall lautet die Mail Adresse `odoo@example.com`, wobei `example.com` mit der Domain des Kunden zu ersetzen ist.
+Odoo benötigt zum Empfang und Versand von E-Mails einen exklusiven Mail-Account. Im Normalfall lautet die Mail Adresse `odoo@example.com`, wobei `example.com` mit der Domain des Kunden zu ersetzen ist.
 
 **Aliase**
 
 Damit Antworten an E-Mails von Odoo korrekt verarbeitet werden können, müssen Mail-Aliase konfiguriert werden. Erstellen Sie die folgenden Mail-Aliase für `odoo@example.com`:
 
-* `reply@example.com` Zum sammeln von Antworten
-* `invoice@example.com` Zum Empfang von Rechnungen
-* `support@example.com` Zum Empfang von Support-Anfragen
-* `contact@example.com` Zum Empfang von Leads
+- `reply@example.com` Zum sammeln von Antworten
+- `invoice@example.com` Zum Empfang von Rechnungen
+- `support@example.com` Zum Empfang von Support-Anfragen
+- `contact@example.com` Zum Empfang von Leads
 
 Wenn jemand eine Mail an eine dieser Adresse schickt, werden Sie ans Postfach von `odoo@example.com` weitergeleitet und anschliessen von Odoo verarbeitet.
 

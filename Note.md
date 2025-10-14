@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Notizen
+
 ![icons_odoo_note](attachments/icons_odoo_note.png)
 
 {{ $frontmatter.description }}
@@ -14,7 +16,7 @@ partner: Odoo S.A.
 
 ### Notiz erstellen
 
-Rufen Sie die App *Notizen* und erstellen Sie einen neuen Eintrag.
+Rufen Sie die App _Notizen_ und erstellen Sie einen neuen Eintrag.
 
 ::: tip
 Die erste Notizzeile wird in der Kanban-Ansicht als Titel der Notiz angezeigt.
@@ -22,10 +24,9 @@ Die erste Notizzeile wird in der Kanban-Ansicht als Titel der Notiz angezeigt.
 
 ![](attachments/Notizen%20erstellen.png)
 
-
 ### Notiz-Stufen anpassen
 
-Bearbeiten Sie die Notiz-Stufen unter *Notizen > Konfiguration > Stufen*.
+Bearbeiten Sie die Notiz-Stufen unter _Notizen > Konfiguration > Stufen_.
 
 ![](attachments/Notizen%20Stufen.png)
 

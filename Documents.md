@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Dokumente
+
 ![icons_odoo_documents](attachments/icons_odoo_documents.png)
 
 {{ $frontmatter.description }}
@@ -28,7 +30,7 @@ Website: <https://www.odoo.com/de_DE/app/documents>
 
 ### Aktion zur Verknüpfung mit Datensatz erstellen
 
-Navigieren Sie nach *Dokumente > Konfiguration > Aktionen* und erstellen Sie einen neuen Eintrag. Als *Name der Aktion* geben Sie beispielsweise *Mit Wareneingang verknüpfen* ein. Im Feld *Zugehöriger Arbeitsbereich* wählen Sie den Arbeitsbereich aus, wo die Aktion verfügbar ist. Im Tab *Aktionen* wählen Sie für *Erstellen* die Option *Verknüpfung mit Datensatz* aus. Im Feld *Spezifisches Modell verlinkt?* geben Sie beispielsweise *stock.picking* ein.
+Navigieren Sie nach _Dokumente > Konfiguration > Aktionen_ und erstellen Sie einen neuen Eintrag. Als _Name der Aktion_ geben Sie beispielsweise _Mit Wareneingang verknüpfen_ ein. Im Feld _Zugehöriger Arbeitsbereich_ wählen Sie den Arbeitsbereich aus, wo die Aktion verfügbar ist. Im Tab _Aktionen_ wählen Sie für _Erstellen_ die Option _Verknüpfung mit Datensatz_ aus. Im Feld _Spezifisches Modell verlinkt?_ geben Sie beispielsweise _stock.picking_ ein.
 
 Nun können Sie im gewählten Arbeitsbereich ein Dokument anzeigen und finden auf der rechten Seite die erstellt Aktion.
 
@@ -36,7 +38,7 @@ Nun können Sie im gewählten Arbeitsbereich ein Dokument anzeigen und finden au
 
 ### Dokumente auswählen
 
-Zeigen Sie *Dokumente* an und wählen Sie auf der linken Seite einen Arbeitsbereich und ggf. Stichwörter aus. Mit einem Klick oben rechts können Sie ein Dokument markieren und eine Aktion auf der rechten Seite auswählen.
+Zeigen Sie _Dokumente_ an und wählen Sie auf der linken Seite einen Arbeitsbereich und ggf. Stichwörter aus. Mit einem Klick oben rechts können Sie ein Dokument markieren und eine Aktion auf der rechten Seite auswählen.
 
 ::: tip
 Um mehrere Dokumente auswählen, markieren Sie das erste Dokumente, halten <kbd>Shift</kbd> gedrückt und wählen das letzte Dokumente aus. Alle Dokumente innerhalb der Auswahl werden ebenfalls markiert.
@@ -44,6 +46,6 @@ Um mehrere Dokumente auswählen, markieren Sie das erste Dokumente, halten <kbd>
 
 ### E-Mail-Hochladen für Arbeitsbereich einrichten
 
-Wählen Sie einen Arbeitsbereich via *Dokumente* aus und klicken Sie auf *Teilen*. Wählen Sie die Option *Erlaubt es: Hoch- und runterladen* und geben Sie rechts den E-Mail-Alias ein. Speichern Sie den Vorgang.
+Wählen Sie einen Arbeitsbereich via _Dokumente_ aus und klicken Sie auf _Teilen_. Wählen Sie die Option _Erlaubt es: Hoch- und runterladen_ und geben Sie rechts den E-Mail-Alias ein. Speichern Sie den Vorgang.
 
 Richten Sie den E-Mail-Alias für ihre konfigurierte Odoo-Mail-Adresse ein.

@@ -1,11 +1,13 @@
 ---
 title: Stock Production Lot Active
-description: "Erlaubt die Archivierung von Los/Chargen."
+description: 'Erlaubt die Archivierung von Los/Chargen.'
 kind: howto
 partner: OCA
 prev: ./stock
 ---
+
 # Stock Production Lot Active
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/OCA/stock-logistics-workflow/tree/18.0/stock_pro
 
 ### Los-/Seriennummern archivieren
 
-Öffnen Sie *Lager > Stammdaten > Los-/Seriennummern* und wählen Sie die zu archivierenden Los-/Seriennummern aus. Wählen Sie *Aktionen > Archiv*.
+Öffnen Sie _Lager > Stammdaten > Los-/Seriennummern_ und wählen Sie die zu archivierenden Los-/Seriennummern aus. Wählen Sie _Aktionen > Archiv_.
 
 ![](attachments/Stock%20Production%20Lot%20Active%20Aktion.png)
 
@@ -27,14 +29,14 @@ Repository: <https://github.com/OCA/stock-logistics-workflow/tree/18.0/stock_pro
 
 Mit dieser Aktionen werden Los/Chargen archiviert, wenn Sie eine Menge von 0 haben und werden de-archiviert wenn die Menge grösser 0 ist.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-* Name der Aktion: `Los-/Seriennummern archivieren`
-* Modell: `Serveraktion`
-* Ausführen alle: `1 Tage`
-* Anzahl aufrufe: `-1`
+- Name der Aktion: `Los-/Seriennummern archivieren`
+- Modell: `Serveraktion`
+- Ausführen alle: `1 Tage`
+- Anzahl aufrufe: `-1`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Get all lots including archived

@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./stock-critical-forecast
 ---
+
 # Stock Critical Forecast Promised Agreed
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,6 +19,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/t
 
 ### Kritische Vorhersage mit Mengen aus Rahmenauftrag und Kaufvertrag anzeigen
 
-Diese Erweiterung fügt dem Bericht *Lager > Berichtswesen > Kritische Vorhersage* zwei zusätzliche Felder *Rahmenvertrag verbleibend* und *Kaufverträge verbleibend*.
+Diese Erweiterung fügt dem Bericht _Lager > Berichtswesen > Kritische Vorhersage_ zwei zusätzliche Felder _Rahmenvertrag verbleibend_ und _Kaufverträge verbleibend_.
 
 ![](attachments/Stock%20Critical%20Forecast%20Promised%20Agreed.png)

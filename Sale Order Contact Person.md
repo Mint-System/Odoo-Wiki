@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale
 ---
+
 # Sale Order Contact Person
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -22,12 +24,12 @@ Diese App ist veraltet. Wir empfehlen die App [Sale Order Sale Partner](Sale%20O
 
 ### Empfängeradresse auf E-Mail-Vorlage festlegen
 
-Damit die Kontaktperson als Empfängeradresse für die E-Mail übernommen wird, darf auf der E-Mail-Vorlage kein Eintrag im Feld *An (Partner)* sein. Zur Bearbeitung rufen Sie die entsprechenden E-Mail-Vorlagen unter *Einstellungen > Technisch > E-Mail > E-Mail-Vorlagen* auf. Ersetzen Sie den Eintrag in *An (Partner)* `{{ object.partner_id.id }}` mit `{{ object.partner_contact_id.id or object.partner_id.id }}`.
+Damit die Kontaktperson als Empfängeradresse für die E-Mail übernommen wird, darf auf der E-Mail-Vorlage kein Eintrag im Feld _An (Partner)_ sein. Zur Bearbeitung rufen Sie die entsprechenden E-Mail-Vorlagen unter _Einstellungen > Technisch > E-Mail > E-Mail-Vorlagen_ auf. Ersetzen Sie den Eintrag in _An (Partner)_ `{{ object.partner_id.id }}` mit `{{ object.partner_contact_id.id or object.partner_id.id }}`.
 
 ## Verwendung
 
 ### Kontaktperson hinzufügen
 
-Öffnen Sie *Verkauf* und wählen Sie einen Verkaufsauftrag aus. Im Feld *Kontaktperson* können Sie einen bliegen Kontakt als Kontaktperson festlegen.
+Öffnen Sie _Verkauf_ und wählen Sie einen Verkaufsauftrag aus. Im Feld _Kontaktperson_ können Sie einen bliegen Kontakt als Kontaktperson festlegen.
 
 ![](attachments/Sale%20Order%20Contact%20Person%20Beispiel.png)

@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./project
 ---
+
 # Project Partner Open Tasks
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,8 +19,8 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/16.0/project_
 
 ### Offene Aufgaben von Kunde anzeigen
 
-Zeigen Sie *Kontakte* an und öffnen Sie einen Kunden. Klicken Sie auf den Smart-Button *X Aufgaben*. Sie werden auf die Listenansicht mit den gefilterten Aufgaben umgeleitet.
+Zeigen Sie _Kontakte_ an und öffnen Sie einen Kunden. Klicken Sie auf den Smart-Button _X Aufgaben_. Sie werden auf die Listenansicht mit den gefilterten Aufgaben umgeleitet.
 
 ::: tip
-Für Odoo sind Aufgaben erledigt, wenn die Aufgabe einer Aufgabenphase mit der Option *In Kanban eingeklappt* zugeordnet ist.
+Für Odoo sind Aufgaben erledigt, wenn die Aufgabe einer Aufgabenphase mit der Option _In Kanban eingeklappt_ zugeordnet ist.
 :::

@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Personal
+
 ![icons_odoo_hr](attachments/icons_odoo_hr.png)
 
 {{ $frontmatter.description }}
@@ -46,25 +48,25 @@ Odoo unterscheidet zwischen Benutzer und Mitarbeiter. Mitarbeiter müssen nicht 
 
 ### Abteilungen anzeigen
 
-Navigieren Sie nach *Personal > Abteilungen*.
+Navigieren Sie nach _Personal > Abteilungen_.
 
 ### Mitarbeiter erfassen
 
-Navigieren Sie nach *Personal* und wählen Sie *+ Anlegen*. Geben Sie den Vor- und Nachnamen des Mitarbeiters ein und öffnen Sie den Tab *HR Einstelungen*. Wählen Sie unter *Verknüpfter Benutzer* einen bestehenden Benutzer aus, falls der Mitarbeiter Zugriff auf Odoo haben soll. Schliessen Sie den Vorgang mit *Speichern* ab.
+Navigieren Sie nach _Personal_ und wählen Sie _+ Anlegen_. Geben Sie den Vor- und Nachnamen des Mitarbeiters ein und öffnen Sie den Tab _HR Einstelungen_. Wählen Sie unter _Verknüpfter Benutzer_ einen bestehenden Benutzer aus, falls der Mitarbeiter Zugriff auf Odoo haben soll. Schliessen Sie den Vorgang mit _Speichern_ ab.
 
 ### Mitarbeiter aus Benutzer erstellen
 
-Alternativ zu [Mitarbeiter erfassen](#Mitarbeiter%20erfassen) können Sie nach *Einstellungen > Benutzer > Benutzer verwalten* navigieren und hier den Odoo-Benutzer auswählen. Über den Knopf *Mitarbeiter anlegen* können Sie den Mitarbeiter erfassen. Dieser wird über den Smart-Link verknüpft.
+Alternativ zu [Mitarbeiter erfassen](#Mitarbeiter%20erfassen) können Sie nach _Einstellungen > Benutzer > Benutzer verwalten_ navigieren und hier den Odoo-Benutzer auswählen. Über den Knopf _Mitarbeiter anlegen_ können Sie den Mitarbeiter erfassen. Dieser wird über den Smart-Link verknüpft.
 
 ![](attachments/Peresonal%20Smart-Link%20Mitarbeiter.png)
 
 ### Vorgesetzte hinterlegen
 
-Damit Prozesse korrekt Ablaufen, muss die *Organisations-Charta* konfiguriert werden. Öffnen Sie den Mitarbeitenden via *Personal* und wählen im Feld *Manager* den Vorgesetzten aus. Die Visualisierung der Organisationsstruktur wird aktualisiert, sobald die Anpassung gespeichert ist.
+Damit Prozesse korrekt Ablaufen, muss die _Organisations-Charta_ konfiguriert werden. Öffnen Sie den Mitarbeitenden via _Personal_ und wählen im Feld _Manager_ den Vorgesetzten aus. Die Visualisierung der Organisationsstruktur wird aktualisiert, sobald die Anpassung gespeichert ist.
 
 ### Benutzer mit Mitarbeiter verknüpfen
 
-Sie können einen bestehenden Benutzer mit einem Mitarbeitenden-Eintrag verknüpfen. Zeigen Sie den Eintrag via *Personal* an und öffnen Sie den Tab *HR Einstellungen*. Wählen Sie hier im Feld *Verknüpfter Benutzer* den entsprechenden Benutzer aus.
+Sie können einen bestehenden Benutzer mit einem Mitarbeitenden-Eintrag verknüpfen. Zeigen Sie den Eintrag via _Personal_ an und öffnen Sie den Tab _HR Einstellungen_. Wählen Sie hier im Feld _Verknüpfter Benutzer_ den entsprechenden Benutzer aus.
 
 ![](attachments/Personal%20Verknüpfter%20Benutzer.png)
 
@@ -74,23 +76,23 @@ Sie können einen bestehenden Benutzer mit einem Mitarbeitenden-Eintrag verknüp
 
 Bestimmte Unterlagen wie die Lohnabrechnung werden an die private Adresse des Mitarbeiters versandt. Dafür gibt es ein entsprechendes Feld in der Mitarbeiter-Ansicht.
 
-Erstellen Sie eine private Adresse folgendermassen: *Personal > Mitarbeiter auswählen > Tab Private Information > Bearbeiten* und legen Sie private Adresse im Feld *Adresse* fest.
+Erstellen Sie eine private Adresse folgendermassen: _Personal > Mitarbeiter auswählen > Tab Private Information > Bearbeiten_ und legen Sie private Adresse im Feld _Adresse_ fest.
 
 ::: warning
-Das Feld heisst Adresse, aber effektiv ist damit ein privater Kontakt-Eintrag verbunden. 
+Das Feld heisst Adresse, aber effektiv ist damit ein privater Kontakt-Eintrag verbunden.
 :::
 
 ## Abrechnung
 
 ### Bankverbindung einrichten
 
-Zur Lohnabrechung und Abrechnung von Aufwänden brauchen Mitarbeitende eine private Adresse mit einem Bankkonto. Navigieren Sie nach *Personal* und öffnen Sie einen Eintrag. Im Tab *Private Information* finden Sie das Feld *Bankverbindung*. Hier können Sie ein [Bankkonto erfassen](Invoicing.md#Bankkonto%20erfassen)
+Zur Lohnabrechung und Abrechnung von Aufwänden brauchen Mitarbeitende eine private Adresse mit einem Bankkonto. Navigieren Sie nach _Personal_ und öffnen Sie einen Eintrag. Im Tab _Private Information_ finden Sie das Feld _Bankverbindung_. Hier können Sie ein [Bankkonto erfassen](Invoicing.md#Bankkonto%20erfassen)
 
 ## Arbeitszeit
 
 ### Arbeitszeit erstellen
 
-Navigieren Sie nach *Einstellungen > Technisch > Arbeitszeit* und erstellen Sie einen neuen Eintrag mit Namen gemäss dem bestehenden Schema. Geben Sie entweder die *Durchschnittliche Stundenzahl pro Tag* manuell ein oder erstellen Sie neue Einträge in der Liste *Arbeitsstunden*.
+Navigieren Sie nach _Einstellungen > Technisch > Arbeitszeit_ und erstellen Sie einen neuen Eintrag mit Namen gemäss dem bestehenden Schema. Geben Sie entweder die _Durchschnittliche Stundenzahl pro Tag_ manuell ein oder erstellen Sie neue Einträge in der Liste _Arbeitsstunden_.
 
 ![](attachments/Personal%20Arbeitszeit.png)
 
@@ -100,25 +102,25 @@ Stellen Sie sicher, dass die Anzahl Stunden am Vor- und Nachmittag gleich sind. 
 
 ### Flexible Arbeitszeit erfassen
 
-Navigieren Sie nach *Einstellungen > Technisch > Arbeitszeit* und erstellen Sie einen neuen Eintrag mit Namen *Standard 0 hours/week*. Entfernen Sie alle Einträge in *Arbeitsstunden* und tragen Sie als *Durchschnittliche Stundenzahl pro Tag* den Wert `0` ein. 
+Navigieren Sie nach _Einstellungen > Technisch > Arbeitszeit_ und erstellen Sie einen neuen Eintrag mit Namen _Standard 0 hours/week_. Entfernen Sie alle Einträge in _Arbeitsstunden_ und tragen Sie als _Durchschnittliche Stundenzahl pro Tag_ den Wert `0` ein.
 
 ![](attachments/Personal%20Flexible%20Arbeitszeit.png)
 
 ### Arbeitszeiten festlegen
 
-Um die Arbeitszeiten für einen Mitarbeiter festzulegen, öffnen Sie das App *Personal* und wählen den Mitarbeiten aus. Wählen Sie *Bearbeiten* und legen Sie im Tab *Arbeitsinformation* unter *Arbeitsplan* die *Arbeitsstunden* fest.
+Um die Arbeitszeiten für einen Mitarbeiter festzulegen, öffnen Sie das App _Personal_ und wählen den Mitarbeiten aus. Wählen Sie _Bearbeiten_ und legen Sie im Tab _Arbeitsinformation_ unter _Arbeitsplan_ die _Arbeitsstunden_ fest.
 
 ![](attachments/Personal%20Arbeitsstunden.png)
 
 ### Arbeitszeiten auf Vertrag festlegen
 
-Um die Arbeitszeiten für einen Mitarbeitenden auf dem Arbeitsvertrag festzulegen, zeigen Sie *Mitarbeiter > Mitarbeiter > Alle Verträge* und wählen einen Vertrag aus. Legen Sie unter *Arbeitsplan* die Arbeitszeiten fest.
+Um die Arbeitszeiten für einen Mitarbeitenden auf dem Arbeitsvertrag festzulegen, zeigen Sie _Mitarbeiter > Mitarbeiter > Alle Verträge_ und wählen einen Vertrag aus. Legen Sie unter _Arbeitsplan_ die Arbeitszeiten fest.
 
 ### Arbeitspensum wechseln
 
 Um das Pensum eines Mitarbeiten zu wechseln, muss ein Enddatum für die bestehenden Arbeitszeiten eingetragen werden und die neuen Arbeitszeiten werden darunter erfasst.
 
-Erstellen Sie eine neues Pensum *Personal > Mitarbeiter auswählen > Tab Arbeitsinformation > Ausführungsplan > Anlegen und Bearbeiten*. Definieren Sie einen passenden Titel und legen Sie bei den bestehenden Arbeitszeiten das Enddatum fest.
+Erstellen Sie eine neues Pensum _Personal > Mitarbeiter auswählen > Tab Arbeitsinformation > Ausführungsplan > Anlegen und Bearbeiten_. Definieren Sie einen passenden Titel und legen Sie bei den bestehenden Arbeitszeiten das Enddatum fest.
 
 ![](attachments/Personal%20Arbeitszeiten%20mit%20Enddatum.png)
 
@@ -134,10 +136,10 @@ Wenn Mitarbeitende unterhalb des Jahres ein Arbeitspensum reduzieren oder erhöh
 
 ### Mitarbeiteraustritt ausführen
 
-Ein Mitarbeiteraustritt bedeutet für Odoo eine Archivierung des Mitarbeitenden in der *Personal* App. Wählen Sie den/die Mitarbeitenden unter *Personal* aus und klicken auf *Aktionen > Archiv*. Zusammenhängende Ressourcen zum Personaleintrag werden mit dier Aktion ebenfalls archiviert.
+Ein Mitarbeiteraustritt bedeutet für Odoo eine Archivierung des Mitarbeitenden in der _Personal_ App. Wählen Sie den/die Mitarbeitenden unter _Personal_ aus und klicken auf _Aktionen > Archiv_. Zusammenhängende Ressourcen zum Personaleintrag werden mit dier Aktion ebenfalls archiviert.
 
 ## Berechtigung
 
 ### Neue Berechtigungsgruppe Personalmanager anlegen
 
-Gehen Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und erstellen Sie eine Kopie von *Personal / Personalsachbearbeiter*. Geben Sie als Namen *Personalmanager* ein und entfernen Sie die Einträge im Tab *Benutzer*, *Vererbt*, *Menüs* und *Datensatzregeln*. Benutzer in dieser Gruppe erhalten Zugriff auf Aktivitäten auf dem Mitarbeiter-Objekt.
+Gehen Sie nach _Einstellungen > Benutzer und Unternehmen > Gruppen_ und erstellen Sie eine Kopie von _Personal / Personalsachbearbeiter_. Geben Sie als Namen _Personalmanager_ ein und entfernen Sie die Einträge im Tab _Benutzer_, _Vererbt_, _Menüs_ und _Datensatzregeln_. Benutzer in dieser Gruppe erhalten Zugriff auf Aktivitäten auf dem Mitarbeiter-Objekt.

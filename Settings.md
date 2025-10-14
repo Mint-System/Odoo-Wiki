@@ -5,7 +5,9 @@ kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
+
 # Einstellungen
+
 ![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 {{ $frontmatter.description }}
@@ -43,41 +45,41 @@ partner: Odoo S.A.
 | [Web Company Color](Web%20Company%20Color.md)                                             | Farben des Odoo Backend Theme anpassen.                            |
 | [Web Enterprise Admin Expiration Panel](Web%20Enterprise%20Admin%20Expiration%20Panel.md) | Meldung Ablauf der Datenbank nur für Admins anzeigen.              |
 | [Web Theme Classic](Web%20Theme%20Classic.md)                                             | Kontrast auf Benutzeroberfläche verbessern.                        |
-| [Auth API Key](Auth%20API%20Key.md)                                                       | HTTP-Anfragen mit API-Key authentifizieren.                                                                   |
+| [Auth API Key](Auth%20API%20Key.md)                                                       | HTTP-Anfragen mit API-Key authentifizieren.                        |
 
 ## Konfiguration
 
 ### Unternehmensdaten eintragen
 
-Die Unternehmensdaten werden an vielen Stellen im System verwendet. Unter anderem für die Rechnung, für Angebote, für E-Mails und weiteres. Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Unternehmen* und wählen Sie *Update Info*. Füllen Sie bitte diese Daten aus und verwenden Sie ein Logo mit folgenden Details:
+Die Unternehmensdaten werden an vielen Stellen im System verwendet. Unter anderem für die Rechnung, für Angebote, für E-Mails und weiteres. Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Unternehmen_ und wählen Sie _Update Info_. Füllen Sie bitte diese Daten aus und verwenden Sie ein Logo mit folgenden Details:
 
-* **Datenformat**: JPG oder PNG
-* **Grösse**: Empfehlung Breite 300 pixel
+- **Datenformat**: JPG oder PNG
+- **Grösse**: Empfehlung Breite 300 pixel
 
 Und füllen Sie mindestens diese Felder aus:
 
-* **Adresse**: Anschrift ihres Unternehmens
-* **Tax ID**: Die Steuernummer
-* **Unternehmens ID**: Das ist die Handelregister-Nummer ihres Unternehmen
-* **E-Mail**: Allgemeine Kontaktadresse
-* **Website**: Webauftritt des Unternehmen
-* **Währung**: Basis-Währung des Unternehmens
+- **Adresse**: Anschrift ihres Unternehmens
+- **Tax ID**: Die Steuernummer
+- **Unternehmens ID**: Das ist die Handelregister-Nummer ihres Unternehmen
+- **E-Mail**: Allgemeine Kontaktadresse
+- **Website**: Webauftritt des Unternehmen
+- **Währung**: Basis-Währung des Unternehmens
 
 ## Berechtigung
 
 ### Benutzer-Registration verhindern
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Berechtigungen* und wählen Sie bei *Kundenkonto* die Option *Auf Einladung* aus.
+Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Berechtigungen_ und wählen Sie bei _Kundenkonto_ die Option _Auf Einladung_ aus.
 
 ### Benutzer-Registration erlauben
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Berechtigungen* und wählen Sie bei *Kundenkonto* die Option *Kostenlose Anmeldung* aus.
+Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Berechtigungen_ und wählen Sie bei _Kundenkonto_ die Option _Kostenlose Anmeldung_ aus.
 
 ## Technisch
 
 ### Entwicklermodus aktivieren
 
-Navigieren nach *Einstellungen > Allgemeine Einstellungen > Entwicklertools*. Klicken Sie auf *Entwicklermodus aktivieren*. Nun erscheinen neue Optionen in verschiedenen Odoo Apps. 
+Navigieren nach _Einstellungen > Allgemeine Einstellungen > Entwicklertools_. Klicken Sie auf _Entwicklermodus aktivieren_. Nun erscheinen neue Optionen in verschiedenen Odoo Apps.
 
 In der URL erscheint zusätzlich der Parameter `?debug=1`. Der Entwicklermodus kann auch über die manuelle Eingabe dieses Parameters aktiviert werden.
 
@@ -91,7 +93,7 @@ Mit einem Mausklick können Sie damit den Entwicklermodus ein- und ausschalten.
 
 Aktivieren Sie den [Entwicklermodus](Settings.md#Entwicklermodus%20aktivieren).
 
-Klicken Sie *Entwicklertools > Superuser werden*. Das Layout von Odoo ändert sich, Sie sind nun Superuser. Um zum normalen Benutzer zu wechseln, müssen Sie sich abmelden.
+Klicken Sie _Entwicklertools > Superuser werden_. Das Layout von Odoo ändert sich, Sie sind nun Superuser. Um zum normalen Benutzer zu wechseln, müssen Sie sich abmelden.
 
 ::: warning
 Im Superuser-Modus werden alle Berechtigungen ignoriert. Das System kann unabsichtlich in einen inkonsistenten Zustand gebracht werden.
@@ -101,13 +103,13 @@ Im Superuser-Modus werden alle Berechtigungen ignoriert. Das System kann unabsic
 
 Aktivieren Sie den [Entwicklermodus](Settings.md#Entwicklermodus%20aktivieren).
 
-Klicken Sie auf das Käfer-Symbol in der Menu-Leiste oben rechts. Wählen Sie *Tour deaktivieren*.
+Klicken Sie auf das Käfer-Symbol in der Menu-Leiste oben rechts. Wählen Sie _Tour deaktivieren_.
 
 ## Berichte
 
 ### Neues Papierformat einrichten
 
-Navigieren Sie nach *Einstellungen > Technisch > Berichtswesen > Papieformat*. Wir nehmen an, es braucht ein neues Papieformat für einen Etikettendrucker. Erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Berichtswesen > Papieformat_. Wir nehmen an, es braucht ein neues Papieformat für einen Etikettendrucker. Erstellen Sie einen neuen Eintrag:
 
 ![](attachments/Neues%20Papierformat.png)
 
@@ -117,38 +119,38 @@ Für einen exakten Druck, müssen Sie die Seitengrösse in Inch und Milimeter ke
 
 ### Dokumentlayout konfigurieren
 
-Die Darstellung der generierten Dokumente kann einfach angepasst werden. Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Geschäftsunterlagen* und wählen Sie *Dokumentlayout konfigurieren* aus. Die hier ausgewählte Dokumentvorlage wird für alle Berichte übernommen.
+Die Darstellung der generierten Dokumente kann einfach angepasst werden. Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Geschäftsunterlagen_ und wählen Sie _Dokumentlayout konfigurieren_ aus. Die hier ausgewählte Dokumentvorlage wird für alle Berichte übernommen.
 
 ![](attachments/Einstellungen%20Dokumentlayout.png)
 
 ### Papierformat für Bericht anpassen
 
-Angenommen Sie möchten das Papieformat für den ISR-Einzahlungsschein ändern, öffnen Sie im Entwicklermodus *Einstellungen > Technisch > Berichtswesen > Papierformat.*
+Angenommen Sie möchten das Papieformat für den ISR-Einzahlungsschein ändern, öffnen Sie im Entwicklermodus _Einstellungen > Technisch > Berichtswesen > Papierformat._
 
-Duplizieren Sie das Papierformat *European A4 without borders* als *European A4 for ISR Report*.
+Duplizieren Sie das Papierformat _European A4 without borders_ als _European A4 for ISR Report_.
 
-Passen Sie das Papierformat an, beispielsweise mit *Linker Rand (mm)* `5.00`.
+Passen Sie das Papierformat an, beispielsweise mit _Linker Rand (mm)_ `5.00`.
 
-Im Entwicklermodus öffnen Sie *Einstellungen > Technisch > Berichtswesen > Berichte*, wählen den Bericht *ISR* und legen Sie das neue Papieformat fest.
+Im Entwicklermodus öffnen Sie _Einstellungen > Technisch > Berichtswesen > Berichte_, wählen den Bericht _ISR_ und legen Sie das neue Papieformat fest.
 
 ## Standardwerte
 
 ### Standardwerte setzen
 
-Für jedes Dokument können Sie Standardwerte mit Bedingungen festlegen. Öffnen Sie im Entwicklermodus ein Objekt, beispielsweise ein *Angebot* und legen Sie für ein Feld einen neuen Wert fest. Bevor Sie das Angebot speichern, navigieren Sie zum Entwicklertools und wählen *Standardwert setzen*. Im Dialog wählen Sie das Feld und den Wert sowie die passende Bedingung. Wenn Sie den Standardwert gespeichert haben, wir dieser bei der Erstellung eines neuen Dokuments angewendet.
+Für jedes Dokument können Sie Standardwerte mit Bedingungen festlegen. Öffnen Sie im Entwicklermodus ein Objekt, beispielsweise ein _Angebot_ und legen Sie für ein Feld einen neuen Wert fest. Bevor Sie das Angebot speichern, navigieren Sie zum Entwicklertools und wählen _Standardwert setzen_. Im Dialog wählen Sie das Feld und den Wert sowie die passende Bedingung. Wenn Sie den Standardwert gespeichert haben, wir dieser bei der Erstellung eines neuen Dokuments angewendet.
 
 ![Einstellungen Standardwerte festlegen](attachments/Einstellungen%20Standardwerte%20festlegen.gif)
 
 ### Datumsformat ändern
 
-Für jede installierte Sprache kann das angezeigte Datumsformat überschrieben werden. Öffnen Sie das Sprachpaket via *Einstellungen > Allgemeine Einstellungen > Sprachen > Sprachen verwalten*. Bearbeiten Sie das Feld *Datumsformat* und geben Sie dort `%d.%m.%Y` ein.
+Für jede installierte Sprache kann das angezeigte Datumsformat überschrieben werden. Öffnen Sie das Sprachpaket via _Einstellungen > Allgemeine Einstellungen > Sprachen > Sprachen verwalten_. Bearbeiten Sie das Feld _Datumsformat_ und geben Sie dort `%d.%m.%Y` ein.
 
 ![](attachments/Einstellung%20Datumsformat.png)
 
 ### Sequenz anpassen
 
-Um die Nummerierung einer Sequenz anzupassen, öffnen Sie *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Sequenzen*. Wählen Sie die Sequenz aus und setzen die beispielsweise das Feld *Nächste Nummer zuweisen*.
+Um die Nummerierung einer Sequenz anzupassen, öffnen Sie _Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Sequenzen_. Wählen Sie die Sequenz aus und setzen die beispielsweise das Feld _Nächste Nummer zuweisen_.
 
 ### Sequenz-Nummerierung per Datum zurücksetzen
 
-Damit die Sequenz-Nummer auf ein bestimmtes Datum, beipsielweise Ende Jahr, zurückgesetzt wird, navigieren Sie nach *Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Sequenzen* und öffnen eine Sequenz. Aktivieren Sie die Option *Teilmenge aus date_range verwenden* und tragen Sie hier die Datums-Abschnitte und *Nächste Nummer zuweisen* ein.
+Damit die Sequenz-Nummer auf ein bestimmtes Datum, beipsielweise Ende Jahr, zurückgesetzt wird, navigieren Sie nach _Einstellungen > Technisch > Sequenzen- und Identifizierungsmerkmale > Sequenzen_ und öffnen eine Sequenz. Aktivieren Sie die Option _Teilmenge aus date_range verwenden_ und tragen Sie hier die Datums-Abschnitte und _Nächste Nummer zuweisen_ ein.

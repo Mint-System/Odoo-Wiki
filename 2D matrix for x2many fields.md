@@ -3,10 +3,12 @@ title: 2D matrix for x2many fields
 description: Matrix-Auswahl für Many2Many-Feld.
 kind: howto
 tags:
-- OCA
+    - OCA
 prev: ./development
 ---
+
 # 2D matrix for x2many fields
+
 ![icon_oca_app](../attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
