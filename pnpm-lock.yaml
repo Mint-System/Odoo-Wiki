@@ -14,6 +14,9 @@ importers:
       '@vuepress/client':
         specifier: 2.0.0-rc.23
         version: 2.0.0-rc.23
+      '@vuepress/plugin-search':
+        specifier: 2.0.0-rc.112
+        version: 2.0.0-rc.112(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0))(vue@3.5.15))
       '@vuepress/plugin-shiki':
         specifier: 2.0.0-rc.106
         version: 2.0.0-rc.106(@vueuse/core@13.2.0(vue@3.5.15))(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0))(vue@3.5.15))
@@ -891,6 +894,11 @@ packages:
     resolution: {integrity: sha512-1AoYRjctTuMeypIAJUeTcSvTtGtG+Nt/eedxvxIC1BWEmObEVcyWXxz8QCsM8/8O5lajesgDMO2Bi2CqetcfuA==}
     peerDependencies:
       vuepress: 2.0.0-rc.23
+
+  '@vuepress/plugin-search@2.0.0-rc.112':
+    resolution: {integrity: sha512-liQxClnwXRn3V8I3OORvS2/OwHSx2pi0c3F/V/ji++Zy4DVpSEzhMJAfHkHmo1KKzokqakSBiJz8bQudp5ZMFw==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.24
 
   '@vuepress/plugin-seo@2.0.0-rc.106':
     resolution: {integrity: sha512-eFh5O2g/I50N3oWXCPSo2EMqhXZmVS9ttnUBqO17vhXQbUOC6uUZvFeOh9IfZ1n+39ZNfmA3+UVgKUIie60PBA==}
@@ -3235,6 +3243,15 @@ snapshots:
       vuepress: 2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0))(vue@3.5.15)
     transitivePeerDependencies:
       - '@vueuse/core'
+      - typescript
+
+  '@vuepress/plugin-search@2.0.0-rc.112(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0))(vue@3.5.15))':
+    dependencies:
+      '@vuepress/helper': 2.0.0-rc.112(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0))(vue@3.5.15))
+      chokidar: 4.0.3
+      vue: 3.5.18
+      vuepress: 2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0))(vue@3.5.15)
+    transitivePeerDependencies:
       - typescript
 
   '@vuepress/plugin-seo@2.0.0-rc.106(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@22.15.21)(sass-embedded@1.89.0))(vue@3.5.15))':

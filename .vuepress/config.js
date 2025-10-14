@@ -6,6 +6,7 @@ import { mermaidPlugin } from './mermaid'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import sidebar from './sidebar'
 import { defineUserConfig } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
     bundler: viteBundler(),
@@ -38,9 +39,12 @@ export default defineUserConfig({
         }
     }),
     plugins: [
-        slimsearchPlugin({
-            indexContent: true,
-            suggestion: false
+        // slimsearchPlugin({
+        //     indexContent: true,
+        //     suggestion: false
+        // }),
+        searchPlugin({
+            maxSuggestions: 10
         }),
         plausiblePlugin({
             'domain': 'odoo-wiki.org'
