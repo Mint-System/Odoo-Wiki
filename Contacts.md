@@ -58,6 +58,7 @@ partner: Odoo S.A.
 | [Partner Type Order](Partner%20Type%20Order.md)                                                   | Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.               |
 | [Partner Type Sale](Partner%20Type%20Sale.md)                                                     | Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.              |
 | [Street3 in addresses](Street3%20in%20addresses.md)                                               | Drittes Adressfeld für Strasse.                                             |
+| [Partner Stage](Partner%20Stage.md)                                                               | Stufen-Felder für Kontakte.                                                                            |
 
 ## Portal
 

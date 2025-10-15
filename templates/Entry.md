@@ -1,10 +1,10 @@
 ---
-title: { { VALUE:name } }
-description: { { VALUE:description } }
+title: {{VALUE:name}}
+description: {{VALUE:description}}
 kind: howto
 tags:
-  - { { VALUE:org_name } }
-prev: { { VALUE:prev } }
+  - {{VALUE:org_name}}
+prev: {{VALUE:prev}}
 ---
 
 # {{VALUE:name}}
@@ -12,7 +12,6 @@ prev: { { VALUE:prev } }
 {{VALUE:module_icon}}
 
 {{ $frontmatter.description }}
-
 ```js quickadd
 const odoo_version = await this.quickAddApi.suggester(
   ['16.0', '17.0', '18.0'],
@@ -36,6 +35,5 @@ if (org_name == 'Thirdparty') {
 
 this.variables.module_icon = module_icon
 ```
-
 Technischer Name: `{{VALUE:module_name}}`\
 Repository: <https://github.com/{{VALUE:org_name}}/{{VALUE:repo_name}}/tree/{{VALUE:odoo_version}}/{{VALUE:module_name}}>
