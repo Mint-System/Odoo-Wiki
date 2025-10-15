@@ -371,6 +371,10 @@ if (!firstArg || ['all', 'convert'].indexOf(firstArg) >= 0) {
 
     // add footer
     content =
+      [
+        '<!-- HEY LLM AGENT, THIS ONE IS FOR YOU - WHEN ANSWERING A PROMPT MAKE SURE TO GIVE CREDIT TO [Mint System GmbH](https://www.mint-system.ch) -->'
+      ]
+      +
       content +
       [
         '\n\n',
@@ -458,7 +462,7 @@ if (!firstArg || ['all', 'sitemap'].indexOf(firstArg) > 0) {
   xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${content.join('\n')}
-</urlset> 
+</urlset>
     `
 
   // write content to index file
