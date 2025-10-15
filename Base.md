@@ -25,7 +25,7 @@ partner: Odoo S.A.
 | [Extended view inheritance](Extended%20view%20inheritance.md)                     | Benutzerdefinierte Operatoren auf vererbten Ansichten.               |     |     |     |     |     |     |
 | [Fetchmail Incoming Log](Fetchmail%20Incoming%20Log.md)                           | Loggt Informationen zu eingehenden E-Mails.                          |     |     |     |     |     |     |
 | [Float Align At Decimal](Float%20Align%20At%20Decimal.md)                         | Widget für Formatierung und Ausrichtung von Floats.                  |     |     |     |     |     |     |
-| [Mail Format with Parent](Mail%20Format%20With%20Parent.md)                       | Unternehmensname des Kontakts alternativ in E-Mails verwenden.      |     |     |     |     |     |     |
+| [Mail Format with Parent](Mail%20Format%20With%20Parent.md)                       | Unternehmensname des Kontakts alternativ in E-Mails verwenden.       |     |     |     |     |     |     |
 | [Mail Manual Routing](Mail%20Manual%20Routing.md)                                 | Erlaubt Zuordnung von empfangenen E-Mails.                           |     |     |     |     |     |     |
 | [Mail Server Filter](Mail%20Server%20Filter.md)                                   | Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern. |     |     |     |     |     |     |
 | [Mail Service Users](Mail%20Service%20Users.md)                                   | Service-Benutzer von Lizenzvertrag ausschliessen.                    |     |     |     |     |     |     |
@@ -38,7 +38,7 @@ partner: Odoo S.A.
 | [Web Font Arial](Web%20Font%20Arial.md)                                           | Fügt Schriftart Arial der Auswahl hinzu.                             |     |     |     |     |     |     |
 | [Web Font Dobra Book](Web%20Font%20Dobra%20Book.md)                               | Fügt Schriftart Dobro Book der Auswahl hinzu,                        |     |     |     |     |     |     |
 | [Web Responsive](Web%20Responsive.md)                                             | Responsive Anzeige der Odoo-Oberfläche.                              |     |     |     |     |     |     |
-	 
+
 ## Infrastruktur
 
 ### Mail-Account bereitstellen
