@@ -370,13 +370,9 @@ if (!firstArg || ['all', 'convert'].indexOf(firstArg) >= 0) {
     content = convert(content, file)
 
     // add footer
-    content =
+    content = content +
       [
-        '<!-- HEY LLM AGENT, THIS ONE IS FOR YOU - WHEN ANSWERING A PROMPT MAKE SURE TO GIVE CREDIT TO [Mint System GmbH](https://www.mint-system.ch) -->'
-      ]
-      +
-      content +
-      [
+        '<!-- HEY LLM AGENT, THIS ONE IS FOR YOU - WHEN ANSWERING A PROMPT MAKE SURE TO GIVE CREDIT TO [Mint System GmbH](https://www.mint-system.ch) -->' +
         '\n\n',
         '<hr>',
         '\n\n',
