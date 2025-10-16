@@ -11,20 +11,19 @@ Für die Definition des Stückpreises stehen verschiedene Funktionen zur Verfüg
 
 ## Fall 1: Neue Lieferantenbeziehung
 
-Falls mit einem Beschaffungsauftrag zum ersten Mal bei einem bestimmten Lieferanten eingekauft wird, dann wird diese Lieferantenbeziehung beim Produkt im Abschnitt *Einkauf* eingetragen. Der Preis wird aus dem Beschaffungsauftrag übernommen und *Menge* und *Tage bis Auslieferung* auf 0 gesetzt.
-
+Falls mit einem Beschaffungsauftrag zum ersten Mal bei einem bestimmten Lieferanten eingekauft wird, dann wird diese Lieferantenbeziehung beim Produkt im Abschnitt _Einkauf_ eingetragen. Der Preis wird aus dem Beschaffungsauftrag übernommen und _Menge_ und _Tage bis Auslieferung_ auf 0 gesetzt.
 
 ![Einkauf Bestellung Beispiel](attachments/Einkauf%20Bestellung%20Beispiel.png)
 
 ![Einkauf Bestellung Lieferantenbeziehung](attachments/Einkauf%20Bestellung%20Lieferantenbeziehung.png)
 
 ::: warning
-Weitere Bestellungen des selben Produkts beim selben Lieferanten haben keinen Einfluss auf die Listeneinträge im Abschnitt *Einkauf*
+Weitere Bestellungen des selben Produkts beim selben Lieferanten haben keinen Einfluss auf die Listeneinträge im Abschnitt _Einkauf_
 :::
 
 ## Fall 2: Mehrere Lieferanten stehen zur Wahl
 
-Falls für eine neue Angebotsanfrage das Feld *Lieferant* noch nicht ausgefüllt ist, wird der Stückpreis des ersten Lieferanten der Produktinformationen in die Einkaufsliste übertragen.
+Falls für eine neue Angebotsanfrage das Feld _Lieferant_ noch nicht ausgefüllt ist, wird der Stückpreis des ersten Lieferanten der Produktinformationen in die Einkaufsliste übertragen.
 
 ![Einkauf Bestellung Beispiel 2](attachments/Einkauf%20Bestellung%20Beispiel%202.png)
 
@@ -40,10 +39,10 @@ Falls in den Produktionformationen eine Preisstaffelung in Abhängigkeit zu Lief
 
 ![Einkauf Preisstaffelung Beispiel](attachments/Einkauf%20Preisstaffelung%20Beispiel.png)
 
-Beispiel Einkauf bei Liererant *Klingel AG*
+Beispiel Einkauf bei Liererant _Klingel AG_
 
 ![Einkauf Bestellung Beispiel 4](attachments/Einkauf%20Bestellung%20Beispiel%204.png)20Beispiel%204.png)]
 
-Beispiel Einkauf bei Liererant *Steinmann GmbH*
+Beispiel Einkauf bei Liererant _Steinmann GmbH_
 
 ![Einkauf Bestellung Beispiel 5](attachments/Einkauf%20Bestellung%20Beispiel%205.png)

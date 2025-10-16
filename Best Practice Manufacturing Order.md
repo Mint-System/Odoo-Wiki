@@ -4,6 +4,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Fertigungsauftrag
 
 ## Spezialfall Teilmenge einlagern
@@ -14,7 +15,7 @@ Ein Fertigungsauftrag für eine bestimmte Menge N eines Produktes wird ausgelös
 
 ### Beispiel
 
-Der Fertigungsauftrag WH/MO/00001 für 16 Stk des Artikels *Speiche* wird auf folgender Basis geplant:
+Der Fertigungsauftrag WH/MO/00001 für 16 Stk des Artikels _Speiche_ wird auf folgender Basis geplant:
 
 ![Best Practice Speichen Lagerbestand Arbeitspläne](attachments/Best%20Practice%20Speichen%20Lagerbestand%20Arbeitspläne.svg)
 
@@ -22,16 +23,16 @@ Daraus entstehen vier Arbeitsaufträge:
 
 ![Best Practice Arbeitsaufträge 1](attachments/Best%20Practice%20Arbeitsaufträge%201.svg)
 
-Die Arbeitsaufträge werden der Reihe nach bearbeitet  (*Prozess*) und mit der Teilmenge B abgeschlossen. Sie bleiben damit im Status *In Arbeit* und es zeigt sich folgende Situation:
+Die Arbeitsaufträge werden der Reihe nach bearbeitet (_Prozess_) und mit der Teilmenge B abgeschlossen. Sie bleiben damit im Status _In Arbeit_ und es zeigt sich folgende Situation:
 
 ![Best Practice Arbeitsaufträge 2](attachments/Best%20Practice%20Arbeitsaufträge%202.svg)
 
 ::: tip
-Das sequenzielle Abarbeiten von nicht abgeschlossenen Arbeitsaufträgen funktioniert nur, wenn im entsprechenden Arbeitsplan folgende Option eingeschaltet ist: *Start Next Operation: Sobald einige Produkte verarbeitet sind*
+Das sequenzielle Abarbeiten von nicht abgeschlossenen Arbeitsaufträgen funktioniert nur, wenn im entsprechenden Arbeitsplan folgende Option eingeschaltet ist: _Start Next Operation: Sobald einige Produkte verarbeitet sind_
 :::
 
-Im Fertigungsauftrag WH/MO/00001 erscheinen die abgeschlossenen Produkte der Menge B im Register Fertigprodukte. Mit der Funktion *Bestandänderung Buchen* werden die fertiggestellten Produkte ans Lager gebucht. Die noch offenen Arbeitsaufträge können mit der Menge A-B weiter bearbeitet und der Auftrag dann vollständig abgeschlossen werden.
+Im Fertigungsauftrag WH/MO/00001 erscheinen die abgeschlossenen Produkte der Menge B im Register Fertigprodukte. Mit der Funktion _Bestandänderung Buchen_ werden die fertiggestellten Produkte ans Lager gebucht. Die noch offenen Arbeitsaufträge können mit der Menge A-B weiter bearbeitet und der Auftrag dann vollständig abgeschlossen werden.
 
 ::: tip
-Die Funktion *Bestandänderung Buchen* erscheint nur, wenn der Entwicklermodus eingeschaltet ist.
+Die Funktion _Bestandänderung Buchen_ erscheint nur, wenn der Entwicklermodus eingeschaltet ist.
 :::

@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./project
 ---
+
 # Business Requirement
+
 ![](attachments/icon_oca_business_requirement.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/OCA/business-requirement/tree/16.0/business_requ
 
 ### Projektanforderung erfassen
 
-Öffnen sie  die App *Business Requirement* und klicken sie auf *Neu*. Geben sie einen Titel ein und füllen sie die Felder wie nötig aus.
+Öffnen sie die App _Business Requirement_ und klicken sie auf _Neu_. Geben sie einen Titel ein und füllen sie die Felder wie nötig aus.
 
 ![](attachments/Business%20Requirement%20erstellen.png)
 
@@ -29,9 +31,9 @@ Beim Speichern wird gemäss Sequenz eine ID generiert. Sie können diese [Sequen
 
 ### Portal-Zugriff für Stakeholder erlauben
 
-Damit Stakeholder im Portal das Business Requirement sehen, braucht es eine Anpassung der Berechtigungen. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und zeigen Sie Gruppe *Benutzertypen / Portal* an. Führen Sie [Datensatzregeln auf Gruppe vergeben](Settings%20Permissions.md#Datensatzregeln%20auf%20Gruppe%20vergeben) mit diesen Parameter aus:
+Damit Stakeholder im Portal das Business Requirement sehen, braucht es eine Anpassung der Berechtigungen. Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Gruppen_ und zeigen Sie Gruppe _Benutzertypen / Portal_ an. Führen Sie [Datensatzregeln auf Gruppe vergeben](Settings%20Permissions.md#Datensatzregeln%20auf%20Gruppe%20vergeben) mit diesen Parameter aus:
 
-* **Name**: Business Requirement portal access
-* **Modell**: `business.requirement`
-* **Domain**: `[('portal_published', '=', True),('partner_id', '=', user.partner_id.id)]`
-* **Berechtigung**: Setze Leseberechtigung
+- **Name**: Business Requirement portal access
+- **Modell**: `business.requirement`
+- **Domain**: `[('portal_published', '=', True),('partner_id', '=', user.partner_id.id)]`
+- **Berechtigung**: Setze Leseberechtigung

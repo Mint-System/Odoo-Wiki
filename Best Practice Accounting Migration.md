@@ -9,10 +9,10 @@ prev: ./best-practice
 
 Wir empfehlen zwischen drei Ansätzen zur Migration der Buchhaltung nach Odoo auszuwählen:
 
-* Migration mit Neueröffnung
-* Migration mit offenen Posten
-* Migration mit Erfolgsrechnung
-* Migration der gesamten Buchhaltung
+- Migration mit Neueröffnung
+- Migration mit offenen Posten
+- Migration mit Erfolgsrechnung
+- Migration der gesamten Buchhaltung
 
 ## Migration mit Neueröffnung
 
@@ -36,9 +36,9 @@ Nehmen Sie die Odoo-Buchhaltung in Betrieb und importieren Sie die Buchungszeile
 
 Wir empfehlen Ihnen diesen Ansatz nicht zu verfolgen. Dies aus folgenden Gründen:
 
-* Odoo hat eine Logik wie Konten im Bereich 1000 benannt und erstellt werden.
-* Für die Mehrwertsteuerabrechnung setzt Odoo nebst ausgewählten Konto, auch die Markierung der Mehrwertsteuer-Buchungszeilen voraus
-* Der Gewinn- und Verlust-Vortrag setzt die Verwendung von bestimmten Konten voraus
-* Die Schweizer Finanzberichte von Odoo enthalten Filter für Konten im Bereich 1000, 2000 und 9000
+- Odoo hat eine Logik wie Konten im Bereich 1000 benannt und erstellt werden.
+- Für die Mehrwertsteuerabrechnung setzt Odoo nebst ausgewählten Konto, auch die Markierung der Mehrwertsteuer-Buchungszeilen voraus
+- Der Gewinn- und Verlust-Vortrag setzt die Verwendung von bestimmten Konten voraus
+- Die Schweizer Finanzberichte von Odoo enthalten Filter für Konten im Bereich 1000, 2000 und 9000
 
 Eine Migration der gesamten Buchhaltung würde bedeuten, dass Sie die Logik der Finanzberichte, Mehrwertsteuer und Bank-Journale anpassen müssen.

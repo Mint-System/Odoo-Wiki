@@ -3,8 +3,11 @@ title: Wartung
 description: Wartungs-Software für moderne Hersteller.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
+
 # Wartung
+
 ![icons_odoo_maintenance](attachments/icons_odoo_maintenance.png)
 
 {{ $frontmatter.description }}
@@ -28,15 +31,15 @@ Website: <https://www.odoo.com/de_DE/app/maintenance>
 
 ### Wartungsstufen verwalten
 
-Zeigen Sie *Wartung > Konfiguration > Wartungsstufen* an. Hier können Sie bestehende Stufen anpassen und neue Stufen erfassen.
+Zeigen Sie _Wartung > Konfiguration > Wartungsstufen_ an. Hier können Sie bestehende Stufen anpassen und neue Stufen erfassen.
 
 ### Inventar erfassen
 
-Navigieren Sie nach *Wartung > Inventar* und erstellen Sie einen neuen Eintrag. Füllen Sie mindestens *Inventarbezeichnung* und *Wartungsteam* aus.
+Navigieren Sie nach _Wartung > Inventar_ und erstellen Sie einen neuen Eintrag. Füllen Sie mindestens _Inventarbezeichnung_ und _Wartungsteam_ aus.
 
 ### Wartungsanfrage manuell erstellen
 
-Navigieren Sie nach *Wartung > Wartung > Wartungsanfragen* und erstellen Sie einen neuen Eintrag. 
+Navigieren Sie nach _Wartung > Wartung > Wartungsanfragen_ und erstellen Sie einen neuen Eintrag.
 
 ## Entwicklung
 
@@ -64,7 +67,6 @@ Erstellen Sie eine neue Ansicht gemäss [Ansicht erstellen](Development%20Views.
 	<field string="Responsible" name="technician_user_id"/>
 </tree>
 ```
-
 
 Folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
 

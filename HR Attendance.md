@@ -3,9 +3,11 @@ title: Anwesenheiten
 description: Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
 
 # Anwesenheiten
+
 ![icons_odoo_hr_attendance](attachments/icons_odoo_hr_attendance.png)
 
 {{ $frontmatter.description }}
@@ -46,7 +48,7 @@ Odoo unterscheidet zwischen Anwesenheits- und Projektzeit. Die Zeiterfassung fü
 
 ### Ausweis ID hinterlegen
 
-Für jeden Mitarbeitenden kann eine Ausweis ID hinterlegt werden. Navigieren Sie dazu nach *Personal > Mitarbeitende auswählen > Tab HR Einstellungen*. Geben Sie im Feld *Ausweis ID* die gewünschte Nummer ein oder wählen Sie *Erzeugen.*
+Für jeden Mitarbeitenden kann eine Ausweis ID hinterlegt werden. Navigieren Sie dazu nach _Personal > Mitarbeitende auswählen > Tab HR Einstellungen_. Geben Sie im Feld _Ausweis ID_ die gewünschte Nummer ein oder wählen Sie _Erzeugen._
 
 ![](attachments/Anwesenheiten%20Ausweis%20ID.png)
 
@@ -56,7 +58,7 @@ Die Ausweis ID ist ist für die Anmeldung im Kioskmodus relevant.
 
 ### PIN Code für Anmeldung festlegen
 
-Wenn Sie die Anmeldung der Anwesenheit mit einem PIN Code validieren möchten, können Sie diesen auf den Mitarbeitenden hinterlegen. Navigieren Sie dazu nach *Personal > Mitarbeitende auswählen > Tab HR Einstellungen*. Geben Sie den PIN im Feld *PIN Code* ein.
+Wenn Sie die Anmeldung der Anwesenheit mit einem PIN Code validieren möchten, können Sie diesen auf den Mitarbeitenden hinterlegen. Navigieren Sie dazu nach _Personal > Mitarbeitende auswählen > Tab HR Einstellungen_. Geben Sie den PIN im Feld _PIN Code_ ein.
 
 ![](attachments/Anwesenheiten%20PIN%20Code.png)
 
@@ -66,13 +68,13 @@ Der PIN Code wird bei der Anmeldung über den Kioskmodus abgefragt.
 
 ### Anwesenheitskontrolle konfigurieren
 
-Navigieren Sie nach *Einstellungen > Personal > Personal*. Bei Feld *Anwesenheitskontrolle* können Sie die Optionen zur Erfassung der Anwesenheit ein- und ausschalten.
+Navigieren Sie nach _Einstellungen > Personal > Personal_. Bei Feld _Anwesenheitskontrolle_ können Sie die Optionen zur Erfassung der Anwesenheit ein- und ausschalten.
 
 ## Verwaltung
 
 ### Kioskmodus starten
 
-Starten Sie den Kioskmodus von Odoo über *Anwesenheiten > Kioskmodus*.
+Starten Sie den Kioskmodus von Odoo über _Anwesenheiten > Kioskmodus_.
 
 ![](attachments/Anwesenheiten%20Kioskmodus.png)
 
@@ -84,15 +86,15 @@ Stellen Sie sicher, dass der verwendete Benutzer für den Kioskmodus eingeschrä
 
 ### Anwesenheit anmelden
 
-Gilt ab #odoo18:
+Gilt ab #Odoo18:
 
-Klicken Sie oben rechts im Benutzer-Menü auf den roten Punkt. Wählen Sie *Anmelden*.
+Klicken Sie oben rechts im Benutzer-Menü auf den roten Punkt. Wählen Sie _Anmelden_.
 
 ![](attachments/Anwesenheiten%20Anmelden.png)
 
 Gilt bis #Odoo17:
 
-Navigieren Sie nach *Anwesenheiten > An- und Abmelden* und klicken Sie auf den Knopf *Anmelden*.
+Navigieren Sie nach _Anwesenheiten > An- und Abmelden_ und klicken Sie auf den Knopf _Anmelden_.
 
 ![](attachments/Anwesenheiten%20Anmeldung.png)
 
@@ -102,15 +104,15 @@ Es erscheint ein Willkommensgruss mit Angabe der Uhrzeit.
 
 ### Anwesenheit abmelden
 
-Gilt ab #odoo18:
+Gilt ab #Odoo18:
 
-Klicken Sie oben rechts im Benutzer-Menü auf den grünen Punkt. Wählen Sie *Abmelden*.
+Klicken Sie oben rechts im Benutzer-Menü auf den grünen Punkt. Wählen Sie _Abmelden_.
 
 ![](attachments/Anwesenheiten%20Abmelden.png)
 
 Gilt bis #Odoo17:
 
-Navigieren Sie nach *Anwesenheiten > An- und Abmelden* und klicken Sie auf den Knopf *Abmelden*.
+Navigieren Sie nach _Anwesenheiten > An- und Abmelden_ und klicken Sie auf den Knopf _Abmelden_.
 
 ![](attachments/Anwesenheiten%20Abmeldung.png)
 
@@ -122,13 +124,13 @@ Es erscheint eine Verabschiedung mit Angabe der geleisteten Arbeitszeit.
 
 Gilt bis #Odoo17:
 
-Wenn die manuelle Erfassung der Anwesenheit erlaubt ist, navigieren Sie nach *Anwesenheiten > Anweseheiten* und erstellen einen neuen Eintrag. Wählen Sie bei *Anmeldung* das Startdatum mit Uhrzeit und bei Abmeldung das Enddatum mit Uhrzeit. 
+Wenn die manuelle Erfassung der Anwesenheit erlaubt ist, navigieren Sie nach _Anwesenheiten > Anweseheiten_ und erstellen einen neuen Eintrag. Wählen Sie bei _Anmeldung_ das Startdatum mit Uhrzeit und bei Abmeldung das Enddatum mit Uhrzeit.
 
 ## Berechtigungen
 
 ### Manuelle Erfassung Anwesenheit erlauben
 
-Die Berechtigung zur Bearbeitung der Anwesenheits-Einträge wird über die Fenster-Aktion gesteuert. Nun gibt es eine gleichnamige Fensteraktion für Awesenheiten-Benutzer und -Administratoren. Navigieren Sie nach *Einstellungen > Technisch > Menüpunkte* und suchen Sie nach *Anwesenheiten*. Öffnen Sie den ersten Eintrag und wählen Sie im Feld *Aktion* den ersten Eintrag *Anwesenheiten* aus.
+Die Berechtigung zur Bearbeitung der Anwesenheits-Einträge wird über die Fenster-Aktion gesteuert. Nun gibt es eine gleichnamige Fensteraktion für Awesenheiten-Benutzer und -Administratoren. Navigieren Sie nach _Einstellungen > Technisch > Menüpunkte_ und suchen Sie nach _Anwesenheiten_. Öffnen Sie den ersten Eintrag und wählen Sie im Feld _Aktion_ den ersten Eintrag _Anwesenheiten_ aus.
 
 ![](attachments/HR%20Attendance%20Aktionen%20Awesenheiten.png)
 
@@ -136,56 +138,56 @@ Nun wird für Benutzer- und Administratoren die gleiche Aktion aufgerufen und di
 
 Gilt bis #Odoo15:
 
-Damit Mitarbeitende ihre Anwesenheit manuell erfassen können Navigieren Sie nach *Einstellungen > Technisch > Ansichten* und zeigen die Ansicht *hr.attendance.tree.inherit* an. Im Tab *Zugriffsrechte* fügen Sie die Gruppe *Anwesenheiten / Manuelle Anwesenheit* hinzu.
+Damit Mitarbeitende ihre Anwesenheit manuell erfassen können Navigieren Sie nach _Einstellungen > Technisch > Ansichten_ und zeigen die Ansicht _hr.attendance.tree.inherit_ an. Im Tab _Zugriffsrechte_ fügen Sie die Gruppe _Anwesenheiten / Manuelle Anwesenheit_ hinzu.
 
 ### Löschen von Anwesenheiten erlauben
 
-Damit Mitarbeitende ihre erfassten Anwesenheiten löschen können, müssen Sie die Zugriffsrechte für die Gruppe *Anwesenheit /  Bentuzer* anpassen. Führen Sie [Datensatzregeln für Gruppe anpassen](Settings%20Permissions.md#Datensatzregeln%20für%20Gruppe%20anpassen) aus und erlauben Sie das Löschen der Einträge.
+Damit Mitarbeitende ihre erfassten Anwesenheiten löschen können, müssen Sie die Zugriffsrechte für die Gruppe _Anwesenheit / Bentuzer_ anpassen. Führen Sie [Datensatzregeln für Gruppe anpassen](Settings%20Permissions.md#Datensatzregeln%20für%20Gruppe%20anpassen) aus und erlauben Sie das Löschen der Einträge.
 
-Zusätzlich müssen Sie auf den Zugriffsrechten *hr.attendance.system.user* das Löschen erlauben. 
+Zusätzlich müssen Sie auf den Zugriffsrechten _hr.attendance.system.user_ das Löschen erlauben.
 
 ## Auswertung
 
 ### Anwesenheiten anzeigen
 
-Der kürzeste Weg zur Anzeige der rapportierten Arbeitszeit führt über *Mein Profil*.
+Der kürzeste Weg zur Anzeige der rapportierten Arbeitszeit führt über _Mein Profil_.
 Navigieren Sie zum Knopf mit ihrem Namen auf dem Bildschirm oben rechts.
-Dort wählen Sie *Vorname Nachname > Mein Profil*. Es erscheint die folgende Maske:
+Dort wählen Sie _Vorname Nachname > Mein Profil_. Es erscheint die folgende Maske:
 
 ![](attachments/Anwesenheiten%20Zeitrapport.png)
 
-Ein Klick auf den Smart-Link *XX.XX Stunden* zeigt eine Tabelle mit den Details.
+Ein Klick auf den Smart-Link _XX.XX Stunden_ zeigt eine Tabelle mit den Details.
 
 ![](attachments/Anwesenheiten%20Zeitrapport%20Detail.png)
 
 Ausführlichere Informationen bietet das Berichtswesen in der App Zeiterfassung.
-Navigieren Sie nach *Zeiterfassung > Berichtswesen* und wählen Sie das Menü *Zeiterfassung / Anwesenheit*.
+Navigieren Sie nach _Zeiterfassung > Berichtswesen_ und wählen Sie das Menü _Zeiterfassung / Anwesenheit_.
 
 ![Zeiterfassung Anwesenheitsbericht](attachments/Zeiterfassung%20Anwesenheitsbericht.png)
 
-Mit dem Knopf *Werte* können Spalten ein- und ausgeblendet werden.
+Mit dem Knopf _Werte_ können Spalten ein- und ausgeblendet werden.
 
 ::: tip
-Das detaillierte Protokoll der An- und Abmeldungen zeigt die Übersicht *Anwesenheiten > Anwesenheiten*. (Die Berechtigung Personalsachbearbeiter ist notwendig.)
+Das detaillierte Protokoll der An- und Abmeldungen zeigt die Übersicht _Anwesenheiten > Anwesenheiten_. (Die Berechtigung Personalsachbearbeiter ist notwendig.)
 :::
 
 ### Anwesenheiten bearbeiten
 
-Gilt ab #odoo18:
+Gilt ab #Odoo18:
 
-Klicken Sie auf die App *Anwesenheiten* und anschliessend auf einen Eintrag. Setzen Sie die Genehmigung des Eintrags zurück indem Sie auf das Statusfeld *Zu gengemigen* klicken. Bearbeiten Sie den Eintrag und bestätigen Sie die Eingaben mit einem Klick auf *Genehmigen*.
+Klicken Sie auf die App _Anwesenheiten_ und anschliessend auf einen Eintrag. Setzen Sie die Genehmigung des Eintrags zurück indem Sie auf das Statusfeld _Zu gengemigen_ klicken. Bearbeiten Sie den Eintrag und bestätigen Sie die Eingaben mit einem Klick auf _Genehmigen_.
 
 Gilt bis #Odoo17:
 
-Mitarbeiteende können standardmässig ihre Anwesenheiten korrigieren. Dazu navigieren Sie über das Menu oben-rechts nach *Vorname Nachname > Mein Profil > Smart-Link XX.XX Stunden*. Hier werden die An- und Abmeldungen aufgelistet.
+Mitarbeiteende können standardmässig ihre Anwesenheiten korrigieren. Dazu navigieren Sie über das Menu oben-rechts nach _Vorname Nachname > Mein Profil > Smart-Link XX.XX Stunden_. Hier werden die An- und Abmeldungen aufgelistet.
 
-Um einen Eintrag zu bearbeiten, klick man entweder auf *Einchecken* oder *Abmeldung*.
+Um einen Eintrag zu bearbeiten, klick man entweder auf _Einchecken_ oder _Abmeldung_.
 
 ![](attachments/Anwesenheiten%20bearbeiten.png)
 
 ### Zeitüberschreitungen filtern
 
-Wenn Sie wissen möchten, welche Mitarbeitenden nicht korrekt ausgestempelt oder zu viel Zeit gestempelt haben, können Sie die Einträge via *Anwesenheiten > Anwesenheiten* filtern. Erstellen Sie einen Filter für das Feld *Arbeitsstunden*:
+Wenn Sie wissen möchten, welche Mitarbeitenden nicht korrekt ausgestempelt oder zu viel Zeit gestempelt haben, können Sie die Einträge via _Anwesenheiten > Anwesenheiten_ filtern. Erstellen Sie einen Filter für das Feld _Arbeitsstunden_:
 
 ![](attachments/Anwesenheiten%20Arbeitsstunden%20filtern.png)
 

@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./base
 ---
+
 # Home Backround Image
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/hom
 
 ### Hintergrundbild festlegen
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Unternehmen* und wählen Sie *Update Info*. Bearbeiten Sie das Feld *Home Background Image* und laden Sie das Hintergrund-Bild hoch.
+Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Unternehmen_ und wählen Sie _Update Info_. Bearbeiten Sie das Feld _Home Background Image_ und laden Sie das Hintergrund-Bild hoch.
 
 ![](attachments/Home%20Backround%20Image%20Upload.png)
 

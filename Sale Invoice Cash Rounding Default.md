@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./invoicing
 ---
+
 # Sale Invoice Cash Rounding Default
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -19,7 +21,7 @@ Ab #Odoo15 .
 
 ### Standard-Rundungsmethode festlegen
 
-Navigieren Sie nach *Einstellungen > Abrechnung > Kundenrechnungen* aktivieren Sie die Option *Bargeld-Runden*. Nun können Sie eine [Rundungsmethode erstellen](Invoicing.md#Rundungsmethode%20erstellen) und diese im Feld *Default Cash Rounding Method* als Standard für neue Rechnungen hinterlegen.
+Navigieren Sie nach _Einstellungen > Abrechnung > Kundenrechnungen_ aktivieren Sie die Option _Bargeld-Runden_. Nun können Sie eine [Rundungsmethode erstellen](Invoicing.md#Rundungsmethode%20erstellen) und diese im Feld _Default Cash Rounding Method_ als Standard für neue Rechnungen hinterlegen.
 
 ## Verwendung
 

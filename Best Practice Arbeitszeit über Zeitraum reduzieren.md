@@ -19,8 +19,8 @@ Speichern Sie die Inhalte der folgenden Tabellen als CSV-Datei und importieren S
 
 Anwesenheiten 100% von Montag 2024-09-30 bis Freitag 2024-10-25.
 
-| id                       | check_in            | check_out           | employee_id    |
-|--------------------------|---------------------|---------------------|----------------|
+| id                           | check_in            | check_out           | employee_id    |
+| ---------------------------- | ------------------- | ------------------- | -------------- |
 | \_\_import\_\_.attendance_1  | 2024-09-30 08:00:00 | 2024-09-30 12:00:00 | Mitchell Admin |
 | \_\_import\_\_.attendance_2  | 2024-09-30 13:00:00 | 2024-09-30 17:00:00 | Mitchell Admin |
 | \_\_import\_\_.attendance_3  | 2024-10-01 08:00:00 | 2024-10-01 12:00:00 | Mitchell Admin |
@@ -66,8 +66,8 @@ Anwesenheiten 100% von Montag 2024-09-30 bis Freitag 2024-10-25.
 
 Krankheit 20% von Montag 2024-10-28 bis Freitag 2024-11-22.
 
-| id                     | holiday_status_id | name           | date_to             | date_from           | state     | holiday_type     | employee_id    |
-|------------------------|-------------------|----------------|---------------------|---------------------|-----------|------------------|----------------|
+| id                         | holiday_status_id | name           | date_to             | date_from           | state     | holiday_type     | employee_id    |
+| -------------------------- | ----------------- | -------------- | ------------------- | ------------------- | --------- | ---------------- | -------------- |
 | \_\_import\_\_.hr_leave_1  | Krankheit         | 20% Sick Leave | 2024-10-28 10:00:00 | 2024-10-28 08:00:00 | Genehmigt | Nach Mitarbeiter | Mitchell Admin |
 | \_\_import\_\_.hr_leave_2  | Krankheit         | 20% Sick Leave | 2024-10-29 10:00:00 | 2024-10-29 08:00:00 | Genehmigt | Nach Mitarbeiter | Mitchell Admin |
 | \_\_import\_\_.hr_leave_3  | Krankheit         | 20% Sick Leave | 2024-10-30 10:00:00 | 2024-10-30 08:00:00 | Genehmigt | Nach Mitarbeiter | Mitchell Admin |
@@ -93,8 +93,8 @@ Krankheit 20% von Montag 2024-10-28 bis Freitag 2024-11-22.
 
 Anwesenheiten 80% von Montag 2024-10-28 bis Freitag 2024-11-22.
 
-| id                       | check_in            | check_out           | employee_id    |
-| ------------------------ | ------------------- | ------------------- | -------------- |
+| id                           | check_in            | check_out           | employee_id    |
+| ---------------------------- | ------------------- | ------------------- | -------------- |
 | \_\_import\_\_.attendance_41 | 2024-10-28 10:00:00 | 2024-10-28 12:00:00 | Mitchell Admin |
 | \_\_import\_\_.attendance_42 | 2024-10-28 13:00:00 | 2024-10-28 17:00:00 | Mitchell Admin |
 | \_\_import\_\_.attendance_43 | 2024-10-29 10:00:00 | 2024-10-29 12:00:00 | Mitchell Admin |

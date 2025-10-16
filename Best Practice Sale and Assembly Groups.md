@@ -4,6 +4,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Verkaufsgruppen und Baugruppen
 
 Odoo bildet die Produkte zur Fertigung in folgenden Schema ab:

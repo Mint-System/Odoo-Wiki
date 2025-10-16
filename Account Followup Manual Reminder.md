@@ -5,6 +5,7 @@ kind: howto
 partner: Mint-System
 prev: ./invoicing
 ---
+
 # Account Followup Manual Reminder
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
@@ -18,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.
 
 ### Erinnerungstyp für Mahnwesen auf Kontakten anpassen
 
-Zeigen Sie die Kontakte in der Listenansicht an und blenden Sie das Feld *Erinnerungen* ein. Markieren Sie alle zu aktualisierenden Kontakte und klicken Sie auf dem ersten Kontakt auf Wert von *Erinnerungen* und wählen Sie eine neue Option. Bestätigen Sie die Aktualisierung für alle Kontakte.
+Zeigen Sie die Kontakte in der Listenansicht an und blenden Sie das Feld _Erinnerungen_ ein. Markieren Sie alle zu aktualisierenden Kontakte und klicken Sie auf dem ersten Kontakt auf Wert von _Erinnerungen_ und wählen Sie eine neue Option. Bestätigen Sie die Aktualisierung für alle Kontakte.

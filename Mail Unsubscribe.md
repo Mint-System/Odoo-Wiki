@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./dialog
 ---
+
 # Mail Unsubscribe
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -19,11 +21,11 @@ Ist diese Erweiterung installiert, werden vor dem Versenden einer Nachricht alle
 
 ## Konfiguration
 
-### Eigener Benutzer beim  Entfernen ignorieren
+### Eigener Benutzer beim Entfernen ignorieren
 
 Ab #Odoo16.
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und aktivieren Sie die Option *Eigener Benutzer ignorieren*. Damit werden vor dem Versand einer Nachricht alle Abonnenten ausser des eigenen Benutzer entfernt.
+Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Diskussion_ und aktivieren Sie die Option _Eigener Benutzer ignorieren_. Damit werden vor dem Versand einer Nachricht alle Abonnenten ausser des eigenen Benutzer entfernt.
 
 Bis #Odoo15.
 
@@ -33,7 +35,7 @@ Wenn Sie den [Systemparameter](Development.md#Systemparameter%20anlegen) mit Sch
 
 Ab #Odoo16.
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und aktivieren Sie die Option *Empfänger automatisch abonnieren*. Damit werden die Empfänger nach dem Versand der Nachricht als Abonnenten hinzugefügt.
+Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Diskussion_ und aktivieren Sie die Option _Empfänger automatisch abonnieren_. Damit werden die Empfänger nach dem Versand der Nachricht als Abonnenten hinzugefügt.
 
 Bis #Odoo15.
 
@@ -43,7 +45,7 @@ Wenn Sie möchten, dass die Empfänger der Nachricht nach dem Versenden der Nach
 
 Ab #Odoo16.
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Diskussion* und aktivieren Sie die Option *Eigener Bentuzer nicht abonnieren*. Damit wird verhindert, dass der eigene Benutzer nach dem Versenden einer Nachricht als Abonnent hinzugefügt wird.
+Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Diskussion_ und aktivieren Sie die Option _Eigener Bentuzer nicht abonnieren_. Damit wird verhindert, dass der eigene Benutzer nach dem Versenden einer Nachricht als Abonnent hinzugefügt wird.
 
 Bis #Odoo15.
 
@@ -53,4 +55,4 @@ Wenn Sie möchten, dass der eigene Benutzer nach dem Versenden einer Nachricht n
 
 Bis #Odoo15.
 
-Wenn Sie für bestimmte Dokumente verhindern möchten, dass die Abonnenten vor dem Versenden einer Nachricht entfernt werden, navigieren Sie nach *Einstellungen > Technisch > Modelle* und suchen das entsprechende Datenmodell. Entfernen Sie die Markierung bei *Unsubscribe before Message Post*.
+Wenn Sie für bestimmte Dokumente verhindern möchten, dass die Abonnenten vor dem Versenden einer Nachricht entfernt werden, navigieren Sie nach _Einstellungen > Technisch > Modelle_ und suchen das entsprechende Datenmodell. Entfernen Sie die Markierung bei _Unsubscribe before Message Post_.

@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./accounting
 ---
+
 # Account Journal Items Report
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.
 
 ### Kontoauszug für Buchungszeilen drucken
 
-Navigieren Sie nach *Buchhaltung > Buchhaltung > Buchungszeilen*. Markieren Sie die alle Buchungszeilen, welche auf dem Bericht *Kontoauszug* erscheinen sollen. Wählen Sie *Drucken > Kontoauszug* um die PDF-Datei zu erstellen.
+Navigieren Sie nach _Buchhaltung > Buchhaltung > Buchungszeilen_. Markieren Sie die alle Buchungszeilen, welche auf dem Bericht _Kontoauszug_ erscheinen sollen. Wählen Sie _Drucken > Kontoauszug_ um die PDF-Datei zu erstellen.
 
 ![](attachments/Account%20Journal%20Items%20Report%20Beispiel.png)
 

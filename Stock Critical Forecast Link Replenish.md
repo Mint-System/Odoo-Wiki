@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./stock-critical-forecast
 ---
+
 # Stock Critical Forecast Link Replenish
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -21,6 +23,6 @@ Das ist eine Erweiterung für [Stock Critical Forecast](Stock%20Critical%20Forec
 
 ### Produkte mit Bestandsregeln auf Bericht anzeigen
 
-Mit dieser Erweiterung werden Bestandsregeln auf Produkten im Bericht *Kritische Vorhersage* angezeigt. Mit dem entsprechenden Aktion gelangen Sie direkt zur Ansicht *Aufüllen*.
+Mit dieser Erweiterung werden Bestandsregeln auf Produkten im Bericht _Kritische Vorhersage_ angezeigt. Mit dem entsprechenden Aktion gelangen Sie direkt zur Ansicht _Aufüllen_.
 
 ![Stock Critical Forecast Link Replenish](attachments/Stock%20Critical%20Forecast%20Link%20Replenish.gif)

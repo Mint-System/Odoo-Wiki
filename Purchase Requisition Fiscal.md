@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./purchase-requisition
 ---
+
 # Purchase Requisition Fiscal
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/16.
 
 ### Steuerzuordnung festlegen
 
-Mit dieser Erweiterungen können Sie auf Kaufverträgen die Steuerzuordnung festlegen. Zeigen Sie einen Kaufvertrag via *Einkauf > Aufträge > Kaufverträge* an und bearbeiten Sie das Feld *Steuerzuordnung*.
+Mit dieser Erweiterungen können Sie auf Kaufverträgen die Steuerzuordnung festlegen. Zeigen Sie einen Kaufvertrag via _Einkauf > Aufträge > Kaufverträge_ an und bearbeiten Sie das Feld _Steuerzuordnung_.

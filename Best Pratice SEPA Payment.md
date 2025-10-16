@@ -4,6 +4,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # SEPA-Zahlung
 
 Damit Sie SEPA-Zahungen erfassen können, müssen Sie die [SEPA-Zahlmethode aktiveren](Accounting%20Payments.md#SEPA-Zahlmethode%20aktiveren).

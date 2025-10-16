@@ -7,6 +7,7 @@ prev: ./website
 ---
 
 # Website Sale Minimum Order Quantity
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -18,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Website/tree/16.0/website_
 
 ### Mindestbestellmenge festlegen
 
-Navigieren Sie nach *Verkauf > Produkte > Produkte* und zeigen Sie ein Produkt an. Im Feld *Mindestbestellmenge* legen Sie die entsprechende Menge fest.
+Navigieren Sie nach _Verkauf > Produkte > Produkte_ und zeigen Sie ein Produkt an. Im Feld _Mindestbestellmenge_ legen Sie die entsprechende Menge fest.
 
 ::: warning
 Wenn Sie Produktvarianten im Einsatz haben, müssen Sie die Mindestbestellmenge für jede Produktvariante einrichten.

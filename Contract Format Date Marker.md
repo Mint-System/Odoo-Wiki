@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./contract
 ---
+
 # Contract Format Date Marker
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Contract/tree/17.0/contrac
 
 ### Abrechnungszeitrum in Rechnungszeile anzeigen
 
-Mit dieser Erweiterung wird beim Erstellen einer Rechnung aus Verträgen im Feld *Beschreibung* der jeweiligen Rechnungszeile, der Abrechnungszeitrum angefügt.
+Mit dieser Erweiterung wird beim Erstellen einer Rechnung aus Verträgen im Feld _Beschreibung_ der jeweiligen Rechnungszeile, der Abrechnungszeitrum angefügt.
 
 ![](attachments/Contract%20Format%20Date%20Marker.png)
 

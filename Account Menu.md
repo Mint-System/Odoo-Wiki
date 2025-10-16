@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./accounting
 ---
+
 # Account Missing Menus
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -22,13 +24,13 @@ Diese App ist veraltet. Wir empfehlen die App [Account Usability](Account%20Usab
 
 Mit dieser Erweiterungen werden Menus für die folgenden Dokumente sichtbar:
 
-* Account Types
-* Account Tags
-* Account Groups
-* Account Tax Groups
-* Bank Statements
-* Cash Registers
-* Chart of Account Templates
-* Account Templates
-* Tax Templates
-* Fiscal Position Templates
+- Account Types
+- Account Tags
+- Account Groups
+- Account Tax Groups
+- Bank Statements
+- Cash Registers
+- Chart of Account Templates
+- Account Templates
+- Tax Templates
+- Fiscal Position Templates

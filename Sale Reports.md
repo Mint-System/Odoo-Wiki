@@ -4,7 +4,9 @@ description: Verkaufsdaten immer aktuell.
 kind: howto
 prev: ./sale
 ---
+
 # Verkauf Berichte
+
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
 {{ $frontmatter.description }}
@@ -13,11 +15,11 @@ prev: ./sale
 
 ### Verkaufsaufträge in Pivot auswerten
 
-Zeigen Sie die Pivot-Ansicht unter *Verkauf > Berichtswesen > Verkauf* an. Angenommen Sie wollen die Verkaufsdaten nach diesen Kriterien filtern:
+Zeigen Sie die Pivot-Ansicht unter _Verkauf > Berichtswesen > Verkauf_ an. Angenommen Sie wollen die Verkaufsdaten nach diesen Kriterien filtern:
 
-* Gelieferte Menge in kg  
-* Pro Woche (X-Achse)
-* Pro Produkt und Branche (Y-Achse)
+- Gelieferte Menge in kg
+- Pro Woche (X-Achse)
+- Pro Produkt und Branche (Y-Achse)
 
 Wählen Sie ganz einfach die entsprechenden Felder:
 
@@ -27,7 +29,7 @@ Wählen Sie ganz einfach die entsprechenden Felder:
 
 Wenn Sie [Auftragszeilen anzeigen](Sale.md#Auftragszeilen%20anzeigen) können Sie in der Pivot-Ansicht einen [Filter mit dynamischen Datum erstellen](Development%20Views.md#Filter%20mit%20dynamischen%20Datum%20erstellen). Verwenden Sie diese Paramter zur Konfiguration des Filters für die Auftragszeilen:
 
-* **Domain**: 
+- **Domain**:
 
 ```python
 [

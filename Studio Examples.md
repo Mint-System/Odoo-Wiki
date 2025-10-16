@@ -4,7 +4,9 @@ description: Beispiele für Anpassungen mit Odoo Studio.
 kind: howto
 prev: ./studio
 ---
+
 # Studio Beispiele
+
 ![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 {{ $frontmatter.description }}
@@ -54,14 +56,15 @@ Das Ergebnis sieht so aus:
 An jedem Odoo-Objekt kann ein Anhang vom Typ Datei oder URL hinzugefügt werden. Dieser Anhang kann im Portal oder Bericht angzeigt werden.
 :::
 
-In diesem Beispiel wurde mit Odoo Studio dem Modell *product.product* zwei Felder hinzugefügt:
-* Name: x_studio_drawing
-	* Typ: Many2One Produktionsdokument
-	* Bezeichnung: Zeichnung
+In diesem Beispiel wurde mit Odoo Studio dem Modell _product.product_ zwei Felder hinzugefügt:
 
-* Name: x_studio_step_file
-	* Typ: Man2One Produktionsdokument
-	* Bezeichnung: STEP-Datei
+- Name: x_studio_drawing
+  - Typ: Many2One Produktionsdokument
+  - Bezeichnung: Zeichnung
+
+- Name: x_studio_step_file
+  - Typ: Man2One Produktionsdokument
+  - Bezeichnung: STEP-Datei
 
 ![](attachments/Studio%20Produkt%20Variante%20zusätzliche%20Felder.png)
 

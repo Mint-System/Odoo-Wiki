@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./stock
 ---
+
 # Stock Picking Valued
+
 ![](attachments/odoo_icons_anubia.png)
 
 {{ $frontmatter.description }}

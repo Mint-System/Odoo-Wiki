@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./hr
 ---
+
 # Resource Calendar Get Days
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/resource_cale
 
 ### Tage in Abwesenheit relativ zu Arbeitsstunden berechnen
 
-Es wird angenommen, dass Sie Mitarbeitende mit einen Arbeitspensum <100% haben. Navigieren Sie nach *Abwesenheit* und erfassen Sie für einen Mitarbeitenden eine Abwesenheit. Mit dieser Erweiterung berechnet Odoo die Anzahl Tage des Mitarbeitenden relativ zu den Arbeitsstunden des Unternehmens. Dazu ein Beispiel eines Mitarbeitenden mit einem 40%-Pensum:
+Es wird angenommen, dass Sie Mitarbeitende mit einen Arbeitspensum <100% haben. Navigieren Sie nach _Abwesenheit_ und erfassen Sie für einen Mitarbeitenden eine Abwesenheit. Mit dieser Erweiterung berechnet Odoo die Anzahl Tage des Mitarbeitenden relativ zu den Arbeitsstunden des Unternehmens. Dazu ein Beispiel eines Mitarbeitenden mit einem 40%-Pensum:
 
 Der/die Mitarbeitende arbeitet am Dienstag 4 Stunden am Vormittag und gibt für diesen Tag eine bezahlte Abwesenheit ein:
 

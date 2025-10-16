@@ -3,8 +3,11 @@ title: Studio
 description: Alles, was Sie zum Bauen benutzerdefinierter Anwendungen brauchen.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
+
 # Studio
+
 ![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 {{ $frontmatter.description }}
@@ -13,13 +16,13 @@ Website: <https://www.odoo.com/de_DE/app/studio>
 
 ## Bereiche
 
-| Bereich                                   | Beschreibung                               |
-| ----------------------------------------- | ------------------------------------------ |
+| Bereich                                  | Beschreibung                               |
+| ---------------------------------------- | ------------------------------------------ |
 | [Studio Beispiele](Studio%20Examples.md) | Beispiele für Anpassungen mit Odoo Studio. |
 
 ## Anpassungen dokumentieren
 
-Jede Änderung mit Odoo Studio an einer Odoo-Instanz muss dokumentiert werden. Die Entwickler von Odoo haben dafür die Menu-Option *Notizen* hinzugefügt.
+Jede Änderung mit Odoo Studio an einer Odoo-Instanz muss dokumentiert werden. Die Entwickler von Odoo haben dafür die Menu-Option _Notizen_ hinzugefügt.
 
 ![Studio Anpassungen dokumentieren](attachments/Studio%20Anpassungen%20dokumentieren.gif)
 
@@ -27,7 +30,7 @@ Jede Änderung mit Odoo Studio an einer Odoo-Instanz muss dokumentiert werden. D
 
 ### Feld entfernen
 
-Möchten Sie ein Feld aus einer Ansicht entfernen, öffnen Sie zuerst die Ansicht in Odoo Studion. Anschliessend wählen Sie das Feld aus und klicken in der linken Menu-Leiste auf *Aus Ansicht entfernen*
+Möchten Sie ein Feld aus einer Ansicht entfernen, öffnen Sie zuerst die Ansicht in Odoo Studion. Anschliessend wählen Sie das Feld aus und klicken in der linken Menu-Leiste auf _Aus Ansicht entfernen_
 
 ::: warning
 Benutzerdefinierte Felder sowie Basisfelder werden nicht aus der Datenbank entfernt. Sie bestehen weiterhin und können der Ansicht wieder hinzugefügt werden.
@@ -54,38 +57,39 @@ Damit dieser Button standardmässig angzeigt wird, geht man wie folgt vor:
 ### Neue Ansichten hinzufügen
 
 Odoo stellt Inhalte in verschiedenen Ansichten dar:
-* Listen
-* Pivot
-* Graphen
-* uvw.
+
+- Listen
+- Pivot
+- Graphen
+- uvw.
 
 Wenn eine Ansicht fehlt, können Sie diese mit Odoo Studio ergänzen.
 
-Angenommen der Bericht zum prognostizierten Lagerbestand *Lager > Berichtswesen > Prognostizierter Bestand* soll nebst der grafischen Ansicht eine Pivot-Ansicht erhalten, gehen Sie wie folgt vor.
+Angenommen der Bericht zum prognostizierten Lagerbestand _Lager > Berichtswesen > Prognostizierter Bestand_ soll nebst der grafischen Ansicht eine Pivot-Ansicht erhalten, gehen Sie wie folgt vor.
 
-Öffnen Sie den Bericht in Odoo Studio. In der Adressleite finden Sie diesen Parameter `model=report.stock.quantity`. Das sagt ihnen auf welchen Datenmodell Sie mit Odoo Studio arbeiten. Klicken Sie auf *Ansichten*, wählen *Privot* und klicken *Ansicht aktivieren*.
+Öffnen Sie den Bericht in Odoo Studio. In der Adressleite finden Sie diesen Parameter `model=report.stock.quantity`. Das sagt ihnen auf welchen Datenmodell Sie mit Odoo Studio arbeiten. Klicken Sie auf _Ansichten_, wählen _Privot_ und klicken _Ansicht aktivieren_.
 
 ![](attachments/Studio%20Ansicht%20aktivieren.png)
 
-Schliessen Sie die Bearbeitung mit *Abschliessen* ab. Nun sehen Sie unter dem Suchfeld die Ansicht.
+Schliessen Sie die Bearbeitung mit _Abschliessen_ ab. Nun sehen Sie unter dem Suchfeld die Ansicht.
 
 ![](attachments/Studio%20Neue%20Ansicht.png)
 
 ### Ansicht als Standard definieren
 
-Beim Aufruf einer App oder eines Menu ruft Odoo die dazugehörige Standardansicht auf. Öffnen Sie beispielsweise die App Kontakte, erscheinen die Kontakte in der Listenansicht. Um dies zu ändern öffnen Sie die aktive Ansicht im Odoo Studio und wählen *Ansichten*.
+Beim Aufruf einer App oder eines Menu ruft Odoo die dazugehörige Standardansicht auf. Öffnen Sie beispielsweise die App Kontakte, erscheinen die Kontakte in der Listenansicht. Um dies zu ändern öffnen Sie die aktive Ansicht im Odoo Studio und wählen _Ansichten_.
 
 ![](attachments/Studio%20Standardansicht%20festlegen.png)
 
-Wählen Sie die neue Standardansicht an und klicken auf das Menu und auf *Als Standard setzen*. Schliessen Sie den Vorgang ab.
+Wählen Sie die neue Standardansicht an und klicken auf das Menu und auf _Als Standard setzen_. Schliessen Sie den Vorgang ab.
 
 ### Benutzerdefinierte App entfernen
 
 Eine App erstellt mit Odoo Studio generiert im Hintergrund Menüposten, Datenmodelle und Ansichten. Damit die App entfernt werden kann, müssen diese Einträge von Hand gelöscht werden. Gehen Sie folgt vor:
 
-* [Ansicht entfernen](Development%20Views.md#Ansicht%20entfernen)
-* [Menüposten entfernen](Development.md#Menüposten%20entfernen)
-* [Datenmodell entfernen](Development%20Models.md#Datenmodell%20entfernen)
+- [Ansicht entfernen](Development%20Views.md#Ansicht%20entfernen)
+- [Menüposten entfernen](Development.md#Menüposten%20entfernen)
+- [Datenmodell entfernen](Development%20Models.md#Datenmodell%20entfernen)
 
 ## Datenbank
 

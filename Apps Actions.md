@@ -4,7 +4,9 @@ description: Aktionen für Apps einrichten.
 kind: howto
 prev: ./apps
 ---
+
 # Apps Aktionen
+
 ![icons_odoo_hr_appraisal](attachments/icons_odoo_hr_appraisal.png)
 
 {{ $frontmatter.description }}
@@ -13,22 +15,22 @@ prev: ./apps
 
 ### Modul aktualisieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Modul aktualisieren`\
 Modell: `ir.module.module`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 for record in records:
 	record.button_immediate_upgrade()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Apps erscheint nun in der Auswahl *Aktion* das Menu *Modul aktualisieren*.
+In der Liste der Apps erscheint nun in der Auswahl _Aktion_ das Menu _Modul aktualisieren_.
 
 ## Automatisierte Aktionen
 
@@ -36,7 +38,7 @@ In der Liste der Apps erscheint nun in der Auswahl *Aktion* das Menu *Modul aktu
 
 Mit dieser Aktion werden SQL-Grants für einen bestimmten Benutzer (hier `dwh`) nach der Installation eines Moduls angewendet.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `SQL-Grants nach Modul-Installation ausführen`\
 Modell: `module.module`\

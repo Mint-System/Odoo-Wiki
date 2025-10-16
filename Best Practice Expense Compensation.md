@@ -11,7 +11,7 @@ Bei der Rückvergütung von Spesen haben Sie verschiedene Möglichkeiten. Die Sz
 
 ## Lieferantenrechnung
 
-Standardmässig erstellt Odoo eine Lieferantenrechnung mit den Spesen für den Mitarbeitenden. Sie können eine SEPA-Zahlung erfassen und mittel Stapelzahlung ins eBanking hochladen. 
+Standardmässig erstellt Odoo eine Lieferantenrechnung mit den Spesen für den Mitarbeitenden. Sie können eine SEPA-Zahlung erfassen und mittel Stapelzahlung ins eBanking hochladen.
 
 ## Lohnabrechnung
 
@@ -19,8 +19,8 @@ Wenn Sie den Spesenbericht genehmigen, haben Sie eine Option um die Spesen mit d
 
 ## Lohnabrechnung und Mehrwertsteuer
 
-Wenn die Aufwandsbuchung der Spesenabrechnung in der Lohnabrechnung erfolgt, kann die Mehrwersteuer nicht geltend gemacht werden. In diesem Falls muss der Spesenbericht als Lieferantenrechnung erfasst werden und die Aufwandsbuchung in der Lohnabrechnung auf ein Durchlaufkonto, beispielsweise *2020 Spesendurchlaufkonto* verbucht werden. Anschliessend können Sie die Journalbuchung mit der Spesendurchlauf-Buchung abgleichen.
+Wenn die Aufwandsbuchung der Spesenabrechnung in der Lohnabrechnung erfolgt, kann die Mehrwersteuer nicht geltend gemacht werden. In diesem Falls muss der Spesenbericht als Lieferantenrechnung erfasst werden und die Aufwandsbuchung in der Lohnabrechnung auf ein Durchlaufkonto, beispielsweise _2020 Spesendurchlaufkonto_ verbucht werden. Anschliessend können Sie die Journalbuchung mit der Spesendurchlauf-Buchung abgleichen.
 
 ## Kreditkarte
 
-Wenn Sie eine Firmen-Kreditkarte haben, können Sie diese Mitarbeitenden zur Bezahlung von Spesen zur Verfügung stellen. Erstellen Sie ein Journal *Kreditkarte* vom Typ *Bank*. Bei der Abrechnung des Spesenbericht wählen Sie das Journal aus. Die erstellte Buchung wird auf das Konto *Kreditkarte* verbucht.
+Wenn Sie eine Firmen-Kreditkarte haben, können Sie diese Mitarbeitenden zur Bezahlung von Spesen zur Verfügung stellen. Erstellen Sie ein Journal _Kreditkarte_ vom Typ _Bank_. Bei der Abrechnung des Spesenbericht wählen Sie das Journal aus. Die erstellte Buchung wird auf das Konto _Kreditkarte_ verbucht.

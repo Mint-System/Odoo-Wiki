@@ -3,8 +3,11 @@ title: Mint Cloud
 description: Managed Odoo Hosting von Mint System.
 kind: howto
 prev: ./
+partner: Mint-System
 ---
+
 # Mint Cloud
+
 ![](attachments/mint-cloud-favicon.png)
 
 {{ $frontmatter.description }}
@@ -13,12 +16,12 @@ Website: <https://wiki.mint-system.ch/odoo-hosting-mint-cloud.html>
 
 ## Erweiterungen
 
-| Erweiterung                                   | Beschreibung                                 |
-| --------------------------------------------- | -------------------------------------------- |
-| [Helm](Helm.md)                               | Helm-Repos und Charts deployen.              |
+| Erweiterung                                   | Beschreibung                               |
+| --------------------------------------------- | ------------------------------------------ |
+| [Helm](Helm.md)                               | Helm-Repos und Charts deployen.            |
 | [Sale Helm](Sale%20Helm.md)                   | Bei Verkauf ein Helm-Release installieren. |
-| [Website Sale Helm](Website%20Sale%20Helm.md) | Services über Webshop verkaufen.             |
-| [kubectl](kubectl)                            | Kubernetes-Konfigurationen verwalten.        |
+| [Website Sale Helm](Website%20Sale%20Helm.md) | Services über Webshop verkaufen.           |
+| [kubectl](kubectl)                            | Kubernetes-Konfigurationen verwalten.      |
 
 ## Beschreibung
 

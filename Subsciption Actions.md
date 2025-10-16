@@ -3,10 +3,12 @@ title: Abonnement Aktionen
 description: Arbeitsflüsse für Abonnemente automatisieren.
 kind: howto
 tags:
-- Actions
+  - Actions
 prev: ./sale
 ---
+
 # Abonnemente Aktionen
+
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
 {{ $frontmatter.description }}
@@ -15,30 +17,29 @@ prev: ./sale
 
 ### Abonnement schliessen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Abonnement schliessen`\
 Modell: `sale.order`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 records.set_close()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
-
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speichern.
 
 ### Start- und Enddatum von Abonnement übernehmen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Start- und Enddatum von Abonnement übernehmen`\
 Modell: `account.move`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for line in records.invoice_line_ids:
@@ -49,19 +50,19 @@ for line in records.invoice_line_ids:
     line["subscription_end_date"] = end_date
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speichern.
 
 ### Abonnement-Informationen migrieren
 
-Mit dieser Aktion können nach einer Migration von Odoo 15.0 auf 16.0 und höher die Abonnement-Informationen von den archivierten Verkaufsaufträgen auf die aktiven übertragen werden. 
+Mit dieser Aktion können nach einer Migration von Odoo 15.0 auf 16.0 und höher die Abonnement-Informationen von den archivierten Verkaufsaufträgen auf die aktiven übertragen werden.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Abonnement-Informationen migrieren`\
 Modell: `sale.order`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for order in records:
@@ -75,17 +76,17 @@ for order in records:
         })
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speichern.
 
 ## Geplante Aktionen
 
-Die Aktionen deren Namen mit *Verkaufsabonnment:* beginnt, sind bereits definierte Aktionen. Deren Funktionsweise wird hier erläutert.
+Die Aktionen deren Namen mit _Verkaufsabonnment:_ beginnt, sind bereits definierte Aktionen. Deren Funktionsweise wird hier erläutert.
 
 ### Verkaufsabonnement: Ablauf des Abonnements
 
 Diese Aktion prüft das Enddatum der Abonnmente. Standardmässig wird diese Aktion jede Woche ausgeführt.
 
-Wenn das Enddatum zwischen heute und in einem Monat liegt, wird das Abonnement mit *Zu erneuern* markiert.
+Wenn das Enddatum zwischen heute und in einem Monat liegt, wird das Abonnement mit _Zu erneuern_ markiert.
 
 Wenn das Enddatum vor dem heutigen Tag liegt, wird das Abonnement geschlossen. Hat das Abonnement unbezahlte Rechnungen wird dies im Chatter vermerkt.
 
@@ -103,7 +104,7 @@ Diese geplante Aktion prüft das nächste Abrechnungsdatum und verschiebt die Ab
 
 Erstellen Sie eine externe ID `__custom__.reminder_stage1` und `__custom__.reminder_stage2` für die ausgewählten Spalten.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Verkaufsabonnement: Vor Ablauf in Spalte verschieben`\
 Modell: `ir.actions.server`\
@@ -112,7 +113,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Settings
@@ -156,13 +157,13 @@ stage2_subscriptions.write({"stage_id": stage2_id.id})
 
 Diese geplante Aktion prüft das nächste Abrechnungsdatum der Abonnemente, erstellt ein Angebot zur Verlängerung und sendet dieses an den Kunden. Die folgenden Kriterien müssten für eine automatische Verlängerung stimmen:
 
-* Der Verkaufsaufrag ist ein Abonnement
-* Das Abonnement hat eine bestimmte Preisliste
-* Das Abonnement ist in der Stufe *Laufend*
-* Der Verkaufsauftrag ist im Status *Verkaufsauftrag*
-* Das nächste Abrechnungsdatum liegt zwischen Heute und plus 6 Wochen
+- Der Verkaufsaufrag ist ein Abonnement
+- Das Abonnement hat eine bestimmte Preisliste
+- Das Abonnement ist in der Stufe _Laufend_
+- Der Verkaufsauftrag ist im Status _Verkaufsauftrag_
+- Das nächste Abrechnungsdatum liegt zwischen Heute und plus 6 Wochen
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Verkaufsabonnement: Vor Abrechnung verlängern`\
 Modell: `ir.actions.server`\
@@ -171,7 +172,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Settings
@@ -232,12 +233,12 @@ for subscription in extend_subscriptions:
 
 Diese geplante Aktion versendet eine bestimmte Anzahl Tage vor Erreichung des Ablaufdatum einen Reminder zur Verlängerung des Abonnements. Die folgenden Bedingungen müssen zutreffen:
 
-* Der Verkaufsaufrag ist ein Abonnement
-* Der Verkaufsauftrag ist in der Stufe *Angebot versendet*
-* Das Ablaufdatum ist Heute in 2 Wochen
-* Der Verkaufsauftrag hat Lizenzen
+- Der Verkaufsaufrag ist ein Abonnement
+- Der Verkaufsauftrag ist in der Stufe _Angebot versendet_
+- Das Ablaufdatum ist Heute in 2 Wochen
+- Der Verkaufsauftrag hat Lizenzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Verkaufsabonnement: Reminder Verlängerung versenden`\
 Modell: `ir.actions.server`\
@@ -246,7 +247,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Settings

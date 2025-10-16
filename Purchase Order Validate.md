@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./purchase
 ---
+
 # Purchase Order Validate
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,6 +19,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.
 
 ### Bestellung validieren
 
-Wenn Sie eine Bestellung *Per E-Mail Versenden* oder *Auftrag Bestätigen* möchten, wird mit dieser Erweiterung geprüft, ob ein Verkaufskontakt gesetzt wurde.
+Wenn Sie eine Bestellung _Per E-Mail Versenden_ oder _Auftrag Bestätigen_ möchten, wird mit dieser Erweiterung geprüft, ob ein Verkaufskontakt gesetzt wurde.
 
 ![](attachments/Purchase%20Order%20Validate%20Message.png)

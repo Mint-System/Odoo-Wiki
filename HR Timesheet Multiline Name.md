@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./hr-timesheet
 ---
+
 # HR Timesheet Multiline Name
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/17.0/hr_timesheet_
 
 ### Mehrzeilige Beschreibung erfassen
 
-Navigieren Sie nach *Zeiterfassung* und zeigen Sie die Listenansicht an. Erstellen Sie einen Eintrag und selektieren Sie das Feld *Beschreibung*. Drücken Sie <kbd>Ctrl</kbd> + <kbd>Enter</kbd> um einen Zeilenumbruch zu erstellen.
+Navigieren Sie nach _Zeiterfassung_ und zeigen Sie die Listenansicht an. Erstellen Sie einen Eintrag und selektieren Sie das Feld _Beschreibung_. Drücken Sie <kbd>Ctrl</kbd> + <kbd>Enter</kbd> um einen Zeilenumbruch zu erstellen.

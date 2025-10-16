@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./settings
 ---
+
 # Odoo Microsoft Account
+
 ![](attachments/icons_odoo_microsoft_account.png)
 
 {{ $frontmatter.description }}
@@ -25,18 +27,18 @@ Diese App ist veraltet. Es wird empfohlen die App [Auth OIDC](Auth%20OIDC.md) zu
 
 Damit der OAuth-Flow mit Microsoft Azure funktioniert, müssen Sie [Odoo als OAuth-App auf Azure registrieren](Settings%20OAuth.md#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren). Verwenden Sie zusätzliche diese Angaben:
 
-* **Name**: Odoo Login
-* **Redirect URI**: `https://odoo.example.com/auth_oauth/microsoft/signin`
+- **Name**: Odoo Login
+- **Redirect URI**: `https://odoo.example.com/auth_oauth/microsoft/signin`
 
-Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > OAuth-Provider* und Zeigen Sie den Provider *Microsoft OAuth2* an. Überschreiben Sie die Werte im Feld *Client ID* und *Secret Key* mit den Angaben aus der vorhergehenden Registration.
+Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > OAuth-Provider_ und Zeigen Sie den Provider _Microsoft OAuth2_ an. Überschreiben Sie die Werte im Feld _Client ID_ und _Secret Key_ mit den Angaben aus der vorhergehenden Registration.
 
-Im Feld *Gültigkeitsbereich* geben Sie `offline_access User.Read Mail.Read Contacts.ReadWrite Calendars.ReadWrite` ein.
+Im Feld _Gültigkeitsbereich_ geben Sie `offline_access User.Read Mail.Read Contacts.ReadWrite Calendars.ReadWrite` ein.
 
 ### Login nur für eigenen Tenant erlauben
 
-Damit nur Benutzer aus dem eigenen Tenant einloggen können, müssen Sie den OAuth-Client auf Azure als *Single-Tenant* konfigurieren:
+Damit nur Benutzer aus dem eigenen Tenant einloggen können, müssen Sie den OAuth-Client auf Azure als _Single-Tenant_ konfigurieren:
 
-* **Unterstützte Kontentypen**: Nur Konten in diesem Organisationsverzeichnis (einzelner Mandant)
+- **Unterstützte Kontentypen**: Nur Konten in diesem Organisationsverzeichnis (einzelner Mandant)
 
 ![](attachments/Odoo%20Microsoft%20Account%20Single%20Tenant.png)
 
@@ -46,8 +48,8 @@ Und in den Einstellungen des OAuth-Provider die Authorisierungs-URL entsprechend
 
 Verwenden Sie die URLs:
 
-* **Authorization URL**: `https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/authorize`
-* **UserInfo URL**: `https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/token`
+- **Authorization URL**: `https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/authorize`
+- **UserInfo URL**: `https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/token`
 
 Mit diesen beiden Einstellungen können nur Benutzer aus dem entsprechenden Tenant einloggen.
 
@@ -55,20 +57,20 @@ Mit diesen beiden Einstellungen können nur Benutzer aus dem entsprechenden Tena
 
 ### Microsoft-Account anlegen
 
-Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer* und erstellen Sie einen neuen Benutzer:
+Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Benutzer_ und erstellen Sie einen neuen Benutzer:
 
-* **Name**: Vor- und Nachname des Benutzers
-* **E-Mail-Adresse**: E-Mail-Adresse des Microsoft-Account
-* **Gruppen**: Aktivieren Sie Gruppenzugehörigkeit für *Office-365 User*
+- **Name**: Vor- und Nachname des Benutzers
+- **E-Mail-Adresse**: E-Mail-Adresse des Microsoft-Account
+- **Gruppen**: Aktivieren Sie Gruppenzugehörigkeit für _Office-365 User_
 
 ### Mit Microsoft-Account einloggen
 
-Zeigen Sie die Odoo-Loginseite an und wählen Sie *Login in with Microsoft*. Sie werden nun auf die Anmelde-Seite von Microsoft umgeleitet. Loggen Sie sich mit dem Microsoft-Account ein und erlauben Sie den Zugriff von Odoo auf ihren Account.
+Zeigen Sie die Odoo-Loginseite an und wählen Sie _Login in with Microsoft_. Sie werden nun auf die Anmelde-Seite von Microsoft umgeleitet. Loggen Sie sich mit dem Microsoft-Account ein und erlauben Sie den Zugriff von Odoo auf ihren Account.
 
 ![](attachments/Odoo%20Microsoft%20Account%20Permissions.png)
 
 Sie werden wieder zu Odoo umgeleitet und eingeloggt.
 
 ::: warning
-Wenn ihr Odoo Benutzer im Schritt [Microsoft-Account anlegen](#Microsoft-Account%20anlegen) nicht erstellt wurde, erscheint beim ersten Login der Fehler *Access Denied*. Odoo hat ihren Benutzer erstellt und Sie können sich einloggen, wenn Sie erneut auf *Log in with Microsoft* klicken.
+Wenn ihr Odoo Benutzer im Schritt [Microsoft-Account anlegen](#Microsoft-Account%20anlegen) nicht erstellt wurde, erscheint beim ersten Login der Fehler _Access Denied_. Odoo hat ihren Benutzer erstellt und Sie können sich einloggen, wenn Sie erneut auf _Log in with Microsoft_ klicken.
 :::

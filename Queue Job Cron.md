@@ -7,19 +7,20 @@ prev: ./development
 ---
 
 # Queue Job Cron
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `queue_job_cron`\
-Repository: <https://github.com/OCA/queue/tree/17.0/queue_job_cron>
+Repository: <https://github.com/OCA/queue/tree/18.0/queue_job_cron>
 
 ## Verwendung
 
 ### Geplante Aktion als Job ausführen
 
-Rufen Sie die geplante Aktion unter *Einstellungen > Technisch > Geplante Aktionen* auf. Aktivieren Sie die Option *als Warteschlangen-Job ausführen*. Wählen Sie Optional den Kanal aus.
+Rufen Sie die geplante Aktion unter _Einstellungen > Technisch > Geplante Aktionen_ auf. Aktivieren Sie die Option _als Warteschlangen-Job ausführen_. Wählen Sie Optional den Kanal aus.
 
 ### Ausführung als Job testen
 
-Wenn Sie eine [Geplante Aktion als Job ausführen](#Geplante%20Aktion%20als%20Job%20ausführen) können Sie die Ausführung mit *Manuell Ausführen* auslösen. Zeige Sie die [Warteschlange](Queue%20Job.md#Warteschlange%20anzeigen) an. Sie sehen die Ausführung als Job.
+Wenn Sie eine [Geplante Aktion als Job ausführen](#Geplante%20Aktion%20als%20Job%20ausführen) können Sie die Ausführung mit _Manuell Ausführen_ auslösen. Zeige Sie die [Warteschlange](Queue%20Job.md#Warteschlange%20anzeigen) an. Sie sehen die Ausführung als Job.

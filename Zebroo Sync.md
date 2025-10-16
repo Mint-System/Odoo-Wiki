@@ -5,7 +5,9 @@ kind: howto
 partner: Thirdparty
 prev: ./
 ---
+
 # Zebroo Sync
+
 ![icons_odoo_thirdparty](attachments/icons_odoo_thirdparty.png)
 
 {{ $frontmatter.description }}
@@ -30,24 +32,24 @@ Repository: <https://github.com/Odoo-Ninjas/zync-stable/tree/16.0/zbsync>
 
 ### Pipeline einrichten
 
-Öffnen Sie *Zebroo Sync* und erstellen Sie einen neuen Eintrag. Geben Sie den Namen der Pipeline ein und speichern Sie den Eintrag. Odoo erstellt die Start- und Stop-Worker.
+Öffnen Sie _Zebroo Sync_ und erstellen Sie einen neuen Eintrag. Geben Sie den Namen der Pipeline ein und speichern Sie den Eintrag. Odoo erstellt die Start- und Stop-Worker.
 
 ### Pipeline Test ausführen
 
-Öffnen Sie *Zebroo Sync* und zeigen Sie eine Pipeline an. Wählen Sie die Aktion *Test Run*. Odoo erstellt eine Instanz der Pipeline. Klicken Sie auf *Heartbeat* um die einzelnen Worker-Schritte ausführen.
+Öffnen Sie _Zebroo Sync_ und zeigen Sie eine Pipeline an. Wählen Sie die Aktion _Test Run_. Odoo erstellt eine Instanz der Pipeline. Klicken Sie auf _Heartbeat_ um die einzelnen Worker-Schritte ausführen.
 
 ### Pipeline Normal ausführen
 
-Öffnen Sie *Zebroo Sync* und zeigen Sie eine Pipeline an. Wählen Sie die Aktion *Start Normal*. Odoo erstellt eine Instanz der Pipeline und führt alle Worker-Schritte aus.
+Öffnen Sie _Zebroo Sync_ und zeigen Sie eine Pipeline an. Wählen Sie die Aktion _Start Normal_. Odoo erstellt eine Instanz der Pipeline und führt alle Worker-Schritte aus.
 
 ### Instanzen anzeigen
 
-Öffnen Sie *Zebroo Sync > Pipelines > Instances*. Hier sehen Sie alle Instanzen von allen Pipelines. Wenn Sie eine Pipeline anzeigen können Sie mit *Show Instances* alle Instanzen dieser Pipeline anzeigen.
+Öffnen Sie _Zebroo Sync > Pipelines > Instances_. Hier sehen Sie alle Instanzen von allen Pipelines. Wenn Sie eine Pipeline anzeigen können Sie mit _Show Instances_ alle Instanzen dieser Pipeline anzeigen.
 
 ### Worker-Resultate anzeigen
 
-Öffnen Sie eine Instanz *Zebroo Sync > Pipelines > Instances*. Klicken Sie in der Spalte *Batches* auf einen Worker.
+Öffnen Sie eine Instanz _Zebroo Sync > Pipelines > Instances_. Klicken Sie in der Spalte _Batches_ auf einen Worker.
 
 ### Cron-Job für Pipeline einrichten
 
-Öffnen Sie *Zebroo Sync* und wählen Sie eine Pipeline. Zeigen Sie den Tab *Cronjobs* an und erstellen Sie einen neuen Eintrag. Geben Sie den Namen des Cron-Job ein und fügen Sie eine Zeile für den Intervall hinzu. Bestimmen Sie in welchem Intervall die Pipeline ausgeführt werden soll.
+Öffnen Sie _Zebroo Sync_ und wählen Sie eine Pipeline. Zeigen Sie den Tab _Cronjobs_ an und erstellen Sie einen neuen Eintrag. Geben Sie den Namen des Cron-Job ein und fügen Sie eine Zeile für den Intervall hinzu. Bestimmen Sie in welchem Intervall die Pipeline ausgeführt werden soll.

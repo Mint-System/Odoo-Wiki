@@ -1,11 +1,13 @@
 ---
 title: Stock Picking MRP Production Assign
-description: "Reservierung für Make-To-Order Aufträge gleichzeitig durchführen."
+description: 'Reservierung für Make-To-Order Aufträge gleichzeitig durchführen.'
 kind: howto
 partner: Mint-System
 prev: ./stock
 ---
+
 # Stock Picking MRP Production Assign
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}

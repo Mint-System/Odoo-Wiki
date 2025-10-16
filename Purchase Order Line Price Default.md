@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./purchase
 ---
+
 # Purchase Order Line Price Default
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}

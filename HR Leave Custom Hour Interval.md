@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./hr-holidays
 ---
+
 # HR Leave Custom Hour Interval
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/OCA/hr-holidays/tree/17.0/hr_leave_custom_hour_i
 
 ### Start- und End-Zeit für Abwesenheit eintragen
 
-Zeigen Sie einen Abwesenheit in der App *Abwesenheit* an und aktivieren Sie die Option *Benutzerdefinierte Stunden*. Mit dieser Erweiterung können Sie in den Felder *Von* und *Bis* die Uhrzeit eintragen.
+Zeigen Sie einen Abwesenheit in der App _Abwesenheit_ an und aktivieren Sie die Option _Benutzerdefinierte Stunden_. Mit dieser Erweiterung können Sie in den Felder _Von_ und _Bis_ die Uhrzeit eintragen.

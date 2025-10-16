@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./mass-mailing
 ---
+
 # Mass Mailing Contact Active
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

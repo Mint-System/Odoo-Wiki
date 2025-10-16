@@ -7,6 +7,7 @@ prev: ./hr-holidays
 ---
 
 # HR Holidays Negative Hours
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -16,10 +17,10 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_holidays_n
 
 ## Beschreibung
 
-Mit dieser Erweiterung erhalten Sie eine neue Option *Kompensierung Überstunden* auf der Abwesenheitsart. Wenn diese Option aktiviert ist, kann vom diesem Typ eine Abwesenheit, mit der das Überstunden-Saldo überzogen werden kann.
+Mit dieser Erweiterung erhalten Sie eine neue Option _Kompensierung Überstunden_ auf der Abwesenheitsart. Eine Abwesenheit von einer Abwesenheitsart mit aktiver Option, darf das Überstunden-Saldo vorziehen und überziehen.
 
 ## Konfiguration
 
 ### Abwesenheitsart Kompensation einrichten
 
-Zeigen Sie *Abwesenheiten > Konfiguration > Abwesenheitsarten* an und öffnen Sie die Abwesenheitsart *Kompensation*.
+Zeigen Sie _Abwesenheiten > Konfiguration > Abwesenheitsarten_ an und öffnen Sie die Abwesenheitsart _Kompensation_.

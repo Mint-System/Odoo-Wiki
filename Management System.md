@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./
 ---
+
 # Management System
+
 ![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.png)
 
 {{ $frontmatter.description }}

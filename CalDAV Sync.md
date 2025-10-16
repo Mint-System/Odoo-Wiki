@@ -5,7 +5,9 @@ kind: howto
 partner: Thirdparty
 prev: ./calendar
 ---
+
 # CalDAV Sync
+
 ![icons_odoo_thirdparty](attachments/icons_odoo_thirdparty.png)
 
 {{ $frontmatter.description }}
@@ -17,11 +19,11 @@ Repository: <https://git.bemade.org/bemade/bemade-addons/-/tree/18.0/caldav_sync
 
 ### CalDAV Synchronisation einrichten
 
-Zeigen Sie in *Benutzer-Menü > Mein Profil* den Tab *Calendar* an. Geben Sie die CalDAV-Verbindungsdaten ein:
+Zeigen Sie in _Benutzer-Menü > Mein Profil_ den Tab _Calendar_ an. Geben Sie die CalDAV-Verbindungsdaten ein:
 
-* **CalDAV Calendar URL**: Diese Url kann in ihrer Kalender-Anwendung kopiert werden.
-* **CalDAV Username**: Benutzername ihres Kalender-Accounts.
-* **CalDAV Password**: Passwort ihres Kalender-Accounts.
+- **CalDAV Calendar URL**: Diese Url kann in ihrer Kalender-Anwendung kopiert werden.
+- **CalDAV Username**: Benutzername ihres Kalender-Accounts.
+- **CalDAV Password**: Passwort ihres Kalender-Accounts.
 
 ## Verwendung
 

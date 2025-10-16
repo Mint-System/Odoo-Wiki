@@ -5,13 +5,15 @@ kind: howto
 partner: OCA
 prev: ./contacts
 ---
+
 # Contact Birthdate
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `partner_contact_birthdate`\
-Repository: <https://github.com/OCA/partner-contact/tree/17.0/partner_contact_birthdate>
+Repository: <https://github.com/OCA/partner-contact/tree/18.0/partner_contact_birthdate>
 
 ::: warning
 Diese Dokumentation wurde durch [Partner Contact Birthdate](Partner%20Contact%20Birthdate.md) ersetzt.
@@ -21,7 +23,7 @@ Diese Dokumentation wurde durch [Partner Contact Birthdate](Partner%20Contact%20
 
 ### Geburtsdatum für Kontakt speichern
 
-Öffnen Sie einen Kontakt und zeigen Sie den Tab *Persönliche Auskunft*. Bearbeiten Sie den Kontakt und legen Sie das Geburtstdatum im Feld *Geburtsdatum* fest. Odoo berechnet dazu das Alter.
+Öffnen Sie einen Kontakt und zeigen Sie den Tab _Persönliche Auskunft_. Bearbeiten Sie den Kontakt und legen Sie das Geburtstdatum im Feld _Geburtsdatum_ fest. Odoo berechnet dazu das Alter.
 
 ![](attachments/Contact%20Birthdate%20Tab%20mit%20Geburtsdatum.png)
 

@@ -2,9 +2,11 @@
 title: Mitarbeit
 description: Das Odoo Wiki erweitern.
 tags:
-- Readme
+  - Readme
 prev: ./
+partner: Mint-System
 ---
+
 # Mitarbeit
 
 Das Odoo Wiki hat zum Ziel den Anwender eine einfache und kompakte Hilfestellung anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Best Practice](Best%20Practice.md) abgebildet. Konkrete Arbeitsschritte zur Konfiguration und Verwendung von Odoo werden als [HowTos](README.md#HowTos) dokumentiert.
@@ -25,9 +27,9 @@ Hier finden Sie technische Konfigurationen damit Sie an der Wissensdatenbank mit
 2. Werden Sie Mitglied bei <https://github.com/Mint-System/> (optional)
 3. Installieren Sie <https://obsidian.md/>
 4. Installieren Sie <https://git-scm.com/>
-5. Verwenden Sie ihren bestehenden SSH-Schlüssel oder erstellen Sie ein neues SSH-Schlüsselpaar <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent> 
-6. Forken Sie das *Odoo Wiki* Repository (optional)
-7. Klonen Sie das *Odoo Wiki Repository
+5. Verwenden Sie ihren bestehenden SSH-Schlüssel oder erstellen Sie ein neues SSH-Schlüsselpaar <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
+6. Forken Sie das _Odoo Wiki_ Repository (optional)
+7. Klonen Sie das \*Odoo Wiki Repository
 
 ```bash
 git clone git@github.com:Mint-System/Odoo-Wiki.git
@@ -43,7 +45,7 @@ Der Obsidian Vault und das Git Repository werden mit dem Obisidian Git Plugin sy
 
 ### Eintrag erstellen
 
-Mit Obsidian wir das *QuickAdd* Plugin aktiv. Dieses Plugin führt Sie durch die Erfassung eines neuen Wiki-Eintrags. Machen Sie sich mit bestehnden Einträgen vertraut. 
+Mit Obsidian wir das _QuickAdd_ Plugin aktiv. Dieses Plugin führt Sie durch die Erfassung eines neuen Wiki-Eintrags. Machen Sie sich mit bestehnden Einträgen vertraut.
 
 Zur Erstellung eines Eintrags rufen Sie die Befehls-Pallete mit <kbd>ctrl</kbd> + <kbd>p</kbd> auf und suchen nach `QuickAdd: Run QuickAdd`. Drücken Sie <kbd>Enter</kbd> und wählen Sie anschliessend `Entry`. Sie werden nun durch die Eingabe geführst.
 
@@ -76,23 +78,24 @@ Die Beschreibungen und Anleitungen sind ausführlich und kommen ohne Abkürzunge
 Die Navigations-Anweisungen müssen genauso erstellt werden:
 
 🚫"Fertigung/Stammdaten/Stückliste"  
-✅ "Navigieren Sie nach *Fertigung > Stammdaten > Stückliste* und klicken Sie auf *+ Anliegen*."
+✅ "Navigieren Sie nach _Fertigung > Stammdaten > Stückliste_ und klicken Sie auf _+ Anliegen_."
 
 Pfade und Bezeichnungen werden kursiv geschrieben.
 
 🚫 Drücken Sie auf "+ Anlegen"  
-✅ Drücken Sie auf *+ Anlegen*
+✅ Drücken Sie auf _+ Anlegen_
 
 Bezeichnungen die gross geschrieben sind, werden nur mit Anfangsbuchstanden gross geschrieben.
 
-🚫 Drücken Sie auf *ALS ERLEDIGT MARKIEREN*
-✅ Drücken Sie auf *Als Erledigt Markieren*
+🚫 Drücken Sie auf _ALS ERLEDIGT MARKIEREN_
+✅ Drücken Sie auf _Als Erledigt Markieren_
 
 ### Info-Boxen
 
 Um Inhalte speziell zu markieren gibt es diese Optionen.
 
 Markup:
+
 ```
 ::: tip
 Info
@@ -150,13 +153,13 @@ Informationen eines Kunden dürfen auf den Bildern nicht sichtbar sein.
 
 Unterseiten sind nur unter speziellen Bedienungen erlaubt. Beispielsweise ist die App [Fertigung](Manufacture.md) sehr umfangreich. Deshalb wurde die App in Unterseiten (Bereiche) aufgeteilt.
 
-| Bereich                                         | Beschreibung                                   |
-| ----------------------------------------------- | ---------------------------------------------- |
+| Bereich                                                         | Beschreibung                                   |
+| --------------------------------------------------------------- | ---------------------------------------------- |
 | [Fertigung Datenmanagement](Manufacture%20Data%20Management.md) | Produkte und Dienstleistungen zentral pflegen. |
 
 Die Bereiche bzw. Unterseite werden in der Hauptseite aufgelistet.
 
-Genau gleich werden *Erweiterungen* verlinkt.
+Genau gleich werden _Erweiterungen_ verlinkt.
 
 ### Tags
 
@@ -164,19 +167,20 @@ Mit Obsidian können Artikel getagged `#tagname` werden. Tags werden von Vuepres
 
 Tags aus der Softwareentwicklung:
 
-* #TODO: Zur Bearbeitung.
-* #FIXME: Workarund definiert.
-* #BUG: Fehler zum lösen.
-* #NOTE: Information zum Text.
-* #DEPRECATED: Ist veraltet.
+- #TODO: Zur Bearbeitung.
+- #FIXME: Workarund definiert.
+- #BUG: Fehler zum lösen.
+- #NOTE: Information zum Text.
+- #DEPRECATED: Ist veraltet.
 
 Odoo Version:
 
-* #Odoo13: Tag für Odoo Version 13.
-* #Odoo14: Tag für Odoo Version 14.
-* #Odoo15: Tag für Odoo Version 15.
-* #Odoo16: Tag für Odoo Version 16.
-* #Odoo17: Tag für Odoo Version 17.
+- #Odoo13: Tag für Odoo Version 13.
+- #Odoo14: Tag für Odoo Version 14.
+- #Odoo15: Tag für Odoo Version 15.
+- #Odoo16: Tag für Odoo Version 16.
+- #Odoo17: Tag für Odoo Version 17.
+- #Odoo18: Tag für Odoo Version 18.
 
 ### Hostname und Mail-Adressen
 
@@ -184,22 +188,22 @@ Anleitungen werden mit fiktiven Hostnamen, Domains und Mail-Adressen beschrieben
 
 Hostnames:
 
-* Haupt-Domain: example.com
-* Produktive Odoo-Instanz: odoo.example.com
-* Odoo Entwicklungsumgebung: odoo-dev.example.com
-* Mailgun: mg.example.com
-* Externe API: api.example.com
+- Haupt-Domain: example.com
+- Produktive Odoo-Instanz: odoo.example.com
+- Odoo Entwicklungsumgebung: odoo-dev.example.com
+- Mailgun: mg.example.com
+- Externe API: api.example.com
 
 Mail-Adressen:
 
-* Support: support@example.com
-* Catchall: reply@example.com
-* Odoo Bot: odoobot@example.com
-* Administrator: admin@example.com
-* Odoo Postfach: erp@example.com
-* Bounce-Adresse: bounce@example.com
-* Kontakt-Adresse: contact@example.com
-* Empfang Rechnungen: invoice@example.co
+- Support: support@example.com
+- Catchall: reply@example.com
+- Odoo Bot: odoobot@example.com
+- Administrator: admin@example.com
+- Odoo Postfach: erp@example.com
+- Bounce-Adresse: bounce@example.com
+- Kontakt-Adresse: contact@example.com
+- Empfang Rechnungen: invoice@example.co
 
 ### Externe Links
 

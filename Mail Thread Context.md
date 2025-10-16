@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./dialog
 ---
+
 # Mail Thread Context
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -32,4 +34,4 @@ Nachher:
 
 ![Mail Thread Context Notiz nachher](attachments/Mail%20Thread%20Context%20Notiz%20nachher.gif)
 
-Dasselbe funktioniert auch für *Sende Nachricht*. Der Empfänger wird nicht automatisch als Abonnent hinzugefügt.
+Dasselbe funktioniert auch für _Sende Nachricht_. Der Empfänger wird nicht automatisch als Abonnent hinzugefügt.

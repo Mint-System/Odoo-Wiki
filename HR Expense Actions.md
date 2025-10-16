@@ -4,7 +4,9 @@ description: Aktionen für Spesen App einrichten.
 kind: howto
 prev: ./hr-attendance
 ---
+
 # Spesen Aktionen
+
 ![icons_odoo_hr_expense](attachments/icons_odoo_hr_expense.png)
 
 {{ $frontmatter.description }}
@@ -13,17 +15,17 @@ prev: ./hr-attendance
 
 ### Spesenabrechnung zurücksetzen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Spesenabrechnung zurücksetzen`\
 Modell: `hr.expense.sheet`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
-for rec in records:  
+for rec in records:
   rec.action_unpost()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern. In der Ansicht der Spesenabrechnungen können Sie *Aktionen > Spesenabrechnung zurücksetzen* anwählen.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speichern. In der Ansicht der Spesenabrechnungen können Sie _Aktionen > Spesenabrechnung zurücksetzen_ anwählen.

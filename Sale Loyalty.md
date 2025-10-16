@@ -4,7 +4,9 @@ description: Kundentreue mit Rabatten, Coupons und Geschenkkarten belohnen.
 kind: howto
 prev: ./sale
 ---
+
 # Verkauf Treue
+
 ![](attachments/odoo_icon_website_loyalty.png)
 
 {{ $frontmatter.description }}
@@ -15,22 +17,22 @@ Diese App gibt es ab #Odoo16.
 
 ### Gutschein für Verkaufsauftrag erstellen
 
-Navigieren Sie nach *Verkauf > Produkte > Rabatt & Treue* und klicken Sie auf *Gutscheine für nächsten Einkauf*.
+Navigieren Sie nach _Verkauf > Produkte > Rabatt & Treue_ und klicken Sie auf _Gutscheine für nächsten Einkauf_.
 
 ### Rabatt bei Mindestbestellung von Produkt erstellen
 
-Zeigen Sie *Verkauf > Produkte > Rabatt & Treue* an und erstellen Sie einen neuen Eintrag.
+Zeigen Sie _Verkauf > Produkte > Rabatt & Treue_ an und erstellen Sie einen neuen Eintrag.
 
-* **Programmname**: Rabatt
-* **Programmart**: Promos
+- **Programmname**: Rabatt
+- **Programmart**: Promos
 
-Im Tab *Rules & Rewards* bearbeiten Sie die *Conditional rules*:
+Im Tab _Rules & Rewards_ bearbeiten Sie die _Conditional rules_:
 
-* **Minimalbestand**: Geben Sie die Mindestbestellmenge ein
-* **Produkte**: Wählen Sie die Produkte aus, die den Rabatt erhalten
+- **Minimalbestand**: Geben Sie die Mindestbestellmenge ein
+- **Produkte**: Wählen Sie die Produkte aus, die den Rabatt erhalten
 
-Für *Boni* bearbeiten Sie dein Eintrag wie folgt:
+Für _Boni_ bearbeiten Sie dein Eintrag wie folgt:
 
-* **Rabatt**: Bestimmen Sie den Rabatt
-* **Rabattierte Produkte**: Wählen Sie hier dasselbe Produkt aus
-* **Description on order**: Legen Sie eine Bezeichnung für den Warenkorb / Auftrag fest.
+- **Rabatt**: Bestimmen Sie den Rabatt
+- **Rabattierte Produkte**: Wählen Sie hier dasselbe Produkt aus
+- **Description on order**: Legen Sie eine Bezeichnung für den Warenkorb / Auftrag fest.

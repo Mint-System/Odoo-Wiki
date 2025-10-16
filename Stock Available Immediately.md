@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./warehouse
 ---
+
 # Ignore planned receptions in quantity available to promise
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

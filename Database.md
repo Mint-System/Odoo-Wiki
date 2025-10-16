@@ -3,8 +3,11 @@ title: Datenbank
 description: Odoo Datenbanken verwalten.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
+
 # Datenbank
+
 ![icons_odoo_apps](attachments/icons_odoo_apps.png)
 
 {{ $frontmatter.description }}
@@ -17,11 +20,11 @@ prev: ./
 
 ## Erweiterungen
 
-| Erweiterung                                                                               | Beschreibung                                            |
-| ----------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| [Base DB Anonymization](Base%20DB%20Anonymization.md)                                     | Inhalt von ausgewählten Datenbank-Felder anonmyisieren. |
-| [Base Search Fuzzy](Base%20Search%20Fuzzy.md)                                             | Aktivieren Trigram-Index auf Datenbank-Felder.          |
-| [DBFilter From Header](DBFilter%20From%20Header.md)                                       | Datenbank mit Proxy-Header auswählen.                   |
+| Erweiterung                                           | Beschreibung                                            |
+| ----------------------------------------------------- | ------------------------------------------------------- |
+| [Base DB Anonymization](Base%20DB%20Anonymization.md) | Inhalt von ausgewählten Datenbank-Felder anonmyisieren. |
+| [Base Search Fuzzy](Base%20Search%20Fuzzy.md)         | Aktivieren Trigram-Index auf Datenbank-Felder.          |
+| [DBFilter From Header](DBFilter%20From%20Header.md)   | Datenbank mit Proxy-Header auswählen.                   |
 
 ## Datenbank
 
@@ -31,49 +34,49 @@ Zur Verwaltung der Odoo-Instanzen gibt es den Datenbankmanager. Dieses Tool erla
 
 Möchten Sie eine Datenbank für ihre Odoo-Installation erstellen, öffnen Sie den Datenbankmanager unter https://$HOSTNAME/web/database/manager und geben die folgenden Daten ein:
 
-* Master Password: Dieses Passwort ist vordefiniert
-* Database Name: `erp`
+- Master Password: Dieses Passwort ist vordefiniert
+- Database Name: `erp`
 
 ::: tip
-Der Name der Datenbank muss gleich der Subdomain/Domain sein. Beispiel:  
+Der Name der Datenbank muss gleich der Subdomain/Domain sein. Beispiel:
 
 <https://odoo.example.com> -> `odoo`  
-<https://www.example.com> -> `example`  (das *www* wird ignoriert)
+<https://www.example.com> -> `example` (das _www_ wird ignoriert)
 :::
 
-* Email: `admin@example.com`
-* Password: Passwort des Odoo Administrators
-* Phone number: Telefonnumer des Unternehmens
-* Language: `German (CH)/ Deutsch (CH)` Nicht zu verwechseln mit *German / Deutsch*
-* Country: `Switzerland`
-* Demo data: `deaktiviert` Achtung: Bei aktivierter Checkbox wird die Datenbank unwiderruflich mit Demo-Daten gefüllt
+- Email: `admin@example.com`
+- Password: Passwort des Odoo Administrators
+- Phone number: Telefonnumer des Unternehmens
+- Language: `German (CH)/ Deutsch (CH)` Nicht zu verwechseln mit _German / Deutsch_
+- Country: `Switzerland`
+- Demo data: `deaktiviert` Achtung: Bei aktivierter Checkbox wird die Datenbank unwiderruflich mit Demo-Daten gefüllt
 
 ::: tip
-Der Eintrag im Feld Email wird automatisch zum Login des Standard-Benutzers *Administrator*.
+Der Eintrag im Feld Email wird automatisch zum Login des Standard-Benutzers _Administrator_.
 :::
 
 ![Einstellungen Benutzer Administrator](attachments/Einstellungen%20Benutzer%20Administrator.png)
 
-Drücken Sie den Knopf *Create Database* zum Erstellen der neuen Datenbank.
+Drücken Sie den Knopf _Create Database_ zum Erstellen der neuen Datenbank.
 Die Funktion "Restore Database" führt Sie zu einem Dialog um eine bestehende Datenbank zu importieren.
 
 ### Backup erstellen
 
-Der Datenbank Manager kann unter der URL https://odoo.example.com/web/database/manager aufgerufen werden. Hier werden die Odoo-Instanzen aufgelistet. Beim Klick auf *Backup* wird man aufgefordert das *Odoo Master Password* einzugeben. Nach Eingabe des Password und abschliessen des Dialogs erhält man eine ZIP-Datei zum herunterladen.
+Der Datenbank Manager kann unter der URL https://odoo.example.com/web/database/manager aufgerufen werden. Hier werden die Odoo-Instanzen aufgelistet. Beim Klick auf _Backup_ wird man aufgefordert das _Odoo Master Password_ einzugeben. Nach Eingabe des Password und abschliessen des Dialogs erhält man eine ZIP-Datei zum herunterladen.
 
-Wählen Sie auf der folgenden Maske die Funktion *Manage Databases*.
+Wählen Sie auf der folgenden Maske die Funktion _Manage Databases_.
 
 ![Datenbankmanager Start](attachments/Datenbankmanager%20Start.png)
 
-Wählen Sie gemäss der folgenden Darstellung die Funktion *Backup*.
+Wählen Sie gemäss der folgenden Darstellung die Funktion _Backup_.
 
 ![Datenbankmanager Funktionen](attachments/Datenbankmanager%20Funktionen.png)
 
-Im unten dargestellten Dialog ist das *Odoo Master Password* notwendig.
+Im unten dargestellten Dialog ist das _Odoo Master Password_ notwendig.
 
 ![Datenbankmanager Backup](attachments/Datenbankmanager%20Backup.png)
 
-Nach der Bestätigung mit dem Knopf *Backup* wird der Inhalt der Datenbank lokal auf dem Computer in eine zip-Datei gespeichert.
+Nach der Bestätigung mit dem Knopf _Backup_ wird der Inhalt der Datenbank lokal auf dem Computer in eine zip-Datei gespeichert.
 
 ::: tip
 Um das Datenbank-Backup zu versenden können Sie <https://www.swisstransfer.com> verwenden.
@@ -83,33 +86,33 @@ Um das Datenbank-Backup zu versenden können Sie <https://www.swisstransfer.com>
 
 Falls eine Datenbank mit einem Backup überschrieben werden soll, muss im nächsten Schritt die bestehende Datenbank gelöscht werden.
 
-Wählen Sie gemäss der folgenden Darstellung die Funktion *Delete*.
+Wählen Sie gemäss der folgenden Darstellung die Funktion _Delete_.
 
 ![Datenbankmanager Funktionen](attachments/Datenbankmanager%20Funktionen.png)
 
-Im unten dargestellten Dialog ist das *Odoo Master Password* notwendig.
+Im unten dargestellten Dialog ist das _Odoo Master Password_ notwendig.
 
 ![Datenbankmanager Delete](attachments/Datenbankmanager%20Delete.png)
 
-Wählen Sie anschliessend die Funktion *Delete*.
+Wählen Sie anschliessend die Funktion _Delete_.
 
 Rufen Sie anschliessend die Startseite erneut auf. Es erscheint die folgende Maske:
 
 ![Datenbankmanager Restore](attachments/Datenbankmanager%20Restore.png)
 
-Wählen Sie die Funktion *restore a Database*. Anschliessend erscheint die folgende Auswahl.
+Wählen Sie die Funktion _restore a Database_. Anschliessend erscheint die folgende Auswahl.
 
 ![Datenbankmanager Restore Auswahl](attachments/Datenbankmanager%20Restore%20Auswahl.png)
 
 ::: tip
-Im Feld *Database* muss zwingend der Name der gelöschten Datenbank eingetragen werden.
+Im Feld _Database_ muss zwingend der Name der gelöschten Datenbank eingetragen werden.
 :::
 
 ::: tip
-Wählen Sie *This database is a copy*. Ansonsten verliert die Installation den Lizenzschlüssel.
+Wählen Sie _This database is a copy_. Ansonsten verliert die Installation den Lizenzschlüssel.
 :::
 
-Mit *Continue* wird der Datenimport durchgeführt. Nach Abschluss des Vorgangs zeigt der Browser die folgende Auswahl:
+Mit _Continue_ wird der Datenimport durchgeführt. Nach Abschluss des Vorgangs zeigt der Browser die folgende Auswahl:
 
 ![Datenbankmanager Funktionen](attachments/Datenbankmanager%20Funktionen.png)
 
@@ -119,11 +122,11 @@ Mit einem Klick auf den Namen ihrer Datenbank startet das System mit der Login-M
 
 Jede Odoo Datenbank wird mit einem Universally unique Identifier (UUID) identifiziert. Beim Kopieren der Datenbank mit dem Datenbankmanager wird jeweils eine neue UUID generiert. Die UUID kann aber auch manuell generiert und festgelegt werden.
 
-Im Entwicklermodus navigieren Sie nach *Einstellungen > Technisch > Parameter > Systemparameter*. Auf der Kommandozeile geben Sie den Befehl `uuidgen` ein und legen die generierte UUID als Wert für den Parameter `database.uuid` fest.
+Im Entwicklermodus navigieren Sie nach _Einstellungen > Technisch > Parameter > Systemparameter_. Auf der Kommandozeile geben Sie den Befehl `uuidgen` ein und legen die generierte UUID als Wert für den Parameter `database.uuid` fest.
 
 ### Datenbank URL festlegen
 
-Im Entwicklermodus navigieren Sie nach *Einstellungen > Technisch > Parameter > Systemparameter*. Legen Sie für den Schlüssel `web.base.url` den Wert `	https://odoo.example.com` fest. 
+Im Entwicklermodus navigieren Sie nach _Einstellungen > Technisch > Parameter > Systemparameter_. Legen Sie für den Schlüssel `web.base.url` den Wert `	https://odoo.example.com` fest.
 
 ::: tip
 Dieser Parameter wird von Odoo automatisch festgelegt. Um den Wert zu übersteuern, muss der Parameter `web.base.url.freeze` auf `True` gesetzt werden.
@@ -131,35 +134,19 @@ Dieser Parameter wird von Odoo automatisch festgelegt. Um den Wert zu übersteue
 
 ### Odoo Version anzeigen
 
-Rufen Sie die App *Einstellungen* auf. Scrollen Sie bis ans Ende. Im Abschnitt *Über* ist die Odoo Version ersichtlich:
+Rufen Sie die App _Einstellungen_ auf. Scrollen Sie bis ans Ende. Im Abschnitt _Über_ ist die Odoo Version ersichtlich:
 
 ![](attachments/Odoo%20Version%20anzeigen.png)
 
 ### Dateianhänge anzeigen
 
-In der Odoo-Datenbank werden Referenzen auf Dateien gespeichert. Navigieren Sie nach *Einstellungen > Technisch > Datenbankstruktur > Dateianhänge*. Wählen Sie einen Dateianhang aus. Sie können die Datei herunterladen und sofern mit einer Ressource verknüpft auf das entsprechende Dokument zugeifen. 
-
-## Odoo Online
-
-### Datenbank herunterladen
-
-Damit Sie die Odoo Online Datenbank herunterladen können, öffnen Sie <https://www.odoo.com/de_DE/my/databases>. Hier haben Sie eine Übersicht iherer Odoo Online Datenbanken.
-
-Öffnen Sie bei der zu exportierenden Datenbank das Kontext-Menü neben dem Datebanknamen. 
-
-![](attachments/Datenbankmanager%20Odoo%20Online%20Datebanken.png)
-
-Anschliessend wählen Sie *Herunterladen*.
-
-![](attachments/Datenbankmanager%20Odoo%20Online%20Herunterladen.png)
-
-Der Download-Vorgang kann abhängig von der Datenbankgrösse Zeit in Anspruch nehmen. Als erstes sollte die Datei `UNTERNEHMENSNAME.dump.zip` zum Download angeboten werden. Mit *Speichern* laden Sie die Datei auf den lokalen Computer.
+In der Odoo-Datenbank werden Referenzen auf Dateien gespeichert. Navigieren Sie nach _Einstellungen > Technisch > Datenbankstruktur > Dateianhänge_. Wählen Sie einen Dateianhang aus. Sie können die Datei herunterladen und sofern mit einer Ressource verknüpft auf das entsprechende Dokument zugeifen.
 
 ## Lizenz
 
 ### Odoo Enterprise Abonnement aktivieren
 
-Nach dem Login erscheint die Meldung, dass die Odoo-Installation nicht aktiviert ist. 
+Nach dem Login erscheint die Meldung, dass die Odoo-Installation nicht aktiviert ist.
 
 ![](attachments/Intialisierung%20Odoo%20Enterprise%20aktivieren.png)
 
@@ -169,21 +156,21 @@ Tragen Sie in diesem Dialog ihren Odoo Enterprise Abonnement Code ein.
 
 Wenn eine Datenbank abgelaufen ist, erscheint eine entsprechende Meldung. Diese ist aber nur symbolisch, mit der richtigen URL können Sie das Ablaufdatum der Odoo Datenbank verlängern. Am einfachsten ist es, wenn das Testsystem und das produktive System unter einer ähnlichen URL erreichbar sind.
 
-Navigieren Sie auf dem Testsystem nach *Einstellungen > Technisch > Systemparameter*. Ersetzen Sie die Domain des Testsystem in der URL mit der Domain des produktiven System. Nun können Sie den Wert des Schlüssel `database.expiration_date` mit einem Datum in der Zukunft ersetzen.
+Navigieren Sie auf dem Testsystem nach _Einstellungen > Technisch > Systemparameter_. Ersetzen Sie die Domain des Testsystem in der URL mit der Domain des produktiven System. Nun können Sie den Wert des Schlüssel `database.expiration_date` mit einem Datum in der Zukunft ersetzen.
 
 ![Einstellungen Odoo-Datenbank verlängern](attachments/Einstellungen%20Odoo-Datenbank%20verlängern.gif)
 
 ### Synchronisation mit Lizenzserver durchführen
 
-Odoo registriert eine eindeutige Nummer (UUID) auf dem Lizenzserver von Odoo S.A. und lädt die Lizenzinformationen herunter. Die automatische Synchronisation der Informationen können Sie wie folgt ausführen. 
+Odoo registriert eine eindeutige Nummer (UUID) auf dem Lizenzserver von Odoo S.A. und lädt die Lizenzinformationen herunter. Die automatische Synchronisation der Informationen können Sie wie folgt ausführen.
 
-[Zeigen Sie die Externe ID](Development.md#Externe%20ID%20anzeigen) mit Schlüssel `mail.ir_cron_module_update_notification` an. Klicken Sie auf den verlinkten Datensatz. Sie gelangen zur geplanten Aktion *Veröffentlicher: Benachrichtigung aktualisieren*. Führen Sie die Aktion aus.
+[Zeigen Sie die Externe ID](Development.md#Externe%20ID%20anzeigen) mit Schlüssel `mail.ir_cron_module_update_notification` an. Klicken Sie auf den verlinkten Datensatz. Sie gelangen zur geplanten Aktion _Veröffentlicher: Benachrichtigung aktualisieren_. Führen Sie die Aktion aus.
 
 ### Synchronisation mit Lizenzserver deaktivieren
 
-Nach der Installation der Datenbank registriert Odoo eine eindeutige Nummer (UUID) auf dem Lizenzserver von Odoo S.A. Damit werden die Lizenzinformationen abgeglichen. Die automatische Synchronisation der Informationen können Sie wie folgt ausschalten. 
+Nach der Installation der Datenbank registriert Odoo eine eindeutige Nummer (UUID) auf dem Lizenzserver von Odoo S.A. Damit werden die Lizenzinformationen abgeglichen. Die automatische Synchronisation der Informationen können Sie wie folgt ausschalten.
 
-[Zeigen Sie die Externe ID](Development.md#Externe%20ID%20anzeigen) mit Schlüssel `mail.ir_cron_module_update_notification` an. Klicken Sie auf den verlinkten Datensatz. Sie gelangen zur geplanten Aktion *Veröffentlicher: Benachrichtigung aktualisieren*. Deaktivieren Sie diese Aktion.
+[Zeigen Sie die Externe ID](Development.md#Externe%20ID%20anzeigen) mit Schlüssel `mail.ir_cron_module_update_notification` an. Klicken Sie auf den verlinkten Datensatz. Sie gelangen zur geplanten Aktion _Veröffentlicher: Benachrichtigung aktualisieren_. Deaktivieren Sie diese Aktion.
 
 ::: warning
 Deaktivieren Sie die Synchronisation mit dem Lizenzserver nur auf Testumgebungen.

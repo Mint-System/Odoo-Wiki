@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./invoicing
 ---
+
 # Account Followup Filter Blocked
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reportin
 
 ### Kontakte mit blockierten Rechnungen anzeigen
 
-Navigieren Sie nach *Rechnungsstellung > Kunden > Mahnberichte* und wählen Sie *Filter > Hat ausgeschlossene Rechnungen*.
+Navigieren Sie nach _Rechnungsstellung > Kunden > Mahnberichte_ und wählen Sie _Filter > Hat ausgeschlossene Rechnungen_.

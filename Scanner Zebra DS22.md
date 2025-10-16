@@ -5,7 +5,9 @@ kind: howto
 partner: Zebra
 prev: ./stock
 ---
+
 # Scanner Zebra DS22
+
 ![icons_odoo_stock](attachments/icons_odoo_stock.png)
 
 {{ $frontmatter.description }}
@@ -16,7 +18,7 @@ Website: <https://www.zebra.com/de/de/support-downloads/scanners/general-purpose
 
 ### Handscanner in Betrieb nehmen
 
-Damit Sie den Handscanner in Betrieb nehmen können, müssen Sie einzig die Tastatursprache festlegen. Wählen Sie *English (US)* als Sprachpaket.
+Damit Sie den Handscanner in Betrieb nehmen können, müssen Sie einzig die Tastatursprache festlegen. Wählen Sie _English (US)_ als Sprachpaket.
 
 ### Betriebsmodus ändern
 

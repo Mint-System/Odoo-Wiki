@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./l10n-ch
 ---
+
 # l10n CH Invoice Reports with Payments
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}

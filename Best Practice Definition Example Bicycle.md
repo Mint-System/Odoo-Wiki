@@ -4,6 +4,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Definition Beispiel Fahrrad
 
 ![Best Practice Definition Beispiel Fahrrad](attachments/Best%20Practice%20Definition%20Beispiel%20Fahrrad.svg)
@@ -37,4 +38,3 @@ Rahmen unbeschichtet
 ### Meldebestände
 
 ![Best Practice Definition Beispiel Fahrrad Meldebestände](attachments/Best%20Practice%20Definition%20Beispiel%20Fahrrad%20Meldebestände.svg)
-

@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./purchase
 ---
+
 # Purchase Order Partner Shipping
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.
 
 ### Alternative Lieferadresse festlegen
 
-Mit dieser Erweiterung können Sie auf Bestellung eine alternative Lieferadresse definieren. Zeigen Sie eine Bestellung unter *Einkauf* an und legen Sie im Feld *Lieferadresse* die alternative Lieferadresse fest.
+Mit dieser Erweiterung können Sie auf Bestellung eine alternative Lieferadresse definieren. Zeigen Sie eine Bestellung unter _Einkauf_ an und legen Sie im Feld _Lieferadresse_ die alternative Lieferadresse fest.
 
 ![Purchase Order Partner Shipping](attachments/Purchase%20Order%20Partner%20Shipping.gif)
 

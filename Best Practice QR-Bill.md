@@ -4,17 +4,18 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # QR-Rechnung
 
 Zur Generierung einer QR-Rechnung müssen verschiedene Bedingungen erfüllt sien.
 
-* Der Kommunikationsstandard muss *Schweiz* sein: [Kommunikationsstandard festlegen](Accounting.md#Kommunikationsstandard%20festlegen)
-* Auf dem Bankkonto muss eine QR-IBAN hinterlegt sein: [QR-IBAN speichern](Accounting%20Payments.md#QR-IBAN%20speichern)
-* Auf der Adresse des Kunden und Unternehmen muss als Land *Schweiz* festgelegt sein
-* Die Währung der Rechnung ist *EUR* oder *CHF*: [Währung auf Rechnung festlegen](Accounting%20Multicurrency.md#Währung%20auf%20Rechnung%20festlegen)
-* Der *Payment QR-code* ist *Swiss QR bill*: [QR-Code Zahlungstyp festlegen](Accounting%20Payments.md#QR-Code%20Zahlungstyp%20festlegen)
+- Der Kommunikationsstandard muss _Schweiz_ sein: [Kommunikationsstandard festlegen](Accounting.md#Kommunikationsstandard%20festlegen)
+- Auf dem Bankkonto muss eine QR-IBAN hinterlegt sein: [QR-IBAN speichern](Accounting%20Payments.md#QR-IBAN%20speichern)
+- Auf der Adresse des Kunden und Unternehmen muss als Land _Schweiz_ festgelegt sein
+- Die Währung der Rechnung ist _EUR_ oder _CHF_: [Währung auf Rechnung festlegen](Accounting%20Multicurrency.md#Währung%20auf%20Rechnung%20festlegen)
+- Der _Payment QR-code_ ist _Swiss QR bill_: [QR-Code Zahlungstyp festlegen](Accounting%20Payments.md#QR-Code%20Zahlungstyp%20festlegen)
 
-Sind diese Bedingungen erfüllt, kann mit der *Print QR-Bill* Aktion eine QR-Rechnung generiert werden.
+Sind diese Bedingungen erfüllt, kann mit der _Print QR-Bill_ Aktion eine QR-Rechnung generiert werden.
 
 ::: tip
 Um den QR-Code der QR-Rechnung zu validieren, können Sie die PDF-Datei auf <https://www.swiss-qr-invoice.org/validator/> hochladen und validieren.
@@ -24,7 +25,7 @@ Um den QR-Code der QR-Rechnung zu validieren, können Sie die PDF-Datei auf <htt
 
 Gilt bis #Odoo15.
 
-Out-of-the-box generiert Odoo eine Rechnung eine QR-Rechnung separat sobald man die Aktion *Senden & Drucken* auf einer Rechnung ausführt. Damit dieses Verhalten unterdrückt werden kann, müssen diese Module installiert werden:
+Out-of-the-box generiert Odoo eine Rechnung eine QR-Rechnung separat sobald man die Aktion _Senden & Drucken_ auf einer Rechnung ausführt. Damit dieses Verhalten unterdrückt werden kann, müssen diese Module installiert werden:
 
 | Erweiterung                                                                   | Beschreibung                                       |
 | ----------------------------------------------------------------------------- | -------------------------------------------------- |
@@ -41,4 +42,3 @@ Damit die Rechnungsdokumente nicht automatisch generiert und an das Rechnungsobj
 | QR-bill                 | `'QR-bill-' + object.name + '.pdf'`                                               |
 | Rechnungen              | `(object.state == 'posted') and ((object.name or 'INV').replace('/','_')+'.pdf')` |
 | Rechnungen ohne Zahlung | `(object.state == 'posted') and ((object.name or 'INV').replace('/','_')+'.pdf')` |
-	

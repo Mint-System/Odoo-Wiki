@@ -18,7 +18,7 @@ Typischerweise läuft die Odoo Mail-Kommunikation in diesem Schema ab:
 ![Odoo Mail Workflow](attachments/Odoo%20Mail%20Workflow.svg)
 
 1. Odoo BenutzerIn zeigt ein Dokument an (Angebot, Rechnung, Notiz, etc.)
-2. Die BenutzerIn klickt im Chatter auf *Nachricht* und startet eine neue Konversation
+2. Die BenutzerIn klickt im Chatter auf _Nachricht_ und startet eine neue Konversation
 3. Die Nachricht wird erstellt und versendet (BenutzerIn wird abonniert)
 4. Odoo versendet die E-Mail über den Mail-Provider (Ausgehender E-Mail-Server)
 5. Die EmpfängerIn erhält die E-Mail und erstellt eine Antwort

@@ -5,13 +5,15 @@ kind: howto
 partner: Mint-System
 prev: ./manufacture
 ---
+
 # MRP Documents Share
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `mrp_documents_share`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/mrp_documents_share>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/18.0/mrp_documents_share>
 
 ## Verwendung
 
@@ -25,7 +27,7 @@ Navigieren Sie zu ihrem Produkt und erstellen Sie einen neuen Eintrag für die Z
 
 ![](attachments/MRP%20Documents%20Share%20Zeichnung%20hinzufügen.png)
 
-Im Feld *Url* fügen Sie den öffentlichen Link hinzu.
+Im Feld _Url_ fügen Sie den öffentlichen Link hinzu.
 
 ![](attachments/MRP%20Documents%20Share%20Url%20hinzufügen.png)
 
@@ -45,7 +47,7 @@ Falls das Produkt produziert wird, sehen Sie in der Workcenter-Tablet-Ansicht de
 
 ### Alle Produktionsdokumente anzeigen
 
-Die hinterlegten Zeichnungen und Step-Dateien können Sie auf einer Listenanischt anzeigen lassen. Navigieren Sie nach *Fertigung > Produkte > Produktionsdokumente*.
+Die hinterlegten Zeichnungen und Step-Dateien können Sie auf einer Listenanischt anzeigen lassen. Navigieren Sie nach _Fertigung > Produkte > Produktionsdokumente_.
 
 ## Aktionen
 
@@ -53,13 +55,13 @@ Die hinterlegten Zeichnungen und Step-Dateien können Sie auf einer Listenanisch
 
 Damit die Produktionsdokumente und Produkte in beide Richtigungen verknüpft werden, kann diese Aktion auf den Produkten ausgeführt werden.
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Produktionsdokumente mit Produkt verknüpfen`\
 Modell: `product.template`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for rec in records:
@@ -75,7 +77,7 @@ for rec in records:
     })
 ```
 
-Schliessen Sie die Aktion mit *Kontextuelle Aktion Erstellen* ab. Markieren Sie die Produkte unter *Fertigung > Produkte > Produkte* und wählen Sie *Aktionen > Produktionsdokumente mit Produkt verknüpfen*.
+Schliessen Sie die Aktion mit _Kontextuelle Aktion Erstellen_ ab. Markieren Sie die Produkte unter _Fertigung > Produkte > Produkte_ und wählen Sie _Aktionen > Produktionsdokumente mit Produkt verknüpfen_.
 
 Dasselbe können Sie für Produktvarianten einrichten:
 
@@ -83,7 +85,7 @@ Name der Aktion: `Produktionsdokumente mit Produkt verknüpfen`\
 Modell: `product.product`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for rec in records.product_tmpl_id:
@@ -99,4 +101,4 @@ for rec in records.product_tmpl_id:
     })
 ```
 
-Schliessen Sie die Aktion mit *Kontextuelle Aktion Erstellen* ab. Markieren Sie die Produkte unter *Fertigung > Produkte > Produkte* und wählen Sie *Aktionen > Produktionsdokumente mit Produkt verknüpfen*.
+Schliessen Sie die Aktion mit _Kontextuelle Aktion Erstellen_ ab. Markieren Sie die Produkte unter _Fertigung > Produkte > Produkte_ und wählen Sie _Aktionen > Produktionsdokumente mit Produkt verknüpfen_.

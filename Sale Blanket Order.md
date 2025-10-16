@@ -7,6 +7,7 @@ prev: ./
 ---
 
 # Verkauf Rahmenverträge
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -34,24 +35,24 @@ Repository: <https://github.com/OCA/sale-workflow/tree/17.0/sale_blanket_order>
 | [Sale Blanket Order Readonly States](Sale%20Blanket%20Order%20Readonly%20States.md)                     | Bestätigte Rahmenaufträge bearbeiten.                                                            |
 | [Sale Blanket Order Reference](Sale%20Blanket%20Order%20Reference.md)                                   | Kundenreferenz von Rahmenauftrag auf den Verkaufsauftrag kopieren.                               |
 | [Sale Blanket Order Send](Sale%20Blanket%20Order%20Send.md)                                             | Workflow mit Rahmenauftrag per E-Mail.                                                           |
-| [Sale Blanket Order Stock Terms](Sale%20Blanket%20Order%20Stock%20Terms.md)                             | Lieferbedingungen auf dem Rahmenauftrag festlegen.                                                |
+| [Sale Blanket Order Stock Terms](Sale%20Blanket%20Order%20Stock%20Terms.md)                             | Lieferbedingungen auf dem Rahmenauftrag festlegen.                                               |
 | [Sale Blanket Order Template](Sale%20Blanket%20Order%20Template.md)                                     | Vorlagen für Rahmenaufträge.                                                                     |
 
 ## Verwendung
 
 ### Rahmenauftrag erstellen
 
-Rahmenaufträge werden unabhängig von Verkaufsaufträgen unter *Verkauf > Aufträge > Rahmenaufträge* erfasst. Klicken Sie dort auf *Neu* und erfassen Sie einen Auftrag mit diesen Feldern:
+Rahmenaufträge werden unabhängig von Verkaufsaufträgen unter _Verkauf > Aufträge > Rahmenaufträge_ erfasst. Klicken Sie dort auf _Neu_ und erfassen Sie einen Auftrag mit diesen Feldern:
 
-* Partner: Der Verkaufspartner
-* Gültigkeitsdatum: Wie lange der Rahmenauftrag gültig ist
+- Partner: Der Verkaufspartner
+- Gültigkeitsdatum: Wie lange der Rahmenauftrag gültig ist
 
-Fügen Sie anschliessend Produktzeilen hinzu und bestimmen Sie jeweils die vertragliche Menge und das *Geplantes Datum*.
+Fügen Sie anschliessend Produktzeilen hinzu und bestimmen Sie jeweils die vertragliche Menge und das _Geplantes Datum_.
 
 ![](attachments/Sale%20Blanket%20Order%20Beispiel%20Rahmenauftrag.png)
 
 ### Angebot aus Rahmenauftrag anlegen
 
-Öffnen Sie einen Rahmenauftrag via *Verkauf > Rahmenaufträge > Rahmenauftrag auswählen*. Klicken Sie auf *Verkaufsauftrag erstellen*, geben Sie im Dialog die  *Bestellmenge* ein und bestätigen Sie mit *Auftrag erstellen und anzeigen*.
+Öffnen Sie einen Rahmenauftrag via _Verkauf > Rahmenaufträge > Rahmenauftrag auswählen_. Klicken Sie auf _Verkaufsauftrag erstellen_, geben Sie im Dialog die _Bestellmenge_ ein und bestätigen Sie mit _Auftrag erstellen und anzeigen_.
 
 ![](attachments/Sale%20Blanket%20Order%20Dialog.png)

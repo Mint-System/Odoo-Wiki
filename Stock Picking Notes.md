@@ -1,11 +1,13 @@
 ---
 title: Stock Picking Notes
-description: "Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden."
+description: 'Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.'
 kind: howto
 partner: Mint-System
 prev: ./stock
 ---
+
 # Stock Picking Notes
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}

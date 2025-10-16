@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale-blanket-order
 ---
+
 # Sale Blanket Order Line Description
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -29,7 +31,7 @@ Wenn Sie beim Hinzufügen eines Produkt nur die Verkaufsbeschreibung anzeigen m�
 
 ### Beschreibung Rahmenauftragszeile kopieren
 
-Mit dieser Erweiterung wird die in der Rahmenauftragszeile das Feld *Beschreibung* eingeblendet. Sie können dieses überschreiben. Beim Erstellen eines Verkaufsauftrags wird es kopiert.
+Mit dieser Erweiterung wird die in der Rahmenauftragszeile das Feld _Beschreibung_ eingeblendet. Sie können dieses überschreiben. Beim Erstellen eines Verkaufsauftrags wird es kopiert.
 
 ![](attachments/Sale%20Blanket%20Order%20Line%20Description.png)
 

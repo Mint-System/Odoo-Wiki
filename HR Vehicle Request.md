@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./hr
 ---
+
 # HR Vehicle Request
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,23 +19,23 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_vehicle_re
 
 ### Fahrzeuganfrage erstellen
 
-Navigieren Sie nach *Personal > Fahrzeuganfrage > Fahrzeuganfrage* und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel:
+Navigieren Sie nach _Personal > Fahrzeuganfrage > Fahrzeuganfrage_ und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel:
 
 ![](attachments/HR%20Vehicle%20Request%20Example.png)
 
-Versenden Sie die Anfrage mit *Anfrage Senden*.
+Versenden Sie die Anfrage mit _Anfrage Senden_.
 
 ### Fahrzeuganfrage validieren
 
-Navigieren Sie nach *Personal > Fahrzeuganfrage > Fahrzeuganfrage* und filtern Sie die Einträge nach *Warte auf Bestätigung*.
+Navigieren Sie nach _Personal > Fahrzeuganfrage > Fahrzeuganfrage_ und filtern Sie die Einträge nach _Warte auf Bestätigung_.
 
 ![](attachments/HR%20Vehicle%20Request%20Waiting.png)
 
-Öffnen Sie eine Anfrage und validieren Sie diese mit *Bestätigen* oder *Ablehnen*.
+Öffnen Sie eine Anfrage und validieren Sie diese mit _Bestätigen_ oder _Ablehnen_.
 
 ### Fahrzeug retournieren
 
-Öffnen Sie ihre *Fahrzeuganfrage* unter Personal > Fahrzeuganfrage > Fahrzeuganfrage* und klicken Sie auf *Retournieren*.
+Öffnen Sie ihre _Fahrzeuganfrage_ unter Personal > Fahrzeuganfrage > Fahrzeuganfrage* und klicken Sie auf *Retournieren\*.
 
 ## Automatisierte Aktionen
 
@@ -41,7 +43,7 @@ Navigieren Sie nach *Personal > Fahrzeuganfrage > Fahrzeuganfrage* und filtern S
 
 Mit dieser automatischen Aktion wird eine Fahrzeuganfrage mit einem bestimmten Attribut (Beispiel: `vehicle_id.model_id.vehicle_type`) automatisch bestätigt.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Fahrzeuganfrage automatisch bestätigen`\
 Modell: `employee.fleet`\

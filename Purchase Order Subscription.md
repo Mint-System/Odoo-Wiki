@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./purchase
 ---
+
 # Purchase Order Subscription
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -21,8 +23,8 @@ Mit dieser Erweiterung können Sie Bestellungen als Einkaufsabonnements konfigur
 
 ### Wiederkehrende Bestellung erfassen
 
-Zeigen Sie eine Bestellung via *Einkauf* an oder erstellen Sie eine Neue. Im Feld *Wiederholung* wählen Sie den entsprechenden Intervall aus. Wenn Sie das Angebot bestätigen, erscheint das Feld *Nächstes Rechnungsdatum*.
+Zeigen Sie eine Bestellung via _Einkauf_ an oder erstellen Sie eine Neue. Im Feld _Wiederholung_ wählen Sie den entsprechenden Intervall aus. Wenn Sie das Angebot bestätigen, erscheint das Feld _Nächstes Rechnungsdatum_.
 
 ### Geplante Aktion "Aktualisiere wiederkehrende Bestellungen" manuell ausführen
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und suchen Sie nach der Aktion *Einkaufsabonnement: Aktualisiere wiederkehrende Bestellungen*. Klicken Sie auf *Manuell Ausführen*.
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und suchen Sie nach der Aktion _Einkaufsabonnement: Aktualisiere wiederkehrende Bestellungen_. Klicken Sie auf _Manuell Ausführen_.

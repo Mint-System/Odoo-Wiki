@@ -21,12 +21,12 @@ function help() {
     echo "|$(printf '%*s' $((CMD_WIDTH + 2)) '' | tr ' ' '-')|$(printf '%*s' $((OPT_WIDTH + 2)) '' | tr ' ' '-')|$(printf '%*s' $((DESC_WIDTH + 2)) '' | tr ' ' '-')|"
     printf "$COLUMN" "install" "" "Install build dependencies."
     printf "$COLUMN" "update" "" "Update build dependencies."
-    printf "$COLUMN" "build" "" "Build project."
     printf "$COLUMN" "dev-vuepress" "" "Start vuepress development server."
     printf "$COLUMN" "build-vuepress" "" "Create vuepress build."
     printf "$COLUMN" "serve-vuepress" "" "Serve vuepress build."
     printf "$COLUMN" "download-icons" "" "Download module icons from Odoo assets."
     printf "$COLUMN" "update-repo-url" "" "Check and update repository urls."
+    printf "$COLUMN" "lint" "" "Lint code with prettier."
 }
 
 if [ -d "$HOME/taskfile.build/bin" ]; then
@@ -39,7 +39,7 @@ fi
 
 function update-repo-url() {
 
-    VERSIONS=("14.0" "15.0" "16.0" "17.0")
+    VERSIONS=("14.0" "15.0" "16.0" "17.0" "18.0")
 
     TOTAL_FILES=$(find . -maxdepth 1 -name "*.md" -type f | wc -l)
     FILE_COUNT=0
@@ -61,8 +61,6 @@ function update-repo-url() {
                 NEW_URL="https://github.com/$(echo "$REPO_URL" | sed -E "s|tree/[0-9]+\.[0-9]+|tree/$VERSION|")"
                 HTTP_STATUS=$(curl -o /dev/null -s -w "%{http_code}" "$NEW_URL")
 
-                # echo "Response for version $VERSION is $HTTP_STATUS"
-
                 if [[ "$HTTP_STATUS" == "200" ]]; then
                     NEWEST_URL="$NEW_URL"
                 fi
@@ -79,7 +77,6 @@ function update-repo-url() {
     done
 }
 
-
 function install() {
     pnpm install
 }
@@ -95,16 +92,12 @@ function update() {
     pnpm install -D vuepress@next
 }
 
-function build() {
-    node build.js
-}
-
 function dev-vuepress() {
     pnpm run dev
 }
 
 function build-vuepress() {
-    pnpm run vuepress-build
+    pnpm run build
 }
 
 function serve-vuepress() {
@@ -114,6 +107,10 @@ function serve-vuepress() {
 
 function download-icons() {
     pnpm run download-icons
+}
+
+function lint() {
+    pnpm exec prettier . --write
 }
 
 if declare -f "$1" > /dev/null; then

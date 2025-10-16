@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale
 ---
+
 # Sale Order Default Carrier
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}

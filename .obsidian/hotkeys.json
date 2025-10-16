@@ -1,25 +1,19 @@
 {
   "file-explorer:reveal-active-file": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Mod"],
       "key": "N"
     }
   ],
   "insert-template": [
     {
-      "modifiers": [
-        "Alt"
-      ],
+      "modifiers": ["Alt"],
       "key": "T"
     }
   ],
   "quickadd:runQuickAdd": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Mod"],
       "key": "Q"
     }
   ]

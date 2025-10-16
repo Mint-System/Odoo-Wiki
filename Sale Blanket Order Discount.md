@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale-blanket-order
 ---
+
 # Sale Blanket Order Discount
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,6 +19,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sa
 
 ### Rabatt hinzufügen
 
-Ist diese Erweiterung installiert, können Sie auf einem Rahmenauftrag *Verkauf > Aufträge > Rahmenaufträge* Rabatte hinzufügen. Diese Rabatte werde auf auf den Verkaufsauftrag übertragen.
+Ist diese Erweiterung installiert, können Sie auf einem Rahmenauftrag _Verkauf > Aufträge > Rahmenaufträge_ Rabatte hinzufügen. Diese Rabatte werde auf auf den Verkaufsauftrag übertragen.
 
 ![Sale Blanket Order Discount](attachments/Sale%20Blanket%20Order%20Discount.gif)

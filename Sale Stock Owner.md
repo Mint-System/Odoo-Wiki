@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale-stock
 ---
+
 # Sale Stock Owner
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -15,7 +17,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sa
 
 ## Beschreibung
 
-Wenn diese Erweiterung installier ist, wird der Kunde eines Verkaufsauftrags auf der Lieferung als Eigentümer eingetragen.
+Wenn diese Erweiterung installiert ist, wird der Kunde eines Verkaufsauftrags auf der Lieferung als Eigentümer eingetragen.
 
 ![](attachments/Sale%20Stock%20Owner%20Eigentümer.png)
 

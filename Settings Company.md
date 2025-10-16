@@ -4,7 +4,9 @@ description: Mehrere Unternehmen mit Odoo verwalten.
 kind: howto
 prev: ./settings
 ---
+
 # Einstellungen Unternehmen
+
 ![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 {{ $frontmatter.description }}
@@ -13,11 +15,11 @@ prev: ./settings
 
 ### Unternehmen hinzufügen
 
-Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Unternehmen* und erstellen Sie einen neuen Eintrag. Wählen Sie im Feld *Mutterkonzern* ein bestehendes Unternehmen aus, wenn es ich beim neuen Unternehmen um eine Tochtergesellschaft handelt.
+Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Unternehmen_ und erstellen Sie einen neuen Eintrag. Wählen Sie im Feld _Mutterkonzern_ ein bestehendes Unternehmen aus, wenn es ich beim neuen Unternehmen um eine Tochtergesellschaft handelt.
 
 ### Aktuelles Unternehmen bearbeiten
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Unternehmen* und klicken Sie auf *Update Info*.
+Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Unternehmen_ und klicken Sie auf _Update Info_.
 
 ### Unternehmen auswählen
 
@@ -37,4 +39,4 @@ Damit werden die Datenbankeinträge aller Unternehmen sichtbar.
 
 ### Unternehmensspezifische Felder anzeigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Parameter > Eigenschaften des Unternehmens*.
+Navigieren Sie nach _Einstellungen > Technisch > Parameter > Eigenschaften des Unternehmens_.

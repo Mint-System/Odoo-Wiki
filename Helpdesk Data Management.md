@@ -4,7 +4,9 @@ description: Daten zu Kundendienst exportieren und importieren.
 kind: howto
 prev: ./helpdesk
 ---
+
 # Kundendienst Datenmanagement
+
 ![icons_odoo_helpdesk](attachments/icons_odoo_helpdesk.png)
 
 {{ $frontmatter.description }}
@@ -13,9 +15,10 @@ prev: ./helpdesk
 
 ### Kundendienst Tickets exportieren
 
-Listenansicht: *Kundendienst > Tickets > Alle Tickets*
+Listenansicht: _Kundendienst > Tickets > Alle Tickets_
 
 Felder:
+
 ```
 
 Anzeigename
@@ -26,4 +29,5 @@ Priorität
 Stufe
 Beschreibung
 ```
+
 File: `helpdesk.ticket.csv`

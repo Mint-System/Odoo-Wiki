@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./base
 ---
+
 # Web Dark Mode
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,6 +19,6 @@ Repository: <https://github.com/OCA/web/tree/16.0/web_dark_mode>
 
 ### Dark mode aktivieren
 
-Klicken Sie auf das Menü oben rechts und wählen Sie *Dark Mode*.
+Klicken Sie auf das Menü oben rechts und wählen Sie _Dark Mode_.
 
 ![](attachments/Web%20Dark%20Mode.png)

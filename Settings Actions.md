@@ -4,7 +4,9 @@ description: Odoo-Einstellungen automatisieren.
 kind: howto
 prev: ./settings
 ---
+
 # Einstellungen Aktionen
+
 ![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 {{ $frontmatter.description }}
@@ -13,20 +15,20 @@ prev: ./settings
 
 ### Sofort senden
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Sofort senden`\
 Modell: `mail.mail`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for record in records:
 	record.send()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 ## Geplante Aktionen
 
@@ -34,7 +36,7 @@ Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann sp
 
 Diese Aktion erstellt eine Berechtigungsgruppe für jede Abteilungsgruppe und synchronisiert die Benutzer der Abteilungsmitglieder.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Abteilungsgruppen synchronisieren`\
 Modell: `ir.actions.server`\
@@ -43,7 +45,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 department_ids = env['hr.department'].search([])
@@ -53,7 +55,7 @@ messages = []
 
 ## Create and update the permission group for every department
 for department in department_ids:
-  
+
   # Define permission group name
   name = 'Department ' + department.display_name
 
@@ -66,29 +68,29 @@ for department in department_ids:
 
   # Search group
   group = group_ids.filtered(lambda g: g.name == name)
-  
+
   # Create group if it does not exist
   if not group:
     messages.append("Create permission group: %s." % (name))
     group = env['res.groups'].create({
       'name': name
     })
-    
+
   # Ensure group is unique
   group.ensure_one()
-    
+
   # Get group users
   group_users = group.users
 
   # raise Warning([group.name, group_users, department_users, set(group_users) == set(department_users)])
-    
+
   # Set members for the group
   if set(group_users) != set(department_users):
     messages.append("Set users for group: %s." % (group.name))
     group.write({
       'users': department_users
     })
-    
+
 if messages:
   log('\n'.join(messages))
 ```
@@ -101,7 +103,7 @@ Diese geplante Aktion aktualisiert das Ablaufdatum der Datenbank in regelmässig
 Verwenden Sie diese Aktion nur in Testsystemen! Produktive System müssen vor Ablauf des echten Datums lizenziert werden!
 :::
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Ablaufdatum Datenbank erneuern`\
 Modell: `ir.actions.server`\
@@ -110,7 +112,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 now = datetime.datetime.now()

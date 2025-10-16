@@ -7,27 +7,28 @@ prev: ./development
 ---
 
 # Queue Job
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `queue_job`\
-Repository: <https://github.com/OCA/queue/tree/17.0/queue_job>
+Repository: <https://github.com/OCA/queue/tree/18.0/queue_job>
 
 ## Verwendung
 
 ### Warteschlange anzeigen
 
-Klicken Sie auf *Job-Warteschlange*. Hier sehen alle erfassten Jobs.
+Klicken Sie auf _Job-Warteschlange_. Hier sehen alle erfassten Jobs.
 
 ### Kanäle anzeigen
 
-Klicken Sie auf *Job-Warteschlange > Warteschlange > Kanäle*. Das sind die verfügbaren Kanäle zur Verteilung der Jobs.
+Klicken Sie auf _Job-Warteschlange > Warteschlange > Kanäle_. Das sind die verfügbaren Kanäle zur Verteilung der Jobs.
 
 ### Job-Funktionen anzeigen
 
-Klicken Sie auf *Job-Warteschlange > Warteschlange > Job-Funktionen*.
+Klicken Sie auf _Job-Warteschlange > Warteschlange > Job-Funktionen_.
 
 ### Job-Status anzeigen
 
-Wenn Sie die [Warteschlange anzeigen](#Warteschlange%20anzeigen) sehen Sie in der Spalte *Status* ob der Job erledigt wurde oder in einem fehlerhaften Zustand ist.
+Wenn Sie die [Warteschlange anzeigen](#Warteschlange%20anzeigen) sehen Sie in der Spalte _Status_ ob der Job erledigt wurde oder in einem fehlerhaften Zustand ist.

@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./dashboards
 ---
+
 # MIS Builder Cash Flow
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/OCA/account-financial-reporting/tree/17.0/mis_bu
 
 ### Bericht Geldfluss erstellen
 
-Wenn Sie einen [MIS-Bericht erstellen](MIS%20Builder.md#MIS-Bericht%20erstellen) wählen Sie *Cash Flow* als *Template*. Als Namen geben Sie *Geldfluss* ein. Wählen Sie einen Datumsbereich und klicken Sie auf *Preview*.
+Wenn Sie einen [MIS-Bericht erstellen](MIS%20Builder.md#MIS-Bericht%20erstellen) wählen Sie _Cash Flow_ als _Template_. Als Namen geben Sie _Geldfluss_ ein. Wählen Sie einen Datumsbereich und klicken Sie auf _Preview_.

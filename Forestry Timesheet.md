@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./forestry-base
 ---
+
 # Holzwirtschaft Zeiterfassung
+
 ![icons_odoo_forestry_base](attachments/icons_odoo_forestry_base.png)
 
 {{ $frontmatter.description }}
@@ -21,17 +23,17 @@ Mit dieser Erweiterungen erhalten Sie zusätzliche Felder auf der Zeiterfassung.
 
 Beispielsweise beim Erfassen der Zeit:
 
-* **Produkt**: Polter oder Holz
-* **Sortiment**: Holzart
-* **Menge**: Menge von Produkt
-* **Mengeneinheit**: Mengeneinheit von Produkt
-* **Abgangsort**: Abgangsort aus Aufgabe
-* **Zielort**: Zielort aus Aufgabe
-* **Transport**: Transporteuer
-* **Km**: Zurückgelegte Distanz
+- **Produkt**: Polter oder Holz
+- **Sortiment**: Holzart
+- **Menge**: Menge von Produkt
+- **Mengeneinheit**: Mengeneinheit von Produkt
+- **Abgangsort**: Abgangsort aus Aufgabe
+- **Zielort**: Zielort aus Aufgabe
+- **Transport**: Transporteuer
+- **Km**: Zurückgelegte Distanz
 
 ## Berichte
 
 ### Lieferschein zu Auftrag drucken
 
-Zeigen Sie einen Auftrag via *Projekte > Alle Aufgaben* an und wählen Sie *Drucken > Lieferschein*.
+Zeigen Sie einen Auftrag via _Projekte > Alle Aufgaben_ an und wählen Sie _Drucken > Lieferschein_.

@@ -7,6 +7,7 @@ prev: ./website-e-commerce
 ---
 
 # Payment Payrexx
+
 ![](attachments/odoo_icons_payment_saferpay.png)
 
 {{ $frontmatter.description }}

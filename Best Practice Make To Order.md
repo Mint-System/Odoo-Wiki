@@ -4,6 +4,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Make to Order
 
 Damit beim Verkauf von zu fertigenden Produkten direkt ein Fertigungsauftrag erstellt wird, müssen für die Produkte zwei Lagerrouten aktiviert werden. Diese Routen sind im System bereits hinterlegt, müssen aber sichtbar gemacht werden.

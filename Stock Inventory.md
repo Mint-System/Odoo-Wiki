@@ -4,7 +4,9 @@ description: Den Lagerbestand optimal verwalten.
 kind: howto
 prev: ./stock
 ---
+
 # Lager Bestand
+
 ![icons_odoo_stock](attachments/icons_odoo_stock.png)
 
 {{ $frontmatter.description }}
@@ -13,17 +15,17 @@ prev: ./stock
 
 ### GS1-Barcodes aktivieren
 
-Navigieren Sie nach *Einstellungen > Lager > Rückverfolgbarkeit* und aktivieren Sie die Option *GS1-Barcodes für Los- & Seriennummern drucken*. Wenn Sie die Standardetiketten drucken, wird statt dem
+Navigieren Sie nach _Einstellungen > Lager > Rückverfolgbarkeit_ und aktivieren Sie die Option _GS1-Barcodes für Los- & Seriennummern drucken_. Wenn Sie die Standardetiketten drucken, wird statt dem
 
 ### Konsignationslager aktivieren
 
-Mit dem Konsignationslager können Bestände an Kontakte zugeordnet werden. Navigieren Sie nach *Einstellungen > Lager > Rückverfolgbarkeit* und aktivieren Sie dei Option *Konsignationslager*.
+Mit dem Konsignationslager können Bestände an Kontakte zugeordnet werden. Navigieren Sie nach _Einstellungen > Lager > Rückverfolgbarkeit_ und aktivieren Sie dei Option _Konsignationslager_.
 
 ## Bestand
 
 ### Reservierter Bestand zurücksetzen
 
-Für jeden Lagerort wird ein Bestand geführt *Lager > Konfiguration > Lagerorte > Lagerort auswählen > Smart-Link Bestand*. Wenn Sie die Aktion [Reservierter Bestand zurücksetzen](Stock%20Actions.md#Reservierter%20Bestand%20zurücksetzen) erstellen, können Sie die Bestände markieren und die *Aktionen > Reservierter Bestand zurücksetzen* ausführen.
+Für jeden Lagerort wird ein Bestand geführt _Lager > Konfiguration > Lagerorte > Lagerort auswählen > Smart-Link Bestand_. Wenn Sie die Aktion [Reservierter Bestand zurücksetzen](Stock%20Actions.md#Reservierter%20Bestand%20zurücksetzen) erstellen, können Sie die Bestände markieren und die _Aktionen > Reservierter Bestand zurücksetzen_ ausführen.
 
 ::: warning
 Damit Sie diese Aktion ausführen können, müssen Sie [Superuser werden](Settings.md#Superuser%20werden)
@@ -35,7 +37,7 @@ Wenn Sie offene Lieferungen mit reservierten Mengen haben, können Sie die Aktio
 
 ### Meldebestand erfassen
 
-Für jedes einlagerbare Produkt kann eine Meldebestand definiert werden. Navigieren Sie nach *Lager > Konfiguration > Meldebestände* und erstellen Sie einen neuen Eintrag.
+Für jedes einlagerbare Produkt kann eine Meldebestand definiert werden. Navigieren Sie nach _Lager > Konfiguration > Meldebestände_ und erstellen Sie einen neuen Eintrag.
 
 ![](attachments/Lager%20Bestand%20Meldebestand.png)
 
@@ -43,7 +45,7 @@ Für dieses Produkt wird bei Unterschreitung des Minimalbestand automatisch ein 
 
 ### Verfügbare Menge anzeigen
 
-Navivigieren Sie nach *Lager > Produkte > Produkte* und zeigen Sie ein Produkt an. Wählen Sie den Smart-Link *X kg Verfügbar*. Hier sehen Sie die verfügbare Menge des Produkts.
+Navivigieren Sie nach _Lager > Produkte > Produkte_ und zeigen Sie ein Produkt an. Wählen Sie den Smart-Link _X kg Verfügbar_. Hier sehen Sie die verfügbare Menge des Produkts.
 
 ### Produkt-Bestand zu neuem Lagerort verschieben
 
@@ -54,7 +56,7 @@ Dazu können Sie die Vorlage [Bestand exportieren](Stock%20Data%20Management.md#
 
 Anschliessend müssen Sie eine [Inventur vorbereiten](#Inventur%20vorbereiten). Starten Sie die Inventur und importieren Sie die Bestandsliste 2 Mal.
 
-Legen Sie für die einen Zeilen den neuen Lagerort und die zu übertragende Menge fest und setzen Sie die Menge der anderen Zeilen auf 0.  Schliessen Sie die Inventur ab.
+Legen Sie für die einen Zeilen den neuen Lagerort und die zu übertragende Menge fest und setzen Sie die Menge der anderen Zeilen auf 0. Schliessen Sie die Inventur ab.
 
 ![](attachments/Lager%20Bestand%20Bestand%20verschoben.png)
 
@@ -62,13 +64,13 @@ Legen Sie für die einen Zeilen den neuen Lagerort und die zu übertragende Meng
 
 ### Nachbestellregeln auslösen
 
-Um die Nachbestellregeln auszulösen, wählen Sie *Lager > Vorgänge > Planer starten*. Bestätigen Sie den Dialog mit *Planer starten*.
+Um die Nachbestellregeln auszulösen, wählen Sie _Lager > Vorgänge > Planer starten_. Bestätigen Sie den Dialog mit _Planer starten_.
 
 ## Inventur
 
 ### Inventur vorbereiten
 
-Navigieren Sie zum Menu *Lager > Vorgänge > Inventur*. Mit dem Knopf *Neu* erstellen Sie einen Inventurauftrag. Befüllen Sie die Felder gemäss untenstehender Tabelle.
+Navigieren Sie zum Menu _Lager > Vorgänge > Inventur_. Mit dem Knopf _Neu_ erstellen Sie einen Inventurauftrag. Befüllen Sie die Felder gemäss untenstehender Tabelle.
 
 | Bezeichnung                       | Beschreibung                                                                                    |
 | --------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -82,9 +84,9 @@ Navigieren Sie zum Menu *Lager > Vorgänge > Inventur*. Mit dem Knopf *Neu* erst
 
 ### Inventur durchführen
 
-Starten Sie die vorbereitete Inventur mit *Inventur Starten*. Falls ein nicht gelistetes Produkt gezählt wird, kann über *Neu* eine neue Position eingefügt werden.
+Starten Sie die vorbereitete Inventur mit _Inventur Starten_. Falls ein nicht gelistetes Produkt gezählt wird, kann über _Neu_ eine neue Position eingefügt werden.
 
-Befüllen Sie nun die Spalte *Gezählt* entsprechend der gezählten Quantität pro Produkt. Nach der abgeschlossenen Zählung wird mit *Bestandsbuchung Durchführen* der korrigierte Bestand gebucht. Das Protokoll kann über *Print Count Sheet* erstellt werden.
+Befüllen Sie nun die Spalte _Gezählt_ entsprechend der gezählten Quantität pro Produkt. Nach der abgeschlossenen Zählung wird mit _Bestandsbuchung Durchführen_ der korrigierte Bestand gebucht. Das Protokoll kann über _Print Count Sheet_ erstellt werden.
 
 ## Disposition
 

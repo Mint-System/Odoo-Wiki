@@ -5,6 +5,7 @@ kind: howto
 partner: Mint-System
 prev: ./invoicing
 ---
+
 # Sale Invoice Ignore Ref
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)

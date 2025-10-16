@@ -1,10 +1,13 @@
 ---
 title: Verkauf
-description: Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung. 
+description: Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
+
 # Verkauf
+
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
 {{ $frontmatter.description }}
@@ -67,9 +70,9 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 
 ### Standard-Steuern für Verkauf auf Produkt festlegen
 
-Die Standard-Steuer für ein bestimmtes Produkt wird in den Produkt-Stammdaten unter *Allgemeine Informationen > Steuern (Verkauf)* definiert.
+Die Standard-Steuer für ein bestimmtes Produkt wird in den Produkt-Stammdaten unter _Allgemeine Informationen > Steuern (Verkauf)_ definiert.
 
-Unterschiedliche Steuern der einzelnen Line-Items werden im Formular und im Bericht gruppiert dargestellt. Die Zuordnung erfolgt über die *Steuergruppe* gemäss dem Feld *Steuergruppe* im Tab *Erweiterte Optionen*.
+Unterschiedliche Steuern der einzelnen Line-Items werden im Formular und im Bericht gruppiert dargestellt. Die Zuordnung erfolgt über die _Steuergruppe_ gemäss dem Feld _Steuergruppe_ im Tab _Erweiterte Optionen_.
 
 ![](attachments/Verkauf%20Steuer-Gruppen.png)
 
@@ -77,25 +80,25 @@ Unterschiedliche Steuern der einzelnen Line-Items werden im Formular und im Beri
 
 ### Angebote mit Online-Unterschrift bestätigen lassen
 
-Wenn Sie ihre Angebote von Kunden mit einer Online-Unterschrift bestätigen lassen wollen, aktivieren Sie die Option *Einstellungen > Verkauf > Angebot & Auftrage > Online-Unterschrift*.
+Wenn Sie ihre Angebote von Kunden mit einer Online-Unterschrift bestätigen lassen wollen, aktivieren Sie die Option _Einstellungen > Verkauf > Angebot & Auftrage > Online-Unterschrift_.
 
 ### Angebote mit Online-Zahlung bestätigen lassen
 
-Wenn Sie ihre Angebote von Kunden mit einer Online-Zahlung bestätigen lassen wollen, aktivieren Sie die Option *Einstellungen > Verkauf > Angebot & Auftrage > Online-Zahlung*.
+Wenn Sie ihre Angebote von Kunden mit einer Online-Zahlung bestätigen lassen wollen, aktivieren Sie die Option _Einstellungen > Verkauf > Angebot & Auftrage > Online-Zahlung_.
 
 ## Aufträge
 
 ### Verkauf Dashboard anzeigen
 
-Öffnen Sie die App *Verkauf*. Hier sehen Sie alle offenen Angebote und Verkaufsaufträge.
+Öffnen Sie die App _Verkauf_. Hier sehen Sie alle offenen Angebote und Verkaufsaufträge.
 
 ### Angebot erstellen
 
-Erstellen Sie mit dem Knopf *Neu* ein neues Angebot. Befüllen Sie die Kopfdaten gemäss folgender Tabelle:
+Erstellen Sie mit dem Knopf _Neu_ ein neues Angebot. Befüllen Sie die Kopfdaten gemäss folgender Tabelle:
 
 | Bezeichnung         | Beschreibung                                         |
 | ------------------- | ---------------------------------------------------- |
-| Kunde               | Auswahl eines Kunden aus der Liste *Kontakte*        |
+| Kunde               | Auswahl eines Kunden aus der Liste _Kontakte_        |
 | Ablauf              | Zeitdauer für die Gültigkeit des Angebots            |
 | Preisliste          | Auswahl der relevanten Preisliste                    |
 | Zahlungsbedingungen | Der geforderte Zeitraum zur Begleichung der Rechnung |
@@ -104,38 +107,39 @@ Wählen Sie die Line-Items aus den Produkt-Stammdaten gemäss folgender Tabelle:
 
 | Bezeichnung  | Beschreibung                                                               |
 | ------------ | -------------------------------------------------------------------------- |
-| Produkt      | Auswahl eines beliebigen Produktes mit dem Attribut *Kann verkauft werden* |
-| Beschreibung | Text aus dem Feld *Verkaufs Beschreibung* der Produkt-Stammdaten           |
+| Produkt      | Auswahl eines beliebigen Produktes mit dem Attribut _Kann verkauft werden_ |
+| Beschreibung | Text aus dem Feld _Verkaufs Beschreibung_ der Produkt-Stammdaten           |
 | Menge        | Angebotene Menge                                                           |
 | UoM          | Masseinheit des Produktes                                                  |
 | Preis pro ME | Preis pro Mengeneinheit (Masseinheit des Produktes)                        |
 
-Für jedes Produkt zeigt der Bericht *Forecasted Report* eine detaillierte Übersicht bezüglich Verfügbarkeit. Zu- und Abgänge sowie potentielle Verkäufe werden berücksichtigt.
+Für jedes Produkt zeigt der Bericht _Forecasted Report_ eine detaillierte Übersicht bezüglich Verfügbarkeit. Zu- und Abgänge sowie potentielle Verkäufe werden berücksichtigt.
 
 ### Angebot senden
 
-Mit dem Knopf *Per E-Mail Versenden* erstellt das System automatisch einen e-Mail Entwurf mit dem Angebot als PDF-Attachment. Die Textnachricht ist als Template hinterlegt, kann aber editiert werden.
-Mit *Senden* wird die e-Mail gesendet und der Status ändert auf *Angebot Gesendet*.
+Mit dem Knopf _Per E-Mail Versenden_ erstellt das System automatisch einen e-Mail Entwurf mit dem Angebot als PDF-Attachment. Die Textnachricht ist als Template hinterlegt, kann aber editiert werden.
+Mit _Senden_ wird die e-Mail gesendet und der Status ändert auf _Angebot Gesendet_.
 
 ### Angebot bestätigen
 
 Das Angebot wird über folgende alternativen Aktionen zum Verkaufsauftrag:
-* Der Kunde bestätigt in der Kundenansicht (Kunden-Portal)
-* Der Verkäufer bestätigt mit dem Knopf *Bestätigen*
 
-Damit wechselt das Angebot in den Status *Verkaufsauftrag*.
+- Der Kunde bestätigt in der Kundenansicht (Kunden-Portal)
+- Der Verkäufer bestätigt mit dem Knopf _Bestätigen_
+
+Damit wechselt das Angebot in den Status _Verkaufsauftrag_.
 
 Die Option Einstellungen > Verkauf > Angebote und Aufträge > Angebotsvorlagen ermöglicht das Einrichten eines automatischen Bestätigungs-Mail.
 
-Mit der Aktion *Per E-Mail Versenden* wird automatisch ein e-Mail Entwurf für das Versenden der Auftragsbestätigung generiert.
+Mit der Aktion _Per E-Mail Versenden_ wird automatisch ein e-Mail Entwurf für das Versenden der Auftragsbestätigung generiert.
 
 ### Verkaufsauftrag abbrechen
 
-Klicken Sie im Verkaufsauftrag auf *Abbrechen* um den Auftrag in den Status *Abgebrochen* zu setzen. Damit gilt der Verkaufsauftrag als ungültig.
+Klicken Sie im Verkaufsauftrag auf _Abbrechen_ um den Auftrag in den Status _Abgebrochen_ zu setzen. Damit gilt der Verkaufsauftrag als ungültig.
 
 ### Verkaufsauftrag zurücksetzen
 
-Ist der Verkaufsauftrag im Status *Abgebrochen* können Sie ihn mit *Setze auf Angebot* in den Status *Angebot* zurücksetzen. Anschliessend können Sie das [Angebot bestätigen](#Angebot%20bestätigen) und haben wieder einen gültigen Verkaufsauftrag.
+Ist der Verkaufsauftrag im Status _Abgebrochen_ können Sie ihn mit _Setze auf Angebot_ in den Status _Angebot_ zurücksetzen. Anschliessend können Sie das [Angebot bestätigen](#Angebot%20bestätigen) und haben wieder einen gültigen Verkaufsauftrag.
 
 ## Auftragszeilen
 
@@ -151,11 +155,11 @@ Entsprechend wird der Rabatt auf der Rechnung ausgewiesen.
 
 ### Mindestbestellmenge festlegen
 
-Für jedes Produkt in einer Preisliste kann eine Mindestbestellmenge definiert werden. Öffnen Sie *Verkauf > Produkte > Preislisten* und wählen Sie eine Preisliste aus. In der Spalte *Min. Bestellmenge* können Sie die Mindestbestellmenge eintragen.
+Für jedes Produkt in einer Preisliste kann eine Mindestbestellmenge definiert werden. Öffnen Sie _Verkauf > Produkte > Preislisten_ und wählen Sie eine Preisliste aus. In der Spalte _Min. Bestellmenge_ können Sie die Mindestbestellmenge eintragen.
 
 ### Margen anzeigen
 
-Mit der aktivierten Option *Einstellungen > Verkauf > Margen* sehen Sie für jede Auftragszeile die Marge.
+Mit der aktivierten Option _Einstellungen > Verkauf > Margen_ sehen Sie für jede Auftragszeile die Marge.
 
 ![](attachments/Verkauf%20Margen%20in%20Auftragszeilen.png)
 
@@ -196,16 +200,16 @@ Sequenz: `50`
 
 ### Rechnungs- und Lieferadresse aktivieren
 
-Für Angebote können Sie eine separate Rechnungs- und Lieferadresse festlegen. Aktivieren Sie die Option *Einstellungen > Verkauf > Angebote und Aufträge > Kundenadresse*. Anschliessend können Sie die Adresse auswählen.
+Für Angebote können Sie eine separate Rechnungs- und Lieferadresse festlegen. Aktivieren Sie die Option _Einstellungen > Verkauf > Angebote und Aufträge > Kundenadresse_. Anschliessend können Sie die Adresse auswählen.
 
 ![](attachments/Verkauf%20Rechnungs-%20und%20Lieferadresse.png)
 
 ### Kunde anhand Adresstyp auswählen
 
-Wenn Sie eine Rechnungs- oder Lieferadresse mit gleichen Anzeigename wie der Hauptkontakt gespeichert haben, können diese im Feld *Kunde* nicht unterschieden werden. Um sicherzustellen, dass die korrekte Adresse gewählt wurde, können Sie die [Rechnungsadresse in Anzeigenamen einblenden](Contacts.md#Rechnungsadresse%20in%20Anzeigenamen%20einblenden) oder über die erweiterte Suche anzeigen:
+Wenn Sie eine Rechnungs- oder Lieferadresse mit gleichen Anzeigename wie der Hauptkontakt gespeichert haben, können diese im Feld _Kunde_ nicht unterschieden werden. Um sicherzustellen, dass die korrekte Adresse gewählt wurde, können Sie die [Rechnungsadresse in Anzeigenamen einblenden](Contacts.md#Rechnungsadresse%20in%20Anzeigenamen%20einblenden) oder über die erweiterte Suche anzeigen:
 
 ![](attachments/Verkauf%20Kontakt-Suche.png)
 
 ::: warning
-Die Verfügbarkeit des Felds *Adresstyp* in der Listenauswahl muss mit einem Snippet sichergestellt werden.
+Die Verfügbarkeit des Felds _Adresstyp_ in der Listenauswahl muss mit einem Snippet sichergestellt werden.
 :::

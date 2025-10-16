@@ -4,7 +4,9 @@ description: Ein- und auschecken mit dem Terminal Zeiterfassung.
 kind: howto
 prev: ./hr-timesheet
 ---
+
 # Terminal Zeiterfassung
+
 ![icons_odoo_hr_timesheet](attachments/icons_odoo_hr_timesheet.png)
 
 {{ $frontmatter.description }}
@@ -19,26 +21,26 @@ Das Terminal Zeiterfassung ist im wesentlichen ein Mini-Computer, der die Odoo-I
 
 Damit Sie das Terminal Zeiterfassung verwenden können, müssen Sie es zuerst mit dem Netzwerk verbinden. Gehen Sie wie folgt vor:
 
-* Tastatur und Maus an Terminal anschliessen
-* Terminal und Stromadapter anschliessen
-* Das Terminal startet nun automatisch und zeigt den Startbildschirm
+- Tastatur und Maus an Terminal anschliessen
+- Terminal und Stromadapter anschliessen
+- Das Terminal startet nun automatisch und zeigt den Startbildschirm
 
 ![](attachments/raspberry-pi-setup.png)
 
-* Klicken Sie oben rechts auf das Wifi-Symbol
-* Verbinden Sie das Terminal mit einem verfügbaren Router
+- Klicken Sie oben rechts auf das Wifi-Symbol
+- Verbinden Sie das Terminal mit einem verfügbaren Router
 
 ![](attachments/raspberry-wifi.png)
 
-* Starten Sie den Browser
-* Geben Sie die Adresse zu ihrer Odoo-Installation ein
-* Loggen Sie sich mit einem Service-Benutzer ein
-* Zeigen Sie den Kiosk-Modus an
-* Optional wechseln Sie mit <kbd>F11</kbd> in den Vollbildmodus
+- Starten Sie den Browser
+- Geben Sie die Adresse zu ihrer Odoo-Installation ein
+- Loggen Sie sich mit einem Service-Benutzer ein
+- Zeigen Sie den Kiosk-Modus an
+- Optional wechseln Sie mit <kbd>F11</kbd> in den Vollbildmodus
 
 ### Chromium Browser automatisch starten
 
-Wenn Sie beim Starten des Terminal automatisch den Browser starten möchten, gehen Sie wie folgt vor. Offnen Sie das *Terminal* und geben Sie diesen Befehl ein:
+Wenn Sie beim Starten des Terminal automatisch den Browser starten möchten, gehen Sie wie folgt vor. Offnen Sie das _Terminal_ und geben Sie diesen Befehl ein:
 
 ```bash
 nano ~/.config/autostart/chromiumstart.desktop
@@ -64,23 +66,24 @@ Speichern Sie vorgängig den Benutzernamen und Passwort des Odoo Benutzers im Br
 
 ### Autostart Programme anzeigen
 
-Wählen Sie *Main Menu > Preferences > Main Menu Editor*. Anschliessend klicken Sie auf *Preferences* und aktivieren die Option *Desktop Session Settings*.
+Wählen Sie _Main Menu > Preferences > Main Menu Editor_. Anschliessend klicken Sie auf _Preferences_ und aktivieren die Option _Desktop Session Settings_.
 
 ![](attachments/Terminal%20Zeiterfassung%20Desktop%20Session.png)
 
-Nun können Sie die Autostart Programme unter *Main Menu > Preferences > Desktop Session Settings* im Tab *Automatically Started Applications* anzeigen.
+Nun können Sie die Autostart Programme unter _Main Menu > Preferences > Desktop Session Settings_ im Tab _Automatically Started Applications_ anzeigen.
 
 ### RFID-Karte registrieren
 
 Damit Mitarbeiter sich mit einer RFID-Chip anmelden können, muss die Chip-Nummer hinterlegt werden.
 
-Navigieren Sie nach *Personal* und führen Sie diese Aktionen aus:
-* Mitarbeiter wählen
-* Bearbeiten
-* Tab HR Einstellungen öffnen
-* Feld *Ausweis ID* auswählen
-* RFID-Chip auf den Scanner legen
-* Speichern
+Navigieren Sie nach _Personal_ und führen Sie diese Aktionen aus:
+
+- Mitarbeiter wählen
+- Bearbeiten
+- Tab HR Einstellungen öffnen
+- Feld _Ausweis ID_ auswählen
+- RFID-Chip auf den Scanner legen
+- Speichern
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/727928057?h=8278678305" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 

@@ -3,8 +3,11 @@ title: Spreadsheet
 description: Schöne Dashboards mit Odoo Spreadsheets.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
+
 # Spreadsheet
+
 ![icons_odoo_spreadsheet_dashboard](attachments/icons_odoo_spreadsheet_dashboard.png)
 
 {{ $frontmatter.description }}

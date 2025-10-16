@@ -4,6 +4,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Mengeneinheiten
 
 ## Bedingung für Transfer der Mengenheit
@@ -12,7 +13,7 @@ Mengenheiten können zwischeneinander umgerechnet werden solange Sie in der selb
 
 ## Einheit für Aufstocken (Replenishment)
 
-Für das *Aufstocken* kann pro Produkt individuell eine Mengenenheit gewählt werden.
+Für das _Aufstocken_ kann pro Produkt individuell eine Mengenenheit gewählt werden.
 
 ![Best Practice Mengenenheiten Beispiel](attachments/Best%20Practice%20Mengenenheiten%20Beispiel.png)
 
@@ -22,13 +23,12 @@ In der Fertigung werden Metallbleche in der Einheit mm2 verbaut. Eingekauft werd
 
 ![Best Practice Mengeneinheiten](attachments/Best%20Practice%20Mengeneinheiten.svg)
 
-
 ## Mengeneinheit Pack
 
 Damit man Packweise mit nur einer Etikette Material einbuchen kann, aber beim Konsumieren nicht das gesamte Pack konsumieren muss, erstellt man eine neue Mengeneinheit.
 
 ![](attachments/pBest%20Practice%20Mengeneinheiten%20Pack%2050.png)
 
-Das Material wird zur Mengenheinheit *Pack 50* gelagert. Konsumiert man eine Teilmenge, stellt man die Mengenheit auf *Unit* um. Dadurch wird der entsprechende Faktor (hier 50) angewendet.
+Das Material wird zur Mengenheinheit _Pack 50_ gelagert. Konsumiert man eine Teilmenge, stellt man die Mengenheit auf _Unit_ um. Dadurch wird der entsprechende Faktor (hier 50) angewendet.
 
 ![](attachments/Best%20Practice%20Mengeneinheiten%20Teilmenge.png)

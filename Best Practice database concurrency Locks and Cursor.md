@@ -15,7 +15,7 @@ Eine Übersicht der Postgres Locks:
 
 ![](attachments/Postgres%20Locks.png)
 
-Die Ausführung von Cron-Jobs sperrt die gleichnamige Datenbank-Tabelle. Bei der Installation von Apps wird geprüft ob die Cron-Tabelle nicht gesperrt ist. 
+Die Ausführung von Cron-Jobs sperrt die gleichnamige Datenbank-Tabelle. Bei der Installation von Apps wird geprüft ob die Cron-Tabelle nicht gesperrt ist.
 
 ## Concurrency
 

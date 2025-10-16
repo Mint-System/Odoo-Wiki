@@ -4,7 +4,9 @@ description: Website-Templates anpassen und erweitern.
 kind: howto
 prev: ./development
 ---
+
 # Entwicklung Website
+
 ![icons_odoo_web_studio](attachments/icons_odoo_web_studio.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Von der Website gibt es keinen direkten Link zur Ansicht-Definition. Starten Sie
 
 ![](attachments/Entwicklung%20Website%20Inspector.png)
 
-In diesem Beispiel wurde die CSS-Klasse `o_website_sale_subscription_pricing_id` gefunden. Suche Sie unter *Einstellungen > Technisch > Ansichten* im Feld *Arch Blob* nach dieser Klasse.
+In diesem Beispiel wurde die CSS-Klasse `o_website_sale_subscription_pricing_id` gefunden. Suche Sie unter _Einstellungen > Technisch > Ansichten_ im Feld _Arch Blob_ nach dieser Klasse.
 
 ![](attachments/Entwicklung%20Website%20Arch%20Blob.png)
 

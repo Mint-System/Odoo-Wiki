@@ -5,6 +5,7 @@ kind: howto
 partner: Mint-System
 prev: ./invoicing
 ---
+
 # Sale Invoice Prepare Bank
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
@@ -18,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.
 
 ### Bankkonto anhand Währung auswählen
 
-Beim Erzeugen einer Rechnung aus einem Verkaufsauftrag wird mit dieser Erweiterung automatisch das Feld *Empfängerbank* in der Rechnung ausgefüllt. Anhand der Währung des Verkaufsauftrags wird das passende Konto des Unternehmens ausgewählt.
+Beim Erzeugen einer Rechnung aus einem Verkaufsauftrag wird mit dieser Erweiterung automatisch das Feld _Empfängerbank_ in der Rechnung ausgefüllt. Anhand der Währung des Verkaufsauftrags wird das passende Konto des Unternehmens ausgewählt.

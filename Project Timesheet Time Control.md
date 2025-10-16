@@ -5,10 +5,12 @@ kind: howto
 partner: OCA
 prev: ./project
 ---
+
 # Project Timesheet Time Control
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `project_timesheet_time_control`\
-Repository: <https://github.com/OCA/project/tree/16.0/project_timesheet_time_control>
+Repository: <https://github.com/OCA/project/tree/18.0/project_timesheet_time_control>

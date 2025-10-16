@@ -7,7 +7,7 @@ prev: ./best-practice
 
 # Portal und Backend
 
-Odoo verfügt über einen externen Bereich *Portal* und den internen Bereich *Backend*. Interne Benutzer haben Zugriff auf das Backend und externe Bentuzer Zugriff auf das Portal.
+Odoo verfügt über einen externen Bereich _Portal_ und den internen Bereich _Backend_. Interne Benutzer haben Zugriff auf das Backend und externe Bentuzer Zugriff auf das Portal.
 
 ## Backend / Intern
 
@@ -17,10 +17,10 @@ Das Backend ist die Ansicht, welche Sie als Odoo-Benutzer nach dem Einloggen seh
 
 Das Portal von Odoo kann auf verschiedenen Wegen von Kunden, Partnern und Lieferanten genutzt werden:
 
-* **Projektmanagement**: Zugriff auf Projekt und Dokumente an Externe vergeben
-* **Webshop**: Kunden können ihre Adressen, Bestellungen, Abonnements und Rechnungen einsehen
-* **Verkauf**: Potenzielle Kunden sehen das Verkaufsangebot im Browser
-* **Rechnungsstellung**: Kunden können ihre Rechnung mit verschiedenen Zahlungsanbietern über das Portal bezahlen
+- **Projektmanagement**: Zugriff auf Projekt und Dokumente an Externe vergeben
+- **Webshop**: Kunden können ihre Adressen, Bestellungen, Abonnements und Rechnungen einsehen
+- **Verkauf**: Potenzielle Kunden sehen das Verkaufsangebot im Browser
+- **Rechnungsstellung**: Kunden können ihre Rechnung mit verschiedenen Zahlungsanbietern über das Portal bezahlen
 
 ## Kontakte
 

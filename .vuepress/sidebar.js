@@ -3,78 +3,7 @@ export default [
     "text": "Best Practice",
     "link": "best-practice.md",
     "collapsible": true,
-    "children": [
-      "best-practice-accounting-migration.md",
-      "best-practice-analyse-sale-order-lines.md",
-      "best-practice-arbeitszeit-über-zeitraum-reduzieren.md",
-      "best-practice-changing-the-route-during-purchasing-process.md",
-      "best-practice-charge-expenses.md",
-      "best-practice-chatter.md",
-      "best-practice-communication-with-odoo.md",
-      "best-practice-consideration-lead-time.md",
-      "best-practice-contacts-management.md",
-      "best-practice-creditcard-payment.md",
-      "best-practice-database-concurrency-locks-and-cursor.md",
-      "best-practice-date-fields.md",
-      "best-practice-define-unit-price.md",
-      "best-practice-definition-example-bicycle.md",
-      "best-practice-definition-hr-holidays-types.md",
-      "best-practice-direct-print.md",
-      "best-practice-downpayments.md",
-      "best-practice-e-mail-processing.md",
-      "best-practice-e-mail-templates.md",
-      "best-practice-expense-compensation.md",
-      "best-practice-external-id.md",
-      "best-practice-foreign-exchange.md",
-      "best-practice-holiday-and-vacation-balance.md",
-      "best-practice-incoterms.md",
-      "best-practice-kit-provision.md",
-      "best-practice-kombination-an-und-abwesenheit.md",
-      "best-practice-make-to-order.md",
-      "best-practice-manufacturing-order.md",
-      "best-practice-manufacturing-with-subcontractor.md",
-      "best-practice-material-consumption-in-operations.md",
-      "best-practice-material-demand.md",
-      "best-practice-material-reservations.md",
-      "best-practice-multiple-currencies.md",
-      "best-practice-oca-finanzbuchhaltung.md",
-      "best-practice-odoo-data-management.md",
-      "best-practice-odoo-translation.md",
-      "best-practice-open-accounting.md",
-      "best-practice-packaging.md",
-      "best-practice-payroll-structure.md",
-      "best-practice-portal-and-backend.md",
-      "best-practice-posting-of-profit-or-loss-carried-forward.md",
-      "best-practice-posting-payment-differences.md",
-      "best-practice-postpone-delivery-date.md",
-      "best-practice-production-planning.md",
-      "best-practice-projects.md",
-      "best-practice-purchase-quantity.md",
-      "best-practice-purchase-to-order.md",
-      "best-practice-qr-bill.md",
-      "best-practice-replenishment.md",
-      "best-practice-roles-and-permissions.md",
-      "best-practice-salary-recap.md",
-      "best-practice-sale-and-assembly-groups.md",
-      "best-practice-scheduler.md",
-      "best-practice-schweizer-kmu-kontenplan.md",
-      "best-practice-services-with-night-surcharge.md",
-      "best-practice-settle-hourly-wages.md",
-      "best-practice-setup-attendance.md",
-      "best-practice-states-of-purchase-and-sales-orders.md",
-      "best-practice-stock-configuration.md",
-      "best-practice-stock-operation-types.md",
-      "best-practice-subscriptions.md",
-      "best-practice-task-types.md",
-      "best-practice-ticket-management.md",
-      "best-practice-units-of-quantity.md",
-      "best-practice-value-added-tax.md",
-      "best-practice-vat-billing.md",
-      "best-practice-working-times-and-holiday-allocations.md",
-      "best-pratice-cost-accounting.md",
-      "best-pratice-payment-reconciliation.md",
-      "best-pratice-sepa-payment.md"
-    ]
+    "children": []
   },
   "subscription.md",
   "hr-holidays.md",
@@ -140,6 +69,7 @@ export default [
   "hr-timesheet.md",
   "brand.md",
   "certificate-planner.md",
+  "ebics.md",
   "purchase-requisition.md",
   "forestry-base.md",
   "job-portal-base.md",
@@ -272,7 +202,7 @@ export default [
         "text": "Mass Mailing",
         "collapsible": true,
         "children": [
-          "mass-mailing-action.md"
+          "mass-mailing-actions.md"
         ]
       },
       {
@@ -537,6 +467,7 @@ export default [
           "account-payment-partner.md",
           "account-payment-purchase.md",
           "account-reconcile-oca.md",
+          "account-report-referrer.md",
           "account-reports-hide-ref.md",
           "account-show-invoice-date.md",
           "account-statement-base.md",
@@ -588,6 +519,7 @@ export default [
           "account-move-unsubscribe.md",
           "mail-composer-cc-bcc.md",
           "mail-activity-datetime.md",
+          "mail-channel-follow-model.md",
           "mail-composer-default-template.md",
           "mail-composer-mass-layout.md",
           "mail-debrand.md",
@@ -597,9 +529,6 @@ export default [
           "mail-show-follower.md",
           "mail-template-subscribe.md",
           "mail-thread-context.md",
-          "mail-tracking-helpdesk-bounce-ticket.md",
-          "mail-tracking-mailgun.md",
-          "mail-tracking.md",
           "mail-unsubscribe.md",
           "purchase-order-send-unsubscribe.md",
           "purchase-order-unsubscribe.md",
@@ -658,7 +587,8 @@ export default [
           "show-db-name.md",
           "web-company-color.md",
           "web-enterprise-admin-expiration-panel.md",
-          "web-theme-classic.md"
+          "web-theme-classic.md",
+          "auth-api-key.md"
         ]
       },
       {
@@ -667,6 +597,10 @@ export default [
         "children": [
           "mass-mailing-list-dynamic.md",
           "mass-mailing-partner.md",
+          "mail-tracking-helpdesk-bounce-ticket.md",
+          "mail-tracking-mailgun.md",
+          "mail-tracking.md",
+          "mail-tracking-for-mass-mailing.md",
           "mass-mailing-contact-active.md",
           "survey-send-to-list.md"
         ]
@@ -675,11 +609,16 @@ export default [
         "text": "Development",
         "collapsible": true,
         "children": [
+          "2d-matrix-for-x2many-fields.md",
           "bi-sql-editor.md",
+          "components.md",
           "date-range.md",
+          "endpoint-route-handler.md",
           "fastapi.md",
+          "fs-folder.md",
           "mail-environment.md",
           "mass-editing.md",
+          "server-action-mass-edit.md",
           "mass-operation-abstract.md",
           "muk-rest.md",
           "onchange-helper.md",
@@ -779,14 +718,17 @@ export default [
           "partner-secondary-name.md",
           "partner-type-membership.md",
           "partner-type-order.md",
-          "partner-type-sale.md"
+          "partner-type-sale.md",
+          "street3-in-addresses.md",
+          "partner-stage.md"
         ]
       },
       {
         "text": "Helpdesk",
         "collapsible": true,
         "children": [
-          "helpdesk-management.md"
+          "helpdesk-management.md",
+          "helpdesk-project-task.md"
         ]
       },
       {
@@ -808,6 +750,7 @@ export default [
           "stock-inventory-summary.md",
           "stock-kardex.md",
           "stock-lot-traceability-list.md",
+          "stock-move-analysis-value.md",
           "stock-move-available-locations.md",
           "stock-move-line-auto-fill.md",
           "stock-move-line-lot-done.md",
@@ -994,7 +937,9 @@ export default [
           "base-optional-quick-create.md",
           "base-recursion-limit.md",
           "base-user-acl.md",
+          "extended-view-inheritance.md",
           "fetchmail-incoming-log.md",
+          "float-align-at-decimal.md",
           "mail-format-with-parent.md",
           "mail-manual-routing.md",
           "mail-server-filter.md",
@@ -1006,6 +951,7 @@ export default [
           "web-editor-disable-convert-inline.md",
           "web-editor-show-code.md",
           "web-font-arial.md",
+          "web-font-dobra-book.md",
           "web-responsive.md"
         ]
       },
@@ -1157,6 +1103,16 @@ export default [
         "children": [
           "brand-account.md",
           "brand-external-report-layout.md"
+        ]
+      },
+      {
+        "text": "EBICS",
+        "collapsible": true,
+        "children": [
+          "ebics-files-batch-export.md",
+          "ebics-files-batch-import.md",
+          "ebics-banking-odoo-enterprise.md",
+          "ebics-banking-protocol.md"
         ]
       },
       {

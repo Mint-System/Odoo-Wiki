@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale
 ---
+
 # Sale Order Partner Ref
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -15,4 +17,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sa
 
 ## Beschreibung
 
-Diese Erweiterung fügt das Feld *Kunden Nr.* in der Listen- und Such-Ansicht der Verkaufsaufträge ein. Die *Kunden Nr.* ist ein Referenzfeld auf *Kunde > Tab Verkauf & Einkauf > Referenz*.
+Diese Erweiterung fügt das Feld _Kunden Nr._ in der Listen- und Such-Ansicht der Verkaufsaufträge ein. Die _Kunden Nr._ ist ein Referenzfeld auf _Kunde > Tab Verkauf & Einkauf > Referenz_.

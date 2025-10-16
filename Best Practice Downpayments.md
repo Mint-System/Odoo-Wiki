@@ -4,36 +4,39 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Anzahlungen
 
 ## Dienstleistung mit Anzahlung abwickeln
 
-In diesem Szenario verkaufen Sie eine Dienstleistung auf Stundenbasis an einen Kunden. Sie bieten dem Kunden 10% Rabatt in Form von zusätzlichen Stunden an, wenn eine Anzahlung der offerierten Stunden zu 100% erfolgt. 
+In diesem Szenario verkaufen Sie eine Dienstleistung auf Stundenbasis an einen Kunden. Sie bieten dem Kunden 10% Rabatt in Form von zusätzlichen Stunden an, wenn eine Anzahlung der offerierten Stunden zu 100% erfolgt.
 
 ### Konfiguration
 
 Damit Anzahlungen für Angebote erfasst werden können, führen Sie diese Schritte durchführen:
 
-* [Produkt für Anzahlungen erstellen](Sale%20Invoicing.md#Produkt%20für%20Anzahlungen%20erstellen)
-* [Konto für Anzahlungen festlegen](Accounting%20Payments.md#Konto%20für%20Anzahlungen%20festlegen)
+- [Produkt für Anzahlungen erstellen](Sale%20Invoicing.md#Produkt%20für%20Anzahlungen%20erstellen)
+- [Konto für Anzahlungen festlegen](Accounting%20Payments.md#Konto%20für%20Anzahlungen%20festlegen)
 
 ### Anzahlung
 
 Nun können Sie ein [Angebot erstellen](Sale.md#Angebot%20erstellen) und diese Auftragszeilen hinzufügen:
 
 Auftragszeile 1:
-* **Produkt**: Produkt vom Typ Dienstleistung
-* **Menge**: 20 Stunden
-* **Stückpreis**: 100.00
+
+- **Produkt**: Produkt vom Typ Dienstleistung
+- **Menge**: 20 Stunden
+- **Stückpreis**: 100.00
 
 Auftragszeile 2:
-* **Produkt**: Produkt vom Typ Dienstleistung
-* **Menge**: 2 Stunden (10% von 20 Stunden)
-* **Preis**: 0.00 
 
-Bestätigen Sie den Auftrag und führen Sie [Anzahlung erstellen](Sale%20Invoicing.md#Anzahlung%20erstellen) mit dem *Anzahlungsbetrag* von 100% aus. Bestätigen Sie die Rechnung.
+- **Produkt**: Produkt vom Typ Dienstleistung
+- **Menge**: 2 Stunden (10% von 20 Stunden)
+- **Preis**: 0.00
 
-Mit der Anzahlung wird der Betrag auf das Konto *2030 Erhaltene Anzahlungen* blastet.
+Bestätigen Sie den Auftrag und führen Sie [Anzahlung erstellen](Sale%20Invoicing.md#Anzahlung%20erstellen) mit dem _Anzahlungsbetrag_ von 100% aus. Bestätigen Sie die Rechnung.
+
+Mit der Anzahlung wird der Betrag auf das Konto _2030 Erhaltene Anzahlungen_ blastet.
 
 | Buchungssatz    | Konto                                                       | Buchungstext         | Soll         | Haben        |
 | --------------- | ----------------------------------------------------------- | -------------------- | ------------ | ------------ |
@@ -42,7 +45,7 @@ Mit der Anzahlung wird der Betrag auf das Konto *2030 Erhaltene Anzahlungen* bla
 
 ### Gutschrift
 
-Sobald der Kunde die Rechnung bezahlt, erhalten Sie über das eBanking einen entsprechenden Beleg zur Abstimmung. Diesen Beleg gleichen Sie mit der Anzahlungsrechnung ab und erstellen eine [Gutschrift](Invoicing.md#Gutschrift%20erstellen). Mit der Gutschrift wird das Konto *2030 Erhaltene Anzahlungen* wieder ausgeglichen.
+Sobald der Kunde die Rechnung bezahlt, erhalten Sie über das eBanking einen entsprechenden Beleg zur Abstimmung. Diesen Beleg gleichen Sie mit der Anzahlungsrechnung ab und erstellen eine [Gutschrift](Invoicing.md#Gutschrift%20erstellen). Mit der Gutschrift wird das Konto _2030 Erhaltene Anzahlungen_ wieder ausgeglichen.
 
 | Buchungssatz                                      | Konto                                                       | Buchungstext         | Soll         | Haben        |
 | ------------------------------------------------- | ----------------------------------------------------------- | -------------------- | ------------ | ------------ |
@@ -63,4 +66,4 @@ Nachdem Sie die Rechnung bestätigt haben, erscheint die folgende Meldung:
 
 > Sie haben **Restguthaben** für diesen Kunden. Sie können diese zuteilen, um die Rechnung als bezahlt zu kennzeichnen.
 
-Klicken Sie auf *Restguthaben* und gleichen Sie die Rechnung mit der Gutschrift ab. Sie können die Rechnung dem Kunden schicken. Es ist ein Hinweis vermerkt, dass die Rechnung bereits bezahlt wurde.
+Klicken Sie auf _Restguthaben_ und gleichen Sie die Rechnung mit der Gutschrift ab. Sie können die Rechnung dem Kunden schicken. Es ist ein Hinweis vermerkt, dass die Rechnung bereits bezahlt wurde.

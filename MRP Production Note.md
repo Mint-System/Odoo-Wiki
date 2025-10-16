@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./manufacture
 ---
+
 # MRP Production Note
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_
 
 ### Notiz auf Fertigungsauftrag hinzufügen
 
-Öffnen Sie den Tab *Sonstiges* eines Fertigungsauftrags unter *Fertigung > Vorgänge > Fertigungsaufträge*. Fügen Sie im Feld *Notiz* einen Kommentar hinzu.
+Öffnen Sie den Tab _Sonstiges_ eines Fertigungsauftrags unter _Fertigung > Vorgänge > Fertigungsaufträge_. Fügen Sie im Feld _Notiz_ einen Kommentar hinzu.

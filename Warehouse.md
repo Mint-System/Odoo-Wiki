@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./
 ---
+
 # Warenhaus
+
 ![](attachments/icon_odoo_warehouse.png)
 
 {{ $frontmatter.description }}

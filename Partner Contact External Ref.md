@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./contacts
 ---
+
 # Partner Contact External Ref
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/
 
 ### Externe Kundenreferenz hinterlegen
 
-Mit dieser Erweiterung steht auf ihren Kontakten ein zusätzliches Referenz-Feld für die externe Kommunikation zur Verfügung. Zeigen Sie einen Kontakt unter *Kontakte* an. Im Tab *Verkauf & Einkauf* finden Sie das Feld *External Reference*.
+Mit dieser Erweiterung steht auf ihren Kontakten ein zusätzliches Referenz-Feld für die externe Kommunikation zur Verfügung. Zeigen Sie einen Kontakt unter _Kontakte_ an. Im Tab _Verkauf & Einkauf_ finden Sie das Feld _External Reference_.

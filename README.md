@@ -422,6 +422,12 @@ Mehrere Marken für ihr Unternehmen präsentieren.
 
 Anleitung zur Odoo-App Certificate Planner.
 
+### [EBICS](EBICS.md)
+
+![](attachments/icons_odoo_ebics.png)
+
+Odoo direkt mit der Bank verbinden.
+
 ### [Einkauf Kaufverträge](Purchase%20Requisition.md)
 
 ![icons_odoo_purchase](attachments/icons_odoo_purchase.png)
@@ -538,10 +544,10 @@ Unterstützer des Odoo Wiki werden hier mit Logo aufgeführt:
 
 Es sind Lösungen und Dokumente von diesen Anbieter enthalten:
 
-* [giordano.ch](https://www.giordano.ch/)
-* [Odoo Community Association](https://odoo-community.org/)
-* [Odoo S.A.](https://www.odoo.com/)
-* [Sozialinfo](https://www.sozialinfo.ch)
-* [VentorTech](https://ventor.tech/)
-* [Zebra](https://www.zebra.com)
-* [Zebroo](https://www.zebroo.de)
+- [giordano.ch](https://www.giordano.ch/)
+- [Odoo Community Association](https://odoo-community.org/)
+- [Odoo S.A.](https://www.odoo.com/)
+- [Sozialinfo](https://www.sozialinfo.ch)
+- [VentorTech](https://ventor.tech/)
+- [Zebra](https://www.zebra.com)
+- [Zebroo](https://www.zebroo.de)

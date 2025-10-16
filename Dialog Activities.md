@@ -4,7 +4,9 @@ description: Arbeitsplanung mit Odoo Aktivitäten.
 kind: howto
 prev: ./dialog
 ---
+
 # Dialog Aktivitäten
+
 ![icons_odoo_mail](attachments/icons_odoo_mail.png)
 
 {{ $frontmatter.description }}
@@ -13,7 +15,7 @@ prev: ./dialog
 
 ### Neuer Aktivitätstyp erfassen
 
-Navigieren Sie nach *Einstellungen > Technisch > Dialog > Aktivitätsypen* und erstellen Sie einen neuen Eintrag. Geben Sie einen passenden Name (Objekt und Verrichtung) und wählen Sie das Datenmodell aus für das die Aktivität verfügbar sein soll.
+Navigieren Sie nach _Einstellungen > Technisch > Dialog > Aktivitätsypen_ und erstellen Sie einen neuen Eintrag. Geben Sie einen passenden Name (Objekt und Verrichtung) und wählen Sie das Datenmodell aus für das die Aktivität verfügbar sein soll.
 
 ## Verwendung
 
@@ -23,6 +25,6 @@ Es wird angenommen, dass Sie im Aktivitäts-Menü viele unerledigte Aktivitäten
 
 ![](attachments/Dialog%20Aktivitäten%20Benachrichtigung.png)
 
-Navigieren Sie nach *Einstellungen > Technisch > Dialog > Aktivitäten* und filtern Sie die Aktivitäten gemäss Datenmodell und Zuweisung. Markieren und löschen Sie die Aktivitäten via *Aktion*.
+Navigieren Sie nach _Einstellungen > Technisch > Dialog > Aktivitäten_ und filtern Sie die Aktivitäten gemäss Datenmodell und Zuweisung. Markieren und löschen Sie die Aktivitäten via _Aktion_.
 
 ![](attachments/Dialog%20Aktivitäten%20Löschen.png)

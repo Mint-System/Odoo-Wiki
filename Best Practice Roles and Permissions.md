@@ -13,7 +13,7 @@ Mit der Odoo App [User roles](Base%20User%20Role.md) können Sie Benutzer statt 
 
 **Mitarbeitende**
 
-Alle internen Benutzer erhalten diese Rolle. Benutzer-Gruppen aus Apps werden standardmässig dieser Rolle hinzugefügt. Es wird ein *Access by Default*-Ansatz für neue Apps verfolgt.
+Alle internen Benutzer erhalten diese Rolle. Benutzer-Gruppen aus Apps werden standardmässig dieser Rolle hinzugefügt. Es wird ein _Access by Default_-Ansatz für neue Apps verfolgt.
 
 **Buchhaltung**
 

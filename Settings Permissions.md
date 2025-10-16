@@ -4,7 +4,9 @@ description: Einstellungen zu Zugriffsrechten und Gruppen.
 kind: howto
 prev: ./settings
 ---
+
 # Einstellungen Berechtigungen
+
 ![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 {{ $frontmatter.description }}
@@ -13,7 +15,7 @@ prev: ./settings
 
 ### Kundenregistration erlauben
 
-Damit sich Besucher der Website im Odoo-Portal registrieren können, muss die Option *Einstellungen > Allgemeine Einstellungen > Berechtigungen > Kundenkonto > Kostenlose Anmeldung* aktiviert sein.
+Damit sich Besucher der Website im Odoo-Portal registrieren können, muss die Option _Einstellungen > Allgemeine Einstellungen > Berechtigungen > Kundenkonto > Kostenlose Anmeldung_ aktiviert sein.
 
 ### Rollen erstellen
 
@@ -23,15 +25,15 @@ Diese Anleitung erfordert das Modul `base_user_role`.
 
 Die Gruppenrechte können mit Benutzerrollen zusammengefasst werden. Mit der entsprechenden Erweiterung kann man Rollen erstellen, Gruppen hinzufügen und diese für einen Benutzer aktivieren.
 
-Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Roles* und wählen Sie *Neu*. Erstellen Sie zur Initiierung eine Administratoren-Rolle mit diesen Angaben:
+Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Roles_ und wählen Sie _Neu_. Erstellen Sie zur Initiierung eine Administratoren-Rolle mit diesen Angaben:
 
 ![](attachments/Odoo%20Einstellungen%20Benutzerrolle%20Administrator.png)
 
-Weisen Sie im Tab *Benutzer* die Rolle einem Benutzer zu. Ist die Rolle aktiv, überschreibt Sie die existierenden Berechtigungen.
+Weisen Sie im Tab _Benutzer_ die Rolle einem Benutzer zu. Ist die Rolle aktiv, überschreibt Sie die existierenden Berechtigungen.
 
 ### Benutzerrechte vergeben
 
-Navigieren Sie nach *Einstellungen > Allgemeine Einstellungen > Benutzer* und klicken auf *Benutzer verwalten*. Wählen Sie den Benutzer, dessen Zugriffsrechte Sie verändern möchten. Drücken Sie auf *Bearbeiten* und wählen Sie nun über die Dropdown oder Checkboxen die Rollen und Zugriffe aus.
+Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Benutzer_ und klicken auf _Benutzer verwalten_. Wählen Sie den Benutzer, dessen Zugriffsrechte Sie verändern möchten. Drücken Sie auf _Bearbeiten_ und wählen Sie nun über die Dropdown oder Checkboxen die Rollen und Zugriffe aus.
 
 ![Odoo Benutzerrechte](attachments/Einstellungen%20Benutzerrechte.png)
 
@@ -45,86 +47,86 @@ Damit die neuen Rechte für den Benutzer sichtbar sind, muss dieser den Browser 
 
 ### Benutzer-Gruppen anzeigen
 
-Gruppen verwalten Sie unter *Einstellungen > Benutzer und Unternehmen > Gruppen*.
+Gruppen verwalten Sie unter _Einstellungen > Benutzer und Unternehmen > Gruppen_.
 
 ### Benutzer-Gruppe erstellen
 
-Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und erstellen Sie einen neuen Eintrag.
+Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Gruppen_ und erstellen Sie einen neuen Eintrag.
 
-* **Name**: Name der Gruppe.
-* **Anwendung**: Zuordnung zu Odoo-App.
-* **Benutzer**: Auswal der Mitglieder.
-* **Vererbt**: Mitglieder dieser Gruppe werden zu den hier ausgewählten Gruppen hinzufgefügt.
-* **Menüs**: Sichtbarkeit von Menu-Einträgen.
-* **Ansichten**: Sichtbarkeit von von Ansichten.
-* **Zugriffsrechte**: Zugriffsrechte auf Datenmodelle.
-* **Datensatzregeln**: Filterung von Daten. Übersteuert Zugriffsrechte.
+- **Name**: Name der Gruppe.
+- **Anwendung**: Zuordnung zu Odoo-App.
+- **Benutzer**: Auswal der Mitglieder.
+- **Vererbt**: Mitglieder dieser Gruppe werden zu den hier ausgewählten Gruppen hinzufgefügt.
+- **Menüs**: Sichtbarkeit von Menu-Einträgen.
+- **Ansichten**: Sichtbarkeit von von Ansichten.
+- **Zugriffsrechte**: Zugriffsrechte auf Datenmodelle.
+- **Datensatzregeln**: Filterung von Daten. Übersteuert Zugriffsrechte.
 
 ### Datensatzregeln für Gruppe anpassen
 
-Um die Datensatzregeln für eine bestimmte Gruppe anzupassen, navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen*. Zeiten Sie Gruppe an und öffnen Sie den den Tab *Datensatzregeln*.
+Um die Datensatzregeln für eine bestimmte Gruppe anzupassen, navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Gruppen_. Zeiten Sie Gruppe an und öffnen Sie den den Tab _Datensatzregeln_.
 
 ### Gruppe auf Menüposten hinzufügen
 
-Wenn Sie auf einem Menüposten bestimmte Zugriffsrechte vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Menüposten*. Zeigen Sie einen einen Menüposten an, beispielsweise *Apps* und fügen Sie im Tab *Zugriffsrechte* eine Gruppe hinzu.
+Wenn Sie auf einem Menüposten bestimmte Zugriffsrechte vergeben möchten, navigieren Sie nach _Einstellungen > Technisch > Menüposten_. Zeigen Sie einen einen Menüposten an, beispielsweise _Apps_ und fügen Sie im Tab _Zugriffsrechte_ eine Gruppe hinzu.
 
 ## Zugriffsrechte
 
 ### Zugriffsrechte anzeigen
 
-Wenn Sie den [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivieren) können Sie im Kontext einer Ansicht die vergebenen Zugriffsrechte prüfen. Rufen Sie eine Ansicht auf, beispielsweise *Kontakte* und wählen Sie *Entwicklertools > Zugriffsrechte anzeigen*. Nun erhalten Sie eine Liste der aktiven Zugriffsrechte.
+Wenn Sie den [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivieren) können Sie im Kontext einer Ansicht die vergebenen Zugriffsrechte prüfen. Rufen Sie eine Ansicht auf, beispielsweise _Kontakte_ und wählen Sie _Entwicklertools > Zugriffsrechte anzeigen_. Nun erhalten Sie eine Liste der aktiven Zugriffsrechte.
 
 ### Zugriffsrechte anpassen
 
-Navigieren Sie nach *Einstellungen > Technisch > Zugriffsrechte* und suchen Sie den Eintrag anhand es Namens. Passen Sie die Berechtigungen auf dieser Ansicht an.
+Navigieren Sie nach _Einstellungen > Technisch > Zugriffsrechte_ und suchen Sie den Eintrag anhand es Namens. Passen Sie die Berechtigungen auf dieser Ansicht an.
 
 ### Zugriffsrechte auf Datenmodell vergeben
 
-Wenn Sie einer ausgewählten Gruppe Zugriffsrechte auf ein Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Modelle*. Rufen Sie hier das ausgewählten Datenmodell auf und zeigen Sie den Tab *Zugriffsrechte* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
+Wenn Sie einer ausgewählten Gruppe Zugriffsrechte auf ein Datenmodell vergeben möchten, navigieren Sie nach _Einstellungen > Technisch > Modelle_. Rufen Sie hier das ausgewählten Datenmodell auf und zeigen Sie den Tab _Zugriffsrechte_ an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
 
-* **Name**: Geben Sie einen namen im Schema `$COMPANY.$.$MODUL.$XML_ID.$OPERATION` ein. Dazu ein Beispiel: `mint_system.sale.order.read`.
-* **Gruppe**: Wählen Sie die Gruppe aus, welche die Zugriffsrechte erhält.
-* **Berechtigung**: Wählen Sie die passende Berechtigungen aus.
+- **Name**: Geben Sie einen namen im Schema `$COMPANY.$.$MODUL.$XML_ID.$OPERATION` ein. Dazu ein Beispiel: `mint_system.sale.order.read`.
+- **Gruppe**: Wählen Sie die Gruppe aus, welche die Zugriffsrechte erhält.
+- **Berechtigung**: Wählen Sie die passende Berechtigungen aus.
 
 ### Zugriffsrechte auf Gruppe vergeben
 
-Wenn Sie einer ausgewählten Gruppe Zugriffsrechte auf ein Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Gruppen*. Rufen Sie hier die ausgewählte Gruppe auf und zeigen Sie den Tab *Zugriffsrechte* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
+Wenn Sie einer ausgewählten Gruppe Zugriffsrechte auf ein Datenmodell vergeben möchten, navigieren Sie nach _Einstellungen > Gruppen_. Rufen Sie hier die ausgewählte Gruppe auf und zeigen Sie den Tab _Zugriffsrechte_ an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
 
-* **Name**: Geben Sie einen namen im Schema `$COMPANY.$.$MODUL.$XML_ID.$OPERATION` ein. Dazu ein Beispiel: `mint_system.sale.order.read`.
-* **Objekt**: Wählen Sie das Datenmodell aus.
-* **Berechtigung**: Wählen Sie die passende Berechtigungen aus.
+- **Name**: Geben Sie einen namen im Schema `$COMPANY.$.$MODUL.$XML_ID.$OPERATION` ein. Dazu ein Beispiel: `mint_system.sale.order.read`.
+- **Objekt**: Wählen Sie das Datenmodell aus.
+- **Berechtigung**: Wählen Sie die passende Berechtigungen aus.
 
 ## Datensatzregeln
 
 ### Datensatzregeln anzeigen
 
-Wenn Sie den [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivieren) können Sie im Kontext einer Ansicht die Datensatzregeln anzeigen. Rufen Sie eine Ansicht auf, beispielsweise *Kontakte* und wählen Sie *Entwicklertools > Datensatzregeln anzeigen*. Nun erhalten Sie eine Liste der aktiven Datensatzregeln.
+Wenn Sie den [Entwicklermodus aktivieren](Settings.md#Entwicklermodus%20aktivieren) können Sie im Kontext einer Ansicht die Datensatzregeln anzeigen. Rufen Sie eine Ansicht auf, beispielsweise _Kontakte_ und wählen Sie _Entwicklertools > Datensatzregeln anzeigen_. Nun erhalten Sie eine Liste der aktiven Datensatzregeln.
 
 ### Datensatzregel anpassen
 
-Wenn Sie eine bestehende Datensatzregel anpassen möchten, ist es am einfachsten wenn Sie diese duplizieren und das Original archivieren. Navigieren Sie nach *Einstellungen > Technisch > Datensatzregeln* wählen Sie eine bestimmte Regel aus. Wählen Sie *Aktion > Duplizieren* und passen Sie den Namen der Regel an. Kehren Sie auf die Listenansicht zurück und wählen Sie die originale Regel aus. Klicken Sie auf *Aktion > Archiv*.
+Wenn Sie eine bestehende Datensatzregel anpassen möchten, ist es am einfachsten wenn Sie diese duplizieren und das Original archivieren. Navigieren Sie nach _Einstellungen > Technisch > Datensatzregeln_ wählen Sie eine bestimmte Regel aus. Wählen Sie _Aktion > Duplizieren_ und passen Sie den Namen der Regel an. Kehren Sie auf die Listenansicht zurück und wählen Sie die originale Regel aus. Klicken Sie auf _Aktion > Archiv_.
 
 ### Datensatzregeln deaktivieren
 
-Zeigen Sie *Einstellungen > Technisch > Sicherheit > Datensatzregeln* an und öffnen Sie den ausgewählten Eintrag. Wählen Sie *Aktionen > Archiv* um die Datensatzregel zu deaktivieren.
+Zeigen Sie _Einstellungen > Technisch > Sicherheit > Datensatzregeln_ an und öffnen Sie den ausgewählten Eintrag. Wählen Sie _Aktionen > Archiv_ um die Datensatzregel zu deaktivieren.
 
 ### Datensatzregeln auf Datenmodell vergeben
 
-Wenn Sie einer ausgewählten Gruppe Datensatzregeln auf einem Datenmodell vergeben möchten, navigieren Sie nach *Einstellungen > Technisch > Modelle*. Rufen Sie hier das ausgewählten Datenmodell auf und zeigen Sie den Tab *Datensatzregeln* an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
+Wenn Sie einer ausgewählten Gruppe Datensatzregeln auf einem Datenmodell vergeben möchten, navigieren Sie nach _Einstellungen > Technisch > Modelle_. Rufen Sie hier das ausgewählten Datenmodell auf und zeigen Sie den Tab _Datensatzregeln_ an. Erstellen Sie einen neuen Eintrag mit diesen Angaben:
 
-* **Name**: Geben Sie hier den ganzen Namen der Anwendung und Gruppe ein.
-* **Gruppe**: Wählen Sie ein oder mehrere Gruppen aus.
-* **Domain**: In diesem Feld konfigurieren Sie den Filter.
-* **Berechtigung**: Bestimmen Sie die passenden Berechtigungen aus.
+- **Name**: Geben Sie hier den ganzen Namen der Anwendung und Gruppe ein.
+- **Gruppe**: Wählen Sie ein oder mehrere Gruppen aus.
+- **Domain**: In diesem Feld konfigurieren Sie den Filter.
+- **Berechtigung**: Bestimmen Sie die passenden Berechtigungen aus.
 
 ### Datensatzregeln auf Gruppe vergeben
 
-Wenn Sie einer Datensatzregeln für eine Gruppe vergeben möchten, navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Gruppen* und zeigen die ausgewählte Gruppe an. Navigieren Sie zum Tab *Datensatzregeln* und Erstellen Sie einen neuen Eintrag mit diesen Angaben:
+Wenn Sie einer Datensatzregeln für eine Gruppe vergeben möchten, navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Gruppen_ und zeigen die ausgewählte Gruppe an. Navigieren Sie zum Tab _Datensatzregeln_ und Erstellen Sie einen neuen Eintrag mit diesen Angaben:
 
-* **Name**: Geben Sie hier den Namen des Datenmodell mit Beschreibung der Berechtigung ein.
-* **Modell**: Wählen Sie hier das Datenmodell aus.
-* **Domain**: Legen Sie den Zugriffs-Filter für die Daten fest.
-* **Berechtigung**: Wählen Sie die passenden Berechtigungen aus.
+- **Name**: Geben Sie hier den Namen des Datenmodell mit Beschreibung der Berechtigung ein.
+- **Modell**: Wählen Sie hier das Datenmodell aus.
+- **Domain**: Legen Sie den Zugriffs-Filter für die Daten fest.
+- **Berechtigung**: Wählen Sie die passenden Berechtigungen aus.
 
 ## App-Berechtigungen
 
@@ -136,9 +138,9 @@ Eine Fehlerhafte Struktur wird in der Ansicht Benutzerberechtigung beispielsweis
 
 ![](attachments/Einstellungen%20fehlerhafte%20Berechtigungsstruktur.png)
 
-Zur Bereinigung öffnen Sie als erstes *Einstellungen > Technisch > Sicherheit > Zugriffsrechte*. Suchen Sie hier nach Einträgen mit Modul `hr_attendance` und löschen Sie diese.
+Zur Bereinigung öffnen Sie als erstes _Einstellungen > Technisch > Sicherheit > Zugriffsrechte_. Suchen Sie hier nach Einträgen mit Modul `hr_attendance` und löschen Sie diese.
 
-Als nächstes öffnen Sie *Einstellungen > Benutzer und Unternehmen > Gruppen* und  suchen nach *Anwesenheiten*. Öffnen Sie jede Gruppe  entfernen Sie im Tab *Benutzer* und *Reche für Daten* alle Einträge.
+Als nächstes öffnen Sie _Einstellungen > Benutzer und Unternehmen > Gruppen_ und suchen nach _Anwesenheiten_. Öffnen Sie jede Gruppe entfernen Sie im Tab _Benutzer_ und _Reche für Daten_ alle Einträge.
 
 Zuletzt installiere Sie die App `hr_attendance` neu. Nun sollten die Ursprünglichen Berechtigungsstrukturen wiederhergestellt sein.
 

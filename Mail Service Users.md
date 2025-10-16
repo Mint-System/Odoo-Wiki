@@ -5,21 +5,23 @@ kind: howto
 partner: Mint-System
 prev: ./base
 ---
+
 # Mail Service Users
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `mail_service_users`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/17.0/mail_service_users>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/18.0/mail_service_users>
 
 ## Verwendung
 
 ### Benutzer als Service-Benutzer festlegen
 
-Mit dieser Erweiterung können Sie bestimmte Benutzer als *Service-Benutzer* markieren. Diese Benutzer werden vom Lizenzvertrag von Odoo augeschlossen. Sie dürfen diese Benutzer nicht als persönliches Login verwenden.
+Mit dieser Erweiterung können Sie bestimmte Benutzer als _Service-Benutzer_ markieren. Diese Benutzer werden vom Lizenzvertrag von Odoo augeschlossen. Sie dürfen diese Benutzer nicht als persönliches Login verwenden.
 
-Rufen Sie einen Benutzer via *Einstellungen > Benutzer und Unternehmen > Benutzer* auf. Setzen Sie die Checkbox wenn es sich um einen Service-Benutzer handelt.
+Rufen Sie einen Benutzer via _Einstellungen > Benutzer und Unternehmen > Benutzer_ auf. Setzen Sie die Checkbox wenn es sich um einen Service-Benutzer handelt.
 
 ![](attachments/Mail%20Service%20Users.png)
 

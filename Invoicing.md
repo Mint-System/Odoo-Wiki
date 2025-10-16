@@ -3,8 +3,11 @@ title: Rechnungsstellung
 description: Online Rechnungsstellung leicht gemacht.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
+
 # Rechnungsstellung
+
 ![icons_odoo_account](attachments/icons_odoo_account.png)
 
 {{ $frontmatter.description }}
@@ -45,7 +48,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Account Invoice Select Bank](Account%20Invoice%20Select%20Bank.md)                         | Bankkonto anhand Währung auswählen.                                                                |     |
 | [Account Invoice Show Currency Rate](Account%20Invoice%20Show%20Currency%20Rate.md)         | Währungskurs auf Rechnungszeile anzeigen.                                                          |     |
 | [Account Invoice Triple Discount](Account%20Invoice%20Triple%20Discount.md)                 | Mehrere Rabatte auf der Rechungszeile.                                                             |     |
-| [Account Invoicing Prepare](Account%20Invoice%20Prepare.md)                   | Die PDF Rechnung im Anhang speichern und laden.                                                    |     |
+| [Account Invoicing Prepare](Account%20Invoice%20Prepare.md)                                 | Die PDF Rechnung im Anhang speichern und laden.                                                    |     |
 | [Account Move Invoice Partner](Account%20Move%20Invoice%20Partner.md)                       | Separate Rechnungsadresse auf Rechnung festlegen.                                                  |     |
 | [Account Move Line Description](Account%20Move%20Line%20Description.md)                     | Produktname ohne Referenz in Beschreibung Rechnungszeile übertragen.                               |     |
 | [Account Sale Timesheet Report](Account%20Sale%20Timesheet%20Report.md)                     | Zeiterfassungsbericht für Rechnung.                                                                |     |
@@ -64,49 +67,49 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 ### Journal Kundenrechnungen anzeigen
 
-Navigieren Sie nach *Rechnungsstellung > Konfiguration > Journale* und zeigen Sie das Journal *Kundenrechnugen* an.
+Navigieren Sie nach _Rechnungsstellung > Konfiguration > Journale_ und zeigen Sie das Journal _Kundenrechnugen_ an.
 
 ### Ausgangsrechnung erfassen
 
-Öffnen Sie *Rechnungsstellung > Kunden > Rechnungen* und fügen Sie einen Eintrag hinzu.
+Öffnen Sie _Rechnungsstellung > Kunden > Rechnungen_ und fügen Sie einen Eintrag hinzu.
 
 ### Rechnungen versenden
 
-Zeigen Sie *Rechnungsstellung > Kunden > Rechnungen* und markieren Sie die gebuchten Rechnungen, die Sie versenden möchten. Wählen Sie *Aktionen > Rechnung versenden*, ändern Sie optional die Mail-Vorlage im Dialog und bestätigen Sie den Versand mit *Senden*.
+Zeigen Sie _Rechnungsstellung > Kunden > Rechnungen_ und markieren Sie die gebuchten Rechnungen, die Sie versenden möchten. Wählen Sie _Aktionen > Rechnung versenden_, ändern Sie optional die Mail-Vorlage im Dialog und bestätigen Sie den Versand mit _Senden_.
 
 ### Rechnung zurücksetzen
 
-Um eine gebucht Rechnung zurückzusetzen navigieren Sie nach nach *Rechnungsstellung > Kunden > Rechnungen* und zeigen eine ausgewählte Rechnung an. Wählen Sie die Aktion *Zurücksetzen* damit die Rechnung in den Status *Entwurf* gesetzt wird.
+Um eine gebucht Rechnung zurückzusetzen navigieren Sie nach nach _Rechnungsstellung > Kunden > Rechnungen_ und zeigen eine ausgewählte Rechnung an. Wählen Sie die Aktion _Zurücksetzen_ damit die Rechnung in den Status _Entwurf_ gesetzt wird.
 
 ::: tip
-Wurde die erstellte Rechnung bereits auf Status *Gebucht* gesetzt, so kann diese Rechnung nur teilweise korrigiert oder gelöscht werden.
+Wurde die erstellte Rechnung bereits auf Status _Gebucht_ gesetzt, so kann diese Rechnung nur teilweise korrigiert oder gelöscht werden.
 :::
 
 ### Gutschrift erfassen
 
-Navigieren Sie nach *Rechnungsstellung > Kunden > Gutschriften* und erfassen Sie eine Gutschrift. 
+Navigieren Sie nach _Rechnungsstellung > Kunden > Gutschriften_ und erfassen Sie eine Gutschrift.
 
 ### Gutschrift für Rechnung erfassen
 
-Öffnen Sie *Rechnungsstellung > Kunden > Rechnungen* und zeigen Sie die Rechnung an, welche vergütet werden soll. Wählen Sie die Aktion *Gutschrift Erstellen* und aktivieren die passenden Optionen:
+Öffnen Sie _Rechnungsstellung > Kunden > Rechnungen_ und zeigen Sie die Rechnung an, welche vergütet werden soll. Wählen Sie die Aktion _Gutschrift Erstellen_ und aktivieren die passenden Optionen:
 
-* **Kreditmethode**:
-	* Teilweise Rückerstattung:  
-	* Komplette Rückerstattung: Es wird eine Gegenbuchung erstellt
-	* Komplette Rückerstattung und neuer Rechnungsentwurf: Es wird eine Gegenbuchung erstellt und die Rechnung kopiert.
-* **Begründung**: Geben Sie einen Text für die Gegenbuchung ein
-* **Stornodatum**: Wenn Sie *Spezifisch* wählen, treffen Sie für das *Rückerstattungsdatum* eine Auswahl
+- **Kreditmethode**:
+  - Teilweise Rückerstattung:
+  - Komplette Rückerstattung: Es wird eine Gegenbuchung erstellt
+  - Komplette Rückerstattung und neuer Rechnungsentwurf: Es wird eine Gegenbuchung erstellt und die Rechnung kopiert.
+- **Begründung**: Geben Sie einen Text für die Gegenbuchung ein
+- **Stornodatum**: Wenn Sie _Spezifisch_ wählen, treffen Sie für das _Rückerstattungsdatum_ eine Auswahl
 
-Schliessen Sie den Vorgang mit *Gutschrift Erstellen* ab.
+Schliessen Sie den Vorgang mit _Gutschrift Erstellen_ ab.
 
 #### Beispiel
 
-Eine Rechnung *Rechn/2023/08/0001* mit dem Betrag CHF 455.00 wurde bezahlt. Jetzt wird sie mit *Gutschrift Erstellen* in die Gutschrift* RRechn/2023/11/0001* umgewandelt und mit  Bestätigen* gebucht.
-Eine neue Rechnung *Rechn/2023/11/0001* vom gleichen Kunden wird erfasst. Der Betrag aus der Gutschrift erscheint als noch *Noch nicht ausgeglichene Zahlungen*:
+Eine Rechnung _Rechn/2023/08/0001_ mit dem Betrag CHF 455.00 wurde bezahlt. Jetzt wird sie mit _Gutschrift Erstellen_ in die Gutschrift* RRechn/2023/11/0001* umgewandelt und mit Bestätigen* gebucht.
+Eine neue Rechnung *Rechn/2023/11/0001* vom gleichen Kunden wird erfasst. Der Betrag aus der Gutschrift erscheint als noch *Noch nicht ausgeglichene Zahlungen\*:
 
 ![](attachments/Rechnungsstellung%20Nicht%20Ausgeglichen.png)
 
-Mit *Hinzufügen* wird der fällige Betrag um den Wert der Gutschrift reduziert:
+Mit _Hinzufügen_ wird der fällige Betrag um den Wert der Gutschrift reduziert:
 
 ![](attachments/Rechnungsstellung%20Bezahlt%20am.png)
 
@@ -114,37 +117,37 @@ Mit *Hinzufügen* wird der fällige Betrag um den Wert der Gutschrift reduziert:
 
 ### Bank hinzufügen
 
-Navigieren Sie nach *Kontakte > Konfiguration > Bankverzeichnis* und erstellen Sie einen neuen Eintrag. Geben Sie den *Namen* der Bank und die *Bankleitzahl* (BIC) ein. Optional können Sie die *Bankadresse* erfassen. 
+Navigieren Sie nach _Kontakte > Konfiguration > Bankverzeichnis_ und erstellen Sie einen neuen Eintrag. Geben Sie den _Namen_ der Bank und die _Bankleitzahl_ (BIC) ein. Optional können Sie die _Bankadresse_ erfassen.
 
 ### Bankkonto erfassen
 
-Navigieren Sie nach *Kontakte > Konfiguration > Bankkonten* und erstellen Sie einen neuen Eintrag. Geben Sie *Kontonummer* (IBAN) und den *Kontoinhaber* ein. Wählen oder erstellen Sie eine Bank im Feld *Bank*.
+Navigieren Sie nach _Kontakte > Konfiguration > Bankkonten_ und erstellen Sie einen neuen Eintrag. Geben Sie _Kontonummer_ (IBAN) und den _Kontoinhaber_ ein. Wählen oder erstellen Sie eine Bank im Feld _Bank_.
 
 ### Bankkonto zu Lieferant hinzufügen
 
-Wählen Sie *Kontakte*  zeigen Sie den Lieferanten in der Formularansicht an. Klicken Sie auf *Bearbeiten* und fügen Sie im Tab *Buchhaltung*  ein Bankkonto hinzu.
+Wählen Sie _Kontakte_ zeigen Sie den Lieferanten in der Formularansicht an. Klicken Sie auf _Bearbeiten_ und fügen Sie im Tab _Buchhaltung_ ein Bankkonto hinzu.
 
 ::: tip
-Der Benutzer muss hierfür die Berechtigung *Kontakt erstellen* haben (Zugriffsrechte > Extra Rights)
+Der Benutzer muss hierfür die Berechtigung _Kontakt erstellen_ haben (Zugriffsrechte > Extra Rights)
 :::
 
 ### Geld schicken für Bankkonto erlauben
 
 Gilt ab #Odoo16.
 
-Damit Lieferanten bezahlt werden können, muss dies explizit auf dem Bankkonto angegeben werden. Zeiten Sie einen Lieferanten unter *Kontakte* an und wählen Sie den den Tab *Buchhaltung* . Bei der Liste der Bankkonten aktivieren Sie die Option *Geld schicken*. 
+Damit Lieferanten bezahlt werden können, muss dies explizit auf dem Bankkonto angegeben werden. Zeiten Sie einen Lieferanten unter _Kontakte_ an und wählen Sie den den Tab _Buchhaltung_ . Bei der Liste der Bankkonten aktivieren Sie die Option _Geld schicken_.
 
 ### Bankkonten anzeigen
 
-Wenn Sie alle erfassten Bankkonten in einer Listen anzeigen möchten, navigieren Sie nach *Kontakte > Konfiguration > Bankkonten*.
+Wenn Sie alle erfassten Bankkonten in einer Listen anzeigen möchten, navigieren Sie nach _Kontakte > Konfiguration > Bankkonten_.
 
 ### Rechnungsadresse ändern
 
-Angenommen Sie möchten die Empfängeradresse einer gebuchten Rechnung ändern, so setzen Sie diese Rechnung mit *Zurücksetzen* in den Entwurfsstatus. Anschliessend können Sie das Feld *Kunde* wieder bearbeiten. Passen Sie die Adresse an und buchen Sie die Rechnung wieder.
+Angenommen Sie möchten die Empfängeradresse einer gebuchten Rechnung ändern, so setzen Sie diese Rechnung mit _Zurücksetzen_ in den Entwurfsstatus. Anschliessend können Sie das Feld _Kunde_ wieder bearbeiten. Passen Sie die Adresse an und buchen Sie die Rechnung wieder.
 
 ### Warnung für den Rechnungskontakt festlegen
 
-Auf Kontakten können Sie Warnungs-Text hinterlegen, welche bei der Ertellung einer Rechnung angezeigt werden. Damit die entprechenden Felder auf dem Kontakt angezeigt werden, müssen Sie in den Benutzer-Einstellungen die Berechtigung *Eine Warnung kann auf einem Partner (Konto) gelegt werden* aktivieren. Unter *Kontakte > Eintrag auswählen > Tab Interne Notizen* finden Sie das entsprechende Feld.
+Auf Kontakten können Sie Warnungs-Text hinterlegen, welche bei der Ertellung einer Rechnung angezeigt werden. Damit die entprechenden Felder auf dem Kontakt angezeigt werden, müssen Sie in den Benutzer-Einstellungen die Berechtigung _Eine Warnung kann auf einem Partner (Konto) gelegt werden_ aktivieren. Unter _Kontakte > Eintrag auswählen > Tab Interne Notizen_ finden Sie das entsprechende Feld.
 
 ![](attachments/Rechnungsstellung%20Warnung.png)
 
@@ -152,45 +155,45 @@ Auf Kontakten können Sie Warnungs-Text hinterlegen, welche bei der Ertellung ei
 
 ### Journal Lieferantenrechnungen anzeigen
 
-Navigieren Sie nach *Rechnungsstellung > Konfiguration > Journale* und zeigen Sie das Journal *Lieferantenrechnungen* an.
+Navigieren Sie nach _Rechnungsstellung > Konfiguration > Journale_ und zeigen Sie das Journal _Lieferantenrechnungen_ an.
 
 ### Eingangsrechnung erfassen
 
-Öffnen Sie *Rechnungsstellung > Lieferanten > Rechnungen* und fügen Sie einen Eintrag hinzu.
+Öffnen Sie _Rechnungsstellung > Lieferanten > Rechnungen_ und fügen Sie einen Eintrag hinzu.
 
 ### Zahlung erfassen
 
-Öffnen Sie *Rechnungsstellung > Lieferanten > Rechnungen* und wählen Sie eine zu bezahlende Rechnung aus. Klicken Sie auf *Zahlung Registrieren*. Im Dialog wählen Sie das *Journal* und die *Zahlungsmethode* aus. Prüfen Sie die Angaben und wählen Sie *Zahlung Erstellen*.
+Öffnen Sie _Rechnungsstellung > Lieferanten > Rechnungen_ und wählen Sie eine zu bezahlende Rechnung aus. Klicken Sie auf _Zahlung Registrieren_. Im Dialog wählen Sie das _Journal_ und die _Zahlungsmethode_ aus. Prüfen Sie die Angaben und wählen Sie _Zahlung Erstellen_.
 
 ### Guthaben für Rechnungsdigitalisierung kaufen
 
 Mit Odoo können PDF-Rechnung einfach gescannt und verarbeitet werden. Die Rechnungsdigitalisierung liest die Zahlungsinformationen aus dem PDF und erstellt eine Lieferantenrechnung.
 
-Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits können als In-App-Purchase (IAP) erworben werden. Klicken Sie auf *Einstellungen > Buchhaltung > Eingangsrechnungen > Guthaben kaufen*. Loggen Sie sich mit dem Odoo-Account ein und erwerben Sie ein IAP-Paket. Die Credits werden an ihrer Datenbank gut geschrieben und fortan steht der Digitalisierungsprozess zur Verfügung.
+Jeder Digitalisierungsvorgang kostet einen Credit. Die benötigten Credits können als In-App-Purchase (IAP) erworben werden. Klicken Sie auf _Einstellungen > Buchhaltung > Eingangsrechnungen > Guthaben kaufen_. Loggen Sie sich mit dem Odoo-Account ein und erwerben Sie ein IAP-Paket. Die Credits werden an ihrer Datenbank gut geschrieben und fortan steht der Digitalisierungsprozess zur Verfügung.
 
 ### Rechnungen digitalisieren
 
-Zur Digitalisierung einer Rechnung laden Sie als erstes die PDF-Datei via *Buchhaltung > Lieferanten > Rechnungen > Hochladen* hoch. Öffnen Sie die Rechnung und starten Sie dann die Aktion *Send for digitalization*. Nach wenigen Sekunden sollte die Rechnungsangaben aus dem PDF ausgelesen und abgefüllt werden.
+Zur Digitalisierung einer Rechnung laden Sie als erstes die PDF-Datei via _Buchhaltung > Lieferanten > Rechnungen > Hochladen_ hoch. Öffnen Sie die Rechnung und starten Sie dann die Aktion _Send for digitalization_. Nach wenigen Sekunden sollte die Rechnungsangaben aus dem PDF ausgelesen und abgefüllt werden.
 
 ![](attachments/Rechnungsstellung%20Rechnung%20digitalisieren.png)
 
-Der Digitalisierungsprozess dauert wenige Sekunden. Sie können den Status mit *Aktualisieren* überprüfen.
+Der Digitalisierungsprozess dauert wenige Sekunden. Sie können den Status mit _Aktualisieren_ überprüfen.
 
 ![](attachments/Rechnungsstellung%20Digitalisierung%20überprüfen.png)
 
 ### Lieferantenrechnung mit Bestellung verknüpfen
 
-Wenn Sie eine Lieferantenrechnung unter *Rechnungsstellung > Lieferanten > Rechnung* haben, können Sie diese mit dem Feld *Autovervollständigung* mit einer Bestellung verknüpfen.
+Wenn Sie eine Lieferantenrechnung unter _Rechnungsstellung > Lieferanten > Rechnung_ haben, können Sie diese mit dem Feld _Autovervollständigung_ mit einer Bestellung verknüpfen.
 
 ## Abstimmung
 
 ### Gutschrift zu Rechnung hinzufügen
 
-Wenn Sie für einen Kunden eine Gutschrift haben, können Sie diese einer offenen Rechnung hinzufügen. Zeigen Sie die offene Rechnung via *Rechnungsstellung > Kunden > Rechnungen* an. Auf der Rechnung erscheint die Meldung:
+Wenn Sie für einen Kunden eine Gutschrift haben, können Sie diese einer offenen Rechnung hinzufügen. Zeigen Sie die offene Rechnung via _Rechnungsstellung > Kunden > Rechnungen_ an. Auf der Rechnung erscheint die Meldung:
 
 > Sie haben ausstehendes Haben für diesen Kunden. Sie können diese zuordnen, um die Rechnung als bezahlt zu kennzeichnen
 
-Am Ende der Rechnung können Sie bei der entsprechenden Gutschrift auf *Hinzufügen* drücken.
+Am Ende der Rechnung können Sie bei der entsprechenden Gutschrift auf _Hinzufügen_ drücken.
 
 ::: warning
 Die Gutschrift und Rechnung müssen den gleichen Kunden haben.
@@ -202,13 +205,13 @@ Die Gutschrift und Rechnung müssen den gleichen Kunden haben.
 
 Für den automatischen Versand von Rechnungen können E-Mail-Vorlagen erstellt werden.
 
-Unter *Einstellungen > Technisch > E-Mail > E-Mail-Vorlagen* können die E-Mail-Vorlagen verwaltet werden. Erstellen Sie ein Duplikat der Vorlage *Invoice: Send by email* und fahren Sie weiter gemäss [E-Mail-Vorlage erfassen](Dialog%20E-Mail.md#E-Mail-Vorlage%20erfassen).
+Unter _Einstellungen > Technisch > E-Mail > E-Mail-Vorlagen_ können die E-Mail-Vorlagen verwaltet werden. Erstellen Sie ein Duplikat der Vorlage _Invoice: Send by email_ und fahren Sie weiter gemäss [E-Mail-Vorlage erfassen](Dialog%20E-Mail.md#E-Mail-Vorlage%20erfassen).
 
 ### Standardvorlage deaktivieren
 
-Zeigen Sie die [Externe ID](Development.md#Externe%20IDs%20anzeigen) für `account.email_template_edi_invoice` an. Geben Sie im Feld *Datensatz-ID* den Wert `0` ein.
+Zeigen Sie die [Externe ID](Development.md#Externe%20IDs%20anzeigen) für `account.email_template_edi_invoice` an. Geben Sie im Feld _Datensatz-ID_ den Wert `0` ein.
 
-Damit wird beim Aufruf der Aktion *Senden & Drucken* auf der Rechnung die Standardvorlage nicht geladen.
+Damit wird beim Aufruf der Aktion _Senden & Drucken_ auf der Rechnung die Standardvorlage nicht geladen.
 
 ## Berichte
 
@@ -216,10 +219,10 @@ Damit wird beim Aufruf der Aktion *Senden & Drucken* auf der Rechnung die Standa
 
 Gilt ab #Odoo16.
 
-Navigieren Sie nach *Rechnungsstellung > Kunden > Rechnungen*. Markieren Sie die entsprechenden Kundenrechnungen und wählen Sie *Aktionen > Print QR invoices*. Nun erstellt Odoo die PDF-Dateien für die ausgewählten Rechnungen.
+Navigieren Sie nach _Rechnungsstellung > Kunden > Rechnungen_. Markieren Sie die entsprechenden Kundenrechnungen und wählen Sie _Aktionen > Print QR invoices_. Nun erstellt Odoo die PDF-Dateien für die ausgewählten Rechnungen.
 
 ::: tip
-Damit die PDF-Datei beim Versenden der Rechnung aus dem Anhang geladen wird, müssen Sie die Aktion [Bericht beim Drucken aus Anhang laden](Development%20Reports.md#Bericht%20beim%20Drucken%20aus%20Anhang%20laden) für den *Rechnungen*-Bericht aktivieren.
+Damit die PDF-Datei beim Versenden der Rechnung aus dem Anhang geladen wird, müssen Sie die Aktion [Bericht beim Drucken aus Anhang laden](Development%20Reports.md#Bericht%20beim%20Drucken%20aus%20Anhang%20laden) für den _Rechnungen_-Bericht aktivieren.
 :::
 
 ### Einzahlungsschein drucken
@@ -228,15 +231,15 @@ Gilt bits #Odoo14.
 
 Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generierung von Einzahlungsscheinen enthalten. Damit Einzahlungsscheine erstellt werden können, müssen die folgenden Bedingungen erfüllt sein:
 
-* Auf dem Bankkonto des Unternehmens muss das Feld `CHF ISR Subscription Number` ausgefüllt sein
+- Auf dem Bankkonto des Unternehmens muss das Feld `CHF ISR Subscription Number` ausgefüllt sein
 
 ![](attachments/Rechnungsstellung%20ESR-Nummern.png)
 
-* Das auf der Rechnung hinterlegte Konto muss mit diesem Unternehmenskonto übereinstimmen
-* Die Rechnung ist im Status *Gebucht*
-* Die Einstellung *Einstellungen > Buchhaltung > Ausgangsrechnungen > Print bank on ISR* ist aktiviert, jedoch nicht dessen Unteroption *Preprinted account*
+- Das auf der Rechnung hinterlegte Konto muss mit diesem Unternehmenskonto übereinstimmen
+- Die Rechnung ist im Status _Gebucht_
+- Die Einstellung _Einstellungen > Buchhaltung > Ausgangsrechnungen > Print bank on ISR_ ist aktiviert, jedoch nicht dessen Unteroption _Preprinted account_
 
-Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die Aktion *Print ISR*.
+Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die Aktion _Print ISR_.
 
 ::: warning
 Damit Einzahlungsscheine für bereits erstellte Rechnungen generiert werden können, muss das erstellte ISR-PDF im Anhang entfernt werden.
@@ -248,13 +251,13 @@ Gilt bits #Odoo14.
 
 Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generierung von QR-Rechnungen enthalten. Damit Einzahlungsscheine erstellt werden können, müssen die folgenden Bedingungen erfüllt sein:
 
-* Der Rechnungsempfänger und Absender müssen eine Schweizer-Adresse haben
-* Das QR-Konto ist auf dem Rechnungskonto eingetragen
-* Die Zahlungsreferenz muss QR-kompatibel sein (Referenz gemäss ISR)
-* Die Rechnung ist im Status *Gebucht*
-* Die Einstellung *Einstellungen > Buchhaltung > Ausgangsrechnungen > Print Swiss QR Code* ist aktiviert (optional)
+- Der Rechnungsempfänger und Absender müssen eine Schweizer-Adresse haben
+- Das QR-Konto ist auf dem Rechnungskonto eingetragen
+- Die Zahlungsreferenz muss QR-kompatibel sein (Referenz gemäss ISR)
+- Die Rechnung ist im Status _Gebucht_
+- Die Einstellung _Einstellungen > Buchhaltung > Ausgangsrechnungen > Print Swiss QR Code_ ist aktiviert (optional)
 
-Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die Aktion *QR-Rechnung Drucken*.
+Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die Aktion _QR-Rechnung Drucken_.
 
 ## Datenbank
 
@@ -262,12 +265,12 @@ Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die A
 
 Damit Frankenbeträge in Rechnungen auf 0.05 gerundet werden, müssen Sie die Bargeldrundung aktivieren.
 
-Navigieren Sie nach *Buchhaltung > Konfiguration > Bargeld-Runden* und erstellen Sie einen neuen Eintrag wie folgt:
+Navigieren Sie nach _Buchhaltung > Konfiguration > Bargeld-Runden_ und erstellen Sie einen neuen Eintrag wie folgt:
 
-* **Name**: CHF auf 0.05
-* **Rundungsgenauigkeit**: 0.05
-* **Rundungsstrategie**: Steuerbetrag bearbeiten
-* **Rundungsverfahren**: HALF-UP
+- **Name**: CHF auf 0.05
+- **Rundungsgenauigkeit**: 0.05
+- **Rundungsstrategie**: Steuerbetrag bearbeiten
+- **Rundungsverfahren**: HALF-UP
 
 Wenn Sie eine neue Rechnung schreiben und die Rundungsmethode festgelegt ist, werden die Beiträge entsprechend gerundet.
 
@@ -275,7 +278,7 @@ Wenn Sie eine neue Rechnung schreiben und die Rundungsmethode festgelegt ist, we
 
 ### Fakturierungsregel festlegen
 
-Für jedes Produkt können Sie definieren, ob es nach der Lieferung oder nach der Bestellung verrechnet werden soll. Navigieren Sie nach *Rechnungsstellung > Produkte > Produkte* und zeigen Sie ein Produkt an. Im Feld *Fakturierungsregel* können Sie bestimmen Sie Verrechnungsart bestimmen.
+Für jedes Produkt können Sie definieren, ob es nach der Lieferung oder nach der Bestellung verrechnet werden soll. Navigieren Sie nach _Rechnungsstellung > Produkte > Produkte_ und zeigen Sie ein Produkt an. Im Feld _Fakturierungsregel_ können Sie bestimmen Sie Verrechnungsart bestimmen.
 
 ![](attachments/eCommerce%20Fakturierungsregel%20auf%20Produkt.png)
 
@@ -287,7 +290,7 @@ Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzu
 
 Im folgenden Beispiel werden ausgewählte Rechnungen nur für eine bestimmte Gruppe angezeigt.
 
-Legen Sie auf dem Datenmodell diese *Datensatzregeln* fest:
+Legen Sie auf dem Datenmodell diese _Datensatzregeln_ fest:
 
 **Name**: Invoicing Confidential\
 **Gruppen**: Interne Benutzer\

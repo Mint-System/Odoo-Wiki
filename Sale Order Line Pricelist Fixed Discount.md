@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale
 ---
+
 # Sale Order Line Pricelist Fixed Discount
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -26,7 +28,7 @@ Damit diese Erweiterung korrekt funktioniert müssen Sie [Erweiterte Preisregeln
 
 Diese Erweiterung filter die verfügbaren Rabatte anhander der folgenden Merkmale aus der Preisliste:
 
-* **Produkt**: Das Produkt der Auftragszeile ist in der Auswahlmöglichkeit der Preisregel enthalten.
-* **Datum**: Preisregeln mit aktiver Periode (Start- und Enddatum) übersteuern Preisregeln ohne Periode
-* **Mindestmenge**: Preisregeln mit passender Mindestmenge übersteuern Preisregeln ohne Mindestmenge
-* **Sortierung**: Preisregeln werden gemäss Sortierung auf der Preisliste geladen, ausser bei mehreren Mindestmengen wird nach der grössten Mindestmenge sortiert
+- **Produkt**: Das Produkt der Auftragszeile ist in der Auswahlmöglichkeit der Preisregel enthalten.
+- **Datum**: Preisregeln mit aktiver Periode (Start- und Enddatum) übersteuern Preisregeln ohne Periode
+- **Mindestmenge**: Preisregeln mit passender Mindestmenge übersteuern Preisregeln ohne Mindestmenge
+- **Sortierung**: Preisregeln werden gemäss Sortierung auf der Preisliste geladen, ausser bei mehreren Mindestmengen wird nach der grössten Mindestmenge sortiert

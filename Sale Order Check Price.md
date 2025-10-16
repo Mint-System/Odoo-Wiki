@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./sale
 ---
+
 # Sale Order Check Price
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}

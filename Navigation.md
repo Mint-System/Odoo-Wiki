@@ -3,8 +3,11 @@ title: Navigation
 description: Navigation in der Benutzeroberfläche von Odoo.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
+
 # Navigation
+
 ![icons_odoo_website_partner](attachments/icons_odoo_website_partner.png)
 
 {{ $frontmatter.description }}
@@ -23,7 +26,7 @@ Die Smart-Links erlauben einen direkten Wechsel zu verknüpften Dokumenten und A
 
 ![](attachments/Navigation%20Smart-Links.png)
 
-Klicken Sie auf *Zeiterfassung* werden alle Zeiterfassungs-Einträge des Projekts dargestellt.
+Klicken Sie auf _Zeiterfassung_ werden alle Zeiterfassungs-Einträge des Projekts dargestellt.
 
 ### Mit Links navigieren
 
@@ -49,20 +52,19 @@ Standardmässig zeigt Odoo 80 Einträge auf einer Listenseite an. Diese Einstell
 
 Odoo merkt sich die Einstellungen für ihren Benutzer und zeigt beim Aufruf der Listenansicht die Spalten wie gewählt an.
 
-
 ### Einträge archivieren
 
-Bestimmte Einträge wie Kontakte oder Produkte können archiviert und so ausgeblendet werden. Um Einträge zu archivieren, rufen Sie die entsprechende Listen-Ansicht auf und wählen *Aktion > Archivieren*. 
+Bestimmte Einträge wie Kontakte oder Produkte können archiviert und so ausgeblendet werden. Um Einträge zu archivieren, rufen Sie die entsprechende Listen-Ansicht auf und wählen _Aktion > Archivieren_.
 
 ### Archivierte Einträge anzeigen
 
-Bestimmte Einträge wie Kontakte oder Produkte können archiviert und so ausgeblendet werden. Um die archivierten Einträge anzuzeigen rufen Sie die entsprechende Listen-Ansicht auf und wählen *Filter > Archiviert*. Es werden alle archivierten Einträge angezeigt.
+Bestimmte Einträge wie Kontakte oder Produkte können archiviert und so ausgeblendet werden. Um die archivierten Einträge anzuzeigen rufen Sie die entsprechende Listen-Ansicht auf und wählen _Filter > Archiviert_. Es werden alle archivierten Einträge angezeigt.
 
 ![](attachments/Navigation%20Archivierte%20Einträge.png)
 
 ### Archivieren Einträge wiederherstellen
 
-Wenn Sie [Archivierte Einträge anzeigen](#Archivierte%20Einträge%20anzeigen) können Sie mit *Aktion > Archivierung aufheben* die Archivierung des gewählten Eintrags rückgängi machen.
+Wenn Sie [Archivierte Einträge anzeigen](#Archivierte%20Einträge%20anzeigen) können Sie mit _Aktion > Archivierung aufheben_ die Archivierung des gewählten Eintrags rückgängi machen.
 
 ## Dashboard
 

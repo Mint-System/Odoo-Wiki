@@ -5,6 +5,7 @@ kind: howto
 partner: Mint-System
 prev: ./website-e-commerce
 ---
+
 # Website Shop Coupons
 
 ![](attachments/icon_website_discount_voucher.png)
@@ -19,13 +20,13 @@ Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/website_discount_vouche
 
 ### Promo-Code einrichten
 
-Navigieren Sie nach *Website > Produkte > Produkte* und erstellen Sie ein neues Produkt vom Type Dienstleistung.
+Navigieren Sie nach _Website > Produkte > Produkte_ und erstellen Sie ein neues Produkt vom Type Dienstleistung.
 
 ![](attachments/Website%20Coupons%20&%20Vouchers%20in%20Odoo%20Shop%20ProdScreenshot%20from%202022-04-19%2016-49-14ukt.png)
 
-Setzen Sie das Häckchen bei *Coupon Product*.
+Setzen Sie das Häckchen bei _Coupon Product_.
 
-Öffnen Sie nun die *Website > Geschenkarten und Promo-Codes* und erstellen Sie einen neuen Eintrag.
+Öffnen Sie nun die _Website > Geschenkarten und Promo-Codes_ und erstellen Sie einen neuen Eintrag.
 
 ![](attachments/Website%20Coupons%20&%20Vouchers%20in%20Odoo%20Shop%20Promo-Code.png)
 

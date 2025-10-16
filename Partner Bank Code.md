@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./contacts
 ---
+
 # Partner Bank Code
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,13 +19,13 @@ Repository: <https://github.com/OCA/partner-contact/tree/16.0/partner_bank_code>
 
 ### Eindeutige Nummer auf Bank festlegen.
 
-Navigieren Sie nach *Kontakte > Konfiguration > Bankverzeichnis* und zeigen Sie einen Eintrag an. Im Feld *Bank Code* können Sie eine eindeutige Nummer, beispielsweise die *SIC*,  hinterlegen.
+Navigieren Sie nach _Kontakte > Konfiguration > Bankverzeichnis_ und zeigen Sie einen Eintrag an. Im Feld _Bank Code_ können Sie eine eindeutige Nummer, beispielsweise die _SIC_, hinterlegen.
 
 ## Aktionen
 
 ### Bank verknüpfen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Bank verknüpfen`\
 Modell: `res.partner.bank`\
@@ -38,15 +40,15 @@ Python-Code:
 	    rec['bank_id'] = bank.id
 ```
 
-Die Aktion speichern und mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen.
+Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
 ## Automatisierte Aktionen
 
 ### Bankkonto mit Bank verknüpfen
 
-Mit dieser Aktion versucht Odoo anhand des *Bank Code* in der IBAN eine passende Bank im Bank-Verzeichnis zu finden.
+Mit dieser Aktion versucht Odoo anhand des _Bank Code_ in der IBAN eine passende Bank im Bank-Verzeichnis zu finden.
 
-Erstellen Sie unter *Einstellungen > Technisch > Automation > Automatisierte Aktionen* einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Bankkonto mit Bank verknüpfen`\
 Modell: `res.partner.bank`\

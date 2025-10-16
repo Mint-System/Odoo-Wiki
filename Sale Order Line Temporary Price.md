@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale
 ---
+
 # Sale Order Line Temporary Price
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sa
 
 ### Benutzerdefinierter Preis festlegen
 
-Wählen Sie unter *Verkauf* ein Angebot aus. In der Tabelle der Auftragszeilen zeigen Sie das Feld *Benutzerdefinierter Preis* an. Geben Sie einen neuen Preis.
+Wählen Sie unter _Verkauf_ ein Angebot aus. In der Tabelle der Auftragszeilen zeigen Sie das Feld _Benutzerdefinierter Preis_ an. Geben Sie einen neuen Preis.

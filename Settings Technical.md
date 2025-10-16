@@ -4,7 +4,9 @@ description: Technische Einstellungen zur Odoo-Datenbank.
 kind: howto
 prev: ./settings
 ---
+
 # Einstellungen Technisch
+
 ![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 {{ $frontmatter.description }}
@@ -13,6 +15,6 @@ prev: ./settings
 
 ### Dezimalstellen festlegen
 
-Zeigen Sie die Liste *Einstellungen > Technisch > Datenbankstruktur > Dezimalstellen* an.
+Zeigen Sie die Liste _Einstellungen > Technisch > Datenbankstruktur > Dezimalstellen_ an.
 
 ![](attachments/Einstellungen%20Technisch%20Dezimalstellen.png)

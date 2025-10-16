@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./manufacture
 ---
+
 # MRP Production Assign Lot
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,11 +19,11 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/16.0/mrp_
 
 ### Vorgangstypen und Komponenten für Los-Zuweisung vorbereiten
 
-Mit dieser Erweiterung können Lot-Nummern aus Wareneingängen und Fertigungsaufträgen an unreservierte Komponenten zugewiesen werden. Setzen Sie die Option *Benutze vorhandene Los/Seriennummer* bei Vorgangstypen  vom Typ *Wareneingang* unter *Lager > Konfiguration > Vorgangstypen*. Damit können Sie auf Anlieferungen die Los-Nummer direkt festlegen:
+Mit dieser Erweiterung können Lot-Nummern aus Wareneingängen und Fertigungsaufträgen an unreservierte Komponenten zugewiesen werden. Setzen Sie die Option _Benutze vorhandene Los/Seriennummer_ bei Vorgangstypen vom Typ _Wareneingang_ unter _Lager > Konfiguration > Vorgangstypen_. Damit können Sie auf Anlieferungen die Los-Nummer direkt festlegen:
 
 ![](attachments/MRP%20Production%20Assign%20Lot%20Wareneingang.png)
 
-Auf den Komponenten muss die Option *Nachverfolgung mittels Chargen* aktiviert sein. Gibt es einen Fertigungsauftrag mit einer erwarteten Lieferung, können Sie nun die Charge zuweisen lassen und die Lagerbuchung der Komponente als zugewiesen markieren.
+Auf den Komponenten muss die Option _Nachverfolgung mittels Chargen_ aktiviert sein. Gibt es einen Fertigungsauftrag mit einer erwarteten Lieferung, können Sie nun die Charge zuweisen lassen und die Lagerbuchung der Komponente als zugewiesen markieren.
 
 ![](attachments/MRP%20Production%20Assign%20Lot%20Fertigungsauftrag.png)
 
@@ -29,7 +31,7 @@ Auf den Komponenten muss die Option *Nachverfolgung mittels Chargen* aktiviert s
 
 ### Los zuweisen
 
-Mit dieser Erweiterung finden Sie auf Fertigungsaufträgen die Aktion *Los zuweisen*. Damit können Sie an jeder unreservierten Zeile eine Los-Nummer aus dem Wareneingang zuweisen.
+Mit dieser Erweiterung finden Sie auf Fertigungsaufträgen die Aktion _Los zuweisen_. Damit können Sie an jeder unreservierten Zeile eine Los-Nummer aus dem Wareneingang zuweisen.
 
 ![MRP Production Assign Lot](attachments/MRP%20Production%20Assign%20Lot.gif)
 

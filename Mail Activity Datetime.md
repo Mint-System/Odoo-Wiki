@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./dialog
 ---
+
 # Mail Activity Datetime
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_acti
 
 ### Aktivitäte mit Datum und Uhrzeit terminieren
 
-Wenn Sie eine Aktivität erstellen können Sie auf dem Feld *Fälligkeit* die Uhrzeit festlegen.
+Wenn Sie eine Aktivität erstellen können Sie auf dem Feld _Fälligkeit_ die Uhrzeit festlegen.
 
 ::: warning
 Technisch handelt sich um ein neues Feld `date_deadline_time`. Auf Kanban- und Listenansichten von `mail.activity` muss eine Anpassungen vorgenommen werden, damit das Feld angezeigt wird.

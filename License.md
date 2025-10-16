@@ -3,8 +3,11 @@ title: Lizenz
 description: Software verkaufen und lizenzieren
 kind: howto
 prev: ./
+partner: Mint-System
 ---
+
 # Lizenz
+
 ![odoo_icons_license](attachments/odoo_icons_license.png)
 
 {{ $frontmatter.description }}
@@ -21,6 +24,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-SaaS/tree/16.0/li
 | [License Subscription](License%20Subscription.md)   | Lizenzen mit Abonnementen erneuern.                             |
 | [License Website Sale](License%20Website%20Sale.md) | Im Webshop gekaufte Lizenzen aktivieren.                        |
 | [License Website](License%20Website.md)             | Kundenportal zur Lizenzverwaltung.                              |
+| [[License Partner Comission]]                       |                                                                 |
 
 ## Beschreibung
 
@@ -41,13 +45,13 @@ flowchart TD
 
 ### Lizenztyp erfassen
 
-Navigieren Sie nach *Lizenz > Konfigurationen > Lizenztyp* und erstellen Sie einen neuen Eintrag. Den *Lizenztyp* können Sie Lizenzen und Lizenzprodukten zuordnen.
+Navigieren Sie nach _Lizenz > Konfigurationen > Lizenztyp_ und erstellen Sie einen neuen Eintrag. Den _Lizenztyp_ können Sie Lizenzen und Lizenzprodukten zuordnen.
 
 ## Verwendung
 
 ### Lizenz erstellen
 
-Zeigen Sie *Lizenzen* an und erstellen Sie einen neuen Eintrag. Wählen Sie einen *Partner* aus und speichern Sie den neuen Eintrag. Es wird ein Lizenzname und ein Schlüssel generiert.
+Zeigen Sie _Lizenzen_ an und erstellen Sie einen neuen Eintrag. Wählen Sie einen _Partner_ aus und speichern Sie den neuen Eintrag. Es wird ein Lizenzname und ein Schlüssel generiert.
 
 ::: tip
 Sie können auch einen benutzerdefinierten Lizenznamen und Schlüssel vergeben.
@@ -57,38 +61,38 @@ Sie können auch einen benutzerdefinierten Lizenznamen und Schlüssel vergeben.
 
 ### Lizenz abbrechen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lizenz abbrechen`\
 Modell: `license.license`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for rec in records:
   rec.action_cancel()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Lizenzen können Sie die Einträge markieren und *Aktionen > Lizenz abbrechen* auswählen.
+In der Liste der Lizenzen können Sie die Einträge markieren und _Aktionen > Lizenz abbrechen_ auswählen.
 
 ### Lizenz aktivieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lizenz aktivieren`\
 Modell: `license.license`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for rec in records:
   rec.action_activate()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Liste der Lizenzen können Sie die Einträge markieren und *Aktionen > Lizenz aktivieren* auswählen.
+In der Liste der Lizenzen können Sie die Einträge markieren und _Aktionen > Lizenz aktivieren_ auswählen.

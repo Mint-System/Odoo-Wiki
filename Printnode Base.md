@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./iot
 ---
+
 # Odoo Direct Print
+
 ![](attachments/icons_odoo_printnode_base.png)
 
 {{ $frontmatter.description }}
@@ -19,13 +21,13 @@ Video: [Odoo Experience 2021 - Automating Direct Printing](https://www.youtube.c
 
 ### PrintNode API Key generieren
 
-Loggen Sie sich unter <https://app.printnode.com/app/apikeys> ein. Geben Sie die URL der Odoo-Instanz ein und wählen Sie *Create*.
+Loggen Sie sich unter <https://app.printnode.com/app/apikeys> ein. Geben Sie die URL der Odoo-Instanz ein und wählen Sie _Create_.
 
 ![](attachments/Odoo%20Direct%20Print%20Generate%20API%20Key.png)
 
 ### API Key in Odoo einfügen
 
-Unter *Einstellungen > Direct Print > Account* müssen Sie den *API Key*, den Sie von <https://app.printnode.com/app/apikeys> erhalten haben, eintragen.
+Unter _Einstellungen > Direct Print > Account_ müssen Sie den _API Key_, den Sie von <https://app.printnode.com/app/apikeys> erhalten haben, eintragen.
 
 ![](attachments/Odoo%20Direct%20Print%20Key%20einfügen.png)
 
@@ -33,7 +35,7 @@ Unter *Einstellungen > Direct Print > Account* müssen Sie den *API Key*, den Si
 
 Öffnen Sie <https://app.printnode.com/app/downloads> und installieren die den Client für ihr Betriebssystem.
 
-Starten Sie den *PrintNode* Client und loggen Sie sich mit dem PrintNode-Account ein.
+Starten Sie den _PrintNode_ Client und loggen Sie sich mit dem PrintNode-Account ein.
 
 ![](attachments/PrintNode%20Sign%20In.png)
 
@@ -55,7 +57,7 @@ Einmal konfiguriert wird der Drucker im PrintNode Client angezeigt:
 
 ### Direktes Drucken aktivieren
 
-Damit Druckaufträge mit PrintNode gerduckt werden können, muss dies explizit festgelegt werden. Öffnen Sie *Einstellungen > Direct Print* und aktivieren Sie die Option *Print via Direct Print*.
+Damit Druckaufträge mit PrintNode gerduckt werden können, muss dies explizit festgelegt werden. Öffnen Sie _Einstellungen > Direct Print_ und aktivieren Sie die Option _Print via Direct Print_.
 
 Wurde entweder ein globaler Standarddrucker festegelegt oder ein Standarddrucker auf dem dem Benutzer (siehe [Direktes Drucken für Benutzer einrichten](#Direktes%20Drucken%20für%20Benutzer%20einrichten)), dann erscheint bei druckbaren Objekten das folgende Aktions-Menu:
 
@@ -63,17 +65,17 @@ Wurde entweder ein globaler Standarddrucker festegelegt oder ein Standarddrucker
 
 ### Drucker in Odoo anzeigen
 
-Zeigen Sie *Direct Print > Configuration > Printers* an. Hier werden alle verfügbaren Drucker aufgelistet.
+Zeigen Sie _Direct Print > Configuration > Printers_ an. Hier werden alle verfügbaren Drucker aufgelistet.
 
 ![](attachments/Odoo%20Direct%20Print%20Beispiel.png)
 
-Mit der Aktion *Einstellungen > Direct Print > Import Printers* werden die auf PrintNode verfügbaren Drucker importiert.
+Mit der Aktion _Einstellungen > Direct Print > Import Printers_ werden die auf PrintNode verfügbaren Drucker importiert.
 
 ## Testen
 
 ### PrintNode App Testseite drucken
 
-Loggin Sie sich auf <https://app.printnode.com> ein und wählen Sie *Print something*. Wählen Sie eine Quelle, Drucker und die Testseite aus und erstellen Sie einen Druckauftrag mit *Print*.
+Loggin Sie sich auf <https://app.printnode.com> ein und wählen Sie _Print something_. Wählen Sie eine Quelle, Drucker und die Testseite aus und erstellen Sie einen Druckauftrag mit _Print_.
 
 ![](attachments/Odoo%20Direct%20Print%20Testseite%20drucken.png)
 
@@ -81,46 +83,46 @@ Loggin Sie sich auf <https://app.printnode.com> ein und wählen Sie *Print somet
 
 ### Methode erfassen
 
-Navigieren Sie nach *Direct Print > Configuration > Methods* und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel für den Abschluss von Fertigungsaufträgen:
+Navigieren Sie nach _Direct Print > Configuration > Methods_ und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel für den Abschluss von Fertigungsaufträgen:
 
-* **Model**: `mrp.workorder`
-* **Name**: Weiterfahren
-* **Method**: `action_open_manufacturing_order`
+- **Model**: `mrp.workorder`
+- **Name**: Weiterfahren
+- **Method**: `action_open_manufacturing_order`
 
 ### Druck-Aktion erstellen
 
-Wenn Sie beispielsweise beim Abschliessen eines Fertigungsauftrags einen Bericht drucken möchten, müssen Sie dazu eine Druck-Aktion erfassen. Zeigen Sie *Direct Print > Print Action Buttons* an und erstellen Sie den folgenden Eintrag:
+Wenn Sie beispielsweise beim Abschliessen eines Fertigungsauftrags einen Bericht drucken möchten, müssen Sie dazu eine Druck-Aktion erfassen. Zeigen Sie _Direct Print > Print Action Buttons_ an und erstellen Sie den folgenden Eintrag:
 
-* **Model**: `mrp.workorder`
-* **Method ID**: Weiterfahren (siehe [Methode erfassen](#Methode%20erfassen))
-* **Description**: Print product labels when workorder is continued
-* **Report**: Wählen Sie den Bericht aus.
+- **Model**: `mrp.workorder`
+- **Method ID**: Weiterfahren (siehe [Methode erfassen](#Methode%20erfassen))
+- **Description**: Print product labels when workorder is continued
+- **Report**: Wählen Sie den Bericht aus.
 
 ### Druckszenario aktivieren
 
 ::: warning
-Für den aktuellen Benutzer muss die Option *Print via Direct Print* aktiviert sein.
+Für den aktuellen Benutzer muss die Option _Print via Direct Print_ aktiviert sein.
 :::
 
-Odoo Direct Print stellt gängige Druckszenarios unter *Direct Print > Print Scenarios* zur Verfüng. Aktivieren Sie ein Senario mit einem Klick auf *Active* und wählen Sie einen Drucker aus.
+Odoo Direct Print stellt gängige Druckszenarios unter _Direct Print > Print Scenarios_ zur Verfüng. Aktivieren Sie ein Senario mit einem Klick auf _Active_ und wählen Sie einen Drucker aus.
 
 ![](attachments/Odoo%20Direct%20Print%20Szenario%20aktiviert.png)
 
 ### Druck-Aktion aktivieren
 
 ::: warning
-Für den aktuellen Benutzer muss die Option *Print via Direct Print* aktiviert sein.
+Für den aktuellen Benutzer muss die Option _Print via Direct Print_ aktiviert sein.
 :::
 
-Mit Odoo Direct Print können Druckaktionen ganz einfach hinzugefügt werden. Öffnen Sie die Ansicht *Direct Print > Print Action Buttons*. Aktivieren Sie eine Aktion mit einem Klick auf *Active* und wählen Sie einen Drucker aus.
+Mit Odoo Direct Print können Druckaktionen ganz einfach hinzugefügt werden. Öffnen Sie die Ansicht _Direct Print > Print Action Buttons_. Aktivieren Sie eine Aktion mit einem Klick auf _Active_ und wählen Sie einen Drucker aus.
 
 ![](attachments/Odoo%20Direct%20Print%20Buttons.png)
 
-In diesem Beispiel wird der Lieferschein ausgedruck, sobald auf einem Lieferschein der Knopf *Bestätigen* gedrückt wurde.
+In diesem Beispiel wird der Lieferschein ausgedruck, sobald auf einem Lieferschein der Knopf _Bestätigen_ gedrückt wurde.
 
 ### Produktlabel von Lieferauftrag drucken
 
-Öffnen Sie eine Lieferung via *Lager > Lieferaufträge > Lieferauftrag auswählen* und klicken Sie auf *Aktionen > Print Product Labels*
+Öffnen Sie eine Lieferung via _Lager > Lieferaufträge > Lieferauftrag auswählen_ und klicken Sie auf _Aktionen > Print Product Labels_
 
 ![](attachments/Odoo%20Direct%20Print%20Producut%20LAbels.png)
 
@@ -130,19 +132,19 @@ Beachten Sie dass der Druckvorgang einige Sekunden in Anspruch nimmt.
 
 ### Packvorgang/Lieferschein automatisch drucken
 
-Mit Druck-Senarien können Sie Druckvorgänge automatisieren. Damit der Packvorgang nach der Bestätigung eines Verkaufsauftrags automatisch gedruckt wird, navigieren Sie als erstes nach *Direct Print > Print Scenarios*. Aktivieren Sie die Zeile *Print Picking Document after Sales Order Confirmation*.
+Mit Druck-Senarien können Sie Druckvorgänge automatisieren. Damit der Packvorgang nach der Bestätigung eines Verkaufsauftrags automatisch gedruckt wird, navigieren Sie als erstes nach _Direct Print > Print Scenarios_. Aktivieren Sie die Zeile _Print Picking Document after Sales Order Confirmation_.
 
-Für das automatische Drucken das Lieferschein aktivieren Sie die Zeile *Print document on Backorder (created after Transfer validation*.
+Für das automatische Drucken das Lieferschein aktivieren Sie die Zeile _Print document on Backorder (created after Transfer validation_.
 
 ## Einstellungen
 
 ### Direktes Drucken für Benutzer einrichten
 
-Für das direkte Drucken kann dem Benutzer ein Standarddrucker zugewiesen werden. Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Benutzer > Benutzer auswählen > Tab Einstellungen* und legen Sie im Abschnitt *Print* die Standarddrucker fest. Mit der Option *Print via Direct Print* wird das direkte Drucken aktiviert.
+Für das direkte Drucken kann dem Benutzer ein Standarddrucker zugewiesen werden. Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Benutzer > Benutzer auswählen > Tab Einstellungen_ und legen Sie im Abschnitt _Print_ die Standarddrucker fest. Mit der Option _Print via Direct Print_ wird das direkte Drucken aktiviert.
 
 ### Standarddrucker für Bericht festlegen
 
-Unter *Direct Print > Print Report Policy > User Rules* können Sie für jeden Benutzer den Standarddrucker für einen bestimmten Bericht festlegen. Erstellen Sie dazu einen Eintrag, wählen Sie den Benutzer, Drucker und Bericht aus.
+Unter _Direct Print > Print Report Policy > User Rules_ können Sie für jeden Benutzer den Standarddrucker für einen bestimmten Bericht festlegen. Erstellen Sie dazu einen Eintrag, wählen Sie den Benutzer, Drucker und Bericht aus.
 
 ![](attachments/Odoo%20Direct%20Print%20Default%20Printer.png)
 
@@ -150,19 +152,19 @@ Unter *Direct Print > Print Report Policy > User Rules* können Sie für jeden B
 
 ### Papierformat anlegen
 
-Unter *Direct Print > Configuration > Papers* können Sie Papierformat für Bericht hinterlegen.
+Unter _Direct Print > Configuration > Papers_ können Sie Papierformat für Bericht hinterlegen.
 
 ![](attachments/Odoo%20Direct%20Print%20Papers.png)
 
 ### Papiefromat für Drucker festlegen
 
-Erstellen Sie unter *Direct Print > Print Report Policy > Printer Settings* einen Eintrag für ihren Drucker.
+Erstellen Sie unter _Direct Print > Print Report Policy > Printer Settings_ einen Eintrag für ihren Drucker.
 
 ![](attachments/Odoo%20Direct%20Print%20Printer%20Settings.png)
 
 ### Papieformat für Bericht festlegen
 
-Erstellen Sie unter *Direct Print > Print Report Policy > Report Settings* einen Eintrag für ihren Bericht.
+Erstellen Sie unter _Direct Print > Print Report Policy > Report Settings_ einen Eintrag für ihren Bericht.
 
 ::: tip
 Odoo Direct Print gibt eine Warnung aus, wenn das Papieformat nicht mit dem verknüpften Drucker übereinstimmt.
@@ -172,7 +174,7 @@ Odoo Direct Print gibt eine Warnung aus, wenn das Papieformat nicht mit dem verk
 
 ### Produktetiketten drucken
 
-Auf Transfers *Lager > Vorgänge > Transfers* können Sie eine bestimmte Anzahl Produktetiketten drucken. Öffnen Sie einen Transfer und wählen Sie *Aktionen > Print Product Labels*. Im Dialog wählen Sie den Bericht aus, bestimmen die Produkte und Anzahl der Etiketten, die Sie drucken möchten, wählen den Drucker aus und führen den Vorgang mit *Print* aus.
+Auf Transfers _Lager > Vorgänge > Transfers_ können Sie eine bestimmte Anzahl Produktetiketten drucken. Öffnen Sie einen Transfer und wählen Sie _Aktionen > Print Product Labels_. Im Dialog wählen Sie den Bericht aus, bestimmen die Produkte und Anzahl der Etiketten, die Sie drucken möchten, wählen den Drucker aus und führen den Vorgang mit _Print_ aus.
 
 ![](attachments/Odoo%20Direct%20Print%20Print%20Product%20Labels.png)
 
@@ -180,7 +182,7 @@ Auf Transfers *Lager > Vorgänge > Transfers* können Sie eine bestimmte Anzahl 
 
 ### Rüstschein drucken
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Rüstschein drucken`\
 Modell: `ir.actions.server`\
@@ -189,7 +191,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 07:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 ## Get deliveries due in 3 days
@@ -230,7 +232,7 @@ picking_ids.write({'printed': True})
 
 ### Print Scenario Datum aktualisieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Print Scenario Datum aktualisieren`\
 Modell: `ir.actions.server`\
@@ -239,7 +241,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 05:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 printnode_scenario = env.ref("printnode_base.print_picking_document_after_so_confirmation_scenario")
@@ -281,4 +283,4 @@ Aufgrund der Methode muss der Druckauftrag vor Ausführung der Methode ausgelös
 
 **Lösung**
 
-Auf der entsprechenden Methode die Option *Print before action* aktivieren.
+Auf der entsprechenden Methode die Option _Print before action_ aktivieren.

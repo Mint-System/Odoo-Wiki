@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./sale-blanket-order
 ---
+
 # Sale Blanket Order Invoice Shipping Partner
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -22,5 +24,5 @@ Mit dieser Erweiterungen können Sie auf einem Rahmenauftrag eine Liefer- und Re
 ![Sale Blanket Order Invoice Shipping Partner](attachments/Sale%20Blanket%20Order%20Invoice%20Shipping%20Partner.gif)
 
 ::: warning
-Voraussetzung zum Anzeigen der neuen Adressen ist die Berechtigung *Adressen in Aufträgen*.
+Voraussetzung zum Anzeigen der neuen Adressen ist die Berechtigung _Adressen in Aufträgen_.
 :::

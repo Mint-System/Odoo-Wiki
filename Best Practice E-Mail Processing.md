@@ -4,6 +4,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # E-Mail Verarbeitung
 
 ## Allgemein
@@ -14,11 +15,11 @@ Auf bestimmten Odoo-Objekten können Sie E-Mail-Adressen einrichten. Wenn E-Mail
 
 Odoo koordiniert die Kommunikation zwischen Dokumenten und den E-Mail-Empfängen mit Headern im E-Mail. Dazu die wichtigsten:
 
-* **reply-to**: Antworten an den E-Mail-Absender werden an diese Adresse umgeleitet. Es handelt sich um die sog. Catchall-Adresse.
-* **from**: Normalerweise der/die BenutzerIn, welche die E-Mail verschickt hat.
-* **x-odoo-objects**: Eindeutige Referenz auf das Dokument.
+- **reply-to**: Antworten an den E-Mail-Absender werden an diese Adresse umgeleitet. Es handelt sich um die sog. Catchall-Adresse.
+- **from**: Normalerweise der/die BenutzerIn, welche die E-Mail verschickt hat.
+- **x-odoo-objects**: Eindeutige Referenz auf das Dokument.
 
- Dazu ein Beispiel:
+Dazu ein Beispiel:
 
 ![](attachments/Infomaniak%20Kopfzeilen.png)
 
@@ -30,4 +31,3 @@ Es macht Sinn, dass man Rechnungen per E-Mail empfangen kann. Dazu braucht es zw
 Zweitens muss man [Rechnung per E-Mail empfangen](Accounting.md#Rechnung%20per%20E-Mail%20empfangen) einrichten.
 
 Wenn alles eingerichtet ist, können Sie mit [Verarbeiten von eingehenden E-Mails ausführen](Dialog%20E-Mail.md#Verarbeiten%20von%20eingehenden%20E-Mails%20ausführen) den Abruf der E-Mails anstossen.
-

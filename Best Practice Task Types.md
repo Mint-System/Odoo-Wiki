@@ -4,6 +4,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Aufgabenphasen
 
 Aufgabenphasen sind die Stufen, die eine Projektaufgabe von der Erstellung bis zur Erledigung durchläuft. Jedes Odoo-Projekt kann gemeinsame oder verschiedene Aufgabenphasen haben.
@@ -16,11 +17,11 @@ Wenn Sie ein [Projekt aus Projektvorlage erstellen](Project%20Template.md#Projek
 
 Als Orientierung zur Definition der Aufgabenphasen wurd
 
-* **Backlog 🎒**: Hier werden alle Aufgaben gesammelt und verifiziert. Die Aufgaben werden noch keiner Person zugewiesen.
-* **Bereit 🏁**: Die Aufgabe ist zur Bearbeitung bereit und kann zugewiesen werden.
-* **In Arbeit 🧑‍💻**: Die Aufgabe ist in Bearbeitung.
-* **Feedback 💬**: Die Aufgabe wurde erledigt und wird von einer dritten Person validiert.
-* **Erledigt ✅**: Die Aufgabe ist erledigt und kann archiviert werden.
-* **Postlog ♻️**: Aufgaben in dieser Stufe sind nie erledigt und werden fortlaufen bearbeitet, beispielsweise Projektadministration oder Kulanzleistungen.
+- **Backlog 🎒**: Hier werden alle Aufgaben gesammelt und verifiziert. Die Aufgaben werden noch keiner Person zugewiesen.
+- **Bereit 🏁**: Die Aufgabe ist zur Bearbeitung bereit und kann zugewiesen werden.
+- **In Arbeit 🧑‍💻**: Die Aufgabe ist in Bearbeitung.
+- **Feedback 💬**: Die Aufgabe wurde erledigt und wird von einer dritten Person validiert.
+- **Erledigt ✅**: Die Aufgabe ist erledigt und kann archiviert werden.
+- **Postlog ♻️**: Aufgaben in dieser Stufe sind nie erledigt und werden fortlaufen bearbeitet, beispielsweise Projektadministration oder Kulanzleistungen.
 
 Für jedes Projekt und Projektvorlage können die Stufen angepasst werden. Einheitliche Aufgabenphase für alle Projekte werden empfohlen.

@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./project
 ---
+
 # Project Task Dependencies
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,6 +19,6 @@ Repository: <https://github.com/OCA/project/tree/15.0/project_task_dependency>
 
 ### Abhängige Aufgabe hinzufügen
 
-Öffnen Sie eine Aufgabe via *Projekt > Alle Aufgaben > Aufgabe wählen* und zeigen die den Tab *Abhängigkeiten* an. Fügen Sie abhängige Aufgaben hinzu.
+Öffnen Sie eine Aufgabe via _Projekt > Alle Aufgaben > Aufgabe wählen_ und zeigen die den Tab _Abhängigkeiten_ an. Fügen Sie abhängige Aufgaben hinzu.
 
 ![](attachments/Project%20Task%20Dependencies%20Hinzufügen.png)

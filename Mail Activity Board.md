@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./dashboards
 ---
+
 # Mail Activity Board
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,7 +19,7 @@ Repository: <https://github.com/OCA/social/tree/17.0/mail_activity_board>
 
 ### Alle Aktivitäten anzeigen
 
-Navigieren Sie nach *Dashboard > Activities*. Hier sehen Sie alle erstellen Aktiviäten.
+Navigieren Sie nach _Dashboard > Activities_. Hier sehen Sie alle erstellen Aktiviäten.
 
 ![](attachments/Mail%20Activity%20Board%20Alle.png)
 
@@ -27,6 +29,6 @@ Wenn Sie sich auf einem Dokument befinden, können Sie die dazugehörgen Aktivit
 
 ### Meine Aktivitäten anzeigen
 
-Wenn Sie eine Übersicht all ihrer Aktiväten erhalten möchten, navigieren Sie nach *Dashboards > Activities* und filtern dort das Feld *Zugewiesen an* nach ihrem Namen.
+Wenn Sie eine Übersicht all ihrer Aktiväten erhalten möchten, navigieren Sie nach _Dashboards > Activities_ und filtern dort das Feld _Zugewiesen an_ nach ihrem Namen.
 
 ![](attachments/Mail%20Activity%20Board%20Meine%20Aktivitäten.png)

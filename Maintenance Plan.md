@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./maintenance
 ---
+
 # Maintenance Plan
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/OCA/maintenance/tree/17.0/maintenance_plan>
 
 ### Wartungsplan erstellen
 
-Öffnen Sie einen Inventar unter *Wartung > Inventar* und zeigen Sie den Tab *Wartung* an. Hier können Sie einen neuen Wartungsplan erfassen.
+Öffnen Sie einen Inventar unter _Wartung > Inventar_ und zeigen Sie den Tab _Wartung_ an. Hier können Sie einen neuen Wartungsplan erfassen.

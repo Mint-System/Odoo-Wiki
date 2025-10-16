@@ -7,6 +7,7 @@ prev: ./hr-holidays
 ---
 
 # HR Attendance Overtime Hours
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -18,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_attendance
 
 ### Geplante und gearbeitete Stunden anzeigen
 
-Mit dieser Erweiterung sehen Sie in der Liste der Überstunden *Account > Mein Profil > Smart-Link Überstunden* ihre geplanten und gearbeiteten Stunden.
+Mit dieser Erweiterung sehen Sie in der Liste der Überstunden _Account > Mein Profil > Smart-Link Überstunden_ ihre geplanten und gearbeiteten Stunden.

@@ -4,7 +4,9 @@ description: Daten zur Buchhaltung exportieren und importieren.
 kind: howto
 prev: ./accounting
 ---
+
 # Buchhaltung Datenmanagement
+
 ![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}
@@ -13,7 +15,7 @@ prev: ./accounting
 
 ### Kontenplan exportieren
 
-Listenansicht: *Buchhaltung > Konfiguration > Kontenplan*
+Listenansicht: _Buchhaltung > Konfiguration > Kontenplan_
 
 Felder:
 
@@ -27,7 +29,7 @@ deprecated
 
 ### Steuern exportieren
 
-Listenansicht *Buchhaltung > Konfiguration > Steuern*
+Listenansicht _Buchhaltung > Konfiguration > Steuern_
 
 Felder:
 
@@ -59,12 +61,12 @@ price_include
 
 Auf der Seite [SIX - Download Bankenstamm](https://www.six-group.com/de/products-services/banking-services/interbank-clearing/online-services/download-bank-master.html) erhalten Sie eine Liste aller Schweizer Banken. Laden Sie die Datei [Bankenstamm (Excel)](https://api.six-group.com/api/epcd/bankmaster/v2/public/downloads/bcbankenstamm_e.xls) herunter und öffnen diese zur Bearbeitung. Entfernen Sie alle Spalten ausser:
 
-* Bank/Institution Name
-* Domicile Address
-* Postal Address
-* Zip Code
-* Place
-* BIC
+- Bank/Institution Name
+- Domicile Address
+- Postal Address
+- Zip Code
+- Place
+- BIC
 
 Entfernen Sie alle Bankeinträge ohne BIC/SWIFT-Eintrag.
 
@@ -73,14 +75,14 @@ Die Liste von SIX umfasst auch Filialen und enthält BIC-Codes teilweise mehrfac
 
 Um die Daten zu bereinigen, können Sie die Liste in Excel wie folgt filtern:
 
-* IID-Art = 1 (Hauptsitz)
-* SIC-IID beginnt nicht mit "3" (die 3-er SIC-IID ist für QR-Rechnungen, hat aber die gleiche BIC und führt somit zu Duplikaten)
-* BIC ist nicht leer
+- IID-Art = 1 (Hauptsitz)
+- SIC-IID beginnt nicht mit "3" (die 3-er SIC-IID ist für QR-Rechnungen, hat aber die gleiche BIC und führt somit zu Duplikaten)
+- BIC ist nicht leer
 
 Löschen Sie im Excel alle Einträge, die **nicht** diesen Kriterien entsprechen.
 :::
 
-In zeigen Sie *Kontakte > Konfiguration > Bankkonten > Bankverzeichnis* an und wählen *Favoriten > Datensätze importieren*. Laden Sie die Datei und ordnen Sie die Spalten wie folgt zu.
+In zeigen Sie _Kontakte > Konfiguration > Bankkonten > Bankverzeichnis_ an und wählen _Favoriten > Datensätze importieren_. Laden Sie die Datei und ordnen Sie die Spalten wie folgt zu.
 
 ![](attachments/Import%20Bankenstamm.png)
 
@@ -89,20 +91,20 @@ Führen Sie einen Test aus und importieren Sie die Daten.
 ::: tip
 Um den Import zu vereinfachen, können Sie die Spalten wie folgt umbennen:
 
-* id
-* name
-* street
-* street2
-* zip
-* city
-* bic
+- id
+- name
+- street
+- street2
+- zip
+- city
+- bic
 
-Für die Spalte `id` verwenden Sie Werte aus *SIC-IID*.
+Für die Spalte `id` verwenden Sie Werte aus _SIC-IID_.
 :::
 
 ### Bilanzpositionen aus Kontenplan erstellen
 
-Exportieren Sie den den Kontenplan mit den Felder `Name` und `Code`.  Erstellen Sie eine Spalte `Bezeichnung` an der ersten Position mit der Formel `=CONCAT(B2," ",C2)`. Importieren Sie die Datei als Budgetposition. Als Namen verwenden Sie das Feld `Bezeichnung` und als Konto das Feld `Code`. Ignorieren Sie die Spalte `Name`.
+Exportieren Sie den den Kontenplan mit den Felder `Name` und `Code`. Erstellen Sie eine Spalte `Bezeichnung` an der ersten Position mit der Formel `=CONCAT(B2," ",C2)`. Importieren Sie die Datei als Budgetposition. Als Namen verwenden Sie das Feld `Bezeichnung` und als Konto das Feld `Code`. Ignorieren Sie die Spalte `Name`.
 
 ### Offene Kreditoren importieren
 
@@ -117,4 +119,4 @@ Bei der Eröffnung der Buchhaltung müssen Kreditoren aus der alten System nach 
 
 Ersetzen Sie `$XML_ID_99999` mit dem entsprechenden Wert.
 
-Navigieren Sie nach *Buchhaltung > Buchhaltung > Journalbuchungen* und importieren Sie die Datei.
+Navigieren Sie nach _Buchhaltung > Buchhaltung > Journalbuchungen_ und importieren Sie die Datei.

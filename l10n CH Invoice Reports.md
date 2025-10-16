@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./l10n-ch
 ---
+
 # Switzerland Invoice Reports with payment option
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
@@ -19,7 +21,7 @@ Repository: <https://github.com/OCA/l10n-switzerland/tree/15.0/l10n_ch_invoice_r
 
 Gilt ab #Odoo15 .
 
-Navigieren Sie nach *Einstellungen > Buchhaltung > Ausgangsrechnung* und aktivieren Sie im Bereich *Invoice report options* die Option *Print invoice with QR bill*.
+Navigieren Sie nach _Einstellungen > Buchhaltung > Ausgangsrechnung_ und aktivieren Sie im Bereich _Invoice report options_ die Option _Print invoice with QR bill_.
 
 ## Verwendung
 
@@ -27,7 +29,7 @@ Navigieren Sie nach *Einstellungen > Buchhaltung > Ausgangsrechnung* und aktivie
 
 Gilt bis #Odoo14 .
 
-Mit dieser Erweiterung können Sie die Rechnung inklusive QR-Zahlung in einem Dokument drucken. Öffnen Sie eine Rechnung via *Buchhaltung > Kunden > Rechnungen* und klicken Sie auf *Drucken*.
+Mit dieser Erweiterung können Sie die Rechnung inklusive QR-Zahlung in einem Dokument drucken. Öffnen Sie eine Rechnung via _Buchhaltung > Kunden > Rechnungen_ und klicken Sie auf _Drucken_.
 
 ![](attachments/Switzerland%20Invoice%20Reports%20with%20payment%20option.png)
 
@@ -39,8 +41,8 @@ In der Mail-Vorlage können Sie den zusammengeführten Bericht als Standard fest
 
 Gilt ab #Odoo15 .
 
-Öffnen Sie eine Rechnung unter *Buchhaltung > Kunden > Rechnungen* und wählen Sie *Drucken > Rechnung mit zahlungschein*.
+Öffnen Sie eine Rechnung unter _Buchhaltung > Kunden > Rechnungen_ und wählen Sie _Drucken > Rechnung mit zahlungschein_.
 
 ::: tip
-Deaktivieren Sie Option *Einstellungen > Buchhaltung > Kundeneinzahlungen > QR codes*, wenn Sie diese Erweiterung im Einsatz haben.
+Deaktivieren Sie Option _Einstellungen > Buchhaltung > Kundeneinzahlungen > QR codes_, wenn Sie diese Erweiterung im Einsatz haben.
 :::

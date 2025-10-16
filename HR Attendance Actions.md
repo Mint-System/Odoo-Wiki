@@ -4,7 +4,9 @@ description: Aktionen für Anwesenheit App einrichten.
 kind: howto
 prev: ./hr-attendance
 ---
+
 # Anwesenheiten Aktionen
+
 ![icons_odoo_hr_attendance](attachments/icons_odoo_hr_attendance.png)
 
 {{ $frontmatter.description }}
@@ -13,7 +15,7 @@ prev: ./hr-attendance
 
 ### Fehlende Anwesenheitseinträge anzeigen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Fehlende Anwesenheitseinträge anzeigen`\
 Modell: `ir.actions.server`\
@@ -38,62 +40,62 @@ user_tz = timezone(env.user.tz)
 utc_tz = timezone('UTC')
 
 for employee in env['hr.employee'].search(employee_domain):
-  
+
   attendances = env['hr.attendance'].search([
     ('employee_id', '=', employee.id),
     ('check_in', '>=', start_date)
   ])
   attendance_dates = attendances.mapped(lambda a: a.check_in.date()) if attendances else []
-  
+
   leaves = env['hr.leave'].search([
     leave_state_domain,
     ('employee_id', '=', employee.id),
     '|', ('date_from', '>=', start_date), ('date_to', '>=', start_date),
   ])
-  
+
   calendar_leaves = env['resource.calendar.leaves'].search([
     ('calendar_id', '=', employee.resource_calendar_id.id),
     # ('work_entry_type_id', '=', 2),
     ('resource_id', '=', False),
     '|', ('date_from', '>=', start_date), ('date_to', '<=', start_date),
   ])
-  
+
   missing_dates = []
   for check_date in dates:
-    
+
     min_check_date = datetime.datetime.combine(check_date.date(), datetime.time.min)
     max_check_date = datetime.datetime.combine(check_date.date(), datetime.time.max)
-    
+
     min_check_date_utc = min_check_date - user_tz.utcoffset(check_date)
     max_check_date_utc = max_check_date - user_tz.utcoffset(check_date)
-    
+
     work_hours = employee.resource_calendar_id.get_work_hours_count(
       min_check_date,
       max_check_date,
       False
     )
-    
-    active_leaves = leaves.filtered(lambda l: 
+
+    active_leaves = leaves.filtered(lambda l:
       l.date_from < check_date < l.date_to or
-      min_check_date <= l.date_from <= max_check_date or 
+      min_check_date <= l.date_from <= max_check_date or
       min_check_date <= l.date_to <= max_check_date
     )
-    
+
     active_calendar_leaves = calendar_leaves.filtered(lambda l:
       l.date_from < check_date < l.date_to or
-      min_check_date_utc <= l.date_from <= max_check_date_utc or 
+      min_check_date_utc <= l.date_from <= max_check_date_utc or
       min_check_date_utc <= l.date_to <= max_check_date_utc
     )
-    
+
     has_attendance = check_date.date() in attendance_dates
-    
+
     missing_attendance = work_hours > 0 and not has_attendance and not active_leaves and not active_calendar_leaves
     if missing_attendance:
       missing_dates.append(check_date.strftime(date_format) + ' (%sh)' % round(work_hours,2))
-    
+
     # raise UserError({
     #   'start_date': start_date,
-    #   'name': employee.name, 
+    #   'name': employee.name,
     #   'check_date': check_date,
     #   'missing_attendance': missing_attendance,
     #   'work_hours': work_hours,
@@ -108,9 +110,9 @@ for employee in env['hr.employee'].search(employee_domain):
     #   'min_check_date_utc': min_check_date_utc,
     #   'max_check_date_utc': max_check_date_utc,
     # }.items())
-  
+
   # raise UserError(missing_dates)
-    
+
   if missing_dates:
     report += '\n' + employee.name + ':\n'
     for missing_date in missing_dates:
@@ -127,9 +129,10 @@ Diese Serveraktion produziert ein Bericht in folgendem Format:
 Range is from 08.11.2022 until 08.12.2022.
 
 Abigail Peterson:
-* 07.12.2022 (4.0h)
-* 06.12.2022 (8.0h)
-* 05.12.2022 (8.0h)
+
+- 07.12.2022 (4.0h)
+- 06.12.2022 (8.0h)
+- 05.12.2022 (8.0h)
 
 ...
 ```
@@ -138,56 +141,56 @@ Wenn Sie den Bericht für bestimmte Mitarbeitende deaktivieren möchten, müssen
 
 Manager können den Bericht aufrufen, wenn Sie mit den folgenden Informationen einen [Menüposten erstellen](Development.md#Entwicklung#Menüposten%20erstellen).
 
-* **Menü**: 	`Fehlende Anwesenheitseinträge anzeigen`
-* **Obermenü**: `Abwesenheitszeiten/Berichtswesen`
-* **Aktion**: `ir.actions.server` `Fehlende Anwesenheitseinträge anzeigen`
+- **Menü**: `Fehlende Anwesenheitseinträge anzeigen`
+- **Obermenü**: `Abwesenheitszeiten/Berichtswesen`
+- **Aktion**: `ir.actions.server` `Fehlende Anwesenheitseinträge anzeigen`
 
 ### Überstunden aktualisieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Überstunden aktualisieren`\
 Modell: `hr.attendance`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
-for record in records:  
+for record in records:
     record.write({
         'check_out': record.check_out
     })
 	record._update_overtime()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-In der Listenansicht der Anwesenheiten erscheint nun in der Auswahl *Aktion* das Menu *Überstunden aktualisieren*.
+In der Listenansicht der Anwesenheiten erscheint nun in der Auswahl _Aktion_ das Menu _Überstunden aktualisieren_.
 
 ### Gleitzeitsaldo aktualisieren
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Gleitzeitsaldo aktualisieren`\
 Modell: `hr.employee`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python-Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 for rec in records:
   rec.attendance_ids._update_overtime()
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und dann speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-## Geplante Aktionen 
+## Geplante Aktionen
 
 ### Überstunden entfernen
 
 Mit dieser geplanten Aktion werden registrierte Überstunden der Mitarbeitenden mit einem Arbeitsstundensoll von 0 am Ende des Monats entfernt.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Überstunden entfernen`\
 Modell: `ir.actions.server`\
@@ -196,7 +199,7 @@ Nächstes Ausführungsdatum: `01.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 last_month_until = datetime.date.today().replace(day=1) - datetime.timedelta(days=1)
@@ -229,7 +232,7 @@ if messages:
 
 Mit dieser geplanten Aktion werden die Überstunden anhand der Anwesenheit neu berechnet.
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Überstunden aktualisieren`\
 Modell: `ir.actions.server`\
@@ -238,7 +241,7 @@ Nächstes Ausführungsdatum: `01.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Settings

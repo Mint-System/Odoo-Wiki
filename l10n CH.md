@@ -4,7 +4,9 @@ description: Übersicht zur Schweizer Lokalisierung von Odoo.
 kind: howto
 prev: ./
 ---
+
 # Schweizer Lokalisierung
+
 ![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}

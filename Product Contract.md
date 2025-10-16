@@ -5,6 +5,7 @@ kind: howto
 partner: OCA
 prev: ./contract
 ---
+
 # Product Contract
 
 ![icon_oms_box](../attachments/icons_odoo_mint_system.png)
@@ -23,11 +24,11 @@ Mit diesem Modul kann ein Produkt als Vertragsprodukt gekennzeichnet werden. Wir
 ### Einstellung für Produkt
 
 1. Man öffnet ein vorhandenes Produkt oder erstellt ein neues.
-2. Durch Anklicken der Checkbox *Ist ein Vertrag* wird das Produkt als Vertragsprodukt ausgezeichnet.
+2. Durch Anklicken der Checkbox _Ist ein Vertrag_ wird das Produkt als Vertragsprodukt ausgezeichnet.
 3. Im Reiter Vertrag (oder direkt beim Anlegen des Produkts) können weitere Vertragsdetails wie Startdatum und Auto-Erneuerung konfiguriert werden.
 
 ::: warning
-Das Modul erlaubt nur, Produkte vom Typ *Dienstleistung* als Vertragsprodukt auszuzeichnen.
+Das Modul erlaubt nur, Produkte vom Typ _Dienstleistung_ als Vertragsprodukt auszuzeichnen.
 :::
 
 ### Verkaufsauftrag
@@ -45,3 +46,39 @@ Per Smart Button kann man von einem Verkaufsauftrag zum zugehörigen Kundenvertr
 ### Rechnungsstellung
 
 Die Rechnung zu einem Verkaufsauftrag enthält nur die Nicht-Vertragsprodukte.
+
+## Aktionen
+
+### Wiederkehrendes Produkt in Vertrag umwandeln
+
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Wiederkehrendes Produkt in Vertrag umwandeln`\
+Modell: `product.template`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+
+```python
+mapping = {
+	"1M": "monthly",
+	"1J": "yearly",
+	"1Q": "quarterly",
+	"3J": "yearly",
+	"5J": "yearly",
+	"2J": "yearly",
+	"10J": "yearly",
+	"7J": "yearly",
+	"4J": "yearly",
+}
+for record in records:
+  record.write({
+	  'recurring_invoice': False,
+	  'is_contract': True,
+	  'is_auto_renew': True,
+	  'auto_renew_interval': int(record.subscription_template_id.code.replace("J", "").replace("Q", "").replace("M", "")),
+	  'recurring_rule_type': mapping[record.subscription_template_id.code]
+	})
+```
+
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.

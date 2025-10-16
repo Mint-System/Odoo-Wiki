@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./brand
 ---
+
 # Brand External Report Layout
+
 ![](attachments/icons_odoo_brand.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/OCA/brand/tree/16.0/brand_external_report_layout
 
 ### Dokument-Layout für Marke festlegen
 
-Navigieren Sie nach *Einstellungen > Benutzer und Unternehmen > Marken* und zeigen Sie eine Marke an. Wählen Sie *Change Document Layout* um das Dokument-Layout der Marke anzupassen.
+Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Marken_ und zeigen Sie eine Marke an. Wählen Sie _Change Document Layout_ um das Dokument-Layout der Marke anzupassen.

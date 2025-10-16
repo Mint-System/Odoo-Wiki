@@ -4,6 +4,7 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Fertigungsplanung
 
 ## Beispiel Fertigungsauftrag Rahmen unbeschichtet
@@ -12,7 +13,7 @@ Für die Details des Produktes siehe [Rahmen unbeschichtet](Best%20Practice%20De
 
 ### Automatische Fertigungsaufträge
 
-Es wird ein Fertigungsauftrag für 8 Stk *Rahmen unbeschichtet* erstellt. Die Materialverfügbarkeit zeigt sich wie folgt:
+Es wird ein Fertigungsauftrag für 8 Stk _Rahmen unbeschichtet_ erstellt. Die Materialverfügbarkeit zeigt sich wie folgt:
 
 ![Best Practice Fertigungsauftrag Rahmen unbeschichtet Berechnung](attachments/Best%20Practice%20Fertigungsauftrag%20Rahmen%20unbeschichtet%20Berechnung.svg)
 
@@ -24,7 +25,7 @@ Für die Produkte welche nicht in genügender Menge verfügbar sind, werden in d
 
 ![Best Practice Replenishment Schritt 1](attachments/Best%20Practice%20Replenishment%20Schritt%201.svg)
 
-Die Angaben sind identisch mit der Ansicht *Benötigte Produkte* im Register *Komponenten* des Fertigungsauftrags WH/MO/00001
+Die Angaben sind identisch mit der Ansicht _Benötigte Produkte_ im Register _Komponenten_ des Fertigungsauftrags WH/MO/00001
 
 Nach dem Bestätigen der Aufträge zeigt sich die Liste der Fertigungsaufträge wie folgt:
 

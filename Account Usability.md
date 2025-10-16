@@ -5,13 +5,15 @@ kind: howto
 partner: OCA
 prev: ./accounting
 ---
+
 # Account Usability
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `account_usability`\
-Repository: <https://github.com/OCA/account-financial-tools/tree/17.0/account_usability>
+Repository: <https://github.com/OCA/account-financial-tools/tree/18.0/account_usability>
 
 ## Beschreibung
 

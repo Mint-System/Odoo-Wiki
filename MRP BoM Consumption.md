@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./manufacture
 ---
+
 # MRP BoM Consumption
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,17 +19,17 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_
 
 ### Vorgangstyp für Lagerschwund erstellen
 
-Navigieren Sie nach *Lager > Konfiguration > Vorgangstypen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Lager > Konfiguration > Vorgangstypen_ und erstellen Sie einen neuen Eintrag:
 
-* **Name**: Scrap
-* **Code**: BIN
-* **Standard Quellort**: *WH/Stock*
-* **Standard Zielort**: *Virtual Locations/Scrap*
-* **Vorgangstyp**: *Interne Überweisung*
+- **Name**: Scrap
+- **Code**: BIN
+- **Standard Quellort**: _WH/Stock_
+- **Standard Zielort**: _Virtual Locations/Scrap_
+- **Vorgangstyp**: _Interne Überweisung_
 
 ### Stückliste für Lagerschwund erstellen
 
-Öffnen Sie ein Produkt und erstellen Sie eine Stückliste. Als *Stücklisten Typ* geben Sie *Scrap* an.
+Öffnen Sie ein Produkt und erstellen Sie eine Stückliste. Als _Stücklisten Typ_ geben Sie _Scrap_ an.
 
 Fügen Sie der Komponenteliste Produkte und deren zu verbrauchende Menge ein.
 
@@ -53,13 +55,13 @@ Haben Sie ein Produkt mit einer Verbrauch-Stückliste erstellt, wird bei der Bes
 
 ### Lieferung mit mehrfachem Lagerschwund erstellen
 
-Angenommen Sie verbrauchen zur Lieferung von 1 Kg *Zander Ganz*: 0.5 Kg *Filet ohne Haut* und zur Lieferung von 1 Kg *Filet ohne Haut*:  2 Kg *Zander Ganz*, dann wird für jedes Produkt ein Lagerschwund registriert.
+Angenommen Sie verbrauchen zur Lieferung von 1 Kg _Zander Ganz_: 0.5 Kg _Filet ohne Haut_ und zur Lieferung von 1 Kg _Filet ohne Haut_: 2 Kg _Zander Ganz_, dann wird für jedes Produkt ein Lagerschwund registriert.
 
 ![Manufacturing BoM Scrap doppelt](attachments/Manufacturing%20BoM%20Scrap%20mehrfach.gif)
 
 ### Verbrauch-Lagerbuchungen anzeigen
 
-Öffnen Sie das Produkt via *Lager > Produkte > Produkte* und drücken Sie auf *Produktlieferungen*. Hier sehen Sie alle Lagerbewegungen des Produkts.
+Öffnen Sie das Produkt via _Lager > Produkte > Produkte_ und drücken Sie auf _Produktlieferungen_. Hier sehen Sie alle Lagerbewegungen des Produkts.
 
 ![](attachments/Manufacturing%20BoM%20Scrap%20Produktlieferungen.png)
 

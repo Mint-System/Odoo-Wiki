@@ -4,13 +4,14 @@ description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 ---
+
 # Ferien- und Überstundensaldo
 
 In diesem Best Practice wird der Umgang mit Ferien- und Überstundensaldo beschreiben.
 
 ## Überstundensaldo
 
-Wenn Sie die App *Abwesenheiten* einführen und die Überstunden der Mitarbeitenden aus einem anderen System übertragen wollen, können Sie einen *Überstundensaldo* [Abwesenheitsart erfassen](HR%20Holidays.md#Abwesenheitsart%20erfassen).
+Wenn Sie die App _Abwesenheiten_ einführen und die Überstunden der Mitarbeitenden aus einem anderen System übertragen wollen, können Sie einen _Überstundensaldo_ [Abwesenheitsart erfassen](HR%20Holidays.md#Abwesenheitsart%20erfassen).
 
 Für die Mitarbeitenden können Sie einen Urlaubsanspruch erstellen und die Überstunden eintragen. Die Mitarbeitenden können die Abwesenheiten vom Typ Überstundensaldo eintragen.
 

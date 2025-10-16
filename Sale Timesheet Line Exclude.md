@@ -5,13 +5,15 @@ kind: howto
 partner: OCA
 prev: ./hr-timesheet
 ---
+
 # Sale Timesheet Line Exclude
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_timesheet_line_exclude`\
-Repository: <https://github.com/OCA/timesheet/tree/17.0/sale_timesheet_line_exclude>
+Repository: <https://github.com/OCA/timesheet/tree/18.0/sale_timesheet_line_exclude>
 
 ::: warning
 Diese App erweitert die `_timesheet_determine_sale_line` Methode. Abhängig von der Installations-Reihenfolge der anderen Module, welche diese Methode erweitern, kann der Methoden-Aufruf blockiert werden.
@@ -21,13 +23,13 @@ Diese App erweitert die `_timesheet_determine_sale_line` Methode. Abhängig von 
 
 ### Von Abrechnung aus-/einschliessen
 
-Navigieren Sie nach *Einstellungen > Technisch > Server-Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Von Abrechnung aus-/einschliessen`\
 Modell: `account.analytic.line`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 for rec in records:
@@ -36,4 +38,4 @@ for rec in records:
 	})
 ```
 
-Die Aktion mit dem Knopf *Kontextuelle Aktion erstellen* bestätigen und speichern.
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speichern.

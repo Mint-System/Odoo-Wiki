@@ -5,7 +5,9 @@ kind: howto
 partner: OCA
 prev: ./development
 ---
+
 # Web Domain Field
+
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}

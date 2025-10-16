@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./contacts
 ---
+
 # Partner Hide Address
+
 ![](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,6 +19,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/
 
 ### Adresse ausblenden
 
-Mit dieser Erweiterung finden unter *Konakte > Kontakt auswählen > Tab Verkauf & Einkauf* die Option *Hide Address*.
+Mit dieser Erweiterung finden unter _Konakte > Kontakt auswählen > Tab Verkauf & Einkauf_ die Option _Hide Address_.
 
 ![](attachments/Partner%20Hide%20Address.png)

@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./purchase
 ---
+
 # Purchase Order Line Description
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -23,10 +25,10 @@ Mit dem Systemparameter `purchase.order.line.hide_ref` können Sie festlegen, ob
 
 ### Nur Einkaufsbeschreibung übertragen
 
-Mit dieser Erweiterung wird beim Hinzufügen eines Produkts in einer Bestellung statt *Referenz + Name + Einkaufsbeschreibung* die folgende Formel angewendet:
+Mit dieser Erweiterung wird beim Hinzufügen eines Produkts in einer Bestellung statt _Referenz + Name + Einkaufsbeschreibung_ die folgende Formel angewendet:
 
-*Lieferant Produktcode + Einkaufsbeschreibung + Lieferant Produktname*
+_Lieferant Produktcode + Einkaufsbeschreibung + Lieferant Produktname_
 
-Falls *Produktcode* oder *Produktname* nicht vorhanden sind wird die Einkaufsbeschreibung übernommen.
+Falls _Produktcode_ oder _Produktname_ nicht vorhanden sind wird die Einkaufsbeschreibung übernommen.
 
 ![](attachments/Purchase%20Order%20Line%20Description%20Product%20Code.png)

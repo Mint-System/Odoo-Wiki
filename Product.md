@@ -3,8 +3,11 @@ title: Produkt
 description: Produkte und Preise.
 kind: howto
 prev: ./
+partner: Odoo S.A.
 ---
+
 # Produkt
+
 ![](attachments/icons_odoo_product.png)
 
 {{ $frontmatter.description }}
@@ -45,26 +48,25 @@ prev: ./
 
 ### Produkt erfassen
 
-Produkte sind Dreh- und Angelpunkt im Wertschöpfungsprozess des Unternehmens. Die korrekte Erfassung der Produkte ist entscheidend. Navigieren Sie nach *Verkauf > Produkte > Produkte* und wählen Sie *Neu*. Füllen Sie wichtigsten Felder aus:
+Produkte sind Dreh- und Angelpunkt im Wertschöpfungsprozess des Unternehmens. Die korrekte Erfassung der Produkte ist entscheidend. Navigieren Sie nach _Verkauf > Produkte > Produkte_ und wählen Sie _Neu_. Füllen Sie wichtigsten Felder aus:
 
-* **Produktname**: Anzeigename des Produkts
-* **Optionen**: Bestimmen Sie wie das Produkt verwendet werden kann
-* **Logo**: Laden Sie ein passendes Bild hoch
-* **Produktart**: Wählen Sie hier die Art des Produkts
-* **Fakturierungsregel**: Bestimmen Sie zu welchem Zeitpunkt das Produkt verrechnet werden soll
-* **Verkaufspreis**: Erfassen Sie einen Standardverkaufspreis
-* **Steuern (Verkauf)**: Wählen Sie hier die Standardsteuern für den Verkauf
-* **Produktkategorie**: Erstellen Sie nach Bedarf Produktkategorien und weisen Sie das Produkt der entsprechenden Kategorie zu.
-* **Interne Referenz**: Die interne Referenz ist ein eindeutiger Code bestimmt von ihrem Unternehmen
+- **Produktname**: Anzeigename des Produkts
+- **Optionen**: Bestimmen Sie wie das Produkt verwendet werden kann
+- **Logo**: Laden Sie ein passendes Bild hoch
+- **Produktart**: Wählen Sie hier die Art des Produkts
+- **Fakturierungsregel**: Bestimmen Sie zu welchem Zeitpunkt das Produkt verrechnet werden soll
+- **Verkaufspreis**: Erfassen Sie einen Standardverkaufspreis
+- **Steuern (Verkauf)**: Wählen Sie hier die Standardsteuern für den Verkauf
+- **Produktkategorie**: Erstellen Sie nach Bedarf Produktkategorien und weisen Sie das Produkt der entsprechenden Kategorie zu.
+- **Interne Referenz**: Die interne Referenz ist ein eindeutiger Code bestimmt von ihrem Unternehmen
 
-Wenn Sie die Buchhaltung aktiv haben, konfigurieren Sie zusätzlich diese Felder im Tab *Finanzen:
+Wenn Sie die Buchhaltung aktiv haben, konfigurieren Sie zusätzlich diese Felder im Tab \*Finanzen:
 
-* **Erlöskonto**: Standard-Erlöskonto für Rechnungszeile
-* **Aufwandskonto**: Standard-Aufwandskonto für Rechnungszeile
-
+- **Erlöskonto**: Standard-Erlöskonto für Rechnungszeile
+- **Aufwandskonto**: Standard-Aufwandskonto für Rechnungszeile
 
 ## Berechtigungen
 
 ### Produkte nur anzeigen
 
-Wenn Sie bestimmten Benutzer nur die Anzeige von Produkte, aber nicht die Erstellung erlaube nöchten. Müssen Sie sicherstellen, dass diese in er richtigen Anwendungs-Gruppe Mitglied sind. Navigieren Sie nach *Einstellungen > Technisch > Modelle* und zeigen Sie den Eintrag *product.template* an. Im Tab *Zugriffsrechte* werden die Anwendungsgruppen und deren Zugriffe aufgelistet. Fügen Sie die ausgewählten Benutzer einer Gruppe mit Leseberechtigungen hinzu.
+Wenn Sie bestimmten Benutzer nur die Anzeige von Produkte, aber nicht die Erstellung erlaube nöchten. Müssen Sie sicherstellen, dass diese in er richtigen Anwendungs-Gruppe Mitglied sind. Navigieren Sie nach _Einstellungen > Technisch > Modelle_ und zeigen Sie den Eintrag _product.template_ an. Im Tab _Zugriffsrechte_ werden die Anwendungsgruppen und deren Zugriffe aufgelistet. Fügen Sie die ausgewählten Benutzer einer Gruppe mit Leseberechtigungen hinzu.

@@ -2,9 +2,10 @@
 title: Use Case - Schokoladenfabrik
 description: Use Case für mehrstufige Qualitätskontrollen.
 tags:
-- Use-Case
+  - Use-Case
 prev: ./best-practice
 ---
+
 # Use Case - Schokoladenfabrik
 
 In der Lebensmittelbranche müssen mehrstufige Qualitätskontrollen für Rohstoffe, Halbfabriakte und Fertigprodukte absolviert werden. In diesem Use Case wird beschrieben wie mit Odoo mehrstufige Routen für den Einkauf, die Fertigung und das Lager konfiguriert werden und wie diese mit der Qualitätskontrolle verknüpft werden.
@@ -22,22 +23,24 @@ Die Implementation in Odoo erfordert die Installation von Apps, Festlegen von Ei
 ### Odoo Apps
 
 Installieren Sie die folgenden Apps:
-* `mrp_workorder`
-* `stock`
-* `quality_control`
-* `quality_mrp_workorder`
-* `contacts`
-* `purchase`
-* `mail_enterprise`
+
+- `mrp_workorder`
+- `stock`
+- `quality_control`
+- `quality_mrp_workorder`
+- `contacts`
+- `purchase`
+- `mail_enterprise`
 
 ### Odoo Settings
 
 Aktivieren Sie diese Einstellungen:
-* Mengeneinheiten
-* Lagerorte
-* Mehrstufige Routen
-* Arbeitsaufträge
-* Los- und Seriennummern
+
+- Mengeneinheiten
+- Lagerorte
+- Mehrstufige Routen
+- Arbeitsaufträge
+- Los- und Seriennummern
 
 ### Kontakt
 
@@ -50,27 +53,30 @@ Lieferant: Kakao ACME
 Das Standardlager ist wie folgt konfiguriert:
 
 **Zürch: WH**
-* Wareneingang: 3 steps
-* Ausgehende Lieferungen: 2 steps
-* Fertigung: 3 steps
+
+- Wareneingang: 3 steps
+- Ausgehende Lieferungen: 2 steps
+- Fertigung: 3 steps
 
 ### Lagerorte
 
 Legen Sie diese Lagerort an:
-* Hauptlager: WH/Stock
-* Eingangslager: WH/Input
-* Qualitätskontrolle: WH/QC1
-* Qualitätskontrolle 2: WH/QC5
+
+- Hauptlager: WH/Stock
+- Eingangslager: WH/Input
+- Qualitätskontrolle: WH/QC1
+- Qualitätskontrolle 2: WH/QC5
 
 ### Produktkategorien
 
 Legen Sie diese Produktkategorien an:
-* Rohstoff QC
-* Rohstoff
-* Halbfabrikat QC
-* Halbfabrikat
-* Fertigprodukt QC
-* Fertigprodukt
+
+- Rohstoff QC
+- Rohstoff
+- Halbfabrikat QC
+- Halbfabrikat
+- Fertigprodukt QC
+- Fertigprodukt
 
 ### Produkte
 
@@ -78,68 +84,68 @@ Im folgenden sind die Produkte und deren Konfiguration gruppiert nach Produktkat
 
 Rohstoffe QC:
 
-* **Kakaobohnen** kg
-  * Route: Einkauf Rohstoff mit Q-Prüfung
-  * Lieferant: Kakao ACME, 1CHF
-  * Kategorie: Rohstoff QC
-  * Nachverfolgung: mittels Chargen
-* **Kakaobutter** kg
-  * Route: Einkauf Rohstoff mit Q-Prüfung
-  * Lieferant: Kakao ACME, 1CHF
-  * Kategorie: Rohstoff QC
+- **Kakaobohnen** kg
+  - Route: Einkauf Rohstoff mit Q-Prüfung
+  - Lieferant: Kakao ACME, 1CHF
+  - Kategorie: Rohstoff QC
+  - Nachverfolgung: mittels Chargen
+- **Kakaobutter** kg
+  - Route: Einkauf Rohstoff mit Q-Prüfung
+  - Lieferant: Kakao ACME, 1CHF
+  - Kategorie: Rohstoff QC
 
 Rohstoffe (Input):
 
-* **Zucker** kg
-  * Route: Einkauf Rohstoff direkt
-  * Lieferant: Kakao ACME, 1CHF
-  * Kategorie: Rohstoffe
-* **Flüssigkeit** L
-  * Kategorie: Rohstoffe
+- **Zucker** kg
+  - Route: Einkauf Rohstoff direkt
+  - Lieferant: Kakao ACME, 1CHF
+  - Kategorie: Rohstoffe
+- **Flüssigkeit** L
+  - Kategorie: Rohstoffe
 
 Halbfabrikat QC:
 
-* **Kakaopulver** 1kg
-	* Route: Fertigung Halbfabrikat mit Q-Prüfung
-	* Katgeorie: Halbfabrikat QC
-	* BoM:
-		* Route:
-		* Komponenten:
-			* 2kg Kakaobohnen
+- **Kakaopulver** 1kg
+  - Route: Fertigung Halbfabrikat mit Q-Prüfung
+  - Katgeorie: Halbfabrikat QC
+  - BoM:
+    - Route:
+    - Komponenten:
+      - 2kg Kakaobohnen
 
 Halbfabrikat:
 
-* **Karamell** 1kg
-  * Route: Fertigung Halbfabrikat direkt
-  * Kategorie: Halbfabrikat
-  * BoM:
-	  * Route: Fertigung Halbfabrikat direkt
-	  * Komponenten:
-		* 1kg Zucker
+- **Karamell** 1kg
+  - Route: Fertigung Halbfabrikat direkt
+  - Kategorie: Halbfabrikat
+  - BoM:
+    - Route: Fertigung Halbfabrikat direkt
+    - Komponenten:
+    - 1kg Zucker
 
 Fertigprodukt QC:
 
-* **Schokoladentafel** 1 Einheit (100g)
-  * Route: Fertigung Fertigprodukt mit Q-Prüfung
-  * Kategorie: Fertigprodukt QC
-  * Nachverfolgung: mittels Chargen
-  * BoM:
-	  * Route:
-	  * Komponenten:
-		* 50g Kakaobutter
-		* 40g Kakaopulver
-		* 10g Zucker
+- **Schokoladentafel** 1 Einheit (100g)
+  - Route: Fertigung Fertigprodukt mit Q-Prüfung
+  - Kategorie: Fertigprodukt QC
+  - Nachverfolgung: mittels Chargen
+  - BoM:
+    - Route:
+    - Komponenten:
+    - 50g Kakaobutter
+    - 40g Kakaopulver
+    - 10g Zucker
 
 Fertigprodukt:
 
-* **Karamellcreme** 1kg
-  * Route: Fertigung Fertigprodukt direkt
-  * Kategorie: Fertigprodukt
-  * BoM:
-	  * Route:
-	  * Komponenten:
-		* 500g Karamell
-		* 0.5L Flüssigkeit
+- **Karamellcreme** 1kg
+  - Route: Fertigung Fertigprodukt direkt
+  - Kategorie: Fertigprodukt
+  - BoM:
+    - Route:
+    - Komponenten:
+    - 500g Karamell
+    - 0.5L Flüssigkeit
 
 ### Routen
 
@@ -149,52 +155,53 @@ Ein Beispiel wie mehrstufige Routen aussehen:
 
 Konfigurieren Sie diese Routen:
 
-* **Einkauf Rohstoff direkt**
-  * Name: WH: QC1 (buy)
-    * Einkaufen: → WH/Stock
-    * Vorgangstyp: Zürch: **Anlieferung**
-    * Lager: Zürch
-* **Einkauf Rohstoff mit Q-Prüfung**
-  * Name: WH: QC1 (Buy)
-    * Einkaufen: → WH/QC1
-    * Vorgangstyp: Zürch: **Anlieferungen Q1**
-    * Lager: Zürch
-  * Name:
-    * Holen & Schieben nach: WH/QC1 → WH/Stock
-    * Vorgangstyp: Zürch: **Interne Transfers Q1**
-    * Lager: Zürch
-* **Fertigung Fertigprodukt direkt**
-  * Name: WH: Post-Production (Production)
-    * Fertigung: → WH/Stock
-    * Vorgangstyp: Zürch: **Manufacturing**
-    * Lager: Zürch
-* **Fertigung Fertigprodukt mit Q-Prüfung**
-  * Name: WH: QC5 (Production)
-    * Fertigung: WH Stock → WH/QC5
-    * Vorgangstyp: Zürch: **Manufacturing Q5**
-    * Lager: Zürch
-  * Name:
-    * Holen & Schieben nach: WH/QC5 → WH/Stock
-    * Vorgangstyp: Zürch: **Store Finished Product Q5**
-    * Lager: Zürch
+- **Einkauf Rohstoff direkt**
+  - Name: WH: QC1 (buy)
+    - Einkaufen: → WH/Stock
+    - Vorgangstyp: Zürch: **Anlieferung**
+    - Lager: Zürch
+- **Einkauf Rohstoff mit Q-Prüfung**
+  - Name: WH: QC1 (Buy)
+    - Einkaufen: → WH/QC1
+    - Vorgangstyp: Zürch: **Anlieferungen Q1**
+    - Lager: Zürch
+  - Name:
+    - Holen & Schieben nach: WH/QC1 → WH/Stock
+    - Vorgangstyp: Zürch: **Interne Transfers Q1**
+    - Lager: Zürch
+- **Fertigung Fertigprodukt direkt**
+  - Name: WH: Post-Production (Production)
+    - Fertigung: → WH/Stock
+    - Vorgangstyp: Zürch: **Manufacturing**
+    - Lager: Zürch
+- **Fertigung Fertigprodukt mit Q-Prüfung**
+  - Name: WH: QC5 (Production)
+    - Fertigung: WH Stock → WH/QC5
+    - Vorgangstyp: Zürch: **Manufacturing Q5**
+    - Lager: Zürch
+  - Name:
+    - Holen & Schieben nach: WH/QC5 → WH/Stock
+    - Vorgangstyp: Zürch: **Store Finished Product Q5**
+    - Lager: Zürch
 
 Optional konfigurieren Sie diese Routen:
 
-* **Fertigung Halbfabrikat mit Q-Prüfung**
-	* Name:
-		  * Fertigung: -> WH/QC5
-		  * Holen & Schieben nach: WH/QC5 -> WH/Stock
-		  * Lager: Zürch
-* **Fertigung Halbfabrikat direkt**
-	* Name:
-	  * Fertigung: -> WH/Stock
-	  * Lager: Zürch
+- **Fertigung Halbfabrikat mit Q-Prüfung**
+  - Name:
+    - Fertigung: -> WH/QC5
+    - Holen & Schieben nach: WH/QC5 -> WH/Stock
+    - Lager: Zürch
+- **Fertigung Halbfabrikat direkt**
+  - Name:
+    - Fertigung: -> WH/Stock
+    - Lager: Zürch
 
 ### Arbeitsplätze
 
 Legen Sie diese Arbeitsplätze an:
-* Verarbeitung
-* Produktion
+
+- Verarbeitung
+- Produktion
 
 ### Vorgangstyp
 
@@ -203,36 +210,41 @@ Die Konfiguration der Vorgangstypen ist zentral in diesem Use Case.
 Anpassen Vorgangstypen:
 
 **Anlieferung**
-* Standard Quellort:
-* Standard Zielort WH/Stock
-* Code: IN
-* Nächste Bewegung abbrechen: Falsch
+
+- Standard Quellort:
+- Standard Zielort WH/Stock
+- Code: IN
+- Nächste Bewegung abbrechen: Falsch
 
 Zusätzliche Vorgangstypen:
 
 **Anlieferung QC1**
-* Standard Quellort:
-* Standard Zielort WH/QC1
-* Code: INQ
-* Nächste Bewegung abbrechen: Falsch
+
+- Standard Quellort:
+- Standard Zielort WH/QC1
+- Code: INQ
+- Nächste Bewegung abbrechen: Falsch
 
 **Interne Transfers QC1**
-* Standard Quellort: WH/QC1
-* Standard Zielort: WH/Stock
-* Code: INTQ
-* Nächste Bewegung abbrechen: Falsch
+
+- Standard Quellort: WH/QC1
+- Standard Zielort: WH/Stock
+- Code: INTQ
+- Nächste Bewegung abbrechen: Falsch
 
 **Manufacturing QC5**
-* Standard Quellort: WH/Stock
-* Standard Zielort: WH/QC5
-* Code: MOQ
-* Nächste Bewegung abbrechen: Falsch
+
+- Standard Quellort: WH/Stock
+- Standard Zielort: WH/QC5
+- Code: MOQ
+- Nächste Bewegung abbrechen: Falsch
 
 **Store Finished Product QC5**
-* Standard Quellort: WH/QC5
-* Standard Zielort: WH/Stock
-* Code: SFPQ
-* Nächste Bewegung abbrechen: Falsch
+
+- Standard Quellort: WH/QC5
+- Standard Zielort: WH/Stock
+- Code: SFPQ
+- Nächste Bewegung abbrechen: Falsch
 
 ### Vorgänge
 
@@ -241,50 +253,58 @@ Für die Fertigung der Halbfabrikate und Fertigprodukte gibt es diese Arbeitsvor
 **Arbeitsplatz: Verarbeitung**
 
 Produktion Kakaopulver:
-* Kakaobohnen verarbeiten
+
+- Kakaobohnen verarbeiten
 
 **Arbeitsplatz: Produktion**
 
 Produktion Schokoladentafel:
-* Kakaopulver hinzufügen
-* Kakaobutter hinzufügen
-* Zucker hinzufügen
-* Schokoladentafel fertigen
+
+- Kakaopulver hinzufügen
+- Kakaobutter hinzufügen
+- Zucker hinzufügen
+- Schokoladentafel fertigen
 
 Produktion Karamell:
-* Zucker aufkochen
+
+- Zucker aufkochen
 
 Produktion Karamellcreme:
-* Karamell hinzufügen
-* Mit Flüssigkeit aufkochen
+
+- Karamell hinzufügen
+- Mit Flüssigkeit aufkochen
 
 ### Qualitätsteams
 
 Legen Sie diese Qualitätsteams an:
-* QC1-Team
-* QC5-Team
+
+- QC1-Team
+- QC5-Team
 
 ### Qualitätsprüfpunkte
 
 Zur Prüfung der Ware müssen Qualitätsprüfpunkte unten erstellt werden.
 
 **Q-Prüfung Rohstoffe Anlieferung**
-* Titel: Ware prüfen
-* Anleitung: Prüfen Sie die Ware.
-* Vorgänge: Anlieferung QC1
-* Team: QC1-Team
+
+- Titel: Ware prüfen
+- Anleitung: Prüfen Sie die Ware.
+- Vorgänge: Anlieferung QC1
+- Team: QC1-Team
 
 **Q-Prüfung Rohstoffe QC1**
-* Titel: Qualität prüfen
-* Anleitung: Prüfen Sie die Qualität.
-* Vorgänge: Interne Transfers QC1
-* Team: QC1-Team
+
+- Titel: Qualität prüfen
+- Anleitung: Prüfen Sie die Qualität.
+- Vorgänge: Interne Transfers QC1
+- Team: QC1-Team
 
 **Q-Prüfung Fertigung QC5**
-* Titel: Qualität prüfen
-* Anleitung: Prüfen Sie die Qualität.
-* Vorgänge: Store Finished Product QC5
-* Team: QC5-Team
+
+- Titel: Qualität prüfen
+- Anleitung: Prüfen Sie die Qualität.
+- Vorgänge: Store Finished Product QC5
+- Team: QC5-Team
 
 ## Ausführung
 
@@ -296,14 +316,14 @@ Ist die Implementation erfolgt, können Sie den Use Case mit den folgenden Instr
 <p><a href="https://vimeo.com/727166995">Ausf&uuml;hrung Rohstoff mit Q-Pr&uuml;fung</a> from <a href="https://vimeo.com/janikvonrotz">Janik Vonrotz</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 1. Produkt Kakaobohnen auffüllen mit entsprechender Route
-2. Öffnen *Lager > Anlieferungen QC1* und auswählen Transfer
-3. Klick auf *Qualitätskontrollen* und *Bestanden*
+2. Öffnen _Lager > Anlieferungen QC1_ und auswählen Transfer
+3. Klick auf _Qualitätskontrollen_ und _Bestanden_
 
 ![](attachments/Use%20Case%20Schokoladenfabrik%20Check.png)
 
 4. Transfer bestätigen
-5. Öffnen *Lager > Interner Transfer QC1* und auswählen Transfer
-6. Klick auf *Qualitätskontrollen* und *Bestanden*
+5. Öffnen _Lager > Interner Transfer QC1_ und auswählen Transfer
+6. Klick auf _Qualitätskontrollen_ und _Bestanden_
 
 ### Fertigung mit Q-Prüfung
 
@@ -312,8 +332,8 @@ Ist die Implementation erfolgt, können Sie den Use Case mit den folgenden Instr
 
 1. Produkt Schokoladentafel auffüllen mit entsprechender Route
 2. Fertigungsauftrag ausführen
-3. Öffnen *Lager > Store Finished Product QC5* und auswählen Transfer
-4. Klick auf *Qualitätskontrollen* und *Bestanden*
+3. Öffnen _Lager > Store Finished Product QC5_ und auswählen Transfer
+4. Klick auf _Qualitätskontrollen_ und _Bestanden_
 
 ![](attachments/Use%20Case%20Schokoladenfabrik%20Store%20FInished%20Product.png)
 
@@ -328,13 +348,13 @@ Es bestehen Erläuterungen zum Use Case.
 
 **Retouren**
 
-Auf Vorgangstypen kann ein Vorgangstyp für Retouren festgelegt werden. Beispielsweise kann auf *Anlieferung* eine Rücklieferung erfasst werden.
+Auf Vorgangstypen kann ein Vorgangstyp für Retouren festgelegt werden. Beispielsweise kann auf _Anlieferung_ eine Rücklieferung erfasst werden.
 
 **Route auf Kategorien**
 
 Zur Frage, ob die Route auf der Kategorie festgelegt werden kann ist die Antwort Ja.
 
-Auf Route die Option *Produktkategorie* aktivieren:
+Auf Route die Option _Produktkategorie_ aktivieren:
 
 ![](attachments/Route.png)
 

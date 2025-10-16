@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./contacts
 ---
+
 # Partner Contact Department Note
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/
 
 ### Abteilung auf Kontakt festlegen
 
-Mit dieser Erweiterung können Sie für jeden Kontakt einen Wert im Feld *Abteilung* festhalten. Öffnen Sie einen Kontakt via *Kontakte*. Unter dem Feld *Stelle* finden Sie das Abteilungs-Feld.
+Mit dieser Erweiterung können Sie für jeden Kontakt einen Wert im Feld _Abteilung_ festhalten. Öffnen Sie einen Kontakt via _Kontakte_. Unter dem Feld _Stelle_ finden Sie das Abteilungs-Feld.

@@ -5,25 +5,27 @@ kind: howto
 partner: Mint-System
 prev: ./invoicing
 ---
+
 # Account Invoice Prepare
+
 ![icon_oms_box](../attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `account_invoice_prepare`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/account_invoice_prepare>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/18.0/account_invoice_prepare>
 
 ## Verwendung
 
 ### PDF-Rechnung vorbereiten
 
-Navigieren Sie nach *Buchhaltung > Kunden > Ausgangsrechnungen* und markieren Sie eine Rechnung. Wählen Sie *Aktion > PDF-Rechnung vorbereiten*.
+Navigieren Sie nach _Buchhaltung > Kunden > Ausgangsrechnungen_ und markieren Sie eine Rechnung. Wählen Sie _Aktion > PDF-Rechnung vorbereiten_.
 
 ## Geplante Aktionen
 
 ### Rechnungsstellung: PDF-Dateien erneuern
 
-Navigieren Sie nach *Einstellungen > Technisch > Geplante Aktionen* und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Rechnungsstellung: PDF-Dateien erneuern`\
 Modell: `ir.actions.server`\
@@ -32,7 +34,7 @@ Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
 Folgeaktion: `Python-Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld *Python Code*:
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 invoices = env['account.move'].search([

@@ -5,7 +5,9 @@ kind: howto
 partner: Mint-System
 prev: ./contacts
 ---
+
 # Partner Contact Association
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
@@ -17,8 +19,8 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/
 
 ### Verein erstellen
 
-Navigieren Sie nach *Kontakte > Konfiguration > Vereine* und erstellen Sie hier einen neuen Eintrag.
+Navigieren Sie nach _Kontakte > Konfiguration > Vereine_ und erstellen Sie hier einen neuen Eintrag.
 
 ### Kontakt an Verein zuordnen
 
-Zeigen Sie eine Einzelperson unter *Kontakte* an. Wählen unterhalb des Namens im Auswahlfeld einen Verein aus.
+Zeigen Sie eine Einzelperson unter _Kontakte_ an. Wählen unterhalb des Namens im Auswahlfeld einen Verein aus.

@@ -5,13 +5,15 @@ kind: howto
 partner: Mint-System
 prev: ./hr-attendance
 ---
+
 # HR Attendance Policy
+
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_attendance_policy`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_attendance_policy>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/18.0/hr_attendance_policy>
 
 ## Beschreibung
 
@@ -35,7 +37,7 @@ Mitarbeitende sehen in der Liste der Überstunden, welche Einträge in Konflikt 
 
 ### Anwesenheitsrichtlinie erfassen
 
-Navigieren Sie nach *Mitarbeiter > Konfiguration > Anwesenheitsrichtlinien* und erstellen Sie einen neuen Eintrag. Geben Sie einen Namen und eine Beschreibung ein. Definieren Sie Regeln mit Bereich der gearbeiteten Stunden pro Tag und dem benötigten Pausen (Abstand zwischen Anwesenheitseinträgen).
+Navigieren Sie nach _Mitarbeiter > Konfiguration > Anwesenheitsrichtlinien_ und erstellen Sie einen neuen Eintrag. Geben Sie einen Namen und eine Beschreibung ein. Definieren Sie Regeln mit Bereich der gearbeiteten Stunden pro Tag und dem benötigten Pausen (Abstand zwischen Anwesenheitseinträgen).
 
 ::: tip
 Mehrere Regeln werden einzeln und unabhängig voneinander geprüft.
