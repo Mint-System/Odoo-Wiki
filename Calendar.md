@@ -23,6 +23,7 @@ partner: Odoo S.A.
 | Erweiterung                     | Beschreibung                              |
 | ------------------------------- | ----------------------------------------- |
 | [CalDAV Sync](CalDAV%20Sync.md) | Odoo Kalender mit CalDav synchronisieren. |
+| [HR Calendar User Color](HR%20Calendar%20User%20Color.md) | Farbdarstellung von Events |                           |                                           |
 
 ## Konfiguration
 

@@ -28,6 +28,7 @@ Website: <https://www.odoo.com/de_DE/app/employees>
 | [Employee Vehicle Request](Employee%20Vehicle%20Request.md)         | Fahrzeug-Reservationen für Mitarbeitende verwalten.                                       |
 | [HR Activity Date](HR%20Activity%20Date.md)                         | Plannungstypen mit Aktivitätsdatum basierend auf Arbeitsverträgen.                        |
 | [HR Birthday Calender](HR%20Birthday%20Calender.md)                 | Kalenderansicht aller Geburtstage.                                                        |
+| [HR Calendar User Color](HR%20Calendar%20User%20Color.md)           | Events im Kalender nach User-Color färben                                                 |                                                                                                   |                                                                                           |
 | [HR Employee Employ Like](HR%20Employee%20Employ%20Like.md)         | Neues Feld Anstellung wie auf Mitarbeitenden.                                             |
 | [HR Employee Firstname](HR%20Employee%20Firstname.md)               | Vor- und Nachname auf Mitarbeitenden.                                                     |
 | [HR Employee ID](HR%20Employee%20ID.md)                             | Identifikationsnummer für Mitarbeitende.                                                  |
