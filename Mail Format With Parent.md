@@ -1,12 +1,12 @@
 ---
-title: Mail Format with Parent
+title: Mail format with parent
 description: Unternehmensname des Kontakts alternativ in E-Mails verwenden.
 kind: howto
 partner: Mint-System
 prev: ./base
 ---
 
-# Mail Format with Parent
+# Mail format with parent
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 

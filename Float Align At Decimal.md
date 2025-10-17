@@ -1,12 +1,12 @@
 ---
-title: Float Align At Decimal
+title: Float align at decimal
 description: Formatiert Floats nach Anzahl der Dezimalstellen.
 kind: howto
 partner: Mint-System
 prev: ./server
 ---
 
-# Float Align At Decimal
+# Float align at decimal
 
 ![icon_oms_box](../attachments/icons_odoo_mint_system.png)
 
