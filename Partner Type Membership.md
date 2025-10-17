@@ -1,6 +1,6 @@
 ---
 title: Partner Type Membership
-description: Legen Sie einen Unternehmens-Kontakt als Kontaktperson Mitgliedschaft fest.
+description: Legen Sie einen Kontakt als Kontaktperson Mitgliedschaft fest.
 kind: howto
 partner: Mint-System
 prev: ./contacts

@@ -55,7 +55,7 @@ partner: Odoo S.A.
 | [Partner Secondary Email](Partner%20Secondary%20Email.md)                                         | Zweite E-Mail für alle Kontakte.                                            |
 | [Partner Secondary Name](Partner%20Secondary%20Name.md)                                           | Zweitname für Unternehmen.                                                  |
 | [Partner Stage](Partner%20Stage.md)                                                               | Stufen-Felder für Kontakte.                                                 |
-| [Partner Type Membership](Partner%20Type%20Membership.md)                                         | Legen Sie einen Unternehmens-Kontakt als Kontaktperson Mitgliedschaft fest. |
+| [Partner Type Membership](Partner%20Type%20Membership.md)                                         | Legen Sie einen Kontakt als Kontaktperson Mitgliedschaft fest. |
 | [Partner Type Order](Partner%20Type%20Order.md)                                                   | Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.               |
 | [Partner Type Sale](Partner%20Type%20Sale.md)                                                     | Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.              |
 | [Partner unique reference](Partner%20Unique%20Ref.md)                                             | Kontakt-Referenz wird eindeutig gespeichert.                                |
