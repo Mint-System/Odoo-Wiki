@@ -23,7 +23,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-SaaS/tree/16.0/li
 | [License Sale](License%20Sale.md)                   | Lizenz aus Verkaufsauftrag generieren.                          |
 | [License Subscription](License%20Subscription.md)   | Lizenzen mit Abonnementen erneuern.                             |
 | [License Website Sale](License%20Website%20Sale.md) | Im Webshop gekaufte Lizenzen aktivieren.                        |
-| [License Website](License%20Website.md)             | Kundenportal zur Lizenzverwaltung.                              |
+| [License Portal](License%20Portal.md)             | Kundenportal zur Lizenzverwaltung.                              |
 | [[License Partner Comission]]                       |                                                                 |
 
 ## Beschreibung
