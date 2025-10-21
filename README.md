@@ -226,12 +226,6 @@ Setzen Sie das Marketing auf Autopilot.
 
 Mitglieder und Mitgliedschaften verwalten.
 
-### [Web](Web.md)
-
-![icons_odoo_website_partner](attachments/icons_odoo_website_partner.png)
-
-Benutzeroberfläche von Odoo.
-
 ### [Notizen](Note.md)
 
 ![icons_odoo_note](attachments/icons_odoo_note.png)
@@ -375,6 +369,12 @@ Versandmethoden und Logistik definieren.
 ![icons_odoo_maintenance](attachments/icons_odoo_maintenance.png)
 
 Wartungs-Software für moderne Hersteller.
+
+### [Web](Web.md)
+
+![icons_odoo_website_partner](attachments/icons_odoo_website_partner.png)
+
+Benutzeroberfläche von Odoo.
 
 ### [Website](Website.md)
 
