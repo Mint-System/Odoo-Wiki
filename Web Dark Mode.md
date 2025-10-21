@@ -3,7 +3,7 @@ title: Web Dark Mode
 description: Dark mode für Web-Oberfläche.
 kind: howto
 partner: OCA
-prev: ./base
+prev: ./web
 ---
 
 # Web Dark Mode

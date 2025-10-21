@@ -3,7 +3,7 @@ title: Web Editor Disable Convert Inline
 description: Konvertierung der Inline-Styles im Odoo Editor verhindern.
 kind: howto
 partner: Mint-System
-prev: ./base
+prev: ./web
 ---
 
 # Web Editor Disable Convert Inline

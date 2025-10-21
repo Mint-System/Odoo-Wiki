@@ -1,16 +1,28 @@
 ---
-title: Navigation
-description: Navigation in der Benutzeroberfläche von Odoo.
+title: Web
+description: Benutzeroberfläche von Odoo.
 kind: howto
 prev: ./
 partner: Odoo S.A.
 ---
 
-# Navigation
+# Web
 
 ![icons_odoo_website_partner](attachments/icons_odoo_website_partner.png)
 
 {{ $frontmatter.description }}
+
+## Erweiterungen
+
+| Erweiterung                                                                         | Beschreibung                                                         |     |     |     |     |     |     |
+| ----------------------------------------------------------------------------------- | -------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Web Dark Mode](Web%20Dark%20Mode.md)                                               | Dark mode für Web-Oberfläche.                                        |     |     |     |     |     |     |
+| [Web Editor Disable Convert Inline](Web%20Editor%20Disable%20Convert%20Inline.md)   | Konvertierung der Inline-Styles im Odoo Editor verhindern.           |     |     |     |     |     |     |
+| [Web Editor Show Code](Web%20Editor%20Show%20Code.md)                               | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |     |     |     |     |     |     |
+| [Web Font Arial](Web%20Font%20Arial.md)                                             | Fügt Schriftart Arial der Auswahl hinzu.                             |     |     |     |     |     |     |
+| [Web Font Dobra Book](Web%20Font%20Dobra%20Book.md)                                 | Fügt Schriftart Dobro Book der Auswahl hinzu,                        |     |     |     |     |     |     |
+| [Web Referesher](Web%20Referesher.md)                                               | Fügt einen Button zur Aktualisierung der Listenansicht hinzu.        |     |     |     |     |     |     |
+| [Web Responsive](Web%20Responsive.md)                                               | Responsive Anzeige der Odoo-Oberfläche.                              |     |     |     |     |     |     |
 
 ## Ansichten
 

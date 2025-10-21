@@ -3,7 +3,7 @@ title: Web Responsive
 description: Responsive Anzeige der Odoo-Oberfläche.
 kind: howto
 partner: OCA
-prev: ./base
+prev: ./web
 ---
 
 # Web Responsive

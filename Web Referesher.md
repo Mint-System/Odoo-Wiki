@@ -4,7 +4,7 @@ description: Fügt einen Button zur Aktualisierung der Listenansicht hinzu.
 kind: howto
 tags:
   - OCA
-prev: ./base
+prev: ./web
 ---
 
 # Web Referesher

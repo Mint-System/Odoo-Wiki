@@ -226,11 +226,11 @@ Setzen Sie das Marketing auf Autopilot.
 
 Mitglieder und Mitgliedschaften verwalten.
 
-### [Navigation](Navigation.md)
+### [Web](Web.md)
 
 ![icons_odoo_website_partner](attachments/icons_odoo_website_partner.png)
 
-Navigation in der Benutzeroberfläche von Odoo.
+Benutzeroberfläche von Odoo.
 
 ### [Notizen](Note.md)
 

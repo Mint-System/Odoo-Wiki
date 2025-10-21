@@ -3,7 +3,7 @@ title: Web Editor Show Code
 description: Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen.
 kind: howto
 partner: Mint-System
-prev: ./base
+prev: ./web
 ---
 
 # Web Editor Show Code
