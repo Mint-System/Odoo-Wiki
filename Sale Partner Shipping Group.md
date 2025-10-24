@@ -14,3 +14,9 @@ prev: ./sale
 
 Technischer Name: `sale_partner_shipping_group`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_partner_shipping_group
+
+## Verwendung
+
+### Zugriff auf Lieferadresse erlauben
+
+Zeigen Sie die Gruppe *Zugriffsgruppe für Lieferadresse* unter *Einstellugen > Benutzer & Gruppen > Gruppen* an. Fügen Sie Benutzer hinzu, welche die Lieferadresse auf Verkaufsaufträgen sehen sollen.
