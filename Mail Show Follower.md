@@ -13,7 +13,7 @@ prev: ./dialog
 {{ $frontmatter.description }}
 
 Technischer Name: `mail_show_follower`\
-Repository: <https://github.com/OCA/social/tree/17.0/mail_show_follower>
+Repository: <https://github.com/OCA/mail/tree/18.0/mail_show_follower>
 
 ## Konfiguration
 
