@@ -32,7 +32,6 @@ Website: <https://www.odoo.com/de_DE/app/email-marketing>
 | [Mail tracking for mass mailing](Mail%20tracking%20for%20mass%20mailing.md)              | Mail-Statistik basierend auf Mail-Tracking.                       |
 | [Mass Mailing Contact Active](Mass%20Mailing%20Contact%20Active.md)                      | Mailkontakte und Abonnements archivieren.                         |
 | [Survey Send To List](Survey%20Send%20To%20List.md)                                      | Versand Umfrage an Mailing-Liste.                                 |
-| [Dynamic Mass Mailing Lists](Dynamic%20Mass%20Mailing%20Lists.md)                        | Synchronisieren Kontakte und Mailinglisten.                       |
 
 ## Konfiguration
 
