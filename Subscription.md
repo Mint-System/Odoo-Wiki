@@ -67,3 +67,19 @@ Führen Sie [Filter manuell anlegen](Development%20Views.md#Filter%20manuell%20a
 | Aktion            | Abonnements                                                                                                        |
 | Domain            | `["&", ("renew_state", "=", "renewing"), "&", ("state", "=", "draft"), ("subscription_management", "=", "renew")]` |
 | Kontext           | `{'group_by': []}`                                                                                                 |
+
+## Auswertung
+
+### Wiederkehrende Buchungszeilen anzeigen
+
+Gilt bis #Odoo15.
+
+Damit Sie eine Übersicht der wiederkehrenden Buchungszeilen erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+
+Name der Aktion: `Wiederkehrende Buchungszeilen`\
+Objekt: `sale.subscription.line`\
+Ansichtsmodus: `tree,form`\
+Menü: `Wiederkehrende Buchungszeilen`\
+Obermenü: `Abonnements/Abonnements`\
+Aktion: `ir.actions.act_window` `Wiederkehrende Buchungszeilen`\
+Nummernfolge: `50`
