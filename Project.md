@@ -31,6 +31,7 @@ Website: <https://www.odoo.com/de_DE/app/project>
 | [Project Partner Open Tasks](Project%20Partner%20Open%20Tasks.md)                 | Offene Aufgaben auf Partner-Ansicht anzeigen.            |
 | [Project Phase Estimate](Project%20Phase%20Estimate.md)                           | Aufwandsschätzung pro Projekt und Phase.                 |
 | [Project Phase](Project%20Phase.md)                                               | Projektaufgaben mit Projektphasen verwalten.             |
+| [Project Task Add Very High](Project%20Task%20Add%20Very%20High.md)               | Priorität mit 4 Stufen abbilden.                         |
 | [Project Task All Menu](Project%20Task%20All%20Menu.md)                           | Menu Alle Aufgaben hinzufügen.                           |
 | [Project Task Default Stage](Project%20Task%20Default%20Stage.md)                 | Standardstufen für Projektaufgaben.                      |
 | [Project Task Dependencies](Project%20Task%20Dependencies.md)                     | Projektaufgaben mit Abhängigkeiten.                      |

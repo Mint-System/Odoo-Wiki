@@ -23,23 +23,24 @@ Website: <https://www.odoo.com/de_DE/app/employees>
 
 ## Erweiterungen
 
-| Erweiterung                                                         | Beschreibung                                                                              |
-| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| [Employee Vehicle Request](Employee%20Vehicle%20Request.md)         | Fahrzeug-Reservationen für Mitarbeitende verwalten.                                       |
-| [HR Activity Date](HR%20Activity%20Date.md)                         | Plannungstypen mit Aktivitätsdatum basierend auf Arbeitsverträgen.                        |
-| [HR Birthday Calender](HR%20Birthday%20Calender.md)                 | Kalenderansicht aller Geburtstage.                                                        |
-| [HR Calendar User Color](HR%20Calendar%20User%20Color.md)           | Events im Kalender nach User-Color färben                                                 |                                                                                                   |                                                                                           |
-| [HR Employee Employ Like](HR%20Employee%20Employ%20Like.md)         | Neues Feld Anstellung wie auf Mitarbeitenden.                                             |
-| [HR Employee Firstname](HR%20Employee%20Firstname.md)               | Vor- und Nachname auf Mitarbeitenden.                                                     |
-| [HR Employee ID](HR%20Employee%20ID.md)                             | Identifikationsnummer für Mitarbeitende.                                                  |
-| [HR Employee Skill](HR%20Employee%20Skill.md)                       | Übersicht der Mitarbeiterfähigkeiten.                                                     |
-| [HR Employee User ACL](HR%20Employee%20User%20ACL.md)               | Zugriffsrechte auf Mitarbeitende festlegen.                                               |
-| [HR Holidays User ACL](HR%20Holidays%20User%20ACL.md)               | Zugriffsrechte auf Abwesenheiten festlegen.                                               |
-| [HR Shortname](HR%20Shortname.md)                                   | Zu jedem Mitarbeitenden ein Kürzel speichern.                                             |
-| [HR Vehicle Request Calendar](HR%20Vehicle%20Request%20Calendar.md) | Kalenderansicht und Terminbestätigung für Fahrzeuganfragen.                               |
-| [HR Vehicle Request](HR%20Vehicle%20Request.md)                     | Fahrzeuganfragen für Mitarbeitende verwalten.                                             |
-| [HR Work Entry Profile](HR%20Work%20Entry%20Profile.md)             | Mitarbeiter können ihre Arbeitseinträge im Profile anzeigen.                              |
-| [Resource Calendar Get Days](Resource%20Calendar%20Get%20Days.md)   | Die Anzahl Tage in Abwesenheiten relativ zu den Arbeitszeiten des Unternehmens berechnen. |
+| Erweiterung                                                                               | Beschreibung                                                                              |     |     |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | --- | --- |
+| [Employee Vehicle Request](Employee%20Vehicle%20Request.md)                               | Fahrzeug-Reservationen für Mitarbeitende verwalten.                                       |     |     |
+| [HR Activity Date](HR%20Activity%20Date.md)                                               | Plannungstypen mit Aktivitätsdatum basierend auf Arbeitsverträgen.                        |     |     |
+| [HR Birthday Calender](HR%20Birthday%20Calender.md)                                       | Kalenderansicht aller Geburtstage.                                                        |     |     |
+| [HR Calendar User Color](HR%20Calendar%20User%20Color.md)                                 | Events im Kalender nach User-Color färben                                                 |     |     |
+| [HR Employee Employ Like](HR%20Employee%20Employ%20Like.md)                               | Neues Feld Anstellung wie auf Mitarbeitenden.                                             |     |     |
+| [HR Employee Firstname](HR%20Employee%20Firstname.md)                                     | Vor- und Nachname auf Mitarbeitenden.                                                     |     |     |
+| [HR Employee ID](HR%20Employee%20ID.md)                                                   | Identifikationsnummer für Mitarbeitende.                                                  |     |     |
+| [HR Employee Paid Out Overtime Report](HR%20Employee%20Paid%20Out%20Overtime%20Report.md) | Bericht Mitarbeitende mit ausbezahlten Überstunden.                                       |     |     |
+| [HR Employee Skill](HR%20Employee%20Skill.md)                                             | Übersicht der Mitarbeiterfähigkeiten.                                                     |     |     |
+| [HR Employee User ACL](HR%20Employee%20User%20ACL.md)                                     | Zugriffsrechte auf Mitarbeitende festlegen.                                               |     |     |
+| [HR Holidays User ACL](HR%20Holidays%20User%20ACL.md)                                     | Zugriffsrechte auf Abwesenheiten festlegen.                                               |     |     |
+| [HR Shortname](HR%20Shortname.md)                                                         | Zu jedem Mitarbeitenden ein Kürzel speichern.                                             |     |     |
+| [HR Vehicle Request Calendar](HR%20Vehicle%20Request%20Calendar.md)                       | Kalenderansicht und Terminbestätigung für Fahrzeuganfragen.                               |     |     |
+| [HR Vehicle Request](HR%20Vehicle%20Request.md)                                           | Fahrzeuganfragen für Mitarbeitende verwalten.                                             |     |     |
+| [HR Work Entry Profile](HR%20Work%20Entry%20Profile.md)                                   | Mitarbeiter können ihre Arbeitseinträge im Profile anzeigen.                              |     |     |
+| [Resource Calendar Get Days](Resource%20Calendar%20Get%20Days.md)                         | Die Anzahl Tage in Abwesenheiten relativ zu den Arbeitszeiten des Unternehmens berechnen. |     |     |
 
 ## Organisation
 

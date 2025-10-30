@@ -164,7 +164,7 @@ Navigieren Sie auf dem Testsystem nach _Einstellungen > Technisch > Systemparame
 
 Odoo registriert eine eindeutige Nummer (UUID) auf dem Lizenzserver von Odoo S.A. und lädt die Lizenzinformationen herunter. Die automatische Synchronisation der Informationen können Sie wie folgt ausführen.
 
-[Zeigen Sie die Externe ID](Development.md#Externe%20ID%20anzeigen) mit Schlüssel `mail.ir_cron_module_update_notification` an. Klicken Sie auf den verlinkten Datensatz. Sie gelangen zur geplanten Aktion _Veröffentlicher: Benachrichtigung aktualisieren_. Führen Sie die Aktion aus.
+[Zeigen Sie die Externe ID](Development.md#Externe%20ID%20anzeigen) mit Schlüssel `mail.ir_cron_module_update_notification` an. Klicken Sie auf den verlinkten Datensatz (`ir.cron`). Sie gelangen zur geplanten Aktion _Veröffentlicher: Benachrichtigung aktualisieren_. Führen Sie die Aktion aus.
 
 ### Synchronisation mit Lizenzserver deaktivieren
 
