@@ -29,7 +29,7 @@ Damit Sie eine Übersicht der Subscription lines  erhalten, folgen Sie dem HowTo
 
 Name der Aktion: `Subscription lines`\
 Objekt: `sale.subscription.line`\
-Ansichtsmodus: `tree,form`\
+Ansichtsmodus: `tree,form,pivot`\
 Menü: `Subscription lines `\
 Obermenü: `Subscriptions/Subscriptions`\
 Aktion: `ir.actions.act_window` `Subscription lines`\
