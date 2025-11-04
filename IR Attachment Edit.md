@@ -14,4 +14,4 @@ prev: ./base
 {{ $frontmatter.description }}
 
 Technischer Name: `ir_attachment_edit`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/18.0/ir_attachment_edit>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/15.0/ir_attachment_edit>
