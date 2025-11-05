@@ -14,7 +14,7 @@ prev: ./iot
 
 Technischer Name: `muk_rest`\
 Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/16.0/muk_rest>\
-Odoo App Store: <https://apps.odoo.com/apps/modules/16.0/muk_rest/>\
+Odoo App Store: <https://apps.odoo.com/apps/modules/16.0/muk_rest/>
 
 ## Verwendung
 
