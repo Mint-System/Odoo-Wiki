@@ -36,6 +36,7 @@ partner: Mint-System
 | [Components](Components.md)                                                                 | Kompontent-System für das Connector-Framework.                      |
 | [Date Range](Date%20Range.md)                                                               | Verwaltung von Datums-Bereichen zur Filterung von Daten.            |
 | [Endpoint route handler](Endpoint%20route%20handler.md)                                     | Web-Routen während Ausführung hinzufügen und entfernen              |
+| [FastAPI Auth JWT support](FastAPI%20Auth%20JWT%20support.md)                               | JWT Authentication for FastAPI.                                     |
 | [FastAPI](FastAPI.md)                                                                       | FastAPI-Integration für Odoo.                                       |
 | [Fs Folder](Fs%20Folder.md)                                                                 | Dateien und Ordner mit externem Dateisystem verlinken.              |
 | [Mail Environment](Mail%20Environment.md)                                                   | Mail-Server aus Umgebungsvariablen laden.                           |
