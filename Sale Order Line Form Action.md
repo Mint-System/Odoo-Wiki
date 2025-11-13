@@ -14,3 +14,13 @@ prev: ./sale
 
 Technischer Name: `sale_order_line_form_action`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_order_line_form_action>
+
+## Beschreibung
+
+Mit dieser Erweiterung können Sie Auftragszeilen auf einem Auftrag in der Formularansicht öffnen und bearbeiten.
+
+## Verwendung
+
+### Auftragszeile in Formularansicht öffnen
+
+Öffnen Sie einen Auftrag unter *Verkauf > Aufträge*. Klicken Sie am Ende einer Auftragsaufzeile auf den Menü-Knopf. Die Auftragszeile öffnet sich als Dialog und kann bearbeitet werden.
