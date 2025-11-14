@@ -21,7 +21,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sa
 
 Gilt ab #Odoo17:
 
-
+Mit dieser Erweiterung wird der Angebotsname aus der verlinkten Projektnummer generiert. Erstellen Sie ein Angebot und wählen Sie ein Projekt aus.
 
 ### Angebotsname von verlinkter Projektnummer übernehmen
 
