@@ -17,7 +17,15 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sa
 
 ## Verwendung
 
+### Angebotsname aus verlinkter Projektnummer generieren
+
+Gilt ab #Odoo17:
+
+
+
 ### Angebotsname von verlinkter Projektnummer übernehmen
+
+Gilt bis #Odoo15:
 
 Mit dieser Erweiterung können Sie beim Erstellen eines Angebots, direkt ein Projekt verlinken. Wird das Angebot erstellt, wird die Projektnummer als Anzeigenamen verwendet. Der Kunde des Angebots wird als Kunde auf dem Projekt eingetragen.
 
