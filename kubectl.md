@@ -12,7 +12,7 @@ prev: ./mint-cloud
 {{ $frontmatter.description }}
 
 Technischer Name: `kubectl`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-SaaS/tree/18.0/kubectl>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Kubernetes/tree/18.0/kubectl>
 
 ## Verwendung
 
