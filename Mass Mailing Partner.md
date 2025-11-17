@@ -13,4 +13,4 @@ prev: ./mass-mailing
 {{ $frontmatter.description }}
 
 Technischer Name: `mass_mailing_partner`\
-Repository: <https://github.com/OCA/social/tree/17.0/mass_mailing_partner>
+Repository: <https://github.com/OCA/mass-mailing/tree/18.0/mass_mailing_partner>
