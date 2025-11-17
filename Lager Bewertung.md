@@ -15,7 +15,7 @@ prev: ./stock
 
 ### Automatische Buchung für Bestandsbewertung aktivieren
 
-Navigieren Sie nachg *Einstellungen > Buchhaltung > Bestandsbewertung* und aktivieren Sie die Option *Automatische Buchhaltung*.
+Navigieren Sie nach *Einstellungen > Buchhaltung > Bestandsbewertung* und aktivieren Sie die Option *Automatische Buchhaltung*.
 
 ### Konten für Bestandsbewertung festlegen
 
