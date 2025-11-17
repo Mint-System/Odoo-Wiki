@@ -30,7 +30,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 ## Erweiterungen
 
 | Erweiterung                                                                                   | Beschreibung                                                                                                |
-| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | --- | --- |
+| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | [AMQP Base](AMQP%20Base.md)                                                                   | AMQP Zielhosts verwalten.                                                                                   |
 | [Anb Stock Picking Valued](Anb%20Stock%20Picking%20Valued.md)                                 | Preislisten für Bestandsbewertung                                                                           |
 | [Demand Planner](Demand%20Planner.md)                                                         | Bestellvorschläge für Kompontenten aus Stücklisten anhand Lageroperationen und Prognosen generieren lassen. |
@@ -46,7 +46,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Inventory Summary](Stock%20Inventory%20Summary.md)                                     | Lagerbestand gruppiert nach Lagerort und Produkt.                                                           |
 | [Stock Kardex](Stock%20Kardex.md)                                                             | Kommunikation mit externem Kardex-Produktionssystem.                                                        |
 | [Stock Lot Traceability List](Stock%20Lot%20Traceability%20List.md)                           | Daten aus Lieferverfolgungsbericht als Liste anzeigen.                                                      |
-| [Stock Move Analysis Value](Stock%20Move%20Analysis%20Value.md)                               | Planungskosten in der Buchungsanalyse anzeigen.                                                             |     |     |
+| [Stock Move Analysis Value](Stock%20Move%20Analysis%20Value.md)                               | Planungskosten in der Buchungsanalyse anzeigen.                                                             |
 | [Stock Move Available Locations](Stock%20Move%20Available%20Locations.md)                     | Nur Lagerorte mit Bestand in Auswahl anzeigen.                                                              |
 | [Stock Move Line Auto Fill](Stock%20Move%20Line%20Auto%20Fill.md)                             | Die erledigte Menge auf einem Transfer automatisch ausfüllen.                                               |
 | [Stock Move Line Lot Done](Stock%20Move%20Line%20Lot%20Done.md)                               | Erledigte Menge bei Zuweisung von Los festlegen.                                                            |
