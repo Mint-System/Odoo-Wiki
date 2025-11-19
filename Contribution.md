@@ -133,13 +133,6 @@ Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscr
 :::
 ```
 
-Output:
-
-::: warning
-Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscribe) zu verwenden.
-#DEPRECATED
-:::
-
 Wenn die Funktion der App Teil von Odoo geworden ist, können Sie diese wie folgt markieren:
 
 ```
@@ -149,12 +142,15 @@ Seit #Odoo18 wird diese App nicht mehr benötigt.
 :::
 ```
 
-Output:
 
+Wenn die Funktion der App Teil von einer anderen App geworden ist, können Sie diese wie folgt markieren:
+
+```
 ::: warning
-Seit #Odoo18 wird diese App nicht mehr benötigt. 
+Seit #Odoo18 ist diese App Teil von [Mail Unsubscribe].
 #DEPRECATED
 :::
+```
 
 ### Bilder
 
