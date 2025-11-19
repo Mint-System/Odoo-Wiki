@@ -15,6 +15,11 @@ prev: ./dashboards
 Technischer Name: `board_user_acl`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/board_user_acl>
 
+::: warning
+Seit #Odoo18 wird diese App nicht mehr benötigt. 
+#DEPRECATED
+:::
+
 ## Verwendung
 
 ### Zugriff auf App-Menü Dashboards erteilen
