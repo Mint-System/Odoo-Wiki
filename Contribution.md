@@ -129,7 +129,7 @@ Wenn Apps verwaltet sind, können Sie diese wie folgt markieren:
 ```
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscribe) zu verwenden.
-#deprecated
+#DEPRECATED
 :::
 ```
 
@@ -137,6 +137,22 @@ Output:
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscribe) zu verwenden.
+#DEPRECATED
+:::
+
+Wenn die Funktion der App Teil von Odoo geworden ist, können Sie diese wie folgt markieren:
+
+```
+::: warning
+Seit #Odoo18 wird diese App nicht mehr benötigt. 
+#DEPRECATED
+:::
+```
+
+Output:
+
+::: warning
+Seit #Odoo18 wird diese App nicht mehr benötigt. 
 #DEPRECATED
 :::
 

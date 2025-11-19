@@ -14,3 +14,8 @@ prev: ./hr-attendance
 
 Technischer Name: `hr_attendance_missing_contract`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_attendance_missing_contract>
+
+::: warning
+Seit #Odoo18 wird diese App nicht mehr benötigt. 
+#DEPRECATED
+:::
