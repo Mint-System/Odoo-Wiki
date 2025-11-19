@@ -14,3 +14,8 @@ prev: ./dialog
 
 Technischer Name: `mail_composer_mass_layout`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/16.0/mail_composer_mass_layout>
+
+::: warning
+Seit #Odoo18 wird diese App nicht mehr benötigt. 
+#DEPRECATED
+:::

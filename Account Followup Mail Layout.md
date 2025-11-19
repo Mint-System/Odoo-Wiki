@@ -14,3 +14,8 @@ prev: ./invoicing
 
 Technischer Name: `account_followup_mail_layout`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/account_followup_mail_layout>
+
+::: warning
+Seit #Odoo18 wird diese App nicht mehr benötigt. 
+#DEPRECATED
+:::
