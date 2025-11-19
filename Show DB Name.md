@@ -15,6 +15,11 @@ prev: ./base
 Technischer Name: `show_db_name`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/show_db_name>
 
+::: warning
+Seit #Odoo14  wird diese App nicht mehr benötigt. 
+#DEPRECATED
+:::
+
 ## Verwendung
 
 ### Datenbanknamen anzeigen
