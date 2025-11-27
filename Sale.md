@@ -88,6 +88,10 @@ Wenn Sie ihre Angebote von Kunden mit einer Online-Unterschrift bestätigen lass
 
 Wenn Sie ihre Angebote von Kunden mit einer Online-Zahlung bestätigen lassen wollen, aktivieren Sie die Option _Einstellungen > Verkauf > Angebot & Auftrage > Online-Zahlung_.
 
+### Versand Inhalte per E-Mail aktivieren
+
+Navigieren Sie nach *Einstellungen > Verkauf > Produktkatalog* und aktivieren Sie die Option *Inhalte per E-Mail senden*. 
+
 ## Aufträge
 
 ### Verkauf Dashboard anzeigen
