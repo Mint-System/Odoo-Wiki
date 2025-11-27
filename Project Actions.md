@@ -47,7 +47,7 @@ Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 # Settings
-parent_menu_id = 865
+parent_menu_id = env.ref('project.menu_projects_group_stage').id
 lang = 'de_CH'
 
 # Get all projects
@@ -62,7 +62,7 @@ for project in project_ids:
 
   # Check if action entry exists
   action = env['ir.actions.act_window'].with_context(lang=lang).search([('name', '=', name)], limit=1)
-
+ 
   # Create action if it does not exist otherwise update the action
   if not action:
     action = env['ir.actions.act_window'].with_context(lang=lang).create({
@@ -83,7 +83,7 @@ for project in project_ids:
 
   # Set action reference
   action_ref = 'ir.actions.act_window,' + str(action.id)
-
+  
   # Check if menu entry exists
   menu = env['ir.ui.menu'].with_context(lang=lang).search([('name', '=', name)], limit=1)
 
@@ -121,7 +121,7 @@ for project in project_ids:
     removed_menus.append(menu.name)
     menu.unlink()
 
-
+    
   # Check if action entry exists and remove it if found
   action = env['ir.actions.act_window'].with_context(lang=lang).search([('name', '=', name)], limit=1)
   if action:
