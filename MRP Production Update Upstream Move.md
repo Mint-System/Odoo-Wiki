@@ -13,7 +13,7 @@ prev: ./manufacture
 {{ $frontmatter.description }}
 
 Technischer Name: `mrp_production_update_upstream_move`\
-Repository: <https://github.com/OCA/product-attribute/tree/14.0/mrp_production_update_upstream_move>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_production_update_upstream_move>
 
 ## Verwendung
 
