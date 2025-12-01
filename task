@@ -5,7 +5,7 @@ if [[ -a ".env" ]]; then
     export $(cat .env | sed 's/^#.*//g' | xargs)
 fi
 
-function help() {
+help() {
     echo
     echo "task <command> [options]"
     echo
@@ -37,9 +37,9 @@ if [ -d "$HOME/taskfile.build/bin" ]; then
     done
 fi
 
-function update-repo-url() {
+update-repo-url() {
 
-    VERSIONS=("14.0" "15.0" "16.0" "17.0" "18.0")
+    VERSIONS=("14.0" "15.0" "16.0" "17.0" "18.0", "19.0")
 
     TOTAL_FILES=$(find . -maxdepth 1 -name "*.md" -type f | wc -l)
     FILE_COUNT=0
@@ -77,11 +77,11 @@ function update-repo-url() {
     done
 }
 
-function install() {
+install() {
     pnpm install
 }
 
-function update() {
+update() {
     pnpm install -D @vuepress/bundler-vite@next
     pnpm install -D @vuepress/client@next
     pnpm install -D @vuepress/plugin-docsearch@next
@@ -92,24 +92,24 @@ function update() {
     pnpm install -D vuepress@next
 }
 
-function dev-vuepress() {
-    pnpm run dev
+dev-vuepress() {
+    (open-url-with-delay "http://localhost:8080/") & pnpm run dev
 }
 
-function build-vuepress() {
+build-vuepress() {
     pnpm run build
 }
 
-function serve-vuepress() {
+serve-vuepress() {
     cd ./src/.vuepress/dist
     npx serve
 }
 
-function download-icons() {
+download-icons() {
     pnpm run download-icons
 }
 
-function lint() {
+lint() {
     pnpm exec prettier . --write
 }
 

@@ -4,7 +4,7 @@ import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
 import { plausiblePlugin } from './plausible'
 import { mermaidPlugin } from './mermaid'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
-import sidebar from './sidebar'
+// import sidebar from './sidebar'
 import { defineUserConfig } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
 
@@ -29,15 +29,15 @@ export default defineUserConfig({
         link: 'https://matrix.to/#/!KrqriCmWfsDJxdWNtE:mint-system.ch?via=mint-system.ch&via=matrix.org',
       },
     ],
-    sidebar: {
-      '/': [
-        {
-          text: 'Home',
-          collapsable: false,
-          children: sidebar,
-        },
-      ],
-    },
+    // sidebar: {
+    //   '/': [
+    //     {
+    //       text: 'Home',
+    //       collapsable: false,
+    //       children: sidebar,
+    //     },
+    //   ],
+    // },
   }),
   plugins: [
     // slimsearchPlugin({

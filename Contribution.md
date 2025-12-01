@@ -29,7 +29,7 @@ Hier finden Sie technische Konfigurationen damit Sie an der Wissensdatenbank mit
 4. Installieren Sie <https://git-scm.com/>
 5. Verwenden Sie ihren bestehenden SSH-Schlüssel oder erstellen Sie ein neues SSH-Schlüsselpaar <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
 6. Forken Sie das _Odoo Wiki_ Repository (optional)
-7. Klonen Sie das \*Odoo Wiki Repository
+7. Klonen Sie das Odoo Wiki Repository
 
 ```bash
 git clone git@github.com:Mint-System/Odoo-Wiki.git

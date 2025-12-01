@@ -120,9 +120,9 @@ function convert(content, file) {
   }
 
   // convert markdown links
-  // [Title](Content.md#link to heading) -> [Title](Content.html#link-to-heading)
+  // [Title](Content%20Link.md#link to heading) -> [Title](content-link.html#link-to-heading)
   // Ignore [![Title](Link)](Link) and ![title](attachments/Image.png) and [title](https:)
-  const mdLink = /(?<!!)(\[(?!!).+\])(\((?!https:).+[.md#|\.md].+?\))/g
+  const mdLink = /(?<!!)(\[(?!!)[^\]]+\])(\((?!https:)[^)\s]+(?:#[^\s)]*)?\))/g
   const mdHref = /.+\]\(([^\)|#]*)/
   const mdTitle = /\[(.*)\]\(/
   const mdAnchor = /#(.*)\)/

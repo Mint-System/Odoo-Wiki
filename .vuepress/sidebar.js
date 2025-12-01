@@ -37,7 +37,6 @@ export default [
   "link-tracker.md",
   "marketing-automation.md",
   "membership.md",
-  "navigation.md",
   "note.md",
   "odoo-mobile-app.md",
   "hr.md",
@@ -62,6 +61,7 @@ export default [
   "sale.md",
   "delivery.md",
   "maintenance.md",
+  "web.md",
   "website.md",
   "website-e-commerce.md",
   "shoopfloor.md",
@@ -266,6 +266,7 @@ export default [
         "children": [
           "stock-actions.md",
           "stock-inventory.md",
+          "lager-bewertung.md",
           "stock-data-management.md",
           "stock-packaging.md",
           "stock-operations.md",
@@ -428,6 +429,7 @@ export default [
           "hr-attendance-missing.md",
           "hr-attendance-overtime-hours.md",
           "hr-attendance-policy.md",
+          "hr-attendance-report-add-flexitime.md",
           "hr-attendance-user-acl.md",
           "hr-employee-attendance-report.md",
           "theoretical-vs-attended-time-analysis.md"
@@ -614,6 +616,7 @@ export default [
           "components.md",
           "date-range.md",
           "endpoint-route-handler.md",
+          "fastapi-auth-jwt-support.md",
           "fastapi.md",
           "fs-folder.md",
           "mail-environment.md",
@@ -637,7 +640,6 @@ export default [
         "text": "Manufacture",
         "collapsible": true,
         "children": [
-          "cancel-manufacturing-order.md",
           "mrp-bom-consumption.md",
           "mrp-bom-list.md",
           "mrp-bom-position.md",
@@ -654,6 +656,7 @@ export default [
           "mrp-production-update-upstream-move.md",
           "mrp-production-upstream-state.md",
           "mrp-sale-info.md",
+          "mrp-suborder-sale-info.md",
           "mrp-workorder-disable-autostart.md",
           "mrp-workorder-set-producing-qty.md",
           "manufacture-production-move-date.md",
@@ -678,7 +681,8 @@ export default [
         "text": "Calendar",
         "collapsible": true,
         "children": [
-          "caldav-sync.md"
+          "caldav-sync.md",
+          "hr-calendar-user-color.md"
         ]
       },
       {
@@ -716,11 +720,12 @@ export default [
           "partner-ref-sequence.md",
           "partner-secondary-email.md",
           "partner-secondary-name.md",
+          "partner-stage.md",
           "partner-type-membership.md",
           "partner-type-order.md",
           "partner-type-sale.md",
-          "street3-in-addresses.md",
-          "partner-stage.md"
+          "partner-unique-ref.md",
+          "street3-in-addresses.md"
         ]
       },
       {
@@ -791,9 +796,11 @@ export default [
           "employee-vehicle-request.md",
           "hr-activity-date.md",
           "hr-birthday-calender.md",
+          "hr-calendar-user-color.md",
           "hr-employee-employ-like.md",
           "hr-employee-firstname.md",
           "hr-employee-id.md",
+          "hr-employee-paid-out-overtime-report.md",
           "hr-employee-skill.md",
           "hr-employee-user-acl.md",
           "hr-holidays-user-acl.md",
@@ -856,6 +863,7 @@ export default [
           "project-partner-open-tasks.md",
           "project-phase-estimate.md",
           "project-phase.md",
+          "project-task-add-very-high.md",
           "project-task-all-menu.md",
           "project-task-default-stage.md",
           "project-task-dependencies.md",
@@ -937,22 +945,17 @@ export default [
           "base-optional-quick-create.md",
           "base-recursion-limit.md",
           "base-user-acl.md",
-          "extended-view-inheritance.md",
+          "extended-view-inheritance-extension.md",
           "fetchmail-incoming-log.md",
           "float-align-at-decimal.md",
+          "ir-attachment-edit.md",
           "mail-format-with-parent.md",
           "mail-manual-routing.md",
           "mail-server-filter.md",
           "mail-service-users.md",
           "module-auto-update.md",
           "server-config-environment.md",
-          "url-slug.md",
-          "web-dark-mode.md",
-          "web-editor-disable-convert-inline.md",
-          "web-editor-show-code.md",
-          "web-font-arial.md",
-          "web-font-dobra-book.md",
-          "web-responsive.md"
+          "url-slug.md"
         ]
       },
       {
@@ -970,7 +973,8 @@ export default [
         "text": "Spreadsheet",
         "collapsible": true,
         "children": [
-          "spreadsheet-board-user-acl.md"
+          "spreadsheet-board-user-acl.md",
+          "spreadsheet-dashboard-disable-share.md"
         ]
       },
       {
@@ -1026,6 +1030,8 @@ export default [
           "sale-product-set-layout.md",
           "sale-product-set-search.md",
           "sale-product-set.md",
+          "sale-project-key.md",
+          "sale-project-link.md",
           "sale-triple-discount.md"
         ]
       },
@@ -1056,6 +1062,20 @@ export default [
           "maintenance-product.md",
           "maintenance-request-repair.md",
           "stock-barcode-maintenance.md"
+        ]
+      },
+      {
+        "text": "Web",
+        "collapsible": true,
+        "children": [
+          "web-dark-mode.md",
+          "web-editor-disable-convert-inline.md",
+          "web-editor-show-code.md",
+          "web-font-arial.md",
+          "web-font-dobra-book.md",
+          "web-font-manrope.md",
+          "web-referesher.md",
+          "web-responsive.md"
         ]
       },
       {
@@ -1154,16 +1174,21 @@ export default [
         "collapsible": true,
         "children": [
           "license-ocad.md",
+          "license-partner-comission.md",
+          "license-portal.md",
           "license-sale.md",
           "license-subscription.md",
-          "license-website-sale.md",
-          "license-website.md"
+          "license-website-sale.md"
         ]
       },
       {
         "text": "Management System",
         "collapsible": true,
         "children": [
+          "mgmt-asset-hr.md",
+          "mgmt-asset-maintenance.md",
+          "mgmt-asset-partner.md",
+          "mgmt-asset-product.md",
           "mgmt-asset-risk.md",
           "mgmt-audit-project.md",
           "mgmt-audit.md",
