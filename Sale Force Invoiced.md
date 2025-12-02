@@ -19,7 +19,7 @@ Repository: <https://github.com/OCA/sale-workflow/tree/19.0/sale_force_invoiced>
 
 ### Berechtigung für V:erkaufsauftrag als abgerechnet markieren" erteilen
 
-Zeigen Sie die Gruppen unter *Einstellungen > Benutzer & Unternehmen > Gruppen" an. Suchen Sie nach *Enable Force Invoiced*. Öffnen Sie die Gruppe und fügen Sie Benutzer hinzu.
+Zeigen Sie die Gruppen unter *Einstellungen > Benutzer & Unternehmen > Gruppen* an. Suchen Sie nach *Enable Force Invoiced*. Öffnen Sie die Gruppe und fügen Sie Benutzer hinzu.
 
 ## Verwendung
 

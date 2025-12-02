@@ -19,6 +19,13 @@ Repository: <https://github.com/OCA/timesheet/tree/17.0/sale_timesheet_line_excl
 Diese App erweitert die `_timesheet_determine_sale_line` Methode. Abhängig von der Installations-Reihenfolge der anderen Module, welche diese Methode erweitern, kann der Methoden-Aufruf blockiert werden.
 :::
 
+## Konfiguration
+
+### Berechtigung für "Von Abrechnung aus-/einschliessen" erteilen
+
+
+Zeigen Sie die Gruppen unter *Einstellungen > Benutzer & Unternehmen > Gruppen* an. Suchen Sie nach *Exclude timesheets from sale order*. Öffnen Sie die Gruppe und fügen Sie Benutzer hinzu.
+
 ## Aktionen
 
 ### Von Abrechnung aus-/einschliessen
