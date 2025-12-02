@@ -13,7 +13,8 @@ prev: ./manufacture
 {{ $frontmatter.description }}
 
 Technischer Name: `mrp_production_create_upstream_backorder`\
-Repository: <https://github.com/OCA/product-attribute/tree/14.0/mrp_production_create_upstream_backorder>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/mrp_production_create_upstream_backorder>
+
 
 ## Verwendung
 
