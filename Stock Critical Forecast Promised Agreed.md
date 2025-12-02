@@ -13,7 +13,7 @@ prev: ./stock-critical-forecast
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_critical_forecast_promised_agreed`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/16.0/stock_critical_forecast_promised_agreed>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_critical_forecast_promised_agreed>
 
 ## Verwendung
 

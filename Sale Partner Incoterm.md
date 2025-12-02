@@ -13,7 +13,7 @@ prev: ./sale
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_partner_incoterm`\
-Repository: <https://github.com/OCA/sale-workflow/tree/18.0/sale_partner_incoterm>
+Repository: <https://github.com/OCA/sale-workflow/tree/17.0/sale_partner_incoterm>
 
 ## Verwendung
 

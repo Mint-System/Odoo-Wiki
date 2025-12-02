@@ -13,7 +13,7 @@ prev: ./base
 {{ $frontmatter.description }}
 
 Technischer Name: `base_action_manager_access`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/18.0/base_action_manager_access>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/base_action_manager_access>
 
 ## Beschreibung
 

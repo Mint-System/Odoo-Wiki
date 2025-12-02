@@ -13,4 +13,4 @@ prev: ./manufacture
 {{ $frontmatter.description }}
 
 Technischer Name: `mrp_sale_info`\
-Repository: <https://github.com/OCA/manufacture/tree/18.0/mrp_sale_info>
+Repository: <https://github.com/OCA/manufacture/tree/19.0/mrp_sale_info>

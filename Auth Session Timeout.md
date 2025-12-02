@@ -13,4 +13,4 @@ prev: ./settings
 {{ $frontmatter.description }}
 
 Technischer Name: `auth_session_timeout`\
-Repository: <https://github.com/OCA/server-auth/tree/18.0/auth_session_timeout>
+Repository: <https://github.com/OCA/server-auth/tree/17.0/auth_session_timeout>

@@ -13,7 +13,7 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_picking_invoice_link`\
-Repository: <https://github.com/OCA/stock-logistics-workflow/tree/18.0/stock_picking_invoice_link>
+Repository: <https://github.com/OCA/stock-logistics-workflow/tree/19.0/stock_picking_invoice_link>
 
 ## Verwendung
 

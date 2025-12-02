@@ -14,4 +14,4 @@ prev: ./web
 {{ $frontmatter.description }}
 
 Technischer Name: `web_refresher`\
-Repository: <https://github.com/OCA/Web/tree/18.0/web_refresher>
+Repository: <https://github.com/OCA/Web/tree/17.0/web_refresher>

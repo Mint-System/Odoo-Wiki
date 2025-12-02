@@ -13,7 +13,7 @@ prev: ./hr-attendance
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_attendance_delta`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/18.0/hr_attendance_delta>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_attendance_delta>
 
 ## Beschreibung
 

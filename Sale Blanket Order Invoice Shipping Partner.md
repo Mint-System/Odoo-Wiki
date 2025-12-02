@@ -13,7 +13,7 @@ prev: ./sale-blanket-order
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_invoice_shipping_partner`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_blanket_order_invoice_shipping_partner>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_blanket_order_invoice_shipping_partner>
 
 ## Verwendung
 

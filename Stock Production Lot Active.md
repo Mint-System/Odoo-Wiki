@@ -13,7 +13,7 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_production_lot_active`\
-Repository: <https://github.com/OCA/stock-logistics-workflow/tree/18.0/stock_production_lot_active>
+Repository: <https://github.com/OCA/stock-logistics-workflow/tree/17.0/stock_production_lot_active>
 
 ## Verwendung
 

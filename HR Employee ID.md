@@ -13,7 +13,7 @@ prev: ./hr
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_employee_id`\
-Repository: <https://github.com/OCA/hr/tree/18.0/hr_employee_id>
+Repository: <https://github.com/OCA/hr/tree/17.0/hr_employee_id>
 
 ## Verwendung
 

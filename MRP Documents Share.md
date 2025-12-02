@@ -13,7 +13,7 @@ prev: ./manufacture
 {{ $frontmatter.description }}
 
 Technischer Name: `mrp_documents_share`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/18.0/mrp_documents_share>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/mrp_documents_share>
 
 ## Verwendung
 

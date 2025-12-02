@@ -13,7 +13,7 @@ prev: ./sale
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_force_invoiced`\
-Repository: <https://github.com/OCA/sale-workflow/tree/18.0/sale_force_invoiced>
+Repository: <https://github.com/OCA/sale-workflow/tree/19.0/sale_force_invoiced>
 
 ## Verwendung
 

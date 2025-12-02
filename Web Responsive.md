@@ -13,7 +13,7 @@ prev: ./web
 {{ $frontmatter.description }}
 
 Technischer Name: `web_responsive`\
-Repository: <https://github.com/OCA/web/tree/18.0/web_responsive>
+Repository: <https://github.com/OCA/web/tree/19.0/web_responsive>
 
 ## Verwendung
 

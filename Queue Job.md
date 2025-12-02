@@ -13,7 +13,7 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `queue_job`\
-Repository: <https://github.com/OCA/queue/tree/18.0/queue_job>
+Repository: <https://github.com/OCA/queue/tree/19.0/queue_job>
 
 ## Verwendung
 

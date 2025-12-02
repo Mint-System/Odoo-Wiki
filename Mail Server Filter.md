@@ -13,7 +13,7 @@ prev: ./base
 {{ $frontmatter.description }}
 
 Technischer Name: `mail_server_filter`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/18.0/mail_server_filter>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/19.0/mail_server_filter>
 
 ## Verwendung
 

@@ -13,4 +13,4 @@ prev: ./invoicing
 {{ $frontmatter.description }}
 
 Technischer Name: `account_followup_due_filter`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/18.0/account_followup_due_filter>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/account_followup_due_filter>

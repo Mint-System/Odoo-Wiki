@@ -13,4 +13,4 @@ prev: ./product
 {{ $frontmatter.description }}
 
 Technischer Name: `product_set`\
-Repository: <https://github.com/OCA/product-attribute/tree/18.0/product_set>
+Repository: <https://github.com/OCA/product-attribute/tree/17.0/product_set>

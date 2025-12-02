@@ -14,4 +14,4 @@ prev: ./hr
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_employee_paid_out_overtime_report`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_employee_paid_out_overtime_report>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/17.0/hr_employee_paid_out_overtime_report>

@@ -13,7 +13,7 @@ prev: ./base
 {{ $frontmatter.description }}
 
 Technischer Name: `base_optional_quick_create`\
-Repository: <https://github.com/OCA/server-ux/tree/18.0/base_optional_quick_create>
+Repository: <https://github.com/OCA/server-ux/tree/17.0/base_optional_quick_create>
 
 ## Beschreibung
 

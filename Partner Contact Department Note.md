@@ -13,7 +13,7 @@ prev: ./contacts
 {{ $frontmatter.description }}
 
 Technischer Name: `partner_contact_department_note`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/partner_contact_department_note>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/17.0/partner_contact_department_note>
 
 ## Verwendung
 

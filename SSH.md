@@ -13,7 +13,7 @@ partner: Mint-System
 {{ $frontmatter.description }}
 
 Technischer Name: `ssh`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/18.0/ssh>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/16.0/ssh>
 
 ## Beschreibung
 

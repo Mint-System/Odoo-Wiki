@@ -13,7 +13,7 @@ prev: ./brand
 {{ $frontmatter.description }}
 
 Technischer Name: `account_brand`\
-Repository: <https://github.com/OCA/brand/tree/18.0/account_brand>
+Repository: <https://github.com/OCA/brand/tree/17.0/account_brand>
 
 ## Verwendung
 

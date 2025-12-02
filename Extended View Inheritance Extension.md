@@ -13,4 +13,4 @@ prev: ./base
 {{ $frontmatter.description }}
 
 Technischer Name: `base_view_inheritance_extension`\
-Repository: <https://github.com/OCA/Server-Tools/tree/18.0/base_view_inheritance_extension>
+Repository: <https://github.com/OCA/Server-Tools/tree/17.0/base_view_inheritance_extension>
