@@ -3,7 +3,7 @@ title: Account Move Send Unsubscribe
 description: Alle Abonnenten nach Versenden der Rechnung entfernen.
 kind: howto
 partner: Mint-System
-prev: ./dialog
+prev: ./discuss
 ---
 
 # Account Move Send Unsubscribe

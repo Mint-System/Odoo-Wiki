@@ -27,7 +27,7 @@ Diese Header werden beim Empfang der Antwort-Mail von Odoo verarbeitet und dem e
 
 ## Rechnungen empfangen
 
-Es macht Sinn, dass man Rechnungen per E-Mail empfangen kann. Dazu braucht es zwei Einstellungen. Erstens muss man den [eingehenden Mail-Server konfigurieren](Dialog%20E-Mail.md#Eingehender%20Mail-Server%20konfigurieren).
+Es macht Sinn, dass man Rechnungen per E-Mail empfangen kann. Dazu braucht es zwei Einstellungen. Erstens muss man den [eingehenden Mail-Server konfigurieren](Discuss%20E-Mail.md#Eingehender%20Mail-Server%20konfigurieren).
 Zweitens muss man [Rechnung per E-Mail empfangen](Accounting.md#Rechnung%20per%20E-Mail%20empfangen) einrichten.
 
-Wenn alles eingerichtet ist, können Sie mit [Verarbeiten von eingehenden E-Mails ausführen](Dialog%20E-Mail.md#Verarbeiten%20von%20eingehenden%20E-Mails%20ausführen) den Abruf der E-Mails anstossen.
+Wenn alles eingerichtet ist, können Sie mit [Verarbeiten von eingehenden E-Mails ausführen](Discuss%20E-Mail.md#Verarbeiten%20von%20eingehenden%20E-Mails%20ausführen) den Abruf der E-Mails anstossen.

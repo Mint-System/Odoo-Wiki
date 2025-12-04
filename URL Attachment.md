@@ -3,7 +3,7 @@ title: URL Attachment
 description: Url als Dokument anhängen.
 kind: howto
 partner: OCA
-prev: ./dialog
+prev: ./discuss
 ---
 
 # URL Attachment

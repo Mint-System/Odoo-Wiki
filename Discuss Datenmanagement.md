@@ -1,11 +1,11 @@
 ---
-title: Dialog Datenmanagement
+title: Discuss Datenmanagement
 description: Daten zu Dialog exportieren und importieren.
 kind: howto
-prev: ./dialog
+prev: ./discuss
 ---
 
-# Dialog Datenmanagement
+# Discuss Datenmanagement
 
 ![icons_odoo_mail](attachments/icons_odoo_mail.png)
 

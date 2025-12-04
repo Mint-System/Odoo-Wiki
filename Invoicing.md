@@ -205,7 +205,7 @@ Die Gutschrift und Rechnung müssen den gleichen Kunden haben.
 
 Für den automatischen Versand von Rechnungen können E-Mail-Vorlagen erstellt werden.
 
-Unter _Einstellungen > Technisch > E-Mail > E-Mail-Vorlagen_ können die E-Mail-Vorlagen verwaltet werden. Erstellen Sie ein Duplikat der Vorlage _Invoice: Send by email_ und fahren Sie weiter gemäss [E-Mail-Vorlage erfassen](Dialog%20E-Mail.md#E-Mail-Vorlage%20erfassen).
+Unter _Einstellungen > Technisch > E-Mail > E-Mail-Vorlagen_ können die E-Mail-Vorlagen verwaltet werden. Erstellen Sie ein Duplikat der Vorlage _Invoice: Send by email_ und fahren Sie weiter gemäss [E-Mail-Vorlage erfassen](Discuss%20E-Mail.md#E-Mail-Vorlage%20erfassen).
 
 ### Standardvorlage deaktivieren
 
