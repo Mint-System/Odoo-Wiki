@@ -1,6 +1,6 @@
 ---
 title: Sale Restricted Qty
-description: Mindestbestellmenge für Produkte festlegen.
+description: Mindest- und Maximalbestellmenge für Produkte festlegen.
 kind: howto
 tags:
   - OCA
