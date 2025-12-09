@@ -23,7 +23,7 @@ Die Standard-Konten für die Bestandsbewertung können Sie an entweder auf in de
 
 Zur Konfiguration auf dem Unternehmen navigieren Sie nach  *Einstellungen > Buchhaltung > Bestandsbewertung*. Unterhalb der Option *Automatische Buchhaltung* finden Sie Auswahlfelder für die Konten.
 
-Zur Konfiguration auf der Produktkategorie navigieren Sie nach *Lager > Konfiguration > Produktkategorien* und öffnen eine Kategorie. Im Bereich *Bestandswertung* wählen Sie für *Bestandsbewertung* den Wert *Automatisch* aus. Nun werden die Auswahlfelder für die Konten eingeblendet.
+Zur Konfiguration auf der Produktkategorie navigieren Sie nach *Lager > Konfiguration > Produktkategorien* und öffnen eine Kategorie. Im Bereich *Bestandsbewertung* wählen Sie für *Bestandsbewertung* den Wert *Automatisch* aus. Nun werden die Auswahlfelder für die Konten eingeblendet.
 
 ### Angelsächsische Buchhaltung aktivieren
 
