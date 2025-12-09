@@ -71,15 +71,15 @@ Aus dem Verkaufsauftrag wird eine Rechnung generiert *INV/2025/00001*:
 
 ## Bilanz und Erfolgsrechnungen
 
-Am Ende des Jahres sehen die Bilanzkonten wie folgt aus:
+Am Ende des Jahres sehen die betroffenen Bilanzkonten so aus:
 
-| Konto                                                             |  Saldo |
-| ----------------------------------------------------------------- | ------:|
-| 1208 Akonto auf Güter / Handelswaren (Handel)                     |  0 CHF |
+| Konto                                                             |   Saldo |
+| ----------------------------------------------------------------- | -------:|
 | 1100 Forderungen aus Lieferungen und Leistungen (Debitoren)       | 100 CHF |
-| 2000 Verbindlichkeiten aus Lieferungen und Leistungen (Gläubiger) | 50 CHF       |
+| 1208 Akonto auf Güter / Handelswaren (Handel)                     |   0 CHF |
+| 2000 Verbindlichkeiten aus Lieferungen und Leistungen (Gläubiger) |  50 CHF |
 
-In der Erfolgsrechnungen sehen wir diese Kontent:
+In der Erfolgsrechnungen sehen wir diese relevanten Konten:
 
 | Konto                        |   Saldo |
 | ---------------------------- | -------:|
