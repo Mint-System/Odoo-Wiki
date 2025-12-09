@@ -37,4 +37,4 @@ Die Aktion lädt nun jeden Tag die EBIC-Dateien des Vortags herunter und verarbe
 
 ### Import-Log anzeigen
 
-Zeigen Sie die Ansicht _Finanzen > EBICS Processing > EBICS Batch Import Logs_ an. Für jeden automatischen Import-Vorgang wird hier ein Log-Eintrag erstellt.
+Zeigen Sie die Ansicht _Buchhaltung > EBICS Processing > EBICS Batch Import Logs_ an. Für jeden automatischen Import-Vorgang wird hier ein Log-Eintrag erstellt.
