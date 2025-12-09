@@ -85,4 +85,3 @@ In der Erfolgsrechnungen sehen wir diese relevanten Konten:
 | ---------------------------- | -------:|
 | 3200 Warenverkauf (Handel)   | 100 CHF |
 | 4200 Materialkosten (Handel) | -50 CHF |
-
