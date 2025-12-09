@@ -33,7 +33,7 @@ Auf der Produktkategorie *All* wurde Bestandsbewertung auf *Automatisch* festgel
 
 ## Einkauf
 
-Der Weinhändler erstellt eine Bestellung *P00001* beim Lieferanten *Deco Addict*. Das Produkt wird mit dem Wareneingang *WH/IN/00001* geliefert und eingebaucht. 
+Der Weinhändler erstellt eine Bestellung *P00001* beim Lieferanten *Deco Addict*. Das Produkt wird mit dem Wareneingang *WH/IN/00001* geliefert und eingebucht. 
 
 Odoo erstellt die folgende Journalbuchung:
 

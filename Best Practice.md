@@ -141,7 +141,7 @@ Hier geht es zum [Use Case - Schokoladenfabrik](Use%20Case%20Chocolate%20Factory
 
 Im Weinhandel müssen gekaufte Weine nicht als Aufwand verbucht werden, sondern als Vermögen (Einkauf=Vermögen und nicht Einkauf=Aufwand). In diesem Use Case wird beschrieben wie Odoo eingerichtet werden kann, damit eine automatische Bestandsbewertung für das Kellerbuch gelingt.
 
-Hier geht es zum[Use Case Weinhändler](Use%20Case%20Weinhändler.md)
+Hier geht es zum [Use Case Weinhändler](Use%20Case%20Weinhändler.md)
 
 ## Beispiel-Daten
 
