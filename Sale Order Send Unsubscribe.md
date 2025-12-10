@@ -3,7 +3,7 @@ title: Sale Order Send Unsubscribe
 description: Alle Abonnenten nach Versenden des Angebots entfernen.
 kind: howto
 partner: Mint-System
-prev: ./dialog
+prev: ./discuss
 ---
 
 # Sale Order Send Unsubscribe

@@ -72,6 +72,16 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Vendor Evaluation](Stock%20Vendor%20Evaluation.md)                                     | Lieferungen bewerten und Lieferanten auswerten.                                                             |
 | [Ventor Base](Ventor%20Base.md)                                                               | Basismodul für Ventor-Apps.                                                                                 |
 
+## Konfiguration
+
+### Lagerorte aktivieren
+
+Navigieren Sie Nach *Einstellungen > Lagerhaus* und aktivieren Sie Option *Lagerorte*.
+
+### Mehrstufige Routen aktivieren
+
+Aktivieren Sie die Option _Mehrstufige Routen_ unter _Einstellungen > Lager > Lagerhaus_.
+
 ## Vorgänge
 
 ### Lieferung ausführen
@@ -125,10 +135,6 @@ Erfassen Sie für das Lagerort _Virtual Locations/Scrap_ eine externe ID gemäss
 ![](attachments/Lager%20Lagerschwund%20externe%20ID.png)
 
 ## Routen
-
-### Mehrstufige Routen aktivieren
-
-Aktivieren Sie die Option _Mehrstufige Routen_ unter _Einstellungen > Lager > Lager_.
 
 ### Produkt für "Purchase to Order" konfigurieren
 

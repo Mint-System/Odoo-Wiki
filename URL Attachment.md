@@ -3,7 +3,7 @@ title: URL Attachment
 description: Url als Dokument anhängen.
 kind: howto
 partner: OCA
-prev: ./dialog
+prev: ./discuss
 ---
 
 # URL Attachment
@@ -13,7 +13,7 @@ prev: ./dialog
 {{ $frontmatter.description }}
 
 Technischer Name: `document_url`\
-Repository: <https://github.com/OCA/knowledge/tree/18.0/document_url>
+Repository: <https://github.com/OCA/knowledge/tree/17.0/document_url>
 
 ## Verwendung
 

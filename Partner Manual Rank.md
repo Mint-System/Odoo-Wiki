@@ -13,4 +13,4 @@ prev: ./contacts
 {{ $frontmatter.description }}
 
 Technischer Name: `partner_manual_rank`\
-Repository: <https://github.com/OCA/partner-contact/tree/18.0/partner_manual_rank>
+Repository: <https://github.com/OCA/partner-contact/tree/17.0/partner_manual_rank>

@@ -13,7 +13,7 @@ prev: ./purchase
 {{ $frontmatter.description }}
 
 Technischer Name: `purchase_partner_incoterm`\
-Repository: <https://github.com/OCA/purchase-workflow/tree/18.0/purchase_partner_incoterm>
+Repository: <https://github.com/OCA/purchase-workflow/tree/17.0/purchase_partner_incoterm>
 
 ## Verwendung
 

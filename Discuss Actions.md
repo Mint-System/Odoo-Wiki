@@ -1,11 +1,11 @@
 ---
-title: Dialog Aktionen
+title: Discuss Aktionen
 description: Arbeitsflüsse für Dialog automatisieren.
 kind: howto
-prev: ./dialog
+prev: ./discuss
 ---
 
-# Dialog Aktionen
+# Discuss Aktionen
 
 ![icons_odoo_mail](attachments/icons_odoo_mail.png)
 

@@ -13,7 +13,7 @@ prev: ./manufacture
 {{ $frontmatter.description }}
 
 Technischer Name: `manufacture_production_move_date`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/16.0/manufacture_production_move_date>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/manufacture_production_move_date>
 
 ## Verwendung
 

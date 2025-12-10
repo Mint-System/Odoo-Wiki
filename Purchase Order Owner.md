@@ -13,4 +13,4 @@ prev: ./purchase
 {{ $frontmatter.description }}
 
 Technischer Name: `purchase_order_owner`\
-Repository: <https://github.com/OCA/purchase-workflow/tree/18.0/purchase_order_owner>
+Repository: <https://github.com/OCA/purchase-workflow/tree/16.0/purchase_order_owner>

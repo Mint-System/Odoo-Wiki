@@ -13,4 +13,4 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_reports_hide_ref`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/18.0/account_reports_hide_ref>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/16.0/account_reports_hide_ref>

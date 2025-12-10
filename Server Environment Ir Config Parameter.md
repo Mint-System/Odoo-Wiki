@@ -13,7 +13,7 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `server_environment_ir_config_parameter`\
-Repository: <https://github.com/OCA/server-env/tree/18.0/server_environment_ir_config_parameter>
+Repository: <https://github.com/OCA/server-env/tree/17.0/server_environment_ir_config_parameter>
 
 ## Systemparamter aus Umgebung anzeigen
 

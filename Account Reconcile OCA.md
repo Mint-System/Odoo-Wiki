@@ -13,4 +13,4 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_reconcile_oca`\
-Repository: <https://github.com/OCA/account-reconcile/tree/18.0/account_reconcile_oca>
+Repository: <https://github.com/OCA/account-reconcile/tree/17.0/account_reconcile_oca>

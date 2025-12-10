@@ -13,7 +13,7 @@ prev: ./purchase-requisition
 {{ $frontmatter.description }}
 
 Technischer Name: `purchase_requisition_tag`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/16.0/purchase_requisition_tag>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.0/purchase_requisition_tag>
 
 ## Verwendung
 

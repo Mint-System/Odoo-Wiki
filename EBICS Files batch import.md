@@ -14,7 +14,7 @@ prev: ./accounting
 
 Technischer Name: `account_ebics_batch`\
 Website: <https://apps.odoo.com/apps/modules/18.0/account_ebics_batch>\
-Repository: <https://github.com/Noviat/account_ebics/tree/18.0/account_ebics_batch>
+Repository: <https://github.com/Noviat/account_ebics/tree/17.0/account_ebics_batch>
 
 ## Konfiguration
 
@@ -37,4 +37,4 @@ Die Aktion lädt nun jeden Tag die EBIC-Dateien des Vortags herunter und verarbe
 
 ### Import-Log anzeigen
 
-Zeigen Sie die Ansicht _Finanzen > EBICS Processing > EBICS Batch Import Logs_ an. Für jeden automatischen Import-Vorgang wird hier ein Log-Eintrag erstellt.
+Zeigen Sie die Ansicht _Buchhaltung > EBICS Processing > EBICS Batch Import Logs_ an. Für jeden automatischen Import-Vorgang wird hier ein Log-Eintrag erstellt.

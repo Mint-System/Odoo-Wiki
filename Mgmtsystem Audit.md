@@ -13,7 +13,7 @@ prev: ./management-system
 {{ $frontmatter.description }}
 
 Technischer Name: `mgmtsystem_audit`\
-Repository: <https://github.com/OCA/management-system/tree/18.0/mgmtsystem_audit>
+Repository: <https://github.com/OCA/management-system/tree/17.0/mgmtsystem_audit>
 
 ::: warning
 Wir empfehlen die App [Management System](Management%20System.md) zu verwenden.

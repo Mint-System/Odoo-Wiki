@@ -13,4 +13,4 @@ prev: ./management-system
 {{ $frontmatter.description }}
 
 Technischer Name: `mgmt_hazard_risk`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/18.0/mgmt_hazard_risk>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/17.0/mgmt_hazard_risk>

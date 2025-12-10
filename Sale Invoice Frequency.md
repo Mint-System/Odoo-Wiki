@@ -13,7 +13,7 @@ prev: ./invoicing
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_invoice_frequency`\
-Repository: <https://github.com/OCA/sale-workflow/tree/18.0/sale_invoice_frequency>
+Repository: <https://github.com/OCA/sale-workflow/tree/17.0/sale_invoice_frequency>
 
 ## Konfiguration
 

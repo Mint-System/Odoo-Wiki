@@ -13,7 +13,7 @@ prev: ./hr-attendance
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_attendance_report_theoretical_time`\
-Repository: <https://github.com/OCA/hr-attendance/tree/18.0/hr_attendance_report_theoretical_time>
+Repository: <https://github.com/OCA/hr-attendance/tree/17.0/hr_attendance_report_theoretical_time>
 
 ## Verwendung
 

@@ -14,7 +14,7 @@ prev: ./accounting
 
 Technischer Name: `account_ebics_batch_payment`\
 Website: <https://apps.odoo.com/apps/modules/18.0/account_ebics_batch_payment>\
-Repository: <https://github.com/Noviat/account_ebics/tree/18.0/account_ebics_batch_payment>
+Repository: <https://github.com/Noviat/account_ebics/tree/17.0/account_ebics_batch_payment>
 
 ## Verwendung
 

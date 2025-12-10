@@ -2,7 +2,7 @@
 title: Kundendienst Aktionen
 description: Arbeitsflüsse im Kundendienst automatisieren.
 kind: howto
-prev: ./dialog
+prev: ./discuss
 ---
 
 # Kundendienst Aktionen

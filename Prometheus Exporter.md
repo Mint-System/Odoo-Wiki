@@ -13,7 +13,7 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `prometheus_exporter`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/18.0/prometheus_exporter>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/17.0/prometheus_exporter>
 
 ## Verwendung
 

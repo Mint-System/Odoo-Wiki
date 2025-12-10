@@ -13,7 +13,7 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_payment_partner`\
-Repository: <https://github.com/OCA/bank-payment/tree/18.0/account_payment_partner>
+Repository: <https://github.com/OCA/bank-payment/tree/19.0/account_payment_partner>
 
 ## Konfiguration
 

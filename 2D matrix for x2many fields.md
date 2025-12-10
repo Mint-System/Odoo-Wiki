@@ -14,4 +14,4 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `web_widget_x2many_2d_matrix`\
-Repository: <https://github.com/OCA/Web/tree/18.0/web_widget_x2many_2d_matrix>
+Repository: <https://github.com/OCA/Web/tree/17.0/web_widget_x2many_2d_matrix>

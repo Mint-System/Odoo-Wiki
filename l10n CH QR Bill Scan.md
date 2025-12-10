@@ -13,7 +13,7 @@ prev: ./l10n-ch
 {{ $frontmatter.description }}
 
 Technischer Name: `l10n_ch_qr_bill_scan`\
-Repository: <https://github.com/OCA/l10n-switzerland/tree/18.0>
+Repository: <https://github.com/OCA/l10n-switzerland/tree/19.0>
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [l10n CH QR ISR Invoice Import](l10n%20CH%20QR%20ISR%20Invoice%20Import.md) zu verwenden.

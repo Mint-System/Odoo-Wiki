@@ -166,7 +166,7 @@ Prüfen Sie die SMTP-Einstellungen für den Benutzer und den Nachrichtenfluss vo
 
 Gehen Sie in die Konto-Einstellungen des Postfachs und prüfen Sie ob die Verbindungsinformationen für SMTP und IMAP aufezeigt werden.
 
-![](attachments/Office%20365%20E-Mail%20synchronisieren.png)
+![](attachments/Office%20365%20E-Mail%20synchronisieren.png) 
 
 ### Versandlimit für E-Mails erreicht
 

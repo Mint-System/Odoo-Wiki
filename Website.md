@@ -16,12 +16,12 @@ Website: <https://www.odoo.com/de_DE/app/website>
 
 ## Bereiche
 
-| Bereich                                       | Beschreibung                                                   |
-| --------------------------------------------- | -------------------------------------------------------------- |
-| [Website Aktionen](Website%20Actions.md)      | Automatisierung der Website-Vorgänge.                          |
-| [Website Partner](Website%20Partner.md)       | Partner auf Website publizieren.                               |
-| [Website E-Commerce](Website%20E-Commerce.md) | Webshop ohne Integrationsaufwand.                              |
-| [Verkauf Treue](Sale%20Loyalty.md)            | Kundentreue mit Rabatten, Coupons und Geschenkkarten belohnen. |
+| Bereich                                       | Beschreibung                          |
+| --------------------------------------------- | ------------------------------------- |
+| [Website Aktionen](Website%20Actions.md)      | Automatisierung der Website-Vorgänge. |
+| [Website Berichte](Website%20Berichte.md)     | Verkaufszahlen analysieren.           |
+| [Website E-Commerce](Website%20E-Commerce.md) | Webshop ohne Integrationsaufwand.     |
+| [Website Partner](Website%20Partner.md)       | Partner auf Website publizieren.      |
 
 ## Erweiterungen
 
@@ -33,7 +33,6 @@ Website: <https://www.odoo.com/de_DE/app/website>
 | [Website Sale Default Country CH](Website%20Sale%20Default%20Country%20CH.md)             | Schweiz als Standardland im Webshop festlegen.                         |
 | [Website Sale Minimum Order Quantity](Website%20Sale%20Minimum%20Order%20Quantity.md)     | Legen Sie Mindestbestellmengen für Produkte und Produktvarianten fest. |
 | [Website Sale Pricelist Fixed Discount](Website%20Sale%20Pricelist%20Fixed%20Discount.md) | Warenkorb mit Rabatten aus Preisliste mit Festpreis.                   |
-|                                                                                           |                                                                        |
 
 ## Verwendung
 

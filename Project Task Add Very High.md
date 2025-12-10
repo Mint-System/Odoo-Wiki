@@ -14,4 +14,4 @@ prev: ./project
 {{ $frontmatter.description }}
 
 Technischer Name: `project_task_add_very_high`\
-Repository: <https://github.com/OCA/Project/tree/18.0/project_task_add_very_high>
+Repository: <https://github.com/OCA/Project/tree/17.0/project_task_add_very_high>

@@ -13,7 +13,7 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_invoice_overdue_reminder`\
-Repository: <https://github.com/OCA/credit-control/tree/18.0/account_invoice_overdue_reminder>
+Repository: <https://github.com/OCA/credit-control/tree/16.0/account_invoice_overdue_reminder>
 
 ## Konfiguration
 

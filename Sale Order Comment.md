@@ -13,7 +13,7 @@ prev: ./sale-blanket-order
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_order_comment`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_order_comment>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_order_comment>
 
 ## Verwendung
 

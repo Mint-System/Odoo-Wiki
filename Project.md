@@ -151,7 +151,7 @@ Die Sichtbarkeit des Projekts muss für diesen Vorgang auf _Eingeladene Portalnu
 
 ### Projekt für ausgewählte Mitarbeitende freigeben
 
-Zeigen Sie ein Projekt via _Projekt > Konfiguration > Projekte_ an. Die Mitarbeitenden, welche Zugriff auf das Projekt erhalten sollen, können Sie nun als [Abonnement hinzufügen](Dialog.md#Abonnement%20hinzufügen).
+Zeigen Sie ein Projekt via _Projekt > Konfiguration > Projekte_ an. Die Mitarbeitenden, welche Zugriff auf das Projekt erhalten sollen, können Sie nun als [Abonnement hinzufügen](Discuss.md#Abonnement%20hinzufügen).
 
 ::: tip
 Die Sichtbarkeit des Projekts muss für diesen Vorgang auf _Laden Sie Angestellte ein._ eingestellt sein.
@@ -194,7 +194,7 @@ Mit einer neuen Regel für _Datensatzregeln_ können Sie Projekte auch für Port
 
 ### Benachrichtigung bei Erstellung von Aufgabe erhalten
 
-Um eine Benachrichtigung zu erhalten, wenn eine Aufgabe in einem bestimmten Projekt erstellt, müssen Sie das Projekt via _Projekt > Konfiguration > Projekte_ bearbeiten. Nun müssen Sie ein [Eigener Follower hinzufügen](Dialog.md#Eigener%20Follower%20hinzufügen). Aktivieren Sie die Option _Erstellen Sie eine Aufgabe_.
+Um eine Benachrichtigung zu erhalten, wenn eine Aufgabe in einem bestimmten Projekt erstellt, müssen Sie das Projekt via _Projekt > Konfiguration > Projekte_ bearbeiten. Nun müssen Sie ein [Eigener Follower hinzufügen](Discuss.md#Eigener%20Follower%20hinzufügen). Aktivieren Sie die Option _Erstellen Sie eine Aufgabe_.
 
 ## Zeiterfassung
 

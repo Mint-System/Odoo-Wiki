@@ -17,7 +17,7 @@ partner: Mint-System
 | Bereich                                                               | Beschreibung                                        |
 | --------------------------------------------------------------------- | --------------------------------------------------- |
 | [Abwesenheiten Datenmanagement](HR%20Holidays%20Data%20Management.md) | Daten zu Abwesenheiten exportieren und importieren. |
-| [Dialog Datenmanagement](Dialog%20Datenmanagement.md)                 | Daten zu Dialog exportieren und importieren.        |
+| [Discuss Datenmanagement](Discuss%20Datenmanagement.md)                 | Daten zu Dialog exportieren und importieren.        |
 | [Einstellungen Datenmanagement](Settings%20Data%20Management.md)      | Daten zu Einstellungen exportieren und importieren. |
 | [Fertigung Datenmanagement](Manufacture%20Data%20Management.md)       | Produkte und Dienstleistungen zentral pflegen.      |
 | [Kontakte Datenmanagement](Partner%20Data%20Management.md)            | Daten zu Kontakte exportieren und importieren.      |

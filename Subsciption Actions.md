@@ -51,10 +51,13 @@ for line in records.invoice_line_ids:
     line["subscription_end_date"] = end_date
     
 # Ab Odoo 16.0
-for line in records.invoice_line_ids:
+for line in records.invoice_line_ids.filtered(lambda line: line.product_id.recurring_invoice):
   if line.sale_line_ids:
     end_date = line.sale_line_ids[0].order_id.next_invoice_date - datetime.timedelta(days=1)
-    start_date = end_date - dateutil.relativedelta.relativedelta(years=line.sale_line_ids[0].order_id.recurrence_id.duration) + datetime.timedelta(days=1)
+    # Get delta in years
+    delta_years = dateutil.relativedelta.relativedelta(years=line.sale_line_ids[0].order_id.recurrence_id.duration)
+    # Calcualte start date from end date
+    start_date = end_date - delta_years + datetime.timedelta(days=1)
     line["subscription_start_date"] = start_date
     line["subscription_end_date"] = end_date
 ```

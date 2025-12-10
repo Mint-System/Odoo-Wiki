@@ -1,8 +1,8 @@
 ---
-title: Dialog E-Mail
+title: Discuss E-Mail
 description: E-Mail mit Odoo versenden.
 kind: howto
-prev: ./dialog
+prev: ./discuss
 ---
 
 # Dialog E-Mail
@@ -20,7 +20,7 @@ Wenn Sie alle von Odoo gesendeten E-Mails anzeigen möchten, navigieren Sie nach
 - Gruppiert: _Datum: Monat > Datum: Woche > Datum: Tag_
 - Filter: Typ ist _E-Mail_
 
-![](attachments/Dialog%20E-Mail%20Empfang.png)
+![](attachments/Discuss%20E-Mail%20Empfang.png)
 
 ### Alle versendeten E-Mails anzeigen
 
@@ -30,7 +30,7 @@ Wenn Sie alle von Odoo verarbeiteten E-Mails anzeigen möchten, navigieren Sie n
 - Filter: Typ ist "Kommentar"
 - Filter: Betreff ist gesetzt
 
-![](attachments/Dialog%20E-Mail%20Gesendet.png)
+![](attachments/Discuss%20E-Mail%20Gesendet.png)
 
 ## Vorlagen
 
@@ -46,11 +46,11 @@ Navigieren Sie nach _Einstellungen > Technisch > Vorlagen_ und suchen Sie in der
 
 Navigieren Sie nach _Einstellungen > Technisch > Vorlagen_ und erstellen Sie einen neuen Eintrag. Im Feld _Gilt für_ wählen das Dokument, das mit der Vorlage verknüpft werden soll.
 
-![](attachments/Dialog%20E-Mail%20Gilt%20für.png)
+![](attachments/Discuss%20E-Mail%20Gilt%20für.png)
 
 Im ersten Tab _Inhalt_ können Sie mit dem HTML-Editor den Vorlage-Text mit Platzhaltern definieren.
 
-![](attachments/Dialog%20E-Mail%20HTML.png)
+![](attachments/Discuss%20E-Mail%20HTML.png)
 
 Im Tab _E-Mail-Konfiguration_ finden Sie diese Parameter:
 
@@ -140,7 +140,7 @@ Odoo speichert E-Mails in der Datenbank. Sie können diese im Entwicklermodus un
 
 Wenn Sie den Entwicklermodus eingeschaltet haben, finden Sie unter _Einstellungen > Technisch > E-Mails_ eine Liste der nicht versendeten E-Mails. Odoo registiert wenn die E-Mail-Zustellung nicht erfolgreich war.
 
-![](attachments/Dialog%20nicht%20versendete%20E-Mails.png)
+![](attachments/Discuss%20nicht%20versendete%20E-Mails.png)
 
 ### E-Mail erneut versenden
 

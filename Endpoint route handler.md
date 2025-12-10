@@ -13,4 +13,4 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `endpoint_route_handler`\
-Repository: <https://github.com/OCA/web-api/tree/18.0/endpoint_route_handler>
+Repository: <https://github.com/OCA/web-api/tree/17.0/endpoint_route_handler>

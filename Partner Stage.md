@@ -14,4 +14,4 @@ prev: ./contacts
 {{ $frontmatter.description }}
 
 Technischer Name: `partner_stage`\
-Repository: <https://github.com/OCA/Partner-Contact/tree/16.0/partner_stage>
+Repository: <https://github.com/OCA/Partner-Contact/tree/17.0/partner_stage>

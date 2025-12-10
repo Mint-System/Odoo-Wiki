@@ -13,7 +13,7 @@ prev: ./project
 {{ $frontmatter.description }}
 
 Technischer Name: `project_template`\
-Repository: <https://github.com/OCA/project/tree/18.0/project_template>
+Repository: <https://github.com/OCA/project/tree/17.0/project_template>
 
 ## Verwendung
 

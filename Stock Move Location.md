@@ -13,7 +13,7 @@ prev: ./warehouse
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_move_location`\
-Repository: <https://github.com/OCA/stock-logistics-warehouse/tree/18.0/stock_move_location>
+Repository: <https://github.com/OCA/stock-logistics-warehouse/tree/17.0/stock_move_location>
 
 ## Verwendung
 

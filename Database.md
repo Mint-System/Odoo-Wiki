@@ -120,7 +120,7 @@ Mit einem Klick auf den Namen ihrer Datenbank startet das System mit der Login-M
 
 ### Datenbank ID ändern
 
-Jede Odoo Datenbank wird mit einem Universally unique Identifier (UUID) identifiziert. Beim Kopieren der Datenbank mit dem Datenbankmanager wird jeweils eine neue UUID generiert. Die UUID kann aber auch manuell generiert und festgelegt werden.
+Jede Odoo Datenbank wird mit einem Universally Unique Identifier (UUID) identifiziert. Beim Kopieren der Datenbank mit dem Datenbankmanager wird jeweils eine neue UUID generiert. Die UUID kann aber auch manuell generiert und festgelegt werden.
 
 Im Entwicklermodus navigieren Sie nach _Einstellungen > Technisch > Parameter > Systemparameter_. Auf der Kommandozeile geben Sie den Befehl `uuidgen` ein und legen die generierte UUID als Wert für den Parameter `database.uuid` fest.
 

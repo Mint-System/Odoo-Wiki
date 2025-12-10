@@ -13,4 +13,4 @@ prev: ./project
 {{ $frontmatter.description }}
 
 Technischer Name: `project_timesheet_time_control`\
-Repository: <https://github.com/OCA/project/tree/18.0/project_timesheet_time_control>
+Repository: <https://github.com/OCA/project/tree/17.0/project_timesheet_time_control>

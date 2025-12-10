@@ -14,4 +14,4 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `component`\
-Repository: <https://github.com/OCA/Connector/tree/18.0/component>
+Repository: <https://github.com/OCA/Connector/tree/17.0/component>

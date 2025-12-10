@@ -13,7 +13,7 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_picking_notes`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/16.0/stock_picking_notes>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_picking_notes>
 
 ## Verwendung
 

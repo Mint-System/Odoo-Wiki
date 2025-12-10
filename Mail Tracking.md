@@ -3,7 +3,7 @@ title: Mail Tracking
 description: Tracking-Status für jede versendete E-Mail.
 kind: howto
 partner: OCA
-prev: ./dialog
+prev: ./discuss
 ---
 
 # Mail Tracking

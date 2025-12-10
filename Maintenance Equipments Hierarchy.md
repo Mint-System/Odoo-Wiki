@@ -13,7 +13,7 @@ prev: ./maintenance
 {{ $frontmatter.description }}
 
 Technischer Name: `maintenance_equipment_hierarchy`\
-Repository: <https://github.com/OCA/maintenance/tree/18.0/maintenance_equipment_hierarchy>
+Repository: <https://github.com/OCA/maintenance/tree/17.0/maintenance_equipment_hierarchy>
 
 ## Verwendung
 

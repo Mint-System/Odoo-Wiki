@@ -13,4 +13,4 @@ prev: ./sale
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_company_currency`\
-Repository: <https://github.com/OCA/sale-workflow/tree/18.0/sale_company_currency>
+Repository: <https://github.com/OCA/sale-workflow/tree/16.0/sale_company_currency>

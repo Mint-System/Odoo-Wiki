@@ -13,4 +13,4 @@ prev: ./purchase
 {{ $frontmatter.description }}
 
 Technischer Name: `purchase_order_type`\
-Repository: <https://github.com/OCA/purchase-workflow/tree/18.0/purchase_order_type>
+Repository: <https://github.com/OCA/purchase-workflow/tree/17.0/purchase_order_type>

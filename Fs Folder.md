@@ -14,4 +14,4 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `fs_folder`\
-Repository: <https://github.com/OCA/Storage/tree/18.0/fs_folder>
+Repository: <https://github.com/OCA/Storage/tree/19.0/fs_folder>

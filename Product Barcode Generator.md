@@ -13,7 +13,7 @@ prev: ./product
 {{ $frontmatter.description }}
 
 Technischer Name: `product_barcode`\
-Repository: <https://github.com/CybroOdoo/CybroAddons/tree/18.0/product_barcode>\
+Repository: <https://github.com/CybroOdoo/CybroAddons/tree/17.0/product_barcode>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/product_barcode/>
 
 ## Verwendung

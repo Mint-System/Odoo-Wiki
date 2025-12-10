@@ -13,7 +13,7 @@ prev: ./website-e-commerce
 {{ $frontmatter.description }}
 
 Technischer Name: `meilisearch_base`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/18.0/meilisearch_base>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/16.0/meilisearch_base>
 
 ## Beschreibung
 

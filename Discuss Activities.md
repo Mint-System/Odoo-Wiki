@@ -1,11 +1,11 @@
 ---
-title: Dialog Aktivitäten
+title: Discuss Aktivitäten
 description: Arbeitsplanung mit Odoo Aktivitäten.
 kind: howto
-prev: ./dialog
+prev: ./discuss
 ---
 
-# Dialog Aktivitäten
+# Discuss Aktivitäten
 
 ![icons_odoo_mail](attachments/icons_odoo_mail.png)
 
@@ -23,8 +23,8 @@ Navigieren Sie nach _Einstellungen > Technisch > Dialog > Aktivitätsypen_ und e
 
 Es wird angenommen, dass Sie im Aktivitäts-Menü viele unerledigte Aktivitäten für ein bestimmtes Datenmodell haben und diese löschen möchten.
 
-![](attachments/Dialog%20Aktivitäten%20Benachrichtigung.png)
+![](attachments/Discuss%20Aktivitäten%20Benachrichtigung.png)
 
 Navigieren Sie nach _Einstellungen > Technisch > Dialog > Aktivitäten_ und filtern Sie die Aktivitäten gemäss Datenmodell und Zuweisung. Markieren und löschen Sie die Aktivitäten via _Aktion_.
 
-![](attachments/Dialog%20Aktivitäten%20Löschen.png)
+![](attachments/Discuss%20Aktivitäten%20Löschen.png)

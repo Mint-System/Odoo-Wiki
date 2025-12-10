@@ -4,7 +4,7 @@ description: Kanäle können Datenmodell abonnieren und zeigen Benachrichtigunge
 kind: howto
 tags:
   - Mint-System
-prev: ./dialog
+prev: ./discuss
 ---
 
 # Mail Channel Follow Model
