@@ -36,6 +36,7 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 | [Mail Composer Default Template](Mail%20Composer%20Default%20Template.md)           | Standardvorlage für E-Mail-Dialog festlegen.                             |
 | [Mail Composer Mass Layout](Mail%20Composer%20Mass%20Layout.md)                     | Mail-Layout beim Versand von mehreren Mails anwenden.                    |
 | [Mail Debrand](Mail%20Debrand.md)                                                   | Odoo Promotion aus E-Mail-Vorlagen entfernen.                            |
+| [Mail Message Reply](Mail%20Message%20Reply.md)                                     | Auf eine Chatter-Nachricht antworten.                                    |
 | [Mail No Autofollow](Mail%20No%20Autofollow.md)                                     | Beim Erstellen von Nachrichten erfolgt keine automatische Abonnierung.   |
 | [Mail Optional Follower Notification](Mail%20Optional%20Follower%20Notification.md) | Auswahl Nachrichen an Abonnenten verschicken.                            |
 | [Mail Restrict Follower Selection](Mail%20Restrict%20Follower%20Selection.md)       | Auswahl der Follower einschränken.                                       |
