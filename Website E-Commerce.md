@@ -73,7 +73,7 @@ Für die Produkte, welche keine Lieferkosten geneieren sollen, geben Sie als Gew
 
 ### Mehrwertsteuer im Shop inklusive anzeigen
 
-Soll im Webshop der Artikelpreis inklussive der Mehrwertsteur angezeigt werden, so setzen Sie beim Artikel in _Produkte_ den Wert Mehrwertsteuersatz _zu zahlende Mwst 7.7% inkl NRZ_. Die zu zahlende Mehrwertsteuer wird im Warenkorb anschliessend als sepraten Betrag ausgewiesen.
+Soll im Webshop der Artikelpreis inklussive der Mehrwertsteur angezeigt werden, so setzen Sie beim Artikel in _Produkte_ den Wert Mehrwertsteuersatz fest. Die zu zahlende Mehrwertsteuer wird im Warenkorb anschliessend als separaten Betrag ausgewiesen.
 
 ### Fakturierungsregel festlegen
 
@@ -88,6 +88,12 @@ Diese Einstellungen kann vom einzelnen Produkt übersteuert werden. Sehen Sie _W
 ::: warning
 Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzurechendende Menge des Verkaufsauftrag aktualisiert werden. Nur dann wird das zusätzliche Produkt auf die Rechnung übertragen.
 :::
+
+## Kassiervorgang
+
+### Express-Kassiervorgang deaktivieren
+
+Der Express-Kassiervorgang ist auf Zahlungsanbieter standardmässig aktiviert. Zeigen Sie einen Zahlungsanbeiter unter _Website > Konfiguration > Zahlungsanbieter_ an. Deaktivieren Sie die Option _Express-Kassiervorgang erlauben_ um den Express-Kassiervorgang zu deaktivieren
 
 ### Zahlungsanbieter aktivieren
 
