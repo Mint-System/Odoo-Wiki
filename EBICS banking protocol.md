@@ -203,4 +203,4 @@ EBICS Initialisation Error:
 
 **Lösung**
 
-Unbekannt.
+Kontaktieren Sie ihre Bank. Es ist vermutlich ein Zertifikat der Bank abgelaufen.
