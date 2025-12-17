@@ -18,6 +18,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/18.0/sni
 
 ## Beschreibung
 
-### View-Definition aktualisieren
+### Snippet von Quelle aktualisieren
 
 Navigieren Sie nach *Einstellungen > Technisch > Ansichten* und suchen Sie nach der vererbten Ansicht, die Sie aktualisieren möchten. Markieren Sie die Ansicht und wählen Sie *Aktion > Update from Source*.
