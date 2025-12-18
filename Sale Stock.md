@@ -19,6 +19,10 @@ prev: ./sale
 
 ## Konfiguration
 
+### Produktverpackungen aktivieren
+
+Navigieren Sie nach *Einstellungen > Verkauf > Produktkatalog* und aktivieren Sie die Option *Produktverpackungen*.
+
 ### Lagerroute für Verkaufsauftrag erlauben
 
 Die Lagerroute kann bereits auf dem Verkaufsangebot festgelegt werden. Damit die Route auswählbar wird, müssen Sie diese konfigurieren. Navigieren Sie nach _Lager > Konfiguration > Routen_ und öffnen Sie die ausgewählte Route. Aktivieren Sie die Option _Verkaufsauftragpositionen_.

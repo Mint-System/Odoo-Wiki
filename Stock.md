@@ -22,7 +22,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Lager Bestand](Stock%20Inventory.md)                 | Den Lagerbestand optimal verwalten.            |
 | [Lager Bewertung](Lager%20Bewertung.md)               | Den Wert des Lagerbestands automatisch führen. |
 | [Lager Datenmanagement](Stock%20Data%20Management.md) | Daten zu Lager exportieren und importieren.    |
-| [Lager Verpackungen](Stock%20Packaging.md)            | Verpackungen effizient verwalten.              |
+| [Lager Verpackungen](Stock%20Packaging.md)            | Produkte für den Versand verpacken.              |
 | [Lager Vorgänge](Stock%20Operations.md)               | Vorgänge im Lager ausführen.                   |
 | [Scanner Zebra DS22](Scanner%20Zebra%20DS22.md)       | Handscanner für Odoo.                          |
 | [Scanner Zebra TC21](Scanner%20Zebra%20TC21.md)       | Mobiler Scanner für Odoo.                      |
