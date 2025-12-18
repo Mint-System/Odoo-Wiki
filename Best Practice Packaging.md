@@ -30,4 +30,4 @@ Im Angebot wählen Sie die Produktverpackung aus.
 
 ### Pakete
 
-Folgende Option muss eingeschaltet sein:
+Starten Sie mit [Pakete aktivieren](Stock%20Packaging.md#Pakete%20aktivieren).
