@@ -16,7 +16,7 @@ prev: ./
 
 | Erweiterung                                             | Beschreibung                                                       |
 | ------------------------------------------------------- | ------------------------------------------------------------------ |
-| [Mgmt Asset HR](Mgmt%20Asset%20HR.md)                   | sset-Owner für Mitarbeitende festlegen.                            |
+| [Mgmt Asset HR](Mgmt%20Asset%20HR.md)                   | Asset-Owner für Mitarbeitende festlegen.                           |
 | [Mgmt Asset Maintenance](Mgmt%20Asset%20Maintenance.md) | Asset-Owner für Ausrüstungen und Kategorien festlegen.             |
 | [Mgmt Asset Partner](Mgmt%20Asset%20Partner.md)         | Asset-Owner für Kontakte festlegen.                                |
 | [Mgmt Asset Product](Mgmt%20Asset%20Product.md)         | Asset-Owner auf Produkte festlegen.                                |
@@ -32,7 +32,7 @@ prev: ./
 
 ## Beschreibung
 
-Das Mint System Mangemen-System besteht aus mehreren Modulen. Die folgende Grafik zeigt die Abhängigkeit dieser Module:
+Das Mint System Mangement-System besteht aus mehreren Modulen. Die folgende Grafik zeigt die Abhängigkeit dieser Module:
 
 ```mermaid
 graph TD
