@@ -68,7 +68,7 @@ Wenn der EBICS-Teilnehmer aktiviert wurde können Sie die Banken-Schlüssel heru
 Wenn der Teilnehmer bereits aktiviert wurde, wählen Sie _Renew Bank Keys_.
 :::
 
-Nun erhalten Sie eine Datei _EBICS Public Bank Keys_. Öffenen Sie diese Datei und Vergleichen Sie Schlüssel-Informationen mit den Bankparameterblatt.
+Nun erhalten Sie eine Datei _EBICS Public Bank Keys_. Öffnen Sie diese Datei und Vergleichen Sie Schlüssel-Informationen mit den Bankparameterblatt.
 
 Bestätigen Sie die Schlüssel mit _Bank Keys Verified_.
 
@@ -178,7 +178,7 @@ Korrigieren Sie den Abfrage-Zeitraum.
 
 **Problem**
 
-Beim Verabeiten der Download-Dateien erscheint diese Meldung:
+Beim Verarbeiten der Download-Dateien erscheint diese Meldung:
 
 ```
 Errors:
@@ -188,3 +188,19 @@ Currency CHF not found.
 **Lösung**
 
 Stellen Sie sicher, dass Währung im Bank-Journal aktiviert ist.
+
+### Certificate has expired
+
+**Problem**
+
+Bei der Aktion [Banken-Schlüssel herunterladen und verifizieren](#Banken-Schlüssel%20herunterladen%20und%20verifizieren) wird dieser Fehler geworfen:
+
+```
+EBICS Initialisation Error:
+<class 'ssl.SSLCertVerificationError'>
+('[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)',)
+```
+
+**Lösung**
+
+Kontaktieren Sie ihre Bank. Es ist vermutlich ein Zertifikat der Bank abgelaufen.

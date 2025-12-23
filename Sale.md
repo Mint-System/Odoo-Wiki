@@ -68,6 +68,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Project Link](Sale%20Project%20Link.md)                                                     | Bestehendes Projekt mit Angebot verlinken.                                    |
 | [Sale Restricted Qty](Sale%20Restricted%20Qty.md)                                                 | Mindest- und Maximalbestellmenge für Produkte festlegen.                      |
 | [Sale Triple Discount](Sale%20Triple%20Discount.md)                                               | Mehrere Rabatte auf der Auftragszeile.                                        |
+| [Sale Start End Dates](Sale%20Start%20End%20Dates.md)                                             | Fügt dem Verkaufsauftrag ein Start- und Enddatum hinzu.                       |
 
 ## Produkte
 

@@ -26,9 +26,10 @@ Kopieren Sie den folgenden Code in das Feld _Python-Code_:
 
 ```python
 ebics_config_ids = 1
-date_from = datetime.datetime.today() - datetime.timedelta(days=1)
-date_to = datetime.datetime.today() - datetime.timedelta(days=1)
-model._batch_import(ebics_config_ids=ebics_config_ids, date_from=date_from , date_to=date_to)
+# date_from = datetime.datetime.today() - datetime.timedelta(days=1)
+# date_to = datetime.datetime.today() - datetime.timedelta(days=1)
+today = datetime.datetime.today()
+model._batch_import(ebics_config_ids=ebics_config_ids, date_from=today , date_to=today)
 ```
 
 Die Aktion lädt nun jeden Tag die EBIC-Dateien des Vortags herunter und verarbeitet diese.
