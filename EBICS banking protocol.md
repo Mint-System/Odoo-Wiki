@@ -204,3 +204,19 @@ EBICS Initialisation Error:
 **Lösung**
 
 Kontaktieren Sie ihre Bank. Es ist vermutlich ein Zertifikat der Bank abgelaufen.
+
+### Urlopen error timed out
+
+**Problem**
+
+Bei der Initialisierung liefert der Aufruf der EBICS Url keine Response.
+
+Verifizierung: Auf dem Host-Server gibt der Aufruf
+```
+curl -I $EBICS_URL
+```
+keine Antwort zurück.
+
+**Lösung**
+
+Kontaktieren Sie Ihre Bank. Evtl. wird Ihre IP von der Bank nicht akzeptiert. 
