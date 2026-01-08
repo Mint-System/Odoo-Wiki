@@ -21,8 +21,7 @@ export default defineUserConfig({
     editLink: false,
     navbar: [
       { text: 'Home', link: '/' },
-      { text: 'Glossary', link: '/glossary' },
-      { text: 'OCA Apps', link: 'https://odoo-community.org/shop' },
+      { text: 'Index', link: '/glossary' },
       { text: 'Mint System', link: 'https://www.mint-system.ch/odoo' },
       {
         text: 'Chat',

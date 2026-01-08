@@ -1,6 +1,6 @@
 ---
 title: MIS Builder
-description: Build Management Information System dashboards.
+description: Management Information System reports and dashboards.
 kind: howto
 partner: OCA
 prev: ./dashboards
@@ -12,7 +12,7 @@ prev: ./dashboards
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mass_editing`\
+Technischer Name: `mis_builder`\
 Repository: <https://github.com/OCA/mis-builder/tree/19.0/mis_builder>
 
 ## Verwendung

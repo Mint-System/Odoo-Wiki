@@ -48,17 +48,18 @@ Validieren Sie den Konfigurations-Eintrag mit _Confirm_.
 
 ### INI/HIA-Brief erstellen
 
-Rufen Sie eine bestehende EBICS-Konfiguration auf. Im Tab EBICS UserID\* erstellen Sie einen Eintrag mit diesen Angaben
+Rufen Sie eine bestehende EBICS-Konfiguration auf. Im Tab _EBICS UserID_ erstellen Sie einen Eintrag mit diesen Angaben
 
 - **EBICS UserID**: Parameter heisst auch Teilnehmer-ID/Partner ID
 - **EBICS Passphrase**: Gib ein Password zur Verschlüsselung der Zertifikatsdaten ein
-- **USers**: Diese Odoo-Benutzer erhalten Zugriff auf den Teilnehmer
+- **Users**: Diese Odoo-Benutzer erhalten Zugriff auf den Teilnehmer
+- **EBICS Keys Root**: Stellen Sie sicher, dass dieser Pfad auf der Odoo-Instanz existiert. Verwenden Sie `/var/lib/odoo` als Standard.
 
 ![](attachments/EBICS%20Configuration.png)
 
-Wählen Sie die Aktion **EBICS Initialisation**. Laden Sie den Brief im Feld _EBICS INI Letter_ herunter.
+Wählen Sie die Aktion *EBICS Initialisation*. Laden Sie den Brief im Feld _EBICS INI Letter_ herunter.
 
-Unterschreiben und senden Sie den Brief an ihre Bank.
+Unterschreiben Sie den Brief und senden Sie diesen an ihre Bank.
 
 ### Banken-Schlüssel herunterladen und verifizieren
 
