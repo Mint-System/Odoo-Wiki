@@ -53,7 +53,7 @@ Rufen Sie eine bestehende EBICS-Konfiguration auf. Im Tab _EBICS UserID_ erstell
 - **EBICS UserID**: Parameter heisst auch Teilnehmer-ID/Partner ID
 - **EBICS Passphrase**: Gib ein Password zur Verschlüsselung der Zertifikatsdaten ein
 - **Users**: Diese Odoo-Benutzer erhalten Zugriff auf den Teilnehmer
-- **EBICS Keys Root**: Stellen Sie sicher, dass dieser Pfad auf der Odoo-Instanz existiert
+- **EBICS Keys Root**: Stellen Sie sicher, dass dieser Pfad auf der Odoo-Instanz existiert. Verwenden Sie `/var/lib/odoo` als Standard.
 
 ![](attachments/EBICS%20Configuration.png)
 
