@@ -18,7 +18,7 @@ prev: ./development
 Eine Übersicht der wichtigsten Berichte und deren URL:
 
 | Name                              | URL                                                                             |
-| :-------------------------------- | :------------------------------------------------------------------------------ |
+|:--------------------------------- |:------------------------------------------------------------------------------- |
 | Angebot / Auftrag                 | `/report/html/sale.report_saleorder/$ID`                                        |
 | Angebotsanfrage                   | `/report/html/purchase.report_purchasequotation/$ID`                            |
 | Arbeitsraport (Rechnungsstellung) | `/report/html/account_sale_timesheet_report.timesheet_report/$ID`               |
@@ -26,7 +26,7 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Attendance and Leave              | `/report/html/hr_employee_attendance_report.res_users/$ID`                      |
 | Barcode EAN-13                    | `/report/barcode/?type=EAN13&value=0769503968353width=600&height=150`           |
 | Barcodes (PDF)                    | `/report/html/stock.label_transfer_template_view_pdf/$ID`                       |
-| Bordereau                         | `/report/html/report/html/mint_system.stock.report_bordero.basis57/$ID`         |
+| Bordero                           | `/report/html/report/html/mint_system.stock.report_bordero.basis57/$ID`         |
 | Fertigungsauftrag                 | `/report/html/mrp.report_mrporder/$ID`                                          |
 | Kaufvertrag                       | `/report/html/purchase_requisition.report_purchaserequisitions/$ID`             |
 | Lieferschein                      | `/report/html/stock.report_deliveryslip/$ID`                                    |
@@ -34,7 +34,7 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Lohnabrechnung                    | `/report/html/hr_payroll.report_payslip_lang/$ID`                               |
 | Mahnbericht                       | `/report/html/account_followup.report_followup_print_all/$ID`                   |
 | Mitarbeiterabrechnung             | `/report/html/bt_swissdec.report_payslip/$ID`                                   |
-| Packvorgänge                      | `/report/html/stock.report_picking/$ID`                                         |
+| Kommissionierung / Packvorgänge   | `/report/html/stock.report_picking/$ID`                                         |
 | QR-Rechnung                       | `/report/html/l10n_ch.qr_report_main/$ID`                                       |
 | QR-Rechnung Header                | `/report/html/l10n_ch.qr_report_header/$ID`                                     |
 | Rahmenauftrag                     | `/report/html/sale_blanket_order.report_blanketorder/$ID`                       |
