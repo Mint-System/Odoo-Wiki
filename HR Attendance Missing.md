@@ -26,7 +26,7 @@ Wenn Mitarbeitende vergessen ihre Anwesenheit zu erfassen, registriert Odoo kein
 
 Die Erweiterung instaliert eine geplante Aktion, die täglich für alle Mitarbeitenden fehlende Anwesenheiten zum Vortag generiert.
 
-## Konfugration
+## Konfiguration
 
 ### Abwesenheitsart ignorieren
 
