@@ -530,7 +530,7 @@ Managed Odoo Hosting von Mint System.
 
 ![](attachments/mint-system-favicon.png)
 
-Managed Server mit Odoo Plattform von Mint System.
+Managed Server mit Odoo von Mint System.
 
 ## [Mitarbeit](Contribution.md)
 
