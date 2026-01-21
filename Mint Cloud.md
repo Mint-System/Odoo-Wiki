@@ -29,10 +29,16 @@ Die Mint Cloud ist ein Kundenportal zur Verwaltung von Kubernetes-Deployments. D
 
 ```mermaid
 graph TD
-  base --> kubectl
-  kubectl --> helm
-  product --> helm
-  helm --> sale_helm
-  sale_helm --> website_sale_helm
-  website_sale --> website_sale_helm
+    website_kubectl --> website
+    website_kubectl --> kubectl
+    kubectl --> base
+    website_sale_helm --> website_sale
+    website_sale_helm --> sale_helm
+    sale_helm --> helm
+    sale_helm --> sale_management
+    helm_import --> helm
+    helm --> contacts
+    helm --> product
+    helm --> kubectl
+    kubectl_import --> kubectl
 ```
