@@ -27,7 +27,7 @@ partner: Odoo S.A.
 | [Fetchmail Incoming Log](Fetchmail%20Incoming%20Log.md)                             | Loggt Informationen zu eingehenden E-Mails.                          |
 | [Float Align At Decimal](Float%20Align%20At%20Decimal.md)                           | Widget für Formatierung und Ausrichtung von Floats.                  |
 | [Fs Folder WebDAV](Fs%20Folder%20WebDAV.md)                                         | Verbindung mit externen WebDav-Speicher.                             |
-| [IR Attachment Edit](IR%20Attachment%20Edit.md)                                     | Bearbeitung von Resourcen Model und ID auf Dateianhang erlauben.     |
+| [IR Attachment Edit](IR%20Attachment%20Edit.md)                                     | Bearbeitung von Ressourcen Model und ID auf Dateianhang erlauben.     |
 | [Mail Format With Parent](Mail%20Format%20With%20Parent.md)                         | Unternehmensname des Kontakts alternativ in E-Mails verwenden.       |
 | [Mail Manual Routing](Mail%20Manual%20Routing.md)                                   | Erlaubt Zuordnung von empfangenen E-Mails.                           |
 | [Mail Server Filter](Mail%20Server%20Filter.md)                                     | Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern. |

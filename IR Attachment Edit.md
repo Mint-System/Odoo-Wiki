@@ -1,6 +1,6 @@
 ---
 title: IR Attachment Edit
-description: Bearbeitung von Resourcen Model und ID auf Dateianhang erlauben.
+description: Bearbeitung von Ressourcen Model und ID auf Dateianhang erlauben.
 kind: howto
 tags:
   - Mint-System
