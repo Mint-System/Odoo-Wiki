@@ -18,6 +18,7 @@ partner: Odoo S.A.
 | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | [Auditlog](Auditlog.md)                                                             | Operationen auf Daten loggen.                                        |
 | [Base Action Manager Access](Base%20Action%20Manager%20Access.md)                   | Zugriff auf Aktionen für Gruppe Administration / Zugriffsrechte.     |
+| [Base Attachment Object Store](Base%20Attachment%20Object%20Store.md)               | Speicherung von Anhängen auf externen Dateisystemen.                 |
 | [Base Module User ACL](Base%20Module%20User%20ACL.md)                               | Zugriffsrechte auf Apps festlegen.                                   |
 | [Base Optional Quick Create](Base%20Optional%20Quick%20Create.md)                   | Quick Create Option für Datenmodelle deaktivieren.                   |
 | [Base Recursion Limit](Base%20Recursion%20Limit.md)                                 | Limit für Python-Rekursionen erhöhen.                                |
