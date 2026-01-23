@@ -13,4 +13,4 @@ prev: ./website
 {{ $frontmatter.description }}
 
 Technischer Name: `website_font_hco_mercury_ssm`\
-Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/16.0/website_font_hco_mercury_ssm>
+Repository: <https://mint.app.codey.ch/mint-system/odoo-apps-thirdparty/src/branch/16.0/website_font_hco_mercury_ssm>

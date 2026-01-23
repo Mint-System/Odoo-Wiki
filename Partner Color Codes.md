@@ -13,7 +13,6 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `partner_color_codes`\
-Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/16.0/partner_color_codes>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/16.0/partner_color_codes/>
 
 ## Konfiguration

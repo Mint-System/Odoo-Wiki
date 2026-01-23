@@ -13,7 +13,6 @@ prev: ./base
 {{ $frontmatter.description }}
 
 Technischer Name: `mail_manual_routing`\
-Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/mail_manual_routing>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/mail_manual_routing/>
 
 ## Verwendung

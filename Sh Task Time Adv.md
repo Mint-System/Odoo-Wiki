@@ -13,7 +13,6 @@ prev: ./hr-timesheet
 {{ $frontmatter.description }}
 
 Technischer Name: `sh_task_time_adv`\
-Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/16.0/sh_task_time_adv>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/16.0/sh_task_time_adv/>
 
 ## Verwendung

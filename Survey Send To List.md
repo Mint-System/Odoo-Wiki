@@ -13,5 +13,4 @@ prev: ./mass-mailing
 {{ $frontmatter.description }}
 
 Technischer Name: `survey_send_to_list`\
-Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/survey_send_to_list>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/survey_send_to_list/>

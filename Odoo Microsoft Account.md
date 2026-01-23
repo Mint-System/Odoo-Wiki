@@ -13,7 +13,6 @@ prev: ./settings
 {{ $frontmatter.description }}
 
 Technischer Name: `odoo_microsoft_account`\
-Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/16.0/odoo_microsoft_account>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/16.0/odoo_microsoft_account/>
 
 ::: warning

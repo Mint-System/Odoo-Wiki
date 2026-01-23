@@ -13,9 +13,7 @@ prev: ./website-e-commerce
 {{ $frontmatter.description }}
 
 Technischer Name: `pits_payment_saferpay`\
-Website: <https://apps.odoo.com/apps/modules/16.0/pits_payment_saferpay/>\
-Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/16.0/pits_payment_saferpay>
-
+Website: <https://apps.odoo.com/apps/modules/18.0/pits_payment_saferpay/>
 ::: warning
 Seit #Odoo18 wird diese App nicht mehr benötigt. 
 #DEPRECATED

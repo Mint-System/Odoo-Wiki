@@ -13,7 +13,6 @@ prev: ./l10n-ch
 {{ $frontmatter.description }}
 
 Technischer Name: `l10n_ch_qr_isr_invoice_import`\
-Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/l10n_ch_qr_isr_invoice_import>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/15.0/l10n_ch_qr_isr_invoice_import/>
 
 ## Verwendung

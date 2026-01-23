@@ -13,7 +13,6 @@ prev: ./invoicing
 {{ $frontmatter.description }}
 
 Technischer Name: `sh_inv_merge_pdf`\
-Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/sh_inv_merge_pdf>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/sh_inv_merge_pdf>
 
 ## Verwendung

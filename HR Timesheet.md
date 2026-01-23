@@ -29,7 +29,6 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | [HR Timesheet From Until](HR%20Timesheet%20From%20Until.md)               | Berechnung Dauer anhand Start- und Endzeit.                        |
 | [HR Timesheet Multiline Name](HR%20Timesheet%20Multiline%20Name)          | Mehrzeilige Beschreibung in Zeiterfassung.                         |
-| [Portal Timesheet](Sh%20Portal%20Timesheet.md)                            | Zeiterfassung im Portal.                                           |
 | [Project Timesheet Limit](Project%20Timesheet%20Limit.md)                 | Erfassbare Zeit auf geplante Zeit limitieren.                      |
 | [Sale Timesheet Line Exclude](Sale%20Timesheet%20Line%20Exclude.md)       | Zeiterfassungseinträge als nicht abrechenbar markieren.            |
 | [Sale Timesheet Total Validated](Sale%20Timesheet%20Total%20Validated.md) | Nur bestätige Zeiterfassungs-Einträge in Verkaufsauftrag anzeigen. |

@@ -13,5 +13,4 @@ prev: ./website-e-commerce
 {{ $frontmatter.description }}
 
 Technischer Name: `pits_payment_saferpay`\
-Website: <https://apps.odoo.com/apps/modules/16.0/payment_payrexx/>\
-Repository: <https://gitlab.com/mint-system/odoo-apps-thirdparty/-/tree/16.0/payment_payrexx>
+Website: <https://apps.odoo.com/apps/modules/16.0/payment_payrexx/>
