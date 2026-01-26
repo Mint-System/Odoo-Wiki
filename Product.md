@@ -14,9 +14,10 @@ partner: Odoo S.A.
 
 ## Bereiche
 
-| Bereich                                  | Beschreibung                                            |
-| ---------------------------------------- | ------------------------------------------------------- |
-| [Produkt Aktionen](Product%20Actions.md) | Arbeitsflüsse in der Produkteverwaltung automatisieren. |
+| Bereich                                                   | Beschreibung                                            |
+| --------------------------------------------------------- | ------------------------------------------------------- |
+| [Product Data Management](Product%20Data%20Management.md) | Daten zu Produkten exportieren und importieren.         |
+| [Produkt Aktionen](Product%20Actions.md)                  | Arbeitsflüsse in der Produkteverwaltung automatisieren. |
 
 ## Erweiterungen
 
