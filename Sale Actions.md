@@ -431,3 +431,19 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Akt
 | Feld      | Bewertungstyp | Datensatz        |
 | --------- | ------------- | ---------------- |
 | `team_id` | Referenz      | Mitgliedschaften |
+
+### Provision bei Erneuerung entfernen
+
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+
+- **Name der Aktion**: `Provision bei Erneuerung entfernen`
+- **Modell**: `sale.order`
+- **Auslöser**: Bei Erstellung
+- **Anzuwenden auf**: `[("subscription_id", "!=", False)]`
+- **Folgeaktion**: Den Datensatz aktualisieren
+- **Zu schreibende Daten**:
+
+| Feld                     | Bewertungstyp     | Wert    |
+| ------------------------ | ----------------- | ------- |
+| `commission_plan_frozen` | Python Expression | `True`  |
+| `commission_plan_id`     | Python Expression | `False` |
