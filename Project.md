@@ -28,6 +28,7 @@ Website: <https://www.odoo.com/de_DE/app/project>
 | [Business Requirement](Business%20Requirement.md)                                 | Projektanforderungen erfassen und verknüpfen.            |
 | [Project Key Link Type](Project%20Key%20Link%20Type.md)                           | Projektnummer anhand Projekttyp erstellen.               |
 | [Project Key](Project%20Key.md)                                                   | Projektkürzel für Aufgabenbezeichnung.                   |
+| [Project Menu](Project%20Menu.md)                                                 | Projekte über Navigation aufrufen.                       |
 | [Project Partner Open Tasks](Project%20Partner%20Open%20Tasks.md)                 | Offene Aufgaben auf Partner-Ansicht anzeigen.            |
 | [Project Phase Estimate](Project%20Phase%20Estimate.md)                           | Aufwandsschätzung pro Projekt und Phase.                 |
 | [Project Phase](Project%20Phase.md)                                               | Projektaufgaben mit Projektphasen verwalten.             |

@@ -110,7 +110,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 ### Projekte
 
-- [Projekte](Best%20Practice%20Projects.md)
+- [Projekte initialisieren](Best%20Practice%20Projects.md)
 - [Aufgabenphasen](Best%20Practice%20Task%20Types.md)
 
 ### Personalabrechung

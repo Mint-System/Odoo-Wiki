@@ -60,6 +60,7 @@ const repoMap = {
     "Odoo-Apps-Manufacture",
     "Odoo-Apps-Partner-Contact",
     "Odoo-Apps-Product-Attribute",
+    "Odoo-Apps-Project",
     "Odoo-Apps-Purchase-Workflow",
     "Odoo-Apps-Sale-Workflow",
     "Odoo-Apps-Server-Tools",
