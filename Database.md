@@ -22,6 +22,7 @@ partner: Odoo S.A.
 
 | Erweiterung                                           | Beschreibung                                            |
 | ----------------------------------------------------- | ------------------------------------------------------- |
+| [Auditlog](Auditlog.md)                               | Operationen auf Daten loggen.                           |
 | [Base DB Anonymization](Base%20DB%20Anonymization.md) | Inhalt von ausgewählten Datenbank-Felder anonmyisieren. |
 | [Base Search Fuzzy](Base%20Search%20Fuzzy.md)         | Aktivieren Trigram-Index auf Datenbank-Felder.          |
 | [DBFilter From Header](DBFilter%20From%20Header.md)   | Datenbank mit Proxy-Header auswählen.                   |

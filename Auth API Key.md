@@ -3,7 +3,7 @@ title: Auth API Key
 description: HTTP-Anfragen mit API-Key authentifizieren.
 kind: howto
 partner: OCA
-prev: ./settings
+prev: ./development
 ---
 
 # Auth API Key

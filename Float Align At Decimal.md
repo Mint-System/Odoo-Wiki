@@ -3,7 +3,7 @@ title: Float align at decimal
 description: Formatiert Floats nach Anzahl der Dezimalstellen.
 kind: howto
 partner: Mint-System
-prev: ./server
+prev: ./development
 ---
 
 # Float align at decimal

@@ -3,7 +3,7 @@ title: Extended view inheritance
 description: Benutzerdefinierte Operatoren auf vererbten Ansichten.
 kind: howto
 partner: OCA
-prev: ./base
+prev: ./devleopment
 ---
 
 # Extended view inheritance

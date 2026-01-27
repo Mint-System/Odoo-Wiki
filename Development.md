@@ -32,12 +32,15 @@ partner: Mint-System
 | Erweiterung                                                                                 | Beschreibung                                                        |
 | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | [2D matrix for x2many fields](2D%20matrix%20for%20x2many%20fields.md)                       | Matrix-Auswahl für Many2Many-Feld.                                  |
+| [Auth API Key](Auth%20API%20Key.md)                                                         | HTTP-Anfragen mit API-Key authentifizieren.                         |
 | [BI SQL Editor](BI%20SQL%20Editor.md)                                                       | Ganz einfach SQL-basierte Berichte erstellen.                       |
 | [Components](Components.md)                                                                 | Kompontent-System für das Connector-Framework.                      |
 | [Date Range](Date%20Range.md)                                                               | Verwaltung von Datums-Bereichen zur Filterung von Daten.            |
 | [Endpoint route handler](Endpoint%20route%20handler.md)                                     | Web-Routen während Ausführung hinzufügen und entfernen              |
+| [Extended View Inheritance Extension](Extended%20View%20Inheritance%20Extension.md)         | Benutzerdefinierte Operatoren auf vererbten Ansichten.              |
 | [FastAPI Auth JWT support](FastAPI%20Auth%20JWT%20support.md)                               | JWT Authentication for FastAPI.                                     |
 | [FastAPI](FastAPI.md)                                                                       | FastAPI-Integration für Odoo.                                       |
+| [Float Align At Decimal](Float%20Align%20At%20Decimal.md)                                   | Widget für Formatierung und Ausrichtung von Floats.                 |
 | [Fs Folder](Fs%20Folder.md)                                                                 | Dateien und Ordner mit externem Dateisystem verlinken.              |
 | [Mail Environment](Mail%20Environment.md)                                                   | Mail-Server aus Umgebungsvariablen laden.                           |
 | [Mass Editing](Mass%20Editing.md)                                                           | Mühelos mehrere Einträge auf einmal bearbeiten.                     |
@@ -48,9 +51,12 @@ partner: Mint-System
 | [Prometheus Exporter](Prometheus%20Exporter.md)                                             | Odoo-Metriken mit Prometheus monitoren.                             |
 | [Queue Job Cron](Queue%20Job%20Cron.md)                                                     | Cron Jobs asynchron ausführen.                                      |
 | [Queue Job](Queue%20Job.md)                                                                 | Asynchrone Ausführung von Jobs.                                     |
+| [Report QWeb PDF Watermark](Report%20QWeb%20PDF%20Watermark.md)                             | Wasserzeichen auf PDF-Berichte hinzufügen.                          |
 | [Report XLSX](Report%20XLSX.md)                                                             | Klasse zur Etnwicklung von XLSX-Berichten.                          |
+| [Server Config Environment](Server%20Config%20Environment.md)                               | Umgebungen für die Server-Konfiguration definieren.                 |
 | [Server Environment Ir Config Parameter](Server%20Environment%20Ir%20Config%20Parameter.md) | Systemparameter aus Umgebungsvariablen laden.                       |
 | [Server Environment](Server%20Environment.md)                                               | Systemkonfigurationen aus Umgebungsvariablen laden.                 |
+| [Url Slug](Url%20Slug.md)                                                                   | Mixin zur Generierung von Url-Slugs.                                |
 | [Web Domain Field](Web%20Domain%20Field.md)                                                 | Dynamische Definitionen für Domain-Attribute auf Felder generieren. |
 | [Web Environment Ribbon](Web%20Environment%20Ribbon.md)                                     | Odoo Umgebung mit Banner markieren.                                 |
 | [Web Timeline](Web%20Timeline.md)                                                           | Die Timeline-Ansicht für alle Objekte.                              |

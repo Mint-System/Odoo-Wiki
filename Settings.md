@@ -40,12 +40,10 @@ partner: Odoo S.A.
 | [Home Background Image](Home%20Background%20Image.md)                                     | Den Odoo-Startbildschirm gestalten.                                |
 | [OAuth Multi Token](Auth%20OAuth%20Multi%20Token.md)                                      | Unterstützung für mehrere Geräteabhängigke OAuth-Tokens.           |
 | [Odoo Microsoft Account](Odoo%20Microsoft%20Account.md)                                   | Login mit Microsoft-Account.                                       |
-| [Report QWeb PDF Watermark](Report%20QWeb%20PDF%20Watermark.md)                           | Wasserzeichen auf PDF-Berichte hinzufügen.                         |
 | [Show DB Name](Show%20DB%20Name.md)                                                       | Zeigt den Datenbanknamen oben rechts an.                           |
 | [Web Company Color](Web%20Company%20Color.md)                                             | Farben des Odoo Backend Theme anpassen.                            |
 | [Web Enterprise Admin Expiration Panel](Web%20Enterprise%20Admin%20Expiration%20Panel.md) | Meldung Ablauf der Datenbank nur für Admins anzeigen.              |
 | [Web Theme Classic](Web%20Theme%20Classic.md)                                             | Kontrast auf Benutzeroberfläche verbessern.                        |
-| [Auth API Key](Auth%20API%20Key.md)                                                       | HTTP-Anfragen mit API-Key authentifizieren.                        |
 
 ## Konfiguration
 
