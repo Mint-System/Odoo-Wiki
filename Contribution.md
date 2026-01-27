@@ -77,17 +77,17 @@ Die Beschreibungen und Anleitungen sind ausführlich und kommen ohne Abkürzunge
 
 Die Navigations-Anweisungen müssen genauso erstellt werden:
 
-🚫"Fertigung/Stammdaten/Stückliste"  
+🟥 "Fertigung/Stammdaten/Stückliste"  
 ✅ "Navigieren Sie nach _Fertigung > Stammdaten > Stückliste_ und klicken Sie auf _+ Anliegen_."
 
 Pfade und Bezeichnungen werden kursiv geschrieben.
 
-🚫 Drücken Sie auf "+ Anlegen"  
+🟥 Drücken Sie auf "+ Anlegen"  
 ✅ Drücken Sie auf _+ Anlegen_
 
 Bezeichnungen die gross geschrieben sind, werden nur mit Anfangsbuchstanden gross geschrieben.
 
-🚫 Drücken Sie auf _ALS ERLEDIGT MARKIEREN_
+🟥 Drücken Sie auf _ALS ERLEDIGT MARKIEREN_
 ✅ Drücken Sie auf _Als Erledigt Markieren_
 
 ### Info-Boxen
