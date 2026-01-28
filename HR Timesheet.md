@@ -32,6 +32,7 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 | [Project Timesheet Limit](Project%20Timesheet%20Limit.md)                 | Erfassbare Zeit auf geplante Zeit limitieren.                      |
 | [Sale Timesheet Line Exclude](Sale%20Timesheet%20Line%20Exclude.md)       | Zeiterfassungseinträge als nicht abrechenbar markieren.            |
 | [Sale Timesheet Total Validated](Sale%20Timesheet%20Total%20Validated.md) | Nur bestätige Zeiterfassungs-Einträge in Verkaufsauftrag anzeigen. |
+| [Sale Timesheet Billable Price](Sale%20Timesheet%20Billable%20Price.md)   | Abrechenbarkeit basieren auf Preis der Auftragszeile festlegen.                                                                   |
 
 ## Konfiguration
 
