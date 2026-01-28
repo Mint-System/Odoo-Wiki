@@ -150,6 +150,11 @@ Wenn die Funktion der App Teil von einer anderen App geworden ist, können Sie d
 Seit #Odoo18 ist diese App Teil von [Mail Unsubscribe].
 #DEPRECATED
 :::
+
+::: warning
+Diese Funktion wurde Teil von [Project Menu].
+#DEPRECATED
+:::
 ```
 
 ### Bilder

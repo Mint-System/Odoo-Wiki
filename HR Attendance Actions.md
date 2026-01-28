@@ -15,6 +15,11 @@ prev: ./hr-attendance
 
 ### Fehlende Anwesenheitseinträge anzeigen
 
+::: warning
+Diese Funktion wurde Teil von [HR Attendance Missing](HR%20Attendance%20Missing.md).
+#DEPRECATED
+:::
+
 Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Fehlende Anwesenheitseinträge anzeigen`\
