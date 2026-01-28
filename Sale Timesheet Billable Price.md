@@ -1,6 +1,6 @@
 ---
 title: Sale Timesheet Billable Price
-description: Abrechenbarkeit basieren auf Preis der Auftragszeile festlegen.
+description: Abrechenbarkeit basierend auf Preis der Auftragszeile festlegen.
 kind: howto
 tags:
   - Mint-System
