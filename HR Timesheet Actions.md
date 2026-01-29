@@ -11,6 +11,27 @@ prev: ./hr-timesheet
 
 ## Aktionen
 
+## Zeiterfassung aufteilen
+
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Zeiterfassung aufteilen`\
+Modell: `account.analytic.line`\
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
+
+```python
+for rec in records:
+    original_amount = rec.unit_amount
+    new_timesheet = rec.copy()
+    rec.write({'unit_amount': original_amount / 2.0})
+    new_timesheet.write({'unit_amount': original_amount / 2.0})
+```
+
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speichern.
+
+
 ### Auftragselement von Aufgabe entfernen
 
 _Gilt ab #Odoo14._
