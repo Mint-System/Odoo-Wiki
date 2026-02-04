@@ -63,9 +63,11 @@ Zum Beispiel als Beschreibung auf einem Angebot.
 
 In den Einstellungen kann eine Sicherheitsvorlaufzeit eingestellt werden.
 
-Falls eine _Security Lead Time for Sales_ definiert ist (siehe Lager > Konfigruation) dann beeinflusst dies den geplanten Lieferzeitpunkt. D.h. der Warentransfer wird diese Anzahl Tage früher beauftragt. Der im Verkaufsauftrag definierte und für den Kunden sichtbare Termin wird aber durch die _Security Lead Time for Sales_ nicht beeinflusst.
+Falls eine _Security Lead Time for Sales_ definiert ist (siehe Lager > Konfiguration) dann beeinflusst dies den geplanten Lieferzeitpunkt. D.h. der Warentransfer wird diese Anzahl Tage früher beauftragt. Der im Verkaufsauftrag definierte und für den Kunden sichtbare Termin wird aber durch die _Security Lead Time for Sales_ nicht beeinflusst.
 
 ### Produktart festlegen
+
+#### Bis Odoo Version 17
 
 Zur Auswahl stehen
 
@@ -74,6 +76,21 @@ Zur Auswahl stehen
 - Dienstleistung
 
 Falls ein Produkt im Lager eingebucht und die Menge überwacht werden soll, ist _Einlagerbares Produkt_ die richtige Wahl. Für Produkte welche mengenmässig nicht erfasst werden (z.B. Reinigungsflüssigkeit) wählen Sie _Verbrauchsartikel_. Sie können Sie einkaufen aber nicht an Lager legen. Die Produktart _Dienstleistung_ dient zur Darstellung von immateriellen Gütern (z.B. Beratungsleistung).
+
+::: warning 
+Bis #Odoo17 kann die Produktart nicht mehr geändert werden, sobald ein Beleg (zum Beipiel eine Warenbewegung) zum Produkt erstellt ist. Das Produkt muss dann mit der anderen Produktart neu angelegt und das alte Produkt archiviert werden.  
+#DEPRECATED 
+:::
+
+#### Ab Odoo Version 18
+
+Zur Auswahl stehen
+
+- Ware
+- Dienstleistung
+- Kombination
+
+Als _Ware_ gelten materielle Güter, die eingekauft, verarbeitet, gelagert und verkauft werden können. Die Unterscheidung zwischen 'Verbrauchsartikeln ohne Nachverfolgung' und 'einlagerbaren Produkten' wird über die Option _Bestand verfolgen_ gesteuert. Die Produktart _Dienstleistung_ dient zur Darstellung von immateriellen Gütern (z.B. Beratungsleistung). Mit _Kombination_ können Produkte erfasst werden, die Ware und Dienstleistung beinhalten, wie beispielsweise eine Maschine mit zugehöriger Serviceleistung.
 
 ### Produktkategorie festlegen
 
