@@ -87,7 +87,7 @@ Pfade und Bezeichnungen werden kursiv geschrieben.
 
 Bezeichnungen die gross geschrieben sind, werden nur mit Anfangsbuchstanden gross geschrieben.
 
-🟥 Drücken Sie auf _ALS ERLEDIGT MARKIEREN_
+🟥 Drücken Sie auf _ALS ERLEDIGT MARKIEREN_  
 ✅ Drücken Sie auf _Als Erledigt Markieren_
 
 ### Info-Boxen
@@ -124,7 +124,7 @@ Wenn der Seiteninhalt nicht mehr überschaubar ist, kann ein Inhaltsverzeichnis 
 
 ### Veraltete Inhalte
 
-Wenn Apps verwaltet sind, können Sie diese wie folgt markieren:
+Wenn Apps veraltet sind, können Sie diese wie folgt markieren:
 
 ```
 ::: warning
