@@ -55,7 +55,7 @@ Zum Beispiel als Beschreibung auf einem Angebot.
 | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Verantwortlich              |                                                                                                                                                                              |
 | Gewicht                     |                                                                                                                                                                              |
-| Volumenen                   |                                                                                                                                                                              |
+| Volumen                     |                                                                                                                                                                              |
 | Durchlaufzeit der Fertigung |                                                                                                                                                                              |
 | Auslieferungszeit           | Die Zeitdauer von der Bestellung bis zum Eintreffen des Produkts beim Kunden. Diese Anzahl Tage definiert das "Expected Date" im Verkaufsauftrag (Heute + Auslieferungszeit) |
 | Mengeneinheit               | Einheit, in welcher das Produkt verkauft wird und die für alle Lagervorgänge verwendet wird.                                                                                 |
