@@ -67,7 +67,7 @@ Nachbestellregeln erzeugen bei Bedarf automatisch Offertanfragen (bei Route _Ein
 
 ### Manuelle Auffüllung
 
-Soll die Beschaffung manuell überblickt und angestossen werden, ist _Lager > Vorgänge > Auffüllung_ das zentrale Werkzeug. Auffüllung zeigt Produkte an, deren Bestand künftig negativ wird. Dies betrifft sowohl Produkte, die ausgeliefert werden, als auch solche, die in der Fertigung verarbeitet werden.
+Soll die Beschaffung manuell überblickt und angestossen werden, ist _Lager > Vorgänge > Auffüllung_ das zentrale Werkzeug. _Auffüllung_ zeigt Produkte an, deren Bestand künftig negativ wird. Dies betrifft sowohl Produkte, die ausgeliefert werden, als auch solche, die in der Fertigung verarbeitet werden.
 
 ![Fertigung Auffüllung](attachments/Fertigung%20Auffüllung.png)
 
