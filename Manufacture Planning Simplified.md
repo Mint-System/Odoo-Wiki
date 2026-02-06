@@ -64,3 +64,17 @@ Falls der Bestand eines Produkts automatisch aufgefüllt werden soll, kann dies 
 ![Fertigung Nachbestellregeln Smartbutton](attachments/Fertigung%20Nachbestellregeln%20Smartbutton.png)
 
 Nachbestellregeln erzeugen bei Bedarf automatisch Offertanfragen (bei Route _Einkaufen_) oder Fertigungsaufträge (bei Route _Fertigung_).
+
+### Manuelle Auffüllung
+
+Soll die Beschaffung manuell überblickt und angestossen werden, ist _Lager > Vorgänge > Auffüllung_ das zentrale Werkzeug. _Auffüllung_ zeigt Produkte an, deren Bestand künftig negativ wird. Dies betrifft sowohl Produkte, die ausgeliefert werden, als auch solche, die in der Fertigung verarbeitet werden.
+
+![Fertigung Auffüllung](attachments/Fertigung%20Auffüllung.png)
+
+Ein Klick auf _Bestellen_ erzeugt bei
+- Produkten mit Route _Fertigung_ einen Fertigungsauftrag.
+- Produkten mit Route _Einkaufen_ eine Offertanfrage.
+
+::: tip
+Wird ein Produkt durch Fertigung aufgefüllt, erscheinen die dafür benötigten Produkte erst danach in _Auffüllung_. Die Auflistung im Zweifelsfall neu laden.
+:::
