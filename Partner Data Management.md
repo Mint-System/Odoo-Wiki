@@ -2,6 +2,7 @@
 title: Kontakte Datenmanagement
 description: Daten zu Kontakte exportieren und importieren.
 kind: howto
+section: true
 prev: ./contacts
 ---
 

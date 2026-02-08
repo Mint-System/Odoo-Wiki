@@ -2,6 +2,7 @@
 title: Entwicklung Ansichten
 description: Odoo Ansichten anpassen.
 kind: howto
+section: true
 prev: ./development
 ---
 

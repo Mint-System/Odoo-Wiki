@@ -2,6 +2,7 @@
 title: Kontakte Aktionen
 description: Arbeitsflüsse mit Kontakte automatisieren.
 kind: howto
+section: true
 prev: ./contacts
 ---
 

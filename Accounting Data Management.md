@@ -2,6 +2,7 @@
 title: Buchhaltung Datenmanagement
 description: Daten zur Buchhaltung exportieren und importieren.
 kind: howto
+section: true
 prev: ./accounting
 ---
 

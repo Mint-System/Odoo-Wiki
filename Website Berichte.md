@@ -2,6 +2,7 @@
 title: Website Berichte
 description: Verkaufszahlen analysieren.
 kind: howto
+section: true
 prev: ./website
 ---
 

@@ -2,6 +2,7 @@
 title: Buchhaltung Kostenrechnung
 description: Kosten analysieren und Budget planen.
 kind: howto
+section: true
 prev: ./accounting
 ---
 

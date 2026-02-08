@@ -2,6 +2,7 @@
 title: Discuss Aktionen
 description: Arbeitsflüsse für Dialog automatisieren.
 kind: howto
+section: true
 prev: ./discuss
 ---
 

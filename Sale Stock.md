@@ -2,6 +2,7 @@
 title: Verkauf Lager
 description: Lieferungen aus Verkaufsaufträge erstellen.
 kind: howto
+section: true
 prev: ./sale
 ---
 

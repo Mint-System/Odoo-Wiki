@@ -2,6 +2,7 @@
 title: Buchhaltung Finanzbuchhaltung
 description: Kontenplan einrichten und Buchungen erstellen.
 kind: howto
+section: true
 prev: ./accounting
 ---
 

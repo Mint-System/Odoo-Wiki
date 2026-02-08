@@ -2,6 +2,7 @@
 title: Fertigung Vorgänge
 description: Vorgänge für Fertigung konfigurieren.
 kind: howto
+section: true
 prev: ./manufacture
 ---
 

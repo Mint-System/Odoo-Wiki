@@ -3,11 +3,12 @@ views:
     name: Table
     filters:
       and:
-        - file.name.endsWith("Actions")
+        - partner == "Zebra"
     order:
       - file.name
-      - prev
-      - section
+      - partner
     sort:
       - property: tags
         direction: DESC
+    columnSize:
+      file.name: 283

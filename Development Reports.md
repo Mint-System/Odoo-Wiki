@@ -2,6 +2,7 @@
 title: Entwicklung Berichte
 description: Eigene Berichte mit QWeb erstellen.
 kind: howto
+section: true
 prev: ./development
 ---
 

@@ -2,6 +2,7 @@
 title: Lager Verpackungen
 description: Produkte für den Versand verpacken.
 kind: howto
+section: true
 prev: ./stock
 ---
 

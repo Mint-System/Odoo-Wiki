@@ -2,6 +2,7 @@
 title: Discuss E-Mail
 description: E-Mail mit Odoo versenden.
 kind: howto
+section: true
 prev: ./discuss
 ---
 

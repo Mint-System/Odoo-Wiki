@@ -2,6 +2,7 @@
 title: Fertigung Datenmanagement
 description: Produkte und Dienstleistungen zentral pflegen.
 kind: howto
+section: true
 prev: ./manufacture
 ---
 
@@ -23,7 +24,7 @@ Navigieren Sie nach _Fertigung > Stammdaten > Produkte_.
 
 Die Produkte erscheinen entsprechend zur Auswahl wenn z.B ein Angebot (kann verkauft werden) oder eine Angebotsanfrage (kann eingekauft werden) erstellt werden.
 
-**\*Beschreibung der Felder**
+**Beschreibung der Felder**
 
 **Titel**
 

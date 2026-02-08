@@ -2,8 +2,7 @@
 title: E-Mail-Marketing Aktionen
 description: Arbeitsflüsse in E-Mail-Marketing automatisieren.
 kind: howto
-tags:
-  - Actions
+section: true
 prev: ./mass_mailing
 ---
 

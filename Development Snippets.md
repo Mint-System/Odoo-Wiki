@@ -2,6 +2,7 @@
 title: Entwicklung Snippets
 description: Einfache Anpassungen mit den Mint System Snippets umsetzen.
 kind: howto
+section: true
 prev: ./development
 ---
 

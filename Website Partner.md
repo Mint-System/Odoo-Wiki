@@ -2,6 +2,7 @@
 title: Website Partner
 description: Partner auf Website publizieren.
 kind: howto
+section: true
 prev: ./website
 ---
 

@@ -1,13 +1,12 @@
 ---
-title: Fertigung Planung vereinfachen
+title: Fertigung Planung
 description: Fertigungsplanung möglichst einfach Umsetzen
 kind: howto
-tags:
-  - Mint-System
+section: true
 prev: ./manufacture
 ---
 
-# Fertigung Planung vereinfachen
+# Fertigung Planung
 
 ![icons_odoo_mrp](attachments/icons_odoo_mrp.png)
 

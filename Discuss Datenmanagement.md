@@ -2,6 +2,7 @@
 title: Discuss Datenmanagement
 description: Daten zu Dialog exportieren und importieren.
 kind: howto
+section: true
 prev: ./discuss
 ---
 

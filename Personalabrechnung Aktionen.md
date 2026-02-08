@@ -2,8 +2,7 @@
 title: Personalabrechnung Aktionen
 description: Lohnabrechnung automatisieren.
 kind: howto
-tags:
-  - Actions
+section: true
 prev: ./hr-payroll
 ---
 

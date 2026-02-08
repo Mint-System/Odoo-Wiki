@@ -2,8 +2,7 @@
 title: Entwicklung Aktionen
 description: Eigene Odoo Aktionen erstellen.
 kind: howto
-tags:
-  - Actions
+section: true
 prev: ./development
 ---
 

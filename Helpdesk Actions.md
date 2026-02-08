@@ -2,6 +2,7 @@
 title: Kundendienst Aktionen
 description: Arbeitsflüsse im Kundendienst automatisieren.
 kind: howto
+section: true
 prev: ./discuss
 ---
 

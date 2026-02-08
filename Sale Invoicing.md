@@ -2,6 +2,7 @@
 title: Verkauf Abrechnung
 description: Verkaufsaufträge unkompliziert abrechnen.
 kind: howto
+section: true
 prev: ./sale
 ---
 

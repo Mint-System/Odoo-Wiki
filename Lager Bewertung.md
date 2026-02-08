@@ -2,6 +2,7 @@
 title: Lager Bewertung
 description: Den Wert des Lagerbestands automatisch führen.
 kind: howto
+section: true
 prev: ./stock
 ---
 

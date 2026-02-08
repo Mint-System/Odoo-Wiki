@@ -3,11 +3,12 @@ views:
     name: Table
     filters:
       and:
-        - file.name.endsWith("Actions")
+        - section == true
     order:
       - file.name
       - prev
-      - section
     sort:
       - property: tags
         direction: DESC
+    columnSize:
+      file.name: 424

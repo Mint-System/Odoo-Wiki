@@ -1,0 +1,19 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.ext == "md"
+    order:
+      - file.name
+      - file.ctime
+      - file.mtime
+    sort:
+      - property: file.ctime
+        direction: DESC
+      - property: file.mtime
+        direction: DESC
+      - property: tags
+        direction: DESC
+    columnSize:
+      file.name: 340

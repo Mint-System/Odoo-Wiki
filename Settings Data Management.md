@@ -2,6 +2,7 @@
 title: Einstellungen Datenmanagement
 description: Daten zu Einstellungen exportieren und importieren.
 kind: howto
+section: true
 prev: ./settings
 ---
 

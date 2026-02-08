@@ -2,6 +2,7 @@
 title: Einstellungen OAuth
 description: OAuth-Integration mit Odoo.
 kind: howto
+section: true
 prev: ./settings
 ---
 

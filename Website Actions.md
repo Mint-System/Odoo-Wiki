@@ -2,6 +2,7 @@
 title: Website Aktionen
 description: Automatisierung der Website-Vorgänge.
 kind: howto
+section: true
 prev: ./website
 ---
 

@@ -2,6 +2,7 @@
 title: Scanner Zebra TC21
 description: Mobiler Scanner für Odoo.
 kind: howto
+section: true
 partner: Zebra
 prev: ./barcode
 ---

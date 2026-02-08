@@ -2,6 +2,7 @@
 title: Spesen Aktionen
 description: Aktionen für Spesen App einrichten.
 kind: howto
+section: true
 prev: ./hr-attendance
 ---
 

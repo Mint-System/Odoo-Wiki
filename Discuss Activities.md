@@ -2,6 +2,7 @@
 title: Discuss Aktivitäten
 description: Arbeitsplanung mit Odoo Aktivitäten.
 kind: howto
+section: true
 prev: ./discuss
 ---
 

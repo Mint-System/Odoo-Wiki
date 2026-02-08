@@ -2,6 +2,7 @@
 title: Einstellungen Aktionen
 description: Odoo-Einstellungen automatisieren.
 kind: howto
+section: true
 prev: ./settings
 ---
 

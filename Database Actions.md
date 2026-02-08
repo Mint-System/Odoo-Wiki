@@ -2,8 +2,7 @@
 title: Datenbank Aktionen
 description: Aktion für die Datenbank ausführen.
 kind: howto
-tags:
-  - Actions
+section: true
 prev: ./database
 ---
 

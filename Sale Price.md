@@ -2,6 +2,7 @@
 title: Verkauf Preise
 description: Produkte, Preislisten und Varianten zentral pflegen.
 kind: howto
+section: true
 prev: ./sale
 ---
 

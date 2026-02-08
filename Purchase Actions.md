@@ -2,6 +2,7 @@
 title: Einkauf Aktionen
 description: Arbeitsflüsse in Einkauf automatisieren.
 kind: howto
+section: true
 prev: ./purchase
 ---
 

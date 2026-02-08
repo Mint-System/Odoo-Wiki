@@ -20,8 +20,8 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 | --------------------------------------------------------------- | ---------------------------------------------- |
 | [Fertigung Aktionen](Manufacture%20Actions.md)                  | Fertigungs-Prozesse automatisieren.            |
 | [Fertigung Datenmanagement](Manufacture%20Data%20Management.md) | Produkte und Dienstleistungen zentral pflegen. |
+| [Fertigung Planung](Manufacture%20Planning.md)                  | Fertigungsplanung effizient vorbereiten        |
 | [Fertigung Vorgänge](Manufacture%20Operations.md)               | Vorgänge für Fertigung konfigurieren.          |
-| [Fertigung Planung vereinfachen](Manufacture%20Planning%20Simplified.md)| Fertigungsplanung effizient vorbereiten    |
 
 ## Erweiterungen
 

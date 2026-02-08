@@ -2,6 +2,7 @@
 title: Kundendienst Datenmanagement
 description: Daten zu Kundendienst exportieren und importieren.
 kind: howto
+section: true
 prev: ./helpdesk
 ---
 

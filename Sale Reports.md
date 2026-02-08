@@ -2,6 +2,7 @@
 title: Verkauf Berichte
 description: Verkaufsdaten immer aktuell.
 kind: howto
+section: true
 prev: ./sale
 ---
 

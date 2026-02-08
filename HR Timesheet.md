@@ -18,7 +18,6 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 
 | Bereich                                                | Beschreibung                                        |
 | ------------------------------------------------------ | --------------------------------------------------- |
-| [Awesome Timesheet](Awesome%20Timesheet.md)            | Mobile Zeiterfassung.                               |
 | [Terminal Zeiterfassung](Terminal%20HR%20Timesheet.md) | Ein- und auschecken mit dem Terminal Zeiterfassung. |
 | [Zeiterfassung Aktionen](HR%20Timesheet%20Actions.md)  | Arbeitsflüsse in der Zeiterfassung automatisieren.  |
 | [Zeiterfassung Ansichten](Timesheet%20Views.md)        | Ansichten der Zeiterfassung anpassen.               |

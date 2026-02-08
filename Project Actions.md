@@ -2,6 +2,7 @@
 title: Projekt Aktionen
 description: Aktionen für Projekt App einrichten.
 kind: howto
+section: true
 prev: ./project
 ---
 

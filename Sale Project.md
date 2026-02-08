@@ -2,6 +2,7 @@
 title: Verkauf Projekt
 description: Dienstleistungen mit Verkauf und Projekt abwickeln.
 kind: howto
+section: true
 prev: ./sale
 ---
 

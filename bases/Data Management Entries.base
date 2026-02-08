@@ -7,6 +7,7 @@ views:
     order:
       - file.name
       - prev
+      - section
     sort:
       - property: tags
         direction: DESC

@@ -2,6 +2,7 @@
 title: Anwesenheiten Überstunden
 description: Überstundenmanagement ganz einfach.
 kind: howto
+section: true
 prev: ./hr-attendance
 ---
 

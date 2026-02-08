@@ -2,7 +2,7 @@
 title: PITS Payment Saferpay
 description: Saferpay Payment Provider Plugin von PIT Solutions.
 kind: howto
-partner: Mint-System
+partner: Thirdparty
 prev: ./website-e-commerce
 ---
 

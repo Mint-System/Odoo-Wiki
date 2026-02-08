@@ -2,6 +2,7 @@
 title: Produkt Datenmanagement
 description: Daten zu Produkten exportieren und importieren.
 kind: howto
+section: true
 prev: ./product
 ---
 

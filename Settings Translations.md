@@ -2,6 +2,7 @@
 title: Einstellungen Übersetzungen
 description: Einstellungen zu Sprachpakete und Übersetzungen.
 kind: howto
+section: true
 prev: ./settings
 ---
 

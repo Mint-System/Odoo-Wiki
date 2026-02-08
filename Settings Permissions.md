@@ -2,6 +2,7 @@
 title: Einstellungen Berechtigungen
 description: Einstellungen zu Zugriffsrechten und Gruppen.
 kind: howto
+section: true
 prev: ./settings
 ---
 

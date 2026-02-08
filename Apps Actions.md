@@ -2,6 +2,7 @@
 title: Apps Aktionen
 description: Aktionen für Apps einrichten.
 kind: howto
+section: true
 prev: ./apps
 ---
 
