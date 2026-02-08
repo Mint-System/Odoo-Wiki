@@ -25,8 +25,9 @@ prev: ./
 | [Mgmt Audit](Mgmt%20Audit.md)                           | Auditieren Sie ihr Unternehmen.                                    |
 | [Mgmt Auditlog](Mgmt%20Auditlog.md)                     | Log-Regeln für OCA Auditlog.                                       |
 | [Mgmt Base](Mgmt%20Base.md)                             | Basis für die Management-System Module.                            |
-| [Mgmt Hazard Risk](Mgmt%20Hazard%20Risk.md)             | Risiko-Kalkulation basierend auf Gefahren.                          |
+| [Mgmt Hazard Risk](Mgmt%20Hazard%20Risk.md)             | Risiko-Kalkulation basierend auf Gefahren.                         |
 | [Mgmt Requirement](Mgmt%20Requirement.md)               | Verwalten Sie Anforderungen and die Organisation.                  |
+| [Mgmt Requirement Knowledge](Mgmt%20Requirement%20Knowledge.md) | Fügen Sie Dokumentationen zu Ihren Anforderungen hinzu.    |                                                 |                                                                    |
 | [Mgmt Risk](Mgmt%20Risk.md)                             | Verwaltung von ISO27001 Risiken.                                   |
 | [Mmgt Asset](Mmgt%20Asset.md)                           | Asset-Verwaltung für das Management-System.                        |
 
