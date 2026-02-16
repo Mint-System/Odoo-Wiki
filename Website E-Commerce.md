@@ -40,7 +40,7 @@ Navigieren Sie nach _Einstellungen > Website > Shop - Checkout Process_ und wäh
 
 ### Produkt veröffentlichen
 
-Nach dem erstellen eines Produkts wird dieses standardmässig nicht auf der Webiste veröffentlicht und muss explizit publiziert werden.
+Nach dem erstellen eines Produkts wird dieses standardmässig nicht auf der Website veröffentlicht und muss explizit publiziert werden.
 
 Klicken Sie auf _Gehe zu Website_ auf der Produkt-Ansicht.
 
