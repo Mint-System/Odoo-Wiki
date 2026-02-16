@@ -1,12 +1,12 @@
 ---
-title: PITS Payment Saferpay
+title: Saferpay Payment Provider
 description: Saferpay Payment Provider Plugin von PIT Solutions.
 kind: howto
 partner: Thirdparty
 prev: ./website-e-commerce
 ---
 
-# PITS Payment Saferpay
+# Saferpay Payment Provider
 
 ![](attachments/odoo_icons_payment_saferpay.png)
 
