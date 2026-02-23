@@ -131,11 +131,15 @@ Wenn die manuelle Erfassung der Anwesenheit erlaubt ist, navigieren Sie nach _An
 
 ### Manuelle Erfassung Anwesenheit erlauben
 
-Die Berechtigung zur Bearbeitung der Anwesenheits-Einträge wird über die Fenster-Aktion gesteuert. Nun gibt es eine gleichnamige Fensteraktion für Awesenheiten-Benutzer und -Administratoren. Navigieren Sie nach _Einstellungen > Technisch > Menüpunkte_ und suchen Sie nach _Anwesenheiten_. Öffnen Sie den ersten Eintrag und wählen Sie im Feld _Aktion_ den ersten Eintrag _Anwesenheiten_ aus.
+Zeigen Sie _Einstellungen > Benutzer & Unternehmen > Gruppen an und rufen die Gruppe _Benutzer: Die eigenen Anwesenheiten lesen_. Fügen Sie die Benutzer hinzu, welche ihre Anwesenheit selber verwalten dürfen. Rufen Sie den Tab _Zugrifsrechte_ auf und erteilen Sie dem _hr.attendance.user_ Eintrag Lesen, Schreiben und Erstellen.
+
+Gilt bis #Odoo16:
+
+Die Berechtigung zur Bearbeitung der Anwesenheits-Einträge wird über die Fenster-Aktion gesteuert. Nun gibt es eine gleichnamige Fensteraktion für Anwesenheiten-Benutzer und -Administratoren. Navigieren Sie nach _Einstellungen > Technisch > Menüpunkte_ und suchen Sie nach _Anwesenheiten_. Öffnen Sie den ersten Eintrag und wählen Sie im Feld _Aktion_ den ersten Eintrag _Anwesenheiten_ aus.
 
 ![](attachments/HR%20Attendance%20Aktionen%20Awesenheiten.png)
 
-Nun wird für Benutzer- und Administratoren die gleiche Aktion aufgerufen und die gleiche Ansicht angzeigt.
+Nun wird für Benutzer- und Administratoren die gleiche Aktion aufgerufen und die gleiche Ansicht angezeigt.
 
 Gilt bis #Odoo15:
 
