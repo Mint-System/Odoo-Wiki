@@ -21,7 +21,7 @@ Website: <https://www.odoo.com/de_DE/app/ecommerce>
 | [Payment Saferpay](Payment%20Saferpay.md)                     | Zahlungsanbieter für Saferpay (ohne Zahlungstokens).        |
 | [Saferpay Payment Provider](Saferpay%20Payment%20Provider.md) | Saferpay Payment Provider Plugin von PIT Solutions.         |
 | [Website Sale Cart Expire](Website%20Sale%20Cart%20Expire.md) | Warenkörbe nach einer bestimmten Zeit automatisch abbrechen |
-| [Website Sale Extra Infos](Website%20Sale%20Extra%20Infos.md) | Zusätzliche Informationen bei Checkout abfragen.            |
+| [Website Sale Permit Extra Info](Website%20Sale%20Permit%20Extra%20Info.md) | Zusätzliche Informationen bei Checkout abfragen.            |
 | [Website Sale Firstname](Website%20Sale%20Firstname.md)       | Vor- und Nachname auf Adressformular.                       |
 | [Website Sale Float Qty](Website%20Sale%20Float%20Qty.md)     | Teilmengen von Produkten in Webshop bestellen.              |
 | [Website Shop Coupons](Website%20Shop%20Coupons.md)           | Website Coupons & Gutscheine im Odoo Shop.                  |
@@ -35,6 +35,21 @@ Navigieren Sie nach _Einstellungen > Website > Shop - Checkout Process_ und akti
 ### Checkout-Formular konfigurieren
 
 Navigieren Sie nach _Einstellungen > Website > Shop - Checkout Process_ und wählen Sie die Aktion _Formular konfigurieren_.
+
+### Automatisch Rechnung generieren
+
+Zum Beispiel mit der Payrexx Plugin, wird ein Verkaufsauftrag bestätigt und eine Zahlung im Buchhaltung erstellt, aber keine Rechnung. Mit zwei Einstellungen wird das automatisch generiert.
+
+Wählen Sie 'Online-Zahlung'
+
+![](attachments/Verkauf%20Rechnung%20Automatisch%20Generieren.png)
+
+Dann wird verfügbar 'Automatische Rechnung'
+
+![](attachments/Verkauf%20Rechnung%20Automatisch%20Generieren2.png)
+
+NB Der Rechnung wird auch automatisch zum Kunde verschickt, aber mit Vermerk dass der Zahlung schon beglichen wurde.
+
 
 ## Produkte
 
