@@ -131,7 +131,7 @@ Wenn die manuelle Erfassung der Anwesenheit erlaubt ist, navigieren Sie nach _An
 
 ### Manuelle Erfassung Anwesenheit erlauben
 
-Zeigen Sie _Einstellungen > Benutzer & Unternehmen > Gruppen an und rufen die Gruppe _Benutzer: Die eigenen Anwesenheiten lesen_. Fügen Sie die Benutzer hinzu, welche ihre Anwesenheit selber verwalten dürfen. Rufen Sie den Tab _Zugrifsrechte_ auf und erteilen Sie dem _hr.attendance.user_ Eintrag Lesen, Schreiben und Erstellen.
+Zeigen Sie _Einstellungen > Benutzer & Unternehmen > Gruppen an und rufen die Gruppe _Benutzer: Die eigenen Anwesenheiten lesen_. Fügen Sie die Benutzer hinzu, welche ihre Anwesenheit selber verwalten dürfen. Rufen Sie den Tab _Zugriffsrechte_ auf und erteilen Sie dem _hr.attendance.user_ Eintrag Lesen, Schreiben und Erstellen.
 
 Gilt bis #Odoo16:
 
