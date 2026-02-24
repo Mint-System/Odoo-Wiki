@@ -173,23 +173,6 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 In der Listenansicht der Anwesenheiten erscheint nun in der Auswahl _Aktion_ das Menu _Überstunden aktualisieren_.
 
-### Gleitzeitsaldo aktualisieren
-
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Gleitzeitsaldo aktualisieren`\
-Modell: `hr.employee`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
-
-```python
-for rec in records:
-  rec.attendance_ids._update_overtime()
-```
-
-Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
-
 ## Geplante Aktionen
 
 ### Überstunden entfernen
