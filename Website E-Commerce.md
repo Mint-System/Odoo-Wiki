@@ -38,7 +38,7 @@ Navigieren Sie nach _Einstellungen > Website > Shop - Checkout Process_ und wäh
 
 ### Automatisch Rechnung generieren
 
-Wenn ein Warenkorb (Verkaufsauftrag) bestätigt wird, wird eine Zahlung in Buchhaltung registriert, aber keine Rechnung. Damit automatisch eine Rechnung erstellt wird, navigieren Sie nach _Einstellungen > Website > Angebot & Aufträge. Aktivieren Sie die Option _Online-Zahlung_. Im Abschnitt _Rechnungsstellung_ finden Sie nun die Option _Automatische Rechnung_.
+Wenn ein Warenkorb (Verkaufsauftrag) bestätigt wird, wird eine Zahlung in Buchhaltung registriert, aber keine Rechnung. Damit automatisch eine Rechnung erstellt wird, navigieren Sie nach _Einstellungen > Website > Angebot & Aufträge_. Aktivieren Sie die Option _Online-Zahlung_. Im Abschnitt _Rechnungsstellung_ finden Sie nun die Option _Automatische Rechnung_.
 
 ![](attachments/Verkauf%20Rechnung%20Automatisch%20Generieren2.png)
 
