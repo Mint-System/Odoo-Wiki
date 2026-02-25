@@ -267,5 +267,7 @@ for rec in records:
         ('holiday_status_id', '=', holiday_status_id.id)
     ], limit=1)
     # raise UserError([rec.employee_id.total_overtime, rec.employee_id.total_overtime/8 ,allocation_id.number_of_days])
-    allocation_id.write({'number_of_days': rec.employee_id.total_overtime/8})
+    number_of_days = rec.employee_id.total_overtime/8
+    if allocation_id.number_of_days < number_of_days:
+        allocation_id.write({'number_of_days': number_of_days})
 ```
