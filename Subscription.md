@@ -68,7 +68,16 @@ Führen Sie [Filter manuell anlegen](Development%20Views.md#Filter%20manuell%20a
 | Domain            | `["&", ("renew_state", "=", "renewing"), "&", ("state", "=", "draft"), ("subscription_management", "=", "renew")]` |
 | Kontext           | `{'group_by': []}`                                                                                                 |
 
-## Auswertung
+## Ansichten
+
+### Verkaufsauftragszeilen anzeigen
+
+Damit Sie eine Übersicht der Verkaufsauftragszeilen erhalten, folgen Sie dem HowTo [Menüposten erstellen](Development.md#Menüposten%20erstellen) und verwenden diese Werte:
+
+Menü: `Verkaufsauftragszeilen`\
+Obermenü: `Verkauf/Aufträge`\
+Aktion: `ir.actions.act_window` `Verkaufsauftragszeilen`\
+Sequenz: `50`
 
 ### Wiederkehrende Buchungszeilen anzeigen
 
