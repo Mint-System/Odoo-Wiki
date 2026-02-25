@@ -44,6 +44,7 @@ Die Abwesenheitsprüfung erstellt fehlende Anwesenheitseinträge damit die Über
 
 ::: tip
 Die geplante Aktion heisst _Anwesenheit: Abwesenheiten für Mitarbeiter entdecken_.
+:::
 
 ### Überstunden auf dem Dashboard Abwesenheiten anzeigen
 
