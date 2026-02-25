@@ -175,24 +175,6 @@ Die Berechnung der Margen ist `Zwischensumme - Kosten * Menge`. Diese Inputs kö
 
 ## Auswertung
 
-### Auftragszeilen anzeigen
-
-Gilt bis #Odoo15.
-
-Damit Sie eine Übersicht der Auftragszeilen erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
-
-Name der Aktion: `Auftragszeilen`\
-Objekt: `sale.order.line`\
-Ansichtsmodus: `tree,form,pivot`\
-Menü: `Auftragszeilen`\
-Obermenü: `Verkauf/Aufträge`\
-Aktion: `ir.actions.act_window` `Auftragszeilen`\
-Nummernfolge: `50`
-
-Das Ergebnis sollte so aussehen:
-
-![](attachments/Verkauf%20Auftragszeilen.png)
-
 ### Verkaufsauftragszeilen anzeigen
 
 Gilt ab #Odoo16.
@@ -203,6 +185,22 @@ Menü: `Verkaufsauftragszeilen`\
 Obermenü: `Verkauf/Aufträge`\
 Aktion: `ir.actions.act_window` `Verkaufsauftragszeilen`\
 Sequenz: `50`
+
+Gilt bis #Odoo15.
+
+Damit Sie eine Übersicht der Auftragszeilen erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+
+Name der Aktion: `Verkaufsauftragszeilen`\
+Objekt: `sale.order.line`\
+Ansichtsmodus: `tree,form,pivot`\
+Menü: `Verkaufsauftragszeilen`\
+Obermenü: `Verkauf/Aufträge`\
+Aktion: `ir.actions.act_window` `Verkaufsauftragszeilen`\
+Nummernfolge: `50`
+
+Das Ergebnis sollte so aussehen:
+
+![](attachments/Verkauf%20Auftragszeilen.png)
 
 ## Kontakte
 
