@@ -53,6 +53,10 @@ Damit Mitarbeitenden ihre Überstunden auf dem Dashboard der Abwesenheiten sehen
 
 Erstellen Sie für ihre Mitarbeitenden eine Urlaubsanspruch vom Typ _Überstunden_. Geben Sie die verfügbaren Überstunden zur Kompensierung ein. Sobald der Anspruch erstellt ist, können Mitarbeitenden im Dashboard ihre verfügbaren Überstunden sehen. 
 
+::: warning
+Die verfügbaren Überstunden werden nicht laufend aktualisiert. Mit der automatisierten Aktion [Urlaubsanspruch Überstunden aktualisieren](HR%20Attendance%20Actions.md#Urlaubsanspruch%20Überstunden%20aktualisieren) kann eine laufende Aktualisierung der verfügbaren Überstunden gemacht werden.
+:::
+
 ## Verwendung
 
 ### Eigene Überstunden anzeigen

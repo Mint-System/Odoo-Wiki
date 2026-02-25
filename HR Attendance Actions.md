@@ -243,3 +243,29 @@ attendances = env['hr.attendance'].search([
 
 attendances._update_overtime()
 ```
+
+## Automatisierte Aktionen
+
+### Urlaubsanspruch Überstunden aktualisieren
+
+Mit dieser Aktion wird der Anspruch der Abwesenheitsart mit der externen ID `__custom__.holiday_status_extra_hours` beim Erstellen und Aktualisieren der Anwesenheit aktualisiert.
+
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+
+- **Name der Aktion**: `Urlaubsanspruch Überstunden aktualisieren`
+- **Modell**: `hr.attendance`
+- **Auslöser**: Beim Erstellen und Aktualisieren
+- **Folgeaktionen**:
+	- **Python-Code ausführen**:
+
+```python
+holiday_status_id = env.ref('__custom__.holiday_status_extra_hours')
+
+for rec in records:
+    allocation_id = env['hr.leave.allocation'].search([
+        ('employee_id','=',rec.employee_id.id),
+        ('holiday_status_id', '=', holiday_status_id.id)
+    ], limit=1)
+    # raise UserError([rec.employee_id.total_overtime, rec.employee_id.total_overtime/8 ,allocation_id.number_of_days])
+    allocation_id.write({'number_of_days': rec.employee_id.total_overtime/8})
+```
