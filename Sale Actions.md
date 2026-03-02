@@ -18,6 +18,8 @@ prev: ./sale
 
 ### Auf Erledigt setzen
 
+Gilt bis #Odoo16.
+
 Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Auf Erledigt setzen`\
