@@ -37,11 +37,11 @@ for record in records:
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speichern.
 
-### Aufträge sperren
+### Auftrag sperren
 
 Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Aufträge sperren`\
+Name der Aktion: `Auftrag sperren`\
 Modell: `sale.order`
 Folgeaktion: `Python-Code ausführen`
 
