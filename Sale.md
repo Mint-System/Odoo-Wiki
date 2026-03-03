@@ -173,11 +173,9 @@ Mit der aktivierten Option _Einstellungen > Verkauf > Margen_ sehen Sie für jed
 
 Die Berechnung der Margen ist `Zwischensumme - Kosten * Menge`. Diese Inputs können einem Angebot geändert werden.
 
-## Auswertung
+## Ansichten
 
 ### Auftragszeilen anzeigen
-
-Gilt bis #Odoo15.
 
 Damit Sie eine Übersicht der Auftragszeilen erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
 
@@ -192,17 +190,6 @@ Nummernfolge: `50`
 Das Ergebnis sollte so aussehen:
 
 ![](attachments/Verkauf%20Auftragszeilen.png)
-
-### Verkaufsauftragszeilen anzeigen
-
-Gilt ab #Odoo16.
-
-Damit Sie eine Übersicht der Verkaufsauftragszeilen erhalten, folgen Sie dem HowTo [Menüposten erstellen](Development.md#Menüposten%20erstellen) und verwenden diese Werte:
-
-Menü: `Verkaufsauftragszeilen`\
-Obermenü: `Verkauf/Aufträge`\
-Aktion: `ir.actions.act_window` `Verkaufsauftragszeilen`\
-Sequenz: `50`
 
 ## Kontakte
 

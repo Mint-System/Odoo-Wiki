@@ -25,13 +25,31 @@ partner: Odoo S.A.
 | [Web Referesher](Web%20Referesher.md)                                             | Fügt einen Button zur Aktualisierung der Listenansicht hinzu.        |     |     |     |     |     |     |
 | [Web Responsive](Web%20Responsive.md)                                             | Responsive Anzeige der Odoo-Oberfläche.                              |     |     |     |     |     |     |
 
-## Ansichten
+## Startseite
+
+### Kommandozeile ausführen
+
+Mit der Tastenkombination <kbd>Ctrl</kbd> + <kbd>k</kbd> starten Sie die Odoo Kommandozeile. Geben Sie im Suchfeld einen Befehl ein und starten Sie diesen mit <kbd>Enter</kbd>.
+
+![Navigation Kommandozeile](attachments/Navigation%20Kommandozeile.gif)
 
 ### Ansichten durchsuchen
 
 Die Startseite von Odoo listet alle verfügbaren Apps auf. Die Apps und deren Ansichten können gefiltert werden. Geben Sie auf der Übersicht einfach den gewünschten Begriff ein und Odoo filter die Ansichten für sie.
 
 ![](attachments/Navigation%20Suche.png)
+
+### App-Kacheln sortieren
+
+Gilt ab #Odoo17.
+
+Die App-Kacheln auf dem Startbildschirm von Odoo können Sie sortieren. Drücken und halten Sie eine Kachel und bewegen Sie diese anschliessend an den gewünschten Ort.
+
+::: warning
+Die Sortierung der Kacheln wird im Benutzer-Profil gespeichert. Jeder Benutzer hat eine eigene Sortierung.
+:::
+
+## Ansichten
 
 ### Smart-Links aufrufen
 
@@ -78,11 +96,3 @@ Bestimmte Einträge wie Kontakte oder Produkte können archiviert und so ausgebl
 ### Archivieren Einträge wiederherstellen
 
 Wenn Sie [Archivierte Einträge anzeigen](#Archivierte%20Einträge%20anzeigen) können Sie mit _Aktion > Archivierung aufheben_ die Archivierung des gewählten Eintrags rückgängi machen.
-
-## Dashboard
-
-### Kommandozeile ausführen
-
-Mit der Tastenkombination <kbd>Ctrl</kbd> + <kbd>k</kbd> starten Sie die Odoo Kommandozeile. Geben Sie im Suchfeld einen Befehl ein und starten Sie diesen mit <kbd>Enter</kbd>.
-
-![Navigation Kommandozeile](attachments/Navigation%20Kommandozeile.gif)

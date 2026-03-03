@@ -38,17 +38,11 @@ Navigieren Sie nach _Einstellungen > Website > Shop - Checkout Process_ und wäh
 
 ### Automatisch Rechnung generieren
 
-Zum Beispiel mit der Payrexx Plugin, wird ein Verkaufsauftrag bestätigt und eine Zahlung im Buchhaltung erstellt, aber keine Rechnung. Mit zwei Einstellungen wird das automatisch generiert.
-
-Wählen Sie 'Online-Zahlung'
-
-![](attachments/Verkauf%20Rechnung%20Automatisch%20Generieren.png)
-
-Dann wird verfügbar 'Automatische Rechnung'
+Wenn ein Warenkorb (Verkaufsauftrag) bestätigt wird, wird eine Zahlung in Buchhaltung registriert, aber keine Rechnung. Damit automatisch eine Rechnung erstellt wird, navigieren Sie nach _Einstellungen > Website > Angebot & Aufträge_. Aktivieren Sie die Option _Online-Zahlung_. Im Abschnitt _Rechnungsstellung_ finden Sie nun die Option _Automatische Rechnung_.
 
 ![](attachments/Verkauf%20Rechnung%20Automatisch%20Generieren2.png)
 
-NB Der Rechnung wird auch automatisch zum Kunde verschickt, aber mit Vermerk dass der Zahlung schon beglichen wurde.
+Bei einer Bestellung wird die Rechnung automatisch dem Kunden zugeschickt. In der Rechnung ist ein Vermerk, dass der Zahlung bereits beglichen wurde.
 
 
 ## Produkte

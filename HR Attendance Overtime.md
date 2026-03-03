@@ -44,6 +44,19 @@ Die Abwesenheitsprüfung erstellt fehlende Anwesenheitseinträge damit die Über
 
 ::: tip
 Die geplante Aktion heisst _Anwesenheit: Abwesenheiten für Mitarbeiter entdecken_.
+:::
+
+### Überstunden auf dem Dashboard Abwesenheiten anzeigen
+
+Gilt ab #Odoo17.
+
+Damit Mitarbeitenden ihre Überstunden auf dem Dashboard der Abwesenheiten sehen, braucht es einen Urlaubsanspruch. Die Abwesenheitsart _Überstunden_ erfordert standardmässig keinen Anspruch. Um das zu ändern, öffnen Sie die Abwesenheitsart via _Abwesenheiten > Konfiguration > Abwesenheitsarten_. Aktivieren Sie die Option _Erfordert Anspruch_.
+
+Erstellen Sie für ihre Mitarbeitenden eine Urlaubsanspruch vom Typ _Überstunden_. Geben Sie die verfügbaren Überstunden zur Kompensierung ein. Sobald der Anspruch erstellt ist, können Mitarbeitenden im Dashboard ihre verfügbaren Überstunden sehen. 
+
+::: warning
+Die verfügbaren Überstunden werden nicht laufend aktualisiert. Mit der automatisierten Aktion [Urlaubsanspruch Überstunden aktualisieren](HR%20Attendance%20Actions.md#Urlaubsanspruch%20Überstunden%20aktualisieren) kann eine laufende Aktualisierung der verfügbaren Überstunden gemacht werden.
+:::
 
 ## Verwendung
 

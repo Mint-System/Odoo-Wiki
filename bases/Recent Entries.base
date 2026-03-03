@@ -1,9 +1,6 @@
 views:
   - type: table
     name: Table
-    filters:
-      and:
-        - file.ext == "md"
     order:
       - file.name
       - file.ctime
