@@ -22,11 +22,12 @@ Website: <https://www.odoo.com/de_DE/app/subscriptions>
 
 ## Erweiterungen
 
-| Erweiterung                                                                               | Beschreibung                                                         |
-| ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [Sale Subscription Disable Tokenization](Sale%20Subscription%20Disable%20Tokenization.md) | Abonnements mit Zahlungsanbieter ohne wiederkehrende Zahlung kaufen. |
-| [Sale Subscription Partner Pricelist](Sale%20Subscription%20Partner%20Pricelist.md)       | Preislisten-Zugriff mit Abonnements erteilen.                        |
-| [Sale Subscription Period Discount](Sale%20Subscription%20Period%20Discount.md)           | Erste Abonnementrechnung mit zeitbasiertem Rabatt.                   |
+| Erweiterung                                                                                         | Beschreibung                                                         |
+| --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [Sale Subscription Disable Tokenization](Sale%20Subscription%20Disable%20Tokenization.md)           | Abonnements mit Zahlungsanbieter ohne wiederkehrende Zahlung kaufen. |
+| [Sale Subscription Partner Pricelist](Sale%20Subscription%20Partner%20Pricelist.md)                 | Preislisten-Zugriff mit Abonnements erteilen.                        |
+| [Sale Subscription Period Discount](Sale%20Subscription%20Period%20Discount.md)                     | Erste Abonnementrechnung mit zeitbasiertem Rabatt.                   |
+| [Sale Subscription Pricelist Fixed Discount](Sale%20Subscription%20Pricelist%20Fixed%20Discount.md) | Stellt die Rabatt-Funktion für Abonnment wieder her.                 |
 
 ## Verwendung
 
