@@ -15,8 +15,8 @@ prev: {{VALUE:prev}}
 ```js quickadd
 // Define available versions
 const odoo_version = await this.quickAddApi.suggester(
-  ['16.0', '17.0', '18.0'],
-  ['16.0', '17.0', '18.0']
+  ['16.0', '17.0', '18.0', '19.0'],
+  ['16.0', '17.0', '18.0', '19.0']
 );
 this.variables.odoo_version = odoo_version;
 

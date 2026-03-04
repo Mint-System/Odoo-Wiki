@@ -14,6 +14,12 @@ partner: Odoo S.A.
 
 Website: <https://www.odoo.com/de_DE/app/crm>
 
+## Erweiterungen
+
+| Erweiterung                                             | Beschreibung                            |
+| ------------------------------------------------------- | --------------------------------------- |
+| [CRM Lead Template](templates/CRM%20Lead%20Template.md) | Lead Notizen von Vorlage aktualisieren. |
+
 ## Konfiguration
 
 ### Interessenten aus eingehenden E-Mails erstellen
