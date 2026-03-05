@@ -19,9 +19,7 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_attendance
 
 Diese Erweiterung stellt eine neeu Gruppe "Anwesenheiten / Benutzer" zur verfügung. Benutzer dieser Gruppe können 
 
-Gilt ab #Odoo18.
-
-Die Absenzen-Kontrolle wird nur für Benutzer dieser Gruppe ausgeführt. 
+Gilt ab #Odoo18: Die Absenzen-Kontrolle wird nur für Benutzer dieser Gruppe ausgeführt. 
 
 ## Verwendung
 
