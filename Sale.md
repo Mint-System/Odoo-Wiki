@@ -67,8 +67,9 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Project Key](Sale%20Project%20Key.md)                                                       | Projekt-Nummer in Listenansicht von Verkaufsaufträgen anzeigen.               |
 | [Sale Project Link](Sale%20Project%20Link.md)                                                     | Bestehendes Projekt mit Angebot verlinken.                                    |
 | [Sale Restricted Qty](Sale%20Restricted%20Qty.md)                                                 | Mindest- und Maximalbestellmenge für Produkte festlegen.                      |
-| [Sale Triple Discount](Sale%20Triple%20Discount.md)                                               | Mehrere Rabatte auf der Auftragszeile.                                        |
 | [Sale Start End Dates](Sale%20Start%20End%20Dates.md)                                             | Fügt dem Verkaufsauftrag ein Start- und Enddatum hinzu.                       |
+| [Sale Timesheet Estimate Report](Sale%20Timesheet%20Estimate%20Report.md)                         | Übersicht der Projektschätzungen auf Bericht Zeiterfassung anzeigen.          |
+| [Sale Triple Discount](Sale%20Triple%20Discount.md)                                               | Mehrere Rabatte auf der Auftragszeile.                                        |
 
 ## Produkte
 

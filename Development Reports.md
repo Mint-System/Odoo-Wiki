@@ -45,6 +45,8 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Vorschau externer Bericht         | `/report/html/web.preview_externalreport/$ID`                                   |
 | Vorschau interner Bericht         | `/report/html/web.preview_internalreport/$ID`                                   |
 | Zeitnachweis                      | `/report/html/account_sale_timesheet_report.timesheet_report/$ID`               |
+| Zeiterfassung (Projekt)           | `/report/html/hr_timesheet.report_timesheet_project/$ID`                        |
+| Zeiterfassung (Verkauf)           | `/report/html/sale_timesheet.report_timesheet_sale_order/$ID`                   |
 
 ::: tip
 Bestimmte Bericht können mehrere Dokumente anzeigen. Für die HTML-Anzeige können Sie die Dokument-IDs Komma-getrennt übergeben: /report/html/**stock.report_deliveryslip**/**3,4,5**
