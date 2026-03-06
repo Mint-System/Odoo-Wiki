@@ -71,6 +71,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Start End Dates](Sale%20Start%20End%20Dates.md)                                             | Fügt dem Verkaufsauftrag ein Start- und Enddatum hinzu.                       |
 | [Sale Timesheet Estimate Report](Sale%20Timesheet%20Estimate%20Report.md)                         | Übersicht der Projektschätzungen auf Bericht Zeiterfassung anzeigen.          |
 | [Sale Timesheet Report Group Invoice Type](Sale%20Timesheet%20Report%20Group%20Invoice%20Type.md) | Gruppiert die Zeilen im Bericht Zeiterfassung nach Abrechnungstyp.            |
+| [Sale Timesheet Report Project Details](Sale%20Timesheet%20Report%20Project%20Details.md)         | Zeige Zeitraum und Projektname auf Bericht Zeiterfassung.                     |
 | [Sale Triple Discount](Sale%20Triple%20Discount.md)                                               | Mehrere Rabatte auf der Auftragszeile.                                        |
 
 ## Produkte
