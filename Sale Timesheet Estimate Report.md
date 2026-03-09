@@ -18,6 +18,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sa
 
 ## Beschreibung
 
-Dieses Modul fügt dem Bericht _Zeiterfassung_ eine Übersicht _Projektstatus_ hinzu. Diese Tabelle zeigt die Aufwandsschätzung.
+Dieses Modul fügt dem Bericht _Zeiterfassung_ eine Übersicht _Projektstatus_ hinzu. Diese Tabelle zeigt die Aufwandsschätzung für validierte Verfassungseinträge.
 
 ![](attachments/Sale%20Timesheet%20Estimate%20Report.png)
