@@ -187,15 +187,12 @@ Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Settings
-weeks_before_invoice_date = 3
-mail_template = "license_ocad_mail.mail_template_extend_subscription"
+weeks_before_invoice_date = 6
+mail_template = env.ref("license_ocad_mail.mail_template_extend_subscription")
 default_price_list = "product.list0"
 
 # Get references
-template = env.ref(mail_template)
 pricelist_id = env.ref(default_price_list)
-stage_running_id = env.ref("sale_subscription.sale_subscription_stage_in_progress")
-stage_closed_id = env.ref("sale_subscription.sale_subscription_stage_closed")
 tag_id = env.ref("__custom__.tag_missing_mail")
 
 # Get resellers
@@ -210,7 +207,7 @@ extend_subscriptions = env["sale.order"].search([
   # ("partner_id", "not in", reseller_ids.ids),
   ("is_subscription", "=", True),
   ("pricelist_id", "=", pricelist_id.id),
-  ("stage_id", "=", stage_running_id.id),
+  ("subscription_state", "=", "3_progress"),
   ("subscription_child_ids", "=", False),
   ("state", "=", "sale"),
   ("next_invoice_date", "<=", extend_date),
@@ -226,16 +223,16 @@ for subscription in extend_subscriptions:
   res_id = res["res_id"]
   renewal_so = env["sale.order"].browse(res_id)
   if renewal_so.partner_id.email:
-    renewal_so.with_context(mark_so_as_sent=True, force_send=True).message_post_with_template(
-      template.id,
-      composition_mode="comment",
-      email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
+    mail_template.send_mail(
+        renewal_so.id,
+email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
+        force_send=False,
     )
   else:
     renewal_so["tag_ids"] = [tag_id.id]
     env["helpdesk.ticket"].create({
       "name": "Verlängerung: E-Mail fehlt",
-      "description": "Das Abonnement " + renewal_so.name + "konnte nich verlängert werden, weil der Kunde keine E-Mail-Adresse hat."
+      "description": "Das Abonnement " + renewal_so.name + " konnte nicht verlängert werden, weil der Kunde keine E-Mail-Adresse hat."
     })
   subscription.set_close()
 ```
@@ -262,9 +259,8 @@ Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Settings
-weeks_before_validity_date = 2
-mail_template = "__custom__.mail_template_reminder_extend_subscription"
-stage_draft_id = env.ref("sale_subscription.sale_subscription_stage_draft")
+weeks_before_validity_date = 1
+mail_template = env.ref("__custom__.mail_template_reminder_extend_subscription")
 
 # Get extend date
 today = datetime.datetime.today()
@@ -274,7 +270,7 @@ remind_date = (today + datetime.timedelta(weeks=weeks_before_validity_date)).dat
 remind_subscriptions = env["sale.order"].search([
   ("is_subscription", "=", True),
   ("state", "=", "sent"),
-  ("stage_id", "=", stage_draft_id.id),
+  ("subscription_state", "=", "2_renewal"),
   ("validity_date", "=", remind_date),
   ("license_count", ">", 0)
 ])
@@ -283,9 +279,9 @@ remind_subscriptions = env["sale.order"].search([
 
 # Create and send renewal order
 for subscription in remind_subscriptions:
-    subscription.message_post_with_template(
-      env.ref(mail_template).id,
-      composition_mode="comment",
-      email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
+    mail_template.send_mail(
+        subscription.id,
+email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
+        force_send=False,
     )
 ```
