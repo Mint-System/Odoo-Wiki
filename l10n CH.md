@@ -12,7 +12,7 @@ partner: OCA
 
 {{ $frontmatter.description }}
 
-Technischer Name: `l10n_ch`\
+Technischer Name: `l10n_ch`
 
 ## Erweiterungen
 
