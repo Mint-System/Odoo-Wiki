@@ -223,10 +223,12 @@ for subscription in extend_subscriptions:
   res_id = res["res_id"]
   renewal_so = env["sale.order"].browse(res_id)
   if renewal_so.partner_id.email:
+    renewal_so.action_quotation_sent()
     mail_template.send_mail(
         renewal_so.id,
 email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
         force_send=False,
+        auto_delete=False
     )
   else:
     renewal_so["tag_ids"] = [tag_id.id]

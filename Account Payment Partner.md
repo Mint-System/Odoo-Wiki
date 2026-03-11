@@ -34,7 +34,7 @@ Navigieren Sie nach _Buchhaltung > Konfiguration > Zahlungsmodi_ und erstellen S
 
 Navigieren Sie nach _Kontakte_ und zeigen Sie einen Eintrag an. Im Tab _Verkauf & Einkauf_ finden Sie das Feld _Zahlungsmethode des Lieferanten_. Legen Sie hier den Standard-Zahlungsmodus fest.
 
-## Automatisierte Aktionen
+## Autoamtische Aktionen
 
 ### Zahlungsmodus auf Kundenrechnung festlegen
 

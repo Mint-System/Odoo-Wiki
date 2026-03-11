@@ -12,7 +12,7 @@ prev: ./quality
 
 {{ $frontmatter.description }}
 
-## Automatisierte Aktionen
+## Autoamtische Aktionen
 
 ### Qualitätskontrolle archivieren
 

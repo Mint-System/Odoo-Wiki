@@ -12,7 +12,7 @@ prev: ./discuss
 
 {{ $frontmatter.description }}
 
-## Automatisierte Aktionen
+## Autoamtische Aktionen
 
 ### Bei Verkaufsauftrag ein Ticket erstellen
 
