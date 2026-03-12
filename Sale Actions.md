@@ -330,7 +330,7 @@ log(message)
 # }
 ```
 
-## Automatisierte Aktionen
+## Autoamtische Aktionen
 
 ### Angebot bestätigen und Rechnungen erstellen
 

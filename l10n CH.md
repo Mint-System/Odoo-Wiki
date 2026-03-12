@@ -3,6 +3,7 @@ title: Schweizer Lokalisierung
 description: Übersicht zur Schweizer Lokalisierung von Odoo.
 kind: howto
 prev: ./
+partner: OCA
 ---
 
 # Schweizer Lokalisierung
@@ -11,7 +12,7 @@ prev: ./
 
 {{ $frontmatter.description }}
 
-Technischer Name: `l10n_ch`\
+Technischer Name: `l10n_ch`
 
 ## Erweiterungen
 

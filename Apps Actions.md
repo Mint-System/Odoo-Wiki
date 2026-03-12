@@ -33,7 +33,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 In der Liste der Apps erscheint nun in der Auswahl _Aktion_ das Menu _Modul aktualisieren_.
 
-## Automatisierte Aktionen
+## Autoamtische Aktionen
 
 ### SQL-Grants nach Modul-Installation ausführen
 

@@ -24,3 +24,4 @@ Ein Produkt unter *Verkauf > Produkte > Produkte* anzeigen und den Tab *Verkauf*
 
 ::: tip
 Beachten Sie bei der Eingabe die Bereiche *Sale Min Qty* und *Sale Max Qty*.
+:::

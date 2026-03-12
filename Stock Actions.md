@@ -965,7 +965,7 @@ if error_msg:
 
 Diese geplante Aktion führt täglich die die [Nachbestellregeln aus](Stock%20Inventory.md#Nachbestellregeln%20auslösen). Die Aktion wird im Hintergrund in einem separaten Datenbank-Cursor ausgeführt.
 
-## Automatisierte Aktionen
+## Autoamtische Aktionen
 
 ### Lieferung erledigen wenn bereit
 

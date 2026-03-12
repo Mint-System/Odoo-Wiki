@@ -1,5 +1,5 @@
 ---
-title: Sale Restricted Qty
+title: Sale Restricted Qty Default
 description: Mindestbestellmenge eines Produkts als Default im Webshop festlegen.
 kind: howto
 partner: Mint-System
@@ -17,8 +17,6 @@ prev: ./sale
 Technischer Name: `sale_restricted_qty_default`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/18.0/sale_restricted_qty_default>
 
-## Verwendung
-
-### Mindestbestellwert als Default für Produkt festlegen
+## Beschreibung
 
 Mit dieser Erweiterung wird der Mindestbestellwert eines Produkts für einen Verkauf im Webshop als Vorgabewert für die Produktmenge, die dem Warenkorb hinzugefügt werden soll, gesetzt.

@@ -24,7 +24,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Verkauf Lager](Sale%20Stock.md)          | Lieferungen aus Verkaufsaufträge erstellen.                   |
 | [Verkauf Preise](Sale%20Price.md)         | Produkte, Preislisten und Varianten zentral pflegen.          |
 | [Verkauf Projekt](Sale%20Project.md)      | Dienstleistungen mit Verkauf und Projekt abwickeln.           |
-| [Verkauf Treue](Sale%20Loyalty.md)        | Kundentrue mit Rabatten, Coupons und Geschenkkarten belohnen. |
+| [Verkauf Treue](Sale%20Loyalty.md)        | Kundentreue mit Rabatten, Coupons und Geschenkkarten belohnen. |
 
 ## Erweiterungen
 
@@ -57,6 +57,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order Partner Pricelist](Sale%20Order%20Partner%20Pricelist.md)                             | Preislisten-Zugriff mit Verkaufsaufträgen erteilen.                           |
 | [Sale Order Partner Ref](Sale%20Order%20Partner%20Ref.md)                                         | Kunden-Nr. auf Verkaufsaufträge filtern.                                      |
 | [Sale Order Project Key](Sale%20Order%20Project%20Key.md)                                         | Angebotsname aus verlinkter Projektnummer generieren.                         |
+| [Sale Order Ref](Sale%20Order%20Ref.md)                                                           | Interne Referenz für Verkaufsauftrag festlegen.                               |
 | [Sale Order Sale Partner](Sale%20Order%20Sale%20Partner.md)                                       | Verkaufsadresse auf Verkaufsauftrag festlegen.                                |
 | [Sale Order Template Notes](Sale%20Order%20Template%20Notes.md)                                   | Notizen auf Angebotsvorlage.                                                  |
 | [Sale Partner Incoterm](Sale%20Partner%20Incoterm.md)                                             | Standardlieferbedingungen für Kunden.                                         |
@@ -67,8 +68,11 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Project Key](Sale%20Project%20Key.md)                                                       | Projekt-Nummer in Listenansicht von Verkaufsaufträgen anzeigen.               |
 | [Sale Project Link](Sale%20Project%20Link.md)                                                     | Bestehendes Projekt mit Angebot verlinken.                                    |
 | [Sale Restricted Qty](Sale%20Restricted%20Qty.md)                                                 | Mindest- und Maximalbestellmenge für Produkte festlegen.                      |
-| [Sale Triple Discount](Sale%20Triple%20Discount.md)                                               | Mehrere Rabatte auf der Auftragszeile.                                        |
 | [Sale Start End Dates](Sale%20Start%20End%20Dates.md)                                             | Fügt dem Verkaufsauftrag ein Start- und Enddatum hinzu.                       |
+| [Sale Timesheet Estimate Report](Sale%20Timesheet%20Estimate%20Report.md)                         | Übersicht der Projektschätzungen auf Bericht Zeiterfassung anzeigen.          |
+| [Sale Timesheet Report Group Invoice Type](Sale%20Timesheet%20Report%20Group%20Invoice%20Type.md) | Gruppiert die Zeilen im Bericht Zeiterfassung nach Abrechnungstyp.            |
+| [Sale Timesheet Report Project Details](Sale%20Timesheet%20Report%20Project%20Details.md)         | Zeige Zeitraum und Projektname auf Bericht Zeiterfassung.                     |
+| [Sale Triple Discount](Sale%20Triple%20Discount.md)                                               | Mehrere Rabatte auf der Auftragszeile.                                        |
 
 ## Produkte
 

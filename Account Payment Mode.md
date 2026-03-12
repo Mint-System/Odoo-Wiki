@@ -36,7 +36,7 @@ Navigieren Sie nach _Buchhaltung > Konfiguration > Verwaltung > Zahlungsmodi_. E
 
 Navigieren Sie nach _Buchhaltung > Lieferanten > Rechnungen_ und zeigen Sie eine Lieferantenrechnung an. Treffen Sie im Feld _Zahlungsmodus_ eine Auswahl.
 
-## Automatisierte Aktionen
+## Autoamtische Aktionen
 
 ### Zahlungsmethode von Rechnung auf Zahlung übertragen
 

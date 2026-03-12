@@ -15,6 +15,11 @@ prev: ./sale
 Technischer Name: `sale_order_line_name_get`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_order_line_name_get>
 
+::: warning
+Diese App ist veraltet. Wir empfehlen die App [Sale Order Ref](Sale%20Order%20Ref.md) zu verwenden.
+#DEPRECATED
+:::
+
 ## Verwendung
 
 ### Produktname anzeigen
