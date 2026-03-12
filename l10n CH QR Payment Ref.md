@@ -13,4 +13,4 @@ prev: ./l10n-ch
 {{ $frontmatter.description }}
 
 Technischer Name: `l10n_ch_payment_ref`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/18.0/l10n_ch_qpayment_ref>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/18.0/l10n_ch_payment_ref>
