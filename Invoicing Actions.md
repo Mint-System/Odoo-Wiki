@@ -212,12 +212,13 @@ Diese geplante Aktion versendet alle Rechnungen, die ...
 - gebucht sind
 - noch nicht versendet wurden
 
-Im Versandprozess wird die PDF-Datei erstellt.  Wenn Rechnungen als E-Mail versendet werden, dann wird abhängig vom Rechnungstyp die E-Mail-Vorlage ausgewählt.
+Im Versandprozess wird die PDF-Datei erstellt. Wenn Rechnungen als E-Mail versendet werden, dann wird abhängig vom Rechnungstyp die E-Mail-Vorlage ausgewählt.
 
 - **Ausgangsrechnung**: Rechnung: Senden
 - **Ausgehende Rückerstattung**: Versand an Kunden mit der Gutschrift im Anhang
 - **Eingangsrechnungen**: Selbstfakturierte Rechnung: Versand
 - **Eingehende Rückerstattung**: Selbstfakturierte Gutschrift: Versand
+- 
 
 ### PDF-Datei von Kundenrechnungen vorbereiten
 
