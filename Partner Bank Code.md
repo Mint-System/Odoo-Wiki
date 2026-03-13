@@ -42,7 +42,7 @@ Python-Code:
 
 Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
-## Autoamtische Aktionen
+## Automatische Aktionen
 
 ### Bankkonto mit Bank verknüpfen
 

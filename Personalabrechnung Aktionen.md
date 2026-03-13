@@ -119,7 +119,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Im Formular der Lohnabrechnung erscheint nun die Auswahl _Aktionen > Lohnbuchung entfernen_.
 
-## Autoamtische Aktionen
+## Automatische Aktionen
 
 ### Lohnstuktur zuweisen
 

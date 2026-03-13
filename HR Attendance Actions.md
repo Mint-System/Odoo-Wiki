@@ -244,7 +244,7 @@ attendances = env['hr.attendance'].search([
 attendances._update_overtime()
 ```
 
-## Autoamtische Aktionen
+## Automatische Aktionen
 
 ### Urlaubsanspruch Überstunden aktualisieren
 
