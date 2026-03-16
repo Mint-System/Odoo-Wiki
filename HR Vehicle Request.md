@@ -37,7 +37,7 @@ Navigieren Sie nach _Personal > Fahrzeuganfrage > Fahrzeuganfrage_ und filtern S
 
 Öffnen Sie ihre _Fahrzeuganfrage_ unter Personal > Fahrzeuganfrage > Fahrzeuganfrage* und klicken Sie auf *Retournieren\*.
 
-## Autoamtische Aktionen
+## Automatische Aktionen
 
 ### Fahrzeuganfrage automatisch bestätigen
 

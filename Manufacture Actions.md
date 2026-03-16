@@ -94,7 +94,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Im Fertigungsauftrag erscheint nun in der Auswahl _Aktion_ das Menu _Material-Reservation entfernen_.
 
-## Autoamtische Aktionen
+## Automatische Aktionen
 
 ### Lot-Nummer generieren
 
