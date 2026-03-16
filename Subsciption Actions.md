@@ -227,8 +227,7 @@ for subscription in extend_subscriptions:
     mail_template.send_mail(
         renewal_so.id,
 email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
-        force_send=False,
-        auto_delete=False
+        force_send=False
     )
   else:
     renewal_so["tag_ids"] = [tag_id.id]
