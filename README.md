@@ -356,7 +356,13 @@ Verwaltung von Sponsoren, Ständen, Vorträgen, virtuellen Veranstaltungen und v
 
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
-Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung.
+Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung.
+
+### [Vermietung](Rental.md)
+
+![icons_odoo_sale_renting](attachments/icons_odoo_sale_renting.png)
+
+Vereint Lagerverwaltung, Terminplanung und Verträge damit Sie den Überblick behalten.
 
 ### [Versand](Delivery.md)
 
