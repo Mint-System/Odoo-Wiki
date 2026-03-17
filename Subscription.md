@@ -28,6 +28,7 @@ Website: <https://www.odoo.com/de_DE/app/subscriptions>
 | [Sale Subscription Partner Pricelist](Sale%20Subscription%20Partner%20Pricelist.md)                 | Preislisten-Zugriff mit Abonnements erteilen.                        |
 | [Sale Subscription Period Discount](Sale%20Subscription%20Period%20Discount.md)                     | Erste Abonnementrechnung mit zeitbasiertem Rabatt.                   |
 | [Sale Subscription Pricelist Fixed Discount](Sale%20Subscription%20Pricelist%20Fixed%20Discount.md) | Stellt die Rabatt-Funktion für Abonnment wieder her.                 |
+| [Sale Subscription Billing Period Display](Sale%20Subscription%20Billing%20Period%20Display.md)     | Stellt die Einheit der Laufzeit mit korrektem Singular/Plural dar.   |
 
 ## Verwendung
 
