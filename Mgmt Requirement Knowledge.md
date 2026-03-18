@@ -13,7 +13,7 @@ prev: ./management-system
 {{ $frontmatter.description }}
 
 Technischer Name: `mgmt_requirement_knowledge`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/17.0/mgmt_requirement_knowledge>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/19.0/mgmt_requirement_knowledge>
 
 
 ## Verwendung

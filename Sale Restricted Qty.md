@@ -14,7 +14,7 @@ prev: ./sale
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_restricted_qty`\
-Repository: <https://github.com/OCA/sale-workflow/tree/16.0/sale_restricted_qty>
+Repository: <https://github.com/OCA/sale-workflow/tree/17.0/sale_restricted_qty>
 
 ## Verwendung
 

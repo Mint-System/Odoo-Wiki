@@ -13,7 +13,7 @@ prev: ./accounting
 {{ $frontmatter.description }}
 
 Technischer Name: `account_sale_timesheet_report`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/15.0/account_sale_timesheet_report>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/17.0/account_sale_timesheet_report>
 
 ## Bericht
 
