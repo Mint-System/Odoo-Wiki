@@ -96,7 +96,7 @@ Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 
 ### [Datenbank](Database.md)
 
-![icons_odoo_apps](attachments/icons_odoo_apps.png)
+![icons_odoo_databases](attachments/icons_odoo_databases.png)
 
 Odoo Datenbanken verwalten
 
