@@ -96,7 +96,7 @@ Dynamische Übersichten und Grafiken zu ihrem Unternehmen.
 
 ### [Datenbank](Database.md)
 
-![icons_odoo_apps](attachments/icons_odoo_apps.png)
+![icons_odoo_databases](attachments/icons_odoo_databases.png)
 
 Odoo Datenbanken verwalten
 
@@ -356,7 +356,13 @@ Verwaltung von Sponsoren, Ständen, Vorträgen, virtuellen Veranstaltungen und v
 
 ![icons_odoo_sale](attachments/icons_odoo_sale.png)
 
-Versenden Sie ausgefeilte Preisagebote mit Odoo Unterschrift und Online-Zahlung.
+Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung.
+
+### [Vermietung](Rental.md)
+
+![icons_odoo_sale_renting](attachments/icons_odoo_sale_renting.png)
+
+Vereint Lagerverwaltung, Terminplanung und Verträge damit Sie den Überblick behalten.
 
 ### [Versand](Delivery.md)
 
@@ -524,13 +530,13 @@ Platform-as-a-Service Angebot von Odoo.
 
 ![](attachments/mint-cloud-favicon.png)
 
-Managed Odoo Hosting von Mint System.
+Odoo Hosting von Mint System.
 
 ### [On-Premise](On-Premise.md)
 
 ![](attachments/mint-system-favicon.png)
 
-Managed Server mit Odoo von Mint System.
+Managed Server mit Odoo Hosting von Mint System.
 
 ## [Mitarbeit](Contribution.md)
 

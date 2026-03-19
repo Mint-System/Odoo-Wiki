@@ -13,4 +13,4 @@ prev: ./development
 {{ $frontmatter.description }}
 
 Technischer Name: `mail_environment`\
-Repository: <https://github.com/OCA/server-env/tree/17.0/mail_environment>
+Repository: <https://github.com/OCA/server-env/tree/19.0/mail_environment>

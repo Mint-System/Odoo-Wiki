@@ -67,6 +67,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Product Set](Sale%20Product%20Set.md)                                                       | Produktsets definieren und einfach hinzufügen.                                |
 | [Sale Project Key](Sale%20Project%20Key.md)                                                       | Projekt-Nummer in Listenansicht von Verkaufsaufträgen anzeigen.               |
 | [Sale Project Link](Sale%20Project%20Link.md)                                                     | Bestehendes Projekt mit Angebot verlinken.                                    |
+| [Sale Project Phase Estimate](Sale%20Project%20Phase%20Estimate.md)                               | Verlinkt Auftragszeilen mit Schätzungen von Projektphasen.                    |
 | [Sale Restricted Qty](Sale%20Restricted%20Qty.md)                                                 | Mindest- und Maximalbestellmenge für Produkte festlegen.                      |
 | [Sale Start End Dates](Sale%20Start%20End%20Dates.md)                                             | Fügt dem Verkaufsauftrag ein Start- und Enddatum hinzu.                       |
 | [Sale Timesheet Estimate Report](Sale%20Timesheet%20Estimate%20Report.md)                         | Übersicht der Projektschätzungen auf Bericht Zeiterfassung anzeigen.          |

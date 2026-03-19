@@ -1,6 +1,6 @@
 ---
 title: Mint Cloud
-description: Managed Odoo Hosting von Mint System.
+description: Odoo Hosting von Mint System.
 kind: howto
 prev: ./
 partner: Mint-System

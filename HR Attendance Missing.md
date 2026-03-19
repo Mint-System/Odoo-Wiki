@@ -13,7 +13,7 @@ prev: ./hr-attendance
 {{ $frontmatter.description }}
 
 Technischer Name: `hr_attendance_missing`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_attendance_missing>
+Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/17.0/hr_attendance_missing>
 
 ::: warning
 Seit #Odoo18 wird diese App nicht mehr benötigt. 

@@ -216,8 +216,8 @@ Im Versandprozess wird die PDF-Datei erstellt. Wenn Rechnungen als E-Mail versen
 
 - **Ausgangsrechnung**: Rechnung: Senden
 - **Ausgehende Rückerstattung**: Versand an Kunden mit der Gutschrift im Anhang
-- **Eingangsrechnungen**: Selbstfakturierte Rechnung: Versand
-- **Eingehende Rückerstattung**: Selbstfakturierte Gutschrift: Versand
+- **Eingangsrechnungen**: Selbst-fakturierte Rechnung: Versand
+- **Eingehende Rückerstattung**: Selbst-fakturierte Gutschrift: Versand
 - 
 
 ### PDF-Datei von Kundenrechnungen vorbereiten
