@@ -286,8 +286,8 @@ for subscription in remind_subscriptions:
         default_model='sale.order',
         default_res_ids=[subscription.id],
         default_template_id=mail_template.id,
+	    default_mail_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
         default_composition_mode='comment',
     ).create({})
     composer.action_send_mail()
-    renewal_so.action_quotation_sent()
 ```
