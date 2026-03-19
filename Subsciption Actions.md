@@ -189,7 +189,6 @@ Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 # Settings
 weeks_before_invoice_date = 6
 mail_template = env.ref("license_ocad_mail.mail_template_extend_subscription")
-email_layout = "mail.mail_notification_layout_with_responsible_signature"
 default_price_list = "product.list0"
 
 # Get references
@@ -272,20 +271,23 @@ remind_date = (today + datetime.timedelta(weeks=weeks_before_validity_date)).dat
 
 # Search subscriptions
 remind_subscriptions = env["sale.order"].search([
-  ("is_subscription", "=", True),
-  ("state", "=", "sent"),
-  ("subscription_state", "=", "2_renewal"),
-  ("validity_date", "=", remind_date),
-  ("license_count", ">", 0)
+    ("is_subscription", "=", True),
+    ("state", "=", "sent"),
+    ("subscription_state", "=", "2_renewal"),
+    ("validity_date", "=", remind_date),
+    ("license_count", ">", 0)
 ])
 
 # raise UserError([remind_subscriptions, remind_date])
 
 # Create and send renewal order
 for subscription in remind_subscriptions:
-    mail_template.send_mail(
-        subscription.id,
-email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
-        force_send=False,
-    )
+    composer = env['mail.compose.message'].with_context(
+        default_model='sale.order',
+        default_res_ids=[subscription.id],
+        default_template_id=mail_template.id,
+        default_composition_mode='comment',
+    ).create({})
+    composer.action_send_mail()
+    renewal_so.action_quotation_sent()
 ```
