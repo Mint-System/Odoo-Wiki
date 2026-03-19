@@ -189,6 +189,7 @@ Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 # Settings
 weeks_before_invoice_date = 6
 mail_template = env.ref("license_ocad_mail.mail_template_extend_subscription")
+email_layout = "mail.mail_notification_layout_with_responsible_signature"
 default_price_list = "product.list0"
 
 # Get references
@@ -204,38 +205,40 @@ extend_date = today + datetime.timedelta(weeks=weeks_before_invoice_date)
 
 # Search subscriptions
 extend_subscriptions = env["sale.order"].search([
-  # ("partner_id", "not in", reseller_ids.ids),
-  ("is_subscription", "=", True),
-  ("pricelist_id", "=", pricelist_id.id),
-  ("subscription_state", "=", "3_progress"),
-  ("subscription_child_ids", "=", False),
-  ("state", "=", "sale"),
-  ("next_invoice_date", "<=", extend_date),
-  ("next_invoice_date", ">=", today),
-  ("license_count", ">", 0)
+    # ("partner_id", "not in", reseller_ids.ids),
+    ("is_subscription", "=", True),
+    ("pricelist_id", "=", pricelist_id.id),
+    ("subscription_state", "=", "3_progress"),
+    ("subscription_child_ids", "=", False),
+    ("state", "=", "sale"),
+    ("next_invoice_date", "<=", extend_date),
+    ("next_invoice_date", ">=", today),
+    ("license_count", ">", 0)
 ])
 
 # raise UserError([extend_subscriptions, extend_date])
 
 # Create and send renewal order
 for subscription in extend_subscriptions:
-  res = subscription.prepare_renewal_order()
-  res_id = res["res_id"]
-  renewal_so = env["sale.order"].browse(res_id)
-  if renewal_so.partner_id.email:
-    renewal_so.action_quotation_sent()
-    mail_template.send_mail(
-        renewal_so.id,
-email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
-        force_send=False
-    )
-  else:
-    renewal_so["tag_ids"] = [tag_id.id]
-    env["helpdesk.ticket"].create({
-      "name": "Verlängerung: E-Mail fehlt",
-      "description": "Das Abonnement " + renewal_so.name + " konnte nicht verlängert werden, weil der Kunde keine E-Mail-Adresse hat."
-    })
-  subscription.set_close()
+    res = subscription.prepare_renewal_order()
+    res_id = res["res_id"]
+    renewal_so = env["sale.order"].browse(res_id)
+    if renewal_so.partner_id.email:
+        composer = env['mail.compose.message'].with_context(
+            default_model='sale.order',
+            default_res_ids=[renewal_so.id],
+            default_template_id=mail_template.id,
+            default_composition_mode='comment',
+        ).create({})
+        composer.action_send_mail()
+        renewal_so.action_quotation_sent()
+    else:
+        renewal_so["tag_ids"] = [tag_id.id]
+        env["helpdesk.ticket"].create({
+            "name": "Verlängerung: E-Mail fehlt",
+            "description": "Das Abonnement " + renewal_so.name + " konnte nicht verlängert werden, weil der Kunde keine E-Mail-Adresse hat."
+        })
+        subscription.set_close()
 ```
 
 ### Verkaufsabonnement: Reminder Verlängerung versenden
