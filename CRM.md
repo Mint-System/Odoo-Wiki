@@ -49,6 +49,6 @@ Wählen Sie einen Leads unter _CRM > Leads_ aus und klicken Sie auf _In Verkaufs
 
 Speichern Sie die Verkaufschance in ihrer Pipeline mit _Hinzufügen_.
 
-### Chance anreichern
+### Verkaufschance anreichern
 
 Odoo kann zum Kunden Unternehmensdaten finden und der Verkaufschance hinzufügen. Wählen Sie eine Verkaufschance auf der Übersicht von _CRM_ aus und klicken Sie auf _Aktionen > Anreichern_. Wenn Odoo Informationen zum Kunden findet, listet es diese auf der rechten Seite im Chatter auf.
