@@ -48,7 +48,7 @@ Verwaltung von Mitarbeiterurlauben & Abwesenheiten.
 
 ### [Anwesenheiten](HR%20Attendance.md)
 
-![icons_odoo_hr_attendance](attachments/icons_odoo_hr_attendance.png)
+![icons_odoo_hr_attendancVerkaufschanceachments/icons_odoo_hr_attendance.png)
 
 Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 
@@ -87,6 +87,12 @@ Ihre Buchhaltung einfach und korrekt.
 ![](attachments/icons_odoo_utm.png)
 
 Odoo mit anderen Systemen verbinden.
+
+### [CRM](CRM.md)
+
+![icons_odoo_crm](attachments/icons_odoo_crm.png)
+
+Verfolgen Sie Leads, schließen Sie Verkaufschancen ab und erhalten Sie genaue Prognosen.
 
 ### [Dashboards](Dashboards.md)
 
@@ -195,12 +201,6 @@ Alle Kontaktdaten an einem Ort.
 ![icons_odoo_helpdesk](attachments/icons_odoo_helpdesk.png)
 
 Für einen fantastischen Kundenservice.
-
-### [Kundenverwaltung](CRM.md)
-
-![icons_odoo_crm](attachments/icons_odoo_crm.png)
-
-Verfolgen Sie Leads, schließen Sie Chancen ab und erhalten Sie genaue Prognosen.
 
 ### [Lager](Stock.md)
 

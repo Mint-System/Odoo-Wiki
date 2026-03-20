@@ -22,7 +22,7 @@ Reseller und Partner werden in diesem HowTo synonym verwendet. Komissionen sind 
 
 ### Provisionsplan anlegen
 
-Navigieren Sie nach _Kundenverwaltung > Konfiguration > Provisionspläne_ und erstellen Sie einen neuen Eintrag. Tragen Sie einen passenden Namen ein, beispielsweise _20%_ und wählen im Tab _Regeln_ die Produktkategorien, Produkte, Angebotsvorlagen oder Preislisten aus, für welche der Provisionsplan aktiv sein soll. Im Feld _Wechselkurs_ definieren Sie den Ansatz der Provision.
+Navigieren Sie nach _CRM > Konfiguration > Provisionspläne_ und erstellen Sie einen neuen Eintrag. Tragen Sie einen passenden Namen ein, beispielsweise _20%_ und wählen im Tab _Regeln_ die Produktkategorien, Produkte, Angebotsvorlagen oder Preislisten aus, für welche der Provisionsplan aktiv sein soll. Im Feld _Wechselkurs_ definieren Sie den Ansatz der Provision.
 
 ::: tip
 Über das Feld _Purchase Default Product_ können Sie das Produkt auswählen, welches auf Bestellung der Provision für den Reseller erscheinen soll.
@@ -30,11 +30,11 @@ Navigieren Sie nach _Kundenverwaltung > Konfiguration > Provisionspläne_ und er
 
 ### Partnerlevels definieren
 
-Navigieren Sie nach _Kundenverwaltung > Konfiguration > Partnerlevels_. Hier können Sie bestehende Partnerlevels bearbeiten und neue erfassen. Im Feld _Default Commission Plan_ können Sie einen _Provisionsplan_ auswählen.
+Navigieren Sie nach _CRM > Konfiguration > Partnerlevels_. Hier können Sie bestehende Partnerlevels bearbeiten und neue erfassen. Im Feld _Default Commission Plan_ können Sie einen _Provisionsplan_ auswählen.
 
 ### Zeitplan zur Bestätigung von Komissions-Bestellungen festlegen
 
-Navigieren Sie nach _Einstellungen > Kundenverwaltung > Partner Provisionen_. Im Feld*Automatic PO frequency* können Sie festlegen in welchem Abstand die Komissions-Bestellungen bestätigt werden sollen.
+Navigieren Sie nach _Einstellungen > CRM > Partner Provisionen_. Im Feld*Automatic PO frequency* können Sie festlegen in welchem Abstand die Komissions-Bestellungen bestätigt werden sollen.
 
 ## Verwendung
 
