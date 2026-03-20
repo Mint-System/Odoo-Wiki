@@ -16,6 +16,6 @@ prev: ./website-e-commerce
 Technischer Name: `auth_signup_firstname`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-Website/tree/18.0/auth_signup_firstname>
 
-### Verwendung
+### Beschreibung
 
 Mit dieser Erweiterung wird im Registrierungsprozess im Webportal Vor- und Nachname statt des vollständigen Namens verwendet.
