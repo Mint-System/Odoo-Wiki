@@ -20,6 +20,7 @@ partner: Odoo S.A.
 | [Web Editor Disable Convert Inline](Web%20Editor%20Disable%20Convert%20Inline.md) | Konvertierung der Inline-Styles im Odoo Editor verhindern.           |     |     |     |     |     |     |
 | [Web Editor Show Code](Web%20Editor%20Show%20Code.md)                             | Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen. |     |     |     |     |     |     |
 | [Web Font Arial](Web%20Font%20Arial.md)                                           | Fügt Schriftart Arial der Auswahl hinzu.                             |     |     |     |     |     |     |
+| [Web Font Calibri](Web%20Font%20Calibri.md)                                       | Fügt Schriftart Calibri der Auswahl hinzu.                           |     |     |     |     |     |     |
 | [Web Font Dobra Book](Web%20Font%20Dobra%20Book.md)                               | Fügt Schriftart Dobro Book der Auswahl hinzu,                        |     |     |     |     |     |     |
 | [Web Font Manrope](Web%20Font%20Manrope.md)                                       | Fügt Schriftart Manrope der Auswahl hinzu.                           |     |     |     |     |     |     |
 | [Web Referesher](Web%20Referesher.md)                                             | Fügt einen Button zur Aktualisierung der Listenansicht hinzu.        |     |     |     |     |     |     |
