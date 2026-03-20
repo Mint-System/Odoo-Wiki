@@ -4,7 +4,7 @@ description: Ermöglicht die Angabe von Vorname und Nachname im Registrierungspr
 kind: howto
 tags:
   - Mint-System
-prev: ./website-e-commerce
+prev: ./web
 ---
 
 # Auth Signup Firstname

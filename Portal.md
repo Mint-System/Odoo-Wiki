@@ -12,6 +12,13 @@ partner: Odoo S.A.
 
 {{ $frontmatter.description }}
 
+## Erweiterungen
+
+| Erweiterung                                           | Beschreibung                                                             |
+| ----------------------------------------------------- | ------------------------------------------------------------------------ |
+| [Auth Signup Firstname](Auth%20Signup%20Firstname.md) | Ermöglicht die Angabe von Vorname und Nachname im Registrierungsprozess. |
+
+
 ## Abonnements
 
 ### Abonnements in Portal anzeigen
