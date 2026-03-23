@@ -105,7 +105,7 @@ Unter _Einstellungen > Dialog > Externe E-Mail-Server_ aktivieren Sie das Featur
 Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
 :::
 
-Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen:
+Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, aktivieren Sie der Modul 'microsoft_outlook' und wählen Sie diese Parameter als Verbindungsoptionen:
 
 - **Beschreibung**: Office 365 Incoming
 - **Outlook**: Option markieren
