@@ -149,7 +149,7 @@ Kontaktieren Sie den/die AdministratorIn und bitten Sie um eine Freigabe. Wurde 
 Ausgehende E-Mail Server ist eingerichtet und der Token ist bestätigt. Trotzdem ist der Test negativ mit folgende Meldung:
 
 ``` markdown
-**Ungültiger Vorgang**
+Ungültiger Vorgang
 Der Server hat die Verbindung unerwartet geschlossen. Überprüfen Sie die Konfiguration für die Portnummer.
 Connection unexpectedly closed
 ```
