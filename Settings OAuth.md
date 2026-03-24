@@ -141,3 +141,25 @@ Falls ihr Benutzer in Odoo noch nicht existiert hat, erscheint die folgende Meld
 ![Einstellungen Login Fehler](attachments/Einstellungen%20Login%20Fehler.png)
 
 Kontaktieren Sie den/die AdministratorIn und bitten Sie um eine Freigabe. Wurde die Freigabe erstellt, loggen Sie sich erneut ein.
+
+### Troubleshooting
+
+**Problem**
+
+Ausgehende E-Mail Server ist eingerichtet und der Token ist bestätigt. Trotzdem ist der Test negativ mit folgende Meldung:
+
+``` markdown
+Ungültiger Vorgang
+Der Server hat die Verbindung unerwartet geschlossen. Überprüfen Sie die Konfiguration für die Portnummer.
+Connection unexpectedly closed
+```
+
+**Ursache**
+
+Einstellungen in portal.azure.com sind nicht richtig.
+
+**Lösung**
+
+Für der User müsste noch 'authenticated SMTP' erlaubt werden. Sehe Bild:
+
+![](attachments/Oauth%20Troubleshooting%20SMTP.png)
