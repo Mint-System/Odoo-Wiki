@@ -77,7 +77,7 @@ Wenn Sie [Ansichten anzeigen](Development%20Views.md#Ansichten%20anzeigen), gebe
 
 
 ```python
-["|", ("key", "=", "sale.report_saleorder_document"), ("key", "=", "account.report_invoice_document")]
+["|", "|", ("key", "=", "sale.report_saleorder_document"), ("key", "=", "account.report_invoice_document"), ("key", "=", "web.external_layout_standard")]
 ```
 
 ## Verwaltung
