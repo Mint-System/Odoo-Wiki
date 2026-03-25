@@ -262,8 +262,9 @@ Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Settings
-weeks_before_validity_date = 1
+weeks_before_validity_date = 2
 mail_template = env.ref("__custom__.mail_template_reminder_extend_subscription")
+tag = env['crm.tag'].search([('name', '=', "Reminder Sent")], limit=1)
 
 # Get extend date
 today = datetime.datetime.today()
@@ -275,10 +276,11 @@ remind_subscriptions = env["sale.order"].search([
     ("state", "=", "sent"),
     ("subscription_state", "=", "2_renewal"),
     ("validity_date", "=", remind_date),
-    ("license_count", ">", 0)
+    ("license_count", ">", 0),
+    ("tag_ids", "not in", [tag.id])
 ])
 
-# raise UserError([remind_subscriptions, remind_date])
+# raise UserError([remind_subscriptions.mapped("name"), remind_subscriptions.mapped("validity_date")])
 
 # Create and send renewal order
 for subscription in remind_subscriptions:
@@ -289,5 +291,5 @@ for subscription in remind_subscriptions:
 	    default_mail_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
         default_composition_mode='comment',
     ).create({})
-    composer.action_send_mail()
+    subscription.write({'tag_ids': [(4, tag.id)]})
 ```
