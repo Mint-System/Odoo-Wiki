@@ -20,3 +20,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/18.0/sa
 ## Beschreibung
 
 Mit dieser Erweiterung wird der Mindestbestellwert eines Produkts für einen Verkauf im Webshop als Vorgabewert für die Produktmenge, die dem Warenkorb hinzugefügt werden soll, gesetzt.
+Im Backend können Verkäufer mit entsprechende Berechtigung die Mindestmenge unterschreiten.
