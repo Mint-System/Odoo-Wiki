@@ -18,6 +18,12 @@ prev: ./development
 
 Rufen Sie die Formularansicht des Dokuments auf und wählen Sie _Entwicklertools > Ansicht bearbeiten: Formular_.
 
+### Ansichten anzeigen
+
+Alle Listen, Formulare und Berichte werden von Odoo in einer Tabelle verwaltet. Diese können Sie via _Einstellungen > Technisch > Benutzer-Interface > Ansichten_ anzeigen.
+
+![](attachments/Entwicklung%20Ansichten%20verwalten.png)
+
 ### Ansicht erstellen
 
 Öffnen Sie _Einstellung > Technisch > Ansichten_ und legen Sie einen neuen Eintrag an. Im folgenden Beispiel erstellen Sie eine Listenansicht (Tree) für das Datenmodell _Basisimportzuordnung_.
@@ -39,27 +45,6 @@ So sollte es dann aussehen:
 
 ![](attachments/Entwicklung%20Ansicht%20erstellen.png)
 
-### Ansicht Anhänge erstellen
-
-Damit Sie eine Übersicht der Anhänge erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
-
-Name der Aktion: `Attachments`\
-Objekt: `ir.attachments`\
-Ansichtsmodus: `tree,form`\
-Menü: `Anhänge`\
-Obermenü: `Einstellungen/Technisch/Dialog`\
-Aktion: `ir.actions.act_window` `Attachments`\
-Nummernfolge: `10`
-
-Das Ergebnis sollte so aussehen:
-
-![](attachments/Entwicklung%20Ansicht%20Anhänge.png)
-
-### Ansichten verwalten
-
-Alle Listen, Formulare und Berichte werden von Odoo in einer Tabelle verwaltet. Diese können Sie via _Einstellungen > Technisch > Benutzer-Interface > Ansichten_ anzeigen.
-
-![](attachments/Entwicklung%20Ansichten%20verwalten.png)
 
 ### Ansicht entfernen
 
