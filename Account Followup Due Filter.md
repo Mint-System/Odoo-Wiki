@@ -3,7 +3,7 @@ title: Account Followup Due Filter
 description: Im Mahnbericht werden nur übefällige Rechnungen angezeigt.
 kind: howto
 partner: Mint-System
-prev: ./invoicing
+prev: ./invoicing-followup
 ---
 
 # Account Followup Due Filter
