@@ -14,9 +14,11 @@ prev: ./accounting
 
 ## Konfiguration
 
-### Schwellendatum für Rechnungen festlegen
+### Umstellungsdatum für Rechnungen festlegen
 
-Wenn Sie beispielsweise eine Buchhaltung per 01.01.2023 starten und Rechnungen aus dem Vorjahr erfassen möchten, diese aber nicht anzeigen möchten, können Sie ein Schwellen-Datum festlegen. Navigieren Sie nach _Einstellungen > Buchhaltung > Steuer-Zeiträume_ und wählen Sie bei _Invoicing Switch Threshold_ das entsprechende Datum aus.
+Wenn Sie beispielsweise eine Buchhaltung erst per Ende Jahr starten möchten und dennoch Rechnungen laufenden Jahr erfassen möchten, können Sie dies als Umstellungsdatum festlgen.
+
+Navigieren Sie nach _Einstellungen > Buchhaltung > Steuer-Zeiträume_ und wählen Sie bei _Umstellungsdatum für Rechnungen_ das entsprechende Datum aus.
 
 ### Buchungszeilen ohne Entwicklermodus anzeigen
 
