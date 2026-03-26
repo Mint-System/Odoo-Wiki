@@ -11,7 +11,6 @@ prev: ./accounting
 ![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}
-d
 
 ## Konfiguration
 
