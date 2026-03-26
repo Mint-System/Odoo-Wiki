@@ -44,13 +44,14 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Account Invoice Notes](Account%20Invoice%20Notes.md)                                       | Zusätzliche Header und Footer Notizen kopiert von Verkaufsauftrag.                                 |     |
 | [Account Invoice Outstanding Credit](Account%20Invoice%20Outstanding%20Credit.md)           | Filtern Sie Kundenrechnungen mit offenen Gutschriften.                                             |     |
 | [Account Invoice Overdue Reminder](Account%20Invoice%20Overdue%20Reminder.md)               | Einfache Lösung zum Versenden von Zahlungserinnerungen.                                            |     |
+| [Account Invoice Prepare](Account%20Invoice%20Prepare.md)                                   | Die PDF Rechnung im Anhang speichern und laden.                                                    |     |
 | [Account Invoice Sale Partner](Account%20Invoice%20Sale%20Partner.md)                       | Verkaufsadresse auf Rechnung festlegen.                                                            |     |
 | [Account Invoice Select Bank](Account%20Invoice%20Select%20Bank.md)                         | Bankkonto anhand Währung auswählen.                                                                |     |
 | [Account Invoice Show Currency Rate](Account%20Invoice%20Show%20Currency%20Rate.md)         | Währungskurs auf Rechnungszeile anzeigen.                                                          |     |
 | [Account Invoice Triple Discount](Account%20Invoice%20Triple%20Discount.md)                 | Mehrere Rabatte auf der Rechungszeile.                                                             |     |
-| [Account Invoicing Prepare](Account%20Invoice%20Prepare.md)                                 | Die PDF Rechnung im Anhang speichern und laden.                                                    |     |
 | [Account Move Invoice Partner](Account%20Move%20Invoice%20Partner.md)                       | Separate Rechnungsadresse auf Rechnung festlegen.                                                  |     |
 | [Account Move Line Description](Account%20Move%20Line%20Description.md)                     | Produktname ohne Referenz in Beschreibung Rechnungszeile übertragen.                               |     |
+| [Account Move Send Check](Account%20Move%20Send%20Check.md)                                 | Zeigt Hinweis ob Rechnung versendet wird oder wurde in Senden-Dialog.                              |     |
 | [Account Sale Timesheet Report](Account%20Sale%20Timesheet%20Report.md)                     | Zeiterfassungsbericht für Rechnung.                                                                |     |
 | [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                       | PDF-Dokumenten von Rechnungen zusammenführen.                                                      |     |
 | [Purchase Invoice Prepare Partner](Purchase%20Invoice%20Prepare%20Partner.md)               | Kontakte aus Bestellung auf Rechnung kopieren.                                                     |     |
