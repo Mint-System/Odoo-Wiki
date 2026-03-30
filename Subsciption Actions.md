@@ -189,6 +189,7 @@ Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 # Settings
 weeks_before_invoice_date = 6
 mail_template = env.ref("license_ocad_mail.mail_template_extend_subscription")
+email_layout = "mail.mail_notification_layout_with_responsible_signature"
 default_price_list = "product.list0"
 
 # Get references
@@ -219,10 +220,10 @@ extend_subscriptions = env["sale.order"].search([
 
 # Create and send renewal order
 for subscription in extend_subscriptions:
-    res = subscription.prepare_renewal_order()
-    res_id = res["res_id"]
-    renewal_so = env["sale.order"].browse(res_id)
-    if renewal_so.partner_id.email:
+    try:
+        res = subscription.prepare_renewal_order()
+        res_id = res["res_id"]
+        renewal_so = env["sale.order"].browse(res_id)
         composer = env['mail.compose.message'].with_context(
             default_model='sale.order',
             default_res_ids=[renewal_so.id],
@@ -231,11 +232,11 @@ for subscription in extend_subscriptions:
         ).create({})
         composer.action_send_mail()
         renewal_so.action_quotation_sent()
-    else:
+    except:
         renewal_so["tag_ids"] = [tag_id.id]
         env["helpdesk.ticket"].create({
-            "name": "Verlängerung: E-Mail fehlt",
-            "description": "Das Abonnement " + renewal_so.name + " konnte nicht verlängert werden, weil der Kunde keine E-Mail-Adresse hat."
+            "name": "Verlängerung: Fehler bei Erneuerung",
+            "description": "Das Abonnement " + renewal_so.name + " konnte nicht verlängert werden, es ist ein Fehler entstanden."
         })
         subscription.set_close()
 ```
