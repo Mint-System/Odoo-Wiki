@@ -2,7 +2,7 @@
 title: Server Config Environment
 description: Umgebungen für die Server-Konfiguration definieren.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./development
 ---
 

@@ -2,7 +2,7 @@
 title: Account Show Invoice Date
 description: Rechnungsdatum auf dem Bericht für überfällige Forderungen und Verbindlichkeiten.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./accounting
 ---
 

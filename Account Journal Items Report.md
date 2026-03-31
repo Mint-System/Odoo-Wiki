@@ -2,7 +2,7 @@
 title: Account Journal Items Report
 description: Kontoauszug basierend auf Buchungszeilen erstellen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./accounting
 ---
 

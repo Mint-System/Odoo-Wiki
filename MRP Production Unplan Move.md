@@ -2,7 +2,7 @@
 title: MRP Production Unplan Move
 description: Zukünftiges Datum auf Lagerbuchung bei Planungsabruch festlegen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./manufacture
 ---
 

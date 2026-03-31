@@ -2,7 +2,7 @@
 title: Account Followup Print False
 description: Im Dialog zum Versand der Manhnung Druckoption deaktivieren.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./invoicing-followup
 ---
 

@@ -2,7 +2,7 @@
 title: Stock Picking MRP Production Done
 description: Lieferung mit Fertigungsauftrag gleichzeitig abschliessen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

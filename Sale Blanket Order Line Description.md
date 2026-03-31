@@ -2,7 +2,7 @@
 title: Sale Blanket Order Line Description
 description: Beschreibungsfeld von Rahmenauftragszeile auf die Verkaufsauftragszeile kopieren.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale-blanket-order
 ---
 

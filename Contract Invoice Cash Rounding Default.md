@@ -2,7 +2,7 @@
 title: Contract Invoice Cash Rounding Default
 description: Standardwert für Runden beim Erzeugen von Rechnungen aus Kundenverträgen verwenden.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./contract
 ---
 

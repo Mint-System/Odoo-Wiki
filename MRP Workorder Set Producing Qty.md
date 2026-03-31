@@ -2,7 +2,7 @@
 title: MRP Workorder Set Producing Qty
 description: Arbeitsauftrag startet ohne erledigte Menge.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./manufacture
 ---
 

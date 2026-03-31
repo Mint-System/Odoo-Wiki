@@ -2,7 +2,7 @@
 title: Stock Aggregated Move Lines Description
 description: Beschreibungsfeld auf aggregierten Zeilen anzeigen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

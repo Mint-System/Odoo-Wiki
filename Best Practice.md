@@ -3,7 +3,7 @@ title: Best Practice
 description: Beschreibt wie man bestimmte Anwendungsfälle in Odoo implementiert.
 kind: explain
 prev: ./
-partner: Mint-System
+partner: Mint System
 ---
 
 # Best Practice

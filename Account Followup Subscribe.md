@@ -2,7 +2,7 @@
 title: Account Followup Subscribe
 description: Beim Versenden von Mahnbericht Kontakte gemäss Domain-Filter abonnieren.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./accounting-followup
 ---
 

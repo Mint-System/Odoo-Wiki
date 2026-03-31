@@ -2,7 +2,7 @@
 title: Account Move Line Position
 description: Positionsnummer anzeigen und aus Verkaufs- oder Einkaufsauftrag verlinken.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./order-positions
 ---
 

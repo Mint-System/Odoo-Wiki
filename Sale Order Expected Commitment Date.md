@@ -2,7 +2,7 @@
 title: Sale Order Expected Commitment Date
 description: Das Standardlieferdatum ist das erwartete Datum.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale
 ---
 

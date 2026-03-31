@@ -2,7 +2,7 @@
 title: Project Phase
 description: Projektaufgaben mit Projektphasen verwalten.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./project
 ---
 

@@ -2,7 +2,7 @@
 title: HR Attendance Delta
 description: Berechnet Zeitspanne zwischen Anwesenheitseinträgen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr-attendance
 ---
 

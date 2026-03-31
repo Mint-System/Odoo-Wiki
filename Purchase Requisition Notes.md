@@ -2,7 +2,7 @@
 title: Purchase Requisition Notes
 description: Kaufverträge mit Notizfelder.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./purchase-requisition
 ---
 

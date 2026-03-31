@@ -2,7 +2,7 @@
 title: Sale Invoice Cash Rounding Default
 description: Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./invoicing
 ---
 

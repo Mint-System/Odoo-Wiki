@@ -2,7 +2,7 @@
 title: Project Task Dependency Counter
 description: Smart Button für abhängige Aufgaben.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./project
 ---
 

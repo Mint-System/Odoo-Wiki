@@ -2,7 +2,7 @@
 title: Mgmt Requirement
 description: Verwalten Sie Anforderungen and die Organisation.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./management-system
 ---
 

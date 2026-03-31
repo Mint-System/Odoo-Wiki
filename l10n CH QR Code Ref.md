@@ -2,7 +2,7 @@
 title: l10n CH QR Code Ref
 description: Rechnungsname als zusätzliche Information in QR-Code festlegen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./l10n-ch
 ---
 

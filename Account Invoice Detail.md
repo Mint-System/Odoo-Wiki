@@ -2,7 +2,7 @@
 title: Account Invoice Detail
 description: Verkaufskontakt auf Rechnung einblenden.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./invoicing
 ---
 

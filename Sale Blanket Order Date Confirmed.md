@@ -2,7 +2,7 @@
 title: Sale Blanket Order Date Confirmed
 description: Setze ein Bestätigungsdatum auf dem Verkaufsauftrag.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale-blanket-order
 ---
 

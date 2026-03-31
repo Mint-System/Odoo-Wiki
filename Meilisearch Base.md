@@ -2,7 +2,7 @@
 title: Meilisearch Base
 description: Meilisearch Index mit Odoo Dokumenten synchronisieren.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./website-e-commerce
 ---
 

@@ -2,7 +2,7 @@
 title: HR Employee Employ Like
 description: Neues Feld Anstellung wie auf Mitarbeitenden.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr
 ---
 

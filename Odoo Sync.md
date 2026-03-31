@@ -2,7 +2,7 @@
 title: Odoo Sync
 description: Odoo nach Odoo synchronisieren.
 kind: howto
-partner: Thirdparty
+partner: Zebroo
 prev: ./zebroo-sync
 ---
 

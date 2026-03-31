@@ -2,7 +2,7 @@
 title: Sale Invoice Line Description
 description: Buchungszeilen generiert aus Verkaufsaufträgen enthalten nur den Anzeigenamen des Produkts.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./invoicing
 ---
 

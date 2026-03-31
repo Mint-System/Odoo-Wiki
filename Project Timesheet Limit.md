@@ -2,7 +2,7 @@
 title: Project Timesheet Limit
 description: Erfassbare Zeit auf geplante Zeit limitieren.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr-timesheet
 ---
 

@@ -2,7 +2,7 @@
 title: Purchase Order Line Position
 description: Einkaufsaufträge mit Positionsnummern.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./order-positions
 ---
 

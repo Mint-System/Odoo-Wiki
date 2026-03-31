@@ -2,7 +2,7 @@
 title: HR Attendance Overtime Negative Hours
 description: Anzeige negative Überstunden auf Dashboard Abwesenheiten.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr-holidays
 ---
 

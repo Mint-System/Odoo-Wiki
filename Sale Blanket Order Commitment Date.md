@@ -2,7 +2,7 @@
 title: Sale Blanket Order Commitment Date
 description: Kopiert das geplante Datum der Rahmenauftragszeile in das Lieferdatum der Verkaufsauftragszeile.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale-blanket-order
 ---
 

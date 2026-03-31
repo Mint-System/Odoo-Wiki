@@ -2,7 +2,7 @@
 title: Mail Unsubscribe
 description: Automatische Abmeldung der Follower vor dem Versand einer Nachricht.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./discuss
 ---
 

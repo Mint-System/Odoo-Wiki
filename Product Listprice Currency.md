@@ -2,7 +2,7 @@
 title: Product Listprice Currency
 description: Listenpreise in verschiedenen Währungen für Preislisten-Formeln.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./product
 ---
 

@@ -2,7 +2,7 @@
 title: Sale Order Line Date Propagate
 description: Lieferfristen auf dem Verkaufsautrag und dessen Zeilen werden auf den Lieferauftrag übertragen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale
 ---
 

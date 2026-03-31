@@ -2,7 +2,7 @@
 title: Purchase Order Validate
 description: Bestellung vor Versenden oder Bestätigen überprüfen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./purchase
 ---
 

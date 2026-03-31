@@ -2,7 +2,7 @@
 title: Odoo Sync Mapper
 description: Odoo Attribute mappen.
 kind: howto
-partner: Thirdparty
+partner: Zebroo
 prev: ./zebroo-sync
 ---
 

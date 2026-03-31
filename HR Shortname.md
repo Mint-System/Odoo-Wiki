@@ -2,7 +2,7 @@
 title: HR Shortname
 description: Zu jedem Mitarbeitenden ein Kürzel speichern.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr
 ---
 

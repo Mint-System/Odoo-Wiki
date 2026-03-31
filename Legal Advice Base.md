@@ -2,7 +2,7 @@
 title: Legal Advice Base
 description: Rechtsberatungen mit Kunden und Experten abwickeln.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./
 ---
 

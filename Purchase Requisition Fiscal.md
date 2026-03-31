@@ -2,7 +2,7 @@
 title: Purchase Requisition Fiscal
 description: Steuerzuordnung auf Kaufverträgen festlegen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./purchase-requisition
 ---
 

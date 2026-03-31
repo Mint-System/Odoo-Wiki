@@ -2,7 +2,7 @@
 title: Stock MRP Traceability List
 description: Daten aus Lieferverfolgungsbericht als Liste anzeigen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./manufacture
 ---
 

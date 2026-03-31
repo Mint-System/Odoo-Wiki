@@ -2,7 +2,7 @@
 title: EBICS
 description: Odoo direkt mit der Bank verbinden.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./
 ---
 

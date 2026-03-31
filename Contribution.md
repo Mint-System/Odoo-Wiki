@@ -4,7 +4,7 @@ description: Das Odoo Wiki erweitern.
 tags:
   - Readme
 prev: ./
-partner: Mint-System
+partner: Mint System
 ---
 
 # Mitarbeit

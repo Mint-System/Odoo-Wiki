@@ -2,7 +2,7 @@
 title: Purchase Order Line Date
 description: Lieferdatum im Wareneingang automatisch nachtragen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./purchase
 ---
 

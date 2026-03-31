@@ -2,7 +2,7 @@
 title: Partner Contact Department Note
 description: Abteilung auf Kontakten speichern.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./contacts
 ---
 

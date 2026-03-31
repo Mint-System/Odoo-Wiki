@@ -2,7 +2,7 @@
 title: MRP Production Create Upstream Backorder
 description: Erstelle Nachlieferungen für Pickings von Fertigungsaufträgen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./manufacture
 ---
 

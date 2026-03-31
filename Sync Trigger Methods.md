@@ -2,7 +2,7 @@
 title: Sync Trigger Methods
 description: Bei Methoden-Aufruf einen Sync auslösen.
 kind: howto
-partner: Thirdparty
+partner: Zebroo
 prev: ./zebroo-sync
 ---
 

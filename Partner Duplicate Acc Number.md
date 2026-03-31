@@ -2,7 +2,7 @@
 title: Partner Duplicate Acc Number
 description: Kontonummer für mehrere Bankkonten verwenden
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./contacts
 ---
 

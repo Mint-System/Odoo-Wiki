@@ -2,7 +2,7 @@
 title: Base User ACL
 description: Basis für Zugriffsrechte-Module.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./base
 ---
 

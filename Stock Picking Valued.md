@@ -2,7 +2,7 @@
 title: Stock Picking Valued
 description: Preise, Steuern und Preisliste auf Lieferung.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

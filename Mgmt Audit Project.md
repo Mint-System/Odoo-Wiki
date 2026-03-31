@@ -2,7 +2,7 @@
 title: Mgmt Audit Project
 description: Erstellen Sie Projektaufgaben für Empfehlungen und Nonconformties.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./management-system
 ---
 

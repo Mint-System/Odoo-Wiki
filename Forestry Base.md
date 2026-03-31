@@ -2,7 +2,7 @@
 title: Holzwirtschaft
 description: Odoo für die Holzwirtschaft.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./
 ---
 

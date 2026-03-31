@@ -550,7 +550,7 @@ Unterstützer des Odoo Wiki werden hier mit Logo aufgeführt:
 
 Es sind Lösungen und Dokumente von diesen Anbieter enthalten:
 
-- [giordano.ch](https://www.giordano.ch/)
+- [Giordano](https://www.giordano.ch/)
 - [Odoo Community Association](https://odoo-community.org/)
 - [Odoo S.A.](https://www.odoo.com/)
 - [Sozialinfo](https://www.sozialinfo.ch)

@@ -2,7 +2,7 @@
 title: Sale Blanket Order Readonly States
 description: Bestätigte Rahmenaufträge bearbeiten.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale-blanket-order
 ---
 

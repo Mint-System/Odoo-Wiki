@@ -2,7 +2,7 @@
 title: Holzwirtschaft Lager
 description: Erweiterung Lager für die Holzwirtschaft.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./forestry-base
 ---
 

@@ -2,7 +2,7 @@
 title: Sale Blanket Order Send
 description: Workflow mit Rahmenauftrag per E-Mail.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale-blanket-order
 ---
 

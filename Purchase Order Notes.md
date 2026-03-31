@@ -2,7 +2,7 @@
 title: Purchase Order Notes
 description: Einkaufsaufträge mit Notizfelder.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./purchase
 ---
 

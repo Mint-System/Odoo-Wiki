@@ -2,7 +2,7 @@
 title: Account Invoice Comment
 description: Kommentarfeld auf Rechnung.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./invoicing
 ---
 

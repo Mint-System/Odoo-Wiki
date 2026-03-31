@@ -2,7 +2,7 @@
 title: Stock Move Line Packaging
 description: Verknüpfen der Verpackung von Verkaufsauftrag.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

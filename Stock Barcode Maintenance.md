@@ -2,7 +2,7 @@
 title: Stock Barcode Maintenance
 description: Barcode scannen und Inventar anzeigen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./barcode
 ---
 

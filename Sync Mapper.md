@@ -2,7 +2,7 @@
 title: Sync Mapper
 description: Attribute von empfangenen Daten mappen.
 kind: howto
-partner: Thirdparty
+partner: Zebroo
 prev: ./zebroo-sync
 ---
 

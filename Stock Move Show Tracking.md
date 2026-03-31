@@ -2,7 +2,7 @@
 title: Stock Move Show Tracking
 description: Zeigt Badge für Tracking-Typ auf Stock Moves.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 
