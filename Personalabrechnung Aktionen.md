@@ -53,12 +53,12 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Im Formular der Lohnbuchung erscheint nun in der Auswahl _Aktion_ das Menu _Gehaltsabrechnung versenden_.
 
-### Batch zurücksetzen
+### Stapel zurücksetzen
 
 Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Batch zurücksetzen`\
-Modell: `hr.payslip.run`\
+Modell: `hr.payslip.Stapel`\
 Folgeaktion: `Python-Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
@@ -122,6 +122,8 @@ Im Formular der Lohnabrechnung erscheint nun die Auswahl _Aktionen > Lohnbuchung
 ## Automatische Aktionen
 
 ### Lohnstuktur zuweisen
+
+Gilt bis #Odoo17.
 
 Wenn Sie die Zuweisung der Lohnstruktur beim Erstellen der Lohnabrechnungen automatisieren möchten, richten Sie diese Aktione in.
 
