@@ -2,7 +2,7 @@
 title: Account Currency Communication
 description: Legt den Kommunikations-Standard auf der Währung fest.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: /.invoicing
 ---
 

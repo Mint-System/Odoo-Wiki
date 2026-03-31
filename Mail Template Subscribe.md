@@ -2,7 +2,7 @@
 title: Mail Template Subscribe
 description: Beim Versenden einer Nachricht Kontakte gemäss Domain-Filter abonnieren.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./discuss
 ---
 

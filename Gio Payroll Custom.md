@@ -15,6 +15,11 @@ prev: ./hr-payroll
 Technischer Name: `gio_payroll_custom`\
 Website: <https://www.giordano.ch/odoo/l%C3%B6sungen/lohnprogramm-ch-d>
 
+::: warning
+Seit #Odoo18 wird diese App nicht mehr benötigt. 
+#DEPRECATED
+:::
+
 ## Konfiguration
 
 ### Schweizer Lohnarten aktivieren

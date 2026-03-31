@@ -2,7 +2,7 @@
 title: l10n CH Payment Ref
 description: Kopiert Zahlungsrefernz der Währung CHF auch auf Rechnungen an Nicht-Schweizer.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./l10n-ch
 ---
 

@@ -2,7 +2,7 @@
 title: HR Birthday Calender
 description: Kalenderansicht aller Geburtstage.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr
 ---
 

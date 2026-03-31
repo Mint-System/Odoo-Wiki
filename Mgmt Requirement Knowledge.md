@@ -2,7 +2,7 @@
 title: Mgmt Requirement Knowledge
 description: Fügen Sie Dokumentation zu Ihren Requirements hinzu.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./management-system
 ---
 

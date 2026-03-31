@@ -2,7 +2,7 @@
 title: Partner Type Sale
 description: Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./contacts
 ---
 

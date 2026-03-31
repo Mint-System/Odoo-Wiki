@@ -2,7 +2,7 @@
 title: Website Font HCo Mercury SSm
 description: Benutzerdefinierte Schriftart "HCo Mercury SSm".
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./website
 ---
 

@@ -2,7 +2,7 @@
 title: Mmgt Asset Risk
 description: Verbinde Risiken und Assets.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./management-system
 ---
 

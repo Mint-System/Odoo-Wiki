@@ -2,7 +2,7 @@
 title: Purchase Requisition Total
 description: Kaufvertrag mit Steuern, Zwischensummen und Total.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./purchase-requisition
 ---
 

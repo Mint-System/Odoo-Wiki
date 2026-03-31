@@ -2,7 +2,7 @@
 title: Sale Move Reconciled Date
 description: Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./accounting
 ---
 

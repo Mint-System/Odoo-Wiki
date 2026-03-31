@@ -2,7 +2,7 @@
 title: Project Task All Menu
 description: Menu Alle Aufgaben hinzufügen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./project
 ---
 

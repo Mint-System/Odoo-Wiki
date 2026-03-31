@@ -2,7 +2,7 @@
 title: HR Attendance Missing
 description: Fehlende Anwesenheiten erstellen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr-attendance
 ---
 

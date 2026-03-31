@@ -2,7 +2,7 @@
 title: Sale Order Template Notes
 description: Notizen auf Angebotsvorlage.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale
 ---
 

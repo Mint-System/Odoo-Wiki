@@ -2,7 +2,7 @@
 title: Sale Expense Unlink
 description: Bei Abbruch Spesenbericht wird Kundenauftragszeile entfernt.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr-expense
 ---
 

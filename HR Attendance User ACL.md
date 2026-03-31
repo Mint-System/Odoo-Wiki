@@ -2,7 +2,7 @@
 title: HR Attendance User ACL
 description: Zugriff auf Anwesenheiten für Benutzer steuern.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr-holidays
 ---
 

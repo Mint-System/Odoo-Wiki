@@ -2,7 +2,7 @@
 title: Purchase Requisition Reference
 description: Feld Lieferantenreferenz auf Kaufvertrag hinzufügen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./purchase-requisition
 ---
 

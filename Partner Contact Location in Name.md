@@ -2,7 +2,7 @@
 title: Partner Contact Location in Name
 description: PLZ und Stadt in Kontaktauswahl anzeigen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./contacts
 ---
 

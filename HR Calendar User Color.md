@@ -2,7 +2,7 @@
 title: HR Calendar User Color
 description: Farben im Kalender user-spezifisch.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr
 ---
 

@@ -2,7 +2,7 @@
 title: Prometheus Exporter
 description: Odoo-Metriken mit Prometheus monitoren.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./development
 ---
 

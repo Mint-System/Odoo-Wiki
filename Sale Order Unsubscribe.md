@@ -2,7 +2,7 @@
 title: Sale Order Unsubscribe
 description: Alle Abonnenten nach Bestätigung des Angebots entfernen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./discuss
 ---
 

@@ -2,7 +2,7 @@
 title: Sale Blanket Order Notes
 description: Rahmenaufträge mit Notizen, die in den Verkaufsauftrag kopiert werden.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale-blanket-order
 ---
 

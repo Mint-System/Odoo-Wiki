@@ -2,7 +2,7 @@
 title: Product Dimension Attributes
 description: Product dimension attributes.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./product
 ---
 

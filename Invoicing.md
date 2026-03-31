@@ -18,7 +18,7 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 | Erweiterung                                            | Beschreibung                                      |
 | ------------------------------------------------------ | ------------------------------------------------- |
-| [Rechnungsstellung Mahnungen](Invoicing%20Reminder.md) | Mahnberichte erstellen und verschicken            |
+| [Rechnungsstellung Mahnungen](Invoicing%20followup.md) | Mahnberichte erstellen und verschicken            |
 | [Rechnungsstellung Aktionen](Invoicing%20Actions.md)   | Neue Aktionen für Rechnungstellung und Mahnungen. |
 
 ## Erweiterungen
@@ -26,15 +26,6 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | Erweiterung                                                                                 | Beschreibung                                                                                       |     |
 | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --- |
 | [Account Currency Communication](Account%20Currency%20Communication.md)                     | Legt den Kommunikations-Standard auf der Währung fest.                                             |     |
-| [Account Followup Due Filter](Account%20Followup%20Due%20Filter.md)                         | Im Mahnbericht werden nur übefällige Rechnungen angezeigt.                                         |     |
-| [Account Followup Email From](Account%20Followup%20Email%20From.md)                         | Mahnbericht von definierter E-Mail-Adresse verschicken.                                            |     |
-| [Account Followup Filter Blocked](Account%20Followup%20Filter%20Blocked.md)                 | Zeige Kontakte mit blockierten Rechnungen in der Mahnliste.                                        |     |
-| [Account Followup Hide Communication](Account%20Followup%20Hide%20Communication.md)         | Spalte Kommunikation in Mahnbericht ausblenden.                                                    |     |
-| [Account Followup Mail Layout](Account%20Followup%20Mail%20Layout.md)                       | Standard E-Mail-Vorlage für Mahnungserinnerungen verwenden.                                        |     |
-| [Account Followup Manual Reminder](Account%20Followup%20Manual%20Reminder.md)               | Standardwert für Mahnungserinnerungen auf Manuell setzen.                                          |     |
-| [Account Followup Print False](Account%20Followup%20Print%20False.md)                       | Im Dialog zum Versand der Manhnung Druckoption deaktivieren.                                       |     |
-| [Account Followup Report Light](Account%20Followup%20Report%20Light.md)                     | Minimales Layout für die Tabelle des Mahnberichts.                                                 |     |
-| [Account Followup Subscribe](Account%20Followup%20Subscribe.md)                             | Beim Versenden von Mahnbericht Kontakte gemäss Domain-Filter abonnieren.                           |     |
 | [Account Invoice Carrier](Account%20Invoice%20Carrier.md)                                   | Auslieferungsmethode auf Rechnung hinterlegen.                                                     |     |
 | [Account Invoice Change Currency](Account%20Invoice%20Change%20Currency.md)                 | Rechnungsbeträge und andere Währung umrechnen.                                                     |     |
 | [Account Invoice Comment](Account%20Invoice%20Comment.md)                                   | Kommentarfeld auf Rechnung.                                                                        |     |
@@ -44,13 +35,14 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 | [Account Invoice Notes](Account%20Invoice%20Notes.md)                                       | Zusätzliche Header und Footer Notizen kopiert von Verkaufsauftrag.                                 |     |
 | [Account Invoice Outstanding Credit](Account%20Invoice%20Outstanding%20Credit.md)           | Filtern Sie Kundenrechnungen mit offenen Gutschriften.                                             |     |
 | [Account Invoice Overdue Reminder](Account%20Invoice%20Overdue%20Reminder.md)               | Einfache Lösung zum Versenden von Zahlungserinnerungen.                                            |     |
+| [Account Invoice Prepare](Account%20Invoice%20Prepare.md)                                   | Die PDF Rechnung im Anhang speichern und laden.                                                    |     |
 | [Account Invoice Sale Partner](Account%20Invoice%20Sale%20Partner.md)                       | Verkaufsadresse auf Rechnung festlegen.                                                            |     |
 | [Account Invoice Select Bank](Account%20Invoice%20Select%20Bank.md)                         | Bankkonto anhand Währung auswählen.                                                                |     |
 | [Account Invoice Show Currency Rate](Account%20Invoice%20Show%20Currency%20Rate.md)         | Währungskurs auf Rechnungszeile anzeigen.                                                          |     |
 | [Account Invoice Triple Discount](Account%20Invoice%20Triple%20Discount.md)                 | Mehrere Rabatte auf der Rechungszeile.                                                             |     |
-| [Account Invoicing Prepare](Account%20Invoice%20Prepare.md)                                 | Die PDF Rechnung im Anhang speichern und laden.                                                    |     |
 | [Account Move Invoice Partner](Account%20Move%20Invoice%20Partner.md)                       | Separate Rechnungsadresse auf Rechnung festlegen.                                                  |     |
 | [Account Move Line Description](Account%20Move%20Line%20Description.md)                     | Produktname ohne Referenz in Beschreibung Rechnungszeile übertragen.                               |     |
+| [Account Move Send Check](Account%20Move%20Send%20Check.md)                                 | Zeigt Hinweis ob Rechnung versendet wird oder wurde in Senden-Dialog.                              |     |
 | [Account Sale Timesheet Report](Account%20Sale%20Timesheet%20Report.md)                     | Zeiterfassungsbericht für Rechnung.                                                                |     |
 | [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                       | PDF-Dokumenten von Rechnungen zusammenführen.                                                      |     |
 | [Purchase Invoice Prepare Partner](Purchase%20Invoice%20Prepare%20Partner.md)               | Kontakte aus Bestellung auf Rechnung kopieren.                                                     |     |

@@ -2,7 +2,7 @@
 title: Purchase Requisition Other Information Page
 description: Fügt einen "Weitere Informationen" Tab der Formularansicht hinzu.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./purchase-requisition
 ---
 

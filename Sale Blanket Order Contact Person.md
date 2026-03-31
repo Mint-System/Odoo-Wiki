@@ -2,7 +2,7 @@
 title: Sale Blanket Order Contact Person
 description: Kontaktperson auf Rahmenauftrag festlegen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale-blanket-order
 ---
 

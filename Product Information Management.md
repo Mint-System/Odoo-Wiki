@@ -2,7 +2,7 @@
 title: Product Information Management
 description: Verwalten Sie Produktinformationen ganz flexibel.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./product
 ---
 

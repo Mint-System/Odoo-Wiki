@@ -2,7 +2,7 @@
 title: Sale Blanket Order Cancel State
 description: Beim Abbrechen wird der Verkaufsautrag in den entsprechendne Status versetzt.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale-blanket-order
 ---
 

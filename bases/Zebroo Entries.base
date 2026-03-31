@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - partner == "Zebroo"
+    order:
+      - file.name
+      - partner
+    sort:
+      - property: tags
+        direction: DESC
+    columnSize:
+      file.name: 283

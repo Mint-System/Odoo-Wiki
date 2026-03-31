@@ -1,6 +1,6 @@
 ---
 title: Personalabrechnung Eingaben
-description: Lohnabrechnungen mit variablen Eingaben.
+description: Gehaltsabrechnungen mit variablen Eingaben.
 kind: howto
 section: true
 prev: ./hr-payroll
@@ -15,6 +15,8 @@ prev: ./hr-payroll
 ## Abrechung
 
 ### Bruttolohn basierend auf Zeiterfassung berechnen
+
+Gilt bis #odoo17.
 
 Öffnen Sie die Regel _Bruttolohn_ der Gehaltsstruktur für Stundenlohn. Passen Sie die Formel zur Berechnung des Bruttolohns wie folgt an:
 
@@ -34,6 +36,8 @@ else:
 ```
 
 ### Variable Eingaben mit Lohnart verbuchen
+
+Gilt bis #odoo17.
 
 Um variable Eingaben in der Lohnzahlungen abzurechnen, müssen Sie diese Eingaben definieren und einer Lohnart hinterlegen. Bei der Abrechnung wird die Lohnart mitgerechnet.
 
@@ -58,6 +62,8 @@ Python Code: `result = inputs["QUELLEN"].amount if inputs.get("QUELLEN") else 0`
 Beim Berechnen werden variable Eingaben in der Lohnabrechnung miteinbezogen.
 
 ### Lohnabzug Kurzarbeit konfigurieren
+
+Gilt bis #odoo17.
 
 Im Falle von Kurzarbeit kann man die variablen Abzüge mit einer neuen Eingabe und Lohnart geltend machen.
 
@@ -84,6 +90,8 @@ Speichern Sie die Lohnart, fügen Sie einer ausgewählte Lohnabrechnung mit der 
 
 ### Spesen als Zuwendung konfigurieren
 
+Gilt bis #odoo17.
+
 Spesen können als variable Eingabe in der Lohnabrechnung hinzugefügt werden. Navigieren Sie nach _Personalabrechnung > Konfiguration > Other Input Types_. Erstellen Sie dort einen Eintrag mit _Beschreibung_ `Spesen` und _Code_ `SPESEN`.
 
 Damit die Eingabe in der Lohnabrechnung berücksichtigt wird, muss eine neue Lohnart definiert werden. Navigieren Sie nach _Personalabrechnung > Konfiguration > Regeln_ und wählen Sie _Neu_. Erstellen Sie eine Lohnart mit folgenden Definitionen:
@@ -106,6 +114,8 @@ Habenkonto: `1098 Durchlaufkonto Löhne`
 Speichern Sie die Lohnart, fügen Sie einer ausgewählte Lohnabrechnung mit der zugehörigen Lohnstruktur eine Spesen-Eingabe hinzu und berechnen die Abrechnung neu.
 
 ### Lohnakonto mit Nachberechnung konfigurieren
+
+Gilt bis #odoo17.
 
 Machen Sie Lohnabzüge nach Berechnung des Nettolohn, muss die Lohnabrechnung etwas umstrukturiert werden. Einerseits muss wieder ein variabler Lohntyp konfiguriert werden und anderer
 
@@ -140,6 +150,8 @@ Und bei der Lohnart _Nettolohn_ den Code auf `SUM` setzen (Code muss immer einde
 
 ### 13er Monatslohn konfigurieren
 
+Gilt bis #odoo17.
+
 Navigieren Sie nach _Personalabrechnung > Konfiguration > Other Input Types_. Erstellen Sie dort einen Eintrag mit _Beschreibung_ `13er Monatslohn` und _Code_ `BASIC13`.
 
 Damit die Eingabe in der Lohnabrechnung berücksichtigt wird, muss eine bestehende Lohnart angepasst werden. Navigieren Sie nach _Personalabrechnung > Konfiguration > Regeln_ und wählen Sie die Lohnart mit Code _BASIC_. Passen Sie die Lohnart wie folgt an:
@@ -154,6 +166,8 @@ Als Bedinung verwenden Sie diesen Code: `result = inputs["BASIC13"].amount != 0.
 :::
 
 ### Bruttolohn basierend auf abrechenbaren Stunden berechnen
+
+Gilt bis #odoo17.
 
 Navigieren Sie nach _Personalabrechnung > Konfiguration > Other Input Types_. Erstellen Sie dort einen Eintrag mit _Beschreibung_ `Abrechenbare Stunden` und _Code_ `BILLABLE_HOURS`.
 

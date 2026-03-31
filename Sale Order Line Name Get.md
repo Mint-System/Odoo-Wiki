@@ -2,7 +2,7 @@
 title: Sale Order Line Name Get
 description: Produktname als Anzeigename für Verkaufspositionen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale
 ---
 

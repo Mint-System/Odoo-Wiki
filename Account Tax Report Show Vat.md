@@ -1,7 +1,7 @@
 ---
 title: Account Taxt Report Show Vat
 description: USt-Id im Umsatzsteuerbericht anzeigen
-partner: Mint-System
+partner: Mint System
 prev: ./accounting
 ---
 

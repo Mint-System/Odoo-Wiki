@@ -2,7 +2,7 @@
 title: Sale Subscription Partner Pricelist
 description: Preislisten-Zugriff mit Abonnements erteilen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./subscription
 ---
 

@@ -2,7 +2,7 @@
 title: Account Invoice Outstanding Credit
 description: Filtern Sie Kundenrechnungen mit offenen Gutschriften.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./invoicing
 ---
 

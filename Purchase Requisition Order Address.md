@@ -2,7 +2,7 @@
 title: Purchase Requisition Order Address
 description: Bestelladresse auf Kaufverträge.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./purchase-requisition
 ---
 

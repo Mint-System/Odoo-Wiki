@@ -2,7 +2,7 @@
 title: MRP Documents Share
 description: Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./manufacture
 ---
 

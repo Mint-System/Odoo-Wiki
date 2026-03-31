@@ -2,7 +2,7 @@
 title: Base Recursion Limit
 description: Limit für Python-Rekursionen erhöhen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./base
 ---
 

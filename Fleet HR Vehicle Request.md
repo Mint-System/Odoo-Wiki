@@ -2,7 +2,7 @@
 title: Fleet HR Vehicle Request
 description: Brückenmodul für Fahrzeugflotte und Fahrzeuganfrage.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr
 ---
 

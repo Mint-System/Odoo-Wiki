@@ -2,7 +2,7 @@
 title: MuK REST API for Odoo
 description: Stellt eine REST API für den Odoo Server bereit.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./iot
 ---
 

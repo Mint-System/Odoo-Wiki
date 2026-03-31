@@ -2,7 +2,7 @@
 title: Stock Production Lot Date
 description: Datum auf Losnummer festlegen und Ablaufdatum relativ setzen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

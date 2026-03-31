@@ -13,7 +13,7 @@ prev: ./calendar
 {{ $frontmatter.description }}
 
 Technischer Name: `caldav_sync`\
-Repository: <https://git.bemade.org/bemade/bemade-addons/-/tree/18.0/caldav_sync>
+Repository: <https://github.com/bemade/bemade-addons/tree/19.0/caldav_sync>
 
 ## Konfiguration
 

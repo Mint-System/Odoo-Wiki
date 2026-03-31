@@ -2,7 +2,7 @@
 title: Sale Order Line Not Billable
 description: Produkt als nicht verrechbar festlegen und bei Abrechnunung filtern.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale
 ---
 

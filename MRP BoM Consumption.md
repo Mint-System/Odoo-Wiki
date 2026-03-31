@@ -2,7 +2,7 @@
 title: MRP BoM Consumption
 description: Definieren Sie eine Stückliste, die bei der Lieferung verbraucht wird.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./manufacture
 ---
 

@@ -2,7 +2,7 @@
 title: Show DB Name
 description: Zeigt den Datenbanknamen oben rechts an.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./base
 ---
 

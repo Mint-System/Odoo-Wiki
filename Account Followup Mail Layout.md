@@ -2,8 +2,8 @@
 title: Account Followup Mail Layout
 description: Standard E-Mail-Vorlage für Mahnungserinnerungen verwenden.
 kind: howto
-partner: Mint-System
-prev: ./invoicing
+partner: Mint System
+prev: ./invoicing-followup
 ---
 
 # Account Followup Mail Layout

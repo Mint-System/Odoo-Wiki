@@ -2,7 +2,7 @@
 title: Stock Picking Notes
 description: 'Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.'
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

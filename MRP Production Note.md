@@ -2,7 +2,7 @@
 title: MRP Production Note
 description: Notiz auf Fertigungsauftrag hinzufügen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./manufacture
 ---
 

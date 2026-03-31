@@ -2,7 +2,7 @@
 title: Stock Move Sale Order Name
 description: Beschreibung der Auftragsposition wird auf die Lieferung kopiert.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

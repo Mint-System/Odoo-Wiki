@@ -2,7 +2,7 @@
 title: Base Module User ACL
 description: Zugriffsrechte auf Apps festlegen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./base
 ---
 

@@ -2,7 +2,7 @@
 title: Stock Move Line Lot Done
 description: Erledigte Menge bei Zuweisung von Los festlegen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

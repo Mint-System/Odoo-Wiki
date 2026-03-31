@@ -2,7 +2,7 @@
 title: Account Accountant Reconcile
 description: Bank-Gutschriften anhand Referenz und Betrag abgleichen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./accounting
 ---
 

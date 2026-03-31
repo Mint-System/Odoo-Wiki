@@ -2,7 +2,7 @@
 title: HR Work Entry Profile
 description: Mitarbeiter können ihre Arbeitseinträge im Profile anzeigen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr
 ---
 

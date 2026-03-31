@@ -2,7 +2,7 @@
 title: Sale Restricted Qty Default
 description: Mindestbestellmenge eines Produkts als Default im Webshop festlegen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 tags:
   - Mint-System
 prev: ./sale

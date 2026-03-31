@@ -2,7 +2,7 @@
 title: HR Attendance Report Add Flexitime
 description: Geplante Arbeitszeit und Gleitzeit im Anwesenheitsbericht.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr-attendance
 ---
 

@@ -2,7 +2,7 @@
 title: Project Partner Open Tasks
 description: Offene Aufgaben von Kunde anzeigen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./project
 ---
 

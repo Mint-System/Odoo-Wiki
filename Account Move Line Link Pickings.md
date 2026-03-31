@@ -2,7 +2,7 @@
 title: Account Move Line Link Pickings
 description: Lieferaufträge mit Rechnungszeile verlinken.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./accounting
 ---
 

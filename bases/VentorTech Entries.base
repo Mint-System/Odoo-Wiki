@@ -3,10 +3,12 @@ views:
     name: Table
     filters:
       and:
-        - partner == "Mint-System"
+        - partner == "VentorTech"
     order:
       - file.name
       - partner
     sort:
       - property: tags
         direction: DESC
+    columnSize:
+      file.name: 283

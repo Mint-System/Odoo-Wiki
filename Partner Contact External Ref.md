@@ -2,7 +2,7 @@
 title: Partner Contact External Ref
 description: Kunden-Referenz für die externe Kommunikation.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./contacts
 ---
 

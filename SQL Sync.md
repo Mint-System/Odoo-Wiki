@@ -2,7 +2,7 @@
 title: SQL Sync
 description: Mit SQL-Abfragen Daten empfangen und senden.
 kind: howto
-partner: Thirdparty
+partner: Zebroo
 prev: ./zebroo-sync
 ---
 

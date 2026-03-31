@@ -2,7 +2,7 @@
 title: Base Country Sequence
 description: Länder-Liste manuell sortieren.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./contacts
 ---
 

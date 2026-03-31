@@ -2,7 +2,7 @@
 title: Git
 description: Git Repositories mit Odoo verwalten.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./
 ---
 

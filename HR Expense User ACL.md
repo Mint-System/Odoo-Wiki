@@ -2,7 +2,7 @@
 title: HR Expense User ACL
 description: Zugriffsrechte auf Spesenabrechnung festlegen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./contacts
 ---
 

@@ -2,7 +2,7 @@
 title: Account Invoice Carrier
 description: Auslieferungsmethode auf Rechnung hinterlegen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./invoicing
 ---
 

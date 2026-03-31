@@ -2,7 +2,7 @@
 title: Sale Order Partner Pricelist
 description: Preislisten-Zugriff mit Verkaufsaufträgen erteilen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./subscription
 ---
 

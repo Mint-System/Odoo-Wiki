@@ -2,7 +2,7 @@
 title: MRP Production Release
 description: Fertigungsaufträge können zurückgesetzt und freigegebenen werden.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./manufacture
 ---
 

@@ -2,7 +2,7 @@
 title: Account Report Referrer
 description: Fügt den Ansprechpartner einer Rechnung der Rechnungsanalyse hinzu.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./accounting
 ---
 

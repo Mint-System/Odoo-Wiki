@@ -2,7 +2,7 @@
 title: Sale Order Default Commitment Date
 description: Standardlieferdatum festlegen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale
 ---
 

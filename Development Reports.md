@@ -71,6 +71,15 @@ Nun haben Sie alle Elemente um den Bericht als HTML anzuzeigen. Geben Sie die fo
 
 ![](attachments/Entwicklung%20Bericht%20angezeigt.png)
 
+### Ansichten der Berichte anzeigen
+
+Wenn Sie [Ansichten anzeigen](Development%20Views.md#Ansichten%20anzeigen), geben Sie diesen Filter ein:
+
+
+```python
+["|", "|", "|", ("key", "=", "sale.report_saleorder_document"), ("key", "=", "account.report_invoice_document"), ("key", "=", "web.external_layout_standard"), ("key", "=", "mail.mail_notification_layout")]
+```
+
 ## Verwaltung
 
 #### Benutzerdefinierter Bericht erstellen

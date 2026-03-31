@@ -2,7 +2,7 @@
 title: Stock Kardex
 description: Kommunikation mit externem Kardex-Produktionssystem.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

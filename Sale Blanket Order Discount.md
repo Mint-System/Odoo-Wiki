@@ -2,7 +2,7 @@
 title: Sale Blanket Order Discount
 description: Definiere einen Rabatt auf der Rahmenauftragszeile.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale-blanket-order
 ---
 

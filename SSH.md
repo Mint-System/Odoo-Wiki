@@ -3,7 +3,7 @@ title: SSH
 description: SSH-Schlüssel verwalten.
 kind: howto
 prev: ./connector
-partner: Mint-System
+partner: Mint System
 ---
 
 # SSH

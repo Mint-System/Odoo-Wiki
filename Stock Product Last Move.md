@@ -2,7 +2,7 @@
 title: Stock Product Last Move
 description: 'Letztes Datum zu ein- und ausgehender Lagerbewegung anzeigen.'
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 
