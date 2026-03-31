@@ -1,6 +1,6 @@
 ---
 title: Personalabrechnung Aktionen
-description: Lohnabrechnung automatisieren.
+description: Gehaltsabrechnung automatisieren.
 kind: howto
 section: true
 prev: ./hr-payroll
@@ -14,11 +14,11 @@ prev: ./hr-payroll
 
 ## Aktionen
 
-### Lohnabrechnung zurücksetzen
+### Gehaltsabrechnung zurücksetzen
 
 Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Lohnabrechnung zurücksetzen`\
+Name der Aktion: `Gehaltsabrechnung zurücksetzen`\
 Modell: `hr.payslip`\
 Folgeaktion: `Python-Code ausführen`
 
@@ -31,13 +31,13 @@ for record in records:
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-Im Formular der Lohnbuchung erscheint nun in der Auswahl _Aktion_ das Menu _Lohnabrechnung zurücksetzen_.
+Im Formular der Lohnbuchung erscheint nun in der Auswahl _Aktion_ das Menu _Gehaltsabrechnung zurücksetzen_.
 
-### Lohnabrechnung versenden
+### Gehaltsabrechnung versenden
 
 Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Lohnabrechnung versenden`\
+Name der Aktion: `Gehaltsabrechnung versenden`\
 Modell: `hr.payslip`\
 Folgeaktion: `Python-Code ausführen`
 
@@ -51,7 +51,7 @@ for record in records:
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-Im Formular der Lohnbuchung erscheint nun in der Auswahl _Aktion_ das Menu _Lohnabrechnung versenden_.
+Im Formular der Lohnbuchung erscheint nun in der Auswahl _Aktion_ das Menu _Gehaltsabrechnung versenden_.
 
 ### Batch zurücksetzen
 
@@ -141,3 +141,4 @@ Zu schreibende Daten:
 ::: warning
 Das Feld `x_struct_id` wurde mithilfe eines [Snippets](Development%20Snippets.md) erstellt.
 :::
+Gehaltsabrechnung
