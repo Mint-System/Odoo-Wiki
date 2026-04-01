@@ -56,7 +56,6 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 - [Odoo Datenmanagement](Best%20Practice%20Odoo%20Data%20Management.md)
 - [Externe ID](Best%20Practice%20External%20ID.md)
-- [Chatter](Best%20Practice%20Chatter.md)
 - [Datumsfelder](Best%20Practice%20Date%20Fields.md)
 - [Direct Print](Best%20Practice%20Direct%20Print.md)
 - [Portal und Backend](Best%20Practice%20Portal%20and%20Backend.md)
