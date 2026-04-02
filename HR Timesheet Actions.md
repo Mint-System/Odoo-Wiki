@@ -12,7 +12,7 @@ prev: ./hr-timesheet
 
 ## Aktionen
 
-## Zeiterfassung aufteilen
+### Zeiterfassung aufteilen
 
 Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
@@ -73,3 +73,9 @@ records.write({'validated': False})
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl _Aktion_ das Menu _Validierung zurücksetzen_.
+
+## Geplante Aktionen
+
+### Zeiterfassung: E-Mail-Erinnerung an Mitarbeiter
+
+#TODO 
