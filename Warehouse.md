@@ -4,6 +4,7 @@ description: Werkhallen und Warenhäuser effizient verwalten.
 kind: howto
 partner: OCA
 prev: ./
+extensions: true
 ---
 
 # Warenhaus

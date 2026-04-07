@@ -4,6 +4,7 @@ description: Sammlung von Erweiterungen und Snippets um Positionsnummern auf Auf
 kind: howto
 prev: ./
 partner: Mint System
+extensions: true
 ---
 
 # Positionsnummern

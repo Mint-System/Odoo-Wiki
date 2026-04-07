@@ -4,6 +4,7 @@ description: Versandmethoden und Logistik definieren.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Versand

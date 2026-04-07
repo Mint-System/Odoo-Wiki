@@ -4,6 +4,7 @@ description: E-Mail mit Odoo versenden.
 kind: howto
 section: true
 prev: ./discuss
+extensions: true
 ---
 
 # Dialog E-Mail

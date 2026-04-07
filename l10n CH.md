@@ -4,6 +4,7 @@ description: Übersicht zur Schweizer Lokalisierung von Odoo.
 kind: howto
 prev: ./
 partner: OCA
+extensions: true
 ---
 
 # Schweizer Lokalisierung

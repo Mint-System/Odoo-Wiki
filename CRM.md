@@ -4,6 +4,7 @@ description: Verfolgen Sie Leads, schließen Sie Verkaufschancen ab und erhalten
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # CRM

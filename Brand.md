@@ -4,6 +4,7 @@ description: Mehrere Marken für ihr Unternehmen präsentieren.
 kind: howto
 partner: OCA
 prev: ./
+extensions: true
 ---
 
 # Marke

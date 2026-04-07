@@ -4,6 +4,7 @@ description: Odoo Hosting von Mint System.
 kind: howto
 prev: ./
 partner: Mint System
+extensions: true
 ---
 
 # Mint Cloud

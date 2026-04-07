@@ -4,6 +4,7 @@ description: Odoo mit anderen Systemen verbinden.
 kind: howto
 partner: OCA
 prev: ./
+extensions: true
 ---
 
 # Connector

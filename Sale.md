@@ -4,6 +4,7 @@ description: Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und O
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Verkauf

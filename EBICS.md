@@ -4,6 +4,7 @@ description: Odoo direkt mit der Bank verbinden.
 kind: howto
 partner: Mint System
 prev: ./
+extensions: true
 ---
 
 # EBICS

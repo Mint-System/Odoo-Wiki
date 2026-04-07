@@ -4,6 +4,7 @@ description: AMQP Zielhosts verwalten.
 kind: howto
 partner: Mint System
 prev: ./stock
+extensions: true
 ---
 
 # AMQP Base

@@ -4,6 +4,7 @@ description: Für einen fantastischen Kundenservice.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Kundendienst

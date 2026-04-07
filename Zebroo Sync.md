@@ -4,6 +4,7 @@ description: Umfassende Synchronisationslösung basierend auf Odoo.
 kind: howto
 partner: Zebroo
 prev: ./
+extensions: true
 ---
 
 # Zebroo Sync

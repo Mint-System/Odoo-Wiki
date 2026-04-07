@@ -4,6 +4,7 @@ description: In alle Module integrierter privater Chat und Gruppen-Chat.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Discuss

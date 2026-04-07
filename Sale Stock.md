@@ -4,6 +4,7 @@ description: Lieferungen aus Verkaufsaufträge erstellen.
 kind: howto
 section: true
 prev: ./sale
+extensions: true
 ---
 
 # Verkauf Lager

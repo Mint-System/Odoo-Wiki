@@ -4,6 +4,7 @@ description: Odoo mühelos anpassen und erweitern.
 kind: howto
 prev: ./
 partner: Mint System
+extensions: true
 ---
 
 # Entwicklung

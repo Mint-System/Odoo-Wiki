@@ -4,6 +4,7 @@ description: Odoo installieren und konfigurieren.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Server

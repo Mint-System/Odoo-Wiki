@@ -4,6 +4,7 @@ description: Alle Kontaktdaten an einem Ort.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Kontakte

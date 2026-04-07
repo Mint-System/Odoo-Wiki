@@ -412,7 +412,7 @@ Wissenstransfer für Teams vereinfachen.
 
 Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
-## Erweiterungen
+## Spezialisierung
 
 Die folgenden HowTos beschreiben spezialisierte Funktionen von Odoo.
 

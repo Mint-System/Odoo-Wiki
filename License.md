@@ -4,6 +4,7 @@ description: Software verkaufen und lizenzieren
 kind: howto
 prev: ./
 partner: Mint System
+extensions: true
 ---
 
 # Lizenz

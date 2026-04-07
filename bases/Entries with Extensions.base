@@ -1,18 +1,14 @@
-formulas:
-  Untitled: ""
 views:
   - type: table
     name: Table
     filters:
       and:
-        - prev == "./"
+        - extensions == true
     order:
       - file.name
-      - partner
       - prev
-      - formula.Untitled
     sort:
       - property: tags
         direction: DESC
     columnSize:
-      note.partner: 263
+      file.name: 424
