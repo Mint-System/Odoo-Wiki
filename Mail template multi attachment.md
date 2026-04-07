@@ -4,7 +4,7 @@ description: Mehrere Anhänge bei E-Mail-Vorlage hinzufügen.
 kind: howto
 tags:
   - OCA
-prev: ./discuss
+prev: ./discuss-e-mail
 ---
 
 # Mail template multi attachment

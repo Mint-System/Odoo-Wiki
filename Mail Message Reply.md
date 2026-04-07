@@ -4,7 +4,7 @@ description: Auf eine Chatter-Nachricht antworten.
 kind: howto
 tags:
   - OCA
-prev: ./discuss
+prev: ./discuss-e-mail
 ---
 
 # Mail Message Reply

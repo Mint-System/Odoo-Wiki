@@ -3,7 +3,7 @@ title: Mail Composer Default Template
 description: Mail-Layout beim Versand von mehreren Mails anwenden.
 kind: howto
 partner: Mint System
-prev: ./discuss
+prev: ./discuss-e-mail
 ---
 
 # Mail Composer Mass Layout

@@ -3,7 +3,7 @@ title: Mail Composer Default Template
 description: Standardvorlage für den E-Mail-Dialog festlegen.
 kind: howto
 partner: Mint System
-prev: ./discuss
+prev: ./discuss-e-mail
 ---
 
 # Mail Composer Default Template
