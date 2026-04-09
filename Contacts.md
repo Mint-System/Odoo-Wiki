@@ -48,7 +48,7 @@ extensions: true
 | [Partner Firstname](Partner%20Firstname.md)                                                       | Unterscheidet Vor- und Nachnamen.                                 |
 | [Partner Hide Address](Partner%20Hide%20Address.md)                                               | Adressen auf Berichten ausblenden.                                |
 | [Partner Manual Rank](Partner%20Manual%20Rank.md)                                                 | Kontakt als Lieferant oder Kunde manuell festlegen.               |
-| [Partner Mobile](templates/Partner%20Mobile.md)                                                   | Fügt Feld für Mobilnummer hinzu.                                  |
+| [Partner Mobile](Partner%20Mobile.md)                                                   | Fügt Feld für Mobilnummer hinzu.                                  |
 | [Partner Multi Pricelist](Partner%20Multi%20Pricelist.md)                                         | Mehrere Preislisten mit Start- und Enddatum auf Kunden festlegen. |
 | [Partner Multi Relation](Partner%20Multi%20Relation)                                              | Beziehungen zwischen Kontakten definieren.                        |
 | [Partner Multiline Street2](Partner%20Multiline%20Street2.md)                                     | Mehrzeiliger Text in zweiter Strasse hinzufügen.                  |
