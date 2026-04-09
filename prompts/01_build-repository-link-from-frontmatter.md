@@ -1,7 +1,11 @@
 ---
 title: Build repository link from frontmatter
+forge: github.com
+repo: OCA/account-financial-tools
+versions:
+  - "16.0"
+name: base_vat_optional_vies
 ---
-
 # Run 01
 
 Note: @Agent refers to the AI agent (you) who is working on this task.
@@ -39,7 +43,7 @@ prev: ./database
 {{ $frontmatter.description }}
 
 Technischer Name: `base_vat_optional_vies`\
-Repository: <https://github.com/OCA/account-financial-tools/tree/16.0/base_vat_optional_vies>
+Repository: <a v-bind:href="https://{$frontmatter.forge}/{$frontmatter.repo}/tree/{$frontmatter.version}/{$frontmatter.name}">https://{$frontmatter.forge}/{$frontmatter.repo}/tree/{$frontmatter.versions[0]}/{$frontmatter.name}</a>
 ```
 
 After:
@@ -71,6 +75,8 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 The link is to be splitted into the parts forge, repo, version and name. The `{{ $frontmatter }}` replacement is a feature of vuepress. The version is becoming a list. The first entry is the latest. Every version entry needs to be quoted, otherwise the `.0` is striped. 
 
 Create a Python script that makes this conversion for every entry with a repository link that starts with `^Repository: https://github.com`.
+
+Do not forget about `Technischer Name: {{ $frontmatter.name }}\`. The quotes have been removed.
 
 Create the python script in the `tmp` folder of this project.
 
