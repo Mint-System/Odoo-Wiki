@@ -68,9 +68,11 @@ Technischer Name: {{ $frontmatter.name }}\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.version}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 ```
 
-The link is to be splitted into the parts forge, repo, version and name. The `{{ $frontmatter }}` replacement is a feature of vuepress. The version needs to be quoted, otherwise the `.0` is striped. 
+The link is to be splitted into the parts forge, repo, version and name. The `{{ $frontmatter }}` replacement is a feature of vuepress. The version is becoming a list. The first entry is the latest. Every version entry needs to be quoted, otherwise the `.0` is striped. 
 
-Create a Python script that makes this update for every entry with a repository link that starts like this `^Repository: https://github.com`.
+Create a Python script that makes this conversion for every entry with a repository link that starts with `^Repository: https://github.com`.
+
+Create the python script in the `tmp` folder of this project.
 
 ## Worklog
 

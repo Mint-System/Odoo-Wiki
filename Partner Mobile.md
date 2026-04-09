@@ -7,7 +7,7 @@ tags:
 prev: ./contacts
 forge: github.com
 repo: OCA/partner-contact
-version:
+versions:
   - "19.0"
 name: partner_mobile
 ---
