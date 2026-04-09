@@ -63,7 +63,7 @@ name: base_vat_optional_vies
 
 {{ $frontmatter.description }}
 
-Technischer Name: `{{ $frontmatter.name }}`\
+Technischer Name: {{ $frontmatter.name }}\
 Repository: <{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }}>
 ```
 

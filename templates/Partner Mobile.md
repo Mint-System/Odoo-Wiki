@@ -5,7 +5,7 @@ kind: howto
 tags:
   - OCA
 prev: ./contacts
-forge: https://github.com
+forge: github.com
 repo: OCA/partner-contact
 version: 19.0
 name: mobile_partner
@@ -17,8 +17,8 @@ name: mobile_partner
 
 {{ $frontmatter.description }}
 
-Technischer Name: `{{ $frontmatter.name }}`\
-Repository: <{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }}>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }}>
 
 ## Beschreibung
 
