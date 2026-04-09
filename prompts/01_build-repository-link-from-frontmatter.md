@@ -69,7 +69,7 @@ Repository: https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $fr
 
 The link is to be splitted into the parts forge, repo, version and name. The `{{ $frontmatter }}` replacement is a feature of vuepress.
 
-Create a Python script that makes this update for every entry.
+Create a Python script that makes this update for every entry with a repository link that starts like this `^Repository: https://github.com`.
 
 ## Worklog
 
