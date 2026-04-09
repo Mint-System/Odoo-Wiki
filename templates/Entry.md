@@ -5,6 +5,10 @@ kind: howto
 tags:
   - {{VALUE:org_name}}
 prev: {{VALUE:prev}}
+forge: https://github.com
+repo: {{VALUE:org_name}}/{{VALUE:repo_name}}
+version: {{VALUE:odoo_version}}
+name: {{VALUE:module_name}}
 ---
 
 # {{VALUE:name}}
@@ -101,5 +105,9 @@ if (repoMap[org_name] && repoMap[org_name].length > 0) {
 }
 this.variables.repo_name = repo_name;
 ```
-Technischer Name: `{{VALUE:module_name}}`\
-Repository: <https://github.com/{{VALUE:org_name}}/{{VALUE:repo_name}}/tree/{{VALUE:odoo_version}}/{{VALUE:module_name}}>
+Technischer Name: `{{ $frontmatter.name }}`\
+Repository: <{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }}>
+
+## Beschreibung
+
+#FIXME 

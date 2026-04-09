@@ -1,0 +1,25 @@
+---
+title: Partner Mobile
+description: Fügt Feld für Mobilnummer hinzu.
+kind: howto
+tags:
+  - OCA
+prev: ./contacts
+forge: https://github.com
+repo: OCA/partner-contact
+version: 19.0
+name: mobile_partner
+---
+
+# Partner Mobile
+
+![icon_oca_app](../attachments/icon_oca_app.png)
+
+{{ $frontmatter.description }}
+
+Technischer Name: `{{ $frontmatter.name }}`\
+Repository: <{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }}>
+
+## Beschreibung
+
+Mit #Odoo19 wurde das zweite Feld zum speichern von Mobilnummern auf dem Kontakt entfernt. Dieses Modul fügt das Feld wieder hinzu.
