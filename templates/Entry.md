@@ -7,7 +7,7 @@ tags:
 prev: {{VALUE:prev}}
 forge: github.com
 repo: {{VALUE:org_name}}/{{VALUE:repo_name}}
-version: {{VALUE:odoo_version}}
+version: "{{VALUE:odoo_version}}"
 name: {{VALUE:module_name}}
 ---
 
@@ -106,7 +106,7 @@ if (repoMap[org_name] && repoMap[org_name].length > 0) {
 this.variables.repo_name = repo_name;
 ```
 Technischer Name: {{ $frontmatter.name }}\
-Repository: https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }}
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.version}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 
