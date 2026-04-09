@@ -18,7 +18,7 @@ name: mobile_partner
 {{ $frontmatter.description }}
 
 Technischer Name: {{ $frontmatter.name }}\
-Repository: <a :href="https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }}">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }}</a>
+Repository: <v-bind href="https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }}">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }}</v-bind>
 
 ## Beschreibung
 
