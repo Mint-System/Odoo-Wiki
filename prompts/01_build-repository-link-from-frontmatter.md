@@ -51,7 +51,7 @@ description: Resultat der VIES-Prüfung speichern.
 kind: howto
 partner: OCA
 prev: ./database
-forge: https://github.com
+forge: github.com
 repo: OCA/account-financial-tools
 version: 16.0
 name: base_vat_optional_vies
@@ -64,7 +64,7 @@ name: base_vat_optional_vies
 {{ $frontmatter.description }}
 
 Technischer Name: {{ $frontmatter.name }}\
-Repository: [{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }}]({{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }})
+Repository: https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }}
 ```
 
 The link is to be splitted into the parts forge, repo, version and name. The `{{ $frontmatter }}` replacement is a feature of vuepress.

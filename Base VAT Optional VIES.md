@@ -17,4 +17,4 @@ name: base_vat_optional_vies
 {{ $frontmatter.description }}
 
 Technischer Name: {{ $frontmatter.name }}\
-Repository: [https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }}](https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }})
+Repository: https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.version }}/{{ $frontmatter.name }}
