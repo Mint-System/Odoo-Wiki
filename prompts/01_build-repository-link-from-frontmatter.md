@@ -13,9 +13,9 @@ Note: @Agent refers to the AI agent (you) who is working on this task.
 @Agent When working on this task, make sure to:
 
 - Read context and task section first
-- Prepare a list of todos in the worklog section
+- Prepare a list of todos in the `## Worklog` section of this document
 - Update the todo list while working on the task
-- Once the todo list is complete add a summary
+- Once the todo list is completed add a timestamp to the worklog
 
 ## Context
 
@@ -82,8 +82,4 @@ Create the python script in the `tmp` folder of this project.
 
 ## Worklog
 
-@Agent Add the todo list here. Make sure to update this section as you work on the task, marking tasks as completed when finished.
-
-## Summary
-
-@Agent Add summary once todo list is complete. Include a brief overview of what was accomplished and any important notes about the implementation.
+@Agent Add the todo list here.
