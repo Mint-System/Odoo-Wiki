@@ -43,7 +43,7 @@ prev: ./database
 {{ $frontmatter.description }}
 
 Technischer Name: `base_vat_optional_vies`\
-Repository: <a v-bind:href="https://{$frontmatter.forge}/{$frontmatter.repo}/tree/{$frontmatter.version}/{$frontmatter.name}">https://{$frontmatter.forge}/{$frontmatter.repo}/tree/{$frontmatter.versions[0]}/{$frontmatter.name}</a>
+Repository: <https://github.com/OCA/account-financial-tools/tree/16.0/base_vat_optional_vies>
 ```
 
 After:
@@ -72,13 +72,19 @@ Technischer Name: {{ $frontmatter.name }}\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 ```
 
-The link is to be splitted into the parts forge, repo, version and name. The `{{ $frontmatter }}` replacement is a feature of vuepress. The version is becoming a list. The first entry is the latest. Every version entry needs to be quoted, otherwise the `.0` is striped. 
+The link is to be splitted into the parts forge, repo, version and name. The `{{ $frontmatter }}` replacement is a feature of vuepress. 
 
-Create a Python script that makes this conversion for every entry with a repository link that starts with `^Repository: <https://github.com`.
+The version is becoming a list. The first version entry is the latest version. Every version entry needs to be quoted, otherwise the `.0` is striped. 
 
-Do not forget about `Technischer Name: {{ $frontmatter.name }}\`. The quotes have been removed.
+Do not forget about `Technischer Name: {{ $frontmatter.name }}\`. Note that the backticks are removed in the new definition.
 
-Create the python script in the `tmp` folder of this project.
+Create a Python script that create the frontmatter content for every entry which has a link that starts with `^Repository: <https://github.com`.
+
+Create a second script that replaces the `Technischer Name:` and `Repository:` with the new defintion. 
+
+Use a random entry to validate the conversion and update.
+
+Create the python scripts in the `tmp` folder of this project.
 
 ## Worklog
 
