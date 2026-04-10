@@ -78,7 +78,7 @@ The version is becoming a list. The first version entry is the latest version. E
 
 Do not forget about `Technischer Name: {{ $frontmatter.name }}\`. Note that the backticks are removed in the new definition.
 
-Create a Python script that create the frontmatter content for every entry which has a link that starts with `^Repository: <https://github.com`.
+Create a Python script that create the frontmatter content for every `./*.md` file which has a link that starts with `^Repository: <https://github.com`.
 
 Create a second script that replaces the `Technischer Name:` and `Repository:` with the new defintion. 
 
