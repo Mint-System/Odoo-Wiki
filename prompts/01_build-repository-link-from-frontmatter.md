@@ -74,7 +74,7 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 The link is to be splitted into the parts forge, repo, version and name. The `{{ $frontmatter }}` replacement is a feature of vuepress. The version is becoming a list. The first entry is the latest. Every version entry needs to be quoted, otherwise the `.0` is striped. 
 
-Create a Python script that makes this conversion for every entry with a repository link that starts with `^Repository: https://github.com`.
+Create a Python script that makes this conversion for every entry with a repository link that starts with `^Repository: <https://github.com`.
 
 Do not forget about `Technischer Name: {{ $frontmatter.name }}\`. The quotes have been removed.
 
