@@ -419,7 +419,7 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Akt
 
 | Feld              | Bewertungstyp | Datensatz |
 | ----------------- | ------------- | --------- |
-| `payment_term_id` | Referenz      | 21 Tage   |
+| `payment_term_id` | Referenz      | 30 Tage   |
 
 ### Verkäufer entfernen
 
