@@ -12,6 +12,8 @@ prev: ./project
 
 {{ $frontmatter.description }}
 
+## Aktionen
+
 ### Projekt-Mail-Alias aktualisieren
 
 Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
@@ -24,7 +26,7 @@ Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 for record in records:
-	record["alias_name"] = "project+" + record.key
+	record["alias_name"] = "project+" + record.name.lower().replace(" ", "-").replace("-ag", "").replace("-gmbh", "").replace("-s.a.", "")
 ```
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
