@@ -281,12 +281,18 @@ remind_subscriptions = env["sale.order"].search([
 
 # Create and send renewal order
 for subscription in remind_subscriptions:
-    composer = env['mail.compose.message'].with_context(
-        default_model='sale.order',
-        default_res_ids=[subscription.id],
-        default_template_id=mail_template.id,
-	    default_mail_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
-        default_composition_mode='comment',
-    ).create({})
-    subscription.write({'tag_ids': [(4, tag.id)]})
+    try:
+        composer = env['mail.compose.message'].with_context(
+            default_model='sale.order',
+            default_res_ids=[subscription.id],
+            default_template_id=mail_template.id,
+            default_composition_mode='comment',
+        ).create({})
+        composer.action_send_mail()
+        subscription.write({'tag_ids': [(4, tag.id)]})
+    except:
+        env["helpdesk.ticket"].create({
+            "name": "Reminder: Fehler bei Versand",
+            "description": "Beim Versand des Reminder für Abonnement " + renewal_so.name + " ist ein Fehler entstanden."
+        })
 ```
