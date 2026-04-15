@@ -31,6 +31,8 @@ Auf der Alias-Domain kann nur eine Standardabsender-Adresse definiert werden. Di
 
 Navigieren Sie nach _Einstellungen > Technisch > E-Mails > Alias-Domains_ und rufen Sie einen Eintrag auf. Im Bereich _Force From Address_ können Sie einen Namen angeben, beispielsweise `support` und ein Datenmodell auswählen, beispielsweise `helpdesk.ticket`.
 
+![](attachments/Mail%20Force%20From.png)
+
 ::: warning
 Diese Einstellungen überschreibt auch die Einstellungen auf E-Mail-Vorlagen.
 :::
