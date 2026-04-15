@@ -4,7 +4,7 @@ description: Absender-Adressen für ausgewählte Modelle forcieren.
 kind: howto
 tags:
   - Mint-System
-prev: ./discuss
+prev: ./discuss-e-mail
 forge: github.com
 repo: Mint-System/Odoo-Apps-Server-Tools
 versions:
