@@ -103,6 +103,26 @@ function convert(content, file) {
       `<video width="560" height="240" controls><source src="${basePathAttachments}${video}"></video>`
     )
   }
+
+  // convert markdown image links
+  // [![title](attachments/Image.png)](file.md) -> [![convert](./image.png)](file.html)
+  const mdLinkedImage = /(\[!\[.*?\]\(attachments.*?\..*?\)\]\(.*?\.md.*?\))/g
+  const mdLinkedImageSrc = /!\[.*?\]\((.*?\..*?)\)/
+  const mdLinkedImageAlt = /!\[(.*?)\]/
+  const mdLinkedImageHref = /\]\((.*?\.md)(#.*?)?\)\s*$/
+  matches = content.match(mdLinkedImage) || []
+  for (i = 0; i < matches.length; i++) {
+    let match = matches[i]
+    let image = match.match(mdLinkedImageSrc)[1]
+    image = sanitizeAssetname(image.replace(`${attachmentsFolder}/`, ''))
+    let alt = match.match(mdLinkedImageAlt)[1]
+    let hrefMatch = match.match(mdLinkedImageHref)
+    let href = sanitizeName(hrefMatch[1].replace('\.md', ''))
+    let anchor = hrefMatch[2] ? sanitizeAssetname(hrefMatch[2].replace('#', '')) : null
+    let converted = `[![${alt}](${basePathAttachments}${image})](${basePath}${href}${uriSuffix}${anchor ? anchorPrefix + anchor : ''})`
+    content = content.replace(match, converted)
+  }
+
   // convert markdown image links
   // ![title](attachments/Image.png) -> ![](./image.png)
   const mdImage = /(!\[.*?\]\(attachments.*?\..*?\))/g
@@ -113,6 +133,7 @@ function convert(content, file) {
     image = sanitizeAssetname(image.replace(`${attachmentsFolder}/`, ''))
     content = content.replace(match, `![](${basePathAttachments}${image})`)
   }
+
   // convert markdown links
   // [Title](Content%20Link.md#link to heading) -> [Title](content-link.html#link-to-heading)
   // Ignore [![Title](Link)](Link) and ![title](attachments/Image.png) and [title](https:)
@@ -137,24 +158,7 @@ function convert(content, file) {
     let mdLink = `[${title}](${basePath}${href}${uriSuffix}${anchor ? anchorPrefix + anchor : ''})`
     content = content.replace(match, mdLink)
   }
-  // convert markdown image links
-  // [![title](attachments/Image.png)](file.md) -> [![convert](./image.png)](file.html)
-  const mdLinkedImage = /(\[!\[.*?\]\(attachments.*?\..*?\)\]\(.*?\.md.*?\))/g
-  const mdLinkedImageSrc = /!\[.*?\]\((.*?\..*?)\)/
-  const mdLinkedImageAlt = /!\[(.*?)\]/
-  const mdLinkedImageHref = /\]\((.*?\.md)(#.*?)?\)\s*$/
-  matches = content.match(mdLinkedImage) || []
-  for (i = 0; i < matches.length; i++) {
-    let match = matches[i]
-    let image = match.match(mdLinkedImageSrc)[1]
-    image = sanitizeAssetname(image.replace(`${attachmentsFolder}/`, ''))
-    let alt = match.match(mdLinkedImageAlt)[1]
-    let hrefMatch = match.match(mdLinkedImageHref)
-    let href = sanitizeName(hrefMatch[1].replace('\.md', ''))
-    let anchor = hrefMatch[2] ? sanitizeAssetname(hrefMatch[2].replace('#', '')) : null
-    let converted = `[![${alt}](${basePathAttachments}${image})](${basePath}${href}${uriSuffix}${anchor ? anchorPrefix + anchor : ''})`
-    content = content.replace(match, converted)
-  }
+
   return content
 }
 
