@@ -14,7 +14,7 @@ name: mail_force_from
 
 # Mail Force From
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 

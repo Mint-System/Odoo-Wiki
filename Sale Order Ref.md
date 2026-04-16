@@ -9,7 +9,7 @@ prev: ./sale
 
 # Sale Order Ref
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
@@ -18,4 +18,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sa
 
 ## Beschreibung
 
-Dieses Moodul fügt ein Feld _Internal Reference_ auf dem Verkaufsauftrag hinzu und passt den Anzeigename des Auftrags und der Auftragszeile an. 
+Dieses Moodul fügt ein Feld _Internal Reference_ auf dem Verkaufsauftrag hinzu und passt den Anzeigename des Auftrags und der Auftragszeile an.

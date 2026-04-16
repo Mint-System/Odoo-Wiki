@@ -1,5 +1,5 @@
 ---
-title: Website Sale Permit Extra Info 
+title: Website Sale Permit Extra Info
 description: Extra-Seite für den Webshop beim Verkauf von zeitlich befristeten Patenten
 kind: howto
 tags:
@@ -7,9 +7,9 @@ tags:
 prev: ./website
 ---
 
-# Website Sale Permit Extra Info 
+# Website Sale Permit Extra Info
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 

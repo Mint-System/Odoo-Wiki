@@ -9,7 +9,7 @@ prev: ./discuss-e-mail
 
 # Mail template multi attachment
 
-![icon_oca_app](../attachments/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
@@ -17,7 +17,7 @@ Technischer Name: `mail_template_multi_attachment`\
 Repository: <https://github.com/OCA/social/tree/16.0/mail_template_multi_attachment>
 
 ::: warning
-Seit #Odoo17 wird diese App nicht mehr benötigt. 
+Seit #Odoo17 wird diese App nicht mehr benötigt.
 #DEPRECATED
 :::
 

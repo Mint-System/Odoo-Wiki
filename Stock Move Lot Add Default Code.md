@@ -9,7 +9,7 @@ prev: ./stock
 
 # Stock Move Lot Add Default Code
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
@@ -19,4 +19,4 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-stock-logistics-workflow/t
 ### Verwendung
 
 Mit dieser Erweiterung wird einer generierte Serien- oder Chargennummer die Referenz (default code ) des Produkts in der Form `$default_code / $lot_name` vorangestellt.
-Beispiel: SN0005 -> P01-005-007/SN005 
+Beispiel: SN0005 -> P01-005-007/SN005

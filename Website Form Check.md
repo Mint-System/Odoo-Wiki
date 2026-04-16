@@ -9,7 +9,7 @@ prev: ./website
 
 # Website Form Check
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
@@ -45,7 +45,3 @@ Da dieses Regex-Muster im Daten-String gefunden wird, liefert in diesem Beispiel
 ::: tip
 Bei der Website-Umleitung ist nur die URL, auf die umgeleitet wird, von Bedeutung. Die URL, von der umgeleitet wird, kann ein Dummy sein.
 :::
-
-
-
-

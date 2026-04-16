@@ -10,7 +10,7 @@ prev: ./sale
 
 # Sale Restricted Qty Default
 
-![icon_oca_app](../attachments/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 

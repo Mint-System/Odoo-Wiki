@@ -9,7 +9,7 @@ prev: ./website-e-commerce
 
 # Website Sale Disable Cart
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
@@ -18,6 +18,6 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Website/tree/18.0/website_
 
 ### Verwendung
 
-Produkt-Bänder können so konfiguriert werden, dass Produkte mit diesem Band nicht in den Warenkorb gelegt werden können. 
+Produkt-Bänder können so konfiguriert werden, dass Produkte mit diesem Band nicht in den Warenkorb gelegt werden können.
 
 Dafür muss auf dem Band das Feld 'Disable add to cart' aktiviert werden (Vorgabewert: nicht aktiviert).

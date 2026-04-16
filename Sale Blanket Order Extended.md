@@ -9,7 +9,7 @@ prev: ./sale-blanket-order
 
 # Sale Blanket Order Extended
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
@@ -19,4 +19,3 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sa
 ## Verwendung
 
 Kopiert die Felder "Kundenreferenz" und "Steuerposition" von einem Rahmenvertrag auf einen Verkaufsauftrag.
-

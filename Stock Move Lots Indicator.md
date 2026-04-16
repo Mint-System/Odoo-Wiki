@@ -9,13 +9,13 @@ prev: ./stock
 
 # Stock Move Lots Indicator
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_move_lots_indicator`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-stock-logistics-workflow/tree/18.0/stock_move_lots_indicator>
 
-### Verwendung 
+### Verwendung
 
 Mit dieser Erweiterung wird auf den Zeilen einer Lieferung vor der Validierung angezeigt, ob für ein getracktes Produkt bereits Serien- oder Chargennummern festgelegt wurden.

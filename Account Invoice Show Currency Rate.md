@@ -8,7 +8,7 @@ prev: ./invoicing
 
 # Account Invoice Show Currency Rate
 
-![icon_oca_app](../attachments/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 

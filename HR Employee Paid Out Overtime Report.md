@@ -9,7 +9,7 @@ prev: ./hr
 
 # HR Employee Paid Out Overtime Report
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 

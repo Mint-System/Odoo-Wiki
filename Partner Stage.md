@@ -9,7 +9,7 @@ prev: ./contacts
 
 # Partner Stage
 
-![icon_oca_app](../attachments/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 

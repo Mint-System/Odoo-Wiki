@@ -89,11 +89,11 @@ this.variables.org_name = org_name;
 // Set icon based on org
 let module_icon = '';
 if (org_name === 'OCA') {
-  module_icon = '![icon_oca_app](../attachments/icon_oca_app.png)';
+  module_icon = '![icon_oca_app](attachments/icon_oca_app.png)';
 } else if (org_name === 'Mint-System') {
-  module_icon = '![icon_oms_box](../attachments/icons_odoo_mint_system.png)';
+  module_icon = '![icon_oms_box](attachments/icons_odoo_mint_system.png)';
 } else {
-  module_icon = '![icon_oca_app](../attachments/icons_odoo_thirdparty.png)';
+  module_icon = '![icon_oca_app](attachments/icons_odoo_thirdparty.png)';
 }
 this.variables.module_icon = module_icon;
 
@@ -111,4 +111,4 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-#FIXME 
+#FIXME

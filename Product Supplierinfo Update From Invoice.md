@@ -9,7 +9,7 @@ prev: ./purchase
 
 # Product Supplierinfo Update From Invoice
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
@@ -18,5 +18,5 @@ Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/18.
 
 ### Verwendung
 
-Mit dieser Erweiterung wird die Preisänderung auf einer Lieferantenrechnung auf den zugehörigen Lieferantenpreis des Produkts übertragen. 
+Mit dieser Erweiterung wird die Preisänderung auf einer Lieferantenrechnung auf den zugehörigen Lieferantenpreis des Produkts übertragen.
 Sollte noch kein Lieferant zu einem Produkt auf einer Lieferantenrechnung exisiteren, wird dieser angelegt.
