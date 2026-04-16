@@ -53,3 +53,19 @@ Speichern Sie die Verkaufschance in ihrer Pipeline mit _Hinzufügen_.
 ### Verkaufschance anreichern
 
 Odoo kann zum Kunden Unternehmensdaten finden und der Verkaufschance hinzufügen. Wählen Sie eine Verkaufschance auf der Übersicht von _CRM_ aus und klicken Sie auf _Aktionen > Anreichern_. Wenn Odoo Informationen zum Kunden findet, listet es diese auf der rechten Seite im Chatter auf.
+
+## Integration
+
+### Outlook App einrichten
+
+Odoo beitet ein App / AddIn für Outlook an. Bis Version 19.0 muss dieses als AddIn hinzugefügt werden. Ab Version 19.2 (SaaS) wird dieses als App hinzufügt.
+
+**Odoo for Outlook**: Das ist die App. Dokumentation: https://www.odoo.com/documentation/saas-19.2/applications/general/integrations/mail_plugins/outlook.html
+
+**Odoo Inbox AddIn**: Das ist das AddIn. Dokumentation: https://www.odoo.com/documentation/19.0/applications/general/integrations/mail_plugins/outlook.html
+
+![](attachments/Odoo%20Outlook%20Apps.png)
+
+So sieht die Outlook App in Aktion aus:
+
+![](attachments/Odoo%20for%20Outlook.png)
