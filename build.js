@@ -123,9 +123,9 @@ function convert(content, file) {
     content = content.replace(match, converted)
   }
 
-  // convert markdown image links
+  // convert markdown image links — skip images already inside a link [![...](attachments/...)](...)
   // ![title](attachments/Image.png) -> ![](./image.png)
-  const mdImage = /(!\[.*?\]\(attachments.*?\..*?\))/g
+  const mdImage = /(?<!\[)(!\[.*?\]\(attachments.*?\..*?\))/g
   matches = content.match(mdImage) || []
   for (i = 0; i < matches.length; i++) {
     let match = matches[i]
