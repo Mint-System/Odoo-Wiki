@@ -36,7 +36,7 @@ Die folgenden HowTos beschreiben die Basis-Funktionen von Odoo.
 
 ### [Abonnemente](Subscription.md)
 
-![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.png)
+[![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.png)](Subscription.md)
 
 Wiederkehrende Rechnungsstellung und Management von Abonnenten auf einfache Art und Weise.
 
@@ -48,7 +48,7 @@ Verwaltung von Mitarbeiterurlauben & Abwesenheiten.
 
 ### [Anwesenheiten](HR%20Attendance.md)
 
-![icons_odoo_hr_attendancVerkaufschanceachments/icons_odoo_hr_attendance.png)
+![icons_odoo_hr_attendance](attachments/icons_odoo_hr_attendance.png)
 
 Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 
