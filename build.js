@@ -117,17 +117,20 @@ function convert(content, file) {
 
   const mdLink = /\[((?:\!\[[^\]]*\]\([^)]+\))|[^\]]+)\]\((?!https:)([^)\s]+)(#[^\s)]*)?\)/g
 
-  content = content.replace(mdLink, (match, title, href, anchor) => {
+  content = content.replace(mdLink, (match, title, href, anchorRaw) => {
     if (match.startsWith('![')) return match
 
-    let cleanAnchor = ''
+    // Split anchor manually (this is the reliable part)
+    let [path, anchor] = href.split('#')
+
+    let cleanHref = sanitizeName(path.replace(/\.md$/, ''))
+    let url = `${basePath}${cleanHref}${uriSuffix}`
+
     if (anchor) {
-      cleanAnchor = anchorPrefix + sanitizeAssetname(anchor.slice(1))
+      url += anchorPrefix + sanitizeAssetname(anchor)
     }
 
-    let cleanHref = sanitizeName(href.replace('.md', ''))
-
-    return `[${title}](${basePath}${cleanHref}${uriSuffix}${cleanAnchor})`
+    return `[${title}](${url})`
   })
 
   return content
