@@ -9,7 +9,7 @@ prev: ./development
 
 # 2D matrix for x2many fields
 
-![icon_oca_app](../attachments/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
