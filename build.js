@@ -93,7 +93,6 @@ function convert(content, file) {
   const mdVideo = /(!\[.*\]\(.*\.(webm|mp4)\))/g
   let matches = content.match(mdVideo) || []
 
-  // Convert videos
   for (let i = 0; i < matches.length; i++) {
     let match = matches[i]
     let video = match.match(/!\[.*\]\((.*\..*)\)/)[1]
@@ -101,13 +100,10 @@ function convert(content, file) {
 
     content = content.replace(
       match,
-      `<video width="560" height="240" controls>
-        <source src="${basePathAttachments}${video}">
-      </video>`
+      `<video width="560" height="240" controls><source src="${basePathAttachments}${video}"></video>`
     )
   }
 
-  // Convert images
   const mdImage = /(!\[.*?\]\(attachments.*?\..*?\))/g
   matches = content.match(mdImage) || []
 
@@ -119,24 +115,19 @@ function convert(content, file) {
     content = content.replace(match, `![](${basePathAttachments}${image})`)
   }
 
-  // Convert links (FIXED)
   const mdLink = /\[((?:\!\[[^\]]*\]\([^)]+\))|[^\]]+)\]\((?!https:)([^)\s]+)(#[^\s)]*)?\)/g
 
   content = content.replace(mdLink, (match, title, href, anchor) => {
-    // Skip images
     if (match.startsWith('![')) return match
 
-    // Clean anchor (DO NOT append .html here)
     let cleanAnchor = ''
     if (anchor) {
-      cleanAnchor = '#' + sanitizeName(anchor.slice(1))
+      cleanAnchor = anchorPrefix + sanitizeAssetname(anchor.slice(1))
     }
 
-    // Clean href and ensure no .md remains
-    let cleanHref = sanitizeName(href.replace(/\.md$/, ''))
+    let cleanHref = sanitizeName(href.replace('.md', ''))
 
-    // Ensure .html is always applied BEFORE anchor
-    return `[${title}](${basePath}${cleanHref}.html${cleanAnchor})`
+    return `[${title}](${basePath}${cleanHref}${uriSuffix}${cleanAnchor})`
   })
 
   return content
