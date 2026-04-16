@@ -546,7 +546,8 @@ Sie können eine Kopie des Odoo Wiki erstellen und für eigene Zwecke nutzen. Eb
 
 Unterstützer des Odoo Wiki werden hier mit Logo aufgeführt:
 
-[![logo](attachments/logo.svg)](https://www.mint-system.ch/)
+<!-- [![logo](attachments/logo.svg)](https://www.mint-system.ch/) -->
+![logo](attachments/logo.svg)]
 
 Es sind Lösungen und Dokumente von diesen Anbieter enthalten:
 
