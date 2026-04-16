@@ -36,7 +36,7 @@ Die folgenden HowTos beschreiben die Basis-Funktionen von Odoo.
 
 ### [Abonnemente](Subscription.md)
 
-![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.png)
+[![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.png)](Subscription.md)
 
 Wiederkehrende Rechnungsstellung und Management von Abonnenten auf einfache Art und Weise.
 
