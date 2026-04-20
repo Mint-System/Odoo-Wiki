@@ -19,7 +19,7 @@ Website: <https://ventor.app/>
 Die Installations-Datei muss von der offiziellen der Seite https://ventor.app/your-account heruntergeladen werden.
 
 ::: tip
-Die über Google Play installierte Ventor-App ist funktional identisch. In dieser Version gibt es aber keinen Zugriff auf die Lizenzerwaltung.
+Die über Google Play installierte Ventor-App ist funktional identisch. In dieser Version gibt es aber keinen Zugriff auf die Lizenzerwaltung. Auf der anderen Seite ermöglicht diese Version eine 14 Tage Testperiode ohne Lizenz. (Stand April 2026)
 :::
 
 ## Konfiguration
