@@ -9,9 +9,9 @@ prev: ./management-system
 
 # Mgmt Asset HR
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `mgmt_asset_hr`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/18.0/mgmt_asset_hr>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/19.0/mgmt_asset_hr>

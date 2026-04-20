@@ -2,7 +2,7 @@
 title: Purchase Order Partner Incoterm
 description: Für jedem Partner die Incoterms festlegen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./purchase
 ---
 

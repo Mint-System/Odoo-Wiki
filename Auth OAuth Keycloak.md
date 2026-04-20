@@ -2,7 +2,7 @@
 title: Auth OAuth Keycloak
 description: Ermöglich Keycloak Integration mit Odoo OAuth.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./settings
 ---
 

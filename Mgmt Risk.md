@@ -2,7 +2,7 @@
 title: Mgmt Risk
 description: Verwaltung von ISO27001 Risiken.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./management-system
 ---
 
@@ -13,7 +13,7 @@ prev: ./management-system
 {{ $frontmatter.description }}
 
 Technischer Name: `mgmt_risk`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/17.0/mgmt_risk>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/19.0/mgmt_risk>
 
 ## Verwendung
 

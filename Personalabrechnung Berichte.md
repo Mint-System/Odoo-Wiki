@@ -16,9 +16,13 @@ prev: ./hr-payroll
 
 ### Bericht für Lohnabrechnung bestimmen
 
+Gilt bis #odoo17.
+
 Navigieren Sie nach _Personalabrechnung > Structures_ und wählen Sie hier eine Lohnstruktur aus. Im Feld _Bericht_ legen Sie den Standardbericht für diese Lohnstruktur fest.
 
 ### Rekapitulation Lohnabrechnung Mitarbeiter erstellen
+
+Gilt bis #odoo17.
 
 Öffnen Sie _Personalabrechnung > Berichtswesen > Lohnabrechnungszeilen_ und wechseln Sie in die Privot-Ansicht. Auf der X-Achse wählen Sie _Bis > Monat_ und auf der Y-Achse _Mitarbeiter > Name_. Zuletzt wählen Sie als Wert _Betrag_. Nun erhalten Sie eine Aufstellung der Lohnabrechnungszeilen für jeden Monat und Mitarbeiter.
 
@@ -33,6 +37,8 @@ Oder die Codes der Lohnarten nach _B_.
 ![](attachments/Personalabrechnung%20Berichte%20Lohnabrechnungszweilen%20Code%20B.png)
 
 ### Buchhaltung Lohn anzeigen
+
+Gilt bis #odoo17.
 
 Öffnen Sie _Buchhaltung > Berichtswesen > Hauptbuch_ und filtern die Journale nach dem Lohnjournal.
 

@@ -2,7 +2,7 @@
 title: Project Key Link Type
 description: Projektnummer anhand Projekttyp erstellen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./project
 ---
 

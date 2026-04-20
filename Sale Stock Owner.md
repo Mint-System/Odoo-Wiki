@@ -2,7 +2,7 @@
 title: Sale Stock Owner
 description: Kunde als Besitzer an Lieferungen und Beständen zuordnen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale-stock
 ---
 

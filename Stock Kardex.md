@@ -2,13 +2,13 @@
 title: Stock Kardex
 description: Kommunikation mit externem Kardex-Produktionssystem.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 
 # Stock Kardex
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 

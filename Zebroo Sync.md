@@ -2,8 +2,9 @@
 title: Zebroo Sync
 description: Umfassende Synchronisationslösung basierend auf Odoo.
 kind: howto
-partner: Thirdparty
+partner: Zebroo
 prev: ./
+extensions: true
 ---
 
 # Zebroo Sync

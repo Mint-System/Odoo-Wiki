@@ -4,6 +4,7 @@ description: Mehrere Marken für ihr Unternehmen präsentieren.
 kind: howto
 partner: OCA
 prev: ./
+extensions: true
 ---
 
 # Marke
@@ -13,7 +14,7 @@ prev: ./
 {{ $frontmatter.description }}
 
 Website: <https://github.com/OCA/brand>\
-Repository: <https://github.com/OCA/brand/tree/17.0/brand>
+Repository: <https://github.com/OCA/brand/tree/19.0/brand>
 
 ## Erweiterungen
 

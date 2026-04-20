@@ -9,12 +9,12 @@ prev: ./sale
 
 # Sale Restricted Qty
 
-![icon_oca_app](../attachments/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_restricted_qty`\
-Repository: <https://github.com/OCA/sale-workflow/tree/16.0/sale_restricted_qty>
+Repository: <https://github.com/OCA/sale-workflow/tree/17.0/sale_restricted_qty>
 
 ## Verwendung
 
@@ -24,3 +24,4 @@ Ein Produkt unter *Verkauf > Produkte > Produkte* anzeigen und den Tab *Verkauf*
 
 ::: tip
 Beachten Sie bei der Eingabe die Bereiche *Sale Min Qty* und *Sale Max Qty*.
+:::

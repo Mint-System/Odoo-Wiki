@@ -2,7 +2,7 @@
 title: Holzwirtschaft Zeiterfassung
 description: Erweiterung Zeiterfassung für die Holzwirtschaft.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./forestry-base
 ---
 

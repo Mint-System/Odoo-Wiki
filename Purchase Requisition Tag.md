@@ -2,7 +2,7 @@
 title: Purchase Requisition Tag
 description: Kaufverträge mit Stichwörter.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./purchase-requisition
 ---
 

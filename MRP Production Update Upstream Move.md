@@ -2,7 +2,7 @@
 title: MRP Production Update Upstream Move
 description: Aktualisiere offene Pickings von Fertigungsaufträgen bei Änderungen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./manufacture
 ---
 
@@ -13,7 +13,7 @@ prev: ./manufacture
 {{ $frontmatter.description }}
 
 Technischer Name: `mrp_production_update_upstream_move`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_production_update_upstream_move>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/mrp_production_update_upstream_move>
 
 ## Verwendung
 

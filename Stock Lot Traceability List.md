@@ -2,7 +2,7 @@
 title: Stock Lot Traceability List
 description: Daten aus Lieferverfolgungsbericht als Liste anzeigen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

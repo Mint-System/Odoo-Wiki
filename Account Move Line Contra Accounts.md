@@ -2,7 +2,7 @@
 title: Account Move Line Contra Accounts
 description: Gegenkontos auf Buchungszeilen anzeigen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./accounting
 ---
 

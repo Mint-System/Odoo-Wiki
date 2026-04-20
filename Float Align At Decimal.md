@@ -2,13 +2,13 @@
 title: Float align at decimal
 description: Formatiert Floats nach Anzahl der Dezimalstellen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./development
 ---
 
 # Float align at decimal
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 

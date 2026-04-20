@@ -2,7 +2,7 @@
 title: Purchase Order Line Price Default
 description: Standardpreis einer Einkaufsposition überschreiben.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./purchase
 ---
 

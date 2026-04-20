@@ -2,7 +2,7 @@
 title: Auth Impersonate User
 description: Mit einem anderen Benutzer einloggen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./settings
 ---
 
@@ -13,7 +13,7 @@ prev: ./settings
 {{ $frontmatter.description }}
 
 Technischer Name: `auth_impersonate_user`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/17.0/auth_impersonate_user>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/19.0/auth_impersonate_user>
 
 ## Konfiguration
 

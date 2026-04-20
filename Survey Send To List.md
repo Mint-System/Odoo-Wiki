@@ -2,7 +2,7 @@
 title: Survey Send To List
 description: Versand Umfrage an Mailing-Liste.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./mass-mailing
 ---
 

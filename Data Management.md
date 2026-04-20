@@ -3,7 +3,7 @@ title: Datenmanagement
 description: Importieren und Exportieren Sie alle Odoo Daten.
 kind: howto
 prev: ./
-partner: Mint-System
+partner: Mint System
 ---
 
 # Datenmanagement

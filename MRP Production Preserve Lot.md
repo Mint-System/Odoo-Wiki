@@ -2,7 +2,7 @@
 title: MRP Production Preserve Lot
 description: Los-Nummern bei Aufteilung von Fertigungsauftrag beibehalten.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./manufacture
 ---
 

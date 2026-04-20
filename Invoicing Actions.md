@@ -90,7 +90,7 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl _Aktion_ das Menu _
 
 ### Mahngebühren hinzufügen
 
-Mit dieser Aktion wird einer gebuchten Rechnung eine Mahngebühr hinzugefügt. Damit diese Aktion funktioniert, müssen Sie ein [Produkt Mahngebühren einrichten](Invoicing%20Reminder.md#Produkt%20Mahngebühren%20einrichten).
+Mit dieser Aktion wird einer gebuchten Rechnung eine Mahngebühr hinzugefügt. Damit diese Aktion funktioniert, müssen Sie ein [Produkt Mahngebühren einrichten](Invoicing%20followup.md#Produkt%20Mahngebühren%20einrichten).
 
 Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
@@ -204,6 +204,21 @@ for rec in records:
 ```
 
 ## Geplante Aktionen
+
+### Rechnungen automatisch senden
+
+Diese geplante Aktion versendet alle Rechnungen, die ...
+
+- gebucht sind
+- noch nicht versendet wurden
+
+Im Versandprozess wird die PDF-Datei erstellt. Wenn Rechnungen als E-Mail versendet werden, dann wird abhängig vom Rechnungstyp die E-Mail-Vorlage ausgewählt.
+
+- **Ausgangsrechnung**: Rechnung: Senden
+- **Ausgehende Rückerstattung**: Versand an Kunden mit der Gutschrift im Anhang
+- **Eingangsrechnungen**: Selbst-fakturierte Rechnung: Versand
+- **Eingehende Rückerstattung**: Selbst-fakturierte Gutschrift: Versand
+- 
 
 ### PDF-Datei von Kundenrechnungen vorbereiten
 

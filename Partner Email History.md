@@ -2,7 +2,7 @@
 title: Partner Email History
 description: Alle versendeten und empfangen E-Mails eines Kontakts anzeigen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./contacts
 ---
 

@@ -418,7 +418,7 @@ log(message)
 # }
 ```
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Lieferantenrechnung zur Prüfung markieren
 

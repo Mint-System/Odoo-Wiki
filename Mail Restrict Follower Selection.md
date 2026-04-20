@@ -3,7 +3,7 @@ title: Mail Restrict Follower Selection
 description: Auswahl der Follower einschränken.
 kind: howto
 partner: OCA
-prev: ./discuss
+prev: ./discuss-e-mail
 ---
 
 # Mail Restrict Follower Selection

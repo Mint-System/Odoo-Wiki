@@ -2,7 +2,7 @@
 title: Sale Blanket Order Reference
 description: Kundenreferenz von Rahmenauftrag auf den Verkaufsauftrag kopieren.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale-blanket-order
 ---
 
@@ -13,7 +13,7 @@ prev: ./sale-blanket-order
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_blanket_order_reference`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_blanket_order_reference>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_blanket_order_reference>
 
 ## Verwendung
 

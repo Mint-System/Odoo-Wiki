@@ -2,8 +2,8 @@
 title: Mail Thread Context
 description: Automatisches Abonnieren deaktiveren.
 kind: howto
-partner: Mint-System
-prev: ./discuss
+partner: Mint System
+prev: ./discuss-e-mail
 ---
 
 # Mail Thread Context

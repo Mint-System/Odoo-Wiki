@@ -2,7 +2,7 @@
 title: Product Pricelist Fixed Discount
 description: Festpreise in Preisliste mit Rabatt.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./product
 ---
 

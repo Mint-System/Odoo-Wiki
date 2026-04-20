@@ -2,7 +2,7 @@
 title: Purchase Order Subscription
 description: Wiederkehrende Bestellungen verwalten.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./purchase
 ---
 

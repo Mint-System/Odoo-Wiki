@@ -2,7 +2,7 @@
 title: MRP Suborder Sale Info
 description: In MTO-Workflows Verkaufsauftrag auf Child-Fertigungsaufträge übertragen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./manufacture
 ---
 

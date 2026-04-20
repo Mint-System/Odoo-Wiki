@@ -12,7 +12,7 @@ prev: ./purchase
 
 {{ $frontmatter.description }}
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Bestellfrist festlegen
 
@@ -27,7 +27,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Automation > Automatisierte Akt
 - Feld: `Order Deadline (purchase.order)`
 - Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Aktivität Rechnung prüfen für Käufer erstellen
 

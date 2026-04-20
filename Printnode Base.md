@@ -2,7 +2,7 @@
 title: Odoo Direct Print
 description: Jeden Odoo Bericht oder Etikette von überall nach überall drucken.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./iot
 ---
 

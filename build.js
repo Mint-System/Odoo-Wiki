@@ -90,13 +90,11 @@ function removeDuplicates(arr) {
 }
 
 function convert(content, file) {
-  // convert markdown video links
-  // ![](attachments/Video.webm) -> <video width="560" height="240" controls><source src="./video.webm"></video>
   const mdVideo = /(!\[.*\]\(.*\.(webm|mp4)\))/g
-  matches = content.match(mdVideo) || []
-  for (i = 0; i < matches.length; i++) {
-    let match = matches[i]
+  let matches = content.match(mdVideo) || []
 
+  for (let i = 0; i < matches.length; i++) {
+    let match = matches[i]
     let video = match.match(/!\[.*\]\((.*\..*)\)/)[1]
     video = sanitizeAssetname(video.replace(`${attachmentsFolder}/`, ''))
 
@@ -106,61 +104,34 @@ function convert(content, file) {
     )
   }
 
-  // convert markdown image links
-  // ![title](attachments/Image.png) -> ![](./image.png)
   const mdImage = /(!\[.*?\]\(attachments.*?\..*?\))/g
   matches = content.match(mdImage) || []
-  for (i = 0; i < matches.length; i++) {
-    let match = matches[i]
 
+  for (let i = 0; i < matches.length; i++) {
+    let match = matches[i]
     let image = match.match(/!\[.*\]\((.*\..*)\)/)[1]
     image = sanitizeAssetname(image.replace(`${attachmentsFolder}/`, ''))
 
     content = content.replace(match, `![](${basePathAttachments}${image})`)
   }
 
-  // convert markdown links
-  // [Title](Content%20Link.md#link to heading) -> [Title](content-link.html#link-to-heading)
-  // Ignore [![Title](Link)](Link) and ![title](attachments/Image.png) and [title](https:)
-  const mdLink = /(?<!!)(\[(?!!)[^\]]+\])(\((?!https:)[^)\s]+(?:#[^\s)]*)?\))/g
-  const mdHref = /.+\]\(([^\)|#]*)/
-  const mdTitle = /\[(.*)\]\(/
-  const mdAnchor = /#(.*)\)/
-  matches = content.match(mdLink) || []
-  for (i = 0; i < matches.length; i++) {
-    let match = matches[i]
+  const mdLink = /\[((?:\!\[[^\]]*\]\([^)]+\))|[^\]]+)\]\((?!https:)([^)\s]+)(#[^\s)]*)?\)/g
 
-    let href = match.match(mdHref)[1] || file
-    let title = match.match(mdTitle)[1]
-    let anchor = null
+  content = content.replace(mdLink, (match, title, href, anchorRaw) => {
+    if (match.startsWith('![')) return match
 
-    // set anchor
-    if (match.indexOf('#') > 0) {
-      anchor = match.match(mdAnchor)[1]
+    // Split anchor manually (this is the reliable part)
+    let [path, anchor] = href.split('#')
 
-      // sanitize anchor link
-      anchor = sanitizeAssetname(anchor)
+    let cleanHref = sanitizeName(path.replace(/\.md$/, ''))
+    let url = `${basePath}${cleanHref}${uriSuffix}`
+
+    if (anchor) {
+      url += anchorPrefix + sanitizeAssetname(anchor)
     }
 
-    // sanitize href
-    href = sanitizeName(href.replace('\.md', ''))
-
-    let mdLink = `[${title}](${basePath}${href}${uriSuffix}${anchor ? anchorPrefix + anchor : ''})`
-    content = content.replace(match, mdLink)
-  }
-
-  // convert include markdown links
-  // ![title](file.md) -> !!!include(file.md)!!!
-  const mdInclude = /(!\[.*?\]\(.*?\.md\))/g
-  matches = content.match(mdInclude) || []
-  for (i = 0; i < matches.length; i++) {
-    let match = matches[i]
-
-    let include = match.match(/!\[.*\]\((.*\.md)\)/)[1]
-    include = sanitizeName(include)
-
-    content = content.replace(match, `!!!include(${include})!!!`)
-  }
+    return `[${title}](${url})`
+  })
 
   return content
 }

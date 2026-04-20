@@ -9,9 +9,9 @@ prev: ./contacts
 
 # Partner Stage
 
-![icon_oca_app](../attachments/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: `partner_stage`\
-Repository: <https://github.com/OCA/Partner-Contact/tree/17.0/partner_stage>
+Repository: <https://github.com/OCA/Partner-Contact/tree/19.0/partner_stage>

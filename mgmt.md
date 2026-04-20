@@ -2,7 +2,7 @@
 title: Mgmt
 description: Risk Management by Mint System.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./management-system
 ---
 

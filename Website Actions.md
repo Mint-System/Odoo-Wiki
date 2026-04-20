@@ -55,7 +55,7 @@ log("Delete sale order carts: %s" %  delete_cart_ids.mapped("name"), level='info
 delete_cart_ids.unlink()
 ```
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Website Zahlungsreferenz entfernen
 

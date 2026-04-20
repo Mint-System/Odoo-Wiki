@@ -2,8 +2,8 @@
 title: Account Followup Hide Communication
 description: Spalte Kommunikation in Mahnbericht ausblenden.
 kind: howto
-partner: Mint-System
-prev: ./invoicing
+partner: Mint System
+prev: ./invoicing-followup
 ---
 
 # Account Followup Hide Communication

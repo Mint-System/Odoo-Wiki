@@ -2,7 +2,7 @@
 title: Sale Product Set Search
 description: Produktset anhand Name und Referenz suchen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale
 ---
 

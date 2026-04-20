@@ -4,6 +4,7 @@ description: Rahmenverträge für Verkäufe erstellen.
 kind: howto
 partner: OCA
 prev: ./
+extensions: true
 ---
 
 # Verkauf Rahmenverträge

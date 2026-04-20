@@ -41,22 +41,18 @@ Folgeaktion: `Python-Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
-# Bis Odoo 16.0
-for line in records.invoice_line_ids:
-  if line.subscription_id:
-    end_date = line.subscription_id.next_invoice_date - datetime.timedelta(days=1)
-    start_date = end_date - dateutil.relativedelta.relativedelta(years=line.subscription_id.recurrence_id.duration) + datetime.timedelta(days=1)
-    line["subscription_start_date"] = start_date
-    line["subscription_end_date"] = end_date
-    
-# Ab Odoo 16.0
 for line in records.invoice_line_ids.filtered(lambda line: line.product_id.recurring_invoice):
   if line.sale_line_ids:
     end_date = line.sale_line_ids[0].order_id.next_invoice_date - datetime.timedelta(days=1)
     # Get delta in years
-    delta_years = dateutil.relativedelta.relativedelta(years=line.sale_line_ids[0].order_id.recurrence_id.duration)
-    # Calcualte start date from end date
-    start_date = end_date - delta_years + datetime.timedelta(days=1)
+    recurrence_id = line.sale_line_ids[0].order_id.recurrence_id
+    duration = recurrence_id.duration
+    delta = dateutil.relativedelta.relativedelta(years=duration)
+    if recurrence_id.unit == "month":
+      delta = dateutil.relativedelta.relativedelta(months=duration)
+    # Calculate start date from end date
+    # raise UserError([end_date, delta_years])
+    start_date = end_date - delta + datetime.timedelta(days=1)
     line["subscription_start_date"] = start_date
     line["subscription_end_date"] = end_date
 ```
@@ -187,15 +183,13 @@ Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
 # Settings
-weeks_before_invoice_date = 3
-mail_template = "license_ocad_mail.mail_template_extend_subscription"
+weeks_before_invoice_date = 6
+mail_template = env.ref("license_ocad_mail.mail_template_extend_subscription")
+email_layout = "mail.mail_notification_layout_with_responsible_signature"
 default_price_list = "product.list0"
 
 # Get references
-template = env.ref(mail_template)
 pricelist_id = env.ref(default_price_list)
-stage_running_id = env.ref("sale_subscription.sale_subscription_stage_in_progress")
-stage_closed_id = env.ref("sale_subscription.sale_subscription_stage_closed")
 tag_id = env.ref("__custom__.tag_missing_mail")
 
 # Get resellers
@@ -207,37 +201,40 @@ extend_date = today + datetime.timedelta(weeks=weeks_before_invoice_date)
 
 # Search subscriptions
 extend_subscriptions = env["sale.order"].search([
-  # ("partner_id", "not in", reseller_ids.ids),
-  ("is_subscription", "=", True),
-  ("pricelist_id", "=", pricelist_id.id),
-  ("stage_id", "=", stage_running_id.id),
-  ("subscription_child_ids", "=", False),
-  ("state", "=", "sale"),
-  ("next_invoice_date", "<=", extend_date),
-  ("next_invoice_date", ">=", today),
-  ("license_count", ">", 0)
+    # ("partner_id", "not in", reseller_ids.ids),
+    ("is_subscription", "=", True),
+    ("pricelist_id", "=", pricelist_id.id),
+    ("subscription_state", "=", "3_progress"),
+    ("subscription_child_ids", "=", False),
+    ("state", "=", "sale"),
+    ("next_invoice_date", "<=", extend_date),
+    ("next_invoice_date", ">=", today),
+    ("license_count", ">", 0)
 ])
 
 # raise UserError([extend_subscriptions, extend_date])
 
 # Create and send renewal order
 for subscription in extend_subscriptions:
-  res = subscription.prepare_renewal_order()
-  res_id = res["res_id"]
-  renewal_so = env["sale.order"].browse(res_id)
-  if renewal_so.partner_id.email:
-    renewal_so.with_context(mark_so_as_sent=True, force_send=True).message_post_with_template(
-      template.id,
-      composition_mode="comment",
-      email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
-    )
-  else:
-    renewal_so["tag_ids"] = [tag_id.id]
-    env["helpdesk.ticket"].create({
-      "name": "Verlängerung: E-Mail fehlt",
-      "description": "Das Abonnement " + renewal_so.name + "konnte nich verlängert werden, weil der Kunde keine E-Mail-Adresse hat."
-    })
-  subscription.set_close()
+    try:
+        res = subscription.prepare_renewal_order()
+        res_id = res["res_id"]
+        renewal_so = env["sale.order"].browse(res_id)
+        composer = env['mail.compose.message'].with_context(
+            default_model='sale.order',
+            default_res_ids=[renewal_so.id],
+            default_template_id=mail_template.id,
+            default_composition_mode='comment',
+        ).create({})
+        composer.action_send_mail()
+        renewal_so.action_quotation_sent()
+    except:
+        renewal_so["tag_ids"] = [tag_id.id]
+        env["helpdesk.ticket"].create({
+            "name": "Verlängerung: Fehler bei Erneuerung",
+            "description": "Das Abonnement " + renewal_so.name + " konnte nicht verlängert werden, es ist ein Fehler entstanden."
+        })
+        subscription.set_close()
 ```
 
 ### Verkaufsabonnement: Reminder Verlängerung versenden
@@ -263,8 +260,8 @@ Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 ```python
 # Settings
 weeks_before_validity_date = 2
-mail_template = "__custom__.mail_template_reminder_extend_subscription"
-stage_draft_id = env.ref("sale_subscription.sale_subscription_stage_draft")
+mail_template = env.ref("__custom__.mail_template_reminder_extend_subscription")
+tag = env['crm.tag'].search([('name', '=', "Reminder Sent")], limit=1)
 
 # Get extend date
 today = datetime.datetime.today()
@@ -272,20 +269,30 @@ remind_date = (today + datetime.timedelta(weeks=weeks_before_validity_date)).dat
 
 # Search subscriptions
 remind_subscriptions = env["sale.order"].search([
-  ("is_subscription", "=", True),
-  ("state", "=", "sent"),
-  ("stage_id", "=", stage_draft_id.id),
-  ("validity_date", "=", remind_date),
-  ("license_count", ">", 0)
+    ("is_subscription", "=", True),
+    ("state", "=", "sent"),
+    ("subscription_state", "=", "2_renewal"),
+    ("validity_date", "=", remind_date),
+    ("license_count", ">", 0),
+    ("tag_ids", "not in", [tag.id])
 ])
 
-# raise UserError([remind_subscriptions, remind_date])
+# raise UserError([remind_subscriptions.mapped("name"), remind_subscriptions.mapped("validity_date")])
 
 # Create and send renewal order
 for subscription in remind_subscriptions:
-    subscription.message_post_with_template(
-      env.ref(mail_template).id,
-      composition_mode="comment",
-      email_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
-    )
+    try:
+        composer = env['mail.compose.message'].with_context(
+            default_model='sale.order',
+            default_res_ids=[subscription.id],
+            default_template_id=mail_template.id,
+            default_composition_mode='comment',
+        ).create({})
+        composer.action_send_mail()
+        subscription.write({'tag_ids': [(4, tag.id)]})
+    except:
+        env["helpdesk.ticket"].create({
+            "name": "Reminder: Fehler bei Versand",
+            "description": "Beim Versand des Reminder für Abonnement " + renewal_so.name + " ist ein Fehler entstanden."
+        })
 ```

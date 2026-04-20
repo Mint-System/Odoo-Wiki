@@ -2,7 +2,7 @@
 title: HR Holidays .ics Attachment
 description: An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr-holidays
 ---
 

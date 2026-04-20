@@ -2,7 +2,7 @@
 title: Stock Barcode Packaging
 description: Verpackung auf Strichcode-Vorgang anzeigen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

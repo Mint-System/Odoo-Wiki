@@ -2,7 +2,7 @@
 title: Purchase Sale Order Analytic Account
 description: Kostenstelle von verlinkten Verkaufsauftrag auf Bestellung übertragen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./purchase
 ---
 

@@ -2,7 +2,7 @@
 title: Board User ACL
 description: Zugriffsrechte auf Dashboards festlegen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./dashboards
 ---
 

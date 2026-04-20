@@ -9,7 +9,7 @@ prev: ./project
 
 # Project Task Add Very High
 
-![icon_oca_app](../attachments/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 

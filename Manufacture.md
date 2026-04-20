@@ -4,6 +4,7 @@ description: Eine moderne Lösung für ein altes Problem.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Fertigung

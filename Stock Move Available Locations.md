@@ -2,7 +2,7 @@
 title: Stock Move Available Locations
 description: Nur Lagerorte mit Besand in Auswahl anzeigen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

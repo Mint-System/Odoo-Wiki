@@ -4,6 +4,7 @@ description: Wartungs-Software für moderne Hersteller.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Wartung

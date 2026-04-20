@@ -2,7 +2,7 @@
 title: HR Vehicle Request
 description: Fahrzeuganfragen für Mitarbeitende verwalten.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr
 ---
 
@@ -37,7 +37,7 @@ Navigieren Sie nach _Personal > Fahrzeuganfrage > Fahrzeuganfrage_ und filtern S
 
 Öffnen Sie ihre _Fahrzeuganfrage_ unter Personal > Fahrzeuganfrage > Fahrzeuganfrage* und klicken Sie auf *Retournieren\*.
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Fahrzeuganfrage automatisch bestätigen
 

@@ -4,6 +4,7 @@ description: Stelleninserate verwalten.
 kind: howto
 partner: Sozialinfo
 prev: ./
+extensions: true
 ---
 
 # Job Portal

@@ -2,7 +2,7 @@
 title: Mgmt Base
 description: Basis für die Management-System Module.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./management-system
 ---
 

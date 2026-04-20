@@ -4,12 +4,12 @@ description: Kanäle können Datenmodell abonnieren und zeigen Benachrichtigunge
 kind: howto
 tags:
   - Mint-System
-prev: ./discuss
+prev: ./discuss-e-mail
 ---
 
 # Mail Channel Follow Model
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 

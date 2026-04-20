@@ -2,7 +2,7 @@
 title: Web Sync
 description: Daten mit Web-Requests empfangen und senden.
 kind: howto
-partner: Thirdparty
+partner: Zebroo
 prev: ./zebroo-sync
 ---
 

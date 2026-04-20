@@ -2,7 +2,7 @@
 title: Sale Order Notes
 description: Verkaufsaufträge mit Notizfelder.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale
 ---
 
@@ -13,7 +13,7 @@ prev: ./sale
 {{ $frontmatter.description }}
 
 Technischer Name: `sale_order_notes`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_order_notes>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/19.0/sale_order_notes>
 
 ## Verwendung
 

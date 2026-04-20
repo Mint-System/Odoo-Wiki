@@ -2,7 +2,7 @@
 title: Product Barcode Generator
 description: Autogenerate EAN13 product barcodes.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./product
 ---
 

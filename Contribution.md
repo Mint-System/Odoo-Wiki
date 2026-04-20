@@ -4,7 +4,7 @@ description: Das Odoo Wiki erweitern.
 tags:
   - Readme
 prev: ./
-partner: Mint-System
+partner: Mint System
 ---
 
 # Mitarbeit
@@ -75,12 +75,12 @@ Die Beschreibungen und Anleitungen sind ausführlich und kommen ohne Abkürzunge
 
 ### Navigations-Anweisungen
 
-Die Navigations-Anweisungen müssen genauso erstellt werden:
+Die Navigations-Anweisungen müssen ausgeschrieben und diesem Format erstellt werden:
 
 🟥 "Fertigung/Stammdaten/Stückliste"  
 ✅ "Navigieren Sie nach _Fertigung > Stammdaten > Stückliste_ und klicken Sie auf _+ Anliegen_."
 
-Pfade und Bezeichnungen werden kursiv geschrieben.
+Pfade und Bezeichnungen werden kursiv geschrieben:
 
 🟥 Drücken Sie auf "+ Anlegen"  
 ✅ Drücken Sie auf _+ Anlegen_
@@ -158,6 +158,8 @@ Diese Funktion wurde Teil von [Project Menu].
 ```
 
 ### Bilder
+
+Verwenden Sie so wenig Bilder wie möglich. Die Odoo Benutzer-Oberfläche ändert sich mit jeder Version. Text sind schneller angepasst als Bilder. 
 
 Bilder sind im optimal im PNG-Format und mit Auflösung 800x500 gespeichert.  
 Für Animationen kann das GIF-Format verwendet werden.

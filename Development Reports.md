@@ -30,12 +30,12 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Bordero                           | `/report/html/report/html/mint_system.stock.report_bordero.basis57/$ID`         |
 | Fertigungsauftrag                 | `/report/html/mrp.report_mrporder/$ID`                                          |
 | Kaufvertrag                       | `/report/html/purchase_requisition.report_purchaserequisitions/$ID`             |
+| Kommissionierung / Packvorgänge   | `/report/html/stock.report_picking/$ID`                                         |
 | Lieferschein                      | `/report/html/stock.report_deliveryslip/$ID`                                    |
 | Lieferschein (Aufgabe)            | `/report/html/forestry_timesheet.report_project_task_deliveryslip/$ID`          |
 | Lohnabrechnung                    | `/report/html/hr_payroll.report_payslip_lang/$ID`                               |
 | Mahnbericht                       | `/report/html/account_followup.report_followup_print_all/$ID`                   |
 | Mitarbeiterabrechnung             | `/report/html/bt_swissdec.report_payslip/$ID`                                   |
-| Kommissionierung / Packvorgänge   | `/report/html/stock.report_picking/$ID`                                         |
 | QR-Rechnung                       | `/report/html/l10n_ch.qr_report_main/$ID`                                       |
 | QR-Rechnung Header                | `/report/html/l10n_ch.qr_report_header/$ID`                                     |
 | Rahmenauftrag                     | `/report/html/sale_blanket_order.report_blanketorder/$ID`                       |
@@ -44,6 +44,9 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Rechnungen mit Zahlung            | `/report/html/account.report_invoice_with_payments/$ID`                         |
 | Vorschau externer Bericht         | `/report/html/web.preview_externalreport/$ID`                                   |
 | Vorschau interner Bericht         | `/report/html/web.preview_internalreport/$ID`                                   |
+| Zeiterfassung (Projekt)           | `/report/html/hr_timesheet.report_timesheet_project/$ID`                        |
+| Zeiterfassung (Rechnung)          | `/report/html/sale_timesheet.report_timesheet_account_move/$ID`                 |
+| Zeiterfassung (Verkauf)           | `/report/html/sale_timesheet.report_timesheet_sale_order/$ID`                   |
 | Zeitnachweis                      | `/report/html/account_sale_timesheet_report.timesheet_report/$ID`               |
 
 ::: tip
@@ -67,6 +70,15 @@ Wählen Sie den Bericht aus und notieren Sie den _Vorlagenname_ des Berichts.
 Nun haben Sie alle Elemente um den Bericht als HTML anzuzeigen. Geben Sie die folgende URL ein: /report/html/**stock.report_deliveryslip**/**3**
 
 ![](attachments/Entwicklung%20Bericht%20angezeigt.png)
+
+### Ansichten der Berichte anzeigen
+
+Wenn Sie [Ansichten anzeigen](Development%20Views.md#Ansichten%20anzeigen), geben Sie diesen Filter ein:
+
+
+```python
+["|", "|", "|", ("key", "=", "sale.report_saleorder_document"), ("key", "=", "account.report_invoice_document"), ("key", "=", "web.external_layout_standard"), ("key", "=", "mail.mail_notification_layout")]
+```
 
 ## Verwaltung
 

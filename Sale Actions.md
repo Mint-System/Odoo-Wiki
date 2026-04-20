@@ -18,6 +18,8 @@ prev: ./sale
 
 ### Auf Erledigt setzen
 
+Gilt bis #Odoo16.
+
 Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Auf Erledigt setzen`\
@@ -34,6 +36,25 @@ for record in records:
 ```
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speichern.
+
+### Auftrag sperren
+
+Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Auftrag sperren`\
+Modell: `sale.order`
+Folgeaktion: `Python-Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+
+```python
+for record in records:
+	record.write({
+	  'locked': True
+	})
+```
+
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 ### Als Anzahlung markieren
 
@@ -309,7 +330,7 @@ log(message)
 # }
 ```
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Angebot bestätigen und Rechnungen erstellen
 
@@ -398,7 +419,7 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Akt
 
 | Feld              | Bewertungstyp | Datensatz |
 | ----------------- | ------------- | --------- |
-| `payment_term_id` | Referenz      | 21 Tage   |
+| `payment_term_id` | Referenz      | 30 Tage   |
 
 ### Verkäufer entfernen
 

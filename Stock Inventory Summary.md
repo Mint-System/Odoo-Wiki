@@ -2,7 +2,7 @@
 title: Stock Inventory Summary
 description: Lagerbestand gruppiert nach Lagerort und Produkt.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 
@@ -13,7 +13,7 @@ prev: ./stock
 {{ $frontmatter.description }}
 
 Technischer Name: `stock_inventory_summary`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/16.0/stock_inventory_summary>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_inventory_summary>
 
 ## Verwendung
 

@@ -4,6 +4,7 @@ description: Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Website

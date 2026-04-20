@@ -2,7 +2,7 @@
 title: Sale Order Project Key
 description: Angebotsname aus verlinkter Projektnummer generieren.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale
 ---
 

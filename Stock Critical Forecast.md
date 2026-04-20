@@ -2,7 +2,7 @@
 title: Stock Critical Forecast
 description: Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzeigen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

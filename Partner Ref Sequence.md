@@ -2,7 +2,7 @@
 title: Partner Ref Sequence
 description: Automatische Vergabe der Kontakt-Referenz.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./contacts
 ---
 

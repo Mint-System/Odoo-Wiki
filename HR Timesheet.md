@@ -4,6 +4,7 @@ description: Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Zeiterfassung

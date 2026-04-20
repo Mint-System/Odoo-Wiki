@@ -2,7 +2,7 @@
 title: MRP Production Assign Lot
 description: Los aus eingehenden Lagerbuchungen an unreservierte Komponenten zuweisen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./manufacture
 ---
 

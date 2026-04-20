@@ -2,7 +2,7 @@
 title: MRP Production Generate Lot
 description: Los für zu fertigende Produkte automatisch generieren.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./manufacture
 ---
 

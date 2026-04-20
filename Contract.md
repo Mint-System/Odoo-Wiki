@@ -25,6 +25,7 @@ Repository: <https://github.com/OCA/contract/tree/17.0/contract>
 | [Contract Sale](Contract%20Sale.md)                                 | Zugriff auf Verträge für Verkaufsmitarbeitende.               |
 | [Product Contract](Product%20Contract.md)                           | Verknüpfung von Verkaufsaufträgen mit Kundenverträgen (OCA).  |
 | [Subscription OCA](Subscription%20OCA.md)                           | OCA-Alternative für Abonnemente.                              |
+| [Subscription OCA Section](Subscription%20OCA%20Section.md)         | Notizen und Abschnitte für Abonnements-Posten. 
 
 ## Verwendung
 

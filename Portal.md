@@ -4,6 +4,7 @@ description: Kunden mit Odoo verbinden.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Portal
@@ -11,6 +12,13 @@ partner: Odoo S.A.
 ![](attachments/icons_odoo_website_membership.png)
 
 {{ $frontmatter.description }}
+
+## Erweiterungen
+
+| Erweiterung                                           | Beschreibung                                                             |
+| ----------------------------------------------------- | ------------------------------------------------------------------------ |
+| [Auth Signup Firstname](Auth%20Signup%20Firstname.md) | Ermöglicht die Angabe von Vorname und Nachname im Registrierungsprozess. |
+
 
 ## Abonnements
 

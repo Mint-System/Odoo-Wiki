@@ -2,7 +2,7 @@
 title: HR Attendance User ACL
 description: Zugriff auf Anwesenheiten für Benutzer steuern.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./hr-holidays
 ---
 
@@ -14,6 +14,12 @@ prev: ./hr-holidays
 
 Technischer Name: `hr_attendance_user_acl`\
 Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_attendance_user_acl>
+
+## Beschreibung
+
+Diese Erweiterung stellt eine neeu Gruppe "Anwesenheiten / Benutzer" zur verfügung. Benutzer dieser Gruppe können 
+
+Gilt ab #Odoo18: Die Absenzen-Kontrolle wird nur für Benutzer dieser Gruppe ausgeführt. 
 
 ## Verwendung
 

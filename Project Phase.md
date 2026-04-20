@@ -2,7 +2,7 @@
 title: Project Phase
 description: Projektaufgaben mit Projektphasen verwalten.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./project
 ---
 
@@ -23,4 +23,4 @@ Navigieren Sie nach _Projekt > Project Phases > Project Phases_ und wählen Sie 
 
 ### Aufgabe an Phase zuordnen
 
-Wenn Sie [Aufgaben anzeigen](Project.md#Aufgaben%20anzeigen) und eine Aufgabe öffnen, sehen Sie neu das Feld _Projekt Phase_. Wählen Sie eine passende Projektphase aus.
+Wenn Sie [Aufgaben anzeigen](Project.md#Aufgaben%20anzeigen) und eine Aufgabe öffnen, sehen Sie das Feld _Projekt Phase_. Wählen Sie eine passende Projektphase aus.

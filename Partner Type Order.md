@@ -2,7 +2,7 @@
 title: Partner Type Order
 description: Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./contacts
 ---
 

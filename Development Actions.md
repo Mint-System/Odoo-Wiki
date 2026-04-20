@@ -194,7 +194,7 @@ Mit diesem Knopf können Sie den E-Mail-Dialog öffnen.
 
 ![Entwicklung Aktionen Compose E-Mail](attachments/Entwicklung%20Aktionen%20Compose%20E-Mail.gif)
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Beim Aktualisieren eine Validierung ausführen
 

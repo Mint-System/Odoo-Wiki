@@ -4,11 +4,12 @@ description: Odoo Datenbanken verwalten.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Datenbank
 
-![icons_odoo_apps](attachments/icons_odoo_apps.png)
+![icons_odoo_databases](attachments/icons_odoo_databases.png)
 
 {{ $frontmatter.description }}
 
@@ -182,3 +183,21 @@ Deaktivieren Sie die Synchronisation mit dem Lizenzserver nur auf Testumgebungen
 Ein temporärer Benutzer ist für Externe beispielsweise Finanz-Auditoren bestimmt, die nur für eine bestimmte Zeit Zugriff auf das Odoo System brauchen. Aktive Benutzer auf Odoo Enterprise müssen innerhalb von 30 Tagen lizenziert werden.
 
 Teilen Sie ihrem Odoo Kontakt mit, dass ein neuer aktiver Benutzer erstellt wird und dieser nur temporär zum Einsatz kommt. Der Odoo Kontakt kann die Lizenzprüfung für die gewünschte Zeit unterbrechen. Nach Ablauf der Zeitspanne archivieren Sie den Benutzer. Sie können den Benutzer zu einem späteren Zeitpunkt beispielsweise im Falle einer jährlichen Finanzprüfung wieder aktivieren und den Vorgang wiederholen.
+
+## Ansichten
+
+### Ansicht Anhänge erstellen
+
+Damit Sie eine Übersicht der Anhänge erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+
+Name der Aktion: `Attachments`\
+Objekt: `ir.attachments`\
+Ansichtsmodus: `tree,form`\
+Menü: `Anhänge`\
+Obermenü: `Einstellungen/Technisch/Dialog`\
+Aktion: `ir.actions.act_window` `Attachments`\
+Nummernfolge: `10`
+
+Das Ergebnis sollte so aussehen:
+
+![](attachments/Entwicklung%20Ansicht%20Anhänge.png)

@@ -2,13 +2,13 @@
 title: Web Font Dobra Book
 description: Fügt Schriftart Dobro Book der Auswahl hinzu.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./web
 ---
 
 # Web Font Dobra Book
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 

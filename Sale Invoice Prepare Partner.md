@@ -2,7 +2,7 @@
 title: Sale Invoice Prepare Partner
 description: Kontakte aus Verkaufsauftrag auf Rechnung kopieren.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./invoicing
 ---
 

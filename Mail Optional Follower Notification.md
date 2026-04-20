@@ -3,7 +3,7 @@ title: Mail Optional Follower Notification
 description: Auswahl Nachrichen an Abonnenten verschicken.
 kind: howto
 partner: OCA
-prev: ./discuss
+prev: ./discuss-e-mail
 ---
 
 # Mail Optional Follower Notification

@@ -2,7 +2,7 @@
 title: Sale Order Partner Membership
 description: Kontaktperson Mitgliedschaft auf Verkaufsauftrag festlegen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale
 ---
 

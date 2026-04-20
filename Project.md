@@ -4,6 +4,7 @@ description: Agiles Projektmanagement. Schön. Einfach. Open Source.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Projekt

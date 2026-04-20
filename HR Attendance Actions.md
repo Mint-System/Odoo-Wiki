@@ -173,23 +173,6 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 In der Listenansicht der Anwesenheiten erscheint nun in der Auswahl _Aktion_ das Menu _Überstunden aktualisieren_.
 
-### Gleitzeitsaldo aktualisieren
-
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
-
-Name der Aktion: `Gleitzeitsaldo aktualisieren`\
-Modell: `hr.employee`\
-Folgeaktion: `Python-Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
-
-```python
-for rec in records:
-  rec.attendance_ids._update_overtime()
-```
-
-Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
-
 ## Geplante Aktionen
 
 ### Überstunden entfernen
@@ -259,4 +242,32 @@ attendances = env['hr.attendance'].search([
 ])
 
 attendances._update_overtime()
+```
+
+## Automatische Aktionen
+
+### Urlaubsanspruch Überstunden aktualisieren
+
+Mit dieser Aktion wird der Anspruch der Abwesenheitsart mit der externen ID `__custom__.holiday_status_extra_hours` beim Erstellen und Aktualisieren der Anwesenheit aktualisiert.
+
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+
+- **Name der Aktion**: `Urlaubsanspruch Überstunden aktualisieren`
+- **Modell**: `hr.attendance`
+- **Auslöser**: Beim Erstellen und Aktualisieren
+- **Folgeaktionen**:
+	- **Python-Code ausführen**:
+
+```python
+holiday_status_id = env.ref('__custom__.holiday_status_extra_hours')
+
+for rec in records:
+    allocation_id = env['hr.leave.allocation'].search([
+        ('employee_id','=',rec.employee_id.id),
+        ('holiday_status_id', '=', holiday_status_id.id)
+    ], limit=1)
+    # raise UserError([rec.employee_id.total_overtime, rec.employee_id.total_overtime/8 ,allocation_id.number_of_days])
+    number_of_days = rec.employee_id.total_overtime/8
+    if allocation_id.number_of_days < number_of_days:
+        allocation_id.write({'number_of_days': number_of_days})
 ```

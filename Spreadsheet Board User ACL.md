@@ -2,7 +2,7 @@
 title: Spreadsheet Board User ACL
 description: Zugriffsrechte auf Spreadsheet Dashboards festlegen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./dashboards
 ---
 

@@ -2,7 +2,7 @@
 title: Account Reports Hide Ref
 description: Zahlungsreferenz in Spalte Kommunikation in Finanzberichten ausblenden.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./accounting
 ---
 

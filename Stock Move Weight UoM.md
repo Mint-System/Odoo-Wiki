@@ -2,7 +2,7 @@
 title: Stock Move Weight UoM
 description: Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

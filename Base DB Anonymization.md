@@ -2,7 +2,7 @@
 title: Base DB Anonymization
 description: Inhalt von ausgewählten Datenbank-Felder anonmyisieren.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./database
 ---
 

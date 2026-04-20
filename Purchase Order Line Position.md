@@ -2,7 +2,7 @@
 title: Purchase Order Line Position
 description: Einkaufsaufträge mit Positionsnummern.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./order-positions
 ---
 
@@ -13,7 +13,7 @@ prev: ./order-positions
 {{ $frontmatter.description }}
 
 Technischer Name: `purchase_order_line_position`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.0/purchase_order_line_position>
+Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/19.0/purchase_order_line_position>
 
 ## Verwendung
 

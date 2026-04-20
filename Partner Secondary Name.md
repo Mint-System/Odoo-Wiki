@@ -2,7 +2,7 @@
 title: Partner Secondary Name
 description: Zweitname für Unternehmen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./contacts
 ---
 
