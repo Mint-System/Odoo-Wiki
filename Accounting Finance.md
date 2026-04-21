@@ -133,6 +133,10 @@ Entfernen Sie den Steuersatz in der Spalte _Steuern_, wenn Sie keine Mehrwertste
 
 Im Dialog _Buchhaltung > Buchhaltung > Aktionen > Sperrdaten_ können Sie Sperrdaten für die Geschäfts- und Steuerperiode definieren.
 
+::: warning
+In #Odoo19  gibt es neu ein Sperrdatum für das gesamte Jahr, das durch den Benutzen nicht rückgängig gemacht werden kann. 
+:::
+
 ![](attachments/Buchhaltung%20Sperrdatum%20festlegen.png)
 
 ## Kontenplan
