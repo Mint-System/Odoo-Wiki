@@ -4,7 +4,7 @@ description: Zeige Zeitraum und Projektname auf Bericht Zeiterfassung.
 kind: howto
 tags:
   - Mint-System
-prev: ./sale
+prev: ./sale-timesheet
 ---
 
 # Sale Timesheet Report Project Details

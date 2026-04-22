@@ -17,15 +17,15 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 
 ## Bereiche
 
-| Bereich                                   | Beschreibung                                                  |
-| ----------------------------------------- | ------------------------------------------------------------- |
-| [Verkauf Abrechnung](Sale%20Invoicing.md) | Verkaufsaufträge unkompliziert abrechnen.                     |
-| [Verkauf Aktionen](Sale%20Actions.md)     | Arbeitsflüsse im Verkauf automatisieren.                      |
-| [Verkauf Berichte](Sale%20Reports.md)     | Verkaufsdaten immer aktuell.                                  |
-| [Verkauf Lager](Sale%20Stock.md)          | Lieferungen aus Verkaufsaufträge erstellen.                   |
-| [Verkauf Preise](Sale%20Price.md)         | Produkte, Preislisten und Varianten zentral pflegen.          |
-| [Verkauf Projekt](Sale%20Project.md)      | Dienstleistungen mit Verkauf und Projekt abwickeln.           |
-| [Verkauf Treue](Sale%20Loyalty.md)        | Kundentreue mit Rabatten, Coupons und Geschenkkarten belohnen. |
+| Bereich                                      | Beschreibung                                                       |
+| -------------------------------------------- | ------------------------------------------------------------------ |
+| [Verkauf Abrechnung](Sale%20Invoicing.md)    | Verkaufsaufträge unkompliziert abrechnen.                          |
+| [Verkauf Aktionen](Sale%20Actions.md)        | Arbeitsflüsse im Verkauf automatisieren.                           |
+| [Verkauf Berichte](Sale%20Reports.md)        | Verkaufsdaten immer aktuell.                                       |
+| [Verkauf Lager](Sale%20Stock.md)             | Lieferungen aus Verkaufsaufträge erstellen.                        |
+| [Verkauf Preise](Sale%20Price.md)            | Produkte, Preislisten und Varianten zentral pflegen.               |
+| [Verkauf Treue](Sale%20Loyalty.md)           | Kundentreue mit Rabatten, Coupons und Geschenkkarten belohnen.     |
+| [Verkauf Zeiterfassung](Sale%20Timesheet.md) | Dienstleistungen mit Verkauf, Projekt und Zeiterfassung abwickeln. |
 
 ## Erweiterungen
 
@@ -66,14 +66,8 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                                       | Produktset mit Notizen und Abschnitten.                                       |
 | [Sale Product Set Search](Sale%20Product%20Set%20Search.md)                                       | Produktset anhand Name und Referenz suchen.                                   |
 | [Sale Product Set](Sale%20Product%20Set.md)                                                       | Produktsets definieren und einfach hinzufügen.                                |
-| [Sale Project Key](Sale%20Project%20Key.md)                                                       | Projekt-Nummer in Listenansicht von Verkaufsaufträgen anzeigen.               |
-| [Sale Project Link](Sale%20Project%20Link.md)                                                     | Bestehendes Projekt mit Angebot verlinken.                                    |
-| [Sale Project Phase Estimate](Sale%20Project%20Phase%20Estimate.md)                               | Verlinkt Auftragszeilen mit Schätzungen von Projektphasen.                    |
 | [Sale Restricted Qty](Sale%20Restricted%20Qty.md)                                                 | Mindest- und Maximalbestellmenge für Produkte festlegen.                      |
 | [Sale Start End Dates](Sale%20Start%20End%20Dates.md)                                             | Fügt dem Verkaufsauftrag ein Start- und Enddatum hinzu.                       |
-| [Sale Timesheet Estimate Report](Sale%20Timesheet%20Estimate%20Report.md)                         | Übersicht der Projektschätzungen auf Bericht Zeiterfassung anzeigen.          |
-| [Sale Timesheet Report Group Invoice Type](Sale%20Timesheet%20Report%20Group%20Invoice%20Type.md) | Gruppiert die Zeilen im Bericht Zeiterfassung nach Abrechnungstyp.            |
-| [Sale Timesheet Report Project Details](Sale%20Timesheet%20Report%20Project%20Details.md)         | Zeige Zeitraum und Projektname auf Bericht Zeiterfassung.                     |
 | [Sale Triple Discount](Sale%20Triple%20Discount.md)                                               | Mehrere Rabatte auf der Auftragszeile.                                        |
 
 ## Produkte

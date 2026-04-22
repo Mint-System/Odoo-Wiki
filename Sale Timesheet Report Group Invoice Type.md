@@ -4,7 +4,7 @@ description: Gruppiert die Zeilen im Bericht Zeiterfassung nach Abrechnungstyp.
 kind: howto
 tags:
   - Mint-System
-prev: ./sale
+prev: ./sale-timesheet
 ---
 
 # Sale Timesheet Report Group Invoice Type

@@ -4,7 +4,7 @@ description: Übersicht der Projektschätzungen auf Bericht Zeiterfassung anzeig
 kind: howto
 tags:
   - Mint-System
-prev: ./sale
+prev: ./sale-timesheet
 ---
 
 # Sale Timesheet Estimate Report

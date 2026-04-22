@@ -4,7 +4,7 @@ description: Verlinkt Auftragszeilen mit Schätzungen von Projektphasen.
 kind: howto
 tags:
   - Mint-System
-prev: ./sale
+prev: ./sale-timesheet
 ---
 
 # Sale Project Phase Estimate

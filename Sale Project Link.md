@@ -4,7 +4,7 @@ description: Bestehendes Projekt mit Angebot verlinken.
 kind: howto
 tags:
   - Mint-System
-prev: ./sale
+prev: ./sale-timesheet
 ---
 
 # Sale Project Link
