@@ -2,8 +2,7 @@
 title: Project Menu
 description: Projekte über Navigation aufrufen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./project
 ---
 

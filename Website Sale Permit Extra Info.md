@@ -2,8 +2,7 @@
 title: Website Sale Permit Extra Info
 description: Zusätzliche Informationen bei Checkout abfragen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./website-e-commerce
 ---
 

@@ -2,8 +2,7 @@
 title: Sale Timesheet Billable Price
 description: Abrechenbarkeit basierend auf Preis der Auftragszeile festlegen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./hr-timesheet
 ---
 

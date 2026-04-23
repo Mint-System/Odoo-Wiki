@@ -2,8 +2,7 @@
 title: Sale Timesheet Estimate Report
 description: Übersicht der Projektschätzungen auf Bericht Zeiterfassung anzeigen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./sale-timesheet
 ---
 

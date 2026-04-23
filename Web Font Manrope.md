@@ -2,8 +2,7 @@
 title: Web Font Manrope
 description: Fügt Schriftart Manrope der Auswahl hinzu.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./web
 ---
 

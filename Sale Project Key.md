@@ -2,8 +2,7 @@
 title: Sale Project Key
 description: Projekt-Nummer in Listenansicht von Verkaufsaufträgen anzeigen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./sale-timesheet
 ---
 

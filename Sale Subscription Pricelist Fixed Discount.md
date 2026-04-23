@@ -2,8 +2,7 @@
 title: Sale Subscription Pricelist Fixed Discount
 description: Stellt die Rabatt-Funktion für Abonnment wieder her.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./subscription
 ---
 

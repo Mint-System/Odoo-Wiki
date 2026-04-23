@@ -2,8 +2,7 @@
 title: Sale CRM Note
 description: Notiz von Lead auf Angebot übertragen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./crm
 ---
 

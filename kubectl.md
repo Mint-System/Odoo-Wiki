@@ -2,7 +2,8 @@
 title: kubectl
 description: Kubernetes-Konfigurationen verwalten.
 kind: howto
-prev: ./mint-cloud
+partner: Mint System
+prev: ./kubernetes
 ---
 
 # kubectl

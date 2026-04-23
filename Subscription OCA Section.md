@@ -2,8 +2,7 @@
 title: Subscription OCA Section
 description: Ermöglicht  das Hinzufügen von Notizen und Abschnitten zu den Posten eines Abonnements (Subscription).
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./contract
 ---
 

@@ -2,8 +2,7 @@
 title: Sale Order Permit
 description: Verkauf von Patenten
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./sale
 ---
 

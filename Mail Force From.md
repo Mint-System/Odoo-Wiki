@@ -2,8 +2,7 @@
 title: Mail Force From
 description: Absender-Adressen für ausgewählte Modelle forcieren.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./discuss-e-mail
 forge: github.com
 repo: Mint-System/Odoo-Apps-Server-Tools

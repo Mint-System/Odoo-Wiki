@@ -2,9 +2,8 @@
 title: Kubectl Contacts
 description: Consulting Partner in Kontakte verwalten.
 kind: howto
-tags:
-  - Mint-System
-prev: ./mint-cloud
+partner: Mint System
+prev: ./kubernetes
 ---
 
 # Kubectl Contacts

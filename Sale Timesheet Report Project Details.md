@@ -2,8 +2,7 @@
 title: Sale Timesheet Report Project Details
 description: Zeige Zeitraum und Projektname auf Bericht Zeiterfassung.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./sale-timesheet
 ---
 

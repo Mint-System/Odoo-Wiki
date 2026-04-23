@@ -2,8 +2,7 @@
 title: Web Font Calibri
 description: Fügt Schriftart Calibri der Auswahl hinzu.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./web
 ---
 

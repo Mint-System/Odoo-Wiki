@@ -2,8 +2,7 @@
 title: Website Sale Permit Extra Info
 description: Extra-Seite für den Webshop beim Verkauf von zeitlich befristeten Patenten
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./website
 ---
 

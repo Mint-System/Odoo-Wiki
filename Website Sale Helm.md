@@ -3,7 +3,7 @@ title: Website Sale Helm
 description: Services über Webshop verkaufen.
 kind: howto
 partner: Mint System
-prev: ./mint-cloud
+prev: ./kubernetes
 ---
 
 # Website Sale Helm

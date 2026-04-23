@@ -2,8 +2,7 @@
 title: Account Move Send Check
 description: Zeigt Hinweis ob Rechnung versendet wird oder wurde in Senden-Dialog.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./invoicing
 ---
 

@@ -2,8 +2,7 @@
 title: Mgmt Asset Product
 description: Asset-Owner auf Produkte festlegen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./management-system
 ---
 

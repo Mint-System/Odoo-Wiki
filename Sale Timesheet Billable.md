@@ -2,8 +2,7 @@
 title: Sale Timesheet Billable
 description: Auswahl-Filter für Auftragszeilen mit verrechenbaren Produkten auf Zeiterfassungseinträgen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./sale-timesheet
 forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow

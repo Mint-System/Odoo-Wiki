@@ -2,9 +2,8 @@
 title: Helm Portal
 description: Helm Release in Portal verwalten.
 kind: howto
-tags:
-  - Mint-System
-prev: ./mint-cloud
+partner: Mint System
+prev: ./kubernetes
 ---
 
 # Helm Portal

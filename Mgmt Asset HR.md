@@ -2,8 +2,7 @@
 title: Mgmt Asset HR
 description: Asset-Owner für Mitarbeitende festlegen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./management-system
 ---
 

@@ -2,8 +2,7 @@
 title: HR Employee Paid Out Overtime Report
 description: Bericht Mitarbeitende mit ausbezahlten Überstunden.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./hr
 ---
 

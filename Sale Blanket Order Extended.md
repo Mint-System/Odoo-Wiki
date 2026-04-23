@@ -2,8 +2,7 @@
 title: Sale Blanket Order Extended
 description: Kopiert zusätzliche Felder vom Rahmen- zum Verkaufsaufrtag.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./sale-blanket-order
 ---
 

@@ -2,8 +2,7 @@
 title: Auth Signup Firstname
 description: Ermöglicht die Angabe von Vorname und Nachname im Registrierungsprozess.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./web
 ---
 

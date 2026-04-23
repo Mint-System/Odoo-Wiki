@@ -2,8 +2,7 @@
 title: Sale Order Ref
 description: Interne Referenz für Verkaufsauftrag festlegen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./sale
 ---
 

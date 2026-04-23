@@ -2,8 +2,7 @@
 title: Sale Project Link
 description: Bestehendes Projekt mit Angebot verlinken.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./sale-timesheet
 ---
 

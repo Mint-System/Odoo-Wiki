@@ -2,8 +2,7 @@
 title: Product Putaway Final Location
 description: Falls eine Einlagerungsregel existiert, wird der finale Lagerort angezeigt.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./product
 ---
 

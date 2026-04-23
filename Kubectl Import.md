@@ -2,9 +2,8 @@
 title: Kubectl Import
 description: Daten aus Kubernetes Cluster importieren.
 kind: howto
-tags:
-  - Mint-System
-prev: ./mint-cloud
+partner: Mint System
+prev: ./kubernetes
 ---
 
 # Kubectl Import

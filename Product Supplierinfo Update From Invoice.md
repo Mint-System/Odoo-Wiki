@@ -2,8 +2,7 @@
 title: Product Supplierinfo Update From Invoice
 description: Aktualisiert den Lieferantenpreis des Produkts mit dem in einer Lieferantenrechnung aktualisierten Preis
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./purchase
 ---
 

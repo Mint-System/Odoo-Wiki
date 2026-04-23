@@ -458,6 +458,12 @@ Stelleninserate verwalten.
 
 Rechtsberatungen mit Kunden und Experten abwickeln.
 
+### [Kubernetes](Kubernetes.md)
+
+[![icons_odoo_server](attachments/icons_odoo_server.png)](Kubernetes.md)
+
+Kubernetes Cluster mit Odoo integrieren.
+
 ### [Lizenz](License.md)
 
 [![](attachments/odoo_icons_license.png)](License.md)

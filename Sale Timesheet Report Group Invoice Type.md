@@ -2,8 +2,7 @@
 title: Sale Timesheet Report Group Invoice Type
 description: Gruppiert die Zeilen im Bericht Zeiterfassung nach Abrechnungstyp.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./sale-timesheet
 ---
 

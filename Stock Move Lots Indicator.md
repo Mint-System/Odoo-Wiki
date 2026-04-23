@@ -2,8 +2,7 @@
 title: Stock Move Lots Indicator
 description: Zeigt an, ob für ein getracktes Produkt auf dem Picking bereits Serien- oder Chargennummern festgelegt wurden.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

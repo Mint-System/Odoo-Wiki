@@ -2,8 +2,7 @@
 title: Snippet Manager
 description: Installation und Aktualisierung von vererbten Ansichten.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./development
 ---
 

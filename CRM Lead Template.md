@@ -2,8 +2,7 @@
 title: CRM Lead Template
 description: Lead Notizen von Vorlage aktualisieren.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./crm
 ---
 

@@ -2,8 +2,7 @@
 title: Sale Subscription Billing Period Display
 description: Zeigt die Laufzeit von Abonnements auf Rechnungen mit korrektem Singular/Plural der Zeiteinheit an.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./subscription
 ---
 

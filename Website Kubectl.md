@@ -2,9 +2,8 @@
 title: Website Kubectl
 description: Kubernetes Cluster auf Website präsentieren.
 kind: howto
-tags:
-  - Mint-System
-prev: ./mint-cloud
+partner: Mint System
+prev: ./kubernetes
 ---
 
 # Website Kubectl

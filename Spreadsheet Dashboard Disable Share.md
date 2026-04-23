@@ -2,8 +2,7 @@
 title: Spreadsheet Dashboard Disable Share
 description: Das Teilen von Dashboards deaktivieren.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./spreadsheets
 ---
 

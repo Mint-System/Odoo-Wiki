@@ -2,8 +2,7 @@
 title: Sale Subscription Invoice Draft
 description: Stellt sicher, dass Rechnungen aus Abonnements nicht gebucht werden.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./subscription
 ---
 

@@ -2,8 +2,7 @@
 title: Website Form Check
 description: Überprüft Formulardaten und leitet Benutzer bei einem Treffer um.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./website
 ---
 

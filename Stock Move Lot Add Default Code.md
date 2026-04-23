@@ -2,8 +2,7 @@
 title: Stock Move Lot Add Default Code
 description: Fügt einer Serien- oder Chargennummer die Referenz (default code) des Produkts hinzu.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./stock
 ---
 

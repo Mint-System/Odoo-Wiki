@@ -2,8 +2,7 @@
 title: Mgmt Asset Maintenance
 description: Asset-Owner für Ausrüstungen und Kategorien festlegen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./management-system
 ---
 

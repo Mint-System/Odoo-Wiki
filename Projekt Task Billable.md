@@ -2,8 +2,7 @@
 title: Projekt Task Billable
 description: Aufgaben als abrechenbar markieren.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./project
 forge: github.com
 repo: Mint-System/Odoo-Apps-Project

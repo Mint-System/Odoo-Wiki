@@ -2,9 +2,8 @@
 title: Helm Import
 description: Daten aus Helm Repo importieren.
 kind: howto
-tags:
-  - Mint-System
-prev: ./mint-cloud
+partner: Mint System
+prev: ./kubernetes
 ---
 
 # Helm Import

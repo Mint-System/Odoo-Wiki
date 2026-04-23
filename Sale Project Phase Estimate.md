@@ -2,8 +2,7 @@
 title: Sale Project Phase Estimate
 description: Verlinkt Auftragszeilen mit Schätzungen von Projektphasen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./sale-timesheet
 ---
 
