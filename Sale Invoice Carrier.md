@@ -1,10 +1,17 @@
 ---
-title: Sale Invoice Carrier
-description: Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus Verkaufsaufträgen übertragen.
+description: Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus
+  Verkaufsaufträgen übertragen.
+forge: github.com
 kind: howto
+name: sale_invoice_carrier
 partner: Mint System
 prev: ./invoicing
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Sale Invoice Carrier
+versions:
+- '17.0'
 ---
+
 
 # Sale Invoice Carrier
 
@@ -12,8 +19,8 @@ prev: ./invoicing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_invoice_carrier`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/17.0/sale_invoice_carrier>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

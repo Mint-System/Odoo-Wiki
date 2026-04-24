@@ -1,10 +1,16 @@
 ---
-title: Sale Order Partner Pricelist
 description: Preislisten-Zugriff mit Verkaufsaufträgen erteilen.
+forge: github.com
 kind: howto
+name: sale_order_partner_pricelist
 partner: Mint System
 prev: ./subscription
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Order Partner Pricelist
+versions:
+- '16.0'
 ---
+
 
 # Sale Order Partner Pricelist
 
@@ -12,8 +18,8 @@ prev: ./subscription
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_partner_pricelist`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_order_partner_pricelist>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

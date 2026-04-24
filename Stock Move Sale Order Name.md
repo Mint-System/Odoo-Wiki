@@ -1,10 +1,16 @@
 ---
-title: Stock Move Sale Order Name
 description: Beschreibung der Auftragsposition wird auf die Lieferung kopiert.
+forge: github.com
 kind: howto
+name: stock_move_sale_order_name
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Move Sale Order Name
+versions:
+- '17.0'
 ---
+
 
 # Stock Move Sale Order Name
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_move_sale_order_name`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_move_sale_order_name>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Partner Optional Commercial Partner
 description: Kontakt selbst als Handelsgesellschaft festzulegen.
+forge: github.com
 kind: howto
+name: partner_optional_commercial_partner
 partner: Mint System
 prev: ./contacts
+repo: Mint-System/Odoo-Apps-Partner-Contact
+title: Partner Optional Commercial Partner
+versions:
+- '16.0'
 ---
+
 
 # Partner Optional Commercial Partner
 
@@ -12,8 +18,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_optional_commercial_partner`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/partner_optional_commercial_partner>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

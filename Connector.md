@@ -1,11 +1,17 @@
 ---
-title: Connector
 description: Odoo mit anderen Systemen verbinden.
+extensions: true
+forge: github.com
 kind: howto
+name: ''
 partner: OCA
 prev: ./
-extensions: true
+repo: Mint-System/Odoo-Apps-Connector
+title: Connector
+versions:
+- '16.0'
 ---
+
 
 # Connector
 
@@ -13,7 +19,7 @@ extensions: true
 
 {{ $frontmatter.description }}
 
-Repository: <https://github.com/Mint-System/Odoo-Apps-Connector>
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Erweiterungen
 

@@ -64,7 +64,7 @@ export default [
   "maintenance.md",
   "web.md",
   "website.md",
-  "website-e-commerce.md",
+  "website-sale.md",
   "shoopfloor.md",
   "knowledge.md",
   "hr-timesheet.md",
@@ -75,6 +75,7 @@ export default [
   "forestry-base.md",
   "job-portal-base.md",
   "legal-advice-base.md",
+  "kubernetes.md",
   "license.md",
   "management-system.md",
   "order-positions.md",
@@ -361,8 +362,8 @@ export default [
           "sale-reports.md",
           "sale-stock.md",
           "sale-price.md",
-          "sale-project.md",
-          "sale-loyalty.md"
+          "sale-loyalty.md",
+          "sale-timesheet.md"
         ]
       },
       {
@@ -371,7 +372,7 @@ export default [
         "children": [
           "website-actions.md",
           "website-berichte.md",
-          "website-e-commerce.md",
+          "website-sale.md",
           "website-partner.md"
         ]
       },
@@ -880,6 +881,7 @@ export default [
           "project-timeline.md",
           "project-timesheet-time-control.md",
           "project-type.md",
+          "projekt-task-billable.md",
           "sequential-code-for-tasks.md"
         ]
       },
@@ -1027,14 +1029,8 @@ export default [
           "sale-product-set-layout.md",
           "sale-product-set-search.md",
           "sale-product-set.md",
-          "sale-project-key.md",
-          "sale-project-link.md",
-          "sale-project-phase-estimate.md",
           "sale-restricted-qty.md",
           "sale-start-end-dates.md",
-          "sale-timesheet-estimate-report.md",
-          "sale-timesheet-report-group-invoice-type.md",
-          "sale-timesheet-report-project-details.md",
           "sale-triple-discount.md"
         ]
       },
@@ -1095,16 +1091,17 @@ export default [
         ]
       },
       {
-        "text": "Website E-Commerce",
+        "text": "Website Sale",
         "collapsible": true,
         "children": [
           "payment-payrexx.md",
           "payment-saferpay.md",
           "saferpay-payment-provider.md",
+          "website-sale-address-optional-phone.md",
           "website-sale-cart-expire.md",
-          "website-sale-permit-extra-info.md",
           "website-sale-firstname.md",
           "website-sale-float-qty.md",
+          "website-sale-permit-extra-info.md",
           "website-shop-coupons.md"
         ]
       },
@@ -1170,6 +1167,21 @@ export default [
         "collapsible": true,
         "children": [
           "job-portal-sale.md"
+        ]
+      },
+      {
+        "text": "Kubernetes",
+        "collapsible": true,
+        "children": [
+          "helm-import.md",
+          "helm-portal.md",
+          "helm.md",
+          "kubectl-contacts.md",
+          "kubectl-import.md",
+          "sale-helm.md",
+          "website-kubectl.md",
+          "website-sale-helm.md",
+          "kubectl"
         ]
       },
       {
@@ -1275,21 +1287,6 @@ export default [
           "sync-transformer-helper.md",
           "sync-trigger-methods.md",
           "web-sync.md"
-        ]
-      },
-      {
-        "text": "Mint Cloud",
-        "collapsible": true,
-        "children": [
-          "helm-import.md",
-          "helm-portal.md",
-          "helm.md",
-          "kubectl-contacts.md",
-          "kubectl-import.md",
-          "sale-helm.md",
-          "website-kubectl.md",
-          "website-sale-helm.md",
-          "kubectl"
         ]
       }
     ]

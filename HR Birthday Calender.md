@@ -1,10 +1,16 @@
 ---
-title: HR Birthday Calender
 description: Kalenderansicht aller Geburtstage.
+forge: github.com
 kind: howto
+name: hr_birthday_calendar
 partner: Mint System
 prev: ./hr
+repo: Mint-System/Odoo-Apps-HR
+title: HR Birthday Calender
+versions:
+- '14.0'
 ---
+
 
 # HR Birthday Calender
 
@@ -12,8 +18,8 @@ prev: ./hr
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_birthday_calendar`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_birthday_calendar>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

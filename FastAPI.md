@@ -1,10 +1,16 @@
 ---
-title: Odoo FastAPI
 description: FastAPI-Integration für Odoo.
+forge: github.com
 kind: howto
+name: fastapi
 partner: OCA
 prev: ./development
+repo: OCA/rest-framework
+title: Odoo FastAPI
+versions:
+- '19.0'
 ---
+
 
 # Odoo FastAPI
 
@@ -12,5 +18,5 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `fastapi`\
-Repository: <https://github.com/OCA/rest-framework/tree/19.0/fastapi>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

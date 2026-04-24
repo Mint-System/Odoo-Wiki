@@ -1,10 +1,16 @@
 ---
-title: Project Task Dependencies
 description: Projektaufgaben mit Abhängigkeiten.
+forge: github.com
 kind: howto
+name: project_task_dependency
 partner: OCA
 prev: ./project
+repo: OCA/project
+title: Project Task Dependencies
+versions:
+- '15.0'
 ---
+
 
 # Project Task Dependencies
 
@@ -12,8 +18,8 @@ prev: ./project
 
 {{ $frontmatter.description }}
 
-Technischer Name: `project_task_dependency`\
-Repository: <https://github.com/OCA/project/tree/15.0/project_task_dependency>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Employee Vehicle Request
 description: Fahrzeug-Reservationen für Mitarbeitende verwalten.
+forge: github.com
 kind: howto
+name: employee_vehicle_request
 partner: Mint System
 prev: ./fahrzeugflotte
+repo: CybroOdoo/CybroAddons
+title: Employee Vehicle Request
+versions:
+- '17.0'
 ---
+
 
 # Employee Vehicle Request
 
@@ -12,8 +18,8 @@ prev: ./fahrzeugflotte
 
 {{ $frontmatter.description }}
 
-Technischer Name: `employee_vehicle_request`\
-Repository: <https://github.com/CybroOdoo/CybroAddons/tree/17.0/employee_vehicle_request>\
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>\
 
 ## Verwendung
 

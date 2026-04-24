@@ -1,10 +1,16 @@
 ---
-title: Account Missing Menus
 description: Navigation für die OCA Finanzbuchhaltung.
+forge: github.com
 kind: howto
+name: account_menu
 partner: OCA
 prev: ./accounting
+repo: OCA/account-financial-tools
+title: Account Missing Menus
+versions:
+- '14.0'
 ---
+
 
 # Account Missing Menus
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_menu`\
-Repository: <https://github.com/OCA/account-financial-tools/tree/14.0/account_menu>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [Account Usability](Account%20Usability.md) zu verwenden.

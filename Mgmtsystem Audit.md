@@ -1,10 +1,16 @@
 ---
-title: Management System - Audit
 description: Audit-Module for the OCA Management System.
+forge: github.com
 kind: howto
+name: mgmtsystem_audit
 partner: OCA
 prev: ./management-system
+repo: OCA/management-system
+title: Management System - Audit
+versions:
+- '17.0'
 ---
+
 
 # Management System - Audit
 
@@ -12,8 +18,8 @@ prev: ./management-system
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mgmtsystem_audit`\
-Repository: <https://github.com/OCA/management-system/tree/17.0/mgmtsystem_audit>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Wir empfehlen die App [Management System](Management%20System.md) zu verwenden.

@@ -1,10 +1,16 @@
 ---
-title: Stock Picking Start
 description: Transfer als gestartet markieren.
+forge: github.com
 kind: howto
+name: stock_picking_start
 partner: OCA
 prev: ./stock
+repo: OCA/stock-logistics-workflow
+title: Stock Picking Start
+versions:
+- '16.0'
 ---
+
 
 # Stock Picking Start
 
@@ -12,5 +18,5 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_picking_start`\
-Repository: <https://github.com/OCA/stock-logistics-workflow/tree/16.0/stock_picking_start>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

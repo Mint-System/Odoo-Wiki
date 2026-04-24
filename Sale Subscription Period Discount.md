@@ -1,10 +1,16 @@
 ---
-title: Sale Subscription Period Discount
 description: Erste Abonnementrechnung mit zeitbasiertem Rabatt.
+forge: github.com
 kind: howto
+name: sale_subscription_period_discount
 partner: Mint System
 prev: ./subscription
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Subscription Period Discount
+versions:
+- '16.0'
 ---
+
 
 # Sale Subscription Period Discount
 
@@ -12,8 +18,8 @@ prev: ./subscription
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_subscription_period_discount`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_subscription_period_discount>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

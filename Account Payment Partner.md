@@ -1,10 +1,16 @@
 ---
-title: Account Payment Partner
 description: Zahlungsmodus auf Kontakt festlegen.
+forge: github.com
 kind: howto
+name: account_payment_partner
 partner: OCA
 prev: ./accounting
+repo: OCA/bank-payment
+title: Account Payment Partner
+versions:
+- '19.0'
 ---
+
 
 # Account Payment Partner
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_payment_partner`\
-Repository: <https://github.com/OCA/bank-payment/tree/19.0/account_payment_partner>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

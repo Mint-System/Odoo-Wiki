@@ -1,10 +1,16 @@
 ---
-title: Board Users
 description: Dashboars von allen Benutzer anzeigen.
+forge: github.com
 kind: howto
+name: board_users
 partner: Mint System
 prev: ./dashboards
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Board Users
+versions:
+- '15.0'
 ---
+
 
 # Board Users
 
@@ -12,8 +18,8 @@ prev: ./dashboards
 
 {{ $frontmatter.description }}
 
-Technischer Name: `board_users`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/15.0/board_users>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

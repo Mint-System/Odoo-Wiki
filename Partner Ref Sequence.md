@@ -1,10 +1,16 @@
 ---
-title: Partner Ref Sequence
 description: Automatische Vergabe der Kontakt-Referenz.
+forge: github.com
 kind: howto
+name: partner_ref_sequence
 partner: Mint System
 prev: ./contacts
+repo: Mint-System/Odoo-Apps-Partner-Contact
+title: Partner Ref Sequence
+versions:
+- '17.0'
 ---
+
 
 # Partner Ref Sequence
 
@@ -12,8 +18,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_ref_sequence`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/17.0/partner_ref_sequence>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

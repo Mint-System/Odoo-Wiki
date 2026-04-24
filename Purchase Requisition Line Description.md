@@ -1,10 +1,16 @@
 ---
-title: Purchase Requisition Line Description
 description: Nur die Einkaufsbeschreibung in die Einkaufsposition übernehmen.
+forge: github.com
 kind: howto
+name: purchase_requisition_line_description
 partner: Mint System
 prev: ./purchase-requisition
+repo: Mint-System/Odoo-Apps-Purchase-Workflow
+title: Purchase Requisition Line Description
+versions:
+- '17.0'
 ---
+
 
 # Purchase Requisition Line Description
 
@@ -12,8 +18,8 @@ prev: ./purchase-requisition
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_requisition_line_description`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.0/purchase_requisition_line_description>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

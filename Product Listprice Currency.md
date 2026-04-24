@@ -1,10 +1,16 @@
 ---
-title: Product Listprice Currency
 description: Listenpreise in verschiedenen Währungen für Preislisten-Formeln.
+forge: github.com
 kind: howto
+name: product_listprice_currency
 partner: Mint System
 prev: ./product
+repo: Mint-System/Odoo-Apps-Product-Attribute
+title: Product Listprice Currency
+versions:
+- '17.0'
 ---
+
 
 # Product Listprice Currency
 
@@ -12,8 +18,8 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_listprice_currency`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/17.0/product_listprice_currency>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: HR Attendance Overtime Hours
 description: Geplante und gearbeitete Stunden auf Ansicht Überstunden anzeigen.
+forge: github.com
 kind: howto
+name: hr_attendance_overtime_hours
 partner: Mint System
 prev: ./hr-holidays
+repo: Mint-System/Odoo-Apps-HR
+title: HR Attendance Overtime Hours
+versions:
+- '15.0'
 ---
+
 
 # HR Attendance Overtime Hours
 
@@ -12,8 +18,8 @@ prev: ./hr-holidays
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_attendance_overtime_hours`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_attendance_overtime_hours>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Purchase Order Line Price Default
 description: Standardpreis einer Einkaufsposition überschreiben.
+forge: github.com
 kind: howto
+name: purchase_order_line_price_default
 partner: Mint System
 prev: ./purchase
+repo: Mint-System/Odoo-Apps-Purchase-Workflow
+title: Purchase Order Line Price Default
+versions:
+- '17.0'
 ---
+
 
 # Purchase Order Line Price Default
 
@@ -12,8 +18,8 @@ prev: ./purchase
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_order_line_price_default`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.0/purchase_order_line_price_default>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

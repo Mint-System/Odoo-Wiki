@@ -1,10 +1,16 @@
 ---
-title: Account Statement Import Camt
 description: Support Import Bankauszug im Camt-Format.
+forge: github.com
 kind: howto
+name: account_statement_import_camt
 partner: OCA
 prev: ./accounting
+repo: OCA/bank-statement-import
+title: Account Statement Import Camt
+versions:
+- '17.0'
 ---
+
 
 # Account Statement Import Camt
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_statement_import_camt`\
-Repository: <https://github.com/OCA/bank-statement-import/tree/17.0/account_statement_import_camt>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

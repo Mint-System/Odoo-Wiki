@@ -1,10 +1,16 @@
 ---
-title: Snippet Manager
 description: Installation und Aktualisierung von vererbten Ansichten.
+forge: github.com
 kind: howto
+name: snippet_manager
 partner: Mint System
 prev: ./development
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Snippet Manager
+versions:
+- '18.0'
 ---
+
 
 # Snippet Manager
 
@@ -12,8 +18,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `snippet_manager`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/18.0/snippet_manager>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

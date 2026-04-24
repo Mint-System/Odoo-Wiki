@@ -1,10 +1,16 @@
 ---
-title: Sale Timesheet Billable Price
 description: Abrechenbarkeit basierend auf Preis der Auftragszeile festlegen.
+forge: github.com
 kind: howto
+name: sale_timesheet_billable_price
 partner: Mint System
 prev: ./hr-timesheet
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Timesheet Billable Price
+versions:
+- '16.0'
 ---
+
 
 # Sale Timesheet Billable Price
 
@@ -12,5 +18,5 @@ prev: ./hr-timesheet
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_timesheet_billable_price`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_timesheet_billable_price>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

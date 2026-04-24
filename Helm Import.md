@@ -1,10 +1,16 @@
 ---
-title: Helm Import
 description: Daten aus Helm Repo importieren.
+forge: github.com
 kind: howto
+name: helm_import
 partner: Mint System
 prev: ./kubernetes
+repo: Mint-System/Odoo-Apps-Kubernetes
+title: Helm Import
+versions:
+- '18.0'
 ---
+
 
 # Helm Import
 
@@ -12,5 +18,5 @@ prev: ./kubernetes
 
 {{ $frontmatter.description }}
 
-Technischer Name: `helm_import`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Kubernetes/tree/18.0/helm_import>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

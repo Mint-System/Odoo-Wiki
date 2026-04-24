@@ -1,10 +1,16 @@
 ---
-title: Sale Stock Owner
 description: Kunde als Besitzer an Lieferungen und Beständen zuordnen.
+forge: github.com
 kind: howto
+name: sale_stock_owner
 partner: Mint System
 prev: ./sale-stock
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Stock Owner
+versions:
+- '17.0'
 ---
+
 
 # Sale Stock Owner
 
@@ -12,8 +18,8 @@ prev: ./sale-stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_stock_owner`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_stock_owner>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

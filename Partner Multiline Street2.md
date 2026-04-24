@@ -1,10 +1,16 @@
 ---
-title: Partner Multiline Street2
 description: Mehrzeiliger Text in zweiter Strasse hinzufügen.
+forge: github.com
 kind: howto
+name: partner_multiline_street2
 partner: Mint System
 prev: ./contacts
+repo: Mint-System/Odoo-Apps-Partner-Contact
+title: Partner Multiline Street2
+versions:
+- '16.0'
 ---
+
 
 # Partner Multiline Street2
 
@@ -12,8 +18,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_multiline_street2`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/partner_multiline_street2>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

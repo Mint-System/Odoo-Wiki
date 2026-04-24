@@ -1,10 +1,16 @@
 ---
-title: Mmgt Asset Risk
 description: Verbinde Risiken und Assets.
+forge: github.com
 kind: howto
+name: mgmt_asset_risk
 partner: Mint System
 prev: ./management-system
+repo: Mint-System/Odoo-Apps-Management-System
+title: Mmgt Asset Risk
+versions:
+- '17.0'
 ---
+
 
 # Mmgt Asset Risk
 
@@ -12,8 +18,8 @@ prev: ./management-system
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mgmt_asset_risk`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/17.0/mgmt_asset_risk>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

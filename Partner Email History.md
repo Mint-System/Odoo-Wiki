@@ -1,10 +1,16 @@
 ---
-title: Partner Email History
 description: Alle versendeten und empfangen E-Mails eines Kontakts anzeigen.
+forge: github.com
 kind: howto
+name: partner_email_history
 partner: Mint System
 prev: ./contacts
+repo: Mint-System/Odoo-Apps-Partner-Contact
+title: Partner Email History
+versions:
+- '16.0'
 ---
+
 
 # Partner Email History
 
@@ -12,8 +18,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_email_history`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/partner_email_history>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

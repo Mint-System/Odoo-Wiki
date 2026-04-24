@@ -1,10 +1,16 @@
 ---
-title: Sale Timesheet Estimate Report
 description: Übersicht der Projektschätzungen auf Bericht Zeiterfassung anzeigen.
+forge: github.com
 kind: howto
+name: sale_timesheet_estimate_report
 partner: Mint System
 prev: ./sale-timesheet
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Timesheet Estimate Report
+versions:
+- '16.0'
 ---
+
 
 # Sale Timesheet Estimate Report
 
@@ -12,8 +18,8 @@ prev: ./sale-timesheet
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_timesheet_estimate_report`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_timesheet_estimate_report>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

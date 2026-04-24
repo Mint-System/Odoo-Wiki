@@ -1,10 +1,16 @@
 ---
-title: Website Sale Cart Expire
 description: Warenkörbe nach einer bestimmten Zeit automatisch abbrechen.
+forge: github.com
 kind: howto
+name: website_sale_cart_expire
 partner: OCA
 prev: ./website-sale
+repo: OCA/e-commerce
+title: Website Sale Cart Expire
+versions:
+- '16.0'
 ---
+
 
 # Website Sale Cart Expire
 
@@ -12,8 +18,8 @@ prev: ./website-sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `website_sale_cart_expire`\
-Repository: <https://github.com/OCA/e-commerce/tree/16.0/website_sale_cart_expire>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

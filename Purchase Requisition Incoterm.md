@@ -1,10 +1,16 @@
 ---
-title: Purchase Requisition Incoterm
 description: Lieferbedingungen auf Kaufverträgen festlegen.
+forge: github.com
 kind: howto
+name: purchase_requisition_incoterm
 partner: Mint System
 prev: ./purchase-requisition
+repo: Mint-System/Odoo-Apps-Purchase-Workflow
+title: Purchase Requisition Incoterm
+versions:
+- '17.0'
 ---
+
 
 # Purchase Requisition Incoterm
 
@@ -12,8 +18,8 @@ prev: ./purchase-requisition
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_requisition_incoterm`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.0/purchase_requisition_incoterm>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

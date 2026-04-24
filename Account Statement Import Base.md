@@ -1,10 +1,16 @@
 ---
-title: Account Statement Import Base
 description: Basismodul für Import Bankauszüge.
+forge: github.com
 kind: howto
+name: account_statement_import_base
 partner: OCA
 prev: ./accounting
+repo: OCA/bank-statement-import
+title: Account Statement Import Base
+versions:
+- '19.0'
 ---
+
 
 # Account Statement Import Base
 
@@ -12,5 +18,5 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_statement_import_base`\
-Repository: <https://github.com/OCA/bank-statement-import/tree/19.0/account_statement_import_base>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

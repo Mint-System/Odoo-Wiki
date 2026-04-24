@@ -1,10 +1,16 @@
 ---
-title: Stock Aggregated Move Lines Description
 description: Beschreibungsfeld auf aggregierten Zeilen anzeigen.
+forge: github.com
 kind: howto
+name: stock_aggregated_move_lines_description
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Aggregated Move Lines Description
+versions:
+- '17.0'
 ---
+
 
 # Stock Aggregated Move Lines Description
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_aggregated_move_lines_description`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_aggregated_move_lines_description>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

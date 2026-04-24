@@ -1,10 +1,16 @@
 ---
-title: Auth TOTP IP Check
 description: Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren.
+forge: github.com
 kind: howto
+name: auth_totp_ip_check
 partner: Mint System
 prev: ./settings
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Auth TOTP IP Check
+versions:
+- '17.0'
 ---
+
 
 # Auth TOTP IP Check
 
@@ -12,8 +18,8 @@ prev: ./settings
 
 {{ $frontmatter.description }}
 
-Technischer Name: `auth_totp_ip_check`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/17.0/auth_totp_ip_check>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Base DB Anonymization
 description: Inhalt von ausgewählten Datenbank-Felder anonmyisieren.
+forge: github.com
 kind: howto
+name: base_db_anonymization
 partner: Mint System
 prev: ./database
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Base DB Anonymization
+versions:
+- '16.0'
 ---
+
 
 # Base DB Anonymization
 
@@ -12,8 +18,8 @@ prev: ./database
 
 {{ $frontmatter.description }}
 
-Technischer Name: `base_db_anonymization`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/base_db_anonymization>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

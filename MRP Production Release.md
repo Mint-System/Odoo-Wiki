@@ -1,10 +1,16 @@
 ---
-title: MRP Production Release
 description: Fertigungsaufträge können zurückgesetzt und freigegebenen werden.
+forge: github.com
 kind: howto
+name: mrp_production_release
 partner: Mint System
 prev: ./manufacture
+repo: Mint-System/Odoo-Apps-Manufacture
+title: MRP Production Release
+versions:
+- '16.0'
 ---
+
 
 # MRP Production Release
 
@@ -12,8 +18,8 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mrp_production_release`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/16.0/mrp_production_release>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

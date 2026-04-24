@@ -1,10 +1,16 @@
 ---
-title: HR Holidays Working Time
 description: Aus Abwesenheiten Anwesenheiten erstellen.
+forge: github.com
 kind: howto
+name: hr_holidays_working_time
 partner: Mint System
 prev: ./hr-holidays
+repo: Mint-System/Odoo-Apps-HR
+title: HR Holidays Working Time
+versions:
+- '16.0'
 ---
+
 
 # HR Holidays Working Time
 
@@ -12,8 +18,8 @@ prev: ./hr-holidays
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_holidays_working_time`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_holidays_working_time>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

@@ -1,10 +1,17 @@
 ---
-title: Product Supplierinfo Update From Invoice
-description: Aktualisiert den Lieferantenpreis des Produkts mit dem in einer Lieferantenrechnung aktualisierten Preis
+description: Aktualisiert den Lieferantenpreis des Produkts mit dem in einer Lieferantenrechnung
+  aktualisierten Preis
+forge: github.com
 kind: howto
+name: product_supplierinfo_update_from_invoice
 partner: Mint System
 prev: ./purchase
+repo: Mint-System/Odoo-Apps-Purchase-Workflow
+title: Product Supplierinfo Update From Invoice
+versions:
+- '18.0'
 ---
+
 
 # Product Supplierinfo Update From Invoice
 
@@ -12,8 +19,8 @@ prev: ./purchase
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_supplierinfo_update_from_invoice`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/18.0/product_supplierinfo_update_from_invoice>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ### Verwendung
 

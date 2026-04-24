@@ -82,10 +82,18 @@ Create a Python script that create the frontmatter content for every `./*.md` fi
 
 Create a second script that replaces the `Technischer Name:` and `Repository:` with the new defintion. 
 
-Use a random entry to validate the conversion and update.
+Use the `Base User ACL` entry to validate the conversion and update all entries once you are condent the conversion works.
 
 Create the python scripts in the `tmp` folder of this project.
 
 ## Worklog
 
-@Agent Add the todo list here.
+- Created extract_frontmatter.py to extract GitHub repo data into frontmatter while preserving existing fields
+- Created replace_links.py to replace Technischer Name and Repository with VuePress dynamic links
+- Successfully validated conversion using Base User ACL entry
+- Fixed encoding issues that were causing umlauts to be corrupted (added UTF-8 encoding and allow_unicode=True to yaml.dump)
+- Restored all changes after user discarded them, with fixes to preserve title and other frontmatter fields
+- Verified all files including Account Followup Report Light.md have correct umlauts preserved
+- Both scripts are located in /home/janikvonrotz/Odoo-Wiki/tmp/
+
+Completed on: Fri Apr 24 2026

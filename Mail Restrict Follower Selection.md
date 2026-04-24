@@ -1,10 +1,16 @@
 ---
-title: Mail Restrict Follower Selection
 description: Auswahl der Follower einschränken.
+forge: github.com
 kind: howto
+name: mail_restrict_follower_selection
 partner: OCA
 prev: ./discuss-e-mail
+repo: OCA/mail
+title: Mail Restrict Follower Selection
+versions:
+- '18.0'
 ---
+
 
 # Mail Restrict Follower Selection
 
@@ -12,8 +18,8 @@ prev: ./discuss-e-mail
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_restrict_follower_selection`\
-Repository: <https://github.com/OCA/mail/tree/18.0/mail_restrict_follower_selection>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

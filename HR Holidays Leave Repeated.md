@@ -1,10 +1,16 @@
 ---
-title: HR Holidays Leave Repeated
 description: Wiederkehrende Abwesenheitseinträge erstellen.
+forge: github.com
 kind: howto
+name: hr_holidays_leave_repeated
 partner: OCA
 prev: ./hr-holidays
+repo: OCA/hr-holidays
+title: HR Holidays Leave Repeated
+versions:
+- '14.0'
 ---
+
 
 # HR Holidays Leave Repeated
 
@@ -12,8 +18,8 @@ prev: ./hr-holidays
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_holidays_leave_repeated`\
-Repository: <https://github.com/OCA/hr-holidays/tree/14.0/hr_holidays_leave_repeated>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

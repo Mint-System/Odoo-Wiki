@@ -1,10 +1,16 @@
 ---
-title: Project Menu
 description: Projekte über Navigation aufrufen.
+forge: github.com
 kind: howto
+name: project_menu
 partner: Mint System
 prev: ./project
+repo: Mint-System/Odoo-Apps-Project
+title: Project Menu
+versions:
+- '16.0'
 ---
+
 
 # Project Menu
 
@@ -12,8 +18,8 @@ prev: ./project
 
 {{ $frontmatter.description }}
 
-Technischer Name: `project_menu`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/16.0/project_menu>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

@@ -1,10 +1,16 @@
 ---
-title: DBFilter From Header
 description: Datenbank mit Proxy-Header auswählen.
+forge: github.com
 kind: howto
+name: dbfilter_from_header
 partner: OCA
 prev: ./database
+repo: OCA/server-tools
+title: DBFilter From Header
+versions:
+- '17.0'
 ---
+
 
 # DBFilter From Header
 
@@ -12,8 +18,8 @@ prev: ./database
 
 {{ $frontmatter.description }}
 
-Technischer Name: `dbfilter_from_header`\
-Repository: <https://github.com/OCA/server-tools/tree/17.0/dbfilter_from_header>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

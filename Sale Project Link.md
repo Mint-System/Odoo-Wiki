@@ -1,10 +1,16 @@
 ---
-title: Sale Project Link
 description: Bestehendes Projekt mit Angebot verlinken.
+forge: github.com
 kind: howto
+name: sale_project_link
 partner: Mint System
 prev: ./sale-timesheet
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Project Link
+versions:
+- '17.0'
 ---
+
 
 # Sale Project Link
 
@@ -12,5 +18,5 @@ prev: ./sale-timesheet
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_project_link`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_project_link>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

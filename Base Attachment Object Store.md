@@ -1,11 +1,17 @@
 ---
-title: Base Attachment Object Store
 description: Speicherung von Anhängen auf externen Dateisystemen.
+forge: github.com
 kind: howto
-tags:
-  - OCA
+name: fs_attachment
 prev: ./base
+repo: OCA/storage
+tags:
+- OCA
+title: Base Attachment Object Store
+versions:
+- '18.0'
 ---
+
 
 # Base Attachment Object Store
 
@@ -13,8 +19,8 @@ prev: ./base
 
 {{ $frontmatter.description }}
 
-Technischer Name: `fs_attachment`\
-Repository: <https://github.com/OCA/storage/tree/18.0/fs_attachment>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

@@ -1,10 +1,16 @@
 ---
-title: Sale Order Line Pos
 description: Verkaufsaufträge mit Positionsnummern.
+forge: github.com
 kind: howto
+name: sale_order_line_pos
 partner: Mint System
 prev: ./order-positions
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Order Line Pos
+versions:
+- '14.0'
 ---
+
 
 # Sale Order Line Pos
 
@@ -12,8 +18,8 @@ prev: ./order-positions
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_line_pos`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_line_pos>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

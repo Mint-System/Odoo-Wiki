@@ -1,10 +1,16 @@
 ---
-title: Product Putaway Final Location
 description: Falls eine Einlagerungsregel existiert, wird der finale Lagerort angezeigt.
+forge: github.com
 kind: howto
+name: product_putaway_final_location
 partner: Mint System
 prev: ./product
+repo: Mint-System/Odoo-Apps-Product-Attribute
+title: Product Putaway Final Location
+versions:
+- '17.0'
 ---
+
 
 # Product Putaway Final Location
 
@@ -12,8 +18,8 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_putaway_final_location`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/17.0/product_putaway_final_location>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

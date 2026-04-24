@@ -1,10 +1,16 @@
 ---
-title: Account Followup Email From
 description: Mahnbericht von definierter E-Mail-Adresse verschicken.
+forge: github.com
 kind: howto
+name: account_followup_email_from
 partner: Mint System
 prev: ./invoicing-followup
+repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
+title: Account Followup Email From
+versions:
+- '17.0'
 ---
+
 
 # Account Followup Email From
 
@@ -12,8 +18,8 @@ prev: ./invoicing-followup
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_followup_email_from`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/17.0/account_followup_email_from>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

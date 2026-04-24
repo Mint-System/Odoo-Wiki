@@ -1,10 +1,16 @@
 ---
-title: CRM Lead Template
 description: Lead Notizen von Vorlage aktualisieren.
+forge: github.com
 kind: howto
+name: crm_lead_template
 partner: Mint System
 prev: ./crm
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: CRM Lead Template
+versions:
+- '19.0'
 ---
+
 
 # CRM Lead Template
 
@@ -12,8 +18,8 @@ prev: ./crm
 
 {{ $frontmatter.description }}
 
-Technischer Name: `crm_lead_template`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/19.0/crm_lead_template>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiugraiton
 

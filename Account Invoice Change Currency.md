@@ -1,10 +1,16 @@
 ---
-title: Account Invoice Change Currency
 description: Rechnungsbeträge und andere Währung umrechnen.
+forge: github.com
 kind: howto
+name: account_invoice_change_currency
 partner: OCA
 prev: ./invoicing
+repo: OCA/account-invoicing
+title: Account Invoice Change Currency
+versions:
+- '16.0'
 ---
+
 
 # Account Invoice Change Currency
 
@@ -12,8 +18,8 @@ prev: ./invoicing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_invoice_change_currency`\
-Repository: <https://github.com/OCA/account-invoicing/tree/16.0/account_invoice_change_currency>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

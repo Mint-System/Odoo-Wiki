@@ -1,10 +1,16 @@
 ---
-title: EBICS banking protocol
 description: Connect Odoo with bank account through EBICS.
+forge: github.com
 kind: howto
+name: account_ebics
 partner: Thirdparty
 prev: ./accounting
+repo: Noviat/account_ebics
+title: EBICS banking protocol
+versions:
+- '19.0'
 ---
+
 
 # EBICS banking protocol
 
@@ -12,9 +18,9 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_ebics`\
+Technischer Name: {{ $frontmatter.name }}\
 Website: <https://apps.odoo.com/apps/modules/18.0/account_ebics>\
-Repository: <https://github.com/Noviat/account_ebics/tree/19.0/account_ebics>
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

@@ -1,10 +1,16 @@
 ---
-title: MRP Production Create Upstream Backorder
 description: Erstelle Nachlieferungen für Pickings von Fertigungsaufträgen.
+forge: github.com
 kind: howto
+name: mrp_production_create_upstream_backorder
 partner: Mint System
 prev: ./manufacture
+repo: Mint-System/Odoo-Apps-Manufacture
+title: MRP Production Create Upstream Backorder
+versions:
+- '17.0'
 ---
+
 
 # MRP Production Create Upstream Backorder
 
@@ -12,8 +18,8 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mrp_production_create_upstream_backorder`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/mrp_production_create_upstream_backorder>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 
 ## Verwendung

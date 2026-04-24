@@ -1,10 +1,16 @@
 ---
-title: Partner Contact Association
 description: Vereine verwalten und Mitglieder zuordnen.
+forge: github.com
 kind: howto
+name: partner_contact_association
 partner: Mint System
 prev: ./contacts
+repo: Mint-System/Odoo-Apps-Partner-Contact
+title: Partner Contact Association
+versions:
+- '16.0'
 ---
+
 
 # Partner Contact Association
 
@@ -12,8 +18,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_contact_association`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/partner_contact_association>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Survey Question Type NPS
 description: Zusätzlicher Feldtyp für NPS-Score.
+forge: github.com
 kind: howto
+name: survey_question_type_nps
 partner: OCA
 prev: ./accounting
+repo: OCA/survey
+title: Survey Question Type NPS
+versions:
+- '16.0'
 ---
+
 
 # Survey Question Type NPS
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `survey_question_type_nps`\
-Repository: <https://github.com/OCA/survey/tree/16.0/survey_question_type_nps>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

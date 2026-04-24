@@ -1,10 +1,16 @@
 ---
-title: Sale Order Unsubscribe
 description: Alle Abonnenten nach Bestätigung des Angebots entfernen.
+forge: github.com
 kind: howto
+name: sale_order_unsubscribe
 partner: Mint System
 prev: ./discuss
+repo: Mint-System/Odoo-Apps-Social
+title: Sale Order Unsubscribe
+versions:
+- '17.0'
 ---
+
 
 # Sale Order Unsubscribe
 
@@ -12,8 +18,8 @@ prev: ./discuss
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_unsubscribe`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/17.0/sale_order_unsubscribe>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

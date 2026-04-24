@@ -1,10 +1,16 @@
 ---
-title: Project Timesheet Time Control
 description: Zeiterfassung auf Projektaufgabe starten.
+forge: github.com
 kind: howto
+name: project_timesheet_time_control
 partner: OCA
 prev: ./project
+repo: OCA/project
+title: Project Timesheet Time Control
+versions:
+- '17.0'
 ---
+
 
 # Project Timesheet Time Control
 
@@ -12,5 +18,5 @@ prev: ./project
 
 {{ $frontmatter.description }}
 
-Technischer Name: `project_timesheet_time_control`\
-Repository: <https://github.com/OCA/project/tree/17.0/project_timesheet_time_control>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

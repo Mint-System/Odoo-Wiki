@@ -1,9 +1,15 @@
 ---
-title: Sale Helm
 description: Bei Verkauf ein Helm-Release installieren.
+forge: github.com
 kind: howto
+name: sale_helm
 prev: ./mint-cloud
+repo: Mint-System/Odoo-Apps-Kubernetes
+title: Sale Helm
+versions:
+- '18.0'
 ---
+
 
 # Sale Helm
 
@@ -11,5 +17,5 @@ prev: ./mint-cloud
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_helm`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Kubernetes/tree/18.0/sale_helm>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

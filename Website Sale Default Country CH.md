@@ -1,10 +1,16 @@
 ---
-title: Website Sale Default Country CH
 description: Schweiz als Standardland im Webshop festlegen.
+forge: github.com
 kind: howto
+name: website_sale_default_country_ch
 partner: Mint System
 prev: ./website
+repo: Mint-System/Odoo-Apps-Website
+title: Website Sale Default Country CH
+versions:
+- '15.0'
 ---
+
 
 # Website Sale Default Country CH
 
@@ -12,5 +18,5 @@ prev: ./website
 
 {{ $frontmatter.description }}
 
-Technischer Name: `website_sale_default_country_ch`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Website/tree/15.0/website_sale_default_country_ch>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

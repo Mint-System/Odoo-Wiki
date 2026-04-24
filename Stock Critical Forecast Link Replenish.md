@@ -1,10 +1,16 @@
 ---
-title: Stock Critical Forecast Link Replenish
 description: Aktionsdatum berücksichtigt aktive Bestandsregeln von Produkten.
+forge: github.com
 kind: howto
+name: stock_critical_forecast_link_replenish
 partner: Mint System
 prev: ./stock-critical-forecast
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Critical Forecast Link Replenish
+versions:
+- '17.0'
 ---
+
 
 # Stock Critical Forecast Link Replenish
 
@@ -12,8 +18,8 @@ prev: ./stock-critical-forecast
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_critical_forecast_link_replenish`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_critical_forecast_link_replenish>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

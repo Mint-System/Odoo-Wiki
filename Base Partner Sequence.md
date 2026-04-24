@@ -1,10 +1,16 @@
 ---
-title: Base Partner Sequence
 description: Sequenz auf Kundenreferenz.
+forge: github.com
 kind: howto
+name: base_partner_sequence
 partner: OCA
 prev: ./contacts
+repo: OCA/partner-contact
+title: Base Partner Sequence
+versions:
+- '19.0'
 ---
+
 
 # Base Partner Sequence
 
@@ -12,8 +18,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `base_partner_sequence`\
-Repository: <https://github.com/OCA/partner-contact/tree/19.0/base_partner_sequence>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

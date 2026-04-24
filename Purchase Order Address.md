@@ -1,10 +1,16 @@
 ---
-title: Purchase Order Address
 description: Bestelladresse von Kunden auf Angebotsanfrage gespeichert.
+forge: github.com
 kind: howto
+name: purchase_order_address
 partner: Mint System
 prev: ./purchase
+repo: Mint-System/Odoo-Apps-Purchase-Workflow
+title: Purchase Order Address
+versions:
+- '17.0'
 ---
+
 
 # Purchase Order Address
 
@@ -12,8 +18,8 @@ prev: ./purchase
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_order_address`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.0/purchase_order_address>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

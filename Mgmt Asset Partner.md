@@ -1,10 +1,16 @@
 ---
-title: Mgmt Asset Partner
 description: Asset-Owner für Kontakte festlegen.
+forge: github.com
 kind: howto
+name: mgmt_asset_partner
 partner: Mint System
 prev: ./management-system
+repo: Mint-System/Odoo-Apps-Management-System
+title: Mgmt Asset Partner
+versions:
+- '18.0'
 ---
+
 
 # Mgmt Asset Partner
 
@@ -12,5 +18,5 @@ prev: ./management-system
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mgmt_asset_partner`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/18.0/mgmt_asset_partner>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

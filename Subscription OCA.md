@@ -1,10 +1,16 @@
 ---
-title: Subscription OCA
 description: OCA-Alternative für Abonnemente.
+forge: github.com
 kind: howto
+name: subscription_oca
 partner: OCA
 prev: ./contract
+repo: OCA/contract
+title: Subscription OCA
+versions:
+- '17.0'
 ---
+
 
 # Subscription OCA
 
@@ -12,8 +18,8 @@ prev: ./contract
 
 {{ $frontmatter.description }}
 
-Technischer Name: `subscription_oca`\
-Repository: <https://github.com/OCA/contract/tree/17.0/subscription_oca>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

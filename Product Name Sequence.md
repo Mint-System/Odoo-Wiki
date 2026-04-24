@@ -1,10 +1,16 @@
 ---
-title: Product Name Sequence
 description: Generate product names based on a sequence.
+forge: github.com
 kind: howto
+name: product_name_sequence
 partner: Mint System
 prev: ./product
+repo: Mint-System/Odoo-Apps-Product-Attribute
+title: Product Name Sequence
+versions:
+- '15.0'
 ---
+
 
 # Product Name Sequence
 
@@ -12,8 +18,8 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_name_sequence`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/15.0/product_name_sequence>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,17 @@
 ---
-title: Sale Order Line Date Propagate
-description: Lieferfristen auf dem Verkaufsautrag und dessen Zeilen werden auf den Lieferauftrag übertragen.
+description: Lieferfristen auf dem Verkaufsautrag und dessen Zeilen werden auf den
+  Lieferauftrag übertragen.
+forge: github.com
 kind: howto
+name: sale_order_line_date_propagate
 partner: Mint System
 prev: ./sale
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Order Line Date Propagate
+versions:
+- '17.0'
 ---
+
 
 # Sale Order Line Date Propagate
 
@@ -12,8 +19,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_line_date_propagate`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_order_line_date_propagate>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

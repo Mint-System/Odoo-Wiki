@@ -1,10 +1,16 @@
 ---
-title: BI SQL Editor
 description: Ganz einfach SQL-basierte Berichte erstellen.
+forge: github.com
 kind: howto
+name: bi_sql_editor
 partner: OCA
 prev: ./development
+repo: OCA/reporting-engine
+title: BI SQL Editor
+versions:
+- '19.0'
 ---
+
 
 # BI SQL Editor
 
@@ -12,8 +18,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `bi_sql_editor`\
-Repository: <https://github.com/OCA/reporting-engine/tree/19.0/bi_sql_editor>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

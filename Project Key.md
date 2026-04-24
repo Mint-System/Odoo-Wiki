@@ -1,10 +1,16 @@
 ---
-title: Project Key
 description: Projektkürzel für Aufgabenbezeichnung.
+forge: github.com
 kind: howto
+name: project_key
 partner: OCA
 prev: ./project
+repo: OCA/project
+title: Project Key
+versions:
+- '17.0'
 ---
+
 
 # Project Key
 
@@ -12,8 +18,8 @@ prev: ./project
 
 {{ $frontmatter.description }}
 
-Technischer Name: `project_key`\
-Repository: <https://github.com/OCA/project/tree/17.0/project_key>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,5 +1,5 @@
 ---
-title: Website E-Commerce
+title: Website eCommerce
 description: Webshop ohne Integrationsaufwand.
 kind: howto
 prev: ./
@@ -7,7 +7,7 @@ partner: Odoo S.A.
 extensions: true
 ---
 
-# Website E-Commerce
+# Website eCommerce
 
 ![](attachments/icons_odoo_website_sale.png)
 

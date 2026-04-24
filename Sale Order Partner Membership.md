@@ -1,10 +1,16 @@
 ---
-title: Sale Order Partner Membership
 description: Kontaktperson Mitgliedschaft auf Verkaufsauftrag festlegen.
+forge: github.com
 kind: howto
+name: sale_order_partner_membership
 partner: Mint System
 prev: ./sale
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Order Partner Membership
+versions:
+- '16.0'
 ---
+
 
 # Sale Order Partner Membership
 
@@ -12,8 +18,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_partner_membership`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_order_partner_membership>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

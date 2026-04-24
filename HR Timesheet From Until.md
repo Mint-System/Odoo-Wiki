@@ -1,10 +1,16 @@
 ---
-title: HR Timesheet From Until
 description: Berechnung Dauer anhand Start- und Endzeit.
+forge: github.com
 kind: howto
+name: hr_timesheet_from_until
 partner: Mint System
 prev: ./hr-timesheet
+repo: Mint-System/Odoo-Apps-HR
+title: HR Timesheet From Until
+versions:
+- '17.0'
 ---
+
 
 # HR Timesheet From Until
 
@@ -12,8 +18,8 @@ prev: ./hr-timesheet
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_timesheet_from_until`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/17.0/hr_timesheet_from_until>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

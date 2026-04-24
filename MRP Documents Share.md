@@ -1,10 +1,16 @@
 ---
-title: MRP Documents Share
 description: Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument.
+forge: github.com
 kind: howto
+name: mrp_documents_share
 partner: Mint System
 prev: ./manufacture
+repo: Mint-System/Odoo-Apps-Manufacture
+title: MRP Documents Share
+versions:
+- '17.0'
 ---
+
 
 # MRP Documents Share
 
@@ -12,8 +18,8 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mrp_documents_share`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/mrp_documents_share>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

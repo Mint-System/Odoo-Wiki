@@ -1,10 +1,16 @@
 ---
-title: Mass Editing
 description: Mühelos mehrere Einträge auf einmal bearbeiten.
+forge: github.com
 kind: howto
+name: mass_editing
 partner: OCA
 prev: ./development
+repo: OCA/server-ux
+title: Mass Editing
+versions:
+- '15.0'
 ---
+
 
 # Mass Editing
 
@@ -12,8 +18,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mass_editing`\
-Repository: <https://github.com/OCA/server-ux/tree/15.0/mass_editing>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [Mass Editing](Server%20Action%20Mass%20Edit.md) zu verwenden.

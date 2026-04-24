@@ -1,10 +1,16 @@
 ---
-title: HR Shortname
 description: Zu jedem Mitarbeitenden ein Kürzel speichern.
+forge: github.com
 kind: howto
+name: hr_shortname
 partner: Mint System
 prev: ./hr
+repo: Mint-System/Odoo-Apps-HR
+title: HR Shortname
+versions:
+- '14.0'
 ---
+
 
 # HR Shortname
 
@@ -12,8 +18,8 @@ prev: ./hr
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_shortname`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_shortname>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

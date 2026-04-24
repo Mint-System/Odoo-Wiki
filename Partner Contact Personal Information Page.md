@@ -1,10 +1,16 @@
 ---
-title: Personal information page for contacts
 description: Fügt eine Ansicht zum Teilen von persönlichen Informationen hinzu.
+forge: github.com
 kind: howto
+name: partner_contact_personal_information_page
 partner: OCA
 prev: ./contacts
+repo: OCA/partner-contact
+title: Personal information page for contacts
+versions:
+- '17.0'
 ---
+
 
 # Personal information page for contacts
 
@@ -12,5 +18,5 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_contact_personal_information_page`\
-Repository: <https://github.com/OCA/partner-contact/tree/17.0/partner_contact_personal_information_page>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

@@ -1,10 +1,16 @@
 ---
-title: Sale Expense Unlink
 description: Bei Abbruch Spesenbericht wird Kundenauftragszeile entfernt.
+forge: github.com
 kind: howto
+name: sale_expense_unlink
 partner: Mint System
 prev: ./hr-expense
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Expense Unlink
+versions:
+- '17.0'
 ---
+
 
 # Sale Expense Unlink
 
@@ -12,5 +18,5 @@ prev: ./hr-expense
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_expense_unlink`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_expense_unlink>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

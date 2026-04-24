@@ -1,10 +1,16 @@
 ---
-title: Sale Move Reconciled Date
 description: Beim Buchen wird sofern gesetzt die Warnung des Rechnungskontakt angezeigt.
+forge: github.com
 kind: howto
+name: account_move_post_warn
 partner: Mint System
 prev: ./accounting
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Sale Move Reconciled Date
+versions:
+- '17.0'
 ---
+
 
 # Sale Move Reconciled Date
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_move_post_warn`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/17.0/account_move_post_warn>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -388,9 +388,9 @@ Benutzeroberfläche von Odoo.
 
 Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 
-### [Website Sale](Website%20Sale.md)
+### [Website eCommerce](Website%20Sale.md)
 
-[![](Website%20Sale.md)
+[![](attachments/icons_odoo_website_sale.png)](Website%20Sale.md)
 
 Webshop ohne Integrationsaufwand.
 

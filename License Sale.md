@@ -1,9 +1,15 @@
 ---
-title: License Sale
 description: Lizenz aus Verkaufsauftrag generieren.
+forge: github.com
 kind: howto
+name: license_sale
 prev: ./license
+repo: Mint-System/Odoo-Apps-Vertical-SaaS
+title: License Sale
+versions:
+- '16.0'
 ---
+
 
 # License Sale
 
@@ -11,8 +17,8 @@ prev: ./license
 
 {{ $frontmatter.description }}
 
-Technischer Name: `license_sale`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-SaaS/tree/16.0/license_sale>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

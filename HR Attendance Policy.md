@@ -1,10 +1,16 @@
 ---
-title: HR Attendance Policy
 description: Richtlinien für die Anwesenheit festlegen.
+forge: github.com
 kind: howto
+name: hr_attendance_policy
 partner: Mint System
 prev: ./hr-attendance
+repo: Mint-System/Odoo-Apps-HR
+title: HR Attendance Policy
+versions:
+- '16.0'
 ---
+
 
 # HR Attendance Policy
 
@@ -12,8 +18,8 @@ prev: ./hr-attendance
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_attendance_policy`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_attendance_policy>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

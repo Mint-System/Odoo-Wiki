@@ -1,10 +1,16 @@
 ---
-title: Account Financial Report
 description: Finanzberichte der Odoo Community Assocation.
+forge: github.com
 kind: howto
+name: account_financial_report
 partner: Mint System
 prev: ./accounting
+repo: OCA/account-financial-reporting
+title: Account Financial Report
+versions:
+- '17.0'
 ---
+
 
 # Account Financial Report
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_financial_report`\
-Repository: <https://github.com/OCA/account-financial-reporting/tree/17.0/account_financial_report>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Berichte
 

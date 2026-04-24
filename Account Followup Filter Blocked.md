@@ -1,10 +1,16 @@
 ---
-title: Account Followup Filter Blocked
 description: Zeige Kontakte mit blockierten Rechnungen in der Mahnliste.
+forge: github.com
 kind: howto
+name: account_followup_filter_blocked
 partner: Mint System
 prev: ./invoicing-followup
+repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
+title: Account Followup Filter Blocked
+versions:
+- '16.0'
 ---
+
 
 # Account Followup Filter Blocked
 
@@ -12,8 +18,8 @@ prev: ./invoicing-followup
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_followup_filter_blocked`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/16.0/account_followup_filter_blocked>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

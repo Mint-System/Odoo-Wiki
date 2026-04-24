@@ -1,10 +1,17 @@
 ---
-title: HR Holidays Public
-description: Erstellen Sie einen Feiertagskalender, der in der Abwesenheiten berücksichtigt wird.
+description: Erstellen Sie einen Feiertagskalender, der in der Abwesenheiten berücksichtigt
+  wird.
+forge: github.com
 kind: howto
+name: hr_holidays_public
 partner: OCA
 prev: ./hr-holidays
+repo: OCA/hr-holidays
+title: HR Holidays Public
+versions:
+- '17.0'
 ---
+
 
 # HR Holidays Public
 
@@ -12,8 +19,8 @@ prev: ./hr-holidays
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_holidays_public`\
-Repository: <https://github.com/OCA/hr-holidays/tree/17.0/hr_holidays_public>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Product Contract
 description: Verbindet Produkte mit Kundenverträgen.
+forge: github.com
 kind: howto
+name: product_contract
 partner: OCA
 prev: ./contract
+repo: 'OCA/https:'
+title: Product Contract
+versions:
+- github.com
 ---
+
 
 # Product Contract
 
@@ -12,8 +18,8 @@ prev: ./contract
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_contract`\
-Repository: <https://github.com/OCA/https://github.com/OCA/contract/tree/17.0/product_contract/tree/17.0/product_contract>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

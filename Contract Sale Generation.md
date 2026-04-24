@@ -1,10 +1,16 @@
 ---
-title: Contracts Management Recurring Sales
 description: Aus wiederholenden Verträge Verkaufsangebote generieren.
+forge: github.com
 kind: howto
+name: contract_sale_generation
 partner: OCA
 prev: ./contract
+repo: OCA/contract
+title: Contracts Management Recurring Sales
+versions:
+- '16.0'
 ---
+
 
 # Contracts Management Recurring Sales
 
@@ -12,8 +18,8 @@ prev: ./contract
 
 {{ $frontmatter.description }}
 
-Technischer Name: `contract_sale_generation`\
-Repository: <https://github.com/OCA/contract/tree/16.0/contract_sale_generation>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

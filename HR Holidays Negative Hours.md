@@ -1,10 +1,16 @@
 ---
-title: HR Holidays Negative Hours
 description: Abwesenheitsart zur Kompensierung von Überstunden.
+forge: github.com
 kind: howto
+name: hr_holidays_negative_hours
 partner: OCA
 prev: ./hr-holidays
+repo: Mint-System/Odoo-Apps-HR
+title: HR Holidays Negative Hours
+versions:
+- '16.0'
 ---
+
 
 # HR Holidays Negative Hours
 
@@ -12,8 +18,8 @@ prev: ./hr-holidays
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_holidays_negative_hours`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_holidays_negative_hours>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

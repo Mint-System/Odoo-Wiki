@@ -1,10 +1,16 @@
 ---
-title: Holzwirtschaft Lager
 description: Erweiterung Lager für die Holzwirtschaft.
+forge: github.com
 kind: howto
+name: forestry_stock
 partner: Mint System
 prev: ./forestry-base
+repo: Mint-System/Odoo-Apps-Vertical-Forestry
+title: Holzwirtschaft Lager
+versions:
+- '15.0'
 ---
+
 
 # Holzwirtschaft Lager
 
@@ -12,8 +18,8 @@ prev: ./forestry-base
 
 {{ $frontmatter.description }}
 
-Technischer Name: `forestry_stock`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-Forestry/tree/15.0/forestry_stock>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

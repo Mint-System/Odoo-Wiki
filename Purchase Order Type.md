@@ -1,10 +1,16 @@
 ---
-title: Purchase Order Type
 description: Bestellungen nach Typen organisieren.
+forge: github.com
 kind: howto
+name: purchase_order_type
 partner: OCA
 prev: ./purchase
+repo: OCA/purchase-workflow
+title: Purchase Order Type
+versions:
+- '17.0'
 ---
+
 
 # Purchase Order Type
 
@@ -12,5 +18,5 @@ prev: ./purchase
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_order_type`\
-Repository: <https://github.com/OCA/purchase-workflow/tree/17.0/purchase_order_type>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

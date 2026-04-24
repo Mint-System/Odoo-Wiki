@@ -1,10 +1,16 @@
 ---
-title: Product Set
 description: Produkte-Sets definieren.
+forge: github.com
 kind: howto
+name: product_set
 partner: OCA
 prev: ./product
+repo: OCA/product-attribute
+title: Product Set
+versions:
+- '17.0'
 ---
+
 
 # Product Set
 
@@ -12,5 +18,5 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_set`\
-Repository: <https://github.com/OCA/product-attribute/tree/17.0/product_set>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

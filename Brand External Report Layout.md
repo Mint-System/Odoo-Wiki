@@ -1,10 +1,16 @@
 ---
-title: Brand External Report Layout
 description: Dokument-Layout mit Marke verknüpfen.
+forge: github.com
 kind: howto
+name: brand_external_report_layout
 partner: OCA
 prev: ./brand
+repo: OCA/brand
+title: Brand External Report Layout
+versions:
+- '16.0'
 ---
+
 
 # Brand External Report Layout
 
@@ -12,8 +18,8 @@ prev: ./brand
 
 {{ $frontmatter.description }}
 
-Technischer Name: `brand_external_report_layout`\
-Repository: <https://github.com/OCA/brand/tree/16.0/brand_external_report_layout>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

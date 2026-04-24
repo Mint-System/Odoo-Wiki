@@ -1,10 +1,16 @@
 ---
-title: Purchase Order Send Unsubscribe
 description: Alle Abonnenten nach Versenden der Bestellung entfernen.
+forge: github.com
 kind: howto
+name: purchase_order_send_unsubscribe
 partner: Mint System
 prev: ./discuss
+repo: Mint-System/Odoo-Apps-Social
+title: Purchase Order Send Unsubscribe
+versions:
+- '14.0'
 ---
+
 
 # Purchase Order Send Unsubscribe
 
@@ -12,8 +18,8 @@ prev: ./discuss
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_order_send_unsubscribe`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/purchase_order_send_unsubscribe>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscribe) zu verwenden.

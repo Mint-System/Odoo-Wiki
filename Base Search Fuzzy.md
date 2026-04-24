@@ -1,10 +1,16 @@
 ---
-title: Base Search Fuzzy
 description: Aktivieren Trigram-Index auf Datenbank-Felder.
+forge: github.com
 kind: howto
+name: base_search_fuzzy
 partner: OCA
 prev: ./database
+repo: OCA/server-tools
+title: Base Search Fuzzy
+versions:
+- '17.0'
 ---
+
 
 # Base Search Fuzzy
 
@@ -12,8 +18,8 @@ prev: ./database
 
 {{ $frontmatter.description }}
 
-Technischer Name: `base_search_fuzzy`\
-Repository: <https://github.com/OCA/server-tools/tree/17.0/base_search_fuzzy>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

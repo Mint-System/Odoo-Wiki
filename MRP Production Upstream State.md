@@ -1,10 +1,16 @@
 ---
-title: MRP Production Upstream State
 description: Status von Upstream Lagerbuchung auf Komponentenliste anzeigen.
+forge: github.com
 kind: howto
+name: mrp_production_upstream_state
 partner: Mint System
 prev: ./manufacture
+repo: Mint-System/Odoo-Apps-Manufacture
+title: MRP Production Upstream State
+versions:
+- '17.0'
 ---
+
 
 # MRP Production Upstream State
 
@@ -12,8 +18,8 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mrp_production_upstream_state`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/mrp_production_upstream_state>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

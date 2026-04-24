@@ -1,10 +1,16 @@
 ---
-title: Partner Manual Rank
 description: Kontakt als Lieferant oder Kunde manuell festlegen.
+forge: github.com
 kind: howto
+name: partner_manual_rank
 partner: OCA
 prev: ./contacts
+repo: OCA/partner-contact
+title: Partner Manual Rank
+versions:
+- '17.0'
 ---
+
 
 # Partner Manual Rank
 
@@ -12,5 +18,5 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_manual_rank`\
-Repository: <https://github.com/OCA/partner-contact/tree/17.0/partner_manual_rank>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

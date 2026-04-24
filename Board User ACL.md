@@ -1,10 +1,16 @@
 ---
-title: Board User ACL
 description: Zugriffsrechte auf Dashboards festlegen.
+forge: github.com
 kind: howto
+name: board_user_acl
 partner: Mint System
 prev: ./dashboards
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Board User ACL
+versions:
+- '16.0'
 ---
+
 
 # Board User ACL
 
@@ -12,8 +18,8 @@ prev: ./dashboards
 
 {{ $frontmatter.description }}
 
-Technischer Name: `board_user_acl`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/board_user_acl>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Seit #Odoo18 wird diese App nicht mehr benötigt. 

@@ -1,10 +1,16 @@
 ---
-title: Account General Ledger Contra Accounts
 description: Spalte Gegenkontos in Hauptbuch.
+forge: github.com
 kind: howto
+name: account_general_ledger_contra_accounts
 partner: Mint System
 prev: ./accounting
+repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
+title: Account General Ledger Contra Accounts
+versions:
+- '17.0'
 ---
+
 
 # Account General Ledger Contra Accounts
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_general_ledger_contra_accounts`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/17.0/account_general_ledger_contra_accounts>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,11 +1,17 @@
 ---
-title: Mail template multi attachment
 description: Mehrere Anhänge bei E-Mail-Vorlage hinzufügen.
+forge: github.com
 kind: howto
-tags:
-  - OCA
+name: mail_template_multi_attachment
 prev: ./discuss-e-mail
+repo: OCA/social
+tags:
+- OCA
+title: Mail template multi attachment
+versions:
+- '16.0'
 ---
+
 
 # Mail template multi attachment
 
@@ -13,8 +19,8 @@ prev: ./discuss-e-mail
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_template_multi_attachment`\
-Repository: <https://github.com/OCA/social/tree/16.0/mail_template_multi_attachment>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Seit #Odoo17 wird diese App nicht mehr benötigt.

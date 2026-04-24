@@ -1,10 +1,16 @@
 ---
-title: HR Holidays Leave Archive
 description: Archivierungsfunktion für Abwesenheitseinträge aktivieren.
+forge: github.com
 kind: howto
+name: hr_holidays_leave_archive
 partner: Mint System
 prev: ./hr-holidays
+repo: Mint-System/Odoo-Apps-HR
+title: HR Holidays Leave Archive
+versions:
+- '14.0'
 ---
+
 
 # HR Holidays Leave Archive
 
@@ -12,8 +18,8 @@ prev: ./hr-holidays
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_holidays_leave_archive`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_holidays_leave_archive>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

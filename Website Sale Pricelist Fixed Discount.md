@@ -1,10 +1,16 @@
 ---
-title: Website Sale Pricelist Fixed Discount
 description: Warenkorb mit Rabatten aus Preisliste mit Festpreis.
+forge: github.com
 kind: howto
+name: website_sale_pricelist_fixed_discount
 partner: Mint System
 prev: ./website
+repo: Mint-System/Odoo-Apps-Website
+title: Website Sale Pricelist Fixed Discount
+versions:
+- '16.0'
 ---
+
 
 # Website Sale Pricelist Fixed Discount
 
@@ -12,8 +18,8 @@ prev: ./website
 
 {{ $frontmatter.description }}
 
-Technischer Name: `website_sale_pricelist_fixed_discount`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Website/tree/16.0/website_sale_pricelist_fixed_discount>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

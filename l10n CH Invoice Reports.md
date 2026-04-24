@@ -1,10 +1,16 @@
 ---
-title: Switzerland Invoice Reports with payment option
 description: Rechnung mit ISR- und/oder QR-Zahlung drucken.
+forge: github.com
 kind: howto
+name: l10n_ch_invoice_reports
 partner: OCA
 prev: ./l10n-ch
+repo: OCA/l10n-switzerland
+title: Switzerland Invoice Reports with payment option
+versions:
+- '15.0'
 ---
+
 
 # Switzerland Invoice Reports with payment option
 
@@ -12,8 +18,8 @@ prev: ./l10n-ch
 
 {{ $frontmatter.description }}
 
-Technischer Name: `l10n_ch_invoice_reports`\
-Repository: <https://github.com/OCA/l10n-switzerland/tree/15.0/l10n_ch_invoice_reports>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

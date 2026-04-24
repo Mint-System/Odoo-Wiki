@@ -1,10 +1,16 @@
 ---
-title: Sale Timesheet Report Project Details
 description: Zeige Zeitraum und Projektname auf Bericht Zeiterfassung.
+forge: github.com
 kind: howto
+name: sale_timesheet_report_project_details
 partner: Mint System
 prev: ./sale-timesheet
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Timesheet Report Project Details
+versions:
+- '16.0'
 ---
+
 
 # Sale Timesheet Report Project Details
 
@@ -12,8 +18,8 @@ prev: ./sale-timesheet
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_timesheet_report_project_details`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_timesheet_report_project_details>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

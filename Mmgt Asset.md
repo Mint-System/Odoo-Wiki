@@ -1,10 +1,16 @@
 ---
-title: Mmgt Asset
 description: Asset-Verwaltung für das Management-System.
+forge: github.com
 kind: howto
+name: mgmt_asset
 partner: Mint System
 prev: ./management-system
+repo: Mint-System/Odoo-Apps-Management-System
+title: Mmgt Asset
+versions:
+- '17.0'
 ---
+
 
 # Mmgt Asset
 
@@ -12,8 +18,8 @@ prev: ./management-system
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mgmt_asset`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/17.0/mgmt_asset>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

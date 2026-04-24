@@ -1,10 +1,16 @@
 ---
-title: Sale Order Permit
 description: Verkauf von Patenten
+forge: github.com
 kind: howto
+name: sale_order_permit
 partner: Mint System
 prev: ./sale
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Order Permit
+versions:
+- '18.0'
 ---
+
 
 # Sale Order Permit
 
@@ -12,8 +18,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_permit`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/18.0/sale_order_permit>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ### Verwendung
 

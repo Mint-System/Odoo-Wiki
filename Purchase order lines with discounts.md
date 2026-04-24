@@ -1,10 +1,16 @@
 ---
-title: Purchase order lines with discounts
 description: Rabatte auf Einkaufspositionen festlegen.
+forge: github.com
 kind: howto
+name: purchase_discount
 partner: OCA
 prev: ./purchase
+repo: OCA/purchase-workflow
+title: Purchase order lines with discounts
+versions:
+- '16.0'
 ---
+
 
 # Purchase order lines with discounts
 
@@ -12,8 +18,8 @@ prev: ./purchase
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_discount`\
-Repository: <https://github.com/OCA/purchase-workflow/tree/16.0/purchase_discount>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

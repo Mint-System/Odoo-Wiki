@@ -1,10 +1,16 @@
 ---
-title: MRP BoM Position
 description: Jede Komponente in der Stückliste erhält eine Positionsnummer.
+forge: github.com
 kind: howto
+name: mrp_bom_position
 partner: Mint System
 prev: ./order-positions
+repo: Mint-System/Odoo-Apps-Manufacture
+title: MRP BoM Position
+versions:
+- '17.0'
 ---
+
 
 # MRP BoM Position
 
@@ -12,8 +18,8 @@ prev: ./order-positions
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mrp_bom_position`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/mrp_bom_position>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

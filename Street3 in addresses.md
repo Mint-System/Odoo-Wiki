@@ -1,11 +1,17 @@
 ---
-title: Street3 in addresses
 description: Drittes Adressfeld für Strasse.
+forge: github.com
 kind: howto
-tags:
-  - OCA
+name: partner_address_street3
 prev: ./contacts
+repo: OCA/Partner-Contact
+tags:
+- OCA
+title: Street3 in addresses
+versions:
+- '17.0'
 ---
+
 
 # Street3 in addresses
 
@@ -13,5 +19,5 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_address_street3`\
-Repository: <https://github.com/OCA/Partner-Contact/tree/17.0/partner_address_street3>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

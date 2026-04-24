@@ -1,10 +1,16 @@
 ---
-title: Web Domain Field
 description: Dynamische Definitionen für Domain-Attribute auf Felder generieren.
+forge: github.com
 kind: howto
+name: web_domain_field
 partner: OCA
 prev: ./development
+repo: OCA/web
+title: Web Domain Field
+versions:
+- '16.0'
 ---
+
 
 # Web Domain Field
 
@@ -12,5 +18,5 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `web_domain_field`\
-Repository: <https://github.com/OCA/web/tree/16.0/web_domain_field>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

@@ -1,10 +1,16 @@
 ---
-title: HR Attendance Delta
 description: Berechnet Zeitspanne zwischen Anwesenheitseinträgen.
+forge: github.com
 kind: howto
+name: hr_attendance_delta
 partner: Mint System
 prev: ./hr-attendance
+repo: Mint-System/Odoo-Apps-HR
+title: HR Attendance Delta
+versions:
+- '16.0'
 ---
+
 
 # HR Attendance Delta
 
@@ -12,8 +18,8 @@ prev: ./hr-attendance
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_attendance_delta`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_attendance_delta>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

@@ -1,10 +1,16 @@
 ---
-title: Kubectl Import
 description: Daten aus Kubernetes Cluster importieren.
+forge: github.com
 kind: howto
+name: kubectl_import
 partner: Mint System
 prev: ./kubernetes
+repo: Mint-System/Odoo-Apps-Kubernetes
+title: Kubectl Import
+versions:
+- '18.0'
 ---
+
 
 # Kubectl Import
 
@@ -12,5 +18,5 @@ prev: ./kubernetes
 
 {{ $frontmatter.description }}
 
-Technischer Name: `kubectl_import`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Kubernetes/tree/18.0/kubectl_import>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

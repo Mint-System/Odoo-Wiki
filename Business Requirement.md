@@ -1,10 +1,16 @@
 ---
-title: Business Requirement
 description: Projektanforderungen erfassen und verknüpfen.
+forge: github.com
 kind: howto
+name: business_requirement
 partner: OCA
 prev: ./project
+repo: OCA/business-requirement
+title: Business Requirement
+versions:
+- '16.0'
 ---
+
 
 # Business Requirement
 
@@ -12,8 +18,8 @@ prev: ./project
 
 {{ $frontmatter.description }}
 
-Technischer Name: `business_requirement`\
-Repository: <https://github.com/OCA/business-requirement/tree/16.0/business_requirement>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

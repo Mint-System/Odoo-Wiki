@@ -1,10 +1,16 @@
 ---
-title: Sale Triple Discount
 description: Mehrere Rabatte auf der Auftragszeile.
+forge: github.com
 kind: howto
+name: sale_triple_discount
 partner: OCA
 prev: ./sale
+repo: OCA/sale-workflow
+title: Sale Triple Discount
+versions:
+- '16.0'
 ---
+
 
 # Sale Triple Discount
 
@@ -12,5 +18,5 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_triple_discount`\
-Repository: <https://github.com/OCA/sale-workflow/tree/16.0/sale_triple_discount>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

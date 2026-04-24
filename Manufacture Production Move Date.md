@@ -1,10 +1,16 @@
 ---
-title: Manufacture Production Move Date
 description: Lieferdatum auf Fertigungsauftrag bearbeiten.
+forge: github.com
 kind: howto
+name: manufacture_production_move_date
 partner: Mint System
 prev: ./manufacture
+repo: Mint-System/Odoo-Apps-Manufacture
+title: Manufacture Production Move Date
+versions:
+- '17.0'
 ---
+
 
 # Manufacture Production Move Date
 
@@ -12,8 +18,8 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `manufacture_production_move_date`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/manufacture_production_move_date>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

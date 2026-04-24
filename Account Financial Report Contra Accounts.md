@@ -1,10 +1,16 @@
 ---
-title: Account Financial Report Contra Accounts
 description: Gegenkontos für Hauptbuch OCA-Finanzbericht bereitstellen.
+forge: github.com
 kind: howto
+name: account_financial_report_contra_accounts
 partner: Mint System
 prev: ./accounting
+repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
+title: Account Financial Report Contra Accounts
+versions:
+- '17.0'
 ---
+
 
 # Account Financial Report Contra Accounts
 
@@ -12,5 +18,5 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_financial_report_contra_accounts`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/17.0/account_financial_report_contra_accounts>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

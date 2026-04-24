@@ -1,10 +1,16 @@
 ---
-title: Mgmt Hazard Risk
 description: Risiko-Kalkulation basieren auf Gefahren.
+forge: github.com
 kind: howto
+name: mgmt_hazard_risk
 partner: Mint System
 prev: ./management-system
+repo: Mint-System/Odoo-Apps-Management-System
+title: Mgmt Hazard Risk
+versions:
+- '17.0'
 ---
+
 
 # Mgmt Hazard Risk
 
@@ -12,5 +18,5 @@ prev: ./management-system
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mgmt_hazard_risk`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/17.0/mgmt_hazard_risk>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

@@ -1,10 +1,16 @@
 ---
-title: Sale Product Set
 description: Produktsets definieren und einfach hinzufügen.
+forge: github.com
 kind: howto
+name: sale_product_set
 partner: OCA
 prev: ./sale
+repo: OCA/sale-workflow
+title: Sale Product Set
+versions:
+- '17.0'
 ---
+
 
 # Sale Product Set
 
@@ -12,8 +18,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_product_set`\
-Repository: <https://github.com/OCA/sale-workflow/tree/17.0/sale_product_set>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,17 @@
 ---
-title: Stock Picking Notes
-description: 'Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.'
+description: Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags
+  kopiert werden.
+forge: github.com
 kind: howto
+name: stock_picking_notes
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Picking Notes
+versions:
+- '17.0'
 ---
+
 
 # Stock Picking Notes
 
@@ -12,8 +19,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_picking_notes`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_picking_notes>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

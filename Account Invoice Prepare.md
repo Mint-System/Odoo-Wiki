@@ -1,10 +1,16 @@
 ---
-title: Account Invoice Prepare
 description: Die PDF Rechnung im Anhang speichern und laden.
+forge: github.com
 kind: howto
+name: account_invoice_prepare
 partner: Mint System
 prev: ./invoicing
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Account Invoice Prepare
+versions:
+- '16.0'
 ---
+
 
 # Account Invoice Prepare
 
@@ -12,8 +18,8 @@ prev: ./invoicing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_invoice_prepare`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/account_invoice_prepare>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

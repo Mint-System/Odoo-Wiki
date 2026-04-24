@@ -1,10 +1,16 @@
 ---
-title: Sale Invoice Policy
 description: Abrechnungsregel auf Produkt und Angebot festlegen.
+forge: github.com
 kind: howto
+name: sale_invoice_policy
 partner: OCA
 prev: ./sale
+repo: OCA/sale-workflow
+title: Sale Invoice Policy
+versions:
+- '17.0'
 ---
+
 
 # Sale Invoice Policy
 
@@ -12,8 +18,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_invoice_policy`\
-Repository: <https://github.com/OCA/sale-workflow/tree/17.0/sale_invoice_policy>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

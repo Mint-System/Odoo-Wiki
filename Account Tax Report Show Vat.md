@@ -1,9 +1,15 @@
 ---
-title: Account Taxt Report Show Vat
 description: USt-Id im Umsatzsteuerbericht anzeigen
+forge: github.com
+name: account_tax_report_show_vat
 partner: Mint System
 prev: ./accounting
+repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
+title: Account Taxt Report Show Vat
+versions:
+- '17.0'
 ---
+
 
 # Account Tax Report Show Vat
 
@@ -11,5 +17,5 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_tax_report_show_vat`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/17.0/account_tax_report_show_vat>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

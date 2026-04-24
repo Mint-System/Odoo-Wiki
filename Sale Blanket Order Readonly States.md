@@ -1,10 +1,16 @@
 ---
-title: Sale Blanket Order Readonly States
 description: Bestätigte Rahmenaufträge bearbeiten.
+forge: github.com
 kind: howto
+name: sale_blanket_order_readonly_states
 partner: Mint System
 prev: ./sale-blanket-order
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Blanket Order Readonly States
+versions:
+- '17.0'
 ---
+
 
 # Sale Blanket Order Readonly States
 
@@ -12,8 +18,8 @@ prev: ./sale-blanket-order
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_blanket_order_readonly_states`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_blanket_order_readonly_states>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Contract Format Date Marker
 description: Datum aus Vertragszeile in Rechnung anzeigen und formatieren.
+forge: github.com
 kind: howto
+name: contract_format_date_marker
 partner: Mint System
 prev: ./contract
+repo: Mint-System/Odoo-Apps-Contract
+title: Contract Format Date Marker
+versions:
+- '17.0'
 ---
+
 
 # Contract Format Date Marker
 
@@ -12,8 +18,8 @@ prev: ./contract
 
 {{ $frontmatter.description }}
 
-Technischer Name: `contract_format_date_marker`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Contract/tree/17.0/contract_format_date_marker>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Product Packaging Parent
 description: Übergeordnete Verpackung für Produktverpackung definieren.
+forge: github.com
 kind: howto
+name: product_packaging_parent
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Product-Attribute
+title: Product Packaging Parent
+versions:
+- '14.0'
 ---
+
 
 # Product Packaging Parent
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_packaging_parent`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/14.0/product_packaging_parent>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

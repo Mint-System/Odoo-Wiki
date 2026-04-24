@@ -1,11 +1,17 @@
 ---
-title: Web Action Conditionable
 description: Bedingungen in QWeb-Template definieren.
+forge: github.com
 kind: howto
-tags:
-  - OCA
+name: web_action_conditionable
 prev: ./web
+repo: OCA/web
+tags:
+- OCA
+title: Web Action Conditionable
+versions:
+- '16.0'
 ---
+
 
 # Web Action Conditionable
 
@@ -13,5 +19,5 @@ prev: ./web
 
 {{ $frontmatter.description }}
 
-Technischer Name: `web_action_conditionable`\
-Repository: <https://github.com/OCA/web/tree/16.0/web_action_conditionable>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

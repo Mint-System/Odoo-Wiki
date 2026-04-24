@@ -1,10 +1,16 @@
 ---
-title: Sale Product Set Search
 description: Produktset anhand Name und Referenz suchen.
+forge: github.com
 kind: howto
+name: sale_product_set_search
 partner: Mint System
 prev: ./sale
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Product Set Search
+versions:
+- '17.0'
 ---
+
 
 # Sale Product Set Search
 
@@ -12,5 +18,5 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_product_set_search`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_product_set_search>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

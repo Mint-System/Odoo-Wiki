@@ -1,10 +1,16 @@
 ---
-title: Sale Order Line Name Get
 description: Produktname als Anzeigename für Verkaufspositionen.
+forge: github.com
 kind: howto
+name: sale_order_line_name_get
 partner: Mint System
 prev: ./sale
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Order Line Name Get
+versions:
+- '16.0'
 ---
+
 
 # Sale Order Line Name Get
 
@@ -12,8 +18,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_line_name_get`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_order_line_name_get>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [Sale Order Ref](Sale%20Order%20Ref.md) zu verwenden.

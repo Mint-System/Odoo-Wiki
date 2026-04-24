@@ -1,10 +1,16 @@
 ---
-title: Purchase Order Line Position
 description: Einkaufsaufträge mit Positionsnummern.
+forge: github.com
 kind: howto
+name: purchase_order_line_position
 partner: Mint System
 prev: ./order-positions
+repo: Mint-System/Odoo-Apps-Purchase-Workflow
+title: Purchase Order Line Position
+versions:
+- '19.0'
 ---
+
 
 # Purchase Order Line Position
 
@@ -12,8 +18,8 @@ prev: ./order-positions
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_order_line_position`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/19.0/purchase_order_line_position>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

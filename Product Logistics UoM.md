@@ -1,10 +1,16 @@
 ---
-title: Product Logistics UoM
 description: Individuelle Mengenheit für Produkte festlegen.
+forge: github.com
 kind: howto
+name: product_logistics_uom
 partner: OCA
 prev: ./stock
+repo: OCA/product-attribute
+title: Product Logistics UoM
+versions:
+- '17.0'
 ---
+
 
 # Product Logistics UoM
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_logistics_uom`\
-Repository: <https://github.com/OCA/product-attribute/tree/17.0/product_logistics_uom>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

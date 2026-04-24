@@ -1,10 +1,17 @@
 ---
-title: Resource Calendar Get Days
-description: Die Anzahl Tage in Abwesenheiten relativ zu den Arbeitszeiten des Unternehmens berechnen.
+description: Die Anzahl Tage in Abwesenheiten relativ zu den Arbeitszeiten des Unternehmens
+  berechnen.
+forge: github.com
 kind: howto
+name: resource_calendar_get_days
 partner: Mint System
 prev: ./hr
+repo: Mint-System/Odoo-Apps-HR
+title: Resource Calendar Get Days
+versions:
+- '15.0'
 ---
+
 
 # Resource Calendar Get Days
 
@@ -12,8 +19,8 @@ prev: ./hr
 
 {{ $frontmatter.description }}
 
-Technischer Name: `resource_calendar_get_days`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/resource_calendar_get_days>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: l10n CH Invoice Reports with Payments
 description: Rechnung mit Zahlungsschein und Zahlungsdetails drucken.
+forge: github.com
 kind: howto
+name: l10n_ch_invoice_reports_with_payments
 partner: Mint System
 prev: ./l10n-ch
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: l10n CH Invoice Reports with Payments
+versions:
+- '15.0'
 ---
+
 
 # l10n CH Invoice Reports with Payments
 
@@ -12,5 +18,5 @@ prev: ./l10n-ch
 
 {{ $frontmatter.description }}
 
-Technischer Name: `l10n_ch_invoice_reports_with_payments`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.0/l10n_ch_invoice_reports_with_payments>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

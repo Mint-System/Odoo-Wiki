@@ -1,10 +1,16 @@
 ---
-title: Project Task All Menu
 description: Menu Alle Aufgaben hinzufügen.
+forge: github.com
 kind: howto
+name: project_task_all_menu
 partner: Mint System
 prev: ./project
+repo: Mint-System/Odoo-Apps-Project
+title: Project Task All Menu
+versions:
+- '17.0'
 ---
+
 
 # Project Task All Menu
 
@@ -12,8 +18,8 @@ prev: ./project
 
 {{ $frontmatter.description }}
 
-Technischer Name: `project_task_all_menu`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/17.0/project_task_all_menu>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

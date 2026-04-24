@@ -1,10 +1,16 @@
 ---
-title: Stock Quant Package Dimension
 description: Dimensionen und geschätztes Gewicht auf Paket.
+forge: github.com
 kind: howto
+name: stock_quant_package_dimension
 partner: OCA
 prev: ./stock
+repo: OCA/stock-logistics-workflow
+title: Stock Quant Package Dimension
+versions:
+- '17.0'
 ---
+
 
 # Stock Quant Package Dimension
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_quant_package_dimension`\
-Repository: <https://github.com/OCA/stock-logistics-workflow/tree/17.0/stock_quant_package_dimension>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Maintenance Plan Activity
 description: Wartungspläne mit Aktivitäten erstellen.
+forge: github.com
 kind: howto
+name: maintenance_plan_activity
 partner: OCA
 prev: ./maintenance
+repo: OCA/maintenance
+title: Maintenance Plan Activity
+versions:
+- '16.0'
 ---
+
 
 # Maintenance Plan Activity
 
@@ -12,8 +18,8 @@ prev: ./maintenance
 
 {{ $frontmatter.description }}
 
-Technischer Name: `maintenance_plan_activity`\
-Repository: <https://github.com/OCA/maintenance/tree/16.0/maintenance_plan_activity>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

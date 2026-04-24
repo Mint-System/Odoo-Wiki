@@ -1,10 +1,16 @@
 ---
-title: Account Invoice Multiline Ref
 description: Kundenreferenz auf Verkaufsauftrag und Rechnung mit mehreren Zeilen.
+forge: github.com
 kind: howto
+name: account_invoice_multiline_ref
 partner: Mint System
 prev: ./invoicing
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Account Invoice Multiline Ref
+versions:
+- '17.0'
 ---
+
 
 # Account Invoice Multiline Ref
 
@@ -12,8 +18,8 @@ prev: ./invoicing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_invoice_multiline_ref`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/17.0/account_invoice_multiline_ref>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

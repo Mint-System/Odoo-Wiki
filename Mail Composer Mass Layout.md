@@ -1,10 +1,16 @@
 ---
-title: Mail Composer Default Template
 description: Mail-Layout beim Versand von mehreren Mails anwenden.
+forge: github.com
 kind: howto
+name: mail_composer_mass_layout
 partner: Mint System
 prev: ./discuss-e-mail
+repo: Mint-System/Odoo-Apps-Social
+title: Mail Composer Default Template
+versions:
+- '16.0'
 ---
+
 
 # Mail Composer Mass Layout
 
@@ -12,8 +18,8 @@ prev: ./discuss-e-mail
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_composer_mass_layout`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/16.0/mail_composer_mass_layout>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Seit #Odoo18 wird diese App nicht mehr benötigt. 

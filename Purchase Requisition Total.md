@@ -1,10 +1,16 @@
 ---
-title: Purchase Requisition Total
 description: Kaufvertrag mit Steuern, Zwischensummen und Total.
+forge: github.com
 kind: howto
+name: purchase_requisition_total
 partner: Mint System
 prev: ./purchase-requisition
+repo: Mint-System/Odoo-Apps-Purchase-Workflow
+title: Purchase Requisition Total
+versions:
+- '16.0'
 ---
+
 
 # Purchase Requisition Total
 
@@ -12,8 +18,8 @@ prev: ./purchase-requisition
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_requisition_total`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/16.0/purchase_requisition_total>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Odoo Sync
 description: Odoo nach Odoo synchronisieren.
+forge: github.com
 kind: howto
+name: zbsync_odoo
 partner: Zebroo
 prev: ./zebroo-sync
+repo: Odoo-Ninjas/zync-stable
+title: Odoo Sync
+versions:
+- '16.0'
 ---
+
 
 # Odoo Sync
 
@@ -12,8 +18,8 @@ prev: ./zebroo-sync
 
 {{ $frontmatter.description }}
 
-Technischer Name: `zbsync_odoo`\
-Repository: <https://github.com/Odoo-Ninjas/zync-stable/tree/16.0/zbsync_odoo>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Prometheus Exporter
 description: Odoo-Metriken mit Prometheus monitoren.
+forge: github.com
 kind: howto
+name: prometheus_exporter
 partner: Mint System
 prev: ./development
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Prometheus Exporter
+versions:
+- '19.0'
 ---
+
 
 # Prometheus Exporter
 
@@ -12,8 +18,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `prometheus_exporter`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/19.0/prometheus_exporter>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

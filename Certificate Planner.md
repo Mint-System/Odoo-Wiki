@@ -1,10 +1,16 @@
 ---
-title: Certificate Planner
 description: Anleitung zur Odoo-App Certificate Planner.
+forge: github.com
 kind: howto
+name: ''
 partner: Mint System
 prev: ./
+repo: Mint-System/Certificate-Planner
+title: Certificate Planner
+versions:
+- '16.0'
 ---
+
 
 # Certificate Planner
 
@@ -13,7 +19,7 @@ prev: ./
 {{ $frontmatter.description }}
 
 Technisch: `certificate_planer`\
-Repository: <https://github.com/Mint-System/Certificate-Planner>
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

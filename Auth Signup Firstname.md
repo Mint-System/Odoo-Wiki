@@ -1,10 +1,16 @@
 ---
-title: Auth Signup Firstname
 description: Ermöglicht die Angabe von Vorname und Nachname im Registrierungsprozess.
+forge: github.com
 kind: howto
+name: auth_signup_firstname
 partner: Mint System
 prev: ./web
+repo: Mint-System/Odoo-Apps-Website
+title: Auth Signup Firstname
+versions:
+- '18.0'
 ---
+
 
 # Auth Signup Firstname
 
@@ -12,8 +18,8 @@ prev: ./web
 
 {{ $frontmatter.description }}
 
-Technischer Name: `auth_signup_firstname`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Website/tree/18.0/auth_signup_firstname>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ### Beschreibung
 

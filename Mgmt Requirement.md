@@ -1,10 +1,16 @@
 ---
-title: Mgmt Requirement
 description: Verwalten Sie Anforderungen and die Organisation.
+forge: github.com
 kind: howto
+name: mgmt_requirement
 partner: Mint System
 prev: ./management-system
+repo: Mint-System/Odoo-Apps-Management-System
+title: Mgmt Requirement
+versions:
+- '17.0'
 ---
+
 
 # Mgmt Requirement
 
@@ -12,8 +18,8 @@ prev: ./management-system
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mgmt_requirement`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/17.0/mgmt_requirement>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

@@ -1,10 +1,16 @@
 ---
-title: Account Move Line Position
 description: Positionsnummer anzeigen und aus Verkaufs- oder Einkaufsauftrag verlinken.
+forge: github.com
 kind: howto
+name: account_move_line_position
 partner: Mint System
 prev: ./order-positions
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Account Move Line Position
+versions:
+- '17.0'
 ---
+
 
 # Account Move Line Position
 
@@ -12,8 +18,8 @@ prev: ./order-positions
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_move_line_position`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/17.0/account_move_line_position>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

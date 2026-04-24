@@ -1,10 +1,16 @@
 ---
-title: Agreement Legal
 description: Verträge und Vereinbarungen dokumentieren.
+forge: github.com
 kind: howto
+name: agreement_legal
 partner: OCA
 prev: ./documents
+repo: OCA/contract
+title: Agreement Legal
+versions:
+- '14.0'
 ---
+
 
 # Agreement Legal
 
@@ -12,8 +18,8 @@ prev: ./documents
 
 {{ $frontmatter.description }}
 
-Technischer Name: `agreement_legal`\
-Repository: <https://github.com/OCA/contract/tree/14.0/agreement_legal>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

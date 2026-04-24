@@ -1,10 +1,16 @@
 ---
-title: Mail Composer Default Template
 description: Standardvorlage für den E-Mail-Dialog festlegen.
+forge: github.com
 kind: howto
+name: mail_composer_default_template
 partner: Mint System
 prev: ./discuss-e-mail
+repo: Mint-System/Odoo-Apps-Social
+title: Mail Composer Default Template
+versions:
+- '15.0'
 ---
+
 
 # Mail Composer Default Template
 
@@ -12,8 +18,8 @@ prev: ./discuss-e-mail
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_composer_default_template`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/15.0/mail_composer_default_template>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

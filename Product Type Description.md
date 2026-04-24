@@ -1,10 +1,16 @@
 ---
-title: Product Type Description
 description: Zu jedem Produkt ein Beschreibungsfeld.
+forge: github.com
 kind: howto
+name: product_type_description
 partner: Mint System
 prev: ./manufacture
+repo: Mint-System/Odoo-Apps-Product-Attribute
+title: Product Type Description
+versions:
+- '19.0'
 ---
+
 
 # Product Type Description
 
@@ -12,8 +18,8 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_type_description`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/19.0/product_type_description>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

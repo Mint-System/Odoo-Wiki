@@ -1,10 +1,16 @@
 ---
-title: Account Statement Base
 description: Basismodul für Bankauszüge.
+forge: github.com
 kind: howto
+name: account_statement_base
 partner: OCA
 prev: ./accounting
+repo: OCA/account-reconcile
+title: Account Statement Base
+versions:
+- '19.0'
 ---
+
 
 # Account Statement Base
 
@@ -12,5 +18,5 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_statement_base`\
-Repository: <https://github.com/OCA/account-reconcile/tree/19.0/account_statement_base>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

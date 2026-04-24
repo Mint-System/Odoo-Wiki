@@ -1,10 +1,16 @@
 ---
-title: Account Financial Report Reverse Move Lines
 description: Ordnet die Buchungszeilen von neu zu alt.
+forge: github.com
 kind: howto
+name: account_financial_report_reverse_move_lines
 partner: Mint System
 prev: ./accounting
+repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
+title: Account Financial Report Reverse Move Lines
+versions:
+- '15.0'
 ---
+
 
 # Account Financial Report Reverse Move Lines
 
@@ -12,5 +18,5 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_financial_report_reverse_move_lines`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/15.0/account_financial_report_reverse_move_lines>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

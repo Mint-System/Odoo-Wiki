@@ -1,11 +1,17 @@
 ---
-title: Sale Restricted Qty
 description: Mindest- und Maximalbestellmenge für Produkte festlegen.
+forge: github.com
 kind: howto
-tags:
-  - OCA
+name: sale_restricted_qty
 prev: ./sale
+repo: OCA/sale-workflow
+tags:
+- OCA
+title: Sale Restricted Qty
+versions:
+- '17.0'
 ---
+
 
 # Sale Restricted Qty
 
@@ -13,8 +19,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_restricted_qty`\
-Repository: <https://github.com/OCA/sale-workflow/tree/17.0/sale_restricted_qty>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

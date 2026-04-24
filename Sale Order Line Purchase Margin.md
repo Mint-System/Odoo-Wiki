@@ -1,10 +1,16 @@
 ---
-title: Sale Order Line Purchase Margin
 description: Kalkulation der Marge basierend auf verlinkter Bestellung.
+forge: github.com
 kind: howto
+name: sale_order_line_purchase_margin
 partner: Mint System
 prev: ./sale-blanket-order
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Order Line Purchase Margin
+versions:
+- '17.0'
 ---
+
 
 # Sale Order Line Purchase Margin
 
@@ -12,8 +18,8 @@ prev: ./sale-blanket-order
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_line_purchase_margin`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_order_line_purchase_margin>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

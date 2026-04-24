@@ -1,10 +1,16 @@
 ---
-title: Url Slug
 description: Mixin zur Generierung von Url-Slugs.
+forge: github.com
 kind: howto
+name: url_slug
 partner: Mint System
 prev: ./development
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Url Slug
+versions:
+- '16.0'
 ---
+
 
 # Url Slug
 
@@ -12,8 +18,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `url_slug`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/url_slug>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 
 ## Entwicklung

@@ -1,9 +1,15 @@
 ---
-title: Base External Mssql
 description: Verbindung zu externer MSSQL-Datenbank herstellen.
+forge: github.com
 kind: howto
+name: base_external_mssql
 prev: ./development
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Base External Mssql
+versions:
+- '17.0'
 ---
+
 
 # Base External Mssql
 
@@ -11,8 +17,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `base_external_mssql`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/17.0/base_external_mssql>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

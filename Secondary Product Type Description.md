@@ -1,10 +1,16 @@
 ---
-title: Secondary Product Type Description
 description: Zu jedem Produkt ein Beschreibungsfeld.
+forge: github.com
 kind: howto
+name: product_type_description2
 partner: Mint System
 prev: ./manufacture
+repo: Mint-System/Odoo-Apps-Product-Attribute
+title: Secondary Product Type Description
+versions:
+- '17.0'
 ---
+
 
 # Secondary Product Type Description
 
@@ -12,8 +18,8 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_type_description2`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/17.0/product_type_description2>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

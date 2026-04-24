@@ -1,10 +1,16 @@
 ---
-title: Mail Activity Done
 description: Aktivitäten als erledigt markieren.
+forge: github.com
 kind: howto
+name: mail_activity_done
 partner: OCA
 prev: ./dashboards
+repo: OCA/social
+title: Mail Activity Done
+versions:
+- '17.0'
 ---
+
 
 # Mail Activity Done
 
@@ -12,8 +18,8 @@ prev: ./dashboards
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_activity_done`\
-Repository: <https://github.com/OCA/social/tree/17.0/mail_activity_done>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

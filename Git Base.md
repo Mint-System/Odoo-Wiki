@@ -1,10 +1,16 @@
 ---
-title: Git
 description: Git Repositories mit Odoo verwalten.
+forge: github.com
 kind: howto
+name: git_base
 partner: Mint System
 prev: ./
+repo: Mint-System/Odoo-Apps-Connector
+title: Git
+versions:
+- '17.0'
 ---
+
 
 # Git
 
@@ -12,8 +18,8 @@ prev: ./
 
 {{ $frontmatter.description }}
 
-Technischer Name: `git_base`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/17.0/git_base>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

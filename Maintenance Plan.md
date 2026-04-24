@@ -1,10 +1,16 @@
 ---
-title: Maintenance Plan
 description: Wartungspläne für Inventar erstellen.
+forge: github.com
 kind: howto
+name: maintenance_plan
 partner: OCA
 prev: ./maintenance
+repo: OCA/maintenance
+title: Maintenance Plan
+versions:
+- '17.0'
 ---
+
 
 # Maintenance Plan
 
@@ -12,8 +18,8 @@ prev: ./maintenance
 
 {{ $frontmatter.description }}
 
-Technischer Name: `maintenance_plan`\
-Repository: <https://github.com/OCA/maintenance/tree/17.0/maintenance_plan>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

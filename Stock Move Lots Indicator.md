@@ -1,10 +1,17 @@
 ---
-title: Stock Move Lots Indicator
-description: Zeigt an, ob für ein getracktes Produkt auf dem Picking bereits Serien- oder Chargennummern festgelegt wurden.
+description: Zeigt an, ob für ein getracktes Produkt auf dem Picking bereits Serien-
+  oder Chargennummern festgelegt wurden.
+forge: github.com
 kind: howto
+name: stock_move_lots_indicator
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-stock-logistics-workflow
+title: Stock Move Lots Indicator
+versions:
+- '18.0'
 ---
+
 
 # Stock Move Lots Indicator
 
@@ -12,8 +19,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_move_lots_indicator`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-stock-logistics-workflow/tree/18.0/stock_move_lots_indicator>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ### Verwendung
 

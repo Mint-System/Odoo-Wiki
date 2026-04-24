@@ -1,10 +1,16 @@
 ---
-title: Sale Order Notes
 description: Verkaufsaufträge mit Notizfelder.
+forge: github.com
 kind: howto
+name: sale_order_notes
 partner: Mint System
 prev: ./sale
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Order Notes
+versions:
+- '19.0'
 ---
+
 
 # Sale Order Notes
 
@@ -12,8 +18,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_notes`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/19.0/sale_order_notes>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

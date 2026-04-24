@@ -1,10 +1,16 @@
 ---
-title: Website Sale Float Qty
 description: Teilmengen von Produkten in Webshop bestellen.
+forge: github.com
 kind: howto
+name: website_sale_float_qty
 partner: Mint System
 prev: ./website-sale
+repo: Mint-System/Odoo-Apps-Website
+title: Website Sale Float Qty
+versions:
+- '16.0'
 ---
+
 
 # Website Sale Float Qty
 
@@ -12,8 +18,8 @@ prev: ./website-sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `website_sale_float_qty`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Website/tree/16.0/website_sale_float_qty>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

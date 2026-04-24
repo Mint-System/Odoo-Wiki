@@ -1,10 +1,16 @@
 ---
-title: Purchase Sale Order Analytic Account
 description: Kostenstelle von verlinkten Verkaufsauftrag auf Bestellung übertragen.
+forge: github.com
 kind: howto
+name: purchase_sale_order_analytic_account
 partner: Mint System
 prev: ./purchase
+repo: Mint-System/Odoo-Apps-Purchase-Workflow
+title: Purchase Sale Order Analytic Account
+versions:
+- '17.0'
 ---
+
 
 # Purchase Sale Order Analytic Account
 
@@ -12,8 +18,8 @@ prev: ./purchase
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_sale_order_analytic_account`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.0/purchase_sale_order_analytic_account>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

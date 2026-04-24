@@ -1,10 +1,16 @@
 ---
-title: Account Move Line Accounting Description Stock
 description: Beschreibung Lagerbuchung auf Rechnung übertragen.
+forge: github.com
 kind: howto
+name: account_move_line_accounting_description_stock
 partner: Mint System
 prev: ./accounting
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Account Move Line Accounting Description Stock
+versions:
+- '17.0'
 ---
+
 
 # Account Move Line Accounting Description Stock
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_move_line_accounting_description_stock`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/17.0/account_move_line_accounting_description_stock>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

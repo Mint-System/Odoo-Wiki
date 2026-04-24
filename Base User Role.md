@@ -1,10 +1,16 @@
 ---
-title: User roles
 description: Gruppenberechtigungen mit Benutzer-Rollen verwalten.
+forge: github.com
 kind: howto
+name: base_user_role
 partner: OCA
 prev: ./settings
+repo: OCA/server-backend
+title: User roles
+versions:
+- '19.0'
 ---
+
 
 # User roles
 
@@ -12,8 +18,8 @@ prev: ./settings
 
 {{ $frontmatter.description }}
 
-Technischer Name: `base_user_role`\
-Repository: <https://github.com/OCA/server-backend/tree/19.0/base_user_role>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

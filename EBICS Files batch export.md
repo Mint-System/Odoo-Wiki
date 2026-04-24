@@ -1,10 +1,16 @@
 ---
-title: EBICS Files batch export
 description: EBICS-Dateien automatisch hochladen.
+forge: github.com
 kind: howto
+name: account_ebics_batch_payment
 partner: Thirdparty
 prev: ./accounting
+repo: Noviat/account_ebics
+title: EBICS Files batch export
+versions:
+- '17.0'
 ---
+
 
 # EBICS Files batch export
 
@@ -12,9 +18,9 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_ebics_batch_payment`\
+Technischer Name: {{ $frontmatter.name }}\
 Website: <https://apps.odoo.com/apps/modules/18.0/account_ebics_batch_payment>\
-Repository: <https://github.com/Noviat/account_ebics/tree/17.0/account_ebics_batch_payment>
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

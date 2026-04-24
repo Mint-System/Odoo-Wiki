@@ -1,10 +1,16 @@
 ---
-title: Project Key Link Type
 description: Projektnummer anhand Projekttyp erstellen.
+forge: github.com
 kind: howto
+name: project_key_link_type
 partner: Mint System
 prev: ./project
+repo: Mint-System/Odoo-Apps-Project
+title: Project Key Link Type
+versions:
+- '17.0'
 ---
+
 
 # Project Key Link Type
 
@@ -12,8 +18,8 @@ prev: ./project
 
 {{ $frontmatter.description }}
 
-Technischer Name: `project_key_link_type`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/17.0/project_key_link_type>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: HR Expense Vehicle Request
 description: Brückenmodul für Fahrzeuganfrage und Auslage.
+forge: github.com
 kind: howto
+name: hr_expense_vehicle_request
 partner: Mint System
 prev: ./hr-expense
+repo: Mint-System/Odoo-Apps-HR
+title: HR Expense Vehicle Request
+versions:
+- '14.0'
 ---
+
 
 # HR Expense Vehicle Request
 
@@ -12,8 +18,8 @@ prev: ./hr-expense
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_expense_vehicle_request`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_expense_vehicle_request>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

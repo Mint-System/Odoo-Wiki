@@ -1,10 +1,16 @@
 ---
-title: Auth Impersonate User
 description: Mit einem anderen Benutzer einloggen.
+forge: github.com
 kind: howto
+name: auth_impersonate_user
 partner: Mint System
 prev: ./settings
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Auth Impersonate User
+versions:
+- '19.0'
 ---
+
 
 # Auth Impersonate User
 
@@ -12,8 +18,8 @@ prev: ./settings
 
 {{ $frontmatter.description }}
 
-Technischer Name: `auth_impersonate_user`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/19.0/auth_impersonate_user>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

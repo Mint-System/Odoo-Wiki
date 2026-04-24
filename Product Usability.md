@@ -1,10 +1,16 @@
 ---
-title: Product Usability
 description: Ansichten Produktverwaltung.
+forge: github.com
 kind: howto
+name: product_usability
 partner: OCA
 prev: ./product
+repo: OCA/product-attribute
+title: Product Usability
+versions:
+- '17.0'
 ---
+
 
 # Product Usability
 
@@ -12,8 +18,8 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_usability`\
-Repository: <https://github.com/OCA/product-attribute/tree/17.0/product_usability>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

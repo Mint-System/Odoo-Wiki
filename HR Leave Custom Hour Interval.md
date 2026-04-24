@@ -1,10 +1,16 @@
 ---
-title: HR Leave Custom Hour Interval
 description: Start- und End-Zeit für Abwesenheiten eintragen.
+forge: github.com
 kind: howto
+name: hr_leave_custom_hour_interval
 partner: OCA
 prev: ./hr-holidays
+repo: OCA/hr-holidays
+title: HR Leave Custom Hour Interval
+versions:
+- '17.0'
 ---
+
 
 # HR Leave Custom Hour Interval
 
@@ -12,8 +18,8 @@ prev: ./hr-holidays
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_leave_custom_hour_interval`\
-Repository: <https://github.com/OCA/hr-holidays/tree/17.0/hr_leave_custom_hour_interval>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

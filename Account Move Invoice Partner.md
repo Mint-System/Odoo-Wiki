@@ -1,10 +1,16 @@
 ---
-title: Account Move Invoice Partner
 description: Separate Rechnungsadresse auf Rechnung festlegen.
+forge: github.com
 kind: howto
+name: account_move_invoice_partner
 partner: Mint System
 prev: ./invoicing
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Account Move Invoice Partner
+versions:
+- '17.0'
 ---
+
 
 # Account Move Invoice Partner
 
@@ -12,8 +18,8 @@ prev: ./invoicing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_move_invoice_partner`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/17.0/account_move_invoice_partner>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,11 +1,17 @@
 ---
-title: 2D matrix for x2many fields
 description: Matrix-Auswahl für Many2Many-Feld.
+forge: github.com
 kind: howto
-tags:
-  - OCA
+name: web_widget_x2many_2d_matrix
 prev: ./development
+repo: OCA/Web
+tags:
+- OCA
+title: 2D matrix for x2many fields
+versions:
+- '17.0'
 ---
+
 
 # 2D matrix for x2many fields
 
@@ -13,5 +19,5 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `web_widget_x2many_2d_matrix`\
-Repository: <https://github.com/OCA/Web/tree/17.0/web_widget_x2many_2d_matrix>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

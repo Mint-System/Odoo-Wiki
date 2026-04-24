@@ -1,10 +1,16 @@
 ---
-title: HR Attendance User ACL
 description: Zugriff auf Anwesenheiten für Benutzer steuern.
+forge: github.com
 kind: howto
+name: hr_attendance_user_acl
 partner: Mint System
 prev: ./hr-holidays
+repo: Mint-System/Odoo-Apps-HR
+title: HR Attendance User ACL
+versions:
+- '16.0'
 ---
+
 
 # HR Attendance User ACL
 
@@ -12,8 +18,8 @@ prev: ./hr-holidays
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_attendance_user_acl`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_attendance_user_acl>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

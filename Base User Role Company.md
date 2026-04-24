@@ -1,10 +1,16 @@
 ---
-title: Base User Role Company
 description: Benutzer-Rollen in Abhängigkeit vom Unternehmen aktivieren.
+forge: github.com
 kind: howto
+name: base_user_role_company
 partner: OCA
 prev: ./settings
+repo: OCA/server-backend
+title: Base User Role Company
+versions:
+- '17.0'
 ---
+
 
 # Base User Role Company
 
@@ -12,5 +18,5 @@ prev: ./settings
 
 {{ $frontmatter.description }}
 
-Technischer Name: `base_user_role_company`\
-Repository: <https://github.com/OCA/server-backend/tree/17.0/base_user_role_company>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

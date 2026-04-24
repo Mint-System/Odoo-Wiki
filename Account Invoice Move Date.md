@@ -1,10 +1,16 @@
 ---
-title: Account Invoice Move Date
 description: Buchungs- und Rechnungsdatum unabhängig definieren.
+forge: github.com
 kind: howto
+name: account_invoice_move_date
 partner: Mint System
 prev: ./invoicing
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Account Invoice Move Date
+versions:
+- '16.0'
 ---
+
 
 # Account Invoice Move Date
 
@@ -12,5 +18,5 @@ prev: ./invoicing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_invoice_move_date`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/account_invoice_move_date>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

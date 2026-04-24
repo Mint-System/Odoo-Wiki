@@ -1,10 +1,16 @@
 ---
-title: Account Invoice Show Currency Rate
 description: Währungskurs auf Rechnungszeile anzeigen.
+forge: github.com
 kind: howto
+name: account_invoice_show_currency_rate
 partner: Mint System
 prev: ./invoicing
+repo: OCA/Account-Invoicing
+title: Account Invoice Show Currency Rate
+versions:
+- '17.0'
 ---
+
 
 # Account Invoice Show Currency Rate
 
@@ -12,5 +18,5 @@ prev: ./invoicing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_invoice_show_currency_rate`\
-Repository: <https://github.com/OCA/Account-Invoicing/tree/17.0/account_invoice_show_currency_rate>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

@@ -1,10 +1,16 @@
 ---
-title: Partner Contact Department
 description: Erweitert das Adressbuch mit Abteilungen.
+forge: github.com
 kind: howto
+name: partner_contact_department
 partner: OCA
 prev: ./contacts
+repo: OCA/partner-contact
+title: Partner Contact Department
+versions:
+- '19.0'
 ---
+
 
 # Partner Contact Department
 
@@ -12,8 +18,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_contact_department`\
-Repository: <https://github.com/OCA/partner-contact/tree/19.0/partner_contact_department>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

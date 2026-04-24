@@ -1,10 +1,16 @@
 ---
-title: Switzerland Disable Default Reports
 description: Generierung der QR- und ISR-Berichte deaktivieren.
+forge: github.com
 kind: howto
+name: l10n_ch_disable_default_reports
 partner: Mint System
 prev: ./l10n-ch
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Switzerland Disable Default Reports
+versions:
+- '16.0'
 ---
+
 
 # Switzerland Disable Default Reports
 
@@ -12,8 +18,8 @@ prev: ./l10n-ch
 
 {{ $frontmatter.description }}
 
-Technischer Name: `l10n_ch_disable_default_reports`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/l10n_ch_disable_default_reports>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

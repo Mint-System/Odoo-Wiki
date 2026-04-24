@@ -1,10 +1,16 @@
 ---
-title: Queue Job
 description: Asynchrone Ausführung von Jobs.
+forge: github.com
 kind: howto
+name: queue_job
 partner: OCA
 prev: ./development
+repo: OCA/queue
+title: Queue Job
+versions:
+- '19.0'
 ---
+
 
 # Queue Job
 
@@ -12,8 +18,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `queue_job`\
-Repository: <https://github.com/OCA/queue/tree/19.0/queue_job>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Stock Barcode MRP
-description: 'Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen.'
+description: Arbeits- und Fertigungsaufträge mit der Barcode App aufrufen.
+forge: github.com
 kind: howto
+name: stock_barcode_mrp
 partner: Mint System
 prev: ./barcode
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Barcode MRP
+versions:
+- '16.0'
 ---
+
 
 # Stock Barcode MRP
 
@@ -12,8 +18,8 @@ prev: ./barcode
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_barcode_mrp`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/16.0/stock_barcode_mrp>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

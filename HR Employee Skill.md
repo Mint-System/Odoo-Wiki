@@ -1,10 +1,16 @@
 ---
-title: HR Employee Skill
 description: Übersicht der Mitarbeiterfähigkeiten.
+forge: github.com
 kind: howto
+name: hr_employee_skill
 partner: Mint System
 prev: ./hr
+repo: Mint-System/Odoo-Apps-HR
+title: HR Employee Skill
+versions:
+- '17.0'
 ---
+
 
 # HR Employee Skill
 
@@ -12,8 +18,8 @@ prev: ./hr
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_employee_skill`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/17.0/hr_employee_skill>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

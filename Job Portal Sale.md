@@ -1,10 +1,16 @@
 ---
-title: Job Portal Sale
 description: Stelleninserate verrechnen.
+forge: github.com
 kind: howto
+name: job_portal_sale
 partner: Sozialinfo
 prev: ./
+repo: Sozialinfo/Odoo-Apps-Sozialinfo
+title: Job Portal Sale
+versions:
+- '16.0'
 ---
+
 
 # Job Portal Sale
 
@@ -12,8 +18,8 @@ prev: ./
 
 {{ $frontmatter.description }}
 
-Technischer Name: `job_portal_sale`\
-Repository: <https://github.com/Sozialinfo/Odoo-Apps-Sozialinfo/tree/16.0/job_portal_sale>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Aktionen
 

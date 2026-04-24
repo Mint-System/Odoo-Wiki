@@ -1,9 +1,15 @@
 ---
-title: Base Kardex
 description: Verbindung zu externer MSSQL-Datenbank herstellen.
+forge: github.com
 kind: howto
+name: base_kardex
 prev: ./development
+repo: Mint-System/Odoo-Apps-Connector
+title: Base Kardex
+versions:
+- '17.0'
 ---
+
 
 # Base Kardex
 
@@ -11,8 +17,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `base_kardex`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/17.0/base_kardex>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

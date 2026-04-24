@@ -1,10 +1,16 @@
 ---
-title: Stock Product Last Move
-description: 'Letztes Datum zu ein- und ausgehender Lagerbewegung anzeigen.'
+description: Letztes Datum zu ein- und ausgehender Lagerbewegung anzeigen.
+forge: github.com
 kind: howto
+name: stock_product_last_move
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Product Last Move
+versions:
+- '16.0'
 ---
+
 
 # Stock Product Last Move
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_product_last_move`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/16.0/stock_product_last_move>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

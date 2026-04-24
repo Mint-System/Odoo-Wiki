@@ -1,10 +1,16 @@
 ---
-title: Email Cc and BCC
 description: Im E-Mail-Dialog Cc und Bcc festlegen.
+forge: github.com
 kind: howto
+name: mail_composer_cc_bcc
 partner: OCA
 prev: ./discuss-e-mail
+repo: OCA/social
+title: Email Cc and BCC
+versions:
+- '17.0'
 ---
+
 
 # Email Cc and Bcc
 
@@ -12,8 +18,8 @@ prev: ./discuss-e-mail
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_composer_cc_bcc`\
-Repository: <https://github.com/OCA/social/tree/17.0/mail_composer_cc_bcc>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

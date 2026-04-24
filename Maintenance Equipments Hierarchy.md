@@ -1,10 +1,16 @@
 ---
-title: Maintenance Equipments Hierarchy
 description: Inventar hierarchisch gliedern.
+forge: github.com
 kind: howto
+name: maintenance_equipment_hierarchy
 partner: OCA
 prev: ./maintenance
+repo: OCA/maintenance
+title: Maintenance Equipments Hierarchy
+versions:
+- '17.0'
 ---
+
 
 # Maintenance Equipments Hierarchy
 
@@ -12,8 +18,8 @@ prev: ./maintenance
 
 {{ $frontmatter.description }}
 
-Technischer Name: `maintenance_equipment_hierarchy`\
-Repository: <https://github.com/OCA/maintenance/tree/17.0/maintenance_equipment_hierarchy>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

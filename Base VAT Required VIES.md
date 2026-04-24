@@ -1,10 +1,16 @@
 ---
-title: Base VAT Required VIES
 description: Die VIES-VAT-Prüfung als obligatorisch festlegen.
+forge: github.com
 kind: howto
+name: base_vat_required_vies
 partner: Mint System
 prev: ./database
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Base VAT Required VIES
+versions:
+- '16.0'
 ---
+
 
 # Base VAT Required VIES
 
@@ -12,8 +18,8 @@ prev: ./database
 
 {{ $frontmatter.description }}
 
-Technischer Name: `base_vat_required_vies`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/base_vat_required_vies>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

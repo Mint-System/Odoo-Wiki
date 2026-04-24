@@ -1,10 +1,17 @@
 ---
-title: Subscription OCA Section
-description: Ermöglicht  das Hinzufügen von Notizen und Abschnitten zu den Posten eines Abonnements (Subscription).
+description: Ermöglicht  das Hinzufügen von Notizen und Abschnitten zu den Posten
+  eines Abonnements (Subscription).
+forge: github.com
 kind: howto
+name: subscription_oca_section
 partner: Mint System
 prev: ./contract
+repo: Mint-System/Odoo-Apps-Contract
+title: Subscription OCA Section
+versions:
+- '17.0'
 ---
+
 
 # Subscription OCA Section
 
@@ -12,8 +19,8 @@ prev: ./contract
 
 {{ $frontmatter.description }}
 
-Technischer Name: `subscription_oca_section`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Contract/tree/17.0/subscription_oca_section>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

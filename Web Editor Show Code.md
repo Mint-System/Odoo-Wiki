@@ -1,10 +1,16 @@
 ---
-title: Web Editor Show Code
 description: Aktion "Code anzeigen" im HTML-Editor ohne Entwicklermodus anzeigen.
+forge: github.com
 kind: howto
+name: web_editor_show_code
 partner: Mint System
 prev: ./web
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Web Editor Show Code
+versions:
+- '14.0'
 ---
+
 
 # Web Editor Show Code
 
@@ -12,8 +18,8 @@ prev: ./web
 
 {{ $frontmatter.description }}
 
-Technischer Name: `web_editor_show_code`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/web_editor_show_code>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

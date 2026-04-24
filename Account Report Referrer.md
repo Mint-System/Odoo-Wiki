@@ -1,10 +1,16 @@
 ---
-title: Account Report Referrer
 description: Fügt den Ansprechpartner einer Rechnung der Rechnungsanalyse hinzu.
+forge: github.com
 kind: howto
+name: account_report_referrer
 partner: Mint System
 prev: ./accounting
+repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
+title: Account Report Referrer
+versions:
+- '16.0'
 ---
+
 
 # Account Report Referrer
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_report_referrer`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/16.0/account_report_referrer>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

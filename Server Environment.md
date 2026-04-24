@@ -1,10 +1,16 @@
 ---
-title: Server Environment
 description: Systemkonfigurationen aus Umgebungsvariablen laden.
+forge: github.com
 kind: howto
+name: server_environment
 partner: OCA
 prev: ./development
+repo: OCA/server-env
+title: Server Environment
+versions:
+- '19.0'
 ---
+
 
 # Server Environment
 
@@ -12,8 +18,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `server_environment`\
-Repository: <https://github.com/OCA/server-env/tree/19.0/server_environment>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

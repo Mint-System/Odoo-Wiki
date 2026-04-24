@@ -1,10 +1,16 @@
 ---
-title: HR Employee Firstname
 description: Vor- und Nachname auf Mitarbeitenden.
+forge: github.com
 kind: howto
+name: hr_employee_firstname
 partner: OCA
 prev: ./hr
+repo: OCA/hr
+title: HR Employee Firstname
+versions:
+- '19.0'
 ---
+
 
 # HR Employee Firstname
 
@@ -12,8 +18,8 @@ prev: ./hr
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_employee_firstname`\
-Repository: <https://github.com/OCA/hr/tree/19.0/hr_employee_firstname>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

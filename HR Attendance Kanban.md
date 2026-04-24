@@ -1,10 +1,16 @@
 ---
-title: HR Attendance Kanban
 description: Ein- und Auschecken mit Kanban-Board.
+forge: github.com
 kind: howto
+name: hr_attendance_kanban
 partner: OCA
 prev: ./hr-attendance
+repo: sozialinfo/hr-attendance
+title: HR Attendance Kanban
+versions:
+- '16.0'
 ---
+
 
 # HR Attendance Kanban
 
@@ -12,8 +18,8 @@ prev: ./hr-attendance
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_attendance_kanban`\
-Repository: <https://github.com/sozialinfo/hr-attendance/tree/16.0/hr_attendance_kanban>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

@@ -1,10 +1,16 @@
 ---
-title: Partner Hide Address
 description: Adressen auf Berichten ausblenden.
+forge: github.com
 kind: howto
+name: partner_hide_address
 partner: Mint System
 prev: ./contacts
+repo: Mint-System/Odoo-Apps-Partner-Contact
+title: Partner Hide Address
+versions:
+- '14.0'
 ---
+
 
 # Partner Hide Address
 
@@ -12,8 +18,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_hide_address`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/partner_hide_address>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

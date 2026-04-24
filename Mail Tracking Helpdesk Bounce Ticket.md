@@ -1,10 +1,16 @@
 ---
-title: Mail Tracking Helpdesk Bounce Ticket
 description: Für E-Mails mit dem Status Bounced ein Helpdesk-Ticket erstellen.
+forge: github.com
 kind: howto
+name: mail_tracking_helpdesk_bounce_ticket
 partner: Mint System
 prev: ./discuss
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Mail Tracking Helpdesk Bounce Ticket
+versions:
+- '16.0'
 ---
+
 
 # Mail Tracking Helpdesk Bounce Ticket
 
@@ -12,8 +18,8 @@ prev: ./discuss
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_tracking_helpdesk_bounce_ticket`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/mail_tracking_helpdesk_bounce_ticket>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Vor der Installation dieses Moduls wird empfohlen alle E-Mails im Status _Bounced_ aus Odoo zu löschen oder den Status dieser E-Mails manuell zu ändern.

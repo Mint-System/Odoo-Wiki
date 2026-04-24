@@ -1,10 +1,16 @@
 ---
-title: Account Move Reconciled Date
 description: Das letzte Zahlungs- und Abstimmungsdatum von Rechnungen anzeigen.
+forge: github.com
 kind: howto
+name: account_move_reconciled_date
 partner: Mint System
 prev: ./accounting
+repo: Mint-System/Odoo-Apps-Account-Reconcile
+title: Account Move Reconciled Date
+versions:
+- '17.0'
 ---
+
 
 # Account Move Reconciled Date
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_move_reconciled_date`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Reconcile/tree/17.0/account_move_reconciled_date>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Partner Type Sale
 description: Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.
+forge: github.com
 kind: howto
+name: partner_type_sale
 partner: Mint System
 prev: ./contacts
+repo: Mint-System/Odoo-Apps-Partner-Contact
+title: Partner Type Sale
+versions:
+- '17.0'
 ---
+
 
 # Partner Type Sale
 
@@ -12,8 +18,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_type_sale`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/17.0/partner_type_sale>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Mail Template Subscribe
 description: Beim Versenden einer Nachricht Kontakte gemäss Domain-Filter abonnieren.
+forge: github.com
 kind: howto
+name: mail_template_subscribe
 partner: Mint System
 prev: ./discuss-e-mail
+repo: Mint-System/Odoo-Apps-Social
+title: Mail Template Subscribe
+versions:
+- '16.0'
 ---
+
 
 # Mail Template Subscribe
 
@@ -12,8 +18,8 @@ prev: ./discuss-e-mail
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_template_subscribe`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/16.0/mail_template_subscribe>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

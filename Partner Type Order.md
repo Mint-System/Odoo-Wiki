@@ -1,10 +1,16 @@
 ---
-title: Partner Type Order
 description: Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.
+forge: github.com
 kind: howto
+name: partner_type_order
 partner: Mint System
 prev: ./contacts
+repo: Mint-System/Odoo-Apps-Partner-Contact
+title: Partner Type Order
+versions:
+- '17.0'
 ---
+
 
 # Partner Type Order
 
@@ -12,8 +18,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_type_order`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/17.0/partner_type_order>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

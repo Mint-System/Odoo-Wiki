@@ -1,10 +1,16 @@
 ---
-title: Account Move Line Contra Accounts
 description: Gegenkontos auf Buchungszeilen anzeigen.
+forge: github.com
 kind: howto
+name: account_move_line_contra_accounts
 partner: Mint System
 prev: ./accounting
+repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
+title: Account Move Line Contra Accounts
+versions:
+- '17.0'
 ---
+
 
 # Account Move Line Contra Accounts
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_move_line_contra_accounts`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/17.0/account_move_line_contra_accounts>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

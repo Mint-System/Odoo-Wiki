@@ -1,10 +1,16 @@
 ---
-title: Mgmt Requirement Knowledge
 description: Fügen Sie Dokumentation zu Ihren Requirements hinzu.
+forge: github.com
 kind: howto
+name: mgmt_requirement_knowledge
 partner: Mint System
 prev: ./management-system
+repo: Mint-System/Odoo-Apps-Management-System
+title: Mgmt Requirement Knowledge
+versions:
+- '19.0'
 ---
+
 
 # Mgmt Requirement Knowledge
 
@@ -12,8 +18,8 @@ prev: ./management-system
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mgmt_requirement_knowledge`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/19.0/mgmt_requirement_knowledge>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 
 ## Verwendung

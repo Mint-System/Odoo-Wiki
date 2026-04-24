@@ -1,10 +1,16 @@
 ---
-title: HR Timesheet Multiline Name
 description: Mehrzeilige Beschreibung in Zeiterfassung.
+forge: github.com
 kind: howto
+name: hr_timesheet_multiline_name
 partner: Mint System
 prev: ./hr-timesheet
+repo: Mint-System/Odoo-Apps-HR
+title: HR Timesheet Multiline Name
+versions:
+- '17.0'
 ---
+
 
 # HR Timesheet Multiline Name
 
@@ -12,8 +18,8 @@ prev: ./hr-timesheet
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_timesheet_multiline_name`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/17.0/hr_timesheet_multiline_name>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

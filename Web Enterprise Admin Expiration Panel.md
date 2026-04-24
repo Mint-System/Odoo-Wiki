@@ -1,10 +1,16 @@
 ---
-title: Web Enterprise Admin Expiration Panel
 description: Meldung Ablauf der Datenbank nur für Admins anzeigen.
+forge: github.com
 kind: howto
+name: web_enterprise_admin_expiration_panel
 partner: Mint System
 prev: ./settings
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Web Enterprise Admin Expiration Panel
+versions:
+- '16.0'
 ---
+
 
 # Web Enterprise Admin Expiration Panel
 
@@ -12,8 +18,8 @@ prev: ./settings
 
 {{ $frontmatter.description }}
 
-Technischer Name: `web_enterprise_admin_expiration_panel`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/web_enterprise_admin_expiration_panel>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

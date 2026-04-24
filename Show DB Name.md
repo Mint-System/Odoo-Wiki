@@ -1,10 +1,16 @@
 ---
-title: Show DB Name
 description: Zeigt den Datenbanknamen oben rechts an.
+forge: github.com
 kind: howto
+name: show_db_name
 partner: Mint System
 prev: ./base
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Show DB Name
+versions:
+- '14.0'
 ---
+
 
 # Show DB Name
 
@@ -12,8 +18,8 @@ prev: ./base
 
 {{ $frontmatter.description }}
 
-Technischer Name: `show_db_name`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/14.0/show_db_name>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Seit #Odoo14  wird diese App nicht mehr benötigt. 

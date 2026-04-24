@@ -1,10 +1,16 @@
 ---
-title: Date Range
 description: Verwaltung von Datums-Bereichen zur Filterung von Daten.
+forge: github.com
 kind: howto
+name: date_range
 partner: OCA
 prev: ./development
+repo: OCA/server-ux
+title: Date Range
+versions:
+- '19.0'
 ---
+
 
 # Date Range
 
@@ -12,8 +18,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `date_range`\
-Repository: <https://github.com/OCA/server-ux/tree/19.0/date_range>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

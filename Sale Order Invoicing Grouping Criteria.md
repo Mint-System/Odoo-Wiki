@@ -1,10 +1,16 @@
 ---
-title: Sale Order Invoicing Grouping Criteria
 description: Kriterien zur Gruppierung in der Rechnungstellung festlegen.
+forge: github.com
 kind: howto
+name: sale_order_invoicing_grouping_criteria
 partner: OCA
 prev: ./invoicing
+repo: OCA/account-invoicing
+title: Sale Order Invoicing Grouping Criteria
+versions:
+- '17.0'
 ---
+
 
 # Sale Order Invoicing Grouping Criteria
 
@@ -12,8 +18,8 @@ prev: ./invoicing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_invoicing_grouping_criteria`\
-Repository: <https://github.com/OCA/account-invoicing/tree/17.0/sale_order_invoicing_grouping_criteria>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

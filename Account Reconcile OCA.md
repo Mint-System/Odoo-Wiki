@@ -1,10 +1,16 @@
 ---
-title: Account Reconcile OCA
 description: OCA-Lösung für die Bank-Abstimmung.
+forge: github.com
 kind: howto
+name: account_reconcile_oca
 partner: OCA
 prev: ./accounting
+repo: OCA/account-reconcile
+title: Account Reconcile OCA
+versions:
+- '17.0'
 ---
+
 
 # Account Reconcile OCA
 
@@ -12,5 +18,5 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_reconcile_oca`\
-Repository: <https://github.com/OCA/account-reconcile/tree/17.0/account_reconcile_oca>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

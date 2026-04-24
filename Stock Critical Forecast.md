@@ -1,10 +1,17 @@
 ---
-title: Stock Critical Forecast
-description: Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung anzeigen.
+description: Kritisches Datum für gelieferte Produkte und Komponenten in der Fertigung
+  anzeigen.
+forge: github.com
 kind: howto
+name: stock_critical_forecast
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Critical Forecast
+versions:
+- '17.0'
 ---
+
 
 # Stock Critical Forecast
 
@@ -12,8 +19,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_critical_forecast`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_critical_forecast>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

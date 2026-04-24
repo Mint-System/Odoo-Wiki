@@ -1,10 +1,16 @@
 ---
-title: Spreadsheet Dashboard Disable Share
 description: Das Teilen von Dashboards deaktivieren.
+forge: github.com
 kind: howto
+name: spreadsheet_dashboard_disable_share
 partner: Mint System
 prev: ./spreadsheets
+repo: Mint-System/Odoo-Apps-Spreadsheet
+title: Spreadsheet Dashboard Disable Share
+versions:
+- '18.0'
 ---
+
 
 # Spreadsheet Dashboard Disable Share
 
@@ -12,5 +18,5 @@ prev: ./spreadsheets
 
 {{ $frontmatter.description }}
 
-Technischer Name: `spreadsheet_dashboard_disable_share`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Spreadsheet/tree/18.0/spreadsheet_dashboard_disable_share>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

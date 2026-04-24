@@ -1,10 +1,16 @@
 ---
-title: Auth OAuth Keycloak
 description: Ermöglich Keycloak Integration mit Odoo OAuth.
+forge: github.com
 kind: howto
+name: auth_oauth_keycloak
 partner: Mint System
 prev: ./settings
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Auth OAuth Keycloak
+versions:
+- '15.0'
 ---
+
 
 # Auth OAuth Keycloak
 
@@ -12,8 +18,8 @@ prev: ./settings
 
 {{ $frontmatter.description }}
 
-Technischer Name: `auth_oauth_keycloak`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/15.0/auth_oauth_keycloak>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Diese App ist veraltet. Es wird empfohlen die App [Auth OIDC](Auth%20OIDC.md) zu verwenden.

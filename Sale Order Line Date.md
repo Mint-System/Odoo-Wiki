@@ -1,10 +1,16 @@
 ---
-title: Sale Order Line Date
 description: Lieferdatum pro Position.
+forge: github.com
 kind: howto
+name: sale_order_line_date
 partner: OCA
 prev: ./sale
+repo: OCA/sale-workflow
+title: Sale Order Line Date
+versions:
+- '19.0'
 ---
+
 
 # Sale Order Line Date
 
@@ -12,8 +18,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_line_date`\
-Repository: <https://github.com/OCA/sale-workflow/tree/19.0/sale_order_line_date>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

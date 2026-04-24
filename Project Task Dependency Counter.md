@@ -1,10 +1,16 @@
 ---
-title: Project Task Dependency Counter
 description: Smart Button für abhängige Aufgaben.
+forge: github.com
 kind: howto
+name: project_task_dependency_counter
 partner: Mint System
 prev: ./project
+repo: Mint-System/Odoo-Apps-Project
+title: Project Task Dependency Counter
+versions:
+- '15.0'
 ---
+
 
 # Project Task Dependency Counter
 
@@ -12,8 +18,8 @@ prev: ./project
 
 {{ $frontmatter.description }}
 
-Technischer Name: `project_task_dependency_counter`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/15.0/project_task_dependency_counter>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

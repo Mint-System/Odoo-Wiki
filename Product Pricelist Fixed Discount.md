@@ -1,10 +1,16 @@
 ---
-title: Product Pricelist Fixed Discount
 description: Festpreise in Preisliste mit Rabatt.
+forge: github.com
 kind: howto
+name: product_pricelist_fixed_discount
 partner: Mint System
 prev: ./product
+repo: Mint-System/Odoo-Apps-Product-Attribute
+title: Product Pricelist Fixed Discount
+versions:
+- '16.0'
 ---
+
 
 # Product Pricelist Fixed Discount
 
@@ -12,8 +18,8 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_pricelist_fixed_discount`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/16.0/product_pricelist_fixed_discount>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

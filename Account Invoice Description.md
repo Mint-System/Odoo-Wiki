@@ -1,10 +1,16 @@
 ---
-title: Account Invoice Description
 description: Beschreibungsfeld auf Rechnung.
+forge: github.com
 kind: howto
+name: account_invoice_description
 partner: Mint System
 prev: ./accounting
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Account Invoice Description
+versions:
+- '17.0'
 ---
+
 
 # Account Invoice Description
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_invoice_description`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/17.0/account_invoice_description>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

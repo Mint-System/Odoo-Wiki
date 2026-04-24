@@ -1,10 +1,16 @@
 ---
-title: Mail Tracking
 description: Tracking-Status für jede versendete E-Mail.
+forge: github.com
 kind: howto
+name: mail_tracking
 partner: OCA
 prev: ./discuss
+repo: OCA/mail
+title: Mail Tracking
+versions:
+- '18.0'
 ---
+
 
 # Mail Tracking
 
@@ -12,8 +18,8 @@ prev: ./discuss
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_tracking`\
-Repository: <https://github.com/OCA/mail/tree/18.0/mail_tracking>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

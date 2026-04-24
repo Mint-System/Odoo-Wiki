@@ -1,10 +1,16 @@
 ---
-title: SSH
 description: SSH-Schlüssel verwalten.
+forge: github.com
 kind: howto
-prev: ./connector
+name: ssh
 partner: Mint System
+prev: ./connector
+repo: Mint-System/Odoo-Apps-Connector
+title: SSH
+versions:
+- '16.0'
 ---
+
 
 # SSH
 
@@ -12,8 +18,8 @@ partner: Mint System
 
 {{ $frontmatter.description }}
 
-Technischer Name: `ssh`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/16.0/ssh>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

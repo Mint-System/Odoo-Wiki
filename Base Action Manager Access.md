@@ -1,10 +1,16 @@
 ---
-title: Base Action Manager Access
-description: 'Zugriff auf Aktionen für Gruppe Administration / Zugriffsrechte.'
+description: Zugriff auf Aktionen für Gruppe Administration / Zugriffsrechte.
+forge: github.com
 kind: howto
+name: base_action_manager_access
 partner: Mint System
 prev: ./base
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Base Action Manager Access
+versions:
+- '16.0'
 ---
+
 
 # Base Action Manager Access
 
@@ -12,8 +18,8 @@ prev: ./base
 
 {{ $frontmatter.description }}
 
-Technischer Name: `base_action_manager_access`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/base_action_manager_access>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

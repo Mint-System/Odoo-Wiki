@@ -1,10 +1,16 @@
 ---
-title: Website Sale Firstname
 description: Vor- und Nachname auf Adressformular.
+forge: github.com
 kind: howto
+name: website_sale_firstname
 partner: OCA
 prev: ./website-sale
+repo: OCA/e-commerce
+title: Website Sale Firstname
+versions:
+- '11.0'
 ---
+
 
 # Website Sale Firstname
 
@@ -12,8 +18,8 @@ prev: ./website-sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `website_sale_firstname`\
-Repository: <https://github.com/OCA/e-commerce/tree/11.0/website_sale_firstname>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

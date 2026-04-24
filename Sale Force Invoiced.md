@@ -1,10 +1,16 @@
 ---
-title: Sale Force Invoiced
 description: Markieren Sie den Verkaufsauftrag als abgerechnet.
+forge: github.com
 kind: howto
+name: sale_force_invoiced
 partner: OCA
 prev: ./sale
+repo: OCA/sale-workflow
+title: Sale Force Invoiced
+versions:
+- '19.0'
 ---
+
 
 # Sale Force Invoiced
 
@@ -12,8 +18,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_force_invoiced`\
-Repository: <https://github.com/OCA/sale-workflow/tree/19.0/sale_force_invoiced>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

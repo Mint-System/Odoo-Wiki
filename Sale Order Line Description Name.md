@@ -1,10 +1,16 @@
 ---
-title: Sale Order Line Description Name
 description: Produktname in Beschreibung ohne interne Referenz.
+forge: github.com
 kind: howto
+name: sale_order_line_description_name
 partner: Mint System
 prev: ./sale-order-line-description
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Order Line Description Name
+versions:
+- '17.0'
 ---
+
 
 # Sale Order Line Description Name
 
@@ -12,8 +18,8 @@ prev: ./sale-order-line-description
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_line_description_name`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_order_line_description_name>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

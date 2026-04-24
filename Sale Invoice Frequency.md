@@ -1,10 +1,16 @@
 ---
-title: Sale Invoice Frequency
 description: Verrechnungsintervalle auf Kontakte und Verkaufsaufträge.
+forge: github.com
 kind: howto
+name: sale_invoice_frequency
 partner: OCA
 prev: ./invoicing
+repo: OCA/sale-workflow
+title: Sale Invoice Frequency
+versions:
+- '19.0'
 ---
+
 
 # Sale Invoice Frequency
 
@@ -12,8 +18,8 @@ prev: ./invoicing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_invoice_frequency`\
-Repository: <https://github.com/OCA/sale-workflow/tree/19.0/sale_invoice_frequency>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

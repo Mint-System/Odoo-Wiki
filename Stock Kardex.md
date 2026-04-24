@@ -1,10 +1,16 @@
 ---
-title: Stock Kardex
 description: Kommunikation mit externem Kardex-Produktionssystem.
+forge: github.com
 kind: howto
+name: stock_kardex
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Connector
+title: Stock Kardex
+versions:
+- '17.0'
 ---
+
 
 # Stock Kardex
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_kardex`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/17.0/stock_kardex>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

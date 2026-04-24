@@ -1,10 +1,16 @@
 ---
-title: Sale Order Contact Person
 description: Kontaktperson auf Verkaufsauftrag festlegen.
+forge: github.com
 kind: howto
+name: sale_order_contact_person
 partner: Mint System
 prev: ./sale
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Order Contact Person
+versions:
+- '15.0'
 ---
+
 
 # Sale Order Contact Person
 
@@ -12,8 +18,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_contact_person`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/15.0/sale_order_contact_person>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [Sale Order Sale Partner](Sale%20Order%20Sale%20Partner.md) zu verwenden.

@@ -1,10 +1,16 @@
 ---
-title: Module Auto Update
 description: Aktualisiert automatisch neue Versionen von Odoo Modulen.
+forge: github.com
 kind: howto
+name: module_auto_update
 partner: OCA
 prev: ./base
+repo: OCA/server-tools
+title: Module Auto Update
+versions:
+- '19.0'
 ---
+
 
 # Module Auto Update
 
@@ -12,8 +18,8 @@ prev: ./base
 
 {{ $frontmatter.description }}
 
-Technischer Name: `module_auto_update`\
-Repository: <https://github.com/OCA/server-tools/tree/19.0/module_auto_update>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

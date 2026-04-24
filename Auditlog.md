@@ -1,10 +1,16 @@
 ---
-title: Audit Log
 description: Operationen auf Daten loggen.
+forge: github.com
 kind: howto
+name: auditlog
 partner: OCA
 prev: ./database
+repo: OCA/server-tools
+title: Audit Log
+versions:
+- '17.0'
 ---
+
 
 # Audit Log
 
@@ -12,8 +18,8 @@ prev: ./database
 
 {{ $frontmatter.description }}
 
-Technischer Name: `auditlog`\
-Repository: <https://github.com/OCA/server-tools/tree/17.0/auditlog>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

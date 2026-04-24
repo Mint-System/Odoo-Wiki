@@ -1,10 +1,16 @@
 ---
-title: Account Payment Mode
 description: Stapelzahlungen für die Odoo Community Edition.
+forge: github.com
 kind: howto
+name: account_payment_order
 partner: OCA
 prev: ./accounting
+repo: OCA/bank-payment
+title: Account Payment Mode
+versions:
+- '19.0'
 ---
+
 
 # Account Payment Order
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_payment_order`\
-Repository: <https://github.com/OCA/bank-payment/tree/19.0/account_payment_order>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

@@ -1,11 +1,17 @@
 ---
-title: Fs Folder
 description: Dateien und Ordner mit externem Dateisystem verlinken.
+forge: github.com
 kind: howto
-tags:
-  - OCA
+name: fs_folder
 prev: ./development
+repo: OCA/Storage
+tags:
+- OCA
+title: Fs Folder
+versions:
+- '19.0'
 ---
+
 
 # Fs Folder
 
@@ -13,5 +19,5 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `fs_folder`\
-Repository: <https://github.com/OCA/Storage/tree/19.0/fs_folder>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

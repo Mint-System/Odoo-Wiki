@@ -1,10 +1,16 @@
 ---
-title: Report QWeb PDF Watermark
 description: Wasserzeichen auf PDF-Berichte hinzufügen.
+forge: github.com
 kind: howto
+name: report_qweb_pdf_watermark
 partner: OCA
 prev: ./development
+repo: OCA/reporting-engine
+title: Report QWeb PDF Watermark
+versions:
+- '17.0'
 ---
+
 
 # Report QWeb PDF Watermark
 
@@ -12,8 +18,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `report_qweb_pdf_watermark`\
-Repository: <https://github.com/OCA/reporting-engine/tree/17.0/report_qweb_pdf_watermark>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

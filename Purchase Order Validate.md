@@ -1,10 +1,16 @@
 ---
-title: Purchase Order Validate
 description: Bestellung vor Versenden oder Bestätigen überprüfen.
+forge: github.com
 kind: howto
+name: purchase_order_validate
 partner: Mint System
 prev: ./purchase
+repo: Mint-System/Odoo-Apps-Purchase-Workflow
+title: Purchase Order Validate
+versions:
+- '17.0'
 ---
+
 
 # Purchase Order Validate
 
@@ -12,8 +18,8 @@ prev: ./purchase
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_order_validate`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/17.0/purchase_order_validate>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

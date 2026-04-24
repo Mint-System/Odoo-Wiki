@@ -1,10 +1,16 @@
 ---
-title: Account Move Line Date Order
 description: Auftragsdatum von Verkaufsauftrag auf Liste Buchungszeilen anzeigen.
+forge: github.com
 kind: howto
+name: account_move_line_date_order
 partner: Mint System
 prev: ./order-positions
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Account Move Line Date Order
+versions:
+- '16.0'
 ---
+
 
 # Account Move Line Date Order
 
@@ -12,8 +18,8 @@ prev: ./order-positions
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_move_line_date_order`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/account_move_line_date_order>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

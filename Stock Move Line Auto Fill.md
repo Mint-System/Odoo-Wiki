@@ -1,10 +1,16 @@
 ---
-title: Stock Move Line Auto Fill
 description: Die erledigte Menge auf einem Transfer automatisch ausfüllen.
+forge: github.com
 kind: howto
+name: stock_move_line_auto_fill
 partner: OCA
 prev: ./stock
+repo: OCA/stock-logistics-workflow
+title: Stock Move Line Auto Fill
+versions:
+- '16.0'
 ---
+
 
 # Stock Move Line Auto Fill
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_move_line_auto_fill`\
-Repository: <https://github.com/OCA/stock-logistics-workflow/tree/16.0/stock_move_line_auto_fill>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: HR Employee Employ Like
 description: Neues Feld Anstellung wie auf Mitarbeitenden.
+forge: github.com
 kind: howto
+name: hr_employee_employ_like
 partner: Mint System
 prev: ./hr
+repo: Mint-System/Odoo-Apps-HR
+title: HR Employee Employ Like
+versions:
+- '14.0'
 ---
+
 
 # HR Employee Employ Like
 
@@ -12,8 +18,8 @@ prev: ./hr
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_employee_employ_like`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_employee_employ_like>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

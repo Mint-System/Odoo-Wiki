@@ -1,10 +1,16 @@
 ---
-title: Sale Blanket Order Stock Terms
 description: Legen Sie Lieferbedingungen auf dem Rahmenauftrag fest.
+forge: github.com
 kind: howto
+name: sale_blanket_order_stock_terms
 partner: Mint System
 prev: ./sale-blanket-order
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Blanket Order Stock Terms
+versions:
+- '17.0'
 ---
+
 
 # Sale Blanket Order Stock Terms
 
@@ -12,8 +18,8 @@ prev: ./sale-blanket-order
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_blanket_order_stock_terms`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_blanket_order_stock_terms>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

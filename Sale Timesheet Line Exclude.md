@@ -1,10 +1,16 @@
 ---
-title: Sale Timesheet Line Exclude
 description: Zeiterfassungseinträge als nicht abrechenbar markieren.
+forge: github.com
 kind: howto
+name: sale_timesheet_line_exclude
 partner: OCA
 prev: ./hr-timesheet
+repo: OCA/timesheet
+title: Sale Timesheet Line Exclude
+versions:
+- '17.0'
 ---
+
 
 # Sale Timesheet Line Exclude
 
@@ -12,8 +18,8 @@ prev: ./hr-timesheet
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_timesheet_line_exclude`\
-Repository: <https://github.com/OCA/timesheet/tree/17.0/sale_timesheet_line_exclude>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

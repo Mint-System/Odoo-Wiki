@@ -1,10 +1,16 @@
 ---
-title: Web Font Arial
 description: Fügt Schriftart Arial der Auswahl hinzu.
+forge: github.com
 kind: howto
+name: web_font_arial
 partner: Mint System
 prev: ./web
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Web Font Arial
+versions:
+- '17.0'
 ---
+
 
 # Web Font Arial
 
@@ -12,5 +18,5 @@ prev: ./web
 
 {{ $frontmatter.description }}
 
-Technischer Name: `web_font_arial`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/17.0/web_font_arial>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

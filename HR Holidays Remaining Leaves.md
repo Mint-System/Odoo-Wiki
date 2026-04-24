@@ -1,10 +1,16 @@
 ---
-title: HR Holidays Remining Leaves
 description: Verbleibende Urlaubsansprüche der Mitarbeitenden anzeigen.
+forge: github.com
 kind: howto
+name: hr_holidays_remaining_leaves
 partner: Mint System
 prev: ./hr-holidays
+repo: Mint-System/Odoo-Apps-HR
+title: HR Holidays Remining Leaves
+versions:
+- '17.0'
 ---
+
 
 # HR Holidays Remining Leaves
 
@@ -12,8 +18,8 @@ prev: ./hr-holidays
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_holidays_remaining_leaves`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/17.0/hr_holidays_remaining_leaves>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

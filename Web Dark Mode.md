@@ -1,10 +1,16 @@
 ---
-title: Web Dark Mode
 description: Dark mode für Web-Oberfläche.
+forge: github.com
 kind: howto
+name: web_dark_mode
 partner: OCA
 prev: ./web
+repo: OCA/web
+title: Web Dark Mode
+versions:
+- '16.0'
 ---
+
 
 # Web Dark Mode
 
@@ -12,8 +18,8 @@ prev: ./web
 
 {{ $frontmatter.description }}
 
-Technischer Name: `web_dark_mode`\
-Repository: <https://github.com/OCA/web/tree/16.0/web_dark_mode>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

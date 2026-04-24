@@ -1,10 +1,16 @@
 ---
-title: MIS Template Financial Report
 description: Bilanz und Erfolgsrechnung für Odoo Community.
+forge: github.com
 kind: howto
+name: mis_template_financial_report
 partner: OCA
 prev: ./dashboards
+repo: OCA/account-financial-reporting
+title: MIS Template Financial Report
+versions:
+- '17.0'
 ---
+
 
 # MIS Template Financial Report
 
@@ -12,8 +18,8 @@ prev: ./dashboards
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mis_template_financial_report`\
-Repository: <https://github.com/OCA/account-financial-reporting/tree/17.0/mis_template_financial_report>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ### Bericht Bilanz erstellen
 

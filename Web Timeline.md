@@ -1,10 +1,16 @@
 ---
-title: Web Timeline
 description: Die Timeline-Ansicht für alle Objekte.
+forge: github.com
 kind: howto
+name: web_timeline
 partner: OCA
 prev: ./development
+repo: OCA/web
+title: Web Timeline
+versions:
+- '17.0'
 ---
+
 
 # Web Timeline
 
@@ -12,8 +18,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `web_timeline`\
-Repository: <https://github.com/OCA/web/tree/17.0/web_timeline>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Project Timesheet Limit
 description: Erfassbare Zeit auf geplante Zeit limitieren.
+forge: github.com
 kind: howto
+name: project_timesheet_limit
 partner: Mint System
 prev: ./hr-timesheet
+repo: Mint-System/Odoo-Apps-HR
+title: Project Timesheet Limit
+versions:
+- '17.0'
 ---
+
 
 # Project Timesheet Limit
 
@@ -12,8 +18,8 @@ prev: ./hr-timesheet
 
 {{ $frontmatter.description }}
 
-Technischer Name: `project_timesheet_limit`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/17.0/project_timesheet_limit>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

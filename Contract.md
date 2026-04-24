@@ -1,10 +1,16 @@
 ---
-title: Verträge
 description: Wiederholende Verträge verwalten und automatisch verrechnen.
+forge: github.com
 kind: howto
-prev: ./
+name: contract
 partner: OCA
+prev: ./
+repo: OCA/contract
+title: Verträge
+versions:
+- '17.0'
 ---
+
 
 # Verträge
 
@@ -12,8 +18,8 @@ partner: OCA
 
 {{ $frontmatter.description }}
 
-Technischer Name: `contract`\
-Repository: <https://github.com/OCA/contract/tree/17.0/contract>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Erweiterungen
 

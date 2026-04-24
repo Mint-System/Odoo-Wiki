@@ -1,10 +1,16 @@
 ---
-title: Sale Subscription Invoice Draft
 description: Stellt sicher, dass Rechnungen aus Abonnements nicht gebucht werden.
+forge: github.com
 kind: howto
+name: sale_subscription_invoice_draft
 partner: Mint System
 prev: ./subscription
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Subscription Invoice Draft
+versions:
+- '18.0'
 ---
+
 
 # Sale Subscription Invoice Draft
 
@@ -12,8 +18,8 @@ prev: ./subscription
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_subscription_invoice_draft`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/18.0/sale_subscription_invoice_draft>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ### Verwendung
 

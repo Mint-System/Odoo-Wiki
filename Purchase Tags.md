@@ -1,10 +1,16 @@
 ---
-title: Purchase Tags
 description: Einkaufsbestellungen mit Stichwörter.
+forge: github.com
 kind: howto
+name: purchase_tag
 partner: OCA
 prev: ./purchase-requisition
+repo: OCA/purchase-workflow
+title: Purchase Tags
+versions:
+- '17.0'
 ---
+
 
 # Purchase Tags
 
@@ -12,8 +18,8 @@ prev: ./purchase-requisition
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_tag`\
-Repository: <https://github.com/OCA/purchase-workflow/tree/17.0/purchase_tag>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

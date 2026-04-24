@@ -1,10 +1,16 @@
 ---
-title: Stock Move Weight UoM
 description: Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.
+forge: github.com
 kind: howto
+name: stock_move_weight_uom
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Move Weight UoM
+versions:
+- '17.0'
 ---
+
 
 # Stock Move Weight UoM
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_move_weight_uom`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_move_weight_uom>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

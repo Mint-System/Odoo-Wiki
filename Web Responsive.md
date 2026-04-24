@@ -1,10 +1,16 @@
 ---
-title: Web Responsive
 description: Responsive Anzeige der Odoo-Oberfläche.
+forge: github.com
 kind: howto
+name: web_responsive
 partner: OCA
 prev: ./web
+repo: OCA/web
+title: Web Responsive
+versions:
+- '19.0'
 ---
+
 
 # Web Responsive
 
@@ -12,8 +18,8 @@ prev: ./web
 
 {{ $frontmatter.description }}
 
-Technischer Name: `web_responsive`\
-Repository: <https://github.com/OCA/web/tree/19.0/web_responsive>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

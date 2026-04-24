@@ -1,10 +1,16 @@
 ---
-title: Partner Secondary Name
 description: Zweitname für Unternehmen.
+forge: github.com
 kind: howto
+name: partner_secondary_name
 partner: Mint System
 prev: ./contacts
+repo: Mint-System/Odoo-Apps-Partner-Contact
+title: Partner Secondary Name
+versions:
+- '17.0'
 ---
+
 
 # Partner Secondary Name
 
@@ -12,8 +18,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_secondary_name`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/17.0/partner_secondary_name>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

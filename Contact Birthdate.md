@@ -1,10 +1,16 @@
 ---
-title: Contact Birthdate
 description: Geburtstag bei Kontakten speichern für tolle Erinnerungen.
+forge: github.com
 kind: howto
+name: partner_contact_birthdate
 partner: OCA
 prev: ./contacts
+repo: OCA/partner-contact
+title: Contact Birthdate
+versions:
+- '17.0'
 ---
+
 
 # Contact Birthdate
 
@@ -12,8 +18,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_contact_birthdate`\
-Repository: <https://github.com/OCA/partner-contact/tree/17.0/partner_contact_birthdate>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Diese Dokumentation wurde durch [Partner Contact Birthdate](Partner%20Contact%20Birthdate.md) ersetzt.

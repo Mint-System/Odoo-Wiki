@@ -1,10 +1,16 @@
 ---
-title: HR Vehicle Request Calendar
 description: Kalenderansicht und Terminbestätigung für Fahrzeuganfragen.
+forge: github.com
 kind: howto
+name: hr_vehicle_request_calendar
 partner: Mint System
 prev: ./hr
+repo: Mint-System/Odoo-Apps-HR
+title: HR Vehicle Request Calendar
+versions:
+- '14.0'
 ---
+
 
 # HR Vehicle Request Calendar
 
@@ -12,8 +18,8 @@ prev: ./hr
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_vehicle_request_calendar`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_vehicle_request_calendar>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

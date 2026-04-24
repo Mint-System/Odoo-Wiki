@@ -1,10 +1,16 @@
 ---
-title: Fetchmail Incoming Log
 description: Loggt Informationen zu eingehenden E-Mails.
+forge: github.com
 kind: howto
+name: fetchmail_incoming_log
 partner: OCA
 prev: ./base
+repo: OCA/server-tools
+title: Fetchmail Incoming Log
+versions:
+- '15.0'
 ---
+
 
 # Fetchmail Incoming Log
 
@@ -12,5 +18,5 @@ prev: ./base
 
 {{ $frontmatter.description }}
 
-Technischer Name: `fetchmail_incoming_log`\
-Repository: <https://github.com/OCA/server-tools/tree/15.0/fetchmail_incoming_log>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

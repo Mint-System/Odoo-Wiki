@@ -1,10 +1,16 @@
 ---
-title: Stock Picking Invoice Link
 description: Verlinkt Rechnungen und Transfers.
+forge: github.com
 kind: howto
+name: stock_picking_invoice_link
 partner: OCA
 prev: ./stock
+repo: OCA/stock-logistics-workflow
+title: Stock Picking Invoice Link
+versions:
+- '19.0'
 ---
+
 
 # Stock Picking Invoice Link
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_picking_invoice_link`\
-Repository: <https://github.com/OCA/stock-logistics-workflow/tree/19.0/stock_picking_invoice_link>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

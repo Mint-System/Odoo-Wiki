@@ -1,10 +1,16 @@
 ---
-title: Product Barcode Generator
 description: Autogenerate EAN13 product barcodes.
+forge: github.com
 kind: howto
+name: product_barcode
 partner: Mint System
 prev: ./product
+repo: CybroOdoo/CybroAddons
+title: Product Barcode Generator
+versions:
+- '17.0'
 ---
+
 
 # Product Barcode Generator
 
@@ -12,8 +18,8 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_barcode`\
-Repository: <https://github.com/CybroOdoo/CybroAddons/tree/17.0/product_barcode>\
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/product_barcode/>
 
 ## Verwendung

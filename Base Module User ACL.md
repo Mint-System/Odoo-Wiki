@@ -1,10 +1,16 @@
 ---
-title: Base Module User ACL
 description: Zugriffsrechte auf Apps festlegen.
+forge: github.com
 kind: howto
+name: base_module_user_acl
 partner: Mint System
 prev: ./base
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Base Module User ACL
+versions:
+- '16.0'
 ---
+
 
 # Base Module User ACL
 
@@ -12,8 +18,8 @@ prev: ./base
 
 {{ $frontmatter.description }}
 
-Technischer Name: `base_module_user_acl`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/base_module_user_acl>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Sale Expense Description Date
 description: Fügt das Datum der Auslage der Kundenauftragszeile hinzu.
+forge: github.com
 kind: howto
+name: sale_expense_description_date
 partner: Mint System
 prev: ./hr-expense
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Expense Description Date
+versions:
+- '17.0'
 ---
+
 
 # Sale Expense Description Date
 
@@ -12,5 +18,5 @@ prev: ./hr-expense
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_expense_description_date`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_expense_description_date>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

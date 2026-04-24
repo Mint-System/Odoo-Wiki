@@ -1,10 +1,16 @@
 ---
-title: Mail Service Users
 description: Service-Benutzer von Lizenzvertrag ausschliessen.
+forge: github.com
 kind: howto
+name: mail_service_users
 partner: Mint System
 prev: ./base
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Mail Service Users
+versions:
+- '17.0'
 ---
+
 
 # Mail Service Users
 
@@ -12,8 +18,8 @@ prev: ./base
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_service_users`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/17.0/mail_service_users>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

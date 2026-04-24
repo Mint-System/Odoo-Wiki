@@ -1,11 +1,17 @@
 ---
-title: Holzwirtschaft
 description: Odoo für die Holzwirtschaft.
+extensions: true
+forge: github.com
 kind: howto
+name: forestry_base
 partner: Mint System
 prev: ./
-extensions: true
+repo: Mint-System/Odoo-Apps-Vertical-Forestry
+title: Holzwirtschaft
+versions:
+- '15.0'
 ---
+
 
 # Holzwirtschaft
 
@@ -13,8 +19,8 @@ extensions: true
 
 {{ $frontmatter.description }}
 
-Technischer Name: `forestry_base`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-Forestry/tree/15.0/forestry_base>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Erweiterungen
 

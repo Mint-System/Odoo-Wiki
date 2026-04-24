@@ -1,10 +1,16 @@
 ---
-title: Stock Move Upstream Quantity
 description: Aktualisiert die erledigte Menge auf verlinkten Lagerbuchungen.
+forge: github.com
 kind: howto
+name: stock_move_upstream_state
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Move Upstream Quantity
+versions:
+- '17.0'
 ---
+
 
 # Stock Move Upstream Quantity
 
@@ -12,5 +18,5 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_move_upstream_state`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_move_upstream_state>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

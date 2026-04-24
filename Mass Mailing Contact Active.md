@@ -1,10 +1,16 @@
 ---
-title: Mass Mailing Contact Active
 description: Mailkontakte und Abonnements archivieren.
+forge: github.com
 kind: howto
+name: mass_mailing_contact_active
 partner: OCA
 prev: ./mass-mailing
+repo: OCA/social
+title: Mass Mailing Contact Active
+versions:
+- '16.0'
 ---
+
 
 # Mass Mailing Contact Active
 
@@ -12,5 +18,5 @@ prev: ./mass-mailing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mass_mailing_contact_active`\
-Repository: <https://github.com/OCA/social/tree/16.0/mass_mailing_contact_active>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

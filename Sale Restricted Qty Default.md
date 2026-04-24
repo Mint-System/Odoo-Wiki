@@ -1,10 +1,16 @@
 ---
-title: Sale Restricted Qty Default
 description: Mindestbestellmenge eines Produkts als Default im Webshop festlegen.
+forge: github.com
 kind: howto
+name: sale_restricted_qty_default
 partner: Mint System
 prev: ./sale
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Restricted Qty Default
+versions:
+- '18.0'
 ---
+
 
 # Sale Restricted Qty Default
 
@@ -12,8 +18,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_restricted_qty_default`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/18.0/sale_restricted_qty_default>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

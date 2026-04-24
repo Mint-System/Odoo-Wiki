@@ -1,10 +1,16 @@
 ---
-title: Stock Production Lot Active
-description: 'Erlaubt die Archivierung von Los/Chargen.'
+description: Erlaubt die Archivierung von Los/Chargen.
+forge: github.com
 kind: howto
+name: stock_production_lot_active
 partner: OCA
 prev: ./stock
+repo: OCA/stock-logistics-workflow
+title: Stock Production Lot Active
+versions:
+- '17.0'
 ---
+
 
 # Stock Production Lot Active
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_production_lot_active`\
-Repository: <https://github.com/OCA/stock-logistics-workflow/tree/17.0/stock_production_lot_active>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

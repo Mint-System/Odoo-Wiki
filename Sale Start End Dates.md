@@ -1,11 +1,17 @@
 ---
-title: Sale Start End Dates
 description: Fügt dem Verkaufsauftrag ein Start- und Enddatum hinzu.
+forge: github.com
 kind: howto
-tags:
-  - OCA
+name: sale_start_end_dates
 prev: ./sale
+repo: OCA/sale-workflow
+tags:
+- OCA
+title: Sale Start End Dates
+versions:
+- '17.0'
 ---
+
 
 # Sale Start End Dates
 
@@ -13,5 +19,5 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_start_end_dates`\
-Repository: <https://github.com/OCA/sale-workflow/tree/17.0/sale_start_end_dates>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

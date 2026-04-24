@@ -1,10 +1,16 @@
 ---
-title: Stock Delivery Note
 description: Notiz auf Lieferschein.
+forge: github.com
 kind: howto
+name: stock_delivery_note
 partner: OCA
 prev: ./stock
+repo: OCA/stock-logistics-workflow
+title: Stock Delivery Note
+versions:
+- '16.0'
 ---
+
 
 # Stock Delivery Note
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_delivery_note`\
-Repository: <https://github.com/OCA/stock-logistics-workflow/tree/16.0/stock_delivery_note>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

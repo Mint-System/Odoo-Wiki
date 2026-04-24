@@ -1,10 +1,16 @@
 ---
-title: Project Timeline Task Dependencies
 description: Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten.
+forge: github.com
 kind: howto
+name: project_timeline_task_dependency
 partner: OCA
 prev: ./project
+repo: OCA/project
+title: Project Timeline Task Dependencies
+versions:
+- '14.0'
 ---
+
 
 # Project Timeline Task Dependencies
 
@@ -12,8 +18,8 @@ prev: ./project
 
 {{ $frontmatter.description }}
 
-Technischer Name: `project_timeline_task_dependency`\
-Repository: <https://github.com/OCA/project/tree/14.0/project_timeline_task_dependency>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

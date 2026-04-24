@@ -1,10 +1,16 @@
 ---
-title: Sale Subscription Partner Pricelist
 description: Preislisten-Zugriff mit Abonnements erteilen.
+forge: github.com
 kind: howto
+name: sale_subscription_partner_pricelist
 partner: Mint System
 prev: ./subscription
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Subscription Partner Pricelist
+versions:
+- '16.0'
 ---
+
 
 # Sale Subscription Partner Pricelist
 
@@ -12,8 +18,8 @@ prev: ./subscription
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_subscription_partner_pricelist`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_subscription_partner_pricelist>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

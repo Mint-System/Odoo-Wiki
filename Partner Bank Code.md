@@ -1,10 +1,16 @@
 ---
-title: Partner Bank Code
 description: Eindeutige Nummer auf Bank festlegen.
+forge: github.com
 kind: howto
+name: partner_bank_code
 partner: OCA
 prev: ./contacts
+repo: OCA/partner-contact
+title: Partner Bank Code
+versions:
+- '16.0'
 ---
+
 
 # Partner Bank Code
 
@@ -12,8 +18,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_bank_code`\
-Repository: <https://github.com/OCA/partner-contact/tree/16.0/partner_bank_code>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

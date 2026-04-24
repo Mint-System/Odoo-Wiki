@@ -1,10 +1,16 @@
 ---
-title: Sync Transformer Helper
 description: Transformierung der Daten vereinfachen.
+forge: github.com
 kind: howto
+name: zbsync_transformer_helper
 partner: Zebroo
 prev: ./zebroo-sync
+repo: Odoo-Ninjas/zync-stable
+title: Sync Transformer Helper
+versions:
+- '16.0'
 ---
+
 
 # Sync Transformer Helper
 
@@ -12,5 +18,5 @@ prev: ./zebroo-sync
 
 {{ $frontmatter.description }}
 
-Technischer Name: `zbsync_transformer_helper`\
-Repository: <https://github.com/Odoo-Ninjas/zync-stable/tree/16.0/zbsync_transformer_helper>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

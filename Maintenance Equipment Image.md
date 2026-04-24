@@ -1,10 +1,16 @@
 ---
-title: Maintenance Equipments Image
 description: Bild auf Inventar hinzufügen.
+forge: github.com
 kind: howto
+name: maintenance_equipment_image
 partner: OCA
 prev: ./maintenance
+repo: OCA/maintenance
+title: Maintenance Equipments Image
+versions:
+- '16.0'
 ---
+
 
 # Maintenance Equipment Image
 
@@ -12,8 +18,8 @@ prev: ./maintenance
 
 {{ $frontmatter.description }}
 
-Technischer Name: `maintenance_equipment_image`\
-Repository: <https://github.com/OCA/maintenance/tree/16.0/maintenance_equipment_image>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

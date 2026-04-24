@@ -1,10 +1,16 @@
 ---
-title: Sale Blanket Order Comment
 description: Verknüpfte Aufgabe der Auftragszeile als Standardwert verwenden
+forge: github.com
 kind: howto
+name: industry_fsm_sale_default_task
 partner: Mint System
 prev: ./fsm-industry
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Blanket Order Comment
+versions:
+- '16.0'
 ---
+
 
 # Industry FSM Sale Default Task
 
@@ -12,8 +18,8 @@ prev: ./fsm-industry
 
 {{ $frontmatter.description }}
 
-Technischer Name: `industry_fsm_sale_default_task`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/industry_fsm_sale_default_task>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

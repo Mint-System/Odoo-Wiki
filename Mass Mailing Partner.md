@@ -1,10 +1,16 @@
 ---
-title: Link partners with mass-mailing
 description: Mailinglisten-Kontakte und Kontakte verküpfen.
+forge: github.com
 kind: howto
+name: mass_mailing_partner
 partner: OCA
 prev: ./mass-mailing
+repo: OCA/mass-mailing
+title: Link partners with mass-mailing
+versions:
+- '18.0'
 ---
+
 
 # Link partners with mass-mailing
 
@@ -12,5 +18,5 @@ prev: ./mass-mailing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mass_mailing_partner`\
-Repository: <https://github.com/OCA/mass-mailing/tree/18.0/mass_mailing_partner>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

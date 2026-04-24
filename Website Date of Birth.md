@@ -1,10 +1,16 @@
 ---
-title: Website Date of Birth
 description: Geburtsdatum auf Anmeldeformular.
+forge: github.com
 kind: howto
+name: website_date_of_birth
 partner: Mint System
 prev: ./website
+repo: Mint-System/Odoo-Apps-Website
+title: Website Date of Birth
+versions:
+- '15.0'
 ---
+
 
 # Website Date of Birth
 
@@ -12,5 +18,5 @@ prev: ./website
 
 {{ $frontmatter.description }}
 
-Technischer Name: `website_date_of_birth`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Website/tree/15.0/website_date_of_birth>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

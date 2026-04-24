@@ -1,10 +1,16 @@
 ---
-title: Entwicklung Runboat
 description: Odoo Community Association Testumgebungen.
+forge: github.com
 kind: howto
-section: true
+name: ''
 prev: ./development
+repo: sbidoul/runboat
+section: true
+title: Entwicklung Runboat
+versions:
+- '16.0'
 ---
+
 
 # Entwicklung Runboat
 
@@ -12,7 +18,7 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Repository: <https://github.com/sbidoul/runboat>
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

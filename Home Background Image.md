@@ -1,10 +1,16 @@
 ---
-title: Home Backround Image
 description: Den Odoo-Startbildschirm gestalten.
+forge: github.com
 kind: howto
+name: home_background_image
 partner: Mint System
 prev: ./base
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Home Backround Image
+versions:
+- '16.0'
 ---
+
 
 # Home Backround Image
 
@@ -12,8 +18,8 @@ prev: ./base
 
 {{ $frontmatter.description }}
 
-Technischer Name: `home_background_image`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/home_background_image>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

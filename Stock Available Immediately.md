@@ -1,10 +1,16 @@
 ---
-title: Ignore planned receptions in quantity available to promise
 description: Verfügbare Bestände aus geplanten Aufträge ignorieren.
+forge: github.com
 kind: howto
+name: stock_available_immediately
 partner: OCA
 prev: ./warehouse
+repo: OCA/stock-logistics-warehouse
+title: Ignore planned receptions in quantity available to promise
+versions:
+- '15.0'
 ---
+
 
 # Ignore planned receptions in quantity available to promise
 
@@ -12,5 +18,5 @@ prev: ./warehouse
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_available_immediately`\
-Repository: <https://github.com/OCA/stock-logistics-warehouse/tree/15.0/stock_available_immediately>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

@@ -1,10 +1,17 @@
 ---
-title: Purchase Order Line Relay Price
-description: Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt den Verkäufer.
+description: Kalkuliert den besten Preis für alle Bestellpositionen und benachrichtigt
+  den Verkäufer.
+forge: github.com
 kind: howto
+name: purchase_order_line_relay_price
 partner: Mint System
 prev: ./purchase
+repo: Mint-System/Odoo-Apps-Purchase-Workflow
+title: Purchase Order Line Relay Price
+versions:
+- '14.0'
 ---
+
 
 # Purchase Order Line Relay Price
 
@@ -12,8 +19,8 @@ prev: ./purchase
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_order_line_relay_price`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_order_line_relay_price>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

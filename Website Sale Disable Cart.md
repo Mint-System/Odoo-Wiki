@@ -1,10 +1,17 @@
 ---
-title: Website Sale Disable Cart
-description: Über das zugeordnete Band kann konfiguriert werden, ob ein Produkt in den Warenkorb gelegt werden kann.
+description: Über das zugeordnete Band kann konfiguriert werden, ob ein Produkt in
+  den Warenkorb gelegt werden kann.
+forge: github.com
 kind: howto
+name: website_sale_disable_cart
 partner: Mint System
 prev: ./website-sale
+repo: Mint-System/Odoo-Apps-Website
+title: Website Sale Disable Cart
+versions:
+- '18.0'
 ---
+
 
 # Website Sale Disable Cart
 
@@ -12,8 +19,8 @@ prev: ./website-sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `website_sale_disable_cart`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Website/tree/18.0/website_sale_disable_cart>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ### Verwendung
 

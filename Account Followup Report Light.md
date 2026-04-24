@@ -1,10 +1,16 @@
 ---
-title: Account Followup Report Light
 description: Minimales Layout für die Tabelle des Mahnberichts.
+forge: github.com
 kind: howto
+name: account_followup_report_light
 partner: Mint System
 prev: ./invoicing-followup
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Account Followup Report Light
+versions:
+- '16.0'
 ---
+
 
 # Account Followup Report Light
 
@@ -12,8 +18,8 @@ prev: ./invoicing-followup
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_followup_report_light`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/account_followup_report_light>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

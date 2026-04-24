@@ -1,10 +1,16 @@
 ---
-title: Sale Project Phase Estimate
 description: Verlinkt Auftragszeilen mit Schätzungen von Projektphasen.
+forge: github.com
 kind: howto
+name: sale_project_phase_estimate
 partner: Mint System
 prev: ./sale-timesheet
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Project Phase Estimate
+versions:
+- '16.0'
 ---
+
 
 # Sale Project Phase Estimate
 
@@ -12,8 +18,8 @@ prev: ./sale-timesheet
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_project_phase_estimate`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_project_phase_estimate>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

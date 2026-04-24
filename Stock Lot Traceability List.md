@@ -1,10 +1,16 @@
 ---
-title: Stock Lot Traceability List
 description: Daten aus Lieferverfolgungsbericht als Liste anzeigen.
+forge: github.com
 kind: howto
+name: stock_lot_traceability_list
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Lot Traceability List
+versions:
+- '17.0'
 ---
+
 
 # Stock Lot Traceability List
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_lot_traceability_list`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_lot_traceability_list>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

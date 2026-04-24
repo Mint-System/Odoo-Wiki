@@ -1,11 +1,17 @@
 ---
-title: Marke
 description: Mehrere Marken für ihr Unternehmen präsentieren.
+extensions: true
+forge: github.com
 kind: howto
+name: brand
 partner: OCA
 prev: ./
-extensions: true
+repo: OCA/brand
+title: Marke
+versions:
+- '19.0'
 ---
+
 
 # Marke
 
@@ -14,7 +20,7 @@ extensions: true
 {{ $frontmatter.description }}
 
 Website: <https://github.com/OCA/brand>\
-Repository: <https://github.com/OCA/brand/tree/19.0/brand>
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Erweiterungen
 

@@ -1,10 +1,16 @@
 ---
-title: Purchase Partner Incoterm
 description: Standardlieferbedingungen für Lieferanten.
+forge: github.com
 kind: howto
+name: purchase_partner_incoterm
 partner: OCA
 prev: ./purchase
+repo: OCA/purchase-workflow
+title: Purchase Partner Incoterm
+versions:
+- '17.0'
 ---
+
 
 # Purchase Partner Incoterm
 
@@ -12,8 +18,8 @@ prev: ./purchase
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_partner_incoterm`\
-Repository: <https://github.com/OCA/purchase-workflow/tree/17.0/purchase_partner_incoterm>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

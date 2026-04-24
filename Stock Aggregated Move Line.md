@@ -1,10 +1,16 @@
 ---
-title: Stock Aggregated Move Lines
 description: Zugriff auf Lieferung in aggregierten Zeilen.
+forge: github.com
 kind: howto
+name: stock_aggregated_move_line
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Aggregated Move Lines
+versions:
+- '17.0'
 ---
+
 
 # Stock Aggregated Move Lines
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_aggregated_move_line`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_aggregated_move_line>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

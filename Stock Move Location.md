@@ -1,10 +1,16 @@
 ---
-title: Stock Move Location
 description: Warenbestände zwischen Lagerorte verschieben.
+forge: github.com
 kind: howto
+name: stock_move_location
 partner: OCA
 prev: ./warehouse
+repo: OCA/stock-logistics-warehouse
+title: Stock Move Location
+versions:
+- '17.0'
 ---
+
 
 # Stock Move Location
 
@@ -12,8 +18,8 @@ prev: ./warehouse
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_move_location`\
-Repository: <https://github.com/OCA/stock-logistics-warehouse/tree/17.0/stock_move_location>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

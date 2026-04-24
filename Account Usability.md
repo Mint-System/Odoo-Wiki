@@ -1,10 +1,16 @@
 ---
-title: Account Missing Menus
 description: Menüs der Enterprise Finanzbuchhaltung für Community.
+forge: github.com
 kind: howto
+name: account_usability
 partner: OCA
 prev: ./accounting
+repo: OCA/account-financial-tools
+title: Account Missing Menus
+versions:
+- '19.0'
 ---
+
 
 # Account Usability
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_usability`\
-Repository: <https://github.com/OCA/account-financial-tools/tree/19.0/account_usability>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

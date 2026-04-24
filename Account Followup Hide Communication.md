@@ -1,10 +1,16 @@
 ---
-title: Account Followup Hide Communication
 description: Spalte Kommunikation in Mahnbericht ausblenden.
+forge: github.com
 kind: howto
+name: account_followup_hide_communication
 partner: Mint System
 prev: ./invoicing-followup
+repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
+title: Account Followup Hide Communication
+versions:
+- '15.0'
 ---
+
 
 # Account Followup Hide Communication
 
@@ -12,8 +18,8 @@ prev: ./invoicing-followup
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_followup_hide_communication`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/15.0/account_followup_hide_communication>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

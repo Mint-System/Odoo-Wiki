@@ -1,10 +1,17 @@
 ---
-title: Theoretical vs Attended Time Analysis
-description: Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden.
+description: Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen
+  Stunden.
+forge: github.com
 kind: howto
+name: hr_attendance_report_theoretical_time
 partner: OCA
 prev: ./hr-attendance
+repo: OCA/hr-attendance
+title: Theoretical vs Attended Time Analysis
+versions:
+- '17.0'
 ---
+
 
 # Theoretical vs Attended Time Analysis
 
@@ -12,8 +19,8 @@ prev: ./hr-attendance
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_attendance_report_theoretical_time`\
-Repository: <https://github.com/OCA/hr-attendance/tree/17.0/hr_attendance_report_theoretical_time>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

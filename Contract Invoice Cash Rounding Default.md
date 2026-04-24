@@ -1,10 +1,17 @@
 ---
-title: Contract Invoice Cash Rounding Default
-description: Standardwert für Runden beim Erzeugen von Rechnungen aus Kundenverträgen verwenden.
+description: Standardwert für Runden beim Erzeugen von Rechnungen aus Kundenverträgen
+  verwenden.
+forge: github.com
 kind: howto
+name: contract_invoice_cash_rounding_default
 partner: Mint System
 prev: ./contract
+repo: Mint-System/Odoo-Apps-Contract
+title: Contract Invoice Cash Rounding Default
+versions:
+- '17.0'
 ---
+
 
 # Contract Invoice Cash Rounding Default
 
@@ -12,8 +19,8 @@ prev: ./contract
 
 {{ $frontmatter.description }}
 
-Technischer Name: `contract_invoice_cash_rounding_default`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Contract/tree/17.0/contract_invoice_cash_rounding_default>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

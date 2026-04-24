@@ -1,10 +1,16 @@
 ---
-title: Mail Server Filter
 description: Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern.
+forge: github.com
 kind: howto
+name: mail_server_filter
 partner: Mint System
 prev: ./base
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Mail Server Filter
+versions:
+- '19.0'
 ---
+
 
 # Mail Server Filter
 
@@ -12,8 +18,8 @@ prev: ./base
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_server_filter`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/19.0/mail_server_filter>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

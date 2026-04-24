@@ -1,10 +1,16 @@
 ---
-title: MRP Production Unplan Move
 description: Zukünftiges Datum auf Lagerbuchung bei Planungsabruch festlegen.
+forge: github.com
 kind: howto
+name: mrp_production_unplan_move
 partner: Mint System
 prev: ./manufacture
+repo: Mint-System/Odoo-Apps-Manufacture
+title: MRP Production Unplan Move
+versions:
+- '17.0'
 ---
+
 
 # MRP Production Unplan Move
 
@@ -12,8 +18,8 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mrp_production_unplan_move`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/mrp_production_unplan_move>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

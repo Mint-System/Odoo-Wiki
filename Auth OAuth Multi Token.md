@@ -1,10 +1,16 @@
 ---
-title: OAuth Multi Token
 description: Unterstützung für mehrere Geräteabhängigke OAuth-Tokens.
+forge: github.com
 kind: howto
+name: auth_oauth_multi_token
 partner: OCA
 prev: ./settings
+repo: OCA/server-auth
+title: OAuth Multi Token
+versions:
+- '17.0'
 ---
+
 
 # OAuth Multi Token
 
@@ -12,8 +18,8 @@ prev: ./settings
 
 {{ $frontmatter.description }}
 
-Technischer Name: `auth_oauth_multi_token`\
-Repository: <https://github.com/OCA/server-auth/tree/17.0/auth_oauth_multi_token>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

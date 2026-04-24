@@ -1,10 +1,16 @@
 ---
-title: Sale Expense Link
 description: Verlinkt die Spesen mit der Kundenauftragszeile.
+forge: github.com
 kind: howto
+name: sale_expense_link
 partner: Mint System
 prev: ./hr-expense
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Expense Link
+versions:
+- '17.0'
 ---
+
 
 # Sale Expense Link
 
@@ -12,8 +18,8 @@ prev: ./hr-expense
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_expense_link`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_expense_link>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

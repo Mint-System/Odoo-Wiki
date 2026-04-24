@@ -1,10 +1,16 @@
 ---
-title: Mgmt
 description: Risk Management by Mint System.
+forge: github.com
 kind: howto
+name: mgmt
 partner: Mint System
 prev: ./management-system
+repo: Mint-System/Odoo-Apps-Management
+title: Mgmt
+versions:
+- '16.0'
 ---
+
 
 # Mgmt
 
@@ -12,8 +18,8 @@ prev: ./management-system
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mgmt`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Management/tree/16.0/mgmt>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [Mgmt Base](Mgmt%20Base.md) zu verwenden.

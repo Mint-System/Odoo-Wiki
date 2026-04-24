@@ -1,10 +1,16 @@
 ---
-title: Sale Timesheet Total Validated
 description: Nur bestätige Zeiterfassungs-Einträge in Verkaufsauftrag anzeigen.
+forge: github.com
 kind: howto
+name: sale_timesheet_total_validated
 partner: Mint System
 prev: ./hr-timesheet
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Timesheet Total Validated
+versions:
+- '17.0'
 ---
+
 
 # Sale Timesheet Total Validated
 
@@ -12,5 +18,5 @@ prev: ./hr-timesheet
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_timesheet_total_validated`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_timesheet_total_validated>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

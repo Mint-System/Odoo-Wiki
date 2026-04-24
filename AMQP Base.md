@@ -1,11 +1,17 @@
 ---
-title: AMQP Base
 description: AMQP Zielhosts verwalten.
+extensions: true
+forge: github.com
 kind: howto
+name: amqp_base
 partner: Mint System
 prev: ./stock
-extensions: true
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: AMQP Base
+versions:
+- '15.0'
 ---
+
 
 # AMQP Base
 
@@ -13,8 +19,8 @@ extensions: true
 
 {{ $frontmatter.description }}
 
-Technischer Name: `amqp_base`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/15.0/amqp_base>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Erweiterungen
 

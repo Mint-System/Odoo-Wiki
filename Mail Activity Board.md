@@ -1,10 +1,16 @@
 ---
-title: Mail Activity Board
 description: Übersicht aller erstellten Aktivitäten.
+forge: github.com
 kind: howto
+name: mail_activity_board
 partner: OCA
 prev: ./dashboards
+repo: OCA/social
+title: Mail Activity Board
+versions:
+- '17.0'
 ---
+
 
 # Mail Activity Board
 
@@ -12,8 +18,8 @@ prev: ./dashboards
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_activity_board`\
-Repository: <https://github.com/OCA/social/tree/17.0/mail_activity_board>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

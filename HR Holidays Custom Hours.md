@@ -1,10 +1,16 @@
 ---
-title: HR Holidays Custom Hours
 description: Benutzerdefinierte Anzahl Stunden auf Abwesenheit eintragen.
+forge: github.com
 kind: howto
+name: hr_holidays_custom_hours
 partner: OCA
 prev: ./hr-holidays
+repo: Mint-System/Odoo-Apps-HR
+title: HR Holidays Custom Hours
+versions:
+- '16.0'
 ---
+
 
 # HR Holidays Custom Hours
 
@@ -12,8 +18,8 @@ prev: ./hr-holidays
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_holidays_custom_hours`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_holidays_custom_hours>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

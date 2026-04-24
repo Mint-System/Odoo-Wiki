@@ -1,10 +1,16 @@
 ---
-title: Account Statement Import
 description: Bankauszüge importieren.
+forge: github.com
 kind: howto
+name: account_statement_import
 partner: OCA
 prev: ./accounting
+repo: OCA/bank-statement-import
+title: Account Statement Import
+versions:
+- '15.0'
 ---
+
 
 # Account Statement Import
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_statement_import`\
-Repository: <https://github.com/OCA/bank-statement-import/tree/15.0/account_statement_import>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Wird ab #Odoo16 nicht mehr benötigt.

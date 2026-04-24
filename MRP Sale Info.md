@@ -1,10 +1,16 @@
 ---
-title: MRP Sale Info
 description: Verkaufsbezogene Informationen auf Fertigungsaufträgen anzeigen.
+forge: github.com
 kind: howto
+name: mrp_sale_info
 partner: OCA
 prev: ./manufacture
+repo: OCA/manufacture
+title: MRP Sale Info
+versions:
+- '19.0'
 ---
+
 
 # MRP Sale Info
 
@@ -12,5 +18,5 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mrp_sale_info`\
-Repository: <https://github.com/OCA/manufacture/tree/19.0/mrp_sale_info>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

@@ -1,10 +1,16 @@
 ---
-title: MRP Production Assign Lot
 description: Los aus eingehenden Lagerbuchungen an unreservierte Komponenten zuweisen.
+forge: github.com
 kind: howto
+name: mrp_production_assign_lot
 partner: Mint System
 prev: ./manufacture
+repo: Mint-System/Odoo-Apps-Manufacture
+title: MRP Production Assign Lot
+versions:
+- '16.0'
 ---
+
 
 # MRP Production Assign Lot
 
@@ -12,8 +18,8 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mrp_production_assign_lot`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/16.0/mrp_production_assign_lot>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

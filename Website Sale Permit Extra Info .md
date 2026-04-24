@@ -1,10 +1,16 @@
 ---
-title: Website Sale Permit Extra Info
 description: Extra-Seite für den Webshop beim Verkauf von zeitlich befristeten Patenten
+forge: github.com
 kind: howto
+name: website_sale_permit_extra_info
 partner: Mint System
 prev: ./website
+repo: Mint-System/Odoo-Apps-Website
+title: Website Sale Permit Extra Info
+versions:
+- '18.0'
 ---
+
 
 # Website Sale Permit Extra Info
 
@@ -12,8 +18,8 @@ prev: ./website
 
 {{ $frontmatter.description }}
 
-Technischer Name: `website_sale_permit_extra_info`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Website/tree/18.0/website_sale_permit_extra_info>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ### Verwendung
 

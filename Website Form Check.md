@@ -1,10 +1,16 @@
 ---
-title: Website Form Check
 description: Überprüft Formulardaten und leitet Benutzer bei einem Treffer um.
+forge: github.com
 kind: howto
+name: website_form_check
 partner: Mint System
 prev: ./website
+repo: Mint-System/Odoo-Apps-Website
+title: Website Form Check
+versions:
+- '18.0'
 ---
+
 
 # Website Form Check
 
@@ -12,8 +18,8 @@ prev: ./website
 
 {{ $frontmatter.description }}
 
-Technischer Name: `website_form_check`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Website/tree/18.0/website_form_check>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

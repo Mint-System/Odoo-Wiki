@@ -1,10 +1,16 @@
 ---
-title: Account Payment Purchase
 description: Zahlungsmodus auf Bestellung festlegen.
+forge: github.com
 kind: howto
+name: account_payment_purchase
 partner: OCA
 prev: ./accounting
+repo: OCA/bank-payment
+title: Account Payment Purchase
+versions:
+- '17.0'
 ---
+
 
 # Account Payment Purchase
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_payment_purchase`\
-Repository: <https://github.com/OCA/bank-payment/tree/17.0/account_payment_purchase>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Sale CRM Note
 description: Notiz von Lead auf Angebot übertragen.
+forge: github.com
 kind: howto
+name: sale_crm_note
 partner: Mint System
 prev: ./crm
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale CRM Note
+versions:
+- '19.0'
 ---
+
 
 # Sale CRM Note
 
@@ -12,8 +18,8 @@ prev: ./crm
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_crm_note`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/19.0/sale_crm_note>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

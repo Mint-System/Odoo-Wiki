@@ -1,10 +1,16 @@
 ---
-title: Stock Move Line Position
-description: 'Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen.'
+description: Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen.
+forge: github.com
 kind: howto
+name: stock_move_line_position
 partner: Mint System
 prev: ./order-positions
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Move Line Position
+versions:
+- '17.0'
 ---
+
 
 # Stock Move Line Position
 
@@ -12,8 +18,8 @@ prev: ./order-positions
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_move_line_position`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/17.0/stock_move_line_position>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 
