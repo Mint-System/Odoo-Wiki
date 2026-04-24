@@ -1,22 +1,18 @@
 #!/bin/bash
 set -e
-
 if [[ -a ".env" ]]; then
     export $(cat .env | sed 's/^#.*//g' | xargs)
 fi
-
 help() {
     echo
     echo "task <command> [options]"
     echo
     echo "commands:"
     echo
-
-    CMD_WIDTH=20
-    OPT_WIDTH=6
-    DESC_WIDTH=40
+    CMD_WIDTH=24
+    OPT_WIDTH=10
+    DESC_WIDTH=52
     COLUMN="| %-${CMD_WIDTH}s | %-${OPT_WIDTH}s | %-${DESC_WIDTH}s |\n"
-
     printf "$COLUMN" "Command" "Option" "Description"
     echo "|$(printf '%*s' $((CMD_WIDTH + 2)) '' | tr ' ' '-')|$(printf '%*s' $((OPT_WIDTH + 2)) '' | tr ' ' '-')|$(printf '%*s' $((DESC_WIDTH + 2)) '' | tr ' ' '-')|"
     printf "$COLUMN" "install" "" "Install build dependencies."
@@ -25,10 +21,11 @@ help() {
     printf "$COLUMN" "build-vuepress" "" "Create vuepress build."
     printf "$COLUMN" "serve-vuepress" "" "Serve vuepress build."
     printf "$COLUMN" "download-icons" "" "Download module icons from Odoo assets."
-    printf "$COLUMN" "update-repo-url" "" "Check and update repository urls."
+    printf "$COLUMN" "update-module-versions" "[file]" "Check and update frontmatter versions list."
+    printf "$COLUMN" "get-frontmatter-field" "<file> <field>" "Read a single frontmatter field value."
+    printf "$COLUMN" "set-frontmatter-field" "<file> <versions>" "Write versions list to frontmatter."
     printf "$COLUMN" "lint" "" "Lint code with prettier."
 }
-
 if [ -d "$HOME/taskfile.build/bin" ]; then
     for file in "$HOME/taskfile.build/bin/"*; do
         if [ -f "$file" ]; then
@@ -37,50 +34,141 @@ if [ -d "$HOME/taskfile.build/bin" ]; then
     done
 fi
 
-update-repo-url() {
+get-frontmatter-field() {
+    local FILE="$1"
+    local FIELD="$2"
+    awk '
+        BEGIN { in_fm=0; found=0 }
+        /^---$/ {
+            if (in_fm == 0) { in_fm=1; next }
+            else { exit }
+        }
+        in_fm && /^'"$FIELD"':[ \t]*/ {
+            sub(/^'"$FIELD"':[ \t]*/, "")
+            # Strip surrounding quotes if present
+            gsub(/^'"'"'|'"'"'$/, "")
+            print
+            found=1
+        }
+    ' "$FILE"
+}
 
-    VERSIONS=("14.0" "15.0" "16.0" "17.0" "18.0", "19.0")
+set-frontmatter-field() {
+    local FILE="$1"
+    shift
+    local VERSIONS=("$@")
 
-    TOTAL_FILES=$(find . -maxdepth 1 -name "*.md" -type f | wc -l)
-    FILE_COUNT=0
+    # Build the replacement block: "versions:\n- 'x.y'\n- ..."
+    local NEW_BLOCK="versions:"
+    for V in "${VERSIONS[@]}"; do
+        NEW_BLOCK="${NEW_BLOCK}\n- '${V}'"
+    done
 
-    find . -maxdepth 1 -name "*.md" -type f -print0 | while IFS= read -r -d '' FILE; do
-        FILE_COUNT=$((FILE_COUNT+1))
+    # Use awk to replace the existing versions block inside the frontmatter.
+    # The versions block may span multiple lines (the key line + list items).
+    awk -v new_block="$NEW_BLOCK" '
+        BEGIN { in_fm=0; in_versions=0; fm_done=0 }
+        /^---$/ {
+            if (in_fm == 0) { in_fm=1; print; next }
+            else { fm_done=1; in_fm=0 }
+        }
+        # Once frontmatter is closed, print everything verbatim
+        fm_done { print; next }
+        in_fm {
+            if (/^versions:/) {
+                # Print replacement block and enter versions-skip mode
+                printf "%s\n", new_block
+                in_versions=1
+                next
+            }
+            if (in_versions) {
+                # Skip continuation list items (lines starting with "- ")
+                if (/^- /) { next }
+                else { in_versions=0 }
+            }
+            print
+        }
+        !in_fm { print }
+    ' "$FILE" > "${FILE}.tmp" && mv "${FILE}.tmp" "$FILE"
+}
 
+update-module-versions() {
+    local TARGET_FILE="${1:-}"  # Optional: single file path to process
+    local VERSIONS=("14.0" "15.0" "16.0" "17.0" "18.0" "19.0")
+
+    # Collect files to process
+    local FILES=()
+    if [[ -n "$TARGET_FILE" ]]; then
+        if [[ ! -f "$TARGET_FILE" ]]; then
+            echo "Error: File '$TARGET_FILE' not found."
+            exit 1
+        fi
+        FILES=("$TARGET_FILE")
+    else
+        while IFS= read -r -d '' f; do
+            FILES+=("$f")
+        done < <(find . -maxdepth 1 -name "*.md" -type f -print0)
+    fi
+
+    local TOTAL_FILES=${#FILES[@]}
+    local FILE_COUNT=0
+
+    for FILE in "${FILES[@]}"; do
+        FILE_COUNT=$((FILE_COUNT + 1))
         echo "Processing file '$FILE' ($FILE_COUNT/$TOTAL_FILES)"
 
-        LINK=$(grep -Eom 1 'Repository: <https://github.com/[^>]*>' "$FILE" || echo "")
-
-        if [[ -n "$LINK" ]]; then
-
-            REPO_URL=$(echo "$LINK" | grep -oP 'https://github.com/\K[^>]*')
-
-            NEWEST_URL=""
-            for VERSION in "${VERSIONS[@]}"; do
-
-                NEW_URL="https://github.com/$(echo "$REPO_URL" | sed -E "s|tree/[0-9]+\.[0-9]+|tree/$VERSION|")"
-                HTTP_STATUS=$(curl -o /dev/null -s -w "%{http_code}" "$NEW_URL")
-
-                if [[ "$HTTP_STATUS" == "200" ]]; then
-                    NEWEST_URL="$NEW_URL"
-                fi
-            done
-
-            if [[ -n "$NEWEST_URL" ]]; then
-
-                echo "Update file '$FILE' with url: '$NEWEST_URL"
-
-                UPDATED_LINE="Repository: <$NEWEST_URL>"
-                sed -i "s|$LINK|$UPDATED_LINE|" "$FILE"
-            fi
+        # Only process files that have a versions: key in their frontmatter
+        if ! awk '/^---$/{c++;next} c==1 && /^versions:/{found=1} c==2{exit} END{exit !found}' "$FILE"; then
+            echo "  Skipping: no 'versions' key in frontmatter."
+            continue
         fi
+
+        # Read required frontmatter fields
+        local FORGE
+        FORGE=$(get-frontmatter-field "$FILE" "forge")
+        local REPO
+        REPO=$(get-frontmatter-field "$FILE" "repo")
+        local NAME
+        NAME=$(get-frontmatter-field "$FILE" "name")
+
+        if [[ -z "$FORGE" || -z "$REPO" || -z "$NAME" ]]; then
+            echo "  Skipping: missing forge/repo/name in frontmatter."
+            continue
+        fi
+
+        # Test each version and collect available ones
+        local AVAILABLE_VERSIONS=()
+        for VERSION in "${VERSIONS[@]}"; do
+            local URL="https://${FORGE}/${REPO}/tree/${VERSION}/${NAME}"
+            local HTTP_STATUS
+            HTTP_STATUS=$(curl -o /dev/null -s -w "%{http_code}" "$URL")
+            if [[ "$HTTP_STATUS" == "200" ]]; then
+                echo "  ✓ $VERSION available ($URL)"
+                AVAILABLE_VERSIONS+=("$VERSION")
+            else
+                echo "  ✗ $VERSION not found (HTTP $HTTP_STATUS)"
+            fi
+        done
+
+        if [[ ${#AVAILABLE_VERSIONS[@]} -eq 0 ]]; then
+            echo "  No available versions found. Frontmatter unchanged."
+            continue
+        fi
+
+        # Reverse so that the latest version appears first in the list
+        local REVERSED=()
+        for (( i=${#AVAILABLE_VERSIONS[@]}-1; i>=0; i-- )); do
+            REVERSED+=("${AVAILABLE_VERSIONS[$i]}")
+        done
+
+        echo "  Updating versions: ${REVERSED[*]}"
+        set-frontmatter-field "$FILE" "${REVERSED[@]}"
     done
 }
 
 install() {
     pnpm install
 }
-
 update() {
     pnpm install -D @vuepress/bundler-vite@next
     pnpm install -D @vuepress/client@next
@@ -91,28 +179,22 @@ update() {
     pnpm install -D @vuepress/utils@next
     pnpm install -D vuepress@next
 }
-
 dev-vuepress() {
     (open-url-with-delay "http://localhost:8080/") & pnpm run dev
 }
-
 build-vuepress() {
     pnpm run build
 }
-
 serve-vuepress() {
     cd ./src/.vuepress/dist
     npx serve
 }
-
 download-icons() {
     pnpm run download-icons
 }
-
 lint() {
     pnpm exec prettier . --write
 }
-
 if declare -f "$1" > /dev/null; then
     "$1" "${@:2}"
 else
