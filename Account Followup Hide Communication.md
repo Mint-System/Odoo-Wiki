@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
 title: Account Followup Hide Communication
 versions:
 - '15.0'
+- '14.0'
 ---
 
 

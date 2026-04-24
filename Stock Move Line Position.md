@@ -8,7 +8,11 @@ prev: ./order-positions
 repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
 title: Stock Move Line Position
 versions:
+- '19.0'
 - '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

@@ -10,6 +10,7 @@ tags:
 title: Mail template multi attachment
 versions:
 - '16.0'
+- '14.0'
 ---
 
 

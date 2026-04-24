@@ -8,6 +8,7 @@ prev: ./invoicing-followup
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Account Followup Due Filter
 versions:
+- '18.0'
 - '16.0'
 ---
 

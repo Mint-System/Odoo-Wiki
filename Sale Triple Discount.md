@@ -9,6 +9,8 @@ repo: OCA/sale-workflow
 title: Sale Triple Discount
 versions:
 - '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

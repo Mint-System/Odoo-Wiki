@@ -8,7 +8,10 @@ prev: ./discuss-e-mail
 repo: Mint-System/Odoo-Apps-Social
 title: Mail No Autofollow
 versions:
+- '18.0'
 - '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

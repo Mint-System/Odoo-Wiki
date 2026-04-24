@@ -8,7 +8,11 @@ prev: ./accounting
 repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
 title: Account Move Line Contra Accounts
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

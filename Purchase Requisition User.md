@@ -8,6 +8,7 @@ prev: ./purchase-requisition
 repo: Mint-System/Odoo-Apps-Purchase-Workflow
 title: Purchase Requisition User
 versions:
+- '17.0'
 - '14.0'
 ---
 

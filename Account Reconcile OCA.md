@@ -8,7 +8,10 @@ prev: ./accounting
 repo: OCA/account-reconcile
 title: Account Reconcile OCA
 versions:
+- '19.0'
+- '18.0'
 - '17.0'
+- '16.0'
 ---
 
 

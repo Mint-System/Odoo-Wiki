@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Project
 title: Project Task Dependency Counter
 versions:
 - '15.0'
+- '14.0'
 ---
 
 

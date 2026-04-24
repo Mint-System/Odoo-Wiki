@@ -8,7 +8,11 @@ prev: ./development
 repo: OCA/reporting-engine
 title: Report QWeb PDF Watermark
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

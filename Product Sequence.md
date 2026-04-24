@@ -8,7 +8,11 @@ prev: ./manufacture
 repo: OCA/product-attribute
 title: Product Sequence
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

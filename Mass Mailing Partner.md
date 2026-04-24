@@ -8,6 +8,7 @@ prev: ./mass-mailing
 repo: OCA/mass-mailing
 title: Link partners with mass-mailing
 versions:
+- '19.0'
 - '18.0'
 ---
 

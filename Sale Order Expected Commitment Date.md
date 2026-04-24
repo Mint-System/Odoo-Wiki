@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Order Expected Commitment Date
 versions:
 - '17.0'
+- '14.0'
 ---
 
 

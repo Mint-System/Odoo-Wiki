@@ -9,6 +9,8 @@ repo: Mint-System/Odoo-Apps-Project
 title: Project Phase
 versions:
 - '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

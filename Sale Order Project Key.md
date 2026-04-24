@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Order Project Key
 versions:
 - '17.0'
+- '15.0'
 ---
 
 

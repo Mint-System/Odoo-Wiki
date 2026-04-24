@@ -8,7 +8,10 @@ prev: ./invoicing
 repo: OCA/Account-Invoicing
 title: Account Invoice Show Currency Rate
 versions:
+- '19.0'
+- '18.0'
 - '17.0'
+- '16.0'
 ---
 
 

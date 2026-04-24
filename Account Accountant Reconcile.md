@@ -8,6 +8,7 @@ prev: ./accounting
 repo: Mint-System/Odoo-Apps-Account-Reconcile
 title: Account Accountant Reconcile
 versions:
+- '18.0'
 - '16.0'
 ---
 

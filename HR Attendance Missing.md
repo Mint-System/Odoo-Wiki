@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-HR
 title: HR Attendance Missing
 versions:
 - '17.0'
+- '16.0'
 ---
 
 

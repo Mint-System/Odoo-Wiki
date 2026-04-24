@@ -7,6 +7,7 @@ prev: ./license
 repo: Mint-System/Odoo-Apps-Vertical-SaaS
 title: License OCAD
 versions:
+- '18.0'
 - '16.0'
 ---
 

@@ -8,7 +8,9 @@ prev: ./settings
 repo: OCA/web
 title: Web Theme Classic
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
 ---
 
 

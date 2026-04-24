@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Timesheet Total Validated
 versions:
 - '17.0'
+- '15.0'
 ---
 
 

@@ -9,6 +9,8 @@ repo: Mint-System/Odoo-Apps-Management-System
 title: Mgmt Requirement Knowledge
 versions:
 - '19.0'
+- '18.0'
+- '17.0'
 ---
 
 

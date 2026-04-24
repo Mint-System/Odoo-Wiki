@@ -7,6 +7,7 @@ prev: ./license
 repo: Mint-System/Odoo-Apps-Vertical-SaaS
 title: License Subscription
 versions:
+- '18.0'
 - '16.0'
 ---
 

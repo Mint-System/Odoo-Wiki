@@ -9,6 +9,9 @@ repo: OCA/product-attribute
 title: Product Supplierinfo for Customers
 versions:
 - '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

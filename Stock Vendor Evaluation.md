@@ -8,7 +8,10 @@ prev: ./stock
 repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
 title: Stock Vendor Evaluation
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
+- '15.0'
 ---
 
 

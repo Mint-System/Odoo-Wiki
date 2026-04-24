@@ -9,6 +9,8 @@ repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
 title: Stock Move Upstream Quantity
 versions:
 - '17.0'
+- '16.0'
+- '14.0'
 ---
 
 

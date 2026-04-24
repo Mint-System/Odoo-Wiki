@@ -8,7 +8,11 @@ prev: ./hr-holidays
 repo: Mint-System/Odoo-Apps-HR
 title: HR Employee Attendance Report
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

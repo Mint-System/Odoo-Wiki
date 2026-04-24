@@ -9,6 +9,9 @@ repo: bemade/bemade-addons
 title: CalDAV Sync
 versions:
 - '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
 ---
 
 

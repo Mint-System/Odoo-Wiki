@@ -8,6 +8,7 @@ prev: ./contacts
 repo: Mint-System/Odoo-Apps-HR
 title: HR Expense User ACL
 versions:
+- '18.0'
 - '16.0'
 ---
 

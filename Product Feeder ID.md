@@ -9,6 +9,8 @@ repo: Mint-System/Odoo-Apps-Product-Attribute
 title: Product Feeder ID
 versions:
 - '17.0'
+- '16.0'
+- '14.0'
 ---
 
 

@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Project
 title: Project Key Link Type
 versions:
 - '17.0'
+- '15.0'
 ---
 
 

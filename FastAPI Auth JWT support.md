@@ -9,7 +9,9 @@ tags:
 - OCA
 title: FastAPI Auth JWT support
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
 ---
 
 

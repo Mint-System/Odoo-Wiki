@@ -9,7 +9,11 @@ tags:
 - OCA
 title: 2D matrix for x2many fields
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

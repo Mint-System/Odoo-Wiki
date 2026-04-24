@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Switzerland QR IBAN
 versions:
 - '15.0'
+- '14.0'
 ---
 
 

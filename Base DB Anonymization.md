@@ -8,6 +8,7 @@ prev: ./database
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Base DB Anonymization
 versions:
+- '18.0'
 - '16.0'
 ---
 

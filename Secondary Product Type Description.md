@@ -9,6 +9,8 @@ repo: Mint-System/Odoo-Apps-Product-Attribute
 title: Secondary Product Type Description
 versions:
 - '17.0'
+- '16.0'
+- '14.0'
 ---
 
 

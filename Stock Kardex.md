@@ -8,6 +8,7 @@ prev: ./stock
 repo: Mint-System/Odoo-Apps-Connector
 title: Stock Kardex
 versions:
+- '18.0'
 - '17.0'
 ---
 

@@ -8,7 +8,10 @@ prev: ./contract
 repo: OCA/contract
 title: Contracts Management Recurring Sales
 versions:
+- '18.0'
 - '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

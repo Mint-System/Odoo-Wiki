@@ -8,7 +8,9 @@ prev: ./sale
 repo: OCA/sale-workflow
 title: Sale Company Currency
 versions:
+- '18.0'
 - '16.0'
+- '14.0'
 ---
 
 

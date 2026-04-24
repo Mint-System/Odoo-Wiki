@@ -9,6 +9,8 @@ repo: OCA/stock-logistics-workflow
 title: Stock Quant Package Dimension
 versions:
 - '17.0'
+- '16.0'
+- '14.0'
 ---
 
 

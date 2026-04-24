@@ -8,7 +8,10 @@ prev: ./accounting
 repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
 title: Account General Ledger Contra Accounts
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
+- '15.0'
 ---
 
 

@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Purchase-Workflow
 title: Purchase Order Partner Shipping
 versions:
 - '17.0'
+- '14.0'
 ---
 
 

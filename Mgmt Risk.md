@@ -9,6 +9,8 @@ repo: Mint-System/Odoo-Apps-Management-System
 title: Mgmt Risk
 versions:
 - '19.0'
+- '18.0'
+- '17.0'
 ---
 
 

@@ -8,7 +8,9 @@ prev: ./product
 repo: Mint-System/Odoo-Apps-Product-Attribute
 title: Product Pricelist Fixed Discount
 versions:
+- '18.0'
 - '16.0'
+- '14.0'
 ---
 
 

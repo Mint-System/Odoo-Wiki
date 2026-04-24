@@ -8,7 +8,11 @@ prev: ./website-sale
 repo: OCA/e-commerce
 title: Website Sale Cart Expire
 versions:
+- '19.0'
+- '18.0'
 - '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

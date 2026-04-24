@@ -8,6 +8,7 @@ prev: ./hr-holidays
 repo: Mint-System/Odoo-Apps-HR
 title: HR Holidays Working Time
 versions:
+- '18.0'
 - '16.0'
 ---
 

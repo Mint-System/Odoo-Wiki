@@ -9,6 +9,8 @@ repo: Mint-System/Odoo-Apps-Social
 title: Account Move Mail Thread
 versions:
 - '17.0'
+- '15.0'
+- '14.0'
 ---
 
 

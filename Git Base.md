@@ -8,7 +8,9 @@ prev: ./
 repo: Mint-System/Odoo-Apps-Connector
 title: Git
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
 ---
 
 

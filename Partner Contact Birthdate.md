@@ -8,7 +8,12 @@ prev: ./contacts
 repo: OCA/partner-contact
 title: Contact's birthdate
 versions:
+- '19.0'
+- '18.0'
 - '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Contract
 title: Contract Format Date Marker
 versions:
 - '17.0'
+- '15.0'
 ---
 
 

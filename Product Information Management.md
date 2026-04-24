@@ -8,6 +8,7 @@ prev: ./product
 repo: Mint-System/Odoo-Apps-Product-Attribute
 title: Product Information Management
 versions:
+- '18.0'
 - '16.0'
 ---
 

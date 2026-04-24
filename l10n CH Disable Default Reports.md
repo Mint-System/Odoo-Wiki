@@ -9,6 +9,8 @@ repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Switzerland Disable Default Reports
 versions:
 - '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

@@ -8,6 +8,7 @@ prev: ./purchase
 repo: Mint-System/Odoo-Apps-Purchase-Workflow
 title: Purchase Order Subscription
 versions:
+- '18.0'
 - '16.0'
 ---
 

@@ -9,6 +9,8 @@ repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Account Move Line Accounting Description Stock
 versions:
 - '17.0'
+- '16.0'
+- '14.0'
 ---
 
 

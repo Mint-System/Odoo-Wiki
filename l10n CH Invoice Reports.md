@@ -9,6 +9,7 @@ repo: OCA/l10n-switzerland
 title: Switzerland Invoice Reports with payment option
 versions:
 - '15.0'
+- '14.0'
 ---
 
 

@@ -9,6 +9,11 @@ repo: OCA/sale-workflow
 title: Sale Order Line Date
 versions:
 - '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

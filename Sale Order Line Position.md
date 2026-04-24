@@ -8,7 +8,10 @@ prev: ./order-positions
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Order Line Position
 versions:
+- '19.0'
 - '17.0'
+- '16.0'
+- '15.0'
 ---
 
 

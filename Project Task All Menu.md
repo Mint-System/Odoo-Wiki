@@ -9,6 +9,8 @@ repo: Mint-System/Odoo-Apps-Project
 title: Project Task All Menu
 versions:
 - '17.0'
+- '16.0'
+- '15.0'
 ---
 
 

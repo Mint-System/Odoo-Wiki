@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Social
 title: Mail Composer Default Template
 versions:
 - '15.0'
+- '14.0'
 ---
 
 

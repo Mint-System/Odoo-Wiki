@@ -9,6 +9,8 @@ repo: Mint-System/Odoo-Apps-Social
 title: Sale Order Unsubscribe
 versions:
 - '17.0'
+- '16.0'
+- '14.0'
 ---
 
 

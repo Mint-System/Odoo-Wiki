@@ -8,6 +8,7 @@ prev: ./website-sale
 repo: Mint-System/Odoo-Apps-Connector
 title: Meilisearch Base
 versions:
+- '18.0'
 - '16.0'
 ---
 

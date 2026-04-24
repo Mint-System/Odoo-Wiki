@@ -9,6 +9,9 @@ repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
 title: Account Financial Report Contra Accounts
 versions:
 - '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

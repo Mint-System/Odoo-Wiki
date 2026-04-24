@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Manufacture
 title: MRP Production Update Upstream Move
 versions:
 - '17.0'
+- '14.0'
 ---
 
 

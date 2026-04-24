@@ -9,6 +9,9 @@ repo: OCA/hr-holidays
 title: HR Leave Custom Hour Interval
 versions:
 - '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

@@ -8,6 +8,7 @@ prev: ./contacts
 repo: Mint-System/Odoo-Apps-Partner-Contact
 title: Partner Email History
 versions:
+- '18.0'
 - '16.0'
 ---
 

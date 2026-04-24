@@ -8,6 +8,7 @@ prev: ./website
 repo: Mint-System/Odoo-Apps-Website
 title: Website Sale Pricelist Fixed Discount
 versions:
+- '18.0'
 - '16.0'
 ---
 

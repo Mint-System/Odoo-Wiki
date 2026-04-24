@@ -9,6 +9,8 @@ repo: Mint-System/Odoo-Apps-HR
 title: HR Employee Paid Out Overtime Report
 versions:
 - '17.0'
+- '16.0'
+- '15.0'
 ---
 
 

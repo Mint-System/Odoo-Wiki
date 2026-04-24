@@ -7,7 +7,7 @@ prev: ./sale-timesheet
 forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 versions:
-  - "17.0"
+- '17.0'
 name: sale_timesheet_billable
 ---
 

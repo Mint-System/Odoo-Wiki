@@ -8,7 +8,12 @@ prev: ./sale
 repo: OCA/sale-workflow
 title: Sale Order Archive
 versions:
+- '19.0'
+- '18.0'
 - '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

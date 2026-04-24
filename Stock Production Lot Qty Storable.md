@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
 title: Stock Production Lot Qty Storable
 versions:
 - '16.0'
+- '14.0'
 ---
 
 

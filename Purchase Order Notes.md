@@ -9,6 +9,8 @@ repo: Mint-System/Odoo-Apps-Purchase-Workflow
 title: Purchase Order Notes
 versions:
 - '17.0'
+- '16.0'
+- '14.0'
 ---
 
 

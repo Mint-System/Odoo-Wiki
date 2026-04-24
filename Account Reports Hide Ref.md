@@ -8,6 +8,7 @@ prev: ./accounting
 repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
 title: Account Reports Hide Ref
 versions:
+- '18.0'
 - '16.0'
 ---
 

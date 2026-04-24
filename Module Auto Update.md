@@ -9,6 +9,11 @@ repo: OCA/server-tools
 title: Module Auto Update
 versions:
 - '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

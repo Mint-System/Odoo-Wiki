@@ -8,7 +8,9 @@ prev: ./stock
 repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
 title: Stock Lot Traceability List
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
 ---
 
 

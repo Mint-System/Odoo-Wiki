@@ -8,6 +8,8 @@ prev: ./web
 repo: OCA/web
 title: Web Dark Mode
 versions:
+- '19.0'
+- '18.0'
 - '16.0'
 ---
 

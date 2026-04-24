@@ -7,7 +7,7 @@ prev: ./project
 forge: github.com
 repo: Mint-System/Odoo-Apps-Project
 versions:
-  - "17.0"
+- '17.0'
 name: project_task_billable
 ---
 

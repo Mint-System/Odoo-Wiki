@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Purchase-Workflow
 title: Purchase Sale Order Analytic Account
 versions:
 - '17.0'
+- '15.0'
 ---
 
 

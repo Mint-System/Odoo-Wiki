@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-HR
 title: Project Timesheet Limit
 versions:
 - '17.0'
+- '15.0'
 ---
 
 

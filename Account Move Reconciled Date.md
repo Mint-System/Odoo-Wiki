@@ -8,7 +8,9 @@ prev: ./accounting
 repo: Mint-System/Odoo-Apps-Account-Reconcile
 title: Account Move Reconciled Date
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
 ---
 
 

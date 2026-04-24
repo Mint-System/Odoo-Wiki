@@ -8,6 +8,7 @@ prev: ./connector
 repo: Mint-System/Odoo-Apps-Connector
 title: SSH
 versions:
+- '18.0'
 - '16.0'
 ---
 

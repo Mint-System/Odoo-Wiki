@@ -8,6 +8,7 @@ repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
 title: Account Taxt Report Show Vat
 versions:
 - '17.0'
+- '15.0'
 ---
 
 

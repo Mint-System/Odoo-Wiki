@@ -8,7 +8,7 @@ prev: {{VALUE:prev}}
 forge: github.com
 repo: {{VALUE:org_name}}/{{VALUE:repo_name}}
 versions:
-  - "{{VALUE:odoo_version}}"
+- '{{VALUE:odoo_version}}'
 name: {{VALUE:module_name}}
 ---
 

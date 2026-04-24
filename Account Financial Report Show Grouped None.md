@@ -8,7 +8,9 @@ prev: ./accounting
 repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
 title: Account Financial Report Show Grouped None
 versions:
+- '17.0'
 - '16.0'
+- '14.0'
 ---
 
 

@@ -8,6 +8,7 @@ prev: ./accounting-followup
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Account Followup Subscribe
 versions:
+- '18.0'
 - '16.0'
 ---
 

@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Manufacture
 title: MRP Production Assign Lot
 versions:
 - '16.0'
+- '14.0'
 ---
 
 

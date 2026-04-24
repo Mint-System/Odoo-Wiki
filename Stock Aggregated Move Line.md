@@ -9,6 +9,8 @@ repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
 title: Stock Aggregated Move Lines
 versions:
 - '17.0'
+- '16.0'
+- '14.0'
 ---
 
 

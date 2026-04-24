@@ -8,6 +8,7 @@ prev: ./discuss-e-mail
 repo: Mint-System/Odoo-Apps-Social
 title: Mail Channel Follow Model
 versions:
+- '18.0'
 - '16.0'
 ---
 

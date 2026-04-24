@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Product-Attribute
 title: Product Name Sequence
 versions:
 - '15.0'
+- '14.0'
 ---
 
 

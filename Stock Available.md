@@ -9,6 +9,7 @@ repo: OCA/stock-logistics-warehouse
 title: Stock available to promise
 versions:
 - '15.0'
+- '14.0'
 ---
 
 

@@ -8,6 +8,7 @@ repo: Mint-System/Odoo-Apps-Manufacture
 title: Maintenance Plan Request Name
 versions:
 - '17.0'
+- '15.0'
 ---
 
 

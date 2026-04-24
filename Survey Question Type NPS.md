@@ -9,6 +9,7 @@ repo: OCA/survey
 title: Survey Question Type NPS
 versions:
 - '16.0'
+- '14.0'
 ---
 
 

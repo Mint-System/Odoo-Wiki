@@ -8,7 +8,9 @@ prev: ./product
 repo: OCA/product-attribute
 title: Product Usability
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
 ---
 
 

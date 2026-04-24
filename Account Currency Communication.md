@@ -8,7 +8,9 @@ prev: /.invoicing
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Account Currency Communication
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
 ---
 
 

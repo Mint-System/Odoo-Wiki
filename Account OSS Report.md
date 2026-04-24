@@ -8,6 +8,7 @@ prev: ./accounting
 repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
 title: Account OSS Report
 versions:
+- '18.0'
 - '16.0'
 ---
 

@@ -9,6 +9,10 @@ repo: OCA/rest-framework
 title: Odoo FastAPI
 versions:
 - '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '14.0'
 ---
 
 

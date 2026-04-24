@@ -9,6 +9,7 @@ repo: OCA/project
 title: Project Task Dependencies
 versions:
 - '15.0'
+- '14.0'
 ---
 
 

@@ -9,6 +9,8 @@ repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
 title: Stock Critical Forecast Link Replenish
 versions:
 - '17.0'
+- '16.0'
+- '14.0'
 ---
 
 

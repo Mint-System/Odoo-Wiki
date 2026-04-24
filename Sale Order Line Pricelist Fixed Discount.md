@@ -8,7 +8,9 @@ prev: ./sale
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Order Line Pricelist Fixed Discount
 versions:
+- '18.0'
 - '16.0'
+- '14.0'
 ---
 
 

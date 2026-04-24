@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-HR
 title: HR Timesheet Multiline Name
 versions:
 - '17.0'
+- '15.0'
 ---
 
 

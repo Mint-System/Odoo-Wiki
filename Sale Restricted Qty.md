@@ -10,6 +10,8 @@ tags:
 title: Sale Restricted Qty
 versions:
 - '17.0'
+- '16.0'
+- '14.0'
 ---
 
 

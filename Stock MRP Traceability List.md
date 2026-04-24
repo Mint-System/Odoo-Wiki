@@ -8,7 +8,10 @@ prev: ./manufacture
 repo: Mint-System/Odoo-Apps-Manufacture
 title: Stock MRP Traceability List
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
+- '14.0'
 ---
 
 

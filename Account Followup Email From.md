@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
 title: Account Followup Email From
 versions:
 - '17.0'
+- '15.0'
 ---
 
 

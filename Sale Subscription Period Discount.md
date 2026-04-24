@@ -8,6 +8,7 @@ prev: ./subscription
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Subscription Period Discount
 versions:
+- '18.0'
 - '16.0'
 ---
 

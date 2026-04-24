@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Purchase-Workflow
 title: Purchase Order Validate
 versions:
 - '17.0'
+- '14.0'
 ---
 
 

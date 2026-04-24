@@ -8,7 +8,9 @@ prev: ./development
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Server Config Environment
 versions:
+- '18.0'
 - '17.0'
+- '16.0'
 ---
 
 

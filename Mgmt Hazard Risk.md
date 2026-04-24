@@ -8,6 +8,8 @@ prev: ./management-system
 repo: Mint-System/Odoo-Apps-Management-System
 title: Mgmt Hazard Risk
 versions:
+- '19.0'
+- '18.0'
 - '17.0'
 ---
 

@@ -9,6 +9,9 @@ repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Order Line Description Name
 versions:
 - '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
 
 

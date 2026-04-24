@@ -9,6 +9,9 @@ repo: OCA/bank-statement-import
 title: Account Statement Import File
 versions:
 - '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
 ---
 
 

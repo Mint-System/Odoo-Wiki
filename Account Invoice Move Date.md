@@ -8,6 +8,7 @@ prev: ./invoicing
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Account Invoice Move Date
 versions:
+- '18.0'
 - '16.0'
 ---
 

@@ -8,6 +8,7 @@ prev: ./dashboards
 repo: Mint-System/Odoo-Apps-Spreadsheet
 title: Spreadsheet Board User ACL
 versions:
+- '18.0'
 - '16.0'
 ---
 

@@ -9,6 +9,7 @@ repo: Mint-System/Odoo-Apps-Manufacture
 title: MRP Workorder Set Producing Qty
 versions:
 - '16.0'
+- '14.0'
 ---
 
 

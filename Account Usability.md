@@ -9,6 +9,10 @@ repo: OCA/account-financial-tools
 title: Account Missing Menus
 versions:
 - '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
 ---
 
 

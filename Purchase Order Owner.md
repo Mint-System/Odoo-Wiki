@@ -9,6 +9,8 @@ repo: OCA/purchase-workflow
 title: Purchase Order Owner
 versions:
 - '19.0'
+- '18.0'
+- '16.0'
 ---
 
 

@@ -9,6 +9,8 @@ repo: OCA/purchase-workflow
 title: Purchase order lines with discounts
 versions:
 - '16.0'
+- '15.0'
+- '14.0'
 ---
 
 
