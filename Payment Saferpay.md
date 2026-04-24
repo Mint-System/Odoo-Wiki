@@ -3,7 +3,7 @@ title: Saferpay Payment Gateway
 description: Zahlungsanbieter für Saferpay (ohne Zahlungstokens).
 kind: howto
 partner: Thirdparty
-prev: ./website-e-commerce
+prev: ./website-sale
 ---
 
 # Saferpay Payment Gateway

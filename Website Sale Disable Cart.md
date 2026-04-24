@@ -3,7 +3,7 @@ title: Website Sale Disable Cart
 description: Über das zugeordnete Band kann konfiguriert werden, ob ein Produkt in den Warenkorb gelegt werden kann.
 kind: howto
 partner: Mint System
-prev: ./website-e-commerce
+prev: ./website-sale
 ---
 
 # Website Sale Disable Cart

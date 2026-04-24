@@ -3,7 +3,7 @@ title: Sale Subscription Disable Tokenization
 description: Abonnements mit Zahlungsanbieter ohne wiederkehrende Zahlung kaufen.
 kind: howto
 partner: Mint System
-prev: ./website-e-commerce
+prev: ./website-sale
 ---
 
 # Sale Subscription Disable Tokenization

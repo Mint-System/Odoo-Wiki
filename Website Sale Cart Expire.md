@@ -3,7 +3,7 @@ title: Website Sale Cart Expire
 description: Warenkörbe nach einer bestimmten Zeit automatisch abbrechen.
 kind: howto
 partner: OCA
-prev: ./website-e-commerce
+prev: ./website-sale
 ---
 
 # Website Sale Cart Expire
