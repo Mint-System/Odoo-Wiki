@@ -110,6 +110,7 @@ for group_id in group_ids:
         
         # Write the address fields to records
         no_street_ids.write(vals)
-
         
+        message = "Copied address for partner '%s' record %s to %s." % (with_street_ids.name, with_street_ids.id, no_street_ids.id)
+        log(message)
 ```
