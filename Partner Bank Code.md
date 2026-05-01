@@ -38,7 +38,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Bank verknüpfen`\
 Modell: `res.partner.bank`\
-Folgeaktion: `Python-Code ausführen`\
+Typ: `Code ausführen`\
 Python-Code:
 
 ```python

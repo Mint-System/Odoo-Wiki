@@ -69,7 +69,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Produktionsdokumente mit Produkt verknüpfen`\
 Modell: `product.template`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -93,7 +93,7 @@ Dasselbe können Sie für Produktvarianten einrichten:
 
 Name der Aktion: `Produktionsdokumente mit Produkt verknüpfen`\
 Modell: `product.product`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

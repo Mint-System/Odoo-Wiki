@@ -35,7 +35,7 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 | [Contract Sale](Contract%20Sale.md)                                 | Zugriff auf Verträge für Verkaufsmitarbeitende.               |
 | [Product Contract](Product%20Contract.md)                           | Verknüpfung von Verkaufsaufträgen mit Kundenverträgen (OCA).  |
 | [Subscription OCA](Subscription%20OCA.md)                           | OCA-Alternative für Abonnemente.                              |
-| [Subscription OCA Section](Subscription%20OCA%20Section.md)         | Notizen und Abschnitte für Abonnements-Posten. 
+| [Subscription OCA Section](Subscription%20OCA%20Section.md)         | Notizen und Abschnitte für Abonnements-Posten.
 
 ## Verwendung
 
@@ -87,7 +87,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Rechnung anlegen`\
 Modell: `contract.contract`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

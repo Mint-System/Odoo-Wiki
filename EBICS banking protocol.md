@@ -116,7 +116,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Zurücksetzen`\
 Modell: `ebics.file`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -231,4 +231,4 @@ keine Antwort zurück.
 
 **Lösung**
 
-Kontaktieren Sie Ihre Bank. Evtl. wird Ihre IP von der Bank nicht akzeptiert. 
+Kontaktieren Sie Ihre Bank. Evtl. wird Ihre IP von der Bank nicht akzeptiert.

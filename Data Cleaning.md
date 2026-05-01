@@ -12,6 +12,12 @@ partner: Odoo S.A.
 
 {{ $frontmatter.description }}
 
+## Bereiche
+
+| Bereich                                                   | Beschreibung                                     |
+| --------------------------------------------------------- | ------------------------------------------------ |
+| [Datenbereinigung Aktionen](Data%20Cleaning%20Actions.md) | Aktionen in der Datenbereinigung automatisieren. |
+
 ## Verwendung
 
 ### Duplikate in Kontakte bereinigen

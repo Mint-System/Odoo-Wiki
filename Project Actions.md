@@ -20,7 +20,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Projekt-Mail-Adressen aktualisieren`\
 Modell: `project.project`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -49,7 +49,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Tage\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -70,7 +70,7 @@ for project in project_ids:
 
   # Check if action entry exists
   action = env['ir.actions.act_window'].with_context(lang=lang).search([('name', '=', name)], limit=1)
- 
+
   # Create action if it does not exist otherwise update the action
   if not action:
     action = env['ir.actions.act_window'].with_context(lang=lang).create({
@@ -91,7 +91,7 @@ for project in project_ids:
 
   # Set action reference
   action_ref = 'ir.actions.act_window,' + str(action.id)
-  
+
   # Check if menu entry exists
   menu = env['ir.ui.menu'].with_context(lang=lang).search([('name', '=', name)], limit=1)
 
@@ -129,7 +129,7 @@ for project in project_ids:
     removed_menus.append(menu.name)
     menu.unlink()
 
-    
+
   # Check if action entry exists and remove it if found
   action = env['ir.actions.act_window'].with_context(lang=lang).search([('name', '=', name)], limit=1)
   if action:
