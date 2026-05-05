@@ -1,0 +1,17 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - "!name.isEmpty()"
+    order:
+      - file.name
+      - forge
+      - repo
+      - name
+      - versions
+    sort:
+      - property: partner
+        direction: DESC
+      - property: tags
+        direction: DESC

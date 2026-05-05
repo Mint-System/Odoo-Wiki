@@ -1,10 +1,16 @@
 ---
-title: Stock Barcode Maintenance
 description: Barcode scannen und Inventar anzeigen.
+forge: github.com
 kind: howto
+name: stock_barcode_maintenance
 partner: Mint System
 prev: ./barcode
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Barcode Maintenance
+versions:
+- '14.0'
 ---
+
 
 # Stock Barcode Maintenance
 
@@ -12,8 +18,8 @@ prev: ./barcode
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_barcode_maintenance`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_barcode_maintenance>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

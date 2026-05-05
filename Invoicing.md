@@ -4,6 +4,7 @@ description: Online Rechnungsstellung leicht gemacht.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Rechnungsstellung

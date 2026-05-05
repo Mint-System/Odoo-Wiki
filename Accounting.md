@@ -4,6 +4,7 @@ description: Ihre Buchhaltung einfach und korrekt.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Buchhaltung

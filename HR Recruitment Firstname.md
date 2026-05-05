@@ -1,10 +1,16 @@
 ---
-title: HR Recruitment Firstname
 description: Vor- und Nachname auf Bewerbung.
+forge: github.com
 kind: howto
+name: hr_recruitment_firstname
 partner: Mint System
 prev: ./hr-recruitment
+repo: Mint-System/Odoo-Apps-HR
+title: HR Recruitment Firstname
+versions:
+- '14.0'
 ---
+
 
 # HR Recruitment Firstname
 
@@ -12,8 +18,8 @@ prev: ./hr-recruitment
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_recruitment_firstname`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_recruitment_firstname>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

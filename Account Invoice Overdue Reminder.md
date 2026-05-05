@@ -1,10 +1,20 @@
 ---
-title: Overdue Invoice Reminder
 description: Einfache Lösung zum Versenden von Zahlungserinnerungen.
+forge: github.com
 kind: howto
+name: account_invoice_overdue_reminder
 partner: OCA
 prev: ./accounting
+repo: OCA/credit-control
+title: Overdue Invoice Reminder
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Overdue Invoice Reminder
 
@@ -12,8 +22,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_invoice_overdue_reminder`\
-Repository: <https://github.com/OCA/credit-control/tree/16.0/account_invoice_overdue_reminder>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

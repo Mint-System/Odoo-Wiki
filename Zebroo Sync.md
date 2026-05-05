@@ -1,10 +1,17 @@
 ---
-title: Zebroo Sync
 description: Umfassende Synchronisationslösung basierend auf Odoo.
+extensions: true
+forge: github.com
 kind: howto
+name: zbsync
 partner: Zebroo
 prev: ./
+repo: Odoo-Ninjas/zync-stable
+title: Zebroo Sync
+versions:
+- '16.0'
 ---
+
 
 # Zebroo Sync
 
@@ -12,8 +19,8 @@ prev: ./
 
 {{ $frontmatter.description }}
 
-Technischer Name: `zbsync`\
-Repository: <https://github.com/Odoo-Ninjas/zync-stable/tree/16.0/zbsync>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Erweiterungen
 

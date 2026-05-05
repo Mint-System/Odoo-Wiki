@@ -1,10 +1,16 @@
 ---
-title: Switzerland QR-Bill Scan
 description: Daten aus QR-Code bei Rechnungsimport auslesen.
+forge: github.com
 kind: howto
+name: ''
 partner: OCA
 prev: ./l10n-ch
+repo: OCA/l10n-switzerland
+title: Switzerland QR-Bill Scan
+versions:
+- '19.0'
 ---
+
 
 # Switzerland QR-Bill Scan
 
@@ -12,8 +18,8 @@ prev: ./l10n-ch
 
 {{ $frontmatter.description }}
 
-Technischer Name: `l10n_ch_qr_bill_scan`\
-Repository: <https://github.com/OCA/l10n-switzerland/tree/19.0>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [l10n CH QR ISR Invoice Import](l10n%20CH%20QR%20ISR%20Invoice%20Import.md) zu verwenden.

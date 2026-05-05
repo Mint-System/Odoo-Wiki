@@ -1,10 +1,16 @@
 ---
-title: Sync Mapper Import
 description: Mapper aus Grabber importieren.
+forge: github.com
 kind: howto
+name: zbsync_mapper_import
 partner: Zebroo
 prev: ./zebroo-sync
+repo: Odoo-Ninjas/zync-stable
+title: Sync Mapper Import
+versions:
+- '16.0'
 ---
+
 
 # Sync Mapper Import
 
@@ -12,8 +18,8 @@ prev: ./zebroo-sync
 
 {{ $frontmatter.description }}
 
-Technischer Name: `zbsync_mapper_import`\
-Repository: <https://github.com/Odoo-Ninjas/zync-stable/tree/16.0/zbsync_mapper_import>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

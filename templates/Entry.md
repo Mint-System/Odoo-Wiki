@@ -5,6 +5,11 @@ kind: howto
 tags:
   - {{VALUE:org_name}}
 prev: {{VALUE:prev}}
+forge: github.com
+repo: {{VALUE:org_name}}/{{VALUE:repo_name}}
+versions:
+- '{{VALUE:odoo_version}}'
+name: {{VALUE:module_name}}
 ---
 
 # {{VALUE:name}}
@@ -84,11 +89,11 @@ this.variables.org_name = org_name;
 // Set icon based on org
 let module_icon = '';
 if (org_name === 'OCA') {
-  module_icon = '![icon_oca_app](../attachments/icon_oca_app.png)';
+  module_icon = '![icon_oca_app](attachments/icon_oca_app.png)';
 } else if (org_name === 'Mint-System') {
-  module_icon = '![icon_oms_box](../attachments/icons_odoo_mint_system.png)';
+  module_icon = '![icon_oms_box](attachments/icons_odoo_mint_system.png)';
 } else {
-  module_icon = '![icon_oca_app](../attachments/icons_odoo_thirdparty.png)';
+  module_icon = '![icon_oca_app](attachments/icons_odoo_thirdparty.png)';
 }
 this.variables.module_icon = module_icon;
 
@@ -101,5 +106,9 @@ if (repoMap[org_name] && repoMap[org_name].length > 0) {
 }
 this.variables.repo_name = repo_name;
 ```
-Technischer Name: `{{VALUE:module_name}}`\
-Repository: <https://github.com/{{VALUE:org_name}}/{{VALUE:repo_name}}/tree/{{VALUE:odoo_version}}/{{VALUE:module_name}}>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
+
+## Beschreibung
+
+#FIXME

@@ -1,20 +1,27 @@
 ---
-title: Fs Folder WebDAV
 description: Verbindung mit externen WebDav-Speicher.
+forge: github.com
 kind: howto
-tags:
-  - OCA
+name: fs_folder_webdav
 prev: ./base
+repo: OCA/storage
+tags:
+- OCA
+title: Fs Folder WebDAV
+versions:
+- '19.0'
+- '18.0'
 ---
+
 
 # Fs Folder WebDAV
 
-![icon_oca_app](../attachments/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
-Technischer Name: `fs_folder_webdav`\
-Repository: <https://github.com/OCA/storage/tree/18.0/fs_folder_webdav>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

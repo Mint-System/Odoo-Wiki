@@ -1,10 +1,16 @@
 ---
-title: Packaging UOM
 description: Mengeneinheit für Produktverpackung festlegen.
+forge: github.com
 kind: howto
+name: packaging_uom
 partner: OCA
 prev: ./product
+repo: OCA/product-attribute
+title: Packaging UOM
+versions:
+- '14.0'
 ---
+
 
 # Packaging UOM
 
@@ -12,8 +18,8 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `packaging_uom`\
-Repository: <https://github.com/OCA/product-attribute/tree/14.0/packaging_uom>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,20 @@
 ---
-title: HR Employee ID
 description: Identifikationsnummer für Mitarbeitende.
+forge: github.com
 kind: howto
+name: hr_employee_id
 partner: OCA
 prev: ./hr
+repo: OCA/hr
+title: HR Employee ID
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # HR Employee ID
 
@@ -12,8 +22,8 @@ prev: ./hr
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_employee_id`\
-Repository: <https://github.com/OCA/hr/tree/17.0/hr_employee_id>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

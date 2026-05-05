@@ -1,10 +1,16 @@
 ---
-title: Stock Picking MRP Production Done
 description: Lieferung mit Fertigungsauftrag gleichzeitig abschliessen.
+forge: github.com
 kind: howto
+name: stock_picking_mrp_production_done
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Picking MRP Production Done
+versions:
+- '14.0'
 ---
+
 
 # Stock Picking MRP Production Done
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_picking_mrp_production_done`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_picking_mrp_production_done>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

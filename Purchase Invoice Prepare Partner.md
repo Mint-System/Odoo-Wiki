@@ -1,10 +1,16 @@
 ---
-title: Purchase Invoice Prepare Partner
 description: Kontakte aus Bestellung auf Rechnung kopieren.
+forge: github.com
 kind: howto
+name: purchase_invoice_prepare_partner
 partner: Mint System
 prev: ./invoicing
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Purchase Invoice Prepare Partner
+versions:
+- '14.0'
 ---
+
 
 # Purchase Invoice Prepare Partner
 
@@ -12,5 +18,5 @@ prev: ./invoicing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_invoice_prepare_partner`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/purchase_invoice_prepare_partner>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

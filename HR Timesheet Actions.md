@@ -18,7 +18,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Zeiterfassung aufteilen`\
 Modell: `account.analytic.line`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
 
@@ -41,7 +41,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Auftragselement von Aufgabe entfernen`\
 Modell: `account.analytic.line`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
 
@@ -62,7 +62,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Validierung zurücksetzen`\
 Modell: `account.analytic.line`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
 
@@ -78,4 +78,4 @@ In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl _Aktion_
 
 ### Zeiterfassung: E-Mail-Erinnerung an Mitarbeiter
 
-#TODO 
+#TODO

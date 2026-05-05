@@ -1,10 +1,16 @@
 ---
-title: Fleet HR Vehicle Request
 description: Brückenmodul für Fahrzeugflotte und Fahrzeuganfrage.
+forge: github.com
 kind: howto
+name: fleet_hr_vehicle_request
 partner: Mint System
 prev: ./hr
+repo: Mint-System/Odoo-Apps-HR
+title: Fleet HR Vehicle Request
+versions:
+- '14.0'
 ---
+
 
 # Fleet HR Vehicle Request
 
@@ -12,8 +18,8 @@ prev: ./hr
 
 {{ $frontmatter.description }}
 
-Technischer Name: `fleet_hr_vehicle_request`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/fleet_hr_vehicle_request>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

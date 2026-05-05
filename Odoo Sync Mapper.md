@@ -1,10 +1,16 @@
 ---
-title: Odoo Sync Mapper
 description: Odoo Attribute mappen.
+forge: github.com
 kind: howto
+name: zbsync_odoo_mapper
 partner: Zebroo
 prev: ./zebroo-sync
+repo: Odoo-Ninjas/zync-stable
+title: Odoo Sync Mapper
+versions:
+- '16.0'
 ---
+
 
 # Odoo Sync Mapper
 
@@ -12,5 +18,5 @@ prev: ./zebroo-sync
 
 {{ $frontmatter.description }}
 
-Technischer Name: `zbsync_odoo_mapper`\
-Repository: <https://github.com/Odoo-Ninjas/zync-stable/tree/16.0/zbsync_odoo_mapper>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

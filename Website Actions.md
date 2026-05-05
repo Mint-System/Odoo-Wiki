@@ -20,7 +20,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Zahlungstransaktion zurücksetzen`\
 Modell: `payment.transaction`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 ```python
 records.write({'state': 'draft', 'last_state_change': False})
@@ -39,7 +39,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Tag\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 03:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

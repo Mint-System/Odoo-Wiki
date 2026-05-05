@@ -1,17 +1,22 @@
 ---
-title: Sale Subscription Pricelist Fixed Discount
 description: Stellt die Rabatt-Funktion für Abonnment wieder her.
+forge: github.com
 kind: howto
-tags:
-  - Mint-System
+name: sale_subscription_pricelist_fixed_discount
+partner: Mint System
 prev: ./subscription
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Subscription Pricelist Fixed Discount
+versions:
+- '18.0'
 ---
+
 
 # Sale Subscription Pricelist Fixed Discount
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_subscription_pricelist_fixed_discount`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/18.0/sale_subscription_pricelist_fixed_discount>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

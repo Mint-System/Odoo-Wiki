@@ -1,10 +1,20 @@
 ---
-title: Web Company Color
 description: Farben des Odoo Backend Theme anpassen.
+forge: github.com
 kind: howto
+name: web_company_color
 partner: OCA
 prev: ./settings
+repo: OCA/web
+title: Web Company Color
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Web Company Color
 
@@ -12,8 +22,8 @@ prev: ./settings
 
 {{ $frontmatter.description }}
 
-Technischer Name: `web_company_color`\
-Repository: <https://github.com/OCA/web/tree/17.0/web_company_color>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

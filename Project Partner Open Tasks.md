@@ -1,10 +1,16 @@
 ---
-title: Project Partner Open Tasks
 description: Offene Aufgaben von Kunde anzeigen.
+forge: github.com
 kind: howto
+name: project_partner_open_tasks
 partner: Mint System
 prev: ./project
+repo: Mint-System/Odoo-Apps-Project
+title: Project Partner Open Tasks
+versions:
+- '16.0'
 ---
+
 
 # Project Partner Open Tasks
 
@@ -12,8 +18,8 @@ prev: ./project
 
 {{ $frontmatter.description }}
 
-Technischer Name: `project_partner_open_tasks`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/16.0/project_partner_open_tasks>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

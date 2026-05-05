@@ -1,10 +1,16 @@
 ---
-title: Partner Multi Pricelist
 description: Mehrere Preislisten mit Start- und Enddatum auf Kunden festlegen.
+forge: github.com
 kind: howto
+name: partner_multi_pricelist
 partner: Mint System
 prev: ./contacts
+repo: Mint-System/Odoo-Apps-Partner-Contact
+title: Partner Multi Pricelist
+versions:
+- '14.0'
 ---
+
 
 # Partner Multi Pricelist
 
@@ -12,8 +18,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_multi_pricelist`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/14.0/partner_multi_pricelist>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

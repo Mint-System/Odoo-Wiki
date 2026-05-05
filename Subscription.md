@@ -4,6 +4,7 @@ description: Wiederkehrende Rechnungsstellung und Management von Abonnenten auf 
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Abonnemente

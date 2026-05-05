@@ -1,10 +1,16 @@
 ---
-title: Stock Move Show Tracking
 description: Zeigt Badge für Tracking-Typ auf Stock Moves.
+forge: github.com
 kind: howto
+name: stock_move_show_tracking
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Move Show Tracking
+versions:
+- '18.0'
 ---
+
 
 # Stock Move Show Tracking
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mrp_production_show_tracking`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/18.0/stock_move_show_tracking>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

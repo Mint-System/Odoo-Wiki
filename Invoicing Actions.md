@@ -20,7 +20,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Auf Entwurf zurücksetzen`
 Modell: `account.move`
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -39,7 +39,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Als gesendet markieren`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 ```python
 for record in records:
@@ -56,7 +56,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Als ungebucht markieren`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 ```python
 for record in records:
@@ -75,7 +75,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Als gebucht markieren`
 Modell: `account.move`
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -96,7 +96,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Mahngebühren hinzufügen`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -120,7 +120,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Steuersätze aktualisieren`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -147,7 +147,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Steuersatz entfernen`\
 Modell: `account.move.line`\
-Folgeaktion: `Python-Code ausführen`\
+Typ: `Code ausführen`\
 Python-Code:
 
 ```python
@@ -162,7 +162,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Anhang entfernen`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`\
+Typ: `Code ausführen`\
 Python-Code:
 
 ```python
@@ -177,7 +177,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Empfänger für Mahnungen ausgeben`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`\
+Typ: `Code ausführen`\
 Python-Code:
 
 ```python
@@ -192,8 +192,8 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `PDF-Datei vorbereiten`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`\
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -218,7 +218,7 @@ Im Versandprozess wird die PDF-Datei erstellt. Wenn Rechnungen als E-Mail versen
 - **Ausgehende Rückerstattung**: Versand an Kunden mit der Gutschrift im Anhang
 - **Eingangsrechnungen**: Selbst-fakturierte Rechnung: Versand
 - **Eingehende Rückerstattung**: Selbst-fakturierte Gutschrift: Versand
-- 
+-
 
 ### PDF-Datei von Kundenrechnungen vorbereiten
 
@@ -231,7 +231,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Woche\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

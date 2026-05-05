@@ -4,6 +4,7 @@ description: Bieten Sie Ihren Kunden überall ausgezeichnete Dienstleistungen an
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Aussendienst

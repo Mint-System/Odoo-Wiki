@@ -1,10 +1,18 @@
 ---
-title: MRP Workorder Disable Autostart
-description: Bei Aufruf von Arbeitsaufträgen in der Tablet-Ansicht nicht automatisch starten.
+description: Bei Aufruf von Arbeitsaufträgen in der Tablet-Ansicht nicht automatisch
+  starten.
+forge: github.com
 kind: howto
+name: mrp_workorder_disable_autostart
 partner: Mint System
 prev: ./manufacture
+repo: Mint-System/Odoo-Apps-Manufacture
+title: MRP Workorder Disable Autostart
+versions:
+- '16.0'
+- '14.0'
 ---
+
 
 # MRP Workorder Disable Autostart
 
@@ -12,8 +20,8 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mrp_workorder_disable_autostart`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/16.0/mrp_workorder_disable_autostart>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -4,6 +4,7 @@ description: E-Mail mit Odoo versenden.
 kind: howto
 section: true
 prev: ./discuss
+extensions: true
 ---
 
 # Dialog E-Mail
@@ -11,6 +12,27 @@ prev: ./discuss
 ![icons_odoo_mail](attachments/icons_odoo_mail.png)
 
 {{ $frontmatter.description }}
+
+## Erweiterungen
+
+| Erweiterung                                                                         | Beschreibung                                                             |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [Email CC and BCC](Mail%20Composer%20Cc%20Bcc.md)                                   | Im E-Mail-Dialog Cc und Bcc festlegen.                                   |
+| [Mail Activity Datetime](Mail%20Activity%20Datetime.md)                             | Datum mit Zeit für Fälligkeit von Aktivität.                             |
+| [Mail Channel Follow Model](Mail%20Channel%20Follow%20Model.md)                     | Kanäle können Datenmodell abonnieren und zeigen Benachrichtigungen an.   |
+| [Mail Composer Default Template](Mail%20Composer%20Default%20Template.md)           | Standardvorlage für E-Mail-Dialog festlegen.                             |
+| [Mail Composer Mass Layout](Mail%20Composer%20Mass%20Layout.md)                     | Mail-Layout beim Versand von mehreren Mails anwenden.                    |
+| [Mail Debrand](Mail%20Debrand.md)                                                   | Odoo Promotion aus E-Mail-Vorlagen entfernen.                            |
+| [Mail Force From](Mail%20Force%20From.md)                                           | Absender-Adressen für ausgewählte Modelle forcieren.                     |
+| [Mail Message Reply](Mail%20Message%20Reply.md)                                     | Auf eine Chatter-Nachricht antworten.                                    |
+| [Mail No Autofollow](Mail%20No%20Autofollow.md)                                     | Beim Erstellen von Nachrichten erfolgt keine automatische Abonnierung.   |
+| [Mail Optional Follower Notification](Mail%20Optional%20Follower%20Notification.md) | Auswahl Nachrichen an Abonnenten verschicken.                            |
+| [Mail Restrict Follower Selection](Mail%20Restrict%20Follower%20Selection.md)       | Auswahl der Follower einschränken.                                       |
+| [Mail Show Follower](Mail%20Show%20Follower.md)                                     | CC-Hinweis in E-Mail-Header einfügen.                                    |
+| [Mail Template Subscribe](Mail%20Template%20Subscribe.md)                           | Beim Versenden einer Nachricht Kontakte gemäss Domain-Filter abonnieren. |
+| [Mail Thread Context](Mail%20Thread%20Context.md)                                   | Automatisches Abonnieren deaktiveren.                                    |
+| [Mail Unsubscribe](Mail%20Unsubscribe.md)                                           | Automatische Abmeldung der Follower vor dem Versand einer Nachricht.     |
+| [Mail template multi attachment](Mail%20template%20multi%20attachment.md)           | Mehrere Anhänge bei E-Mail-Vorlage hinzufügen.                           |
 
 ## E-Mails
 

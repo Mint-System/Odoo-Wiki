@@ -1,20 +1,28 @@
 ---
-title: Mass Editing
 description: Aktionen zur Bearbeitung von mehreren Einträgen erstellen.
+forge: github.com
 kind: howto
-tags:
-  - OCA
+name: server_action_mass_edit
 prev: ./development
+repo: OCA/Server-UX
+tags:
+- OCA
+title: Mass Editing
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
 ---
+
 
 # Mass Editing
 
-![icon_oca_app](../attachments/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
-Technischer Name: `server_action_mass_edit`\
-Repository: <https://github.com/OCA/Server-UX/tree/17.0/server_action_mass_edit>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

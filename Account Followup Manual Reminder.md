@@ -1,10 +1,16 @@
 ---
-title: Account Followup Manual Reminder
 description: Standardwert für Mahnungserinnerungen auf Manuell setzen.
+forge: github.com
 kind: howto
+name: account_followup_manual_reminder
 partner: Mint System
 prev: ./invoicing-followup
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Account Followup Manual Reminder
+versions:
+- '16.0'
 ---
+
 
 # Account Followup Manual Reminder
 
@@ -12,8 +18,8 @@ prev: ./invoicing-followup
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_followup_manual_reminder`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/16.0/account_followup_manual_reminder>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

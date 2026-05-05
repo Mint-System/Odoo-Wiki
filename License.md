@@ -1,10 +1,18 @@
 ---
-title: Lizenz
 description: Software verkaufen und lizenzieren
+extensions: true
+forge: github.com
 kind: howto
-prev: ./
+name: license
 partner: Mint System
+prev: ./
+repo: Mint-System/Odoo-Apps-Vertical-SaaS
+title: Lizenz
+versions:
+- '18.0'
+- '16.0'
 ---
+
 
 # Lizenz
 
@@ -12,8 +20,8 @@ partner: Mint System
 
 {{ $frontmatter.description }}
 
-Technischer Name: `license`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-SaaS/tree/16.0/license>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Erweiterungen
 
@@ -65,7 +73,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Lizenz abbrechen`\
 Modell: `license.license`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -84,7 +92,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Lizenz aktivieren`\
 Modell: `license.license`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

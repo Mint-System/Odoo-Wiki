@@ -1,10 +1,16 @@
 ---
-title: Sale Order MRP Production Cancel
 description: Verlinkter Fertigungsauftrag bei Abbruch Verkaufsauftrag ebenfalls abbrechen.
+forge: github.com
 kind: howto
+name: sale_order_mrp_production_cancel
 partner: Mint System
 prev: ./sale
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Order MRP Production Cancel
+versions:
+- '14.0'
 ---
+
 
 # Sale Order MRP Production Cancel
 
@@ -12,8 +18,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_mrp_production_cancel`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/14.0/sale_order_mrp_production_cancel>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

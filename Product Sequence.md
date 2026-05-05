@@ -1,10 +1,20 @@
 ---
-title: Product Sequence
 description: Produkreferenzen anhand einer Sequenz generieren lassen.
+forge: github.com
 kind: howto
+name: product_sequence
 partner: OCA
 prev: ./manufacture
+repo: OCA/product-attribute
+title: Product Sequence
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Product Sequence
 
@@ -12,8 +22,8 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_sequence`\
-Repository: <https://github.com/OCA/product-attribute/tree/17.0/product_sequence>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

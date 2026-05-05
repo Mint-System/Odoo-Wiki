@@ -4,6 +4,7 @@ description: Alle Kontaktdaten an einem Ort.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Kontakte
@@ -21,45 +22,46 @@ partner: Odoo S.A.
 
 ## Erweiterungen
 
-| Erweiterung                                                                                       | Beschreibung                                                                |
-| ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| [Base Country Sequence](Base%20Country%20Sequence.md)                                             | Länder-Liste manuell sortieren.                                             |
-| [Base Location City](Base%20Location%20City.md)                                                   | Orte mit Längen- und Breitengrad.                                           |
-| [Base Location](Base%20Location.md)                                                               | Postleitzahl und Ort automatisch ausfüllen.                                 |
-| [Base Partner Sequence](Base%20Partner%20Sequence.md)                                             | Sequenz auf Kundenreferenz.                                                 |
-| [Base VAT Optional VIES](Base%20VAT%20Optional%20VIES.md)                                         | Resultat der VIES-Prüfung speichern.                                        |
-| [Base VAT Required VIES](Base%20VAT%20Required%20VIES.md)                                         | Die VIES-VAT-Prüfung als obligatorisch festlegen.                           |
-| [Contact Birthdate](Contact%20Birthdate.md)                                                       | Geburtstag bei Kontakten speichern für tolle Erinnerungen.                  |
-| [Partner Bank Code](Partner%20Bank%20Code.md)                                                     | Eindeutige Nummer auf Bank festlegen.                                       |
-| [Partner Color Codes](Partner%20Color%20Codes.md)                                                 | Kontakte mit Farben und Stichwörter markieren.                              |
-| [Partner Contact Access Link](Partner%20Contact%20Access%20Link.md)                               | Unterkontakte in Formular öffnen.                                           |
-| [Partner Contact Association](Partner%20Contact%20Association.md)                                 | Vereine verwalten und Mitglieder zuordnen.                                  |
-| [Partner Contact Birthdate](Partner%20Contact%20Birthdate.md)                                     | Feld Geburtstag und Alter auf Kontakt vom Typ Einzelperson.                 |
-| [Partner Contact Department Note](Partner%20Contact%20Department%20Note.md)                       | Abteilung auf Kontakten speichern.                                          |
-| [Partner Contact Department](OCA%20Partner%20Contact%20Department.md)                             | Erweitert das Adressbuch mit Abteilungen.                                   |
-| [Partner Contact External Ref](Partner%20Contact%20External%20Ref.md)                             | Kunden-Referenz für die externe Kommunikation.                              |
-| [Partner Contact Location in Name](Partner%20Contact%20Location%20in%20Name.md)                   | PLZ und Stadt in Kontaktauswahl anzeigen.                                   |
-| [Partner Contact Personal Information Page](Partner%20Contact%20Personal%20Information%20Page.md) | Tab in Kontakt-Formular für persönliche Informationen.                      |
-| [Partner Contact User ACL](Partner%20Contact%20User%20ACL.md)                                     | Zugriffsrechte auf Kontakte festlegen.                                      |
-| [Partner Deduplication ACL](Partner%20Deduplication%20ACL.md)                                     | Zugriff auf Deduplizierung der Kontakte steuern.                            |
-| [Partner Duplicate Acc Number](Partner%20Duplicate%20Acc%20Number)                                | Kontonummer für mehrere Bankkonten verwenden                                |
-| [Partner Email History](Partner%20Email%20History.md)                                             | Alle versendeten und empfangen E-Mails eines Kontakts anzeigen.             |
-| [Partner Firstname](Partner%20Firstname.md)                                                       | Unterscheidet Vor- und Nachnamen.                                           |
-| [Partner Hide Address](Partner%20Hide%20Address.md)                                               | Adressen auf Berichten ausblenden.                                          |
-| [Partner Manual Rank](Partner%20Manual%20Rank.md)                                                 | Kontakt als Lieferant oder Kunde manuell festlegen.                         |
-| [Partner Multi Pricelist](Partner%20Multi%20Pricelist.md)                                         | Mehrere Preislisten mit Start- und Enddatum auf Kunden festlegen.           |
-| [Partner Multi Relation](Partner%20Multi%20Relation)                                              | Beziehungen zwischen Kontakten definieren.                                  |
-| [Partner Multiline Street2](Partner%20Multiline%20Street2.md)                                     | Mehrzeiliger Text in zweiter Strasse hinzufügen.                            |
-| [Partner Optional Commercial Partner](Partner%20Optional%20Commercial%20Partner.md)               | Kontakt selbst als Handelsgesellschaft festzulegen.                         |
-| [Partner Ref Sequence](Partner%20Ref%20Sequence.md)                                               | Automatische Vergabe der Kontakt-Referenz.                                  |
-| [Partner Secondary Email](Partner%20Secondary%20Email.md)                                         | Zweite E-Mail für alle Kontakte.                                            |
-| [Partner Secondary Name](Partner%20Secondary%20Name.md)                                           | Zweitname für Unternehmen.                                                  |
-| [Partner Stage](Partner%20Stage.md)                                                               | Stufen-Felder für Kontakte.                                                 |
-| [Partner Type Membership](Partner%20Type%20Membership.md)                                         | Legen Sie einen Kontakt als Kontaktperson Mitgliedschaft fest. |
-| [Partner Type Order](Partner%20Type%20Order.md)                                                   | Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.               |
-| [Partner Type Sale](Partner%20Type%20Sale.md)                                                     | Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.              |
-| [Partner unique reference](Partner%20Unique%20Ref.md)                                             | Kontakt-Referenz wird eindeutig gespeichert.                                |
-| [Street3 in addresses](Street3%20in%20addresses.md)                                               | Drittes Adressfeld für Strasse.                                             |
+| Erweiterung                                                                                       | Beschreibung                                                      |
+| ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| [Base Country Sequence](Base%20Country%20Sequence.md)                                             | Länder-Liste manuell sortieren.                                   |
+| [Base Location City](Base%20Location%20City.md)                                                   | Orte mit Längen- und Breitengrad.                                 |
+| [Base Location](Base%20Location.md)                                                               | Postleitzahl und Ort automatisch ausfüllen.                       |
+| [Base Partner Sequence](Base%20Partner%20Sequence.md)                                             | Sequenz auf Kundenreferenz.                                       |
+| [Base VAT Optional VIES](Base%20VAT%20Optional%20VIES.md)                                         | Resultat der VIES-Prüfung speichern.                              |
+| [Base VAT Required VIES](Base%20VAT%20Required%20VIES.md)                                         | Die VIES-VAT-Prüfung als obligatorisch festlegen.                 |
+| [Contact Birthdate](Contact%20Birthdate.md)                                                       | Geburtstag bei Kontakten speichern für tolle Erinnerungen.        |
+| [Partner Bank Code](Partner%20Bank%20Code.md)                                                     | Eindeutige Nummer auf Bank festlegen.                             |
+| [Partner Color Codes](Partner%20Color%20Codes.md)                                                 | Kontakte mit Farben und Stichwörter markieren.                    |
+| [Partner Contact Access Link](Partner%20Contact%20Access%20Link.md)                               | Unterkontakte in Formular öffnen.                                 |
+| [Partner Contact Association](Partner%20Contact%20Association.md)                                 | Vereine verwalten und Mitglieder zuordnen.                        |
+| [Partner Contact Birthdate](Partner%20Contact%20Birthdate.md)                                     | Feld Geburtstag und Alter auf Kontakt vom Typ Einzelperson.       |
+| [Partner Contact Department Note](Partner%20Contact%20Department%20Note.md)                       | Abteilung auf Kontakten speichern.                                |
+| [Partner Contact Department](OCA%20Partner%20Contact%20Department.md)                             | Erweitert das Adressbuch mit Abteilungen.                         |
+| [Partner Contact External Ref](Partner%20Contact%20External%20Ref.md)                             | Kunden-Referenz für die externe Kommunikation.                    |
+| [Partner Contact Location in Name](Partner%20Contact%20Location%20in%20Name.md)                   | PLZ und Stadt in Kontaktauswahl anzeigen.                         |
+| [Partner Contact Personal Information Page](Partner%20Contact%20Personal%20Information%20Page.md) | Tab in Kontakt-Formular für persönliche Informationen.            |
+| [Partner Contact User ACL](Partner%20Contact%20User%20ACL.md)                                     | Zugriffsrechte auf Kontakte festlegen.                            |
+| [Partner Deduplication ACL](Partner%20Deduplication%20ACL.md)                                     | Zugriff auf Deduplizierung der Kontakte steuern.                  |
+| [Partner Duplicate Acc Number](Partner%20Duplicate%20Acc%20Number)                                | Kontonummer für mehrere Bankkonten verwenden                      |
+| [Partner Email History](Partner%20Email%20History.md)                                             | Alle versendeten und empfangen E-Mails eines Kontakts anzeigen.   |
+| [Partner Firstname](Partner%20Firstname.md)                                                       | Unterscheidet Vor- und Nachnamen.                                 |
+| [Partner Hide Address](Partner%20Hide%20Address.md)                                               | Adressen auf Berichten ausblenden.                                |
+| [Partner Manual Rank](Partner%20Manual%20Rank.md)                                                 | Kontakt als Lieferant oder Kunde manuell festlegen.               |
+| [Partner Mobile](Partner%20Mobile.md)                                                   | Fügt Feld für Mobilnummer hinzu.                                  |
+| [Partner Multi Pricelist](Partner%20Multi%20Pricelist.md)                                         | Mehrere Preislisten mit Start- und Enddatum auf Kunden festlegen. |
+| [Partner Multi Relation](Partner%20Multi%20Relation)                                              | Beziehungen zwischen Kontakten definieren.                        |
+| [Partner Multiline Street2](Partner%20Multiline%20Street2.md)                                     | Mehrzeiliger Text in zweiter Strasse hinzufügen.                  |
+| [Partner Optional Commercial Partner](Partner%20Optional%20Commercial%20Partner.md)               | Kontakt selbst als Handelsgesellschaft festzulegen.               |
+| [Partner Ref Sequence](Partner%20Ref%20Sequence.md)                                               | Automatische Vergabe der Kontakt-Referenz.                        |
+| [Partner Secondary Email](Partner%20Secondary%20Email.md)                                         | Zweite E-Mail für alle Kontakte.                                  |
+| [Partner Secondary Name](Partner%20Secondary%20Name.md)                                           | Zweitname für Unternehmen.                                        |
+| [Partner Stage](Partner%20Stage.md)                                                               | Stufen-Felder für Kontakte.                                       |
+| [Partner Type Membership](Partner%20Type%20Membership.md)                                         | Legen Sie einen Kontakt als Kontaktperson Mitgliedschaft fest.    |
+| [Partner Type Order](Partner%20Type%20Order.md)                                                   | Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.     |
+| [Partner Type Sale](Partner%20Type%20Sale.md)                                                     | Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.    |
+| [Partner unique reference](Partner%20Unique%20Ref.md)                                             | Kontakt-Referenz wird eindeutig gespeichert.                      |
+| [Street3 in addresses](Street3%20in%20addresses.md)                                               | Drittes Adressfeld für Strasse.                                   |
 
 ## Portal
 

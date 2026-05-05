@@ -1,10 +1,16 @@
 ---
-title: l10n CH Payment Ref
 description: Kopiert Zahlungsrefernz der Währung CHF auch auf Rechnungen an Nicht-Schweizer.
+forge: github.com
 kind: howto
+name: l10n_ch_payment_ref
 partner: Mint System
 prev: ./l10n-ch
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: l10n CH Payment Ref
+versions:
+- '18.0'
 ---
+
 
 # l10n CH Payment Ref
 
@@ -12,5 +18,5 @@ prev: ./l10n-ch
 
 {{ $frontmatter.description }}
 
-Technischer Name: `l10n_ch_payment_ref`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/18.0/l10n_ch_payment_ref>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

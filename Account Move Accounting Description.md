@@ -1,10 +1,16 @@
 ---
-title: Account Move Accounting Description
 description: Beschreibungsfeld für Rechnungszeile.
+forge: github.com
 kind: howto
+name: account_move_line_accounting_description
 partner: OCA
 prev: ./accounting
+repo: OCA/account-invoicing
+title: Account Move Accounting Description
+versions:
+- '14.0'
 ---
+
 
 # Account Move Accounting Description
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_move_line_accounting_description`\
-Repository: <https://github.com/OCA/account-invoicing/tree/14.0/account_move_line_accounting_description>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

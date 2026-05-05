@@ -4,6 +4,7 @@ description: Sparen Sie Zeit beim Erfassen von Rechnungen, Scannen von Verträge
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Dokumente

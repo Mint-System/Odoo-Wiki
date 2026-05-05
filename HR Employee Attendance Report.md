@@ -1,10 +1,20 @@
 ---
-title: HR Employee Attendance Report
 description: Stundenzettel mit Anwesenheit, Abwesenheiten und Überstunden.
+forge: github.com
 kind: howto
+name: hr_employee_attendance_report
 partner: Mint System
 prev: ./hr-holidays
+repo: Mint-System/Odoo-Apps-HR
+title: HR Employee Attendance Report
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # HR Employee Attendance Report
 
@@ -12,8 +22,8 @@ prev: ./hr-holidays
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_employee_attendance_report`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/17.0/hr_employee_attendance_report>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

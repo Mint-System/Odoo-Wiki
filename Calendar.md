@@ -4,6 +4,7 @@ description: Termine Team- und Anwendungs-übergreifend organisieren.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Kalender

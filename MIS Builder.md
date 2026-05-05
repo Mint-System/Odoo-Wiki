@@ -1,10 +1,21 @@
 ---
-title: MIS Builder
 description: Management Information System reports and dashboards.
+forge: github.com
 kind: howto
+name: mis_builder
 partner: OCA
 prev: ./dashboards
+repo: OCA/mis-builder
+title: MIS Builder
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # MIS Builder
 
@@ -12,8 +23,8 @@ prev: ./dashboards
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mis_builder`\
-Repository: <https://github.com/OCA/mis-builder/tree/19.0/mis_builder>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

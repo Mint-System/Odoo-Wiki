@@ -12,12 +12,6 @@ partner: Odoo S.A.
 
 {{ $frontmatter.description }}
 
-## Erweiterungen
-
-| Erweiterung                               | Beschreibung                     |
-| ----------------------------------------- | -------------------------------- |
-| [mERP Mobile App](mERP%20Mobile%20App.md) | Alternative zur Odoo Mobile App. |
-
 ## Verwendung
 
 ### In App einloggen

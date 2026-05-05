@@ -20,7 +20,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Abonnement schliessen`\
 Modell: `sale.order`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -36,27 +36,23 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Start- und Enddatum von Abonnement übernehmen`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
 ```python
-# Bis Odoo 16.0
-for line in records.invoice_line_ids:
-  if line.subscription_id:
-    end_date = line.subscription_id.next_invoice_date - datetime.timedelta(days=1)
-    start_date = end_date - dateutil.relativedelta.relativedelta(years=line.subscription_id.recurrence_id.duration) + datetime.timedelta(days=1)
-    line["subscription_start_date"] = start_date
-    line["subscription_end_date"] = end_date
-    
-# Ab Odoo 16.0
 for line in records.invoice_line_ids.filtered(lambda line: line.product_id.recurring_invoice):
   if line.sale_line_ids:
     end_date = line.sale_line_ids[0].order_id.next_invoice_date - datetime.timedelta(days=1)
     # Get delta in years
-    delta_years = dateutil.relativedelta.relativedelta(years=line.sale_line_ids[0].order_id.recurrence_id.duration)
-    # Calcualte start date from end date
-    start_date = end_date - delta_years + datetime.timedelta(days=1)
+    recurrence_id = line.sale_line_ids[0].order_id.recurrence_id
+    duration = recurrence_id.duration
+    delta = dateutil.relativedelta.relativedelta(years=duration)
+    if recurrence_id.unit == "month":
+      delta = dateutil.relativedelta.relativedelta(months=duration)
+    # Calculate start date from end date
+    # raise UserError([end_date, delta_years])
+    start_date = end_date - delta + datetime.timedelta(days=1)
     line["subscription_start_date"] = start_date
     line["subscription_end_date"] = end_date
 ```
@@ -71,7 +67,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Abonnement-Informationen migrieren`\
 Modell: `sale.order`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -122,7 +118,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Tage\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -181,7 +177,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Tage\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -257,7 +253,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Tage\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -285,12 +281,18 @@ remind_subscriptions = env["sale.order"].search([
 
 # Create and send renewal order
 for subscription in remind_subscriptions:
-    composer = env['mail.compose.message'].with_context(
-        default_model='sale.order',
-        default_res_ids=[subscription.id],
-        default_template_id=mail_template.id,
-	    default_mail_layout_xmlid="mail.mail_notification_layout_with_responsible_signature",
-        default_composition_mode='comment',
-    ).create({})
-    subscription.write({'tag_ids': [(4, tag.id)]})
+    try:
+        composer = env['mail.compose.message'].with_context(
+            default_model='sale.order',
+            default_res_ids=[subscription.id],
+            default_template_id=mail_template.id,
+            default_composition_mode='comment',
+        ).create({})
+        composer.action_send_mail()
+        subscription.write({'tag_ids': [(4, tag.id)]})
+    except:
+        env["helpdesk.ticket"].create({
+            "name": "Reminder: Fehler bei Versand",
+            "description": "Beim Versand des Reminder für Abonnement " + renewal_so.name + " ist ein Fehler entstanden."
+        })
 ```

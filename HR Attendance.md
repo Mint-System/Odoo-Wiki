@@ -4,6 +4,7 @@ description: Mitarbeitende erfassen selbständig ihre Präsenzzeit.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Anwesenheiten

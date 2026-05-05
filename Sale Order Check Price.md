@@ -1,10 +1,16 @@
 ---
-title: Sale Order Check Price
 description: Preis vor Bestätigung des Angebots prüfen.
+forge: github.com
 kind: howto
+name: sale_order_check_price
 partner: OCA
 prev: ./sale
+repo: OCA/sale-workflow
+title: Sale Order Check Price
+versions:
+- '14.0'
 ---
+
 
 # Sale Order Check Price
 
@@ -12,8 +18,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_check_price`\
-Repository: <https://github.com/OCA/sale-workflow/tree/14.0/sale_order_check_price>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,16 @@
 ---
-title: Account Show Invoice Date
 description: Rechnungsdatum auf dem Bericht für überfällige Forderungen und Verbindlichkeiten.
+forge: github.com
 kind: howto
+name: account_show_invoice_date
 partner: Mint System
 prev: ./accounting
+repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
+title: Account Show Invoice Date
+versions:
+- '15.0'
 ---
+
 
 # Account Show Invoice Date
 
@@ -12,5 +18,5 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_show_invoice_date`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Financial-Reporting/tree/15.0/account_show_invoice_date>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
