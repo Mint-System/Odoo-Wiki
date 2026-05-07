@@ -23,7 +23,7 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 ## Beschreibung
 
 Auf der Alias-Domain kann nur eine Standardabsender-Adresse definiert werden. Diese wird verwendet, wenn auf dem Postausgangsserver keine VON-Filterung definiert ist.
-Mit dieser Erweiterung können Sie mehrere Absendernamen erfassend und an Datenmodellen zuordnen. Wenn Nachrichten im Kontext eines Datenmodells versendet wird, dann wird die zugeordnete Absender-Adresse forciert.
+Mit dieser Erweiterung können Sie mehrere Absendernamen erfassen und an Datenmodellen zuordnen. Wenn Nachrichten im Kontext eines Datenmodells versendet wird, dann wird die zugeordnete Absender-Adresse forciert.
 
 ## Verwendung
 
