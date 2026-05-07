@@ -24,4 +24,5 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Enthält ein Picking ein Produkt, das per Los nachverfolgt wird, wird die transferierte Menge auf den Gesamtbestand dieses Loses gesetzt.
+Enthält ein Picking ein Produkt, das per Los nachverfolgt wird, wird die transferierte Menge auf den Gesamtbestand dieses Loses gesetzt. 
+Das Los, von dem nur eine Teilmenge verbraucht bzw. reserviert wird, wird farblich hervorgehoben.
