@@ -57,7 +57,7 @@ Name der Aktion: `Zahlungsmethode von Rechnung auf Zahlung übertragen`\
 Modell: `account.payment.register`\
 Auslöser: _Auf Basis von Formularanpassungen_\
 Auslöser-Felder: `journal_id`\
-Folgeaktion: Python-Code ausführen\
+Folgeaktion: Code ausführen\
 Python-Code:
 
 ```python

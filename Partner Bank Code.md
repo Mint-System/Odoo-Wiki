@@ -65,7 +65,7 @@ Auslöser: Bei Erstellung und Aktualisierung\
 Trigger-Felder: `acc_number`\
 Domain vor Aktualisierung: `[("sanitized_acc_number", "!=", False)]`\
 Anzuwenden auf: `[("bank_id", "=", False)]`\
-Folgeaktion: Python-Code ausführen\
+Folgeaktion: Code ausführen\
 Python Code:
 
 ```python

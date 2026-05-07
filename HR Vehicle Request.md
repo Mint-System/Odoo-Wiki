@@ -56,7 +56,7 @@ Modell: `employee.fleet`\
 Auslöser: Beim Aktualisieren\
 Trigger-Felder: `state`\\
 Anzuwenden auf: `["&",["state","=","waiting"],["vehicle_id.model_id.vehicle_type","=","cable_car"]]`\
-Folgeaktion: Python-Code ausführen\
+Folgeaktion: Code ausführen\
 Python Code:
 
 ```python

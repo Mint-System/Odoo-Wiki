@@ -980,7 +980,7 @@ Anzuwenden auf:
 ["&",["picking_type_code","=","outgoing"],["state","=","assigned"]]
 ```
 
-Folgeaktion: Python-Code ausführen\
+Folgeaktion: Code ausführen\
 Python Code:
 
 ```python
@@ -1008,7 +1008,7 @@ Trigger-Felder:
 - `single_product_qty`
 - `single_product_id`
 
-Folgeaktion: Python-Code ausführen\
+Folgeaktion: Code ausführen\
 Python-Code:
 
 ```python
