@@ -17,10 +17,11 @@ Website: <https://www.odoo.com/de_DE/app/crm>
 
 ## Erweiterungen
 
-| Erweiterung                                             | Beschreibung                            |
-| ------------------------------------------------------- | --------------------------------------- |
-| [CRM Lead Template](CRM%20Lead%20Template.md) | Lead Notizen von Vorlage aktualisieren. |
-| [Sale CRM Note](Sale%20CRM%20Note.md)         | Notiz von Lead auf Angebot übertragen.  |
+| Erweiterung                                   | Beschreibung                                       |
+| --------------------------------------------- | -------------------------------------------------- |
+| [CRM Lead Template](CRM%20Lead%20Template.md) | Lead Notizen von Vorlage aktualisieren.            |
+| [Sale CRM Note](Sale%20CRM%20Note.md)         | Notiz von Lead auf Angebot übertragen.             |
+| [Sale CRM Ref](Sale%20CRM%20Ref.md)           | Name von Lead als Referenz für Angebot übertragen. |
 
 ## Konfiguration
 

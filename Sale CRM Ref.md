@@ -1,18 +1,18 @@
 ---
-description: Interne Referenz für Verkaufsauftrag festlegen.
-forge: github.com
+title: Sale CRM Ref
+description: Name von Lead als Referenz für Angebot übertragen.
 kind: howto
-name: sale_order_ref
-partner: Mint System
-prev: ./sale
+tags:
+  - Mint-System
+prev: ./crm
+forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow
-title: Sale Order Ref
 versions:
-- '16.0'
+- '19.0'
+name: sale_crm_ref
 ---
 
-
-# Sale Order Ref
+# Sale CRM Ref
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
@@ -23,4 +23,4 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Dieses Moodul fügt ein Feld _Referenz_ auf dem Verkaufsauftrag hinzu und passt den Anzeigename des Auftrags und der Auftragszeile an.
+Erweitert [Sale Order Ref](Sale%20Order%20Ref.md) damit beim Erstellen eines Angebots aus einem Lead die Referenz dem Namen des Leads entspricht.
