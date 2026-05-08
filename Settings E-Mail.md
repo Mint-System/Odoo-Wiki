@@ -70,7 +70,13 @@ Reply-To: "My Company" <odoo@example.com>
 ...
 ```
 
-Wenn Sie die Von-Adresse überschreiben möchten, öffnen Sie _Einstellungen > Technisch > Parameter > Systemparameter_ und erstellen einen Eintrag mit Schlüssel `mail.force.smtp.from` (bis #Odoo14 ) `mail.default.from` (ab #Odoo15 ) und Wert `name@example.com` als gewünschte E-Mail-Adresse. Angenommen Sie geben `erp@example.com` ein, sehen die E-Mail-Kopfzeilen folgendermassen aus:
+Wenn Sie die Von-Adresse überschreiben möchten, öffnen Sie _Einstellungen > Technisch > Parameter > Systemparameter_ und erstellen einen Eintrag mit Schlüssel: 
+
+- `mail.force.smtp.from` bis #Odoo14 
+- `mail.default.from` ab #Odoo15
+- `mail.default.from_filter` ab #Odoo18 
+
+und Wert `name@example.com` als gewünschte E-Mail-Adresse. Angenommen Sie geben `erp@example.com` ein, sehen die E-Mail-Kopfzeilen wie folgt aus:
 
 ```txt
 ...
