@@ -148,6 +148,13 @@ export default [
         ]
       },
       {
+        "text": "Data Cleaning",
+        "collapsible": true,
+        "children": [
+          "data-cleaning-actions.md"
+        ]
+      },
+      {
         "text": "Data Management",
         "collapsible": true,
         "children": [
@@ -500,7 +507,8 @@ export default [
         "collapsible": true,
         "children": [
           "crm-lead-template.md",
-          "sale-crm-note.md"
+          "sale-crm-note.md",
+          "sale-crm-ref.md"
         ]
       },
       {
