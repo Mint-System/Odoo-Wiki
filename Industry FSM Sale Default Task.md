@@ -6,7 +6,7 @@ name: industry_fsm_sale_default_task
 partner: Mint System
 prev: ./fsm-industry
 repo: Mint-System/Odoo-Apps-Sale-Workflow
-title: Sale Blanket Order Comment
+title: Industry FSM Sale Default Task
 versions:
 - '16.0'
 ---
