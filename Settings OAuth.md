@@ -29,7 +29,7 @@ Klicken Sie auf <https://portal.azure.com/> um in das Azure-Portal zu gelangen. 
 Verwenden Sie diese Angaben:
 
 - **Name**: Odoo
-- **Unterstützte Kontentypen**: Konten in einem beliebigen Organisationsverziechnis (mehrinstanzenfähig)
+- **Unterstützte Kontentypen**: Mehrere Entra ID-Mandanten / Alle Mandanten zulassen
 - **Redirect URI**: Web `https://$HOSTNAME/microsoft_outlook/confirm`
 
 ::: warning
@@ -40,7 +40,7 @@ Ist die App erstellt erhalten Sie diese Zusammenfassung:
 
 ![](attachments/Einstellungen%20OAuth%20Odoo%20App.png)
 
-Erteilen Sie der OAuth-App diese Berechtigungen:
+Klicken Sie auf API-Berechtigungen und fügen Sie eine Berechtigung hinzu. Wählen Sie _Microsoft Graph > Delegierte Berechtigungen_
 
 - SMTP.Send
 - IMAP.AccessAsUser.All
