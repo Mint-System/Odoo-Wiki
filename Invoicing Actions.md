@@ -218,7 +218,6 @@ Im Versandprozess wird die PDF-Datei erstellt. Wenn Rechnungen als E-Mail versen
 - **Ausgehende Rückerstattung**: Versand an Kunden mit der Gutschrift im Anhang
 - **Eingangsrechnungen**: Selbst-fakturierte Rechnung: Versand
 - **Eingehende Rückerstattung**: Selbst-fakturierte Gutschrift: Versand
--
 
 ### PDF-Datei von Kundenrechnungen vorbereiten
 
@@ -244,3 +243,21 @@ log('Create pdf files for invoices: %s' % invoices)
 for invoice in invoices:
   content, _content_type = env['ir.actions.report']._render_qweb_pdf(invoices_report, res_ids=[invoice.id])
 ```
+
+## Automatische Aktionen
+
+### Standard-Bargeldrundungsmethode festlegen
+
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+
+- **Name der Aktion**: `Standard-Bargeldrundungsmethode festlegen`
+- **Modell**: `account.move`
+- **Auslöser**: Bei Erstellung
+- **Anzuwenden auf**:
+
+```python
+[("move_type", "=", "out_invoice")]
+```
+
+- **Folgeaktion**: Daten aktualisieren
+- **Journalbuchung aktualisieren**: Bargeldrundungsmethode = Rundung auf 5 Rappen
