@@ -21,6 +21,7 @@ prev: ./sale
 | [Sale Project Phase Estimate](Sale%20Project%20Phase%20Estimate.md)                               | Verlinkt Auftragszeilen mit Schätzungen von Projektphasen.                                  |
 | [Sale Timesheet Billable](Sale%20Timesheet%20Billable.md)                                         | Auswahl-Filter für Auftragszeilen mit verrechenbaren Produkten auf Zeiterfassungseinträgen. |
 | [Sale Timesheet Estimate Report](Sale%20Timesheet%20Estimate%20Report.md)                         | Übersicht der Projektschätzungen auf Bericht Zeiterfassung anzeigen.                        |
+| [Sale Timesheet Link Reversed](Sale%20Timesheet%20Link%20Reversed.md)                             | Abgerechnete Zeiterfassungseinträge auf mit Gutschriften bezahlten Rechnungen beibehalten.  |
 | [Sale Timesheet Report Group Invoice Type](Sale%20Timesheet%20Report%20Group%20Invoice%20Type.md) | Gruppiert die Zeilen im Bericht Zeiterfassung nach Abrechnungstyp.                          |
 | [Sale Timesheet Report Project Details](Sale%20Timesheet%20Report%20Project%20Details.md)         | Zeige Zeitraum und Projektname auf Bericht Zeiterfassung.                                   |
 
