@@ -9,7 +9,7 @@ forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 versions:
 - '17.0'
-name:  sale_timesheet_link_reversed
+name: sale_timesheet_link_reversed
 ---
 
 # Sale Timesheet Link Reversed
