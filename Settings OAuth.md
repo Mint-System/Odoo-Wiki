@@ -45,6 +45,8 @@ Klicken Sie auf API-Berechtigungen und fügen Sie eine Berechtigung hinzu. Wähl
 - SMTP.Send
 - IMAP.AccessAsUser.All
 
+Klicken Sie auf _Benutzer und Gruppen_. Fügen Sie den Benutzer mit dem sich Odoo verbindet, der OAuth-App hinzu.
+
 Kopieren Sie die _Anwendungs-ID (Client)_, es handelt sich hierbei um die _Client ID_ der registrierten App.
 
 Klicken anschliessend auf _Ein Zertifikat oder Geheimnis hinzufügen_. Erstellen Sie diesen Eintrag.
@@ -142,13 +144,15 @@ Falls ihr Benutzer in Odoo noch nicht existiert hat, erscheint die folgende Meld
 
 Kontaktieren Sie den/die AdministratorIn und bitten Sie um eine Freigabe. Wurde die Freigabe erstellt, loggen Sie sich erneut ein.
 
-### Troubleshooting
+## Troubleshooting
+
+### Connection unexpectedly closed
 
 **Problem**
 
 Ausgehende E-Mail Server ist eingerichtet und der Token ist bestätigt. Trotzdem ist der Test negativ mit folgende Meldung:
 
-``` markdown
+```text
 Ungültiger Vorgang
 Der Server hat die Verbindung unerwartet geschlossen. Überprüfen Sie die Konfiguration für die Portnummer.
 Connection unexpectedly closed
@@ -163,3 +167,24 @@ Einstellungen in portal.azure.com sind nicht richtig.
 Für der User müsste noch 'authenticated SMTP' erlaubt werden. Sehe Bild:
 
 ![](attachments/Oauth%20Troubleshooting%20SMTP.png)
+
+
+### Need admin approval
+
+**Problem
+
+Beim Login mit dem OAuth-Benutzer erscheint die Meldung:
+
+```text
+Need admin approval
+Odoo
+unverified
+
+Odoo needs permission to access resources in your organization that only an admin can grant. Please ask an admin to grant permission to this app before you can use it.
+Have an admin account? Sign in with that account
+Return to the application without granting consent 
+```
+
+**Lösung**
+
+Stellen Sie sicher, dass der OAuth-Bentuzer Zugriff auf die OAuth-App hat.
