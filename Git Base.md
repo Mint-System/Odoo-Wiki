@@ -4,7 +4,7 @@ forge: github.com
 kind: howto
 name: git_base
 partner: Mint System
-prev: ./
+prev: ./connector
 repo: Mint-System/Odoo-Apps-Connector
 title: Git
 versions:

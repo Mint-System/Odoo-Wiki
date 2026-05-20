@@ -4,7 +4,7 @@ forge: github.com
 kind: howto
 name: meilisearch_base
 partner: Mint System
-prev: ./website-sale
+prev: ./connector
 repo: Mint-System/Odoo-Apps-Connector
 title: Meilisearch Base
 versions:
