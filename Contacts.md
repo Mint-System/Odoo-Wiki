@@ -30,6 +30,7 @@ extensions: true
 | [Base Partner Sequence](Base%20Partner%20Sequence.md)                                             | Sequenz auf Kundenreferenz.                                         |
 | [Base VAT Optional VIES](Base%20VAT%20Optional%20VIES.md)                                         | Resultat der VIES-Prüfung speichern.                                |
 | [Base VAT Required VIES](Base%20VAT%20Required%20VIES.md)                                         | Die VIES-VAT-Prüfung als obligatorisch festlegen.                   |
+| [CRM Partner Multi Relation](CRM%20Partner%20Multi%20Relation.md)                                 | Partner-Beziehungen auf CRM Opportunitäten hinzufügen.              |
 | [Contact Birthdate](Contact%20Birthdate.md)                                                       | Geburtstag bei Kontakten speichern für tolle Erinnerungen.          |
 | [Partner Bank Code](Partner%20Bank%20Code.md)                                                     | Eindeutige Nummer auf Bank festlegen.                               |
 | [Partner Color Codes](Partner%20Color%20Codes.md)                                                 | Kontakte mit Farben und Stichwörter markieren.                      |
