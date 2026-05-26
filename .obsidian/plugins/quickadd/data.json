@@ -25,13 +25,14 @@
       },
       "openFile": true,
       "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false,
       "fileOpening": {
         "location": "tab",
         "direction": "vertical",
         "focus": true,
         "mode": "default"
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
       }
     }
   ],
@@ -41,7 +42,7 @@
   "devMode": false,
   "templateFolderPath": "templates",
   "announceUpdates": "all",
-  "version": "2.11.0",
+  "version": "2.12.2",
   "globalVariables": {},
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
@@ -127,7 +128,8 @@
     "migrateFileOpeningSettings": true,
     "backfillFileOpeningDefaults": true,
     "setProviderModelDiscoveryMode": true,
-    "migrateProviderApiKeysToSecretStorage": true
+    "migrateProviderApiKeysToSecretStorage": true,
+    "consolidateFileExistsBehavior": true
   },
   "macros": []
 }
