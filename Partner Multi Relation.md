@@ -4,7 +4,7 @@ forge: github.com
 kind: howto
 name: partner_multi_relation
 partner: OCA
-prev: ./contacts
+prev: ./crm
 repo: OCA/partner-contact
 title: Partner Multi Relation
 versions:

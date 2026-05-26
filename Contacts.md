@@ -30,7 +30,6 @@ extensions: true
 | [Base Partner Sequence](Base%20Partner%20Sequence.md)                                             | Sequenz auf Kundenreferenz.                                         |
 | [Base VAT Optional VIES](Base%20VAT%20Optional%20VIES.md)                                         | Resultat der VIES-Prüfung speichern.                                |
 | [Base VAT Required VIES](Base%20VAT%20Required%20VIES.md)                                         | Die VIES-VAT-Prüfung als obligatorisch festlegen.                   |
-| [CRM Partner Multi Relation](CRM%20Partner%20Multi%20Relation.md)                                 | Partner-Beziehungen auf CRM Opportunitäten hinzufügen.              |
 | [Contact Birthdate](Contact%20Birthdate.md)                                                       | Geburtstag bei Kontakten speichern für tolle Erinnerungen.          |
 | [Partner Bank Code](Partner%20Bank%20Code.md)                                                     | Eindeutige Nummer auf Bank festlegen.                               |
 | [Partner Color Codes](Partner%20Color%20Codes.md)                                                 | Kontakte mit Farben und Stichwörter markieren.                      |
@@ -51,7 +50,6 @@ extensions: true
 | [Partner Manual Rank](Partner%20Manual%20Rank.md)                                                 | Kontakt als Lieferant oder Kunde manuell festlegen.                 |
 | [Partner Mobile](Partner%20Mobile.md)                                                             | Fügt Feld für Mobilnummer hinzu.                                    |
 | [Partner Multi Pricelist](Partner%20Multi%20Pricelist.md)                                         | Mehrere Preislisten mit Start- und Enddatum auf Kunden festlegen.   |
-| [Partner Multi Relation](Partner%20Multi%20Relation)                                              | Beziehungen zwischen Kontakten definieren.                          |
 | [Partner Multiline Street2](Partner%20Multiline%20Street2.md)                                     | Mehrzeiliger Text in zweiter Strasse hinzufügen.                    |
 | [Partner Optional Commercial Partner](Partner%20Optional%20Commercial%20Partner.md)               | Kontakt selbst als Handelsgesellschaft festzulegen.                 |
 | [Partner Ref Sequence](Partner%20Ref%20Sequence.md)                                               | Automatische Vergabe der Kontakt-Referenz.                          |
