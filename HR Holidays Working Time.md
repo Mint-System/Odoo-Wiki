@@ -24,7 +24,7 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Mit dieser Erweiterungen werden für bestätigte Abwesenheiten von ausgewählten Abwesenheitsarten Anwesenheiten erstellt. Damit können Abwesenheiten wie der Besuch einer Konferenz oder bezahlte Krankheit an Mitarbeitende mit Arbeitszeit vergütet werden.
+Mit dieser Erweiterungen werden für bestätigte Abwesenheiten von bestimmten Abwesenheitsarten Anwesenheiten erstellt. Damit können Abwesenheiten wie der Besuch einer Konferenz oder bezahlte Krankheit an Mitarbeitende mit Arbeitszeit vergütet werden.
 
 ::: warning
 Die Anwesenheiten werden bei Klick auf _Genehmigen_ erstellt. Der Schritt Genehmigung ist nicht aktiv wenn die Genehmigung der Abwesenheitsart auf _Keine Validierung_ eingestellt ist.
