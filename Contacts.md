@@ -60,7 +60,8 @@ extensions: true
 | [Partner Type Order](Partner%20Type%20Order.md)                                                   | Legen Sie einen Unternehmens-Kontakt als Bestelladresse fest.       |
 | [Partner Type Sale](Partner%20Type%20Sale.md)                                                     | Legen Sie einen Unternehmens-Kontakt als Verkaufsadresse fest.      |
 | [Partner unique reference](Partner%20Unique%20Ref.md)                                             | Kontakt-Referenz wird eindeutig gespeichert.                        |
-| [Street3 in addresses](Street3%20in%20addresses.md)                                               | Drittes Adressfeld für Strasse.                                     |
+| [Partner Address Street3](Partner%20Address%20Street3.md)                                               | Drittes Adressfeld für Strasse.                                     |
+| [Secondary phone number on partners](Partner%20Phone%20Secondary.md)                                  | Feld für zweite Telefonnummer auf Kontakt.                          |
 
 ## Portal
 
