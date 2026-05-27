@@ -1,5 +1,5 @@
 ---
-title: Sale Rening Line Period
+title: Sale Renting Line Period
 description: Start- und Enddatum der Miete auf Auftragszeile festlegen.
 kind: howto
 tags:
@@ -12,7 +12,7 @@ versions:
 name: sale_renting_line_period
 ---
 
-# Sale Rening Line Period
+# Sale Renting Line Period
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
