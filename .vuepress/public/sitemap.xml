@@ -3577,12 +3577,6 @@
 <priority>0.5</priority>
 </url>
 <url>
-<loc>https://www.odoo-wiki.org/renting.html</loc>
-<lastmod>2026-05-27</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-<url>
 <loc>https://www.odoo-wiki.org/report-qweb-pdf-watermark.html</loc>
 <lastmod>2026-04-24</lastmod>
 <changefreq>daily</changefreq>
@@ -4148,6 +4142,12 @@
 </url>
 <url>
 <loc>https://www.odoo-wiki.org/sale-renting-line-period.html</loc>
+<lastmod>2026-05-27</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://www.odoo-wiki.org/sale-renting.html</loc>
 <lastmod>2026-05-27</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

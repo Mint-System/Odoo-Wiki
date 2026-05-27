@@ -59,7 +59,7 @@ export default [
   "survey.md",
   "event.md",
   "sale.md",
-  "renting.md",
+  "sale-renting.md",
   "delivery.md",
   "maintenance.md",
   "web.md",
@@ -1049,7 +1049,7 @@ export default [
         ]
       },
       {
-        "text": "Renting",
+        "text": "Sale Renting",
         "collapsible": true,
         "children": [
           "sale-renting-line-period.md"
