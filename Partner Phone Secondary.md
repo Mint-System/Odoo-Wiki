@@ -20,3 +20,7 @@ name: partner_phone_secondary
 
 Technischer Name: {{ $frontmatter.name }}\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
+
+## Beschreibung
+
+Ab #Odoo18 wurde das Feld Mobilnummer entfernt. Mit diesem Modul wird ein zweites Feld `phone2` hinzugefügt.
