@@ -4,7 +4,7 @@ description: Start- und Enddatum der Miete auf Auftragszeile festlegen.
 kind: howto
 tags:
   - Mint-System
-prev: ./sale-renting
+prev: ./renting
 forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 versions:

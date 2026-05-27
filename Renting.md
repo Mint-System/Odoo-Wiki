@@ -16,8 +16,8 @@ Website: <https://www.odoo.com/de_DE/app/rental>
 
 ## Erweiterungen
 
-| Erweiterung                                                 | Beschreibung                                               |
-| ----------------------------------------------------------- | ---------------------------------------------------------- |
+| Erweiterung                                                   | Beschreibung                                               |
+| ------------------------------------------------------------- | ---------------------------------------------------------- |
 | [Sale Renting Line Period](Sale%20Renting%20Line%20Period.md) | Start- und Enddatum der Miete auf Auftragszeile festlegen. |
 
 ## Konfiguration

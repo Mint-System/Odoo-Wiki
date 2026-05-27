@@ -59,7 +59,7 @@ export default [
   "survey.md",
   "event.md",
   "sale.md",
-  "rental.md",
+  "renting.md",
   "delivery.md",
   "maintenance.md",
   "web.md",
@@ -507,6 +507,11 @@ export default [
         "collapsible": true,
         "children": [
           "crm-lead-template.md",
+          "crm-partner-link.md",
+          "crm-partner-multi-relation.md",
+          "calendar-partner-link.md",
+          "partner-link.md",
+          "partner-multi-relation",
           "sale-crm-note.md",
           "sale-crm-ref.md"
         ]
@@ -545,7 +550,8 @@ export default [
           "purchase-order-unsubscribe.md",
           "sale-order-send-unsubscribe.md",
           "sale-order-unsubscribe.md",
-          "url-attachment.md"
+          "url-attachment.md",
+          "web-chatter-sort.md"
         ]
       },
       {
@@ -728,7 +734,6 @@ export default [
           "partner-manual-rank.md",
           "partner-mobile.md",
           "partner-multi-pricelist.md",
-          "partner-multi-relation",
           "partner-multiline-street2.md",
           "partner-optional-commercial-partner.md",
           "partner-ref-sequence.md",
@@ -739,7 +744,8 @@ export default [
           "partner-type-order.md",
           "partner-type-sale.md",
           "partner-unique-ref.md",
-          "street3-in-addresses.md"
+          "partner-address-street3.md",
+          "partner-phone-secondary.md"
         ]
       },
       {
@@ -1040,6 +1046,13 @@ export default [
           "sale-restricted-qty.md",
           "sale-start-end-dates.md",
           "sale-triple-discount.md"
+        ]
+      },
+      {
+        "text": "Renting",
+        "collapsible": true,
+        "children": [
+          "sale-renting-line-period.md"
         ]
       },
       {
