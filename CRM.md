@@ -27,6 +27,7 @@ Website: <https://www.odoo.com/de_DE/app/crm>
 | [Partner Multi Relation](Partner%20Multi%20Relation)              | Beziehungen zwischen Kontakten definieren.             |
 | [Sale CRM Note](Sale%20CRM%20Note.md)                             | Notiz von Lead auf Angebot übertragen.                 |
 | [Sale CRM Ref](Sale%20CRM%20Ref.md)                               | Name von Lead als Referenz für Angebot übertragen.     |
+| [Sale Partner Link](Sale%20Partner%20Link.md)                     | Verkaufsaufträge mit Kontakten verlinken.              |
 
 ## Konfiguration
 
