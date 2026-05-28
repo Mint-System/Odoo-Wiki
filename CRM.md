@@ -20,6 +20,7 @@ Website: <https://www.odoo.com/de_DE/app/crm>
 | Erweiterung                                                       | Beschreibung                                           |
 | ----------------------------------------------------------------- | ------------------------------------------------------ |
 | [CRM Lead Template](CRM%20Lead%20Template.md)                     | Lead Notizen von Vorlage aktualisieren.                |
+| [CRM Link](CRM%20Link.md)                                         | Chancen mit Chancen verlinken.                         |
 | [CRM Partner Link](CRM%20Partner%20Link.md)                       | Verkaufschance mit Kontakt verknüpfen.                 |
 | [CRM Partner Multi Relation](CRM%20Partner%20Multi%20Relation.md) | Partner-Beziehungen auf CRM Opportunitäten hinzufügen. |
 | [Calendar Partner Link](Calendar%20Partner%20Link.md)             | Events mit Kontakten verknüpfen.                       |
