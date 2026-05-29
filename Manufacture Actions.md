@@ -112,6 +112,7 @@ for production in records:
     production.write({'state': 'confirmed'})
 ```
 
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ speichern.
 
 ## Automatische Aktionen
 
