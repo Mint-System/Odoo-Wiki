@@ -57,7 +57,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Im Fertigungsauftrag erscheint nun in der Auswahl _Aktion_ das Menu _Reload BoM_.
 
-### Aktion "Material-Reservationen entfernen" erstellen
+### Material-Reservationen entfernen
 
 Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
@@ -76,7 +76,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Im Fertigungsauftrag erscheint nun in der Auswahl _Aktion_ das Menu _Material-Reservation entfernen_.
 
-### Aktion "Material-Reservationen erstellen" erstellen
+### Material-Reservationen erstellen
 
 Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
@@ -94,6 +94,24 @@ for production in records:
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 Im Fertigungsauftrag erscheint nun in der Auswahl _Aktion_ das Menu _Material-Reservation entfernen_.
+
+### Abgebrochener Fertigungsauftrag auf erledigt setzen
+
+avigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Abgebrochener Fertigungsauftrag auf erledigt setzen`\
+Modell: `mrp.production`\
+Typ: `Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
+
+```python
+for production in records:
+    if production.state != 'cancel':
+        continue
+    production.write({'state': 'confirmed'})
+```
+
 
 ## Automatische Aktionen
 
