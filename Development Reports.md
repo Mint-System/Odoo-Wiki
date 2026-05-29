@@ -4,6 +4,7 @@ description: Eigene Berichte mit QWeb erstellen.
 kind: howto
 section: true
 prev: ./development
+partner: Mint System
 ---
 
 # Entwicklung Berichte

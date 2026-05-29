@@ -3,6 +3,7 @@ title: Scheduler
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Scheduler

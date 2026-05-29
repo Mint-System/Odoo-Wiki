@@ -4,6 +4,7 @@ description: Arbeitsflüsse in der Produkteverwaltung automatisieren.
 kind: howto
 section: true
 prev: ./product
+partner: Mint System
 ---
 
 # Produkt Aktionen

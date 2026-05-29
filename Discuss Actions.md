@@ -4,6 +4,7 @@ description: Arbeitsflüsse für Dialog automatisieren.
 kind: howto
 section: true
 prev: ./discuss
+partner: Mint System
 ---
 
 # Discuss Aktionen

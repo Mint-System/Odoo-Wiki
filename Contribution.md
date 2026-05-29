@@ -2,7 +2,6 @@
 title: Mitarbeit
 description: Das Odoo Wiki erweitern.
 tags:
-  - Readme
 prev: ./
 partner: Mint System
 ---

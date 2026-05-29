@@ -4,6 +4,7 @@ description: Odoo Ansichten anpassen.
 kind: howto
 section: true
 prev: ./development
+partner: Mint System
 ---
 
 # Entwicklung Ansichten

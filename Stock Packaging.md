@@ -4,6 +4,7 @@ description: Produkte für den Versand verpacken.
 kind: howto
 section: true
 prev: ./stock
+partner: Mint System
 ---
 
 # Lager Verpackungen

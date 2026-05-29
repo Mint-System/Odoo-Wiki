@@ -7,8 +7,9 @@ prev: ./development
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Base External Mssql
 versions:
-- '18.0'
-- '17.0'
+  - "18.0"
+  - "17.0"
+partner: Mint System
 ---
 
 

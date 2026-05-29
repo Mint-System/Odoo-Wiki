@@ -1,10 +1,5 @@
 ---
 title: Build repository link from frontmatter
-forge: github.com
-repo: OCA/account-financial-tools
-versions:
-  - "16.0"
-name: base_vat_optional_vies
 ---
 # Run 01
 

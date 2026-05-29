@@ -6,12 +6,12 @@ name: sale_restricted_qty
 prev: ./sale
 repo: OCA/sale-workflow
 tags:
-- OCA
 title: Sale Restricted Qty
 versions:
-- '17.0'
-- '16.0'
-- '14.0'
+  - "17.0"
+  - "16.0"
+  - "14.0"
+partner: OCA
 ---
 
 

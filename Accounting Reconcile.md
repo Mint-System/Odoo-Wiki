@@ -4,6 +4,7 @@ description: Bankkonto mit Odoo abgleichen.
 kind: howto
 section: true
 prev: ./accounting
+partner: Mint System
 ---
 
 # Buchhaltung Abstimmung

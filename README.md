@@ -16,6 +16,7 @@ tags:
   - explanation
   - references
   - processes
+partner: Mint System
 ---
 
 # Odoo Wiki

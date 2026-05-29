@@ -3,6 +3,7 @@ title: Verschiedene Währungen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Verschiedene Währungen

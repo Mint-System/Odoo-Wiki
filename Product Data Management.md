@@ -4,6 +4,7 @@ description: Daten zu Produkten exportieren und importieren.
 kind: howto
 section: true
 prev: ./product
+partner: Mint System
 ---
 
 # Produkt Datenmanagement

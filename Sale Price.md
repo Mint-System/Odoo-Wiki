@@ -4,6 +4,7 @@ description: Produkte, Preislisten und Varianten zentral pflegen.
 kind: howto
 section: true
 prev: ./sale
+partner: Mint System
 ---
 
 # Verkauf Preise

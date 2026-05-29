@@ -4,7 +4,7 @@ forge: github.com
 kind: howto
 name: auth_oidc
 partner: OCA
-prev: ./settings
+prev: ./settings-oauth
 repo: OCA/server-auth
 title: Authentication OpenID Connect
 versions:

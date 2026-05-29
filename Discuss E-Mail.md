@@ -5,6 +5,7 @@ kind: howto
 section: true
 prev: ./discuss
 extensions: true
+partner: Mint System
 ---
 
 # Dialog E-Mail

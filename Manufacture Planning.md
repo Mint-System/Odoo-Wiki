@@ -4,6 +4,7 @@ description: Fertigungsplanung möglichst einfach Umsetzen
 kind: howto
 section: true
 prev: ./manufacture
+partner: Mint System
 ---
 
 # Fertigung Planung

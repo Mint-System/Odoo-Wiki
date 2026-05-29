@@ -4,6 +4,7 @@ description: Kontenplan einrichten und Buchungen erstellen.
 kind: howto
 section: true
 prev: ./accounting
+partner: Mint System
 ---
 
 # Buchhaltung Finanzbuchhaltung

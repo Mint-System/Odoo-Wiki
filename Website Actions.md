@@ -4,6 +4,7 @@ description: Automatisierung der Website-Vorgänge.
 kind: howto
 section: true
 prev: ./website
+partner: Mint System
 ---
 
 # Website Aktionen

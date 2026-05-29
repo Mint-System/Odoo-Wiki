@@ -6,12 +6,12 @@ name: web_action_conditionable
 prev: ./web
 repo: OCA/web
 tags:
-- OCA
 title: Web Action Conditionable
 versions:
-- '16.0'
-- '15.0'
-- '14.0'
+  - "16.0"
+  - "15.0"
+  - "14.0"
+partner: OCA
 ---
 
 

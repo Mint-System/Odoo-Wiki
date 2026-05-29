@@ -4,6 +4,7 @@ description: Odoo-Einstellungen automatisieren.
 kind: howto
 section: true
 prev: ./settings
+partner: Mint System
 ---
 
 # Einstellungen Aktionen

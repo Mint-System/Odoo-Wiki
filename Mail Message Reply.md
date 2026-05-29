@@ -6,10 +6,10 @@ name: mail_quoted_reply
 prev: ./discuss-e-mail
 repo: OCA/mail
 tags:
-- OCA
 title: Mail Message Reply
 versions:
-- '18.0'
+  - "18.0"
+partner: OCA
 ---
 
 

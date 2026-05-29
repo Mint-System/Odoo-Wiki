@@ -5,6 +5,7 @@ kind: howto
 section: true
 prev: ./sale
 extensions: true
+partner: Mint System
 ---
 
 # Verkauf Lager

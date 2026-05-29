@@ -3,13 +3,13 @@ title: Sale Renting Line Period
 description: Start- und Enddatum der Miete auf Auftragszeile festlegen.
 kind: howto
 tags:
-  - Mint-System
 prev: ./sale-renting
 forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 versions:
-- '19.0'
+  - "19.0"
 name: sale_renting_line_period
+partner: Mint System
 ---
 
 # Sale Renting Line Period

@@ -4,6 +4,7 @@ description: Eigene Odoo Aktionen erstellen.
 kind: howto
 section: true
 prev: ./development
+partner: Mint System
 ---
 
 # Entwicklung Aktionen

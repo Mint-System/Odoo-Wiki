@@ -4,6 +4,7 @@ description: SEPA- und QR-Zahlungen mit Odoo Buchhaltung abwickeln.
 kind: howto
 section: true
 prev: ./accounting
+partner: Mint System
 ---
 
 # Buchhaltung Zahlungen

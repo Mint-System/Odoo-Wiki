@@ -6,11 +6,11 @@ name: mail_template_multi_attachment
 prev: ./discuss-e-mail
 repo: OCA/social
 tags:
-- OCA
 title: Mail template multi attachment
 versions:
-- '16.0'
-- '14.0'
+  - "16.0"
+  - "14.0"
+partner: OCA
 ---
 
 

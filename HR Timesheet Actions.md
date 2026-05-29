@@ -4,6 +4,7 @@ description: Arbeitsflüsse in der Zeiterfassung automatisieren.
 kind: howto
 section: true
 prev: ./hr-timesheet
+partner: Mint System
 ---
 
 # Zeiterfassung Aktionen

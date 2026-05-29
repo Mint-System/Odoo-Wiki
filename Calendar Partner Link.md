@@ -3,13 +3,13 @@ title: Calendar Partner Link
 description: Events mit Kontakten verknüpfen.
 kind: howto
 tags:
-  - Mint-System
 prev: ./crm
 forge: github.com
 repo: Mint-System/Odoo-Apps-Partner-Contact
 versions:
-- '19.0'
+  - "19.0"
 name: calendar_partner_link
+partner: Mint System
 ---
 
 # Calendar Partner Link

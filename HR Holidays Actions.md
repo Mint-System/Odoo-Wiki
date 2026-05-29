@@ -4,6 +4,7 @@ description: Aktionen für Abwesenheit App einrichten.
 kind: howto
 section: true
 prev: ./hr-holidays
+partner: Mint System
 ---
 
 # Abwesenheiten Aktionen

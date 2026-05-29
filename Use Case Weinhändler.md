@@ -3,6 +3,7 @@ title: Use Case Weinhändler
 description: Automatische Bestandsbewertung für Weine.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Use Case Weinhändler

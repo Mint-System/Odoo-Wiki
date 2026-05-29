@@ -3,6 +3,7 @@ title: Verwaltung Kontakte
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Verwaltung Kontakte

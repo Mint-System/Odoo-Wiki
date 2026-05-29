@@ -1,24 +1,17 @@
 ---
 description: Odoo Community Association Testumgebungen.
-forge: github.com
 kind: howto
-name: ''
 prev: ./development
-repo: sbidoul/runboat
 section: true
 title: Entwicklung Runboat
-versions:
-- '16.0'
+partner: Mint System
 ---
-
 
 # Entwicklung Runboat
 
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
-
-Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

@@ -6,13 +6,13 @@ name: sale_start_end_dates
 prev: ./sale
 repo: OCA/sale-workflow
 tags:
-- OCA
 title: Sale Start End Dates
 versions:
-- '17.0'
-- '16.0'
-- '15.0'
-- '14.0'
+  - "17.0"
+  - "16.0"
+  - "15.0"
+  - "14.0"
+partner: OCA
 ---
 
 

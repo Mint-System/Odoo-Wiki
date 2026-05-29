@@ -3,6 +3,7 @@ title: Portal und Backend
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Portal und Backend

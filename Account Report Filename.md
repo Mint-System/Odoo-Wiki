@@ -3,13 +3,13 @@ title: Account Report Filename
 description: Entfernt die Umwandlung in Kleinbuchstaben im Dateinamen des Mahnbericht-Pdfs.
 kind: howto
 tags:
-  - Mint-System
 prev: ./accounting
 forge: github.com
 repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
 versions:
-- '18.0'
+  - "18.0"
 name: account_report_filename
+partner: Mint System
 ---
 
 # Account Report Filename

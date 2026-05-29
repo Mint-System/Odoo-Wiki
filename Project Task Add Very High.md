@@ -6,14 +6,14 @@ name: project_task_add_very_high
 prev: ./project
 repo: OCA/Project
 tags:
-- OCA
 title: Project Task Add Very High
 versions:
-- '18.0'
-- '17.0'
-- '16.0'
-- '15.0'
-- '14.0'
+  - "18.0"
+  - "17.0"
+  - "16.0"
+  - "15.0"
+  - "14.0"
+partner: OCA
 ---
 
 

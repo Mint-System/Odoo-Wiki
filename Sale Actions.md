@@ -4,6 +4,7 @@ description: Arbeitsflüsse im Verkauf automatisieren.
 kind: howto
 section: true
 prev: ./sale
+partner: Mint System
 ---
 
 # Verkauf Aktionen

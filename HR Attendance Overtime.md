@@ -4,6 +4,7 @@ description: Überstundenmanagement ganz einfach.
 kind: howto
 section: true
 prev: ./hr-attendance
+partner: Mint System
 ---
 
 # Anwesenheiten Überstunden

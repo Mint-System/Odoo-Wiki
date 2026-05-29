@@ -3,6 +3,7 @@ title: Materialbezug in Vorgängen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Materialbezug in Vorgängen

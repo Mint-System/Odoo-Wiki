@@ -4,6 +4,7 @@ description: Gehaltsabrechnung automatisieren.
 kind: howto
 section: true
 prev: ./hr-payroll
+partner: Mint System
 ---
 
 # Personalabrechnung Aktionen

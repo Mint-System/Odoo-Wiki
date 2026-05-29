@@ -4,6 +4,7 @@ description: Kalender-Prozesse automatisieren.
 kind: howto
 section: true
 prev: ./kalender
+partner: Mint System
 ---
 
 # Kalender Aktionen

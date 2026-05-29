@@ -4,6 +4,7 @@ description: Fertigungs-Prozesse automatisieren.
 kind: howto
 section: true
 prev: ./manufacture
+partner: Mint System
 ---
 
 # Fertigung Aktionen

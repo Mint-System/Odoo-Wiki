@@ -6,11 +6,11 @@ name: fs_folder_webdav
 prev: ./base
 repo: OCA/storage
 tags:
-- OCA
 title: Fs Folder WebDAV
 versions:
-- '19.0'
-- '18.0'
+  - "19.0"
+  - "18.0"
+partner: OCA
 ---
 
 

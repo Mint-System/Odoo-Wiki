@@ -4,6 +4,7 @@ description: Aktionen in der Datenbereinigung automatisieren.
 kind: howto
 section: true
 prev: ./data-cleaning
+partner: Mint System
 ---
 
 # Datenbereinigung Aktionen

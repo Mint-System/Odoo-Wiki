@@ -4,6 +4,7 @@ description: Arbeitsflüsse im Lager automatisieren.
 kind: howto
 section: true
 prev: ./stock
+partner: Mint System
 ---
 
 # Lager Aktionen

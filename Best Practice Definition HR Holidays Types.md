@@ -3,6 +3,7 @@ title: Definition Abwesenheitsarten
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Definition Abwesenheitsarten

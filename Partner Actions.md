@@ -4,6 +4,7 @@ description: Arbeitsflüsse mit Kontakte automatisieren.
 kind: howto
 section: true
 prev: ./contacts
+partner: Mint System
 ---
 
 # Kontakte Aktionen

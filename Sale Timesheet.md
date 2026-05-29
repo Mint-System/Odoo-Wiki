@@ -4,6 +4,7 @@ description: Dienstleistungen mit Verkauf, Projekt und Zeiterfassung abwickeln.
 kind: howto
 section: true
 prev: ./sale
+partner: Mint System
 ---
 
 # Verkauf Zeiterfassung

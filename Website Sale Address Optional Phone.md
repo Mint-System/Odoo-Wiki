@@ -3,13 +3,13 @@ title: Website Sale Address Optional Phone
 description: Feld Telefon auf dem Adressformular als optional festlegen.
 kind: howto
 tags:
-  - Mint-System
 prev: ./website-sale
 forge: github.com
 repo: Mint-System/Odoo-Apps-Website
 versions:
-- '18.0'
+  - "18.0"
 name: website_sale_address_optional_phone
+partner: Mint System
 ---
 
 # Website Sale Address Optional Phone

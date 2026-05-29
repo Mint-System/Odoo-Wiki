@@ -4,6 +4,7 @@ description: Daten zu Dialog exportieren und importieren.
 kind: howto
 section: true
 prev: ./discuss
+partner: Mint System
 ---
 
 # Discuss Datenmanagement

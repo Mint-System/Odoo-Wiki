@@ -4,6 +4,7 @@ description: Odoo Testumgebungen.
 kind: howto
 section: true
 prev: ./development
+partner: Mint System
 ---
 
 # Entwicklung Runbot

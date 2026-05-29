@@ -2,9 +2,9 @@
 title: Arbeitszeit über Zeitraum reduzieren
 description: Eine einfache und umfassende Odoo-Dokumentation.
 tags:
-  - Best-Practice
 prev: ./best-practice
 draft: false
+partner: Mint System
 ---
 
 # Arbeitszeit über Zeitraum reduzieren

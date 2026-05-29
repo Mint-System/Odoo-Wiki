@@ -3,6 +3,7 @@ title: Devisenhandel
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Devisenhandel

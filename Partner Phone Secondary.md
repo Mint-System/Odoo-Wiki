@@ -3,13 +3,13 @@ title: Secondary phone number on partners
 description: Feld für zweite Telefonnummer auf Kontakt.
 kind: howto
 tags:
-  - OCA
 prev: ./contacts
 forge: github.com
 repo: OCA/partner-contact
 versions:
-- '19.0'
+  - "19.0"
 name: partner_phone_secondary
+partner: OCA
 ---
 
 # Secondary phone number on partners

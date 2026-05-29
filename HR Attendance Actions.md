@@ -4,6 +4,7 @@ description: Aktionen für Anwesenheit App einrichten.
 kind: howto
 section: true
 prev: ./hr-attendance
+partner: Mint System
 ---
 
 # Anwesenheiten Aktionen

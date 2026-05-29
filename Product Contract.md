@@ -5,10 +5,10 @@ kind: howto
 name: product_contract
 partner: OCA
 prev: ./contract
-repo: 'OCA/https:'
+repo: OCA/contract
 title: Product Contract
 versions:
-- github.com
+  - "16.0"
 ---
 
 

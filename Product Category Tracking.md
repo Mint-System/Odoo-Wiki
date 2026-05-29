@@ -3,13 +3,13 @@ title: Product Category Tracking
 description: Erlaubt, auf einer Produktkategorie ein Tracking festzulegen.
 kind: howto
 tags:
-  - Mint-System
 prev: ./product
 forge: github.com
 repo: Mint-System/Odoo-Apps-Product-Attribute
 versions:
-- '18.0'
+  - "18.0"
 name: product_category_tracking
+partner: Mint System
 ---
 
 # Product Category Tracking

@@ -4,6 +4,7 @@ description: Arbeitsflüsse in Einkauf automatisieren.
 kind: howto
 section: true
 prev: ./purchase
+partner: Mint System
 ---
 
 # Einkauf Aktionen

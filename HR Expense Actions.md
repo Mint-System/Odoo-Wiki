@@ -4,6 +4,7 @@ description: Aktionen für Spesen App einrichten.
 kind: howto
 section: true
 prev: ./hr-attendance
+partner: Mint System
 ---
 
 # Spesen Aktionen

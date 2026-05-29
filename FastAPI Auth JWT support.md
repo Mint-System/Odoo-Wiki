@@ -6,12 +6,12 @@ name: fastapi_auth_jwt
 prev: ./development
 repo: OCA/rest-framework
 tags:
-- OCA
 title: FastAPI Auth JWT support
 versions:
-- '18.0'
-- '17.0'
-- '16.0'
+  - "18.0"
+  - "17.0"
+  - "16.0"
+partner: OCA
 ---
 
 

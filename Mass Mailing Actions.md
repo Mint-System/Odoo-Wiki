@@ -4,6 +4,7 @@ description: Arbeitsflüsse in E-Mail-Marketing automatisieren.
 kind: howto
 section: true
 prev: ./mass_mailing
+partner: Mint System
 ---
 
 # E-Mail-Marketing Aktionen

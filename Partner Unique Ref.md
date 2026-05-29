@@ -6,10 +6,10 @@ name: partner_unique_ref
 prev: ./contacts
 repo: OCA/Partner-Contact
 tags:
-- OCA
 title: Partner unique reference
 versions:
-- '18.0'
+  - "18.0"
+partner: OCA
 ---
 
 

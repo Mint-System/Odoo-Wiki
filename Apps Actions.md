@@ -4,6 +4,7 @@ description: Aktionen für Apps einrichten.
 kind: howto
 section: true
 prev: ./apps
+partner: Mint System
 ---
 
 # Apps Aktionen

@@ -4,6 +4,7 @@ description: Verkaufszahlen analysieren.
 kind: howto
 section: true
 prev: ./website
+partner: Mint System
 ---
 
 # Website Berichte

@@ -4,6 +4,7 @@ description: Aktion für die Datenbank ausführen.
 kind: howto
 section: true
 prev: ./database
+partner: Mint System
 ---
 
 # Datenbank Aktionen

@@ -6,12 +6,12 @@ name: server_action_mass_edit
 prev: ./development
 repo: OCA/Server-UX
 tags:
-- OCA
 title: Mass Editing
 versions:
-- '18.0'
-- '17.0'
-- '16.0'
+  - "18.0"
+  - "17.0"
+  - "16.0"
+partner: OCA
 ---
 
 

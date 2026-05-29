@@ -2,8 +2,10 @@
 title: Einstellungen OAuth
 description: OAuth-Integration mit Odoo.
 kind: howto
-section: true
+extensions: true
 prev: ./settings
+section: true
+partner: Mint System
 ---
 
 # Einstellungen OAuth
@@ -11,6 +13,15 @@ prev: ./settings
 ![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 {{ $frontmatter.description }}
+
+## Erweiterungen
+
+| Erweiterung                                             | Beschreibung                                   |
+| ------------------------------------------------------- | ---------------------------------------------- |
+| [Auth OAuth Keycloak](Auth%20OAuth%20Keycloak)          | Ermöglich Keycloak Integration mit Odoo OAuth. |
+| [Auth OIDC](Auth%20OIDC.md)                             | Login mit OpenID Connect Provider.             |
+| [Odoo Microsoft Account](Odoo%20Microsoft%20Account.md) | Login mit Microsoft-Account.                   |
+| [Microsoft Entra Base](Microsoft%20Entra%20Base.md)     | Microsoft Entra OAuth Provider.                                               |
 
 ## Konfiguration
 

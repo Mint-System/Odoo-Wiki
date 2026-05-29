@@ -4,6 +4,7 @@ description: Odoo mit Plattformen von Dritten integrieren.
 kind: howto
 section: true
 prev: ./settings
+partner: Mint System
 ---
 
 # Einstellungen E-Mail

@@ -4,6 +4,7 @@ description: Neue Aktionen für Buchungen, Zahlungen und Abstimmungen.
 kind: howto
 section: true
 prev: ./accounting
+partner: Mint System
 ---
 
 # Buchhaltung Aktionen

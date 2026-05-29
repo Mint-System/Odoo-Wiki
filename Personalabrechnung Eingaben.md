@@ -4,6 +4,7 @@ description: Gehaltsabrechnungen mit variablen Eingaben.
 kind: howto
 section: true
 prev: ./hr-payroll
+partner: Mint System
 ---
 
 # Personalabrechnung Eingaben

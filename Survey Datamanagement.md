@@ -4,6 +4,7 @@ description: Daten zu Umfragen exportieren und importieren.
 kind: howto
 section: true
 prev: ./survey
+partner: Mint System
 ---
 
 # Umfragen Datenmanagement

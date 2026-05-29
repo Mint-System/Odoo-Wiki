@@ -3,13 +3,13 @@ title: Partner Link
 description: Verlinke Kontakte mit anderen Kontakten.
 kind: howto
 tags:
-  - Mint-System
 prev: ./crm
 forge: github.com
 repo: Mint-System/Odoo-Apps-Partner-Contact
 versions:
-- '19.0'
+  - "19.0"
 name: partner_link
+partner: Mint System
 ---
 
 # Partner Link

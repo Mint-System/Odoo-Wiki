@@ -1,22 +1,24 @@
 ---
-description: Kundenportal zur Lizenzverwaltung.
-forge: github.com
+title: Microsoft Entra Base
+description: Microsoft Entra OAuth Provider.
 kind: howto
-name: license_portal
-prev: ./license
-repo: Mint-System/Odoo-Apps-Vertical-SaaS
-title: License Portal
+tags:
+prev: ./settings-oauth
 versions:
-  - "16.0"
-partner: Mint System
+  - "19.0"
+name: microsoft_entra_base
+partner: 2BIT
 ---
 
+# Microsoft Entra Base
 
-# License Portal
-
-![odoo_icons_license](attachments/odoo_icons_license.png)
+![icon_oca_app](attachments/icons_odoo_thirdparty.png)
 
 {{ $frontmatter.description }}
 
 Technischer Name: {{ $frontmatter.name }}\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
+
+## Beschreibung
+
+#FIXME

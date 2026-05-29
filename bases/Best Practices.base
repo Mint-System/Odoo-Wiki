@@ -10,6 +10,6 @@ views:
       - prev
     sort:
       - property: tags
-        direction: DESC
+        direction: ASC
     columnSize:
       file.name: 573

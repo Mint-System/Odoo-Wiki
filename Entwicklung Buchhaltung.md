@@ -4,6 +4,7 @@ description: Buchhaltungs-Berichte anpassen und erweitern.
 kind: howto
 section: true
 prev: ./development
+partner: Mint System
 ---
 
 # Entwicklung Buchhaltung

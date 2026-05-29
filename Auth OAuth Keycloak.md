@@ -4,7 +4,7 @@ forge: github.com
 kind: howto
 name: auth_oauth_keycloak
 partner: Mint System
-prev: ./settings
+prev: ./settings-oauth
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Auth OAuth Keycloak
 versions:

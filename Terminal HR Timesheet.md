@@ -4,6 +4,7 @@ description: Ein- und auschecken mit dem Terminal Zeiterfassung.
 kind: howto
 section: true
 prev: ./hr-timesheet
+partner: Mint System
 ---
 
 # Terminal Zeiterfassung

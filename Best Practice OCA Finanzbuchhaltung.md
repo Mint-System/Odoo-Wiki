@@ -3,6 +3,7 @@ title: OCA Finanzbuchhaltung
 description: Finanzbuchhaltung mit OCA-Modulen.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # OCA Finanzbuchhaltung

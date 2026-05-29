@@ -4,6 +4,7 @@ description: Arbeitsflüsse für Abonnemente automatisieren.
 kind: howto
 section: true
 prev: ./sale
+partner: Mint System
 ---
 
 # Abonnemente Aktionen

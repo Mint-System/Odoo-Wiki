@@ -4,6 +4,7 @@ description: Arbeitsflüsse mit Dokumenten automatisieren.
 kind: howto
 section: true
 prev: ./documents
+partner: Mint System
 ---
 
 # Dokumente Aktionen
