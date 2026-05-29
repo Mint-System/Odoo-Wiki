@@ -42,7 +42,7 @@ Name der Aktion: `Reload BoM`\
 Modell: `mrp.production`\
 Typ: `Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
+Kopieren Sie die folgenden Zeilen in das Feld Code:
 
 ```python
 for record in records:
@@ -65,7 +65,7 @@ Name der Aktion: `Material-Reservationen entfernen`\
 Modell: `mrp.production`\
 Typ: `Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
+Kopieren Sie die folgenden Zeilen in das Feld Code:
 
 ```python
 for production in records:
@@ -84,7 +84,7 @@ Name der Aktion: `Material-Reservationen erstellen`\
 Modell: `mrp.production`\
 Typ: `Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
+Kopieren Sie die folgenden Zeilen in das Feld Code:
 
 ```python
 for production in records:
@@ -103,7 +103,7 @@ Name der Aktion: `Abgebrochener Fertigungsauftrag auf erledigt setzen`\
 Modell: `mrp.production`\
 Typ: `Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
+Kopieren Sie die folgenden Zeilen in das Feld Code:
 
 ```python
 for production in records:

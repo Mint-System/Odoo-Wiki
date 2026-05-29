@@ -107,7 +107,7 @@ Name der Aktion: `Lagerbuchung als verfügbar markieren`\
 Modell: `stock.move`\
 Typ: `Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
+Kopieren Sie die folgenden Zeilen in das Feld Code:
 
 ```python
 for record in records:

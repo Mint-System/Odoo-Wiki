@@ -21,7 +21,7 @@ Name der Aktion: `Zeiterfassung aufteilen`\
 Modell: `account.analytic.line`\
 Typ: `Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
+Kopieren Sie die folgenden Zeilen in das Feld Code:
 
 ```python
 for rec in records:
@@ -44,7 +44,7 @@ Name der Aktion: `Auftragselement von Aufgabe entfernen`\
 Modell: `account.analytic.line`\
 Typ: `Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
+Kopieren Sie die folgenden Zeilen in das Feld Code:
 
 ```python
 for record in records:
@@ -65,7 +65,7 @@ Name der Aktion: `Validierung zurücksetzen`\
 Modell: `account.analytic.line`\
 Typ: `Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
+Kopieren Sie die folgenden Zeilen in das Feld Code:
 
 ```python
 records.write({'validated': False})
