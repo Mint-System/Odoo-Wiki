@@ -23,4 +23,16 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-In Odoo können Sie ein [Jupyter Notebook](https://docs.jupyter.org/en/latest/#what-is-a-notebook) anzeigen und ausführen lassen. Der Dialog zur Ausführung erlaubt die Übergabe von Prametern und das Hochladen von Dateien. Das Resultat jeder Ausführung ist in ersichtlich und kann bei Bedarf neu gestartet werden. 
+In Odoo können Sie ein [Jupyter Notebook](https://docs.jupyter.org/en/latest/#what-is-a-notebook) anzeigen und ausführen lassen. Der Dialog zur Ausführung erlaubt die Übergabe von Prametern und das Hochladen von Dateien. Das Resultat jeder Ausführung ist in ersichtlich und kann bei Bedarf neu gestartet werden.
+
+## Verwendung
+
+### Notebook ausführen
+
+Rufen Sie ein Notebook unter _Jupyter > Notebooks_ auf und klicken Sie auf _Run_. Es öffnet sich ein Dialog zur Parametrisierung des Ausführung.
+
+![](attachments/Jupyter%20Notebook%20Run%20Wizard.png)
+
+Wählen Sie erneut _Run_ um das Notebook auszuführen. Sie werden auf die Formularansicht des _Run_ umgeleitet.
+
+![](attachments/Jupyter%20Notebook%20Run%20Result.png)
