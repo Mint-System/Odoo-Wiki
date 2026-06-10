@@ -60,6 +60,7 @@ const repoMap = {
     "Odoo-Apps-Account-Reconcile",
     "Odoo-Apps-Connector",
     "Odoo-Apps-Contract",
+    "Odoo-Apps-Data-Analytic",
     "Odoo-Apps-HR",
     "Odoo-Apps-Kubernetes",
     "Odoo-Apps-Management-System",

@@ -26,6 +26,13 @@ section: true
 | [Projekt Datenmanagement](Project%20Data%20Management.md)             | Daten zu Projekte exportieren und importieren.      |
 | [Umfragen Datenmanagement](Survey%20Datamanagement.md)                | Daten zu Umfragen exportieren und importieren.      |
 
+## Erweiterungen
+
+| Erweiterung                                         | Beschreibung                                               |
+| --------------------------------------------------- | ---------------------------------------------------------- |
+| [Jupyter Lab](Jupyter%20Lab.md)                     | Starte Jupyter Lab Projekte mit direktem Zugriff auf Odoo. |
+| [Jupyter Notebook Run](Jupyter%20Notebook%20Run.md) | Jupyter Notebooks aus Odoo parametrieren und ausführen.    |
+
 ## Vorgänge
 
 ### Daten exportieren
