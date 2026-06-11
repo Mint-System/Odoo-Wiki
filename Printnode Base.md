@@ -13,8 +13,12 @@ prev: ./iot
 {{ $frontmatter.description }}
 
 Technischer Name: `printnode_base`\
-Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/printnode_base/>\
+Odoo App Store: <https://apps.odoo.com/apps/modules/19.0/printnode_base/>\
 Video: [Odoo Experience 2021 - Automating Direct Printing](https://www.youtube.com/watch?v=6dnHvpsukPg)
+
+## Beschreibung
+
+Mit Odoo Direct Print werden Druckaufträge aus Odoo via PrintNode an lokale Drucker gesendet.
 
 ## Konfiguration
 
