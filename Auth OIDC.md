@@ -1,10 +1,21 @@
 ---
-title: Authentication OpenID Connect
 description: Login mit OpenID Connect Provider.
+forge: github.com
 kind: howto
+name: auth_oidc
 partner: OCA
-prev: ./settings
+prev: ./settings-oauth
+repo: OCA/server-auth
+title: Authentication OpenID Connect
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Authentication OpenID Connect
 
@@ -12,8 +23,8 @@ prev: ./settings
 
 {{ $frontmatter.description }}
 
-Technischer Name: `auth_oidc`\
-Repository: <https://github.com/OCA/server-auth/tree/17.0/auth_oidc>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

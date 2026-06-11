@@ -1,10 +1,16 @@
 ---
-title: HR Work Entry Profile
 description: Mitarbeiter können ihre Arbeitseinträge im Profile anzeigen.
+forge: github.com
 kind: howto
+name: hr_work_entry_profile
 partner: Mint System
 prev: ./hr
+repo: Mint-System/Odoo-Apps-HR
+title: HR Work Entry Profile
+versions:
+- '15.0'
 ---
+
 
 # HR Work Entry Profile
 
@@ -12,8 +18,8 @@ prev: ./hr
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_work_entry_profile`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_work_entry_profile>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

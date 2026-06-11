@@ -1,10 +1,20 @@
 ---
-title: Base Optional Quick Create
 description: Quick Create Option für Datenmodelle deaktivieren.
+forge: github.com
 kind: howto
+name: base_optional_quick_create
 partner: OCA
 prev: ./base
+repo: OCA/server-ux
+title: Base Optional Quick Create
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Base Optional Quick Create
 
@@ -12,8 +22,8 @@ prev: ./base
 
 {{ $frontmatter.description }}
 
-Technischer Name: `base_optional_quick_create`\
-Repository: <https://github.com/OCA/server-ux/tree/17.0/base_optional_quick_create>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

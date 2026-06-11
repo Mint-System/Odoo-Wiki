@@ -1,10 +1,16 @@
 ---
-title: Mass Operation Abstract
 description: Bietet Werkzeuge zur Massenbearbeitung.
+forge: github.com
 kind: howto
+name: mass_operation_abstract
 partner: OCA
 prev: ./development
+repo: OCA/server-ux
+title: Mass Operation Abstract
+versions:
+- '14.0'
 ---
+
 
 # Mass Operation Abstract
 
@@ -12,5 +18,5 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mass_operation_abstract`\
-Repository: <https://github.com/OCA/server-ux/tree/14.0/mass_operation_abstract>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

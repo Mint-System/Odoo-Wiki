@@ -4,6 +4,7 @@ description: Arbeitsflüsse im Qualitätsmanagement automatisieren.
 kind: howto
 section: true
 prev: ./quality
+partner: Mint System
 ---
 
 # Qualität Aktionen

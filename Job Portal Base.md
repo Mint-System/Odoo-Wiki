@@ -1,11 +1,17 @@
 ---
-title: Job Portal
 description: Stelleninserate verwalten.
+extensions: true
+forge: github.com
 kind: howto
+name: job_portal_base
 partner: Sozialinfo
 prev: ./
-extensions: true
+repo: Sozialinfo/Odoo-Apps-Sozialinfo
+title: Job Portal
+versions:
+- '16.0'
 ---
+
 
 # Job Portal
 
@@ -13,8 +19,8 @@ extensions: true
 
 {{ $frontmatter.description }}
 
-Technischer Name: `job_portal_base`\
-Repository: <https://github.com/Sozialinfo/Odoo-Apps-Sozialinfo/tree/16.0/job_portal_base>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Erweiterungen
 

@@ -1,10 +1,16 @@
 ---
-title: Stock Picking MRP Production Assign
-description: 'Reservierung für Make-To-Order Aufträge gleichzeitig durchführen.'
+description: Reservierung für Make-To-Order Aufträge gleichzeitig durchführen.
+forge: github.com
 kind: howto
+name: stock_picking_mrp_production_assing
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Picking MRP Production Assign
+versions:
+- '14.0'
 ---
+
 
 # Stock Picking MRP Production Assign
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_picking_mrp_production_assing`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_picking_mrp_production_assing>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

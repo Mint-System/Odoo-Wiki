@@ -1,11 +1,17 @@
 ---
-title: EBICS
 description: Odoo direkt mit der Bank verbinden.
+extensions: true
+forge: github.com
 kind: howto
+name: ''
 partner: Mint System
 prev: ./
-extensions: true
+repo: Noviat/account_ebics
+title: EBICS
+versions:
+- '16.0'
 ---
+
 
 # EBICS
 
@@ -13,7 +19,7 @@ extensions: true
 
 {{ $frontmatter.description }}
 
-Repository: <https://github.com/Noviat/account_ebics/>
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Erweiterungen
 

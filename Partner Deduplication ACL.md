@@ -1,10 +1,21 @@
 ---
-title: Partner Deduplication ACL
 description: Zugriff auf Deduplizierung der Kontakte steuern.
+forge: github.com
 kind: howto
+name: partner_deduplicate_acl
 partner: OCA
 prev: ./contacts
+repo: OCA/partner-contact
+title: Partner Deduplication ACL
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Partner Deduplication ACL
 
@@ -12,8 +23,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_deduplicate_acl`\
-Repository: <https://github.com/OCA/partner-contact/tree/17.0/partner_deduplicate_acl>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -4,6 +4,7 @@ description: Arbeitsflüsse im Kundendienst automatisieren.
 kind: howto
 section: true
 prev: ./discuss
+partner: Mint System
 ---
 
 # Kundendienst Aktionen

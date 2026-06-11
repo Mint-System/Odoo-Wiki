@@ -8,7 +8,7 @@ prev: {{VALUE:prev}}
 forge: github.com
 repo: {{VALUE:org_name}}/{{VALUE:repo_name}}
 versions:
-  - "{{VALUE:odoo_version}}"
+- '{{VALUE:odoo_version}}'
 name: {{VALUE:module_name}}
 ---
 
@@ -60,6 +60,7 @@ const repoMap = {
     "Odoo-Apps-Account-Reconcile",
     "Odoo-Apps-Connector",
     "Odoo-Apps-Contract",
+    "Odoo-Apps-Data-Analytic",
     "Odoo-Apps-HR",
     "Odoo-Apps-Kubernetes",
     "Odoo-Apps-Management-System",

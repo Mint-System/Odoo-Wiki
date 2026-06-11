@@ -3,6 +3,7 @@ title: E-Mail-Vorlagen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # E-Mail-Vorlagen

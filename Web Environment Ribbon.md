@@ -1,10 +1,21 @@
 ---
-title: Web Environment Ribbon
 description: Odoo Umgebung mit Banner markieren.
+forge: github.com
 kind: howto
+name: web_environment_ribbon
 partner: OCA
 prev: ./development
+repo: OCA/web
+title: Web Environment Ribbon
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Web Environment Ribbon
 
@@ -12,8 +23,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `web_environment_ribbon`\
-Repository: <https://github.com/OCA/web/tree/19.0/web_environment_ribbon>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

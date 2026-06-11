@@ -1,10 +1,17 @@
 ---
-title: Meilisearch Base
 description: Meilisearch Index mit Odoo Dokumenten synchronisieren.
+forge: github.com
 kind: howto
+name: meilisearch_base
 partner: Mint System
-prev: ./website-e-commerce
+prev: ./connector
+repo: Mint-System/Odoo-Apps-Connector
+title: Meilisearch Base
+versions:
+- '18.0'
+- '16.0'
 ---
+
 
 # Meilisearch Base
 
@@ -12,8 +19,8 @@ prev: ./website-e-commerce
 
 {{ $frontmatter.description }}
 
-Technischer Name: `meilisearch_base`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Connector/tree/16.0/meilisearch_base>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

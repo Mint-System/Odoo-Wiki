@@ -1,10 +1,16 @@
 ---
-title: Mail Debrand
 description: Odoo Promotion aus E-Mail-Vorlagen entfernen.
+forge: github.com
 kind: howto
+name: mail_debrand
 partner: OCA
 prev: ./discuss-e-mail
+repo: OCA/mail
+title: Mail Debrand
+versions:
+- '18.0'
 ---
+
 
 # Mail Debrand
 
@@ -12,5 +18,5 @@ prev: ./discuss-e-mail
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_debrand`\
-Repository: <https://github.com/OCA/mail/tree/18.0/mail_debrand>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

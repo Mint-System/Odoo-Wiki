@@ -4,6 +4,7 @@ description: Neue Aktionen für Buchungen, Zahlungen und Abstimmungen.
 kind: howto
 section: true
 prev: ./accounting
+partner: Mint System
 ---
 
 # Buchhaltung Aktionen
@@ -22,7 +23,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Bankauszug zurücksetzen`\
 Modell: `account.bank.statement`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -41,7 +42,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Bankauszug bestätigen`\
 Modell: `account.bank.statement`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -64,7 +65,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Buchungszeilen aktualisieren`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 ```python
 for rec in records.filtered(lambda r: r.state == 'draft'):
@@ -83,7 +84,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Abstimmung zurücksetzen`\
 Modell: `account.bank.statement.line`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -101,7 +102,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Zahlung auf nicht gesendet setzen`\
 Modell: `account.payment`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -120,7 +121,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Zahlungen zurücksetzen`\
 Modell: `account.payment`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -136,7 +137,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Mahnstufe anzeigen`\
 Modell: `res.partner`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -154,7 +155,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Analysekonto entfernen`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -173,7 +174,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Anhang entfernen`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`\
+Typ: `Code ausführen`\
 Python-Code:
 
 ```python
@@ -215,7 +216,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Als geprüft markieren`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`\
+Typ: `Code ausführen`\
 Python-Code:
 
 ```python
@@ -230,7 +231,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Als geprüft markieren`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`\
+Typ: `Code ausführen`\
 Python-Code:
 
 ```python
@@ -247,7 +248,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Abstimmung mit Kontoauszug zurücksetzen`\
 Modell: `account.move.line`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -265,7 +266,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Konto aktualisieren`\
 Modell: `account.move.line`\
-Folgeaktion: `Python-Code ausführen`\
+Typ: `Code ausführen`\
 Python-Code:
 
 ```python
@@ -281,7 +282,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Informationen der Zahlungsmethode anzeigen`\
 Modell: `account.payment.method`\
-Folgeaktion: `Python-Code ausführen`\
+Typ: `Code ausführen`\
 Python-Code:
 
 ```python
@@ -304,7 +305,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Tage\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -369,7 +370,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Woche\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

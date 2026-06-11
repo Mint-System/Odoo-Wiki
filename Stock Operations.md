@@ -4,6 +4,7 @@ description: Vorgänge im Lager ausführen.
 kind: howto
 section: true
 prev: ./stock
+partner: Mint System
 ---
 
 # Lager Vorgänge

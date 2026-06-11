@@ -10,8 +10,10 @@ views:
       - file.name
       - partner
       - prev
-      - formula.Untitled
+      - versions
     sort:
+      - property: formula.Untitled
+        direction: ASC
       - property: tags
         direction: DESC
     columnSize:

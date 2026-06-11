@@ -1,10 +1,16 @@
 ---
-title: HR Holidays Calendar Department
 description: Erweitert den Anwesenheitsbericht mit neuen Felder.
+forge: github.com
 kind: howto
+name: hr_holidays_calendar_department
 partner: Mint System
 prev: ./hr
+repo: Mint-System/Odoo-Apps-HR
+title: HR Holidays Calendar Department
+versions:
+- '14.0'
 ---
+
 
 # HR Holidays Calendar Department
 
@@ -12,8 +18,8 @@ prev: ./hr
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_holidays_calendar_department`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_holidays_calendar_department>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

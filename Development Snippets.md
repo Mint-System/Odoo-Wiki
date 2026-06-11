@@ -4,6 +4,7 @@ description: Einfache Anpassungen mit den Mint System Snippets umsetzen.
 kind: howto
 section: true
 prev: ./development
+partner: Mint System
 ---
 
 # Entwicklung Snippets

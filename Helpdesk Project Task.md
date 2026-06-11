@@ -1,11 +1,16 @@
 ---
-title: Helpdesk Project Task
 description: Projektaufgaben und Helpdesk-Tickets verlinken.
+forge: github.com
 kind: howto
-tags:
-  - Mint-System
+name: helpdesk_project_task
+partner: Mint System
 prev: ./helpdesk
+repo: Mint-System/Odoo-Apps-Project
+title: Helpdesk Project Task
+versions:
+- '16.0'
 ---
+
 
 # Helpdesk Project Task
 
@@ -13,8 +18,8 @@ prev: ./helpdesk
 
 {{ $frontmatter.description }}
 
-Technischer Name: `helpdesk_project_task`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Project/tree/16.0/helpdesk_project_task>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

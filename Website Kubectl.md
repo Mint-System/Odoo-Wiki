@@ -1,11 +1,16 @@
 ---
-title: Website Kubectl
 description: Kubernetes Cluster auf Website präsentieren.
+forge: github.com
 kind: howto
-tags:
-  - Mint-System
-prev: ./mint-cloud
+name: website_kubectl
+partner: Mint System
+prev: ./kubernetes
+repo: Mint-System/Odoo-Apps-Kubernetes
+title: Website Kubectl
+versions:
+- '18.0'
 ---
+
 
 # Website Kubectl
 
@@ -13,5 +18,5 @@ prev: ./mint-cloud
 
 {{ $frontmatter.description }}
 
-Technischer Name: `website_kubectl`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Kubernetes/tree/18.0/website_kubectl>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

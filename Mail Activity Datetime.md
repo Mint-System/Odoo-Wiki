@@ -1,10 +1,16 @@
 ---
-title: Mail Activity Datetime
 description: Datum mit Zeit für Fälligkeit von Aktivität.
+forge: github.com
 kind: howto
+name: mail_activity_datetime
 partner: Mint System
 prev: ./discuss-e-mail
+repo: Mint-System/Odoo-Apps-Social
+title: Mail Activity Datetime
+versions:
+- '14.0'
 ---
+
 
 # Mail Activity Datetime
 
@@ -12,8 +18,8 @@ prev: ./discuss-e-mail
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_activity_datetime`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_activity_datetime>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

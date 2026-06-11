@@ -3,6 +3,7 @@ title: Kombination An- und Abwesenheiten
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Kombination An- und Abwesenheiten

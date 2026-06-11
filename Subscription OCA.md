@@ -1,10 +1,20 @@
 ---
-title: Subscription OCA
 description: OCA-Alternative für Abonnemente.
+forge: github.com
 kind: howto
+name: subscription_oca
 partner: OCA
 prev: ./contract
+repo: OCA/contract
+title: Subscription OCA
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Subscription OCA
 
@@ -12,8 +22,8 @@ prev: ./contract
 
 {{ $frontmatter.description }}
 
-Technischer Name: `subscription_oca`\
-Repository: <https://github.com/OCA/contract/tree/17.0/subscription_oca>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 
@@ -44,7 +54,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Mit Abonnement verbinden`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 

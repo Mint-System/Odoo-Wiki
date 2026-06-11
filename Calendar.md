@@ -46,6 +46,12 @@ Bitten ersetzen Sie `$HOSTNAME` mit dem Hostnamen ihrer Odoo-Installation.
 
 Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Integration_. Aktivieren Sie die Option _Outlook-Kalender_. Füllen Sie die Felder _Client ID_ und _Client Secret_ mit den Werten aus der Registration der OAuth-app aus.
 
+### Versand Einladungmails verhindern
+
+Im Entwicklermodus navigieren Sie nach _Einstellungen > Technisch > Parameter > Systemparameter_. Legen Sie für den Schlüssel `calendar.block_mail` den Wert `	True` fest.
+
+Wenn dieser Systemparameter gesetzt ist, verschickt Odoo keine Einladungen an Teilnehmer für Kalender-Termine.
+
 ## Verwendung
 
 ### Terminserie erstellen

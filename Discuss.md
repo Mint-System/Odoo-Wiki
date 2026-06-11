@@ -26,16 +26,17 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 
 ## Erweiterungen
 
-| Erweiterung                                                                         | Beschreibung                                                             |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| [Account Move Mail Thread](Account%20Move%20Mail%20Thread.md)                       | Verhindert das versenden von Nachrichten beim Erstellen einer Buchung.   |
-| [Account Move Send Unsubscribe](Account%20Move%20Send%20Unsubscribe.md)             | Alle Abonnenten nach Versenden der Rechnung entfernen.                   |
-| [Account Move Unsubscribe](Account%20Move%20Unsubscribe.md)                         | Alle Abonnenten nach Buchung eines Buchungssatzes entfernen.             |
-| [Purchase Order Send Unsubscribe](Purchase%20Order%20Send%20Unsubscribe.md)         | Alle Abonnenten nach Versenden der Bestellung entfernen.                 |
-| [Purchase Order Unsubscribe](Purchase%20Order%20Unsubscribe.md)                     | Alle Abonnenten nach Bestätigung der Bestellung entfernen.               |
-| [Sale Order Send Unsubscribe](Sale%20Order%20Send%20Unsubscribe.md)                 | Alle Abonnenten nach Versenden des Angebots entfernen.                   |
-| [Sale Order Unsubscribe](Sale%20Order%20Unsubscribe.md)                             | Alle Abonnenten nach Bestätigung des Angebots entfernen.                 |
-| [URL Attachment](URL%20Attachment.md)                                               | Url als Dokument anhängen.                                               |
+| Erweiterung                                                                 | Beschreibung                                                           |
+| --------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [Account Move Mail Thread](Account%20Move%20Mail%20Thread.md)               | Verhindert das versenden von Nachrichten beim Erstellen einer Buchung. |
+| [Account Move Send Unsubscribe](Account%20Move%20Send%20Unsubscribe.md)     | Alle Abonnenten nach Versenden der Rechnung entfernen.                 |
+| [Account Move Unsubscribe](Account%20Move%20Unsubscribe.md)                 | Alle Abonnenten nach Buchung eines Buchungssatzes entfernen.           |
+| [Purchase Order Send Unsubscribe](Purchase%20Order%20Send%20Unsubscribe.md) | Alle Abonnenten nach Versenden der Bestellung entfernen.               |
+| [Purchase Order Unsubscribe](Purchase%20Order%20Unsubscribe.md)             | Alle Abonnenten nach Bestätigung der Bestellung entfernen.             |
+| [Sale Order Send Unsubscribe](Sale%20Order%20Send%20Unsubscribe.md)         | Alle Abonnenten nach Versenden des Angebots entfernen.                 |
+| [Sale Order Unsubscribe](Sale%20Order%20Unsubscribe.md)                     | Alle Abonnenten nach Bestätigung des Angebots entfernen.               |
+| [URL Attachment](URL%20Attachment.md)                                       | Url als Dokument anhängen.                                             |
+| [Web Chatter Sort](Web%20Chatter%20Sort.md)                                 | Chatter-Nachrichten gemäss Datum sortieren.                            |
 
 ## Beschreibung
 

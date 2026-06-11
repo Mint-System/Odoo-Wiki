@@ -1,10 +1,16 @@
 ---
-title: Mail Tracking Mailgun
 description: Mailgun Events mit Webhook in Odoo empfangen.
+forge: github.com
 kind: howto
+name: mail_tracking_mailgun
 partner: OCA
 prev: ./discuss
+repo: OCA/mail
+title: Mail Tracking Mailgun
+versions:
+- '18.0'
 ---
+
 
 # Mail Tracking Mailgun
 
@@ -12,8 +18,8 @@ prev: ./discuss
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_tracking_mailgun`\
-Repository: <https://github.com/OCA/mail/tree/18.0/mail_tracking_mailgun>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

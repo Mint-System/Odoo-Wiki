@@ -16,6 +16,7 @@ tags:
   - explanation
   - references
   - processes
+partner: Mint System
 ---
 
 # Odoo Wiki
@@ -358,9 +359,9 @@ Verwaltung von Sponsoren, Ständen, Vorträgen, virtuellen Veranstaltungen und v
 
 Versenden Sie ausgefeilte Preisangebote mit Odoo Unterschrift und Online-Zahlung.
 
-### [Vermietung](Rental.md)
+### [Vermietung](Sale%20Renting.md)
 
-[![icons_odoo_sale_renting](attachments/icons_odoo_sale_renting.png)](Rental.md)
+[![icons_odoo_sale](attachments/icons_odoo_sale.png)](Sale%20Renting.md)
 
 Vereint Lagerverwaltung, Terminplanung und Verträge damit Sie den Überblick behalten.
 
@@ -388,9 +389,9 @@ Benutzeroberfläche von Odoo.
 
 Website Builder für Unternehmen. Einfach. Mobil. Open Source.
 
-### [Website E-Commerce](Website%20E-Commerce.md)
+### [Website eCommerce](Website%20Sale.md)
 
-[![](attachments/icons_odoo_website_sale.png)](Website%20E-Commerce.md)
+[![](attachments/icons_odoo_website_sale.png)](Website%20Sale.md)
 
 Webshop ohne Integrationsaufwand.
 
@@ -457,6 +458,12 @@ Stelleninserate verwalten.
 [![](attachments/icons_odoo_legal_advice_base.png)](Legal%20Advice%20Base.md)
 
 Rechtsberatungen mit Kunden und Experten abwickeln.
+
+### [Kubernetes](Kubernetes.md)
+
+[![icons_odoo_server](attachments/icons_odoo_server.png)](Kubernetes.md)
+
+Kubernetes Cluster mit Odoo integrieren.
 
 ### [Lizenz](License.md)
 

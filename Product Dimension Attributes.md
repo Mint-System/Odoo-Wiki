@@ -1,10 +1,16 @@
 ---
-title: Product Dimension Attributes
 description: Product dimension attributes.
+forge: github.com
 kind: howto
+name: product_dimension_attributes
 partner: Mint System
 prev: ./product
+repo: Mint-System/Odoo-Apps-Product-Attribute
+title: Product Dimension Attributes
+versions:
+- '16.0'
 ---
+
 
 # Product Dimension Attributes
 
@@ -12,8 +18,8 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_dimension_attributes`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/16.0/product_dimension_attributes>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

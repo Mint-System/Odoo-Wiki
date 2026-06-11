@@ -1,10 +1,20 @@
 ---
-title: MRP Documents Share
 description: Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument.
+forge: github.com
 kind: howto
+name: mrp_documents_share
 partner: Mint System
 prev: ./manufacture
+repo: Mint-System/Odoo-Apps-Manufacture
+title: MRP Documents Share
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # MRP Documents Share
 
@@ -12,8 +22,8 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mrp_documents_share`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/mrp_documents_share>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 
@@ -59,7 +69,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Produktionsdokumente mit Produkt verknüpfen`\
 Modell: `product.template`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -83,7 +93,7 @@ Dasselbe können Sie für Produktvarianten einrichten:
 
 Name der Aktion: `Produktionsdokumente mit Produkt verknüpfen`\
 Modell: `product.product`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

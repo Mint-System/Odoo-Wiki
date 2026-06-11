@@ -4,6 +4,7 @@ description: Daten zu Kontakte exportieren und importieren.
 kind: howto
 section: true
 prev: ./contacts
+partner: Mint System
 ---
 
 # Kontakte Datenmanagement

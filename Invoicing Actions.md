@@ -4,6 +4,7 @@ description: Neue Aktionen für Rechnungstellung und Mahnungen.
 kind: howto
 section: true
 prev: ./accounting
+partner: Mint System
 ---
 
 # Rechnungsstellung Aktionen
@@ -20,7 +21,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Auf Entwurf zurücksetzen`
 Modell: `account.move`
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -39,7 +40,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Als gesendet markieren`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 ```python
 for record in records:
@@ -56,7 +57,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Als ungebucht markieren`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 ```python
 for record in records:
@@ -75,7 +76,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Als gebucht markieren`
 Modell: `account.move`
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -90,13 +91,13 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl _Aktion_ das Menu _
 
 ### Mahngebühren hinzufügen
 
-Mit dieser Aktion wird einer gebuchten Rechnung eine Mahngebühr hinzugefügt. Damit diese Aktion funktioniert, müssen Sie ein [Produkt Mahngebühren einrichten](Invoicing%20followup.md#Produkt%20Mahngebühren%20einrichten).
+Mit dieser Aktion wird einer gebuchten Rechnung eine Mahngebühr hinzugefügt. Damit diese Aktion funktioniert, müssen Sie ein [Produkt Mahngebühren einrichten](Invoicing%20Followup.md#Produkt%20Mahngebühren%20einrichten).
 
 Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Mahngebühren hinzufügen`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -120,7 +121,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Steuersätze aktualisieren`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -147,7 +148,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Steuersatz entfernen`\
 Modell: `account.move.line`\
-Folgeaktion: `Python-Code ausführen`\
+Typ: `Code ausführen`\
 Python-Code:
 
 ```python
@@ -162,7 +163,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Anhang entfernen`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`\
+Typ: `Code ausführen`\
 Python-Code:
 
 ```python
@@ -177,7 +178,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Empfänger für Mahnungen ausgeben`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`\
+Typ: `Code ausführen`\
 Python-Code:
 
 ```python
@@ -192,8 +193,8 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `PDF-Datei vorbereiten`\
 Modell: `account.move`\
-Folgeaktion: `Python-Code ausführen`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`\
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -218,7 +219,6 @@ Im Versandprozess wird die PDF-Datei erstellt. Wenn Rechnungen als E-Mail versen
 - **Ausgehende Rückerstattung**: Versand an Kunden mit der Gutschrift im Anhang
 - **Eingangsrechnungen**: Selbst-fakturierte Rechnung: Versand
 - **Eingehende Rückerstattung**: Selbst-fakturierte Gutschrift: Versand
-- 
 
 ### PDF-Datei von Kundenrechnungen vorbereiten
 
@@ -231,7 +231,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Woche\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -244,3 +244,21 @@ log('Create pdf files for invoices: %s' % invoices)
 for invoice in invoices:
   content, _content_type = env['ir.actions.report']._render_qweb_pdf(invoices_report, res_ids=[invoice.id])
 ```
+
+## Automatische Aktionen
+
+### Standard-Bargeldrundungsmethode festlegen
+
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+
+- **Name der Aktion**: `Standard-Bargeldrundungsmethode festlegen`
+- **Modell**: `account.move`
+- **Auslöser**: Bei Erstellung
+- **Anzuwenden auf**:
+
+```python
+[("move_type", "=", "out_invoice")]
+```
+
+- **Folgeaktion**: Daten aktualisieren
+- **Journalbuchung aktualisieren**: Bargeldrundungsmethode = Rundung auf 5 Rappen

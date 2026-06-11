@@ -4,6 +4,7 @@ description: Daten zu Projekte exportieren und importieren.
 kind: howto
 section: true
 prev: ./project
+partner: Mint System
 ---
 
 # Projekt Datenmanagement

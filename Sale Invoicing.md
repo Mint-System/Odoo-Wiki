@@ -4,6 +4,7 @@ description: Verkaufsaufträge unkompliziert abrechnen.
 kind: howto
 section: true
 prev: ./sale
+partner: Mint System
 ---
 
 # Verkauf Abrechnung

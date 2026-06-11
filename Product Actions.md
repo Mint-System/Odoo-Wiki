@@ -4,6 +4,7 @@ description: Arbeitsflüsse in der Produkteverwaltung automatisieren.
 kind: howto
 section: true
 prev: ./product
+partner: Mint System
 ---
 
 # Produkt Aktionen
@@ -20,7 +21,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Übersetzung von Name anpassen`\
 Modell: `product.template`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

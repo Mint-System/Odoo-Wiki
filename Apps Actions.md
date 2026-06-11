@@ -4,6 +4,7 @@ description: Aktionen für Apps einrichten.
 kind: howto
 section: true
 prev: ./apps
+partner: Mint System
 ---
 
 # Apps Aktionen
@@ -20,7 +21,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Modul aktualisieren`\
 Modell: `ir.module.module`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 

@@ -4,6 +4,7 @@ description: Use Case für mehrstufige Qualitätskontrollen.
 tags:
   - Use-Case
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Use Case Schokoladenfabrik

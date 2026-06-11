@@ -3,6 +3,8 @@ title: Odoo Datenmanagement
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+section: false
+partner: Mint System
 ---
 
 # Odoo Datenmanagement

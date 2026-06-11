@@ -1,10 +1,16 @@
 ---
-title: Stock Production Lot Date
 description: Datum auf Losnummer festlegen und Ablaufdatum relativ setzen.
+forge: github.com
 kind: howto
+name: stock_production_lot_date
 partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Production Lot Date
+versions:
+- '14.0'
 ---
+
 
 # Stock Production Lot Date
 
@@ -12,8 +18,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_production_lot_date`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/14.0/stock_production_lot_date>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

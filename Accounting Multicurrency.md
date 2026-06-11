@@ -4,6 +4,7 @@ description: Unterschiedliche Währungen mit Odoo Buchhaltung verarbeiten.
 kind: howto
 section: true
 prev: ./accounting
+partner: Mint System
 ---
 
 # Buchhaltung Mehrere Währungen

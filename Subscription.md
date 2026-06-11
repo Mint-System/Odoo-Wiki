@@ -9,7 +9,7 @@ extensions: true
 
 # Abonnemente
 
-![icons_odoo_account_invoicing](attachments/icons_odoo_account_invoicing.png)
+![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.png)
 
 {{ $frontmatter.description }}
 

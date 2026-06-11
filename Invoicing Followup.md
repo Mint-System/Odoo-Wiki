@@ -2,9 +2,10 @@
 title: Rechnungsstellung Mahnungen
 description: Mahnberichte erstellen und verschicken.
 kind: howto
-section: true
 prev: ./invoicing
 extensions: true
+partner: Mint System
+section: true
 ---
 
 # Rechnungsstellung Mahnungen

@@ -1,10 +1,21 @@
 ---
-title: Extended view inheritance
 description: Benutzerdefinierte Operatoren auf vererbten Ansichten.
+forge: github.com
 kind: howto
+name: base_view_inheritance_extension
 partner: OCA
 prev: ./devleopment
+repo: OCA/Server-Tools
+title: Extended view inheritance
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Extended view inheritance
 
@@ -12,5 +23,5 @@ prev: ./devleopment
 
 {{ $frontmatter.description }}
 
-Technischer Name: `base_view_inheritance_extension`\
-Repository: <https://github.com/OCA/Server-Tools/tree/17.0/base_view_inheritance_extension>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

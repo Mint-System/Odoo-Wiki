@@ -1,9 +1,17 @@
 ---
-title: License OCAD
 description: Synchronisation Lizenzen mit dem OCAD Lizenzaktivierungsdienst.
+forge: github.com
 kind: howto
+name: license_ocad
 prev: ./license
+repo: Mint-System/Odoo-Apps-Vertical-SaaS
+title: License OCAD
+versions:
+  - "18.0"
+  - "16.0"
+partner: Mint System
 ---
+
 
 # License OCAD
 
@@ -11,8 +19,8 @@ prev: ./license
 
 {{ $frontmatter.description }}
 
-Technischer Name: `license_ocad`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Vertical-SaaS/tree/16.0/license_ocad>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 
@@ -28,7 +36,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Lizenzinformationen kopieren`\
 Modell: `license.license`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

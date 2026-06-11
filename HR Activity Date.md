@@ -1,10 +1,16 @@
 ---
-title: HR Activity Date
 description: Plannungstypen mit Aktivitätsdatum basierend auf Arbeitsverträgen.
+forge: github.com
 kind: howto
+name: hr_activity_date
 partner: Mint System
 prev: ./hr
+repo: Mint-System/Odoo-Apps-HR
+title: HR Activity Date
+versions:
+- '14.0'
 ---
+
 
 # HR Activity Date
 
@@ -12,8 +18,8 @@ prev: ./hr
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_activity_date`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_activity_date>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

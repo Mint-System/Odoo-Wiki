@@ -1,10 +1,16 @@
 ---
-title: Product Supplierinfo for Customer Sale
 description: Produktspezifische Informationen für ausgewählte Kunden erfassen.
+forge: github.com
 kind: howto
+name: product_supplierinfo_for_customer_sale
 partner: OCA
 prev: ./product
+repo: OCA/contract
+title: Product Supplierinfo for Customer Sale
+versions:
+- '14.0'
 ---
+
 
 # Product Supplierinfo for Customer Sale
 
@@ -12,5 +18,5 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_supplierinfo_for_customer_sale`\
-Repository: <https://github.com/OCA/contract/tree/14.0/product_supplierinfo_for_customer_sale>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

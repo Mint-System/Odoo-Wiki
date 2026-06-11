@@ -3,13 +3,13 @@ title: Partner Mobile
 description: Fügt Feld für Mobilnummer hinzu.
 kind: howto
 tags:
-  - OCA
 prev: ./contacts
 forge: github.com
 repo: OCA/partner-contact
 versions:
   - "19.0"
 name: partner_mobile
+partner: OCA
 ---
 
 # Partner Mobile

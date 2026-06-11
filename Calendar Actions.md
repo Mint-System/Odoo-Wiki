@@ -4,6 +4,7 @@ description: Kalender-Prozesse automatisieren.
 kind: howto
 section: true
 prev: ./kalender
+partner: Mint System
 ---
 
 # Kalender Aktionen
@@ -20,7 +21,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Outlook Kalender synchronisieren`\
 Modell: `res.users`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 

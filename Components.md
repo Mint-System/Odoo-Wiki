@@ -1,11 +1,22 @@
 ---
-title: Components
 description: Kompontent-System für das Connector-Framework.
+forge: github.com
 kind: howto
-tags:
-  - OCA
+name: component
 prev: ./development
+repo: OCA/Connector
+tags:
+title: Components
+versions:
+  - "19.0"
+  - "18.0"
+  - "17.0"
+  - "16.0"
+  - "15.0"
+  - "14.0"
+partner: OCA
 ---
+
 
 # Components
 
@@ -13,5 +24,5 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `component`\
-Repository: <https://github.com/OCA/Connector/tree/17.0/component>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

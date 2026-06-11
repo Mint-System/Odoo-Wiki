@@ -4,6 +4,7 @@ description: Beispiele für Anpassungen mit Odoo Studio.
 kind: howto
 section: true
 prev: ./studio
+partner: Mint System
 ---
 
 # Studio Beispiele

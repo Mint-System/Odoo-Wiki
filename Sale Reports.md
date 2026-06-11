@@ -4,6 +4,7 @@ description: Verkaufsdaten immer aktuell.
 kind: howto
 section: true
 prev: ./sale
+partner: Mint System
 ---
 
 # Verkauf Berichte

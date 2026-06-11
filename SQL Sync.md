@@ -1,10 +1,16 @@
 ---
-title: SQL Sync
 description: Mit SQL-Abfragen Daten empfangen und senden.
+forge: github.com
 kind: howto
+name: zbsync_sql
 partner: Zebroo
 prev: ./zebroo-sync
+repo: Odoo-Ninjas/zync-stable
+title: SQL Sync
+versions:
+- '16.0'
 ---
+
 
 # SQL Sync
 
@@ -12,8 +18,8 @@ prev: ./zebroo-sync
 
 {{ $frontmatter.description }}
 
-Technischer Name: `zbsync_sql`\
-Repository: <https://github.com/Odoo-Ninjas/zync-stable/tree/16.0/zbsync_sql>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

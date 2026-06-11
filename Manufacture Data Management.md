@@ -4,6 +4,7 @@ description: Produkte und Dienstleistungen zentral pflegen.
 kind: howto
 section: true
 prev: ./manufacture
+partner: Mint System
 ---
 
 # Fertigung Datenmanagement

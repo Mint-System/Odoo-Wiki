@@ -4,6 +4,7 @@ description: Aktion für die Datenbank ausführen.
 kind: howto
 section: true
 prev: ./database
+partner: Mint System
 ---
 
 # Datenbank Aktionen
@@ -20,7 +21,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Cron-Lock anzeigen`\
 Modell: `ir.actions.server`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -39,7 +40,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Cron-Lock entfernen`\
 Modell: `ir.actions.server`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

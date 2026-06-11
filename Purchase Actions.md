@@ -4,6 +4,7 @@ description: Arbeitsflüsse in Einkauf automatisieren.
 kind: howto
 section: true
 prev: ./purchase
+partner: Mint System
 ---
 
 # Einkauf Aktionen
@@ -40,7 +41,7 @@ Modell: `acclount.move`\
 Auslöser: Beim Aktualisieren\
 Trigger-Felder: `to_check`
 Anzuwenden auf: `[("to_check", "=", True),("purchase_order_count",">",0)]`
-Folgeaktion: Python-Code ausführen\
+Folgeaktion: Code ausführen\
 Python-Code:
 
 ```python
@@ -64,7 +65,7 @@ Modell: `purchase.order`\
 Auslöser: Bei Erstellung und Aktualisierung\
 Trigger-Felder: `state`
 Anzuwenden auf: `[("state", "=", "purchase")]`
-Folgeaktion: Python-Code ausführen\
+Folgeaktion: Code ausführen\
 Python-Code:
 
 ```python

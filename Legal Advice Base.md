@@ -1,10 +1,16 @@
 ---
-title: Legal Advice Base
 description: Rechtsberatungen mit Kunden und Experten abwickeln.
+forge: github.com
 kind: howto
+name: legal_advice_base
 partner: Mint System
 prev: ./
+repo: Sozialinfo/Odoo-Apps-Sozialinfo
+title: Legal Advice Base
+versions:
+- '16.0'
 ---
+
 
 # Legal Advice Base
 
@@ -12,8 +18,8 @@ prev: ./
 
 {{ $frontmatter.description }}
 
-Technischer Name: `legal_advice_base`\
-Repository: <https://github.com/Sozialinfo/Odoo-Apps-Sozialinfo/tree/16.0/legal_advice_base>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

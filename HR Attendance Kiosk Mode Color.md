@@ -1,10 +1,16 @@
 ---
-title: HR Attendance Kiosk Mode Color
 description: An- und Abmelden bei Anwesenheit farblich markieren.
+forge: github.com
 kind: howto
+name: hr_attendance_kiosk_mode_color
 partner: Mint System
 prev: ./hr-holidays
+repo: Mint-System/Odoo-Apps-HR
+title: HR Attendance Kiosk Mode Color
+versions:
+- '15.0'
 ---
+
 
 # HR Attendance Kiosk Mode Color
 
@@ -12,8 +18,8 @@ prev: ./hr-holidays
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_attendance_kiosk_mode_color`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/15.0/hr_attendance_kiosk_mode_color>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

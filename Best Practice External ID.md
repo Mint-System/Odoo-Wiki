@@ -3,6 +3,7 @@ title: Externe ID
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Externe ID

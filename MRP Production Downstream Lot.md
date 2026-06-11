@@ -1,10 +1,16 @@
 ---
-title: MRP Production Downstream Lot
 description: Los auf verknüpfte Lieferung übertragen.
+forge: github.com
 kind: howto
+name: mrp_production_downstream_lot
 partner: Mint System
 prev: ./manufacture
+repo: Mint-System/Odoo-Apps-Manufacture
+title: MRP Production Downstream Lot
+versions:
+- '14.0'
 ---
+
 
 # MRP Production Downstream Lot
 
@@ -12,8 +18,8 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mrp_production_downstream_lot`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/14.0/mrp_production_downstream_lot>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

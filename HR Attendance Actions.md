@@ -4,6 +4,7 @@ description: Aktionen für Anwesenheit App einrichten.
 kind: howto
 section: true
 prev: ./hr-attendance
+partner: Mint System
 ---
 
 # Anwesenheiten Aktionen
@@ -25,7 +26,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Fehlende Anwesenheitseinträge anzeigen`\
 Modell: `ir.actions.server`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 ```python
 # Settings
@@ -157,7 +158,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Überstunden aktualisieren`\
 Modell: `hr.attendance`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -186,7 +187,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Monat\
 Nächstes Ausführungsdatum: `01.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -228,7 +229,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Woche\
 Nächstes Ausführungsdatum: `01.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

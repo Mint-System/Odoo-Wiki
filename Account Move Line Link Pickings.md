@@ -1,10 +1,16 @@
 ---
-title: Account Move Line Link Pickings
 description: Lieferaufträge mit Rechnungszeile verlinken.
+forge: github.com
 kind: howto
+name: account_move_line_link_pickings
 partner: Mint System
 prev: ./accounting
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Account Move Line Link Pickings
+versions:
+- '14.0'
 ---
+
 
 # Account Move Line Link Pickings
 
@@ -12,8 +18,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_move_line_link_pickings`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/14.0/account_move_line_link_pickings>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

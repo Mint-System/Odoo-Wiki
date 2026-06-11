@@ -1,10 +1,21 @@
 ---
-title: Sale Timesheet Line Exclude
 description: Zeiterfassungseinträge als nicht abrechenbar markieren.
+forge: github.com
 kind: howto
+name: sale_timesheet_line_exclude
 partner: OCA
 prev: ./hr-timesheet
+repo: OCA/timesheet
+title: Sale Timesheet Line Exclude
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Sale Timesheet Line Exclude
 
@@ -12,8 +23,8 @@ prev: ./hr-timesheet
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_timesheet_line_exclude`\
-Repository: <https://github.com/OCA/timesheet/tree/17.0/sale_timesheet_line_exclude>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 
@@ -29,7 +40,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen 
 
 Name der Aktion: `Von Abrechnung aus-/einschliessen`\
 Modell: `account.analytic.line`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

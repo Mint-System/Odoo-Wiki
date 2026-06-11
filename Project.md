@@ -44,6 +44,7 @@ Website: <https://www.odoo.com/de_DE/app/project>
 | [Project Timeline](Project%20Timeline.md)                                         | Timeline-Ansicht für Projektaufgaben.                    |
 | [Project Timesheet Time Control](Project%20Timesheet%20Time%20Control.md)         | Zeiterfassung auf Projektaufgabe starten.                |
 | [Project Type](Project%20Type.md)                                                 | Projekte nach Typ verwalten.                             |
+| [Projekt Task Billable](Projekt%20Task%20Billable.md)                             | Aufgaben als abrechenbar markieren.                      |
 | [Sequential Code for Tasks](Sequential%20Code%20for%20Tasks.md)                   | Sequenznummer für Projektaufgaben.                       |
 
 ## Verwaltung

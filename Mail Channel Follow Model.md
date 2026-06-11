@@ -1,11 +1,17 @@
 ---
-title: Mail Channel Follow Model
 description: Kanäle können Datenmodell abonnieren und zeigen Benachrichtigungen an.
+forge: github.com
 kind: howto
-tags:
-  - Mint-System
+name: mail_channel_follow_model
+partner: Mint System
 prev: ./discuss-e-mail
+repo: Mint-System/Odoo-Apps-Social
+title: Mail Channel Follow Model
+versions:
+- '18.0'
+- '16.0'
 ---
+
 
 # Mail Channel Follow Model
 
@@ -13,8 +19,8 @@ prev: ./discuss-e-mail
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_channel_follow_model`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/16.0/mail_channel_follow_model>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

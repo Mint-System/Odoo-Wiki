@@ -1,10 +1,16 @@
 ---
-title: Mail Thread Context
 description: Automatisches Abonnieren deaktiveren.
+forge: github.com
 kind: howto
+name: mail_thread_context
 partner: Mint System
 prev: ./discuss-e-mail
+repo: Mint-System/Odoo-Apps-Social
+title: Mail Thread Context
+versions:
+- '14.0'
 ---
+
 
 # Mail Thread Context
 
@@ -12,8 +18,8 @@ prev: ./discuss-e-mail
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_thread_context`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/14.0/mail_thread_context>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [Mail No Autofollow](Mail%20No%20Autofollow.md) zu verwenden.

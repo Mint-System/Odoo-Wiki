@@ -1,10 +1,16 @@
 ---
-title: HR Holidays .ics Attachment
 description: An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.
+forge: github.com
 kind: howto
+name: hr_holidays_ics_attachment
 partner: Mint System
 prev: ./hr-holidays
+repo: Mint-System/Odoo-Apps-HR
+title: HR Holidays .ics Attachment
+versions:
+- '14.0'
 ---
+
 
 # HR Holidays .ics Attachment
 
@@ -12,8 +18,8 @@ prev: ./hr-holidays
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_holidays_ics_attachment`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_holidays_ics_attachment>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

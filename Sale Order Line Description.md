@@ -1,10 +1,20 @@
 ---
-title: Sale Order Line Description
 description: Nur Verkausbeschreibung im Feld Beschreibung übertragen.
+forge: github.com
 kind: howto
+name: sale_order_line_description
 partner: OCA
 prev: ./sale
+repo: OCA/sale-workflow
+title: Sale Order Line Description
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Sale Order Line Description
 
@@ -12,8 +22,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_line_description`\
-Repository: <https://github.com/OCA/sale-workflow/tree/17.0/sale_order_line_description>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

@@ -1,10 +1,16 @@
 ---
-title: Mail Show Follower
 description: CC-Hinweis in E-Mail-Header einfügen.
+forge: github.com
 kind: howto
+name: mail_show_follower
 partner: OCA
 prev: ./discuss-e-mail
+repo: OCA/mail
+title: Mail Show Follower
+versions:
+- '18.0'
 ---
+
 
 # Mail Show Follower
 
@@ -12,8 +18,8 @@ prev: ./discuss-e-mail
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_show_follower`\
-Repository: <https://github.com/OCA/mail/tree/18.0/mail_show_follower>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 
