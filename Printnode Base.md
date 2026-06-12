@@ -20,8 +20,8 @@ Video: [Odoo Experience 2021 - Automating Direct Printing](https://www.youtube.c
 
 Mit Odoo Direct Print werden Druckaufträge aus Odoo via PrintNode an lokale Drucker gesendet. Die App wird von VentorTech entwickelt und angeboten.
 
-<!-- ![](attachments/PrintNode%20how%20it%20works.png)
-Bildquelle: https://www.printnode.com/en/docs -->
+![](attachments/PrintNode%20how%20it%20works.png)
+Bildquelle: https://www.printnode.com/en/docs
 
 ### Voraussetzungen
 
