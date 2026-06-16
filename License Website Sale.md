@@ -9,8 +9,6 @@ title: License Website Sale
 versions:
 - '18.0'
 - '16.0'
-  - "18.0"
-  - "16.0"
 partner: Mint System
 ---
 

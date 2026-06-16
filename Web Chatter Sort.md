@@ -7,7 +7,7 @@ prev: ./discuss
 forge: github.com
 repo: Mint-System/Odoo-Apps-Social
 versions:
-  - "18.0"
+- '18.0'
 name: web_chatter_sort
 partner: Mint System
 ---

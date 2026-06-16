@@ -7,7 +7,7 @@ prev: ./mint-cloud
 repo: Mint-System/Odoo-Apps-Kubernetes
 title: Helm
 versions:
-  - "18.0"
+- '18.0'
 partner: Mint System
 ---
 

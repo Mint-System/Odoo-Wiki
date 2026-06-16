@@ -7,7 +7,7 @@ prev: ./contacts
 forge: github.com
 repo: OCA/partner-contact
 versions:
-  - "19.0"
+- '19.0'
 name: partner_phone_secondary
 partner: OCA
 ---

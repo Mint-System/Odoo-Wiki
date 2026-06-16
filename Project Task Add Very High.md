@@ -8,11 +8,11 @@ repo: OCA/Project
 tags:
 title: Project Task Add Very High
 versions:
-  - "18.0"
-  - "17.0"
-  - "16.0"
-  - "15.0"
-  - "14.0"
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 partner: OCA
 ---
 

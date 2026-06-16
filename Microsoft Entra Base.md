@@ -5,7 +5,7 @@ kind: howto
 tags:
 prev: ./settings-oauth
 versions:
-  - "19.0"
+- '19.0'
 name: microsoft_entra_base
 partner: 2BIT
 ---

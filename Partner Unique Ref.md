@@ -8,7 +8,7 @@ repo: OCA/Partner-Contact
 tags:
 title: Partner unique reference
 versions:
-  - "18.0"
+- '18.0'
 partner: OCA
 ---
 

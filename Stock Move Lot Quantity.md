@@ -7,8 +7,8 @@ prev: ./stock
 forge: github.com
 repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
 versions:
-  - "18.0"
-  - "19.0"
+- '18.0'
+- '19.0'
 name: stock_move_lot_quantity
 partner: Mint System
 ---

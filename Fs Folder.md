@@ -10,8 +10,6 @@ title: Fs Folder
 versions:
 - '19.0'
 - '18.0'
-  - "19.0"
-  - "18.0"
 partner: OCA
 ---
 

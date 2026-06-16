@@ -8,9 +8,9 @@ repo: OCA/sale-workflow
 tags:
 title: Sale Restricted Qty
 versions:
-  - "17.0"
-  - "16.0"
-  - "14.0"
+- '17.0'
+- '16.0'
+- '14.0'
 partner: OCA
 ---
 

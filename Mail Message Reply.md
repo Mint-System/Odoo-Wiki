@@ -8,7 +8,7 @@ repo: OCA/mail
 tags:
 title: Mail Message Reply
 versions:
-  - "18.0"
+- '18.0'
 partner: OCA
 ---
 

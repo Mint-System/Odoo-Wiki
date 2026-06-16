@@ -7,7 +7,7 @@ prev: ./accounting
 forge: github.com
 repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
 versions:
-  - "18.0"
+- '18.0'
 name: account_report_filename
 partner: Mint System
 ---

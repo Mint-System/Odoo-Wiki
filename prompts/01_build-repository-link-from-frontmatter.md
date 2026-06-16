@@ -1,5 +1,6 @@
 ---
 title: Build repository link from frontmatter
+state: completed
 ---
 # Run 01
 

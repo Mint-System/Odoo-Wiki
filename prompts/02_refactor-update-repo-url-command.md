@@ -1,5 +1,6 @@
 ---
 title: "Refactor update repo url command"
+state: completed
 ---
 
 # Run 02

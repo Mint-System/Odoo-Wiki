@@ -7,7 +7,7 @@ prev: ./crm
 forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 versions:
-  - "19.0"
+- '19.0'
 name: sale_crm_ref
 partner: Mint System
 ---

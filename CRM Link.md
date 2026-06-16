@@ -7,7 +7,7 @@ prev: ./crm
 forge: github.com
 repo: Mint-System/Odoo-Apps-Partner-Contact
 versions:
-  - "19.0"
+- '19.0'
 name: crm_link
 partner: Mint System
 ---

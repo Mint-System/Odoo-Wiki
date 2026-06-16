@@ -7,7 +7,7 @@ prev: ./license
 repo: Mint-System/Odoo-Apps-Vertical-SaaS
 title: License Portal
 versions:
-  - "16.0"
+- '16.0'
 partner: Mint System
 ---
 

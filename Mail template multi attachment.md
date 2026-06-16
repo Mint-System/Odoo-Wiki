@@ -8,8 +8,8 @@ repo: OCA/social
 tags:
 title: Mail template multi attachment
 versions:
-  - "16.0"
-  - "14.0"
+- '16.0'
+- '14.0'
 partner: OCA
 ---
 

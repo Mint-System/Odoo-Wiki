@@ -8,7 +8,7 @@ prev: ./contract
 repo: OCA/contract
 title: Product Contract
 versions:
-  - "16.0"
+- '16.0'
 ---
 
 
