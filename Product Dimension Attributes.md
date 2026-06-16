@@ -8,6 +8,7 @@ prev: ./product
 repo: Mint-System/Odoo-Apps-Product-Attribute
 title: Product Dimension Attributes
 versions:
+- '19.0'
 - '16.0'
 ---
 

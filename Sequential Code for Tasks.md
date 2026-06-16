@@ -8,6 +8,7 @@ prev: ./project
 repo: OCA/project
 title: Sequential Code for Tasks
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'
