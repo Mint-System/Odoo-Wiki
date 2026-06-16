@@ -1,31 +1,59 @@
 #!/bin/bash
+
 set -e
+
 if [[ -a ".env" ]]; then
     export $(cat .env | sed 's/^#.*//g' | xargs)
 fi
+
 help() {
     echo
     echo "task <command> [options]"
     echo
     echo "commands:"
     echo
-    CMD_WIDTH=24
-    OPT_WIDTH=10
-    DESC_WIDTH=52
-    COLUMN="| %-${CMD_WIDTH}s | %-${OPT_WIDTH}s | %-${DESC_WIDTH}s |\n"
-    printf "$COLUMN" "Command" "Option" "Description"
-    echo "|$(printf '%*s' $((CMD_WIDTH + 2)) '' | tr ' ' '-')|$(printf '%*s' $((OPT_WIDTH + 2)) '' | tr ' ' '-')|$(printf '%*s' $((DESC_WIDTH + 2)) '' | tr ' ' '-')|"
-    printf "$COLUMN" "install" "" "Install build dependencies."
-    printf "$COLUMN" "update" "" "Update build dependencies."
-    printf "$COLUMN" "dev-vuepress" "" "Start vuepress development server."
-    printf "$COLUMN" "build-vuepress" "" "Create vuepress build."
-    printf "$COLUMN" "serve-vuepress" "" "Serve vuepress build."
-    printf "$COLUMN" "download-icons" "" "Download module icons from Odoo assets."
-    printf "$COLUMN" "update-module-versions" "[file]" "Check and update frontmatter versions list."
-    printf "$COLUMN" "get-frontmatter-field" "<file> <field>" "Read a single frontmatter field value."
-    printf "$COLUMN" "set-frontmatter-field" "<file> <versions>" "Write versions list to frontmatter."
-    printf "$COLUMN" "lint" "" "Lint code with prettier."
+
+    local -a rows
+    local max_cmd=7 max_opt=6 max_desc=11
+
+    rows+=("Command|Option|Description")
+    rows+=("install||Install build dependencies.")
+    rows+=("update||Update build dependencies.")
+    rows+=("dev-vuepress||Start vuepress development server.")
+    rows+=("build-vuepress||Create vuepress build.")
+    rows+=("serve-vuepress||Serve vuepress build.")
+    rows+=("download-icons||Download module icons from Odoo assets.")
+    rows+=("update-module-versions|[file]|Check and update frontmatter versions list.")
+    rows+=("get-frontmatter-field|<file> <field>|Read a single frontmatter field value.")
+    rows+=("set-frontmatter-field|<file> <versions>|Write versions list to frontmatter.")
+    rows+=("lint||Lint code with prettier.")
+
+    for row in "${rows[@]}"; do
+        IFS='|' read -r cmd opt desc <<< "$row"
+        (( ${#cmd} > max_cmd )) && max_cmd=${#cmd}
+        (( ${#opt} > max_opt )) && max_opt=${#opt}
+        (( ${#desc} > max_desc )) && max_desc=${#desc}
+    done
+
+    printf '| %-*s | %-*s | %-*s |\n' \
+        "$max_cmd" "Command" \
+        "$max_opt" "Option" \
+        "$max_desc" "Description"
+
+    printf '|-%*s-|-%*s-|-%*s-|\n' \
+        "$max_cmd" "$(printf '%*s' "$max_cmd" '' | tr ' ' '-')" \
+        "$max_opt" "$(printf '%*s' "$max_opt" '' | tr ' ' '-')" \
+        "$max_desc" "$(printf '%*s' "$max_desc" '' | tr ' ' '-')"
+
+    for row in "${rows[@]:1}"; do
+        IFS='|' read -r cmd opt desc <<< "$row"
+        printf '| %-*s | %-*s | %-*s |\n' \
+            "$max_cmd" "$cmd" \
+            "$max_opt" "$opt" \
+            "$max_desc" "$desc"
+    done
 }
+
 if [ -d "$HOME/taskfile.build/bin" ]; then
     for file in "$HOME/taskfile.build/bin/"*; do
         if [ -f "$file" ]; then
@@ -95,6 +123,7 @@ set-frontmatter-field() {
 update-module-versions() {
     local TARGET_FILE="${1:-}"  # Optional: single file path to process
     local VERSIONS=("14.0" "15.0" "16.0" "17.0" "18.0" "19.0")
+    local PROGRESS_FILE="tmp/update-module-versions.progress"
 
     # Collect files to process
     local FILES=()
@@ -112,63 +141,100 @@ update-module-versions() {
 
     local TOTAL_FILES=${#FILES[@]}
     local FILE_COUNT=0
+    local RESUME_COUNT=0
+
+    if [[ -z "$TARGET_FILE" ]]; then
+        mkdir -p tmp
+        if [[ -f "$PROGRESS_FILE" ]]; then
+            RESUME_COUNT=$(cat "$PROGRESS_FILE" 2>/dev/null || echo 0)
+            if ! [[ "$RESUME_COUNT" =~ ^[0-9]+$ ]]; then
+                RESUME_COUNT=0
+            fi
+        fi
+    fi
+
+    if [[ -z "$TARGET_FILE" && "$RESUME_COUNT" -gt 0 ]]; then
+        echo "Resuming from file $RESUME_COUNT/$TOTAL_FILES"
+    fi
 
     for FILE in "${FILES[@]}"; do
         FILE_COUNT=$((FILE_COUNT + 1))
+
+        if [[ -z "$TARGET_FILE" && "$FILE_COUNT" -le "$RESUME_COUNT" ]]; then
+            continue
+        fi
+
         echo "Processing file '$FILE' ($FILE_COUNT/$TOTAL_FILES)"
+
+        local SKIP_FILE=0
 
         # Only process files that have a versions: key in their frontmatter
         if ! awk '/^---$/{c++;next} c==1 && /^versions:/{found=1} c==2{exit} END{exit !found}' "$FILE"; then
             echo "  Skipping: no 'versions' key in frontmatter."
-            continue
+            SKIP_FILE=1
         fi
 
-        # Read required frontmatter fields
-        local FORGE
-        FORGE=$(get-frontmatter-field "$FILE" "forge")
-        local REPO
-        REPO=$(get-frontmatter-field "$FILE" "repo")
-        local NAME
-        NAME=$(get-frontmatter-field "$FILE" "name")
+        if [[ "$SKIP_FILE" -eq 0 ]]; then
+            # Read required frontmatter fields
+            local FORGE
+            FORGE=$(get-frontmatter-field "$FILE" "forge")
+            local REPO
+            REPO=$(get-frontmatter-field "$FILE" "repo")
+            local NAME
+            NAME=$(get-frontmatter-field "$FILE" "name")
 
-        if [[ -z "$FORGE" || -z "$REPO" || -z "$NAME" ]]; then
-            echo "  Skipping: missing forge/repo/name in frontmatter."
-            continue
-        fi
-
-        # Test each version and collect available ones
-        local AVAILABLE_VERSIONS=()
-        for VERSION in "${VERSIONS[@]}"; do
-            local URL="https://${FORGE}/${REPO}/tree/${VERSION}/${NAME}"
-            local HTTP_STATUS
-            HTTP_STATUS=$(curl -o /dev/null -s -w "%{http_code}" "$URL")
-            if [[ "$HTTP_STATUS" == "200" ]]; then
-                echo "  ✓ $VERSION available ($URL)"
-                AVAILABLE_VERSIONS+=("$VERSION")
-            else
-                echo "  ✗ $VERSION not found (HTTP $HTTP_STATUS)"
+            if [[ -z "$FORGE" || -z "$REPO" || -z "$NAME" ]]; then
+                echo "  Skipping: missing forge/repo/name in frontmatter."
+                SKIP_FILE=1
             fi
-        done
-
-        if [[ ${#AVAILABLE_VERSIONS[@]} -eq 0 ]]; then
-            echo "  No available versions found. Frontmatter unchanged."
-            continue
         fi
 
-        # Reverse so that the latest version appears first in the list
-        local REVERSED=()
-        for (( i=${#AVAILABLE_VERSIONS[@]}-1; i>=0; i-- )); do
-            REVERSED+=("${AVAILABLE_VERSIONS[$i]}")
-        done
+        if [[ "$SKIP_FILE" -eq 0 ]]; then
+            # Test each version and collect available ones
+            local AVAILABLE_VERSIONS=()
+            for VERSION in "${VERSIONS[@]}"; do
+                local URL="https://${FORGE}/${REPO}/tree/${VERSION}/${NAME}"
+                local HTTP_STATUS
+                HTTP_STATUS=$(curl -o /dev/null -s -w "%{http_code}" "$URL")
+                if [[ "$HTTP_STATUS" == "200" ]]; then
+                    echo "  ✓ $VERSION available ($URL)"
+                    AVAILABLE_VERSIONS+=("$VERSION")
+                else
+                    echo "  ✗ $VERSION not found (HTTP $HTTP_STATUS)"
+                fi
+            done
 
-        echo "  Updating versions: ${REVERSED[*]}"
-        set-frontmatter-field "$FILE" "${REVERSED[@]}"
+            if [[ ${#AVAILABLE_VERSIONS[@]} -eq 0 ]]; then
+                echo "  No available versions found. Frontmatter unchanged."
+                SKIP_FILE=1
+            fi
+        fi
+
+        if [[ "$SKIP_FILE" -eq 0 ]]; then
+            # Reverse so that the latest version appears first in the list
+            local REVERSED=()
+            for (( i=${#AVAILABLE_VERSIONS[@]}-1; i>=0; i-- )); do
+                REVERSED+=("${AVAILABLE_VERSIONS[$i]}")
+            done
+
+            echo "  Updating versions: ${REVERSED[*]}"
+            set-frontmatter-field "$FILE" "${REVERSED[@]}"
+        fi
+
+        if [[ -z "$TARGET_FILE" ]]; then
+            echo "$FILE_COUNT" > "$PROGRESS_FILE"
+        fi
     done
+
+    if [[ -z "$TARGET_FILE" && -f "$PROGRESS_FILE" ]]; then
+        rm -f "$PROGRESS_FILE"
+    fi
 }
 
 install() {
     pnpm install
 }
+
 update() {
     pnpm install -D @vuepress/bundler-vite@next
     pnpm install -D @vuepress/client@next
@@ -179,22 +245,28 @@ update() {
     pnpm install -D @vuepress/utils@next
     pnpm install -D vuepress@next
 }
+
 dev-vuepress() {
     (open-url-with-delay "http://localhost:8080/") & pnpm run dev
 }
+
 build-vuepress() {
     pnpm run build
 }
+
 serve-vuepress() {
     cd ./src/.vuepress/dist
     npx serve
 }
+
 download-icons() {
     pnpm run download-icons
 }
+
 lint() {
     pnpm exec prettier . --write
 }
+
 if declare -f "$1" > /dev/null; then
     "$1" "${@:2}"
 else
