@@ -8,6 +8,7 @@ prev: ./project
 repo: OCA/project
 title: Project Timeline
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'
