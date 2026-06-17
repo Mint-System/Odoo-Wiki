@@ -8,6 +8,7 @@ prev: ./maintenance
 repo: OCA/maintenance
 title: Maintenance Request Repair
 versions:
+- '19.0'
 - '18.0'
 - '16.0'
 - '15.0'

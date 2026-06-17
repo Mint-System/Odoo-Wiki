@@ -8,6 +8,7 @@ prev: ./sale
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Order Ref
 versions:
+- '19.0'
 - '16.0'
 ---
 

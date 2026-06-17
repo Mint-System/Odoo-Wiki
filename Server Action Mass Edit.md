@@ -8,6 +8,7 @@ repo: OCA/Server-UX
 tags:
 title: Mass Editing
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'

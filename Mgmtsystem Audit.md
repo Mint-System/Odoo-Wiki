@@ -8,6 +8,7 @@ prev: ./management-system
 repo: OCA/management-system
 title: Management System - Audit
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'

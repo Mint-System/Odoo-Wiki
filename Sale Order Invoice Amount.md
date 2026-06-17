@@ -8,6 +8,8 @@ prev: ./sale
 repo: OCA/sale-workflow
 title: Sale Order Invoice Amount
 versions:
+- '19.0'
+- '18.0'
 - '17.0'
 - '16.0'
 - '15.0'
