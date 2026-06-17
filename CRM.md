@@ -23,6 +23,7 @@ Website: <https://www.odoo.com/de_DE/app/crm>
 | [CRM Link](CRM%20Link.md)                                         | Chancen mit Chancen verlinken.                         |
 | [CRM Partner Link](CRM%20Partner%20Link.md)                       | Verkaufschance mit Kontakt verknüpfen.                 |
 | [CRM Partner Multi Relation](CRM%20Partner%20Multi%20Relation.md) | Partner-Beziehungen auf CRM Opportunitäten hinzufügen. |
+| [Calendar CRM Link](Calendar%20CRM%20Link.md)                     | Events mit Chancen verlinken.                          |
 | [Calendar Partner Link](Calendar%20Partner%20Link.md)             | Events mit Kontakten verknüpfen.                       |
 | [Partner Link](Partner%20Link.md)                                 | Verlinke Kontakte mit anderen Kontakten.               |
 | [Partner Multi Relation](Partner%20Multi%20Relation)              | Beziehungen zwischen Kontakten definieren.             |
