@@ -7,6 +7,7 @@ prev: ./helpdesk
 repo: OCA/helpdesk
 title: Helpdesk Management
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'

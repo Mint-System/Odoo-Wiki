@@ -8,6 +8,7 @@ prev: ./development
 repo: OCA/web
 title: Web Timeline
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'

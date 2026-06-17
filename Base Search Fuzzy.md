@@ -8,6 +8,7 @@ prev: ./database
 repo: OCA/server-tools
 title: Base Search Fuzzy
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'

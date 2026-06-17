@@ -1,18 +1,18 @@
 ---
-title: Sale CRM Ref
-description: Name von Lead als Referenz für Angebot übertragen.
+title: Website Blog RSS Feed
+description: RSS Feed für Blog anbieten.
 kind: howto
 tags:
-prev: ./crm
+  - Mint-System
+prev: ./website
 forge: github.com
-repo: Mint-System/Odoo-Apps-Sale-Workflow
+repo: Mint-System/Odoo-Apps-Website
 versions:
 - '19.0'
-name: sale_crm_ref
-partner: Mint System
+name: website_blog_rss_feed
 ---
 
-# Sale CRM Ref
+# Website Blog RSS Feed
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
@@ -23,4 +23,4 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Erweitert [Sale Order Ref](Sale%20Order%20Ref.md) damit beim Erstellen eines Angebots aus einem Lead die Referenz dem Namen des Leads entspricht.
+Mit dieser Erweiterung wird unter dem Pfad `/blog/feed` anstatt des Atom-  ein RSS-Feed ausgegeben.

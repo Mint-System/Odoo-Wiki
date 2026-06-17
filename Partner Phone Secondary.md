@@ -8,6 +8,9 @@ forge: github.com
 repo: OCA/partner-contact
 versions:
 - '19.0'
+- '18.0'
+- '15.0'
+- '14.0'
 name: partner_phone_secondary
 partner: OCA
 ---

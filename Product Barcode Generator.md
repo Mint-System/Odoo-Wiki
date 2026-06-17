@@ -8,6 +8,7 @@ prev: ./product
 repo: CybroOdoo/CybroAddons
 title: Product Barcode Generator
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'

@@ -7,6 +7,7 @@ repo: Mint-System/Odoo-Apps-Vertical-SaaS
 forge: github.com
 name: license_partner_commission
 versions:
+- '18.0'
 - '16.0'
 partner: Mint System
 ---

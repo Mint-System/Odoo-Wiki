@@ -414,6 +414,7 @@ export default [
         "collapsible": true,
         "children": [
           "hr-attendance-overtime-negative-hours.md",
+          "hr-contract-leaves-domain.md",
           "hr-holidays-ics-attachment.md",
           "hr-holidays-calendar-department.md",
           "hr-holidays-custom-hours.md",
@@ -425,7 +426,8 @@ export default [
           "hr-holidays-type-note.md",
           "hr-holidays-working-time.md",
           "hr-leave-custom-hour-interval.md",
-          "theoretical-vs-attended-time-analysis.md"
+          "theoretical-vs-attended-time-analysis.md",
+          "resource-attendance-time-type.md"
         ]
       },
       {
@@ -507,13 +509,16 @@ export default [
         "collapsible": true,
         "children": [
           "crm-lead-template.md",
+          "crm-link.md",
           "crm-partner-link.md",
           "crm-partner-multi-relation.md",
+          "calendar-crm-link.md",
           "calendar-partner-link.md",
           "partner-link.md",
           "partner-multi-relation",
           "sale-crm-note.md",
-          "sale-crm-ref.md"
+          "sale-crm-ref.md",
+          "sale-partner-link.md"
         ]
       },
       {
@@ -537,6 +542,14 @@ export default [
           "base-db-anonymization.md",
           "base-search-fuzzy.md",
           "dbfilter-from-header.md"
+        ]
+      },
+      {
+        "text": "Data Management",
+        "collapsible": true,
+        "children": [
+          "jupyter-lab.md",
+          "jupyter-notebook-run.md"
         ]
       },
       {
@@ -591,15 +604,11 @@ export default [
         "collapsible": true,
         "children": [
           "auth-impersonate-user.md",
-          "auth-oauth-keycloak",
-          "auth-oidc.md",
           "auth-session-timeout.md",
           "auth-totp-ip-check.md",
           "base-user-role-company.md",
           "base-user-role.md",
           "home-background-image.md",
-          "auth-oauth-multi-token.md",
-          "odoo-microsoft-account.md",
           "show-db-name.md",
           "web-company-color.md",
           "web-enterprise-admin-expiration-panel.md",
@@ -1103,6 +1112,7 @@ export default [
         "text": "Website",
         "collapsible": true,
         "children": [
+          "website-blog-wordpress-url.md",
           "website-date-of-birth.md",
           "website-font-hco-mercury-ssm.md",
           "website-product-description.md",

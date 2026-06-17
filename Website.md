@@ -17,17 +17,18 @@ Website: <https://www.odoo.com/de_DE/app/website>
 
 ## Bereiche
 
-| Bereich                                       | Beschreibung                          |
-| --------------------------------------------- | ------------------------------------- |
-| [Website Aktionen](Website%20Actions.md)      | Automatisierung der Website-Vorgänge. |
-| [Website Berichte](Website%20Berichte.md)     | Verkaufszahlen analysieren.           |
-| [Website Sale](Website%20Sale.md) | Webshop ohne Integrationsaufwand.     |
-| [Website Partner](Website%20Partner.md)       | Partner auf Website publizieren.      |
+| Bereich                                   | Beschreibung                          |
+| ----------------------------------------- | ------------------------------------- |
+| [Website Aktionen](Website%20Actions.md)  | Automatisierung der Website-Vorgänge. |
+| [Website Berichte](Website%20Berichte.md) | Verkaufszahlen analysieren.           |
+| [Website Sale](Website%20Sale.md)         | Webshop ohne Integrationsaufwand.     |
+| [Website Partner](Website%20Partner.md)   | Partner auf Website publizieren.      |
 
 ## Erweiterungen
 
 | Erweiterung                                                                               | Beschreibung                                                           |
 | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [Website Blog RSS Feed](Website%20Blog%20RSS%20Feed.md)                                   | RSS Feed für Blog anbieten.                                            |
 | [Website Blog Wordpress Url](Website%20Blog%20Wordpress%20Url.md)                         | Blog-Post Urls im Stil von Wordpress generieren.                       |
 | [Website Date of Birth](Website%20Date%20of%20Birth.md)                                   | Geburtsdatum auf Anmeldeformular.                                      |
 | [Website Font HCo Mercury SSm](Website%20Font%20HCo%20Mercury%20SSm.md)                   | Benutzerdefinierte Schriftart "HCo Mercury SSm".                       |

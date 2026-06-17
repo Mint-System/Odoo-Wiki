@@ -8,6 +8,7 @@ prev: ./contract
 repo: OCA/contract
 title: Subscription OCA
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'
