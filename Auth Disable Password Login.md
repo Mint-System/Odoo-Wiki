@@ -24,5 +24,5 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 ## Beschreibung
 
 Mit diesem Modul kann das Login mit Passwort für einen User ausgeschaltet werden.
-Auf dem Tab "Sicherheit" in der Bearbeitungsansicht eines Benutzers  wird die Checkbox "Passwort-Login ausschalten / Disable Password Login" eingeblendet . Wird sie aktiviert, wird für den  entsprechenden User der Login mit Passwort abgelehnt ("Access denied").
+Auf dem Tab _Sicherheit_ in der Bearbeitungsansicht eines Benutzers  wird die Checkbox _Passwort-Login ausschalten / Disable Password Login_ eingeblendet . Wird sie aktiviert, wird für den  entsprechenden User der Login mit Passwort abgelehnt ("Access denied").
 Ausserdem wird die Möglichkeit, in den User-Präferenzen das Passwort zu ändern, deaktiviert. 

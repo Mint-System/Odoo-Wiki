@@ -31,6 +31,7 @@ extensions: true
 
 | Erweiterung                                                                               | Beschreibung                                                       |
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [Auth Disable Password Login](Auth%20Disable%20Password%20Login.md)                       | Schaltet das Login mit Passwort für einen User aus.                |
 | [Auth Impersonate User](Auth%20Impersonate%20User.md)                                     | Mit einem anderen Benutzer einloggen.                              |
 | [Auth Session Timeout](Auth%20Session%20Timeout.md)                                       | Session-Timeout festlegen.                                         |
 | [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)                                         | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren. |
