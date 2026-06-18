@@ -25,6 +25,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ### Preis vor Bestätigung des Angebots prüfen
 
-Diese Erweiterung stellt sicher, dass es keine Auftragszeilen gibt, die einen Preis von Null haben. Hat eine Zeile einen Preis von Null und sie versuchen das Angebot zu bestätigen, erscheint eine Fehlermeldung.
+Diese Erweiterung stellt sicher, dass es keine Auftragspositionen gibt, die einen Preis von Null haben. Hat eine Zeile einen Preis von Null und sie versuchen das Angebot zu bestätigen, erscheint eine Fehlermeldung.
 
 ![](attachments/Sale%20Order%20Check%20Price.png)

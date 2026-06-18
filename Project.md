@@ -110,7 +110,7 @@ Die Gantt-Ansicht kann via _Projekt > Alle Aufgaben_ angezeigt werden.
 
 ### Standard-Auftragsposition festlegen
 
-Zeigen Sie ein Projekt via _Projekt > Konfiguration > Projekte_ an und wählen Sie den Tab _Abrechnung_ aus. Wählen Sie im Feld _Standard-Auftragsposition_ die Auftragszeile aus, welche für neue Aufgaben übernommen werden soll.
+Zeigen Sie ein Projekt via _Projekt > Konfiguration > Projekte_ an und wählen Sie den Tab _Abrechnung_ aus. Wählen Sie im Feld _Standard-Auftragsposition_ die Auftragsposition aus, welche für neue Aufgaben übernommen werden soll.
 
 ### Abrechnung für Projekt einrichten
 

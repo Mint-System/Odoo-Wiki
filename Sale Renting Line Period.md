@@ -1,6 +1,6 @@
 ---
 title: Sale Renting Line Period
-description: Start- und Enddatum der Miete auf Auftragszeile festlegen.
+description: Start- und Enddatum der Miete auf Auftragsposition festlegen.
 kind: howto
 tags:
 prev: ./sale-renting

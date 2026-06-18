@@ -1,5 +1,5 @@
 ---
-description: Verlinkt Auftragszeilen mit Schätzungen von Projektphasen.
+description: Verlinkt Auftragspositionen mit Schätzungen von Projektphasen.
 forge: github.com
 kind: howto
 name: sale_project_phase_estimate
@@ -23,4 +23,4 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Mit dieser Erweiterung könnten Sie auf Angeboten Projektphasen schätzen und mit Auftragszeilen verbinden. Geplante Stunden werden summiert und auf die verlinkte Auftragszeile übertragen. Wenn ein Angebot bestätigt und daraus ein Projekt angelegt wird, dann werden die Aufwandsschätzungen mit dem Projekt verlinkt.
+Mit dieser Erweiterung könnten Sie auf Angeboten Projektphasen schätzen und mit Auftragspositionen verbinden. Geplante Stunden werden summiert und auf die verlinkte Auftragsposition übertragen. Wenn ein Angebot bestätigt und daraus ein Projekt angelegt wird, dann werden die Aufwandsschätzungen mit dem Projekt verlinkt.

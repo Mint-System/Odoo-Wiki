@@ -25,6 +25,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ### Verpackung von Verkaufsauftrag auf Lieferung anzeigen
 
-Mit dieser Erweiterung werden Verpackung automatisch auf den Vorgängen in Lieferungen anzeigt. Wenn der Vorgang mit einem Verkaufsauftragszeile verknüpft ist, wird die hinterlegte Verpackung verlinkt.
+Mit dieser Erweiterung werden Verpackung automatisch auf den Vorgängen in Lieferungen anzeigt. Wenn der Vorgang mit eine Auftragsposition verknüpft ist, wird die hinterlegte Verpackung verlinkt.
 
 ![](attachments/Stock%20Move%20Line%20Packaging.png)

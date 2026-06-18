@@ -28,7 +28,7 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ### Positionsnummer wiederhlolen
 
-Navigieren Sie nach _Verkauf > Produkte > Produkte_ und zeigen Sie ein Produkt an. Im Tab _Verkauf_ aktivieren Sie die Option _Wiederhole Positionsnummer in Auftragszeile_. Wenn Sie nun das Produkt in einem Verkaufsauftrag hinzufügen, wird die vorhergehende Positionummer für dieses Produkt wiederholt.
+Navigieren Sie nach _Verkauf > Produkte > Produkte_ und zeigen Sie ein Produkt an. Im Tab _Verkauf_ aktivieren Sie die Option _Wiederhole Positionsnummer in Auftragsposition. Wenn Sie nun das Produkt in einem Verkaufsauftrag hinzufügen, wird die vorhergehende Positionummer für dieses Produkt wiederholt.
 
 ## Verwendung
 

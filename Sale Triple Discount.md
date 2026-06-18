@@ -1,5 +1,5 @@
 ---
-description: Mehrere Rabatte auf der Auftragszeile.
+description: Mehrere Rabatte auf der Auftragsposition.
 forge: github.com
 kind: howto
 name: sale_triple_discount

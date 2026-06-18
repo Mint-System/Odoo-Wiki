@@ -73,13 +73,13 @@ Führen Sie [Filter manuell anlegen](Development%20Views.md#Filter%20manuell%20a
 
 ## Ansichten
 
-### Verkaufsauftragszeilen anzeigen
+### Auftragspositionen anzeigen
 
-Damit Sie eine Übersicht der Verkaufsauftragszeilen erhalten, folgen Sie dem HowTo [Menüposten erstellen](Development.md#Menüposten%20erstellen) und verwenden diese Werte:
+Damit Sie eine Übersicht der Auftragspositionen erhalten, folgen Sie dem HowTo [Menüposten erstellen](Development.md#Menüposten%20erstellen) und verwenden diese Werte:
 
-Menü: `Verkaufsauftragszeilen`\
+Menü: `Auftragspositionen`\
 Obermenü: `Verkauf/Aufträge`\
-Aktion: `ir.actions.act_window` `Verkaufsauftragszeilen`\
+Aktion: `ir.actions.act_window` `Auftragspositionen`\
 Sequenz: `50`
 
 ### Wiederkehrende Buchungszeilen anzeigen

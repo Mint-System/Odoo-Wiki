@@ -34,7 +34,7 @@ Damit die Erweiterung für Unternehmen aktiv ist, navigieren Sie nach _Einstellu
 
 ### Übertragung Verkaufsbeschreibung für Benutzer aktivieren
 
-Für Benutzer navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Benutzer wählen > Tab Zugriffsrechte_ und aktivieren Sie hier die Option _Nur die Verkaufsbeschreibung des Produktes in Auftragszeilen verwenden_.
+Für Benutzer navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Benutzer wählen > Tab Zugriffsrechte_ und aktivieren Sie hier die Option _Nur die Verkaufsbeschreibung des Produktes in Auftragspositionen verwenden_.
 
 ## Verwendung
 

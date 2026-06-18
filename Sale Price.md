@@ -17,7 +17,7 @@ partner: Mint System
 
 ### Rabatte aktivieren
 
-Navigieren Sie nach _Verkauf > Konfiguration > Preiskalkulation_ und aktivieren Sie die Option _Rabatte_. Sie können nun Rabatte auf Auftragszeilen erfassen.
+Navigieren Sie nach _Verkauf > Konfiguration > Preiskalkulation_ und aktivieren Sie die Option _Rabatte_. Sie können nun Rabatte auf Auftragspositionen erfassen.
 
 ### Preislisten aktivieren
 

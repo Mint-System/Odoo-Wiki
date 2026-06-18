@@ -27,4 +27,4 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ### Rabatt auf Preisregel mit Festpreise festlegen
 
-Navigieren Sie nach _Verkauf > Produkte > Preisliste_ und zeigen Sie eine Preisliste an. Öffnen Sie eine Preisregel mit der Option _Ermittle Preis_ auf _Festpreis_. Im Feld _Rabatt_ können Sie zusätzlich einen Wert festlegen, der beispielsweise auf eine Auftragszeile im Verkaufsangebot übertragen werden kann.
+Navigieren Sie nach _Verkauf > Produkte > Preisliste_ und zeigen Sie eine Preisliste an. Öffnen Sie eine Preisregel mit der Option _Ermittle Preis_ auf _Festpreis_. Im Feld _Rabatt_ können Sie zusätzlich einen Wert festlegen, der beispielsweise auf eine Auftragsposition im Verkaufsangebot übertragen werden kann.

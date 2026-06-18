@@ -1,5 +1,5 @@
 ---
-description: Auftragszeilen mit Rabatt aus Preisliste mit Festpreis.
+description: Auftragspositionen mit Rabatt aus Preisliste mit Festpreis.
 forge: github.com
 kind: howto
 name: sale_order_line_pricelist_fixed_discount
@@ -36,7 +36,7 @@ Damit diese Erweiterung korrekt funktioniert müssen Sie [Erweiterte Preisregeln
 
 Diese Erweiterung filter die verfügbaren Rabatte anhander der folgenden Merkmale aus der Preisliste:
 
-- **Produkt**: Das Produkt der Auftragszeile ist in der Auswahlmöglichkeit der Preisregel enthalten.
+- **Produkt**: Das Produkt der Auftragsposition ist in der Auswahlmöglichkeit der Preisregel enthalten.
 - **Datum**: Preisregeln mit aktiver Periode (Start- und Enddatum) übersteuern Preisregeln ohne Periode
 - **Mindestmenge**: Preisregeln mit passender Mindestmenge übersteuern Preisregeln ohne Mindestmenge
 - **Sortierung**: Preisregeln werden gemäss Sortierung auf der Preisliste geladen, ausser bei mehreren Mindestmengen wird nach der grössten Mindestmenge sortiert

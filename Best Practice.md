@@ -121,7 +121,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 ### Verkauf
 
 - [Kit Bereitstellung](Best%20Practice%20Kit%20Provision.md)
-- [Auswertung Auftragszeilen](Best%20Practice%20Analyse%20Sale%20Order%20Lines.md)
+- [Auswertung Auftragspositionen](Best%20Practice%20Analyse%20Sale%20Order%20Lines.md)
 - [Abonnements](Best%20Practice%20Subscriptions.md)
 - [Dienstleistungen mit Nachtzuschlag](Best%20Practice%20Services%20with%20Night%20Surcharge.md)
 - [Verrechnung Spesen](Best%20Practice%20Charge%20Expenses.md)

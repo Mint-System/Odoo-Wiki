@@ -32,6 +32,6 @@ Die Lagerroute kann bereits auf dem Verkaufsangebot festgelegt werden. Damit die
 
 ## Verwendung
 
-### Lagerroute auf Auftragszeile auswählen
+### Lagerroute auf Auftragsposition auswählen
 
-Wenn Sie Produkte haben, die eine Lieferung, PTO oder MTO generieren, können Sie auf der Auftragszeile die entsprechende Route bestimmen. Öffnen Sie ein Angebot unter _Verkauf_ und blenden Sie das Feld _Route_ in der Tabelle der Auftragszeilen ein. Wählen Sie die entsprechende Route aus.
+Wenn Sie Produkte haben, die eine Lieferung, PTO oder MTO generieren, können Sie auf der Auftragsposition die entsprechende Route bestimmen. Öffnen Sie ein Angebot unter _Verkauf_ und blenden Sie das Feld _Route_ in der Tabelle der Auftragspositionen ein. Wählen Sie die entsprechende Route aus.

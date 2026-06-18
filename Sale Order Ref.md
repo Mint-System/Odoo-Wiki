@@ -24,4 +24,4 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Dieses Moodul fügt ein Feld _Referenz_ auf dem Verkaufsauftrag hinzu und passt den Anzeigename des Auftrags und der Auftragszeile an.
+Dieses Moodul fügt ein Feld _Referenz_ auf dem Verkaufsauftrag hinzu und passt den Anzeigename des Auftrags und der Auftragsposition an.

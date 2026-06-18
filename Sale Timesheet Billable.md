@@ -1,6 +1,6 @@
 ---
 title: Sale Timesheet Billable
-description: Auswahl-Filter für Auftragszeilen mit verrechenbaren Produkten auf Zeiterfassungseinträgen.
+description: Auswahl-Filter für Auftragspositionen mit verrechenbaren Produkten auf Zeiterfassungseinträgen.
 kind: howto
 partner: Mint System
 prev: ./sale-timesheet
@@ -22,4 +22,4 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Mit dieser Erweiterung wird die Auswahl der Auftragszeilen auf Zeiterfassungeinträge abhängig von der Aufgabe eingeschränkt. Ist eine Aufgabe als abrechenbar markiert, können nur Auftragspositionen mit einem Preis ausgewählt werden. Umgekehrt muss der Preis Null sein.
+Mit dieser Erweiterung wird die Auswahl der Auftragspositionen auf Zeiterfassungeinträge abhängig von der Aufgabe eingeschränkt. Ist eine Aufgabe als abrechenbar markiert, können nur Auftragspositionen mit einem Preis ausgewählt werden. Umgekehrt muss der Preis Null sein.

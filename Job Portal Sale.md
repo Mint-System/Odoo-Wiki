@@ -42,11 +42,11 @@ Im Tab _Sicherheit_ fügen Sie die Gruppe _Stellenportal / Administrator_ hinzu.
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-### Beschreibung Auftragszeile generieren
+### Beschreibung Auftragsposition generieren
 
 Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Beschreibung Auftragszeile generieren`\
+Name der Aktion: `Beschreibung Auftragsposition generieren`\
 Modell: `sale.order`\
 Typ: `Code ausführen`
 

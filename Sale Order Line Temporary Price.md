@@ -25,4 +25,4 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ### Benutzerdefinierter Preis festlegen
 
-Wählen Sie unter _Verkauf_ ein Angebot aus. In der Tabelle der Auftragszeilen zeigen Sie das Feld _Benutzerdefinierter Preis_ an. Geben Sie einen neuen Preis.
+Wählen Sie unter _Verkauf_ ein Angebot aus. In der Tabelle der Auftragspositionen zeigen Sie das Feld _Benutzerdefinierter Preis_ an. Geben Sie einen neuen Preis.

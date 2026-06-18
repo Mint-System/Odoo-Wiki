@@ -1,5 +1,5 @@
 ---
-description: Verknüpfte Aufgabe der Auftragszeile als Standardwert verwenden
+description: Verknüpfte Aufgabe der Auftragsposition als Standardwert verwenden
 forge: github.com
 kind: howto
 name: industry_fsm_sale_default_task
@@ -23,14 +23,14 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Verwendung
 
-### Verknüpfte Aufgabe der Auftragszeile als Standardwert verwenden
+### Verknüpfte Aufgabe der Auftragsposition als Standardwert verwenden
 
-Mit dieser Erweiterung wird beim Erstellen, Bestätigen und Aktualisieren von Auftragszeilen in Verkaufsaufsträgen geprüft, ob es Auftragszeilen ohne Aufgaben gibt. Die Aufgabe der ersten Auftragszeile mit einer Aufgabe, wird als Standardwert für die Auftragszeilen ohne Aufgaben übernommen.
+Mit dieser Erweiterung wird beim Erstellen, Bestätigen und Aktualisieren von Auftragspositionen in Verkaufsaufsträgen geprüft, ob es Auftragspositionen ohne Aufgaben gibt. Die Aufgabe der ersten Auftragsposition mit einer Aufgabe, wird als Standardwert für die Auftragspositionen ohne Aufgaben übernommen.
 
 ::: tip
-Wenn eine Auftragszeile mit einer Aussendienst-Aufgabe verknüpft ist, erscheint das Produkt in der Warenkorb-Funktion der Aussendienst-Aufgabe.
+Wenn eine Auftragsposition mit einer Aussendienst-Aufgabe verknüpft ist, erscheint das Produkt in der Warenkorb-Funktion der Aussendienst-Aufgabe.
 :::
 
 ::: warning
-Es werden nur Auftragszeilen mit lagerfähigen Produkten oder Verbrauchsartikel verknüpft.
+Es werden nur Auftragspositionen mit lagerfähigen Produkten oder Verbrauchsartikel verknüpft.
 :::

@@ -29,7 +29,7 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ### Positionsnummer aus Verkaufs- oder Einkaufsauftrag verlinken.
 
-Navigieren Sie nach _Einstellungen > Abrechnung > Kundenrechnung_ und aktivieren Sie die Option _Position Numbers from Orders_. Alle Rechnungszeilen, die mit einem Verkaufs- oder Einkaufsauftrag verlinkt sind, verlinken die Positionsnummer von der entsprechenden Auftragszeile.
+Navigieren Sie nach _Einstellungen > Abrechnung > Kundenrechnung_ und aktivieren Sie die Option _Position Numbers from Orders_. Alle Rechnungszeilen, die mit einem Verkaufs- oder Einkaufsauftrag verlinkt sind, verlinken die Positionsnummer von der entsprechenden Auftragsposition.
 
 ::: tip
 Wenn Sie zusätzliche Zeilen ohne Verlinkung der Rechnungen hinzufügen, versucht Odoo die Aufzählung der Positionsnummern fortzusetzen.

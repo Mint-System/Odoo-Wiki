@@ -1,5 +1,5 @@
 ---
-description: Auftragszeile in Formularansicht öffnen.
+description: Auftragsposition in Formularansicht öffnen.
 forge: github.com
 kind: howto
 name: sale_order_line_form_action
@@ -27,10 +27,10 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Mit dieser Erweiterung können Sie Auftragszeilen auf einem Auftrag in der Formularansicht öffnen und bearbeiten.
+Mit dieser Erweiterung können Sie Auftragspositionen auf einem Auftrag in der Formularansicht öffnen und bearbeiten.
 
 ## Verwendung
 
-### Auftragszeile in Formularansicht öffnen
+### Auftragsposition in Formularansicht öffnen
 
-Öffnen Sie einen Auftrag unter *Verkauf > Aufträge*. Klicken Sie am Ende einer Auftragsaufzeile auf den Menü-Knopf. Die Auftragszeile öffnet sich als Dialog und kann bearbeitet werden.
+Öffnen Sie einen Auftrag unter *Verkauf > Aufträge*. Klicken Sie am Ende einer Auftragsposition auf den Menü-Knopf. Die Auftragsposition öffnet sich als Dialog und kann bearbeitet werden.

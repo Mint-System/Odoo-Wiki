@@ -41,7 +41,7 @@ Damit Mitarbeitende die Spesen auf einem Projekt erfassen können, müssen die S
 
 Dazu ein Beispiel eines Dienstleistungsprojekt:
 
-![](attachments/Best%20Practice%20Spesen%20verrechnen%20Auftragszeilen.png)
+![](attachments/Best%20Practice%20Spesen%20verrechnen%20Auftragspositionen.png)
 
 Die einzelnen Spesenprodukte müssen als _Dienstleistung_ konfiguriert sein.
 

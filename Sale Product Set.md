@@ -40,4 +40,4 @@ Im Angebot wählen Sie die Aktion _Produkset Hinzufügen_. Im Dialog wählen Sie
 
 ![](attachments/Sale%20Product%20Set%20Dialog.png)
 
-Mit der Aktion _Produkset Hinzufügen_ werden auf dem Verkaufsautrag die einzelnen Auftragszeilen angelegt.
+Mit der Aktion _Produkset Hinzufügen_ werden auf dem Verkaufsautrag die einzelnen Auftragspositionen angelegt.

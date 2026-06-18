@@ -1,5 +1,5 @@
 ---
-description: Abrechenbarkeit basierend auf Preis der Auftragszeile festlegen.
+description: Abrechenbarkeit basierend auf Preis der Auftragsposition festlegen.
 forge: github.com
 kind: howto
 name: sale_timesheet_billable_price

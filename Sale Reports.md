@@ -27,9 +27,9 @@ Wählen Sie ganz einfach die entsprechenden Felder:
 
 ![](attachments/Verkauf%20Berichte%20Verkaufszeilen.png)
 
-### Auftragszeilen mit dynamischen Filter auswerten
+### Auftragspositionen mit dynamischen Filter auswerten
 
-Wenn Sie [Auftragszeilen anzeigen](Sale.md#Auftragszeilen%20anzeigen) können Sie in der Pivot-Ansicht einen [Filter mit dynamischen Datum erstellen](Development%20Views.md#Filter%20mit%20dynamischen%20Datum%20erstellen). Verwenden Sie diese Paramter zur Konfiguration des Filters für die Auftragszeilen:
+Wenn Sie [Auftragspositionen anzeigen](Sale.md#Auftragspositionen%20anzeigen) können Sie in der Pivot-Ansicht einen [Filter mit dynamischen Datum erstellen](Development%20Views.md#Filter%20mit%20dynamischen%20Datum%20erstellen). Verwenden Sie diese Parameter zur Konfiguration des Filters für die Auftragspositionen:
 
 - **Domain**:
 

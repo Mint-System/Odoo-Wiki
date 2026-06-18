@@ -1,5 +1,5 @@
 ---
-description: Anzeige Auftragszeilen in Verkauf Menü-Struktur.
+description: Anzeige Auftragspositionen in Verkauf Menü-Struktur.
 forge: github.com
 kind: howto
 name: sale_order_line_menu

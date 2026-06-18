@@ -28,4 +28,4 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ### Verlinkte Kundenauftragszeile anzeigen
 
-Navigieren Sie nach _Spesenabrechnung > Spesenabrechnungen > Alle Abrechnungen_ und zeigen Sie einen Bericht an. Wählen Sie den Smart-Link _Kundenauftragszeilen_ an. Nun werden die verlinkten Auftragszeilen angezeigt.
+Navigieren Sie nach _Spesenabrechnung > Spesenabrechnungen > Alle Abrechnungen_ und zeigen Sie einen Bericht an. Wählen Sie den Smart-Link _Kundenauftragszeilen_ an. Nun werden die verlinkten Auftragspositionen angezeigt.

@@ -43,12 +43,12 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order Invoice Amount](Sale%20Order%20Invoice%20Amount.md)                                   | Verrechnete und nicht verrechnete Beträge von Verkaufsaufträgen anzeigen.     |
 | [Sale Order Line Description Name](Sale%20Order%20Line%20Description%20Name.md)                   | Produktname in Beschreibung ohne interne Referenz.                            |
 | [Sale Order Line Description](Sale%20Order%20Line%20Description.md)                               | Nur Verkausbeschreibung im Feld Beschreibung übertragen.                      |
-| [Sale Order Line Form Action](Sale%20Order%20Line%20Form%20Action.md)                             | Auftragszeile in Formularansicht öffnen.                                      |
+| [Sale Order Line Form Action](Sale%20Order%20Line%20Form%20Action.md)                             | Auftragsposition in Formularansicht öffnen.                                      |
 | [Sale Order Line Name Get](Sale%20Order%20Line%20Name%20Get.md)                                   | Produktname als Anzeigename für Verkaufspositionen.                           |
 | [Sale Order Line Not Billable](Sale%20Order%20Line%20Not%20Billable.md)                           | Produkt als nicht verrechbar festlegen und bei Abrechnunung filtern.          |
 | [Sale Order Line Pos](Sale%20Order%20Line%20Pos.md)                                               | Verkaufsaufträge mit Positionsnummern.                                        |
 | [Sale Order Line Position](Sale%20Order%20Line%20Position.md)                                     | Verkaufsaufträge mit Positionsnummern.                                        |
-| [Sale Order Line Pricelist Fixed Discount](Sale%20Order%20Line%20Pricelist%20Fixed%20Discount.md) | Auftragszeilen mit Rabaut aus Preisliste mit Fixpreis.                        |
+| [Sale Order Line Pricelist Fixed Discount](Sale%20Order%20Line%20Pricelist%20Fixed%20Discount.md) | Auftragspositionen mit Rabaut aus Preisliste mit Fixpreis.                        |
 | [Sale Order Line Purchase Margin](Sale%20Order%20Line%20Purchase%20Margin.md)                     | Kalkulation der Marge basierend auf verlinkter Bestellung.                    |
 | [Sale Order Line Temporary Price](Sale%20Order%20Line%20Temporary%20Price.md)                     | Benutzerdeinierter Preis für erste Abrechnung festlegen.                      |
 | [Sale Order MRP Production Cancel](Sale%20Order%20MRP%20Production%20Cancel.md)                   | Verlinkter Fertigungsauftrag bei Abbruch Verkaufsauftrag ebenfalls abbrechen. |
@@ -68,7 +68,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Product Set](Sale%20Product%20Set.md)                                                       | Produktsets definieren und einfach hinzufügen.                                |
 | [Sale Restricted Qty](Sale%20Restricted%20Qty.md)                                                 | Mindest- und Maximalbestellmenge für Produkte festlegen.                      |
 | [Sale Start End Dates](Sale%20Start%20End%20Dates.md)                                             | Fügt dem Verkaufsauftrag ein Start- und Enddatum hinzu.                       |
-| [Sale Triple Discount](Sale%20Triple%20Discount.md)                                               | Mehrere Rabatte auf der Auftragszeile.                                        |
+| [Sale Triple Discount](Sale%20Triple%20Discount.md)                                               | Mehrere Rabatte auf der Auftragsposition.                                        |
 
 ## Produkte
 
@@ -149,13 +149,13 @@ Klicken Sie im Verkaufsauftrag auf _Abbrechen_ um den Auftrag in den Status _Abg
 
 Ist der Verkaufsauftrag im Status _Abgebrochen_ können Sie ihn mit _Setze auf Angebot_ in den Status _Angebot_ zurücksetzen. Anschliessend können Sie das [Angebot bestätigen](#Angebot%20bestätigen) und haben wieder einen gültigen Verkaufsauftrag.
 
-## Auftragszeilen
+## Auftragspositionen
 
 ### Rabatte hinzufügen
 
-Soll ein Produkt mit einem Rabatt verkauft werden, so kann dieser je Auftragszeile manuell eingefügt werden.
+Soll ein Produkt mit einem Rabatt verkauft werden, so kann dieser je Auftragsposition manuell eingefügt werden.
 
-![](attachments/Verkauf%20Auftragszeilen%20mit%20Rabatt.png)
+![](attachments/Verkauf%20Auftragspositionen%20mit%20Rabatt.png)
 
 Entsprechend wird der Rabatt auf der Rechnung ausgewiesen.
 
@@ -167,29 +167,29 @@ Für jedes Produkt in einer Preisliste kann eine Mindestbestellmenge definiert w
 
 ### Margen anzeigen
 
-Mit der aktivierten Option _Einstellungen > Verkauf > Margen_ sehen Sie für jede Auftragszeile die Marge.
+Mit der aktivierten Option _Einstellungen > Verkauf > Margen_ sehen Sie für jede Auftragsposition die Marge.
 
-![](attachments/Verkauf%20Margen%20in%20Auftragszeilen.png)
+![](attachments/Verkauf%20Margen%20in%20Auftragspositionen.png)
 
 Die Berechnung der Margen ist `Zwischensumme - Kosten * Menge`. Diese Inputs können einem Angebot geändert werden.
 
 ## Ansichten
 
-### Auftragszeilen anzeigen
+### Auftragspositionen anzeigen
 
-Damit Sie eine Übersicht der Auftragszeilen erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+Damit Sie eine Übersicht der Auftragspositionen erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
 
-Name der Aktion: `Auftragszeilen`\
+Name der Aktion: `Auftragspositionen`\
 Objekt: `sale.order.line`\
-Ansichtsmodus: `tree,form,pivot`\
-Menü: `Auftragszeilen`\
+Ansichtsmodus: `list,form,pivot`\
+Menü: `Auftragspositionen`\
 Obermenü: `Verkauf/Aufträge`\
-Aktion: `ir.actions.act_window` `Auftragszeilen`\
+Aktion: `ir.actions.act_window` `Auftragspositionen`\
 Nummernfolge: `50`
 
 Das Ergebnis sollte so aussehen:
 
-![](attachments/Verkauf%20Auftragszeilen.png)
+![](attachments/Verkauf%20Auftragspositionen.png)
 
 ## Kontakte
 
