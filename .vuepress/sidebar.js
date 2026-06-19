@@ -603,6 +603,7 @@ export default [
         "text": "Settings",
         "collapsible": true,
         "children": [
+          "auth-disable-password-login.md",
           "auth-impersonate-user.md",
           "auth-session-timeout.md",
           "auth-totp-ip-check.md",
@@ -1112,6 +1113,7 @@ export default [
         "text": "Website",
         "collapsible": true,
         "children": [
+          "website-blog-rss-feed.md",
           "website-blog-wordpress-url.md",
           "website-date-of-birth.md",
           "website-font-hco-mercury-ssm.md",
