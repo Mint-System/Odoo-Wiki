@@ -46,6 +46,7 @@ extensions: true
 | [Partner Duplicate Acc Number](Partner%20Duplicate%20Acc%20Number)                                | Kontonummer für mehrere Bankkonten verwenden                        |
 | [Partner Email History](Partner%20Email%20History.md)                                             | Alle versendeten und empfangen Nachrichten eines Kontakts anzeigen. |
 | [Partner Firstname](Partner%20Firstname.md)                                                       | Unterscheidet Vor- und Nachnamen.                                   |
+| [Partner Format Display Name](Partner%20Format%20Display%20Name.md)                               | Stellt Partnername als Partner (Firma) dar.                         |                                                                                                |                                                                     |
 | [Partner Hide Address](Partner%20Hide%20Address.md)                                               | Adressen auf Berichten ausblenden.                                  |
 | [Partner Manual Rank](Partner%20Manual%20Rank.md)                                                 | Kontakt als Lieferant oder Kunde manuell festlegen.                 |
 | [Partner Mobile](Partner%20Mobile.md)                                                             | Fügt Feld für Mobilnummer hinzu.                                    |
