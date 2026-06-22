@@ -64,14 +64,30 @@ Wenn Sie verhindern möchten, dass die Zahlungsreferenz auf Aufträgen erstellt 
 
 Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Automatische Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-**Name**: `Website Zahlungsreferenz entfernen`\
-**Modell**: `sale.order`\
-**Auslöser**: `Bei Erstellung und Aktualisierung`\
-**Trigger-Felder**: `reference`
-**Folgeaktion**: `Den Datensatz aktualisieren`
+- **Name**: `Website Zahlungsreferenz entfernen`
+- **Modell**: `sale.order`
+- **Auslöser**: `Bei Erstellung und Aktualisierung`
+- **Trigger-Felder**: `reference`
+- **Folgeaktion**: `Den Datensatz aktualisieren`
 
 Zu schreibende Daten:
 
 - **Feld**: `reference`
 - **Bewertungstyp**: Python Ausdruck
 - **Wert**: `''`
+
+### Website Bestellungen bestätigen
+
+Aufträge mit Zahlungsanbieter Banküberweisung automatisch bestätigen.
+
+Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Automatische Aktionen_ und erstellen Sie einen neuen Eintrag:
+
+- **Name**: `Website Bestellungen bestätigen`
+- **Modell**: `sale.order`
+- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Domain vor Aktualisierung**: `[("website_id", "!=", False)]`
+- **Anzuwenden auf**: `[("state", "=", "sent")]`
+- **Bei der Aktualisierung**: `state`
+- **Folgeaktionen**: Datensatz aktualisieren
+	- **Aktion**: Berechnen
+	- **Code**: `record.action_confirm()`
