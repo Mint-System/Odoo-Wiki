@@ -191,6 +191,12 @@ Termine Team- und Anwendungs-übergreifend organisieren.
 
 In wenigen Minuten einrichten, innerhalb von Sekunden verkaufen.
 
+### [KI](AI.md)
+
+[![icons_odoo_ai](attachments/icons_odoo_ai.png)](AI.md)
+
+AI-Integration von Odoo.
+
 ### [Kontakte](Contacts.md)
 
 [![icons_odoo_contacts](attachments/icons_odoo_contacts.png)](Contacts.md)
