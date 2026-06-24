@@ -9,7 +9,7 @@ extensions: true
 
 # KI
 
-![icons_odoo_ai](attachments/icons_odoo_ai.png)]
+![icons_odoo_ai](attachments/icons_odoo_ai.png)
 
 {{ $frontmatter.description }}
 
