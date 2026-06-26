@@ -207,6 +207,14 @@ Wenn Subaddressing "+" aktiviert ist, wird eine E-Mail mit einem "+" nach dem Al
 Der Wildcard-E-Mail-Alias _catchall_ wird nicht von allen Mail-Provider unterstützt.
 :::
 
+### Odoo Bot Mail-Adresse ändern
+
+Der Odoo Bot verschickt unter der E-Mail-Adresse `odoobot@example.com` Informations-Mails zum System.
+
+![](attachments/Einstellungen%20OdooBot%20Mail.png)
+
+Wenn wie die Absender-Adresse ändern möchten, öffnen Sie _Kontakt_ und wählen _Filter > Archiviert_. Nun erscheint der Kontakt-Eintrag _OdooBot_ und Sie können dort die Mail-Adresse ändern.
+
 ## Erweitert
 
 ### Aktion für eingehende nicht zuordbare E-Mails konfigurieren
