@@ -26,3 +26,5 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 Mit dieser Erweiterung wird in der Listenansicht der Kontakte ein Partner, der einem Unternehmen angehört, in der form *Partner (Unternehmen)* angezeigt.
 ![](attachments/Partner%20Format%20Display%20Name.png)
 
+Um bestehende Kontakte zu aktualisieren, muss die Server-Aktion 'Recompute Partner Complete Name' ausgeführt werden.
+
