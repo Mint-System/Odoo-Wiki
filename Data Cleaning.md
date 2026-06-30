@@ -20,29 +20,28 @@ partner: Odoo S.A.
 
 ## Verwendung
 
-### Duplikate in Kontakte bereinigen
+### Deduplizierungs-Regel einrichten 
 
-Öffnen Sie _Data Cleaning > Konfiguration > Regeln > Deduplizierung_ und zeigen Sie den Eintrag _Contact_. Hier können Sie einstellen unter welchen Bedingungen Kontakt-Einträge als Duplikate erkannt werden sollen.
+Öffnen Sie _Datenbereinigung > Konfiguration > Regeln > Deduplizierung_ und zeigen Sie den Eintrag _Kontakt_. Hier können Sie einstellen unter welchen Bedingungen Kontakt-Einträge als Duplikate erkannt werden sollen.
 
-![](attachments/Data%20Cleaning%20Eintrag.png)
+- **Domain**: Bestinmmen Sie welche Einträge berücksichtigt werden sollen.
+- **Deduplizierungsregeln**: Legen Sie fest anhand welcher Attribute Duplikate festgestellt werden.
+- **Vorgeschlagener Schwellenwert**: Für Duplikate berechnet Odoo eine Ähnlichkeit. Legen Sie den unteren Schwellenwert zur Ausgabe fest.
 
-Suchen Sie nach Duplikaten mit _Deduplizieren_.
+![](attachments/Data%20Cleaning%20Contact.png)
 
-![](attachments/Data%20Cleaning%20Duplikat.png)
+### Duplikate suchen und zusammenführen
 
-Mit der Aktion _Zusammenführen_ können Sie erkannten Duplikate bereinigt werden.
+Öffnen Sie _Datenbereinigung > Konfiguration > Regeln > Deduplizierung_ und zeigen Sie den Eintrag _Kontakt_. Klicken Sie auf _Deduplizierung_. Odoo wendet die Regel an
 
-::: warning
-Der Bereinigungsvorgang berücksichtigt die Verknüpfung der Daten. In der Spalte _Verwendet bei_ werden die verlinkten Objekte angezeigt.
-:::
+![](attachments/Data%20Cleaning%20Duplicates.png)
 
-### Odoo Bot Mail-Adresse ändern
+Bestimmen Sie mit _Ist Master_ den Ziel-Datensatz. Mit der Aktion _Zusammenführen_ werden die Duplikate nach folgenden Regeln zusammengelegt: 
 
-Der Odoo Bot verschickt unter der E-Mail-Adresse `odoobot@example.com` Informations-Mails zum System.
-
-![](attachments/Einstellungen%20OdooBot%20Mail.png)
-
-Wenn wie die Absender-Adresse ändern möchten, öffnen Sie _Kontakt_ und wählen _Filter > Archiviert_. Nun erscheint der Kontakt-Eintrag _OdooBot_ und Sie können dort die Mail-Adresse ändern.
+- Verlinkte Dokumente werden an das Ziel-Dokument gehängt
+- Felder, die im Ziel-Dokument leer sind und im anderen Dokument ausgefüllt, werden in das Ziel-Dokument übertragen
+- Der Zusammenführen-Vorgang wird im Chatter des Ziel-Dokument festgehalten
+- Die Daten der zusammengeführten Dokumente werden im Chatter protokolliert 
 
 ## Benachrichtigung
 

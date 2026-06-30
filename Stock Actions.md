@@ -19,7 +19,7 @@ partner: Mint System
 
 ### Transfer abbrechen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Transfer abbrechen`\
 Modell: `stock.picking`\
@@ -42,7 +42,7 @@ Der Lagerbestand wird durch den Abbruch des Transfers nicht bereinigt.
 
 ### Transfer zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Transfer zurücksetzen`\
 Modell: `stock.picking`\
@@ -61,7 +61,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 ### Lagerbuchung abbrechen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lagerbuchung abbrechen`\
 Modell: `stock.move`\
@@ -80,7 +80,7 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl _Aktion_ das Menu _
 
 ### Lagerbuchung zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lagerbuchung zurücksetzen`\
 Modell: `stock.move`\
@@ -101,7 +101,7 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl _Aktion_ das Menu _
 
 ### Lagerbuchung als verfügbar markieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lagerbuchung als verfügbar markieren`\
 Modell: `stock.move`\
@@ -122,7 +122,7 @@ Auf der Lagerbuchung erscheint nun in der Auswahl _Aktion_ das Menu _Als verfüg
 
 ### Lagerbuchung erledigen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lagerbuchung erledigen`\
 Modell: `stock.move`\
@@ -142,7 +142,7 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl _Aktion_ das Menu _
 
 ### Produktbewegung abbrechen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Produktbewegung abbrechen`\
 Modell: `stock.move.line`\
@@ -159,7 +159,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 ### Reservationsdatum aktualisieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reservationsdatum aktualisieren`\
 Modell: `stock.move`\
@@ -182,7 +182,7 @@ Zeigen Sie die Liste der Lagebuchungen an, markieren Sie die Einträge und wähl
 
 Mit dieser Aktion können Sie alle Reservierungen für ausgewählte Produkte aufheben und das Reservationsdatum der verknüpften Lagerbuchungen aktualisieren.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reservierungen zurücksetzen`\
 Modell: `product.template`\
@@ -228,7 +228,7 @@ In der Ansicht der Produkte haben Sie nun die Auswahl _Aktionen > Reservierungen
 
 ### Reservierungen zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reservierungen zurücksetzen`\
 Modell: `ir.actions.server`\
@@ -249,7 +249,7 @@ Speichern Sie die Aktion und führen Sie diese mit _Starten_ aus.
 
 ### Bestand zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Bestand zurücksetzen`\
 Modell: `stock.quant`\
@@ -270,7 +270,7 @@ In der Liste der Bestände erscheint nun in der Auswahl _Aktion_ das Menu _Besta
 
 ### Reservierter Bestand zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reservierter Bestand zurücksetzen`
 Modell: `stock.quant`\
@@ -291,7 +291,7 @@ In der Liste der Bestände erscheint nun in der Auswahl _Aktion_ das Menu _Reser
 
 ### Ablaufende Los-Nummern aktualisieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Ablaufende Los-Nummern aktualisieren`
 Modell: `stock.picking`\
@@ -331,7 +331,7 @@ In der Liste der Bestände erscheint nun in der Auswahl _Aktion_ das Menu _Reser
 
 Dieser Aktion erstellt eine Prüfbericht zu den Material-Reservationen.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Nicht reserverierte Mengen anzeigen`
 Modell: `ir.actions.server`\
@@ -422,7 +422,7 @@ There is no exiting quants despite its `reserved_quantity`
 
 Diese Aktion korrigiert die falsch reservierten Mengen.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Nicht reservierte Mengen korrigieren`
 Modell: `ir.actions.server`\

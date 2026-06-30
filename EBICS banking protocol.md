@@ -112,7 +112,7 @@ Im Tab _Bank Statements_ sehen Sie den importierten Bankauszug. Klicken Sie auf 
 
 ### Zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Zurücksetzen`\
 Modell: `ebics.file`\

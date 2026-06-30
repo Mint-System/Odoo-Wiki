@@ -17,8 +17,8 @@ extensions: true
 
 | Bereich                                                    | Beschreibung                                   |
 | ---------------------------------------------------------- | ---------------------------------------------- |
-| [Kontakte Aktionen](Partner%20Actions.md)                  | Arbeitsflüsse mit Kontakte automatisieren.     |
-| [Kontakte Datenmanagement](Partner%20Data%20Management.md) | Daten zu Kontakte exportieren und importieren. |
+| [Kontakte Aktionen](Contacts%20Actions.md)                  | Arbeitsflüsse mit Kontakte automatisieren.     |
+| [Kontakte Datenmanagement](Contacts%20Data%20Management.md) | Daten zu Kontakte exportieren und importieren. |
 
 ## Erweiterungen
 

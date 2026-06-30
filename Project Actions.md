@@ -17,7 +17,7 @@ partner: Mint System
 
 ### Projekt-Mail-Alias aktualisieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Projekt-Mail-Adressen aktualisieren`\
 Modell: `project.project`\

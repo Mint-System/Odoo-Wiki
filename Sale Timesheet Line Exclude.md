@@ -36,7 +36,7 @@ Zeigen Sie die Gruppen unter *Einstellungen > Benutzer & Unternehmen > Gruppen* 
 
 ### Von Abrechnung aus-/einschliessen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Von Abrechnung aus-/einschliessen`\
 Modell: `account.analytic.line`\

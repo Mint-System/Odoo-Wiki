@@ -17,7 +17,7 @@ partner: Mint System
 
 ### Anzeigen Unsubscribe URL
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Anzeigen Unsubscribe URL`\
 Modell: `mailing.trace`\

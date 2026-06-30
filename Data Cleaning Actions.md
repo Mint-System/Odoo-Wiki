@@ -19,7 +19,7 @@ partner: Mint System
 
 Mithilfe dieser Aktionen können Sie das Notiz-Feld auf Duplikats-Einträgen zusammenführen.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Notizen zusammenführen`
 Modell: `data_merge.record`\
@@ -76,7 +76,7 @@ for group_id in group_ids:
 
 Mit dieser Aktion können Sie die Adresse von einem Duplikat mit Adresse auf das dazugehörige Duplikat ohne Adresse übertragen. Damit bleiben Adressinformationen vor der Zusammenführung der Duplikate erhalten.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Adresse übertragen`
 Modell: `data_merge.record`\
@@ -105,13 +105,13 @@ for group_id in group_ids:
 
     # Transfer address if one records with address and one without address exists
     if len(no_street_ids) == 1 and len(with_street_ids) == 1:
-        
+
         # Prepare values to copy
         vals = {field: with_street_ids[field] for field in address_fields}
-        
+
         # Write the address fields to records
         no_street_ids.write(vals)
-        
+
         message = "Copied address for partner '%s' record %s to %s." % (with_street_ids.name, with_street_ids.id, no_street_ids.id)
         log(message)
 ```

@@ -17,7 +17,7 @@ partner: Mint System
 
 ### Auf Entwurf zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Auf Entwurf zurücksetzen`
 Modell: `account.move`
@@ -36,7 +36,7 @@ In der Liste der Buchungssätze erscheint nun die Auswahl _Aktionen > Auf Entwur
 
 ### Als gesendet markieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Als gesendet markieren`\
 Modell: `account.move`\
@@ -53,7 +53,7 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl _Aktion_ das Menu _
 
 ### Als ungebucht markieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Als ungebucht markieren`\
 Modell: `account.move`\
@@ -72,7 +72,7 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl _Aktion_ das Menu _
 
 ### Als gebucht markieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Als gebucht markieren`
 Modell: `account.move`
@@ -93,7 +93,7 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl _Aktion_ das Menu _
 
 Mit dieser Aktion wird einer gebuchten Rechnung eine Mahngebühr hinzugefügt. Damit diese Aktion funktioniert, müssen Sie ein [Produkt Mahngebühren einrichten](Invoicing%20Followup.md#Produkt%20Mahngebühren%20einrichten).
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Mahngebühren hinzufügen`\
 Modell: `account.move`\
@@ -117,7 +117,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 ### Steuersätze aktualisieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Steuersätze aktualisieren`\
 Modell: `account.move`\
@@ -144,7 +144,7 @@ Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätig
 
 ### Steuersatz entfernen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Steuersatz entfernen`\
 Modell: `account.move.line`\
@@ -159,7 +159,7 @@ Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätig
 
 ### Anhang entfernen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Anhang entfernen`\
 Modell: `account.move`\
@@ -174,7 +174,7 @@ Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätig
 
 ### Empfänger für Mahnungen ausgeben
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Empfänger für Mahnungen ausgeben`\
 Modell: `account.move`\
@@ -189,7 +189,7 @@ Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätig
 
 ### PDF-Datei vorbereiten
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `PDF-Datei vorbereiten`\
 Modell: `account.move`\

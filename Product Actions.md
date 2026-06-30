@@ -17,7 +17,7 @@ partner: Mint System
 
 ### Übersetzung von Name anpassen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Übersetzung von Name anpassen`\
 Modell: `product.template`\
