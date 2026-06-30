@@ -34,7 +34,7 @@ Navigieren Sie nach _Kontakte > Konfiguration > Bankverzeichnis_ und zeigen Sie 
 
 ### Bank verknüpfen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Bank verknüpfen`\
 Modell: `res.partner.bank`\

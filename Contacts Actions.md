@@ -17,7 +17,7 @@ partner: Mint System
 
 ### Kontakt als Privat festlegen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Kontakt als Privat festlegen`\
 Modell: `res.partner`\
@@ -36,7 +36,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
 ### Kontakt als Kontakt festlegen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Kontakt als Kontakt festlegen`\
 Modell: `res.partner`\
@@ -52,6 +52,48 @@ Im Tab _Zu schreibende Daten_:
 - **Gruppenname**: Technisch / Zugriff auf private Adressen
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
+
+### Massen-Einladungen für Portal-Zugriff versenden
+
+Mit dieser Server-Aktion können Sie Massen-Einladungen für den Portal-Zugriff versenden. Erstellen Sie ein Stichwort mit der XML-ID `portal_mass_invite.portal_mass_invite_partner_category`. Die Aktion berücksichtigt nur Kontakte mit diesem Stichwort.
+
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+
+- **Name der Aktion:** `Massen-Einladungen für Portal-Zugriff versenden`\
+- **Modell**: `res.partner`\
+- **Type**: Code ausführen
+- **Code**:
+
+```python
+invite_category = env.ref("portal_mass_invite.portal_mass_invite_partner_category")
+partners_to_invite = records.filtered_domain([("category_id", "in", invite_category.id)])
+
+wizard = env["portal.wizard"].create({"partner_ids": partners_to_invite.ids})
+users_already_granted = wizard.user_ids.filtered(lambda user: user.is_portal or user.is_internal)
+users_to_grant = wizard.user_ids.filtered(lambda user: not user.is_portal and not user.is_internal and user.email_state == "ok")
+for user in users_to_grant:
+    user.action_grant_access()
+
+(users_to_grant + users_already_granted).partner_id.write({
+    "category_id": [Command.unlink(invite_category.id)],
+})
+
+nb_granted = len(users_to_grant.partner_id)
+nb_already_granted = len(users_already_granted.partner_id)
+nb_skipped = len(partners_to_invite) - nb_granted - nb_already_granted
+action = {
+    "type": "ir.actions.client",
+    "tag": "display_notification",
+    "params": {
+        "message": env._("Granted portal access to %d contacts. %d contacts skipped because they already have portal access. %d contacts skipped because their email is not valid.", nb_granted, nb_already_granted, nb_skipped),
+        "type": "success",
+        "sticky": True,
+        "next": {"type": "ir.actions.act_window_close"},
+    },
+}
+```
+
+Dieser Eintrag mit Aktion _Kontextuelle Aktion erstellen_ bestätigen.
 
 ## Geplante Aktionen
 

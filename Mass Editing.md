@@ -31,7 +31,7 @@ Diese App ist veraltet. Wir empfehlen die App [Mass Editing](Server%20Action%20M
 
 ### Aktion Massenbearbeitung hinzufügen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und klicken auf _Neu_.
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und klicken auf _Neu_.
 
 Geben Sie im Feld _Name der Aktion_ eine für die Aktion passende Bezeichung ein. Wählen Sie im Feld _Modell_ das Datenmodell wo die Aktion verfügbar sein soll. Anschliessend wählen Sie im Feld _Folgeaktion_ die Option _Mass Edit Records_.
 
@@ -49,7 +49,7 @@ Die Massenbearbeitung von Dokumenten führen Sie wie folgt aus:
 
 ### Massenbearbeitung für Projektaufgaben erstellen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und klicken auf _Neu_. Erstellen Sie einen Eintrag mit diesen Angaben:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und klicken auf _Neu_. Erstellen Sie einen Eintrag mit diesen Angaben:
 
 - **Name der Aktion**: Aufgaben aktualiseren
 - **Modell**: `project.task`

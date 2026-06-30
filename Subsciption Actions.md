@@ -17,7 +17,7 @@ partner: Mint System
 
 ### Abonnement schliessen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Abonnement schliessen`\
 Modell: `sale.order`\
@@ -33,7 +33,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speiche
 
 ### Start- und Enddatum von Abonnement übernehmen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Start- und Enddatum von Abonnement übernehmen`\
 Modell: `account.move`\
@@ -64,7 +64,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speiche
 
 Mit dieser Aktion können nach einer Migration von Odoo 15.0 auf 16.0 und höher die Abonnement-Informationen von den archivierten Verkaufsaufträgen auf die aktiven übertragen werden.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Abonnement-Informationen migrieren`\
 Modell: `sale.order`\

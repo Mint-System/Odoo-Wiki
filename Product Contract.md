@@ -61,7 +61,7 @@ Die Rechnung zu einem Verkaufsauftrag enthält nur die Nicht-Vertragsprodukte.
 
 ### Wiederkehrendes Produkt in Vertrag umwandeln
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Wiederkehrendes Produkt in Vertrag umwandeln`\
 Modell: `product.template`\

@@ -17,7 +17,7 @@ partner: Mint System
 
 ### Gehaltsabrechnung zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Gehaltsabrechnung zurücksetzen`\
 Modell: `hr.payslip`\
@@ -36,7 +36,7 @@ Im Formular der Lohnbuchung erscheint nun in der Auswahl _Aktion_ das Menu _Geha
 
 ### Gehaltsabrechnung versenden
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Gehaltsabrechnung versenden`\
 Modell: `hr.payslip`\
@@ -56,7 +56,7 @@ Im Formular der Lohnbuchung erscheint nun in der Auswahl _Aktion_ das Menu _Geha
 
 ### Stapel zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Batch zurücksetzen`\
 Modell: `hr.payslip.Stapel`\
@@ -77,7 +77,7 @@ Im Formular der Batches erscheint nun in der Auswahl _Aktion_ das Menu _Batch zu
 
 Mit dieser Aktion wird die Buchung der Lohnabrechnung in den Entwurfstatus gesetzt. Die Aktion funktioniert nicht für Lohnabrechnungen, die mit einem Batch erstellt wurden.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lohnbuchung zurücksetzen`\
 Modell: `hr.payslip`\
@@ -99,7 +99,7 @@ Im Formular der Lohnabrechnung erscheint nun die Auswahl _Aktionen > Lohnbuchung
 
 Mit dieser Aktion wird die Buchung der Lohnabrechnung gelöscht und neu erstellt. Die Aktion funktioniert nicht für Lohnabrechnungen, die mit einem Batch erstellt wurden.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lohnbuchung entfernen`\
 Modell: `hr.payslip`\

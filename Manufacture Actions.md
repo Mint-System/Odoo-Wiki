@@ -17,7 +17,7 @@ partner: Mint System
 
 ### Fertigungsauftrag abbrechen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Fertigungsauftrag abbrechen`\
 Modell: `mrp.production`\
@@ -36,7 +36,7 @@ In der Liste der Fertigungsauftrag können Sie die Einträge markieren und _Akti
 
 ### Reload BoM
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reload BoM`\
 Modell: `mrp.production`\
@@ -59,7 +59,7 @@ Im Fertigungsauftrag erscheint nun in der Auswahl _Aktion_ das Menu _Reload BoM_
 
 ### Material-Reservationen entfernen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Material-Reservationen entfernen`\
 Modell: `mrp.production`\
@@ -78,7 +78,7 @@ Im Fertigungsauftrag erscheint nun in der Auswahl _Aktion_ das Menu _Material-Re
 
 ### Material-Reservationen erstellen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Material-Reservationen erstellen`\
 Modell: `mrp.production`\
@@ -97,7 +97,7 @@ Im Fertigungsauftrag erscheint nun in der Auswahl _Aktion_ das Menu _Material-Re
 
 ### Abgebrochener Fertigungsauftrag auf erledigt setzen
 
-avigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+avigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Abgebrochener Fertigungsauftrag auf erledigt setzen`\
 Modell: `mrp.production`\

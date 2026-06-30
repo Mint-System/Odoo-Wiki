@@ -21,7 +21,7 @@ section: true
 | [Discuss Datenmanagement](Discuss%20Datenmanagement.md)               | Daten zu Dialog exportieren und importieren.        |
 | [Einstellungen Datenmanagement](Settings%20Data%20Management.md)      | Daten zu Einstellungen exportieren und importieren. |
 | [Fertigung Datenmanagement](Manufacture%20Data%20Management.md)       | Produkte und Dienstleistungen zentral pflegen.      |
-| [Kontakte Datenmanagement](Partner%20Data%20Management.md)            | Daten zu Kontakte exportieren und importieren.      |
+| [Kontakte Datenmanagement](Contacts%20Data%20Management.md)            | Daten zu Kontakte exportieren und importieren.      |
 | [Kundendienst Datenmanagement](Helpdesk%20Data%20Management.md)       | Daten zu Kundendienst exportieren und importieren.  |
 | [Projekt Datenmanagement](Project%20Data%20Management.md)             | Daten zu Projekte exportieren und importieren.      |
 | [Umfragen Datenmanagement](Survey%20Datamanagement.md)                | Daten zu Umfragen exportieren und importieren.      |
