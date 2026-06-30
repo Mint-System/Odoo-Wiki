@@ -23,6 +23,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Die geplante Aktion "Verkaufsabonnement: Ablauf des Abonnements" sorgt normalerweise dafür, dass Verkaufsaufträge mit wiederkerendem Plan (Abonnements) automatisch geschlossen werden beim Ausführen der Aktion.
+Die geplante Aktion _Verkaufsabonnement: Ablauf des Abonnements_ sorgt normalerweise dafür, dass Verkaufsaufträge mit wiederkerendem Plan (Abonnements) automatisch geschlossen werden beim Ausführen der Aktion.
 
 Mit dieser Erweiterung wird dieses Verhalten unterdrückt, d.h. es werden generell keine Abonnements mit offenen Rechnungen geschlossen.
