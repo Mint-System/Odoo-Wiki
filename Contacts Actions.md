@@ -17,7 +17,7 @@ partner: Mint System
 
 ### Kontakt als Privat festlegen
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Kontakt als Privat festlegen`\
 Modell: `res.partner`\
@@ -36,7 +36,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
 ### Kontakt als Kontakt festlegen
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Kontakt als Kontakt festlegen`\
 Modell: `res.partner`\
@@ -53,11 +53,52 @@ Im Tab _Zu schreibende Daten_:
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
+### Stichwort hinzufügen
+
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
+
+- **Name der Aktion:** `Stichwort hinzufügen`\
+- **Modell**: `res.partner`\
+- **Type**: Code ausführen
+- **Code**:
+
+```python
+invite_category = env.ref("smartme_portal_mass_invite.portal_mass_invite_partner_category")
+records.write({
+    "category_id": [Command.link(invite_category.id)],
+})
+```
+
+Dieser Eintrag mit Aktion _Kontextuelle Aktion erstellen_ bestätigen.
+
+### Stichwort entfernen
+
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
+
+- **Name der Aktion:** `Stichwort entfernen`\
+- **Modell**: `res.partner`\
+- **Type**: Code ausführen
+- **Code**:
+
+```python
+category1 = env.ref("smartme_portal_mass_invite.portal_mass_invite_partner_category")
+category2 = env.ref("__custom__.tag_shopify")
+
+records.write({
+    "category_id": [
+        Command.unlink(category1.id),
+        Command.unlink(category2.id)
+    ],
+})
+```
+
+Dieser Eintrag mit Aktion _Kontextuelle Aktion erstellen_ bestätigen.
+
 ### Massen-Einladungen für Portal-Zugriff versenden
 
 Mit dieser Server-Aktion können Sie Massen-Einladungen für den Portal-Zugriff versenden. Erstellen Sie ein Stichwort mit der XML-ID `portal_mass_invite.portal_mass_invite_partner_category`. Die Aktion berücksichtigt nur Kontakte mit diesem Stichwort.
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 - **Name der Aktion:** `Massen-Einladungen für Portal-Zugriff versenden`\
 - **Modell**: `res.partner`\

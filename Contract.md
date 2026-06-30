@@ -84,7 +84,7 @@ Rufen Sie _Buchhaltung > Lieferanten > Lieferantenverträge_ auf und wählen Sie
 
 ### Rechnung anlegen
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Rechnung anlegen`\
 Modell: `contract.contract`\

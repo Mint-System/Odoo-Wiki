@@ -17,7 +17,7 @@ partner: Mint System
 
 ### Zahlungstransaktion zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Zahlungstransaktion zurücksetzen`\
 Modell: `payment.transaction`\

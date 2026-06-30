@@ -15,7 +15,7 @@ partner: Mint System
 
 ### Zeiterfassung aufteilen
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Zeiterfassung aufteilen`\
 Modell: `account.analytic.line`\
@@ -38,7 +38,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speiche
 
 _Gilt ab #Odoo14._
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Auftragselement von Aufgabe entfernen`\
 Modell: `account.analytic.line`\
@@ -59,7 +59,7 @@ In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl _Aktion_
 
 _Benötigt bis #Odoo18._
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Validierung zurücksetzen`\
 Modell: `account.analytic.line`\

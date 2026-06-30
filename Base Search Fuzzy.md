@@ -72,7 +72,7 @@ Damit eine _Fuzzy Search_ funktioniert muss auf der Suchmaske der Suchfilter ang
 
 ### Kontakt Anzeigename indexieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Kontakt Anzeigename indexieren`\
 Modell: `server.actions`\
@@ -87,7 +87,7 @@ env.cr.commit()
 
 ### Kontakt Such-Query analysieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Kontakt Such-Query analyisieren`\
 Modell: `server.actions`\

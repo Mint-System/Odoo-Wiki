@@ -17,7 +17,7 @@ partner: Mint System
 
 ### Alle Follower entfernen
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Alle Follower entfernen`\
 Modell: `project.task` (oder ein anderes Datenmodell)\
@@ -36,7 +36,7 @@ Auf der Listenansicht des Datenmodell markieren Sie ausgewählte Einträge und w
 
 ### Als Follower hinzufügen
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Als Follower hinzufügen`\
 Modell: `project.task` (oder ein anderes Datenmodell)\

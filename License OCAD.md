@@ -32,7 +32,7 @@ Navigieren Sie nach _Einstellungen > Verkauf > Konnektoren_ und tragen Sie bei _
 
 ### Lizenzinformationen kopieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lizenzinformationen kopieren`\
 Modell: `license.license`\

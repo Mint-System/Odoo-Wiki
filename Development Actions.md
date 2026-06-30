@@ -102,7 +102,7 @@ Dokumentieren Sie die Anpassung von Aktionen. Bei einer Aktualisierung der Modul
 
 ### Feld neu berechnen
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Feld neu berechnen`\
 Modell: `ir.model.fields`\
@@ -122,7 +122,7 @@ In der Liste der Felder erscheint nun in der Auswahl _Aktion_ das Menu _Feld neu
 
 ### Ansicht Zugriffsrechte aktualisieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Ansicht Zugriffsrechte aktualisieren`\
 Modell: `ir.actions.server`\
@@ -138,7 +138,7 @@ Speichern Sie die Aktion und führen Sie diese direkt mit _Starten_ aus.
 
 ### Vererbte Ansichten entfernen
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Vererbte Ansichten entfernen`\
 Modell: `ir.ui.view`\
@@ -154,7 +154,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 ### Compose E-Mail
 
-Navigieren Sie nach _Einstellungen > Technisch > Serverkationen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Compose E-Mail`\
 Modell: Referenz gemäss Dokument\
