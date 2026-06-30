@@ -23,13 +23,15 @@ Website: <https://www.odoo.com/de_DE/app/subscriptions>
 
 ## Erweiterungen
 
-| Erweiterung                                                                                         | Beschreibung                                                         |
-| --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [Sale Subscription Disable Tokenization](Sale%20Subscription%20Disable%20Tokenization.md)           | Abonnements mit Zahlungsanbieter ohne wiederkehrende Zahlung kaufen. |
-| [Sale Subscription Partner Pricelist](Sale%20Subscription%20Partner%20Pricelist.md)                 | Preislisten-Zugriff mit Abonnements erteilen.                        |
-| [Sale Subscription Period Discount](Sale%20Subscription%20Period%20Discount.md)                     | Erste Abonnementrechnung mit zeitbasiertem Rabatt.                   |
-| [Sale Subscription Pricelist Fixed Discount](Sale%20Subscription%20Pricelist%20Fixed%20Discount.md) | Stellt die Rabatt-Funktion für Abonnment wieder her.                 |
-| [Sale Subscription Billing Period Display](Sale%20Subscription%20Billing%20Period%20Display.md)     | Stellt die Einheit der Laufzeit mit korrektem Singular/Plural dar.   |
+| Erweiterung                                                                                                   | Beschreibung                                                                       |
+| ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [Sale Subscription Disable Tokenization](Sale%20Subscription%20Disable%20Tokenization.md)                     | Abonnements mit Zahlungsanbieter ohne wiederkehrende Zahlung kaufen.               |
+| [Sale Subscription Partner Pricelist](Sale%20Subscription%20Partner%20Pricelist.md)                           | Preislisten-Zugriff mit Abonnements erteilen.                                      |
+| [Sale Subscription Period Discount](Sale%20Subscription%20Period%20Discount.md)                               | Erste Abonnementrechnung mit zeitbasiertem Rabatt.                                 |
+| [Sale Subscription Pricelist Fixed Discount](Sale%20Subscription%20Pricelist%20Fixed%20Discount.md)           | Stellt die Rabatt-Funktion für Abonnment wieder her.                               |
+| [Sale Subscription Disable Next Invoice Closing](Sale%20Subscription%20Disable%20Next%20Invoice%20Closing.md) | Verhindert Schliessung von Abonnements mit nächster Rechnung in der Vergangenheit. |
+| [Sale Subscription Disable Unpaid Closing](Sale%20Subscription%20Disable%20Unpaid%20Closing.md)               | Verhindert Schliessung von Abonnements mit offenen Rechnungen.                     |
+| [Sale Subscription Billing Period Display](Sale%20Subscription%20Billing%20Period%20Display.md)               | Stellt die Einheit der Laufzeit mit korrektem Singular/Plural dar.                 |
 
 ## Verwendung
 
