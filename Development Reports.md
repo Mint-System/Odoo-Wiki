@@ -2,7 +2,9 @@
 title: Entwicklung Berichte
 description: Eigene Berichte mit QWeb erstellen.
 kind: howto
+section: true
 prev: ./development
+partner: Mint System
 ---
 
 # Entwicklung Berichte
@@ -18,7 +20,7 @@ prev: ./development
 Eine Übersicht der wichtigsten Berichte und deren URL:
 
 | Name                              | URL                                                                             |
-| :-------------------------------- | :------------------------------------------------------------------------------ |
+|:--------------------------------- |:------------------------------------------------------------------------------- |
 | Angebot / Auftrag                 | `/report/html/sale.report_saleorder/$ID`                                        |
 | Angebotsanfrage                   | `/report/html/purchase.report_purchasequotation/$ID`                            |
 | Arbeitsraport (Rechnungsstellung) | `/report/html/account_sale_timesheet_report.timesheet_report/$ID`               |
@@ -26,15 +28,15 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Attendance and Leave              | `/report/html/hr_employee_attendance_report.res_users/$ID`                      |
 | Barcode EAN-13                    | `/report/barcode/?type=EAN13&value=0769503968353width=600&height=150`           |
 | Barcodes (PDF)                    | `/report/html/stock.label_transfer_template_view_pdf/$ID`                       |
-| Bordereau                         | `/report/html/report/html/mint_system.stock.report_bordero.basis57/$ID`         |
+| Bordero                           | `/report/html/report/html/mint_system.stock.report_bordero.basis57/$ID`         |
 | Fertigungsauftrag                 | `/report/html/mrp.report_mrporder/$ID`                                          |
 | Kaufvertrag                       | `/report/html/purchase_requisition.report_purchaserequisitions/$ID`             |
+| Kommissionierung / Packvorgänge   | `/report/html/stock.report_picking/$ID`                                         |
 | Lieferschein                      | `/report/html/stock.report_deliveryslip/$ID`                                    |
 | Lieferschein (Aufgabe)            | `/report/html/forestry_timesheet.report_project_task_deliveryslip/$ID`          |
 | Lohnabrechnung                    | `/report/html/hr_payroll.report_payslip_lang/$ID`                               |
 | Mahnbericht                       | `/report/html/account_followup.report_followup_print_all/$ID`                   |
 | Mitarbeiterabrechnung             | `/report/html/bt_swissdec.report_payslip/$ID`                                   |
-| Packvorgänge                      | `/report/html/stock.report_picking/$ID`                                         |
 | QR-Rechnung                       | `/report/html/l10n_ch.qr_report_main/$ID`                                       |
 | QR-Rechnung Header                | `/report/html/l10n_ch.qr_report_header/$ID`                                     |
 | Rahmenauftrag                     | `/report/html/sale_blanket_order.report_blanketorder/$ID`                       |
@@ -43,6 +45,9 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Rechnungen mit Zahlung            | `/report/html/account.report_invoice_with_payments/$ID`                         |
 | Vorschau externer Bericht         | `/report/html/web.preview_externalreport/$ID`                                   |
 | Vorschau interner Bericht         | `/report/html/web.preview_internalreport/$ID`                                   |
+| Zeiterfassung (Projekt)           | `/report/html/hr_timesheet.report_timesheet_project/$ID`                        |
+| Zeiterfassung (Rechnung)          | `/report/html/sale_timesheet.report_timesheet_account_move/$ID`                 |
+| Zeiterfassung (Verkauf)           | `/report/html/sale_timesheet.report_timesheet_sale_order/$ID`                   |
 | Zeitnachweis                      | `/report/html/account_sale_timesheet_report.timesheet_report/$ID`               |
 
 ::: tip
@@ -66,6 +71,15 @@ Wählen Sie den Bericht aus und notieren Sie den _Vorlagenname_ des Berichts.
 Nun haben Sie alle Elemente um den Bericht als HTML anzuzeigen. Geben Sie die folgende URL ein: /report/html/**stock.report_deliveryslip**/**3**
 
 ![](attachments/Entwicklung%20Bericht%20angezeigt.png)
+
+### Ansichten der Berichte anzeigen
+
+Wenn Sie [Ansichten anzeigen](Development%20Views.md#Ansichten%20anzeigen), geben Sie diesen Filter ein:
+
+
+```python
+["|", "|", "|", ("key", "=", "sale.report_saleorder_document"), ("key", "=", "account.report_invoice_document"), ("key", "=", "web.external_layout_standard"), ("key", "=", "mail.mail_notification_layout")]
+```
 
 ## Verwaltung
 

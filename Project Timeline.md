@@ -1,10 +1,21 @@
 ---
-title: Project Timeline
 description: Timeline-Ansicht für Projektaufgaben.
+forge: github.com
 kind: howto
+name: project_timeline
 partner: OCA
 prev: ./project
+repo: OCA/project
+title: Project Timeline
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Project Timeline
 
@@ -12,8 +23,8 @@ prev: ./project
 
 {{ $frontmatter.description }}
 
-Technischer Name: `project_timeline`\
-Repository: <https://github.com/OCA/project/tree/18.0/project_timeline>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

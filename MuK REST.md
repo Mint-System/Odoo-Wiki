@@ -2,7 +2,7 @@
 title: MuK REST API for Odoo
 description: Stellt eine REST API für den Odoo Server bereit.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./iot
 ---
 
@@ -13,7 +13,6 @@ prev: ./iot
 {{ $frontmatter.description }}
 
 Technischer Name: `muk_rest`\
-Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/16.0/muk_rest>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/16.0/muk_rest/>
 
 ## Verwendung

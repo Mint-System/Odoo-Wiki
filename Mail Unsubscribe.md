@@ -1,10 +1,19 @@
 ---
-title: Mail Unsubscribe
 description: Automatische Abmeldung der Follower vor dem Versand einer Nachricht.
+forge: github.com
 kind: howto
-partner: Mint-System
-prev: ./dialog
+name: mail_unsubscribe
+partner: Mint System
+prev: ./discuss-e-mail
+repo: Mint-System/Odoo-Apps-Social
+title: Mail Unsubscribe
+versions:
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Mail Unsubscribe
 
@@ -12,8 +21,8 @@ prev: ./dialog
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_unsubscribe`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/17.0/mail_unsubscribe>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

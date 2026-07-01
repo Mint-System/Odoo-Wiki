@@ -1,8 +1,10 @@
 ---
-title: Entwicklung Runboat
 description: Odoo Community Association Testumgebungen.
 kind: howto
 prev: ./development
+section: true
+title: Entwicklung Runboat
+partner: Mint System
 ---
 
 # Entwicklung Runboat
@@ -10,8 +12,6 @@ prev: ./development
 ![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
-
-Repository: <https://github.com/sbidoul/runboat>
 
 ## Beschreibung
 

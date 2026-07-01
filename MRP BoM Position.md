@@ -1,10 +1,18 @@
 ---
-title: MRP BoM Position
 description: Jede Komponente in der Stückliste erhält eine Positionsnummer.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: mrp_bom_position
+partner: Mint System
 prev: ./order-positions
+repo: Mint-System/Odoo-Apps-Manufacture
+title: MRP BoM Position
+versions:
+- '17.0'
+- '16.0'
+- '14.0'
 ---
+
 
 # MRP BoM Position
 
@@ -12,8 +20,8 @@ prev: ./order-positions
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mrp_bom_position`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Manufacture/tree/17.0/mrp_bom_position>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 
@@ -33,11 +41,11 @@ Unter <https://odoo.build/snippets.html> finden Sie Snippets mit der Bezeichnung
 
 ### Positionsnummer festlegen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Positionsnummer festlegen`\
 Modell: `mrp.bom`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 

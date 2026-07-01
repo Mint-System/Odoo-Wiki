@@ -4,6 +4,7 @@ description: Verfolgen Sie Aufträge, Produkte und Lieferungen mit Barcodes.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Strichcode

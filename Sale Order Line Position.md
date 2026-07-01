@@ -1,10 +1,19 @@
 ---
-title: Sale Order Line Position
 description: Verkaufsaufträge mit Positionsnummern.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: sale_order_line_position
+partner: Mint System
 prev: ./order-positions
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Order Line Position
+versions:
+- '19.0'
+- '17.0'
+- '16.0'
+- '15.0'
 ---
+
 
 # Sale Order Line Position
 
@@ -12,14 +21,14 @@ prev: ./order-positions
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_line_position`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/17.0/sale_order_line_position>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 
 ### Positionsnummer wiederhlolen
 
-Navigieren Sie nach _Verkauf > Produkte > Produkte_ und zeigen Sie ein Produkt an. Im Tab _Verkauf_ aktivieren Sie die Option _Wiederhole Positionsnummer in Auftragszeile_. Wenn Sie nun das Produkt in einem Verkaufsauftrag hinzufügen, wird die vorhergehende Positionummer für dieses Produkt wiederholt.
+Navigieren Sie nach _Verkauf > Produkte > Produkte_ und zeigen Sie ein Produkt an. Im Tab _Verkauf_ aktivieren Sie die Option _Wiederhole Positionsnummer in Auftragsposition. Wenn Sie nun das Produkt in einem Verkaufsauftrag hinzufügen, wird die vorhergehende Positionummer für dieses Produkt wiederholt.
 
 ## Verwendung
 

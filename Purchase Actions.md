@@ -2,7 +2,9 @@
 title: Einkauf Aktionen
 description: Arbeitsflüsse in Einkauf automatisieren.
 kind: howto
+section: true
 prev: ./purchase
+partner: Mint System
 ---
 
 # Einkauf Aktionen
@@ -11,7 +13,7 @@ prev: ./purchase
 
 {{ $frontmatter.description }}
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Bestellfrist festlegen
 
@@ -26,7 +28,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Automation > Automatisierte Akt
 - Feld: `Order Deadline (purchase.order)`
 - Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Aktivität Rechnung prüfen für Käufer erstellen
 
@@ -39,7 +41,7 @@ Modell: `acclount.move`\
 Auslöser: Beim Aktualisieren\
 Trigger-Felder: `to_check`
 Anzuwenden auf: `[("to_check", "=", True),("purchase_order_count",">",0)]`
-Folgeaktion: Python-Code ausführen\
+Folgeaktion: Code ausführen\
 Python-Code:
 
 ```python
@@ -63,7 +65,7 @@ Modell: `purchase.order`\
 Auslöser: Bei Erstellung und Aktualisierung\
 Trigger-Felder: `state`
 Anzuwenden auf: `[("state", "=", "purchase")]`
-Folgeaktion: Python-Code ausführen\
+Folgeaktion: Code ausführen\
 Python-Code:
 
 ```python

@@ -2,7 +2,9 @@
 title: Zeiterfassung Aktionen
 description: Arbeitsflüsse in der Zeiterfassung automatisieren.
 kind: howto
+section: true
 prev: ./hr-timesheet
+partner: Mint System
 ---
 
 # Zeiterfassung Aktionen
@@ -11,17 +13,38 @@ prev: ./hr-timesheet
 
 ## Aktionen
 
+### Zeiterfassung aufteilen
+
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
+
+Name der Aktion: `Zeiterfassung aufteilen`\
+Modell: `account.analytic.line`\
+Typ: `Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld Code:
+
+```python
+for rec in records:
+    original_amount = rec.unit_amount
+    new_timesheet = rec.copy()
+    rec.write({'unit_amount': original_amount / 2.0})
+    new_timesheet.write({'unit_amount': original_amount / 2.0})
+```
+
+Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speichern.
+
+
 ### Auftragselement von Aufgabe entfernen
 
 _Gilt ab #Odoo14._
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Auftragselement von Aufgabe entfernen`\
 Modell: `account.analytic.line`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
+Kopieren Sie die folgenden Zeilen in das Feld Code:
 
 ```python
 for record in records:
@@ -36,13 +59,13 @@ In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl _Aktion_
 
 _Benötigt bis #Odoo18._
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Validierung zurücksetzen`\
 Modell: `account.analytic.line`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
+Kopieren Sie die folgenden Zeilen in das Feld Code:
 
 ```python
 records.write({'validated': False})
@@ -51,3 +74,9 @@ records.write({'validated': False})
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
 In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl _Aktion_ das Menu _Validierung zurücksetzen_.
+
+## Geplante Aktionen
+
+### Zeiterfassung: E-Mail-Erinnerung an Mitarbeiter
+
+#TODO

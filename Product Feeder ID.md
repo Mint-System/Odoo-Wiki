@@ -1,10 +1,18 @@
 ---
-title: Product Feeder ID
 description: Feeder-Textfeld auf dem Produkt.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: product_feeder_id
+partner: Mint System
 prev: ./manufacture
+repo: Mint-System/Odoo-Apps-Product-Attribute
+title: Product Feeder ID
+versions:
+- '17.0'
+- '16.0'
+- '14.0'
 ---
+
 
 # Product Feeder ID
 
@@ -12,8 +20,8 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_feeder_id`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/17.0/product_feeder_id>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

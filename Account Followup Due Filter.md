@@ -1,10 +1,17 @@
 ---
-title: Account Followup Due Filter
 description: Im Mahnbericht werden nur übefällige Rechnungen angezeigt.
+forge: github.com
 kind: howto
-partner: Mint-System
-prev: ./invoicing
+name: account_followup_due_filter
+partner: Mint System
+prev: ./invoicing-followup
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Account Followup Due Filter
+versions:
+- '18.0'
+- '16.0'
 ---
+
 
 # Account Followup Due Filter
 
@@ -12,5 +19,5 @@ prev: ./invoicing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_followup_due_filter`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/18.0/account_followup_due_filter>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

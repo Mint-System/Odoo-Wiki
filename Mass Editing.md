@@ -1,10 +1,17 @@
 ---
-title: Mass Editing
 description: Mühelos mehrere Einträge auf einmal bearbeiten.
+forge: github.com
 kind: howto
+name: mass_editing
 partner: OCA
 prev: ./development
+repo: OCA/server-ux
+title: Mass Editing
+versions:
+- '15.0'
+- '14.0'
 ---
+
 
 # Mass Editing
 
@@ -12,8 +19,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mass_editing`\
-Repository: <https://github.com/OCA/server-ux/tree/15.0/mass_editing>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Diese App ist veraltet. Wir empfehlen die App [Mass Editing](Server%20Action%20Mass%20Edit.md) zu verwenden.
@@ -24,7 +31,7 @@ Diese App ist veraltet. Wir empfehlen die App [Mass Editing](Server%20Action%20M
 
 ### Aktion Massenbearbeitung hinzufügen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und klicken auf _Neu_.
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und klicken auf _Neu_.
 
 Geben Sie im Feld _Name der Aktion_ eine für die Aktion passende Bezeichung ein. Wählen Sie im Feld _Modell_ das Datenmodell wo die Aktion verfügbar sein soll. Anschliessend wählen Sie im Feld _Folgeaktion_ die Option _Mass Edit Records_.
 
@@ -42,7 +49,7 @@ Die Massenbearbeitung von Dokumenten führen Sie wie folgt aus:
 
 ### Massenbearbeitung für Projektaufgaben erstellen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und klicken auf _Neu_. Erstellen Sie einen Eintrag mit diesen Angaben:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und klicken auf _Neu_. Erstellen Sie einen Eintrag mit diesen Angaben:
 
 - **Name der Aktion**: Aufgaben aktualiseren
 - **Modell**: `project.task`

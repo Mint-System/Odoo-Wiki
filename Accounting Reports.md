@@ -2,7 +2,9 @@
 title: Buchhaltung Berichte
 description: Finanzberichte erstellen.
 kind: howto
+section: true
 prev: ./accounting
+partner: Mint System
 ---
 
 # Buchhaltung Berichte

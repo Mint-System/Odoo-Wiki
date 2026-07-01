@@ -2,7 +2,9 @@
 title: Entwicklung Website
 description: Website-Templates anpassen und erweitern.
 kind: howto
+section: true
 prev: ./development
+partner: Mint System
 ---
 
 # Entwicklung Website

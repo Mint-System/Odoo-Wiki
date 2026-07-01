@@ -4,6 +4,7 @@ description: Agiles Projektmanagement. Schön. Einfach. Open Source.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Projekt
@@ -28,6 +29,7 @@ Website: <https://www.odoo.com/de_DE/app/project>
 | [Business Requirement](Business%20Requirement.md)                                 | Projektanforderungen erfassen und verknüpfen.            |
 | [Project Key Link Type](Project%20Key%20Link%20Type.md)                           | Projektnummer anhand Projekttyp erstellen.               |
 | [Project Key](Project%20Key.md)                                                   | Projektkürzel für Aufgabenbezeichnung.                   |
+| [Project Menu](Project%20Menu.md)                                                 | Projekte über Navigation aufrufen.                       |
 | [Project Partner Open Tasks](Project%20Partner%20Open%20Tasks.md)                 | Offene Aufgaben auf Partner-Ansicht anzeigen.            |
 | [Project Phase Estimate](Project%20Phase%20Estimate.md)                           | Aufwandsschätzung pro Projekt und Phase.                 |
 | [Project Phase](Project%20Phase.md)                                               | Projektaufgaben mit Projektphasen verwalten.             |
@@ -42,6 +44,7 @@ Website: <https://www.odoo.com/de_DE/app/project>
 | [Project Timeline](Project%20Timeline.md)                                         | Timeline-Ansicht für Projektaufgaben.                    |
 | [Project Timesheet Time Control](Project%20Timesheet%20Time%20Control.md)         | Zeiterfassung auf Projektaufgabe starten.                |
 | [Project Type](Project%20Type.md)                                                 | Projekte nach Typ verwalten.                             |
+| [Projekt Task Billable](Projekt%20Task%20Billable.md)                             | Aufgaben als abrechenbar markieren.                      |
 | [Sequential Code for Tasks](Sequential%20Code%20for%20Tasks.md)                   | Sequenznummer für Projektaufgaben.                       |
 
 ## Verwaltung
@@ -107,7 +110,7 @@ Die Gantt-Ansicht kann via _Projekt > Alle Aufgaben_ angezeigt werden.
 
 ### Standard-Auftragsposition festlegen
 
-Zeigen Sie ein Projekt via _Projekt > Konfiguration > Projekte_ an und wählen Sie den Tab _Abrechnung_ aus. Wählen Sie im Feld _Standard-Auftragsposition_ die Auftragszeile aus, welche für neue Aufgaben übernommen werden soll.
+Zeigen Sie ein Projekt via _Projekt > Konfiguration > Projekte_ an und wählen Sie den Tab _Abrechnung_ aus. Wählen Sie im Feld _Standard-Auftragsposition_ die Auftragsposition aus, welche für neue Aufgaben übernommen werden soll.
 
 ### Abrechnung für Projekt einrichten
 
@@ -151,7 +154,7 @@ Die Sichtbarkeit des Projekts muss für diesen Vorgang auf _Eingeladene Portalnu
 
 ### Projekt für ausgewählte Mitarbeitende freigeben
 
-Zeigen Sie ein Projekt via _Projekt > Konfiguration > Projekte_ an. Die Mitarbeitenden, welche Zugriff auf das Projekt erhalten sollen, können Sie nun als [Abonnement hinzufügen](Dialog.md#Abonnement%20hinzufügen).
+Zeigen Sie ein Projekt via _Projekt > Konfiguration > Projekte_ an. Die Mitarbeitenden, welche Zugriff auf das Projekt erhalten sollen, können Sie nun als [Abonnement hinzufügen](Discuss.md#Abonnement%20hinzufügen).
 
 ::: tip
 Die Sichtbarkeit des Projekts muss für diesen Vorgang auf _Laden Sie Angestellte ein._ eingestellt sein.
@@ -194,7 +197,7 @@ Mit einer neuen Regel für _Datensatzregeln_ können Sie Projekte auch für Port
 
 ### Benachrichtigung bei Erstellung von Aufgabe erhalten
 
-Um eine Benachrichtigung zu erhalten, wenn eine Aufgabe in einem bestimmten Projekt erstellt, müssen Sie das Projekt via _Projekt > Konfiguration > Projekte_ bearbeiten. Nun müssen Sie ein [Eigener Follower hinzufügen](Dialog.md#Eigener%20Follower%20hinzufügen). Aktivieren Sie die Option _Erstellen Sie eine Aufgabe_.
+Um eine Benachrichtigung zu erhalten, wenn eine Aufgabe in einem bestimmten Projekt erstellt, müssen Sie das Projekt via _Projekt > Konfiguration > Projekte_ bearbeiten. Nun müssen Sie ein [Eigener Follower hinzufügen](Discuss.md#Eigener%20Follower%20hinzufügen). Aktivieren Sie die Option _Erstellen Sie eine Aufgabe_.
 
 ## Zeiterfassung
 

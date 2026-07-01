@@ -1,10 +1,21 @@
 ---
-title: Contact's birthdate
 description: Feld Geburtstag und Alter auf Kontakt vom Typ Einzelperson.
+forge: github.com
 kind: howto
+name: partner_contact_birthdate
 partner: OCA
 prev: ./contacts
+repo: OCA/partner-contact
+title: Contact's birthdate
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Contact's birthdate
 
@@ -12,8 +23,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_contact_birthdate`\
-Repository: <https://github.com/OCA/partner-contact/tree/18.0/partner_contact_birthdate>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

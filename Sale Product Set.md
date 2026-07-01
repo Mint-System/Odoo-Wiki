@@ -1,10 +1,21 @@
 ---
-title: Sale Product Set
 description: Produktsets definieren und einfach hinzufügen.
+forge: github.com
 kind: howto
+name: sale_product_set
 partner: OCA
 prev: ./sale
+repo: OCA/sale-workflow
+title: Sale Product Set
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Sale Product Set
 
@@ -12,8 +23,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_product_set`\
-Repository: <https://github.com/OCA/sale-workflow/tree/18.0/sale_product_set>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 
@@ -29,4 +40,4 @@ Im Angebot wählen Sie die Aktion _Produkset Hinzufügen_. Im Dialog wählen Sie
 
 ![](attachments/Sale%20Product%20Set%20Dialog.png)
 
-Mit der Aktion _Produkset Hinzufügen_ werden auf dem Verkaufsautrag die einzelnen Auftragszeilen angelegt.
+Mit der Aktion _Produkset Hinzufügen_ werden auf dem Verkaufsautrag die einzelnen Auftragspositionen angelegt.

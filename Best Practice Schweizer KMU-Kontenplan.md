@@ -3,6 +3,7 @@ title: Schweizer KMU-Kontenplan
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Schweizer KMU-Kontenplan

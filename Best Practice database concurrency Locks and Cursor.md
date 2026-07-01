@@ -3,6 +3,7 @@ title: Datenbank Concurrency, Locks und Cursor
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Datenbank Concurrency, Locks und Cursor

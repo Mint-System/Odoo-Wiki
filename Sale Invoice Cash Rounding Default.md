@@ -1,10 +1,21 @@
 ---
-title: Sale Invoice Cash Rounding Default
-description: Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.
+description: Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen
+  verwenden.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: sale_invoice_cash_rounding_default
+partner: Mint System
 prev: ./invoicing
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Sale Invoice Cash Rounding Default
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Sale Invoice Cash Rounding Default
 
@@ -12,8 +23,8 @@ prev: ./invoicing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_invoice_cash_rounding_default`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/17.0/sale_invoice_cash_rounding_default>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

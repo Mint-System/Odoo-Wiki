@@ -1,17 +1,23 @@
 ---
-title: Partner unique reference
 description: Kontakt-Referenz wird eindeutig gespeichert.
+forge: github.com
 kind: howto
-tags:
-  - OCA
+name: partner_unique_ref
 prev: ./contacts
+repo: OCA/Partner-Contact
+tags:
+title: Partner unique reference
+versions:
+- '18.0'
+partner: OCA
 ---
+
 
 # Partner unique reference
 
-![icon_oca_app](../attachments/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_unique_ref`\
-Repository: <https://github.com/OCA/Partner-Contact/tree/18.0/partner_unique_ref>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

@@ -1,10 +1,18 @@
 ---
-title: Server Config Environment
 description: Umgebungen für die Server-Konfiguration definieren.
+forge: github.com
 kind: howto
-partner: Mint-System
-prev: ./base
+name: server_config_environment
+partner: Mint System
+prev: ./development
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Server Config Environment
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
 ---
+
 
 # Server Config Environment
 
@@ -12,8 +20,8 @@ prev: ./base
 
 {{ $frontmatter.description }}
 
-Technischer Name: `server_config_environment`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/18.0/server_config_environment>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

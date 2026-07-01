@@ -2,7 +2,9 @@
 title: Buchhaltung Finanzbuchhaltung
 description: Kontenplan einrichten und Buchungen erstellen.
 kind: howto
+section: true
 prev: ./accounting
+partner: Mint System
 ---
 
 # Buchhaltung Finanzbuchhaltung
@@ -10,13 +12,14 @@ prev: ./accounting
 ![icons_odoo_account_accountant](attachments/icons_odoo_account_accountant.png)
 
 {{ $frontmatter.description }}
-d
 
 ## Konfiguration
 
-### Schwellendatum für Rechnungen festlegen
+### Umstellungsdatum für Rechnungen festlegen
 
-Wenn Sie beispielsweise eine Buchhaltung per 01.01.2023 starten und Rechnungen aus dem Vorjahr erfassen möchten, diese aber nicht anzeigen möchten, können Sie ein Schwellen-Datum festlegen. Navigieren Sie nach _Einstellungen > Buchhaltung > Steuer-Zeiträume_ und wählen Sie bei _Invoicing Switch Threshold_ das entsprechende Datum aus.
+Wenn Sie beispielsweise eine Buchhaltung erst per Ende Jahr starten möchten und dennoch Rechnungen laufenden Jahr erfassen möchten, können Sie dies als Umstellungsdatum festlgen.
+
+Navigieren Sie nach _Einstellungen > Buchhaltung > Steuer-Zeiträume_ und wählen Sie bei _Umstellungsdatum für Rechnungen_ das entsprechende Datum aus.
 
 ### Buchungszeilen ohne Entwicklermodus anzeigen
 
@@ -130,6 +133,10 @@ Entfernen Sie den Steuersatz in der Spalte _Steuern_, wenn Sie keine Mehrwertste
 ### Sperrdatum festlegen
 
 Im Dialog _Buchhaltung > Buchhaltung > Aktionen > Sperrdaten_ können Sie Sperrdaten für die Geschäfts- und Steuerperiode definieren.
+
+::: warning
+In #Odoo19  gibt es neu ein Sperrdatum für das gesamte Jahr, das durch den Benutzen nicht rückgängig gemacht werden kann. 
+:::
 
 ![](attachments/Buchhaltung%20Sperrdatum%20festlegen.png)
 

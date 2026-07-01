@@ -2,7 +2,9 @@
 title: Lager Datenmanagement
 description: Daten zu Lager exportieren und importieren.
 kind: howto
+section: true
 prev: ./stock
+partner: Mint System
 ---
 
 # Lager Datenmanagement

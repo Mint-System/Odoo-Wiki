@@ -2,7 +2,7 @@
 title: DPD for Switzerland
 description: Versand mit DPD.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./delivery
 ---
 
@@ -13,5 +13,4 @@ prev: ./delivery
 {{ $frontmatter.description }}
 
 Technischer Name: `delivery_dpdch`\
-Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/16.0/delivery_dpdch>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/16.0/delivery_dpdch/>

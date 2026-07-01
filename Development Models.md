@@ -2,7 +2,9 @@
 title: Entwicklung Datenmodelle
 description: Odoo Datenmodell erweitern.
 kind: howto
+section: true
 prev: ./development
+partner: Mint System
 ---
 
 # Entwicklung Datenmodelle

@@ -2,9 +2,9 @@
 title: Lager Aktionen
 description: Arbeitsflüsse in der Produkteverwaltung automatisieren.
 kind: howto
-tags:
-  - Actions
+section: true
 prev: ./product
+partner: Mint System
 ---
 
 # Produkt Aktionen
@@ -17,11 +17,11 @@ prev: ./product
 
 ### Übersetzung von Name anpassen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Übersetzung von Name anpassen`\
 Modell: `product.template`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

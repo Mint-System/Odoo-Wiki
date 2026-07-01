@@ -1,10 +1,19 @@
 ---
-title: Account Move Unsubscribe
 description: Alle Abonnenten nach Buchung eines Buchungssatzes entfernen.
+forge: github.com
 kind: howto
-partner: Mint-System
-prev: ./dialog
+name: account_move_unsubscribe
+partner: Mint System
+prev: ./discuss
+repo: Mint-System/Odoo-Apps-Social
+title: Account Move Unsubscribe
+versions:
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Account Move Unsubscribe
 
@@ -12,8 +21,8 @@ prev: ./dialog
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_move_unsubscribe`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/17.0/account_move_unsubscribe>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

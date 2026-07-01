@@ -1,10 +1,19 @@
 ---
-title: Stock Vendor Evaluation
 description: Lieferungen bewerten und Lieferanten auswerten.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: stock_vendor_evaluation
+partner: Mint System
 prev: ./stock
+repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
+title: Stock Vendor Evaluation
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
 ---
+
 
 # Stock Vendor Evaluation
 
@@ -12,8 +21,8 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_vendor_evaluation`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Stock-Logistics-Workflow/tree/18.0/stock_vendor_evaluation>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

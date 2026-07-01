@@ -2,9 +2,8 @@
 title: Schweizer Buchhaltungsauswertungen
 description: Schweizer Lokalisierung der Buchhaltung.
 tags:
-  - HowTo
-  - CommunityEdition
 prev: ./l10n-ch
+partner: Odoo S.A.
 ---
 
 # Schweizer Buchhaltungsauswertungen

@@ -1,10 +1,18 @@
 ---
-title: Partner Secondary Email
 description: Zweite E-Mail für alle Kontakte.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: partner_secondary_email
+partner: Mint System
 prev: ./contacts
+repo: Mint-System/Odoo-Apps-Partner-Contact
+title: Partner Secondary Email
+versions:
+- '17.0'
+- '16.0'
+- '14.0'
 ---
+
 
 # Partner Secondary Email
 
@@ -12,8 +20,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `partner_secondary_email`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Partner-Contact/tree/16.0/partner_secondary_email>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

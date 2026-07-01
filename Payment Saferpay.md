@@ -2,8 +2,8 @@
 title: Saferpay Payment Gateway
 description: Zahlungsanbieter für Saferpay (ohne Zahlungstokens).
 kind: howto
-partner: Mint-System
-prev: ./website-e-commerce
+partner: Thirdparty
+prev: ./website-sale
 ---
 
 # Saferpay Payment Gateway
@@ -13,8 +13,12 @@ prev: ./website-e-commerce
 {{ $frontmatter.description }}
 
 Technischer Name: `payment_saferpay`\
-Website: <https://apps.odoo.com/apps/modules/16.0/payment_saferpay/>\
-Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/16.0/payment_saferpay>
+Website: <https://apps.odoo.com/apps/modules/16.0/payment_saferpay/>
+
+::: warning
+Seit #Odoo18 wird diese App nicht mehr benötigt. 
+#DEPRECATED
+:::
 
 ## Konfiguration
 

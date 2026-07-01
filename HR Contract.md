@@ -2,7 +2,9 @@
 title: Personal Verträge
 description: Personalverträge zentral verwalten.
 kind: howto
+section: true
 prev: ./hr
+partner: Mint System
 ---
 
 # Personal Verträge

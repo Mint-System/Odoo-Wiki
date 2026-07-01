@@ -1,10 +1,21 @@
 ---
-title: Product Barcode Generator
 description: Autogenerate EAN13 product barcodes.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: product_barcode
+partner: Mint System
 prev: ./product
+repo: CybroOdoo/CybroAddons
+title: Product Barcode Generator
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Product Barcode Generator
 
@@ -12,8 +23,8 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_barcode`\
-Repository: <https://github.com/CybroOdoo/CybroAddons/tree/18.0/product_barcode>\
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>\
 Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/product_barcode/>
 
 ## Verwendung
@@ -28,11 +39,11 @@ Once the app is installed Odoo will automtically create EAN13 standard barcodes.
 
 Mit dieser Server-Aktion können Sie für alle Produkte einen EAN13-Barcode generieren.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Barcode generieren`\
 Modell: `ir.actions.server`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

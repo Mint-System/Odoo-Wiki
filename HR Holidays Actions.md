@@ -2,7 +2,9 @@
 title: Abwesenheiten Aktionen
 description: Aktionen für Abwesenheit App einrichten.
 kind: howto
+section: true
 prev: ./hr-holidays
+partner: Mint System
 ---
 
 # Abwesenheiten Aktionen
@@ -15,11 +17,11 @@ prev: ./hr-holidays
 
 ### Ablehnen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Ablehnen`\
 Modell: `hr.leave`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 ```python
 for rec in records:

@@ -1,11 +1,12 @@
 ---
-title: Projekte
+title: Projekte initialisieren
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
-# Projekte
+# Projekte initialisieren
 
 Das Initialisieren von Projekten beginnt mit der Produktdefinition.
 

@@ -4,6 +4,7 @@ description: E-Mail-Marketing leicht gemacht.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # E-Mail-Marketing

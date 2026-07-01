@@ -4,6 +4,7 @@ description: Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Zeiterfassung
@@ -18,7 +19,6 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 
 | Bereich                                                | Beschreibung                                        |
 | ------------------------------------------------------ | --------------------------------------------------- |
-| [Awesome Timesheet](Awesome%20Timesheet.md)            | Mobile Zeiterfassung.                               |
 | [Terminal Zeiterfassung](Terminal%20HR%20Timesheet.md) | Ein- und auschecken mit dem Terminal Zeiterfassung. |
 | [Zeiterfassung Aktionen](HR%20Timesheet%20Actions.md)  | Arbeitsflüsse in der Zeiterfassung automatisieren.  |
 | [Zeiterfassung Ansichten](Timesheet%20Views.md)        | Ansichten der Zeiterfassung anpassen.               |
@@ -29,11 +29,10 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | [HR Timesheet From Until](HR%20Timesheet%20From%20Until.md)               | Berechnung Dauer anhand Start- und Endzeit.                        |
 | [HR Timesheet Multiline Name](HR%20Timesheet%20Multiline%20Name)          | Mehrzeilige Beschreibung in Zeiterfassung.                         |
-| [Portal Timesheet](Sh%20Portal%20Timesheet.md)                            | Zeiterfassung im Portal.                                           |
 | [Project Timesheet Limit](Project%20Timesheet%20Limit.md)                 | Erfassbare Zeit auf geplante Zeit limitieren.                      |
+| [Sale Timesheet Billable Price](Sale%20Timesheet%20Billable%20Price.md)   | Abrechenbarkeit basierend auf Preis der Auftragsposition festlegen.   |
 | [Sale Timesheet Line Exclude](Sale%20Timesheet%20Line%20Exclude.md)       | Zeiterfassungseinträge als nicht abrechenbar markieren.            |
 | [Sale Timesheet Total Validated](Sale%20Timesheet%20Total%20Validated.md) | Nur bestätige Zeiterfassungs-Einträge in Verkaufsauftrag anzeigen. |
-| [Task Timer Advance](Sh%20Task%20Time%20Adv.md)                           | Aufgaben-Timer einfacher starten und beenden.                      |
 
 ## Konfiguration
 

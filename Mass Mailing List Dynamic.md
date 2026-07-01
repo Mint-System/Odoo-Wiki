@@ -1,10 +1,16 @@
 ---
-title: Dynamic Mass Mailing Lists
 description: Mailingiste mit Kontakt-Liste synchronisieren.
+forge: github.com
 kind: howto
+name: mass_mailing_list_dynamic
 partner: OCA
 prev: ./mass-mailing
+repo: OCA/mass-mailing
+title: Dynamic Mass Mailing Lists
+versions:
+- '18.0'
 ---
+
 
 # Dynamic Mass Mailing Lists
 
@@ -12,8 +18,8 @@ prev: ./mass-mailing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mass_mailing_list_dynamic`\
-Repository: <https://github.com/OCA/mass-mailing/tree/18.0/mass_mailing_list_dynamic>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

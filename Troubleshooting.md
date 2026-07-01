@@ -3,7 +3,7 @@ title: Troubleshooting
 description: Probleme und Lösungen rund um Odoo.
 kind: howto
 prev: ./
-partner: Mint-System
+partner: Mint System
 ---
 
 # Troubleshooting
@@ -166,7 +166,7 @@ Prüfen Sie die SMTP-Einstellungen für den Benutzer und den Nachrichtenfluss vo
 
 Gehen Sie in die Konto-Einstellungen des Postfachs und prüfen Sie ob die Verbindungsinformationen für SMTP und IMAP aufezeigt werden.
 
-![](attachments/Office%20365%20E-Mail%20synchronisieren.png)
+![](attachments/Office%20365%20E-Mail%20synchronisieren.png) 
 
 ### Versandlimit für E-Mails erreicht
 
@@ -325,9 +325,25 @@ Eine weitere Ursache kann auch sein, dass die Host-Adresse von Odoo innerhalb de
 
 **Lösung**
 
-Legen Sie in den Systemparameter von Odoo den Wert von `web.base.url` fest und fixieren Sie die Url `https://` die URL von `https` auf `http` gewechselt werden. Alternativ kann der Systemparameter `report.url` angelegt und konfiguriert werden.
+Legen Sie in den Systemparameter von Odoo den Wert von `web.base.url` fest und fixieren Sie die Url mit `web.base.url.freeze`. Alternativ kann der Systemparameter `report.url` angelegt und konfiguriert werden.
 
 Verifizieren Sie, dass die Host-Adresse von Odoo korrekt aufgelöst wird.
+
+```bash
+docker exec -it odoo01 bash
+odoo@0e915a4496a8:/$ getent hosts odoo.example.com
+192.168.5.228   odoo.example.ch
+```
+
+### Timeout Generierung PDF
+
+**Problem**
+
+Beim Anzeigen des Berichts als PDF erhält man ein Timeout. Die Anzeige als HTML ist kein Problem.
+
+**Lösung**
+
+Die CSS-Dateien können von wkhtmltopdf nicht geladen werden. Stellen Sie sicher, dass der Odoo Host korrekt aufgelöst wird.
 
 ```bash
 docker exec -it odoo01 bash

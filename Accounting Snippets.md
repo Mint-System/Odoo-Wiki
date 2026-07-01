@@ -2,7 +2,9 @@
 title: Buchhaltung Snippets
 description: Einfache Anpassungen mit Odoo Snippets.
 kind: howto
+section: true
 prev: ./accounting
+partner: Mint System
 ---
 
 # Buchhaltung Snippets

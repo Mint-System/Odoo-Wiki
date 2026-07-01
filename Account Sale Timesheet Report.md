@@ -1,10 +1,17 @@
 ---
-title: Account Sale Timesheet Report
 description: Zeiterfassungsbericht für Rechnung.
+forge: github.com
 kind: howto
-partner: Mint-System
-prev: ./invoicing
+name: account_sale_timesheet_report
+partner: Mint System
+prev: ./accounting
+repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
+title: Account Sale Timesheet Report
+versions:
+- '17.0'
+- '15.0'
 ---
+
 
 # Account Sale Timesheet Report
 
@@ -12,8 +19,8 @@ prev: ./invoicing
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_sale_timesheet_report`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/15.0/account_sale_timesheet_report>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Bericht
 

@@ -1,10 +1,17 @@
 ---
-title: Purchase Requisition User
 description: Einkaufsbeauftragte von Kaufvertrag auf Bestellung übertragen.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: purchase_requisition_user
+partner: Mint System
 prev: ./purchase-requisition
+repo: Mint-System/Odoo-Apps-Purchase-Workflow
+title: Purchase Requisition User
+versions:
+- '17.0'
+- '14.0'
 ---
+
 
 # Purchase Requisition User
 
@@ -12,8 +19,8 @@ prev: ./purchase-requisition
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_requisition_user`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Purchase-Workflow/tree/14.0/purchase_requisition_user>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

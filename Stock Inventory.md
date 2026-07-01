@@ -2,7 +2,9 @@
 title: Lager Bestand
 description: Den Lagerbestand optimal verwalten.
 kind: howto
+section: true
 prev: ./stock
+partner: Mint System
 ---
 
 # Lager Bestand

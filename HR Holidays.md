@@ -4,6 +4,7 @@ description: Verwaltung von Mitarbeiterurlauben & Abwesenheiten.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Abwesenheiten
@@ -23,21 +24,23 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 
 ## Erweiterungen
 
-| Erweiterung                                                                               | Beschreibung                                                                         |
-| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| [HR Attendance Overtime Negative Hours](HR%20Attendance%20Overtime%20Negative%20Hours.md) | Anzeige negative Überstunden auf Dashboard Abwesenheiten.                            |
-| [HR Holidays .ics Attachment](HR%20Holidays%20ics%20Attachment.md)                        | An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.                    |
-| [HR Holidays Calendar Department](HR%20Holidays%20Calendar%20Department.md)               | Erweitert den Anwesenheitsbericht mit neuen Felder.                                  |
-| [HR Holidays Custom Hours](HR%20Holidays%20Custom%20Hours.md)                             | Benutzerdefinierte Anzahl Stunden auf Abwesenheiten eintragen.                       |
-| [HR Holidays Leave Archive](HR%20Holidays%20Leave%20Archive.md)                           | Archivierungsfunktion für Abwesenheitseinträge aktivieren.                           |
-| [HR Holidays Leave Repeated](HR%20Holidays%20Leave%20Repeated.md)                         | Wiederkehrende Abwesenheitseinträge erstellen.                                       |
-| [HR Holidays Negative Hours](HR%20Holidays%20Negative%20Hours.md)                         | Abwesenheitsart zur Kompensierung von Überstunden.                                   |
-| [HR Holidays Public](HR%20Holidays%20Public.md)                                           | Erstellen Sie einen Feiertagskalender, der in der Abwesenheiten berücksichtigt wird. |
-| [HR Holidays Remaining Leaves](HR%20Holidays%20Remaining%20Leaves.md)                     | Verbleibende Urlaubsansprüche der Mitarbeitenden anzeigen.                           |
-| [HR Holidays Type Note](HR%20Holidays%20Type%20Note.md)                                   | Hinweis zur Abwesenheitsart auf Abwesenheiten anzeigen.                              |
-| [HR Holidays Working Time](HR%20Holidays%20Working%20Time.md)                             | Aus Abwesenheiten Anwesenheiten erstellen.                                           |
-| [HR Leave Custom Hour Interval](HR%20Leave%20Custom%20Hour%20Interval.md)                 | Start- und End-Zeit für Abwesenheiten eintragen.                                     |
-| [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden.   |
+| Erweiterung                                                                               | Beschreibung                                                                                 |
+| ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| [HR Attendance Overtime Negative Hours](HR%20Attendance%20Overtime%20Negative%20Hours.md) | Anzeige negative Überstunden auf Dashboard Abwesenheiten.                                    |
+| [HR Contract Leaves Domain](HR%20Contract%20Leaves%20Domain.md)                           | Korrektur der Soll-Stunden-Berechnung bei gesetzlichen Feiertagen mit alternativem time_type |
+| [HR Holidays .ics Attachment](HR%20Holidays%20ics%20Attachment.md)                        | An Meldung zur Genehmigung einer Abwesenheit .ics-Datei anhängen.                            |
+| [HR Holidays Calendar Department](HR%20Holidays%20Calendar%20Department.md)               | Erweitert den Anwesenheitsbericht mit neuen Felder.                                          |
+| [HR Holidays Custom Hours](HR%20Holidays%20Custom%20Hours.md)                             | Benutzerdefinierte Anzahl Stunden auf Abwesenheiten eintragen.                               |
+| [HR Holidays Leave Archive](HR%20Holidays%20Leave%20Archive.md)                           | Archivierungsfunktion für Abwesenheitseinträge aktivieren.                                   |
+| [HR Holidays Leave Repeated](HR%20Holidays%20Leave%20Repeated.md)                         | Wiederkehrende Abwesenheitseinträge erstellen.                                               |
+| [HR Holidays Negative Hours](HR%20Holidays%20Negative%20Hours.md)                         | Abwesenheitsart zur Kompensierung von Überstunden.                                           |
+| [HR Holidays Public](HR%20Holidays%20Public.md)                                           | Erstellen Sie einen Feiertagskalender, der in der Abwesenheiten berücksichtigt wird.         |
+| [HR Holidays Remaining Leaves](HR%20Holidays%20Remaining%20Leaves.md)                     | Verbleibende Urlaubsansprüche der Mitarbeitenden anzeigen.                                   |
+| [HR Holidays Type Note](HR%20Holidays%20Type%20Note.md)                                   | Hinweis zur Abwesenheitsart auf Abwesenheiten anzeigen.                                      |
+| [HR Holidays Working Time](HR%20Holidays%20Working%20Time.md)                             | Aus Abwesenheiten Anwesenheiten erstellen.                                                   |
+| [HR Leave Custom Hour Interval](HR%20Leave%20Custom%20Hour%20Interval.md)                 | Start- und End-Zeit für Abwesenheiten eintragen.                                             |
+| [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) | Erstellen Sie Berichte zu den effektiv gearbeiteten und den theoretischen Stunden.           |
+| [Resource Attendance Time Type](Resource%20Attendance%20Time%20Type.md)                   | Füge ein time_type zu gesetzlichen Feiertagen hinzu.                                         |
 
 ## Dashboard
 

@@ -1,10 +1,21 @@
 ---
-title: Auth API Key
 description: HTTP-Anfragen mit API-Key authentifizieren.
+forge: github.com
 kind: howto
+name: auth_api_key
 partner: OCA
-prev: ./settings
+prev: ./development
+repo: OCA/server-auth
+title: Auth API Key
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Auth API Key
 
@@ -12,5 +23,5 @@ prev: ./settings
 
 {{ $frontmatter.description }}
 
-Technischer Name: `auth_api_key`\
-Repository: <https://github.com/OCA/server-auth/tree/18.0/auth_api_key>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

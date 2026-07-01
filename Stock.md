@@ -4,6 +4,7 @@ description: Maximieren Sie die Effizienz Ihres Lagers.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Lager
@@ -22,7 +23,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Lager Bestand](Stock%20Inventory.md)                 | Den Lagerbestand optimal verwalten.            |
 | [Lager Bewertung](Lager%20Bewertung.md)               | Den Wert des Lagerbestands automatisch führen. |
 | [Lager Datenmanagement](Stock%20Data%20Management.md) | Daten zu Lager exportieren und importieren.    |
-| [Lager Verpackungen](Stock%20Packaging.md)            | Verpackungen effizient verwalten.              |
+| [Lager Verpackungen](Stock%20Packaging.md)            | Produkte für den Versand verpacken.              |
 | [Lager Vorgänge](Stock%20Operations.md)               | Vorgänge im Lager ausführen.                   |
 | [Scanner Zebra DS22](Scanner%20Zebra%20DS22.md)       | Handscanner für Odoo.                          |
 | [Scanner Zebra TC21](Scanner%20Zebra%20TC21.md)       | Mobiler Scanner für Odoo.                      |
@@ -71,6 +72,16 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Quant Package Dimension](Stock%20Quant%20Package%20Dimension.md)                       | Dimensionen und geschätztes Gewicht auf Paket.                                                              |
 | [Stock Vendor Evaluation](Stock%20Vendor%20Evaluation.md)                                     | Lieferungen bewerten und Lieferanten auswerten.                                                             |
 | [Ventor Base](Ventor%20Base.md)                                                               | Basismodul für Ventor-Apps.                                                                                 |
+
+## Konfiguration
+
+### Lagerorte aktivieren
+
+Navigieren Sie Nach *Einstellungen > Lagerhaus* und aktivieren Sie Option *Lagerorte*.
+
+### Mehrstufige Routen aktivieren
+
+Aktivieren Sie die Option _Mehrstufige Routen_ unter _Einstellungen > Lager > Lagerhaus_.
 
 ## Vorgänge
 
@@ -125,10 +136,6 @@ Erfassen Sie für das Lagerort _Virtual Locations/Scrap_ eine externe ID gemäss
 ![](attachments/Lager%20Lagerschwund%20externe%20ID.png)
 
 ## Routen
-
-### Mehrstufige Routen aktivieren
-
-Aktivieren Sie die Option _Mehrstufige Routen_ unter _Einstellungen > Lager > Lager_.
 
 ### Produkt für "Purchase to Order" konfigurieren
 

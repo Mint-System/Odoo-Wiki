@@ -4,11 +4,12 @@ description: Odoo Datenbanken verwalten.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Datenbank
 
-![icons_odoo_apps](attachments/icons_odoo_apps.png)
+![icons_odoo_databases](attachments/icons_odoo_databases.png)
 
 {{ $frontmatter.description }}
 
@@ -22,6 +23,7 @@ partner: Odoo S.A.
 
 | Erweiterung                                           | Beschreibung                                            |
 | ----------------------------------------------------- | ------------------------------------------------------- |
+| [Auditlog](Auditlog.md)                               | Operationen auf Daten loggen.                           |
 | [Base DB Anonymization](Base%20DB%20Anonymization.md) | Inhalt von ausgewählten Datenbank-Felder anonmyisieren. |
 | [Base Search Fuzzy](Base%20Search%20Fuzzy.md)         | Aktivieren Trigram-Index auf Datenbank-Felder.          |
 | [DBFilter From Header](DBFilter%20From%20Header.md)   | Datenbank mit Proxy-Header auswählen.                   |
@@ -120,7 +122,7 @@ Mit einem Klick auf den Namen ihrer Datenbank startet das System mit der Login-M
 
 ### Datenbank ID ändern
 
-Jede Odoo Datenbank wird mit einem Universally unique Identifier (UUID) identifiziert. Beim Kopieren der Datenbank mit dem Datenbankmanager wird jeweils eine neue UUID generiert. Die UUID kann aber auch manuell generiert und festgelegt werden.
+Jede Odoo Datenbank wird mit einem Universally Unique Identifier (UUID) identifiziert. Beim Kopieren der Datenbank mit dem Datenbankmanager wird jeweils eine neue UUID generiert. Die UUID kann aber auch manuell generiert und festgelegt werden.
 
 Im Entwicklermodus navigieren Sie nach _Einstellungen > Technisch > Parameter > Systemparameter_. Auf der Kommandozeile geben Sie den Befehl `uuidgen` ein und legen die generierte UUID als Wert für den Parameter `database.uuid` fest.
 
@@ -181,3 +183,21 @@ Deaktivieren Sie die Synchronisation mit dem Lizenzserver nur auf Testumgebungen
 Ein temporärer Benutzer ist für Externe beispielsweise Finanz-Auditoren bestimmt, die nur für eine bestimmte Zeit Zugriff auf das Odoo System brauchen. Aktive Benutzer auf Odoo Enterprise müssen innerhalb von 30 Tagen lizenziert werden.
 
 Teilen Sie ihrem Odoo Kontakt mit, dass ein neuer aktiver Benutzer erstellt wird und dieser nur temporär zum Einsatz kommt. Der Odoo Kontakt kann die Lizenzprüfung für die gewünschte Zeit unterbrechen. Nach Ablauf der Zeitspanne archivieren Sie den Benutzer. Sie können den Benutzer zu einem späteren Zeitpunkt beispielsweise im Falle einer jährlichen Finanzprüfung wieder aktivieren und den Vorgang wiederholen.
+
+## Ansichten
+
+### Ansicht Anhänge erstellen
+
+Damit Sie eine Übersicht der Anhänge erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+
+Name der Aktion: `Attachments`\
+Objekt: `ir.attachments`\
+Ansichtsmodus: `tree,form`\
+Menü: `Anhänge`\
+Obermenü: `Einstellungen/Technisch/Dialog`\
+Aktion: `ir.actions.act_window` `Attachments`\
+Nummernfolge: `10`
+
+Das Ergebnis sollte so aussehen:
+
+![](attachments/Entwicklung%20Ansicht%20Anhänge.png)

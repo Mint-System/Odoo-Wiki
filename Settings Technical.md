@@ -2,7 +2,9 @@
 title: Einstellungen Technisch
 description: Technische Einstellungen zur Odoo-Datenbank.
 kind: howto
+section: true
 prev: ./settings
+partner: Mint System
 ---
 
 # Einstellungen Technisch

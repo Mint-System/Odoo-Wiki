@@ -2,7 +2,9 @@
 title: Personal Aktivitäten
 description: Aktivitäten für Personal verwalten.
 kind: howto
+section: true
 prev: ./hr
+partner: Mint System
 ---
 
 # Personal Aktivitäten

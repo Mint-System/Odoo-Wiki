@@ -1,19 +1,26 @@
 ---
-title: Account Invoice Prepare
 description: Die PDF Rechnung im Anhang speichern und laden.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: account_invoice_prepare
+partner: Mint System
 prev: ./invoicing
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Account Invoice Prepare
+versions:
+- '18.0'
+- '16.0'
 ---
+
 
 # Account Invoice Prepare
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_invoice_prepare`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/18.0/account_invoice_prepare>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 
@@ -32,7 +39,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Tage\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

@@ -2,7 +2,9 @@
 title: Einstellungen Unternehmen
 description: Mehrere Unternehmen mit Odoo verwalten.
 kind: howto
+section: true
 prev: ./settings
+partner: Mint System
 ---
 
 # Einstellungen Unternehmen

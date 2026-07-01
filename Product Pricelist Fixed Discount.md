@@ -1,10 +1,18 @@
 ---
-title: Product Pricelist Fixed Discount
 description: Festpreise in Preisliste mit Rabatt.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: product_pricelist_fixed_discount
+partner: Mint System
 prev: ./product
+repo: Mint-System/Odoo-Apps-Product-Attribute
+title: Product Pricelist Fixed Discount
+versions:
+- '18.0'
+- '16.0'
+- '14.0'
 ---
+
 
 # Product Pricelist Fixed Discount
 
@@ -12,11 +20,11 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_pricelist_fixed_discount`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/16.0/product_pricelist_fixed_discount>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 
 ### Rabatt auf Preisregel mit Festpreise festlegen
 
-Navigieren Sie nach _Verkauf > Produkte > Preisliste_ und zeigen Sie eine Preisliste an. Öffnen Sie eine Preisregel mit der Option _Ermittle Preis_ auf _Festpreis_. Im Feld _Rabatt_ können Sie zusätzlich einen Wert festlegen, der beispielsweise auf eine Auftragszeile im Verkaufsangebot übertragen werden kann.
+Navigieren Sie nach _Verkauf > Produkte > Preisliste_ und zeigen Sie eine Preisliste an. Öffnen Sie eine Preisregel mit der Option _Ermittle Preis_ auf _Festpreis_. Im Feld _Rabatt_ können Sie zusätzlich einen Wert festlegen, der beispielsweise auf eine Auftragsposition im Verkaufsangebot übertragen werden kann.

@@ -3,7 +3,7 @@ title: Best Practice
 description: Beschreibt wie man bestimmte Anwendungsfälle in Odoo implementiert.
 kind: explain
 prev: ./
-partner: Mint-System
+partner: Mint System
 ---
 
 # Best Practice
@@ -56,7 +56,6 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 - [Odoo Datenmanagement](Best%20Practice%20Odoo%20Data%20Management.md)
 - [Externe ID](Best%20Practice%20External%20ID.md)
-- [Chatter](Best%20Practice%20Chatter.md)
 - [Datumsfelder](Best%20Practice%20Date%20Fields.md)
 - [Direct Print](Best%20Practice%20Direct%20Print.md)
 - [Portal und Backend](Best%20Practice%20Portal%20and%20Backend.md)
@@ -110,7 +109,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 
 ### Projekte
 
-- [Projekte](Best%20Practice%20Projects.md)
+- [Projekte initialisieren](Best%20Practice%20Projects.md)
 - [Aufgabenphasen](Best%20Practice%20Task%20Types.md)
 
 ### Personalabrechung
@@ -122,7 +121,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 ### Verkauf
 
 - [Kit Bereitstellung](Best%20Practice%20Kit%20Provision.md)
-- [Auswertung Auftragszeilen](Best%20Practice%20Analyse%20Sale%20Order%20Lines.md)
+- [Auswertung Auftragspositionen](Best%20Practice%20Analyse%20Sale%20Order%20Lines.md)
 - [Abonnements](Best%20Practice%20Subscriptions.md)
 - [Dienstleistungen mit Nachtzuschlag](Best%20Practice%20Services%20with%20Night%20Surcharge.md)
 - [Verrechnung Spesen](Best%20Practice%20Charge%20Expenses.md)
@@ -136,6 +135,12 @@ Komplexe vertikale Odoo Implementationen werden mit Use Cases beschrieben.
 In der Lebensmittelbranche müssen mehrstufige Qualitätskontrollen für Rohstoffe, Halbfabriakte und Fertigprodukte absolviert werden. In diesem Use Case wird beschrieben wie mit Odoo mehrstufige Routen für den Einkauf, die Fertigung und das Lager konfiguriert werden und wie diese mit der Qualitätskontrolle verknüpft werden.
 
 Hier geht es zum [Use Case - Schokoladenfabrik](Use%20Case%20Chocolate%20Factory.md).
+
+### [Weinhändler](Use%20Case%20Weinhändler.md)
+
+Im Weinhandel müssen gekaufte Weine nicht als Aufwand verbucht werden, sondern als Vermögen (Einkauf=Vermögen und nicht Einkauf=Aufwand). In diesem Use Case wird beschrieben wie Odoo eingerichtet werden kann, damit eine automatische Bestandsbewertung für das Kellerbuch gelingt.
+
+Hier geht es zum [Use Case Weinhändler](Use%20Case%20Weinhändler.md)
 
 ## Beispiel-Daten
 

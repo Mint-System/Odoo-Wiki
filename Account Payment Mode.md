@@ -1,10 +1,21 @@
 ---
-title: Account Payment Mode
 description: Bezahlmethoden definieren.
+forge: github.com
 kind: howto
+name: account_payment_mode
 partner: OCA
 prev: ./accounting
+repo: OCA/bank-payment
+title: Account Payment Mode
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Account Payment Mode
 
@@ -12,8 +23,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_payment_mode`\
-Repository: <https://github.com/OCA/bank-payment/tree/18.0/account_payment_mode>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 
@@ -36,7 +47,7 @@ Navigieren Sie nach _Buchhaltung > Konfiguration > Verwaltung > Zahlungsmodi_. E
 
 Navigieren Sie nach _Buchhaltung > Lieferanten > Rechnungen_ und zeigen Sie eine Lieferantenrechnung an. Treffen Sie im Feld _Zahlungsmodus_ eine Auswahl.
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Zahlungsmethode von Rechnung auf Zahlung übertragen
 
@@ -46,7 +57,7 @@ Name der Aktion: `Zahlungsmethode von Rechnung auf Zahlung übertragen`\
 Modell: `account.payment.register`\
 Auslöser: _Auf Basis von Formularanpassungen_\
 Auslöser-Felder: `journal_id`\
-Folgeaktion: Python-Code ausführen\
+Folgeaktion: Code ausführen\
 Python-Code:
 
 ```python

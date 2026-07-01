@@ -1,10 +1,16 @@
 ---
-title: HR Vehicle Request
 description: Fahrzeuganfragen für Mitarbeitende verwalten.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: hr_vehicle_request
+partner: Mint System
 prev: ./hr
+repo: Mint-System/Odoo-Apps-HR
+title: HR Vehicle Request
+versions:
+- '14.0'
 ---
+
 
 # HR Vehicle Request
 
@@ -12,8 +18,8 @@ prev: ./hr
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_vehicle_request`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/14.0/hr_vehicle_request>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 
@@ -37,7 +43,7 @@ Navigieren Sie nach _Personal > Fahrzeuganfrage > Fahrzeuganfrage_ und filtern S
 
 Öffnen Sie ihre _Fahrzeuganfrage_ unter Personal > Fahrzeuganfrage > Fahrzeuganfrage* und klicken Sie auf *Retournieren\*.
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Fahrzeuganfrage automatisch bestätigen
 
@@ -50,7 +56,7 @@ Modell: `employee.fleet`\
 Auslöser: Beim Aktualisieren\
 Trigger-Felder: `state`\\
 Anzuwenden auf: `["&",["state","=","waiting"],["vehicle_id.model_id.vehicle_type","=","cable_car"]]`\
-Folgeaktion: Python-Code ausführen\
+Folgeaktion: Code ausführen\
 Python Code:
 
 ```python

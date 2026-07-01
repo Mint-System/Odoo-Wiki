@@ -4,11 +4,12 @@ description: Wiederkehrende Rechnungsstellung und Management von Abonnenten auf 
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Abonnemente
 
-![icons_odoo_account_invoicing](attachments/icons_odoo_account_invoicing.png)
+![icons_odoo_sale_subscription](attachments/icons_odoo_sale_subscription.png)
 
 {{ $frontmatter.description }}
 
@@ -22,11 +23,15 @@ Website: <https://www.odoo.com/de_DE/app/subscriptions>
 
 ## Erweiterungen
 
-| Erweiterung                                                                               | Beschreibung                                                         |
-| ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [Sale Subscription Disable Tokenization](Sale%20Subscription%20Disable%20Tokenization.md) | Abonnements mit Zahlungsanbieter ohne wiederkehrende Zahlung kaufen. |
-| [Sale Subscription Partner Pricelist](Sale%20Subscription%20Partner%20Pricelist.md)       | Preislisten-Zugriff mit Abonnements erteilen.                        |
-| [Sale Subscription Period Discount](Sale%20Subscription%20Period%20Discount.md)           | Erste Abonnementrechnung mit zeitbasiertem Rabatt.                   |
+| Erweiterung                                                                                                   | Beschreibung                                                                       |
+| ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [Sale Subscription Disable Tokenization](Sale%20Subscription%20Disable%20Tokenization.md)                     | Abonnements mit Zahlungsanbieter ohne wiederkehrende Zahlung kaufen.               |
+| [Sale Subscription Partner Pricelist](Sale%20Subscription%20Partner%20Pricelist.md)                           | Preislisten-Zugriff mit Abonnements erteilen.                                      |
+| [Sale Subscription Period Discount](Sale%20Subscription%20Period%20Discount.md)                               | Erste Abonnementrechnung mit zeitbasiertem Rabatt.                                 |
+| [Sale Subscription Pricelist Fixed Discount](Sale%20Subscription%20Pricelist%20Fixed%20Discount.md)           | Stellt die Rabatt-Funktion für Abonnment wieder her.                               |
+| [Sale Subscription Disable Next Invoice Closing](Sale%20Subscription%20Disable%20Next%20Invoice%20Closing.md) | Verhindert Schliessung von Abonnements mit nächster Rechnung in der Vergangenheit. |
+| [Sale Subscription Disable Unpaid Closing](Sale%20Subscription%20Disable%20Unpaid%20Closing.md)               | Verhindert Schliessung von Abonnements mit offenen Rechnungen.                     |
+| [Sale Subscription Billing Period Display](Sale%20Subscription%20Billing%20Period%20Display.md)               | Stellt die Einheit der Laufzeit mit korrektem Singular/Plural dar.                 |
 
 ## Verwendung
 
@@ -68,7 +73,16 @@ Führen Sie [Filter manuell anlegen](Development%20Views.md#Filter%20manuell%20a
 | Domain            | `["&", ("renew_state", "=", "renewing"), "&", ("state", "=", "draft"), ("subscription_management", "=", "renew")]` |
 | Kontext           | `{'group_by': []}`                                                                                                 |
 
-## Auswertung
+## Ansichten
+
+### Auftragspositionen anzeigen
+
+Damit Sie eine Übersicht der Auftragspositionen erhalten, folgen Sie dem HowTo [Menüposten erstellen](Development.md#Menüposten%20erstellen) und verwenden diese Werte:
+
+Menü: `Auftragspositionen`\
+Obermenü: `Verkauf/Aufträge`\
+Aktion: `ir.actions.act_window` `Auftragspositionen`\
+Sequenz: `50`
 
 ### Wiederkehrende Buchungszeilen anzeigen
 

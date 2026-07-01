@@ -2,7 +2,9 @@
 title: Kundendienst Aktionen
 description: Arbeitsflüsse im Kundendienst automatisieren.
 kind: howto
-prev: ./dialog
+section: true
+prev: ./discuss
+partner: Mint System
 ---
 
 # Kundendienst Aktionen
@@ -11,7 +13,7 @@ prev: ./dialog
 
 {{ $frontmatter.description }}
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Bei Verkaufsauftrag ein Ticket erstellen
 

@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - partner == "Mint System"
+    order:
+      - file.name
+      - partner
+      - prev
+      - versions
+    sort:
+      - property: partner
+        direction: DESC
+      - property: tags
+        direction: DESC

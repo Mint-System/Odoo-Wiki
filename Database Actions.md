@@ -2,9 +2,9 @@
 title: Datenbank Aktionen
 description: Aktion für die Datenbank ausführen.
 kind: howto
-tags:
-  - Actions
+section: true
 prev: ./database
+partner: Mint System
 ---
 
 # Datenbank Aktionen
@@ -17,11 +17,11 @@ prev: ./database
 
 Diese Aktion zeigt die Datenbank-Locks auf der `ir_cron`-Tabelle.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Cron-Lock anzeigen`\
 Modell: `ir.actions.server`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -36,11 +36,11 @@ raise UserError(["Result", res])
 
 Diese Aktion entfernt Datenbank-Locks auf der `ir_cron`-Tabelle.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Cron-Lock entfernen`\
 Modell: `ir.actions.server`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

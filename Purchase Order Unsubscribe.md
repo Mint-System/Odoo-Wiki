@@ -1,10 +1,18 @@
 ---
-title: Purchase Order Unsubscribe
 description: Alle Abonnenten nach Bestätigung der Bestellung entfernen.
+forge: github.com
 kind: howto
-partner: Mint-System
-prev: ./dialog
+name: purchase_order_unsubscribe
+partner: Mint System
+prev: ./discuss
+repo: Mint-System/Odoo-Apps-Social
+title: Purchase Order Unsubscribe
+versions:
+- '17.0'
+- '16.0'
+- '14.0'
 ---
+
 
 # Purchase Order Unsubscribe
 
@@ -12,8 +20,8 @@ prev: ./dialog
 
 {{ $frontmatter.description }}
 
-Technischer Name: `purchase_order_unsubscribe`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/17.0/purchase_order_unsubscribe>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

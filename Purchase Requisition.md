@@ -4,6 +4,7 @@ description: Kaufverträge für Rahmenbestellungen erstellen.
 kind: howto
 prev: ./
 partner: OCA
+extensions: true
 ---
 
 # Einkauf Kaufverträge

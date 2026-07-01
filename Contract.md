@@ -1,10 +1,21 @@
 ---
-title: Verträge
 description: Wiederholende Verträge verwalten und automatisch verrechnen.
+forge: github.com
 kind: howto
-prev: ./
+name: contract
 partner: OCA
+prev: ./
+repo: OCA/contract
+title: Verträge
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Verträge
 
@@ -12,18 +23,20 @@ partner: OCA
 
 {{ $frontmatter.description }}
 
-Technischer Name: `contract`\
-Repository: <https://github.com/OCA/contract/tree/18.0/contract>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Erweiterungen
 
 | Erweiterung                                                         | Beschreibung                                                  |
 | ------------------------------------------------------------------- | ------------------------------------------------------------- |
 | [Contract Format Date Marker](Contract%20Format%20Date%20Marker.md) | Datum aus Vertragszeile in Rechnung anzeigen und formatieren. |
+| [Contract Invoice Cash Rounding Default](Contract%20Invoice%20Cash%20Rounding%20Default.md) | Bargeldrundungsmethode setzen für Rechnungen aus Verträgen.   |                                      |                                                               |
 | [Contract Sale Generation](Contract%20Sale%20Generation.md)         | Aus wiederholenden Verträge Verkaufsangebote generieren.      |
 | [Contract Sale](Contract%20Sale.md)                                 | Zugriff auf Verträge für Verkaufsmitarbeitende.               |
 | [Product Contract](Product%20Contract.md)                           | Verknüpfung von Verkaufsaufträgen mit Kundenverträgen (OCA).  |
 | [Subscription OCA](Subscription%20OCA.md)                           | OCA-Alternative für Abonnemente.                              |
+| [Subscription OCA Section](Subscription%20OCA%20Section.md)         | Notizen und Abschnitte für Abonnements-Posten.
 
 ## Verwendung
 
@@ -71,11 +84,11 @@ Rufen Sie _Buchhaltung > Lieferanten > Lieferantenverträge_ auf und wählen Sie
 
 ### Rechnung anlegen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Rechnung anlegen`\
 Modell: `contract.contract`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

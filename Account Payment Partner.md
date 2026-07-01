@@ -1,10 +1,20 @@
 ---
-title: Account Payment Partner
 description: Zahlungsmodus auf Kontakt festlegen.
+forge: github.com
 kind: howto
+name: account_payment_partner
 partner: OCA
 prev: ./accounting
+repo: OCA/bank-payment
+title: Account Payment Partner
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Account Payment Partner
 
@@ -12,8 +22,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_payment_partner`\
-Repository: <https://github.com/OCA/bank-payment/tree/18.0/account_payment_partner>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 
@@ -34,7 +44,7 @@ Navigieren Sie nach _Buchhaltung > Konfiguration > Zahlungsmodi_ und erstellen S
 
 Navigieren Sie nach _Kontakte_ und zeigen Sie einen Eintrag an. Im Tab _Verkauf & Einkauf_ finden Sie das Feld _Zahlungsmethode des Lieferanten_. Legen Sie hier den Standard-Zahlungsmodus fest.
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Zahlungsmodus auf Kundenrechnung festlegen
 

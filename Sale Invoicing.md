@@ -2,7 +2,9 @@
 title: Verkauf Abrechnung
 description: Verkaufsaufträge unkompliziert abrechnen.
 kind: howto
+section: true
 prev: ./sale
+partner: Mint System
 ---
 
 # Verkauf Abrechnung
@@ -65,10 +67,10 @@ Nun wird für jeden Positionen in den Verkaufsaufträgen eine Rechnungsposition 
 
 ### Angebot einem bestehenden Projekt zuweisen
 
-Wenn Sie Dienstleistungen im Angebot haben, die eine Projektaufgabe generieren und Sie diese einem bestehenden Projekt zuordnen möchten, zeigen Sie den Tab _Weitere Informationen_ an. Wählen Sie im Feld _Projekt_ ein bestehendes Projekt aus. Beim Bestätigen des Angebots wird die Aufgabe im gewählten Projekt erstellt und mit der Auftragszeile verbunden.
+Wenn Sie Dienstleistungen im Angebot haben, die eine Projektaufgabe generieren und Sie diese einem bestehenden Projekt zuordnen möchten, zeigen Sie den Tab _Weitere Informationen_ an. Wählen Sie im Feld _Projekt_ ein bestehendes Projekt aus. Beim Bestätigen des Angebots wird die Aufgabe im gewählten Projekt erstellt und mit der Auftragsposition verbunden.
 
 ![](attachments/Verkauf%20Projekt%20auswählen.png)
 
 ::: tip
-Das Feld _Projekt_ wird nur angezeigt, wenn eine Auftragszeile eine Dienstleistung enthält, die zur Abrechnung eine Projekt oder Projektaufgabe erstellt.
+Das Feld _Projekt_ wird nur angezeigt, wenn eine Auftragsposition eine Dienstleistung enthält, die zur Abrechnung eine Projekt oder Projektaufgabe erstellt.
 :::

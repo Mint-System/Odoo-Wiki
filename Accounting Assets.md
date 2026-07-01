@@ -2,7 +2,9 @@
 title: Buchhaltung Anlagenverwaltung
 description: Anlagen verwalten und automatisch Abschreibungen erstellen.
 kind: howto
+section: true
 prev: ./accounting
+partner: Mint System
 ---
 
 # Buchhaltung Anlagenverwaltung

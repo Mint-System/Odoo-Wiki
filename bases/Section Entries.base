@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - section == true
+    order:
+      - file.name
+      - prev
+      - versions
+    sort:
+      - property: tags
+        direction: DESC
+    columnSize:
+      file.name: 424

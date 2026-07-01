@@ -2,9 +2,9 @@
 title: Entwicklung Aktionen
 description: Eigene Odoo Aktionen erstellen.
 kind: howto
-tags:
-  - Actions
+section: true
 prev: ./development
+partner: Mint System
 ---
 
 # Entwicklung Aktionen
@@ -102,11 +102,11 @@ Dokumentieren Sie die Anpassung von Aktionen. Bei einer Aktualisierung der Modul
 
 ### Feld neu berechnen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Feld neu berechnen`\
 Modell: `ir.model.fields`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -122,11 +122,11 @@ In der Liste der Felder erscheint nun in der Auswahl _Aktion_ das Menu _Feld neu
 
 ### Ansicht Zugriffsrechte aktualisieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Ansicht Zugriffsrechte aktualisieren`\
 Modell: `ir.actions.server`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -138,11 +138,11 @@ Speichern Sie die Aktion und führen Sie diese direkt mit _Starten_ aus.
 
 ### Vererbte Ansichten entfernen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Vererbte Ansichten entfernen`\
 Modell: `ir.ui.view`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -154,11 +154,11 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 ### Compose E-Mail
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Compose E-Mail`\
 Modell: Referenz gemäss Dokument\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 ```python
 if record:
@@ -195,7 +195,7 @@ Mit diesem Knopf können Sie den E-Mail-Dialog öffnen.
 
 ![Entwicklung Aktionen Compose E-Mail](attachments/Entwicklung%20Aktionen%20Compose%20E-Mail.gif)
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Beim Aktualisieren eine Validierung ausführen
 

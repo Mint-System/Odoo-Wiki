@@ -3,6 +3,7 @@ title: Ferien- und Überstundensaldo
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Ferien- und Überstundensaldo

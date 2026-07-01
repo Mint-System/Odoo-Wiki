@@ -1,10 +1,20 @@
 ---
-title: MIS Builder Cash Flow
 description: Geldfluss-Bericht für Odoo Community.
+forge: github.com
 kind: howto
+name: mis_builder_cash_flow
 partner: OCA
 prev: ./dashboards
+repo: OCA/account-financial-reporting
+title: MIS Builder Cash Flow
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # MIS Builder Cash Flow
 
@@ -12,8 +22,8 @@ prev: ./dashboards
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mis_builder_cash_flow`\
-Repository: <https://github.com/OCA/account-financial-reporting/tree/17.0/mis_builder_cash_flow>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

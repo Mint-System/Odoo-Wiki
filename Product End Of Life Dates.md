@@ -1,10 +1,17 @@
 ---
-title: Product End Of Life Dates
 description: Datum für Ende Support, Verkauf und Bestand auf Produkt festlegen.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: product_end_of_life_dates
+partner: Mint System
 prev: ./product
+repo: Mint-System/Odoo-Apps-Product-Attribute
+title: Product End Of Life Dates
+versions:
+- '17.0'
+- '15.0'
 ---
+
 
 # Product Name Sequence
 
@@ -12,8 +19,8 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_end_of_life_dates`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/17.0/product_end_of_life_dates>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

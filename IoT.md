@@ -4,6 +4,7 @@ description: Alles, was das "Internet der Dinge (IoT)" bietet.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # IoT

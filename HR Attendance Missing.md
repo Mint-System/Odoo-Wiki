@@ -1,10 +1,17 @@
 ---
-title: HR Attendance Missing
 description: Fehlende Anwesenheiten erstellen.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: hr_attendance_missing
+partner: Mint System
 prev: ./hr-attendance
+repo: Mint-System/Odoo-Apps-HR
+title: HR Attendance Missing
+versions:
+- '17.0'
+- '16.0'
 ---
+
 
 # HR Attendance Missing
 
@@ -12,8 +19,8 @@ prev: ./hr-attendance
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_attendance_missing`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_attendance_missing>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Seit #Odoo18 wird diese App nicht mehr benötigt. 
@@ -24,9 +31,9 @@ Seit #Odoo18 wird diese App nicht mehr benötigt.
 
 Wenn Mitarbeitende vergessen ihre Anwesenheit zu erfassen, registriert Odoo keine Minusstunden. Mit dieser Erweiterung wird in einem ausgewählten Zeitraum für jeden Tag geprüft, ob der Mitarbeitende Soll-Arbeitszeit hat und ob keine Abwesenheiten (Urlaub, Feiertag, Krank ...) registriert wurden. Wenn dies der Fall ist, wird für den jeweiligen Tag eine Anwesenheit mit 0 Stunden erstellt und dementsprechend Überstunden berechnet.
 
-Die Erweiterung instaliert eine geplante Aktion, die täglich für alle Mitarbeitenden fehlende Anwesenheiten zum Vortag generiert.
+Die Erweiterung installiert eine geplante Aktion, die täglich für alle Mitarbeitenden fehlende Anwesenheiten zum Vortag generiert.
 
-## Konfugration
+## Konfiguration
 
 ### Abwesenheitsart ignorieren
 

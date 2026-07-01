@@ -2,9 +2,8 @@
 title: Mitarbeit
 description: Das Odoo Wiki erweitern.
 tags:
-  - Readme
 prev: ./
-partner: Mint-System
+partner: Mint System
 ---
 
 # Mitarbeit
@@ -29,7 +28,7 @@ Hier finden Sie technische Konfigurationen damit Sie an der Wissensdatenbank mit
 4. Installieren Sie <https://git-scm.com/>
 5. Verwenden Sie ihren bestehenden SSH-Schlüssel oder erstellen Sie ein neues SSH-Schlüsselpaar <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
 6. Forken Sie das _Odoo Wiki_ Repository (optional)
-7. Klonen Sie das \*Odoo Wiki Repository
+7. Klonen Sie das Odoo Wiki Repository
 
 ```bash
 git clone git@github.com:Mint-System/Odoo-Wiki.git
@@ -75,19 +74,19 @@ Die Beschreibungen und Anleitungen sind ausführlich und kommen ohne Abkürzunge
 
 ### Navigations-Anweisungen
 
-Die Navigations-Anweisungen müssen genauso erstellt werden:
+Die Navigations-Anweisungen müssen ausgeschrieben und diesem Format erstellt werden:
 
-🚫"Fertigung/Stammdaten/Stückliste"  
+🟥 "Fertigung/Stammdaten/Stückliste"  
 ✅ "Navigieren Sie nach _Fertigung > Stammdaten > Stückliste_ und klicken Sie auf _+ Anliegen_."
 
-Pfade und Bezeichnungen werden kursiv geschrieben.
+Pfade und Bezeichnungen werden kursiv geschrieben:
 
-🚫 Drücken Sie auf "+ Anlegen"  
+🟥 Drücken Sie auf "+ Anlegen"  
 ✅ Drücken Sie auf _+ Anlegen_
 
 Bezeichnungen die gross geschrieben sind, werden nur mit Anfangsbuchstanden gross geschrieben.
 
-🚫 Drücken Sie auf _ALS ERLEDIGT MARKIEREN_
+🟥 Drücken Sie auf _ALS ERLEDIGT MARKIEREN_  
 ✅ Drücken Sie auf _Als Erledigt Markieren_
 
 ### Info-Boxen
@@ -124,7 +123,7 @@ Wenn der Seiteninhalt nicht mehr überschaubar ist, kann ein Inhaltsverzeichnis 
 
 ### Veraltete Inhalte
 
-Wenn Apps verwaltet sind, können Sie diese wie folgt markieren:
+Wenn Apps veraltet sind, können Sie diese wie folgt markieren:
 
 ```
 ::: warning
@@ -150,9 +149,16 @@ Wenn die Funktion der App Teil von einer anderen App geworden ist, können Sie d
 Seit #Odoo18 ist diese App Teil von [Mail Unsubscribe].
 #DEPRECATED
 :::
+
+::: warning
+Diese Funktion wurde Teil von [Project Menu].
+#DEPRECATED
+:::
 ```
 
 ### Bilder
+
+Verwenden Sie so wenig Bilder wie möglich. Die Odoo Benutzer-Oberfläche ändert sich mit jeder Version. Text sind schneller angepasst als Bilder. 
 
 Bilder sind im optimal im PNG-Format und mit Auflösung 800x500 gespeichert.  
 Für Animationen kann das GIF-Format verwendet werden.

@@ -1,19 +1,29 @@
 ---
-title: Product Contract
 description: Verbindet Produkte mit Kundenverträgen.
+forge: github.com
 kind: howto
+name: product_contract
 partner: OCA
 prev: ./contract
+repo: OCA/contract
+title: Product Contract
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Product Contract
 
-![icon_oms_box](../attachments/icons_odoo_mint_system.png)
+![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_contract`\
-Repository: <https://github.com/OCA/https://github.com/OCA/contract/tree/17.0/product_contract/tree/17.0/product_contract>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 
@@ -51,11 +61,11 @@ Die Rechnung zu einem Verkaufsauftrag enthält nur die Nicht-Vertragsprodukte.
 
 ### Wiederkehrendes Produkt in Vertrag umwandeln
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Wiederkehrendes Produkt in Vertrag umwandeln`\
 Modell: `product.template`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

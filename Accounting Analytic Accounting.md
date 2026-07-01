@@ -2,7 +2,9 @@
 title: Buchhaltung Kostenrechnung
 description: Kosten analysieren und Budget planen.
 kind: howto
+section: true
 prev: ./accounting
+partner: Mint System
 ---
 
 # Buchhaltung Kostenrechnung

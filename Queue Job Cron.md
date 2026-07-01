@@ -1,10 +1,21 @@
 ---
-title: Queue Job Cron
 description: Cron Jobs asynchron ausführen.
+forge: github.com
 kind: howto
+name: queue_job_cron
 partner: OCA
 prev: ./development
+repo: OCA/queue
+title: Queue Job Cron
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Queue Job Cron
 
@@ -12,8 +23,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `queue_job_cron`\
-Repository: <https://github.com/OCA/queue/tree/18.0/queue_job_cron>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

@@ -1,10 +1,21 @@
 ---
-title: EBICS banking protocol
 description: Connect Odoo with bank account through EBICS.
+forge: github.com
 kind: howto
+name: account_ebics
 partner: Thirdparty
 prev: ./accounting
+repo: Noviat/account_ebics
+title: EBICS banking protocol
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # EBICS banking protocol
 
@@ -12,9 +23,9 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_ebics`\
+Technischer Name: {{ $frontmatter.name }}\
 Website: <https://apps.odoo.com/apps/modules/18.0/account_ebics>\
-Repository: <https://github.com/Noviat/account_ebics/tree/18.0/account_ebics>
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 
@@ -48,17 +59,18 @@ Validieren Sie den Konfigurations-Eintrag mit _Confirm_.
 
 ### INI/HIA-Brief erstellen
 
-Rufen Sie eine bestehende EBICS-Konfiguration auf. Im Tab EBICS UserID\* erstellen Sie einen Eintrag mit diesen Angaben
+Rufen Sie eine bestehende EBICS-Konfiguration auf. Im Tab _EBICS UserID_ erstellen Sie einen Eintrag mit diesen Angaben
 
 - **EBICS UserID**: Parameter heisst auch Teilnehmer-ID/Partner ID
 - **EBICS Passphrase**: Gib ein Password zur Verschlüsselung der Zertifikatsdaten ein
-- **USers**: Diese Odoo-Benutzer erhalten Zugriff auf den Teilnehmer
+- **Users**: Diese Odoo-Benutzer erhalten Zugriff auf den Teilnehmer
+- **EBICS Keys Root**: Stellen Sie sicher, dass dieser Pfad auf der Odoo-Instanz existiert. Verwenden Sie `/var/lib/odoo` als Standard.
 
 ![](attachments/EBICS%20Configuration.png)
 
-Wählen Sie die Aktion **EBICS Initialisation**. Laden Sie den Brief im Feld _EBICS INI Letter_ herunter.
+Wählen Sie die Aktion *EBICS Initialisation*. Laden Sie den Brief im Feld _EBICS INI Letter_ herunter.
 
-Unterschreiben und senden Sie den Brief an ihre Bank.
+Unterschreiben Sie den Brief und senden Sie diesen an ihre Bank.
 
 ### Banken-Schlüssel herunterladen und verifizieren
 
@@ -68,7 +80,7 @@ Wenn der EBICS-Teilnehmer aktiviert wurde können Sie die Banken-Schlüssel heru
 Wenn der Teilnehmer bereits aktiviert wurde, wählen Sie _Renew Bank Keys_.
 :::
 
-Nun erhalten Sie eine Datei _EBICS Public Bank Keys_. Öffenen Sie diese Datei und Vergleichen Sie Schlüssel-Informationen mit den Bankparameterblatt.
+Nun erhalten Sie eine Datei _EBICS Public Bank Keys_. Öffnen Sie diese Datei und Vergleichen Sie Schlüssel-Informationen mit den Bankparameterblatt.
 
 Bestätigen Sie die Schlüssel mit _Bank Keys Verified_.
 
@@ -100,11 +112,11 @@ Im Tab _Bank Statements_ sehen Sie den importierten Bankauszug. Klicken Sie auf 
 
 ### Zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Zurücksetzen`\
 Modell: `ebics.file`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -178,7 +190,7 @@ Korrigieren Sie den Abfrage-Zeitraum.
 
 **Problem**
 
-Beim Verabeiten der Download-Dateien erscheint diese Meldung:
+Beim Verarbeiten der Download-Dateien erscheint diese Meldung:
 
 ```
 Errors:
@@ -188,3 +200,35 @@ Currency CHF not found.
 **Lösung**
 
 Stellen Sie sicher, dass Währung im Bank-Journal aktiviert ist.
+
+### Certificate has expired
+
+**Problem**
+
+Bei der Aktion [Banken-Schlüssel herunterladen und verifizieren](#Banken-Schlüssel%20herunterladen%20und%20verifizieren) wird dieser Fehler geworfen:
+
+```
+EBICS Initialisation Error:
+<class 'ssl.SSLCertVerificationError'>
+('[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)',)
+```
+
+**Lösung**
+
+Kontaktieren Sie ihre Bank. Es ist vermutlich ein Zertifikat der Bank abgelaufen.
+
+### Urlopen error timed out
+
+**Problem**
+
+Bei der Initialisierung liefert der Aufruf der EBICS Url keine Response.
+
+Verifizierung: Auf dem Host-Server gibt der Aufruf
+```
+curl -I $EBICS_URL
+```
+keine Antwort zurück.
+
+**Lösung**
+
+Kontaktieren Sie Ihre Bank. Evtl. wird Ihre IP von der Bank nicht akzeptiert.

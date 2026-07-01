@@ -2,7 +2,9 @@
 title: Website Aktionen
 description: Automatisierung der Website-Vorgänge.
 kind: howto
+section: true
 prev: ./website
+partner: Mint System
 ---
 
 # Website Aktionen
@@ -15,11 +17,11 @@ prev: ./website
 
 ### Zahlungstransaktion zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Zahlungstransaktion zurücksetzen`\
 Modell: `payment.transaction`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 ```python
 records.write({'state': 'draft', 'last_state_change': False})
@@ -38,7 +40,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Tag\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 03:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -54,7 +56,7 @@ log("Delete sale order carts: %s" %  delete_cart_ids.mapped("name"), level='info
 delete_cart_ids.unlink()
 ```
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Website Zahlungsreferenz entfernen
 
@@ -62,14 +64,30 @@ Wenn Sie verhindern möchten, dass die Zahlungsreferenz auf Aufträgen erstellt 
 
 Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Automatische Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-**Name**: `Website Zahlungsreferenz entfernen`\
-**Modell**: `sale.order`\
-**Auslöser**: `Bei Erstellung und Aktualisierung`\
-**Trigger-Felder**: `reference`
-**Folgeaktion**: `Den Datensatz aktualisieren`
+- **Name**: `Website Zahlungsreferenz entfernen`
+- **Modell**: `sale.order`
+- **Auslöser**: `Bei Erstellung und Aktualisierung`
+- **Trigger-Felder**: `reference`
+- **Folgeaktion**: `Den Datensatz aktualisieren`
 
 Zu schreibende Daten:
 
 - **Feld**: `reference`
 - **Bewertungstyp**: Python Ausdruck
 - **Wert**: `''`
+
+### Website Bestellungen bestätigen
+
+Aufträge mit Zahlungsanbieter Banküberweisung automatisch bestätigen.
+
+Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Automatische Aktionen_ und erstellen Sie einen neuen Eintrag:
+
+- **Name**: `Website Bestellungen bestätigen`
+- **Modell**: `sale.order`
+- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Domain vor Aktualisierung**: `[("website_id", "!=", False)]`
+- **Anzuwenden auf**: `[("state", "=", "sent")]`
+- **Bei der Aktualisierung**: `state`
+- **Folgeaktionen**: Datensatz aktualisieren
+	- **Aktion**: Berechnen
+	- **Code**: `record.action_confirm()`

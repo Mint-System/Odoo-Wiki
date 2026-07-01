@@ -2,7 +2,9 @@
 title: Spesen Aktionen
 description: Aktionen für Spesen App einrichten.
 kind: howto
+section: true
 prev: ./hr-attendance
+partner: Mint System
 ---
 
 # Spesen Aktionen
@@ -15,11 +17,11 @@ prev: ./hr-attendance
 
 ### Spesenabrechnung zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Spesenabrechnung zurücksetzen`\
 Modell: `hr.expense.sheet`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 

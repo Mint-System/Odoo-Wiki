@@ -2,7 +2,7 @@
 title: Sale Partner Shipping Group
 description: Zugriffsgruppe für die Lieferadresse bei Verkaufsaufträgen und Rechnungen.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./sale
 ---
 

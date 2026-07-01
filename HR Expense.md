@@ -4,6 +4,7 @@ description: Spesen erfassen und abrechnen.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Spesen

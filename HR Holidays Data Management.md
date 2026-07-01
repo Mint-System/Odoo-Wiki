@@ -2,7 +2,9 @@
 title: Abwesenheiten Datenmanagement
 description: Daten zu Abwesenheit exportieren und importieren.
 kind: howto
+section: true
 prev: ./hr-holidays
+partner: Mint System
 ---
 
 # Abwesenheiten Datenmanagement

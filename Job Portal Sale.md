@@ -1,10 +1,16 @@
 ---
-title: Job Portal Sale
 description: Stelleninserate verrechnen.
+forge: github.com
 kind: howto
+name: job_portal_sale
 partner: Sozialinfo
 prev: ./
+repo: Sozialinfo/Odoo-Apps-Sozialinfo
+title: Job Portal Sale
+versions:
+- '16.0'
 ---
+
 
 # Job Portal Sale
 
@@ -12,18 +18,18 @@ prev: ./
 
 {{ $frontmatter.description }}
 
-Technischer Name: `job_portal_sale`\
-Repository: <https://github.com/Sozialinfo/Odoo-Apps-Sozialinfo/tree/16.0/job_portal_sale>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Aktionen
 
 ### Verkaufsauftrag erstellen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Verkaufsauftrag erstellen`\
 Modell: `job_portal.joboffer`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -36,13 +42,13 @@ Im Tab _Sicherheit_ fügen Sie die Gruppe _Stellenportal / Administrator_ hinzu.
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-### Beschreibung Auftragszeile generieren
+### Beschreibung Auftragsposition generieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Beschreibung Auftragszeile generieren`\
+Name der Aktion: `Beschreibung Auftragsposition generieren`\
 Modell: `sale.order`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -75,7 +81,7 @@ for rec in records.filtered(lambda r: r.joboffer_id):
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Angebot automatisch bestätigen
 

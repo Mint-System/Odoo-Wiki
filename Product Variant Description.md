@@ -1,10 +1,17 @@
 ---
-title: Product Variant Description
 description: Verkaufs-, Einkaufs- und Lieferbeschreibung auf Produktvarianten festlegen.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: product_variant_description
+partner: Mint System
 prev: ./product
+repo: Mint-System/Odoo-Apps-Product-Attribute
+title: Product Variant Description
+versions:
+- '17.0'
+- '15.0'
 ---
+
 
 # Product Variant Description
 
@@ -12,8 +19,8 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_variant_description`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/17.0/product_variant_description>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

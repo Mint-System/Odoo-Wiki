@@ -2,8 +2,8 @@
 title: Payment Payrexx
 description: Payrexx Payment Provider Plugin von Soludoo.
 kind: howto
-partner: Mint-System
-prev: ./website-e-commerce
+partner: Thirdparty
+prev: ./website-sale
 ---
 
 # Payment Payrexx
@@ -13,5 +13,4 @@ prev: ./website-e-commerce
 {{ $frontmatter.description }}
 
 Technischer Name: `pits_payment_saferpay`\
-Website: <https://apps.odoo.com/apps/modules/16.0/payment_payrexx/>\
-Repository: <https://gitlab.com/mint-system/odoo-apps-thirdparty/-/tree/16.0/payment_payrexx>
+Website: <https://apps.odoo.com/apps/modules/16.0/payment_payrexx/>

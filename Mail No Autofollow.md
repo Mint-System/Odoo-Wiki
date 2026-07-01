@@ -1,10 +1,19 @@
 ---
-title: Mail No Autofollow
 description: Beim Erstellen von Nachrichten erfolgt keine automatische Abonnierung.
+forge: github.com
 kind: howto
-partner: Mint-System
-prev: ./dialog
+name: mail_no_autofollow
+partner: Mint System
+prev: ./discuss-e-mail
+repo: Mint-System/Odoo-Apps-Social
+title: Mail No Autofollow
+versions:
+- '18.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Mail No Autofollow
 
@@ -12,8 +21,8 @@ prev: ./dialog
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_no_autofollow`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Social/tree/16.0/mail_no_autofollow>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Die Funktionen dieser App sind limitiert, verwenden Sie [Mail Unsubscribe](Mail%20Unsubscribe.md) für weitere Optionen.

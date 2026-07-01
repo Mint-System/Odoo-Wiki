@@ -2,7 +2,9 @@
 title: Zeiterfassung Ansichten
 description: Ansichten der Zeiterfassung anpassen.
 kind: howto
+section: true
 prev: ./hr-timesheet
+partner: Mint System
 ---
 
 # Zeiterfassung Ansichten

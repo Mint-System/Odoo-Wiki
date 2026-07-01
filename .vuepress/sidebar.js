@@ -14,11 +14,12 @@ export default [
   "hr-appraisal.md",
   "accounting.md",
   "connector.md",
+  "crm.md",
   "dashboards.md",
   "database.md",
   "data-cleaning.md",
   "data-management.md",
-  "dialog.md",
+  "discuss.md",
   "documents.md",
   "purchase.md",
   "settings.md",
@@ -32,12 +33,10 @@ export default [
   "point-of-sale.md",
   "contacts.md",
   "helpdesk.md",
-  "crm.md",
   "stock.md",
   "link-tracker.md",
   "marketing-automation.md",
   "membership.md",
-  "navigation.md",
   "note.md",
   "odoo-mobile-app.md",
   "hr.md",
@@ -60,10 +59,12 @@ export default [
   "survey.md",
   "event.md",
   "sale.md",
+  "sale-renting.md",
   "delivery.md",
   "maintenance.md",
+  "web.md",
   "website.md",
-  "website-e-commerce.md",
+  "website-sale.md",
   "shoopfloor.md",
   "knowledge.md",
   "hr-timesheet.md",
@@ -74,6 +75,7 @@ export default [
   "forestry-base.md",
   "job-portal-base.md",
   "legal-advice-base.md",
+  "kubernetes.md",
   "license.md",
   "management-system.md",
   "order-positions.md",
@@ -146,11 +148,18 @@ export default [
         ]
       },
       {
+        "text": "Data Cleaning",
+        "collapsible": true,
+        "children": [
+          "data-cleaning-actions.md"
+        ]
+      },
+      {
         "text": "Data Management",
         "collapsible": true,
         "children": [
           "hr-holidays-data-management.md",
-          "dialog-datenmanagement.md",
+          "discuss-datenmanagement.md",
           "settings-data-management.md",
           "manufacture-data-management.md",
           "partner-data-management.md",
@@ -160,13 +169,13 @@ export default [
         ]
       },
       {
-        "text": "Dialog",
+        "text": "Discuss",
         "collapsible": true,
         "children": [
-          "dialog-actions.md",
-          "dialog-activities.md",
-          "dialog-datenmanagement.md",
-          "dialog-e-mail.md"
+          "discuss-actions.md",
+          "discuss-activities.md",
+          "discuss-datenmanagement.md",
+          "discuss-e-mail.md"
         ]
       },
       {
@@ -227,6 +236,7 @@ export default [
         "children": [
           "manufacture-actions.md",
           "manufacture-data-management.md",
+          "manufacture-planning.md",
           "manufacture-operations.md"
         ]
       },
@@ -266,6 +276,7 @@ export default [
         "children": [
           "stock-actions.md",
           "stock-inventory.md",
+          "lager-bewertung.md",
           "stock-data-management.md",
           "stock-packaging.md",
           "stock-operations.md",
@@ -294,6 +305,7 @@ export default [
         "text": "Product",
         "collapsible": true,
         "children": [
+          "product-data-management.md",
           "product-actions.md"
         ]
       },
@@ -316,7 +328,7 @@ export default [
         "text": "Invoicing",
         "collapsible": true,
         "children": [
-          "invoicing-reminder.md",
+          "invoicing-followup.md",
           "invoicing-actions.md"
         ]
       },
@@ -357,8 +369,8 @@ export default [
           "sale-reports.md",
           "sale-stock.md",
           "sale-price.md",
-          "sale-project.md",
-          "sale-loyalty.md"
+          "sale-loyalty.md",
+          "sale-timesheet.md"
         ]
       },
       {
@@ -366,16 +378,15 @@ export default [
         "collapsible": true,
         "children": [
           "website-actions.md",
-          "website-partner.md",
-          "website-e-commerce.md",
-          "sale-loyalty.md"
+          "website-berichte.md",
+          "website-sale.md",
+          "website-partner.md"
         ]
       },
       {
         "text": "HR Timesheet",
         "collapsible": true,
         "children": [
-          "awesome-timesheet.md",
           "terminal-hr-timesheet.md",
           "hr-timesheet-actions.md",
           "timesheet-views.md"
@@ -393,7 +404,9 @@ export default [
         "children": [
           "sale-subscription-disable-tokenization.md",
           "sale-subscription-partner-pricelist.md",
-          "sale-subscription-period-discount.md"
+          "sale-subscription-period-discount.md",
+          "sale-subscription-pricelist-fixed-discount.md",
+          "sale-subscription-billing-period-display.md"
         ]
       },
       {
@@ -401,6 +414,7 @@ export default [
         "collapsible": true,
         "children": [
           "hr-attendance-overtime-negative-hours.md",
+          "hr-contract-leaves-domain.md",
           "hr-holidays-ics-attachment.md",
           "hr-holidays-calendar-department.md",
           "hr-holidays-custom-hours.md",
@@ -412,7 +426,8 @@ export default [
           "hr-holidays-type-note.md",
           "hr-holidays-working-time.md",
           "hr-leave-custom-hour-interval.md",
-          "theoretical-vs-attended-time-analysis.md"
+          "theoretical-vs-attended-time-analysis.md",
+          "resource-attendance-time-type.md"
         ]
       },
       {
@@ -428,6 +443,7 @@ export default [
           "hr-attendance-missing.md",
           "hr-attendance-overtime-hours.md",
           "hr-attendance-policy.md",
+          "hr-attendance-report-add-flexitime.md",
           "hr-attendance-user-acl.md",
           "hr-employee-attendance-report.md",
           "theoretical-vs-attended-time-analysis.md"
@@ -489,6 +505,23 @@ export default [
         ]
       },
       {
+        "text": "CRM",
+        "collapsible": true,
+        "children": [
+          "crm-lead-template.md",
+          "crm-link.md",
+          "crm-partner-link.md",
+          "crm-partner-multi-relation.md",
+          "calendar-crm-link.md",
+          "calendar-partner-link.md",
+          "partner-link.md",
+          "partner-multi-relation",
+          "sale-crm-note.md",
+          "sale-crm-ref.md",
+          "sale-partner-link.md"
+        ]
+      },
+      {
         "text": "Dashboards",
         "collapsible": true,
         "children": [
@@ -505,36 +538,33 @@ export default [
         "text": "Database",
         "collapsible": true,
         "children": [
+          "auditlog.md",
           "base-db-anonymization.md",
           "base-search-fuzzy.md",
           "dbfilter-from-header.md"
         ]
       },
       {
-        "text": "Dialog",
+        "text": "Data Management",
+        "collapsible": true,
+        "children": [
+          "jupyter-lab.md",
+          "jupyter-notebook-run.md"
+        ]
+      },
+      {
+        "text": "Discuss",
         "collapsible": true,
         "children": [
           "account-move-mail-thread.md",
           "account-move-send-unsubscribe.md",
           "account-move-unsubscribe.md",
-          "mail-composer-cc-bcc.md",
-          "mail-activity-datetime.md",
-          "mail-channel-follow-model.md",
-          "mail-composer-default-template.md",
-          "mail-composer-mass-layout.md",
-          "mail-debrand.md",
-          "mail-no-autofollow.md",
-          "mail-optional-follower-notification.md",
-          "mail-restrict-follower-selection.md",
-          "mail-show-follower.md",
-          "mail-template-subscribe.md",
-          "mail-thread-context.md",
-          "mail-unsubscribe.md",
           "purchase-order-send-unsubscribe.md",
           "purchase-order-unsubscribe.md",
           "sale-order-send-unsubscribe.md",
           "sale-order-unsubscribe.md",
-          "url-attachment.md"
+          "url-attachment.md",
+          "web-chatter-sort.md"
         ]
       },
       {
@@ -573,22 +603,17 @@ export default [
         "text": "Settings",
         "collapsible": true,
         "children": [
+          "auth-disable-password-login.md",
           "auth-impersonate-user.md",
-          "auth-oauth-keycloak",
-          "auth-oidc.md",
           "auth-session-timeout.md",
           "auth-totp-ip-check.md",
           "base-user-role-company.md",
           "base-user-role.md",
           "home-background-image.md",
-          "auth-oauth-multi-token.md",
-          "odoo-microsoft-account.md",
-          "report-qweb-pdf-watermark.md",
           "show-db-name.md",
           "web-company-color.md",
           "web-enterprise-admin-expiration-panel.md",
-          "web-theme-classic.md",
-          "auth-api-key.md"
+          "web-theme-classic.md"
         ]
       },
       {
@@ -610,11 +635,15 @@ export default [
         "collapsible": true,
         "children": [
           "2d-matrix-for-x2many-fields.md",
+          "auth-api-key.md",
           "bi-sql-editor.md",
           "components.md",
           "date-range.md",
           "endpoint-route-handler.md",
+          "extended-view-inheritance-extension.md",
+          "fastapi-auth-jwt-support.md",
           "fastapi.md",
+          "float-align-at-decimal.md",
           "fs-folder.md",
           "mail-environment.md",
           "mass-editing.md",
@@ -625,9 +654,12 @@ export default [
           "prometheus-exporter.md",
           "queue-job-cron.md",
           "queue-job.md",
+          "report-qweb-pdf-watermark.md",
           "report-xlsx.md",
+          "server-config-environment.md",
           "server-environment-ir-config-parameter.md",
           "server-environment.md",
+          "url-slug.md",
           "web-domain-field.md",
           "web-environment-ribbon.md",
           "web-timeline.md"
@@ -637,7 +669,6 @@ export default [
         "text": "Manufacture",
         "collapsible": true,
         "children": [
-          "cancel-manufacturing-order.md",
           "mrp-bom-consumption.md",
           "mrp-bom-list.md",
           "mrp-bom-position.md",
@@ -654,6 +685,7 @@ export default [
           "mrp-production-update-upstream-move.md",
           "mrp-production-upstream-state.md",
           "mrp-sale-info.md",
+          "mrp-suborder-sale-info.md",
           "mrp-workorder-disable-autostart.md",
           "mrp-workorder-set-producing-qty.md",
           "manufacture-production-move-date.md",
@@ -678,7 +710,8 @@ export default [
         "text": "Calendar",
         "collapsible": true,
         "children": [
-          "caldav-sync.md"
+          "caldav-sync.md",
+          "hr-calendar-user-color.md"
         ]
       },
       {
@@ -709,18 +742,20 @@ export default [
           "partner-firstname.md",
           "partner-hide-address.md",
           "partner-manual-rank.md",
+          "partner-mobile.md",
           "partner-multi-pricelist.md",
-          "partner-multi-relation",
           "partner-multiline-street2.md",
           "partner-optional-commercial-partner.md",
           "partner-ref-sequence.md",
           "partner-secondary-email.md",
           "partner-secondary-name.md",
+          "partner-stage.md",
           "partner-type-membership.md",
           "partner-type-order.md",
           "partner-type-sale.md",
-          "street3-in-addresses.md",
-          "partner-stage.md"
+          "partner-unique-ref.md",
+          "partner-address-street3.md",
+          "partner-phone-secondary.md"
         ]
       },
       {
@@ -778,22 +813,17 @@ export default [
         ]
       },
       {
-        "text": "Odoo Mobile App",
-        "collapsible": true,
-        "children": [
-          "merp-mobile-app.md"
-        ]
-      },
-      {
         "text": "HR",
         "collapsible": true,
         "children": [
           "employee-vehicle-request.md",
           "hr-activity-date.md",
           "hr-birthday-calender.md",
+          "hr-calendar-user-color.md",
           "hr-employee-employ-like.md",
           "hr-employee-firstname.md",
           "hr-employee-id.md",
+          "hr-employee-paid-out-overtime-report.md",
           "hr-employee-skill.md",
           "hr-employee-user-acl.md",
           "hr-holidays-user-acl.md",
@@ -817,6 +847,13 @@ export default [
         "collapsible": true,
         "children": [
           "hr-recruitment-firstname.md"
+        ]
+      },
+      {
+        "text": "Portal",
+        "collapsible": true,
+        "children": [
+          "auth-signup-firstname.md"
         ]
       },
       {
@@ -853,9 +890,11 @@ export default [
           "business-requirement.md",
           "project-key-link-type.md",
           "project-key.md",
+          "project-menu.md",
           "project-partner-open-tasks.md",
           "project-phase-estimate.md",
           "project-phase.md",
+          "project-task-add-very-high.md",
           "project-task-all-menu.md",
           "project-task-default-stage.md",
           "project-task-dependencies.md",
@@ -866,6 +905,7 @@ export default [
           "project-timeline.md",
           "project-timesheet-time-control.md",
           "project-type.md",
+          "projekt-task-billable.md",
           "sequential-code-for-tasks.md"
         ]
       },
@@ -874,15 +914,6 @@ export default [
         "collapsible": true,
         "children": [
           "account-currency-communication.md",
-          "account-followup-due-filter.md",
-          "account-followup-email-from.md",
-          "account-followup-filter-blocked.md",
-          "account-followup-hide-communication.md",
-          "account-followup-mail-layout.md",
-          "account-followup-manual-reminder.md",
-          "account-followup-print-false.md",
-          "account-followup-report-light.md",
-          "account-followup-subscribe.md",
           "account-invoice-carrier.md",
           "account-invoice-change-currency.md",
           "account-invoice-comment.md",
@@ -892,13 +923,14 @@ export default [
           "account-invoice-notes.md",
           "account-invoice-outstanding-credit.md",
           "account-invoice-overdue-reminder.md",
+          "account-invoice-prepare.md",
           "account-invoice-sale-partner.md",
           "account-invoice-select-bank.md",
           "account-invoice-show-currency-rate.md",
           "account-invoice-triple-discount.md",
-          "account-invoice-prepare.md",
           "account-move-invoice-partner.md",
           "account-move-line-description.md",
+          "account-move-send-check.md",
           "account-sale-timesheet-report.md",
           "invoice-merge-pdf-attachment.md",
           "purchase-invoice-prepare-partner.md",
@@ -924,35 +956,28 @@ export default [
           "l10n-ch-qr-code-iban.md",
           "l10n-ch-qr-code-ref.md",
           "l10n-ch-qr-isr-invoice-import.md",
-          "l10n-ch-reports.md"
+          "l10n-ch-reports.md",
+          "l10n-ch-qr-payment-ref.md"
         ]
       },
       {
         "text": "Base",
         "collapsible": true,
         "children": [
-          "auditlog.md",
           "base-action-manager-access.md",
+          "base-attachment-object-store.md",
           "base-module-user-acl.md",
           "base-optional-quick-create.md",
           "base-recursion-limit.md",
           "base-user-acl.md",
-          "extended-view-inheritance.md",
           "fetchmail-incoming-log.md",
-          "float-align-at-decimal.md",
+          "fs-folder-webdav.md",
+          "ir-attachment-edit.md",
           "mail-format-with-parent.md",
           "mail-manual-routing.md",
           "mail-server-filter.md",
           "mail-service-users.md",
-          "module-auto-update.md",
-          "server-config-environment.md",
-          "url-slug.md",
-          "web-dark-mode.md",
-          "web-editor-disable-convert-inline.md",
-          "web-editor-show-code.md",
-          "web-font-arial.md",
-          "web-font-dobra-book.md",
-          "web-responsive.md"
+          "module-auto-update.md"
         ]
       },
       {
@@ -970,7 +995,8 @@ export default [
         "text": "Spreadsheet",
         "collapsible": true,
         "children": [
-          "spreadsheet-board-user-acl.md"
+          "spreadsheet-board-user-acl.md",
+          "spreadsheet-dashboard-disable-share.md"
         ]
       },
       {
@@ -1019,6 +1045,7 @@ export default [
           "sale-order-partner-pricelist.md",
           "sale-order-partner-ref.md",
           "sale-order-project-key.md",
+          "sale-order-ref.md",
           "sale-order-sale-partner.md",
           "sale-order-template-notes.md",
           "sale-partner-incoterm.md",
@@ -1026,7 +1053,16 @@ export default [
           "sale-product-set-layout.md",
           "sale-product-set-search.md",
           "sale-product-set.md",
+          "sale-restricted-qty.md",
+          "sale-start-end-dates.md",
           "sale-triple-discount.md"
+        ]
+      },
+      {
+        "text": "Sale Renting",
+        "collapsible": true,
+        "children": [
+          "sale-renting-line-period.md"
         ]
       },
       {
@@ -1059,9 +1095,26 @@ export default [
         ]
       },
       {
+        "text": "Web",
+        "collapsible": true,
+        "children": [
+          "web-dark-mode.md",
+          "web-editor-disable-convert-inline.md",
+          "web-editor-show-code.md",
+          "web-font-arial.md",
+          "web-font-calibri.md",
+          "web-font-dobra-book.md",
+          "web-font-manrope.md",
+          "web-referesher.md",
+          "web-responsive.md"
+        ]
+      },
+      {
         "text": "Website",
         "collapsible": true,
         "children": [
+          "website-blog-rss-feed.md",
+          "website-blog-wordpress-url.md",
           "website-date-of-birth.md",
           "website-font-hco-mercury-ssm.md",
           "website-product-description.md",
@@ -1071,16 +1124,17 @@ export default [
         ]
       },
       {
-        "text": "Website E-Commerce",
+        "text": "Website Sale",
         "collapsible": true,
         "children": [
-          "pits-payment-saferpay.md",
           "payment-payrexx.md",
           "payment-saferpay.md",
-          "website-berichte.md",
+          "saferpay-payment-provider.md",
+          "website-sale-address-optional-phone.md",
           "website-sale-cart-expire.md",
           "website-sale-firstname.md",
           "website-sale-float-qty.md",
+          "website-sale-permit-extra-info.md",
           "website-shop-coupons.md"
         ]
       },
@@ -1090,11 +1144,10 @@ export default [
         "children": [
           "hr-timesheet-from-until.md",
           "hr-timesheet-multiline-name",
-          "sh-portal-timesheet.md",
           "project-timesheet-limit.md",
+          "sale-timesheet-billable-price.md",
           "sale-timesheet-line-exclude.md",
-          "sale-timesheet-total-validated.md",
-          "sh-task-time-adv.md"
+          "sale-timesheet-total-validated.md"
         ]
       },
       {
@@ -1150,26 +1203,47 @@ export default [
         ]
       },
       {
+        "text": "Kubernetes",
+        "collapsible": true,
+        "children": [
+          "helm-import.md",
+          "helm-portal.md",
+          "helm.md",
+          "kubectl-contacts.md",
+          "kubectl-import.md",
+          "sale-helm.md",
+          "website-kubectl.md",
+          "website-sale-helm.md",
+          "kubectl"
+        ]
+      },
+      {
         "text": "License",
         "collapsible": true,
         "children": [
           "license-ocad.md",
+          "license-partner-comission.md",
+          "license-portal.md",
           "license-sale.md",
           "license-subscription.md",
-          "license-website-sale.md",
-          "license-website.md"
+          "license-website-sale.md"
         ]
       },
       {
         "text": "Management System",
         "collapsible": true,
         "children": [
+          "mgmt-asset-hr.md",
+          "mgmt-asset-maintenance.md",
+          "mgmt-asset-partner.md",
+          "mgmt-asset-product.md",
           "mgmt-asset-risk.md",
           "mgmt-audit-project.md",
           "mgmt-audit.md",
           "mgmt-auditlog.md",
           "mgmt-base.md",
           "mgmt-hazard-risk.md",
+          "mgmt-requirement-knowledge.md",
           "mgmt-requirement.md",
           "mgmt-risk.md",
           "mmgt-asset.md"
@@ -1216,10 +1290,12 @@ export default [
         "collapsible": true,
         "children": [
           "contract-format-date-marker.md",
+          "contract-invoice-cash-rounding-default.md",
           "contract-sale-generation.md",
           "contract-sale.md",
           "product-contract.md",
-          "subscription-oca.md"
+          "subscription-oca.md",
+          "subscription-oca-section.md"
         ]
       },
       {
@@ -1244,16 +1320,6 @@ export default [
           "sync-transformer-helper.md",
           "sync-trigger-methods.md",
           "web-sync.md"
-        ]
-      },
-      {
-        "text": "Mint Cloud",
-        "collapsible": true,
-        "children": [
-          "helm.md",
-          "sale-helm.md",
-          "website-sale-helm.md",
-          "kubectl"
         ]
       }
     ]

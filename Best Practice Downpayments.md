@@ -3,6 +3,7 @@ title: Anzahlungen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Anzahlungen
@@ -20,15 +21,15 @@ Damit Anzahlungen für Angebote erfasst werden können, führen Sie diese Schrit
 
 ### Anzahlung
 
-Nun können Sie ein [Angebot erstellen](Sale.md#Angebot%20erstellen) und diese Auftragszeilen hinzufügen:
+Nun können Sie ein [Angebot erstellen](Sale.md#Angebot%20erstellen) und diese Auftragspositionen hinzufügen:
 
-Auftragszeile 1:
+Auftragsposition 1:
 
 - **Produkt**: Produkt vom Typ Dienstleistung
 - **Menge**: 20 Stunden
 - **Stückpreis**: 100.00
 
-Auftragszeile 2:
+Auftragsposition 2:
 
 - **Produkt**: Produkt vom Typ Dienstleistung
 - **Menge**: 2 Stunden (10% von 20 Stunden)
@@ -58,7 +59,7 @@ Für dieses Beispiel können Sie einen [Bankauszug](Accounting%20Reconcile.md#Ba
 
 ### Abrechnung
 
-Auf dem Verkaufsauftrag erfassen Sie nun Leistungen. Entweder tragen Sie diese manuell in die Auftragszeilen ein oder fügen Sie über die Zeiterfassung und Projekte hinzu.
+Auf dem Verkaufsauftrag erfassen Sie nun Leistungen. Entweder tragen Sie diese manuell in die Auftragspositionen ein oder fügen Sie über die Zeiterfassung und Projekte hinzu.
 
 Genau wie für die Aufträge ohne Anzahlung erstellen Sie periodische eine Rechnung. Führen Sie dazu eine Abrechnung aus: [Verkaufsauftrag mit Anzahlungen abrechnen](Sale%20Invoicing.md#Verkaufsauftrag%20mit%20Anzahlungen%20abrechnen).
 

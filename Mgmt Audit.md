@@ -1,10 +1,18 @@
 ---
-title: Mgmt Audit
 description: Auditieren Sie ihr Unternehmen.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: mgmt_audit
+partner: Mint System
 prev: ./management-system
+repo: Mint-System/Odoo-Apps-Management-System
+title: Mgmt Audit
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
 ---
+
 
 # Mgmt Audit
 
@@ -12,8 +20,8 @@ prev: ./management-system
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mgmt_audit`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Management-System/tree/18.0/mgmt_audit>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguratin
 

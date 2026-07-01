@@ -2,7 +2,9 @@
 title: Einstellungen E-Mail
 description: Odoo mit Plattformen von Dritten integrieren.
 kind: howto
+section: true
 prev: ./settings
+partner: Mint System
 ---
 
 # Einstellungen E-Mail
@@ -69,7 +71,13 @@ Reply-To: "My Company" <odoo@example.com>
 ...
 ```
 
-Wenn Sie die Von-Adresse überschreiben möchten, öffnen Sie _Einstellungen > Technisch > Parameter > Systemparameter_ und erstellen einen Eintrag mit Schlüssel `mail.force.smtp.from` (bis #Odoo14 ) `mail.default.from` (ab #Odoo15 ) und Wert `name@example.com` als gewünschte E-Mail-Adresse. Angenommen Sie geben `erp@example.com` ein, sehen die E-Mail-Kopfzeilen folgendermassen aus:
+Wenn Sie die Von-Adresse überschreiben möchten, öffnen Sie _Einstellungen > Technisch > Parameter > Systemparameter_ und erstellen einen Eintrag mit Schlüssel: 
+
+- `mail.force.smtp.from` bis #Odoo14 
+- `mail.default.from` ab #Odoo15
+- `mail.default.from_filter` ab #Odoo18 
+
+und Wert `name@example.com` als gewünschte E-Mail-Adresse. Angenommen Sie geben `erp@example.com` ein, sehen die E-Mail-Kopfzeilen wie folgt aus:
 
 ```txt
 ...
@@ -104,7 +112,7 @@ Unter _Einstellungen > Dialog > Externe E-Mail-Server_ aktivieren Sie das Featur
 Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
 :::
 
-Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen:
+Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, aktivieren Sie der Modul 'microsoft_outlook' und wählen Sie diese Parameter als Verbindungsoptionen:
 
 - **Beschreibung**: Office 365 Incoming
 - **Outlook**: Option markieren
@@ -142,7 +150,7 @@ Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladun
 Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
 :::
 
-Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, wählen Sie diese Parameter als Verbindungsoptionen:
+Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, aktivieren Sie der Modul 'microsoft_outlook' und wählen Sie diese Parameter als Verbindungsoptionen:
 
 - **Beschreibung**: Office 365 Outgoing
 - **Outlook**: Option markieren
@@ -198,6 +206,14 @@ Wenn Subaddressing "+" aktiviert ist, wird eine E-Mail mit einem "+" nach dem Al
 ::: warning
 Der Wildcard-E-Mail-Alias _catchall_ wird nicht von allen Mail-Provider unterstützt.
 :::
+
+### Odoo Bot Mail-Adresse ändern
+
+Der Odoo Bot verschickt unter der E-Mail-Adresse `odoobot@example.com` Informations-Mails zum System.
+
+![](attachments/Einstellungen%20OdooBot%20Mail.png)
+
+Wenn wie die Absender-Adresse ändern möchten, öffnen Sie _Kontakt_ und wählen _Filter > Archiviert_. Nun erscheint der Kontakt-Eintrag _OdooBot_ und Sie können dort die Mail-Adresse ändern.
 
 ## Erweitert
 

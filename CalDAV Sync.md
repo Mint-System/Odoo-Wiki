@@ -1,10 +1,19 @@
 ---
-title: CalDAV Sync
 description: Odoo Kalender mit CalDav synchronisieren.
+forge: github.com
 kind: howto
+name: caldav_sync
 partner: Thirdparty
 prev: ./calendar
+repo: bemade/bemade-addons
+title: CalDAV Sync
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
 ---
+
 
 # CalDAV Sync
 
@@ -12,8 +21,8 @@ prev: ./calendar
 
 {{ $frontmatter.description }}
 
-Technischer Name: `caldav_sync`\
-Repository: <https://git.bemade.org/bemade/bemade-addons/-/tree/18.0/caldav_sync>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

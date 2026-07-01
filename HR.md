@@ -4,6 +4,7 @@ description: Personalmanagement für moderne Unternehmen.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Personal
@@ -54,7 +55,7 @@ Navigieren Sie nach _Personal > Abteilungen_.
 
 ### Mitarbeiter erfassen
 
-Navigieren Sie nach _Personal_ und wählen Sie _+ Anlegen_. Geben Sie den Vor- und Nachnamen des Mitarbeiters ein und öffnen Sie den Tab _HR Einstelungen_. Wählen Sie unter _Verknüpfter Benutzer_ einen bestehenden Benutzer aus, falls der Mitarbeiter Zugriff auf Odoo haben soll. Schliessen Sie den Vorgang mit _Speichern_ ab.
+Navigieren Sie nach _Personal_ und wählen Sie _+ Anlegen_. Geben Sie den Vor- und Nachnamen des Mitarbeiters ein und öffnen Sie den Tab _HR Einstellungen_. Wählen Sie unter _Verknüpfter Benutzer_ einen bestehenden Benutzer aus, falls der Mitarbeiter Zugriff auf Odoo haben soll. Schliessen Sie den Vorgang mit _Speichern_ ab.
 
 ### Mitarbeiter aus Benutzer erstellen
 

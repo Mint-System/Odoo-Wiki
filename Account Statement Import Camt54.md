@@ -1,10 +1,21 @@
 ---
-title: Account Statement Import Camt54
 description: Camt54 Bankauszug mit Details zu Einzahlungen importieren.
+forge: github.com
 kind: howto
+name: account_statement_import_camt54
 partner: OCA
 prev: ./accounting
+repo: OCA/bank-statement-import
+title: Account Statement Import Camt54
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Account Statement Import Camt54
 
@@ -12,8 +23,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_statement_import_camt54`\
-Repository: <https://github.com/OCA/bank-statement-import/tree/18.0/account_statement_import_camt54>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 

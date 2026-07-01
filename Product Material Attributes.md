@@ -1,10 +1,17 @@
 ---
-title: Product Material Attributes
 description: Product material attributes.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: product_material_attributes
+partner: Mint System
 prev: ./product
+repo: Mint-System/Odoo-Apps-Product-Attribute
+title: Product Material Attributes
+versions:
+- '19.0'
+- '16.0'
 ---
+
 
 # Product Material Attributes
 
@@ -12,8 +19,8 @@ prev: ./product
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_material_attributes`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/16.0/product_material_attributes>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

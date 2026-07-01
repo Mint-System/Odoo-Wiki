@@ -1,10 +1,16 @@
 ---
-title: Sale Product Set Layout
 description: Produktset mit Notizen und Abschnitten.
+forge: github.com
 kind: howto
+name: sale_product_set_layout
 partner: OCA
 prev: ./sale
+repo: OCA/sale-workflow
+title: Sale Product Set Layout
+versions:
+- '15.0'
 ---
+
 
 # Sale Product Set Layout
 
@@ -12,8 +18,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_product_set_layout`\
-Repository: <https://github.com/OCA/sale-workflow/tree/15.0/sale_product_set_layout>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

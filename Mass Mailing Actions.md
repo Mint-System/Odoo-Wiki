@@ -2,9 +2,9 @@
 title: E-Mail-Marketing Aktionen
 description: Arbeitsflüsse in E-Mail-Marketing automatisieren.
 kind: howto
-tags:
-  - Actions
+section: true
 prev: ./mass_mailing
+partner: Mint System
 ---
 
 # E-Mail-Marketing Aktionen
@@ -17,11 +17,11 @@ prev: ./mass_mailing
 
 ### Anzeigen Unsubscribe URL
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Anzeigen Unsubscribe URL`\
 Modell: `mailing.trace`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

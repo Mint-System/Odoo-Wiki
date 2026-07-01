@@ -1,9 +1,21 @@
 ---
-title: Helpdesk Management
 description: Helpdesk Community Edition.
+forge: github.com
 kind: howto
+name: helpdesk_mgmt
 prev: ./helpdesk
+repo: OCA/helpdesk
+title: Helpdesk Management
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
+partner: OCA
 ---
+
 
 # Helpdesk Management
 
@@ -11,5 +23,5 @@ prev: ./helpdesk
 
 {{ $frontmatter.description }}
 
-Technischer Name: `helpdesk_mgmt`\
-Repository: <https://github.com/OCA/helpdesk/tree/18.0/helpdesk_mgmt>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

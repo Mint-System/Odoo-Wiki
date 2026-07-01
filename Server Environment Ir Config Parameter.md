@@ -1,10 +1,21 @@
 ---
-title: Server Environment Ir Config Parameter
 description: Systemparameter aus Umgebungsvariablen laden.
+forge: github.com
 kind: howto
+name: server_environment_ir_config_parameter
 partner: OCA
 prev: ./development
+repo: OCA/server-env
+title: Server Environment Ir Config Parameter
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Server Environment Ir Config Parameter
 
@@ -12,8 +23,8 @@ prev: ./development
 
 {{ $frontmatter.description }}
 
-Technischer Name: `server_environment_ir_config_parameter`\
-Repository: <https://github.com/OCA/server-env/tree/18.0/server_environment_ir_config_parameter>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Systemparamter aus Umgebung anzeigen
 

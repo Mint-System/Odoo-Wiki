@@ -1,17 +1,28 @@
 ---
-title: Web Referesher
 description: Fügt einen Button zur Aktualisierung der Listenansicht hinzu.
+forge: github.com
 kind: howto
-tags:
-  - OCA
+name: web_refresher
 prev: ./web
+repo: OCA/Web
+tags:
+title: Web Referesher
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
+partner: OCA
 ---
+
 
 # Web Referesher
 
-![icon_oca_app](../attachments/icon_oca_app.png)
+![icon_oca_app](attachments/icon_oca_app.png)
 
 {{ $frontmatter.description }}
 
-Technischer Name: `web_refresher`\
-Repository: <https://github.com/OCA/Web/tree/18.0/web_refresher>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

@@ -2,7 +2,9 @@
 title: Projekt Aktionen
 description: Aktionen für Projekt App einrichten.
 kind: howto
+section: true
 prev: ./project
+partner: Mint System
 ---
 
 # Projekt Aktionen
@@ -11,19 +13,21 @@ prev: ./project
 
 {{ $frontmatter.description }}
 
+## Aktionen
+
 ### Projekt-Mail-Alias aktualisieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Projekt-Mail-Adressen aktualisieren`\
 Modell: `project.project`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
 for record in records:
-	record["alias_name"] = "project+" + record.key
+	record["alias_name"] = "project+" + record.name.lower().replace(" ", "-").replace("-ag", "").replace("-gmbh", "").replace("-s.a.", "")
 ```
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
@@ -31,6 +35,11 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 ## Geplante Aktionen
 
 ### Navigation: Menüpunkte für Projekte generieren
+
+::: warning
+Diese Funktion wurde Teil von [Project Menu](Project%20Menu.md).
+#DEPRECATED
+:::
 
 Mit dieser geplanten Aktion generiert Odoo für jedes Projekt einen Menüpunkt. Damit können Sie schneller zwischen Projektaufgaben navigieren.
 
@@ -41,7 +50,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Tage\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -62,7 +71,7 @@ for project in project_ids:
 
   # Check if action entry exists
   action = env['ir.actions.act_window'].with_context(lang=lang).search([('name', '=', name)], limit=1)
- 
+
   # Create action if it does not exist otherwise update the action
   if not action:
     action = env['ir.actions.act_window'].with_context(lang=lang).create({
@@ -83,7 +92,7 @@ for project in project_ids:
 
   # Set action reference
   action_ref = 'ir.actions.act_window,' + str(action.id)
-  
+
   # Check if menu entry exists
   menu = env['ir.ui.menu'].with_context(lang=lang).search([('name', '=', name)], limit=1)
 
@@ -121,7 +130,7 @@ for project in project_ids:
     removed_menus.append(menu.name)
     menu.unlink()
 
-    
+
   # Check if action entry exists and remove it if found
   action = env['ir.actions.act_window'].with_context(lang=lang).search([('name', '=', name)], limit=1)
   if action:

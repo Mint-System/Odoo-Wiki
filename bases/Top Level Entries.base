@@ -1,3 +1,5 @@
+formulas:
+  Untitled: ""
 views:
   - type: table
     name: Table
@@ -8,7 +10,10 @@ views:
       - file.name
       - partner
       - prev
+      - versions
     sort:
+      - property: formula.Untitled
+        direction: ASC
       - property: tags
         direction: DESC
     columnSize:

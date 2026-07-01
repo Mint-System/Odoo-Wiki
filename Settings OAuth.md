@@ -2,7 +2,10 @@
 title: Einstellungen OAuth
 description: OAuth-Integration mit Odoo.
 kind: howto
+extensions: true
 prev: ./settings
+section: true
+partner: Mint System
 ---
 
 # Einstellungen OAuth
@@ -10,6 +13,15 @@ prev: ./settings
 ![icons_odoo_settings](attachments/icons_odoo_settings.png)
 
 {{ $frontmatter.description }}
+
+## Erweiterungen
+
+| Erweiterung                                             | Beschreibung                                   |
+| ------------------------------------------------------- | ---------------------------------------------- |
+| [Auth OAuth Keycloak](Auth%20OAuth%20Keycloak)          | Ermöglich Keycloak Integration mit Odoo OAuth. |
+| [Auth OIDC](Auth%20OIDC.md)                             | Login mit OpenID Connect Provider.             |
+| [Odoo Microsoft Account](Odoo%20Microsoft%20Account.md) | Login mit Microsoft-Account.                   |
+| [Microsoft Entra Base](Microsoft%20Entra%20Base.md)     | Microsoft Entra OAuth Provider.                                               |
 
 ## Konfiguration
 
@@ -28,7 +40,7 @@ Klicken Sie auf <https://portal.azure.com/> um in das Azure-Portal zu gelangen. 
 Verwenden Sie diese Angaben:
 
 - **Name**: Odoo
-- **Unterstützte Kontentypen**: Konten in einem beliebigen Organisationsverziechnis (mehrinstanzenfähig)
+- **Unterstützte Kontentypen**: Mehrere Entra ID-Mandanten / Alle Mandanten zulassen
 - **Redirect URI**: Web `https://$HOSTNAME/microsoft_outlook/confirm`
 
 ::: warning
@@ -39,10 +51,16 @@ Ist die App erstellt erhalten Sie diese Zusammenfassung:
 
 ![](attachments/Einstellungen%20OAuth%20Odoo%20App.png)
 
-Erteilen Sie der OAuth-App diese Berechtigungen:
+Klicken Sie auf API-Berechtigungen und fügen Sie eine Berechtigung hinzu. Wählen Sie _Microsoft Graph > Delegierte Berechtigungen_
 
 - SMTP.Send
 - IMAP.AccessAsUser.All
+
+Wenn Sie die Berechtigungen erteilt haben, müssen noch den "Admin Consent" erteilen.
+
+![](attachments/Settings%20OAuth%20Grant%20admin%20consent.png)
+
+Klicken Sie auf _Benutzer und Gruppen_. Fügen Sie den Benutzer mit dem sich Odoo verbindet, der OAuth-App hinzu.
 
 Kopieren Sie die _Anwendungs-ID (Client)_, es handelt sich hierbei um die _Client ID_ der registrierten App.
 
@@ -140,3 +158,48 @@ Falls ihr Benutzer in Odoo noch nicht existiert hat, erscheint die folgende Meld
 ![Einstellungen Login Fehler](attachments/Einstellungen%20Login%20Fehler.png)
 
 Kontaktieren Sie den/die AdministratorIn und bitten Sie um eine Freigabe. Wurde die Freigabe erstellt, loggen Sie sich erneut ein.
+
+## Troubleshooting
+
+### Connection unexpectedly closed
+
+**Problem**
+
+Ausgehende E-Mail Server ist eingerichtet und der Token ist bestätigt. Trotzdem ist der Test negativ mit folgende Meldung:
+
+```text
+Ungültiger Vorgang
+Der Server hat die Verbindung unerwartet geschlossen. Überprüfen Sie die Konfiguration für die Portnummer.
+Connection unexpectedly closed
+```
+
+**Ursache**
+
+Einstellungen in portal.azure.com sind nicht richtig.
+
+**Lösung**
+
+Für der User müsste noch 'authenticated SMTP' erlaubt werden. Sehe Bild:
+
+![](attachments/Oauth%20Troubleshooting%20SMTP.png)
+
+
+### Need admin approval
+
+**Problem
+
+Beim Login mit dem OAuth-Benutzer erscheint die Meldung:
+
+```text
+Need admin approval
+Odoo
+unverified
+
+Odoo needs permission to access resources in your organization that only an admin can grant. Please ask an admin to grant permission to this app before you can use it.
+Have an admin account? Sign in with that account
+Return to the application without granting consent 
+```
+
+**Lösung**
+
+Stellen Sie sicher, dass der OAuth-Bentuzer Zugriff auf die OAuth-App hat.

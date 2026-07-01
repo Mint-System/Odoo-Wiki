@@ -1,10 +1,20 @@
 ---
-title: Brand Account
 description: Rechnung mit Marke verknüpfen.
+forge: github.com
 kind: howto
+name: account_brand
 partner: OCA
 prev: ./brand
+repo: OCA/brand
+title: Brand Account
+versions:
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Brand Account
 
@@ -12,8 +22,8 @@ prev: ./brand
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_brand`\
-Repository: <https://github.com/OCA/brand/tree/18.0/account_brand>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

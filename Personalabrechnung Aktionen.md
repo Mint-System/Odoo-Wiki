@@ -1,10 +1,10 @@
 ---
 title: Personalabrechnung Aktionen
-description: Lohnabrechnung automatisieren.
+description: Gehaltsabrechnung automatisieren.
 kind: howto
-tags:
-  - Actions
+section: true
 prev: ./hr-payroll
+partner: Mint System
 ---
 
 # Personalabrechnung Aktionen
@@ -15,13 +15,13 @@ prev: ./hr-payroll
 
 ## Aktionen
 
-### Lohnabrechnung zurücksetzen
+### Gehaltsabrechnung zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Lohnabrechnung zurücksetzen`\
+Name der Aktion: `Gehaltsabrechnung zurücksetzen`\
 Modell: `hr.payslip`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -32,15 +32,15 @@ for record in records:
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-Im Formular der Lohnbuchung erscheint nun in der Auswahl _Aktion_ das Menu _Lohnabrechnung zurücksetzen_.
+Im Formular der Lohnbuchung erscheint nun in der Auswahl _Aktion_ das Menu _Gehaltsabrechnung zurücksetzen_.
 
-### Lohnabrechnung versenden
+### Gehaltsabrechnung versenden
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Lohnabrechnung versenden`\
+Name der Aktion: `Gehaltsabrechnung versenden`\
 Modell: `hr.payslip`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -52,15 +52,15 @@ for record in records:
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-Im Formular der Lohnbuchung erscheint nun in der Auswahl _Aktion_ das Menu _Lohnabrechnung versenden_.
+Im Formular der Lohnbuchung erscheint nun in der Auswahl _Aktion_ das Menu _Gehaltsabrechnung versenden_.
 
-### Batch zurücksetzen
+### Stapel zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Batch zurücksetzen`\
-Modell: `hr.payslip.run`\
-Folgeaktion: `Python-Code ausführen`
+Modell: `hr.payslip.Stapel`\
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -77,11 +77,11 @@ Im Formular der Batches erscheint nun in der Auswahl _Aktion_ das Menu _Batch zu
 
 Mit dieser Aktion wird die Buchung der Lohnabrechnung in den Entwurfstatus gesetzt. Die Aktion funktioniert nicht für Lohnabrechnungen, die mit einem Batch erstellt wurden.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lohnbuchung zurücksetzen`\
 Modell: `hr.payslip`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -99,11 +99,11 @@ Im Formular der Lohnabrechnung erscheint nun die Auswahl _Aktionen > Lohnbuchung
 
 Mit dieser Aktion wird die Buchung der Lohnabrechnung gelöscht und neu erstellt. Die Aktion funktioniert nicht für Lohnabrechnungen, die mit einem Batch erstellt wurden.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lohnbuchung entfernen`\
 Modell: `hr.payslip`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -120,9 +120,11 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Im Formular der Lohnabrechnung erscheint nun die Auswahl _Aktionen > Lohnbuchung entfernen_.
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Lohnstuktur zuweisen
+
+Gilt bis #Odoo17.
 
 Wenn Sie die Zuweisung der Lohnstruktur beim Erstellen der Lohnabrechnungen automatisieren möchten, richten Sie diese Aktione in.
 
@@ -142,3 +144,4 @@ Zu schreibende Daten:
 ::: warning
 Das Feld `x_struct_id` wurde mithilfe eines [Snippets](Development%20Snippets.md) erstellt.
 :::
+Gehaltsabrechnung

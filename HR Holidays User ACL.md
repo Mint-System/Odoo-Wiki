@@ -1,10 +1,17 @@
 ---
-title: HR Holidays User ACL
 description: Zugriffsrechte auf Abwesenheiten festlegen.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: hr_holidays_user_acl
+partner: Mint System
 prev: ./contacts
+repo: Mint-System/Odoo-Apps-HR
+title: HR Holidays User ACL
+versions:
+- '18.0'
+- '16.0'
 ---
+
 
 # HR Holidays User ACL
 
@@ -12,8 +19,8 @@ prev: ./contacts
 
 {{ $frontmatter.description }}
 
-Technischer Name: `hr_holidays_user_acl`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/16.0/hr_holidays_user_acl>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

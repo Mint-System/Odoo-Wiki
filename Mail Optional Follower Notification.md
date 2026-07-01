@@ -1,10 +1,19 @@
 ---
-title: Mail Optional Follower Notification
 description: Auswahl Nachrichen an Abonnenten verschicken.
+forge: github.com
 kind: howto
+name: mail_optional_follower_notification
 partner: OCA
-prev: ./dialog
+prev: ./discuss-e-mail
+repo: OCA/social
+title: Mail Optional Follower Notification
+versions:
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Mail Optional Follower Notification
 
@@ -12,8 +21,8 @@ prev: ./dialog
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_optional_follower_notification`\
-Repository: <https://github.com/OCA/social/tree/17.0/mail_optional_follower_notification>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

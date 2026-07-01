@@ -1,10 +1,21 @@
 ---
-title: Sale Order Line Description
 description: Nur Verkausbeschreibung im Feld Beschreibung übertragen.
+forge: github.com
 kind: howto
+name: sale_order_line_description
 partner: OCA
 prev: ./sale
+repo: OCA/sale-workflow
+title: Sale Order Line Description
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Sale Order Line Description
 
@@ -12,8 +23,8 @@ prev: ./sale
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_order_line_description`\
-Repository: <https://github.com/OCA/sale-workflow/tree/17.0/sale_order_line_description>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 
@@ -23,7 +34,7 @@ Damit die Erweiterung für Unternehmen aktiv ist, navigieren Sie nach _Einstellu
 
 ### Übertragung Verkaufsbeschreibung für Benutzer aktivieren
 
-Für Benutzer navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Benutzer wählen > Tab Zugriffsrechte_ und aktivieren Sie hier die Option _Nur die Verkaufsbeschreibung des Produktes in Auftragszeilen verwenden_.
+Für Benutzer navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Benutzer wählen > Tab Zugriffsrechte_ und aktivieren Sie hier die Option _Nur die Verkaufsbeschreibung des Produktes in Auftragspositionen verwenden_.
 
 ## Verwendung
 

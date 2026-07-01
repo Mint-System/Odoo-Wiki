@@ -2,7 +2,9 @@
 title: Website Partner
 description: Partner auf Website publizieren.
 kind: howto
+section: true
 prev: ./website
+partner: Mint System
 ---
 
 # Website Partner

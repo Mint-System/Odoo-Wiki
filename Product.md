@@ -4,6 +4,7 @@ description: Produkte und Preise.
 kind: howto
 prev: ./
 partner: Odoo S.A.
+extensions: true
 ---
 
 # Produkt
@@ -14,9 +15,10 @@ partner: Odoo S.A.
 
 ## Bereiche
 
-| Bereich                                  | Beschreibung                                            |
-| ---------------------------------------- | ------------------------------------------------------- |
-| [Produkt Aktionen](Product%20Actions.md) | Arbeitsflüsse in der Produkteverwaltung automatisieren. |
+| Bereich                                                   | Beschreibung                                            |
+| --------------------------------------------------------- | ------------------------------------------------------- |
+| [Product Data Management](Product%20Data%20Management.md) | Daten zu Produkten exportieren und importieren.         |
+| [Produkt Aktionen](Product%20Actions.md)                  | Arbeitsflüsse in der Produkteverwaltung automatisieren. |
 
 ## Erweiterungen
 
@@ -60,7 +62,7 @@ Produkte sind Dreh- und Angelpunkt im Wertschöpfungsprozess des Unternehmens. D
 - **Produktkategorie**: Erstellen Sie nach Bedarf Produktkategorien und weisen Sie das Produkt der entsprechenden Kategorie zu.
 - **Interne Referenz**: Die interne Referenz ist ein eindeutiger Code bestimmt von ihrem Unternehmen
 
-Wenn Sie die Buchhaltung aktiv haben, konfigurieren Sie zusätzlich diese Felder im Tab \*Finanzen:
+Wenn Sie die Buchhaltung aktiv haben, konfigurieren Sie zusätzlich diese Felder im Tab *Buchhaltung*:
 
 - **Erlöskonto**: Standard-Erlöskonto für Rechnungszeile
 - **Aufwandskonto**: Standard-Aufwandskonto für Rechnungszeile

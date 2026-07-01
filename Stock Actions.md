@@ -2,9 +2,9 @@
 title: Lager Aktionen
 description: Arbeitsflüsse im Lager automatisieren.
 kind: howto
-tags:
-  - Actions
+section: true
 prev: ./stock
+partner: Mint System
 ---
 
 # Lager Aktionen
@@ -19,11 +19,11 @@ prev: ./stock
 
 ### Transfer abbrechen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Transfer abbrechen`\
 Modell: `stock.picking`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -42,11 +42,11 @@ Der Lagerbestand wird durch den Abbruch des Transfers nicht bereinigt.
 
 ### Transfer zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Transfer zurücksetzen`\
 Modell: `stock.picking`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -61,11 +61,11 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 ### Lagerbuchung abbrechen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lagerbuchung abbrechen`\
 Modell: `stock.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -80,11 +80,11 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl _Aktion_ das Menu _
 
 ### Lagerbuchung zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lagerbuchung zurücksetzen`\
 Modell: `stock.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -101,13 +101,13 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl _Aktion_ das Menu _
 
 ### Lagerbuchung als verfügbar markieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lagerbuchung als verfügbar markieren`\
 Modell: `stock.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
-Kopieren Sie die folgenden Zeilen in das Feld Pythoncode:
+Kopieren Sie die folgenden Zeilen in das Feld Code:
 
 ```python
 for record in records:
@@ -122,11 +122,11 @@ Auf der Lagerbuchung erscheint nun in der Auswahl _Aktion_ das Menu _Als verfüg
 
 ### Lagerbuchung erledigen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Lagerbuchung erledigen`\
 Modell: `stock.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -142,11 +142,11 @@ In der Liste der Lagerbuchungen erscheint nun in der Auswahl _Aktion_ das Menu _
 
 ### Produktbewegung abbrechen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Produktbewegung abbrechen`\
 Modell: `stock.move.line`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -159,11 +159,11 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 ### Reservationsdatum aktualisieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reservationsdatum aktualisieren`\
 Modell: `stock.move`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -182,11 +182,11 @@ Zeigen Sie die Liste der Lagebuchungen an, markieren Sie die Einträge und wähl
 
 Mit dieser Aktion können Sie alle Reservierungen für ausgewählte Produkte aufheben und das Reservationsdatum der verknüpften Lagerbuchungen aktualisieren.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reservierungen zurücksetzen`\
 Modell: `product.template`\
-Folgeaktion: `Python-Code ausführen`\
+Typ: `Code ausführen`\
 Sicherheit-Gruppennamen: `Lager \ Administrator`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
@@ -228,11 +228,11 @@ In der Ansicht der Produkte haben Sie nun die Auswahl _Aktionen > Reservierungen
 
 ### Reservierungen zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reservierungen zurücksetzen`\
 Modell: `ir.actions.server`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -249,11 +249,11 @@ Speichern Sie die Aktion und führen Sie diese mit _Starten_ aus.
 
 ### Bestand zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Bestand zurücksetzen`\
 Modell: `stock.quant`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -270,11 +270,11 @@ In der Liste der Bestände erscheint nun in der Auswahl _Aktion_ das Menu _Besta
 
 ### Reservierter Bestand zurücksetzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Reservierter Bestand zurücksetzen`
 Modell: `stock.quant`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -291,11 +291,11 @@ In der Liste der Bestände erscheint nun in der Auswahl _Aktion_ das Menu _Reser
 
 ### Ablaufende Los-Nummern aktualisieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Ablaufende Los-Nummern aktualisieren`
 Modell: `stock.picking`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -331,14 +331,13 @@ In der Liste der Bestände erscheint nun in der Auswahl _Aktion_ das Menu _Reser
 
 Dieser Aktion erstellt eine Prüfbericht zu den Material-Reservationen.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Nicht reserverierte Mengen anzeigen`
 Modell: `ir.actions.server`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 ```python
-#!/usr/bin/python
 quants = env['stock.quant'].search([])
 move_line_ids = []
 warning = ''
@@ -423,14 +422,13 @@ There is no exiting quants despite its `reserved_quantity`
 
 Diese Aktion korrigiert die falsch reservierten Mengen.
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Nicht reservierte Mengen korrigieren`
 Modell: `ir.actions.server`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 ```python
-#!/usr/bin/python
 quants = env['stock.quant'].search([])
 move_line_ids = []
 warning = ''
@@ -506,7 +504,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `5` Minuten\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -570,7 +568,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `12` Stunden\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 09:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -630,7 +628,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `5` Minuten\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -684,7 +682,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `5` Minuten\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -713,7 +711,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `5` Minuten\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -747,7 +745,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `5` Minuten\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -789,7 +787,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Tage\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -820,7 +818,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `3` Stunden\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 09:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -878,7 +876,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Stunden\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 09:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -924,7 +922,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Stunden\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 09:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -966,7 +964,7 @@ if error_msg:
 
 Diese geplante Aktion führt täglich die die [Nachbestellregeln aus](Stock%20Inventory.md#Nachbestellregeln%20auslösen). Die Aktion wird im Hintergrund in einem separaten Datenbank-Cursor ausgeführt.
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### Lieferung erledigen wenn bereit
 
@@ -983,7 +981,7 @@ Anzuwenden auf:
 ["&",["picking_type_code","=","outgoing"],["state","=","assigned"]]
 ```
 
-Folgeaktion: Python-Code ausführen\
+Folgeaktion: Code ausführen\
 Python Code:
 
 ```python
@@ -1011,7 +1009,7 @@ Trigger-Felder:
 - `single_product_qty`
 - `single_product_id`
 
-Folgeaktion: Python-Code ausführen\
+Folgeaktion: Code ausführen\
 Python-Code:
 
 ```python

@@ -2,7 +2,9 @@
 title: Kalender Aktionen
 description: Kalender-Prozesse automatisieren.
 kind: howto
+section: true
 prev: ./kalender
+partner: Mint System
 ---
 
 # Kalender Aktionen
@@ -15,11 +17,11 @@ prev: ./kalender
 
 ### Outlook Kalender synchronisieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Outlook Kalender synchronisieren`\
 Modell: `res.users`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 

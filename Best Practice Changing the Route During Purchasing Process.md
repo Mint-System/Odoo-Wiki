@@ -3,6 +3,7 @@ title: Änderung der Route während dem Einkaufsprozess
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Änderung der Route während dem Einkaufsprozess

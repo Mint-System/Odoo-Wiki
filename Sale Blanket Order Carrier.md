@@ -1,10 +1,18 @@
 ---
-title: Sale Blanket Order Carrier
 description: Legen Sie die Auslieferungsmethode auf dem Rahmenvertrag fest.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: sale_blanket_order_carrier
+partner: Mint System
 prev: ./sale-blanket-order
+repo: Mint-System/Odoo-Apps-Sale-Workflow
+title: Sale Blanket Order Carrier
+versions:
+- '17.0'
+- '16.0'
+- '14.0'
 ---
+
 
 # Sale Blanket Order Carrier
 
@@ -12,8 +20,8 @@ prev: ./sale-blanket-order
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_blanket_order_carrier`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Sale-Workflow/tree/16.0/sale_blanket_order_carrier>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

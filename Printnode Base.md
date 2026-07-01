@@ -2,7 +2,7 @@
 title: Odoo Direct Print
 description: Jeden Odoo Bericht oder Etikette von überall nach überall drucken.
 kind: howto
-partner: Mint-System
+partner: Mint System
 prev: ./iot
 ---
 
@@ -13,9 +13,26 @@ prev: ./iot
 {{ $frontmatter.description }}
 
 Technischer Name: `printnode_base`\
-Repository: <https://gitlab.com/mint-system/odoo-apps-partner/-/tree/14.0/printnode_base>\
-Odoo App Store: <https://apps.odoo.com/apps/modules/14.0/printnode_base/>\
+Odoo App Store: <https://apps.odoo.com/apps/modules/19.0/printnode_base/>\
 Video: [Odoo Experience 2021 - Automating Direct Printing](https://www.youtube.com/watch?v=6dnHvpsukPg)
+
+## Beschreibung
+
+Mit Odoo Direct Print werden Druckaufträge aus Odoo via PrintNode an lokale Drucker gesendet. Die App wird von VentorTech entwickelt und angeboten.
+
+![](attachments/PrintNode%20how%20it%20works.png)
+Bildquelle: https://www.printnode.com/en/docs
+
+### Voraussetzungen
+
+- Ein Computer mit Zugriff auf die gewünschten Drucker und mit installiertem PrintNode Client und Internetzugang. Diese Software kann kostenlos [heruntergeladen und installiert](https://www.printnode.com/en/download) werden. Dieser Computer kann ein Raspberry Pi sein, eine Workstation oder eine virtuelle Maschine auf einem Server.
+- Ein Nutzerkonto auf [PrintNode.com](https://www.printnode.com/en)
+- Odoo On Premise oder Odoo.sh
+
+### Kosten
+
+- Direct Print PRO: [zu den Preismodellen von Ventor](https://print.ventor.tech/plans)
+- PrintNode: [zu den Preismodellen von PrintNode](https://www.printnode.com/en/pricing)
 
 ## Konfiguration
 
@@ -189,7 +206,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Tage\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 07:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -239,7 +256,7 @@ Modell: `ir.actions.server`\
 Ausführen alle: `1` Tage\
 Nächstes Ausführungsdatum: `DD.MM.YYYY 05:00:00`\
 Anzahl der Anrufe: `-1`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 

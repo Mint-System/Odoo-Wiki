@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - partner == "Zebra"
+    order:
+      - file.name
+      - partner
+      - versions
+    sort:
+      - property: tags
+        direction: DESC
+    columnSize:
+      file.name: 283

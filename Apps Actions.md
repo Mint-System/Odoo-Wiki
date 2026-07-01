@@ -2,7 +2,9 @@
 title: Apps Aktionen
 description: Aktionen für Apps einrichten.
 kind: howto
+section: true
 prev: ./apps
+partner: Mint System
 ---
 
 # Apps Aktionen
@@ -15,11 +17,11 @@ prev: ./apps
 
 ### Modul aktualisieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Modul aktualisieren`\
 Modell: `ir.module.module`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -32,7 +34,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 In der Liste der Apps erscheint nun in der Auswahl _Aktion_ das Menu _Modul aktualisieren_.
 
-## Automatisierte Aktionen
+## Automatische Aktionen
 
 ### SQL-Grants nach Modul-Installation ausführen
 

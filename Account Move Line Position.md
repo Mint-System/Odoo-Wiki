@@ -1,10 +1,20 @@
 ---
-title: Account Move Line Position
 description: Positionsnummer anzeigen und aus Verkaufs- oder Einkaufsauftrag verlinken.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: account_move_line_position
+partner: Mint System
 prev: ./order-positions
+repo: Mint-System/Odoo-Apps-Account-Invoicing
+title: Account Move Line Position
+versions:
+- '19.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Account Move Line Position
 
@@ -12,14 +22,14 @@ prev: ./order-positions
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_move_line_position`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Invoicing/tree/17.0/account_move_line_position>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Konfiguration
 
 ### Positionsnummer aus Verkaufs- oder Einkaufsauftrag verlinken.
 
-Navigieren Sie nach _Einstellungen > Abrechnung > Kundenrechnung_ und aktivieren Sie die Option _Position Numbers from Orders_. Alle Rechnungszeilen, die mit einem Verkaufs- oder Einkaufsauftrag verlinkt sind, verlinken die Positionsnummer von der entsprechenden Auftragszeile.
+Navigieren Sie nach _Einstellungen > Abrechnung > Kundenrechnung_ und aktivieren Sie die Option _Position Numbers from Orders_. Alle Rechnungszeilen, die mit einem Verkaufs- oder Einkaufsauftrag verlinkt sind, verlinken die Positionsnummer von der entsprechenden Auftragsposition.
 
 ::: tip
 Wenn Sie zusätzliche Zeilen ohne Verlinkung der Rechnungen hinzufügen, versucht Odoo die Aufzählung der Positionsnummern fortzusetzen.

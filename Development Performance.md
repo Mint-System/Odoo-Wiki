@@ -2,7 +2,9 @@
 title: Entwicklung Performance
 description: Performance-Probleme analysieren.
 kind: howto
+section: true
 prev: ./development
+partner: Mint System
 ---
 
 # Entwicklung Performance

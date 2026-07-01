@@ -1,10 +1,17 @@
 ---
-title: HR Calendar User Color
 description: Farben im Kalender user-spezifisch.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: calendar_user_color
+partner: Mint System
 prev: ./hr
+repo: Mint-System/Odoo-Apps-HR
+title: HR Calendar User Color
+versions:
+- '17.0'
+- '16.0'
 ---
+
 
 # HR Calendar User Color
 
@@ -12,8 +19,8 @@ prev: ./hr
 
 {{ $frontmatter.description }}
 
-Technischer Name: `calendar_user_color`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-HR/tree/17.0/calendar_user_color>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 

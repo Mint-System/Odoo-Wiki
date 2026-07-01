@@ -1,10 +1,18 @@
 ---
-title: Stock Picking Progress
 description: Fortschrittsanzeige für Transfer.
+forge: github.com
 kind: howto
+name: stock_picking_progress
 partner: OCA
 prev: ./stock
+repo: OCA/stock-logistics-workflow
+title: Stock Picking Progress
+versions:
+- '18.0'
+- '16.0'
+- '14.0'
 ---
+
 
 # Stock Picking Progress
 
@@ -12,5 +20,5 @@ prev: ./stock
 
 {{ $frontmatter.description }}
 
-Technischer Name: `stock_picking_progress`\
-Repository: <https://github.com/OCA/stock-logistics-workflow/tree/18.0/stock_picking_progress>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>

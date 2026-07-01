@@ -1,10 +1,21 @@
 ---
-title: Sale Timesheet Line Exclude
 description: Zeiterfassungseinträge als nicht abrechenbar markieren.
+forge: github.com
 kind: howto
+name: sale_timesheet_line_exclude
 partner: OCA
 prev: ./hr-timesheet
+repo: OCA/timesheet
+title: Sale Timesheet Line Exclude
+versions:
+- '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 ---
+
 
 # Sale Timesheet Line Exclude
 
@@ -12,22 +23,24 @@ prev: ./hr-timesheet
 
 {{ $frontmatter.description }}
 
-Technischer Name: `sale_timesheet_line_exclude`\
-Repository: <https://github.com/OCA/timesheet/tree/18.0/sale_timesheet_line_exclude>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
-::: warning
-Diese App erweitert die `_timesheet_determine_sale_line` Methode. Abhängig von der Installations-Reihenfolge der anderen Module, welche diese Methode erweitern, kann der Methoden-Aufruf blockiert werden.
-:::
+## Konfiguration
+
+### Berechtigung für "Von Abrechnung aus-/einschliessen" erteilen
+
+Zeigen Sie die Gruppen unter *Einstellungen > Benutzer & Unternehmen > Gruppen* an. Suchen Sie nach *Exclude timesheets from sale order*. Öffnen Sie die Gruppe und fügen Sie Benutzer hinzu.
 
 ## Aktionen
 
 ### Von Abrechnung aus-/einschliessen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Von Abrechnung aus-/einschliessen`\
 Modell: `account.analytic.line`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

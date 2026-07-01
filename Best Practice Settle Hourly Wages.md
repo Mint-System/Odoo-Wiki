@@ -3,6 +3,7 @@ title: Abrechnung Stundenlohn
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
+partner: Mint System
 ---
 
 # Abrechnung Stundenlohn

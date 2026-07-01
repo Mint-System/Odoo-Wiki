@@ -1,10 +1,17 @@
 ---
-title: Account Accountant Reconcile
 description: Bank-Gutschriften anhand Referenz und Betrag abgleichen.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: account_accountant_reconcile
+partner: Mint System
 prev: ./accounting
+repo: Mint-System/Odoo-Apps-Account-Reconcile
+title: Account Accountant Reconcile
+versions:
+- '18.0'
+- '16.0'
 ---
+
 
 # Account Accountant Reconcile
 
@@ -12,8 +19,8 @@ prev: ./accounting
 
 {{ $frontmatter.description }}
 
-Technischer Name: `account_accountant_reconcile`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Account-Reconcile/tree/16.0/account_accountant_reconcile>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 

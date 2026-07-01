@@ -1,10 +1,16 @@
 ---
-title: Mail Tracking Helpdesk Bounce Ticket
 description: Für E-Mails mit dem Status Bounced ein Helpdesk-Ticket erstellen.
+forge: github.com
 kind: howto
-partner: Mint-System
-prev: ./dialog
+name: mail_tracking_helpdesk_bounce_ticket
+partner: Mint System
+prev: ./discuss
+repo: Mint-System/Odoo-Apps-Server-Tools
+title: Mail Tracking Helpdesk Bounce Ticket
+versions:
+- '16.0'
 ---
+
 
 # Mail Tracking Helpdesk Bounce Ticket
 
@@ -12,8 +18,8 @@ prev: ./dialog
 
 {{ $frontmatter.description }}
 
-Technischer Name: `mail_tracking_helpdesk_bounce_ticket`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Server-Tools/tree/16.0/mail_tracking_helpdesk_bounce_ticket>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
 Vor der Installation dieses Moduls wird empfohlen alle E-Mails im Status _Bounced_ aus Odoo zu löschen oder den Status dieser E-Mails manuell zu ändern.
@@ -27,11 +33,11 @@ Mit dieser Erweiterung wird für E-Mails im Status _Bounced_ ein Kundendienst-Ti
 
 ### Auf Bounced setzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Server-Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Auf Bounced setzen`\
 Modell: `mail.tracking.email`\
-Folgeaktion: `Python-Code ausführen`
+Typ: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

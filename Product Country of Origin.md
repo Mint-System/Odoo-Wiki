@@ -1,10 +1,18 @@
 ---
-title: Product Country of Origin
 description: Bestimmen Sie für jedes Produkt ein Herkunftsland.
+forge: github.com
 kind: howto
-partner: Mint-System
+name: product_country_of_origin
+partner: Mint System
 prev: ./manufacture
+repo: Mint-System/Odoo-Apps-Product-Attribute
+title: Product Country of Origin
+versions:
+- '17.0'
+- '16.0'
+- '14.0'
 ---
+
 
 # Product Country of Origin
 
@@ -12,8 +20,8 @@ prev: ./manufacture
 
 {{ $frontmatter.description }}
 
-Technischer Name: `product_country_of_origin`\
-Repository: <https://github.com/Mint-System/Odoo-Apps-Product-Attribute/tree/17.0/product_country_of_origin>
+Technischer Name: {{ $frontmatter.name }}\
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Verwendung
 
