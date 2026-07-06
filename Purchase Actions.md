@@ -13,6 +13,33 @@ partner: Mint System
 
 {{ $frontmatter.description }}
 
+## Aktionen
+
+### Einkaufsbeschreibung erneut übertragen
+
+Mit dieser Aktion _Verkaufsbeschreibung kopieren_ wird das Feld _Purchase Description_ eines Produkts in die zugehörige Produktzeile einer Bestellung kopiert.
+
+Navigieren Sie nach  _Einstellungen > Technisch > Automation > Serveraktionen_ und erstellen Sie den folgenden Eintrag:
+
+- Name der Aktion: `Verkaufsbeschreibung kopieren`
+- Modell: `Bestellung`
+- Type: Code ausführen
+- Python-Code:
+  ```python
+  for order in records:
+    partner_lang = order.partner_id.lang
+    for line in order.order_line:
+        if line.product_id:
+            product_lang = line.product_id.with_context(
+                lang=partner_lang,
+                partner_id=order.partner_id.id,
+            )
+            line.write({
+                'name': line._get_product_purchase_description(product_lang)
+            })
+  ```
+
+
 ## Automatische Aktionen
 
 ### Bestellfrist festlegen
