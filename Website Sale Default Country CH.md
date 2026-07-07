@@ -8,8 +8,9 @@ prev: ./website
 repo: Mint-System/Odoo-Apps-Website
 title: Website Sale Default Country CH
 versions:
-- '15.0'
-- '14.0'
+  - "15.0"
+  - "14.0"
+  - "18.0"
 ---
 
 
