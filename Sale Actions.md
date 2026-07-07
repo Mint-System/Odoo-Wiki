@@ -206,6 +206,26 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Das ist eine Standard-Serveraktion von Odoo. Der Status "Angebot gesendet" wird nur gesetzt, wenn Dialog zum Versand aufgerufen werden. Mit dieser Aktion können Sie den Status explizit setzen.
 
+### Verkaufsbeschreibung in Verkaufszeilen kopieren
+
+Mit dieser Serveraktion kann die Verkaufsbeschreibung  eines Produktes in die entsprechende Verkaufszeile des Verkaufsauftrags kopiert werden. Dies kann nötig sein, wenn die Verkaufsbeschreibung  eines Produktes geändert wird, da Odoo nicht automatisch die Änderung in einen bestehenden Verkausauftrag  übernimmt.
+
+Name der Aktion: `Verkaufsbeschreibung in Verkaufszeilen kopieren`
+Modell: `sale.order`\
+Typ: `Code ausführen`
+
+Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
+
+```python
+for order in records:
+    for line in order.order_line:
+        if line.product_id:
+            line.write({
+                'name': line._get_sale_order_line_multiline_description_sale()
+            })
+```
+
+
 ## Geplante Aktionen
 
 ### Verkaufsaufträge nach Invervall abrechnen
