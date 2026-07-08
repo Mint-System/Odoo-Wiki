@@ -972,17 +972,17 @@ Mit dieser automatischen Aktion wird eine Lieferung im Status _Bereit_ die erled
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-Name der Aktion: `Lieferung erledigen wenn bereit`\
-Modell: `stock.picking`\
-Auslöser: Beim Aktualisieren\
-Anzuwenden auf:
+- **Name der Aktion**: `Lieferung erledigen wenn bereit`
+- **Modell**: `stock.picking`
+- **Auslöser**: Beim Aktualisieren
+- **Anzuwenden auf**:
 
 ```python
 ["&",["picking_type_code","=","outgoing"],["state","=","assigned"]]
 ```
 
-Folgeaktion: Code ausführen\
-Python Code:
+- **Folgeaktion**: Code ausführen
+- **Python Code**:
 
 ```python
 for picking in records:
@@ -994,23 +994,22 @@ for picking in records:
 
 ### Liefergewicht von Verpackung berechnen
 
-Mit dieser automatischen Aktion wird auf Verpackung das Liefergewicht aus dem geschäftzten Produktgewicht und dem Gewicht der Verpackung berechnet.
+Mit dieser automatischen Aktion wird auf Verpackung das Liefergewicht aus dem geschätzten Produktgewicht und dem Gewicht der Verpackung berechnet.
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-Name der Aktion: `Liefergewicht von Verpackung berechnen`\
-Modell: `stock.quant.package`\
-Auslöser: Bei Erstellung und Aktualisierung\
-Trigger-Felder:
+- **Name der Aktion**: `Liefergewicht von Verpackung berechnen`
+- **Modell**: `stock.quant.package`
+- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Trigger-Felder**:
+	- `​estimated_pack_weight_kg`
+	- `pack_weight`
+	- `quant_ids`
+	- `single_product_qty`
+	- `single_product_id`
 
-- `​estimated_pack_weight_kg`
-- `pack_weight`
-- `quant_ids`
-- `single_product_qty`
-- `single_product_id`
-
-Folgeaktion: Code ausführen\
-Python-Code:
+- **Folgeaktion**: Code ausführen
+- **Python-Code**:
 
 ```python
 for rec in records:
