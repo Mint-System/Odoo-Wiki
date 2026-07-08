@@ -172,3 +172,16 @@ if partner_ids:
 ::: tip
 Die Aktivität auf dem Kontakt wird im Archivierungsvorgang gelöscht.
 :::
+
+## Automatische Aktionen
+
+###  Unternehmen (company_id) bei neuem Kontakt entfernen
+
+- Name der Aktion: `Unternehmen (company_id) bei neuem Kontakt entfernen`
+- Modell: `Kontakt`
+- Auslöser: `Bei Erstellung`
+- Domain: `[("company_id", "!=", False)]`
+- Folgeaktion: `Datensatz aktualisieren`
+- Feld: `Unternehmen (company_id)`
+- Wert: `False`
+
