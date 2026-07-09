@@ -47,7 +47,13 @@ Website: <https://www.odoo.com/de_DE/app/project>
 | [Projekt Task Billable](Projekt%20Task%20Billable.md)                             | Aufgaben als abrechenbar markieren.                      |
 | [Sequential Code for Tasks](Sequential%20Code%20for%20Tasks.md)                   | Sequenznummer für Projektaufgaben.                       |
 
-## Verwaltung
+## Konfiguration
+
+### Projektphasen aktivieren
+
+Navigiere nach _Projekt > Konfiguration > Einstellungen_. Aktivieren Sie die Option _Projektphasen_ und speichern Sie die Einstellung. Sie erhalten einen Link _Phasen konfigurieren_.
+
+## Verwendung
 
 ### Projekt anlegen
 
@@ -66,37 +72,34 @@ Wählen Sie _Projekt_ und klicken Sie auf eine Projekt-Kachel. Sie sehen nun die
 
 Wählen Sie _Projekt > Aufgaben_. Hier sehen Sie alle Aufgaben, die ihnen zugeordnet wurden.
 
-### Aufgabenstufen erstellen
-
-::: tip
-Mittels Aufgabenstufen kann der Aufgabenstatus und deren Arbeitsfluss abgebildet werden. Eine Aufgaben durchläuft verschiedene Stufen bis Sie erledigt ist und archiviert werden kann.
-:::
+### Aufgabenphasen erstellen
 
 Navigieren Sie in die Kanban-Ansicht eines Projekts _Projekt > Projekt auswählen_ und geben im Feld _Spaltentitel_ die Stufenbezeichnung ein.
 
 ::: warning
-Die erstellte Aufgabenstufen ist nur für dieses Projekt sichtbar.
+Die erstellte Aufgabenphase ist nur für dieses Projekt sichtbar.
 :::
-
-### Globale Aufgabenstufen erstellen zuordnen
 
 ::: tip
-Aufgabenphasen können mit mehreren Projekten geteilt werden.
+Mittels Aufgabenphasen kann der Aufgabenstatus und deren Arbeitsfluss abgebildet werden. Eine Aufgaben durchläuft verschiedene Stufen bis Sie erledigt ist und archiviert werden kann.
 :::
 
-Wechseln Sie in den [Entwicklermodus](Settings.md#Entwicklermodus%20aktivieren) und navigieren nach _Projekt > Konfiguration > Aufgabenphasen_. Wählen Sie eine bestehende Phase aus und klicken Sie auf _Bearbeiten_.
+
+### Gemeinsame Aufgabenphasen festlegen
+
+Wechseln Sie in den [Entwicklermodus](Settings.md#Entwicklermodus%20aktivieren) und navigieren nach _Projekt > Konfiguration > Aufgabenphasen. Wählen Sie eine bestehende Phase aus und klicken Sie auf _Bearbeiten_.
 
 Im Auswahl-Feld _Projekt_ können Sie ein bestehendes Projekt hinzufügen. Mit _Speichern_ schliessen Sie den Vorgang ab. Wenn Sie das hinzugefügte Projekt öffnen wird nun die gewählte Stufe dargestellt.
 
 ### Projekt duplizieren
 
-::: tip
-Beim der Duplizierung eines Projekts werden deren Aufgaben und Phasen mitkopiert.
-:::
-
 Um ein Projekt zu duplizieren führen Sie folgende Aktion aus _Projekt > Projekt wählen > Übersicht > Smart-Link Projekt > Aktion > Duplizieren_.
 
 ![Projekt duplizieren](attachments/Projekt%20duplizieren.gif)
+
+::: tip
+Beim der Duplizierung eines Projekts werden deren Aufgaben und Phasen mitkopiert.
+:::
 
 ## Auswertung
 
