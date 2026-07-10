@@ -124,17 +124,23 @@ Es erscheint eine Verabschiedung mit Angabe der geleisteten Arbeitszeit.
 
 ### Anwesenheit manuell erfassen
 
-Gilt bis #Odoo17:
-
-Wenn die manuelle Erfassung der Anwesenheit erlaubt ist, navigieren Sie nach _Anwesenheiten > Anweseheiten_ und erstellen einen neuen Eintrag. Wählen Sie bei _Anmeldung_ das Startdatum mit Uhrzeit und bei Abmeldung das Enddatum mit Uhrzeit.
+Wenn die manuelle Erfassung der Anwesenheit erlaubt ist, navigieren Sie nach _Anwesenheiten > Anwesenheiten_ und erstellen einen neuen Eintrag. Wählen Sie bei _Anmeldung_ das Startdatum mit Uhrzeit und bei Abmeldung das Enddatum mit Uhrzeit.
 
 ## Berechtigungen
 
 ### Manuelle Erfassung Anwesenheit erlauben
 
-Zeigen Sie _Einstellungen > Benutzer & Unternehmen > Gruppen an und rufen die Gruppe _Benutzer: Die eigenen Anwesenheiten lesen_. Fügen Sie die Benutzer hinzu, welche ihre Anwesenheit selber verwalten dürfen. Rufen Sie den Tab _Zugriffsrechte_ auf und erteilen Sie dem _hr.attendance.user_ Eintrag Lesen, Schreiben und Erstellen.
+Zeigen Sie _Einstellungen > Benutzer & Unternehmen > Gruppen an und rufen die Gruppe _Benutzer: Die eigenen Anwesenheiten lesen_. Fügen Sie die Benutzer hinzu, welche ihre Anwesenheit selber verwalten dürfen. Wiederholen Sie den Vorgang für _Sachbearbeiter: Anwesenheiten verwalten_.
 
-Gilt bis #Odoo16:
+Rufen Sie unter _Mitarbeiter_ den Eintrag des Mitarbeitenden auf. Im Tab _Arbeitsinformation_ legen Sie _Genehmiger_ für _Anwesenheit_ den Mitarbeitenden selbst fest. 
+
+Gilt für #Odoo17:
+
+Zeigen Sie _Einstellungen > Benutzer & Unternehmen > Gruppen an und rufen die Gruppe _Technisch / Benutzer: Die eigenen Anwesenheiten lesen_. Fügen Sie die Benutzer hinzu, welche ihre Anwesenheit selber verwalten dürfen. Wiederholen Sie den Vorgang für _Technisch / Sachbearbeiter: Anwesenheiten verwalten_.
+
+Rufen Sie unter _Mitarbeiter_ den Eintrag des Mitarbeitenden auf. Im Tab _Arbeitsinformation_ legen Sie _Genehmiger_ für _Anwesenheit_ den Mitarbeitenden selbst fest. 
+
+Gilt für #Odoo16:
 
 Die Berechtigung zur Bearbeitung der Anwesenheits-Einträge wird über die Fenster-Aktion gesteuert. Nun gibt es eine gleichnamige Fensteraktion für Anwesenheiten-Benutzer und -Administratoren. Navigieren Sie nach _Einstellungen > Technisch > Menüpunkte_ und suchen Sie nach _Anwesenheiten_. Öffnen Sie den ersten Eintrag und wählen Sie im Feld _Aktion_ den ersten Eintrag _Anwesenheiten_ aus.
 
@@ -142,13 +148,15 @@ Die Berechtigung zur Bearbeitung der Anwesenheits-Einträge wird über die Fenst
 
 Nun wird für Benutzer- und Administratoren die gleiche Aktion aufgerufen und die gleiche Ansicht angezeigt.
 
-Gilt bis #Odoo15:
+Gilt für #Odoo15:
 
 Damit Mitarbeitende ihre Anwesenheit manuell erfassen können Navigieren Sie nach _Einstellungen > Technisch > Ansichten_ und zeigen die Ansicht _hr.attendance.tree.inherit_ an. Im Tab _Zugriffsrechte_ fügen Sie die Gruppe _Anwesenheiten / Manuelle Anwesenheit_ hinzu.
 
 ### Löschen von Anwesenheiten erlauben
 
-Damit Mitarbeitende ihre erfassten Anwesenheiten löschen können, müssen Sie die Zugriffsrechte für die Gruppe _Anwesenheit / Bentuzer_ anpassen. Führen Sie [Datensatzregeln für Gruppe anpassen](Settings%20Permissions.md#Datensatzregeln%20für%20Gruppe%20anpassen) aus und erlauben Sie das Löschen der Einträge.
+Gilt bis #Odoo16:
+
+Damit Mitarbeitende ihre erfassten Anwesenheiten löschen können, müssen Sie die Zugriffsrechte für die Gruppe _Anwesenheit / Benutzer_ anpassen. Führen Sie [Datensatzregeln für Gruppe anpassen](Settings%20Permissions.md#Datensatzregeln%20für%20Gruppe%20anpassen) aus und erlauben Sie das Löschen der Einträge.
 
 Zusätzlich müssen Sie auf den Zugriffsrechten _hr.attendance.system.user_ das Löschen erlauben.
 
@@ -181,11 +189,11 @@ Das detaillierte Protokoll der An- und Abmeldungen zeigt die Übersicht _Anwesen
 
 Gilt ab #Odoo18:
 
-Klicken Sie auf die App _Anwesenheiten_ und anschliessend auf einen Eintrag. Setzen Sie die Genehmigung des Eintrags zurück indem Sie auf das Statusfeld _Zu gengemigen_ klicken. Bearbeiten Sie den Eintrag und bestätigen Sie die Eingaben mit einem Klick auf _Genehmigen_.
+Klicken Sie auf die App _Anwesenheiten_ und anschliessend auf einen Eintrag. Setzen Sie die Genehmigung des Eintrags zurück indem Sie auf das Statusfeld _Zu genehmigen_ klicken. Bearbeiten Sie den Eintrag und bestätigen Sie die Eingaben mit einem Klick auf _Genehmigen_.
 
 Gilt bis #Odoo17:
 
-Mitarbeiteende können standardmässig ihre Anwesenheiten korrigieren. Dazu navigieren Sie über das Menu oben-rechts nach _Vorname Nachname > Mein Profil > Smart-Link XX.XX Stunden_. Hier werden die An- und Abmeldungen aufgelistet.
+Mitarbeitende können standardmässig ihre Anwesenheiten korrigieren. Dazu navigieren Sie über das Menu oben-rechts nach _Vorname Nachname > Mein Profil > Smart-Link XX.XX Stunden_. Hier werden die An- und Abmeldungen aufgelistet.
 
 Um einen Eintrag zu bearbeiten, klick man entweder auf _Einchecken_ oder _Abmeldung_.
 
