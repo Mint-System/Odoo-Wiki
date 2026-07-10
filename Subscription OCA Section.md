@@ -24,4 +24,4 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Mit dieser Erweiterung kann den Posten eines Abonnements (Subscription) eine Notiz bzw. ein Abschnitt (Section) hinzugefügt werden, analog zu Verkaufsaufträgen.
+Mit dieser Erweiterung kann den Posten eines Abonnements (Subscription) eine Notiz bzw. ein Abschnitt (Section) hinzugefügt werden, analog zu Verkaufsaufträgen. Diese Notizen und Abschnitte werden auch auf die Rechnung übernommen.
