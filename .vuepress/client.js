@@ -1,8 +1,6 @@
 import { defineClientConfig } from 'vuepress/client'
 import { defineSearchConfig } from '@vuepress/plugin-slimsearch/client'
 
-const { domain = undefined } = __PLAUSIBLE_OPTIONS__
-
 // A snippet is an array of tokens: plain strings, or ['mark', matchedText] tuples.
 const flattenSnippet = (snippet) =>
   snippet.map((word) => (Array.isArray(word) ? word[1] : word)).join('')
@@ -34,14 +32,4 @@ defineSearchConfig({
   },
 })
 
-export default defineClientConfig({
-  enhance({ router }) {
-    if (!__VUEPRESS_SSR__) {
-      var script = document.createElement('script')
-      script.defer = true
-      script.dataset.domain = domain
-      script.src = 'https://plausible.io/js/script.js'
-      document.getElementsByTagName('head')[0].appendChild(script)
-    }
-  },
-})
+export default defineClientConfig({})

@@ -1,0 +1,12 @@
+.vp-navbar-item a[href="https://www.mint-system.ch"] {
+  padding: 0.35rem 0.9rem;
+  border-radius: 6px;
+  background-color: var(--vp-c-accent-bg);
+  color: #fff !important;
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+  &:hover {
+    background-color: var(--vp-c-accent-hover);
+    transform: translateY(-1px);
+  }
+}
