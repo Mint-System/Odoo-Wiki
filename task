@@ -232,7 +232,6 @@ update-module-versions() {
 }
 
 install() {
-    pnpm approve-builds
     pnpm install
 }
 
