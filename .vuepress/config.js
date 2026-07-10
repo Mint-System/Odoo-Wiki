@@ -21,8 +21,6 @@ export default defineUserConfig({
     editLink: false,
     navbar: [
       { text: 'Home', link: '/' },
-      { text: 'Index', link: '/glossary' },
-      { text: 'Mint System', link: 'https://www.mint-system.ch/odoo' },
       {
         text: 'Chat',
         link: 'https://matrix.to/#/!KrqriCmWfsDJxdWNtE:mint-system.ch?via=mint-system.ch&via=matrix.org',

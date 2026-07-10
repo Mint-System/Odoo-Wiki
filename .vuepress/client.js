@@ -1,5 +1,6 @@
 import { defineClientConfig } from 'vuepress/client'
 import { defineSearchConfig } from '@vuepress/plugin-slimsearch/client'
+import Layout from './layouts/Layout.vue'
 
 // A snippet is an array of tokens: plain strings, or ['mark', matchedText] tuples.
 const flattenSnippet = (snippet) =>
@@ -32,4 +33,8 @@ defineSearchConfig({
   },
 })
 
-export default defineClientConfig({})
+export default defineClientConfig({
+  layouts: {
+    Layout,
+  },
+})
