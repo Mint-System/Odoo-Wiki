@@ -28,24 +28,16 @@ export default defineUserConfig({
         link: 'https://matrix.to/#/!KrqriCmWfsDJxdWNtE:mint-system.ch?via=mint-system.ch&via=matrix.org',
       },
     ],
-    // sidebar: {
-    //   '/': [
-    //     {
-    //       text: 'Home',
-    //       collapsable: false,
-    //       children: sidebar,
-    //     },
-    //   ],
-    // },
   }),
   plugins: [
-    // slimsearchPlugin({
-    //     indexContent: true,
-    //     suggestion: false
-    // }),
-    searchPlugin({
-      maxSuggestions: 10,
+    slimsearchPlugin({
+        indexContent: true,
+        suggestion: false,
+        sortStrategy: "total"
     }),
+    // searchPlugin({
+    //   maxSuggestions: 10,
+    // }),
     plausiblePlugin({
       domain: 'odoo-wiki.org',
     }),
