@@ -109,6 +109,8 @@ Für diese Werte müssen Sie in Odoo zwei [Systemparameter anlegen](Development.
 Wir empfehlen Produkte von [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hosting.mail?utm_term=67ff9acbaabca) anstatt Outlook zu verwenden.
 :::
 
+Damit Odoo eine Outlook OAuth-Verbindung aufnehmen kann, muss auf dem Microsoft 365 Benutzer die SMTP-Authentisierung erlaubt sein. Stellen Sie sicher, dass die folgenden Anweisungen ausgeführt wurden: https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#use-the-microsoft-365-admin-center-to-enable-or-disable-smtp-auth-on-specific-mailboxes
+
 Navigieren Sie nach _Einstellungen > Technisch > Eingehender Mail-Server_. Markieren Sie den Eintrag _Outlook_ auf dem Mail-Server. Klicken Sie auf _Connect your Outlook account_ und loggen Sie sich mit dem Postfach-Benutzer ein.
 
 ![](attachments/Einstellungen%20OAuth%20Outlook.png)

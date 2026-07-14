@@ -21,31 +21,21 @@ export default defineUserConfig({
     editLink: false,
     navbar: [
       { text: 'Home', link: '/' },
-      { text: 'Index', link: '/glossary' },
-      { text: 'Mint System', link: 'https://www.mint-system.ch/odoo' },
       {
         text: 'Chat',
         link: 'https://matrix.to/#/!KrqriCmWfsDJxdWNtE:mint-system.ch?via=mint-system.ch&via=matrix.org',
       },
     ],
-    // sidebar: {
-    //   '/': [
-    //     {
-    //       text: 'Home',
-    //       collapsable: false,
-    //       children: sidebar,
-    //     },
-    //   ],
-    // },
   }),
   plugins: [
-    // slimsearchPlugin({
-    //     indexContent: true,
-    //     suggestion: false
-    // }),
-    searchPlugin({
-      maxSuggestions: 10,
+    slimsearchPlugin({
+        indexContent: true,
+        suggestion: false,
+        sortStrategy: "total"
     }),
+    // searchPlugin({
+    //   maxSuggestions: 10,
+    // }),
     plausiblePlugin({
       domain: 'odoo-wiki.org',
     }),

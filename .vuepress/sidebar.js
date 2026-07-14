@@ -31,6 +31,7 @@ export default [
   "iot.md",
   "calendar.md",
   "point-of-sale.md",
+  "ai.md",
   "contacts.md",
   "helpdesk.md",
   "stock.md",
@@ -162,7 +163,7 @@ export default [
           "discuss-datenmanagement.md",
           "settings-data-management.md",
           "manufacture-data-management.md",
-          "partner-data-management.md",
+          "contacts-data-management.md",
           "helpdesk-data-management.md",
           "project-data-management.md",
           "survey-datamanagement.md"
@@ -258,8 +259,8 @@ export default [
         "text": "Contacts",
         "collapsible": true,
         "children": [
-          "partner-actions.md",
-          "partner-data-management.md"
+          "contacts-actions.md",
+          "contacts-data-management.md"
         ]
       },
       {
@@ -406,6 +407,8 @@ export default [
           "sale-subscription-partner-pricelist.md",
           "sale-subscription-period-discount.md",
           "sale-subscription-pricelist-fixed-discount.md",
+          "sale-subscription-disable-next-invoice-closing.md",
+          "sale-subscription-disable-unpaid-closing.md",
           "sale-subscription-billing-period-display.md"
         ]
       },
@@ -740,6 +743,7 @@ export default [
           "partner-duplicate-acc-number",
           "partner-email-history.md",
           "partner-firstname.md",
+          "partner-format-display-name.md",
           "partner-hide-address.md",
           "partner-manual-rank.md",
           "partner-mobile.md",
@@ -1243,10 +1247,10 @@ export default [
           "mgmt-auditlog.md",
           "mgmt-base.md",
           "mgmt-hazard-risk.md",
-          "mgmt-requirement-knowledge.md",
           "mgmt-requirement.md",
           "mgmt-risk.md",
-          "mmgt-asset.md"
+          "mmgt-asset.md",
+          "mgmt-requirement-knowledge.md"
         ]
       },
       {
