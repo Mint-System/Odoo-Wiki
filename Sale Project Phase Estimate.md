@@ -23,4 +23,4 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Mit dieser Erweiterung könnten Sie auf Angeboten Projektphasen schätzen und mit Auftragspositionen verbinden. Geplante Stunden werden summiert und auf die verlinkte Auftragsposition übertragen. Wenn ein Angebot bestätigt und daraus ein Projekt angelegt wird, dann werden die Aufwandsschätzungen mit dem Projekt verlinkt.
+Mit dieser Erweiterung können Sie auf Angeboten Projektphasen schätzen und mit Auftragspositionen verbinden. Geplante Stunden werden summiert und auf die verlinkte Auftragsposition übertragen. Wenn ein Angebot bestätigt und daraus ein Projekt angelegt wird, dann werden die Aufwandsschätzungen mit dem Projekt verlinkt.
