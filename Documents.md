@@ -50,3 +50,7 @@ Um mehrere Dokumente auswählen, markieren Sie das erste Dokumente, halten <kbd>
 Wählen Sie einen Arbeitsbereich via _Dokumente_ aus und klicken Sie auf _Teilen_. Wählen Sie die Option _Erlaubt es: Hoch- und runterladen_ und geben Sie rechts den E-Mail-Alias ein. Speichern Sie den Vorgang.
 
 Richten Sie den E-Mail-Alias für ihre konfigurierte Odoo-Mail-Adresse ein.
+
+### Dokument teilen
+
+Markieren Sie ein Dokument in der _Dokumente_ App von Odoo. Wählen Sie _Teilen_ und bestimmen Sie im Dialog welcher Person Zugriff erhalten soll oder welche Berechtigung für den Zugriffs-Link gilt. Kopieren Sie den Link in die Zwischenablage mit _Links kopieren_.

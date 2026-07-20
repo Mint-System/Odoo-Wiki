@@ -30,7 +30,7 @@ flowchart LR
 
     Browser["🌐 Browser"]
     Odoo["🖥️ Odoo"]
-    DS["📄 ONLYOFFICE Documentserver"]
+    DS["📄 ONLYOFFICE"]
 
     Browser -- "Öffentliche Url" --> Odoo
     Browser -- "Öffentliche Url" --> DS
@@ -49,4 +49,5 @@ Zeigen Sie _Einstellungen > ONLYOFFICE_ an. Im Bereich _Allgemeine Einstellungen
 - **ONLYOFFICE Docs Geheimschlüssel**: JWT-Geheimnis hier eitnragen.
 - **ONLYOFFICE Docs-Adresse für interne Anfragen vom Server**: Öffentliche oder interne erreichbare Url für Kommunikation von Odoo nach Dokumentserver eintragen.
 - **Serveradresse für interne Anfragen von ONLYOFFICE Docs**: Öffentliche oder interne erreichbare Url für Kommunikation von Dokumentserver nach Odoo eintragen.
-- 
+
+Beim Speichern der Einstellung prüft Odoo ob ein Dokument aus Odoo in den Dokumentserver geladen werden kann.

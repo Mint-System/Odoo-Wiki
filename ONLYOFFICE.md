@@ -7,7 +7,7 @@ prev: ./
 extensions: true
 ---
 
-# Management System
+# ONLYOFFICE
 
 ![icons_odoo_documents](attachments/icons_odoo_documents.png)
 
@@ -15,6 +15,7 @@ extensions: true
 
 ## Erweiterungen
 
-| Erweiterung                             | Beschreibung                                                       |
-| --------------------------------------- | ------------------------------------------------------------------ |
-| [ONLYOFFICE Odoo](ONLYOFFICE%20Odoo.md) | Verbindung zwischen Odoo und ONLYOFFICE Dokumentserver herstellen. |
+| Erweiterung                                                   | Beschreibung                                                       |
+| ------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [ONLYOFFICE Odoo Documents](ONLYOFFICE%20Odoo%20Documents.md) | Dokumente mit ONLYOFFICE bearbeiten.                               |
+| [ONLYOFFICE Odoo](ONLYOFFICE%20Odoo.md)                       | Verbindung zwischen Odoo und ONLYOFFICE Dokumentserver herstellen. |
