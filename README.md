@@ -483,6 +483,12 @@ Software verkaufen und lizenzieren.
 
 Odoo for Management Systems (ISO, IEC, BS, EASA).
 
+### [ONLYOFFICE](ONLYOFFICE.md)
+
+[![icons_odoo_documents](attachments/icons_odoo_documents.png)](ONLYOFFICE.md)
+
+Office-Dokumente in Odoo bearbeiten.
+
 ### [Positionsnummern](Order%20Positions.md)
 
 [![icons_odoo_sale](attachments/icons_odoo_sale.png)](Order%20Positions.md)
