@@ -92,6 +92,23 @@ Wenn der Lieferant an die Erfüllung des Beschaffungsauftrags erinnert werden so
 Die Aktion "Send Reminder" wird mit dem Aktivieren der Option _Ask confirmation_ zum festgelegten Zeitpunkt automatisch ausgeführt.
 :::
 
+## Lieferantenbewertung
+
+Pro Lieferant wird die *Pünktlichkeitsrate* gemessen.
+
+**Beispiele**
+Ein Produkt A wird beim Lieferanten 1 bestellt. Der Wareneingang erfolgt einen Tag nach der Erwarteten Ankunft.  Die Pünktlichkeitsrate beträgt dann 0%
+Anschliessend werden beim gleichen Lieferanten 10 Stück des Produktes A bestellt. Der Wareneingang erfolgt am Tag der Erwarteten Ankunft. Die Pünktlichkeitsrate beträgt dann 91% (Pünktliche Lieferung / Gesamtmenge --> 10 / 11 =  0.909)
+Anschliessend werden  beim Lieferanten 1 nochmal 10 Stück des Produktes A bestellt. Der Wareneingang erfolgt 1 Tag nach der Erwarteten Ankunft. Die Pünktlichkeitsrate beträgt dann 48% (Pünktliche Lieferung / Gesamtmenge --> 10 / 21 =  0.476)
+
+Falls in der Bestellung die Erwartete Ankunft geändert wird, dann wird im Wareneingang das Feld *Frist* synchron nachgeführt. Die Berechnung der Pünktlichkeitsrate erfolgt anhand der Frist.
+
+Zu früh geliefert gilt als pünktlich geliefert.
+
+::: tip
+Die App *Lager* muss installiert sein.
+:::
+
 ## Portal
 
 ### Portal-Ansicht Bestellung anzeigen
