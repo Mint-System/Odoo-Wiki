@@ -26,29 +26,30 @@ Website: <https://www.odoo.com/de_DE/app/manufacturing>
 
 ## Erweiterungen
 
-| Erweiterung                                                                                     | Beschreibung                                                                     |
-| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| [MRP BoM Consumption](MRP%20BoM%20Consumption.md)                                               | Definieren Sie eine Stückliste, die bei der Lieferung verschrottet wird.         |
-| [MRP BoM List](MRP%20BoM%20List.md)                                                             | Stücklisten-Struktur als Liste anzeigen                                          |
-| [MRP BoM Position](MRP%20BoM%20Position.md)                                                     | Jede Komponente in der Stückliste erhält eine Positionsnummer.                   |
-| [MRP Documents Share](MRP%20Documents%20Share.md)                                               | Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument.     |
-| [MRP Production Assign Lot](MRP%20Production%20Assign%20Lot.md)                                 | Los aus eingehenden Lagerbuchungen an unreservierte Komponenten zuweisen.        |
-| [MRP Production Create Upstream Backorder](MRP%20Production%20Create%20Upstream%20Backorder.md) | Erstelle Nachlieferungen für Pickings von Fertigungsaufträgen.                   |
-| [MRP Production Downstream Lot](MRP%20Production%20Downstream%20Lot.md)                         | Los auf verknüpfte Lieferung übertragen.                                         |
-| [MRP Production Generate Lot](MRP%20Production%20Generate%20Lot.md)                             | Los für zu fertigende Produkte automatisch generieren.                           |
-| [MRP Production Note](MRP%20Production%20Note.md)                                               | Notiz auf Fertigungsauftrag hinzufügen.                                          |
-| [MRP Production Preserve Lot](MRP%20Production%20Preserve%20Lot.md)                             | Los-Nummern bei Aufteilung von Fertigungsauftrag beibehalten.                    |
-| [MRP Production Release](MRP%20Production%20Release.md)                                         | Fertigungsaufträge können zurückgesetzt und freigegebenen werden.                |
-| [MRP Production Restrict Lot](MRP%20Production%20Restrict%20Lot.md)                             | Auswahl der Los-Nummer auf der Tablet-Ansicht einschränken.                      |
-| [MRP Production Unplan Move](MRP%20Production%20Unplan%20Move.md)                               | Zukünftiges Datum auf Lagerbuchung bei Planungsabruch festlegen.                 |
-| [MRP Production Update Upstream Move](MRP%20Production%20Update%20Upstream%20Move.md)           | Aktualisiere offene Pickings von Fertigungsaufträgen bei Änderungen.             |
-| [MRP Production Upstream State](MRP%20Production%20Upstream%20State.md)                         | Status von Upstream Lagerbuchung auf Komponentenliste anzeigen.                  |
-| [MRP Sale Info](MRP%20Sale%20Info.md)                                                           | Verkaufsbezogene Informationen auf Fertigungsaufträgen anzeigen.                 |
-| [MRP Suborder Sale Info](MRP%20Suborder%20Sale%20Info.md)                                       | Übertragen der Referenz zum Verkaufsauftrag auf Unteraufträge in MTO-Workflows.  |                                                                                            |                                                                                  |
-| [MRP Workorder Disable Autostart](MRP%20Workorder%20Disable%20Autostart.md)                     | Bei Aufruf von Arbeitsaufträgen in der Tablet-Ansicht nicht automatisch starten. |
-| [MRP Workorder Set Producing Qty](MRP%20Workorder%20Set%20Producing%20Qty.md)                   | Arbeitsauftrag startet ohne erledigte Menge.                                     |
-| [Manufacture Production Move Date](Manufacture%20Production%20Move%20Date.md)                   | Lieferdatum auf Fertigungsauftrag bearbeiten.                                    |
-| [Stock MRP Traceability List](Stock%20MRP%20Traceability%20List.md)                             | Daten aus Lieferverfolgungsbericht als Liste anzeigen.                           |
+| Erweiterung                                                                                     | Beschreibung                                                                     |     |     |
+| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | --- | --- |
+| [MRP BoM Consumption](MRP%20BoM%20Consumption.md)                                               | Definieren Sie eine Stückliste, die bei der Lieferung verschrottet wird.         |     |     |
+| [MRP BoM List](MRP%20BoM%20List.md)                                                             | Stücklisten-Struktur als Liste anzeigen                                          |     |     |
+| [MRP BoM Position](MRP%20BoM%20Position.md)                                                     | Jede Komponente in der Stückliste erhält eine Positionsnummer.                   |     |     |
+| [MRP Documents Share](MRP%20Documents%20Share.md)                                               | Teilen Sie Zeichnungen und Step-Dateien zu ihren Produkten als URL-Dokument.     |     |     |
+| [MRP Production Assign Lot](MRP%20Production%20Assign%20Lot.md)                                 | Los aus eingehenden Lagerbuchungen an unreservierte Komponenten zuweisen.        |     |     |
+| [MRP Production Create Upstream Backorder](MRP%20Production%20Create%20Upstream%20Backorder.md) | Erstelle Nachlieferungen für Pickings von Fertigungsaufträgen.                   |     |     |
+| [MRP Production Downstream Lot](MRP%20Production%20Downstream%20Lot.md)                         | Los auf verknüpfte Lieferung übertragen.                                         |     |     |
+| [MRP Production Generate Lot](MRP%20Production%20Generate%20Lot.md)                             | Los für zu fertigende Produkte automatisch generieren.                           |     |     |
+| [MRP Production Note](MRP%20Production%20Note.md)                                               | Notiz auf Fertigungsauftrag hinzufügen.                                          |     |     |
+| [MRP Production Preserve Lot](MRP%20Production%20Preserve%20Lot.md)                             | Los-Nummern bei Aufteilung von Fertigungsauftrag beibehalten.                    |     |     |
+| [MRP Production Release](MRP%20Production%20Release.md)                                         | Fertigungsaufträge können zurückgesetzt und freigegebenen werden.                |     |     |
+| [MRP Production Restrict Lot](MRP%20Production%20Restrict%20Lot.md)                             | Auswahl der Los-Nummer auf der Tablet-Ansicht einschränken.                      |     |     |
+| [MRP Production Unplan Move](MRP%20Production%20Unplan%20Move.md)                               | Zukünftiges Datum auf Lagerbuchung bei Planungsabruch festlegen.                 |     |     |
+| [MRP Production Update Upstream Move](MRP%20Production%20Update%20Upstream%20Move.md)           | Aktualisiere offene Pickings von Fertigungsaufträgen bei Änderungen.             |     |     |
+| [MRP Production Upstream State](MRP%20Production%20Upstream%20State.md)                         | Status von Upstream Lagerbuchung auf Komponentenliste anzeigen.                  |     |     |
+| [MRP Sale Info](MRP%20Sale%20Info.md)                                                           | Verkaufsbezogene Informationen auf Fertigungsaufträgen anzeigen.                 |     |     |
+| [MRP Suborder Sale Info](MRP%20Suborder%20Sale%20Info.md)                                       | Übertragen der Referenz zum Verkaufsauftrag auf Unteraufträge in MTO-Workflows.  |     |     |
+| [MRP Workorder Disable Autostart](MRP%20Workorder%20Disable%20Autostart.md)                     | Bei Aufruf von Arbeitsaufträgen in der Tablet-Ansicht nicht automatisch starten. |     |     |
+| [MRP Workorder Set Producing Qty](MRP%20Workorder%20Set%20Producing%20Qty.md)                   | Arbeitsauftrag startet ohne erledigte Menge.                                     |     |     |
+| [Mrp Workorder Play Button](Mrp%20Workorder%20Play%20Button.md)                                 | Zeigt Play- und Stop-Button in der Werkstattansicht eines Vorgangs               |     |     |                                                                                           |                                                                                  |     |     |
+| [Manufacture Production Move Date](Manufacture%20Production%20Move%20Date.md)                   | Lieferdatum auf Fertigungsauftrag bearbeiten.                                    |     |     |
+| [Stock MRP Traceability List](Stock%20MRP%20Traceability%20List.md)                             | Daten aus Lieferverfolgungsbericht als Liste anzeigen.                           |     |     |
 
 ## Konfiguration
 
