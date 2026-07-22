@@ -8,6 +8,7 @@ prev: ./base
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Home Backround Image
 versions:
+- '18.0'
 - '16.0'
 - '15.0'
 - '14.0'
