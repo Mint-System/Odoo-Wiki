@@ -31,7 +31,7 @@ extensions: true
 | [Mail Server Filter](Mail%20Server%20Filter.md)                       | Eingehende und ausgehende Mail-Server anhand Datenbanknamen filtern. |
 | [Mail Server Filter Model](Mail%20Server%20Filter%20Model.md)         | Beschränkt E-Mail-Versand auf explizit erlaubte Modelle.             |                                                                  |                                                                      |
 | [Mail Service Users](Mail%20Service%20Users.md)                       | Service-Benutzer von Lizenzvertrag ausschliessen.                    |
-| [Module Auto Update](Module%20Auto%20Update.md)                       | Aktualisiert automatiscch neue Versionen von Odoo Modulen.           |
+| [Module Auto Update](Module%20Auto%20Update.md)                       | Aktualisiert automatisch neue Versionen von Odoo Modulen.           |
 
 ## Infrastruktur
 
