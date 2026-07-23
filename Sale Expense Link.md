@@ -8,6 +8,7 @@ prev: ./hr-expense
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Expense Link
 versions:
+- '18.0'
 - '17.0'
 - '16.0'
 - '15.0'
