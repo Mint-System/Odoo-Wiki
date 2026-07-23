@@ -16,7 +16,7 @@ versions:
 ---
 
 
-# Project Templates
+# Project Template
 
 ![icon_oca_app](attachments/icon_oca_app.png)
 
