@@ -23,20 +23,21 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Dies Modul erweiter die Funktionlität von [Sale Renting Line Period](Sale%20Renting%20Line%20Period.md). Jedes Los von vermietbaren Produkte kann im der Gantt-Ansicht angezeigt und geplant werden.
+Dies Modul erweitert die Funktionlität von [Sale Renting Line Period](Sale%20Renting%20Line%20Period.md). Jedes Los von vermietbaren Produkte kann im der Gantt-Ansicht angezeigt und geplant werden.
 
 Bei Installation des Moduls wird für jedes Los mit einem vermietbaren Produkt und jede Auftragszeile eines ein Slot angelegt.
 
 ## Verwendung
 
-### Verfügbare Lose in Zeitraum anzeigen
-
-Klicken Sie auf _Vermietung > Zeitplan > Zeitraum filtern_. Im Dialog wählen Sie das Start- und Enddatum aus. Wählen Sie _Ansicht Gantt_ oder _Ansicht Liste_.  Es werden nun alle Slots angezeigt, die ausserhalb des Zeitraums liegen.
-
 ### Verfügbarkeit von Slots anzeigen
 
-Klicken Sie auf _Vermietung > Zeitplan > Verfügbarkeit_. Sie sehen alle Slots aus Auftragszeilen und Produklosen.
+Klicken Sie auf _Vermietung > Zeitplan > Verfügbarkeit_. Sie sehen alle Slots aus Auftragszeilen und Produktlosen. Mit dem Filter _Hat Auftragszeile_ werden alle Slots angezeigt, die mit einem Auftrag verknüpft sind.
 
 ### Mietauftrag aus Slot erstellen
 
-Wenn Sie einen Slot in der Listenansicht markieren oder in der Formularansicht anzeigen, können Sie die Aktion _Mietauftrag Erstellen_ anwählen. 
+Wenn Sie einen Slot in der Listenansicht markieren oder in der Formularansicht anzeigen, können Sie die Aktion _Mietauftrag Erstellen_ anwählen.
+
+### Slot aus Mietauftrag erstellen
+
+Zeigen Sie einen Mieauftrag unter _Vermietung_ im Status _Angebot_ an. Bestätigen Sie den Auftrag. Odoo erstellt die dazugehörigen Slots und auf dem Auftrag erscheint ein Smart-Button.
+
