@@ -5,12 +5,12 @@ kind: howto
 name: agreement_legal
 partner: OCA
 prev: ./documents
-repo: OCA/contract
+repo: OCA/agreement
 title: Agreement Legal
 versions:
-- '14.0'
+- '18.0'
+- '19.0'
 ---
-
 
 # Agreement Legal
 
@@ -27,43 +27,29 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Navigieren Sie nach _Agreements > Configuration > Agreement Types_. Hier können sie bestehende Vereinbarungstyp bearbeiten oder neue erstellen.
 
-![](attachments/Agreement%20Types.png)
-
 ### Unter-Vereinbarungstyp erstellen
 
 Die Vereinbarungstypen können weiter in Untergruppen gegliedert werden. Navigieren Sie nach _Agreements > Configuration > Agreement Types_, wählen sie einen Eintrag aus und erfassen sie in der Tabelle _Sub-Type Name_ die Untergruppen.
-
-![](attachments/Agreement%20Legal%20Subtypes.png)
 
 ### Vorlage für Vereinbarung erstellen
 
 Navigieren Sie nach _Agreements > Configuration > Templates_ und klicken sie auf _Neu_. Geben Sie Informationen zur Vereinbarungsvorlage ein und beenden sie den Vorgang mit Speichern.
 
-![](attachments/Agreement%20Legal%20Template.png)
-
 ### Vereinbarung erstellen
 
-Basierend auf einer Vorlage können Sie eine Vereinbarung erstellen. Öffnen sie die _Agreements_ App und klicken Sie auf _Neu_. Wählen Sie die Vorlage aus und geben sie einen Namen an. Anschliessen wählen Sie den Vertragspartner aus und geben ein Start- und Enddatum ein.
-
-![Agreement Legal Vereinbarung erstellen](attachments/Agreement%20Legal%20Vereinbarung%20erstellen.gif)
+Basierend auf einer Vorlage können Sie eine Vereinbarung erstellen. Öffnen sie die _Agreements_ App und klicken Sie auf _Neu_. Wählen Sie die Vorlage aus und geben sie einen Namen an. Anschliessend wählen Sie den Vertragspartner aus und geben ein Start- und Enddatum ein.
 
 ### Unterschriebene Vereinbarung hochladen
 
 Öffnen sie die _Agreements_ App und wählen Sie eine bestehende Vereinbarung. Bearbeiten Sie die Vereinbarung und laden sie das unterschriebene Dokument im Tab _Signatures_ hoch.
 
-![Agreement Legal Unterschriebene Vereinbarung hochladen](attachments/Agreement%20Legal%20Unterschriebene%20Vereinbarung%20hochladen.gif)
-
 ### Aktive Vereinbarungen anzeigen und filtern
 
 Über die Ansicht _Agreements > Operations > Agreements_ sehen sie alle aktiven Vereinbarungen. Hier können Sie suchen und filtern.
 
-![Agreement Legal anzeigen](attachments/Agreement%20Legal%20anzeigen.gif)
-
 ### Neue Version von Vereinbarung erstellen
 
 Öffnen sie die _Agreements_ App und wählen Sie eine bestehende Vereinbarung. Klicken Sie auf _New Version_. Nun wird die bestehende Vereinbarung dupliziert und im Tab _Revisions_ wird die alte Version verknüpft.
-
-![](attachments/Agreement%20Legal%20Revisions.png)
 
 ### Stufen der Vereinbarungen anpassen
 
