@@ -29,9 +29,9 @@ Bei Installation des Moduls wird für jedes Los mit einem vermietbaren Produkt u
 
 ## Verwendung
 
-### Verfügbarkeit von Slots anzeigen
+### Mietplan anzeigen
 
-Klicken Sie auf _Vermietung > Zeitplan > Verfügbarkeit_. Sie sehen alle Slots aus Auftragszeilen und Produktlosen. Mit dem Filter _Hat Auftragszeile_ werden alle Slots angezeigt, die mit einem Auftrag verknüpft sind.
+Klicken Sie auf _Vermietung > Zeitplan > Mietplan_. Sie sehen alle Slots aus Auftragszeilen und Produktlosen. Mit dem Filter _Hat Auftragszeile_ werden alle Slots angezeigt, die mit einem Auftrag verknüpft sind.
 
 ### Mietauftrag aus Slot erstellen
 
