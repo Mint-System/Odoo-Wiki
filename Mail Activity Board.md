@@ -8,6 +8,8 @@ prev: ./dashboards
 repo: OCA/social
 title: Mail Activity Board
 versions:
+- '19.0'
+- '18.0'
 - '17.0'
 - '16.0'
 - '15.0'

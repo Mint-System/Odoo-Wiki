@@ -8,6 +8,7 @@ prev: ./project
 repo: Mint-System/Odoo-Apps-Project
 title: Project Menu
 versions:
+- '18.0'
 - '16.0'
 ---
 

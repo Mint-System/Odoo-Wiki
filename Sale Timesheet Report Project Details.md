@@ -8,6 +8,7 @@ prev: ./sale-timesheet
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Timesheet Report Project Details
 versions:
+- '18.0'
 - '16.0'
 ---
 
