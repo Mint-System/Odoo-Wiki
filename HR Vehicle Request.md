@@ -8,6 +8,7 @@ prev: ./hr
 repo: Mint-System/Odoo-Apps-HR
 title: HR Vehicle Request
 versions:
+- '16.0'
 - '14.0'
 ---
 
@@ -25,7 +26,7 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ### Fahrzeuganfrage erstellen
 
-Navigieren Sie nach _Personal > Fahrzeuganfrage > Fahrzeuganfrage_ und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel:
+Navigieren Sie nach _Personal > Fahrzeuganfrage > Fahrzeuganfrage_ (ab Odoo 16.0:  _Mitarbeiter > Fahrzeuganfrage > Fahrzeuganfrage_) und erstellen Sie einen neuen Eintrag. Dazu ein Beispiel:
 
 ![](attachments/HR%20Vehicle%20Request%20Example.png)
 
@@ -33,7 +34,7 @@ Versenden Sie die Anfrage mit _Anfrage Senden_.
 
 ### Fahrzeuganfrage validieren
 
-Navigieren Sie nach _Personal > Fahrzeuganfrage > Fahrzeuganfrage_ und filtern Sie die Einträge nach _Warte auf Bestätigung_.
+Navigieren Sie nach _Personal > Fahrzeuganfrage > Fahrzeuganfrage_  und filtern Sie die Einträge nach _Warte auf Bestätigung_.
 
 ![](attachments/HR%20Vehicle%20Request%20Waiting.png)
 
