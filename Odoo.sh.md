@@ -48,24 +48,6 @@ Für jede Staging-Phase können Sie eine bestimmte Azahl Branches haben. Möchte
 
 Zie Sie die Ansicht _Builds_ des aktuellen Projekts an und suchen Sie den Build aus, den Sie sichern möchten. Wählen Sie im Kontext-Menü die Aktion _Download-Backup_.
 
-### Staging-Upgrade ausführen
-
-Aktualisieren Sie den Staging-Branch mit den Modulen für die neue Odoo Version. Wählen Sie den Branch aus und klicken Sie auf _Upgrade_. Bestätigen Sie den Dialog und der Upgrade wird gestartet.
-
-Der Upgrade-Prozess wird beim Punkt _Waiting user commit..._ angehalten. Nun können die Submodule angepasst werden. Mit dem Befehl `git commit --allow-empty -m 'Trigger update'; git push` können Sie ein Upgrade der Datebank auslösen.
-
-![](attachments/Odoo.sh%20Trigger%20update.png)
-
-Odoo stellt die aktualisierte Datenbank auf dem Staging-Branch zum Testen bereit. Sie können weitere Anpassungen vornehmen und comitten.
-
-### Upgrade-Modus beenden
-
-Auf dem Branch wählen Sie _Exit upgrade mode_. Damit wird die ursprüngliche Version
-
-### Production-Upgrade ausführen
-
-Mergen Sie den Staging-Branch in den Production-Branch und wählen Sie die Aktion _Upgrade_ aus. Bestätigen Sie den Dialog und Odoo.sh führt das produktive Upgrade aus.
-
 ### GitHub-Repository einbinden
 
 Angenommen Sie möchten die OCA-Module von <https://github.com/OCA/partner-contact> auf ihrer Odoo.sh Umgebung zur Verfügung stellen, gehen Sie wie folgt vor. Rufen Sie GitHub-Seite auf und kopieren Sie den SSH-Link zum Repository.
@@ -98,6 +80,26 @@ Das Odoo.sh Projekt wird für ein bestimmtes Betriebssystem eingerichtet. Wenn d
 Die entsprechende Einstellung wird nur angezeigt, wenn das Betriebssystem veraltet ist.
 :::
 
+## Upgrade
+
+### Staging-Upgrade ausführen
+
+Aktualisieren Sie den Staging-Branch mit den Modulen für die neue Odoo Version. Wählen Sie den Branch aus und klicken Sie auf _Upgrade_. Bestätigen Sie den Dialog und der Upgrade wird gestartet.
+
+Der Upgrade-Prozess wird beim Punkt _Waiting user commit..._ angehalten. Nun können die Submodule angepasst werden. Mit dem Befehl `git commit --allow-empty -m 'Trigger update'; git push` können Sie ein Upgrade der Datebank auslösen.
+
+![](attachments/Odoo.sh%20Trigger%20update.png)
+
+Odoo stellt die aktualisierte Datenbank auf dem Staging-Branch zum Testen bereit. Sie können weitere Anpassungen vornehmen und comitten.
+
+### Upgrade-Modus beenden
+
+Auf dem Branch wählen Sie _Exit upgrade mode_. Damit wird die ursprüngliche Version
+
+### Production-Upgrade ausführen
+
+Mergen Sie den Staging-Branch in den Production-Branch und wählen Sie die Aktion _Upgrade_ aus. Bestätigen Sie den Dialog und Odoo.sh führt das produktive Upgrade aus.
+
 ## Berechtigungen
 
 ### Projekt mit Github-Benutzer teilen
@@ -120,7 +122,7 @@ Der Benutzer erhält eine Einladung via E-Mail und GitHub-Benachrichtigung. Erst
 
 ### Datenbank importieren
 
-Loggen Sie sich in ihr Odoo.sh Projekt ein. Wählen Sie den auf linken Seiten den Branch aus und klicken Sie auf den Tab _Backups_. Anschliessend klicken Sie auf _Import Database_. Es öffent sich ein Dialog mit Informationen zum Import-Vorgang. Klicken Sie auf _Next_. Abhängig von der Grösse der Zip-Datei wählen Sie die entsprechende Option.
+Loggen Sie sich in ihr Odoo.sh Projekt ein. Wählen Sie den auf linken Seiten den Branch aus und klicken Sie auf den Tab _Backups_. Anschliessend klicken Sie auf _Import Database_. Es öffnet sich ein Dialog mit Informationen zum Import-Vorgang. Klicken Sie auf _Next_. Abhängig von der Grösse der Zip-Datei wählen Sie die entsprechende Option.
 
 1. Wählen Sie die Zip-Datei aus und klicken Sie auf _Import_.
 2. Führen Sie den Kommandozeilen-Befehl aus. Starten Sie nach dem Upload den Vorgang mit _Import_.
