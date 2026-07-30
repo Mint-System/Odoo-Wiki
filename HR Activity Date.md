@@ -8,6 +8,7 @@ prev: ./hr
 repo: Mint-System/Odoo-Apps-HR
 title: HR Activity Date
 versions:
+- '16.0'
 - '14.0'
 ---
 
