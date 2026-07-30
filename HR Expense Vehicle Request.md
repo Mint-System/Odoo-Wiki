@@ -8,6 +8,7 @@ prev: ./hr-expense
 repo: Mint-System/Odoo-Apps-HR
 title: HR Expense Vehicle Request
 versions:
+- '16.0'
 - '14.0'
 ---
 
