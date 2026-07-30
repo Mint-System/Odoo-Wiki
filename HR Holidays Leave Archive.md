@@ -8,6 +8,7 @@ prev: ./hr-holidays
 repo: Mint-System/Odoo-Apps-HR
 title: HR Holidays Leave Archive
 versions:
+- '16.0'
 - '14.0'
 ---
 
