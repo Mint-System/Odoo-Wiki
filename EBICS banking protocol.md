@@ -155,7 +155,8 @@ EBICS Technical Error:
 
 **Lösung**
 
-Stellen Sie sicher, dass die korrektie Vertrags- und/oder Teilnehmer-ID eingtragen ist.
+Stellen Sie sicher, dass die korrekte Vertrags- und/oder Teilnehmer-ID eingetragen ist.
+
 
 ### Bank public keys missing
 
