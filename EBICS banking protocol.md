@@ -108,6 +108,10 @@ Um die heruntergeladenen Camt.053-Dateien zu verarbeiten, rufen Sie _Rechnungsst
 
 Im Tab _Bank Statements_ sehen Sie den importierten Bankauszug. Klicken Sie auf den Bankauszug um die Abstimmung zu starten.
 
+### Banken-Schlüssel erneuern
+
+Wählen Sie _Rechnungsstellung > Konfiguration > EBICS Configuration_ und rufen Sie eine bestehende Konfiguration auf. Klicken Sie auf _Set to Draft_ und öffnen Sie den _EBICS User_. Wählen Sie _Renew Bank Keys_, dann _Get Bank Keys_ und zuletzt _Bank Keys Verified_. Speichern Sie den Teilnehmer und bestätigen Sie die Konfiguration mit _Confirm_. 
+
 ## Aktionen
 
 ### Zurücksetzen

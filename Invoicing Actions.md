@@ -19,9 +19,9 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Auf Entwurf zurücksetzen`
-Modell: `account.move`
-Typ: `Code ausführen`
+- **Name der Aktion**: `Auf Entwurf zurücksetzen`
+- **Modell**: `account.move`
+- **Typ**: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -38,9 +38,9 @@ In der Liste der Buchungssätze erscheint nun die Auswahl _Aktionen > Auf Entwur
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Als gesendet markieren`\
-Modell: `account.move`\
-Typ: `Code ausführen`
+- **Name der Aktion**: `Als gesendet markieren`
+- **Modell**: `account.move`
+- **Typ**: `Code ausführen`
 
 ```python
 for record in records:
@@ -55,9 +55,9 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl _Aktion_ das Menu _
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Als ungebucht markieren`\
-Modell: `account.move`\
-Typ: `Code ausführen`
+- **Name der Aktion**: `Als ungebucht markieren`
+- **Modell**: `account.move`
+- **Typ**: `Code ausführen`
 
 ```python
 for record in records:
@@ -74,9 +74,9 @@ In der Liste der Buchungssätze erscheint nun in der Auswahl _Aktion_ das Menu _
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Als gebucht markieren`
-Modell: `account.move`
-Typ: `Code ausführen`
+- **Name der Aktion**: `Als gebucht markieren`
+- **Modell**: `account.move`
+- **Typ**: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -95,9 +95,9 @@ Mit dieser Aktion wird einer gebuchten Rechnung eine Mahngebühr hinzugefügt. D
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Mahngebühren hinzufügen`\
-Modell: `account.move`\
-Typ: `Code ausführen`
+- **Name der Aktion**: `Mahngebühren hinzufügen`
+- **Modell**: `account.move`
+- **Typ**: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -119,9 +119,9 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Steuersätze aktualisieren`\
-Modell: `account.move`\
-Typ: `Code ausführen`
+- **Name der Aktion**: `Steuersätze aktualisieren`
+- **Modell**: `account.move`
+- **Typ**: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
@@ -146,10 +146,10 @@ Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätig
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Steuersatz entfernen`\
-Modell: `account.move.line`\
-Typ: `Code ausführen`\
-Python-Code:
+- **Name der Aktion**: `Steuersatz entfernen`
+- **Modell**: `account.move.line`
+- **Typ**: `Code ausführen`
+- **Python-Code**:
 
 ```python
 records.write({'tax_ids': False})
@@ -161,10 +161,10 @@ Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätig
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Anhang entfernen`\
-Modell: `account.move`\
-Typ: `Code ausführen`\
-Python-Code:
+- **Name der Aktion**: `Anhang entfernen`
+- **Modell**: `account.move`
+- **Typ**: `Code ausführen`
+- **Python-Code**:
 
 ```python
 records.attachment_ids.unlink()
@@ -176,10 +176,10 @@ Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätig
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Empfänger für Mahnungen ausgeben`\
-Modell: `account.move`\
-Typ: `Code ausführen`\
-Python-Code:
+- **Name der Aktion**: `Empfänger für Mahnungen ausgeben`
+- **Modell**: `account.move`
+- **Typ**: `Code ausführen`
+- **Python-Code**:
 
 ```python
 raise UserError(record._get_all_followup_contacts())
@@ -191,10 +191,9 @@ Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätig
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `PDF-Datei vorbereiten`\
-Modell: `account.move`\
-Typ: `Code ausführen`\
-Typ: `Code ausführen`
+- **Name der Aktion**: `PDF-Datei vorbereiten`
+- **Modell**: `account.move`
+- **Typ**: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 
@@ -203,6 +202,15 @@ invoices_report = env.ref('account.account_invoices')
 for rec in records:
 	env['ir.actions.report']._render_qweb_pdf(invoices_report, res_ids=[rec.id])
 ```
+
+### Zahlung als Bezahlt festlegen
+
+Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
+
+- **Name der Aktion**: `Zahlung als Bezahlt festlegen`
+- **Modell**: `account.payment`
+- **Typ**: `Den Datensatz aktualisieren`
+- **Aktionsdetails**: Aktualisieren _Status_ zu _Bezahlt_
 
 ## Geplante Aktionen
 
@@ -226,12 +234,12 @@ Diese geplante Aktion erstellt die PDF-Dateien von Kundenrechnungen, die noch ke
 
 Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `PDF-Datei von Kundenrechnungen vorbereiten`\
-Modell: `ir.actions.server`\
-Ausführen alle: `1` Woche\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
-Anzahl der Anrufe: `-1`\
-Typ: `Code ausführen`
+- **Name der Aktion**: `PDF-Datei von Kundenrechnungen vorbereiten`
+- **Modell**: `ir.actions.server`
+- **Ausführen alle**: `1` Woche\
+- **Nächstes Ausführungsdatum**: `DD.MM.YYYY 06:00:00`
+- **Anzahl der Anrufe**: `-1`
+- **Typ**: `Code ausführen`
 
 Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
 

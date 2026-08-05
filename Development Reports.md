@@ -21,7 +21,7 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 
 | Name                              | URL                                                                             |
 |:--------------------------------- |:------------------------------------------------------------------------------- |
-| Angebot / Auftrag                 | `/report/html/sale.report_saleorder/$ID`                                        |
+| Angebot                           | `/report/html/sale.report_saleorder/$ID`                                        |
 | Angebotsanfrage                   | `/report/html/purchase.report_purchasequotation/$ID`                            |
 | Arbeitsraport (Rechnungsstellung) | `/report/html/account_sale_timesheet_report.timesheet_report/$ID`               |
 | Arbeitsrapport (Verkauf)          | `/report/html/account_sale_timesheet_report.report_sale/$ID`                    |
@@ -43,6 +43,7 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Rechnung mit Zeitnachweis         | `/report/html/account_sale_timesheet_report.report_invoice_with_timesheets/$ID` |
 | Rechnungen                        | `/report/html/account.report_invoice/$ID`                                       |
 | Rechnungen mit Zahlung            | `/report/html/account.report_invoice_with_payments/$ID`                         |
+| Verkaufsauftrag                   | `/report/html/sale.report_saleorder/$ID`                                        |
 | Vorschau externer Bericht         | `/report/html/web.preview_externalreport/$ID`                                   |
 | Vorschau interner Bericht         | `/report/html/web.preview_internalreport/$ID`                                   |
 | Zeiterfassung (Projekt)           | `/report/html/hr_timesheet.report_timesheet_project/$ID`                        |
