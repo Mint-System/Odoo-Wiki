@@ -29,6 +29,10 @@ Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Integrationen_ u
 
 Klicken Sie auf ihr Benutzerprofil und wählen Sie _Meine Präferenzen > Tab VoIP_. Wählen Sie den entsprechenden Anbieter aus und geben Sie im Feld _Benutzernamen_ den _SIP-Benutzernamen_ ein und im Feld _Geheimnis_ geben Sie das _SIP-Passwort_ ein.
 
+Gilt bis #Odoo16:
+
+Klicken Sie auf ihr Benutzerprofil und navigieren Sie zu _Mein Profil > VOIP_. Geben Sie im Feld _VoIP-Benutzername/-Nebenstellennummer_ den _SIP-Benutzernamen_ ein und im Feld _VoIP-Geheimnis_ geben Sie das _SIP-Passwort_ ein.
+
 ## Verwendung
 
 ### Kontakt anrufen
