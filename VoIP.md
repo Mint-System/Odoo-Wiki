@@ -15,13 +15,26 @@ In Odoo Telefone empfangen und machen.
 
 ## Konfiguration
 
-Damit Sie aus Odoo telefonieren können, brauche Sie die Verbindungsinformationen `WebSocket` und `PBX-Server-IP` des Anbieter und ihre perönlichen SIP-Anmeldeinformationen.
+Damit Sie aus Odoo telefonieren können, brauche Sie die Verbindungsinformationen `WebSocket` und `PBX-Server-IP` des Anbieter und ihre persönlichen SIP-Anmeldeinformationen.
 
 ### VoIP-Anbieter konfigurieren
 
-
 Navigieren Sie nach _Telefon > Konfiguration > VoIP-Anbieter_. Erfassen Sie hier einen neuen Eintrag und geben Sie die Verbindungsinformationen ein.
+
+Gilt bis #Odoo16:
+
+Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Integrationen_ und geben Sie im Abschnitt _Asterisk (VoIP)_  
 
 ### vOIP-Anmeldedaten hinterlegen
 
 Klicken Sie auf ihr Benutzerprofil und wählen Sie _Meine Präferenzen > Tab VoIP_. Wählen Sie den entsprechenden Anbieter aus und geben Sie im Feld _Benutzernamen_ den _SIP-Benutzernamen_ ein und im Feld _Geheimnis_ geben Sie das _SIP-Passwort_ ein.
+
+## Verwendung
+
+### Kontakt anrufen
+
+Klicken Sie in der Statusleiste von Odoo auf das Telefon-Icon. Geben Sie eine Nummer ein oder suchen Sie einen Kontakt.
+
+### Peoplefone VoIP-Anbeiter konfigurieren
+
+Für _WebSocket_ geben Sie `wss://webrtcproxy.peoplefone.ch` ein und als _PBX-Server-IP_ geben `pbxs.peoplefone.ch` ein.
