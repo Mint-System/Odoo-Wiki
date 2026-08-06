@@ -23,10 +23,11 @@ extensions: true
 
 ## Erweiterungen
 
-| Erweiterung                                | Beschreibung                                |
-| ------------------------------------------ | ------------------------------------------- |
-| [Lohnmeldung](Lohnmeldung.md)              | Lohnmeldungen ganz einfach generieren.      |
-| [Swiss Payroll](Gio%20Payroll%20Custom.md) | Lohnarten für die Schweizer Lohnabrechnung. |
+| Erweiterung                                                       | Beschreibung                                                |
+| ----------------------------------------------------------------- | ----------------------------------------------------------- |
+| [Lohnmeldung](Lohnmeldung.md)                                     | Lohnmeldungen ganz einfach generieren.                      |
+| [Swiss Payroll](Gio%20Payroll%20Custom.md)                        | Lohnarten für die Schweizer Lohnabrechnung.                 |
+| [Payslip Report Manual Note](Payslip%20Report%20Manual%20Note.md) | Notiz Feld in Gehaltsabrechnung für auch der generierte PDF |
 
 ## Konfiguration
 

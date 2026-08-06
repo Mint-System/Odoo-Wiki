@@ -22,6 +22,6 @@ Technischer Name: {{ $frontmatter.name }}\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>\
 Runboat: <a v-bind:href="`https://runboat.odoo-community.org/builds?repo=${$frontmatter.repo}`">https://runboat.odoo-community.org/builds?repo={{ $frontmatter.repo }}</a>
 
-## Beschreibung
+## Verwendung
 
-#FIXME
+Mit dieser Erweiterung kann auf den Vorgängen einer Stückliste eine _Vorbereitungszeit_ definiert werden. Sie ist somit spezifisch für die Verwendung des Vorgangs bezüglich einer spezifischen Stückliste. In der Kalkulation der erwarteten Dauer für den Vorgang wird sie zur Rüstzeit des Arbeitsplatzes addiert. 
