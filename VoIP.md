@@ -25,7 +25,7 @@ Gilt bis #Odoo16:
 
 Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Integrationen_ und geben Sie im Abschnitt _Asterisk (VoIP)_  
 
-### vOIP-Anmeldedaten hinterlegen
+### VoIP-Anmeldedaten hinterlegen
 
 Klicken Sie auf ihr Benutzerprofil und wählen Sie _Meine Präferenzen > Tab VoIP_. Wählen Sie den entsprechenden Anbieter aus und geben Sie im Feld _Benutzernamen_ den _SIP-Benutzernamen_ ein und im Feld _Geheimnis_ geben Sie das _SIP-Passwort_ ein.
 
