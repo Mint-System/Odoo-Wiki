@@ -38,7 +38,7 @@ Dazu ein Beispiel mit Sicherheitsvorlaufzeit von -3 Tagen.
 ![Purchase Order Line Date](attachments/Purchase%20Order%20Line%20Date.gif)
 
 ::: tip
-In Version 19.0 wird die Sicherheitsvorlaufzeit Einkauf nicht mehr beachtet. Die Lieferdaten werden also wie folgt nachgetragen:
+Ab Version 19.0 wird die Sicherheitsvorlaufzeit Einkauf nicht mehr beachtet. Die Lieferdaten werden also wie folgt nachgetragen:
 
 Geplantes Datum (Lagerbuchung) = Liefertermin (Bestellposition)\
 Frist (Lagerbuchung) = Liefertermin (Bestellposition)
