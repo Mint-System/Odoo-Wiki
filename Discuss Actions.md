@@ -19,11 +19,10 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Alle Follower entfernen`\
-Modell: `project.task` (oder ein anderes Datenmodell)\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name der Aktion**: `Alle Follower entfernen`
+- **Modell**: `project.task` (oder ein anderes Datenmodell)
+- **Typ**: `Code ausführen`
+- **Code**: 
 
 ```python
 for record in records:
