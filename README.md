@@ -377,6 +377,12 @@ Vereint Lagerverwaltung, Terminplanung und Verträge damit Sie den Überblick be
 
 Versandmethoden und Logistik definieren.
 
+### [VoIP](VoIP.md)
+
+[![icons_odoo_voip](attachments/icons_odoo_voip.png)](VoIP.md)
+
+In Odoo Telefone empfangen und machen.
+
 ### [Wartung](Maintenance.md)
 
 [![icons_odoo_maintenance](attachments/icons_odoo_maintenance.png)](Maintenance.md)
