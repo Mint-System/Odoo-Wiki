@@ -25,4 +25,12 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Die geplante Aktion _Verkaufsabonnement: Ablauf des Abonnements_ sorgt normalerweise dafür, dass Verkaufsaufträge mit wiederkerendem Plan (Abonnements) automatisch geschlossen werden beim Ausführen der Aktion.
 
-Mit dieser Erweiterung wird dieses Verhalten unterdrückt, d.h. es werden generell keine Abonnements mit offenen Rechnungen geschlossen.
+Grundsätzlich schliesst Odoo folgende drei Gruppen an Abonnements:
+1) Abonnenments, deren Enddatum erreicht wurde (_domain_close_),
+2) Abonnements mit unbezahlten Rechnungen (_unpaid_),
+3) Abonnemnts, deren nächste Rechnung unter Berücksichtigung einer Auto-Close-Frist in der Vergangenheit liegt (_expired_), d.h. Abonnement wurde nicht verlängert
+
+Mit dieser Erweiterung können Abonnements, die in Gruppe 2 oder 3 fallen, vom automatischen Schliessen ausgenommen werden. Mithilfe der beiden Systemparameter
+- `sale_subscription_disable_unpaid_closing.skip_unpaid_subscription_close`
+- `sale_subscription_disable_unpaid_closing.skip_expired_subscription_close`
+kann dieses Verhalten deaktiviert werden, indem sie auf den Wert _True_ gesetzt werden.
