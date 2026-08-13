@@ -73,8 +73,9 @@ I want to you to update all definitions in all `*_Actions.md` files. Just to be 
 `Trigger-Felder::` -> `- **Trigger-Felder:**:`
 `Domain vor Aktualisierung:` -> `- **Domain vor Aktualisierung**:`
 
-
 And of course remove the trailing slashes.
+
+Let me know if you find a parameter that is not on my replacement list.
 
 ## Worklog
 
