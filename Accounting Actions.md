@@ -107,8 +107,7 @@ Typ: `Code ausführen`
 Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
 
 ```python
-for record in records:
-  record.write({'is_move_sent': False})
+records.write({'is_sent': False})
 ```
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
