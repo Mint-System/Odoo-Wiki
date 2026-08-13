@@ -100,7 +100,7 @@ Zeigen Sie die Buchungszeilen _Buchhaltung > Buchhaltung > Buchungszeilen_ an. F
 
 ### Kontoauszug bestätigen
 
-Gilt bis #Odoo15.
+Gilt bis <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Wenn alle Vorgänge eines Kontoauszugs abgestimmt sind, können Sie den Kontoauszug bestätigen. Zeigen Sie den Kontoauszug an und wählen Sie die Aktion _Bestätigen_. Odoo prüft die Vorgänge und generiert einen Bericht analog des Kontoauszug.
 
@@ -124,7 +124,7 @@ Zeigen Sie das Dashboard _Buchhaltung_ an und wählen Sie für ein Bank-Journal 
 
 ### Ausgleichsmodell erstellen
 
-Gilt bis #Odoo15:
+Gilt bis <Badge type="info" text="Odoo15" vertical="middle" />:
 
 Navigieren Sie nach _Buchhaltung > Konfiguration > Ausgleichsmodelle_ und erstellen Sie einen neuen Eintrag.
 
@@ -138,7 +138,7 @@ Dieses Ausgleichsmodell können Sie in der Abstimmung mit einem Knopfdruck anwen
 
 ### Ausgleichsmodell 5% Unterbezahlung erstellen
 
-Gilt bis #Odoo16:
+Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />:
 
 Navigieren Sie nach _Buchhaltung > Konfiguration > Ausgleichsmodelle_ und erstellen Sie einen neuen Eintrag.
 

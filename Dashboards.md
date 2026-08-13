@@ -41,7 +41,7 @@ Legen Sie fest, ob der Favorit als Standard verwendet werden soll und ob dieser 
 
 ### Ansicht zu Dashboard hinzufügen
 
-Gilt bis #Odoo15.
+Gilt bis <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Jede Odoo-Ansicht mit oder ohne aktive Filter kann auf dem Dashboard gespeichert werden. Navigieren Sie auf eine beliebige Ansicht, Filtern Sie die Daten und anschliessend wählen Sie _Favoriten > Zu meinem Dashboard hinzufügen_. Geben Sie einen Namen und schliessen den Vorgang mit _Hinzufügen_ ab. Laden Sie den Browser-Tab neu und öffnen Sie _Dashboard_.
 

@@ -62,6 +62,7 @@ export default [
   "sale.md",
   "sale-renting.md",
   "delivery.md",
+  "voip.md",
   "maintenance.md",
   "web.md",
   "website.md",
@@ -79,6 +80,7 @@ export default [
   "kubernetes.md",
   "license.md",
   "management-system.md",
+  "onlyoffice.md",
   "order-positions.md",
   "troubleshooting.md",
   "ventor-pro.md",
@@ -673,6 +675,7 @@ export default [
         "collapsible": true,
         "children": [
           "mrp-bom-consumption.md",
+          "mrp-bom-import-cad.md",
           "mrp-bom-list.md",
           "mrp-bom-position.md",
           "mrp-documents-share.md",
@@ -687,10 +690,12 @@ export default [
           "mrp-production-unplan-move.md",
           "mrp-production-update-upstream-move.md",
           "mrp-production-upstream-state.md",
+          "-mrp-routing-workcenter-time-start.md",
           "mrp-sale-info.md",
           "mrp-suborder-sale-info.md",
           "mrp-workorder-disable-autostart.md",
           "mrp-workorder-set-producing-qty.md",
+          "mrp-workorder-play-button.md",
           "manufacture-production-move-date.md",
           "stock-mrp-traceability-list.md"
         ]
@@ -843,7 +848,8 @@ export default [
         "collapsible": true,
         "children": [
           "lohnmeldung.md",
-          "gio-payroll-custom.md"
+          "gio-payroll-custom.md",
+          "payslip-report-manual-note.md"
         ]
       },
       {
@@ -980,6 +986,7 @@ export default [
           "mail-format-with-parent.md",
           "mail-manual-routing.md",
           "mail-server-filter.md",
+          "mail-server-filter-model.md",
           "mail-service-users.md",
           "module-auto-update.md"
         ]
@@ -1066,7 +1073,8 @@ export default [
         "text": "Sale Renting",
         "collapsible": true,
         "children": [
-          "sale-renting-line-period.md"
+          "sale-renting-line-period.md",
+          "sale-renting-lot-available.md"
         ]
       },
       {
@@ -1210,12 +1218,17 @@ export default [
         "text": "Kubernetes",
         "collapsible": true,
         "children": [
+          "base-mint-cloud.md",
           "helm-import.md",
+          "helm-mint-cloud.md",
           "helm-portal.md",
           "helm.md",
           "kubectl-contacts.md",
           "kubectl-import.md",
+          "kubectl-mint-cloud.md",
           "sale-helm.md",
+          "webiste-sale-helm-mint-cloud.md",
+          "website-kubectl-mint-cloud.md",
           "website-kubectl.md",
           "website-sale-helm.md",
           "kubectl"
@@ -1247,10 +1260,18 @@ export default [
           "mgmt-auditlog.md",
           "mgmt-base.md",
           "mgmt-hazard-risk.md",
+          "mgmt-requirement-knowledge.md",
           "mgmt-requirement.md",
           "mgmt-risk.md",
-          "mmgt-asset.md",
-          "mgmt-requirement-knowledge.md"
+          "mmgt-asset.md"
+        ]
+      },
+      {
+        "text": "ONLYOFFICE",
+        "collapsible": true,
+        "children": [
+          "onlyoffice-odoo-documents.md",
+          "onlyoffice-odoo.md"
         ]
       },
       {

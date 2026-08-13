@@ -17,11 +17,11 @@ Lohnstrukturen sind eine Sammlung von Lohnarten. Grundsätzlich sollte man minde
 
 ## Schweizer Lohnarten
 
-Bis #Odoo16:
+Bis <Badge type="info" text="Odoo16" vertical="middle" />:
 
 Sie können in Odoo mit der entsprechenden App die [Schweizer Lohnarten aktivieren](Gio%20Payroll%20Custom.md#Schweizer%20Lohnarten%20aktivieren). Damit erhalten Sie Zugriff auf vorgefertigte Lohnarten und können die Lohnabrechnung nach Schweizer Standard schneller in Betrieb nehmen.
 
-Ab #Odoo17:
+Ab <Badge type="info" text="Odoo17" vertical="middle" />:
 
 Die Schweizer Lohnarten stehen als Lokalisierungs-Modul für die Personalabrechnung zur Verfügung.
 

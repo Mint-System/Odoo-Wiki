@@ -75,7 +75,7 @@ Der Zeiterfassung-Manager des Mitarbeiters navigiert nach _Zeiterfassung > Zu Va
 
 ### Zeiterfassung bis Datum validieren
 
-_Gilt für #Odoo13._
+_Gilt für <Badge type="info" text="Odoo13" vertical="middle" />._
 
 Der Stundenzettel-Manager des Mitarbeiters navigiert nach _Zeiterfassung > Zu Validieren_ und wählt den entsprechenden Zeitraum aus. Mit _Bestätigen_ wird ein Validierungsdatum festgelegt. Alle Zeitnachweise vor dem Validierungsdatum gelten als validiert.
 
@@ -87,7 +87,7 @@ Wenn Sie validieren Zeiterfassungs-Einträge zurücksetzen möchten, navigieren 
 
 ### Validierung zurücksetzen
 
-_Gilt für #Odoo13._
+_Gilt für <Badge type="info" text="Odoo13" vertical="middle" />._
 
 Einmal validierte Stunden-Einträge können nicht mehr verändert werden. Benötigen Sie dennoch eine Korrektur, müssen Sie für jeden Mitarbeitenden folgende Aktion ausführen: _Personal > Mitarbeitenden auswählen > Tab HR Einstellungen öffnen_ und dort das Feld _Stundenzettel-Validierungsdatum_ anpassen.
 

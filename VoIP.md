@@ -21,7 +21,7 @@ Damit Sie aus Odoo telefonieren können, brauche Sie die Verbindungsinformatione
 
 Navigieren Sie nach _Telefon > Konfiguration > VoIP-Anbieter_. Erfassen Sie hier einen neuen Eintrag und geben Sie die Verbindungsinformationen ein.
 
-Gilt bis #Odoo16:
+Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />:
 
 Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Integrationen_ und geben Sie im Abschnitt _Asterisk (VoIP)_  
 
@@ -36,7 +36,7 @@ Für _WebSocket_ geben Sie `wss://webrtcproxy.peoplefone.ch` ein und als _PBX-Se
 
 Klicken Sie auf ihr Benutzerprofil und wählen Sie _Meine Präferenzen > Tab VoIP_. Wählen Sie den entsprechenden Anbieter aus und geben Sie im Feld _Benutzernamen_ den _SIP-Benutzernamen_ ein und im Feld _Geheimnis_ geben Sie das _SIP-Passwort_ ein.
 
-Gilt bis #Odoo16:
+Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />:
 
 Klicken Sie auf ihr Benutzerprofil und navigieren Sie zu _Mein Profil > VOIP_. Geben Sie im Feld _VoIP-Benutzername/-Nebenstellennummer_ den _SIP-Benutzernamen_ ein und im Feld _VoIP-Geheimnis_ geben Sie das _SIP-Passwort_ ein.
 

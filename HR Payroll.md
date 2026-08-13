@@ -108,7 +108,7 @@ Navigieren Sie nach _Personalabrechnung > Arbeitseinträge >Arbeitseinträge_ un
 
 Gehaltsabrechnung können für mehre oder einzelne Mitarbeiter ausgeführt werden.
 
-Gilt bis #Odoo17.
+Gilt bis <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Um eine einzelne Gehaltsabrechnung zu erzeugen wählen Sie den Mitarbeiter aus _Personal > Mitarbeiter auswählen_ und klicken auf den Link _Abrechnungen Mitarbeiterverfügung_ und wählen _Neu_.
 
@@ -118,7 +118,7 @@ Legen Sie die Zeitperiode fest, speichern Sie den Eintrag und drücken _Berechne
 
 Um mehrere Gehaltsabrechnungen zu erstellen, müssen Sie einen Stapel erstellen.
 
-Gilt bis #Odoo17.
+Gilt bis <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Navigieren Sie nach _Personalabrechnung > Arbeitseinträge > Arbeitseinträge_ und wählen den aktuellen Monat. Starten Sie den Batch-Vorgang mit _Lohnabrechnung Generieren_. Für jeden angezeigten Mitarbeiter wird nun eine Lohnabrechnung erzeugt und steht zur Prüfung bereit.
 
@@ -126,7 +126,7 @@ Navigieren Sie nach _Personalabrechnung > Arbeitseinträge > Arbeitseinträge_ u
 
 ### Zahlungsdatei für Stapel generieren
 
-Gilt bis #Odoo17.
+Gilt bis <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Für erledigte oder bezahlte Lohhnabrechnungsläufe können Sie eine Zahlungsdatei erstellen oder neu generieren. Öffnen Sie einen Lohnabrechnungslauf unter _Personalabrechnung > Abrechnung Mitarbeitervergütung > Stapel_ und klicken Sie auf _Erfasse Zahlung_. Wählen Sie ein Bankkonto aus bestätigen Sie den Dialog mit _Bestätigen_. Es wird nun ein Feld _SEPA File_ ersichtlich, klicken Sie darauf um die Zahlungsdatei herunterzuladen.
 
@@ -136,7 +136,7 @@ Navigieren Sie nach _Personalabrechnung > Gehaltsabrechnungen > Stapel_.
 
 ### Lohnabrechnung buchen
 
-Gilt bis #Odoo17.
+Gilt bis <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Wählen Sie eine aktuelle Lohnabrechnung, die im Status _Erledigt_ ist: _Personalabrechnung > Abrechnung Mitarbeitervergütung > All Payslips > Payslip auswählen_. Öffnen Sie den Tab _Buchhaltung_ und klicken auf den Link unter _Buchung_. Hier werden alle Buchungen der Lohnabrechnung aufgeführt.
 
@@ -146,7 +146,7 @@ Werden die Lohnzahlung als Batch verarbeitet, müssen alle Lohnabrechnungen best
 
 ### Lohnabrechnung entfernen
 
-Gilt bis #Odoo17.
+Gilt bis <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Eine verbuchte Lohnabrechnung lässt sich nicht mehr löschen oder abbrechen. Zumindest ist das im Status _Erledigt_ nicht möglich. Wurde eine Lohnzahlung als bezahlt markiert, kann Sie jedoch wieder entfernt werden.
 
@@ -162,7 +162,7 @@ Haben Sie einen Fehler in einer erledigten Lohnberechnung können Sie diese wie 
 
 ### PDF Lohnabrechnung versenden
 
-Gilt bis #Odoo17.
+Gilt bis <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Beim Bestätigen der Gehaltsabrechnung wird das Feld _In Warteschlange für PDF_ aktiviert. Die geplante Aktion _Lohnbuchhaltung: PDFs generieren_ erstellt und versendet die markierten Gehaltsabrechnung an den Mitarbeitenden. Dazu wird die E-Mail-Vorlage _Payroll: Neue Gehaltsabrechnung_ verwendet.
 
@@ -180,7 +180,7 @@ Um ihre eigenen Gehaltsabrechnung anzuzeigen, klicken Sie auf auf ihren Account 
 
 ### Lohnbuchungen abstimmen
 
-Gilt bis #Odoo17.
+Gilt bis <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Standardmässig werden die auszuzahlenden Löhne auf dem _Lohndurchlaufkonto_ und dem Konto _Ausstehende Zahlungen_ verbucht. Haben Sie für einen Lohnlauf eine Zahlung erfasst, diese ins eBanking importiert und als Beleg zur Abstimmung in Odoo importiert, müssen Sie den Beleg mit dem Konto _Ausstehende Zahlungen_ abgleichen.
 
@@ -188,7 +188,7 @@ Standardmässig werden die auszuzahlenden Löhne auf dem _Lohndurchlaufkonto_ un
 
 ### Lohnabrechnungszeilen anzeigen
 
-Gilt bis #Odoo17.
+Gilt bis <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Damit Sie eine Übersicht der Lohnabrechnungszeilen erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
 

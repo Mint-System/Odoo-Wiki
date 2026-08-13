@@ -15,7 +15,7 @@ partner: Mint System
 
 ## Verwendung
 
-Diese App gibt es ab #Odoo16.
+Diese App gibt es ab <Badge type="info" text="Odoo16" vertical="middle" />.
 
 ### Gutschein für Verkaufsauftrag erstellen
 

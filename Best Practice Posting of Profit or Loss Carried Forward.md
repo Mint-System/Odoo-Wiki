@@ -8,7 +8,7 @@ partner: Mint System
 
 # Buchung Gewinn-/Verlustvortrag
 
-In diesem Artikel wird anhand eines einfachen Beispiels erläutert wie man den Gewinn-/Verlustvortrag mit #Odoo15 verbucht.
+In diesem Artikel wird anhand eines einfachen Beispiels erläutert wie man den Gewinn-/Verlustvortrag mit <Badge type="info" text="Odoo15" vertical="middle" /> verbucht.
 
 ## Bilanz altes Jahr
 

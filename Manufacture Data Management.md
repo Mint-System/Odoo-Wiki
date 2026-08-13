@@ -80,7 +80,7 @@ Zur Auswahl stehen
 Falls ein Produkt im Lager eingebucht und die Menge überwacht werden soll, ist _Einlagerbares Produkt_ die richtige Wahl. Für Produkte welche mengenmässig nicht erfasst werden (z.B. Reinigungsflüssigkeit) wählen Sie _Verbrauchsartikel_. Sie können Sie einkaufen aber nicht an Lager legen. Die Produktart _Dienstleistung_ dient zur Darstellung von immateriellen Gütern (z.B. Beratungsleistung).
 
 ::: warning 
-Bis #Odoo17 kann die Produktart nicht mehr geändert werden, sobald ein Beleg (zum Beipiel eine Warenbewegung) zum Produkt erstellt ist. Das Produkt muss dann mit der anderen Produktart neu angelegt und das alte Produkt archiviert werden.  
+Bis <Badge type="info" text="Odoo17" vertical="middle" /> kann die Produktart nicht mehr geändert werden, sobald ein Beleg (zum Beipiel eine Warenbewegung) zum Produkt erstellt ist. Das Produkt muss dann mit der anderen Produktart neu angelegt und das alte Produkt archiviert werden.  
 #DEPRECATED 
 :::
 

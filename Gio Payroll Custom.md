@@ -16,7 +16,7 @@ Technischer Name: `gio_payroll_custom`\
 Website: <https://www.giordano.ch/odoo/l%C3%B6sungen/lohnprogramm-ch-d>
 
 ::: warning
-Seit #Odoo18 wird diese App nicht mehr benötigt. 
+Seit <Badge type="info" text="Odoo18" vertical="middle" /> wird diese App nicht mehr benötigt. 
 #DEPRECATED
 :::
 

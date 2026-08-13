@@ -16,7 +16,7 @@ Technischer Name: `gio_generic_excel_addon`\
 Repository: <https://gitlab.giordano.ch/odoo/giordano-addons/swiss-payroll/-/tree/14.0/gio_generic_excel_addon>
 
 ::: warning
-Seit #Odoo18 wird diese App nicht mehr benötigt. 
+Seit <Badge type="info" text="Odoo18" vertical="middle" /> wird diese App nicht mehr benötigt. 
 #DEPRECATED
 :::
 

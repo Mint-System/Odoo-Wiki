@@ -126,7 +126,7 @@ Der Benutzer muss hierfür die Berechtigung _Kontakt erstellen_ haben (Zugriffsr
 
 ### Geld schicken für Bankkonto erlauben
 
-Gilt ab #Odoo16.
+Gilt ab <Badge type="info" text="Odoo16" vertical="middle" />.
 
 Damit Lieferanten bezahlt werden können, muss dies explizit auf dem Bankkonto angegeben werden. Zeiten Sie einen Lieferanten unter _Kontakte_ an und wählen Sie den den Tab _Buchhaltung_ . Bei der Liste der Bankkonten aktivieren Sie die Option _Geld schicken_.
 
@@ -210,7 +210,7 @@ Damit wird beim Aufruf der Aktion _Senden & Drucken_ auf der Rechnung die Standa
 
 ### PDF-Datei von Kundenrechnungen vorbereiten
 
-Gilt ab #Odoo16.
+Gilt ab <Badge type="info" text="Odoo16" vertical="middle" />.
 
 Navigieren Sie nach _Rechnungsstellung > Kunden > Rechnungen_. Markieren Sie die entsprechenden Kundenrechnungen und wählen Sie _Aktionen > Print QR invoices_. Nun erstellt Odoo die PDF-Dateien für die ausgewählten Rechnungen.
 
@@ -220,7 +220,7 @@ Damit die PDF-Datei beim Versenden der Rechnung aus dem Anhang geladen wird, mü
 
 ### Einzahlungsschein drucken
 
-Gilt bits #Odoo14.
+Gilt bits <Badge type="info" text="Odoo14" vertical="middle" />.
 
 Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generierung von Einzahlungsscheinen enthalten. Damit Einzahlungsscheine erstellt werden können, müssen die folgenden Bedingungen erfüllt sein:
 
@@ -240,7 +240,7 @@ Damit Einzahlungsscheine für bereits erstellte Rechnungen generiert werden kön
 
 ### QR-Rechnung drucken
 
-Gilt bits #Odoo14.
+Gilt bits <Badge type="info" text="Odoo14" vertical="middle" />.
 
 Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generierung von QR-Rechnungen enthalten. Damit Einzahlungsscheine erstellt werden können, müssen die folgenden Bedingungen erfüllt sein:
 

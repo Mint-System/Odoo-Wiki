@@ -36,7 +36,7 @@ Navigieren Sie nach _Buchhaltung > Konfiguration > Journale_ und zeigen Sie das 
 
 ### Camt54 importieren und abgleichen
 
-Gilt bis #Odoo14.
+Gilt bis <Badge type="info" text="Odoo14" vertical="middle" />.
 
 Navigieren Sie nach _Buchhaltung_ wählen beim abzugleichenden Konto _Import Auszüge_ aus. Laden Sie im Dialog die XML-Datei hoch. Nach Bedarf können Sie den Namen der Datei anpassen.
 
@@ -46,7 +46,7 @@ Klicken Sie auf _Import_ und anschliessend _Buchen_. Nun stehen die Belege zum A
 
 ### Camt54 importieren und abstimmen
 
-Gilt ab #Odoo15.
+Gilt ab <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Zeigen Sie dei App _Buchhaltung_ an und wählen Sie _Import Statement (OCA)_. Im Dialog wählen Sie die XML-Datei oder die Zip-Datei im Camt54-Format aus. Klicken Sie auf _Import and View_. Wählen Sie _Buchen_ und anschliessend _Abstimmung_.
 

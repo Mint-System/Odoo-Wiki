@@ -27,13 +27,13 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ### Schweizer QR-Rechnungen aktivieren
 
-Gilt ab #Odoo16 .
+Gilt ab <Badge type="info" text="Odoo16" vertical="middle" /> .
 
 Zeigen Sie eine Kundenrechnung unter _Buchhaltung > Kunden > Rechnungen_ an. Aktivieren Sie die Option _Schweizer QR-Rechnung aktivieren_.
 
 ### Rechnung ohne Standardberichte versenden
 
-Gilt bis #Odoo15 .
+Gilt bis <Badge type="info" text="Odoo15" vertical="middle" /> .
 
 Mit dieser Erweiterung wird die Generierung der Standardberichte deaktiviert. Es wird nur der Bericht, der in der E-Mail-Vorlage definiert ist, geladen.
 

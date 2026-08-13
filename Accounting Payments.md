@@ -24,7 +24,7 @@ Damit SEPA-Zahlungen exportiert werden können, müssen unter _Einstellungen > B
 
 ### SEPA-Zahlmethode aktiveren
 
-Gilt bis #Odoo16.
+Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />.
 
 Damit Zahlungen aus Odoo exportiert und im eBanking importiert werden können, müssen Sie die SEPA-Zahlmethode für das entsprechende Bank-Journal aktiveren.
 
@@ -32,13 +32,13 @@ Navigieren Sie nach _Buchhaltung > Konfiguration > Journale > Bank > Tab Erweite
 
 ### SEPA-Zahlung erstellen
 
-Gilt bis #Odoo16.
+Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />.
 
 Öffnen Sie eine Rechnung und drücken Sie auf _Einzahlung erfassen_. Wählen Sie _SEPA Kreditübertragung als Zahlungsmethode_.
 
 ![](attachments/Buchhaltung%20SEPA-Zahlung%20erfassen.gif)
 
-Gilt ab #Odoo17.
+Gilt ab <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Öffnen Sie eine Rechnung und drücken Sie auf _Zahlen_. Wählen Sie _Swiss ISO20022_ als Zahlungsmethode.
 
@@ -50,13 +50,13 @@ Oft macht es Sinn Zahlungen nach Währung oder einem anderen Attribut zu gruppie
 
 ### Stapelzahlung anlegen
 
-Gilt bis #Odoo16.
+Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />.
 
 Um eine Zahlung zu exportieren, klicken Sie auf _Buchhaltung > X Über SEPA zu sendende Zahlungen_, markieren die offenen Zahlungen und wählen _Aktionen > Stapelzahlung anlegen_. Im neuen Dialog wählen Sie _Bestätigen_ und erhalten so die generierte Zahlungsdatei, die Sie exportieren können.
 
 Im Menüpunkt _Buchhaltung > Lieferanten > Stapel-Überweisungen_ sehen Sie alle Stapelzahlungen.
 
-Gilt ab #Odoo17.
+Gilt ab <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Zeigen Sie die Lieferanten-Zahlungen unter _Buchhaltung > Lieferanten > Zahlungen_ an. Markieren Sie Zahlungen im Status _In Bearbeitung_ und wählen Sie _Stapel erstellen_.
 

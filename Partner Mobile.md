@@ -23,4 +23,4 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Mit #Odoo19 wurde das zweite Feld zum speichern von Mobilnummern auf dem Kontakt entfernt. Dieses Modul fügt das Feld wieder hinzu.
+Mit <Badge type="info" text="Odoo19" vertical="middle" /> wurde das zweite Feld zum speichern von Mobilnummern auf dem Kontakt entfernt. Dieses Modul fügt das Feld wieder hinzu.

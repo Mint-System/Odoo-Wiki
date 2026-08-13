@@ -28,7 +28,7 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Konfiguration
 
-Ab #Odoo15 .
+Ab <Badge type="info" text="Odoo15" vertical="middle" /> .
 
 ### Standard-Rundungsmethode festlegen
 
@@ -38,7 +38,7 @@ Navigieren Sie nach _Einstellungen > Abrechnung > Kundenrechnungen_ aktivieren S
 
 ### Standardwert Rundungsmethode verwenden
 
-Bis #Odoo14 .
+Bis <Badge type="info" text="Odoo14" vertical="middle" /> .
 
 Mit diesem Modul wird beim Erstellen von Rechnungen aus Verkaufsaufträgen der Standardwert für die Rundungsmethode verwendet. Dazu ein Beispiel wie der Standardwert erstellt werden muss:
 

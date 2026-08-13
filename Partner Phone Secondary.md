@@ -26,4 +26,4 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Ab #Odoo18 wurde das Feld Mobilnummer entfernt. Mit diesem Modul wird ein zweites Feld `phone2` hinzugefügt.
+Ab <Badge type="info" text="Odoo18" vertical="middle" /> wurde das Feld Mobilnummer entfernt. Mit diesem Modul wird ein zweites Feld `phone2` hinzugefügt.

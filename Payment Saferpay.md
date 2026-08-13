@@ -16,7 +16,7 @@ Technischer Name: `payment_saferpay`\
 Website: <https://apps.odoo.com/apps/modules/16.0/payment_saferpay/>
 
 ::: warning
-Seit #Odoo18 wird diese App nicht mehr benötigt. 
+Seit <Badge type="info" text="Odoo18" vertical="middle" /> wird diese App nicht mehr benötigt. 
 #DEPRECATED
 :::
 

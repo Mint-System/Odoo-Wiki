@@ -26,7 +26,7 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ### Rechnung mit QR-Zahlung aktivieren
 
-Gilt ab #Odoo15 .
+Gilt ab <Badge type="info" text="Odoo15" vertical="middle" /> .
 
 Navigieren Sie nach _Einstellungen > Buchhaltung > Ausgangsrechnung_ und aktivieren Sie im Bereich _Invoice report options_ die Option _Print invoice with QR bill_.
 
@@ -34,7 +34,7 @@ Navigieren Sie nach _Einstellungen > Buchhaltung > Ausgangsrechnung_ und aktivie
 
 ### Rechnung mit QR-Zahlung drucken
 
-Gilt bis #Odoo14 .
+Gilt bis <Badge type="info" text="Odoo14" vertical="middle" /> .
 
 Mit dieser Erweiterung können Sie die Rechnung inklusive QR-Zahlung in einem Dokument drucken. Öffnen Sie eine Rechnung via _Buchhaltung > Kunden > Rechnungen_ und klicken Sie auf _Drucken_.
 
@@ -46,7 +46,7 @@ In der Mail-Vorlage können Sie den zusammengeführten Bericht als Standard fest
 
 ### Rechnung mit QR-Zahlung drucken
 
-Gilt ab #Odoo15 .
+Gilt ab <Badge type="info" text="Odoo15" vertical="middle" /> .
 
 Öffnen Sie eine Rechnung unter _Buchhaltung > Kunden > Rechnungen_ und wählen Sie _Drucken > Rechnung mit zahlungschein_.
 

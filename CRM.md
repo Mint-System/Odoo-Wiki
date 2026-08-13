@@ -35,7 +35,7 @@ Website: <https://www.odoo.com/de_DE/app/crm>
 
 ###  Interessenten aus eingehenden E-Mails erstellen
 
-Gilt bis #Odoo15: 
+Gilt bis <Badge type="info" text="Odoo15" vertical="middle" />: 
 
 Sie können für E-Mails, die an das Odoo-Postfach geschickt werden, Interessenten in der Kundenverwaltung generieren. Navigieren Sie nach _Kundenverwaltung > Konfiguration > Einstellungen_ und aktivieren Sie die Option _Eingehende E-Mails_. Tragen Sie im neuen Feld den E-Mail-Alias des Odoo-Postfach ein.
 

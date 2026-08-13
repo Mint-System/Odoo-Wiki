@@ -23,7 +23,7 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Verwendung
 
-Gilt bis #Odoo14 .
+Gilt bis <Badge type="info" text="Odoo14" vertical="middle" /> .
 
 ### Positionsnummern generieren
 

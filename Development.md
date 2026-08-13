@@ -191,7 +191,7 @@ Ist die _Externe Identifikation_ gespeichert, wird Sie auf Datensatz angezeigt.
 
 ### Externe ID in Metadaten erfassen
 
-Ab #Odoo16 können Sie [Metadaten anzeigen](#Metadaten%20anzeigen) und direkt eine externe ID erfassen. Wählen Sie dazu die Aktion _create_ auf der Ansicht der Metadaten. Der Modellname und die Datensatz-ID werden übernommen.
+Ab <Badge type="info" text="Odoo16" vertical="middle" /> können Sie [Metadaten anzeigen](#Metadaten%20anzeigen) und direkt eine externe ID erfassen. Wählen Sie dazu die Aktion _create_ auf der Ansicht der Metadaten. Der Modellname und die Datensatz-ID werden übernommen.
 
 ![](attachments/Development%20Metadaten.png)
 

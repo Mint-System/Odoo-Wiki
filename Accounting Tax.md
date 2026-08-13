@@ -244,15 +244,15 @@ Und daraus wird diese Buchung generiert.
 
 ### Konten-Tags ohne Entwicklermodus anzeigen
 
-Bis #Odoo15.
+Bis <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Das Menü _Konten-Tags_ wird nur im Entwicklermodus angezeigt. Um das Verhalten zu ändern, öffnen Sie _Einstellungen > Technisch > Benutzer-Interface > Menüposten_, zeigen den Menüposten _Konten-Tags_ an und entfernen im Tab _Zugriffsrechte_ die Gruppe. Aktualisieren Sie den Browser und verlassen Sie den Entwicklermodus. Sie sollten den Menüposten nun sehen.
 
 ### Steuergruppen anzeigen
 
-Ab #Odoo15 : Navigieren Sie nach _Buchhaltung > Konfiguration > Steuergruppen_.
+Ab <Badge type="info" text="Odoo15" vertical="middle" /> : Navigieren Sie nach _Buchhaltung > Konfiguration > Steuergruppen_.
 
-Bis #Odoo15: Damit Sie eine Übersicht der Steuergruppen erhalten, müssen Sie via _Einstellungen > Technisch > Benutzer-Interface > Menüposten_ einen neuen Eintrag anlegen:
+Bis <Badge type="info" text="Odoo15" vertical="middle" />: Damit Sie eine Übersicht der Steuergruppen erhalten, müssen Sie via _Einstellungen > Technisch > Benutzer-Interface > Menüposten_ einen neuen Eintrag anlegen:
 
 - **Menü**: `Steuergruppen`
 - **Obermenü**: `Buchhaltung/Konfiguration/Buchhaltung`

@@ -35,7 +35,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speiche
 
 ### Auftragselement von Aufgabe entfernen
 
-_Gilt ab #Odoo14._
+_Gilt ab <Badge type="info" text="Odoo14" vertical="middle" />._
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
@@ -55,7 +55,7 @@ In der Ansicht von Kostenstellen-Buchungen erscheint nun in der Auswahl _Aktion_
 
 ### Validierung zurücksetzen
 
-_Benötigt bis #Odoo18._
+_Benötigt bis <Badge type="info" text="Odoo18" vertical="middle" />._
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 

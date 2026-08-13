@@ -73,37 +73,37 @@ Navigieren Sie nach _Aufwand_ und klicken Sie auf _Neu_. Erfassen Sie eine neue 
 
 ### Spesenabrechnung erstellen
 
-Bis #Odoo15 : Öffnen Sie eine Auslage via _Auslagen > Meine Auslagen > Meine zu abzurechnenden Auslagen_. Drücken Sie auf _Abrechnung erstellen_.
+Bis <Badge type="info" text="Odoo15" vertical="middle" /> : Öffnen Sie eine Auslage via _Auslagen > Meine Auslagen > Meine zu abzurechnenden Auslagen_. Drücken Sie auf _Abrechnung erstellen_.
 
-Ab #Odoo15 : Öffnen Sie eine Auslage via _Spesenabrechnung > Meine Auslagen > Meine zu meldenden Auslagen_. Drücken Sie auf _Bericht erstellen_.
+Ab <Badge type="info" text="Odoo15" vertical="middle" /> : Öffnen Sie eine Auslage via _Spesenabrechnung > Meine Auslagen > Meine zu meldenden Auslagen_. Drücken Sie auf _Bericht erstellen_.
 
 ### Spesenabrechnung vorlegen
 
-Bis #Odoo15 : Öffnen Sie eine Abrechnung via _Auslagen > Meine Auslagen > Meine Abrechnung_ und klicken Sie auf _Dem Manager vorlegen_.
+Bis <Badge type="info" text="Odoo15" vertical="middle" /> : Öffnen Sie eine Abrechnung via _Auslagen > Meine Auslagen > Meine Abrechnung_ und klicken Sie auf _Dem Manager vorlegen_.
 
-Ab #Odoo15 : Öffnen Sie eine Abrechnung via _Spesenabrechnung > Meine Auslagen > Meine Berichte_ und klicken Sie auf _Dem Manager vorlegen_.
+Ab <Badge type="info" text="Odoo15" vertical="middle" /> : Öffnen Sie eine Abrechnung via _Spesenabrechnung > Meine Auslagen > Meine Berichte_ und klicken Sie auf _Dem Manager vorlegen_.
 
 ## Freigabe
 
 ### Spesenabrechnung genehmigen
 
-Bis #Odoo15 : Navigieren Sie nach _Auslagen > Auslagen Abrechnung > Freizugebende Abrechnungen_. Wählen Sie eine Abrechnung aus klicken Sie auf _Genehmigen_
+Bis <Badge type="info" text="Odoo15" vertical="middle" /> : Navigieren Sie nach _Auslagen > Auslagen Abrechnung > Freizugebende Abrechnungen_. Wählen Sie eine Abrechnung aus klicken Sie auf _Genehmigen_
 
-Ab #Odoo15 : Navigieren Sie nach _Spesenabrechnung > Auslagenberichte > zu genehmigende Berichte_. Wählen Sie einen Bericht aus klicken Sie auf _Genehmigen_.
+Ab <Badge type="info" text="Odoo15" vertical="middle" /> : Navigieren Sie nach _Spesenabrechnung > Auslagenberichte > zu genehmigende Berichte_. Wählen Sie einen Bericht aus klicken Sie auf _Genehmigen_.
 
 ### Spesenabrechnung ablehnen
 
-Bis #Odoo15 : Navigieren Sie nach _Auslagen > Auslagen Abrechnung > Freizugebende Abrechnungen_. Wählen Sie eine Abrechnung aus klicken Sie auf _Ablehnen_.
+Bis <Badge type="info" text="Odoo15" vertical="middle" /> : Navigieren Sie nach _Auslagen > Auslagen Abrechnung > Freizugebende Abrechnungen_. Wählen Sie eine Abrechnung aus klicken Sie auf _Ablehnen_.
 
-Ab #Odoo15 : Navigieren Sie nach _Spesenabrechnung > Auslagenberichte > zu genehmigende Berichte_. Wählen Sie einen Bericht aus klicken Sie auf _Ablehnen_.
+Ab <Badge type="info" text="Odoo15" vertical="middle" /> : Navigieren Sie nach _Spesenabrechnung > Auslagenberichte > zu genehmigende Berichte_. Wählen Sie einen Bericht aus klicken Sie auf _Ablehnen_.
 
 ## Abrechnung
 
 ### Spesenabrechnung buchen
 
-Bis #Odoo15 : Navigieren Sie nach _Auslagen > Auslagen Abrechnung > Zu buchende Abrechnungen_. Wählen Sie _Journal Einträge buchen_.
+Bis <Badge type="info" text="Odoo15" vertical="middle" /> : Navigieren Sie nach _Auslagen > Auslagen Abrechnung > Zu buchende Abrechnungen_. Wählen Sie _Journal Einträge buchen_.
 
-Ab #Odoo15 : Navigieren Sie nach _Spesenabrechnung > Auslagenberichte> Zu buchende Berichte_. Wählen Sie _Buchungen Quittieren_.
+Ab <Badge type="info" text="Odoo15" vertical="middle" /> : Navigieren Sie nach _Spesenabrechnung > Auslagenberichte> Zu buchende Berichte_. Wählen Sie _Buchungen Quittieren_.
 
 ::: tip
 Wurden die Spesen vom Unternehmen bezahlt, wechselt die Abrechnung direkt in den Status _Bezahlt_.
@@ -125,15 +125,15 @@ Der Mitarbeitende braucht eine private Adresse, damit die Spesenabrechung erstel
 
 ### Spesenabrechnung auszahlen
 
-Bis #Odoo15 : Navigieren Sie nach _Auslagen > Auslagen Abrechnung > Auszuzahlende Abrechnungen_. Wählen Sie _Zahlung erfassen_. Wählen Sie das Journal aus und erfassen Sie bei Bedarf das Bankkonto des Empfängers.
+Bis <Badge type="info" text="Odoo15" vertical="middle" /> : Navigieren Sie nach _Auslagen > Auslagen Abrechnung > Auszuzahlende Abrechnungen_. Wählen Sie _Zahlung erfassen_. Wählen Sie das Journal aus und erfassen Sie bei Bedarf das Bankkonto des Empfängers.
 
-Ab #Odoo15 : Navigieren Sie nach _Spesenabrechnung > Auslagenberichte > Berichte zu zahlen_. Wählen Sie _Zahlung erfassen_. Wählen Sie das Journal aus und erfassen Sie bei Bedarf das Bankkonto des Empfängers.
+Ab <Badge type="info" text="Odoo15" vertical="middle" /> : Navigieren Sie nach _Spesenabrechnung > Auslagenberichte > Berichte zu zahlen_. Wählen Sie _Zahlung erfassen_. Wählen Sie das Journal aus und erfassen Sie bei Bedarf das Bankkonto des Empfängers.
 
 ### Alle Spesenabrechnungen anzeigen
 
-Bis #Odoo15 : Navigieren Sie nach _Auslagen > Auslagen Abrechnung > Alle Abrechnungen_.
+Bis <Badge type="info" text="Odoo15" vertical="middle" /> : Navigieren Sie nach _Auslagen > Auslagen Abrechnung > Alle Abrechnungen_.
 
-Ab #Odoo15 : Navigieren Sie nach _Spesenabrechnung > Spesenabrechnung > Alle Abrechnungen_.
+Ab <Badge type="info" text="Odoo15" vertical="middle" /> : Navigieren Sie nach _Spesenabrechnung > Spesenabrechnung > Alle Abrechnungen_.
 
 ## Buchhaltung
 

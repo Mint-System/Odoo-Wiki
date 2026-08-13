@@ -17,11 +17,11 @@ partner: Mint System
 
 ### E-Mail-Domain festlegen
 
-Gilt bis #Odoo16.
+Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />.
 
 Navigieren Sie nach _Einstellungen > Dialog_ und aktivieren Sie die Option _Benutzerdefinierte E-Mail-Server_. Geben Sie im Feld _Alias-Domain_ die E-Mail-Domain ein.
 
-Gilt ab #Odoo17.
+Gilt ab <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Navigieren Sie nach _Einstellungen_ und klicken Sie bei _Unternehmen_ auf _Info aktualisieren_. Im Feld _E-Mail-Domain_ geben Sie ihre Domain ein, beispielsweise `example.com`. Odoo generiert die zum Versand benötigten Systemparameter.
 
@@ -29,13 +29,13 @@ Navigieren Sie nach _Einstellungen_ und klicken Sie bei _Unternehmen_ auf _Info 
 
 Unter der Catchall-Mail-Adresse versendet Odoo Nachrichten. Auf diese Adresse können die Empfänger antworten und Odoo kann die eingegangenen Nachrichten verarbeiten.
 
-Gilt bis #Odoo16.
+Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />.
 
 Falls Sie die Adresse ändern möchten, öffnen Sie _Einstellungen > Technisch > Parameter > Systemparameter_ und passen den Wert für `mail.catchall.alias` an.
 
 Angenommen Sie geben als Wert `reply` ein, so ist die resultierende Reply-Aresse `From: "FIRSTNAME LASTNAME" <reply@example.com>`.
 
-Gilt ab #Odoo17.
+Gilt ab <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Im Entwicklermodus navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Diskussion_ und öffnen Sie den Eintrag bei _Alias-Domain_. Im Feld _Catchall-Alias_ geben Sie den gewünschten Wert ein.
 
@@ -52,11 +52,11 @@ Eine Liste von Mail-Provider und ob diese die _catchall_ und _no-reply_ E-Mail-A
 
 In jeder versendeten E-Mail wird im Header `Return-Path` die Mail-Adresse für Retouren mitgeteilt. Diese setzt sich aus dem Bounce-Alias und der Mail-Domain zusammen, beispielsweise `bounce@example.com`.
 
-Gilt bis #Odoo16.
+Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />.
 
 Falls Sie den Bounce-Alias ändern möchten, öffnen Sie _Einstellungen > Technisch > Parameter > Systemparameter_ und passen den Wert für `mail.bounce.alias` an.
 
-Gilt ab #Odoo17.
+Gilt ab <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Im Entwicklermodus navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Diskussion_ und öffnen Sie den Eintrag bei _Alias-Domain_. Im Feld _Zuzustellbarkeitsalias_ geben Sie den gewünschten Wert ein.
 
@@ -73,9 +73,9 @@ Reply-To: "My Company" <odoo@example.com>
 
 Wenn Sie die Von-Adresse überschreiben möchten, öffnen Sie _Einstellungen > Technisch > Parameter > Systemparameter_ und erstellen einen Eintrag mit Schlüssel: 
 
-- `mail.force.smtp.from` bis #Odoo14 
-- `mail.default.from` ab #Odoo15
-- `mail.default.from_filter` ab #Odoo18 
+- `mail.force.smtp.from` bis <Badge type="info" text="Odoo14" vertical="middle" /> 
+- `mail.default.from` ab <Badge type="info" text="Odoo15" vertical="middle" />
+- `mail.default.from_filter` ab <Badge type="info" text="Odoo18" vertical="middle" /> 
 
 und Wert `name@example.com` als gewünschte E-Mail-Adresse. Angenommen Sie geben `erp@example.com` ein, sehen die E-Mail-Kopfzeilen wie folgt aus:
 

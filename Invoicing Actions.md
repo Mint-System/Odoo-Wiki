@@ -128,7 +128,7 @@ for line in records.invoice_line_ids:
 	line._compute_tax_ids()
 ```
 
-Gilt bis #Odoo15:
+Gilt bis <Badge type="info" text="Odoo15" vertical="middle" />:
 
 ```python
 for rec in records:

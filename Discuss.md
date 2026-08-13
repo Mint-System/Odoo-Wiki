@@ -40,7 +40,7 @@ Website: <https://www.odoo.com/de_DE/app/discuss>
 
 ## Beschreibung
 
-Die App Dialog ist mit allen Odoo-Dokumente integriert. Sie ermöglicht die interne und externe Kommunikation im Kontext eines Dokuments. Bis #Odoo15 hat die App _Diskussion_ geheissen und _Follower_ waren _Abonnemente_.
+Die App Dialog ist mit allen Odoo-Dokumente integriert. Sie ermöglicht die interne und externe Kommunikation im Kontext eines Dokuments. Bis <Badge type="info" text="Odoo15" vertical="middle" /> hat die App _Diskussion_ geheissen und _Follower_ waren _Abonnemente_.
 
 ## Follower
 

@@ -24,7 +24,7 @@ Um den QR-Code der QR-Rechnung zu validieren, können Sie die PDF-Datei auf <htt
 
 ## Rechnung und QR-Rechnung zusammen drucken
 
-Gilt bis #Odoo15.
+Gilt bis <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Out-of-the-box generiert Odoo eine Rechnung eine QR-Rechnung separat sobald man die Aktion _Senden & Drucken_ auf einer Rechnung ausführt. Damit dieses Verhalten unterdrückt werden kann, müssen diese Module installiert werden:
 

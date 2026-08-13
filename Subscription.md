@@ -100,7 +100,7 @@ Sequenz: `50`
 
 ### Wiederkehrende Buchungszeilen anzeigen
 
-Gilt bis #Odoo15.
+Gilt bis <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Damit Sie eine Übersicht der wiederkehrenden Buchungszeilen erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
 

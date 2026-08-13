@@ -19,7 +19,7 @@ partner: Mint System
 
 ### Auf Erledigt setzen
 
-Gilt bis #Odoo16.
+Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />.
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 

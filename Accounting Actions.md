@@ -57,7 +57,7 @@ In der Liste der Belege erscheint nun in der Auswahl _Aktion_ das Menu _Bankausz
 
 ### Buchungszeilen aktualisieren
 
-Gilt bis #Odoo15.
+Gilt bis <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 

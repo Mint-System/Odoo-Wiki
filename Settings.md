@@ -77,7 +77,7 @@ Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Berechtigungen_ 
 
 Öffnen Sie die Befehlsuche mit <kbd>ctrl</kbd>+<kbd>k</kbd> und suchen Sie nach `Fehler`. Wählen Sie die Aktion _Fehlerbeseitigungsmodus aktivieren (debug) _.
 
-Gilt bis #Odoo16:
+Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />:
 
 Navigieren nach _Einstellungen > Allgemeine Einstellungen > Entwicklertools_. Klicken Sie auf _Entwicklermodus aktivieren_. Nun erscheinen neue Optionen in verschiedenen Odoo Apps.
 

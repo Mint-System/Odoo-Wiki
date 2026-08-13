@@ -136,7 +136,7 @@ Wenn die Funktion der App Teil von Odoo geworden ist, können Sie diese wie folg
 
 ```
 ::: warning
-Seit #Odoo18 wird diese App nicht mehr benötigt. 
+Seit <Badge type="info" text="Odoo18" vertical="middle" /> wird diese App nicht mehr benötigt. 
 #DEPRECATED
 :::
 ```
@@ -146,7 +146,7 @@ Wenn die Funktion der App Teil von einer anderen App geworden ist, können Sie d
 
 ```
 ::: warning
-Seit #Odoo18 ist diese App Teil von [Mail Unsubscribe].
+Seit <Badge type="info" text="Odoo18" vertical="middle" /> ist diese App Teil von [Mail Unsubscribe].
 #DEPRECATED
 :::
 
@@ -191,17 +191,41 @@ Tags aus der Softwareentwicklung:
 - #NOTE: Information zum Text.
 - #DEPRECATED: Ist veraltet.
 
+### Badges
+
+Für die Kennzeichnung von Odoo-Versionen in Artikeln werden Vuepress-Badges verwendet:
+
+<Badge type="info" text="Odoo16" vertical="middle" />
+
+Markup:
+
+```html
+<Badge type="info" text="Odoo16" vertical="middle" />
+```
+
+Dieses Badge wird verwendet um anzugeben ab welcher Odoo-Version eine Funktion verfügbar ist.
+
+Verfügbare Badges:
+
+- <Badge type="info" text="Odoo13" vertical="middle" />
+- <Badge type="info" text="Odoo14" vertical="middle" />
+- <Badge type="info" text="Odoo15" vertical="middle" />
+- <Badge type="info" text="Odoo16" vertical="middle" />
+- <Badge type="info" text="Odoo17" vertical="middle" />
+- <Badge type="info" text="Odoo18" vertical="middle" />
+- <Badge type="info" text="Odoo19" vertical="middle" />
+
 ### Hostname und Mail-Adressen
 
 Anleitungen werden mit fiktiven Hostnamen, Domains und Mail-Adressen beschrieben. Die Verwendung dieser Namen sollte konsistent sein.
 
 Hostnames:
 
-- Haupt-Domain: example.com
-- Produktive Odoo-Instanz: odoo.example.com
-- Odoo Entwicklungsumgebung: odoo-dev.example.com
-- Mailgun: mg.example.com
-- Externe API: api.example.com
+- Haupt-Domain: `example.com`
+- Produktive Odoo-Instanz: `odoo.example.com`
+- Odoo Entwicklungsumgebung: `odoo-dev.example.com`
+- Mailgun: `mg.example.com`
+- Externe API: `api.example.com`
 
 Mail-Adressen:
 

@@ -51,11 +51,11 @@ Navigieren Sie nach _Rechnungsstellung > Konfiguration > Invoice Reminder Result
 
 Der Versand der Zahlungserinnerung erfolgt über einen Assistenten. Den Assistent rufen Sie unter _Rechnungsstellung > Kunden > Erinnerung an überfällige Rechnungen_ auf. Filtern Sie nach Bedarf die Kunden im Feld _Kunden_ oder Verkäufer im Feld _Verkäufer(-in)_.
 
-Bis #Odoo15:
+Bis <Badge type="info" text="Odoo15" vertical="middle" />:
 
 Um den Vorgang zu starten aktivieren Sie die Option _I consider that payments are up-to-date_. Damit bestätigen Sie, dass die neusten Zahlungen importiert wurden. Klicken Sie anschliessend auf _Start_.
 
-Ab #Odoo16:
+Ab <Badge type="info" text="Odoo16" vertical="middle" />:
 
 Um den Vorgang zu starten aktivieren Sie auf _Start_.
 

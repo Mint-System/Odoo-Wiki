@@ -88,13 +88,13 @@ Stellen Sie sicher, dass der verwendete Benutzer für den Kioskmodus eingeschrä
 
 ### Anwesenheit anmelden
 
-Gilt ab #Odoo18:
+Gilt ab <Badge type="info" text="Odoo18" vertical="middle" />:
 
 Klicken Sie oben rechts im Benutzer-Menü auf den roten Punkt. Wählen Sie _Anmelden_.
 
 ![](attachments/Anwesenheiten%20Anmelden.png)
 
-Gilt bis #Odoo17:
+Gilt bis <Badge type="info" text="Odoo17" vertical="middle" />:
 
 Navigieren Sie nach _Anwesenheiten > An- und Abmelden_ und klicken Sie auf den Knopf _Anmelden_.
 
@@ -106,13 +106,13 @@ Es erscheint ein Willkommensgruss mit Angabe der Uhrzeit.
 
 ### Anwesenheit abmelden
 
-Gilt ab #Odoo18:
+Gilt ab <Badge type="info" text="Odoo18" vertical="middle" />:
 
 Klicken Sie oben rechts im Benutzer-Menü auf den grünen Punkt. Wählen Sie _Abmelden_.
 
 ![](attachments/Anwesenheiten%20Abmelden.png)
 
-Gilt bis #Odoo17:
+Gilt bis <Badge type="info" text="Odoo17" vertical="middle" />:
 
 Navigieren Sie nach _Anwesenheiten > An- und Abmelden_ und klicken Sie auf den Knopf _Abmelden_.
 
@@ -134,13 +134,13 @@ Zeigen Sie _Einstellungen > Benutzer & Unternehmen > Gruppen an und rufen die Gr
 
 Rufen Sie unter _Mitarbeiter_ den Eintrag des Mitarbeitenden auf. Im Tab _Arbeitsinformation_ legen Sie _Genehmiger_ für _Anwesenheit_ den Mitarbeitenden selbst fest. 
 
-Gilt für #Odoo17:
+Gilt für <Badge type="info" text="Odoo17" vertical="middle" />:
 
 Zeigen Sie _Einstellungen > Benutzer & Unternehmen > Gruppen an und rufen die Gruppe _Technisch / Benutzer: Die eigenen Anwesenheiten lesen_. Fügen Sie die Benutzer hinzu, welche ihre Anwesenheit selber verwalten dürfen. Wiederholen Sie den Vorgang für _Technisch / Sachbearbeiter: Anwesenheiten verwalten_.
 
 Rufen Sie unter _Mitarbeiter_ den Eintrag des Mitarbeitenden auf. Im Tab _Arbeitsinformation_ legen Sie _Genehmiger_ für _Anwesenheit_ den Mitarbeitenden selbst fest. 
 
-Gilt für #Odoo16:
+Gilt für <Badge type="info" text="Odoo16" vertical="middle" />:
 
 Die Berechtigung zur Bearbeitung der Anwesenheits-Einträge wird über die Fenster-Aktion gesteuert. Nun gibt es eine gleichnamige Fensteraktion für Anwesenheiten-Benutzer und -Administratoren. Navigieren Sie nach _Einstellungen > Technisch > Menüpunkte_ und suchen Sie nach _Anwesenheiten_. Öffnen Sie den ersten Eintrag und wählen Sie im Feld _Aktion_ den ersten Eintrag _Anwesenheiten_ aus.
 
@@ -148,13 +148,13 @@ Die Berechtigung zur Bearbeitung der Anwesenheits-Einträge wird über die Fenst
 
 Nun wird für Benutzer- und Administratoren die gleiche Aktion aufgerufen und die gleiche Ansicht angezeigt.
 
-Gilt für #Odoo15:
+Gilt für <Badge type="info" text="Odoo15" vertical="middle" />:
 
 Damit Mitarbeitende ihre Anwesenheit manuell erfassen können Navigieren Sie nach _Einstellungen > Technisch > Ansichten_ und zeigen die Ansicht _hr.attendance.tree.inherit_ an. Im Tab _Zugriffsrechte_ fügen Sie die Gruppe _Anwesenheiten / Manuelle Anwesenheit_ hinzu.
 
 ### Löschen von Anwesenheiten erlauben
 
-Gilt bis #Odoo16:
+Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />:
 
 Damit Mitarbeitende ihre erfassten Anwesenheiten löschen können, müssen Sie die Zugriffsrechte für die Gruppe _Anwesenheit / Benutzer_ anpassen. Führen Sie [Datensatzregeln für Gruppe anpassen](Settings%20Permissions.md#Datensatzregeln%20für%20Gruppe%20anpassen) aus und erlauben Sie das Löschen der Einträge.
 
@@ -187,11 +187,11 @@ Das detaillierte Protokoll der An- und Abmeldungen zeigt die Übersicht _Anwesen
 
 ### Anwesenheiten bearbeiten
 
-Gilt ab #Odoo18:
+Gilt ab <Badge type="info" text="Odoo18" vertical="middle" />:
 
 Klicken Sie auf die App _Anwesenheiten_ und anschliessend auf einen Eintrag. Setzen Sie die Genehmigung des Eintrags zurück indem Sie auf das Statusfeld _Zu genehmigen_ klicken. Bearbeiten Sie den Eintrag und bestätigen Sie die Eingaben mit einem Klick auf _Genehmigen_.
 
-Gilt bis #Odoo17:
+Gilt bis <Badge type="info" text="Odoo17" vertical="middle" />:
 
 Mitarbeitende können standardmässig ihre Anwesenheiten korrigieren. Dazu navigieren Sie über das Menu oben-rechts nach _Vorname Nachname > Mein Profil > Smart-Link XX.XX Stunden_. Hier werden die An- und Abmeldungen aufgelistet.
 

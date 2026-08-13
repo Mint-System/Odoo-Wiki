@@ -24,7 +24,7 @@ Technischer Name: {{ $frontmatter.name }}\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ::: warning
-Seit #Odoo17 wird diese App nicht mehr benötigt.
+Seit <Badge type="info" text="Odoo17" vertical="middle" /> wird diese App nicht mehr benötigt.
 #DEPRECATED
 :::
 

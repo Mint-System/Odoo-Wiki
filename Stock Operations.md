@@ -102,11 +102,11 @@ Wenn Sie bei Fertigung das Lager nicht berücksichtigen wollen. Müssen Sie auf 
 
 ### Automatische Reservierung deaktivieren
 
-Ab #Odoo16.
+Ab <Badge type="info" text="Odoo16" vertical="middle" />.
 
 Zeigen Sie eine Vorgangsart unter _Lager > Konfiguration > Vorgangsart_ an. Wähle Sie bei _Reservierungsmethode_ die Option _Manuell_ aus.
 
-Gilt bis #Odoo15.
+Gilt bis <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Navigieren Sie nach _Einstellungen > Lager > Vorgänge_. Wählen Sie für _Reservierung_ die Option _Manuell oder auf Basis eines automatisierten Zeitplans_.
 

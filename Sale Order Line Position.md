@@ -32,7 +32,7 @@ Navigieren Sie nach _Verkauf > Produkte > Produkte_ und zeigen Sie ein Produkt a
 
 ## Verwendung
 
-Gilt ab #Odoo15 .
+Gilt ab <Badge type="info" text="Odoo15" vertical="middle" /> .
 
 ### Positionsnummern generieren
 

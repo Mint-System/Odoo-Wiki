@@ -25,7 +25,7 @@ Navigieren Sie nach _Verkauf > Konfiguration > Preiskalkulation_ und aktivieren 
 
 ### Erweiterte Preisregeln aktivieren
 
-Gilt bis #Odoo16.
+Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />.
 
 Navigieren Sie nach _Verkauf > Konfiguration > Preiskalkulation_ und aktivieren Sie die Option _Preislisten_ mit der Unteroption _Erweiterte Preisregeln_.
 

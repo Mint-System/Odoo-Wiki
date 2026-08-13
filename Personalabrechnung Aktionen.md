@@ -124,7 +124,7 @@ Im Formular der Lohnabrechnung erscheint nun die Auswahl _Aktionen > Lohnbuchung
 
 ### Lohnstuktur zuweisen
 
-Gilt bis #Odoo17.
+Gilt bis <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Wenn Sie die Zuweisung der Lohnstruktur beim Erstellen der Lohnabrechnungen automatisieren möchten, richten Sie diese Aktione in.
 

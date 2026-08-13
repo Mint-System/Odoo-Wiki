@@ -43,7 +43,7 @@ Die Startseite von Odoo listet alle verfügbaren Apps auf. Die Apps und deren An
 
 ### App-Kacheln sortieren
 
-Gilt ab #Odoo17.
+Gilt ab <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Die App-Kacheln auf dem Startbildschirm von Odoo können Sie sortieren. Drücken und halten Sie eine Kachel und bewegen Sie diese anschliessend an den gewünschten Ort.
 

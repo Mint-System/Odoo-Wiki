@@ -15,7 +15,7 @@ prev: ./website-sale
 Technischer Name: `pits_payment_saferpay`\
 Website: <https://apps.odoo.com/apps/modules/18.0/pits_payment_saferpay/>
 ::: warning
-Seit #Odoo18 wird diese App nicht mehr benötigt. 
+Seit <Badge type="info" text="Odoo18" vertical="middle" /> wird diese App nicht mehr benötigt. 
 #DEPRECATED
 :::
 

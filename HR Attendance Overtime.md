@@ -13,7 +13,7 @@ partner: Mint System
 
 {{ $frontmatter.description }}
 
-Gilt ab #Odoo15.
+Gilt ab <Badge type="info" text="Odoo15" vertical="middle" />.
 
 ## Konfiguration
 
@@ -39,7 +39,7 @@ Bei der Berechnung und Aktualisierung der Überstunden ignoriert Odoo alle Eintr
 
 ### Abwesenheitsprüfung aktivieren
 
-Gilt ab #Odoo18 .
+Gilt ab <Badge type="info" text="Odoo18" vertical="middle" /> .
 
 Die Abwesenheitsprüfung erstellt fehlende Anwesenheitseinträge damit die Überstunden korrekte berechnet werden. Navigieren Sie nach _Einstellungen > Anwesenheit_ und aktivieren Sie die Option _Abwesenheitsveraltung._
 
@@ -49,7 +49,7 @@ Die geplante Aktion heisst _Anwesenheit: Abwesenheiten für Mitarbeiter entdecke
 
 ### Überstunden auf dem Dashboard Abwesenheiten anzeigen
 
-Gilt ab #Odoo17.
+Gilt ab <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Damit Mitarbeitenden ihre Überstunden auf dem Dashboard der Abwesenheiten sehen, braucht es einen Urlaubsanspruch. Die Abwesenheitsart _Überstunden_ erfordert standardmässig keinen Anspruch. Um das zu ändern, öffnen Sie die Abwesenheitsart via _Abwesenheiten > Konfiguration > Abwesenheitsarten_. Aktivieren Sie die Option _Erfordert Anspruch_.
 

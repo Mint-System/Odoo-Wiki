@@ -26,13 +26,13 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ### Angebotsname aus verlinkter Projektnummer generieren
 
-Gilt ab #Odoo17:
+Gilt ab <Badge type="info" text="Odoo17" vertical="middle" />:
 
 Mit dieser Erweiterung wird der Angebotsname aus der verlinkten Projektnummer generiert. Erstellen Sie ein Angebot und wählen Sie ein Projekt aus.
 
 ### Angebotsname von verlinkter Projektnummer übernehmen
 
-Gilt bis #Odoo15:
+Gilt bis <Badge type="info" text="Odoo15" vertical="middle" />:
 
 Mit dieser Erweiterung können Sie beim Erstellen eines Angebots, direkt ein Projekt verlinken. Wird das Angebot erstellt, wird die Projektnummer als Anzeigenamen verwendet. Der Kunde des Angebots wird als Kunde auf dem Projekt eingetragen.
 

@@ -1,7 +1,7 @@
 ---
 title: "Format tags with badges"
-state: draft
-model: 
+state: completed
+model: infomaniak/moonshotai/Kimi-K2.6
 input_tokens: 
 ---
 
@@ -52,6 +52,4 @@ Update the `Contribution.md` file with explainer for the badges.
 
 ## Worklog
 
-@Clanker Add a summary here once the task has been completed.
-
-@Clanker Set frontmatter state to completed and update info about model and token usage.
+All `#OdooNN` tags in markdown files were replaced with Vuepress badges (`<Badge type="info" text="OdooNN" vertical="middle" />`). `Contribution.md` was updated with a Badges section explaining their use.

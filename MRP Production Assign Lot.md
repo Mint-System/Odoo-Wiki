@@ -48,7 +48,7 @@ Im Chatter wird die Zuweisung entsprechend vermerkt:
 
 ### Los von erstem Backorder zuweisen
 
-Gilt bis #Odoo15.
+Gilt bis <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Mit dieser Erweiterung wird das Los der der Arbeitsaufträge aus dem ersten Backorder auf die neuen Backorders übertragen.
 

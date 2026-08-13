@@ -135,7 +135,7 @@ Entfernen Sie den Steuersatz in der Spalte _Steuern_, wenn Sie keine Mehrwertste
 Im Dialog _Buchhaltung > Buchhaltung > Aktionen > Sperrdaten_ können Sie Sperrdaten für die Geschäfts- und Steuerperiode definieren.
 
 ::: warning
-In #Odoo19  gibt es neu ein Sperrdatum für das gesamte Jahr, das durch den Benutzen nicht rückgängig gemacht werden kann. 
+In <Badge type="info" text="Odoo19" vertical="middle" />  gibt es neu ein Sperrdatum für das gesamte Jahr, das durch den Benutzen nicht rückgängig gemacht werden kann. 
 :::
 
 ![](attachments/Buchhaltung%20Sperrdatum%20festlegen.png)
@@ -167,7 +167,7 @@ Es ist nicht empfohlen die nicht benötigten Konten zu löschen. Die Konten werd
 
 Öffnen Sie die Finanz-App und richten Sie den Standard-Kontenplan ein. Navigieren Sie nach _Buchhaltung > Konfiguration > Buchhaltung > Kontenplan_.
 
-Gilt bis #Odoo14.
+Gilt bis <Badge type="info" text="Odoo14" vertical="middle" />.
 
 Konten für welche Sie keine Verwendung haben, können Sie anwählen und die Checkbox _Nicht mehr verwenden_ markieren.
 

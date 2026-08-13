@@ -35,7 +35,7 @@ Mit der Option _Bisherige Übersetzungen ändern_ werden manuell erstellte Über
 
 ### Fehlende Begriffe generieren
 
-Bis #Odoo15.
+Bis <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Damit Begriffe übersetzt werden können, muss als erstes die Liste, der zu übersetzenden Begriffe aktualisiert werden. Im [Entwicklermodus](Settings.md#Entwicklermodus%20aktivieren) folgende Aktionen ausführen:
 
@@ -45,11 +45,11 @@ Dann kann man die Übersetzungen über die Einstellungen anzeigen.
 
 ### Übersetzung anpassen
 
-Ab #Odoo16 .
+Ab <Badge type="info" text="Odoo16" vertical="middle" /> .
 
 Zur Übersetzung von Ansichten und Felder müssen Sie mindestens eine [Sprache aktivieren](#Sprache%20aktivieren). Wenn Sie eine andere Sprache als `en_US` aktiviert haben und nur diese Sprache, beispielsweise `de_CH` aktiviert haben wollen, können Sie die zusätzliche Sprache nach Anpassung der Übersetzungen wieder deaktivieren.
 
-Bis #Odoo15.
+Bis <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Navigieren Sie nach _Einstellungen > Übersetzungen > Übersetzte Begriffe_ und suchen Sie nach dem übersetzten Begriff. Ändern Sie die Übersetzung direkt im Feld _Übersetzungswert_.
 
@@ -64,12 +64,12 @@ Auf der Ansicht, welche die Übersetzung enthält, die Sie anpassen möchten, w�
 ![](attachments/Einstellungen%20Übersetzung%20Ansicht%20übersetzen.gif)
 
 ::: warning
-Der _EN_-Link wird ab #Odoo16 nur angezeigt, wenn mindestens 2 Sprachen aktiv sind.
+Der _EN_-Link wird ab <Badge type="info" text="Odoo16" vertical="middle" /> nur angezeigt, wenn mindestens 2 Sprachen aktiv sind.
 :::
 
 ### Übersetzungen erstellen
 
-Bis #Odoo15.
+Bis <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Odoo wird in viele Sprachen übersetzt, daher kann es sein, dass die Lokalisierung in der eingestellte Sprache unvollständig ist. Findet man einen Begriff oder Satz, der nicht korrekt übersetzt ist, kann man diesen selber anpassen. Dazu ein Beispiel.
 
@@ -109,7 +109,7 @@ Im Entwicklermodus öffnen Sie den Import-Dialog via _Einstellungen > Übersetzu
 
 ### Begriffe in Bericht umbennen
 
-Bis #Odoo15.
+Bis <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Wenn Sie mit einer bestimmte Übersetzung nicht zufrieden sind, können Sie diese selber anpassen. Angenommen Sie wollen auf der Rechnung _Zwischensumme_ zu _Nettobetrag_ umbennen, öffnen Sie als erstes _Einstellungen > Übersetzungen > Übersetzt Begriffe_.
 
@@ -131,7 +131,7 @@ Wenn Sie [Übersetzungen aktualisieren](#Übersetzungen%20aktualisieren) können
 
 ### Übersetzungskommentar hinzufügen
 
-Bis #Odoo15.
+Bis <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Mit einem Odoo Snippet können Sie in unter _Einstellungen > Übersetzungen > Übersetzte Begriffe_ das Feld _Übersetzungskommentare_ anzeigen. Wenn Sie eine eigene Übersetzung erstellen, fügen Sie den Kommentar `mint_system` hinzu. So können Sie vor einem Export die eigenen Übersetzungen exportieren.
 
