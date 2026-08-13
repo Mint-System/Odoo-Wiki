@@ -24,9 +24,10 @@ Diese Funktion wurde Teil von [HR Attendance Missing](HR%20Attendance%20Missing.
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Fehlende Anwesenheitseinträge anzeigen`\
-Modell: `ir.actions.server`\
-Typ: `Code ausführen`
+- **Name**: `Fehlende Anwesenheitseinträge anzeigen`
+- **Modell**: `ir.actions.server`
+- **Typ**: `Code ausführen`
+- **Code**: 
 
 ```python
 # Settings
@@ -156,11 +157,10 @@ Manager können den Bericht aufrufen, wenn Sie mit den folgenden Informationen e
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Überstunden aktualisieren`\
-Modell: `hr.attendance`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
+- **Name**: `Überstunden aktualisieren`
+- **Modell**: `hr.attendance`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for record in records:
@@ -182,14 +182,13 @@ Mit dieser geplanten Aktion werden registrierte Überstunden der Mitarbeitenden 
 
 Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Überstunden entfernen`\
-Modell: `ir.actions.server`\
-Ausführen alle: `1` Monat\
-Nächstes Ausführungsdatum: `01.MM.YYYY 06:00:00`\
-Anzahl der Anrufe: `-1`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Überstunden entfernen`
+- **Modell**: `ir.actions.server`
+- **Ausführen alle**: `1` Monat
+- **Nächstes Ausführungsdatum**: `01.MM.YYYY 06:00:00`
+- **Anzahl der Anrufe**: `-1`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 last_month_until = datetime.date.today().replace(day=1) - datetime.timedelta(days=1)
@@ -224,14 +223,13 @@ Mit dieser geplanten Aktion werden die Überstunden anhand der Anwesenheit neu b
 
 Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Überstunden aktualisieren`\
-Modell: `ir.actions.server`\
-Ausführen alle: `1` Woche\
-Nächstes Ausführungsdatum: `01.MM.YYYY 06:00:00`\
-Anzahl der Anrufe: `-1`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Überstunden aktualisieren`
+- **Modell**: `ir.actions.server`
+- **Ausführen alle**: `1` Woche
+- **Nächstes Ausführungsdatum**: `01.MM.YYYY 06:00:00`
+- **Anzahl der Anrufe**: `-1`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 # Settings
@@ -253,11 +251,11 @@ Mit dieser Aktion wird der Anspruch der Abwesenheitsart mit der externen ID `__c
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-- **Name der Aktion**: `Urlaubsanspruch Überstunden aktualisieren`
+- **Name**: `Urlaubsanspruch Überstunden aktualisieren`
 - **Modell**: `hr.attendance`
 - **Auslöser**: Beim Erstellen und Aktualisieren
-- **Folgeaktionen**:
-	- **Python-Code ausführen**:
+- **Folgeaktion**:
+	- **Code**:
 
 ```python
 holiday_status_id = env.ref('__custom__.holiday_status_extra_hours')

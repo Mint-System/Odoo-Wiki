@@ -19,11 +19,10 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Spesenabrechnung zurücksetzen`\
-Modell: `hr.expense.sheet`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
+- **Name**: `Spesenabrechnung zurücksetzen`
+- **Modell**: `hr.expense.sheet`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for rec in records:

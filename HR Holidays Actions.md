@@ -19,9 +19,10 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Ablehnen`\
-Modell: `hr.leave`\
-Typ: `Code ausführen`
+- **Name**: `Ablehnen`
+- **Modell**: `hr.leave`
+- **Typ**: `Code ausführen`
+- **Code**: 
 
 ```python
 for rec in records:
@@ -33,10 +34,3 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 In der Liste der Abwesenheiten erscheint nun in der Auswahl _Aktion_ das Menu _Ablehnen_.
 
 ![](attachments/Aktionen%20Abwesenheitszeiten%20Ablehnen.png)
-
-### Anzahl Stunden neuberechnen
-
-```js
-for rec in records:
-  rec['number_of_hours_display'] = rec.number_of_days * rec.employee_id.sudo().resource_id.calendar_id.hours_per_day
-```

@@ -19,9 +19,10 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Zahlungstransaktion zurücksetzen`\
-Modell: `payment.transaction`\
-Typ: `Code ausführen`
+- **Name**: `Zahlungstransaktion zurücksetzen`
+- **Modell**: `payment.transaction`
+- **Typ**: `Code ausführen`
+- **Code**: 
 
 ```python
 records.write({'state': 'draft', 'last_state_change': False})
@@ -35,14 +36,13 @@ Diese Serveraktion entfernt Warenkörbe, die älter als 1 Woche sind, dem Benutz
 
 Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Warenkörbe bereinigen`\
-Modell: `ir.actions.server`\
-Ausführen alle: `1` Tag\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 03:00:00`\
-Anzahl der Anrufe: `-1`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Warenkörbe bereinigen`
+- **Modell**: `ir.actions.server`
+- **Ausführen alle**: `1` Tag
+- **Nächstes Ausführungsdatum**: `DD.MM.YYYY 03:00:00`
+- **Anzahl der Anrufe**: `-1`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 last_week = datetime.datetime.now().date() - datetime.timedelta(days=7)
@@ -88,6 +88,6 @@ Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Automatische Aktione
 - **Domain vor Aktualisierung**: `[("website_id", "!=", False)]`
 - **Anzuwenden auf**: `[("state", "=", "sent")]`
 - **Bei der Aktualisierung**: `state`
-- **Folgeaktionen**: Datensatz aktualisieren
+- **Folgeaktion**: Datensatz aktualisieren
 	- **Aktion**: Berechnen
 	- **Code**: `record.action_confirm()`

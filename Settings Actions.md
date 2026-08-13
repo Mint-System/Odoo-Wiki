@@ -19,11 +19,10 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Sofort senden`\
-Modell: `mail.mail`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Sofort senden`
+- **Modell**: `mail.mail`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for record in records:
@@ -40,14 +39,13 @@ Diese Aktion erstellt eine Berechtigungsgruppe für jede Abteilungsgruppe und sy
 
 Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Abteilungsgruppen synchronisieren`\
-Modell: `ir.actions.server`\
-Ausführen alle: `15` Minuten\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
-Anzahl der Anrufe: `-1`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Abteilungsgruppen synchronisieren`
+- **Modell**: `ir.actions.server`
+- **Ausführen alle**: `15` Minuten
+- **Nächstes Ausführungsdatum**: `DD.MM.YYYY 06:00:00`
+- **Anzahl der Anrufe**: `-1`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 department_ids = env['hr.department'].search([])
@@ -107,14 +105,13 @@ Verwenden Sie diese Aktion nur in Testsystemen! Produktive System müssen vor Ab
 
 Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Ablaufdatum Datenbank erneuern`\
-Modell: `ir.actions.server`\
-Ausführen alle: `1` Tage\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
-Anzahl der Anrufe: `-1`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Ablaufdatum Datenbank erneuern`
+- **Modell**: `ir.actions.server`
+- **Ausführen alle**: `1` Tage
+- **Nächstes Ausführungsdatum**: `DD.MM.YYYY 06:00:00`
+- **Anzahl der Anrufe**: `-1`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 now = datetime.datetime.now()

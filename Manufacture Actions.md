@@ -19,11 +19,10 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Fertigungsauftrag abbrechen`\
-Modell: `mrp.production`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Fertigungsauftrag abbrechen`
+- **Modell**: `mrp.production`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for rec in records:
@@ -38,11 +37,10 @@ In der Liste der Fertigungsauftrag können Sie die Einträge markieren und _Akti
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Reload BoM`\
-Modell: `mrp.production`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld Code:
+- **Name**: `Reload BoM`
+- **Modell**: `mrp.production`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for record in records:
@@ -61,11 +59,10 @@ Im Fertigungsauftrag erscheint nun in der Auswahl _Aktion_ das Menu _Reload BoM_
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Material-Reservationen entfernen`\
-Modell: `mrp.production`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld Code:
+- **Name**: `Material-Reservationen entfernen`
+- **Modell**: `mrp.production`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for production in records:
@@ -80,11 +77,10 @@ Im Fertigungsauftrag erscheint nun in der Auswahl _Aktion_ das Menu _Material-Re
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Material-Reservationen erstellen`\
-Modell: `mrp.production`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld Code:
+- **Name**: `Material-Reservationen erstellen`
+- **Modell**: `mrp.production`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for production in records:
@@ -99,11 +95,10 @@ Im Fertigungsauftrag erscheint nun in der Auswahl _Aktion_ das Menu _Material-Re
 
 avigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Abgebrochener Fertigungsauftrag auf erledigt setzen`\
-Modell: `mrp.production`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld Code:
+- **Name**: `Abgebrochener Fertigungsauftrag auf erledigt setzen`
+- **Modell**: `mrp.production`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for production in records:
@@ -122,17 +117,17 @@ Mit dieser automatischen Aktion wird bei der Bestätigung des Fertigungsauftrag 
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-Name der Aktion: `Lot-Nummer generieren`\
-Modell: `mrp.production`\
-Auslöser: Beim Aktualisieren\
-Trigger-Felder: `state`\
-Anzuwenden auf:
+- **Name**: `Lot-Nummer generieren`
+- **Modell**: `mrp.production`
+- **Auslöser**: Beim Aktualisieren
+- **Trigger-Felder**: `state`
+- **Anzuwenden auf**:
 
 ```txt
 ["&",["state","in",["confirmed","progress"]],["lot_producing_id","=",False]]
 ```
 
-Python Code:
+- **Code**:
 
 ```python
 record.action_generate_serial()
@@ -149,14 +144,13 @@ Diese geplante Aktion entfernt regelmässig Material-Reservationen auf Fertigung
 
 Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Material-Reservationen entfernen`\
-Modell: `ir.actions.server`\
-Ausführen alle: `3` Stunden\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 09:00:00`\
-Anzahl der Anrufe: `-1`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Material-Reservationen entfernen`
+- **Modell**: `ir.actions.server`
+- **Ausführen alle**: `3` Stunden
+- **Nächstes Ausführungsdatum**: `DD.MM.YYYY 09:00:00`
+- **Anzahl der Anrufe**: `-1`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 # Lookup unfinished manufacturing orders

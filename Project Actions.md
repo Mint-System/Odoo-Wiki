@@ -19,11 +19,10 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Projekt-Mail-Adressen aktualisieren`\
-Modell: `project.project`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
+- **Name**: `Projekt-Mail-Adressen aktualisieren`
+- **Modell**: `project.project`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for record in records:
@@ -45,14 +44,13 @@ Mit dieser geplanten Aktion generiert Odoo für jedes Projekt einen Menüpunkt. 
 
 Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Navigation: Menüpunkte für Projekte generieren`\
-Modell: `ir.actions.server`\
-Ausführen alle: `1` Tage\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
-Anzahl der Anrufe: `-1`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
+- **Name**: `Navigation: Menüpunkte für Projekte generieren`
+- **Modell**: `ir.actions.server`
+- **Ausführen alle**: `1` Tage
+- **Nächstes Ausführungsdatum**: `DD.MM.YYYY 06:00:00`
+- **Anzahl der Anrufe**: `-1`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 # Settings

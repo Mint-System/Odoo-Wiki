@@ -21,19 +21,19 @@ Fehlen bestimmte Ansichten, können diese ganz einfach mit einer Aktion und eine
 
 Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Fenster öffnen/schliessen ..._ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `BoM Komponenenten`\
-Objekt: `mrp.bom.line`\
-Ansichtsreferenz: Gemäss Angaben\
-Wertebereich: Gemäss Angaben\
-Wert aus Kontext: Gemäss Angaben\
-Ansichten: Gemäss Angaben
+- **Name**: `BoM Komponenenten`
+- **Objekt**: `mrp.bom.line`
+- **Ansichtsreferenz**: Gemäss Angaben
+- **Wertebereich**: Gemäss Angaben
+- **Wert aus Kontext**: Gemäss Angaben
+- **Ansichten**: Gemäss Angaben
 
 Navigieren Sie nach _Einstellungen > Technisch > Benutzer-Interface > Menüposten_ und erstellen Sie einen neuen Eintrag:
 
-Menü: `BoM Komponenenten`\
-Obermenü: `Fertigung/Produkte`\
-Aktion: `ir.actions.act_window` `BoM Komponenenten`\
-Nummernfolge: `3`
+- **Menü**: `BoM Komponenenten`
+- **Obermenü**: `Fertigung/Produkte`
+- **Aktion**: `ir.actions.act_window` `BoM Komponenenten`
+- **Nummernfolge**: `3`
 
 Nachdem der Browser aktualisiert haben Sie Zugriff auf das neue Menü und Ansicht.
 
@@ -104,11 +104,10 @@ Dokumentieren Sie die Anpassung von Aktionen. Bei einer Aktualisierung der Modul
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Feld neu berechnen`\
-Modell: `ir.model.fields`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
+- **Name**: `Feld neu berechnen`
+- **Modell**: `ir.model.fields`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for field in records:
@@ -124,11 +123,10 @@ In der Liste der Felder erscheint nun in der Auswahl _Aktion_ das Menu _Feld neu
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Ansicht Zugriffsrechte aktualisieren`\
-Modell: `ir.actions.server`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
+- **Name**: `Ansicht Zugriffsrechte aktualisieren`
+- **Modell**: `ir.actions.server`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 env["res.groups"]._update_user_groups_view()
@@ -140,11 +138,10 @@ Speichern Sie die Aktion und führen Sie diese direkt mit _Starten_ aus.
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Vererbte Ansichten entfernen`\
-Modell: `ir.ui.view`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
+- **Name**: `Vererbte Ansichten entfernen`
+- **Modell**: `ir.ui.view`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 records.inherit_children_ids.unlink()
@@ -156,9 +153,10 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Compose E-Mail`\
-Modell: Referenz gemäss Dokument\
-Typ: `Code ausführen`
+- **Name**: `Compose E-Mail`
+- **Modell**: Referenz gemäss Dokument
+- **Typ**: `Code ausführen`
+- **Code**: 
 
 ```python
 if record:
@@ -203,10 +201,10 @@ Mit _Automatischen Aktionen_ kann ein Datensatz, der aktualisiert wurde, zusätz
 
 Navigieren Sie nach _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Modell: `Qualitätsalarm`\
-Auslöser: Beim Aktualisieren\
-Trigger-Felder: `Stufe (quality.alert)`\
-Python Code:
+- **Modell**: `Qualitätsalarm`
+- **Auslöser**: Beim Aktualisieren
+- **Trigger-Felder**: `Stufe (quality.alert)`
+- **Code**:
 
 ```python
 if record.stage_id.sequence in [0,1,2]:
@@ -219,9 +217,9 @@ if record.stage_id.sequence in [0,1,2]:
 
 In diesem Beispiel wird bei Erzeugen einer Rechnung aus einem Verkaufsauftrag automatisch das Feld _Recipient Bank (Empfängerbank)_ in der Rechnung ausgefüllt.
 
-Modell: `Buchungssatz`\
-Auslöser: Bei Erstellung und Aktualisierung\
-Python Code:
+- **Modell**: `Buchungssatz`
+- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Code**:
 
 ```python
 for rec in records:

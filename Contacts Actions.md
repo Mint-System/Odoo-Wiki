@@ -19,9 +19,9 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Kontakt als Privat festlegen`\
-Modell: `res.partner`\
-Folgeaktion: Den Datensatz aktualiseren
+- **Name**: `Kontakt als Privat festlegen`
+- **Modell**: `res.partner`
+- **Folgeaktion**: Den Datensatz aktualiseren
 Im Tab _Zu schreibende Daten_:
 
 - **Feld**: Adresstyp
@@ -38,9 +38,9 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Kontakt als Kontakt festlegen`\
-Modell: `res.partner`\
-Folgeaktion: Den Datensatz aktualiseren
+- **Name**: `Kontakt als Kontakt festlegen`
+- **Modell**: `res.partner`
+- **Folgeaktion**: Den Datensatz aktualiseren
 Im Tab _Zu schreibende Daten_:
 
 - **Feld**: Adresstyp
@@ -57,9 +57,9 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen.
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-- **Name der Aktion:** `Stichwort hinzufügen`\
-- **Modell**: `res.partner`\
-- **Type**: Code ausführen
+- **Name**: `Stichwort hinzufügen`
+- **Modell**: `res.partner`
+- **Typ**: Code ausführen
 - **Code**:
 
 ```python
@@ -75,9 +75,9 @@ Dieser Eintrag mit Aktion _Kontextuelle Aktion erstellen_ bestätigen.
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-- **Name der Aktion:** `Stichwort entfernen`\
-- **Modell**: `res.partner`\
-- **Type**: Code ausführen
+- **Name**: `Stichwort entfernen`
+- **Modell**: `res.partner`
+- **Typ**: Code ausführen
 - **Code**:
 
 ```python
@@ -100,9 +100,9 @@ Mit dieser Server-Aktion können Sie Massen-Einladungen für den Portal-Zugriff 
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-- **Name der Aktion:** `Massen-Einladungen für Portal-Zugriff versenden`\
-- **Modell**: `res.partner`\
-- **Type**: Code ausführen
+- **Name**: `Massen-Einladungen für Portal-Zugriff versenden`
+- **Modell**: `res.partner`
+- **Typ**: Code ausführen
 - **Code**:
 
 ```python
@@ -144,14 +144,13 @@ Erfassen Sie einen [neuen Aktivitätstyp](Discuss%20Activities.md#Neuer%20Aktivi
 
 Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Kontakte mit geplanter Aktivität archivieren`\
-Modell: `ir.actions.server`\
-Ausführen alle: `1` Tage\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
-Anzahl der Anrufe: `-1`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Kontakte mit geplanter Aktivität archivieren`
+- **Modell**: `ir.actions.server`
+- **Ausführen alle**: `1` Tage
+- **Nächstes Ausführungsdatum**: `DD.MM.YYYY 06:00:00`
+- **Anzahl der Anrufe**: `-1`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 name = 'Zur Archivierung und Requalifikation'
@@ -179,11 +178,11 @@ Die Aktivität auf dem Kontakt wird im Archivierungsvorgang gelöscht.
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-- Name der Aktion: `Unternehmen (company_id) bei neuem Kontakt entfernen`
-- Modell: `Kontakt`
-- Auslöser: `Bei Erstellung`
-- Domain: `[("company_id", "!=", False)]`
-- Folgeaktion: `Datensatz aktualisieren`
-- Feld: `Unternehmen (company_id)`
-- Wert: `False`
+- **Name**: `Unternehmen (company_id) bei neuem Kontakt entfernen`
+- **Modell**: `Kontakt`
+- **Auslöser**: `Bei Erstellung`
+- **Domain**: `[("company_id", "!=", False)]`
+- **Folgeaktion**: `Datensatz aktualisieren`
+- **Feld**: `Unternehmen (company_id)`
+- **Wert**: `False`
 

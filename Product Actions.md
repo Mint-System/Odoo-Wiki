@@ -19,11 +19,10 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Übersetzung von Name anpassen`\
-Modell: `product.template`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Übersetzung von Name anpassen`
+- **Modell**: `product.template`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 src_lang = 'de_CH'

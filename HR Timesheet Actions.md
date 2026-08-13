@@ -17,11 +17,10 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Zeiterfassung aufteilen`\
-Modell: `account.analytic.line`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld Code:
+- **Name**: `Zeiterfassung aufteilen`
+- **Modell**: `account.analytic.line`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for rec in records:
@@ -40,11 +39,10 @@ _Gilt ab #Odoo14._
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Auftragselement von Aufgabe entfernen`\
-Modell: `account.analytic.line`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld Code:
+- **Name**: `Auftragselement von Aufgabe entfernen`
+- **Modell**: `account.analytic.line`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for record in records:
@@ -61,11 +59,10 @@ _Benötigt bis #Odoo18._
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Validierung zurücksetzen`\
-Modell: `account.analytic.line`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld Code:
+- **Name**: `Validierung zurücksetzen`
+- **Modell**: `account.analytic.line`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 records.write({'validated': False})

@@ -21,11 +21,12 @@ Mit dieser Aktion _Einkaufsbeschreibung in Einkaufszeilen kopieren_ wird das Fel
 
 Navigieren Sie nach  _Einstellungen > Technisch > Automation > Serveraktionen_ und erstellen Sie den folgenden Eintrag:
 
-- Name der Aktion: `Einkaufsbeschreibung in Einkaufszeilen kopieren`
-- Modell: `Bestellung`
-- Type: Code ausführen
-- Python-Code:
-  ```python
+- **Name**: `Einkaufsbeschreibung in Einkaufszeilen kopieren`
+- **Modell**: `Bestellung`
+- **Typ**: e: Code ausführen
+- **Code**:
+
+```python
   for order in records:
     partner_lang = order.partner_id.lang
     for line in order.order_line:
@@ -48,12 +49,12 @@ Mit Aktionen können Felder mit einem bestimmten Default-Wert beschrieben werden
 
 Navigieren Sie nach _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ und erstellen Sie den folgenden Eintrag:
 
-- Name der Aktion: `Bestellfrist festlegen`
-- Modell: `Beschaffungsauftrag`
-- Auslöser: `Bei Erstellung`
-- Folgeaktion: `Den Datensatz aktualisieren`
-- Feld: `Order Deadline (purchase.order)`
-- Wert: `datetime.datetime.today() + datetime.timedelta(days=5)`
+- **Name**: `Bestellfrist festlegen`
+- **Modell**: `Beschaffungsauftrag`
+- **Auslöser**: `Bei Erstellung`
+- **Folgeaktion**: `Den Datensatz aktualisieren`
+- **Feld**: `Order Deadline (purchase.order)`
+- **Wert**: `datetime.datetime.today() + datetime.timedelta(days=5)`
 
 ## Automatische Aktionen
 
@@ -63,13 +64,13 @@ Mit dieser automatischen Aktion wird beim anwählen der Option _Zum Überprüfen
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-Name der Aktion: `Aktivität Rechnung prüfen für Käufer erstellen`\
-Modell: `acclount.move`\
-Auslöser: Beim Aktualisieren\
-Trigger-Felder: `to_check`
-Anzuwenden auf: `[("to_check", "=", True),("purchase_order_count",">",0)]`
-Folgeaktion: Code ausführen\
-Python-Code:
+- **Name**: `Aktivität Rechnung prüfen für Käufer erstellen`
+- **Modell**: `acclount.move`
+- **Auslöser**: Beim Aktualisieren
+- **Trigger-Felder**: `to_check`
+- **Anzuwenden auf**: `[("to_check", "=", True),("purchase_order_count",">",0)]`
+- **Folgeaktion**: Code ausführen
+- **Code**:
 
 ```python
 for rec in records:
@@ -87,13 +88,13 @@ for rec in records:
 
 ### Gelieferte Menge eintragen
 
-Name der Aktion: `Gelieferte Menge eintragen`\
-Modell: `purchase.order`\
-Auslöser: Bei Erstellung und Aktualisierung\
-Trigger-Felder: `state`
-Anzuwenden auf: `[("state", "=", "purchase")]`
-Folgeaktion: Code ausführen\
-Python-Code:
+- **Name**: `Gelieferte Menge eintragen`
+- **Modell**: `purchase.order`
+- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Trigger-Felder**: `state`
+- **Anzuwenden auf**: `[("state", "=", "purchase")]`
+- **Folgeaktion**: Code ausführen
+- **Code**:
 
 ```python
 for rec in records:

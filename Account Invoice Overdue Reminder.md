@@ -85,6 +85,6 @@ Wenn Sie den [Status Zahlungserinnerung anzeigen](#Status%20Zahlungserinnerung%2
 
 ### Assistent Zahlungserinnerung auf Rechnung starten
 
-Gilt bis #Odoo15:
+Gilt bis <Badge type="info" text="Odoo15" vertical="middle" />:
 
 Haben Sie eine überfällige Rechnung geöffnet _Rechnungsstellung > Kunden > Rechnungen_ so erscheint die Meldung _Diese Kundenrechnung ist überfällig._ und dazu ein Link _Sende überfällige Erinnerung_. Klicken Sie auf den Link und Sie gelangen zum Assistenten. Der Kunde wird als Filter für das Feld _Kunde_ übertragen.

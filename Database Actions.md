@@ -19,11 +19,10 @@ Diese Aktion zeigt die Datenbank-Locks auf der `ir_cron`-Tabelle.
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Cron-Lock anzeigen`\
-Modell: `ir.actions.server`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Cron-Lock anzeigen`
+- **Modell**: `ir.actions.server`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 query = "SELECT * FROM pg_locks WHERE relation = (SELECT oid FROM pg_class WHERE relname = 'ir_cron');"
@@ -38,11 +37,10 @@ Diese Aktion entfernt Datenbank-Locks auf der `ir_cron`-Tabelle.
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Cron-Lock entfernen`\
-Modell: `ir.actions.server`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Cron-Lock entfernen`
+- **Modell**: `ir.actions.server`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 query = "SELECT pid FROM pg_locks WHERE relation = (SELECT oid FROM pg_class WHERE relname = 'ir_cron');"

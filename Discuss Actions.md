@@ -19,10 +19,10 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-- **Name der Aktion**: `Alle Follower entfernen`
+- **Name**: `Alle Follower entfernen`
 - **Modell**: `project.task` (oder ein anderes Datenmodell)
 - **Typ**: `Code ausführen`
-- **Code**: 
+- **Code**:
 
 ```python
 for record in records:
@@ -37,11 +37,10 @@ Auf der Listenansicht des Datenmodell markieren Sie ausgewählte Einträge und w
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Als Follower hinzufügen`\
-Modell: `project.task` (oder ein anderes Datenmodell)\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Als Follower hinzufügen`
+- **Modell**: `project.task` (oder ein anderes Datenmodell)
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 records._message_subscribe([user.partner_id.id])
@@ -61,17 +60,17 @@ Mit dieser automatischen Aktion wird der Standard-Follower (`partner_id` auf Dok
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-Name der Aktion: `Standard-Follower bei Versand von Nachricht entfernen`\
-Modell: `mail.message`\
-Auslöser: Bei Erstellung\
-Anzuwenden auf:
+- **Name**: `Standard-Follower bei Versand von Nachricht entfernen`
+- **Modell**: `mail.message`
+- **Auslöser**: Bei Erstellung
+- **Anzuwenden auf**:
 
 ```python
 [("message_type", "=", "comment")]
 ```
 
-Folgeaktion: Code ausführen\
-Python Code:
+- **Folgeaktion**: Code ausführen
+- **Code**:
 
 ```python
 for rec in records.filtered(lambda r: r.model == "helpdesk.ticket"):

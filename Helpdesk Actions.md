@@ -19,10 +19,10 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-- **Name der Aktion**: `Ticket an Team weiterleiten`
+- **Name**: `Ticket an Team weiterleiten`
 - **Modell**: `helpdesk.ticket`
 - **Typ**: `Code ausführen`
-- **Code**: 
+- **Code**:
 
 ```python
 team_id = env.ref("__custom__.team_smartred_info")
@@ -46,7 +46,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-- **Name der Aktion**: `Bei Verkaufsauftrag ein Ticket erstellen`
+- **Name**: `Bei Verkaufsauftrag ein Ticket erstellen`
 - **Modell**: `sale.order`
 - **Auslöser**: Beim Aktualisieren
 - **Tigger-Felder**: `state`

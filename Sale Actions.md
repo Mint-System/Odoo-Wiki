@@ -23,11 +23,10 @@ Gilt bis #Odoo16.
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Auf Erledigt setzen`\
-Modell: `sale.order`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Auf Erledigt setzen`
+- **Modell**: `sale.order`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for record in records:
@@ -42,11 +41,10 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speiche
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Auftrag sperren`\
-Modell: `sale.order`
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Auftrag sperren`
+- **Modell**: `sale.order`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for record in records:
@@ -61,11 +59,10 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Als Anzahlung markieren`\
-Modell: `sale.order.line`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Als Anzahlung markieren`
+- **Modell**: `sale.order.line`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for rec in records:
@@ -76,11 +73,10 @@ for rec in records:
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Auf Angebot setzen`\
-Modell: `sale.order`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Auf Angebot setzen`
+- **Modell**: `sale.order`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for rec in records:
@@ -94,11 +90,10 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Angebot bestätigen`\
-Modell: `sale.order`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Angebot bestätigen`
+- **Modell**: `sale.order`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for rec in records:
@@ -112,11 +107,10 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Verkaufsauftrag abbrechen`\
-Modell: `sale.order`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Verkaufsauftrag abbrechen`
+- **Modell**: `sale.order`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for rec in records:
@@ -130,11 +124,10 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Verkaufsauftrag bestätigen`\
-Modell: `sale.order`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Verkaufsauftrag bestätigen`
+- **Modell**: `sale.order`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for rec in records:
@@ -150,11 +143,10 @@ In der Liste der Verkaufsaufträge können Sie die Einträge markieren und _Akti
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Verkaufsauftrag abbrechen`\
-Modell: `sale.order`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Verkaufsauftrag abbrechen`
+- **Modell**: `sale.order`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for rec in records:
@@ -172,11 +164,10 @@ Mit dieser Serveraktion können Sie die Beschaffungsregeln auf den Autragszeilen
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Beschaffung starten`\
-Modell: `sale.order`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Beschaffung starten`
+- **Modell**: `sale.order`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for rec in records:
@@ -189,11 +180,10 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Steuersätze aktualisieren`\
-Modell: `sale.order`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
+- **Name**: `Steuersätze aktualisieren`
+- **Modell**: `sale.order`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for line in records.order_line:
@@ -210,11 +200,10 @@ Das ist eine Standard-Serveraktion von Odoo. Der Status "Angebot gesendet" wird 
 
 Mit dieser Serveraktion kann die Verkaufsbeschreibung  eines Produktes in die entsprechende Verkaufszeile des Verkaufsauftrags kopiert werden. Dies kann nötig sein, wenn die Verkaufsbeschreibung  eines Produktes geändert wird, da Odoo nicht automatisch die Änderung in einen bestehenden Verkausauftrag  übernimmt.
 
-Name der Aktion: `Verkaufsbeschreibung in Verkaufszeilen kopieren`
-Modell: `sale.order`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
+- **Name**: `Verkaufsbeschreibung in Verkaufszeilen kopieren`
+- **Modell**: `sale.order`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for order in records:
@@ -234,14 +223,13 @@ Diese geplante Aktion erstellt die Rechnungen der zu abzurechnenden Verkaufsauft
 
 Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Verkaufsaufträge nach Invervall abrechnen`\
-Modell: `ir.actions.server`\
-Ausführen alle: `1` Woche\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 02:00:00`\
-Anzahl der Anrufe: `-1`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Verkaufsaufträge nach Invervall abrechnen`
+- **Modell**: `ir.actions.server`
+- **Ausführen alle**: `1` Woche
+- **Nächstes Ausführungsdatum**: `DD.MM.YYYY 02:00:00`
+- **Anzahl der Anrufe**: `-1`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 # Settings
@@ -359,13 +347,13 @@ Mit dieser automatischen Aktion wird ein Angebot mit einem bestimmten Attribut (
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-Name der Aktion: `Angebot bestätigen und Rechnungen erstellen`\
-Modell: `sale.order`\
-Auslöser: Bei Erstellung und Aktualisierung\
-Trigger-Felder: `x_as4import`\
-Domain vor Aktualisierung: `[("x_as4import", "!=", True)]`\
-Anzuwenden auf: `[("x_as4import", "=", True)]`\
-Python Code:
+- **Name**: `Angebot bestätigen und Rechnungen erstellen`
+- **Modell**: `sale.order`
+- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Trigger-Felder**: `x_as4import`
+- **Domain vor Aktualisierung**: `[("x_as4import", "!=", True)]`
+- **Anzuwenden auf**: `[("x_as4import", "=", True)]`
+- **Code**:
 
 ```python
 records.action_confirm()
@@ -377,10 +365,10 @@ for invoice in records.invoice_ids:
 
 ### Abonnemente auf Angebot entfernen
 
-Name der Aktion: `Abonemente auf Angebot entfernen`\
-Modell: `sale.order`\
-Auslöser: Bei Erstellung und Aktualisierung\
-Python Code:
+- **Name**: `Abonemente auf Angebot entfernen`
+- **Modell**: `sale.order`
+- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Code**:
 
 ```python
 for rec in records:
@@ -394,13 +382,13 @@ for rec in records:
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-Name der Aktion: `Angebot bestätigen`\
-Modell: `sale.order`\
-Auslöser: Beim Aktualisieren\
-Trigger-Felder: `x_as4import`\
-Domain vor Aktualisierung: `[("x_as4import", "!=", True)]`\
-Anzuwenden auf: `[("x_as4import", "=", True)]`\
-Python Code:
+- **Name**: `Angebot bestätigen`
+- **Modell**: `sale.order`
+- **Auslöser**: Beim Aktualisieren
+- **Trigger-Felder**: `x_as4import`
+- **Domain vor Aktualisierung**: `[("x_as4import", "!=", True)]`
+- **Anzuwenden auf**: `[("x_as4import", "=", True)]`
+- **Code**:
 
 ```python
 records.action_confirm()
@@ -411,13 +399,13 @@ records._compute_amounts()
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-Name der Aktion: `Rechnung erstellen`\
-Modell: `sale.order`\
-Auslöser: Beim Aktualisieren\
-Trigger-Felder: `x_as4import`\
-Domain vor Aktualisierung: `[("invoice_status", "!=", "invoiced")]`\
-Anzuwenden auf: `["&", ("x_as4import", "=", True), ("invoice_status", "=", "to invoice")]`\
-Python Code:
+- **Name**: `Rechnung erstellen`
+- **Modell**: `sale.order`
+- **Auslöser**: Beim Aktualisieren
+- **Trigger-Felder**: `x_as4import`
+- **Domain vor Aktualisierung**: `[("invoice_status", "!=", "invoiced")]`
+- **Anzuwenden auf**: `["&", ("x_as4import", "=", True), ("invoice_status", "=", "to invoice")]`
+- **Code**:
 
 ```python
 records._create_invoices()
@@ -431,7 +419,7 @@ records._compute_invoice_status()
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-- **Name der Aktion**: `Standard-Zahlungsbedingungen festlegen`
+- **Name**: `Standard-Zahlungsbedingungen festlegen`
 - **Modell**: `sale.order`
 - **Auslöser**: Bei Erstellung
 - **Anzuwenden auf**: `[("payment_term_id", "=", False)]`
@@ -446,7 +434,7 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Akt
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-- **Name der Aktion**: `Verkäufer entfernen`
+- **Name**: `Verkäufer entfernen`
 - **Modell**: `sale.order`
 - **Auslöser**: Bei Erstellung und Aktualisierung
 - **Anzuwenden auf**: `[("user_id", "!=", False)]`
@@ -461,10 +449,10 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Akt
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-- **Name der Aktion**: `Standard-Verkaufsteam festlegen`
+- **Name**: `Standard-Verkaufsteam festlegen`
 - **Modell**: `sale.order`
 - **Auslöser**: Bei Erstellung und Aktualisierung
-- **Auslöser-Feld**: `recurrence_id`
+- **Auslöser**: -Feld**: `recurrence_id`
 - **Anzuwenden auf**: `[("recurrence_id", "!=", False)]`
 - **Folgeaktion**: Den Datensatz aktualisieren
 - **Zu schreibende Daten**:
@@ -477,7 +465,7 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Akt
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-- **Name der Aktion**: `Provision bei Erneuerung entfernen`
+- **Name**: `Provision bei Erneuerung entfernen`
 - **Modell**: `sale.order`
 - **Auslöser**: Bei Erstellung
 - **Anzuwenden auf**: `[("subscription_id", "!=", False)]`

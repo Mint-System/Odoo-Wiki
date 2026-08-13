@@ -21,9 +21,10 @@ Mithilfe dieser Aktionen können Sie das Notiz-Feld auf Duplikats-Einträgen zus
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Notizen zusammenführen`
-Modell: `data_merge.record`\
-Typ: `Code ausführen`
+- **Name**: `Notizen zusammenführen`
+- **Modell**: `data_merge.record`
+- **Typ**: `Code ausführen`
+- **Code**: 
 
 ```python
 # Get all unique groups associated with these records
@@ -78,9 +79,10 @@ Mit dieser Aktion können Sie die Adresse von einem Duplikat mit Adresse auf das
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Adresse übertragen`
-Modell: `data_merge.record`\
-Typ: `Code ausführen`
+- **Name**: `Adresse übertragen`
+- **Modell**: `data_merge.record`
+- **Typ**: `Code ausführen`
+- **Code**: 
 
 ```python
 # Define address fields

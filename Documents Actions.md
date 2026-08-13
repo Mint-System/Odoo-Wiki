@@ -34,11 +34,10 @@ flowchart TD
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Dokumente aus Wareneingang taggen`\
-Modell: `stock.lot` oder `mrp.production`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
+- **Name**: `Dokumente aus Wareneingang taggen`
+- **Modell**: `stock.lot` oder `mrp.production`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 tag_name ='Dokumente aus Wareneingang'
@@ -87,14 +86,13 @@ Die Aktion mit _Kontextuelle Aktion Erstellen_ bestätigen.
 
 Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Dokumente an Wareneingang zuordnen`\
-Modell: `ir.actions.server`\
-Ausführen alle: `1` Tage\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
-Anzahl der Anrufe: `-1`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Dokumente an Wareneingang zuordnen`
+- **Modell**: `ir.actions.server`
+- **Ausführen alle**: `1` Tage
+- **Nächstes Ausführungsdatum**: `DD.MM.YYYY 06:00:00`
+- **Anzahl der Anrufe**: `-1`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 tag = env['documents.tag'].search([ ('name','=','WE zugeordnet') ],limit=1)

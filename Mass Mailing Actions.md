@@ -19,11 +19,10 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Anzeigen Unsubscribe URL`\
-Modell: `mailing.trace`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Anzeigen Unsubscribe URL`
+- **Modell**: `mailing.trace`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 url = record.mass_mailing_id._get_unsubscribe_url(record.email, 0)

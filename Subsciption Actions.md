@@ -19,11 +19,10 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Abonnement schliessen`\
-Modell: `sale.order`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Abonnement schliessen`
+- **Modell**: `sale.order`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 records.set_close()
@@ -35,11 +34,10 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und speiche
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Start- und Enddatum von Abonnement übernehmen`\
-Modell: `account.move`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Start- und Enddatum von Abonnement übernehmen`
+- **Modell**: `account.move`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for line in records.invoice_line_ids.filtered(lambda line: line.product_id.recurring_invoice):
@@ -66,11 +64,10 @@ Mit dieser Aktion können nach einer Migration von Odoo 15.0 auf 16.0 und höher
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Abonnement-Informationen migrieren`\
-Modell: `sale.order`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Abonnement-Informationen migrieren`
+- **Modell**: `sale.order`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for order in records:
@@ -114,14 +111,13 @@ Erstellen Sie eine externe ID `__custom__.reminder_stage1` und `__custom__.remin
 
 Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Verkaufsabonnement: Vor Ablauf in Spalte verschieben`\
-Modell: `ir.actions.server`\
-Ausführen alle: `1` Tage\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
-Anzahl der Anrufe: `-1`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Verkaufsabonnement: Vor Ablauf in Spalte verschieben`
+- **Modell**: `ir.actions.server`
+- **Ausführen alle**: `1` Tage
+- **Nächstes Ausführungsdatum**: `DD.MM.YYYY 06:00:00`
+- **Anzahl der Anrufe**: `-1`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 # Settings
@@ -173,14 +169,13 @@ Diese geplante Aktion prüft das nächste Abrechnungsdatum der Abonnemente, erst
 
 Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Verkaufsabonnement: Vor Abrechnung verlängern`\
-Modell: `ir.actions.server`\
-Ausführen alle: `1` Tage\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
-Anzahl der Anrufe: `-1`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Verkaufsabonnement: Vor Abrechnung verlängern`
+- **Modell**: `ir.actions.server`
+- **Ausführen alle**: `1` Tage
+- **Nächstes Ausführungsdatum**: `DD.MM.YYYY 06:00:00`
+- **Anzahl der Anrufe**: `-1`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 # Settings
@@ -249,14 +244,13 @@ Diese geplante Aktion versendet eine bestimmte Anzahl Tage vor Erreichung des Ab
 
 Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Verkaufsabonnement: Reminder Verlängerung versenden`\
-Modell: `ir.actions.server`\
-Ausführen alle: `1` Tage\
-Nächstes Ausführungsdatum: `DD.MM.YYYY 06:00:00`\
-Anzahl der Anrufe: `-1`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python Code_:
+- **Name**: `Verkaufsabonnement: Reminder Verlängerung versenden`
+- **Modell**: `ir.actions.server`
+- **Ausführen alle**: `1` Tage
+- **Nächstes Ausführungsdatum**: `DD.MM.YYYY 06:00:00`
+- **Anzahl der Anrufe**: `-1`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 # Settings

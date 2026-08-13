@@ -19,11 +19,10 @@ partner: Mint System
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
-Name der Aktion: `Modul aktualisieren`\
-Modell: `ir.module.module`\
-Typ: `Code ausführen`
-
-Kopieren Sie die folgenden Zeilen in das Feld _Python-Code_:
+- **Name**: `Modul aktualisieren`
+- **Modell**: `ir.module.module`
+- **Typ**: `Code ausführen`
+- **Code**:
 
 ```python
 for record in records:
@@ -42,13 +41,13 @@ Mit dieser Aktion werden SQL-Grants für einen bestimmten Benutzer (hier `dwh`) 
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
 
-Name der Aktion: `SQL-Grants nach Modul-Installation ausführen`\
-Modell: `module.module`\
-Auslöser: Beim Aktualisierung\
-Trigger-Felder: `state`\
-Domain vor Aktualisierung: `[]`\
-Anzuwenden auf: `[]`\
-Python Code:
+- **Name**: `SQL-Grants nach Modul-Installation ausführen`
+- **Modell**: `module.module`
+- **Auslöser**: Beim Aktualisierung
+- **Trigger-Felder**: `state`
+- **Domain vor Aktualisierung**: `[]`
+- **Anzuwenden auf**: `[]`
+- **Code**:
 
 ```python
 query = "GRANT SELECT ON ALL TABLES IN SCHEMA public TO dwh;"; env.cr.execute(query)
