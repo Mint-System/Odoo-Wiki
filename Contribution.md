@@ -191,15 +191,6 @@ Tags aus der Softwareentwicklung:
 - #NOTE: Information zum Text.
 - #DEPRECATED: Ist veraltet.
 
-Odoo Version:
-
-- #Odoo13: Tag für Odoo Version 13.
-- #Odoo14: Tag für Odoo Version 14.
-- #Odoo15: Tag für Odoo Version 15.
-- #Odoo16: Tag für Odoo Version 16.
-- #Odoo17: Tag für Odoo Version 17.
-- #Odoo18: Tag für Odoo Version 18.
-
 ### Hostname und Mail-Adressen
 
 Anleitungen werden mit fiktiven Hostnamen, Domains und Mail-Adressen beschrieben. Die Verwendung dieser Namen sollte konsistent sein.
