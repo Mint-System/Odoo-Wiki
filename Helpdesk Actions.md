@@ -30,7 +30,7 @@ stage_id = env.ref("__custom__.stage_new_smartred")
 action = env.ref("helpdesk.helpdesk_ticket_action_main_tree").sudo().read()[0]
 
 for rec in records:
-    rec.message_unsubscribe([rec.user_id.partner_id.id])
+    rec.message_unsubscribe([env.user.partner_id.id, rec.user_id.partner_id.id])
     rec.sudo().write({
         'user_id': False,
         'team_id': team_id.id,
