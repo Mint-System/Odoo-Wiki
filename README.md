@@ -419,7 +419,7 @@ Die ganze Fertigung auf einen Blick.
 
 Wissenstransfer für Teams vereinfachen.
 
-### [HR Timesheet](HR%20Timesheet.md)
+### [Zeiterfassung](HR%20Timesheet.md)
 
 [![icons_odoo_hr_timesheet](attachments/icons_odoo_hr_timesheet.png)](HR%20Timesheet.md)
 
