@@ -48,13 +48,7 @@ Sie können anhand Vorlagen in Artikeln Nachrichten erstellen lassen. Klicken Si
 
 ### Ansicht in Artikel einfügen
 
-Alle Ansichten in Odoo können gespeichert und auf einem Knowledge Artikel hinzufgügt werden. 
-
-Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />.
-
-Navigieren Sie zur ausgewählten Ansicht, beispielsweise _Projekt > Projekte_, und filtern Sie die Ansicht. Wählen Sie anschliessend _Favoriten > Ansicht in Artikel einfügen_ und klicken auf einen Artikel. Odoo fügt die Ansicht in den Artikel ein.
-
-![](attachments/Knowledge%20Meine%20Projekte%20Ansicht.png)
+Alle Ansichten in Odoo können gespeichert und auf einem Knowledge Artikel hinzugefügt werden. 
 
 Gilt ab <Badge type="info" text="Odoo17" vertical="middle" />.
 
@@ -65,3 +59,7 @@ Navigieren Sie zur ausgewählten Ansicht, beispielsweise _Projekt > Projekte_. W
 ::: tip
 Die Ansicht und Filter ist dynamisch. Es wird immer der aktuelle Zustand dargestellt. Sie können auf die Inhalte klicken und landen in der Detailansicht.
 :::
+
+Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />.
+
+Navigieren Sie zur ausgewählten Ansicht, beispielsweise _Projekt > Projekte_, und filtern Sie die Ansicht. Wählen Sie anschliessend _Favoriten > Ansicht in Artikel einfügen_ und klicken auf einen Artikel. Odoo fügt die Ansicht in den Artikel ein.
