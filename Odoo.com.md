@@ -33,3 +33,13 @@ Um den Datenbank-Dump zu versenden, können Sie <https://www.swisstransfer.com> 
 ### Datenbank löschen
 
 Unter _[Datenbank verwalten](#Datenbank%20verwalten) > Abonnement kündigen > Datenbank löschen_ wählen Sie Aktion _Löschen_.
+
+### Datenbank duplizieren 
+
+Unter _[Datenbank verwalten](#Datenbank%20verwalten) > Datenbank > Duplizieren_ wählen Sie Aktion _Duplizieren_. Geben Sie einen neuen Namen ein.
+
+### Datenbank upgraden
+
+Bevor Sie ein produktives Upgrade ihrer Datenbank ausführen, können Sie ihre [Datenbank duplizieren](#Datenbank%20duplizieren) und dort ein Upgrade ausführen.
+
+Unter _[Datenbank verwalten](#Datenbank%20verwalten) > Datenbank > Version_ wählen Sie Aktion _Upgrade_. 
