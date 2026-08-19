@@ -106,6 +106,22 @@ Anschliessend können Sie unter _Anwesenheiten > Überstunden_ manuelle Einträg
 Erfassen Sie die Korrektur-Einträge an einem Wochenende oder Feiertag, damit wird der Eintrag nicht von der Überstunden-Berechnungen überschrieben.
 :::
 
+## Ansichten
+
+### Anwesenheitszeile für Überstunden anzeigen
+
+Gilt ab <Badge type="info" text="Odoo19" vertical="middle" />:
+
+Damit Sie eine Übersicht der _Anwesenheitszeile für Überstunden_ erhalten, folgen Sie dem HowTo [Neue Ansicht mit Aktion hinzufügen](Development%20Actions.md#Neue%20Ansicht%20mit%20Aktion%20hinzufügen) und verwenden diese Werte:
+
+Name der Aktion: `Anwesenheitszeile für Überstunden`\
+Objekt: `hr.attendance.overtime.line`\
+Ansichtsmodus: `list,form,pivot`\
+Menü: `Anwesenheitszeile für Überstunden`\
+Obermenü: `Anwesenheiten/Konfiugration`\
+Aktion: `ir.actions.act_window` `Anwesenheitszeile für Überstunden`\
+Nummernfolge: `50`
+
 ## Berichte
 
 ### Überstunden in Bericht Anwesenheiten anzeigen
