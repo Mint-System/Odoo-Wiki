@@ -18,7 +18,7 @@ Website: <https://www.odoo.com/>
 
 ### Datenbank verwalten
 
-Wenn Sie ihre Odoo Datenbank auf Odoo.com herunterladen möchten, rufen Sie die Url <https://www.odoo.com/de_DE/my/databases> auf. Klicken Sie auf die Einstellungen ihrer Datenbank und wählen Sie _Manage_.
+Wenn Sie ihre Odoo Datenbank auf Odoo.com herunterladen möchten, rufen Sie die Url <https://www.odoo.com/de_DE/my/databases> auf. Klicken Sie auf die Einstellungen ihrer Datenbank und wählen Sie _Verwalten_.
 
 ### Datenbank herunterladen
 
@@ -42,4 +42,4 @@ Unter _[Datenbank verwalten](#Datenbank%20verwalten) > Datenbank > Duplizieren_ 
 
 Bevor Sie ein produktives Upgrade ihrer Datenbank ausführen, können Sie ihre [Datenbank duplizieren](#Datenbank%20duplizieren) und dort ein Upgrade ausführen.
 
-Unter _[Datenbank verwalten](#Datenbank%20verwalten) > Datenbank > Version_ wählen Sie Aktion _Upgrade_. 
+Unter _[Datenbank verwalten](#Datenbank%20verwalten) > Datenbank > Version_ wählen Sie Aktion _Upgrade_. Geben Sie eine E-Mails zur Benachrichtigung ein und starten Sie den Vorgang.
