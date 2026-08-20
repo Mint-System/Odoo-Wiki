@@ -3,7 +3,7 @@ description: Bedingungen in QWeb-Template definieren.
 forge: github.com
 kind: howto
 name: web_action_conditionable
-prev: ./web
+prev: ./development
 repo: OCA/web
 tags:
 title: Web Action Conditionable
