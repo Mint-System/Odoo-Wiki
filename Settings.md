@@ -33,6 +33,7 @@ extensions: true
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | [Auth Disable Password Login](Auth%20Disable%20Password%20Login.md)                       | Schaltet das Login mit Passwort für einen User aus.                |
 | [Auth Impersonate User](Auth%20Impersonate%20User.md)                                     | Mit einem anderen Benutzer einloggen.                              |
+| [Auth OAuth Multi Token](Auth%20OAuth%20Multi%20Token.md)                                 | Unterstützung für mehrere Geräteabhängigke OAuth-Tokens.           |
 | [Auth Session Timeout](Auth%20Session%20Timeout.md)                                       | Session-Timeout festlegen.                                         |
 | [Auth TOTP IP Check](Auth%20TOTP%20IP%20Check.md)                                         | Zwei-Faktor-Authentisierung für bestimmte IP-Netzwerke ignorieren. |
 | [Base User Role Company](Base%20User%20Role%20Company.md)                                 | Benutzer-Rollen in Abhängigkeit vom Unternehmen aktivieren.        |

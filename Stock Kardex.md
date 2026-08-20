@@ -75,4 +75,4 @@ Diese Kardex-Auftragstypen werden in der Konfiguration _Lagerverwaltung > Vorgan
 
 ## Konfiguration
 
-## Text Cases
+## Test Cases

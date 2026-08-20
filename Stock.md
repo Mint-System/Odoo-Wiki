@@ -53,7 +53,11 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Move Line Lot Done](Stock%20Move%20Line%20Lot%20Done.md)                               | Erledigte Menge bei Zuweisung von Los festlegen.                                                            |
 | [Stock Move Line Packaging](Stock%20Move%20Line%20Packaging.md)                               | Verknüpfen der Verpackung von Verkaufsauftrag.                                                              |
 | [Stock Move Line Position](Stock%20Move%20Line%20Position.md)                                 | Positionsnummer aus dem Verkaufs-, Einkaufs- oder Fertigungsauftrag anzeigen.                               |
+| [Stock Move Lot Add Default Code](Stock%20Move%20Lot%20Add%20Default%20Code.md)               | Fügt einer Serien- oder Chargennummer die Referenz des Produkts hinzu.                                      |
+| [Stock Move Lot Quantity](Stock%20Move%20Lot%20Quantity.md)                                   | Immer Transfer der verfügbaren Gesamtmenge einer Charge.                                                    |
+| [Stock Move Lots Indicator](Stock%20Move%20Lots%20Indicator.md)                               | Zeigt bereits festgelegte Serien- oder Chargennummern auf Pickings.                                         |
 | [Stock Move Sale Order Name](Stock%20Move%20Sale%20Order%20Name.md)                           | Beschreibung der Auftragsposition wird auf die Lieferung kopiert.                                           |
+| [Stock Move Show Tracking](Stock%20Move%20Show%20Tracking.md)                                 | Zeigt Badge für Tracking-Typ auf Stock Moves.                                                               |
 | [Stock Move Upstream Quantity](Stock%20Move%20Upstream%20Quantity.md)                         | Aktualisiert die erledigte Menge auf verlinkten Lagerbuchungen.                                             |
 | [Stock Move Upstream State](Stock%20Move%20Upstream%20State.md)                               | Zugriff auf Status von Upstream Lagerbuchung.                                                               |
 | [Stock Move Weight UoM](Stock%20Move%20Weight%20UoM.md)                                       | Berechnung Gewicht unter Berücksichtigung der Mengeneinheit.                                                |
@@ -63,6 +67,7 @@ Website: <https://www.odoo.com/de_DE/app/inventory>
 | [Stock Picking Notes](Stock%20Picking%20Notes)                                                | Zusätzliche Notizfelder auf dem Transfer, die beim Bestätigen eines Verkaufsauftrags kopiert werden.        |
 | [Stock Picking Progress](Stock%20Picking%20Progress.md)                                       | Fortschrittsanzeige für Transfer.                                                                           |
 | [Stock Picking Responsible](Stock%20Picking%20Responsible.md)                                 | Verantwortliche Person des Verkaufsauftrags wird auf die Lieferung kopiert.                                 |
+| [Stock Picking Split And Validate](Stock%20Picking%20Split%20And%20Validate.md)               | Übertragung und Validierung von Produkten in eigenen Transfer.                                              |
 | [Stock Picking Start](Stock%20Picking%20Start.md)                                             | Transfer als gestartet markieren.                                                                           |
 | [Stock Picking Valued](Stock%20Picking%20Valued.md)                                           | Preise, Steuern und Preisliste auf Lieferung.                                                               |
 | [Stock Product Last Move](Stock%20Product%20Last%20Move.md)                                   | Letztes Datum zu ein- und ausgehender Lagerbewegung anzeigen.                                               |

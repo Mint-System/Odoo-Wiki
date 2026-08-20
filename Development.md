@@ -57,6 +57,7 @@ extensions: true
 | [Server Config Environment](Server%20Config%20Environment.md)                               | Umgebungen für die Server-Konfiguration definieren.                 |     |     |     |     |     |     |
 | [Server Environment Ir Config Parameter](Server%20Environment%20Ir%20Config%20Parameter.md) | Systemparameter aus Umgebungsvariablen laden.                       |     |     |     |     |     |     |
 | [Server Environment](Server%20Environment.md)                                               | Systemkonfigurationen aus Umgebungsvariablen laden.                 |     |     |     |     |     |     |
+| [Snippet Manager](Snippet%20Manager.md)                                                     | Installation und Aktualisierung von vererbten Ansichten.            |     |     |     |     |     |     |
 | [Url Slug](Url%20Slug.md)                                                                   | Mixin zur Generierung von Url-Slugs.                                |     |     |     |     |     |     |
 | [Web Action Conditionable](Web%20Action%20Conditionable.md)                                 | Bedingungen in QWeb-Template definieren.                            |     |     |     |     |     |     |
 | [Web Domain Field](Web%20Domain%20Field.md)                                                 | Dynamische Definitionen für Domain-Attribute auf Felder generieren. |     |     |     |     |     |     |

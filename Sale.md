@@ -43,12 +43,13 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order Invoice Amount](Sale%20Order%20Invoice%20Amount.md)                                   | Verrechnete und nicht verrechnete Beträge von Verkaufsaufträgen anzeigen.     |
 | [Sale Order Line Description Name](Sale%20Order%20Line%20Description%20Name.md)                   | Produktname in Beschreibung ohne interne Referenz.                            |
 | [Sale Order Line Description](Sale%20Order%20Line%20Description.md)                               | Nur Verkausbeschreibung im Feld Beschreibung übertragen.                      |
-| [Sale Order Line Form Action](Sale%20Order%20Line%20Form%20Action.md)                             | Auftragsposition in Formularansicht öffnen.                                      |
+| [Sale Order Line Form Action](Sale%20Order%20Line%20Form%20Action.md)                             | Auftragsposition in Formularansicht öffnen.                                   |
+| [Sale Order Line Menu](Sale%20Order%20Line%20Menu.md)                                             | Anzeige Auftragspositionen in Verkauf Menü-Struktur.                          |
 | [Sale Order Line Name Get](Sale%20Order%20Line%20Name%20Get.md)                                   | Produktname als Anzeigename für Verkaufspositionen.                           |
 | [Sale Order Line Not Billable](Sale%20Order%20Line%20Not%20Billable.md)                           | Produkt als nicht verrechbar festlegen und bei Abrechnunung filtern.          |
 | [Sale Order Line Pos](Sale%20Order%20Line%20Pos.md)                                               | Verkaufsaufträge mit Positionsnummern.                                        |
 | [Sale Order Line Position](Sale%20Order%20Line%20Position.md)                                     | Verkaufsaufträge mit Positionsnummern.                                        |
-| [Sale Order Line Pricelist Fixed Discount](Sale%20Order%20Line%20Pricelist%20Fixed%20Discount.md) | Auftragspositionen mit Rabaut aus Preisliste mit Fixpreis.                        |
+| [Sale Order Line Pricelist Fixed Discount](Sale%20Order%20Line%20Pricelist%20Fixed%20Discount.md) | Auftragspositionen mit Rabaut aus Preisliste mit Fixpreis.                    |
 | [Sale Order Line Purchase Margin](Sale%20Order%20Line%20Purchase%20Margin.md)                     | Kalkulation der Marge basierend auf verlinkter Bestellung.                    |
 | [Sale Order Line Temporary Price](Sale%20Order%20Line%20Temporary%20Price.md)                     | Benutzerdeinierter Preis für erste Abrechnung festlegen.                      |
 | [Sale Order MRP Production Cancel](Sale%20Order%20MRP%20Production%20Cancel.md)                   | Verlinkter Fertigungsauftrag bei Abbruch Verkaufsauftrag ebenfalls abbrechen. |
@@ -57,6 +58,7 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Order Partner Membership](Sale%20Order%20Partner%20Membership.md)                           | Kontaktperson Mitgliedschaft auf Verkaufsauftrag festlegen                    |
 | [Sale Order Partner Pricelist](Sale%20Order%20Partner%20Pricelist.md)                             | Preislisten-Zugriff mit Verkaufsaufträgen erteilen.                           |
 | [Sale Order Partner Ref](Sale%20Order%20Partner%20Ref.md)                                         | Kunden-Nr. auf Verkaufsaufträge filtern.                                      |
+| [Sale Order Permit](Sale%20Order%20Permit.md)                                                     | Verkauf von Patenten                                                          |
 | [Sale Order Project Key](Sale%20Order%20Project%20Key.md)                                         | Angebotsname aus verlinkter Projektnummer generieren.                         |
 | [Sale Order Ref](Sale%20Order%20Ref.md)                                                           | Interne Referenz für Verkaufsauftrag festlegen.                               |
 | [Sale Order Sale Partner](Sale%20Order%20Sale%20Partner.md)                                       | Verkaufsadresse auf Verkaufsauftrag festlegen.                                |
@@ -66,9 +68,10 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Product Set Layout](Sale%20Product%20Set%20Layout.md)                                       | Produktset mit Notizen und Abschnitten.                                       |
 | [Sale Product Set Search](Sale%20Product%20Set%20Search.md)                                       | Produktset anhand Name und Referenz suchen.                                   |
 | [Sale Product Set](Sale%20Product%20Set.md)                                                       | Produktsets definieren und einfach hinzufügen.                                |
+| [Sale Restricted Qty Default](Sale%20Restricted%20Qty%20Default.md)                               | Mindestbestellmenge eines Produkts als Default im Webshop festlegen.          |
 | [Sale Restricted Qty](Sale%20Restricted%20Qty.md)                                                 | Mindest- und Maximalbestellmenge für Produkte festlegen.                      |
 | [Sale Start End Dates](Sale%20Start%20End%20Dates.md)                                             | Fügt dem Verkaufsauftrag ein Start- und Enddatum hinzu.                       |
-| [Sale Triple Discount](Sale%20Triple%20Discount.md)                                               | Mehrere Rabatte auf der Auftragsposition.                                        |
+| [Sale Triple Discount](Sale%20Triple%20Discount.md)                                               | Mehrere Rabatte auf der Auftragsposition.                                     |
 
 ## Produkte
 

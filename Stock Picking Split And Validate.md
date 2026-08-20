@@ -1,6 +1,6 @@
 ---
 title: Stock Picking Split And Validate
-description: Überträgt entsprechend gekennzeichnete Produkte in eigenes Picking und validiert dieses unm unmittelbar.
+description: Überträgt entsprechend gekennzeichnete Produkte in eigenes Picking und validiert dieses unmittelbar.
 kind: howto
 tags:
   - Mint-System

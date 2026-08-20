@@ -1,5 +1,5 @@
 ---
-title: Mrp Routing Workcenter Time Start
+title: MRP Routing Workcenter Time Start
 description: Definiert eine stücklistenspezifische Rüstzeit für einen Vorgang
 kind: howto
 tags:
@@ -12,7 +12,7 @@ versions:
 name:  mrp_routing_workcenter_time_start
 ---
 
-#  Mrp Routing Workcenter Time Start
+#  MRP Routing Workcenter Time Start
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 

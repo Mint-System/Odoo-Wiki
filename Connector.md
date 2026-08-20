@@ -23,8 +23,10 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Erweiterungen
 
-| Erweiterung                               | Beschreibung                                           |
-| ----------------------------------------- | ------------------------------------------------------ |
-| [Git](Git%20Base.md)                      | Git Repositories mit Odoo verwalten.                   |
-| [Meilisearch Base](Meilisearch%20Base.md) | Meilisearch Index mit Odoo Dokumenten synchronisieren. |
-| [SSH](SSH.md)                             | SSH-Schlüssel verwalten.                               |
+| Erweiterung                                       | Beschreibung                                           |
+| ------------------------------------------------- | ------------------------------------------------------ |
+| [Base External Mssql](Base%20External%20Mssql.md) | Verbindung zu externer MSSQL-Datenbank.                |
+| [Base Kardex](Base%20Kardex.md)                   | Basis-Funktionalität für Kardex-Verbindungen.          |
+| [Git](Git%20Base.md)                              | Git Repositories mit Odoo verwalten.                   |
+| [Meilisearch Base](Meilisearch%20Base.md)         | Meilisearch Index mit Odoo Dokumenten synchronisieren. |
+| [SSH](SSH.md)                                     | SSH-Schlüssel verwalten.                               |

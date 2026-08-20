@@ -36,6 +36,7 @@ extensions: true
 | [Product Name Sequence](Product%20Name%20Sequence.md)                                       | Generate product names based on a sequence.                                 |
 | [Product Packaging Parent](Product%20Packaging%20Parent.md)                                 | Übergeordnete Verpackung für Produktverpackung definieren.                  |
 | [Product Pricelist Fixed Discount](Product%20Pricelist%20Fixed%20Discount.md)               | Festpreise in Preisliste mit Rabatt.                                        |
+| [Product Putaway Final Location](Product%20Putaway%20Final%20Location.md)                   | Falls eine Einlagerungsregel existiert, wird der finale Lagerort angezeigt. |
 | [Product Sequence](Product%20Sequence.md)                                                   | Produkreferenzen anhand einer Sequenz generieren lassen.                    |
 | [Product Set](Product%20Set.md)                                                             | Produkte-Sets definieren.                                                   |
 | [Product State](Product%20State.md)                                                         | Lebenszyklus von Produkten festlegen.                                       |
@@ -44,6 +45,7 @@ extensions: true
 | [Product Type Description](Product%20Type%20Description.md)                                 | Zu jedem Produkt ein Beschreibungsfeld.                                     |
 | [Product Usability](Product%20Usability.md)                                                 | Ansichten Produktverwaltung.                                                |
 | [Product Variant Description](Product%20Variant%20Description.md)                           | Verkaufs-, Einkaufs- und Lieferbeschreibung auf Produktvarianten festlegen. |
+| [Product Category Tracking](Product%20Category%20Tracking.md)                               | Festlegung eines Trackings auf einer Produktkategorie.                      |
 | [Secondary Product Type Description](Secondary%20Product%20Type%20Description.md)           | Zu jedem Produkt ein zweites Beschreibungsfeld.                             |
 
 ## Verwendung

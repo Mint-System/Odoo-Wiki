@@ -58,6 +58,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Payment Partner](Account%20Payment%20Partner.md)                                                  | Zahlungsmodus auf Kontakt festlegen.                                              |
 | [Account Payment Purchase](Account%20Payment%20Purchase.md)                                                | Zahlungsmodus auf Bestellung festlegen.                                           |
 | [Account Reconcile OCA](Account%20Reconcile%20OCA.md)                                                      | OCA-Lösung für die Bank-Abstimmung.                                               |
+| [Account Report Filename](Account%20Report%20Filename.md)                                                  | Entfernt die Umwandlung in Kleinbuchstaben im Dateinamen des Mahnbericht-Pdfs.    |
 | [Account Report Referrer](Account%20Report%20Referrer.md)                                                  | Fügt den Ansprechpartner der Rechnungsanalyse hinzu.                              |
 | [Account Reports Hide Ref](Account%20Reports%20Hide%20Ref.md)                                              | Zahlungsreferenz in Spalte Kommunikation in Finanzberichten ausblenden.           |
 | [Account Show Invoice Date](Account%20Show%20Invoice%20Date.md)                                            | Rechnungsdatum auf dem Bericht für überfällige Forderungen und Verbindlichkeiten. |
@@ -67,6 +68,7 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 | [Account Statement Import Camt](Account%20Statement%20Import%20Camt.md)                                    | Support Import Bankauszug im Camt-Format.                                         |
 | [Account Statement Import File](Account%20Statement%20Import%20File.md)                                    | Bankauszüge importieren.                                                          |
 | [Account Statement Import](Account%20Statement%20Import.md)                                                | Bankauszüge importieren.                                                          |
+| [Account Tax Report Show Vat](Account%20Tax%20Report%20Show%20Vat.md)                                      | USt-Id im Umsatzsteuerbericht anzeigen.                                           |
 | [Account Usability](Account%20Usability.md)                                                                | Menüs der Enterprise Finanzbuchhaltung für Community.                             |
 
 ## Konfiguration

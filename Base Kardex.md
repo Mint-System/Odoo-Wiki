@@ -1,5 +1,5 @@
 ---
-description: Verbindung zu externer MSSQL-Datenbank herstellen.
+description: Basisfunktionalität für Kardex-Anbindung.
 forge: github.com
 kind: howto
 name: base_kardex
@@ -24,4 +24,4 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Verwendung
 
-Stellt Funktionalität zur Verfügung, die von Kardex Modulen benötigt werden.
+Stellt Funktionalität zur Verfügung, die von Kardex-Modulen benötigt wird.

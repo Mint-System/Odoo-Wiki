@@ -24,6 +24,7 @@ Website: <https://www.odoo.com/de_DE/app/ecommerce>
 | [Saferpay Payment Provider](Saferpay%20Payment%20Provider.md)                         | Saferpay Payment Provider Plugin von PIT Solutions.         |
 | [Website Sale Address Optional Phone](Website%20Sale%20Address%20Optional%20Phone.md) | Feld Telefon auf dem Adressformular als optional festlegen. |
 | [Website Sale Cart Expire](Website%20Sale%20Cart%20Expire.md)                         | Warenkörbe nach einer bestimmten Zeit automatisch abbrechen |
+| [Website Sale Disable Cart](Website%20Sale%20Disable%20Cart.md)                       | Konfiguriert, ob Produkt in Warenkorb gelegt werden kann.   |
 | [Website Sale Firstname](Website%20Sale%20Firstname.md)                               | Vor- und Nachname auf Adressformular.                       |
 | [Website Sale Float Qty](Website%20Sale%20Float%20Qty.md)                             | Teilmengen von Produkten in Webshop bestellen.              |
 | [Website Sale Permit Extra Info](Website%20Sale%20Permit%20Extra%20Info.md)           | Zusätzliche Informationen bei Checkout abfragen.            |
