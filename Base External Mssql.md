@@ -3,12 +3,12 @@ description: Verbindung zu externer MSSQL-Datenbank herstellen.
 forge: github.com
 kind: howto
 name: base_external_mssql
-prev: ./development
+prev: ./connector
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Base External Mssql
 versions:
-- '18.0'
-- '17.0'
+  - "18.0"
+  - "17.0"
 partner: Mint System
 ---
 

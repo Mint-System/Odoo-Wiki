@@ -1,5 +1,5 @@
 ---
-title: Mrp Production Merge Pickings
+title: MRP Production Merge Pickings
 description: Ermöglicht das Zusammenführen von Pickings mehrerer Fertigungsaufträge.
 kind: howto
 tags:
@@ -12,7 +12,7 @@ versions:
 name: mrp_production_merge_pickings
 ---
 
-# Mrp Production Merge Pickings
+# MRP Production Merge Pickings
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 

@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - "!name.isEmpty()"
+    order:
+      - file.name
+      - file.backlinks
+      - repo
+      - prev
+    sort:
+      - property: file.backlinks
+        direction: ASC
+      - property: tags
+        direction: ASC
+      - property: versions
+        direction: DESC
+      - property: partner
+        direction: DESC

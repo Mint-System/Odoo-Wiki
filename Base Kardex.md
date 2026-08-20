@@ -3,12 +3,12 @@ description: Verbindung zu externer MSSQL-Datenbank herstellen.
 forge: github.com
 kind: howto
 name: base_kardex
-prev: ./development
+prev: ./connector
 repo: Mint-System/Odoo-Apps-Connector
 title: Base Kardex
 versions:
-- '18.0'
-- '17.0'
+  - "18.0"
+  - "17.0"
 partner: Mint System
 ---
 

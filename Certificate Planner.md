@@ -21,6 +21,12 @@ versions:
 Technisch: `certificate_planer`\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
+## Erweiterungen
+
+| Erweiterung                                                               | Beschreibung                                        |
+| ------------------------------------------------------------------------- | --------------------------------------------------- |
+| [Certificate Planner Export PDM](Certificate%20Planner%20Export%20PDM.md) | Exportiert Zertifikate und Teile in PDM-XML-Format. |
+
 ## Verwendung
 
 ### Certificate Planner aufrufen

@@ -11,7 +11,6 @@ versions:
 - '18.0'
 ---
 
-
 # Sale Subscription Invoice Draft
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)

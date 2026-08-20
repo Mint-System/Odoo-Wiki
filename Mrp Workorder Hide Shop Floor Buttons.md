@@ -1,5 +1,5 @@
 ---
-title: Mrp Workorder Hide Shop Floor Buttons
+title: MRP Workorder Hide Shop Floor Buttons
 description: Ersetzt die Buttons zum Schliessen des Fertigungsauftrags durch Hinweistext.
 kind: howto
 tags:
@@ -12,7 +12,7 @@ versions:
 name: mrp_workorder_hide_shop_floor_buttons
 ---
 
-# Mrp Workorder Hide Shop Floor Buttons
+# MRP Workorder Hide Shop Floor Buttons
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
