@@ -1,0 +1,24 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.ext != "md"
+        - '!file.name.startsWith("icons_odoo")'
+        - '!file.ext.containsAny("js", "yaml", "base")'
+    order:
+      - file.name
+      - file.path
+      - file.backlinks
+    sort:
+      - property: file.backlinks
+        direction: ASC
+      - property: tags
+        direction: ASC
+      - property: versions
+        direction: DESC
+      - property: partner
+        direction: DESC
+    columnSize:
+      file.name: 451
+      file.path: 385
