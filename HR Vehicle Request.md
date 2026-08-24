@@ -50,7 +50,7 @@ Navigieren Sie nach _Personal > Fahrzeuganfrage > Fahrzeuganfrage_  und filtern 
 
 Mit dieser automatischen Aktion wird eine Fahrzeuganfrage mit einem bestimmten Attribut (Beispiel: `vehicle_id.model_id.vehicle_type`) automatisch bestätigt.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Fahrzeuganfrage automatisch bestätigen`\
 Modell: `employee.fleet`\

@@ -199,7 +199,7 @@ Mit diesem Knopf können Sie den E-Mail-Dialog öffnen.
 
 Mit _Automatischen Aktionen_ kann ein Datensatz, der aktualisiert wurde, zusätzlich validiert werden. In unserem Beispiel wollen wir unterbinden, dass Qualitätsalarme auf bestimmte Stufen gesetzt werden.
 
-Navigieren Sie nach _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automation > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Modell**: `Qualitätsalarm`
 - **Auslöser**: Beim Aktualisieren
@@ -218,7 +218,7 @@ if record.stage_id.sequence in [0,1,2]:
 In diesem Beispiel wird bei Erzeugen einer Rechnung aus einem Verkaufsauftrag automatisch das Feld _Recipient Bank (Empfängerbank)_ in der Rechnung ausgefüllt.
 
 - **Modell**: `Buchungssatz`
-- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Auslöser**: Bei Erstellung und Bearbeitung
 - **Code**:
 
 ```python

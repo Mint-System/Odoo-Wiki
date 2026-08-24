@@ -50,7 +50,7 @@ Navigieren Sie nach _Kontakte_ und zeigen Sie einen Eintrag an. Im Tab _Verkauf 
 
 Mit dieser automatischen Aktion wird auf der Kundenrechnung der Zahlungsmodus automatisch festgelegt.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Zahlungsmodus auf Kundenrechnung festlegen`\
 Modell: `account.move`\

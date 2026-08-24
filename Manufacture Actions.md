@@ -156,7 +156,7 @@ if error_messages:
 
 Mit dieser automatischen Aktion wird bei der Bestätigung des Fertigungsauftrag automatisch eine Seriennummmer für das zu fertigende Produkt generiert.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Los-Nummer generieren`
 - **Modell**: `mrp.production`

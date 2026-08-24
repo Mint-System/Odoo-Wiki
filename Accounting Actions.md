@@ -415,7 +415,7 @@ log(message)
 
 Mit dieser automatischen Aktion wird die Option _Zum Überprüfen_ bei der Erstellung einer Lieferantenrechnung aktiviert.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Lieferantenrechnung zur Prüfung markieren`
 - **Modell**: `account.move`
@@ -435,7 +435,7 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Akt
 
 Mit dieser automatischen Aktion werden beim Erstellen einer Kundenrechnung alle Notiz- und Abschnittszeilen entfernt.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Notizen und Abschnitte enfernen`
 - **Modell**: `account.move`

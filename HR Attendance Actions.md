@@ -249,7 +249,7 @@ attendances._update_overtime()
 
 Mit dieser Aktion wird der Anspruch der Abwesenheitsart mit der externen ID `__custom__.holiday_status_extra_hours` beim Erstellen und Aktualisieren der Anwesenheit aktualisiert.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Urlaubsanspruch Überstunden aktualisieren`
 - **Modell**: `hr.attendance`

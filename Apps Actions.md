@@ -39,7 +39,7 @@ In der Liste der Apps erscheint nun in der Auswahl _Aktion_ das Menu _Modul aktu
 
 Mit dieser Aktion werden SQL-Grants für einen bestimmten Benutzer (hier `dwh`) nach der Installation eines Moduls angewendet.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `SQL-Grants nach Modul-Installation ausführen`
 - **Modell**: `module.module`

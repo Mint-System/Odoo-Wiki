@@ -251,7 +251,7 @@ for invoice in invoices:
 
 ### Standard-Bargeldrundungsmethode festlegen
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Standard-Bargeldrundungsmethode festlegen`
 - **Modell**: `account.move`
@@ -264,3 +264,21 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Ak
 
 - **Folgeaktion**: Daten aktualisieren
 - **Journalbuchung aktualisieren**: Bargeldrundungsmethode = Rundung auf 5 Rappen
+
+### Follower von Auftrag auf Rechnung entfernen
+
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
+
+- **Name**: `Follower von Auftrag auf Rechnung entfernen`
+- **Modell**: `account.move`
+- **Auslöser**: Bei Erstellung und Bearbeitung
+- **Domain vor Aktualisierung**: `[]`
+- **Anwenden auf**: `[]`
+- **Code**:
+
+```python
+for rec in records:
+  unsubscribe_ids = rec.invoice_line_ids.sale_line_ids.order_id.user_id.partner_id
+  if unsubscribe_ids:
+    rec.message_unsubscribe(unsubscribe_ids.ids)
+```

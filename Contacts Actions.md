@@ -176,7 +176,7 @@ Die Aktivität auf dem Kontakt wird im Archivierungsvorgang gelöscht.
 
 ###  Unternehmen (company_id) bei neuem Kontakt entfernen
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Unternehmen (company_id) bei neuem Kontakt entfernen`
 - **Modell**: `Kontakt`

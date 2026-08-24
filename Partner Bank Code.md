@@ -57,11 +57,11 @@ Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätig
 
 Mit dieser Aktion versucht Odoo anhand des _Bank Code_ in der IBAN eine passende Bank im Bank-Verzeichnis zu finden.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Bankkonto mit Bank verknüpfen`\
 Modell: `res.partner.bank`\
-Auslöser: Bei Erstellung und Aktualisierung\
+Auslöser: Bei Erstellung und Bearbeitung\
 Trigger-Felder: `acc_number`\
 Domain vor Aktualisierung: `[("sanitized_acc_number", "!=", False)]`\
 Anzuwenden auf: `[("bank_id", "=", False)]`\

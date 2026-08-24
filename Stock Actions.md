@@ -950,7 +950,7 @@ Diese geplante Aktion führt täglich die die [Nachbestellregeln aus](Stock%20In
 
 Mit dieser automatischen Aktion wird eine Lieferung im Status _Bereit_ die erledigte Menge gleich der Bedarfsmenge gesetzt und erledigt.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Lieferung erledigen wenn bereit`
 - **Modell**: `stock.picking`
@@ -976,11 +976,11 @@ for picking in records:
 
 Mit dieser automatischen Aktion wird auf Verpackung das Liefergewicht aus dem geschätzten Produktgewicht und dem Gewicht der Verpackung berechnet.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Liefergewicht von Verpackung berechnen`
 - **Modell**: `stock.quant.package`
-- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Auslöser**: Bei Erstellung und Bearbeitung
 - **Trigger-Felder**:
 	- `​estimated_pack_weight_kg`
 	- `pack_weight`

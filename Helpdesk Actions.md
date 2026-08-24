@@ -44,7 +44,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 ### Bei Verkaufsauftrag ein Ticket erstellen
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Bei Verkaufsauftrag ein Ticket erstellen`
 - **Modell**: `sale.order`

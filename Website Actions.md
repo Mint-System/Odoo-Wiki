@@ -66,7 +66,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Automatische Aktione
 
 - **Name**: `Website Zahlungsreferenz entfernen`
 - **Modell**: `sale.order`
-- **Auslöser**: `Bei Erstellung und Aktualisierung`
+- **Auslöser**: `Bei Erstellung und Bearbeitung`
 - **Trigger-Felder**: `reference`
 - **Folgeaktion**: `Den Datensatz aktualisieren`
 
@@ -84,7 +84,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Automatische Aktione
 
 - **Name**: `Website Bestellungen bestätigen`
 - **Modell**: `sale.order`
-- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Auslöser**: Bei Erstellung und Bearbeitung
 - **Domain vor Aktualisierung**: `[("website_id", "!=", False)]`
 - **Anzuwenden auf**: `[("state", "=", "sent")]`
 - **Bei der Aktualisierung**: `state`
