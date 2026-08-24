@@ -274,7 +274,7 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsr
 - **Auslöser**: Bei Erstellung und Bearbeitung
 - **Domain vor Aktualisierung**: `[]`
 - **Anwenden auf**: `[("move_type", "=", "out_invoice")]`
-- **Bei der Aktualisierung**: `[]`
+- **Bei der Aktualisierung**: `move_type`
 - **Folgeaktion**: Code ausführen
 
 ```python
