@@ -37,7 +37,7 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 Diese Aktion erstellt eine Berechtigungsgruppe für jede Abteilungsgruppe und synchronisiert die Benutzer der Abteilungsmitglieder.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Abteilungsgruppen synchronisieren`
 - **Modell**: `ir.actions.server`
@@ -103,7 +103,7 @@ Diese geplante Aktion aktualisiert das Ablaufdatum der Datenbank in regelmässig
 Verwenden Sie diese Aktion nur in Testsystemen! Produktive System müssen vor Ablauf des echten Datums lizenziert werden!
 :::
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Ablaufdatum Datenbank erneuern`
 - **Modell**: `ir.actions.server`

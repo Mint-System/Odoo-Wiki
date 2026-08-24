@@ -81,7 +81,7 @@ for rec in records.filtered(lambda r: r.joboffer_id):
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Angebot automatisch bestätigen
 

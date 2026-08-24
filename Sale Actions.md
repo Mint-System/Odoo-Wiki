@@ -221,7 +221,7 @@ for order in records:
 
 Diese geplante Aktion erstellt die Rechnungen der zu abzurechnenden Verkaufsaufträge und berücksichtigt dabei [Sale Invoice Frequency](Sale%20Invoice%20Frequency.md).
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Verkaufsaufträge nach Invervall abrechnen`
 - **Modell**: `ir.actions.server`
@@ -339,7 +339,7 @@ log(message)
 # }
 ```
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Angebot bestätigen und Rechnungen erstellen
 

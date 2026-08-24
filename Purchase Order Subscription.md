@@ -34,4 +34,4 @@ Zeigen Sie eine Bestellung via _Einkauf_ an oder erstellen Sie eine Neue. Im Fel
 
 ### Geplante Aktion "Aktualisiere wiederkehrende Bestellungen" manuell ausführen
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und suchen Sie nach der Aktion _Einkaufsabonnement: Aktualisiere wiederkehrende Bestellungen_. Klicken Sie auf _Manuell Ausführen_.
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und suchen Sie nach der Aktion _Einkaufsabonnement: Aktualisiere wiederkehrende Bestellungen_. Klicken Sie auf _Manuell Ausführen_.

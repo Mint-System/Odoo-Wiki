@@ -109,40 +109,13 @@ for production in records:
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ speichern.
 
-## Automatische Aktionen
-
-### Lot-Nummer generieren
-
-Mit dieser automatischen Aktion wird bei der Bestätigung des Fertigungsauftrag automatisch eine Seriennummmer für das zu fertigende Produkt generiert.
-
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
-
-- **Name**: `Lot-Nummer generieren`
-- **Modell**: `mrp.production`
-- **Auslöser**: Beim Aktualisieren
-- **Trigger-Felder**: `state`
-- **Anzuwenden auf**:
-
-```txt
-["&",["state","in",["confirmed","progress"]],["lot_producing_id","=",False]]
-```
-
-- **Code**:
-
-```python
-record.action_generate_serial()
-```
-
-Beispiel für eine automatische Aktion:
-![](attachments/Fertigung%20Aktionen%20Lot-Nummer%20generieren.png)
-
 ## Geplante Aktionen
 
 ### Material-Reservationen entfernen
 
 Diese geplante Aktion entfernt regelmässig Material-Reservationen auf Fertigungsaufträgen.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Material-Reservationen entfernen`
 - **Modell**: `ir.actions.server`
@@ -175,4 +148,50 @@ if messages and not error_messages:
   log(' '.join(messages))
 if error_messages:
   log(' '.join(error_messages), level='error')
+```
+
+## Automatisierungsregeln
+
+### Los-Nummer generieren
+
+Mit dieser automatischen Aktion wird bei der Bestätigung des Fertigungsauftrag automatisch eine Seriennummmer für das zu fertigende Produkt generiert.
+
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+
+- **Name**: `Los-Nummer generieren`
+- **Modell**: `mrp.production`
+- **Auslöser**: Beim Aktualisieren
+- **Trigger-Felder**: `state`
+- **Anzuwenden auf**:
+
+```txt
+["&",["state","in",["confirmed","progress"]],["lot_producing_id","=",False]]
+```
+
+- **Code**:
+
+```python
+record.action_generate_serial()
+```
+
+Beispiel für eine automatische Aktion:
+
+![](attachments/Fertigung%20Aktionen%20Lot-Nummer%20generieren.png)
+
+### Los-Nummer übertragen
+
+Diese automatische Aktion stellt sicher, dass die zu produzierende Los-Nummer von Fertigungsauftrag auf einen Folgeauftrag übertragen wird. 
+
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
+
+- **Name**: `Los-Nummer übertragen`
+- **Modell**: `mrp.production`
+- **Auslöser**: Beim Erstellung
+- **Anzuwenden auf**: `[]`
+- **Code**:
+
+```python
+for rec in records.filtered("backorder_ids"):
+    lot_producing_id = rec.backorder_ids.mapped("lot_producing_ids")[-1:]
+    rec.write({"lot_producing_ids": lot_producing_id})
 ```

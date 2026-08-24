@@ -227,7 +227,7 @@ Im Versandprozess wird die PDF-Datei erstellt. Wenn Rechnungen als E-Mail versen
 
 Diese geplante Aktion erstellt die PDF-Dateien von Kundenrechnungen, die noch keinen Anhang haben.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `PDF-Datei von Kundenrechnungen vorbereiten`
 - **Modell**: `ir.actions.server`
@@ -247,7 +247,7 @@ for invoice in invoices:
   content, _content_type = env['ir.actions.report']._render_qweb_pdf(invoices_report, res_ids=[invoice.id])
 ```
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Standard-Bargeldrundungsmethode festlegen
 

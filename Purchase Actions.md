@@ -41,7 +41,7 @@ Navigieren Sie nach  _Einstellungen > Technisch > Automation > Serveraktionen_ u
   ```
 
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Bestellfrist festlegen
 
@@ -56,7 +56,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Automation > Automatisierte Akt
 - **Feld**: `Order Deadline (purchase.order)`
 - **Wert**: `datetime.datetime.today() + datetime.timedelta(days=5)`
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Aktivität Rechnung prüfen für Käufer erstellen
 

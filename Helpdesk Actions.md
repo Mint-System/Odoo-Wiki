@@ -40,7 +40,7 @@ for rec in records:
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Bei Verkaufsauftrag ein Ticket erstellen
 

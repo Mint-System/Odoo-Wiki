@@ -30,4 +30,4 @@ Beim Import von Kontoauszügen versucht Odoo die Kontoauszugszeilen automatisch 
 
 ### Automatische Abstimmung manuell ausführen
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und rufen Sie die Aktion _Versuchen Sie, Ihre Kontoauszugszeilen automatisch abzustimmen_ auf. Führen Sie diese Aktion mit _Manuell Ausführen_ aus.
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und rufen Sie die Aktion _Versuchen Sie, Ihre Kontoauszugszeilen automatisch abzustimmen_ auf. Führen Sie diese Aktion mit _Manuell Ausführen_ aus.

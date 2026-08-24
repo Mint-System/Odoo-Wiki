@@ -142,7 +142,7 @@ Dieser Eintrag mit Aktion _Kontextuelle Aktion erstellen_ bestätigen.
 
 Erfassen Sie einen [neuen Aktivitätstyp](Discuss%20Activities.md#Neuer%20Aktivitätstyp%20erfassen). Mit dieser geplanten Aktion können Sie Kontakte, welche diese Aktivität haben archivieren lassen.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Kontakte mit geplanter Aktivität archivieren`
 - **Modell**: `ir.actions.server`
@@ -172,7 +172,7 @@ if partner_ids:
 Die Aktivität auf dem Kontakt wird im Archivierungsvorgang gelöscht.
 :::
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ###  Unternehmen (company_id) bei neuem Kontakt entfernen
 
@@ -185,4 +185,3 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Akt
 - **Folgeaktion**: `Datensatz aktualisieren`
 - **Feld**: `Unternehmen (company_id)`
 - **Wert**: `False`
-

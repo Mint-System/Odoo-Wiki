@@ -290,7 +290,7 @@ Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätig
 
 Das ist eine einfach Lösung um wiederholende Rechnung zu generieren. Mit dem zusätzlichen Feld `x_recurring_inverval` wird geprüft ob die Rechnung wieder fällig ist.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Rechnung mit Abrechnungsintervall generieren`
 - **Modell**: `ir.actions.server`
@@ -354,7 +354,7 @@ for invoice in invoice_ids:
 
 Diese geplante Aktion versendet alle gebuchten und geprüften Rechnungen mit der Standard-E-Mail-Vorlage.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Geprüfte Kundenrechnungen versenden`
 - **Modell**: `ir.actions.server`
@@ -409,7 +409,7 @@ log(message)
 # }
 ```
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Lieferantenrechnung zur Prüfung markieren
 

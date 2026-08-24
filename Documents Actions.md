@@ -84,7 +84,7 @@ Die Aktion mit _Kontextuelle Aktion Erstellen_ bestätigen.
 
 ### Dokumente an Wareneingang zuordnen
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Dokumente an Wareneingang zuordnen`
 - **Modell**: `ir.actions.server`

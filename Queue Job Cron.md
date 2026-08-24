@@ -30,7 +30,7 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ### Geplante Aktion als Job ausführen
 
-Rufen Sie die geplante Aktion unter _Einstellungen > Technisch > Geplante Aktionen_ auf. Aktivieren Sie die Option _als Warteschlangen-Job ausführen_. Wählen Sie Optional den Kanal aus.
+Rufen Sie die geplante Aktion unter _Einstellungen > Technisch > Automatisierungsregeln_ auf. Aktivieren Sie die Option _als Warteschlangen-Job ausführen_. Wählen Sie Optional den Kanal aus.
 
 ### Ausführung als Job testen
 

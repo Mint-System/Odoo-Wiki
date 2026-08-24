@@ -59,7 +59,7 @@ Odoo unterscheidet im wesentlichen zwischen vier Aktionen.
 
 **Serveraktionen**: Für Aktionen verknüpft mit Datenmodellen. Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Serveraktionen_.
 
-**Geplante Aktionen**: Zeitlich geplante Serveraktionen. Navigieren Sie nach _Einstellungen > Technisch > Automatisierung > Geplante Aktionen_.
+**Geplante Aktionen**: Zeitlich geplante Serveraktionen. Navigieren Sie nach _Einstellungen > Technisch > Automatisierung > Automatisierungsregeln_.
 
 **Automatisierte Aktionen**: Aktion bei bestimmten Zuständen auslösen. Navigieren Sie nach _Einstellungen > Technisch > Automatisierung > Automatisierte Aktionen_.
 
@@ -193,7 +193,7 @@ Mit diesem Knopf können Sie den E-Mail-Dialog öffnen.
 
 ![Entwicklung Aktionen Compose E-Mail](attachments/Entwicklung%20Aktionen%20Compose%20E-Mail.gif)
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Beim Aktualisieren eine Validierung ausführen
 

@@ -34,7 +34,7 @@ records.write({'state': 'draft', 'last_state_change': False})
 
 Diese Serveraktion entfernt Warenkörbe, die älter als 1 Woche sind, dem Benutzer _Public user_ gehören und im Status _Angebot_ sind.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Warenkörbe bereinigen`
 - **Modell**: `ir.actions.server`
@@ -56,7 +56,7 @@ log("Delete sale order carts: %s" %  delete_cart_ids.mapped("name"), level='info
 delete_cart_ids.unlink()
 ```
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Website Zahlungsreferenz entfernen
 

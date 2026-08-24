@@ -13,7 +13,7 @@ partner: Mint System
 
 {{ $frontmatter.description }}
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Qualitätskontrolle archivieren
 
