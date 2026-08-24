@@ -265,16 +265,17 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsr
 - **Folgeaktion**: Daten aktualisieren
 - **Journalbuchung aktualisieren**: Bargeldrundungsmethode = Rundung auf 5 Rappen
 
-### Follower von Auftrag auf Rechnung entfernen
+### Follower aus Auftrag auf Kundenrechnung entfernen
 
 Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
-- **Name**: `Follower von Auftrag auf Rechnung entfernen`
+- **Name**: `Follower aus Auftrag auf Kundenrechnung entfernen`
 - **Modell**: `account.move`
 - **Auslöser**: Bei Erstellung und Bearbeitung
 - **Domain vor Aktualisierung**: `[]`
-- **Anwenden auf**: `[]`
-- **Code**:
+- **Anwenden auf**: `[("move_type", "=", "out_invoice")]`
+- **Bei der Aktualisierung**: `[]`
+- **Folgeaktion**: Code ausführen
 
 ```python
 for rec in records:
