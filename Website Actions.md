@@ -91,3 +91,44 @@ Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Automatische Aktione
 - **Folgeaktion**: Datensatz aktualisieren
 	- **Aktion**: Berechnen
 	- **Code**: `record.action_confirm()`
+
+### Unternehmenstyp vom Strassennamen abtrennen
+
+Dient dazu, die `company_type`-Information aus dem Web-Adressformular, die per "Huckepack-Verfahren" an das Feld `street2` gehängt wurde, abzutrennen und abzuspeichern. Die Huckepack-Methode ist im Snippet `mint_system.portal.address_form_fields.add_company_type.xml` als JavaScript eingerichtet. Sie sorgt dafür, dass das `street2`-Feld die Information zum company type angehängt bekommt als hidden input: `<Street2>###<Company Type>`
+
+Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Automatische Aktionen_ und erstellen Sie einen neuen Eintrag:
+
+- **Name**: `Unternehmenstyp vom Strassennamen abtrennen`
+- **Modell**: `res.partner`
+- **Auslöser**: Bei Erstellung und Bearbeitung
+- **Domain vor Aktualisierung**: `[]`
+- **Anzuwenden auf**: `[]`
+- **Bei der Aktualisierung**: `street2`
+- **Folgeaktion**: Code ausführen
+
+```python
+for record in records:
+    if record.street2 and '###' in record.street2:
+        clean, _, ctype = record.street2.rpartition('###')
+        if not record.parent_id:
+            record.write({'street2': clean})
+            continue
+        record.write({
+            'street2': clean,
+            'is_company': ctype == 'company',
+        })
+```
+
+::: tip
+Hat der Kontakt kein Parent, wird der Unternehmenstyp nicht geändert; soll diese Einschränkung nicht gelten, lautet der Code:
+
+```python
+for record in records:
+    if record.street2 and '###' in record.street2:
+        clean, _, ctype = record.street2.rpartition('###')
+        record.write({
+            'street2': clean,
+            'is_company': ctype == 'company',
+        })
+```
+:::
