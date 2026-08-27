@@ -24,7 +24,7 @@ Typischerweise läuft die Odoo Mail-Kommunikation in diesem Schema ab:
 4. Odoo versendet die E-Mail über den Mail-Provider (Ausgehender E-Mail-Server)
 5. Die EmpfängerIn erhält die E-Mail und erstellt eine Antwort
 6. Odoo prüft das Postfach und findet eine Antwort (Eingehender E-Mail-Server)
-7. Odoo prüft die Antwort auf Aliase und führt eine entsprechende Aktion aus
+7. Odoo prüft die Antwort auf Aliase und führt die registriete Aktion aus
 8. Odoo prüft die Antwort auf Verknüpfungen mit einer bestehenden Konversation
 9. Odoo fügt die Antwort der Konversation hinzu (EmpfängerIn wird abonniert)
 10. Die Abonnenten erhalten die Antwort als Benachrichtigung über den entsprechenden Kanal
