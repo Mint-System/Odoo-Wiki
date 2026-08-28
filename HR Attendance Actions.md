@@ -180,7 +180,7 @@ In der Listenansicht der Anwesenheiten erscheint nun in der Auswahl _Aktion_ das
 
 Mit dieser geplanten Aktion werden registrierte Überstunden der Mitarbeitenden mit einem Arbeitsstundensoll von 0 am Ende des Monats entfernt.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Überstunden entfernen`
 - **Modell**: `ir.actions.server`
@@ -221,7 +221,7 @@ if messages:
 
 Mit dieser geplanten Aktion werden die Überstunden anhand der Anwesenheit neu berechnet.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Überstunden aktualisieren`
 - **Modell**: `ir.actions.server`
@@ -243,13 +243,13 @@ attendances = env['hr.attendance'].search([
 attendances._update_overtime()
 ```
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Urlaubsanspruch Überstunden aktualisieren
 
 Mit dieser Aktion wird der Anspruch der Abwesenheitsart mit der externen ID `__custom__.holiday_status_extra_hours` beim Erstellen und Aktualisieren der Anwesenheit aktualisiert.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Urlaubsanspruch Überstunden aktualisieren`
 - **Modell**: `hr.attendance`

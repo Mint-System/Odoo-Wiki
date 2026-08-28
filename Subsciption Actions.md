@@ -109,7 +109,7 @@ Diese geplante Aktion prüft das nächste Abrechnungsdatum und verschiebt die Ab
 
 Erstellen Sie eine externe ID `__custom__.reminder_stage1` und `__custom__.reminder_stage2` für die ausgewählten Spalten.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Verkaufsabonnement: Vor Ablauf in Spalte verschieben`
 - **Modell**: `ir.actions.server`
@@ -167,7 +167,7 @@ Diese geplante Aktion prüft das nächste Abrechnungsdatum der Abonnemente, erst
 - Der Verkaufsauftrag ist im Status _Verkaufsauftrag_
 - Das nächste Abrechnungsdatum liegt zwischen Heute und plus 6 Wochen
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Verkaufsabonnement: Vor Abrechnung verlängern`
 - **Modell**: `ir.actions.server`
@@ -242,7 +242,7 @@ Diese geplante Aktion versendet eine bestimmte Anzahl Tage vor Erreichung des Ab
 - Das Ablaufdatum ist Heute in 2 Wochen
 - Der Verkaufsauftrag hat Lizenzen
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Verkaufsabonnement: Reminder Verlängerung versenden`
 - **Modell**: `ir.actions.server`

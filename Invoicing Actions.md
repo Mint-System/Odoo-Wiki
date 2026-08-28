@@ -227,7 +227,7 @@ Im Versandprozess wird die PDF-Datei erstellt. Wenn Rechnungen als E-Mail versen
 
 Diese geplante Aktion erstellt die PDF-Dateien von Kundenrechnungen, die noch keinen Anhang haben.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `PDF-Datei von Kundenrechnungen vorbereiten`
 - **Modell**: `ir.actions.server`
@@ -247,11 +247,11 @@ for invoice in invoices:
   content, _content_type = env['ir.actions.report']._render_qweb_pdf(invoices_report, res_ids=[invoice.id])
 ```
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Standard-Bargeldrundungsmethode festlegen
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Standard-Bargeldrundungsmethode festlegen`
 - **Modell**: `account.move`
@@ -264,3 +264,22 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Ak
 
 - **Folgeaktion**: Daten aktualisieren
 - **Journalbuchung aktualisieren**: Bargeldrundungsmethode = Rundung auf 5 Rappen
+
+### Follower aus Auftrag auf Kundenrechnung entfernen
+
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
+
+- **Name**: `Follower aus Auftrag auf Kundenrechnung entfernen`
+- **Modell**: `account.move`
+- **Auslöser**: Bei Erstellung und Bearbeitung
+- **Domain vor Aktualisierung**: `[]`
+- **Anwenden auf**: `[("move_type", "=", "out_invoice")]`
+- **Bei der Aktualisierung**: `move_type`
+- **Folgeaktion**: Code ausführen
+
+```python
+for rec in records:
+  unsubscribe_ids = rec.invoice_line_ids.sale_line_ids.order_id.user_id.partner_id
+  if unsubscribe_ids:
+    rec.message_unsubscribe(unsubscribe_ids.ids)
+```

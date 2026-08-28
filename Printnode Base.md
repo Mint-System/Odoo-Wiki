@@ -199,7 +199,7 @@ Auf Transfers _Lager > Vorgänge > Transfers_ können Sie eine bestimmte Anzahl 
 
 ### Rüstschein drucken
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Rüstschein drucken`\
 Modell: `ir.actions.server`\
@@ -249,7 +249,7 @@ picking_ids.write({'printed': True})
 
 ### Print Scenario Datum aktualisieren
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Print Scenario Datum aktualisieren`\
 Modell: `ir.actions.server`\

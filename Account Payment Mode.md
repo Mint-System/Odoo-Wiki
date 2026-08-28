@@ -47,11 +47,11 @@ Navigieren Sie nach _Buchhaltung > Konfiguration > Verwaltung > Zahlungsmodi_. E
 
 Navigieren Sie nach _Buchhaltung > Lieferanten > Rechnungen_ und zeigen Sie eine Lieferantenrechnung an. Treffen Sie im Feld _Zahlungsmodus_ eine Auswahl.
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Zahlungsmethode von Rechnung auf Zahlung übertragen
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Zahlungsmethode von Rechnung auf Zahlung übertragen`\
 Modell: `account.payment.register`\

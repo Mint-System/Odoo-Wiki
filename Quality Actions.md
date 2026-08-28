@@ -13,13 +13,13 @@ partner: Mint System
 
 {{ $frontmatter.description }}
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Qualitätskontrolle archivieren
 
 Mit dieser Aktion werden Qualitätskontrolle vom Typ _Register Consumed Materials_ bei Erstellung archiviert.
 
-Navigieren Sie nach _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ und erstellen Sie den folgenden Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automation > Automatisierungsregeln_ und erstellen Sie den folgenden Eintrag:
 
 - **Name**: `Qualitätskontrolle entfernen`
 - **Modell**: `quality.check`

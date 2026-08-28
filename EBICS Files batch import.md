@@ -31,7 +31,7 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ### Automatischer Import aktivieren
 
-Die Erweiterung installiert eine geplante Aktion als Vorlage. Zeigen Sie die geplante Aktion _EBICS Batch Import_ unter _Einstellungen > Technisch > Geplante Aktionen_ an. Aktivieren Sie die Aktion und legen Sie als _Zeiplaner-Benutzer_ einen Benutzer fest, der Zugriff auf die EBICS-Konfigurationen hat.
+Die Erweiterung installiert eine geplante Aktion als Vorlage. Zeigen Sie die geplante Aktion _EBICS Batch Import_ unter _Einstellungen > Technisch > Automatisierungsregeln_ an. Aktivieren Sie die Aktion und legen Sie als _Zeiplaner-Benutzer_ einen Benutzer fest, der Zugriff auf die EBICS-Konfigurationen hat.
 
 Kopieren Sie den folgenden Code in das Feld _Python-Code_:
 

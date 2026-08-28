@@ -58,7 +58,7 @@ Diese geplante Serveraktion prüft die Liste der Mails. Mails, die im Status _Au
 
 Mit dieser automatischen Aktion wird der Standard-Follower (`partner_id` auf Dokument) beim Versand einer Nachricht aus der Liste der Follower gelöscht.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Standard-Follower bei Versand von Nachricht entfernen`
 - **Modell**: `mail.message`

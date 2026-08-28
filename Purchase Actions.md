@@ -41,13 +41,13 @@ Navigieren Sie nach  _Einstellungen > Technisch > Automation > Serveraktionen_ u
   ```
 
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Bestellfrist festlegen
 
 Mit Aktionen können Felder mit einem bestimmten Default-Wert beschrieben werden. Im folgenden Beispiel wird das Feld _Order Deadline_ auf Angebotsanfragen auf das Datum _heute + 5 Tage_ gesetzt.
 
-Navigieren Sie nach _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ und erstellen Sie den folgenden Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automation > Automatisierungsregeln_ und erstellen Sie den folgenden Eintrag:
 
 - **Name**: `Bestellfrist festlegen`
 - **Modell**: `Beschaffungsauftrag`
@@ -56,13 +56,13 @@ Navigieren Sie nach _Einstellungen > Technisch > Automation > Automatisierte Akt
 - **Feld**: `Order Deadline (purchase.order)`
 - **Wert**: `datetime.datetime.today() + datetime.timedelta(days=5)`
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Aktivität Rechnung prüfen für Käufer erstellen
 
 Mit dieser automatischen Aktion wird beim anwählen der Option _Zum Überprüfen_ auf einer Rechnung mit einem Einkauf eine Aktivität zur Prüfung der Rechnung dem Käufer zugeordnet.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Aktivität Rechnung prüfen für Käufer erstellen`
 - **Modell**: `acclount.move`
@@ -90,7 +90,7 @@ for rec in records:
 
 - **Name**: `Gelieferte Menge eintragen`
 - **Modell**: `purchase.order`
-- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Auslöser**: Bei Erstellung und Bearbeitung
 - **Trigger-Felder**: `state`
 - **Anzuwenden auf**: `[("state", "=", "purchase")]`
 - **Folgeaktion**: Code ausführen

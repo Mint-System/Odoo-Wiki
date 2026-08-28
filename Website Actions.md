@@ -34,7 +34,7 @@ records.write({'state': 'draft', 'last_state_change': False})
 
 Diese Serveraktion entfernt Warenkörbe, die älter als 1 Woche sind, dem Benutzer _Public user_ gehören und im Status _Angebot_ sind.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Warenkörbe bereinigen`
 - **Modell**: `ir.actions.server`
@@ -56,7 +56,7 @@ log("Delete sale order carts: %s" %  delete_cart_ids.mapped("name"), level='info
 delete_cart_ids.unlink()
 ```
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Website Zahlungsreferenz entfernen
 
@@ -66,7 +66,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Automatische Aktione
 
 - **Name**: `Website Zahlungsreferenz entfernen`
 - **Modell**: `sale.order`
-- **Auslöser**: `Bei Erstellung und Aktualisierung`
+- **Auslöser**: `Bei Erstellung und Bearbeitung`
 - **Trigger-Felder**: `reference`
 - **Folgeaktion**: `Den Datensatz aktualisieren`
 
@@ -84,10 +84,51 @@ Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Automatische Aktione
 
 - **Name**: `Website Bestellungen bestätigen`
 - **Modell**: `sale.order`
-- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Auslöser**: Bei Erstellung und Bearbeitung
 - **Domain vor Aktualisierung**: `[("website_id", "!=", False)]`
 - **Anzuwenden auf**: `[("state", "=", "sent")]`
 - **Bei der Aktualisierung**: `state`
 - **Folgeaktion**: Datensatz aktualisieren
 	- **Aktion**: Berechnen
 	- **Code**: `record.action_confirm()`
+
+### Unternehmenstyp vom Strassennamen abtrennen
+
+Dient dazu, die `company_type`-Information aus dem Web-Adressformular, die per "Huckepack-Verfahren" an das Feld `street2` gehängt wurde, abzutrennen und abzuspeichern. Die Huckepack-Methode ist im Snippet [Add Company Type](https://odoo.build/snippets/portal.html#add-company-type) als JavaScript eingerichtet. Sie sorgt dafür, dass das `street2`-Feld die Information zum company type angehängt bekommt als hidden input: `<Street2>###<Company Type>`
+
+Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Automatische Aktionen_ und erstellen Sie einen neuen Eintrag:
+
+- **Name**: `Unternehmenstyp vom Strassennamen abtrennen`
+- **Modell**: `res.partner`
+- **Auslöser**: Bei Erstellung und Bearbeitung
+- **Domain vor Aktualisierung**: `[]`
+- **Anzuwenden auf**: `[]`
+- **Bei der Aktualisierung**: `street2`
+- **Folgeaktion**: Code ausführen
+
+```python
+for record in records:
+    if record.street2 and '###' in record.street2:
+        clean, _, ctype = record.street2.rpartition('###')
+        if not record.parent_id:
+            record.write({'street2': clean})
+            continue
+        record.write({
+            'street2': clean,
+            'is_company': ctype == 'company',
+        })
+```
+
+::: tip
+Hat der Kontakt kein Parent, wird der Unternehmenstyp nicht geändert; soll diese Einschränkung nicht gelten, lautet der Code:
+
+```python
+for record in records:
+    if record.street2 and '###' in record.street2:
+        clean, _, ctype = record.street2.rpartition('###')
+        record.write({
+            'street2': clean,
+            'is_company': ctype == 'company',
+        })
+```
+:::

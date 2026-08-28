@@ -42,7 +42,7 @@ Diese Funktion wurde Teil von [Project Menu](Project%20Menu.md).
 
 Mit dieser geplanten Aktion generiert Odoo für jedes Projekt einen Menüpunkt. Damit können Sie schneller zwischen Projektaufgaben navigieren.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Navigation: Menüpunkte für Projekte generieren`
 - **Modell**: `ir.actions.server`

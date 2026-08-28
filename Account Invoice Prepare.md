@@ -32,7 +32,7 @@ Navigieren Sie nach _Buchhaltung > Kunden > Ausgangsrechnungen_ und markieren Si
 
 ### Rechnungsstellung: PDF-Dateien erneuern
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 Name der Aktion: `Rechnungsstellung: PDF-Dateien erneuern`\
 Modell: `ir.actions.server`\

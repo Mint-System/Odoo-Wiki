@@ -290,7 +290,7 @@ Die Aktion speichern und mit dem Knopf _Kontextuelle Aktion erstellen_ bestätig
 
 Das ist eine einfach Lösung um wiederholende Rechnung zu generieren. Mit dem zusätzlichen Feld `x_recurring_inverval` wird geprüft ob die Rechnung wieder fällig ist.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Rechnung mit Abrechnungsintervall generieren`
 - **Modell**: `ir.actions.server`
@@ -354,7 +354,7 @@ for invoice in invoice_ids:
 
 Diese geplante Aktion versendet alle gebuchten und geprüften Rechnungen mit der Standard-E-Mail-Vorlage.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Geprüfte Kundenrechnungen versenden`
 - **Modell**: `ir.actions.server`
@@ -409,13 +409,13 @@ log(message)
 # }
 ```
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Lieferantenrechnung zur Prüfung markieren
 
 Mit dieser automatischen Aktion wird die Option _Zum Überprüfen_ bei der Erstellung einer Lieferantenrechnung aktiviert.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Lieferantenrechnung zur Prüfung markieren`
 - **Modell**: `account.move`
@@ -435,7 +435,7 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Akt
 
 Mit dieser automatischen Aktion werden beim Erstellen einer Kundenrechnung alle Notiz- und Abschnittszeilen entfernt.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Notizen und Abschnitte enfernen`
 - **Modell**: `account.move`

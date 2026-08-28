@@ -18,6 +18,10 @@ partner: Odoo S.A.
 | --------------------------------------------------------- | ------------------------------------------------ |
 | [Datenbereinigung Aktionen](Data%20Cleaning%20Actions.md) | Aktionen in der Datenbereinigung automatisieren. |
 
+## Beschreibung
+
+Modul kann anhand von Filter-Regeln Duplikate zusammenführen, Datensätze archivieren/löschen und das Format von Textinhalten bereinigen.
+
 ## Verwendung
 
 ### Deduplizierungs-Regel einrichten 

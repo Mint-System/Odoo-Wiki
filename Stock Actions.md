@@ -487,7 +487,7 @@ Zur Ausführung dieses Berichts müssen Sie [Superuser werden](Settings.md#Super
 
 Die Aktion lädt alle Produklieferungen, welche noch keine Losnummer haben und vergleicht diese mit Produktzugängen. Wenn es einen Produkteingang gibt, der bis einer Woche vor der Lieferung eingeht, wird die Losnummer des Zugang auf die Lieferung übertragen.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Los aus Anlieferung zuweisen`
 - **Modell**: `ir.actions.server`
@@ -550,7 +550,7 @@ if messages:
 
 Die Aktion lädt alle Produklieferungen, welche noch keine Losnummer haben und vergleicht diese mit Produktzugängen. Wenn es einen Produkteingang gibt, der bis einer Woche vor der Lieferung eingeht, wird die Losnummer des Zugang auf die Lieferung übertragen.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Reservierung für Lieferperiode aktualisieren`
 - **Modell**: `ir.actions.server`
@@ -609,7 +609,7 @@ if messages:
 
 Diese Aktion prüft ausgehende Lieferungen und setzt die erledigte Menge gemäss Bedarf ohne Berücksichtigung von Materialreservationen.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Erledigte Menge aktualisieren`
 - **Modell**: `ir.actions.server`
@@ -662,7 +662,7 @@ for line in fix_move_lines:
 
 Diese Aktion versetzt Lieferungen im Status _Waiting_ in den Status _Assigned._
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Wartende Aufträge bestätigen`
 - **Modell**: `ir.actions.server`
@@ -690,7 +690,7 @@ pickings.write({'state': 'assigned'})
 
 Diese Aktion prüft ausgehende Lieferungen und setzt die erledigte Menge gemäss Bedarf ohne Berücksichtigung von Materialreservationen.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Versandprodukte aktualisieren`
 - **Modell**: `ir.actions.server`
@@ -723,7 +723,7 @@ if transport_moves:
 
 ### Los aus Vorhersage zuweisen
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Lot aus Vorhersage zuweisen`
 - **Modell**: `ir.actions.server`
@@ -764,7 +764,7 @@ for move_line in fix_move_lines:
 
 ### Negativer Bestand bereinigen
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Negativer Bestand bereinigen`
 - **Modell**: `ir.actions.server`
@@ -794,7 +794,7 @@ if quant_ids:
 
 Diese geplante Aktion aktualisiert regelmässig das Los in Produktlieferungen für ausgewählte Produkte. Dabei wird die erledigte Menge beibehalten.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Los in Produktlieferungen aktualisieren`
 - **Modell**: `ir.actions.server`
@@ -851,7 +851,7 @@ if error_messages:
 
 Diese geplante Aktion erledigt markierte Aufträge sobald die geplante Zeit eingetroffen ist.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Transfers auf geplantes Datum erledigen`
 - **Modell**: `ir.actions.server`
@@ -896,7 +896,7 @@ if error_messages:
 
 Diese geplante Aktion setzt die Menge von markierte Chargen auf Null sobald das Ablaufdatum erreicht ist.
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Abgelaufene Bestände entfernen`
 - **Modell**: `ir.actions.server`
@@ -944,13 +944,13 @@ if error_msg:
 
 Diese geplante Aktion führt täglich die die [Nachbestellregeln aus](Stock%20Inventory.md#Nachbestellregeln%20auslösen). Die Aktion wird im Hintergrund in einem separaten Datenbank-Cursor ausgeführt.
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Lieferung erledigen wenn bereit
 
 Mit dieser automatischen Aktion wird eine Lieferung im Status _Bereit_ die erledigte Menge gleich der Bedarfsmenge gesetzt und erledigt.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Lieferung erledigen wenn bereit`
 - **Modell**: `stock.picking`
@@ -976,11 +976,11 @@ for picking in records:
 
 Mit dieser automatischen Aktion wird auf Verpackung das Liefergewicht aus dem geschätzten Produktgewicht und dem Gewicht der Verpackung berechnet.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Liefergewicht von Verpackung berechnen`
 - **Modell**: `stock.quant.package`
-- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Auslöser**: Bei Erstellung und Bearbeitung
 - **Trigger-Felder**:
 	- `​estimated_pack_weight_kg`
 	- `pack_weight`

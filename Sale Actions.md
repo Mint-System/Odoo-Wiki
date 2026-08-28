@@ -221,7 +221,7 @@ for order in records:
 
 Diese geplante Aktion erstellt die Rechnungen der zu abzurechnenden Verkaufsaufträge und berücksichtigt dabei [Sale Invoice Frequency](Sale%20Invoice%20Frequency.md).
 
-Navigieren Sie nach _Einstellungen > Technisch > Geplante Aktionen_ und erstellen Sie einen neuen Eintrag:
+Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 
 - **Name**: `Verkaufsaufträge nach Invervall abrechnen`
 - **Modell**: `ir.actions.server`
@@ -339,17 +339,17 @@ log(message)
 # }
 ```
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Angebot bestätigen und Rechnungen erstellen
 
 Mit dieser automatischen Aktion wird ein Angebot mit einem bestimmten Attribut (Beispiel: `x_as4import`) automatisch bestätigt. Rechnungen werden erstellt und ebenfalls bestätigt.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Angebot bestätigen und Rechnungen erstellen`
 - **Modell**: `sale.order`
-- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Auslöser**: Bei Erstellung und Bearbeitung
 - **Trigger-Felder**: `x_as4import`
 - **Domain vor Aktualisierung**: `[("x_as4import", "!=", True)]`
 - **Anzuwenden auf**: `[("x_as4import", "=", True)]`
@@ -363,11 +363,11 @@ for invoice in records.invoice_ids:
   invoice.action_post()
 ```
 
-### Abonnemente auf Angebot entfernen
+### Follower auf Angebot entfernen
 
-- **Name**: `Abonemente auf Angebot entfernen`
+- **Name**: `Follower auf Angebot entfernen`
 - **Modell**: `sale.order`
-- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Auslöser**: Bei Erstellung und Bearbeitung
 - **Code**:
 
 ```python
@@ -380,7 +380,7 @@ for rec in records:
 
 ### Angebot bestätigen
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Angebot bestätigen`
 - **Modell**: `sale.order`
@@ -397,7 +397,7 @@ records._compute_amounts()
 
 ### Rechnung erstellen
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Rechnung erstellen`
 - **Modell**: `sale.order`
@@ -417,7 +417,7 @@ records._compute_invoice_status()
 
 ### Standard-Zahlungsbedingungen festlegen
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Standard-Zahlungsbedingungen festlegen`
 - **Modell**: `sale.order`
@@ -432,11 +432,11 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Akt
 
 ### Verkäufer entfernen
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Verkäufer entfernen`
 - **Modell**: `sale.order`
-- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Auslöser**: Bei Erstellung und Bearbeitung
 - **Anzuwenden auf**: `[("user_id", "!=", False)]`
 - **Folgeaktion**: Den Datensatz aktualisieren
 - **Zu schreibende Daten**:
@@ -447,11 +447,11 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Akt
 
 ### Standard-Verkaufsteam festlegen
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Standard-Verkaufsteam festlegen`
 - **Modell**: `sale.order`
-- **Auslöser**: Bei Erstellung und Aktualisierung
+- **Auslöser**: Bei Erstellung und Bearbeitung
 - **Auslöser**: -Feld**: `recurrence_id`
 - **Anzuwenden auf**: `[("recurrence_id", "!=", False)]`
 - **Folgeaktion**: Den Datensatz aktualisieren
@@ -463,7 +463,7 @@ Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Akt
 
 ### Provision bei Erneuerung entfernen
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 - **Name**: `Provision bei Erneuerung entfernen`
 - **Modell**: `sale.order`

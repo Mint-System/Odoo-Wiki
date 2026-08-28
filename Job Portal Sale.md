@@ -81,17 +81,17 @@ for rec in records.filtered(lambda r: r.joboffer_id):
 
 Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann speichern.
 
-## Automatische Aktionen
+## Automatisierungsregeln
 
 ### Angebot automatisch bestätigen
 
 Mit dieser automatischen Aktion wird ein Angebot mit einem bestimmten Attribut (Beispiel: `partner_id.address_checked`) automatisch bestätigt.
 
-Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierte Aktionen_ einen Eintrag mit diesen Werten:
+Erstellen Sie unter _Einstellungen > Technisch > Automation > Automatisierungsregeln_ einen Eintrag mit diesen Werten:
 
 Name der Aktion: `Angebot automatisch bestätigen`\
 Modell: `sale.order`\
-Auslöser: Bei Erstellung und Aktualisierung\
+Auslöser: Bei Erstellung und Bearbeitung\
 Trigger-Felder: `partner_id`\
 Domain vor Aktualisierung: `[("partner_id.stage_id.code", "!=", "checked")]`\
 Anzuwenden auf: `["&", ("partner_invoice_id.stage_id.code", "=", "checked"), "&", ("joboffer_id", "!=", False), "&", ("joboffer_id.is_created_by_gsi", "!=", True), ("joboffer_id.discount", "=", False)]`\
@@ -109,7 +109,7 @@ Mit dieser automatisierten Aktion wird für einen Kontakt automatisch ein Abonne
 
 Name der Aktion: `Abonnement für Kontakt anlegen und bestätigen`\
 Modell: `res.partner`\
-Auslöser: Bei Erstellung und Aktualisierung\
+Auslöser: Bei Erstellung und Bearbeitung\
 Auslöser-Felder: `backup_membership`\
 Anwenden auf: `[("backup_membership", "!=", False)]`
 Python Code:
