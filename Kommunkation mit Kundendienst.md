@@ -1,12 +1,12 @@
 ---
-title: Kommunkation mit Kundendienst
+title: Kommunkation im Kundendienst
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
 prev: ./best-practice
 partner: Mint System
 ---
 
-# Kommunkation mit Kundendienst
+# Kommunkation im Kundendienst
 
 Grundsätzlich kommuniziert man in der Kundendienst-App ähnlich wie es [Kommunikation mit Odoo](Best%20Practice%20Communication%20with%20Odoo.md) beschreibt. Jedoch gehen wir hier noch mehr ins Details.
 
