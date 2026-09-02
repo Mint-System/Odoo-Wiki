@@ -28,7 +28,7 @@ In der Fertigung werden Metallbleche in der Einheit mm2 verbaut. Eingekauft werd
 
 Damit man Packweise mit nur einer Etikette Material einbuchen kann, aber beim Konsumieren nicht das gesamte Pack konsumieren muss, erstellt man eine neue Mengeneinheit.
 
-![](attachments/pExplanation%20Mengeneinheiten%20Pack%2050.png)
+![](attachments/Explanation%20Mengeneinheiten%20Pack%2050.png)
 
 Das Material wird zur Mengenheinheit _Pack 50_ gelagert. Konsumiert man eine Teilmenge, stellt man die Mengenheit auf _Unit_ um. Dadurch wird der entsprechende Faktor (hier 50) angewendet.
 
