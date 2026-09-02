@@ -24,37 +24,37 @@ Website: <https://www.odoo.com/de_DE/app/invoicing>
 
 ## Erweiterungen
 
-| Erweiterung                                                                                 | Beschreibung                                                                                       |     |
-| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --- |
-| [Account Currency Communication](Account%20Currency%20Communication.md)                     | Legt den Kommunikations-Standard auf der Währung fest.                                             |     |
-| [Account Invoice Carrier](Account%20Invoice%20Carrier.md)                                   | Auslieferungsmethode auf Rechnung hinterlegen.                                                     |     |
-| [Account Invoice Change Currency](Account%20Invoice%20Change%20Currency.md)                 | Rechnungsbeträge und andere Währung umrechnen.                                                     |     |
-| [Account Invoice Comment](Account%20Invoice%20Comment.md)                                   | Kommentarfeld auf Rechnung.                                                                        |     |
-| [Account Invoice Detail](Account%20Invoice%20Detail.md)                                     | Verkaufskontakt auf Rechnung einblenden.                                                           |     |
-| [Account Invoice Move Date](Account%20Invoice%20Move%20Date.md)                             | Buchungs- und Rechnungsdatum unabhängig definieren.                                                |     |
-| [Account Invoice Multiline Ref](Account%20Invoice%20Multiline%20Ref.md)                     | Kundenreferenz auf Verkaufsauftrag und Rechnung mit mehreren Zeilen.                               |     |
-| [Account Invoice Notes](Account%20Invoice%20Notes.md)                                       | Zusätzliche Header und Footer Notizen kopiert von Verkaufsauftrag.                                 |     |
-| [Account Invoice Outstanding Credit](Account%20Invoice%20Outstanding%20Credit.md)           | Filtern Sie Kundenrechnungen mit offenen Gutschriften.                                             |     |
-| [Account Invoice Overdue Reminder](Account%20Invoice%20Overdue%20Reminder.md)               | Einfache Lösung zum Versenden von Zahlungserinnerungen.                                            |     |
-| [Account Invoice Prepare](Account%20Invoice%20Prepare.md)                                   | Die PDF Rechnung im Anhang speichern und laden.                                                    |     |
-| [Account Invoice Sale Partner](Account%20Invoice%20Sale%20Partner.md)                       | Verkaufsadresse auf Rechnung festlegen.                                                            |     |
-| [Account Invoice Select Bank](Account%20Invoice%20Select%20Bank.md)                         | Bankkonto anhand Währung auswählen.                                                                |     |
-| [Account Invoice Show Currency Rate](Account%20Invoice%20Show%20Currency%20Rate.md)         | Währungskurs auf Rechnungszeile anzeigen.                                                          |     |
-| [Account Invoice Triple Discount](Account%20Invoice%20Triple%20Discount.md)                 | Mehrere Rabatte auf der Rechungszeile.                                                             |     |
-| [Account Move Invoice Partner](Account%20Move%20Invoice%20Partner.md)                       | Separate Rechnungsadresse auf Rechnung festlegen.                                                  |     |
-| [Account Move Line Description](Account%20Move%20Line%20Description.md)                     | Produktname ohne Referenz in Beschreibung Rechnungszeile übertragen.                               |     |
-| [Account Move Send Check](Account%20Move%20Send%20Check.md)                                 | Zeigt Hinweis ob Rechnung versendet wird oder wurde in Senden-Dialog.                              |     |
-| [Account Sale Timesheet Report](Account%20Sale%20Timesheet%20Report.md)                     | Zeiterfassungsbericht für Rechnung.                                                                |     |
-| [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                       | PDF-Dokumenten von Rechnungen zusammenführen.                                                      |     |
-| [Purchase Invoice Prepare Partner](Purchase%20Invoice%20Prepare%20Partner.md)               | Kontakte aus Bestellung auf Rechnung kopieren.                                                     |     |
-| [Sale Invoice Carrier](Sale%20Invoice%20Carrier.md)                                         | Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus Verkaufsaufträgen übertragen. |     |
-| [Sale Invoice Cash Rounding Default](Sale%20Invoice%20Cash%20Rounding%20Default.md)         | Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.              |     |
-| [Sale Invoice Frequency](Sale%20Invoice%20Frequency.md)                                     | Verrechnungsintervalle auf Kontakte und Verkaufsaufträge.                                          |     |
-| [Sale Invoice Ignore Ref](Sale%20Invoice%20Ignore%20Ref.md)                                 | Zahlungsreferenz bei Abrechnung nicht auf Rechnung übertragen.                                     |     |
-| [Sale Invoice Line Description](Sale%20Invoice%20Line%20Description.md)                     | Buchungszeilen generiert aus Verkaufsaufträgen enthalten nur den Anzeigenamen des Produkts.        |     |
-| [Sale Invoice Prepare Bank](Sale%20Invoice%20Prepare%20Bank.md)                             | Bankkonto anhand Währung auswählen.                                                                |     |
-| [Sale Invoice Prepare Partner](Sale%20Invoice%20Prepare%20Partner.md)                       | Kontakte aus Verkaufsauftrag auf Rechnung kopieren.                                                |     |
-| [Sale Order Invoicing Grouping Criteria](Sale%20Order%20Invoicing%20Grouping%20Criteria.md) | Kriterien zur Gruppierung in der Rechnungstellung festlegen.                                       |     |
+| Erweiterung                                                                                 | Beschreibung                                                                                       |
+| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| [Account Currency Communication](Account%20Currency%20Communication.md)                     | Legt den Kommunikations-Standard auf der Währung fest.                                             |
+| [Account Invoice Carrier](Account%20Invoice%20Carrier.md)                                   | Auslieferungsmethode auf Rechnung hinterlegen.                                                     |
+| [Account Invoice Change Currency](Account%20Invoice%20Change%20Currency.md)                 | Rechnungsbeträge und andere Währung umrechnen.                                                     |
+| [Account Invoice Comment](Account%20Invoice%20Comment.md)                                   | Kommentarfeld auf Rechnung.                                                                        |
+| [Account Invoice Detail](Account%20Invoice%20Detail.md)                                     | Verkaufskontakt auf Rechnung einblenden.                                                           |
+| [Account Invoice Move Date](Account%20Invoice%20Move%20Date.md)                             | Buchungs- und Rechnungsdatum unabhängig definieren.                                                |
+| [Account Invoice Multiline Ref](Account%20Invoice%20Multiline%20Ref.md)                     | Kundenreferenz auf Verkaufsauftrag und Rechnung mit mehreren Zeilen.                               |
+| [Account Invoice Notes](Account%20Invoice%20Notes.md)                                       | Zusätzliche Header und Footer Notizen kopiert von Verkaufsauftrag.                                 |
+| [Account Invoice Outstanding Credit](Account%20Invoice%20Outstanding%20Credit.md)           | Filtern Sie Kundenrechnungen mit offenen Gutschriften.                                             |
+| [Account Invoice Overdue Reminder](Account%20Invoice%20Overdue%20Reminder.md)               | Einfache Lösung zum Versenden von Zahlungserinnerungen.                                            |
+| [Account Invoice Prepare](Account%20Invoice%20Prepare.md)                                   | Die PDF Rechnung im Anhang speichern und laden.                                                    |
+| [Account Invoice Sale Partner](Account%20Invoice%20Sale%20Partner.md)                       | Verkaufsadresse auf Rechnung festlegen.                                                            |
+| [Account Invoice Select Bank](Account%20Invoice%20Select%20Bank.md)                         | Bankkonto anhand Währung auswählen.                                                                |
+| [Account Invoice Show Currency Rate](Account%20Invoice%20Show%20Currency%20Rate.md)         | Währungskurs auf Rechnungszeile anzeigen.                                                          |
+| [Account Invoice Triple Discount](Account%20Invoice%20Triple%20Discount.md)                 | Mehrere Rabatte auf der Rechungszeile.                                                             |
+| [Account Move Invoice Partner](Account%20Move%20Invoice%20Partner.md)                       | Separate Rechnungsadresse auf Rechnung festlegen.                                                  |
+| [Account Move Line Description](Account%20Move%20Line%20Description.md)                     | Produktname ohne Referenz in Beschreibung Rechnungszeile übertragen.                               |
+| [Account Move Send Check](Account%20Move%20Send%20Check.md)                                 | Zeigt Hinweis ob Rechnung versendet wird oder wurde in Senden-Dialog.                              |
+| [Account Sale Timesheet Report](Account%20Sale%20Timesheet%20Report.md)                     | Zeiterfassungsbericht für Rechnung.                                                                |
+| [Invoice Merge PDF Attachment](Invoice%20Merge%20PDF%20Attachment.md)                       | PDF-Dokumenten von Rechnungen zusammenführen.                                                      |
+| [Purchase Invoice Prepare Partner](Purchase%20Invoice%20Prepare%20Partner.md)               | Kontakte aus Bestellung auf Rechnung kopieren.                                                     |
+| [Sale Invoice Carrier](Sale%20Invoice%20Carrier.md)                                         | Auslieferungsmethode aus Transfers beim Erstellen von Rechnungen aus Verkaufsaufträgen übertragen. |
+| [Sale Invoice Cash Rounding Default](Sale%20Invoice%20Cash%20Rounding%20Default.md)         | Standardwert für Runden beim Erzeugen von Rechnungen aus Verkaufsaufträgen verwenden.              |
+| [Sale Invoice Frequency](Sale%20Invoice%20Frequency.md)                                     | Verrechnungsintervalle auf Kontakte und Verkaufsaufträge.                                          |
+| [Sale Invoice Ignore Ref](Sale%20Invoice%20Ignore%20Ref.md)                                 | Zahlungsreferenz bei Abrechnung nicht auf Rechnung übertragen.                                     |
+| [Sale Invoice Line Description](Sale%20Invoice%20Line%20Description.md)                     | Buchungszeilen generiert aus Verkaufsaufträgen enthalten nur den Anzeigenamen des Produkts.        |
+| [Sale Invoice Prepare Bank](Sale%20Invoice%20Prepare%20Bank.md)                             | Bankkonto anhand Währung auswählen.                                                                |
+| [Sale Invoice Prepare Partner](Sale%20Invoice%20Prepare%20Partner.md)                       | Kontakte aus Verkaufsauftrag auf Rechnung kopieren.                                                |
+| [Sale Order Invoicing Grouping Criteria](Sale%20Order%20Invoicing%20Grouping%20Criteria.md) | Kriterien zur Gruppierung in der Rechnungstellung festlegen.                                       |
 
 ## Versand
 
