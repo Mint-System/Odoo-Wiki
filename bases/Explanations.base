@@ -1,0 +1,17 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - kind == "explain"
+    order:
+      - file.name
+      - prev
+      - kind
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: tags
+        direction: ASC
+    columnSize:
+      file.name: 573

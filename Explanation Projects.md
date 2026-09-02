@@ -1,0 +1,25 @@
+---
+title: Projekte initialisieren
+description: Eine einfache und umfassende Odoo-Dokumentation.
+kind: explain
+prev: ./explanation
+partner: Mint System
+---
+
+# Projekte initialisieren
+
+Das Initialisieren von Projekten beginnt mit der Produktdefinition.
+
+## Beispiel Entwicklungsprojekt
+
+Produkte _Engineering_ und _Marketing-Beratung_
+
+Damit für diese Arbeiten mit dem Verkauf direkt Projektaufgaben angelegt werden, ist im Register _Verkauf_ im Abschnitt _Dienstverfolgung_ folgendes einzustellen:
+
+_Create a task in sales order's project_
+
+Project Template: Entwicklungsprojekt
+
+![Erläuterung Verkaufsauftrag 1](attachments/Explanation%20Verkaufsauftrag%201.svg)
+
+Mit der Funktion _Bestätigen_ wird das Projekt mit den Aufgaben _Marketing-Beratung_ und _Engineering_ erstellt.

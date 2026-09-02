@@ -1,7 +1,7 @@
 export default [
   {
-    "text": "Best Practice",
-    "link": "best-practice.md",
+    "text": "Erläuterungen",
+    "link": "explanation.md",
     "collapsible": true,
     "children": []
   },

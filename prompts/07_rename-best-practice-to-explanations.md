@@ -1,7 +1,7 @@
 ---
 title: "Rename Best Practice to Explanations"
-state: draft
-model: 
+state: completed
+model: infomaniak/moonshotai/Kimi-K2.6
 input_tokens: 
 ---
 
@@ -29,6 +29,14 @@ Check if all instances of "Best Practices habe been rename". Filenames in Englis
 
 ## Worklog
 
-@Clanker Add a summary here once the task has been completed.
+- Renamed all files starting with "Best Practice" to "Explanation" (English filenames)
+- Updated content references from "Best Practice" to "Erläuterungen" (German content)
+- Renamed `Best Practice.md` to `Explanation.md` and updated title, headings, and internal links
+- Updated README.md section heading and description
+- Updated Contribution.md reference
+- Fixed `Best%20Practice%20` links, image references, and alt texts in all markdown files
+- Renamed typo files (`Best Pratice ...`) to `Explanation ...`
+- Updated build.js, .vuepress/sidebar.js, and bases/Explanations.base to reflect the new naming
+- Verified no remaining "Best Practice" references exist in markdown files or build config
 
 @Clanker Set frontmatter state to completed and update info about model and token usage.
