@@ -2,7 +2,7 @@
 title: "Rename Best Practice to Explanations"
 state: completed
 model: infomaniak/moonshotai/Kimi-K2.6
-input_tokens: 
+input_tokens: 74.1K
 ---
 
 # Run 07

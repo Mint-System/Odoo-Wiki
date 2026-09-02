@@ -405,13 +405,14 @@ export default [
         "text": "Subscription",
         "collapsible": true,
         "children": [
+          "sale-subscription-billing-period-display.md",
+          "sale-subscription-disable-next-invoice-closing.md",
           "sale-subscription-disable-tokenization.md",
+          "sale-subscription-disable-unpaid-closing.md",
+          "sale-subscription-invoice-draft.md",
           "sale-subscription-partner-pricelist.md",
           "sale-subscription-period-discount.md",
-          "sale-subscription-pricelist-fixed-discount.md",
-          "sale-subscription-disable-next-invoice-closing.md",
-          "sale-subscription-disable-unpaid-closing.md",
-          "sale-subscription-billing-period-display.md"
+          "sale-subscription-pricelist-fixed-discount.md"
         ]
       },
       {
@@ -431,8 +432,9 @@ export default [
           "hr-holidays-type-note.md",
           "hr-holidays-working-time.md",
           "hr-leave-custom-hour-interval.md",
-          "theoretical-vs-attended-time-analysis.md",
-          "resource-attendance-time-type.md"
+          "holidays-natural-period.md",
+          "resource-attendance-time-type.md",
+          "theoretical-vs-attended-time-analysis.md"
         ]
       },
       {
@@ -488,6 +490,7 @@ export default [
           "account-payment-partner.md",
           "account-payment-purchase.md",
           "account-reconcile-oca.md",
+          "account-report-filename.md",
           "account-report-referrer.md",
           "account-reports-hide-ref.md",
           "account-show-invoice-date.md",
@@ -497,6 +500,7 @@ export default [
           "account-statement-import-camt.md",
           "account-statement-import-file.md",
           "account-statement-import.md",
+          "account-tax-report-show-vat.md",
           "account-usability.md"
         ]
       },
@@ -504,6 +508,8 @@ export default [
         "text": "Connector",
         "collapsible": true,
         "children": [
+          "base-external-mssql.md",
+          "base-kardex.md",
           "git-base.md",
           "meilisearch-base.md",
           "ssh.md"
@@ -583,11 +589,12 @@ export default [
         "text": "Purchase",
         "collapsible": true,
         "children": [
-          "purchase-order-line-position.md",
+          "product-supplierinfo-update-from-invoice.md",
           "purchase-order-address.md",
           "purchase-order-comment.md",
           "purchase-order-line-date.md",
           "purchase-order-line-description.md",
+          "purchase-order-line-position.md",
           "purchase-order-line-price-default.md",
           "purchase-order-line-relay-price.md",
           "purchase-order-notes.md",
@@ -610,6 +617,7 @@ export default [
         "children": [
           "auth-disable-password-login.md",
           "auth-impersonate-user.md",
+          "auth-oauth-multi-token.md",
           "auth-session-timeout.md",
           "auth-totp-ip-check.md",
           "base-user-role-company.md",
@@ -664,7 +672,9 @@ export default [
           "server-config-environment.md",
           "server-environment-ir-config-parameter.md",
           "server-environment.md",
+          "snippet-manager.md",
           "url-slug.md",
+          "web-action-conditionable.md",
           "web-domain-field.md",
           "web-environment-ribbon.md",
           "web-timeline.md"
@@ -674,6 +684,7 @@ export default [
         "text": "Manufacture",
         "collapsible": true,
         "children": [
+          "mrp-production-merge-pickings.md",
           "mrp-bom-consumption.md",
           "mrp-bom-import-cad.md",
           "mrp-bom-list.md",
@@ -690,13 +701,14 @@ export default [
           "mrp-production-unplan-move.md",
           "mrp-production-update-upstream-move.md",
           "mrp-production-upstream-state.md",
-          "-mrp-routing-workcenter-time-start.md",
           "mrp-sale-info.md",
           "mrp-suborder-sale-info.md",
           "mrp-workorder-disable-autostart.md",
+          "mrp-workorder-hide-shop-floor-buttons.md",
           "mrp-workorder-set-producing-qty.md",
-          "mrp-workorder-play-button.md",
           "manufacture-production-move-date.md",
+          "mrp-routing-workcenter-time-start.md",
+          "mrp-workorder-play-button.md",
           "stock-mrp-traceability-list.md"
         ]
       },
@@ -800,7 +812,11 @@ export default [
           "stock-move-line-lot-done.md",
           "stock-move-line-packaging.md",
           "stock-move-line-position.md",
+          "stock-move-lot-add-default-code.md",
+          "stock-move-lot-quantity.md",
+          "stock-move-lots-indicator.md",
           "stock-move-sale-order-name.md",
+          "stock-move-show-tracking.md",
           "stock-move-upstream-quantity.md",
           "stock-move-upstream-state.md",
           "stock-move-weight-uom.md",
@@ -810,6 +826,7 @@ export default [
           "stock-picking-notes",
           "stock-picking-progress.md",
           "stock-picking-responsible.md",
+          "stock-picking-split-and-validate.md",
           "stock-picking-start.md",
           "stock-picking-valued.md",
           "stock-product-last-move.md",
@@ -882,6 +899,7 @@ export default [
           "product-name-sequence.md",
           "product-packaging-parent.md",
           "product-pricelist-fixed-discount.md",
+          "product-putaway-final-location.md",
           "product-sequence.md",
           "product-set.md",
           "product-state.md",
@@ -890,6 +908,7 @@ export default [
           "product-type-description.md",
           "product-usability.md",
           "product-variant-description.md",
+          "product-category-tracking.md",
           "secondary-product-type-description.md"
         ]
       },
@@ -980,13 +999,14 @@ export default [
           "base-optional-quick-create.md",
           "base-recursion-limit.md",
           "base-user-acl.md",
+          "change-auto-installable-modules.md",
           "fetchmail-incoming-log.md",
           "fs-folder-webdav.md",
           "ir-attachment-edit.md",
           "mail-format-with-parent.md",
           "mail-manual-routing.md",
-          "mail-server-filter.md",
           "mail-server-filter-model.md",
+          "mail-server-filter.md",
           "mail-service-users.md",
           "module-auto-update.md"
         ]
@@ -1042,6 +1062,7 @@ export default [
           "sale-order-line-description-name.md",
           "sale-order-line-description.md",
           "sale-order-line-form-action.md",
+          "sale-order-line-menu.md",
           "sale-order-line-name-get.md",
           "sale-order-line-not-billable.md",
           "sale-order-line-pos.md",
@@ -1055,6 +1076,7 @@ export default [
           "sale-order-partner-membership.md",
           "sale-order-partner-pricelist.md",
           "sale-order-partner-ref.md",
+          "sale-order-permit.md",
           "sale-order-project-key.md",
           "sale-order-ref.md",
           "sale-order-sale-partner.md",
@@ -1064,6 +1086,7 @@ export default [
           "sale-product-set-layout.md",
           "sale-product-set-search.md",
           "sale-product-set.md",
+          "sale-restricted-qty-default.md",
           "sale-restricted-qty.md",
           "sale-start-end-dates.md",
           "sale-triple-discount.md"
@@ -1129,8 +1152,10 @@ export default [
           "website-blog-wordpress-url.md",
           "website-date-of-birth.md",
           "website-font-hco-mercury-ssm.md",
+          "website-form-check.md",
           "website-product-description.md",
           "website-sale-default-country-ch.md",
+          "website-sale-permit-extra-info-.md",
           "website-sale-minimum-order-quantity.md",
           "website-sale-pricelist-fixed-discount.md"
         ]
@@ -1144,6 +1169,7 @@ export default [
           "saferpay-payment-provider.md",
           "website-sale-address-optional-phone.md",
           "website-sale-cart-expire.md",
+          "website-sale-disable-cart.md",
           "website-sale-firstname.md",
           "website-sale-float-qty.md",
           "website-sale-permit-extra-info.md",
@@ -1168,6 +1194,13 @@ export default [
         "children": [
           "brand-account.md",
           "brand-external-report-layout.md"
+        ]
+      },
+      {
+        "text": "Certificate Planner",
+        "collapsible": true,
+        "children": [
+          "certificate-planner-export-pdm.md"
         ]
       },
       {
@@ -1298,6 +1331,7 @@ export default [
           "sale-blanket-order-contact-person.md",
           "sale-blanket-order-date-confirmed.md",
           "sale-blanket-order-discount.md",
+          "sale-blanket-order-extended.md",
           "sale-blanket-order-fiscal.md",
           "sale-blanket-order-invoice-shipping-partner.md",
           "sale-blanket-order-line-description.md",
