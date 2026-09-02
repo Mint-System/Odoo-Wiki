@@ -94,7 +94,7 @@ Gruppiert nach Bereich werden verschiedene Best Practices aufgeführt. Die Best 
 ### Kundendienst
 
 - [Ticket Verrwaltung](Best%20Practice%20Ticket%20Management.md)
-- [[Kommunkation mit Kundendienst]]
+- [Kommunkation mit Kundendienst](Best%20Practice%20Kommunkation%20mit%20Kundendienst.md)
 
 ### Lager
 

@@ -31,7 +31,7 @@ Die [Mint System GmbH](https://www.mint-system.ch/) ist Odoo Partner und unterh�
 
 [Hier](Best%20Practice.md) geht es zu den Best Practice.
 
-## Basis
+## Allgemein
 
 Die folgenden HowTos beschreiben die Basis-Funktionen von Odoo.
 
@@ -425,7 +425,7 @@ Wissenstransfer für Teams vereinfachen.
 
 Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
-## Spezialisierung
+## Spezialisierungen
 
 Die folgenden HowTos beschreiben spezialisierte Funktionen von Odoo.
 
