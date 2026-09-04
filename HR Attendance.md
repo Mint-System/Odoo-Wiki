@@ -134,6 +134,12 @@ Zeigen Sie _Einstellungen > Benutzer & Unternehmen > Gruppen an und rufen die Gr
 
 Rufen Sie unter _Mitarbeiter_ den Eintrag des Mitarbeitenden auf. Im Tab _Arbeitsinformation_ legen Sie _Genehmiger_ für _Anwesenheit_ den Mitarbeitenden selbst fest. 
 
+Gilt für <Badge type="info" text="Odoo19" vertical="middle" />:
+
+Zeigen Sie _Einstellungen > Benutzer & Unternehmen > Gruppen an und rufen die Gruppe _Sachbearbeiter: Anwesenheiten verwalten_. Fügen Sie die Benutzer hinzu, welche ihre Anwesenheit selber verwalten dürfen.
+
+Rufen Sie unter _Mitarbeiter_ den Eintrag des Mitarbeitenden auf. Im Tab _Einstellungen_ legen Sie _Genehmiger_ für _Anwesenheit_ den Mitarbeitenden selbst fest. 
+
 Gilt für <Badge type="info" text="Odoo17" vertical="middle" />:
 
 Zeigen Sie _Einstellungen > Benutzer & Unternehmen > Gruppen an und rufen die Gruppe _Technisch / Benutzer: Die eigenen Anwesenheiten lesen_. Fügen Sie die Benutzer hinzu, welche ihre Anwesenheit selber verwalten dürfen. Wiederholen Sie den Vorgang für _Technisch / Sachbearbeiter: Anwesenheiten verwalten_.
