@@ -392,15 +392,16 @@ if (!firstArg || ['all', 'attachments'].indexOf(firstArg) > 0) {
   console.log('Move attachments ...')
 
   // Loop all asset files
-  fs.readdirSync(path.join(__dirname, attachmentsFolder)).forEach((file) => {
+  const attachDir = path.join(__dirname, attachmentsFolder)
+  fs.readdirSync(attachDir).forEach((file) => {
+    // Sanitize file name to prevent path traversal
+    const safeFile = path.basename(file)
+
     // Set new file name
-    newfile = targetPath + sanitizeAssetname(file)
+    newfile = targetPath + sanitizeAssetname(safeFile)
 
     // Copy asset file
-    fs.copyFileSync(
-      path.join(__dirname, attachmentsFolder, file),
-      path.join(__dirname, newfile)
-    )
+    fs.copyFileSync(`${attachDir}/${safeFile}`, `${__dirname}/${newfile}`)
   })
 
   // log
