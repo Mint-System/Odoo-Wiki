@@ -247,7 +247,8 @@ update() {
 }
 
 dev-vuepress() {
-    (open-url-with-delay "http://localhost:8080/") & pnpm run dev
+    open-url "http://localhost:8080/"
+    pnpm run dev
 }
 
 build-vuepress() {
