@@ -10,4 +10,3 @@ src
 .vuepress/.cache
 .vuepress/dist
 .vercel
-pnpm-workspace.yaml
