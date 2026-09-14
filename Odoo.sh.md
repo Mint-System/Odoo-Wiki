@@ -118,6 +118,21 @@ Klicken Sie auf der Projekt-Kachel-Ansicht von Odoo.sh auf den GitHub-Link. Auf 
 
 Der Benutzer erhält eine Einladung via E-Mail und GitHub-Benachrichtigung. Erst wenn die Einladung angenommen ist, wird der Zugriff erteilt.
 
+### GitHub-Repository von persönlich zu Organisation wechseln
+
+In einem persönlichen GitHub-Account können keine weiteren Benutzer mit Admin-Rechten den Repositories zugeordnet werden. Für mehr Möglichkeiten beim Vergeben von Zugriffsrechten wird das Repository einem Organisations-Account zugewiesen. Zusammen mit diesem Wechsel sind in GitHub Anpassungen nötig, sonst funktioniert der Deploy Key nicht mehr, mit dem Odoo.sh auf das Repository in GitHub zurückgreift.
+
+- Navigieren Sie _oben rechts zum User-Icon > Organizations > Unter der betreffenden Organisation > ⚙ Settings (allenfalls im Drop-Down) > Access-Section > Member privileges > Deploy keys_. Dort wählen Sie _🔘 Enabled_ und _Save_.
+- Bei _Organization Settings > Third-party access > OAuth Apps > Odoo.sh_ wählen Sie _Grant access_.
+
+Kontrolle:
+- Im _GitHub-Repository > ⚙ Settings > Section 'Security and Quality' > Deploy keys_ ist der Schlüssel für Odoo.sh aufgeführt.
+- Im _Odoo.sh-Projekt > Settings > 🔑 GitHub Key & Webhook_ führt der Klick auf _Verify Deploy Key_ zur Bestätigung 'Deploy key successfully detected'
+
+::: warning
+Werden die Einstellungen in GitHub nicht angepasst, führt der Klick auf _Verify Deploy Key_ zum 'Access Error: You must be admin of the GitHub repository to do this action', auch wenn bereits Admin-Rechte vergeben wurden.
+:::
+
 ## Datenbank
 
 ### Datenbank importieren
