@@ -29,15 +29,25 @@ Website: <https://www.odoo.com/de_DE/app/helpdesk>
 | [Helpdesk Management](Helpdesk%20Management.md)       | Helpdesk Community Edition.                     |
 | [Helpdesk Project Task](Helpdesk%20Project%20Task.md) | Projektaufgaben und Helpdesk-Tickets verlinken. |
 
-## Organisation
+## Koniguration
 
 ### Team anlegen
 
-Zeigen Sie _Kundendienst > Konfiguration > Kundendienst Teams_ an. Erstellen Sie einen neuen Eintrag. Geben Sie einen _Namen_, _Beschreibung_ und einen gültigen E-Mail-Alias ein.
+Zeigen Sie _Kundendienst > Konfiguration > Kundendienstteams_ an. Erstellen Sie einen neuen Eintrag. Geben Sie einen _Namen_, _Beschreibung_ und einen gültigen E-Mail-Alias ein.
 
 ![](attachments/Kundendiesnt%20Programmierung.png)
 
 Kehren Sie zur _Übersicht_ zurück um das Team-Dashboard zu sehen.
+
+### Mail-Alias festlegen
+
+Zeigen Sie _Kundendienst > Konfiguration > Kundendienstteams_ an und öffnen Sie einen Eintrag. Aktivieren Sie die Option _E-Mail-Alias_ und legen Sie einen Alias fest.
+
+### Follower festlegen
+
+Damit Support-Mitarbeitenden beim Empfang von Tickets benachrichtigt werden, muss deren Kotnakt als Follower auf dem Kundendienstteam hinzugefügt werden.
+
+Zeigen Sie _Kundendienst > Konfiguration > Kundendienstteams_ an und öffnen Sie einen Eintrag. Tragen Sie die Kontakte der Support-Mitarbeitenden unter _Tickets aller Teams folgen > Follower_ ein.
 
 ### Ticket-Stufen festlegen
 

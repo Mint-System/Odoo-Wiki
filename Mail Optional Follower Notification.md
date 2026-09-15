@@ -5,7 +5,7 @@ kind: howto
 name: mail_optional_follower_notification
 partner: OCA
 prev: ./discuss-e-mail
-repo: OCA/social
+repo: OCA/mail
 title: Mail Optional Follower Notification
 versions:
 - '17.0'

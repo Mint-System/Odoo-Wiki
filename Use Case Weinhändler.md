@@ -1,12 +1,12 @@
 ---
-title: Use Case Weinhändler
+title: Anwendungsfall Weinhändler
 description: Automatische Bestandsbewertung für Weine.
 kind: explain
-prev: ./best-practice
+prev: ./explanation
 partner: Mint System
 ---
 
-# Use Case Weinhändler
+# Anwendungsfall Weinhändler
 
 Mit Odoo Lager und Buchhaltung können Sie die Bestandsbewertung automatisieren. Im folgenden ein Beispiel eines Weinhändler. 
 

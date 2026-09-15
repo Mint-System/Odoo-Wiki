@@ -260,7 +260,7 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
   childrenBestPractice = []
 
   // Read file and split into lines
-  lines = fs.readFileSync('Best Practice.md', 'utf8').split(/\r?\n/)
+  lines = fs.readFileSync('Explanation.md', 'utf8').split(/\r?\n/)
 
   // Find sidebar items
   for (let line of lines) {
@@ -276,8 +276,8 @@ if (!firstArg || ['all', 'sidebar'].indexOf(firstArg) > 0) {
   // Assemble sidebar
   sidebarMain = [
     {
-      text: 'Best Practice',
-      link: 'best-practice.md',
+      text: 'Erläuterungen',
+      link: 'explanation.md',
       collapsible: true,
       children: removeDuplicates(childrenBestPractice.sort()),
     },

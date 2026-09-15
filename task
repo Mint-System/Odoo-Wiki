@@ -17,8 +17,8 @@ help() {
     local max_cmd=7 max_opt=6 max_desc=11
 
     rows+=("Command|Option|Description")
-    rows+=("install||Install build dependencies.")
-    rows+=("update||Update build dependencies.")
+    rows+=("install-vuepress||Install build dependencies.")
+    rows+=("update-vuepres||Update build dependencies.")
     rows+=("dev-vuepress||Start vuepress development server.")
     rows+=("build-vuepress||Create vuepress build.")
     rows+=("serve-vuepress||Serve vuepress build.")
@@ -231,7 +231,7 @@ update-module-versions() {
     fi
 }
 
-install() {
+install-vuepress() {
     pnpm install
 }
 
@@ -247,7 +247,8 @@ update() {
 }
 
 dev-vuepress() {
-    (open-url-with-delay "http://localhost:8080/") & pnpm run dev
+    open-url "http://localhost:8080/"
+    pnpm run dev
 }
 
 build-vuepress() {

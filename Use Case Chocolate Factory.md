@@ -1,15 +1,15 @@
 ---
-title: Use Case Schokoladenfabrik
-description: Use Case für mehrstufige Qualitätskontrollen.
-tags:
-  - Use-Case
-prev: ./best-practice
+title: Anwendungsfall Schokoladenfabrik
+description: Anwendungsfall für mehrstufige Qualitätskontrollen.
+prev: ./explanation
 partner: Mint System
+kind:
+  - explain
 ---
 
-# Use Case Schokoladenfabrik
+# Anwendungsfall Schokoladenfabrik
 
-In der Lebensmittelbranche müssen mehrstufige Qualitätskontrollen für Rohstoffe, Halbfabriakte und Fertigprodukte absolviert werden. In diesem Use Case wird beschrieben wie mit Odoo mehrstufige Routen für den Einkauf, die Fertigung und das Lager konfiguriert werden und wie diese mit der Qualitätskontrolle verknüpft werden.
+In der Lebensmittelbranche müssen mehrstufige Qualitätskontrollen für Rohstoffe, Halbfabriakte und Fertigprodukte absolviert werden. In diesem Anwendungsfall wird beschrieben wie mit Odoo mehrstufige Routen für den Einkauf, die Fertigung und das Lager konfiguriert werden und wie diese mit der Qualitätskontrolle verknüpft werden.
 
 ## Ausgangslage
 
@@ -206,7 +206,7 @@ Legen Sie diese Arbeitsplätze an:
 
 ### Vorgangstyp
 
-Die Konfiguration der Vorgangstypen ist zentral in diesem Use Case.
+Die Konfiguration der Vorgangstypen ist zentral in diesem Anwendungsfall.
 
 Anpassen Vorgangstypen:
 
@@ -309,7 +309,7 @@ Zur Prüfung der Ware müssen Qualitätsprüfpunkte unten erstellt werden.
 
 ## Ausführung
 
-Ist die Implementation erfolgt, können Sie den Use Case mit den folgenden Instruktionen ausführen.
+Ist die Implementation erfolgt, können Sie den Anwendungsfall mit den folgenden Instruktionen ausführen.
 
 ### Rohstoff mit Q-Prüfung
 
@@ -345,7 +345,7 @@ Ist die Implementation erfolgt, können Sie den Use Case mit den folgenden Instr
 
 ## Kommentar
 
-Es bestehen Erläuterungen zum Use Case.
+Es bestehen Erläuterungen zum Anwendungsfall.
 
 **Retouren**
 

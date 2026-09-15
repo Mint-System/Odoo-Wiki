@@ -24,7 +24,7 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Mit hr_contract wird die Berechnung der Soll-Stunden ("\_get\_expected\_attendances") ohne "Domain" gemacht. Dann wird der Default von nur 'leave' als time_type gebraucht. Für den Use Case von einer Stunde Feiertag vor einem Feiertag können dann der time_type 'other' und 'attendance' (hinzugefügt in "Resource Attendance Time Type") nicht mehr gebraucht werden, um die Soll-Stunden zu reduzieren.
+Mit hr_contract wird die Berechnung der Soll-Stunden ("\_get\_expected\_attendances") ohne "Domain" gemacht. Dann wird der Default von nur 'leave' als time_type gebraucht. Für den Anwendungsfall von einer Stunde Feiertag vor einem Feiertag können dann der time_type 'other' und 'attendance' (hinzugefügt in "Resource Attendance Time Type") nicht mehr gebraucht werden, um die Soll-Stunden zu reduzieren.
 
 Dieses Modul ändert die Soll-Stunden Berechnung, damit die Soll-Stunden reduziert werden, wenn der Feiertag den time_type 'leave' oder 'attendance' hat. Der time_type 'other' wird für Abwesenheiten gebraucht, die keine Soll-Stunden reduzieren müssen. Zum Beispiel für Homeoffice-Einträge.
 

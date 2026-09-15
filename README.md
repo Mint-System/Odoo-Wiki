@@ -11,7 +11,7 @@ tags:
   - wiki
   - documentation
   - howto
-  - best-practice
+  - explanation
   - tutorial
   - explanation
   - references
@@ -21,17 +21,17 @@ partner: Mint System
 
 # Odoo Wiki
 
-![Vercel](https://vercelbadge.vercel.app/api/mint-system/odoo-wiki) [![matrix-badge](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/!KrqriCmWfsDJxdWNtE:mint-system.ch?via=mint-system.ch&via=matrix.org)
+[![.github/workflows/deploy.yml](https://github.com/Mint-System/Odoo-Wiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/Mint-System/Odoo-Wiki/actions/workflows/deploy.yml) [![matrix-badge](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/!KrqriCmWfsDJxdWNtE:mint-system.ch?via=mint-system.ch&via=matrix.org)
 
-Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus zwei Sichten. In den **Best Practice** werden konkrete Anwendungsfälle in Odoo umgesetzt und mit den **HowTos** wird die Konfiguration und Verwendung von Odoo vermittelt.
+Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus zwei Sichten. In den **Erläuterungen** werden konkrete Anwendungsfälle in Odoo umgesetzt und mit den **HowTos** wird die Konfiguration und Verwendung von Odoo vermittelt.
 
 Die [Mint System GmbH](https://www.mint-system.ch/) ist Odoo Partner und unterhält das Odoo Wiki.
 
-## [Best Practice](Best%20Practice.md)
+## [Erläuterungen](Explanation.md)
 
-[Hier](Best%20Practice.md) geht es zu den Best Practice.
+[Hier](Explanation.md) geht es zu den Erläuterungen.
 
-## Basis
+## Allgemein
 
 Die folgenden HowTos beschreiben die Basis-Funktionen von Odoo.
 
@@ -425,7 +425,7 @@ Wissenstransfer für Teams vereinfachen.
 
 Verfolgen Sie die Zeit, prognostizieren Sie die Produktivität.
 
-## Spezialisierung
+## Spezialisierungen
 
 Die folgenden HowTos beschreiben spezialisierte Funktionen von Odoo.
 
