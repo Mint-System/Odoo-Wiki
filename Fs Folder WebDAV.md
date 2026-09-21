@@ -32,12 +32,12 @@ Navigieren Sie nach _Einstellungen > Technisch > FS Storage_ und erstellen Sie e
 - **Name**: Name der Nextcloud-Instanz
 - **Code**: Kürzel für die Verbindung
 - **Protocol**: Wähle hier `webdav`
-- **Directory Path**: Der Nextcloud-Pfad wo Odoo die Dateien speichert. Ein Beispiel: `/remote.php/dav/files/admin/Odoo`
+- **Directory Path**: Der Nextcloud-Pfad wo Odoo die Dateien speichert. Ein Beispiel: `Odoo`
 - **Options**: Gibt die Anmelde-Informationen für Nextcloud in diesem Format ein:
 
 ```
 {
-    "base_url": "https://cloud.example.com",
+    "base_url": "https://cloud.example.com/remote.php/dav/files/admin",
     "auth": ["username", "password"]
 }
 ```
