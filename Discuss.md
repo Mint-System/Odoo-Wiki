@@ -118,6 +118,10 @@ Konfigurieren Sie den Subtypen gemäss Anforderungen:
 - **Nur interne**: Nachrichten nur für interne Benutzer sichtbar.
 - **Versteckt**: Subtyp wird auf Abonnement-Formular ausgeblendet.
 
+::: warning
+Die Einstellungen auf Subtypen haben Auswirkungen auf Apps, welche den Chatter für die Kundenkommunikation erfordert. Eine solche App ist beispielsweise [Helpdesk](Helpdesk.md).
+:::
+
 ### Subtyp auf Abonnement aktivieren
 
 Zeigen Sie ein Odoo Dokument an und bearbeiten Sie ein Abonnement.
