@@ -1,18 +1,18 @@
 ---
-title: Sale Blanket Order Sequence on Create
-description: Legt den Namen des Auftrags beim Erzeugen an gemäss Sequenz.
+title: Purchase Blanket Order Sequence on Create
+description: Legt den Namen des Vertrags beim Erzeugen an gemäss Sequenz.
 kind: howto
 tags:
   - Mint-System
-prev: ./sale-blanket-order
+prev: ./purchase
 forge: github.com
-repo: Mint-System/Odoo-Apps-Sale-Workflow
+repo: Mint-System/Odoo-Apps-Purchase-Workflow
 versions:
 - '17.0'
-name: sale_blanket_order_sequence_on_create
+name: purchase_blanket_order_sequence_on_create
 ---
 
-# Sale Blanket Order Sequence on Create
+# Purchase Blanket Order Sequence on Create
 
 ![icon_oms_box](attachments/icons_odoo_mint_system.png)
 
