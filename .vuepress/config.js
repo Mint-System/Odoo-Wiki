@@ -9,7 +9,13 @@ import { defineUserConfig } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
-  bundler: viteBundler(),
+  bundler: viteBundler({
+    viteOptions: {
+      build: {
+        reportCompressedSize: false,
+      },
+    },
+  }),
   lang: 'de-CH',
   title: 'Odoo Wiki',
   description: 'Eine einfache und umfassende Odoo-Dokumentation.',
