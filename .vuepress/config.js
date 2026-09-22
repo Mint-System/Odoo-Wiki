@@ -23,7 +23,7 @@ export default defineUserConfig({
       { text: 'Home', link: '/' },
       {
         text: 'Chat',
-        link: 'https://matrix.to/#/!KrqriCmWfsDJxdWNtE:mint-system.ch?via=mint-system.ch&via=matrix.org',
+        link: 'https://matrix.to/#/#allgemein:mint-system.ch',
       },
     ],
   }),
