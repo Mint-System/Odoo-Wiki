@@ -32,9 +32,11 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Fertigungsauftrag                 | `/report/html/mrp.report_mrporder/$ID`                                          |
 | Kaufvertrag                       | `/report/html/purchase_requisition.report_purchaserequisitions/$ID`             |
 | Kommissionierung / Packvorgänge   | `/report/html/stock.report_picking/$ID`                                         |
+| Lagerort (Barcode)                | `/report/html/stock.report_location_barcode/$ID`                                    |
 | Lieferschein                      | `/report/html/stock.report_deliveryslip/$ID`                                    |
 | Lieferschein (Aufgabe)            | `/report/html/forestry_timesheet.report_project_task_deliveryslip/$ID`          |
 | Lohnabrechnung                    | `/report/html/hr_payroll.report_payslip_lang/$ID`                               |
+| Los-/Seriennummer                 | `/report/html/stock.report_lot_label/$ID`                               |
 | Mahnbericht                       | `/report/html/account_followup.report_followup_print_all/$ID`                   |
 | Mitarbeiterabrechnung             | `/report/html/bt_swissdec.report_payslip/$ID`                                   |
 | QR-Rechnung                       | `/report/html/l10n_ch.qr_report_main/$ID`                                       |
