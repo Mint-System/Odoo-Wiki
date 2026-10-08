@@ -590,6 +590,7 @@ export default [
         "collapsible": true,
         "children": [
           "product-supplierinfo-update-from-invoice.md",
+          "purchase-blanket-order-sequence-on-create.md",
           "purchase-order-address.md",
           "purchase-order-comment.md",
           "purchase-order-line-date.md",
@@ -1340,6 +1341,7 @@ export default [
           "sale-blanket-order-readonly-states.md",
           "sale-blanket-order-reference.md",
           "sale-blanket-order-send.md",
+          "sale-blanket-order-sequence-on-create.md",
           "sale-blanket-order-stock-terms.md",
           "sale-blanket-order-template.md"
         ]

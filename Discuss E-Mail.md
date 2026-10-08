@@ -24,6 +24,7 @@ partner: Mint System
 | [Mail Composer Default Template](Mail%20Composer%20Default%20Template.md)           | Standardvorlage für E-Mail-Dialog festlegen.                             |
 | [Mail Composer Mass Layout](Mail%20Composer%20Mass%20Layout.md)                     | Mail-Layout beim Versand von mehreren Mails anwenden.                    |
 | [Mail Debrand](Mail%20Debrand.md)                                                   | Odoo Promotion aus E-Mail-Vorlagen entfernen.                            |
+| [Mail Debranding](Mail%20Debranding.md)                                   | Odoo Promotion aus E-Mail-Vorlagen entfernen.                            |
 | [Mail Force From](Mail%20Force%20From.md)                                           | Absender-Adressen für ausgewählte Modelle forcieren.                     |
 | [Mail Message Reply](Mail%20Message%20Reply.md)                                     | Auf eine Chatter-Nachricht antworten.                                    |
 | [Mail No Autofollow](Mail%20No%20Autofollow.md)                                     | Beim Erstellen von Nachrichten erfolgt keine automatische Abonnierung.   |

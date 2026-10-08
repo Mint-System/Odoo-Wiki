@@ -123,7 +123,16 @@ Wenn der Seiteninhalt nicht mehr überschaubar ist, kann ein Inhaltsverzeichnis 
 
 ### Veraltete Inhalte
 
-Wenn Apps veraltet sind, können Sie diese wie folgt markieren:
+**Umbenannt**: Wenn eine App umbenannt wurde verwenden diesen marker:
+
+```
+::: warning
+Mit <Badge type="info" text="Odoo19" vertical="middle" /> wurde diese App auf [Mail Debranding](Mail%20Debranding.md) umbennant.
+#DEPRECATED
+:::
+```
+
+**Ersetzt**: Wenn eine App ersetzt wurde, können Sie diese wie folgt markieren:
 
 ```
 ::: warning
@@ -132,7 +141,7 @@ Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscr
 :::
 ```
 
-Wenn die Funktion der App Teil von Odoo geworden ist, können Sie diese wie folgt markieren:
+**Integriert**: Wenn die Funktion der App Teil von Odoo geworden ist, können Sie diese wie folgt markieren:
 
 ```
 ::: warning
@@ -141,8 +150,7 @@ Seit <Badge type="info" text="Odoo18" vertical="middle" /> wird diese App nicht 
 :::
 ```
 
-
-Wenn die Funktion der App Teil von einer anderen App geworden ist, können Sie diese wie folgt markieren:
+**Abgelöst**: Wenn die Funktion der App Teil einer anderen App geworden ist, können Sie diese wie folgt markieren:
 
 ```
 ::: warning

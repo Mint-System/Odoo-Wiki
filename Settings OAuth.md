@@ -51,7 +51,7 @@ Ist die App erstellt erhalten Sie diese Zusammenfassung:
 
 ![](attachments/Einstellungen%20OAuth%20Odoo%20App.png)
 
-Klicken Sie auf API-Berechtigungen und fügen Sie eine Berechtigung hinzu. Wählen Sie _Microsoft Graph > Delegierte Berechtigungen_
+Klicken Sie auf _Verwalten > API-Berechtigungen_ und fügen Sie eine Berechtigung hinzu. Wählen Sie _Microsoft Graph > Delegierte Berechtigungen_
 
 - SMTP.Send
 - IMAP.AccessAsUser.All
@@ -60,7 +60,7 @@ Wenn Sie die Berechtigungen erteilt haben, müssen noch den "Admin Consent" erte
 
 ![](attachments/Settings%20OAuth%20Grant%20admin%20consent.png)
 
-Klicken Sie auf _Benutzer und Gruppen_. Fügen Sie den Benutzer mit dem sich Odoo verbindet, der OAuth-App hinzu.
+Klicken Sie auf _Unternehmens-Apps_. Wählen Sie die erstelle Appa aus und klicken Sie auf _Benutzer und Gruppen_. Fügen Sie den Benutzer mit dem sich Odoo verbindet, der OAuth-App hinzu.
 
 Kopieren Sie die _Anwendungs-ID (Client)_, es handelt sich hierbei um die _Client ID_ der registrierten App.
 
@@ -181,10 +181,13 @@ Einstellungen in portal.azure.com sind nicht richtig.
 
 **Lösung**
 
-Für der User müsste noch 'authenticated SMTP' erlaubt werden. Sehe Bild:
+Für der User müsste noch 'Authenticated SMTP' erlaubt werden.
+
+![](attachments/Oauth%20Troubleshooting%20SMTP%20Manage%20email%20apps.png)
 
 ![](attachments/Oauth%20Troubleshooting%20SMTP.png)
 
+Damit diese Option sichtbar wird muss SMTP für den Mandanten akiviert sein. Mehr dazu unter: <https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission>
 
 ### Need admin approval
 
@@ -204,4 +207,4 @@ Return to the application without granting consent
 
 **Lösung**
 
-Stellen Sie sicher, dass der OAuth-Bentuzer Zugriff auf die OAuth-App hat.
+Stellen Sie sicher, dass der OAuth-Benutzer Zugriff auf die OAuth-App hat.

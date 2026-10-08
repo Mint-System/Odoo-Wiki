@@ -26,7 +26,11 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ### Ticket mit Projektaufgabe verlinken
 
-Wenn Sie ein Ticket in der Formularansicht anzeigen, finden Sie einen Tab _Tasks_. Hier können Sie bestehende Aufgaben hinzügen oder direkt eine Aufgabe erstellen. Verlinkte Aufgaben werden als Smart-Button angezeigt.
+Wenn Sie ein Ticket in der Formularansicht anzeigen, finden Sie das Feld_Task_. Hier können Sie eine Aufgaben auswählen und verknüpften. Wenn die Aufgabe mit einer Auftragsposition verknüpft ist, wird diese auf dem Ticket hinterlegt.
+
+::: tip
+Wenn auf einem Ticket mit einer verküpften Aufabe mit Auftragsposition ein Zeiterfassungeintrag erstellt wird, dann ist diese Zeiterfassungseintrag mit dem Ticket und der Aufgabe verlinkt.
+:::
 
 ### Projektaufgabe mit Ticket verlinken
 
