@@ -9,6 +9,7 @@ forge: github.com
 repo: Mint-System/Odoo-Apps-Website
 versions:
 - '18.0'
+- '19.0'
 name: website_sale_address_optional_fields
 ---
 
