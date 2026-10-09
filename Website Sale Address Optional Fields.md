@@ -24,4 +24,4 @@ Runboat: <a v-bind:href="`https://runboat.odoo-community.org/builds?repo=${$fron
 
 ## Beschreibung
 
-Mit dieser Erweiterung können in der Konfiguration einer Website Felder des Adressformulars im Webshop optional gemacht werden. Dazu geht man zu _Webseite > Konfiguration > Einstellungen > Shop - Checkout Process_ und wählt die entsprechenden Felder aus (voreingestellt: Name, E-Mmail, Phone). Die Konfiguration kann unabhängig für jede Webseite getroffen werden.
+Mit dieser Erweiterung können in der Konfiguration einer Website Felder des Adressformulars im Webshop optional gemacht werden. Dazu geht man zu _Webseite > Konfiguration > Einstellungen > Shop - Checkout Process_ (Odoo 19: _eCommerce_) und wählt die entsprechenden Felder aus (voreingestellt: Name, E-mail, Phone für neue Websites). Die Konfiguration kann unabhängig für jede Webseite getroffen werden.
