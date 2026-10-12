@@ -23,9 +23,10 @@ Website: <https://www.odoo.com/de_DE/app/iot>
 
 ## Erweiterungen
 
-| Erweiterung                           | Beschreibung                                                       |
-| ------------------------------------- | ------------------------------------------------------------------ |
-| [Printnode Base](Printnode%20Base.md) | Jeder Odoo Bericht oder Etikette von überall nach überall drucken. |
+| Erweiterung                                     | Beschreibung                                                       |
+| ----------------------------------------------- | ------------------------------------------------------------------ |
+| [Printnode Base](Printnode%20Base.md)           | Jeder Odoo Bericht oder Etikette von überall nach überall drucken. |
+| [Report to QZ Tray](Report%20to%20QZ%20Tray.md) | Odoo Berichte oder Etiketten ohne Cloud direkt lokal drucken.                                                                   |
 
 ## Konfiguration
 
