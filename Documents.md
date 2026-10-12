@@ -23,10 +23,10 @@ Website: <https://www.odoo.com/de_DE/app/documents>
 
 ## Erweiterungen
 
-| Erweiterung                             | Beschreibung                               |
-| --------------------------------------- | ------------------------------------------ |
+| Erweiterung                             | Beschreibung                                  |
+| --------------------------------------- | --------------------------------------------- |
 | [Agreement Legal](Agreement%20Legal.md) | Verträge und und Vorlage für Rechtsabteilung. |
-| [Agreement](Agreement.md)               | Basismodul für Vereinbarungen.             |
+| [Agreement](Agreement.md)               | Basismodul für Vereinbarungen.                |
 
 ## Konfiguration
 
