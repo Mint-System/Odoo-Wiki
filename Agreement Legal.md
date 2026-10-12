@@ -1,5 +1,5 @@
 ---
-description: Verträge und Vereinbarungen dokumentieren.
+description: Verträge und und Vorlage für Rechtsabteilung.
 forge: github.com
 kind: howto
 name: agreement_legal
@@ -9,7 +9,6 @@ repo: OCA/agreement
 title: Agreement Legal
 versions:
 - '18.0'
-- '19.0'
 ---
 
 # Agreement Legal

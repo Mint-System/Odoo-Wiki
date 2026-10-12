@@ -25,7 +25,8 @@ Website: <https://www.odoo.com/de_DE/app/documents>
 
 | Erweiterung                             | Beschreibung                               |
 | --------------------------------------- | ------------------------------------------ |
-| [Agreement Legal](Agreement%20Legal.md) | Verträge und Vereinbarungen dokumentieren. |
+| [Agreement Legal](Agreement%20Legal.md) | Verträge und und Vorlage für Rechtsabteilung. |
+| [Agreement](Agreement.md)               | Basismodul für Vereinbarungen.             |
 
 ## Konfiguration
 
