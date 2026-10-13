@@ -27,6 +27,7 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 | Erweiterung                                                   | Beschreibung                                                    |
 | ------------------------------------------------------------- | --------------------------------------------------------------- |
+| [License OCAD Mail](License%20OCAD%20Mail.md)                 | Mail-Vorlagen für die Aktivierung von Lizenzen.                 |
 | [License OCAD](License%20OCAD.md)                             | Synchronisation Lizenzen mit dem OCAD Lizenzaktivierungsdienst. |
 | [License Partner Comission](License%20Partner%20Comission.md) | Integration mit Reseller-Funktion von Odoo.                     |
 | [License Portal](License%20Portal.md)                         | Kundenportal zur Lizenzverwaltung.                              |
