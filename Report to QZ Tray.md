@@ -38,17 +38,15 @@ Die Anwendung eignet sich besonders für Druckerzeugnisse die im Arbeitsablauf a
 - Die Drucker müssen in Odoo und auf dem Client gleich benannt sein.
 - Odoo On Premise oder Odoo.sh
 
-## Einrichtung
+## Konfiguration
 
-### Server
-
-#### Modul auf dem Server installieren
+### Modul auf dem Server installieren
 
 - Auf dem Server muss `pyOpenSSL` installiert sein, damit die Druckaufträge signiert und vertrauenswürdig übertragen werden können:
 `sudo pip3 install pyOpenSSL`
 - `base_report_to_printer_qz` deployen und in Odoo aktivieren
 
-#### Zertifikat erzeugen
+### Zertifikat erzeugen
 
 Das Zertifikat können Sie lokal auf dem Nutzergerät erzeugen.
 
@@ -63,7 +61,7 @@ Bei den Eingaben ist die Domain wichtig:
 - cert.pem: Das öffentliche Zertifikat
 - key.pem: Der private Schlüssel
 
-#### Zertifikat in Odoo speichern
+### Zertifikat in Odoo speichern
 
 _Einstellungen > Technisch > Parameter > Systemparameter_ (Entwicklungsmodus aktiviert)
 
@@ -79,7 +77,7 @@ Hier tragen Sie folgenden beiden Parameter neu ein:
 Kopieren Sie unbedingt den gesamten Textinhalt der Dateien inklusive die BEGIN- und die END-Zeile in den Wert.
 :::
 
-#### Drucker definieren
+### Drucker definieren
 
 1. In _Einstellungen > Drucke > Drucker >_ erstellen Sie einen neuen Drucker oder wählen einen bestehenden,
 2. Diese Werte sind für die Funktion wichtig:
@@ -88,7 +86,7 @@ Kopieren Sie unbedingt den gesamten Textinhalt der Dateien inklusive die BEGIN- 
 
 Der Server ist für Drucker ein Pflichtfeld, welches für QZ Tray nicht relevant ist. Es reicht, einen Dummy-Server 'server-for-qztray' zu erstellen und hier einzutragen.
 
-#### Drucker zuweisen (optional aber empfohlen)
+### Drucker zuweisen (optional aber empfohlen)
 
 Standarddrucker können Sie auf verschiedenen Ebenen zugeordnet.
 
@@ -106,9 +104,7 @@ Per Report (optional)
 	- Vorgabedrucker wählen
 3. Speichern
 
-### Client
-
-#### QZ Tray auf dem Client installieren
+### QZ Tray auf dem Client installieren
 
 Die App können Sie kostenlos [von qz.io herunterladen und installieren](https://qz.io/download/).
 
@@ -118,7 +114,7 @@ Unter Linux / Unix können Sie dies im Terminal mit dem folgenden Befehl durchge
 wget -qO - qz.sh | bash
 ```
 
-#### Zertifikat in QZ Tray hinterlegen
+### Zertifikat in QZ Tray hinterlegen
 
 1. _QZ Tray > Advanced > Site Manager..._ öffnen,
 2. Per Drag&Drop die Datei cert.pem in den Site Manager legen,
@@ -128,7 +124,7 @@ Mit diesem Schritt wird der Odoo-Server für vertrauenswürdig erklärt und kann
 
 Für sämtliche Clients wird das gleiche Zertifikat verwendet.
 
-#### Drucker auf dem Client vorbereiten
+### Drucker auf dem Client vorbereiten
 
 - Die gewünschten Drucker auf dem Client funktionstüchtig konfigurieren (Probedruck vom Client aus durchführen),
 - Drucker lokal und in Odoo gleich benennen.
@@ -142,6 +138,8 @@ Auf jedem Client-Arbeitsplatz, der DirectPrint nutzt muss folgendes sichergestel
 - Der Drucker ist lokal installiert und der Name ist gleich wie der Druckername in Odoo.
 
 ## Verwendung
+
+### Berichte direkt an Drucker senden
 
 Einmal korrekt eingerichtet werden die entsprechenden Berichte ohne weitere Meldung aus Odoo an den Drucker gesendet.
 
