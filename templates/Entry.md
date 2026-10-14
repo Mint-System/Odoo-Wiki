@@ -53,7 +53,8 @@ const repoMap = {
     "web",
     "web-api",
     "website",
-    "server-brand"
+    "server-brand",
+    "agreement"
   ],
   "Mint-System": [
     "Odoo-Apps-Account-Financial-Reporting",
