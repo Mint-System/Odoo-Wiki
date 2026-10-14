@@ -9,8 +9,8 @@ repo: OCA/mail
 title: Mail Optional Follower Notification
 versions:
 - '19.0'
+- '18.0'
 ---
-
 
 # Mail Optional Follower Notification
 

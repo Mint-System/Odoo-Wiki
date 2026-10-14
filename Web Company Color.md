@@ -8,6 +8,7 @@ prev: ./settings
 repo: OCA/web
 title: Web Company Color
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'

@@ -9,6 +9,11 @@ forge: github.com
 repo: OCA/hr-holidays
 versions:
 - '19.0'
+- '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
+- '14.0'
 name: hr_holidays_natural_period
 ---
 

@@ -9,6 +9,9 @@ repo: OCA/agreement
 title: Agreement Legal
 versions:
 - '18.0'
+- '17.0'
+- '16.0'
+- '15.0'
 ---
 
 # Agreement Legal

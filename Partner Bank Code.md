@@ -8,6 +8,7 @@ prev: ./contacts
 repo: OCA/partner-contact
 title: Partner Bank Code
 versions:
+- '19.0'
 - '18.0'
 - '16.0'
 - '15.0'

@@ -8,6 +8,7 @@ prev: ./discuss
 repo: OCA/mail
 title: Mail Tracking Mailgun
 versions:
+- '19.0'
 - '18.0'
 ---
 

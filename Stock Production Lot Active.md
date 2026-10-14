@@ -8,6 +8,7 @@ prev: ./stock
 repo: OCA/stock-logistics-workflow
 title: Stock Production Lot Active
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'

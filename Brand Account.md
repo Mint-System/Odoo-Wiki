@@ -8,6 +8,7 @@ prev: ./brand
 repo: OCA/brand
 title: Brand Account
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'

@@ -8,6 +8,7 @@ repo: OCA/Web
 tags:
 title: 2D matrix for x2many fields
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'

@@ -8,6 +8,7 @@ prev: ./helpdesk
 repo: Mint-System/Odoo-Apps-Project
 title: Helpdesk Project Task
 versions:
+- '19.0'
 - '18.0'
 - '16.0'
 ---
