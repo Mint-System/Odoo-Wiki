@@ -8,10 +8,7 @@ prev: ./discuss-e-mail
 repo: OCA/mail
 title: Mail Optional Follower Notification
 versions:
-- '17.0'
-- '16.0'
-- '15.0'
-- '14.0'
+- '19.0'
 ---
 
 
