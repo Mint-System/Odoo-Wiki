@@ -13,7 +13,7 @@ prev: ./iot
 {{ $frontmatter.description }}
 
 Technischer Name: `base_report_to_printer_qztray`\
-OCA App Page: <[[https://apps.odoo.com/apps/modules/19.0/printnode_base](https://apps.odoo-community.org/modules/base_report_to_printer_qztray)](https://apps.odoo-community.org/modules/base_report_to_printer_qztray)/>\
+OCA App Page: [https://apps.odoo.com/apps/modules/19.0/printnode_base](https://apps.odoo-community.org/modules/base_report_to_printer_qztray)
 
 ## Beschreibung
 
