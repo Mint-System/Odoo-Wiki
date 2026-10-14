@@ -50,7 +50,7 @@ Die Anwendung eignet sich besonders für Druckerzeugnisse die im Arbeitsablauf a
 
 #### Zertifikat erzeugen
 
-Das Zertifikat kann lokal auf dem Nutzergerät erzeugt werden.
+Das Zertifikat können Sie lokal auf dem Nutzergerät erzeugen.
 
 ```
 openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 3650 -nodes
@@ -58,7 +58,7 @@ openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 3650 -nod
 
 Bei den Eingaben ist die Domain wichtig:
 
-`Common Name (e.g. server FQDN or YOUR name) []:` hier die Domain eintragen, wobei eine Wildcard für Subdomains gültig ist (`*.odoo.mydomain.ch`). Das Ergebnis sind zwei Dateien:
+`Common Name (e.g. server FQDN or YOUR name) []:` hier tragen Sie die Domain ein, wobei eine Wildcard für Subdomains gültig ist (`*.odoo.mydomain.ch`). Das Ergebnis sind zwei Dateien:
 
 - cert.pem: Das öffentliche Zertifikat
 - key.pem: Der private Schlüssel
@@ -67,7 +67,7 @@ Bei den Eingaben ist die Domain wichtig:
 
 _Einstellungen > Technisch > Parameter > Systemparameter_ (Entwicklungsmodus aktiviert)
 
-Die folgenden beiden Parameter neu eintragen:
+Hier tragen Sie folgenden beiden Parameter neu ein:
 
 
 | Schlüssel      | Wert                |
@@ -76,12 +76,12 @@ Die folgenden beiden Parameter neu eintragen:
 | qz.key         | Inhalt von key.pem  |
 
 ::: warning
-Unbedingt den gesamten Textinhalt der Dateien inklusive die BEGIN- und die END-Zeile in den Wert kopieren
+Kopieren Sie unbedingt den gesamten Textinhalt der Dateien inklusive die BEGIN- und die END-Zeile in den Wert.
 :::
 
 #### Drucker definieren
 
-1. _Einstellungen > Drucke > Drucker >_ neuen Drucker erstellen oder bestehenden wählen,
+1. In _Einstellungen > Drucke > Drucker >_ erstellen Sie einen neuen Drucker oder wählen einen bestehenden,
 2. Diese Werte sind für die Funktion wichtig:
 	- `Name`: Muss **exakt** übereinstimmen mit der Druckerbezeichnung auf den Clients, von denen gedruckt wird,
 	- `Backend`: **QZ Tray** wählen.
@@ -90,17 +90,17 @@ Der Server ist für Drucker ein Pflichtfeld, welches für QZ Tray nicht relevant
 
 #### Drucker zuweisen (optional aber empfohlen)
 
-Standarddrucker können auf verschiedenen Ebenen zugeordnet werden.
+Standarddrucker können Sie auf verschiedenen Ebenen zugeordnet.
 
 Per User
-1. _Einstellungen > Benutzer & Unternehmen > Benutzer >_ Benutzer wählen
+1. In _Einstellungen > Benutzer & Unternehmen > Benutzer >_ wählen Sie einen Benutzer
 2. Im Tab 'Präferenzen'
 	- Druckaktion: z.B. `Send to Printer`
 	- Vorgabedrucker: Den gewünschten Drucker wählen
 3. Speichern
 
 Per Report (optional)
-1. _Einstellungen > Drucke > Berichte >_ Bericht wählen
+1. In _Einstellungen > Drucke > Berichte >_ wählen Sie einen Bericht
 2. Im Tab 'Druck'
 	- Vorgabeverhalten wählen
 	- Vorgabedrucker wählen
@@ -110,9 +110,9 @@ Per Report (optional)
 
 #### QZ Tray auf dem Client installieren
 
-Die App kann kostenlos [von qz.io heruntergeladen und installiert](https://qz.io/download/) werden.
+Die App können Sie kostenlos [von qz.io herunterladen und installieren](https://qz.io/download/).
 
-Unter Linux / Unix kann dies im Terminal mit dem folgenden Befehl durchgeführt werden:
+Unter Linux / Unix können Sie dies im Terminal mit dem folgenden Befehl durchgeführen:
 
 ```
 wget -qO - qz.sh | bash
