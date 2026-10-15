@@ -8,9 +8,6 @@ prev: ./hr-timesheet
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Timesheet Billable Price
 versions:
-- '18.0'
-- '17.0'
-- '16.0'
   - "16.0"
   - "17.0"
   - "18.0"
