@@ -8,8 +8,8 @@ prev: ./sale
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Order Contact Person
 versions:
-- '15.0'
-- '14.0'
+  - '15.0'
+  - '14.0'
 ---
 
 

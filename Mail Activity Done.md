@@ -8,10 +8,10 @@ prev: ./dashboards
 repo: OCA/social
 title: Mail Activity Done
 versions:
-- '17.0'
-- '16.0'
-- '15.0'
-- '14.0'
+  - '17.0'
+  - '16.0'
+  - '15.0'
+  - '14.0'
 ---
 
 

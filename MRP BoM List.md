@@ -8,7 +8,7 @@ prev: ./manufacture
 repo: Mint-System/Odoo-Apps-Manufacture
 title: MRP BoM List
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

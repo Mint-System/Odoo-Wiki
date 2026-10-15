@@ -8,7 +8,7 @@ prev: ./website-sale
 repo: Mint-System/Odoo-Apps-Website
 title: Website Sale Float Qty
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

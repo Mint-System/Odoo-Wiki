@@ -8,9 +8,9 @@ prev: ./hr-timesheet
 repo: Mint-System/Odoo-Apps-HR
 title: HR Timesheet From Until
 versions:
-- '17.0'
-- '16.0'
-- '15.0'
+  - '17.0'
+  - '16.0'
+  - '15.0'
 ---
 
 

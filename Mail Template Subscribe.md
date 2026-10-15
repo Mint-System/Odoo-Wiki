@@ -8,8 +8,8 @@ prev: ./discuss-e-mail
 repo: Mint-System/Odoo-Apps-Social
 title: Mail Template Subscribe
 versions:
-- '18.0'
-- '16.0'
+  - '18.0'
+  - '16.0'
 ---
 
 

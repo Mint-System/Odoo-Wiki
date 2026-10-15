@@ -8,8 +8,8 @@ prev: ./discuss-e-mail
 repo: OCA/mail
 title: Mail Restrict Follower Selection
 versions:
-- '19.0'
-- '18.0'
+  - '19.0'
+  - '18.0'
 ---
 
 

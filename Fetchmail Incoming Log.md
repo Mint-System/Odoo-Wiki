@@ -8,8 +8,8 @@ prev: ./base
 repo: OCA/server-tools
 title: Fetchmail Incoming Log
 versions:
-- '15.0'
-- '14.0'
+  - '15.0'
+  - '14.0'
 ---
 
 

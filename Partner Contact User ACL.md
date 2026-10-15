@@ -8,8 +8,8 @@ prev: ./contacts
 repo: Mint-System/Odoo-Apps-Partner-Contact
 title: Partner Contact User ACL
 versions:
-- '18.0'
-- '16.0'
+  - '18.0'
+  - '16.0'
 ---
 
 

@@ -8,7 +8,7 @@ prev: ./documents
 forge: github.com
 repo: Mint-System/Odoo-Apps-Contract
 versions:
-- '19.0'
+  - '19.0'
 name: agreement_puzzle
 ---
 

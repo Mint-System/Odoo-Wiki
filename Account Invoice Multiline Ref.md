@@ -8,8 +8,8 @@ prev: ./invoicing
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Account Invoice Multiline Ref
 versions:
-- '17.0'
-- '15.0'
+  - '17.0'
+  - '15.0'
 ---
 
 

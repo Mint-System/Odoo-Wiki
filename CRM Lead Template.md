@@ -8,7 +8,7 @@ prev: ./crm
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: CRM Lead Template
 versions:
-- '19.0'
+  - '19.0'
 ---
 
 

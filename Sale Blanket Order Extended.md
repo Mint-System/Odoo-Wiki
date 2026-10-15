@@ -8,7 +8,7 @@ prev: ./sale-blanket-order
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Blanket Order Extended
 versions:
-- '17.0'
+  - '17.0'
 ---
 
 

@@ -8,7 +8,7 @@ prev: ./base
 forge: github.com
 repo: Mint-System/Odoo-Apps-Server-Tools
 versions:
-- '19.0'
+  - '19.0'
 name: mail_server_filter_model
 ---
 

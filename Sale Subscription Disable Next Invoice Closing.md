@@ -8,7 +8,7 @@ prev: ./subscription
 forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 versions:
-- '18.0'
+  - '18.0'
 name: sale_subscription_disable_next_invoice_closing
 ---
 

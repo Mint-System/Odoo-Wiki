@@ -8,7 +8,7 @@ prev: ./web
 repo: Mint-System/Odoo-Apps-Website
 title: Auth Signup Firstname
 versions:
-- '18.0'
+  - '18.0'
 ---
 
 

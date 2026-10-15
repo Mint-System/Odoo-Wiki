@@ -8,8 +8,8 @@ prev: ./sale
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Order Partner Membership
 versions:
-- '18.0'
-- '16.0'
+  - '18.0'
+  - '16.0'
 ---
 
 

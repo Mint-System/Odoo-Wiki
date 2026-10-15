@@ -8,8 +8,8 @@ prev: ./hr
 repo: Mint-System/Odoo-Apps-HR
 title: Fleet HR Vehicle Request
 versions:
-- '16.0'
-- '14.0'
+  - '16.0'
+  - '14.0'
 ---
 
 

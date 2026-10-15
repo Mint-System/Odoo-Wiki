@@ -8,7 +8,7 @@ prev: ./kubernetes
 repo: Mint-System/Odoo-Apps-Kubernetes
 title: Helm Import
 versions:
-- '18.0'
+  - '18.0'
 ---
 
 

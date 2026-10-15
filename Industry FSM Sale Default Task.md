@@ -8,7 +8,7 @@ prev: ./fsm-industry
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Industry FSM Sale Default Task
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

@@ -8,9 +8,9 @@ prev: ./order-positions
 repo: Mint-System/Odoo-Apps-Manufacture
 title: MRP BoM Position
 versions:
-- '17.0'
-- '16.0'
-- '14.0'
+  - '17.0'
+  - '16.0'
+  - '14.0'
 ---
 
 

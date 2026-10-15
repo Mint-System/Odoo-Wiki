@@ -8,7 +8,7 @@ prev: ./product
 repo: OCA/product-attribute
 title: Packaging UOM
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

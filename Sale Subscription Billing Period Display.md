@@ -9,7 +9,7 @@ prev: ./subscription
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Subscription Billing Period Display
 versions:
-- '18.0'
+  - '18.0'
 ---
 
 

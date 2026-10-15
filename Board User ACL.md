@@ -8,7 +8,7 @@ prev: ./dashboards
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Board User ACL
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

@@ -8,9 +8,9 @@ prev: ./discuss-e-mail
 repo: Mint-System/Odoo-Apps-Social
 title: Mail Composer Default Template
 versions:
-- '18.0'
-- '15.0'
-- '14.0'
+  - '18.0'
+  - '15.0'
+  - '14.0'
 ---
 
 

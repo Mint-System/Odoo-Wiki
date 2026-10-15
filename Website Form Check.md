@@ -8,7 +8,7 @@ prev: ./website
 repo: Mint-System/Odoo-Apps-Website
 title: Website Form Check
 versions:
-- '18.0'
+  - '18.0'
 ---
 
 

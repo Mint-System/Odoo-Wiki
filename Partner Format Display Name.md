@@ -8,7 +8,7 @@ prev: ./contacts
 forge: github.com
 repo: Mint-System/Odoo-Apps-Partner-Contact
 versions:
-- '19.0'
+  - '19.0'
 name: partner_format_display_name
 ---
 

@@ -8,9 +8,9 @@ prev: ./purchase
 repo: Mint-System/Odoo-Apps-Purchase-Workflow
 title: Purchase Order Comment
 versions:
-- '17.0'
-- '16.0'
-- '14.0'
+  - '17.0'
+  - '16.0'
+  - '14.0'
 ---
 
 

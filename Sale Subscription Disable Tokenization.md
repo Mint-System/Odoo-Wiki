@@ -8,8 +8,8 @@ prev: ./website-sale
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Subscription Disable Tokenization
 versions:
-- '18.0'
-- '16.0'
+  - '18.0'
+  - '16.0'
 ---
 
 

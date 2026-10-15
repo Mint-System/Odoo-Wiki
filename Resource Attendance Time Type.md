@@ -8,8 +8,8 @@ prev: ./hr-holidays
 forge: github.com
 repo: Mint-System/Odoo-Apps-HR
 versions:
-- '18.0'
-- '17.0'
+  - '18.0'
+  - '17.0'
 name: resource_attendance_time_type
 ---
 

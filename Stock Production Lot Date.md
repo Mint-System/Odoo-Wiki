@@ -8,7 +8,7 @@ prev: ./stock
 repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
 title: Stock Production Lot Date
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

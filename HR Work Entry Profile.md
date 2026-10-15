@@ -8,7 +8,7 @@ prev: ./hr
 repo: Mint-System/Odoo-Apps-HR
 title: HR Work Entry Profile
 versions:
-- '15.0'
+  - '15.0'
 ---
 
 

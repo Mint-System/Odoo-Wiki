@@ -8,7 +8,7 @@ prev: ./sale
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Order Line Temporary Price
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

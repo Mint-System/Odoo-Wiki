@@ -8,11 +8,11 @@ prev: ./sale
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Order Line Form Action
 versions:
-- '19.0'
-- '18.0'
-- '17.0'
-- '16.0'
-- '15.0'
+  - '19.0'
+  - '18.0'
+  - '17.0'
+  - '16.0'
+  - '15.0'
 ---
 
 

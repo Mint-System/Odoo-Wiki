@@ -8,7 +8,7 @@ prev: ./sale
 repo: OCA/sale-workflow
 title: Sale Product Set Layout
 versions:
-- '15.0'
+  - '15.0'
 ---
 
 

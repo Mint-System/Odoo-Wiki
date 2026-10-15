@@ -8,7 +8,7 @@ prev: ./data-management
 forge: github.com
 repo: Mint-System/Odoo-Apps-Data-Analytic
 versions:
-- '18.0'
+  - '18.0'
 name: jupyter_lab
 ---
 

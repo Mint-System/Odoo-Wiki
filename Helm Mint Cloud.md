@@ -8,7 +8,7 @@ prev: ./kuberentes
 forge: github.com
 repo: Mint-System/Odoo-Apps-Kubernetes
 versions:
-- '18.0'
+  - '18.0'
 name: helm_mintcloud
 ---
 

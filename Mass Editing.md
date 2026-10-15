@@ -8,8 +8,8 @@ prev: ./development
 repo: OCA/server-ux
 title: Mass Editing
 versions:
-- '15.0'
-- '14.0'
+  - '15.0'
+  - '14.0'
 ---
 
 

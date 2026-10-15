@@ -8,9 +8,9 @@ prev: ./discuss-e-mail
 repo: OCA/social
 title: Email Cc and BCC
 versions:
-- '17.0'
-- '16.0'
-- '15.0'
+  - '17.0'
+  - '16.0'
+  - '15.0'
 ---
 
 

@@ -8,7 +8,7 @@ prev: ./hr-attendance
 repo: Mint-System/Odoo-Apps-HR
 title: HR Attendance Missing Contract
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

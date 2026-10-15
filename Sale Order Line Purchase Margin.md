@@ -8,8 +8,8 @@ prev: ./sale-blanket-order
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Order Line Purchase Margin
 versions:
-- '17.0'
-- '14.0'
+  - '17.0'
+  - '14.0'
 ---
 
 

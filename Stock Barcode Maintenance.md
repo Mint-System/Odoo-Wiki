@@ -8,7 +8,7 @@ prev: ./barcode
 repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
 title: Stock Barcode Maintenance
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

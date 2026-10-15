@@ -8,8 +8,8 @@ prev: ./product
 repo: Mint-System/Odoo-Apps-Product-Attribute
 title: Product End Of Life Dates
 versions:
-- '17.0'
-- '15.0'
+  - '17.0'
+  - '15.0'
 ---
 
 

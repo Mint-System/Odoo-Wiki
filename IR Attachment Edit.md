@@ -8,7 +8,7 @@ prev: ./base
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: IR Attachment Edit
 versions:
-- '15.0'
+  - '15.0'
 ---
 
 

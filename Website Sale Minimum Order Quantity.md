@@ -8,8 +8,7 @@ prev: ./website
 repo: Mint-System/Odoo-Apps-Website
 title: Website Sale Minimum Order Quantity
 versions:
-- '16.0'
-- '15.0'
+  - '16.0'
 ---
 
 

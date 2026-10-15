@@ -8,8 +8,8 @@ prev: ./spreadsheets
 repo: Mint-System/Odoo-Apps-Spreadsheet
 title: Spreadsheet Dashboard Disable Share
 versions:
-- '19.0'
-- '18.0'
+  - '19.0'
+  - '18.0'
 ---
 
 

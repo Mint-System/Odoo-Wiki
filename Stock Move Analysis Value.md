@@ -8,7 +8,7 @@ prev: ./stock
 repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
 title: Stock Move Analysis Value
 versions:
-- '17.0'
+  - '17.0'
 ---
 
 

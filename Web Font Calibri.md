@@ -8,7 +8,7 @@ prev: ./web
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Web Font Calibri
 versions:
-- '19.0'
+  - '19.0'
 ---
 
 

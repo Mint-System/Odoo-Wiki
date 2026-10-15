@@ -8,7 +8,7 @@ prev: ./hr-holidays
 repo: Mint-System/Odoo-Apps-HR
 title: HR Attendance Overtime Hours
 versions:
-- '15.0'
+  - '15.0'
 ---
 
 

@@ -8,7 +8,7 @@ prev: ./subscription
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Subscription Invoice Draft
 versions:
-- '18.0'
+  - '18.0'
 ---
 
 # Sale Subscription Invoice Draft

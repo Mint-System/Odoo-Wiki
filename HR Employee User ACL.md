@@ -8,8 +8,8 @@ prev: ./contacts
 repo: Mint-System/Odoo-Apps-HR
 title: HR Employee User ACL
 versions:
-- '18.0'
-- '16.0'
+  - '18.0'
+  - '16.0'
 ---
 
 

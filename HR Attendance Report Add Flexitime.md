@@ -8,7 +8,7 @@ prev: ./hr-attendance
 repo: Mint-System/Odoo-Apps-HR
 title: HR Attendance Report Add Flexitime
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

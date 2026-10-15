@@ -8,8 +8,8 @@ prev: ./order-positions
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Account Move Line Date Order
 versions:
-- '18.0'
-- '16.0'
+  - '18.0'
+  - '16.0'
 ---
 
 

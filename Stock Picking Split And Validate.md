@@ -8,7 +8,7 @@ prev: ./stock
 forge: github.com
 repo: Mint-System/Odoo-Apps-stock-logistics-workflow
 versions:
-- '18.0'
+  - '18.0'
 name: stock_picking_split_and_validate
 ---
 

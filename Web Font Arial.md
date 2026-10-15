@@ -8,8 +8,8 @@ prev: ./web
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Web Font Arial
 versions:
-- '17.0'
-- '16.0'
+  - '17.0'
+  - '16.0'
 ---
 
 

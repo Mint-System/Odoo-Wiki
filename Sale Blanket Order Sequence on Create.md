@@ -8,7 +8,7 @@ prev: ./sale-blanket-order
 forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 versions:
-- '17.0'
+  - '17.0'
 name: sale_blanket_order_sequence_on_create
 ---
 

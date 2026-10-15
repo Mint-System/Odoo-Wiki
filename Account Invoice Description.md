@@ -8,10 +8,10 @@ prev: ./accounting
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Account Invoice Description
 versions:
-- '18.0'
-- '17.0'
-- '15.0'
-- '14.0'
+  - '18.0'
+  - '17.0'
+  - '15.0'
+  - '14.0'
 ---
 
 

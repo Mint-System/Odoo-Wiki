@@ -8,7 +8,7 @@ prev: ./mass-mailing
 repo: OCA/social
 title: Mass Mailing Contact Active
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

@@ -8,7 +8,7 @@ prev: ./HR Payroll
 forge: github.com
 repo: Mint-System/Odoo-Apps-HR
 versions:
-- '18.0'
+  - '18.0'
 name: hr_payslip_report_manual_note
 ---
 

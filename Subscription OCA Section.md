@@ -9,7 +9,7 @@ prev: ./contract
 repo: Mint-System/Odoo-Apps-Contract
 title: Subscription OCA Section
 versions:
-- '17.0'
+  - '17.0'
 ---
 
 

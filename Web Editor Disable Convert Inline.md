@@ -8,8 +8,8 @@ prev: ./web
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Web Editor Disable Convert Inline
 versions:
-- '18.0'
-- '16.0'
+  - '18.0'
+  - '16.0'
 ---
 
 

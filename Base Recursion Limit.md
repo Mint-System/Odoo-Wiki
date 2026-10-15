@@ -8,8 +8,8 @@ prev: ./base
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Base Recursion Limit
 versions:
-- '17.0'
-- '15.0'
+  - '17.0'
+  - '15.0'
 ---
 
 

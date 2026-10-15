@@ -8,9 +8,9 @@ prev: ./invoicing
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Sale Invoice Prepare Bank
 versions:
-- '17.0'
-- '16.0'
-- '14.0'
+  - '17.0'
+  - '16.0'
+  - '14.0'
 ---
 
 

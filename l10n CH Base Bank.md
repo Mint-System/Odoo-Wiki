@@ -8,7 +8,7 @@ prev: ./l10n-ch
 repo: OCA/l10n-switzerland
 title: Switzerland Bank Type
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

@@ -8,7 +8,7 @@ prev: ./development
 repo: OCA/server-ux
 title: Mass Operation Abstract
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

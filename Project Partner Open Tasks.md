@@ -8,7 +8,7 @@ prev: ./project
 repo: Mint-System/Odoo-Apps-Project
 title: Project Partner Open Tasks
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

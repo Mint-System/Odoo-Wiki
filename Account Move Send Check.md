@@ -8,7 +8,7 @@ prev: ./invoicing
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Account Move Send Check
 versions:
-- '18.0'
+  - '18.0'
 ---
 
 

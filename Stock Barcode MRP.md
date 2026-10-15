@@ -8,8 +8,8 @@ prev: ./barcode
 repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
 title: Stock Barcode MRP
 versions:
-- '16.0'
-- '14.0'
+  - '16.0'
+  - '14.0'
 ---
 
 

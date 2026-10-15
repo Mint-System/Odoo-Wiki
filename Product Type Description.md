@@ -8,11 +8,11 @@ prev: ./manufacture
 repo: Mint-System/Odoo-Apps-Product-Attribute
 title: Product Type Description
 versions:
-- '19.0'
-- '17.0'
-- '16.0'
-- '15.0'
-- '14.0'
+  - '19.0'
+  - '17.0'
+  - '16.0'
+  - '15.0'
+  - '14.0'
 ---
 
 

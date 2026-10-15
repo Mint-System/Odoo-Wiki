@@ -8,12 +8,12 @@ prev: ./base
 forge: github.com
 repo: OCA/server-tools
 versions:
-- '19.0'
-- '18.0'
-- '17.0'
-- '16.0'
-- '15.0'
-- '14.0'
+  - '19.0'
+  - '18.0'
+  - '17.0'
+  - '16.0'
+  - '15.0'
+  - '14.0'
 name: module_change_auto_install
 ---
 

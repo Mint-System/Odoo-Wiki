@@ -8,7 +8,7 @@ prev: ./stock
 repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
 title: Stock Move Line Packaging
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

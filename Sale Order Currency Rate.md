@@ -8,7 +8,7 @@ prev: ./sale
 repo: OCA/sale-workflow
 title: Sale Order Currency Rate
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

@@ -8,7 +8,7 @@ prev: ./accounting
 repo: OCA/account-financial-tools
 title: Account Missing Menus
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

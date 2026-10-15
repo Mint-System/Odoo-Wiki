@@ -8,8 +8,8 @@ prev: ./settings-oauth
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Auth OAuth Keycloak
 versions:
-- '15.0'
-- '14.0'
+  - '15.0'
+  - '14.0'
 ---
 
 

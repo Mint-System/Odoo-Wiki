@@ -8,7 +8,7 @@ prev: ./discuss-e-mail
 repo: OCA/mail
 title: Mail Debrand
 versions:
-- '18.0'
+  - '18.0'
 ---
 
 

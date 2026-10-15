@@ -9,7 +9,7 @@ prev: ./purchase
 repo: Mint-System/Odoo-Apps-Purchase-Workflow
 title: Purchase Order Line Relay Price
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

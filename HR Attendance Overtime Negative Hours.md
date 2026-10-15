@@ -8,8 +8,8 @@ prev: ./hr-holidays
 repo: Mint-System/Odoo-Apps-HR
 title: HR Attendance Overtime Negative Hours
 versions:
-- '16.0'
-- '15.0'
+  - '16.0'
+  - '15.0'
 ---
 
 
