@@ -1,5 +1,5 @@
 ---
-title: Discuss Aktivitäten
+title: Dialog Aktivitäten
 description: Arbeitsplanung mit Odoo Aktivitäten.
 kind: howto
 section: true
@@ -7,7 +7,7 @@ prev: ./discuss
 partner: Mint System
 ---
 
-# Discuss Aktivitäten
+# Dialog Aktivitäten
 
 ![icons_odoo_mail](attachments/icons_odoo_mail.png)
 

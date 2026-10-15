@@ -1,5 +1,5 @@
 ---
-title: Discuss Aktionen
+title: Dialog Aktionen
 description: Arbeitsflüsse für Dialog automatisieren.
 kind: howto
 section: true
@@ -7,7 +7,7 @@ prev: ./discuss
 partner: Mint System
 ---
 
-# Discuss Aktionen
+# Dialog Aktionen
 
 ![icons_odoo_mail](attachments/icons_odoo_mail.png)
 

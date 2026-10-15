@@ -63,6 +63,16 @@ Speichern Sie die Verkaufschance in ihrer Pipeline mit _Hinzufügen_.
 
 Odoo kann zum Kunden Unternehmensdaten finden und der Verkaufschance hinzufügen. Wählen Sie eine Verkaufschance auf der Übersicht von _CRM_ aus und klicken Sie auf _Aktionen > Anreichern_. Wenn Odoo Informationen zum Kunden findet, listet es diese auf der rechten Seite im Chatter auf.
 
+## Abwesenheiten
+
+### Stellvertretung für Verkaufschance und Leads festlegen
+
+Sofern man mit Kunden über den Chatter kommuniziert, ist für die Stellvertretung der Follower auf den Verkaufschance und Leads relevant. Im Falle einer Abwesenheit des Vertriebsmitarbeiter richtet dieser die Stellvertretung als Follower ein.
+
+Dazu navigiert er nach _CRM > Verkauf > Meine Pipeline_ und wählt die Listenansicht. Er markiert alle Verkaufschance und wählt _Aktion > Follower hinzufügen/entfernen_. Im Dialog trägt er seine Stellvertretung ein. Damit ist sichergestellt, dass die Stellvertretung bei einer Antwort des Kunden benachrichtigt wird.
+
+Nach der Abwesenheit wählt der Vertriebsmitarbeiter die gleiche Aktion und entfernt die Stellvertretung als Follower.
+
 ## Integration
 
 ### Outlook App einrichten
