@@ -27,7 +27,6 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 | --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | [Product Supplierinfo Update From Invoice](Product%20Supplierinfo%20Update%20From%20Invoice.md)     | Aktualisiert Lieferantenpreis von Rechnung.                                               |
 | [Purchase Blanket Order Sequence on Create](Purchase%20Blanket%20Order%20Sequence%20on%20Create.md) | Namen des Rahmenvertrags beim Abspeichern festlegen gemäss Sequenz                        |
-| [Purchase Order Address](Purchase%20Order%20Address.md)                                             | Bestelladresse von Kunden auf Angebotsanfrage gespeichert.                                |
 | [Purchase Order Comment](Purchase%20Order%20Comment.md)                                             | Kommentar-Feld für Einkaufsaufträge.                                                      |
 | [Purchase Order Line Date](Purchase%20Order%20Line%20Date.md)                                       | Lieferdatum im Wareneingang automatisch nachtragen.                                       |
 | [Purchase Order Line Description](Purchase%20Order%20Line%20Description.md)                         | Nur die Einkaufsbeschreibung in die Einkaufsposition übernehmen.                          |
@@ -42,6 +41,7 @@ Website: <https://www.odoo.com/de_DE/app/purchase>
 | [Purchase Order Type](Purchase%20Order%20Type.md)                                                   | Bestellungen nach Typen organisieren.                                                     |
 | [Purchase Order Validate](Purchase%20Order%20Validate.md)                                           | Bestellung vor Versenden oder Bestätigen überprüfen.                                      |
 | [Purchase Partner Incoterm](Purchase%20Partner%20Incoterm.md)                                       | Standardlieferbedingungen für Lieferanten.                                                |
+| [Purchase Requisition Sequence On Create](Purchase%20Requisition%20Sequence%20On%20Create.md)       | Namen des Rahmenvertrags beim Abspeichern festlegen gemäss Sequenz                        |
 | [Purchase Sale Order Analytic Account](Purchase%20Sale%20Order%20Analytic%20Account.md)             | Kostenstelle von verlinkten Verkaufsauftrag auf Bestellung übertragen.                    |
 | [Purchase Stock Sale Owner](Purchase%20Stock%20Sale%20Owner.md)                                     | Eigentümer auf Wareneingang aus Verkaufsauftrag zuordnen.                                 |
 | [Purchase Tags](Purchase%20Tags.md)                                                                 | Einkaufsbestellungen mit Stichwörter.                                                     |
