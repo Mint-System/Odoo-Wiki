@@ -582,7 +582,10 @@ export default [
         "text": "Documents",
         "collapsible": true,
         "children": [
-          "agreement-legal.md"
+          "agreement-crm.md",
+          "agreement-legal.md",
+          "agreement-puzzle.md",
+          "agreement.md"
         ]
       },
       {
@@ -724,7 +727,8 @@ export default [
         "text": "IoT",
         "collapsible": true,
         "children": [
-          "printnode-base.md"
+          "printnode-base.md",
+          "report-to-qz-tray.md"
         ]
       },
       {
@@ -1168,6 +1172,7 @@ export default [
           "payment-payrexx.md",
           "payment-saferpay.md",
           "saferpay-payment-provider.md",
+          "website-sale-address-optional-fields.md",
           "website-sale-address-optional-phone.md",
           "website-sale-cart-expire.md",
           "website-sale-disable-cart.md",
@@ -1272,6 +1277,7 @@ export default [
         "text": "License",
         "collapsible": true,
         "children": [
+          "license-ocad-mail.md",
           "license-ocad.md",
           "license-partner-comission.md",
           "license-portal.md",

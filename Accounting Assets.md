@@ -13,6 +13,12 @@ partner: Mint System
 
 {{ $frontmatter.description }}
 
+## Konfiguration
+
+### Automatische Generierung von Rechnungsabgrenzungsposten deaktiveiren
+
+Um die automatische Generierung von Abschreibungsbuchungen zu verhindern, Navigieren Nach _Einstellungen > Buchhaltung_. Im Abschnitt _Aktive Rechnungsabgrenzungsposten_ legen Sie _Buchungen generieren_ auf _Manuell & Gruppiert_. Nehmen Sie dieselbe Einstellung für _Passive Rechnungsabgrenzungsposten_ vor. 
+
 ## Anlagenverwaltung
 
 ### Journal Inventur erstellen
