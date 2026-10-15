@@ -75,6 +75,7 @@ get-frontmatter-field() {
             sub(/^'"$FIELD"':[ \t]*/, "")
             # Strip surrounding quotes if present
             gsub(/^'"'"'|'"'"'$/, "")
+            gsub(/^"|"$/, "")
             print
             found=1
         }
@@ -86,14 +87,15 @@ set-frontmatter-field() {
     shift
     local VERSIONS=("$@")
 
-    # Build the replacement block: "versions:\n- 'x.y'\n- ..."
+    # Build the replacement block: "versions:\n  - 'x.y'\n  - ..."
     local NEW_BLOCK="versions:"
     for V in "${VERSIONS[@]}"; do
-        NEW_BLOCK="${NEW_BLOCK}\n- '${V}'"
+        NEW_BLOCK="${NEW_BLOCK}\n  - '${V}'"
     done
 
     # Use awk to replace the existing versions block inside the frontmatter.
     # The versions block may span multiple lines (the key line + list items).
+    # Skips any lines that are part of a YAML block sequence (optional indent + "- ").
     awk -v new_block="$NEW_BLOCK" '
         BEGIN { in_fm=0; in_versions=0; fm_done=0 }
         /^---$/ {
@@ -110,8 +112,8 @@ set-frontmatter-field() {
                 next
             }
             if (in_versions) {
-                # Skip continuation list items (lines starting with "- ")
-                if (/^- /) { next }
+                # Skip continuation list items (lines starting with optional whitespace + "- ")
+                if (/^[ \t]*- /) { next }
                 else { in_versions=0 }
             }
             print
@@ -193,9 +195,14 @@ update-module-versions() {
             # Test each version and collect available ones
             local AVAILABLE_VERSIONS=()
             for VERSION in "${VERSIONS[@]}"; do
-                local URL="https://${FORGE}/${REPO}/tree/${VERSION}/${NAME}"
+                local URL
+                if [[ "${FORGE}" == "github.com" ]]; then
+                    URL="https://raw.githubusercontent.com/${REPO}/${VERSION}/${NAME}/__manifest__.py"
+                else
+                    URL="https://${FORGE}/${REPO}/tree/${VERSION}/${NAME}"
+                fi
                 local HTTP_STATUS
-                HTTP_STATUS=$(curl -o /dev/null -s -w "%{http_code}" "$URL")
+                HTTP_STATUS=$(curl -o /dev/null -s -w "%{http_code}" --max-time 10 "$URL" || echo "ERR")
                 if [[ "$HTTP_STATUS" == "200" ]]; then
                     echo "  ✓ $VERSION available ($URL)"
                     AVAILABLE_VERSIONS+=("$VERSION")

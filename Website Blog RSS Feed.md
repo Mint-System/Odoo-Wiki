@@ -8,7 +8,7 @@ prev: ./website
 forge: github.com
 repo: Mint-System/Odoo-Apps-Website
 versions:
-- '19.0'
+- '18.0'
 name: website_blog_rss_feed
 ---
 

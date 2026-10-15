@@ -119,7 +119,7 @@ Die Datenqualität ganz einfach verbessern.
 
 Importieren und Exportieren Sie alle Odoo Daten.
 
-### [Discuss](Discuss.md)
+### [Dialog](Discuss.md)
 
 [![icons_odoo_mail](attachments/icons_odoo_mail.png)](Discuss.md)
 

@@ -8,6 +8,7 @@ prev: ./mass-mailing
 repo: OCA/mass-mailing
 title: Dynamic Mass Mailing Lists
 versions:
+- '19.0'
 - '18.0'
 ---
 

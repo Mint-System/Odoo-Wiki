@@ -8,6 +8,7 @@ prev: ./settings
 repo: OCA/server-backend
 title: Base User Role Company
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'

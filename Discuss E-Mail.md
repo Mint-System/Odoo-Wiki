@@ -1,5 +1,5 @@
 ---
-title: Discuss E-Mail
+title: Dialog E-Mail
 description: E-Mail mit Odoo versenden.
 kind: howto
 section: true

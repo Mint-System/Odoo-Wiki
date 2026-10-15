@@ -8,6 +8,7 @@ prev: ./base
 repo: OCA/server-ux
 title: Base Optional Quick Create
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'

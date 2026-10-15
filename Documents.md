@@ -23,9 +23,12 @@ Website: <https://www.odoo.com/de_DE/app/documents>
 
 ## Erweiterungen
 
-| Erweiterung                             | Beschreibung                               |
-| --------------------------------------- | ------------------------------------------ |
-| [Agreement Legal](Agreement%20Legal.md) | Verträge und Vereinbarungen dokumentieren. |
+| Erweiterung                               | Beschreibung                                    |
+| ----------------------------------------- | ----------------------------------------------- |
+| [Agreement CRM](Agreement%20CRM.md)       | Vereinbarungen aus Chancen erstellen.           |
+| [Agreement Legal](Agreement%20Legal.md)   | Verträge und und Vorlage für Rechtsabteilung.   |
+| [Agreement Puzzle](Agreement%20Puzzle.md) | Zusätzliche Felder auf Vereinbarung für Puzzle. |
+| [Agreement](Agreement.md)                 | Basismodul für Vereinbarungen.                  |
 
 ## Konfiguration
 

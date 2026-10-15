@@ -8,6 +8,7 @@ prev: ./dashboards
 repo: OCA/account-financial-reporting
 title: MIS Builder Cash Flow
 versions:
+- '19.0'
 - '18.0'
 - '17.0'
 - '16.0'
