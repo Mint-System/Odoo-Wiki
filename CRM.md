@@ -65,9 +65,9 @@ Odoo kann zum Kunden Unternehmensdaten finden und der Verkaufschance hinzufügen
 
 ## Abwesenheiten
 
-### Stellvertretung für Verkaufschance und Leads festlegen
+### Stellvertretung für Verkaufschance festlegen
 
-Sofern man mit Kunden über den Chatter kommuniziert, ist für die Stellvertretung der Follower auf den Verkaufschance und Leads relevant. Im Falle einer Abwesenheit des Vertriebsmitarbeiter richtet dieser die Stellvertretung als Follower ein.
+Sofern man mit Kunden über den Chatter kommuniziert, ist für die Stellvertretung der Follower auf den Verkaufschancen relevant. Im Falle einer Abwesenheit des Vertriebsmitarbeiter richtet dieser die Stellvertretung als Follower ein.
 
 Dazu navigiert er nach _CRM > Verkauf > Meine Pipeline_ und wählt die Listenansicht. Er markiert alle Verkaufschance und wählt _Aktion > Follower hinzufügen/entfernen_. Im Dialog trägt er seine Stellvertretung ein. Damit ist sichergestellt, dass die Stellvertretung bei einer Antwort des Kunden benachrichtigt wird.
 
