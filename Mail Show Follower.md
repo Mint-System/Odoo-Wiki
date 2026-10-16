@@ -8,8 +8,8 @@ prev: ./discuss-e-mail
 repo: OCA/mail
 title: Mail Show Follower
 versions:
-- '19.0'
-- '18.0'
+  - '19.0'
+  - '18.0'
 ---
 
 

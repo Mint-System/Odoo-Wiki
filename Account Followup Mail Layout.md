@@ -8,7 +8,7 @@ prev: ./invoicing-followup
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Account Followup Mail Layout
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

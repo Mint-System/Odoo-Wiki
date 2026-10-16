@@ -8,7 +8,7 @@ prev: ./l10n-ch
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: l10n CH Invoice Reports with Payments
 versions:
-- '15.0'
+  - '15.0'
 ---
 
 

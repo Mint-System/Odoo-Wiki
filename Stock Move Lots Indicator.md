@@ -9,7 +9,7 @@ prev: ./stock
 repo: Mint-System/Odoo-Apps-stock-logistics-workflow
 title: Stock Move Lots Indicator
 versions:
-- '18.0'
+  - '18.0'
 ---
 
 

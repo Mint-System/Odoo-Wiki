@@ -8,8 +8,8 @@ prev: ./hr-recruitment
 repo: Mint-System/Odoo-Apps-HR
 title: HR Recruitment Firstname
 versions:
-- '16.0'
-- '14.0'
+  - '16.0'
+  - '14.0'
 ---
 
 

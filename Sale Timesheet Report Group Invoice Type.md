@@ -8,8 +8,8 @@ prev: ./sale-timesheet
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Timesheet Report Group Invoice Type
 versions:
-- '18.0'
-- '16.0'
+  - '18.0'
+  - '16.0'
 ---
 
 

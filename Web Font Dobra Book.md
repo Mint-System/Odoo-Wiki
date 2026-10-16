@@ -8,7 +8,7 @@ prev: ./web
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Web Font Dobra Book
 versions:
-- '17.0'
+  - '17.0'
 ---
 
 

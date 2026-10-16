@@ -8,7 +8,7 @@ prev: ./settings
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Web Enterprise Admin Expiration Panel
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

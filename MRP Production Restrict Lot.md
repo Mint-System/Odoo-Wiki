@@ -8,7 +8,7 @@ prev: ./manufacture
 repo: Mint-System/Odoo-Apps-Manufacture
 title: MRP Production Restrict Lot
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

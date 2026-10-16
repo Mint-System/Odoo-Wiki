@@ -9,7 +9,7 @@ prev: ./stock
 repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
 title: AMQP Base
 versions:
-- '15.0'
+  - '15.0'
 ---
 
 

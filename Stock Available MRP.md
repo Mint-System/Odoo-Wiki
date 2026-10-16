@@ -8,8 +8,8 @@ prev: ./warehouse
 repo: OCA/stock-logistics-warehouse
 title: Consider the production potential is available to promise
 versions:
-- '15.0'
-- '14.0'
+  - '15.0'
+  - '14.0'
 ---
 
 

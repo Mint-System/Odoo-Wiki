@@ -8,7 +8,7 @@ prev: ./sale
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Order Delivery Note
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

@@ -8,7 +8,7 @@ prev: ./discuss-e-mail
 forge: github.com
 repo: OCA/server-brand
 versions:
-- '19.0'
+  - '19.0'
 name: mail_debranding
 ---
 

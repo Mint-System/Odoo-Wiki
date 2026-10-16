@@ -8,7 +8,7 @@ prev: ./stock
 repo: Mint-System/Odoo-Apps-Product-Attribute
 title: Product Packaging Parent
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

@@ -8,7 +8,7 @@ prev: ./base
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Show DB Name
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

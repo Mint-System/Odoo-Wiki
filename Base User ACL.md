@@ -8,8 +8,8 @@ prev: ./base
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Base User ACL
 versions:
-- '18.0'
-- '16.0'
+  - '18.0'
+  - '16.0'
 ---
 
 

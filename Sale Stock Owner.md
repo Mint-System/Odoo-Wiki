@@ -8,8 +8,8 @@ prev: ./sale-stock
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Stock Owner
 versions:
-- '17.0'
-- '15.0'
+  - '17.0'
+  - '15.0'
 ---
 
 

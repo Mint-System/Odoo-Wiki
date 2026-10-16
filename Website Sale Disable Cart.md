@@ -9,7 +9,7 @@ prev: ./website-sale
 repo: Mint-System/Odoo-Apps-Website
 title: Website Sale Disable Cart
 versions:
-- '18.0'
+  - '18.0'
 ---
 
 

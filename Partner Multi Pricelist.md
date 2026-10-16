@@ -8,7 +8,7 @@ prev: ./contacts
 repo: Mint-System/Odoo-Apps-Partner-Contact
 title: Partner Multi Pricelist
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

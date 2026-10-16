@@ -8,8 +8,8 @@ prev: ./purchase
 repo: Mint-System/Odoo-Apps-Purchase-Workflow
 title: Purchase Stock Sale Owner
 versions:
-- '17.0'
-- '15.0'
+  - '17.0'
+  - '15.0'
 ---
 
 

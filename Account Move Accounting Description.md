@@ -8,7 +8,7 @@ prev: ./accounting
 repo: OCA/account-invoicing
 title: Account Move Accounting Description
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

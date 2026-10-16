@@ -8,7 +8,7 @@ prev: ./invoicing
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Sale Invoice Ignore Ref
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

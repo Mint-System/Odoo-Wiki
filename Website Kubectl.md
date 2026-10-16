@@ -8,7 +8,7 @@ prev: ./kubernetes
 repo: Mint-System/Odoo-Apps-Kubernetes
 title: Website Kubectl
 versions:
-- '18.0'
+  - '18.0'
 ---
 
 

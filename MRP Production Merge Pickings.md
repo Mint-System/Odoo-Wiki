@@ -8,8 +8,8 @@ prev: ./manufacture
 forge: github.com
 repo: Mint-System/Odoo-Apps-Manufacture
 versions:
-- '19.0'
-- '18.0'
+  - '19.0'
+  - '18.0'
 name: mrp_production_merge_pickings
 ---
 

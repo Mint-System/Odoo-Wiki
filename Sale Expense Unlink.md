@@ -8,11 +8,11 @@ prev: ./hr-expense
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Expense Unlink
 versions:
-- '18.0'
-- '17.0'
-- '16.0'
-- '15.0'
-- '14.0'
+  - '18.0'
+  - '17.0'
+  - '16.0'
+  - '15.0'
+  - '14.0'
 ---
 
 

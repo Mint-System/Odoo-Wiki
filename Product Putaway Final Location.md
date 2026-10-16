@@ -8,7 +8,7 @@ prev: ./product
 repo: Mint-System/Odoo-Apps-Product-Attribute
 title: Product Putaway Final Location
 versions:
-- '17.0'
+  - '17.0'
 ---
 
 

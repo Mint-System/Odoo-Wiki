@@ -8,11 +8,11 @@ repo: OCA/sale-workflow
 tags:
 title: Sale Start End Dates
 versions:
-- '18.0'
-- '17.0'
-- '16.0'
-- '15.0'
-- '14.0'
+  - '18.0'
+  - '17.0'
+  - '16.0'
+  - '15.0'
+  - '14.0'
 partner: OCA
 ---
 

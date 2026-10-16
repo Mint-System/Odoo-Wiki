@@ -8,8 +8,8 @@ prev: ./hr-attendance
 repo: Mint-System/Odoo-Apps-HR
 title: HR Attendance Delta
 versions:
-- '18.0'
-- '16.0'
+  - '18.0'
+  - '16.0'
 ---
 
 

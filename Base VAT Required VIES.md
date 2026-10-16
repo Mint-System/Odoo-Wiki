@@ -8,7 +8,7 @@ prev: ./database
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Base VAT Required VIES
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

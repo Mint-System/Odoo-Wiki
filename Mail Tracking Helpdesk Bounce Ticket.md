@@ -8,7 +8,7 @@ prev: ./discuss
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Mail Tracking Helpdesk Bounce Ticket
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

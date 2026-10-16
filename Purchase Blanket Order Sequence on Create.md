@@ -8,7 +8,7 @@ prev: ./purchase
 forge: github.com
 repo: Mint-System/Odoo-Apps-Purchase-Workflow
 versions:
-- '17.0'
+  - '17.0'
 name: purchase_blanket_order_sequence_on_create
 ---
 

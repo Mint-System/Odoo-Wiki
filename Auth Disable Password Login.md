@@ -8,7 +8,7 @@ prev: ./settings
 forge: github.com
 repo: Mint-System/Odoo-Apps-Server-Tools
 versions:
-- '19.0'
+  - '19.0'
 name: auth_disable_password_login
 ---
 

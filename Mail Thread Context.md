@@ -8,7 +8,7 @@ prev: ./discuss-e-mail
 repo: Mint-System/Odoo-Apps-Social
 title: Mail Thread Context
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

@@ -8,8 +8,8 @@ prev: ./discuss
 repo: OCA/mail
 title: Mail Tracking
 versions:
-- '19.0'
-- '18.0'
+  - '19.0'
+  - '18.0'
 ---
 
 

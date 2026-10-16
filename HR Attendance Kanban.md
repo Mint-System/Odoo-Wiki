@@ -8,8 +8,8 @@ prev: ./hr-attendance
 repo: sozialinfo/hr-attendance
 title: HR Attendance Kanban
 versions:
-- '18.0'
-- '16.0'
+  - '18.0'
+  - '16.0'
 ---
 
 

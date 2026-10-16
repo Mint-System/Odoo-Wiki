@@ -8,8 +8,8 @@ prev: ./stock
 repo: OCA/stock-logistics-workflow
 title: Stock Picking Start
 versions:
-- '16.0'
-- '15.0'
+  - '16.0'
+  - '15.0'
 ---
 
 

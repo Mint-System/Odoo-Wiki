@@ -8,7 +8,7 @@ prev: ./sale
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Order Permit
 versions:
-- '18.0'
+  - '18.0'
 ---
 
 

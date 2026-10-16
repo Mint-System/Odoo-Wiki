@@ -8,7 +8,7 @@ prev: ./invoicing
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Purchase Invoice Prepare Partner
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

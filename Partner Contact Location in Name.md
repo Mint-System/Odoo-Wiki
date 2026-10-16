@@ -8,8 +8,8 @@ prev: ./contacts
 repo: Mint-System/Odoo-Apps-Partner-Contact
 title: Partner Contact Location in Name
 versions:
-- '16.0'
-- '14.0'
+  - '16.0'
+  - '14.0'
 ---
 
 

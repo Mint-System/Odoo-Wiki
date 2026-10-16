@@ -8,7 +8,7 @@ prev: ./hr-holidays
 repo: Mint-System/Odoo-Apps-HR
 title: HR Attendance IP Check
 versions:
-- '15.0'
+  - '15.0'
 ---
 
 

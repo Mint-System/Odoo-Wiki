@@ -8,7 +8,7 @@ prev: ./stock
 repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow
 title: Stock Move Show Tracking
 versions:
-- '18.0'
+  - '18.0'
 ---
 
 

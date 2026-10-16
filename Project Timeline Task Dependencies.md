@@ -8,7 +8,7 @@ prev: ./project
 repo: OCA/project
 title: Project Timeline Task Dependencies
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

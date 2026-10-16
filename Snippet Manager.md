@@ -8,7 +8,7 @@ prev: ./development
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Snippet Manager
 versions:
-- '18.0'
+  - '18.0'
 ---
 
 

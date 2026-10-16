@@ -8,12 +8,12 @@ prev: ./invoicing
 repo: OCA/account-invoicing
 title: Sale Order Invoicing Grouping Criteria
 versions:
-- '19.0'
-- '18.0'
-- '17.0'
-- '16.0'
-- '15.0'
-- '14.0'
+  - '19.0'
+  - '18.0'
+  - '17.0'
+  - '16.0'
+  - '15.0'
+  - '14.0'
 ---
 
 

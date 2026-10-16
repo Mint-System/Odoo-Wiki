@@ -8,9 +8,9 @@ prev: ./accounting
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Sale Move Reconciled Date
 versions:
-- '17.0'
-- '16.0'
-- '14.0'
+  - '17.0'
+  - '16.0'
+  - '14.0'
 ---
 
 

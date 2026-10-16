@@ -8,8 +8,8 @@ prev: ./l10n-ch
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: l10n CH QR Code Ref
 versions:
-- '17.0'
-- '15.0'
+  - '17.0'
+  - '15.0'
 ---
 
 

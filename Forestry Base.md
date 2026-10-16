@@ -9,7 +9,7 @@ prev: ./
 repo: Mint-System/Odoo-Apps-Vertical-Forestry
 title: Holzwirtschaft
 versions:
-- '15.0'
+  - '15.0'
 ---
 
 

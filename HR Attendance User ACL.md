@@ -8,8 +8,8 @@ prev: ./hr-holidays
 repo: Mint-System/Odoo-Apps-HR
 title: HR Attendance User ACL
 versions:
-- '18.0'
-- '16.0'
+  - '18.0'
+  - '16.0'
 ---
 
 

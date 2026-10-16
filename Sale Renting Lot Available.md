@@ -8,7 +8,7 @@ prev: ./sale-renting
 forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 versions:
-- '19.0'
+  - '19.0'
 name: sale_renting_lot_available
 ---
 

@@ -9,7 +9,7 @@ prev: ./purchase
 repo: Mint-System/Odoo-Apps-Purchase-Workflow
 title: Product Supplierinfo Update From Invoice
 versions:
-- '18.0'
+  - '18.0'
 ---
 
 

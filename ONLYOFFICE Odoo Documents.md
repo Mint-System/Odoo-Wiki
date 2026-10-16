@@ -8,10 +8,10 @@ prev: ./onlyoffice
 forge: github.com
 repo: ONLYOFFICE/onlyoffice_odoo
 versions:
-- '19.0'
-- '18.0'
-- '17.0'
-- '16.0'
+  - '19.0'
+  - '18.0'
+  - '17.0'
+  - '16.0'
 name: onlyoffice_odoo_documents
 ---
 

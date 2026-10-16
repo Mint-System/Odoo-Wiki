@@ -9,7 +9,7 @@ prev: ./stock
 repo: Mint-System/Odoo-Apps-stock-logistics-workflow
 title: Stock Move Lot Add Default Code
 versions:
-- '19.0'
+  - '19.0'
 ---
 
 

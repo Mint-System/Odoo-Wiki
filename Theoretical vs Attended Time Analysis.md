@@ -9,12 +9,12 @@ prev: ./hr-attendance
 repo: OCA/hr-attendance
 title: Theoretical vs Attended Time Analysis
 versions:
-- '19.0'
-- '18.0'
-- '17.0'
-- '16.0'
-- '15.0'
-- '14.0'
+  - '19.0'
+  - '18.0'
+  - '17.0'
+  - '16.0'
+  - '15.0'
+  - '14.0'
 ---
 
 

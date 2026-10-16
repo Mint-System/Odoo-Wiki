@@ -8,7 +8,7 @@ prev: ./manufacture
 forge: github.com
 repo: Mint-System/Odoo-Apps-Manufacture
 versions:
-- '18.0'
+  - '18.0'
 name:  mrp_routing_workcenter_time_start
 ---
 

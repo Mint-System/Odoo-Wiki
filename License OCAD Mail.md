@@ -8,8 +8,8 @@ prev: ./license
 forge: github.com
 repo: Mint-System/Odoo-Apps-Vertical-SaaS
 versions:
-- '18.0'
-- '16.0'
+  - '18.0'
+  - '16.0'
 name: license_ocad_mail
 ---
 

@@ -8,8 +8,8 @@ prev: ./accounting
 repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
 title: Account Report Referrer
 versions:
-- '18.0'
-- '16.0'
+  - '18.0'
+  - '16.0'
 ---
 
 

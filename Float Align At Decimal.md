@@ -8,7 +8,7 @@ prev: ./development
 repo: Mint-System/Odoo-Apps-Server-Tools
 title: Float align at decimal
 versions:
-- '16.0'
+  - '16.0'
 ---
 
 

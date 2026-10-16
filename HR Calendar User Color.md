@@ -8,8 +8,7 @@ prev: ./hr
 repo: Mint-System/Odoo-Apps-HR
 title: HR Calendar User Color
 versions:
-- '17.0'
-- '16.0'
+  - '17.0'
 ---
 
 

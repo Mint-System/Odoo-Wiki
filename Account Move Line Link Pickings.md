@@ -8,7 +8,7 @@ prev: ./accounting
 repo: Mint-System/Odoo-Apps-Account-Invoicing
 title: Account Move Line Link Pickings
 versions:
-- '14.0'
+  - '14.0'
 ---
 
 

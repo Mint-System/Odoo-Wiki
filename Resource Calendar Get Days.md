@@ -9,7 +9,7 @@ prev: ./hr
 repo: Mint-System/Odoo-Apps-HR
 title: Resource Calendar Get Days
 versions:
-- '15.0'
+  - '15.0'
 ---
 
 

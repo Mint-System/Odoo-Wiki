@@ -8,9 +8,9 @@ prev: ./project
 repo: Mint-System/Odoo-Apps-Project
 title: Project Phase Estimate
 versions:
-- '18.0'
-- '16.0'
-- '15.0'
+  - '18.0'
+  - '16.0'
+  - '15.0'
 ---
 
 

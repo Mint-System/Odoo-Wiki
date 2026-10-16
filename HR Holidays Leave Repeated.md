@@ -8,8 +8,8 @@ prev: ./hr-holidays
 repo: OCA/hr-holidays
 title: HR Holidays Leave Repeated
 versions:
-- '18.0'
-- '14.0'
+  - '18.0'
+  - '14.0'
 ---
 
 

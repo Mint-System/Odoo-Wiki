@@ -8,8 +8,8 @@ prev: ./manufacture
 repo: Mint-System/Odoo-Apps-Manufacture
 title: MRP Production Create Upstream Backorder
 versions:
-- '17.0'
-- '14.0'
+  - '17.0'
+  - '14.0'
 ---
 
 

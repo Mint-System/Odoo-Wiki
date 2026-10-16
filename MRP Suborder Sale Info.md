@@ -8,7 +8,7 @@ prev: ./manufacture
 repo: Mint-System/Odoo-Apps-Manufacture
 title: MRP Suborder Sale Info
 versions:
-- '17.0'
+  - '17.0'
 ---
 
 

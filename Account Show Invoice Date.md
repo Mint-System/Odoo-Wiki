@@ -8,7 +8,7 @@ prev: ./accounting
 repo: Mint-System/Odoo-Apps-Account-Financial-Reporting
 title: Account Show Invoice Date
 versions:
-- '15.0'
+  - '15.0'
 ---
 
 

@@ -8,9 +8,9 @@ prev: ./discuss
 repo: Mint-System/Odoo-Apps-Social
 title: Purchase Order Unsubscribe
 versions:
-- '17.0'
-- '16.0'
-- '14.0'
+  - '17.0'
+  - '16.0'
+  - '14.0'
 ---
 
 

@@ -8,8 +8,8 @@ prev: ./management-system
 repo: Mint-System/Odoo-Apps-Management-System
 title: Mgmt Asset HR
 versions:
-- '19.0'
-- '18.0'
+  - '19.0'
+  - '18.0'
 ---
 
 
