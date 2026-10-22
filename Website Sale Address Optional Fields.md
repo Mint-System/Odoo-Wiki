@@ -31,3 +31,7 @@ Mit dieser Erweiterung können in der Konfiguration einer Website Felder des Adr
 ### Optionale Felder festlegen
 
 Gehen Sie auf _Webseite > Konfiguration > Einstellungen > Shop - Checkout Process_ (Odoo 19: _eCommerce_) und wählen sie bei _Optional Address Fields_ die entsprechenden Felder aus.
+
+::: tip
+Auf eneun Websites ist Name, E-mail und Phone als Standard hinterlegt.
+:::
