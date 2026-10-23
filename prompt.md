@@ -2,7 +2,7 @@
 title: "Fix wrong tag attribute"
 author: "Janik von Rotz <login@janikvonrotz.ch>"
 action: implement
-state: review
+state: completed
 date_completed: 2025-08-21
 harness:
 model:
