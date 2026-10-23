@@ -23,7 +23,7 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Der Standardbericht "Analyse von Zeiterfassung/Anwesenheiten" in Zeiterfassung wurde um drei Felder erweitert, die die jeweiligen Zeiterfassungsstunden nach den Kategorien "abrechenbar", "nicht abrechenbar" oder "intern" zusammenfassen. 
+Der Standardbericht _Analyse von Zeiterfassung/Anwesenheiten_ in Zeiterfassung wurde um drei Felder erweitert, die die jeweiligen Zeiterfassungsstunden nach den Kategorien "abrechenbar", "nicht abrechenbar" oder "intern" zusammenfassen. 
 
 Die Gruppierung erfolgt anhand der folgenden Kriterien:
 
