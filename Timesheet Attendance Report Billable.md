@@ -24,9 +24,9 @@ Runboat: <a v-bind:href="`https://runboat.odoo-community.org/builds?repo=${$fron
 
 ## Beschreibung
 
-The standard timesheet/attendance report in the timesheet module is expanded with 3 fields that sum which timesheet entries are billable, non-billable or internal.
+Der Standardbericht "Analyse von Zeiterfassung/Anwesenheiten" in Zeiterfassung wurde um drei Felder erweitert, die die jeweiligen Zeiterfassungsstunden nach den Kategorien „abrechenbar“, „nicht abrechenbar“ oder „intern“ zusammenfassen. 
 
-They are grouped by these conditions:
-- With sale order and timesheet_invoice_type != non-billable -> Billable
-- With sale order and timesheet_invoice_type == non-billable -> Non Billable
-- Without sale order -> Internal
+Die Gruppierung erfolgt anhand der folgenden Kriterien: 
+- Mit Verkaufsauftrag und `timesheet_invoice_type` != „nicht abrechenbar“ -> Abrechenbar 
+- Mit Verkaufsauftrag und `timesheet_invoice_type` == „nicht abrechenbar“ -> Nicht abrechenbar 
+- Ohne Verkaufsauftrag -> Intern
