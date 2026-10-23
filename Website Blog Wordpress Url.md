@@ -2,8 +2,7 @@
 title: Website Blog Wordpress Url
 description: Blog-Post Urls im Stil von Wordpress generieren.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./website
 forge: github.com
 repo: Mint-System/Odoo-Apps-Website

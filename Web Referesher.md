@@ -5,7 +5,6 @@ kind: howto
 name: web_refresher
 prev: ./web
 repo: OCA/Web
-tags:
 title: Web Referesher
 versions:
   - '19.0'

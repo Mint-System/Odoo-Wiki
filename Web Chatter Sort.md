@@ -2,7 +2,6 @@
 title: Web Chatter Sort
 description: Chatter-Nachrichten gemäss Datum sortieren.
 kind: howto
-tags:
 prev: ./discuss
 forge: github.com
 repo: Mint-System/Odoo-Apps-Social

@@ -5,7 +5,6 @@ kind: howto
 name: mail_template_multi_attachment
 prev: ./discuss-e-mail
 repo: OCA/social
-tags:
 title: Mail template multi attachment
 versions:
   - '16.0'

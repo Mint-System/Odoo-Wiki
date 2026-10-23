@@ -2,8 +2,7 @@
 title: Calendar CRM Link
 description: Events mit Chancen verlinken.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./crm
 forge: github.com
 repo: Mint-System/Odoo-Apps-Partner-Contact

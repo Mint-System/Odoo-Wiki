@@ -2,8 +2,7 @@
 title: Website Sale Address Optional Fields
 description: Legt optionale Felder im Adressformular via Setting fest.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./website-sale
 forge: github.com
 repo: Mint-System/Odoo-Apps-Website

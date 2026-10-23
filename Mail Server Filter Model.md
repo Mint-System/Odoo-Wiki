@@ -2,8 +2,7 @@
 title: Mail Server Filter Model
 description: Schränkt E-Mail-Versand über einen Server auf explizit erlaubte Modelle ein.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./base
 forge: github.com
 repo: Mint-System/Odoo-Apps-Server-Tools

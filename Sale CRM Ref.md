@@ -2,7 +2,6 @@
 title: Sale CRM Ref
 description: Name von Lead als Referenz für Angebot übertragen.
 kind: howto
-tags:
 prev: ./crm
 forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow

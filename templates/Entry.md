@@ -2,8 +2,7 @@
 title: {{VALUE:name}}
 description: {{VALUE:description}}
 kind: howto
-tags:
-  - {{VALUE:org_name}}
+partner: {{VALUE:org_name}}
 prev: {{VALUE:prev}}
 forge: github.com
 repo: {{VALUE:org_name}}/{{VALUE:repo_name}}

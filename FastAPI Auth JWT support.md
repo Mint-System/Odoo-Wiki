@@ -5,7 +5,6 @@ kind: howto
 name: fastapi_auth_jwt
 prev: ./development
 repo: OCA/rest-framework
-tags:
 title: FastAPI Auth JWT support
 versions:
   - '18.0'

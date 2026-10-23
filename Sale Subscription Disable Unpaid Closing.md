@@ -2,8 +2,7 @@
 title: Sale Subscription Disable Unpaid Closing
 description: Verhindert, dass Abonnements mit offenen Rechnungen geschlossen werden.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./subscription
 forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow

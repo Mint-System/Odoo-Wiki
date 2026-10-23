@@ -2,8 +2,7 @@
 title: Timesheet Attendance Report Billable
 description: Addition of billable, non-billable and internal hours in standard timesheet attendance report.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./hr-timesheet
 forge: github.com
 repo: Mint-System/Odoo-Apps-HR

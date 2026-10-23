@@ -2,8 +2,7 @@
 title: Sale Blanket Order Sequence on Create
 description: Legt den Namen des Auftrags beim Erzeugen an gemäss Sequenz.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./sale-blanket-order
 forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow

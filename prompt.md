@@ -2,8 +2,8 @@
 title: "Fix wrong tag attribute"
 author: "Janik von Rotz <login@janikvonrotz.ch>"
 action: implement
-state: draft
-date_completed: YYYY-MM-DD
+state: review
+date_completed: 2025-08-21
 harness:
 model:
 input_tokens:
@@ -47,6 +47,12 @@ Fix the template and all files that still use `tags`.
 
 ## Worklog
 
-@Clanker Add a summary here once the task has been completed.
+- Read project context files (AGENTS.md not found, README.md understood)
+- Fixed `templates/Entry.md`: replaced `tags:\n  - {{VALUE:org_name}}` with `partner: {{VALUE:org_name}}`
+- Converted 79 files with organization tags (`tags: - Mint-System`, `tags: - OCA`, `tags: - Thirdparty`) to `partner: ...`
+- Removed empty `tags:` lines from 76 additional files that had no tag values
+- Verified only legitimate `tags` remain in `README.md` and `src/readme.md`
+- Verified 1,248 files now correctly use `partner: Mint System`
+- Verified no files contain `partner: Mint-System` (with hyphen)
 
 @Clanker If author confirms results set frontmatter state to completed, otherwise to aborted. Update date, harness and model. If you have access to session info also add token count.

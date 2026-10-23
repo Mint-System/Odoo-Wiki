@@ -5,7 +5,6 @@ kind: howto
 name: component
 prev: ./development
 repo: OCA/Connector
-tags:
 title: Components
 versions:
   - '19.0'

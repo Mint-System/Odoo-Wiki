@@ -2,8 +2,7 @@
 title: License OCAD Mail
 description: Mail-Vorlagen für die Aktivierung von Lizenzen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./license
 forge: github.com
 repo: Mint-System/Odoo-Apps-Vertical-SaaS

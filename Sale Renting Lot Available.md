@@ -2,8 +2,7 @@
 title: Sale Renting Lot Available
 description: Lose von vermietbaren Produkte in Gantt-Ansicht planen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./sale-renting
 forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow

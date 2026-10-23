@@ -2,8 +2,7 @@
 title: Mail Debranding
 description: Odoo Promotion aus E-Mail-Vorlagen entfernen.
 kind: howto
-tags:
-  - OCA
+partner: OCA
 prev: ./discuss-e-mail
 forge: github.com
 repo: OCA/server-brand

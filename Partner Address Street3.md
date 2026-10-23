@@ -5,7 +5,6 @@ kind: howto
 name: partner_address_street3
 prev: ./contacts
 repo: OCA/Partner-Contact
-tags:
 title: Street3 in addresses
 versions:
   - '19.0'

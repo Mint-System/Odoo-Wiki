@@ -5,7 +5,6 @@ kind: howto
 name: fs_folder
 prev: ./development
 repo: OCA/Storage
-tags:
 title: Fs Folder
 versions:
   - '19.0'

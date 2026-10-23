@@ -2,8 +2,7 @@
 title: Change auto installable modules
 description: Auto-Installation für ausgewählte Module deaktivieren.
 kind: howto
-tags:
-  - OCA
+partner: OCA
 prev: ./base
 forge: github.com
 repo: OCA/server-tools

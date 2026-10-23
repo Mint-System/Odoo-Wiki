@@ -5,7 +5,6 @@ kind: howto
 name: web_action_conditionable
 prev: ./development
 repo: OCA/web
-tags:
 title: Web Action Conditionable
 versions:
   - '18.0'

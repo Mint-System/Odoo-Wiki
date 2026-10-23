@@ -2,8 +2,7 @@
 title: MRP Production Merge Pickings
 description: Ermöglicht das Zusammenführen von Pickings mehrerer Fertigungsaufträge.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./manufacture
 forge: github.com
 repo: Mint-System/Odoo-Apps-Manufacture

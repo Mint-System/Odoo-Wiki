@@ -2,7 +2,6 @@
 title: Stock Move Lot Quantity
 description: Setzt die gepickte Menge eines Los-geführten Produkts immer auf die verfügbare Gesamtmenge des Lot.
 kind: howto
-tags:
 prev: ./stock
 forge: github.com
 repo: Mint-System/Odoo-Apps-Stock-Logistics-Workflow

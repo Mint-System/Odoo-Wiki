@@ -2,8 +2,7 @@
 title: Mail Template Substitute
 description: Substitutionsregeln für E-Mail-Vorlagen definieren.
 kind: howto
-tags:
-  - OCA
+partner: OCA
 prev: ./discuss-e-mail
 forge: github.com
 repo: OCA/social

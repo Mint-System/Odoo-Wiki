@@ -2,8 +2,7 @@
 title: Partner Format Display Name
 description: Zeigt Partner ain der Form  Partner (Firma) an.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./contacts
 forge: github.com
 repo: Mint-System/Odoo-Apps-Partner-Contact

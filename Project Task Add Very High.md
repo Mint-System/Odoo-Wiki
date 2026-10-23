@@ -5,7 +5,6 @@ kind: howto
 name: project_task_add_very_high
 prev: ./project
 repo: OCA/Project
-tags:
 title: Project Task Add Very High
 versions:
   - '18.0'

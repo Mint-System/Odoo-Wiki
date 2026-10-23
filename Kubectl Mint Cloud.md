@@ -2,8 +2,7 @@
 title: Kubectl Mint Cloud
 description: Mint Cloud Cluster-Daten.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./kubernetes
 forge: github.com
 repo: Mint-System/Odoo-Apps-Kubernetes

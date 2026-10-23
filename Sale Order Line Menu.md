@@ -5,7 +5,6 @@ kind: howto
 name: sale_order_line_menu
 prev: ./sale
 repo: OCA/sale-workflow
-tags:
 title: Sale Order Line Menu
 versions:
   - '19.0'

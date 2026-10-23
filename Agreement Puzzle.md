@@ -2,8 +2,7 @@
 title: Agreement Puzzle
 description: Zusätzliche Felder auf Vereinbarung für Puzzle.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./documents
 forge: github.com
 repo: Mint-System/Odoo-Apps-Contract

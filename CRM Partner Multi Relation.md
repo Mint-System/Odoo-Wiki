@@ -2,7 +2,6 @@
 title: CRM Partner Multi Relation
 description: Partner-Beziehungen auf CRM Opportunitäten hinzufügen.
 kind: howto
-tags:
 prev: ./crm
 forge: github.com
 repo: Mint-System/Odoo-Apps-Partner-Contact

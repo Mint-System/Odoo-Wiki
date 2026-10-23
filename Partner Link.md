@@ -2,7 +2,6 @@
 title: Partner Link
 description: Verlinke Kontakte mit anderen Kontakten.
 kind: howto
-tags:
 prev: ./crm
 forge: github.com
 repo: Mint-System/Odoo-Apps-Partner-Contact

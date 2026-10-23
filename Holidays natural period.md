@@ -2,8 +2,7 @@
 title: Holidays natural period
 description: Abwesenheit an Tagen ohne Soll-Arbeitszeit erfassen.
 kind: howto
-tags:
-  - OCA
+partner: OCA
 prev: ./hr-holidays
 forge: github.com
 repo: OCA/hr-holidays

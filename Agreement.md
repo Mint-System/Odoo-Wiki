@@ -2,8 +2,7 @@
 title: Agreement
 description: Basismodul für Vereinbarungen.
 kind: howto
-tags:
-  - OCA
+partner: OCA
 prev: ./documents
 forge: github.com
 repo: OCA/agreement
