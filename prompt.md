@@ -4,10 +4,10 @@ author: "Janik von Rotz <login@janikvonrotz.ch>"
 action: implement
 state: completed
 date_completed: 2025-08-21
-harness:
-model:
-input_tokens:
-output_tokens:
+harness: pi
+model: moonshotai/Kimi-K2.6
+input_tokens: ~
+output_tokens: ~
 ---
 
 # Fix wrong tag attribute
