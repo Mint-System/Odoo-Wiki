@@ -23,9 +23,10 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Der Standardbericht "Analyse von Zeiterfassung/Anwesenheiten" in Zeiterfassung wurde um drei Felder erweitert, die die jeweiligen Zeiterfassungsstunden nach den Kategorien „abrechenbar“, „nicht abrechenbar“ oder „intern“ zusammenfassen. 
+Der Standardbericht "Analyse von Zeiterfassung/Anwesenheiten" in Zeiterfassung wurde um drei Felder erweitert, die die jeweiligen Zeiterfassungsstunden nach den Kategorien "abrechenbar", "nicht abrechenbar" oder "intern" zusammenfassen. 
 
-Die Gruppierung erfolgt anhand der folgenden Kriterien: 
-- Mit Verkaufsauftrag und `timesheet_invoice_type` != „nicht abrechenbar“ -> Abrechenbar 
-- Mit Verkaufsauftrag und `timesheet_invoice_type` == „nicht abrechenbar“ -> Nicht abrechenbar 
+Die Gruppierung erfolgt anhand der folgenden Kriterien:
+
+- Mit Verkaufsauftrag und `timesheet_invoice_type` != "nicht abrechenbar" -> Abrechenbar 
+- Mit Verkaufsauftrag und `timesheet_invoice_type` == "nicht abrechenbar" -> Nicht abrechenbar 
 - Ohne Verkaufsauftrag -> Intern
