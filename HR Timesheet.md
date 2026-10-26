@@ -34,6 +34,7 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 | [Sale Timesheet Line Exclude](Sale%20Timesheet%20Line%20Exclude.md)                   | Zeiterfassungseinträge als nicht abrechenbar markieren.             |     |     |
 | [Sale Timesheet Total Validated](Sale%20Timesheet%20Total%20Validated.md)             | Nur bestätige Zeiterfassungs-Einträge in Verkaufsauftrag anzeigen.  |     |     |
 | [Timesheet Attendance Report Billable](Timesheet%20Attendance%20Report%20Billable.md) | Ergänzung zum standardmäßigen Zeiterfassungsbericht.                |     |     |
+| [Hr Timesheet Attendance Record](Hr%20Timesheet%20Attendance%20Record.md)             | Anwesenheitseinträge aus Zeiterfassung erstellen.                   |     |     |
 
 ## Konfiguration
 
