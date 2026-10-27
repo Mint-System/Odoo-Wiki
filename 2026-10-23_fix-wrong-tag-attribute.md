@@ -1,5 +1,5 @@
 ---
-commit_ref: e8c5502a234e16df91b83813b46410d125d18523
+commit_ref: 49acf9c7aa0caf84ae30256f6d71f1df00a8b805
 title: "Fix wrong tag attribute"
 author: "Janik von Rotz <login@janikvonrotz.ch>"
 action: implement
