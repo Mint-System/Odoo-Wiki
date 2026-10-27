@@ -3,7 +3,7 @@ title: Helm Mint Cloud
 description: Mintcloud Helm-Daten.
 kind: howto
 partner: Mint System
-prev: ./kuberentes
+prev: ./kubernetes
 forge: github.com
 repo: Mint-System/Odoo-Apps-Kubernetes
 versions:

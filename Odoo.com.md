@@ -8,7 +8,7 @@ partner: Odoo S.A.
 
 # Odoo.com
 
-![](attachments/icons_odoo_server.png)
+![](attachments/icons_odoo_app.png)
 
 {{ $frontmatter.description }}
 

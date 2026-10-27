@@ -23,13 +23,9 @@ partner: Mint System
 
 [![.github/workflows/deploy.yml](https://github.com/Mint-System/Odoo-Wiki/actions/workflows/deploy.yml/badge.svg)](https://github.com/Mint-System/Odoo-Wiki/actions/workflows/deploy.yml) [![matrix-badge](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/#allgemein:mint-system.ch)
 
-Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus zwei Sichten. In den **Erläuterungen** werden konkrete Anwendungsfälle in Odoo umgesetzt und mit den **HowTos** wird die Konfiguration und Verwendung von Odoo vermittelt.
+Das Odoo Wiki beschreibt die Funktionen von [Odoo](https://www.odoo.com) aus zwei Sichten. In den [Anwendungsfälle](Use%20Cases.md) werden konkrete Anwendungsfälle in Odoo umgesetzt und mit den **HowTos** wird die Konfiguration und Verwendung von Odoo vermittelt.
 
 Die [Mint System GmbH](https://www.mint-system.ch/) ist Odoo Partner und unterhält das Odoo Wiki.
-
-## [Erläuterungen](Explanation.md)
-
-[Hier](Explanation.md) geht es zu den Erläuterungen.
 
 ## Allgemein
 

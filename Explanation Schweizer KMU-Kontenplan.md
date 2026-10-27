@@ -2,7 +2,7 @@
 title: Schweizer KMU-Kontenplan
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
-prev: ./explanation
+prev: ./use-cases
 partner: Mint System
 ---
 
@@ -11,8 +11,6 @@ partner: Mint System
 Odoo bietet eine Vorlage für den Schweizer KMU-Kontenplan. Wenn die Vorlage aktiviert wird, werden ausgewählte Konten von Odoo verwaltet.
 
 Hier folgt eine Übersicht der wichtigsten Konten und Konten-Gruppen, die von Odoo verwaltet werden.
-
-[[TOC]]
 
 ## 1001 Bargeld
 

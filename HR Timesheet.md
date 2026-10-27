@@ -107,7 +107,7 @@ Navigieren Sie nach _Zeiterfassung > Berichtswesen > Zeiterfassung / Anwesenheit
 
 ### Zugriff Bericht Anwesenheiten und Zeiterfassung erteilen
 
-Damit Benutzer die [Anwesenheit und Zeiterfassung vergleichen](#Anwesenheit%20und%20Zeiterfassung%20vergleichen) können, müssen Sie Zugriffsrechte auf Menüposten anpasst werden.
+Damit Benutzer die [Anwesenheiten und Zeiterfassung vergleichen](#Anwesenheiten%20und%20Zeiterfassung%20vergleichen) können, müssen Sie Zugriffsrechte auf Menüposten anpasst werden.
 
 Als Erstes müssen Sie die folgenden [Menüposten bearbeiten](Development.md#Menüposten%20bearbeiten):
 

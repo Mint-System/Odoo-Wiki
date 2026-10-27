@@ -12,8 +12,6 @@ partner: Mint System
 
 {{ $frontmatter.description }}
 
-[[TOC]]
-
 ## Abrechnung
 
 ### QR-Code Rechnung kann nicht erstellt werden

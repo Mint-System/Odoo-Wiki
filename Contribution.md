@@ -7,7 +7,7 @@ partner: Mint System
 
 # Mitarbeit
 
-Das Odoo Wiki hat zum Ziel den Anwender eine einfache und kompakte Hilfestellung anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Erläuterungen](Explanation.md) abgebildet. Konkrete Arbeitsschritte zur Konfiguration und Verwendung von Odoo werden als [HowTos](README.md#HowTos) dokumentiert.
+Das Odoo Wiki hat zum Ziel den Anwender eine einfache und kompakte Hilfestellung anzubieten. Die Anleitungen sind als kurze und prägnante Rezepte formuliert. Umfassende und komplexe Themen werden als [Erläuterungen](Use%20Cases.md) abgebildet. Konkrete Arbeitsschritte zur Konfiguration und Verwendung von Odoo werden als [HowTos](README.md#HowTos) dokumentiert.
 
 In diesem Dokument werden die Vorgaben zur Mitarbeit am Odoo Wiki erläutert.
 
@@ -114,12 +114,6 @@ Info
 Warnung
 :::
 
-### Inhaltsverzeichnis
-
-Wenn der Seiteninhalt nicht mehr überschaubar ist, kann ein Inhaltsverzeichnis eingefügt werden. Dazu gibt man vor der ersten Überschrift (nach Titel) den Inhalt `[[TOC]]` ein. Vuepress generiert an dieser Stelle das Inhaltsverzeichnis. Dazu das Inhaltsverzeichnis dieser Seite:
-
-[[TOC]]
-
 ### Veraltete Inhalte
 
 **Umbenannt**: Wenn eine App umbenannt wurde verwenden diesen marker:
@@ -192,11 +186,11 @@ Mit Obsidian können Artikel getagged `#tagname` werden. Tags werden von Vuepres
 
 Tags aus der Softwareentwicklung:
 
-- #TODO: Zur Bearbeitung.
-- #FIXME: Workarund definiert.
-- #BUG: Fehler zum lösen.
-- #NOTE: Information zum Text.
-- #DEPRECATED: Ist veraltet.
+- `#TODO`: Zur Bearbeitung.
+- `#FIXME`: Workarund definiert.
+- `#BUG`: Fehler zum lösen.
+- `#NOTE`: Information zum Text.
+- `#DEPRECATED`: Ist veraltet.
 
 ### Badges
 

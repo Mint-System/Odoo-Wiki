@@ -1,0 +1,82 @@
+[project]
+site_url = "https://www.odoo-wiki.org/"
+site_name = "Odoo Wiki"
+site_description = "Eine einfache und umfassende Odoo-Dokumentation."
+site_author = "Mint System GmbH"
+
+copyright = '© 2026 <a href="https://www.mint-system.ch/">Mint System GmbH</a>'
+
+repo_url = "https://github.com/Mint-System/Odoo-Wiki"
+repo_name = "Mint-System/Odoo-Wiki"
+edit_uri = "edit/main/"
+
+nav = [
+  { "Home" = "index.md" },
+  { "Anwendungsfälle" = "use-cases.md" },
+  { "Hosting" = [
+      { "Odoo.com" = "odoo.com.md" },
+      { "Odoo.sh" = "odoo.sh.md" },
+      { "Mint Cloud" = "mint-cloud.md" },
+      { "On-Premise" = "on-premise.md" },
+  ] },
+  { "Glossar" = "glossary.md" },
+  { "Mitarbeit" = "contribution.md" },
+  { "Mint System GmbH" = "https://www.mint-system.ch/" }
+]
+
+extra_css = ["stylesheets/style.css"]
+extra_javascript = ["javascripts/extra.js"]
+
+[project.theme]
+name = "material"
+language = "de"
+favicon = "assets/icon.png"
+logo = "assets/icon.png"
+palette = [
+  { scheme = "default", primary = "indigo", accent = "indigo", media = "(prefers-color-scheme: light)", toggle = { icon = "material/brightness-7", name = "Switch to dark mode" } },
+  { scheme = "slate", primary = "indigo", accent = "indigo", media = "(prefers-color-scheme: dark)", toggle = { icon = "material/brightness-4", name = "Switch to light mode" } }
+]
+features = [
+  "navigation.tabs",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.path",
+  "navigation.prune",
+  "navigation.top",
+  "navigation.tracking",
+  "search.suggest",
+  "search.highlight",
+  "content.code.copy",
+  "content.tooltips",
+]
+
+[project.markdown_extensions]
+abbr = {}
+admonition = {}
+attr_list = {}
+def_list = {}
+footnotes = {}
+md_in_html = {}
+toc.permalink = true
+pymdownx.arithmatex.generic = true
+pymdownx.betterem = {}
+pymdownx.caret = {}
+pymdownx.details = {}
+pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"
+pymdownx.emoji.emoji_index = "zensical.extensions.emoji.twemoji"
+pymdownx.highlight.anchor_linenums = true
+pymdownx.highlight.line_spans = "__span"
+pymdownx.highlight.pygments_lang_class = true
+pymdownx.inlinehilite = {}
+pymdownx.keys = {}
+pymdownx.magiclink = {}
+pymdownx.mark = {}
+pymdownx.smartsymbols = {}
+pymdownx.superfences.custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
+pymdownx.tabbed.alternate_style = true
+pymdownx.tabbed.combine_header_slug = true
+pymdownx.tasklist.custom_checkbox = true
+pymdownx.tilde = {}

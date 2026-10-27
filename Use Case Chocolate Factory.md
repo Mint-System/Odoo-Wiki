@@ -1,7 +1,7 @@
 ---
 title: Anwendungsfall Schokoladenfabrik
 description: Anwendungsfall für mehrstufige Qualitätskontrollen.
-prev: ./explanation
+prev: ./use-cases
 partner: Mint System
 kind:
   - explain

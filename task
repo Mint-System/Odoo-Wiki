@@ -17,16 +17,15 @@ help() {
     local max_cmd=7 max_opt=6 max_desc=11
 
     rows+=("Command|Option|Description")
-    rows+=("install-vuepress||Install build dependencies.")
-    rows+=("update-vuepres||Update build dependencies.")
-    rows+=("dev-vuepress||Start vuepress development server.")
-    rows+=("build-vuepress||Create vuepress build.")
-    rows+=("serve-vuepress||Serve vuepress build.")
+    rows+=("init-zensical-docs||Initialize Zensical project.")
+    rows+=("prepare-docs||Convert markdown wiki files to docs.")
+    rows+=("dev-zensical-docs||Start Zensical development server.")
+    rows+=("build-zensical-docs||Create Zensical build.")
+    rows+=("serve-zensical-docs||Serve Zensical build.")
     rows+=("download-icons||Download module icons from Odoo assets.")
     rows+=("update-module-versions|[file]|Check and update frontmatter versions list.")
     rows+=("get-frontmatter-field|<file> <field>|Read a single frontmatter field value.")
     rows+=("set-frontmatter-field|<file> <versions>|Write versions list to frontmatter.")
-    rows+=("lint||Lint code with prettier.")
 
     for row in "${rows[@]}"; do
         IFS='|' read -r cmd opt desc <<< "$row"
@@ -238,41 +237,12 @@ update-module-versions() {
     fi
 }
 
-install-vuepress() {
-    pnpm install
-}
-
-update() {
-    pnpm install -D @vuepress/bundler-vite@next
-    pnpm install -D @vuepress/client@next
-    pnpm install -D @vuepress/plugin-docsearch@next
-    pnpm install -D @vuepress/plugin-search@next
-    pnpm install -D @vuepress/plugin-shiki@next
-    pnpm install -D @vuepress/theme-default@next
-    pnpm install -D @vuepress/utils@next
-    pnpm install -D vuepress@next
-}
-
-dev-vuepress() {
-    open-url "http://localhost:8080/"
-    pnpm run dev
-}
-
-build-vuepress() {
-    pnpm run build
-}
-
-serve-vuepress() {
-    cd ./src/.vuepress/dist
-    npx serve
+prepare-docs() {
+    node bin/build.js all
 }
 
 download-icons() {
-    pnpm run download-icons
-}
-
-lint() {
-    pnpm exec prettier . --write
+    node download-icons.js
 }
 
 if declare -f "$1" > /dev/null; then

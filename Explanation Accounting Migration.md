@@ -2,7 +2,7 @@
 title: Migration Buchhaltung
 description: Wie Sie am besten ihre Buchhaltung nach Odoo migirieren.
 kind: explain
-prev: ./explanation
+prev: ./use-cases
 partner: Mint System
 ---
 

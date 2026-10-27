@@ -13,8 +13,6 @@ partner: Mint System
 
 {{ $frontmatter.description }}
 
-[[TOC]]
-
 ## Aktionen
 
 ### Transfer abbrechen

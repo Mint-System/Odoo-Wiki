@@ -1,18 +1,18 @@
 ---
-title: Erläuterungen
+title: Anwendungsfälle
 description: Beschreibt wie man bestimmte Anwendungsfälle in Odoo implementiert.
 kind: explain
 prev: ./
 partner: Mint System
 ---
 
-# Erläuterungen
+# Anwendungsfälle
 
 {{ $frontmatter.description }}
 
 ## Bereiche
 
-Gruppiert nach Bereich werden verschiedene Erläuterungen aufgeführt. Die Erläuterungen verweisen zur Implementation auf die HowTos.
+Gruppiert nach Bereich werden verschiedene Anwendungsfälle aufgeführt. Die Anwendungsfälle verweisen zur Implementation auf die HowTos.
 
 ### Abrechnung
 
@@ -126,7 +126,7 @@ Gruppiert nach Bereich werden verschiedene Erläuterungen aufgeführt. Die Erlä
 - [Dienstleistungen mit Nachtzuschlag](Explanation%20Services%20with%20Night%20Surcharge.md)
 - [Verrechnung Spesen](Explanation%20Charge%20Expenses.md)
 
-## Anwendungsfälle
+## Branchen
 
 Komplexere vertikale Odoo Implementationen werden hier mit Anwendungsfällen beschrieben.
 

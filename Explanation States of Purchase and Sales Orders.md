@@ -2,7 +2,7 @@
 title: Zustände von Einkauf- und Verkaufsaufträgen
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
-prev: ./explanation
+prev: ./use-cases
 partner: Mint System
 ---
 

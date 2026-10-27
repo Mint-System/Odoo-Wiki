@@ -2,7 +2,7 @@
 title: Anwendungsfall Weinhändler
 description: Automatische Bestandsbewertung für Weine.
 kind: explain
-prev: ./explanation
+prev: ./use-cases
 partner: Mint System
 ---
 

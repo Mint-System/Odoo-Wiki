@@ -1,7 +1,7 @@
 ---
 title: Arbeitszeit über Zeitraum reduzieren
 description: Eine einfache und umfassende Odoo-Dokumentation.
-prev: ./explanation
+prev: ./use-cases
 draft: false
 partner: Mint System
 kind:

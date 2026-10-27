@@ -175,9 +175,9 @@ Wenn Sie einen genehmigten Urlaubsanspruch ausblenden wollen, wählen Sie diesen
 
 ## Berechtigungen
 
-### Zugriff auf erteilen
+### Zugriff auf Menüposten erteilen
 
-Damit Benutzer die [Anwesenheiten und Zeiterfassung vergleichen](#Anwesenheiten%20und%20Zeiterfassung%20vergleichen) können, müssen Sie Zugriffsrechte auf Menüposten anpasst werden.
+Damit Benutzer die [Anwesenheiten und Zeiterfassung vergleichen](HR%20Timesheet.md#Anwesenheiten%20und%20Zeiterfassung%20vergleichen) können, müssen Sie Zugriffsrechte auf Menüposten anpasst werden.
 
 Als erstes müssen Sie die folgenden [Menüposten bearbeiten](Development.md#Menüposten%20bearbeiten):
 

@@ -4,7 +4,7 @@ forge: github.com
 kind: howto
 name: spreadsheet_dashboard_disable_share
 partner: Mint System
-prev: ./spreadsheets
+prev: ./spreadsheet
 repo: Mint-System/Odoo-Apps-Spreadsheet
 title: Spreadsheet Dashboard Disable Share
 versions:

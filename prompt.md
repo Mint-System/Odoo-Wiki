@@ -2,12 +2,12 @@
 title: "Migrate from Vuepress to Zensical"
 author: "Janik von Rotz <login@janikvonrotz.ch>"
 action: implement
-state: draft
-date_completed: YYYY-MM-DD
-harness:
-model:
-input_tokens:
-output_tokens:
+state: completed
+date_completed: 2026-10-27
+harness: pi
+model: moonshotai/Kimi-K2.6
+input_tokens: 11000000
+output_tokens: 390000
 ---
 
 # Migrate from Vuepress to Zensical
@@ -124,6 +124,46 @@ Move the Zensical document navigation from right to left.
 
 ## Worklog
 
-@Clanker Add a summary here once the task has been completed.
+@Clanker summary of completed migration (Vuepress → Zensical), including all follow-up refinements:
 
-@Clanker If author confirms results set frontmatter state to completed, otherwise to aborted. Update date, harness and model. If you have access to session info also add token count.
+**Remove Vuepress**
+- Deleted `.vuepress/` (config, layouts, plugins, public incl. icon), `package.json`, `pnpm-lock.yaml`, `pnpm-workspace.yaml`; backup kept at `/tmp/odoo-vuepress-bak`. Removed `src/` and stale `node_modules`. Git shows `.vuepress/*`, lockfiles and `package.json` deleted.
+- Removed Vuepress help rows from `task`; added Zensical `init/prepare/dev/build/serve-zensical-docs` + `download-icons` rows. `prepare-docs` runs `bin/build.js all` → `docs/`, from which Zensical builds.
+
+**Move build scripts**
+- Rewrote `bin/build.js` (not merely moved): outputs to `docs/`, clean URLs `/foo/` instead of `/foo.html`, `README.md` → `docs/index.md`, removes `[[TOC]]`, converts video/image markdown to relative attachment paths, links to `/slug/#anchor`, appends `[📝 Edit on GitHub](...)` footer, builds `docs/glossary.md`, copies attachments, and `cleanTargetFiles()` removes stale generated files (keeps static `assets/`, `javascripts/`, `stylesheets/`).
+- `package.json` recreated minimal; `.gitignore` adds `.venv`, `site`, `docs`.
+
+**Install Zensical**
+- `./task init-zensical-docs` → `zensical` 0.0.73 in `.venv` (uv 0.12.17, CPython 3.13.15); scaffolded project.
+- `zensical.toml`: `site_url = https://www.odoo-wiki.org/`, `language = "de"`, Material indigo light/dark palettes; features: `navigation.tabs`, `.footer`, `.indexes`, `.instant`, `.path`, `.prune`, `.top`, `.tracking`, `search.suggest/highlight`, `content.code.copy/tooltips`.
+- Removed the scaffold `.github/workflows/docs.yml` (GitHub Pages) so only the kubectl `deploy.yml` stays.
+
+**Vuepress content conversion (in `bin/build.js`)**
+- `{{ $frontmatter.X }}` / `${ $frontmatter.X }` templates rendered from YAML frontmatter (description, `Technischer Name`, `Repository`, `Runboat` via forge/repo/versions[0]/name).
+- `:::`/`::::` containers → MkDocs `!!!` admonitions (nested, code fences inside, no-space `:::tip`, indented closers); trailing backslash → two-space hard breaks; `sanitizeAssetname` transliterates umlauts; `sanitizeAnchor` additionally strips `/` so `Web Grabber / Dumper Worker` → `web-grabber-dumper-worker-hinzufugen`.
+- **`<Badge type="info" text="OdooNN" …/>`** (Vuepress component, 160× in 64 files) → styled `<span class="md-badge md-badge--info">` (CSS pill, adapts to light/dark; code-fence examples kept raw).
+- **`#DEPRECATED` / `#deprecated`** markers escaped to `\#…` (case-insensitive) so they never render as an H1.
+- **`prev:` frontmatter** renders a “← Title” **return link in the document header** (above the title, after frontmatter), labelled with the target page's real title; `prev: ./` → “← Home”. Fixed 6 dangling prev targets (`explanation`→`use-cases` ×72, `devleopment`→`development`, `fahrzeugflotte`→`fleet`, `kalender`→`calendar`, `kuberentes`→`kubernetes`, `spreadsheets`→`spreadsheet`).
+
+**Plausible** (same domain)
+- `docs/javascripts/extra.js` injects `https://plausible.io/js/script.js` with `data-domain = odoo-wiki.org` plus mermaid-on-demand.
+
+**Mint System GmbH link**
+- Top-level nav tab; styled via `docs/stylesheets/style.css` as teal `#14d6c4` button (hover `#0b9fa3`, dark-mode `#087f74`), pushed to the right edge with `:has()`; both sidebars sticky/scrollable.
+
+**Navigation & sidebar (user-driven changes)**
+- Nav is **on top** (tabs) and **fully user-managed** in `zensical.toml`; current tabs: Home · Anwendungsfälle · Hosting{Odoo.com, Odoo.sh, Mint Cloud, On-Premise} · Glossar · Mitarbeit · Mint System GmbH. `bin/build.js` **no longer touches the nav** (the A–Z auto-generation and `nav = []` placeholder fill were removed), so `prepare-docs` can never resurrect the glossary tree or override manual edits.
+- **No custom sidebar**: the A–Z/Glossar-left-nav approach was dropped. Each document shows its **own outline in the right sidebar** (`toc.integrate` removed; pages intentionally not listed in the nav).
+- `[[TOC]]` removed from all documents; obsolete reserved page `TOC.md` deleted (and its generated `docs/toc.md`, `site/toc/`).
+- **Glossary page** kept as the A–Z index (tab “Glossar”); fixed the `#_1` issue caused by a title with a leading space (`#  Name` → trimmed title/grouping).
+- `prompt.md`, `AGENTS.md`, `CHANGELOG.md` excluded from publishing (case-insensitive `ignoreFiles`).
+
+**Verification**
+- `./task prepare-docs` + `./task build-zensical-docs` build cleanly (`No issues found`), **0 broken internal links**, **0 unresolved in-page anchors** across ~920 pages; the previously flagged 9 dead anchors were fixed. No `v-bind`, `$frontmatter`, or bare `::: ` leftovers.
+- Rendered: module footer links, admonitions, mermaid, badges, plausible domain, favicon, copyright footer.
+
+**Known content issue (left as-is, flag to author)**
+- `microsoft-entra-base.md` still renders a literal `{{ $frontmatter.forge / repo }}` because its frontmatter lacks `forge`/`repo` (OCA page) — add those fields.
+
+**Status: all changes uncommitted.** Commit `e94b8065` was created then reset on request (`git reset HEAD~1`); HEAD = `f47865fb`. `state: review` on author verification.

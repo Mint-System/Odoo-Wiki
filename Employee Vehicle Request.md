@@ -4,7 +4,7 @@ forge: github.com
 kind: howto
 name: employee_vehicle_request
 partner: Mint System
-prev: ./fahrzeugflotte
+prev: ./fleet
 repo: CybroOdoo/CybroAddons
 title: Employee Vehicle Request
 versions:

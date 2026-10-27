@@ -49,8 +49,8 @@ Navigieren Sie nach _Buchhaltung > Konfiguration > Budgetpositionen_ und erstell
 
 ### Budget anlegen
 
-Navigieren Sie Nach _Buchhaltung > Buchhaltung > Budgets_ und erstellen Sie einen neuen Eintrag. Legen Sie einen Namen und die Periode fest. Anschliessen können Sie [Budgezeile anlegen](#Budgezeile%20anlegen).
+Navigieren Sie Nach _Buchhaltung > Buchhaltung > Budgets_ und erstellen Sie einen neuen Eintrag. Legen Sie einen Namen und die Periode fest. Anschliessen können Sie [Budgetzeile anlegen](#Budgetzeile%20anlegen).
 
 ### Budgetzeile anlegen
 
-Öffnen Sie ein Budget in der Formularansicht unter _Buchhaltung > Buchhaltung > Budgets_ und wählen im Tab _Budgetposition_ die Aktion _Eintrag Hinzufügen_. Wählen Sie eine bestehende Budgetposition aus oder [erfassen Sie eine neue Budgetpositoin](#Budgeposition%20erfassen).
+Öffnen Sie ein Budget in der Formularansicht unter _Buchhaltung > Buchhaltung > Budgets_ und wählen im Tab _Budgetposition_ die Aktion _Eintrag Hinzufügen_. Wählen Sie eine bestehende Budgetposition aus oder [erfassen Sie eine neue Budgetposition](#Budgetposition%20erfassen).
