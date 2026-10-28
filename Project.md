@@ -24,28 +24,30 @@ Website: <https://www.odoo.com/de_DE/app/project>
 
 ## Erweiterungen
 
-| Erweiterung                                                                       | Beschreibung                                             |
-| --------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| [Business Requirement](Business%20Requirement.md)                                 | Projektanforderungen erfassen und verknüpfen.            |
-| [Project Key Link Type](Project%20Key%20Link%20Type.md)                           | Projektnummer anhand Projekttyp erstellen.               |
-| [Project Key](Project%20Key.md)                                                   | Projektkürzel für Aufgabenbezeichnung.                   |
-| [Project Menu](Project%20Menu.md)                                                 | Projekte über Navigation aufrufen.                       |
-| [Project Partner Open Tasks](Project%20Partner%20Open%20Tasks.md)                 | Offene Aufgaben auf Partner-Ansicht anzeigen.            |
-| [Project Phase Estimate](Project%20Phase%20Estimate.md)                           | Aufwandsschätzung pro Projekt und Phase.                 |
-| [Project Phase](Project%20Phase.md)                                               | Projektaufgaben mit Projektphasen verwalten.             |
-| [Project Task Add Very High](Project%20Task%20Add%20Very%20High.md)               | Priorität mit 4 Stufen abbilden.                         |
-| [Project Task All Menu](Project%20Task%20All%20Menu.md)                           | Menu Alle Aufgaben hinzufügen.                           |
-| [Project Task Default Stage](Project%20Task%20Default%20Stage.md)                 | Standardstufen für Projektaufgaben.                      |
-| [Project Task Dependencies](Project%20Task%20Dependencies.md)                     | Projektaufgaben mit Abhängigkeiten.                      |
-| [Project Task Dependency Counter](Project%20Task%20Dependency%20Counter.md)       | Smart Button für abhängige Aufgaben.                     |
-| [Project Task Material](Project%20Task%20Material.md)                             | Liste von verbrauchten Materialien auf Projektaufgabe.   |
-| [Project Template](Project%20Template.md)                                         | Projekt aus Projektvorlage erstellen.                    |
-| [Project Timeline Task Dependencies](Project%20Timeline%20Task%20Dependencies.md) | Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten. |
-| [Project Timeline](Project%20Timeline.md)                                         | Timeline-Ansicht für Projektaufgaben.                    |
-| [Project Timesheet Time Control](Project%20Timesheet%20Time%20Control.md)         | Zeiterfassung auf Projektaufgabe starten.                |
-| [Project Type](Project%20Type.md)                                                 | Projekte nach Typ verwalten.                             |
-| [Projekt Task Billable](Projekt%20Task%20Billable.md)                             | Aufgaben als abrechenbar markieren.                      |
-| [Sequential Code for Tasks](Sequential%20Code%20for%20Tasks.md)                   | Sequenznummer für Projektaufgaben.                       |
+| Erweiterung                                                                                 | Beschreibung                                                                      |
+| ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| [Business Requirement](Business%20Requirement.md)                                           | Projektanforderungen erfassen und verknüpfen.                                     |
+| [Project Key Link Type](Project%20Key%20Link%20Type.md)                                     | Projektnummer anhand Projekttyp erstellen.                                        |
+| [Project Key](Project%20Key.md)                                                             | Projektkürzel für Aufgabenbezeichnung.                                            |
+| [Project Menu](Project%20Menu.md)                                                           | Projekte über Navigation aufrufen.                                                |
+| [Project Partner Open Tasks](Project%20Partner%20Open%20Tasks.md)                           | Offene Aufgaben auf Partner-Ansicht anzeigen.                                     |
+| [Project Phase Estimate](Project%20Phase%20Estimate.md)                                     | Aufwandsschätzung pro Projekt und Phase.                                          |
+| [Project Phase](Project%20Phase.md)                                                         | Projektaufgaben mit Projektphasen verwalten.                                      |
+| [Project Task Add Very High](Project%20Task%20Add%20Very%20High.md)                         | Priorität mit 4 Stufen abbilden.                                                  |
+| [Project Task All Menu](Project%20Task%20All%20Menu.md)                                     | Menu Alle Aufgaben hinzufügen.                                                    |
+| [Project Task Default Stage](Project%20Task%20Default%20Stage.md)                           | Standardstufen für Projektaufgaben.                                               |
+| [Project Task Dependencies](Project%20Task%20Dependencies.md)                               | Projektaufgaben mit Abhängigkeiten.                                               |
+| [Project Task Dependency Counter](Project%20Task%20Dependency%20Counter.md)                 | Smart Button für abhängige Aufgaben.                                              |
+| [Project Task Material](Project%20Task%20Material.md)                                       | Liste von verbrauchten Materialien auf Projektaufgabe.                            |
+| [Project Task Personal Stage auto Fold](Project%20Task%20Personal%20Stage%20auto%20Fold.md) | Aufgabe in eingekappter Stufe in die entsprechende persönliche Stufe verschieben. |
+| [Project Template](Project%20Template.md)                                                   | Projekt aus Projektvorlage erstellen.                                             |
+| [Project Timeline Task Dependencies](Project%20Timeline%20Task%20Dependencies.md)           | Timeline-Ansicht für Projektaufgaben mit Abhängigkeiten.                          |
+| [Project Timeline](Project%20Timeline.md)                                                   | Timeline-Ansicht für Projektaufgaben.                                             |
+| [Project Timesheet Time Control](Project%20Timesheet%20Time%20Control.md)                   | Zeiterfassung auf Projektaufgabe starten.                                         |
+| [Project Type](Project%20Type.md)                                                           | Projekte nach Typ verwalten.                                                      |
+| [Project Update List](Project%20Update%20List.md)                                           | Mehrere Projektaktualisierungen aus Listen-Ansicht vorbereiten.                   |
+| [Projekt Task Billable](Projekt%20Task%20Billable.md)                                       | Aufgaben als abrechenbar markieren.                                               |
+| [Sequential Code for Tasks](Sequential%20Code%20for%20Tasks.md)                             | Sequenznummer für Projektaufgaben.                                                |
 
 ## Konfiguration
 
