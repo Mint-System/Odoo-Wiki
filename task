@@ -61,66 +61,6 @@ if [ -d "$HOME/taskfile.build/bin" ]; then
     done
 fi
 
-get-frontmatter-field() {
-    local FILE="$1"
-    local FIELD="$2"
-    awk '
-        BEGIN { in_fm=0; found=0 }
-        /^---$/ {
-            if (in_fm == 0) { in_fm=1; next }
-            else { exit }
-        }
-        in_fm && /^'"$FIELD"':[ \t]*/ {
-            sub(/^'"$FIELD"':[ \t]*/, "")
-            # Strip surrounding quotes if present
-            gsub(/^'"'"'|'"'"'$/, "")
-            gsub(/^"|"$/, "")
-            print
-            found=1
-        }
-    ' "$FILE"
-}
-
-set-frontmatter-field() {
-    local FILE="$1"
-    shift
-    local VERSIONS=("$@")
-
-    # Build the replacement block: "versions:\n  - 'x.y'\n  - ..."
-    local NEW_BLOCK="versions:"
-    for V in "${VERSIONS[@]}"; do
-        NEW_BLOCK="${NEW_BLOCK}\n  - '${V}'"
-    done
-
-    # Use awk to replace the existing versions block inside the frontmatter.
-    # The versions block may span multiple lines (the key line + list items).
-    # Skips any lines that are part of a YAML block sequence (optional indent + "- ").
-    awk -v new_block="$NEW_BLOCK" '
-        BEGIN { in_fm=0; in_versions=0; fm_done=0 }
-        /^---$/ {
-            if (in_fm == 0) { in_fm=1; print; next }
-            else { fm_done=1; in_fm=0 }
-        }
-        # Once frontmatter is closed, print everything verbatim
-        fm_done { print; next }
-        in_fm {
-            if (/^versions:/) {
-                # Print replacement block and enter versions-skip mode
-                printf "%s\n", new_block
-                in_versions=1
-                next
-            }
-            if (in_versions) {
-                # Skip continuation list items (lines starting with optional whitespace + "- ")
-                if (/^[ \t]*- /) { next }
-                else { in_versions=0 }
-            }
-            print
-        }
-        !in_fm { print }
-    ' "$FILE" > "${FILE}.tmp" && mv "${FILE}.tmp" "$FILE"
-}
-
 update-module-versions() {
     local TARGET_FILE="${1:-}"  # Optional: single file path to process
     local VERSIONS=("14.0" "15.0" "16.0" "17.0" "18.0" "19.0")
