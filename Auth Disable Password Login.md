@@ -2,8 +2,7 @@
 title: Auth Disable Password Login
 description: Schaltet das Login mit Passwort für einen User aus.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./settings
 forge: github.com
 repo: Mint-System/Odoo-Apps-Server-Tools

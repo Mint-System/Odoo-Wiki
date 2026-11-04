@@ -102,7 +102,7 @@ Zur Speicherung der QR-IBAN gibt es auf dem Bankkonto ein entsprechendes Feld. N
 
 Zeigen Sie eine Rechnung via _Buchhaltung > Kunden > Rechnungen_ an und öffnen Sie den Tab _Weitere Informationen_. Im Feld _Payment QR-code_ ist die Methode zur Generierung des QR-Codes festgelegt.
 
-## Ausgehende Zahlungen
+## Lieferanten
 
 ### Ausgehende Zahlung erfassen
 
@@ -175,7 +175,7 @@ Wenn Sie die Aktion [Zahlung gesendet zurücksetzen](Accounting%20Actions.md#Zah
 
 ![](attachments/Buchhaltung%20Zahlungen%20gesendet%20zurücksetzen.gif)
 
-## Eingehende Zahlungen
+## Kunden
 
 ### Eingehende Zahlung erfassen
 

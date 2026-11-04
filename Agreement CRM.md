@@ -2,8 +2,7 @@
 title: Agreement CRM
 description: Vereinbarungen aus Chancen erstellen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./documents
 forge: github.com
 repo: Mint-System/Odoo-Apps-Contract

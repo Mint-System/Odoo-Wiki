@@ -2,7 +2,6 @@
 title: CRM Partner Link
 description: Verkaufschance mit Kontakt verknüpfen.
 kind: howto
-tags:
 prev: ./crm
 forge: github.com
 repo: Mint-System/Odoo-Apps-Partner-Contact

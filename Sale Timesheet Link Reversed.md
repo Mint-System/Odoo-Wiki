@@ -2,7 +2,6 @@
 title: Sale Timesheet Link Reversed
 description: Abgerechnete Zeiterfassungseinträge auf mit Gutschriften bezahlten Rechnungen beibehalten.
 kind: howto
-tags:
 prev: ./sale-timesheet
 forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow

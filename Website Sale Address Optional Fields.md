@@ -2,8 +2,7 @@
 title: Website Sale Address Optional Fields
 description: Legt optionale Felder im Adressformular via Setting fest.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./website-sale
 forge: github.com
 repo: Mint-System/Odoo-Apps-Website
@@ -24,4 +23,14 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Mit dieser Erweiterung können in der Konfiguration einer Website Felder des Adressformulars im Webshop optional gemacht werden. Dazu geht man zu _Webseite > Konfiguration > Einstellungen > Shop - Checkout Process_ (Odoo 19: _eCommerce_) und wählt die entsprechenden Felder aus (voreingestellt: Name, E-mail, Phone für neue Websites). Die Konfiguration kann unabhängig für jede Webseite getroffen werden.
+Mit dieser Erweiterung können in der Konfiguration einer Website Felder des Adressformulars im Webshop optional gemacht werden. Die Konfiguration kann unabhängig für jede Webseite getroffen werden.
+
+## Konfiguration
+
+### Optionale Felder festlegen
+
+Gehen Sie auf _Webseite > Konfiguration > Einstellungen > Shop - Checkout Process_ (Odoo 19: _eCommerce_) und wählen sie bei _Optional Address Fields_ die entsprechenden Felder aus.
+
+::: tip
+Auf eneun Websites ist Name, E-mail und Phone als Standard hinterlegt.
+:::

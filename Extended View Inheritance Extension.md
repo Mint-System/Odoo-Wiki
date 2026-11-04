@@ -4,7 +4,7 @@ forge: github.com
 kind: howto
 name: base_view_inheritance_extension
 partner: OCA
-prev: ./devleopment
+prev: ./development
 repo: OCA/Server-Tools
 title: Extended view inheritance
 versions:

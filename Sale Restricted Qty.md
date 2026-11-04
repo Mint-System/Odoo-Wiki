@@ -5,7 +5,6 @@ kind: howto
 name: sale_restricted_qty
 prev: ./sale
 repo: OCA/sale-workflow
-tags:
 title: Sale Restricted Qty
 versions:
   - '18.0'

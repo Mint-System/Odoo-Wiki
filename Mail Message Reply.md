@@ -5,7 +5,6 @@ kind: howto
 name: mail_quoted_reply
 prev: ./discuss-e-mail
 repo: OCA/mail
-tags:
 title: Mail Message Reply
 versions:
   - '18.0'

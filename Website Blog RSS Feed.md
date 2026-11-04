@@ -2,8 +2,7 @@
 title: Website Blog RSS Feed
 description: RSS Feed für Blog anbieten.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./website
 forge: github.com
 repo: Mint-System/Odoo-Apps-Website

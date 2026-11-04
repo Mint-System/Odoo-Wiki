@@ -2,7 +2,6 @@
 title: Account Report Filename
 description: Entfernt die Umwandlung in Kleinbuchstaben im Dateinamen des Mahnbericht-Pdfs.
 kind: howto
-tags:
 prev: ./accounting
 forge: github.com
 repo: Mint-System/Odoo-Apps-Account-Financial-Reporting

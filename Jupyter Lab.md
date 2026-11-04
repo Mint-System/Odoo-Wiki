@@ -2,8 +2,7 @@
 title: Jupyter Lab
 description: Starte Jupyter Lab Projekte mit direktem Zugriff auf Odoo.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./data-management
 forge: github.com
 repo: Mint-System/Odoo-Apps-Data-Analytic

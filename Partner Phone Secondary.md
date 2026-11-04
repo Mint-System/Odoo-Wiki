@@ -2,7 +2,6 @@
 title: Secondary phone number on partners
 description: Feld für zweite Telefonnummer auf Kontakt.
 kind: howto
-tags:
 prev: ./contacts
 forge: github.com
 repo: OCA/partner-contact

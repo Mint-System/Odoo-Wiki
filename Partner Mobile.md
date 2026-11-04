@@ -2,7 +2,6 @@
 title: Partner Mobile
 description: Fügt Feld für Mobilnummer hinzu.
 kind: howto
-tags:
 prev: ./contacts
 forge: github.com
 repo: OCA/partner-contact

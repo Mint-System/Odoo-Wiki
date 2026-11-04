@@ -5,7 +5,6 @@ kind: howto
 name: fs_attachment
 prev: ./base
 repo: OCA/storage
-tags:
 title: Base Attachment Object Store
 versions:
   - '19.0'

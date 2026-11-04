@@ -2,8 +2,7 @@
 title: MRP Workorder Hide Shop Floor Buttons
 description: Ersetzt die Buttons zum Schliessen des Fertigungsauftrags durch Hinweistext.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./manufacture
 forge: github.com
 repo: Mint-System/Odoo-Apps-Manufacture

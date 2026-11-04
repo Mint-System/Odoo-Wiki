@@ -2,8 +2,7 @@
 title: ONLYOFFICE Odoo Documents
 description: Dokumente mit ONLYOFFICE bearbeiten.
 kind: howto
-tags:
-  - Thirdparty
+partner: Thirdparty
 prev: ./onlyoffice
 forge: github.com
 repo: ONLYOFFICE/onlyoffice_odoo

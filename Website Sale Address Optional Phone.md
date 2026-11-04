@@ -2,7 +2,6 @@
 title: Website Sale Address Optional Phone
 description: Feld Telefon auf dem Adressformular als optional festlegen.
 kind: howto
-tags:
 prev: ./website-sale
 forge: github.com
 repo: Mint-System/Odoo-Apps-Website

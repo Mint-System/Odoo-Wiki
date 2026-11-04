@@ -8,7 +8,7 @@ partner: Odoo S.A.
 
 # Odoo.sh
 
-![](attachments/icons_odoo_server.png)
+![](attachments/icons_odoo_app.png)
 
 {{ $frontmatter.description }}
 

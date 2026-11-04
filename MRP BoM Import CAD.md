@@ -2,8 +2,7 @@
 title: MRP BoM Import CAD
 description: Aktualisiert eine Stückliste über den CSV-Import aus einem CAD. 
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./manufacture
 forge: github.com
 repo: Mint-System/Odoo-Apps-Manufacture

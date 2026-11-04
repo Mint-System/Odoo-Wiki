@@ -2,8 +2,7 @@
 title: ONLYOFFICE Odoo
 description: Verbindung zwischen Odoo und ONLYOFFICE Dokumentserver herstellen.
 kind: howto
-tags:
-  - Thirdparty
+partner: Thirdparty
 prev: ./onlyoffice
 forge: github.com
 repo: ONLYOFFICE/onlyoffice_odoO

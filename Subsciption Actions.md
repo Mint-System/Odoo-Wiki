@@ -212,6 +212,8 @@ extend_subscriptions = env["sale.order"].search([
 
 # Create and send renewal order
 for subscription in extend_subscriptions:
+    renewal_so = env["sale.order"]
+    
     try:
         res = subscription.prepare_renewal_order()
         res_id = res["res_id"]
@@ -224,13 +226,13 @@ for subscription in extend_subscriptions:
         ).create({})
         composer.action_send_mail()
         renewal_so.action_quotation_sent()
-    except:
+    except Exception as e:
         renewal_so["tag_ids"] = [tag_id.id]
         env["helpdesk.ticket"].create({
             "name": "Verlängerung: Fehler bei Erneuerung",
             "description": "Das Abonnement " + renewal_so.name + " konnte nicht verlängert werden, es ist ein Fehler entstanden."
         })
-        subscription.set_close()
+        # subscription.set_close()
 ```
 
 ### Verkaufsabonnement: Reminder Verlängerung versenden

@@ -2,8 +2,7 @@
 title: Stock Picking Split And Validate
 description: Überträgt entsprechend gekennzeichnete Produkte in eigenes Picking und validiert dieses unmittelbar.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./stock
 forge: github.com
 repo: Mint-System/Odoo-Apps-stock-logistics-workflow

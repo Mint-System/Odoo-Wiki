@@ -5,7 +5,6 @@ kind: howto
 name: partner_stage
 prev: ./contacts
 repo: OCA/Partner-Contact
-tags:
 title: Partner Stage
 versions:
   - '19.0'

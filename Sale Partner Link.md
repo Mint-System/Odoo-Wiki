@@ -2,7 +2,6 @@
 title: Sale Partner Link
 description: Verkaufsaufträge mit Kontakten verlinken.
 kind: howto
-tags:
 prev: ./contacts
 forge: github.com
 repo: Mint-System/Odoo-Apps-Partner-Contact

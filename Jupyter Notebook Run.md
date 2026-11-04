@@ -2,8 +2,7 @@
 title: Jupyter Notebook Run
 description: Jupyter Notebooks aus Odoo parametrieren und ausführen.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./data-management
 forge: github.com
 repo: Mint-System/Odoo-Apps-Data-Analytic

@@ -2,8 +2,7 @@
 title: Resource Attendance Time Type
 description: Add an extra time_type to national holidays and make it visible in the list view
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./hr-holidays
 forge: github.com
 repo: Mint-System/Odoo-Apps-HR

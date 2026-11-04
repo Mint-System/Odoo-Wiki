@@ -5,7 +5,6 @@ kind: howto
 name: sale_start_end_dates
 prev: ./sale
 repo: OCA/sale-workflow
-tags:
 title: Sale Start End Dates
 versions:
   - '18.0'

@@ -1,0 +1,112 @@
+/* On large screens the sidebars stick below the header and scroll
+   independently when their content (long ToC / document outline) exceeds the
+   viewport, so the user can scroll the menu without scrolling the whole page.
+   The document outline lives in the secondary sidebar (`toc`); the primary
+   sidebar only shows the top-level nav links. */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary,
+  .md-sidebar--secondary {
+    position: sticky;
+    top: 2.4rem;
+    max-height: calc(100vh - 2.4rem);
+  }
+}
+
+/* Mint System GmbH button in the navigation.
+   Replicates the old Vuepress navbar button, sized to fit the Material
+   header tabs. Applies to both the sidebar link and the top navigation tab. */
+.md-nav__link[href="https://www.mint-system.ch/"],
+.md-tabs__link[href="https://www.mint-system.ch/"] {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 6px;
+  background-color: #14d6c4;
+  color: #fff !important;
+  font-weight: 500;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+/* Sidebar variant (kept for completeness; the nav currently uses tabs) */
+.md-nav__link[href="https://www.mint-system.ch/"] {
+  margin: 0.4rem 0;
+  padding: 0.25rem 0.9rem;
+  font-size: 0.85rem;
+}
+
+/* Top navigation tab variant: keep the button at the same size as the other
+   tabs (tab item is 2.4rem tall, links are 0.7rem) and center it vertically */
+.md-tabs__link[href="https://www.mint-system.ch/"] {
+  height: 1.7rem;
+  margin-top: 0.35rem;
+  padding: 0 0.65rem;
+  font-size: 0.7rem;
+  opacity: 1;
+}
+
+/* Push the Mint System GmbH tab to the right edge of the navigation bar */
+.md-tabs__item:has(.md-tabs__link[href="https://www.mint-system.ch/"]) {
+  margin-left: auto;
+}
+
+/* On small screens the navigation tabs scroll horizontally; keep a small
+   margin on the right so the button does not touch the screen edge */
+@media screen and (max-width: 1219px) {
+  .md-tabs__item:has(.md-tabs__link[href="https://www.mint-system.ch/"]) {
+    margin-right: 0.6rem;
+  }
+}
+
+.md-nav__link[href="https://www.mint-system.ch/"]:hover,
+.md-tabs__link[href="https://www.mint-system.ch/"]:hover {
+  background-color: #0b9fa3;
+  color: #fff !important;
+}
+
+/* Dark mode: use a deeper teal that sits well on the dark header */
+[data-md-color-scheme="slate"] .md-nav__link[href="https://www.mint-system.ch/"],
+[data-md-color-scheme="slate"] .md-tabs__link[href="https://www.mint-system.ch/"] {
+  background-color: #087f74;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link[href="https://www.mint-system.ch/"]:hover,
+[data-md-color-scheme="slate"] .md-tabs__link[href="https://www.mint-system.ch/"]:hover {
+  background-color: #0b9fa3;
+}
+
+/* Inline version badges (converted from Vuepress `<Badge type=… text=… …/>`)
+   in bin/build.js to `<span class="md-badge md-badge--…">`). Small indigo
+   pill that adapts to the active color scheme via Material CSS variables. */
+.md-badge {
+  display: inline-block;
+  padding: 0.08em 0.5em;
+  margin: 0 0.1em;
+  border-radius: 0.4rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+  line-height: 1.5;
+  background: var(--md-default-fg-color--lightest);
+  color: var(--md-primary-fg-color);
+  border: 1px solid var(--md-primary-fg-color--light);
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.md-badge--action {
+  color: #2e7d32;
+  border-color: #2e7d32;
+}
+.md-badge--xml {
+  color: #c62828;
+  border-color: #c62828;
+}
+
+/* Slightly smaller on narrow screens */
+@media screen and (max-width: 44.98em) {
+  .md-badge {
+    font-size: 0.55rem;
+  }
+}

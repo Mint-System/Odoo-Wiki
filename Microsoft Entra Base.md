@@ -2,7 +2,6 @@
 title: Microsoft Entra Base
 description: Microsoft Entra OAuth Provider.
 kind: howto
-tags:
 prev: ./settings-oauth
 versions:
 - '19.0'

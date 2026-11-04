@@ -2,8 +2,7 @@
 title: Sale Subscription Disable Next Invoice Closing
 description: Verhindert, dass Abonnements mit einem Datum für die nächste Rechnung in der Vergangheit automatisch geschlossen werden.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./subscription
 forge: github.com
 repo: Mint-System/Odoo-Apps-Sale-Workflow

@@ -5,7 +5,6 @@ kind: howto
 name: web_widget_x2many_2d_matrix
 prev: ./development
 repo: OCA/Web
-tags:
 title: 2D matrix for x2many fields
 versions:
   - '19.0'

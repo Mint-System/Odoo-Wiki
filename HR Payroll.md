@@ -41,7 +41,7 @@ Dazu eine Übersicht:
 - [Arbeitsvertrag hinzufügen](HR.md#Arbeitsvertrag%20hinzufügen)
 - [Private Adresse hinterlegen](HR.md#Private%20Adresse%20hinterlegen)
 - [Bankverbindung hinterlegen](#Bankverbindung%20hinterlegen)
-- [Lohnarten definieren](#Lohnarten%20definieren)
+- [Lohnart erstellen](#Lohnart%20erstellen)
 - [Finanzkonten den Lohnarten zuweisen](#Finanzkonten%20den%20Lohnarten%20zuweisen)
 - [Gehaltsinformationen eingeben](#Gehaltsinformationen%20eingeben)
 

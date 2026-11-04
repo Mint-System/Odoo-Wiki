@@ -41,7 +41,7 @@ Nachdem der Browser aktualisiert haben Sie Zugriff auf das neue Menü und Ansich
 
 ### Ansicht einer Aktion hinzufügen
 
-Wenn eine [Aktion bearbeiten](#Aktion%20bearbeiten), können Sie die verfügbaren Ansichtstypen im Feld _Ansichtmodus_ festlegen. Ebenfalls können Sie steuern welche Ansicht abhängig vom Type aufgerufen werden. Auf der selben Bearbeitungsansicht können Sie unter _Ansichten_ eine Liste bearbeiten.
+Wenn eine [Aktuelle Aktion bearbeiten](#Aktuelle%20Aktion%20bearbeiten), können Sie die verfügbaren Ansichtstypen im Feld _Ansichtmodus_ festlegen. Ebenfalls können Sie steuern welche Ansicht abhängig vom Type aufgerufen werden. Auf der selben Bearbeitungsansicht können Sie unter _Ansichten_ eine Liste bearbeiten.
 
 ![](attachments/Entwicklung%20Aktionen%20Ansichten.png)
 

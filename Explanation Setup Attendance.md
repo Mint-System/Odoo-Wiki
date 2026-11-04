@@ -2,7 +2,7 @@
 title: Setup Abwesenheiten
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
-prev: ./explanation
+prev: ./use-cases
 partner: Mint System
 ---
 

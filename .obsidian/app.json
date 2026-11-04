@@ -9,14 +9,8 @@
   "legacyEditor": false,
   "livePreview": false,
   "userIgnoreFilters": [
-    "build.js",
-    "package.json",
-    "obsidian.css",
-    "default.vim",
-    "package-lock.json",
-    "task.js",
     "node_modules/",
-    "src/"
+    "docs/"
   ],
   "spellcheckLanguages": null,
   "showInlineTitle": false,

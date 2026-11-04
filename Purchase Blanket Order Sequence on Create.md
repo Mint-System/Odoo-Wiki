@@ -2,8 +2,7 @@
 title: Purchase Blanket Order Sequence on Create
 description: Legt den Namen des Vertrags beim Erzeugen an gemäss Sequenz.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./purchase
 forge: github.com
 repo: Mint-System/Odoo-Apps-Purchase-Workflow

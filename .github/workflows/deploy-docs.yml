@@ -1,11 +1,16 @@
+name: Deploy Docs
 on:
-  push:
-    branches:
-      - "main"
+    push:
+        branches:
+            - 'main'
+        paths:
+            - '*.md'
+            - '.github/workflows/**'
+            - '.github/secrets/**'
 
 jobs:
   deploy:
-    name: Deploy to Kubernetes
+    name: Deploy Docs
     runs-on: ubuntu-latest
     steps:
       - name: Install kubectl

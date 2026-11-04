@@ -2,8 +2,7 @@
 title: Certificate Planner Export PDM
 description: Exportiert Zertifikate und Teile in PDM-XML-Format.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./certificate-planner
 forge: github.com
 repo: Mint-System/Odoo-Apps-Certificate-Planner

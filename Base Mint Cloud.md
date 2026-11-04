@@ -2,8 +2,7 @@
 title: Base Mint Cloud
 description: Mint Cloud Produktdaten.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./kubernetes
 forge: github.com
 repo: Mint-System/Odoo-Apps-Kubernetes

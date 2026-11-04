@@ -2,8 +2,7 @@
 title: MRP Routing Workcenter Time Start
 description: Definiert eine stücklistenspezifische Rüstzeit für einen Vorgang
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./manufacture
 forge: github.com
 repo: Mint-System/Odoo-Apps-Manufacture

@@ -2,7 +2,6 @@
 title: CRM Link
 description: Chancen mit Chancen verlinken.
 kind: howto
-tags:
 prev: ./crm
 forge: github.com
 repo: Mint-System/Odoo-Apps-Partner-Contact

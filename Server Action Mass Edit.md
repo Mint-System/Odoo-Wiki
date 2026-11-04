@@ -5,7 +5,6 @@ kind: howto
 name: server_action_mass_edit
 prev: ./development
 repo: OCA/Server-UX
-tags:
 title: Mass Editing
 versions:
   - '19.0'

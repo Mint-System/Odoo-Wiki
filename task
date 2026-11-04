@@ -17,16 +17,15 @@ help() {
     local max_cmd=7 max_opt=6 max_desc=11
 
     rows+=("Command|Option|Description")
-    rows+=("install-vuepress||Install build dependencies.")
-    rows+=("update-vuepres||Update build dependencies.")
-    rows+=("dev-vuepress||Start vuepress development server.")
-    rows+=("build-vuepress||Create vuepress build.")
-    rows+=("serve-vuepress||Serve vuepress build.")
+    rows+=("init-zensical-docs||Initialize Zensical project.")
+    rows+=("prepare-docs||Convert markdown wiki files to docs.")
+    rows+=("dev-zensical-docs||Start Zensical development server.")
+    rows+=("build-zensical-docs||Create Zensical build.")
+    rows+=("serve-zensical-docs||Serve Zensical build.")
     rows+=("download-icons||Download module icons from Odoo assets.")
     rows+=("update-module-versions|[file]|Check and update frontmatter versions list.")
     rows+=("get-frontmatter-field|<file> <field>|Read a single frontmatter field value.")
     rows+=("set-frontmatter-field|<file> <versions>|Write versions list to frontmatter.")
-    rows+=("lint||Lint code with prettier.")
 
     for row in "${rows[@]}"; do
         IFS='|' read -r cmd opt desc <<< "$row"
@@ -61,66 +60,6 @@ if [ -d "$HOME/taskfile.build/bin" ]; then
         fi
     done
 fi
-
-get-frontmatter-field() {
-    local FILE="$1"
-    local FIELD="$2"
-    awk '
-        BEGIN { in_fm=0; found=0 }
-        /^---$/ {
-            if (in_fm == 0) { in_fm=1; next }
-            else { exit }
-        }
-        in_fm && /^'"$FIELD"':[ \t]*/ {
-            sub(/^'"$FIELD"':[ \t]*/, "")
-            # Strip surrounding quotes if present
-            gsub(/^'"'"'|'"'"'$/, "")
-            gsub(/^"|"$/, "")
-            print
-            found=1
-        }
-    ' "$FILE"
-}
-
-set-frontmatter-field() {
-    local FILE="$1"
-    shift
-    local VERSIONS=("$@")
-
-    # Build the replacement block: "versions:\n  - 'x.y'\n  - ..."
-    local NEW_BLOCK="versions:"
-    for V in "${VERSIONS[@]}"; do
-        NEW_BLOCK="${NEW_BLOCK}\n  - '${V}'"
-    done
-
-    # Use awk to replace the existing versions block inside the frontmatter.
-    # The versions block may span multiple lines (the key line + list items).
-    # Skips any lines that are part of a YAML block sequence (optional indent + "- ").
-    awk -v new_block="$NEW_BLOCK" '
-        BEGIN { in_fm=0; in_versions=0; fm_done=0 }
-        /^---$/ {
-            if (in_fm == 0) { in_fm=1; print; next }
-            else { fm_done=1; in_fm=0 }
-        }
-        # Once frontmatter is closed, print everything verbatim
-        fm_done { print; next }
-        in_fm {
-            if (/^versions:/) {
-                # Print replacement block and enter versions-skip mode
-                printf "%s\n", new_block
-                in_versions=1
-                next
-            }
-            if (in_versions) {
-                # Skip continuation list items (lines starting with optional whitespace + "- ")
-                if (/^[ \t]*- /) { next }
-                else { in_versions=0 }
-            }
-            print
-        }
-        !in_fm { print }
-    ' "$FILE" > "${FILE}.tmp" && mv "${FILE}.tmp" "$FILE"
-}
 
 update-module-versions() {
     local TARGET_FILE="${1:-}"  # Optional: single file path to process
@@ -238,41 +177,12 @@ update-module-versions() {
     fi
 }
 
-install-vuepress() {
-    pnpm install
-}
-
-update() {
-    pnpm install -D @vuepress/bundler-vite@next
-    pnpm install -D @vuepress/client@next
-    pnpm install -D @vuepress/plugin-docsearch@next
-    pnpm install -D @vuepress/plugin-search@next
-    pnpm install -D @vuepress/plugin-shiki@next
-    pnpm install -D @vuepress/theme-default@next
-    pnpm install -D @vuepress/utils@next
-    pnpm install -D vuepress@next
-}
-
-dev-vuepress() {
-    open-url "http://localhost:8080/"
-    pnpm run dev
-}
-
-build-vuepress() {
-    pnpm run build
-}
-
-serve-vuepress() {
-    cd ./src/.vuepress/dist
-    npx serve
+prepare-docs() {
+    node bin/build.js all
 }
 
 download-icons() {
-    pnpm run download-icons
-}
-
-lint() {
-    pnpm exec prettier . --write
+    node download-icons.js
 }
 
 if declare -f "$1" > /dev/null; then

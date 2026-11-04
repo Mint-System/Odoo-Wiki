@@ -2,7 +2,7 @@
 title: Kreditkartenabrechnung
 description: Erfassen und abgleichen von Kreditkartenzahlungen
 kind: explain
-prev: ./explanation
+prev: ./use-cases
 partner: Mint System
 ---
 

@@ -2,7 +2,7 @@
 title: OCA Finanzbuchhaltung
 description: Finanzbuchhaltung mit OCA-Modulen.
 kind: explain
-prev: ./explanation
+prev: ./use-cases
 partner: Mint System
 ---
 

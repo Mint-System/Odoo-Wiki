@@ -2,7 +2,7 @@
 title: VAT-Abrechnung
 description: Wie Sie am einfachsten die VAT abrechnen.
 kind: explain
-prev: ./explanation
+prev: ./use-cases
 partner: Mint System
 ---
 

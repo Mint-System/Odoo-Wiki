@@ -163,7 +163,7 @@ Das verwendete Outlook-Postfach darf keine Shared Mailbox sein. Der Benutzer und
 :::
 
 ::: warning
-Die Relay-Funktion von Odoo funktioniert mit Office 365 nicht. Sie müssen eine feste Absender-Adresse gemäss [Absender-Adresse überschreiben](#Absender-Adresse%20überschreiben) wählen.
+Die Relay-Funktion von Odoo funktioniert mit Office 365 nicht. Sie müssen eine feste Absender-Adresse gemäss [Allgemeine Absender-Adresse festlegen](#Allgemeine%20Absender-Adresse%20festlegen) wählen.
 :::
 
 ### Ausgehender Mail-Server Mailgun konfigurieren

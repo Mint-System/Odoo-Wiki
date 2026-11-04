@@ -106,7 +106,7 @@ Mit _Hinzufügen_ wird der fällige Betrag um den Wert der Gutschrift reduziert:
 
 ![](attachments/Rechnungsstellung%20Bezahlt%20am.png)
 
-## Abrechnung
+## Kunden
 
 ### Bank hinzufügen
 
@@ -144,7 +144,15 @@ Auf Kontakten können Sie Warnungs-Text hinterlegen, welche bei der Ertellung ei
 
 ![](attachments/Rechnungsstellung%20Warnung.png)
 
-## Empfang
+### Kundenrechnungen bezahlen
+
+Damit eine Rechnung als bezahlt markiert wird, muss eine Zahlung erfasst werden. Zeigen Sie die Rechnung unter _Rechnungsstellung > Kunden > Ausgangsrechnungen_ an. Wählen Sie _Zahlen_ und für Journal _Bank_ aus. Als Zahlungsmethode wählen Sie _Manuelle Zahlung_. Geben Sie das Zahlungsdatum an und erstellen Sie die Zahlung mit _Zahlung erstellen_.
+
+::: tip
+Standardmässig werden Rechnungen über ein Zwischenkonto gebucht und erste wenn die Zahlung abgeglichen wird, wird die Rechnung als _Bezahlt_ markiert. Wenn Sie Rechnungen ohne Abstimmung als _Bezahlt_ markieren wollen, müssen Sie das [Bank-Journal einrichten](Accounting.md#Bank-Journal%20einrichten) und im Tab _Zahlungseingänge_ bei der Zahlungsmethode _Manuelle Zahlung_ in der Spalte _Konten für ausstehende Eingänge_ das Konto _1021 Bank_ eintragen.
+:::
+
+## Lieferanten
 
 ### Journal Lieferantenrechnungen anzeigen
 

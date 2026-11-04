@@ -2,8 +2,7 @@
 title: Payslip Report Manual Note
 description: Field in Payslip View that is transfered to the Swiss Payslip Report
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./HR Payroll
 forge: github.com
 repo: Mint-System/Odoo-Apps-HR

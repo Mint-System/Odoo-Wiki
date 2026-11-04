@@ -2,8 +2,7 @@
 title: MRP Workorder Play Button
 description: Zeigt Play- und Stop-Button in der Werkstattansicht eines Vorgangs.
 kind: howto
-tags:
-  - Mint-System
+partner: Mint System
 prev: ./manufacture
 forge: github.com
 repo: Mint-System/Odoo-Apps-Manufacture

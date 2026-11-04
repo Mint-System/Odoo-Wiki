@@ -278,7 +278,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Aktivitätstypen_ und zeigen Si
 
 Die bestehende Bezugssteuer _UST 8,1% Bezugssteuer_ von Odoo ist für den Steuerbericht unzureichend.
 
-Gemäss [Steuersätze anpassen](#Steuersätze%20anpassen) können Sie eine Kopie von _UST 8,1% Bezugssteuer_ machen und wie folgt anpassen:
+Gemäss [Steuersatz anpassen](#Steuersatz%20anpassen) können Sie eine Kopie von _UST 8,1% Bezugssteuer_ machen und wie folgt anpassen:
 
 - **Steuerbezeichnung**: Bezugssteuer 8,1%
 - **Betrag**: 8.1000

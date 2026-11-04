@@ -2,7 +2,7 @@
 title: Purchase to Order
 description: Eine einfache und umfassende Odoo-Dokumentation.
 kind: explain
-prev: ./explanation
+prev: ./use-cases
 partner: Mint System
 ---
 

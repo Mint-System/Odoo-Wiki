@@ -5,7 +5,6 @@ kind: howto
 name: fs_folder_webdav
 prev: ./base
 repo: OCA/storage
-tags:
 title: Fs Folder WebDAV
 versions:
   - '19.0'
