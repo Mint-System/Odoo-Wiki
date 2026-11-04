@@ -35,10 +35,10 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 ### Navigation: Menüpunkte für Projekte generieren
 
-::: warning
-Diese Funktion wurde Teil von [Project Menu](Project%20Menu.md).
-#DEPRECATED
-:::
+!!! warning
+    Diese Funktion wurde Teil von [Project Menu](Project%20Menu.md).
+    #DEPRECATED
+
 
 Mit dieser geplanten Aktion generiert Odoo für jedes Projekt einen Menüpunkt. Damit können Sie schneller zwischen Projektaufgaben navigieren.
 

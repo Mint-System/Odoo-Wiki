@@ -39,15 +39,15 @@ Damit der OAuth-Flow mit Microsoft Azure funktioniert, müssen Sie [Odoo als OAu
 
 Loggen Sie sich in Odoo ein und navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Integrationen_. Klicken Sie auf _OAuth-Provider_ und wählen Sie den Eintrag _Azure AD Single Tenant_.
 
-::: tip
-Single-Tenant-Anbieter beschränken den Zugang auf die Nutzer Ihres Tenants, während Multitenants den Zugang für alle Azure-AD-Nutzer erlauben, so dass Nutzer fremder Unternehmen ihren Azure-AD-Login ohne Gastkonto nutzen können.
-:::
+!!! tip
+    Single-Tenant-Anbieter beschränken den Zugang auf die Nutzer Ihres Tenants, während Multitenants den Zugang für alle Azure-AD-Nutzer erlauben, so dass Nutzer fremder Unternehmen ihren Azure-AD-Login ohne Gastkonto nutzen können.
+
 
 Aktivieren Sie den Eintrag mit _Erlauben_ und füllen Sie die Felder _Client-ID_ und _Secret Key_ aus. Wenn Sie _Azure AD Single Tenant_ gewählt haben, müssen Sie in den Feldern _Autorisierungs-URL_, _Token URL_ und _JWKS URL_ den Platzhalter `{tenant_id}` mit ihrer Tenant-ID ersetzen.
 
-::: tip
-Wenn die OpenID Connect Tokens nicht mitgegeben werden, kann im OAuth-Provider das Feld _Token Map_ von `upn:user_id upn:email` zu `preferred_username:user_id preferred_username:email` angepasst werden.
-::::
+!!! tip
+    Wenn die OpenID Connect Tokens nicht mitgegeben werden, kann im OAuth-Provider das Feld _Token Map_ von `upn:user_id upn:email` zu `preferred_username:user_id preferred_username:email` angepasst werden.
+
 
 ### Login mit GitLab konfigurieren
 

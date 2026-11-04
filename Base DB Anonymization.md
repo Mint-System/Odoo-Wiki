@@ -35,9 +35,9 @@ Navigieren Sie nach _Einstellungen > Technisch > Fields Anonymize_. Erstellen un
 - **Output New Value**: Aktivieren falls der neue Feldinhalt bei der Anonymisierung im Server-Log ausgegeben werden soll
 - **Is Anonymized**: Ist aktiviert wenn Anonymisierung für dieses Feld durchgeführt wurde
 
-::: warning
-Wenn das Feld **Is Anonymized** gesetzt ist, wird der Anonymisierungs-Eintrag ignoriert.
-:::
+!!! warning
+    Wenn das Feld **Is Anonymized** gesetzt ist, wird der Anonymisierungs-Eintrag ignoriert.
+
 
 ## Verwendung
 

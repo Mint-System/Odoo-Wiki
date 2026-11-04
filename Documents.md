@@ -44,9 +44,9 @@ Nun können Sie im gewählten Arbeitsbereich ein Dokument anzeigen und finden au
 
 Zeigen Sie _Dokumente_ an und wählen Sie auf der linken Seite einen Arbeitsbereich und ggf. Stichwörter aus. Mit einem Klick oben rechts können Sie ein Dokument markieren und eine Aktion auf der rechten Seite auswählen.
 
-::: tip
-Um mehrere Dokumente auswählen, markieren Sie das erste Dokumente, halten <kbd>Shift</kbd> gedrückt und wählen das letzte Dokumente aus. Alle Dokumente innerhalb der Auswahl werden ebenfalls markiert.
-:::
+!!! tip
+    Um mehrere Dokumente auswählen, markieren Sie das erste Dokumente, halten <kbd>Shift</kbd> gedrückt und wählen das letzte Dokumente aus. Alle Dokumente innerhalb der Auswahl werden ebenfalls markiert.
+
 
 ### E-Mail-Hochladen für Arbeitsbereich einrichten
 

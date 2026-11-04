@@ -76,9 +76,9 @@ Damit Kursteilnehmer den Kurs und die Inhalte sehen, muss dieser immer freigeben
 
 Jeder Kurs hat eine individuelle Teilnehmerliste. Wenn Sie unter _eLearning > Kurs auswählen_ den Link _Teilnehmer_ anklicken, erscheint eine Liste mit _Name_ und _E-Mail_. Hier können Sie Tabellendatei mit den Teilnehmer importieren.
 
-::: warning
-Jeder Teilnehmer braucht einen Portal-Benutzer.
-:::
+!!! warning
+    Jeder Teilnehmer braucht einen Portal-Benutzer.
+
 
 Die Einladungsmail sieht ungefwähr so aus:
 
@@ -90,9 +90,9 @@ Ein Benutzer mit Zugriff auf den [Entwicklermodus](Settings.md#Entwicklermodus%2
 
 ![](attachments/eLearning%20Automatisch%20eingeschriebene%20Gruppe.png)
 
-::: warning
-Jeder Teilnehmer erhählt eine Einladung via E-Mail.
-:::
+!!! warning
+    Jeder Teilnehmer erhählt eine Einladung via E-Mail.
+
 
 ### Quiz hinzufügen
 

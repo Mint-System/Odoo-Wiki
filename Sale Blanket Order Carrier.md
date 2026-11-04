@@ -31,6 +31,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ![](attachments/Sale%20Blanket%20Order%20Carrier.png)
 
-::: tip
-Wurde die Auslieferungsmethode auf dem Kontakt hinterlegt, wird diese beim Erstellen des Rahmenauftrags übernommen.
-:::
+!!! tip
+    Wurde die Auslieferungsmethode auf dem Kontakt hinterlegt, wird diese beim Erstellen des Rahmenauftrags übernommen.
+

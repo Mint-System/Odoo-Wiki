@@ -45,9 +45,9 @@ Website: <https://www.odoo.com/de_DE/app/website>
 
 Navigieren Sie nach _Website > Konfiguration > Websites_ und zeigen Sie eine Website an. Im Feld _Website Domain_ legen Sie die Url fest.
 
-::: tip
-Wenn die Domain mit dem Datenbanknamen gekoppelt ist, können Sie das Feld leer lassen.
-:::
+!!! tip
+    Wenn die Domain mit dem Datenbanknamen gekoppelt ist, können Sie das Feld leer lassen.
+
 
 ## Berechtigung
 
@@ -72,9 +72,9 @@ Der Zugriff auf die verfügbaren Seite in der Menu-Struktur kann ganz einfach an
 
 Mit dem Odoo Website-Editor können Sie ganz einfach neue Seiten hinzufügen. Klicken Sie auf _+ Neu_ und wählen Sie _Seite_ aus. Geben Sie den Titel der Seite ein.
 
-::: tip
-Wenn die Seite auf zwei oder mehrere Sprachen übersetzt wird, geben Sie den Titel in der Sprache der Odoo-Installation ein.
-:::
+!!! tip
+    Wenn die Seite auf zwei oder mehrere Sprachen übersetzt wird, geben Sie den Titel in der Sprache der Odoo-Installation ein.
+
 
 ![](attachments/Website%20Neue%20Seite%20hinzufügen.gif)
 
@@ -126,9 +126,9 @@ In diesem Fall würde man den Link mit diesen Inhalt ersetzen:
 
 `<a t-if="request.context.get('lang') == 'de_CH'" href="https://clubofrome.de/die-grenzen-des-wachstums/" data-bs-original-title="" title="">Die Grenzen des Wachstums</a><a t-if="request.context.get('lang') == 'fr'" href="https://fr.wikipedia.org/wiki/Les_Limites_%C3%A0_la_croissance" data-bs-original-title="" title="">Les limites à la Croissance</a>`
 
-::: tip
-Eine weitere Möglichkeit zur Übersetzung von externen Links sind Umleitungen. Sie eine können den Inhalt mit einem internen Link `/example` verlinken und dazu zwei [Umleitungen einrichten](#Umleitung%20einrichten). Für den original Link leiten `/example` um und für den übersetzen Link leiten Sie `/fr/example` um.
-:::
+!!! tip
+    Eine weitere Möglichkeit zur Übersetzung von externen Links sind Umleitungen. Sie eine können den Inhalt mit einem internen Link `/example` verlinken und dazu zwei [Umleitungen einrichten](#Umleitung%20einrichten). Für den original Link leiten `/example` um und für den übersetzen Link leiten Sie `/fr/example` um.
+
 
 ## Menü-Eintrag ausblenden
 

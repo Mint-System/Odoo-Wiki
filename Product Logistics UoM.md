@@ -34,6 +34,6 @@ Mit dieser Erweiterung können Sie auf Produkten die Mengeneinheit für Produkt 
 
 ![](attachments/Product%20Logistics%20UoM.png)
 
-::: warning
-Ihr Benutzer muss die Berechtigung _Multiple Mengeneinheiten verwalten_ haben.
-:::
+!!! warning
+    Ihr Benutzer muss die Berechtigung _Multiple Mengeneinheiten verwalten_ haben.
+

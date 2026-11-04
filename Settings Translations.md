@@ -19,9 +19,9 @@ partner: Mint System
 
 Damit Odoo in mehreren Sprachen verfügbar ist, müssen Sie die entsprechenden Sprachpakete installieren. Navigieren Sie nach _Einstellungen > Sprachen_ und wählen Sie _Sprachen verwalten_. Suchen Sie die zu installierende Sprache, öffnen Sie diese und wählen _Aktivieren und Übersetzen_.
 
-::: tip
-Alle Übersetzungen basieren auf der Sprache _English (US)_ mit dem Code `en`.
-:::
+!!! tip
+    Alle Übersetzungen basieren auf der Sprache _English (US)_ mit dem Code `en`.
+
 
 ## Übersetzung
 
@@ -29,9 +29,9 @@ Alle Übersetzungen basieren auf der Sprache _English (US)_ mit dem Code `en`.
 
 Mit jeder Odoo Version und den dazugehörigen Modulen werden neue Übersetzungen hinzugefügt. Um die aktuellsten Übersetzungen zu erhalten müssen Sie folgende Aktion ausführen: Öffnen Sie _Einstellungen > Sprachen > Sprachen verwalten > Sprache auswählen_ und klicken auf _Aktiveren / Aktualisieren_. Bestätigen Sie den Dialog.
 
-::: warning
-Mit der Option _Bisherige Übersetzungen ändern_ werden manuell erstellte Übersetzungen überschrieben.
-:::
+!!! warning
+    Mit der Option _Bisherige Übersetzungen ändern_ werden manuell erstellte Übersetzungen überschrieben.
+
 
 ### Fehlende Begriffe generieren
 
@@ -53,9 +53,9 @@ Bis <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Navigieren Sie nach _Einstellungen > Übersetzungen > Übersetzte Begriffe_ und suchen Sie nach dem übersetzten Begriff. Ändern Sie die Übersetzung direkt im Feld _Übersetzungswert_.
 
-::: warning
-Wenn Sie ein Modul aktualisieren, können angepasste Übersetzungen verloren gehen. Notieren Sie sich die angepassten Übersetzungen.
-:::
+!!! warning
+    Wenn Sie ein Modul aktualisieren, können angepasste Übersetzungen verloren gehen. Notieren Sie sich die angepassten Übersetzungen.
+
 
 ### Übersetzung auf Ansicht anpassen
 
@@ -63,9 +63,9 @@ Auf der Ansicht, welche die Übersetzung enthält, die Sie anpassen möchten, w�
 
 ![](attachments/Einstellungen%20Übersetzung%20Ansicht%20übersetzen.gif)
 
-::: warning
-Der _EN_-Link wird ab <Badge type="info" text="Odoo16" vertical="middle" /> nur angezeigt, wenn mindestens 2 Sprachen aktiv sind.
-:::
+!!! warning
+    Der _EN_-Link wird ab <Badge type="info" text="Odoo16" vertical="middle" /> nur angezeigt, wenn mindestens 2 Sprachen aktiv sind.
+
 
 ### Übersetzungen erstellen
 
@@ -85,19 +85,19 @@ Nun ist der Odoo-Dialog übersetzt.
 
 ![Odoo Übersetzung nachher](attachments/Einstellungen%20Übersetzung%20nachher.png)
 
-::: warning
-Speichern Sie alle übersetzten Begriffe in einer separaten Notiz. Bei Upgrades können eigene Übersetzungen vom System überschrieben werden.
+!!! warning
+    Speichern Sie alle übersetzten Begriffe in einer separaten Notiz. Bei Upgrades können eigene Übersetzungen vom System überschrieben werden.
 
-![](attachments/Einstellungen%20Übersetungen%20Noitz.png)
-:::
+    ![](attachments/Einstellungen%20Übersetungen%20Noitz.png)
+
 
 ### Übersetzungen exportieren
 
 Im Entwicklermodus öffnen Sie den Export-Dialog via _Einstellungen > Übersetzungen > Import / Export > Übersetzung exportieren_. Wählen Sie die zu exportierende Sprache, Datei-Format CSV und eine App deren Übersetzungen Sie exportieren möchten. Drücken Sie auf _Export_ und laden die CSV-Datei herunter.
 
-::: warning
-Organisieren Sie die Übersetzung nach Apps
-:::
+!!! warning
+    Organisieren Sie die Übersetzung nach Apps
+
 
 ### Übersetzungen importieren
 
@@ -125,9 +125,9 @@ Bestimmte Feldinhalte können direkt übersetzt werden. Dazu wählt man den Spra
 
 ![Einstellungen Übersetzung Feldinhalt](attachments/Einstellungen%20Übersetzung%20Feldinhalt.gif)
 
-::: warning
-Wenn Sie [Übersetzungen aktualisieren](#Übersetzungen%20aktualisieren) können solche Änderungen verloren gehen.
-:::
+!!! warning
+    Wenn Sie [Übersetzungen aktualisieren](#Übersetzungen%20aktualisieren) können solche Änderungen verloren gehen.
+
 
 ### Übersetzungskommentar hinzufügen
 

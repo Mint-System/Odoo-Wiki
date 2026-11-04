@@ -21,9 +21,9 @@ Zeigen Sie _Verkauf > Produkte > Produkte_ an und erstellen Sie einenen neuen Ei
 
 Navigieren Sie nach _Einstellungen > Verkauf > Abrechnung_ und wählen Sie im Feld _Anzahlungen_ das erstellte Produkt aus.
 
-::: warning
-Damit Anzahlungen korrekt gebucht werden, müssen Sie das [Konto für Anzahlungen festlegen](Accounting%20Payments.md#Konto%20für%20Anzahlungen%20festlegen).
-:::
+!!! warning
+    Damit Anzahlungen korrekt gebucht werden, müssen Sie das [Konto für Anzahlungen festlegen](Accounting%20Payments.md#Konto%20für%20Anzahlungen%20festlegen).
+
 
 ### Produkt für Anzahlung auswählen
 
@@ -41,9 +41,9 @@ Navigieren Sie nach _Verkauf > Aufträge > Aufträge_ und öffnen Sie einen Verk
 
 Navigieren Sie nach _Verkauf > Aufträge > Aufträge_ und öffnen Sie einen Verkaufsaufstag mit einer Vorauszahlung. Klicken Sie auf _Rechnung erstellen_. Wenn Sie Option _Abzug von Anzahlung_ aktivieren, wird Odoo den Rechnungsbetrag den vorausbezahltem Betrag abziehen. Wenn Sie die Option deaktivieren, erstellt Odoo eine normale Rechnung.
 
-::: warning
-Wenn die Option _Abzug von Anzahlung_ aktiviert ist und der vorausbezahlten Betrag den Rechnungsbetrag übersteigt, erstellt Odoo eine Kunden-Gutschrift.
-:::
+!!! warning
+    Wenn die Option _Abzug von Anzahlung_ aktiviert ist und der vorausbezahlten Betrag den Rechnungsbetrag übersteigt, erstellt Odoo eine Kunden-Gutschrift.
+
 
 ### Upselling auflösen
 
@@ -71,6 +71,6 @@ Wenn Sie Dienstleistungen im Angebot haben, die eine Projektaufgabe generieren u
 
 ![](attachments/Verkauf%20Projekt%20auswählen.png)
 
-::: tip
-Das Feld _Projekt_ wird nur angezeigt, wenn eine Auftragsposition eine Dienstleistung enthält, die zur Abrechnung eine Projekt oder Projektaufgabe erstellt.
-:::
+!!! tip
+    Das Feld _Projekt_ wird nur angezeigt, wenn eine Auftragsposition eine Dienstleistung enthält, die zur Abrechnung eine Projekt oder Projektaufgabe erstellt.
+

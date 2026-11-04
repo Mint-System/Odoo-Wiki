@@ -48,9 +48,9 @@ Gilt ab <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Die App-Kacheln auf dem Startbildschirm von Odoo können Sie sortieren. Drücken und halten Sie eine Kachel und bewegen Sie diese anschliessend an den gewünschten Ort.
 
-::: warning
-Die Sortierung der Kacheln wird im Benutzer-Profil gespeichert. Jeder Benutzer hat eine eigene Sortierung.
-:::
+!!! warning
+    Die Sortierung der Kacheln wird im Benutzer-Profil gespeichert. Jeder Benutzer hat eine eigene Sortierung.
+
 
 ## Ansichten
 
@@ -68,9 +68,9 @@ Odoo-Verknüpft die Dokumente über diverse Links. Dies erlaubt eine flexible Na
 
 ![](attachments/Navigation%20Pfad.png)
 
-::: warning
-Beachten Sie immer in welchem Kontext Sie sich in der Navigation befinden.
-:::
+!!! warning
+    Beachten Sie immer in welchem Kontext Sie sich in der Navigation befinden.
+
 
 ### Mehrere Listeneinträge anzeigen
 

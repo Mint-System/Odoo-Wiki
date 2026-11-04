@@ -38,9 +38,9 @@ Gilt ab <Badge type="info" text="Odoo15" vertical="middle" /> .
 
 Die Positionsnummern auf einem Verkausauftrag werden mit dieser Erweiterung automatisch generiert. Zeigen Sie einen Auftrag unter _Verkauf > Aufträge > Angebote_ an.
 
-::: tip
-Wenn Positionsnummern leer sind, können Sie _Aktionen > Positionsnummern festlegen_ ausführen.
-:::
+!!! tip
+    Wenn Positionsnummern leer sind, können Sie _Aktionen > Positionsnummern festlegen_ ausführen.
+
 
 ## Berichte
 

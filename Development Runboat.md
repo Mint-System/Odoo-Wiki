@@ -15,9 +15,9 @@ partner: Mint System
 
 ## Beschreibung
 
-::: warning
-Nicht zu verwechseln mit [Entwicklung Runbot](Development%20Runboat.md).
-:::
+!!! warning
+    Nicht zu verwechseln mit [Entwicklung Runbot](Development%20Runboat.md).
+
 
 Auf Runboat stehen die Testumgebungen der Odoo Community Association (OCA) zur Verfügung. Für jeden Commit auf einem Branch (15.0, 16.0, 17.0, ...) eines OCA-Repository wird eine Testumgebung gestartet.
 

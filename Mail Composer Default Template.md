@@ -31,13 +31,13 @@ Wenn Sie diese Erweiterung installiert haben und den E-Mail-Dialog auf einem Dok
 
 ![Mail Composer Default Template](attachments/Mail%20Composer%20Default%20Template.gif)
 
-::: tip
-Beim Aufruf des E-Mail-Dialog wird die Vorlage in folgender Reihenfolge ausgewählt:
+!!! tip
+    Beim Aufruf des E-Mail-Dialog wird die Vorlage in folgender Reihenfolge ausgewählt:
 
-- Filterung nach Dokument
-- Filterung nach Sequenz
-- Filterung nach Domain
-  :::
+    - Filterung nach Dokument
+    - Filterung nach Sequenz
+    - Filterung nach Domain
+
 
 ### Sequenz der E-Mail-Vorlagen festlegen
 

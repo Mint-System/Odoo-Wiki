@@ -20,9 +20,9 @@ Die Deklaration des anwendbaren Incoterm ist eine Vertragsklausel und wird in de
 - Angebot/Verkaufsauftrag (> Weitere Informationen > Lieferbedingung)
 - Angebotsanfrage/Beschaffungsauftrag (> Weitere Informationen > Lieferbedingung)
 
-::: tip
-Falls eine Zuordnung mit einer Logik _Pro Lieferant/Kunde_ gewünscht ist, empfehlen wie die Installation der App [Sale Partner Incoterm](Sale%20Partner%20Incoterm.md).
-:::
+!!! tip
+    Falls eine Zuordnung mit einer Logik _Pro Lieferant/Kunde_ gewünscht ist, empfehlen wie die Installation der App [Sale Partner Incoterm](Sale%20Partner%20Incoterm.md).
+
 
 ## Funktion einschalten
 
@@ -35,10 +35,10 @@ Damit die Auswahl in den Dokumenten _Angebot/Verkaufsauftrag_ und _Angebotsanfra
 
 - Einstellungen > Verkauf > Versand > Lieferbedingungen
 
-::: tip
-Die Auswahl _Standard-Incoterm_ (Einstellung in der App _Buchhaltung_) wird in den Dokumenten _Angebot/Verkaufsauftrag_ und _Angebotsanfrage/Beschaffungsauftrag_ nicht als Default-Wert eingetragen
-:::
+!!! tip
+    Die Auswahl _Standard-Incoterm_ (Einstellung in der App _Buchhaltung_) wird in den Dokumenten _Angebot/Verkaufsauftrag_ und _Angebotsanfrage/Beschaffungsauftrag_ nicht als Default-Wert eingetragen
 
-::: tip
-Der Default-Wert für die _Lieferbedingung_ in den Dokumenten _Angebot/Verkaufsauftrag_ und _Angebotsanfrage/Beschaffungsauftrag_ kann auch über die Funktion _Standardwert setzen_ im Entwicklermodus eingestellt werden.
-:::
+
+!!! tip
+    Der Default-Wert für die _Lieferbedingung_ in den Dokumenten _Angebot/Verkaufsauftrag_ und _Angebotsanfrage/Beschaffungsauftrag_ kann auch über die Funktion _Standardwert setzen_ im Entwicklermodus eingestellt werden.
+

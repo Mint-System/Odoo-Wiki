@@ -97,9 +97,9 @@ Aktivieren Sie den [Entwicklermodus](Settings.md#Entwicklermodus%20aktivieren).
 
 Klicken Sie _Entwicklertools > Superuser werden_. Das Layout von Odoo ändert sich, Sie sind nun Superuser. Um zum normalen Benutzer zu wechseln, müssen Sie sich abmelden.
 
-::: warning
-Im Superuser-Modus werden alle Berechtigungen ignoriert. Das System kann unabsichtlich in einen inkonsistenten Zustand gebracht werden.
-:::
+!!! warning
+    Im Superuser-Modus werden alle Berechtigungen ignoriert. Das System kann unabsichtlich in einen inkonsistenten Zustand gebracht werden.
+
 
 ### Tour deaktivieren
 
@@ -115,9 +115,9 @@ Navigieren Sie nach _Einstellungen > Technisch > Berichtswesen > Papieformat_. W
 
 ![](attachments/Neues%20Papierformat.png)
 
-::: tip
-Für einen exakten Druck, müssen Sie die Seitengrösse in Inch und Milimeter kennen
-:::
+!!! tip
+    Für einen exakten Druck, müssen Sie die Seitengrösse in Inch und Milimeter kennen
+
 
 ### Dokumentlayout konfigurieren
 

@@ -31,9 +31,9 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Unternehmen_ und wählen Sie ein Unternehmen. Wählen Sie beim Feld _Wasserzeichen_ die Aktion _Datei Hochladen_ um eine PDF-Datei mit Wasserzeichen hochzuladen.
 
-::: tip
-Die PDF-Datei mit Wasserzeichen, muss dasselbe Papierformat der generierten Berichte haben. Dazu ein Beispiel: [sample.pdf](https://github.com/Mint-System/Odoo-Wiki/raw/master/assets/sample.pdf)[](attachments/sample.pdf)
-:::
+!!! tip
+    Die PDF-Datei mit Wasserzeichen, muss dasselbe Papierformat der generierten Berichte haben. Dazu ein Beispiel: [sample.pdf](https://github.com/Mint-System/Odoo-Wiki/raw/master/assets/sample.pdf)[](attachments/sample.pdf)
+
 
 ### Wasserzeichen von Unternehmen für Bericht aktivieren
 

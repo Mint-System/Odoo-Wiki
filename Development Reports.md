@@ -53,9 +53,9 @@ Eine Übersicht der wichtigsten Berichte und deren URL:
 | Zeiterfassung (Verkauf)           | `/report/html/sale_timesheet.report_timesheet_sale_order/$ID`                   |
 | Zeitnachweis                      | `/report/html/account_sale_timesheet_report.timesheet_report/$ID`               |
 
-::: tip
-Bestimmte Bericht können mehrere Dokumente anzeigen. Für die HTML-Anzeige können Sie die Dokument-IDs Komma-getrennt übergeben: /report/html/**stock.report_deliveryslip**/**3,4,5**
-:::
+!!! tip
+    Bestimmte Bericht können mehrere Dokumente anzeigen. Für die HTML-Anzeige können Sie die Dokument-IDs Komma-getrennt übergeben: /report/html/**stock.report_deliveryslip**/**3,4,5**
+
 
 ### Berichte als HTML anzeigen
 
@@ -195,9 +195,9 @@ Wurde das Kontext-Menü mit der Aktion _Zum Druckmenü hinzufügen_ erstellt, ka
 
 ![](attachments/QWeb-Berichte%20Drucken.png)
 
-::: tip
-Odoo verlinkt das Ansichts- und Berichtsobjekt über die externe ID bzw. XML ID.
-:::
+!!! tip
+    Odoo verlinkt das Ansichts- und Berichtsobjekt über die externe ID bzw. XML ID.
+
 
 ### Bestehender Bericht für verlinktes Datenmodell verfügbar machen
 

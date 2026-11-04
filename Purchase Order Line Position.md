@@ -31,9 +31,9 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Die Positionsnummern auf einem Einkaufsauftrag werden mit dieser Erweiterung automatisch generiert.
 
-::: tip
-Wenn Positionsnummern leer sind, können Sie _Aktionen > Positionsnummern festlegen_ ausführen.
-:::
+!!! tip
+    Wenn Positionsnummern leer sind, können Sie _Aktionen > Positionsnummern festlegen_ ausführen.
+
 
 ## Berichte
 

@@ -40,9 +40,9 @@ extensions: true
 
 ## Beschreibung
 
-::: tip
-Odoo unterscheidet zwischen Anwesenheits- und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheiten. Für das Erfassen der Projektzeit nutzt man die App Zeiterfassung.
-:::
+!!! tip
+    Odoo unterscheidet zwischen Anwesenheits- und Projektzeit. Die Zeiterfassung für Anwesenheit erfolgt mit der App Anwesenheiten. Für das Erfassen der Projektzeit nutzt man die App Zeiterfassung.
+
 
 ![](attachments/Anwesenheiten%20An-%20und%20Abmelden.png)
 
@@ -54,9 +54,9 @@ Für jeden Mitarbeitenden kann eine Ausweis ID hinterlegt werden. Navigieren Sie
 
 ![](attachments/Anwesenheiten%20Ausweis%20ID.png)
 
-::: warning
-Die Ausweis ID ist ist für die Anmeldung im Kioskmodus relevant.
-:::
+!!! warning
+    Die Ausweis ID ist ist für die Anmeldung im Kioskmodus relevant.
+
 
 ### PIN Code für Anmeldung festlegen
 
@@ -64,9 +64,9 @@ Wenn Sie die Anmeldung der Anwesenheit mit einem PIN Code validieren möchten, k
 
 ![](attachments/Anwesenheiten%20PIN%20Code.png)
 
-::: warning
-Der PIN Code wird bei der Anmeldung über den Kioskmodus abgefragt.
-:::
+!!! warning
+    Der PIN Code wird bei der Anmeldung über den Kioskmodus abgefragt.
+
 
 ### Anwesenheitskontrolle konfigurieren
 
@@ -82,9 +82,9 @@ Starten Sie den Kioskmodus von Odoo über _Anwesenheiten > Kioskmodus_.
 
 Mitarbeitende können nun ohne Odoo-Benutzer die Anwesenheit registrieren.
 
-::: warning
-Stellen Sie sicher, dass der verwendete Benutzer für den Kioskmodus eingeschränkte Berechtigungen hat.
-:::
+!!! warning
+    Stellen Sie sicher, dass der verwendete Benutzer für den Kioskmodus eingeschränkte Berechtigungen hat.
+
 
 ### Anwesenheit anmelden
 
@@ -187,9 +187,9 @@ Navigieren Sie nach _Zeiterfassung > Berichtswesen_ und wählen Sie das Menü _Z
 
 Mit dem Knopf _Werte_ können Spalten ein- und ausgeblendet werden.
 
-::: tip
-Das detaillierte Protokoll der An- und Abmeldungen zeigt die Übersicht _Anwesenheiten > Anwesenheiten_. (Die Berechtigung Personalsachbearbeiter ist notwendig.)
-:::
+!!! tip
+    Das detaillierte Protokoll der An- und Abmeldungen zeigt die Übersicht _Anwesenheiten > Anwesenheiten_. (Die Berechtigung Personalsachbearbeiter ist notwendig.)
+
 
 ### Anwesenheiten bearbeiten
 

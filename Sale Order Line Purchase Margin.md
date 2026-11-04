@@ -28,8 +28,8 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Mit dieser Erweiterungen wird die Marge jeder Verkaufspositionen anhand der Kosten aus der verlinkten Bestellung berechnet.
 
-::: warning
-Wenn es mehrere verlinkte Bestellpositionen gibt, wird der Durchschnitt aus deren Kosten berechnet.
-:::
+!!! warning
+    Wenn es mehrere verlinkte Bestellpositionen gibt, wird der Durchschnitt aus deren Kosten berechnet.
+
 
 ![Sale Order Line Purchase Margin](attachments/Sale%20Order%20Line%20Purchase%20Margin.gif)

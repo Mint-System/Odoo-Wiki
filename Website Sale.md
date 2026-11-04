@@ -98,9 +98,9 @@ Diese Einstellungen kann vom einzelnen Produkt übersteuert werden. Sehen Sie _W
 
 ![](attachments/eCommerce%20Fakturierungsregel%20auf%20Produkt.png)
 
-::: warning
-Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzurechendende Menge des Verkaufsauftrag aktualisiert werden. Nur dann wird das zusätzliche Produkt auf die Rechnung übertragen.
-:::
+!!! warning
+    Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzurechendende Menge des Verkaufsauftrag aktualisiert werden. Nur dann wird das zusätzliche Produkt auf die Rechnung übertragen.
+
 
 ## Kassiervorgang
 
@@ -126,9 +126,9 @@ Damit eine Bestellung auf Rechnung möglich ist, können Sie den Zahlungsanbiete
 
 Auf den Produkte müssen Sie die [Fakturierungsregel](#Fakturierungsregel%20festlegen) _Rechnung bei Auftrag_ festlegen.
 
-::: warning
-Für den automatischen Versand der Rechnung sind zusätzliche Konfigurationen nötig.
-:::
+!!! warning
+    Für den automatischen Versand der Rechnung sind zusätzliche Konfigurationen nötig.
+
 
 ## Benachrichtigung
 
@@ -162,9 +162,9 @@ Im Tab _Preisregeln_ können den neuen Preis für das Produkt festlegen.
 
 ![](attachments/Website%20eCommerce%20Rabatt.png)
 
-::: warning
-Der neue Preis kann nur für Produkte und nicht für den Warenkorb geltend gemacht werden.
-:::
+!!! warning
+    Der neue Preis kann nur für Produkte und nicht für den Warenkorb geltend gemacht werden.
+
 
 Zum Abschluss ein Beispiel wie das aus Sicht den Besuchers aussieht:
 

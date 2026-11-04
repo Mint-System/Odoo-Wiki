@@ -54,17 +54,17 @@ Starten Sie die IoT Box und warten Sie ~5 Minuten. In den verfügbaren Netzwerke
 
 Den _Raspberry Pi_ starten und mit dem IoT Box Netzwerk verbinden. Man wird auf eine Startseite geführt und konfiguriert das System nach den unten stehenden Dialogen.
 
-::: tip
-Das zur Verfügung gestellte Token wird für die Identifikation benötigt
-:::
+!!! tip
+    Das zur Verfügung gestellte Token wird für die Identifikation benötigt
+
 
 ![iot verbindung 1](attachments/iot%20verbindung%201.png)
 
 ![iot verbindung 2](attachments/iot%20verbindung%202.png)
 
-::: warning
-Die IoT Box prüft nicht, ob die Wifi-Verbindung aufgebaut werden kann.
-:::
+!!! warning
+    Die IoT Box prüft nicht, ob die Wifi-Verbindung aufgebaut werden kann.
+
 
 ![iot verbindung 3](attachments/iot%20verbindung%203.png)
 
@@ -80,9 +80,9 @@ In Odoo wird die IoT-Box bei erfolgreicher Konfiguration aufgeführt.
 
 Verbinden Sie den Drucker über den USB-Anschluss mit der IoT Box. Öffnen Sie die _IoT_ App und zeigen Sie _IoT Box_ an. Wählen Sie auf die IoT Box mit dem Drucker und klicken Sie auf den Link _IoT Box Webseite_. Sie werden nun auf die Konfigurationsseite der IoT Box umgeleitet.
 
-::: warning
-Für diesen Vorgang muss ihr Computer und die IoT Box im selben Netzwerk sein.
-:::
+!!! warning
+    Für diesen Vorgang muss ihr Computer und die IoT Box im selben Netzwerk sein.
+
 
 ![](attachments/IoT%20Box%20Konfigurationsseite.png)
 
@@ -92,9 +92,9 @@ Wählen Sie _handlers list_ und anschliessen _Load handlers_. Nun werden die ver
 
 ### Bericht für direktes Drucken einrichten
 
-::: warning
-Der Drucker muss im selben Netzwerk wie der Client-Computer sein, damit ein direktes Drucken möglich ist.
-:::
+!!! warning
+    Der Drucker muss im selben Netzwerk wie der Client-Computer sein, damit ein direktes Drucken möglich ist.
+
 
 Öffnen Sie den Drucker via _IoT > Geräte > Drucker auswählen > Bearbeiten_. Fügen Sie der Liste _Printer Reports_ einen Bericht hinzu und speichern Sie den Vorgang.
 

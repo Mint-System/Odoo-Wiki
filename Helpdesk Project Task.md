@@ -29,9 +29,9 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Wenn Sie ein Ticket in der Formularansicht anzeigen, finden Sie das Feld_Task_. Hier können Sie eine Aufgaben auswählen und verknüpften. Wenn die Aufgabe mit einer Auftragsposition verknüpft ist, wird diese auf dem Ticket hinterlegt.
 
-::: tip
-Wenn auf einem Ticket mit einer verküpften Aufabe mit Auftragsposition ein Zeiterfassungeintrag erstellt wird, dann ist diese Zeiterfassungseintrag mit dem Ticket und der Aufgabe verlinkt.
-:::
+!!! tip
+    Wenn auf einem Ticket mit einer verküpften Aufabe mit Auftragsposition ein Zeiterfassungeintrag erstellt wird, dann ist diese Zeiterfassungseintrag mit dem Ticket und der Aufgabe verlinkt.
+
 
 ### Projektaufgabe mit Ticket verlinken
 

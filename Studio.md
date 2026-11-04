@@ -32,9 +32,9 @@ Jede Änderung mit Odoo Studio an einer Odoo-Instanz muss dokumentiert werden. D
 
 Möchten Sie ein Feld aus einer Ansicht entfernen, öffnen Sie zuerst die Ansicht in Odoo Studion. Anschliessend wählen Sie das Feld aus und klicken in der linken Menu-Leiste auf _Aus Ansicht entfernen_
 
-::: warning
-Benutzerdefinierte Felder sowie Basisfelder werden nicht aus der Datenbank entfernt. Sie bestehen weiterhin und können der Ansicht wieder hinzugefügt werden.
-:::
+!!! warning
+    Benutzerdefinierte Felder sowie Basisfelder werden nicht aus der Datenbank entfernt. Sie bestehen weiterhin und können der Ansicht wieder hinzugefügt werden.
+
 
 ### Berechtigung auf verstecktem Feld festlegen
 

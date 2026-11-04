@@ -39,12 +39,12 @@ Möchten Sie eine Datenbank für ihre Odoo-Installation erstellen, öffnen Sie d
 - Master Password: Dieses Passwort ist vordefiniert
 - Database Name: `erp`
 
-::: tip
-Der Name der Datenbank muss gleich der Subdomain/Domain sein. Beispiel:
+!!! tip
+    Der Name der Datenbank muss gleich der Subdomain/Domain sein. Beispiel:
 
-<https://odoo.example.com> -> `odoo`  
-<https://www.example.com> -> `example` (das _www_ wird ignoriert)
-:::
+    <https://odoo.example.com> -> `odoo`  
+    <https://www.example.com> -> `example` (das _www_ wird ignoriert)
+
 
 - Email: `admin@example.com`
 - Password: Passwort des Odoo Administrators
@@ -53,9 +53,9 @@ Der Name der Datenbank muss gleich der Subdomain/Domain sein. Beispiel:
 - Country: `Switzerland`
 - Demo data: `deaktiviert` Achtung: Bei aktivierter Checkbox wird die Datenbank unwiderruflich mit Demo-Daten gefüllt
 
-::: tip
-Der Eintrag im Feld Email wird automatisch zum Login des Standard-Benutzers _Administrator_.
-:::
+!!! tip
+    Der Eintrag im Feld Email wird automatisch zum Login des Standard-Benutzers _Administrator_.
+
 
 ![Einstellungen Benutzer Administrator](attachments/Einstellungen%20Benutzer%20Administrator.png)
 
@@ -80,9 +80,9 @@ Im unten dargestellten Dialog ist das _Odoo Master Password_ notwendig.
 
 Nach der Bestätigung mit dem Knopf _Backup_ wird der Inhalt der Datenbank lokal auf dem Computer in eine zip-Datei gespeichert.
 
-::: tip
-Um das Datenbank-Backup zu versenden können Sie <https://www.swisstransfer.com> verwenden.
-:::
+!!! tip
+    Um das Datenbank-Backup zu versenden können Sie <https://www.swisstransfer.com> verwenden.
+
 
 ### Datenbank wiederherstellen
 
@@ -106,13 +106,13 @@ Wählen Sie die Funktion _restore a Database_. Anschliessend erscheint die folge
 
 ![Datenbankmanager Restore Auswahl](attachments/Datenbankmanager%20Restore%20Auswahl.png)
 
-::: tip
-Im Feld _Database_ muss zwingend der Name der gelöschten Datenbank eingetragen werden.
-:::
+!!! tip
+    Im Feld _Database_ muss zwingend der Name der gelöschten Datenbank eingetragen werden.
 
-::: tip
-Wählen Sie _This database is a copy_. Ansonsten verliert die Installation den Lizenzschlüssel.
-:::
+
+!!! tip
+    Wählen Sie _This database is a copy_. Ansonsten verliert die Installation den Lizenzschlüssel.
+
 
 Mit _Continue_ wird der Datenimport durchgeführt. Nach Abschluss des Vorgangs zeigt der Browser die folgende Auswahl:
 
@@ -130,9 +130,9 @@ Im Entwicklermodus navigieren Sie nach _Einstellungen > Technisch > Parameter > 
 
 Im Entwicklermodus navigieren Sie nach _Einstellungen > Technisch > Parameter > Systemparameter_. Legen Sie für den Schlüssel `web.base.url` den Wert `	https://odoo.example.com` fest.
 
-::: tip
-Dieser Parameter wird von Odoo automatisch festgelegt. Um den Wert zu übersteuern, muss der Parameter `web.base.url.freeze` auf `True` gesetzt werden.
-:::
+!!! tip
+    Dieser Parameter wird von Odoo automatisch festgelegt. Um den Wert zu übersteuern, muss der Parameter `web.base.url.freeze` auf `True` gesetzt werden.
+
 
 ### Odoo Version anzeigen
 
@@ -174,9 +174,9 @@ Nach der Installation der Datenbank registriert Odoo eine eindeutige Nummer (UUI
 
 [Zeigen Sie die Externe ID](Development.md#Externe%20ID%20anzeigen) mit Schlüssel `mail.ir_cron_module_update_notification` an. Klicken Sie auf den verlinkten Datensatz. Sie gelangen zur geplanten Aktion _Veröffentlicher: Benachrichtigung aktualisieren_. Deaktivieren Sie diese Aktion.
 
-::: warning
-Deaktivieren Sie die Synchronisation mit dem Lizenzserver nur auf Testumgebungen.
-:::
+!!! warning
+    Deaktivieren Sie die Synchronisation mit dem Lizenzserver nur auf Testumgebungen.
+
 
 ### Temporärer Benutzer erstellen
 

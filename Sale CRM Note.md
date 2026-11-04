@@ -25,6 +25,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Auf dem Formular des Angebots finden Sie einen neuen Tab _CRM Note_. Wenn Sie ein Angebot aus einem Lead erstellen, wird die Notiz in diesen Tab kopiert.
 
-::: warning
-Wenn Sie zusätzlich das Modul _Sale Subscription_ installieren, haben Sie zusätzlich einen Tab _Notes_.
-:::
+!!! warning
+    Wenn Sie zusätzlich das Modul _Sale Subscription_ installieren, haben Sie zusätzlich einen Tab _Notes_.
+

@@ -23,9 +23,9 @@ partner: Mint System
 
 Öffnen Sie _Einstellungen > Technisch > Datenbankstruktur > Modelle_ und suchen Sie das entsprechende Datenmodell. Markieren Sie dieses und wählen Sie _Aktionen > Löschen_.
 
-::: warning
-Diese Vorgang kann die Integrität und Verfügbarkeit des Systems beeinträchtigen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
-:::
+!!! warning
+    Diese Vorgang kann die Integrität und Verfügbarkeit des Systems beeinträchtigen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
+
 
 ## Felder
 

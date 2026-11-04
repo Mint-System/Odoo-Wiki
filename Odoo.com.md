@@ -26,9 +26,9 @@ Unter _[Datenbank verwalten](#Datenbank%20verwalten) > Datenbank > Back-ups_ wä
 
 Der Download-Vorgang kann abhängig von der Datenbankgrösse Zeit in Anspruch nehmen. Als erstes sollte die Datei `UNTERNEHMENSNAME.dump.zip` zum Download angeboten werden. Mit _Speichern_ laden Sie die Datei auf den lokalen Computer.
 
-::: tip
-Um den Datenbank-Dump zu versenden, können Sie <https://www.swisstransfer.com> verwenden.
-:::
+!!! tip
+    Um den Datenbank-Dump zu versenden, können Sie <https://www.swisstransfer.com> verwenden.
+
 
 ### Datenbank löschen
 

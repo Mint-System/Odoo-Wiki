@@ -35,9 +35,9 @@ Die SSH-Schlüssel können an mehreren Stellen erfasst werden. Das Modul wählt 
 
 Klicken Sie _Benutzer-Menu > Präferenzen_ und zeigen Sie den Tab _SSH_ an. Hier können Sie ihren privaten und öffentlichen SSH-Schlüssel hinterlegen. Wenn der private SSH-Schlüssel verschlüssel ist, geben im entsprechenden Feld das Passwort ein.
 
-::: warning
-Die SSH-Schlüssel werden unverschlüsselt in der Datenbank gespeichert und können vom Systemadministrator gelesen werden.
-:::
+!!! warning
+    Die SSH-Schlüssel werden unverschlüsselt in der Datenbank gespeichert und können vom Systemadministrator gelesen werden.
+
 
 ### SSH-Schlüssel auf Benutzer hinterlegen
 
@@ -47,14 +47,14 @@ Navigieren Sie nach _Einstellungen > Benutzer und Gruppen > Benutzer_ und zeigen
 
 Zeigen Sie _Einstellungen > Allgemeine Einstellungen > Integrationen_ an. Unter der Option _SSH_ finden Sie die Felder um den SSH-Schlüssel einzutragen.
 
-::: warning
-Der private SSH-Schlüssel muss Base64-Kodiert sein.
+!!! warning
+    Der private SSH-Schlüssel muss Base64-Kodiert sein.
 
-```bash
-cat ~/.ssh/id_ed25519 | base64 -w0
-```
+    ```bash
+    cat ~/.ssh/id_ed25519 | base64 -w0
+    ```
 
-:::
+
 
 ## Entwicklung
 

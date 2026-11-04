@@ -99,9 +99,9 @@ if messages:
 
 Diese geplante Aktion aktualisiert das Ablaufdatum der Datenbank in regelmässigen Abständen.
 
-::: warning
-Verwenden Sie diese Aktion nur in Testsystemen! Produktive System müssen vor Ablauf des echten Datums lizenziert werden!
-:::
+!!! warning
+    Verwenden Sie diese Aktion nur in Testsystemen! Produktive System müssen vor Ablauf des echten Datums lizenziert werden!
+
 
 Navigieren Sie nach _Einstellungen > Technisch > Automatisierungsregeln_ und erstellen Sie einen neuen Eintrag:
 

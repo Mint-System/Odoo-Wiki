@@ -30,9 +30,9 @@ extensions: true
 
 ### Outlook-Kalender-Synchronisation aktivieren
 
-::: tip
-Wir empfehlen [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hosting.mail?utm_term=67ff9acbaabca) anstatt Outlook zu verwenden.
-:::
+!!! tip
+    Wir empfehlen [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hosting.mail?utm_term=67ff9acbaabca) anstatt Outlook zu verwenden.
+
 
 Damit die Kalender-Synchronisation möglich ist, müssen Sie [Odoo als OAuth-App auf Azure registrieren](Settings%20OAuth.md#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren). Verwenden Sie diese Angaben:
 
@@ -40,9 +40,9 @@ Damit die Kalender-Synchronisation möglich ist, müssen Sie [Odoo als OAuth-App
 - **Unterstützte Kontentypen**: Konten in einem beliebigen Organisationsverziechnis (mehrinstanzenfähig)
 - **Redirect URI**: `https://$HOSTNAME/microsoft_account/authentication`
 
-::: warning
-Bitten ersetzen Sie `$HOSTNAME` mit dem Hostnamen ihrer Odoo-Installation.
-:::
+!!! warning
+    Bitten ersetzen Sie `$HOSTNAME` mit dem Hostnamen ihrer Odoo-Installation.
+
 
 Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Integration_. Aktivieren Sie die Option _Outlook-Kalender_. Füllen Sie die Felder _Client ID_ und _Client Secret_ mit den Werten aus der Registration der OAuth-app aus.
 
@@ -68,9 +68,9 @@ Standardmässig versendet Odoo beim Hinzufügen von Teilnehmer an einen Termin a
 
 Öffnen Sie _Einstellungen > Technisch > Parameter > Systemparameter_ und erstellen Sie einen Eintrag mit Schlüssel `calendar.block_mail` und Wert `True` an.
 
-::: warning
-Werden Termine beispielsweise mit dem Google-Kalender synchronisiert, ist mit dieser Einstellung nicht ausgeschlossen, dass Google eine Einladungsmail verschickt.
-:::
+!!! warning
+    Werden Termine beispielsweise mit dem Google-Kalender synchronisiert, ist mit dieser Einstellung nicht ausgeschlossen, dass Google eine Einladungsmail verschickt.
+
 
 ## Verknüpfung
 
@@ -86,21 +86,21 @@ Loggen Sie sich mit ihrem Google-Konto ein. Falls nun eine Warnung _Google hasn'
 
 Erlbauen Sie den Zugriff auf ihren Kalender. Anschliessend werden Sie zu Odoo zurückgeleitet.
 
-::: tip
-Der Google-Account und der Odoo-Account sollten die gleiche E-Mail-Adresse haben.
-:::
+!!! tip
+    Der Google-Account und der Odoo-Account sollten die gleiche E-Mail-Adresse haben.
+
 
 ### Outlook-Kalender-Synchronisation einrichten
 
-::: tip
-Wir empfehlen [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hosting.mail?utm_term=67ff9acbaabca) anstatt Outlook zu verwenden.
-:::
+!!! tip
+    Wir empfehlen [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hosting.mail?utm_term=67ff9acbaabca) anstatt Outlook zu verwenden.
+
 
 Wenn Sie die [Outlook-Kalender-Synchronisation aktivieren](#Outlook-Kalender-Synchronisation%20aktivieren), können Mitarbeitende den Odoo Kalender mit dem Outlook Kalender synchronsieren.
 
-::: warning
-Entfernen Sie vor der Synchronisation alle Termine mit Teilnehmer aus ihrem Odoo-Kalender. Die Aktivierung der Kalender-Synchronisation führt dazu, dass Outlook Einladung für Termine mit Teilnehmer versendet.
-:::
+!!! warning
+    Entfernen Sie vor der Synchronisation alle Termine mit Teilnehmer aus ihrem Odoo-Kalender. Die Aktivierung der Kalender-Synchronisation führt dazu, dass Outlook Einladung für Termine mit Teilnehmer versendet.
+
 
 Als Mitarbeitenden öffnen Sie die _Kalender_ App und klicken auf _🔃 Outlook_. Sie werden zur Microsoft-Login-Seite umgeleitet. Loggen Sie sich mit ihrem Microsoft-Account ein und erlauben Sie den Zugriff von Odoo auf ihr Profil.
 

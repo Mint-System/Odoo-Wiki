@@ -30,6 +30,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Ein Produkt unter *Verkauf > Produkte > Produkte* anzeigen und den Tab *Verkauf* aufrufen. Im Bereich *Sale Restricted Qty* können Sie die Mindest- und Maximalbestellmenge festlegen.
 
-::: tip
-Beachten Sie bei der Eingabe die Bereiche *Sale Min Qty* und *Sale Max Qty*.
-:::
+!!! tip
+    Beachten Sie bei der Eingabe die Bereiche *Sale Min Qty* und *Sale Max Qty*.
+

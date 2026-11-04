@@ -43,9 +43,9 @@ Legen Sie als erstes pro Mitarbeiter das Startdatum der theoretischen Stunden fe
 
 ### Abwesenheitsart in theoretischen Stunden einbeziehen
 
-::: tip
-Damit der Abwesenheitsart in der Auswertung [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) berücksichtigt wird, muss dies explizit festgelegt werden.
-:::
+!!! tip
+    Damit der Abwesenheitsart in der Auswertung [Theoretical vs Attended Time Analysis](Theoretical%20vs%20Attended%20Time%20Analysis.md) berücksichtigt wird, muss dies explizit festgelegt werden.
+
 
 Öffnen Sie den Abwesenheitsart mit _Abwesenheiten > Konfiguration > Abwesenheitsarten_. Bearbeiten Sie den Typ und wählen Sie die Checkbox _in theoretische Stunden einbeziehen_ unter _Optionen_. Schliessen Sie den Vorgang ab. Nun wird der Abwesenheitsart in der theoretischen Stunden berücksichtigt.
 

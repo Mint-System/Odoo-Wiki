@@ -29,9 +29,9 @@ Mit dem Konsignationslager können Bestände an Kontakte zugeordnet werden. Navi
 
 Für jeden Lagerort wird ein Bestand geführt _Lager > Konfiguration > Lagerorte > Lagerort auswählen > Smart-Link Bestand_. Wenn Sie die Aktion [Reservierter Bestand zurücksetzen](Stock%20Actions.md#Reservierter%20Bestand%20zurücksetzen) erstellen, können Sie die Bestände markieren und die _Aktionen > Reservierter Bestand zurücksetzen_ ausführen.
 
-::: warning
-Damit Sie diese Aktion ausführen können, müssen Sie [Superuser werden](Settings.md#Superuser%20werden)
-:::
+!!! warning
+    Damit Sie diese Aktion ausführen können, müssen Sie [Superuser werden](Settings.md#Superuser%20werden)
+
 
 ![](attachments/Lager%20Bestand%20Reservierter%20Bestand%20zurücksetzen.png)
 

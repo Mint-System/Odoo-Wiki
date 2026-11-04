@@ -52,9 +52,9 @@ Wurde ein Transfer einmal erledigt, kann er nicht mehr bearbeitet werden. Jedoch
 
 Wurde ein Transfer einmal erledigt, ist die Bearbeitung gesperrt. Wenn Sie dennoch die _Erledigte Menge_ korrigieren möchten. Wählen Sie auf dem Transfer _Entsperren_ und passen die Menge in den detaillierten Vorgänge in der Spalte _Erledigt_ an. Anschliessend wählen Sie wieder _Sperren_.
 
-::: tip
-Wird die erledigte Menge verändert, wird der Bestand des Produkts entsprechend angepasst.
-:::
+!!! tip
+    Wird die erledigte Menge verändert, wird der Bestand des Produkts entsprechend angepasst.
+
 
 ### Produkt auf Transfer entsorgen
 
@@ -70,9 +70,9 @@ Wenn Sie an bestimmten Lagerort ein Produkt entsorgen möchten, wählen Sie _Lag
 
 Der Lager Scheduler wird von Odoo in regelmässig Abständen ausgeführt. In bestimmten Fällen, möchten Sie diesen manuell starten. Klicken Sie dazu auf _Lager > Vorgänge > Scheduler starten_ und wählen Sie _Scheduler starten_.
 
-::: tip
-Der Scheduler wird im Hintergrund ausgeführt. Sind viele Vorgänge am laufen, kann die Ausführung des Schedulers länger dauern.
-:::
+!!! tip
+    Der Scheduler wird im Hintergrund ausgeführt. Sind viele Vorgänge am laufen, kann die Ausführung des Schedulers länger dauern.
+
 
 ## MTO
 

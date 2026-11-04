@@ -30,6 +30,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Navigieren Sie nach _Einstellungen > Technisch > FS Storage_ und Öffnen Sie den gewünschten Eintrag. Im Abschnitt _Attachment_ aktivieren Sie die Option _Use As Default For Attachments_.
 
-::: tip
-Um den Upload zu testen, öffnen Sie ein beliebiges Dokument mit Chatter. Laden Sie eine Datei hoch.
-:::
+!!! tip
+    Um den Upload zu testen, öffnen Sie ein beliebiges Dokument mit Chatter. Laden Sie eine Datei hoch.
+

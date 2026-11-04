@@ -33,6 +33,6 @@ Mit dieser Erweiterung wird auf jeder Buchungszeile eine Liste der Gegenkontos a
 
 ![](attachments/Account%20Move%20Line%20Contra%20Accounts.png)
 
-::: tip
-Das Feld _Gegenkontos_ erscheint auch in den Listenansichten der Buchungszeilen.
-:::
+!!! tip
+    Das Feld _Gegenkontos_ erscheint auch in den Listenansichten der Buchungszeilen.
+

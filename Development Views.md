@@ -51,9 +51,9 @@ So sollte es dann aussehen:
 
 Öffnen Sie _Einstellungen > Technisch > Benutzer-Interface > Ansichten_ und suchen Sie die entsprechende Ansicht. Markieren Sie diese und wählen Sie _Aktionen > Löschen_ oder _Aktionen > Archiv_.
 
-::: warning
-Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
-:::
+!!! warning
+    Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
+
 
 ### Standard-Ansicht definieren
 
@@ -75,9 +75,9 @@ Abhängig von der angezeigten Ansicht stehen Felder gemäss dem verknüpften Dat
 
 ![](attachments/Entwicklung%20Ansichten%20Felder.png)
 
-::: tip
-Hier finden Sie zu jedem Feld den technischen Name _Feldname_. Diesen Namen verwendet Odoo für die Programmierung.
-:::
+!!! tip
+    Hier finden Sie zu jedem Feld den technischen Name _Feldname_. Diesen Namen verwendet Odoo für die Programmierung.
+
 
 ### Feld in Ansicht anzeigen
 
@@ -158,9 +158,9 @@ Der Name des Filters lautet in diesem Beispiel `my_quotation`. Angenommen Sie ha
 
 Können Sie entweder `my_question` mit `sent` im _Kontext Wert_ der Aktion (_Entwicklertools > Aktion bearbeiten_) ersetzen oder den _Kontext Wert_ mit `{'search_default_my_quotation': 1, 'search_default_sent': 1}` erweitern.
 
-::: warning
-Wenn Sie das Modul mit der Definition der Aktiona aktualisieren, wird das Feld _Wert aus Kontext_ überschrieben und ihre Anpassungen gehen verloren. Falls das unter keinen Umständen passieren darf, müssen Sie Aktion duplizeren und in der Menüstruktur neu verknüpfen.
-:::
+!!! warning
+    Wenn Sie das Modul mit der Definition der Aktiona aktualisieren, wird das Feld _Wert aus Kontext_ überschrieben und ihre Anpassungen gehen verloren. Falls das unter keinen Umständen passieren darf, müssen Sie Aktion duplizeren und in der Menüstruktur neu verknüpfen.
+
 
 ### Domainfilter-Widget deaktivieren
 
@@ -184,9 +184,9 @@ Architektur:
 
 ### Filter mit dynamischen Datum erstellen
 
-::: warning
-Diese Aufgabe erfordert, dass Sie das [Domainfilter-Widget deaktivieren](#Domainfilter-Widget%20deaktivieren).
-:::
+!!! warning
+    Diese Aufgabe erfordert, dass Sie das [Domainfilter-Widget deaktivieren](#Domainfilter-Widget%20deaktivieren).
+
 
 Um einen Filter zu erstellen, der beispielsweise alle Aufgaben mit Frist Heute anzeigt, öffnen Sie als erstes die Aufgaben-Übersicht _Projekt > Alle Aufgaben_.
 

@@ -33,6 +33,6 @@ Zeigen Sie _Abwesenheiten > Konfiguration > Abwesenheitsarten_ an und öffnen Si
 
 Öffnen Sie _Abwesenheiten_ und erstellen Sie einen neuen Eintrag. Wählen Sie die Abwesenheitsart aus, die eine benutzerdefinierte Anzahl Stunden erlaubt. Tragen Sie im Feld _Benutzerdefinierte Stunden_ die effektiven Stunden ein.
 
-::: tip
-Eine positive Differenz der benutzerdefinierten Anzahl Stunden zu Anzahl Stunden der Abwesenheit werden als Überstunden hinzugefügt.
-:::
+!!! tip
+    Eine positive Differenz der benutzerdefinierten Anzahl Stunden zu Anzahl Stunden der Abwesenheit werden als Überstunden hinzugefügt.
+

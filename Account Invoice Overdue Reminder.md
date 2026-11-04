@@ -67,11 +67,11 @@ Nachdem Sie den [Assistent Zahlungserinnerung starten](#Assistent%20Zahlungserin
 
 Validieren oder überspringen Sie hier den Versand der Erinnerungs-Mail. Nach dem Versand der E-Mail zählt Odoo das Feld _Neuer Erinnerungszähler_ auf der Rechnung um 1 hoch.
 
-::: tip
-Wenn mehrere Rechnungen des gleichen Kontakts überfällig sind, werden diese im E-Mai zusammengefasst:
+!!! tip
+    Wenn mehrere Rechnungen des gleichen Kontakts überfällig sind, werden diese im E-Mai zusammengefasst:
 
-![](attachments/Account%20Invoice%20Overdue%20Reminder%20Multiple.png)
-:::
+    ![](attachments/Account%20Invoice%20Overdue%20Reminder%20Multiple.png)
+
 
 ### Status Zahlungserinnerung anzeigen
 

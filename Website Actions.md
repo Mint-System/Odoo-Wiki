@@ -119,16 +119,16 @@ for record in records:
         })
 ```
 
-::: tip
-Hat der Kontakt kein Parent, wird der Unternehmenstyp nicht geändert; soll diese Einschränkung nicht gelten, lautet der Code:
+!!! tip
+    Hat der Kontakt kein Parent, wird der Unternehmenstyp nicht geändert; soll diese Einschränkung nicht gelten, lautet der Code:
 
-```python
-for record in records:
-    if record.street2 and '###' in record.street2:
-        clean, _, ctype = record.street2.rpartition('###')
-        record.write({
-            'street2': clean,
-            'is_company': ctype == 'company',
-        })
-```
-:::
+    ```python
+    for record in records:
+        if record.street2 and '###' in record.street2:
+            clean, _, ctype = record.street2.rpartition('###')
+            record.write({
+                'street2': clean,
+                'is_company': ctype == 'company',
+            })
+    ```
+

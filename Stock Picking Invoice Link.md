@@ -38,6 +38,6 @@ Dasselbe funktioniert auch umgekehrt.
 
 ![](attachments/Stock%20Picking%20Invoice%20Link%20Invoice.png)
 
-::: warning
-Damit eine Verlinkung erstellt werden kann, muss die LIeferung erledigt sein.
-:::
+!!! warning
+    Damit eine Verlinkung erstellt werden kann, muss die LIeferung erledigt sein.
+

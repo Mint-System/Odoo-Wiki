@@ -33,6 +33,6 @@ Kunden können den Code im Warenkorb auf der Website eingeben.
 
 ![](attachments/Website%20Coupons%20&%20Vouchers%20in%20Odoo%20Shop%20Warenkorb.png)
 
-::: tip
-Die Eingabe eines Minimum-Betrag ist nicht möglich. Machen Sie einen Hinweis zur Gültigkeit in der Verkaufsbeschreibung des Promo-Code.
-:::
+!!! tip
+    Die Eingabe eines Minimum-Betrag ist nicht möglich. Machen Sie einen Hinweis zur Gültigkeit in der Verkaufsbeschreibung des Promo-Code.
+

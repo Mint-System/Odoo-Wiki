@@ -33,6 +33,6 @@ Navigieren Sie nach _Einstellungen > Technsich > Anwesenheit IP Check_ und erste
 
 Wählen Sie die Option _Einzelprüfung_, wenn Sie möchten dass nur dieser Eintrag für die ausgewählten Mitarbeitenden erlaubt werden.
 
-::: tip
-Wenn die Option _Einzelprüfung_ nicht aktiviert ist, werden die CIDR ohne ausgewählte Mitarbeitenden mit diesen Einträgen kombiniert.
-:::
+!!! tip
+    Wenn die Option _Einzelprüfung_ nicht aktiviert ist, werden die CIDR ohne ausgewählte Mitarbeitenden mit diesen Einträgen kombiniert.
+

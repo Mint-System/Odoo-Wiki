@@ -68,11 +68,11 @@ Angenommen Sie haben Stammdaten oder Kontoangaben der Lieferanten angepasst und 
 
 ![](attachments/Buchhaltung%20Zahlungen%20Datei%20herunterladen.png)
 
-::: warning
-Falls Sie beim Neu generieren der Zahlung einen Fehler erhalten, müssen Sie die Zahlungen zurücksetzen.
+!!! warning
+    Falls Sie beim Neu generieren der Zahlung einen Fehler erhalten, müssen Sie die Zahlungen zurücksetzen.
 
-![](attachments/Buchhaltung%20Zahlung%20gesendet%20Fehler.png)
-:::
+    ![](attachments/Buchhaltung%20Zahlung%20gesendet%20Fehler.png)
+
 
 ### Zahlungsbetrag korrigieren
 
@@ -194,9 +194,9 @@ Buchen Sie die Zahlung mit _Bestätigung_.
 
 Wenn Sie eine Anzeige für eine Sammelzahlung eines Kunden erhalten, können Sie diese auf zwei Wege erfassen und abstimmen. Entweder erfassen Sie die Sammelzahlung als eingehende Zahlung und gleichen diese mit den Kundenrechnungen ab oder Sie markieren die Kundenrechnungen und erfassen eine Zahlung.
 
-::: tip
-Wenn auf der Sammelrechnung eine Unter oder Überzahlung gemacht wurde, können Sie die Differenz im Abstimmungs-Dialog als manuelle Buchung ausgleichen.
-:::
+!!! tip
+    Wenn auf der Sammelrechnung eine Unter oder Überzahlung gemacht wurde, können Sie die Differenz im Abstimmungs-Dialog als manuelle Buchung ausgleichen.
+
 
 ## Anzahlungen
 

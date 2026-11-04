@@ -18,9 +18,9 @@ Falls mit einem Beschaffungsauftrag zum ersten Mal bei einem bestimmten Lieferan
 
 ![Einkauf Bestellung Lieferantenbeziehung](attachments/Einkauf%20Bestellung%20Lieferantenbeziehung.png)
 
-::: warning
-Weitere Bestellungen des selben Produkts beim selben Lieferanten haben keinen Einfluss auf die Listeneinträge im Abschnitt _Einkauf_
-:::
+!!! warning
+    Weitere Bestellungen des selben Produkts beim selben Lieferanten haben keinen Einfluss auf die Listeneinträge im Abschnitt _Einkauf_
+
 
 ## Fall 2: Mehrere Lieferanten stehen zur Wahl
 

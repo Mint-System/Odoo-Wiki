@@ -31,6 +31,6 @@ Navigieren Sie im Entwicklermodus nach _Einstellungen > Technisch > Config Envir
 
 ![](attachments/Server%20Config%20Environment.png)
 
-::: warning
-Die hier gezeigten Umgebungen sind fix definieren. Löschen Sie diese Einträge nicht.
-:::
+!!! warning
+    Die hier gezeigten Umgebungen sind fix definieren. Löschen Sie diese Einträge nicht.
+

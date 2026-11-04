@@ -20,6 +20,6 @@ Für die Mitarbeitenden können Sie einen Urlaubsanspruch erstellen und die Übe
 
 Dasselbe Vorgehen wie bei [Überstundensaldo](#Überstundensaldo) eignet sich auch für das Feriensaldo. Wenn Mitarbeitende Ferien aus dem letzten Jahr übertragen wollen, können Sie als Abwesenheitsmanager die Ferientage als Urlaubsanspruch erfassen.
 
-::: warning
-Damit die Abwesenheiten den entsprechenden Ansprüchen zugeordnet werden, muss das entsprechende Feld auf dem Formular der Abwesenheit angezeigt werden.
-:::
+!!! warning
+    Damit die Abwesenheiten den entsprechenden Ansprüchen zugeordnet werden, muss das entsprechende Feld auf dem Formular der Abwesenheit angezeigt werden.
+

@@ -62,16 +62,16 @@ Wenn Sie die ausgewählte [Preisliste anzeigen](Sale%20Price.md#Preisliste%20anz
 
 Rufen Sie ein Abonnment mit einer Rechnung unter _Abonnemente_ auf und zeigen Sie eine Rechnung an. Über den Smart-Button _Abgrenzungsposten_ gelangen Sie zu den Rechnungsabgrenzungsposten.
 
-::: tip
-Die folgende Abbildung zeigt die Abgrenzungen für ein Abonnement mit CHF 100 pro Monat das am 17.07.2026 bestätigt und rückwirkend mit dem Startdatum 12.01.2026 fakturiert wurde.
-Das erste Abrechnungsdatum ist der 12.01.2026 und die erste Rechnung wurde für den Zeitraum 12.01.2026 bis 12.02.2026 erstellt.
-Das führt zu einer Abgrenzungsbuchung im Januar für 19 Tage (CHF 100/30) * 19 = CHF 63.333) und einer zweiten Abgrenzungsbuchung für den Rest im Februar (CHF 100 - CHF 63.333 = 36.667).
-Die Rechnung wird im Juli zurück gebucht, da schon im Januar und Februar Erfolg ausgewiesen wurde.
+!!! tip
+    Die folgende Abbildung zeigt die Abgrenzungen für ein Abonnement mit CHF 100 pro Monat das am 17.07.2026 bestätigt und rückwirkend mit dem Startdatum 12.01.2026 fakturiert wurde.
+    Das erste Abrechnungsdatum ist der 12.01.2026 und die erste Rechnung wurde für den Zeitraum 12.01.2026 bis 12.02.2026 erstellt.
+    Das führt zu einer Abgrenzungsbuchung im Januar für 19 Tage (CHF 100/30) * 19 = CHF 63.333) und einer zweiten Abgrenzungsbuchung für den Rest im Februar (CHF 100 - CHF 63.333 = 36.667).
+    Die Rechnung wird im Juli zurück gebucht, da schon im Januar und Februar Erfolg ausgewiesen wurde.
 
-![](attachments/Rechnungsabgrenzungsposten.png)
+    ![](attachments/Rechnungsabgrenzungsposten.png)
 
-Odoo rechnet mit der Basis 30 Tage pro Monat.
-:::
+    Odoo rechnet mit der Basis 30 Tage pro Monat.
+
 
 
 ## Filter

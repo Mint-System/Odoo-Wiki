@@ -22,10 +22,10 @@ versions:
 Technischer Name: {{ $frontmatter.name }}\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
-::: warning
-Diese App ist veraltet. Wir empfehlen die App [Mass Editing](Server%20Action%20Mass%20Edit.md) zu verwenden.
-#deprecated
-:::
+!!! warning
+    Diese App ist veraltet. Wir empfehlen die App [Mass Editing](Server%20Action%20Mass%20Edit.md) zu verwenden.
+    #deprecated
+
 
 ## Verwendung
 
@@ -37,9 +37,9 @@ Geben Sie im Feld _Name der Aktion_ eine für die Aktion passende Bezeichung ein
 
 In der Tabelle _Fields_ können Sie nun die Felder, welche im Dialog der Massenbearbeitung zur Verfügung stehen sollen hinzufügen. Im Tab _Message_ können Sie eine optionale Nachricht für den Bearbeitungs-Dialog hinterlegen und im Tab _Sicherheit_ können Sie die Aktion auf bestimmte Gruppen einschränken.
 
-::: warning
-Im Dialog der Massenbearbeitung werden für die Felder keine Client-Validierungen durchgeführt. Beispielsweise werden Konfigurationen ignoriert, die ein Feld aufgrund des Status lesbar machen.
-:::
+!!! warning
+    Im Dialog der Massenbearbeitung werden für die Felder keine Client-Validierungen durchgeführt. Beispielsweise werden Konfigurationen ignoriert, die ein Feld aufgrund des Status lesbar machen.
+
 
 ### Massenbeearbeitung ausführen
 

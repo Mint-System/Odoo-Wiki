@@ -51,9 +51,9 @@ Wesite: <https://www.odoo.com/de_DE/app/time-off>
 
 ![](attachments/Abwesenheiten%20Dashboard.png)
 
-::: warning
-Die verfügbaren Überstunden werden nur angezeigt, wenn der Wert positiv ist.
-:::
+!!! warning
+    Die verfügbaren Überstunden werden nur angezeigt, wenn der Wert positiv ist.
+
 
 ## Konfiguration
 
@@ -77,17 +77,17 @@ Navigieren Sie nach _Abwesenheiten > Konfiguration > Abwesenheitsarten_. Wählen
 
 Navigieren Sie nach _Abwesenheiten > Konfiguration > Abwesenheitsarten_. Wählen Sie hier den Abwesenheitsart aus. Im Feld _Einheit der Abwesenheit_ können Sie wählen, ob der Typ in Stunden, Halbtage oder Tagen dargestellt wird.
 
-::: tip
-Odoo rechnet intern immer in Stunden. Diese Option legt die Darstellung der verbleibenden Ansprüche fest.
-:::
+!!! tip
+    Odoo rechnet intern immer in Stunden. Diese Option legt die Darstellung der verbleibenden Ansprüche fest.
+
 
 ### Verworfene Abwesenheiten auf Dashboard ausblenden
 
 Auf der Dashboard-Ansicht von _Abwesenheiten_ werden alle Abwesenheiten unabhängig ihres Status angezeigt. Um Abwesenheiten im Zustand _Verworfen_ auszublenden, wählen Sie _Entwicklertools > Aktion bearbeiten_. Überschreiben Sie das Feld _Wertebereich_ mit dem Wert `[('user_id', '=', uid),('state', 'not in', ['refuse'])]`. Laden Sie den Browser-Tab neu.
 
-::: warning
-Diese Anpassung geht bei der Aktualisierung oder Neuinstallation des Abwesenheits-Moduls verloren.
-:::
+!!! warning
+    Diese Anpassung geht bei der Aktualisierung oder Neuinstallation des Abwesenheits-Moduls verloren.
+
 
 ### Gesetzliche Feiertage festlegen
 
@@ -95,9 +95,9 @@ Navigieren Sie nach _Abwesenheiten > Konfiguration > Gesetzliche Feiertage_. Ers
 
 ![](attachments/Abwesenheiten%20Feiertage.png)
 
-::: tip
-Lassen Sie das Feld _Arbeitsstunden_ leer, damit der Feiertag für alle Arbeitszeiten aktiv ist.
-:::
+!!! tip
+    Lassen Sie das Feld _Arbeitsstunden_ leer, damit der Feiertag für alle Arbeitszeiten aktiv ist.
+
 
 ## Vorgänge
 
@@ -125,17 +125,17 @@ Mitarbeitende erhalten nach der Validierung eine entsprechende Mail.
 
 ![](attachments/Abwesenheitszeiten%20Mail%20Validierung.png)
 
-::: tip
-Odoo versendet keine Nachrichten, wenn die Genehmigung alls Massenbearbeitung erfolgt.
-:::
+!!! tip
+    Odoo versendet keine Nachrichten, wenn die Genehmigung alls Massenbearbeitung erfolgt.
+
 
 ### Urlaubsanspruch anpassen
 
 Wenn Sie einen genehmigten Urlaubsanspruch anpassen wollen, wählen Sie diesen aus _Abwesenheiten > Genehmigungen > Urlaubsansprüche_ und klicken auf _Ablehnen_. Anschliessend klicken Sie auf _Zurücksetzen_ und bearbeiten den Anspruch.
 
-::: warning
-Damit die Aktion _Zurücksetzen_ ausgewählt werden kann, muss Ihr Odoo-Benutzer die Rolle _Abwesenheitszeiten: Administrator_ haben.
-:::
+!!! warning
+    Damit die Aktion _Zurücksetzen_ ausgewählt werden kann, muss Ihr Odoo-Benutzer die Rolle _Abwesenheitszeiten: Administrator_ haben.
+
 
 ### Abwesenheit erstellen
 
@@ -149,9 +149,9 @@ Wurde die Abwesenheit genehmigt, sehen Sie die verleibenden Tage des Abwesenheit
 
 ![](attachments/Abwesenheitszeiten%20Verleibend.png)
 
-::: tip
-Abwesenheitseinträge, die im Zustand _Zur Genehmigung_ sind, können nicht mehr gelöscht werden.
-:::
+!!! tip
+    Abwesenheitseinträge, die im Zustand _Zur Genehmigung_ sind, können nicht mehr gelöscht werden.
+
 
 ### Abwesenheit validieren
 

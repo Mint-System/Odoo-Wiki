@@ -29,10 +29,10 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Mit dieser Erweiterungen können Sie auf Kaufverträgen die Lieferbedingungen für Lieferanten festlegen. Zeigen Sie einen Kaufvertrag via _Einkauf > Aufträge > Kaufverträge_ an und bearbeiten Sie das Feld _Lieferbedingung_.
 
-::: tip
-Wenn Sie auf dem Lieferant eine Standard-Lieferbedingung hinterlegt haben, wird bei der Auswahl des Lieferanten im Kaufvertrag diese Lieferbedingung übernommen.
-:::
+!!! tip
+    Wenn Sie auf dem Lieferant eine Standard-Lieferbedingung hinterlegt haben, wird bei der Auswahl des Lieferanten im Kaufvertrag diese Lieferbedingung übernommen.
 
-::: tip
-Wenn Sie eine Bestellung aus einem Kaufvertrag erstellen, wird die Lieferbedingungen aus dem Kaufvertrag übernommen.
-:::
+
+!!! tip
+    Wenn Sie eine Bestellung aus einem Kaufvertrag erstellen, wird die Lieferbedingungen aus dem Kaufvertrag übernommen.
+

@@ -50,6 +50,6 @@ Gilt ab <Badge type="info" text="Odoo15" vertical="middle" /> .
 
 Öffnen Sie eine Rechnung unter _Buchhaltung > Kunden > Rechnungen_ und wählen Sie _Drucken > Rechnung mit zahlungschein_.
 
-::: tip
-Deaktivieren Sie Option _Einstellungen > Buchhaltung > Kundeneinzahlungen > QR codes_, wenn Sie diese Erweiterung im Einsatz haben.
-:::
+!!! tip
+    Deaktivieren Sie Option _Einstellungen > Buchhaltung > Kundeneinzahlungen > QR codes_, wenn Sie diese Erweiterung im Einsatz haben.
+

@@ -37,9 +37,9 @@ Mit diesem Modul kann ein Produkt als Vertragsprodukt gekennzeichnet werden. Wir
 2. Durch Anklicken der Checkbox _Ist ein Vertrag_ wird das Produkt als Vertragsprodukt ausgezeichnet.
 3. Im Reiter Vertrag (oder direkt beim Anlegen des Produkts) können weitere Vertragsdetails wie Startdatum und Auto-Erneuerung konfiguriert werden.
 
-::: warning
-Das Modul erlaubt nur, Produkte vom Typ _Dienstleistung_ als Vertragsprodukt auszuzeichnen.
-:::
+!!! warning
+    Das Modul erlaubt nur, Produkte vom Typ _Dienstleistung_ als Vertragsprodukt auszuzeichnen.
+
 
 ### Verkaufsauftrag
 
@@ -47,9 +47,9 @@ Wird ein neuer Verkaufsauftrag mit einem Vertragsprodukt angelegt und bestätigt
 
 Enthält ein Verkaufsautrag mehrere Vertragsprodukte, wird ein gemeinsamer Kundenvertrag angelegt.
 
-::: tip
-Wird nachträglich einem Verkaufsauftrag mit Kundenvertrag ein weiteres Vertragsprodukt hinzugefügt, wird ein neuer Kundenvertrag angelegt.
-:::
+!!! tip
+    Wird nachträglich einem Verkaufsauftrag mit Kundenvertrag ein weiteres Vertragsprodukt hinzugefügt, wird ein neuer Kundenvertrag angelegt.
+
 
 Per Smart Button kann man von einem Verkaufsauftrag zum zugehörigen Kundenvertrag springen und umgekehrt.
 

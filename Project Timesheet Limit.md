@@ -28,6 +28,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Zeigen Sie den Tab _Einstellungen_ eines Projekts via _Projekt > Konfiguration > Projekte_ an. Aktivieren Sie die Option _Erfassbare Zeit limitieren_.
 
-::: tip
-Wenn die Option aktiv ist, können die Stunden der Zeiterfassung auf den Aufgaben des Projekts die geplante Zeit der Aufgabe nicht überschreiten.
-:::
+!!! tip
+    Wenn die Option aktiv ist, können die Stunden der Zeiterfassung auf den Aufgaben des Projekts die geplante Zeit der Aufgabe nicht überschreiten.
+

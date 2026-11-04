@@ -59,9 +59,9 @@ Zur Auszahlung des Lohns über SEPA müssen Sie den Mitarbeiter ein Bankkonto hi
 
 Die Lohnregel sind unter _Personalabrechnung > Konfiguration > Regeln_ definiert. Überprüfen Sie alle Regeln und legen Sie fest welche auf der Gehaltsabrechnung erscheinen sollen. Regeln für die Sie keine Verwendung haben, können Sie archivieren.
 
-::: tip
-Das sind die Regeln, die Informationen über die Gehaltsberechnung liefern. Diese Regeln werden von Odoo gemäss der Reihenfolge ihrer Sequenznummer interpretiert. Die Regeln können verwendet werden, um Buchungen zu erzeugen, ohne dass diese in der Gehaltsliste sichtbar sind.
-:::
+!!! tip
+    Das sind die Regeln, die Informationen über die Gehaltsberechnung liefern. Diese Regeln werden von Odoo gemäss der Reihenfolge ihrer Sequenznummer interpretiert. Die Regeln können verwendet werden, um Buchungen zu erzeugen, ohne dass diese in der Gehaltsliste sichtbar sind.
+
 
 ### Lohnart erstellen
 
@@ -86,9 +86,9 @@ Damit die Gehaltsabrechnung auch in der Finanzbuchhaltung ersichtlich ist, müss
 
 Navigieren Sie nach _Personalabrechnung > Konfiguration > Regeln > Regel auswählen > Beareiten > Tab Buchhaltung_ und weisen Sie dort die Konten zu.
 
-::: warning
-Wenn die Berechnung der Lohnart einen Minusbetrag ergibt, werden die Soll- und Haben-Konten beim Erstellen der Lohnbuchung getauscht. Als Lösung müssen die Konten für Abzüge vertauscht eingetragen werden.
-:::
+!!! warning
+    Wenn die Berechnung der Lohnart einen Minusbetrag ergibt, werden die Soll- und Haben-Konten beim Erstellen der Lohnbuchung getauscht. Als Lösung müssen die Konten für Abzüge vertauscht eingetragen werden.
+
 
 ## Arbeitseinträge
 
@@ -140,9 +140,9 @@ Gilt bis <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Wählen Sie eine aktuelle Lohnabrechnung, die im Status _Erledigt_ ist: _Personalabrechnung > Abrechnung Mitarbeitervergütung > All Payslips > Payslip auswählen_. Öffnen Sie den Tab _Buchhaltung_ und klicken auf den Link unter _Buchung_. Hier werden alle Buchungen der Lohnabrechnung aufgeführt.
 
-::: warning
-Werden die Lohnzahlung als Batch verarbeitet, müssen alle Lohnabrechnungen bestätigt sein, damit eine Zahlung ausgelöst werden kann.
-:::
+!!! warning
+    Werden die Lohnzahlung als Batch verarbeitet, müssen alle Lohnabrechnungen bestätigt sein, damit eine Zahlung ausgelöst werden kann.
+
 
 ### Lohnabrechnung entfernen
 
@@ -152,9 +152,9 @@ Eine verbuchte Lohnabrechnung lässt sich nicht mehr löschen oder abbrechen. Zu
 
 Öffnen Sie die zu löschende Lohnabrechung _Personalabrechung > Abrechnungen Mitarbeitervergütung > All Paylips_. Ist die Abrechnung im Status _Erledigt_, wählen Sie _Erfasse Zahlung_. Odoo erstellt eine Zahlungsdatei, die Sie ignorieren können. Wählen Sie _Aktionen > Abbrechen_. Nun ist ist die Abrechnung im Status _Abgelehnt_. Nun können Sie den Eintrag mit _Aktionen > Löschen_ entfernen.
 
-::: warning
-Falls es auf dem Eintrag eine verknüpfte Buchung gibt, wird diese ebenfalls gelöscht.
-:::
+!!! warning
+    Falls es auf dem Eintrag eine verknüpfte Buchung gibt, wird diese ebenfalls gelöscht.
+
 
 ### Lohnabrechnung neu berechnen
 
@@ -199,6 +199,6 @@ Obermenü: `Personalabrechnung/Berichtswesen`\
 Aktion: `ir.actions.act_window` `Lohnabrechnungszeilen`
 Nummernfolge: `90`
 
-::: tip
-Auf der Aktion _Lohnabrechnungszeilen_ als _Ansichtsmodus_ den Wert `pivot` anfügen.
-:::
+!!! tip
+    Auf der Aktion _Lohnabrechnungszeilen_ als _Ansichtsmodus_ den Wert `pivot` anfügen.
+

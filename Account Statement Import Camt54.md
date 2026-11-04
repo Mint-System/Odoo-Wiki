@@ -50,9 +50,9 @@ Gilt ab <Badge type="info" text="Odoo15" vertical="middle" />.
 
 Zeigen Sie dei App _Buchhaltung_ an und wählen Sie _Import Statement (OCA)_. Im Dialog wählen Sie die XML-Datei oder die Zip-Datei im Camt54-Format aus. Klicken Sie auf _Import and View_. Wählen Sie _Buchen_ und anschliessend _Abstimmung_.
 
-::: tip
-Die IBAN des Bankauszugs muss mit der IBAN des Bank-Journals übereinstimmen.
-:::
+!!! tip
+    Die IBAN des Bankauszugs muss mit der IBAN des Bank-Journals übereinstimmen.
+
 
 ## Troubleshooting
 

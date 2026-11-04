@@ -31,9 +31,9 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Navigieren Sie nach _Einstellungen > Abrechnung > Kundenrechnung_ und aktivieren Sie die Option _Position Numbers from Orders_. Alle Rechnungszeilen, die mit einem Verkaufs- oder Einkaufsauftrag verlinkt sind, verlinken die Positionsnummer von der entsprechenden Auftragsposition.
 
-::: tip
-Wenn Sie zusätzliche Zeilen ohne Verlinkung der Rechnungen hinzufügen, versucht Odoo die Aufzählung der Positionsnummern fortzusetzen.
-:::
+!!! tip
+    Wenn Sie zusätzliche Zeilen ohne Verlinkung der Rechnungen hinzufügen, versucht Odoo die Aufzählung der Positionsnummern fortzusetzen.
+
 
 ## Verwendung
 
@@ -41,9 +41,9 @@ Wenn Sie zusätzliche Zeilen ohne Verlinkung der Rechnungen hinzufügen, versuch
 
 Mit dieser Erweiterung werden Positionsnummern auf Transfers automatisch vom Verkaufs- oder Einkaufsauftrag verknüpft.
 
-::: tip
-Wenn Positionsnummern leer sind, können Sie _Aktionen > Positionsnummern festlegen_ ausführen.
-:::
+!!! tip
+    Wenn Positionsnummern leer sind, können Sie _Aktionen > Positionsnummern festlegen_ ausführen.
+
 
 ## Berichte
 

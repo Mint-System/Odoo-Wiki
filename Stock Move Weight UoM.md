@@ -28,6 +28,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Mit dieser Erweiterung wird das Gewicht der Lieferung unter Berücksichtungen der Mengeneinheit im Tab _Lager_ der Produkte berechnet.
 
-::: warning
-Bei der Darstellung des Gesamtgewichts, kann es zu Rundungsfehler kommen. Damit die Berechnung stimmt, muss auf der Mengenheit die Rundungsgenauigkeit entsprechend definiert werden.
-:::
+!!! warning
+    Bei der Darstellung des Gesamtgewichts, kann es zu Rundungsfehler kommen. Damit die Berechnung stimmt, muss auf der Mengenheit die Rundungsgenauigkeit entsprechend definiert werden.
+

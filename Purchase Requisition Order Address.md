@@ -31,6 +31,6 @@ Mit dieser Erweiterung wird bei der Auswahl des Kontakts der Unterkontakt vom Ty
 
 ![](attachments/Purchase%20Requisition%20Order%20Address.png)
 
-::: warning
-Die Bestelladresse auf Kaufvertrag übersteuert die Bestelladresse des Lieferant auf der Bestellung.
-:::
+!!! warning
+    Die Bestelladresse auf Kaufvertrag übersteuert die Bestelladresse des Lieferant auf der Bestellung.
+

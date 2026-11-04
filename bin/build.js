@@ -19,8 +19,6 @@ const anchorPrefix = '#'
 const attachmentsFolder = 'attachments'
 const gitUrl = 'https://github.com/Mint-System/Odoo-Wiki/blob/main/'
 
-const containerTypes = ['tip', 'warning', 'warnung', 'info']
-
 function sanitizeName(name) {
   return name
     .toLocaleLowerCase()
@@ -180,40 +178,6 @@ function convertHardLineBreaks(content) {
   return lines.join('\n')
 }
 
-// Convert Vuepress `:::` containers to MkDocs `!!!` admonitions. MkDocs
-// requires the content to be indented by four spaces, so each level of
-// container adds four spaces. Handles `:::`/`::::` markers with or without
-// a space after the marker.
-function convertContainers(content) {
-  const lines = content.split(/\r?\n/)
-  const out = []
-  let depth = 0
-  let inFence = false
-
-  for (const line of lines) {
-    if (/^\s*(```|~~~)/.test(line)) inFence = !inFence
-
-    const open = !inFence && line.match(/^\s*(:+) *([a-zA-Z]+)(.*)$/)
-    if (open && containerTypes.includes(open[2])) {
-      const type = open[2] === 'warnung' ? 'warning' : open[2]
-      const title = open[3].replace(/\s+/g, ' ').trim()
-      out.push('    '.repeat(depth) + `!!! ${type}${title ? ' ' + title : ''}`)
-      depth++
-      continue
-    }
-
-    if (!inFence && /^\s*:+\s*$/.test(line)) {
-      if (depth > 0) depth--
-      out.push('')
-      continue
-    }
-
-    out.push('    '.repeat(depth) + line)
-  }
-
-  return out.join('\n')
-}
-
 // Vuepress `<Badge type="…" text="…" vertical="middle"/>` components are not
 // part of Material/MkDocs. Rendered verbatim they are empty unknown elements
 // (the label sits in the `text` attribute and would be invisible), so convert
@@ -325,9 +289,6 @@ function convert(content, file) {
 
   // Vuepress hard line breaks (`\` at end of line)
   content = convertHardLineBreaks(content)
-
-  // Vuepress `:::` containers to MkDocs admonitions
-  content = convertContainers(content)
 
   // Vuepress `<Badge type="…" text="…" vertical="middle"/>` is not part of
   // Material/MkDocs. Without conversion it renders as an empty unknown element

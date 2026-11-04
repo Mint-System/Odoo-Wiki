@@ -15,10 +15,10 @@ prev: ./hr-payroll
 Technischer Name: `gio_payroll_custom`\
 Website: <https://www.giordano.ch/odoo/l%C3%B6sungen/lohnprogramm-ch-d>
 
-::: warning
-Seit <Badge type="info" text="Odoo18" vertical="middle" /> wird diese App nicht mehr benötigt. 
-#DEPRECATED
-:::
+!!! warning
+    Seit <Badge type="info" text="Odoo18" vertical="middle" /> wird diese App nicht mehr benötigt. 
+    #DEPRECATED
+
 
 ## Konfiguration
 
@@ -80,9 +80,9 @@ Möchten Sie eine neue Vorlage erstellen, öffnen Sie _Personalabrechnung > Konf
 
 Geben Sie einen Namen mit Jahresdatum ein und legen Sie die Fix- und Prozentwerte fest.
 
-::: warning
-Legen Sie unbedingt die Monatslohngrenze fest. Nur dann werden ALV und NBU korrekt berechnet.
-:::
+!!! warning
+    Legen Sie unbedingt die Monatslohngrenze fest. Nur dann werden ALV und NBU korrekt berechnet.
+
 
 | Feld               | Wert               |
 | ------------------ | ------------------ |

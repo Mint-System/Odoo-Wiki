@@ -78,13 +78,13 @@ Wählen Sie _Projekt > Aufgaben_. Hier sehen Sie alle Aufgaben, die ihnen zugeor
 
 Navigieren Sie in die Kanban-Ansicht eines Projekts _Projekt > Projekt auswählen_ und geben im Feld _Spaltentitel_ die Stufenbezeichnung ein.
 
-::: warning
-Die erstellte Aufgabenphase ist nur für dieses Projekt sichtbar.
-:::
+!!! warning
+    Die erstellte Aufgabenphase ist nur für dieses Projekt sichtbar.
 
-::: tip
-Mittels Aufgabenphasen kann der Aufgabenstatus und deren Arbeitsfluss abgebildet werden. Eine Aufgaben durchläuft verschiedene Stufen bis Sie erledigt ist und archiviert werden kann.
-:::
+
+!!! tip
+    Mittels Aufgabenphasen kann der Aufgabenstatus und deren Arbeitsfluss abgebildet werden. Eine Aufgaben durchläuft verschiedene Stufen bis Sie erledigt ist und archiviert werden kann.
+
 
 
 ### Gemeinsame Aufgabenphasen festlegen
@@ -99,9 +99,9 @@ Um ein Projekt zu duplizieren führen Sie folgende Aktion aus _Projekt > Projekt
 
 ![Projekt duplizieren](attachments/Projekt%20duplizieren.gif)
 
-::: tip
-Beim der Duplizierung eines Projekts werden deren Aufgaben und Phasen mitkopiert.
-:::
+!!! tip
+    Beim der Duplizierung eines Projekts werden deren Aufgaben und Phasen mitkopiert.
+
 
 ## Auswertung
 
@@ -153,17 +153,17 @@ Weil die Berechtigung von _Projekt / Benutzer_ nach _Projekt / Administrator_ ve
 
 Zeigen Sie ein Projekt via _Projekt > Konfiguration > Projekte_ an. Wählen Sie _Aktionen > Projekt freigeben_. Legen Sie den _Zugriffsmodus_ fest und tragen Sie die Odoo-Benutzer (interne und externe) bei _Leute einladen_ ein.
 
-::: tip
-Die Sichtbarkeit des Projekts muss für diesen Vorgang auf _Eingeladene Portalnutzer und alle Mitarbeiter_ eingestellt sein.
-:::
+!!! tip
+    Die Sichtbarkeit des Projekts muss für diesen Vorgang auf _Eingeladene Portalnutzer und alle Mitarbeiter_ eingestellt sein.
+
 
 ### Projekt für ausgewählte Mitarbeitende freigeben
 
 Zeigen Sie ein Projekt via _Projekt > Konfiguration > Projekte_ an. Die Mitarbeitenden, welche Zugriff auf das Projekt erhalten sollen, können Sie nun als [Abonnement hinzufügen](Discuss.md#Abonnement%20hinzufügen).
 
-::: tip
-Die Sichtbarkeit des Projekts muss für diesen Vorgang auf _Laden Sie Angestellte ein._ eingestellt sein.
-:::
+!!! tip
+    Die Sichtbarkeit des Projekts muss für diesen Vorgang auf _Laden Sie Angestellte ein._ eingestellt sein.
+
 
 ### Projekt für ausgewählte Mitarbeitende und Portal-Benutzer freigeben
 

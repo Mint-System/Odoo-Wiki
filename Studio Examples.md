@@ -54,9 +54,9 @@ Das Ergebnis sieht so aus:
 
 ### Dateianhang in Bericht anzeigen
 
-::: tip
-An jedem Odoo-Objekt kann ein Anhang vom Typ Datei oder URL hinzugefügt werden. Dieser Anhang kann im Portal oder Bericht angzeigt werden.
-:::
+!!! tip
+    An jedem Odoo-Objekt kann ein Anhang vom Typ Datei oder URL hinzugefügt werden. Dieser Anhang kann im Portal oder Bericht angzeigt werden.
+
 
 In diesem Beispiel wurde mit Odoo Studio dem Modell _product.product_ zwei Felder hinzugefügt:
 

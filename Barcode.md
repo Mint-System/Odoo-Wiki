@@ -32,9 +32,9 @@ extensions: true
 
 Öffnen Sie _Einstellungen > Lager > Strichcode_ und wählen Sie die Aktion _Konfigurieren der Produkt-Barcodes_. In dieser Liste tragen Sie für jedes Produkt einen Strichcode ein.
 
-::: tip
-Für jedes Produkt verwaltet Odoo einen Strichcode. Ähnlich der internen Referenz kann für jede Produkt-Variante ein Strichcode festgelegt werden.
-:::
+!!! tip
+    Für jedes Produkt verwaltet Odoo einen Strichcode. Ähnlich der internen Referenz kann für jede Produkt-Variante ein Strichcode festgelegt werden.
+
 
 Stricodes müssen in erster Linie eindeutig sein. Deshalb empfehlen wir die Generierung des Strichcodes nach folgenden Schema:
 
@@ -47,9 +47,9 @@ Diese Sequenz füllen wir in das entsprechende Produktfeld.
 
 ![](attachments/Strichcode%20für%20Produkte%20generieren.png)
 
-::: warning
-Wichtig ist, dass der Produktstrichcode immer eindeutig und so kurz wie möglich ist.
-:::
+!!! warning
+    Wichtig ist, dass der Produktstrichcode immer eindeutig und so kurz wie möglich ist.
+
 
 Hier zwei Strichcodes im Vergleich:
 

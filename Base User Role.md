@@ -32,9 +32,9 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Navigieren Sie nach _Einstellungen > Benutzer und Gruppen > Roles_ und erstellen Sie einen neuen Eintrag. Vergeben Sie einen Namen und fügen Sie im Tab _Groups_ die Gruppen hinzu, welche die Benutzer mit der Rolle erhalten sollen. Im Tab _Benutzer_ wählen Sie die Benutzer aus, welche die Rollen erhalten.
 
-::: warning
-Die Zuweisung von Rollen überschreibt die bestehenden Gruppenzugehörigkeiten des Benutzers.
-:::
+!!! warning
+    Die Zuweisung von Rollen überschreibt die bestehenden Gruppenzugehörigkeiten des Benutzers.
+
 
 ### Rolle an Benutzer hinzufügen
 

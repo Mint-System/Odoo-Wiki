@@ -29,6 +29,6 @@ Die Entlohnung und Arbeitszeiten sind im Arbeitsvertrag festgehalten. Fügen Sie
 
 Odoo generiert anhand der Arbeitszeiten Termin-Einträge für die Kalender-Ansicht. Navigieren Sie nach _Personal_ und wählen Sie einen Mitarbeitenden aus. Klicken Sie auf den Smart-Link _Arbeitseinträge_.
 
-::: tip
-Damit die Arbeitseinträge generiert werden, muss auf dem Mitarbeiter-Eintrag ein aktiver Arbeitsvertrag sein.
-:::
+!!! tip
+    Damit die Arbeitseinträge generiert werden, muss auf dem Mitarbeiter-Eintrag ein aktiver Arbeitsvertrag sein.
+

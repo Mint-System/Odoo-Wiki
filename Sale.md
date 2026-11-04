@@ -208,6 +208,6 @@ Wenn Sie eine Rechnungs- oder Lieferadresse mit gleichen Anzeigename wie der Hau
 
 ![](attachments/Verkauf%20Kontakt-Suche.png)
 
-::: warning
-Die Verfügbarkeit des Felds _Adresstyp_ in der Listenauswahl muss mit einem Snippet sichergestellt werden.
-:::
+!!! warning
+    Die Verfügbarkeit des Felds _Adresstyp_ in der Listenauswahl muss mit einem Snippet sichergestellt werden.
+

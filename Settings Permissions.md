@@ -21,9 +21,9 @@ Damit sich Besucher der Website im Odoo-Portal registrieren können, muss die Op
 
 ### Rollen erstellen
 
-::: warning
-Diese Anleitung erfordert das Modul `base_user_role`.
-:::
+!!! warning
+    Diese Anleitung erfordert das Modul `base_user_role`.
+
 
 Die Gruppenrechte können mit Benutzerrollen zusammengefasst werden. Mit der entsprechenden Erweiterung kann man Rollen erstellen, Gruppen hinzufügen und diese für einen Benutzer aktivieren.
 
@@ -41,9 +41,9 @@ Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Benutzer_ und kl
 
 Klicken Sie auf speichern um den Vorgang abzuschliessen.
 
-::: warning
-Damit die neuen Rechte für den Benutzer sichtbar sind, muss dieser den Browser aktualisieren.
-:::
+!!! warning
+    Damit die neuen Rechte für den Benutzer sichtbar sind, muss dieser den Browser aktualisieren.
+
 
 ## Gruppenberechtigung
 

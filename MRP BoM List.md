@@ -31,6 +31,6 @@ Mit der Aktion _Komponenten-Liste zu Zeitpunk_ können Sie den Bestand der Kompo
 
 ![MRP BoM List](attachments/MRP%20BoM%20List.gif)
 
-::: tip
-Als Standard-Stückliste wird immer die erste Stückliste des jeweiligen Produkts ausgewählt.
-:::
+!!! tip
+    Als Standard-Stückliste wird immer die erste Stückliste des jeweiligen Produkts ausgewählt.
+

@@ -31,10 +31,10 @@ Mit dieser Erweiterung können Sie auf Kaufverträge Zahlungsbedingungen definie
 
 ![](attachments/Purchase%20Requisition%20Payment%20Term.png)
 
-::: tip
-Wenn Sie auf dem Lieferant eine Standard-Zahlungsbedingung hinterlegt haben, wird bei der Auswahl des Lieferanten im Kaufvertrag diese Zahlungsbedingung übernommen.
-:::
+!!! tip
+    Wenn Sie auf dem Lieferant eine Standard-Zahlungsbedingung hinterlegt haben, wird bei der Auswahl des Lieferanten im Kaufvertrag diese Zahlungsbedingung übernommen.
 
-::: tip
-Wenn Sie eine Bestellung aus einem Kaufvertrag erstellen, wird die Zahlungsbedingung aus dem Kaufvertrag übernommen.
-:::
+
+!!! tip
+    Wenn Sie eine Bestellung aus einem Kaufvertrag erstellen, wird die Zahlungsbedingung aus dem Kaufvertrag übernommen.
+

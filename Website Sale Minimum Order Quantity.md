@@ -27,6 +27,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Navigieren Sie nach _Verkauf > Produkte > Produkte_ und zeigen Sie ein Produkt an. Im Feld _Mindestbestellmenge_ legen Sie die entsprechende Menge fest.
 
-::: warning
-Wenn Sie Produktvarianten im Einsatz haben, müssen Sie die Mindestbestellmenge für jede Produktvariante einrichten.
-:::
+!!! warning
+    Wenn Sie Produktvarianten im Einsatz haben, müssen Sie die Mindestbestellmenge für jede Produktvariante einrichten.
+

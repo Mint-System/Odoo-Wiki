@@ -30,8 +30,8 @@ Mit dieser Erweiterung können Sie auf Bestellung eine alternative Lieferadresse
 
 ![Purchase Order Partner Shipping](attachments/Purchase%20Order%20Partner%20Shipping.gif)
 
-::: warning
-Wird aus einer Bestellung eine Lieferung generiert, so wird die alternative Lieferadesse der Warenhausadresse aus der Lieferung auf den Einkaufs-Berichten vorgezogen.
+!!! warning
+    Wird aus einer Bestellung eine Lieferung generiert, so wird die alternative Lieferadesse der Warenhausadresse aus der Lieferung auf den Einkaufs-Berichten vorgezogen.
 
-![](attachments/Purchase%20Order%20Partner%20Shipping%20Priority.png)
-:::
+    ![](attachments/Purchase%20Order%20Partner%20Shipping%20Priority.png)
+

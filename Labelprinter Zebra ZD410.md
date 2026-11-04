@@ -15,14 +15,14 @@ prev: ./iot
 
 Website: <https://www.zebra.com/de/de/support-downloads/printers/desktop/zd410.html>
 
-::: warning
-Beachten sie, dass nur Etiketten mit direktem Thermopapier funktionieren.
+!!! warning
+    Beachten sie, dass nur Etiketten mit direktem Thermopapier funktionieren.
 
-Zebra Z-Select 2000D ist direkt.
-Zebra Z-Select 2000T ist nicht direkt.
+    Zebra Z-Select 2000D ist direkt.
+    Zebra Z-Select 2000T ist nicht direkt.
 
-Der maximale Durchmesser der Rolle ist 127mm.
-:::
+    Der maximale Durchmesser der Rolle ist 127mm.
+
 
 ## Verwendung
 

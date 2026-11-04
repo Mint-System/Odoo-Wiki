@@ -55,14 +55,13 @@ Wenn Sie [Vermietung mit Transfers einrichten](#Vermietung%20mit%20Transfers%20e
 
 Wenn Sie ein vermietetes Produkt liefern, rufen Sie unter _Vermietung > Aufträge_ den entsprechenden _Mietauftrag_ auf. Klicken Sie auf _Abholung_ und Sie gelangen zum Lieferauftrag. Validieren Sie den Auftrag und kehren Sie zum Mietauftrag zurück.
 
-::: tip
-Die Lieferung kann auch über die Lager- oder Barcode-App ausgeführt werden.
-:::
+!!! tip
+    Die Lieferung kann auch über die Lager- oder Barcode-App ausgeführt werden.
+
 
 ### Produkt erhalten
 
 Wenn Sie ein vermietetes Produkt erhalten, rufen Sie unter _Vermietung > Aufträge_ den entsprechenden _Mietauftrag_ auf.  Klicken Sie auf _Rückgabe_ und Sie gelangen zur Anlieferung.
 
-::: tip
-Die Retoure kann auch über die Lager- oder Barcode-App ausgeführt werden.
-:::
+!!! tip
+    Die Retoure kann auch über die Lager- oder Barcode-App ausgeführt werden.

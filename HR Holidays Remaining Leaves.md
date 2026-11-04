@@ -33,13 +33,13 @@ Mit dieser Erweiterung werden unter _Abwesenheiten > Genehmigungen > Urlaubsansp
 - **Verbleibend**: Berechnet Dauert aus Anspruch minus Dauer aus validierten Abwesenheiten
 - **Aktuell Verbleibend**: Berechnet Dauert aus Anspruch minus Dauer aus validierten Abwesenheiten bis zum aktuellen Tag
 
-::: tip
-Läuft eine Abwesenheit von Mittwoch bis Dienstag der nächsten Woche, dann liegt ein Wochenende oder sogar Feiertage dazwischen. Wird der Urlaubsanspruch am Dienstag betracht, berücksichtigt Odoo die gegebenen Abwesenheit und berechnet für _Aktuell Verbleibend_ 4 Tage: Mittwoch, Donnerstag, Freitag und Montag.
-:::
+!!! tip
+    Läuft eine Abwesenheit von Mittwoch bis Dienstag der nächsten Woche, dann liegt ein Wochenende oder sogar Feiertage dazwischen. Wird der Urlaubsanspruch am Dienstag betracht, berücksichtigt Odoo die gegebenen Abwesenheit und berechnet für _Aktuell Verbleibend_ 4 Tage: Mittwoch, Donnerstag, Freitag und Montag.
 
-::: warning
-Wenn mehrere Urlaubsansprüche vom selben Abwesenheitsart existieren und die Abwesenheiten an keinem Urlaubsanspruch zugeordnet sind, wird die Dauer für alle Urlaubsansprüche minus berechnet.
-:::
+
+!!! warning
+    Wenn mehrere Urlaubsansprüche vom selben Abwesenheitsart existieren und die Abwesenheiten an keinem Urlaubsanspruch zugeordnet sind, wird die Dauer für alle Urlaubsansprüche minus berechnet.
+
 
 ### Verbleibende Urlaubsansprüche übertragen
 

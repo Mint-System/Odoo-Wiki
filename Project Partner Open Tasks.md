@@ -27,6 +27,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Zeigen Sie _Kontakte_ an und öffnen Sie einen Kunden. Klicken Sie auf den Smart-Button _X Aufgaben_. Sie werden auf die Listenansicht mit den gefilterten Aufgaben umgeleitet.
 
-::: tip
-Für Odoo sind Aufgaben erledigt, wenn die Aufgabe einer Aufgabenphase mit der Option _In Kanban eingeklappt_ zugeordnet ist.
-:::
+!!! tip
+    Für Odoo sind Aufgaben erledigt, wenn die Aufgabe einer Aufgabenphase mit der Option _In Kanban eingeklappt_ zugeordnet ist.
+

@@ -42,9 +42,9 @@ Website: <https://www.odoo.com/de_DE/app/timesheet>
 
 Navigieren Sie nach _Einstellungen > Zeiterfassung > Abrechnung_ und wählen Sie eine Option bei _Abrechnungspolitik_. Ist die Auswahl _Nur validierte Zeiterfassungen_ aktiviert, müssen die Zeiterfassungen zur Verrechnung zuerst validiert werden.
 
-::: tip
-Um die Option zu aktivieren kann auch das Modul `sale_timesheet_enterprise` installiert werden.
-:::
+!!! tip
+    Um die Option zu aktivieren kann auch das Modul `sale_timesheet_enterprise` installiert werden.
+
 
 ### Benachrichtigung "Erinnerung an Ihre Zeiterfassung" deaktivieren
 

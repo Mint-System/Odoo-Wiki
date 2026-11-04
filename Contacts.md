@@ -108,9 +108,9 @@ Zeigen Sie ein Unternehmenskontakt via _Kontakte_ an. Im Tab _Kontakte & Adresse
 
 ![](attachments/Unterkontakte.png)
 
-::: warning
-Ändern Sie den Typ von Unterkontakten nicht auf Unternehmen. Wird beispielsweise die Rechnungsadresse als Kontakt vom Typ Unternehmen festgelegt, erfolgt eine kommerzielle Trennung des Haupt- und Unterkonakt.
-:::
+!!! warning
+    Ändern Sie den Typ von Unterkontakten nicht auf Unternehmen. Wird beispielsweise die Rechnungsadresse als Kontakt vom Typ Unternehmen festgelegt, erfolgt eine kommerzielle Trennung des Haupt- und Unterkonakt.
+
 
 ### Kontakte anhand Stichwort filtern
 
@@ -138,9 +138,9 @@ Wenn Sie Unternehmen mit Kontakten haben, können Sie auf den Kontakten einen Ty
 
 ![](attachments/Partner%20Select%20Type.png)
 
-::: warnung
-Der Kontakttyp _Privatadresse_ darf nur für die private Adresse im Personal verwendet werden. Siehe [Private Adresse hinterlegen](HR.md#Private%20Adresse%20hinterlegen).
-:::
+!!! warning
+    Der Kontakttyp _Privatadresse_ darf nur für die private Adresse im Personal verwendet werden. Siehe [Private Adresse hinterlegen](HR.md#Private%20Adresse%20hinterlegen).
+
 
 ### Kontaktandreden verwalten
 
@@ -184,9 +184,9 @@ Wenn Sie Duplikate in den Kontakten haben, können Sie diese markieren und mit _
 
 ![](attachments/Contacts%20Merge.png)
 
-::: tip
-Odoo aktualisiert auch die verlinkten Dokumente wie Rechnungen und Verkaufsaufträge.
-:::
+!!! tip
+    Odoo aktualisiert auch die verlinkten Dokumente wie Rechnungen und Verkaufsaufträge.
+
 
 ## Einstellungen
 

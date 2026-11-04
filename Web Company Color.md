@@ -34,6 +34,6 @@ Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Unternehmen_ und
 
 ![](attachments/Web%20Company%20Color.png)
 
-::: tip
-Wenn Sie ein Logo hochladen und diese Erweiterung installiert ist, versucht Odoo anhand der Logo-Farben den Unternehmensstil zu definieren.
-:::
+!!! tip
+    Wenn Sie ein Logo hochladen und diese Erweiterung installiert ist, versucht Odoo anhand der Logo-Farben den Unternehmensstil zu definieren.
+

@@ -25,6 +25,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Mit dieser Erweiterung können Sie auf Chatter-Nachrichten antworten. Bei Klick auf die entsprechende Aktion wird der Betreff und Inhalt der Nachricht in die Antworte-Nachricht übernommen.
 
-::: warning
-In der Discuss-App gibt es nach Installation dieser App zwei Antwort-Aktionen.
-:::
+!!! warning
+    In der Discuss-App gibt es nach Installation dieser App zwei Antwort-Aktionen.
+

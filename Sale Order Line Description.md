@@ -44,6 +44,6 @@ Ist die Option aktiviert, wird beim Auswählen eines Produkts nur die Verkaufsbe
 
 ![Sale Order Line Description](attachments/Sale%20Order%20Line%20Description.gif)
 
-::: warning
-Wenn die Verkaufsbeschreibung auf dem Produkt nicht gesetzt ist, wird der Produktname übernommen.
-:::
+!!! warning
+    Wenn die Verkaufsbeschreibung auf dem Produkt nicht gesetzt ist, wird der Produktname übernommen.
+

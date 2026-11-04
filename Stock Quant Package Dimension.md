@@ -33,6 +33,6 @@ Zeigen Sie die [Verpackungen](Stock%20Packaging.md#Verpackungen%20anzeigen) an, 
 
 Wenn Sie die [Mengenheit Logistik festlegen](Product%20Logistics%20UoM.md#Mengenheit%20Logistik%20festlegen)) wird diese in der Berechnung der Gewichtsschätzung berücksichtigt.
 
-::: warning
-Andere Feld auf der Verpackung wie _Liefergewicht_ und _Pack Weight_ berücksichtigen die Mengeneinheit Logistik des Produkts nicht.
-:::
+!!! warning
+    Andere Feld auf der Verpackung wie _Liefergewicht_ und _Pack Weight_ berücksichtigen die Mengeneinheit Logistik des Produkts nicht.
+

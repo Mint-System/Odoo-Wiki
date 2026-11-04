@@ -39,14 +39,14 @@ Gilt ab <Badge type="info" text="Odoo17" vertical="middle" />.
 
 Im Entwicklermodus navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Diskussion_ und öffnen Sie den Eintrag bei _Alias-Domain_. Im Feld _Catchall-Alias_ geben Sie den gewünschten Wert ein.
 
-::: tip
-Eine Liste von Mail-Provider und ob diese die _catchall_ und _no-reply_ E-Mail-Aliase erlauben:
+!!! tip
+    Eine Liste von Mail-Provider und ob diese die _catchall_ und _no-reply_ E-Mail-Aliase erlauben:
 
-- ❌ Infomaniak
-- ❌ Outlook
-- ❌ Gmail
-- ✅ Proton
-  :::
+    - ❌ Infomaniak
+    - ❌ Outlook
+    - ❌ Gmail
+    - ✅ Proton
+
 
 ### Bounce-Alias anpassen
 
@@ -86,9 +86,9 @@ Reply-To: "My Company" <reply@example.com>
 ...
 ```
 
-::: warning
-Abhängig vom Mail-Provider darf die Absender-Adresse nicht von der Adresse des Postfachs abweichen und die sogenannten _Senden als_-Freigaben müssen explizit konfiguriert werden.
-:::
+!!! warning
+    Abhängig vom Mail-Provider darf die Absender-Adresse nicht von der Adresse des Postfachs abweichen und die sogenannten _Senden als_-Freigaben müssen explizit konfiguriert werden.
+
 
 ## Empfang
 
@@ -108,9 +108,9 @@ Unter _Einstellungen > Dialog > Externe E-Mail-Server_ aktivieren Sie das Featur
 
 ### Eingehender Mail-Server Office 365 konfigurieren
 
-::: tip
-Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
-:::
+!!! tip
+    Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+
 
 Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, aktivieren Sie der Modul `microsoft_outlook` und wählen Sie diese Parameter als Verbindungsoptionen:
 
@@ -120,9 +120,9 @@ Wenn Sie [Eingehender Mail-Server konfigurieren](#Eingehender%20Mail-Server%20ko
 
 Und anschliessend die Aktion [Outlook OAuth-Verbindung einrichten](Settings%20OAuth.md#Outlook%20OAuth-Verbindung%20einrichten) ausführen.
 
-::: warning
-Das verwendete Outlook-Postfach darf keine Shared Mailbox sein. Der Benutzer und Postfach müssen lizenziert sein.
-:::
+!!! warning
+    Das verwendete Outlook-Postfach darf keine Shared Mailbox sein. Der Benutzer und Postfach müssen lizenziert sein.
+
 
 ## Versand
 
@@ -140,15 +140,15 @@ Unter _Einstellungen > Dialog > Externe E-Mail-Server_ aktivieren Sie das Featur
 - **Passwort**: Passwort des Odoo Postfach
 - **Von-Filter**: Mail-Adresse von Odoo Postfach oder Mail-Domain
 
-::: tip
-Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladung, versendet Odoo die E-Mail im Namen des Unternehmens und verwendet dazu die E-Mail-Adresse aus den Unternehmenseinstellungen.
-:::
+!!! tip
+    Für Vorgänge wie das Zurücksetzen eines Passworts oder Versand einer Einladung, versendet Odoo die E-Mail im Namen des Unternehmens und verwendet dazu die E-Mail-Adresse aus den Unternehmenseinstellungen.
+
 
 ### Ausgehender Mail-Server Office 365 konfigurieren
 
-::: tip
-Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
-:::
+!!! tip
+    Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+
 
 Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20konfigurieren) und Office 365 verwenden möchten, aktivieren Sie der Modul 'microsoft_outlook' und wählen Sie diese Parameter als Verbindungsoptionen:
 
@@ -158,13 +158,13 @@ Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20ko
 
 Und anschliessend die Aktion [Outlook OAuth-Verbindung einrichten](Settings%20OAuth.md#Outlook%20OAuth-Verbindung%20einrichten) ausführen.
 
-::: warning
-Das verwendete Outlook-Postfach darf keine Shared Mailbox sein. Der Benutzer und Postfach müssen lizenziert sein.
-:::
+!!! warning
+    Das verwendete Outlook-Postfach darf keine Shared Mailbox sein. Der Benutzer und Postfach müssen lizenziert sein.
 
-::: warning
-Die Relay-Funktion von Odoo funktioniert mit Office 365 nicht. Sie müssen eine feste Absender-Adresse gemäss [Allgemeine Absender-Adresse festlegen](#Allgemeine%20Absender-Adresse%20festlegen) wählen.
-:::
+
+!!! warning
+    Die Relay-Funktion von Odoo funktioniert mit Office 365 nicht. Sie müssen eine feste Absender-Adresse gemäss [Allgemeine Absender-Adresse festlegen](#Allgemeine%20Absender-Adresse%20festlegen) wählen.
+
 
 ### Ausgehender Mail-Server Mailgun konfigurieren
 
@@ -185,9 +185,9 @@ Wenn Sie [Ausgehender Mail-Server konfigurieren](#Ausgehender%20Mail-Server%20ko
 
 Navigieren Sie nach _Einstellungen > Technisch > E-Mail > Aliase_. Hier sehen Sie alle die von Odoo registrierten Aliase und verknüpften Dokumente.
 
-::: tip
-Der Empfänger der eingehenden E-Mails werden mit der Liste der Aliase verglichen. Wenn das E-Mail keine Antwort auf einen bestehenden Chatter-Thread ist, wird die Aktion des registrierten Aliases ausgelöst.
-:::
+!!! tip
+    Der Empfänger der eingehenden E-Mails werden mit der Liste der Aliase verglichen. Wenn das E-Mail keine Antwort auf einen bestehenden Chatter-Thread ist, wird die Aktion des registrierten Aliases ausgelöst.
+
 
 ### E-Mail-Alias erstellen
 
@@ -199,13 +199,13 @@ Damit der Odoo E-Mail-Alias funktioniert müssen Sie diese im E-Mail-Postfach eb
 
 ![](attachments/Settings%20E-Mail%20Aliasse.png)
 
-::: tip
-Wenn Subaddressing "+" aktiviert ist, wird eine E-Mail mit einem "+" nach dem Alias, beispielsweise <project+xy@mint-system.ch> aufgrund des Mail-Alias <project@mint-system.ch>, ebenfalls zugestellt.
-:::
+!!! tip
+    Wenn Subaddressing "+" aktiviert ist, wird eine E-Mail mit einem "+" nach dem Alias, beispielsweise <project+xy@mint-system.ch> aufgrund des Mail-Alias <project@mint-system.ch>, ebenfalls zugestellt.
 
-::: warning
-Der Wildcard-E-Mail-Alias _catchall_ wird nicht von allen Mail-Provider unterstützt.
-:::
+
+!!! warning
+    Der Wildcard-E-Mail-Alias _catchall_ wird nicht von allen Mail-Provider unterstützt.
+
 
 ### Odoo Bot Mail-Adresse ändern
 
@@ -221,9 +221,9 @@ Wenn wie die Absender-Adresse ändern möchten, öffnen Sie _Kontakt_ und wähle
 
 Navigieren Sie nach _Einstellungen > Technisch > Eingehender Mail-Server_ und zeigen Sie einen aktiven Eintrag an. Im Feld _Einen neuen Datensatz erzeugen_ können Sie ein Datenmodell auswählen. Wenn Odoo eine E-Mail verarbeitet und dieses nicht einem laufenden Dialog zugeordnet werden kann, erstellt Odoo einen Datensatz im ausgewählten Datenmodell.
 
-::: tip
-Als ausgewähltes Datenmodell empfehlen wir _Kanal_ oder _Notiz_.
-:::
+!!! tip
+    Als ausgewähltes Datenmodell empfehlen wir _Kanal_ oder _Notiz_.
+
 
 ### Antwort-Adresse mit Konfiguration von E-Mail-Vorlage überschreiben
 
@@ -273,9 +273,9 @@ Sie müssen den [Catchall-Alias anpassen](#Catchall-Alias%20anpassen) oder den [
 
 ### Weitergeleitetes Mail via Exchange wird von Odoo nicht verarbeitet
 
-::: tip
-Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
-:::
+!!! tip
+    Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+
 
 **Problem**
 

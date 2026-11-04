@@ -49,9 +49,9 @@ Navigieren Sie nach _Marketing-Automatisierung > Kampagnen_ und zeigen Sie eine 
 
 ![](attachments/Marketing-Automation.png)
 
-::: tip
-Auf der Kampange finden Sie einen Smart-Link _X Tests_, der Sie zu den erstellten Tests bringt.
-:::
+!!! tip
+    Auf der Kampange finden Sie einen Smart-Link _X Tests_, der Sie zu den erstellten Tests bringt.
+
 
 ### Kampagne starten
 
@@ -65,6 +65,6 @@ Navigieren Sie nach _Marketing-Automatisierung > Kampagnen_ und zeigen Sie eine 
 
 Navigieren Sie nach _Marketing-Automatisierung > Kampagnen_ und zeigen Sie eine laufende Kampagne an. Wählen Sie den Smart-Link _X Teilnehmer_ und zeigen Sie einen Eintrag an.
 
-::: tip
-Für Teilnehmer im Status _Vollständig_ wurden alle Marketing-Aktivitäten absolviert.
-:::
+!!! tip
+    Für Teilnehmer im Status _Vollständig_ wurden alle Marketing-Aktivitäten absolviert.
+

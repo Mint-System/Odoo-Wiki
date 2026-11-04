@@ -142,17 +142,17 @@ Nachdem Sie den Browser-Tab aktualisiert haben, ist der Menüposten umbenannt.
 
 Öffnen Sie _Einstellungen > Technisch > Benutzer-Interface > Menüposten_ und wählen Sie ein bestehenden Menüposten aus. Bearbeiten Sie die Sichtbarkeit des Menüs im Tab _Zugriffsrechte_ oder steuern Sie die Reihenfolge der Untermenüs im Tab _Untermenüs_.
 
-:::
+
 Bei einer Aktualisierung der Odoo App werden die verlinkten Menüposten zurückgesetzt.
-:::
+
 
 ### Menüposten entfernen
 
 Öffnen Sie _Einstellungen > Technisch > Benutzer-Interface > Menüposten_ und suchen Sie den entsprechende Menüposten. Markieren Sie diesen und wählen Sie _Aktionen > Löschen_ oder _Aktionen > Archiv_.
 
-::: warning
-Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
-:::
+!!! warning
+    Diese Vorgang kann die Integrität und Verüfgbarkeit des Systems beeiträchitgen. Führen Sie die Aktion nur aus, wenn Sie sich den möglichen Auswirkungen bewusst sind.
+
 
 ## Metadaten
 
@@ -179,9 +179,9 @@ Navigieren Sie nun nach _Einstellungen > Technisch > Sequenzen- und Identifizier
 - **Modellname**: Angabe Gemäss Url
 - **Datensatz-ID**: Angabe Gemäss Url
 
-::: warning
-Verwenden Sei bei Modul keinen existierenden Modulnamen wie `base` oder `account`. Bei einem Modul-Update entfernt Odoo alle externen IDs und verknüpften Datensätze, wenn diese nicht im entsprechenden Modul definiert sind.
-:::
+!!! warning
+    Verwenden Sei bei Modul keinen existierenden Modulnamen wie `base` oder `account`. Bei einem Modul-Update entfernt Odoo alle externen IDs und verknüpften Datensätze, wenn diese nicht im entsprechenden Modul definiert sind.
+
 
 Dazu die Angaben aus dem Beispiel:
 

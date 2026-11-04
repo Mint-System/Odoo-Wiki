@@ -30,6 +30,6 @@ Mit dieser Erweiterung können Sie auf Planungstypen _Personal > Konfiguration >
 
 ![](attachments/HR%20Activity%20Date.png)
 
-::: warning
-Wenn ein Plan für einen Mitarbeitenden ohne aktiven Arbeitsvertrag erstellt wird, erscheint ein Fehler.
-:::
+!!! warning
+    Wenn ein Plan für einen Mitarbeitenden ohne aktiven Arbeitsvertrag erstellt wird, erscheint ein Fehler.
+

@@ -15,9 +15,9 @@ prev: ./barcode
 
 Website: <https://www.zebra.com/de/de/products/mobile-computers/handheld/tc21-tc26.html>
 
-::: warning
-Es kann sein, dass der Handscanner ohne USB-C Kabel geliefert wird.
-:::
+!!! warning
+    Es kann sein, dass der Handscanner ohne USB-C Kabel geliefert wird.
+
 
 ## Verwendung
 
