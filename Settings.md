@@ -39,6 +39,7 @@ extensions: true
 | [Base User Role Company](Base%20User%20Role%20Company.md)                                 | Benutzer-Rollen in Abhängigkeit vom Unternehmen aktivieren.        |
 | [Base User Role](Base%20User%20Role.md)                                                   | Gruppenberechtigungen mit Benutzer-Rollen verwalten.               |
 | [Home Background Image](Home%20Background%20Image.md)                                     | Den Odoo-Startbildschirm gestalten.                                |
+| [Home Font Color](Home%20Font%20Color.md)                                                 | Schriftfarbe auf dem Odoo-Starbildschirm festlegen                 |
 | [Show DB Name](Show%20DB%20Name.md)                                                       | Zeigt den Datenbanknamen oben rechts an.                           |
 | [Web Company Color](Web%20Company%20Color.md)                                             | Farben des Odoo Backend Theme anpassen.                            |
 | [Web Enterprise Admin Expiration Panel](Web%20Enterprise%20Admin%20Expiration%20Panel.md) | Meldung Ablauf der Datenbank nur für Admins anzeigen.              |

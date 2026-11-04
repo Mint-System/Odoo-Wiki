@@ -23,6 +23,7 @@ extensions: true
 | [Web Font Arial](Web%20Font%20Arial.md)                                           | Fügt Schriftart Arial der Auswahl hinzu.                             |     |     |     |     |     |     |
 | [Web Font Calibri](Web%20Font%20Calibri.md)                                       | Fügt Schriftart Calibri der Auswahl hinzu.                           |     |     |     |     |     |     |
 | [Web Font Dobra Book](Web%20Font%20Dobra%20Book.md)                               | Fügt Schriftart Dobro Book der Auswahl hinzu,                        |     |     |     |     |     |     |
+| [Web Font Georgia](Web%20Font%20Georgia.md)                                       | Fügt Schriftart Georgia der Auswahl hinzu.                             |     |     |     |     |     |     |
 | [Web Font Manrope](Web%20Font%20Manrope.md)                                       | Fügt Schriftart Manrope der Auswahl hinzu.                           |     |     |     |     |     |     |
 | [Web Referesher](Web%20Referesher.md)                                             | Fügt einen Button zur Aktualisierung der Listenansicht hinzu.        |     |     |     |     |     |     |
 | [Web Responsive](Web%20Responsive.md)                                             | Responsive Anzeige der Odoo-Oberfläche.                              |     |     |     |     |     |     |
