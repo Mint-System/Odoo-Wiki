@@ -28,4 +28,4 @@ extensions: true
 
 ### Positionen auf Berichten anzeigen
 
-Haben Sie die benötigten Erweiterungen installiert können Sie mit den Snippets von <https://odoo.build/snippets.html> mit Bezeichnung _Get Position_ die Positionsnummer einblenden.
+Haben Sie die benötigten Erweiterungen installiert können Sie mit den Snippets von <https://odoo.build/snippets/> mit Bezeichnung _Get Position_ die Positionsnummer einblenden.

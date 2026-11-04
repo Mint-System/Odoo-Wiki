@@ -39,6 +39,6 @@ Wenn Positionsnummern leer sind, können Sie _Aktionen > Positionsnummern festle
 
 ### Positionsnummer anzeigen
 
-Unter <https://odoo.build/snippets.html> finden Sie Snippets mit der Bezeichnung _Get Postition_, beispielsweise <https://odoo.build/snippets/purchase.html#get-position>. Verwenden Sie diese Snippets um auf Berichten, die Positionsnummer aus Verkaus-, Einkaufs- und Fertigungsaufträgen anzuzeigen.
+Unter <https://odoo.build/snippets/> finden Sie Snippets mit der Bezeichnung _Get Postition_, beispielsweise <https://odoo.build/snippets/purchase/#get-position>. Verwenden Sie diese Snippets um auf Berichten, die Positionsnummer aus Verkaus-, Einkaufs- und Fertigungsaufträgen anzuzeigen.
 
 ![](attachments/Snippets%20Positionsnummer%20anzeigen.png)

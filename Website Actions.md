@@ -94,7 +94,7 @@ Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Automatische Aktione
 
 ### Unternehmenstyp vom Strassennamen abtrennen
 
-Dient dazu, die `company_type`-Information aus dem Web-Adressformular, die per "Huckepack-Verfahren" an das Feld `street2` gehängt wurde, abzutrennen und abzuspeichern. Die Huckepack-Methode ist im Snippet [Add Company Type](https://odoo.build/snippets/portal.html#add-company-type) als JavaScript eingerichtet. Sie sorgt dafür, dass das `street2`-Feld die Information zum company type angehängt bekommt als hidden input: `<Street2>###<Company Type>`
+Dient dazu, die `company_type`-Information aus dem Web-Adressformular, die per "Huckepack-Verfahren" an das Feld `street2` gehängt wurde, abzutrennen und abzuspeichern. Die Huckepack-Methode ist im Snippet [Add Company Type](https://odoo.build/snippets/portal/#add-company-type) als JavaScript eingerichtet. Sie sorgt dafür, dass das `street2`-Feld die Information zum company type angehängt bekommt als hidden input: `<Street2>###<Company Type>`
 
 Navigieren Sie nach _Einstellungen > Technisch > Aktionen > Automatische Aktionen_ und erstellen Sie einen neuen Eintrag:
 
