@@ -72,6 +72,8 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Restricted Qty](Sale%20Restricted%20Qty.md)                                                 | Mindest- und Maximalbestellmenge für Produkte festlegen.                      |
 | [Sale Start End Dates](Sale%20Start%20End%20Dates.md)                                             | Fügt dem Verkaufsauftrag ein Start- und Enddatum hinzu.                       |
 | [Sale Triple Discount](Sale%20Triple%20Discount.md)                                               | Mehrere Rabatte auf der Auftragsposition.                                     |
+| [Sale Project Report](Sale%20Project%20Report.md)                                                 | Stundenübersicht für Projekte                                                 |
+
 
 ## Produkte
 
