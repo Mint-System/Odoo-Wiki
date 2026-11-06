@@ -148,4 +148,4 @@ Führen Sie [Datensatzregel anpassen](Settings%20Permissions.md#Datensatzregel%2
 ]
 ```
 
-Damit haben Genehmiger von Zeiterfassungseinträgen nur Zugriff auf ihr Team.
+Damit haben Genehmiger von Zeiterfassungseinträgen nur Zugriff auf ihr Team. 
