@@ -1,12 +1,13 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
+# Usage: https://taskfile.build/usage/
 set -e
 
-if [[ -a ".env" ]]; then
-    export $(cat .env | sed 's/^#.*//g' | xargs)
+if [[ -f ".env" ]]; then
+    # shellcheck source=/dev/null
+    source ".env"
 fi
 
-help() {
+help-table() {
     echo
     echo "task <command> [options]"
     echo
@@ -51,6 +52,22 @@ help() {
             "$max_opt" "$opt" \
             "$max_desc" "$desc"
     done
+}
+
+help() {
+    local grep_pattern
+    echo
+    if [[ -n "$1" ]]; then
+        grep_pattern="$1"
+        help-table | grep -i "$grep_pattern" | column -t -s'|'
+    else
+        echo "task <command> [options]"
+        echo
+        echo "commands:"
+        echo
+        help-table
+    fi
+    echo
 }
 
 if [ -d "$HOME/taskfile.build/bin" ]; then
@@ -185,13 +202,30 @@ download-icons() {
     node download-icons.js
 }
 
-if declare -f "$1" > /dev/null; then
-    "$1" "${@:2}"
+if [[ "$1" == *","* ]]; then
+    # Split comma-separated commands
+    IFS=',' read -ra COMMANDS <<< "$1"
+    for cmd in "${COMMANDS[@]}"; do
+        # Trim whitespace
+        cmd=$(echo "$cmd" | xargs)
+        if declare -f "$cmd" > /dev/null; then
+            "$cmd"
+        else
+            echo "Unknown command: $cmd"
+            help "$@"
+            exit 1
+        fi
+    done
+elif declare -f "$1" > /dev/null; then
+    if [[ "${2:-}" == "tfhelp" ]]; then
+        help "$1"
+    else
+        "$1" "${@:2}"
+    fi
 else
     case "$1" in
         *)
             echo "Unknown command: $1"
-            help
             exit 1
             ;;
     esac
