@@ -35,9 +35,10 @@ Website: <https://www.odoo.com/de_DE/app/website>
 | [Website Form Check](Website%20Form%20Check.md)                                           | Überprüft Formulardaten und leitet Benutzer bei einem Treffer um.           |
 | [Website Product Description](Website%20Product%20Description.md)                         | Separates Feld für Produktbeschreibungen.                                   |
 | [Website Sale Default Country CH](Website%20Sale%20Default%20Country%20CH.md)             | Schweiz als Standardland im Webshop festlegen.                              |
-| [Website Sale Permit Extra Info](Website%20Sale%20Permit%20Extra%20Info%20.md)            | Extra-Seite für den Webshop beim Verkauf von zeitlich befristeten Patenten. |
 | [Website Sale Minimum Order Quantity](Website%20Sale%20Minimum%20Order%20Quantity.md)     | Legen Sie Mindestbestellmengen für Produkte und Produktvarianten fest.      |
+| [Website Sale Permit Extra Info](Website%20Sale%20Permit%20Extra%20Info%20.md)            | Extra-Seite für den Webshop beim Verkauf von zeitlich befristeten Patenten. |
 | [Website Sale Pricelist Fixed Discount](Website%20Sale%20Pricelist%20Fixed%20Discount.md) | Warenkorb mit Rabatten aus Preisliste mit Festpreis.                        |
+| [Website Sale Select Address Type](Website%20Sale%20Select%20Address%20Type.md)           | Unterscheidung Person/Unternehmen im Webshop-Adressformular.                |
 
 ## Verwendung
 
