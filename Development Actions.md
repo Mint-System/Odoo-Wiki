@@ -94,9 +94,9 @@ Heutiges Datum als Standardwert für das Feld `ordering_date`.
 { 'default_ordering_date': datetime.datetime.today().strftime('%Y-%m-%d') }
 ```
 
-::: warning
-Dokumentieren Sie die Anpassung von Aktionen. Bei einer Aktualisierung der Module gehen die Änderungen verloren.
-:::
+!!! warning
+    Dokumentieren Sie die Anpassung von Aktionen. Bei einer Aktualisierung der Module gehen die Änderungen verloren.
+
 
 ## Aktionen
 

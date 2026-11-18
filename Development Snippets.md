@@ -17,11 +17,11 @@ partner: Mint System
 
 ### Snippets-Übersicht anzeigen
 
-Zeigen Sie die Website <https://odoo.build/snippets.html> an. Hier finden Sie eine umfassende Snippets-Sammlung.
+Zeigen Sie die Website <https://odoo.build/snippets/> an. Hier finden Sie eine umfassende Snippets-Sammlung.
 
 ### Snippet hinzufügen
 
-Unter <https://odoo.build/snippets.html> finden Sie verschiedene Snippets um Ansichten und Berichte von Odoo anzupassen. Anhand der Referenz aus dem Attribut`inherit_id` können Sie das Snippet auf der Odoo Umgebung installieren.
+Unter <https://odoo.build/snippets/> finden Sie verschiedene Snippets um Ansichten und Berichte von Odoo anzupassen. Anhand der Referenz aus dem Attribut`inherit_id` können Sie das Snippet auf der Odoo Umgebung installieren.
 
 Navigieren Sie nach _Einstellungen > Technisch > Ansichten_ und Suchen Sie nach der Ansicht wobei _Schlüssel_ gleich `inherit_id` ist. Öffnen Sie die Ansicht und erstellen Sie im Tab _Vererbte Ansichten_ einen neuen Eintrag mit diesen Werten:
 

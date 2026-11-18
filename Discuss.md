@@ -70,9 +70,9 @@ Wenn Sie oder ein anderer Benutzer einem Dokument folgen, speichert das Odoo in 
 
 ![](attachments/Discuss%20Follower%20löschen.gif)
 
-::: warning
-Das löschen von Follower kann die Kommunikation in der App Dialog beeinflussen.
-:::
+!!! warning
+    Das löschen von Follower kann die Kommunikation in der App Dialog beeinflussen.
+
 
 ## Nachrichten
 
@@ -80,9 +80,9 @@ Das löschen von Follower kann die Kommunikation in der App Dialog beeinflussen.
 
 Im Chatter des Dokument wählen Sie den Tab _Sende Nachricht_. Geben Sie eine Nachricht eine und wählen Sie _Senden_ um die Nachricht an den Empfänger zu schicken.
 
-::: warning
-Die Empfänger sind alle Follower des Dokuments.
-:::
+!!! warning
+    Die Empfänger sind alle Follower des Dokuments.
+
 
 ## E-Mail-Dialog anzeigen
 
@@ -96,9 +96,9 @@ Im Chatter des Dokument wählen Sie den Tab _Sende Nachricht_. Klicken Sie auf d
 
 Wählen Sie im Feld _Benutze Vorlage_ ein E-Mail-Vorlage aus. Odoo füllt die Platzhalter aus und Sie können die Nachricht mit _Senden_ an den Empfänger verschicken.
 
-::: warning
-Die Eingaben in _Empfänger_ werden mit den Follower des Dokuments kumuliert.
-:::
+!!! warning
+    Die Eingaben in _Empfänger_ werden mit den Follower des Dokuments kumuliert.
+
 
 ### Benachrichtigungen anzeigen
 
@@ -118,9 +118,9 @@ Konfigurieren Sie den Subtypen gemäss Anforderungen:
 - **Nur interne**: Nachrichten nur für interne Benutzer sichtbar.
 - **Versteckt**: Subtyp wird auf Abonnement-Formular ausgeblendet.
 
-::: warning
-Die Einstellungen auf Subtypen haben Auswirkungen auf Apps, welche den Chatter für die Kundenkommunikation erfordert. Eine solche App ist beispielsweise [Helpdesk](Helpdesk.md).
-:::
+!!! warning
+    Die Einstellungen auf Subtypen haben Auswirkungen auf Apps, welche den Chatter für die Kundenkommunikation erfordert. Eine solche App ist beispielsweise [Helpdesk](Helpdesk.md).
+
 
 ### Subtyp auf Abonnement aktivieren
 
@@ -136,17 +136,17 @@ Wählen Sie die Subtypen aus, welche für das Abonnement aktiv sein sollen.
 
 Benutzer werden standardmässig mit dem Subtyp _Diskussion_ abonniert. Damit Nachrichten ohne expliziten Emfänger nur an interne Kontakte verschickt werden können, müssen Sie diesen Subtyp anpassen. Navigieren Sie nach _Einstellungen > Technisch > Subtypen_ und zeigen Sie den Subtypen _Diskussion_ an. Aktivieren Sie die Option _Nur interne_.
 
-::: tip
-Um eine Nachricht explizit an externe Benutzer zu schicken, wählen Sie beim Nachrichten versenden eine E-Mail-Vorlage aus oder fügen den Empfänger manuell hinzu.
-:::
+!!! tip
+    Um eine Nachricht explizit an externe Benutzer zu schicken, wählen Sie beim Nachrichten versenden eine E-Mail-Vorlage aus oder fügen den Empfänger manuell hinzu.
+
 
 ### Nachrichten nicht an Follower schicken
 
 Wenn Sie verhindern, möchten dass Nachrichten an die Follower des Dokuments verschickt werden, dann müssen Sie den entsprechenden Subtypen bearbeiten. Navigieren Sie nach _Einstellungen > Technisch > Subtypen_ und zeigen Sie den Subtypen _Diskussion_ an. Deaktiveren die Option _Standard_.
 
-::: warning
-Für ausgewählte Dokumenten wie das _Helpdesk-Team_ gibt es zusätzliche Subtypen, beispielsweise _Ticket erstellt_, welche die Option _Standard_ aktiv haben.
-:::
+!!! warning
+    Für ausgewählte Dokumenten wie das _Helpdesk-Team_ gibt es zusätzliche Subtypen, beispielsweise _Ticket erstellt_, welche die Option _Standard_ aktiv haben.
+
 
 ## Kanäle
 
@@ -154,9 +154,9 @@ Für ausgewählte Dokumenten wie das _Helpdesk-Team_ gibt es zusätzliche Subtyp
 
 Um einen Kanal zu löschen navigieren Sie nach _Einstellungen > Technisch > Kanäle_, wechseln in die Listenansicht und wählen die Kanäle die gelöscht werden sollen. Klicken Sie auf _Aktionen > Löschen_.
 
-::: warning
-Alle mit dem Kanal verknüpften Nachrichten werden mit dieser Aktion gelöscht.
-:::
+!!! warning
+    Alle mit dem Kanal verknüpften Nachrichten werden mit dieser Aktion gelöscht.
+
 
 ## Auswertung
 

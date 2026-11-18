@@ -40,6 +40,6 @@ Unter Einstellungen wird die Zahl der aktiven Benutzer entsprechend angepasst.
 
 ![](attachments/Mail%20Service%20Users%20Einstellungen.png)
 
-::: warning
-Dieses Modul verändert die Berechnung der aktiven Benutzer auf dem System. Ist die Erweiterung aktiv können Sie gegen Bedingungen im [Odoo Enterprise Abonnementsvertrag](https://www.odoo.com/documentation/18.0/legal/terms/enterprise.html#enterprise-agreement) verstossen.
-:::
+!!! warning
+    Dieses Modul verändert die Berechnung der aktiven Benutzer auf dem System. Ist die Erweiterung aktiv können Sie gegen Bedingungen im [Odoo Enterprise Abonnementsvertrag](https://www.odoo.com/documentation/18.0/legal/terms/enterprise.html#enterprise-agreement) verstossen.
+

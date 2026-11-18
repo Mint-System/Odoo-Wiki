@@ -29,10 +29,10 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Mit dieser Erweiterung wird in der Liste der Rechnung zusätzlich zum Zahlungsstatus das letzte Zahlungs- und Absteimmungsdatum angezeigt. Navigieren Sie nach _Buchhaltung > Lieferanten > Rechnungen_ und blenden Sie das Feld _Payment Date_ und/oder _Reconcile Date_ ein.
 
-::: tip
-Wenn es mehrere Abstimmungen für eine Rechnungen gibt, wird das jüngste Datum ausgewählt.
-:::
+!!! tip
+    Wenn es mehrere Abstimmungen für eine Rechnungen gibt, wird das jüngste Datum ausgewählt.
 
-::: warning
-Es werden nur Buchungszeilen berücksichtigt, die mit einem Journal vom Typ _Bank_ verknüpft sind.
-:::
+
+!!! warning
+    Es werden nur Buchungszeilen berücksichtigt, die mit einem Journal vom Typ _Bank_ verknüpft sind.
+

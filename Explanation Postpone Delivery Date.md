@@ -18,9 +18,9 @@ Der Bericht _Prognostizierter Bestand_ zeigt, dass wir in 6 Tagen -10 Stk _Kette
 
 Jetzt verschieben wir den Liefertermin auf _Heute + 3 Tage_. Dafür wird der Verkaufsauftrag zuerst mit den entsprechenden Funktionen abgebrochen und wieder in den Status _Angebot_ gesetzt.
 
-::: warning Angebot abbrechen
-Damit die Reservationen richtig durchgeführt werden, muss der Verkaufsauftrag mit der Funktion _Abbrechen_ und _Setze Auf Angebot_ neu initialisiert werden.
-:::
+!!! warning "Angebot abbrechen"
+    Damit die Reservationen richtig durchgeführt werden, muss der Verkaufsauftrag mit der Funktion _Abbrechen_ und _Setze Auf Angebot_ neu initialisiert werden.
+
 
 Jetzt erscheint nach dem Aufruf von _Replenish_ der Artikel in der Liste. Das System schlägt vor, 10 Stk des Produktes zu produzieren. Mit dem Knopf _Order Once_ wird automatisch der entsprechende Fertigungsauftrag erstellt.
 

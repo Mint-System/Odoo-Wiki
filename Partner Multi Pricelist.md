@@ -27,9 +27,9 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Navigieren Sie nach _Kontakte_ und wählen Sie ein Unternehmen aus. Im Tab _Verkauf & Einkauf_ finden Sie den Abschnitt _Partner-Preislisten_. Erstellen Sie hier neue Einträge. Aktive Einträge überschreiben das Feld _Preisliste_.
 
-::: tip
-Partner-Preislisten mit aktiven Perioden haben erste Priorität. Als zweites Kriterium wird die Sequenz verwendet.
-:::
+!!! tip
+    Partner-Preislisten mit aktiven Perioden haben erste Priorität. Als zweites Kriterium wird die Sequenz verwendet.
+
 
 ### Partner-Preislisten verwalten
 

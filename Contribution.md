@@ -95,66 +95,57 @@ Um Inhalte speziell zu markieren gibt es diese Optionen.
 Markup:
 
 ```
-::: tip
-Info
-:::
+!!! tip
+    Info
 
-::: warning
-Warnung
-::: tip
+!!! warning
+    Warnung
 ```
 
 Output:
 
-::: tip
-Info
-:::
+!!! tip
+    Info
 
-::: warning
-Warnung
-:::
+!!! warning
+    Warnung
 
 ### Veraltete Inhalte
 
 **Umbenannt**: Wenn eine App umbenannt wurde verwenden diesen marker:
 
 ```
-::: warning
-Mit <Badge type="info" text="Odoo19" vertical="middle" /> wurde diese App auf [Mail Debranding](Mail%20Debranding.md) umbennant.
-#DEPRECATED
-:::
+!!! warning
+    Mit <Badge type="info" text="Odoo19" vertical="middle" /> wurde diese App auf [Mail Debranding](Mail%20Debranding.md) umbennant.
+    #DEPRECATED
 ```
 
 **Ersetzt**: Wenn eine App ersetzt wurde, können Sie diese wie folgt markieren:
 
 ```
-::: warning
-Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscribe) zu verwenden.
-#DEPRECATED
-:::
+!!! warning
+    Diese App ist veraltet. Wir empfehlen die App [Mail Unsubscribe](Mail%20Unsubscribe) zu verwenden.
+    #DEPRECATED
 ```
 
 **Integriert**: Wenn die Funktion der App Teil von Odoo geworden ist, können Sie diese wie folgt markieren:
 
 ```
-::: warning
-Seit <Badge type="info" text="Odoo18" vertical="middle" /> wird diese App nicht mehr benötigt. 
-#DEPRECATED
-:::
+!!! warning
+    Seit <Badge type="info" text="Odoo18" vertical="middle" /> wird diese App nicht mehr benötigt.
+    #DEPRECATED
 ```
 
 **Abgelöst**: Wenn die Funktion der App Teil einer anderen App geworden ist, können Sie diese wie folgt markieren:
 
 ```
-::: warning
-Seit <Badge type="info" text="Odoo18" vertical="middle" /> ist diese App Teil von [Mail Unsubscribe].
-#DEPRECATED
-:::
+!!! warning
+    Seit <Badge type="info" text="Odoo18" vertical="middle" /> ist diese App Teil von [Mail Unsubscribe].
+    #DEPRECATED
 
-::: warning
-Diese Funktion wurde Teil von [Project Menu].
-#DEPRECATED
-:::
+!!! warning
+    Diese Funktion wurde Teil von [Project Menu].
+    #DEPRECATED
 ```
 
 ### Bilder
@@ -250,9 +241,8 @@ Zu bestimmten Themen und Stichwörter werden Affiliate-Links platziert.
 Verwandt: Exchange
 
 ```
-::: tip
-Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
-:::
+!!! tip
+    Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
 ```
 
 **Microsoft**
@@ -260,17 +250,15 @@ Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=
 Verwandt: Azure, Entra
 
 ```
-::: tip
-Wir empfehlen Produkte von [Infomaniak](https://www.infomaniak.com/goto/de/home?utm_term=67ff9acbaabca) anstatt Microsoft zu verwenden.
-:::
+!!! tip
+    Wir empfehlen Produkte von [Infomaniak](https://www.infomaniak.com/goto/de/home?utm_term=67ff9acbaabca) anstatt Microsoft zu verwenden.
 ```
 
 **Outlook**
 
 ```
-::: tip
-Wir empfehlen [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hosting.mail?utm_term=67ff9acbaabca) anstatt Outlook zu verwenden.
-:::
+!!! tip
+    Wir empfehlen [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hosting.mail?utm_term=67ff9acbaabca) anstatt Outlook zu verwenden.
 ```
 
 ### Demo-Daten

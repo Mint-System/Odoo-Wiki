@@ -40,8 +40,8 @@ Die Übersicht _Prognostizierter Bestand_ zeigt, dass der Lagerbestand des Produ
 
 Mit _Order Once_ wird der Fertigungsauftrag WH/MO/00001 generiert. Im _Replenishment_ erscheinen als Nächstes drei Bestellvorschläge für die Produkte _Sattelstütze_, _Sattelüberzug_ und _Sattelschelle_.
 
-::: warning Lead Time der Komponenten beachten
-Falls eine der Komponenten eine Lead Time > 30 Tage hat, kann der Liefertermin für das Produkt _Sattel_ nicht eingehalten werden. Um Planungssicherheit zu haben muss also die _Durchlaufzeit der Fertigung_ unter Berücksichtigung der Lead Time zur Beschaffung aller benötigten Komponenten definiert werden.
-:::
+!!! warning "Lead Time der Komponenten beachten"
+    Falls eine der Komponenten eine Lead Time > 30 Tage hat, kann der Liefertermin für das Produkt _Sattel_ nicht eingehalten werden. Um Planungssicherheit zu haben muss also die _Durchlaufzeit der Fertigung_ unter Berücksichtigung der Lead Time zur Beschaffung aller benötigten Komponenten definiert werden.
+
 
 ![Erläuterung lange Lead Time 2](attachments/Explanation%20lange%20Lead%20Time%202.svg)

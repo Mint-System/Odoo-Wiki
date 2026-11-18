@@ -18,9 +18,9 @@ partner: Odoo S.A.
 
 Rufen Sie die App _Notizen_ und erstellen Sie einen neuen Eintrag.
 
-::: tip
-Die erste Notizzeile wird in der Kanban-Ansicht als Titel der Notiz angezeigt.
-:::
+!!! tip
+    Die erste Notizzeile wird in der Kanban-Ansicht als Titel der Notiz angezeigt.
+
 
 ![](attachments/Notizen%20erstellen.png)
 

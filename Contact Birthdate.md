@@ -26,9 +26,9 @@ versions:
 Technischer Name: {{ $frontmatter.name }}\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
-::: warning
-Diese Dokumentation wurde durch [Partner Contact Birthdate](Partner%20Contact%20Birthdate.md) ersetzt.
-:::
+!!! warning
+    Diese Dokumentation wurde durch [Partner Contact Birthdate](Partner%20Contact%20Birthdate.md) ersetzt.
+
 
 ## Verwendung
 

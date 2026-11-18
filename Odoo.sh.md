@@ -22,9 +22,9 @@ Damit ihre Odoo-Installation oder Website unter einer eigenen Domain erreichbar 
 
 Angenommen ihr Odoo.sh-Projekt heisst `acme` und ihre Domain ist `example.com`, dann müssen Sie diesen DNS-Eintrag erstellen: `www.example.com ALIAS acme.odoo.com` oder `www.example.com CNAME acme.odoo.com`.
 
-::: tip
-Die DNS-Einträge können Sie im Normalfall dort machen, wo Sie die Domain erworben und registriert haben. Verantwortlich für die DNS-Einträge sind die sog. _Nameserver_.
-:::
+!!! tip
+    Die DNS-Einträge können Sie im Normalfall dort machen, wo Sie die Domain erworben und registriert haben. Verantwortlich für die DNS-Einträge sind die sog. _Nameserver_.
+
 
 In den Einstellung findet Sie den Abschnitt _Custom domains_, hier fügen Sie den Namen ihrer Domain ein.
 
@@ -64,9 +64,9 @@ Im Dialog geben Sie den SSH-Link ein, wählen den Branch gemäss Odoo Version un
 
 Nun wird das Submodule und die darin enthaltenen Module auf der Staging-Umgebung zur Verfügung gestellt.
 
-::: tip
-Um die Submodule zu aktualisieren, müssen Sie das Odoo.sh Projekt als Git-Repository auschecken und die Git-Referenzen auf die Submodule aktualisieren.
-:::
+!!! tip
+    Um die Submodule zu aktualisieren, müssen Sie das Odoo.sh Projekt als Git-Repository auschecken und die Git-Referenzen auf die Submodule aktualisieren.
+
 
 ### Modul-Code bearbeiten
 
@@ -76,9 +76,9 @@ Auf den Staging- und Entwicklungsbranches kann der Code von Modulen direkt bearb
 
 Das Odoo.sh Projekt wird für ein bestimmtes Betriebssystem eingerichtet. Wenn dieses veraltet ist, können Sie unter _Settings_ ein neueres Betriebssystem wählen.
 
-::: warning
-Die entsprechende Einstellung wird nur angezeigt, wenn das Betriebssystem veraltet ist.
-:::
+!!! warning
+    Die entsprechende Einstellung wird nur angezeigt, wenn das Betriebssystem veraltet ist.
+
 
 ## Upgrade
 
@@ -131,9 +131,9 @@ Kontrollieren Sie den Schlüssel:
 - Im GitHub-Repository unter  _Settings > Section 'Security and Quality' > Deploy keys_ ist der Schlüssel für Odoo.sh aufgeführt.
 - Im Odoo.sh-Projekt unter _Settings > GitHub Key & Webhook_ führt der Klick auf _Verify Deploy Key_ zur Bestätigung "Deploy key successfully detected"
 
-::: warning
-Werden die Einstellungen in GitHub nicht angepasst, führt der Klick auf _Verify Deploy Key_ zum "Access Error: You must be admin of the GitHub repository to do this action", auch wenn bereits Admin-Rechte vergeben wurden.
-:::
+!!! warning
+    Werden die Einstellungen in GitHub nicht angepasst, führt der Klick auf _Verify Deploy Key_ zum "Access Error: You must be admin of the GitHub repository to do this action", auch wenn bereits Admin-Rechte vergeben wurden.
+
 
 ## Datenbank
 

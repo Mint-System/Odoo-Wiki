@@ -56,9 +56,9 @@ Rufen Sie _Buchhaltung > Kunden > Kundenvertr채ge_ auf und w채hlen Sie _Neu_. F�
 
 ![](attachments/Contract%20Beispiel.png)
 
-::: tip
-T채glich wird ein Cron-Job ausgef체hrt, der entsprechend dem _Datum der n채chsten Rechnung_ anhand des Vertrags eine Rechnung generiert.
-:::
+!!! tip
+    T채glich wird ein Cron-Job ausgef체hrt, der entsprechend dem _Datum der n채chsten Rechnung_ anhand des Vertrags eine Rechnung generiert.
+
 
 ### Kundenvertrag und Periodische Rechnungen terminieren
 

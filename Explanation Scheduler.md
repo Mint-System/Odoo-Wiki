@@ -18,6 +18,6 @@ Diese vorbereiteten Beschaffungen werden je nach Konfiguration des betroffenen P
 
 Der Scheduler berücksichtigt beim Starten von Reservierungen und Beschaffungen die Priorität der Vorgänge. Dringende Anfragen werden zuerst gestartet.
 
-::: tip
-Falls nicht genügend Produkte auf Lager sind um alle Anfragen zu erfüllen, werden die dringendsten zuerst produziert.
-:::
+!!! tip
+    Falls nicht genügend Produkte auf Lager sind um alle Anfragen zu erfüllen, werden die dringendsten zuerst produziert.
+

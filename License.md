@@ -62,9 +62,9 @@ Navigieren Sie nach _Lizenz > Konfigurationen > Lizenztyp_ und erstellen Sie ein
 
 Zeigen Sie _Lizenzen_ an und erstellen Sie einen neuen Eintrag. Wählen Sie einen _Partner_ aus und speichern Sie den neuen Eintrag. Es wird ein Lizenzname und ein Schlüssel generiert.
 
-::: tip
-Sie können auch einen benutzerdefinierten Lizenznamen und Schlüssel vergeben.
-:::
+!!! tip
+    Sie können auch einen benutzerdefinierten Lizenznamen und Schlüssel vergeben.
+
 
 ## Aktionen
 

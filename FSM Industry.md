@@ -31,6 +31,6 @@ Navigieren Sie nach _Projekt > Konfiguration > Projekte_ und wählen Sie ein Pro
 
 Zeigen Sie eine Projektaufgabe an, die zu einem Projekt gehört, welches die Erfassung von Produkten auf Aufgaben erlaubt. Klicken Sie auf den Smart-Button _X Produkte_ und fügen Sie die entsprechenden Produkte hinzu.
 
-::: tip
-Die Produkte werden dem Verkaufsauftrag hinzugefügt und abhängig von der Fakturierungsregel wird eine Lieferung erstellt.
-:::
+!!! tip
+    Die Produkte werden dem Verkaufsauftrag hinzugefügt und abhängig von der Fakturierungsregel wird eine Lieferung erstellt.
+

@@ -110,9 +110,9 @@ Rufe Sie eine importierte E-Mail-Vorlage unter _Einstellungen > Technisch > Vorl
 
 Wenn Sie beim Aufruf der Mail-Vorlage einen Bericht als Hinzufügen möchten, rufen Sie die Einstellungen der Mail-Vorlage unter _Einstellungen > Technisch > Vorlagen > Vorlage auswählen_ auf. Im Tab _Erweiterte Einstellungen_ wählen Sie im Feld _Optionaler zu druckender und anzuhängender Report_ den Bericht aus.
 
-::: tip
-Im Feld _Report Dateiname_ können Sie einen alternativen Dateinamen für den Anhang definieren.
-:::
+!!! tip
+    Im Feld _Report Dateiname_ können Sie einen alternativen Dateinamen für den Anhang definieren.
+
 
 ### Mail-Server auf E-Mail-Vorlage festlegen
 
@@ -122,9 +122,9 @@ Zeigen Sie eine E-Mail-Vorlage unter _Einstellungen > Technisch > E-Mail > E-Mai
 
 Zeigen Sie eine E-Mail-Vorlage unter _Einstellungen > Technisch > E-Mail > E-Mail-Vorlagen_ an und öffnen Sie den Tab _E-Mail-Konfiguration_. Im Feld _Von_ geben Sie den Namen und die E-Mail-Adresse im Format `Name <alias@example.com>` ein.
 
-::: warning
-Stellen Sie sicher, dass der Postausgangsserver die _VON-Filterung_ zulässt.
-:::
+!!! warning
+    Stellen Sie sicher, dass der Postausgangsserver die _VON-Filterung_ zulässt.
+
 
 ## Testen
 
@@ -172,9 +172,9 @@ Wenn Sie den Entwicklermodus eingeschaltet haben, finden Sie unter _Einstellunge
 
 Wenn [Nicht versendete E-Mails anzeigen](#Nicht%20versendete%20E-Mails%20anzeigen) und dort Einträge finden, können Sie der Aktion _Wiederholen_ den Versand erneut starten. Um die E-Mail direkt zu versenden, wählen Sie _Sofort senden_.
 
-::: warning
-Auf bestimmte Nachrichten habe nur der Author Zugriff. Kontaktieren Sie den Author über den Chatter und teilen Sie mit, dass die Nachricht erneut versendet werden soll.
-:::
+!!! warning
+    Auf bestimmte Nachrichten habe nur der Author Zugriff. Kontaktieren Sie den Author über den Chatter und teilen Sie mit, dass die Nachricht erneut versendet werden soll.
+
 
 ### Löschung von E-Mails nach Versand verhindern
 
@@ -186,9 +186,9 @@ Abhängig von der Konfiguration der E-Mail-Vorlage löscht Odoo versendete E-Mai
 
 Odoo prüft regelmässig die Postfächer der konfigurierten eingehenden E-Mail-Server. Den Vorgang können Sie manuell ausführen. Navigieren Sie nach _Einstellungen > Technisch > E-Mail > Eingehende Mail-Server_ und wählen Sie einen Eintrag aus. Klicken Sie auf _Nachrichten Abrufen_
 
-::: tip
-Odoo verarbeitet in diesem Vorgang ungelesene E-Mails im Postfach. Anhand eines E-Mail-Headers fügt Odoo die Nachricht an das dazugehörige Dokument.
-:::
+!!! tip
+    Odoo verarbeitet in diesem Vorgang ungelesene E-Mails im Postfach. Anhand eines E-Mail-Headers fügt Odoo die Nachricht an das dazugehörige Dokument.
+
 
 ### Eingehende E-Mails erneut empfangen
 

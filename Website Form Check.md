@@ -47,6 +47,6 @@ Da dieses Regex-Muster im Daten-String gefunden wird, liefert in diesem Beispiel
 ![](attachments/Website%20Form%20Check%20Pattern.png)
 ![](attachments/Website%20Form%20Check%20Redirect.png)
 
-::: tip
-Bei der Website-Umleitung ist nur die URL, auf die umgeleitet wird, von Bedeutung. Die URL, von der umgeleitet wird, kann ein Dummy sein.
-:::
+!!! tip
+    Bei der Website-Umleitung ist nur die URL, auf die umgeleitet wird, von Bedeutung. Die URL, von der umgeleitet wird, kann ein Dummy sein.
+

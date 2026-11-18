@@ -28,9 +28,9 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Die Erweiterung wird mit Systemparameter konfiguriert. Dazu müssen Sie den `mail_restrict_follower_selection.domain` [Systemparameter bearbeiten](Development.md#Systemparameter%20bearbeiten). Geben Sie hier einen Domänen-Filter ein.
 
-::: tip
-Der Standard-Domänen-Filter ist `[('category_id.name', '=', 'Employees')]`. Mit diesem Filter könnnen nur Kontakte ausgewählt werden, die als Stichwort _Employee_ haben.
-:::
+!!! tip
+    Der Standard-Domänen-Filter ist `[('category_id.name', '=', 'Employees')]`. Mit diesem Filter könnnen nur Kontakte ausgewählt werden, die als Stichwort _Employee_ haben.
+
 
 ### Auswahl Follower für Datenmodell einschränken
 
@@ -39,6 +39,6 @@ Wenn Sie die Auswahl der Follower für ein bestimmtes Datenmodell einschränken 
 - **Schlüssel**: `mail_restrict_follower_selection.domain.res.partner`
 - **Wert**: `[('email', 'like', 'example.com')]`
 
-::: tip
-Der Systemparameter für ein Datenmodell übersteuert den globalen Systemparameter.
-:::
+!!! tip
+    Der Systemparameter für ein Datenmodell übersteuert den globalen Systemparameter.
+

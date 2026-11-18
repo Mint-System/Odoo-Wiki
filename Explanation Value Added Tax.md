@@ -20,18 +20,18 @@ Weiterführende Informationen finden Sie unter <https://fedlex.data.admin.ch/eli
 
 Die Abrechnung nach vereinbarten Entgelten ist das Standardverfahren der eidgenössischen Steuerverwaltung. Bei dieser Methode wird die MWST fällig, sobald die Rechnung dem Kunden gestellt ist. Bezahlt dieser die Rechnung erst in einem späteren Quartal, finanzieren Sie als Unternehmer die MWST vor.
 
-::: tip
-Beispiel: Sie haben ein Architekturbüro und haben Arbeiten im Wert von CHF 1’000 ausgeführt. Am 28. Juni stellen Sie dem Kunden eine Rechnung über CHF 1’077 aus (Rechnungsbetrag plus 8.1% MWST).
-Der Kunde bezahlt die Rechnung in 30 Tagen nach Rechnungserhalt. Als Unternehmer müssen Sie die MWST von CHF 77 vorfinanzieren und nach Abschluss des laufenden Quartals, also Anfang Juli, der Steuerverwaltung abliefern.
-:::
+!!! tip
+    Beispiel: Sie haben ein Architekturbüro und haben Arbeiten im Wert von CHF 1’000 ausgeführt. Am 28. Juni stellen Sie dem Kunden eine Rechnung über CHF 1’077 aus (Rechnungsbetrag plus 8.1% MWST).
+    Der Kunde bezahlt die Rechnung in 30 Tagen nach Rechnungserhalt. Als Unternehmer müssen Sie die MWST von CHF 77 vorfinanzieren und nach Abschluss des laufenden Quartals, also Anfang Juli, der Steuerverwaltung abliefern.
+
 
 ## Abrechnung nach vereinnahmten Entgelten
 
 Die MWST-Abrechnung nach vereinnahmten Entgelten muss schriftlich bei der eidg. Steuerverwaltung beantragt werden. So ist die MWST erst fällig, nachdem Sie die Zahlung des Kunden erhalten haben.
 
-::: tip
-Beispiel: Wie im Beispiel oben stellen Sie dem Kunden eine Rechnung über CHF 1’077 aus (Rechnungsbetrag plus 8.1% MWST). Die MWST im Wert von CHF 77 bezahlen Sie der Steuerverwaltung erst in dem Quartal, in dem der Kunde die Rechnung bezahlt hat. Zahlt der Kunde die Rechnung erst im Juli, müssen Sie die MWST erst nach Ablauf dieses Quartals abliefern, d.h. Anfang Oktober.
-:::
+!!! tip
+    Beispiel: Wie im Beispiel oben stellen Sie dem Kunden eine Rechnung über CHF 1’077 aus (Rechnungsbetrag plus 8.1% MWST). Die MWST im Wert von CHF 77 bezahlen Sie der Steuerverwaltung erst in dem Quartal, in dem der Kunde die Rechnung bezahlt hat. Zahlt der Kunde die Rechnung erst im Juli, müssen Sie die MWST erst nach Ablauf dieses Quartals abliefern, d.h. Anfang Oktober.
+
 
 ## Steuersätze
 

@@ -1,5 +1,6 @@
 {
   "interfaceFontFamily": "Ubuntu Mono",
   "textFontFamily": "Ubuntu Mono",
-  "monospaceFontFamily": "Ubuntu Mono"
+  "monospaceFontFamily": "Ubuntu Mono",
+  "showRibbon": true
 }

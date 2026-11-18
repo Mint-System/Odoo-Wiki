@@ -48,9 +48,9 @@ Rufen Sie die Liste der verfügbaren Apps auf. Suchen Sie die App, die Sie deins
 
 ![](attachments/Apps%20App%20deinstallieren.png)
 
-::: warning
-Je nach Abhängigkeit und Definition der App, werden Daten gelöscht oder die Odoo-Installation in einen fehlerhaften Zustand versetzt.
-:::
+!!! warning
+    Je nach Abhängigkeit und Definition der App, werden Daten gelöscht oder die Odoo-Installation in einen fehlerhaften Zustand versetzt.
+
 
 ### App entfernen
 

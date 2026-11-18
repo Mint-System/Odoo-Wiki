@@ -42,6 +42,6 @@ Wenn das Angebot bestätigt wird, werden Dienstleistungen mit Aufgaben im verlin
 
 ![Sale Order Project Key Confirmation](attachments/Sale%20Order%20Project%20Key%20Confirmation.gif)
 
-::: tip
-Die zugeordnete Kostenstelle beim Bestätigen vom Angebot auf das Projekt übertragen.
-:::
+!!! tip
+    Die zugeordnete Kostenstelle beim Bestätigen vom Angebot auf das Projekt übertragen.
+

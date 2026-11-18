@@ -42,9 +42,9 @@ Es gibt verschiedene Szenarien wo die Auto-Upgrade Modules"-Aktion nicht funktio
 
 Rufen Sie die Aktion _Apps > Auto-Upgrade Modules_ auf.
 
-::: warning
-Die erste Ausführung der Aktion aktualisiert alle Module. Odoo berechnet einen Fingerabdruck aller installierten Module. Wenn dieser noch nicht existiert oder sich verändert hat, wird das Modul aktualisiert.
-:::
+!!! warning
+    Die erste Ausführung der Aktion aktualisiert alle Module. Odoo berechnet einen Fingerabdruck aller installierten Module. Wenn dieser noch nicht existiert oder sich verändert hat, wird das Modul aktualisiert.
+
 
 ## Entwicklung
 
@@ -52,6 +52,6 @@ Die erste Ausführung der Aktion aktualisiert alle Module. Odoo berechnet einen 
 
 Zeigen Sie _Einstellungen > Technisch > Systemparameter_ an. Zeigen Sie den Eintrag mit Schlüssel `module_auto_update.installed_checksums` an.
 
-::: tip
-Wenn Sie den Eintrag entfernen, wird Odoo wieder eine Upgrade aller Module durchführen.
-:::
+!!! tip
+    Wenn Sie den Eintrag entfernen, wird Odoo wieder eine Upgrade aller Module durchführen.
+

@@ -21,10 +21,10 @@ versions:
 Technischer Name: {{ $frontmatter.name }}\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
-::: warning
-Diese App ist veraltet. Es wird empfohlen die App [Mail Unsubscribe](Mail%20Unsubscribe) zu verwenden.
-#DEPRECATED
-:::
+!!! warning
+    Diese App ist veraltet. Es wird empfohlen die App [Mail Unsubscribe](Mail%20Unsubscribe) zu verwenden.
+    #DEPRECATED
+
 
 ## Verwendung
 

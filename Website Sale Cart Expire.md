@@ -31,6 +31,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Navigieren Sie nach _Einstellungen > Website > E-Mail & Marketing_. Geben Sie bei _Expire Carts_ die Anzahl Stunden ein.
 
-::: tip
-Standardwert für die automatische Versendung des Erinnerungsmails für verlassene Warenkörbe ist 10 Stunden.
-:::
+!!! tip
+    Standardwert für die automatische Versendung des Erinnerungsmails für verlassene Warenkörbe ist 10 Stunden.
+

@@ -38,6 +38,6 @@ Navigieren Sie nach _Zebroo Sync > Connections > SQL_ und erstellen Sie einen ne
 
 Öffnen Sie eine Pipeline via _Zebroo Sync_ und fügen Sie einen Worker hinzu. Wählen Sie _SQL Grabber_ als _Type_ aus. Anschliessend wählen Sie die SQL-Verbindung in _Connection_ aus. Im Feld _SQL_ fügen Sie die SQL-Abfrage hinzu. Erstellen Sie unter _Domain_ einen Eintrag mit diesem Wert `[('write_date','>=',last_execution_date)]`.
 
-::: tip
-Der SQL-Tabellenname der Odoo-Datenmodelle ist gleich dem Name des Datenmodells ohne Punkte: `SELECT * FROM job_portal_joboffer`
-:::
+!!! tip
+    Der SQL-Tabellenname der Odoo-Datenmodelle ist gleich dem Name des Datenmodells ohne Punkte: `SELECT * FROM job_portal_joboffer`
+

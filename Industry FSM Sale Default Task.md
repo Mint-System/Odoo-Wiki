@@ -27,10 +27,10 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Mit dieser Erweiterung wird beim Erstellen, Bestätigen und Aktualisieren von Auftragspositionen in Verkaufsaufsträgen geprüft, ob es Auftragspositionen ohne Aufgaben gibt. Die Aufgabe der ersten Auftragsposition mit einer Aufgabe, wird als Standardwert für die Auftragspositionen ohne Aufgaben übernommen.
 
-::: tip
-Wenn eine Auftragsposition mit einer Aussendienst-Aufgabe verknüpft ist, erscheint das Produkt in der Warenkorb-Funktion der Aussendienst-Aufgabe.
-:::
+!!! tip
+    Wenn eine Auftragsposition mit einer Aussendienst-Aufgabe verknüpft ist, erscheint das Produkt in der Warenkorb-Funktion der Aussendienst-Aufgabe.
 
-::: warning
-Es werden nur Auftragspositionen mit lagerfähigen Produkten oder Verbrauchsartikel verknüpft.
-:::
+
+!!! warning
+    Es werden nur Auftragspositionen mit lagerfähigen Produkten oder Verbrauchsartikel verknüpft.
+

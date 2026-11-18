@@ -57,6 +57,6 @@ Navigieren Sie nach _Meilisearch > Indexes_ und wählen Sie einen Index aus. Kli
 
 Navigieren Sie nach _Meilisearch > Indexes_ und wählen Sie einen Index aus. Klicken Sie auf den Smart-Button _Index Documents_. Öffnen oder markieren Sie ein Dokument und wählen Sie _Aktionen > Check Index Document_.
 
-::: tip
-Wenn das Dokument aus dem Index abgerufen werden konnte, wechselt der Index-Status des Dokuments auf _Indexed_. In der _Index-Response_ wird das Dokument aus dem Index gespeichert. Dieses sollte mit dem _Index Document_ von Odoo übereinstimmen.
-:::
+!!! tip
+    Wenn das Dokument aus dem Index abgerufen werden konnte, wechselt der Index-Status des Dokuments auf _Indexed_. In der _Index-Response_ wird das Dokument aus dem Index gespeichert. Dieses sollte mit dem _Index Document_ von Odoo übereinstimmen.
+

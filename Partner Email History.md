@@ -37,6 +37,6 @@ Alle Nachrichten, die Odoo versendet, werden in einer Datenbank-Tabelle gespeich
 
 Öffnen Sie einen Kontakt unter _Kontakte_. Klicken Sie auf den Smart-Button _E-Mails_.
 
-::: warning
-Standardmässig löscht Odoo versendete E-Mails um Speicherplatz zu sparen. Diese Liste ist normalerweise leer.
-:::
+!!! warning
+    Standardmässig löscht Odoo versendete E-Mails um Speicherplatz zu sparen. Diese Liste ist normalerweise leer.
+

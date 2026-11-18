@@ -20,9 +20,9 @@ Website: <https://www.odoo.com/de_DE/app/planning>
 
 Navigieren Sie nach _Planung > Konfiguration > Schichtvorlagen_. Erstellen Sie einen neuen Eintrag.
 
-::: tip
-Verwenden Sie Rollen aus dem Projektmanagement als Bezeichnung für die Schichtvorlage.
-:::
+!!! tip
+    Verwenden Sie Rollen aus dem Projektmanagement als Bezeichnung für die Schichtvorlage.
+
 
 ## Verwendung
 

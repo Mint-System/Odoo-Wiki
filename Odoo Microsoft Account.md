@@ -15,10 +15,10 @@ prev: ./settings-oauth
 Technischer Name: `odoo_microsoft_account`\
 Odoo App Store: <https://apps.odoo.com/apps/modules/16.0/odoo_microsoft_account/>
 
-::: warning
-Diese App ist veraltet. Es wird empfohlen die App [Auth OIDC](Auth%20OIDC.md) zu verwenden.
-#DEPRECATED
-:::
+!!! warning
+    Diese App ist veraltet. Es wird empfohlen die App [Auth OIDC](Auth%20OIDC.md) zu verwenden.
+    #DEPRECATED
+
 
 ## Konfiguration
 
@@ -70,6 +70,6 @@ Zeigen Sie die Odoo-Loginseite an und wählen Sie _Login in with Microsoft_. Sie
 
 Sie werden wieder zu Odoo umgeleitet und eingeloggt.
 
-::: warning
-Wenn ihr Odoo Benutzer im Schritt [Microsoft-Account anlegen](#Microsoft-Account%20anlegen) nicht erstellt wurde, erscheint beim ersten Login der Fehler _Access Denied_. Odoo hat ihren Benutzer erstellt und Sie können sich einloggen, wenn Sie erneut auf _Log in with Microsoft_ klicken.
-:::
+!!! warning
+    Wenn ihr Odoo Benutzer im Schritt [Microsoft-Account anlegen](#Microsoft-Account%20anlegen) nicht erstellt wurde, erscheint beim ersten Login der Fehler _Access Denied_. Odoo hat ihren Benutzer erstellt und Sie können sich einloggen, wenn Sie erneut auf _Log in with Microsoft_ klicken.
+

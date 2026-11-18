@@ -90,9 +90,9 @@ Falls man beim Lieferanten bezüglich einem fehlenden Angebot nachfassen will, v
 
 Wenn der Lieferant an die Erfüllung des Beschaffungsauftrags erinnert werden soll, dann verwendet man hierzu die Aktion _Send Reminder_. Damit wird vollautomatisch eine e-Mail an den Lieferanten mit vordefiniertem Text und dem Beschaffungsauftrag als Beilage versendet.
 
-::: tip
-Die Aktion "Send Reminder" wird mit dem Aktivieren der Option _Ask confirmation_ zum festgelegten Zeitpunkt automatisch ausgeführt.
-:::
+!!! tip
+    Die Aktion "Send Reminder" wird mit dem Aktivieren der Option _Ask confirmation_ zum festgelegten Zeitpunkt automatisch ausgeführt.
+
 
 ## Lieferantenbewertung
 
@@ -107,9 +107,9 @@ Falls in der Bestellung die Erwartete Ankunft geändert wird, dann wird im Waren
 
 Zu früh geliefert gilt als pünktlich geliefert.
 
-::: tip
-Die App *Lager* muss installiert sein.
-:::
+!!! tip
+    Die App *Lager* muss installiert sein.
+
 
 ## Portal
 
@@ -122,9 +122,9 @@ Die Portal-Ansicht einer Bestellung können Sie wie folgt anzeigen:
 - Neues privates Browser-Fenster öffnen
 - Link in Adressleiste einfügen
 
-::: tip
-In einem privaten Browser werden die Cookies nicht geladen und somit wird man nicht automatisch bei Odoo angemeldet.
-:::
+!!! tip
+    In einem privaten Browser werden die Cookies nicht geladen und somit wird man nicht automatisch bei Odoo angemeldet.
+
 
 ## Adressen
 

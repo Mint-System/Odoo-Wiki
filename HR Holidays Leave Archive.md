@@ -28,12 +28,12 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Ist diese Erweiterung installiert können Abwesenheiten archiviert werden. Navigieren Sie nach _Abwesenheiten > Genehmigungen > Abwesenheiten_. Filtern Sie die Listen nach Einträgen und markieren Sie jene, die archivieren möchten. Wählen Sie _Aktionen > Archiv_.
 
-::: warning
+!!! warning
 
-<!--Im Archivierungsvorgang wird der Status von Abwesenheiten auf *Abgebrochen* gesetzt.-->
+    <!--Im Archivierungsvorgang wird der Status von Abwesenheiten auf *Abgebrochen* gesetzt.-->
 
-Archivierte Abwesenheiten werden weiterhin in den Urlaubsanspruch eingerechnet.
-:::
+    Archivierte Abwesenheiten werden weiterhin in den Urlaubsanspruch eingerechnet.
+
 
 ### Archivierte Abwesenheiten anzeigen
 
@@ -43,9 +43,9 @@ Zeigen Sie die Listenansicht _Abwesenheiten > Genehmigungen > Abwesenheiten_ an 
 
 Ist diese Erweiterung installiert können Urlaubsansprüche archiviert werden. Navigieren Sie nach _Abwesenheiten > Genehmigungen > Urlaubsansprüche_. Filtern Sie die Listen nach Einträgen und markieren Sie jene, die archivieren möchten. Wählen Sie _Aktionen > Archiv_.
 
-::: warning
-Im Archivierungsvorgang werden alle verknüpften Abwesenheiten ebenfalls archiviert.
-:::
+!!! warning
+    Im Archivierungsvorgang werden alle verknüpften Abwesenheiten ebenfalls archiviert.
+
 
 ### Archivierte Urlaubsansprüche anzeigen
 

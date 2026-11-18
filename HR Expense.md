@@ -45,17 +45,17 @@ Zeigen Sie _Spesenabrechnung > Konfiguration > Spesenkategorien_ an. Erstellen S
 
 Damit ein bestehendes Produkt in der Auswahl der Spesenprodukte erscheint, muss man auf dem Produkt _Verkauf > Produkte > Produkte_ die Option _Als Ausgabe verwendbar_ aktivieren.
 
-::: warning
-Die Option ist standardmässig nicht sichtbar und muss über ein entsprechendes [Snippet](Development%20Snippets.md) eingeblendet werden.
-:::
+!!! warning
+    Die Option ist standardmässig nicht sichtbar und muss über ein entsprechendes [Snippet](Development%20Snippets.md) eingeblendet werden.
+
 
 ### Spese zur Weiterverrechnung markieren
 
 Zeigen Sie ein Spesenprodukt unter _Verkauf > Produkte > Produkte_ an. Wählen Sie eine Option im Feld _Auslagen weiterberechnen_ aus. Damit wird festgelegt zu welchem Preis die Auslage weiter verrechnet werden kann.
 
-::: tip
-Wählen Sie die Option _Nach Aufwand_, wenn der Verkaufspreis gleich der Kosten ist.
-:::
+!!! tip
+    Wählen Sie die Option _Nach Aufwand_, wenn der Verkaufspreis gleich der Kosten ist.
+
 
 ### Genehmigende Person festlegen
 
@@ -105,23 +105,23 @@ Bis <Badge type="info" text="Odoo15" vertical="middle" /> : Navigieren Sie nach 
 
 Ab <Badge type="info" text="Odoo15" vertical="middle" /> : Navigieren Sie nach _Spesenabrechnung > Auslagenberichte> Zu buchende Berichte_. Wählen Sie _Buchungen Quittieren_.
 
-::: tip
-Wurden die Spesen vom Unternehmen bezahlt, wechselt die Abrechnung direkt in den Status _Bezahlt_.
-:::
+!!! tip
+    Wurden die Spesen vom Unternehmen bezahlt, wechselt die Abrechnung direkt in den Status _Bezahlt_.
 
-::: tip
-Wurden das Spesenprodukt zur Weiterverrechnung markiert, wird das Spesenprodukt mit der gelieferten Menge beim Buchen der Abrechnung auf dem verlinkten Verkaufsauftrag hinzugefügt.
 
-![](attachments/Aufwand%20Verkaufsauftrags.png)
+!!! tip
+    Wurden das Spesenprodukt zur Weiterverrechnung markiert, wird das Spesenprodukt mit der gelieferten Menge beim Buchen der Abrechnung auf dem verlinkten Verkaufsauftrag hinzugefügt.
 
-Der Verkaufsauftrag ist mir der Spesenabrechnung verlinkt.
+    ![](attachments/Aufwand%20Verkaufsauftrags.png)
 
-![](attachments/Aufwand%20Smart-Link.png)
-:::
+    Der Verkaufsauftrag ist mir der Spesenabrechnung verlinkt.
 
-::: warning
-Der Mitarbeitende braucht eine private Adresse, damit die Spesenabrechung erstellt werden kann: [Private Adresse hinterlegen](HR.md#Private%20Adresse%20hinterlegen).
-:::
+    ![](attachments/Aufwand%20Smart-Link.png)
+
+
+!!! warning
+    Der Mitarbeitende braucht eine private Adresse, damit die Spesenabrechung erstellt werden kann: [Private Adresse hinterlegen](HR.md#Private%20Adresse%20hinterlegen).
+
 
 ### Spesenabrechnung auszahlen
 

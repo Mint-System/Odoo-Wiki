@@ -24,9 +24,9 @@ Bei jedem Schritt der Datenpflege soll bewusst entschieden werden, wie stark auf
 - Lässt sich beispielsweise eine Beschaffungsstrategie genügend präzise in verfügbaren Regelvorlagen beschreiben?
 - Wird ein scheinbar einfacher Vorgang oft aufgrund von Betriebskenntnissen angepasst?
 
-::: tip
-Es lohnt sich, bei der Beantwortung dieser Fragen den aktuellen Zustand oder eine erreichbare Verbesserung zu beschreiben. Daten anhand eines Ideals zu pflegen kann zu Mehraufwand und Unordnung führen.
-:::
+!!! tip
+    Es lohnt sich, bei der Beantwortung dieser Fragen den aktuellen Zustand oder eine erreichbare Verbesserung zu beschreiben. Daten anhand eines Ideals zu pflegen kann zu Mehraufwand und Unordnung führen.
+
 
 ### Beispiele
 
@@ -75,6 +75,5 @@ Ein Klick auf _Bestellen_ erzeugt bei
 - Produkten mit Route _Fertigung_ einen Fertigungsauftrag.
 - Produkten mit Route _Einkaufen_ eine Offertanfrage.
 
-::: tip
-Wird ein Produkt durch Fertigung aufgefüllt, erscheinen die dafür benötigten Produkte erst danach in _Auffüllung_. Die Auflistung im Zweifelsfall neu laden.
-:::
+!!! tip
+    Wird ein Produkt durch Fertigung aufgefüllt, erscheinen die dafür benötigten Produkte erst danach in _Auffüllung_. Die Auflistung im Zweifelsfall neu laden.

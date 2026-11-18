@@ -14,9 +14,9 @@ partner: Odoo S.A.
 
 Technischer Name: `partner_commission`
 
-::: tip
-Reseller und Partner werden in diesem HowTo synonym verwendet. Komissionen sind als Bestellungen bei Resellern zu verstehen.
-:::
+!!! tip
+    Reseller und Partner werden in diesem HowTo synonym verwendet. Komissionen sind als Bestellungen bei Resellern zu verstehen.
+
 
 ## Konfiguration
 
@@ -24,9 +24,9 @@ Reseller und Partner werden in diesem HowTo synonym verwendet. Komissionen sind 
 
 Navigieren Sie nach _CRM > Konfiguration > Provisionspläne_ und erstellen Sie einen neuen Eintrag. Tragen Sie einen passenden Namen ein, beispielsweise _20%_ und wählen im Tab _Regeln_ die Produktkategorien, Produkte, Angebotsvorlagen oder Preislisten aus, für welche der Provisionsplan aktiv sein soll. Im Feld _Wechselkurs_ definieren Sie den Ansatz der Provision.
 
-::: tip
-Über das Feld _Purchase Default Product_ können Sie das Produkt auswählen, welches auf Bestellung der Provision für den Reseller erscheinen soll.
-:::
+!!! tip
+    Über das Feld _Purchase Default Product_ können Sie das Produkt auswählen, welches auf Bestellung der Provision für den Reseller erscheinen soll.
+
 
 ### Partnerlevels definieren
 
@@ -84,6 +84,6 @@ Zeigen Sie die Komissions-Bestellungen unter _Einkauf_ mit dem Filter _Einkaufst
 
 Sobald der Reseller eine Rechnung zu den Komissions-Bestellungen schickt, können Sie die [Lieferantenrechnung mit der Bestellung verknüpfen](Invoicing.md#Lieferantenrechnung%20mit%20Bestellung%20verknüpfen) und die Rechnung bezahlen.
 
-::: tip
-Eine automatische Bezahlung der Reseller ist möglich, wenn Sie das Bankkonto auf dem Kontakt hinterlegen.
-:::
+!!! tip
+    Eine automatische Bezahlung der Reseller ist möglich, wenn Sie das Bankkonto auf dem Kontakt hinterlegen.
+

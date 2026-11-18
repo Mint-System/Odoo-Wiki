@@ -29,9 +29,9 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Mit dier Erweiterung können Sie die Beträge einer Rechnung in eine andere Währung umrechnen lassen. Zeigen Sie eine Rechnung an und wählen Sie im Feld _Währung_ eine andere Währung aus. Odoo zeigt im Feld _Umrechungsfaktor_ den Kurs an. Klicken Sie auf das Aktualisieren-Icon um die Beträge in die Währung umzurechen.
 
-::: tip
-Sie können den Umrechnungsfaktor manuell überschreiben.
-:::
+!!! tip
+    Sie können den Umrechnungsfaktor manuell überschreiben.
+
 
 ### Umrechnung in andere Währung zurücksetzen
 

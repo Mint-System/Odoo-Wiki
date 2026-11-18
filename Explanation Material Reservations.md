@@ -12,9 +12,9 @@ Das Beispiel der Fertigung von [Rahmen unbeschichtet](Explanation%20Production%2
 
 ![Theorie Material Reservierung](attachments/Explanation%20Material%20Reservierung.svg)
 
-::: tip
-Die Fertigungsaufträge der zweiten Stufe könnten gestartet werden, wenn das benötigte Produkt Fettentferner nicht schon für den Auftrag der ersten Stufe reserviert wäre.
-:::
+!!! tip
+    Die Fertigungsaufträge der zweiten Stufe könnten gestartet werden, wenn das benötigte Produkt Fettentferner nicht schon für den Auftrag der ersten Stufe reserviert wäre.
+
 
 Mit der Funktion _Reservierung Abbrechen_ wird die Zuordnung des Materials für den Auftrag der Stufe 1 aufgelöst. Anschliessend kann das Material mit der Funktion _Verüfgbarkeit prüfen_ für jeden einzelnen Auftrag der Stufe 2 reserviert werden.
 

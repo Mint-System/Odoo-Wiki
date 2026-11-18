@@ -27,9 +27,9 @@ Geben Sie die QR-Daten mithilfe eines Scanners in das Feld _Scan of the invoice_
 
 ![](attachments/Swiss%20QR-ESR%20Scan%20Wizard%20Scan.png)
 
-::: tip
-QR-Daten aus QR-Rechnungen beginnen immer mit der Zeile _SPC_ (Swiss Payments Code).
-:::
+!!! tip
+    QR-Daten aus QR-Rechnungen beginnen immer mit der Zeile _SPC_ (Swiss Payments Code).
+
 
 Ist der Kontakt noch nicht erfasst, können Sie diesen direkt erstellen. Im selben Dialog wählen Sie das Aufwandskonto aus.
 
@@ -49,11 +49,11 @@ Konnte die Rechnung erfolgreich importiert werden, werden Sie auf die Formularan
 
 ![](attachments/Swiss%20QR-ESR%20Scan%20Imported%20Invoice.png)
 
-::: tip
-Die Standardsteuern der Rechnungszeile wird von der [Standard-Steuer auf dem Konto](Accounting%20Tax.md#Standard-Steuer%20auf%20Konto%20hinterlegen) übernommen.
+!!! tip
+    Die Standardsteuern der Rechnungszeile wird von der [Standard-Steuer auf dem Konto](Accounting%20Tax.md#Standard-Steuer%20auf%20Konto%20hinterlegen) übernommen.
 
-![](attachments/Swiss%20QR-ESR%20Scan%20Standard%20Steuern.png)
-:::
+    ![](attachments/Swiss%20QR-ESR%20Scan%20Standard%20Steuern.png)
+
 
 Starten Sie den nächsten Scan-Vorgang mit _Scan Next QR Bill_.
 
@@ -67,6 +67,6 @@ Bearbeiten Sie den Kontakt und navigieren Sie zum Tab _Rechnungsstellung_. Auf d
 
 ![](attachments/Swiss%20QR-ESR%20Scan%20Buchungen.png)
 
-::: tip
-Damit die Standardkonten für die Buchhaltung sichtbar sind, muss der Odoo-Benutzer über die Berechtigung _Buchhaltungsfunktionen anzeigen - schreibgeschützt_ verfügen.
-:::
+!!! tip
+    Damit die Standardkonten für die Buchhaltung sichtbar sind, muss der Odoo-Benutzer über die Berechtigung _Buchhaltungsfunktionen anzeigen - schreibgeschützt_ verfügen.
+

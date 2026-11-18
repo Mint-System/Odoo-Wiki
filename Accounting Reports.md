@@ -27,17 +27,17 @@ Wenn Sie das Soll, Haben und Saldo für eine bestimmte Periode pro Konto ansehen
 
 Um den Bericht zu generieren Wählen Sie _Speichern_. Geben Sie im Dialog das Format und den Dateinamen an.
 
-::: warning
-Ein Jahresauszug einer Buchhaltung kann mehrere hundert Seiten produzieren. Beim Erstellen von PDF braucht Odoo mehr Zeit als beim Erstellen von einem XLSX-Dokument.
-:::
+!!! warning
+    Ein Jahresauszug einer Buchhaltung kann mehrere hundert Seiten produzieren. Beim Erstellen von PDF braucht Odoo mehr Zeit als beim Erstellen von einem XLSX-Dokument.
+
 
 ### Kontenblatt erstellen
 
 Öffnen Sie _Buchhaltung > Berichtswesen > Hauptbuch_. Geben Sie in der Suchmaske optional ein Kontonummer ein und filtern Sie die Buchungszeilen nach Geschäftsjahr. Wählen Sie in der Filterleiste _Alle auffalten_. Mit der Aktion _PDF_ oder _XLSX_ können Sie den Bericht als entsprechende Datei speichern.
 
-::: warning
-Die Erstellung der PDF-Datei kann bei umfangreichen Kontenblätter lange dauern. Als Alternative wird empfohlen den Bericht als XLSX-Datei zu speichern und anschliessend als PDF-Datei abzuspeichern.
-:::
+!!! warning
+    Die Erstellung der PDF-Datei kann bei umfangreichen Kontenblätter lange dauern. Als Alternative wird empfohlen den Bericht als XLSX-Datei zu speichern und anschliessend als PDF-Datei abzuspeichern.
+
 
 ### Kumulierte Buchungszeilen anzeigen
 
@@ -45,9 +45,9 @@ Die Erstellung der PDF-Datei kann bei umfangreichen Kontenblätter lange dauern.
 
 ![](attachments/Buchhaltung%20Berichte%20Saldenliste.png)
 
-::: tip
-Das Feld _Cumulated Balance_ kumuliert fortlaufend das Saldo. Sie können das Feld über das Kontext-Menü ein- und ausblenden.
-:::
+!!! tip
+    Das Feld _Cumulated Balance_ kumuliert fortlaufend das Saldo. Sie können das Feld über das Kontext-Menü ein- und ausblenden.
+
 
 ### Buchungszeilen auswerten
 
@@ -81,9 +81,9 @@ Eine Buchungszeile enthählt immer noch nur ein Konto. Der Buchungssatz kann meh
 
 Klicken Sie auf _Buchhaltung > Berichtswesen > Steuerbericht_.
 
-:::tip
-Der Steuerbericht wird in regelmässigen Abständen generiert. Die Einstellung dazu finden Sie unter _Einstellungen > Buchhaltung > Steuern > Periodizität der Steuererklärung_.
-:::
+!!! tip
+    Der Steuerbericht wird in regelmässigen Abständen generiert. Die Einstellung dazu finden Sie unter _Einstellungen > Buchhaltung > Steuern > Periodizität der Steuererklärung_.
+
 
 ### Steuerbericht nach Steuersatz anzeigen
 
@@ -150,9 +150,9 @@ Wenn Sie den [Steuerbericht anzeigen](#Steuerbericht%20anzeigen) kann die folgen
 
 Wenn Sie zu den betroffenen Zeilen navigieren sehen Sie ein Warnung-Icon. Weitere Details zur Unstimmigkeit werden nicht angezeigt. Sie können über das Kontext-Menü die Buchungszeilen anzeigen.
 
-::: tip
-Technisch werden die Berichtzeilen von der Methode `_check_line_consistency` geprüft und markiert. Diese Methode prüft ob der berechnete Steuerbetrag mit dem Bruttobetrag übereinstimmt.
-:::
+!!! tip
+    Technisch werden die Berichtzeilen von der Methode `_check_line_consistency` geprüft und markiert. Diese Methode prüft ob der berechnete Steuerbetrag mit dem Bruttobetrag übereinstimmt.
+
 
 ## Mahnwesen
 
@@ -162,9 +162,9 @@ Navigieren Sie nach _Buchhaltung > Konfiguration >Mahnstufen_ und erstellen Sie 
 
 Mit der Eintage der Anzahl Tage bei _Nach \_\_ bei fällig, tun Sie folgendes:_ wird die entsprechende Mahnstufe gemäss Fälligkeit der offenen Rechnungen wirksam.
 
-::: tip
-Die geplante Aktion _Follow-up des Kontoberichts; Follow-up durchführen_ löst die Prüfung der Mahnstufen aus. Sie wird täglich ausgeführt.
-:::
+!!! tip
+    Die geplante Aktion _Follow-up des Kontoberichts; Follow-up durchführen_ löst die Prüfung der Mahnstufen aus. Sie wird täglich ausgeführt.
+
 
 ### Mahnberichte anzeigen
 
@@ -172,9 +172,9 @@ Sie finden eine Aufstellung der Mahnungen via _Buchhaltung > Kunden > Mahnberich
 
 ![](attachments/Buchhaltung%20Berichte%20Mahnberichte.png)
 
-::: warning
-Wenn Sie einen Mahbericht öffnen, befinden Sie sich technisch auf einem Kontakt-Eintrag. Nachrichten, die mit der Ansicht Mahnbericht versendet werden, werdem auf dem Kontakt-Eintrag registriert. Prüfen Sie vor dem Versand der Nachricht, ob die Abonnenten auf dem Kontakt-Eintrag korrekt sind.
-:::
+!!! warning
+    Wenn Sie einen Mahbericht öffnen, befinden Sie sich technisch auf einem Kontakt-Eintrag. Nachrichten, die mit der Ansicht Mahnbericht versendet werden, werdem auf dem Kontakt-Eintrag registriert. Prüfen Sie vor dem Versand der Nachricht, ob die Abonnenten auf dem Kontakt-Eintrag korrekt sind.
+
 
 ## Forderungen
 
@@ -184,9 +184,9 @@ Mit dem Bericht _Buchhaltung > Berichtswesen > Überfällige Forderungen_ könne
 
 ![](attachments/Buchhaltung%20Berichte%20Forderunen.png)
 
-::: tip
-Mit dem Datumsfilter können Sie die Forderungen zu einem bestimmten Zeitpunkt, beispielsweise Ende letztes Geschäftsjahr, anzeigen lassen.
-:::
+!!! tip
+    Mit dem Datumsfilter können Sie die Forderungen zu einem bestimmten Zeitpunkt, beispielsweise Ende letztes Geschäftsjahr, anzeigen lassen.
+
 
 ## Verbindlichkeiten
 
@@ -194,9 +194,9 @@ Mit dem Datumsfilter können Sie die Forderungen zu einem bestimmten Zeitpunkt, 
 
 Mit dem Bericht _Buchhaltung > Berichtswesen > Überfällige Verbindlichkeit_ können Sie für einen oder mehrere Lieferanten die offenen Kreditoren anzeigen lassen.
 
-::: tip
-Mit dem Datumsfilter können Sie die Verbindlichkeiten zu einem bestimmten Zeitpunkt, beispielsweise Ende letztes Geschäftsjahr, anzeigen lassen.
-:::
+!!! tip
+    Mit dem Datumsfilter können Sie die Verbindlichkeiten zu einem bestimmten Zeitpunkt, beispielsweise Ende letztes Geschäftsjahr, anzeigen lassen.
+
 
 ## Kontoauszug
 

@@ -36,6 +36,6 @@ Die Ansicht im Backend:
 
 ![](attachments/HR%20Recruitment%20Firstname%20Backend.png)
 
-::: tip
-Die neuen Felder können Sie in der E-Mail-Vorlage mit dem Platzhalter `${object.firstname}` und `${object.lastname}` verwenden.
-:::
+!!! tip
+    Die neuen Felder können Sie in der E-Mail-Vorlage mit dem Platzhalter `${object.firstname}` und `${object.lastname}` verwenden.
+

@@ -141,7 +141,7 @@ Zu schreibende Daten:
 - **Bewertungstyp**: Python Ausdruck
 - **Wert**: `record.contract_id.x_struct_id`
 
-::: warning
-Das Feld `x_struct_id` wurde mithilfe eines [Snippets](Development%20Snippets.md) erstellt.
-:::
+!!! warning
+    Das Feld `x_struct_id` wurde mithilfe eines [Snippets](Development%20Snippets.md) erstellt.
+
 Gehaltsabrechnung

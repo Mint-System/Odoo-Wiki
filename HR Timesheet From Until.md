@@ -29,16 +29,16 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Mit dieser Erweiterung wir die Dauer auf einem Stundenzettel anhand der End- und Startzeit berechnet. Navigieren Sie nach _Zeiterfassung_ und wählen Sie die Listenansicht aus. Erstellen Sie einen neuen Eintrag und geben Sie Start- und Endzeit in den entsprechenden Felder ein.
 
-::: tip
-Für eine schnelle Eingabe der Uhrzeit, können Sie eine Ganzzahl oder Kommazahl in eine Uhrzeit umwandeln lassen:
+!!! tip
+    Für eine schnelle Eingabe der Uhrzeit, können Sie eine Ganzzahl oder Kommazahl in eine Uhrzeit umwandeln lassen:
 
-Eingabe `815` ergibt `08:15`.\
-Eingabe `1045` ergibt `10:45`.\
-Eingabe `0930` ergibt `09:30`.\
-Eingabe `1170` ergibt `12:10`.\
-Eingabe `8.25` ergibt `08:15`.\
-Eingabe `8.5`ergibt `08:30`.\
-Eingabe `8.75` ergibt `08:45`.
-:::
+    Eingabe `815` ergibt `08:15`.\
+    Eingabe `1045` ergibt `10:45`.\
+    Eingabe `0930` ergibt `09:30`.\
+    Eingabe `1170` ergibt `12:10`.\
+    Eingabe `8.25` ergibt `08:15`.\
+    Eingabe `8.5`ergibt `08:30`.\
+    Eingabe `8.75` ergibt `08:45`.
+
 
 ![HR Timesheet From Until](attachments/HR%20Timesheet%20From%20Until.gif)

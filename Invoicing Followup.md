@@ -80,9 +80,9 @@ Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />.
 
 Wenn Sie den Mahnbericht geöffnet haben und auf den Text klicken, können Sie diesen direkt bearbeiten. Schliessen Sie den Vorgang mit _Speichern_ ab.
 
-::: warning
-Beim Bearbeiten des Texts gehen die Zeilenumbrüche verloren.
-:::
+!!! warning
+    Beim Bearbeiten des Texts gehen die Zeilenumbrüche verloren.
+
 
 ### Rechnung von Mahnung auschliessen
 

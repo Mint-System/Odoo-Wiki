@@ -107,9 +107,9 @@ Beim Auswahl der Preisliste im Angebot wird anschliessend der Preis mit Rabatt b
 
 Wenn Sie auf eine bestehenden Preisliste in einem bestimmten Zeitraum einen anderen Preis haben wollen, navigieren Sie nach _Verkauf > Produkte > Preisregeln_ und erstellen einen neuen Eintrag. Wählen Sie die bestehende Preisliste aus, konfigurieren Sie das Produkt und den Preis und legen Sie das Start- und Enddatum der Periode fest.
 
-::: tip
-Preisregeln mit einem aktiven Start- und Enddatum übersteuern Preisregeln ohne Datum.
-:::
+!!! tip
+    Preisregeln mit einem aktiven Start- und Enddatum übersteuern Preisregeln ohne Datum.
+
 
 ### Preisliste mit Rabatt für eine bestimmte Periode einrichten
 

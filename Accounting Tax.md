@@ -64,9 +64,9 @@ Für jeden Steuersatz können Sie ein Mehrwertsteuer-Konto festlegen. Öffnen Si
 
 ![](attachments/Buchhaltung%20Mehrwertsteuer%20Abrechnungskonto.png)
 
-::: tip
-Für Steuersätze von eingehenden Rechnungen verwenden Sie das Vorsteuerkonto 1170 oder 1171 und für ausgehende Rechnungen das Konto 2200.
-:::
+!!! tip
+    Für Steuersätze von eingehenden Rechnungen verwenden Sie das Vorsteuerkonto 1170 oder 1171 und für ausgehende Rechnungen das Konto 2200.
+
 
 ### Steuerperiode festlegen
 
@@ -84,9 +84,9 @@ Klicken Sie auf _Einstellungen > Buchhaltung > Steuern > Konfigurieren der Steue
 | MwSt. 7,7% | 2201 Zu zahlende MwSt. | 2201 Zu zahlende MwSt. |
 | MwSt. 100% | 2201 Zu zahlende MwSt. | 2201 Zu zahlende MwSt. |
 
-::: tip
-Normalerweise werden in den Spalten _Steuer aktuelles Konto (bezahlen)_ und _Steuer aktuelles Konto (empfangen)_ das Konto _2201 Abrechnungskonto MWST_ hinterlegt.
-:::
+!!! tip
+    Normalerweise werden in den Spalten _Steuer aktuelles Konto (bezahlen)_ und _Steuer aktuelles Konto (empfangen)_ das Konto _2201 Abrechnungskonto MWST_ hinterlegt.
+
 
 ### Standard-Steuer auf Konto hinterlegen
 
@@ -104,9 +104,9 @@ Navigieren Sie nach _Einstellungen > Buchhaltung > Steuern_ und legen Sie im Fel
 
 Navigieren Sie nach _Einstellungen > Buchhaltung > Steuern_ und aktivieren Sie die Option _MwSt-Identifikationsnr. überprüfen_.
 
-::: tip
-Um die Funktion zu testen, finden Sie hier Beispieldaten <https://viesapi.eu/test-vies-api/>.
-:::
+!!! tip
+    Um die Funktion zu testen, finden Sie hier Beispieldaten <https://viesapi.eu/test-vies-api/>.
+
 
 ### Steuerzurodnung anzeigen
 
@@ -115,9 +115,9 @@ Navigieren Sie nach _Buchhaltung > Konfiguration > Steuerzuordnung_. Hier finden
 - **Schweiz national**: Diese Steuerzuordnung wird für Rechnung mit Partner aus der Schweiz angewendet.
 - **Import/Export**: Diese Steuerzuordnung wird für alle Rechnungen (sprich ohne Schweizer Partner) angewendet.
 
-::: tip
-Die Standardkonfiguration von Odoo sieht vor, dass alle Internationalen Import/Export eine Steuerzuordnung von 0.0% erhalten.
-:::
+!!! tip
+    Die Standardkonfiguration von Odoo sieht vor, dass alle Internationalen Import/Export eine Steuerzuordnung von 0.0% erhalten.
+
 
 ### Steuerzuordnung für ausgewähltes Land festlegen
 
@@ -153,9 +153,9 @@ Zu zahlende VAT:
 
 Navigieren Sie nach _Einstellungen > Buchhaltung > Steuern_ und aktivieren Sie die Option _Innergemeinschaftlicher Fernabsatz der EU_. Anschliessend erscheint die Aktion _Refresh tax mappings_. Damit wird die Steuerzuordnung aktualisiert.
 
-::: tip
-Diese Option funktioniert nur für EU-Länder. Damit die OSS-Steuersätze einem Schweizer Unternehmen hinzufügen können, müssen Sie das Land des Unternehmen temporär auf _Deutschland_ festlegen oder Schweiz der Ländergruppe _Europa_ hinzufügen.
-:::
+!!! tip
+    Diese Option funktioniert nur für EU-Länder. Damit die OSS-Steuersätze einem Schweizer Unternehmen hinzufügen können, müssen Sie das Land des Unternehmen temporär auf _Deutschland_ festlegen oder Schweiz der Ländergruppe _Europa_ hinzufügen.
+
 
 ### Steuerzuordnung für EU-Ausland aktualisieren
 
@@ -193,9 +193,9 @@ Wiederholen Sie diesen Vorgang für jedes EU-Land.
 
 Wenn Sie den Steuerbericht anzeigen möchten, wählen Sie _Buchhaltung > Berichtswesen > Steuerbericht_.
 
-::: tip
-Die Steuererklärung ist für Odoo ein Steuerbericht.
-:::
+!!! tip
+    Die Steuererklärung ist für Odoo ein Steuerbericht.
+
 
 ### Steuererklärung anzeigen
 
@@ -215,9 +215,9 @@ Odoo erstellt eine Buchung für die Steuererklärung gemäss Steuerperiode (sieh
 
 Die Abschlussbuchung der Steuererklärung kann, sofern nicht gebucht, aktualisier werden. Zeigen Sie die Abschlussbuchung an und wählen Sie _-> Aktualisieren_.
 
-::: tip
-Die Abschlussbuchung ist mit dem entsprechenden Steuerbericht über den Smart-Button verlinkt.
-:::
+!!! tip
+    Die Abschlussbuchung ist mit dem entsprechenden Steuerbericht über den Smart-Button verlinkt.
+
 
 ### Vereinnahmte Buchungen aufgrund von Zahlungen anzeigen
 
@@ -316,16 +316,16 @@ Wenn Sie mit Saldosteuersätzen die Mehrwersteuer abrechnen, müssen Sie die aus
 
 Auf einer Kundenrechnung wird die Differenz von 6,3% zu 8,1% wird als Erlös gut geschrieben. Auf dem Steuerbericht erscheint nur der Betrag von 6,3% als geschuldete Mehrwertsteuer.
 
-::: tip
-Die Berechnung der Prozente ist wie folgt:
+!!! tip
+    Die Berechnung der Prozente ist wie folgt:
 
-- 84.08% = (6.3\*1.081)/8.1
-- 15.92% = 100-84.08
-  :::
+    - 84.08% = (6.3\*1.081)/8.1
+    - 15.92% = 100-84.08
 
-::: warning
-Damit keine Vorsteuer-Buchungen gemacht werden, muss auf allen Steuersätzen vom Steuertyp _Einkauf_ das Vorsteuer-Konto und der Steuertag entfernt werden.
-:::
+
+!!! warning
+    Damit keine Vorsteuer-Buchungen gemacht werden, muss auf allen Steuersätzen vom Steuertyp _Einkauf_ das Vorsteuer-Konto und der Steuertag entfernt werden.
+
 
 ### Bezugssteuer für Saldosteuersätze erfassen
 

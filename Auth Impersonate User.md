@@ -42,9 +42,9 @@ Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Benutzer_ und ö
 
 Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Benutzer_, wählen Sie einen Benutzer aus und klicken Sie auf _Als Benutzer einloggen_. Sie werden anschliessend als den gewählten Benutzer eingeloggt.
 
-::: tip
-Sie können sich so auch als Portal-Benutzer einloggen.
-:::
+!!! tip
+    Sie können sich so auch als Portal-Benutzer einloggen.
+
 
 ### Identitätswechsel beenden
 

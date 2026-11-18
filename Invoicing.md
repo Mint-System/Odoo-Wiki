@@ -74,9 +74,9 @@ Zeigen Sie _Rechnungsstellung > Kunden > Rechnungen_ und markieren Sie die gebuc
 
 Um eine gebucht Rechnung zurückzusetzen navigieren Sie nach nach _Rechnungsstellung > Kunden > Rechnungen_ und zeigen eine ausgewählte Rechnung an. Wählen Sie die Aktion _Zurücksetzen_ damit die Rechnung in den Status _Entwurf_ gesetzt wird.
 
-::: tip
-Wurde die erstellte Rechnung bereits auf Status _Gebucht_ gesetzt, so kann diese Rechnung nur teilweise korrigiert oder gelöscht werden.
-:::
+!!! tip
+    Wurde die erstellte Rechnung bereits auf Status _Gebucht_ gesetzt, so kann diese Rechnung nur teilweise korrigiert oder gelöscht werden.
+
 
 ### Gutschrift erfassen
 
@@ -120,9 +120,9 @@ Navigieren Sie nach _Kontakte > Konfiguration > Bankkonten_ und erstellen Sie ei
 
 Wählen Sie _Kontakte_ zeigen Sie den Lieferanten in der Formularansicht an. Klicken Sie auf _Bearbeiten_ und fügen Sie im Tab _Buchhaltung_ ein Bankkonto hinzu.
 
-::: tip
-Der Benutzer muss hierfür die Berechtigung _Kontakt erstellen_ haben (Zugriffsrechte > Extra Rights)
-:::
+!!! tip
+    Der Benutzer muss hierfür die Berechtigung _Kontakt erstellen_ haben (Zugriffsrechte > Extra Rights)
+
 
 ### Geld schicken für Bankkonto erlauben
 
@@ -148,9 +148,9 @@ Auf Kontakten können Sie Warnungs-Text hinterlegen, welche bei der Ertellung ei
 
 Damit eine Rechnung als bezahlt markiert wird, muss eine Zahlung erfasst werden. Zeigen Sie die Rechnung unter _Rechnungsstellung > Kunden > Ausgangsrechnungen_ an. Wählen Sie _Zahlen_ und für Journal _Bank_ aus. Als Zahlungsmethode wählen Sie _Manuelle Zahlung_. Geben Sie das Zahlungsdatum an und erstellen Sie die Zahlung mit _Zahlung erstellen_.
 
-::: tip
-Standardmässig werden Rechnungen über ein Zwischenkonto gebucht und erste wenn die Zahlung abgeglichen wird, wird die Rechnung als _Bezahlt_ markiert. Wenn Sie Rechnungen ohne Abstimmung als _Bezahlt_ markieren wollen, müssen Sie das [Bank-Journal einrichten](Accounting.md#Bank-Journal%20einrichten) und im Tab _Zahlungseingänge_ bei der Zahlungsmethode _Manuelle Zahlung_ in der Spalte _Konten für ausstehende Eingänge_ das Konto _1021 Bank_ eintragen.
-:::
+!!! tip
+    Standardmässig werden Rechnungen über ein Zwischenkonto gebucht und erste wenn die Zahlung abgeglichen wird, wird die Rechnung als _Bezahlt_ markiert. Wenn Sie Rechnungen ohne Abstimmung als _Bezahlt_ markieren wollen, müssen Sie das [Bank-Journal einrichten](Accounting.md#Bank-Journal%20einrichten) und im Tab _Zahlungseingänge_ bei der Zahlungsmethode _Manuelle Zahlung_ in der Spalte _Konten für ausstehende Eingänge_ das Konto _1021 Bank_ eintragen.
+
 
 ## Lieferanten
 
@@ -196,9 +196,9 @@ Wenn Sie für einen Kunden eine Gutschrift haben, können Sie diese einer offene
 
 Am Ende der Rechnung können Sie bei der entsprechenden Gutschrift auf _Hinzufügen_ drücken.
 
-::: warning
-Die Gutschrift und Rechnung müssen den gleichen Kunden haben.
-:::
+!!! warning
+    Die Gutschrift und Rechnung müssen den gleichen Kunden haben.
+
 
 ## Vorlagen
 
@@ -222,9 +222,9 @@ Gilt ab <Badge type="info" text="Odoo16" vertical="middle" />.
 
 Navigieren Sie nach _Rechnungsstellung > Kunden > Rechnungen_. Markieren Sie die entsprechenden Kundenrechnungen und wählen Sie _Aktionen > Print QR invoices_. Nun erstellt Odoo die PDF-Dateien für die ausgewählten Rechnungen.
 
-::: tip
-Damit die PDF-Datei beim Versenden der Rechnung aus dem Anhang geladen wird, müssen Sie die Aktion [Bericht beim Drucken aus Anhang laden](Development%20Reports.md#Bericht%20beim%20Drucken%20aus%20Anhang%20laden) für den _Rechnungen_-Bericht aktivieren.
-:::
+!!! tip
+    Damit die PDF-Datei beim Versenden der Rechnung aus dem Anhang geladen wird, müssen Sie die Aktion [Bericht beim Drucken aus Anhang laden](Development%20Reports.md#Bericht%20beim%20Drucken%20aus%20Anhang%20laden) für den _Rechnungen_-Bericht aktivieren.
+
 
 ### Einzahlungsschein drucken
 
@@ -242,9 +242,9 @@ Mit der Schweizer Lokalisierung für das Finanzmodul ist ein Bericht zur Generie
 
 Sind diese Bedingungen erfüllt, dann erscheint beim Aufruf einer Rechnung die Aktion _Print ISR_.
 
-::: warning
-Damit Einzahlungsscheine für bereits erstellte Rechnungen generiert werden können, muss das erstellte ISR-PDF im Anhang entfernt werden.
-:::
+!!! warning
+    Damit Einzahlungsscheine für bereits erstellte Rechnungen generiert werden können, muss das erstellte ISR-PDF im Anhang entfernt werden.
+
 
 ### QR-Rechnung drucken
 
@@ -283,9 +283,9 @@ Für jedes Produkt können Sie definieren, ob es nach der Lieferung oder nach de
 
 ![](attachments/eCommerce%20Fakturierungsregel%20auf%20Produkt.png)
 
-::: warning
-Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzurechendende Menge des Verkaufsauftrag aktualisiert werden. Nur dann wird das zusätzliche Produkt auf die Rechnung übertragen.
-:::
+!!! warning
+    Falls während der Lieferung zusätzliche Produkte erfasst werden, muss die abzurechendende Menge des Verkaufsauftrag aktualisiert werden. Nur dann wird das zusätzliche Produkt auf die Rechnung übertragen.
+
 
 ### Berechtigungen anhand von Gruppen filtern
 

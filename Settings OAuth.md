@@ -27,9 +27,9 @@ partner: Mint System
 
 ### Odoo als OAuth-App auf Azure registrieren
 
-::: tip
-Wir empfehlen Produkte von [Infomaniak](https://www.infomaniak.com/goto/de/home?utm_term=67ff9acbaabca) anstatt Microsoft zu verwenden.
-:::
+!!! tip
+    Wir empfehlen Produkte von [Infomaniak](https://www.infomaniak.com/goto/de/home?utm_term=67ff9acbaabca) anstatt Microsoft zu verwenden.
+
 
 Damit sich Odoo-Benutzer den OAuth-Authorisierungsflow mit Azure abwickeln können, muss Odoo auf Azure registriert werden.
 
@@ -43,9 +43,9 @@ Verwenden Sie diese Angaben:
 - **Unterstützte Kontentypen**: Mehrere Entra ID-Mandanten / Alle Mandanten zulassen
 - **Redirect URI**: Web `https://$HOSTNAME/microsoft_outlook/confirm`
 
-::: warning
-Bitten ersetzen Sie `$HOSTNAME` mit dem Hostnamen ihrer Odoo-Installation.
-:::
+!!! warning
+    Bitten ersetzen Sie `$HOSTNAME` mit dem Hostnamen ihrer Odoo-Installation.
+
 
 Ist die App erstellt erhalten Sie diese Zusammenfassung:
 
@@ -72,9 +72,9 @@ Kopieren Sie das Feld _Wert_, es handelt sich hierbei um das _Client Secret_.
 
 ![](attachments/Einstellungen%20OAuth%20Copy%20Secret.png)
 
-::: warning
-Die _Geheime-ID_ des Schlüssels benötigen Sie nicht. Es handelt sich hier nicht um die _Client ID_.
-:::
+!!! warning
+    Die _Geheime-ID_ des Schlüssels benötigen Sie nicht. Es handelt sich hier nicht um die _Client ID_.
+
 
 Öffnen Sie jetzt Odoo und navigieren Sie nach _Einstellungen > Dialog > Outlook Credentials_. Geben Sie hier die _Client ID_ und das _Client Secret_ ein.
 
@@ -105,9 +105,9 @@ Für diese Werte müssen Sie in Odoo zwei [Systemparameter anlegen](Development.
 
 ### Outlook OAuth-Verbindung einrichten
 
-::: tip
-Wir empfehlen Produkte von [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hosting.mail?utm_term=67ff9acbaabca) anstatt Outlook zu verwenden.
-:::
+!!! tip
+    Wir empfehlen Produkte von [Infomaniak E-Mail-Hosting](https://www.infomaniak.com/goto/de/hosting.mail?utm_term=67ff9acbaabca) anstatt Outlook zu verwenden.
+
 
 Damit Odoo eine Outlook OAuth-Verbindung aufnehmen kann, muss auf dem Microsoft 365 Benutzer die SMTP-Authentisierung erlaubt sein. Stellen Sie sicher, dass die folgenden Anweisungen ausgeführt wurden: <https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#use-the-microsoft-365-admin-center-to-enable-or-disable-smtp-auth-on-specific-mailboxes>
 
@@ -115,9 +115,9 @@ Navigieren Sie nach _Einstellungen > Technisch > Eingehender Mail-Server_. Marki
 
 ![](attachments/Einstellungen%20OAuth%20Outlook.png)
 
-::: warning
-Damit eine Verbindung mit Outlook aufbaut werden kann, müsssen Sie [Odoo als OAuth-App auf Azure registrieren](#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren).
-:::
+!!! warning
+    Damit eine Verbindung mit Outlook aufbaut werden kann, müsssen Sie [Odoo als OAuth-App auf Azure registrieren](#Odoo%20als%20OAuth-App%20auf%20Azure%20registrieren).
+
 
 ### Azure OAuth-App Client-Secret neu erstellen
 
@@ -131,9 +131,9 @@ Kopieren Sie das Feld _Wert_, es handelt sich hierbei um das _Client Secret_.
 
 ![](attachments/Einstellungen%20OAuth%20Copy%20Secret.png)
 
-::: warning
-Die _Geheime-ID_ des Schlüssels benötigen Sie nicht. Es handelt sich hier nicht um die _Client ID_.
-:::
+!!! warning
+    Die _Geheime-ID_ des Schlüssels benötigen Sie nicht. Es handelt sich hier nicht um die _Client ID_.
+
 
 Öffnen Sie jetzt Odoo und navigieren Sie nach _Einstellungen > Dialog > Outlook Credentials_. Überschreiben Sie das bestehende _Client Secret_.
 
@@ -141,9 +141,9 @@ Die _Geheime-ID_ des Schlüssels benötigen Sie nicht. Es handelt sich hier nich
 
 Navigieren Sie nach _Einstellungen > Technisch > Eingehender Mail-Server_ oder _Einstellungen > Technisch > Ausgehender Mail-Server_. Öffnen Sie einen Eintrag mit einer OAuth-Verbindung. Klicken Sie auf _Edit settings_. Der OAuth-Authorisierungsflow wird gestartet. Loggen Sie sich mit dem Postfach-Benutzer ein. Anschliessend werden Sie wieder nach Odoo zurückgeführt. Damit wurden das OAuth-Token regeneriert.
 
-::: warning
-Wenn Sie bei den Microsoft-Diensten bereits eingeloggt sind, müssen Sie diesen Vorgang entweder in einem privaten Browser-Tab ausführen oder Sie müssen sich bei den Microsoft-Diensten via <https://login.microsoftonline.com> ausloggen.
-:::
+!!! warning
+    Wenn Sie bei den Microsoft-Diensten bereits eingeloggt sind, müssen Sie diesen Vorgang entweder in einem privaten Browser-Tab ausführen oder Sie müssen sich bei den Microsoft-Diensten via <https://login.microsoftonline.com> ausloggen.
+
 
 ### OAuth Benutzername festlegen
 

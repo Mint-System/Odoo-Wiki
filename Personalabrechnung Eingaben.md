@@ -161,10 +161,10 @@ Python Code: `result = payslip.paid_amount + (inputs["BASIC13"].amount if inputs
 
 Speichern Sie die Lohnart, fügen Sie einer ausgewählte Lohnabrechnung mit der zugehörigen Lohnstruktur eine Spesen-Eingabe hinzu und berechnen die Abrechnung neu.
 
-::: tip
-Falls Sie für den 13en Monatslohn eine eigene Lohnart aufführen, können Sie diesen Python Code verwenden: `result = inputs["BASIC13"].amount if inputs.get("BASIC13") else 0`
-Als Bedinung verwenden Sie diesen Code: `result = inputs["BASIC13"].amount != 0.0 if inputs.get("BASIC13") else False`
-:::
+!!! tip
+    Falls Sie für den 13en Monatslohn eine eigene Lohnart aufführen, können Sie diesen Python Code verwenden: `result = inputs["BASIC13"].amount if inputs.get("BASIC13") else 0`
+    Als Bedinung verwenden Sie diesen Code: `result = inputs["BASIC13"].amount != 0.0 if inputs.get("BASIC13") else False`
+
 
 ### Bruttolohn basierend auf abrechenbaren Stunden berechnen
 

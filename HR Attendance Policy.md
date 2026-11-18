@@ -46,6 +46,6 @@ Mitarbeitende sehen in der Liste der Überstunden, welche Einträge in Konflikt 
 
 Navigieren Sie nach _Mitarbeiter > Konfiguration > Anwesenheitsrichtlinien_ und erstellen Sie einen neuen Eintrag. Geben Sie einen Namen und eine Beschreibung ein. Definieren Sie Regeln mit Bereich der gearbeiteten Stunden pro Tag und dem benötigten Pausen (Abstand zwischen Anwesenheitseinträgen).
 
-::: tip
-Mehrere Regeln werden einzeln und unabhängig voneinander geprüft.
-:::
+!!! tip
+    Mehrere Regeln werden einzeln und unabhängig voneinander geprüft.
+

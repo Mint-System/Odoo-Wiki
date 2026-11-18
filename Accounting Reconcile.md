@@ -58,9 +58,9 @@ Zeigen Sie die App _Buchhaltung_ an. Klicken Sie rechts vom Bank-Journals auf da
 
 Zeigen Sie die App _Buchhaltung_ an. Klicken Sie rechts vom Bank-Journals auf das Kontext-Menü und wählen Sie _Ansicht > Kontoauszüge_. Markieren Sie den Kontoauszug und wählen Sie _Aktionen > Löschen_.
 
-::: warning
-Bereits abgestimmte Positionen müssen zurückgesetzt werden.
-:::
+!!! warning
+    Bereits abgestimmte Positionen müssen zurückgesetzt werden.
+
 
 ## Abstimmung
 
@@ -68,17 +68,17 @@ Bereits abgestimmte Positionen müssen zurückgesetzt werden.
 
 Öffnen Sie die Übersicht der Journale via _Buchhaltung_ und klicken auf den Knopf _Abstimmung X Positionen_ des entsprechenden Journals. Wählen Sie eine Kontobewegung aus und bestimmen Sie die zu verknüpfende Buchungszeile. Bestätigen Sie Abstimmung.
 
-::: tip
-Entfernen Sie den Partner-Filter, wenn die gesuchte Buchungszeile nicht vorhanden ist.
-:::
+!!! tip
+    Entfernen Sie den Partner-Filter, wenn die gesuchte Buchungszeile nicht vorhanden ist.
 
-::: warning
-Automatismen im Abstimmungs-Dialog können einen Vorschlag für "Offener Saldo" generieren:
 
-![](attachments/Account%20Reconcile%20Offener%20Saldo.png)
+!!! warning
+    Automatismen im Abstimmungs-Dialog können einen Vorschlag für "Offener Saldo" generieren:
 
-Diese Abstimmungen sind nicht mit einer Rechnungszeile verbunden, sondern werden lediglich auf das Debitoren-Konto transferiert.
-:::
+    ![](attachments/Account%20Reconcile%20Offener%20Saldo.png)
+
+    Diese Abstimmungen sind nicht mit einer Rechnungszeile verbunden, sondern werden lediglich auf das Debitoren-Konto transferiert.
+
 
 ### Abstimmung mit manueller Buchung durchführen
 

@@ -21,10 +21,10 @@ versions:
 Technischer Name: {{ $frontmatter.name }}\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
-::: warning
-Seit <Badge type="info" text="Odoo18" vertical="middle" /> wird diese App nicht mehr benötigt. 
-#DEPRECATED
-:::
+!!! warning
+    Seit <Badge type="info" text="Odoo18" vertical="middle" /> wird diese App nicht mehr benötigt. 
+    #DEPRECATED
+
 
 ## Verwendung
 

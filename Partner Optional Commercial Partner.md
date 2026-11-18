@@ -32,11 +32,11 @@ Standardmässig wird auf Kontakten, die einem Unternehmen zugeordnet sind, als H
 
 Öffnen Sie einen Kontakt und zeigen Sie den Tab _Verkauf & Einkauf_ an. Aktivieren Sie die Option _Is Commercial Partner_.
 
-::: tip
-Wenn Sie eine Rechnung mit einem konfigurierten Kontakt erstellen, wird als Handelsgesellschaft der Kunde und nicht das Unternehmen verwendet.
-![](attachments/Partner%20Optional%20Commercial%20Partner.png)
-:::
+!!! tip
+    Wenn Sie eine Rechnung mit einem konfigurierten Kontakt erstellen, wird als Handelsgesellschaft der Kunde und nicht das Unternehmen verwendet.
+    ![](attachments/Partner%20Optional%20Commercial%20Partner.png)
 
-::: warning
-Auf der Aktion _Mahnberichte_ muss der Inhalt des Felds _Wertebereich_ entfernt werden. Ansonsten sind Kontakte, die als Handelsgesellschaft markiert sind und einem Unternehmen zugeordnet sind, nicht sichtbar.
-:::
+
+!!! warning
+    Auf der Aktion _Mahnberichte_ muss der Inhalt des Felds _Wertebereich_ entfernt werden. Ansonsten sind Kontakte, die als Handelsgesellschaft markiert sind und einem Unternehmen zugeordnet sind, nicht sichtbar.
+

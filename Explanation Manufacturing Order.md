@@ -28,12 +28,12 @@ Die Arbeitsaufträge werden der Reihe nach bearbeitet (_Prozess_) und mit der Te
 
 ![Erläuterung Arbeitsaufträge 2](attachments/Explanation%20Arbeitsaufträge%202.svg)
 
-::: tip
-Das sequenzielle Abarbeiten von nicht abgeschlossenen Arbeitsaufträgen funktioniert nur, wenn im entsprechenden Arbeitsplan folgende Option eingeschaltet ist: _Start Next Operation: Sobald einige Produkte verarbeitet sind_
-:::
+!!! tip
+    Das sequenzielle Abarbeiten von nicht abgeschlossenen Arbeitsaufträgen funktioniert nur, wenn im entsprechenden Arbeitsplan folgende Option eingeschaltet ist: _Start Next Operation: Sobald einige Produkte verarbeitet sind_
+
 
 Im Fertigungsauftrag WH/MO/00001 erscheinen die abgeschlossenen Produkte der Menge B im Register Fertigprodukte. Mit der Funktion _Bestandänderung Buchen_ werden die fertiggestellten Produkte ans Lager gebucht. Die noch offenen Arbeitsaufträge können mit der Menge A-B weiter bearbeitet und der Auftrag dann vollständig abgeschlossen werden.
 
-::: tip
-Die Funktion _Bestandänderung Buchen_ erscheint nur, wenn der Entwicklermodus eingeschaltet ist.
-:::
+!!! tip
+    Die Funktion _Bestandänderung Buchen_ erscheint nur, wenn der Entwicklermodus eingeschaltet ist.
+

@@ -59,17 +59,17 @@ Mit der Ausführung des Assistenten wird eine Eröffnungsbuchung erstellt. Navig
 
 Fügen Sie die Konten mit der entsprechenden Saldierung hinzu und buchen Sie Eröffnungsbuchung.
 
-::: tip
-Als Gegenkonto für die Anfangssaldo verwenden Sie das Konto _999999 Unverteilte Gewinne/Verluste_.
-:::
+!!! tip
+    Als Gegenkonto für die Anfangssaldo verwenden Sie das Konto _999999 Unverteilte Gewinne/Verluste_.
+
 
 ### Buchungssatz korrigieren
 
 Haben Sie eine fehlerhafte Buchung gemacht, können Sie diese einfach korrigieren. Öffnen Sie den Buchungssatz via _Buchhaltung > Buchhaltung > Buchungssätze_. Wählen Sie _Zurücksetzen_ und korrigieren Sie beispielsweise ein Konto auf dem Buchungssatz. Buchen Sie die korrektur mit der Aktion _Buchen_.
 
-::: warning
-Falls Sie eine Rechnung korrigieren, geht Zahlungsabgleiche verloren. Diese müssen Sie wieder verknüpfen.
-:::
+!!! warning
+    Falls Sie eine Rechnung korrigieren, geht Zahlungsabgleiche verloren. Diese müssen Sie wieder verknüpfen.
+
 
 ### Buchungssatz umkehren
 
@@ -134,9 +134,9 @@ Entfernen Sie den Steuersatz in der Spalte _Steuern_, wenn Sie keine Mehrwertste
 
 Im Dialog _Buchhaltung > Buchhaltung > Aktionen > Sperrdaten_ können Sie Sperrdaten für die Geschäfts- und Steuerperiode definieren.
 
-::: warning
-In <Badge type="info" text="Odoo19" vertical="middle" />  gibt es neu ein Sperrdatum für das gesamte Jahr, das durch den Benutzen nicht rückgängig gemacht werden kann. 
-:::
+!!! warning
+    In <Badge type="info" text="Odoo19" vertical="middle" />  gibt es neu ein Sperrdatum für das gesamte Jahr, das durch den Benutzen nicht rückgängig gemacht werden kann. 
+
 
 ![](attachments/Buchhaltung%20Sperrdatum%20festlegen.png)
 
@@ -151,17 +151,17 @@ Navigieren Sie nach _Buchhaltung > Konfiguration > Kontenplan_ und erstellen Sie
 - **Typ**: Position in der Bilanz
 - **Erlaube Abstimmung**: Buchungszeilen können mit Bankbeleg abgeglichen werden
 
-::: tip
-Falls die Meldung _Prüfungsfehler_ erscheint und Sie ein neues Konto mit einer bestimmten Kurzbezeichnung nicht erstellen können, dann ist es vielleicht schon vorhanden aber wegen dem Standardfilter _Aktiver Account_ nicht sichtbar. Schalten Sie ihn aus um auch Konten anzuzeigen die das Attribut _Nicht mehr verwenden_ eingeschaltet haben.
-:::
+!!! tip
+    Falls die Meldung _Prüfungsfehler_ erscheint und Sie ein neues Konto mit einer bestimmten Kurzbezeichnung nicht erstellen können, dann ist es vielleicht schon vorhanden aber wegen dem Standardfilter _Aktiver Account_ nicht sichtbar. Schalten Sie ihn aus um auch Konten anzuzeigen die das Attribut _Nicht mehr verwenden_ eingeschaltet haben.
+
 
 ### Konto archivieren
 
 Wenn Sie ein Konto nicht benötigen, können Sie dieses archivieren. Navigieren Sie nach _Buchhaltung > Konfiguration > Kontenplan_ und klicken Sie beim entsprechende Konto auf _Ansicht_. Aktivieren Sie die Option _Nicht mehr verwendet_ um das Konto zu archivieren.
 
-::: warning
-Es ist nicht empfohlen die nicht benötigten Konten zu löschen. Die Konten werden vom Kontenplan definiert und werden bei einem Update wieder angelegt.
-:::
+!!! warning
+    Es ist nicht empfohlen die nicht benötigten Konten zu löschen. Die Konten werden vom Kontenplan definiert und werden bei einem Update wieder angelegt.
+
 
 ### Kontenplan einrichten
 
@@ -194,9 +194,9 @@ Navigieren Sie nach _Buchhaltung > Konfiguration > Kontengruppen_ und fügen ein
 - **Name**: Name der Kontengruppe
 - **Code-Präfix Von bis**: Bereich der Kontennummer welche dieser Gruppe hinzugefügt werden
 
-::: tip
-Das Feld _Gruppe_ muss eingeschaltet sein damit die erstellte Kontogruppe einen Nutzen bringt.
-:::
+!!! tip
+    Das Feld _Gruppe_ muss eingeschaltet sein damit die erstellte Kontogruppe einen Nutzen bringt.
+
 
 ### Kontoarten anzeigen
 

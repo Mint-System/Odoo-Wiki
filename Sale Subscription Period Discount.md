@@ -28,9 +28,9 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Zeigen Sie _Abonnements > Konfiguration > Wiederholungszeiträume_ an und wählen Sie einen Zeitraum aus. Fügen Sie der Liste _Zeitbasierter Rabatt_ einen Eintrag hinzu.
 
-::: tip
-Der Wert im Feld _Jahr_ wird dem aktuell Jahr hinzugerechnet.
-:::
+!!! tip
+    Der Wert im Feld _Jahr_ wird dem aktuell Jahr hinzugerechnet.
+
 
 ### Zeitbasierter Rabatt anwenden
 

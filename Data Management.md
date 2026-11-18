@@ -39,9 +39,9 @@ section: true
 
 In allen Apps mit Listenansichten haben die Möglichkeit Daten zu exportieren. Die folgende Abbildung zeigt ein Beispiel der Ansicht _Lager > Produkte > Produkte_.
 
-::: tip
-Damit die Auswahl _Aktion_ erscheint, müssen die Daten in der Listenansicht angezeigt werden.
-:::
+!!! tip
+    Damit die Auswahl _Aktion_ erscheint, müssen die Daten in der Listenansicht angezeigt werden.
+
 
 Markieren Sie Einträge und wählen Sie die Aktion _Export_.
 
@@ -71,9 +71,9 @@ Drücken Sie den Knopf _Import_. Anschliessend erscheint folgende Maske mit der 
 
 ![Datenmanagement Daten importieren Datei](attachments/Datenmanagement%20Daten%20importieren%20Datei.png)
 
-::: tip
-Die Struktur der zu importierenden Datei muss für jeden Zweck bestimmte Vorgaben erfüllen.
-:::
+!!! tip
+    Die Struktur der zu importierenden Datei muss für jeden Zweck bestimmte Vorgaben erfüllen.
+
 
 ![Datenmanagement Daten importieren Datei Liste](attachments/Datenmanagement%20Daten%20importieren%20Datei%20Liste.png)
 
@@ -83,14 +83,14 @@ Mit der Funktion _Testbetrieb_ wird festgestellt, ob die Stuktur der Datei den V
 
 Nun können Sie mit dem Knopf _Import_ den Datentransfer ausführen.
 
-::: tip
-Sie können Daten auch in Tabellen importieren, die über keinen eigenen Menupunkt verfügen.
+!!! tip
+    Sie können Daten auch in Tabellen importieren, die über keinen eigenen Menupunkt verfügen.
 
-Hängen Sie dazu diesen Teil an die URL Ihrer Odoo-Instanz an: `web?debug=1#action=import&cids=1&model=`
-und füllen Sie den Parameter `model` mit dem Datenmodell, das Sie importieren möchten.
+    Hängen Sie dazu diesen Teil an die URL Ihrer Odoo-Instanz an: `web?debug=1#action=import&cids=1&model=`
+    und füllen Sie den Parameter `model` mit dem Datenmodell, das Sie importieren möchten.
 
-zum Beispiel für den Import von Aktivitäten: https://demo.odoo.com/web?debug=1#action=import&cids=1&model=mail.activity
-:::
+    zum Beispiel für den Import von Aktivitäten: https://demo.odoo.com/web?debug=1#action=import&cids=1&model=mail.activity
+
 
 ### Daten aktualisieren
 
@@ -98,9 +98,9 @@ Den Entwicklermodus aktivieren.
 Einen Datenexport starten.  
 Die Checkbox _I want to update data (import-compatible export)_ markieren.
 
-::: tip
-Mit der Funktion _I want to update data_ wird erreicht, dass die in der Datenbank vorhandenen Einträge überschrieben werden.
-:::
+!!! tip
+    Mit der Funktion _I want to update data_ wird erreicht, dass die in der Datenbank vorhandenen Einträge überschrieben werden.
+
 
 ### Massenmutation durchführen
 

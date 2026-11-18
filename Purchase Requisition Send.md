@@ -33,6 +33,6 @@ Damit die Bestelladresse als Empfängeradresse für die E-Mail übernommen wird,
 
 Mit dieser Erweiterungen können Sie Kaufverträge per E-Mail verschicken. Zeigen Sie einen Kaufvertrag via _Einkauf > Aufträge > Kaufverträge_ an und wählen Sie die Aktion _Per E-Mail Versenden_.
 
-::: tip
-Der Kaufvertrag wird nach dem Versenden in den Zustand _Gesendet_ versetzt, wenn dieser im Zustand _Entwurf_ oder _Bestätigt_ war.
-:::
+!!! tip
+    Der Kaufvertrag wird nach dem Versenden in den Zustand _Gesendet_ versetzt, wenn dieser im Zustand _Entwurf_ oder _Bestätigt_ war.
+

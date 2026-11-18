@@ -29,8 +29,8 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Mit dieser Erweiterung werden Arbeitsaufträge beim Aufruf in der Kanban-Ansicht nicht automatisch gestartet.
 
-::: tip
-Mit der Kontext-Option `context="{'mrp_workorder_disable_autostart': False}"` kann das Standardverhalten beim Aufruf der Tablet-Ansicht deaktiviert werden.
-:::
+!!! tip
+    Mit der Kontext-Option `context="{'mrp_workorder_disable_autostart': False}"` kann das Standardverhalten beim Aufruf der Tablet-Ansicht deaktiviert werden.
+
 
 ![MRP Workorder Disable Autostart](attachments/MRP%20Workorder%20Disable%20Autostart.gif)

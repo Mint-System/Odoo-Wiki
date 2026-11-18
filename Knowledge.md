@@ -20,9 +20,9 @@ Website: <https://www.odoo.com/de_DE/app/knowledge>
 
 Öffnen Sie die App _Knowledge_ und klicken Sie auf das ➕ Zeichen rechts von _Arbeitsbereich_. Der neue Arbeitsbereich öffnet sich und Sie können direkt einen Titel eingeben.
 
-::: tip
-Der Titel des Artikels wird vom ersten Satz des Artikels abgeleitet. Klicken Sie auf Header des Artikels um den Titel zu aktualisieren.
-:::
+!!! tip
+    Der Titel des Artikels wird vom ersten Satz des Artikels abgeleitet. Klicken Sie auf Header des Artikels um den Titel zu aktualisieren.
+
 
 ### Artikel erstellen
 
@@ -56,9 +56,9 @@ Navigieren Sie zur ausgewählten Ansicht, beispielsweise _Projekt > Projekte_. W
 
 ![](attachments/Knowledge%20ansicht%20in%20artikel.png)
 
-::: tip
-Die Ansicht und Filter ist dynamisch. Es wird immer der aktuelle Zustand dargestellt. Sie können auf die Inhalte klicken und landen in der Detailansicht.
-:::
+!!! tip
+    Die Ansicht und Filter ist dynamisch. Es wird immer der aktuelle Zustand dargestellt. Sie können auf die Inhalte klicken und landen in der Detailansicht.
+
 
 Gilt bis <Badge type="info" text="Odoo16" vertical="middle" />.
 

@@ -21,6 +21,6 @@ versions:
 Technischer Name: {{ $frontmatter.name }}\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
-::: warning
-Die Deaktivierung der Option "Drucken" im Dialog "Versenden" des Mahnbericht, führt dazu dass die Rechnung-PDF-Dateien nicht als Anhang hinzugefügt werden.
-:::
+!!! warning
+    Die Deaktivierung der Option "Drucken" im Dialog "Versenden" des Mahnbericht, führt dazu dass die Rechnung-PDF-Dateien nicht als Anhang hinzugefügt werden.
+

@@ -73,17 +73,17 @@ Website: <https://www.odoo.com/de_DE/app/accounting>
 
 ## Konfiguration
 
-::: tip
-Das Onboarding-Panel kann über das Menu Technisch > Benutzerschnittstelle > Einführungen > Einführung ins Buchhaltungsdashboard und die Funktion _Sichtbarkeit ein/aus_ eingeschaltet werden.
-:::
+!!! tip
+    Das Onboarding-Panel kann über das Menu Technisch > Benutzerschnittstelle > Einführungen > Einführung ins Buchhaltungsdashboard und die Funktion _Sichtbarkeit ein/aus_ eingeschaltet werden.
+
 
 ### Zahlungsbedingungen definieren
 
 Um spezielle Zahlungsbedingungen zu formulieren navigieren Sie nach _Einstellungen > Buchhaltung > Zahlungsbedingungen_ . Dort können Sie einen vorhandenen Eintrag kopieren oder neu anlegen und nach den eigenen Wünschen konfigurieren.
 
-::: tip
-Zahlungsbedingungen können den Kontakten für den Verkauf und den Einkauf hinterlegt werden. Für neue _Angebote/Verkaufsaufträge_ und _Bestellungen_ werden sie dann als Vorgabewert übernommen.
-:::
+!!! tip
+    Zahlungsbedingungen können den Kontakten für den Verkauf und den Einkauf hinterlegt werden. Für neue _Angebote/Verkaufsaufträge_ und _Bestellungen_ werden sie dann als Vorgabewert übernommen.
+
 
 ### Kontenrahmen festlegen
 
@@ -95,9 +95,9 @@ Wenn Sie ein neues Unternehmen erstellt haben, können Sie unter _Einstellungen 
 
 Navigieren Sie nach _Buchhaltung > Konfiguration > Konten Tags_. Hier finden Sie die auf Buchungszeilen und Steuersätzen auswählbaren Konten Tags. Erstellen Sie einen neuen Eintrag oder bearbeiten Sie einen Bestehenden.
 
-::: warning
-Konten Tags werden zur Generierung des Steuerberichts verwendet und sind mit den Steuersätzen eng verknüpft.
-:::
+!!! warning
+    Konten Tags werden zur Generierung des Steuerberichts verwendet und sind mit den Steuersätzen eng verknüpft.
+
 
 ### Zulässige Journale auf Konto festlegen
 
@@ -129,9 +129,9 @@ Unter _Bankverbindung_ fügen Sie das Bankkonto ihres Unternehmens hinzu. Legen 
 
 In den Tabs _Zahlungseingänge_ und _Zahlungsausgänge_ können Sie die Zahlungsmethoden konfigurieren.
 
-::: tip
-Die Spalten _Ausstehende Zahlungseingänge_ und _Konto für ausstehende Zahlungen_ werden standardmässig nicht eingeblendet.
-:::
+!!! tip
+    Die Spalten _Ausstehende Zahlungseingänge_ und _Konto für ausstehende Zahlungen_ werden standardmässig nicht eingeblendet.
+
 
 ### Bank-Synchronisation konfigurieren
 

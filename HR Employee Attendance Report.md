@@ -47,9 +47,9 @@ Eine Übersicht der Urlaubsansprüche:
 
 Klicken Sie auf das Account-Menü und wählen Sie _Mein Profil_. Wählen Sie nun _Drucken > Dialog Bericht Anwesenheit_. Wählen Sie ein Start- und Enddatum ais und drucken Sie den Bericht mit _Drucken_.
 
-::: tip
-Die Aktion _Herunterladen_ auf dem Dialog erlaubt das Herunterladen des Berichts, wenn die Erweiterung [Printnode Base](Printnode%20Base.md) installiert ist.
-:::
+!!! tip
+    Die Aktion _Herunterladen_ auf dem Dialog erlaubt das Herunterladen des Berichts, wenn die Erweiterung [Printnode Base](Printnode%20Base.md) installiert ist.
+
 
 ### Bericht Anwesenheiten für bestimmte Mitarbeitende drucken
 

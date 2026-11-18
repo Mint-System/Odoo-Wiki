@@ -30,6 +30,6 @@ Mit dieser Erweiterung wird beim Erstellen einer Rechnung aus Verträgen im Feld
 
 ![](attachments/Contract%20Format%20Date%20Marker.png)
 
-::: tip
-Die Monate werden in der Sprache des Kunden vom Vertrag angezeigt.
-:::
+!!! tip
+    Die Monate werden in der Sprache des Kunden vom Vertrag angezeigt.
+

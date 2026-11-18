@@ -32,6 +32,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Öffnen Sie eine Rechnung via _Buchhaltung > Kunden > Rechnungen_. Im Feld _Marke_ wählen Sie die bestimmte Marke der Rechnung aus.
 
-::: tip
-Wenn Sie die Rechnung Drucken werden die Angaben und das Dokument-Layout der Marke verwendet.
-:::
+!!! tip
+    Wenn Sie die Rechnung Drucken werden die Angaben und das Dokument-Layout der Marke verwendet.
+

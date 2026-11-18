@@ -28,10 +28,10 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Navigieren Sie nach _Verkauf_, zeigen Sie ein Angebot an und Öffnen Sie den Tab _Weitere Informationen_. Im Feld _Kundenreferenz_ können Sie nun mehrere Zeile erfassen.
 
-::: tip
-Wenn Sie eine Rechnung erstellen wird das Feld übertragen. Im Anzeigenamen der Rechnungen werden die Zeilenumbrüche Kundenreferenz mit Leerschlägen ersetzt.
-:::
+!!! tip
+    Wenn Sie eine Rechnung erstellen wird das Feld übertragen. Im Anzeigenamen der Rechnungen werden die Zeilenumbrüche Kundenreferenz mit Leerschlägen ersetzt.
 
-::: warning
-Die Referenz wird im Anzeigennamen nur für nicht-ausgehende Rechnung angezeigt.
-:::
+
+!!! warning
+    Die Referenz wird im Anzeigennamen nur für nicht-ausgehende Rechnung angezeigt.
+

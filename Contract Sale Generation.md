@@ -31,6 +31,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Öffnen Sie einen bestehenden Kundenvertrag via _Buchhaltung > Kunden > Kundenverträge_ und wählen Sie einen Vertrag aus. Im Feld _Generation Type_ wählen Sie _Sale_. Optional können Sie die generierten Angebote mit _automatisches Bestätigen der Verkaufsaufträge_ bestätigen lassen.
 
-::: tip
-Mit der Aktion _Create Sales_ können Sie das Verkaufsangebot manuell erstellen.
-:::
+!!! tip
+    Mit der Aktion _Create Sales_ können Sie das Verkaufsangebot manuell erstellen.
+

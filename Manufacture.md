@@ -71,9 +71,9 @@ Die Server Aktion _Reload BoM_ wird gemäss Beschreibung [Reload BoM](Manufactur
 
 ![Fertigung Reload BoM](attachments/Fertigung%20Reload%20BoM.png)
 
-::: tip
-Falls eine Stückliste leer ist (keine Komponenten) erscheint ein über MTO automatisch generierter Fertigungsauftrag im Status _Entwurf_. Falls die Stückliste Komponenten enthält, dann erscheint er im Status _Bestätigt_.
-:::
+!!! tip
+    Falls eine Stückliste leer ist (keine Komponenten) erscheint ein über MTO automatisch generierter Fertigungsauftrag im Status _Entwurf_. Falls die Stückliste Komponenten enthält, dann erscheint er im Status _Bestätigt_.
+
 
 ## Planung
 
@@ -101,11 +101,11 @@ Wählen Sie für jedes Produkt _Aufstocken_ um einen Auftrag gemäss hinterlegte
 
 Aktivieren Sie die Option _Mehrstufige Routen_ unter _Einstellungen > Lager > Lager_. Anschliessen Zeiten Sie das Standardlager unter _Lager > Konfiguration > Lager_ an und aktivieren im Tab _Lager Konfiguration_ die Option _Zusammenstellen der Komponenten und dann fertigen (2ter Schritt)_. Nun steht die Route für die mehrstufige Fertigung bereit.
 
-::: tip
-Damit die mehrstufige Fertigungs-Route direkt den Produkten zugewiesen werden kann, aktivieren Sie die Auswahlmöglichkeit auf der Route.
+!!! tip
+    Damit die mehrstufige Fertigungs-Route direkt den Produkten zugewiesen werden kann, aktivieren Sie die Auswahlmöglichkeit auf der Route.
 
-![](attachments/Fertigung%20Lager%20Auswahlmöglichkeit.png)
-:::
+    ![](attachments/Fertigung%20Lager%20Auswahlmöglichkeit.png)
+
 
 ## Berichte
 

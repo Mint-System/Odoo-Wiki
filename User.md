@@ -27,9 +27,9 @@ Nach dem Login klicken Sie oben rechts auf ihren Benutzer und wählen _Einstellu
 
 Klicken Sie oben rechts auf ihen Benutzer und wählen Sie _Einstellungen_. Öffnen Sie den Tab _Account Sicherheit_ und klicken Sie auf _Passwort Ändern_.
 
-::: warning
-Wenn Sie das Passwort geändert haben, werden Sie von Odoo ausgeloggt und müssen sich mit dem neuen Passwort einloggen.
-:::
+!!! warning
+    Wenn Sie das Passwort geändert haben, werden Sie von Odoo ausgeloggt und müssen sich mit dem neuen Passwort einloggen.
+
 
 ### E-Mail-Signatur hinterlegen
 
@@ -51,6 +51,6 @@ Odoo benachrichtigt Odoo-Benutzer entweder via E-Mail oder über den Odoo-Chat. 
 
 ![](attachments/Persönliche%20Einstellungen%20Benachrichtigung.png)
 
-::: warning
-Auch wenn die Benachrichtigung ohne E-Mail erfolgt, braucht der Benutzer einen Eintrag im Feld _E-Mail_.
-:::
+!!! warning
+    Auch wenn die Benachrichtigung ohne E-Mail erfolgt, braucht der Benutzer einen Eintrag im Feld _E-Mail_.
+

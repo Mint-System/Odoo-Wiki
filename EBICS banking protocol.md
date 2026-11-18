@@ -51,9 +51,9 @@ Wählen Sie _Rechnungsstellung > Konfiguration > EBICS Configuration_ und Erstel
 
 Im Tab _File Formats_ fügen Sie einen Eintrag hinzu. Wählen Sie die gewünschen Dateiformat aus der Liste aus.
 
-::: tip
-Im Normalfall benötigen Sie das Dateiformat _Z53_ für den Download und _XE2_ für den Download.
-:::
+!!! tip
+    Im Normalfall benötigen Sie das Dateiformat _Z53_ für den Download und _XE2_ für den Download.
+
 
 Validieren Sie den Konfigurations-Eintrag mit _Confirm_.
 
@@ -76,9 +76,9 @@ Unterschreiben Sie den Brief und senden Sie diesen an ihre Bank.
 
 Wenn der EBICS-Teilnehmer aktiviert wurde können Sie die Banken-Schlüssel herunterladen. Rufen Sie den EBICS-Teilnehmer in der EBICS-Konfiugration auf. Lösen Sie die Aktion _Get Bank Keys_ aus.
 
-::: tip
-Wenn der Teilnehmer bereits aktiviert wurde, wählen Sie _Renew Bank Keys_.
-:::
+!!! tip
+    Wenn der Teilnehmer bereits aktiviert wurde, wählen Sie _Renew Bank Keys_.
+
 
 Nun erhalten Sie eine Datei _EBICS Public Bank Keys_. Öffnen Sie diese Datei und Vergleichen Sie Schlüssel-Informationen mit den Bankparameterblatt.
 
@@ -98,9 +98,9 @@ EBICS File 'RAIFCHEC_3924015679_2025-08-26_Z53_CH4080808008919700926_CHF_024219.
 
 Mit der Aktion _View EBICS File(s)_ gelangen zur Ansicht _Rechnungsstellung > EBICS Processing > EBICS Files > Download_.
 
-::: warning
-Der Download-Vorgang lädt die Dateien aller verfübaren Konten herunter.
-:::
+!!! warning
+    Der Download-Vorgang lädt die Dateien aller verfübaren Konten herunter.
+
 
 ### EBICS-Download-Datei verarbeiten
 

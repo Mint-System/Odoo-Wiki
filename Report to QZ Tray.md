@@ -73,9 +73,9 @@ Hier tragen Sie folgenden beiden Parameter neu ein:
 | qz.certificate | Inhalt von cert.pem |
 | qz.key         | Inhalt von key.pem  |
 
-::: warning
-Kopieren Sie unbedingt den gesamten Textinhalt der Dateien inklusive die BEGIN- und die END-Zeile in den Wert.
-:::
+!!! warning
+    Kopieren Sie unbedingt den gesamten Textinhalt der Dateien inklusive die BEGIN- und die END-Zeile in den Wert.
+
 
 ### Drucker definieren
 

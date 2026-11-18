@@ -31,9 +31,9 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Navigieren Sie nach _Verkauf > Produkte > Produkte_ und zeigen Sie ein Produkt an. Im Feld _Default Invoicing Policy_ wählen Sie die passende Abrechnungsregel aus.
 
-::: warning
-Diese Erweiterung ersetzt das Feld _Abrechnungspolitik_.
-:::
+!!! warning
+    Diese Erweiterung ersetzt das Feld _Abrechnungspolitik_.
+
 
 ### Abrechnungsregel auf Angebot festlegen
 

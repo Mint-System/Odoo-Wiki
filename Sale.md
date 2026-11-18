@@ -72,6 +72,8 @@ Website: <https://www.odoo.com/de_DE/app/sales>
 | [Sale Restricted Qty](Sale%20Restricted%20Qty.md)                                                 | Mindest- und Maximalbestellmenge für Produkte festlegen.                      |
 | [Sale Start End Dates](Sale%20Start%20End%20Dates.md)                                             | Fügt dem Verkaufsauftrag ein Start- und Enddatum hinzu.                       |
 | [Sale Triple Discount](Sale%20Triple%20Discount.md)                                               | Mehrere Rabatte auf der Auftragsposition.                                     |
+| [Sale Project Report](Sale%20Project%20Report.md)                                                 | Stundenübersicht für Projekte                                                 |
+
 
 ## Produkte
 
@@ -208,6 +210,6 @@ Wenn Sie eine Rechnungs- oder Lieferadresse mit gleichen Anzeigename wie der Hau
 
 ![](attachments/Verkauf%20Kontakt-Suche.png)
 
-::: warning
-Die Verfügbarkeit des Felds _Adresstyp_ in der Listenauswahl muss mit einem Snippet sichergestellt werden.
-:::
+!!! warning
+    Die Verfügbarkeit des Felds _Adresstyp_ in der Listenauswahl muss mit einem Snippet sichergestellt werden.
+

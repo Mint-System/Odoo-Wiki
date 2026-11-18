@@ -45,9 +45,9 @@ Website: <https://www.odoo.com/de_DE/app/employees>
 
 ## Organisation
 
-::: tip
-Odoo unterscheidet zwischen Benutzer und Mitarbeiter. Mitarbeiter müssen nicht zwingend einen Odoo-Account besitzen. Zur Verwendung von Apps wie die Zeiterfassung muss den Benutzern ein Mitarbeiter hinterlegt werden.
-:::
+!!! tip
+    Odoo unterscheidet zwischen Benutzer und Mitarbeiter. Mitarbeiter müssen nicht zwingend einen Odoo-Account besitzen. Zur Verwendung von Apps wie die Zeiterfassung muss den Benutzern ein Mitarbeiter hinterlegt werden.
+
 
 ### Abteilungen anzeigen
 
@@ -81,9 +81,9 @@ Bestimmte Unterlagen wie die Lohnabrechnung werden an die private Adresse des Mi
 
 Erstellen Sie eine private Adresse folgendermassen: _Personal > Mitarbeiter auswählen > Tab Private Information > Bearbeiten_ und legen Sie private Adresse im Feld _Adresse_ fest.
 
-::: warning
-Das Feld heisst Adresse, aber effektiv ist damit ein privater Kontakt-Eintrag verbunden.
-:::
+!!! warning
+    Das Feld heisst Adresse, aber effektiv ist damit ein privater Kontakt-Eintrag verbunden.
+
 
 ## Abrechnung
 
@@ -99,9 +99,9 @@ Navigieren Sie nach _Einstellungen > Technisch > Arbeitszeit_ und erstellen Sie 
 
 ![](attachments/Personal%20Arbeitszeit.png)
 
-::: warning
-Stellen Sie sicher, dass die Anzahl Stunden am Vor- und Nachmittag gleich sind. Bei Abwesenheitseinträgen mit Halbtagen wird diese Anzahl Stunden verwendet.
-:::
+!!! warning
+    Stellen Sie sicher, dass die Anzahl Stunden am Vor- und Nachmittag gleich sind. Bei Abwesenheitseinträgen mit Halbtagen wird diese Anzahl Stunden verwendet.
+
 
 ### Flexible Arbeitszeit erfassen
 
@@ -127,13 +127,13 @@ Erstellen Sie eine neues Pensum _Personal > Mitarbeiter auswählen > Tab Arbeits
 
 ![](attachments/Personal%20Arbeitszeiten%20mit%20Enddatum.png)
 
-::: tip
-Es wird empfohlen pro Mitarbeitenden eine Arbeitszeit zu definieren.
-:::
+!!! tip
+    Es wird empfohlen pro Mitarbeitenden eine Arbeitszeit zu definieren.
 
-::: warning
-Wenn Mitarbeitende unterhalb des Jahres ein Arbeitspensum reduzieren oder erhöhen, muss sichergestellt werden, dass die Abwesenheiten neu berechnet werden.
-:::
+
+!!! warning
+    Wenn Mitarbeitende unterhalb des Jahres ein Arbeitspensum reduzieren oder erhöhen, muss sichergestellt werden, dass die Abwesenheiten neu berechnet werden.
+
 
 ## Offboarding
 

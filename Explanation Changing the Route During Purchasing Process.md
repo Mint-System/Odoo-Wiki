@@ -24,6 +24,6 @@ Daraus resultiert der Wareneingang WH/IN/00002 und die zwei internen Lagerbewegu
 - WH/Input --> WH/Quality Control
 - WH/Quality Control --> WH/Stock
 
-::: tip
-Wenn Routen für den Wareneingang während dem Einkaufsprozess geändert werden gilt die Einstellung, welche zum Zeitpunkt der Einkaufsbestätigung gültig war.
-:::
+!!! tip
+    Wenn Routen für den Wareneingang während dem Einkaufsprozess geändert werden gilt die Einstellung, welche zum Zeitpunkt der Einkaufsbestätigung gültig war.
+

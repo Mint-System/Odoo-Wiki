@@ -29,6 +29,6 @@ Navigieren Sie nach _Buchhaltung > Buchhaltung > Buchungszeilen_. Markieren Sie 
 
 ![](attachments/Account%20Journal%20Items%20Report%20Beispiel.png)
 
-::: warning
-Die Erstellung des Berichts für 7500 Buchungszeilen dauert ~60 Sekunden.
-:::
+!!! warning
+    Die Erstellung des Berichts für 7500 Buchungszeilen dauert ~60 Sekunden.
+

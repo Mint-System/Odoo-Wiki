@@ -22,15 +22,15 @@ Beim Erstellen einer QR-Rechnung werden diese Fehlermeldungen angezeigt:
 
 ![](attachments/Troubleshooting%20Swiss%20QR%20bill%20error%201.png)
 
-::: warning
-The following error prevented 'Swiss QR bill' QR-code to be generated though it was detected as eligible: When using a QR-IBAN as the destination account of a QR-code, the payment reference must be a QR-reference.
-:::
+!!! warning
+    The following error prevented 'Swiss QR bill' QR-code to be generated though it was detected as eligible: When using a QR-IBAN as the destination account of a QR-code, the payment reference must be a QR-reference.
+
 
 ![](attachments/Troubleshooting%20Swiss%20QR%20bill%20error%202.png)
 
-::: warning
-Cannot generate the QR-bill. Please check you have configured the address of your company and debtor. If you are using a QR-IBAN, also check the invoice's payment reference is a QR reference.
-:::
+!!! warning
+    Cannot generate the QR-bill. Please check you have configured the address of your company and debtor. If you are using a QR-IBAN, also check the invoice's payment reference is a QR reference.
+
 
 **Ursache**
 
@@ -142,9 +142,9 @@ Erstellen Sie gemäss [Azure OAuth-App Client-Secret neu erstellen](Settings%20O
 
 ### Office 365 SMTP-Auth deaktiviert
 
-::: tip
-Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
-:::
+!!! tip
+    Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+
 
 **Problem**
 
@@ -184,9 +184,9 @@ Konfigurieren Sie den ausgehenden E-Mail-Server mit einem Anbieter, der eine hö
 
 ### Office 365 Zugangstoken abgelaufen
 
-::: tip
-Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
-:::
+!!! tip
+    Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+
 
 **Problem**
 
@@ -208,9 +208,9 @@ Erstellen Sie gemäss [Azure OAuth-App Client-Secret neu erstellen](Settings%20O
 
 ### Office 365 Refreshtoken abgelaufen
 
-::: tip
-Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
-:::
+!!! tip
+    Wir empfehlen [Infomaniak kSuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca) anstatt Office 365 zu verwenden.
+
 
 **Problem**
 

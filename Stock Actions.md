@@ -33,9 +33,9 @@ Die Aktion mit dem Knopf _Kontextuelle Aktion erstellen_ bestätigen und dann sp
 
 In der Liste der Transfers erscheint nun in der Auswahl _Aktion_ das Menu _Transfer zurücksetzen_.
 
-::: warning
-Der Lagerbestand wird durch den Abbruch des Transfers nicht bereinigt.
-:::
+!!! warning
+    Der Lagerbestand wird durch den Abbruch des Transfers nicht bereinigt.
+
 
 ### Transfer zurücksetzen
 

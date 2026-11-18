@@ -94,17 +94,17 @@ Aktivieren Sie die Option _Mehrstufige Routen_ unter _Einstellungen > Lager > La
 
 Navigieren Sie nach _Lager_ und wählen Sie die Kachel _Lieferaufträge_ an. Nun erscheinen die zu erledigenden Lieferaufträge. Klicken Sie auf _Verfügbarkeit Prüfen_ und erledigen Sie den Auftrag mit _Bestätigen_.
 
-::: warning
-Für Produkte mit Nachverfolgung müssen Sie eine Lot-Nummer auswählen.
-:::
+!!! warning
+    Für Produkte mit Nachverfolgung müssen Sie eine Lot-Nummer auswählen.
+
 
 ### Anlieferung bestätigen
 
 Navigieren Sie nach _Lager_ und wählen Sie die Kachel _Anlieferung_ an. Nun erscheinen die zu erledigenden Anlieferungen. Bestätigen Sie den Erhalt der Produkte mit _Bestätigen_.
 
-::: warning
-Für Produkte mit Nachverfolgung müssen Sie eine Lot-Nummer auswählen.
-:::
+!!! warning
+    Für Produkte mit Nachverfolgung müssen Sie eine Lot-Nummer auswählen.
+
 
 ## Nachverfolgung
 
@@ -126,9 +126,9 @@ Die Sicherheitsvorlaufzeiten können Sie zentral unter _Einstellungen > Lager > 
 
 Wenn Sie die Rundungsgenauigkeit (Stellen nach dem Komma) einer Mengeneinheit ändern möchten, öffnen Sie _Lager > Konfiguration > Mengeneinheiten > UoM_ und wählen hier die Einheit aus. Im Feld _Rundungsgenauigkeit_ geben Sie den entsprechenden Wert ein.
 
-::: warning
-Hier können Sie [Dezimalstellen festlegen](Settings%20Technical.md#Dezimalstellen%20festlegen).
-:::
+!!! warning
+    Hier können Sie [Dezimalstellen festlegen](Settings%20Technical.md#Dezimalstellen%20festlegen).
+
 
 Die hier gemachten Einstellung haben Einfluss auf die Darstellung der Zahl.
 

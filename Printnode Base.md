@@ -117,9 +117,9 @@ Wenn Sie beispielsweise beim Abschliessen eines Fertigungsauftrags einen Bericht
 
 ### Druckszenario aktivieren
 
-::: warning
-Für den aktuellen Benutzer muss die Option _Print via Direct Print_ aktiviert sein.
-:::
+!!! warning
+    Für den aktuellen Benutzer muss die Option _Print via Direct Print_ aktiviert sein.
+
 
 Odoo Direct Print stellt gängige Druckszenarios unter _Direct Print > Print Scenarios_ zur Verfüng. Aktivieren Sie ein Senario mit einem Klick auf _Active_ und wählen Sie einen Drucker aus.
 
@@ -127,9 +127,9 @@ Odoo Direct Print stellt gängige Druckszenarios unter _Direct Print > Print Sce
 
 ### Druck-Aktion aktivieren
 
-::: warning
-Für den aktuellen Benutzer muss die Option _Print via Direct Print_ aktiviert sein.
-:::
+!!! warning
+    Für den aktuellen Benutzer muss die Option _Print via Direct Print_ aktiviert sein.
+
 
 Mit Odoo Direct Print können Druckaktionen ganz einfach hinzugefügt werden. Öffnen Sie die Ansicht _Direct Print > Print Action Buttons_. Aktivieren Sie eine Aktion mit einem Klick auf _Active_ und wählen Sie einen Drucker aus.
 
@@ -143,9 +143,9 @@ In diesem Beispiel wird der Lieferschein ausgedruck, sobald auf einem Liefersche
 
 ![](attachments/Odoo%20Direct%20Print%20Producut%20LAbels.png)
 
-::: tip
-Beachten Sie dass der Druckvorgang einige Sekunden in Anspruch nimmt.
-:::
+!!! tip
+    Beachten Sie dass der Druckvorgang einige Sekunden in Anspruch nimmt.
+
 
 ### Packvorgang/Lieferschein automatisch drucken
 
@@ -183,9 +183,9 @@ Erstellen Sie unter _Direct Print > Print Report Policy > Printer Settings_ eine
 
 Erstellen Sie unter _Direct Print > Print Report Policy > Report Settings_ einen Eintrag für ihren Bericht.
 
-::: tip
-Odoo Direct Print gibt eine Warnung aus, wenn das Papieformat nicht mit dem verknüpften Drucker übereinstimmt.
-:::
+!!! tip
+    Odoo Direct Print gibt eine Warnung aus, wenn das Papieformat nicht mit dem verknüpften Drucker übereinstimmt.
+
 
 ## Aktionen
 

@@ -15,9 +15,9 @@ partner: Mint System
 
 ## Verwendung
 
-::: tip
-Das Terminal Zeiterfassung ist im wesentlichen ein Mini-Computer, der die Odoo-Installation im Browser anzeigt. Mit dem eingebauten Touchscreen kann mit der Odoo-Oberfläche direkt interagiert werden.
-:::
+!!! tip
+    Das Terminal Zeiterfassung ist im wesentlichen ein Mini-Computer, der die Odoo-Installation im Browser anzeigt. Mit dem eingebauten Touchscreen kann mit der Odoo-Oberfläche direkt interagiert werden.
+
 
 ### Terminal Zeiterfassung in Betrieb nehmen
 
@@ -62,9 +62,9 @@ Exec=/usr/bin/chromium-browser --noerrdialogs --disable-session-crashed-bubble -
 
 Ersetzen Sie die Url `https://demo.odoo.com` mit der Url der Ansicht [Kioskmodus starten](HR%20Attendance.md#Kioskmodus%20starten).
 
-::: tip
-Speichern Sie vorgängig den Benutzernamen und Passwort des Odoo Benutzers im Browser.
-:::
+!!! tip
+    Speichern Sie vorgängig den Benutzernamen und Passwort des Odoo Benutzers im Browser.
+
 
 ### Autostart Programme anzeigen
 

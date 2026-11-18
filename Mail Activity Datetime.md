@@ -27,6 +27,6 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Wenn Sie eine Aktivität erstellen können Sie auf dem Feld _Fälligkeit_ die Uhrzeit festlegen.
 
-::: warning
-Technisch handelt sich um ein neues Feld `date_deadline_time`. Auf Kanban- und Listenansichten von `mail.activity` muss eine Anpassungen vorgenommen werden, damit das Feld angezeigt wird.
-:::
+!!! warning
+    Technisch handelt sich um ein neues Feld `date_deadline_time`. Auf Kanban- und Listenansichten von `mail.activity` muss eine Anpassungen vorgenommen werden, damit das Feld angezeigt wird.
+

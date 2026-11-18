@@ -38,6 +38,6 @@ Der Rückverfolgbarkeitsbericht zum Verlgeich:
 
 ![](attachments/Stock%20MRP%20Traceability%20List%20Report.png)
 
-::: tip
-Wenn der Fertigungsauftrag nicht erledigt ist, aber Materialreservationen gemacht wurden, versucht der Bericht anhand der Lot die Lieferverfolgungsliste zu erstellen.
-:::
+!!! tip
+    Wenn der Fertigungsauftrag nicht erledigt ist, aber Materialreservationen gemacht wurden, versucht der Bericht anhand der Lot die Lieferverfolgungsliste zu erstellen.
+

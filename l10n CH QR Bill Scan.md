@@ -21,10 +21,10 @@ versions:
 Technischer Name: {{ $frontmatter.name }}\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
-::: warning
-Diese App ist veraltet. Wir empfehlen die App [l10n CH QR ISR Invoice Import](l10n%20CH%20QR%20ISR%20Invoice%20Import.md) zu verwenden.
-#DEPRECATED
-:::
+!!! warning
+    Diese App ist veraltet. Wir empfehlen die App [l10n CH QR ISR Invoice Import](l10n%20CH%20QR%20ISR%20Invoice%20Import.md) zu verwenden.
+    #DEPRECATED
+
 
 ## Verwendung
 

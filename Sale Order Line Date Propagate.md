@@ -32,6 +32,6 @@ Ist diese Erweiterung installiert wird das Lieferdatum vom Verkaufsauftrag auf d
 
 ![Sale Order Line Date Propagate](attachments/Sale%20Order%20Line%20Date%20Propagate.gif)
 
-::: tip
-Beim Übertrag des Lieferdatum wird die Sicherheitsvorlaufzeit für den Verkauf eingerechnet.
-:::
+!!! tip
+    Beim Übertrag des Lieferdatum wird die Sicherheitsvorlaufzeit für den Verkauf eingerechnet.
+

@@ -22,9 +22,9 @@ versions:
 Technischer Name: {{ $frontmatter.name }}\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
-::: warning
-Die Installation von [Purchase Partner Incoterm](Purchase%20Partner%20Incoterm.md) übersteuert das Standardverhalten dieses Moduls. Sie sollten entweder dieses oder das andere Modul installiert haben.
-:::
+!!! warning
+    Die Installation von [Purchase Partner Incoterm](Purchase%20Partner%20Incoterm.md) übersteuert das Standardverhalten dieses Moduls. Sie sollten entweder dieses oder das andere Modul installiert haben.
+
 
 ## Verwendung
 

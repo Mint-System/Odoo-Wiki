@@ -18,9 +18,9 @@ Zur Generierung einer QR-Rechnung müssen verschiedene Bedingungen erfüllt sien
 
 Sind diese Bedingungen erfüllt, kann mit der _Print QR-Bill_ Aktion eine QR-Rechnung generiert werden.
 
-::: tip
-Um den QR-Code der QR-Rechnung zu validieren, können Sie die PDF-Datei auf <https://www.swiss-qr-invoice.org/validator/> hochladen und validieren.
-:::
+!!! tip
+    Um den QR-Code der QR-Rechnung zu validieren, können Sie die PDF-Datei auf <https://www.swiss-qr-invoice.org/validator/> hochladen und validieren.
+
 
 ## Rechnung und QR-Rechnung zusammen drucken
 

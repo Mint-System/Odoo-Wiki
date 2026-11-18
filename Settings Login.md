@@ -33,29 +33,29 @@ Benutzer verwalten Sie unter _Einstellungen > Benutzer und Unternehmen > Benutze
 
 Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Benutzer_ und wählen Sie _Neu_. Geben Sie einen Namen und eine E-Mail-Adresse ein. Legen Sie Berechtigungen fest und speichern Sie den Eintrag. Odoo verschickt automatisch eine Einladung an die E-Mail-Adresse mit der Aufforderung das Passwort festzulegen.
 
-::: tip
-Wenn Sie die Berechtigungen eines bestehenden Benutzers übernehmen wollen, können Sie den Benutzer duplizieren.
-:::
+!!! tip
+    Wenn Sie die Berechtigungen eines bestehenden Benutzers übernehmen wollen, können Sie den Benutzer duplizieren.
 
-::: warning
-Wenn ein Benutzerwechsel stattfindet, sollten Sie nicht den Namen eines bestehenden Benutzer anpassen. Stattdessen duplizieren Sie den bestehenden Benutzer, passen Sie den Namen auf dem neuen Benutzer an und archivieren Sie den alten Benutzer.
-:::
+
+!!! warning
+    Wenn ein Benutzerwechsel stattfindet, sollten Sie nicht den Namen eines bestehenden Benutzer anpassen. Stattdessen duplizieren Sie den bestehenden Benutzer, passen Sie den Namen auf dem neuen Benutzer an und archivieren Sie den alten Benutzer.
+
 
 ### Benutzername ändern
 
 Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Benutzer_ und wählen Sie einen bestehenden Benutzer aus. Im Feld _E-Mail-Adresse_ können Sie das Login ändern.
 
-::: warning
-Benutzer für welche das Benutzernamen geändert wurde, werden von Odoo augeloggt und müssen sich dem neuen Benutzernamen einloggen.
-:::
+!!! warning
+    Benutzer für welche das Benutzernamen geändert wurde, werden von Odoo augeloggt und müssen sich dem neuen Benutzernamen einloggen.
+
 
 ### Benutzer entfernen
 
 Wenn Sie Benutzer entfernen möchten, müssen Sie diesen archivieren. Navigieren Sie nach _Einstellungen > Benutzer und Unternehmen > Benutzer_ und wählen Sie den zu entfernden Benutzer aus. Kicken Sie auf _Aktionen > Archiv_.
 
-::: tip
-Der Benutzer wird mit dieser Aktion nicht gelöscht, sondern nur ausgeblendet.
-:::
+!!! tip
+    Der Benutzer wird mit dieser Aktion nicht gelöscht, sondern nur ausgeblendet.
+
 
 ### Benutzertyp festlegen
 
@@ -78,25 +78,25 @@ Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Benutzer_ und kl
 
 Wählen Sie _Aktion > Passwort ändern_. Geben Sie im Feld _Neues Passwort_ das neue Passwort ein und bestätigen Sie den Dialog.
 
-::: warning
-Die Bentuzer für welche das Passwort geändert wurde, werden von Odoo ausgeloggt und müssen sich mit dem neuen Passwort einloggen.
-:::
+!!! warning
+    Die Bentuzer für welche das Passwort geändert wurde, werden von Odoo ausgeloggt und müssen sich mit dem neuen Passwort einloggen.
+
 
 ### Passwort für mehrere Benutzer ändern
 
 Navigieren Sie nach _Einstellungen > Allgemeine Einstellungen > Benutzer_ und markieren Sie alle Benutzer, die ein neues Passwort erhalten sollen. Klicken Sie auf _Aktionen > Passwort ändern_. Im Neuen Dialog können Sie in der Spalte _Neues Passwort_, die neuen Passwörter eingeben. Bestätigen Sie den Vorgang mit _Passwort ändern_.
 
-::: tip
-Teilen Sie den Benutzer das Passwort als Link mit. Sie können einen Passwort-Link mit <https://kpaste.infomaniak.com/> generieren.
-:::
+!!! tip
+    Teilen Sie den Benutzer das Passwort als Link mit. Sie können einen Passwort-Link mit <https://kpaste.infomaniak.com/> generieren.
+
 
 ### Start-Aktion für Benutzer definieren
 
 Wenn der Benutzer einloggt, kann eine Aktion ausgeführt werden. Diese Aktion legen Sie im Entwicklermodus unter _Einstellungen > Benutzer und Unternehmen > Benutzer > Benutzer auswählen > Tab Einstellungen_ im Feld _Aktionen_ fest.
 
-::: warning
-Einige Aktionen haben den gleichen Namen, testen Sie die Auswahl vorgängig mit ein- und ausloggen. Ändern Sie den Anzeigenamen der Aktionen nach Bedarf.
-:::
+!!! warning
+    Einige Aktionen haben den gleichen Namen, testen Sie die Auswahl vorgängig mit ein- und ausloggen. Ändern Sie den Anzeigenamen der Aktionen nach Bedarf.
+
 
 ![](attachments/Einstellungen%20Login%20Start-Aktion.png)
 
@@ -159,13 +159,13 @@ Android: [Aegis Authenticator](https://getaegis.app/)
 
 Sie können für Ihren Odoo-Benutzer jederzeit die Zwei-Faktor-Authentisierung einrichten. Klicken Sie dazu auf _Account > Mein Profil / Einstellungen_ und im Tab _Account Sicherheit_ wählen Sie _Aktiviere Zwei-Faktor-Authentifizierung_. Geben Sie das Passwort des Odoo-Account ein. Befolgen Sie die Anweisungen im Dialog.
 
-::: warning
-Führen Sie diese Aktivierung auf dem Desktop durch. Odoo generiert für die Zwei-Faktor-Authentisierung eine QR-Code, den Sie mit dem Smartphone scannen müssen.
-:::
+!!! warning
+    Führen Sie diese Aktivierung auf dem Desktop durch. Odoo generiert für die Zwei-Faktor-Authentisierung eine QR-Code, den Sie mit dem Smartphone scannen müssen.
 
-::: tip
-Sie können das 2-Faktor-Geheimnis zur Generierung des TOTP-Codes exportieren. Klicken Sie auf _Scannen klappt nicht?_ und speichern Sie das Gehemeinis in ihrere TOTP-App.
-:::
+
+!!! tip
+    Sie können das 2-Faktor-Geheimnis zur Generierung des TOTP-Codes exportieren. Klicken Sie auf _Scannen klappt nicht?_ und speichern Sie das Gehemeinis in ihrere TOTP-App.
+
 
 ### 2-Faktor-Authentisierung von Einladung aktivieren
 

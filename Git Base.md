@@ -41,9 +41,9 @@ Der Author der Commits ist standardmässig der eingeloggte Benutzer. Wenn Sie ei
 
 Öffnen Sie unter _Git > Repos_ ein Repository. Im Tab _Configuration_ führen Sie die Aktion _Generate Deploy Keys_.
 
-::: tip
-Diesen SSH-Schlüssel hinterlegen Sie als _Deploy key_ auf den Remote Repository.
-:::
+!!! tip
+    Diesen SSH-Schlüssel hinterlegen Sie als _Deploy key_ auf den Remote Repository.
+
 
 ### Repository initialisieren oder klonen
 
@@ -59,9 +59,9 @@ Diesen SSH-Schlüssel hinterlegen Sie als _Deploy key_ auf den Remote Repository
 
 Öffnen Sie unter _Git > Repos_ ein Repository, das sich im Status _Initialized_ oder _Connected_ befindet. Fügen Sie über den Datei-Upload eine Datei hinzu. Führen Sie den Befehl `Add All` aus. Nun ist die Datei im Staging, Sie können diese mit dem Befehl `Commit` und mit der Eingabe einer Nachricht committen.
 
-::: tip
-Wenn Sie eine Zip-Datei hochladen wird diese entpackt.
-:::
+!!! tip
+    Wenn Sie eine Zip-Datei hochladen wird diese entpackt.
+
 
 ### Remote für Repository registrieren
 
@@ -75,9 +75,9 @@ Mit dem Befehl `Pull` werden Änderungen auf dem Remote-Branch heruntergeladen. 
 
 Mit dem Befehl `Push` können Sie lokale Änderungen auf den Remote laden. Wenn der Remote-Branch noch nicht existiert, wählen Sie `Push Upstream`.
 
-::: warning
-Mit dem Befehl `Push Force` können Sie einen Remote-Branch überschreiben.
-:::
+!!! warning
+    Mit dem Befehl `Push Force` können Sie einen Remote-Branch überschreiben.
+
 
 ### Repository entfernen
 
@@ -102,6 +102,6 @@ repo_id = self.ref("project_github.project_repo")
 repo_id.switch_to_environment_branch()
 ```
 
-::: warning
-Diese Methode wirft einen Fehler, wenn kein Branch anhand der aktiven Umgebung gefunden werden konnte. Stellen Sie sicher, dass die aktive Umgebung mit einem Branch verknüpft ist.
-:::
+!!! warning
+    Diese Methode wirft einen Fehler, wenn kein Branch anhand der aktiven Umgebung gefunden werden konnte. Stellen Sie sicher, dass die aktive Umgebung mit einem Branch verknüpft ist.
+

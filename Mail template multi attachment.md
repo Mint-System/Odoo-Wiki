@@ -22,10 +22,10 @@ partner: OCA
 Technischer Name: {{ $frontmatter.name }}\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
-::: warning
-Seit <Badge type="info" text="Odoo17" vertical="middle" /> wird diese App nicht mehr benötigt.
-#DEPRECATED
-:::
+!!! warning
+    Seit <Badge type="info" text="Odoo17" vertical="middle" /> wird diese App nicht mehr benötigt.
+    #DEPRECATED
+
 
 ## Verwendung
 
@@ -33,6 +33,6 @@ Seit <Badge type="info" text="Odoo17" vertical="middle" /> wird diese App nicht 
 
 Zeigen Sie eine Mail-Vorlage unter *Einstellungen > Technisch > E-Mail Vorlagen* an. Zeige den Tab *Attachments* an. Im Abschnitt *Multi Attachments* können Sie mehrere Vorlagen hinzufügen. Das Feld *Report Name* können leer lassen.
 
-::: tip
-Entfernen Sie Inhalte aus *Simple Attachment* wenn Sie *Multi Attachments* verwenden.
-:::
+!!! tip
+    Entfernen Sie Inhalte aus *Simple Attachment* wenn Sie *Multi Attachments* verwenden.
+

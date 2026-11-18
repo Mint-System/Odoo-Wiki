@@ -33,6 +33,6 @@ Navigieren Sie nach _Einstellungen > Technisch > E-Mails > Alias-Domains_ und ru
 
 ![](attachments/Mail%20Force%20From.png)
 
-::: warning
-Diese Einstellungen überschreibt auch die Einstellungen auf E-Mail-Vorlagen.
-:::
+!!! warning
+    Diese Einstellungen überschreibt auch die Einstellungen auf E-Mail-Vorlagen.
+

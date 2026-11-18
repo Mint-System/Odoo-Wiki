@@ -21,9 +21,9 @@ versions:
 Technischer Name: {{ $frontmatter.name }}\
 Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
-::: warning
-Vor der Installation dieses Moduls wird empfohlen alle E-Mails im Status _Bounced_ aus Odoo zu löschen oder den Status dieser E-Mails manuell zu ändern.
-::::
+!!! warning
+    Vor der Installation dieses Moduls wird empfohlen alle E-Mails im Status _Bounced_ aus Odoo zu löschen oder den Status dieser E-Mails manuell zu ändern.
+
 
 ## Beschreibung
 

@@ -143,9 +143,9 @@ number_of_days
 
 Datei: `hr.leave.csv`
 
-::: warning
-Währen dem Importvorgang wird die Dauer mit dem Start- und Enddatum berechnet, das heisst nach dem ersten Import stimmt die Dauer nicht (Wochenende wird nicht abgezählt). Um das zu lösen kann man den Import-Vorgang nochmals durchführen. Anhand der _id_ werden dann die bestehenden Einträge überschrieben statt erstellt. Dann stimmt auch die Dauer des Eintrags.
-:::
+!!! warning
+    Währen dem Importvorgang wird die Dauer mit dem Start- und Enddatum berechnet, das heisst nach dem ersten Import stimmt die Dauer nicht (Wochenende wird nicht abgezählt). Um das zu lösen kann man den Import-Vorgang nochmals durchführen. Anhand der _id_ werden dann die bestehenden Einträge überschrieben statt erstellt. Dann stimmt auch die Dauer des Eintrags.
+
 
 Beispiel:
 

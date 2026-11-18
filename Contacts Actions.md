@@ -168,9 +168,9 @@ if partner_ids:
   log('Archived partners with planned activity: %s' % ', '.join(partner_ids.mapped('display_name')))
 ```
 
-::: tip
-Die Aktivität auf dem Kontakt wird im Archivierungsvorgang gelöscht.
-:::
+!!! tip
+    Die Aktivität auf dem Kontakt wird im Archivierungsvorgang gelöscht.
+
 
 ## Automatisierungsregeln
 

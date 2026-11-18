@@ -32,9 +32,9 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 Navigieren Sie nach _Einstellungen > Technisch > Metrics_ und erstellen Sie einen neuen Eintrag.
 
-::: tip
-Standardmässig werden die Anazahl der Einträge gemäss Datnemodell und Filter (Domain) als Metrik-Wert publiziert.
-:::
+!!! tip
+    Standardmässig werden die Anazahl der Einträge gemäss Datnemodell und Filter (Domain) als Metrik-Wert publiziert.
+
 
 ![](attachments/Prometheus%20Exporter%20Metrics%20Details.png)
 

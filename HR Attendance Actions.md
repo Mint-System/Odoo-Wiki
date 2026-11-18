@@ -17,10 +17,10 @@ partner: Mint System
 
 ### Fehlende Anwesenheitseinträge anzeigen
 
-::: warning
-Diese Funktion wurde Teil von [HR Attendance Missing](HR%20Attendance%20Missing.md).
-#DEPRECATED
-:::
+!!! warning
+    Diese Funktion wurde Teil von [HR Attendance Missing](HR%20Attendance%20Missing.md).
+    #DEPRECATED
+
 
 Navigieren Sie nach _Einstellungen > Technisch > Serveraktionen_ und erstellen Sie einen neuen Eintrag:
 
