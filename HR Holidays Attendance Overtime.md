@@ -18,8 +18,7 @@ name: hr_holidays_attendance_overtime
 {{ $frontmatter.description }}
 
 Technischer Name: {{ $frontmatter.name }}\
-Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a><!--\
-Runboat: <a v-bind:href="`https://runboat.odoo-community.org/builds?repo=${$frontmatter.repo}`">https://runboat.odoo-community.org/builds?repo={{ $frontmatter.repo }}</a>-->
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 
@@ -27,7 +26,7 @@ Mit dieser Erweiterung kann eine Überstundenregel mit einer Abwesenheitsart ver
 
 **Beispiele für Regeln**
 
-| Name | Definition | Regel |
-|---|---|---|
-| **Überstunden** | Arbeitszeit über dem vertraglichen Soll (Arbeitszeitmodell, z.B. 42h/Woche bei 100%, 33.6h bei 80%) bis 45h/Woche | Regel „Überstunden": Basis Menge, Periode Woche, Grundlage Arbeitszeitmodell  |
-| **Überzeit** | Arbeitszeit über der gesetzlichen Höchstarbeitszeit von 45h/Woche (ArG Art. 9) | Regel „Überzeit": Basis Menge, Periode Woche, feste Schwelle 45h|
+| Name            | Definition                                                                                                        | Regel                                                                        |
+| --------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **Überstunden** | Arbeitszeit über dem vertraglichen Soll (Arbeitszeitmodell, z.B. 42h/Woche bei 100%, 33.6h bei 80%) bis 45h/Woche | Regel „Überstunden": Basis Menge, Periode Woche, Grundlage Arbeitszeitmodell |
+| **Überzeit**    | Arbeitszeit über der gesetzlichen Höchstarbeitszeit von 45h/Woche (ArG Art. 9)                                    | Regel „Überzeit": Basis Menge, Periode Woche, feste Schwelle 45h             |
