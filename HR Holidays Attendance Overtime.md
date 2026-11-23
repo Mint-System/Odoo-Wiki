@@ -1,6 +1,6 @@
 ---
 title: HR Holidays Attendance Overtime
-description: Verknüpft Überstundenregeln mit Abwesenheitsarten, um Extrastunden- und Überstundenbilanzen getrennt zu halten.
+description: Erlaubt eine Trennung von Überstunden und Überzeit.
 kind: howto
 partner: Mint-System
 prev: ./hr
@@ -18,16 +18,15 @@ name: hr_holidays_attendance_overtime
 {{ $frontmatter.description }}
 
 Technischer Name: {{ $frontmatter.name }}\
-Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a><!--\
-Runboat: <a v-bind:href="`https://runboat.odoo-community.org/builds?repo=${$frontmatter.repo}`">https://runboat.odoo-community.org/builds?repo={{ $frontmatter.repo }}</a>-->
+Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/tree/${$frontmatter.versions[0]}/${$frontmatter.name}`">https://{{ $frontmatter.forge }}/{{ $frontmatter.repo }}/tree/{{ $frontmatter.versions[0] }}/{{ $frontmatter.name }}</a>
 
 ## Beschreibung
 
-Mit dieser Erweiterung kann eine Überstundenregel mit einer Abwesenheitsart verknüpft werden. Für jede verknüpfte Abwesenheitsart wird dabei ein eigener Saldo geführt und das Abwesenheiten-Dashboard zeigt pro verknüpfter Abwesenheitsart eine eigene Kachel.
+Mit dieser Erweiterung können Überstundenregel-Zeilen mit einer Abwesenheitsart verknüpft werden. Bei der Erfassung der Anwesenheit werden alle Zeilen der Überstundenregel des Mitarbeitenden geeprüèt.
 
-**Beispiele für Regeln**
+Standardässig werden diese Überstundenregel-Zeilen erstellt:
 
-| Name | Definition | Regel |
-|---|---|---|
-| **Überstunden** | Arbeitszeit über dem vertraglichen Soll (Arbeitszeitmodell, z.B. 42h/Woche bei 100%, 33.6h bei 80%) bis 45h/Woche | Regel „Überstunden": Basis Menge, Periode Woche, Grundlage Arbeitszeitmodell  |
-| **Überzeit** | Arbeitszeit über der gesetzlichen Höchstarbeitszeit von 45h/Woche (ArG Art. 9) | Regel „Überzeit": Basis Menge, Periode Woche, feste Schwelle 45h|
+| Name            | Definition                                                                                                        | Regel                                                                                    |
+| --------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **Überstunden** | Arbeitszeit über dem vertraglichen Soll (Arbeitszeitmodell, z.B. 42h/Woche bei 100%, 33.6h bei 80%) bis 45h/Woche | Regel "Überstunden": Grundlage Arbeitszeitmodell, aktiv bis 45h minus Arbeitssollstunden |
+| **Überzeit**    | Arbeitszeit über der gesetzlichen Höchstarbeitszeit von 45h/Woche (ArG Art. 9)                                    | Regel "Überzeit": Periode Woche, aktiv ab 45h minus Arbeitssollstunden                   |
