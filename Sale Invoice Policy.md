@@ -8,6 +8,7 @@ prev: ./sale
 repo: OCA/sale-workflow
 title: Sale Invoice Policy
 versions:
+  - '19.0'
   - '18.0'
   - '17.0'
   - '16.0'
