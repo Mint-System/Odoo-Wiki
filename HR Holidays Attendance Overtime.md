@@ -22,9 +22,9 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Beschreibung
 
-Mit dieser Erweiterung können Überstundenregel-Zeilen mit einer Abwesenheitsart verknüpft werden. Bei der Erfassung der Anwesenheit werden alle Zeilen der Überstundenregel des Mitarbeitenden geeprüèt.
+Mit dieser Erweiterung können Überstundenregel-Zeilen mit einer Abwesenheitsart verknüpft werden. Bei der Erfassung der Anwesenheit werden alle Zeilen der Überstundenregel des Mitarbeitenden geprüft.
 
-Standardässig werden diese Überstundenregel-Zeilen erstellt:
+Standardmässig werden diese Überstundenregel-Zeilen erstellt:
 
 | Name            | Definition                                                                                                        | Regel                                                                                    |
 | --------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
