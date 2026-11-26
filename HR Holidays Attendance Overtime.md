@@ -38,24 +38,30 @@ Standardmässig werden diese Überstundenregel-Zeilen erstellt:
 
 ## Konfiguration
 
-1. **Regelsatz** öffnen: _Anwesenheiten > Konfiguration > Regelsätze für Überstunden_, dort den Regelsatz _Überstunden und Überzeit_ öffnen.
-2. Regel **„Überstunden“** (Zeitraum _Tag_):
-   - bei _Wenn die gearbeiteten Stunden pro Tag weicht ab_ die Option _von der im Vertrag festgelegten Anzahl_ aktivieren.
-   - _Max. Stunden pro Woche_ setzen, z.B. 45:00.
-   - _Als Urlaub zurückgeben_ aktivieren.
-   - Als Abwesenheitsart _Kompensation_ wählen.
-3. Regel **„Überzeit“** (Zeitraum Woche):
-   - bei _Wenn die gearbeiteten Stunden pro Woche weicht ab_ die Option _von einer bestimmten Dauer_ aktivieren
-   - _Überschreitungsdauer_ fest auf 45:00 Stunden setzen.
-   - _Als Urlaub zurückgeben_ aktivieren.
-   - Als _Abwesenheitsart_ „Überzeit“ wählen.
-4. **Abwesenheitsarten prüfen**: Beide Arten müssen _Überstunden abziehen_ aktiviert haben und dürfen keine Zuteilung erfordern.
-5. **Regelsatz zuweisen**: Den Regelsatz im Vertrag des Mitarbeiters hinterlegen.
+**Regelsatz** öffnen: _Anwesenheiten > Konfiguration > Regelsätze für Überstunden_, dort den Regelsatz _Überstunden und Überzeit_ öffnen.
+
+Regel **„Überstunden“** (Zeitraum _Tag_):
+
+- Nei _Wenn die gearbeiteten Stunden pro Tag weicht ab_ die Option _von der im Vertrag festgelegten Anzahl_ aktivieren.
+- _Max. Stunden pro Woche_ setzen, z.B. 45:00.
+- _Als Urlaub zurückgeben_ aktivieren.
+- Als Abwesenheitsart _Kompensation_ wählen.
+
+Regel **„Überzeit“** (Zeitraum Woche):
+
+- Bei _Wenn die gearbeiteten Stunden pro Woche weicht ab_ die Option _von einer bestimmten Dauer_ aktivieren
+- _Überschreitungsdauer_ fest auf 45:00 Stunden setzen.
+- _Als Urlaub zurückgeben_ aktivieren.
+- Als _Abwesenheitsart_ „Überzeit“ wählen.
+
+**Abwesenheitsarten prüfen**: Beide Arten müssen _Überstunden abziehen_ aktiviert haben und dürfen keine Zuteilung erfordern.
+
+**Regelsatz zuweisen**: Den Regelsatz im Vertrag des Mitarbeiters hinterlegen.
 
 ## Verwendung
 
-1. **Anwesenheit**: _Gearbeitete Überstunden_ und _Validierte Überstunden_ zeigen nur die Überstunden.
-   Die _Überzeit der Woche_ steht im Feld _Weekly Overtime Hours)_, und zwar nur bei der letzten Anwesenheit der Woche.
-2. **Guthaben**: Im Abwesenheits-Dashboard und im Abwesenheitsantrag sieht man das verfügbare Guthaben je Abwesenheitsart, z.B. „Überzeit (9:45 Stunden verfügbar)“.
-3. **Abwesenheitsantrag**: Ein Antrag wird nur gegen das Guthaben der gewählten Art geprüft. Wer mehr beantragt als vorhanden, erhält eine Fehlermeldung.
-4. **Auswertung**: _Anwesenheiten > Berichte > Überstunden und Überzeit_ zeigt die Überstundenzeilen gruppiert nach Abwesenheitsart.
+- **Anwesenheit**: _Gearbeitete Überstunden_ und _Validierte Überstunden_ zeigen nur die Überstunden.
+  Die _Überzeit der Woche_ steht im Feld _Weekly Overtime Hours)_, und zwar nur bei der letzten Anwesenheit der Woche.
+- **Guthaben**: Im Abwesenheits-Dashboard und im Abwesenheitsantrag sieht man das verfügbare Guthaben je Abwesenheitsart, z.B. „Überzeit (9:45 Stunden verfügbar)“.
+- **Abwesenheitsantrag**: Ein Antrag wird nur gegen das Guthaben der gewählten Art geprüft. Wer mehr beantragt als vorhanden, erhält eine Fehlermeldung.
+- **Auswertung**: _Anwesenheiten > Berichte > Überstunden und Überzeit_ zeigt die Überstundenzeilen gruppiert nach Abwesenheitsart.
