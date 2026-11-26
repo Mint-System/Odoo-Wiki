@@ -151,7 +151,7 @@ Erstellen Sie gemäss [Azure OAuth-App Client-Secret neu erstellen](Settings%20O
 Beim Testen der SMTP-Verbindung mit Office 365 erscheint dieser Fehler:
 
 ```
-Der Server hat die Absenderadresse (﻿﻿[odoo@example.com)](https://odoo@localfish.ch))﻿﻿ mit dem Fehler b'5.7.57 Client not authenticated to send mail. Error: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit ﻿﻿[https://aka.ms/smtp_auth_disabled](https://aka.ms/smtp_auth_disabled)﻿﻿ for more information. [﻿﻿[FR3P281CA0113.DEUP281.PROD.OUTLOOK.COM](https://FR3P281CA0113.DEUP281.PROD.OUTLOOK.COM)﻿﻿ 2024-05-03T07:54:23.031Z 08DC6AD071D7DE27]' abgelehnt
+Der Server hat die Absenderadresse (﻿﻿odoo@example.com)﻿﻿ mit dem Fehler b'5.7.57 Client not authenticated to send mail. Error: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit ﻿﻿https://aka.ms/smtp_auth_disabled﻿﻿ for more information. [﻿﻿[FR3P281CA0113.DEUP281.PROD.OUTLOOK.COM](https://FR3P281CA0113.DEUP281.PROD.OUTLOOK.COM)﻿﻿ 2024-05-03T07:54:23.031Z 08DC6AD071D7DE27]' abgelehnt
 ```
 
 **Lösung**

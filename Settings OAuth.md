@@ -60,7 +60,7 @@ Wenn Sie die Berechtigungen erteilt haben, müssen noch den "Admin Consent" erte
 
 ![](attachments/Settings%20OAuth%20Grant%20admin%20consent.png)
 
-Klicken Sie auf _Unternehmens-Apps_. Wählen Sie die erstelle Appa aus und klicken Sie auf _Benutzer und Gruppen_. Fügen Sie den Benutzer mit dem sich Odoo verbindet, der OAuth-App hinzu.
+Klicken Sie auf _Unternehmens-Apps_. Wählen Sie die Odoo-App aus und klicken Sie auf _Benutzer und Gruppen_. Fügen Sie den Benutzer mit dem sich Odoo verbindet, der OAuth-App hinzu.
 
 Kopieren Sie die _Anwendungs-ID (Client)_, es handelt sich hierbei um die _Client ID_ der registrierten App.
 
