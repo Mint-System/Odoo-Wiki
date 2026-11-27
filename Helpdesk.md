@@ -24,12 +24,13 @@ Website: <https://www.odoo.com/de_DE/app/helpdesk>
 
 ## Erweiterungen
 
-| Erweiterung                                           | Beschreibung                                    |
-| ----------------------------------------------------- | ----------------------------------------------- |
-| [Helpdesk Management](Helpdesk%20Management.md)       | Helpdesk Community Edition.                     |
-| [Helpdesk Project Task](Helpdesk%20Project%20Task.md) | Projektaufgaben und Helpdesk-Tickets verlinken. |
+| Erweiterung                                                   | Beschreibung                                               |
+| ------------------------------------------------------------- | ---------------------------------------------------------- |
+| [Helpdesk Management](Helpdesk%20Management.md)               | Helpdesk Community Edition.                                |
+| [Helpdesk Project Task](Helpdesk%20Project%20Task.md)         | Projektaufgaben und Helpdesk-Tickets verlinken.            |
+| [Helpdesk Ticket Pure ICT](Helpdesk%20Ticket%20Pure%20ICT.md) | Change Management relatierte Felder zum Ticket hinzufügen. |                                                              |                                                            |
 
-## Koniguration
+## Konfiguration
 
 ### Team anlegen
 
