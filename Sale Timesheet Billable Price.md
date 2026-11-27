@@ -8,6 +8,7 @@ prev: ./hr-timesheet
 repo: Mint-System/Odoo-Apps-Sale-Workflow
 title: Sale Timesheet Billable Price
 versions:
+  - '19.0'
   - '18.0'
   - '17.0'
   - '16.0'
@@ -25,4 +26,4 @@ Repository: <a v-bind:href="`https://${$frontmatter.forge}/${$frontmatter.repo}/
 
 ## Verwendung
 
-Mit dieser Erweiterung werden Dienstleistungen mit Preis null nicht in Rechnung gestellt, aber auch Rechnungen und Zeiterfassungen aufgeführt inkl. Filtermöglichkeit.
+Mit dieser Erweiterung werden Dienstleistungen mit Preis null nicht in Rechnung gestellt, aber auf Rechnungen und Zeiterfassungen aufgeführt inkl. Filtermöglichkeit.
