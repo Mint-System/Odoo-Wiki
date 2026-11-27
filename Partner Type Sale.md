@@ -8,6 +8,7 @@ prev: ./contacts
 repo: Mint-System/Odoo-Apps-Partner-Contact
 title: Partner Type Sale
 versions:
+  - '19.0'
   - '17.0'
   - '16.0'
   - '15.0'
